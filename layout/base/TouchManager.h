@@ -203,7 +203,7 @@ dom
 Touch
 >
 *
-gCaptureTouchList
+sCaptureTouchList
 ;
 }
 ;

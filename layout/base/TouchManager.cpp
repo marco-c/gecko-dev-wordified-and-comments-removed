@@ -52,7 +52,7 @@ Touch
 TouchManager
 :
 :
-gCaptureTouchList
+sCaptureTouchList
 ;
 void
 TouchManager
@@ -65,7 +65,7 @@ InitializeStatics
 NS_ASSERTION
 (
 !
-gCaptureTouchList
+sCaptureTouchList
 "
 InitializeStatics
 called
@@ -75,7 +75,7 @@ times
 "
 )
 ;
-gCaptureTouchList
+sCaptureTouchList
 =
 new
 nsRefPtrHashtable
@@ -98,7 +98,7 @@ ReleaseStatics
 {
 NS_ASSERTION
 (
-gCaptureTouchList
+sCaptureTouchList
 "
 ReleaseStatics
 called
@@ -109,9 +109,9 @@ Initialize
 )
 ;
 delete
-gCaptureTouchList
+sCaptureTouchList
 ;
-gCaptureTouchList
+sCaptureTouchList
 =
 nullptr
 ;
@@ -366,7 +366,7 @@ OwnerDoc
 aLimitToDocument
 )
 {
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Remove
@@ -400,7 +400,7 @@ for
 auto
 iter
 =
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Iter
@@ -666,7 +666,7 @@ Identifier
 if
 (
 !
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Get
@@ -694,7 +694,7 @@ aEvent
 >
 mMessage
 ;
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Put
@@ -808,7 +808,7 @@ Touch
 >
 oldTouch
 =
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 GetWeak
@@ -894,7 +894,7 @@ SetTarget
 targetPtr
 )
 ;
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Put
@@ -1109,7 +1109,7 @@ Touch
 >
 oldTouch
 =
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 GetWeak
@@ -1152,7 +1152,7 @@ SetTarget
 targetPtr
 )
 ;
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Remove
@@ -1200,7 +1200,7 @@ nullptr
 ;
 if
 (
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Count
@@ -1224,7 +1224,7 @@ for
 auto
 iter
 =
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Iter
@@ -1316,7 +1316,7 @@ aId
 )
 {
 return
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 Contains
@@ -1350,7 +1350,7 @@ Touch
 >
 touch
 =
-gCaptureTouchList
+sCaptureTouchList
 -
 >
 GetWeak
