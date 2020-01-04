@@ -328,6 +328,16 @@ EXTRA_COMPONENTS
 =
 [
 '
+EthernetManager
+.
+js
+'
+'
+EthernetManager
+.
+manifest
+'
+'
 NetworkStatsManager
 .
 js
