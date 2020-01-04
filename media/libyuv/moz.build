@@ -124,6 +124,13 @@ cc
 '
 source
 /
+mjpeg_decoder
+.
+cc
+'
+'
+source
+/
 rotate_argb
 .
 cc
