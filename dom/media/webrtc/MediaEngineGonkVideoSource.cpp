@@ -311,11 +311,15 @@ NotifyPull
 desired
 =
 %
-ld
+"
+PRIi64
+"
 delta
 =
 %
-ld
+"
+PRIi64
+"
 %
 s
 "
