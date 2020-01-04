@@ -528,7 +528,7 @@ const
 uint32_t
 EXHAUSTED_DATA_MARGIN_USECS
 =
-60000
+100000
 ;
 static
 const
@@ -12561,8 +12561,6 @@ shouldBuffer
 =
 HasLowDecodedData
 (
-remainingTime
-+
 EXHAUSTED_DATA_MARGIN_USECS
 )
 &
