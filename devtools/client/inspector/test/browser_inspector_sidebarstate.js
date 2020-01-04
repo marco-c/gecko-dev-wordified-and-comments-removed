@@ -115,6 +115,11 @@ computedview
 "
 )
 ;
+yield
+waitForTick
+(
+)
+;
 info
 (
 "

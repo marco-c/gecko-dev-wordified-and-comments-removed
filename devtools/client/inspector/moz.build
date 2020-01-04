@@ -58,6 +58,9 @@ DIRS
 =
 [
 '
+components
+'
+'
 computed
 '
 '
@@ -101,6 +104,11 @@ js
 inspector
 -
 search
+.
+js
+'
+'
+toolsidebar
 .
 js
 '

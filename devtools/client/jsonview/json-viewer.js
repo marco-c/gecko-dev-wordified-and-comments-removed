@@ -162,7 +162,7 @@ textContent
 )
 tabActive
 :
-1
+0
 prettified
 :
 false

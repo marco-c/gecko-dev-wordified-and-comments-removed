@@ -212,15 +212,6 @@ hovered
 <
 !
 ENTITY
-layoutViewTitle
-"
-Box
-Model
-"
->
-<
-!
-ENTITY
 margin
 .
 tooltip
