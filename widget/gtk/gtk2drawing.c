@@ -11762,6 +11762,9 @@ widget
 case
 MOZ_GTK_BUTTON
 :
+case
+MOZ_GTK_TOOLBAR_BUTTON
+:
 {
 GtkBorder
 inner_border
@@ -13497,6 +13500,9 @@ widget
 {
 case
 MOZ_GTK_BUTTON
+:
+case
+MOZ_GTK_TOOLBAR_BUTTON
 :
 if
 (
