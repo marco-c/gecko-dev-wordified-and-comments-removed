@@ -430,7 +430,7 @@ aFrameNum
 )
 const
 ;
-int32_t
+FrameTimeout
 GetSingleLoopTime
 (
 AnimationState
