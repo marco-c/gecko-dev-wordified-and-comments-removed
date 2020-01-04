@@ -16,6 +16,7 @@ results
 import
 NullTestOutput
 TestOutput
+escape_cmdline
 class
 Task
 (
@@ -1207,6 +1208,25 @@ test
             
 else
 :
+                
+if
+options
+.
+show_cmd
+:
+                    
+print
+(
+escape_cmdline
+(
+test
+.
+get_command
+(
+prefix
+)
+)
+)
                 
 tasks
 .

@@ -3820,10 +3820,10 @@ namedtuple
 AdaptorOptions
 "
 [
+        
 "
 worker_count
 "
-        
 "
 passthrough
 "
@@ -3833,11 +3833,15 @@ timeout
 "
 output_fp
 "
+        
 "
 hide_progress
 "
 "
 run_skipped
+"
+"
+show_cmd
 "
 ]
 )
@@ -3859,6 +3863,9 @@ sys
 stdout
 False
 True
+options
+.
+show_cmd
 )
     
 JitTest

@@ -22,6 +22,7 @@ results
 import
 NullTestOutput
 TestOutput
+escape_cmdline
 from
 threading
 import
@@ -50,6 +51,7 @@ qWatch
 prefix
 run_skipped
 timeout
+show_cmd
 )
 :
     
@@ -124,6 +126,18 @@ test
 get_command
 (
 prefix
+)
+        
+if
+show_cmd
+:
+            
+print
+(
+escape_cmdline
+(
+cmd
+)
 )
         
 tStart
@@ -441,6 +455,9 @@ run_skipped
 options
 .
 timeout
+options
+.
+show_cmd
 )
 )
         
