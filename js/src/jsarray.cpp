@@ -4402,6 +4402,14 @@ createId
 )
 )
 ;
+if
+(
+!
+create
+)
+return
+false
+;
 FixedInvokeArgs
 <
 2
