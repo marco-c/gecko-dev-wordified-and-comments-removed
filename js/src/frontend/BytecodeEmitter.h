@@ -339,7 +339,7 @@ bool
 append
 (
 uint32_t
-scopeObject
+scopeObjectIndex
 uint32_t
 offset
 bool
@@ -1485,7 +1485,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 ;
 bool
@@ -1525,7 +1525,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 ;
 bool
@@ -2736,7 +2736,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 ;
 bool

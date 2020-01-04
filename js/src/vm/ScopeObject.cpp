@@ -6864,7 +6864,7 @@ Rooted
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 (
 cx
 &
@@ -6884,7 +6884,7 @@ CloneStaticBlockObject
 (
 cx
 enclosingScope
-blockObj
+blockScope
 )
 ;
 }
@@ -6895,7 +6895,7 @@ Rooted
 StaticWithScope
 *
 >
-withObj
+withScope
 (
 cx
 &
@@ -6915,7 +6915,7 @@ CloneStaticWithObject
 (
 cx
 enclosingScope
-withObj
+withScope
 )
 ;
 }

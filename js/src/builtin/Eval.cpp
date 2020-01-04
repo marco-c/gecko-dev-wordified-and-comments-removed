@@ -1842,7 +1842,7 @@ JSContext
 *
 cx
 HandleObject
-scopeobj
+scopeObj
 HandleScript
 callerScript
 HandleValue
@@ -1860,7 +1860,7 @@ AssertInnerizedScopeChain
 (
 cx
 *
-scopeobj
+scopeObj
 )
 ;
 Rooted
@@ -1872,7 +1872,7 @@ scopeObjGlobal
 (
 cx
 &
-scopeobj
+scopeObj
 -
 >
 global
@@ -2231,7 +2231,7 @@ cx
 tempLifoAlloc
 (
 )
-scopeobj
+scopeObj
 staticScope
 callerScript
 options
@@ -2281,7 +2281,7 @@ script
 (
 )
 *
-scopeobj
+scopeObj
 newTargetValue
 NullFramePtr
 (

@@ -2855,7 +2855,7 @@ isBlockScope
 {
 StaticBlockScope
 &
-blockObj
+blockScope
 =
 stmt
 -
@@ -2866,7 +2866,7 @@ staticBlock
 ;
 if
 (
-blockObj
+blockScope
 .
 needsClone
 (
@@ -3447,7 +3447,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 {
 uint32_t
@@ -3471,7 +3471,7 @@ i
 ;
 i
 <
-blockObj
+blockScope
 -
 >
 numVariables
@@ -3487,7 +3487,7 @@ Definition
 *
 dn
 =
-blockObj
+blockScope
 -
 >
 definitionParseNode
@@ -3531,7 +3531,7 @@ dn
 {
 slot
 =
-blockObj
+blockScope
 -
 >
 blockIndexToSlot
@@ -3539,7 +3539,7 @@ blockIndexToSlot
 index
 )
 ;
-blockObj
+blockScope
 -
 >
 setAliased
@@ -3555,7 +3555,7 @@ slot
 =
 numAliased
 +
-blockObj
+blockScope
 -
 >
 blockIndexToLocalIndex
@@ -3563,7 +3563,7 @@ blockIndexToLocalIndex
 index
 )
 ;
-blockObj
+blockScope
 -
 >
 setAliased
@@ -3668,7 +3668,7 @@ allLocalsAliased
 AllLocalsAliased
 (
 *
-blockObj
+blockScope
 )
 )
 ;
@@ -3687,7 +3687,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 {
 unsigned
@@ -3814,7 +3814,7 @@ MOZ_ASSERT
 (
 localOffset
 +
-blockObj
+blockScope
 -
 >
 numVariables
@@ -3834,7 +3834,7 @@ numBlockScoped
 )
 )
 ;
-blockObj
+blockScope
 -
 >
 setLocalOffset
@@ -3864,7 +3864,7 @@ Rooted
 NestedStaticScope
 *
 >
-scopeObj
+scope
 (
 cx
 &
@@ -3909,11 +3909,11 @@ Rooted
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 (
 cx
 &
-scopeObj
+scope
 -
 >
 as
@@ -3926,7 +3926,7 @@ StaticBlockScope
 ;
 computeLocalOffset
 (
-blockObj
+blockScope
 )
 ;
 if
@@ -3934,7 +3934,7 @@ if
 !
 computeAliasedSlots
 (
-blockObj
+blockScope
 )
 )
 return
@@ -3942,7 +3942,7 @@ false
 ;
 if
 (
-blockObj
+blockScope
 -
 >
 needsClone
@@ -3966,7 +3966,7 @@ false
 if
 (
 !
-blockObj
+blockScope
 -
 >
 makeNonExtensible
@@ -3988,7 +3988,7 @@ WITH
 :
 MOZ_ASSERT
 (
-scopeObj
+scope
 -
 >
 is
@@ -4090,7 +4090,7 @@ offset
 )
 )
 ;
-scopeObj
+scope
 -
 >
 initEnclosingScope
@@ -4106,7 +4106,7 @@ linkAsInnermostScopeStmt
 (
 stmt
 *
-scopeObj
+scope
 )
 ;
 MOZ_ASSERT
@@ -4276,7 +4276,7 @@ length
 )
 ;
 uint32_t
-blockObjIndex
+blockIndex
 =
 blockScopeList
 .
@@ -4295,7 +4295,7 @@ objectList
 .
 find
 (
-blockObjIndex
+blockIndex
 )
 ;
 NestedStaticScope
@@ -13560,7 +13560,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 {
 for
@@ -13568,7 +13568,7 @@ for
 unsigned
 i
 =
-blockObj
+blockScope
 -
 >
 numVariables
@@ -13586,7 +13586,7 @@ i
 {
 if
 (
-blockObj
+blockScope
 -
 >
 isAliased
@@ -13652,7 +13652,7 @@ numAliasedBodyLevelLocals
 unsigned
 local
 =
-blockObj
+blockScope
 -
 >
 blockIndexToLocalIndex
@@ -13781,7 +13781,7 @@ Rooted
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 (
 cx
 &
@@ -13805,7 +13805,7 @@ if
 pushInitialConstants
 (
 initialValueOp
-blockObj
+blockScope
 -
 >
 numVariables
@@ -13823,7 +13823,7 @@ if
 !
 initializeBlockScopedLocalsFromStack
 (
-blockObj
+blockScope
 )
 )
 return
@@ -38100,7 +38100,7 @@ enterBlockScope
 stmtInfo
 classNode
 .
-scopeObject
+scopeObjectBox
 (
 )
 JSOP_UNINITIALIZED
@@ -41592,7 +41592,7 @@ CGBlockScopeList
 append
 (
 uint32_t
-scopeObject
+scopeObjectIndex
 uint32_t
 offset
 bool
@@ -41617,7 +41617,7 @@ note
 .
 index
 =
-scopeObject
+scopeObjectIndex
 ;
 note
 .

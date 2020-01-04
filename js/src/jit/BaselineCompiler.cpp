@@ -15053,7 +15053,7 @@ emit_JSOP_PUSHBLOCKSCOPE
 {
 StaticBlockScope
 &
-blockObj
+blockScope
 =
 script
 -
@@ -15092,7 +15092,7 @@ pushArg
 ImmGCPtr
 (
 &
-blockObj
+blockScope
 )
 )
 ;
@@ -15502,7 +15502,7 @@ emit_JSOP_ENTERWITH
 {
 StaticWithScope
 &
-withObj
+withScope
 =
 script
 -
@@ -15548,7 +15548,7 @@ pushArg
 ImmGCPtr
 (
 &
-withObj
+withScope
 )
 )
 ;

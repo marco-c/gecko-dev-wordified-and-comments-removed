@@ -1303,7 +1303,7 @@ makeInnermostLexicalScope
 (
 StaticBlockScope
 &
-blockObj
+blockScope
 )
 ;
 StmtInfoPC
@@ -2358,7 +2358,7 @@ MutableHandle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 Node
 *
 forLetImpliedBlock
@@ -2397,7 +2397,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 ;
 Node
@@ -2500,7 +2500,7 @@ ParseNodeKind
 kind
 StaticBlockScope
 *
-blockObj
+blockScope
 =
 nullptr
 ParseNodeKind
@@ -3259,7 +3259,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 AutoPushStmtInfoPC
 &
 stmt
@@ -3273,7 +3273,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 AutoPushStmtInfoPC
 &
 stmt

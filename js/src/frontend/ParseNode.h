@@ -6060,7 +6060,7 @@ list
 }
 ObjectBox
 *
-scopeObject
+scopeObjectBox
 (
 )
 const

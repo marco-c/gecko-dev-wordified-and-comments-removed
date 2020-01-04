@@ -2510,7 +2510,7 @@ makeInnermostLexicalScope
 (
 StaticBlockScope
 &
-blockObj
+blockScope
 )
 {
 MOZ_ASSERT
@@ -2542,7 +2542,7 @@ true
 linkAsInnermostScopeStmt
 (
 innermostStmt_
-blockObj
+blockScope
 )
 ;
 }
