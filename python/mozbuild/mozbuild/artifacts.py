@@ -5309,11 +5309,81 @@ artifact
 )
     
 def
-_find_pushheads
+_find_hg_pushheads
 (
 self
 )
 :
+        
+"
+"
+"
+Return
+an
+iterator
+of
+(
+hg_hash
+{
+tree
+-
+set
+}
+)
+associating
+hg
+revision
+        
+hashes
+that
+might
+be
+pushheads
+with
+the
+trees
+they
+are
+known
+        
+to
+be
+in
+.
+        
+More
+recent
+hashes
+should
+come
+earlier
+in
+the
+list
+.
+We
+always
+        
+have
+the
+pushlog
+locally
+so
+we
+'
+ll
+never
+yield
+an
+empty
+tree
+-
+set
+.
+        
+"
+"
+"
         
 try
 :
@@ -5483,13 +5553,9 @@ Artifact_builds
             
 raise
         
-rev_trees
+count
 =
-collections
-.
-OrderedDict
-(
-)
+0
         
 for
 line
@@ -5530,14 +5596,16 @@ rev_info
                 
 continue
             
-rev_trees
-[
+count
++
+=
+1
+            
+yield
 rev_info
 [
 0
 ]
-]
-=
 tuple
 (
 rev_info
@@ -5549,7 +5617,7 @@ rev_info
         
 if
 not
-rev_trees
+count
 :
             
 raise
@@ -5617,9 +5685,6 @@ num
 NUM_PUSHHEADS_TO_QUERY_PER_PARENT
 )
 )
-        
-return
-rev_trees
     
 def
 find_pushhead_artifacts
@@ -6229,17 +6294,63 @@ distdir
 )
     
 def
-_install_from_pushheads
+_install_from_hg_pushheads
 (
 self
-rev_pushheads
+hg_pushheads
 distdir
 )
 :
         
+"
+"
+"
+Iterate
+pairs
+(
+hg_hash
+{
+tree
+-
+set
+}
+)
+associating
+hg
+revision
+hashes
+        
+and
+tree
+-
+sets
+they
+are
+known
+to
+be
+in
+trying
+to
+download
+and
+        
+install
+from
+each
+.
+        
+"
+"
+"
+        
 urls
 =
 None
+        
+count
+=
+0
         
 with
 self
@@ -6255,15 +6366,16 @@ tree_cache
 :
             
 for
-rev
+hg_hash
 trees
 in
-rev_pushheads
-.
-items
-(
-)
+hg_pushheads
 :
+                
+count
++
+=
+1
                 
 self
 .
@@ -6278,10 +6390,10 @@ artifact
                          
 {
 '
-rev
+hg_hash
 '
 :
-rev
+hg_hash
 }
                          
 '
@@ -6290,9 +6402,10 @@ to
 find
 artifacts
 for
-pushhead
+hg
+revision
 {
-rev
+hg_hash
 }
 .
 '
@@ -6310,7 +6423,7 @@ tree_cache
 self
 .
 _job
-rev
+hg_hash
 trees
 )
                 
@@ -6356,10 +6469,7 @@ artifact
 count
 '
 :
-len
-(
-rev_pushheads
-)
+count
 }
                  
 '
@@ -6380,32 +6490,32 @@ return
 1
     
 def
-install_from_recent
+install_from_hg_recent
 (
 self
 distdir
 )
 :
         
-rev_pushheads
+hg_pushheads
 =
 self
 .
-_find_pushheads
+_find_hg_pushheads
 (
 )
         
 return
 self
 .
-_install_from_pushheads
+_install_from_hg_pushheads
 (
-rev_pushheads
+hg_pushheads
 distdir
 )
     
 def
-install_from_revset
+install_from_hg_revset
 (
 self
 revset
@@ -6485,13 +6595,16 @@ commit
 '
 )
         
-rev_pushheads
+hg_pushheads
 =
-{
+[
+(
 revision
-:
-None
-}
+tuple
+(
+)
+)
+]
         
 self
 .
@@ -6549,9 +6662,9 @@ revset
 return
 self
 .
-_install_from_pushheads
+_install_from_hg_pushheads
 (
-rev_pushheads
+hg_pushheads
 distdir
 )
     
@@ -6661,7 +6774,7 @@ source
 return
 self
 .
-install_from_revset
+install_from_hg_revset
 (
 source
 distdir
@@ -6670,7 +6783,7 @@ distdir
 return
 self
 .
-install_from_recent
+install_from_hg_recent
 (
 distdir
 )
