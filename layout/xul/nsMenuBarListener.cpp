@@ -810,6 +810,9 @@ AsKeyboardEvent
 if
 (
 nativeKeyEvent
+&
+&
+nativeKeyEvent
 -
 >
 mAccessKeyForwardedToChild
