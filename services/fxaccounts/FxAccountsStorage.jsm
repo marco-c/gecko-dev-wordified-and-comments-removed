@@ -1999,7 +1999,7 @@ this
 .
 cachedPlain
 .
-email
+uid
 toWriteSecure
 )
 ;
@@ -2510,7 +2510,7 @@ async
 function
 *
 (
-email
+uid
 contents
 )
 {
@@ -2671,7 +2671,7 @@ loginInfo
 FXA_PWDMGR_HOST
 null
 FXA_PWDMGR_REALM
-email
+uid
 JSON
 .
 stringify

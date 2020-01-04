@@ -603,9 +603,9 @@ login
 username
 creds
 .
-email
+uid
 "
-email
+uid
 used
 for
 username
@@ -1189,7 +1189,7 @@ login
 username
 creds1
 .
-email
+uid
 )
 ;
 Assert
@@ -1363,7 +1363,10 @@ FXA_PWDMGR_HOST
 null
 FXA_PWDMGR_REALM
 "
-uid
+foo
+bar
+.
+com
 "
 JSON
 .
