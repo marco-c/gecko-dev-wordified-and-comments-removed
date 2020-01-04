@@ -3459,6 +3459,13 @@ checkActiveGMPlugin
 data
 )
 {
+if
+(
+data
+.
+version
+)
+{
 Assert
 .
 equal
@@ -3472,6 +3479,7 @@ string
 "
 )
 ;
+}
 Assert
 .
 equal

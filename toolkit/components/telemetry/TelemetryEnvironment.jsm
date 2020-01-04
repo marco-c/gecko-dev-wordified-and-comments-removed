@@ -3568,12 +3568,7 @@ isGMPlugin
 !
 plugin
 .
-isValid
-|
-|
-plugin
-.
-disabled
+isActive
 )
 {
 continue
