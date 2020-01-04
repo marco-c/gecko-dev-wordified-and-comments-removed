@@ -857,9 +857,6 @@ override
 0
 ;
 NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT
-#
-ifdef
-DEBUG
 virtual
 int32_t
 GetWidth
@@ -876,8 +873,6 @@ GetHeight
 const
 override
 ;
-#
-endif
 NS_IMETHOD
 SetDimensions
 (

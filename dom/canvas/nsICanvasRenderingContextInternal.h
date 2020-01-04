@@ -317,9 +317,6 @@ return
 mCanvasElement
 ;
 }
-#
-ifdef
-DEBUG
 virtual
 int32_t
 GetWidth
@@ -338,8 +335,6 @@ const
 =
 0
 ;
-#
-endif
 NS_IMETHOD
 SetDimensions
 (
