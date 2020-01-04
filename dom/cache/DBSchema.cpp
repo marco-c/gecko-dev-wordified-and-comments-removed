@@ -11679,16 +11679,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCString
-signedPkg
-=
-NS_ConvertUTF16toUTF8
-(
-attrs
-.
-mSignedPkg
-)
-;
 aSavedResponseOut
 -
 >
@@ -11713,7 +11703,6 @@ attrs
 .
 mInBrowser
 originNoSuffix
-signedPkg
 )
 ;
 }

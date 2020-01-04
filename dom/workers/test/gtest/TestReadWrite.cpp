@@ -1719,9 +1719,6 @@ i
 %
 2
 spec
-EmptyCString
-(
-)
 )
 ;
 d

@@ -1379,16 +1379,6 @@ GET_LINE
 line
 )
 ;
-nsCString
-signedPkg
-=
-NS_ConvertUTF16toUTF8
-(
-attrs
-.
-mSignedPkg
-)
-;
 entry
 -
 >
@@ -1411,7 +1401,6 @@ attrs
 .
 mInBrowser
 line
-signedPkg
 )
 ;
 GET_LINE
