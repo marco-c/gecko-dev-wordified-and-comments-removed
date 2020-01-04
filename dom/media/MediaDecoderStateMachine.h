@@ -1328,6 +1328,11 @@ MaybeStartPlayback
 )
 ;
 void
+MaybeStartBuffering
+(
+)
+;
+void
 StartDecoding
 (
 )
