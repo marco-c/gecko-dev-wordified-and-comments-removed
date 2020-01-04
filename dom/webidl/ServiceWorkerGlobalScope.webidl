@@ -177,7 +177,7 @@ NewObject
 ]
 Promise
 <
-boolean
+void
 >
 skipWaiting
 (
