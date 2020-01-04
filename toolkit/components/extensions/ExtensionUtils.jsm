@@ -2975,6 +2975,8 @@ after
 context
 unloaded
 .
+\
+n
 )
 ;
 }
@@ -3067,7 +3069,13 @@ this
 .
 callbacks
 =
-null
+Object
+.
+freeze
+(
+[
+]
+)
 ;
 }
 api
@@ -3205,6 +3213,8 @@ after
 context
 unloaded
 .
+\
+n
 )
 ;
 }
