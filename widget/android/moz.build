@@ -139,6 +139,11 @@ AndroidJNIWrapper
 h
 '
 '
+GeneratedJNINatives
+.
+h
+'
+'
 GeneratedJNIWrappers
 .
 h
