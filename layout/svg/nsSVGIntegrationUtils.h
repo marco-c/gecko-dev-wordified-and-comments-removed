@@ -238,7 +238,7 @@ LayerManager
 layerManager
 ;
 bool
-callerPaintsOpacity
+handleOpacity
 ;
 explicit
 PaintFramesParams
@@ -270,7 +270,7 @@ LayerManager
 *
 aLayerManager
 bool
-aCallerPaintsOpacity
+aHandleOpacity
 )
 :
 ctx
@@ -297,9 +297,9 @@ layerManager
 (
 aLayerManager
 )
-callerPaintsOpacity
+handleOpacity
 (
-aCallerPaintsOpacity
+aHandleOpacity
 )
 {
 }

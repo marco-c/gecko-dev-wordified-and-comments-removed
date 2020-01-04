@@ -11973,7 +11973,7 @@ nsDisplayList
 *
 aList
 bool
-aOpacityItemCreated
+aHandleOpacity
 )
 ;
 #
@@ -12124,7 +12124,7 @@ nsRect
 mEffectsBounds
 ;
 bool
-mOpacityItemCreated
+mHandleOpacity
 ;
 }
 ;
@@ -12148,7 +12148,7 @@ nsDisplayList
 *
 aList
 bool
-aOpacityItemCreated
+aHandleOpacity
 )
 ;
 #
@@ -12278,7 +12278,7 @@ nsDisplayList
 *
 aList
 bool
-aOpacityItemCreated
+aHandleOpacity
 )
 ;
 #
