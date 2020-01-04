@@ -135,17 +135,6 @@ let
 :
 42
 ;
-/
-*
-XXX
-*
-/
-throw
-new
-SyntaxError
-(
-)
-;
 "
 )
 SyntaxError
