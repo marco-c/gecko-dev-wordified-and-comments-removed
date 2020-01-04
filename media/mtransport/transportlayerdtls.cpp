@@ -1345,6 +1345,14 @@ TransportLayerDtls
 (
 )
 {
+nspr_io_adapter_
+-
+>
+SetEnabled
+(
+false
+)
+;
 if
 (
 timer_
