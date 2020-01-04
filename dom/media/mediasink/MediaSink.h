@@ -39,6 +39,9 @@ h
 namespace
 mozilla
 {
+class
+TimeStamp
+;
 namespace
 media
 {
@@ -149,6 +152,11 @@ virtual
 int64_t
 GetPosition
 (
+TimeStamp
+*
+aTimeStamp
+=
+nullptr
 )
 const
 =
