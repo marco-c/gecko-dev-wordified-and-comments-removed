@@ -317,7 +317,7 @@ parallel_
 )
 enum
 class
-StyleBasicShape
+StyleBasicShapeType
 :
 uint8_t
 {
