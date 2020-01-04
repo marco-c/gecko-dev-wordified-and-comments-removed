@@ -8598,9 +8598,7 @@ texture
 )
 )
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
