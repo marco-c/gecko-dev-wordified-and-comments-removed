@@ -2012,7 +2012,6 @@ empty
 filename
 =
 "
-blob
 "
 '
 )

@@ -1713,7 +1713,6 @@ empty
 filename
 =
 "
-blob
 "
 '
 )
