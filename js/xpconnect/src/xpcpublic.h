@@ -1716,9 +1716,6 @@ JSObject
 *
 FindExceptionStackForConsoleReport
 (
-JSContext
-*
-cx
 nsPIDOMWindowInner
 *
 win
