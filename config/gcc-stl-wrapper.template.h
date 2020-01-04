@@ -140,17 +140,6 @@ defined
 (
 _GLIBCXX_DEBUG
 )
-&
-&
-!
-defined
-(
-MOZ_CLANG_PLUGIN
-)
-#
-define
-_GLIBCXX_DEBUG
-1
 #
 endif
 #
