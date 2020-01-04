@@ -254,6 +254,14 @@ associated
 with
 the
 site
+and
+the
+originAttributes
+*
+pattern
+in
+JSON
+format
 .
 *
 /
@@ -263,6 +271,9 @@ forgetThisSite
 in
 AString
 site
+in
+DOMString
+aPattern
 )
 ;
 /
