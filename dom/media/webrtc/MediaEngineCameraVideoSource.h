@@ -14,13 +14,6 @@ h
 #
 include
 "
-MediaTrackConstraints
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h
@@ -91,8 +84,6 @@ MediaEngineCameraVideoSource
 :
 public
 MediaEngineVideoSource
-protected
-MediaConstraintsHelper
 {
 public
 :
@@ -136,10 +127,6 @@ false
 mHasDirectListeners
 (
 false
-)
-mNrAllocations
-(
-0
 )
 mCaptureIndex
 (
@@ -490,9 +477,6 @@ mInitDone
 ;
 bool
 mHasDirectListeners
-;
-int
-mNrAllocations
 ;
 int
 mCaptureIndex

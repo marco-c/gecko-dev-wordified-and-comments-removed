@@ -72,14 +72,6 @@ MediaEngineTabVideoSource
 )
 ;
 void
-Shutdown
-(
-)
-override
-{
-}
-;
-void
 GetName
 (
 nsAString_internal
