@@ -4,7 +4,7 @@ defineLazyGetter
 (
 this
 "
-AlertsService
+AlertsServiceDND
 "
 function
 (
@@ -12,7 +12,9 @@ function
 {
 try
 {
-return
+let
+alertsService
+=
 Cc
 [
 "
@@ -42,6 +44,13 @@ Ci
 nsIAlertsDoNotDisturb
 )
 ;
+alertsService
+.
+manualDoNotDisturb
+;
+return
+alertsService
+;
 }
 catch
 (
@@ -49,6 +58,7 @@ ex
 )
 {
 return
+undefined
 ;
 }
 }
@@ -237,7 +247,7 @@ false
 ;
 if
 (
-AlertsService
+AlertsServiceDND
 )
 {
 let
@@ -263,7 +273,7 @@ hidden
 ;
 if
 (
-AlertsService
+AlertsServiceDND
 .
 manualDoNotDisturb
 )
@@ -1524,7 +1534,7 @@ function
 event
 )
 {
-AlertsService
+AlertsServiceDND
 .
 manualDoNotDisturb
 =
