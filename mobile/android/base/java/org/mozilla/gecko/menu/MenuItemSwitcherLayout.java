@@ -28,17 +28,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-.
-Versions
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
@@ -820,6 +809,8 @@ addView
 (
 button
 count
++
+1
 )
 ;
 }
