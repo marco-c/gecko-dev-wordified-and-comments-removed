@@ -1572,12 +1572,6 @@ char16_t
 newLength
 ]
 ;
-NS_ENSURE_TRUE
-(
-to
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 if
 (
 aOffset

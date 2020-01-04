@@ -272,14 +272,6 @@ nsGenConImageContent
 aNodeInfo
 )
 ;
-if
-(
-!
-it
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 NS_ADDREF
 (
 *

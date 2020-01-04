@@ -2234,15 +2234,6 @@ mData
 new
 nsExternalDOMClassInfoData
 ;
-NS_ENSURE_TRUE
-(
-s
--
->
-mData
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 s
 -
 >
