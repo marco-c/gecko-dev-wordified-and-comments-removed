@@ -149,11 +149,6 @@ SerializesTypeNames
 .
 cpp
 '
-'
-UniqueStringHashPolicy
-.
-cpp
-'
 ]
 #
 THE

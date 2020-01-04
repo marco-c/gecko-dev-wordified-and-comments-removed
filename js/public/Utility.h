@@ -1600,6 +1600,7 @@ operator
 (
 )
 (
+const
 T
 *
 ptr
@@ -1607,7 +1608,14 @@ ptr
 {
 js_delete
 (
+const_cast
+<
+T
+*
+>
+(
 ptr
+)
 )
 ;
 }
@@ -1621,6 +1629,7 @@ operator
 (
 )
 (
+const
 void
 *
 ptr
@@ -1628,7 +1637,14 @@ ptr
 {
 js_free
 (
+const_cast
+<
+void
+*
+>
+(
 ptr
+)
 )
 ;
 }

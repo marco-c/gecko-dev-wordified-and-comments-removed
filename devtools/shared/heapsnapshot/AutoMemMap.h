@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_devtools_AutoMemMap_h
+#
+define
+mozilla_devtools_AutoMemMap_h
+#
 include
 <
 prio
@@ -189,3 +195,5 @@ addr
 ;
 }
 }
+#
+endif

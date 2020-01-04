@@ -126,7 +126,7 @@ Edge
 :
 :
 name
-UTF16StrEq
+UniqueUTF16StrEq
 (
 edgeName
 )
@@ -149,7 +149,7 @@ Edge
 :
 :
 name
-UTF16StrEq
+UniqueUTF16StrEq
 (
 emptyStr
 )
@@ -172,7 +172,7 @@ Edge
 :
 :
 name
-IsNull
+UniqueIsNull
 (
 )
 )
