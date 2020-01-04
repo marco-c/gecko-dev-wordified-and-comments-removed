@@ -2392,6 +2392,11 @@ NS_ENSURE_ARG
 listener
 )
 ;
+NS_CompareLoadInfoAndLoadContext
+(
+this
+)
+;
 nsresult
 rv
 =
