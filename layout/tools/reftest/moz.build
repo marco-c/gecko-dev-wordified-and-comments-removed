@@ -184,6 +184,11 @@ cmdline
 .
 js
 '
+]
+EXTRA_COMPONENTS
++
+=
+[
 '
 reftest
 -
