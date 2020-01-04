@@ -79,7 +79,11 @@ project
 -
 build
 -
-linux64
+{
+{
+build_name
+}
+}
 -
 {
 {
@@ -123,7 +127,11 @@ project
 -
 build
 -
-linux64
+{
+{
+build_name
+}
+}
 -
 {
 {

@@ -119,7 +119,11 @@ project
 -
 build
 -
-linux32
+{
+{
+build_name
+}
+}
 -
 {
 {
@@ -163,7 +167,11 @@ project
 -
 build
 -
-linux32
+{
+{
+build_name
+}
+}
 -
 {
 {
