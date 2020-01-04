@@ -143,6 +143,7 @@ NS_IMPL_ISUPPORTS
 (
 nsProfiler
 nsIProfiler
+nsISupportsWeakReference
 )
 nsProfiler
 :
@@ -266,7 +267,7 @@ global
 -
 created
 "
-false
+true
 )
 ;
 observerService
@@ -284,7 +285,7 @@ context
 -
 exited
 "
-false
+true
 )
 ;
 }
