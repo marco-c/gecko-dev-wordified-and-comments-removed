@@ -2563,12 +2563,6 @@ nsIDocument
 >
 mResponseXML
 ;
-nsCOMPtr
-<
-nsIChannel
->
-mCORSPreflightChannel
-;
 nsTArray
 <
 nsCString
