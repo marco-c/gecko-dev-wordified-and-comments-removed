@@ -80,6 +80,11 @@ float
 phaseResponse
 )
 ;
+bool
+buffersAreZero
+(
+)
+;
 private
 :
 AudioDoubleArray
