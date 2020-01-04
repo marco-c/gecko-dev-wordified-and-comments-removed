@@ -120,6 +120,11 @@ ExtensionUtils
 jsm
 '
 '
+LegacyExtensionsUtils
+.
+jsm
+'
+'
 MessageChannel
 .
 jsm
