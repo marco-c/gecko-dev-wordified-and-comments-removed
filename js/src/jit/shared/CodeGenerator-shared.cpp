@@ -3513,7 +3513,10 @@ u
 bailoutId
 )
 ;
-return
+masm
+.
+propagateOOM
+(
 bailouts_
 .
 append
@@ -3525,6 +3528,10 @@ snapshotOffset
 (
 )
 )
+)
+;
+return
+true
 ;
 }
 bool
