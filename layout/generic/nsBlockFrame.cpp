@@ -34580,7 +34580,7 @@ GetWritingMode
 (
 )
 ;
-nsCSSOffsetState
+SizeComputationInput
 offsetState
 (
 aFrame

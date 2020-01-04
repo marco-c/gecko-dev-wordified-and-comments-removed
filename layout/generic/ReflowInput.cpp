@@ -252,7 +252,7 @@ uint32_t
 aFlags
 )
 :
-nsCSSOffsetState
+SizeComputationInput
 (
 aFrame
 aRenderingContext
@@ -638,10 +638,10 @@ return
 0
 ;
 }
-nsCSSOffsetState
+SizeComputationInput
 :
 :
-nsCSSOffsetState
+SizeComputationInput
 (
 nsIFrame
 *
@@ -730,7 +730,7 @@ padding
 contribution
 -
 see
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 InitOffsets
@@ -789,7 +789,7 @@ uint32_t
 aFlags
 )
 :
-nsCSSOffsetState
+SizeComputationInput
 (
 aFrame
 aParentReflowState
@@ -1183,7 +1183,7 @@ aContainingBlockSize
 }
 inline
 nscoord
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 ComputeISizeValue
@@ -1217,7 +1217,7 @@ aCoord
 ;
 }
 nscoord
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 ComputeISizeValue
@@ -1303,7 +1303,7 @@ aCoord
 ;
 }
 nscoord
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 ComputeBSizeValue
@@ -10956,7 +10956,7 @@ aProperty
 }
 }
 void
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 InitOffsets
@@ -12771,7 +12771,7 @@ lineHeight
 ;
 }
 bool
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 ComputeMargin
@@ -13001,7 +13001,7 @@ isCBDependent
 ;
 }
 bool
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 ComputePadding

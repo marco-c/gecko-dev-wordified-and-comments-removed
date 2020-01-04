@@ -273,7 +273,7 @@ namespace
 mozilla
 {
 struct
-nsCSSOffsetState
+SizeComputationInput
 {
 public
 :
@@ -556,7 +556,7 @@ mComputedPadding
 ;
 public
 :
-nsCSSOffsetState
+SizeComputationInput
 (
 nsIFrame
 *
@@ -585,7 +585,7 @@ GetWritingMode
 )
 {
 }
-nsCSSOffsetState
+SizeComputationInput
 (
 nsIFrame
 *
@@ -714,7 +714,7 @@ DisplayInitOffsetsEnter
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 const
@@ -741,7 +741,7 @@ DisplayInitOffsetsExit
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 void
@@ -883,7 +883,7 @@ struct
 ReflowInput
 :
 public
-nsCSSOffsetState
+SizeComputationInput
 {
 const
 ReflowInput
