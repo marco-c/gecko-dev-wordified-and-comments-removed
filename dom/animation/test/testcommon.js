@@ -305,6 +305,9 @@ assert_less_than
 assert_less_than_equal
 "
 "
+assert_greater_than
+"
+"
 assert_between_inclusive
 "
 "
