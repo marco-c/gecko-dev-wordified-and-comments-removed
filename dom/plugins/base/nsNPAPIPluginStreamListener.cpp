@@ -2177,9 +2177,6 @@ mStreamBufferSize
 mStreamBufferByteCount
 +
 length
-&
-&
-mIsSuspended
 )
 {
 mStreamBufferSize
@@ -2227,6 +2224,13 @@ length
 mStreamBufferSize
 -
 mStreamBufferByteCount
+)
+;
+MOZ_ASSERT
+(
+bytesToRead
+>
+0
 )
 ;
 uint32_t
