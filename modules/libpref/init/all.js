@@ -16564,6 +16564,8 @@ ipc
 plugins
 .
 asyncInit
+.
+enabled
 "
 false
 )
@@ -16580,6 +16582,8 @@ ipc
 plugins
 .
 asyncInit
+.
+enabled
 "
 true
 )
