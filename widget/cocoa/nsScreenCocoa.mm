@@ -218,6 +218,9 @@ mScreen
 frame
 ]
 ;
+mozilla
+:
+:
 LayoutDeviceIntRect
 r
 =
@@ -292,6 +295,9 @@ mScreen
 visibleFrame
 ]
 ;
+mozilla
+:
+:
 LayoutDeviceIntRect
 r
 =
@@ -366,6 +372,9 @@ mScreen
 frame
 ]
 ;
+mozilla
+:
+:
 DesktopIntRect
 r
 =
@@ -437,6 +446,9 @@ mScreen
 visibleFrame
 ]
 ;
+mozilla
+:
+:
 DesktopIntRect
 r
 =
