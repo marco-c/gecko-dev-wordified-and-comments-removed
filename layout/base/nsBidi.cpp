@@ -1993,8 +1993,17 @@ ProcessPDI
 (
 )
 {
+MOZ_ASSERT
+(
+mIsoRunLast
+>
+0
+)
+;
 mIsoRuns
 [
+-
+-
 mIsoRunLast
 ]
 .
