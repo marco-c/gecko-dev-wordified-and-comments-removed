@@ -2676,6 +2676,8 @@ IsRealTime
 0
 :
 mAmpleAudioThresholdUsecs
+/
+2
 ;
 }
 uint32_t
