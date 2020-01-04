@@ -19,6 +19,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+CompositableForwarder
+.
+h
+"
+#
+include
+"
 TextureClientRecycleAllocator
 .
 h
