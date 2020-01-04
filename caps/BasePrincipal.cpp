@@ -2268,12 +2268,6 @@ URI_INHERITS_SECURITY_CONTEXT
 inheritsPrincipal
 )
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-principal
-;
 if
 (
 NS_FAILED

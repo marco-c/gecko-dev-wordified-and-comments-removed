@@ -2867,7 +2867,6 @@ nsAutoCString
 host
 newHost
 ;
-nsresult
 rv
 =
 probe
@@ -3697,9 +3696,6 @@ targetIsViewSource
 )
 )
 {
-bool
-hasFlags
-;
 rv
 =
 NS_URIChainHasFlags
