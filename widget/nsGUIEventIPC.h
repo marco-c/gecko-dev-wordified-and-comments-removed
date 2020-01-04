@@ -2145,7 +2145,10 @@ mozilla
 LayoutDeviceIntPoint
 refPoint
 ;
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 radius
 ;
 float
