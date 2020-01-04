@@ -1106,6 +1106,15 @@ LBitOpI64
 lir
 )
 ;
+virtual
+void
+visitRotateI64
+(
+LRotateI64
+*
+lir
+)
+;
 void
 visitOutOfLineBailout
 (
