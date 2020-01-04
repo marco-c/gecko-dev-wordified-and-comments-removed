@@ -69,6 +69,10 @@ mUseEmbeddedBitmap
 (
 false
 )
+mForceGDIMode
+(
+false
+)
 {
 }
 ScaledFontDWrite
@@ -86,6 +90,8 @@ Float
 aSize
 bool
 aUseEmbeddedBitmap
+bool
+aForceGDIMode
 )
 :
 ScaledFontBase
@@ -107,6 +113,10 @@ aFontFace
 mUseEmbeddedBitmap
 (
 aUseEmbeddedBitmap
+)
+mForceGDIMode
+(
+aForceGDIMode
 )
 {
 }
@@ -214,6 +224,15 @@ return
 mUseEmbeddedBitmap
 ;
 }
+bool
+ForceGDIMode
+(
+)
+{
+return
+mForceGDIMode
+;
+}
 #
 ifdef
 USE_SKIA
@@ -262,6 +281,9 @@ mFontFace
 ;
 bool
 mUseEmbeddedBitmap
+;
+bool
+mForceGDIMode
 ;
 protected
 :

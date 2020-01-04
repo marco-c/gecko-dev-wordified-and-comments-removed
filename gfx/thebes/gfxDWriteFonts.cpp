@@ -3348,6 +3348,9 @@ GetAdjustedSize
 (
 )
 useEmbeddedBitmap
+GetForceGDIClassic
+(
+)
 )
 ;
 }

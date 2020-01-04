@@ -3915,6 +3915,8 @@ Float
 aSize
 bool
 aUseEmbeddedBitmap
+bool
+aForceGDIMode
 )
 ;
 private
