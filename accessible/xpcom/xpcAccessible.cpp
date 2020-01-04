@@ -885,8 +885,11 @@ ROLE_NOTHING
 ;
 if
 (
-!
-Intl
+IntlGeneric
+(
+)
+.
+IsNull
 (
 )
 )
@@ -896,11 +899,10 @@ NS_ERROR_FAILURE
 *
 aRole
 =
-Intl
+IntlGeneric
 (
 )
--
->
+.
 Role
 (
 )
