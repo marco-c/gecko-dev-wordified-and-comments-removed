@@ -105,3 +105,16 @@ load
 914521
 .
 html
+pref
+(
+browser
+.
+send_pings
+true
+)
+load
+1257730
+-
+1
+.
+html
