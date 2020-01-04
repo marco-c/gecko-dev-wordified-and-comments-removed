@@ -1110,6 +1110,13 @@ h
 '
 ipc
 /
+ImageContainerChild
+.
+h
+'
+'
+ipc
+/
 ImageContainerParent
 .
 h
@@ -2386,6 +2393,13 @@ cpp
 ipc
 /
 ImageBridgeParent
+.
+cpp
+'
+'
+ipc
+/
+ImageContainerChild
 .
 cpp
 '
