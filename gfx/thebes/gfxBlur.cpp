@@ -2858,7 +2858,7 @@ GetBackendType
 BackendType
 :
 :
-DIRECT2D1_1
+DIRECT2D
 )
 )
 {
