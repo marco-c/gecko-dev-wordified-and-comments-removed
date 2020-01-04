@@ -10845,13 +10845,9 @@ TabParent
 RecvSetCandidateWindowForPlugin
 (
 const
-int32_t
+CandidateWindowPosition
 &
-aX
-const
-int32_t
-&
-aY
+aPosition
 )
 {
 nsCOMPtr
@@ -10879,8 +10875,7 @@ widget
 >
 SetCandidateWindowForPlugin
 (
-aX
-aY
+aPosition
 )
 ;
 return

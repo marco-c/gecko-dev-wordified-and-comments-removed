@@ -4182,10 +4182,13 @@ nsPluginInstanceOwner
 :
 SetCandidateWindow
 (
-int32_t
-aX
-int32_t
-aY
+const
+widget
+:
+:
+CandidateWindowPosition
+&
+aPosition
 )
 {
 if
@@ -4243,8 +4246,7 @@ widget
 >
 SetCandidateWindowForPlugin
 (
-aX
-aY
+aPosition
 )
 ;
 return
