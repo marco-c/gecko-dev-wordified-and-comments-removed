@@ -3337,6 +3337,12 @@ shutdown
 (
 )
 ;
+TelemetryEnvironment
+.
+shutdown
+(
+)
+;
 yield
 TelemetrySend
 .
