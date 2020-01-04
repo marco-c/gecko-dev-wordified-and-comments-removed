@@ -1734,7 +1734,7 @@ returnFlags
 BUFFER_NEEDS_REALLOCATION
 )
 {
-ISurfaceAllocator
+ClientIPCAllocator
 *
 allocator
 =

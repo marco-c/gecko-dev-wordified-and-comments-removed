@@ -2113,7 +2113,7 @@ IGraphicBufferProducer
 BUFFER_NEEDS_REALLOCATION
 )
 {
-ISurfaceAllocator
+ClientIPCAllocator
 *
 allocator
 =
