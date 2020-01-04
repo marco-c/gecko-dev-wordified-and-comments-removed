@@ -300,8 +300,6 @@ chrome
 AB_CD
 =
 *
-ifdef
-MOZ_UPDATER
 libs
 :
 :
@@ -332,7 +330,6 @@ FINAL_TARGET
 update
 .
 locale
-endif
 ifdef
 MOZ_CRASHREPORTER
 libs

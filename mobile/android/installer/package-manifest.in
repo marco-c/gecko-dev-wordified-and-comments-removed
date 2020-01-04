@@ -138,14 +138,14 @@ mobile
 l10n
 .
 js
-#
-ifdef
-MOZ_UPDATER
 BINPATH
 /
 update
 .
 locale
+#
+ifdef
+MOZ_UPDATER
 BINPATH
 /
 updater
