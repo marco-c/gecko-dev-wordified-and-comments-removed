@@ -1485,7 +1485,7 @@ void
 AudioNode
 :
 :
-SendTimelineParameterToStream
+SendTimelineEventToStream
 (
 AudioNode
 *
@@ -1493,9 +1493,9 @@ aNode
 uint32_t
 aIndex
 const
-AudioParamTimeline
+AudioTimelineEvent
 &
-aValue
+aEvent
 )
 {
 AudioNodeStream
@@ -1528,10 +1528,10 @@ here
 ns
 -
 >
-SetTimelineParameter
+SendTimelineEvent
 (
 aIndex
-aValue
+aEvent
 )
 ;
 }

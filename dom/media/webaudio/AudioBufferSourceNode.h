@@ -384,6 +384,10 @@ SendPlaybackRateToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -393,6 +397,10 @@ SendDetuneToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 private

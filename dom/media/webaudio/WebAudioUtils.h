@@ -53,8 +53,8 @@ AudioNodeStream
 namespace
 dom
 {
-class
-AudioParamTimeline
+struct
+AudioTimelineEvent
 ;
 namespace
 WebAudioUtils
@@ -165,11 +165,11 @@ aSampleRate
 ;
 }
 void
-ConvertAudioParamToTicks
+ConvertAudioTimelineEventToTicks
 (
-AudioParamTimeline
+AudioTimelineEvent
 &
-aParam
+aEvent
 AudioNodeStream
 *
 aSource

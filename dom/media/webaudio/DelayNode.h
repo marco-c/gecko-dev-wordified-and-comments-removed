@@ -135,6 +135,10 @@ SendDelayToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 friend

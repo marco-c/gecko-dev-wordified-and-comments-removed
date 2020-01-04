@@ -207,6 +207,10 @@ SendThresholdToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -216,6 +220,10 @@ SendKneeToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -225,6 +233,10 @@ SendRatioToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -234,6 +246,10 @@ SendAttackToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -243,6 +259,10 @@ SendReleaseToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 private

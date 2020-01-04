@@ -224,6 +224,10 @@ SendPanToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 nsRefPtr

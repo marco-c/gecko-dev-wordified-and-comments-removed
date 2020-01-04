@@ -434,9 +434,16 @@ AUDIO_TRACK
 )
 ;
 }
+AudioTimelineEvent
+event
+(
+mStream
+)
+;
 mCallback
 (
 mNode
+event
 )
 ;
 return
