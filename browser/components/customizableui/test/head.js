@@ -193,6 +193,9 @@ createDummyXULButton
 (
 id
 label
+win
+=
+window
 )
 {
 let
@@ -242,7 +245,7 @@ toolbar
 additional
 "
 ;
-window
+win
 .
 gNavToolbox
 .
