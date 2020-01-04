@@ -440,6 +440,7 @@ mSync
 ;
 class
 Saiz
+final
 :
 public
 Atom
@@ -471,6 +472,7 @@ mSampleInfoSize
 ;
 class
 Saio
+final
 :
 public
 Atom
@@ -534,6 +536,7 @@ mSaio
 ;
 class
 Moof
+final
 :
 public
 Atom
