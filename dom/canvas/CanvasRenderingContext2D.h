@@ -3243,16 +3243,6 @@ DefaultBackendMode
 )
 ;
 void
-OnStableState
-(
-)
-;
-void
-ScheduleStableStateCallback
-(
-)
-;
-void
 ClearTarget
 (
 )
@@ -3489,9 +3479,6 @@ mIPC
 ;
 bool
 mIsSkiaGL
-;
-bool
-mHasPendingStableStateCallback
 ;
 nsTArray
 <
