@@ -727,7 +727,7 @@ android
 -
 ndk
 -
-r10e
+r11b
 '
 )
 )

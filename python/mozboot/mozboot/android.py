@@ -1444,7 +1444,7 @@ os_name
 ver
 =
 '
-r10e
+r11b
 '
 )
 :
@@ -1464,7 +1464,7 @@ com
 /
 android
 /
-ndk
+repository
 /
 android
 -
@@ -1511,7 +1511,7 @@ s
 %
 s
 .
-bin
+zip
 '
 %
 (
