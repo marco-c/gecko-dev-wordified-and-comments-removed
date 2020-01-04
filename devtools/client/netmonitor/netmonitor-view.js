@@ -19828,7 +19828,10 @@ false
 let
 plain
 =
+new
 DOMParser
+(
+)
 .
 parseFromString
 (
