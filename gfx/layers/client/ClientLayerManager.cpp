@@ -542,6 +542,9 @@ mForwarder
 (
 new
 ShadowLayerForwarder
+(
+this
+)
 )
 mDeviceCounter
 (
@@ -3019,13 +3022,6 @@ mLatestTransactionId
 )
 ;
 }
-mForwarder
--
->
-SendPendingAsyncMessges
-(
-)
-;
 mPhase
 =
 PHASE_NONE

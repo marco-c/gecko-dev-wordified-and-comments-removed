@@ -285,6 +285,8 @@ OpDestroy
 [
 ]
 toDestroy
+uint64_t
+fwdTransactionId
 )
 returns
 (
@@ -305,6 +307,8 @@ OpDestroy
 [
 ]
 toDestroy
+uint64_t
+fwdTransactionId
 )
 ;
 /
@@ -431,6 +435,8 @@ LayersBackend
 aBackend
 TextureFlags
 aTextureFlags
+uint64_t
+aSerial
 )
 ;
 async
@@ -441,15 +447,6 @@ PMediaSystemResourceManager
 async
 PImageContainer
 (
-)
-;
-async
-ChildAsyncMessages
-(
-AsyncChildMessageData
-[
-]
-aMessages
 )
 ;
 }

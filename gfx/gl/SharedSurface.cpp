@@ -1505,7 +1505,7 @@ tex
 tex
 -
 >
-CancelWaitForCompositorRecycle
+CancelWaitForRecycle
 (
 )
 ;

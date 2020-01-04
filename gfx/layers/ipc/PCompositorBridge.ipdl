@@ -825,6 +825,15 @@ uint64_t
 id
 )
 ;
+async
+ParentAsyncMessages
+(
+AsyncParentMessageData
+[
+]
+aMessages
+)
+;
 parent
 :
 /
@@ -1492,6 +1501,8 @@ TextureFlags
 aTextureFlags
 uint64_t
 id
+uint64_t
+aSerial
 )
 ;
 child

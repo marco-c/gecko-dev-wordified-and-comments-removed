@@ -759,10 +759,7 @@ aPrefix
 struct
 TimedTexture
 {
-RefPtr
-<
-TextureHost
->
+CompositableTextureHostRef
 mTexture
 ;
 TimeStamp

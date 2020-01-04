@@ -23,6 +23,9 @@ class
 APZTestData
 ;
 class
+CompositorBridgeParentIPCAllocator
+;
+class
 ShadowLayersManager
 {
 public
@@ -186,6 +189,17 @@ aTargets
 =
 0
 ;
+virtual
+CompositorBridgeParentIPCAllocator
+*
+AsCompositorBridgeParentIPCAllocator
+(
+)
+{
+return
+nullptr
+;
+}
 }
 ;
 }
