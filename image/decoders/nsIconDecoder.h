@@ -82,8 +82,6 @@ State
 HEADER
 ROW_OF_PIXELS
 FINISH
-SUCCESS
-FAILURE
 }
 ;
 LexerTransition
