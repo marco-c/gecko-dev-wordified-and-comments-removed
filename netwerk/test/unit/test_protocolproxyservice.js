@@ -5391,6 +5391,8 @@ isResolvable
 nonexistant
 .
 lan
+.
+onion
 "
 )
 )
