@@ -3443,6 +3443,11 @@ BluetoothGatt
 webidl
 '
 '
+BluetoothGattAttributeEvent
+.
+webidl
+'
+'
 BluetoothGattCharacteristic
 .
 webidl
