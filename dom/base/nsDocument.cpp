@@ -46838,8 +46838,9 @@ float
 aForce
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+aView
 aView
 -
 >
