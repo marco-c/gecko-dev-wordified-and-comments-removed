@@ -2115,6 +2115,9 @@ is
 true
 on
 official
+non
+-
+debug
 builds
 with
 built
@@ -2122,8 +2125,8 @@ in
 support
 for
 Mozilla
-Telemetry
 *
+Telemetry
 reporting
 .
 *

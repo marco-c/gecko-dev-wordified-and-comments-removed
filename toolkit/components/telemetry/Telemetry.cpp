@@ -16693,6 +16693,13 @@ defined
 (
 MOZ_TELEMETRY_REPORTING
 )
+&
+&
+!
+defined
+(
+DEBUG
+)
 *
 ret
 =
