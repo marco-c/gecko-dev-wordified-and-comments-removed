@@ -481,8 +481,11 @@ extension
 ;
 extensions
 .
-registerAPI
+registerPrivilegedAPI
 (
+"
+alarms
+"
 (
 extension
 context
