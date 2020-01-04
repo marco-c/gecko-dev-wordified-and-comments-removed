@@ -1307,7 +1307,6 @@ pattern
 pattern
 }
 '
-+
                                          
 '
 matches
