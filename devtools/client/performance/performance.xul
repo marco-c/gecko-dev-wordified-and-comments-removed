@@ -1230,7 +1230,7 @@ devtools
 -
 toolbarbutton
 "
-label
+tooltiptext
 =
 "
 &
