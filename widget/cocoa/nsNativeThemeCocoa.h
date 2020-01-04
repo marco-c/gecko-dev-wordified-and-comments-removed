@@ -583,6 +583,8 @@ aWidgetType
 nsIFrame
 *
 aFrame
+float
+aOriginalHeight
 )
 ;
 void
