@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+addons
+.
+js
+'
+'
 animation
 .
 js

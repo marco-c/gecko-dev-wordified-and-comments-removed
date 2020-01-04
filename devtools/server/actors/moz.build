@@ -119,6 +119,11 @@ addon
 js
 '
 '
+addons
+.
+js
+'
+'
 animation
 .
 js
