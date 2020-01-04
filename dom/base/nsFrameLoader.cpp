@@ -4052,9 +4052,11 @@ GetBrowserDOMWindow
 if
 (
 !
+!
 otherBrowserDOMWindow
-|
-|
+!
+=
+!
 !
 browserDOMWindow
 )
