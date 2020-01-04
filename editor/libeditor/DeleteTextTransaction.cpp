@@ -8,6 +8,13 @@ h
 #
 include
 "
+SelectionState
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -57,13 +64,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-nsSelectionState
 .
 h
 "

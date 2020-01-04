@@ -8,6 +8,13 @@ h
 #
 include
 "
+SelectionState
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -255,13 +262,6 @@ h
 include
 "
 nsRange
-.
-h
-"
-#
-include
-"
-nsSelectionState
 .
 h
 "

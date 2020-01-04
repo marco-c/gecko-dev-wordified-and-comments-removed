@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsIContentFilter
+.
+h
+"
+#
+include
+"
 nsIDocumentObserver
 .
 h
@@ -219,9 +226,6 @@ nsITransferable
 ;
 class
 nsIClipboard
-;
-class
-nsIContentFilter
 ;
 class
 nsILinkHandler
@@ -305,6 +309,12 @@ eInsertParent
 2
 }
 BlockTransformationType
+;
+const
+char16_t
+kNBSP
+=
+160
 ;
 public
 :

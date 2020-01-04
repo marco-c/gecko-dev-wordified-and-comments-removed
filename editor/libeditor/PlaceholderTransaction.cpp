@@ -191,7 +191,7 @@ Init
 nsIAtom
 *
 aName
-nsSelectionState
+SelectionState
 *
 aSelState
 nsEditor
@@ -738,7 +738,7 @@ PlaceholderTransaction
 :
 StartSelectionEquals
 (
-nsSelectionState
+SelectionState
 *
 aSelState
 bool

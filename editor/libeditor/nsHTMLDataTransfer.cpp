@@ -22,6 +22,13 @@ h
 #
 include
 "
+SelectionState
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -490,13 +497,6 @@ h
 include
 "
 nsReadableUtils
-.
-h
-"
-#
-include
-"
-nsSelectionState
 .
 h
 "

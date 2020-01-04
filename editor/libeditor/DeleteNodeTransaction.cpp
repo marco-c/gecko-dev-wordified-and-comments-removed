@@ -8,6 +8,13 @@ h
 #
 include
 "
+SelectionState
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -23,13 +30,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsSelectionState
 .
 h
 "

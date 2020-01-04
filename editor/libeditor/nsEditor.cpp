@@ -3659,7 +3659,7 @@ selection
 mSelState
 =
 new
-nsSelectionState
+SelectionState
 (
 )
 ;

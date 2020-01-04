@@ -315,11 +315,6 @@ nsPlaintextEditor
 cpp
 '
 '
-nsSelectionState
-.
-cpp
-'
-'
 nsTableEditor
 .
 cpp
@@ -341,6 +336,11 @@ cpp
 '
 '
 PlaceholderTransaction
+.
+cpp
+'
+'
+SelectionState
 .
 cpp
 '

@@ -7,6 +7,13 @@ nsHTMLEditRules_h__
 #
 include
 "
+SelectionState
+.
+h
+"
+#
+include
+"
 TypeInState
 .
 h
@@ -50,13 +57,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-nsSelectionState
 .
 h
 "
