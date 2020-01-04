@@ -1934,6 +1934,9 @@ wantGlobalProperties
 "
 XMLHttpRequest
 "
+"
+fetch
+"
 ]
 }
 )
