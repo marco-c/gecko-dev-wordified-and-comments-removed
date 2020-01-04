@@ -540,6 +540,10 @@ screenSize
 locale
 |
 layoutDirection
+|
+smallestScreenSize
+|
+screenLayout
 "
 android
 :
