@@ -561,6 +561,7 @@ fail
 const
 char
 *
+const
 Decoder
 &
 )
@@ -3310,6 +3311,9 @@ arity
 ;
 if
 (
+Validate
+&
+&
 arity
 >
 1
@@ -4338,6 +4342,9 @@ arity
 ;
 if
 (
+Validate
+&
+&
 arity
 >
 1
@@ -4546,6 +4553,9 @@ arity
 ;
 if
 (
+Validate
+&
+&
 arity
 >
 1
@@ -4784,6 +4794,9 @@ arity
 ;
 if
 (
+Validate
+&
+&
 arity
 >
 1
