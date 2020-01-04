@@ -101,6 +101,9 @@ DIRS
 about
 '
 '
+contextualidentity
+'
+'
 customizableui
 '
 '
@@ -144,6 +147,9 @@ shell
 '
 '
 selfsupport
+'
+'
+tabview
 '
 '
 uitour
