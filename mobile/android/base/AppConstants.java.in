@@ -246,16 +246,6 @@ public
 static
 final
 String
-MOZ_ANDROID_SHARED_ACCOUNT_TYPE
-=
-"
-MOZ_ANDROID_SHARED_ACCOUNT_TYPE
-"
-;
-public
-static
-final
-String
 MOZ_ANDROID_SHARED_FXACCOUNT_TYPE
 =
 "
