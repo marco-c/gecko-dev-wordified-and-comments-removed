@@ -165,6 +165,9 @@ gfx
 IntRect
 mPictureRect
 ;
+bool
+mIsPremultipliedAlpha
+;
 }
 ;
 class
@@ -422,6 +425,10 @@ layers
 Image
 *
 aData
+bool
+aIsPremultipliedAlpha
+=
+true
 )
 ;
 virtual
@@ -642,6 +649,10 @@ gfx
 :
 IntRect
 mPictureRect
+;
+const
+bool
+mIsPremultipliedAlpha
 ;
 }
 ;
