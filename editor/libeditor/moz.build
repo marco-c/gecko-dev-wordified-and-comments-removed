@@ -163,7 +163,7 @@ DeleteNodeTransaction
 cpp
 '
 '
-DeleteRangeTxn
+DeleteRangeTransaction
 .
 cpp
 '

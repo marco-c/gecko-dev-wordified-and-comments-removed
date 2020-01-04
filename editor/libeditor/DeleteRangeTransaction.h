@@ -1,9 +1,9 @@
 #
 ifndef
-DeleteRangeTxn_h__
+DeleteRangeTransaction_h
 #
 define
-DeleteRangeTxn_h__
+DeleteRangeTransaction_h
 #
 include
 "
@@ -69,8 +69,12 @@ nsINode
 class
 nsRangeUpdater
 ;
+namespace
+mozilla
+{
 class
-DeleteRangeTxn
+DeleteRangeTransaction
+final
 :
 public
 EditAggregateTxn
@@ -91,13 +95,13 @@ nsRangeUpdater
 aRangeUpdater
 )
 ;
-DeleteRangeTxn
+DeleteRangeTransaction
 (
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-DeleteRangeTxn
+DeleteRangeTransaction
 EditAggregateTxn
 )
 NS_IMETHOD
@@ -172,8 +176,6 @@ EDirection
 aAction
 )
 ;
-protected
-:
 RefPtr
 <
 nsRange
@@ -190,5 +192,6 @@ mRangeUpdater
 ;
 }
 ;
+}
 #
 endif
