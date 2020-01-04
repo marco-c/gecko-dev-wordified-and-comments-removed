@@ -24759,6 +24759,14 @@ mConnectionInfo
 mAllowAltSvc
 &
 &
+!
+(
+mLoadFlags
+&
+LOAD_FRESH_CONNECTION
+)
+&
+&
 (
 scheme
 .
