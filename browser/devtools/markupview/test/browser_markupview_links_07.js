@@ -287,6 +287,15 @@ false
 inspector
 )
 ;
+yield
+selectNode
+(
+"
+label
+"
+inspector
+)
+;
 info
 (
 "
