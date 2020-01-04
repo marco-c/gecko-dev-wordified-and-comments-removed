@@ -2436,10 +2436,6 @@ border
 none
 ;
 padding
-:
-4px
-;
-padding
 -
 inline
 -
@@ -2664,6 +2660,13 @@ overflow
 x
 :
 hidden
+;
+padding
+:
+4px
+0
+!
+important
 ;
 }
 .
