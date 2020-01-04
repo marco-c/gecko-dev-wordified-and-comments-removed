@@ -245,28 +245,6 @@ exc_info
 )
             
 if
-type
-(
-e
-)
-in
-(
-socket
-.
-error
-socket
-.
-timeout
-)
-:
-                
-m
-.
-force_shutdown
-(
-)
-            
-if
 not
 isinstance
 (
@@ -288,6 +266,28 @@ always
 :
                     
 check_for_crash
+(
+)
+            
+if
+type
+(
+e
+)
+in
+(
+socket
+.
+error
+socket
+.
+timeout
+)
+:
+                
+m
+.
+force_shutdown
 (
 )
             
