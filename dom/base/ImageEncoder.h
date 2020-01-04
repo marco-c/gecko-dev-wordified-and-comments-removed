@@ -280,6 +280,10 @@ friend
 class
 EncodingRunnable
 ;
+friend
+class
+EncoderThreadPoolTerminator
+;
 }
 ;
 class
