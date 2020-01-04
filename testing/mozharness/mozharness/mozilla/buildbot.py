@@ -175,7 +175,8 @@ object
     
 buildbot_config
 =
-None
+{
+}
     
 buildbot_properties
 =
