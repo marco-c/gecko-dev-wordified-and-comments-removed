@@ -290,6 +290,7 @@ GlyphAllocFailedCG
 InvalidRect
 CannotDraw3D
 IncompatibleBasicTexturedEffect
+InvalidFont
 MustBeLessThanThis
 =
 101
