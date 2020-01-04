@@ -1,3 +1,15 @@
+if
+(
+typeof
+oomAtAllocation
+=
+=
+=
+'
+object
+'
+)
+{
 var
 a
 =
@@ -35,3 +47,4 @@ forEach
 1
 )
 ;
+}
