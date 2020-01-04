@@ -1202,6 +1202,12 @@ vcs
 "
 hg
 "
+                    
+"
+use_vcs_unique_share
+"
+:
+True
                 
 }
 )
