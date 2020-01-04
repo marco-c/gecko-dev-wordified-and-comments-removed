@@ -2647,15 +2647,14 @@ options
 jitflags
 )
     
-job_list
+test_list
 =
-(
+[
 _
 for
 test
 in
 test_list
-                
 for
 _
 in
@@ -2665,6 +2664,16 @@ copy_variants
 (
 test_flags
 )
+]
+    
+job_list
+=
+(
+test
+for
+test
+in
+test_list
 )
     
 job_count
@@ -2672,11 +2681,6 @@ job_count
 len
 (
 test_list
-)
-*
-len
-(
-test_flags
 )
     
 if
