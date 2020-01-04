@@ -7,13 +7,6 @@ mozilla_image_decoders_nsICODecoder_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 StreamingLexer
 .
 h
