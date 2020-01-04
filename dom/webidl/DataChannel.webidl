@@ -123,6 +123,11 @@ long
 bufferedAmount
 ;
 attribute
+unsigned
+long
+bufferedAmountLowThreshold
+;
+attribute
 EventHandler
 onopen
 ;
@@ -142,6 +147,10 @@ close
 attribute
 EventHandler
 onmessage
+;
+attribute
+EventHandler
+onbufferedamountlow
 ;
 attribute
 RTCDataChannelType

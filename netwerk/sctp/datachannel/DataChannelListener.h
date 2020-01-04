@@ -85,6 +85,17 @@ aContext
 =
 0
 ;
+virtual
+nsresult
+OnBufferLow
+(
+nsISupports
+*
+aContext
+)
+=
+0
+;
 }
 ;
 }
