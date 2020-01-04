@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsILoadInfo
 .
 h

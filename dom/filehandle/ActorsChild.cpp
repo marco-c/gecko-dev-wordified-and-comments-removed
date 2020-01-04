@@ -105,6 +105,17 @@ xpcpublic
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+"
 namespace
 mozilla
 {
