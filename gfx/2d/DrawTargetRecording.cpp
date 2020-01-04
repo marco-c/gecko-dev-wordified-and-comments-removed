@@ -3005,7 +3005,7 @@ RecordEvent
 RecordedPushLayer
 (
 this
-aOpacity
+aOpaque
 aOpacity
 aMask
 aMaskTransform
@@ -3019,7 +3019,7 @@ mFinalDT
 >
 PushLayer
 (
-aOpacity
+aOpaque
 aOpacity
 aMask
 aMaskTransform
