@@ -16887,6 +16887,10 @@ result
 =
 eRestyleResult_Continue
 ;
+canStopWithStyleChange
+=
+false
+;
 }
 ComputeRestyleResultFromNewContext
 (
