@@ -534,6 +534,10 @@ mWaiting
 (
 false
 )
+mHasSeeked
+(
+false
+)
 {
 }
 media
@@ -547,6 +551,9 @@ mDropTarget
 ;
 bool
 mWaiting
+;
+bool
+mHasSeeked
 ;
 }
 ;
