@@ -123,7 +123,7 @@ quoteChar
 )
 ;
 static
-void
+bool
 AppendEscapedCSSIdent
 (
 const
