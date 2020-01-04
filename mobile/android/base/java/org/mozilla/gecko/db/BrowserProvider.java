@@ -4712,7 +4712,7 @@ String
 boolean
 hasProcessedAnySuggestedSites
 =
-true
+false
 ;
 final
 int
@@ -4764,7 +4764,6 @@ moveToNext
 {
 if
 (
-!
 hasProcessedAnySuggestedSites
 )
 {
@@ -4783,7 +4782,7 @@ else
 {
 hasProcessedAnySuggestedSites
 =
-false
+true
 ;
 }
 suggestedSitesBuilder
@@ -5047,7 +5046,6 @@ ignoreForTopSitesArgs
 ;
 if
 (
-!
 hasProcessedAnySuggestedSites
 )
 {
