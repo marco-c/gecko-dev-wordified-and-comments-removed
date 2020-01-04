@@ -1408,6 +1408,8 @@ Navigator
 {
 [
 Throws
+Constant
+Cached
 ]
 readonly
 attribute
@@ -1501,6 +1503,8 @@ cookieEnabled
 ;
 [
 Throws
+Constant
+Cached
 ]
 readonly
 attribute
