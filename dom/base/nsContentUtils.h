@@ -4833,6 +4833,14 @@ JSObject
 aObj
 )
 ;
+static
+bool
+IsWorkerLoad
+(
+nsContentPolicyType
+aLoadType
+)
+;
 enum
 class
 StorageAccess

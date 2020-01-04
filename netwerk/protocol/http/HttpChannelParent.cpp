@@ -837,6 +837,8 @@ nsIURI
 aURI
 bool
 aIsNavigate
+nsContentPolicyType
+aType
 bool
 *
 aShouldIntercept
