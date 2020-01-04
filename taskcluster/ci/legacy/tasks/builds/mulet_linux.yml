@@ -115,9 +115,11 @@ project
 -
 build
 -
+linux64
+-
 mulet
 -
-linux
+opt
 -
 workspace
 '
@@ -169,9 +171,11 @@ project
 -
 build
 -
+linux64
+-
 mulet
 -
-linux
+opt
 -
 workspace
 :

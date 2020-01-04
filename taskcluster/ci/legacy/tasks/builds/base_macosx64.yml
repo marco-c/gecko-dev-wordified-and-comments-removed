@@ -57,6 +57,12 @@ build_name
 }
 }
 -
+{
+{
+build_type
+}
+}
+-
 workspace
 '
 -
@@ -176,6 +182,12 @@ build
 {
 {
 build_name
+}
+}
+-
+{
+{
+build_type
 }
 }
 -

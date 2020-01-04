@@ -145,7 +145,7 @@ api
 -
 15
 -
-dbg
+debug
 -
 workspace
 '
@@ -219,7 +219,7 @@ api
 -
 15
 -
-dbg
+debug
 -
 workspace
 :

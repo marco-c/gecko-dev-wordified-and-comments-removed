@@ -125,6 +125,8 @@ android
 -
 x86
 -
+opt
+-
 workspace
 '
 -
@@ -194,6 +196,8 @@ build
 android
 -
 x86
+-
+opt
 -
 workspace
 :
