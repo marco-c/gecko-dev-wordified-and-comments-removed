@@ -784,7 +784,10 @@ protected
 ScopedPLArenaPool
 mArena
 ;
+UniquePtr
+<
 CryptoKeyPair
+>
 mKeyPair
 ;
 nsString
@@ -819,6 +822,13 @@ override
 virtual
 void
 Resolve
+(
+)
+override
+;
+virtual
+void
+Cleanup
 (
 )
 override
