@@ -498,8 +498,13 @@ void
 BasicCompositor
 :
 :
-Destroy
+DetachWidget
 (
+)
+{
+if
+(
+mWidget
 )
 {
 mWidget
@@ -513,6 +518,7 @@ mWidget
 =
 nullptr
 ;
+}
 }
 TextureFactoryIdentifier
 BasicCompositor

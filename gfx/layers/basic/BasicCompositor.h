@@ -228,6 +228,14 @@ Destroy
 (
 )
 override
+{
+}
+virtual
+void
+DetachWidget
+(
+)
+override
 ;
 virtual
 TextureFactoryIdentifier

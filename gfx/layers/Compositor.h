@@ -307,6 +307,13 @@ Destroy
 0
 ;
 virtual
+void
+DetachWidget
+(
+)
+{
+}
+virtual
 bool
 SupportsEffect
 (

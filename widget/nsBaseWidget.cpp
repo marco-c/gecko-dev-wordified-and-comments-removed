@@ -1203,6 +1203,10 @@ Destroy
 (
 )
 ;
+mCompositorBridgeChild
+=
+nullptr
+;
 }
 if
 (
@@ -1215,6 +1219,10 @@ mCompositorVsyncDispatcher
 Shutdown
 (
 )
+;
+mCompositorVsyncDispatcher
+=
+nullptr
 ;
 }
 }

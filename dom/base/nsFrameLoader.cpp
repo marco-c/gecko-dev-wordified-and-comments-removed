@@ -7824,7 +7824,7 @@ XRE_IsContentProcess
 CompositorBridgeChild
 :
 :
-ChildProcessHasCompositor
+ChildProcessHasCompositorBridge
 (
 )
 )
