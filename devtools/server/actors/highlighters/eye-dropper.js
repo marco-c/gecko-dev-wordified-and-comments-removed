@@ -877,15 +877,6 @@ drawn
 "
 )
 ;
-this
-.
-emit
-(
-"
-hidden
-"
-)
-;
 }
 prepareImageCapture
 (

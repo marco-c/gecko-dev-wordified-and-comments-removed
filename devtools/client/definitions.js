@@ -1296,17 +1296,6 @@ inspector
 -
 commands
 "
-"
-devtools
-/
-client
-/
-eyedropper
-/
-commands
-.
-js
-"
 ]
 preventClosingOnKey
 :
