@@ -9345,10 +9345,6 @@ const
 nsID
 *
 iid
-XPCNativeInterface
-*
-*
-Interface
 bool
 allowNativeWrapper
 nsresult

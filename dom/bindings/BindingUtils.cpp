@@ -5160,7 +5160,6 @@ aRetval
 nullptr
 aHelper
 aIID
-nullptr
 aAllowNativeWrapper
 &
 rv
