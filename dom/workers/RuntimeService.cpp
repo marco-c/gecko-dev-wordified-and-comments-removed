@@ -10661,17 +10661,6 @@ mLoadGroup
 )
 ;
 }
-nsCOMPtr
-<
-nsIGlobalObject
->
-global
-=
-do_QueryInterface
-(
-window
-)
-;
 RefPtr
 <
 MessageChannel
@@ -10683,7 +10672,7 @@ MessageChannel
 :
 Constructor
 (
-global
+window
 rv
 )
 ;
