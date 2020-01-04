@@ -2799,7 +2799,7 @@ content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 sendAsyncMsg

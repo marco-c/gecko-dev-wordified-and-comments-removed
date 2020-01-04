@@ -942,7 +942,7 @@ contentDocument
 .
 documentElement
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

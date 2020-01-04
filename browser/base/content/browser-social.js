@@ -4698,7 +4698,7 @@ enabled
 |
 document
 .
-mozFullScreen
+fullscreenElement
 )
 return
 false

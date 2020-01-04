@@ -8191,7 +8191,7 @@ hasError
 &
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 this
@@ -8530,7 +8530,7 @@ function
 return
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 this
@@ -8552,7 +8552,7 @@ isVideoInFullScreen
 ?
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 :
@@ -8560,7 +8560,7 @@ this
 .
 video
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -8581,7 +8581,7 @@ isAudioOnly
 !
 document
 .
-mozFullScreenEnabled
+fullscreenEnabled
 )
 {
 this
@@ -12158,7 +12158,7 @@ video
 .
 ownerDocument
 "
-mozfullscreenchange
+fullscreenchange
 "
 this
 .

@@ -3351,7 +3351,7 @@ content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 sendAsyncMessage
@@ -3529,7 +3529,7 @@ content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 sendAsyncMessage

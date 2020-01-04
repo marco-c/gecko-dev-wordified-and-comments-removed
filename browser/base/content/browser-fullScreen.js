@@ -328,7 +328,7 @@ if
 !
 document
 .
-mozFullScreen
+fullscreenElement
 &
 &
 this
@@ -387,7 +387,7 @@ if
 !
 document
 .
-mozFullScreen
+fullscreenElement
 )
 this
 .
@@ -445,7 +445,7 @@ if
 !
 document
 .
-mozFullScreen
+fullscreenElement
 )
 this
 .
@@ -492,7 +492,7 @@ enterFS
 !
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 Services
@@ -521,7 +521,7 @@ function
 {
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -549,7 +549,7 @@ if
 (
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 this
@@ -648,7 +648,7 @@ if
 (
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 setTimeout
@@ -659,7 +659,7 @@ setTimeout
 >
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 0
@@ -838,7 +838,7 @@ if
 !
 document
 .
-mozFullScreen
+fullscreenElement
 )
 return
 false
@@ -1666,7 +1666,7 @@ if
 !
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 return
