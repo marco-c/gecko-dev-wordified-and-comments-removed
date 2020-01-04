@@ -67,6 +67,15 @@ IProtocol
 ActorDestroyReason
 ActorDestroyReason
 ;
+public
+:
+virtual
+~
+NonE10s
+(
+)
+{
+}
 protected
 :
 virtual
