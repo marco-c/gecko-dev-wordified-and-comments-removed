@@ -14067,6 +14067,13 @@ gfxPrefs
 APZAllowCheckerboarding
 (
 )
+|
+|
+mScrollMetadata
+.
+IsApzForceDisabled
+(
+)
 )
 {
 return
