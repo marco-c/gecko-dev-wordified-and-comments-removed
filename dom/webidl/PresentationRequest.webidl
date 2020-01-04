@@ -131,13 +131,12 @@ to
 start
 a
 new
-session
+connection
 and
-the
-session
+it
 will
-*
 be
+*
 returned
 with
 the
@@ -197,7 +196,7 @@ i
 e
 .
 the
-session
+connection
 state
 is
 *
@@ -292,7 +291,7 @@ Throws
 ]
 Promise
 <
-PresentationSession
+PresentationConnection
 >
 start
 (
@@ -362,7 +361,7 @@ is
 called
 when
 a
-session
+connection
 associated
 with
 a
@@ -377,7 +376,7 @@ is
 fired
 for
 all
-sessions
+connections
 that
 are
 created
@@ -389,7 +388,7 @@ controller
 /
 attribute
 EventHandler
-onsessionconnect
+onconnectionavailable
 ;
 }
 ;

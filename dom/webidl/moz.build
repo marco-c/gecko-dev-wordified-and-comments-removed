@@ -1920,6 +1920,11 @@ PresentationAvailability
 webidl
 '
 '
+PresentationConnection
+.
+webidl
+'
+'
 PresentationDeviceInfoManager
 .
 webidl
@@ -1931,11 +1936,6 @@ webidl
 '
 '
 PresentationRequest
-.
-webidl
-'
-'
-PresentationSession
 .
 webidl
 '
@@ -3966,7 +3966,7 @@ PopupBlockedEvent
 webidl
 '
 '
-PresentationSessionConnectEvent
+PresentationConnectionAvailableEvent
 .
 webidl
 '

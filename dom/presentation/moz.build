@@ -177,6 +177,11 @@ PresentationCallbacks
 h
 '
 '
+PresentationConnection
+.
+h
+'
+'
 PresentationDeviceManager
 .
 h
@@ -193,11 +198,6 @@ h
 '
 '
 PresentationService
-.
-h
-'
-'
-PresentationSession
 .
 h
 '
@@ -253,6 +253,11 @@ PresentationCallbacks
 cpp
 '
 '
+PresentationConnection
+.
+cpp
+'
+'
 PresentationDeviceManager
 .
 cpp
@@ -269,11 +274,6 @@ cpp
 '
 '
 PresentationService
-.
-cpp
-'
-'
-PresentationSession
 .
 cpp
 '

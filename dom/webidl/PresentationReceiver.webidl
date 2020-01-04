@@ -120,7 +120,7 @@ the
 first
 connected
 presentation
-session
+connection
 in
 a
 receiving
@@ -135,9 +135,9 @@ Throws
 ]
 Promise
 <
-PresentationSession
+PresentationConnection
 >
-getSession
+getConnection
 (
 )
 ;
@@ -148,7 +148,7 @@ Get
 all
 connected
 presentation
-sessions
+connections
 in
 a
 receiving
@@ -164,10 +164,10 @@ Promise
 <
 sequence
 <
-PresentationSession
+PresentationConnection
 >
 >
-getSessions
+getConnections
 (
 )
 ;
@@ -180,7 +180,7 @@ called
 when
 an
 incoming
-session
+connection
 is
 connecting
 .
@@ -188,7 +188,7 @@ connecting
 /
 attribute
 EventHandler
-onsessionavailable
+onconnectionavailable
 ;
 }
 ;

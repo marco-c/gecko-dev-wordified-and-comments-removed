@@ -139,7 +139,7 @@ wishes
 to
 initiate
 a
-PresentationSession
+PresentationConnection
 on
 the
 *
@@ -152,7 +152,7 @@ MUST
 start
 a
 presentation
-session
+connection
 using
 the
 default
