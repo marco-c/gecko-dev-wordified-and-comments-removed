@@ -474,16 +474,6 @@ CSSPseudoElement
 ?
 target
 ;
-/
-/
-Bug
-1216843
--
-implement
-animation
-composition
-/
-/
 inherit
 attribute
 IterationCompositeOperation

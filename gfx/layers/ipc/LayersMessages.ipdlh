@@ -1325,6 +1325,9 @@ calculation
 TimingFunction
 easingFunction
 ;
+uint8_t
+iterationComposite
+;
 }
 ;
 /

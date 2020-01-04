@@ -229,6 +229,15 @@ ErrorResult
 aRv
 )
 ;
+void
+SetIterationComposite
+(
+const
+IterationCompositeOperation
+&
+aIterationComposite
+)
+;
 }
 ;
 }
