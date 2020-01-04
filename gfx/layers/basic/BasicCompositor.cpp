@@ -3601,6 +3601,13 @@ mDrawTarget
 =
 mTarget
 ;
+bufferMode
+=
+BufferMode
+:
+:
+BUFFER_NONE
+;
 }
 else
 {
@@ -3999,9 +4006,6 @@ PopClip
 ;
 if
 (
-mTarget
-|
-|
 mRenderTarget
 -
 >
