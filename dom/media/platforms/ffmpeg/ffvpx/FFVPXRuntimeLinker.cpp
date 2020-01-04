@@ -174,13 +174,6 @@ sLinkStatus
 LinkStatus_SUCCEEDED
 ;
 }
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 sLinkStatus
 =
 LinkStatus_FAILED
