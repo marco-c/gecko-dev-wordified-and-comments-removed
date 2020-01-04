@@ -3920,7 +3920,7 @@ label
 "
 TreeBuilder
 .
-OUTPUT_OR_LABEL
+OTHER
 )
 ;
 public
@@ -5340,7 +5340,7 @@ output
 "
 TreeBuilder
 .
-OUTPUT_OR_LABEL
+OUTPUT
 )
 ;
 public

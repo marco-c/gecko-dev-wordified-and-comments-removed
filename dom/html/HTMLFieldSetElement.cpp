@@ -483,17 +483,6 @@ aContent
 ;
 return
 formControl
-&
-&
-formControl
--
->
-GetType
-(
-)
-!
-=
-NS_FORM_LABEL
 ;
 }
 NS_IMETHODIMP

@@ -6712,6 +6712,10 @@ nsGkAtoms
 :
 :
 object
+nsGkAtoms
+:
+:
+label
 )
 )
 {
