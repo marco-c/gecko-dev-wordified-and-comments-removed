@@ -5151,7 +5151,7 @@ nonLazyScript
 )
 -
 >
-argumentsHasVarBinding
+mayReadFrameArgsDirectly
 (
 )
 )

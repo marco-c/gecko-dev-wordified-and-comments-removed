@@ -6079,6 +6079,11 @@ function_
 module_
 ;
 }
+bool
+mayReadFrameArgsDirectly
+(
+)
+;
 JSFlatString
 *
 sourceData
