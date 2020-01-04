@@ -73,6 +73,17 @@ Bundle
 import
 android
 .
+support
+.
+v4
+.
+app
+.
+FragmentActivity
+;
+import
+android
+.
 util
 .
 Log
@@ -232,7 +243,7 @@ public
 class
 Launcher
 extends
-Activity
+FragmentActivity
 implements
 GeckoEventListener
 ContextGetter
