@@ -646,10 +646,6 @@ SetAnimation
 this
 )
 ;
-UpdateRelevance
-(
-)
-;
 if
 (
 wasRelevant
