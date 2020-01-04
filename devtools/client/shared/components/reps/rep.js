@@ -380,6 +380,13 @@ React
 PropTypes
 .
 object
+mode
+:
+React
+.
+PropTypes
+.
+string
 }
 render
 :
