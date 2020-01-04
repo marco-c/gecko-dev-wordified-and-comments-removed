@@ -367,6 +367,9 @@ GeckoViewSupport
 >
 mGeckoViewSupport
 ;
+class
+PMPMSupport
+;
 public
 :
 static
