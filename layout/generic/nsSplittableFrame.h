@@ -288,6 +288,12 @@ nullptr
 const
 override
 ;
+LogicalSides
+PreReflowBlockLevelLogicalSkipSides
+(
+)
+const
+;
 #
 ifdef
 DEBUG
