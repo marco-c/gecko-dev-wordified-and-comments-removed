@@ -243,9 +243,7 @@ set_define
 '
 E10S_TESTING_ONLY
 '
-'
-1
-'
+True
 )
 option
 (

@@ -243,9 +243,7 @@ set_define
 '
 PACKAGE_MOZTT
 '
-'
-1
-'
+True
 )
 include
 (
