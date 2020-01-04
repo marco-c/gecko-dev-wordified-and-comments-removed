@@ -268,6 +268,16 @@ public
 static
 final
 String
+PROFILE_CREATION_DATE
+=
+"
+profileDate
+"
+;
+public
+static
+final
+String
 SEQ
 =
 "
