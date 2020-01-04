@@ -150,6 +150,12 @@ CSS
 /
 "
 ;
+exports
+.
+PAGE_LINK_URL
+=
+PAGE_LINK_URL
+;
 const
 BROWSER_WINDOW
 =
