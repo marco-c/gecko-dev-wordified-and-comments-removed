@@ -132,6 +132,13 @@ mochitest
 ini
 '
 '
+general
+/
+mochitest
+.
+ini
+'
+'
 mixedcontentblocker
 /
 mochitest
