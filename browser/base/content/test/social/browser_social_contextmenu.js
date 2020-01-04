@@ -201,7 +201,11 @@ png
 "
 version
 :
+"
 1
+.
+0
+"
 }
 ;
 function

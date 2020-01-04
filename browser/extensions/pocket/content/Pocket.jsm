@@ -128,7 +128,7 @@ prefs
 getCharPref
 (
 "
-browser
+extensions
 .
 pocket
 .
@@ -251,7 +251,7 @@ window
 .
 pktUI
 .
-pocketButtonOnCommand
+tryToSaveCurrentPage
 (
 )
 ;

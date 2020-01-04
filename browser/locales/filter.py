@@ -84,6 +84,14 @@ services
 /
 sync
 "
+                 
+"
+browser
+/
+extensions
+/
+pocket
+"
 )
 :
     

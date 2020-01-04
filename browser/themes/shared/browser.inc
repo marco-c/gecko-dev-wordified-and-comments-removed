@@ -208,10 +208,6 @@ button
 webide
 -
 button
-#
-pocket
--
-button
 %
 ifdef
 XP_MACOSX
