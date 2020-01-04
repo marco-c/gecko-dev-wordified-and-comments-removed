@@ -609,7 +609,7 @@ checkbox
 "
 Correct
 type
-attribute
+attr
 "
 )
 ;
@@ -632,7 +632,7 @@ true
 "
 Has
 checked
-attribute
+attr
 "
 )
 ;
@@ -680,7 +680,7 @@ radio
 "
 Correct
 type
-attribute
+attr
 "
 )
 ;
@@ -704,7 +704,7 @@ Doesn
 t
 have
 checked
-attribute
+attr
 "
 )
 ;
@@ -751,7 +751,7 @@ true
 "
 "
 disabled
-attribute
+attr
 menuitem
 "
 )
@@ -788,9 +788,7 @@ menuItems
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
@@ -823,9 +821,7 @@ popup
 "
 )
 "
-The
-popup
-is
+Popup
 removed
 from
 the
@@ -1058,8 +1054,6 @@ parent
 "
 Correct
 label
-for
-menus
 "
 )
 ;
@@ -1270,9 +1264,7 @@ subMenuItems
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
