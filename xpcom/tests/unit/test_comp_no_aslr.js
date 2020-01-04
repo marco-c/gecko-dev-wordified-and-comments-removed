@@ -44,6 +44,8 @@ manifest
 do_get_file
 (
 '
+components
+/
 testcompnoaslr
 .
 manifest

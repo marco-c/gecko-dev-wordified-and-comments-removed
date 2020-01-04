@@ -167,6 +167,8 @@ manifest
 do_get_file
 (
 '
+components
+/
 bug656331
 .
 manifest

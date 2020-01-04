@@ -407,6 +407,8 @@ manifest
 do_get_file
 (
 '
+components
+/
 testcomponent
 .
 manifest
