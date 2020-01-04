@@ -187,7 +187,7 @@ false
 if
 (
 !
-ValidateObjectAllowDeleted
+ValidateObjectAllowDeletedOrNull
 (
 "
 isTransformFeedback
@@ -200,6 +200,10 @@ false
 ;
 if
 (
+!
+tf
+|
+|
 tf
 -
 >
