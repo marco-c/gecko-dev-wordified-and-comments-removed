@@ -237,7 +237,7 @@ false
 displayedTextElem
 :
 "
-genericBackgroundErrorLabel
+bgErrorLabel
 "
 buttonClick
 :
