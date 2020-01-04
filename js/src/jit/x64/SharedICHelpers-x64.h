@@ -391,9 +391,9 @@ masm
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 esp
 stackSize

@@ -379,9 +379,9 @@ stackSize
 {
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 esp
 stackSize
