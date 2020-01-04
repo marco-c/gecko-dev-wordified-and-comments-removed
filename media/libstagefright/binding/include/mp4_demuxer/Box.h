@@ -141,7 +141,7 @@ return
 !
 mRange
 .
-IsNull
+IsEmpty
 (
 )
 ;

@@ -1418,7 +1418,7 @@ if
 (
 mCompleteMediaHeaderRange
 .
-IsNull
+IsEmpty
 (
 )
 )

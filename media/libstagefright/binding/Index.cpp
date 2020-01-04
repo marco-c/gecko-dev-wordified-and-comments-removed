@@ -560,7 +560,7 @@ s
 >
 mCencRange
 .
-IsNull
+IsEmpty
 (
 )
 )

@@ -553,7 +553,7 @@ start
 ;
 }
 bool
-IsNull
+IsEmpty
 (
 )
 const
@@ -642,7 +642,7 @@ mEnd
 ;
 }
 MediaByteRange
-Extents
+Span
 (
 const
 MediaByteRange
@@ -653,7 +653,7 @@ const
 {
 if
 (
-IsNull
+IsEmpty
 (
 )
 )

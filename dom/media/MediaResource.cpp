@@ -961,7 +961,7 @@ if
 !
 mByteRange
 .
-IsNull
+IsEmpty
 (
 )
 &
@@ -1177,7 +1177,7 @@ mOffset
 !
 mByteRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -2378,7 +2378,7 @@ if
 (
 mByteRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -2595,7 +2595,7 @@ if
 !
 mByteRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -2640,7 +2640,7 @@ if
 !
 mByteRange
 .
-IsNull
+IsEmpty
 (
 )
 )
