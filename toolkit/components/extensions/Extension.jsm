@@ -6471,7 +6471,6 @@ addon
 .
 uninstall
 (
-true
 )
 ;
 return
