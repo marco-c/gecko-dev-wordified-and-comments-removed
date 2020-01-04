@@ -21091,6 +21091,9 @@ IsPlaybackEnded
 |
 |
 mPlayingThroughTheAudioChannelBeforeSeek
+|
+|
+mSrcAttrStream
 )
 )
 ;
