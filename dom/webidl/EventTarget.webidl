@@ -194,15 +194,11 @@ passive
 =
 false
 ;
-/
-/
 boolean
 once
 =
 false
 ;
-Bug
-1287706
 }
 ;
 [

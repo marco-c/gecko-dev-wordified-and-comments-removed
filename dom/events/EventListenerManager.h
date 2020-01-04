@@ -172,6 +172,11 @@ mPassive
 :
 1
 ;
+bool
+mOnce
+:
+1
+;
 EventListenerFlags
 (
 )
@@ -193,6 +198,10 @@ mAllowUntrustedEvents
 false
 )
 mPassive
+(
+false
+)
+mOnce
 (
 false
 )
