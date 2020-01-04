@@ -983,14 +983,6 @@ TextureFlags
 RECYCLE
 )
 ;
-MOZ_ASSERT
-(
-!
-HasRecycleCallback
-(
-)
-)
-;
 mAddedToCompositableClient
 =
 false
