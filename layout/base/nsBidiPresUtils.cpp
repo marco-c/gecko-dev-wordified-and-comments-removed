@@ -5591,6 +5591,12 @@ nscoord
 aStart
 )
 {
+nsSize
+containerSize
+(
+aContainerSize
+)
+;
 if
 (
 aFirstFrameOnLine
@@ -5607,6 +5613,15 @@ nsGkAtoms
 lineFrame
 )
 {
+containerSize
+=
+aFirstFrameOnLine
+-
+>
+GetSize
+(
+)
+;
 aFirstFrameOnLine
 =
 aFirstFrameOnLine
@@ -5646,7 +5661,7 @@ RepositionInlineFrames
 bld
 aFirstFrameOnLine
 aLineWM
-aContainerSize
+containerSize
 aStart
 )
 ;
