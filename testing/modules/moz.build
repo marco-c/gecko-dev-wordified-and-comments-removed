@@ -151,6 +151,17 @@ MockRegistrar
 jsm
 '
 '
+sinon
+-
+1
+.
+16
+.
+1
+.
+js
+'
+'
 StructuredLog
 .
 jsm
