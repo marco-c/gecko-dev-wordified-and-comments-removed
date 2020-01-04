@@ -451,7 +451,7 @@ if
 (
 sGLXLibrary
 .
-UseTextureFromPixmap
+UseSurfaceSharing
 (
 )
 )
