@@ -190,6 +190,10 @@ ReplyToSendMessage
 (
 long
 aMasId
+const
+nsAString
+&
+aHandleId
 bool
 aStatus
 ErrorResult

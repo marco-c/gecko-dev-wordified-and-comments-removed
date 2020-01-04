@@ -729,6 +729,10 @@ ReplyToMapSendMessage
 (
 long
 aMasId
+const
+nsAString
+&
+aHandleId
 bool
 aStatus
 BluetoothReplyRunnable

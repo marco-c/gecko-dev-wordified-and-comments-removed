@@ -339,6 +339,8 @@ replyToSendMessage
 (
 long
 masId
+DOMString
+handleId
 boolean
 status
 )

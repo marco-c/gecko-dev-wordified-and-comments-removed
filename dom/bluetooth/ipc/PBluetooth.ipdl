@@ -537,6 +537,9 @@ ReplyToSendMessageRequest
 uint16_t
 masId
 ;
+nsString
+handleId
+;
 bool
 messageStatus
 ;

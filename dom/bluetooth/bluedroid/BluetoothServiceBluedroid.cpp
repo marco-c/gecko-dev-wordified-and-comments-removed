@@ -7262,6 +7262,10 @@ ReplyToMapSendMessage
 (
 long
 aMasId
+const
+nsAString
+&
+aHandleId
 bool
 aStatus
 BluetoothReplyRunnable
@@ -7310,6 +7314,7 @@ map
 ReplyToSendMessage
 (
 aMasId
+aHandleId
 aStatus
 )
 ;

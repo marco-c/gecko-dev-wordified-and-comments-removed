@@ -924,6 +924,10 @@ ReplyToSendMessage
 (
 long
 aMasId
+const
+nsAString
+&
+aHandleId
 bool
 aStatus
 ErrorResult
@@ -1021,6 +1025,7 @@ bs
 ReplyToMapSendMessage
 (
 aMasId
+aHandleId
 aStatus
 new
 BluetoothVoidReplyRunnable
