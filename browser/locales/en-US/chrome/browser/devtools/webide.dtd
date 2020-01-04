@@ -269,14 +269,6 @@ Tabs
 <
 !
 ENTITY
-projectMenu_refreshTabs_accesskey
-"
-U
-"
->
-<
-!
-ENTITY
 runtimeMenu_label
 "
 Runtime
