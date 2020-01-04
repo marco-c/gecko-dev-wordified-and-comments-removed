@@ -1242,12 +1242,6 @@ mD3D11ImageBridgeDevice
 ;
 RefPtr
 <
-ID3D11Device
->
-mD3D11DecoderDevice
-;
-RefPtr
-<
 mozilla
 :
 :
