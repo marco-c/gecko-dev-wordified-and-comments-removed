@@ -2459,6 +2459,19 @@ accelerated
 =
 False
         
+prefs
+[
+"
+media
+.
+autoplay
+.
+enabled
+"
+]
+=
+True
+        
 if
 mozinfo
 .
