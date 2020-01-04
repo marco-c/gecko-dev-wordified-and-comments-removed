@@ -1339,6 +1339,10 @@ ButtonToast
 mToast
 ;
 protected
+Snackbar
+mSnackbar
+;
+protected
 LayerView
 mLayerView
 ;
@@ -4739,6 +4743,12 @@ snackbar
 show
 (
 )
+;
+this
+.
+mSnackbar
+=
+snackbar
 ;
 }
 public
