@@ -12896,6 +12896,12 @@ Now
 (
 )
 ;
+mPrevVsync
+=
+vsync
++
+mSoftwareVsyncRate
+;
 for
 (
 ;
