@@ -13,7 +13,7 @@ version
 .
 5
 .
-1
+0
 "
 authors
 =
@@ -121,9 +121,6 @@ dependencies
 ]
 byteorder
 =
-{
-version
-=
 "
 0
 .
@@ -131,15 +128,6 @@ version
 .
 0
 "
-path
-=
-"
-.
-.
-/
-byteorder
-"
-}
 [
 dev
 -
