@@ -819,6 +819,15 @@ DispatchEvents
 (
 )
 {
+RefPtr
+<
+nsAnimationManager
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mEventDispatcher
 .
 DispatchEvents

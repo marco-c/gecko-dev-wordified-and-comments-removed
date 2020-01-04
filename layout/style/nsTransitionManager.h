@@ -897,6 +897,15 @@ DispatchEvents
 (
 )
 {
+RefPtr
+<
+nsTransitionManager
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mEventDispatcher
 .
 DispatchEvents
