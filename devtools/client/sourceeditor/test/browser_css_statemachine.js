@@ -501,7 +501,7 @@ CSSCompleter
 {
 cssProperties
 :
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 }

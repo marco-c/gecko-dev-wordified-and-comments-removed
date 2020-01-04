@@ -680,7 +680,7 @@ cssProperties
 ;
 }
 function
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 {
@@ -1049,7 +1049,7 @@ exports
 CssPropertiesFront
 CssProperties
 getCssProperties
-getClientCssPropertiesForTests
+getClientCssProperties
 initCssProperties
 }
 ;

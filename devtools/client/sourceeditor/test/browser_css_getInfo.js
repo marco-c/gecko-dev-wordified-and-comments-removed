@@ -1246,7 +1246,7 @@ CSSCompleter
 {
 cssProperties
 :
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 }

@@ -222,7 +222,7 @@ walker
 walker
 cssProperties
 :
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 }
