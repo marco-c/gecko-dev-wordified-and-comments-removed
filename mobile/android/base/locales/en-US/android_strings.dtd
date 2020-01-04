@@ -5000,7 +5000,7 @@ find_in_page
 "
 Find
 in
-Page
+page
 "
 >
 <
@@ -5009,8 +5009,8 @@ ENTITY
 desktop_mode
 "
 Request
-Desktop
-Site
+desktop
+site
 "
 >
 <
@@ -5035,7 +5035,7 @@ ENTITY
 new_tab
 "
 New
-Tab
+tab
 "
 >
 <
@@ -5044,8 +5044,8 @@ ENTITY
 new_private_tab
 "
 New
-Private
-Tab
+private
+tab
 "
 >
 <
