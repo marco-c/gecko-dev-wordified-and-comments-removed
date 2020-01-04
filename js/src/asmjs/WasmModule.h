@@ -414,12 +414,15 @@ DataSegmentVector
 struct
 ElemSegment
 {
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 tableIndex
 ;
+MOZ_INIT_OUTSIDE_CTOR
 InitExpr
 offset
 ;
+MOZ_INIT_OUTSIDE_CTOR
 Uint32Vector
 elems
 ;
