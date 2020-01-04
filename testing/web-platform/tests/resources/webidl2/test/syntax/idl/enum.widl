@@ -38,17 +38,3 @@ size
 ;
 }
 ;
-enum
-AltMealType
-{
-"
-rice
-"
-"
-noodles
-"
-"
-other
-"
-}
-;
