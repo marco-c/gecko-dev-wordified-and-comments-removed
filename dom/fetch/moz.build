@@ -229,17 +229,6 @@ workers
 '
 #
 For
-nsJARChannel
-.
-h
-'
-/
-modules
-/
-libjar
-'
-#
-For
 HttpBaseChannel
 .
 h
