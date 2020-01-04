@@ -424,6 +424,8 @@ BlockSourceTrackId
 (
 TrackID
 aTrackId
+BlockingMode
+aBlockingMode
 )
 {
 if
@@ -438,6 +440,7 @@ mInputPort
 BlockSourceTrackId
 (
 aTrackId
+aBlockingMode
 )
 ;
 }
@@ -5167,6 +5170,10 @@ inputPort
 BlockSourceTrackId
 (
 inputTrackID
+BlockingMode
+:
+:
+END_EXISTING
 )
 ;
 Unused
@@ -6121,6 +6128,10 @@ GetTrack
 -
 >
 mTrackID
+BlockingMode
+:
+:
+CREATION
 )
 ;
 RefPtr
