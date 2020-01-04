@@ -884,6 +884,11 @@ hideBoxModel
 )
 ;
 }
+if
+(
+toolbox
+)
+{
 toolbox
 .
 emit
@@ -895,6 +900,7 @@ unhighlight
 "
 )
 ;
+}
 }
 )
 ;
