@@ -1418,6 +1418,11 @@ GetDocShellForTarget
 (
 )
 ;
+void
+ProcessApzAwareEventListenerAdd
+(
+)
+;
 nsresult
 CompileEventHandlerInternal
 (
