@@ -2206,6 +2206,27 @@ bin
 )
             
 '
+utility_path
+'
+:
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_test_install_dir
+'
+]
+'
+bin
+'
+)
+            
+'
 symbols_path
 '
 :
