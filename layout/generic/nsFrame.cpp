@@ -20059,6 +20059,8 @@ boxSizingAdjust
 =
 aBorder
 ;
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -20069,6 +20071,8 @@ boxSizingAdjust
 +
 =
 aPadding
+;
+MOZ_FALLTHROUGH
 ;
 case
 StyleBoxSizing
@@ -32491,6 +32495,8 @@ mWordMovementType
 eEndWord
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eSelectWord
 :

@@ -14678,6 +14678,8 @@ state
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 NS_STYLE_RUBY_ALIGN_CENTER
@@ -15757,6 +15759,8 @@ width
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 NS_STYLE_TEXT_ALIGN_DEFAULT

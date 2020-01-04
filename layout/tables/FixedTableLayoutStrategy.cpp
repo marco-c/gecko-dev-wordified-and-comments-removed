@@ -1134,6 +1134,8 @@ offsets
 .
 hPadding
 ;
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -1146,6 +1148,8 @@ boxSizingAdjust
 offsets
 .
 hBorder
+;
+MOZ_FALLTHROUGH
 ;
 case
 StyleBoxSizing

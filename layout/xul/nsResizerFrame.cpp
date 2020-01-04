@@ -404,6 +404,8 @@ GetUsedPadding
 )
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -421,6 +423,8 @@ GetUsedBorder
 (
 )
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 StyleBoxSizing

@@ -33146,6 +33146,8 @@ relColIndex
 mCol
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eColGroupOwner
 :
@@ -33204,6 +33206,8 @@ relColIndex
 mCol
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eColOwner
 :
@@ -33230,6 +33234,8 @@ vertical
 border
 "
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 eRowGroupOwner
@@ -33278,6 +33284,8 @@ error
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 eRowOwner
 :
@@ -33323,6 +33331,8 @@ eLogicalSideIEnd
 cell
 =
 mAjaCell
+;
+MOZ_FALLTHROUGH
 ;
 case
 eCellOwner
@@ -34053,6 +34063,8 @@ border
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 eColGroupOwner
 :
@@ -34139,6 +34151,8 @@ border
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 eColOwner
 :
@@ -34212,6 +34226,8 @@ aIter
 .
 mPrevRg
 ;
+MOZ_FALLTHROUGH
+;
 case
 eRowGroupOwner
 :
@@ -34246,6 +34262,8 @@ aIter
 .
 mPrevRow
 ;
+MOZ_FALLTHROUGH
+;
 case
 eRowOwner
 :
@@ -34265,6 +34283,8 @@ eLogicalSideBEnd
 cell
 =
 mAjaCell
+;
+MOZ_FALLTHROUGH
 ;
 case
 eCellOwner

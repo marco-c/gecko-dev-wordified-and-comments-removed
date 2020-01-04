@@ -3522,6 +3522,8 @@ k
 =
 1
 ;
+MOZ_FALLTHROUGH
+;
 case
 BorderColorStyleDark
 :

@@ -817,6 +817,8 @@ NS_STYLE_DISPLAY_BLOCK
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 NS_STYLE_DISPLAY_NONE
 :
@@ -2905,10 +2907,12 @@ return
 ;
 default
 :
-NS_NOTREACHED
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 unexpected
+box
+position
 value
 "
 )

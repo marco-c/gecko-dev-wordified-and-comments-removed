@@ -530,6 +530,8 @@ function
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 eCSSKeyword_translatex
 :
@@ -8857,6 +8859,8 @@ initialVal
 .
 0f
 ;
+MOZ_FALLTHROUGH
+;
 case
 eCSSKeyword_brightness
 :
@@ -9981,6 +9985,8 @@ Item
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 eCSSKeyword_matrix

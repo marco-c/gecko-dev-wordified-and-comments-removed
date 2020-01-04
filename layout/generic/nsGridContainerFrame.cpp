@@ -5362,6 +5362,8 @@ bug
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 NS_STYLE_ALIGN_START
 :
@@ -15376,6 +15378,8 @@ bug
 )
 "
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 NS_STYLE_ALIGN_START

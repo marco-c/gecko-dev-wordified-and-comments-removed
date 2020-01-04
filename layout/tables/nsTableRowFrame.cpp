@@ -3018,6 +3018,8 @@ CalcHasPercent
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 eStyleUnit_Coord

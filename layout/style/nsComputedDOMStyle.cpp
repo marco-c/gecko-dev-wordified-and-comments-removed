@@ -1920,6 +1920,8 @@ GetUsedBorder
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -1935,6 +1937,8 @@ mInnerFrame
 GetUsedPadding
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 StyleBoxSizing
@@ -18822,6 +18826,8 @@ unexpected
 value
 "
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 NS_STYLE_TEXT_SIZE_ADJUST_AUTO

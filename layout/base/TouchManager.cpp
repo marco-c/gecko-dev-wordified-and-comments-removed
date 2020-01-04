@@ -1037,6 +1037,8 @@ aIsHandlingUserInput
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 eTouchCancel
 :

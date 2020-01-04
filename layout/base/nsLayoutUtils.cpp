@@ -21348,6 +21348,8 @@ LeftRight
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 StyleBoxSizing
@@ -21461,6 +21463,8 @@ pad
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 StyleBoxSizing
@@ -25003,6 +25007,8 @@ boxSizingAdjust
 =
 aBorder
 ;
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -25013,6 +25019,8 @@ boxSizingAdjust
 +
 =
 aPadding
+;
+MOZ_FALLTHROUGH
 ;
 case
 StyleBoxSizing

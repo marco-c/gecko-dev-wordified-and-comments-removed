@@ -9039,6 +9039,8 @@ evenly
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 NS_STYLE_JUSTIFY_FLEX_START
 :
@@ -9773,6 +9775,8 @@ last
 baseline
 "
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 NS_STYLE_ALIGN_FLEX_START
@@ -10794,6 +10798,8 @@ last
 baseline
 "
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 NS_STYLE_ALIGN_FLEX_START

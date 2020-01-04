@@ -5194,6 +5194,8 @@ inside
 =
 borderStartEnd
 ;
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -5204,6 +5206,8 @@ inside
 +
 =
 paddingStartEnd
+;
+MOZ_FALLTHROUGH
 ;
 case
 StyleBoxSizing

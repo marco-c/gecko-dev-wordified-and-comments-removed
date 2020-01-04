@@ -10489,7 +10489,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 unexpected
@@ -17407,6 +17407,8 @@ value
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 default
 :
 UngetToken
@@ -30649,9 +30651,8 @@ aRestrictions
 {
 default
 :
-MOZ_ASSERT
+MOZ_FALLTHROUGH_ASSERT
 (
-false
 "
 should
 not
@@ -42720,6 +42721,8 @@ true
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eCSSToken_ID
 :
@@ -45344,6 +45347,8 @@ result
 .
 mTop
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -45354,6 +45359,8 @@ mBottom
 result
 .
 mTop
+;
+MOZ_FALLTHROUGH
 ;
 case
 3
@@ -45514,6 +45521,8 @@ result
 .
 mTop
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -45524,6 +45533,8 @@ mBottom
 result
 .
 mTop
+;
+MOZ_FALLTHROUGH
 ;
 case
 3
@@ -45948,6 +45959,8 @@ dimenX
 .
 mTop
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -45958,6 +45971,8 @@ mBottom
 dimenX
 .
 mTop
+;
+MOZ_FALLTHROUGH
 ;
 case
 3
@@ -45987,6 +46002,8 @@ dimenY
 .
 mTop
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -45997,6 +46014,8 @@ mBottom
 dimenY
 .
 mTop
+;
+MOZ_FALLTHROUGH
 ;
 case
 3

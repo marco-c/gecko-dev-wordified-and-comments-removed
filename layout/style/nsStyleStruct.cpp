@@ -11616,7 +11616,7 @@ return
 ;
 default
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 aTimingFunctionType

@@ -1028,6 +1028,8 @@ result
 }
 }
 }
+MOZ_FALLTHROUGH
+;
 case
 eEventAction_Suppress
 :

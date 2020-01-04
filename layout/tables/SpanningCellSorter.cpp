@@ -528,6 +528,8 @@ mEnumerationIndex
 =
 0
 ;
+MOZ_FALLTHROUGH
+;
 case
 ENUMERATING_ARRAY
 :
@@ -739,6 +741,8 @@ mSortedHashTable
 sh
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 ENUMERATING_HASH
 :
@@ -838,6 +842,8 @@ result
 mState
 =
 DONE
+;
+MOZ_FALLTHROUGH
 ;
 case
 DONE

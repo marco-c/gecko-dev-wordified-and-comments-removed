@@ -2172,6 +2172,8 @@ aProperty
 =
 eCSSProperty_border_top
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 eCSSProperty_border_top
@@ -6101,6 +6103,8 @@ eCSSUnit_Auto
 return
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 eCSSProperty_grid_template

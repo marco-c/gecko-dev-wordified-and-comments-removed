@@ -10426,6 +10426,8 @@ MenuClosed
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 nsIDOMKeyEvent
 :
