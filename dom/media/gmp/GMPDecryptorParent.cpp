@@ -2251,6 +2251,14 @@ mPlugin
 nullptr
 ;
 }
+MaybeDisconnect
+(
+aWhy
+=
+=
+AbnormalShutdown
+)
+;
 }
 bool
 GMPDecryptorParent

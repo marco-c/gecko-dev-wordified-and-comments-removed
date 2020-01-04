@@ -1332,6 +1332,14 @@ ActorDestroyed
 (
 )
 ;
+MaybeDisconnect
+(
+aWhy
+=
+=
+AbnormalShutdown
+)
+;
 }
 bool
 GMPVideoDecoderParent

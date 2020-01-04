@@ -886,6 +886,14 @@ mPlugin
 nullptr
 ;
 }
+MaybeDisconnect
+(
+aWhy
+=
+=
+AbnormalShutdown
+)
+;
 }
 bool
 GMPAudioDecoderParent

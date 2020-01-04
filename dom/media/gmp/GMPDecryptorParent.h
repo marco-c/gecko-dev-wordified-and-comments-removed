@@ -40,6 +40,13 @@ GMPDecryptorProxy
 .
 h
 "
+#
+include
+"
+GMPCrashHelperHolder
+.
+h
+"
 namespace
 mozilla
 {
@@ -60,6 +67,8 @@ public
 GMPDecryptorProxy
 public
 PGMPDecryptorParent
+public
+GMPCrashHelperHolder
 {
 public
 :

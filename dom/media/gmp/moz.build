@@ -386,6 +386,11 @@ GMPContentParent
 h
 '
 '
+GMPCrashHelperHolder
+.
+h
+'
+'
 GMPDecryptorChild
 .
 h

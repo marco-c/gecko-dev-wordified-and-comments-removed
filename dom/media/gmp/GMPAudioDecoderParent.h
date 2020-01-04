@@ -60,6 +60,13 @@ GMPAudioDecoderProxy
 .
 h
 "
+#
+include
+"
+GMPCrashHelperHolder
+.
+h
+"
 namespace
 mozilla
 {
@@ -77,6 +84,8 @@ public
 GMPAudioDecoderProxy
 public
 PGMPAudioDecoderParent
+public
+GMPCrashHelperHolder
 {
 public
 :

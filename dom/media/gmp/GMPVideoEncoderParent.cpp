@@ -1069,6 +1069,14 @@ ActorDestroyed
 (
 )
 ;
+MaybeDisconnect
+(
+aWhy
+=
+=
+AbnormalShutdown
+)
+;
 }
 static
 void
