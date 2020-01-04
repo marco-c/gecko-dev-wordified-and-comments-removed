@@ -172,5 +172,8 @@ ping
 uitour
 -
 ping
+heartbeat
+-
+ping
 preferences
 crashes
