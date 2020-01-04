@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+var
+MS_PER_SEC
+=
+1000
+;
 function
 createDiv
 (
