@@ -18,6 +18,13 @@ true
 ;
 browserElementTestHelpers
 .
+setClipboardPlainTextOnlyPref
+(
+false
+)
+;
+browserElementTestHelpers
+.
 addPermission
 (
 )
