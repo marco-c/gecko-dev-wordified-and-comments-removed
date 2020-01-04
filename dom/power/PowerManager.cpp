@@ -495,7 +495,7 @@ nsAString
 aState
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

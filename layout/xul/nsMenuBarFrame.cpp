@@ -616,7 +616,7 @@ GetCharCode
 charCode
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 10

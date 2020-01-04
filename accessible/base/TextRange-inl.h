@@ -43,7 +43,7 @@ pos2
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

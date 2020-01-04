@@ -9647,7 +9647,7 @@ rv
 return
 rv
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -16720,7 +16720,7 @@ Content
 length
 "
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 char

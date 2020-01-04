@@ -4021,7 +4021,7 @@ return
 true
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 16

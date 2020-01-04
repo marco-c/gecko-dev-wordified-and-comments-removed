@@ -412,7 +412,7 @@ IsEmpty
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 ContentParent
 *

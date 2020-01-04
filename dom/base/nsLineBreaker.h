@@ -420,14 +420,14 @@ uint8_t
 aBreakState
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 char16_t
 100
 >
 mCurrentWord
 ;
-nsAutoTArray
+AutoTArray
 <
 TextItem
 2

@@ -7999,7 +7999,7 @@ null
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *
@@ -8057,7 +8057,7 @@ aCommonAncestor
 nullptr
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *
@@ -8488,7 +8488,7 @@ null
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -8617,7 +8617,7 @@ return
 0
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -12605,7 +12605,7 @@ nsIFrame
 aFrame2
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -12613,7 +12613,7 @@ nsIFrame
 >
 ancestors1
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -15098,7 +15098,7 @@ GRAPHICS
 nsresult
 rv
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -24989,7 +24989,7 @@ nsIFrame
 aSubtreeRoot
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -25036,7 +25036,7 @@ Length
 1
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -36932,7 +36932,7 @@ return
 total
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 :

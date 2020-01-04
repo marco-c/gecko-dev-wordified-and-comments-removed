@@ -1966,7 +1966,7 @@ nsITransferable
 >
 mTransferable
 ;
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :

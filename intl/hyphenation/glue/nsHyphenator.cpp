@@ -715,7 +715,7 @@ ch
 ;
 }
 }
-nsAutoTArray
+AutoTArray
 <
 char
 200

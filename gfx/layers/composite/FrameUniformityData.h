@@ -104,7 +104,7 @@ GetStdDev
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 gfx
 :

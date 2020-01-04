@@ -2215,7 +2215,7 @@ dest
 aSamples
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 int16_t

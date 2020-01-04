@@ -499,7 +499,7 @@ KeyClass
 mObservers
 ;
 typedef
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

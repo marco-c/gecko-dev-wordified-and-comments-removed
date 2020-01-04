@@ -648,7 +648,7 @@ key
 return
 NS_OK
 ;
-nsAutoTArray
+AutoTArray
 <
 nsShortcutCandidate
 10

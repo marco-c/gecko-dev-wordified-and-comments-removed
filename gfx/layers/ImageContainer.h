@@ -1655,7 +1655,7 @@ get
 }
 private
 :
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :

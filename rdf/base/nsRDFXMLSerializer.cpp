@@ -3143,7 +3143,7 @@ rv
 return
 rv
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIRDFResource
 *

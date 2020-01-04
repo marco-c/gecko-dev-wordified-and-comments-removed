@@ -13087,7 +13087,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -13114,7 +13114,7 @@ IsEmpty
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 WindowAction
 10
@@ -21339,7 +21339,7 @@ feature
 ;
 }
 }
-nsAutoTArray
+AutoTArray
 <
 ParentType
 *
@@ -24697,7 +24697,7 @@ ToMilliseconds
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 TimeoutInfo
 *

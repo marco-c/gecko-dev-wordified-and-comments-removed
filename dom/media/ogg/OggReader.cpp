@@ -1548,7 +1548,7 @@ HasIndex
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 2
@@ -2172,7 +2172,7 @@ nullptr
 ogg_page
 page
 ;
-nsAutoTArray
+AutoTArray
 <
 OggCodecState
 *
@@ -6775,7 +6775,7 @@ return
 SEEK_INDEX_FAIL
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 2
@@ -7733,7 +7733,7 @@ sres
 SEEK_INDEX_FAIL
 )
 {
-nsAutoTArray
+AutoTArray
 <
 SeekRange
 16

@@ -275,7 +275,7 @@ public
 nsRunnable
 {
 typedef
-nsAutoTArray
+AutoTArray
 <
 DeferredFinalizeFunctionHolder
 16

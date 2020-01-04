@@ -1561,7 +1561,7 @@ ImageBridge
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 NonOwningImage
 1

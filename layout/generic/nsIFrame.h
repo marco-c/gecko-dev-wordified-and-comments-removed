@@ -2434,7 +2434,7 @@ GetPositionIgnoringScrolling
 )
 ;
 typedef
-nsAutoTArray
+AutoTArray
 <
 nsIContent
 *

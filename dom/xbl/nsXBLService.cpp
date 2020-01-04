@@ -865,7 +865,7 @@ nsIStreamListener
 >
 mInner
 ;
-nsAutoTArray
+AutoTArray
 <
 nsXBLBindingRequest
 *
@@ -2823,7 +2823,7 @@ nsXBLBinding
 aResult
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

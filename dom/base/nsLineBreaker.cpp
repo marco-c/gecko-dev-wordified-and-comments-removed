@@ -277,7 +277,7 @@ Length
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 4000
@@ -1006,7 +1006,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 4000
@@ -1942,7 +1942,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 4000

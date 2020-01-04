@@ -170,7 +170,7 @@ DefaultComputeSupportsComponentAlphaChildren
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 Layer
 *

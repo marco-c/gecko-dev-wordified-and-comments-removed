@@ -2446,7 +2446,7 @@ AndroidGeckoEvent
 SENSOR_EVENT
 :
 {
-nsAutoTArray
+AutoTArray
 <
 float
 4

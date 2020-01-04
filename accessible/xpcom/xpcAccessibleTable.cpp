@@ -1248,7 +1248,7 @@ rv
 rv
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -1380,7 +1380,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 XPC_TABLE_DEFAULT_SIZE
@@ -1495,7 +1495,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 XPC_TABLE_DEFAULT_SIZE
@@ -1610,7 +1610,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 XPC_TABLE_DEFAULT_SIZE

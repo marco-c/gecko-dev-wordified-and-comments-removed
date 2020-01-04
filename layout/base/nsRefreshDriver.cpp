@@ -6571,7 +6571,7 @@ tracingStyleFlush
 =
 false
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIPresShell
 *
@@ -6773,7 +6773,7 @@ tracingLayoutFlush
 =
 false
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIPresShell
 *

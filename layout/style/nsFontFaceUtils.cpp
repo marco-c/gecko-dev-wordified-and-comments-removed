@@ -467,7 +467,7 @@ gfxUserFontEntry
 aFont
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -530,7 +530,7 @@ Length
 1
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *

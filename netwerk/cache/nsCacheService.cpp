@@ -12919,7 +12919,7 @@ DoomCheckFn
 check
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsCacheEntry
 *

@@ -307,7 +307,7 @@ AudioChunk
 >
 mChunks
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 float

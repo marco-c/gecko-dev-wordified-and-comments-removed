@@ -1275,7 +1275,7 @@ Sheets
 >
 mSheets
 ;
-nsAutoTArray
+AutoTArray
 <
 SheetLoadData
 *

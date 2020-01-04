@@ -3606,7 +3606,7 @@ ProxyAccessible
 aCellIDs
 )
 {
-nsAutoTArray
+AutoTArray
 <
 uint64_t
 30
@@ -3997,7 +3997,7 @@ ProxyAccessible
 aSelectedItems
 )
 {
-nsAutoTArray
+AutoTArray
 <
 uint64_t
 10

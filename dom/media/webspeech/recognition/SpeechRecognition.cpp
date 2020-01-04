@@ -3861,7 +3861,7 @@ Data
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 int16_t
@@ -3967,7 +3967,7 @@ Data
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

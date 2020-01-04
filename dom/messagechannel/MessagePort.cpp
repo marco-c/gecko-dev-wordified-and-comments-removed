@@ -2058,7 +2058,7 @@ IsEmpty
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -2075,7 +2075,7 @@ AppendElement
 data
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 MessagePortMessage
 1

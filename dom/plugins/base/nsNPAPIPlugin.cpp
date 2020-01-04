@@ -7834,7 +7834,7 @@ nheaps
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
 HANDLE
 50

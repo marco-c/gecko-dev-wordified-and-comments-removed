@@ -4213,7 +4213,7 @@ nsIContent
 aElement
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIContent
 *

@@ -955,7 +955,7 @@ GetParent
 aSource
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *

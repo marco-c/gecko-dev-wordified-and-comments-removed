@@ -13115,7 +13115,7 @@ aReflowState
 axisTracker
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 StrutInfo
 1

@@ -4312,7 +4312,7 @@ n
 }
 #
 endif
-nsAutoTArray
+AutoTArray
 <
 TrackSize
 32
@@ -13038,7 +13038,7 @@ mSpan
 }
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 TrackSize
 :

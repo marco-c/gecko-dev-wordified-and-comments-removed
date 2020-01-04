@@ -586,7 +586,7 @@ uint32_t
 aContentFlags
 )
 {
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :
@@ -693,7 +693,7 @@ Buffer
 >
 newBuffers
 ;
-nsAutoTArray
+AutoTArray
 <
 CompositableForwarder
 :

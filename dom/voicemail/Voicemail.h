@@ -221,7 +221,7 @@ Listener
 >
 mListener
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

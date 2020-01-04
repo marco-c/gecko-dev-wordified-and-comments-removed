@@ -317,7 +317,7 @@ aMallocSizeOf
 )
 const
 ;
-nsAutoTArray
+AutoTArray
 <
 CSSStyleSheet
 *
@@ -1470,7 +1470,7 @@ CSSStyleSheetInner
 *
 mInner
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCSSRuleProcessor
 *

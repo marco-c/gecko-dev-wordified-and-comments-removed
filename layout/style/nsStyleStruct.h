@@ -1973,7 +1973,7 @@ mMaskModeCount
 mBlendModeCount
 mCompositeCount
 ;
-nsAutoTArray
+AutoTArray
 <
 Layer
 1
@@ -9220,7 +9220,7 @@ mTopLayer
 uint8_t
 mWillChangeBitField
 ;
-nsAutoTArray
+AutoTArray
 <
 nsString
 1
@@ -9284,7 +9284,7 @@ mPerspectiveOrigin
 2
 ]
 ;
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :
@@ -9300,7 +9300,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :
@@ -11490,9 +11490,6 @@ uint8_t
 mIMEMode
 ;
 uint8_t
-mWindowDragging
-;
-uint8_t
 mWindowShadow
 ;
 }
@@ -11729,6 +11726,9 @@ mUserModify
 ;
 uint8_t
 mUserFocus
+;
+uint8_t
+mWindowDragging
 ;
 uint8_t
 mCursor

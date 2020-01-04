@@ -188,7 +188,7 @@ IsEmpty
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :

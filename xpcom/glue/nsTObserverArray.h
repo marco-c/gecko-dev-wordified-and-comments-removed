@@ -1148,7 +1148,7 @@ mPosition
 ;
 protected
 :
-nsAutoTArray
+AutoTArray
 <
 T
 N

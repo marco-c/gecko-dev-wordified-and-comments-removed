@@ -1631,7 +1631,7 @@ baseGlyph
 }
 else
 {
-nsAutoTArray
+AutoTArray
 <
 gfxShapedText
 :

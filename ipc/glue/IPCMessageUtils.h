@@ -2245,7 +2245,7 @@ N
 struct
 ParamTraits
 <
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -2261,7 +2261,7 @@ E
 >
 {
 typedef
-nsAutoTArray
+AutoTArray
 <
 E
 N

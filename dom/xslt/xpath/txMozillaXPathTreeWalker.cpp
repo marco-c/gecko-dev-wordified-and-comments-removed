@@ -2771,7 +2771,7 @@ otherDocument
 1
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *

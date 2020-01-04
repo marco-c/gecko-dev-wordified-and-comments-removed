@@ -1076,7 +1076,7 @@ Run
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-nsAutoTArray
+AutoTArray
 <
 OSXVoice
 64

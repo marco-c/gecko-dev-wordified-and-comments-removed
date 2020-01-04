@@ -1575,7 +1575,7 @@ AvailableBSize
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 UniquePtr
 <
@@ -1585,7 +1585,7 @@ RTC_ARRAY_SIZE
 >
 reflowStates
 ;
-nsAutoTArray
+AutoTArray
 <
 UniquePtr
 <
@@ -2116,7 +2116,7 @@ PullFrameState
 ContinuationTraversingState
 mBase
 ;
-nsAutoTArray
+AutoTArray
 <
 ContinuationTraversingState
 RTC_ARRAY_SIZE

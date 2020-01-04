@@ -24431,7 +24431,7 @@ AddStateBits
 NS_FRAME_ALL_DESCENDANTS_NEED_PAINT
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 :
@@ -24533,7 +24533,7 @@ NS_FRAME_DESCENDANT_NEEDS_PAINT
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 :
@@ -42782,7 +42782,7 @@ AddStateBits
 NS_FRAME_IN_POPUP
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 :
@@ -42912,7 +42912,7 @@ RemoveStateBits
 NS_FRAME_IN_POPUP
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 :

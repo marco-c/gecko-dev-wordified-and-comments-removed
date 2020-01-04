@@ -792,7 +792,7 @@ counter
 ;
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 Element
 3

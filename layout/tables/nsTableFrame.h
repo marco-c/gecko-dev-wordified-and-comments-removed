@@ -1938,7 +1938,7 @@ GetFirstBodyRowGroupFrame
 public
 :
 typedef
-nsAutoTArray
+AutoTArray
 <
 nsTableRowGroupFrame
 *
@@ -2314,7 +2314,7 @@ aChildFrame
 ;
 #
 endif
-nsAutoTArray
+AutoTArray
 <
 nsTableColFrame
 *

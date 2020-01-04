@@ -375,7 +375,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 CacheId
 8
@@ -429,7 +429,7 @@ Length
 i
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsID
 16
@@ -490,7 +490,7 @@ rv
 ;
 }
 }
-nsAutoTArray
+AutoTArray
 <
 nsID
 64
@@ -5764,7 +5764,7 @@ StreamList
 aStreamList
 )
 {
-nsAutoTArray
+AutoTArray
 <
 SavedResponse
 1
@@ -8177,7 +8177,7 @@ NS_ASSERT_OWNINGTHREAD
 Manager
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsID
 64

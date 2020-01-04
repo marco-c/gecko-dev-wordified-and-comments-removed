@@ -255,7 +255,7 @@ mFontSet
 ;
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 FontSetByLangEntry
 1

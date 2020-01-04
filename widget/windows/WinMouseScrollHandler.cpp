@@ -1387,7 +1387,7 @@ kbdState
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 KeyPair
 10

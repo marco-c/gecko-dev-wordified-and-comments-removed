@@ -685,7 +685,7 @@ CFRetain
 userLocaleStr
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 UniChar
 32

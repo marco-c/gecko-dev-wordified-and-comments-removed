@@ -7342,7 +7342,7 @@ NotifyUnloadEventEnd
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -17978,7 +17978,7 @@ GetIndex
 index
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 uint64_t
 16
@@ -18337,7 +18337,7 @@ GetChildCount
 count
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 uint64_t
 16

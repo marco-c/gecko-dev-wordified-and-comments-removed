@@ -76,7 +76,7 @@ uint8_t
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 PangoLogAttr
 2000

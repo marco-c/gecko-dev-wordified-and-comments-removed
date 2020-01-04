@@ -559,7 +559,7 @@ mState
 uint64_t
 mServiceWorkerID
 ;
-nsAutoTArray
+AutoTArray
 <
 ServiceWorker
 *

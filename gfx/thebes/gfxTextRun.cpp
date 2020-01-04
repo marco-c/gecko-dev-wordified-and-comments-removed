@@ -2059,7 +2059,7 @@ uint16_t
 aOrientation
 )
 {
-nsAutoTArray
+AutoTArray
 <
 PropertyProvider
 :
@@ -3776,7 +3776,7 @@ ligatureRunStart
 aProvider
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 PropertyProvider
 :
@@ -3878,7 +3878,7 @@ Metrics
 aMetrics
 )
 {
-nsAutoTArray
+AutoTArray
 <
 PropertyProvider
 :
@@ -5284,7 +5284,7 @@ TEXT_ENABLE_SPACING
 uint32_t
 i
 ;
-nsAutoTArray
+AutoTArray
 <
 PropertyProvider
 :
@@ -8363,7 +8363,7 @@ enumerateFonts
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 gfxFontFamily
 *
@@ -8650,7 +8650,7 @@ fontlist
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 gfxFontEntry
 *
@@ -9515,7 +9515,7 @@ if
 mDefaultFont
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -12136,7 +12136,7 @@ runStart
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
 gfxTextRange
 3

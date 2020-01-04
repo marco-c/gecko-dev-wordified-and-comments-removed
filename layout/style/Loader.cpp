@@ -7621,7 +7621,7 @@ SheetComplete
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

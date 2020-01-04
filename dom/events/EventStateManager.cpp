@@ -3319,7 +3319,7 @@ ContentAccessModifierMask
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 10
@@ -5795,7 +5795,7 @@ return
 false
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

@@ -1375,7 +1375,7 @@ topRects
 =
 boxes
 ;
-nsAutoTArray
+AutoTArray
 <
 pixman_box32_t
 10

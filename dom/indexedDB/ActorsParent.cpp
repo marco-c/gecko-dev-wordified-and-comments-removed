@@ -64516,7 +64516,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsString
 20
@@ -64541,7 +64541,7 @@ validSubdirs
 20
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 FileManagerInitInfo
 20
@@ -72550,7 +72550,7 @@ IsVoid
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 int64_t
 10
@@ -96049,7 +96049,7 @@ mOp
 >
 mObjectStoreId
 ;
-nsAutoTArray
+AutoTArray
 <
 IndexUpdateInfo
 32

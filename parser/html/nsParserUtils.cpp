@@ -715,7 +715,7 @@ false
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsString
 2
