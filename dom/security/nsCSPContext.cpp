@@ -2545,6 +2545,14 @@ GetDocumentLoadGroup
 (
 )
 ;
+doc
+-
+>
+SetHasCSP
+(
+true
+)
+;
 }
 else
 {
