@@ -43332,6 +43332,16 @@ MOZ_WIDGET_TOOLKIT
 "
 cocoa
 "
+|
+|
+test
+"
+MOZ_WIDGET_TOOLKIT
+"
+=
+"
+uikit
+"
 ;
 then
 MOZ_APPLEMEDIA
