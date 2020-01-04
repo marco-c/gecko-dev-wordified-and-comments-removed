@@ -92,6 +92,13 @@ const
 ADDON_ROLLOUT_POLICY
 =
 {
+"
+beta
+"
+:
+"
+2a
+"
 }
 ;
 const
