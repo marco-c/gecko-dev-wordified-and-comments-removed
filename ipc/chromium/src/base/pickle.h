@@ -797,13 +797,6 @@ length
 )
 ;
 void
-TrimWriteData
-(
-int
-length
-)
-;
-void
 EndRead
 (
 void
