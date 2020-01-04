@@ -228,6 +228,11 @@ return
 mFlags
 ;
 }
+void
+Destroy
+(
+)
+;
 private
 :
 static
