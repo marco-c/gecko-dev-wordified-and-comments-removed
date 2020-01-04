@@ -17430,7 +17430,7 @@ HAVE_METADATA
 )
 {
 bool
-hasAudio
+hasAudioTracks
 =
 !
 AudioTracks
@@ -17443,7 +17443,7 @@ IsEmpty
 )
 ;
 bool
-hasVideo
+hasVideoTracks
 =
 !
 VideoTracks
@@ -17458,11 +17458,11 @@ IsEmpty
 if
 (
 !
-hasAudio
+hasAudioTracks
 &
 &
 !
-hasVideo
+hasVideoTracks
 )
 {
 LOG
@@ -17500,7 +17500,7 @@ IsVideo
 )
 &
 &
-hasVideo
+hasVideoTracks
 &
 &
 !
@@ -17602,7 +17602,7 @@ mMediaInfo
 ;
 if
 (
-hasAudio
+hasAudioTracks
 )
 {
 mediaInfo
@@ -17614,7 +17614,7 @@ EnableAudio
 }
 if
 (
-hasVideo
+hasVideoTracks
 )
 {
 mediaInfo
