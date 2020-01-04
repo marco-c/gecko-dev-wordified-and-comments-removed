@@ -1145,7 +1145,7 @@ JSObject
 *
 (
 *
-ParentGetter
+AssociatedGlobalGetter
 )
 (
 JSContext
@@ -1223,8 +1223,8 @@ NativePropertyHooks
 *
 mNativeHooks
 ;
-ParentGetter
-mGetParent
+AssociatedGlobalGetter
+mGetAssociatedGlobal
 ;
 ProtoHandleGetter
 mGetProto

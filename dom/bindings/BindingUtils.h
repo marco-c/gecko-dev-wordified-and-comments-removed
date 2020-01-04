@@ -7346,7 +7346,7 @@ template
 typename
 T
 bool
-WrapperCached
+hasAssociatedGlobal
 =
 NativeHasMember
 <
@@ -7357,7 +7357,7 @@ T
 GetParentObject
 >
 struct
-GetParentObject
+FindAssociatedGlobalForNative
 {
 static
 JSObject
@@ -7439,7 +7439,7 @@ typename
 T
 >
 struct
-GetParentObject
+FindAssociatedGlobalForNative
 <
 T
 false
