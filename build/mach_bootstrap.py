@@ -823,6 +823,16 @@ py
 '
 testing
 /
+mozharness
+/
+mach_commands
+.
+py
+'
+    
+'
+testing
+/
 xpcshell
 /
 mach_commands

@@ -4414,6 +4414,8 @@ ignored
 self
 .
 config
+.
+get
 (
 '
 test_url
