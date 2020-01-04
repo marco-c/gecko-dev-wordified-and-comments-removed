@@ -577,6 +577,16 @@ override
 {
 NS_WARN_IF_FALSE
 (
+!
+aSource
+-
+>
+FindTrack
+(
+aId
+)
+|
+|
 aDesiredTime
 <
 =
