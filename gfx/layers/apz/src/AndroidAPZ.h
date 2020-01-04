@@ -128,6 +128,14 @@ override
 ;
 private
 :
+void
+DeferHandleFlingOverscroll
+(
+ParentLayerPoint
+&
+aVelocity
+)
+;
 bool
 CheckBounds
 (
@@ -136,6 +144,8 @@ Axis
 aAxis
 float
 aValue
+float
+aDirection
 float
 *
 aClamped
@@ -186,8 +196,8 @@ mPreviousOffset
 ParentLayerPoint
 mFlingDirection
 ;
-int32_t
-mOverScrollCount
+ParentLayerPoint
+mPreviousVelocity
 ;
 }
 ;
