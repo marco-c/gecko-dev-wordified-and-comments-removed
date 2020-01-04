@@ -201,6 +201,11 @@ PushNotifier
 .
 h
 '
+'
+PushSubscription
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -213,6 +218,11 @@ cpp
 '
 '
 PushNotifier
+.
+cpp
+'
+'
+PushSubscription
 .
 cpp
 '

@@ -1146,15 +1146,6 @@ publicKey
 authSecret
 )
 ;
-sub
-.
-setPrincipal
-(
-pushManager
-.
-_principal
-)
-;
 this
 .
 resolve
