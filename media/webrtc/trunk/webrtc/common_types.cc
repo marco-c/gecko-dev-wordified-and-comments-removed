@@ -104,6 +104,14 @@ videoRotation
 (
 0
 )
+hasRID
+(
+false
+)
+rid
+(
+NULL
+)
 {
 }
 RTPHeader

@@ -289,6 +289,16 @@ csrcs
 )
 override
 ;
+int32_t
+SetRID
+(
+const
+char
+*
+rid
+)
+override
+;
 RTCPSender
 :
 :
