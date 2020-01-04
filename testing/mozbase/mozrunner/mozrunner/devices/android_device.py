@@ -2364,6 +2364,14 @@ adb_path
 retryLimit
 =
 1
+            
+deviceSerial
+=
+'
+emulator
+-
+5554
+'
 )
         
 self
