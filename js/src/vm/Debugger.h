@@ -373,6 +373,7 @@ Base
 :
 trace
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -842,6 +843,7 @@ assertEntriesNotAboutToBeFinalized
 )
 ;
 }
+MOZ_MUST_USE
 bool
 incZoneCount
 (
@@ -1084,6 +1086,7 @@ return
 lineno_
 ;
 }
+MOZ_MUST_USE
 bool
 setFilename
 (
@@ -1762,6 +1765,7 @@ DEFAULT_MAX_LOG_LENGTH
 =
 5000
 ;
+MOZ_MUST_USE
 bool
 appendAllocationSite
 (
@@ -1802,6 +1806,7 @@ global
 )
 ;
 static
+MOZ_MUST_USE
 bool
 addAllocationsTracking
 (
@@ -1825,6 +1830,7 @@ GlobalObject
 global
 )
 ;
+MOZ_MUST_USE
 bool
 addAllocationsTrackingForAllDebuggees
 (
@@ -1935,6 +1941,7 @@ ScriptQuery
 class
 ObjectQuery
 ;
+MOZ_MUST_USE
 bool
 addDebuggeeGlobal
 (
@@ -2217,6 +2224,7 @@ Class
 class_
 ;
 static
+MOZ_MUST_USE
 bool
 getHookImpl
 (
@@ -2234,6 +2242,7 @@ which
 )
 ;
 static
+MOZ_MUST_USE
 bool
 setHookImpl
 (
@@ -2990,6 +2999,7 @@ NativeObject
 >
 ;
 static
+MOZ_MUST_USE
 bool
 getDebuggerFrames
 (
@@ -3005,6 +3015,7 @@ frames
 public
 :
 static
+MOZ_MUST_USE
 bool
 ensureExecutionObservabilityOfOsrFrame
 (
@@ -3017,6 +3028,7 @@ frame
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ensureExecutionObservabilityOfScript
 (
@@ -3049,6 +3061,7 @@ const
 private
 :
 static
+MOZ_MUST_USE
 bool
 ensureExecutionObservabilityOfFrame
 (
@@ -3060,6 +3073,7 @@ frame
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ensureExecutionObservabilityOfCompartment
 (
@@ -3079,6 +3093,7 @@ Hook
 which
 )
 ;
+MOZ_MUST_USE
 bool
 updateObservesAllExecutionOnDebuggees
 (
@@ -3089,6 +3104,7 @@ IsObserving
 observing
 )
 ;
+MOZ_MUST_USE
 bool
 updateObservesCoverageOnDebuggees
 (
@@ -3122,6 +3138,7 @@ hasAnyLiveHooks
 const
 ;
 static
+MOZ_MUST_USE
 bool
 slowPathCheckNoExecute
 (
@@ -3144,6 +3161,7 @@ frame
 )
 ;
 static
+MOZ_MUST_USE
 bool
 slowPathOnLeaveFrame
 (
@@ -3223,6 +3241,7 @@ global
 )
 ;
 static
+MOZ_MUST_USE
 bool
 slowPathOnLogAllocationSite
 (
@@ -3503,6 +3522,7 @@ Ptr
 gcData
 )
 ;
+MOZ_MUST_USE
 bool
 getScriptFrameWithIter
 (
@@ -3539,6 +3559,7 @@ link
 )
 ;
 static
+MOZ_MUST_USE
 bool
 replaceFrameGuts
 (
@@ -3571,6 +3592,7 @@ Debugger
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -3663,6 +3685,7 @@ tracer
 )
 ;
 static
+MOZ_MUST_USE
 bool
 markAllIteratively
 (
@@ -3721,6 +3744,7 @@ finder
 ;
 static
 inline
+MOZ_MUST_USE
 bool
 checkNoExecute
 (
@@ -3769,6 +3793,7 @@ frame
 ;
 static
 inline
+MOZ_MUST_USE
 bool
 onLeaveFrame
 (
@@ -3830,6 +3855,7 @@ global
 ;
 static
 inline
+MOZ_MUST_USE
 bool
 onLogAllocationSite
 (
@@ -3868,6 +3894,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 handleBaselineOsr
 (
@@ -3886,6 +3913,7 @@ to
 )
 ;
 static
+MOZ_MUST_USE
 bool
 handleIonBailout
 (
@@ -4011,6 +4039,7 @@ script
 )
 const
 ;
+MOZ_MUST_USE
 bool
 wrapEnvironment
 (
@@ -4027,6 +4056,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 wrapDebuggeeValue
 (
@@ -4037,6 +4067,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 wrapDebuggeeObject
 (
@@ -4047,6 +4078,7 @@ MutableHandleObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 unwrapDebuggeeValue
 (
@@ -4057,6 +4089,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 unwrapDebuggeeObject
 (
@@ -4067,6 +4100,7 @@ MutableHandleObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 unwrapPropertyDescriptor
 (
@@ -4082,6 +4116,7 @@ PropertyDescriptor
 desc
 )
 ;
+MOZ_MUST_USE
 bool
 getScriptFrame
 (
@@ -4104,6 +4139,7 @@ vp
 )
 ;
 }
+MOZ_MUST_USE
 bool
 getScriptFrame
 (
@@ -4153,6 +4189,7 @@ MutableHandleValue
 value
 )
 ;
+MOZ_MUST_USE
 bool
 newCompletionValue
 (
@@ -4167,6 +4204,7 @@ MutableHandleValue
 result
 )
 ;
+MOZ_MUST_USE
 bool
 receiveCompletionValue
 (
@@ -4311,6 +4349,7 @@ debugger
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isCallable
 (
@@ -4326,6 +4365,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isFunction
 (
@@ -4341,6 +4381,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isDebuggeeFunction
 (
@@ -4356,6 +4397,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isBoundFunction
 (
@@ -4371,6 +4413,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isArrowFunction
 (
@@ -4386,6 +4429,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isGlobal
 (
@@ -4401,6 +4445,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 className
 (
@@ -4418,6 +4463,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 global
 (
@@ -4435,6 +4481,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 name
 (
@@ -4452,6 +4499,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 displayName
 (
@@ -4469,6 +4517,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 parameterNames
 (
@@ -4489,6 +4538,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 boundTargetFunction
 (
@@ -4506,6 +4556,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 boundThis
 (
@@ -4523,6 +4574,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 boundArguments
 (
@@ -4543,6 +4595,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 allocationSite
 (
@@ -4560,6 +4613,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 errorMessageName
 (
@@ -4577,6 +4631,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isExtensible
 (
@@ -4595,6 +4650,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isSealed
 (
@@ -4613,6 +4669,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isFrozen
 (
@@ -4631,6 +4688,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getPrototypeOf
 (
@@ -4648,6 +4706,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getOwnPropertyNames
 (
@@ -4668,6 +4727,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getOwnPropertySymbols
 (
@@ -4688,6 +4748,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getOwnPropertyDescriptor
 (
@@ -4710,6 +4771,7 @@ desc
 )
 ;
 static
+MOZ_MUST_USE
 bool
 preventExtensions
 (
@@ -4725,6 +4787,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 seal
 (
@@ -4740,6 +4803,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 freeze
 (
@@ -4755,6 +4819,7 @@ object
 )
 ;
 static
+MOZ_MUST_USE
 bool
 defineProperty
 (
@@ -4777,6 +4842,7 @@ desc
 )
 ;
 static
+MOZ_MUST_USE
 bool
 defineProperties
 (
@@ -4802,6 +4868,7 @@ descs
 )
 ;
 static
+MOZ_MUST_USE
 bool
 deleteProperty
 (
@@ -4822,6 +4889,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 call
 (
@@ -4846,6 +4914,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 forceLexicalInitializationByName
 (
@@ -4866,6 +4935,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 executeInGlobal
 (
@@ -4898,6 +4968,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 makeDebuggeeValue
 (
@@ -4917,6 +4988,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 unsafeDereference
 (
@@ -4934,6 +5006,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 unwrap
 (
@@ -4955,6 +5028,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 requireGlobal
 (
@@ -6216,6 +6290,7 @@ dbgs
 )
 ;
 }
+MOZ_MUST_USE
 bool
 ReportObjectRequired
 (
