@@ -39471,9 +39471,11 @@ nsIDocument
 >
 doc
 =
-do_GetInterface
-(
 parent
+-
+>
+GetDocument
+(
 )
 ;
 if
