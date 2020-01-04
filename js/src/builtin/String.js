@@ -208,7 +208,6 @@ rx
 RegExpCreate
 (
 regexp
-undefined
 )
 ;
 if
@@ -1066,7 +1065,6 @@ rx
 RegExpCreate
 (
 regexp
-undefined
 )
 ;
 return

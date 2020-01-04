@@ -146,7 +146,7 @@ internalIntlRegExps
 .
 unicodeLocaleExtensionSequenceRE
 =
-regexp_construct
+RegExpCreate
 (
 "
 -
@@ -944,7 +944,7 @@ internalIntlRegExps
 .
 languageTagRE
 =
-regexp_construct
+RegExpCreate
 (
 languageTag
 "
@@ -1123,7 +1123,7 @@ internalIntlRegExps
 .
 duplicateVariantRE
 =
-regexp_construct
+RegExpCreate
 (
 duplicateVariant
 "
@@ -1275,7 +1275,7 @@ internalIntlRegExps
 .
 duplicateSingletonRE
 =
-regexp_construct
+RegExpCreate
 (
 duplicateSingleton
 "
@@ -2352,7 +2352,7 @@ internalIntlRegExps
 .
 isWellFormedCurrencyCodeRE
 =
-regexp_construct
+RegExpCreate
 (
 "
 [
@@ -6825,7 +6825,7 @@ internalIntlRegExps
 .
 currencyDigitsRE
 =
-regexp_construct
+RegExpCreate
 (
 "
 ^
