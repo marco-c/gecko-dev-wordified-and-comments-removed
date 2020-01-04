@@ -262,6 +262,12 @@ id
 itemHeight
 :
 HEAP_TREE_ROW_HEIGHT
+reuseCachedTraversal
+:
+traversal
+=
+>
+true
 }
 ;
 }
