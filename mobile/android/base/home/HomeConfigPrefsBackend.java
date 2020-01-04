@@ -79,7 +79,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -430,7 +430,7 @@ HISTORY
 ;
 if
 (
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

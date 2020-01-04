@@ -122,7 +122,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -357,7 +357,7 @@ panels
 ;
 if
 (
-RestrictedProfiles
+Restrictions
 .
 isUserRestricted
 (

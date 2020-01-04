@@ -10758,7 +10758,7 @@ null
 }
 )
 ;
-RestrictedProfiles
+Restrictions
 .
 update
 (

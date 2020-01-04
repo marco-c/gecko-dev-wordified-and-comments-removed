@@ -176,7 +176,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -2675,7 +2675,7 @@ pref_header_advanced
 &
 &
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -3535,7 +3535,7 @@ key
 &
 &
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -3632,7 +3632,7 @@ NIGHTLY_BUILD
 |
 |
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -3863,7 +3863,7 @@ MOZ_STUMBLER_BUILD_TIME_ENABLED
 |
 |
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -3903,7 +3903,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -3943,7 +3943,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -4020,7 +4020,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -4106,7 +4106,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -4377,7 +4377,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -4417,7 +4417,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -4457,7 +4457,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -4539,7 +4539,7 @@ key
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

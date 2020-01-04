@@ -52,7 +52,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -831,7 +831,7 @@ true
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -1001,7 +1001,7 @@ Panel
 PRIVATE_TABS
 &
 &
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

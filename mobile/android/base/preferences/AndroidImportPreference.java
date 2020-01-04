@@ -45,7 +45,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -172,7 +172,7 @@ Versions
 preM
 &
 &
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

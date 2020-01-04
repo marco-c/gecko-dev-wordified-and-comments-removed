@@ -9103,7 +9103,7 @@ signature
 ;
 constexpr
 char
-RestrictedProfiles
+Restrictions
 :
 :
 name
@@ -9112,7 +9112,7 @@ name
 ;
 constexpr
 char
-RestrictedProfiles
+Restrictions
 :
 :
 IsAllowed_t
@@ -9124,7 +9124,7 @@ name
 ;
 constexpr
 char
-RestrictedProfiles
+Restrictions
 :
 :
 IsAllowed_t
@@ -9135,7 +9135,7 @@ signature
 ]
 ;
 auto
-RestrictedProfiles
+Restrictions
 :
 :
 IsAllowed
@@ -9182,7 +9182,7 @@ a1
 }
 constexpr
 char
-RestrictedProfiles
+Restrictions
 :
 :
 IsUserRestricted_t
@@ -9194,7 +9194,7 @@ name
 ;
 constexpr
 char
-RestrictedProfiles
+Restrictions
 :
 :
 IsUserRestricted_t
@@ -9205,7 +9205,7 @@ signature
 ]
 ;
 auto
-RestrictedProfiles
+Restrictions
 :
 :
 IsUserRestricted

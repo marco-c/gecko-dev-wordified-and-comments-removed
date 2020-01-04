@@ -64,7 +64,7 @@ mozilla
 widget
 :
 :
-RestrictedProfiles
+Restrictions
 :
 :
 IsUserRestricted
@@ -304,7 +304,7 @@ mozilla
 widget
 :
 :
-RestrictedProfiles
+Restrictions
 :
 :
 IsAllowed

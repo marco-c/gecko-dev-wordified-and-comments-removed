@@ -138,7 +138,7 @@ Log
 RobocopTarget
 public
 class
-RestrictedProfiles
+Restrictions
 {
 private
 static

@@ -30,7 +30,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -104,7 +104,7 @@ restriction
 .
 name
 )
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
