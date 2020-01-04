@@ -1,3 +1,11 @@
+{
+"
+configure
+-
+args
+"
+:
+"
 -
 -
 enable
@@ -40,3 +48,10 @@ i686
 pc
 -
 linux
+"
+"
+bits
+"
+:
+32
+}

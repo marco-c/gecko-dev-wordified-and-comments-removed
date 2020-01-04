@@ -20,6 +20,15 @@ tooltool
 config
 .
 sh
+:
+{
+PYTHON
+:
+=
+python2
+.
+7
+}
 #
 Run
 the
@@ -27,6 +36,7 @@ script
 AUTOMATION
 =
 1
+PYTHON
 SRCDIR
 /
 js
@@ -39,7 +49,7 @@ automation
 /
 autospider
 .
-sh
+py
 SPIDERMONKEY_VARIANT
 BUILD_STATUS
 =
