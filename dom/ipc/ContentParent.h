@@ -2855,10 +2855,6 @@ const
 bool
 &
 aActive
-const
-bool
-&
-aHSTSPriming
 )
 override
 ;
