@@ -342,6 +342,12 @@ TransitionWaitingToActive
 (
 )
 ;
+bool
+IsIdle
+(
+)
+const
+;
 }
 ;
 }
