@@ -135,9 +135,6 @@ AddDevice
 function
 GetDevices
 (
-bypassCache
-=
-false
 )
 {
 let
@@ -152,7 +149,6 @@ defer
 getJSON
 (
 DEVICES_URL
-bypassCache
 )
 .
 then

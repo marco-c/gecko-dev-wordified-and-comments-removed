@@ -513,7 +513,6 @@ webide
 .
 addonsURL
 "
-true
 )
 ;
 getJSON
@@ -525,7 +524,6 @@ webide
 .
 templatesURL
 "
-true
 )
 ;
 getJSON
@@ -537,7 +535,6 @@ devices
 .
 url
 "
-true
 )
 ;
 console

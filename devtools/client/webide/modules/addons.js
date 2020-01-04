@@ -467,7 +467,6 @@ null
 getJSON
 (
 ADDONS_URL
-true
 )
 .
 then
