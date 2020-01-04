@@ -119,11 +119,6 @@ UpdateImport
 (
 )
 ;
-void
-UpdatePreconnect
-(
-)
-;
 virtual
 nsresult
 PreHandleEvent
@@ -751,11 +746,6 @@ nsAString
 text
 )
 override
-;
-bool
-HasDNSPrefetchRel
-(
-)
 ;
 RefPtr
 <

@@ -359,6 +359,16 @@ FlagsType
 aRequestedFlag
 )
 ;
+void
+TryDNSPrefetchPreconnectOrPrefetch
+(
+)
+;
+void
+CancelPrefetch
+(
+)
+;
 protected
 :
 virtual
