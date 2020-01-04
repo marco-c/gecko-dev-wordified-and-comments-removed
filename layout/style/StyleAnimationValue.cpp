@@ -21564,7 +21564,7 @@ svgReset
 mClipPath
 ;
 const
-StyleClipPathType
+StyleShapeSourceType
 type
 =
 clipPath
@@ -21578,7 +21578,7 @@ if
 type
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -21659,7 +21659,7 @@ if
 type
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Box
@@ -21684,7 +21684,7 @@ if
 type
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -21740,7 +21740,7 @@ MOZ_ASSERT
 type
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_

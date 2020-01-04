@@ -29821,7 +29821,7 @@ GetType
 )
 {
 case
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -29848,7 +29848,7 @@ GetSizingBox
 )
 ;
 case
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Box
@@ -29868,7 +29868,7 @@ GetSizingBox
 )
 ;
 case
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -29920,7 +29920,7 @@ forget
 ;
 }
 case
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_
