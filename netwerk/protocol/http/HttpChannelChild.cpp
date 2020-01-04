@@ -8863,6 +8863,14 @@ ResetInterception
 (
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+gNeckoChild
+!
+=
+nullptr
+)
+;
 if
 (
 mInterceptListener
