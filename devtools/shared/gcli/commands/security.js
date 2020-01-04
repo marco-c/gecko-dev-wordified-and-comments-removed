@@ -661,15 +661,15 @@ context
 )
 {
 var
-uri
+url
 =
 context
 .
 environment
 .
-document
+target
 .
-documentURI
+url
 ;
 if
 (
@@ -768,7 +768,7 @@ b
 >
 "
 +
-uri
+url
 +
 "
 <
@@ -860,7 +860,7 @@ b
 >
 "
 +
-uri
+url
 +
 "
 <
