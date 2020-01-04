@@ -92,6 +92,8 @@ cxx
 .
 pyc
 )
+ifdef
+COMPILE_ENVIRONMENT
 #
 This
 file
@@ -212,3 +214,4 @@ I
 )
 \
 ^
+endif
