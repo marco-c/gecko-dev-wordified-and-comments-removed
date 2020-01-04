@@ -4590,9 +4590,9 @@ part
 )
 )
 {
-logger
-.
-warn
+throw
+new
+Error
 (
 "
 The
@@ -4604,7 +4604,7 @@ of
 in
 strict_min_version
 is
-deprecated
+invalid
 "
 )
 ;
