@@ -3651,6 +3651,8 @@ ObexResponseCode
 Unauthorized
 )
 ;
+return
+;
 }
 ReplyToConnect
 (
