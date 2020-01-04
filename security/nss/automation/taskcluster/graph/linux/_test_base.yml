@@ -54,9 +54,11 @@ maxRunTime
 3600
 image
 :
-!
-env
-TC_IMAGE
+automation
+/
+taskcluster
+/
+docker
 command
 :
 -

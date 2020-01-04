@@ -115,6 +115,7 @@ __PASTE
 CK_
 name
 )
+\
 name
 ;
 struct
