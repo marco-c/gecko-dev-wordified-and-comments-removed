@@ -335,16 +335,6 @@ JSContext
 aContext
 )
 ;
-void
-SetRawChannelContents
-(
-uint32_t
-aChannel
-float
-*
-aContents
-)
-;
 protected
 :
 AudioBuffer
