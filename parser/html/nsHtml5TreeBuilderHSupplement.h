@@ -52,6 +52,9 @@ nsHtml5TreeOpStage
 *
 mSpeculativeLoadStage
 ;
+nsresult
+mBroken
+;
 bool
 mCurrentHtmlScriptIsAsyncOrDefer
 ;
@@ -303,6 +306,13 @@ return
 mBuilder
 ;
 }
+bool
+EnsureBufferSpace
+(
+size_t
+aLength
+)
+;
 void
 EnableViewSource
 (
@@ -613,3 +623,12 @@ nsresult
 aRv
 )
 ;
+nsresult
+IsBroken
+(
+)
+{
+return
+mBroken
+;
+}

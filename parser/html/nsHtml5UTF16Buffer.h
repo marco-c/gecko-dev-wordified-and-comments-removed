@@ -174,6 +174,11 @@ hasMore
 (
 )
 ;
+int32_t
+getLength
+(
+)
+;
 void
 adjust
 (

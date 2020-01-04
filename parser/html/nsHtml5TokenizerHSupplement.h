@@ -9,6 +9,13 @@ return
 attributes
 ;
 }
+bool
+EnsureBufferSpace
+(
+int32_t
+aLength
+)
+;
 nsAutoPtr
 <
 nsHtml5Highlighter
