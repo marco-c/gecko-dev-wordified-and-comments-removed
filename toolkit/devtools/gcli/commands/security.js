@@ -276,7 +276,7 @@ l10n
 lookup
 (
 "
-securityDesc
+securityPrivacyDesc
 "
 )
 manual
