@@ -53,6 +53,14 @@ nscore
 .
 h
 "
+#
+ifdef
+SetProp
+#
+undef
+SetProp
+#
+endif
 class
 nsIAtom
 ;

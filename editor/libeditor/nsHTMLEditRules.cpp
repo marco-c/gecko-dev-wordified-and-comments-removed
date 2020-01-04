@@ -343,6 +343,14 @@ include
 <
 algorithm
 >
+#
+ifdef
+SetProp
+#
+undef
+SetProp
+#
+endif
 class
 nsISupports
 ;
