@@ -261,7 +261,7 @@ ConnectionStateNotification
 BluetoothHandsfreeConnectionState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -273,7 +273,7 @@ AudioStateNotification
 BluetoothHandsfreeAudioState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -285,7 +285,7 @@ VoiceRecognitionNotification
 BluetoothHandsfreeVoiceRecognitionState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -295,7 +295,7 @@ void
 AnswerCallNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -305,7 +305,7 @@ void
 HangupCallNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -319,7 +319,7 @@ aType
 int
 aVolume
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -333,7 +333,7 @@ nsAString
 &
 aNumber
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -345,7 +345,7 @@ DtmfNotification
 char
 aDtmf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -357,7 +357,7 @@ NRECNotification
 BluetoothHandsfreeNRECState
 aNrec
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -369,7 +369,7 @@ WbsNotification
 BluetoothHandsfreeWbsConfig
 aWbs
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -381,7 +381,7 @@ CallHoldNotification
 BluetoothHandsfreeCallHoldType
 aChld
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -391,7 +391,7 @@ void
 CnumNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -401,7 +401,7 @@ void
 CindNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -411,7 +411,7 @@ void
 CopsNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -421,7 +421,7 @@ void
 ClccNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -435,7 +435,7 @@ nsACString
 &
 aAtString
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -445,7 +445,7 @@ void
 KeyPressedNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -636,7 +636,7 @@ void
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -651,7 +651,7 @@ void
 Disconnect
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -666,7 +666,7 @@ void
 ConnectAudio
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -681,7 +681,7 @@ void
 DisconnectAudio
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -696,7 +696,7 @@ void
 StartVoiceRecognition
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -711,7 +711,7 @@ void
 StopVoiceRecognition
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -730,7 +730,7 @@ aType
 int
 aVolume
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -768,7 +768,7 @@ char
 *
 aCops
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -797,7 +797,7 @@ aRoam
 int
 aBattChg
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -816,7 +816,7 @@ char
 *
 aRsp
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -835,7 +835,7 @@ aResponseCode
 int
 aErrorCode
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -866,7 +866,7 @@ aNumber
 BluetoothHandsfreeCallAddressType
 aType
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -904,7 +904,7 @@ void
 ConfigureWbs
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothHandsfreeWbsConfig

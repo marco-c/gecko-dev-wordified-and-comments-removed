@@ -351,7 +351,7 @@ ConnectionStateNotification
 BluetoothHandsfreeConnectionState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -363,7 +363,7 @@ AudioStateNotification
 BluetoothHandsfreeAudioState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -373,7 +373,7 @@ void
 AnswerCallNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -383,7 +383,7 @@ void
 HangupCallNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -397,7 +397,7 @@ aType
 int
 aVolume
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -409,7 +409,7 @@ DtmfNotification
 char
 aDtmf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -421,7 +421,7 @@ NRECNotification
 BluetoothHandsfreeNRECState
 aNrec
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -433,7 +433,7 @@ CallHoldNotification
 BluetoothHandsfreeCallHoldType
 aChld
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -447,7 +447,7 @@ nsAString
 &
 aNumber
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -457,7 +457,7 @@ void
 CnumNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -467,7 +467,7 @@ void
 CindNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -477,7 +477,7 @@ void
 CopsNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -487,7 +487,7 @@ void
 ClccNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -501,7 +501,7 @@ nsACString
 &
 aAtString
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
@@ -511,7 +511,7 @@ void
 KeyPressedNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )
