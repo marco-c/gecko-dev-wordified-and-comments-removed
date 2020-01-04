@@ -598,6 +598,9 @@ AudioNodeEngine
 mEngine
 ;
 OutputChunks
+mInputChunks
+;
+OutputChunks
 mLastChunks
 ;
 const
