@@ -4,7 +4,8 @@ strict
 "
 ;
 function
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 aExpectedLogins
 )
@@ -33,6 +34,7 @@ clearData
 add_task
 (
 function
+*
 test_storage_addLogin_nonascii
 (
 )
@@ -140,7 +142,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -178,7 +181,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -191,6 +195,7 @@ loginInfo
 add_task
 (
 function
+*
 test_storage_addLogin_newlines
 (
 )
@@ -234,7 +239,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -247,6 +253,7 @@ loginInfo
 add_task
 (
 function
+*
 test_storage_addLogin_dot
 (
 )
@@ -282,7 +289,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -314,7 +322,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -327,6 +336,7 @@ loginInfo
 add_task
 (
 function
+*
 test_storage_addLogin_parentheses
 (
 )
@@ -498,7 +508,8 @@ loginInfo
 ;
 }
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 loginList
 )

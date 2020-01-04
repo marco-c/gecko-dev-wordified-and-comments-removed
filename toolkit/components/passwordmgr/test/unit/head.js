@@ -646,6 +646,7 @@ document
 add_task
 (
 function
+*
 test_common_initialize
 (
 )

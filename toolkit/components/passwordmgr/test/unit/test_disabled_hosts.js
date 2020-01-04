@@ -707,6 +707,7 @@ getAllDisabledHosts
 add_task
 (
 function
+*
 test_storage_setLoginSavingEnabled_nonascii
 (
 )
@@ -746,6 +747,7 @@ false
 )
 ;
 yield
+*
 LoginTestUtils
 .
 reloadData

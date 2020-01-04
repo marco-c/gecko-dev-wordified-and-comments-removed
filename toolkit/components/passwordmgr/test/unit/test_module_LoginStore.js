@@ -40,6 +40,7 @@ json
 add_task
 (
 function
+*
 test_save_reload
 (
 )
@@ -394,6 +395,7 @@ org
 add_task
 (
 function
+*
 test_load_empty
 (
 )
@@ -479,6 +481,7 @@ length
 add_task
 (
 function
+*
 test_save_empty
 (
 )
@@ -559,6 +562,7 @@ path
 add_task
 (
 function
+*
 test_load_string_predefined
 (
 )
@@ -1006,6 +1010,7 @@ org
 add_task
 (
 function
+*
 test_load_string_malformed
 (
 )
@@ -1175,6 +1180,7 @@ length
 add_task
 (
 function
+*
 test_load_string_malformed_sync
 (
 )

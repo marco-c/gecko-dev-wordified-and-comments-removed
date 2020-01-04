@@ -178,6 +178,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -514,6 +515,7 @@ aHostname
 add_task
 (
 function
+*
 test_import
 (
 )
@@ -1004,6 +1006,7 @@ org
 add_task
 (
 function
+*
 test_import_downgraded
 (
 )
@@ -1210,6 +1213,7 @@ timesUsed
 add_task
 (
 function
+*
 test_import_v2
 (
 )
@@ -1300,6 +1304,7 @@ ex
 add_task
 (
 function
+*
 test_import_v3
 (
 )

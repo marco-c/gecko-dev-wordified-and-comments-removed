@@ -1225,11 +1225,13 @@ gLoginMetaInfo3
 add_task
 (
 function
+*
 test_storage_metainfo
 (
 )
 {
 yield
+*
 LoginTestUtils
 .
 reloadData
