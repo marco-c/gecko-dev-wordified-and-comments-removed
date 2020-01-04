@@ -1170,7 +1170,7 @@ get
 (
 )
 time
-timeStamp
+timestamp
 aPointerId
 aPointerState
 aPoint
