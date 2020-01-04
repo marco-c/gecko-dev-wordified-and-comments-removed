@@ -264,7 +264,7 @@ aOuterWindow
 )
 ;
 void
-SetWithCredentialsSecFlag
+SetIncludeCookiesSecFlag
 (
 )
 ;
