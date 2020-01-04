@@ -1168,6 +1168,11 @@ targetBrowser
 removeTab
 (
 aTab
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 }

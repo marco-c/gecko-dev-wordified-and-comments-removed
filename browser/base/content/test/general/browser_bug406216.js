@@ -90,6 +90,11 @@ tabs
 [
 0
 ]
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 tab
@@ -253,6 +258,11 @@ gBrowser
 removeTab
 (
 aTab
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 }
@@ -272,6 +282,11 @@ tabs
 [
 0
 ]
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 is
@@ -313,6 +328,11 @@ tabs
 [
 0
 ]
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 finish

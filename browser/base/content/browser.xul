@@ -155,6 +155,8 @@ devtools
 /
 skin
 /
+themes
+/
 common
 .
 css
@@ -1437,6 +1439,11 @@ removeTabsToTheEndFrom
 TabContextMenu
 .
 contextTab
+{
+animate
+:
+true
+}
 )
 ;
 "

@@ -218,7 +218,7 @@ check
 '
 +
 '
-sendSyncMessage
+sendAsyncMessage
 (
 "
 done
