@@ -79,39 +79,6 @@ MarionetteTestCase
 '
 '
     
-_input_selector
-=
-(
-By
-.
-ID
-'
-input
-'
-)
-    
-_textarea_selector
-=
-(
-By
-.
-ID
-'
-textarea
-'
-)
-    
-_contenteditable_selector
-=
-(
-By
-.
-ID
-'
-contenteditable
-'
-)
-    
 def
 setUp
 (
@@ -483,10 +450,12 @@ marionette
 .
 find_element
 (
-*
-self
+By
 .
-_input_selector
+ID
+'
+input
+'
 )
         
 self
@@ -499,10 +468,12 @@ marionette
 .
 find_element
 (
-*
-self
+By
 .
-_textarea_selector
+ID
+'
+textarea
+'
 )
         
 self
@@ -515,10 +486,12 @@ marionette
 .
 find_element
 (
-*
-self
+By
 .
-_contenteditable_selector
+ID
+'
+contenteditable
+'
 )
     
 def
