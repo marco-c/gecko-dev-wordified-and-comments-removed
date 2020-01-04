@@ -10013,8 +10013,6 @@ SnowWhiteKiller
 nsCycleCollector
 *
 aCollector
-uint32_t
-aMaxCount
 )
 :
 mCollector
@@ -10614,8 +10612,6 @@ RemoveSkippableVisitor
 nsCycleCollector
 *
 aCollector
-uint32_t
-aMaxCount
 bool
 aRemoveChildlessNodes
 bool
@@ -10627,11 +10623,6 @@ aCb
 SnowWhiteKiller
 (
 aCollector
-aAsyncSnowWhiteFreeing
-?
-0
-:
-aMaxCount
 )
 mRemoveChildlessNodes
 (
@@ -10867,9 +10858,6 @@ RemoveSkippableVisitor
 visitor
 (
 aCollector
-Count
-(
-)
 aRemoveChildlessNodes
 aAsyncSnowWhiteFreeing
 aCb
@@ -10928,11 +10916,6 @@ SnowWhiteKiller
 visitor
 (
 this
-mPurpleBuf
-.
-Count
-(
-)
 )
 ;
 mPurpleBuf
