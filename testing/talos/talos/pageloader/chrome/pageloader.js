@@ -1161,6 +1161,7 @@ gMultiProcessBrowser
 {
 if
 (
+!
 firstPageCanLoadAsRemote
 (
 )
@@ -1169,7 +1170,7 @@ browserWindow
 .
 XULBrowserWindow
 .
-forceInitialBrowserRemote
+forceInitialBrowserNonRemote
 (
 )
 ;
