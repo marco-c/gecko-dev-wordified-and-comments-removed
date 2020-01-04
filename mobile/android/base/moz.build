@@ -2780,13 +2780,6 @@ java
 '
 gfx
 /
-GLController
-.
-java
-'
-'
-gfx
-/
 ImmutableViewportMetrics
 .
 java
