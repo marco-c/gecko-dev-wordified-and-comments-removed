@@ -1273,29 +1273,6 @@ definition
 "
 "
     
-patterns
-=
-[
-        
-re
-.
-compile
-(
-"
-^
-coalesce
-.
-v1
-.
-builds
-.
-*
-pgo
-"
-)
-    
-]
-    
 try
 :
         
@@ -1340,20 +1317,14 @@ routes
 )
                             
 if
-any
-(
-[
-p
-.
-match
-(
 route
-)
-for
-p
-in
-patterns
-]
+.
+startswith
+(
+'
+coalesce
+.
+'
 )
 ]
         
