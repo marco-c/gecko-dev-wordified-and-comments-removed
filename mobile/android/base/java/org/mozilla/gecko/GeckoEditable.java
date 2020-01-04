@@ -4645,10 +4645,14 @@ unboundedOldEnd
 ;
 if
 (
-start
-!
+unboundedOldEnd
+<
 =
-0
+mText
+.
+length
+(
+)
 &
 &
 unboundedNewEnd
