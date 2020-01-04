@@ -313,6 +313,17 @@ limit
 public
 abstract
 Cursor
+getHistoryForURL
+(
+ContentResolver
+cr
+String
+uri
+)
+;
+public
+abstract
+Cursor
 getRecentHistoryBetweenTime
 (
 ContentResolver

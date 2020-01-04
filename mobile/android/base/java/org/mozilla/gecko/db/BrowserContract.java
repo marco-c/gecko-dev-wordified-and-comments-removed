@@ -3399,6 +3399,12 @@ READER_VIEW
 reader_view
 "
 )
+HOME_SCREEN_SHORTCUT
+(
+"
+home_screen_shortcut
+"
+)
 ;
 private
 final
