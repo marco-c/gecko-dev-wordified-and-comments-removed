@@ -11620,6 +11620,15 @@ p
 -
 >
 trackingAllocationSites
+&
+&
+(
+*
+p
+)
+-
+>
+enabled
 )
 {
 return
@@ -17745,6 +17754,9 @@ if
 trackingAllocationSites
 &
 &
+enabled
+&
+&
 !
 Debugger
 :
@@ -17771,6 +17783,9 @@ MakeScopeExit
 if
 (
 trackingAllocationSites
+&
+&
+enabled
 )
 Debugger
 :
