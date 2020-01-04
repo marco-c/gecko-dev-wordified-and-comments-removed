@@ -2421,17 +2421,6 @@ isConcatSpreadable
 \
 macro
 (
-Symbol_isRegExp
-Symbol_isRegExp
-"
-Symbol
-.
-isRegExp
-"
-)
-\
-macro
-(
 Symbol_iterator
 Symbol_iterator
 "
