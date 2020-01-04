@@ -46,7 +46,7 @@ aBoxLayoutState
 )
 ;
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

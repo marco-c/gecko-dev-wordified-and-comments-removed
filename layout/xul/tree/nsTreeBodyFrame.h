@@ -628,7 +628,7 @@ aHorzWidth
 ;
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

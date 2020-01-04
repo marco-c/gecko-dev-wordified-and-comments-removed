@@ -345,7 +345,7 @@ nsSize
 nsGridLayout2
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *
@@ -361,7 +361,7 @@ minSize
 nsStackLayout
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aBox
 aState

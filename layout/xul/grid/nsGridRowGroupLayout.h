@@ -51,7 +51,7 @@ this
 }
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *

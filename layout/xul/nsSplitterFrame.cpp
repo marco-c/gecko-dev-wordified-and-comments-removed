@@ -2947,7 +2947,7 @@ minSize
 childBox
 -
 >
-GetMinSize
+GetXULMinSize
 (
 state
 )

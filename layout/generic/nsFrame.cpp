@@ -41558,7 +41558,7 @@ nsSize
 nsFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

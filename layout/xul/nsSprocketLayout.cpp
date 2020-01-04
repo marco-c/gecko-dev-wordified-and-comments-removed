@@ -1121,7 +1121,7 @@ minSize
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -1702,7 +1702,7 @@ minSize
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -2829,7 +2829,7 @@ minSize
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -4115,7 +4115,7 @@ min
 aChild
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -4250,7 +4250,7 @@ min
 aChild
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -5372,7 +5372,7 @@ nsSize
 nsSprocketLayout
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *
@@ -5466,7 +5466,7 @@ min
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -5730,7 +5730,7 @@ min
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )

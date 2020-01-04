@@ -921,7 +921,7 @@ nsSize
 nsTreeBodyFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

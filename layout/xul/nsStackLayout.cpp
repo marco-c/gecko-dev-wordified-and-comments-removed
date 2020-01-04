@@ -306,7 +306,7 @@ nsSize
 nsStackLayout
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *
@@ -359,7 +359,7 @@ min
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -486,7 +486,7 @@ min
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -1357,7 +1357,7 @@ min
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )

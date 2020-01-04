@@ -2595,7 +2595,7 @@ nsSize
 nsTextControlFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -2606,7 +2606,7 @@ return
 nsBox
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aState
 )

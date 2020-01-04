@@ -6374,7 +6374,7 @@ vAlign_Bottom
 ;
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

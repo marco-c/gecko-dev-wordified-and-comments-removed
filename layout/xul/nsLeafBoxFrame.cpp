@@ -454,7 +454,7 @@ LogicalSize
 minSize
 (
 wm
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -979,7 +979,7 @@ ComputedHeight
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -1036,7 +1036,7 @@ state
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -1468,7 +1468,7 @@ nsSize
 nsLeafBoxFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -1479,7 +1479,7 @@ return
 nsBox
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aState
 )
