@@ -139,6 +139,11 @@ registerCleanupFunction
 :
 false
 "
+requestLongerTimeout
+"
+:
+false
+"
 SimpleTest
 "
 :
