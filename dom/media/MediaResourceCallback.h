@@ -90,8 +90,6 @@ virtual
 void
 NotifyDataArrived
 (
-bool
-aThrottleUpdates
 )
 {
 }

@@ -206,7 +206,6 @@ virtual
 void
 NotifyDataArrived
 (
-bool
 )
 final
 override

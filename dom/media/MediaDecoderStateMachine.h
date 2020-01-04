@@ -295,8 +295,6 @@ forget
 void
 DispatchNotifyDataArrived
 (
-bool
-aThrottleUpdates
 )
 {
 mReader
@@ -304,7 +302,6 @@ mReader
 >
 DispatchNotifyDataArrived
 (
-aThrottleUpdates
 )
 ;
 }

@@ -1946,7 +1946,6 @@ mCallback
 >
 NotifyDataArrived
 (
-true
 )
 ;
 RESOURCE_LOG

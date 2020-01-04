@@ -5756,8 +5756,6 @@ MediaDecoder
 :
 NotifyDataArrived
 (
-bool
-aThrottleUpdates
 )
 {
 MOZ_ASSERT
@@ -5777,7 +5775,6 @@ mDecoderStateMachine
 >
 DispatchNotifyDataArrived
 (
-aThrottleUpdates
 )
 ;
 }
