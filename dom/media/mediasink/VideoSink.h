@@ -360,6 +360,11 @@ UpdateRenderedVideoFramesByTimer
 )
 ;
 void
+MaybeResolveEndPromise
+(
+)
+;
+void
 AssertOwnerThread
 (
 )
