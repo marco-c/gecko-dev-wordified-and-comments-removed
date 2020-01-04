@@ -1226,7 +1226,7 @@ JSContext
 *
 aCx
 AnyCallback
-&
+*
 aHandler
 ErrorResult
 &

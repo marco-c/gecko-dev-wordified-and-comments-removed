@@ -582,7 +582,7 @@ void
 SetConsoleEventHandler
 (
 AnyCallback
-&
+*
 aHandler
 )
 ;

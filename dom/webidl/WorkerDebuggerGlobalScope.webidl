@@ -195,6 +195,7 @@ void
 setConsoleEventHandler
 (
 AnyCallback
+?
 handler
 )
 ;

@@ -220,6 +220,11 @@ ok
 "
 )
 ;
+setConsoleEventHandler
+(
+null
+)
+;
 finish
 (
 )
