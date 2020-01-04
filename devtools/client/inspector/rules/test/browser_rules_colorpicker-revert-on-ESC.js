@@ -194,7 +194,6 @@ updated
 let
 spectrum
 =
-yield
 cPicker
 .
 spectrum
@@ -552,7 +551,6 @@ hidden
 let
 spectrum
 =
-yield
 cPicker
 .
 spectrum

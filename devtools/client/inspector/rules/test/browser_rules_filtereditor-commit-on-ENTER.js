@@ -132,7 +132,6 @@ filterEditor
 let
 widget
 =
-yield
 filterTooltip
 .
 widget

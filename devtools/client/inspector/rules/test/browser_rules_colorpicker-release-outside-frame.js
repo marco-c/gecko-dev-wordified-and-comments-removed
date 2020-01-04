@@ -103,7 +103,6 @@ view
 let
 spectrum
 =
-yield
 picker
 .
 spectrum

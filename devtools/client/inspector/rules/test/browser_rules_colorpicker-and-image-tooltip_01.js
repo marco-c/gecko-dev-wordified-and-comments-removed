@@ -352,7 +352,6 @@ rgb
 let
 spectrum
 =
-yield
 picker
 .
 spectrum

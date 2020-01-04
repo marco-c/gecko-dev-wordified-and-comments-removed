@@ -291,7 +291,6 @@ changed
 let
 spectrum
 =
-yield
 cPicker
 .
 spectrum

@@ -1099,7 +1099,7 @@ colorPicker
 .
 tooltip
 .
-isShown
+isVisible
 (
 )
 |
@@ -1117,7 +1117,7 @@ cubicBezier
 .
 tooltip
 .
-isShown
+isVisible
 (
 )
 |
@@ -1128,7 +1128,7 @@ filterEditor
 .
 tooltip
 .
-isShown
+isVisible
 (
 )
 ;
@@ -1226,6 +1226,17 @@ this
 isRuleView
 )
 {
+let
+{
+toolbox
+}
+=
+this
+.
+view
+.
+inspector
+;
 this
 .
 colorPicker
@@ -1233,7 +1244,7 @@ colorPicker
 new
 SwatchColorPickerTooltip
 (
-panelDoc
+toolbox
 )
 ;
 this
@@ -1243,7 +1254,7 @@ cubicBezier
 new
 SwatchCubicBezierTooltip
 (
-panelDoc
+toolbox
 )
 ;
 this
@@ -1253,7 +1264,7 @@ filterEditor
 new
 SwatchFilterTooltip
 (
-panelDoc
+toolbox
 )
 ;
 }
@@ -1562,7 +1573,7 @@ colorPicker
 .
 tooltip
 .
-isShown
+isVisible
 (
 )
 )
@@ -1597,7 +1608,7 @@ cubicBezier
 .
 tooltip
 .
-isShown
+isVisible
 (
 )
 )
@@ -1659,7 +1670,7 @@ filterEditor
 .
 tooltip
 .
-isShown
+isVisible
 (
 )
 )
