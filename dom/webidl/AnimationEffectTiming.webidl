@@ -222,6 +222,9 @@ unrestricted
 double
 iterations
 ;
+[
+SetterThrows
+]
 inherit
 attribute
 (
