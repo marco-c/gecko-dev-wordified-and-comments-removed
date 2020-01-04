@@ -52,13 +52,6 @@ nsXPCOMPrivate
 h
 "
 #
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
-#
 include
 "
 nsIIOService
@@ -168,8 +161,6 @@ nsIGfxInfo
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
