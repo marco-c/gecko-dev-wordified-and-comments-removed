@@ -998,7 +998,7 @@ class
 SocketTask
 :
 public
-Runnable
+CancelableRunnable
 {
 public
 :
