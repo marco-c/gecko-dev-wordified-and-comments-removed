@@ -94,13 +94,10 @@ nsIStatefulFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 ContentScrollPos
-DeleteValue
-<
 nsPoint
->
 )
 explicit
 nsTextControlFrame

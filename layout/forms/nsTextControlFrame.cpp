@@ -5606,12 +5606,6 @@ nsPoint
 *
 contentScrollPos
 =
-static_cast
-<
-nsPoint
-*
->
-(
 Properties
 (
 )
@@ -5620,7 +5614,6 @@ Get
 (
 ContentScrollPos
 (
-)
 )
 )
 ;

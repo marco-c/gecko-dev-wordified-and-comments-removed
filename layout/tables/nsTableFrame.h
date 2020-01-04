@@ -501,16 +501,13 @@ NS_DECL_QUERYFRAME_TARGET
 nsTableFrame
 )
 NS_DECL_FRAMEARENA_HELPERS
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 PositionedTablePartArray
-DeleteValue
-<
 nsTArray
 <
 nsIFrame
 *
->
 >
 )
 friend

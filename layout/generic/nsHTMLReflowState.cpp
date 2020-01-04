@@ -10819,6 +10819,7 @@ aProps
 const
 FramePropertyDescriptor
 <
+nsMargin
 >
 *
 aProperty
@@ -10838,18 +10839,11 @@ nsMargin
 *
 propValue
 =
-static_cast
-<
-nsMargin
-*
->
-(
 aProps
 .
 Get
 (
 aProperty
-)
 )
 ;
 if

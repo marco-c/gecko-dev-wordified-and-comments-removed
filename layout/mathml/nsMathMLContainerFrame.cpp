@@ -617,13 +617,10 @@ nsGkAtoms
 blockFrame
 ;
 }
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 HTMLReflowMetricsProperty
-DeleteValue
-<
 nsHTMLReflowMetrics
->
 )
 void
 nsMathMLContainerFrame
@@ -710,12 +707,6 @@ nsHTMLReflowMetrics
 *
 metrics
 =
-static_cast
-<
-nsHTMLReflowMetrics
-*
->
-(
 aFrame
 -
 >
@@ -727,7 +718,6 @@ Get
 (
 HTMLReflowMetricsProperty
 (
-)
 )
 )
 ;

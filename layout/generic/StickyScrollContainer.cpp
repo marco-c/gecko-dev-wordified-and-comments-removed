@@ -36,13 +36,10 @@ h
 namespace
 mozilla
 {
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 StickyScrollContainerProperty
-DeleteValue
-<
 StickyScrollContainer
->
 )
 StickyScrollContainer
 :
