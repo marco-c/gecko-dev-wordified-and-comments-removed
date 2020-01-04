@@ -1634,13 +1634,13 @@ location
 "
 )
 ;
-newLocation_
-=
-cell
-;
 magic_
 =
 Relocated
+;
+newLocation_
+=
+cell
 ;
 }
 }
