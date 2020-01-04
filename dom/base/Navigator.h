@@ -1172,6 +1172,10 @@ NavigatorUserMediaErrorCallback
 aOnError
 uint64_t
 aInnerWindowID
+const
+nsAString
+&
+aCallID
 ErrorResult
 &
 aRv

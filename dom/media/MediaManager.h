@@ -1940,6 +1940,14 @@ uint64_t
 aInnerWindowID
 =
 0
+const
+nsAString
+&
+aCallID
+=
+nsString
+(
+)
 )
 ;
 nsresult
