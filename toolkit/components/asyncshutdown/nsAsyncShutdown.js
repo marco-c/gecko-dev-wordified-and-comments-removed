@@ -1077,6 +1077,9 @@ profileBeforeChange
 profileChangeTeardown
 "
 "
+quitApplicationGranted
+"
+"
 sendTelemetry
 "
 "
