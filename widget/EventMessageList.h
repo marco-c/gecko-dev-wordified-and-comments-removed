@@ -716,7 +716,7 @@ ePageTransitionEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PAGE_SHOW
+ePageShow
 ePageTransitionEventFirst
 +
 1

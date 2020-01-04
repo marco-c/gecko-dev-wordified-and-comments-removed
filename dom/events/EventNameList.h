@@ -949,7 +949,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 pageshow
-NS_PAGE_SHOW
+ePageShow
 EventNameType_HTMLBodyOrFramesetOnly
 eBasicEventClass
 )
