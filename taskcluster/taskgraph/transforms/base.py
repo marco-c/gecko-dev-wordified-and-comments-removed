@@ -7,6 +7,8 @@ unicode_literals
 import
 re
 import
+pprint
+import
 voluptuous
 class
 TransformConfig
@@ -400,6 +402,18 @@ n
 join
 (
 msg
+)
++
+'
+\
+n
+'
++
+pprint
+.
+pformat
+(
+obj
 )
 )
 def
