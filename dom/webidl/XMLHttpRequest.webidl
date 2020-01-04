@@ -573,6 +573,16 @@ data
 Throws
 ]
 void
+send
+(
+URLSearchParams
+data
+)
+;
+[
+Throws
+]
+void
 abort
 (
 )
