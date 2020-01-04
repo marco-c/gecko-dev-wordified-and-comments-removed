@@ -12185,6 +12185,13 @@ nsEventStatus
 aOutApzResponse
 )
 {
+InputAPZContext
+:
+:
+SetRoutedToChildProcess
+(
+)
+;
 if
 (
 AsyncPanZoomEnabled
@@ -12287,13 +12294,6 @@ GetApzResponse
 )
 ;
 }
-InputAPZContext
-:
-:
-SetRoutedToChildProcess
-(
-)
-;
 }
 else
 {
