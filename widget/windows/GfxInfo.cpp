@@ -7882,7 +7882,7 @@ Int32Value
 dm
 -
 >
-GetFeatureLevel
+GetCompositorFeatureLevel
 (
 )
 )

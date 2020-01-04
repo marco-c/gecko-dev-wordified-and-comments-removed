@@ -199,6 +199,9 @@ isWARP
 bool
 textureSharingWorks
 ;
+uint32_t
+featureLevel
+;
 DxgiAdapterDesc
 adapter
 ;

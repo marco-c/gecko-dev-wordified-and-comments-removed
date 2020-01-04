@@ -207,7 +207,7 @@ CreateDecoderDevice
 )
 ;
 unsigned
-GetFeatureLevel
+GetCompositorFeatureLevel
 (
 )
 const
