@@ -211,7 +211,7 @@ EXTRA_JS_MODULES
 =
 [
 '
-AutoCompleteE10S
+AutoCompletePopup
 .
 jsm
 '
