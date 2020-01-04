@@ -9234,7 +9234,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-SecurityError
+NotAllowedError
 "
 )
 )
@@ -9683,7 +9683,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-SecurityError
+NotAllowedError
 "
 )
 )
@@ -10070,7 +10070,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-SecurityError
+NotAllowedError
 "
 )
 )
@@ -14151,7 +14151,7 @@ Denied
 NS_LITERAL_STRING
 (
 "
-SecurityError
+NotAllowedError
 "
 )
 )
@@ -14221,7 +14221,7 @@ errorMessage
 NS_LITERAL_STRING
 (
 "
-SecurityError
+NotAllowedError
 "
 )
 )
