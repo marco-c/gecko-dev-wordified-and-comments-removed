@@ -398,6 +398,7 @@ static
 const
 char
 *
+const
 sExtensionNames
 [
 ]

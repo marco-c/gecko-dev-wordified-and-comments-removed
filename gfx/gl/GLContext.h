@@ -13471,6 +13471,7 @@ str
 const
 char
 *
+const
 (
 &
 markStrList
@@ -13561,6 +13562,7 @@ dumpStrings
 const
 char
 *
+const
 (
 &
 markStrList
