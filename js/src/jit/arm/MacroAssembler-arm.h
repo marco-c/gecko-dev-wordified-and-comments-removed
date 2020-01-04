@@ -484,13 +484,6 @@ FloatRegister
 reg
 )
 ;
-void
-inc64
-(
-AbsoluteAddress
-dest
-)
-;
 private
 :
 bool

@@ -5021,17 +5021,6 @@ MOZ_CRASH
 ;
 }
 void
-inc64
-(
-AbsoluteAddress
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-void
 incrementInt32Value
 (
 Address
