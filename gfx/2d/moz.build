@@ -261,6 +261,11 @@ Point
 h
 '
 '
+Polygon
+.
+h
+'
+'
 Quaternion
 .
 h
