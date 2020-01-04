@@ -7,7 +7,7 @@ mozilla_widget_Telemetry_h__
 #
 include
 "
-GeneratedJNINatives
+FennecJNINatives
 .
 h
 "
