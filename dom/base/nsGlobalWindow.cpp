@@ -10683,6 +10683,10 @@ aPrincipal
 {
 options
 .
+creationOptions
+(
+)
+.
 setAddonId
 (
 MapURIToAddonID
@@ -10695,10 +10699,8 @@ aURI
 if
 (
 top
-)
-{
-if
-(
+&
+&
 top
 -
 >
@@ -10708,6 +10710,10 @@ GetGlobalJSObject
 )
 {
 options
+.
+creationOptions
+(
+)
 .
 setSameZoneAs
 (
@@ -10719,7 +10725,6 @@ GetGlobalJSObject
 )
 )
 ;
-}
 }
 bool
 needComponents

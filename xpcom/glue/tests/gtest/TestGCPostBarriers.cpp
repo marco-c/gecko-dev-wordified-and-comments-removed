@@ -403,6 +403,10 @@ options
 ;
 options
 .
+behaviors
+(
+)
+.
 setVersion
 (
 JSVERSION_LATEST

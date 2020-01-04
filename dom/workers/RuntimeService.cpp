@@ -8061,6 +8061,10 @@ chrome
 .
 compartmentOptions
 .
+behaviors
+(
+)
+.
 setVersion
 (
 JSVERSION_LATEST
@@ -11666,6 +11670,10 @@ content
 compartmentOptions
 ;
 options
+.
+behaviors
+(
+)
 .
 setVersion
 (

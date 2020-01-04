@@ -3636,7 +3636,13 @@ addonId
 comp
 -
 >
-addonId
+creationOptions
+(
+)
+.
+addonIdOrNull
+(
+)
 ;
 if
 (

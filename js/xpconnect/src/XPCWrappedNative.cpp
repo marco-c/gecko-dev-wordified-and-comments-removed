@@ -705,6 +705,10 @@ JSCLASS_IS_GLOBAL
 ;
 aOptions
 .
+creationOptions
+(
+)
+.
 setTrace
 (
 XPCWrappedNative

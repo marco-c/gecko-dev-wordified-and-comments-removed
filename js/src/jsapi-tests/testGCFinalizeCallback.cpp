@@ -814,13 +814,6 @@ JS
 CompartmentOptions
 options
 ;
-options
-.
-setVersion
-(
-JSVERSION_LATEST
-)
-;
 return
 JS_NewGlobalObject
 (

@@ -1981,7 +1981,7 @@ APP_STATUS_CERTIFIED
 JS
 :
 :
-CompartmentOptionsRef
+CompartmentBehaviorsRef
 (
 aGlobal
 )
@@ -2026,7 +2026,7 @@ isSystem
 JS
 :
 :
-CompartmentOptionsRef
+CompartmentBehaviorsRef
 (
 aGlobal
 )

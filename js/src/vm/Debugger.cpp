@@ -8369,7 +8369,7 @@ compartment
 )
 -
 >
-options
+creationOptions
 (
 )
 .
@@ -15986,7 +15986,7 @@ compartment
 c
 -
 >
-options
+creationOptions
 (
 )
 .
@@ -17417,7 +17417,7 @@ if
 debuggeeCompartment
 -
 >
-options
+creationOptions
 (
 )
 .
@@ -21327,7 +21327,7 @@ if
 c
 -
 >
-options
+creationOptions
 (
 )
 .
@@ -21591,7 +21591,7 @@ if
 globalCompartment
 -
 >
-options
+creationOptions
 (
 )
 .
@@ -41800,7 +41800,7 @@ if
 unwrappedCompartment
 -
 >
-options
+creationOptions
 (
 )
 .
