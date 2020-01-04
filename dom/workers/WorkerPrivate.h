@@ -3168,6 +3168,16 @@ JSErrorReport
 aReport
 )
 ;
+static
+void
+ReportErrorToConsole
+(
+const
+char
+*
+aMessage
+)
+;
 int32_t
 SetTimeout
 (
