@@ -255,7 +255,7 @@ objects
 ALLOCATION_STACK
 strings
 :
-ALLOCATION_STACK
+COUNT
 scripts
 :
 INTERNAL_TYPE
@@ -271,7 +271,7 @@ displayName
 :
 "
 Allocation
-Site
+Stack
 "
 breakdown
 :
