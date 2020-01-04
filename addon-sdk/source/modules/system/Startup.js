@@ -12,7 +12,7 @@ Startup
 "
 ]
 ;
-const
+var
 {
 utils
 :

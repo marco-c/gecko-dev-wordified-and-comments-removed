@@ -13,7 +13,7 @@ BrowserIDManager
 "
 ]
 ;
-const
+var
 {
 classes
 :

@@ -74,7 +74,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 contextMenuItems
@@ -83,7 +83,7 @@ runSafe
 =
 ExtensionUtils
 ;
-let
+var
 contextMenuMap
 =
 new
@@ -91,7 +91,7 @@ Map
 (
 )
 ;
-let
+var
 onClickedCallbacksMap
 =
 new
@@ -99,7 +99,7 @@ WeakMap
 (
 )
 ;
-let
+var
 nextID
 =
 0
@@ -126,7 +126,7 @@ subject
 )
 ;
 }
-let
+var
 menuBuilder
 =
 {
@@ -1728,7 +1728,7 @@ true
 }
 }
 ;
-let
+var
 extCount
 =
 0

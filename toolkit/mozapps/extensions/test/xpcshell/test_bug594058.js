@@ -47,7 +47,7 @@ jsm
 "
 )
 ;
-const
+var
 Ci
 =
 Components

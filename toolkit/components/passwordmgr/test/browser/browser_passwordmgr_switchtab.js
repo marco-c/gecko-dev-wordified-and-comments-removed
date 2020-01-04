@@ -15,7 +15,7 @@ commonDialog
 xul
 "
 ;
-const
+var
 {
 interfaces
 :

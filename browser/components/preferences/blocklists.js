@@ -65,7 +65,7 @@ lists
 .
 "
 ;
-let
+var
 gBlocklistManager
 =
 {

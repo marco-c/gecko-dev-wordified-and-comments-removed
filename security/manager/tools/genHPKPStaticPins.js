@@ -52,7 +52,7 @@ h
 "
 ;
 }
-const
+var
 {
 '
 classes

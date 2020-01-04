@@ -1839,7 +1839,7 @@ prePath
 }
 }
 ;
-let
+var
 singleton
 ;
 this

@@ -11,7 +11,7 @@ function
 (
 )
 {
-const
+var
 {
 classes
 :

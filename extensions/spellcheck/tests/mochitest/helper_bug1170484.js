@@ -1,11 +1,11 @@
-const
+var
 Cu
 =
 Components
 .
 utils
 ;
-const
+var
 Ci
 =
 Components

@@ -236,7 +236,7 @@ register
 =
 register
 ;
-let
+var
 HighlighterActor
 =
 exports
@@ -1780,7 +1780,7 @@ null
 }
 )
 ;
-let
+var
 HighlighterFront
 =
 protocol
@@ -1820,7 +1820,7 @@ traits
 }
 )
 ;
-let
+var
 CustomHighlighterActor
 =
 exports
@@ -2225,7 +2225,7 @@ true
 }
 )
 ;
-let
+var
 CustomHighlighterFront
 =
 protocol

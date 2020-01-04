@@ -13,7 +13,7 @@ OnRefTestLoad
 ;
 #
 endif
-const
+var
 CC
 =
 Components

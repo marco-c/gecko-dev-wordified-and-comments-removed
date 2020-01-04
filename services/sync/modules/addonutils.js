@@ -13,7 +13,7 @@ AddonUtils
 "
 ]
 ;
-const
+var
 {
 interfaces
 :

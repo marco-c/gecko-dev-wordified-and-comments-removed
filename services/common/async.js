@@ -11,7 +11,7 @@ Async
 "
 ]
 ;
-const
+var
 {
 classes
 :

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -1237,7 +1237,7 @@ POSITIVE_INFINITY
 }
 }
 ;
-let
+var
 State
 =
 {
@@ -1779,7 +1779,7 @@ result
 )
 }
 ;
-let
+var
 View
 =
 {
@@ -4344,7 +4344,7 @@ cachedElements
 }
 }
 ;
-let
+var
 Control
 =
 {
@@ -4848,7 +4848,7 @@ _displayMode
 MODE_GLOBAL
 }
 ;
-let
+var
 go
 =
 Task

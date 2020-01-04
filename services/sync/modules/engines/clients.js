@@ -11,7 +11,7 @@ ClientsRec
 "
 ]
 ;
-const
+var
 {
 classes
 :

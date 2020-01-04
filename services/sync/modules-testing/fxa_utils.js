@@ -13,7 +13,7 @@ initializeIdentityWithTokenServerResponse
 "
 ]
 ;
-const
+var
 {
 utils
 :

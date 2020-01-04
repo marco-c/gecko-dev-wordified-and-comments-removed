@@ -19,7 +19,7 @@ BagheeraClientRequestResult
 "
 ]
 ;
-const
+var
 {
 classes
 :

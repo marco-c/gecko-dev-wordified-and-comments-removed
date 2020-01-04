@@ -1,7 +1,7 @@
 #
 ifndef
 MERGED_COMPARTMENT
-const
+var
 {
 classes
 :
