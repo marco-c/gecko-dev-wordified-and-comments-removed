@@ -62,11 +62,6 @@ OPTIONS
 -
 enable
 -
-rpath
--
--
-enable
--
 llvm
 -
 static
@@ -77,6 +72,13 @@ stdcpp
 disable
 -
 docs
+-
+-
+release
+-
+channel
+=
+stable
 "
 x32
 =
@@ -164,6 +166,8 @@ j
 CORES
 }
 make
+dist
+make
 install
 popd
 #
@@ -199,6 +203,9 @@ add
 visibility
 =
 public
+-
+-
+unpack
 rustc
 .
 tar

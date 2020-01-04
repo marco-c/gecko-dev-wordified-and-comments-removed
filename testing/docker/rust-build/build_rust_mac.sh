@@ -51,11 +51,6 @@ OPTIONS
 "
 -
 -
-enable
--
-rpath
--
--
 disable
 -
 elf

@@ -3,7 +3,7 @@ quay
 .
 io
 /
-rillian
+rust
 /
 rust
 -
@@ -110,6 +110,13 @@ build_rust
 .
 sh
 upload_rust
+.
+sh
+/
+build
+/
+ADD
+repack_rust
 .
 sh
 /
