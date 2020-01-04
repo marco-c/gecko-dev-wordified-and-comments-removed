@@ -3293,7 +3293,7 @@ graphTime
 aDestination
 -
 >
-StreamTimeToGraphTimeWithBlocking
+StreamTimeToGraphTime
 (
 destinationStreamTime
 )
@@ -3301,7 +3301,7 @@ destinationStreamTime
 StreamTime
 thisStreamTime
 =
-GraphTimeToStreamTimeOptimistic
+GraphTimeToStreamTime
 (
 graphTime
 )
@@ -3409,7 +3409,7 @@ SampleRate
 GraphTime
 graphTime
 =
-StreamTimeToGraphTimeWithBlocking
+StreamTimeToGraphTime
 (
 aPosition
 )
@@ -3420,7 +3420,7 @@ destinationTime
 aDestination
 -
 >
-GraphTimeToStreamTimeOptimistic
+GraphTimeToStreamTime
 (
 graphTime
 )

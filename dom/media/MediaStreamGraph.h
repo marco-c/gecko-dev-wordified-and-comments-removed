@@ -1182,9 +1182,16 @@ aTime
 )
 ;
 StreamTime
-GraphTimeToStreamTimeOptimistic
+GraphTimeToStreamTime
 (
 GraphTime
+aTime
+)
+;
+GraphTime
+StreamTimeToGraphTime
+(
+StreamTime
 aTime
 )
 ;
