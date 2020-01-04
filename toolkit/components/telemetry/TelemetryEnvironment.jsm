@@ -457,9 +457,6 @@ RECORD_PREF_STATE
 RECORD_PREF_VALUE
 :
 2
-RECORD_PREF_NOTIFY_ONLY
-:
-3
 _watchPreferences
 :
 function
@@ -3959,16 +3956,6 @@ isSet
 (
 pref
 )
-|
-|
-policy
-.
-what
-=
-=
-TelemetryEnvironment
-.
-RECORD_PREF_NOTIFY_ONLY
 )
 {
 continue
