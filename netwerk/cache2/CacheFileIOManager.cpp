@@ -2913,7 +2913,7 @@ class
 ShutdownEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3153,7 +3153,7 @@ class
 OpenFileEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3406,7 +3406,7 @@ class
 ReadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3568,7 +3568,7 @@ class
 WriteEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3850,7 +3850,7 @@ class
 DoomFileEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3978,7 +3978,7 @@ class
 DoomFileByKeyEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4134,7 +4134,7 @@ class
 ReleaseNSPRHandleEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4224,7 +4224,7 @@ class
 TruncateSeekSetEOFEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4379,7 +4379,7 @@ class
 RenameFileEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4513,7 +4513,7 @@ class
 InitIndexEntryEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4675,7 +4675,7 @@ class
 UpdateIndexEntryEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4841,7 +4841,7 @@ class
 MetadataWriteScheduleEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -13583,7 +13583,7 @@ class
 EvictionNotifierRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -19534,7 +19534,7 @@ class
 SizeOfHandlesRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

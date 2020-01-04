@@ -771,7 +771,7 @@ DataStorage
 Reader
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2717,7 +2717,7 @@ DataStorage
 Writer
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

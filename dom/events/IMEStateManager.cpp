@@ -4660,7 +4660,7 @@ class
 IMEEnabledStateChangedEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

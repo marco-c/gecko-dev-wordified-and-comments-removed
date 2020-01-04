@@ -864,7 +864,7 @@ class
 HandleErrorWorker
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

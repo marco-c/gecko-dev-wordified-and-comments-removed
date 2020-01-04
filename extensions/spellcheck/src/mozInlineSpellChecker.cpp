@@ -1614,7 +1614,7 @@ class
 mozInlineSpellResume
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -200,7 +200,7 @@ class
 FontInfoLoadCompleteEvent
 :
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -242,7 +242,7 @@ class
 AsyncFontInfoLoader
 :
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -298,7 +298,7 @@ class
 ShutdownThreadEvent
 :
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -350,7 +350,7 @@ mThread
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 ShutdownThreadEvent
-nsRunnable
+Runnable
 )
 ;
 nsresult
@@ -394,7 +394,7 @@ NS_OK
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 FontInfoLoadCompleteEvent
-nsRunnable
+Runnable
 )
 ;
 nsresult
@@ -424,7 +424,7 @@ NS_OK
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 AsyncFontInfoLoader
-nsRunnable
+Runnable
 )
 ;
 NS_IMPL_ISUPPORTS

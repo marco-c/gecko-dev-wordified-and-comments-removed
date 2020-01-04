@@ -78,7 +78,10 @@ class
 CheckResponsivenessTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 public
 nsITimerCallback
 {
@@ -269,7 +272,10 @@ mStop
 NS_IMPL_ISUPPORTS_INHERITED
 (
 CheckResponsivenessTask
-nsRunnable
+mozilla
+:
+:
+Runnable
 nsITimerCallback
 )
 ThreadResponsiveness

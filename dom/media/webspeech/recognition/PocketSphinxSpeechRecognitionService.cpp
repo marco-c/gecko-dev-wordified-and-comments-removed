@@ -151,7 +151,7 @@ class
 DecodeResultTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -356,7 +356,7 @@ class
 DecodeTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

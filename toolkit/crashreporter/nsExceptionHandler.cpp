@@ -1590,7 +1590,7 @@ class
 ReportInjectedCrash
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -13850,7 +13850,7 @@ class
 ProxyToMainThread
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

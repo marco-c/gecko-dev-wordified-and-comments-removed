@@ -1213,7 +1213,10 @@ class
 ThreadWedger
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

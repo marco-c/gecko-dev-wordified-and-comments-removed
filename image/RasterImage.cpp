@@ -3030,7 +3030,7 @@ class
 OnAddedFrameRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

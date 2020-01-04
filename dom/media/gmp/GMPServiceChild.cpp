@@ -1429,7 +1429,10 @@ class
 OpenPGMPServiceChild
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

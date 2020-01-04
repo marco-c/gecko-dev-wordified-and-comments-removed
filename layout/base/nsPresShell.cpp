@@ -2588,7 +2588,7 @@ class
 nsBeforeFirstPaintDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -28574,7 +28574,7 @@ class
 AsyncCheckPointerCaptureStateCaller
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

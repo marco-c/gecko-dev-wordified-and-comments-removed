@@ -186,7 +186,10 @@ class
 Scan
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

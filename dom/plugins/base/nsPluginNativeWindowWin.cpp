@@ -208,7 +208,7 @@ class
 PluginWindowEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -681,7 +681,7 @@ class
 nsDelayedPopupsEnabledEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

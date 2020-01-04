@@ -376,7 +376,10 @@ InvalidateRunnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -1286,7 +1289,10 @@ class
 DeviceStorageRequest
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 protected
 :

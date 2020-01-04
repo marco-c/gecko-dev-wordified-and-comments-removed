@@ -319,7 +319,7 @@ AbortOperationsRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 ContentParentId
 mContentParentId

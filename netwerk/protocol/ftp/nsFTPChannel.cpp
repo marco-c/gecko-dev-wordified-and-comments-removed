@@ -405,7 +405,7 @@ class
 OnFTPControlLogRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

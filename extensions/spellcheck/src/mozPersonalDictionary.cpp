@@ -213,7 +213,10 @@ mozPersonalDictionaryLoader
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -272,7 +275,10 @@ mozPersonalDictionarySave
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

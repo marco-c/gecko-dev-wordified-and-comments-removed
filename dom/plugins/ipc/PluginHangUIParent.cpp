@@ -153,7 +153,10 @@ class
 nsPluginHangUITelemetry
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

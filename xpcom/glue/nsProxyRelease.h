@@ -86,7 +86,10 @@ class
 nsProxyReleaseEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

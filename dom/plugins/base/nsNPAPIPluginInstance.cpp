@@ -373,7 +373,7 @@ class
 PluginEventRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -7391,7 +7391,7 @@ class
 CarbonEventModelFailureEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

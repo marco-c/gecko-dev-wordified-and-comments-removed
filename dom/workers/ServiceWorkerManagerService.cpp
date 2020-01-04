@@ -116,7 +116,7 @@ NotifySoftUpdateIfPrincipalOkRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

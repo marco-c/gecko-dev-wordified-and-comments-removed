@@ -232,7 +232,7 @@ class
 InitializeIPCThread
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2399,7 +2399,7 @@ class
 ShutdownRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2407,7 +2407,7 @@ ShutdownRunnable
 (
 RefPtr
 <
-nsRunnable
+Runnable
 >
 aReplyEvent
 nsIThread
@@ -2483,7 +2483,7 @@ private
 :
 RefPtr
 <
-nsRunnable
+Runnable
 >
 mReplyEvent
 ;
@@ -2559,7 +2559,7 @@ deletion
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 deleteRunnable
 =
@@ -2658,7 +2658,7 @@ close
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =

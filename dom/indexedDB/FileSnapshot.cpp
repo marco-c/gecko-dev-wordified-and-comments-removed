@@ -282,7 +282,7 @@ CloseRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 friend
 class
@@ -965,7 +965,7 @@ StreamWrapper
 :
 :
 CloseRunnable
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 StreamWrapper

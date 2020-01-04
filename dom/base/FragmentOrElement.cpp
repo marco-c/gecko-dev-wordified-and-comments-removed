@@ -5628,7 +5628,7 @@ class
 ContentUnbinder
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

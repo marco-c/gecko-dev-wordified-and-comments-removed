@@ -832,7 +832,7 @@ class
 WorkerMainThreadRunnable
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :

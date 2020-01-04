@@ -484,7 +484,7 @@ class
 LambdaRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

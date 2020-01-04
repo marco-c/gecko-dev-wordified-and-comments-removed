@@ -310,7 +310,7 @@ ClientFocusRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 uint64_t
 mWindowId

@@ -61,7 +61,10 @@ ScriptErrorRunnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 nsString
 mMessage

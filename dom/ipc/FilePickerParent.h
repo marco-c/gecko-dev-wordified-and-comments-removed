@@ -244,7 +244,7 @@ class
 IORunnable
 :
 public
-nsRunnable
+Runnable
 {
 FilePickerParent
 *

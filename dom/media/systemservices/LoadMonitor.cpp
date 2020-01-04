@@ -495,7 +495,7 @@ class
 LoadMonitorAddObserver
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -586,7 +586,7 @@ class
 LoadMonitorRemoveObserver
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2330,7 +2330,7 @@ class
 LoadInfoCollectRunner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

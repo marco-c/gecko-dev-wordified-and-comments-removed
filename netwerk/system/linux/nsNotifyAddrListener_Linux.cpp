@@ -1662,7 +1662,7 @@ class
 NuwaMarkLinkMonitorThreadRunner
 :
 public
-nsRunnable
+Runnable
 {
 NS_IMETHODIMP
 Run

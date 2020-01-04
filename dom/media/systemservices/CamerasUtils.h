@@ -51,7 +51,7 @@ class
 ThreadDestructor
 :
 public
-nsRunnable
+Runnable
 {
 DISALLOW_COPY_AND_ASSIGN
 (
@@ -124,7 +124,7 @@ public
 explicit
 RunnableTask
 (
-nsRunnable
+Runnable
 *
 aRunnable
 )
@@ -159,7 +159,7 @@ RunnableTask
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 mRunnable
 ;

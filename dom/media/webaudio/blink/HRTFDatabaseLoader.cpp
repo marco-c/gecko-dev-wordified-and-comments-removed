@@ -341,7 +341,7 @@ ProxyReleaseEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

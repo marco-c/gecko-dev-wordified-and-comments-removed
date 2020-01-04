@@ -1078,7 +1078,7 @@ class
 ScrollSelectionIntoViewEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

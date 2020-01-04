@@ -146,7 +146,7 @@ nsIRunnable
 event
 =
 new
-nsRunnable
+Runnable
 ;
 return
 NS_DispatchToMainThread

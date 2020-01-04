@@ -169,7 +169,7 @@ class
 SaveNetworkStatsEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

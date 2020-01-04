@@ -43,7 +43,10 @@ class
 nsShutdownThread
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

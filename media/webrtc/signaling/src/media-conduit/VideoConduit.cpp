@@ -5697,7 +5697,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =

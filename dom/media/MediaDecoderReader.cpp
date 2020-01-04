@@ -1152,7 +1152,7 @@ class
 ReRequestVideoWithSkipTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1235,7 +1235,7 @@ class
 ReRequestAudioTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

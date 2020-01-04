@@ -1794,7 +1794,7 @@ TabChild
 CachedFileDescriptorCallbackRunnable
 :
 public
-nsRunnable
+Runnable
 {
 typedef
 TabChild
@@ -1924,7 +1924,7 @@ DelayedDeleteRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

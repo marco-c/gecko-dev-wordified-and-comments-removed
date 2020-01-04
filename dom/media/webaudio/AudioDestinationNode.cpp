@@ -566,7 +566,7 @@ OnCompleteTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -841,7 +841,7 @@ InputMutedRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

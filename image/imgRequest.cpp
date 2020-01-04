@@ -1297,7 +1297,7 @@ class
 imgRequestMainThreadCancel
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1511,7 +1511,7 @@ class
 imgRequestMainThreadEvict
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3867,7 +3867,7 @@ FinishPreparingForNewPartRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

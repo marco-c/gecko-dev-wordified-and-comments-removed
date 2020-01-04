@@ -2733,7 +2733,7 @@ class
 ProxyClearHostMapping
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

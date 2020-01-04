@@ -294,7 +294,7 @@ PromiseReactionJob
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -826,7 +826,7 @@ PromiseResolveThenableJob
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1342,7 +1342,7 @@ class
 ResolveOrRejectRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1598,13 +1598,13 @@ IsPending
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
 static_cast
 <
-nsRunnable
+Runnable
 *
 >
 (
@@ -4379,7 +4379,7 @@ class
 ProxyRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

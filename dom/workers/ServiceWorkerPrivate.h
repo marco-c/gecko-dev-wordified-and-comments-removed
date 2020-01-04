@@ -43,7 +43,7 @@ class
 LifeCycleEventCallback
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

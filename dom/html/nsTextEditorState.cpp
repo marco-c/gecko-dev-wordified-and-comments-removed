@@ -436,7 +436,7 @@ class
 RestoreSelectionState
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4097,7 +4097,7 @@ class
 PrepareEditorEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

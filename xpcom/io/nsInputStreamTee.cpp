@@ -224,7 +224,7 @@ class
 nsInputStreamTeeWriteEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -942,7 +942,7 @@ class
 PicoCallbackRunnable
 :
 public
-nsRunnable
+Runnable
 public
 nsISpeechTaskCallback
 {
@@ -1082,7 +1082,7 @@ mService
 NS_IMPL_ISUPPORTS_INHERITED
 (
 PicoCallbackRunnable
-nsRunnable
+Runnable
 nsISpeechTaskCallback
 )
 NS_IMETHODIMP
@@ -1496,7 +1496,7 @@ PicoSynthDataRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

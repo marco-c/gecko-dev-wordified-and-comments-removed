@@ -2871,7 +2871,7 @@ LogViolationDetailsRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 WorkerPrivate
 *
@@ -4528,7 +4528,7 @@ WorkerThreadPrimaryRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 WorkerPrivate
 *
@@ -4549,7 +4549,7 @@ FinishedRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -11481,7 +11481,7 @@ JSVERSION_DEFAULT
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 LogViolationDetailsRunnable
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 LogViolationDetailsRunnable
@@ -11602,7 +11602,7 @@ nsIIPCBackgroundChildCreateCallback
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 WorkerThreadPrimaryRunnable
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 WorkerThreadPrimaryRunnable
@@ -12116,7 +12116,7 @@ WorkerThreadPrimaryRunnable
 :
 :
 FinishedRunnable
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 WorkerThreadPrimaryRunnable

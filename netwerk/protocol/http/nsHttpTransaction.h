@@ -852,7 +852,7 @@ class
 UpdateSecurityCallbacks
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -4638,7 +4638,7 @@ class
 SetThumbnailSize
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -5155,7 +5155,7 @@ class
 SetPictureSize
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -6012,7 +6012,7 @@ class
 RecordingComplete
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -6633,7 +6633,7 @@ class
 AutoFocusComplete
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -10716,7 +10716,7 @@ class
 PosterRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

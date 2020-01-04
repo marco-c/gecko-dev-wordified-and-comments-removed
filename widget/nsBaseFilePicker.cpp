@@ -288,7 +288,10 @@ class
 AsyncShowFilePicker
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

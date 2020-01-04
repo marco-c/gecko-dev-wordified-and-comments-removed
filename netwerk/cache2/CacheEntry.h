@@ -686,7 +686,7 @@ class
 AvailableCallbackRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -745,7 +745,7 @@ class
 DoomCallbackRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1371,7 +1371,7 @@ CacheOutputCloseListener
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

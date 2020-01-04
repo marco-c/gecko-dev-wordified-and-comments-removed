@@ -795,7 +795,7 @@ class
 RejectPromiseTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

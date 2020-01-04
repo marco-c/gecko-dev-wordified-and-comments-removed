@@ -113,14 +113,6 @@ U2FRegisterCallback
 class
 U2FSignCallback
 ;
-}
-}
-namespace
-mozilla
-{
-namespace
-dom
-{
 enum
 class
 ErrorCode
@@ -149,7 +141,7 @@ class
 U2FTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

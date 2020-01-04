@@ -123,7 +123,7 @@ class
 ShortTermURISpecCache
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

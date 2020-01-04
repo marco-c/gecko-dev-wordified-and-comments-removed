@@ -68,7 +68,10 @@ class
 DeferNPObjectReleaseRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

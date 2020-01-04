@@ -72,7 +72,7 @@ BrowseReplyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -174,7 +174,7 @@ RegisterReplyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -269,7 +269,7 @@ ResolveReplyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -396,7 +396,7 @@ GetAddrInfoReplyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

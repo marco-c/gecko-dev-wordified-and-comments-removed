@@ -961,7 +961,7 @@ class
 PurgeFromMemoryRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1024,7 +1024,7 @@ class
 IOThreadSuspender
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

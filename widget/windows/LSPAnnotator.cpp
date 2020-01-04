@@ -85,7 +85,7 @@ class
 LSPAnnotationGatherer
 :
 public
-nsRunnable
+Runnable
 {
 ~
 LSPAnnotationGatherer

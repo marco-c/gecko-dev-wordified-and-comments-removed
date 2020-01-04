@@ -739,7 +739,7 @@ class
 CompositionEventDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

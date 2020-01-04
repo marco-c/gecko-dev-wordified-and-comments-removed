@@ -10657,7 +10657,7 @@ class
 DeferredContentEditableCountChangeEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

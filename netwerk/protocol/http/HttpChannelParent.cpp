@@ -6852,7 +6852,7 @@ class
 HTTPFailDiversionEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

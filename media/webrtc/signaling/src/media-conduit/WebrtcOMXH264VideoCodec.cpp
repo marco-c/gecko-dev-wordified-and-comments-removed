@@ -511,7 +511,7 @@ class
 OMXOutputDrain
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

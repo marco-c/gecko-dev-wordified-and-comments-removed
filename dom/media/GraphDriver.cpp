@@ -751,7 +751,7 @@ class
 MediaStreamGraphInitThreadRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2130,7 +2130,7 @@ class
 MediaStreamGraphShutdownThreadRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

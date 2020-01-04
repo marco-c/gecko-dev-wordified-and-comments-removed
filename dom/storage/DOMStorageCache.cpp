@@ -2746,7 +2746,7 @@ class
 LoadUsageRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

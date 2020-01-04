@@ -161,7 +161,7 @@ class
 Delegate
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1722,7 +1722,7 @@ CameraControlImpl
 ControlMessage
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

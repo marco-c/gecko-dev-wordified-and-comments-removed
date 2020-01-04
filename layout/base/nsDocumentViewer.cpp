@@ -1449,7 +1449,7 @@ class
 nsDocumentShownDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -3090,7 +3090,10 @@ class
 OnTransportStatusAsyncEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 RefPtr
 <

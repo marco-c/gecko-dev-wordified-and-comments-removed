@@ -575,7 +575,7 @@ class
 WorkerThreadProxySyncRunnable
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :
@@ -761,7 +761,6 @@ AssertIsOnWorkerThread
 )
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
 void
 Dispatch
 (
@@ -1374,7 +1373,7 @@ AsyncTeardownRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -1403,7 +1402,6 @@ aProxy
 )
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
 private
 :
 ~
@@ -1445,7 +1443,7 @@ LoadStartDetectionRunnable
 final
 :
 public
-nsRunnable
+Runnable
 public
 nsIDOMEventListener
 {
@@ -4114,20 +4112,10 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-WorkerThreadProxySyncRunnable
-nsRunnable
-)
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-AsyncTeardownRunnable
-nsRunnable
-)
 NS_IMPL_ISUPPORTS_INHERITED
 (
 LoadStartDetectionRunnable
-nsRunnable
+Runnable
 nsIDOMEventListener
 )
 NS_IMETHODIMP

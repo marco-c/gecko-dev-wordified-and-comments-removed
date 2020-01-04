@@ -21297,7 +21297,7 @@ class
 AnonymousContentDestroyer
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -619,7 +619,7 @@ StopVideoCapture
 nsresult
 DispatchToVideoCaptureThread
 (
-nsRunnable
+Runnable
 *
 event
 )

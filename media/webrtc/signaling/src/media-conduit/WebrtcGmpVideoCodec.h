@@ -170,7 +170,7 @@ class
 GmpInitDoneRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

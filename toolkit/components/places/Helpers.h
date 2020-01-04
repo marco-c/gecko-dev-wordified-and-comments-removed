@@ -318,7 +318,7 @@ class
 FinalizeStatementCacheProxy
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -429,7 +429,7 @@ class
 PlacesEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

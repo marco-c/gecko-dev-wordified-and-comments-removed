@@ -416,7 +416,7 @@ class
 KeyGenRunnable
 :
 public
-nsRunnable
+Runnable
 public
 nsNSSShutDownObject
 {
@@ -525,7 +525,7 @@ class
 SignRunnable
 :
 public
-nsRunnable
+Runnable
 public
 nsNSSShutDownObject
 {

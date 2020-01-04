@@ -600,7 +600,7 @@ Command
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

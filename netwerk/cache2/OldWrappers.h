@@ -706,7 +706,7 @@ class
 _OldCacheLoad
 :
 public
-nsRunnable
+Runnable
 public
 nsICacheListener
 {
@@ -1022,7 +1022,7 @@ class
 _OldGetDiskConsumption
 :
 public
-nsRunnable
+Runnable
 public
 nsICacheVisitor
 {

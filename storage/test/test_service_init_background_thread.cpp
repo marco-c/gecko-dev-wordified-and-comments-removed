@@ -16,7 +16,10 @@ class
 ServiceInitializer
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

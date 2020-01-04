@@ -303,7 +303,7 @@ class
 nsImageBoxFrameEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

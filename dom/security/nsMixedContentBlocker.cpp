@@ -273,7 +273,7 @@ class
 nsMixedContentEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

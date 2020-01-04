@@ -643,7 +643,7 @@ class
 AChangeEvent
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :

@@ -1827,7 +1827,7 @@ false
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsXULPopupShownEvent
-nsRunnable
+Runnable
 nsIDOMEventListener
 )
 ;

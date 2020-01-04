@@ -246,7 +246,7 @@ ReportResultTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -348,7 +348,7 @@ MediaDecodeTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

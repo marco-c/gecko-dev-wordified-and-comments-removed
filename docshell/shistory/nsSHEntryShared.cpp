@@ -999,7 +999,10 @@ class
 DestroyViewerEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

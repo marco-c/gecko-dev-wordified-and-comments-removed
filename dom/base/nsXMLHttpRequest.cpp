@@ -932,7 +932,7 @@ class
 nsResumeTimeoutsEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

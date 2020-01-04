@@ -439,7 +439,7 @@ class
 ThumbnailRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

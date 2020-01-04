@@ -1514,7 +1514,7 @@ class
 OnSocketAcceptedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1576,7 +1576,7 @@ class
 OnStopListeningRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

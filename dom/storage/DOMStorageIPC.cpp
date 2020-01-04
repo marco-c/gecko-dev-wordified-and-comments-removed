@@ -1191,7 +1191,7 @@ class
 SendInitialChildDataRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2558,7 +2558,7 @@ class
 LoadRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2927,7 +2927,7 @@ class
 UsageRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

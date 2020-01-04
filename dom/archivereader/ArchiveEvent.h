@@ -113,7 +113,7 @@ class
 ArchiveReaderEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

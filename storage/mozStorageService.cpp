@@ -2564,7 +2564,7 @@ AsyncInitDatabase
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

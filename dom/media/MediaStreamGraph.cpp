@@ -5205,7 +5205,7 @@ class
 VideoFrameContainerInvalidateRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -8573,7 +8573,7 @@ class
 MediaStreamGraphShutDownRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -8800,7 +8800,7 @@ class
 MediaStreamGraphStableStateRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -13055,7 +13055,7 @@ NotifyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -13113,9 +13113,9 @@ mStream
 ;
 }
 ;
-RefPtr
+nsCOMPtr
 <
-nsRunnable
+nsIRunnable
 >
 runnable
 =
@@ -17453,7 +17453,7 @@ GraphStartedRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

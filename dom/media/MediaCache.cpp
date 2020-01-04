@@ -6496,7 +6496,7 @@ class
 UpdateEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

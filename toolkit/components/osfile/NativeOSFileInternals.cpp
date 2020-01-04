@@ -1209,7 +1209,7 @@ ErrorEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1344,7 +1344,7 @@ SuccessEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1457,7 +1457,7 @@ class
 AbstractDoEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

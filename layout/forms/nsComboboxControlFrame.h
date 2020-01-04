@@ -795,7 +795,10 @@ class
 RedisplayTextEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

@@ -10313,7 +10313,7 @@ class
 RemoveObserverRunnable
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -18782,7 +18782,7 @@ NS_OK
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =

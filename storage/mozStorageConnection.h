@@ -558,7 +558,7 @@ CallbackComplete
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

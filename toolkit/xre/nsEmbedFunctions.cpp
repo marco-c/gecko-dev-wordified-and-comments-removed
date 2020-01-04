@@ -2999,7 +2999,7 @@ class
 MainFunctionRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

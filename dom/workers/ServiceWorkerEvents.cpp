@@ -816,7 +816,7 @@ FinishResponse
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsMainThreadPtrHandle
 <

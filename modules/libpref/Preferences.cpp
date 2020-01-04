@@ -2002,7 +2002,7 @@ class
 AddPreferencesMemoryReporterRunnable
 :
 public
-nsRunnable
+Runnable
 {
 NS_IMETHOD
 Run

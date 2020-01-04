@@ -652,7 +652,7 @@ class
 CharSetChangingRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -10022,7 +10022,7 @@ class
 DelayedFireDOMPaintEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

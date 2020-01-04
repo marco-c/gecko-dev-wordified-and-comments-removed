@@ -31,7 +31,10 @@ class
 nsThreadSyncDispatch
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

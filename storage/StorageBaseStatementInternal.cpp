@@ -43,7 +43,7 @@ class
 AsyncStatementFinalizer
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -142,7 +142,7 @@ class
 LastDitchSqliteStatementFinalizer
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

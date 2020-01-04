@@ -40,7 +40,7 @@ class
 NotifyUpdateListenerEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

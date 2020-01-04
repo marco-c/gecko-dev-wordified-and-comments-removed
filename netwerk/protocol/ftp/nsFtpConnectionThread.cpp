@@ -7773,7 +7773,7 @@ class
 nsFtpAsyncAlert
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9302,7 +9302,7 @@ NS_OK
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =

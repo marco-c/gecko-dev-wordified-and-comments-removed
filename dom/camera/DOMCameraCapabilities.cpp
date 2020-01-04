@@ -91,7 +91,7 @@ class
 CameraClosedMessage
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -4237,7 +4237,7 @@ FulfillImageBitmapPromiseTask
 final
 :
 public
-nsRunnable
+Runnable
 public
 FulfillImageBitmapPromise
 {
@@ -4912,7 +4912,7 @@ CreateImageBitmapFromBlobTask
 final
 :
 public
-nsRunnable
+Runnable
 public
 CreateImageBitmapFromBlob
 {

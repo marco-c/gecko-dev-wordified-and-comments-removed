@@ -2551,7 +2551,7 @@ class
 NuwaMarkPredictorThreadRunner
 :
 public
-nsRunnable
+Runnable
 {
 NS_IMETHODIMP
 Run
@@ -3084,7 +3084,7 @@ class
 PredictorThreadShutdownRunner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3177,7 +3177,7 @@ class
 PredictorOldCleanupRunner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

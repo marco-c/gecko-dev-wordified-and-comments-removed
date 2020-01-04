@@ -1951,7 +1951,7 @@ class
 nsPluginThreadRunnable
 :
 public
-nsRunnable
+Runnable
 public
 PRCList
 {

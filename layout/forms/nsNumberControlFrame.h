@@ -657,7 +657,10 @@ class
 SyncDisabledStateEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

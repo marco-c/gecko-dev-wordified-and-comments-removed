@@ -2182,7 +2182,7 @@ class
 IOEventComplete
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

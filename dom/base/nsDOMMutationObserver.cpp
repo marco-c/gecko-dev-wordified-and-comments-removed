@@ -4644,7 +4644,10 @@ class
 AsyncMutationHandler
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

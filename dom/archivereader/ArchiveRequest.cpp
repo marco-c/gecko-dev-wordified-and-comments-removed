@@ -52,7 +52,7 @@ class
 ArchiveRequestEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

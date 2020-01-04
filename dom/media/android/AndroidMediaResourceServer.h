@@ -37,7 +37,7 @@ class
 AndroidMediaResourceServer
 :
 public
-nsRunnable
+Runnable
 {
 private
 :

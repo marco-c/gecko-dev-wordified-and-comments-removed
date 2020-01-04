@@ -3237,7 +3237,7 @@ class
 NotifyPrecompilationCompleteRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

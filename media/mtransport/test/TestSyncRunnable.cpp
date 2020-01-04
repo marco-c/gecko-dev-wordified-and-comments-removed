@@ -37,7 +37,7 @@ class
 TestRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

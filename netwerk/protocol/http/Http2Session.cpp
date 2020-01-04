@@ -11224,7 +11224,7 @@ class
 UpdateAltSvcEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

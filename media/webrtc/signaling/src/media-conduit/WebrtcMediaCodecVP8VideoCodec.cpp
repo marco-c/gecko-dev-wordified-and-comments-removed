@@ -301,7 +301,7 @@ class
 MediaCodecOutputDrain
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

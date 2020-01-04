@@ -128,7 +128,7 @@ class
 SurfaceHelper
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -557,7 +557,7 @@ class
 EncodingRunnable
 :
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -936,7 +936,7 @@ mUsingCustomOptions
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 EncodingRunnable
-nsRunnable
+Runnable
 )
 ;
 StaticRefPtr

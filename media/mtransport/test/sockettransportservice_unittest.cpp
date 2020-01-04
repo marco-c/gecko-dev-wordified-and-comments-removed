@@ -114,6 +114,10 @@ gtest_utils
 .
 h
 "
+using
+namespace
+mozilla
+;
 namespace
 {
 class
@@ -256,7 +260,7 @@ class
 EventReceived
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -300,7 +304,7 @@ class
 RegisterEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

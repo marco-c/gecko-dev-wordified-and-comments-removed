@@ -994,7 +994,7 @@ class
 nsSetSmartSizeEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1129,7 +1129,7 @@ class
 nsGetSmartSizeEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1209,7 +1209,7 @@ class
 nsBlockOnCacheThreadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4189,7 +4189,7 @@ class
 nsProcessRequestEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4303,7 +4303,7 @@ class
 nsDoomEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -5578,7 +5578,7 @@ class
 EvictionNotifierRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -6937,7 +6937,7 @@ class
 nsDisableOldMaxSmartSizePrefEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -7857,7 +7857,7 @@ class
 nsCacheListenerEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

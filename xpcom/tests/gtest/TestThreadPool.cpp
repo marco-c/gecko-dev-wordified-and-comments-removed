@@ -365,7 +365,7 @@ nsIRunnable
 r0
 =
 new
-nsRunnable
+Runnable
 (
 )
 ;
@@ -390,7 +390,7 @@ class
 Runnable1
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -468,7 +468,7 @@ class
 Runnable2
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

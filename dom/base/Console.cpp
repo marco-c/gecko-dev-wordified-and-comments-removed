@@ -959,7 +959,7 @@ class
 ConsoleRunnable
 :
 public
-nsRunnable
+Runnable
 public
 WorkerFeature
 public

@@ -1642,7 +1642,7 @@ class
 NotifyObserversTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2912,7 +2912,7 @@ class
 Updates
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

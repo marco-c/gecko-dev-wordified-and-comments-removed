@@ -352,7 +352,7 @@ class
 AsyncFrameInit
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4079,7 +4079,7 @@ class
 nsHideViewer
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

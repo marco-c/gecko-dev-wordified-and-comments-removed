@@ -806,7 +806,7 @@ class
 BaseRunnable
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :

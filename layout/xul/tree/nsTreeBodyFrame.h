@@ -1884,7 +1884,10 @@ class
 ScrollEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

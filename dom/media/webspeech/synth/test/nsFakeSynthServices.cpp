@@ -678,7 +678,10 @@ Runnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -901,7 +904,7 @@ DispatchStart
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -951,7 +954,7 @@ DispatchEnd
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1023,7 +1026,7 @@ DispatchError
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -20,7 +20,10 @@ class
 nsHtml5RefPtrReleaser
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 private
 :

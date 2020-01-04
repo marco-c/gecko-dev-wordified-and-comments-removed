@@ -1064,7 +1064,7 @@ class
 DispatchResizeToControls
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1538,7 +1538,7 @@ size
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =

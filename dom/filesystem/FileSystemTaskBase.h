@@ -228,7 +228,7 @@ class
 FileSystemTaskParentBase
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

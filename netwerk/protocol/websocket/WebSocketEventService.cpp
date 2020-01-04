@@ -116,7 +116,7 @@ class
 WebSocketBaseRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -38,7 +38,10 @@ h
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsPagePrintTimer
-nsRunnable
+mozilla
+:
+:
+Runnable
 nsITimerCallback
 )
 nsPagePrintTimer

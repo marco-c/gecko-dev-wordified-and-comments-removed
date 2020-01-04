@@ -1764,7 +1764,7 @@ class
 AsyncEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -84,7 +84,7 @@ WatchedErrorEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -180,7 +180,7 @@ WatchedSuccessEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -268,7 +268,7 @@ WatchedChangeEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -620,7 +620,7 @@ class
 NativeWatcherIOShutdownTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -681,7 +681,7 @@ class
 NativeFileWatcherIOTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

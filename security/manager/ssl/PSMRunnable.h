@@ -44,7 +44,7 @@ class
 SyncRunnableBase
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -82,7 +82,7 @@ class
 NotifyObserverRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

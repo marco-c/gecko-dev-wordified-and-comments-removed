@@ -134,7 +134,7 @@ class
 CallbackResultNotifier
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -247,7 +247,7 @@ class
 ErrorNotifier
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -347,7 +347,7 @@ class
 CompletionNotifier
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

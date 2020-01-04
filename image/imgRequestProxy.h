@@ -433,7 +433,10 @@ class
 imgCancelRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

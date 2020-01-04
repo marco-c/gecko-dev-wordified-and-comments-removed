@@ -1691,7 +1691,7 @@ class
 ScriptErrorEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -8874,7 +8874,7 @@ class
 NotifyGCEndRunnable
 :
 public
-nsRunnable
+Runnable
 {
 nsString
 mMessage

@@ -64,7 +64,7 @@ class
 nsHttpActivityEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

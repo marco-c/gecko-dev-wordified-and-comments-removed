@@ -697,7 +697,10 @@ AsyncErrorReporter
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

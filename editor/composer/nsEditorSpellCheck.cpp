@@ -1228,7 +1228,7 @@ CallbackCaller
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

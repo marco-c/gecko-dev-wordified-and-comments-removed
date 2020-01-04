@@ -708,7 +708,10 @@ StartRunnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

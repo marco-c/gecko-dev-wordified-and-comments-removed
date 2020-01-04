@@ -277,7 +277,10 @@ class
 ChangeNotification
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 public
 Notification
 {

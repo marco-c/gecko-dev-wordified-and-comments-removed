@@ -157,7 +157,7 @@ class
 CancelableRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

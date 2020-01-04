@@ -204,7 +204,7 @@ NotifyChannelActiveRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -425,7 +425,7 @@ aActive
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -461,7 +461,7 @@ class
 MediaPlaybackRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

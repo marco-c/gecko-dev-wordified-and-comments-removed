@@ -684,7 +684,7 @@ class
 AsyncPaintWaitEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

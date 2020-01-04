@@ -9240,7 +9240,7 @@ struct
 DelayedDeleteContentParentTask
 :
 public
-nsRunnable
+Runnable
 {
 explicit
 DelayedDeleteContentParentTask

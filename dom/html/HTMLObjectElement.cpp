@@ -429,7 +429,7 @@ class
 PluginFocusSetter
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

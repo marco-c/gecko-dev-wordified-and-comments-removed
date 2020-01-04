@@ -210,7 +210,7 @@ class
 TimerObserverRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -773,7 +773,7 @@ class
 nsThreadStartupEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -913,9 +913,7 @@ class
 nsThreadShutdownAckEvent
 :
 public
-nsRunnable
-public
-nsICancelableRunnable
+CancelableRunnable
 {
 public
 :
@@ -933,7 +931,6 @@ aCtx
 )
 {
 }
-NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Run
 (
@@ -982,17 +979,11 @@ mShutdownContext
 ;
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED
-(
-nsThreadShutdownAckEvent
-nsRunnable
-nsICancelableRunnable
-)
 class
 nsThreadShutdownEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

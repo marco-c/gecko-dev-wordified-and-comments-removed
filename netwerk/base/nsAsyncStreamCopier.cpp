@@ -109,7 +109,7 @@ AsyncApplyBufferingPolicyEvent
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

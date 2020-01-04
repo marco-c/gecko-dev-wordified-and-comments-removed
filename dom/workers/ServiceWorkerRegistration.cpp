@@ -1564,7 +1564,7 @@ UpdateRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2107,7 +2107,7 @@ StartUnregisterRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -3886,7 +3886,7 @@ StartListeningRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -4027,7 +4027,7 @@ AsyncStopListeningRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

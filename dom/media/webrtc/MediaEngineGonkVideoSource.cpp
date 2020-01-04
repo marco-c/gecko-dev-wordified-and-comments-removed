@@ -2288,7 +2288,7 @@ class
 TakePhotoError
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2456,7 +2456,7 @@ class
 GenerateBlobRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

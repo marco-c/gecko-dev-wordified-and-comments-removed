@@ -65,7 +65,7 @@ PostMessageEvent
 final
 :
 public
-nsRunnable
+Runnable
 public
 StructuredCloneHolder
 {

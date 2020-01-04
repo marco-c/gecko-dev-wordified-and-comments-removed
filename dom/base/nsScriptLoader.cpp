@@ -1768,7 +1768,7 @@ class
 nsScriptRequestProcessor
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -3351,7 +3351,7 @@ class
 NotifyOffThreadScriptLoadCompletedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

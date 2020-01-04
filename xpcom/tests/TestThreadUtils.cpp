@@ -83,7 +83,10 @@ class
 TestSuicide
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 NS_IMETHOD
 Run

@@ -1101,7 +1101,7 @@ GetSubscriptionRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1642,7 +1642,7 @@ PermissionStateRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -733,7 +733,10 @@ class
 nsPositionChangedEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

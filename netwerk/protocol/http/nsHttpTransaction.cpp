@@ -3527,7 +3527,7 @@ NS_OK
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =
@@ -8649,7 +8649,7 @@ class
 DeleteHttpTransaction
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

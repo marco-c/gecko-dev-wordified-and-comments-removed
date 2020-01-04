@@ -78,7 +78,10 @@ class
 nsAsyncDoomEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

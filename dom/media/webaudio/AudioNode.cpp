@@ -1561,7 +1561,7 @@ RunnableRelease
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -361,7 +361,10 @@ GMPServiceCreateHelper
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 RefPtr
 <

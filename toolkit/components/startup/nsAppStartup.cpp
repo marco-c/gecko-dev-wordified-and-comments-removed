@@ -479,7 +479,10 @@ class
 nsAppExitEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 private
 :

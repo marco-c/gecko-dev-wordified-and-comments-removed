@@ -6287,7 +6287,7 @@ class
 nsPluginUnloadRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -19266,7 +19266,7 @@ class
 nsPluginDestroyRunnable
 :
 public
-nsRunnable
+Runnable
 public
 PRCList
 {

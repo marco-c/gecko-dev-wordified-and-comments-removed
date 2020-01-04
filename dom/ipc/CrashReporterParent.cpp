@@ -686,7 +686,7 @@ class
 NotifyOnMainThread
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

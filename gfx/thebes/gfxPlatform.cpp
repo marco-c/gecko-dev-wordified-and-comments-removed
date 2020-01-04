@@ -1576,7 +1576,7 @@ class
 LogForwarderEvent
 :
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -1658,7 +1658,7 @@ mMessage
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 LogForwarderEvent
-nsRunnable
+Runnable
 )
 ;
 void
@@ -1772,7 +1772,7 @@ class
 CrashTelemetryEvent
 :
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -1834,7 +1834,7 @@ mReason
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 CrashTelemetryEvent
-nsRunnable
+Runnable
 )
 ;
 void

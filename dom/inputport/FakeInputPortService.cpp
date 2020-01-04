@@ -64,7 +64,7 @@ InputPortServiceNotifyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

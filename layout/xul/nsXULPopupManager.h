@@ -517,7 +517,10 @@ class
 nsXULPopupShowingEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -585,7 +588,10 @@ class
 nsXULPopupHidingEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -688,7 +694,10 @@ class
 nsXULMenuCommandEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

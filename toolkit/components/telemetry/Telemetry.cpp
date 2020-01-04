@@ -8607,7 +8607,7 @@ class
 nsFetchTelemetryData
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

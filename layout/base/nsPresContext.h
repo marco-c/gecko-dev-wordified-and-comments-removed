@@ -4369,7 +4369,10 @@ class
 RunWillPaintObservers
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

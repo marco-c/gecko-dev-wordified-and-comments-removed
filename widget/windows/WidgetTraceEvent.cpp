@@ -125,7 +125,10 @@ class
 HWNDGetter
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

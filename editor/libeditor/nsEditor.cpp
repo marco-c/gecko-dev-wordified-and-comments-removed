@@ -6907,7 +6907,7 @@ class
 EditorInputEventDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

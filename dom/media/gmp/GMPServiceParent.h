@@ -530,7 +530,7 @@ class
 PathRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

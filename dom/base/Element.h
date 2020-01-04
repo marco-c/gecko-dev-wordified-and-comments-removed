@@ -4002,7 +4002,10 @@ class
 RemoveFromBindingManagerRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

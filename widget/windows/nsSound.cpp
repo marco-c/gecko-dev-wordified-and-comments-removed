@@ -142,7 +142,10 @@ class
 nsSoundPlayer
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -247,7 +250,10 @@ class
 SoundReleaser
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

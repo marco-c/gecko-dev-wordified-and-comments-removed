@@ -41,7 +41,10 @@ class
 DatabaseLocker
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

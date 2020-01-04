@@ -273,7 +273,7 @@ class
 RegisterObserverRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

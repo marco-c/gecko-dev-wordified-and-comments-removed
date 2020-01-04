@@ -1432,7 +1432,7 @@ AsyncCloseConnection
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1640,7 +1640,7 @@ AsyncInitializeClone
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

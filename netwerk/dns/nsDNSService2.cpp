@@ -1920,7 +1920,7 @@ class
 NotifyDNSResolution
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

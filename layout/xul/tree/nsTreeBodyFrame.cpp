@@ -22191,7 +22191,7 @@ class
 nsOverflowChecker
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

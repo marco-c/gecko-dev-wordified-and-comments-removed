@@ -199,7 +199,10 @@ Runnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -263,9 +266,9 @@ mRenderer
 ;
 }
 ;
-RefPtr
+nsCOMPtr
 <
-nsRunnable
+nsIRunnable
 >
 runnable
 =
@@ -323,7 +326,10 @@ Runnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -387,9 +393,9 @@ mRenderer
 ;
 }
 ;
-RefPtr
+nsCOMPtr
 <
-nsRunnable
+nsIRunnable
 >
 runnable
 =

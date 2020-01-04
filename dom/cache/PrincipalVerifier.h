@@ -53,7 +53,7 @@ PrincipalVerifier
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

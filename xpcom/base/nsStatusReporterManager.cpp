@@ -104,7 +104,10 @@ class
 DumpStatusInfoToTempDirRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

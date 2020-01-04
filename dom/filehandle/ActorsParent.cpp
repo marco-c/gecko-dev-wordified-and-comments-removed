@@ -324,7 +324,7 @@ FileHandleQueue
 final
 :
 public
-nsRunnable
+Runnable
 {
 friend
 class
@@ -1601,7 +1601,7 @@ ProgressRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

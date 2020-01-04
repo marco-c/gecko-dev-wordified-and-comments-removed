@@ -10531,7 +10531,7 @@ class
 MinimizeMemoryUsageRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

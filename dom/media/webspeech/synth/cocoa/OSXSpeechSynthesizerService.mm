@@ -858,7 +858,7 @@ RegisterVoicesRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1040,7 +1040,7 @@ EnumVoicesRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

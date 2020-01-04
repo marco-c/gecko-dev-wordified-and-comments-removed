@@ -71,7 +71,7 @@ AvailableRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

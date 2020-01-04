@@ -363,7 +363,7 @@ class
 GlyphMetricsUpdater
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

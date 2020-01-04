@@ -2645,7 +2645,7 @@ WorkerScopeSkipWaitingRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

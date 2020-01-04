@@ -178,7 +178,7 @@ class
 runnable_args_base
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
