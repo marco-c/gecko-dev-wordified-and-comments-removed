@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -218,7 +227,7 @@ DaemonSocketIOConsumer
 *
 mConsumer
 ;
-nsAutoPtr
+UniquePtr
 <
 DaemonSocketPDU
 >
@@ -333,8 +342,10 @@ mPDU
 {
 mPDU
 =
-new
+MakeUnique
+<
 DaemonSocketPDU
+>
 (
 DaemonSocketPDU
 :
