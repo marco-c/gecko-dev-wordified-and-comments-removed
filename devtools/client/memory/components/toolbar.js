@@ -112,13 +112,6 @@ PropTypes
 shape
 (
 {
-name
-:
-PropTypes
-.
-string
-.
-isRequired
 displayName
 :
 PropTypes
@@ -220,13 +213,6 @@ PropTypes
 shape
 (
 {
-name
-:
-PropTypes
-.
-string
-.
-isRequired
 displayName
 :
 PropTypes
