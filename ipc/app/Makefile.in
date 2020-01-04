@@ -245,7 +245,7 @@ DIST
 bin
 /
 (
-PROGRAM
+MOZ_CHILD_PROCESS_NAME
 )
 .
 app
@@ -260,7 +260,7 @@ PROGRAM
 %
 /
 (
-PROGRAM
+MOZ_CHILD_PROCESS_NAME
 )
 /
 '
@@ -285,7 +285,7 @@ DIST
 bin
 /
 (
-PROGRAM
+MOZ_CHILD_PROCESS_NAME
 )
 .
 app
@@ -350,7 +350,7 @@ DIST
 bin
 /
 (
-PROGRAM
+MOZ_CHILD_PROCESS_NAME
 )
 .
 app
@@ -378,7 +378,7 @@ DIST
 bin
 /
 (
-PROGRAM
+MOZ_CHILD_PROCESS_NAME
 )
 .
 app
@@ -390,7 +390,13 @@ MacOS
 NSINSTALL
 )
 (
-PROGRAM
+DIST
+)
+/
+bin
+/
+(
+MOZ_CHILD_PROCESS_NAME
 )
 (
 DIST
@@ -399,7 +405,7 @@ DIST
 bin
 /
 (
-PROGRAM
+MOZ_CHILD_PROCESS_NAME
 )
 .
 app
@@ -407,18 +413,6 @@ app
 Contents
 /
 MacOS
-(
-RM
-)
-(
-DIST
-)
-/
-bin
-/
-(
-PROGRAM
-)
 endif
 #
 }

@@ -304,14 +304,4 @@ app
 Contents
 /
 MacOS
-rm
--
-f
-(
-DIST
-)
-/
-bin
-/
-updater
 endif
