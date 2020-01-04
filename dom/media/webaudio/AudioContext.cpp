@@ -3550,6 +3550,9 @@ return
 ifndef
 WIN32
 #
+ifndef
+XP_MACOSX
+#
 ifdef
 DEBUG
 if
@@ -3686,6 +3689,8 @@ false
 )
 ;
 }
+#
+endif
 #
 endif
 #
