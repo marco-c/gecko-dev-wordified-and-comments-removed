@@ -34,6 +34,9 @@ namespace
 layers
 {
 class
+Compositor
+;
+class
 LayerManagerComposite
 ;
 class

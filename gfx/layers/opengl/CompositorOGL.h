@@ -676,7 +676,10 @@ CompositorOGL
 CompositorBridgeParent
 *
 aParent
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
 aWidget
 int

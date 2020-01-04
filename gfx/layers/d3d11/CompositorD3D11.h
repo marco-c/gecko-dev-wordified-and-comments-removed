@@ -157,7 +157,10 @@ CompositorD3D11
 CompositorBridgeParent
 *
 aParent
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
 aWidget
 )

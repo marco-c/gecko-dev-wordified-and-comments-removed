@@ -203,7 +203,10 @@ X11BasicCompositor
 CompositorBridgeParent
 *
 aParent
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
 aWidget
 )
