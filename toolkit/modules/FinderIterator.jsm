@@ -2095,9 +2095,13 @@ frames
 if
 (
 !
-window
-.
+(
+"
 frames
+"
+in
+window
+)
 |
 |
 !
