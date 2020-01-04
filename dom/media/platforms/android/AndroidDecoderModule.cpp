@@ -3486,10 +3486,6 @@ mMonitor
 ;
 if
 (
-!
-mThread
-|
-|
 State
 (
 )
@@ -3515,6 +3511,9 @@ Notify
 ;
 while
 (
+mThread
+&
+&
 State
 (
 )
@@ -3530,6 +3529,11 @@ Wait
 )
 ;
 }
+if
+(
+mThread
+)
+{
 mThread
 -
 >
@@ -3541,6 +3545,12 @@ mThread
 =
 nullptr
 ;
+}
+if
+(
+mDecoder
+)
+{
 mDecoder
 -
 >
@@ -3555,6 +3565,11 @@ Release
 (
 )
 ;
+mDecoder
+=
+nullptr
+;
+}
 return
 NS_OK
 ;
