@@ -90,7 +90,10 @@ MOZ_LOGGING
 )
 extern
 GFX2D_API
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetGFX2DLog
 (
