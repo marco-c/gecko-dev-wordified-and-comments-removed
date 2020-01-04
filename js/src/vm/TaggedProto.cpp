@@ -235,7 +235,7 @@ const
 {
 if
 (
-isLazy
+isDynamic
 (
 )
 )

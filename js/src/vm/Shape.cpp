@@ -6376,7 +6376,7 @@ flags
 self
 -
 >
-getTaggedProto
+taggedProto
 (
 )
 existingShape

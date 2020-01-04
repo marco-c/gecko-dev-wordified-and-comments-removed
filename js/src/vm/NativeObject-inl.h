@@ -2573,7 +2573,7 @@ cx
 current
 -
 >
-getProto
+staticPrototype
 (
 )
 )

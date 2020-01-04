@@ -2730,7 +2730,7 @@ staticScope
 {
 return
 &
-getProto
+staticPrototype
 (
 )
 -
@@ -2851,7 +2851,7 @@ staticWith
 const
 {
 return
-getProto
+staticPrototype
 (
 )
 -
@@ -3131,7 +3131,7 @@ staticBlock
 const
 {
 return
-getProto
+staticPrototype
 (
 )
 -
@@ -4445,7 +4445,7 @@ class_
 &
 &
 !
-getProto
+staticPrototype
 (
 )
 ;
@@ -4578,9 +4578,7 @@ class_
 )
 &
 &
-!
-!
-getProto
+staticPrototype
 (
 )
 ;

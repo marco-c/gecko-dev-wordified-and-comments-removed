@@ -3292,7 +3292,7 @@ cx
 templateObj
 -
 >
-getProto
+staticPrototype
 (
 )
 )
