@@ -268,6 +268,14 @@ nsIDOMDragEvent
 aDragEvent
 )
 ;
+nsresult
+DragGesture
+(
+nsIDOMDragEvent
+*
+aDragEvent
+)
+;
 bool
 CanDrop
 (

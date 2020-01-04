@@ -13078,6 +13078,14 @@ eBlur
 ;
 _ASSIGN_eventName
 (
+eLegacyDragGesture
+"
+eLegacyDragGesture
+"
+)
+;
+_ASSIGN_eventName
+(
 eDrop
 "
 eDrop

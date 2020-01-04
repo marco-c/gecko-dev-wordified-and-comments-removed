@@ -503,6 +503,12 @@ aEventMessage
 =
 =
 eDragStart
+|
+|
+aEventMessage
+=
+=
+eLegacyDragGesture
 )
 {
 mReadOnly
@@ -664,6 +670,12 @@ this
 ;
 NS_ASSERTION
 (
+aEventMessage
+!
+=
+eLegacyDragGesture
+&
+&
 aEventMessage
 !
 =

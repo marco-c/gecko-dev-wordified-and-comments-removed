@@ -2258,6 +2258,13 @@ draggable
 )
 GK_ATOM
 (
+draggesture
+"
+draggesture
+"
+)
+GK_ATOM
+(
 dragging
 "
 dragging

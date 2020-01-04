@@ -24164,6 +24164,15 @@ aDragEvent
 mMessage
 !
 =
+eLegacyDragGesture
+&
+&
+aDragEvent
+-
+>
+mMessage
+!
+=
 eDragStart
 "
 draggesture
