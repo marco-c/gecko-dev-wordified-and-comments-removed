@@ -98,6 +98,10 @@ JS_PREFERENCE_FILES
 =
 [
 '
+/
+%
+s
+/
 pref
 /
 firefox
@@ -106,6 +110,13 @@ branding
 .
 js
 '
+%
+CONFIG
+[
+'
+MOZ_BRANDING_DIRECTORY
+'
+]
 ]
 if
 CONFIG

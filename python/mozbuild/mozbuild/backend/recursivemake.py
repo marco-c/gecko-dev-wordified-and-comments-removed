@@ -9601,7 +9601,7 @@ target
         
 for
 path
-strings
+files
 in
 files
 .
@@ -9613,27 +9613,8 @@ walk
 for
 f
 in
-strings
+files
 :
-                
-source
-=
-mozpath
-.
-normpath
-(
-os
-.
-path
-.
-join
-(
-obj
-.
-srcdir
-f
-)
-)
                 
 dest
 =
@@ -9655,7 +9636,9 @@ install_manifest
 .
 add_symlink
 (
-source
+f
+.
+full_path
 dest
 )
     
@@ -9673,7 +9656,7 @@ for
 i
 (
 path
-strings
+files
 )
 in
 enumerate
@@ -9689,7 +9672,7 @@ walk
 for
 f
 in
-strings
+files
 :
                 
 backend_file
@@ -9709,8 +9692,15 @@ n
 '
 %
 (
+                    
 i
+self
+.
+_pretty_path
+(
 f
+backend_file
+)
 )
 )
             
