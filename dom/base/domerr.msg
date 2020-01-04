@@ -1871,3 +1871,13 @@ an
 exception
 "
 )
+DOM_MSG_DEF
+(
+NS_ERROR_DOM_DOMEXCEPTION
+"
+A
+DOMException
+was
+thrown
+"
+)
