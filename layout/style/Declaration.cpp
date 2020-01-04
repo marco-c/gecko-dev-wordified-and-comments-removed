@@ -61,6 +61,10 @@ Declaration
 (
 )
 :
+mOwningRule
+(
+nullptr
+)
 mImmutable
 (
 false
@@ -156,6 +160,10 @@ aCopy
 mImportantVariables
 )
 :
+nullptr
+)
+mOwningRule
+(
 nullptr
 )
 mImmutable
