@@ -2528,9 +2528,9 @@ js
 :
 GetErrorTypeName
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 int16_t
 exnType
 )
@@ -2579,12 +2579,7 @@ return
 ClassName
 (
 key
-rt
--
->
-contextFromMainThread
-(
-)
+cx
 )
 ;
 }
