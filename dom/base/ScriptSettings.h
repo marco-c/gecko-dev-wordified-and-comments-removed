@@ -150,6 +150,16 @@ IsJSAPIActive
 (
 )
 ;
+namespace
+danger
+{
+JSContext
+*
+GetJSContext
+(
+)
+;
+}
 class
 ScriptSettingsStack
 ;
