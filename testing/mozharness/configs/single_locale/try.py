@@ -150,30 +150,6 @@ try
 "
     
 "
-hgtool_base_bundle_urls
-"
-:
-[
-"
-https
-:
-/
-/
-archive
-.
-mozilla
-.
-org
-/
-pub
-/
-firefox
-/
-bundles
-"
-]
-    
-"
 repos
 "
 :
@@ -232,7 +208,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "

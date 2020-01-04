@@ -3509,7 +3509,7 @@ revision
 vcs
 =
 '
-hgtool
+hg
 '
 )
         
@@ -4412,6 +4412,14 @@ vcs
 :
 "
 hg
+"
+            
+'
+branch
+'
+:
+"
+default
 "
             
 '

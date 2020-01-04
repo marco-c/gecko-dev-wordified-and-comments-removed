@@ -215,7 +215,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "
@@ -243,7 +243,11 @@ revision
 "
 :
 "
-default
+%
+(
+revision
+)
+s
 "
         
 "

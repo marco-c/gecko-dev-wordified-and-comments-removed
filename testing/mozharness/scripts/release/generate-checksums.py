@@ -2018,10 +2018,16 @@ tools_repo
 "
 ]
             
+branch
+=
+"
+default
+"
+            
 vcs
 =
 "
-hgtool
+hg
 "
             
 dest

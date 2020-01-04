@@ -3749,9 +3749,7 @@ Pull
 tools
 first
 then
-use
-hgtool
-for
+clone
 the
 gecko
 repos

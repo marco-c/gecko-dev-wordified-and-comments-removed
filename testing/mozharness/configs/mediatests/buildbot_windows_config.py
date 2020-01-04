@@ -217,32 +217,6 @@ tooltool
 py
 '
 ]
-        
-'
-hgtool
-.
-py
-'
-:
-[
-sys
-.
-executable
-                      
-os
-.
-path
-.
-join
-(
-external_tools_path
-'
-hgtool
-.
-py
-'
-)
-]
     
 }
     

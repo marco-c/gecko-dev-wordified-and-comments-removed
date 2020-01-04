@@ -177,7 +177,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "

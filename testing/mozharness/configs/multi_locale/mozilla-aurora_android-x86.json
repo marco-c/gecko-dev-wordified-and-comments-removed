@@ -92,7 +92,7 @@ mozilla
 aurora
 "
 "
-tag
+branch
 "
 :
 "
@@ -129,11 +129,11 @@ buildbot
 configs
 "
 "
-tag
+branch
 "
 :
 "
-default
+production
 "
 "
 dest
@@ -166,7 +166,7 @@ build
 tools
 "
 "
-tag
+branch
 "
 :
 "

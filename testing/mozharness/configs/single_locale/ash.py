@@ -211,7 +211,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "
@@ -235,7 +235,7 @@ central
 "
         
 "
-revision
+branch
 "
 :
 "
