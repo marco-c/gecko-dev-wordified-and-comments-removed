@@ -606,6 +606,9 @@ ctx
 global
 .
 f
+"
+shrinking
+"
 )
 ;
 evaluate
@@ -696,6 +699,9 @@ ctx
 global
 .
 f
+"
+shrinking
+"
 )
 ;
 evaluate
