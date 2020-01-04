@@ -6773,46 +6773,12 @@ execute_async_script
 "
                 
 let
-start
-=
-new
-Date
-(
-)
-;
-                
-let
-end
-=
-new
-Date
-(
-start
-.
-valueOf
-(
-)
-+
-5000
-)
-;
-                
-let
 wait
 =
 function
 (
 )
 {
-                  
-let
-now
-=
-new
-Date
-(
-)
-;
                   
 if
 (
@@ -6821,12 +6787,6 @@ window
 wrappedJSObject
 .
 permChanged
-|
-|
-end
->
-=
-now
 )
 {
                     
@@ -6836,16 +6796,22 @@ marionetteScriptFinished
 ;
                   
 }
-                
-}
-;
-                
+else
+{
+                    
 window
 .
 setTimeout
 (
 wait
 100
+)
+;
+                  
+}
+                
+}
+(
 )
 ;
                 
