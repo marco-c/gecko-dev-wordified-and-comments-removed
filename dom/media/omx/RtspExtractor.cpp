@@ -97,7 +97,6 @@ RtspMediaSource
 )
 {
 }
-virtual
 status_t
 start
 (
@@ -109,14 +108,12 @@ nullptr
 )
 override
 ;
-virtual
 status_t
 stop
 (
 )
 override
 ;
-virtual
 sp
 <
 MetaData
@@ -136,7 +133,6 @@ return
 mFormat
 ;
 }
-virtual
 status_t
 read
 (

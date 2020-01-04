@@ -157,7 +157,6 @@ AudioOffloadPlayer
 (
 )
 ;
-virtual
 void
 SetSource
 (
@@ -174,7 +173,6 @@ aSource
 )
 override
 ;
-virtual
 status_t
 Start
 (
@@ -185,7 +183,6 @@ false
 )
 override
 ;
-virtual
 status_t
 ChangeState
 (
@@ -197,7 +194,6 @@ aState
 )
 override
 ;
-virtual
 void
 SetVolume
 (
@@ -206,14 +202,12 @@ aVolume
 )
 override
 ;
-virtual
 int64_t
 GetMediaTimeUs
 (
 )
 override
 ;
-virtual
 void
 SetElementVisibility
 (
@@ -223,7 +217,6 @@ aIsVisible
 override
 ;
 ;
-virtual
 MediaDecoderOwner
 :
 :
@@ -233,7 +226,6 @@ GetNextFrameStatus
 )
 override
 ;
-virtual
 RefPtr
 <
 MediaDecoder

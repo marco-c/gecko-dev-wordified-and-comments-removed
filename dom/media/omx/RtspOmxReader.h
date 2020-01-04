@@ -60,7 +60,6 @@ InitOmxDecoder
 final
 override
 ;
-virtual
 void
 EnsureActive
 (
@@ -149,7 +148,6 @@ virtual
 RtspOmxReader
 (
 )
-override
 {
 MOZ_COUNT_DTOR
 (
@@ -157,7 +155,6 @@ RtspOmxReader
 )
 ;
 }
-virtual
 RefPtr
 <
 SeekPromise
@@ -172,7 +169,6 @@ aEndTime
 final
 override
 ;
-virtual
 media
 :
 :
@@ -195,14 +191,12 @@ Invalid
 )
 ;
 }
-virtual
 void
 SetIdle
 (
 )
 override
 ;
-virtual
 RefPtr
 <
 MediaDecoderReader
@@ -215,7 +209,6 @@ AsyncReadMetadata
 )
 override
 ;
-virtual
 void
 HandleResourceAllocated
 (

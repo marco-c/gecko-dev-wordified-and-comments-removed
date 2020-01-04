@@ -65,7 +65,6 @@ RtspOmxDecoder
 )
 ;
 }
-virtual
 MediaDecoder
 *
 Clone
@@ -77,7 +76,6 @@ aOwner
 override
 final
 ;
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachine
@@ -86,7 +84,6 @@ CreateStateMachine
 override
 final
 ;
-virtual
 void
 ChangeState
 (
