@@ -242,14 +242,13 @@ aObject
 nsresult
 FireAtkShowHideEvent
 (
-AccEvent
-*
-aEvent
 AtkObject
 *
 aObject
 bool
 aIsAdded
+bool
+aFromUser
 )
 ;
 AtkObject
