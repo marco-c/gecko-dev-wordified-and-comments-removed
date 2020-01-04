@@ -1470,7 +1470,7 @@ ParseHandler
 parser
 )
 ;
-void
+bool
 setPending
 (
 ParseReportKind
