@@ -203,9 +203,7 @@ loadBrowser
 browser
 )
 ;
-content
-.
-location
+browser
 .
 reload
 (
