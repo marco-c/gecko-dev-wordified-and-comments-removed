@@ -253,6 +253,17 @@ browser
 .
 ini
 '
+'
+content
+/
+test
+/
+webrtc
+/
+browser
+.
+ini
+'
 ]
 DEFINES
 [
