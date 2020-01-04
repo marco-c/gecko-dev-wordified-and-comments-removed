@@ -301,9 +301,6 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-int
-mConnectionCounter
-;
 nsCOMPtr
 <
 nsITimer
