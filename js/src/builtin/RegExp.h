@@ -41,13 +41,6 @@ UseRegExpStatics
 DontUseRegExpStatics
 }
 ;
-enum
-RegExpCreationMode
-{
-CreateForCompile
-CreateForConstruct
-}
-;
 RegExpRunStatus
 ExecuteRegExp
 (
