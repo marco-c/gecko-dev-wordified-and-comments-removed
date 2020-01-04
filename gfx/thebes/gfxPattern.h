@@ -315,9 +315,15 @@ const
 bool
 GetSolidColor
 (
-gfxRGBA
+mozilla
+:
+:
+gfx
+:
+:
+Color
 &
-aColor
+aColorOut
 )
 ;
 private

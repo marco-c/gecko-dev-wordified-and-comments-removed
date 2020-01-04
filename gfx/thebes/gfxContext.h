@@ -529,9 +529,15 @@ aColor
 bool
 GetDeviceColor
 (
-gfxRGBA
+mozilla
+:
+:
+gfx
+:
+:
+Color
 &
-c
+aColorOut
 )
 ;
 void

@@ -917,9 +917,9 @@ gfxPattern
 :
 GetSolidColor
 (
-gfxRGBA
+Color
 &
-aColor
+aColorOut
 )
 {
 if
@@ -942,10 +942,8 @@ PatternType
 COLOR
 )
 {
-aColor
+aColorOut
 =
-ThebesColor
-(
 static_cast
 <
 ColorPattern
@@ -961,7 +959,6 @@ GetPattern
 -
 >
 mColor
-)
 ;
 return
 true
