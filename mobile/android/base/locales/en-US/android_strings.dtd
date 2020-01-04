@@ -1817,6 +1817,17 @@ Notifications
 <
 !
 ENTITY
+pref_category_notifications_summary
+"
+New
+features
+website
+updates
+"
+>
+<
+!
+ENTITY
 pref_content_notifications
 "
 Website
