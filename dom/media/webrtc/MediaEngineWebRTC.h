@@ -1400,8 +1400,6 @@ mDeviceNames
 >
 AppendElement
 (
-strdup
-(
 devices
 -
 >
@@ -1412,7 +1410,6 @@ i
 -
 >
 device_id
-)
 )
 ;
 }
