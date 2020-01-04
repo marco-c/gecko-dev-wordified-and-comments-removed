@@ -184,7 +184,7 @@ aNewID
 )
 ;
 enum
-frameType
+FrameType
 {
 FRAME_TYPE_DATA
 =

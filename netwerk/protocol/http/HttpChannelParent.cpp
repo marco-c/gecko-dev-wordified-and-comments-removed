@@ -2159,7 +2159,7 @@ secInfo
 else
 {
 nsLoadFlags
-loadFlags
+newLoadFlags
 ;
 mChannel
 -
@@ -2167,10 +2167,10 @@ mChannel
 GetLoadFlags
 (
 &
-loadFlags
+newLoadFlags
 )
 ;
-loadFlags
+newLoadFlags
 |
 =
 nsIChannel
@@ -2183,7 +2183,7 @@ mChannel
 >
 SetLoadFlags
 (
-loadFlags
+newLoadFlags
 )
 ;
 }

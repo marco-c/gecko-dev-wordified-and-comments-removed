@@ -1094,7 +1094,6 @@ IsEmpty
 )
 )
 {
-nsresult
 rv
 =
 NS_NewURI
@@ -1141,7 +1140,6 @@ if
 equal
 )
 {
-nsresult
 rv
 =
 mChannel

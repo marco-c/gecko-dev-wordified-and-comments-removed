@@ -2737,7 +2737,7 @@ mPushBackLen
 )
 {
 nsHttpPushBackWriter
-writer
+pushBackWriter
 (
 mPushBackBuf
 mPushBackLen
@@ -2777,7 +2777,7 @@ rv
 WriteSegments
 (
 &
-writer
+pushBackWriter
 len
 &
 n
