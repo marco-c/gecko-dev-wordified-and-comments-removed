@@ -3003,7 +3003,6 @@ window
 .
 scrollMinY
 ;
-}
 let
 scrollbarHeight
 =
@@ -3039,6 +3038,7 @@ scrollbarHeight
 .
 value
 ;
+}
 return
 {
 width
