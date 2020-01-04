@@ -6675,6 +6675,8 @@ return
 NS_STYLE_HINT_FRAMECHANGE
 |
 nsChangeHint_UpdateSubtreeOverflow
+|
+nsChangeHint_NeutralChange
 ;
 }
 static
