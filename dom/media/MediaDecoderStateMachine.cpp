@@ -9300,6 +9300,9 @@ mMediaSink
 >
 Redraw
 (
+mInfo
+.
+mVideo
 )
 ;
 }
@@ -9742,6 +9745,9 @@ mMediaSink
 >
 Redraw
 (
+mInfo
+.
+mVideo
 )
 ;
 mOnPlaybackEvent
