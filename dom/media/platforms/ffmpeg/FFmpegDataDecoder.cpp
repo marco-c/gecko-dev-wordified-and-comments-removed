@@ -52,7 +52,7 @@ h
 #
 include
 "
-FFmpegDecoderModule
+FFmpegRuntimeLinker
 .
 h
 "
@@ -357,10 +357,7 @@ uint32_t
 major
 minor
 ;
-FFmpegDecoderModule
-<
-LIBAV_VER
->
+FFmpegRuntimeLinker
 :
 :
 GetVersion
