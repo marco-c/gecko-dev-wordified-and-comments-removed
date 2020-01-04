@@ -27046,10 +27046,7 @@ prior
 =
 key
 ;
-js
-:
-:
-UnsafeTraceManuallyBarrieredEdge
+JS_CallUnbarrieredStringTracer
 (
 trc
 &
