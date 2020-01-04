@@ -2676,6 +2676,8 @@ BrowserFrameOpenWindow
 (
 PBrowser
 opener
+PRenderFrame
+renderFrame
 nsString
 aURL
 nsString
@@ -2687,6 +2689,10 @@ returns
 (
 bool
 windowOpened
+TextureFactoryIdentifier
+textureFactoryIdentifier
+uint64_t
+layersId
 )
 ;
 /

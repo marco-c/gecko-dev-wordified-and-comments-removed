@@ -3995,6 +3995,7 @@ newChild
 SendBrowserFrameOpenWindow
 (
 aTabOpener
+renderFrame
 NS_ConvertUTF8toUTF16
 (
 url
@@ -4005,6 +4006,10 @@ NS_ConvertUTF8toUTF16
 features
 )
 aWindowIsNew
+&
+textureFactoryIdentifier
+&
+layersId
 )
 ;
 }

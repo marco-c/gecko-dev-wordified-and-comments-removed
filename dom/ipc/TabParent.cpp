@@ -12330,6 +12330,9 @@ RecvBrowserFrameOpenWindow
 PBrowserParent
 *
 aOpener
+PRenderFrameParent
+*
+aRenderFrame
 const
 nsString
 &
@@ -12345,6 +12348,12 @@ aFeatures
 bool
 *
 aOutWindowOpened
+TextureFactoryIdentifier
+*
+aTextureFactoryIdentifier
+uint64_t
+*
+aLayersId
 )
 {
 BrowserElementParent
@@ -12366,9 +12375,12 @@ GetFrom
 aOpener
 )
 this
+aRenderFrame
 aURL
 aName
 aFeatures
+aTextureFactoryIdentifier
+aLayersId
 )
 ;
 *
