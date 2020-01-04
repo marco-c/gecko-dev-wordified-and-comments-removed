@@ -1453,6 +1453,12 @@ virtual
 void
 UpdateSinkIdentity_m
 (
+dom
+:
+:
+MediaStreamTrack
+*
+track
 nsIPrincipal
 *
 principal
