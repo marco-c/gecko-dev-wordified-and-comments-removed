@@ -75,8 +75,16 @@ function
 )
 {
 yield
-pushPrefs
+SpecialPowers
+.
+pushPrefEnv
 (
+{
+"
+set
+"
+:
+[
 [
 "
 browser
@@ -87,6 +95,8 @@ dontfocusfordialogs
 "
 true
 ]
+]
+}
 )
 ;
 let
