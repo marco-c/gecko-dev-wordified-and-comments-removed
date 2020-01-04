@@ -6256,8 +6256,6 @@ walk
 but
 yield
         
-three
--
 tuple
 containing
 the
@@ -6293,29 +6291,6 @@ the
                        
 destination
 file
-.
-        
--
-flags
--
-A
-dictionary
-of
-flags
-associated
-with
-the
-current
-string
-                       
-or
-None
-if
-there
-is
-no
-such
-dictionary
 .
         
 "
@@ -6375,12 +6350,6 @@ s
 yield
 source
 dest
-strings
-.
-flags_for
-(
-s
-)
     
 def
 _process_defines
@@ -6490,7 +6459,6 @@ return
 for
 source
 dest
-_
 in
 self
 .
@@ -6791,7 +6759,6 @@ backend_file
 for
 source
 dest
-flags
 in
 self
 .
@@ -6801,33 +6768,6 @@ obj
 files
 )
 :
-            
-if
-flags
-and
-flags
-.
-source
-:
-                
-source
-=
-mozpath
-.
-normpath
-(
-mozpath
-.
-join
-(
-obj
-.
-srcdir
-flags
-.
-source
-)
-)
             
 if
 not
