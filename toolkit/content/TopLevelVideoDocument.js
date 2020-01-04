@@ -92,12 +92,12 @@ if
 !
 document
 .
-fullscreenElement
+mozFullScreenElement
 )
 {
 videoElement
 .
-requestFullscreen
+mozRequestFullScreen
 (
 )
 ;
@@ -106,7 +106,7 @@ else
 {
 document
 .
-exitFullscreen
+mozCancelFullScreen
 (
 )
 ;
