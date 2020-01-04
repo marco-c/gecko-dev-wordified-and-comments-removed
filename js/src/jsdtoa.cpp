@@ -103,6 +103,9 @@ define
 NO_ERRNO
 #
 define
+Omit_Private_Memory
+#
+define
 MALLOC
 dtoa_malloc
 #
