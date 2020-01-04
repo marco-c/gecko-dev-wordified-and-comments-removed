@@ -349,6 +349,11 @@ testIsInsideNursery
 cpp
 '
 '
+testIteratorObject
+.
+cpp
+'
+'
 testJSEvaluateScript
 .
 cpp
