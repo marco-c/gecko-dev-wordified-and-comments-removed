@@ -1,5 +1,9 @@
 import
 argparse
+from
+mozlog
+import
+commandline
 def
 add_common_arguments
 (
@@ -2154,6 +2158,13 @@ add_common_arguments
 parser
 )
     
+commandline
+.
+add_logging_group
+(
+parser
+)
+    
 return
 parser
 def
@@ -2202,6 +2213,13 @@ Options
 add_remote_arguments
 (
 remote
+)
+    
+commandline
+.
+add_logging_group
+(
+parser
 )
     
 return
@@ -2269,6 +2287,13 @@ Options
 add_b2g_arguments
 (
 b2g
+)
+    
+commandline
+.
+add_logging_group
+(
+parser
 )
     
 return

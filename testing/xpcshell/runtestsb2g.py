@@ -999,13 +999,6 @@ parser_b2g
 (
 )
     
-commandline
-.
-add_logging_group
-(
-parser
-)
-    
 options
 =
 parser

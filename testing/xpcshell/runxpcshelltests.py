@@ -10307,13 +10307,6 @@ parser_desktop
 (
 )
     
-commandline
-.
-add_logging_group
-(
-parser
-)
-    
 options
 =
 parser
