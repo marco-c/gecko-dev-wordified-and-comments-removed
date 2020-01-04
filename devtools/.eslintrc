@@ -276,7 +276,7 @@ style
 "
 :
 [
-2
+1
 "
 1tbs
 "
@@ -298,7 +298,7 @@ names
 camelcase
 "
 :
-2
+1
 /
 /
 Allow
@@ -345,7 +345,7 @@ spacing
 "
 :
 [
-2
+1
 {
 "
 before
@@ -374,7 +374,7 @@ style
 "
 :
 [
-2
+1
 "
 last
 "
@@ -780,7 +780,7 @@ indent
 "
 :
 [
-2
+1
 2
 {
 "
@@ -1680,7 +1680,7 @@ extra
 semi
 "
 :
-2
+1
 /
 /
 Deprecated
