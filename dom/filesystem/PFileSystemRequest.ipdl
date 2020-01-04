@@ -213,6 +213,16 @@ data
 }
 ;
 struct
+FileSystemFilesResponse
+{
+FileSystemFileResponse
+[
+]
+data
+;
+}
+;
+struct
 FileSystemErrorResponse
 {
 nsresult
@@ -238,6 +248,8 @@ FileSystemDirectoryResponse
 FileSystemDirectoryListingResponse
 ;
 FileSystemFileResponse
+;
+FileSystemFilesResponse
 ;
 FileSystemErrorResponse
 ;

@@ -205,6 +205,11 @@ GetFileOrDirectoryTask
 cpp
 '
 '
+GetFilesTask
+.
+cpp
+'
+'
 OSFileSystem
 .
 cpp
