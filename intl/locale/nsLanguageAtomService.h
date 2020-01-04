@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsUConvPropertySearch
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

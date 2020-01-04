@@ -75,14 +75,9 @@ mozilla
 ;
 static
 const
-char
-*
-const
+nsUConvProp
 kLangGroups
 [
-]
-[
-3
 ]
 =
 {

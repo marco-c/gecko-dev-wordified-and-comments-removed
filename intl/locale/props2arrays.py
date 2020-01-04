@@ -175,16 +175,8 @@ s
 %
 s
 "
-(
-const
-char
-*
-)
-NS_INT32_TO_PTR
-(
 %
 d
-)
 }
 '
              
