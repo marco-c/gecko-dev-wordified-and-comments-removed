@@ -834,6 +834,16 @@ _webkit_box
 )
 CSS_KEY
 (
+-
+webkit
+-
+inline
+-
+box
+_webkit_inline_box
+)
+CSS_KEY
+(
 absolute
 absolute
 )
