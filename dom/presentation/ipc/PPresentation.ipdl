@@ -136,7 +136,9 @@ struct
 StartSessionRequest
 {
 nsString
-url
+[
+]
+urls
 ;
 nsString
 sessionId
@@ -195,7 +197,9 @@ struct
 ReconnectSessionRequest
 {
 nsString
-url
+[
+]
+urls
 ;
 nsString
 sessionId

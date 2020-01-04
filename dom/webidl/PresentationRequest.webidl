@@ -97,6 +97,14 @@ Constructor
 DOMString
 url
 )
+Constructor
+(
+sequence
+<
+DOMString
+>
+urls
+)
 Pref
 =
 "

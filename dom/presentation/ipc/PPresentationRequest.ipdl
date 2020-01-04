@@ -137,6 +137,13 @@ nsresult
 result
 )
 ;
+async
+NotifyRequestUrlSelected
+(
+nsString
+aUrl
+)
+;
 }
 ;
 }

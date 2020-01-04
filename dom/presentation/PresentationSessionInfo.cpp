@@ -2912,6 +2912,9 @@ mReconnectCallback
 >
 NotifySuccess
 (
+GetUrl
+(
+)
 )
 ;
 }
