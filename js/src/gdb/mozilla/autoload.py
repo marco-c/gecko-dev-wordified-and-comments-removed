@@ -77,6 +77,10 @@ import
 mozilla
 .
 jsval
+import
+mozilla
+.
+unwind
 try
 :
     
@@ -120,4 +124,13 @@ lookup
 replace
 =
 True
+)
+    
+mozilla
+.
+unwind
+.
+register_unwinder
+(
+objfile
 )
