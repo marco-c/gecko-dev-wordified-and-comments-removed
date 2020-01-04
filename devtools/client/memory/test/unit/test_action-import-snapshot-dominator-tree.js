@@ -138,6 +138,8 @@ getState
 )
 .
 view
+.
+state
 viewState
 .
 DOMINATOR_TREE

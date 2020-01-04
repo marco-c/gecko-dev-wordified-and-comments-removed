@@ -6,7 +6,7 @@ strict
 const
 {
 actions
-dominatorTreeDisplays
+labelDisplays
 }
 =
 require
@@ -20,9 +20,9 @@ constants
 )
 ;
 const
-DEFAULT_DOMINATOR_TREE_DISPLAY
+DEFAULT_LABEL_DISPLAY
 =
-dominatorTreeDisplays
+labelDisplays
 .
 coarseType
 ;
@@ -40,7 +40,7 @@ handlers
 [
 actions
 .
-SET_DOMINATOR_TREE_DISPLAY
+SET_LABEL_DISPLAY
 ]
 =
 function
@@ -64,7 +64,7 @@ function
 (
 state
 =
-DEFAULT_DOMINATOR_TREE_DISPLAY
+DEFAULT_LABEL_DISPLAY
 action
 )
 {

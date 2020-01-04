@@ -29,7 +29,7 @@ DevToolsUtils
 ;
 const
 {
-dominatorTreeDisplays
+labelDisplays
 treeMapDisplays
 censusDisplays
 }
@@ -465,7 +465,7 @@ display
 =
 =
 =
-dominatorTreeDisplays
+labelDisplays
 .
 coarseType
 )
@@ -485,7 +485,7 @@ display
 =
 =
 =
-dominatorTreeDisplays
+labelDisplays
 .
 allocationStack
 )

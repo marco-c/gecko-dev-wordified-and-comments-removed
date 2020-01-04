@@ -442,6 +442,13 @@ event
 }
 )
 ;
+var
+waitForTime
+=
+DevToolsUtils
+.
+waitForTime
+;
 function
 getFrameScript
 (

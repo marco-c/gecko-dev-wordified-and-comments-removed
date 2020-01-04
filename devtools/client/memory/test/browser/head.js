@@ -1020,8 +1020,7 @@ info
 (
 Waiting
 for
-snapshots
-'
+snapshot
 censuses
 to
 be

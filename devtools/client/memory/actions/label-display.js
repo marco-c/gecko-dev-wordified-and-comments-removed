@@ -50,7 +50,7 @@ refresh
 ;
 exports
 .
-setDominatorTreeDisplayAndRefresh
+setLabelDisplayAndRefresh
 =
 function
 (
@@ -68,7 +68,7 @@ getState
 {
 dispatch
 (
-setDominatorTreeDisplay
+setLabelDisplay
 (
 display
 )
@@ -88,11 +88,11 @@ heapWorker
 }
 ;
 const
-setDominatorTreeDisplay
+setLabelDisplay
 =
 exports
 .
-setDominatorTreeDisplay
+setLabelDisplay
 =
 function
 (
@@ -153,7 +153,7 @@ type
 :
 actions
 .
-SET_DOMINATOR_TREE_DISPLAY
+SET_LABEL_DISPLAY
 display
 }
 ;
