@@ -320,7 +320,7 @@ rect
 =
 mCoordinateConverter
 .
-DevPixelsToCocoaPoints
+UntypedDevPixelsToCocoaPoints
 (
 *
 iterRect
@@ -595,7 +595,7 @@ NSRectFill
 (
 mCoordinateConverter
 .
-DevPixelsToCocoaPoints
+UntypedDevPixelsToCocoaPoints
 (
 *
 rect
