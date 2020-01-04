@@ -306,10 +306,6 @@ try
 esac
 ;
 ;
-b2g
--
-inbound
-|
 mozilla
 -
 inbound
