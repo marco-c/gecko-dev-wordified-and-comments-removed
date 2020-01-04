@@ -385,6 +385,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 var
@@ -1928,6 +1929,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 var
@@ -3128,6 +3130,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 this
@@ -3629,6 +3632,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 var
@@ -3892,6 +3896,7 @@ tool
 .
 init
 (
+pdfjsLib
 )
 ;
 }
