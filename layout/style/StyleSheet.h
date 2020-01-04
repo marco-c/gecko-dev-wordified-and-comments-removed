@@ -69,6 +69,17 @@ mParsingMode
 aParsingMode
 ;
 }
+nsINode
+*
+GetOwnerNode
+(
+)
+const
+{
+return
+mOwningNode
+;
+}
 protected
 :
 nsINode
