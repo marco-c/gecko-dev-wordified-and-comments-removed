@@ -18590,6 +18590,16 @@ pref
 "
 dom
 .
+global_stop_script
+"
+true
+)
+;
+pref
+(
+"
+dom
+.
 archivereader
 .
 enabled
