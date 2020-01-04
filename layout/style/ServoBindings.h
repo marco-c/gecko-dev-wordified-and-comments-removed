@@ -449,6 +449,11 @@ ServoComputedValues
 )
 ;
 void
+Servo_Initialize
+(
+)
+;
+void
 Servo_RestyleDocument
 (
 RawGeckoDocument
