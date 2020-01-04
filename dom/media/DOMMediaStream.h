@@ -430,6 +430,17 @@ aTrackID
 )
 const
 ;
+TrackPort
+*
+FindPlaybackTrackPort
+(
+const
+MediaStreamTrack
+&
+aTrack
+)
+const
+;
 MediaStream
 *
 GetInputStream
