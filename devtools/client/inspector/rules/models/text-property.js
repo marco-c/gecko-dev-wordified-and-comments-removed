@@ -212,6 +212,8 @@ rule
 .
 elementStyle
 .
+ruleView
+.
 dummyElement
 ;
 let

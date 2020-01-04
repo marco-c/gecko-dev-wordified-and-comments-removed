@@ -96,6 +96,13 @@ MPL
 DevToolsModules
 (
 '
+element
+-
+style
+.
+js
+'
+'
 rule
 .
 js
