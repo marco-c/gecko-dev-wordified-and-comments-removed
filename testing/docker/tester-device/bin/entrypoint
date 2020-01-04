@@ -79,7 +79,14 @@ null
 ;
 then
 echo
+"
+[
+taskcluster
+:
 error
+]
+error
+"
 exit
 -
 1
