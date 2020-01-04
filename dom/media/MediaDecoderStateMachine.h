@@ -2517,9 +2517,6 @@ OwnerThread
 TimeStamp
 mPlayStartTime
 ;
-int64_t
-mPlayDuration
-;
 TimeStamp
 mBufferingStart
 ;
