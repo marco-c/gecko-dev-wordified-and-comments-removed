@@ -728,6 +728,8 @@ subprocess
 try
 :
 return
+Version
+(
 subprocess
 .
 check_output
@@ -743,6 +745,7 @@ print
 ]
 '
 ]
+)
 )
 except
 subprocess
