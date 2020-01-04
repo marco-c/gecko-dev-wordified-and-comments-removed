@@ -1449,12 +1449,6 @@ AllowScrollHandoffInCurrentBlock
 )
 const
 ;
-void
-AcknowledgeScrollUpdate
-(
-)
-const
-;
 public
 :
 void
