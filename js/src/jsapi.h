@@ -19952,6 +19952,11 @@ unsigned
 lineno
 =
 nullptr
+unsigned
+*
+column
+=
+nullptr
 )
 ;
 extern
