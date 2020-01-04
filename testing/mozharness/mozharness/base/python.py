@@ -4404,9 +4404,6 @@ suites
             
 }
             
-try
-:
-                
 schema_path
 =
 os
@@ -4416,7 +4413,7 @@ path
 join
 (
 external_tools_path
-                                           
+                                       
 '
 performance
 -
@@ -4427,7 +4424,7 @@ schema
 json
 '
 )
-                
+            
 with
 open
 (
@@ -4439,7 +4436,7 @@ rb
 as
 fh
 :
-                    
+                
 schema
 =
 json
@@ -4448,7 +4445,7 @@ load
 (
 fh
 )
-                
+            
 self
 .
 info
@@ -4464,7 +4461,7 @@ s
 %
 schema_path
 )
-                
+            
 jsonschema
 .
 validate
@@ -4473,28 +4470,6 @@ data
 schema
 )
             
-except
-Exception
-:
-                
-self
-.
-exception
-(
-'
-error
-while
-validating
-Perfherder
-data
-;
-ignoring
-'
-)
-            
-else
-:
-                
 self
 .
 info
