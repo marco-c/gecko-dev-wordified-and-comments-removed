@@ -181,6 +181,13 @@ MediaStreamTrackSource
 ;
 }
 virtual
+void
+Destroy
+(
+)
+{
+}
+virtual
 MediaSourceEnum
 GetMediaSource
 (
