@@ -413,14 +413,14 @@ AsyncMessage
 (
 nsString
 aMessage
-ClonedMessageData
-aData
 CpowEntry
 [
 ]
 aCpows
 Principal
 aPrincipal
+ClonedMessageData
+aData
 )
 ;
 }

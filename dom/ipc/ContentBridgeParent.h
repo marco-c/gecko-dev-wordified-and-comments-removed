@@ -305,10 +305,6 @@ const
 nsString
 &
 aMsg
-const
-ClonedMessageData
-&
-aData
 InfallibleTArray
 <
 jsipc
@@ -326,6 +322,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+ClonedMessageData
+&
+aData
 )
 override
 ;
