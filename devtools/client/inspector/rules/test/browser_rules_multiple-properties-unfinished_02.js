@@ -59,6 +59,17 @@ openRuleView
 (
 )
 ;
+view
+.
+throttle
+=
+(
+)
+=
+>
+{
+}
+;
 yield
 selectNode
 (

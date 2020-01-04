@@ -255,6 +255,7 @@ const
 {
 createChild
 promiseWarn
+throttle
 }
 =
 require
@@ -881,6 +882,12 @@ this
 pageStyle
 =
 pageStyle
+;
+this
+.
+throttle
+=
+throttle
 ;
 this
 .

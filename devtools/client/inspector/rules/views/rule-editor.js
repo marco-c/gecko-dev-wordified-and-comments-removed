@@ -987,6 +987,13 @@ done
 this
 .
 _onSelectorDone
+cssProperties
+:
+this
+.
+rule
+.
+cssProperties
 }
 )
 ;
@@ -2505,6 +2512,13 @@ this
 ruleView
 .
 popup
+cssProperties
+:
+this
+.
+rule
+.
+cssProperties
 }
 )
 ;
