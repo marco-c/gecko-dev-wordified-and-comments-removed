@@ -14751,6 +14751,10 @@ not
 static
 and
             
+not
+unforgeable
+and
+            
 maplikeOrSetlikeOrIterable
 and
             
@@ -14983,7 +14987,7 @@ ArrayForEach
 length
 "
 :
-0
+1
                 
 "
 flags
