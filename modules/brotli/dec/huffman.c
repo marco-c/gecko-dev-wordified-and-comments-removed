@@ -397,7 +397,7 @@ if
 (
 offset
 [
-0
+BROTLI_HUFFMAN_MAX_CODE_LENGTH_CODE_LENGTH
 ]
 =
 =

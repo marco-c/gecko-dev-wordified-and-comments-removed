@@ -22,9 +22,6 @@ o
 decode
 .
 o
-dictionary
-.
-o
 huffman
 .
 o
