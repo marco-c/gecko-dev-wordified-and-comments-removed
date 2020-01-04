@@ -855,6 +855,7 @@ function
 name
 value
 priority
+enabled
 siblingProp
 )
 {
@@ -868,6 +869,7 @@ this
 name
 value
 priority
+enabled
 )
 ;
 let

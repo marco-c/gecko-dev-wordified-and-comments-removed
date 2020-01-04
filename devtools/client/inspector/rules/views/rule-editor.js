@@ -2068,6 +2068,7 @@ function
 name
 value
 priority
+enabled
 siblingProp
 )
 {
@@ -2083,6 +2084,7 @@ createProperty
 name
 value
 priority
+enabled
 siblingProp
 )
 ;
@@ -2169,6 +2171,22 @@ of
 properties
 )
 {
+let
+isCommented
+=
+Boolean
+(
+p
+.
+commentOffsets
+)
+;
+let
+enabled
+=
+!
+isCommented
+;
 lastProp
 =
 this
@@ -2184,6 +2202,7 @@ value
 p
 .
 priority
+enabled
 lastProp
 )
 ;
@@ -2412,6 +2431,7 @@ multipleAddedProperties
 parseDeclarations
 (
 value
+true
 )
 .
 filter
