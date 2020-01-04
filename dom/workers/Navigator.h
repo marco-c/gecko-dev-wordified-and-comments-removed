@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_navigator_h__
+mozilla_dom_workers_navigator_h__
 #
 define
-mozilla_dom_navigator_h__
+mozilla_dom_workers_navigator_h__
 #
 include
 "
@@ -52,6 +52,9 @@ dom
 class
 Promise
 ;
+}
+}
+BEGIN_WORKERS_NAMESPACE
 class
 WorkerNavigator
 final
@@ -61,9 +64,6 @@ nsWrapperCache
 {
 typedef
 struct
-workers
-:
-:
 RuntimeService
 :
 :
@@ -374,7 +374,6 @@ aRv
 ;
 }
 ;
-}
-}
+END_WORKERS_NAMESPACE
 #
 endif

@@ -1,11 +1,7 @@
 #
 include
 "
-mozilla
-/
-dom
-/
-WorkerNavigator
+DataStore
 .
 h
 "
@@ -78,7 +74,7 @@ h
 #
 include
 "
-DataStore
+Navigator
 .
 h
 "
@@ -124,12 +120,7 @@ WorkerScope
 .
 h
 "
-namespace
-mozilla
-{
-namespace
-dom
-{
+BEGIN_WORKERS_NAMESPACE
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
 WorkerNavigator
@@ -231,7 +222,7 @@ aGivenProto
 )
 {
 return
-WorkerNavigatorBinding
+WorkerNavigatorBinding_workers
 :
 :
 Wrap
@@ -1205,7 +1196,7 @@ nsString
 aLanguages
 )
 {
-WorkerNavigatorBinding
+WorkerNavigatorBinding_workers
 :
 :
 ClearCachedLanguagesValue
@@ -1643,5 +1634,4 @@ aRv
 )
 ;
 }
-}
-}
+END_WORKERS_NAMESPACE
