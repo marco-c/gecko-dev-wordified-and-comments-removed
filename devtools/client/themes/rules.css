@@ -1138,7 +1138,7 @@ firebug
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 >
 .
 ruleview
@@ -1187,7 +1187,7 @@ firebug
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 >
 .
 ruleview
@@ -1302,7 +1302,7 @@ checked
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 .
 theme
 -
@@ -1322,7 +1322,7 @@ checked
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 *
 {
 color
