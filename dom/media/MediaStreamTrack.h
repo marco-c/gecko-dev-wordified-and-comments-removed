@@ -337,6 +337,8 @@ DOMMediaStream
 aStream
 TrackID
 aTrackID
+TrackID
+aInputTrackID
 const
 nsString
 &
@@ -404,6 +406,16 @@ const
 {
 return
 mTrackID
+;
+}
+TrackID
+GetInputTrackID
+(
+)
+const
+{
+return
+mInputTrackID
 ;
 }
 virtual
