@@ -283,11 +283,6 @@ gfxSVGGlyphs
 h
 '
 '
-gfxTeeSurface
-.
-h
-'
-'
 gfxTextRun
 .
 h
@@ -1305,11 +1300,6 @@ cpp
 '
 '
 gfxSVGGlyphs
-.
-cpp
-'
-'
-gfxTeeSurface
 .
 cpp
 '

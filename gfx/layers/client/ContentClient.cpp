@@ -54,13 +54,6 @@ h
 #
 include
 "
-gfxTeeSurface
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
