@@ -1543,6 +1543,18 @@ exit
 1
 )
     
+try
+:
+        
+import
+mach
+.
+main
+    
+except
+ImportError
+:
+        
 sys
 .
 path
@@ -1567,7 +1579,7 @@ path
 in
 SEARCH_PATHS
 ]
-    
+        
 import
 mach
 .
