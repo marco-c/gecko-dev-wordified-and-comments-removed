@@ -40,6 +40,11 @@ orient
 "
 vertical
 "
+noautofocus
+=
+"
+true
+"
 role
 =
 "
