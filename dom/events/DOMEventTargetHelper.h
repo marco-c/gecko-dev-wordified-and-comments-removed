@@ -277,8 +277,13 @@ dom
 EventListener
 *
 aListener
-bool
-aCapture
+const
+dom
+:
+:
+AddEventListenerOptionsOrBoolean
+&
+aOptions
 const
 dom
 :
