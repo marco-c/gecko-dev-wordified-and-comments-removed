@@ -6366,9 +6366,9 @@ GetDocument
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMCustomEvent
+CustomEvent
 >
 event
 =

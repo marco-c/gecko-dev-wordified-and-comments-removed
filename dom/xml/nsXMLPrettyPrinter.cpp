@@ -839,14 +839,7 @@ rootCont
 >
 DispatchEvent
 (
-static_cast
-<
-Event
-*
->
-(
 event
-)
 &
 dummy
 )
