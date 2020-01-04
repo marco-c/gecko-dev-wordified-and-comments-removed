@@ -112,7 +112,7 @@ home
 /
 worker
 /
-workspace
+checkouts
 /
 gecko
 -
@@ -128,7 +128,7 @@ home
 /
 worker
 /
-workspace
+checkouts
 /
 gecko
 &

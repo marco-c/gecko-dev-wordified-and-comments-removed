@@ -193,7 +193,7 @@ level
 }
 }
 -
-workspace
+checkouts
 '
 payload
 :
@@ -241,7 +241,7 @@ level
 }
 }
 -
-workspace
+checkouts
 :
 '
 /
@@ -249,7 +249,7 @@ home
 /
 worker
 /
-workspace
+checkouts
 '
 env
 :
