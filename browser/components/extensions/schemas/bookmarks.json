@@ -2406,6 +2406,11 @@ name
 removeTree
 "
 "
+unsupported
+"
+:
+true
+"
 type
 "
 :
