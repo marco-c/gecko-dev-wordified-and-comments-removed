@@ -751,7 +751,9 @@ url
 ;
 tabPromise
 =
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 gBrowser
 .

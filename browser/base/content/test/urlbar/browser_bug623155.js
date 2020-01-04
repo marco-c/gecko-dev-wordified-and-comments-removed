@@ -20,7 +20,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 "
 +

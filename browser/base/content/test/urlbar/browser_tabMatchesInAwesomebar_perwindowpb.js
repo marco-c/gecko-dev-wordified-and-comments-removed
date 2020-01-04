@@ -20,7 +20,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 dummy_page
 .
@@ -238,7 +238,9 @@ window
 )
 ;
 yield
-promiseWaitForFocus
+SimpleTest
+.
+promiseFocus
 (
 aDestWindow
 )

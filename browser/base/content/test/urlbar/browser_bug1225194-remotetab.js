@@ -28,7 +28,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 dummy_page
 .

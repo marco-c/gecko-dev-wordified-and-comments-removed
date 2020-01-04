@@ -351,7 +351,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 authenticate
 .
@@ -384,7 +384,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 authenticate
 .
@@ -421,7 +421,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 authenticate
 .
