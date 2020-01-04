@@ -7636,6 +7636,6 @@ tabs
 .
 showAudioPlayingIcon
 "
-false
+true
 )
 ;
