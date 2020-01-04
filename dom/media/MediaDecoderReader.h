@@ -275,16 +275,6 @@ aCloneDonor
 0
 ;
 virtual
-bool
-IsWaitingMediaResources
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 ReleaseMediaResources
 (
