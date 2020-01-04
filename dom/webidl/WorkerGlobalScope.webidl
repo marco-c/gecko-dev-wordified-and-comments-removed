@@ -191,15 +191,6 @@ attribute
 WorkerGlobalScope
 self
 ;
-[
-Throws
-Replaceable
-]
-readonly
-attribute
-Console
-console
-;
 readonly
 attribute
 WorkerLocation
