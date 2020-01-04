@@ -858,6 +858,12 @@ aMin
 aLine
 >
 aMax
+|
+|
+aMin
+=
+=
+aMax
 )
 {
 return
