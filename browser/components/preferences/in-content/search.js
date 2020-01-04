@@ -3267,7 +3267,6 @@ dropIndex
 ;
 }
 else
-{
 if
 (
 orientation
@@ -3277,6 +3276,7 @@ nsITreeView
 .
 DROP_AFTER
 )
+{
 dropIndex
 +
 +

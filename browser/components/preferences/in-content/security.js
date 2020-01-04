@@ -394,8 +394,6 @@ return
 false
 ;
 }
-else
-{
 excepts
 .
 disabled
@@ -408,7 +406,6 @@ value
 return
 undefined
 ;
-}
 }
 showPasswordExceptions
 :

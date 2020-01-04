@@ -2261,6 +2261,9 @@ getSignedInUserProfile
 )
 ;
 }
+return
+null
+;
 }
 )
 .
@@ -3245,7 +3248,7 @@ function
 event
 )
 {
-if
+return
 (
 (
 event
@@ -3300,17 +3303,7 @@ DOM_VK_RETURN
 )
 )
 )
-{
-return
-true
 ;
-}
-else
-{
-return
-false
-;
-}
 }
 openChangeProfileImage
 :

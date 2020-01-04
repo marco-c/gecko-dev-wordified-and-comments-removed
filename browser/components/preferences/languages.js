@@ -340,7 +340,6 @@ e
 continue
 ;
 }
-;
 var
 region
 =

@@ -673,18 +673,6 @@ function
 (
 )
 {
-if
-(
-!
-window
-.
-frameElement
-)
-{
-return
-true
-;
-}
 let
 preferences
 =
@@ -749,6 +737,7 @@ length
 )
 {
 return
+true
 ;
 }
 let

@@ -97,7 +97,6 @@ content
 subdialogs
 .
 js
-*
 content
 /
 browser
@@ -124,7 +123,6 @@ content
 privacy
 .
 js
-*
 content
 /
 browser
@@ -138,7 +136,6 @@ content
 advanced
 .
 js
-*
 content
 /
 browser

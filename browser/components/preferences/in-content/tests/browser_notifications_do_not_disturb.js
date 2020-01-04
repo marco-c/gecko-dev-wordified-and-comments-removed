@@ -31,6 +31,7 @@ tabs
 add_task
 (
 function
+*
 (
 )
 {
