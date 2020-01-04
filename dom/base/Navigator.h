@@ -722,6 +722,11 @@ ErrorResult
 aRv
 )
 ;
+uint64_t
+HardwareConcurrency
+(
+)
+;
 bool
 TaintEnabled
 (
