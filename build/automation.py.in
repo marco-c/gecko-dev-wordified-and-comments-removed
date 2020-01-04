@@ -4073,15 +4073,6 @@ None
 bisectChunk
 =
 None
-valgrindPath
-=
-None
-valgrindArgs
-=
-None
-valgrindSuppFiles
-=
-None
 )
 :
 "

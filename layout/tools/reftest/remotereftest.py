@@ -2800,16 +2800,6 @@ None
 options
 =
 None
-               
-valgrindPath
-=
-None
-valgrindArgs
-=
-None
-valgrindSuppFiles
-=
-None
 )
 :
         
