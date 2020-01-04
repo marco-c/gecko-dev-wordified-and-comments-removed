@@ -18,11 +18,8 @@ opened
 version
 "
 ;
-this
-.
-Telemetry
-=
 function
+Telemetry
 (
 )
 {
@@ -101,7 +98,6 @@ Map
 )
 ;
 }
-;
 module
 .
 exports
