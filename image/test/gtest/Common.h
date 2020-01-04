@@ -241,6 +241,11 @@ GreenICOTestCase
 )
 ;
 ImageTestCase
+GreenIconTestCase
+(
+)
+;
+ImageTestCase
 GreenFirstFrameAnimatedGIFTestCase
 (
 )
