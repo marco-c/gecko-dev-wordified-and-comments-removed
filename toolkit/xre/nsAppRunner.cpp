@@ -20206,6 +20206,9 @@ kE10sDisabledForMacGfx
 5
 }
 ;
+#
+ifdef
+XP_WIN
 const
 char
 *
@@ -20228,6 +20231,8 @@ accessibility
 loadedInLastSession
 "
 ;
+#
+endif
 const
 char
 *
@@ -20245,6 +20250,9 @@ force
 enable
 "
 ;
+#
+ifdef
+XP_WIN
 static
 inline
 uint32_t
@@ -20269,6 +20277,8 @@ usec_per_sec
 )
 ;
 }
+#
+endif
 bool
 mozilla
 :
@@ -20802,6 +20812,14 @@ false
 gBrowserTabsRemoteAutostart
 =
 true
+;
+prefEnabled
+=
+true
+;
+status
+=
+kE10sEnabledByUser
 ;
 }
 mozilla
