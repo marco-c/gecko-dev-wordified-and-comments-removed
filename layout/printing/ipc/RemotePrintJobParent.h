@@ -192,6 +192,14 @@ nsIWebProgressListener
 aListener
 )
 ;
+already_AddRefed
+<
+nsIPrintSettings
+>
+GetPrintSettings
+(
+)
+;
 private
 :
 ~
