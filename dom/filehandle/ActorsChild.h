@@ -243,6 +243,7 @@ mFileHandle
 ;
 public
 :
+explicit
 BackgroundFileHandleChild
 (
 DEBUGONLY
@@ -362,6 +363,7 @@ mActorDestroyed
 ;
 private
 :
+explicit
 BackgroundFileRequestChild
 (
 DEBUGONLY
