@@ -219,6 +219,8 @@ aObject
 nsIPrincipal
 *
 aPrincipal
+bool
+aIsPrivateBrowsing
 nsACString
 &
 aUri
