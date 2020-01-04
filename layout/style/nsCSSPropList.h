@@ -9413,7 +9413,7 @@ mTextAnchor
 )
 eStyleAnimType_EnumU8
 )
-CSS_PROP_SVG
+CSS_PROP_TEXT
 (
 text
 -
@@ -9427,7 +9427,7 @@ VARIANT_HK
 kTextRenderingKTable
 offsetof
 (
-nsStyleSVG
+nsStyleText
 mTextRendering
 )
 eStyleAnimType_EnumU8

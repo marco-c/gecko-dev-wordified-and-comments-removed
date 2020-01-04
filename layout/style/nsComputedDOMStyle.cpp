@@ -28274,7 +28274,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-StyleSVG
+StyleText
 (
 )
 -

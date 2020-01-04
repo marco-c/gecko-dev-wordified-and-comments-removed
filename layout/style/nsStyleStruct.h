@@ -7759,6 +7759,9 @@ mTextEmphasisPosition
 uint8_t
 mTextEmphasisStyle
 ;
+uint8_t
+mTextRendering
+;
 int32_t
 mTabSize
 ;
@@ -13004,9 +13007,6 @@ mStrokeLinejoin
 ;
 uint8_t
 mTextAnchor
-;
-uint8_t
-mTextRendering
 ;
 nsStyleSVGOpacitySource
 mFillOpacitySource

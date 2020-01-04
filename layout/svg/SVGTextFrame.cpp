@@ -8383,7 +8383,7 @@ ToAntialiasMode
 mFrame
 -
 >
-StyleSVG
+StyleText
 (
 )
 -
@@ -8526,7 +8526,7 @@ switch
 mFrame
 -
 >
-StyleSVG
+StyleText
 (
 )
 -
@@ -9183,7 +9183,7 @@ ToAntialiasMode
 mFrame
 -
 >
-StyleSVG
+StyleText
 (
 )
 -
@@ -20355,7 +20355,7 @@ geometricPrecision
 f
 -
 >
-StyleSVG
+StyleText
 (
 )
 -

@@ -34489,7 +34489,7 @@ switch
 aStyleContext
 -
 >
-StyleSVG
+StyleText
 (
 )
 -
