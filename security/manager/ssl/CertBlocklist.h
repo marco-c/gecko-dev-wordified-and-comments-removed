@@ -311,6 +311,10 @@ sLastBlocklistUpdate
 ;
 static
 uint32_t
+sLastKintoUpdate
+;
+static
+uint32_t
 sMaxStaleness
 ;
 static
