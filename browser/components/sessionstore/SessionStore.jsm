@@ -9089,6 +9089,8 @@ tabbrowser
 .
 addTab
 (
+null
+state
 )
 ;
 this
