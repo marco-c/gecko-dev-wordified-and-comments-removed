@@ -126,6 +126,11 @@ VPXDecoder
 h
 '
 '
+MediaTelemetryConstants
+.
+h
+'
+'
 PDMFactory
 .
 h
