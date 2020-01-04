@@ -10,6 +10,8 @@ libstagefright
 /
 binding
 /
+mp4parse
+/
 byteorder
 /
 mod
@@ -22,6 +24,8 @@ media
 libstagefright
 /
 binding
+/
+mp4parse
 /
 byteorder
 /
@@ -45,6 +49,8 @@ libstagefright
 /
 binding
 /
+mp4parse
+/
 byteorder
 /
 mod
@@ -60,6 +66,8 @@ media
 libstagefright
 /
 binding
+/
+mp4parse
 /
 byteorder
 /
@@ -272,6 +280,8 @@ libstagefright
 /
 binding
 /
+mp4parse
+/
 byteorder
 /
 new
@@ -284,6 +294,8 @@ media
 libstagefright
 /
 binding
+/
+mp4parse
 /
 byteorder
 /
@@ -307,6 +319,8 @@ libstagefright
 /
 binding
 /
+mp4parse
+/
 byteorder
 /
 new
@@ -322,6 +336,8 @@ media
 libstagefright
 /
 binding
+/
+mp4parse
 /
 byteorder
 /

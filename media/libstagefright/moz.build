@@ -763,7 +763,9 @@ SOURCES
 '
 binding
 /
-MP4Metadata
+mp4parse
+/
+lib
 .
 rs
 '
