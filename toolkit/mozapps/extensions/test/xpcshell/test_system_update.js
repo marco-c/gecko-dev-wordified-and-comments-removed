@@ -1284,6 +1284,13 @@ addon
 hidden
 )
 ;
+do_check_true
+(
+addon
+.
+isSystem
+)
+;
 let
 file
 =
