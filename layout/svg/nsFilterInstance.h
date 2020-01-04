@@ -231,9 +231,9 @@ PaintFilteredFrame
 nsIFrame
 *
 aFilteredFrame
-gfxContext
-&
-aContext
+DrawTarget
+*
+aDrawTarget
 const
 gfxMatrix
 &
@@ -359,9 +359,9 @@ mInitialized
 nsresult
 Render
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 ;
 const
