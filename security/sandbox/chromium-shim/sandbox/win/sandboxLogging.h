@@ -108,7 +108,7 @@ wchar_t
 *
 aContext
 uint16_t
-aLength
+aLengthInBytes
 )
 ;
 void
@@ -151,7 +151,7 @@ wchar_t
 *
 aContext
 uint16_t
-aLength
+aLengthInBytes
 )
 ;
 }

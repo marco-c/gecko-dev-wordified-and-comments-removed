@@ -270,7 +270,7 @@ wchar_t
 *
 aContext
 uint16_t
-aLength
+aLengthInBytes
 )
 {
 if
@@ -292,7 +292,12 @@ std
 wstring
 (
 aContext
-aLength
+aLengthInBytes
+/
+sizeof
+(
+wchar_t
+)
 )
 )
 .
@@ -384,7 +389,7 @@ wchar_t
 *
 aContext
 uint16_t
-aLength
+aLengthInBytes
 )
 {
 if
@@ -406,7 +411,12 @@ std
 wstring
 (
 aContext
-aLength
+aLengthInBytes
+/
+sizeof
+(
+wchar_t
+)
 )
 )
 .
