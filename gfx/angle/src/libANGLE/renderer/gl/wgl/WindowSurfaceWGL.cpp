@@ -86,6 +86,8 @@ const
 FunctionsWGL
 *
 functions
+EGLint
+orientation
 )
 :
 SurfaceGL
@@ -117,6 +119,14 @@ mSwapBehavior
 0
 )
 {
+ASSERT
+(
+orientation
+=
+=
+0
+)
+;
 }
 WindowSurfaceWGL
 :

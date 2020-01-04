@@ -80,9 +80,13 @@ window
 EGLint
 fixedSize
 EGLint
+directComposition
+EGLint
 width
 EGLint
 height
+EGLint
+orientation
 )
 ;
 static
@@ -325,6 +329,10 @@ EGLint
 height
 EGLint
 fixedSize
+EGLint
+orientation
+EGLint
+directComposition
 EGLClientBuffer
 shareHandle
 EGLNativeWindowType
@@ -384,6 +392,9 @@ mDisplay
 ;
 bool
 mFixedSize
+;
+GLint
+mOrientation
 ;
 GLenum
 mRenderTargetFormat
