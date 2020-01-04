@@ -150,6 +150,13 @@ thread
 js
 '
 '
+browser
+-
+menus
+.
+js
+'
+'
 devtools
 -
 browser
