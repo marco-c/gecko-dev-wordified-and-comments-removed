@@ -1034,7 +1034,7 @@ void
 SoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
