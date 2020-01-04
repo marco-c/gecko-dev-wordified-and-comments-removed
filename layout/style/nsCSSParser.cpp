@@ -24692,7 +24692,7 @@ endif
 CSSPseudoClassType
 :
 :
-notPseudo
+negation
 =
 =
 pseudoClassType
@@ -24774,7 +24774,7 @@ parsingPseudoElement
 CSSPseudoClassType
 :
 :
-notPseudo
+negation
 =
 =
 pseudoClassType
