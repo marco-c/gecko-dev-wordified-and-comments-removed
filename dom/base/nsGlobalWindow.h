@@ -7809,10 +7809,6 @@ PopupControlState
 void
 FireAbuseEvents
 (
-bool
-aBlocked
-bool
-aWindow
 const
 nsAString
 &
