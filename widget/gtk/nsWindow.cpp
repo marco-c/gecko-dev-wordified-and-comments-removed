@@ -5591,6 +5591,11 @@ defined
 (
 MOZ_ENABLE_STARTUP_NOTIFICATION
 )
+if
+(
+mIsX11Display
+)
+{
 GdkWindow
 *
 gdkWindow
@@ -5707,6 +5712,7 @@ sn_display_unref
 snd
 )
 ;
+}
 #
 endif
 GTKToolkit
