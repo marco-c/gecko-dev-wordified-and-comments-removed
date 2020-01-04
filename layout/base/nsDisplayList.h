@@ -5553,17 +5553,11 @@ const
 void
 SortByZOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 ;
 void
 SortByContentOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIContent
 *
 aCommonAncestor
@@ -5572,9 +5566,6 @@ aCommonAncestor
 void
 SortByCSSOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 ;
 typedef
@@ -5598,9 +5589,6 @@ aClosure
 void
 Sort
 (
-nsDisplayListBuilder
-*
-aBuilder
 SortLEQ
 aCmp
 void
@@ -6106,9 +6094,6 @@ mLists
 void
 SortAllByContentOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIContent
 *
 aCommonAncestor
@@ -6137,7 +6122,6 @@ i
 .
 SortByContentOrder
 (
-aBuilder
 aCommonAncestor
 )
 ;

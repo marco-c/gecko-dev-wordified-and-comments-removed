@@ -849,7 +849,6 @@ set
 .
 SortAllByContentOrder
 (
-aBuilder
 GetContent
 (
 )
