@@ -11218,7 +11218,7 @@ agentSheets
 presShell
 -
 >
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -11872,7 +11872,7 @@ rv
 presShell
 -
 >
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;

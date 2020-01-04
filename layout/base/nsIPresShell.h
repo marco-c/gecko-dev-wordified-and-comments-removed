@@ -1025,7 +1025,7 @@ GetAuthorStyleDisabled
 const
 ;
 void
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;

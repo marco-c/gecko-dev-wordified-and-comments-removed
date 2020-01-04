@@ -12880,7 +12880,7 @@ sheet
 ps
 -
 >
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -13036,7 +13036,7 @@ sheet
 ps
 -
 >
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;

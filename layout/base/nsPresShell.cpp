@@ -6254,7 +6254,7 @@ SetAuthorStyleDisabled
 aStyleDisabled
 )
 ;
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -6621,7 +6621,7 @@ EndUpdate
 (
 )
 ;
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -6682,7 +6682,7 @@ Agent
 sheet
 )
 ;
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -6775,7 +6775,7 @@ sheet
 )
 ;
 }
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -6835,7 +6835,7 @@ aType
 sheet
 )
 ;
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -10419,7 +10419,7 @@ IsEmpty
 (
 )
 )
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;
@@ -19016,7 +19016,7 @@ void
 nsIPresShell
 :
 :
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 {
