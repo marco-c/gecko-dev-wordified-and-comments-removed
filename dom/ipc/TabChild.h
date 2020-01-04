@@ -1060,12 +1060,6 @@ aChromeFlags
 )
 ;
 bool
-IsRootContentDocument
-(
-)
-const
-;
-bool
 IsDestroyed
 (
 )

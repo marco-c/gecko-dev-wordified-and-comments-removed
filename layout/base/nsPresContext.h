@@ -3190,11 +3190,6 @@ IsRootContentDocument
 const
 ;
 bool
-IsCrossProcessRootContentDocument
-(
-)
-;
-bool
 IsGlyph
 (
 )
