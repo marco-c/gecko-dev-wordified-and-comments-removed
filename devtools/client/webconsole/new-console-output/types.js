@@ -139,6 +139,9 @@ severity
 "
 log
 "
+stacktrace
+:
+null
 }
 )
 ;

@@ -188,6 +188,13 @@ PropTypes
 object
 .
 isRequired
+onViewSourceInDebugger
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 shouldComponentUpdate
 (
@@ -220,6 +227,7 @@ render
 const
 {
 message
+onViewSourceInDebugger
 }
 =
 this
@@ -242,6 +250,7 @@ MessageComponent
 (
 {
 message
+onViewSourceInDebugger
 }
 )
 ;

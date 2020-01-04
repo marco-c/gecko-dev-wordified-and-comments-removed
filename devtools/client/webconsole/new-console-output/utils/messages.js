@@ -329,6 +329,11 @@ CATEGORY_WEBDEV
 severity
 :
 level
+stacktrace
+:
+message
+.
+stacktrace
 }
 )
 ;

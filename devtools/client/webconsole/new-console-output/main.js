@@ -123,6 +123,7 @@ function
 (
 parentNode
 jsterm
+toolbox
 )
 {
 console
@@ -143,6 +144,7 @@ NewConsoleOutputWrapper
 (
 parentNode
 jsterm
+toolbox
 )
 ;
 }
