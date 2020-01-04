@@ -892,7 +892,7 @@ eBasicEventClass
 BEFOREUNLOAD_EVENT
 (
 beforeunload
-NS_BEFORE_PAGE_UNLOAD
+eBeforeUnload
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly

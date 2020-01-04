@@ -354,7 +354,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_BEFORE_PAGE_UNLOAD
+eBeforeUnload
 eStreamEventFirst
 +
 6

@@ -6589,7 +6589,7 @@ listener
 mEventMessage
 =
 =
-NS_BEFORE_PAGE_UNLOAD
+eBeforeUnload
 )
 {
 return
