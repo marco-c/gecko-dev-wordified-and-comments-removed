@@ -1463,6 +1463,21 @@ com
 }
 if
 (
+result
+!
+=
+"
+xn
+-
+-
+zn7c
+.
+com
+"
+)
+{
+if
+(
 punycodeURL
 .
 substr
@@ -1479,7 +1494,7 @@ xn
 "
 )
 {
-do_check_eq
+equal
 (
 escape
 (
@@ -1501,7 +1516,7 @@ punycodeURL
 isASCII
 )
 ;
-do_check_eq
+equal
 (
 escape
 (
@@ -1516,7 +1531,7 @@ punycodeURL
 }
 else
 {
-do_check_eq
+equal
 (
 escape
 (
@@ -1528,6 +1543,7 @@ punycodeURL
 )
 )
 ;
+}
 }
 }
 pbi
