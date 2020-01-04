@@ -1882,6 +1882,10 @@ get_preferred_sample_rate
 =
 sndio_get_preferred_sample_rate
 .
+enumerate_devices
+=
+NULL
+.
 destroy
 =
 sndio_destroy
