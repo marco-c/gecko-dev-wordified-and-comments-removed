@@ -1680,7 +1680,7 @@ self
 )
 :
         
-fbody
+body
 =
 self
 .
@@ -1691,13 +1691,16 @@ find_element
 By
 .
 TAG_NAME
-'
+"
 body
-'
+"
 )
         
-abody
-=
+self
+.
+assertEqual
+(
+body
 self
 .
 marionette
@@ -1705,13 +1708,6 @@ marionette
 get_active_element
 (
 )
-        
-self
-.
-assertEqual
-(
-fbody
-abody
 )
     
 def
