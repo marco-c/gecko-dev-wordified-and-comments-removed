@@ -190,3 +190,7 @@ scoped
 ;
 }
 ;
+SVGStyleElement
+implements
+LinkStyle
+;
