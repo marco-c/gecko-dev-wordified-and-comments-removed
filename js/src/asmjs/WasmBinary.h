@@ -139,7 +139,7 @@ BrIf
 TableSwitch
 Return
 Unreachable
-CallInternal
+Call
 CallIndirect
 CallImport
 I8Const
