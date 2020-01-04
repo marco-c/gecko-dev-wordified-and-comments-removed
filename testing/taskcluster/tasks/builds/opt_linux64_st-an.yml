@@ -132,3 +132,15 @@ DIST_TARGET_UPLOADS
 :
 '
 '
+extra
+:
+treeherder
+:
+groupSymbol
+:
+"
+?
+"
+symbol
+:
+S
