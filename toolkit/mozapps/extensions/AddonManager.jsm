@@ -10429,6 +10429,7 @@ for
 addonId
 }
 )
+;
 this
 .
 upgradeListeners

@@ -1982,11 +1982,6 @@ name
 reload
 "
 "
-unsupported
-"
-:
-true
-"
 description
 "
 :
@@ -3917,11 +3912,6 @@ name
 "
 onUpdateAvailable
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
