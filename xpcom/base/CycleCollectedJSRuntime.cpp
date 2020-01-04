@@ -4342,7 +4342,7 @@ MOZ_ASSERT
 js
 :
 :
-IsOuterObject
+IsWindowProxy
 (
 obj
 )
@@ -4350,9 +4350,11 @@ obj
 ;
 obj
 =
-JS_ObjectToInnerObject
+js
+:
+:
+ToWindowIfWindowProxy
 (
-cx
 obj
 )
 ;

@@ -15867,9 +15867,11 @@ JSObject
 *
 outer
 =
-JS_ObjectToOuterObject
+js
+:
+:
+ToWindowProxyIfWindow
 (
-cx
 obj
 )
 ;

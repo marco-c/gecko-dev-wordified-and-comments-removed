@@ -148,13 +148,11 @@ enclosingScope
 )
 MOZ_ASSERT
 (
-GetInnerObject
+!
+IsWindowProxy
 (
 obj
 )
-=
-=
-obj
 )
 ;
 #

@@ -427,7 +427,7 @@ MOZ_ASSERT
 js
 :
 :
-IsInnerObject
+IsWindow
 (
 obj
 )
@@ -690,7 +690,7 @@ if
 js
 :
 :
-IsInnerObject
+IsWindow
 (
 obj
 )
@@ -705,16 +705,17 @@ obj
 ;
 obj
 =
-JS_ObjectToOuterObject
+js
+:
+:
+ToWindowProxyIfWindow
 (
-cx
 obj
 )
 ;
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
 obj
-nullptr
 )
 ;
 obj
@@ -732,7 +733,7 @@ MOZ_ASSERT
 js
 :
 :
-IsOuterObject
+IsWindowProxy
 (
 obj
 )
@@ -744,7 +745,7 @@ if
 js
 :
 :
-IsOuterObject
+IsWindowProxy
 (
 obj
 )
@@ -1748,7 +1749,7 @@ MOZ_ASSERT
 js
 :
 :
-IsInnerObject
+IsWindow
 (
 obj
 )
@@ -2339,7 +2340,7 @@ MOZ_ASSERT
 js
 :
 :
-IsInnerObject
+IsWindow
 (
 obj
 )

@@ -18111,6 +18111,16 @@ runtime
 InterruptCallback
 )
 ;
+js
+:
+:
+SetWindowProxyClass
+(
+runtime
+&
+OuterWindowProxyClass
+)
+;
 UniquePtr
 <
 XPCJSSourceHook
