@@ -91,7 +91,11 @@ YV24
 else
 if
 (
+(
 ywidth
++
+1
+)
 /
 2
 =
