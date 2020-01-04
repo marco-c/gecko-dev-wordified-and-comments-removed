@@ -2263,6 +2263,10 @@ allocation
 toString
 (
 )
+.
+get
+(
+)
 )
 ;
 integerProperty
