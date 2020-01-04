@@ -285,9 +285,6 @@ fieldNames
 Uint32Vector
 fieldsToExports
 ;
-Uint32Vector
-exportFuncIndices
-;
 WASM_DECLARE_SERIALIZABLE
 (
 ExportMap
