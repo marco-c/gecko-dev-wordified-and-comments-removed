@@ -727,6 +727,14 @@ config
 mozbuild
 '
 )
+DEFINES
+[
+'
+HAVE_ANDROID_OS
+'
+]
+=
+True
 LOCAL_INCLUDES
 +
 =
