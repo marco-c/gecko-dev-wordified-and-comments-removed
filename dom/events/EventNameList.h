@@ -1582,7 +1582,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozEdgeUIStarted
-NS_SIMPLE_GESTURE_EDGE_STARTED
+eEdgeUIStarted
 EventNameType_None
 eSimpleGestureEventClass
 )
