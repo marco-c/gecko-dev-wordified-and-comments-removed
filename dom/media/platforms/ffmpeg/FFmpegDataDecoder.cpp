@@ -509,6 +509,17 @@ decoder
 "
 )
 ;
+avcodec_close
+(
+mCodecContext
+)
+;
+av_freep
+(
+&
+mCodecContext
+)
+;
 return
 NS_ERROR_FAILURE
 ;
