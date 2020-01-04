@@ -1736,7 +1736,7 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
 )
 ;
