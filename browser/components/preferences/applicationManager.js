@@ -53,9 +53,6 @@ MPL
 0
 /
 .
-#
-ifdef
-XP_MACOSX
 var
 Cc
 =
@@ -70,8 +67,6 @@ Components
 .
 interfaces
 ;
-#
-endif
 var
 gAppManagerDialog
 =

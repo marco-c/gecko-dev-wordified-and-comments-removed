@@ -118,13 +118,6 @@ browser
 .
 ini
 '
-'
-tests
-/
-browser
-.
-ini
-'
 ]
 for
 var

@@ -9374,9 +9374,7 @@ browser
 /
 content
 /
-preferences
-/
-preferences
+aboutDialog
 .
 xul
 '
