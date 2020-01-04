@@ -157,11 +157,6 @@ filterTooltip
 view
 )
 ;
-yield
-waitForTick
-(
-)
-;
 }
 )
 ;

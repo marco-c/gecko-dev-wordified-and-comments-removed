@@ -424,11 +424,6 @@ closed
 "
 )
 ;
-yield
-waitForTick
-(
-)
-;
 }
 )
 ;
