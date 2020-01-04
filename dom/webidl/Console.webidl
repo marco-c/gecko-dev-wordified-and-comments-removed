@@ -409,6 +409,11 @@ DOMString
 )
 innerID
 ;
+any
+originAttributes
+=
+null
+;
 DOMString
 level
 =
