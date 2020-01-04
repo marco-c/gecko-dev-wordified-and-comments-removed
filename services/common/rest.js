@@ -1,6 +1,3 @@
-#
-ifndef
-MERGED_COMPARTMENT
 var
 {
 classes
@@ -35,8 +32,6 @@ TokenAuthenticatedRESTRequest
 "
 ]
 ;
-#
-endif
 Cu
 .
 import

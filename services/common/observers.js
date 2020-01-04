@@ -1,6 +1,3 @@
-#
-ifndef
-MERGED_COMPARTMENT
 this
 .
 EXPORTED_SYMBOLS
@@ -39,8 +36,6 @@ Components
 .
 utils
 ;
-#
-endif
 Cu
 .
 import
