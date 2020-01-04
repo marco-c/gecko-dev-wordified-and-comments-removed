@@ -589,9 +589,6 @@ mozbrowseropenwindow
 "
 mozbrowserscroll
 "
-"
-mozbrowserasyncscroll
-"
 ]
 .
 forEach
