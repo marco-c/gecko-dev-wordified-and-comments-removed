@@ -4,7 +4,6 @@ from
 marionette
 import
 MarionetteTestCase
-skip_if_b2g
 from
 marionette_driver
 .
@@ -466,8 +465,6 @@ ABC
 DEF
 "
 )
-    
-skip_if_b2g
     
 def
 testCutAndPasteShortcuts
