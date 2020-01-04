@@ -1775,12 +1775,14 @@ dwFlags
 &
 GF_END
 )
+{
 evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_ROTATE
+eRotateGesture
 ;
+}
 else
 evt
 .
