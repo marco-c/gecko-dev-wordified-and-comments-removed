@@ -18251,11 +18251,6 @@ aContainer
 ;
 }
 }
-if
-(
-aChild
-)
-{
 for
 (
 auto
@@ -18331,7 +18326,6 @@ Key
 )
 )
 ;
-}
 }
 }
 bool
