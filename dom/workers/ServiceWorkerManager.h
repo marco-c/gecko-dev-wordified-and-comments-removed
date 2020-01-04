@@ -244,7 +244,7 @@ ServiceWorkerRegistrationInfo
 final
 :
 public
-nsISupports
+nsIServiceWorkerRegistrationInfo
 {
 uint32_t
 mControlledDocumentsCounter
@@ -258,6 +258,7 @@ ServiceWorkerRegistrationInfo
 public
 :
 NS_DECL_ISUPPORTS
+NS_DECL_NSISERVICEWORKERREGISTRATIONINFO
 nsCString
 mScope
 ;
