@@ -174,16 +174,6 @@ aData
 virtual
 uint8_t
 *
-AllocateBuffer
-(
-uint32_t
-aSize
-)
-override
-;
-virtual
-uint8_t
-*
 AllocateAndGetNewBuffer
 (
 uint32_t

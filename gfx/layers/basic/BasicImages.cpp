@@ -152,7 +152,7 @@ class
 BasicPlanarYCbCrImage
 :
 public
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 {
 public
 :
@@ -172,7 +172,7 @@ BufferRecycleBin
 aRecycleBin
 )
 :
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 (
 aRecycleBin
 )
@@ -292,7 +292,7 @@ override
 size_t
 size
 =
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 SizeOfExcludingThis
@@ -441,7 +441,7 @@ Data
 aData
 )
 {
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 SetData
