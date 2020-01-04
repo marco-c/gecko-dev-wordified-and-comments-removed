@@ -5570,6 +5570,11 @@ firstMonitorStub_
 firstMonitorStub
 )
 {
+MOZ_ASSERT
+(
+firstMonitorStub_
+)
+;
 MOZ_ASSERT_IF
 (
 firstMonitorStub_
