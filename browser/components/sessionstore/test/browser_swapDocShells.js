@@ -129,9 +129,7 @@ duplicated
 )
 ;
 yield
-BrowserTestUtils
-.
-closeWindow
+promiseWindowClosed
 (
 win
 )

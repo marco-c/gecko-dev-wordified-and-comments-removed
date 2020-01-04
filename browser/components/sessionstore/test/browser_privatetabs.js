@@ -588,9 +588,7 @@ private
 )
 ;
 yield
-BrowserTestUtils
-.
-closeWindow
+promiseWindowClosed
 (
 win
 )
@@ -731,9 +729,7 @@ restore
 )
 ;
 yield
-BrowserTestUtils
-.
-closeWindow
+promiseWindowClosed
 (
 win
 )

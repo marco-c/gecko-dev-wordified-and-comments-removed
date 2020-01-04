@@ -744,9 +744,7 @@ selected
 )
 ;
 yield
-BrowserTestUtils
-.
-closeWindow
+promiseWindowClosed
 (
 normalWindow
 )
