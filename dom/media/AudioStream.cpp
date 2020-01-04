@@ -1510,7 +1510,8 @@ AudioChannel
 aAudioChannel
 )
 {
-mStartTime
+auto
+startTime
 =
 TimeStamp
 :
@@ -1670,6 +1671,7 @@ return
 OpenCubeb
 (
 params
+startTime
 )
 ;
 }
@@ -1682,6 +1684,8 @@ OpenCubeb
 cubeb_stream_params
 &
 aParams
+TimeStamp
+aStartTime
 )
 {
 cubeb
@@ -1840,16 +1844,6 @@ mState
 =
 INITIALIZED
 ;
-if
-(
-!
-mStartTime
-.
-IsNull
-(
-)
-)
-{
 TimeDuration
 timeDelta
 =
@@ -1860,7 +1854,7 @@ Now
 (
 )
 -
-mStartTime
+aStartTime
 ;
 LOG
 (
@@ -1915,7 +1909,6 @@ ToMilliseconds
 )
 )
 ;
-}
 return
 NS_OK
 ;

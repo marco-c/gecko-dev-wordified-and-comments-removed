@@ -1086,6 +1086,8 @@ OpenCubeb
 cubeb_stream_params
 &
 aParams
+TimeStamp
+aStartTime
 )
 ;
 static
@@ -1224,9 +1226,6 @@ soundtouch
 SoundTouch
 *
 mTimeStretcher
-;
-TimeStamp
-mStartTime
 ;
 FILE
 *
