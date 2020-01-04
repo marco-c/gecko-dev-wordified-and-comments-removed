@@ -1084,15 +1084,6 @@ aHint
 ;
 #
 endif
-private
-:
-void
-PostRestyleEventInternal
-(
-bool
-aForLazyConstruction
-)
-;
 public
 :
 void
@@ -1407,11 +1398,6 @@ mDoRebuildAllStyleData
 ;
 bool
 mInRebuildAllStyleData
-:
-1
-;
-bool
-mInStyleRefresh
 :
 1
 ;
