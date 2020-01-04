@@ -21,6 +21,12 @@ MemoryProfiler
 .
 h
 "
+using
+mozilla
+:
+:
+MemoryProfiler
+;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 MemoryProfiler
