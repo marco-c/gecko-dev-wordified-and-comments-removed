@@ -4768,12 +4768,6 @@ aDisplaySize
 ;
 static
 bool
-UseBackgroundNearestFiltering
-(
-)
-;
-static
-bool
 GPUImageScalingEnabled
 (
 )
