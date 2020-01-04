@@ -55,11 +55,6 @@ node
 let
 actualTypes
 =
-yield
-Promise
-.
-all
-(
 nodes
 .
 map
@@ -69,10 +64,7 @@ node
 >
 node
 .
-getType
-(
-)
-)
+type
 )
 ;
 let
