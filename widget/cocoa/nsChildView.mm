@@ -15679,7 +15679,7 @@ mDeltaX
 |
 event
 .
-deltaY
+mDeltaY
 !
 =
 0
@@ -16090,7 +16090,7 @@ mDeltaX
 |
 event
 .
-deltaY
+mDeltaY
 !
 =
 0

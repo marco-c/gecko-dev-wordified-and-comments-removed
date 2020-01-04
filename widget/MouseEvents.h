@@ -1414,7 +1414,7 @@ mDeltaX
 .
 0
 )
-deltaY
+mDeltaY
 (
 0
 .
@@ -1521,7 +1521,7 @@ mDeltaX
 .
 0
 )
-deltaY
+mDeltaY
 (
 0
 .
@@ -1683,7 +1683,7 @@ double
 mDeltaX
 ;
 double
-deltaY
+mDeltaY
 ;
 double
 deltaZ
@@ -1852,11 +1852,11 @@ aEvent
 .
 mDeltaX
 ;
-deltaY
+mDeltaY
 =
 aEvent
 .
-deltaY
+mDeltaY
 ;
 deltaZ
 =

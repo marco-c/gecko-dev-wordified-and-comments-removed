@@ -2419,7 +2419,7 @@ mDeltaX
 =
 aWheelEvent
 .
-deltaY
+mDeltaY
 =
 aWheelEvent
 .
@@ -2522,7 +2522,7 @@ mYAxisFeedback
 {
 aWheelEvent
 .
-deltaY
+mDeltaY
 =
 mPixelScrollDelta
 .
@@ -2541,7 +2541,7 @@ mDeltaX
 |
 aWheelEvent
 .
-deltaY
+mDeltaY
 !
 =
 0

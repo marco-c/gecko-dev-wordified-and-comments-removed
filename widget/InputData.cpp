@@ -1752,7 +1752,7 @@ x
 ;
 wheelEvent
 .
-deltaY
+mDeltaY
 =
 mPanDisplacement
 .
@@ -2038,7 +2038,7 @@ mDeltaY
 (
 aWheelEvent
 .
-deltaY
+mDeltaY
 )
 mLineOrPageDeltaX
 (
@@ -2202,7 +2202,7 @@ mDeltaX
 ;
 wheelEvent
 .
-deltaY
+mDeltaY
 =
 mDeltaY
 ;

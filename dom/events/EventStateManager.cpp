@@ -9296,7 +9296,7 @@ RoundDown
 aEvent
 -
 >
-deltaY
+mDeltaY
 *
 scrollAmountInCSSPixels
 .
@@ -9346,7 +9346,7 @@ RoundDown
 aEvent
 -
 >
-deltaY
+mDeltaY
 *
 scrollAmountInCSSPixels
 .
@@ -9392,7 +9392,7 @@ RoundDown
 aEvent
 -
 >
-deltaY
+mDeltaY
 )
 ;
 break
@@ -10157,7 +10157,7 @@ mDeltaX
 aEvent
 -
 >
-deltaY
+mDeltaY
 aEvent
 aOptions
 )
@@ -11546,7 +11546,7 @@ if
 aEvent
 -
 >
-deltaY
+mDeltaY
 &
 &
 overflowStyle
@@ -11574,7 +11574,7 @@ overflowDeltaY
 aEvent
 -
 >
-deltaY
+mDeltaY
 ;
 }
 }
@@ -11646,7 +11646,7 @@ overflowDeltaY
 aEvent
 -
 >
-deltaY
+mDeltaY
 >
 0
 )
@@ -13836,7 +13836,7 @@ mDeltaX
 wheelEvent
 -
 >
-deltaY
+mDeltaY
 )
 )
 {
@@ -13943,7 +13943,7 @@ overflowDeltaY
 wheelEvent
 -
 >
-deltaY
+mDeltaY
 ;
 WheelPrefs
 :
@@ -14093,7 +14093,7 @@ mDeltaX
 wheelEvent
 -
 >
-deltaY
+mDeltaY
 )
 )
 {
@@ -14225,7 +14225,7 @@ overflowDeltaY
 wheelEvent
 -
 >
-deltaY
+mDeltaY
 ;
 WheelPrefs
 :
@@ -22735,7 +22735,7 @@ mY
 aEvent
 -
 >
-deltaY
+mDeltaY
 &
 &
 (
@@ -22743,7 +22743,7 @@ deltaY
 aEvent
 -
 >
-deltaY
+mDeltaY
 >
 0
 .
@@ -22831,7 +22831,7 @@ if
 aEvent
 -
 >
-deltaY
+mDeltaY
 )
 {
 mY
@@ -22839,7 +22839,7 @@ mY
 aEvent
 -
 >
-deltaY
+mDeltaY
 ;
 }
 mLastTime
@@ -22868,7 +22868,7 @@ mY
 aEvent
 -
 >
-deltaY
+mDeltaY
 ;
 if
 (
@@ -24059,7 +24059,7 @@ index
 aEvent
 -
 >
-deltaY
+mDeltaY
 *
 =
 mMultiplierY
@@ -24303,7 +24303,7 @@ Abs
 aEvent
 -
 >
-deltaY
+mDeltaY
 )
 &
 &

@@ -965,7 +965,7 @@ WriteParam
 aMsg
 aParam
 .
-deltaY
+mDeltaY
 )
 ;
 WriteParam
@@ -1150,7 +1150,7 @@ aIter
 aResult
 -
 >
-deltaY
+mDeltaY
 )
 &
 &
