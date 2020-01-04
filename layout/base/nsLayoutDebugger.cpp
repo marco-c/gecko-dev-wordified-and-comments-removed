@@ -588,9 +588,6 @@ ReferenceFrame
 )
 )
 ;
-nscolor
-color
-;
 nsRect
 vis
 =
@@ -949,8 +946,6 @@ aItem
 IsUniform
 (
 aBuilder
-&
-color
 )
 ?
 "
