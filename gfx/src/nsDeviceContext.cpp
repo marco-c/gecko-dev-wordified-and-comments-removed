@@ -1815,9 +1815,7 @@ if
 dt
 )
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
@@ -1866,13 +1864,8 @@ hexa
 printingSurface
 )
 ;
-MOZ_CRASH
-(
-"
-Cannot
-CreateDrawTargetForSurface
-"
-)
+return
+nullptr
 ;
 }
 #
