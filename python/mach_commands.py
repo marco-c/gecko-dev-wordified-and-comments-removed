@@ -1365,9 +1365,7 @@ cmd_args
 +
 =
 [
-'
-.
-'
+path
 ]
         
 return
@@ -1376,10 +1374,6 @@ self
 run_process
 (
 cmd_args
-            
-cwd
-=
-path
             
 pass_thru
 =
