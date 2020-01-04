@@ -242,6 +242,15 @@ MIRGraph
 &
 graph_
 ;
+Vector
+<
+MBinaryBitwiseInstruction
+*
+16
+SystemAllocPolicy
+>
+bitops
+;
 TempAllocator
 &
 alloc
@@ -306,6 +315,11 @@ tryRemovingGuards
 ;
 bool
 truncate
+(
+)
+;
+bool
+removeUnnecessaryBitops
 (
 )
 ;
