@@ -101,6 +101,9 @@ nsIWidget
 h
 "
 #
+ifndef
+__MINGW32__
+#
 include
 <
 windows
@@ -354,6 +357,8 @@ ppv
 ;
 #
 endif
+#
+endif
 WindowsUIUtils
 :
 :
@@ -425,6 +430,9 @@ UpdateTabletModeState
 (
 )
 {
+#
+ifndef
+__MINGW32__
 if
 (
 !
@@ -758,6 +766,8 @@ get
 }
 }
 }
+#
+endif
 return
 NS_OK
 ;
