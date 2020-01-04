@@ -8338,7 +8338,7 @@ return
 aRealFrame1
 -
 >
-GetOrdinal
+GetXULOrdinal
 (
 )
 <
@@ -8346,7 +8346,7 @@ GetOrdinal
 aRealFrame2
 -
 >
-GetOrdinal
+GetXULOrdinal
 (
 )
 ;
@@ -8506,7 +8506,7 @@ ord
 aChild
 -
 >
-GetOrdinal
+GetXULOrdinal
 (
 )
 ;
@@ -8538,7 +8538,7 @@ ord
 child
 -
 >
-GetOrdinal
+GetXULOrdinal
 (
 )
 )
