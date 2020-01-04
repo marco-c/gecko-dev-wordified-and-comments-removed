@@ -310,12 +310,6 @@ CFLAGS
 fsanitize
 =
 address
--
-Dxmalloc
-=
-myxmalloc
--
-fPIC
 CFLAGS
 "
 CXXFLAGS
@@ -325,12 +319,6 @@ CXXFLAGS
 fsanitize
 =
 address
--
-Dxmalloc
-=
-myxmalloc
--
-fPIC
 CXXFLAGS
 "
 LDFLAGS
