@@ -266,7 +266,6 @@ event
 forget
 (
 )
-0
 )
 ;
 }
@@ -283,8 +282,6 @@ nsIRunnable
 &
 &
 aEvent
-uint32_t
-aFlags
 )
 {
 bool
@@ -380,14 +377,6 @@ Count
 int32_t
 )
 mThreadLimit
-&
-&
-!
-(
-aFlags
-&
-NS_DISPATCH_TAIL
-)
 &
 &
 mEvents
@@ -1299,7 +1288,6 @@ Move
 (
 aEvent
 )
-aFlags
 )
 ;
 }
