@@ -190,7 +190,11 @@ testing
 *
 *
 !
-testing
+tools
+/
+lint
+/
+eslint
 /
 eslint
 -
@@ -198,7 +202,11 @@ plugin
 -
 mozilla
 /
-testing
+tools
+/
+lint
+/
+eslint
 /
 eslint
 -
