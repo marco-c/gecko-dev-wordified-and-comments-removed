@@ -4391,7 +4391,7 @@ Maybe
 ParentLayerIntRect
 >
 &
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;

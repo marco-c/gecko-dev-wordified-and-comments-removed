@@ -2128,7 +2128,7 @@ clipRect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
@@ -2548,7 +2548,7 @@ clipRect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
@@ -3906,7 +3906,7 @@ clipRect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
@@ -4210,7 +4210,7 @@ clipRect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;

@@ -3498,7 +3498,7 @@ ParentLayerIntRect
 Layer
 :
 :
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 {
@@ -4334,7 +4334,7 @@ containerChild
 containerChild
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ?
@@ -4385,7 +4385,7 @@ if
 clipLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 )
@@ -4434,7 +4434,7 @@ RenderTargetPixel
 clipLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 PixelCastJustification
@@ -5690,7 +5690,7 @@ if
 layer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 )
@@ -5702,7 +5702,7 @@ AndWith
 layer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 -
@@ -5824,7 +5824,7 @@ clipRect
 sibling
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
@@ -7011,7 +7011,7 @@ clipRect
 child
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
@@ -7634,7 +7634,7 @@ clipRect
 child
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
