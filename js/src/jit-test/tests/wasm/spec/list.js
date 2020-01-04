@@ -1,0 +1,17 @@
+var
+specTests
+=
+[
+]
+;
+specTests
+.
+push
+(
+"
+names
+.
+wast
+"
+)
+;
