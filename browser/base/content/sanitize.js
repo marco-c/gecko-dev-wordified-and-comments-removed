@@ -1187,6 +1187,9 @@ name
 cookie
 .
 path
+cookie
+.
+originAttributes
 false
 )
 ;

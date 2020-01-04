@@ -7396,7 +7396,12 @@ NS_LITERAL_CSTRING
 rabbit
 "
 )
+JS
+:
+:
+NullHandleValue
 true
+nullptr
 )
 )
 ;

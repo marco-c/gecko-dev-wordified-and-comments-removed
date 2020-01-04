@@ -315,6 +315,14 @@ was
 set
 *
 param
+aOriginAttributes
+The
+originAttributes
+of
+this
+cookie
+*
+param
 aBlocked
 Indicates
 if
@@ -329,6 +337,9 @@ blocked
 *
 *
 /
+[
+implicit_jscontext
+]
 void
 remove
 (
@@ -341,6 +352,9 @@ aName
 in
 AUTF8String
 aPath
+in
+jsval
+aOriginAttributes
 in
 boolean
 aBlocked
