@@ -185,6 +185,11 @@ Toolbar
 ToolbarButton
 (
 {
+className
+:
+"
+prettyprint
+"
 onClick
 :
 this
@@ -205,6 +210,11 @@ PrettyPrint
 ToolbarButton
 (
 {
+className
+:
+"
+save
+"
 onClick
 :
 this
@@ -225,6 +235,11 @@ Save
 ToolbarButton
 (
 {
+className
+:
+"
+copy
+"
 onClick
 :
 this
