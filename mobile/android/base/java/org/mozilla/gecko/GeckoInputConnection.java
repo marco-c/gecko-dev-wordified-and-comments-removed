@@ -291,10 +291,7 @@ final
 boolean
 DEBUG
 =
-!
-AppConstants
-.
-RELEASE_BUILD
+false
 ;
 protected
 static
