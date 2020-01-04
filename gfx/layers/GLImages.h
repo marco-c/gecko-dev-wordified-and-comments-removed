@@ -98,6 +98,17 @@ GetAsSourceSurface
 )
 override
 ;
+GLImage
+*
+AsGLImage
+(
+)
+override
+{
+return
+this
+;
+}
 }
 ;
 class

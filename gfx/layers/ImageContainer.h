@@ -646,6 +646,9 @@ ImageBackendData
 }
 ;
 class
+GLImage
+;
+class
 EGLImageImage
 ;
 class
@@ -880,6 +883,17 @@ virtual
 EGLImageImage
 *
 AsEGLImageImage
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+GLImage
+*
+AsGLImage
 (
 )
 {
