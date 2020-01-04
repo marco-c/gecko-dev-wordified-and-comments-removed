@@ -3510,6 +3510,8 @@ ignoring
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 PR_WOULD_BLOCK_ERROR
 :
