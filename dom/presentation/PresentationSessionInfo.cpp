@@ -866,8 +866,9 @@ PresentationSessionInfo
 :
 Send
 (
-nsIInputStream
-*
+const
+nsAString
+&
 aData
 )
 {
