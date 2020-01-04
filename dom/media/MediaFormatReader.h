@@ -380,6 +380,14 @@ override
 ;
 #
 endif
+void
+GetMozDebugReaderData
+(
+nsAString
+&
+aString
+)
+;
 private
 :
 bool
@@ -911,6 +919,10 @@ mNumSamplesOutputTotal
 (
 0
 )
+mNumSamplesSkippedTotal
+(
+0
+)
 mSizeOfQueue
 (
 0
@@ -1099,6 +1111,9 @@ mNumSamplesOutput
 ;
 uint64_t
 mNumSamplesOutputTotal
+;
+uint64_t
+mNumSamplesSkippedTotal
 ;
 virtual
 bool
