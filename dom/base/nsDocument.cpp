@@ -12635,12 +12635,6 @@ nsIChannel
 aChannel
 )
 {
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-csp
-;
 if
 (
 !
@@ -13225,6 +13219,12 @@ NS_OK
 ;
 }
 }
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+csp
+;
 rv
 =
 principal
