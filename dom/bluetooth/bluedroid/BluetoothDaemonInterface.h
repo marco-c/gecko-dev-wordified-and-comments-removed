@@ -64,6 +64,9 @@ class
 BluetoothDaemonProtocol
 ;
 class
+BluetoothDaemonSetupInterface
+;
+class
 BluetoothDaemonSocketInterface
 ;
 class
@@ -427,6 +430,13 @@ aRes
 )
 override
 ;
+BluetoothSetupInterface
+*
+GetBluetoothSetupInterface
+(
+)
+override
+;
 BluetoothSocketInterface
 *
 GetBluetoothSocketInterface
@@ -580,6 +590,12 @@ BluetoothResultHandler
 >
 >
 mResultHandlerQ
+;
+nsAutoPtr
+<
+BluetoothDaemonSetupInterface
+>
+mSetupInterface
 ;
 nsAutoPtr
 <

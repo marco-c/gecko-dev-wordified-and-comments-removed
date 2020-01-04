@@ -88,6 +88,15 @@ Configuration
 )
 {
 }
+BluetoothSetupInterface
+:
+:
+~
+BluetoothSetupInterface
+(
+)
+{
+}
 void
 BluetoothSocketResultHandler
 :
