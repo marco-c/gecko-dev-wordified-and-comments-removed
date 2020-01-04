@@ -633,13 +633,13 @@ if
 loadInfo
 )
 {
+mEnforceSRI
+=
 loadInfo
 -
 >
 GetVerifySignedContent
 (
-&
-mEnforceSRI
 )
 ;
 }
