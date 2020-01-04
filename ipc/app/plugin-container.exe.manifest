@@ -68,9 +68,9 @@ processorArchitecture
 name
 =
 "
-firefox
+plugin
 -
-webcontent
+container
 "
 type
 =

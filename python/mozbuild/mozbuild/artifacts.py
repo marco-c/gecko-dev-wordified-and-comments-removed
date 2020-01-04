@@ -1289,9 +1289,9 @@ ini
 '
 firefox
 /
-firefox
+plugin
 -
-webcontent
+container
 '
         
 '
@@ -1739,9 +1739,9 @@ dylib
 '
                 
 '
-firefox
+plugin
 -
-webcontent
+container
 .
 app
 /
@@ -1749,9 +1749,9 @@ Contents
 /
 MacOS
 /
-firefox
+plugin
 -
-webcontent
+container
 '
                 
 '
