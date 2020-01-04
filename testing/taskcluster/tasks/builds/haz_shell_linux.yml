@@ -258,13 +258,15 @@ builder
 /
 build
 -
-shell
--
 haz
 -
 linux
 .
 sh
+-
+-
+project
+shell
 HOME
 /
 workspace

@@ -269,13 +269,15 @@ builder
 /
 build
 -
-browser
--
 haz
 -
 linux
 .
 sh
+-
+-
+project
+browser
 HOME
 /
 workspace
