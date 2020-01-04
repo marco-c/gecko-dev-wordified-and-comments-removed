@@ -471,6 +471,14 @@ FAILURE_DETAILS
 .
 EXPIRED_OR_INVALID
 ;
+case
+undefined
+:
+return
+FAILURE_DETAILS
+.
+COULD_NOT_CONNECT
+;
 default
 :
 return
