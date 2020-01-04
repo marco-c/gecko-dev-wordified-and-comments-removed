@@ -779,7 +779,7 @@ waitForTimer
 yield
 TelemetryController
 .
-reset
+testReset
 (
 )
 ;

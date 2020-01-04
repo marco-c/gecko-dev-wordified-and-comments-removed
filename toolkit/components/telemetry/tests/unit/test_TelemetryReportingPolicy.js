@@ -1452,7 +1452,7 @@ port
 yield
 TelemetryController
 .
-reset
+testReset
 (
 )
 ;
@@ -1658,7 +1658,7 @@ TEST_PING_TYPE
 yield
 TelemetryController
 .
-reset
+testReset
 (
 )
 ;

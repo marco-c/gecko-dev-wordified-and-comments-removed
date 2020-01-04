@@ -1989,7 +1989,7 @@ shutdown
 }
 TelemetryController
 .
-initLogging
+testInitLogging
 (
 )
 ;
