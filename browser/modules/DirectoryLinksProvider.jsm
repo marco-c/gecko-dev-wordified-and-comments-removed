@@ -2158,6 +2158,12 @@ _writeFrequencyCapFile
 (
 )
 ;
+this
+.
+_updateSuggestedTile
+(
+)
+;
 }
 _isSuggestedTileBlocked
 :
