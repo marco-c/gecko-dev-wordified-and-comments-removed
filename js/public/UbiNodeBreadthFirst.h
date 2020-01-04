@@ -1,9 +1,9 @@
 #
 ifndef
-js_UbiNodeTraverse_h
+js_UbiNodeBreadthFirst_h
 #
 define
-js_UbiNodeTraverse_h
+js_UbiNodeBreadthFirst_h
 #
 include
 "

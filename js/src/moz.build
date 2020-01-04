@@ -1069,7 +1069,7 @@ h
 /
 public
 /
-UbiNodeCensus
+UbiNodeBreadthFirst
 .
 h
 '
@@ -1079,7 +1079,7 @@ h
 /
 public
 /
-UbiNodeTraverse
+UbiNodeCensus
 .
 h
 '
