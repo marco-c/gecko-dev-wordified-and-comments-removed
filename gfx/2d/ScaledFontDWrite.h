@@ -176,13 +176,7 @@ GlyphMetrics
 *
 aGlyphMetrics
 )
-{
-MOZ_ASSERT
-(
-false
-)
 ;
-}
 virtual
 bool
 GetFontFileData
