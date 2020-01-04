@@ -155,7 +155,6 @@ Constructor
 (
 DOMString
 type
-optional
 SpeechSynthesisEventInit
 eventInitDict
 )

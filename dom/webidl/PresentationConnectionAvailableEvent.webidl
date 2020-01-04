@@ -96,7 +96,6 @@ Constructor
 (
 DOMString
 type
-optional
 PresentationConnectionAvailableEventInit
 eventInitDict
 )

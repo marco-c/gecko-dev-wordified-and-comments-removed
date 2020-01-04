@@ -145,7 +145,6 @@ Constructor
 (
 DOMString
 type
-optional
 NotificationEventInit
 eventInitDict
 )

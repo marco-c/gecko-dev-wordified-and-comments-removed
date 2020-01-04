@@ -211,7 +211,6 @@ Constructor
 (
 DOMString
 type
-optional
 SpeechSynthesisErrorEventInit
 eventInitDict
 )
