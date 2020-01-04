@@ -1799,6 +1799,11 @@ mGenericTypes
 ~
 eSelect
 ;
+mStateFlags
+|
+=
+eNoXBLKids
+;
 }
 uint64_t
 XULMenupopupAccessible
