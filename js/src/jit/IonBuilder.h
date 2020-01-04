@@ -2719,15 +2719,6 @@ PropertyName
 name
 )
 ;
-MDefinition
-*
-neuterCheck
-(
-MDefinition
-*
-obj
-)
-;
 JSObject
 *
 getStaticTypedArrayObject

@@ -257,7 +257,7 @@ BufferKind
 :
 :
 KIND_MASK
-NEUTERED
+DETACHED
 =
 0x4
 OWNS_DATA
@@ -276,7 +276,7 @@ static_assert
 JS_ARRAYBUFFER_NEUTERED_FLAG
 =
 =
-NEUTERED
+DETACHED
 "
 self
 -
@@ -293,7 +293,7 @@ the
 "
 "
 correct
-NEUTERED
+DETACHED
 bit
 value
 "
@@ -1069,7 +1069,7 @@ flags
 (
 )
 &
-NEUTERED
+DETACHED
 ;
 }
 static
@@ -1152,16 +1152,6 @@ getFixedSlotOffset
 (
 DATA_SLOT
 )
-;
-}
-static
-uint32_t
-neuteredFlag
-(
-)
-{
-return
-NEUTERED
 ;
 }
 void
@@ -1328,7 +1318,7 @@ flags
 (
 )
 |
-NEUTERED
+DETACHED
 )
 ;
 }

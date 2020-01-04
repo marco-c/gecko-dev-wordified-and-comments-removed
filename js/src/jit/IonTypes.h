@@ -135,7 +135,7 @@ Bailout_NonStringInputInvalidate
 Bailout_DoubleOutput
 Bailout_ArgumentCheck
 Bailout_BoundsCheck
-Bailout_Neutered
+Bailout_Detached
 Bailout_ShapeGuard
 Bailout_UninitializedLexical
 Bailout_IonExceptionDebugMode
@@ -437,11 +437,11 @@ Bailout_BoundsCheck
 "
 ;
 case
-Bailout_Neutered
+Bailout_Detached
 :
 return
 "
-Bailout_Neutered
+Bailout_Detached
 "
 ;
 case
