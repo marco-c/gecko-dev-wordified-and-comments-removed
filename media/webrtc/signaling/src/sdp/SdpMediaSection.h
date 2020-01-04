@@ -52,7 +52,7 @@ vector
 #
 include
 <
-iostream
+sstream
 >
 namespace
 mozilla
