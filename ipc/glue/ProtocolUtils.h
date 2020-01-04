@@ -1117,6 +1117,16 @@ char
 aActorDescription
 )
 ;
+MOZ_NEVER_INLINE
+void
+UnionTypeReadError
+(
+const
+char
+*
+aUnionName
+)
+;
 struct
 PrivateIPDLInterface
 {
