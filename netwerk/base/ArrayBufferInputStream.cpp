@@ -504,7 +504,8 @@ writer
 this
 closure
 buffer
-0
+*
+result
 count
 &
 written
