@@ -3147,8 +3147,6 @@ Register64
 src
 Register64
 dest
-bool
-knownNotZero
 )
 DEFINED_ON
 (
@@ -3163,8 +3161,6 @@ Register64
 src
 Register64
 dest
-bool
-knownNotZero
 )
 DEFINED_ON
 (
