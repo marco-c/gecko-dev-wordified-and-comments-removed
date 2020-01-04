@@ -1587,7 +1587,9 @@ macro
 (
 JSOP_NEW
 82
-js_new_str
+"
+new
+"
 NULL
 3
 -

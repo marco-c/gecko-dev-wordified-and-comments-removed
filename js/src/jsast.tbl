@@ -391,12 +391,12 @@ classExpression
 )
 ASTDEF
 (
-AST_NEWTARGET_EXPR
+AST_METAPROPERTY
 "
-NewTargetExpression
+MetaProperty
 "
 "
-newTargetExpression
+metaProperty
 "
 )
 ASTDEF
