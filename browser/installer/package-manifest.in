@@ -331,17 +331,6 @@ defaults
 /
 profile
 /
-bookmarks
-.
-html
-RESPATH
-/
-browser
-/
-defaults
-/
-profile
-/
 chrome
 /
 *
