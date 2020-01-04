@@ -347,6 +347,9 @@ InterceptStreamListener
 >
 mStreamListener
 ;
+bool
+mSecureUpgrade
+;
 public
 :
 InterceptedChannelContent
@@ -360,6 +363,8 @@ aController
 InterceptStreamListener
 *
 aListener
+bool
+aSecureUpgrade
 )
 ;
 NS_IMETHOD
