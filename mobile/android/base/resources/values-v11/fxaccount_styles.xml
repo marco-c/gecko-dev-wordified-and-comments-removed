@@ -172,7 +172,9 @@ FxAccountStatusActivity
 parent
 =
 "
-FxAccountTheme
+Gecko
+.
+Preferences
 "
 >
 <
