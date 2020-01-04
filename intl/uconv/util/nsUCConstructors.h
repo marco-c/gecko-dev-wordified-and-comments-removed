@@ -35,7 +35,7 @@ h
 class
 nsISupports
 ;
-NS_METHOD
+nsresult
 CreateMultiTableDecoder
 (
 int32_t
@@ -64,7 +64,7 @@ void
 aResult
 )
 ;
-NS_METHOD
+nsresult
 CreateMultiTableEncoder
 (
 int32_t
@@ -93,7 +93,7 @@ void
 aResult
 )
 ;
-NS_METHOD
+nsresult
 CreateTableEncoder
 (
 uScanClassID
@@ -117,7 +117,7 @@ void
 aResult
 )
 ;
-NS_METHOD
+nsresult
 CreateMultiTableEncoder
 (
 int32_t
@@ -142,7 +142,7 @@ void
 aResult
 )
 ;
-NS_METHOD
+nsresult
 CreateTableEncoder
 (
 uScanClassID
@@ -163,7 +163,7 @@ void
 aResult
 )
 ;
-NS_METHOD
+nsresult
 CreateOneByteDecoder
 (
 uMappingTable
