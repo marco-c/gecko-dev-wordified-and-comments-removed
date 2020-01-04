@@ -2818,6 +2818,12 @@ apis
 apis
 )
 ;
+context
+.
+_unwrappedAPIs
+=
+apis
+;
 let
 schemaWrapper
 =
