@@ -3253,6 +3253,15 @@ bool
 isSecureURI
 )
 ;
+async
+AccumulateMixedContentHSTS
+(
+URIParams
+uri
+bool
+active
+)
+;
 sync
 GetLookAndFeelCache
 (
