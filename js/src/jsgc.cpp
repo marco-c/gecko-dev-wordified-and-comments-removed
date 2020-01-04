@@ -28667,7 +28667,7 @@ GCRuntime
 gcCycle
 (
 bool
-incremental
+nonincrementalByAPI
 SliceBudget
 &
 budget
@@ -28799,8 +28799,7 @@ incrementalState
 ;
 if
 (
-!
-incremental
+nonincrementalByAPI
 )
 {
 if
@@ -29308,7 +29307,7 @@ GCRuntime
 collect
 (
 bool
-incremental
+nonincrementalByAPI
 SliceBudget
 budget
 JS
@@ -29425,7 +29424,7 @@ wasReset
 =
 gcCycle
 (
-incremental
+nonincrementalByAPI
 budget
 reason
 )
@@ -29491,7 +29490,8 @@ false
 ;
 if
 (
-incremental
+!
+nonincrementalByAPI
 &
 &
 !
@@ -29531,9 +29531,9 @@ c
 scheduledForDestruction
 )
 {
-incremental
+nonincrementalByAPI
 =
-false
+true
 ;
 repeatForDeadZone
 =
@@ -29709,7 +29709,7 @@ gckind
 ;
 collect
 (
-false
+true
 SliceBudget
 :
 :
@@ -29754,7 +29754,7 @@ gckind
 ;
 collect
 (
-true
+false
 defaultBudget
 (
 reason
@@ -29791,7 +29791,7 @@ isIncrementalGCInProgress
 ;
 collect
 (
-true
+false
 defaultBudget
 (
 reason
@@ -29855,7 +29855,7 @@ false
 }
 collect
 (
-true
+false
 SliceBudget
 :
 :
@@ -30159,7 +30159,7 @@ gckind
 ;
 collect
 (
-true
+false
 budget
 JS
 :
@@ -30207,7 +30207,7 @@ rt
 ;
 collect
 (
-true
+false
 budget
 JS
 :
@@ -31740,7 +31740,7 @@ GC_SHRINK
 ;
 collect
 (
-true
+false
 budget
 JS
 :
