@@ -4614,7 +4614,7 @@ mWeakSeekableStream
 int64_t
 position
 ;
-MOZ_ASSERT
+if
 (
 NS_SUCCEEDED
 (
@@ -4627,17 +4627,8 @@ Tell
 position
 )
 )
-"
-Failed
-to
-determine
-initial
-stream
-position
-!
-"
 )
-;
+{
 MOZ_ASSERT
 (
 !
@@ -4652,6 +4643,7 @@ at
 "
 )
 ;
+}
 }
 #
 endif

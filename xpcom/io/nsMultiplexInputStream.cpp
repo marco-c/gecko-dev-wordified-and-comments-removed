@@ -771,9 +771,6 @@ return
 mStatus
 ;
 }
-nsresult
-rv
-;
 uint64_t
 avail
 =
@@ -807,7 +804,7 @@ i
 uint64_t
 streamAvail
 ;
-rv
+mStatus
 =
 AvailableMaybeSeek
 (
@@ -825,13 +822,13 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-rv
+mStatus
 )
 )
 )
 {
 return
-rv
+mStatus
 ;
 }
 avail
