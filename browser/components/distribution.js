@@ -2194,7 +2194,7 @@ if
 value
 )
 {
-Preferences
+defaults
 .
 set
 (
@@ -2305,7 +2305,7 @@ if
 value
 )
 {
-Preferences
+defaults
 .
 set
 (
@@ -2435,7 +2435,7 @@ this
 _language
 )
 ;
-Preferences
+defaults
 .
 set
 (
