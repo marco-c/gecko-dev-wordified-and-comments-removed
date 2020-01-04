@@ -6341,14 +6341,15 @@ order
 '
             
 '
-HEAD
-~
+-
+-
+max
+-
+count
+=
 {
 num
 }
-.
-.
-HEAD
 '
 .
 format
@@ -6357,6 +6358,10 @@ num
 =
 NUM_REVISIONS_TO_QUERY
 )
+            
+'
+HEAD
+'
         
 ]
 )
