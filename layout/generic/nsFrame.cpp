@@ -204,9 +204,7 @@ h
 #
 include
 "
-mozilla
-/
-Snprintf
+prprf
 .
 h
 "
@@ -28094,9 +28092,13 @@ buf
 40
 ]
 ;
-snprintf_literal
+PR_snprintf
 (
 buf
+sizeof
+(
+buf
+)
 "
 (
 %
@@ -43698,7 +43700,7 @@ if
 aContent
 )
 {
-snprintf
+PR_snprintf
 (
 aResult
 aResultSize
@@ -43732,7 +43734,7 @@ aFrame
 }
 else
 {
-snprintf
+PR_snprintf
 (
 aResult
 aResultSize
