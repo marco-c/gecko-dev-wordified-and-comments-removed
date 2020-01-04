@@ -175,6 +175,15 @@ type
 DecoderType
 :
 :
+ICO
+|
+|
+type
+=
+=
+DecoderType
+:
+:
 PNG
 |
 |
