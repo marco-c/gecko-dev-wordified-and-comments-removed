@@ -1052,6 +1052,7 @@ promise
 add_task
 (
 function
+*
 testSetupEngine
 (
 )
@@ -1067,6 +1068,7 @@ promiseSetEngine
 add_task
 (
 function
+*
 testReturn
 (
 )
@@ -1161,6 +1163,7 @@ page
 add_task
 (
 function
+*
 testAltReturn
 (
 )
@@ -1283,6 +1286,7 @@ page
 add_task
 (
 function
+*
 testShiftAltReturn
 (
 )
@@ -1416,6 +1420,7 @@ page
 add_task
 (
 function
+*
 testLeftClick
 (
 )
@@ -1507,6 +1512,7 @@ page
 add_task
 (
 function
+*
 testMiddleClick
 (
 )
@@ -1616,6 +1622,7 @@ page
 add_task
 (
 function
+*
 testShiftMiddleClick
 (
 )
@@ -1734,6 +1741,7 @@ page
 add_task
 (
 function
+*
 testRightClick
 (
 )
@@ -1851,6 +1859,7 @@ hidePopup
 add_task
 (
 function
+*
 testSearchHistory
 (
 )
@@ -1931,6 +1940,7 @@ exist
 add_task
 (
 function
+*
 testAutocomplete
 (
 )
@@ -1977,6 +1987,7 @@ searchEntries
 add_task
 (
 function
+*
 testClearHistory
 (
 )
@@ -2049,6 +2060,7 @@ cleared
 add_task
 (
 function
+*
 asyncCleanup
 (
 )
