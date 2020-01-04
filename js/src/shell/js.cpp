@@ -46657,7 +46657,7 @@ ShellPrincipals
 destroy
 )
 ;
-JS_SetInterruptCallback
+JS_AddInterruptCallback
 (
 cx
 ShellInterruptCallback
