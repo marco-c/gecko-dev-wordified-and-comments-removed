@@ -41,6 +41,14 @@ eKeyDown
 )
 NS_EVENT_MESSAGE
 (
+eKeyDownOnPlugin
+)
+NS_EVENT_MESSAGE
+(
+eKeyUpOnPlugin
+)
+NS_EVENT_MESSAGE
+(
 eBeforeKeyDown
 )
 NS_EVENT_MESSAGE

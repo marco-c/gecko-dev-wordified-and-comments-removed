@@ -32177,6 +32177,13 @@ mMessage
 eKeyPress
 |
 |
+aEvent
+.
+IsKeyEventOnPlugin
+(
+)
+|
+|
 !
 BeforeAfterKeyboardEventEnabled
 (
@@ -32377,6 +32384,13 @@ XRE_IsParentProcess
 aEvent
 .
 mIsSynthesizedByTIP
+|
+|
+aEvent
+.
+IsKeyEventOnPlugin
+(
+)
 )
 {
 return

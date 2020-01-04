@@ -786,6 +786,9 @@ case
 eKeyDown
 :
 case
+eKeyDownOnPlugin
+:
+case
 eAfterKeyDown
 :
 case
@@ -793,6 +796,9 @@ eBeforeKeyUp
 :
 case
 eKeyUp
+:
+case
+eKeyUpOnPlugin
 :
 case
 eAfterKeyUp
@@ -933,6 +939,9 @@ case
 eKeyDown
 :
 case
+eKeyDownOnPlugin
+:
+case
 eAfterKeyDown
 :
 case
@@ -940,6 +949,9 @@ eBeforeKeyUp
 :
 case
 eKeyUp
+:
+case
+eKeyUpOnPlugin
 :
 case
 eAfterKeyUp
