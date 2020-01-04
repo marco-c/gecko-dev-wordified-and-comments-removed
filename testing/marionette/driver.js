@@ -9669,7 +9669,7 @@ cmd
 .
 parameters
 .
-max_len
+max_length
 )
 ;
 break
