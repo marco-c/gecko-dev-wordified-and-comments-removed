@@ -374,7 +374,7 @@ void
 emitAsmJSBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 mir
 const
@@ -394,7 +394,7 @@ bool
 maybeEmitThrowingAsmJSBoundsCheck
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 mir
 const
@@ -443,7 +443,7 @@ void
 cleanupAfterAsmJSBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 mir
 Register

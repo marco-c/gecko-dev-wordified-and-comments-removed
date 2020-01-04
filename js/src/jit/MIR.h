@@ -52965,7 +52965,7 @@ type
 }
 ;
 class
-MAsmJSHeapAccess
+MWasmMemoryAccess
 {
 uint32_t
 offset_
@@ -52996,7 +52996,7 @@ barrierAfter_
 public
 :
 explicit
-MAsmJSHeapAccess
+MWasmMemoryAccess
 (
 Scalar
 :
@@ -53273,7 +53273,7 @@ MAsmJSLoadHeap
 public
 MUnaryInstruction
 public
-MAsmJSHeapAccess
+MWasmMemoryAccess
 public
 NoTypePolicy
 :
@@ -53286,7 +53286,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 )
@@ -53295,7 +53295,7 @@ MUnaryInstruction
 (
 base
 )
-MAsmJSHeapAccess
+MWasmMemoryAccess
 (
 access
 )
@@ -53464,7 +53464,7 @@ MAsmJSStoreHeap
 public
 MBinaryInstruction
 public
-MAsmJSHeapAccess
+MWasmMemoryAccess
 public
 NoTypePolicy
 :
@@ -53477,7 +53477,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -53490,7 +53490,7 @@ MBinaryInstruction
 base
 v
 )
-MAsmJSHeapAccess
+MWasmMemoryAccess
 (
 access
 )
@@ -53592,7 +53592,7 @@ MAsmJSCompareExchangeHeap
 public
 MTernaryInstruction
 public
-MAsmJSHeapAccess
+MWasmMemoryAccess
 public
 NoTypePolicy
 :
@@ -53605,7 +53605,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -53622,7 +53622,7 @@ base
 oldv
 newv
 )
-MAsmJSHeapAccess
+MWasmMemoryAccess
 (
 access
 )
@@ -53717,7 +53717,7 @@ MAsmJSAtomicExchangeHeap
 public
 MBinaryInstruction
 public
-MAsmJSHeapAccess
+MWasmMemoryAccess
 public
 NoTypePolicy
 :
@@ -53730,7 +53730,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -53743,7 +53743,7 @@ MBinaryInstruction
 base
 value
 )
-MAsmJSHeapAccess
+MWasmMemoryAccess
 (
 access
 )
@@ -53824,7 +53824,7 @@ MAsmJSAtomicBinopHeap
 public
 MBinaryInstruction
 public
-MAsmJSHeapAccess
+MWasmMemoryAccess
 public
 NoTypePolicy
 :
@@ -53842,7 +53842,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -53855,7 +53855,7 @@ MBinaryInstruction
 base
 v
 )
-MAsmJSHeapAccess
+MWasmMemoryAccess
 (
 access
 )

@@ -12668,7 +12668,7 @@ bool
 needsBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 )
@@ -12755,7 +12755,7 @@ void
 loadHeap
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 RegI32
@@ -13061,7 +13061,7 @@ void
 storeHeap
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 RegI32
@@ -22605,7 +22605,7 @@ addr
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -22837,7 +22837,7 @@ unused_value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -24442,7 +24442,7 @@ unused_value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType

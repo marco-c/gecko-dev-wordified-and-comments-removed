@@ -3299,7 +3299,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 )
@@ -3372,7 +3372,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 )
@@ -3446,7 +3446,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -3518,7 +3518,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -3593,7 +3593,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 )
@@ -3642,7 +3642,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -3692,7 +3692,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -3750,7 +3750,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -3812,7 +3812,7 @@ MDefinition
 *
 base
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 MDefinition
@@ -11181,7 +11181,7 @@ FunctionCompiler
 f
 uint32_t
 offset
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 MDefinition
@@ -11348,7 +11348,7 @@ addr
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -11465,7 +11465,7 @@ value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -11647,7 +11647,7 @@ store
 "
 )
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -12029,7 +12029,7 @@ viewType
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -12146,7 +12146,7 @@ value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -12274,7 +12274,7 @@ value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -12396,7 +12396,7 @@ newValue
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -12512,7 +12512,7 @@ value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -13828,7 +13828,7 @@ addr
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -13968,7 +13968,7 @@ value
 return
 false
 ;
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
