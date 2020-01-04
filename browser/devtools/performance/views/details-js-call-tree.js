@@ -129,6 +129,12 @@ container
 =
 null
 ;
+this
+.
+threadNode
+=
+null
+;
 DetailsSubview
 .
 destroy
@@ -231,6 +237,10 @@ optimizations
 }
 ;
 let
+threadNode
+=
+this
+.
 threadNode
 =
 this
@@ -368,6 +378,9 @@ OptimizationsListView
 .
 setCurrentFrame
 (
+this
+.
+threadNode
 treeItem
 .
 frame
