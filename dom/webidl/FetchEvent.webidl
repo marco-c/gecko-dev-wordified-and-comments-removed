@@ -155,6 +155,9 @@ FetchEvent
 :
 ExtendableEvent
 {
+[
+SameObject
+]
 readonly
 attribute
 Request
