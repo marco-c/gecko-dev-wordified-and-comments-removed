@@ -8953,12 +8953,9 @@ intent
 new
 Intent
 (
-getContext
-(
-)
-FxAccountGetStartedActivity
+FxAccountConstants
 .
-class
+ACTION_FXA_GET_STARTED
 )
 ;
 intent

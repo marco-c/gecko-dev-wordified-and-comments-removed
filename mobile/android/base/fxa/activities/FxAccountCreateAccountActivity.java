@@ -2801,11 +2801,15 @@ setResult
 RESULT_CANCELED
 )
 ;
-redirectToActivity
+launchActivity
 (
 FxAccountCreateAccountNotAllowedActivity
 .
 class
+)
+;
+finish
+(
 )
 ;
 }
