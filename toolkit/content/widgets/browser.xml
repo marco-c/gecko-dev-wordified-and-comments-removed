@@ -7673,6 +7673,9 @@ push
 _remoteWebNavigation
 "
 "
+_remoteWebNavigationImpl
+"
+"
 _remoteWebProgressManager
 "
 "
@@ -7953,7 +7956,7 @@ remote
 listeners
 this
 .
-_remoteWebNavigation
+_remoteWebNavigationImpl
 .
 swapBrowser
 (
@@ -7962,7 +7965,7 @@ this
 ;
 aOtherBrowser
 .
-_remoteWebNavigation
+_remoteWebNavigationImpl
 .
 swapBrowser
 (
