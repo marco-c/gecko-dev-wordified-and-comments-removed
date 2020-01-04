@@ -2134,26 +2134,33 @@ log
 process_ad
 :
 waiting
-%
-s
+{
+}
 s
 for
 ad
 '
-%
+                                
+.
+format
+(
 ad_timeout
+)
 )
             
 verbose_until
 (
 wait
+                          
 self
+                          
 lambda
 y
 :
 y
 .
 ad_ended
+                          
 "
 Check
 if
@@ -2384,11 +2391,14 @@ obtain
 '
 element
 :
-%
-s
+{
+}
 '
-%
+.
+format
+(
 selector
+)
                                     
 level
 =
@@ -2624,11 +2634,14 @@ obtain
 '
 element
 :
-%
-s
+{
+}
 '
-%
+.
+format
+(
 selector
+)
                                 
 level
 =
@@ -2975,11 +2988,14 @@ log
 '
 Autoplay
 is
-%
-s
+{
+}
 '
-%
+.
+format
+(
 autoplay
+)
 )
                 
 return
@@ -3076,7 +3092,6 @@ tvideo
 id
 :
 {
-0
 }
 '
 .
@@ -3092,7 +3107,6 @@ movie_id
 tvideo_title
 :
 {
-0
 }
 '
 .
@@ -3108,7 +3122,6 @@ movie_title
 tcurrent_state
 :
 {
-0
 }
 '
 .
@@ -3122,7 +3135,6 @@ player_state
 tad_state
 :
 {
-0
 }
 '
 .
@@ -3136,7 +3148,6 @@ ad_state
 tplayback_quality
 :
 {
-0
 }
 '
 .
@@ -3152,7 +3163,6 @@ playback_quality
 tcurrent_time
 :
 {
-0
 }
 '
 .
@@ -3168,7 +3178,6 @@ player_current_time
 tduration
 :
 {
-0
 }
 '
 .
