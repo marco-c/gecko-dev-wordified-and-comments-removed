@@ -292,7 +292,7 @@ xFF
 "
 qt
 "
-VIDEO_MP4
+VIDEO_QUICKTIME
 )
 }
 ;

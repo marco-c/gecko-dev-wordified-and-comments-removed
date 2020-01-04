@@ -1188,6 +1188,14 @@ mp4
 "
 #
 define
+VIDEO_QUICKTIME
+"
+video
+/
+quicktime
+"
+#
+define
 VIDEO_RAW
 "
 video
