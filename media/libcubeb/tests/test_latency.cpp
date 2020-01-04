@@ -107,7 +107,7 @@ uint32_t
 preferred_rate
 ;
 uint32_t
-latency_ms
+latency_frames
 ;
 LOG
 (
@@ -282,7 +282,7 @@ cubeb_get_min_latency
 ctx
 params
 &
-latency_ms
+latency_frames
 )
 ;
 assert
@@ -309,7 +309,7 @@ CUBEB_OK
 {
 assert
 (
-latency_ms
+latency_frames
 >
 0
 &
