@@ -12627,7 +12627,7 @@ opts
 EmitElemOption
 :
 :
-SelfAssign
+CompoundAssign
 )
 {
 if
@@ -12716,7 +12716,7 @@ opts
 EmitElemOption
 :
 :
-SelfAssign
+CompoundAssign
 )
 {
 if
@@ -20465,7 +20465,7 @@ Get
 EmitElemOption
 :
 :
-SelfAssign
+CompoundAssign
 ;
 if
 (

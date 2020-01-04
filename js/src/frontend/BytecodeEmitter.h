@@ -2128,7 +2128,7 @@ Get
 Set
 Call
 IncDec
-SelfAssign
+CompoundAssign
 }
 ;
 bool
