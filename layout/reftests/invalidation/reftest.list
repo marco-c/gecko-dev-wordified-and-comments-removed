@@ -1109,6 +1109,12 @@ inactive
 layers
 .
 html
+skip
+-
+if
+(
+asyncPan
+)
 =
 =
 scroll
