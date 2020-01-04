@@ -681,7 +681,7 @@ eBasicEventClass
 EVENT
 (
 play
-NS_PLAY
+ePlay
 EventNameType_HTML
 eBasicEventClass
 )
