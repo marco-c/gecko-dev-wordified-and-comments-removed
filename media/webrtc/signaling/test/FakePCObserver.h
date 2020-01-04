@@ -306,8 +306,7 @@ string
 >
 candidates
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnCreateOfferSuccess
 (
 const
@@ -320,8 +319,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnCreateOfferError
 (
 uint32_t
@@ -336,8 +334,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnCreateAnswerSuccess
 (
 const
@@ -350,8 +347,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnCreateAnswerError
 (
 uint32_t
@@ -366,8 +362,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnSetLocalDescriptionSuccess
 (
 ER
@@ -376,8 +371,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnSetRemoteDescriptionSuccess
 (
 ER
@@ -386,8 +380,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnSetLocalDescriptionError
 (
 uint32_t
@@ -402,8 +395,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnSetRemoteDescriptionError
 (
 uint32_t
@@ -418,8 +410,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 NotifyDataChannel
 (
 nsIDOMDataChannel
@@ -431,8 +422,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnStateChange
 (
 mozilla
@@ -453,8 +443,7 @@ nullptr
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnAddStream
 (
 mozilla
@@ -469,8 +458,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnRemoveStream
 (
 mozilla
@@ -485,8 +473,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnAddTrack
 (
 mozilla
@@ -504,8 +491,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnRemoveTrack
 (
 mozilla
@@ -523,8 +509,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnReplaceTrackSuccess
 (
 ER
@@ -533,8 +518,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnReplaceTrackError
 (
 uint32_t
@@ -549,8 +533,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnAddIceCandidateSuccess
 (
 ER
@@ -559,8 +542,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnAddIceCandidateError
 (
 uint32_t
@@ -575,8 +557,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnIceCandidate
 (
 uint16_t
@@ -595,8 +576,7 @@ ER
 =
 0
 ;
-virtual
-NS_IMETHODIMP
+NS_IMETHOD
 OnNegotiationNeeded
 (
 ER
