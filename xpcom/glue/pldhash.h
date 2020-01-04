@@ -936,6 +936,14 @@ aKey
 )
 ;
 void
+RemoveEntry
+(
+PLDHashEntryHdr
+*
+aEntry
+)
+;
+void
 RawRemove
 (
 PLDHashEntryHdr
