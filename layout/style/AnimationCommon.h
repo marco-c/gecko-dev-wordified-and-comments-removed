@@ -401,11 +401,6 @@ return
 false
 ;
 }
-void
-FlushAnimations
-(
-)
-;
 nsIStyleRule
 *
 GetAnimationRule
