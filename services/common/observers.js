@@ -129,10 +129,9 @@ _cache
 .
 filter
 (
-function
-(
 v
-)
+=
+>
 v
 .
 topic

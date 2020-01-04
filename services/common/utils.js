@@ -1598,6 +1598,8 @@ left
 octet
 shift
 )
+{
+return
 (
 octet
 <
@@ -1607,6 +1609,7 @@ shift
 &
 0xff
 ;
+}
 advance
 (
 )

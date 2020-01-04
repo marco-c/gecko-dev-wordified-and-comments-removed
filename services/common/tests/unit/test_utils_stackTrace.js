@@ -20,6 +20,8 @@ foo
 (
 v
 )
+{
+return
 bar
 (
 v
@@ -27,11 +29,14 @@ v
 1
 )
 ;
+}
 function
 bar
 (
 v
 )
+{
+return
 baz
 (
 v
@@ -39,6 +44,7 @@ v
 1
 )
 ;
+}
 function
 baz
 (
