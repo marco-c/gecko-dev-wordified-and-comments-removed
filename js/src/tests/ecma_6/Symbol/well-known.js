@@ -3,9 +3,6 @@ names
 =
 [
 "
-isConcatSpreadable
-"
-"
 iterator
 "
 "
