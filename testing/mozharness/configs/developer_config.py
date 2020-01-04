@@ -192,6 +192,23 @@ gittool
 py
 "
 )
+        
+"
+virtualenv
+"
+:
+[
+"
+python
+"
+"
+-
+m
+"
+"
+virtualenv
+"
+]
     
 }
     
