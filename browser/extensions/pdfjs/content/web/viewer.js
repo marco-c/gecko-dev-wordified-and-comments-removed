@@ -7479,8 +7479,13 @@ pdfOpenParams
 }
 }
 return
+this
+.
+getAnchorUrl
+(
 '
 '
+)
 ;
 }
 getAnchorUrl
