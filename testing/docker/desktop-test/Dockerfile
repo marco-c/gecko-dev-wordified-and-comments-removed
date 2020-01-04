@@ -358,14 +358,6 @@ worker
 /
 .
 pulse
-COPY
-bin
-/
-home
-/
-worker
-/
-bin
 RUN
 chmod
 +
