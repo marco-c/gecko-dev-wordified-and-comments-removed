@@ -125,10 +125,6 @@ alwaysFails
 :
 true
 }
-getStructuredData
-:
-{
-}
 getWebManifest
 :
 {
