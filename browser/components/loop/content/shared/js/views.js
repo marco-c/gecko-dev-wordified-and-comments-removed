@@ -4187,7 +4187,7 @@ mozL10n
 get
 (
 "
-context_inroom_label
+context_inroom_label2
 "
 )
 )
