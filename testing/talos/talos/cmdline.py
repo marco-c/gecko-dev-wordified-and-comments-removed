@@ -82,6 +82,11 @@ None
 )
 :
         
+from
+talos
+import
+test
+        
 print
 '
 Available
@@ -198,6 +203,13 @@ option_string
 None
 )
 :
+        
+from
+talos
+.
+config
+import
+suites_conf
         
 print
 '
