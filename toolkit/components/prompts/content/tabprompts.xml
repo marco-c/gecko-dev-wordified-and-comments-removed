@@ -583,6 +583,17 @@ checkbox
 row
 >
 <
+xbl
+:
+children
+includes
+=
+"
+row
+"
+/
+>
+<
 /
 rows
 >

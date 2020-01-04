@@ -2485,6 +2485,12 @@ nodePrincipal
 ;
 args
 .
+promptPrincipal
+=
+promptPrincipal
+;
+args
+.
 showAlertOrigin
 =
 topPrincipal
