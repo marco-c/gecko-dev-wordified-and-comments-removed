@@ -55,6 +55,16 @@ TextureSourceBasic
 {
 public
 :
+TextureSourceBasic
+(
+)
+:
+mFromYCBCR
+(
+false
+)
+{
+}
 virtual
 ~
 TextureSourceBasic
@@ -79,6 +89,9 @@ aTarget
 )
 =
 0
+;
+bool
+mFromYCBCR
 ;
 }
 ;
