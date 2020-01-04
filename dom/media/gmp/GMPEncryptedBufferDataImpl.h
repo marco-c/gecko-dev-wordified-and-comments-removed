@@ -61,7 +61,6 @@ aStrings
 )
 ;
 virtual
-const
 uint32_t
 Size
 (

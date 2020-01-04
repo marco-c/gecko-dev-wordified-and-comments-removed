@@ -19,7 +19,6 @@ GMPStringList
 public
 :
 virtual
-const
 uint32_t
 Size
 (

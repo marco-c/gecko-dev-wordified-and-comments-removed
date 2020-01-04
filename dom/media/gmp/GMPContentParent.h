@@ -194,11 +194,11 @@ mPluginId
 aPluginId
 ;
 }
-const
 uint32_t
 GetPluginId
 (
 )
+const
 {
 return
 mPluginId

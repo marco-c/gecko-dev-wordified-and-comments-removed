@@ -4514,7 +4514,6 @@ return
 mVersion
 ;
 }
-const
 uint32_t
 GMPParent
 :

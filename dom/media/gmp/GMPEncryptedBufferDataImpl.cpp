@@ -410,7 +410,6 @@ aStrings
 )
 {
 }
-const
 uint32_t
 GMPStringListImpl
 :
