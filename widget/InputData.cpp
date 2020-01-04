@@ -166,6 +166,12 @@ mButtonType
 (
 NONE
 )
+mInputSource
+(
+aMouseEvent
+.
+inputSource
+)
 mButtons
 (
 aMouseEvent
