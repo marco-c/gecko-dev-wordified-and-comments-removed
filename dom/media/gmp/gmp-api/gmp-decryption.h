@@ -273,7 +273,7 @@ kGMPExpired
 kGMPOutputDownscaled
 =
 2
-kGMPOutputNotAllowed
+kGMPOutputRestricted
 =
 3
 kGMPInternalError
@@ -282,9 +282,15 @@ kGMPInternalError
 kGMPUnknown
 =
 5
-kGMPMediaKeyStatusInvalid
+kGMPReleased
 =
 6
+kGMPStatusPending
+=
+7
+kGMPMediaKeyStatusInvalid
+=
+8
 }
 ;
 typedef
