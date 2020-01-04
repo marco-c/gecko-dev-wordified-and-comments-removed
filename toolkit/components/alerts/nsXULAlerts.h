@@ -7,6 +7,13 @@ nsXULAlerts_h__
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
