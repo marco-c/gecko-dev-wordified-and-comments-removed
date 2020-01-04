@@ -1391,6 +1391,10 @@ mozilla
 OriginAttributesPattern
 &
 aPattern
+const
+nsCString
+&
+aBaseDomain
 nsISimpleEnumerator
 *
 *
@@ -1407,6 +1411,10 @@ mozilla
 OriginAttributesPattern
 &
 aPattern
+const
+nsCString
+&
+aBaseDomain
 )
 ;
 nsresult
