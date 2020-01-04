@@ -8555,11 +8555,6 @@ CreateTransparentBlackBrush
 )
 ;
 }
-bool
-useSamplingRect
-=
-false
-;
 if
 (
 pat
