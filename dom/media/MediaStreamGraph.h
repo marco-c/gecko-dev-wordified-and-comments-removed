@@ -1804,9 +1804,6 @@ bool
 mIsConsumed
 ;
 bool
-mInBlockingSet
-;
-bool
 mBlockInThisPhase
 ;
 DOMMediaStream
