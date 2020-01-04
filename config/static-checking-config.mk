@@ -84,7 +84,7 @@ CLANG_PLUGIN
 :
 =
 (
-DEPTH
+topobjdir
 )
 /
 build
