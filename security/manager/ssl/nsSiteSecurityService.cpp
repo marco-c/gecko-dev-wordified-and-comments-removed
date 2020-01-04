@@ -4484,10 +4484,14 @@ return
 strcmp
 (
 keyStr
+&
+kSTSHostTable
+[
 preloadEntry
 -
 >
-mHost
+mHostIndex
+]
 )
 ;
 }
