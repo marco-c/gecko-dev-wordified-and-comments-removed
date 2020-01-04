@@ -1035,9 +1035,6 @@ GLContext
 const
 mGL
 ;
-GLuint
-packAlign
-;
 }
 ;
 struct
