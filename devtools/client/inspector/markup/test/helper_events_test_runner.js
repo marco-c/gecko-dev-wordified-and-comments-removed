@@ -160,7 +160,7 @@ inspector
 .
 markup
 .
-tooltip
+eventDetailsTooltip
 ;
 yield
 selectNode
