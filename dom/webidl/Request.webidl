@@ -280,6 +280,9 @@ BodyInit
 ?
 body
 ;
+USVString
+referrer
+;
 RequestMode
 mode
 ;
