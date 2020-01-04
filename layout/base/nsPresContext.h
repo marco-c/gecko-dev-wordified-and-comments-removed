@@ -3024,10 +3024,6 @@ Clear
 (
 )
 ;
-mAllInvalidated
-=
-false
-;
 }
 uint64_t
 GetRestyleGeneration
@@ -4068,11 +4064,6 @@ mPrefChangePendingNeedsReflow
 ;
 unsigned
 mIsEmulatingMedia
-:
-1
-;
-unsigned
-mAllInvalidated
 :
 1
 ;
