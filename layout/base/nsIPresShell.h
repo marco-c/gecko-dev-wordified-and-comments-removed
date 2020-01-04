@@ -2702,9 +2702,6 @@ nsIContent
 mOverrideContent
 ;
 bool
-mReleaseContent
-;
-bool
 mPrimaryState
 ;
 explicit
@@ -2720,10 +2717,6 @@ aPrimaryState
 mPendingContent
 (
 aPendingContent
-)
-mReleaseContent
-(
-false
 )
 mPrimaryState
 (
@@ -2866,7 +2859,7 @@ aPointerId
 )
 ;
 static
-bool
+void
 CheckPointerCaptureState
 (
 uint32_t
