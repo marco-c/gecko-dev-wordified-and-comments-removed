@@ -6149,6 +6149,10 @@ state_
 (
 Idle
 )
+canWait_
+(
+false
+)
 {
 }
 bool
