@@ -4249,14 +4249,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineRegExpPrototypeOptimizable
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineObjectCreate
 (
 CallInfo
