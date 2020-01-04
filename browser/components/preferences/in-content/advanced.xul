@@ -1596,7 +1596,7 @@ vertical
 >
 #
 ifdef
-MOZ_SERVICES_HEALTHREPORT
+MOZ_TELEMETRY_REPORTING
 <
 groupbox
 >
@@ -1699,9 +1699,6 @@ label
 /
 hbox
 >
-#
-ifdef
-MOZ_TELEMETRY_REPORTING
 <
 hbox
 class
@@ -1836,8 +1833,6 @@ groupbox
 /
 hbox
 >
-#
-endif
 <
 /
 vbox
