@@ -8956,8 +8956,6 @@ mDemuxer
 >
 NotifyDataArrived
 (
-aLength
-aOffset
 )
 ;
 }
