@@ -13764,10 +13764,6 @@ aItem
 >
 ProvidesFontSmoothingBackgroundColor
 (
-aState
--
->
-mBuilder
 &
 fontSmoothingBGColor
 )
@@ -15584,7 +15580,6 @@ aboveItem
 >
 TryMerge
 (
-mBuilder
 item
 )
 )
