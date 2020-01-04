@@ -23867,6 +23867,10 @@ backgroundColor
 thebes
 )
 ;
+EnsureTarget
+(
+)
+;
 if
 (
 drawDT
