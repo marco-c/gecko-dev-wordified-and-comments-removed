@@ -228,6 +228,11 @@ aValue
 =
 0
 ;
+void
+ChangedDPI
+(
+)
+;
 static
 bool
 InitTouchInjection

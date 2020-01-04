@@ -3524,11 +3524,9 @@ aConstraints
 virtual
 const
 SizeConstraints
-&
 GetSizeConstraints
 (
 )
-const
 =
 0
 ;

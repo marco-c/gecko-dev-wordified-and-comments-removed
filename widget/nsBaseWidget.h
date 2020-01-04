@@ -1592,11 +1592,6 @@ return
 aClientSize
 ;
 }
-CSSIntRect
-GetScaledScreenBounds
-(
-)
-;
 already_AddRefed
 <
 nsIScreen
@@ -1652,11 +1647,9 @@ override
 virtual
 const
 SizeConstraints
-&
 GetSizeConstraints
 (
 )
-const
 override
 ;
 virtual
@@ -2195,8 +2188,14 @@ int32_t
 *
 aHeight
 )
-const
 {
+SizeConstraints
+c
+=
+GetSizeConstraints
+(
+)
+;
 *
 aWidth
 =
@@ -2205,7 +2204,7 @@ std
 :
 max
 (
-mSizeConstraints
+c
 .
 mMinSize
 .
@@ -2215,7 +2214,7 @@ std
 :
 min
 (
-mSizeConstraints
+c
 .
 mMaxSize
 .
@@ -2233,7 +2232,7 @@ std
 :
 max
 (
-mSizeConstraints
+c
 .
 mMinSize
 .
@@ -2243,7 +2242,7 @@ std
 :
 min
 (
-mSizeConstraints
+c
 .
 mMaxSize
 .
