@@ -545,6 +545,11 @@ HTMLStyleElement
 h
 '
 '
+HTMLSummaryElement
+.
+h
+'
+'
 HTMLTableCaptionElement
 .
 h
@@ -931,6 +936,11 @@ cpp
 '
 '
 HTMLStyleElement
+.
+cpp
+'
+'
+HTMLSummaryElement
 .
 cpp
 '
