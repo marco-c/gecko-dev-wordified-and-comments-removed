@@ -116,6 +116,15 @@ extensions
 /
 schemas
 /
+manifest
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 runtime
 .
 json
