@@ -989,10 +989,6 @@ JS
 FinishOffThreadScript
 (
 aCx
-JS_GetRuntime
-(
-aCx
-)
 *
 aOffThreadToken
 )

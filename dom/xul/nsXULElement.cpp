@@ -6609,10 +6609,7 @@ const
 nsChangeHint
 retval
 (
-nsChangeHint
-(
-0
-)
+NS_STYLE_HINT_NONE
 )
 ;
 if
@@ -12717,10 +12714,6 @@ JS
 FinishOffThreadScript
 (
 cx
-JS_GetRuntime
-(
-cx
-)
 mToken
 )
 ;
