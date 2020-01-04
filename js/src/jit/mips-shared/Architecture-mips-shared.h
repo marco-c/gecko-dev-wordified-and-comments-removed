@@ -115,9 +115,7 @@ const
 uint32_t
 JumpImmediateRange
 =
-100
-*
-1024
+UINT32_MAX
 ;
 class
 Registers
