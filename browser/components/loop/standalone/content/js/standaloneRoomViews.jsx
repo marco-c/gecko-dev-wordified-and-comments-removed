@@ -4012,7 +4012,7 @@ props
 .
 screenSharePosterUrl
 }
-showContextRoomName
+showInitialContext
 =
 {
 true

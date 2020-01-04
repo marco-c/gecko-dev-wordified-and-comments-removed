@@ -7528,7 +7528,7 @@ TextChatView
 dispatcher
 :
 dispatcher
-showRoomName
+showInitialContext
 :
 false
 useDesktopPaths
@@ -7614,7 +7614,7 @@ TextChatView
 dispatcher
 :
 dispatcher
-showRoomName
+showInitialContext
 :
 true
 useDesktopPaths

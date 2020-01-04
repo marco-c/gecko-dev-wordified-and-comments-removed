@@ -5357,7 +5357,7 @@ screenSharePosterUrl
 {
 null
 }
-showContextRoomName
+showInitialContext
 =
 {
 false

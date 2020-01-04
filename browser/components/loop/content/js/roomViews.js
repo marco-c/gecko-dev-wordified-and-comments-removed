@@ -4355,7 +4355,7 @@ screenShareMediaElement
 screenSharePosterUrl
 :
 null
-showContextRoomName
+showInitialContext
 :
 false
 useDesktopPaths

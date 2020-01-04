@@ -394,6 +394,17 @@ contentType
 CHAT_CONTENT_TYPES
 .
 ROOM_NAME
+&
+&
+message
+.
+contentType
+!
+=
+=
+CHAT_CONTENT_TYPES
+.
+CONTEXT
 )
 {
 if

@@ -8412,7 +8412,7 @@ dispatcher
 {
 dispatcher
 }
-showRoomName
+showInitialContext
 =
 {
 false
@@ -8496,7 +8496,7 @@ dispatcher
 {
 dispatcher
 }
-showRoomName
+showInitialContext
 =
 {
 true
