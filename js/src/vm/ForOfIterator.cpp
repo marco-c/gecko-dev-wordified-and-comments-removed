@@ -654,7 +654,7 @@ args
 .
 init
 (
-1
+0
 )
 )
 return
@@ -676,15 +676,6 @@ ObjectValue
 *
 iterator
 )
-)
-;
-args
-[
-0
-]
-.
-setUndefined
-(
 )
 ;
 if
