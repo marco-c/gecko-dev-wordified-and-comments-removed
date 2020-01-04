@@ -1041,9 +1041,13 @@ presentationURL
 ;
 UIStateChangeType
 showAccelerators
+=
+UIStateChangeType_NoChange
 ;
 UIStateChangeType
 showFocusRings
+=
+UIStateChangeType_NoChange
 ;
 switch
 (
