@@ -81,7 +81,7 @@ windowtype
 if
 (
 windowType
-=
+!
 =
 "
 alert
@@ -90,6 +90,9 @@ alert
 "
 )
 {
+return
+;
+}
 Services
 .
 wm
@@ -104,7 +107,6 @@ resolve
 alertWindow
 )
 ;
-}
 }
 )
 ;
