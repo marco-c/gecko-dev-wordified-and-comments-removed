@@ -198,7 +198,11 @@ mPreferRust
 ;
 mutable
 bool
-mReportedTelemetry
+mReportedAudioTrackTelemetry
+;
+mutable
+bool
+mReportedVideoTrackTelemetry
 ;
 bool
 ShouldPreferRust
