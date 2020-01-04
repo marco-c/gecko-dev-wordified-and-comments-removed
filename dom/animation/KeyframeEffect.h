@@ -1013,7 +1013,7 @@ return
 mProperties
 ;
 }
-void
+bool
 UpdateProperties
 (
 const
