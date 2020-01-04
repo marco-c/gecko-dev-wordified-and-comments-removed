@@ -19,10 +19,7 @@ GrTypesPriv
 h
 "
 class
-GrFragmentProcessor
-;
-class
-GrProcessor
+GrEffect
 ;
 class
 SkRRect
@@ -30,11 +27,11 @@ SkRRect
 namespace
 GrRRectEffect
 {
-GrFragmentProcessor
+GrEffect
 *
 Create
 (
-GrPrimitiveEdgeType
+GrEffectEdgeType
 const
 SkRRect
 &

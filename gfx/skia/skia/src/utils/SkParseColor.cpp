@@ -1989,7 +1989,7 @@ hi
 mid
 )
 return
-nullptr
+NULL
 ;
 else
 hi
@@ -1998,7 +1998,7 @@ mid
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 static
@@ -2099,7 +2099,7 @@ if
 end
 =
 =
-nullptr
+NULL
 )
 return
 end
@@ -2242,7 +2242,7 @@ end
 else
 {
 return
-nullptr
+NULL
 ;
 }
 }
@@ -2323,7 +2323,7 @@ result
 )
 !
 =
-nullptr
+NULL
 )
 ;
 SkASSERT
@@ -2416,7 +2416,7 @@ result
 )
 =
 =
-nullptr
+NULL
 )
 ;
 bad
@@ -2439,7 +2439,7 @@ result
 )
 =
 =
-nullptr
+NULL
 )
 ;
 }

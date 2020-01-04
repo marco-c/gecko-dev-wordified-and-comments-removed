@@ -158,7 +158,7 @@ fAttrValues
 256
 ]
 ;
-uint8_t
+U8
 fNextElem
 fNextAttrName
 fNextAttrValue

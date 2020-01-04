@@ -65,16 +65,6 @@ fHead
 fLiveCount
 ;
 }
-size_t
-size
-(
-)
-const
-{
-return
-fSize
-;
-}
 private
 :
 struct
@@ -126,9 +116,6 @@ fPrevPtr
 size_t
 fFreeSize
 ;
-size_t
-fSize
-;
 }
 ;
 enum
@@ -160,9 +147,6 @@ kAlignment
 }
 ;
 size_t
-fSize
-;
-size_t
 fPreallocSize
 ;
 size_t
@@ -181,9 +165,6 @@ ifdef
 SK_DEBUG
 int
 fAllocationCnt
-;
-int
-fAllocBlockCnt
 ;
 #
 endif

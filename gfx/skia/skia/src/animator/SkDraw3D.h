@@ -14,7 +14,7 @@ h
 #
 include
 "
-SkADrawable
+SkDrawable
 .
 h
 "
@@ -51,7 +51,7 @@ class
 Sk3D_Camera
 :
 public
-SkADrawable
+SkDrawable
 {
 DECLARE_MEMBER_INFO
 (
@@ -68,13 +68,13 @@ Sk3D_Camera
 (
 )
 ;
+virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
-override
 ;
 private
 :
@@ -106,6 +106,7 @@ DECLARE_MEMBER_INFO
 ;
 private
 :
+virtual
 void
 executeFunction
 (
@@ -124,15 +125,14 @@ type
 SkScriptValue
 *
 )
-override
 ;
+virtual
 const
 SkFunctionParamType
 *
 getFunctionsParameters
 (
 )
-override
 ;
 SkPatch3D
 fPatch

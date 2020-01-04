@@ -6,12 +6,6 @@ SkTypes
 h
 "
 #
-if
-defined
-(
-SK_BUILD_FOR_WIN32
-)
-#
 include
 "
 SkHRESULT
@@ -38,6 +32,9 @@ msg
 {
 if
 (
+NULL
+!
+=
 msg
 )
 {
@@ -77,7 +74,7 @@ hr
 LPSTR
 errorText
 =
-nullptr
+NULL
 ;
 FormatMessageA
 (
@@ -86,7 +83,7 @@ FORMAT_MESSAGE_ALLOCATE_BUFFER
 FORMAT_MESSAGE_FROM_SYSTEM
 |
 FORMAT_MESSAGE_IGNORE_INSERTS
-nullptr
+NULL
 hr
 MAKELANGID
 (
@@ -99,12 +96,12 @@ LPSTR
 &
 errorText
 0
-nullptr
+NULL
 )
 ;
 if
 (
-nullptr
+NULL
 =
 =
 errorText
@@ -140,9 +137,7 @@ errorText
 ;
 errorText
 =
-nullptr
+NULL
 ;
 }
 }
-#
-endif

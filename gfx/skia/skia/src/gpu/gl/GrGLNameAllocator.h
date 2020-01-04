@@ -16,7 +16,7 @@ include
 "
 gl
 /
-GrGLTypes
+GrGLFunctions
 .
 h
 "

@@ -202,7 +202,7 @@ SkString
 )
 {
 return
-nullptr
+NULL
 ;
 }
 SkDisplayable
@@ -238,7 +238,7 @@ SkASSERT
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 SkDisplayable
@@ -289,7 +289,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 break
 ;
@@ -379,7 +379,7 @@ if
 array
 =
 =
-nullptr
+NULL
 |
 |
 (
@@ -542,7 +542,7 @@ if
 displayable
 =
 =
-nullptr
+NULL
 |
 |
 *
@@ -838,7 +838,7 @@ index
 ;
 if
 (
-nullptr
+NULL
 =
 =
 info
@@ -971,7 +971,7 @@ if
 array
 =
 =
-nullptr
+NULL
 |
 |
 (
@@ -1541,7 +1541,7 @@ index
 ;
 if
 (
-nullptr
+NULL
 =
 =
 info
@@ -1589,7 +1589,7 @@ if
 displayable
 =
 =
-nullptr
+NULL
 |
 |
 *
@@ -2513,13 +2513,16 @@ info
 -
 >
 fName
+SkScalarToFloat
+(
+SkScalarDiv
+(
 op
 .
 fS32
-*
-0
-.
-001
+1000
+)
+)
 )
 ;
 }
@@ -2766,7 +2769,7 @@ getFunctionsParameters
 )
 {
 return
-nullptr
+NULL
 ;
 }
 const
@@ -2782,7 +2785,7 @@ index
 )
 {
 return
-nullptr
+NULL
 ;
 }
 const
@@ -2801,7 +2804,7 @@ name
 )
 {
 return
-nullptr
+NULL
 ;
 }
 const
@@ -2835,7 +2838,7 @@ SkASSERT
 params
 !
 =
-nullptr
+NULL
 )
 ;
 int
@@ -2938,7 +2941,7 @@ getParent
 const
 {
 return
-nullptr
+NULL
 ;
 }
 bool
@@ -3044,7 +3047,7 @@ type
 )
 {
 return
-nullptr
+NULL
 ;
 }
 bool

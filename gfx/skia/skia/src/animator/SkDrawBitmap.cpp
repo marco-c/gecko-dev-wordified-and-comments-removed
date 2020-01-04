@@ -632,14 +632,14 @@ true
 )
 fUriBase
 (
-nullptr
+NULL
 )
 {
 base64
 .
 fData
 =
-nullptr
+NULL
 ;
 base64
 .
@@ -944,7 +944,7 @@ reset
 (
 )
 ;
-SkAutoTDelete
+SkAutoTUnref
 <
 SkStreamAsset
 >

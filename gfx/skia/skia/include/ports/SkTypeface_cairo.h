@@ -27,9 +27,10 @@ SkCreateTypefaceFromCairoFont
 cairo_font_face_t
 *
 fontFace
-const
-SkFontStyle
-&
+SkTypeface
+:
+:
+Style
 style
 bool
 isFixedWidth

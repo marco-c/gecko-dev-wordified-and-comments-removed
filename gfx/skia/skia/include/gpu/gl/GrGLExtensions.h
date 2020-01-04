@@ -44,11 +44,13 @@ false
 )
 fStrings
 (
-new
+SkNEW
+(
 SkTArray
 <
 SkString
 >
+)
 )
 {
 }
@@ -81,6 +83,7 @@ fStrings
 .
 swap
 (
+&
 that
 -
 >
@@ -108,14 +111,6 @@ GrGLGetStringiProc
 getStringi
 GrGLGetIntegervProc
 getIntegerv
-GrEGLQueryStringProc
-queryString
-=
-nullptr
-GrEGLDisplay
-eglDisplay
-=
-nullptr
 )
 ;
 bool

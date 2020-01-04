@@ -40,7 +40,7 @@ fNumber
 )
 fTexture
 (
-nullptr
+NULL
 )
 {
 }

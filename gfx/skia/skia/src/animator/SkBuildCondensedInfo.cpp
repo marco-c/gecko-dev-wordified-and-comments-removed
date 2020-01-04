@@ -113,7 +113,7 @@ type
 ]
 =
 =
-nullptr
+NULL
 )
 ;
 gInfos
@@ -974,7 +974,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 continue
 ;
@@ -1120,7 +1120,7 @@ maker
 SkDisplayTypes
 )
 typeIndex
-nullptr
+NULL
 )
 ;
 if
@@ -1423,7 +1423,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 continue
 ;
@@ -1590,7 +1590,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 continue
 ;
@@ -1954,7 +1954,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 continue
 ;
@@ -2155,7 +2155,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 continue
 ;

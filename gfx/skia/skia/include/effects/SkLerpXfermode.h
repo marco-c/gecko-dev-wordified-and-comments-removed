@@ -51,7 +51,7 @@ aa
 ]
 )
 const
-override
+SK_OVERRIDE
 ;
 virtual
 void
@@ -75,7 +75,7 @@ aa
 ]
 )
 const
-override
+SK_OVERRIDE
 ;
 virtual
 void
@@ -99,7 +99,7 @@ aa
 ]
 )
 const
-override
+SK_OVERRIDE
 ;
 SK_TO_STRING_OVERRIDE
 (
@@ -110,6 +110,13 @@ SkLerpXfermode
 )
 protected
 :
+SkLerpXfermode
+(
+SkReadBuffer
+&
+)
+;
+virtual
 void
 flatten
 (
@@ -117,7 +124,7 @@ SkWriteBuffer
 &
 )
 const
-override
+SK_OVERRIDE
 ;
 private
 :

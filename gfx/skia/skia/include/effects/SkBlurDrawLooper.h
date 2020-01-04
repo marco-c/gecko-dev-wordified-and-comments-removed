@@ -73,7 +73,8 @@ kNone_BlurFlag
 )
 {
 return
-new
+SkNEW_ARGS
+(
 SkBlurDrawLooper
 (
 color
@@ -81,6 +82,7 @@ sigma
 dx
 dy
 flags
+)
 )
 ;
 }
@@ -90,6 +92,7 @@ SkBlurDrawLooper
 (
 )
 ;
+virtual
 SkDrawLooper
 :
 :
@@ -104,14 +107,15 @@ void
 storage
 )
 const
-override
+SK_OVERRIDE
 ;
+virtual
 size_t
 contextSize
 (
 )
 const
-override
+SK_OVERRIDE
 {
 return
 sizeof
@@ -143,6 +147,13 @@ uint32_t
 flags
 )
 ;
+SkBlurDrawLooper
+(
+SkReadBuffer
+&
+)
+;
+virtual
 void
 flatten
 (
@@ -150,8 +161,9 @@ SkWriteBuffer
 &
 )
 const
-override
+SK_OVERRIDE
 ;
+virtual
 bool
 asABlurShadow
 (
@@ -159,7 +171,7 @@ BlurShadowRec
 *
 )
 const
-override
+SK_OVERRIDE
 ;
 private
 :
@@ -210,6 +222,7 @@ SkBlurDrawLooper
 looper
 )
 ;
+virtual
 bool
 next
 (
@@ -220,7 +233,7 @@ SkPaint
 *
 paint
 )
-override
+SK_OVERRIDE
 ;
 private
 :

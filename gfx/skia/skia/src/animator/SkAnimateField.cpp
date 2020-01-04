@@ -15,7 +15,7 @@ h
 #
 include
 "
-SkADrawable
+SkDrawable
 .
 h
 "
@@ -164,11 +164,14 @@ g
 \
 "
 "
+SkScalarToFloat
+(
+SkScalarDiv
+(
 dur
-*
-0
-.
-001
+1000
+)
+)
 )
 ;
 if
@@ -324,7 +327,7 @@ if
 fTarget
 =
 =
-nullptr
+NULL
 )
 return
 false
@@ -375,7 +378,7 @@ resolved
 fFieldInfo
 =
 =
-nullptr
+NULL
 )
 {
 maker
@@ -407,7 +410,7 @@ false
 fFieldInfo
 =
 =
-nullptr
+NULL
 )
 return
 ;
@@ -447,7 +450,7 @@ maker
 fValues
 0
 0
-nullptr
+NULL
 outType
 to
 )

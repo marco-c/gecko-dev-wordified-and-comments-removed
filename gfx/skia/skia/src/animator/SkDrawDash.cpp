@@ -95,7 +95,7 @@ count
 0
 )
 return
-nullptr
+NULL
 ;
 return
 SkDashPathEffect

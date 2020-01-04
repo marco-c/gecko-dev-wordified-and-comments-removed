@@ -95,7 +95,7 @@ SkMetaData
 :
 fRec
 (
-nullptr
+NULL
 )
 {
 }
@@ -112,7 +112,7 @@ src
 :
 fRec
 (
-nullptr
+NULL
 )
 {
 *
@@ -239,7 +239,7 @@ next
 }
 fRec
 =
-nullptr
+NULL
 ;
 }
 SkMetaData
@@ -449,7 +449,7 @@ count
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 void
@@ -1098,7 +1098,7 @@ data
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 bool
@@ -1240,7 +1240,7 @@ SkASSERT
 rec
 =
 =
-nullptr
+NULL
 |
 |
 rec
@@ -1270,7 +1270,7 @@ data
 (
 )
 :
-nullptr
+NULL
 ;
 }
 bool
@@ -1424,7 +1424,7 @@ data
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 const
@@ -1495,7 +1495,7 @@ fNext
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 bool
@@ -1523,7 +1523,7 @@ Rec
 *
 prev
 =
-nullptr
+NULL
 ;
 while
 (
@@ -1876,7 +1876,7 @@ char
 *
 name
 =
-nullptr
+NULL
 ;
 if
 (

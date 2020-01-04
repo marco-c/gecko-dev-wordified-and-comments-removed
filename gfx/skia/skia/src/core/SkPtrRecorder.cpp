@@ -119,7 +119,7 @@ const
 {
 if
 (
-nullptr
+NULL
 =
 =
 ptr
@@ -202,7 +202,7 @@ ptr
 {
 if
 (
-nullptr
+NULL
 =
 =
 ptr

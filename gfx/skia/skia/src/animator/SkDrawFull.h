@@ -22,13 +22,13 @@ DECLARE_EMPTY_MEMBER_INFO
 Full
 )
 ;
+virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
-override
 ;
 private
 :

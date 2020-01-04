@@ -93,11 +93,11 @@ offset
 )
 path
 (
-nullptr
+NULL
 )
 text
 (
-nullptr
+NULL
 )
 {
 }

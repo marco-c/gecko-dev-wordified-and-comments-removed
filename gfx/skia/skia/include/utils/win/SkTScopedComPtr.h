@@ -12,8 +12,12 @@ SkTypes
 h
 "
 #
-ifdef
-SK_BUILD_FOR_WIN
+include
+"
+SkTemplates
+.
+h
+"
 template
 <
 typename
@@ -238,6 +242,9 @@ reset
 {
 if
 (
+NULL
+!
+=
 this
 -
 >
@@ -327,7 +334,5 @@ temp
 }
 }
 ;
-#
-endif
 #
 endif

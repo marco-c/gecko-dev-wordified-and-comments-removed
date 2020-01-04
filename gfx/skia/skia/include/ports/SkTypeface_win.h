@@ -11,9 +11,6 @@ SkTypeface
 .
 h
 "
-#
-ifdef
-SK_BUILD_FOR_WIN
 SK_API
 SkTypeface
 *
@@ -96,7 +93,5 @@ SkRemotableFontMgr_New_DirectWrite
 (
 )
 ;
-#
-endif
 #
 endif

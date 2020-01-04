@@ -69,7 +69,7 @@ this
 set
 (
 name
-nullptr
+NULL
 )
 ;
 }

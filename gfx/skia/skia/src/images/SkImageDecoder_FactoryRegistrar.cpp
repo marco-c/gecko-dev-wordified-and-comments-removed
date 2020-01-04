@@ -55,7 +55,7 @@ SkImageDecoder
 *
 codec
 =
-nullptr
+NULL
 ;
 const
 SkImageDecoder_DecodeReg
@@ -117,11 +117,13 @@ stream
 )
 )
 ;
-delete
+SkDELETE
+(
 codec
+)
 ;
 return
-nullptr
+NULL
 ;
 }
 if
@@ -144,7 +146,7 @@ next
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 template
@@ -186,7 +188,7 @@ while
 curr
 !
 =
-nullptr
+NULL
 )
 {
 Format

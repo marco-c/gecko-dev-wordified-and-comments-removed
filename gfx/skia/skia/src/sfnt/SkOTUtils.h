@@ -50,7 +50,7 @@ SkData
 *
 RenameFont
 (
-SkStreamAsset
+SkStream
 *
 fontData
 const
@@ -135,6 +135,7 @@ SkTypeface
 typeface
 )
 ;
+virtual
 bool
 next
 (
@@ -145,7 +146,7 @@ LocalizedString
 *
 localizedString
 )
-override
+SK_OVERRIDE
 ;
 private
 :
@@ -237,6 +238,7 @@ true
 )
 {
 }
+virtual
 bool
 next
 (
@@ -247,7 +249,7 @@ LocalizedString
 *
 localizedString
 )
-override
+SK_OVERRIDE
 {
 localizedString
 -

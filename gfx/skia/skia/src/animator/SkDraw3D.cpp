@@ -181,7 +181,7 @@ hackHeight
 )
 patch
 (
-nullptr
+NULL
 )
 {
 }

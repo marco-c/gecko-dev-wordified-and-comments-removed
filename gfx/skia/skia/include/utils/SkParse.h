@@ -12,7 +12,6 @@ SkColor
 h
 "
 class
-SK_API
 SkParse
 {
 public

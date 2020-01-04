@@ -686,7 +686,7 @@ pack
 (
 pop
 )
-static_assert
+SK_COMPILE_ASSERT
 (
 sizeof
 (
@@ -695,9 +695,7 @@ SkIBMFamilyClass
 =
 =
 2
-"
 sizeof_SkIBMFamilyClass_not_2
-"
 )
 ;
 #

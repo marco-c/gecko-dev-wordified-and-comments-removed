@@ -3570,7 +3570,7 @@ USE_SKIA
 SkGraphics
 :
 :
-PurgeFontCache
+Term
 (
 )
 ;

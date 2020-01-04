@@ -279,7 +279,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 else
@@ -343,7 +343,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 return

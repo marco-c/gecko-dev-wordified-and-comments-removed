@@ -614,7 +614,7 @@ mForceGDIClassic
 }
 ;
 class
-DWriteFontFallbackRenderer
+FontFallbackRenderer
 final
 :
 public
@@ -622,7 +622,7 @@ IDWriteTextRenderer
 {
 public
 :
-DWriteFontFallbackRenderer
+FontFallbackRenderer
 (
 IDWriteFactory
 *
@@ -667,7 +667,7 @@ failed
 ;
 }
 ~
-DWriteFontFallbackRenderer
+FontFallbackRenderer
 (
 )
 {
@@ -1326,7 +1326,7 @@ mGDIInterop
 ;
 RefPtr
 <
-DWriteFontFallbackRenderer
+FontFallbackRenderer
 >
 mFallbackRenderer
 ;

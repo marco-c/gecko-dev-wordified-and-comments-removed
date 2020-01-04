@@ -368,6 +368,7 @@ flags
 }
 protected
 :
+virtual
 bool
 onEvent
 (
@@ -375,16 +376,16 @@ const
 SkEvent
 &
 )
-override
 ;
+virtual
 void
 onDraw
 (
 SkCanvas
 *
 )
-override
 ;
+virtual
 Click
 *
 onFindClickHandler
@@ -396,8 +397,9 @@ y
 unsigned
 modi
 )
-override
+SK_OVERRIDE
 ;
+virtual
 bool
 onClick
 (
@@ -405,7 +407,6 @@ Click
 *
 click
 )
-override
 ;
 private
 :

@@ -40,7 +40,7 @@ while
 rec
 !
 =
-nullptr
+NULL
 )
 {
 if
@@ -99,14 +99,14 @@ SkTagList
 *
 prev
 =
-nullptr
+NULL
 ;
 while
 (
 rec
 !
 =
-nullptr
+NULL
 )
 {
 SkTagList

@@ -156,8 +156,10 @@ fInterpolators
 index
 ]
 =
-new
+SkNEW
+(
 SkOperandInterpolator
+)
 ;
 initState
 (
@@ -403,8 +405,10 @@ fInterpolators
 index
 ]
 =
-new
+SkNEW
+(
 SkOperandInterpolator
+)
 ;
 fAnimators
 .
@@ -1033,7 +1037,7 @@ SkActive
 :
 create
 (
-SkADrawable
+SkDrawable
 *
 drawable
 SkMSec
@@ -1145,7 +1149,7 @@ fMaker
 values
 0
 0
-nullptr
+NULL
 animate
 -
 >
@@ -1275,7 +1279,7 @@ result
 =
 false
 ;
-SkADrawable
+SkDrawable
 *
 drawable
 =
@@ -1458,7 +1462,7 @@ fMaker
 values
 0
 0
-nullptr
+NULL
 animate
 -
 >
@@ -2738,7 +2742,7 @@ if
 from
 =
 =
-nullptr
+NULL
 )
 return
 ;

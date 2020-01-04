@@ -202,7 +202,7 @@ target
 )
 !
 =
-nullptr
+NULL
 )
 this
 -
@@ -242,7 +242,7 @@ target
 )
 !
 =
-nullptr
+NULL
 )
 this
 -
@@ -351,7 +351,7 @@ if
 root
 =
 =
-nullptr
+NULL
 )
 {
 root
@@ -370,7 +370,7 @@ if
 root
 =
 =
-nullptr
+NULL
 )
 {
 printf
@@ -378,7 +378,7 @@ printf
 "
 createView
 returned
-nullptr
+NULL
 on
 <
 %
@@ -396,7 +396,7 @@ node
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 }
@@ -603,7 +603,7 @@ node
 root
 )
 :
-nullptr
+NULL
 ;
 }
 SkView
@@ -642,7 +642,7 @@ view
 ?
 view
 :
-nullptr
+NULL
 ;
 }
 SkView
@@ -686,7 +686,7 @@ new
 SkView
 ;
 return
-nullptr
+NULL
 ;
 }
 void

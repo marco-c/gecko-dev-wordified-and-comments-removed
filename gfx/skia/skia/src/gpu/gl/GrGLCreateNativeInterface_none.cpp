@@ -15,6 +15,6 @@ GrGLCreateNativeInterface
 )
 {
 return
-nullptr
+NULL
 ;
 }

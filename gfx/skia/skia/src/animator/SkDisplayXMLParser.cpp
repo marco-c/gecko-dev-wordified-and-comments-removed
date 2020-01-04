@@ -426,7 +426,7 @@ fInInclude
 )
 fCurrDisplayable
 (
-nullptr
+NULL
 )
 {
 }
@@ -589,7 +589,7 @@ if
 fCurrDisplayable
 =
 =
-nullptr
+NULL
 )
 return
 strncmp
@@ -644,7 +644,7 @@ find
 (
 attrValue
 attrValueLen
-nullptr
+NULL
 )
 )
 {
@@ -783,7 +783,7 @@ if
 info
 =
 =
-nullptr
+NULL
 )
 {
 fError
@@ -817,7 +817,7 @@ info
 setValue
 (
 fMaker
-nullptr
+NULL
 0
 info
 -
@@ -867,7 +867,7 @@ SkDisplayable
 *
 ref
 =
-nullptr
+NULL
 ;
 if
 (
@@ -900,7 +900,7 @@ if
 ref
 =
 =
-nullptr
+NULL
 )
 {
 fError
@@ -1208,7 +1208,7 @@ infoCount
 )
 !
 =
-nullptr
+NULL
 )
 {
 parent
@@ -1268,7 +1268,7 @@ parentIndex
 }
 fCurrDisplayable
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1414,7 +1414,7 @@ SkDisplayEvent
 :
 :
 kOnload
-nullptr
+NULL
 )
 ;
 if
@@ -1440,7 +1440,7 @@ SkDisplayEvent
 :
 :
 kOnload
-nullptr
+NULL
 )
 ;
 }
@@ -1494,7 +1494,7 @@ len
 {
 fCurrDisplayable
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1565,7 +1565,7 @@ if
 displayable
 =
 =
-nullptr
+NULL
 )
 {
 fError
@@ -1725,14 +1725,14 @@ SkMemberInfo
 *
 bestDisplayable
 =
-nullptr
+NULL
 ;
 const
 SkMemberInfo
 *
 lastResort
 =
-nullptr
+NULL
 ;
 for
 (
@@ -1803,7 +1803,7 @@ if
 result
 !
 =
-nullptr
+NULL
 )
 return
 result
@@ -2041,6 +2041,6 @@ return
 lastResort
 ;
 return
-nullptr
+NULL
 ;
 }

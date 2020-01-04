@@ -132,6 +132,6 @@ next
 ;
 }
 return
-nullptr
+NULL
 ;
 }

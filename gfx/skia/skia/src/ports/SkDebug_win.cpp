@@ -5,12 +5,6 @@ SkTypes
 .
 h
 "
-#
-if
-defined
-(
-SK_BUILD_FOR_WIN32
-)
 static
 const
 size_t
@@ -69,9 +63,8 @@ args
 format
 )
 ;
-vfprintf
+vprintf
 (
-stderr
 format
 args
 )
@@ -83,7 +76,7 @@ args
 ;
 fflush
 (
-stderr
+stdout
 )
 ;
 va_start
@@ -111,5 +104,3 @@ buffer
 )
 ;
 }
-#
-endif

@@ -26,12 +26,13 @@ SkDrawEmboss
 (
 )
 ;
+virtual
 SkMaskFilter
 *
 getMaskFilter
 (
 )
-override
+SK_OVERRIDE
 ;
 protected
 :

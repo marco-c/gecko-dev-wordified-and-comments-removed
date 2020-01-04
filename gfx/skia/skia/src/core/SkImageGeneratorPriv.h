@@ -19,14 +19,10 @@ SkDiscardableMemory
 h
 "
 bool
-SkDEPRECATED_InstallDiscardablePixelRef
+SkInstallDiscardablePixelRef
 (
 SkImageGenerator
 *
-const
-SkIRect
-*
-subset
 SkBitmap
 *
 destination

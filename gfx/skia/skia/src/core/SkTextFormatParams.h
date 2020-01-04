@@ -77,7 +77,7 @@ SK_Scalar1
 32
 }
 ;
-static_assert
+SK_COMPILE_ASSERT
 (
 SK_ARRAY_COUNT
 (
@@ -89,9 +89,7 @@ SK_ARRAY_COUNT
 (
 kStdFakeBoldInterpValues
 )
-"
 mismatched_array_size
-"
 )
 ;
 static

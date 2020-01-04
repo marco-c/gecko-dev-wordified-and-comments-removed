@@ -266,7 +266,7 @@ lookup
 0
 )
 return
-nullptr
+NULL
 ;
 if
 (
@@ -397,7 +397,7 @@ if
 result
 !
 =
-nullptr
+NULL
 )
 return
 result
@@ -412,7 +412,7 @@ count
 0
 )
 return
-nullptr
+NULL
 ;
 info
 +
@@ -470,7 +470,7 @@ index
 0
 )
 return
-nullptr
+NULL
 ;
 return
 &
@@ -548,7 +548,7 @@ if
 result
 !
 =
-nullptr
+NULL
 )
 return
 result
@@ -563,7 +563,7 @@ count
 0
 )
 return
-nullptr
+NULL
 ;
 info
 +
@@ -597,7 +597,7 @@ index
 count
 ;
 return
-nullptr
+NULL
 ;
 }
 return

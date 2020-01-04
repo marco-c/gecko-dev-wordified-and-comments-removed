@@ -32,7 +32,7 @@ SkA8_Blitter
 SkA8_Blitter
 (
 const
-SkPixmap
+SkBitmap
 &
 device
 const
@@ -56,7 +56,7 @@ getAlpha
 ;
 }
 const
-SkPixmap
+SkBitmap
 *
 SkA8_Blitter
 :
@@ -87,7 +87,7 @@ fDevice
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 void
@@ -155,7 +155,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -271,7 +271,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -570,7 +570,7 @@ dst
 #
 define
 SK_BLITBWMASK_GETADDR
-writable_addr8
+getAddr8
 #
 define
 SK_BLITBWMASK_DEVTYPE
@@ -828,7 +828,7 @@ dst_scale
 #
 define
 SK_BLITBWMASK_GETADDR
-writable_addr8
+getAddr8
 #
 define
 SK_BLITBWMASK_DEVTYPE
@@ -954,7 +954,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -1169,7 +1169,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -1361,7 +1361,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -1484,7 +1484,7 @@ SkA8_Shader_Blitter
 SkA8_Shader_Blitter
 (
 const
-SkPixmap
+SkBitmap
 &
 device
 const
@@ -1519,7 +1519,7 @@ getXfermode
 )
 !
 =
-nullptr
+NULL
 )
 {
 fXfermode
@@ -1662,7 +1662,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -1738,7 +1738,7 @@ xferA8
 device
 span
 width
-nullptr
+NULL
 )
 ;
 }
@@ -1931,7 +1931,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2000,7 +2000,7 @@ aa
 mode
 =
 =
-nullptr
+NULL
 )
 {
 memset
@@ -2195,7 +2195,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2340,7 +2340,7 @@ SkA8_Coverage_Blitter
 SkA8_Coverage_Blitter
 (
 const
-SkPixmap
+SkBitmap
 &
 device
 const
@@ -2356,7 +2356,7 @@ device
 {
 SkASSERT
 (
-nullptr
+NULL
 =
 =
 paint
@@ -2368,7 +2368,7 @@ getShader
 ;
 SkASSERT
 (
-nullptr
+NULL
 =
 =
 paint
@@ -2380,7 +2380,7 @@ getXfermode
 ;
 SkASSERT
 (
-nullptr
+NULL
 =
 =
 paint
@@ -2419,7 +2419,7 @@ device
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2540,7 +2540,7 @@ memset
 (
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2583,7 +2583,7 @@ dst
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2643,7 +2643,7 @@ dst
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2750,7 +2750,7 @@ dst
 =
 fDevice
 .
-writable_addr8
+getAddr8
 (
 x
 y
@@ -2817,7 +2817,7 @@ srcRB
 }
 }
 const
-SkPixmap
+SkBitmap
 *
 SkA8_Coverage_Blitter
 :
@@ -2829,6 +2829,6 @@ uint32_t
 )
 {
 return
-nullptr
+NULL
 ;
 }

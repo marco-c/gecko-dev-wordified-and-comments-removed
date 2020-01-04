@@ -354,7 +354,7 @@ path
 ]
 )
 {
-SkAutoTDelete
+SkAutoTUnref
 <
 SkStreamRewindable
 >
@@ -384,6 +384,6 @@ DecodeStream
 stream
 )
 :
-nullptr
+NULL
 ;
 }

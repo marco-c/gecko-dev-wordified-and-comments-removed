@@ -9,7 +9,6 @@ doNotPassTrue
 define
 __SK_FORCE_IMAGE_DECODER_LINKING
 \
-SK_UNUSED
 static
 int
 linking_forced

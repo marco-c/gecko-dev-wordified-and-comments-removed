@@ -40,7 +40,7 @@ name
 {
 SkASSERT
 (
-nullptr
+NULL
 =
 =
 ctx
@@ -48,6 +48,9 @@ ctx
 ;
 SkASSERT
 (
+NULL
+!
+=
 OSMesaGetCurrentContext
 (
 )
@@ -69,7 +72,7 @@ GrGLCreateMesaInterface
 {
 if
 (
-nullptr
+NULL
 =
 =
 OSMesaGetCurrentContext
@@ -78,13 +81,13 @@ OSMesaGetCurrentContext
 )
 {
 return
-nullptr
+NULL
 ;
 }
 return
-GrGLAssembleInterface
+GrGLAssembleGLInterface
 (
-nullptr
+NULL
 osmesa_get
 )
 ;

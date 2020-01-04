@@ -15,6 +15,6 @@ GrGLDefaultInterface
 )
 {
 return
-nullptr
+NULL
 ;
 }

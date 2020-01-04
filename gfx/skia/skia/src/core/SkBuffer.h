@@ -11,13 +11,6 @@ SkScalar
 .
 h
 "
-#
-include
-"
-SkTypes
-.
-h
-"
 class
 SkRBuffer
 :
@@ -432,6 +425,7 @@ false
 )
 {
 }
+virtual
 bool
 read
 (
@@ -441,7 +435,7 @@ buffer
 size_t
 size
 )
-override
+SK_OVERRIDE
 ;
 bool
 isValid

@@ -1208,7 +1208,7 @@ fS32
 )
 =
 =
-nullptr
+NULL
 )
 return
 false
@@ -1260,7 +1260,7 @@ fScalar
 )
 =
 =
-nullptr
+NULL
 )
 return
 false
@@ -1587,19 +1587,21 @@ operand
 .
 fScalar
 =
+SkScalarDiv
+(
 operand
 [
 0
 ]
 .
 fScalar
-/
 operand
 [
 1
 ]
 .
 fScalar
+)
 ;
 break
 ;
@@ -2304,7 +2306,7 @@ begin
 index
 ]
 =
-nullptr
+NULL
 ;
 }
 void
@@ -2345,6 +2347,6 @@ begin
 index
 ]
 =
-nullptr
+NULL
 ;
 }

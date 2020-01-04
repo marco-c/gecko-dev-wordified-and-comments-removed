@@ -36,6 +36,7 @@ DECLARE_DISPLAY_MEMBER_INFO
 Math
 )
 ;
+virtual
 void
 executeFunction
 (
@@ -54,16 +55,16 @@ type
 SkScriptValue
 *
 )
-override
 ;
+virtual
 const
 SkFunctionParamType
 *
 getFunctionsParameters
 (
 )
-override
 ;
+virtual
 bool
 getProperty
 (
@@ -74,7 +75,6 @@ SkScriptValue
 value
 )
 const
-override
 ;
 private
 :

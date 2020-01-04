@@ -485,7 +485,7 @@ if
 scriptValue
 =
 =
-nullptr
+NULL
 )
 return
 ;

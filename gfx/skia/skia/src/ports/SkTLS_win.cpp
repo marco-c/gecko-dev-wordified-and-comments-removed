@@ -1,19 +1,6 @@
 #
 include
 "
-SkTypes
-.
-h
-"
-#
-if
-defined
-(
-SK_BUILD_FOR_WIN32
-)
-#
-include
-"
 SkTLS
 .
 h
@@ -21,7 +8,7 @@ h
 #
 include
 "
-SkMutex
+SkThread
 .
 h
 "
@@ -62,7 +49,7 @@ gOnce
 )
 {
 return
-nullptr
+NULL
 ;
 }
 if
@@ -228,7 +215,7 @@ if
 ptr
 !
 =
-nullptr
+NULL
 )
 {
 SkTLS
@@ -242,7 +229,7 @@ ptr
 TlsSetValue
 (
 gTlsIndex
-nullptr
+NULL
 )
 ;
 }
@@ -307,5 +294,3 @@ data_seg
 #
 endif
 }
-#
-endif

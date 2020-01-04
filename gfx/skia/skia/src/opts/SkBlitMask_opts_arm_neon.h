@@ -19,6 +19,17 @@ SkBlitMask
 h
 "
 extern
+SkBlitMask
+:
+:
+ColorProc
+D32_A8_Factory_neon
+(
+SkColor
+color
+)
+;
+extern
 void
 SkBlitLCD16OpaqueRow_neon
 (

@@ -163,7 +163,7 @@ path
 anim
 )
 ;
-SkAutoTDelete
+SkAutoTUnref
 <
 SkStream
 >
@@ -506,7 +506,7 @@ if
 label
 =
 =
-nullptr
+NULL
 &
 &
 fLabel
@@ -751,7 +751,7 @@ event
 )
 !
 =
-nullptr
+NULL
 )
 fEvent
 .
@@ -785,7 +785,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 }
@@ -1006,7 +1006,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 }
@@ -1464,7 +1464,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 else
@@ -1526,7 +1526,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 return
@@ -1674,10 +1674,10 @@ if
 name
 =
 =
-nullptr
+NULL
 )
 return
-nullptr
+NULL
 ;
 static
 const
@@ -1765,7 +1765,7 @@ i
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 #
@@ -1875,6 +1875,6 @@ break
 ;
 }
 return
-nullptr
+NULL
 ;
 }

@@ -1,19 +1,6 @@
 #
 include
 "
-SkTypes
-.
-h
-"
-#
-if
-defined
-(
-SK_BUILD_FOR_MAC
-)
-#
-include
-"
 gl
 /
 GrGLInterface
@@ -82,6 +69,9 @@ GLLoader
 {
 if
 (
+NULL
+!
+=
 fLibrary
 )
 {
@@ -100,7 +90,7 @@ handle
 const
 {
 return
-nullptr
+NULL
 =
 =
 fLibrary
@@ -177,6 +167,9 @@ name
 {
 SkASSERT
 (
+NULL
+!
+=
 ctx
 )
 ;
@@ -221,5 +214,3 @@ mac_get_gl_proc
 )
 ;
 }
-#
-endif

@@ -77,6 +77,11 @@ SkImageDecoder
 decoder
 )
 ;
+~
+skjpeg_source_mgr
+(
+)
+;
 SkStream
 *
 fStream

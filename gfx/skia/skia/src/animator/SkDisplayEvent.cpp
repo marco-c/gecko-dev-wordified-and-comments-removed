@@ -214,7 +214,7 @@ SkKey
 )
 fTarget
 (
-nullptr
+NULL
 )
 {
 }
@@ -375,7 +375,7 @@ child
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 void
@@ -609,7 +609,7 @@ if
 fTarget
 !
 =
-nullptr
+NULL
 )
 {
 SkDebugf
@@ -843,7 +843,7 @@ append
 )
 =
 (
-SkADrawable
+SkDrawable
 *
 )
 displayable
@@ -887,12 +887,12 @@ false
 return
 true
 ;
-SkADrawable
+SkDrawable
 *
 drawable
 =
 (
-SkADrawable
+SkDrawable
 *
 )
 displayable
@@ -1257,7 +1257,7 @@ number
 )
 !
 =
-nullptr
+NULL
 )
 {
 if

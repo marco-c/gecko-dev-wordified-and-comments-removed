@@ -197,11 +197,6 @@ return
 1
 ;
 }
-void
-purgeCaches
-(
-)
-;
 private
 :
 friend
@@ -242,10 +237,10 @@ isRecording
 const
 {
 return
-SkToBool
-(
+NULL
+!
+=
 fCanvas
-)
 ;
 }
 enum

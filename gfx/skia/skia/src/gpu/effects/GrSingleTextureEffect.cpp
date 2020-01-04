@@ -28,10 +28,6 @@ fCoordTransform
 coordSet
 m
 texture
-GrTextureParams
-:
-:
-kNone_FilterMode
 )
 fTextureAccess
 (
@@ -83,7 +79,6 @@ fCoordTransform
 coordSet
 m
 texture
-filterMode
 )
 fTextureAccess
 (
@@ -135,11 +130,6 @@ fCoordTransform
 coordSet
 m
 texture
-params
-.
-filterMode
-(
-)
 )
 fTextureAccess
 (

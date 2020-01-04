@@ -8,7 +8,7 @@ h
 #
 include
 "
-SkMutex
+SkThread
 .
 h
 "
@@ -156,13 +156,15 @@ level
 )
 {
 return
-new
+SkNEW_ARGS
+(
 SkDeviceProfile
 (
 gammaExp
 contrast
 config
 level
+)
 )
 ;
 }
@@ -198,7 +200,7 @@ gMutex
 ;
 if
 (
-nullptr
+NULL
 =
 =
 gDefaultProfile
@@ -239,7 +241,7 @@ gMutex
 ;
 if
 (
-nullptr
+NULL
 =
 =
 gGlobalProfile

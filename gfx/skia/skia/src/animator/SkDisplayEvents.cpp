@@ -36,7 +36,7 @@ h
 #
 include
 "
-SkADrawable
+SkDrawable
 .
 h
 "
@@ -208,7 +208,7 @@ state
 >
 fDisplayable
 :
-nullptr
+NULL
 ;
 int
 keyCode
@@ -355,7 +355,7 @@ evt
 fTarget
 !
 =
-nullptr
+NULL
 &
 &
 evt
@@ -373,7 +373,7 @@ if
 state
 =
 =
-nullptr
+NULL
 |
 |
 state
@@ -501,7 +501,7 @@ index
 +
 )
 {
-SkADrawable
+SkDrawable
 *
 drawable
 =
@@ -602,7 +602,7 @@ state
 >
 fDisplayable
 :
-nullptr
+NULL
 ;
 for
 (
@@ -717,7 +717,7 @@ evt
 fTarget
 !
 =
-nullptr
+NULL
 &
 &
 evt

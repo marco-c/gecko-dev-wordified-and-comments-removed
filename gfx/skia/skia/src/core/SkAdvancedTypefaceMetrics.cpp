@@ -40,7 +40,7 @@ defined
 SK_BUILD_FOR_ANDROID
 )
 struct
-FT_FaceRec_
+FT_FaceRec
 ;
 typedef
 struct
@@ -750,7 +750,7 @@ Data
 *
 prevRange
 =
-nullptr
+NULL
 ;
 Data
 lastAdvance

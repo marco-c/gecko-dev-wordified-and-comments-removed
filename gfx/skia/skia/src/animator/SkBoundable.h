@@ -7,7 +7,7 @@ SkBoundable_DEFINED
 #
 include
 "
-SkADrawable
+SkDrawable
 .
 h
 "
@@ -22,7 +22,7 @@ class
 SkBoundable
 :
 public
-SkADrawable
+SkDrawable
 {
 public
 :
@@ -107,7 +107,7 @@ fBounds
 private
 :
 typedef
-SkADrawable
+SkDrawable
 INHERITED
 ;
 }
