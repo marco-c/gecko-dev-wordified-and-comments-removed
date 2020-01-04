@@ -1194,16 +1194,6 @@ aOutput
 mSrcAttribute
 ;
 }
-bool
-IsWhitelistedForShumway
-(
-)
-const
-{
-return
-mIsWhitelistedForShumway
-;
-}
 virtual
 bool
 AnswerPluginFocusChange
@@ -1502,9 +1492,6 @@ mNPNIface
 ;
 nsCString
 mSrcAttribute
-;
-bool
-mIsWhitelistedForShumway
 ;
 NPWindowType
 mWindowType
