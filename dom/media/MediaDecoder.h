@@ -693,7 +693,7 @@ IsSeeking
 const
 ;
 bool
-IsEndedOrShutdown
+IsEnded
 (
 )
 const
@@ -1425,12 +1425,6 @@ void
 CancelDormantTimer
 (
 )
-;
-bool
-IsEnded
-(
-)
-const
 ;
 bool
 IsShutdown
