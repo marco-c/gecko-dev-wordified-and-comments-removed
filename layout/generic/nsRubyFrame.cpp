@@ -350,6 +350,13 @@ aData
 ;
 }
 }
+aData
+-
+>
+mLineIsEmpty
+=
+false
+;
 }
 void
 nsRubyFrame

@@ -5090,6 +5090,16 @@ InlinePrefISizeData
 public
 InlineIntrinsicISizeData
 {
+InlinePrefISizeData
+(
+)
+:
+mLineIsEmpty
+(
+true
+)
+{
+}
 void
 ForceBreak
 (
@@ -5101,6 +5111,9 @@ DefaultAddInlinePrefISize
 nscoord
 aISize
 )
+;
+bool
+mLineIsEmpty
 ;
 }
 ;

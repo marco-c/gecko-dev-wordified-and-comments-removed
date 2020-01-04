@@ -20265,6 +20265,10 @@ mSkipWhitespace
 =
 false
 ;
+mLineIsEmpty
+=
+false
+;
 }
 void
 nsIFrame
@@ -20669,6 +20673,10 @@ mTrailingWhitespace
 0
 ;
 mSkipWhitespace
+=
+true
+;
+mLineIsEmpty
 =
 true
 ;
