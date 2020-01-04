@@ -198,7 +198,7 @@ running
 const
 TIMEOUT_SEC
 =
-6
+20
 ;
 const
 TEST_PASSED
@@ -1202,6 +1202,13 @@ canvas
 =
 null
 ;
+if
+(
+this
+.
+mm
+)
+{
 this
 .
 messages
@@ -1233,6 +1240,7 @@ mm
 =
 null
 ;
+}
 annotateCrashReport
 (
 false
