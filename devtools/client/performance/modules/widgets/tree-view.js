@@ -152,7 +152,7 @@ getFormatStr
 "
 table
 .
-percentage2
+percentage3
 "
 L10N
 .
