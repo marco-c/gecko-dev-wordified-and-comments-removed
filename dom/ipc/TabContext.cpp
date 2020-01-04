@@ -1129,6 +1129,16 @@ nsCOMPtr
 mozIApplication
 >
 ownApp
+;
+if
+(
+!
+originAttributes
+.
+mInBrowser
+)
+{
+ownApp
 =
 GetAppForId
 (
@@ -1176,6 +1186,7 @@ app
 ;
 return
 ;
+}
 }
 nsCOMPtr
 <
