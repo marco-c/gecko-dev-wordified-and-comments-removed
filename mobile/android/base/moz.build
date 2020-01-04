@@ -4281,6 +4281,13 @@ java
 '
 telemetry
 /
+TelemetryCorePingUploadDelegate
+.
+java
+'
+'
+telemetry
+/
 TelemetryDispatcher
 .
 java
@@ -4296,13 +4303,6 @@ java
 telemetry
 /
 TelemetryUploadService
-.
-java
-'
-'
-telemetry
-/
-UploadTelemetryCorePingCallback
 .
 java
 '
