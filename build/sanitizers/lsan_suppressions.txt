@@ -705,6 +705,13 @@ kit
 so
 leak
 :
+libpixman
+-
+1
+.
+so
+leak
+:
 libpulse
 .
 so
