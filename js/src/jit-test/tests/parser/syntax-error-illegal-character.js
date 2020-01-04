@@ -64,3 +64,10 @@ code
 )
 ;
 }
+test_syntax
+(
+repl_expr_flags
+check_syntax_error
+false
+)
+;
