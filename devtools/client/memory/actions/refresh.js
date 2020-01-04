@@ -69,17 +69,6 @@ function
 heapWorker
 )
 {
-console
-.
-log
-(
-"
-FITZGEN
-:
-refresh
-"
-)
-;
 return
 function
 *
