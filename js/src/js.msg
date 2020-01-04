@@ -7263,3 +7263,16 @@ ambiguous
 import
 "
 )
+MSG_DEF
+(
+JSMSG_MISSING_NAMESPACE_EXPORT
+0
+JSEXN_SYNTAXERR
+"
+export
+not
+found
+for
+namespace
+"
+)
