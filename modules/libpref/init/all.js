@@ -4500,6 +4500,16 @@ pref
 "
 apz
 .
+disable_for_scroll_linked_effects
+"
+false
+)
+;
+pref
+(
+"
+apz
+.
 displayport_expiry_ms
 "
 15000
