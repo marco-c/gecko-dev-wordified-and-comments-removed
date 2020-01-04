@@ -1334,7 +1334,7 @@ DoSubmitOrReset
 WidgetEvent
 *
 aEvent
-int32_t
+EventMessage
 aMessage
 )
 ;

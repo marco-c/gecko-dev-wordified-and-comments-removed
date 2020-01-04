@@ -12128,9 +12128,9 @@ NS_FORM_RESET
 ;
 _ASSIGN_eventName
 (
-NS_FORM_SUBMIT
+eFormSubmit
 "
-NS_FORM_SUBMIT
+eFormSubmit
 "
 )
 ;

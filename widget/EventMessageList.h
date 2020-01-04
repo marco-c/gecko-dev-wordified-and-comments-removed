@@ -373,7 +373,7 @@ eFormEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FORM_SUBMIT
+eFormSubmit
 eFormEventFirst
 )
 NS_EVENT_MESSAGE

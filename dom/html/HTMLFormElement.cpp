@@ -1122,7 +1122,7 @@ aRv
 DoSubmitOrReset
 (
 nullptr
-NS_FORM_SUBMIT
+eFormSubmit
 )
 ;
 }
@@ -2127,7 +2127,7 @@ if
 msg
 =
 =
-NS_FORM_SUBMIT
+eFormSubmit
 )
 {
 if
@@ -2216,7 +2216,7 @@ mEvent
 mMessage
 =
 =
-NS_FORM_SUBMIT
+eFormSubmit
 |
 |
 aVisitor
@@ -2321,7 +2321,7 @@ if
 msg
 =
 =
-NS_FORM_SUBMIT
+eFormSubmit
 )
 {
 mDeferSubmission
@@ -2348,7 +2348,7 @@ case
 NS_FORM_RESET
 :
 case
-NS_FORM_SUBMIT
+eFormSubmit
 :
 {
 if
@@ -2359,7 +2359,7 @@ mPendingSubmission
 msg
 =
 =
-NS_FORM_SUBMIT
+eFormSubmit
 )
 {
 mPendingSubmission
@@ -2391,7 +2391,7 @@ if
 msg
 =
 =
-NS_FORM_SUBMIT
+eFormSubmit
 )
 {
 FlushPendingSubmission
@@ -2405,7 +2405,7 @@ if
 msg
 =
 =
-NS_FORM_SUBMIT
+eFormSubmit
 )
 {
 mGeneratingSubmit
@@ -2441,7 +2441,7 @@ DoSubmitOrReset
 WidgetEvent
 *
 aEvent
-int32_t
+EventMessage
 aMessage
 )
 {
@@ -2483,7 +2483,7 @@ DoReset
 }
 if
 (
-NS_FORM_SUBMIT
+eFormSubmit
 =
 =
 aMessage

@@ -3496,7 +3496,7 @@ mMessage
 )
 {
 case
-NS_FORM_SUBMIT
+eFormSubmit
 :
 if
 (
