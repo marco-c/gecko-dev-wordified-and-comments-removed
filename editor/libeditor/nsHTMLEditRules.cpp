@@ -22701,7 +22701,7 @@ nodeArray
 nsTableCellAndListItemFunctor
 functor
 ;
-nsDOMIterator
+DOMIterator
 iter
 (
 aNode
@@ -28924,7 +28924,7 @@ arrayOfBreaks
 nsBRNodeFunctor
 functor
 ;
-nsDOMIterator
+DOMIterator
 iter
 (
 aNode
@@ -34460,7 +34460,7 @@ functor
 mHTMLEditor
 )
 ;
-nsDOMIterator
+DOMIterator
 iter
 ;
 nsresult
