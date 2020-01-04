@@ -8,6 +8,13 @@ h
 #
 include
 "
+AsyncCanvasRenderer
+.
+h
+"
+#
+include
+"
 basic
 /
 BasicLayers
