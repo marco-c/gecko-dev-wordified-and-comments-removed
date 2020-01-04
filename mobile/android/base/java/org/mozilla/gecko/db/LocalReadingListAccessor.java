@@ -70,15 +70,6 @@ mozilla
 .
 gecko
 .
-AboutPages
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 annotation
 .
 RobocopTarget
