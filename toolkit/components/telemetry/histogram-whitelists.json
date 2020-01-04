@@ -1,3 +1,8 @@
+{
+"
+n_buckets
+"
+:
 [
 "
 MEMORY_JS_MAIN_RUNTIME_TEMPORARY_PEAK
@@ -561,3 +566,4 @@ GC_MINOR_REASON
 GC_MINOR_REASON_LONG
 "
 ]
+}
