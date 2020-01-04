@@ -175,6 +175,8 @@ netmonitorUI
 perfNotice1
 /
 2
+/
+3
 )
 :
 These
@@ -222,6 +224,16 @@ start
 performance
 analysis
 .
+"
+>
+<
+!
+ENTITY
+netmonitorUI
+.
+perfNotice3
+"
+Analyze
 "
 >
 <
