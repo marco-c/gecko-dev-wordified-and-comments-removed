@@ -1199,15 +1199,11 @@ final
 JSONObject
 all
 =
-new
-JSONObject
-(
 FileUtils
 .
-getFileContents
+readJSONObjectFromFile
 (
 prefFile
-)
 )
 ;
 if
