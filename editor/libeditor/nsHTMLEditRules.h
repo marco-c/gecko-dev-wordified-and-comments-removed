@@ -1626,10 +1626,10 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
-nsIDocument
-&
+nsIDOMDocument
+*
 aDoc
 )
 ;
