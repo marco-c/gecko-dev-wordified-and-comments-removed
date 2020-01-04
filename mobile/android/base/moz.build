@@ -2206,6 +2206,15 @@ feeds
 /
 knownsites
 /
+KnownSiteTumblr
+.
+java
+'
+'
+feeds
+/
+knownsites
+/
 KnownSiteWordpress
 .
 java
