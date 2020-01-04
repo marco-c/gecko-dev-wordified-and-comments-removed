@@ -4993,12 +4993,6 @@ isKeyIn
 (
 key
 "
-HOME
-"
-"
-END
-"
-"
 PAGE_UP
 "
 "
@@ -5117,6 +5111,12 @@ LEFT
 "
 "
 RIGHT
+"
+"
+HOME
+"
+"
+END
 "
 )
 )
