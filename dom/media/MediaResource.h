@@ -124,7 +124,9 @@ const
 int64_t
 SEEK_VS_READ_THRESHOLD
 =
-32
+1
+*
+1024
 *
 1024
 ;
