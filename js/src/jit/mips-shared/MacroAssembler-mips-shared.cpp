@@ -5533,3 +5533,12 @@ label
 )
 ;
 }
+void
+MacroAssembler
+:
+:
+flush
+(
+)
+{
+}

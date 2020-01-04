@@ -52034,6 +52034,12 @@ generateOutOfLineCode
 return
 false
 ;
+masm
+.
+flush
+(
+)
+;
 offsets
 -
 >

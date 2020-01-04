@@ -1231,6 +1231,12 @@ size
 }
 public
 :
+void
+flush
+(
+)
+PER_SHARED_ARCH
+;
 inline
 uint32_t
 framePushed
