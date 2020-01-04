@@ -461,6 +461,14 @@ return
 nullptr
 ;
 }
+JS
+:
+:
+ExposeValueToActiveJS
+(
+v
+)
+;
 expandoAndGeneration
 -
 >
