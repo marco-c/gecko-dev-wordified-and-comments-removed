@@ -602,7 +602,7 @@ private
 static
 final
 int
-SUGGESTION_MAX
+NETWORK_SUGGESTION_MAX
 =
 3
 ;
@@ -2925,7 +2925,7 @@ getActivity
 )
 suggestTemplate
 SUGGESTION_TIMEOUT
-SUGGESTION_MAX
+NETWORK_SUGGESTION_MAX
 )
 ;
 }
@@ -3931,6 +3931,10 @@ final
 int
 maxSavedSuggestions
 =
+NETWORK_SUGGESTION_MAX
++
+1
++
 getContext
 (
 )
