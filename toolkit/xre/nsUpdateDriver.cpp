@@ -4537,6 +4537,7 @@ LaunchElevatedUpdate
 (
 argc
 argv
+0
 outpid
 )
 )
@@ -4573,6 +4574,7 @@ LaunchChildMac
 (
 argc
 argv
+0
 outpid
 )
 ;
