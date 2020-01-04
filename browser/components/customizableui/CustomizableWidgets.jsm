@@ -1325,7 +1325,7 @@ doc
 =
 aEvent
 .
-detail
+target
 .
 ownerDocument
 ;
@@ -5919,7 +5919,7 @@ doc
 =
 aEvent
 .
-detail
+target
 .
 ownerDocument
 ;
@@ -7344,7 +7344,7 @@ doc
 =
 aEvent
 .
-detail
+target
 .
 ownerDocument
 ;
