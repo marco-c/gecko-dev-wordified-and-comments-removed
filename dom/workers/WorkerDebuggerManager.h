@@ -40,6 +40,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 define
 WORKERDEBUGGERMANAGER_CID
 \

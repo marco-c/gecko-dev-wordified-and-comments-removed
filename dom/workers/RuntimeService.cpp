@@ -362,6 +362,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -447,6 +454,13 @@ h
 include
 "
 WorkerRunnable
+.
+h
+"
+#
+include
+"
+WorkerScope
 .
 h
 "

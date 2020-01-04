@@ -18,6 +18,9 @@ WorkerPrivate
 .
 h
 "
+class
+nsIInterceptedChannel
+;
 namespace
 mozilla
 {
@@ -29,6 +32,9 @@ workers
 {
 class
 ServiceWorkerInfo
+;
+class
+ServiceWorkerRegistrationInfo
 ;
 class
 KeepAliveToken

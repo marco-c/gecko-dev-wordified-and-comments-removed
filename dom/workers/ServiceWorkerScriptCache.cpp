@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -141,6 +148,13 @@ h
 include
 "
 nsScriptLoader
+.
+h
+"
+#
+include
+"
+ServiceWorkerManager
 .
 h
 "

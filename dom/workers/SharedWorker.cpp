@@ -106,6 +106,15 @@ dom
 Sequence
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
+MessagePort
+;
+using
 namespace
 mozilla
 ;
