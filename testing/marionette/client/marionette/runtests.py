@@ -127,6 +127,10 @@ MarionetteTestRunner
 parser_class
 =
 MarionetteArguments
+                 
+args
+=
+None
 )
 :
         
@@ -146,6 +150,8 @@ self
 .
 args
 =
+args
+or
 self
 .
 parse_args
@@ -385,20 +391,8 @@ run_tests
 tests
 )
             
-if
+return
 runner
-.
-failed
->
-0
-:
-                
-sys
-.
-exit
-(
-10
-)
         
 except
 Exception
