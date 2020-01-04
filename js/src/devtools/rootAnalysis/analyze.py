@@ -1067,9 +1067,22 @@ explain
              
 (
 (
+os
+.
+environ
+.
+get
+(
 '
-python
+PYTHON
 '
+'
+python2
+.
+7
+'
+)
+               
 '
 %
 (
