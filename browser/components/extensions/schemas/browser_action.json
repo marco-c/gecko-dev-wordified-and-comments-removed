@@ -253,6 +253,17 @@ popup
 .
 "
 "
+permissions
+"
+:
+[
+"
+manifest
+:
+browser_action
+"
+]
+"
 types
 "
 :

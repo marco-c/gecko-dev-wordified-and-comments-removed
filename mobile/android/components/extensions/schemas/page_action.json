@@ -258,6 +258,17 @@ pages
 .
 "
 "
+permissions
+"
+:
+[
+"
+manifest
+:
+page_action
+"
+]
+"
 types
 "
 :
