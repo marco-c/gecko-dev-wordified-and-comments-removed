@@ -1197,6 +1197,11 @@ MaybeUpgradePersistentStorageDirectory
 )
 ;
 nsresult
+MaybeRemoveOldDirectories
+(
+)
+;
+nsresult
 UpgradeStorageFrom0To1
 (
 mozIStorageConnection
