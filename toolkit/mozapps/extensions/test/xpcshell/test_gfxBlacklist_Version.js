@@ -869,7 +869,7 @@ Ci
 .
 nsIGfxInfo
 .
-FEATURE_BLOCKED_DRIVER_VERSION
+FEATURE_STATUS_OK
 )
 ;
 do_check_eq
