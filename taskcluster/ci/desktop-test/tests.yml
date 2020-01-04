@@ -2437,6 +2437,9 @@ desktop1604
 test
 "
 }
+checkout
+:
+true
 mozharness
 :
 script
@@ -2553,6 +2556,9 @@ desktop1604
 test
 "
 }
+checkout
+:
+true
 mozharness
 :
 script
