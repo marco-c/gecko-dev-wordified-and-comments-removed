@@ -4074,6 +4074,17 @@ excludeItems
 return
 ;
 }
+if
+(
+aNode
+.
+itemId
+!
+=
+-
+1
+)
+{
 PlacesUtils
 .
 livemarks
@@ -4184,6 +4195,7 @@ aNode
 undefined
 )
 ;
+}
 }
 }
 invalidateContainer
