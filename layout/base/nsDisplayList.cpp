@@ -22508,6 +22508,10 @@ aBuilder
 aFrame
 aList
 )
+mIndex
+(
+0
+)
 mContainedBlendModes
 (
 aContainedBlendModes
@@ -22544,6 +22548,10 @@ nsDisplayWrapList
 aBuilder
 aFrame
 aList
+)
+mIndex
+(
+1
 )
 mCanBeActive
 (
