@@ -115,8 +115,6 @@ IPDLFile
     
 JARManifest
     
-JavaScriptModules
-    
 Library
     
 Linkable
@@ -142,6 +140,8 @@ Sources
 StaticLibrary
     
 TestHarnessFiles
+    
+TestingFiles
     
 TestWebIDLFile
     
@@ -3758,31 +3758,6 @@ _handle_programs
 context
 )
         
-test_js_modules
-=
-context
-.
-get
-(
-'
-TESTING_JS_MODULES
-'
-)
-        
-if
-test_js_modules
-:
-            
-yield
-JavaScriptModules
-(
-context
-test_js_modules
-'
-testing
-'
-)
-        
 simple_lists
 =
 [
@@ -3977,6 +3952,13 @@ FINAL_TARGET_PP_FILES
 '
 FinalTargetPreprocessedFiles
 )
+            
+(
+'
+TESTING_FILES
+'
+TestingFiles
+)
         
 )
 :
@@ -4001,6 +3983,13 @@ if
 dist_install
 is
 False
+and
+var
+!
+=
+'
+TESTING_FILES
+'
 :
                 
 raise
