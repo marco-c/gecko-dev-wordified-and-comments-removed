@@ -292,6 +292,17 @@ jar
 )
 )
 #
+Needed
+for
+the
+UpdateService
+ANDROID_EXTRA_JARS
++
+=
+(
+ANDROID_COMPAT_LIB
+)
+#
 The
 GeckoView
 consuming
