@@ -185,7 +185,10 @@ JavaScriptParent
 {
 JS_RemoveExtraGCRootsTracer
 (
+JS_GetContext
+(
 rt_
+)
 TraceParent
 this
 )
@@ -214,7 +217,10 @@ false
 ;
 JS_AddExtraGCRootsTracer
 (
+JS_GetContext
+(
 rt_
+)
 TraceParent
 this
 )

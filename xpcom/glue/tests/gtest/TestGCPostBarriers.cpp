@@ -177,7 +177,7 @@ nullptr
 ;
 JS_AddExtraGCRootsTracer
 (
-rt
+cx
 TraceArray
 <
 ArrayT
@@ -353,7 +353,7 @@ toInt32
 }
 JS_RemoveExtraGCRootsTracer
 (
-rt
+cx
 TraceArray
 <
 ArrayT
