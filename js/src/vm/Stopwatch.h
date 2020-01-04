@@ -506,16 +506,6 @@ number_
 }
 ;
 #
-elif
-defined
-(
-__linux__
-)
-typedef
-int
-cpuid_t
-;
-#
 else
 typedef
 struct
