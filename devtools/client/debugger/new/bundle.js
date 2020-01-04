@@ -139877,12 +139877,7 @@ loadInfo
 &
 loadInfo
 .
-parentOuterWindowID
-=
-=
-loadInfo
-.
-outerWindowID
+isTopLevelLoad
 )
 {
 return
