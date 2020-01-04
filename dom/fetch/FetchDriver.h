@@ -425,14 +425,6 @@ nsIURI
 aFinalURI
 )
 ;
-void
-BeginResponse
-(
-InternalResponse
-*
-aResponse
-)
-;
 nsresult
 FailWithNetworkError
 (
