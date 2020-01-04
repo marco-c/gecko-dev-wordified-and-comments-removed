@@ -1931,12 +1931,6 @@ type
 =
 =
 EXECUTE_DEBUG
-|
-|
-type
-=
-=
-EXECUTE_DEBUG_GLOBAL
 )
 {
 JitSpew
