@@ -1922,6 +1922,12 @@ aTag
 =
 =
 SCTAG_DOM_CONTENT_PRINCIPAL
+|
+|
+aTag
+=
+=
+SCTAG_DOM_EXPANDED_PRINCIPAL
 )
 {
 JSPrincipals
