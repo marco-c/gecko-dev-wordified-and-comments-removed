@@ -254,10 +254,6 @@ const
 nsString
 &
 aChannel
-const
-bool
-&
-aPrivateBrowsing
 )
 override
 ;
@@ -280,10 +276,6 @@ const
 nsString
 &
 channel
-const
-bool
-&
-aPrivateBrowsing
 )
 override
 ;

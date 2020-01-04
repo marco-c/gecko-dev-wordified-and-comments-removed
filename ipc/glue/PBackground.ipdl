@@ -371,8 +371,6 @@ nsCString
 origin
 nsString
 channel
-bool
-privateBrowsing
 )
 ;
 async

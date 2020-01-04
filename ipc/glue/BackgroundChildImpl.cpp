@@ -1119,10 +1119,6 @@ const
 nsString
 &
 aChannel
-const
-bool
-&
-aPrivateBrowsing
 )
 {
 RefPtr
