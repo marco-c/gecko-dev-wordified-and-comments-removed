@@ -7,7 +7,7 @@ nsgnomeshellservice_h____
 #
 include
 "
-nsIShellService
+nsIGNOMEShellService
 .
 h
 "
@@ -32,7 +32,7 @@ nsGNOMEShellService
 final
 :
 public
-nsIShellService
+nsIGNOMEShellService
 {
 public
 :
@@ -40,10 +40,6 @@ nsGNOMEShellService
 (
 )
 :
-mCheckedThisSession
-(
-false
-)
 mAppIsInPath
 (
 false
@@ -52,6 +48,7 @@ false
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHELLSERVICE
+NS_DECL_NSIGNOMESHELLSERVICE
 nsresult
 Init
 (
@@ -89,9 +86,6 @@ bool
 GetAppPathFromLauncher
 (
 )
-;
-bool
-mCheckedThisSession
 ;
 bool
 mUseLocaleFilenames
