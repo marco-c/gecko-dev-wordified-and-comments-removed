@@ -32768,6 +32768,8 @@ aFrame
 nsDisplayList
 *
 aList
+bool
+aOpacityItemCreated
 )
 :
 nsDisplayWrapList
@@ -32784,6 +32786,10 @@ aFrame
 GetVisualOverflowRectRelativeToSelf
 (
 )
+)
+mOpacityItemCreated
+(
+aOpacityItemCreated
 )
 {
 MOZ_COUNT_CTOR
@@ -33115,6 +33121,7 @@ mVisibleRect
 borderArea
 aBuilder
 aManager
+mOpacityItemCreated
 )
 ;
 nsSVGIntegrationUtils

@@ -224,6 +224,9 @@ LayerManager
 *
 layerManager
 ;
+bool
+callerPaintsOpacity
+;
 explicit
 PaintFramesParams
 (
@@ -253,6 +256,8 @@ layers
 LayerManager
 *
 aLayerManager
+bool
+aCallerPaintsOpacity
 )
 :
 ctx
@@ -278,6 +283,10 @@ aBuilder
 layerManager
 (
 aLayerManager
+)
+callerPaintsOpacity
+(
+aCallerPaintsOpacity
 )
 {
 }

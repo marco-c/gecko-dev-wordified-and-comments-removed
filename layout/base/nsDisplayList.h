@@ -11943,6 +11943,8 @@ aFrame
 nsDisplayList
 *
 aList
+bool
+aOpacityItemCreated
 )
 ;
 #
@@ -12190,6 +12192,9 @@ private
 :
 nsRect
 mEffectsBounds
+;
+bool
+mOpacityItemCreated
 ;
 }
 ;
