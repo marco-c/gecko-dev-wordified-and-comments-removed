@@ -234,6 +234,7 @@ re
 .
 compile
 (
+r
 '
 [
 \
