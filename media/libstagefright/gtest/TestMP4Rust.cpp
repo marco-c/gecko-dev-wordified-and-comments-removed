@@ -39,7 +39,7 @@ extern
 "
 C
 "
-bool
+int32_t
 read_box_from_buffer
 (
 uint8_t
@@ -63,7 +63,7 @@ rust
 MP4MetadataEmpty
 )
 {
-bool
+int32_t
 rv
 ;
 rv
@@ -77,7 +77,8 @@ nullptr
 EXPECT_EQ
 (
 rv
-false
+-
+1
 )
 ;
 size_t
@@ -96,7 +97,8 @@ len
 EXPECT_EQ
 (
 rv
-false
+-
+1
 )
 ;
 std
@@ -127,7 +129,8 @@ size
 EXPECT_EQ
 (
 rv
-false
+-
+1
 )
 ;
 buf
@@ -156,7 +159,8 @@ size
 EXPECT_EQ
 (
 rv
-false
+-
+1
 )
 ;
 }
@@ -267,7 +271,7 @@ size
 EXPECT_EQ
 (
 rv
-true
+0
 )
 ;
 }
