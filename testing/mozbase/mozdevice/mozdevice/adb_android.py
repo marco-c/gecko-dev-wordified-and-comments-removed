@@ -878,9 +878,14 @@ power
 stayon
 true
 '
+                              
 timeout
 =
 timeout
+                              
+root
+=
+True
 )
         
 except
