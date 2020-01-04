@@ -772,7 +772,7 @@ eBasicEventClass
 EVENT
 (
 volumechange
-NS_VOLUMECHANGE
+eVolumeChange
 EventNameType_HTML
 eBasicEventClass
 )
