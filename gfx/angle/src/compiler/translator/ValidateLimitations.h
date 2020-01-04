@@ -1,4 +1,10 @@
 #
+ifndef
+COMPILER_TRANSLATOR_VALIDATELIMITATIONS_H_
+#
+define
+COMPILER_TRANSLATOR_VALIDATELIMITATIONS_H_
+#
 include
 "
 compiler
@@ -225,3 +231,5 @@ mLoopStack
 ;
 }
 ;
+#
+endif

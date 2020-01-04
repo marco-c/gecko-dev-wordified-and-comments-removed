@@ -1,9 +1,9 @@
 #
 ifndef
-ANGLE_GL_H_
+ANGLEGL_H_
 #
 define
-ANGLE_GL_H_
+ANGLEGL_H_
 #
 include
 "

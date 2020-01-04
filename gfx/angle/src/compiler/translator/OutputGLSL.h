@@ -1,9 +1,9 @@
 #
 ifndef
-CROSSCOMPILERGLSL_OUTPUTGLSL_H_
+COMPILER_TRANSLATOR_OUTPUTGLSL_H_
 #
 define
-CROSSCOMPILERGLSL_OUTPUTGLSL_H_
+COMPILER_TRANSLATOR_OUTPUTGLSL_H_
 #
 include
 "
@@ -40,6 +40,8 @@ TSymbolTable
 symbolTable
 int
 shaderVersion
+ShShaderOutput
+output
 )
 ;
 protected

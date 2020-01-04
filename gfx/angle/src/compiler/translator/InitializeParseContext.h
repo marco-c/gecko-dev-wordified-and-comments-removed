@@ -1,9 +1,9 @@
 #
 ifndef
-__INITIALIZE_PARSE_CONTEXT_INCLUDED_
+COMPILER_TRANSLATOR_INITIALIZEPARSECONTEXT_H_
 #
 define
-__INITIALIZE_PARSE_CONTEXT_INCLUDED_
+COMPILER_TRANSLATOR_INITIALIZEPARSECONTEXT_H_
 bool
 InitializeParseContextIndex
 (
@@ -14,7 +14,7 @@ FreeParseContextIndex
 (
 )
 ;
-struct
+class
 TParseContext
 ;
 extern

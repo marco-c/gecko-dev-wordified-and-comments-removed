@@ -1,9 +1,9 @@
 #
 ifndef
-COMPILER_DEPGRAPH_DEPENDENCY_GRAPH_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPH_H_
 #
 define
-COMPILER_DEPGRAPH_DEPENDENCY_GRAPH_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPH_H_
 #
 include
 "
@@ -787,6 +787,11 @@ mSymbolIdMap
 ;
 class
 TDependencyGraphTraverser
+:
+angle
+:
+:
+NonCopyable
 {
 public
 :

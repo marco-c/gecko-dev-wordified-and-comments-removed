@@ -58,6 +58,15 @@ x
 #
 else
 #
+pragma
+GCC
+diagnostic
+ignored
+"
+-
+Wattributes
+"
+#
 define
 FORCE_INLINE
 __attribute__

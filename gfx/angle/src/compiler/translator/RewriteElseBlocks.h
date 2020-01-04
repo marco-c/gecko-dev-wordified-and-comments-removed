@@ -1,9 +1,9 @@
 #
 ifndef
-COMPILER_REWRITE_ELSE_BLOCKS_H_
+COMPILER_TRANSLATOR_REWRITEELSEBLOCKS_H_
 #
 define
-COMPILER_REWRITE_ELSE_BLOCKS_H_
+COMPILER_TRANSLATOR_REWRITEELSEBLOCKS_H_
 #
 include
 "
@@ -24,6 +24,10 @@ RewriteElseBlocks
 TIntermNode
 *
 node
+unsigned
+int
+*
+temporaryIndex
 )
 ;
 }

@@ -1,9 +1,9 @@
 #
 ifndef
-SystemInfo_h
+THIRD_PARTY_SYSTEMINFO_SYSTEMINFO_H_
 #
 define
-SystemInfo_h
+THIRD_PARTY_SYSTEMINFO_SYSTEMINFO_H_
 namespace
 rx
 {

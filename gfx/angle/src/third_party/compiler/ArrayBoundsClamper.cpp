@@ -114,6 +114,12 @@ ArrayBoundsClamperMarker
 (
 )
 :
+TIntermTraverser
+(
+true
+false
+false
+)
 mNeedsClamp
 (
 false

@@ -1,9 +1,9 @@
 #
 ifndef
-COMPILER_TRANSLATOR_REGENERATE_STRUCT_NAMES_H_
+COMPILER_TRANSLATOR_REGENERATESTRUCTNAMES_H_
 #
 define
-COMPILER_TRANSLATOR_REGENERATE_STRUCT_NAMES_H_
+COMPILER_TRANSLATOR_REGENERATESTRUCTNAMES_H_
 #
 include
 "
@@ -49,6 +49,12 @@ int
 shaderVersion
 )
 :
+TIntermTraverser
+(
+true
+false
+false
+)
 mSymbolTable
 (
 symbolTable

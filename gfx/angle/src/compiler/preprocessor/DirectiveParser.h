@@ -1,9 +1,9 @@
 #
 ifndef
-COMPILER_PREPROCESSOR_DIRECTIVE_PARSER_H_
+COMPILER_PREPROCESSOR_DIRECTIVEPARSER_H_
 #
 define
-COMPILER_PREPROCESSOR_DIRECTIVE_PARSER_H_
+COMPILER_PREPROCESSOR_DIRECTIVEPARSER_H_
 #
 include
 "
@@ -277,6 +277,9 @@ false
 bool
 mPastFirstStatement
 ;
+bool
+mSeenNonPreprocessorToken
+;
 std
 :
 :
@@ -301,6 +304,9 @@ mDiagnostics
 DirectiveHandler
 *
 mDirectiveHandler
+;
+int
+mShaderVersion
 ;
 }
 ;

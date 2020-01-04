@@ -1,9 +1,9 @@
 #
 ifndef
-COMPILER_PRAGMA_H_
+COMPILER_TRANSLATOR_PRAGMA_H_
 #
 define
-COMPILER_PRAGMA_H_
+COMPILER_TRANSLATOR_PRAGMA_H_
 struct
 TPragma
 {
@@ -37,6 +37,10 @@ debug
 (
 false
 )
+debugShaderPrecision
+(
+true
+)
 {
 }
 TPragma
@@ -55,6 +59,10 @@ debug
 (
 d
 )
+debugShaderPrecision
+(
+true
+)
 {
 }
 bool
@@ -62,6 +70,9 @@ optimize
 ;
 bool
 debug
+;
+bool
+debugShaderPrecision
 ;
 STDGL
 stdgl

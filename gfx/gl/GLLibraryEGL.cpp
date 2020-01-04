@@ -154,10 +154,10 @@ EGL_ANDROID_native_fence_sync
 EGL_ANDROID_image_crop
 "
 "
-ANGLE_platform_angle
+EGL_ANGLE_platform_angle
 "
 "
-ANGLE_platform_angle_d3d
+EGL_ANGLE_platform_angle_d3d
 "
 }
 ;

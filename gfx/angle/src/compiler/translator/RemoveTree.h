@@ -1,7 +1,0 @@
-void
-RemoveAllTreeNodes
-(
-TIntermNode
-*
-)
-;

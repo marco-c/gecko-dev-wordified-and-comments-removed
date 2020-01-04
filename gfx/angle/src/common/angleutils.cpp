@@ -10,6 +10,8 @@ h
 #
 include
 "
+common
+/
 debug
 .
 h

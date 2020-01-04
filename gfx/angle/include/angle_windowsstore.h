@@ -26,5 +26,16 @@ L
 EGLRenderSurfaceSizeProperty
 "
 ;
+const
+wchar_t
+EGLRenderResolutionScaleProperty
+[
+]
+=
+L
+"
+EGLRenderResolutionScaleProperty
+"
+;
 #
 endif

@@ -231,7 +231,9 @@ warning
 disable
 :
 4065
+4244
 4701
+4702
 )
 #
 endif
@@ -387,7 +389,6 @@ parser
 name
 -
 prefix
-=
 "
 pp
 "

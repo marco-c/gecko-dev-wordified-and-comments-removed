@@ -1,14 +1,9 @@
 #
-if
-!
-defined
-(
-__LENGTH_LIMITS_H
-)
+ifndef
+COMPILER_TRANSLATOR_LENGTHLIMITS_H_
 #
 define
-__LENGTH_LIMITS_H
-1
+COMPILER_TRANSLATOR_LENGTHLIMITS_H_
 #
 include
 "

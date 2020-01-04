@@ -1,9 +1,9 @@
 #
 ifndef
-CROSSCOMPILERGLSL_OUTPUTESSL_H_
+COMPILER_TRANSLATOR_OUTPUTESSL_H_
 #
 define
-CROSSCOMPILERGLSL_OUTPUTESSL_H_
+COMPILER_TRANSLATOR_OUTPUTESSL_H_
 #
 include
 "
@@ -40,6 +40,8 @@ TSymbolTable
 symbolTable
 int
 shaderVersion
+bool
+forceHighp
 )
 ;
 protected
@@ -51,6 +53,11 @@ writeVariablePrecision
 TPrecision
 precision
 )
+;
+private
+:
+bool
+mForceHighp
 ;
 }
 ;

@@ -1,9 +1,9 @@
 #
 ifndef
-_INITIALIZE_INCLUDED_
+COMPILER_TRANSLATOR_INITIALIZE_H_
 #
 define
-_INITIALIZE_INCLUDED_
+COMPILER_TRANSLATOR_INITIALIZE_H_
 #
 include
 "
@@ -82,6 +82,14 @@ const
 ShBuiltInResources
 &
 resources
+TExtensionBehavior
+&
+extensionBehavior
+)
+;
+void
+ResetExtensionBehavior
+(
 TExtensionBehavior
 &
 extensionBehavior
