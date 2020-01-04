@@ -4468,11 +4468,11 @@ ViewID
 &
 aScrollID
 const
-int32_t
+float
 &
 aX
 const
-int32_t
+float
 &
 aY
 )

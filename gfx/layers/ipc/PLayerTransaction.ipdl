@@ -686,9 +686,9 @@ SetAsyncScrollOffset
 (
 ViewID
 id
-int32_t
+float
 x
-int32_t
+float
 y
 )
 ;
