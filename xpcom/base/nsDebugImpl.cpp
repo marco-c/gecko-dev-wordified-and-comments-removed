@@ -1327,7 +1327,6 @@ aSeverity
 NS_DEBUG_WARNING
 ;
 }
-;
 #
 define
 PrintToBuffer

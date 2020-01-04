@@ -1026,7 +1026,6 @@ isSpecial
 continue
 ;
 }
-;
 if
 (
 NS_WARN_IF

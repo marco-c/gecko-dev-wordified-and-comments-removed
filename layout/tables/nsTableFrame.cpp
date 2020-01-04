@@ -35533,7 +35533,6 @@ InvalidateFrameWithRect
 aOrigRect
 )
 ;
-;
 parent
 -
 >

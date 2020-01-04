@@ -1238,7 +1238,6 @@ tableChild
 nextChild
 ;
 }
-;
 return
 NS_EDITOR_ELEMENT_NOT_FOUND
 ;
@@ -1658,7 +1657,6 @@ rowChild
 previousChild
 ;
 }
-;
 if
 (
 rowChild

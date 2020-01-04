@@ -1389,7 +1389,6 @@ notificationInfo
 NextEntryOffset
 ;
 }
-;
 nsresult
 rv
 =

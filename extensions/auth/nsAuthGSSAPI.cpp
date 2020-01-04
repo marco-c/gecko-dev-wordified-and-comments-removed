@@ -725,7 +725,6 @@ PR_LD_GLOBAL
 )
 ;
 }
-;
 #
 else
 const

@@ -5895,7 +5895,6 @@ nextInstruction
 )
 ;
 }
-;
 }
 void
 UpdateIonJSFrameForMinorGC

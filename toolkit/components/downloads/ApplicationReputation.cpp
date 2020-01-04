@@ -3286,7 +3286,6 @@ NS_OK
 )
 ;
 }
-;
 return
 rv
 ;

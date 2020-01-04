@@ -19065,7 +19065,6 @@ templateObject
 return
 false
 ;
-;
 *
 templateObj
 =

@@ -4115,7 +4115,6 @@ MOZ_ASSERT
 break
 ;
 }
-;
 return
 settings
 ;

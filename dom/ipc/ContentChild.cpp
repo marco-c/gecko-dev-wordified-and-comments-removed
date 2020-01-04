@@ -7975,7 +7975,6 @@ platform
 "
 )
 ;
-;
 #
 endif
 }
@@ -8026,7 +8025,6 @@ platform
 !
 "
 )
-;
 ;
 #
 endif

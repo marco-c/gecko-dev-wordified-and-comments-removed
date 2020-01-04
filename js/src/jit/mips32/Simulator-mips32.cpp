@@ -1073,7 +1073,6 @@ return
 false
 ;
 }
-;
 }
 bool
 SimInstruction
@@ -1572,7 +1571,6 @@ return
 kUnsupported
 ;
 }
-;
 return
 kUnsupported
 ;
@@ -12081,7 +12079,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -12670,7 +12667,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -12720,7 +12716,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -12858,7 +12853,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 default
@@ -12868,7 +12862,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 }
 void
 Simulator
@@ -14813,7 +14806,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -14908,7 +14900,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -15013,7 +15004,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -15418,7 +15408,6 @@ alu_out
 )
 ;
 }
-;
 break
 ;
 case
@@ -15510,7 +15499,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 default
@@ -15522,7 +15510,6 @@ alu_out
 )
 ;
 }
-;
 }
 void
 Simulator
@@ -15772,7 +15759,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 break
 ;
 case
@@ -15843,7 +15829,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 switch
 (
 instr
@@ -15925,7 +15910,6 @@ default
 break
 ;
 }
-;
 break
 ;
 case
@@ -16623,7 +16607,6 @@ MOZ_CRASH
 )
 ;
 }
-;
 signalExceptions
 (
 )
@@ -16912,7 +16895,6 @@ default
 break
 ;
 }
-;
 if
 (
 execute_branch_delay_instruction

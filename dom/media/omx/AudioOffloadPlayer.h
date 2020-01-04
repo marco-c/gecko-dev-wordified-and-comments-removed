@@ -216,7 +216,6 @@ aIsVisible
 )
 override
 ;
-;
 MediaDecoderOwner
 :
 :

@@ -789,7 +789,6 @@ default
 break
 ;
 }
-;
 return
 name
 ;

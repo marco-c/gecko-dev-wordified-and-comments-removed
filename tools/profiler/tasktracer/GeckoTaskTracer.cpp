@@ -596,7 +596,6 @@ SourceEvent
 )
 ;
 }
-;
 #
 undef
 CREATE_SOURCE_EVENT_NAME
