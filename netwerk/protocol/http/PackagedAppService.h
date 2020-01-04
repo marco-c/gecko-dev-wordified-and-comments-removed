@@ -46,6 +46,13 @@ PackagedAppVerifier
 .
 h
 "
+#
+include
+"
+nsIPackagedAppChannelListener
+.
+h
+"
 namespace
 mozilla
 {
@@ -241,6 +248,9 @@ aURI
 nsICacheEntryOpenCallback
 *
 aCallback
+nsIChannel
+*
+aRequester
 )
 ;
 nsresult
@@ -443,6 +453,12 @@ nsRefPtr
 PackagedAppVerifier
 >
 mVerifier
+;
+nsCOMArray
+<
+nsIPackagedAppChannelListener
+>
+mRequesters
 ;
 nsCString
 mPackageOrigin

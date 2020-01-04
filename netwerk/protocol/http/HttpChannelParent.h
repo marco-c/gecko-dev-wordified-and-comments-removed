@@ -120,6 +120,13 @@ nsIDeprecationWarner
 .
 h
 "
+#
+include
+"
+nsIPackagedAppChannelListener
+.
+h
+"
 class
 nsICacheEntry
 ;
@@ -168,6 +175,8 @@ nsIDeprecationWarner
 public
 DisconnectableParent
 public
+nsIPackagedAppChannelListener
+public
 HttpChannelSecurityWarningReporter
 {
 virtual
@@ -181,6 +190,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSIPACKAGEDAPPCHANNELLISTENER
 NS_DECL_NSIPARENTCHANNEL
 NS_DECL_NSIPARENTREDIRECTINGCHANNEL
 NS_DECL_NSIPROGRESSEVENTSINK
