@@ -7886,6 +7886,8 @@ nsIDOMKeyEvent
 .
 DOM_VK_E
 "
+\
+u00B4
 "
 SHOULD_DELIVER_ALL
 KeyboardEvent
@@ -8701,6 +8703,8 @@ nsIDOMKeyEvent
 .
 DOM_VK_I
 "
+\
+u02C6
 "
 SHOULD_DELIVER_ALL
 KeyboardEvent
@@ -9716,6 +9720,8 @@ nsIDOMKeyEvent
 .
 DOM_VK_N
 "
+\
+u02DC
 "
 SHOULD_DELIVER_ALL
 KeyboardEvent
@@ -11155,6 +11161,8 @@ nsIDOMKeyEvent
 .
 DOM_VK_U
 "
+\
+u00A8
 "
 SHOULD_DELIVER_ALL
 KeyboardEvent
@@ -23109,6 +23117,8 @@ nsIDOMKeyEvent
 .
 DOM_VK_E
 "
+\
+u00B4
 "
 SHOULD_DELIVER_ALL
 KeyboardEvent
