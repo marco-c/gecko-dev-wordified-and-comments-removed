@@ -4358,7 +4358,6 @@ aStackFrame
 >
 GetName
 (
-aCx
 aStackEntry
 .
 mFunctionName
