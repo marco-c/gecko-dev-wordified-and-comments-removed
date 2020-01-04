@@ -59,7 +59,7 @@ new
 WidgetKeyboardEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 nullptr
 )
 )

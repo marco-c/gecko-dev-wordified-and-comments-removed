@@ -7090,7 +7090,7 @@ WidgetMouseEvent
 event
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 nullptr
 WidgetMouseEvent
 :

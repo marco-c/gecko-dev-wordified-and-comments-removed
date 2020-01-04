@@ -169,7 +169,7 @@ new
 InternalUIEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 nullptr
 )
 )

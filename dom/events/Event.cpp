@@ -408,7 +408,7 @@ new
 WidgetEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 )
 ;
 mEvent

@@ -59,7 +59,7 @@ new
 WidgetCompositionEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 nullptr
 )
 )

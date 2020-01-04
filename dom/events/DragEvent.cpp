@@ -66,7 +66,7 @@ new
 WidgetDragEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 nullptr
 )
 )

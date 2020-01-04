@@ -25490,7 +25490,7 @@ WidgetSimpleGestureEvent
 event
 (
 true
-NS_EVENT_NULL
+eVoidEvent
 this
 )
 ;

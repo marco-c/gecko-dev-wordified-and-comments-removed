@@ -4513,7 +4513,7 @@ widget
 EventMessage
 type
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 int
 startIndex
@@ -4715,7 +4715,7 @@ if
 type
 =
 =
-NS_EVENT_NULL
+eVoidEvent
 )
 {
 return
@@ -5226,7 +5226,7 @@ widget
 EventMessage
 msg
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 if
 (
@@ -5311,7 +5311,7 @@ if
 msg
 =
 =
-NS_EVENT_NULL
+eVoidEvent
 )
 {
 return

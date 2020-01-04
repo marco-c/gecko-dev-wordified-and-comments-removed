@@ -2842,7 +2842,7 @@ aEvent
 >
 mMessage
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 break
 ;

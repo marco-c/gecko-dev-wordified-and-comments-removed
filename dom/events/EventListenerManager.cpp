@@ -484,7 +484,7 @@ EventListenerManagerBase
 :
 mNoListenerForEvent
 (
-NS_EVENT_NULL
+eVoidEvent
 )
 mMayHavePaintEventListener
 (
@@ -1121,7 +1121,7 @@ return
 }
 mNoListenerForEvent
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 mNoListenerForEventAtom
 =
@@ -2569,7 +2569,7 @@ count
 ;
 mNoListenerForEvent
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 mNoListenerForEventAtom
 =
@@ -3784,7 +3784,7 @@ ElementAt
 ;
 mNoListenerForEvent
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 mNoListenerForEventAtom
 =

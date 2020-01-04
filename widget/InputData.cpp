@@ -400,7 +400,7 @@ thread
 EventMessage
 touchEventMessage
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 switch
 (
@@ -476,7 +476,7 @@ if
 touchEventMessage
 =
 =
-NS_EVENT_NULL
+eVoidEvent
 )
 {
 return
@@ -585,7 +585,7 @@ thread
 EventMessage
 mouseEventMessage
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 switch
 (

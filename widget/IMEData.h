@@ -712,7 +712,7 @@ mMouseButtonEventData
 .
 mEventMessage
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 mMouseButtonEventData
 .
