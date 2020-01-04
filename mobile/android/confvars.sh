@@ -543,17 +543,9 @@ of
 the
 framework
 .
-if
-test
-"
-NIGHTLY_BUILD
-"
-;
-then
 MOZ_SWITCHBOARD
 =
 1
-fi
 #
 Use
 native
