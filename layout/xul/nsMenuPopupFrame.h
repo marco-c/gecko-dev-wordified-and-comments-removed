@@ -229,6 +229,10 @@ POPUPPOSITION_AFTERPOINTER
 9
 #
 define
+POPUPPOSITION_SELECTION
+10
+#
+define
 POPUPPOSITION_HFLIP
 (
 v
@@ -1232,6 +1236,12 @@ aHFlip
 FlipStyle
 &
 aVFlip
+)
+;
+nsIFrame
+*
+GetSelectedItemForAlignment
+(
 )
 ;
 nscoord
