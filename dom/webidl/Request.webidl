@@ -435,6 +435,9 @@ cors
 "
 cors
 "
+"
+navigate
+"
 }
 ;
 enum
