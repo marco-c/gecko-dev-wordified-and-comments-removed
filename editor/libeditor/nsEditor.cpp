@@ -6780,7 +6780,7 @@ return
 NS_OK
 ;
 }
-nsAutoMoveNodeSelNotify
+AutoMoveNodeSelNotify
 selNotify
 (
 mRangeUpdater
