@@ -188,6 +188,17 @@ else
 false
 #
 endif
+MOZ_CONTENT_SANDBOX
+:
+#
+ifdef
+MOZ_CONTENT_SANDBOX
+true
+#
+else
+false
+#
+endif
 MOZ_TELEMETRY_REPORTING
 :
 #

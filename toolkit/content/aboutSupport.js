@@ -3750,16 +3750,6 @@ data
 {
 if
 (
-AppConstants
-.
-platform
-!
-=
-"
-linux
-"
-|
-|
 !
 AppConstants
 .
