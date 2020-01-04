@@ -826,9 +826,6 @@ SetDispAcquireFence
 Layer
 *
 aLayer
-nsIWidget
-*
-aWidget
 )
 ;
 virtual
