@@ -4657,7 +4657,7 @@ options
 {
 this
 .
-logWarning
+logError
 (
 "
 Mandatory
@@ -4666,8 +4666,9 @@ optional
 in
 createOffer
 options
-is
-deprecated
+no
+longer
+works
 !
 Use
 "
@@ -4692,6 +4693,11 @@ difference
 null
 0
 )
+;
+options
+=
+{
+}
 ;
 }
 let
