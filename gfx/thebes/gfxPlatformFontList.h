@@ -1135,6 +1135,12 @@ nsString
 aFontFamilyNames
 )
 ;
+nsILanguageAtomService
+*
+GetLangService
+(
+)
+;
 nsIAtom
 *
 GetLangGroup
