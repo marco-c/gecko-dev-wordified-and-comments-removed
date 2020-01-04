@@ -189,6 +189,12 @@ load
 .
 xul
 asserts
+(
+0
+-
+12
+)
+asserts
 -
 if
 (
