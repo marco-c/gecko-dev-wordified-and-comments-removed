@@ -10983,7 +10983,7 @@ Get
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -11030,7 +11030,7 @@ sBridge
 jClose
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -11077,7 +11077,7 @@ sBridge
 jAvailable
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )

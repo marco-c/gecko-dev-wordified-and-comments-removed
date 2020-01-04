@@ -521,7 +521,8 @@ systemUncaughtHandler
 }
 }
 }
-protected
+public
+static
 void
 logException
 (

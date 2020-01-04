@@ -319,7 +319,7 @@ release
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 instance
 .
@@ -372,7 +372,7 @@ Get
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 instance
 .
@@ -401,7 +401,7 @@ Get
 0
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 instance
 .
@@ -592,7 +592,7 @@ ptr
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 instance
 .
@@ -645,7 +645,7 @@ Get
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 instance
 .
@@ -674,7 +674,7 @@ Get
 0
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 instance
 .
@@ -1414,7 +1414,7 @@ Get
 inst
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 inst
 .
@@ -1516,7 +1516,7 @@ Get
 inst
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 inst
 .

@@ -2592,10 +2592,7 @@ ExceptionCheck
 )
 )
 {
-jni
-:
-:
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 mJNIEnv
 )

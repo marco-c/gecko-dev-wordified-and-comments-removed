@@ -366,8 +366,7 @@ ExceptionMode
 ABORT
 )
 {
-return
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -388,7 +387,6 @@ ExceptionMode
 NSRESULT
 )
 {
-return
 GetNsresult
 (
 env

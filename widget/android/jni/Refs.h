@@ -2517,7 +2517,7 @@ mInstance
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -2585,7 +2585,7 @@ index
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -2707,7 +2707,7 @@ i
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -2788,7 +2788,7 @@ Get
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
@@ -3081,7 +3081,7 @@ Length
 )
 )
 ;
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )
