@@ -206,8 +206,6 @@ home
 /
 worker
 /
-tools
-/
 tooltool
 -
 cache
@@ -256,6 +254,18 @@ linux64
 hazard
 .
 manifest
+'
+TOOLTOOL_CACHE
+:
+'
+/
+home
+/
+worker
+/
+tooltool
+-
+cache
 '
 maxRunTime
 :

@@ -154,8 +154,6 @@ home
 /
 worker
 /
-tools
-/
 tooltool
 -
 cache
@@ -187,8 +185,6 @@ TOOLTOOL_CACHE
 home
 /
 worker
-/
-tools
 /
 tooltool
 -
