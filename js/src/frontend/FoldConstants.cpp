@@ -1498,6 +1498,12 @@ PNK_POSHOLDER
 case
 PNK_SUPERCALL
 :
+case
+PNK_SUPERBASE
+:
+case
+PNK_SETTHIS
+:
 MOZ_CRASH
 (
 "
@@ -7561,9 +7567,6 @@ case
 PNK_TEMPLATE_STRING
 :
 case
-PNK_THIS
-:
-case
 PNK_GENERATOR
 :
 case
@@ -7589,6 +7592,9 @@ PN_NULLARY
 return
 true
 ;
+case
+PNK_SUPERBASE
+:
 case
 PNK_TYPEOFNAME
 :
@@ -7864,6 +7870,9 @@ inGenexpLambda
 ;
 case
 PNK_SEMI
+:
+case
+PNK_THIS
 :
 MOZ_ASSERT
 (
@@ -8403,6 +8412,9 @@ PNK_IMPORT_SPEC
 :
 case
 PNK_EXPORT_SPEC
+:
+case
+PNK_SETTHIS
 :
 MOZ_ASSERT
 (

@@ -67,12 +67,6 @@ TypeUpdate_PrimitiveSet
 \
 _
 (
-This_Fallback
-)
-\
-\
-_
-(
 NewArray_Fallback
 )
 \

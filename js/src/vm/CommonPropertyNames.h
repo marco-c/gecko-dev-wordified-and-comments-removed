@@ -497,6 +497,16 @@ generator
 \
 macro
 (
+dotThis
+dotThis
+"
+.
+this
+"
+)
+\
+macro
+(
 each
 each
 "

@@ -1310,14 +1310,6 @@ lir
 )
 ;
 void
-visitLoadArrowThis
-(
-LLoadArrowThis
-*
-lir
-)
-;
-void
 visitArrayLength
 (
 LArrayLength

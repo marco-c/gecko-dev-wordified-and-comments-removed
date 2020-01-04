@@ -586,14 +586,6 @@ ins
 )
 ;
 void
-visitLoadArrowThis
-(
-MLoadArrowThis
-*
-ins
-)
-;
-void
 visitCall
 (
 MCall

@@ -3713,7 +3713,7 @@ fun
 )
 ;
 bool
-jsop_this
+jsop_functionthis
 (
 )
 ;
