@@ -8823,7 +8823,7 @@ gfxContext
 aContext
 )
 {
-gfxSize
+Size
 t
 =
 aContext
@@ -8831,7 +8831,7 @@ aContext
 >
 UserToDevice
 (
-gfxSize
+Size
 (
 1
 .
