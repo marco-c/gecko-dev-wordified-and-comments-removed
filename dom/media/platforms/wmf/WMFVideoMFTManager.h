@@ -211,7 +211,7 @@ SetDecoderMediaTypes
 )
 ;
 bool
-MaybeToggleDXVA
+CanUseDXVA
 (
 IMFMediaType
 *
@@ -257,7 +257,6 @@ mLastInput
 float
 mLastDuration
 ;
-const
 bool
 mDXVAEnabled
 ;
