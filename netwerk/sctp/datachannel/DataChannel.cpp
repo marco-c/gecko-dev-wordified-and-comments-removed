@@ -3397,7 +3397,9 @@ buf
 }
 if
 (
+(
 0
+)
 )
 {
 res
@@ -9656,9 +9658,6 @@ strchg
 uint16_t
 stream
 ;
-uint32_t
-i
-;
 RefPtr
 <
 DataChannel
@@ -10054,6 +10053,7 @@ ProcessQueuedOpens
 }
 for
 (
+uint32_t
 i
 =
 0
