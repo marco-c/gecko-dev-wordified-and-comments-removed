@@ -927,9 +927,9 @@ aWeight
 int32_t
 &
 aStretch
-uint32_t
+uint8_t
 &
-aItalicStyle
+aStyle
 ErrorResult
 &
 aRv
@@ -1172,7 +1172,7 @@ GetIntValue
 (
 )
 ;
-aItalicStyle
+aStyle
 =
 data
 -
@@ -1303,7 +1303,7 @@ weight
 int32_t
 stretch
 ;
-uint32_t
+uint8_t
 italicStyle
 ;
 ParseFontShorthandForMatching
@@ -4414,7 +4414,7 @@ stretch
 =
 NS_STYLE_FONT_STRETCH_NORMAL
 ;
-uint32_t
+uint8_t
 italicStyle
 =
 NS_STYLE_FONT_STYLE_NORMAL
@@ -8372,8 +8372,8 @@ uint32_t
 aWeight
 int32_t
 aStretch
-uint32_t
-aItalicStyle
+uint8_t
+aStyle
 const
 nsTArray
 <
@@ -8404,7 +8404,7 @@ this
 aFontFaceSrcList
 aWeight
 aStretch
-aItalicStyle
+aStyle
 aFeatureSettings
 aLanguageOverride
 aUnicodeRanges
