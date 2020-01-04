@@ -4294,13 +4294,6 @@ dump
 }
 }
 function
-jit
-(
-on
-)
-{
-}
-function
 assertEqArray
 (
 a1
