@@ -8717,12 +8717,6 @@ MOZ_COUNT_CTOR
 nsDisplayLayerEventRegions
 )
 ;
-AddFrame
-(
-aBuilder
-aFrame
-)
-;
 }
 #
 ifdef
