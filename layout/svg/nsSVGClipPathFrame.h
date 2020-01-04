@@ -47,15 +47,11 @@ gfxContext
 class
 nsISVGChildFrame
 ;
-typedef
-nsSVGContainerFrame
-nsSVGClipPathFrameBase
-;
 class
 nsSVGClipPathFrame
 :
 public
-nsSVGClipPathFrameBase
+nsSVGContainerFrame
 {
 friend
 nsIFrame
@@ -100,7 +96,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGClipPathFrameBase
+nsSVGContainerFrame
 (
 aContext
 )
