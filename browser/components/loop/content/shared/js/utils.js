@@ -304,6 +304,15 @@ or
 -
 invalid
 "
+TOS_FAILURE
+:
+"
+reason
+-
+tos
+-
+failure
+"
 UNKNOWN
 :
 "
