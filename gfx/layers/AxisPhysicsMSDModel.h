@@ -59,6 +59,8 @@ aDestination
 bool
 IsFinished
 (
+double
+aSmallestVisibleIncrement
 )
 ;
 protected
