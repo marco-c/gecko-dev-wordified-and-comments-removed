@@ -1745,6 +1745,10 @@ this
 .
 resizeTimeout
 =
+this
+.
+window
+.
 setTimeout
 (
 this
