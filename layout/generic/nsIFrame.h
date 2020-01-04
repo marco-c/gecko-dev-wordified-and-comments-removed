@@ -6657,13 +6657,6 @@ out
 ;
 #
 endif
-virtual
-bool
-HasSignificantTerminalNewline
-(
-)
-const
-;
 static
 bool
 AddXULPrefSize
@@ -6732,6 +6725,13 @@ nscoord
 &
 aFlex
 )
+;
+virtual
+bool
+HasSignificantTerminalNewline
+(
+)
+const
 ;
 struct
 CaretPosition
