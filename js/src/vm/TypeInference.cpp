@@ -20294,6 +20294,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 !

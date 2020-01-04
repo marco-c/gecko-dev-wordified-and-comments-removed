@@ -32524,6 +32524,10 @@ NonBuiltinFrameIter
 i
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -32897,6 +32901,10 @@ NonBuiltinFrameIter
 i
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if

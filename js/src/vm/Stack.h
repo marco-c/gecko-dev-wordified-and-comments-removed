@@ -5991,15 +5991,12 @@ other
 ;
 }
 ;
-MOZ_IMPLICIT
 FrameIter
 (
 JSContext
 *
 cx
 SavedOption
-=
-STOP_AT_SAVED
 )
 ;
 FrameIter
@@ -6629,7 +6626,6 @@ operator
 }
 public
 :
-explicit
 ScriptFrameIter
 (
 JSContext
@@ -6637,8 +6633,6 @@ JSContext
 cx
 SavedOption
 savedOption
-=
-STOP_AT_SAVED
 )
 :
 FrameIter
@@ -6831,7 +6825,6 @@ settle
 ;
 public
 :
-explicit
 NonBuiltinFrameIter
 (
 JSContext
@@ -6842,11 +6835,6 @@ FrameIter
 :
 SavedOption
 opt
-=
-FrameIter
-:
-:
-STOP_AT_SAVED
 )
 :
 FrameIter
@@ -7042,11 +7030,6 @@ ScriptFrameIter
 :
 SavedOption
 opt
-=
-ScriptFrameIter
-:
-:
-STOP_AT_SAVED
 )
 :
 ScriptFrameIter

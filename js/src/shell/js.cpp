@@ -10714,6 +10714,10 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 return
@@ -23140,6 +23144,10 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if

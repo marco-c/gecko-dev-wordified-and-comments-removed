@@ -6999,6 +6999,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 RootedValue
@@ -7175,6 +7179,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -8191,6 +8199,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 RootedScript
@@ -8565,6 +8577,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 RootedValue
@@ -31073,6 +31089,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 MOZ_ASSERT
@@ -31124,6 +31144,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 while

@@ -799,6 +799,10 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -1161,6 +1165,10 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -1490,6 +1498,10 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -6084,6 +6096,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 MOZ_ASSERT
