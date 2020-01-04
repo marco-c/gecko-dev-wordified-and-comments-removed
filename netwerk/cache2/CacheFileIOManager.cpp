@@ -535,10 +535,6 @@ mHash
 (
 aHash
 )
-mIsDoomed
-(
-false
-)
 mPriority
 (
 aPriority
@@ -569,6 +565,10 @@ mFD
 nullptr
 )
 {
+mIsDoomed
+=
+false
+;
 LOG
 (
 (
@@ -624,10 +624,6 @@ mHash
 (
 nullptr
 )
-mIsDoomed
-(
-false
-)
 mPriority
 (
 aPriority
@@ -662,6 +658,10 @@ mKey
 aKey
 )
 {
+mIsDoomed
+=
+false
+;
 LOG
 (
 (
@@ -855,7 +855,10 @@ s
 ]
 "
 this
+int
+(
 mIsDoomed
+)
 mPriority
 mClosed
 mInvalid
@@ -950,7 +953,10 @@ LOGSHA1
 (
 mHash
 )
+int
+(
 mIsDoomed
+)
 mPriority
 mClosed
 mInvalid
