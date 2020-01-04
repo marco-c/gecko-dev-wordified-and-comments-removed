@@ -1,5 +1,12 @@
 #
 include
+"
+nsICODecoder
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -20,13 +27,6 @@ include
 mozilla
 /
 Move
-.
-h
-"
-#
-include
-"
-nsICODecoder
 .
 h
 "

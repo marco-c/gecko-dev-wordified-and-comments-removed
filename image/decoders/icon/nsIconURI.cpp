@@ -1,6 +1,13 @@
 #
 include
 "
+nsIconURI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -15,13 +22,6 @@ mozilla
 ipc
 /
 URIUtils
-.
-h
-"
-#
-include
-"
-nsIconURI
 .
 h
 "

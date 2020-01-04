@@ -1,5 +1,12 @@
 #
 include
+"
+OrientedImage
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -42,13 +49,6 @@ h
 include
 "
 SVGImageContext
-.
-h
-"
-#
-include
-"
-OrientedImage
 .
 h
 "

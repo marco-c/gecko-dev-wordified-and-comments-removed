@@ -1,6 +1,13 @@
 #
 include
 "
+nsIconProtocolHandler
+.
+h
+"
+#
+include
+"
 nsIconChannel
 .
 h
@@ -9,13 +16,6 @@ h
 include
 "
 nsIconURI
-.
-h
-"
-#
-include
-"
-nsIconProtocolHandler
 .
 h
 "

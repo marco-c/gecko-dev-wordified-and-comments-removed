@@ -8,14 +8,14 @@ h
 #
 include
 "
-imgFrame
+nsJPEGDecoder
 .
 h
 "
 #
 include
 "
-nsJPEGDecoder
+imgFrame
 .
 h
 "
