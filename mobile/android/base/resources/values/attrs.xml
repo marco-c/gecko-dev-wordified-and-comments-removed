@@ -201,7 +201,7 @@ reference
 -
 Style
 for
-MenuItemActionView
+MenuItemSwitcherLayout
 -
 -
 >
@@ -210,7 +210,7 @@ attr
 name
 =
 "
-menuItemActionViewStyle
+menuItemSwitcherLayoutStyle
 "
 format
 =
@@ -277,7 +277,7 @@ reference
 -
 Style
 for
-MenuItemActionView
+MenuItemSwitcherLayout
 '
 s
 ShareActionButton
