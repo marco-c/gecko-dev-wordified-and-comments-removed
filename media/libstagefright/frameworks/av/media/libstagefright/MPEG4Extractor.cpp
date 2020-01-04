@@ -2139,6 +2139,8 @@ offset
 ;
 status_t
 err
+=
+NO_INIT
 ;
 while
 (
@@ -2179,7 +2181,7 @@ Error
 %
 d
 parsing
-chuck
+chunck
 at
 offset
 %
