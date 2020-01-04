@@ -39,7 +39,7 @@ testing
 .
 firefox_ui_tests
 import
-FirefoxUIUpdateTests
+FirefoxUITests
 if
 __name__
 =
@@ -51,7 +51,7 @@ __main__
     
 myScript
 =
-FirefoxUIUpdateTests
+FirefoxUITests
 (
 )
     
