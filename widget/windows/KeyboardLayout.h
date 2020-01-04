@@ -1377,6 +1377,10 @@ GetFollowingCharMessage
 MSG
 &
 aCharMsg
+bool
+aRemove
+=
+true
 )
 const
 ;
