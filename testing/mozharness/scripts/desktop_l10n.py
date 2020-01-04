@@ -1079,6 +1079,12 @@ repack
 "
                 
 "
+create
+-
+virtualenv
+"
+                
+"
 taskcluster
 -
 upload
@@ -7335,24 +7341,6 @@ credentials
 )
             
 return
-        
-self
-.
-disable_mock
-(
-)
-        
-self
-.
-create_virtualenv
-(
-)
-        
-self
-.
-enable_mock
-(
-)
         
 self
 .
