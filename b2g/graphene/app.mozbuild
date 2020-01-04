@@ -123,10 +123,6 @@ defaults
 =
 [
 '
-b2g
-/
-graphene
-/
 settings
 .
 json
