@@ -515,9 +515,7 @@ security
 .
 webauth
 .
-u2f
-.
-softtoken
+u2f_enable_softtoken
 "
 false
 )
@@ -529,9 +527,7 @@ security
 .
 webauth
 .
-u2f
-.
-usbtoken
+u2f_enable_usbtoken
 "
 false
 )
