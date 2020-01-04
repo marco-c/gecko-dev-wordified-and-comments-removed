@@ -737,8 +737,6 @@ patch
 -
 p3
 <
-.
-/
 gcc
 -
 4
@@ -750,16 +748,7 @@ ICE
 patch
 patch
 -
-p1
-<
-.
-/
-tonality_init
-.
-patch
-patch
--
-p0
+p3
 <
 nonunified
 .
