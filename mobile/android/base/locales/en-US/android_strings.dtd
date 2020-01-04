@@ -3156,6 +3156,16 @@ suggestions
 <
 !
 ENTITY
+pref_history_search_suggestions
+"
+Show
+search
+history
+"
+>
+<
+!
+ENTITY
 pref_import_android
 "
 Import
