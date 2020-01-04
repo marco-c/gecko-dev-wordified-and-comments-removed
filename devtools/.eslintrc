@@ -49,11 +49,6 @@ console
 :
 true
 "
-CSS
-"
-:
-true
-"
 DOMParser
 "
 :
@@ -110,6 +105,11 @@ uneval
 true
 "
 URL
+"
+:
+true
+"
+WebSocket
 "
 :
 true
