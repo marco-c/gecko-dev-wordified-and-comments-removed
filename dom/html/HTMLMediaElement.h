@@ -1239,7 +1239,10 @@ ErrorResult
 aRv
 )
 ;
-void
+already_AddRefed
+<
+Promise
+>
 SeekToNextFrame
 (
 ErrorResult
@@ -2722,7 +2725,10 @@ nsAString
 aType
 )
 ;
-void
+already_AddRefed
+<
+Promise
+>
 Seek
 (
 double
