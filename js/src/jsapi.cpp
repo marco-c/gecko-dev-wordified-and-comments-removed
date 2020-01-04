@@ -28915,8 +28915,6 @@ JS_NewRegExpObject
 JSContext
 *
 cx
-HandleObject
-obj
 const
 char
 *
@@ -28999,8 +28997,6 @@ JS_NewUCRegExpObject
 JSContext
 *
 cx
-HandleObject
-obj
 const
 char16_t
 *
