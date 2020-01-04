@@ -582,18 +582,6 @@ ALL_VERSIONS
 }
 {
 "
-rf
--
-firefox
--
-40
-.
-dll
-"
-ALL_VERSIONS
-}
-{
-"
 dtwxsvc
 .
 dll
@@ -2012,7 +2000,7 @@ intptr_t
 filePath
 )
 <
-1024
+4096
 )
 ?
 nullptr
