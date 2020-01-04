@@ -207,15 +207,6 @@ test
 /
 xpcshell
 /
-native_messaging
-.
-ini
-'
-'
-test
-/
-xpcshell
-/
 xpcshell
 .
 ini
