@@ -12,6 +12,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 namespace
 mozilla
 {
@@ -62,7 +69,7 @@ aDepth
 )
 mGC
 (
-None
+X11None
 )
 {
 MOZ_ASSERT
@@ -102,7 +109,7 @@ if
 mGC
 !
 =
-None
+X11None
 )
 XFreeGC
 (

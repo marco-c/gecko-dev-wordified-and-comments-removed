@@ -42,6 +42,13 @@ WidgetUtils
 .
 h
 "
+#
+include
+"
+nsPIDOMWindow
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsColorPicker
