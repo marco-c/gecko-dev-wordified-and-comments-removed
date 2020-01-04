@@ -3678,6 +3678,9 @@ record
 authenticationSecret
 :
 null
+cryptoParams
+.
+padSize
 )
 ;
 }

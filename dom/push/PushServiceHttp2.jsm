@@ -886,6 +886,17 @@ aRequest
 Encryption
 "
 )
+encoding
+:
+getHeaderField
+(
+aRequest
+"
+Content
+-
+Encoding
+"
+)
 }
 ;
 let
