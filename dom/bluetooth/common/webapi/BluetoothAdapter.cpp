@@ -7045,10 +7045,13 @@ init
 .
 mSearchValue
 =
+NS_ConvertUTF8toUTF16
+(
 value
 .
-get_nsString
+get_nsCString
 (
+)
 )
 ;
 }
