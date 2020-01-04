@@ -341,8 +341,6 @@ import
 pylru
 import
 taskcluster
-import
-buildconfig
 from
 mozbuild
 .
@@ -5514,6 +5512,8 @@ __init__
 (
 self
 tree
+substs
+defines
 job
 =
 None
@@ -5569,6 +5569,18 @@ and
 git
 "
 )
+        
+self
+.
+_substs
+=
+substs
+        
+self
+.
+_defines
+=
+defines
         
 self
 .
@@ -5801,9 +5813,9 @@ self
 :
         
 if
-buildconfig
+self
 .
-substs
+_substs
 .
 get
 (
@@ -5823,9 +5835,9 @@ android
 :
             
 if
-buildconfig
+self
 .
-substs
+_substs
 [
 '
 ANDROID_CPU_ARCH
@@ -5859,9 +5871,9 @@ target_64bit
 False
         
 if
-buildconfig
+self
 .
-substs
+_substs
 [
 '
 target_cpu
@@ -5884,9 +5896,9 @@ target_suffix
 '
         
 if
-buildconfig
+self
 .
-substs
+_substs
 .
 get
 (
@@ -5904,9 +5916,9 @@ debug
 '
         
 if
-buildconfig
+self
 .
-defines
+_defines
 .
 get
 (
@@ -5933,9 +5945,9 @@ linux
 target_suffix
         
 if
-buildconfig
+self
 .
-defines
+_defines
 .
 get
 (
@@ -5962,9 +5974,9 @@ win32
 target_suffix
         
 if
-buildconfig
+self
 .
-defines
+_defines
 .
 get
 (
