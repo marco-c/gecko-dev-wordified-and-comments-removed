@@ -286,6 +286,11 @@ HTMLSplitOnSpacesTokenizer
 h
 '
 '
+IframeSandboxKeywordList
+.
+h
+'
+'
 mozAutoDocUpdate
 .
 h
