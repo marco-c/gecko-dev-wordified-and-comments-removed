@@ -1931,7 +1931,7 @@ return
 nsCocoaFeatures
 :
 :
-OnLionOrLater
+OnMountainLionOrLater
 (
 )
 &
