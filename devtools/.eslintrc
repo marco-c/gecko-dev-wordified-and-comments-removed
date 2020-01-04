@@ -286,7 +286,12 @@ es6
 class
 "
 :
+[
 1
+"
+never
+"
+]
 "
 react
 /
