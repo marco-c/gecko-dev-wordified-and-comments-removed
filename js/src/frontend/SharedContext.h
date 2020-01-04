@@ -439,6 +439,9 @@ bool
 allowSuperProperty_
 ;
 bool
+allowSuperCall_
+;
+bool
 inWith_
 ;
 bool
@@ -495,6 +498,10 @@ allowNewTarget_
 false
 )
 allowSuperProperty_
+(
+false
+)
+allowSuperCall_
 (
 false
 )
@@ -667,6 +674,16 @@ const
 {
 return
 allowSuperProperty_
+;
+}
+bool
+allowSuperCall
+(
+)
+const
+{
+return
+allowSuperCall_
 ;
 }
 bool
