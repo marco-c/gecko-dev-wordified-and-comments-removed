@@ -64,6 +64,9 @@ h
 namespace
 js
 {
+class
+WeakMapBase
+;
 static
 WeakMapBase
 *
