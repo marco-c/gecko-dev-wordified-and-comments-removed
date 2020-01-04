@@ -1001,6 +1001,8 @@ include_globs_
 matches
 (
 uri
+.
+spec
 )
 )
 {
@@ -1018,6 +1020,8 @@ exclude_globs_
 matches
 (
 uri
+.
+spec
 )
 )
 {
