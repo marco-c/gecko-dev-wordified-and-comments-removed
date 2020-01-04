@@ -268,7 +268,7 @@ is
 promptState
 .
 msg
-state
+expectedState
 .
 msg
 "
@@ -383,6 +383,8 @@ action
 function
 handlePrompt
 (
+state
+action
 )
 {
 return
@@ -521,6 +523,7 @@ promptDone
 =
 handlePrompt
 (
+state
 action
 )
 ;
@@ -675,6 +678,7 @@ promptDone
 =
 handlePrompt
 (
+state
 action
 )
 ;
@@ -842,6 +846,7 @@ promptDone
 =
 handlePrompt
 (
+state
 action
 )
 ;
@@ -1004,6 +1009,7 @@ promptDone
 =
 handlePrompt
 (
+state
 action
 )
 ;

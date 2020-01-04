@@ -264,6 +264,8 @@ true
 function
 handlePrompt
 (
+state
+action
 )
 {
 return
