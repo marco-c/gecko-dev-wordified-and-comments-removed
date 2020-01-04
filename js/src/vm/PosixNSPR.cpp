@@ -1025,6 +1025,7 @@ lock_
 ;
 public
 :
+explicit
 CondVar
 (
 nspr
