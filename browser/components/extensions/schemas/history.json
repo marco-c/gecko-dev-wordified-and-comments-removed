@@ -1417,11 +1417,6 @@ name
 deleteRange
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -1594,11 +1589,6 @@ name
 "
 deleteAll
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
