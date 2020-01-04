@@ -752,8 +752,12 @@ AndroidEclipse
 '
 CppEclipse
 '
+                               
 '
 VisualStudio
+'
+'
+FasterMake
 '
 ]
                       
@@ -994,6 +998,30 @@ VisualStudioBackend
 backend_cls
 =
 VisualStudioBackend
+    
+elif
+options
+.
+backend
+=
+=
+'
+FasterMake
+'
+:
+        
+from
+mozbuild
+.
+backend
+.
+fastermake
+import
+FasterMakeBackend
+        
+backend_cls
+=
+FasterMakeBackend
     
 the_backend
 =
