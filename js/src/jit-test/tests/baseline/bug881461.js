@@ -1,11 +1,11 @@
 z
 =
+new
 Proxy
-.
-create
 (
 {
-}
+__proto__
+:
 (
 function
 (
@@ -13,6 +13,9 @@ function
 {
 }
 )
+}
+{
+}
 )
 ;
 (

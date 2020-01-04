@@ -7,10 +7,11 @@ v
 of
 wrapWithProto
 (
+new
 Proxy
-.
-create
 (
+{
+}
 {
 }
 )

@@ -1,10 +1,11 @@
 var
 prox
 =
+new
 Proxy
-.
-create
 (
+{
+}
 {
 getOwnPropertyDescriptor
 :

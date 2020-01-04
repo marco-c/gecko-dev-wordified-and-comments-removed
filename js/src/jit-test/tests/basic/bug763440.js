@@ -69,10 +69,11 @@ description
 var
 p
 =
+new
 Proxy
-.
-create
 (
+{
+}
 {
 has
 :

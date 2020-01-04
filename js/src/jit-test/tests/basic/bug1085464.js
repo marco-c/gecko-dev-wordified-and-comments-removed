@@ -7,10 +7,11 @@ f
 var
 o
 =
+new
 Proxy
-.
-createFunction
 (
+{
+}
 {
 get
 :
@@ -38,11 +39,6 @@ assertEq
 )
 ;
 }
-}
-function
-(
-)
-{
 }
 )
 ;

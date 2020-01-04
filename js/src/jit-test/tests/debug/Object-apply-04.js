@@ -104,12 +104,9 @@ eval
 "
 f
 (
+new
 Proxy
-.
-createFunction
 (
-{
-}
 function
 (
 arg
@@ -120,6 +117,8 @@ arg
 +
 1
 ;
+}
+{
 }
 )
 )

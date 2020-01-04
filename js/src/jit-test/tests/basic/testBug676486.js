@@ -1,12 +1,9 @@
 var
 proxy
 =
+new
 Proxy
-.
-createFunction
 (
-{
-}
 function
 (
 )
@@ -28,6 +25,8 @@ foo
 (
 )
 ;
+}
+{
 }
 )
 ;

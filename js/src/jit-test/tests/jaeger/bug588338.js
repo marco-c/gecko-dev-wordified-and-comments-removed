@@ -10,10 +10,10 @@ e
 (
 x
 =
+new
 Proxy
-.
-createFunction
 (
+Function
 (
 function
 (
@@ -44,7 +44,6 @@ b
 x
 /
 )
-Function
 )
 )
 for

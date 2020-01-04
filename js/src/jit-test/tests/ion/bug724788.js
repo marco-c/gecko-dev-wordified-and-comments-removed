@@ -7,10 +7,11 @@ prototype
 __proto__
 o1
 =
+new
 Proxy
-.
-create
 (
+{
+}
 {
 }
 )

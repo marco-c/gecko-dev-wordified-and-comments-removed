@@ -45,15 +45,14 @@ regex
 .
 __proto__
 =
+new
 Proxy
-.
-createFunction
 (
-handler
 function
 (
 )
 {
 }
+handler
 )
 }
