@@ -2190,13 +2190,13 @@ content
 /
 memory
 /
-controller
+initializer
 .
 js
 (
 memory
 /
-controller
+initializer
 .
 js
 )
