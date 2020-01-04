@@ -8094,7 +8094,7 @@ CrossProcessCompositorParent
 final
 :
 public
-PCompositorParent
+PCompositorBridgeParent
 public
 ShadowLayersManager
 {
@@ -8838,7 +8838,7 @@ mNotifyAfterRemotePaint
 ;
 }
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
 CompositorParent
 :
@@ -8846,7 +8846,7 @@ CompositorParent
 LayerTreeState
 :
 :
-CrossProcessPCompositor
+CrossProcessPCompositorBridge
 (
 )
 const
@@ -9010,7 +9010,7 @@ current
 Unused
 <
 <
-PCompositorParent
+PCompositorBridgeParent
 :
 :
 SendInvalidateLayers
@@ -9431,7 +9431,7 @@ ok
 )
 ;
 }
-PCompositorParent
+PCompositorBridgeParent
 *
 CompositorParent
 :
@@ -11944,7 +11944,7 @@ Transport
 MODE_SERVER
 )
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
 compositor
 =

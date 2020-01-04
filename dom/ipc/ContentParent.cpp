@@ -11630,7 +11630,7 @@ bool
 >
 opened
 =
-PCompositor
+PCompositorBridge
 :
 :
 Open
@@ -15583,12 +15583,12 @@ return
 true
 ;
 }
-PCompositorParent
+PCompositorBridgeParent
 *
 ContentParent
 :
 :
-AllocPCompositorParent
+AllocPCompositorBridgeParent
 (
 mozilla
 :

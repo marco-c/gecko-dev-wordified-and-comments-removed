@@ -427,7 +427,7 @@ mozilla
 /
 layers
 /
-PCompositorParent
+PCompositorBridgeParent
 .
 h
 "
@@ -2936,7 +2936,7 @@ IsDestroyed
 )
 ;
 }
-PCompositorParent
+PCompositorBridgeParent
 *
 AsyncPanZoomController
 :
@@ -2980,7 +2980,7 @@ return
 state
 -
 >
-CrossProcessPCompositor
+CrossProcessPCompositorBridge
 (
 )
 ;
@@ -3130,7 +3130,7 @@ mTreeManager
 =
 nullptr
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
 compositor
 =
@@ -17929,7 +17929,7 @@ ShareCompositorFrameMetrics
 (
 )
 {
-PCompositorParent
+PCompositorBridgeParent
 *
 compositor
 =

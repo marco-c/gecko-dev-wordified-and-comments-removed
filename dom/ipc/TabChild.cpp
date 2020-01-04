@@ -11154,7 +11154,7 @@ mTextureFactoryIdentifier
 =
 aTextureFactoryIdentifier
 ;
-PCompositorChild
+PCompositorBridgeChild
 *
 compositorChild
 =

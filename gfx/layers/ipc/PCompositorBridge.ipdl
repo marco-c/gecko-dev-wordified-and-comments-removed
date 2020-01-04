@@ -389,7 +389,7 @@ layers
 *
 *
 The
-PCompositor
+PCompositorBridge
 protocol
 is
 used
@@ -425,7 +425,7 @@ protocol
 /
 sync
 protocol
-PCompositor
+PCompositorBridge
 {
 /
 /

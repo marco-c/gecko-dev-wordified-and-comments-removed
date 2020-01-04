@@ -49,7 +49,7 @@ mozilla
 /
 layers
 /
-PCompositorChild
+PCompositorBridgeChild
 .
 h
 "
@@ -138,7 +138,7 @@ CompositorChild
 final
 :
 public
-PCompositorChild
+PCompositorBridgeChild
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
@@ -173,7 +173,7 @@ FrameMetrics
 )
 ;
 static
-PCompositorChild
+PCompositorBridgeChild
 *
 Create
 (

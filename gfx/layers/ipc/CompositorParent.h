@@ -163,7 +163,7 @@ mozilla
 /
 layers
 /
-PCompositorParent
+PCompositorBridgeParent
 .
 h
 "
@@ -771,7 +771,7 @@ CompositorParent
 final
 :
 public
-PCompositorParent
+PCompositorBridgeParent
 public
 ShadowLayersManager
 {
@@ -1390,7 +1390,7 @@ aLayersId
 )
 ;
 static
-PCompositorParent
+PCompositorBridgeParent
 *
 Create
 (
@@ -1468,9 +1468,9 @@ CompositorUpdateObserver
 >
 mLayerTreeClearedObserver
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
-CrossProcessPCompositor
+CrossProcessPCompositorBridge
 (
 )
 const

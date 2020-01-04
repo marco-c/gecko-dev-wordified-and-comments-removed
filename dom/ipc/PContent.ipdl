@@ -140,7 +140,7 @@ PCellBroadcast
 ;
 include
 protocol
-PCompositor
+PCompositorBridge
 ;
 include
 protocol
@@ -1637,7 +1637,7 @@ PPluginModule
 ;
 parent
 opens
-PCompositor
+PCompositorBridge
 ;
 parent
 opens

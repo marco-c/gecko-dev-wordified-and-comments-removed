@@ -260,7 +260,7 @@ namespace
 layers
 {
 class
-PCompositorParent
+PCompositorBridgeParent
 ;
 class
 PSharedBufferManagerParent
@@ -2226,9 +2226,9 @@ aActor
 )
 override
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
-AllocPCompositorParent
+AllocPCompositorBridgeParent
 (
 mozilla
 :

@@ -2612,7 +2612,7 @@ ipdl
 '
 ipc
 /
-PCompositor
+PCompositorBridge
 .
 ipdl
 '

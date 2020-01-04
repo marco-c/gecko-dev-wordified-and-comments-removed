@@ -116,7 +116,7 @@ PCompositable
 ;
 include
 protocol
-PCompositor
+PCompositorBridge
 ;
 include
 protocol
@@ -367,7 +367,7 @@ protocol
 PLayerTransaction
 {
 manager
-PCompositor
+PCompositorBridge
 ;
 manages
 PLayer

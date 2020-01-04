@@ -209,7 +209,7 @@ class
 GestureEventListener
 ;
 class
-PCompositorParent
+PCompositorBridgeParent
 ;
 struct
 AsyncTransform
@@ -1165,7 +1165,7 @@ const
 bool
 mSharingFrameMetricsAcrossProcesses
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
 GetSharedFrameMetricsCompositor
 (

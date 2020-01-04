@@ -362,7 +362,7 @@ mozilla
 /
 layers
 /
-PCompositorChild
+PCompositorBridgeChild
 .
 h
 "
@@ -5883,12 +5883,12 @@ return
 true
 ;
 }
-PCompositorChild
+PCompositorBridgeChild
 *
 ContentChild
 :
 :
-AllocPCompositorChild
+AllocPCompositorBridgeChild
 (
 mozilla
 :

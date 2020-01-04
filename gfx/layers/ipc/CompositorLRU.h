@@ -39,7 +39,7 @@ namespace
 layers
 {
 class
-PCompositorParent
+PCompositorBridgeParent
 ;
 class
 CompositorLRU
@@ -51,7 +51,7 @@ std
 :
 pair
 <
-PCompositorParent
+PCompositorBridgeParent
 *
 uint64_t
 >
@@ -79,7 +79,7 @@ GetSingleton
 void
 Add
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 const
@@ -91,7 +91,7 @@ id
 void
 Remove
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 const
@@ -103,7 +103,7 @@ id
 void
 Remove
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 )

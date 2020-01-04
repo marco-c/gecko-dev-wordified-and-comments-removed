@@ -130,7 +130,7 @@ namespace
 layers
 {
 class
-PCompositorChild
+PCompositorBridgeChild
 ;
 }
 namespace
@@ -554,9 +554,9 @@ aActor
 )
 override
 ;
-PCompositorChild
+PCompositorBridgeChild
 *
-AllocPCompositorChild
+AllocPCompositorBridgeChild
 (
 mozilla
 :
