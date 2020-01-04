@@ -6124,7 +6124,7 @@ LAYER_NONE
 ;
 }
 return
-LAYER_ACTIVE
+LAYER_ACTIVE_FORCE
 ;
 }
 class
