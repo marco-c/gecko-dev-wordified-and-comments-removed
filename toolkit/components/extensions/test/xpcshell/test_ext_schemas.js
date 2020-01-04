@@ -581,6 +581,15 @@ type
 "
 object
 "
+additionalProperties
+:
+{
+type
+:
+"
+any
+"
+}
 }
 ]
 }
