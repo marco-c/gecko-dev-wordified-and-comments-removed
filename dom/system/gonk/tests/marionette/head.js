@@ -1153,7 +1153,7 @@ aTestCaseMain
 .
 then
 (
-finish
+cleanUp
 function
 (
 aException
