@@ -648,9 +648,6 @@ aStatus
 bool
 TerminatePrivate
 (
-JSContext
-*
-aCx
 )
 {
 return
@@ -919,9 +916,6 @@ Resume
 bool
 Terminate
 (
-JSContext
-*
-aCx
 )
 {
 AssertIsOnParentThread
@@ -931,7 +925,6 @@ AssertIsOnParentThread
 return
 TerminatePrivate
 (
-aCx
 )
 ;
 }
