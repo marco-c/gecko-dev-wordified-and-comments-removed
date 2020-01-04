@@ -7,7 +7,7 @@ nsHTMLCSSUtils_h__
 #
 include
 "
-ChangeStyleTxn
+ChangeStyleTransaction
 .
 h
 "
@@ -796,10 +796,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-ChangeStyleTxn
+ChangeStyleTransaction
 >
 CreateCSSPropertyTxn
 (
@@ -822,10 +819,7 @@ aValue
 mozilla
 :
 :
-dom
-:
-:
-ChangeStyleTxn
+ChangeStyleTransaction
 :
 :
 EChangeType

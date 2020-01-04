@@ -148,7 +148,7 @@ ChangeAttributeTransaction
 cpp
 '
 '
-ChangeStyleTxn
+ChangeStyleTransaction
 .
 cpp
 '

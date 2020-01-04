@@ -1,9 +1,9 @@
 #
 ifndef
-ChangeStyleTxn_h__
+ChangeStyleTransaction_h
 #
 define
-ChangeStyleTxn_h__
+ChangeStyleTransaction_h
 #
 include
 "
@@ -47,8 +47,10 @@ dom
 class
 Element
 ;
+}
 class
-ChangeStyleTxn
+ChangeStyleTransaction
+final
 :
 public
 EditTxn
@@ -57,7 +59,7 @@ public
 :
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-ChangeStyleTxn
+ChangeStyleTransaction
 EditTxn
 )
 NS_DECL_ISUPPORTS_INHERITED
@@ -75,8 +77,11 @@ eSet
 eRemove
 }
 ;
-ChangeStyleTxn
+ChangeStyleTransaction
 (
+dom
+:
+:
 Element
 &
 aElement
@@ -107,8 +112,9 @@ aValue
 ;
 private
 :
+virtual
 ~
-ChangeStyleTxn
+ChangeStyleTransaction
 (
 )
 ;
@@ -156,6 +162,9 @@ aValue
 ;
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 mElement
@@ -186,7 +195,6 @@ mRedoAttributeWasSet
 ;
 }
 ;
-}
 }
 #
 endif
