@@ -330,6 +330,9 @@ state
 }
 )
 ;
+let
+creationTime
+;
 dispatch
 (
 {
@@ -348,6 +351,18 @@ yield
 heapWorker
 .
 readHeapSnapshot
+(
+snapshot
+.
+path
+)
+;
+creationTime
+=
+yield
+heapWorker
+.
+getCreationTime
 (
 snapshot
 .
@@ -393,6 +408,7 @@ actions
 .
 READ_SNAPSHOT_END
 snapshot
+creationTime
 }
 )
 ;
