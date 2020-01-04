@@ -291,11 +291,6 @@ StreamNotifyParent
 .
 h
 '
-'
-TaskFactory
-.
-h
-'
 ]
 if
 CONFIG
