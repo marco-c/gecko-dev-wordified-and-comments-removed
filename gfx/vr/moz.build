@@ -165,11 +165,6 @@ gfxVROculus
 cpp
 '
 '
-gfxVROSVR
-.
-cpp
-'
-'
 ipc
 /
 VRManagerChild

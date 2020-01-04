@@ -88,13 +88,6 @@ gfxVROculus050
 h
 "
 #
-include
-"
-gfxVROSVR
-.
-h
-"
-#
 endif
 #
 include
