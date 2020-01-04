@@ -86,7 +86,9 @@ b2g
 -
 *
 .
-android
+linux
+-
+androideabi
 -
 arm
 .
