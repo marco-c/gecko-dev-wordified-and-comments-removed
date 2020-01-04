@@ -1,3 +1,6 @@
+var
+keepPromiseAlive
+;
 onfetch
 =
 function
@@ -49,6 +52,9 @@ event
 .
 respondWith
 (
+(
+keepPromiseAlive
+=
 new
 Promise
 (
@@ -59,6 +65,7 @@ rej
 )
 {
 }
+)
 )
 )
 ;
