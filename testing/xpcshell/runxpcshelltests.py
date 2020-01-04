@@ -27,6 +27,8 @@ signal
 import
 sys
 import
+tempfile
+import
 time
 import
 traceback
@@ -813,6 +815,19 @@ get
 (
 '
 stack_fixer_function
+'
+)
+        
+self
+.
+_rootTempDir
+=
+kwargs
+.
+get
+(
+'
+tempDir
 '
 )
         
@@ -2162,6 +2177,11 @@ xpc
 other
 -
 '
+dir
+=
+self
+.
+_rootTempDir
 )
         
 self
@@ -2237,6 +2257,11 @@ xpc
 plugins
 -
 '
+dir
+=
+self
+.
+_rootTempDir
 )
         
 dir_util
@@ -2412,6 +2437,11 @@ xpc
 profile
 -
 '
+dir
+=
+self
+.
+_rootTempDir
 )
         
 self
@@ -7952,6 +7982,9 @@ None
 mobileArgs
 =
 None
+tempDir
+=
+None
                  
 interactive
 =
@@ -8381,6 +8414,19 @@ path
 .
         
 |
+tempDir
+|
+if
+provided
+specifies
+a
+temporary
+directory
+to
+use
+.
+        
+|
 otherOptions
 |
 may
@@ -8665,6 +8711,25 @@ self
 symbolsPath
 =
 symbolsPath
+        
+self
+.
+tempDir
+=
+os
+.
+path
+.
+normpath
+(
+tempDir
+or
+tempfile
+.
+gettempdir
+(
+)
+)
         
 self
 .
@@ -9147,6 +9212,14 @@ headJSPath
 self
 .
 headJSPath
+            
+'
+tempDir
+'
+:
+self
+.
+tempDir
             
 '
 testharnessdir
