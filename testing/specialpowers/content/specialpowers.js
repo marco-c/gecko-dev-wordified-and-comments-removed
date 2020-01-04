@@ -172,6 +172,9 @@ SPChromeScriptMessage
 SPLoadChromeScript
 "
 "
+SPImportInMainProcess
+"
+"
 SPObserverService
 "
 "
