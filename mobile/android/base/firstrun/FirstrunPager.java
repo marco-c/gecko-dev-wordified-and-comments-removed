@@ -141,7 +141,7 @@ context
 protected
 FirstrunPane
 .
-OnFinishListener
+PagerNavigation
 listener
 ;
 public
@@ -184,11 +184,13 @@ public
 void
 load
 (
+Context
+appContext
 FragmentManager
 fm
 FirstrunPane
 .
-OnFinishListener
+PagerNavigation
 listener
 )
 {
@@ -197,7 +199,7 @@ List
 <
 FirstrunPagerConfig
 .
-FirstrunPanel
+FirstrunPanelConfig
 >
 panels
 ;
@@ -228,6 +230,7 @@ FirstrunPagerConfig
 .
 getDefault
 (
+appContext
 )
 ;
 }
@@ -386,7 +389,7 @@ List
 <
 FirstrunPagerConfig
 .
-FirstrunPanel
+FirstrunPanelConfig
 >
 panels
 ;
@@ -399,7 +402,7 @@ List
 <
 FirstrunPagerConfig
 .
-FirstrunPanel
+FirstrunPanelConfig
 >
 panels
 )
@@ -453,7 +456,7 @@ FirstrunPanel
 fragment
 )
 .
-setOnFinishListener
+setPagerNavigation
 (
 listener
 )
