@@ -4600,6 +4600,9 @@ mReferrer
 ReferrerPolicy
 mReferrerPolicy
 ;
+nsString
+mIntegrity
+;
 public
 :
 FetchEventRunnable
@@ -5168,6 +5171,14 @@ RequestCache
 cacheMode
 )
 ;
+internalChannel
+-
+>
+GetIntegrityMetadata
+(
+mIntegrity
+)
+;
 mRequestCredentials
 =
 InternalRequest
@@ -5658,6 +5669,7 @@ mReferrer
 )
 mReferrerPolicy
 mContentPolicyType
+mIntegrity
 )
 ;
 internalReq

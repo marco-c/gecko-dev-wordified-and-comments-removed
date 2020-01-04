@@ -222,6 +222,13 @@ mEnvironmentReferrerPolicy
 copy
 -
 >
+mIntegrity
+=
+mIntegrity
+;
+copy
+-
+>
 mContentPolicyType
 =
 mContentPolicyTypeOverridden
@@ -482,6 +489,12 @@ mRedirectMode
 aOther
 .
 mRedirectMode
+)
+mIntegrity
+(
+aOther
+.
+mIntegrity
 )
 mAuthenticationFlag
 (

@@ -218,6 +218,11 @@ attribute
 RequestRedirect
 redirect
 ;
+readonly
+attribute
+DOMString
+integrity
+;
 [
 Throws
 NewObject
@@ -286,6 +291,9 @@ cache
 ;
 RequestRedirect
 redirect
+;
+DOMString
+integrity
 ;
 }
 ;

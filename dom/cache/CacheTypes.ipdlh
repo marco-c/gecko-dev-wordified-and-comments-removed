@@ -300,6 +300,9 @@ requestCache
 RequestRedirect
 requestRedirect
 ;
+nsString
+integrity
+;
 }
 ;
 union
