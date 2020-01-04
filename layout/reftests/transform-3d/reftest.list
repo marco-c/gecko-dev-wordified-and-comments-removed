@@ -1374,6 +1374,14 @@ OSX
 =
 =
 1010
+|
+|
+(
+gtkWidget
+&
+&
+layersGPUAccelerated
+)
 143
 100
 )

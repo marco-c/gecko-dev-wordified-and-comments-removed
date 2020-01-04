@@ -350,6 +350,17 @@ winWidget
 1
 74590
 )
+fuzzy
+-
+if
+(
+gtkWidget
+&
+&
+layersGPUAccelerated
+1
+3528
+)
 skip
 -
 if
