@@ -745,9 +745,6 @@ SurfaceFormat
 :
 R5G6B5_UINT16
 ;
-nsCString
-discardFailureId
-;
 context
 =
 GLContextProvider
@@ -761,7 +758,6 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
-discardFailureId
 )
 ;
 }

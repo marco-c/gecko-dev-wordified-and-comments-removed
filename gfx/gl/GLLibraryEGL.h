@@ -2001,9 +2001,8 @@ EnsureInitialized
 (
 bool
 forceAccel
-nsACString
-&
-aFailureId
+=
+false
 )
 ;
 void

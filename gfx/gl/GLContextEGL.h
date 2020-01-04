@@ -56,9 +56,6 @@ EGLConfig
 config
 EGLSurface
 surface
-nsACString
-&
-aFailureId
 )
 ;
 public
@@ -380,9 +377,6 @@ const
 SurfaceCaps
 &
 minCaps
-nsACString
-&
-aFailureId
 )
 ;
 protected
