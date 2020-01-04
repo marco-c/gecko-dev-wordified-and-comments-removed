@@ -37,7 +37,7 @@ const
 size_t
 kMaxTiles
 =
-100
+1000
 ;
 static
 pixman_box32_t
