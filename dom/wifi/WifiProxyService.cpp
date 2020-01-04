@@ -115,7 +115,7 @@ WifiProxyService
 gWifiProxyService
 ;
 static
-nsAutoPtr
+UniquePtr
 <
 WpaSupplicant
 >
@@ -578,8 +578,10 @@ gWifiProxyService
 ;
 gWpaSupplicant
 =
-new
+MakeUnique
+<
 WpaSupplicant
+>
 (
 )
 ;
