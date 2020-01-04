@@ -127,6 +127,11 @@ PerformanceMeasure
 h
 '
 '
+PerformanceNavigation
+.
+h
+'
+'
 PerformanceObserver
 .
 h
@@ -168,6 +173,11 @@ cpp
 '
 '
 PerformanceMeasure
+.
+cpp
+'
+'
+PerformanceNavigation
 .
 cpp
 '

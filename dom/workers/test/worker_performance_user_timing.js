@@ -241,7 +241,7 @@ dom
 /
 performance
 /
-test
+tests
 /
 test_performance_user_timing
 .

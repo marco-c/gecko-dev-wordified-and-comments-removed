@@ -27,9 +27,9 @@ importScripts
 /
 dom
 /
-base
+performance
 /
-test
+tests
 /
 test_performance_observer
 .
