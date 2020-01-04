@@ -1046,6 +1046,14 @@ OnThread
 )
 )
 ;
+if
+(
+mFinished
+)
+{
+return
+;
+}
 mFinished
 =
 true
