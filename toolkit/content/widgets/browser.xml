@@ -1713,7 +1713,9 @@ document
 (
 document
 instanceof
-Ci
+Components
+.
+interfaces
 .
 nsIImageDocument
 )
