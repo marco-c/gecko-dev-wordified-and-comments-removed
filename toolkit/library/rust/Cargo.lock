@@ -24,7 +24,7 @@ mp4parse_capi
 .
 5
 .
-0
+1
 "
 ]
 [
@@ -63,7 +63,7 @@ version
 .
 5
 .
-0
+1
 "
 dependencies
 =
@@ -94,7 +94,7 @@ version
 .
 5
 .
-0
+1
 "
 dependencies
 =
@@ -105,6 +105,6 @@ mp4parse
 .
 5
 .
-0
+1
 "
 ]
