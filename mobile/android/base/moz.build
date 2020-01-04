@@ -2101,6 +2101,13 @@ java
 '
 distribution
 /
+PartnerBookmarksProviderClient
+.
+java
+'
+'
+distribution
+/
 PartnerBrowserCustomizationsClient
 .
 java

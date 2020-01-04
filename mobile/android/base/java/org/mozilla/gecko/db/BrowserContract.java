@@ -1347,6 +1347,15 @@ FAKE_READINGLIST_SMARTFOLDER_ID
 public
 static
 final
+long
+FAKE_PARTNER_BOOKMARKS_START
+=
+-
+1000
+;
+public
+static
+final
 String
 MOBILE_FOLDER_GUID
 =
