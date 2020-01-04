@@ -1342,9 +1342,7 @@ get
 getActivity
 (
 )
-"
-default
-"
+null
 mProfile
 )
 ;
