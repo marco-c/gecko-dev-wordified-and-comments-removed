@@ -2140,6 +2140,15 @@ gnu
 tar
 '
 )
+            
+(
+'
+watchman
+'
+'
+watchman
+'
+)
         
 ]
         
@@ -2737,21 +2746,27 @@ self
 packages
 =
 [
+            
 '
 python27
 '
-                    
+            
 '
 mercurial
 '
-                    
+            
 '
 autoconf213
 '
-                    
+            
 '
 gnutar
 '
+            
+'
+watchman
+'
+        
 ]
         
 self
