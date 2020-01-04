@@ -1395,13 +1395,6 @@ eDragEventClass
 )
 NON_IDL_EVENT
 (
-draggesture
-eLegacyDragGesture
-EventNameType_XUL
-eDragEventClass
-)
-NON_IDL_EVENT
-(
 overflow
 eScrollPortOverflow
 EventNameType_XUL
