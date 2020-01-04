@@ -118,7 +118,6 @@ idl
 "
 [
 scriptable
-builtinclass
 uuid
 (
 28bfb2a2
@@ -296,7 +295,6 @@ toString
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 4371b5bf
