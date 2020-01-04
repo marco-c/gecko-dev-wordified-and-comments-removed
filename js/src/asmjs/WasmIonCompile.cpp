@@ -6225,6 +6225,11 @@ empty
 )
 )
 ;
+*
+loopResult
+=
+nullptr
+;
 blockDepth_
 -
 =
