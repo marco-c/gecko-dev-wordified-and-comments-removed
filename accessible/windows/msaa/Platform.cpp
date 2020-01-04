@@ -273,6 +273,16 @@ Document
 )
 )
 ;
+MOZ_ASSERT
+(
+doc
+)
+;
+if
+(
+doc
+)
+{
 #
 ifdef
 _WIN64
@@ -325,6 +335,7 @@ wrapper
 ;
 #
 endif
+}
 wrapper
 -
 >
