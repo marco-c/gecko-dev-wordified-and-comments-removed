@@ -330,14 +330,6 @@ return
 nullptr
 ;
 }
-aFlags
-|
-=
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
-;
 if
 (
 aOriginPos
