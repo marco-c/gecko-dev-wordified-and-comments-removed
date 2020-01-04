@@ -156,14 +156,10 @@ js
 content
 /
 frame
--
-manager
 .
 js
 (
 frame
--
-manager
 .
 js
 )
