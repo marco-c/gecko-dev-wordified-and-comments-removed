@@ -655,6 +655,15 @@ CFLAGS
 Wshadow
 '
 ]
+CXXFLAGS
++
+=
+[
+'
+-
+Wshadow
+'
+]
 include
 (
 '

@@ -304,7 +304,7 @@ seekable
 )
 {
 nsresult
-rv
+rvSeek
 =
 seekable
 -
@@ -322,7 +322,7 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rvSeek
 )
 )
 {
@@ -375,7 +375,7 @@ NS_BASE_STREAM_CLOSED
 )
 {
 nsresult
-rv
+rvSeek
 =
 aSeekable
 -
@@ -393,7 +393,7 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rvSeek
 )
 )
 {

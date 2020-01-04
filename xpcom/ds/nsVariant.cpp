@@ -4929,8 +4929,9 @@ nsIDataType
 VTYPE_UTF8STRING
 :
 {
+const
 NS_ConvertUTF8toUTF16
-tempString
+tempString16
 (
 *
 u
@@ -4941,7 +4942,7 @@ mUTF8StringValue
 *
 aSize
 =
-tempString
+tempString16
 .
 Length
 (
@@ -4952,7 +4953,7 @@ aStr
 =
 ToNewCString
 (
-tempString
+tempString16
 )
 ;
 break

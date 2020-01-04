@@ -61,12 +61,13 @@ nsCOMPtr
 .
 h
 "
+static
 bool
 LoopInDir
 (
 nsIFile
 *
-file
+aFile
 )
 {
 nsresult
@@ -80,7 +81,7 @@ entries
 ;
 rv
 =
-file
+aFile
 -
 >
 GetDirectoryEntries
@@ -155,7 +156,7 @@ nsCOMPtr
 <
 nsIFile
 >
-file
+nextFile
 =
 do_QueryInterface
 (
@@ -165,7 +166,7 @@ sup
 if
 (
 !
-file
+nextFile
 )
 return
 false
@@ -177,7 +178,7 @@ if
 (
 NS_FAILED
 (
-file
+nextFile
 -
 >
 GetNativeLeafName
@@ -209,7 +210,7 @@ get
 ;
 rv
 =
-file
+nextFile
 -
 >
 IsDirectory
@@ -250,7 +251,7 @@ isDir
 {
 LoopInDir
 (
-file
+nextFile
 )
 ;
 }

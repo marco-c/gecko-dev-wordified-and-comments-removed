@@ -940,7 +940,7 @@ failed
 )
 ;
 AutoCreateAndDestroyReentrantMonitor
-mon
+mon1
 (
 &
 gReentrantMonitor
@@ -988,7 +988,7 @@ rv
 ;
 {
 ReentrantMonitorAutoEnter
-mon
+mon2
 (
 *
 gReentrantMonitor
@@ -998,7 +998,7 @@ gMainThreadWaiting
 =
 true
 ;
-mon
+mon2
 .
 Notify
 (
@@ -1010,7 +1010,7 @@ while
 gCreateInstanceCalled
 )
 {
-mon
+mon2
 .
 Wait
 (
@@ -1079,7 +1079,7 @@ rv
 ;
 {
 ReentrantMonitorAutoEnter
-mon
+mon3
 (
 *
 gReentrantMonitor
@@ -1089,7 +1089,7 @@ gMainThreadWaiting
 =
 true
 ;
-mon
+mon3
 .
 Notify
 (
@@ -1101,7 +1101,7 @@ while
 gCreateInstanceCalled
 )
 {
-mon
+mon3
 .
 Wait
 (

@@ -613,10 +613,10 @@ amount
 {
 \
 nsresult
-rv
+rvReport
 ;
 \
-rv
+rvReport
 =
 aHandleReport
 -
@@ -646,7 +646,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-rv
+rvReport
 )
 )
 )
@@ -656,7 +656,7 @@ _cleanup
 ;
 \
 return
-rv
+rvReport
 ;
 \
 }
@@ -1641,12 +1641,12 @@ line
 ]
 ;
 nsAutoCString
-path
+currentPath
 ;
 int
 pathOffset
 ;
-path
+currentPath
 .
 SetIsVoid
 (
@@ -1668,7 +1668,7 @@ aFile
 {
 if
 (
-path
+currentPath
 .
 IsVoid
 (
@@ -1746,7 +1746,7 @@ argCount
 1
 )
 {
-path
+currentPath
 .
 Assign
 (
@@ -1755,7 +1755,7 @@ line
 pathOffset
 )
 ;
-path
+currentPath
 .
 StripChars
 (
@@ -1819,7 +1819,7 @@ tag
 ;
 GetReporterNameAndDescription
 (
-path
+currentPath
 .
 get
 (
@@ -1831,7 +1831,7 @@ tag
 )
 ;
 nsAutoCString
-path
+processMemPath
 (
 "
 mem
@@ -1841,14 +1841,14 @@ processes
 "
 )
 ;
-path
+processMemPath
 .
 Append
 (
 aProcessName
 )
 ;
-path
+processMemPath
 .
 Append
 (
@@ -1857,7 +1857,7 @@ Append
 '
 )
 ;
-path
+processMemPath
 .
 Append
 (
@@ -1866,7 +1866,7 @@ name
 ;
 REPORT
 (
-path
+processMemPath
 pss
 description
 )
@@ -1887,7 +1887,7 @@ aTotalPss
 pss
 ;
 }
-path
+currentPath
 .
 SetIsVoid
 (
