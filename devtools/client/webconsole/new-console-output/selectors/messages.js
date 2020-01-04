@@ -113,7 +113,7 @@ prune
 (
 search
 (
-filterSeverity
+filterLevel
 (
 messages
 filters
@@ -127,7 +127,7 @@ logLimit
 ;
 }
 function
-filterSeverity
+filterLevel
 (
 messages
 filters

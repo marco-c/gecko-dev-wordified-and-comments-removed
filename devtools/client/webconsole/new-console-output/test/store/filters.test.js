@@ -316,7 +316,7 @@ filtersClear
 describe
 (
 "
-Severity
+Level
 filter
 "
 (

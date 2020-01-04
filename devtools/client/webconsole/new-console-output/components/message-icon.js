@@ -65,7 +65,7 @@ MessageIcon
 propTypes
 =
 {
-severity
+level
 :
 PropTypes
 .
@@ -82,7 +82,7 @@ props
 {
 const
 {
-severity
+level
 }
 =
 props
@@ -95,11 +95,11 @@ l10n
 getStr
 (
 "
-severity
+level
 .
 "
 +
-severity
+level
 )
 ;
 return

@@ -1898,6 +1898,8 @@ indent
 message
 .
 console
+-
+api
 >
 .
 indent
@@ -1972,6 +1974,8 @@ before
 message
 .
 console
+-
+api
 .
 error
 >
@@ -2055,6 +2059,8 @@ before
 message
 .
 console
+-
+api
 .
 warn
 >
@@ -2126,6 +2132,8 @@ before
 message
 .
 console
+-
+api
 .
 info
 >

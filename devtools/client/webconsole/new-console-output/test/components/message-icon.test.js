@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-SEVERITY_ERROR
+MESSAGE_LEVEL
 }
 =
 require
@@ -110,7 +110,7 @@ renders
 icon
 based
 on
-severity
+level
 "
 (
 )
@@ -124,9 +124,11 @@ renderComponent
 (
 MessageIcon
 {
-severity
+level
 :
-SEVERITY_ERROR
+MESSAGE_LEVEL
+.
+ERROR
 }
 )
 ;
