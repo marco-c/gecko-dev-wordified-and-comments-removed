@@ -328,6 +328,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+CPP_THROW_NEW
 ;
 nsIFrame
 *
@@ -3854,6 +3855,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+CPP_THROW_NEW
 {
 return
 aBuilder

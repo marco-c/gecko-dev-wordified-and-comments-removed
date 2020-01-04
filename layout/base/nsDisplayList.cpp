@@ -333,15 +333,6 @@ include
 "
 mozilla
 /
-OperatorNewExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PendingAnimationTracker
 .
 h
@@ -606,6 +597,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+CPP_THROW_NEW
 {
 return
 aBuilder
@@ -6185,7 +6177,6 @@ c
 =
 new
 (
-KnownNotNull
 p
 )
 DisplayItemClip
@@ -6244,7 +6235,6 @@ c
 =
 new
 (
-KnownNotNull
 p
 )
 DisplayItemScrollClip

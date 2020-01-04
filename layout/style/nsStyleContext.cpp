@@ -6373,6 +6373,7 @@ nsPresContext
 *
 aPresContext
 )
+CPP_THROW_NEW
 {
 return
 aPresContext

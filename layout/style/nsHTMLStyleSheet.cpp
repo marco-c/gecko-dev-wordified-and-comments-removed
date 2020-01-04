@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-OperatorNewExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RestyleManagerHandle
 .
 h
@@ -1108,7 +1099,6 @@ entry
 =
 new
 (
-KnownNotNull
 hdr
 )
 LangRuleTableEntry

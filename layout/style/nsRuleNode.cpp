@@ -73,15 +73,6 @@ include
 "
 mozilla
 /
-OperatorNewExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 unused
 .
 h
@@ -6916,6 +6907,7 @@ nsPresContext
 *
 aPresContext
 )
+CPP_THROW_NEW
 {
 return
 aPresContext
@@ -10324,7 +10316,6 @@ i
 {
 new
 (
-KnownNotNull
 mArray
 +
 i
