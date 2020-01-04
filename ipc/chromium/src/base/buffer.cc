@@ -143,6 +143,10 @@ newlength
 if
 (
 buffer
+|
+|
+!
+newlength
 )
 {
 mBuffer
@@ -362,6 +366,11 @@ size_t
 count
 )
 {
+MOZ_RELEASE_ASSERT
+(
+count
+)
+;
 char
 *
 result
