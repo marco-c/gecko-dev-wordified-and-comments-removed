@@ -3068,7 +3068,7 @@ ArrayBufferObject
 (
 )
 .
-isAsmJS
+isWasm
 (
 )
 )
