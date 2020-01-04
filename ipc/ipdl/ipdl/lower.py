@@ -5733,6 +5733,15 @@ args
 newargs
 =
 [
+ExprVar
+(
+'
+mozilla
+:
+:
+KnownNotNull
+'
+)
 self
 .
 callGetPtr
