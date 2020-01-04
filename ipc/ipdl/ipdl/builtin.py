@@ -123,12 +123,6 @@ h
 '
     
 '
-prtime
-.
-h
-'
-    
-'
 IPCMessageStart
 .
 h
