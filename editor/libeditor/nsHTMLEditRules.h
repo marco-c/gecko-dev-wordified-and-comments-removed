@@ -1082,12 +1082,12 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 const
 nsAString
-*
-alignType
+&
+aAlignType
 bool
 *
 aCancel
