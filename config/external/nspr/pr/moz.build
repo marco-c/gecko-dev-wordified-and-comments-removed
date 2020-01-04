@@ -410,6 +410,16 @@ OS_TARGET
 Darwin
 '
 :
+OS_LIBS
++
+=
+[
+'
+-
+framework
+CoreServices
+'
+]
 DEFINES
 .
 update
