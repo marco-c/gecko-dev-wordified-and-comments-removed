@@ -7469,7 +7469,7 @@ ImageContainer
 mImageContainer
 ;
 LayoutDeviceRect
-mDestRect
+mImageLayerDestRect
 ;
 nsRect
 mBounds
