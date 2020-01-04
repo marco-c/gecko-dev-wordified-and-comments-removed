@@ -2770,6 +2770,12 @@ mAllInvalidated
 false
 ;
 }
+uint64_t
+GetRestyleGeneration
+(
+)
+const
+;
 bool
 HasPendingRestyleOrReflow
 (
