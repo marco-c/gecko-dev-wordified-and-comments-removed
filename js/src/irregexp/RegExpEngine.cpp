@@ -7835,6 +7835,17 @@ set_slow_safe
 false
 )
 ;
+LifoAlloc
+:
+:
+AutoFallibleScope
+fallibleAllocator
+(
+alloc
+(
+)
+)
+;
 jit
 :
 :
