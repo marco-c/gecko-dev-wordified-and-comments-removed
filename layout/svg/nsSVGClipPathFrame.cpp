@@ -411,7 +411,7 @@ Reference
 )
 {
 return
-false
+nullptr
 ;
 }
 AutoReferenceLimiter
