@@ -79,11 +79,6 @@ aDstRegion
 GLuint
 &
 aTexture
-size_t
-*
-aOutUploadSize
-=
-nullptr
 bool
 aOverwrite
 =
@@ -124,11 +119,6 @@ aDstRegion
 GLuint
 &
 aTexture
-size_t
-*
-aOutUploadSize
-=
-nullptr
 bool
 aOverwrite
 =
