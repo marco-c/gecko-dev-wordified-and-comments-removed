@@ -405,7 +405,7 @@ HasVideo
 (
 )
 ;
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 ;
@@ -492,7 +492,7 @@ DisconnectIfExists
 (
 )
 ;
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 ;
@@ -2849,7 +2849,7 @@ void
 AccurateSeekTask
 :
 :
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 {
@@ -3105,7 +3105,7 @@ void
 AccurateSeekTask
 :
 :
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 {
