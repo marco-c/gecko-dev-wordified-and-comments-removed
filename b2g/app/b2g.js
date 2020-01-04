@@ -2704,7 +2704,7 @@ safebrowsing
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -2718,7 +2718,7 @@ malware
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -2732,7 +2732,7 @@ downloads
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -2748,7 +2748,7 @@ remote
 .
 enabled
 "
-false
+true
 )
 ;
 pref
