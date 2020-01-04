@@ -6572,6 +6572,13 @@ parsetype
 )
 GK_ATOM
 (
+password
+"
+password
+"
+)
+GK_ATOM
+(
 pattern
 "
 pattern
@@ -16568,13 +16575,6 @@ GK_ATOM
 navigation
 "
 navigation
-"
-)
-GK_ATOM
-(
-password
-"
-password
 "
 )
 GK_ATOM
