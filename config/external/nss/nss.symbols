@@ -866,7 +866,6 @@ SSL_PeerCertificateChain
 SSL_PeerStapledOCSPResponses
 SSL_ResetHandshake
 SSL_SetCanFalseStartCallback
-SSL_SetDowngradeCheckVersion
 SSL_SetNextProtoNego
 SSL_SetPKCS11PinArg
 SSL_SetSockPeerID
