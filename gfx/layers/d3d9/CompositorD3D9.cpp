@@ -205,16 +205,6 @@ Layers
 "
 )
 ;
-MOZ_ASSERT
-(
-gfxPlatform
-:
-:
-CanUseDirect3D9
-(
-)
-)
-;
 mDeviceManager
 =
 gfxWindowsPlatform
