@@ -142,6 +142,15 @@ nsIObserverService
 h
 "
 #
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
+#
 define
 FILTER_NO_SMS_GSM
 0x01

@@ -107,6 +107,15 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
 BEGIN_BLUETOOTH_NAMESPACE
 void
 AddressToString

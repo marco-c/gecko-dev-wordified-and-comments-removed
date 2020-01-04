@@ -32,6 +32,17 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+StorageManager
+.
+h
+"
 namespace
 mozilla
 {
