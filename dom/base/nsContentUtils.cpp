@@ -36699,7 +36699,9 @@ bool
 *
 aPreventDefault
 bool
-aIsSynthesized
+aIsDOMEventSynthesized
+bool
+aIsWidgetEventSynthesized
 )
 {
 nsPoint
@@ -36917,6 +36919,13 @@ event
 true
 msg
 widget
+aIsWidgetEventSynthesized
+?
+WidgetMouseEvent
+:
+:
+eSynthesized
+:
 WidgetMouseEvent
 :
 :
@@ -36990,7 +36999,7 @@ mFlags
 .
 mIsSynthesizedForTests
 =
-aIsSynthesized
+aIsDOMEventSynthesized
 ;
 nsPresContext
 *

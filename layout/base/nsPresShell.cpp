@@ -31725,6 +31725,15 @@ mouseEvent
 -
 >
 convertToPointer
+|
+|
+!
+aEvent
+-
+>
+IsAllowedToDispatchDOMEvent
+(
+)
 )
 {
 return
