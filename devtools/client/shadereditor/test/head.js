@@ -145,9 +145,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 webgl
 "

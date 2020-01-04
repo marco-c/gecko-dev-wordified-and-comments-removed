@@ -252,9 +252,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 preference
 "
@@ -270,9 +270,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 settings
 "
