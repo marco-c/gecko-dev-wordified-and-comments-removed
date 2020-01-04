@@ -27,10 +27,6 @@ PLDHashTable
 *
 gHashTable
 ;
-extern
-bool
-gDirty
-;
 namespace
 mozilla
 {
