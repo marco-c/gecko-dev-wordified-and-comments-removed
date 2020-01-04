@@ -6198,7 +6198,7 @@ do_check_eq
 getInstallReason
 (
 )
-ADDON_DOWNGRADE
+ADDON_INSTALL
 )
 ;
 do_check_eq
@@ -6206,7 +6206,7 @@ do_check_eq
 getInstallOldVersion
 (
 )
-2
+0
 )
 ;
 do_check_eq
