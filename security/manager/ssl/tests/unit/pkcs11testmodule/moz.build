@@ -139,3 +139,10 @@ True
 DIST_INSTALL
 =
 False
+SYMBOLS_FILE
+=
+'
+pkcs11testmodule
+.
+symbols
+'
