@@ -3084,9 +3084,9 @@ remove
 host
 name
 path
+false
 {
 }
-false
 )
 ;
 if
@@ -4401,9 +4401,6 @@ return
 false
 ;
 }
-return
-undefined
-;
 }
 }
 ;
