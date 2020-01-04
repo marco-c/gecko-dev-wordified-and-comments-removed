@@ -91,6 +91,12 @@ Failed
 5
 }
 ;
+enum
+class
+NetscapeStepUpPolicy
+:
+uint32_t
+;
 class
 PinningTelemetryInfo
 {
@@ -390,6 +396,8 @@ BRNameMatchingPolicy
 :
 Mode
 nameMatchingMode
+NetscapeStepUpPolicy
+netscapeStepUpPolicy
 )
 ;
 ~
@@ -439,6 +447,10 @@ BRNameMatchingPolicy
 :
 Mode
 mNameMatchingMode
+;
+const
+NetscapeStepUpPolicy
+mNetscapeStepUpPolicy
 ;
 private
 :
