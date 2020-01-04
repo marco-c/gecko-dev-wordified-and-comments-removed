@@ -52,6 +52,8 @@ default_title
 "
 Default
 Title
+\
+u263a
 "
 }
 "
@@ -114,6 +116,8 @@ title
 "
 Default
 Title
+\
+u263a
 "
 }
 {
@@ -156,6 +160,8 @@ title
 "
 Default
 Title
+\
+u263a
 "
 }
 {
