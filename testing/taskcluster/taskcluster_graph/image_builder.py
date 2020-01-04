@@ -250,6 +250,16 @@ isfile
 registry_path
 )
 def
+mklabel
+(
+)
+:
+    
+return
+slugid
+(
+)
+def
 docker_image
 (
 name
@@ -456,7 +466,7 @@ None
     
 task_id
 =
-slugid
+mklabel
 (
 )
     

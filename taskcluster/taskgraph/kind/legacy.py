@@ -241,6 +241,15 @@ slugid
 (
 )
 )
+from
+taskcluster_graph
+import
+image_builder
+image_builder
+.
+mklabel
+=
+mklabel
 def
 set_expiration
 (
