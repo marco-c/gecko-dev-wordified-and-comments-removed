@@ -810,7 +810,7 @@ eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE

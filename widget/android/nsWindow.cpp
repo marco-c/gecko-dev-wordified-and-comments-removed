@@ -8431,7 +8431,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 this
 )
 ;
@@ -8888,7 +8888,7 @@ WidgetQueryContentEvent
 queryEvent
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 this
 )
 ;
@@ -9939,7 +9939,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 this
 )
 ;

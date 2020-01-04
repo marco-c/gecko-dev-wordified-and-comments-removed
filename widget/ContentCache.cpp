@@ -727,7 +727,7 @@ WidgetQueryContentEvent
 selection
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 aWidget
 )
 ;
@@ -2992,7 +2992,7 @@ mMessage
 )
 {
 case
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 :
 MOZ_LOG
 (
@@ -3017,7 +3017,7 @@ aEvent
 {
 mMessage
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 }
 aWidget
 =

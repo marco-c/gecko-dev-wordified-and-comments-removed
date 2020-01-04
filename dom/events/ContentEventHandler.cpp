@@ -4168,7 +4168,7 @@ mMessage
 )
 {
 case
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 :
 return
 OnQuerySelectedText

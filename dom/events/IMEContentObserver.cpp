@@ -272,11 +272,11 @@ aEventMessage
 )
 {
 case
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 :
 return
 "
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 "
 ;
 case
@@ -2366,7 +2366,7 @@ aEvent
 mMessage
 =
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 &
 &
 aEvent
@@ -4913,7 +4913,7 @@ WidgetQueryContentEvent
 selection
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 mWidget
 )
 ;

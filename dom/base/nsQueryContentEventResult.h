@@ -90,8 +90,11 @@ nsQueryContentEventResult
 (
 )
 ;
-uint32_t
-mEventID
+mozilla
+:
+:
+EventMessage
+mEventMessage
 ;
 uint32_t
 mOffset

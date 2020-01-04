@@ -9085,7 +9085,7 @@ QUERY_SELECTED_TEXT
 :
 message
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 ;
 break
 ;
