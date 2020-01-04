@@ -1929,6 +1929,9 @@ labels
 csshiftjis
 "
 "
+ms932
+"
+"
 ms_kanji
 "
 "
