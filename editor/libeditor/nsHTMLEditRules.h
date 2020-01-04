@@ -625,6 +625,14 @@ aSelection
 )
 override
 ;
+void
+DeleteNodeIfCollapsedText
+(
+nsINode
+&
+aNode
+)
+;
 protected
 :
 virtual
