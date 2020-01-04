@@ -1867,6 +1867,12 @@ int64_t
 >
 mPlaybackPosition
 ;
+Mirror
+<
+bool
+>
+mIsAudioDataAudible
+;
 Canonical
 <
 double
@@ -2156,6 +2162,11 @@ mMediaSeekable
 }
 private
 :
+void
+NotifyAudibleStateChanged
+(
+)
+;
 void
 SetInfinite
 (

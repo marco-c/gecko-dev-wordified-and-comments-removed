@@ -246,6 +246,16 @@ ResetConnectionState
 =
 0
 ;
+virtual
+void
+NotifyAudibleStateChanged
+(
+bool
+aAudible
+)
+=
+0
+;
 #
 ifdef
 MOZ_EME
