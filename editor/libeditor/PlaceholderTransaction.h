@@ -1,9 +1,9 @@
 #
 ifndef
-AggregatePlaceholderTxn_h__
+PlaceholderTransaction_h
 #
 define
-AggregatePlaceholderTxn_h__
+PlaceholderTransaction_h
 #
 include
 "
@@ -66,9 +66,9 @@ mozilla
 class
 CompositionTransaction
 ;
-}
 class
-PlaceholderTxn
+PlaceholderTransaction
+final
 :
 public
 EditAggregateTxn
@@ -80,13 +80,13 @@ nsSupportsWeakReference
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-PlaceholderTxn
+PlaceholderTransaction
 (
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-PlaceholderTxn
+PlaceholderTransaction
 EditAggregateTxn
 )
 NS_DECL_EDITTXN
@@ -175,7 +175,7 @@ protected
 :
 virtual
 ~
-PlaceholderTxn
+PlaceholderTransaction
 (
 )
 ;
@@ -210,5 +210,6 @@ mEditor
 ;
 }
 ;
+}
 #
 endif
