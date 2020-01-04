@@ -799,7 +799,7 @@ aGLContext
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -1723,7 +1723,7 @@ StartRemoteDrawing
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -1958,7 +1958,7 @@ EndRemoteDrawing
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -2337,7 +2337,7 @@ aBuffer
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -2714,7 +2714,7 @@ aGLContext
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -2745,7 +2745,7 @@ GetEGLDisplay
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -2767,7 +2767,7 @@ GetEGLSurface
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -2798,7 +2798,7 @@ GetGLContext
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -2846,7 +2846,7 @@ aWindow
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -3251,7 +3251,7 @@ aWindow
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -3309,7 +3309,7 @@ GetMirroringWidget
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
