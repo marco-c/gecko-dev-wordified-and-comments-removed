@@ -637,6 +637,9 @@ seen
 "
 dependencies
 "
+"
+hasEmbeddedWebExtension
+"
 ]
 ;
 const
@@ -9361,6 +9364,11 @@ dependencies
 currentAddon
 .
 dependencies
+hasEmbeddedWebExtension
+:
+currentAddon
+.
+hasEmbeddedWebExtension
 }
 ;
 }
