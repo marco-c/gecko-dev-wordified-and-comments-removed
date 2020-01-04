@@ -5808,11 +5808,6 @@ this
 )
 |
 |
-StyleDisplay
-(
-)
--
->
 BackfaceIsHidden
 (
 )
@@ -5833,11 +5828,6 @@ Combines3DTransformWithAncestors
 )
 &
 &
-StyleDisplay
-(
-)
--
->
 BackfaceIsHidden
 (
 )
