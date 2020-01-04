@@ -836,8 +836,6 @@ lastModifiedView
 .
 setText
 (
-this
-.
 getLastSyncedString
 (
 context
@@ -1165,6 +1163,7 @@ view
 ;
 }
 public
+static
 String
 getLastSyncedString
 (
