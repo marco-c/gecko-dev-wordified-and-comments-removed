@@ -1510,7 +1510,7 @@ Content
 Type
 "
 "
-application
+text
 /
 json
 "
