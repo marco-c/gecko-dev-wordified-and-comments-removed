@@ -1287,6 +1287,11 @@ string
 "
 )
 ;
+if
+(
+countOfRanges
+)
+{
 aEditorBase
 .
 HideCaret
@@ -1294,6 +1299,7 @@ HideCaret
 true
 )
 ;
+}
 }
 rv
 =
