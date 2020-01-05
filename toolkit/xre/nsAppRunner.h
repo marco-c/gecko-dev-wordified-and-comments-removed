@@ -276,6 +276,13 @@ GeckoProcessType
 sChildProcessType
 ;
 }
+const
+char
+*
+PlatformBuildID
+(
+)
+;
 }
 void
 SetupErrorHandling
