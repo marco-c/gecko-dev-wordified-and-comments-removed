@@ -9063,6 +9063,14 @@ incumbentGlobal
 )
 )
 ;
+if
+(
+!
+reaction
+)
+return
+false
+;
 JS
 :
 :
