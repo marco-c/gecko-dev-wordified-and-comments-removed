@@ -212,7 +212,13 @@ nsCOMPtr
 <
 nsITimer
 >
-mTimer
+mFetchIndirectUpdatesTimer
+;
+nsCOMPtr
+<
+nsITimer
+>
+mFetchNextRequestTimer
 ;
 struct
 PendingRequest
