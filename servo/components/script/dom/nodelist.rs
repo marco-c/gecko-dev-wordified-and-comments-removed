@@ -1500,6 +1500,15 @@ visited
 ;
 }
 else
+if
+added
+.
+len
+(
+)
+!
+=
+1
 {
 match
 (
