@@ -1694,14 +1694,6 @@ self
 )
 ;
 fn
-shutdown
-(
-&
-mut
-self
-)
-;
-fn
 pinch_zoom_level
 (
 &
