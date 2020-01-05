@@ -836,7 +836,7 @@ TYPE_SCRIPT
 EmptyString
 (
 )
-false
+true
 EmptyString
 (
 )
