@@ -2034,7 +2034,7 @@ unwrap
 LayoutControlMsg
 :
 :
-TickAnimationsMsg
+TickAnimations
 =
 >
 {
@@ -2052,7 +2052,7 @@ possibly_locked_rw_data
 LayoutControlMsg
 :
 :
-ExitNowMsg
+ExitNow
 (
 exit_type
 )
@@ -2826,7 +2826,7 @@ debug
 "
 layout
 :
-ExitNowMsg
+ExitNow
 received
 "
 )
@@ -3009,7 +3009,7 @@ be
 processed
 until
 an
-ExitNowMsg
+ExitNow
 is
 /
 /
@@ -3156,7 +3156,7 @@ that
 wasn
 '
 t
-ExitNowMsg
+ExitNow
 received
 after
 \

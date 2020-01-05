@@ -1235,7 +1235,7 @@ send
 LayoutControlMsg
 :
 :
-ExitNowMsg
+ExitNow
 (
 PipelineExitType
 :
@@ -1355,7 +1355,7 @@ event
 ConstellationControlMsg
 :
 :
-MozBrowserEventMsg
+MozBrowserEvent
 (
 self
 .

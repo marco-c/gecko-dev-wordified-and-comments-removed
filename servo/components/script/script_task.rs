@@ -4208,7 +4208,7 @@ pipeline_id
 ConstellationControlMsg
 :
 :
-MozBrowserEventMsg
+MozBrowserEvent
 (
 parent_pipeline_id
 subpage_id
@@ -4246,7 +4246,7 @@ new_subpage_id
 ConstellationControlMsg
 :
 :
-FocusIFrameMsg
+FocusIFrame
 (
 containing_pipeline_id
 subpage_id
@@ -4263,7 +4263,7 @@ subpage_id
 ConstellationControlMsg
 :
 :
-WebDriverCommandMsg
+WebDriverCommand
 (
 pipeline_id
 msg

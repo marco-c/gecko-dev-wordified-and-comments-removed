@@ -507,7 +507,7 @@ SetCursor
 (
 Cursor
 )
-MozBrowserEventMsg
+MozBrowserEvent
 (
 PipelineId
 SubpageId
@@ -532,7 +532,7 @@ PipelineId
 >
 >
 )
-FocusMsg
+Focus
 (
 PipelineId
 )
@@ -543,7 +543,7 @@ Sender
 String
 >
 )
-WebDriverCommandMsg
+WebDriverCommand
 (
 PipelineId
 WebDriverScriptCommand

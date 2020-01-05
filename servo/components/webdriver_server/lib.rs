@@ -908,7 +908,7 @@ send
 ConstellationMsg
 :
 :
-WebDriverCommandMsg
+WebDriverCommand
 (
 pipeline_id
 WebDriverScriptCommand

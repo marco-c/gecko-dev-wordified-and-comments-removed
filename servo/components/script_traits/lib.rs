@@ -285,7 +285,7 @@ PipelineId
 SubpageId
 LoadData
 )
-MozBrowserEventMsg
+MozBrowserEvent
 (
 PipelineId
 SubpageId
@@ -297,12 +297,12 @@ PipelineId
 SubpageId
 SubpageId
 )
-FocusIFrameMsg
+FocusIFrame
 (
 PipelineId
 SubpageId
 )
-WebDriverCommandMsg
+WebDriverCommand
 (
 PipelineId
 WebDriverScriptCommand
