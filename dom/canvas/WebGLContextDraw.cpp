@@ -2931,8 +2931,10 @@ UINT32_MAX
 >
 >
 (
-4
+32
 -
+8
+*
 mPrimRestartTypeBytes
 )
 ;
