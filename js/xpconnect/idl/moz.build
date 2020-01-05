@@ -100,11 +100,6 @@ nsIAddonInterposition
 idl
 '
 '
-nsIScriptError
-.
-idl
-'
-'
 nsIXPConnect
 .
 idl

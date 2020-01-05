@@ -591,6 +591,13 @@ BINPATH
 /
 components
 /
+dom_bindings
+.
+xpt
+BINPATH
+/
+components
+/
 dom_canvas
 .
 xpt

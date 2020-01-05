@@ -1,7 +1,7 @@
 #
 include
 "
-xpcprivate
+nsScriptError
 .
 h
 "
@@ -32,6 +32,13 @@ h
 include
 "
 nsGlobalWindow
+.
+h
+"
+#
+include
+"
+nsNetUtil
 .
 h
 "

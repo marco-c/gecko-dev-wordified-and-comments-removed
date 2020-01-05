@@ -724,6 +724,13 @@ RESPATH
 /
 components
 /
+dom_bindings
+.
+xpt
+RESPATH
+/
+components
+/
 dom_file
 .
 xpt

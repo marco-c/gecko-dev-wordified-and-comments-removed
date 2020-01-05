@@ -224,6 +224,12 @@ base
 /
 dom
 /
+bindings
+'
+'
+/
+dom
+/
 canvas
 '
 '

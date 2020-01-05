@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
