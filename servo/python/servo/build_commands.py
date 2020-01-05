@@ -166,6 +166,33 @@ parallel
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+verbose
+'
+'
+-
+v
+'
+                     
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Print
+verbose
+output
+'
+)
+    
 def
 build
 (
@@ -177,6 +204,9 @@ False
 jobs
 =
 None
+verbose
+=
+False
 )
 :
         
@@ -238,6 +268,20 @@ opts
 j
 "
 jobs
+]
+        
+if
+verbose
+:
+            
+opts
++
+=
+[
+"
+-
+v
+"
 ]
         
 build_start
