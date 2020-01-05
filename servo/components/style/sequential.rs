@@ -402,6 +402,15 @@ unwrap
 )
 )
 ;
+if
+tlsc
+.
+statistics
+.
+is_large_traversal
+(
+)
+{
 println
 !
 (
@@ -414,5 +423,6 @@ tlsc
 statistics
 )
 ;
+}
 }
 }
