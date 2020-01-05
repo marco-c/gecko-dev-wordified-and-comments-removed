@@ -1404,10 +1404,6 @@ StartLoad
 nsScriptLoadRequest
 *
 aRequest
-const
-nsAString
-&
-aType
 bool
 aScriptFromHead
 )

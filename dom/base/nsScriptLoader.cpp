@@ -4320,12 +4320,6 @@ rv
 StartLoad
 (
 childRequest
-NS_LITERAL_STRING
-(
-"
-module
-"
-)
 false
 )
 ;
@@ -5068,10 +5062,6 @@ StartLoad
 nsScriptLoadRequest
 *
 aRequest
-const
-nsAString
-&
-aType
 bool
 aScriptFromHead
 )
@@ -6833,7 +6823,6 @@ rv
 StartLoad
 (
 request
-type
 false
 )
 ;
@@ -13030,7 +13019,6 @@ rv
 StartLoad
 (
 request
-aType
 aScriptFromHead
 )
 ;
