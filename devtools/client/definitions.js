@@ -2483,9 +2483,9 @@ content
 /
 netmonitor
 /
-netmonitor
+index
 .
-xhtml
+html
 "
 label
 :
