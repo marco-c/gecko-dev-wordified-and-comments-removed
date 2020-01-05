@@ -5075,11 +5075,6 @@ GetStackTop
 (
 )
 ;
-bool
-rv
-=
-true
-;
 if
 (
 aSample
@@ -5102,8 +5097,7 @@ fp
 =
 stackEnd
 )
-rv
-=
+{
 FramePointerStackWalk
 (
 StackWalkCallback
@@ -5126,6 +5120,7 @@ fp
 stackEnd
 )
 ;
+}
 #
 else
 void
@@ -5155,9 +5150,6 @@ MOZ_ASSERT
 thread
 )
 ;
-bool
-rv
-=
 MozStackWalk
 (
 StackWalkCallback
@@ -5171,10 +5163,6 @@ platformData
 ;
 #
 endif
-if
-(
-rv
-)
 mergeStacksIntoProfile
 (
 aProfile
