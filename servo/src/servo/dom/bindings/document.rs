@@ -134,10 +134,7 @@ node
 create
 ;
 import
-content
-:
-:
-content_task
+base
 :
 :
 Document
