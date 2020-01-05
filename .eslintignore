@@ -280,15 +280,6 @@ base
 /
 content
 /
-sanitizeDialog
-.
-js
-browser
-/
-base
-/
-content
-/
 test
 /
 general
