@@ -113,9 +113,7 @@ EndingShape
 as
 GradientShape
 Gradient
-GradientKind
-Image
-ImageRect
+GradientItem
 }
 ;
 pub
@@ -127,6 +125,9 @@ image
 :
 :
 {
+GradientKind
+Image
+ImageRect
 LengthOrKeyword
 LengthOrPercentageOrKeyword
 }

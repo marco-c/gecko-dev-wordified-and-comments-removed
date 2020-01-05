@@ -242,11 +242,11 @@ image
 :
 :
 {
+GradientItem
 GradientKind
 HorizontalDirection
 Image
 ImageRect
-LengthOrKeyword
 }
 ;
 pub
@@ -258,6 +258,7 @@ image
 :
 :
 {
+LengthOrKeyword
 LengthOrPercentageOrKeyword
 SizeKeyword
 VerticalDirection
