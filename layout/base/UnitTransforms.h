@@ -57,6 +57,7 @@ LayoutDeviceIsScreenForUntransformedEvent
 LayoutDeviceIsScreenForTabDims
 LayoutDeviceIsParentLayerForRCDRSF
 MultipleAsyncTransforms
+NoTransformOnLayer
 }
 ;
 template
