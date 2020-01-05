@@ -3702,7 +3702,7 @@ if
 mode_
 =
 =
-ASCII
+LATIN1
 )
 {
 masm
@@ -4029,7 +4029,7 @@ if
 mode_
 =
 =
-ASCII
+LATIN1
 )
 {
 Label
@@ -5251,7 +5251,7 @@ if
 mode_
 =
 =
-ASCII
+LATIN1
 )
 {
 BaseIndex
@@ -6609,7 +6609,7 @@ if
 mode_
 =
 =
-ASCII
+LATIN1
 )
 {
 Label
@@ -6917,7 +6917,7 @@ if
 mode_
 !
 =
-ASCII
+LATIN1
 )
 {
 masm
@@ -7005,7 +7005,7 @@ if
 mode_
 !
 =
-ASCII
+LATIN1
 )
 {
 masm
@@ -7081,7 +7081,7 @@ if
 mode_
 !
 =
-ASCII
+LATIN1
 )
 masm
 .
@@ -7144,7 +7144,7 @@ if
 mode_
 =
 =
-ASCII
+LATIN1
 )
 {
 masm

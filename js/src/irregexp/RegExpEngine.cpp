@@ -216,11 +216,11 @@ char16_t
 MaximumCharacter
 (
 bool
-ascii
+latin1
 )
 {
 return
-ascii
+latin1
 ?
 kMaxOneByteCharCode
 :
@@ -829,7 +829,7 @@ GetCaseIndependentLetters
 char16_t
 character
 bool
-ascii_subject
+latin1_subject
 bool
 unicode
 const
@@ -878,7 +878,7 @@ if
 unicode
 &
 &
-ascii_subject
+latin1_subject
 &
 &
 c
@@ -954,7 +954,7 @@ GetCaseIndependentLetters
 char16_t
 character
 bool
-ascii_subject
+latin1_subject
 bool
 unicode
 char16_t
@@ -1009,7 +1009,7 @@ return
 GetCaseIndependentLetters
 (
 character
-ascii_subject
+latin1_subject
 unicode
 choices
 ArrayLength
@@ -1093,7 +1093,7 @@ return
 GetCaseIndependentLetters
 (
 character
-ascii_subject
+latin1_subject
 unicode
 &
 character
@@ -1151,7 +1151,7 @@ return
 GetCaseIndependentLetters
 (
 character
-ascii_subject
+latin1_subject
 unicode
 choices
 ArrayLength
@@ -1169,7 +1169,7 @@ CharacterRange
 AddCaseEquivalents
 (
 bool
-is_ascii
+is_latin1
 bool
 unicode
 CharacterRangeVector
@@ -1193,7 +1193,7 @@ to
 ;
 if
 (
-is_ascii
+is_latin1
 &
 &
 !
@@ -1249,7 +1249,7 @@ length
 GetCaseIndependentLetters
 (
 c
-is_ascii
+is_latin1
 unicode
 chars
 )
@@ -2708,7 +2708,7 @@ RegExpNode
 SeqRegExpNode
 :
 :
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -2793,7 +2793,7 @@ next
 on_success_
 -
 >
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -3544,7 +3544,7 @@ RegExpNode
 TextNode
 :
 :
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -4017,7 +4017,7 @@ TextNode
 MakeCaseIndependent
 (
 bool
-is_ascii
+is_latin1
 bool
 unicode
 )
@@ -4143,7 +4143,7 @@ j
 .
 AddCaseEquivalents
 (
-is_ascii
+is_latin1
 unicode
 &
 ranges
@@ -4813,7 +4813,7 @@ RegExpNode
 ChoiceNode
 :
 :
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -4989,7 +4989,7 @@ node
 )
 -
 >
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -5111,7 +5111,7 @@ node
 )
 -
 >
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -5344,7 +5344,7 @@ RegExpNode
 NegativeLookaheadChoiceNode
 :
 :
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -5419,7 +5419,7 @@ replacement
 node
 -
 >
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -5475,7 +5475,7 @@ neg_replacement
 neg_node
 -
 >
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -5785,7 +5785,7 @@ RegExpNode
 LoopChoiceNode
 :
 :
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -5846,7 +5846,7 @@ continue_replacement
 continue_node_
 -
 >
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -5873,7 +5873,7 @@ return
 ChoiceNode
 :
 :
-FilterASCII
+FilterLATIN1
 (
 depth
 -
@@ -6016,7 +6016,7 @@ that
 >
 MakeCaseIndependent
 (
-is_ascii_
+is_latin1_
 unicode_
 )
 ;
@@ -6710,7 +6710,7 @@ capture_count
 bool
 ignore_case
 bool
-is_ascii
+is_latin1
 bool
 match_only
 bool
@@ -6897,12 +6897,12 @@ ignore_case_
 }
 inline
 bool
-ascii
+latin1
 (
 )
 {
 return
-ascii_
+latin1_
 ;
 }
 inline
@@ -7006,7 +7006,7 @@ bool
 ignore_case_
 ;
 bool
-ascii_
+latin1_
 ;
 bool
 match_only_
@@ -7158,7 +7158,7 @@ capture_count
 bool
 ignore_case
 bool
-ascii
+latin1
 bool
 match_only
 bool
@@ -7183,9 +7183,9 @@ ignore_case_
 (
 ignore_case
 )
-ascii_
+latin1_
 (
-ascii
+latin1
 )
 match_only_
 (
@@ -7551,7 +7551,7 @@ is_global
 bool
 ignore_case
 bool
-is_ascii
+is_latin1
 bool
 match_only
 bool
@@ -7621,7 +7621,7 @@ data
 >
 capture_count
 ignore_case
-is_ascii
+is_latin1
 match_only
 unicode
 )
@@ -7894,7 +7894,7 @@ loop_node
 }
 if
 (
-is_ascii
+is_latin1
 )
 {
 node
@@ -7902,7 +7902,7 @@ node
 node
 -
 >
-FilterASCII
+FilterLATIN1
 (
 RegExpCompiler
 :
@@ -7925,7 +7925,7 @@ node
 node
 -
 >
-FilterASCII
+FilterLATIN1
 (
 RegExpCompiler
 :
@@ -7966,7 +7966,7 @@ analysis
 (
 cx
 ignore_case
-is_ascii
+is_latin1
 unicode
 )
 ;
@@ -8074,12 +8074,12 @@ NativeRegExpMacroAssembler
 Mode
 mode
 =
-is_ascii
+is_latin1
 ?
 NativeRegExpMacroAssembler
 :
 :
-ASCII
+LATIN1
 :
 NativeRegExpMacroAssembler
 :
@@ -10740,7 +10740,7 @@ MaximumCharacter
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -11083,7 +11083,7 @@ remembered_from
 compiler_
 -
 >
-ascii
+latin1
 (
 )
 ?
@@ -13075,12 +13075,6 @@ quick_check_performed_
 Advance
 (
 by
-compiler
--
->
-ascii
-(
-)
 )
 ;
 cp_offset_
@@ -13647,7 +13641,7 @@ if
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -16875,7 +16869,7 @@ RegExpCharacterClass
 *
 cc
 bool
-ascii
+latin1
 jit
 :
 :
@@ -16928,7 +16922,7 @@ max_char
 =
 MaximumCharacter
 (
-ascii
+latin1
 )
 ;
 int
@@ -17499,12 +17493,12 @@ macro_assembler
 )
 ;
 bool
-ascii
+latin1
 =
 compiler
 -
 >
-ascii
+latin1
 (
 )
 ;
@@ -17520,7 +17514,7 @@ length
 GetCaseIndependentLetters
 (
 c
-ascii
+latin1
 compiler
 -
 >
@@ -17590,7 +17584,7 @@ RegExpMacroAssembler
 *
 macro_assembler
 bool
-ascii
+latin1
 char16_t
 c1
 char16_t
@@ -17608,7 +17602,7 @@ char_mask
 =
 MaximumCharacter
 (
-ascii
+latin1
 )
 ;
 MOZ_ASSERT
@@ -17777,12 +17771,12 @@ macro_assembler
 )
 ;
 bool
-ascii
+latin1
 =
 compiler
 -
 >
-ascii
+latin1
 (
 )
 ;
@@ -17798,7 +17792,7 @@ length
 GetCaseIndependentLetters
 (
 c
-ascii
+latin1
 compiler
 -
 >
@@ -17861,7 +17855,7 @@ if
 ShortCutEmitCharacterPair
 (
 macro_assembler
-ascii
+latin1
 chars
 [
 0
@@ -18035,12 +18029,12 @@ macro_assembler
 )
 ;
 bool
-ascii
+latin1
 =
 compiler
 -
 >
-ascii
+latin1
 (
 )
 ;
@@ -18233,11 +18227,11 @@ pass
 )
 {
 case
-NON_ASCII_MATCH
+NON_LATIN1_MATCH
 :
 MOZ_ASSERT
 (
-ascii
+latin1
 )
 ;
 if
@@ -18415,7 +18409,7 @@ alloc
 )
 assembler
 cc
-ascii
+latin1
 backtrack
 cp_offset
 *
@@ -18607,7 +18601,7 @@ if
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -18620,7 +18614,7 @@ dummy
 TextEmitPass
 (
 compiler
-NON_ASCII_MATCH
+NON_LATIN1_MATCH
 false
 trace
 false
@@ -19176,18 +19170,18 @@ CanReadUnaligned
 )
 {
 bool
-ascii
+latin1
 =
 compiler
 -
 >
-ascii
+latin1
 (
 )
 ;
 if
 (
-ascii
+latin1
 )
 {
 if
@@ -19388,7 +19382,7 @@ MaximumCharacter
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -20376,7 +20370,7 @@ EatsAtLeast
 compiler
 -
 >
-ascii
+latin1
 (
 )
 ?
@@ -22404,7 +22398,7 @@ Rationalize
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -22541,7 +22535,7 @@ MaximumCharacter
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -22585,7 +22579,7 @@ characters
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -22624,7 +22618,7 @@ characters
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -23370,7 +23364,7 @@ MaximumCharacter
 compiler
 -
 >
-ascii
+latin1
 (
 )
 )
@@ -23538,7 +23532,7 @@ c
 compiler
 -
 >
-ascii
+latin1
 (
 )
 compiler
@@ -24262,8 +24256,6 @@ Advance
 (
 int
 by
-bool
-ascii
 )
 {
 MOZ_ASSERT
@@ -24379,7 +24371,7 @@ QuickCheckDetails
 Rationalize
 (
 bool
-is_ascii
+is_latin1
 )
 {
 bool
@@ -24392,7 +24384,7 @@ char_mask
 =
 MaximumCharacter
 (
-is_ascii
+is_latin1
 )
 ;
 mask_
@@ -24485,7 +24477,7 @@ char_shift
 char_shift
 +
 =
-is_ascii
+is_latin1
 ?
 8
 :

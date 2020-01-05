@@ -179,7 +179,7 @@ is_global
 bool
 ignore_case
 bool
-is_ascii
+is_latin1
 bool
 match_only
 bool
@@ -887,7 +887,7 @@ void
 AddCaseEquivalents
 (
 bool
-is_ascii
+is_latin1
 bool
 unicode
 CharacterRangeVector
@@ -1801,7 +1801,7 @@ bool
 Rationalize
 (
 bool
-ascii
+latin1
 )
 ;
 void
@@ -1819,8 +1819,6 @@ Advance
 (
 int
 by
-bool
-ascii
 )
 ;
 void
@@ -2136,7 +2134,7 @@ call
 virtual
 RegExpNode
 *
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -2596,7 +2594,7 @@ node
 virtual
 RegExpNode
 *
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -3108,7 +3106,7 @@ void
 MakeCaseIndependent
 (
 bool
-is_ascii
+is_latin1
 bool
 unicode
 )
@@ -3152,7 +3150,7 @@ CalculateOffsets
 virtual
 RegExpNode
 *
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -3167,7 +3165,7 @@ private
 enum
 TextEmitPassType
 {
-NON_ASCII_MATCH
+NON_LATIN1_MATCH
 SIMPLE_CHARACTER_MATCH
 CASE_SINGLE_CHARACTER_MATCH
 CASE_MUTLI_CHARACTER_MATCH
@@ -4305,7 +4303,7 @@ true
 virtual
 RegExpNode
 *
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -4488,7 +4486,7 @@ i
 virtual
 RegExpNode
 *
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -4647,7 +4645,7 @@ visitor
 virtual
 RegExpNode
 *
-FilterASCII
+FilterLATIN1
 (
 int
 depth
@@ -6101,7 +6099,7 @@ cx
 bool
 ignore_case
 bool
-is_ascii
+is_latin1
 bool
 unicode
 )
@@ -6114,9 +6112,9 @@ ignore_case_
 (
 ignore_case
 )
-is_ascii_
+is_latin1_
 (
-is_ascii
+is_latin1
 )
 unicode_
 (
@@ -6229,7 +6227,7 @@ bool
 ignore_case_
 ;
 bool
-is_ascii_
+is_latin1_
 ;
 bool
 unicode_
