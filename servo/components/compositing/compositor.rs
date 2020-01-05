@@ -7530,6 +7530,7 @@ unwrap
 (
 )
 ;
+return
 }
 match
 self
