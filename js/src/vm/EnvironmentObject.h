@@ -1022,6 +1022,13 @@ WasmFunctionCallObject
 public
 EnvironmentObject
 {
+static
+const
+uint32_t
+SCOPE_SLOT
+=
+1
+;
 public
 :
 static
@@ -1034,7 +1041,7 @@ const
 uint32_t
 RESERVED_SLOTS
 =
-1
+2
 ;
 static
 WasmFunctionCallObject
