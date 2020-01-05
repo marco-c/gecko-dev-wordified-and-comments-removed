@@ -18,7 +18,7 @@ vector
 >
 #
 define
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 (
 (
 size_t
