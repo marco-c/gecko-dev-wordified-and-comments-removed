@@ -11948,15 +11948,6 @@ decl
 .
 type
         
-fromvar
-=
-ExprVar
-(
-'
-from
-'
-)
-        
 msgtypevar
 =
 ExprVar
@@ -12031,7 +12022,10 @@ fromswitch
 =
 StmtSwitch
 (
-fromvar
+ExprDeref
+(
+nextvar
+)
 )
         
 nullerrorblock
@@ -12292,34 +12286,6 @@ DefaultLabel
 (
 )
 unreachedblock
-)
-        
-transitionfunc
-.
-addstmt
-(
-StmtDecl
-(
-Decl
-(
-Type
-(
-'
-State
-'
-)
-fromvar
-.
-name
-)
-                                        
-init
-=
-ExprDeref
-(
-nextvar
-)
-)
 )
         
 transitionfunc
