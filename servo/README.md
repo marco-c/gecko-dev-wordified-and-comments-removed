@@ -361,6 +361,11 @@ libegl1
 mesa
 -
 dev
+libdbus
+-
+1
+-
+dev
 If
 you
 are
