@@ -162,9 +162,6 @@ document
 *
 /
 interface
-nsIInputStreamCallback
-;
-interface
 nsISupports
 ;
 interface
