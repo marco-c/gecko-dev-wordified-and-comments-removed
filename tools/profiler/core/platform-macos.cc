@@ -964,6 +964,7 @@ Sampler
 sRegisteredThreadsMutex
 )
 ;
+const
 std
 :
 :
@@ -972,6 +973,7 @@ vector
 ThreadInfo
 *
 >
+&
 threads
 =
 SamplerRegistry
