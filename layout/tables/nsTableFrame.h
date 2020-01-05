@@ -2288,11 +2288,6 @@ aStoredIndex
 )
 ;
 bool
-RecalculateRowIndices
-(
-)
-;
-bool
 IsDeletedRowIndexRangesEmpty
 (
 )
