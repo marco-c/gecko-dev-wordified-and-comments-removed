@@ -165,9 +165,6 @@ EventTree
 *
 mEventTree
 ;
-bool
-mQueueEvents
-;
 #
 ifdef
 DEBUG

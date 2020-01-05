@@ -113,11 +113,6 @@ kNoEventTree
 :
 nullptr
 )
-mQueueEvents
-(
-!
-aNoEvents
-)
 {
 #
 ifdef
