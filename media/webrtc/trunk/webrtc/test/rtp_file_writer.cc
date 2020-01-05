@@ -103,7 +103,7 @@ file_
 file
 )
 {
-CHECK
+RTC_CHECK
 (
 file_
 !
@@ -167,18 +167,6 @@ length
 kPacketHeaderSize
 )
 ;
-CHECK_GE
-(
-packet
--
->
-original_length
-packet
--
->
-length
-)
-;
 uint16_t
 plen
 =
@@ -201,7 +189,7 @@ packet
 >
 time_ms
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint16
 (
@@ -209,7 +197,7 @@ len
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint16
 (
@@ -217,7 +205,7 @@ plen
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint32
 (
@@ -267,7 +255,7 @@ s
 kFirstLine
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint32
 (
@@ -275,7 +263,7 @@ WriteUint32
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint32
 (
@@ -283,7 +271,7 @@ WriteUint32
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint32
 (
@@ -291,7 +279,7 @@ WriteUint32
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint16
 (
@@ -299,7 +287,7 @@ WriteUint16
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 WriteUint16
 (
@@ -464,7 +452,7 @@ FILE
 *
 file_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RtpDumpWriter
 )

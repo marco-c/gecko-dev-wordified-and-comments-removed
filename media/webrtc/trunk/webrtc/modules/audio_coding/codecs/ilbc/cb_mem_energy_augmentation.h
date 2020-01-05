@@ -13,9 +13,9 @@ interpSamples
 int16_t
 *
 CBmem
-int16_t
+int
 scale
-int16_t
+size_t
 base_size
 int16_t
 *

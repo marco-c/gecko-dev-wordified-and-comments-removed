@@ -432,7 +432,7 @@ if
 (
 addr
 .
-IsUnresolved
+IsUnresolvedIP
 (
 )
 )
@@ -1212,7 +1212,7 @@ MacAsyncSocket
 :
 EstimateMTU
 (
-uint16
+uint16_t
 *
 mtu
 )

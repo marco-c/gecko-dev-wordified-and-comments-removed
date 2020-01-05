@@ -22,7 +22,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -101,7 +101,7 @@ num_channels_
 }
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AudioSink
 )
@@ -179,7 +179,7 @@ AudioSink
 *
 right_sink_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AudioSinkFork
 )

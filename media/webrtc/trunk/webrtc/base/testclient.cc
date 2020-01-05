@@ -155,7 +155,7 @@ State
 state
 )
 {
-uint32
+uint32_t
 end
 =
 TimeAfter
@@ -293,7 +293,7 @@ int
 timeout_ms
 )
 {
-uint32
+uint32_t
 end
 =
 TimeAfter

@@ -19,7 +19,7 @@ WebRtcSpl_SqrtOfOneMinusXSquared
 int16_t
 *
 xQ15
-int
+size_t
 vector_length
 int16_t
 *
@@ -29,7 +29,7 @@ yQ15
 int32_t
 sq
 ;
-int
+size_t
 m
 ;
 int16_t
@@ -59,11 +59,9 @@ m
 ;
 sq
 =
-WEBRTC_SPL_MUL_16_16
-(
 tmp
+*
 tmp
-)
 ;
 sq
 =

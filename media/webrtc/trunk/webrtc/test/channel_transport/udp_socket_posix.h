@@ -47,7 +47,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 condition_variable_wrapper
 .
@@ -60,7 +60,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .

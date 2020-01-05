@@ -27,7 +27,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -267,7 +267,7 @@ min_parent_size_
 bool
 packet_start_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 PartitionTreeNode
 )
@@ -372,7 +372,7 @@ size_vector_
 size_t
 largest_partition_size_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Vp8PartitionAggregator
 )

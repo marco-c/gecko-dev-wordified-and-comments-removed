@@ -29,7 +29,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -151,7 +151,7 @@ DesktopFrame
 >
 frame_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Core
 )
@@ -179,6 +179,9 @@ DesktopFrame
 desktop_frame
 )
 {
+rtc
+:
+:
 scoped_refptr
 <
 Core
@@ -296,6 +299,9 @@ SharedDesktopFrame
 :
 SharedDesktopFrame
 (
+rtc
+:
+:
 scoped_refptr
 <
 Core

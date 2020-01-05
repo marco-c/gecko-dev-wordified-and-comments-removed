@@ -61,7 +61,7 @@ WebRtcSpl_AllPassQMF
 int32_t
 *
 in_data
-int
+size_t
 data_length
 int32_t
 *
@@ -75,7 +75,7 @@ int32_t
 filter_state
 )
 {
-int
+size_t
 k
 ;
 int32_t
@@ -413,7 +413,7 @@ const
 int16_t
 *
 in_data
-int
+size_t
 in_data_length
 int16_t
 *
@@ -429,7 +429,7 @@ int32_t
 filter_state2
 )
 {
-int16_t
+size_t
 i
 ;
 int16_t
@@ -463,7 +463,7 @@ kMaxBandFrameLength
 ]
 ;
 const
-int
+size_t
 band_length
 =
 in_data_length
@@ -651,7 +651,7 @@ const
 int16_t
 *
 high_band
-int
+size_t
 band_length
 int16_t
 *
@@ -691,7 +691,7 @@ filter2
 kMaxBandFrameLength
 ]
 ;
-int16_t
+size_t
 i
 ;
 int16_t

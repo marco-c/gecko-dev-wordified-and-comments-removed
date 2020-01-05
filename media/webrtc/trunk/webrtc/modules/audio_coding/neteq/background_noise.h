@@ -59,7 +59,7 @@ audio_coding
 /
 neteq
 /
-interface
+include
 /
 neteq
 .
@@ -87,7 +87,7 @@ public
 :
 static
 const
-int
+size_t
 kMaxLpcOrder
 =
 8
@@ -246,7 +246,7 @@ kThresholdIncrement
 ;
 static
 const
-int
+size_t
 kVecLen
 =
 256
@@ -260,14 +260,14 @@ kLogVecLen
 ;
 static
 const
-int
+size_t
 kResidualLength
 =
 64
 ;
 static
 const
-int
+int16_t
 kLogResidualLength
 =
 6
@@ -388,7 +388,7 @@ const
 int16_t
 *
 signal
-int
+size_t
 length
 int32_t
 *
@@ -447,7 +447,7 @@ NetEq
 BackgroundNoiseMode
 mode_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 BackgroundNoise
 )

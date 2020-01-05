@@ -147,7 +147,7 @@ view
 current_frame_
 (
 new
-I420VideoFrame
+VideoFrame
 (
 )
 )
@@ -179,7 +179,7 @@ const
 uint32_t
 stream_id
 const
-I420VideoFrame
+VideoFrame
 &
 video_frame
 )

@@ -20,7 +20,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -287,7 +287,7 @@ rampArray
 }
 ;
 const
-int
+size_t
 rampSize
 =
 sizeof
@@ -323,7 +323,7 @@ energy_
 ;
 for
 (
-int
+size_t
 position
 =
 0
@@ -380,7 +380,7 @@ samples_per_channel_
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -441,7 +441,7 @@ samples_per_channel_
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -456,7 +456,7 @@ i
 )
 {
 const
-int
+size_t
 rampPos
 =
 rampSize

@@ -35,7 +35,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -61,7 +61,7 @@ const
 int16_t
 *
 audio
-int
+size_t
 length
 )
 )
@@ -75,7 +75,7 @@ const
 int16_t
 *
 audio
-int
+size_t
 length
 int
 sample_rate_hz

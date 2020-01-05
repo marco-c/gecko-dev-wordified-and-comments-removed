@@ -35,9 +35,9 @@ int16_t
 *
 __restrict
 coefficients
-int
+size_t
 coefficients_length
-int
+size_t
 data_length
 )
 {

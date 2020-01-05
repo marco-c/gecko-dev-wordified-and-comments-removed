@@ -13,9 +13,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 video_codec_interface
 .
@@ -46,7 +44,6 @@ VP8Encoder
 )
 {
 }
-;
 }
 ;
 class
@@ -71,7 +68,6 @@ VP8Decoder
 )
 {
 }
-;
 }
 ;
 }

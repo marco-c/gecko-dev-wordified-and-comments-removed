@@ -1248,7 +1248,7 @@ const
 int16_t
 *
 in_far
-int16_t
+size_t
 nrSamples
 )
 {
@@ -1287,7 +1287,7 @@ int16_t
 const
 *
 in_near
-int16_t
+size_t
 num_bands
 int16_t
 *
@@ -1351,11 +1351,13 @@ gain_adj
 ;
 int16_t
 k
+;
+size_t
 n
 i
+L
 ;
 int16_t
-L
 L2
 ;
 if
@@ -3087,7 +3089,7 @@ const
 int16_t
 *
 in
-int16_t
+size_t
 nrSamples
 )
 {

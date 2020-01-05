@@ -423,7 +423,7 @@ filename
 )
 ;
 inline
-uint64
+uint64_t
 ToUInt64
 (
 const
@@ -436,12 +436,14 @@ ULARGE_INTEGER
 r
 =
 {
+{
 ft
 .
 dwLowDateTime
 ft
 .
 dwHighDateTime
+}
 }
 ;
 return

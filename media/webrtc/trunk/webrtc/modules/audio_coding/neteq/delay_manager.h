@@ -74,7 +74,7 @@ IATVector
 ;
 DelayManager
 (
-int
+size_t
 max_packets_in_buffer
 DelayPeakDetector
 *
@@ -313,7 +313,7 @@ bool
 first_packet_received_
 ;
 const
-int
+size_t
 max_packets_in_buffer_
 ;
 IATVector
@@ -368,7 +368,7 @@ peak_detector_
 int
 last_pack_cng_or_dtmf_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DelayManager
 )

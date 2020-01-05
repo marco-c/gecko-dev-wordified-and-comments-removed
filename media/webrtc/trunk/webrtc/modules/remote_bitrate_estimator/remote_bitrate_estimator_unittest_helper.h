@@ -21,6 +21,11 @@ utility
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 testing
 /
@@ -78,7 +83,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 clock
 .
@@ -380,7 +385,7 @@ const
 double
 kNtpFracPerMs
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RtpStream
 )
@@ -488,7 +493,7 @@ prev_arrival_time_us_
 StreamMap
 streams_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 StreamGenerator
 )
@@ -567,6 +572,8 @@ uint32_t
 rtp_timestamp
 uint32_t
 absolute_send_time
+bool
+was_paced
 )
 ;
 bool
@@ -704,7 +711,7 @@ StreamGenerator
 >
 stream_generator_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RemoteBitrateEstimatorTest
 )

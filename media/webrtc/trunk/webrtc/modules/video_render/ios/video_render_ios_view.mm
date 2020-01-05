@@ -133,7 +133,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -707,7 +707,7 @@ BOOL
 renderFrame
 :
 (
-I420VideoFrame
+VideoFrame
 *
 )
 frameToRender

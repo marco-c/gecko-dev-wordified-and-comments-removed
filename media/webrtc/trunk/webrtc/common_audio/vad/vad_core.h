@@ -205,7 +205,7 @@ const
 int16_t
 *
 speech_frame
-int
+size_t
 frame_length
 )
 ;
@@ -219,7 +219,7 @@ const
 int16_t
 *
 speech_frame
-int
+size_t
 frame_length
 )
 ;
@@ -233,7 +233,7 @@ const
 int16_t
 *
 speech_frame
-int
+size_t
 frame_length
 )
 ;
@@ -247,7 +247,7 @@ const
 int16_t
 *
 speech_frame
-int
+size_t
 frame_length
 )
 ;

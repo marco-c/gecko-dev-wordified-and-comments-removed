@@ -24,7 +24,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 sort
 .
@@ -37,7 +37,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .

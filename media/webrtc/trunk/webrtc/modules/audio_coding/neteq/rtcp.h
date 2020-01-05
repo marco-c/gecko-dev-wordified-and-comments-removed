@@ -26,7 +26,7 @@ audio_coding
 /
 neteq
 /
-interface
+include
 /
 neteq
 .
@@ -122,7 +122,7 @@ jitter_
 int32_t
 transit_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Rtcp
 )

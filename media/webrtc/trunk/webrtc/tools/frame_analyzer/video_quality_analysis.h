@@ -84,6 +84,15 @@ ssim_value
 struct
 ResultsContainer
 {
+ResultsContainer
+(
+)
+;
+~
+ResultsContainer
+(
+)
+;
 std
 :
 :
@@ -132,11 +141,11 @@ CalculateMetrics
 VideoAnalysisMetricsType
 video_metrics_type
 const
-uint8
+uint8_t
 *
 ref_frame
 const
-uint8
+uint8_t
 *
 test_frame
 int
@@ -282,7 +291,7 @@ int
 height
 int
 frame_number
-uint8
+uint8_t
 *
 result_frame
 )
@@ -300,7 +309,7 @@ int
 height
 int
 frame_number
-uint8
+uint8_t
 *
 result_frame
 )

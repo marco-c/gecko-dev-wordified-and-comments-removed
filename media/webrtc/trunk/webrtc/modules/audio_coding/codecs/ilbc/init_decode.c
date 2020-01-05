@@ -12,7 +12,7 @@ constants
 .
 h
 "
-int16_t
+int
 WebRtcIlbcfix_InitDecode
 (
 IlbcDecoder
@@ -379,6 +379,9 @@ prev_enh_pl
 0
 ;
 return
+(
+int
+)
 (
 iLBCdec_inst
 -

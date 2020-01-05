@@ -203,7 +203,7 @@ TestWait
 MacCocoaSocketServer
 server
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -256,7 +256,7 @@ thread
 server
 )
 ;
-uint32
+uint32_t
 start
 =
 Time

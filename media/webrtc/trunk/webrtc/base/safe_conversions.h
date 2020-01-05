@@ -83,7 +83,7 @@ Src
 value
 )
 {
-CHECK
+RTC_CHECK
 (
 IsValueInRangeForNumericType
 <

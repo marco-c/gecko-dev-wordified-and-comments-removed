@@ -145,9 +145,9 @@ num_columns_
 }
 Matrix
 (
-int
+size_t
 num_rows
-int
+size_t
 num_columns
 )
 :
@@ -187,9 +187,9 @@ const
 T
 *
 data
-int
+size_t
 num_rows
-int
+size_t
 num_columns
 )
 :
@@ -268,9 +268,9 @@ T
 *
 const
 data
-int
+size_t
 num_rows
-int
+size_t
 num_columns
 )
 {
@@ -312,9 +312,9 @@ T
 const
 *
 src
-int
+size_t
 column_index
-int
+size_t
 num_rows
 )
 {
@@ -326,7 +326,7 @@ num_rows
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -362,9 +362,9 @@ this
 void
 Resize
 (
-int
+size_t
 num_rows
-int
+size_t
 num_columns
 )
 {
@@ -396,7 +396,7 @@ Resize
 ;
 }
 }
-int
+size_t
 num_rows
 (
 )
@@ -406,7 +406,7 @@ return
 num_rows_
 ;
 }
-int
+size_t
 num_columns
 (
 )
@@ -455,7 +455,7 @@ Trace
 (
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_rows_
 num_columns_
@@ -468,7 +468,7 @@ trace
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -533,7 +533,7 @@ Matrix
 operand
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 operand
 .
@@ -541,7 +541,7 @@ num_rows_
 num_columns_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 operand
 .
@@ -650,7 +650,7 @@ Matrix
 operand
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_rows_
 operand
@@ -658,7 +658,7 @@ operand
 num_rows_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_columns_
 operand
@@ -741,7 +741,7 @@ Matrix
 operand
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_rows_
 operand
@@ -749,7 +749,7 @@ operand
 num_rows_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_columns_
 operand
@@ -832,7 +832,7 @@ Matrix
 operand
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_rows_
 operand
@@ -840,7 +840,7 @@ operand
 num_rows_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_columns_
 operand
@@ -923,7 +923,7 @@ Matrix
 operand
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_rows_
 operand
@@ -931,7 +931,7 @@ operand
 num_rows_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_columns_
 operand
@@ -1214,7 +1214,7 @@ Matrix
 rhs
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 lhs
 .
@@ -1224,7 +1224,7 @@ rhs
 num_rows_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_rows_
 lhs
@@ -1232,7 +1232,7 @@ lhs
 num_rows_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_columns_
 rhs
@@ -1269,7 +1269,7 @@ Matrix
 rhs
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 num_columns_
 rhs
@@ -1342,7 +1342,7 @@ endl
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1358,7 +1358,7 @@ i
 {
 for
 (
-int
+size_t
 j
 =
 0
@@ -1419,7 +1419,7 @@ void
 SetNumRows
 (
 const
-int
+size_t
 num_rows
 )
 {
@@ -1432,7 +1432,7 @@ void
 SetNumColumns
 (
 const
-int
+size_t
 num_columns
 )
 {
@@ -1517,7 +1517,7 @@ num_rows_
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1564,7 +1564,7 @@ num_rows_
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1595,10 +1595,10 @@ num_columns_
 }
 private
 :
-int
+size_t
 num_rows_
 ;
-int
+size_t
 num_columns_
 ;
 std
@@ -1653,7 +1653,7 @@ src
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -1669,7 +1669,7 @@ i
 {
 for
 (
-int
+size_t
 j
 =
 0
@@ -1716,7 +1716,7 @@ T
 const
 *
 lhs
-int
+size_t
 num_rows_rhs
 const
 T
@@ -1728,7 +1728,7 @@ rhs
 {
 for
 (
-int
+size_t
 row
 =
 0
@@ -1744,7 +1744,7 @@ row
 {
 for
 (
-int
+size_t
 col
 =
 0
@@ -1765,7 +1765,7 @@ cur_element
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1816,7 +1816,7 @@ return
 this
 ;
 }
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Matrix
 )

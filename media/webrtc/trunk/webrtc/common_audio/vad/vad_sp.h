@@ -39,7 +39,7 @@ signal_out
 int32_t
 *
 filter_state
-int
+size_t
 in_length
 )
 ;

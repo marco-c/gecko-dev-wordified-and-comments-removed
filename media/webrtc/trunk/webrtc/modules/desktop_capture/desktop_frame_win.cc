@@ -18,7 +18,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -108,7 +108,6 @@ BITMAPINFO
 bmi
 =
 {
-0
 }
 ;
 bmi

@@ -66,7 +66,7 @@ RunTasks
 ;
 }
 virtual
-int64
+int64_t
 CurrentTime
 (
 )
@@ -77,7 +77,7 @@ current_time_
 +
 ;
 }
-int64
+int64_t
 current_time_
 ;
 }

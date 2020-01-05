@@ -26,7 +26,7 @@ int
 loopNumber
 int16_t
 gain
-int
+size_t
 index
 int16_t
 sign

@@ -279,7 +279,7 @@ virtual
 int
 EstimateMTU
 (
-uint16
+uint16_t
 *
 mtu
 )
@@ -391,7 +391,7 @@ state_
 SocketAddress
 addr_
 ;
-uint32
+uint32_t
 connect_time_
 ;
 bool

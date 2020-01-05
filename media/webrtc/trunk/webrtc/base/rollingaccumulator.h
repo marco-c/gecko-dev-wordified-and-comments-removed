@@ -720,7 +720,7 @@ T
 >
 samples_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RollingAccumulator
 )

@@ -45,7 +45,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -198,12 +198,6 @@ defined
 (
 WEBRTC_LINUX
 )
-|
-|
-defined
-(
-WEBRTC_BSD
-)
 if
 (
 strncasecmp
@@ -352,12 +346,6 @@ WEBRTC_MAC
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |
@@ -591,12 +579,6 @@ WEBRTC_MAC
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |

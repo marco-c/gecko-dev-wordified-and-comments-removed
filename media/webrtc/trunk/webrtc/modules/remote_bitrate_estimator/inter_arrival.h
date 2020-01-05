@@ -166,7 +166,7 @@ timestamp_to_ms_coeff_
 bool
 burst_grouping_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 InterArrival
 )

@@ -1275,7 +1275,7 @@ const
 Pathname
 &
 path
-int64
+int64_t
 *
 freebytes
 )

@@ -17,11 +17,11 @@ ener
 int16_t
 *
 buffer
-int16_t
+size_t
 lag
-int16_t
+size_t
 bLen
-int16_t
+size_t
 sRange
 int16_t
 scale

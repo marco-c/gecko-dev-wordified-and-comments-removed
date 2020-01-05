@@ -124,7 +124,7 @@ C1
 *
 capture1_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SigslotTester1
 )
@@ -249,7 +249,7 @@ C2
 *
 capture2_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SigslotTester2
 )
@@ -397,7 +397,7 @@ C3
 *
 capture3_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SigslotTester3
 )
@@ -568,7 +568,7 @@ C4
 *
 capture4_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SigslotTester4
 )
@@ -762,7 +762,7 @@ C5
 *
 capture5_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SigslotTester5
 )

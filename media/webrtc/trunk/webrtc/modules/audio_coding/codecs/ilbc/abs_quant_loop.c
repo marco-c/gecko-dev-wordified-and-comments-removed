@@ -31,7 +31,7 @@ in_weightedIN
 int16_t
 *
 weightDenumIN
-int16_t
+size_t
 *
 quantLenIN
 int16_t
@@ -39,8 +39,7 @@ int16_t
 idxVecIN
 )
 {
-int
-n
+size_t
 k1
 k2
 ;
@@ -77,7 +76,7 @@ weightDenum
 =
 weightDenumIN
 ;
-int16_t
+size_t
 *
 quantLen
 =
@@ -88,10 +87,6 @@ int16_t
 idxVec
 =
 idxVecIN
-;
-n
-=
-0
 ;
 for
 (
@@ -291,10 +286,6 @@ in_weighted
 -
 toQW32
 )
-;
-n
-+
-+
 ;
 syntOut
 +

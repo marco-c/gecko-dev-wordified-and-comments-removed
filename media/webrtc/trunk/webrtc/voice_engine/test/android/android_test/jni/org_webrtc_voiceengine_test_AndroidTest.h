@@ -351,17 +351,6 @@ jobject
 jint
 )
 ;
-JNIEXPORT
-jint
-JNICALL
-Java_org_webrtc_voiceengine_test_AndroidTest_SetLoudspeakerStatus
-(
-JNIEnv
-*
-jobject
-jboolean
-)
-;
 #
 ifdef
 __cplusplus

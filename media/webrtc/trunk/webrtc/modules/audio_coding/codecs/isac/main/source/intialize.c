@@ -242,10 +242,6 @@ OldEnergy
 .
 0
 ;
-WebRtcIsac_InitTransform
-(
-)
-;
 return
 ;
 }

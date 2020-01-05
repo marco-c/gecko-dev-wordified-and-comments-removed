@@ -31,7 +31,7 @@ webrtc
 {
 static
 inline
-int
+size_t
 ChannelsFromLayout
 (
 AudioProcessing
@@ -83,8 +83,7 @@ false
 )
 ;
 return
--
-1
+0
 ;
 }
 }

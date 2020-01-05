@@ -95,7 +95,7 @@ target_name
 '
 :
 '
-iSACFixtest
+isac_fix_test
 '
 '
 type
@@ -110,7 +110,7 @@ dependencies
 :
 [
 '
-iSACFix
+isac_fix
 '
 '
 <
@@ -144,7 +144,7 @@ test
 /
 fix
 /
-interface
+include
 '
 '
 <

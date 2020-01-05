@@ -151,7 +151,7 @@ static
 WindowId
 Cast
 (
-uint64
+uint64_t
 id
 )
 {
@@ -197,7 +197,7 @@ id
 endif
 }
 static
-uint64
+uint64_t
 Format
 (
 const
@@ -215,7 +215,7 @@ WEBRTC_WIN
 return
 static_cast
 <
-uint64
+uint64_t
 >
 (
 reinterpret_cast
@@ -232,7 +232,7 @@ else
 return
 static_cast
 <
-uint64
+uint64_t
 >
 (
 id

@@ -31,19 +31,6 @@ thread
 .
 h
 "
-#
-include
-"
-webrtc
-/
-test
-/
-testsupport
-/
-gtest_disable
-.
-h
-"
 using
 namespace
 rtc
@@ -315,7 +302,7 @@ SignalThreadTest
 *
 harness_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SlowSignalThread
 )
@@ -654,7 +641,7 @@ harness_
 bool
 has_run_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 OwnerThread
 )

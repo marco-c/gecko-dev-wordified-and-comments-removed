@@ -28,7 +28,7 @@ decresidual
 int16_t
 *
 lpc
-int16_t
+size_t
 inlag
 IlbcDecoder
 *

@@ -23,10 +23,10 @@ h
 namespace
 rtc
 {
-uint32
+uint32_t
 UpdateCrc32
 (
-uint32
+uint32_t
 initial
 const
 void
@@ -37,7 +37,7 @@ len
 )
 ;
 inline
-uint32
+uint32_t
 ComputeCrc32
 (
 const
@@ -58,7 +58,7 @@ len
 ;
 }
 inline
-uint32
+uint32_t
 ComputeCrc32
 (
 const

@@ -171,7 +171,7 @@ data_len_
 bool
 buffering_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 BufferedReadAdapter
 )
@@ -279,7 +279,7 @@ len
 )
 override
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncSSLSocket
 )
@@ -316,7 +316,7 @@ len
 )
 override
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncSSLServerSocket
 )
@@ -530,7 +530,7 @@ std
 string
 unknown_mechanisms_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncHttpsProxySocket
 )
@@ -677,7 +677,7 @@ user_
 CryptString
 pass_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncSocksProxySocket
 )
@@ -734,7 +734,7 @@ request
 void
 SendHelloReply
 (
-uint8
+uint8_t
 method
 )
 ;
@@ -749,7 +749,7 @@ request
 void
 SendAuthReply
 (
-uint8
+uint8_t
 result
 )
 ;
@@ -801,7 +801,7 @@ SS_ERROR
 State
 state_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncSocksProxyServerSocket
 )
@@ -931,7 +931,7 @@ hex_mode_
 LogMultilineState
 lms_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 LoggingSocketAdapter
 )

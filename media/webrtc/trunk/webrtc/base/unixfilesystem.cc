@@ -241,6 +241,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 fileutils
 .
 h
@@ -1080,7 +1091,7 @@ FSRefMakePath
 &
 fr
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -1972,7 +1983,7 @@ i
 ;
 i
 <
-ARRAY_SIZE
+arraysize
 (
 kTempPrefixes
 )
@@ -2416,7 +2427,7 @@ self
 exe
 "
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2560,7 +2571,7 @@ FSRefMakePath
 &
 fr
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -3067,7 +3078,7 @@ buffer
 sprintfn
 (
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -3164,7 +3175,7 @@ const
 Pathname
 &
 path
-int64
+int64_t
 *
 freebytes
 )
@@ -3326,7 +3337,7 @@ freebytes
 =
 static_cast
 <
-int64
+int64_t
 >
 (
 vfs
@@ -3349,7 +3360,7 @@ freebytes
 =
 static_cast
 <
-int64
+int64_t
 >
 (
 vfs

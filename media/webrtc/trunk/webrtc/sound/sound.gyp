@@ -196,7 +196,17 @@ h
 '
 soundinputstreaminterface
 .
+cc
+'
+'
+soundinputstreaminterface
+.
 h
+'
+'
+soundoutputstreaminterface
+.
+cc
 '
 '
 soundoutputstreaminterface

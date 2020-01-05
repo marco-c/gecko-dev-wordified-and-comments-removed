@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_MAC_VIDEO_RENDERER_MAC_H_
+WEBRTC_TEST_MAC_VIDEO_RENDERER_MAC_H_
 #
 define
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_MAC_VIDEO_RENDERER_MAC_H_
+WEBRTC_TEST_MAC_VIDEO_RENDERER_MAC_H_
 #
 include
 "
@@ -72,7 +72,7 @@ void
 RenderFrame
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frame
 int
@@ -97,7 +97,7 @@ CocoaWindow
 *
 window_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 MacRenderer
 )

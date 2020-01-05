@@ -116,11 +116,11 @@ SharedData
 shared
 )
 ;
-virtual
 ~
 VoENetworkImpl
 (
 )
+override
 ;
 private
 :

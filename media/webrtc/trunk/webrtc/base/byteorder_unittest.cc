@@ -40,7 +40,7 @@ ByteOrderTest
 TestSet
 )
 {
-uint8
+uint8_t
 buf
 [
 8
@@ -390,7 +390,7 @@ ByteOrderTest
 TestGet
 )
 {
-uint8
+uint8_t
 buf
 [
 8

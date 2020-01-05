@@ -12,7 +12,7 @@ constants
 .
 h
 "
-int16_t
+int
 WebRtcIlbcfix_InitEncode
 (
 IlbcEncoder
@@ -240,6 +240,9 @@ section
 #
 endif
 return
+(
+int
+)
 (
 iLBCenc_inst
 -

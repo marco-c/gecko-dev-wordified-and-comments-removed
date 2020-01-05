@@ -66,13 +66,13 @@ void
 memory
 size_t
 offset
-uint8
+uint8_t
 v
 )
 {
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -86,7 +86,7 @@ v
 ;
 }
 inline
-uint8
+uint8_t
 Get8
 (
 const
@@ -101,7 +101,7 @@ return
 static_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -119,7 +119,7 @@ SetBE16
 void
 *
 memory
-uint16
+uint16_t
 v
 )
 {
@@ -129,7 +129,7 @@ memory
 0
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -145,7 +145,7 @@ memory
 1
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -163,7 +163,7 @@ SetBE32
 void
 *
 memory
-uint32
+uint32_t
 v
 )
 {
@@ -173,7 +173,7 @@ memory
 0
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -189,7 +189,7 @@ memory
 1
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -205,7 +205,7 @@ memory
 2
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -221,7 +221,7 @@ memory
 3
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -239,7 +239,7 @@ SetBE64
 void
 *
 memory
-uint64
+uint64_t
 v
 )
 {
@@ -249,7 +249,7 @@ memory
 0
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -265,7 +265,7 @@ memory
 1
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -281,7 +281,7 @@ memory
 2
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -297,7 +297,7 @@ memory
 3
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -313,7 +313,7 @@ memory
 4
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -329,7 +329,7 @@ memory
 5
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -345,7 +345,7 @@ memory
 6
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -361,7 +361,7 @@ memory
 7
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -373,7 +373,7 @@ v
 ;
 }
 inline
-uint16
+uint16_t
 GetBE16
 (
 const
@@ -385,7 +385,7 @@ memory
 return
 static_cast
 <
-uint16
+uint16_t
 >
 (
 (
@@ -413,7 +413,7 @@ memory
 ;
 }
 inline
-uint32
+uint32_t
 GetBE32
 (
 const
@@ -426,7 +426,7 @@ return
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -443,7 +443,7 @@ memory
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -460,7 +460,7 @@ memory
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -477,7 +477,7 @@ memory
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -493,7 +493,7 @@ memory
 ;
 }
 inline
-uint64
+uint64_t
 GetBE64
 (
 const
@@ -506,7 +506,7 @@ return
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -523,7 +523,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -540,7 +540,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -557,7 +557,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -574,7 +574,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -591,7 +591,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -608,7 +608,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -625,7 +625,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -647,7 +647,7 @@ SetLE16
 void
 *
 memory
-uint16
+uint16_t
 v
 )
 {
@@ -657,7 +657,7 @@ memory
 0
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -673,7 +673,7 @@ memory
 1
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -691,7 +691,7 @@ SetLE32
 void
 *
 memory
-uint32
+uint32_t
 v
 )
 {
@@ -701,7 +701,7 @@ memory
 0
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -717,7 +717,7 @@ memory
 1
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -733,7 +733,7 @@ memory
 2
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -749,7 +749,7 @@ memory
 3
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -767,7 +767,7 @@ SetLE64
 void
 *
 memory
-uint64
+uint64_t
 v
 )
 {
@@ -777,7 +777,7 @@ memory
 0
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -793,7 +793,7 @@ memory
 1
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -809,7 +809,7 @@ memory
 2
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -825,7 +825,7 @@ memory
 3
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -841,7 +841,7 @@ memory
 4
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -857,7 +857,7 @@ memory
 5
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -873,7 +873,7 @@ memory
 6
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -889,7 +889,7 @@ memory
 7
 static_cast
 <
-uint8
+uint8_t
 >
 (
 v
@@ -901,7 +901,7 @@ v
 ;
 }
 inline
-uint16
+uint16_t
 GetLE16
 (
 const
@@ -913,7 +913,7 @@ memory
 return
 static_cast
 <
-uint16
+uint16_t
 >
 (
 (
@@ -941,7 +941,7 @@ memory
 ;
 }
 inline
-uint32
+uint32_t
 GetLE32
 (
 const
@@ -954,7 +954,7 @@ return
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -971,7 +971,7 @@ memory
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -988,7 +988,7 @@ memory
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -1005,7 +1005,7 @@ memory
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 Get8
@@ -1021,7 +1021,7 @@ memory
 ;
 }
 inline
-uint64
+uint64_t
 GetLE64
 (
 const
@@ -1034,7 +1034,7 @@ return
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1051,7 +1051,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1068,7 +1068,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1085,7 +1085,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1102,7 +1102,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1119,7 +1119,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1136,7 +1136,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1153,7 +1153,7 @@ memory
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 Get8
@@ -1199,14 +1199,14 @@ number
 ;
 }
 inline
-uint16
+uint16_t
 HostToNetwork16
 (
-uint16
+uint16_t
 n
 )
 {
-uint16
+uint16_t
 result
 ;
 SetBE16
@@ -1221,14 +1221,14 @@ result
 ;
 }
 inline
-uint32
+uint32_t
 HostToNetwork32
 (
-uint32
+uint32_t
 n
 )
 {
-uint32
+uint32_t
 result
 ;
 SetBE32
@@ -1243,14 +1243,14 @@ result
 ;
 }
 inline
-uint64
+uint64_t
 HostToNetwork64
 (
-uint64
+uint64_t
 n
 )
 {
-uint64
+uint64_t
 result
 ;
 SetBE64
@@ -1265,10 +1265,10 @@ result
 ;
 }
 inline
-uint16
+uint16_t
 NetworkToHost16
 (
-uint16
+uint16_t
 n
 )
 {
@@ -1281,10 +1281,10 @@ n
 ;
 }
 inline
-uint32
+uint32_t
 NetworkToHost32
 (
-uint32
+uint32_t
 n
 )
 {
@@ -1297,10 +1297,10 @@ n
 ;
 }
 inline
-uint64
+uint64_t
 NetworkToHost64
 (
-uint64
+uint64_t
 n
 )
 {

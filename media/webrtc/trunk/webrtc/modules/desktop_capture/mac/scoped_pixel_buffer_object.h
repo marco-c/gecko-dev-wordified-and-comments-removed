@@ -91,7 +91,7 @@ cgl_context_
 GLuint
 pixel_buffer_object_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ScopedPixelBufferObject
 )

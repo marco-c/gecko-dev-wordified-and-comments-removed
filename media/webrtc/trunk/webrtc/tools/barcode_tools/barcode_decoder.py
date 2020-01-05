@@ -390,7 +390,6 @@ OSError
 :
     
 print
-(
 '
 Did
 not
@@ -406,7 +405,6 @@ it
 '
 %
 ffmpeg_path
-)
     
 return
 False
@@ -862,7 +860,6 @@ OSError
 :
     
 print
-(
 '
 Did
 not
@@ -878,7 +875,6 @@ it
 '
 %
 command_line_decoder
-)
     
 return
 False
@@ -2019,7 +2015,7 @@ default
 )
   
 options
-_args
+_
 =
 parser
 .

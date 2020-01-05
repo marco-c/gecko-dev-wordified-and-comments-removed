@@ -378,7 +378,7 @@ server_socket_
 ClientList
 client_sockets_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 TestEchoServer
 )

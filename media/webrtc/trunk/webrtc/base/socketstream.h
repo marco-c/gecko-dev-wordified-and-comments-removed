@@ -181,7 +181,7 @@ AsyncSocket
 *
 socket_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SocketStream
 )

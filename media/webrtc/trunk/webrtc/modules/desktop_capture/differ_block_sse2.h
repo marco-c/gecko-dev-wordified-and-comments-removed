@@ -15,7 +15,7 @@ namespace
 webrtc
 {
 extern
-int
+bool
 BlockDifference_SSE2_W16
 (
 const
@@ -31,7 +31,7 @@ stride
 )
 ;
 extern
-int
+bool
 BlockDifference_SSE2_W32
 (
 const

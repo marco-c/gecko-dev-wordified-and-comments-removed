@@ -285,7 +285,7 @@ G722EncoderState
 s
 )
 ;
-int
+size_t
 WebRtc_g722_encode
 (
 G722EncoderState
@@ -300,7 +300,7 @@ int16_t
 amp
 [
 ]
-int
+size_t
 len
 )
 ;
@@ -325,7 +325,7 @@ G722DecoderState
 s
 )
 ;
-int
+size_t
 WebRtc_g722_decode
 (
 G722DecoderState
@@ -340,7 +340,7 @@ uint8_t
 g722_data
 [
 ]
-int
+size_t
 len
 )
 ;

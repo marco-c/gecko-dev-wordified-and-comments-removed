@@ -108,7 +108,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -159,12 +159,6 @@ Start
 Callback
 *
 callback
-)
-override
-;
-void
-Stop
-(
 )
 override
 ;
@@ -362,12 +356,6 @@ DesktopSize
 size
 )
 ;
-bool
-IsCapturingPrimaryScreenOnly
-(
-)
-const
-;
 void
 StartFallbackCapturer
 (
@@ -459,7 +447,7 @@ magnifier_initialized_
 bool
 magnifier_capture_succeeded_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ScreenCapturerWinMagnifier
 )

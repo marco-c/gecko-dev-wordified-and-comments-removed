@@ -255,8 +255,7 @@ EXPECT_FALSE
 (
 CheckWavParameters
 (
--
-1
+0x10000
 8000
 kWavFormatPcm
 1
@@ -411,7 +410,7 @@ WavHeaderTest
 ReadWavHeaderWithErrors
 )
 {
-int
+size_t
 num_channels
 =
 0
@@ -426,12 +425,12 @@ format
 =
 kWavFormatPcm
 ;
-int
+size_t
 bytes_per_sample
 =
 0
 ;
-uint32_t
+size_t
 num_samples
 =
 0
@@ -1355,7 +1354,7 @@ kSize
 )
 )
 ;
-int
+size_t
 num_channels
 =
 0
@@ -1370,12 +1369,12 @@ format
 =
 kWavFormatPcm
 ;
-int
+size_t
 bytes_per_sample
 =
 0
 ;
-uint32_t
+size_t
 num_samples
 =
 0
@@ -1415,7 +1414,7 @@ num_samples
 ;
 EXPECT_EQ
 (
-17
+17u
 num_channels
 )
 ;
@@ -1433,7 +1432,7 @@ format
 ;
 EXPECT_EQ
 (
-1
+1u
 bytes_per_sample
 )
 ;
@@ -1537,7 +1536,7 @@ a
 0x07
 }
 ;
-int
+size_t
 num_channels
 =
 0
@@ -1552,12 +1551,12 @@ format
 =
 kWavFormatPcm
 ;
-int
+size_t
 bytes_per_sample
 =
 0
 ;
-uint32_t
+size_t
 num_samples
 =
 0
@@ -1593,7 +1592,7 @@ num_samples
 ;
 EXPECT_EQ
 (
-17
+17u
 num_channels
 )
 ;
@@ -1611,7 +1610,7 @@ format
 ;
 EXPECT_EQ
 (
-1
+1u
 bytes_per_sample
 )
 ;

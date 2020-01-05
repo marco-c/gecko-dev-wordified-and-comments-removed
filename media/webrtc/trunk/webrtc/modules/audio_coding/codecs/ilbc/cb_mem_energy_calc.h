@@ -9,7 +9,7 @@ WebRtcIlbcfix_CbMemEnergyCalc
 (
 int32_t
 energy
-int16_t
+size_t
 range
 int16_t
 *
@@ -23,9 +23,9 @@ energyW16
 int16_t
 *
 energyShifts
-int16_t
+int
 scale
-int16_t
+size_t
 base_size
 )
 ;

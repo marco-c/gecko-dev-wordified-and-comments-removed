@@ -46,7 +46,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 remote_ntp_time_estimator
 .
@@ -59,7 +59,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 clock
 .

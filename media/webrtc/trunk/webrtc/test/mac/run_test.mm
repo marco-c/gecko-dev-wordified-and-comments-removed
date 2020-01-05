@@ -400,7 +400,11 @@ beforeDate
 :
 [
 NSDate
-distantFuture
+dateWithTimeIntervalSinceNow
+:
+0
+.
+1
 ]
 ]
 )

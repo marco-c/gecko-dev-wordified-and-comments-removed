@@ -6,6 +6,13 @@ define
 WEBRTC_COMMON_AUDIO_VAD_INCLUDE_WEBRTC_VAD_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 webrtc
 /
@@ -28,13 +35,10 @@ C
 {
 #
 endif
-int
-WebRtcVad_Create
-(
 VadInst
 *
-*
-handle
+WebRtcVad_Create
+(
 )
 ;
 void
@@ -75,7 +79,7 @@ const
 int16_t
 *
 audio_frame
-int
+size_t
 frame_length
 )
 ;
@@ -84,7 +88,7 @@ WebRtcVad_ValidRateAndFrameLength
 (
 int
 rate
-int
+size_t
 frame_length
 )
 ;

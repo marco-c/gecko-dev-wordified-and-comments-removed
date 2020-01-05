@@ -36,7 +36,7 @@ const
 int16_t
 *
 data_in
-int
+size_t
 data_length
 int16_t
 *

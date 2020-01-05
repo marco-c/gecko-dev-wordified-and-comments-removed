@@ -167,13 +167,13 @@ filter_state_ch2
 if
 (
 defined
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 )
 |
 |
 (
 defined
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 void
 WebRtcIsacfix_AllpassFilter2FixDec16Neon

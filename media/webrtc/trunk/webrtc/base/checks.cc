@@ -17,7 +17,7 @@ cstdlib
 if
 defined
 (
-__GLIBC__
+__GLIBCXX__
 )
 &
 &
@@ -174,7 +174,7 @@ DumpBacktrace
 if
 defined
 (
-__GLIBC__
+__GLIBCXX__
 )
 &
 &
@@ -663,9 +663,6 @@ endl
 ;
 }
 #
-ifndef
-WEBRTC_CHROMIUM_BUILD
-#
 if
 !
 defined
@@ -816,8 +813,6 @@ char
 name
 )
 ;
-#
-endif
 #
 endif
 }

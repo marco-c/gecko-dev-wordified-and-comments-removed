@@ -77,13 +77,6 @@ dtmf_index_
 )
 {
 }
-virtual
-~
-SyncBuffer
-(
-)
-{
-}
 size_t
 FutureLength
 (
@@ -98,6 +91,7 @@ AudioMultiVector
 &
 append_this
 )
+override
 ;
 void
 PushFrontZeros
@@ -265,7 +259,7 @@ end_timestamp_
 size_t
 dtmf_index_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SyncBuffer
 )

@@ -1344,7 +1344,7 @@ GetDrive
 char
 *
 drive
-uint32
+uint32_t
 bytes
 )
 const
@@ -1367,7 +1367,7 @@ GetDrive
 char
 *
 drive
-uint32
+uint32_t
 bytes
 const
 std

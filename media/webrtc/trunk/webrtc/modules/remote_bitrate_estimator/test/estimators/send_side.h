@@ -16,7 +16,9 @@ webrtc
 /
 modules
 /
-bitrate_controller
+remote_bitrate_estimator
+/
+include
 /
 send_time_history
 .
@@ -175,7 +177,13 @@ report_block_
 SendTimeHistory
 send_time_history_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+bool
+has_received_ack_
+;
+uint16_t
+last_acked_seq_num_
+;
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 FullBweSender
 )

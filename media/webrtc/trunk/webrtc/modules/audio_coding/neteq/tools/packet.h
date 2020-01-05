@@ -325,7 +325,7 @@ time_ms_
 bool
 valid_header_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Packet
 )

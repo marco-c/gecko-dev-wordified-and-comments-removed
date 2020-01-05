@@ -11,7 +11,7 @@ defines
 .
 h
 "
-int
+size_t
 WebRtcIlbcfix_EnhancerInterface
 (
 int16_t

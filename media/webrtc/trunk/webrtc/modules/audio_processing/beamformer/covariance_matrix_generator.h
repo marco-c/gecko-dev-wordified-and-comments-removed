@@ -74,11 +74,11 @@ float
 sound_speed
 float
 angle
-int
+size_t
 frequency_bin
-int
+size_t
 fft_size
-int
+size_t
 num_freq_bins
 int
 sample_rate
@@ -104,9 +104,9 @@ static
 void
 PhaseAlignmentMasks
 (
-int
+size_t
 frequency_bin
-int
+size_t
 fft_size
 int
 sample_rate

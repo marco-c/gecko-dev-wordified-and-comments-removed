@@ -13,8 +13,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -69,7 +67,7 @@ const
 uint32_t
 stream_id
 const
-I420VideoFrame
+VideoFrame
 &
 video_frame
 )
@@ -111,7 +109,7 @@ VideoRenderIosView
 *
 view_
 ;
-I420VideoFrame
+VideoFrame
 *
 current_frame_
 ;

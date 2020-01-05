@@ -57,7 +57,7 @@ server
 NULL
 )
 ;
-uint32
+uint32_t
 start
 =
 Time

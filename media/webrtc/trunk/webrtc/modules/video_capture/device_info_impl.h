@@ -18,8 +18,6 @@ modules
 /
 video_capture
 /
-include
-/
 video_capture
 .
 h
@@ -44,7 +42,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 rw_lock_wrapper
 .
@@ -147,16 +145,6 @@ Init
 =
 0
 ;
-virtual
-int32_t
-Refresh
-(
-)
-{
-return
-0
-;
-}
 virtual
 int32_t
 CreateCapabilityMap

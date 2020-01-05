@@ -142,7 +142,7 @@ device_name_
 ;
 private
 :
-DISALLOW_ASSIGN
+RTC_DISALLOW_ASSIGN
 (
 SoundDeviceLocator
 )

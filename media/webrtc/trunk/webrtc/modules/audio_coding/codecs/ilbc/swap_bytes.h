@@ -18,7 +18,7 @@ const
 uint16_t
 *
 input
-int16_t
+size_t
 wordLength
 uint16_t
 *

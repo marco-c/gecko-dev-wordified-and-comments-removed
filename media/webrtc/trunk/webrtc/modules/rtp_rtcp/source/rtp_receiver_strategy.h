@@ -24,7 +24,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp
 .
@@ -39,7 +39,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -67,7 +67,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -108,8 +108,6 @@ RTPReceiverStrategy
 *
 CreateAudioStrategy
 (
-int32_t
-id
 RtpData
 *
 data_callback
@@ -217,8 +215,6 @@ InvokeOnInitializeDecoder
 RtpFeedback
 *
 callback
-int32_t
-id
 int8_t
 payload_type
 const
@@ -245,9 +241,6 @@ payload_type
 PayloadUnion
 *
 specific_payload
-bool
-*
-should_reset_statistics
 bool
 *
 should_discard_changes
@@ -285,6 +278,7 @@ payload
 ;
 protected
 :
+explicit
 RTPReceiverStrategy
 (
 RtpData

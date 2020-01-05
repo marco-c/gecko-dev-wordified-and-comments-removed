@@ -59,7 +59,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -74,7 +74,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 file_player
 .
@@ -89,7 +89,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 file_recorder
 .
@@ -229,9 +229,9 @@ const
 void
 *
 audioSamples
-uint32_t
+size_t
 nSamples
-uint8_t
+size_t
 nChannels
 uint32_t
 samplesPerSec
@@ -258,7 +258,7 @@ int
 voe_channels
 [
 ]
-int
+size_t
 number_of_voe_channels
 )
 ;
@@ -275,7 +275,7 @@ int
 voe_channels
 [
 ]
-int
+size_t
 number_of_voe_channels
 )
 ;
@@ -580,7 +580,7 @@ GetSendCodecInfo
 int
 *
 max_sample_rate
-int
+size_t
 *
 max_channels
 )
@@ -593,9 +593,9 @@ int16_t
 audioSamples
 [
 ]
-int
+size_t
 nSamples
-int
+size_t
 nChannels
 int
 samplesPerSec
@@ -764,17 +764,6 @@ stereo_codec_
 ;
 bool
 swap_stereo_channels_
-;
-rtc
-:
-:
-scoped_ptr
-<
-int16_t
-[
-]
->
-mono_buffer_
 ;
 }
 ;

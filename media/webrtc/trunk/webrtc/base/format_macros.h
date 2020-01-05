@@ -211,6 +211,13 @@ endif
 #
 else
 #
+include
+<
+inttypes
+.
+h
+>
+#
 if
 !
 defined

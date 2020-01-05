@@ -5,6 +5,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 gunit
 .
 h
@@ -353,7 +364,7 @@ handle
 (
 )
 window_title
-ARRAY_SIZE
+arraysize
 (
 window_title
 )

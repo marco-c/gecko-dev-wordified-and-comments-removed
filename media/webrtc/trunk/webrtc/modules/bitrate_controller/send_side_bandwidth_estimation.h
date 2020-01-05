@@ -18,7 +18,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -31,7 +31,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -40,6 +40,9 @@ h
 namespace
 webrtc
 {
+class
+RtcEventLog
+;
 class
 SendSideBandwidthEstimation
 {
@@ -80,6 +83,8 @@ now_ms
 void
 UpdateReceiverEstimate
 (
+int64_t
+now_ms
 uint32_t
 bandwidth
 )
@@ -119,6 +124,14 @@ GetMinBitrate
 )
 const
 ;
+void
+SetEventLog
+(
+RtcEventLog
+*
+event_log
+)
+;
 private
 :
 enum
@@ -151,6 +164,8 @@ lost_packets
 uint32_t
 CapBitrateToThresholds
 (
+int64_t
+now_ms
 uint32_t
 bitrate
 )
@@ -179,10 +194,10 @@ uint32_t
 min_bitrate_history_
 ;
 int
-accumulate_lost_packets_Q8_
+lost_packets_since_last_loss_update_Q8_
 ;
 int
-accumulate_expected_packets_
+expected_packets_since_last_loss_update_
 ;
 uint32_t
 bitrate_
@@ -192,6 +207,12 @@ min_bitrate_configured_
 ;
 uint32_t
 max_bitrate_configured_
+;
+int64_t
+last_low_bitrate_log_ms_
+;
+bool
+has_decreased_since_last_fraction_loss_
 ;
 int64_t
 time_last_receiver_block_ms_
@@ -228,6 +249,10 @@ vector
 bool
 >
 rampup_uma_stats_updated_
+;
+RtcEventLog
+*
+event_log_
 ;
 }
 ;

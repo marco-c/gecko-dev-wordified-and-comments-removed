@@ -36,10 +36,6 @@ h
 namespace
 webrtc
 {
-typedef
-uint8_t
-DiffInfo
-;
 class
 Differ
 {
@@ -102,11 +98,11 @@ void
 CalcDirtyRegion
 (
 const
-void
+uint8_t
 *
 prev_buffer
 const
-void
+uint8_t
 *
 curr_buffer
 DesktopRegion
@@ -124,11 +120,11 @@ void
 MarkDirtyBlocks
 (
 const
-void
+uint8_t
 *
 prev_buffer
 const
-void
+uint8_t
 *
 curr_buffer
 )
@@ -141,8 +137,8 @@ DesktopRegion
 region
 )
 ;
-DiffInfo
-DiffPartialBlock
+bool
+PartialBlocksEqual
 (
 const
 uint8_t
@@ -177,7 +173,7 @@ rtc
 :
 scoped_ptr
 <
-DiffInfo
+bool
 [
 ]
 >
@@ -192,7 +188,7 @@ diff_info_height_
 int
 diff_info_size_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Differ
 )

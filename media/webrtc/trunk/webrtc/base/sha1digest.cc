@@ -46,7 +46,7 @@ ctx_
 static_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -86,7 +86,7 @@ SHA1Final
 ctx_
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (

@@ -102,7 +102,7 @@ VadInstT
 )
 ;
 const
-int
+size_t
 kMaxFrameLenSp
 =
 960
@@ -184,7 +184,7 @@ kReferenceMin
 ;
 for
 (
-int16_t
+size_t
 i
 =
 0
@@ -203,6 +203,10 @@ data_in
 i
 ]
 =
+static_cast
+<
+int16_t
+>
 (
 i
 *
@@ -238,7 +242,7 @@ state
 ;
 for
 (
-int16_t
+size_t
 i
 =
 0

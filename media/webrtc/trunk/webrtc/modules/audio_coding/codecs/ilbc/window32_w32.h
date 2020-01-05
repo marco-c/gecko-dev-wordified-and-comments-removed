@@ -24,7 +24,7 @@ const
 int32_t
 *
 y
-int16_t
+size_t
 N
 )
 ;

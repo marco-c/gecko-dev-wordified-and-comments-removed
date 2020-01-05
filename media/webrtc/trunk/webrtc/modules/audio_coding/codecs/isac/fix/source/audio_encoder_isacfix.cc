@@ -13,7 +13,7 @@ isac
 /
 fix
 /
-interface
+include
 /
 audio_encoder_isacfix
 .
@@ -39,16 +39,9 @@ h
 namespace
 webrtc
 {
-const
-uint16_t
-IsacFix
-:
-:
-kFixSampleRate
-;
 template
 class
-AudioEncoderDecoderIsacT
+AudioEncoderIsacT
 <
 IsacFix
 >

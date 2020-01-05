@@ -173,7 +173,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -188,7 +188,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 process_thread
 .
@@ -203,8 +203,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render
 .
 h
@@ -218,8 +216,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -231,7 +227,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .
@@ -244,7 +240,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .

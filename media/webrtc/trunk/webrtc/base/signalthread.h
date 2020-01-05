@@ -80,13 +80,6 @@ void
 obj
 )
 ;
-bool
-SetPriority
-(
-ThreadPriority
-priority
-)
-;
 void
 Start
 (
@@ -234,7 +227,7 @@ SignalThread
 *
 parent_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 Worker
 )
@@ -341,7 +334,7 @@ SignalThread
 *
 t_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 EnterExit
 )
@@ -374,7 +367,7 @@ state_
 int
 refcount_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SignalThread
 )

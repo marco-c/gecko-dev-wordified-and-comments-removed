@@ -71,8 +71,6 @@ audio_processing
 /
 aecm
 /
-include
-/
 echo_control_mobile
 .
 h
@@ -99,7 +97,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 compile_assert_c
 .
@@ -112,7 +110,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 cpu_features_wrapper
 .
@@ -131,13 +129,13 @@ h
 if
 defined
 (
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 )
 |
 |
 defined
 (
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 extern
 const

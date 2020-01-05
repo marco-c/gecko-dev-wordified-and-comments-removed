@@ -34,7 +34,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -113,7 +113,7 @@ FILE
 *
 file_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 ResourceFileReader
 )
@@ -178,7 +178,7 @@ FILE
 *
 file_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 OutputFileWriter
 )

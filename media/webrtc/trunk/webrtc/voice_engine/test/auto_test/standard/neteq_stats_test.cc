@@ -297,7 +297,7 @@ maxWaitingTimeMs
 ;
 EXPECT_EQ
 (
-0
+0U
 network_statistics
 .
 addedSamples

@@ -71,9 +71,9 @@ const
 SocketAddress
 &
 local_address
-uint16
+uint16_t
 min_port
-uint16
+uint16_t
 max_port
 )
 override
@@ -86,9 +86,9 @@ const
 SocketAddress
 &
 local_address
-uint16
+uint16_t
 min_port
-uint16
+uint16_t
 max_port
 int
 opts
@@ -142,9 +142,9 @@ const
 SocketAddress
 &
 local_address
-uint16
+uint16_t
 min_port
-uint16
+uint16_t
 max_port
 )
 ;

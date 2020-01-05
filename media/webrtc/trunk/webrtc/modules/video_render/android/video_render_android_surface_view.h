@@ -35,8 +35,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -101,7 +99,7 @@ const
 uint32_t
 streamId
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )
@@ -124,7 +122,7 @@ CriticalSectionWrapper
 &
 _renderCritSect
 ;
-I420VideoFrame
+VideoFrame
 _bufferToRender
 ;
 VideoRenderAndroid

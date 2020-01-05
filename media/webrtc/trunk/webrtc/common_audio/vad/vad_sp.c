@@ -95,7 +95,7 @@ signal_out
 int32_t
 *
 filter_state
-int
+size_t
 in_length
 )
 {
@@ -123,12 +123,12 @@ filter_state
 1
 ]
 ;
-int
+size_t
 n
 =
 0
 ;
-int
+size_t
 half_length
 =
 (

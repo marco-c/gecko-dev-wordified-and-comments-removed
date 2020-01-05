@@ -287,7 +287,6 @@ return
 desc_
 ;
 }
-const
 PSecBufferDesc
 desc
 (

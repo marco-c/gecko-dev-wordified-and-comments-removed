@@ -40,11 +40,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-atomic32
+scoped_ref_ptr
 .
 h
 "
@@ -55,9 +53,9 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
-scoped_refptr
+atomic32
 .
 h
 "
@@ -104,6 +102,9 @@ display
 )
 ;
 static
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay
@@ -120,6 +121,9 @@ display_name
 )
 ;
 static
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay
@@ -226,7 +230,7 @@ display_
 EventHandlersMap
 event_handlers_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SharedXDisplay
 )

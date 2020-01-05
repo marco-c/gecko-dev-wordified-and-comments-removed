@@ -19,9 +19,9 @@ WebRtcSpl_GetScalingSquare
 int16_t
 *
 in_vector
-int
+size_t
 in_vector_length
-int
+size_t
 times
 )
 {
@@ -30,10 +30,13 @@ nbits
 =
 WebRtcSpl_GetSizeInBits
 (
+(
+uint32_t
+)
 times
 )
 ;
-int
+size_t
 i
 ;
 int16_t
@@ -54,7 +57,7 @@ in_vector
 int16_t
 t
 ;
-int
+size_t
 looptimes
 =
 in_vector_length

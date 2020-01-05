@@ -257,13 +257,13 @@ endif
 if
 defined
 (
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 )
 |
 |
 defined
 (
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 void
 aec_rdft_init_neon

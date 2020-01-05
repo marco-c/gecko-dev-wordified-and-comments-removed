@@ -310,7 +310,7 @@ packets_
 bool
 ready_to_send_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 TestClient
 )

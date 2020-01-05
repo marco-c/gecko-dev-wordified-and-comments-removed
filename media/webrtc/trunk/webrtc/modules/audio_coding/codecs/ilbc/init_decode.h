@@ -11,7 +11,7 @@ defines
 .
 h
 "
-int16_t
+int
 WebRtcIlbcfix_InitDecode
 (
 IlbcDecoder

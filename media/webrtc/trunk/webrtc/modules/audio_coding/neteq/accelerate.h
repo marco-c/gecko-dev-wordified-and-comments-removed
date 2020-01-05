@@ -95,13 +95,6 @@ background_noise
 )
 {
 }
-virtual
-~
-Accelerate
-(
-)
-{
-}
 ReturnCodes
 Process
 (
@@ -111,10 +104,12 @@ int16_t
 input
 size_t
 input_length
+bool
+fast_accelerate
 AudioMultiVector
 *
 output
-int16_t
+size_t
 *
 length_change_samples
 )
@@ -129,7 +124,7 @@ len
 int16_t
 *
 best_correlation
-int
+size_t
 *
 peak_index
 )
@@ -151,6 +146,8 @@ int16_t
 best_correlation
 bool
 active_speech
+bool
+fast_mode
 AudioMultiVector
 *
 output
@@ -160,7 +157,7 @@ override
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Accelerate
 )

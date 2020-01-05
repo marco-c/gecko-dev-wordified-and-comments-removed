@@ -92,6 +92,10 @@ hasAudioLevel
 (
 false
 )
+voiceActivity
+(
+false
+)
 audioLevel
 (
 0
@@ -103,14 +107,6 @@ false
 videoRotation
 (
 0
-)
-hasRID
-(
-false
-)
-rid
-(
-NULL
 )
 {
 }

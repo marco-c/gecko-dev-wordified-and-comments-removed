@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_RANDOM_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_RANDOM_H_
 #
 include
 "
@@ -14,6 +14,10 @@ typedefs
 h
 "
 namespace
+webrtc
+{
+namespace
+fec_private_tables
 {
 const
 uint8_t
@@ -127875,6 +127879,7 @@ kPacketMaskRandom47
 kPacketMaskRandom48
 }
 ;
+}
 }
 #
 endif

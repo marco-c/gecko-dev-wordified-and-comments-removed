@@ -65,7 +65,7 @@ int16_t
 audio
 [
 ]
-int
+size_t
 samples_per_channel
 int
 sample_rate_hz

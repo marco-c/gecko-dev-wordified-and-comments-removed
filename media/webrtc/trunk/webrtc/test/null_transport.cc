@@ -27,6 +27,10 @@ uint8_t
 packet
 size_t
 length
+const
+PacketOptions
+&
+options
 )
 {
 return

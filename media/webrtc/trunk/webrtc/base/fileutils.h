@@ -718,7 +718,7 @@ const
 Pathname
 &
 path
-int64
+int64_t
 *
 freebytes
 )
@@ -1483,7 +1483,7 @@ const
 Pathname
 &
 path
-int64
+int64_t
 *
 freebytes
 )
@@ -1615,7 +1615,7 @@ EnsureDefaultFilesystem
 (
 )
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 Filesystem
 )
@@ -1666,7 +1666,7 @@ FilesystemInterface
 *
 old_fs_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 FilesystemScope
 )

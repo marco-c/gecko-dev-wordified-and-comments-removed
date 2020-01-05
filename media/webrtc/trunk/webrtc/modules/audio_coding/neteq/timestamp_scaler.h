@@ -97,12 +97,7 @@ void
 Reset
 (
 )
-{
-first_packet_received_
-=
-false
 ;
-}
 virtual
 void
 ToInternal
@@ -162,7 +157,7 @@ DecoderDatabase
 &
 decoder_database_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 TimestampScaler
 )

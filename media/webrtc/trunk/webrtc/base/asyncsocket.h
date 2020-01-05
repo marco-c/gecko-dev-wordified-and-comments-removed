@@ -294,7 +294,7 @@ override
 int
 EstimateMTU
 (
-uint16
+uint16_t
 *
 mtu
 )

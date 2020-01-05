@@ -13,6 +13,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 webrtc
 /
@@ -98,10 +103,12 @@ return
 new
 ScreenCapturerWinMagnifier
 (
-gdi_capturer
-.
-Pass
+std
+:
+:
+move
 (
+gdi_capturer
 )
 )
 ;

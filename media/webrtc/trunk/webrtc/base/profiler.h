@@ -309,7 +309,7 @@ Stop
 void
 Stop
 (
-uint64
+uint64_t
 stop_time
 )
 ;
@@ -383,7 +383,7 @@ start_count_
 }
 private
 :
-uint64
+uint64_t
 current_start_time_
 ;
 double
@@ -530,7 +530,7 @@ mutable
 SharedExclusiveLock
 lock_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Profiler
 )
@@ -600,7 +600,7 @@ std
 string
 event_name_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ProfilerScope
 )

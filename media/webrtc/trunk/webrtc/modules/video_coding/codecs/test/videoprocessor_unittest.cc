@@ -37,9 +37,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 mock
 /
@@ -92,9 +90,7 @@ modules
 /
 video_coding
 /
-main
-/
-interface
+include
 /
 video_coding
 .

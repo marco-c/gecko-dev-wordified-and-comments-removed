@@ -48,7 +48,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 rw_lock_wrapper
 .
@@ -161,7 +161,7 @@ size_most_recent_
 int
 log_grid_size_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ScreenCapturerHelper
 )

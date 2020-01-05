@@ -37,7 +37,7 @@ Bitstr_enc
 streamData
 )
 ;
-int16_t
+int
 WebRtcIsacfix_DecLogisticMulti2
 (
 int16_t

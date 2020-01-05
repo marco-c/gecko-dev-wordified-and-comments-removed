@@ -33,9 +33,7 @@ modules
 /
 audio_coding
 /
-main
-/
-interface
+include
 /
 audio_coding_module
 .
@@ -82,10 +80,6 @@ const
 CodecInst
 &
 codecInst
-ACMAMRPackingFormat
-amrFormat
-=
-AMRBandwidthEfficient
 )
 ;
 int32_t
@@ -95,10 +89,6 @@ const
 CodecInst
 &
 codecInst
-ACMAMRPackingFormat
-amrFormat
-=
-AMRBandwidthEfficient
 )
 ;
 int32_t

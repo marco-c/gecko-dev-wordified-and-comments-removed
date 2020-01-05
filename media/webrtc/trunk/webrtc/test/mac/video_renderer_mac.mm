@@ -674,7 +674,7 @@ MacRenderer
 RenderFrame
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frame
 int

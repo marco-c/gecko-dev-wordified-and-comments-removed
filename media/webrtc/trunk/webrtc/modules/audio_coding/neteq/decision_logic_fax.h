@@ -54,7 +54,7 @@ DecisionLogicFax
 (
 int
 fs_hz
-int
+size_t
 output_size_samples
 NetEqPlayoutMode
 playout_mode
@@ -85,13 +85,6 @@ buffer_level_filter
 )
 {
 }
-virtual
-~
-DecisionLogicFax
-(
-)
-{
-}
 protected
 :
 Operations
@@ -105,7 +98,7 @@ const
 Expand
 &
 expand
-int
+size_t
 decoder_frame_length
 const
 RTPHeader
@@ -123,7 +116,7 @@ override
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DecisionLogicFax
 )

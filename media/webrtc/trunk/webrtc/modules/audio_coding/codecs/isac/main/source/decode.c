@@ -64,6 +64,10 @@ h
 int
 WebRtcIsac_DecodeLb
 (
+const
+TransformTables
+*
+transform_tables
 float
 *
 signal_out
@@ -397,6 +401,7 @@ len
 }
 WebRtcIsac_Spec2time
 (
+transform_tables
 real_f
 imag_f
 LPw
@@ -648,6 +653,10 @@ len
 int
 WebRtcIsac_DecodeUb16
 (
+const
+TransformTables
+*
+transform_tables
 float
 *
 signal_out
@@ -822,6 +831,7 @@ RCU_TRANSCODING_SCALE_UB_INVERSE
 }
 WebRtcIsac_Spec2time
 (
+transform_tables
 real_f
 imag_f
 halfFrameFirst
@@ -912,6 +922,10 @@ len
 int
 WebRtcIsac_DecodeUb12
 (
+const
+TransformTables
+*
+transform_tables
 float
 *
 signal_out
@@ -1077,6 +1091,7 @@ RCU_TRANSCODING_SCALE_UB_INVERSE
 }
 WebRtcIsac_Spec2time
 (
+transform_tables
 real_f
 imag_f
 LPw

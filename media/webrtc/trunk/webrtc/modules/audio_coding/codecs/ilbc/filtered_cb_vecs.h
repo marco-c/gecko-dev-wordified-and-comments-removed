@@ -20,9 +20,9 @@ cbvectors
 int16_t
 *
 CBmem
-int
+size_t
 lMem
-int16_t
+size_t
 samples
 )
 ;

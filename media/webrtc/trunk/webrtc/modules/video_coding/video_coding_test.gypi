@@ -165,8 +165,6 @@ sources
 #
 headers
 '
-main
-/
 test
 /
 receiver_tests
@@ -174,8 +172,6 @@ receiver_tests
 h
 '
 '
-main
-/
 test
 /
 rtp_player
@@ -183,8 +179,6 @@ rtp_player
 h
 '
 '
-main
-/
 test
 /
 vcm_payload_sink_factory
@@ -194,8 +188,6 @@ h
 #
 sources
 '
-main
-/
 test
 /
 rtp_player
@@ -203,8 +195,6 @@ rtp_player
 cc
 '
 '
-main
-/
 test
 /
 test_util
@@ -212,8 +202,6 @@ test_util
 cc
 '
 '
-main
-/
 test
 /
 tester_main
@@ -221,8 +209,6 @@ tester_main
 cc
 '
 '
-main
-/
 test
 /
 vcm_payload_sink_factory
@@ -230,8 +216,6 @@ vcm_payload_sink_factory
 cc
 '
 '
-main
-/
 test
 /
 video_rtp_play

@@ -77,11 +77,11 @@ MOCK_METHOD3
 Update
 void
 (
-int
+size_t
 buffer_size_packets
 int
 time_stretched_samples
-int
+size_t
 packet_len_samples
 )
 )

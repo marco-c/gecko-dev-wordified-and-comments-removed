@@ -5,7 +5,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logcat_trace_context
 .
@@ -34,7 +34,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .

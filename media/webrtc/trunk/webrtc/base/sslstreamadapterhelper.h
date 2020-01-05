@@ -110,6 +110,14 @@ mode
 )
 override
 ;
+void
+SetMaxProtocolVersion
+(
+SSLProtocolVersion
+version
+)
+override
+;
 int
 StartSSLWithServer
 (
@@ -283,6 +291,9 @@ peer_certificate_digest_algorithm_
 ;
 SSLMode
 ssl_mode_
+;
+SSLProtocolVersion
+ssl_max_version_
 ;
 private
 :

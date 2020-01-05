@@ -290,14 +290,14 @@ kCrcTable
 0xb1f740b4
 }
 ;
-int16_t
+int
 WebRtcIsac_GetCrc
 (
 const
 int16_t
 *
 bitstream
-int16_t
+int
 len_bitstream_in_bytes
 uint32_t
 *

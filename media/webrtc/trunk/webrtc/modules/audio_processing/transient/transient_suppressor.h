@@ -231,7 +231,7 @@ rtc
 :
 scoped_ptr
 <
-int
+size_t
 [
 ]
 >

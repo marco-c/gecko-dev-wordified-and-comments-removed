@@ -66,7 +66,7 @@ kMaxPacketSize
 1024
 ;
 typedef
-uint16
+uint16_t
 PacketLength
 ;
 static
@@ -106,7 +106,7 @@ inline
 bool
 IsStunMessage
 (
-uint16
+uint16_t
 msg_type
 )
 {
@@ -530,7 +530,7 @@ kPacketLenOffset
 size_t
 expected_pkt_len
 ;
-uint16
+uint16_t
 msg_type
 =
 rtc

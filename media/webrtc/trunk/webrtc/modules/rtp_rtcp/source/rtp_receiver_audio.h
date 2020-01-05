@@ -29,7 +29,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_receiver
 .
@@ -44,7 +44,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -107,9 +107,6 @@ public
 :
 RTPReceiverAudio
 (
-const
-int32_t
-id
 RtpData
 *
 data_callback
@@ -243,8 +240,6 @@ InvokeOnInitializeDecoder
 RtpFeedback
 *
 callback
-int32_t
-id
 int8_t
 payload_type
 const
@@ -297,9 +292,6 @@ PayloadUnion
 specific_payload
 bool
 *
-should_reset_statistics
-bool
-*
 should_discard_changes
 )
 override
@@ -337,9 +329,6 @@ audio_specific
 bool
 is_red
 )
-;
-int32_t
-id_
 ;
 uint32_t
 last_received_frequency_

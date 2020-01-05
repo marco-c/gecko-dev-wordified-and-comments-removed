@@ -45,7 +45,7 @@ NameAcquired
 "
 static
 const
-uint32
+uint32_t
 kTimeoutMs
 =
 5000U

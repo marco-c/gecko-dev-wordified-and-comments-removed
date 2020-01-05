@@ -1,0 +1,17 @@
+#
+ifndef
+WEBRTC_COMMON_VIDEO_INCLUDE_VIDEO_IMAGE_H_
+#
+define
+WEBRTC_COMMON_VIDEO_INCLUDE_VIDEO_IMAGE_H_
+#
+include
+"
+webrtc
+/
+video_frame
+.
+h
+"
+#
+endif

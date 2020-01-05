@@ -229,7 +229,7 @@ out_buffer_
 FifoBuffer
 in_buffer_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ProxyBinding
 )
@@ -272,6 +272,11 @@ ProxyServer
 (
 )
 override
+;
+SocketAddress
+GetServerAddress
+(
+)
 ;
 protected
 :
@@ -332,7 +337,7 @@ server_socket_
 BindingList
 bindings_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ProxyServer
 )
@@ -386,7 +391,7 @@ socket
 )
 override
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SocksProxyServer
 )

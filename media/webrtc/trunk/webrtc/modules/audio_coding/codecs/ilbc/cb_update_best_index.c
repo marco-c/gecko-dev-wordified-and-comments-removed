@@ -26,7 +26,7 @@ int32_t
 CritNew
 int16_t
 CritNewSh
-int16_t
+size_t
 IndexNew
 int32_t
 cDotNew
@@ -40,7 +40,7 @@ CritMax
 int16_t
 *
 shTotMax
-int16_t
+size_t
 *
 bestIndex
 int16_t

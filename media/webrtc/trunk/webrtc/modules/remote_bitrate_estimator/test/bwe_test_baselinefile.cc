@@ -495,7 +495,7 @@ reader_
 bool
 fail_to_read_response_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 BaseLineFileVerify
 )
@@ -863,7 +863,7 @@ std
 string
 filepath_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 BaseLineFileUpdate
 )

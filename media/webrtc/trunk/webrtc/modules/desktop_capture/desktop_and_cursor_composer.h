@@ -91,12 +91,6 @@ callback
 override
 ;
 void
-Stop
-(
-)
-override
-;
-void
 Capture
 (
 const
@@ -201,7 +195,7 @@ cursor_state_
 DesktopVector
 cursor_position_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DesktopAndCursorComposer
 )

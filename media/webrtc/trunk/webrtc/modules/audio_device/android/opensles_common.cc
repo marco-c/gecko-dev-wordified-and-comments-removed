@@ -42,7 +42,7 @@ webrtc
 kNumChannels
 ;
 namespace
-webrtc_opensl
+webrtc
 {
 SLDataFormat_PCM
 CreatePcmConfiguration

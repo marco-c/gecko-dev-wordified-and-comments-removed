@@ -56,7 +56,7 @@ tr1
 :
 tuple
 <
-int
+size_t
 int
 std
 :
@@ -116,9 +116,9 @@ in_data
 uint8_t
 *
 bit_stream
-int
+size_t
 max_bytes
-int
+size_t
 *
 encoded_bytes
 )
@@ -133,7 +133,7 @@ const
 uint8_t
 *
 bit_stream
-int
+size_t
 encoded_bytes
 int16_t
 *
@@ -158,10 +158,10 @@ input_sampling_khz_
 int
 output_sampling_khz_
 ;
-int
+size_t
 input_length_sample_
 ;
-int
+size_t
 output_length_sample_
 ;
 rtc
@@ -203,10 +203,10 @@ uint8_t
 >
 bit_stream_
 ;
-int
+size_t
 max_bytes_
 ;
-int
+size_t
 encoded_bytes_
 ;
 float
@@ -219,7 +219,7 @@ FILE
 *
 out_file_
 ;
-int
+size_t
 channels_
 ;
 int

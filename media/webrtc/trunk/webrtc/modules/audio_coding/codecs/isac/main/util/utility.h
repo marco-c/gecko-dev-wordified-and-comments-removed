@@ -415,7 +415,7 @@ get_arrival_time
 (
 int
 current_framesamples
-int
+size_t
 packet_size
 int
 bottleneck

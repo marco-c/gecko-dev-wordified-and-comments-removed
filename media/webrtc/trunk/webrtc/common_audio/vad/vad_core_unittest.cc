@@ -392,7 +392,7 @@ j
 }
 for
 (
-int16_t
+size_t
 i
 =
 0
@@ -411,6 +411,10 @@ speech
 i
 ]
 =
+static_cast
+<
+int16_t
+>
 (
 i
 *

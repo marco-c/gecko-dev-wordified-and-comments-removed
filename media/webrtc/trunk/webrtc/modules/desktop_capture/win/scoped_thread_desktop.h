@@ -95,7 +95,7 @@ Desktop
 >
 initial_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ScopedThreadDesktop
 )

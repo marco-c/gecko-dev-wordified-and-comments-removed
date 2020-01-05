@@ -2624,7 +2624,7 @@ WebRtcIlbcfix_kAlpha
 }
 ;
 const
-int16_t
+size_t
 WebRtcIlbcfix_kSearchRange
 [
 5
@@ -2662,7 +2662,7 @@ CB_NSTAGES
 }
 ;
 const
-int16_t
+size_t
 WebRtcIlbcfix_kFilterRange
 [
 5
@@ -2904,7 +2904,7 @@ WebRtcIlbcfix_kEnhWt
 }
 ;
 const
-int16_t
+size_t
 WebRtcIlbcfix_kEnhPlocs
 [
 ENH_NBLOCKS_TOT

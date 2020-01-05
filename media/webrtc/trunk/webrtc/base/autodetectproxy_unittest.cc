@@ -44,19 +44,6 @@ inl
 .
 h
 "
-#
-include
-"
-webrtc
-/
-test
-/
-testsupport
-/
-gtest_disable
-.
-h
-"
 namespace
 rtc
 {
@@ -98,7 +85,7 @@ com
 ;
 static
 const
-uint16
+uint16_t
 kPort
 =
 443
@@ -175,7 +162,7 @@ std
 string
 &
 host
-uint16
+uint16_t
 port
 bool
 secure

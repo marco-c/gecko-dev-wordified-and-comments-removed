@@ -25,7 +25,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -78,6 +78,9 @@ display_
 )
 ;
 }
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay
@@ -148,6 +151,9 @@ display
 )
 ;
 }
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay
@@ -316,6 +322,9 @@ ProcessPendingXEvents
 (
 )
 {
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay

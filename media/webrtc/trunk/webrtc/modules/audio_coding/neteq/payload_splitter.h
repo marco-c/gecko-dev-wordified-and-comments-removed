@@ -167,7 +167,7 @@ PacketList
 new_packets
 )
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 PayloadSplitter
 )

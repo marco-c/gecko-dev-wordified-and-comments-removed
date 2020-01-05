@@ -16,6 +16,17 @@ webrtc
 /
 base
 /
+basictypes
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 buffer
 .
 h
@@ -113,7 +124,7 @@ string
 &
 algorithm
 const
-uint8
+uint8_t
 *
 digest_in
 size_t

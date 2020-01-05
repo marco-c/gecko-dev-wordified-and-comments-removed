@@ -32,6 +32,17 @@ webrtc
 /
 base
 /
+constructormagic
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 win32
 .
 h
@@ -141,7 +152,7 @@ value_name
 )
 const
 ;
-uint32
+uint32_t
 GetValueCount
 (
 )
@@ -172,7 +183,7 @@ key_name
 )
 const
 ;
-uint32
+uint32_t
 GetSubkeyCount
 (
 )
@@ -236,7 +247,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -252,7 +263,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -347,7 +358,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -364,7 +375,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -506,7 +517,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -526,7 +537,7 @@ TCHAR
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -677,7 +688,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -847,7 +858,7 @@ value_name
 DWORD
 *
 type
-uint8
+uint8_t
 *
 *
 value
@@ -922,7 +933,7 @@ HRESULT
 MultiSZBytesToStringArray
 (
 const
-uint8
+uint8_t
 *
 buffer
 DWORD
@@ -950,7 +961,7 @@ RegKeyHelperFunctionsTest
 (
 )
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RegKey
 )

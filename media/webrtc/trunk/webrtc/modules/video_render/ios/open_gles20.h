@@ -24,8 +24,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -60,7 +58,7 @@ bool
 Render
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frame
 )
@@ -115,7 +113,7 @@ void
 SetupTextures
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frame
 )
@@ -124,7 +122,7 @@ void
 UpdateTextures
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frame
 )

@@ -164,7 +164,7 @@ GetNextPacket
 Packet
 *
 (
-int
+size_t
 *
 discard_count
 )
@@ -203,7 +203,7 @@ timestamp_limit
 MOCK_CONST_METHOD0
 (
 NumPacketsInBuffer
-int
+size_t
 (
 )
 )

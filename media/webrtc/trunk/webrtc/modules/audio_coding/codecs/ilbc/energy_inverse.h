@@ -17,7 +17,7 @@ WebRtcIlbcfix_EnergyInverse
 int16_t
 *
 energy
-int
+size_t
 noOfEnergies
 )
 ;

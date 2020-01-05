@@ -1,7 +1,3 @@
-andrew
-webrtc
-.
-org
 henrika
 webrtc
 .
@@ -39,6 +35,16 @@ file
 AUTHORS
 =
 *
+per
+-
+file
+.
+gn
+=
+kjellander
+webrtc
+.
+org
 per
 -
 file

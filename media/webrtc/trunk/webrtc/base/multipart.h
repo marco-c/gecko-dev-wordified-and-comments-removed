@@ -305,7 +305,7 @@ current_
 size_t
 position_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 MultipartStream
 )

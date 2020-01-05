@@ -574,7 +574,7 @@ const
 uint32_t
 streamId
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )

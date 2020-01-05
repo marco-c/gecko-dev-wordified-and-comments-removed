@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_INTERFACE_AUDIO_DECODER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_INCLUDE_AUDIO_DECODER_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_INTERFACE_AUDIO_DECODER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_INCLUDE_AUDIO_DECODER_H_
 #
 include
 <
@@ -34,8 +34,6 @@ audio_coding
 codecs
 /
 cng
-/
-include
 /
 webrtc_cng
 .
@@ -88,9 +86,9 @@ virtual
 AudioDecoder
 (
 )
-{
-}
-virtual
+=
+default
+;
 int
 Decode
 (
@@ -112,7 +110,6 @@ SpeechType
 speech_type
 )
 ;
-virtual
 int
 DecodeRedundant
 (
@@ -142,10 +139,10 @@ HasDecodePlc
 const
 ;
 virtual
-int
+size_t
 DecodePlc
 (
-int
+size_t
 num_frames
 int16_t
 *
@@ -153,8 +150,8 @@ decoded
 )
 ;
 virtual
-int
-Init
+void
+Reset
 (
 )
 =
@@ -268,6 +265,8 @@ SpeechType
 *
 speech_type
 )
+=
+0
 ;
 virtual
 int
@@ -291,7 +290,7 @@ speech_type
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AudioDecoder
 )

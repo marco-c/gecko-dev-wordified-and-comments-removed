@@ -109,7 +109,7 @@ initially_signaled
 NULL
 )
 ;
-CHECK
+RTC_CHECK
 (
 event_handle_
 )
@@ -220,7 +220,7 @@ event_status_
 initially_signaled
 )
 {
-CHECK
+RTC_CHECK
 (
 pthread_mutex_init
 (
@@ -233,7 +233,7 @@ NULL
 0
 )
 ;
-CHECK
+RTC_CHECK
 (
 pthread_cond_init
 (

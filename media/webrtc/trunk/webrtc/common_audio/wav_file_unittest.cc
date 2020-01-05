@@ -111,7 +111,7 @@ wav
 ;
 static
 const
-uint32_t
+size_t
 kNumSamples
 =
 3
@@ -137,7 +137,7 @@ sample_rate
 ;
 EXPECT_EQ
 (
-1
+1u
 w
 .
 num_channels
@@ -330,7 +330,7 @@ kMetadata
 ;
 static
 const
-int
+size_t
 kContentSize
 =
 kWavHeaderSize
@@ -364,10 +364,7 @@ size
 ;
 EXPECT_EQ
 (
-size_t
-(
 kContentSize
-)
 test
 :
 :
@@ -455,7 +452,7 @@ sample_rate
 ;
 EXPECT_EQ
 (
-1
+1u
 r
 .
 num_channels
@@ -590,7 +587,7 @@ w
 ;
 EXPECT_EQ
 (
-2
+2u
 rtc_WavNumChannels
 (
 w
@@ -608,7 +605,7 @@ w
 ;
 static
 const
-uint32_t
+size_t
 kNumSamples
 =
 4
@@ -755,7 +752,7 @@ a
 ;
 static
 const
-int
+size_t
 kContentSize
 =
 kWavHeaderSize
@@ -784,10 +781,7 @@ size
 ;
 EXPECT_EQ
 (
-size_t
-(
 kContentSize
-)
 test
 :
 :
@@ -891,14 +885,14 @@ kSampleRate
 ;
 static
 const
-int
+size_t
 kNumChannels
 =
 2
 ;
 static
 const
-uint32_t
+size_t
 kNumSamples
 =
 3
@@ -915,7 +909,7 @@ kNumSamples
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

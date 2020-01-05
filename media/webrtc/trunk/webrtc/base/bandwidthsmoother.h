@@ -38,7 +38,7 @@ BandwidthSmoother
 (
 int
 initial_bandwidth_guess
-uint32
+uint32_t
 time_between_increase
 double
 percent_increase
@@ -56,7 +56,7 @@ BandwidthSmoother
 bool
 Sample
 (
-uint32
+uint32_t
 sample_time
 int
 bandwidth
@@ -74,13 +74,13 @@ bandwidth_estimation_
 }
 private
 :
-uint32
+uint32_t
 time_between_increase_
 ;
 double
 percent_increase_
 ;
-uint32
+uint32_t
 time_at_last_change_
 ;
 int

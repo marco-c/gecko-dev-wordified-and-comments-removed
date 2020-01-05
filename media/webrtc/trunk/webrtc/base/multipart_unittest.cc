@@ -594,6 +594,7 @@ rtc
 StringStream
 str_stream
 (
+&
 str
 )
 ;

@@ -131,7 +131,7 @@ c
 '
 ]
 '
-includes
+dependencies
 '
 :
 [
@@ -149,9 +149,11 @@ build
 /
 android
 /
-cpufeatures
+ndk
 .
-gypi
+gyp
+:
+cpu_features
 '
 ]
 }

@@ -173,7 +173,7 @@ out
 double
 *
 state
-int
+size_t
 N
 )
 ;
@@ -187,7 +187,7 @@ in
 double
 *
 state_in
-int
+size_t
 N
 double
 *

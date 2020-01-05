@@ -9,8 +9,6 @@ audio_processing
 /
 aecm
 /
-include
-/
 echo_control_mobile
 .
 h

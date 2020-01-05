@@ -75,7 +75,7 @@ input_ptr
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -139,7 +139,7 @@ else
 {
 for
 (
-int
+size_t
 i
 =
 0

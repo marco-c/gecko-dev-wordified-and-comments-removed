@@ -11,7 +11,7 @@ defines
 .
 h
 "
-int
+size_t
 WebRtcIlbcfix_XcorrCoef
 (
 int16_t
@@ -20,11 +20,11 @@ target
 int16_t
 *
 regressor
-int16_t
+size_t
 subl
-int16_t
+size_t
 searchLen
-int16_t
+size_t
 offset
 int16_t
 step

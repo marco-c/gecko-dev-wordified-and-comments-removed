@@ -54,7 +54,7 @@ DecisionLogicNormal
 (
 int
 fs_hz
-int
+size_t
 output_size_samples
 NetEqPlayoutMode
 playout_mode
@@ -85,13 +85,6 @@ buffer_level_filter
 )
 {
 }
-virtual
-~
-DecisionLogicNormal
-(
-)
-{
-}
 protected
 :
 static
@@ -115,7 +108,6 @@ kMaxWaitForPacket
 =
 10
 ;
-virtual
 Operations
 GetDecisionSpecialized
 (
@@ -127,7 +119,7 @@ const
 Expand
 &
 expand
-int
+size_t
 decoder_frame_length
 const
 RTPHeader
@@ -141,6 +133,7 @@ bool
 *
 reset_decoder
 )
+override
 ;
 virtual
 Operations
@@ -154,7 +147,7 @@ const
 Expand
 &
 expand
-int
+size_t
 decoder_frame_length
 Modes
 prev_mode
@@ -238,7 +231,7 @@ MaxWaitForPacket
 )
 const
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DecisionLogicNormal
 )

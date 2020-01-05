@@ -224,11 +224,7 @@ Channels
 (
 )
 const
-{
-return
-num_channels_
 ;
-}
 virtual
 size_t
 Size
@@ -300,7 +296,7 @@ num_channels_
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AudioMultiVector
 )

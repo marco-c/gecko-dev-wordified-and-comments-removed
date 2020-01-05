@@ -83,7 +83,7 @@ input
 abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 "
 ;
-uint32
+uint32_t
 c
 =
 0

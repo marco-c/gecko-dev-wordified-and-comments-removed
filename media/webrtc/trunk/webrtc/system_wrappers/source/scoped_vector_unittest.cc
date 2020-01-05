@@ -5,7 +5,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 scoped_vector
 .
@@ -131,7 +131,7 @@ Observer
 *
 observer_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 LifeCycleObject
 )
@@ -305,7 +305,7 @@ LifeCycleObject
 >
 constructed_life_cycle_object_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 LifeCycleWatcher
 )
@@ -1120,7 +1120,7 @@ scoped_vector_copy
 (
 scoped_vector
 .
-Pass
+DEPRECATED_Pass
 (
 )
 )
@@ -1249,7 +1249,7 @@ scoped_vector_assign
 =
 scoped_vector
 .
-Pass
+DEPRECATED_Pass
 (
 )
 ;
@@ -1352,7 +1352,7 @@ int
 const
 deletes_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DeleteCounter
 )
@@ -1383,7 +1383,7 @@ scoper_
 (
 scoper
 .
-Pass
+DEPRECATED_Pass
 (
 )
 )
@@ -1400,7 +1400,7 @@ Run
 return
 scoper_
 .
-Pass
+DEPRECATED_Pass
 (
 )
 ;
@@ -1458,7 +1458,7 @@ pass_thru
 (
 deleter_vector
 .
-Pass
+DEPRECATED_Pass
 (
 )
 )

@@ -26,9 +26,9 @@ gain_index
 int16_t
 *
 mem
-int16_t
+size_t
 lMem
-int16_t
+size_t
 veclen
 )
 ;

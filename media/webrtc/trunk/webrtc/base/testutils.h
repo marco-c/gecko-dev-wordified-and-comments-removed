@@ -67,6 +67,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 asyncsocket
 .
 h
@@ -2064,7 +2075,7 @@ socket_
 Recv
 (
 data
-ARRAY_SIZE
+arraysize
 (
 data
 )
@@ -3071,7 +3082,7 @@ x
 )
 static_cast
 <
-uint8
+uint8_t
 >
 (
 (
@@ -3090,7 +3101,7 @@ BYTE_CAST
 (
 (
 (
-uint16
+uint16_t
 )
 x
 )
@@ -3102,7 +3113,7 @@ BYTE_CAST
 (
 (
 (
-uint16
+uint16_t
 )
 x
 )
@@ -3116,11 +3127,12 @@ LE32
 (
 x
 )
+\
 BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3132,7 +3144,7 @@ BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3145,7 +3157,7 @@ BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3157,7 +3169,7 @@ BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3171,11 +3183,12 @@ LE64
 (
 x
 )
+\
 BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3187,7 +3200,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3200,7 +3213,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3212,7 +3225,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3225,7 +3238,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3237,7 +3250,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3250,7 +3263,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3262,7 +3275,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3280,7 +3293,7 @@ BYTE_CAST
 (
 (
 (
-uint16
+uint16_t
 )
 x
 )
@@ -3292,7 +3305,7 @@ BYTE_CAST
 (
 (
 (
-uint16
+uint16_t
 )
 x
 )
@@ -3306,11 +3319,12 @@ BE32
 (
 x
 )
+\
 BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3322,7 +3336,7 @@ BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3335,7 +3349,7 @@ BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3347,7 +3361,7 @@ BYTE_CAST
 (
 (
 (
-uint32
+uint32_t
 )
 x
 )
@@ -3361,11 +3375,12 @@ BE64
 (
 x
 )
+\
 BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3377,7 +3392,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3390,7 +3405,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3402,7 +3417,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3415,7 +3430,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3427,7 +3442,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3440,7 +3455,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )
@@ -3452,7 +3467,7 @@ BYTE_CAST
 (
 (
 (
-uint64
+uint64_t
 )
 x
 )

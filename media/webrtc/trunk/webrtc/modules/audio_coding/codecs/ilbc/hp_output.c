@@ -20,11 +20,11 @@ y
 int16_t
 *
 x
-int16_t
+size_t
 len
 )
 {
-int
+size_t
 i
 ;
 int32_t

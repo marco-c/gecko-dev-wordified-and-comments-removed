@@ -83,7 +83,7 @@ timer_
 int
 run_count_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 MacCocoaSocketServer
 )

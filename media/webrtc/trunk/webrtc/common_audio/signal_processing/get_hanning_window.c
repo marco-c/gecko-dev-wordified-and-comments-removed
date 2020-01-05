@@ -285,11 +285,11 @@ WebRtcSpl_GetHanningWindow
 int16_t
 *
 v
-int16_t
+size_t
 size
 )
 {
-int
+size_t
 jj
 ;
 int16_t
@@ -314,6 +314,9 @@ factor
 WebRtcSpl_DivW32W16
 (
 factor
+(
+int16_t
+)
 size
 )
 ;

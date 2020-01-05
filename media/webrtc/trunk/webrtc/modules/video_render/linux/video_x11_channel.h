@@ -37,8 +37,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -114,7 +112,7 @@ const
 uint32_t
 streamId
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )
@@ -134,7 +132,7 @@ int32_t
 DeliverFrame
 (
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )

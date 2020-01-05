@@ -218,7 +218,7 @@ ProfilerEvent
 :
 Stop
 (
-uint64
+uint64_t
 stop_time
 )
 {
@@ -405,7 +405,7 @@ Instance
 (
 )
 {
-LIBJINGLE_DEFINE_STATIC_LOCAL
+RTC_DEFINE_STATIC_LOCAL
 (
 Profiler
 instance
@@ -538,7 +538,7 @@ string
 event_name
 )
 {
-uint64
+uint64_t
 stop_time
 =
 TimeNanos

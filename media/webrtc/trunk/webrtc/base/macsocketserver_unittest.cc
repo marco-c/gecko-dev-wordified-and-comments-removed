@@ -121,7 +121,7 @@ TestWait
 MacCFSocketServer
 server
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -162,7 +162,7 @@ thread
 server
 )
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -202,7 +202,7 @@ TestWait
 MacCarbonSocketServer
 server
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -243,7 +243,7 @@ thread
 server
 )
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -283,7 +283,7 @@ TestWait
 MacCarbonAppSocketServer
 server
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -324,7 +324,7 @@ thread
 server
 )
 ;
-uint32
+uint32_t
 start
 =
 Time
@@ -487,7 +487,7 @@ TestConnectFailIPv4
 TEST_F
 (
 MacAsyncSocketTest
-TestConnectFailIPv6
+DISABLED_TestConnectFailIPv6
 )
 {
 SocketTest

@@ -22,14 +22,14 @@ intarget
 int16_t
 *
 decResidual
-int16_t
+size_t
 lMem
-int16_t
+size_t
 lTarget
 int16_t
 *
 weightDenum
-int16_t
+size_t
 block
 )
 ;

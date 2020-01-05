@@ -461,7 +461,7 @@ AsyncSocketAdapter
 :
 EstimateMTU
 (
-uint16
+uint16_t
 *
 mtu
 )

@@ -64,6 +64,7 @@ InputAudioFile
 (
 )
 ;
+virtual
 bool
 Read
 (
@@ -72,6 +73,14 @@ samples
 int16_t
 *
 destination
+)
+;
+virtual
+bool
+Seek
+(
+int
+samples
 )
 ;
 static
@@ -97,7 +106,7 @@ FILE
 *
 fp_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 InputAudioFile
 )

@@ -90,13 +90,13 @@ const
 int16_t
 *
 data
-int
+size_t
 length
 )
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -136,7 +136,7 @@ RMSLevel
 :
 ProcessMuted
 (
-int
+size_t
 length
 )
 {

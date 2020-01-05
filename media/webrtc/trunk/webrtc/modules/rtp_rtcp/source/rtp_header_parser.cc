@@ -7,7 +7,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_header_parser
 .
@@ -61,7 +61,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -277,7 +277,6 @@ rtp_parser
 .
 Parse
 (
-*
 header
 &
 map

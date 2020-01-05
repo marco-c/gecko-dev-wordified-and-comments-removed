@@ -39,8 +39,7 @@ virtual
 SoundInputStreamInterface
 (
 )
-{
-}
+;
 virtual
 bool
 StartReading
@@ -113,11 +112,10 @@ protected
 SoundInputStreamInterface
 (
 )
-{
-}
+;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SoundInputStreamInterface
 )

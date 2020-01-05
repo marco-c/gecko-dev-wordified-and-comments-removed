@@ -8716,7 +8716,7 @@ target_arch
 =
 =
 "
-arm64
+aarch64
 "
 '
 {

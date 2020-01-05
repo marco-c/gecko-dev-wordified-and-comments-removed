@@ -6,6 +6,11 @@ define
 WEBRTC_MODULES_AUDIO_PROCESSING_RMS_LEVEL_H_
 #
 include
+<
+cstddef
+>
+#
+include
 "
 webrtc
 /
@@ -49,14 +54,14 @@ const
 int16_t
 *
 data
-int
+size_t
 length
 )
 ;
 void
 ProcessMuted
 (
-int
+size_t
 length
 )
 ;
@@ -70,7 +75,7 @@ private
 float
 sum_square_
 ;
-int
+size_t
 sample_count_
 ;
 }

@@ -18,7 +18,7 @@ WebRtcIlbcfix_CbSearchCore
 int32_t
 *
 cDot
-int16_t
+size_t
 range
 int16_t
 stage
@@ -31,7 +31,7 @@ inverseEnergyShift
 int32_t
 *
 Crit
-int16_t
+size_t
 *
 bestIndex
 int32_t
@@ -51,7 +51,7 @@ max
 sh
 tmp16
 ;
-int
+size_t
 i
 ;
 int32_t

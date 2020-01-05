@@ -103,7 +103,7 @@ dwLowDateTime
 =
 0xFEED3456
 ;
-uint64
+uint64_t
 expected
 =
 0xBAADF00DFEED3456

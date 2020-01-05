@@ -16,6 +16,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 asyncudpsocket
 .
 h
@@ -5455,7 +5466,7 @@ Send
 (
 &
 buf
-ARRAY_SIZE
+arraysize
 (
 buf
 )
@@ -5518,7 +5529,7 @@ client
 Recv
 (
 buf
-ARRAY_SIZE
+arraysize
 (
 buf
 )
@@ -5572,7 +5583,7 @@ Send
 (
 &
 buf
-ARRAY_SIZE
+arraysize
 (
 buf
 )
@@ -6182,7 +6193,7 @@ error
 =
 0
 ;
-uint32
+uint32_t
 start_ms
 =
 Time
@@ -6617,7 +6628,7 @@ loopback
 )
 )
 ;
-uint16
+uint16_t
 mtu
 ;
 ASSERT_EQ

@@ -44,8 +44,6 @@ codecs
 /
 pcm16b
 /
-include
-/
 pcm16b
 .
 h
@@ -129,7 +127,7 @@ payload_ssrc_
 0xABCD1234
 )
 {
-int
+size_t
 encoded_len
 =
 WebRtcPcm16b_Encode
@@ -140,10 +138,10 @@ sample_value
 encoded_sample_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
+2U
 encoded_len
-2
 )
 ;
 }
@@ -156,7 +154,7 @@ NextPacket
 (
 )
 {
-CHECK_GT
+RTC_CHECK_GT
 (
 packet_len_bytes_
 kHeaderLenBytes

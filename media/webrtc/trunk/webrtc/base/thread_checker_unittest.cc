@@ -58,19 +58,6 @@ scoped_ptr
 h
 "
 #
-include
-"
-webrtc
-/
-test
-/
-testsupport
-/
-gtest_disable
-.
-h
-"
-#
 if
 !
 defined
@@ -118,7 +105,7 @@ DoStuff
 (
 )
 {
-DCHECK
+RTC_DCHECK
 (
 CalledOnValidThread
 (
@@ -153,7 +140,7 @@ DetachThenCallFromDifferentThreadImpl
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ThreadCheckerClass
 )
@@ -226,7 +213,7 @@ ThreadCheckerClass
 *
 thread_checker_class_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 CallDoStuffOnThread
 )
@@ -300,7 +287,7 @@ ThreadCheckerClass
 >
 thread_checker_class_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DeleteThreadCheckerClassOnThread
 )

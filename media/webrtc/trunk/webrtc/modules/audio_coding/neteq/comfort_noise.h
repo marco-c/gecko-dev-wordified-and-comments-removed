@@ -163,7 +163,7 @@ sync_buffer_
 int
 internal_error_code_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ComfortNoise
 )

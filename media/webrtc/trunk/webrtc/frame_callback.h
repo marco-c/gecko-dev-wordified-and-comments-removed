@@ -24,7 +24,7 @@ namespace
 webrtc
 {
 class
-I420VideoFrame
+VideoFrame
 ;
 struct
 EncodedFrame
@@ -45,7 +45,7 @@ length_
 )
 frame_type_
 (
-kFrameEmpty
+kEmptyFrame
 )
 {
 }
@@ -99,7 +99,7 @@ virtual
 void
 FrameCallback
 (
-I420VideoFrame
+VideoFrame
 *
 video_frame
 )

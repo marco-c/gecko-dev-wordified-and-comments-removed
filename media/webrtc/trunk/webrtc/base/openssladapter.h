@@ -314,7 +314,11 @@ host
 ;
 #
 if
-_DEBUG
+!
+defined
+(
+NDEBUG
+)
 static
 void
 SSLInfoCallback

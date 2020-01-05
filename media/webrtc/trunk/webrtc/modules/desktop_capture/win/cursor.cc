@@ -90,7 +90,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -296,17 +296,6 @@ RGB
 0xff
 0xff
 0xff
-)
-;
-const
-uint32_t
-kPixelRgbBlack
-=
-RGB
-(
-0
-0
-0
 )
 ;
 void

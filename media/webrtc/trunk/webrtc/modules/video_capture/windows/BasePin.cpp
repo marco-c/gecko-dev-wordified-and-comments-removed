@@ -47,7 +47,6 @@ IEnumMediaTypes
 {
 public
 :
-explicit
 EnumMediaTypes
 (
 BasePin
@@ -69,7 +68,6 @@ mRefCnt
 )
 {
 }
-explicit
 EnumMediaTypes
 (
 EnumMediaTypes

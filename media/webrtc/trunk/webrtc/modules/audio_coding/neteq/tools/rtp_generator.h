@@ -22,7 +22,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -149,7 +149,7 @@ drift_factor_
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RtpGenerator
 )
@@ -215,7 +215,7 @@ jump_from_timestamp_
 uint32_t
 jump_to_timestamp_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 TimestampJumpRtpGenerator
 )

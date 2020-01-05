@@ -140,7 +140,7 @@ height
 )
 override
 ;
-uint8
+uint8_t
 *
 GetWindowIcon
 (
@@ -156,7 +156,7 @@ int
 height
 )
 ;
-uint8
+uint8_t
 *
 GetWindowThumbnail
 (
@@ -175,7 +175,7 @@ GetNumDesktops
 (
 )
 ;
-uint8
+uint8_t
 *
 GetDesktopThumbnail
 (

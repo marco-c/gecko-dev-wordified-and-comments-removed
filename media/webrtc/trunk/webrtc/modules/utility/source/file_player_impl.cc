@@ -20,7 +20,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -247,14 +247,6 @@ _codec
 plfreq
 =
 =
-44100
-|
-|
-_codec
-.
-plfreq
-=
-=
 44000
 )
 {
@@ -315,7 +307,7 @@ Get10msAudioFromFile
 int16_t
 *
 outBuffer
-int
+size_t
 &
 lengthInSamples
 int
@@ -458,9 +450,6 @@ unresampledAudioFrame
 .
 samples_per_channel_
 =
-(
-uint16_t
-)
 lengthInBytes
 >
 >
@@ -558,7 +547,7 @@ return
 ;
 }
 }
-int
+size_t
 outLen
 =
 0
@@ -594,9 +583,15 @@ codec
 ;
 outLen
 =
+static_cast
+<
+size_t
+>
+(
 frequencyInHz
 /
 100
+)
 ;
 memset
 (
@@ -645,7 +640,7 @@ _scaling
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -1660,7 +1655,6 @@ _audioDecoder
 SetDecodeCodec
 (
 _codec
-AMRFileStorage
 )
 =
 =

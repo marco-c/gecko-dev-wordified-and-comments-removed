@@ -43,7 +43,7 @@ SinusoidalLinearChirpSource
 (
 int
 sample_rate
-int
+size_t
 samples
 double
 max_frequency
@@ -61,7 +61,7 @@ SinusoidalLinearChirpSource
 void
 Run
 (
-int
+size_t
 frames
 float
 *
@@ -72,7 +72,7 @@ override
 double
 Frequency
 (
-int
+size_t
 position
 )
 ;
@@ -85,10 +85,10 @@ kMinFrequency
 5
 }
 ;
-double
+int
 sample_rate_
 ;
-int
+size_t
 total_samples_
 ;
 double
@@ -97,13 +97,13 @@ max_frequency_
 double
 k_
 ;
-int
+size_t
 current_index_
 ;
 double
 delay_samples_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SinusoidalLinearChirpSource
 )

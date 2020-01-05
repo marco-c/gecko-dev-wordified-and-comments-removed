@@ -1,4 +1,11 @@
+#
+ifndef
+WEBRTC_MODULES_RTP_RTCP_TEST_TESTFEC_AVERAGE_RESIDUAL_LOSS_XOR_CODES_H_
+#
+define
+WEBRTC_MODULES_RTP_RTCP_TEST_TESTFEC_AVERAGE_RESIDUAL_LOSS_XOR_CODES_H_
 namespace
+webrtc
 {
 const
 int
@@ -509,3 +516,5 @@ kNumberCodes
 }
 ;
 }
+#
+endif

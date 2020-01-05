@@ -279,7 +279,7 @@ transformation
 s1
 )
 ;
-DCHECK_LT
+RTC_DCHECK_LT
 (
 static_cast
 <
@@ -401,7 +401,11 @@ buflen
 }
 #
 if
-_DEBUG
+!
+defined
+(
+NDEBUG
+)
 for
 (
 size_t
@@ -417,7 +421,7 @@ srclen
 +
 pos
 )
-DCHECK_LT
+RTC_DCHECK_LT
 (
 static_cast
 <

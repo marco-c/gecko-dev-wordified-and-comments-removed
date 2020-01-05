@@ -29,7 +29,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -44,7 +44,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_header_parser
 .

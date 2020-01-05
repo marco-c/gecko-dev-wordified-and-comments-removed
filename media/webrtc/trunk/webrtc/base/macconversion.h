@@ -10,9 +10,8 @@ defined
 (
 WEBRTC_MAC
 )
-&
-&
-!
+|
+|
 defined
 (
 WEBRTC_IOS

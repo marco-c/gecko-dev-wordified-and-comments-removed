@@ -691,7 +691,7 @@ STUN_BINDING_REQUEST
 NULL
 )
 ;
-uint32
+uint32_t
 start
 =
 rtc
@@ -762,7 +762,7 @@ ProcessMessages
 1
 )
 ;
-int32
+int32_t
 elapsed
 =
 rtc

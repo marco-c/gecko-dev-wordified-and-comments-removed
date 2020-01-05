@@ -24,7 +24,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 fec_receiver
 .
@@ -39,7 +39,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -83,6 +83,7 @@ FecReceiver
 {
 public
 :
+explicit
 FecReceiverImpl
 (
 RtpData

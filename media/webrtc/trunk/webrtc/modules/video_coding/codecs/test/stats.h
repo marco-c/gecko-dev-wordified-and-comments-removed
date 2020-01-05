@@ -16,7 +16,7 @@ webrtc
 /
 common_video
 /
-interface
+include
 /
 video_image
 .
@@ -71,7 +71,7 @@ encoded_frame_length_in_bytes
 webrtc
 :
 :
-VideoFrameType
+FrameType
 frame_type
 ;
 }

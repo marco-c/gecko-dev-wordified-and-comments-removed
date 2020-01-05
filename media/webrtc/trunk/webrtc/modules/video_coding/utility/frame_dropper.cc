@@ -9,8 +9,6 @@ video_coding
 /
 utility
 /
-include
-/
 frame_dropper
 .
 h
@@ -22,7 +20,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -863,12 +861,9 @@ denom
 {
 denom
 =
-(
-float
-)
 1e
 -
-5
+5f
 ;
 }
 int32_t
@@ -1024,12 +1019,9 @@ denom
 {
 denom
 =
-(
-float
-)
 1e
 -
-5
+5f
 ;
 }
 int32_t

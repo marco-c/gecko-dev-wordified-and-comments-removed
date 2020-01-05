@@ -50,7 +50,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 sleep
 .
@@ -1845,7 +1845,7 @@ NULL
 pIOContext
 -
 >
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 &
 &
 (
@@ -2132,7 +2132,7 @@ err
 pIOContext
 -
 >
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 =
 true
 ;
@@ -2227,7 +2227,7 @@ return
 pIoContext
 -
 >
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 =
 false
 ;

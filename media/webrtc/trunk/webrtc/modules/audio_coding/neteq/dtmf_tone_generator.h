@@ -93,7 +93,7 @@ virtual
 int
 Generate
 (
-int
+size_t
 num_samples
 AudioMultiVector
 *
@@ -106,11 +106,7 @@ initialized
 (
 )
 const
-{
-return
-initialized_
 ;
-}
 private
 :
 static
@@ -196,7 +192,7 @@ sample_history2_
 2
 ]
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DtmfToneGenerator
 )

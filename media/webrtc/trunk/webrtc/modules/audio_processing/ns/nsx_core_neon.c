@@ -891,7 +891,7 @@ width_factor
 =
 21845
 ;
-int
+size_t
 i
 s
 offset
@@ -1261,13 +1261,13 @@ i
 0
 ;
 i
++
+7
 <
 inst
 -
 >
 magnLen
--
-7
 ;
 i
 +

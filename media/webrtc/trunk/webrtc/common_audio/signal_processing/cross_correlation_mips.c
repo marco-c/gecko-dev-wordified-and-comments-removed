@@ -27,13 +27,13 @@ const
 int16_t
 *
 seq2
-int16_t
+size_t
 dim_seq
-int16_t
+size_t
 dim_cross_correlation
-int16_t
+int
 right_shifts
-int16_t
+int
 step_seq2
 )
 {

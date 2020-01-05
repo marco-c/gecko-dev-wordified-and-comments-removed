@@ -19,6 +19,11 @@ algorithm
 #
 include
 <
+limits
+>
+#
+include
+<
 utility
 >
 namespace
@@ -1255,6 +1260,8 @@ uint32_t
 rtp_timestamp
 uint32_t
 absolute_send_time
+bool
+was_paced
 )
 {
 RTPHeader
@@ -1309,6 +1316,7 @@ arrival_time
 kArrivalTimeClockOffsetMs
 payload_size
 header
+was_paced
 )
 ;
 }
@@ -1446,6 +1454,7 @@ packet
 send_time
 1000000
 )
+true
 )
 ;
 if
@@ -1810,6 +1819,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 bitrate_estimator_
@@ -1869,7 +1879,11 @@ i
 ;
 i
 <
+5
+*
 kFramerate
++
+1
 ;
 +
 +
@@ -1887,6 +1901,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 clock_
@@ -2084,6 +2099,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 bitrate_estimator_
@@ -2112,7 +2128,11 @@ i
 ;
 i
 <
+5
+*
 kFramerate
++
+1
 ;
 +
 +
@@ -2130,6 +2150,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 clock_
@@ -2239,6 +2260,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 IncomingPacket
@@ -2259,11 +2281,15 @@ AddAbsSendTime
 (
 absolute_send_time
 -
+static_cast
+<
 int
+>
 (
 kFrameIntervalAbsSendTime
 )
 )
+true
 )
 ;
 }
@@ -2496,7 +2522,7 @@ else
 {
 steady_state_time
 =
-8
+10
 *
 number_of_streams
 ;
@@ -2666,7 +2692,7 @@ EXPECT_NEAR
 (
 kInitialCapacityBps
 bitrate_bps
-100000u
+110000u
 )
 ;
 bitrate_observer_
@@ -2780,12 +2806,13 @@ Reset
 ;
 }
 }
-EXPECT_EQ
+EXPECT_NEAR
 (
 expected_bitrate_drop_delta
 bitrate_drop_time
 -
 overuse_start_time
+33
 )
 ;
 unsigned
@@ -2979,7 +3006,10 @@ AddAbsSendTime
 24
 )
 -
+static_cast
+<
 int
+>
 (
 50
 *
@@ -2997,7 +3027,9 @@ i
 i
 <
 =
-100
+6
+*
+kFramerate
 ;
 +
 +
@@ -3015,6 +3047,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 bitrate_estimator_
@@ -3057,16 +3090,15 @@ updated
 )
 )
 ;
-EXPECT_NEAR
+EXPECT_GE
 (
-450000u
 bitrate_observer_
 -
 >
 latest_bitrate
 (
 )
-20000u
+400000u
 )
 ;
 const
@@ -3138,6 +3170,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 clock_
@@ -3188,7 +3221,10 @@ AddAbsSendTime
 (
 kFrameIntervalAbsSendTime
 -
+static_cast
+<
 int
+>
 (
 kTimestampGroupLengthAbsSendTime
 )
@@ -3213,15 +3249,15 @@ updated
 )
 )
 ;
-EXPECT_EQ
+EXPECT_LT
 (
-378720u
 bitrate_observer_
 -
 >
 latest_bitrate
 (
 )
+400000u
 )
 ;
 }
@@ -3320,6 +3356,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 timestamp
@@ -3430,6 +3467,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 timestamp
@@ -3506,6 +3544,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 timestamp
@@ -3661,6 +3700,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 timestamp
@@ -3773,6 +3813,7 @@ TimeInMilliseconds
 )
 timestamp
 absolute_send_time
+true
 )
 ;
 timestamp

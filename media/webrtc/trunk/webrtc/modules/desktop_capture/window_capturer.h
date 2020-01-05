@@ -87,9 +87,6 @@ Window
 WindowId
 id
 ;
-pid_t
-pid
-;
 std
 :
 :

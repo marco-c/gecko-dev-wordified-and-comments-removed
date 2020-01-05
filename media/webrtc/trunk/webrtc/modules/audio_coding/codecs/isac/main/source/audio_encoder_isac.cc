@@ -13,7 +13,7 @@ isac
 /
 main
 /
-interface
+include
 /
 audio_encoder_isac
 .
@@ -41,7 +41,7 @@ webrtc
 {
 template
 class
-AudioEncoderDecoderIsacT
+AudioEncoderIsacT
 <
 IsacFloat
 >

@@ -19,7 +19,7 @@ WebRtcSpl_Energy
 int16_t
 *
 vector
-int
+size_t
 vector_length
 int
 *
@@ -31,7 +31,7 @@ en
 =
 0
 ;
-int
+size_t
 i
 ;
 int
@@ -44,7 +44,7 @@ vector_length
 vector_length
 )
 ;
-int
+size_t
 looptimes
 =
 vector_length

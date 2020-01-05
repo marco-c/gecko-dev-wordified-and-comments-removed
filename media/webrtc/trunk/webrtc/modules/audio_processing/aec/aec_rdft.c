@@ -27,7 +27,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 cpu_features_wrapper
 .
@@ -5239,7 +5239,7 @@ endif
 if
 defined
 (
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 aec_rdft_init_neon
 (
@@ -5249,7 +5249,7 @@ aec_rdft_init_neon
 elif
 defined
 (
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 )
 if
 (

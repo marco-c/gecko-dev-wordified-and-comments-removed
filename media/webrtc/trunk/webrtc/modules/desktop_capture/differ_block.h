@@ -6,13 +6,11 @@ define
 WEBRTC_MODULES_DESKTOP_CAPTURE_DIFFER_BLOCK_H_
 #
 include
-"
-webrtc
-/
-typedefs
+<
+stdint
 .
 h
-"
+>
 namespace
 webrtc
 {
@@ -28,7 +26,7 @@ kBytesPerPixel
 =
 4
 ;
-int
+bool
 BlockDifference
 (
 const

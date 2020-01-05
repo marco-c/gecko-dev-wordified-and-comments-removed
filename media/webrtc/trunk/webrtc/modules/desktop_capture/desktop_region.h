@@ -168,6 +168,11 @@ DesktopRegion
 target
 )
 ;
+~
+Iterator
+(
+)
+;
 bool
 IsAtEnd
 (

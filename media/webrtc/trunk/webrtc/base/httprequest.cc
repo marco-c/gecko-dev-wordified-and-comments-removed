@@ -227,10 +227,6 @@ timeout_
 (
 kDefaultHTTPTimeout
 )
-fail_redirect_
-(
-false
-)
 client_
 (
 user_agent
@@ -384,9 +380,12 @@ proxy_
 }
 client_
 .
-set_fail_redirect
+set_redirect_action
 (
-fail_redirect_
+HttpClient
+:
+:
+REDIRECT_ALWAYS
 )
 ;
 SocketAddress

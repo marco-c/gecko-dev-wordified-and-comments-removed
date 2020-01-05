@@ -159,7 +159,7 @@ Update
 int16_t
 *
 signal
-int
+size_t
 length
 AudioDecoder
 :
@@ -236,7 +236,7 @@ VadInst
 *
 vad_instance_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 PostDecodeVad
 )

@@ -30,7 +30,7 @@ k
 double
 *
 r
-int
+size_t
 order
 )
 ;

@@ -32,7 +32,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -229,7 +229,7 @@ payload_size_
 PacketInfoQueue
 packets_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RtpPacketizerVp9
 )

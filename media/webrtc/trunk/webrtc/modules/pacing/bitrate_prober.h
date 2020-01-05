@@ -62,6 +62,12 @@ int64_t
 now_ms
 )
 ;
+size_t
+RecommendedPacketSize
+(
+)
+const
+;
 void
 PacketSent
 (

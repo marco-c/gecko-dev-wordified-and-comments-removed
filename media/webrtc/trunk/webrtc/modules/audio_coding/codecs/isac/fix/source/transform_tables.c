@@ -28,17 +28,6 @@ typedefs
 .
 h
 "
-#
-if
-!
-(
-defined
-WEBRTC_DETECT_ARM_NEON
-|
-|
-defined
-WEBRTC_ARCH_ARM_NEON
-)
 const
 int16_t
 WebRtcIsacfix_kCosTab1
@@ -854,8 +843,6 @@ FRAMESAMPLES
 107
 }
 ;
-#
-endif
 #
 if
 defined

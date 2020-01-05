@@ -169,10 +169,10 @@ Scaler
 Scale
 (
 const
-I420VideoFrame
+VideoFrame
 &
 src_frame
-I420VideoFrame
+VideoFrame
 *
 dst_frame
 )

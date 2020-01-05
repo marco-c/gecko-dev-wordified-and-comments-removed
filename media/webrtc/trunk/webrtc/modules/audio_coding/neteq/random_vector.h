@@ -41,7 +41,7 @@ public
 :
 static
 const
-int
+size_t
 kRandomTableSize
 =
 256
@@ -119,7 +119,7 @@ seed_
 int16_t
 seed_increment_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RandomVector
 )

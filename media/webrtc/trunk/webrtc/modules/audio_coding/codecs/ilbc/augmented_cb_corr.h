@@ -26,11 +26,11 @@ interpSamples
 int32_t
 *
 crossDot
-int16_t
+size_t
 low
-int16_t
+size_t
 high
-int16_t
+int
 scale
 )
 ;

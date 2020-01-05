@@ -12,6 +12,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 pathutils
 .
 h
@@ -1420,7 +1431,7 @@ MAX_PATH
 sprintfn
 (
 version_base
-ARRAY_SIZE
+arraysize
 (
 version_base
 )

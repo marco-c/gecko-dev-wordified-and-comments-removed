@@ -149,7 +149,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -648,7 +648,7 @@ ip_
 reset
 (
 new
-int
+size_t
 [
 ip_length
 ]

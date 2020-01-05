@@ -5,6 +5,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -207,7 +218,7 @@ UrlEncode
 (
 source
 dest
-ARRAY_SIZE
+arraysize
 (
 dest
 )
@@ -286,7 +297,7 @@ UrlEncode
 (
 source
 dest
-ARRAY_SIZE
+arraysize
 (
 dest
 )
@@ -331,7 +342,7 @@ UrlEncode
 (
 source
 dest
-ARRAY_SIZE
+arraysize
 (
 dest
 )
@@ -375,7 +386,7 @@ UrlEncode
 (
 source
 dest
-ARRAY_SIZE
+arraysize
 (
 dest
 )
@@ -424,7 +435,7 @@ UrlEncode
 (
 source
 dest
-ARRAY_SIZE
+arraysize
 (
 dest
 )
@@ -475,7 +486,7 @@ UrlEncodeWithoutEncodingSpaceAsPlus
 (
 source
 dest
-ARRAY_SIZE
+arraysize
 (
 dest
 )

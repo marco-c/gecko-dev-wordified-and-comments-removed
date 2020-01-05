@@ -41,7 +41,7 @@ audio_coding
 /
 neteq
 /
-interface
+include
 /
 neteq
 .
@@ -92,7 +92,7 @@ Create
 (
 int
 fs_hz
-int
+size_t
 output_size_samples
 NetEqPlayoutMode
 playout_mode
@@ -115,7 +115,7 @@ DecisionLogic
 (
 int
 fs_hz
-int
+size_t
 output_size_samples
 NetEqPlayoutMode
 playout_mode
@@ -156,7 +156,7 @@ SetSampleRate
 (
 int
 fs_hz
-int
+size_t
 output_size_samples
 )
 ;
@@ -171,7 +171,7 @@ const
 Expand
 &
 expand
-int
+size_t
 decoder_frame_length
 const
 RTPHeader
@@ -255,7 +255,7 @@ sample_memory_
 value
 ;
 }
-int
+size_t
 generated_noise_samples
 (
 )
@@ -268,7 +268,7 @@ generated_noise_samples_
 void
 set_generated_noise_samples
 (
-int
+size_t
 value
 )
 {
@@ -277,7 +277,7 @@ generated_noise_samples_
 value
 ;
 }
-int
+size_t
 packet_length_samples
 (
 )
@@ -290,7 +290,7 @@ packet_length_samples_
 void
 set_packet_length_samples
 (
-int
+size_t
 value
 )
 {
@@ -350,7 +350,7 @@ const
 Expand
 &
 expand
-int
+size_t
 decoder_frame_length
 const
 RTPHeader
@@ -370,7 +370,7 @@ reset_decoder
 void
 FilterBufferLevel
 (
-int
+size_t
 buffer_size_packets
 Modes
 prev_mode
@@ -396,16 +396,16 @@ buffer_level_filter_
 int
 fs_mult_
 ;
-int
+size_t
 output_size_samples_
 ;
 CngState
 cng_state_
 ;
-int
+size_t
 generated_noise_samples_
 ;
-int
+size_t
 packet_length_samples_
 ;
 int
@@ -426,7 +426,7 @@ playout_mode_
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DecisionLogic
 )

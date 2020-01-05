@@ -24,10 +24,6 @@ voice_engine_defines
 .
 h
 "
-#
-define
-MAX_DTMF_SAMPLERATE
-48000
 namespace
 webrtc
 {
@@ -112,9 +108,7 @@ Get10msTone
 int16_t
 output
 [
-MAX_DTMF_SAMPLERATE
-/
-100
+320
 ]
 uint16_t
 &
@@ -151,7 +145,7 @@ int16_t
 volume
 int16_t
 frameLen
-uint16_t
+int16_t
 fs
 )
 ;

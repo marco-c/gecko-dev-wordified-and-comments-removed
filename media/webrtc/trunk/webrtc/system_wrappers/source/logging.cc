@@ -5,7 +5,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -39,7 +39,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -102,7 +102,7 @@ kTraceNone
 const
 char
 *
-DescribeFile
+FilenameFromPath
 (
 const
 char
@@ -199,7 +199,7 @@ print_stream_
 "
 <
 <
-DescribeFile
+FilenameFromPath
 (
 file
 )
