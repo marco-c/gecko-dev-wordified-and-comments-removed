@@ -12940,7 +12940,7 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 ;
 let
@@ -13034,7 +13034,7 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 ;
 let
@@ -13109,7 +13109,7 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 ;
 let
@@ -13203,7 +13203,7 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 ;
 let

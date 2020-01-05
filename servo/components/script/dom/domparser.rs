@@ -547,6 +547,7 @@ DocumentSource
 FromParser
 loader
 None
+None
 )
 ;
 parse_html
@@ -625,6 +626,7 @@ DocumentSource
 :
 NotFromParser
 loader
+None
 None
 )
 ;

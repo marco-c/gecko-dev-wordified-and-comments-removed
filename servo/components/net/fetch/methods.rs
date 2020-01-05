@@ -1066,7 +1066,7 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 )
 ;
