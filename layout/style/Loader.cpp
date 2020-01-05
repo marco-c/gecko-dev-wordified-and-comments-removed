@@ -313,6 +313,15 @@ ConsoleReportCollector
 h
 "
 #
+include
+"
+mozilla
+/
+ServoUtils
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -8458,7 +8467,7 @@ SheetLoadData
 *
 loadingData
 ;
-NS_ASSERTION
+NS_ASSERTION_STYLO_WARNING
 (
 mSheets
 -
