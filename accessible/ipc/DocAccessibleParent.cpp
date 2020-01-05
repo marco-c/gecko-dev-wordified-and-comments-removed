@@ -128,7 +128,7 @@ IPC_OK
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 CheckDocTree
 (
@@ -373,7 +373,7 @@ id
 }
 #
 endif
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 CheckDocTree
 (
@@ -1067,7 +1067,7 @@ Shutdown
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 CheckDocTree
 (
@@ -2087,7 +2087,7 @@ is
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 CheckDocTree
 (
@@ -2131,7 +2131,7 @@ MOZ_ASSERT
 result
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 CheckDocTree
 (
