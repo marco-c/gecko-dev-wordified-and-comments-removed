@@ -1,11 +1,11 @@
 #
+!
 [
 allow
 (
 uppercase_variables
 )
 ]
-;
 extern
 crate
 freetype
