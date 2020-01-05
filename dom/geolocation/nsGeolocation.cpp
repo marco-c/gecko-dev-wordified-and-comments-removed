@@ -4708,7 +4708,7 @@ ReportToConsole
 nsIScriptError
 :
 :
-warningFlag
+errorFlag
 NS_LITERAL_CSTRING
 (
 "
