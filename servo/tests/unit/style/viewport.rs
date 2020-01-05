@@ -228,7 +228,7 @@ expr
 =
 >
 {
-Box
+Arc
 :
 :
 new
@@ -2579,8 +2579,11 @@ Cascade
 :
 from_stylesheets
 (
-&
 stylesheets
+.
+iter
+(
+)
 &
 shared_lock
 .
@@ -2775,8 +2778,11 @@ Cascade
 :
 from_stylesheets
 (
-&
 stylesheets
+.
+iter
+(
+)
 &
 shared_lock
 .
