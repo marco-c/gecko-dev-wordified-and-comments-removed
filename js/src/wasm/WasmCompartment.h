@@ -46,7 +46,7 @@ bool
 mutatingInstances_
 ;
 size_t
-activationCount_
+interruptedCount_
 ;
 friend
 class
@@ -185,6 +185,13 @@ void
 pc
 )
 const
+;
+void
+setInterrupted
+(
+bool
+interrupted
+)
 ;
 void
 ensureProfilingLabels

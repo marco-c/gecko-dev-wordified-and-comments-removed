@@ -1992,6 +1992,16 @@ target
 trc
 )
 ;
+wasm
+:
+:
+TraceActivations
+(
+cx
+target
+trc
+)
+;
 AutoGCRooter
 :
 :
