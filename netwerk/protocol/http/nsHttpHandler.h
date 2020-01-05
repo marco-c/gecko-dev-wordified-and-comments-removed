@@ -269,15 +269,6 @@ mReferrerXOriginPolicy
 ;
 }
 bool
-SendSecureXSiteReferrer
-(
-)
-{
-return
-mSendSecureXSiteReferrer
-;
-}
-bool
 PackagedAppsEnabled
 (
 )
@@ -1644,9 +1635,6 @@ mUserAgentIsDirty
 ;
 bool
 mPromptTempRedirect
-;
-bool
-mSendSecureXSiteReferrer
 ;
 bool
 mEnablePersistentHttpsCaching
