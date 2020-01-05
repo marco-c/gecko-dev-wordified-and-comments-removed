@@ -2,7 +2,7 @@ loader
 :
 taskgraph
 .
-task
+loader
 .
 test
 :
