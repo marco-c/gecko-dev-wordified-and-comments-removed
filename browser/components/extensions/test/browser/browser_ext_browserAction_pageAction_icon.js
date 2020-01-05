@@ -1789,6 +1789,11 @@ resolutions
 }
 )
 ;
+Promise
+.
+all
+(
+[
 browser
 .
 browserAction
@@ -1807,7 +1812,6 @@ details
 details
 )
 )
-;
 browser
 .
 pageAction
@@ -1826,7 +1830,16 @@ details
 details
 )
 )
-;
+]
+)
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -1836,6 +1849,9 @@ sendMessage
 "
 iconSet
 "
+)
+;
+}
 )
 ;
 }
