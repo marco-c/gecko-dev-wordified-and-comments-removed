@@ -71,9 +71,7 @@ linux32
 linux64
 '
 '
-macosx
--
-universal
+macosx64
 '
 ]
 for
@@ -197,9 +195,7 @@ linux32
 linux64
 '
 '
-macosx
--
-universal
+macosx64
 '
 ]
 :
@@ -436,9 +432,7 @@ nightly
 ]
 [
 '
-macosx
--
-universal
+macosx64
 '
 ]
 +
