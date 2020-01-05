@@ -171,6 +171,15 @@ G
 <
 !
 ENTITY
+generalTitle
+"
+Title
+:
+"
+>
+<
+!
+ENTITY
 generalURL
 "
 Address
