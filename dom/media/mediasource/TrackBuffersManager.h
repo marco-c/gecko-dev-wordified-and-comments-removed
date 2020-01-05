@@ -52,6 +52,13 @@ h
 #
 include
 "
+MediaContainerType
+.
+h
+"
+#
+include
+"
 MediaData
 .
 h
@@ -102,13 +109,6 @@ h
 include
 "
 nsProxyRelease
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "
@@ -364,7 +364,7 @@ MediaSourceDecoder
 *
 aParentDecoder
 const
-nsACString
+MediaContainerType
 &
 aType
 )
@@ -871,7 +871,7 @@ mNewMediaSegmentStarted
 bool
 mActiveTrack
 ;
-nsCString
+MediaContainerType
 mType
 ;
 void

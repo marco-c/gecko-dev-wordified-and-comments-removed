@@ -16,6 +16,13 @@ h
 #
 include
 "
+MediaContainerType
+.
+h
+"
+#
+include
+"
 MediaSource
 .
 h
@@ -130,13 +137,6 @@ h
 include
 "
 nsISupports
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "
@@ -408,7 +408,7 @@ MediaSource
 *
 aMediaSource
 const
-nsACString
+MediaContainerType
 &
 aType
 )
@@ -674,7 +674,7 @@ RangeRemovalPromise
 mPendingRemoval
 ;
 const
-nsCString
+MediaContainerType
 mType
 ;
 RefPtr
