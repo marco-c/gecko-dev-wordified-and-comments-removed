@@ -13724,9 +13724,6 @@ width
 geometricprecision
 "
 "
-grayscale
-"
-"
 grid
 "
 "
@@ -35887,6 +35884,10 @@ before
 "
 :
 backdrop
+"
+"
+:
+cue
 "
 "
 :
