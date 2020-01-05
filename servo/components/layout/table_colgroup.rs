@@ -532,6 +532,9 @@ mut
 FragmentBorderBoxIterator
 _
 :
+i32
+_
+:
 &
 Point2D
 <

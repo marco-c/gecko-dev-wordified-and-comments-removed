@@ -1527,6 +1527,9 @@ iterator
 &
 mut
 FragmentBorderBoxIterator
+level
+:
+i32
 stacking_context_position
 :
 &
