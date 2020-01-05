@@ -1757,6 +1757,15 @@ string
 ;
 MOZ_MUST_USE
 bool
+tryCompressOffThread
+(
+JSContext
+*
+cx
+)
+;
+MOZ_MUST_USE
+bool
 setCompressedSource
 (
 JSContext
