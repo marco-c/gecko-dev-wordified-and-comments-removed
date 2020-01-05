@@ -286,7 +286,11 @@ info
 if
 fragment
 .
-white_space_preserve_newlines
+white_space
+(
+)
+.
+preserve_newlines
 (
 )
 {
@@ -2249,7 +2253,11 @@ if
 !
 first_fragment
 .
-white_space_preserve_newlines
+white_space
+(
+)
+.
+preserve_newlines
 (
 )
 {
