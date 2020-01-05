@@ -2015,14 +2015,14 @@ update_image
 Some
 (
 (
+(
+*
+*
 attr
 .
 value
 (
 )
-.
-as_slice
-(
 )
 .
 to_owned
