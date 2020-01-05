@@ -2131,6 +2131,11 @@ maybeSync
 (
 1000
 startTime
+{
+loadDump
+:
+false
+}
 )
 ;
 const
