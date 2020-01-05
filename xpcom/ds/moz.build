@@ -547,6 +547,11 @@ nsQuickSort
 cpp
 '
 '
+nsStaticNameTable
+.
+cpp
+'
+'
 nsStringEnumerator
 .
 cpp
@@ -583,9 +588,8 @@ cpp
 '
 ]
 #
-These
-two
-files
+This
+file
 cannot
 be
 built
@@ -593,8 +597,8 @@ in
 unified
 mode
 because
-they
-use
+it
+uses
 the
 #
 PL_ARENA_CONST_ALIGN_MASK
@@ -610,11 +614,6 @@ SOURCES
 [
 '
 nsPersistentProperties
-.
-cpp
-'
-'
-nsStaticNameTable
 .
 cpp
 '
