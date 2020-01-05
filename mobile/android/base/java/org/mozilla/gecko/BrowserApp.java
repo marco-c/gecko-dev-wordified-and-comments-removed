@@ -6124,11 +6124,7 @@ restoreLastSelectedTab
 {
 if
 (
-mResumingAfterOnCreate
-&
-&
-!
-mIsRestoringActivity
+mIgnoreLastSelectedTab
 )
 {
 return

@@ -1411,7 +1411,7 @@ sAlreadyLoaded
 ;
 protected
 boolean
-mResumingAfterOnCreate
+mIgnoreLastSelectedTab
 ;
 protected
 static
@@ -6658,10 +6658,6 @@ doRestart
 return
 ;
 }
-mResumingAfterOnCreate
-=
-true
-;
 if
 (
 sAlreadyLoaded
@@ -6684,6 +6680,10 @@ FENNEC_RESTORING_ACTIVITY
 }
 else
 {
+mIgnoreLastSelectedTab
+=
+true
+;
 final
 String
 action
@@ -11227,6 +11227,10 @@ mWasFirstTabShownAfterActivityUnhidden
 =
 true
 ;
+mIgnoreLastSelectedTab
+=
+true
+;
 if
 (
 !
@@ -11840,6 +11844,10 @@ restoreLastSelectedTab
 )
 ;
 }
+mIgnoreLastSelectedTab
+=
+false
+;
 int
 newOrientation
 =
@@ -12070,10 +12078,6 @@ update
 (
 this
 )
-;
-mResumingAfterOnCreate
-=
-false
 ;
 }
 protected
