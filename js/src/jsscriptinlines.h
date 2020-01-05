@@ -445,9 +445,6 @@ JSScript
 :
 ensureNonLazyCanonicalFunction
 (
-JSContext
-*
-cx
 )
 {
 JSFunction

@@ -11573,7 +11573,6 @@ script
 >
 ensureNonLazyCanonicalFunction
 (
-cx
 )
 ;
 TrackPropertiesForSingletonScopes

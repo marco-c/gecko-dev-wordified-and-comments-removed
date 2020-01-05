@@ -1622,7 +1622,6 @@ script
 >
 ensureNonLazyCanonicalFunction
 (
-cx
 )
 ;
 InterpreterFrame
@@ -1816,7 +1815,6 @@ script
 >
 ensureNonLazyCanonicalFunction
 (
-cx
 )
 ;
 LifoAlloc
