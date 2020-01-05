@@ -648,7 +648,7 @@ block_size_above_baseline
 -
 marker_inline_metrics
 .
-block_size_above_baseline
+ascent
 ;
 marker
 .
@@ -660,7 +660,11 @@ block
 =
 marker_inline_metrics
 .
-block_size_above_baseline
+ascent
++
+marker_inline_metrics
+.
+depth_below_baseline
 ;
 }
 }
