@@ -14,6 +14,15 @@ include
 <
 iterator
 >
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 mozilla
 {
