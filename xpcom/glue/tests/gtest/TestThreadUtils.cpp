@@ -2117,7 +2117,7 @@ int
 :
 :
 Type
-StoreCopyPassByValue
+StoreCopyPassByConstLRef
 <
 int
 >
@@ -2138,7 +2138,7 @@ int
 Type
 should
 be
-StoreCopyPassByValue
+StoreCopyPassByConstLRef
 <
 int
 >

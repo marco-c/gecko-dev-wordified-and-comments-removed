@@ -2871,7 +2871,7 @@ T
 :
 Type
 >
-StoreCopyPassByValue
+StoreCopyPassByConstLRef
 <
 T
 >
