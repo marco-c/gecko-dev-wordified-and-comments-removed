@@ -160,6 +160,7 @@ install
 autoconf2
 .
 13
+curl
 freeglut3
 -
 dev
