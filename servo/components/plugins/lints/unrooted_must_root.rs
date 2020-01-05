@@ -1189,11 +1189,7 @@ ty
 =
 cx
 .
-tcx
-.
 tables
-(
-)
 .
 expr_ty
 (
@@ -1338,11 +1334,7 @@ ty
 =
 cx
 .
-tcx
-.
 tables
-(
-)
 .
 pat_ty
 (
