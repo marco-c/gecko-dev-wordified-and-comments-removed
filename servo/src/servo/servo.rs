@@ -273,7 +273,7 @@ is_null
 let
 azure_target
 =
-CreateDrawTargetForCairoSurface
+AzCreateDrawTargetForCairoSurface
 (
 cairo_surf
 )
@@ -299,7 +299,7 @@ as
 azure
 :
 :
-Float
+AzFloat
 g
 :
 1f
@@ -307,7 +307,7 @@ as
 azure
 :
 :
-Float
+AzFloat
 b
 :
 1f
@@ -315,7 +315,7 @@ as
 azure
 :
 :
-Float
+AzFloat
 a
 :
 0
@@ -325,13 +325,13 @@ as
 azure
 :
 :
-Float
+AzFloat
 }
 ;
 let
 pattern
 =
-CreateColorPattern
+AzCreateColorPattern
 (
 ptr
 :
@@ -353,7 +353,7 @@ as
 azure
 :
 :
-Float
+AzFloat
 y
 :
 100f
@@ -361,7 +361,7 @@ as
 azure
 :
 :
-Float
+AzFloat
 width
 :
 100f
@@ -369,7 +369,7 @@ as
 azure
 :
 :
-Float
+AzFloat
 height
 :
 100f
@@ -377,10 +377,10 @@ as
 azure
 :
 :
-Float
+AzFloat
 }
 ;
-DrawTargetFillRect
+AzDrawTargetFillRect
 (
 azure_target
 ptr
@@ -402,7 +402,7 @@ pattern
 }
 )
 ;
-ReleaseColorPattern
+AzReleaseColorPattern
 (
 pattern
 )
@@ -511,7 +511,7 @@ mustbreak
 break
 }
 }
-ReleaseDrawTarget
+AzReleaseDrawTarget
 (
 azure_target
 )
