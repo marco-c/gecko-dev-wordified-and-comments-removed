@@ -6,6 +6,7 @@ interfaces
 cef_binary_value_t
 cef_dictionary_value_t
 cef_list_value_t
+cef_value_t
 }
 ;
 use
@@ -53,4 +54,13 @@ cef_list_value_create
 *
 mut
 cef_list_value_t
+fn
+cef_value_create
+(
+)
+-
+>
+*
+mut
+cef_value_t
 }

@@ -38,5 +38,11 @@ use
 std
 :
 :
+mem
+;
+use
+std
+:
+:
 ptr
 ;

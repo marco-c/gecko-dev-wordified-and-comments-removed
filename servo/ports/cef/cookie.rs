@@ -2,7 +2,10 @@ use
 interfaces
 :
 :
+{
+cef_completion_callback_t
 cef_cookie_manager_t
+}
 ;
 use
 types
@@ -22,6 +25,11 @@ cef_stub_static_method_impls
 fn
 cef_cookie_manager_get_global_manager
 (
+callback
+:
+*
+mut
+cef_completion_callback_t
 )
 -
 >
@@ -39,6 +47,11 @@ cef_string_t
 persist_session_cookies
 :
 c_int
+callback
+:
+*
+mut
+cef_completion_callback_t
 )
 -
 >
