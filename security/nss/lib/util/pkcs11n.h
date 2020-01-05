@@ -316,14 +316,6 @@ CKA_NSS
 )
 #
 define
-CKA_NSS_MOZILLA_CA_POLICY
-(
-CKA_NSS
-+
-34
-)
-#
-define
 CKA_TRUST
 (
 CKA_NSS
