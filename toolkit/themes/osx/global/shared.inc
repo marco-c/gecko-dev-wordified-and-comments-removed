@@ -188,10 +188,6 @@ scopeBarTitleColor
 6D6D6D
 %
 define
-toolbarbuttonCornerRadius
-3px
-%
-define
 toolbarbuttonBackground
 linear
 -
