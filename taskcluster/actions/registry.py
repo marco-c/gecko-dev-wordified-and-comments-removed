@@ -2373,6 +2373,14 @@ append
 {
                 
 '
+kind
+'
+:
+'
+task
+'
+                
+'
 title
 '
 :
