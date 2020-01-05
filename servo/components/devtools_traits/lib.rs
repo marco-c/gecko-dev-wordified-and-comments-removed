@@ -605,5 +605,8 @@ ConsoleMessage
 LogMessage
 (
 String
+String
+u32
+u32
 )
 }
