@@ -627,7 +627,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 &
 aGeometry
@@ -672,7 +672,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 &
 aGeometry
