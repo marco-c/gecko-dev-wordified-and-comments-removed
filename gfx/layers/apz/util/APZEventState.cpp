@@ -1026,6 +1026,7 @@ nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
+0
 )
 ;
 APZES_LOG
