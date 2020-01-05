@@ -7438,16 +7438,9 @@ params
 .
 frameOuterWindowID
 =
-WebNavigationFrames
-.
-getFrameId
-(
 this
 .
-target
-.
-ownerGlobal
-)
+frameOuterWindowID
 ;
 }
 if
