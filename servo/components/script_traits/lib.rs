@@ -444,6 +444,10 @@ subpage_id
 :
 SubpageId
 pub
+frame_type
+:
+FrameType
+pub
 load_data
 :
 LoadData
@@ -1003,6 +1007,7 @@ Option
 (
 PipelineId
 SubpageId
+FrameType
 )
 >
 pub

@@ -502,6 +502,7 @@ constellation_msg
 :
 :
 {
+FrameType
 LoadData
 PanicMsg
 PipelineId
@@ -1082,6 +1083,7 @@ Option
 (
 PipelineId
 SubpageId
+FrameType
 )
 >
 window_size
@@ -1131,6 +1133,7 @@ Option
 (
 PipelineId
 SubpageId
+FrameType
 )
 >
 layout_chan
@@ -8108,6 +8111,7 @@ NewLayoutInfo
 containing_pipeline_id
 new_pipeline_id
 subpage_id
+frame_type
 load_data
 paint_chan
 panic_chan
@@ -8319,6 +8323,7 @@ Some
 (
 containing_pipeline_id
 subpage_id
+frame_type
 )
 )
 layout_chan
@@ -10703,6 +10708,7 @@ and_then
 (
 parent_id
 subpage_id
+_
 )
 |
 {
@@ -11443,6 +11449,7 @@ Some
 (
 (
 parent
+_
 _
 )
 )
