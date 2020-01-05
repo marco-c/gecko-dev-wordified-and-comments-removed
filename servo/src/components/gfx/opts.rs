@@ -28,7 +28,7 @@ use
 std
 :
 :
-f64
+float
 ;
 use
 std
@@ -66,7 +66,7 @@ profiler_period
 :
 Option
 <
-f64
+float
 >
 /
 /
@@ -250,10 +250,7 @@ m
 )
 =
 >
-{
-copy
 m
-}
 result
 :
 :
@@ -263,7 +260,6 @@ f
 )
 =
 >
-{
 fail
 !
 (
@@ -276,7 +272,6 @@ copy
 f
 )
 )
-}
 }
 ;
 let
@@ -549,7 +544,7 @@ profiler_period
 :
 Option
 <
-f64
+float
 >
 =
 /
@@ -588,7 +583,7 @@ period
 >
 Some
 (
-f64
+float
 :
 :
 from_str

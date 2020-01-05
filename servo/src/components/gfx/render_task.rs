@@ -651,7 +651,6 @@ Some
 (
 ref
 layer_buffer_set
-ref
 layer_size
 )
 )
@@ -672,7 +671,6 @@ layer_buffer_set
 clone
 (
 )
-*
 layer_size
 )
 ;

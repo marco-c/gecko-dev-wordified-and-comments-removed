@@ -653,7 +653,7 @@ get
 (
 period
 *
-1000f64
+1000f
 )
 as
 uint
