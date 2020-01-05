@@ -119,26 +119,6 @@ nsRange
 ;
 #
 define
-NS_FRAME_SELECTION_IID
-\
-{
-0x3c6ae2d0
-0x4cf1
-0x44a1
-\
-{
-0x9e
-0x9d
-0x24
-0x11
-0x86
-0x7f
-0x19
-0xc6
-}
-}
-#
-define
 BIDI_LEVEL_UNDEFINED
 0x80
 struct
@@ -201,9 +181,6 @@ mNext
 ;
 class
 nsIPresShell
-;
-class
-nsIScrollableFrame
 ;
 struct
 MOZ_STACK_CLASS
@@ -441,7 +418,6 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
-virtual
 nsresult
 SelectCellElement
 (
@@ -450,7 +426,6 @@ nsIContent
 aCell
 )
 ;
-virtual
 nsresult
 AddCellsToSelection
 (
@@ -467,7 +442,6 @@ int32_t
 aEndColumnIndex
 )
 ;
-virtual
 nsresult
 RemoveCellsFromSelection
 (
@@ -484,7 +458,6 @@ int32_t
 aEndColumnIndex
 )
 ;
-virtual
 nsresult
 RestrictCellsToSelection
 (
@@ -622,7 +595,6 @@ SelectionType
 aSelectionType
 )
 ;
-virtual
 nsIFrame
 *
 GetFrameForNodeOffset
@@ -674,7 +646,6 @@ return
 mHint
 ;
 }
-virtual
 void
 SetCaretBidiLevel
 (
@@ -682,14 +653,12 @@ nsBidiLevel
 aLevel
 )
 ;
-virtual
 nsBidiLevel
 GetCaretBidiLevel
 (
 )
 const
 ;
-virtual
 void
 UndefineCaretBidiLevel
 (
@@ -924,7 +893,6 @@ return
 mMouseDoubleDownState
 ;
 }
-virtual
 nsPrevNextBidiLevels
 GetPrevNextBidiLevels
 (
