@@ -44,6 +44,11 @@ env
 :
 {
 "
+browser
+"
+:
+true
+"
 webextensions
 "
 :

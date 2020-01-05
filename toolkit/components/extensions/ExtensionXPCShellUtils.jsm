@@ -340,6 +340,8 @@ init
 this
 )
 ;
+this
+.
 addEventListener
 (
 "
@@ -371,7 +373,10 @@ text
 javascript
 (
 {
+encodeURI
+(
 frameScript
+)
 }
 )
 .

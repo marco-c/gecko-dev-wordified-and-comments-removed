@@ -25,6 +25,17 @@ eslintrc
 js
 "
 "
+env
+"
+:
+{
+"
+browser
+"
+:
+false
+}
+"
 globals
 "
 :
