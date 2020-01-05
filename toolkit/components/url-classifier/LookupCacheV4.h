@@ -36,6 +36,10 @@ const
 nsACString
 &
 aTableName
+const
+nsACString
+&
+aProvider
 nsIFile
 *
 aStoreFile
@@ -44,6 +48,7 @@ aStoreFile
 LookupCache
 (
 aTableName
+aProvider
 aStoreFile
 )
 {

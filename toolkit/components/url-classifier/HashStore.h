@@ -846,6 +846,10 @@ const
 nsACString
 &
 aTableName
+const
+nsACString
+&
+aProvider
 nsIFile
 *
 aRootStoreFile

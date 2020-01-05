@@ -133,6 +133,10 @@ nsCString
 (
 aTableName
 )
+nsCString
+(
+aProvider
+)
 aRootDir
 )
 ;

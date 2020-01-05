@@ -853,6 +853,10 @@ const
 nsACString
 &
 aTableName
+const
+nsACString
+&
+aProvider
 nsIFile
 *
 aRootStoreDir
@@ -881,6 +885,7 @@ GetPrivateStoreDirectory
 (
 aRootStoreDir
 aTableName
+aProvider
 getter_AddRefs
 (
 mStoreDirectory

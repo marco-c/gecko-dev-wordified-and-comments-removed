@@ -1294,6 +1294,9 @@ nsCString
 (
 GTEST_TABLE
 )
+EmptyCString
+(
+)
 file
 )
 ;
