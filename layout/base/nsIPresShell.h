@@ -574,6 +574,10 @@ RenderFlags
 ;
 public
 :
+nsIPresShell
+(
+)
+;
 virtual
 void
 Destroy
