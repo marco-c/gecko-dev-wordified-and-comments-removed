@@ -299,6 +299,7 @@ nsAString
 &
 aCssText
 )
+const
 ;
 nsresult
 GetCssRules
