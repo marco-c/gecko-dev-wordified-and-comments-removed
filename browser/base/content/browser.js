@@ -8766,7 +8766,7 @@ ex
 )
 ;
 }
-setTimeout
+requestIdleCallback
 (
 (
 )
@@ -8802,9 +8802,13 @@ null
 )
 ;
 }
+{
+timeout
+:
 1000
 *
 60
+}
 )
 ;
 setTimeout
