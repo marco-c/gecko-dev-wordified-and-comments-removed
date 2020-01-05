@@ -103,7 +103,7 @@ MOZ_ASSERT
 mCDMWrapper
 )
 ;
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -129,7 +129,7 @@ WidevineVideoDecoder
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -469,7 +469,7 @@ rv
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -748,7 +748,7 @@ sample
 frame
 )
 ;
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -802,7 +802,7 @@ frame
 )
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -1133,7 +1133,7 @@ err
 f
 )
 {
-Log
+CDM_LOG
 (
 "
 Failed
@@ -1602,7 +1602,7 @@ Reset
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -1703,7 +1703,7 @@ Drain
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -1722,7 +1722,7 @@ mReturnOutputCallDepth
 0
 )
 {
-Log
+CDM_LOG
 (
 "
 Drain
@@ -1775,7 +1775,7 @@ sample
 frame
 )
 ;
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -1828,7 +1828,7 @@ frame
 )
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -1884,7 +1884,7 @@ DecodingComplete
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoDecoder
@@ -1919,7 +1919,7 @@ kStreamTypeVideo
 }
 else
 {
-Log
+CDM_LOG
 (
 "
 WideVineDecoder

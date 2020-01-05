@@ -209,7 +209,7 @@ void
 aUserData
 )
 {
-Log
+CDM_LOG
 (
 "
 GetCdmHostFunc
@@ -334,7 +334,7 @@ return
 GMPGenericErr
 ;
 }
-Log
+CDM_LOG
 (
 STRINGIFY
 (
@@ -375,7 +375,7 @@ uint32_t
 aDecryptorId
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineAdapter
@@ -428,7 +428,7 @@ aDecryptorId
 )
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineAdapter
@@ -486,7 +486,7 @@ if
 create
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineAdapter
@@ -578,7 +578,7 @@ if
 cdm
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineAdapter
@@ -618,7 +618,7 @@ return
 GMPGenericErr
 ;
 }
-Log
+CDM_LOG
 (
 "
 cdm
@@ -690,7 +690,7 @@ if
 wrapper
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineAdapter
@@ -778,7 +778,7 @@ GMPShutdown
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineAdapter
@@ -822,7 +822,7 @@ if
 deinit
 )
 {
-Log
+CDM_LOG
 (
 "
 DeinitializeCdmModule

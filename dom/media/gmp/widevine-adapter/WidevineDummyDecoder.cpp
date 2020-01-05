@@ -26,7 +26,7 @@ WidevineDummyDecoder
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder
@@ -58,7 +58,7 @@ int32_t
 aCoreCount
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder
@@ -105,7 +105,7 @@ int64_t
 aRenderTimeMs
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder
@@ -135,7 +135,7 @@ Reset
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder
@@ -165,7 +165,7 @@ Drain
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder
@@ -195,7 +195,7 @@ DecodingComplete
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder
@@ -221,7 +221,7 @@ WidevineDummyDecoder
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDummyDecoder

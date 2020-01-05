@@ -53,7 +53,7 @@ mTimestamp
 0
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -127,7 +127,7 @@ aOther
 mTimestamp
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -223,7 +223,7 @@ VideoFormat
 aFormat
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -277,7 +277,7 @@ Size
 aSize
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -351,7 +351,7 @@ Buffer
 aFrameBuffer
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -416,7 +416,7 @@ uint32_t
 aOffset
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -488,7 +488,7 @@ uint32_t
 aStride
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame
@@ -552,7 +552,7 @@ int64_t
 timestamp
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineVideoFrame

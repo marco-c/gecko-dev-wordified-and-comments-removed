@@ -82,7 +82,7 @@ GetCDMLog
 }
 #
 define
-Log
+CDM_LOG
 (
 .
 .
@@ -125,7 +125,7 @@ condition
 )
 {
 \
-Log
+CDM_LOG
 (
 "
 ENSURE_TRUE
@@ -167,7 +167,7 @@ err
 )
 {
 \
-Log
+CDM_LOG
 (
 "
 ENSURE_GMP_SUCCESS
