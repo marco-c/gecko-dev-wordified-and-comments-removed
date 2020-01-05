@@ -1382,12 +1382,6 @@ anim
 holdTime
 (
 )
-+
-anim
-.
-delay
-(
-)
 ;
 updated
 =
