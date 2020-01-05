@@ -14799,6 +14799,11 @@ imm
 )
 )
 ;
+Push
+(
+WasmTlsReg
+)
+;
 uint32_t
 stackAdjust
 ;
@@ -14839,6 +14844,11 @@ callWithABIPost
 stackAdjust
 result
 true
+)
+;
+Pop
+(
+WasmTlsReg
 )
 ;
 }
