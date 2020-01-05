@@ -961,11 +961,6 @@ GenericSpecifiedValues
 aGenericData
 )
 ;
-bool
-BlockEmbedContentLoading
-(
-)
-;
 }
 ;
 }
