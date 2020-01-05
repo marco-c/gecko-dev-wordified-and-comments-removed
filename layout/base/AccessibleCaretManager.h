@@ -253,12 +253,6 @@ OnFrameReconstruction
 (
 )
 ;
-virtual
-void
-OnDocumentVisible
-(
-)
-;
 void
 SetLastInputSource
 (
