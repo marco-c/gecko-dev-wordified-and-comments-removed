@@ -22,6 +22,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Casting
 .
 h
@@ -1113,7 +1122,7 @@ len
 =
 written
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 len
 <
@@ -1124,7 +1133,7 @@ buf
 "
 OID
 data
-to
+too
 big
 to
 display

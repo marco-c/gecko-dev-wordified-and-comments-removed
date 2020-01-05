@@ -796,7 +796,7 @@ hostNameU
 mHostName
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 errorMessageType
 !
@@ -822,7 +822,9 @@ mSSLStatus
 mHaveCertErrorBits
 )
 "
-GetErrorLogMessage
+formatErrorMessage
+(
+)
 called
 for
 cert
@@ -3981,7 +3983,7 @@ certVerificationResult
 SECSuccess
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 status
 "
@@ -4285,16 +4287,9 @@ nsIX509CertList
 _result
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 _result
-"
-non
--
-NULL
-destination
-required
-"
 )
 ;
 *

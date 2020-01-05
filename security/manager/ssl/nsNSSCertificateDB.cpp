@@ -52,7 +52,7 @@ include
 "
 mozilla
 /
-Base64
+Assertions
 .
 h
 "
@@ -61,7 +61,7 @@ include
 "
 mozilla
 /
-Assertions
+Base64
 .
 h
 "
@@ -1148,7 +1148,7 @@ GetLength
 numCerts
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 numCerts
 >

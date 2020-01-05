@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Base64
 .
 h
@@ -2454,7 +2463,7 @@ do_QueryInterface
 outputStream
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 safeStream
 "

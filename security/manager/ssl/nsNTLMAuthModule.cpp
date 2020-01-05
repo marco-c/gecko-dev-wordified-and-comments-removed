@@ -31,6 +31,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Base64
 .
 h
@@ -4683,7 +4692,6 @@ Init
 const
 char
 *
-serviceName
 uint32_t
 serviceFlags
 const
@@ -4700,7 +4708,7 @@ char16_t
 password
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 (
 serviceFlags
@@ -4718,7 +4726,7 @@ nsIAuthModule
 :
 REQ_DEFAULT
 "
-unexpected
+Unexpected
 service
 flags
 "
