@@ -318,11 +318,6 @@ attribute
 nsIRDFResource
 resource
 ;
-readonly
-attribute
-nsIControllers
-controllers
-;
 void
 focus
 (
