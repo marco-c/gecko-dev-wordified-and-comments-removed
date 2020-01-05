@@ -207,8 +207,8 @@ KeyframesIterationState
 Infinite
 Finite
 (
-u32
-u32
+f32
+f32
 )
 }
 #
@@ -377,6 +377,8 @@ current
 +
 =
 1
+.
+0
 ;
 if
 *
@@ -2156,6 +2158,8 @@ KeyframesIterationState
 :
 Finite
 (
+0
+.
 0
 n
 )
