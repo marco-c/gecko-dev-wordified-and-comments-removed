@@ -155,7 +155,7 @@ message
 optional
 sequence
 <
-Transferable
+object
 >
 transfer
 =

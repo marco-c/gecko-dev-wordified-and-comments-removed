@@ -4642,10 +4642,8 @@ dom
 :
 Sequence
 <
-JS
-:
-:
-Value
+JSObject
+*
 >
 &
 aTransfer

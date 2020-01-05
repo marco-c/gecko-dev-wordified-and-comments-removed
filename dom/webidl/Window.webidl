@@ -415,10 +415,6 @@ nsIMessageBroadcaster
 interface
 nsIDOMCrypto
 ;
-typedef
-any
-Transferable
-;
 /
 /
 http
@@ -991,7 +987,7 @@ targetOrigin
 optional
 sequence
 <
-Transferable
+object
 >
 transfer
 =

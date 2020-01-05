@@ -215,7 +215,7 @@ message
 optional
 sequence
 <
-any
+object
 >
 transfer
 =
