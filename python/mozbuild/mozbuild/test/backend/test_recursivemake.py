@@ -3,6 +3,10 @@ __future__
 import
 unicode_literals
 import
+cPickle
+as
+pickle
+import
 json
 import
 os
@@ -4801,7 +4805,7 @@ all
 -
 tests
 .
-json
+pkl
 '
 )
         
@@ -4824,7 +4828,7 @@ open
 (
 all_tests_path
 '
-rt
+rb
 '
 )
 as
@@ -4833,7 +4837,7 @@ fh
             
 o
 =
-json
+pickle
 .
 load
 (
@@ -5063,7 +5067,7 @@ all
 -
 tests
 .
-json
+pkl
 '
 )
         
@@ -5095,7 +5099,7 @@ test
 -
 installs
 .
-json
+pkl
 '
 )
         
@@ -5113,7 +5117,7 @@ fh
             
 test_installs
 =
-json
+pickle
 .
 load
 (
@@ -7862,7 +7866,7 @@ all
 -
 tests
 .
-json
+pkl
 '
 )
         
@@ -7885,7 +7889,7 @@ open
 (
 all_tests_path
 '
-rt
+rb
 '
 )
 as
@@ -7894,7 +7898,7 @@ fh
             
 o
 =
-json
+pickle
 .
 load
 (

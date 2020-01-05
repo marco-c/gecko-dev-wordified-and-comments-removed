@@ -4,7 +4,9 @@ import
 absolute_import
 unicode_literals
 import
-json
+cPickle
+as
+pickle
 import
 os
 import
@@ -347,7 +349,7 @@ open
 (
 all_tests
 '
-rt
+rb
 '
 )
 as
@@ -356,7 +358,7 @@ fh
             
 test_data
 =
-json
+pickle
 .
 load
 (
@@ -376,7 +378,7 @@ open
 (
 test_defaults
 '
-rt
+rb
 '
 )
 as
@@ -385,7 +387,7 @@ fh
                 
 defaults
 =
-json
+pickle
 .
 load
 (
@@ -1262,7 +1264,7 @@ all
 -
 tests
 .
-json
+pkl
 '
 )
                                    
@@ -1283,7 +1285,7 @@ test
 -
 defaults
 .
-json
+pkl
 '
 )
 )
@@ -2834,7 +2836,7 @@ test
 -
 installs
 .
-json
+pkl
 '
 )
     
@@ -2843,7 +2845,7 @@ open
 (
 filename
 '
-r
+rb
 '
 )
 as
@@ -2852,7 +2854,7 @@ fh
         
 resolved_installs
 =
-json
+pickle
 .
 load
 (

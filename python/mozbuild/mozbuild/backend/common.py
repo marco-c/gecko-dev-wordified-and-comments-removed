@@ -4,6 +4,10 @@ import
 absolute_import
 unicode_literals
 import
+cPickle
+as
+pickle
+import
 itertools
 import
 json
@@ -2330,24 +2334,35 @@ all
 -
 tests
 .
-json
+pkl
 '
 )
+mode
+=
+'
+rb
+'
 )
 as
 fh
 :
             
-json
+pickle
 .
 dump
+(
+dict
 (
 self
 .
 _test_manager
 .
 tests_by_path
+)
 fh
+protocol
+=
+2
 )
         
 with
@@ -2365,15 +2380,20 @@ test
 -
 defaults
 .
-json
+pkl
 '
 )
+mode
+=
+'
+rb
+'
 )
 as
 fh
 :
             
-json
+pickle
 .
 dump
 (
@@ -2383,6 +2403,9 @@ _test_manager
 .
 manifest_defaults
 fh
+protocol
+=
+2
 )
         
 path
@@ -2401,7 +2424,7 @@ test
 -
 installs
 .
-json
+pkl
 '
 )
         
@@ -2411,12 +2434,17 @@ self
 _write_file
 (
 path
+mode
+=
+'
+rb
+'
 )
 as
 fh
 :
             
-json
+pickle
 .
 dump
 (
@@ -2437,7 +2465,7 @@ installs_by_path
 items
 (
 )
-                       
+                         
 if
 k
 in
@@ -2447,16 +2475,12 @@ _test_manager
 .
 deferred_installs
 }
-                      
+                        
 fh
-                      
-sort_keys
+                        
+protocol
 =
-True
-                      
-indent
-=
-4
+2
 )
         
 with

@@ -3,6 +3,10 @@ __future__
 import
 unicode_literals
 import
+cPickle
+as
+pickle
+import
 os
 import
 shutil
@@ -41,12 +45,8 @@ TestMetadata
     
 TestResolver
 )
-ALL_TESTS_JSON
+ALL_TESTS
 =
-b
-'
-'
-'
 {
     
 "
@@ -1901,19 +1901,8 @@ devtools
    
 ]
 }
-'
-'
-'
-.
-strip
-(
-)
 TEST_DEFAULTS
 =
-b
-'
-'
-'
 {
     
 "
@@ -1950,12 +1939,10 @@ files
 :
 "
 \
-\
 ndata
 /
 *
 *
-\
 \
 nxpcshell_updater
 .
@@ -1963,9 +1950,6 @@ ini
 "
 }
 }
-'
-'
-'
 class
 Base
 (
@@ -2025,13 +2009,19 @@ all_tests
 =
 NamedTemporaryFile
 (
+mode
+=
+'
+wb
+'
 )
         
-all_tests
+pickle
 .
-write
+dump
 (
-ALL_TESTS_JSON
+ALL_TESTS
+all_tests
 )
         
 all_tests
@@ -2053,13 +2043,19 @@ test_defaults
 =
 NamedTemporaryFile
 (
+mode
+=
+'
+wb
+'
 )
         
-test_defaults
+pickle
 .
-write
+dump
 (
 TEST_DEFAULTS
+test_defaults
 )
         
 test_defaults
@@ -2627,22 +2623,23 @@ all
 -
 tests
 .
-json
+pkl
 '
 )
 '
-wt
+wb
 '
 )
 as
 fh
 :
             
-fh
+pickle
 .
-write
+dump
 (
-ALL_TESTS_JSON
+ALL_TESTS
+fh
 )
         
 with
@@ -2660,22 +2657,23 @@ test
 -
 defaults
 .
-json
+pkl
 '
 )
 '
-wt
+wb
 '
 )
 as
 fh
 :
             
-fh
+pickle
 .
-write
+dump
 (
 TEST_DEFAULTS
+fh
 )
         
 o
