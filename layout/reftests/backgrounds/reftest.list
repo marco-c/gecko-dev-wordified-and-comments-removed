@@ -3289,12 +3289,6 @@ fuzzy
 80
 500
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 attachment
