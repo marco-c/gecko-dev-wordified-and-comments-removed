@@ -2473,15 +2473,12 @@ metadata
 let
 base_url
 =
+&
 load_response
 .
 metadata
 .
 final_url
-.
-clone
-(
-)
 ;
 {
 /
@@ -3351,7 +3348,6 @@ new
 .
 base_url
 (
-&
 base_url
 )
 .
@@ -3988,7 +3984,6 @@ new
 .
 base_url
 (
-&
 base_url
 )
 .
