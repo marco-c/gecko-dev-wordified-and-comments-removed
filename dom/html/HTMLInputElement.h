@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsIPhonetic
+.
+h
+"
+#
+include
+"
 nsIDOMNSEditableElement
 .
 h
@@ -434,6 +441,8 @@ nsIDOMHTMLInputElement
 public
 nsITextControlElement
 public
+nsIPhonetic
+public
 nsIDOMNSEditableElement
 public
 nsIConstraintValidation
@@ -613,6 +622,7 @@ aEvent
 override
 ;
 NS_DECL_NSIDOMHTMLINPUTELEMENT
+NS_DECL_NSIPHONETIC
 NS_IMETHOD
 GetEditor
 (
@@ -4435,6 +4445,12 @@ nsContentUtils
 :
 AutocompleteAttrState
 mAutocompleteAttrState
+;
+nsContentUtils
+:
+:
+AutocompleteAttrState
+mAutocompleteInfoState
 ;
 bool
 mDisabledChanged

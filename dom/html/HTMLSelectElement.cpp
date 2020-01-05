@@ -545,6 +545,13 @@ nsContentUtils
 :
 eAutocompleteAttrState_Unknown
 )
+mAutocompleteInfoState
+(
+nsContentUtils
+:
+:
+eAutocompleteAttrState_Unknown
+)
 mIsDoneAddingChildren
 (
 !
@@ -786,7 +793,7 @@ nsGkAtoms
 autocomplete
 )
 ;
-mAutocompleteAttrState
+mAutocompleteInfoState
 =
 nsContentUtils
 :
@@ -795,7 +802,8 @@ SerializeAutocompleteAttribute
 (
 attributeVal
 aInfo
-mAutocompleteAttrState
+mAutocompleteInfoState
+true
 )
 ;
 }
@@ -5129,6 +5137,13 @@ autocomplete
 )
 {
 mAutocompleteAttrState
+=
+nsContentUtils
+:
+:
+eAutocompleteAttrState_Unknown
+;
+mAutocompleteInfoState
 =
 nsContentUtils
 :
