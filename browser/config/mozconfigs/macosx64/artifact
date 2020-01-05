@@ -46,3 +46,7 @@ artifact
 build
 -
 symbols
+unset
+CC
+unset
+CXX
