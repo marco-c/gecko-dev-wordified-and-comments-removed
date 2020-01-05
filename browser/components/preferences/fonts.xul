@@ -3021,7 +3021,7 @@ label
 =
 "
 &
-allowPagesToUse
+allowPagesToUseOwn
 .
 label
 ;
@@ -3030,7 +3030,7 @@ accesskey
 =
 "
 &
-allowPagesToUse
+allowPagesToUseOwn
 .
 accesskey
 ;

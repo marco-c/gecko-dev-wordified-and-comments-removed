@@ -92,7 +92,7 @@ macWidth
 <
 !
 ENTITY
-overridePageColors
+overrideDefaultPageColors
 .
 label
 "
@@ -104,7 +104,7 @@ by
 the
 page
 with
-my
+your
 selections
 above
 :
@@ -113,7 +113,7 @@ above
 <
 !
 ENTITY
-overridePageColors
+overrideDefaultPageColors
 .
 accesskey
 "
@@ -123,7 +123,7 @@ O
 <
 !
 ENTITY
-overridePageColors
+overrideDefaultPageColors
 .
 always
 .
@@ -135,7 +135,7 @@ Always
 <
 !
 ENTITY
-overridePageColors
+overrideDefaultPageColors
 .
 auto
 .
@@ -151,7 +151,7 @@ themes
 <
 !
 ENTITY
-overridePageColors
+overrideDefaultPageColors
 .
 never
 .

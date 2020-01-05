@@ -605,7 +605,7 @@ label
 =
 "
 &
-warnAddonInstall
+warnOnAddonInstall
 .
 label
 ;
@@ -614,7 +614,7 @@ accesskey
 =
 "
 &
-warnAddonInstall
+warnOnAddonInstall
 .
 accesskey
 ;
@@ -771,7 +771,7 @@ label
 =
 "
 &
-blockUncommonUnwanted
+blockUncommonAndUnwanted
 .
 label
 ;
@@ -780,7 +780,7 @@ accesskey
 =
 "
 &
-blockUncommonUnwanted
+blockUncommonAndUnwanted
 .
 accesskey
 ;

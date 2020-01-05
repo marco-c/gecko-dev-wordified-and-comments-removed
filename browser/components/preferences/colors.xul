@@ -1006,7 +1006,7 @@ accesskey
 =
 "
 &
-overridePageColors
+overrideDefaultPageColors
 .
 accesskey
 ;
@@ -1018,7 +1018,7 @@ useDocumentColors
 "
 >
 &
-overridePageColors
+overrideDefaultPageColors
 .
 label
 ;
@@ -1052,7 +1052,7 @@ label
 =
 "
 &
-overridePageColors
+overrideDefaultPageColors
 .
 always
 .
@@ -1077,7 +1077,7 @@ label
 =
 "
 &
-overridePageColors
+overrideDefaultPageColors
 .
 auto
 .
@@ -1102,7 +1102,7 @@ label
 =
 "
 &
-overridePageColors
+overrideDefaultPageColors
 .
 never
 .

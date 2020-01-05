@@ -1331,7 +1331,7 @@ label
 =
 "
 &
-searchStartTyping
+searchOnStartTyping
 .
 label
 ;
@@ -1340,7 +1340,7 @@ accesskey
 =
 "
 &
-searchStartTyping
+searchOnStartTyping
 .
 accesskey
 ;
@@ -1365,7 +1365,7 @@ label
 =
 "
 &
-blockAutoRefresh
+blockAutoReload
 .
 label
 ;
@@ -1374,7 +1374,7 @@ accesskey
 =
 "
 &
-blockAutoRefresh
+blockAutoReload
 .
 accesskey
 ;
@@ -1547,7 +1547,7 @@ label
 =
 "
 &
-checkSpelling
+checkUserSpelling
 .
 label
 ;
@@ -1556,7 +1556,7 @@ accesskey
 =
 "
 &
-checkSpelling
+checkUserSpelling
 .
 accesskey
 ;
@@ -2457,7 +2457,7 @@ label
 =
 "
 &
-offlineNotify
+offlineStorageNotify
 .
 label
 ;
@@ -2466,7 +2466,7 @@ accesskey
 =
 "
 &
-offlineNotify
+offlineStorageNotify
 .
 accesskey
 ;
@@ -2515,7 +2515,7 @@ label
 =
 "
 &
-offlineNotifyExceptions
+offlineStorageNotifyExceptions
 .
 label
 ;
@@ -2524,7 +2524,7 @@ accesskey
 =
 "
 &
-offlineNotifyExceptions
+offlineStorageNotifyExceptions
 .
 accesskey
 ;
@@ -2904,7 +2904,7 @@ label
 =
 "
 &
-updateCheck
+updateCheckChoose
 .
 label
 ;
@@ -2913,7 +2913,7 @@ accesskey
 =
 "
 &
-updateCheck
+updateCheckChoose
 .
 accesskey
 ;
@@ -3171,7 +3171,7 @@ caption
 label
 >
 &
-certSelection
+certPersonal
 .
 label
 ;
@@ -3197,7 +3197,7 @@ certSelection
 "
 >
 &
-certSelection
+certPersonal
 .
 description
 ;
@@ -3278,7 +3278,7 @@ label
 =
 "
 &
-certs
+selectCerts
 .
 auto
 ;
@@ -3287,7 +3287,7 @@ accesskey
 =
 "
 &
-certs
+selectCerts
 .
 auto
 .
@@ -3308,7 +3308,7 @@ label
 =
 "
 &
-certs
+selectCerts
 .
 ask
 ;
@@ -3317,7 +3317,7 @@ accesskey
 =
 "
 &
-certs
+selectCerts
 .
 ask
 .

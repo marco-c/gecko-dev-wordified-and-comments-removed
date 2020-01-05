@@ -1477,7 +1477,7 @@ label
 =
 "
 &
-startupHomePage
+startupUserHomePage
 .
 label
 ;
@@ -1523,7 +1523,7 @@ label
 =
 "
 &
-startupLastSession
+startupPrevSession
 .
 label
 ;
@@ -2169,7 +2169,7 @@ label
 =
 "
 &
-alwaysAsk
+alwaysAskWhere
 .
 label
 ;
@@ -2178,7 +2178,7 @@ accesskey
 =
 "
 &
-alwaysAsk
+alwaysAskWhere
 .
 accesskey
 ;
@@ -2350,7 +2350,7 @@ label
 =
 "
 &
-warnCloseMultipleTabs
+warnOnCloseMultipleTabs
 .
 label
 ;
@@ -2359,7 +2359,7 @@ accesskey
 =
 "
 &
-warnCloseMultipleTabs
+warnOnCloseMultipleTabs
 .
 accesskey
 ;
@@ -2386,7 +2386,7 @@ label
 =
 "
 &
-warnOpenManyTabs
+warnOnOpenManyTabs
 .
 label
 ;
@@ -2395,7 +2395,7 @@ accesskey
 =
 "
 &
-warnOpenManyTabs
+warnOnOpenManyTabs
 .
 accesskey
 ;
@@ -2422,7 +2422,7 @@ label
 =
 "
 &
-switchToNewTabs
+switchLinksToNewTabs
 .
 label
 ;
@@ -2431,7 +2431,7 @@ accesskey
 =
 "
 &
-switchToNewTabs
+switchLinksToNewTabs
 .
 accesskey
 ;

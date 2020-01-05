@@ -698,7 +698,7 @@ Serif
 <
 !
 ENTITY
-allowPagesToUse
+allowPagesToUseOwn
 .
 label
 "
@@ -711,7 +711,7 @@ own
 fonts
 instead
 of
-my
+your
 selections
 above
 "
@@ -719,7 +719,7 @@ above
 <
 !
 ENTITY
-allowPagesToUse
+allowPagesToUseOwn
 .
 accesskey
 "
