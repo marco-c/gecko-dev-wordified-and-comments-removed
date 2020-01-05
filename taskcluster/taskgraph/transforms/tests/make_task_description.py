@@ -3727,6 +3727,8 @@ in
 ARTIFACTS
 ]
     
+env
+=
 worker
 [
 '
