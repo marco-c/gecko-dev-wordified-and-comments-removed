@@ -566,6 +566,15 @@ adapter
 if
 (
 rtlReady
+&
+&
+adapter
+.
+getCount
+(
+)
+>
+0
 )
 {
 setCurrentItemWithoutNotification
