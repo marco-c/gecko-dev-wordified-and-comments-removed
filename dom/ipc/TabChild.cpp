@@ -15503,6 +15503,11 @@ mBeforeUnloadListeners
 =
 =
 0
+&
+&
+IPCOpen
+(
+)
 )
 {
 SendSetHasBeforeUnload
@@ -15550,6 +15555,11 @@ mBeforeUnloadListeners
 =
 =
 0
+&
+&
+IPCOpen
+(
+)
 )
 {
 SendSetHasBeforeUnload
