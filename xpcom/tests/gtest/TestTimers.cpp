@@ -129,11 +129,8 @@ newThread
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-AutoTestThread
-"
 getter_AddRefs
 (
 newThread

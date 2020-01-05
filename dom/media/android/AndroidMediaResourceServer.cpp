@@ -1689,11 +1689,8 @@ thread
 ;
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-ServeResource
-"
 getter_AddRefs
 (
 thread

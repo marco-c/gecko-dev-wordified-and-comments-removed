@@ -15699,12 +15699,8 @@ if
 (
 NS_FAILED
 (
-NS_NewNamedThread
+NS_NewThread
 (
-"
-CrashRep
-Inject
-"
 &
 sInjectorThread
 )

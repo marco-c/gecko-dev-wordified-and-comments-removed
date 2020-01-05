@@ -826,11 +826,8 @@ thread
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-GenerateKeyPair
-"
 getter_AddRefs
 (
 thread
@@ -1357,12 +1354,8 @@ thread
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-KeyPair
-Sign
-"
 getter_AddRefs
 (
 thread

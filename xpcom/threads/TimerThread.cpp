@@ -1126,12 +1126,8 @@ false
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-Timer
-Thread
-"
 getter_AddRefs
 (
 mThread

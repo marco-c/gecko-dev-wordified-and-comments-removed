@@ -933,11 +933,8 @@ NS_ERROR_OUT_OF_MEMORY
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-PlaySystemSound
-"
 getter_AddRefs
 (
 mPlayerThread
@@ -1207,11 +1204,8 @@ NS_ERROR_OUT_OF_MEMORY
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-PlayEventSound
-"
 getter_AddRefs
 (
 mPlayerThread
