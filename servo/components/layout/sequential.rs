@@ -115,7 +115,6 @@ AssignBSizes
 AssignISizes
 BubbleISizes
 BuildDisplayList
-ComputeAbsolutePositions
 }
 ;
 use
@@ -440,19 +439,6 @@ Vec
 DisplayItem
 >
 {
-flow_root
-.
-traverse_preorder
-(
-&
-ComputeAbsolutePositions
-{
-layout_context
-:
-shared_layout_context
-}
-)
-;
 let
 mut
 children

@@ -183,6 +183,7 @@ restyle_damage
 {
 BUBBLE_ISIZES
 REFLOW
+REFLOW_OUT_OF_FLOW
 }
 ;
 use
@@ -193,7 +194,7 @@ restyle_damage
 :
 :
 {
-REFLOW_OUT_OF_FLOW
+REPOSITION
 RESOLVE_GENERATED_CONTENT
 }
 ;
@@ -8379,6 +8380,16 @@ _
 }
 }
 }
+self
+.
+base
+.
+restyle_damage
+.
+remove
+(
+REPOSITION
+)
 }
 fn
 update_late_computed_inline_position_if_necessary
