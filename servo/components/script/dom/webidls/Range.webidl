@@ -476,8 +476,6 @@ Node
 node
 )
 ;
-/
-/
 stringifier
 ;
 }
