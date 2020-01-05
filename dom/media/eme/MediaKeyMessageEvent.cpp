@@ -618,14 +618,6 @@ Clear
 )
 ;
 }
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mMessage
-)
-;
 aMessage
 .
 set
