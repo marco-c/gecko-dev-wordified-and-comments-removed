@@ -803,7 +803,7 @@ opentype_svg
 enabled
 true
 )
-fails
+skip
 =
 =
 svg
