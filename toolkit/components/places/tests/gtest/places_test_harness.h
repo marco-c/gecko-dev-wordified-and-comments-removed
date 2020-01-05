@@ -427,7 +427,7 @@ WaitForTopicSpinner
 nsIObserver
 )
 class
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 final
 :
 public
@@ -437,7 +437,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGESTATEMENTCALLBACK
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 (
 )
 ;
@@ -452,7 +452,7 @@ completionReason
 protected
 :
 ~
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 (
 )
 {
@@ -465,13 +465,13 @@ mCompleted
 ;
 NS_IMPL_ISUPPORTS
 (
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 mozIStorageStatementCallback
 )
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 :
 :
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 (
 )
 :
@@ -486,7 +486,7 @@ false
 {
 }
 NS_IMETHODIMP
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 :
 :
 HandleResult
@@ -501,7 +501,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 :
 :
 HandleError
@@ -516,7 +516,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 :
 :
 HandleCompletion
@@ -538,7 +538,7 @@ NS_OK
 ;
 }
 void
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 :
 :
 SpinUntilCompleted
@@ -1256,12 +1256,12 @@ stmt
 ;
 RefPtr
 <
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 >
 spinner
 =
 new
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 (
 )
 ;
