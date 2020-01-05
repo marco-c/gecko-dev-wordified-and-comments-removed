@@ -472,8 +472,6 @@ Register
 IProtocol
 *
 )
-=
-0
 ;
 virtual
 int32_t
@@ -483,8 +481,6 @@ IProtocol
 *
 int32_t
 )
-=
-0
 ;
 virtual
 IProtocol
@@ -493,8 +489,6 @@ Lookup
 (
 int32_t
 )
-=
-0
 ;
 virtual
 void
@@ -502,8 +496,6 @@ Unregister
 (
 int32_t
 )
-=
-0
 ;
 virtual
 void
@@ -533,8 +525,6 @@ bool
 int32_t
 *
 )
-=
-0
 ;
 virtual
 Shmem
@@ -546,8 +536,6 @@ LookupSharedMemory
 (
 int32_t
 )
-=
-0
 ;
 virtual
 bool
@@ -559,8 +547,6 @@ Shmem
 SharedMemory
 *
 )
-=
-0
 ;
 virtual
 bool
@@ -569,8 +555,6 @@ DestroySharedMemory
 Shmem
 &
 )
-=
-0
 ;
 virtual
 ProcessId
@@ -578,8 +562,6 @@ OtherPid
 (
 )
 const
-=
-0
 ;
 virtual
 MessageChannel
