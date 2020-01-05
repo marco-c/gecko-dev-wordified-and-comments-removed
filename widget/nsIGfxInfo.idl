@@ -155,6 +155,11 @@ DWriteEnabled
 ;
 readonly
 attribute
+boolean
+usingGPUProcess
+;
+readonly
+attribute
 DOMString
 DWriteVersion
 ;
