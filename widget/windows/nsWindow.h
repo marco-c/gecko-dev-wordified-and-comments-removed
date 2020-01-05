@@ -2634,6 +2634,9 @@ mMousePresent
 bool
 mDestroyCalled
 ;
+bool
+mOpeningAnimationSuppressed
+;
 uint32_t
 mBlurSuppressLevel
 ;
