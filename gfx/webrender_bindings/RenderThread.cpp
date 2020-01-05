@@ -745,7 +745,7 @@ C
 void
 wr_notifier_new_frame_ready
 (
-uint64_t
+WrWindowId
 aWindowId
 )
 {
@@ -781,7 +781,7 @@ aWindowId
 void
 wr_notifier_new_scroll_frame_ready
 (
-uint64_t
+WrWindowId
 aWindowId
 bool
 aCompositeNeeded
@@ -820,7 +820,7 @@ aCompositeNeeded
 void
 wr_notifier_pipeline_size_changed
 (
-uint64_t
+WrWindowId
 aWindowId
 uint64_t
 aPipelineId
@@ -865,7 +865,7 @@ aHeight
 void
 wr_notifier_external_event
 (
-uint64_t
+WrWindowId
 aWindowId
 size_t
 aRawEvent
