@@ -3854,7 +3854,7 @@ browser
 .
 enabled
 "
-true
+false
 )
 ;
 #
