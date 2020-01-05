@@ -138,6 +138,9 @@ null
 fieldDetails
 :
 null
+filledProfileGUID
+:
+null
 collectFormFields
 (
 )
@@ -330,6 +333,14 @@ autofillFormFields
 "
 profile
 )
+;
+this
+.
+filledProfileGUID
+=
+profile
+.
+guid
 ;
 for
 (
