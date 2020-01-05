@@ -9041,6 +9041,16 @@ currentAddon
 bootstrap
 )
 {
+AddonManagerPrivate
+.
+addStartupChange
+(
+AddonManager
+.
+STARTUP_CHANGE_INSTALLED
+id
+)
+;
 XPIProvider
 .
 callBootstrapMethod
