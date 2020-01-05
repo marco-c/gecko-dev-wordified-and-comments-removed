@@ -440,15 +440,11 @@ storage
 )
 ;
 let
-storage
 collection
-id
 ;
 [
 all
-storage
 collection
-id
 ]
 =
 parts

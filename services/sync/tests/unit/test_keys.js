@@ -188,9 +188,6 @@ iterations
 )
 {
 let
-k
-;
-let
 o
 ;
 let

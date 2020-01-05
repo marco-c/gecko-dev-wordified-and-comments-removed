@@ -1546,12 +1546,6 @@ folders
 ]
 ;
 let
-problems
-=
-[
-]
-;
-let
 problemData
 =
 new
@@ -2967,12 +2961,6 @@ _validateClient
 problemData
 clientRecords
 )
-;
-let
-matches
-=
-[
-]
 ;
 let
 allRecords

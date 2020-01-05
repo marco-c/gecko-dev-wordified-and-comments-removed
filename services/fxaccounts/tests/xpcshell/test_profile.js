@@ -916,9 +916,6 @@ _fetchAndCacheProfile
 (
 )
 ;
-let
-request2
-=
 profile
 .
 _fetchAndCacheProfile

@@ -1950,15 +1950,6 @@ ERROR_OFFLINE
 )
 ;
 }
-let
-deferred
-=
-Promise
-.
-defer
-(
-)
-;
 if
 (
 !

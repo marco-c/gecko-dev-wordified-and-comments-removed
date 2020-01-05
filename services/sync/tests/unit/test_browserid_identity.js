@@ -4860,9 +4860,6 @@ BrowserIDManager
 (
 )
 ;
-let
-config
-=
 makeIdentityConfig
 (
 )

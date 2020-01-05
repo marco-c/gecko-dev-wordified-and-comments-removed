@@ -542,12 +542,6 @@ oldValue
 }
 )
 ;
-let
-[
-engine
-server
-]
-=
 configureLegacySync
 (
 )
