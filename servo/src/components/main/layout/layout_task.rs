@@ -4669,8 +4669,12 @@ self
 )
 -
 >
+~
 ImageResponder
+:
+Send
 {
+~
 LayoutImageResponder
 {
 id
@@ -4693,7 +4697,10 @@ clone
 )
 }
 as
+~
 ImageResponder
+:
+Send
 }
 unsafe
 fn

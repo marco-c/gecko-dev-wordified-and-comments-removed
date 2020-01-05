@@ -1169,7 +1169,6 @@ UrlMap
 T
 >
 =
-mut
 HashMap
 <
 Url
@@ -1196,7 +1195,6 @@ UrlMap
 T
 >
 {
-mut
 HashMap
 :
 :
