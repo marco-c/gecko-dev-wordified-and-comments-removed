@@ -6764,6 +6764,7 @@ CanvasFillOrStrokeStyle
 :
 Gradient
 (
+ref
 gradient
 )
 =
@@ -7077,6 +7078,7 @@ CanvasFillOrStrokeStyle
 :
 Gradient
 (
+ref
 gradient
 )
 =

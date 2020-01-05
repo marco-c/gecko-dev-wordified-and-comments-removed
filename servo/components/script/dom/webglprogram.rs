@@ -647,13 +647,7 @@ set
 (
 Some
 (
-JS
-:
-:
-from_ref
-(
 shader
-)
 )
 )
 ;

@@ -579,14 +579,6 @@ view
 set
 (
 view
-.
-map
-(
-JS
-:
-:
-from_ref
-)
 )
 ;
 self
