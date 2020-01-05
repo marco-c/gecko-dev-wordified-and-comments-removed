@@ -6775,7 +6775,6 @@ runs
 -
 bug
 1318539
-fails
 =
 =
 color
@@ -6798,7 +6797,6 @@ rtl
 ref
 .
 html
-fails
 =
 =
 color
