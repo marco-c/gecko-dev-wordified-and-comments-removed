@@ -1531,7 +1531,7 @@ mozilla
 /
 dom
 /
-CustomElementsRegistryBinding
+CustomElementRegistryBinding
 .
 h
 "
@@ -1542,7 +1542,7 @@ mozilla
 /
 dom
 /
-CustomElementsRegistry
+CustomElementRegistry
 .
 h
 "
@@ -23774,12 +23774,12 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 >
 nsDocument
 :
 :
-GetCustomElementsRegistry
+GetCustomElementRegistry
 (
 )
 {
@@ -23848,7 +23848,7 @@ nullptr
 }
 RefPtr
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 =
@@ -25275,7 +25275,7 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 =
@@ -25614,11 +25614,11 @@ rv
 {
 RefPtr
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 (
-GetCustomElementsRegistry
+GetCustomElementRegistry
 (
 )
 )

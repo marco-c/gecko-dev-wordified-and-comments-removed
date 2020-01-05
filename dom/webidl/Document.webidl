@@ -2059,10 +2059,10 @@ Throws
 Func
 =
 "
-CustomElementsRegistry
+CustomElementRegistry
 :
 :
-IsCustomElementsEnabled
+IsCustomElementEnabled
 "
 ]
 object

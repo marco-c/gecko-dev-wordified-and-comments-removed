@@ -157,7 +157,7 @@ class
 ServiceWorkerRegistration
 ;
 class
-CustomElementsRegistry
+CustomElementRegistry
 ;
 }
 }
@@ -247,7 +247,7 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 *
 CustomElements
 (

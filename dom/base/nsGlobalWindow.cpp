@@ -16969,7 +16969,7 @@ return
 mHistory
 ;
 }
-CustomElementsRegistry
+CustomElementRegistry
 *
 nsGlobalWindow
 :
@@ -16993,7 +16993,7 @@ mCustomElements
 {
 mCustomElements
 =
-CustomElementsRegistry
+CustomElementRegistry
 :
 :
 Create

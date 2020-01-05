@@ -6164,9 +6164,9 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 >
-GetCustomElementsRegistry
+GetCustomElementRegistry
 (
 )
 =

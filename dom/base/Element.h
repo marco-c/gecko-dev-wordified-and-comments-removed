@@ -421,7 +421,7 @@ class
 Animation
 ;
 class
-CustomElementsRegistry
+CustomElementRegistry
 ;
 class
 Link
@@ -1030,7 +1030,7 @@ nsFocusManager
 ;
 friend
 class
-CustomElementsRegistry
+CustomElementRegistry
 ;
 friend
 class

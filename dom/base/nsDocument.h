@@ -423,7 +423,7 @@ h
 #
 include
 "
-CustomElementsRegistry
+CustomElementRegistry
 .
 h
 "
@@ -5356,9 +5356,9 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 >
-GetCustomElementsRegistry
+GetCustomElementRegistry
 (
 )
 override

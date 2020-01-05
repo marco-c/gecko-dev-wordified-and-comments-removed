@@ -80,14 +80,14 @@ customelements
 Func
 =
 "
-CustomElementsRegistry
+CustomElementRegistry
 :
 :
-IsCustomElementsEnabled
+IsCustomElementEnabled
 "
 ]
 interface
-CustomElementsRegistry
+CustomElementRegistry
 {
 [
 Throws

@@ -813,7 +813,7 @@ Comment
 h
 '
 '
-CustomElementsRegistry
+CustomElementRegistry
 .
 h
 '
@@ -1128,7 +1128,7 @@ Crypto
 cpp
 '
 '
-CustomElementsRegistry
+CustomElementRegistry
 .
 cpp
 '
