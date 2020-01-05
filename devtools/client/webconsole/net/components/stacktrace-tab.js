@@ -85,6 +85,11 @@ func
 isRequired
 }
 )
+sourceMapService
+:
+PropTypes
+.
+object
 }
 render
 (
@@ -106,6 +111,7 @@ cause
 let
 {
 actions
+sourceMapService
 }
 =
 this
@@ -130,6 +136,7 @@ StackTrace
 {
 stacktrace
 onViewSourceInDebugger
+sourceMapService
 }
 )
 ;

@@ -113,6 +113,11 @@ PropTypes
 bool
 .
 isRequired
+serviceContainer
+:
+PropTypes
+.
+object
 }
 ;
 EvaluationResult
