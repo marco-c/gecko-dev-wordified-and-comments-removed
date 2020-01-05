@@ -878,6 +878,8 @@ cryptoInfo
 catch
 (
 RemoteException
+|
+NullPointerException
 e
 )
 {
