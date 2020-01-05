@@ -1382,6 +1382,13 @@ h
 '
 wr
 /
+WebRenderScrollDataWrapper
+.
+h
+'
+'
+wr
+/
 WebRenderTextureHost
 .
 h
