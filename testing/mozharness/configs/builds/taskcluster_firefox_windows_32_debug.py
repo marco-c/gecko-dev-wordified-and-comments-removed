@@ -27,6 +27,14 @@ check
 -
 test
 '
+        
+'
+generate
+-
+build
+-
+stats
+'
     
 ]
     
