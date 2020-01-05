@@ -142,7 +142,7 @@ text
 TextBox
 ;
 use
-traverse
+traverse_parallel
 :
 :
 extended_full_traversal

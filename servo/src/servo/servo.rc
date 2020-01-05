@@ -209,7 +209,7 @@ mod
 text
 ;
 mod
-traverse
+traverse_parallel
 ;
 }
 mod
