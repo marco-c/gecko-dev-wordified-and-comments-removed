@@ -221,6 +221,10 @@ column_span
 :
 u32
 pub
+row_span
+:
+u32
+pub
 visible
 :
 bool
@@ -260,6 +264,9 @@ new
 (
 )
 column_span
+:
+1
+row_span
 :
 1
 visible
@@ -315,6 +322,13 @@ column_span
 node
 .
 get_colspan
+(
+)
+row_span
+:
+node
+.
+get_rowspan
 (
 )
 visible

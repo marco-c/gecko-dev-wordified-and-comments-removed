@@ -1538,6 +1538,16 @@ self
 u32
 ;
 fn
+get_rowspan
+(
+&
+self
+)
+-
+>
+u32
+;
+fn
 fragment_type
 (
 &

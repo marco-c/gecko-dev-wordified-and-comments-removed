@@ -87,8 +87,6 @@ unsigned
 long
 colSpan
 ;
-/
-/
 attribute
 unsigned
 long
