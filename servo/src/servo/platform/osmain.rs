@@ -141,7 +141,7 @@ use
 pipes
 :
 :
-chan
+Chan
 ;
 type
 OSMain

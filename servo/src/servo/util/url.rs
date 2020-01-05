@@ -31,7 +31,7 @@ std
 map
 :
 :
-hashmap
+HashMap
 ;
 use
 path
@@ -842,7 +842,7 @@ T
 Copy
 >
 =
-hashmap
+HashMap
 <
 Url
 T
@@ -873,7 +873,7 @@ to_str
 :
 ToStr
 ;
-hashmap
+HashMap
 :
 :
 <
