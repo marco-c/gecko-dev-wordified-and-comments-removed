@@ -36,7 +36,6 @@ test
 let
 {
 document
-EVENTS
 NetMonitorView
 }
 =
@@ -122,6 +121,9 @@ toggle
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -152,6 +154,9 @@ selected
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -180,6 +185,9 @@ responses
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -229,6 +237,9 @@ false
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -259,6 +270,9 @@ selected
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -285,12 +299,16 @@ now
 let
 iframe
 =
+document
+.
+querySelector
 (
 "
 #
-response
--
 preview
+-
+tabpanel
+iframe
 "
 )
 ;
@@ -380,6 +398,9 @@ selectedIndex
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -411,6 +432,9 @@ again
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #
@@ -440,6 +464,9 @@ responses
 ;
 is
 (
+document
+.
+querySelector
 (
 "
 #

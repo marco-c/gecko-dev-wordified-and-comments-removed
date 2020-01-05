@@ -255,6 +255,10 @@ filterPlaceHolder
 :
 "
 "
+sectionNames
+:
+[
+]
 }
 ;
 }
