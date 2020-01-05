@@ -7611,8 +7611,6 @@ WEBCRYPTO_KEY_FORMAT_SPKI
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -7621,15 +7619,12 @@ PublicKeyFromSpki
 mKeyData
 locker
 )
-)
 ;
 }
 else
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -7637,7 +7632,6 @@ PublicKeyFromJwk
 (
 mJwk
 locker
-)
 )
 ;
 }
@@ -7727,8 +7721,6 @@ WEBCRYPTO_KEY_FORMAT_PKCS8
 {
 privKey
 =
-UniqueSECKEYPrivateKey
-(
 CryptoKey
 :
 :
@@ -7737,15 +7729,12 @@ PrivateKeyFromPkcs8
 mKeyData
 locker
 )
-)
 ;
 }
 else
 {
 privKey
 =
-UniqueSECKEYPrivateKey
-(
 CryptoKey
 :
 :
@@ -7753,7 +7742,6 @@ PrivateKeyFromJwk
 (
 mJwk
 locker
-)
 )
 ;
 }
@@ -8378,8 +8366,6 @@ WasPassed
 {
 privKey
 =
-UniqueSECKEYPrivateKey
-(
 CryptoKey
 :
 :
@@ -8387,7 +8373,6 @@ PrivateKeyFromJwk
 (
 mJwk
 locker
-)
 )
 ;
 if
@@ -8485,8 +8470,6 @@ WEBCRYPTO_KEY_FORMAT_RAW
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -8495,7 +8478,6 @@ PublicECKeyFromRaw
 mKeyData
 mNamedCurve
 locker
-)
 )
 ;
 }
@@ -8512,8 +8494,6 @@ WEBCRYPTO_KEY_FORMAT_SPKI
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -8521,7 +8501,6 @@ PublicKeyFromSpki
 (
 mKeyData
 locker
-)
 )
 ;
 }
@@ -8538,8 +8517,6 @@ WEBCRYPTO_KEY_FORMAT_JWK
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -8547,7 +8524,6 @@ PublicKeyFromJwk
 (
 mJwk
 locker
-)
 )
 ;
 }
@@ -9189,8 +9165,6 @@ WEBCRYPTO_KEY_FORMAT_RAW
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -9200,7 +9174,6 @@ mKeyData
 mPrime
 mGenerator
 locker
-)
 )
 ;
 }
@@ -9217,8 +9190,6 @@ WEBCRYPTO_KEY_FORMAT_SPKI
 {
 pubKey
 =
-UniqueSECKEYPublicKey
-(
 CryptoKey
 :
 :
@@ -9226,7 +9197,6 @@ PublicKeyFromSpki
 (
 mKeyData
 locker
-)
 )
 ;
 }
@@ -13508,14 +13478,11 @@ mPublic
 ;
 mPubKey
 =
-UniqueSECKEYPublicKey
-(
 publicKey
 -
 >
 GetPublicKey
 (
-)
 )
 ;
 if
@@ -13911,14 +13878,11 @@ mPublic
 ;
 mPubKey
 =
-UniqueSECKEYPublicKey
-(
 publicKey
 -
 >
 GetPublicKey
 (
-)
 )
 ;
 if

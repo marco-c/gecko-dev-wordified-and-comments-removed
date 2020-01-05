@@ -469,15 +469,13 @@ GetSymKey
 )
 const
 ;
-SECKEYPrivateKey
-*
+UniqueSECKEYPrivateKey
 GetPrivateKey
 (
 )
 const
 ;
-SECKEYPublicKey
-*
+UniqueSECKEYPublicKey
 GetPublicKey
 (
 )
@@ -496,8 +494,7 @@ destructorSafeDestroyNSSReference
 )
 ;
 static
-SECKEYPrivateKey
-*
+UniqueSECKEYPrivateKey
 PrivateKeyFromPkcs8
 (
 CryptoBuffer
@@ -524,8 +521,7 @@ nsNSSShutDownPreventionLock
 )
 ;
 static
-SECKEYPublicKey
-*
+UniqueSECKEYPublicKey
 PublicKeyFromSpki
 (
 CryptoBuffer
@@ -552,8 +548,7 @@ nsNSSShutDownPreventionLock
 )
 ;
 static
-SECKEYPrivateKey
-*
+UniqueSECKEYPrivateKey
 PrivateKeyFromJwk
 (
 const
@@ -581,8 +576,7 @@ nsNSSShutDownPreventionLock
 )
 ;
 static
-SECKEYPublicKey
-*
+UniqueSECKEYPublicKey
 PublicKeyFromJwk
 (
 const
@@ -610,8 +604,7 @@ nsNSSShutDownPreventionLock
 )
 ;
 static
-SECKEYPublicKey
-*
+UniqueSECKEYPublicKey
 PublicDhKeyFromRaw
 (
 CryptoBuffer
@@ -646,8 +639,7 @@ nsNSSShutDownPreventionLock
 )
 ;
 static
-SECKEYPublicKey
-*
+UniqueSECKEYPublicKey
 PublicECKeyFromRaw
 (
 CryptoBuffer

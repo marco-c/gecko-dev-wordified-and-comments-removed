@@ -1017,8 +1017,7 @@ Resolve
 )
 override
 {
-SECKEYPrivateKey
-*
+UniqueSECKEYPrivateKey
 key
 =
 mKeyPair
@@ -1064,6 +1063,10 @@ GetParentObject
 (
 )
 key
+.
+release
+(
+)
 cert
 mAuthType
 mExpires
@@ -1942,9 +1945,7 @@ false
 ;
 }
 mPrivateKey
-.
-reset
-(
+=
 CryptoKey
 :
 :
@@ -1952,7 +1953,6 @@ PrivateKeyFromJwk
 (
 jwk
 aLockProof
-)
 )
 ;
 return
