@@ -1097,7 +1097,7 @@ range
 They
 both
 have
-8s
+16s
 linear
 transitions
 from
@@ -1105,6 +1105,27 @@ from
 to
 1000px
 .
+/
+/
+This
+means
+they
+move
+through
+62
+.
+5
+pixels
+per
+second
+.
+const
+REF_PX_PER_SEC
+=
+62
+.
+5
+;
 function
 make_reference_p
 (
@@ -1153,7 +1174,7 @@ style
 transition
 =
 "
-8s
+16s
 text
 -
 indent
@@ -4296,7 +4317,7 @@ earlyrefcs
 textIndent
 )
 /
-125
+REF_PX_PER_SEC
 px_to_num
 (
 laterefcs
@@ -4304,7 +4325,7 @@ laterefcs
 textIndent
 )
 /
-125
+REF_PX_PER_SEC
 ]
 ;
 /
@@ -4540,7 +4561,7 @@ gStartTime2
 40
 )
 /
-8
+16
 (
 Date
 .
@@ -4553,7 +4574,7 @@ gStartTime1
 20
 )
 /
-8
+16
 ]
 ;
 if
@@ -4711,7 +4732,7 @@ expected_range
 0
 ]
 /
-125
+REF_PX_PER_SEC
 +
 "
 s
@@ -4723,7 +4744,7 @@ expected_range
 1
 ]
 /
-125
+REF_PX_PER_SEC
 +
 "
 s
@@ -5133,7 +5154,7 @@ earlyrefcs
 textIndent
 )
 /
-125
+REF_PX_PER_SEC
 px_to_num
 (
 laterefcs
@@ -5141,7 +5162,7 @@ laterefcs
 textIndent
 )
 /
-125
+REF_PX_PER_SEC
 ]
 ;
 var
@@ -5549,7 +5570,7 @@ earlyrefcs
 textIndent
 )
 /
-125
+REF_PX_PER_SEC
 ;
 for
 (
