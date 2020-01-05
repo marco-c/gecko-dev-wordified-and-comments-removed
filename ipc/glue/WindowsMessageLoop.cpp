@@ -1897,16 +1897,6 @@ className
 EqualsLiteral
 (
 "
-QTNSHIDDEN
-"
-)
-|
-|
-className
-.
-EqualsLiteral
-(
-"
 AGFullScreenWinClass
 "
 )

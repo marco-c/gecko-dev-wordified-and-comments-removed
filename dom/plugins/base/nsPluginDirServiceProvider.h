@@ -31,16 +31,6 @@ nsISimpleEnumerator
 ;
 #
 define
-NS_WIN_QUICKTIME_SCAN_KEY
-"
-plugin
-.
-scan
-.
-Quicktime
-"
-#
-define
 NS_WIN_WMP_SCAN_KEY
 "
 plugin
