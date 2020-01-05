@@ -10778,15 +10778,6 @@ in
 *
 mouse_over_targets
 {
-let
-target
-=
-target
-.
-root
-(
-)
-;
 if
 target
 .
@@ -10807,10 +10798,6 @@ let
 status
 =
 target
-.
-r
-(
-)
 .
 get_attribute
 (

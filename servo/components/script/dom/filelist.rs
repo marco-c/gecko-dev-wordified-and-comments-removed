@@ -256,6 +256,14 @@ File
 {
 Some
 (
+Root
+:
+:
+from_ref
+(
+&
+*
+(
 self
 .
 list
@@ -264,9 +272,7 @@ index
 as
 usize
 ]
-.
-root
-(
+)
 )
 )
 }
