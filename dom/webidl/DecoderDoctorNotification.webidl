@@ -128,11 +128,6 @@ initialize
 -
 pulseaudio
 "
-"
-unsupported
--
-libavcodec
-"
 }
 ;
 dictionary
