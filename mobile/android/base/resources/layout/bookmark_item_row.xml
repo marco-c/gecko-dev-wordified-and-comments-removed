@@ -130,9 +130,7 @@ android
 layout_height
 =
 "
-dimen
-/
-page_row_height
+wrap_content
 "
 android
 :
@@ -142,6 +140,13 @@ minHeight
 dimen
 /
 page_row_height
+"
+android
+:
+gravity
+=
+"
+center_vertical
 "
 /
 >
