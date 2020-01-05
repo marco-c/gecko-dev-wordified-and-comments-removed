@@ -547,6 +547,15 @@ gfxUserFontEntry
 UserFontLoadState
 :
 :
+STATUS_LOAD_PENDING
+:
+case
+gfxUserFontEntry
+:
+:
+UserFontLoadState
+:
+:
 STATUS_LOADING
 :
 return

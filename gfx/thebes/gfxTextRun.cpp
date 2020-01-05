@@ -10214,6 +10214,12 @@ case
 gfxUserFontEntry
 :
 :
+STATUS_LOAD_PENDING
+:
+case
+gfxUserFontEntry
+:
+:
 STATUS_LOADING
 :
 SetLoading
