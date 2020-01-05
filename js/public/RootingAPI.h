@@ -5248,7 +5248,7 @@ JSContext
 cx
 )
 {
-IncrementalObjectBarrier
+IncrementalPreWriteBarrier
 (
 value
 )
@@ -5269,7 +5269,7 @@ JSObject
 obj
 )
 {
-IncrementalObjectBarrier
+IncrementalPreWriteBarrier
 (
 value
 )

@@ -7060,7 +7060,7 @@ activeContextFromOwnThread
 )
 )
 )
-IncrementalObjectBarrier
+IncrementalPreWriteBarrier
 (
 value
 )
