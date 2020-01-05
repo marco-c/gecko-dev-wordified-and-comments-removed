@@ -12,6 +12,16 @@ WebChannelBroker
 ]
 ;
 const
+ERRNO_MISSING_PRINCIPAL
+=
+1
+;
+const
+ERRNO_NO_SUCH_CHANNEL
+=
+2
+;
+const
 ERRNO_UNKNOWN_ERROR
 =
 999
@@ -322,6 +332,7 @@ data
 .
 id
 sendingContext
+ERRNO_MISSING_PRINCIPAL
 "
 Message
 principal
@@ -414,6 +425,7 @@ data
 .
 id
 sendingContext
+ERRNO_NO_SUCH_CHANNEL
 "
 No
 Such
@@ -476,6 +488,7 @@ function
 (
 id
 sendingContext
+errorNo
 errorMsg
 )
 {
@@ -527,9 +540,16 @@ WebChannelMessageToContent
 id
 :
 id
+message
+:
+{
+errno
+:
+errorNo
 error
 :
 errorMsg
+}
 }
 {
 eventTarget
