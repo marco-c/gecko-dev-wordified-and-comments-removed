@@ -15,13 +15,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -430,7 +423,7 @@ relBounds
 wr
 :
 :
-PipelineId
+AsPipelineId
 (
 mId
 )

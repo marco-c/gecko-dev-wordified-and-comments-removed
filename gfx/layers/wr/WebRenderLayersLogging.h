@@ -30,7 +30,10 @@ std
 stringstream
 &
 aStream
-WrMixBlendMode
+wr
+:
+:
+MixBlendMode
 aMixBlendMode
 const
 char
@@ -57,7 +60,10 @@ std
 stringstream
 &
 aStream
-WrTextureFilter
+wr
+:
+:
+ImageRendering
 aTextureFilter
 const
 char

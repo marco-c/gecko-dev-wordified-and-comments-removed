@@ -774,8 +774,6 @@ imageMask
 image
 =
 maskKey
-.
-mHandle
 ;
 imageMask
 .
@@ -1215,7 +1213,10 @@ Initialize
 PCompositorBridgeChild
 *
 aCBChild
-uint64_t
+wr
+:
+:
+PipelineId
 aLayersId
 TextureFactoryIdentifier
 *
@@ -1247,13 +1248,7 @@ aCBChild
 >
 SendPWebRenderBridgeConstructor
 (
-wr
-:
-:
-PipelineId
-(
 aLayersId
-)
 &
 textureFactoryIdentifier
 )
