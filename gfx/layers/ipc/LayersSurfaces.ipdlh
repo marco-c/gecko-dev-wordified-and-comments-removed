@@ -239,18 +239,6 @@ size
 }
 ;
 struct
-SurfaceDescriptorD3D9
-{
-/
-/
-IDirect3DTexture9
-*
-uintptr_t
-texture
-;
-}
-;
-struct
 SurfaceDescriptorFileMapping
 {
 WindowsHandle
@@ -467,8 +455,6 @@ union
 SurfaceDescriptor
 {
 SurfaceDescriptorBuffer
-;
-SurfaceDescriptorD3D9
 ;
 SurfaceDescriptorDIB
 ;

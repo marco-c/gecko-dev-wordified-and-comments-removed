@@ -220,9 +220,6 @@ class
 CompositorOGL
 ;
 class
-CompositorD3D9
-;
-class
 CompositorD3D11
 ;
 class
@@ -1203,17 +1200,6 @@ virtual
 CompositorOGL
 *
 AsCompositorOGL
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-CompositorD3D9
-*
-AsCompositorD3D9
 (
 )
 {
