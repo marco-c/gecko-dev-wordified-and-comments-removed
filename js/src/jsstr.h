@@ -1504,10 +1504,6 @@ Value
 vp
 )
 ;
-#
-if
-!
-EXPOSE_INTL_API
 extern
 bool
 str_toLocaleLowerCase
@@ -1536,6 +1532,10 @@ Value
 vp
 )
 ;
+#
+if
+!
+EXPOSE_INTL_API
 extern
 bool
 str_localeCompare
