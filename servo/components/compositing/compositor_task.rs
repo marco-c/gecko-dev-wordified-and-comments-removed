@@ -82,11 +82,9 @@ compositor_msg
 :
 {
 Epoch
-EventResult
 FrameTreeId
 LayerId
 LayerProperties
-ScriptToCompositorMsg
 }
 ;
 use
@@ -126,6 +124,15 @@ profile_traits
 :
 :
 time
+;
+use
+script_traits
+:
+:
+{
+EventResult
+ScriptToCompositorMsg
+}
 ;
 use
 std

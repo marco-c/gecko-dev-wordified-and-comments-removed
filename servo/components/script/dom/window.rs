@@ -495,10 +495,7 @@ msg
 compositor_msg
 :
 :
-{
 LayerId
-ScriptToCompositorMsg
-}
 ;
 use
 msg
@@ -642,6 +639,7 @@ script_traits
 :
 {
 MsDuration
+ScriptToCompositorMsg
 TimerEvent
 TimerEventId
 TimerEventRequest

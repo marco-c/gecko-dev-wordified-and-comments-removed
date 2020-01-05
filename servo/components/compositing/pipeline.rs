@@ -111,15 +111,6 @@ use
 msg
 :
 :
-compositor_msg
-:
-:
-ScriptToCompositorMsg
-;
-use
-msg
-:
-:
 constellation_msg
 :
 :
@@ -219,6 +210,7 @@ script_traits
 :
 :
 {
+ScriptToCompositorMsg
 ScriptTaskFactory
 TimerEventRequest
 }
