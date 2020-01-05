@@ -7609,6 +7609,10 @@ const
 nsStyleCoord
 &
 aCoord
+ComputeSizeFlags
+aFlags
+=
+eDefault
 )
 ;
 protected
