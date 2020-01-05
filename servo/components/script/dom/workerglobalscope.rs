@@ -158,6 +158,8 @@ timers
 :
 :
 {
+Interval
+NonInterval
 TimerId
 TimerManager
 }
@@ -1047,7 +1049,7 @@ set_timeout_or_interval
 callback
 args
 timeout
-false
+NonInterval
 FromWorker
 self
 .
@@ -1112,7 +1114,7 @@ set_timeout_or_interval
 callback
 args
 timeout
-true
+Interval
 FromWorker
 self
 .
