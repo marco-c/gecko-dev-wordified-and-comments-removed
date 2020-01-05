@@ -34,8 +34,6 @@ nsIIOService
 newURI
 (
 spec
-null
-null
 )
 .
 QueryInterface

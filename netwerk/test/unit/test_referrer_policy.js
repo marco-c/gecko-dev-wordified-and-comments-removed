@@ -124,8 +124,6 @@ newURI
 test
 .
 url
-"
-"
 )
 var
 chan
@@ -154,8 +152,6 @@ newURI
 test
 .
 referrer
-"
-"
 )
 ;
 chan

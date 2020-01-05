@@ -51,8 +51,6 @@ NetUtil
 newURI
 (
 server_uri
-"
-"
 )
 let
 referrer
