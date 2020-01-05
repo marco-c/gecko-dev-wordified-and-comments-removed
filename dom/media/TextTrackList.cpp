@@ -124,10 +124,6 @@ DOMEventTargetHelper
 (
 aOwnerWindow
 )
-mPendingTextTrackChange
-(
-false
-)
 mTextTrackManager
 (
 aTextTrackManager
