@@ -420,10 +420,6 @@ resolveSet
 length
 {
 module
-:
-module
-exportName
-:
 exportName
 }
 )
@@ -473,8 +469,6 @@ exportName
 )
 return
 {
-module
-:
 module
 bindingName
 :
