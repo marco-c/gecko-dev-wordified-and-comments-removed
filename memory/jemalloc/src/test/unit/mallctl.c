@@ -1043,6 +1043,12 @@ bool
 ;
 TEST_MALLCTL_CONFIG
 (
+thp
+bool
+)
+;
+TEST_MALLCTL_CONFIG
+(
 tls
 bool
 )
@@ -1298,6 +1304,13 @@ TEST_MALLCTL_OPT
 size_t
 lg_tcache_max
 tcache
+)
+;
+TEST_MALLCTL_OPT
+(
+bool
+thp
+thp
 )
 ;
 TEST_MALLCTL_OPT
