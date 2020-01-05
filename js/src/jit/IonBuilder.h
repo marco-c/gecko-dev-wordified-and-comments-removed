@@ -3887,14 +3887,6 @@ AbortReasonOr
 <
 Ok
 >
-jsop_toasyncgen
-(
-)
-;
-AbortReasonOr
-<
-Ok
->
 jsop_toid
 (
 )
