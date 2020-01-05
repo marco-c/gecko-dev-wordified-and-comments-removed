@@ -3259,5 +3259,12 @@ DOMString
 pref_name
 )
 ;
+DOMString
+StringMozPreference
+(
+DOMString
+pref_name
+)
+;
 }
 ;
