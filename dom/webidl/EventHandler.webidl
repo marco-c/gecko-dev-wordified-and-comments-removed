@@ -835,6 +835,10 @@ onanimationstart
 ;
 attribute
 EventHandler
+ontransitioncancel
+;
+attribute
+EventHandler
 ontransitionend
 ;
 attribute
