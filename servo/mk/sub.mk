@@ -38,10 +38,6 @@ NO_TESTS
 +
 =
 \
-nspr
-\
-nss
-\
 (
 NULL
 )
@@ -93,10 +89,6 @@ libparserutils
 mozjs
 \
 skia
-\
-nss
-\
-nspr
 \
 glfw
 \
@@ -555,15 +547,6 @@ rust
 NULL
 )
 endif
-DEPS_nss
-+
-=
-\
-nspr
-\
-(
-NULL
-)
 ifeq
 (
 (
