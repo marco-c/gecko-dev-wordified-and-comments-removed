@@ -467,6 +467,11 @@ LoadSession
 (
 PromiseId
 aPromiseId
+dom
+:
+:
+MediaKeySessionType
+aSessionType
 const
 nsAString
 &
