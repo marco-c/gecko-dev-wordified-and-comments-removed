@@ -129,6 +129,15 @@ mp4
 [
 dependencies
 ]
+byteorder
+=
+"
+0
+.
+5
+.
+0
+"
 "
 mp4parse
 "
