@@ -13633,6 +13633,7 @@ gcreason
 :
 :
 SET_NEW_DOCUMENT
+nullptr
 )
 ;
 kungFuDeathGrip
@@ -14589,6 +14590,9 @@ gcreason
 :
 :
 SET_DOC_SHELL
+GetWrapperPreserveColor
+(
+)
 )
 ;
 mContext
