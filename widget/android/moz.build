@@ -198,6 +198,11 @@ AndroidJNIWrapper
 cpp
 '
 '
+AndroidUiThread
+.
+cpp
+'
+'
 ANRReporter
 .
 cpp
@@ -332,6 +337,12 @@ cache
 '
 /
 widget
+'
+'
+/
+xpcom
+/
+threads
 '
 ]
 CXXFLAGS
