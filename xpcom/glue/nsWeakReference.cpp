@@ -124,7 +124,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEAKREFERENCE
-virtual
 size_t
 SizeOfOnlyThis
 (

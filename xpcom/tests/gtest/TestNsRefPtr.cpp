@@ -100,6 +100,7 @@ MozExternalRefCountType
 AddRef
 (
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -108,6 +109,7 @@ MozExternalRefCountType
 Release
 (
 )
+override
 ;
 NS_IMETHOD
 QueryInterface
@@ -119,6 +121,7 @@ void
 *
 *
 )
+override
 ;
 void
 MemberFunction
@@ -573,11 +576,11 @@ Bar
 (
 )
 ;
-virtual
 ~
 Bar
 (
 )
+override
 ;
 NS_IMETHOD
 QueryInterface
@@ -591,7 +594,6 @@ void
 )
 override
 ;
-virtual
 void
 VirtualMemberFunction
 (
@@ -603,7 +605,6 @@ int
 )
 override
 ;
-virtual
 void
 VirtualConstMemberFunction
 (

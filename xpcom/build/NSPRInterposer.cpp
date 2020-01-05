@@ -115,6 +115,7 @@ NSPRIOInterposer
 NSPRIOAutoObservation
 (
 )
+override
 {
 Report
 (
