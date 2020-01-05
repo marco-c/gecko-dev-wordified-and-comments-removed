@@ -190,11 +190,6 @@ rdfIDataSource
 idl
 '
 '
-rdfISerializer
-.
-idl
-'
-'
 rdfITripleVisitor
 .
 idl
@@ -281,11 +276,6 @@ cpp
 '
 '
 nsRDFXMLSerializer
-.
-cpp
-'
-'
-rdfTriplesSerializer
 .
 cpp
 '
