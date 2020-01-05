@@ -33,8 +33,7 @@ Ordering
 }
 ;
 static
-mut
-next_tid
+NEXT_TID
 :
 AtomicUsize
 =
@@ -104,9 +103,7 @@ borrow
 None
 =
 >
-unsafe
-{
-next_tid
+NEXT_TID
 .
 fetch_add
 (
@@ -116,7 +113,6 @@ Ordering
 :
 SeqCst
 )
-}
 Some
 (
 x

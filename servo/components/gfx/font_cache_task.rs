@@ -378,13 +378,6 @@ Sender
 >
 )
 }
-unsafe
-impl
-Send
-for
-Command
-{
-}
 pub
 enum
 Reply
@@ -399,13 +392,6 @@ FontTemplateData
 >
 >
 )
-}
-unsafe
-impl
-Send
-for
-Reply
-{
 }
 struct
 FontCache
