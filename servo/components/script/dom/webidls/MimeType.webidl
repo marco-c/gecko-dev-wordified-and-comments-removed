@@ -77,10 +77,7 @@ mimetype
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 MimeType

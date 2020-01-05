@@ -78,10 +78,7 @@ pluginarray
 LegacyUnenumerableNamedProperties
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 PluginArray

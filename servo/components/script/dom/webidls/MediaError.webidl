@@ -77,10 +77,7 @@ mediaerror
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 MediaError
