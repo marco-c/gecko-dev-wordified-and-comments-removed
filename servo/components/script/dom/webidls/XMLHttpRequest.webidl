@@ -487,8 +487,9 @@ getAllResponseHeaders
 (
 )
 ;
-/
-/
+[
+Throws
+]
 void
 overrideMimeType
 (
