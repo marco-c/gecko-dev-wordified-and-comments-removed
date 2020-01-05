@@ -3673,8 +3673,6 @@ DOMString
 source
 )
 ;
-/
-/
 void
 stencilFunc
 (
@@ -3686,8 +3684,6 @@ GLuint
 mask
 )
 ;
-/
-/
 void
 stencilFuncSeparate
 (
@@ -3701,8 +3697,6 @@ GLuint
 mask
 )
 ;
-/
-/
 void
 stencilMask
 (
@@ -3710,8 +3704,6 @@ GLuint
 mask
 )
 ;
-/
-/
 void
 stencilMaskSeparate
 (
@@ -3721,8 +3713,6 @@ GLuint
 mask
 )
 ;
-/
-/
 void
 stencilOp
 (
@@ -3734,8 +3724,6 @@ GLenum
 zpass
 )
 ;
-/
-/
 void
 stencilOpSeparate
 (
