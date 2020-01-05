@@ -1400,6 +1400,15 @@ PropertyDeclarationBlock
 no_jsmanaged_fields
 !
 (
+HashSet
+<
+T
+>
+)
+;
+no_jsmanaged_fields
+!
+(
 SubpageId
 WindowSizeData
 PipelineId
