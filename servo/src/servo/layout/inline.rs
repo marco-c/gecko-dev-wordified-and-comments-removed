@@ -8,7 +8,7 @@ layout
 .
 "
 ]
-import
+use
 base
 :
 :
@@ -18,7 +18,7 @@ InlineBox
 BTree
 }
 ;
-import
+use
 css
 :
 :
@@ -31,13 +31,13 @@ BoxLength
 Px
 }
 ;
-import
+use
 dom
 :
 :
 rcu
 ;
-import
+use
 geom
 :
 :
@@ -46,7 +46,7 @@ point
 :
 Point2D
 ;
-import
+use
 geom
 :
 :
@@ -55,7 +55,7 @@ size
 :
 Size2D
 ;
-import
+use
 gfx
 :
 :
@@ -67,13 +67,13 @@ au
 px_to_au
 }
 ;
-import
+use
 num
 :
 :
 Num
 ;
-import
+use
 util
 :
 :

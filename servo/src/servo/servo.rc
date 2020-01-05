@@ -113,12 +113,6 @@ mod
 base
 ;
 mod
-event
-;
-mod
-rcu
-;
-mod
 bindings
 {
 mod
@@ -137,6 +131,12 @@ mod
 window
 ;
 }
+mod
+event
+;
+mod
+rcu
+;
 }
 #
 [

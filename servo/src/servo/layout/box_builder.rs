@@ -12,7 +12,7 @@ DOM
 .
 "
 ]
-import
+use
 css
 :
 :
@@ -27,7 +27,7 @@ DisplayNone
 Specified
 }
 ;
-import
+use
 dom
 :
 :
@@ -45,7 +45,7 @@ Doctype
 Comment
 }
 ;
-import
+use
 gfx
 :
 :
@@ -54,7 +54,7 @@ geometry
 :
 zero_size_au
 ;
-import
+use
 layout
 :
 :
@@ -72,7 +72,7 @@ IntrinsicBox
 NTree
 }
 ;
-import
+use
 layout
 :
 :
@@ -83,7 +83,7 @@ base
 TextBoxKind
 }
 ;
-import
+use
 layout
 :
 :
@@ -92,13 +92,13 @@ text
 :
 TextBox
 ;
-import
+use
 util
 :
 :
 tree
 ;
-import
+use
 option
 :
 :
@@ -297,8 +297,7 @@ is_none
 )
 )
 {
-again
-;
+loop
 }
 /
 /

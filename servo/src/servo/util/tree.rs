@@ -109,7 +109,7 @@ each_child
 <
 T
 :
-copy
+Copy
 O
 :
 ReadMethods
@@ -243,7 +243,7 @@ add_child
 <
 T
 :
-copy
+Copy
 O
 :
 WriteMethods
@@ -430,7 +430,7 @@ get_parent
 <
 T
 :
-copy
+Copy
 O
 :
 ReadMethods

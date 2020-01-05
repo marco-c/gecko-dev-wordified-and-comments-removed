@@ -361,8 +361,8 @@ traverse_helper
 <
 T
 :
-copy
-send
+Copy
+Send
 >
 (
 -
@@ -1056,8 +1056,8 @@ extended_full_traversal
 <
 T
 :
-copy
-send
+Copy
+Send
 >
 (
 +
@@ -1147,8 +1147,8 @@ extended_top_down_traversal
 <
 T
 :
-copy
-send
+Copy
+Send
 >
 (
 +

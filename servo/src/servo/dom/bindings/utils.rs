@@ -478,7 +478,7 @@ bare_compartment
 unsafe
 {
 let
-priv
+privptr
 :
 *
 libc
@@ -503,7 +503,7 @@ unsafe
 reinterpret_cast
 (
 &
-priv
+privptr
 )
 ;
 assert

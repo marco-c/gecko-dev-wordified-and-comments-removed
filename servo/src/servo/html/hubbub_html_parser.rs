@@ -198,7 +198,6 @@ HtmlParserResult
 root
 :
 Node
-;
 style_port
 :
 comm
@@ -208,7 +207,6 @@ Port
 <
 Stylesheet
 >
-;
 js_port
 :
 comm
@@ -218,7 +216,6 @@ Port
 <
 JSResult
 >
-;
 }
 #
 [

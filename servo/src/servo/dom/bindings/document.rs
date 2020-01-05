@@ -752,6 +752,8 @@ finalize
 ;
 let
 instance
+:
+jsobj
 =
 result
 :
