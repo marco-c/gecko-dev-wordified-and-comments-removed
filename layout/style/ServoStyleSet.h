@@ -27,16 +27,7 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoBindingHelpers
+ServoBindingTypes
 .
 h
 "

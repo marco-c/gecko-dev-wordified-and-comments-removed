@@ -114,7 +114,7 @@ include
 "
 mozilla
 /
-ServoBindingHelpers
+ServoBindingTypes
 .
 h
 "
