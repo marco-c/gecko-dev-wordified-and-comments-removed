@@ -3243,7 +3243,10 @@ MultipartBlobImpl
 :
 Create
 (
+Move
+(
 blobImpls
+)
 aMetadata
 .
 mName
@@ -3263,7 +3266,10 @@ MultipartBlobImpl
 :
 Create
 (
+Move
+(
 blobImpls
+)
 aMetadata
 .
 mContentType
