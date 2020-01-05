@@ -381,7 +381,7 @@ s
 this
 aCreateSessionToken
 aPromiseId
-ToHexString
+ToBase64
 (
 aInitData
 )
@@ -597,7 +597,7 @@ get
 (
 )
 aPromiseId
-ToHexString
+ToBase64
 (
 aResponse
 )
@@ -1680,7 +1680,7 @@ get
 (
 )
 aMessageType
-ToHexString
+ToBase64
 (
 aMessage
 )
@@ -2297,7 +2297,7 @@ d
 )
 "
 this
-ToHexString
+ToBase64
 (
 aKeyInfos
 [

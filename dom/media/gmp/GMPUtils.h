@@ -129,7 +129,7 @@ aOutTokens
 )
 ;
 nsCString
-ToHexString
+ToBase64
 (
 const
 nsTArray
@@ -138,17 +138,6 @@ uint8_t
 >
 &
 aBytes
-)
-;
-nsCString
-ToHexString
-(
-const
-uint8_t
-*
-aBytes
-uint32_t
-aLength
 )
 ;
 bool
