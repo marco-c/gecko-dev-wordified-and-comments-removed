@@ -1158,7 +1158,7 @@ Certificates
 <
 !
 ENTITY
-certPersonal
+certPersonal2
 .
 description
 "
@@ -1169,7 +1169,6 @@ requests
 your
 personal
 certificate
-:
 "
 >
 <
