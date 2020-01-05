@@ -896,7 +896,9 @@ style
 setProperty
 (
 "
-backgroundColor
+background
+-
+color
 "
 "
 -
@@ -982,7 +984,9 @@ style
 setProperty
 (
 "
-backgroundColor
+background
+-
+color
 "
 "
 -
