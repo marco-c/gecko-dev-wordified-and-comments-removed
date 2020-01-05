@@ -285,9 +285,6 @@ include
 JavaScriptTypes
 ;
 include
-IPCBlob
-;
-include
 IPCStream
 ;
 include
@@ -1141,7 +1138,7 @@ isTablet
 struct
 GetFilesResponseSuccess
 {
-IPCBlob
+PBlob
 [
 ]
 blobs
