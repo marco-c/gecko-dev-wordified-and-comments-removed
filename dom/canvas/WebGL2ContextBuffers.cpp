@@ -686,6 +686,11 @@ target
 buffer
 )
 ;
+if
+(
+byteLen
+)
+{
 const
 auto
 mappedBytes
@@ -701,11 +706,6 @@ glByteLen
 LOCAL_GL_MAP_READ_BIT
 )
 ;
-if
-(
-byteLen
-)
-{
 memcpy
 (
 bytes
@@ -713,7 +713,6 @@ mappedBytes
 byteLen
 )
 ;
-}
 gl
 -
 >
@@ -722,5 +721,6 @@ fUnmapBuffer
 target
 )
 ;
+}
 }
 }
