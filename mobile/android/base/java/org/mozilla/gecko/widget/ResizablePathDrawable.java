@@ -320,6 +320,8 @@ class
 NonScaledPathShape
 extends
 Shape
+implements
+Cloneable
 {
 private
 Path

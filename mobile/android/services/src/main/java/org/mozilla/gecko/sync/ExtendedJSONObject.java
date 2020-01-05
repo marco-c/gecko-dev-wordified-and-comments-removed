@@ -129,6 +129,8 @@ Set
 public
 class
 ExtendedJSONObject
+implements
+Cloneable
 {
 public
 JSONObject
@@ -566,6 +568,8 @@ ExtendedJSONObject
 clone
 (
 )
+throws
+CloneNotSupportedException
 {
 return
 new
