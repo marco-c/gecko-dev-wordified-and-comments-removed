@@ -5416,6 +5416,9 @@ let
 bounds
 =
 Rect
+:
+:
+new
 (
 self
 .

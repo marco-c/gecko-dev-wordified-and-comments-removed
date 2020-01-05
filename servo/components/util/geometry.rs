@@ -1249,8 +1249,14 @@ Au
 >
 {
 Rect
+:
+:
+new
 (
 Point2D
+:
+:
+new
 (
 Au
 :
@@ -1276,6 +1282,9 @@ y
 )
 )
 Size2D
+:
+:
+new
 (
 Au
 :

@@ -7557,8 +7557,14 @@ let
 clip_rect
 =
 Rect
+:
+:
+new
 (
 Point2D
+:
+:
+new
 (
 clip_rect
 .
@@ -7580,6 +7586,9 @@ to_f32_px
 )
 )
 Size2D
+:
+:
+new
 (
 clip_rect
 .

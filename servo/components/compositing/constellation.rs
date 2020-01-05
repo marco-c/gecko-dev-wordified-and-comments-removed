@@ -2888,6 +2888,9 @@ let
 window_rect
 =
 Rect
+:
+:
+new
 (
 Point2D
 :

@@ -90,7 +90,7 @@ geom
 point
 :
 :
-TypedPoint2D
+Point2D
 ;
 use
 geom
@@ -99,7 +99,7 @@ geom
 size
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 libc
@@ -2995,7 +2995,10 @@ rect
 let
 size
 =
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 rect
 .
@@ -3497,7 +3500,10 @@ Right
 let
 point
 =
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 (
 *
@@ -3613,7 +3619,10 @@ event
 let
 point
 =
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 (
 *
@@ -3709,7 +3718,10 @@ delta_y
 let
 delta
 =
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 delta_x
 as
@@ -3722,7 +3734,10 @@ f32
 let
 origin
 =
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 (
 *
