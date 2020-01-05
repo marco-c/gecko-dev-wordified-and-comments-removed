@@ -115,10 +115,6 @@ azure
 ;
 extern
 mod
-cairo
-;
-extern
-mod
 geom
 ;
 extern
