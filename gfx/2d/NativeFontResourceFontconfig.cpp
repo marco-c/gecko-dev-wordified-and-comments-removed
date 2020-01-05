@@ -249,6 +249,7 @@ new
 UnscaledFontFontconfig
 (
 mFace
+this
 )
 ;
 return
