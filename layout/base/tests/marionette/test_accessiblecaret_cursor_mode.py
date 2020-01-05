@@ -170,6 +170,18 @@ timeout_ms
         
 self
 .
+hide_carets_for_mouse
+=
+'
+layout
+.
+accessiblecaret
+.
+hide_carets_for_mouse_input
+'
+        
+self
+.
 prefs
 =
 {
@@ -185,6 +197,12 @@ self
 caret_timeout_ms_pref
 :
 0
+            
+self
+.
+hide_carets_for_mouse
+:
+False
         
 }
         
