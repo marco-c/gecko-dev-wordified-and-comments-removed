@@ -5833,6 +5833,14 @@ Condition
 cond
 )
 ;
+static
+DoubleCondition
+InvertCondition
+(
+DoubleCondition
+cond
+)
+;
 void
 trace
 (

@@ -1723,6 +1723,14 @@ cond
 )
 ;
 static
+DoubleCondition
+InvertCondition
+(
+DoubleCondition
+cond
+)
+;
+static
 inline
 Condition
 ConditionFromDoubleCondition
