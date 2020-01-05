@@ -3456,6 +3456,8 @@ bf
 .
 insert
 (
+&
+*
 element
 .
 get_local_name
@@ -3467,6 +3469,8 @@ bf
 .
 insert
 (
+&
+*
 element
 .
 get_namespace
@@ -3540,6 +3544,8 @@ bf
 .
 remove
 (
+&
+*
 element
 .
 get_local_name
@@ -3551,6 +3557,8 @@ bf
 .
 remove
 (
+&
+*
 element
 .
 get_namespace
