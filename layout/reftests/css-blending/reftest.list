@@ -2047,6 +2047,12 @@ mode
 enabled
 true
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 background

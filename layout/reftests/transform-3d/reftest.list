@@ -1077,6 +1077,12 @@ hidden
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 transform
@@ -1705,7 +1711,7 @@ layer
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1727,7 +1733,7 @@ layer
 ref
 .
 html
-fails
+skip
 -
 if
 (

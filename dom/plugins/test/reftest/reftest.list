@@ -1061,12 +1061,6 @@ if
 !
 haveTestPlugin
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 plugin
