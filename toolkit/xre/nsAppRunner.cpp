@@ -1675,7 +1675,7 @@ char
 *
 expr
 =
-PR_smprintf
+Smprintf
 (
 "
 %
@@ -1693,6 +1693,10 @@ word
 get
 (
 )
+)
+.
+release
+(
 )
 ;
 if
@@ -12268,7 +12272,7 @@ savedVar
 .
 value
 =
-PR_smprintf
+Smprintf
 (
 "
 %
@@ -12281,6 +12285,10 @@ savedVar
 .
 name
 s
+)
+.
+release
+(
 )
 ;
 }
@@ -19604,7 +19612,7 @@ PR_SetEnv
 (
 saved
 .
-get
+release
 (
 )
 )

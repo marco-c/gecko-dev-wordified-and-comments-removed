@@ -145,6 +145,15 @@ DebugOnly
 h
 "
 #
+include
+"
+mozilla
+/
+Printf
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
@@ -1986,7 +1995,7 @@ char
 *
 s
 =
-PR_smprintf
+Smprintf
 (
 "
 %
@@ -1997,6 +2006,10 @@ s
 "
 LD_LIBRARY_PATH_ENVVAR_NAME
 pathToAppend
+)
+.
+release
+(
 )
 ;
 PR_SetEnv
@@ -2020,7 +2033,7 @@ char
 *
 s
 =
-PR_smprintf
+Smprintf
 (
 "
 %
@@ -2037,6 +2050,10 @@ s
 LD_LIBRARY_PATH_ENVVAR_NAME
 pathToAppend
 pathValue
+)
+.
+release
+(
 )
 ;
 PR_SetEnv
