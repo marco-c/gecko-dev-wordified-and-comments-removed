@@ -15752,6 +15752,14 @@ GetSanitizedOpener
 aOpener
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
+contentOpener
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
