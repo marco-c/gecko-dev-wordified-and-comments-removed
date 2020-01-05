@@ -74,6 +74,16 @@ caretBlinkTime
 user_pref
 (
 "
+ui
+.
+caretWidth
+"
+1
+)
+;
+user_pref
+(
+"
 dom
 .
 send_after_paint_to_content
