@@ -224,12 +224,6 @@ RESPONSE_BODY_LIMIT
 =
 1048576
 ;
-exports
-.
-RESPONSE_BODY_LIMIT
-=
-RESPONSE_BODY_LIMIT
-;
 function
 matchRequest
 (
@@ -2157,9 +2151,11 @@ response
 .
 size
 =
-this
+response
 .
-bodySize
+text
+.
+length
 ;
 response
 .
