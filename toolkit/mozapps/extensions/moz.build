@@ -151,7 +151,7 @@ amIAddonPathService
 idl
 '
 '
-amIWebInstallListener
+amIWebInstallPrompt
 .
 idl
 '
@@ -182,11 +182,6 @@ js
 '
 '
 amWebAPI
-.
-js
-'
-'
-amWebInstallListener
 .
 js
 '

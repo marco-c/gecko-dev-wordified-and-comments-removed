@@ -1215,14 +1215,7 @@ installInfo
 =
 aSubject
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-amIWebInstallInfo
-)
+wrappedJSObject
 ;
 var
 browser

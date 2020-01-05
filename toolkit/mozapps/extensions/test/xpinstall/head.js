@@ -2018,14 +2018,7 @@ installInfo
 =
 subject
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-amIWebInstallInfo
-)
+wrappedJSObject
 ;
 switch
 (
