@@ -37,7 +37,7 @@ Client
 =
 The
 Marionette
-python
+Python
 client
 library
 allows
@@ -212,7 +212,7 @@ Client
 -
 -
 The
-python
+Python
 client
 is
 officially
@@ -241,7 +241,7 @@ literal
 :
 pip
 install
-marionette_client
+marionette_driver
 It
 '
 s
@@ -521,6 +521,12 @@ parsed
 literal
 :
 :
+from
+marionette_driver
+.
+marionette
+import
+Marionette
 client
 =
 Marionette
