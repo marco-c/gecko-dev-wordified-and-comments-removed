@@ -1067,6 +1067,7 @@ UninitializedImageData
 ;
 InvalidateStatusOfAttachedFBs
 (
+funcName
 )
 ;
 }

@@ -6011,12 +6011,14 @@ isDataInitialized
 ;
 SetImageInfosAtLevel
 (
+funcName
 0
 newInfo
 )
 ;
 PopulateMipChain
 (
+funcName
 0
 levels
 -
@@ -6695,6 +6697,7 @@ return
 }
 SetImageInfo
 (
+funcName
 imageInfo
 newImageInfo
 )
@@ -7657,6 +7660,7 @@ isDataInitialized
 ;
 SetImageInfo
 (
+funcName
 imageInfo
 newImageInfo
 )
@@ -10966,6 +10970,7 @@ isDataInitialized
 ;
 SetImageInfo
 (
+funcName
 imageInfo
 newImageInfo
 )
