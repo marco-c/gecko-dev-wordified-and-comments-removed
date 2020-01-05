@@ -1094,8 +1094,6 @@ lineWidth
 default
 1
 )
-/
-/
 attribute
 DOMString
 lineCap
@@ -1117,8 +1115,6 @@ default
 butt
 "
 )
-/
-/
 attribute
 DOMString
 lineJoin
