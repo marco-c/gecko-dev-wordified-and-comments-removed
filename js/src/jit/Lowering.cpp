@@ -26349,6 +26349,15 @@ object
 (
 )
 )
+useRegisterOrConstantAtStart
+(
+ins
+-
+>
+index
+(
+)
+)
 useBoxAtStart
 (
 ins
