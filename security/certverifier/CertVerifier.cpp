@@ -1363,6 +1363,13 @@ if
 (
 !
 endEntityNode
+|
+|
+CERT_LIST_END
+(
+endEntityNode
+builtChain
+)
 )
 {
 return
@@ -1385,6 +1392,13 @@ if
 (
 !
 issuerNode
+|
+|
+CERT_LIST_END
+(
+issuerNode
+builtChain
+)
 )
 {
 return
