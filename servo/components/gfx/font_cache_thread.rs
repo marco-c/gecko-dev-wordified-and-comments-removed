@@ -48,7 +48,6 @@ LoadContext
 PendingAsyncLoad
 CoreResourceThread
 ResponseAction
-RequestSource
 }
 ;
 use
@@ -1254,10 +1253,6 @@ clone
 )
 None
 None
-None
-RequestSource
-:
-:
 None
 )
 ;
