@@ -3038,6 +3038,9 @@ IsEmpty
 }
 already_AddRefed
 <
+dom
+:
+:
 MediaList
 >
 nsMediaList
