@@ -3332,3 +3332,15 @@ experimental
 true
 )
 ;
+user_pref
+(
+"
+marionette
+.
+prefs
+.
+recommended
+"
+false
+)
+;
