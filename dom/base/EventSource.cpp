@@ -5749,6 +5749,10 @@ AssertIsOnTargetThread
 (
 )
 ;
+mGoingToDispatchAllMessages
+=
+false
+;
 if
 (
 IsClosed
@@ -5764,10 +5768,6 @@ IsFrozen
 return
 ;
 }
-mGoingToDispatchAllMessages
-=
-false
-;
 nsresult
 rv
 =
