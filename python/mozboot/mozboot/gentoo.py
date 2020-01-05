@@ -4,9 +4,16 @@ mozboot
 base
 import
 BaseBootstrapper
+from
+mozboot
+.
+linux_common
+import
+StyloInstall
 class
 GentooBootstrapper
 (
+StyloInstall
 BaseBootstrapper
 )
 :
