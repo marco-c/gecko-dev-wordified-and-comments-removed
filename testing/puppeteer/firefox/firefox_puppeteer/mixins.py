@@ -635,22 +635,10 @@ marionette
 .
 navigate
 (
-self
-.
-puppeteer
-.
-prefs
-.
-get_pref
-(
 '
-browser
-.
-newtab
-.
-url
+about
+:
 '
-)
 )
     
 def
