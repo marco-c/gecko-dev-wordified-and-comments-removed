@@ -1605,11 +1605,8 @@ VideoReceiveStream
 Config
 mRecvStreamConfig
 ;
-Atomic
-<
-bool
->
-mRecvSSRCSet
+uint32_t
+mRecvSSRC
 ;
 bool
 mRecvSSRCSetInProgress
