@@ -613,6 +613,11 @@ ServoPropPrefList
 h
 '
 '
+ServoSpecifiedValues
+.
+h
+'
+'
 ServoStyleRule
 .
 h
@@ -1112,6 +1117,11 @@ cpp
 '
 '
 ServoElementSnapshot
+.
+cpp
+'
+'
+ServoSpecifiedValues
 .
 cpp
 '

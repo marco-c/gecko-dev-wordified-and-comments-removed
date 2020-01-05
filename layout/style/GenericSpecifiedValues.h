@@ -41,6 +41,9 @@ namespace
 mozilla
 {
 class
+ServoSpecifiedValues
+;
+class
 GenericSpecifiedValues
 {
 protected
@@ -76,7 +79,7 @@ public
 MOZ_DECL_STYLO_METHODS
 (
 nsRuleData
-nsRuleData
+ServoSpecifiedValues
 )
 inline
 bool
