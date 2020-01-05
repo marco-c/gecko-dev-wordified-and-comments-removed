@@ -277,7 +277,7 @@ root
 =
 root
 .
-get_mut
+deref_mut
 (
 )
 ;
@@ -464,7 +464,7 @@ doit
 (
 root
 .
-get_mut
+deref_mut
 (
 )
 compute_absolute_positions

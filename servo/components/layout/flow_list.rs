@@ -169,7 +169,7 @@ head
 |
 head
 .
-get
+deref
 (
 )
 )
@@ -219,7 +219,7 @@ head
 |
 head
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -266,7 +266,7 @@ tail
 |
 tail
 .
-get
+deref
 (
 )
 )
@@ -316,7 +316,7 @@ tail
 |
 tail
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -552,7 +552,7 @@ x
 |
 x
 .
-get
+deref
 (
 )
 )
@@ -649,7 +649,7 @@ x
 |
 x
 .
-get_mut
+deref_mut
 (
 )
 )

@@ -2910,7 +2910,7 @@ transmute
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -5461,10 +5461,6 @@ block
 =
 self
 .
-get_mut
-(
-)
-.
 as_block
 (
 )
@@ -5642,10 +5638,6 @@ link
 =
 >
 link
-.
-get_mut
-(
-)
 .
 generated_containing_block_rect
 (

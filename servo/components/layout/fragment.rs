@@ -7149,10 +7149,6 @@ info
 .
 flow_ref
 .
-get_mut
-(
-)
-.
 as_block
 (
 )
@@ -9361,10 +9357,6 @@ info
 .
 flow_ref
 .
-get_mut
-(
-)
-.
 as_block
 (
 )
@@ -9430,10 +9422,6 @@ block_flow
 info
 .
 flow_ref
-.
-get_mut
-(
-)
 .
 as_block
 (
@@ -10192,10 +10180,6 @@ info
 .
 flow_ref
 .
-get_mut
-(
-)
-.
 as_block
 (
 )
@@ -10260,10 +10244,6 @@ block_flow
 info
 .
 flow_ref
-.
-get_mut
-(
-)
 .
 as_block
 (
@@ -10483,7 +10463,7 @@ info
 .
 flow_ref
 .
-get
+deref
 (
 )
 .
@@ -11269,10 +11249,6 @@ info
 .
 flow_ref
 .
-get_mut
-(
-)
-.
 update_late_computed_inline_position_if_necessary
 (
 position
@@ -11322,10 +11298,6 @@ b
 info
 .
 flow_ref
-.
-get_mut
-(
-)
 .
 update_late_computed_block_position_if_necessary
 (

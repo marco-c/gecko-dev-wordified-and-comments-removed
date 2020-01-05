@@ -271,7 +271,7 @@ state
 .
 flow_root
 .
-get
+deref
 (
 )
 )
@@ -390,7 +390,7 @@ state
 .
 flow_root
 .
-get
+deref
 (
 )
 )
@@ -482,7 +482,7 @@ encode
 &
 flow_root
 .
-get
+deref
 (
 )
 )
@@ -610,7 +610,7 @@ task_state
 .
 flow_root
 .
-get
+deref
 (
 )
 )

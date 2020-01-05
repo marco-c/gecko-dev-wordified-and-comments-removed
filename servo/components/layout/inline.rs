@@ -3515,7 +3515,7 @@ block_flow
 .
 flow_ref
 .
-get_mut
+deref_mut
 (
 )
 ;
@@ -5462,10 +5462,6 @@ info
 .
 flow_ref
 .
-get_mut
-(
-)
-.
 as_block
 (
 )
@@ -5529,10 +5525,6 @@ block_flow
 info
 .
 flow_ref
-.
-get_mut
-(
-)
 .
 as_block
 (
@@ -5626,7 +5618,7 @@ info
 .
 flow_ref
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -5653,7 +5645,7 @@ info
 .
 flow_ref
 .
-get_mut
+deref_mut
 (
 )
 )
