@@ -295,7 +295,7 @@ used
 :
 *
 *
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 JSMSG_NOT_A_SUBSPECIES
 "
