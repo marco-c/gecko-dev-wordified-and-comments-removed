@@ -9288,6 +9288,16 @@ getDateTimeInputBoxValue
 (
 )
 ;
+value
+.
+type
+=
+this
+.
+_inputElement
+.
+type
+;
 sendAsyncMessage
 (
 "

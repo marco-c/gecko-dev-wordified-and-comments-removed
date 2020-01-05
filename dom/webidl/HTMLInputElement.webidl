@@ -1349,6 +1349,15 @@ hour
 long
 minute
 ;
+long
+year
+;
+long
+month
+;
+long
+day
+;
 }
 ;
 partial
