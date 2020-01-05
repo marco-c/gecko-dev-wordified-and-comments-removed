@@ -3,7 +3,7 @@ firefox_puppeteer
 import
 PuppeteerMixin
 from
-marionette
+marionette_harness
 import
 MarionetteTestCase
 class

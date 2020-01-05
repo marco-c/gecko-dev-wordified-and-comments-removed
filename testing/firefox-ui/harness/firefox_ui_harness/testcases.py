@@ -37,10 +37,6 @@ update_wizard
 import
 UpdateWizardDialog
 from
-marionette
-import
-MarionetteTestCase
-from
 marionette_driver
 import
 Wait
@@ -50,6 +46,10 @@ marionette_driver
 errors
 import
 NoSuchWindowException
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 UpdateTestCase
 (

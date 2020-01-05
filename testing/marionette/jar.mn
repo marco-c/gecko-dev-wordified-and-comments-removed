@@ -342,10 +342,6 @@ test
 .
 xul
 (
-harness
-/
-marionette
-/
 chrome
 /
 test
@@ -358,10 +354,6 @@ test2
 .
 xul
 (
-harness
-/
-marionette
-/
 chrome
 /
 test2
@@ -374,10 +366,6 @@ test_dialog
 .
 xul
 (
-harness
-/
-marionette
-/
 chrome
 /
 test_dialog
@@ -390,10 +378,6 @@ test_nested_iframe
 .
 xul
 (
-harness
-/
-marionette
-/
 chrome
 /
 test_nested_iframe
@@ -406,10 +390,6 @@ test_anonymous_content
 .
 xul
 (
-harness
-/
-marionette
-/
 chrome
 /
 test_anonymous_content

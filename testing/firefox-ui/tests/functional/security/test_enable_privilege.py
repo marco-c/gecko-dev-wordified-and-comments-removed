@@ -1,11 +1,11 @@
 from
-marionette
-import
-MarionetteTestCase
-from
 marionette_driver
 import
 By
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 TestEnablePrivilege
 (

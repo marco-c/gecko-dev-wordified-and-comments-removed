@@ -3,10 +3,6 @@ firefox_puppeteer
 import
 PuppeteerMixin
 from
-marionette
-import
-MarionetteTestCase
-from
 marionette_driver
 import
 By
@@ -24,6 +20,10 @@ marionette_driver
 marionette
 import
 Alert
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 TestSubmitUnencryptedInfoWarning
 (

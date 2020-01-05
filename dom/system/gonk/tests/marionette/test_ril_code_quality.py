@@ -284,12 +284,6 @@ mode
 "
 "
 "
-from
-marionette
-.
-marionette_test
-import
-MarionetteTestCase
 import
 bisect
 import
@@ -304,6 +298,10 @@ import
 re
 import
 unicodedata
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 StringUtility
 :

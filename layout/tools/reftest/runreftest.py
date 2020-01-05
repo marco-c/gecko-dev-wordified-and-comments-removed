@@ -107,16 +107,16 @@ try
 :
     
 from
-marionette
-import
-Marionette
-    
-from
 marionette_driver
 .
 addons
 import
 Addons
+    
+from
+marionette_harness
+import
+Marionette
 except
 ImportError
 e

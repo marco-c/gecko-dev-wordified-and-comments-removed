@@ -16,12 +16,12 @@ puppeteer
 0
 marionette
 -
-client
+harness
 >
 =
-2
+4
 .
-3
+0
 .
 0
 mozfile

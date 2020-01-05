@@ -5,8 +5,8 @@ re
 from
 setuptools
 import
-setup
 find_packages
+setup
 THIS_DIR
 =
 os
@@ -86,7 +86,7 @@ d
 read
 (
 '
-marionette
+marionette_harness
 '
 '
 __init__
@@ -106,7 +106,9 @@ setup
 name
 =
 '
-marionette_client
+marionette
+-
+harness
 '
       
 version
@@ -121,7 +123,7 @@ description
 Marionette
 test
 automation
-client
+harness
 "
       
 long_description
@@ -148,9 +150,11 @@ Development
 Status
 :
 :
-7
+5
 -
-Inactive
+Production
+/
+Stable
 '
           
 '
@@ -335,33 +339,58 @@ MPL
       
 packages
 =
-[
-'
-marionette_client
-'
-]
+find_packages
+(
+)
       
 package_data
 =
 {
+          
 '
-marionette
+marionette_harness
 '
 :
 [
+              
 '
-touch
+runner
 /
-*
+test
 .
-js
+cert
 '
+              
+'
+runner
+/
+test
+.
+key
+'
+          
 ]
+      
 }
       
 include_package_data
 =
 True
+      
+install_requires
+=
+read
+(
+'
+requirements
+.
+txt
+'
+)
+.
+splitlines
+(
+)
       
 zip_safe
 =
@@ -390,7 +419,7 @@ console_scripts
       
 marionette
 =
-marionette
+marionette_harness
 .
 runtests
 :
@@ -399,20 +428,5 @@ cli
 "
 "
 "
-      
-install_requires
-=
-read
-(
-'
-requirements
-.
-txt
-'
-)
-.
-splitlines
-(
-)
       
 )

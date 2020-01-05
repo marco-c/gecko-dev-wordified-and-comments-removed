@@ -3681,7 +3681,7 @@ join
 harness
 "
 "
-marionette
+marionette_harness
 "
 "
 runtests

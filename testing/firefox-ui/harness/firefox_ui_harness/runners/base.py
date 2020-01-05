@@ -9,7 +9,7 @@ mozfile
 import
 mozinfo
 from
-marionette
+marionette_harness
 import
 BaseMarionetteTestRunner
 MarionetteTestCase

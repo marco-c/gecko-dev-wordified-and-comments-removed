@@ -1,5 +1,5 @@
 from
-marionette
+marionette_harness
 import
 Marionette
 from

@@ -11,7 +11,7 @@ update_wizard
 import
 UpdateWizardDialog
 from
-marionette
+marionette_harness
 import
 MarionetteTestCase
 class

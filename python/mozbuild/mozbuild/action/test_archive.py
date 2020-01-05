@@ -434,7 +434,7 @@ ignore
 [
                 
 '
-harness
+client
 /
 docs
 '
@@ -442,7 +442,7 @@ docs
 '
 harness
 /
-marionette
+marionette_harness
 /
 tests
 '
@@ -489,7 +489,7 @@ marionette
 /
 harness
 /
-marionette
+marionette_harness
 /
 tests
 /
@@ -507,7 +507,7 @@ marionette
 /
 harness
 /
-marionette
+marionette_harness
 /
 tests
 /
@@ -531,7 +531,7 @@ marionette
 /
 harness
 /
-marionette
+marionette_harness
 /
 tests
 /

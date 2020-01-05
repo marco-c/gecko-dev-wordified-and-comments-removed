@@ -5,10 +5,6 @@ firefox_puppeteer
 import
 PuppeteerMixin
 from
-marionette
-import
-MarionetteTestCase
-from
 marionette_driver
 import
 By
@@ -20,6 +16,10 @@ marionette_driver
 errors
 import
 MarionetteException
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 TestSSLDisabledErrorPage
 (
