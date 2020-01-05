@@ -83,6 +83,9 @@ StyleChildrenIterator
 ;
 }
 struct
+Keyframe
+;
+struct
 PropertyStyleAnimationValuePair
 ;
 }
@@ -134,6 +137,16 @@ RawGeckoDocument
 typedef
 nsPresContext
 RawGeckoPresContext
+;
+typedef
+nsTArray
+<
+mozilla
+:
+:
+Keyframe
+>
+RawGeckoKeyframeList
 ;
 typedef
 nsTArray
@@ -392,6 +405,10 @@ RawGeckoAnimationValueList
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawServoAnimationValueBorrowedList
+)
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+RawGeckoKeyframeList
 )
 #
 undef
