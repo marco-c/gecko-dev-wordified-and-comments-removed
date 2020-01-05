@@ -77,10 +77,7 @@ clickCallback
 clickCallback
 .
 observe
-.
-call
 (
-clickCallback
 null
 "
 alertclickcallback
