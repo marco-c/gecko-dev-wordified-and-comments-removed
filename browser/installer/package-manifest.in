@@ -266,6 +266,9 @@ Contents
 Info
 .
 plist
+#
+ifdef
+MOZ_UPDATER
 APPNAME
 /
 Contents
@@ -273,6 +276,8 @@ Contents
 Library
 /
 LaunchServices
+#
+endif
 APPNAME
 /
 Contents
