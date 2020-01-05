@@ -92,6 +92,7 @@ libc
 :
 c_int
 ;
+pub
 extern
 fn
 getPropertyDescriptor
@@ -350,6 +351,7 @@ null
 1
 }
 }
+pub
 extern
 fn
 getOwnPropertyDescriptor
@@ -387,6 +389,7 @@ set
 desc
 )
 }
+pub
 fn
 _obj_toString
 (

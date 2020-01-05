@@ -19048,6 +19048,8 @@ handler
 "
 "
 "
+/
+/
 let
 cache
 =
@@ -19312,6 +19314,8 @@ aScope
 Argument
 (
 '
+&
+mut
 BindingReference
 <
 '
@@ -19405,18 +19409,27 @@ true
 ;
   
 let
+mut
 parent
 =
-WrapNativeParent
-(
-aCx
-aScope
 aObject
 .
 GetParentObject
 (
 aCx
 )
+;
+  
+let
+parent
+=
+WrapNativeParent
+(
+aCx
+aScope
+&
+mut
+parent
 )
 ;
   
@@ -19497,7 +19510,7 @@ cache
 ptr
 :
 :
-to_unsafe_ptr
+to_mut_unsafe_ptr
 (
 aObject
 .
@@ -19671,11 +19684,10 @@ self
         
 return
 "
-return
-Wrap_
-(
-aCx
-aScope
+let
+mut
+binding
+=
 BindingReference
 (
 Left
@@ -19683,6 +19695,17 @@ Left
 aObject
 )
 )
+;
+\
+  
+return
+Wrap_
+(
+aCx
+aScope
+&
+mut
+binding
 aTriedToWrap
 )
 ;
@@ -30352,6 +30375,16 @@ proxyhandler
 :
 :
 *
+'
+                          
+'
+content
+:
+:
+content_task
+:
+:
+task_from_context
 '
                          
 ]

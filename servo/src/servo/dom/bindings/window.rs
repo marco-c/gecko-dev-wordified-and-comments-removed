@@ -631,6 +631,7 @@ mut
 Compartment
 win
 :
+mut
 Window
 )
 {
@@ -976,7 +977,6 @@ JSPROP_ENUMERATE
 )
 ;
 }
-pub
 impl
 CacheableWrapper
 for
@@ -986,11 +986,13 @@ fn
 get_wrappercache
 (
 &
+mut
 self
 )
 -
 >
 &
+mut
 WrapperCache
 {
 unsafe

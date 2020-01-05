@@ -121,7 +121,6 @@ right
 :
 f32
 }
-pub
 impl
 ClientRect
 for
@@ -265,7 +264,6 @@ new
 )
 }
 }
-pub
 impl
 CacheableWrapper
 for
@@ -275,11 +273,13 @@ fn
 get_wrappercache
 (
 &
+mut
 self
 )
 -
 >
 &
+mut
 WrapperCache
 {
 unsafe

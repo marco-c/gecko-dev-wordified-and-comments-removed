@@ -349,7 +349,6 @@ rects
 }
 }
 }
-pub
 impl
 CacheableWrapper
 for
@@ -359,11 +358,13 @@ fn
 get_wrappercache
 (
 &
+mut
 self
 )
 -
 >
 &
+mut
 WrapperCache
 {
 unsafe

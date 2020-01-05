@@ -55,7 +55,6 @@ T
 >
 ;
 }
-pub
 impl
 JSValConvertible
 <
