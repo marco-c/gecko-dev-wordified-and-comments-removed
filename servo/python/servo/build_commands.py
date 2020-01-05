@@ -981,6 +981,39 @@ Cargo
 "
 )
     
+CommandArgument
+(
+'
+-
+-
+with
+-
+debug
+-
+assertions
+'
+                     
+default
+=
+None
+                     
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Enable
+debug
+assertions
+in
+release
+'
+)
+    
 def
 build
 (
@@ -1013,6 +1046,10 @@ False
 params
 =
 None
+              
+with_debug_assertions
+=
+False
 )
 :
         
@@ -1467,15 +1504,7 @@ True
 )
         
 if
-env
-.
-get
-(
-"
-SERVO_ENABLE_DEBUG_ASSERTIONS
-"
-None
-)
+with_debug_assertions
 :
             
 env
@@ -2634,6 +2663,39 @@ mode
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+with
+-
+debug
+-
+assertions
+'
+                     
+default
+=
+None
+                     
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Enable
+debug
+assertions
+in
+release
+'
+)
+    
 def
 build_cef
 (
@@ -2645,6 +2707,10 @@ verbose
 =
 False
 release
+=
+False
+                  
+with_debug_assertions
 =
 False
 )
@@ -2774,15 +2840,7 @@ True
 )
         
 if
-env
-.
-get
-(
-"
-SERVO_ENABLE_DEBUG_ASSERTIONS
-"
-None
-)
+with_debug_assertions
 :
             
 env
