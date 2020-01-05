@@ -5470,12 +5470,12 @@ else
 mut
 declarations
 .
-normal
+important
 &
 mut
 declarations
 .
-important
+normal
 )
 }
 ;
