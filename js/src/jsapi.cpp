@@ -20823,6 +20823,11 @@ HelperThreadState
 cancelParseTask
 (
 cx
+-
+>
+runtime
+(
+)
 ParseTaskKind
 :
 :
@@ -20972,6 +20977,11 @@ HelperThreadState
 cancelParseTask
 (
 cx
+-
+>
+runtime
+(
+)
 ParseTaskKind
 :
 :
@@ -21132,6 +21142,11 @@ HelperThreadState
 cancelParseTask
 (
 cx
+-
+>
+runtime
+(
+)
 ParseTaskKind
 :
 :

@@ -2640,11 +2640,6 @@ HelperThreadState
 cancelParseTask
 (
 rt
--
->
-contextFromMainThread
-(
-)
 task
 -
 >
@@ -6564,9 +6559,9 @@ GlobalHelperThreadState
 :
 cancelParseTask
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 ParseTaskKind
 kind
 void
@@ -6589,12 +6584,7 @@ token
 ;
 LeaveParseTaskZone
 (
-cx
--
->
-runtime
-(
-)
+rt
 parseTask
 )
 ;

@@ -2535,7 +2535,7 @@ defaultLocale
 =
 JS_strdup
 (
-contextFromMainThread
+activeContextFromOwnThread
 (
 )
 locale
@@ -2639,7 +2639,7 @@ lang
 =
 JS_strdup
 (
-contextFromMainThread
+activeContextFromOwnThread
 (
 )
 locale
@@ -3761,7 +3761,7 @@ return
 rt
 -
 >
-unsafeContextFromAnyThread
+activeContext
 (
 )
 =
