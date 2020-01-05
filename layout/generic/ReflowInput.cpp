@@ -3743,6 +3743,12 @@ case
 StyleDisplay
 :
 :
+FlowRoot
+:
+case
+StyleDisplay
+:
+:
 RubyTextContainer
 :
 frameType
