@@ -77,6 +77,7 @@ maxdepth
 2
 localeswitching
 uitelemetry
+activitystreamtelemetry
 adjust
 defaultdomains
 bouncer
