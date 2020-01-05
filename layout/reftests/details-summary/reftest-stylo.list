@@ -231,7 +231,6 @@ direct
 child
 .
 html
-fails
 =
 =
 float
@@ -1156,7 +1155,6 @@ writing
 mode
 .
 html
-fails
 =
 =
 details

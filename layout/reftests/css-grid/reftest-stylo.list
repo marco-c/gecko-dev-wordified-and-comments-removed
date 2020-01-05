@@ -1434,7 +1434,6 @@ intrinsic
 004
 .
 html
-fails
 =
 =
 grid
@@ -1566,7 +1565,6 @@ size
 004
 .
 html
-fails
 =
 =
 grid
@@ -1733,7 +1731,6 @@ html
 #
 bug
 1342710
-fails
 =
 =
 grid
@@ -1807,7 +1804,6 @@ size
 002
 .
 html
-fails
 =
 =
 grid
