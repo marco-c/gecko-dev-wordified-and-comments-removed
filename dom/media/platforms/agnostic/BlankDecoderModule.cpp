@@ -12,7 +12,7 @@ include
 "
 mozilla
 /
-UniquePtr
+UniquePtrExtensions
 .
 h
 "
@@ -158,7 +158,7 @@ override
 auto
 frame
 =
-MakeUnique
+MakeUniqueFallible
 <
 uint8_t
 [
@@ -170,6 +170,16 @@ mFrameWidth
 mFrameHeight
 )
 ;
+if
+(
+!
+frame
+)
+{
+return
+nullptr
+;
+}
 memset
 (
 frame
