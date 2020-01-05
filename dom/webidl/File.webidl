@@ -251,7 +251,10 @@ Throws
 NeedsCallerType
 ]
 static
+Promise
+<
 File
+>
 createFromNsIFile
 (
 nsIFile
@@ -267,7 +270,10 @@ Throws
 NeedsCallerType
 ]
 static
+Promise
+<
 File
+>
 createFromFileName
 (
 USVString

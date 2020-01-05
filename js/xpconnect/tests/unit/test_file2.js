@@ -18,8 +18,10 @@ Components
 .
 interfaces
 ;
+add_task
+(
 function
-run_test
+*
 (
 )
 {
@@ -74,6 +76,7 @@ ini
 var
 f1
 =
+yield
 File
 .
 createFromFileName
@@ -86,6 +89,7 @@ path
 var
 f2
 =
+yield
 File
 .
 createFromNsIFile
@@ -324,6 +328,7 @@ nsIFile
 var
 f7
 =
+yield
 File
 .
 createFromNsIFile
@@ -359,3 +364,5 @@ directory
 )
 ;
 }
+)
+;
