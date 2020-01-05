@@ -5626,6 +5626,17 @@ abs_blob_upload_dir
 '
 ]
                 
+env
+[
+'
+RUST_BACKTRACE
+'
+]
+=
+'
+1
+'
+                
 if
 not
 os
