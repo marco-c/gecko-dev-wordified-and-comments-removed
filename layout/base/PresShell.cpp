@@ -40177,6 +40177,9 @@ parent
 )
 ;
 }
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 nsIURI
 *
 uri
@@ -40232,6 +40235,8 @@ A
 "
 )
 ;
+#
+endif
 nsDocShell
 *
 docShell
