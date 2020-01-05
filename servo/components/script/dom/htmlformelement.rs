@@ -1438,7 +1438,7 @@ submit
 SubmittedFrom
 :
 :
-FromFormSubmitMethod
+FromForm
 FormSubmitter
 :
 :
@@ -1485,7 +1485,7 @@ reset
 ResetFrom
 :
 :
-FromFormResetMethod
+FromForm
 )
 ;
 }
@@ -2020,8 +2020,8 @@ pub
 enum
 SubmittedFrom
 {
-FromFormSubmitMethod
-NotFromFormSubmitMethod
+FromForm
+NotFromForm
 }
 #
 [
@@ -2036,8 +2036,8 @@ pub
 enum
 ResetFrom
 {
-FromFormResetMethod
-NotFromFormResetMethod
+FromForm
+NotFromForm
 }
 impl
 HTMLFormElement
@@ -3150,7 +3150,7 @@ submit_method_flag
 SubmittedFrom
 :
 :
-NotFromFormSubmitMethod
+NotFromForm
 &
 &
 !
@@ -3217,7 +3217,7 @@ submit_method_flag
 SubmittedFrom
 :
 :
-NotFromFormSubmitMethod
+NotFromForm
 {
 let
 event
