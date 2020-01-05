@@ -36,7 +36,7 @@ fd
 ;
 virtual
 void
-FastOpenConnected
+SetFastOpenConnected
 (
 nsresult
 error
@@ -48,6 +48,16 @@ virtual
 void
 FastOpenNotSupported
 (
+)
+=
+0
+;
+virtual
+void
+SetFastOpenStatus
+(
+uint8_t
+tfoStatus
 )
 =
 0

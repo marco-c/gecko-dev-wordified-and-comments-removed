@@ -489,6 +489,15 @@ return
 0
 ;
 }
+virtual
+void
+SetFastOpenStatus
+(
+uint8_t
+aStatus
+)
+{
+}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

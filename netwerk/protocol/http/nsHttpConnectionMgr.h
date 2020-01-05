@@ -947,7 +947,7 @@ PRFileDesc
 override
 ;
 void
-FastOpenConnected
+SetFastOpenConnected
 (
 nsresult
 )
@@ -956,6 +956,14 @@ override
 void
 FastOpenNotSupported
 (
+)
+override
+;
+void
+SetFastOpenStatus
+(
+uint8_t
+tfoStatus
 )
 override
 ;

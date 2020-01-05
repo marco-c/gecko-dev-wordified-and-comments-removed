@@ -946,6 +946,15 @@ override
 final
 ;
 void
+SetFastOpenStatus
+(
+uint8_t
+aStatus
+)
+override
+final
+;
+void
 Received421
 (
 nsHttpConnectionInfo
