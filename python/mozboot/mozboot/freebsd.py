@@ -374,7 +374,7 @@ self
 pkg_install
 (
 '
-llvm39
+llvm40
 '
 )
     
