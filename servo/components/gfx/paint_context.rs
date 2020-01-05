@@ -7444,9 +7444,10 @@ azure_color_pattern
 assert
 !
 (
+!
 azure_pattern
 .
-is_not_null
+is_null
 (
 )
 )
