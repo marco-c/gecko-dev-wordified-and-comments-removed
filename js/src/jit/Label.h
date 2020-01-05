@@ -43,6 +43,8 @@ LabelBase
 &
 label
 )
+=
+delete
 ;
 public
 :
