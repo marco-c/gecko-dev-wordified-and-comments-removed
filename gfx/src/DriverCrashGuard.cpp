@@ -324,6 +324,17 @@ AreCrashGuardsEnabled
 (
 )
 {
+if
+(
+XRE_IsGPUProcess
+(
+)
+)
+{
+return
+false
+;
+}
 #
 ifdef
 NIGHTLY_BUILD
