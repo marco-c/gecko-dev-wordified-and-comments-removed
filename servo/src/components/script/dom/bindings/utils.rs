@@ -118,7 +118,10 @@ std
 cell
 :
 :
+{
 Cell
+RefCell
+}
 ;
 use
 std
@@ -490,6 +493,8 @@ proxy_handlers
 :
 Untraceable
 <
+RefCell
+<
 HashMap
 <
 uint
@@ -498,6 +503,7 @@ libc
 :
 :
 c_void
+>
 >
 >
 pub
@@ -530,11 +536,17 @@ Untraceable
 :
 new
 (
+RefCell
+:
+:
+new
+(
 HashMap
 :
 :
 new
 (
+)
 )
 )
 windowproxy_handler
