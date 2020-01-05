@@ -1843,9 +1843,6 @@ bool
 mSentFirstFrameLoadedEvent
 ;
 bool
-mSentPlaybackEndedEvent
-;
-bool
 mVideoDecodeSuspended
 ;
 DelayedScheduler
