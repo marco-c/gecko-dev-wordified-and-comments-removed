@@ -594,12 +594,6 @@ bug616722
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 column
@@ -622,12 +616,6 @@ nested
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 column
