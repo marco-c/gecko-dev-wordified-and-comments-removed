@@ -17,6 +17,11 @@ import
 Graph
 from
 .
+target_tasks
+import
+get_method
+from
+.
 taskgraph
 import
 TaskGraph
@@ -259,8 +264,6 @@ __init__
 self
 root_dir
 parameters
-                 
-target_tasks_method
 )
 :
         
@@ -295,29 +298,6 @@ parameters
 :
 dict
         
-param
-target_tasks_method
-:
-function
-to
-determine
-the
-target_task_set
-;
-                
-see
-.
-/
-target_tasks
-.
-py
-.
-        
-type
-target_tasks_method
-:
-function
-        
 "
 "
 "
@@ -334,11 +314,28 @@ parameters
 =
 parameters
         
+target_tasks_method
+=
+parameters
+.
+get
+(
+'
+target_tasks_method
+'
+'
+all_tasks
+'
+)
+        
 self
 .
 target_tasks_method
 =
+get_method
+(
 target_tasks_method
+)
         
 self
 .

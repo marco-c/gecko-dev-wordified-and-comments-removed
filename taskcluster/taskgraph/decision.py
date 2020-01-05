@@ -43,11 +43,6 @@ import
 Parameters
 from
 .
-target_tasks
-import
-get_method
-from
-.
 taskgraph
 import
 TaskGraph
@@ -316,27 +311,6 @@ get_decision_parameters
 options
 )
     
-target_tasks_method
-=
-parameters
-.
-get
-(
-'
-target_tasks_method
-'
-'
-all_tasks
-'
-)
-    
-target_tasks_method
-=
-get_method
-(
-target_tasks_method
-)
-    
 tgg
 =
 TaskGraphGenerator
@@ -354,10 +328,6 @@ root
 parameters
 =
 parameters
-        
-target_tasks_method
-=
-target_tasks_method
 )
     
 write_artifact

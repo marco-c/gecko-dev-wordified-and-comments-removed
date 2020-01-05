@@ -1795,31 +1795,6 @@ check
 (
 )
             
-target_tasks_method
-=
-parameters
-.
-get
-(
-'
-target_tasks_method
-'
-'
-all_tasks
-'
-)
-            
-target_tasks_method
-=
-taskgraph
-.
-target_tasks
-.
-get_method
-(
-target_tasks_method
-)
-            
 tgg
 =
 taskgraph
@@ -1841,10 +1816,6 @@ root
 parameters
 =
 parameters
-                
-target_tasks_method
-=
-target_tasks_method
 )
             
 tg
