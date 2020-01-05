@@ -684,6 +684,12 @@ principal
 URI
 ;
 }
+options
+.
+persistent
+=
+true
+;
 this
 .
 onBeforeShow

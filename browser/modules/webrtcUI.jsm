@@ -2105,6 +2105,9 @@ let
 options
 =
 {
+persistent
+:
+true
 eventCallback
 :
 function

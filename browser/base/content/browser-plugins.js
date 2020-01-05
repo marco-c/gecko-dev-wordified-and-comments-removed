@@ -1371,6 +1371,9 @@ dismissed
 :
 !
 showNow
+persistent
+:
+showNow
 eventCallback
 :
 this

@@ -3338,6 +3338,9 @@ social
 -
 api
 "
+persistent
+:
+true
 }
 ;
 let
