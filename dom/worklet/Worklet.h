@@ -80,6 +80,13 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Worklet
 )
+enum
+WorkletType
+{
+eAudioWorklet
+ePaintWorklet
+}
+;
 Worklet
 (
 nsPIDOMWindowInner
@@ -88,6 +95,8 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
+WorkletType
+aWorkletType
 )
 ;
 nsPIDOMWindowInner
@@ -185,6 +194,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+WorkletType
+mWorkletType
 ;
 RefPtr
 <

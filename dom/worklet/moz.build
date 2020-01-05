@@ -99,6 +99,11 @@ AudioWorkletGlobalScope
 h
 '
 '
+PaintWorkletGlobalScope
+.
+h
+'
+'
 Worklet
 .
 h
@@ -115,6 +120,11 @@ UNIFIED_SOURCES
 [
 '
 AudioWorkletGlobalScope
+.
+cpp
+'
+'
+PaintWorkletGlobalScope
 .
 cpp
 '
