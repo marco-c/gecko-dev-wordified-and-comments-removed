@@ -2107,9 +2107,9 @@ VideoData
 CreateFromImage
 (
 const
-VideoInfo
+IntSize
 &
-aInfo
+aDisplay
 int64_t
 aOffset
 int64_t
@@ -2127,10 +2127,6 @@ bool
 aKeyframe
 int64_t
 aTimecode
-const
-IntRect
-&
-aPicture
 )
 {
 RefPtr
@@ -2147,9 +2143,7 @@ aTime
 aDuration
 aKeyframe
 aTimecode
-aInfo
-.
-mDisplay
+aDisplay
 0
 )
 )
