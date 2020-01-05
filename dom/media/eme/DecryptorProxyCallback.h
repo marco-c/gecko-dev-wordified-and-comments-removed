@@ -49,6 +49,16 @@ DecryptorProxyCallback
 }
 virtual
 void
+SetDecryptorId
+(
+uint32_t
+aId
+)
+=
+0
+;
+virtual
+void
 SetSessionId
 (
 uint32_t

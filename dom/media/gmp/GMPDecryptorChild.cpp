@@ -390,6 +390,13 @@ mSession
 =
 aSession
 ;
+SendSetDecryptorId
+(
+Id
+(
+)
+)
+;
 }
 void
 GMPDecryptorChild
