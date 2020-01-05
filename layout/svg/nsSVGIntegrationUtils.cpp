@@ -1898,6 +1898,9 @@ i
 ]
 .
 mMaskMode
+aParams
+.
+flags
 )
 ;
 RefPtr
@@ -2299,6 +2302,9 @@ mLayers
 ]
 .
 mMaskMode
+aParams
+.
+flags
 )
 ;
 Tie

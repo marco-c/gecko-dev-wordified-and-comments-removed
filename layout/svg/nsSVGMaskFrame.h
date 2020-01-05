@@ -216,6 +216,9 @@ maskTransform
 uint8_t
 maskMode
 ;
+uint32_t
+flags
+;
 explicit
 MaskParams
 (
@@ -236,6 +239,8 @@ Matrix
 aMaskTransform
 uint8_t
 aMaskMode
+uint32_t
+aFlags
 )
 :
 ctx
@@ -261,6 +266,10 @@ aMaskTransform
 maskMode
 (
 aMaskMode
+)
+flags
+(
+aFlags
 )
 {
 }

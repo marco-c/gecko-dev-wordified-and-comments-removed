@@ -271,6 +271,9 @@ handleOpacity
 IntRect
 maskRect
 ;
+uint32_t
+flags
+;
 explicit
 PaintFramesParams
 (
@@ -302,6 +305,8 @@ LayerManager
 aLayerManager
 bool
 aHandleOpacity
+uint32_t
+aFlags
 )
 :
 ctx
@@ -331,6 +336,10 @@ aLayerManager
 handleOpacity
 (
 aHandleOpacity
+)
+flags
+(
+aFlags
 )
 {
 }
