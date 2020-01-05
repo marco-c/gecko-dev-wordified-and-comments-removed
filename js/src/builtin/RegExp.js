@@ -1783,9 +1783,6 @@ ToString
 string
 )
 ;
-var
-result
-;
 if
 (
 IsRegExpMethodOptimizable
@@ -1801,6 +1798,7 @@ length
 0x7fff
 )
 {
+var
 result
 =
 RegExpSearcher
@@ -1829,6 +1827,21 @@ result
 0x7fff
 ;
 }
+return
+RegExpSearchSlowPath
+(
+rx
+S
+)
+;
+}
+function
+RegExpSearchSlowPath
+(
+rx
+S
+)
+{
 var
 previousLastIndex
 =
@@ -1842,6 +1855,7 @@ lastIndex
 =
 0
 ;
+var
 result
 =
 RegExpExec
