@@ -47,6 +47,16 @@ Services
 )
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 defer
 =
 require

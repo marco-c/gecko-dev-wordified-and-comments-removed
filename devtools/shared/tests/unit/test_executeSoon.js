@@ -20,6 +20,16 @@ DevToolsUtils
 )
 ;
 var
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+var
 defer
 =
 require

@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 ALLOW_CONSOLE_ERRORS
 =
 true
@@ -152,9 +147,6 @@ an
 error
 when
 assertions
-"
-+
-"
 are
 enabled
 .
