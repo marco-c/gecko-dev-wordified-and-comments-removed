@@ -4436,6 +4436,14 @@ eCSSKeyword__moz_mac_source_list
 NS_THEME_MAC_SOURCE_LIST
 }
 {
+eCSSKeyword__moz_mac_source_list_selection
+NS_THEME_MAC_SOURCE_LIST_SELECTION
+}
+{
+eCSSKeyword__moz_mac_active_source_list_selection
+NS_THEME_MAC_ACTIVE_SOURCE_LIST_SELECTION
+}
+{
 eCSSKeyword_UNKNOWN
 -
 1

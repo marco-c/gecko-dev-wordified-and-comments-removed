@@ -100,6 +100,8 @@ eThemeGeometryTypeVibrancyDark
 eThemeGeometryTypeTooltip
 eThemeGeometryTypeSheet
 eThemeGeometryTypeSourceList
+eThemeGeometryTypeSourceListSelection
+eThemeGeometryTypeActiveSourceListSelection
 }
 ;
 nsNativeThemeCocoa
