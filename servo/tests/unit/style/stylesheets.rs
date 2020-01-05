@@ -148,7 +148,7 @@ stylesheets
 {
 Stylesheet
 NamespaceRule
-CSSRule
+CssRule
 StyleRule
 KeyframesRule
 Origin
@@ -440,7 +440,7 @@ rules
 vec
 !
 [
-CSSRule
+CssRule
 :
 :
 Namespace
@@ -487,7 +487,7 @@ xhtml
 )
 )
 )
-CSSRule
+CssRule
 :
 :
 Style
@@ -761,7 +761,7 @@ important_count
 )
 )
 )
-CSSRule
+CssRule
 :
 :
 Style
@@ -1062,7 +1062,7 @@ important_count
 )
 )
 )
-CSSRule
+CssRule
 :
 :
 Style
@@ -1662,7 +1662,7 @@ important_count
 )
 )
 )
-CSSRule
+CssRule
 :
 :
 Keyframes

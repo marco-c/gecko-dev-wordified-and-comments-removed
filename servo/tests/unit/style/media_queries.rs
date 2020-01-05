@@ -74,7 +74,7 @@ stylesheets
 {
 Stylesheet
 Origin
-CSSRule
+CssRule
 }
 ;
 use
@@ -273,7 +273,7 @@ rules
 :
 &
 [
-CSSRule
+CssRule
 ]
 f
 :

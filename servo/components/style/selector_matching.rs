@@ -239,7 +239,7 @@ stylesheets
 :
 :
 {
-CSSRule
+CssRule
 Origin
 StyleRule
 Stylesheet
@@ -834,7 +834,7 @@ match
 *
 rule
 {
-CSSRule
+CssRule
 :
 :
 Style
@@ -1016,7 +1016,7 @@ clone
 }
 }
 }
-CSSRule
+CssRule
 :
 :
 Keyframes
@@ -1931,7 +1931,7 @@ rules
 :
 &
 [
-CSSRule
+CssRule
 ]
 before
 :
