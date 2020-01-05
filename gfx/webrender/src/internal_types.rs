@@ -1516,6 +1516,15 @@ RenderTargetMode
 )
 }
 pub
+type
+ExternalImageUpdateList
+=
+Vec
+<
+ExternalImageId
+>
+;
+pub
 struct
 TextureUpdate
 {
@@ -1689,10 +1698,6 @@ pub
 enum
 ResultMsg
 {
-UpdateTextureCache
-(
-TextureUpdateList
-)
 RefreshShader
 (
 PathBuf
@@ -1700,6 +1705,8 @@ PathBuf
 NewFrame
 (
 RendererFrame
+TextureUpdateList
+ExternalImageUpdateList
 BackendProfileCounters
 )
 }
