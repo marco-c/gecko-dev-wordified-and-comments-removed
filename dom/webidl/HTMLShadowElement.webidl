@@ -163,6 +163,16 @@ document
 .
 *
 /
+[
+Func
+=
+"
+nsDocument
+:
+:
+IsWebComponentsEnabled
+"
+]
 interface
 HTMLShadowElement
 :
