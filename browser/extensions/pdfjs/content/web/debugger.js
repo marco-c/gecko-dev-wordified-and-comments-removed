@@ -3416,7 +3416,8 @@ panel
 (
 )
 ;
-var
+window
+.
 PDFBug
 =
 (
