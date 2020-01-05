@@ -2740,6 +2740,13 @@ document_from_node
 self
 )
 ;
+if
+self
+.
+is_in_doc
+(
+)
+{
 for
 node
 in
@@ -2779,6 +2786,7 @@ bind_to_tree_impl
 (
 )
 ;
+}
 }
 }
 document
