@@ -3696,7 +3696,7 @@ return
 1
 ;
 }
-void
+bool
 ProfileBuffer
 :
 :
@@ -3728,6 +3728,7 @@ lastSampleStartPos
 )
 {
 return
+false
 ;
 }
 MOZ_ASSERT
@@ -3801,6 +3802,7 @@ Kind
 ThreadId
 :
 return
+true
 ;
 case
 ProfileBufferEntry
@@ -3862,4 +3864,7 @@ break
 ;
 }
 }
+return
+true
+;
 }

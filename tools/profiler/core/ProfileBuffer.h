@@ -103,7 +103,7 @@ UniqueStacks
 aUniqueStacks
 )
 ;
-void
+bool
 DuplicateLastSample
 (
 int
