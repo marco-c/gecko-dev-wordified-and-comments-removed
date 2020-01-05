@@ -528,6 +528,11 @@ DeclarationBlockInlines
 h
 '
 '
+DocumentStyleRootIterator
+.
+h
+'
+'
 HandleRefPtr
 .
 h
@@ -832,6 +837,11 @@ cpp
 '
 '
 Declaration
+.
+cpp
+'
+'
+DocumentStyleRootIterator
 .
 cpp
 '
