@@ -820,7 +820,7 @@ OpAttachCompositable
 LayerHandle
 layer
 ;
-PCompositable
+CompositableHandle
 compositable
 ;
 }
@@ -2438,7 +2438,7 @@ OpUseOverlaySource
 struct
 CompositableOperation
 {
-PCompositable
+CompositableHandle
 compositable
 ;
 CompositableOperationDetail
@@ -2558,7 +2558,7 @@ OpDestroy
 {
 PTexture
 ;
-PCompositable
+CompositableHandle
 ;
 }
 ;
@@ -2570,7 +2570,7 @@ operations
 struct
 OpContentBufferSwap
 {
-PCompositable
+CompositableHandle
 compositable
 ;
 nsIntRegion
