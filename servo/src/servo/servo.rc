@@ -220,6 +220,10 @@ window
 ;
 pub
 mod
+proxyhandler
+;
+pub
+mod
 clientrect
 ;
 pub

@@ -275,10 +275,10 @@ root
 ptr
 )
 ;
-}
 return
 1
 ;
+}
 }
 unsafe
 fn
