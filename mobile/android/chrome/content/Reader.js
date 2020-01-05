@@ -555,7 +555,7 @@ FaviconRequest
 "
 :
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequestForResult
 (
