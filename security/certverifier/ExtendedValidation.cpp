@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+Casting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -153,12 +162,6 @@ char
 *
 serial_base64
 ;
-mozilla
-:
-:
-UniqueCERTCertificate
-cert
-;
 }
 ;
 #
@@ -263,7 +266,6 @@ MBExDzANBgNVBAMMBmV2cm9vdA
 W9j5PS8YoKgynZdYa9i2Kwexnp8
 =
 "
-nullptr
 }
 {
 "
@@ -345,7 +347,6 @@ P1iIBgxk6kH
 x64EUBTV3qoHuas
 =
 "
-nullptr
 }
 #
 endif
@@ -420,7 +421,6 @@ AA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -496,7 +496,6 @@ dCBHbG9iYWwgUm9vdA
 BAAAAAABD4WqLUg
 =
 "
-nullptr
 }
 {
 "
@@ -570,7 +569,6 @@ ALtAHEP1Xk
 +
 w
 "
-nullptr
 }
 {
 "
@@ -650,7 +648,6 @@ AQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -730,7 +727,6 @@ LQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -807,7 +803,6 @@ Ow
 =
 =
 "
-nullptr
 }
 {
 "
@@ -891,7 +886,6 @@ GNrRniZ96LtKIVjNzGs7Sg
 =
 =
 "
-nullptr
 }
 {
 "
@@ -964,7 +958,6 @@ GKy1av1pthU6Y2yv2vrEoQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1047,7 +1040,6 @@ ON9srbQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1129,7 +1121,6 @@ grQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1207,7 +1198,6 @@ DrJxhZ0A
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1284,7 +1274,6 @@ B1YipOjUiolN9BPI8PjqpQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1368,7 +1357,6 @@ H0evqmIAcFBUTAGem2OZKg
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1450,7 +1438,6 @@ ToEtioJl4AsC7j41AkblPQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1533,7 +1520,6 @@ AQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1624,7 +1610,6 @@ Q
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1703,7 +1688,6 @@ AA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1782,7 +1766,6 @@ AA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1862,7 +1845,6 @@ AA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -1944,7 +1926,6 @@ AA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -2017,7 +1998,6 @@ AqxcJmoLQJuPC3nyrkYldw
 =
 =
 "
-nullptr
 }
 {
 "
@@ -2097,7 +2077,6 @@ VQQDExJRdW9WYWRpcyBSb290IENBIDI
 BQk
 =
 "
-nullptr
 }
 {
 "
@@ -2182,7 +2161,6 @@ V8szb8JcFuZHFhfjkDFo4A
 =
 =
 "
-nullptr
 }
 {
 "
@@ -2260,7 +2238,6 @@ RWtQVA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -2333,7 +2310,6 @@ VQQLEwdSb290IENBMRswGQYDVQQDExJHbG9iYWxTaWduIFJvb3QgQ0E
 BAAAAAABFUtaw5Q
 =
 "
-nullptr
 }
 {
 "
@@ -2405,7 +2381,6 @@ bG9iYWxTaWduMRMwEQYDVQQDEwpHbG9iYWxTaWdu
 BAAAAAABD4Ym5g0
 =
 "
-nullptr
 }
 {
 "
@@ -2477,7 +2452,6 @@ bG9iYWxTaWduMRMwEQYDVQQDEwpHbG9iYWxTaWdu
 BAAAAAABIVhTCKI
 =
 "
-nullptr
 }
 {
 "
@@ -2549,7 +2523,6 @@ Ag
 =
 =
 "
-nullptr
 }
 {
 "
@@ -2629,7 +2602,6 @@ AIW9S
 PY2uNp9pTXX8OlRCM
 =
 "
-nullptr
 }
 {
 "
@@ -2713,7 +2685,6 @@ IENoYW1iZXJzIG9mIENvbW1lcmNlIFJvb3QgLSAyMDA4
 "
 AKPaQn6ksa7a
 "
-nullptr
 }
 {
 "
@@ -2801,7 +2772,6 @@ AMnN0
 +
 nVfSPO
 "
-nullptr
 }
 {
 "
@@ -2876,7 +2846,6 @@ QWZmaXJtVHJ1c3QgQ29tbWVyY2lhbA
 d3cGJyapsXw
 =
 "
-nullptr
 }
 {
 "
@@ -2951,7 +2920,6 @@ QWZmaXJtVHJ1c3QgTmV0d29ya2luZw
 fE8EORzUmS0
 =
 "
-nullptr
 }
 {
 "
@@ -3026,7 +2994,6 @@ QWZmaXJtVHJ1c3QgUHJlbWl1bQ
 bYwURrGmCu4
 =
 "
-nullptr
 }
 {
 "
@@ -3102,7 +3069,6 @@ dJclisc
 elQ
 =
 "
-nullptr
 }
 {
 "
@@ -3177,7 +3143,6 @@ BgNVBAMTGUNlcnR1bSBUcnVzdGVkIE5ldHdvcmsgQ0E
 "
 BETA
 "
-nullptr
 }
 {
 "
@@ -3256,7 +3221,6 @@ yqXhKN6Q
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3338,7 +3302,6 @@ WL1xnmfQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3420,7 +3383,6 @@ WL1xnmfQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3502,7 +3464,6 @@ AQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3578,7 +3539,6 @@ SJ8AAQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3660,7 +3620,6 @@ AQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3737,7 +3696,6 @@ IUQtVFJVU1QgUm9vdCBDbGFzcyAzIENBIDIgRVYgMjAwOQ
 "
 CYP0
 "
-nullptr
 }
 {
 "
@@ -3810,7 +3768,6 @@ APL6ZOJ0Y9ON
 RAdBB92ylg
 =
 "
-nullptr
 }
 {
 "
@@ -3889,7 +3846,6 @@ QBrEZCGzEyEDDrvkEhrFHQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -3969,7 +3925,6 @@ FaxulBmyeUtB9iepwxgPHw
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4052,7 +4007,6 @@ w
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4131,7 +4085,6 @@ U
 w77vuySF8
 =
 "
-nullptr
 }
 {
 "
@@ -4208,7 +4161,6 @@ b3QgQ0ExHDAaBgNVBAMTE1RXQ0EgR2xvYmFsIFJvb3QgQ0E
 DL4
 =
 "
-nullptr
 }
 {
 "
@@ -4290,7 +4242,6 @@ amg
 nFGby1M
 =
 "
-nullptr
 }
 {
 "
@@ -4361,7 +4312,6 @@ YXRpb24gUm9vdCBDQQ
 VwoRl0LE48w
 =
 "
-nullptr
 }
 {
 "
@@ -4432,7 +4382,6 @@ XmjWEXGUY1BWAGjzPsnFkQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4507,7 +4456,6 @@ BtOOzNy0hFIjQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4585,7 +4533,6 @@ Dr5r0Sw
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4663,7 +4610,6 @@ NJKBs7A
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4735,7 +4681,6 @@ Azrx5qcRqaC7KGSxHQn65Q
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4807,7 +4752,6 @@ BVVWvPJepDU1w6QP1atFcg
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4881,7 +4825,6 @@ BZsbV56OITLiOQe9p3d1XA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -4960,7 +4903,6 @@ VQQDExVRdW9WYWRpcyBSb290IENBIDIgRzM
 RFc0JFuBiZs18s64KztbpybwdSg
 =
 "
-nullptr
 }
 {
 "
@@ -5046,7 +4988,6 @@ Af907YWwOGnQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5130,7 +5071,6 @@ Af1tMPyjylGoG7xkDjUDLQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5214,7 +5154,6 @@ XIuZxVqUxdJxVt7NiYDMJg
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5290,7 +5229,6 @@ KjikHJYKBN5CsiilC
 g0mAI
 =
 "
-nullptr
 }
 {
 "
@@ -5364,7 +5302,6 @@ ChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbg
 YFlJ4CYuu1X5CneKcflK2Gw
 =
 "
-nullptr
 }
 {
 "
@@ -5443,7 +5380,6 @@ A
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5516,7 +5452,6 @@ AJiWjQ
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5600,7 +5535,6 @@ SlOMKA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5685,7 +5619,6 @@ Q
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5752,7 +5685,6 @@ GErM1g
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5823,7 +5755,6 @@ ayXaioidfLwPBbOxemFFRA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5896,7 +5827,6 @@ vbe6LCQkA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -5973,7 +5903,6 @@ IFNlcnRpZmlrYSBIaXptZXQgU2HEn2xhecSxY8Sxc8SxIEg2
 "
 faHyZeyK
 "
-nullptr
 }
 {
 "
@@ -6043,7 +5972,6 @@ AA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -6119,7 +6047,6 @@ gjGvbCwA
 =
 =
 "
-nullptr
 }
 {
 "
@@ -6199,7 +6126,6 @@ ESBVg
 +
 QtPlRWhS2DN7cs3EYR
 "
-nullptr
 }
 {
 "
@@ -6284,7 +6210,6 @@ pAq
 /
 Pc7xV
 "
-nullptr
 }
 {
 "
@@ -6360,7 +6285,6 @@ ZW5UcnVzdCBSb290IENBIEcx
 "
 ESCzkFU5fX82bWTCp59rY45n
 "
-nullptr
 }
 {
 "
@@ -6440,7 +6364,6 @@ vbm9UpaPI
 +
 hIvyYR
 "
-nullptr
 }
 {
 "
@@ -6521,7 +6444,6 @@ Ez8JLC
 BUCs2oMbNGA
 /
 "
-nullptr
 }
 {
 "
@@ -6607,7 +6529,6 @@ I4wOIg9IZxIokYessw
 =
 =
 "
-nullptr
 }
 }
 ;
@@ -6781,6 +6702,52 @@ return
 false
 ;
 }
+unsigned
+char
+fingerprint
+[
+SHA256_LENGTH
+]
+;
+SECStatus
+srv
+=
+PK11_HashBuf
+(
+SEC_OID_SHA256
+fingerprint
+cert
+-
+>
+derCert
+.
+data
+AssertedCast
+<
+int32_t
+>
+(
+cert
+-
+>
+derCert
+.
+len
+)
+)
+;
+if
+(
+srv
+!
+=
+SECSuccess
+)
+{
+return
+false
+;
+}
 const
 SECOidData
 *
@@ -6803,28 +6770,19 @@ myTrustedEVInfos
 {
 if
 (
+!
+PodEqual
+(
+fingerprint
 entry
 .
-cert
-&
-&
-CERT_CompareCerts
-(
-cert
-.
-get
-(
-)
-entry
-.
-cert
-.
-get
-(
-)
+ev_root_sha256_fingerprint
 )
 )
 {
+continue
+;
+}
 if
 (
 cabforumOIDData
@@ -6843,9 +6801,6 @@ policy
 numBytes
 &
 &
-mozilla
-:
-:
 PodEqual
 (
 cabforumOIDData
@@ -6897,9 +6852,6 @@ policy
 numBytes
 &
 &
-mozilla
-:
-:
 PodEqual
 (
 oidData
@@ -6920,7 +6872,6 @@ numBytes
 return
 true
 ;
-}
 }
 }
 return
@@ -7168,11 +7119,8 @@ type
 =
 siUnsignedInteger
 ;
-entry
-.
-cert
-=
 UniqueCERTCertificate
+cert
 (
 CERT_FindCertByIssuerAndSN
 (
@@ -7185,8 +7133,6 @@ ias
 if
 (
 !
-entry
-.
 cert
 )
 {
@@ -7235,21 +7181,17 @@ PK11_HashBuf
 (
 SEC_OID_SHA256
 certFingerprint
-entry
-.
 cert
 -
 >
 derCert
 .
 data
-static_cast
+AssertedCast
 <
 int32_t
 >
 (
-entry
-.
 cert
 -
 >
@@ -7389,12 +7331,6 @@ SECSuccess
 {
 entry
 .
-cert
-=
-nullptr
-;
-entry
-.
 oid_tag
 =
 SEC_OID_UNKNOWN
@@ -7433,22 +7369,6 @@ CleanupIdentityInfo
 (
 )
 {
-for
-(
-nsMyTrustedEVInfo
-&
-entry
-:
-myTrustedEVInfos
-)
-{
-entry
-.
-cert
-=
-nullptr
-;
-}
 memset
 (
 &
