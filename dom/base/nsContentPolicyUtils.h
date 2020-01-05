@@ -624,6 +624,15 @@ rv
 if
 (
 isSystem
+&
+&
+contentType
+!
+=
+nsIContentPolicy
+:
+:
+TYPE_DOCUMENT
 )
 {
 \
