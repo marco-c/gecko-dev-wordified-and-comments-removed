@@ -755,6 +755,13 @@ MaybeImportEnterpriseRoots
 #
 ifdef
 XP_WIN
+void
+ImportEnterpriseRootsForLocation
+(
+DWORD
+locationFlag
+)
+;
 nsresult
 MaybeImportFamilySafetyRoot
 (
