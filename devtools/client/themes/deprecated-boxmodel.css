@@ -36,6 +36,15 @@ splitter
 color
 )
 ;
+-
+moz
+-
+user
+-
+select
+:
+none
+;
 }
 #
 old
@@ -1146,7 +1155,7 @@ user
 -
 select
 :
-text
+none
 ;
 }
 .
