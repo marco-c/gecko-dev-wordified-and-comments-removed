@@ -1,7 +1,7 @@
 #
 include
 "
-nsCollation
+nsCollationFactory
 .
 h
 "
