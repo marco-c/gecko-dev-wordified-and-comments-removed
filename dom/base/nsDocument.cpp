@@ -10487,7 +10487,7 @@ Doc
 }
 else
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
