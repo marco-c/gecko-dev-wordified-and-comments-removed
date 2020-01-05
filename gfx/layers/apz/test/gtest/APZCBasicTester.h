@@ -189,6 +189,13 @@ Destroy
 (
 )
 ;
+tm
+-
+>
+ClearTree
+(
+)
+;
 }
 void
 MakeApzcWaitForMainThread
