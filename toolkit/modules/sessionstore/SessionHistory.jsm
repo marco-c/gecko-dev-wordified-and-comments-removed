@@ -190,6 +190,7 @@ docShell
 tabData
 )
 {
+return
 SessionHistoryInternal
 .
 restore
@@ -1337,6 +1338,9 @@ true
 )
 ;
 }
+return
+history
+;
 }
 deserializeEntry
 (
