@@ -266,8 +266,6 @@ DestroyInTransaction
 PTextureChild
 *
 aTexture
-bool
-aSynchronously
 )
 override
 ;
@@ -400,8 +398,6 @@ const
 OpDestroy
 &
 aOp
-bool
-aSynchronously
 )
 ;
 nsTArray

@@ -235,8 +235,6 @@ DestroyInTransaction
 PTextureChild
 *
 aTexture
-bool
-synchronously
 )
 =
 0

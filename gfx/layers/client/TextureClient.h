@@ -1648,10 +1648,6 @@ GetIPDLActor
 void
 Destroy
 (
-bool
-sync
-=
-false
 )
 ;
 void
