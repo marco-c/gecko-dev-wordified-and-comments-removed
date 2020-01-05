@@ -385,9 +385,11 @@ eyedropper
 -
 toggle
 {
-display
+pointer
+-
+events
 :
-none
+auto
 ;
 }
 #
