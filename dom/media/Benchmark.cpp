@@ -324,11 +324,15 @@ Run
 >
 Then
 (
-AbstractThread
+SystemGroup
 :
 :
-MainThread
+AbstractMainThreadFor
 (
+TaskCategory
+:
+:
+Other
 )
 __func__
 [
