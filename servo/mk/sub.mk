@@ -81,6 +81,12 @@ geom
 rust
 -
 cairo
+\
+skia
+\
+(
+NULL
+)
 DEPS_rust
 -
 glut
