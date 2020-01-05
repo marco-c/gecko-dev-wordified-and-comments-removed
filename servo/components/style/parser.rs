@@ -45,6 +45,10 @@ a
 >
 {
 pub
+stylesheet_origin
+:
+Origin
+pub
 base_url
 :
 &
@@ -114,6 +118,9 @@ UserAgent
 ;
 ParserContext
 {
+stylesheet_origin
+:
+stylesheet_origin
 base_url
 :
 base_url

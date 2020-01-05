@@ -90,6 +90,15 @@ Receiver
 }
 ;
 use
+style
+:
+:
+viewport
+:
+:
+ViewportConstraints
+;
+use
 webdriver_traits
 :
 :
@@ -547,6 +556,11 @@ WebDriverCommand
 (
 PipelineId
 WebDriverScriptCommand
+)
+ViewportConstrained
+(
+PipelineId
+ViewportConstraints
 )
 }
 #
