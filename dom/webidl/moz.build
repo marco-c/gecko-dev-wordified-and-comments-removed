@@ -6199,6 +6199,11 @@ ProgressEvent
 webidl
 '
 '
+PromiseRejectionEvent
+.
+webidl
+'
+'
 RecordErrorEvent
 .
 webidl
