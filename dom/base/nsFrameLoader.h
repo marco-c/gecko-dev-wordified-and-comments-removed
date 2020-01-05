@@ -954,12 +954,6 @@ nsIPartialSHistory
 >
 mPartialSessionHistory
 ;
-nsCOMPtr
-<
-nsIGroupedSHistory
->
-mGroupedSessionHistory
-;
 nsTArray
 <
 RefPtr
