@@ -41,15 +41,6 @@ requests
 packages
 .
 urllib3
-requests
-.
-packages
-.
-urllib3
-.
-disable_warnings
-(
-)
 import
 argparse
 import
@@ -70,6 +61,15 @@ import
 time
 import
 tooltool
+requests
+.
+packages
+.
+urllib3
+.
+disable_warnings
+(
+)
 def
 local_file
 (
@@ -375,6 +375,7 @@ datetime
 .
 timedelta
 (
+            
 hours
 =
 2
@@ -403,6 +404,7 @@ datetime
 .
 timedelta
 (
+            
 days
 =
 1
@@ -582,7 +584,7 @@ utcnow
 if
 have_ticks
 :
-              
+                
 sys
 .
 stdout
@@ -594,7 +596,7 @@ write
 n
 '
 )
-              
+                
 have_ticks
 =
 False
@@ -1277,7 +1279,9 @@ local_gecko_clone
     
 platform
 =
+'
 linux
+'
     
 manifest_dir
 =
@@ -1398,6 +1402,7 @@ add_argument
 '
 taskcluster_auth
 '
+                        
 help
 =
 '
@@ -1408,6 +1413,9 @@ file
 containing
 Taskcluster
 client
+'
+                             
+'
 ID
 and
 authentication
@@ -1417,6 +1425,9 @@ a
 JSON
 file
 in
+'
+                             
+'
 the
 form
 {
@@ -1453,6 +1464,7 @@ tooltool
 -
 auth
 '
+                        
 help
 =
 '
@@ -1463,6 +1475,9 @@ file
 containing
 a
 tooltool
+'
+                             
+'
 authentication
 token
 valid
@@ -1485,6 +1500,7 @@ gecko
 -
 clone
 '
+                        
 help
 =
 '
@@ -1496,6 +1512,9 @@ Gecko
 clone
 whose
 tooltool
+'
+                             
+'
 manifests
 will
 be
@@ -1651,6 +1670,7 @@ args
 .
 tooltool_auth
 task_id
+                                          
 artifact
 )
         
