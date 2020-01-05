@@ -1900,7 +1900,7 @@ side
 )
 {
 case
-NS_SIDE_TOP
+eSideTop
 :
 return
 TopLeft
@@ -1908,7 +1908,7 @@ TopLeft
 )
 ;
 case
-NS_SIDE_RIGHT
+eSideRight
 :
 return
 TopRight
@@ -1916,7 +1916,7 @@ TopRight
 )
 ;
 case
-NS_SIDE_BOTTOM
+eSideBottom
 :
 return
 BottomRight
@@ -1924,7 +1924,7 @@ BottomRight
 )
 ;
 case
-NS_SIDE_LEFT
+eSideLeft
 :
 return
 BottomLeft
@@ -1960,7 +1960,7 @@ side
 )
 {
 case
-NS_SIDE_TOP
+eSideTop
 :
 return
 TopRight
@@ -1968,7 +1968,7 @@ TopRight
 )
 ;
 case
-NS_SIDE_RIGHT
+eSideRight
 :
 return
 BottomRight
@@ -1976,7 +1976,7 @@ BottomRight
 )
 ;
 case
-NS_SIDE_BOTTOM
+eSideBottom
 :
 return
 BottomLeft
@@ -1984,7 +1984,7 @@ BottomLeft
 )
 ;
 case
-NS_SIDE_LEFT
+eSideLeft
 :
 return
 TopLeft
@@ -2132,7 +2132,7 @@ aSide
 )
 {
 case
-NS_SIDE_TOP
+eSideTop
 :
 return
 Y
@@ -2140,7 +2140,7 @@ Y
 )
 ;
 case
-NS_SIDE_RIGHT
+eSideRight
 :
 return
 XMost
@@ -2148,7 +2148,7 @@ XMost
 )
 ;
 case
-NS_SIDE_BOTTOM
+eSideBottom
 :
 return
 YMost
@@ -2156,7 +2156,7 @@ YMost
 )
 ;
 case
-NS_SIDE_LEFT
+eSideLeft
 :
 return
 X

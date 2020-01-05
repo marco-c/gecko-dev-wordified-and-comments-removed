@@ -769,9 +769,9 @@ mHorizontal
 1
 )
 ?
-NS_SIDE_LEFT
+eSideLeft
 :
-NS_SIDE_RIGHT
+eSideRight
 (
 direction
 .
@@ -782,9 +782,9 @@ mVertical
 1
 )
 ?
-NS_SIDE_TOP
+eSideTop
 :
-NS_SIDE_BOTTOM
+eSideBottom
 mouseMove
 )
 ;

@@ -74,7 +74,7 @@ SPECIFIED_LEFT
 1
 <
 <
-NS_SIDE_LEFT
+eSideLeft
 )
 #
 define
@@ -83,7 +83,7 @@ SPECIFIED_RIGHT
 1
 <
 <
-NS_SIDE_RIGHT
+eSideRight
 )
 #
 define
@@ -92,7 +92,7 @@ SPECIFIED_TOP
 1
 <
 <
-NS_SIDE_TOP
+eSideTop
 )
 #
 define
@@ -101,7 +101,7 @@ SPECIFIED_BOTTOM
 1
 <
 <
-NS_SIDE_BOTTOM
+eSideBottom
 )
 nsresult
 NS_NewStackLayout

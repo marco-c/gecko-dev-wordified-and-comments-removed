@@ -3530,7 +3530,7 @@ DoGetBottom
 return
 GetOffsetWidthFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -14380,7 +14380,7 @@ DoGetPaddingTop
 return
 GetPaddingWidthFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -14398,7 +14398,7 @@ DoGetPaddingBottom
 return
 GetPaddingWidthFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -14416,7 +14416,7 @@ DoGetPaddingLeft
 return
 GetPaddingWidthFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -14434,7 +14434,7 @@ DoGetPaddingRight
 return
 GetPaddingWidthFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -14759,7 +14759,7 @@ DoGetBorderTopStyle
 return
 GetBorderStyleFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -14777,7 +14777,7 @@ DoGetBorderBottomStyle
 return
 GetBorderStyleFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -14795,7 +14795,7 @@ DoGetBorderLeftStyle
 return
 GetBorderStyleFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -14813,7 +14813,7 @@ DoGetBorderRightStyle
 return
 GetBorderStyleFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -14831,7 +14831,7 @@ DoGetBorderBottomColors
 return
 GetBorderColorsFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -14849,7 +14849,7 @@ DoGetBorderLeftColors
 return
 GetBorderColorsFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -14867,7 +14867,7 @@ DoGetBorderRightColors
 return
 GetBorderColorsFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -14885,7 +14885,7 @@ DoGetBorderTopColors
 return
 GetBorderColorsFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -14999,7 +14999,7 @@ DoGetBorderTopWidth
 return
 GetBorderWidthFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -15017,7 +15017,7 @@ DoGetBorderBottomWidth
 return
 GetBorderWidthFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -15035,7 +15035,7 @@ DoGetBorderLeftWidth
 return
 GetBorderWidthFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -15053,7 +15053,7 @@ DoGetBorderRightWidth
 return
 GetBorderWidthFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -15071,7 +15071,7 @@ DoGetBorderTopColor
 return
 GetBorderColorFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -15089,7 +15089,7 @@ DoGetBorderBottomColor
 return
 GetBorderColorFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -15107,7 +15107,7 @@ DoGetBorderLeftColor
 return
 GetBorderColorFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -15125,7 +15125,7 @@ DoGetBorderRightColor
 return
 GetBorderColorFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -15143,7 +15143,7 @@ DoGetMarginTopWidth
 return
 GetMarginWidthFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -15161,7 +15161,7 @@ DoGetMarginBottomWidth
 return
 GetMarginWidthFor
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -15179,7 +15179,7 @@ DoGetMarginLeftWidth
 return
 GetMarginWidthFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -15197,7 +15197,7 @@ DoGetMarginRightWidth
 return
 GetMarginWidthFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -24545,7 +24545,7 @@ DoGetLeft
 return
 GetOffsetWidthFor
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 }
@@ -24563,7 +24563,7 @@ DoGetRight
 return
 GetOffsetWidthFor
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }
@@ -24581,7 +24581,7 @@ DoGetTop
 return
 GetOffsetWidthFor
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 }
@@ -24872,7 +24872,7 @@ aSide
 )
 {
 case
-NS_SIDE_TOP
+eSideTop
 :
 offset
 =
@@ -24895,7 +24895,7 @@ top
 break
 ;
 case
-NS_SIDE_RIGHT
+eSideRight
 :
 offset
 =
@@ -24926,7 +24926,7 @@ right
 break
 ;
 case
-NS_SIDE_BOTTOM
+eSideBottom
 :
 offset
 =
@@ -24957,7 +24957,7 @@ bottom
 break
 ;
 case
-NS_SIDE_LEFT
+eSideLeft
 :
 offset
 =
@@ -25019,25 +25019,25 @@ forget
 }
 static_assert
 (
-NS_SIDE_TOP
+eSideTop
 =
 =
 0
 &
 &
-NS_SIDE_RIGHT
+eSideRight
 =
 =
 1
 &
 &
-NS_SIDE_BOTTOM
+eSideBottom
 =
 =
 2
 &
 &
-NS_SIDE_LEFT
+eSideLeft
 =
 =
 3
@@ -25210,13 +25210,13 @@ if
 aSide
 =
 =
-NS_SIDE_LEFT
+eSideLeft
 |
 |
 aSide
 =
 =
-NS_SIDE_RIGHT
+eSideRight
 )
 {
 baseGetter
@@ -25389,13 +25389,13 @@ if
 aSide
 =
 =
-NS_SIDE_LEFT
+eSideLeft
 |
 |
 aSide
 =
 =
-NS_SIDE_RIGHT
+eSideRight
 )
 {
 baseGetter

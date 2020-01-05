@@ -509,9 +509,9 @@ aCorner
 C_TR
 )
 ?
-NS_SIDE_TOP
+eSideTop
 :
-NS_SIDE_BOTTOM
+eSideBottom
 ;
 }
 static
@@ -545,9 +545,9 @@ aCorner
 C_BL
 )
 ?
-NS_SIDE_LEFT
+eSideLeft
 :
-NS_SIDE_RIGHT
+eSideRight
 ;
 }
 static
@@ -661,13 +661,13 @@ return
 aSide
 =
 =
-NS_SIDE_TOP
+eSideTop
 |
 |
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eSideBottom
 ;
 }
 typedef
@@ -947,7 +947,7 @@ width
 -
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 )
 ;
@@ -975,7 +975,7 @@ height
 -
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 ;
@@ -1003,7 +1003,7 @@ width
 -
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 )
 ;
@@ -1031,7 +1031,7 @@ height
 -
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 ;
@@ -1059,7 +1059,7 @@ width
 -
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 )
 ;
@@ -1087,7 +1087,7 @@ height
 -
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 )
 ;
@@ -1115,7 +1115,7 @@ width
 -
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 )
 ;
@@ -1143,7 +1143,7 @@ height
 -
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 )
 ;
@@ -1233,7 +1233,7 @@ width
 +
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 )
 ;
@@ -1261,7 +1261,7 @@ height
 +
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 ;
@@ -1316,7 +1316,7 @@ width
 +
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 )
 ;
@@ -1344,7 +1344,7 @@ height
 +
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 ;
@@ -1399,7 +1399,7 @@ width
 +
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 )
 ;
@@ -1427,7 +1427,7 @@ height
 +
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 )
 ;
@@ -1482,7 +1482,7 @@ width
 +
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 )
 ;
@@ -1510,7 +1510,7 @@ height
 +
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 )
 ;
@@ -1537,7 +1537,7 @@ leftWidth
 =
 aBorderWidths
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 ;
 Float
@@ -1545,7 +1545,7 @@ topWidth
 =
 aBorderWidths
 [
-NS_SIDE_TOP
+eSideTop
 ]
 ;
 Float
@@ -1553,7 +1553,7 @@ rightWidth
 =
 aBorderWidths
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 ;
 Float
@@ -1561,7 +1561,7 @@ bottomWidth
 =
 aBorderWidths
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 ;
 if
@@ -2463,7 +2463,7 @@ if
 aSide
 =
 =
-NS_SIDE_TOP
+eSideTop
 )
 {
 offset
@@ -2484,7 +2484,7 @@ if
 aSide
 =
 =
-NS_SIDE_RIGHT
+eSideRight
 )
 {
 offset
@@ -2499,7 +2499,7 @@ Width
 -
 mBorderWidths
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 ;
 offset
@@ -2520,7 +2520,7 @@ if
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eSideBottom
 )
 {
 offset
@@ -2546,7 +2546,7 @@ Height
 -
 mBorderWidths
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 ;
 }
@@ -2556,7 +2556,7 @@ if
 aSide
 =
 =
-NS_SIDE_LEFT
+eSideLeft
 )
 {
 offset
@@ -4695,7 +4695,7 @@ SIDE_BIT_TOP
 {
 r
 [
-NS_SIDE_TOP
+eSideTop
 ]
 =
 Rect
@@ -4717,7 +4717,7 @@ Width
 )
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 ;
@@ -4731,7 +4731,7 @@ SIDE_BIT_BOTTOM
 {
 r
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 =
 Rect
@@ -4749,7 +4749,7 @@ YMost
 -
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 aOuterRect
 .
@@ -4758,7 +4758,7 @@ Width
 )
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 )
 ;
@@ -4772,7 +4772,7 @@ SIDE_BIT_LEFT
 {
 r
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 =
 Rect
@@ -4789,7 +4789,7 @@ Y
 )
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 aOuterRect
 .
@@ -4808,7 +4808,7 @@ SIDE_BIT_RIGHT
 {
 r
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 =
 Rect
@@ -4821,7 +4821,7 @@ XMost
 -
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 aOuterRect
 .
@@ -4830,7 +4830,7 @@ Y
 )
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 aOuterRect
 .
@@ -4862,7 +4862,7 @@ SIDE_BIT_LEFT
 {
 r
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 .
 y
@@ -4870,12 +4870,12 @@ y
 =
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 ;
 r
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 .
 height
@@ -4883,7 +4883,7 @@ height
 =
 aBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 ;
 }
@@ -4909,7 +4909,7 @@ SIDE_BIT_RIGHT
 {
 r
 [
-NS_SIDE_TOP
+eSideTop
 ]
 .
 width
@@ -4917,7 +4917,7 @@ width
 =
 aBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 ;
 }
@@ -4943,7 +4943,7 @@ SIDE_BIT_RIGHT
 {
 r
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 .
 height
@@ -4951,7 +4951,7 @@ height
 =
 aBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 ;
 }
@@ -4977,7 +4977,7 @@ SIDE_BIT_LEFT
 {
 r
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 .
 x
@@ -4985,12 +4985,12 @@ x
 =
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 ;
 r
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 .
 width
@@ -4998,7 +4998,7 @@ width
 =
 aBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 ;
 }
@@ -5470,7 +5470,7 @@ y
 ;
 fakeBorderSizes
 [
-NS_SIDE_TOP
+eSideTop
 ]
 =
 siRect
@@ -5491,7 +5491,7 @@ y
 ;
 fakeBorderSizes
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 =
 soRect
@@ -5512,7 +5512,7 @@ x
 ;
 fakeBorderSizes
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 =
 soRect
@@ -5533,7 +5533,7 @@ y
 ;
 fakeBorderSizes
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 =
 siRect
@@ -5740,7 +5740,7 @@ SIDE_BIT_TOP
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_TOP
+eSideTop
 C_TL
 )
 ;
@@ -5755,7 +5755,7 @@ SIDE_BIT_LEFT
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_LEFT
+eSideLeft
 C_TL
 )
 ;
@@ -5769,7 +5769,7 @@ SIDE_BIT_TOP
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_TOP
+eSideTop
 C_TR
 )
 ;
@@ -5784,7 +5784,7 @@ SIDE_BIT_RIGHT
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_RIGHT
+eSideRight
 C_TR
 )
 ;
@@ -5798,7 +5798,7 @@ SIDE_BIT_BOTTOM
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_BOTTOM
+eSideBottom
 C_BL
 )
 ;
@@ -5813,7 +5813,7 @@ SIDE_BIT_LEFT
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_LEFT
+eSideLeft
 C_BL
 )
 ;
@@ -5827,7 +5827,7 @@ SIDE_BIT_BOTTOM
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_BOTTOM
+eSideBottom
 C_BR
 )
 ;
@@ -5842,7 +5842,7 @@ SIDE_BIT_RIGHT
 {
 DrawDashedOrDottedCorner
 (
-NS_SIDE_RIGHT
+eSideRight
 C_BR
 )
 ;
@@ -6537,7 +6537,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 =
 =
@@ -6562,7 +6562,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 =
 =
@@ -6597,7 +6597,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_TOP
+eSideTop
 ]
 =
 =
@@ -6622,7 +6622,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 =
 =
@@ -6657,7 +6657,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 =
 =
@@ -6682,7 +6682,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 =
 =
@@ -6710,7 +6710,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_TOP
+eSideTop
 ]
 =
 =
@@ -6735,7 +6735,7 @@ if
 (
 mBorderStyles
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 =
 =
@@ -7458,7 +7458,7 @@ if
 aSide
 =
 =
-NS_SIDE_TOP
+eSideTop
 )
 {
 return
@@ -7476,7 +7476,7 @@ if
 aSide
 =
 =
-NS_SIDE_RIGHT
+eSideRight
 )
 {
 return
@@ -7494,7 +7494,7 @@ if
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eSideBottom
 )
 {
 return
@@ -8178,7 +8178,7 @@ if
 aSide
 =
 =
-NS_SIDE_TOP
+eSideTop
 )
 {
 I
@@ -8204,7 +8204,7 @@ if
 aSide
 =
 =
-NS_SIDE_RIGHT
+eSideRight
 )
 {
 I
@@ -8231,7 +8231,7 @@ if
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eSideBottom
 )
 {
 I
@@ -8259,7 +8259,7 @@ if
 aSide
 =
 =
-NS_SIDE_LEFT
+eSideLeft
 )
 {
 I
@@ -8625,7 +8625,7 @@ if
 aSide
 =
 =
-NS_SIDE_TOP
+eSideTop
 )
 {
 Float
@@ -8809,7 +8809,7 @@ if
 aSide
 =
 =
-NS_SIDE_RIGHT
+eSideRight
 )
 {
 Float
@@ -8993,7 +8993,7 @@ if
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eSideBottom
 )
 {
 Float
@@ -9177,7 +9177,7 @@ if
 aSide
 =
 =
-NS_SIDE_LEFT
+eSideLeft
 )
 {
 Float
@@ -14639,7 +14639,7 @@ ToDeviceColor
 (
 mBorderColors
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 )
@@ -14649,7 +14649,7 @@ strokeOptions
 (
 mBorderWidths
 [
-NS_SIDE_TOP
+eSideTop
 ]
 )
 ;
@@ -14890,19 +14890,19 @@ Deflate
 (
 mBorderWidths
 [
-NS_SIDE_TOP
+eSideTop
 ]
 mBorderWidths
 [
-NS_SIDE_BOTTOM
+eSideBottom
 ]
 mBorderWidths
 [
-NS_SIDE_LEFT
+eSideLeft
 ]
 mBorderWidths
 [
-NS_SIDE_RIGHT
+eSideRight
 ]
 )
 ;
