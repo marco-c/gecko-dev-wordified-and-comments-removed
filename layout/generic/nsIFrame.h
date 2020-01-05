@@ -1081,10 +1081,6 @@ bit
 !
 #
 define
-NS_FRAME_NOT_COMPLETE
-0x1
-#
-define
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
