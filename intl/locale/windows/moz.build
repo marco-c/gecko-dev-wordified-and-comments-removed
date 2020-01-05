@@ -95,11 +95,6 @@ nsCollationWin
 cpp
 '
 '
-nsDateTimeFormatWin
-.
-cpp
-'
-'
 nsWin32Locale
 .
 cpp
