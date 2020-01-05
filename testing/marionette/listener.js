@@ -938,17 +938,6 @@ register
 2
 ]
 ;
-isB2G
-=
-capabilities
-.
-platformName
-=
-=
-"
-b2g
-"
-;
 listenerId
 =
 id
@@ -973,9 +962,6 @@ register
 [
 1
 ]
-=
-=
-true
 )
 {
 addMessageListener
