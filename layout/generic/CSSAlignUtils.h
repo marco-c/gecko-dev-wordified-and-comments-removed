@@ -16,6 +16,9 @@ h
 namespace
 mozilla
 {
+struct
+ReflowInput
+;
 class
 CSSAlignUtils
 {
