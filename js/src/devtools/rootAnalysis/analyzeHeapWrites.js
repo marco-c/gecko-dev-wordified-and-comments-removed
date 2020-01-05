@@ -2026,6 +2026,12 @@ nsCOMArray_base
 AppendElement
 /
 /
+mozilla
+:
+:
+UniquePtr
+/
+/
 nsStyleImage
 :
 :
