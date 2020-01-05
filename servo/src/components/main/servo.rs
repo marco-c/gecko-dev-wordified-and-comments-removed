@@ -679,6 +679,13 @@ macos
 [
 start
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 start
 (
@@ -745,6 +752,13 @@ android
 #
 [
 no_mangle
+]
+#
+[
+allow
+(
+dead_code
+)
 ]
 pub
 extern
