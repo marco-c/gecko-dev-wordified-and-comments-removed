@@ -14183,6 +14183,8 @@ reportNotExtensible
 JSContext
 *
 cx
+HandleObject
+obj
 unsigned
 report
 )
@@ -14194,7 +14196,7 @@ cx
 ObjectValue
 (
 *
-this
+obj
 )
 )
 ;

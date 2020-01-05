@@ -2815,9 +2815,9 @@ isJSContext
 (
 )
 )
-obj
--
->
+JSObject
+:
+:
 reportNotExtensible
 (
 cx
@@ -2826,6 +2826,7 @@ cx
 asJSContext
 (
 )
+obj
 )
 ;
 return
@@ -3914,9 +3915,9 @@ isJSContext
 (
 )
 )
-obj
--
->
+JSObject
+:
+:
 reportNotConfigurable
 (
 cx
@@ -4163,9 +4164,9 @@ isJSContext
 (
 )
 )
-obj
--
->
+JSObject
+:
+:
 reportNotExtensible
 (
 cx
@@ -4174,6 +4175,7 @@ cx
 asJSContext
 (
 )
+obj
 )
 ;
 return
