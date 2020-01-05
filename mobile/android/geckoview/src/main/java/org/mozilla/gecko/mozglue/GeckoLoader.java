@@ -3236,4 +3236,12 @@ neonCompatible
 (
 )
 ;
+public
+static
+native
+void
+suppressCrashDialog
+(
+)
+;
 }

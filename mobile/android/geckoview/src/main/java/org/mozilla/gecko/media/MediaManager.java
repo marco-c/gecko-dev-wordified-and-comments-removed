@@ -140,6 +140,12 @@ mozglue
 "
 )
 ;
+GeckoLoader
+.
+suppressCrashDialog
+(
+)
+;
 sNativeLibLoaded
 =
 true
