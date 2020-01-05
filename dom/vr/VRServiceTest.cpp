@@ -1387,6 +1387,12 @@ Data
 3
 ]
 ;
+poseState
+.
+isOrientationValid
+=
+true
+;
 }
 if
 (
@@ -1474,6 +1480,12 @@ Data
 [
 2
 ]
+;
+poseState
+.
+isPositionValid
+=
+true
 ;
 }
 if
