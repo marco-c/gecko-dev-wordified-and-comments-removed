@@ -183,7 +183,7 @@ override
 explicit
 CompositorBridgeChild
 (
-ClientLayerManager
+LayerManager
 *
 aLayerManager
 )
@@ -243,7 +243,7 @@ const
 uint64_t
 &
 aProcessToken
-ClientLayerManager
+LayerManager
 *
 aLayerManager
 Endpoint
@@ -1182,7 +1182,7 @@ mAPZCId
 ;
 RefPtr
 <
-ClientLayerManager
+LayerManager
 >
 mLayerManager
 ;

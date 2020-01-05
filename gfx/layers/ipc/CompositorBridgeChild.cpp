@@ -481,7 +481,7 @@ CompositorBridgeChild
 :
 CompositorBridgeChild
 (
-ClientLayerManager
+LayerManager
 *
 aLayerManager
 )
@@ -1212,7 +1212,7 @@ const
 uint64_t
 &
 aProcessToken
-ClientLayerManager
+LayerManager
 *
 aLayerManager
 Endpoint
@@ -2573,6 +2573,16 @@ ClientLayerManager
 m
 =
 mLayerManager
+-
+>
+AsClientLayerManager
+(
+)
+;
+MOZ_ASSERT
+(
+m
+)
 ;
 m
 -
