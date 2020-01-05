@@ -404,7 +404,7 @@ uint
 >
 int
 {
-10
+20
 }
 }
 fn
@@ -541,10 +541,10 @@ addr_of
 (
 fontmatrix
 )
-300f
+20f
 as
 c_double
-400f
+20f
 as
 c_double
 )
@@ -1121,7 +1121,7 @@ assert
 x
 =
 =
-10
+20
 ;
 }
 fn

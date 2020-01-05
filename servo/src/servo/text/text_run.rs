@@ -119,7 +119,7 @@ height
 =
 px_to_au
 (
-14
+20
 )
 ;
 let
@@ -264,11 +264,11 @@ Size2D
 (
 px_to_au
 (
-110
+220
 )
 px_to_au
 (
-14
+20
 )
 )
 ;
