@@ -361,6 +361,8 @@ nsIPrincipal
 aPrincipal
 bool
 aInPrivateBrowsing
+bool
+aRequireInteraction
 )
 {
 nsCOMPtr
@@ -399,6 +401,7 @@ aLang
 aData
 aPrincipal
 aInPrivateBrowsing
+aRequireInteraction
 )
 ;
 NS_ENSURE_SUCCESS

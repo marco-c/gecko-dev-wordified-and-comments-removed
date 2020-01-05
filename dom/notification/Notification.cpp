@@ -3747,6 +3747,8 @@ const
 nsAString
 &
 aIconUrl
+bool
+aRequireInteraction
 const
 NotificationBehavior
 &
@@ -3791,6 +3793,10 @@ aTag
 mIconUrl
 (
 aIconUrl
+)
+mRequireInteraction
+(
+aRequireInteraction
 )
 mBehavior
 (
@@ -4693,6 +4699,9 @@ mTag
 aOptions
 .
 mIcon
+aOptions
+.
+mRequireInteraction
 aOptions
 .
 mMozbehavior
@@ -7638,6 +7647,7 @@ GetPrincipal
 (
 )
 inPrivateBrowsing
+mRequireInteraction
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -10050,6 +10060,19 @@ aOrigin
 }
 return
 NS_OK
+;
+}
+bool
+Notification
+:
+:
+RequireInteraction
+(
+)
+const
+{
+return
+mRequireInteraction
 ;
 }
 void

@@ -90,6 +90,8 @@ nsIPrincipal
 aPrincipal
 bool
 aInPrivateBrowsing
+bool
+aRequireInteraction
 )
 {
 MOZ_ASSERT_UNREACHABLE

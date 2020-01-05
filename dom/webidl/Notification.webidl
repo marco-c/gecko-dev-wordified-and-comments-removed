@@ -319,6 +319,14 @@ Constant
 ]
 readonly
 attribute
+boolean
+requireInteraction
+;
+[
+Constant
+]
+readonly
+attribute
 any
 data
 ;
@@ -362,6 +370,11 @@ icon
 =
 "
 "
+;
+boolean
+requireInteraction
+=
+false
 ;
 any
 data

@@ -617,6 +617,7 @@ EmptyString
 )
 principal
 inPrivateBrowsing
+false
 )
 ;
 NS_ENSURE_SUCCESS
