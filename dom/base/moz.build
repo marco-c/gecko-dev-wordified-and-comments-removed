@@ -1033,6 +1033,11 @@ PartialSHistory
 h
 '
 '
+Pose
+.
+h
+'
+'
 ProcessGlobal
 .
 h
@@ -1739,6 +1744,11 @@ cpp
 '
 '
 PartialSHistory
+.
+cpp
+'
+'
+Pose
 .
 cpp
 '

@@ -1877,6 +1877,11 @@ PopupBoxObject
 webidl
 '
 '
+Pose
+.
+webidl
+'
+'
 Position
 .
 webidl
@@ -3245,6 +3250,11 @@ WEBIDL_FILES
 [
 '
 Gamepad
+.
+webidl
+'
+'
+GamepadPose
 .
 webidl
 '

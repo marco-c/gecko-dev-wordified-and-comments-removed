@@ -36,6 +36,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsPIDOMWindow
+.
+h
+"
 class
 nsGlobalWindow
 ;
@@ -47,6 +54,9 @@ nsITimeoutHandler
 ;
 class
 nsITimer
+;
+class
+nsIEventTarget
 ;
 namespace
 mozilla

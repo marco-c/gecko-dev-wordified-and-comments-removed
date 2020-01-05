@@ -24,6 +24,17 @@ GamepadServiceType
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+GamepadPoseState
+.
+h
+"
 namespace
 IPC
 {

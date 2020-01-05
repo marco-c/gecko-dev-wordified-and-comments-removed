@@ -26,13 +26,6 @@ nsITimer
 .
 h
 "
-#
-include
-"
-nsPIDOMWindow
-.
-h
-"
 namespace
 mozilla
 {

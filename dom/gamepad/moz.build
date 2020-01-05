@@ -120,6 +120,11 @@ dom
 =
 [
 '
+GamepadPoseState
+.
+h
+'
+'
 ipc
 /
 GamepadMessageUtils
@@ -172,6 +177,11 @@ h
 '
 '
 GamepadPlatformService
+.
+h
+'
+'
+GamepadPose
 .
 h
 '
@@ -234,6 +244,11 @@ cpp
 '
 '
 GamepadPlatformService
+.
+cpp
+'
+'
+GamepadPose
 .
 cpp
 '
