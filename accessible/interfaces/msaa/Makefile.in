@@ -78,10 +78,6 @@ ISimpleDOMNode_i
 .
 c
 \
-ISimpleDOMNode
-.
-tlb
-\
 ISimpleDOMDocument
 .
 h

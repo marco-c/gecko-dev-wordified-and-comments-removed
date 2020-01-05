@@ -284,18 +284,6 @@ dlldata
 c
 \
 (
-MIDL_ENUMS
-:
-%
-.
-idl
-=
-%
-.
-h
-)
-\
-(
 MIDL_INTERFACES
 :
 %
@@ -334,7 +322,7 @@ h
 )
 \
 (
-MIDL_LIBRARIES
+MIDL_ENUMS
 :
 %
 .
@@ -342,7 +330,7 @@ idl
 =
 %
 .
-tlb
+h
 )
 \
 (
