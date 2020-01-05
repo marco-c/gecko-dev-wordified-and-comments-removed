@@ -313,6 +313,11 @@ url
 =
 getRootDirectory
 (
+options
+.
+testPath
+|
+|
 gTestPath
 )
 +
