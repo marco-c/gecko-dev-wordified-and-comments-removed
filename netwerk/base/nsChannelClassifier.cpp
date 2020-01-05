@@ -2029,6 +2029,7 @@ uriClassifier
 Classify
 (
 principal
+nullptr
 sAnnotateChannelEnabled
 |
 trackingProtectionEnabled

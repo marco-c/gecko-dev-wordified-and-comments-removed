@@ -98,6 +98,7 @@ uriClassifier
 Classify
 (
 aPrincipal
+nullptr
 aUseTrackingProtection
 this
 aSuccess
