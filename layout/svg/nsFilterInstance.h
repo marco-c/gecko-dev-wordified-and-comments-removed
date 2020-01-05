@@ -499,7 +499,7 @@ OutputFilterSpaceBounds
 )
 const
 ;
-nsresult
+bool
 ComputeUserSpaceToFilterSpaceScale
 (
 )
@@ -569,6 +569,11 @@ GetUserSpaceToFrameSpaceInCSSPxTransform
 (
 )
 const
+;
+bool
+ComputeTargetBBoxInFilterSpace
+(
+)
 ;
 nsIFrame
 *
