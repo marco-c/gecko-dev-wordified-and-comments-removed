@@ -280,7 +280,7 @@ script_task
 StackRootTLS
 ;
 use
-servo_net
+net
 :
 :
 resource_task

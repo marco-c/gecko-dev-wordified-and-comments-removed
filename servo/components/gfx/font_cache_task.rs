@@ -114,7 +114,7 @@ font_template
 FontTemplateData
 ;
 use
-servo_net
+net
 :
 :
 resource_task

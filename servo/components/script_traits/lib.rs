@@ -40,11 +40,7 @@ msg
 ;
 extern
 crate
-"
 net
-"
-as
-servo_net
 ;
 extern
 crate
@@ -118,7 +114,7 @@ compositor_msg
 ScriptListener
 ;
 use
-servo_net
+net
 :
 :
 image_cache_task
@@ -127,7 +123,7 @@ image_cache_task
 ImageCacheTask
 ;
 use
-servo_net
+net
 :
 :
 resource_task
@@ -136,7 +132,7 @@ resource_task
 ResourceTask
 ;
 use
-servo_net
+net
 :
 :
 storage_task

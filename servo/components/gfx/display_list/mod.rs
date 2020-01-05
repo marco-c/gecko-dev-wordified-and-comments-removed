@@ -127,7 +127,7 @@ compositor_msg
 LayerId
 ;
 use
-servo_net
+net
 :
 :
 image

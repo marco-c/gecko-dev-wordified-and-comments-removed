@@ -627,7 +627,7 @@ as
 ConstellationMsg
 ;
 use
-servo_net
+net
 :
 :
 image_cache_task
@@ -636,7 +636,7 @@ image_cache_task
 ImageCacheTask
 ;
 use
-servo_net
+net
 :
 :
 resource_task
@@ -648,7 +648,7 @@ ControlMsg
 }
 ;
 use
-servo_net
+net
 :
 :
 resource_task
@@ -659,7 +659,7 @@ as
 NetLoadData
 ;
 use
-servo_net
+net
 :
 :
 storage_task

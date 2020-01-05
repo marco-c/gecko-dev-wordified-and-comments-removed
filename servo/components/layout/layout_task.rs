@@ -399,7 +399,7 @@ PipelineId
 }
 ;
 use
-servo_net
+net
 :
 :
 image_cache_task
@@ -411,7 +411,7 @@ ImageResponseMsg
 }
 ;
 use
-servo_net
+net
 :
 :
 local_image_cache
@@ -423,7 +423,7 @@ LocalImageCache
 }
 ;
 use
-servo_net
+net
 :
 :
 resource_task

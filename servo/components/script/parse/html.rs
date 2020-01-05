@@ -197,7 +197,7 @@ DecoderTrap
 }
 ;
 use
-servo_net
+net
 :
 :
 resource_task

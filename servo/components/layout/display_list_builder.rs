@@ -254,7 +254,7 @@ constellation_msg
 ConstellationChan
 ;
 use
-servo_net
+net
 :
 :
 image

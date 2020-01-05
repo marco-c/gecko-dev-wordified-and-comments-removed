@@ -188,7 +188,7 @@ virtualmethods
 VirtualMethods
 ;
 use
-servo_net
+net
 :
 :
 image_cache_task

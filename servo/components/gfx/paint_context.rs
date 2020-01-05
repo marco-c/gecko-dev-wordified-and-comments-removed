@@ -217,7 +217,7 @@ png
 PixelsByColorType
 ;
 use
-servo_net
+net
 :
 :
 image

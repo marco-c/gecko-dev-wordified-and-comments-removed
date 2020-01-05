@@ -79,7 +79,7 @@ constellation_msg
 ConstellationChan
 ;
 use
-servo_net
+net
 :
 :
 local_image_cache

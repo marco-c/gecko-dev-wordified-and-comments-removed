@@ -98,7 +98,7 @@ str
 DOMString
 ;
 use
-servo_net
+net
 :
 :
 storage_task
@@ -107,7 +107,7 @@ storage_task
 StorageTask
 ;
 use
-servo_net
+net
 :
 :
 storage_task
