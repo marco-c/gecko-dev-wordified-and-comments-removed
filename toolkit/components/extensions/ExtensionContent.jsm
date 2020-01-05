@@ -913,8 +913,10 @@ sheet
 ;
 }
 }
-function
+class
 Script
+{
+constructor
 (
 extension
 options
@@ -1179,11 +1181,6 @@ cssCode
 )
 ;
 }
-Script
-.
-prototype
-=
-{
 compileScripts
 (
 )
@@ -1970,7 +1967,6 @@ result
 }
 }
 }
-;
 defineLazyGetter
 (
 Script
