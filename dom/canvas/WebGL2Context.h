@@ -1521,6 +1521,16 @@ MutableHandleValue
 retval
 )
 ;
+const
+GLuint64
+kMaxClientWaitSyncTimeoutNS
+=
+1000
+*
+1000
+*
+1000
+;
 already_AddRefed
 <
 WebGLSync

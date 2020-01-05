@@ -426,7 +426,7 @@ JS
 :
 NumberValue
 (
-0
+kMaxClientWaitSyncTimeoutNS
 )
 ;
 case
