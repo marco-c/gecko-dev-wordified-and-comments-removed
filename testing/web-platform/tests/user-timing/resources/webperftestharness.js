@@ -1,7 +1,7 @@
 var
 performanceNamespace
 =
-window
+self
 .
 performance
 ;

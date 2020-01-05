@@ -1872,6 +1872,15 @@ function
 (
 )
 {
+if
+(
+"
+window
+"
+in
+self
+)
+{
 ok
 (
 true
@@ -2009,6 +2018,7 @@ negative
 "
 )
 ;
+}
 }
 function
 (
