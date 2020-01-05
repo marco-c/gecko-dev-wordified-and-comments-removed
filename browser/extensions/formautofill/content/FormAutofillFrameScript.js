@@ -200,7 +200,7 @@ break
 }
 receiveMessage
 (
-aMessage
+message
 )
 {
 if
@@ -227,7 +227,7 @@ return
 }
 switch
 (
-aMessage
+message
 .
 name
 )
