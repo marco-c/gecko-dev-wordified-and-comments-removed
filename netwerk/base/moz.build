@@ -944,11 +944,6 @@ MemoryDownloader
 h
 '
 '
-OfflineObserver
-.
-h
-'
-'
 Predictor
 .
 h
@@ -1273,11 +1268,6 @@ cpp
 '
 '
 nsURLParsers
-.
-cpp
-'
-'
-OfflineObserver
 .
 cpp
 '
