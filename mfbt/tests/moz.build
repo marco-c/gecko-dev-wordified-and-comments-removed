@@ -89,6 +89,9 @@ CppUnitTests
 (
 [
 '
+TestArray
+'
+'
 TestArrayUtils
 '
 '
@@ -120,6 +123,9 @@ TestCountZeroes
 '
 '
 TestEndian
+'
+'
+TestEnumeratedArray
 '
 '
 TestEnumSet
