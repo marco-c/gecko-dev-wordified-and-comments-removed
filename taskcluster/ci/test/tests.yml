@@ -7784,10 +7784,6 @@ awsy
 linux_config
 .
 py
--
-remove_executables
-.
-py
 web
 -
 platform
