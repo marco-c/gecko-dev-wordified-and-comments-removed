@@ -112,6 +112,10 @@ width
 :
 100vw
 ;
+position
+:
+fixed
+;
 }
 #
 inspector
@@ -694,12 +698,8 @@ width
 flex
 :
 1
-;
-min
--
-height
-:
-0
+1
+auto
 ;
 }
 #
