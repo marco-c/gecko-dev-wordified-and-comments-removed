@@ -1422,6 +1422,11 @@ PROXY_CLASS_DEF
 WindowProperties
 "
 JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
+|
+JSCLASS_HAS_RESERVED_SLOTS
+(
+1
+)
 )
 eNamedPropertiesObject
 false

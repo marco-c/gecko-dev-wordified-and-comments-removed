@@ -4674,6 +4674,11 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Proxy
 )
+|
+JSCLASS_HAS_RESERVED_SLOTS
+(
+2
+)
 )
 ;
 const

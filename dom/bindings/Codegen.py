@@ -3499,6 +3499,13 @@ flags
 "
 JSCLASS_IS_DOMJSCLASS
 "
+                 
+"
+JSCLASS_HAS_RESERVED_SLOTS
+(
+1
+)
+"
 ]
         
 if
