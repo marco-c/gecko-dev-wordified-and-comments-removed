@@ -1352,7 +1352,6 @@ self
 .
 selinux
 and
-                        
 self
 .
 shell_output
@@ -1360,7 +1359,7 @@ shell_output
 '
 getenforce
 '
-                                          
+                                                           
 timeout
 =
 timeout
@@ -2456,12 +2455,11 @@ iteritems
 :
                 
 if
-type
+isinstance
 (
 val
-)
-is
 int
+)
 :
                     
 extra_type_param
@@ -2473,12 +2471,11 @@ ei
 "
                 
 elif
-type
+isinstance
 (
 val
-)
-is
 bool
+)
 :
                     
 extra_type_param
@@ -2895,11 +2892,11 @@ gecko
 .
 BrowserApp
 "
+                                
 intent
 url
 =
 url
-                                
 extras
 =
 extras

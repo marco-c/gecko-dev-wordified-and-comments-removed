@@ -734,11 +734,9 @@ memtotal
 ]
         
 if
-(
 directive
 in
 directives
-)
 :
             
 directives
