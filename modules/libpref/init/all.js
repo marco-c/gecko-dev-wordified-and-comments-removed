@@ -9647,6 +9647,7 @@ change
 click
 dblclick
 mouseup
+pointerup
 notificationclick
 reset
 submit
@@ -9772,6 +9773,20 @@ dom
 forms
 .
 datetime
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
+forms
+.
+datetime
+.
+others
 "
 false
 )
@@ -20725,7 +20740,7 @@ ipc
 .
 processCount
 "
-2
+4
 )
 ;
 #
