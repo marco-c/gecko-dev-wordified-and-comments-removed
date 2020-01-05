@@ -90,6 +90,10 @@ flate2
 ;
 extern
 crate
+brotli
+;
+extern
+crate
 hyper
 ;
 extern
