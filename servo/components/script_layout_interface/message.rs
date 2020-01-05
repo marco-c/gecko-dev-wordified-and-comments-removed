@@ -300,6 +300,10 @@ Point2D
 <
 f32
 >
+Point2D
+<
+f32
+>
 bool
 )
 NodeGeometryQuery
