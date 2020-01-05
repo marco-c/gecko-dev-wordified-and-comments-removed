@@ -359,6 +359,7 @@ mCSForQI
 ;
 class
 WeakRef
+final
 :
 public
 IWeakReference
@@ -423,6 +424,13 @@ aSharedRef
 ;
 private
 :
+~
+WeakRef
+(
+)
+=
+default
+;
 Atomic
 <
 ULONG
