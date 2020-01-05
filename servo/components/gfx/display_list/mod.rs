@@ -2439,9 +2439,9 @@ Rect
 Au
 >
 pub
-size
+content_rect
 :
-Size2D
+Rect
 <
 Au
 >
