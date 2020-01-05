@@ -1892,6 +1892,8 @@ match
 background
 .
 background_image
+.
+0
 {
 None
 =
@@ -4135,6 +4137,8 @@ get_effects
 .
 box_shadow
 .
+0
+.
 iter
 (
 )
@@ -5496,6 +5500,8 @@ get_effects
 )
 .
 clip
+.
+0
 )
 {
 (
@@ -7285,6 +7291,8 @@ get_effects
 )
 .
 transform
+.
+0
 {
 let
 transform_origin

@@ -2905,6 +2905,8 @@ get_effects
 )
 .
 transform
+.
+0
 {
 for
 transform

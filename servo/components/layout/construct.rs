@@ -7013,6 +7013,8 @@ get_list
 )
 .
 list_style_image
+.
+0
 {
 Some
 (
