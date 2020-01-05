@@ -743,9 +743,15 @@ nsString
 &
 aDeviceId
 const
-nsACString
+mozilla
+:
+:
+ipc
+:
+:
+PrincipalInfo
 &
-aOrigin
+aPrincipalInfo
 AllocationHandle
 *
 *

@@ -64,6 +64,9 @@ include
 protocol
 PBackground
 ;
+include
+PBackgroundSharedTypes
+;
 using
 mozilla
 :
@@ -388,8 +391,8 @@ CaptureEngine
 engine
 nsCString
 unique_idUTF8
-nsCString
-origin
+PrincipalInfo
+principal
 )
 ;
 async

@@ -118,6 +118,13 @@ h
 #
 include
 "
+DOMMediaStream
+.
+h
+"
+#
+include
+"
 endpointer
 .
 h

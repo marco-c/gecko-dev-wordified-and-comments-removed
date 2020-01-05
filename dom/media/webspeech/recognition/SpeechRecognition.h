@@ -76,13 +76,6 @@ h
 #
 include
 "
-MediaEngine
-.
-h
-"
-#
-include
-"
 MediaStreamGraph
 .
 h
@@ -152,6 +145,9 @@ h
 namespace
 mozilla
 {
+class
+DOMMediaStream
+;
 namespace
 dom
 {

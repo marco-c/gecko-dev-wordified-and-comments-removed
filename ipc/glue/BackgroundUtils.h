@@ -218,6 +218,15 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
+bool
+IsPincipalInfoPrivate
+(
+const
+PrincipalInfo
+&
+aPrincipalInfo
+)
+;
 nsresult
 LoadInfoToLoadInfoArgs
 (
