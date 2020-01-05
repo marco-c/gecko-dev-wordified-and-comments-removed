@@ -261,8 +261,9 @@ attribute
 DOMString
 type
 ;
-/
-/
+[
+Pure
+]
 attribute
 DOMString
 text
