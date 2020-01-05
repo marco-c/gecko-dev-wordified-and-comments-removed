@@ -201,6 +201,10 @@ htmldatalistelement
 ;
 pub
 mod
+htmldialogelement
+;
+pub
+mod
 htmldirectoryelement
 ;
 pub

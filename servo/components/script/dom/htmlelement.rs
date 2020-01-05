@@ -2058,6 +2058,7 @@ HTMLButtonElement
 HTMLCanvasElement
 HTMLDataElement
 HTMLDataListElement
+HTMLDialogElement
 HTMLDirectoryElement
 HTMLDListElement
 HTMLDivElement
