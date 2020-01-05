@@ -250,7 +250,7 @@ GenericNaN
 struct
 BaseCompilePolicy
 :
-ExprIterPolicy
+OpIterPolicy
 {
 static
 const
@@ -262,11 +262,11 @@ true
 }
 ;
 typedef
-ExprIter
+OpIter
 <
 BaseCompilePolicy
 >
-BaseExprIter
+BaseOpIter
 ;
 typedef
 bool
@@ -1640,7 +1640,7 @@ ModuleGeneratorData
 &
 mg_
 ;
-BaseExprIter
+BaseOpIter
 iter_
 ;
 const
@@ -32267,28 +32267,28 @@ return
 true
 ;
 uint16_t
-expr
+op
 ;
 CHECK
 (
 iter_
 .
-readExpr
+readOp
 (
 &
-expr
+op
 )
 )
 ;
 switch
 (
-expr
+op
 )
 {
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Nop
@@ -32310,7 +32310,7 @@ NEXT
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Drop
@@ -32326,7 +32326,7 @@ emitDrop
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Block
@@ -32342,7 +32342,7 @@ emitBlock
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Loop
@@ -32358,7 +32358,7 @@ emitLoop
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 If
@@ -32374,7 +32374,7 @@ emitIf
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Else
@@ -32390,7 +32390,7 @@ emitElse
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 End
@@ -32406,7 +32406,7 @@ emitEnd
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Br
@@ -32422,7 +32422,7 @@ emitBr
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 BrIf
@@ -32438,7 +32438,7 @@ emitBrIf
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 BrTable
@@ -32454,7 +32454,7 @@ emitBrTable
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Return
@@ -32470,7 +32470,7 @@ emitReturn
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Unreachable
@@ -32518,7 +32518,7 @@ NEXT
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Call
@@ -32534,7 +32534,7 @@ emitCall
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 CallIndirect
@@ -32551,7 +32551,7 @@ false
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 OldCallIndirect
@@ -32568,7 +32568,7 @@ true
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 GetLocal
@@ -32584,7 +32584,7 @@ emitGetLocal
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 SetLocal
@@ -32600,7 +32600,7 @@ emitSetLocal
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 TeeLocal
@@ -32616,7 +32616,7 @@ emitTeeLocal
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 GetGlobal
@@ -32632,7 +32632,7 @@ emitGetGlobal
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 SetGlobal
@@ -32648,7 +32648,7 @@ emitSetGlobal
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 TeeGlobal
@@ -32664,7 +32664,7 @@ emitTeeGlobal
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Select
@@ -32680,7 +32680,7 @@ emitSelect
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Const
@@ -32719,7 +32719,7 @@ NEXT
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Add
@@ -32740,7 +32740,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Sub
@@ -32761,7 +32761,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Mul
@@ -32782,7 +32782,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32DivS
@@ -32803,7 +32803,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32DivU
@@ -32824,7 +32824,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32RemS
@@ -32845,7 +32845,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32RemU
@@ -32866,7 +32866,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Min
@@ -32887,7 +32887,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Max
@@ -32908,7 +32908,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Eqz
@@ -32933,7 +32933,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncSF32
@@ -32961,7 +32961,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncUF32
@@ -32989,7 +32989,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncSF64
@@ -33017,7 +33017,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncUF64
@@ -33045,7 +33045,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32WrapI64
@@ -33070,7 +33070,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32ReinterpretF32
@@ -33095,7 +33095,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Clz
@@ -33116,7 +33116,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Ctz
@@ -33137,7 +33137,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Popcnt
@@ -33158,7 +33158,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Abs
@@ -33179,7 +33179,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Neg
@@ -33200,7 +33200,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Or
@@ -33221,7 +33221,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32And
@@ -33242,7 +33242,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Xor
@@ -33263,7 +33263,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Shl
@@ -33284,7 +33284,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32ShrS
@@ -33305,7 +33305,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32ShrU
@@ -33326,7 +33326,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32BitNot
@@ -33347,7 +33347,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load8S
@@ -33371,7 +33371,7 @@ Int8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load8U
@@ -33395,7 +33395,7 @@ Uint8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load16S
@@ -33419,7 +33419,7 @@ Int16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load16U
@@ -33443,7 +33443,7 @@ Uint16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load
@@ -33467,7 +33467,7 @@ Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Store8
@@ -33491,7 +33491,7 @@ Int8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TeeStore8
@@ -33515,7 +33515,7 @@ Int8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Store16
@@ -33539,7 +33539,7 @@ Int16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TeeStore16
@@ -33563,7 +33563,7 @@ Int16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Store
@@ -33587,7 +33587,7 @@ Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TeeStore
@@ -33611,7 +33611,7 @@ Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Rotr
@@ -33632,7 +33632,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Rotl
@@ -33653,7 +33653,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Const
@@ -33692,7 +33692,7 @@ NEXT
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Add
@@ -33713,7 +33713,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Sub
@@ -33734,7 +33734,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Mul
@@ -33755,7 +33755,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64DivS
@@ -33798,7 +33798,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64DivU
@@ -33841,7 +33841,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64RemS
@@ -33884,7 +33884,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64RemU
@@ -33927,7 +33927,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncSF32
@@ -33982,7 +33982,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncUF32
@@ -34037,7 +34037,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncSF64
@@ -34092,7 +34092,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncUF64
@@ -34147,7 +34147,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ExtendSI32
@@ -34172,7 +34172,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ExtendUI32
@@ -34197,7 +34197,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ReinterpretF64
@@ -34222,7 +34222,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Or
@@ -34243,7 +34243,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64And
@@ -34264,7 +34264,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Xor
@@ -34285,7 +34285,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Shl
@@ -34306,7 +34306,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ShrS
@@ -34327,7 +34327,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ShrU
@@ -34348,7 +34348,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Rotr
@@ -34369,7 +34369,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Rotl
@@ -34390,7 +34390,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Clz
@@ -34411,7 +34411,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Ctz
@@ -34432,7 +34432,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Popcnt
@@ -34453,7 +34453,7 @@ I64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Eqz
@@ -34478,7 +34478,7 @@ I32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load8S
@@ -34502,7 +34502,7 @@ Int8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load16S
@@ -34526,7 +34526,7 @@ Int16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load32S
@@ -34550,7 +34550,7 @@ Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load8U
@@ -34574,7 +34574,7 @@ Uint8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load16U
@@ -34598,7 +34598,7 @@ Uint16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load32U
@@ -34622,7 +34622,7 @@ Uint32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load
@@ -34646,7 +34646,7 @@ Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store8
@@ -34670,7 +34670,7 @@ Int8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TeeStore8
@@ -34694,7 +34694,7 @@ Int8
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store16
@@ -34718,7 +34718,7 @@ Int16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TeeStore16
@@ -34742,7 +34742,7 @@ Int16
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store32
@@ -34766,7 +34766,7 @@ Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TeeStore32
@@ -34790,7 +34790,7 @@ Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store
@@ -34814,7 +34814,7 @@ Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TeeStore
@@ -34838,7 +34838,7 @@ Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Const
@@ -34877,7 +34877,7 @@ NEXT
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Add
@@ -34898,7 +34898,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Sub
@@ -34919,7 +34919,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Mul
@@ -34940,7 +34940,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Div
@@ -34961,7 +34961,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Min
@@ -34982,7 +34982,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Max
@@ -35003,7 +35003,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Neg
@@ -35024,7 +35024,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Abs
@@ -35045,7 +35045,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Sqrt
@@ -35066,7 +35066,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Ceil
@@ -35090,7 +35090,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Floor
@@ -35114,7 +35114,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32DemoteF64
@@ -35139,7 +35139,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertSI32
@@ -35164,7 +35164,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertUI32
@@ -35189,7 +35189,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertSI64
@@ -35241,7 +35241,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertUI64
@@ -35293,7 +35293,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ReinterpretI32
@@ -35318,7 +35318,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Load
@@ -35342,7 +35342,7 @@ Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Store
@@ -35366,7 +35366,7 @@ Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32TeeStore
@@ -35390,7 +35390,7 @@ Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32TeeStoreF64
@@ -35414,7 +35414,7 @@ Float64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32CopySign
@@ -35435,7 +35435,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Nearest
@@ -35459,7 +35459,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Trunc
@@ -35483,7 +35483,7 @@ F32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Const
@@ -35522,7 +35522,7 @@ NEXT
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Add
@@ -35543,7 +35543,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Sub
@@ -35564,7 +35564,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Mul
@@ -35585,7 +35585,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Div
@@ -35606,7 +35606,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Mod
@@ -35630,7 +35630,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Min
@@ -35651,7 +35651,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Max
@@ -35672,7 +35672,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Neg
@@ -35693,7 +35693,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Abs
@@ -35714,7 +35714,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Sqrt
@@ -35735,7 +35735,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Ceil
@@ -35759,7 +35759,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Floor
@@ -35783,7 +35783,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Sin
@@ -35807,7 +35807,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Cos
@@ -35831,7 +35831,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Tan
@@ -35855,7 +35855,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Asin
@@ -35879,7 +35879,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Acos
@@ -35903,7 +35903,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Atan
@@ -35927,7 +35927,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Exp
@@ -35951,7 +35951,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Log
@@ -35975,7 +35975,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Pow
@@ -35999,7 +35999,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Atan2
@@ -36023,7 +36023,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64PromoteF32
@@ -36048,7 +36048,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertSI32
@@ -36073,7 +36073,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertUI32
@@ -36098,7 +36098,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertSI64
@@ -36150,7 +36150,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertUI64
@@ -36202,7 +36202,7 @@ endif
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Load
@@ -36226,7 +36226,7 @@ Float64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Store
@@ -36250,7 +36250,7 @@ Float64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64TeeStore
@@ -36274,7 +36274,7 @@ Float64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64TeeStoreF32
@@ -36298,7 +36298,7 @@ Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ReinterpretI64
@@ -36323,7 +36323,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64CopySign
@@ -36344,7 +36344,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Nearest
@@ -36368,7 +36368,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Trunc
@@ -36392,7 +36392,7 @@ F64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Eq
@@ -36418,7 +36418,7 @@ Compare_Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Ne
@@ -36444,7 +36444,7 @@ Compare_Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LtS
@@ -36470,7 +36470,7 @@ Compare_Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LeS
@@ -36496,7 +36496,7 @@ Compare_Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GtS
@@ -36522,7 +36522,7 @@ Compare_Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GeS
@@ -36548,7 +36548,7 @@ Compare_Int32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LtU
@@ -36574,7 +36574,7 @@ Compare_UInt32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LeU
@@ -36600,7 +36600,7 @@ Compare_UInt32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GtU
@@ -36626,7 +36626,7 @@ Compare_UInt32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GeU
@@ -36652,7 +36652,7 @@ Compare_UInt32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Eq
@@ -36678,7 +36678,7 @@ Compare_Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Ne
@@ -36704,7 +36704,7 @@ Compare_Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LtS
@@ -36730,7 +36730,7 @@ Compare_Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LeS
@@ -36756,7 +36756,7 @@ Compare_Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GtS
@@ -36782,7 +36782,7 @@ Compare_Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GeS
@@ -36808,7 +36808,7 @@ Compare_Int64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LtU
@@ -36834,7 +36834,7 @@ Compare_UInt64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LeU
@@ -36860,7 +36860,7 @@ Compare_UInt64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GtU
@@ -36886,7 +36886,7 @@ Compare_UInt64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GeU
@@ -36912,7 +36912,7 @@ Compare_UInt64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Eq
@@ -36938,7 +36938,7 @@ Compare_Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Ne
@@ -36964,7 +36964,7 @@ Compare_Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Lt
@@ -36990,7 +36990,7 @@ Compare_Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Le
@@ -37016,7 +37016,7 @@ Compare_Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Gt
@@ -37042,7 +37042,7 @@ Compare_Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Ge
@@ -37068,7 +37068,7 @@ Compare_Float32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Eq
@@ -37094,7 +37094,7 @@ Compare_Double
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Ne
@@ -37120,7 +37120,7 @@ Compare_Double
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Lt
@@ -37146,7 +37146,7 @@ Compare_Double
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Le
@@ -37172,7 +37172,7 @@ Compare_Double
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Gt
@@ -37198,7 +37198,7 @@ Compare_Double
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Ge
@@ -37233,7 +37233,7 @@ SIGN
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 TYPE
@@ -37368,7 +37368,7 @@ DO
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 TYPE
@@ -37454,7 +37454,7 @@ ENUMERATE
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16Const
@@ -37463,7 +37463,7 @@ I8x16Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8Const
@@ -37472,7 +37472,7 @@ I16x8Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4Const
@@ -37481,7 +37481,7 @@ I32x4Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32x4Const
@@ -37490,7 +37490,7 @@ F32x4Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 B8x16Const
@@ -37499,7 +37499,7 @@ B8x16Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 B16x8Const
@@ -37508,7 +37508,7 @@ B16x8Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 B32x4Const
@@ -37517,7 +37517,7 @@ B32x4Const
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4shiftRightByScalarU
@@ -37526,7 +37526,7 @@ I32x4shiftRightByScalarU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16addSaturateU
@@ -37535,7 +37535,7 @@ I8x16addSaturateU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16subSaturateU
@@ -37544,7 +37544,7 @@ I8x16subSaturateU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16shiftRightByScalarU
@@ -37553,7 +37553,7 @@ I8x16shiftRightByScalarU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16lessThanU
@@ -37562,7 +37562,7 @@ I8x16lessThanU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16lessThanOrEqualU
@@ -37571,7 +37571,7 @@ I8x16lessThanOrEqualU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16greaterThanU
@@ -37580,7 +37580,7 @@ I8x16greaterThanU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16greaterThanOrEqualU
@@ -37589,7 +37589,7 @@ I8x16greaterThanOrEqualU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I8x16extractLaneU
@@ -37598,7 +37598,7 @@ I8x16extractLaneU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8addSaturateU
@@ -37607,7 +37607,7 @@ I16x8addSaturateU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8subSaturateU
@@ -37616,7 +37616,7 @@ I16x8subSaturateU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8shiftRightByScalarU
@@ -37625,7 +37625,7 @@ I16x8shiftRightByScalarU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8lessThanU
@@ -37634,7 +37634,7 @@ I16x8lessThanU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8lessThanOrEqualU
@@ -37643,7 +37643,7 @@ I16x8lessThanOrEqualU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8greaterThanU
@@ -37652,7 +37652,7 @@ I16x8greaterThanU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8greaterThanOrEqualU
@@ -37661,7 +37661,7 @@ I16x8greaterThanOrEqualU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I16x8extractLaneU
@@ -37670,7 +37670,7 @@ I16x8extractLaneU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4lessThanU
@@ -37679,7 +37679,7 @@ I32x4lessThanU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4lessThanOrEqualU
@@ -37688,7 +37688,7 @@ I32x4lessThanOrEqualU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4greaterThanU
@@ -37697,7 +37697,7 @@ I32x4greaterThanU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4greaterThanOrEqualU
@@ -37706,7 +37706,7 @@ I32x4greaterThanOrEqualU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32x4fromFloat32x4U
@@ -37723,7 +37723,7 @@ SIMD
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32AtomicsLoad
@@ -37732,7 +37732,7 @@ I32AtomicsLoad
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32AtomicsStore
@@ -37741,7 +37741,7 @@ I32AtomicsStore
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32AtomicsBinOp
@@ -37750,7 +37750,7 @@ I32AtomicsBinOp
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32AtomicsCompareExchange
@@ -37759,7 +37759,7 @@ I32AtomicsCompareExchange
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32AtomicsExchange
@@ -37776,7 +37776,7 @@ Atomics
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 GrowMemory
@@ -37792,7 +37792,7 @@ emitGrowMemory
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 CurrentMemory

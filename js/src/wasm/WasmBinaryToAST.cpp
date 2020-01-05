@@ -184,7 +184,7 @@ Limit
 struct
 AstDecodePolicy
 :
-ExprIterPolicy
+OpIterPolicy
 {
 static
 const
@@ -203,11 +203,11 @@ true
 }
 ;
 typedef
-ExprIter
+OpIter
 <
 AstDecodePolicy
 >
-AstDecodeExprIter
+AstDecodeOpIter
 ;
 class
 AstDecodeContext
@@ -259,7 +259,7 @@ module_
 AstIndexVector
 funcDefSigs_
 ;
-AstDecodeExprIter
+AstDecodeOpIter
 *
 iter_
 ;
@@ -383,7 +383,7 @@ return
 funcDefSigs_
 ;
 }
-AstDecodeExprIter
+AstDecodeOpIter
 &
 iter
 (
@@ -854,7 +854,7 @@ voidNode
 void
 startFunction
 (
-AstDecodeExprIter
+AstDecodeOpIter
 *
 iter
 const
@@ -1789,7 +1789,7 @@ lifo
 )
 AstCall
 (
-Expr
+Op
 :
 :
 Call
@@ -2502,25 +2502,25 @@ AstDecodeBlock
 AstDecodeContext
 &
 c
-Expr
-expr
+Op
+op
 )
 {
 MOZ_ASSERT
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Block
 |
 |
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Loop
@@ -2547,10 +2547,10 @@ false
 ;
 if
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Loop
@@ -2786,7 +2786,7 @@ lifo
 )
 AstBlock
 (
-expr
+op
 type
 name
 Move
@@ -3534,8 +3534,8 @@ AstDecodeContext
 c
 ValType
 type
-Expr
-expr
+Op
+op
 )
 {
 if
@@ -3557,7 +3557,7 @@ return
 false
 ;
 AstDecodeStackItem
-op
+operand
 =
 c
 .
@@ -3577,8 +3577,8 @@ lifo
 )
 AstUnaryOperator
 (
-expr
 op
+operand
 .
 expr
 )
@@ -3620,8 +3620,8 @@ AstDecodeContext
 c
 ValType
 type
-Expr
-expr
+Op
+op
 )
 {
 if
@@ -3673,7 +3673,7 @@ lifo
 )
 AstBinaryOperator
 (
-expr
+op
 lhs
 .
 expr
@@ -3782,7 +3782,7 @@ lifo
 )
 AstTernaryOperator
 (
-Expr
+Op
 :
 :
 Select
@@ -3834,8 +3834,8 @@ AstDecodeContext
 c
 ValType
 type
-Expr
-expr
+Op
+op
 )
 {
 if
@@ -3887,7 +3887,7 @@ lifo
 )
 AstComparisonOperator
 (
-expr
+op
 lhs
 .
 expr
@@ -3935,8 +3935,8 @@ ValType
 fromType
 ValType
 toType
-Expr
-expr
+Op
+op
 )
 {
 if
@@ -3959,7 +3959,7 @@ return
 false
 ;
 AstDecodeStackItem
-op
+operand
 =
 c
 .
@@ -3979,8 +3979,8 @@ lifo
 )
 AstConversionOperator
 (
-expr
 op
+operand
 .
 expr
 )
@@ -4064,8 +4064,8 @@ ValType
 type
 uint32_t
 byteSize
-Expr
-expr
+Op
+op
 )
 {
 LinearMemoryAddress
@@ -4115,7 +4115,7 @@ lifo
 )
 AstLoad
 (
-expr
+op
 AstDecodeLoadStoreAddress
 (
 addr
@@ -4162,8 +4162,8 @@ ValType
 type
 uint32_t
 byteSize
-Expr
-expr
+Op
+op
 )
 {
 LinearMemoryAddress
@@ -4223,7 +4223,7 @@ lifo
 )
 AstStore
 (
-expr
+op
 AstDecodeLoadStoreAddress
 (
 addr
@@ -4375,7 +4375,7 @@ return
 false
 ;
 AstDecodeStackItem
-op
+operand
 =
 c
 .
@@ -4395,7 +4395,7 @@ lifo
 )
 AstGrowMemory
 (
-op
+operand
 .
 expr
 )
@@ -4435,25 +4435,25 @@ AstDecodeBranch
 AstDecodeContext
 &
 c
-Expr
-expr
+Op
+op
 )
 {
 MOZ_ASSERT
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Br
 |
 |
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 BrIf
@@ -4473,10 +4473,10 @@ cond
 ;
 if
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Br
@@ -4588,10 +4588,10 @@ false
 ;
 if
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Br
@@ -4621,7 +4621,7 @@ lifo
 )
 AstBranch
 (
-expr
+op
 type
 cond
 .
@@ -5367,7 +5367,7 @@ currentOffset
 )
 ;
 uint16_t
-expr
+op
 ;
 if
 (
@@ -5378,10 +5378,10 @@ iter
 (
 )
 .
-readExpr
+readOp
 (
 &
-expr
+op
 )
 )
 return
@@ -5393,13 +5393,13 @@ tmp
 ;
 switch
 (
-expr
+op
 )
 {
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Nop
@@ -5421,7 +5421,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Drop
@@ -5443,7 +5443,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Call
@@ -5465,7 +5465,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 CallIndirect
@@ -5487,7 +5487,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Const
@@ -5558,7 +5558,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Const
@@ -5629,7 +5629,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Const
@@ -5699,7 +5699,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Const
@@ -5769,7 +5769,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 GetLocal
@@ -5791,7 +5791,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 SetLocal
@@ -5813,7 +5813,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 TeeLocal
@@ -5835,7 +5835,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Select
@@ -5857,7 +5857,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Block
@@ -5866,7 +5866,7 @@ Block
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Loop
@@ -5878,9 +5878,9 @@ if
 AstDecodeBlock
 (
 c
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -5892,7 +5892,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 If
@@ -5914,7 +5914,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Else
@@ -5936,7 +5936,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 End
@@ -5958,7 +5958,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Clz
@@ -5967,7 +5967,7 @@ I32Clz
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Ctz
@@ -5976,7 +5976,7 @@ I32Ctz
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Popcnt
@@ -5992,9 +5992,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6006,7 +6006,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Clz
@@ -6015,7 +6015,7 @@ I64Clz
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Ctz
@@ -6024,7 +6024,7 @@ I64Ctz
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Popcnt
@@ -6040,9 +6040,9 @@ ValType
 :
 :
 I64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6054,7 +6054,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Abs
@@ -6063,7 +6063,7 @@ F32Abs
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Neg
@@ -6072,7 +6072,7 @@ F32Neg
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Ceil
@@ -6081,7 +6081,7 @@ F32Ceil
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Floor
@@ -6090,7 +6090,7 @@ F32Floor
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Sqrt
@@ -6099,7 +6099,7 @@ F32Sqrt
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Trunc
@@ -6108,7 +6108,7 @@ F32Trunc
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Nearest
@@ -6124,9 +6124,9 @@ ValType
 :
 :
 F32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6138,7 +6138,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Abs
@@ -6147,7 +6147,7 @@ F64Abs
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Neg
@@ -6156,7 +6156,7 @@ F64Neg
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Ceil
@@ -6165,7 +6165,7 @@ F64Ceil
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Floor
@@ -6174,7 +6174,7 @@ F64Floor
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Sqrt
@@ -6183,7 +6183,7 @@ F64Sqrt
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Trunc
@@ -6192,7 +6192,7 @@ F64Trunc
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Nearest
@@ -6208,9 +6208,9 @@ ValType
 :
 :
 F64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6222,7 +6222,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Add
@@ -6231,7 +6231,7 @@ I32Add
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Sub
@@ -6240,7 +6240,7 @@ I32Sub
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Mul
@@ -6249,7 +6249,7 @@ I32Mul
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32DivS
@@ -6258,7 +6258,7 @@ I32DivS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32DivU
@@ -6267,7 +6267,7 @@ I32DivU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32RemS
@@ -6276,7 +6276,7 @@ I32RemS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32RemU
@@ -6285,7 +6285,7 @@ I32RemU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32And
@@ -6294,7 +6294,7 @@ I32And
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Or
@@ -6303,7 +6303,7 @@ I32Or
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Xor
@@ -6312,7 +6312,7 @@ I32Xor
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Shl
@@ -6321,7 +6321,7 @@ I32Shl
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32ShrS
@@ -6330,7 +6330,7 @@ I32ShrS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32ShrU
@@ -6339,7 +6339,7 @@ I32ShrU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Rotl
@@ -6348,7 +6348,7 @@ I32Rotl
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Rotr
@@ -6364,9 +6364,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6378,7 +6378,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Add
@@ -6387,7 +6387,7 @@ I64Add
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Sub
@@ -6396,7 +6396,7 @@ I64Sub
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Mul
@@ -6405,7 +6405,7 @@ I64Mul
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64DivS
@@ -6414,7 +6414,7 @@ I64DivS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64DivU
@@ -6423,7 +6423,7 @@ I64DivU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64RemS
@@ -6432,7 +6432,7 @@ I64RemS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64RemU
@@ -6441,7 +6441,7 @@ I64RemU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64And
@@ -6450,7 +6450,7 @@ I64And
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Or
@@ -6459,7 +6459,7 @@ I64Or
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Xor
@@ -6468,7 +6468,7 @@ I64Xor
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Shl
@@ -6477,7 +6477,7 @@ I64Shl
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ShrS
@@ -6486,7 +6486,7 @@ I64ShrS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ShrU
@@ -6495,7 +6495,7 @@ I64ShrU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Rotl
@@ -6504,7 +6504,7 @@ I64Rotl
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Rotr
@@ -6520,9 +6520,9 @@ ValType
 :
 :
 I64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6534,7 +6534,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Add
@@ -6543,7 +6543,7 @@ F32Add
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Sub
@@ -6552,7 +6552,7 @@ F32Sub
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Mul
@@ -6561,7 +6561,7 @@ F32Mul
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Div
@@ -6570,7 +6570,7 @@ F32Div
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Min
@@ -6579,7 +6579,7 @@ F32Min
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Max
@@ -6588,7 +6588,7 @@ F32Max
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32CopySign
@@ -6604,9 +6604,9 @@ ValType
 :
 :
 F32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6618,7 +6618,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Add
@@ -6627,7 +6627,7 @@ F64Add
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Sub
@@ -6636,7 +6636,7 @@ F64Sub
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Mul
@@ -6645,7 +6645,7 @@ F64Mul
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Div
@@ -6654,7 +6654,7 @@ F64Div
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Min
@@ -6663,7 +6663,7 @@ F64Min
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Max
@@ -6672,7 +6672,7 @@ F64Max
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64CopySign
@@ -6688,9 +6688,9 @@ ValType
 :
 :
 F64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6702,7 +6702,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Eq
@@ -6711,7 +6711,7 @@ I32Eq
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Ne
@@ -6720,7 +6720,7 @@ I32Ne
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LtS
@@ -6729,7 +6729,7 @@ I32LtS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LtU
@@ -6738,7 +6738,7 @@ I32LtU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LeS
@@ -6747,7 +6747,7 @@ I32LeS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32LeU
@@ -6756,7 +6756,7 @@ I32LeU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GtS
@@ -6765,7 +6765,7 @@ I32GtS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GtU
@@ -6774,7 +6774,7 @@ I32GtU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GeS
@@ -6783,7 +6783,7 @@ I32GeS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32GeU
@@ -6799,9 +6799,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6813,7 +6813,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Eq
@@ -6822,7 +6822,7 @@ I64Eq
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Ne
@@ -6831,7 +6831,7 @@ I64Ne
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LtS
@@ -6840,7 +6840,7 @@ I64LtS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LtU
@@ -6849,7 +6849,7 @@ I64LtU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LeS
@@ -6858,7 +6858,7 @@ I64LeS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64LeU
@@ -6867,7 +6867,7 @@ I64LeU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GtS
@@ -6876,7 +6876,7 @@ I64GtS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GtU
@@ -6885,7 +6885,7 @@ I64GtU
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GeS
@@ -6894,7 +6894,7 @@ I64GeS
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64GeU
@@ -6910,9 +6910,9 @@ ValType
 :
 :
 I64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6924,7 +6924,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Eq
@@ -6933,7 +6933,7 @@ F32Eq
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Ne
@@ -6942,7 +6942,7 @@ F32Ne
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Lt
@@ -6951,7 +6951,7 @@ F32Lt
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Le
@@ -6960,7 +6960,7 @@ F32Le
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Gt
@@ -6969,7 +6969,7 @@ F32Gt
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Ge
@@ -6985,9 +6985,9 @@ ValType
 :
 :
 F32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -6999,7 +6999,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Eq
@@ -7008,7 +7008,7 @@ F64Eq
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Ne
@@ -7017,7 +7017,7 @@ F64Ne
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Lt
@@ -7026,7 +7026,7 @@ F64Lt
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Le
@@ -7035,7 +7035,7 @@ F64Le
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Gt
@@ -7044,7 +7044,7 @@ F64Gt
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Ge
@@ -7060,9 +7060,9 @@ ValType
 :
 :
 F64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7074,7 +7074,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Eqz
@@ -7094,9 +7094,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7108,7 +7108,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Eqz
@@ -7117,7 +7117,7 @@ I64Eqz
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32WrapI64
@@ -7137,9 +7137,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7151,7 +7151,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncSF32
@@ -7160,7 +7160,7 @@ I32TruncSF32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncUF32
@@ -7169,7 +7169,7 @@ I32TruncUF32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32ReinterpretF32
@@ -7189,9 +7189,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7203,7 +7203,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncSF64
@@ -7212,7 +7212,7 @@ I32TruncSF64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32TruncUF64
@@ -7232,9 +7232,9 @@ ValType
 :
 :
 I32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7246,7 +7246,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ExtendSI32
@@ -7255,7 +7255,7 @@ I64ExtendSI32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ExtendUI32
@@ -7275,9 +7275,9 @@ ValType
 :
 :
 I64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7289,7 +7289,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncSF32
@@ -7298,7 +7298,7 @@ I64TruncSF32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncUF32
@@ -7318,9 +7318,9 @@ ValType
 :
 :
 I64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7332,7 +7332,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncSF64
@@ -7341,7 +7341,7 @@ I64TruncSF64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64TruncUF64
@@ -7350,7 +7350,7 @@ I64TruncUF64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64ReinterpretF64
@@ -7370,9 +7370,9 @@ ValType
 :
 :
 I64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7384,7 +7384,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertSI32
@@ -7393,7 +7393,7 @@ F32ConvertSI32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertUI32
@@ -7402,7 +7402,7 @@ F32ConvertUI32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ReinterpretI32
@@ -7422,9 +7422,9 @@ ValType
 :
 :
 F32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7436,7 +7436,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertSI64
@@ -7445,7 +7445,7 @@ F32ConvertSI64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32ConvertUI64
@@ -7465,9 +7465,9 @@ ValType
 :
 :
 F32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7479,7 +7479,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32DemoteF64
@@ -7499,9 +7499,9 @@ ValType
 :
 :
 F32
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7513,7 +7513,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertSI32
@@ -7522,7 +7522,7 @@ F64ConvertSI32
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertUI32
@@ -7542,9 +7542,9 @@ ValType
 :
 :
 F64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7556,7 +7556,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertSI64
@@ -7565,7 +7565,7 @@ F64ConvertSI64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ConvertUI64
@@ -7574,7 +7574,7 @@ F64ConvertUI64
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64ReinterpretI64
@@ -7594,9 +7594,9 @@ ValType
 :
 :
 F64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7608,7 +7608,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64PromoteF32
@@ -7628,9 +7628,9 @@ ValType
 :
 :
 F64
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7642,7 +7642,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load8S
@@ -7651,7 +7651,7 @@ I32Load8S
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load8U
@@ -7668,9 +7668,9 @@ ValType
 :
 I32
 1
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7682,7 +7682,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load16S
@@ -7691,7 +7691,7 @@ I32Load16S
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load16U
@@ -7708,9 +7708,9 @@ ValType
 :
 I32
 2
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7722,7 +7722,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Load
@@ -7739,9 +7739,9 @@ ValType
 :
 I32
 4
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7753,7 +7753,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load8S
@@ -7762,7 +7762,7 @@ I64Load8S
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load8U
@@ -7779,9 +7779,9 @@ ValType
 :
 I64
 1
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7793,7 +7793,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load16S
@@ -7802,7 +7802,7 @@ I64Load16S
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load16U
@@ -7819,9 +7819,9 @@ ValType
 :
 I64
 2
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7833,7 +7833,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load32S
@@ -7842,7 +7842,7 @@ I64Load32S
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load32U
@@ -7859,9 +7859,9 @@ ValType
 :
 I64
 4
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7873,7 +7873,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Load
@@ -7890,9 +7890,9 @@ ValType
 :
 I64
 8
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7904,7 +7904,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Load
@@ -7921,9 +7921,9 @@ ValType
 :
 F32
 4
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7935,7 +7935,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Load
@@ -7952,9 +7952,9 @@ ValType
 :
 F64
 8
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7966,7 +7966,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Store8
@@ -7983,9 +7983,9 @@ ValType
 :
 I32
 1
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -7997,7 +7997,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Store16
@@ -8014,9 +8014,9 @@ ValType
 :
 I32
 2
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8028,7 +8028,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I32Store
@@ -8045,9 +8045,9 @@ ValType
 :
 I32
 4
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8059,7 +8059,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store8
@@ -8076,9 +8076,9 @@ ValType
 :
 I64
 1
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8090,7 +8090,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store16
@@ -8107,9 +8107,9 @@ ValType
 :
 I64
 2
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8121,7 +8121,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store32
@@ -8138,9 +8138,9 @@ ValType
 :
 I64
 4
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8152,7 +8152,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 I64Store
@@ -8169,9 +8169,9 @@ ValType
 :
 I64
 8
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8183,7 +8183,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F32Store
@@ -8200,9 +8200,9 @@ ValType
 :
 F32
 4
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8214,7 +8214,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 F64Store
@@ -8231,9 +8231,9 @@ ValType
 :
 F64
 8
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8245,7 +8245,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 CurrentMemory
@@ -8267,7 +8267,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 GrowMemory
@@ -8289,7 +8289,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 SetGlobal
@@ -8311,7 +8311,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 GetGlobal
@@ -8333,7 +8333,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Br
@@ -8342,7 +8342,7 @@ Br
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 BrIf
@@ -8354,9 +8354,9 @@ if
 AstDecodeBranch
 (
 c
-Expr
+Op
 (
-expr
+op
 )
 )
 )
@@ -8368,7 +8368,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 BrTable
@@ -8390,7 +8390,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Return
@@ -8412,7 +8412,7 @@ break
 case
 uint16_t
 (
-Expr
+Op
 :
 :
 Unreachable
@@ -8483,7 +8483,7 @@ iter
 .
 unrecognizedOpcode
 (
-expr
+op
 )
 ;
 }
@@ -10721,7 +10721,7 @@ bodyBegin
 +
 bodySize
 ;
-AstDecodeExprIter
+AstDecodeOpIter
 iter
 (
 c

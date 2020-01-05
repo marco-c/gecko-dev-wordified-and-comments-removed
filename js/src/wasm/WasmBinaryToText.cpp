@@ -1681,12 +1681,12 @@ if
 (
 call
 .
-expr
+op
 (
 )
 =
 =
-Expr
+Op
 :
 :
 Call
@@ -2433,12 +2433,12 @@ if
 (
 block
 .
-expr
+op
 (
 )
 =
 =
-Expr
+Op
 :
 :
 Block
@@ -2467,12 +2467,12 @@ if
 (
 block
 .
-expr
+op
 (
 )
 =
 =
-Expr
+Op
 :
 :
 Loop
@@ -2684,7 +2684,7 @@ c
 *
 gm
 .
-op
+operand
 (
 )
 )
@@ -2733,7 +2733,7 @@ WasmRenderContext
 c
 AstUnaryOperator
 &
-op
+unary
 )
 {
 if
@@ -2743,9 +2743,9 @@ RenderExpr
 (
 c
 *
-op
+unary
 .
-op
+operand
 (
 )
 )
@@ -2767,7 +2767,7 @@ false
 MAP_AST_EXPR
 (
 c
-op
+unary
 )
 ;
 const
@@ -2777,15 +2777,15 @@ opStr
 ;
 switch
 (
-op
+unary
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 I32Eqz
@@ -2801,7 +2801,7 @@ eqz
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Clz
@@ -2817,7 +2817,7 @@ clz
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Ctz
@@ -2833,7 +2833,7 @@ ctz
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Popcnt
@@ -2849,7 +2849,7 @@ popcnt
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Clz
@@ -2865,7 +2865,7 @@ clz
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Ctz
@@ -2881,7 +2881,7 @@ ctz
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Popcnt
@@ -2897,7 +2897,7 @@ popcnt
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Abs
@@ -2913,7 +2913,7 @@ abs
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Neg
@@ -2929,7 +2929,7 @@ neg
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Ceil
@@ -2945,7 +2945,7 @@ ceil
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Floor
@@ -2961,7 +2961,7 @@ floor
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Sqrt
@@ -2977,7 +2977,7 @@ sqrt
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Trunc
@@ -2993,7 +2993,7 @@ trunc
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Nearest
@@ -3009,7 +3009,7 @@ nearest
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Abs
@@ -3025,7 +3025,7 @@ abs
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Neg
@@ -3041,7 +3041,7 @@ neg
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Ceil
@@ -3057,7 +3057,7 @@ ceil
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Floor
@@ -3073,7 +3073,7 @@ floor
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Nearest
@@ -3089,7 +3089,7 @@ nearest
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Sqrt
@@ -3105,7 +3105,7 @@ sqrt
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Trunc
@@ -3158,7 +3158,7 @@ WasmRenderContext
 c
 AstBinaryOperator
 &
-op
+binary
 )
 {
 if
@@ -3168,7 +3168,7 @@ RenderExpr
 (
 c
 *
-op
+binary
 .
 lhs
 (
@@ -3185,7 +3185,7 @@ RenderExpr
 (
 c
 *
-op
+binary
 .
 rhs
 (
@@ -3209,7 +3209,7 @@ false
 MAP_AST_EXPR
 (
 c
-op
+binary
 )
 ;
 const
@@ -3219,15 +3219,15 @@ opStr
 ;
 switch
 (
-op
+binary
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 I32Add
@@ -3243,7 +3243,7 @@ add
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Sub
@@ -3259,7 +3259,7 @@ sub
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Mul
@@ -3275,7 +3275,7 @@ mul
 break
 ;
 case
-Expr
+Op
 :
 :
 I32DivS
@@ -3291,7 +3291,7 @@ div_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32DivU
@@ -3307,7 +3307,7 @@ div_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I32RemS
@@ -3323,7 +3323,7 @@ rem_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32RemU
@@ -3339,7 +3339,7 @@ rem_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I32And
@@ -3355,7 +3355,7 @@ and
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Or
@@ -3371,7 +3371,7 @@ or
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Xor
@@ -3387,7 +3387,7 @@ xor
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Shl
@@ -3403,7 +3403,7 @@ shl
 break
 ;
 case
-Expr
+Op
 :
 :
 I32ShrS
@@ -3419,7 +3419,7 @@ shr_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32ShrU
@@ -3435,7 +3435,7 @@ shr_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Rotl
@@ -3451,7 +3451,7 @@ rotl
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Rotr
@@ -3467,7 +3467,7 @@ rotr
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Add
@@ -3483,7 +3483,7 @@ add
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Sub
@@ -3499,7 +3499,7 @@ sub
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Mul
@@ -3515,7 +3515,7 @@ mul
 break
 ;
 case
-Expr
+Op
 :
 :
 I64DivS
@@ -3531,7 +3531,7 @@ div_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64DivU
@@ -3547,7 +3547,7 @@ div_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64RemS
@@ -3563,7 +3563,7 @@ rem_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64RemU
@@ -3579,7 +3579,7 @@ rem_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64And
@@ -3595,7 +3595,7 @@ and
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Or
@@ -3611,7 +3611,7 @@ or
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Xor
@@ -3627,7 +3627,7 @@ xor
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Shl
@@ -3643,7 +3643,7 @@ shl
 break
 ;
 case
-Expr
+Op
 :
 :
 I64ShrS
@@ -3659,7 +3659,7 @@ shr_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64ShrU
@@ -3675,7 +3675,7 @@ shr_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Rotl
@@ -3691,7 +3691,7 @@ rotl
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Rotr
@@ -3707,7 +3707,7 @@ rotr
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Add
@@ -3723,7 +3723,7 @@ add
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Sub
@@ -3739,7 +3739,7 @@ sub
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Mul
@@ -3755,7 +3755,7 @@ mul
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Div
@@ -3771,7 +3771,7 @@ div
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Min
@@ -3787,7 +3787,7 @@ min
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Max
@@ -3803,7 +3803,7 @@ max
 break
 ;
 case
-Expr
+Op
 :
 :
 F32CopySign
@@ -3819,7 +3819,7 @@ copysign
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Add
@@ -3835,7 +3835,7 @@ add
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Sub
@@ -3851,7 +3851,7 @@ sub
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Mul
@@ -3867,7 +3867,7 @@ mul
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Div
@@ -3883,7 +3883,7 @@ div
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Min
@@ -3899,7 +3899,7 @@ min
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Max
@@ -3915,7 +3915,7 @@ max
 break
 ;
 case
-Expr
+Op
 :
 :
 F64CopySign
@@ -3968,7 +3968,7 @@ WasmRenderContext
 c
 AstTernaryOperator
 &
-op
+ternary
 )
 {
 if
@@ -3978,7 +3978,7 @@ RenderExpr
 (
 c
 *
-op
+ternary
 .
 op0
 (
@@ -3995,7 +3995,7 @@ RenderExpr
 (
 c
 *
-op
+ternary
 .
 op1
 (
@@ -4012,7 +4012,7 @@ RenderExpr
 (
 c
 *
-op
+ternary
 .
 op2
 (
@@ -4036,7 +4036,7 @@ false
 MAP_AST_EXPR
 (
 c
-op
+ternary
 )
 ;
 const
@@ -4046,15 +4046,15 @@ opStr
 ;
 switch
 (
-op
+ternary
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 Select
@@ -4105,7 +4105,7 @@ WasmRenderContext
 c
 AstComparisonOperator
 &
-op
+comp
 )
 {
 if
@@ -4115,7 +4115,7 @@ RenderExpr
 (
 c
 *
-op
+comp
 .
 lhs
 (
@@ -4132,7 +4132,7 @@ RenderExpr
 (
 c
 *
-op
+comp
 .
 rhs
 (
@@ -4156,7 +4156,7 @@ false
 MAP_AST_EXPR
 (
 c
-op
+comp
 )
 ;
 const
@@ -4166,15 +4166,15 @@ opStr
 ;
 switch
 (
-op
+comp
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 I32Eq
@@ -4190,7 +4190,7 @@ eq
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Ne
@@ -4206,7 +4206,7 @@ ne
 break
 ;
 case
-Expr
+Op
 :
 :
 I32LtS
@@ -4222,7 +4222,7 @@ lt_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32LtU
@@ -4238,7 +4238,7 @@ lt_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I32LeS
@@ -4254,7 +4254,7 @@ le_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32LeU
@@ -4270,7 +4270,7 @@ le_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I32GtS
@@ -4286,7 +4286,7 @@ gt_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32GtU
@@ -4302,7 +4302,7 @@ gt_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I32GeS
@@ -4318,7 +4318,7 @@ ge_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I32GeU
@@ -4334,7 +4334,7 @@ ge_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Eq
@@ -4350,7 +4350,7 @@ eq
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Ne
@@ -4366,7 +4366,7 @@ ne
 break
 ;
 case
-Expr
+Op
 :
 :
 I64LtS
@@ -4382,7 +4382,7 @@ lt_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64LtU
@@ -4398,7 +4398,7 @@ lt_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64LeS
@@ -4414,7 +4414,7 @@ le_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64LeU
@@ -4430,7 +4430,7 @@ le_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64GtS
@@ -4446,7 +4446,7 @@ gt_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64GtU
@@ -4462,7 +4462,7 @@ gt_u
 break
 ;
 case
-Expr
+Op
 :
 :
 I64GeS
@@ -4478,7 +4478,7 @@ ge_s
 break
 ;
 case
-Expr
+Op
 :
 :
 I64GeU
@@ -4494,7 +4494,7 @@ ge_u
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Eq
@@ -4510,7 +4510,7 @@ eq
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Ne
@@ -4526,7 +4526,7 @@ ne
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Lt
@@ -4542,7 +4542,7 @@ lt
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Le
@@ -4558,7 +4558,7 @@ le
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Gt
@@ -4574,7 +4574,7 @@ gt
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Ge
@@ -4590,7 +4590,7 @@ ge
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Eq
@@ -4606,7 +4606,7 @@ eq
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Ne
@@ -4622,7 +4622,7 @@ ne
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Lt
@@ -4638,7 +4638,7 @@ lt
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Le
@@ -4654,7 +4654,7 @@ le
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Gt
@@ -4670,7 +4670,7 @@ gt
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Ge
@@ -4723,7 +4723,7 @@ WasmRenderContext
 c
 AstConversionOperator
 &
-op
+conv
 )
 {
 if
@@ -4733,9 +4733,9 @@ RenderExpr
 (
 c
 *
-op
+conv
 .
-op
+operand
 (
 )
 )
@@ -4757,7 +4757,7 @@ false
 MAP_AST_EXPR
 (
 c
-op
+conv
 )
 ;
 const
@@ -4767,15 +4767,15 @@ opStr
 ;
 switch
 (
-op
+conv
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 I32WrapI64
@@ -4793,7 +4793,7 @@ i64
 break
 ;
 case
-Expr
+Op
 :
 :
 I32TruncSF32
@@ -4811,7 +4811,7 @@ f32
 break
 ;
 case
-Expr
+Op
 :
 :
 I32TruncUF32
@@ -4829,7 +4829,7 @@ f32
 break
 ;
 case
-Expr
+Op
 :
 :
 I32ReinterpretF32
@@ -4847,7 +4847,7 @@ f32
 break
 ;
 case
-Expr
+Op
 :
 :
 I32TruncSF64
@@ -4865,7 +4865,7 @@ f64
 break
 ;
 case
-Expr
+Op
 :
 :
 I32TruncUF64
@@ -4883,7 +4883,7 @@ f64
 break
 ;
 case
-Expr
+Op
 :
 :
 I64ExtendSI32
@@ -4901,7 +4901,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 I64ExtendUI32
@@ -4919,7 +4919,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 I64TruncSF32
@@ -4937,7 +4937,7 @@ f32
 break
 ;
 case
-Expr
+Op
 :
 :
 I64TruncUF32
@@ -4955,7 +4955,7 @@ f32
 break
 ;
 case
-Expr
+Op
 :
 :
 I64TruncSF64
@@ -4973,7 +4973,7 @@ f64
 break
 ;
 case
-Expr
+Op
 :
 :
 I64TruncUF64
@@ -4991,7 +4991,7 @@ f64
 break
 ;
 case
-Expr
+Op
 :
 :
 I64ReinterpretF64
@@ -5009,7 +5009,7 @@ f64
 break
 ;
 case
-Expr
+Op
 :
 :
 F32ConvertSI32
@@ -5027,7 +5027,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 F32ConvertUI32
@@ -5045,7 +5045,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 F32ReinterpretI32
@@ -5063,7 +5063,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 F32ConvertSI64
@@ -5081,7 +5081,7 @@ i64
 break
 ;
 case
-Expr
+Op
 :
 :
 F32ConvertUI64
@@ -5099,7 +5099,7 @@ i64
 break
 ;
 case
-Expr
+Op
 :
 :
 F32DemoteF64
@@ -5117,7 +5117,7 @@ f64
 break
 ;
 case
-Expr
+Op
 :
 :
 F64ConvertSI32
@@ -5135,7 +5135,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 F64ConvertUI32
@@ -5153,7 +5153,7 @@ i32
 break
 ;
 case
-Expr
+Op
 :
 :
 F64ConvertSI64
@@ -5171,7 +5171,7 @@ i64
 break
 ;
 case
-Expr
+Op
 :
 :
 F64ConvertUI64
@@ -5189,7 +5189,7 @@ i64
 break
 ;
 case
-Expr
+Op
 :
 :
 F64ReinterpretI64
@@ -5207,7 +5207,7 @@ i64
 break
 ;
 case
-Expr
+Op
 :
 :
 F64PromoteF32
@@ -5225,7 +5225,7 @@ f32
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Eqz
@@ -5241,7 +5241,7 @@ eqz
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Eqz
@@ -5700,13 +5700,13 @@ switch
 (
 load
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 I32Load8S
@@ -5737,7 +5737,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load8S
@@ -5768,7 +5768,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Load8U
@@ -5799,7 +5799,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load8U
@@ -5830,7 +5830,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Load16S
@@ -5861,7 +5861,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load16S
@@ -5892,7 +5892,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Load16U
@@ -5923,7 +5923,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load16U
@@ -5954,7 +5954,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load32S
@@ -5985,7 +5985,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load32U
@@ -6016,7 +6016,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Load
@@ -6047,7 +6047,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Load
@@ -6078,7 +6078,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Load
@@ -6109,7 +6109,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Load
@@ -6234,13 +6234,13 @@ switch
 (
 store
 .
-expr
+op
 (
 )
 )
 {
 case
-Expr
+Op
 :
 :
 I32Store8
@@ -6271,7 +6271,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Store8
@@ -6302,7 +6302,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Store16
@@ -6333,7 +6333,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Store16
@@ -6364,7 +6364,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Store32
@@ -6395,7 +6395,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I32Store
@@ -6426,7 +6426,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 I64Store
@@ -6457,7 +6457,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 F32Store
@@ -6488,7 +6488,7 @@ defaultAlignLog2
 break
 ;
 case
-Expr
+Op
 :
 :
 F64Store
@@ -6557,30 +6557,30 @@ AstBranch
 branch
 )
 {
-Expr
-expr
+Op
+op
 =
 branch
 .
-expr
+op
 (
 )
 ;
 MOZ_ASSERT
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 BrIf
 |
 |
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 Br
@@ -6588,10 +6588,10 @@ Br
 ;
 if
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 BrIf
@@ -6662,10 +6662,10 @@ branch
 ;
 if
 (
-expr
+op
 =
 =
-Expr
+Op
 :
 :
 BrIf
