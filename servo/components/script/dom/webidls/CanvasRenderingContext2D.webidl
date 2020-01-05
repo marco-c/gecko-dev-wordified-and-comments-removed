@@ -470,8 +470,9 @@ double
 r1
 )
 ;
-/
-/
+[
+Throws
+]
 CanvasPattern
 createPattern
 (
