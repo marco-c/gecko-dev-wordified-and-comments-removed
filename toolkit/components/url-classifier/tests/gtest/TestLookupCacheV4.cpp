@@ -321,7 +321,7 @@ cryptoHash
 ;
 bool
 has
-complete
+fromCache
 ;
 uint32_t
 matchLength
@@ -338,9 +338,9 @@ lookupHash
 &
 has
 &
-complete
-&
 matchLength
+&
+fromCache
 )
 ;
 EXPECT_EQ
@@ -357,7 +357,10 @@ aExpectedHas
 ;
 EXPECT_EQ
 (
-complete
+matchLength
+=
+=
+COMPLETE_SIZE
 aExpectedComplete
 )
 ;

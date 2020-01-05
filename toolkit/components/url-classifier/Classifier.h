@@ -532,11 +532,7 @@ mActiveTablesCache
 uint32_t
 mHashKey
 ;
-nsDataHashtable
-<
-nsCStringHashKey
-int64_t
->
+TableFreshnessMap
 mTableFreshness
 ;
 nsCString

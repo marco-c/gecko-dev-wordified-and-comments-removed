@@ -4461,7 +4461,7 @@ Complete
 {
 result
 .
-mFresh
+mConfirmed
 =
 true
 ;
