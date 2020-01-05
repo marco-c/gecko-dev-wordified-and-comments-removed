@@ -312,10 +312,9 @@ StringArray
 return
 ;
 }
-mStates
--
->
-Add
+aStates
+.
+AppendElement
 (
 NS_LITERAL_STRING
 (
