@@ -1824,7 +1824,7 @@ activeMixedMode
 =
 MixedMode
 .
-MIXED_CONTENT_LOADED
+LOADED
 )
 {
 imageLevel
@@ -1840,7 +1840,7 @@ displayMixedMode
 =
 MixedMode
 .
-MIXED_CONTENT_LOADED
+LOADED
 )
 {
 imageLevel
