@@ -176,6 +176,9 @@ list
 -
 item
 flex
+inline
+-
+flex
 none
 "
 "
@@ -198,9 +201,6 @@ values
 "
 "
 "
-inline
--
-flex
 grid
 inline
 -
