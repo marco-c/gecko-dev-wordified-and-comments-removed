@@ -1128,6 +1128,7 @@ module
 undefined
 )
 return
+undefined
 ;
 CreateModuleEnvironment
 (

@@ -1037,7 +1037,6 @@ newTarget
 boundArgs
 )
 ;
-else
 return
 bind_applyFunctionN
 (

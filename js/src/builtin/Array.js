@@ -1913,7 +1913,6 @@ arguments
 ]
 )
 ;
-else
 return
 callFunction
 (
@@ -2209,7 +2208,6 @@ arguments
 ]
 )
 ;
-else
 return
 callFunction
 (
