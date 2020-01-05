@@ -35,14 +35,6 @@ plugin
 [
 feature
 (
-try_borrow
-)
-]
-#
-!
-[
-feature
-(
 unicode
 )
 ]
