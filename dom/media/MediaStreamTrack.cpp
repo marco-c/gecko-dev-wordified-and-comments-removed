@@ -1776,7 +1776,7 @@ void
 MediaStreamTrack
 :
 :
-NotifyEnded
+OverrideEnded
 (
 )
 {

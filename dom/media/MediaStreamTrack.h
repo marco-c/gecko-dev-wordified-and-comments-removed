@@ -891,7 +891,7 @@ aState
 )
 ;
 void
-NotifyEnded
+OverrideEnded
 (
 )
 ;
