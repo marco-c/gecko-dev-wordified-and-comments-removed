@@ -1614,12 +1614,6 @@ buffer_map
 =
 buffer_map
 ;
-let
-mut
-native_graphics_context
-=
-native_graphics_context
-;
 loop
 {
 let
