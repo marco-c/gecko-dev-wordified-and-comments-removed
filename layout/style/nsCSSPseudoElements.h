@@ -228,6 +228,17 @@ aType
 )
 ;
 static
+nsIAtom
+*
+GetPseudoAtom
+(
+const
+nsAString
+&
+aPseudoElement
+)
+;
+static
 bool
 PseudoElementContainsElements
 (
