@@ -287,12 +287,6 @@ self
 _tabbar
 =
 None
-        
-self
-.
-timeout_page_load
-=
-30
     
 property
     
