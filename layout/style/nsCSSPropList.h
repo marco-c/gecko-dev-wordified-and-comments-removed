@@ -8358,8 +8358,12 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 VARIANT_HCK
 kBorderColorKTable
-CSS_PROP_NO_OFFSET
-eStyleAnimType_Custom
+offsetof
+(
+nsStyleTextReset
+mTextDecorationColor
+)
+eStyleAnimType_ComplexColor
 )
 CSS_PROP_TEXTRESET
 (
@@ -8403,7 +8407,7 @@ CSS_PROPERTY_APPLIES_TO_PLACEHOLDER
 VARIANT_HK
 kTextDecorationStyleKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_Custom
+eStyleAnimType_None
 )
 CSS_PROP_SHORTHAND
 (
