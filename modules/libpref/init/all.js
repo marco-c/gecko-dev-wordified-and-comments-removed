@@ -12121,7 +12121,7 @@ spdy
 .
 timeout
 "
-180
+170
 )
 ;
 pref
