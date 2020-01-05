@@ -66,7 +66,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 link
 =
@@ -98,7 +98,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 windows
 .
@@ -208,7 +208,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 Wait
 (
@@ -251,7 +251,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 )
         
 self
@@ -276,7 +276,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 )
     
 def
@@ -292,7 +292,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 window_handles
 .
@@ -322,6 +322,6 @@ self
 .
 marionette
 .
-close
+close_chrome_window
 (
 )

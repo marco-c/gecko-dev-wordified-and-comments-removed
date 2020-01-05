@@ -48,7 +48,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 self
 .
@@ -109,7 +109,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 )
     
 def
@@ -130,23 +130,15 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 )
         
 self
 .
 marionette
 .
-execute_script
+close_chrome_window
 (
-"
-window
-.
-close
-(
-)
-;
-"
 )
         
 self
@@ -180,7 +172,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 wins
 .
