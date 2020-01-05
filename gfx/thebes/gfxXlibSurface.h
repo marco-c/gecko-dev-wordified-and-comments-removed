@@ -109,6 +109,8 @@ size
 ;
 gfxXlibSurface
 (
+:
+:
 Screen
 *
 screen
@@ -144,6 +146,8 @@ gfxXlibSurface
 >
 Create
 (
+:
+:
 Screen
 *
 screen
@@ -171,6 +175,8 @@ cairo_surface_t
 *
 CreateCairoSurface
 (
+:
+:
 Screen
 *
 screen
@@ -200,6 +206,8 @@ gfxXlibSurface
 >
 Create
 (
+:
+:
 Screen
 *
 screen
@@ -282,6 +290,8 @@ return
 mDisplay
 ;
 }
+:
+:
 Screen
 *
 XScreen
@@ -308,6 +318,8 @@ int
 DepthOfVisual
 (
 const
+:
+:
 Screen
 *
 screen
@@ -322,6 +334,8 @@ Visual
 *
 FindVisual
 (
+:
+:
 Screen
 *
 screen

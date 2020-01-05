@@ -69,7 +69,7 @@ h
 #
 include
 "
-nsScreenGtk
+ScreenHelperGTK
 .
 h
 "
@@ -3669,10 +3669,10 @@ POINTS_PER_INCH_FLOAT
 size
 *
 =
-nsScreenGtk
+ScreenHelperGTK
 :
 :
-GetGtkMonitorScaleFactor
+GetGTKMonitorScaleFactor
 (
 )
 ;
