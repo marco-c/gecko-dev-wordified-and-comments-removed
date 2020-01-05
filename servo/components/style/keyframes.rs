@@ -130,6 +130,7 @@ stylesheets
 CssRuleType
 MemoryHoleReporter
 Stylesheet
+VendorPrefix
 }
 ;
 #
@@ -1266,6 +1267,13 @@ Vec
 <
 TransitionProperty
 >
+pub
+vendor_prefix
+:
+Option
+<
+VendorPrefix
+>
 }
 fn
 get_animated_properties
@@ -1436,6 +1444,12 @@ Keyframe
 >
 >
 ]
+vendor_prefix
+:
+Option
+<
+VendorPrefix
+>
 guard
 :
 &
@@ -1463,6 +1477,9 @@ vec
 !
 [
 ]
+vendor_prefix
+:
+vendor_prefix
 }
 ;
 if

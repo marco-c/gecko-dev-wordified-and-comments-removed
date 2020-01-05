@@ -119,6 +119,7 @@ from_keyframes
 (
 &
 keyframes
+None
 &
 shared_lock
 .
@@ -144,6 +145,9 @@ vec
 !
 [
 ]
+vendor_prefix
+:
+None
 }
 ;
 assert_eq
@@ -266,6 +270,7 @@ from_keyframes
 (
 &
 keyframes
+None
 &
 shared_lock
 .
@@ -291,6 +296,9 @@ vec
 !
 [
 ]
+vendor_prefix
+:
+None
 }
 ;
 assert_eq
@@ -573,6 +581,7 @@ from_keyframes
 (
 &
 keyframes
+None
 &
 shared_lock
 .
@@ -654,6 +663,9 @@ TransitionProperty
 :
 Height
 ]
+vendor_prefix
+:
+None
 }
 ;
 assert_eq
@@ -936,6 +948,7 @@ from_keyframes
 (
 &
 keyframes
+None
 &
 shared_lock
 .
@@ -1017,6 +1030,9 @@ TransitionProperty
 :
 Height
 ]
+vendor_prefix
+:
+None
 }
 ;
 assert_eq
@@ -1268,6 +1284,7 @@ from_keyframes
 (
 &
 keyframes
+None
 &
 shared_lock
 .
@@ -1397,6 +1414,9 @@ TransitionProperty
 :
 Height
 ]
+vendor_prefix
+:
+None
 }
 ;
 assert_eq
