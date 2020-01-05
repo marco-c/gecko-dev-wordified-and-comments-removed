@@ -7,6 +7,12 @@ unsafe_blocks
 )
 ]
 use
+context
+:
+:
+SharedLayoutContext
+;
+use
 css
 :
 :
@@ -2103,6 +2109,10 @@ cascade_node
 (
 &
 self
+layout_context
+:
+&
+SharedLayoutContext
 parent
 :
 Option
@@ -2129,6 +2139,10 @@ cascade_node_pseudo_element
 (
 &
 self
+layout_context
+:
+&
+SharedLayoutContext
 parent_style
 :
 Option
@@ -2214,6 +2228,10 @@ cascade_node_pseudo_element
 (
 &
 self
+layout_context
+:
+&
+SharedLayoutContext
 parent_style
 :
 Option
@@ -2315,6 +2333,9 @@ is_cacheable
 =
 cascade
 (
+layout_context
+.
+screen_size
 applicable_declarations
 shareable
 Some
@@ -2355,6 +2376,9 @@ is_cacheable
 =
 cascade
 (
+layout_context
+.
+screen_size
 applicable_declarations
 shareable
 None
@@ -3157,6 +3181,10 @@ cascade_node
 (
 &
 self
+layout_context
+:
+&
+SharedLayoutContext
 parent
 :
 Option
@@ -3353,6 +3381,7 @@ self
 .
 cascade_node_pseudo_element
 (
+layout_context
 parent_style
 applicable_declarations
 .
@@ -3393,6 +3422,7 @@ self
 .
 cascade_node_pseudo_element
 (
+layout_context
 Some
 (
 layout_data
@@ -3445,6 +3475,7 @@ self
 .
 cascade_node_pseudo_element
 (
+layout_context
 Some
 (
 layout_data
