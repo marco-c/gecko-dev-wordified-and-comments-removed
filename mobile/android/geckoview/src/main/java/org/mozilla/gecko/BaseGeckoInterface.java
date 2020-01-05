@@ -171,14 +171,6 @@ USER_AGENT_GECKOVIEW_MOBILE
 Override
 public
 void
-doRestart
-(
-)
-{
-}
-Override
-public
-void
 setFullScreen
 (
 final

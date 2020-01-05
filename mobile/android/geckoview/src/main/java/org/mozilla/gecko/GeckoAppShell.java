@@ -8953,12 +8953,6 @@ getDefaultUAString
 ;
 public
 void
-doRestart
-(
-)
-;
-public
-void
 setFullScreen
 (
 boolean
