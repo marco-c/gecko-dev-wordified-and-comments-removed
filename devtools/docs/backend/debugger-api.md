@@ -1,3 +1,6 @@
+#
+Debugger
+API
 The
 Debugger
 API
@@ -41,7 +44,7 @@ documented
 on
 the
 [
-Debgger
+Debugger
 API
 ]
 (
@@ -69,3 +72,4 @@ API
 )
 MDN
 page
+.
