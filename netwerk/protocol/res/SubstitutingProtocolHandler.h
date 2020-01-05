@@ -118,6 +118,7 @@ nullptr
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 CollectSubstitutions
 (
@@ -143,6 +144,7 @@ ConstructInternal
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 SendSubstitution
 (
@@ -156,6 +158,7 @@ aBaseURI
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 GetSubstitutionInternal
 (
@@ -179,6 +182,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 virtual
+MOZ_MUST_USE
 bool
 ResolveSpecialCases
 (
@@ -204,6 +208,7 @@ false
 ;
 }
 virtual
+MOZ_MUST_USE
 nsresult
 SubstituteChannel
 (
@@ -288,6 +293,7 @@ StartClone
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 EnsureFile
 (

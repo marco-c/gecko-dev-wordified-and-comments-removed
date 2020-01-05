@@ -206,6 +206,9 @@ enforced
 .
 *
 /
+[
+must_use
+]
 void
 setSubstitution
 (
@@ -239,6 +242,9 @@ exists
 .
 *
 /
+[
+must_use
+]
 nsIURI
 getSubstitution
 (
@@ -263,6 +269,9 @@ otherwise
 .
 *
 /
+[
+must_use
+]
 boolean
 hasSubstitution
 (
@@ -329,6 +338,9 @@ key
 .
 *
 /
+[
+must_use
+]
 AUTF8String
 resolveURI
 (
