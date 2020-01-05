@@ -725,15 +725,6 @@ container
 "
 )
 ;
-let
-urlbarRect
-=
-urlBarContainer
-.
-getBoundingClientRect
-(
-)
-;
 EventUtils
 .
 synthesizeMouse

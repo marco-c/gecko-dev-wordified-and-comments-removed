@@ -2183,9 +2183,6 @@ throws
 =
 >
 {
-let
-shutdownWhileShowing
-=
 UnsubmittedCrashHandler
 .
 prefs

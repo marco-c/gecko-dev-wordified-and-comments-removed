@@ -208,7 +208,6 @@ g
 ;
 let
 [
-unused
 fgR
 fgG
 fgB

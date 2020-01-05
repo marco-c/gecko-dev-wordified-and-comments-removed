@@ -240,11 +240,6 @@ hidden
 ;
 }
 }
-let
-doNotDisturbAlertsEnabled
-=
-false
-;
 if
 (
 AlertsServiceDND

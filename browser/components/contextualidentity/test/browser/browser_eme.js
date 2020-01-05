@@ -773,9 +773,6 @@ res
 {
 }
 ;
-let
-result
-=
 yield
 new
 Promise

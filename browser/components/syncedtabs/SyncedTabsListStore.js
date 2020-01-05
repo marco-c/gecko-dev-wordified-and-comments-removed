@@ -654,16 +654,6 @@ _selectedRow
 1
 ]
 ;
-let
-branch
-=
-this
-.
-data
-[
-branchRow
-]
-;
 if
 (
 this

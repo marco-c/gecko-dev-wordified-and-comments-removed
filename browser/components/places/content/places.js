@@ -494,6 +494,8 @@ found
 container
 )
 ;
+break
+;
 }
 PlacesUtils
 .
@@ -3142,18 +3144,6 @@ infoBox
 )
 ;
 var
-infoBoxExpander
-=
-document
-.
-getElementById
-(
-"
-infoBoxExpander
-"
-)
-;
-var
 infoBoxExpanderWrapper
 =
 document
@@ -5160,6 +5150,8 @@ search
 scope
 "
 ;
+break
+;
 }
 PlacesSearchBox
 .
@@ -7018,7 +7010,6 @@ currentPlace
 {
 let
 {
-view
 options
 }
 =

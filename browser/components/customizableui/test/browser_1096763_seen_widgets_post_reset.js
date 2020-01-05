@@ -23,9 +23,6 @@ function
 (
 )
 {
-let
-widget
-=
 CustomizableUI
 .
 createWidget

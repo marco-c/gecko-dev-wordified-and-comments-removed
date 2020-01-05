@@ -10,9 +10,6 @@ false
 ;
 try
 {
-var
-newURI
-=
 ios
 .
 newURI
@@ -82,8 +79,6 @@ false
 ;
 try
 {
-newURI
-=
 ios
 .
 newURI
@@ -150,8 +145,6 @@ false
 ;
 try
 {
-newURI
-=
 ios
 .
 newURI
@@ -221,8 +214,6 @@ false
 ;
 try
 {
-newURI
-=
 ios
 .
 newURI

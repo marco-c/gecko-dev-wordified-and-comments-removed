@@ -522,15 +522,6 @@ jsm
 SessionStore
 ;
 let
-backupState
-=
-SessionStore
-.
-getBrowserState
-(
-)
-;
-let
 tabRestored
 =
 BrowserTestUtils

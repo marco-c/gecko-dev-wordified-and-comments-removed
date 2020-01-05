@@ -1019,14 +1019,8 @@ node
 =
 null
 ;
-var
-index
-=
-null
-;
 [
 node
-index
 ]
 =
 getNodeForTreeItem
@@ -1325,7 +1319,6 @@ aNewValue
 let
 [
 node
-index
 valid
 ]
 =

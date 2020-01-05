@@ -1440,7 +1440,6 @@ for
 (
 let
 [
-id
 widget
 ]
 of
@@ -3078,13 +3077,6 @@ aToolbar
 return
 ;
 }
-let
-document
-=
-aToolbar
-.
-ownerDocument
-;
 let
 areaProperties
 =
@@ -5695,7 +5687,6 @@ for
 (
 let
 [
-area
 areaMap
 ]
 of
@@ -5749,7 +5740,7 @@ areaMap
 .
 delete
 (
-toDelete
+areaNode
 )
 ;
 }
@@ -11595,7 +11586,6 @@ for
 let
 [
 area
-placements
 ]
 of
 gPlacements

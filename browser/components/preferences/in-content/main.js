@@ -1534,9 +1534,6 @@ names
 null
 }
 ;
-var
-dialog
-=
 gSubDialog
 .
 open

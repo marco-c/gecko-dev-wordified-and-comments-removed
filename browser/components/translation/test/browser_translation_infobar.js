@@ -1594,15 +1594,6 @@ fr
 "
 )
 ;
-let
-notificationBox
-=
-gBrowser
-.
-getNotificationBox
-(
-)
-;
 is
 (
 hasTranslationInfoBar

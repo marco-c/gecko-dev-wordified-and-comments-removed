@@ -3004,13 +3004,6 @@ defer
 )
 ;
 let
-win
-=
-aPopup
-.
-ownerGlobal
-;
-let
 eventType
 =
 "

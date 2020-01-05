@@ -678,14 +678,6 @@ gUserContextId
 userContextId
 ;
 let
-value
-=
-USER_CONTEXTS
-[
-userContextId
-]
-;
-let
 tabInfo
 =
 yield

@@ -287,9 +287,6 @@ return
 ;
 try
 {
-var
-gsettings
-=
 Cc
 [
 "

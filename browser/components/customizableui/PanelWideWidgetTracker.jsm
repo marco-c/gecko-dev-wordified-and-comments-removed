@@ -225,16 +225,6 @@ getWidgetIdsInArea
 gPanel
 )
 ;
-let
-pos
-=
-gPanelPlacements
-.
-indexOf
-(
-aWidgetId
-)
-;
 this
 .
 adjustWidgets

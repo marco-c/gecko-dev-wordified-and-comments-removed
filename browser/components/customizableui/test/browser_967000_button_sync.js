@@ -1334,11 +1334,6 @@ function
 (
 )
 {
-let
-nSyncs
-=
-0
-;
 mockedInternal
 .
 getTabClients
@@ -1359,10 +1354,6 @@ syncTabs
 =
 >
 {
-nSyncs
-+
-+
-;
 return
 Promise
 .

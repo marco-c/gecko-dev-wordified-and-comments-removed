@@ -112,9 +112,6 @@ HTMLAnchorElement
 "
 )
 ;
-let
-position
-=
 yield
 ContentTask
 .

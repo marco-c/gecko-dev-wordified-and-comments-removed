@@ -1260,9 +1260,6 @@ NS_BINDING_ABORTED
 return
 ;
 }
-let
-noSniff
-=
 httpChannel
 .
 getResponseHeader

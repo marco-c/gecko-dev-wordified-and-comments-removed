@@ -892,9 +892,6 @@ test_search_contents
 (
 )
 {
-let
-item
-=
 yield
 PlacesUtils
 .
@@ -1179,9 +1176,6 @@ test_tags
 (
 )
 {
-let
-item
-=
 yield
 PlacesUtils
 .

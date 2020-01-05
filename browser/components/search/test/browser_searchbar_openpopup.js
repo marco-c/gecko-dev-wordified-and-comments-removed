@@ -885,17 +885,6 @@ popuphidden
 "
 )
 ;
-let
-clickPromise
-=
-promiseEvent
-(
-searchIcon
-"
-click
-"
-)
-;
 info
 (
 "

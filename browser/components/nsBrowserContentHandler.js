@@ -3906,9 +3906,6 @@ _haveProfile
 {
 try
 {
-var
-dir
-=
 Services
 .
 dirsvc

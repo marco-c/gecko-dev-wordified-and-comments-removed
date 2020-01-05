@@ -112,13 +112,6 @@ initially
 )
 ;
 let
-currentVersion
-=
-CustomizableUIBSPass
-.
-kVersion
-;
-let
 testWidgetNew
 =
 {

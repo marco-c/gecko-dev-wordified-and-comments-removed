@@ -1904,9 +1904,6 @@ TYPE_UNICODE
 return
 false
 ;
-var
-unwrappedNodes
-=
 PlacesUtils
 .
 unwrapNodes
@@ -7368,13 +7365,6 @@ about
 :
 blank
 "
-;
-let
-title
-=
-data
-.
-label
 ;
 unwrapped
 =

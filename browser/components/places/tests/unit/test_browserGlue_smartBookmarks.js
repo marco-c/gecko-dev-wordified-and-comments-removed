@@ -183,9 +183,6 @@ setup
 (
 )
 {
-let
-bg
-=
 Cc
 [
 "

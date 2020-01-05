@@ -3243,13 +3243,6 @@ tabInfo
 )
 {
 let
-win
-=
-doc
-.
-defaultView
-;
-let
 item
 =
 doc
@@ -3688,13 +3681,6 @@ aEvent
 target
 .
 ownerDocument
-;
-let
-win
-=
-doc
-.
-defaultView
 ;
 let
 menu

@@ -168,13 +168,6 @@ function
 aContainer
 )
 {
-let
-window
-=
-aContainer
-.
-ownerGlobal
-;
 this
 .
 _nodePositionStore
