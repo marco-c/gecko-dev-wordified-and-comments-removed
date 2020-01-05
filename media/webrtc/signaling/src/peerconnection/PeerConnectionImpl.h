@@ -1018,9 +1018,6 @@ TimeStamp
 iceStartTime
 ;
 bool
-isHello
-;
-bool
 failed
 ;
 private
@@ -2406,16 +2403,6 @@ NS_OK
 #
 endif
 bool
-IsLoop
-(
-)
-const
-{
-return
-mIsLoop
-;
-}
-bool
 PrivacyRequested
 (
 )
@@ -3439,9 +3426,6 @@ std
 :
 string
 mName
-;
-bool
-mIsLoop
 ;
 nsCOMPtr
 <

@@ -3328,9 +3328,6 @@ iceCandidateBitmask
 const
 bool
 success
-const
-bool
-loop
 )
 ;
 private
@@ -10479,9 +10476,6 @@ iceCandidateBitmask
 const
 bool
 success
-const
-bool
-loop
 )
 {
 if
@@ -10509,7 +10503,6 @@ RecordIceCandidateMask
 (
 iceCandidateBitmask
 success
-loop
 )
 ;
 }
@@ -13293,9 +13286,6 @@ iceCandidateBitmask
 const
 bool
 success
-const
-bool
-loop
 )
 {
 TelemetryImpl
@@ -13305,7 +13295,6 @@ RecordIceCandidates
 (
 iceCandidateBitmask
 success
-loop
 )
 ;
 }

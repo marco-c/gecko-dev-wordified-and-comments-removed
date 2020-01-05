@@ -1212,15 +1212,6 @@ MediaStreamError
 PledgeVoid
 ;
 static
-bool
-IsLoop
-(
-nsIURI
-*
-aDocURI
-)
-;
-static
 nsresult
 GenerateUUID
 (

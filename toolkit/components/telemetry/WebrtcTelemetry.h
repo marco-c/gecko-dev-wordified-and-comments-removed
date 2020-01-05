@@ -62,10 +62,6 @@ struct
 WebrtcIceCandidateStats
 webrtc
 ;
-struct
-WebrtcIceCandidateStats
-loop
-;
 }
 ;
 typedef
@@ -84,8 +80,6 @@ uint32_t
 iceCandidateBitmask
 bool
 success
-bool
-loop
 )
 ;
 bool
@@ -135,8 +129,6 @@ JSObject
 *
 >
 rootObj
-bool
-loop
 )
 ;
 mozilla

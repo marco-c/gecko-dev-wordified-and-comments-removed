@@ -766,9 +766,6 @@ iceCandidateBitmask
 const
 bool
 success
-const
-bool
-loop
 )
 ;
 void
