@@ -2624,15 +2624,6 @@ aResizerRect
 0
 ;
 virtual
-nsIContent
-*
-GetLastRollup
-(
-)
-=
-0
-;
-virtual
 MOZ_MUST_USE
 nsresult
 BeginResizeDrag

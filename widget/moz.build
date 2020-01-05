@@ -716,6 +716,11 @@ InProcessCompositorWidget
 h
 '
 '
+nsAutoRollup
+.
+h
+'
+'
 PuppetBidiKeyboard
 .
 h
@@ -772,6 +777,11 @@ cpp
 '
 '
 InputData
+.
+cpp
+'
+'
+nsAutoRollup
 .
 cpp
 '
