@@ -408,14 +408,6 @@ HandleObject
 target
 )
 ;
-enum
-{
-HOLDER_SLOT_CACHED_PROTO
-=
-0
-HOLDER_SHARED_SLOT_COUNT
-}
-;
 JSObject
 *
 getHolder
@@ -503,11 +495,6 @@ src
 ;
 protected
 :
-static
-const
-JSClass
-HolderClass
-;
 virtual
 const
 JSClass
@@ -1714,7 +1701,7 @@ enum
 {
 SLOT_PROTOKEY
 =
-HOLDER_SHARED_SLOT_COUNT
+0
 SLOT_ISPROTOTYPE
 SLOT_CONSTRUCTOR_FOR
 SLOT_COUNT
@@ -2375,8 +2362,7 @@ return
 JS_NewObjectWithGivenProto
 (
 cx
-&
-HolderClass
+nullptr
 nullptr
 )
 ;
