@@ -329,6 +329,7 @@ UntrustedNodeAddress
 derive
 (
 PartialEq
+Copy
 Debug
 )
 ]

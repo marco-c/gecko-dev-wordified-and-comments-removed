@@ -308,6 +308,7 @@ derive
 Clone
 PartialEq
 Copy
+Debug
 )
 ]
 pub

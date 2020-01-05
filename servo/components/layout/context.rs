@@ -98,6 +98,7 @@ layout_interface
 {
 Animation
 LayoutChan
+ReflowGoal
 }
 ;
 use
@@ -408,6 +409,10 @@ Sender
 <
 Animation
 >
+pub
+goal
+:
+ReflowGoal
 }
 pub
 struct
