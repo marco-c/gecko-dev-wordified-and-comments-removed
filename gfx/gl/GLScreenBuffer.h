@@ -833,6 +833,16 @@ return
 mUserReadBufferMode
 ;
 }
+GLenum
+GetDrawBufferMode
+(
+)
+const
+{
+return
+mUserDrawBufferMode
+;
+}
 bool
 ReadPixels
 (
