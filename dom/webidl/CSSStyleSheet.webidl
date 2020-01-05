@@ -115,6 +115,9 @@ cssom
 /
 *
 /
+interface
+CSSRule
+;
 enum
 CSSStyleSheetParsingMode
 {
