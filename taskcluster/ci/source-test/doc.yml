@@ -1,6 +1,4 @@
 sphinx
-/
-opt
 :
 description
 :
@@ -8,6 +6,11 @@ Generate
 the
 Sphinx
 documentation
+platform
+:
+lint
+/
+opt
 treeherder
 :
 symbol
@@ -22,11 +25,6 @@ test
 tier
 :
 1
-platform
-:
-lint
-/
-opt
 worker
 -
 type

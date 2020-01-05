@@ -69,7 +69,7 @@ taskgraph
 .
 transforms
 .
-build_attrs
+source_test
 :
 transforms
 -
