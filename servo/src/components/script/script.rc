@@ -308,6 +308,10 @@ HTMLCollectionBinding
 ;
 pub
 mod
+HTMLDListElementBinding
+;
+pub
+mod
 HTMLDivElementBinding
 ;
 pub
@@ -479,6 +483,10 @@ htmlcanvaselement
 pub
 mod
 htmlcollection
+;
+pub
+mod
+htmldlistelement
 ;
 pub
 mod
