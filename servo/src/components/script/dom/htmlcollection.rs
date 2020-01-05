@@ -62,7 +62,10 @@ dom
 element
 :
 :
+{
 Element
+AttributeHandlers
+}
 ;
 use
 dom
@@ -552,10 +555,6 @@ class
 |
 elem
 .
-get
-(
-)
-.
 has_class
 (
 *
@@ -752,15 +751,6 @@ find
 elem
 |
 {
-let
-elem
-=
-elem
-.
-get
-(
-)
-;
 elem
 .
 get_string_attribute

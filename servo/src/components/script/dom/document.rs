@@ -191,6 +191,7 @@ element
 :
 {
 Element
+AttributeHandlers
 }
 ;
 use
@@ -3756,10 +3757,6 @@ unwrap
 ;
 element
 .
-get
-(
-)
-.
 get_attribute
 (
 Null
@@ -4058,10 +4055,6 @@ tag_name
 &
 elem
 .
-get
-(
-)
-.
 get_attribute
 (
 Null
@@ -4278,10 +4271,6 @@ tag_name
 &
 &
 elem
-.
-get
-(
-)
 .
 get_attribute
 (
