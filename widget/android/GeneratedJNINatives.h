@@ -3674,7 +3674,7 @@ CodecProxy
 NativeCallbacks
 :
 :
-OnInputExhausted_t
+OnInputStatus_t
 >
 (
 mozilla
@@ -3691,7 +3691,7 @@ CodecProxy
 NativeCallbacks
 :
 :
-OnInputExhausted_t
+OnInputStatus_t
 Impl
 >
 :
@@ -3703,7 +3703,7 @@ Wrap
 Impl
 :
 :
-OnInputExhausted
+OnInputStatus
 >
 )
 mozilla

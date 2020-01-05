@@ -38203,7 +38203,7 @@ CURRENT
 }
 ;
 struct
-OnInputExhausted_t
+OnInputStatus_t
 {
 typedef
 NativeCallbacks
@@ -38226,6 +38226,8 @@ jni
 :
 Args
 <
+int64_t
+bool
 >
 Args
 ;
@@ -38237,7 +38239,7 @@ name
 ]
 =
 "
-onInputExhausted
+onInputStatus
 "
 ;
 static
@@ -38249,6 +38251,7 @@ signature
 =
 "
 (
+JZ
 )
 V
 "
