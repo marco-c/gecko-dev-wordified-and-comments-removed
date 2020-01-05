@@ -4419,6 +4419,10 @@ Append
 aPACScript
 )
 ;
+mIncludePath
+=
+aIncludePath
+;
 if
 (
 !
@@ -4430,10 +4434,6 @@ return
 SetupJS
 (
 )
-;
-mIncludePath
-=
-aIncludePath
 ;
 mJSNeedsSetup
 =
