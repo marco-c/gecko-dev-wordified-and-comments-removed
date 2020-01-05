@@ -104,7 +104,10 @@ use
 gfx_traits
 :
 :
+{
 LayerId
+LayerType
+}
 ;
 use
 incremental
@@ -157,15 +160,6 @@ IntrinsicISizesContribution
 MaybeAuto
 specified
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-LayerType
 ;
 use
 msg
