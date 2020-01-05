@@ -3775,8 +3775,9 @@ oncommand
 "
 gSyncUI
 .
-openPrefs
+openSetup
 (
+null
 '
 menubar
 '

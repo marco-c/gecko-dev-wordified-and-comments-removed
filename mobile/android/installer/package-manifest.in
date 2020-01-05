@@ -1219,6 +1219,17 @@ BINPATH
 /
 components
 /
+services
+-
+crypto
+-
+component
+.
+xpt
+BINPATH
+/
+components
+/
 captivedetect
 .
 xpt

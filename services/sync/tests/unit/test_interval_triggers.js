@@ -461,8 +461,9 @@ run_next_test
 )
 ;
 }
-add_task
+add_identity_test
 (
+this
 async
 function
 test_successful_sync_adjustSyncInterval
@@ -1106,8 +1107,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_unsuccessful_sync_adjustSyncInterval
@@ -1776,8 +1778,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_back_triggers_sync
@@ -1957,8 +1960,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_adjust_interval_on_sync_error
@@ -2158,8 +2162,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_bug671378_scenario

@@ -1072,8 +1072,9 @@ _window
 .
 gSyncUI
 .
-openPrefs
+openSetup
 (
+null
 "
 tabs
 -

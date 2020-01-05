@@ -143,7 +143,7 @@ let
 stubs
 =
 {
-updateUI
+updateAppMenuItem
 (
 )
 {
@@ -151,7 +151,7 @@ return
 unstubs
 [
 "
-updateUI
+updateAppMenuItem
 "
 ]
 .
@@ -179,7 +179,7 @@ test
 :
 browser_fxaccounts
 :
-updateUI
+updateAppMenuItem
 "
 null
 )
@@ -496,7 +496,7 @@ test
 :
 browser_fxaccounts
 :
-updateUI
+updateAppMenuItem
 "
 )
 ;
@@ -658,7 +658,7 @@ test
 :
 browser_fxaccounts
 :
-updateUI
+updateAppMenuItem
 "
 2
 )
@@ -794,7 +794,7 @@ test
 :
 browser_fxaccounts
 :
-updateUI
+updateAppMenuItem
 "
 2
 )
@@ -915,7 +915,7 @@ test
 :
 browser_fxaccounts
 :
-updateUI
+updateAppMenuItem
 "
 1
 )
@@ -1514,7 +1514,7 @@ test
 :
 browser_fxaccounts
 :
-updateUI
+updateAppMenuItem
 "
 )
 ;

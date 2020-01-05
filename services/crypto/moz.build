@@ -108,6 +108,14 @@ Sync
 Crypto
 '
 )
+DIRS
++
+=
+[
+'
+component
+'
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =

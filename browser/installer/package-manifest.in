@@ -1699,6 +1699,17 @@ RESPATH
 /
 components
 /
+services
+-
+crypto
+-
+component
+.
+xpt
+RESPATH
+/
+components
+/
 captivedetect
 .
 xpt

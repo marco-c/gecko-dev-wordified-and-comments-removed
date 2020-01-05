@@ -549,8 +549,9 @@ res
 success
 ;
 }
-add_task
+add_identity_test
 (
+this
 async
 function
 test_backoff500
@@ -689,8 +690,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_backoff503
@@ -897,8 +899,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_overQuota
@@ -1046,8 +1049,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_service_networkError
@@ -1169,8 +1173,9 @@ startOver
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_service_offline
@@ -1333,8 +1338,9 @@ localhost
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_engine_networkError
@@ -1483,8 +1489,9 @@ server
 }
 )
 ;
-add_task
+add_identity_test
 (
+this
 async
 function
 test_resource_timeout
