@@ -617,7 +617,7 @@ edit_point
 line
 ]
 .
-len
+char_len
 (
 )
 }
