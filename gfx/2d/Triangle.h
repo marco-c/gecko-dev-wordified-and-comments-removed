@@ -59,10 +59,6 @@ p1
 p2
 p3
 ;
-F
-width
-height
-;
 TriangleTyped
 (
 )
