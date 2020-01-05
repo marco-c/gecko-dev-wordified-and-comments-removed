@@ -43,6 +43,13 @@ d
 -
 verbose
 -
+.
+/
+mach
+test
+-
+unit
+-
 bash
 etc
 /
