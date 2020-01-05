@@ -218,259 +218,6 @@ use
 strict
 '
 ;
-function
-assert_properties_equal
-(
-actual
-expected
-)
-{
-assert_equals
-(
-actual
-.
-length
-expected
-.
-length
-)
-;
-var
-compareProperties
-=
-(
-a
-b
-)
-=
->
-a
-.
-property
-=
-=
-b
-.
-property
-?
-0
-:
-(
-a
-.
-property
-<
-b
-.
-property
-?
--
-1
-:
-1
-)
-;
-var
-sortedActual
-=
-actual
-.
-sort
-(
-compareProperties
-)
-;
-var
-sortedExpected
-=
-expected
-.
-sort
-(
-compareProperties
-)
-;
-var
-serializeValues
-=
-values
-=
->
-values
-.
-map
-(
-value
-=
->
-'
-{
-'
-+
-[
-'
-offset
-'
-'
-value
-'
-'
-easing
-'
-'
-composite
-'
-]
-.
-map
-(
-member
-=
->
-{
-member
-}
-:
-{
-value
-[
-member
-]
-}
-)
-.
-join
-(
-'
-'
-)
-+
-'
-}
-'
-)
-.
-join
-(
-'
-'
-)
-;
-for
-(
-var
-i
-=
-0
-;
-i
-<
-sortedActual
-.
-length
-;
-i
-+
-+
-)
-{
-assert_equals
-(
-sortedActual
-[
-i
-]
-.
-property
-sortedExpected
-[
-i
-]
-.
-property
-'
-CSS
-property
-name
-should
-match
-'
-)
-;
-assert_equals
-(
-serializeValues
-(
-sortedActual
-[
-i
-]
-.
-values
-)
-serializeValues
-(
-sortedExpected
-[
-i
-]
-.
-values
-)
-Values
-arrays
-do
-not
-match
-for
-+
-{
-sortedActual
-[
-i
-]
-.
-property
-}
-property
-)
-;
-}
-}
-/
-/
-Shorthand
-for
-constructing
-a
-value
-object
-function
-value
-(
-offset
-value
-composite
-easing
-)
-{
-return
-{
-offset
-:
-offset
-value
-:
-value
-easing
-:
-easing
-composite
-:
-composite
-}
-;
-}
 var
 gTests
 =
@@ -671,7 +418,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -684,7 +431,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -750,7 +497,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -763,7 +510,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -786,7 +533,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -799,7 +546,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -822,7 +569,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -835,7 +582,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -858,7 +605,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -871,7 +618,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -955,7 +702,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -968,7 +715,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -991,7 +738,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1004,7 +751,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1027,7 +774,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1040,7 +787,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1063,7 +810,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1076,7 +823,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1150,7 +897,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1163,7 +910,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -1178,7 +925,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1199,7 +946,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1212,7 +959,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1294,7 +1041,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1307,7 +1054,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -1322,7 +1069,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -1337,7 +1084,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -1352,7 +1099,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1373,7 +1120,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1386,7 +1133,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -1401,7 +1148,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -1416,7 +1163,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1477,7 +1224,7 @@ opacity
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1490,7 +1237,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1593,7 +1340,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1611,7 +1358,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1641,7 +1388,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1659,7 +1406,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1689,7 +1436,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1707,7 +1454,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1737,7 +1484,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1755,7 +1502,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1785,7 +1532,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1798,7 +1545,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1823,7 +1570,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1836,7 +1583,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1861,7 +1608,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1874,7 +1621,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1899,7 +1646,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1912,7 +1659,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1937,7 +1684,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1950,7 +1697,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -1975,7 +1722,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -1988,7 +1735,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2013,7 +1760,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2026,7 +1773,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2051,7 +1798,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2064,7 +1811,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2089,7 +1836,7 @@ outset
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2105,7 +1852,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2133,7 +1880,7 @@ repeat
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2147,7 +1894,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2173,7 +1920,7 @@ slice
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2193,7 +1940,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2225,7 +1972,7 @@ source
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2238,7 +1985,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2263,7 +2010,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2279,7 +2026,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2310,7 +2057,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2323,7 +2070,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2351,7 +2098,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2364,7 +2111,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2392,7 +2139,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2405,7 +2152,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2433,7 +2180,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2446,7 +2193,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2549,7 +2296,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2567,7 +2314,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2597,7 +2344,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2615,7 +2362,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2645,7 +2392,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2663,7 +2410,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2693,7 +2440,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2711,7 +2458,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2741,7 +2488,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2754,7 +2501,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2779,7 +2526,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2792,7 +2539,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2817,7 +2564,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2830,7 +2577,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2855,7 +2602,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2868,7 +2615,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2893,7 +2640,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2906,7 +2653,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2931,7 +2678,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2944,7 +2691,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -2969,7 +2716,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -2982,7 +2729,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3007,7 +2754,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3020,7 +2767,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3045,7 +2792,7 @@ outset
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3061,7 +2808,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3089,7 +2836,7 @@ repeat
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3103,7 +2850,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3129,7 +2876,7 @@ slice
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3149,7 +2896,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3181,7 +2928,7 @@ source
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3194,7 +2941,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3219,7 +2966,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3235,7 +2982,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3266,7 +3013,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3279,7 +3026,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3307,7 +3054,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3320,7 +3067,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3348,7 +3095,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3361,7 +3108,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3389,7 +3136,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3402,7 +3149,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3696,7 +3443,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3706,7 +3453,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 '
@@ -3719,7 +3466,7 @@ replace
 ease
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -3734,7 +3481,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3744,7 +3491,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3807,7 +3554,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3820,7 +3567,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3893,7 +3640,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3906,7 +3653,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -3927,7 +3674,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -3940,7 +3687,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4008,7 +3755,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4021,7 +3768,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4044,7 +3791,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4057,7 +3804,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4080,7 +3827,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4093,7 +3840,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4116,7 +3863,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4129,7 +3876,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4220,7 +3967,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4233,7 +3980,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4256,7 +4003,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4269,7 +4016,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4292,7 +4039,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4305,7 +4052,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4328,7 +4075,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4341,7 +4088,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4450,7 +4197,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4463,7 +4210,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -4475,7 +4222,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -4490,7 +4237,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4596,7 +4343,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4606,7 +4353,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 '
@@ -4619,7 +4366,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4629,7 +4376,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4712,7 +4459,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4725,7 +4472,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4746,7 +4493,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4759,7 +4506,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -4854,7 +4601,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -4867,7 +4614,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -4882,7 +4629,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -4897,7 +4644,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -4912,7 +4659,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5022,7 +4769,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5035,7 +4782,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5050,7 +4797,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5065,7 +4812,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5080,7 +4827,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5101,7 +4848,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5114,7 +4861,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5129,7 +4876,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5209,7 +4956,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5222,7 +4969,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5237,7 +4984,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5252,7 +4999,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5267,7 +5014,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5427,7 +5174,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5440,7 +5187,7 @@ replace
 ease
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5455,7 +5202,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5476,7 +5223,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5489,7 +5236,7 @@ replace
 ease
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -5504,7 +5251,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5572,7 +5319,7 @@ opacity
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5585,7 +5332,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5654,7 +5401,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5667,7 +5414,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5690,7 +5437,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5703,7 +5450,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5726,7 +5473,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5739,7 +5486,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5762,7 +5509,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5775,7 +5522,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5844,7 +5591,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5857,7 +5604,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5880,7 +5627,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5893,7 +5640,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5916,7 +5663,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5929,7 +5676,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -5952,7 +5699,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -5965,7 +5712,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6062,7 +5809,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6080,7 +5827,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6110,7 +5857,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6128,7 +5875,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6158,7 +5905,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6176,7 +5923,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6206,7 +5953,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6224,7 +5971,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6254,7 +6001,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6267,7 +6014,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6292,7 +6039,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6305,7 +6052,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6330,7 +6077,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6343,7 +6090,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6368,7 +6115,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6381,7 +6128,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6406,7 +6153,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6419,7 +6166,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6444,7 +6191,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6457,7 +6204,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6482,7 +6229,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6495,7 +6242,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6520,7 +6267,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6533,7 +6280,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6558,7 +6305,7 @@ outset
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6574,7 +6321,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6602,7 +6349,7 @@ repeat
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6616,7 +6363,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6642,7 +6389,7 @@ slice
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6662,7 +6409,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6694,7 +6441,7 @@ source
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6707,7 +6454,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6732,7 +6479,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6748,7 +6495,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6779,7 +6526,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6792,7 +6539,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6820,7 +6567,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6833,7 +6580,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6861,7 +6608,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6874,7 +6621,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -6902,7 +6649,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -6915,7 +6662,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7012,7 +6759,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7030,7 +6777,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7060,7 +6807,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7078,7 +6825,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7108,7 +6855,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7126,7 +6873,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7156,7 +6903,7 @@ color
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7174,7 +6921,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7204,7 +6951,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7217,7 +6964,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7242,7 +6989,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7255,7 +7002,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7280,7 +7027,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7293,7 +7040,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7318,7 +7065,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7331,7 +7078,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7356,7 +7103,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7369,7 +7116,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7394,7 +7141,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7407,7 +7154,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7432,7 +7179,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7445,7 +7192,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7470,7 +7217,7 @@ style
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7483,7 +7230,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7508,7 +7255,7 @@ outset
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7524,7 +7271,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7552,7 +7299,7 @@ repeat
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7566,7 +7313,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7592,7 +7339,7 @@ slice
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7612,7 +7359,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7644,7 +7391,7 @@ source
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7657,7 +7404,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7682,7 +7429,7 @@ width
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7698,7 +7445,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7729,7 +7476,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7742,7 +7489,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7770,7 +7517,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7783,7 +7530,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7811,7 +7558,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7824,7 +7571,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -7852,7 +7599,7 @@ colors
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -7865,7 +7612,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8069,7 +7816,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8082,7 +7829,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8148,7 +7895,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8164,7 +7911,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8384,7 +8131,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8397,7 +8144,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8466,7 +8213,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8479,7 +8226,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8555,7 +8302,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8568,7 +8315,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8591,7 +8338,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8604,7 +8351,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8627,7 +8374,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8640,7 +8387,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8663,7 +8410,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -8676,7 +8423,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8894,7 +8641,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -8905,7 +8652,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8928,7 +8675,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -8939,7 +8686,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8962,7 +8709,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -8973,7 +8720,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -8996,7 +8743,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -9007,7 +8754,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9095,7 +8842,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -9106,7 +8853,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9118,7 +8865,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9133,7 +8880,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9156,7 +8903,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -9167,7 +8914,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9179,7 +8926,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9194,7 +8941,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9217,7 +8964,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -9228,7 +8975,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9240,7 +8987,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9255,7 +9002,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9278,7 +9025,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -9289,7 +9036,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9301,7 +9048,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9316,7 +9063,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9368,7 +9115,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9381,7 +9128,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9402,7 +9149,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9415,7 +9162,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9436,7 +9183,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9449,7 +9196,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9470,7 +9217,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9483,7 +9230,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9569,7 +9316,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9582,7 +9329,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9594,7 +9341,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9609,7 +9356,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9630,7 +9377,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9643,7 +9390,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9655,7 +9402,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9670,7 +9417,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9691,7 +9438,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9704,7 +9451,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9716,7 +9463,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9731,7 +9478,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9752,7 +9499,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9765,7 +9512,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9777,7 +9524,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -9792,7 +9539,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -9869,7 +9616,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9882,7 +9629,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9905,7 +9652,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9918,7 +9665,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9941,7 +9688,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9954,7 +9701,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -9977,7 +9724,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -9990,7 +9737,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10052,7 +9799,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10065,7 +9812,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10088,7 +9835,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10099,7 +9846,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10122,7 +9869,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10133,7 +9880,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10156,7 +9903,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10167,7 +9914,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10190,7 +9937,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10201,7 +9948,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10265,7 +10012,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10278,7 +10025,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10301,7 +10048,7 @@ top
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10314,7 +10061,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10335,7 +10082,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10348,7 +10095,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10369,7 +10116,7 @@ bottom
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10382,7 +10129,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10403,7 +10150,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10416,7 +10163,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10470,7 +10217,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10481,7 +10228,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -10496,7 +10243,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10577,7 +10324,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10590,7 +10337,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10611,7 +10358,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10622,7 +10369,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 0
 .
@@ -10637,7 +10384,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10727,7 +10474,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10737,7 +10484,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 '
@@ -10750,7 +10497,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10771,7 +10518,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10781,7 +10528,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 0
 '
@@ -10794,7 +10541,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 undefined
@@ -10883,7 +10630,7 @@ left
 values
 :
 [
-value
+valueFormat
 (
 0
 '
@@ -10896,7 +10643,7 @@ replace
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10906,7 +10653,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10927,7 +10674,7 @@ right
 values
 :
 [
-value
+valueFormat
 (
 0
 undefined
@@ -10938,7 +10685,7 @@ add
 linear
 '
 )
-value
+valueFormat
 (
 1
 '
@@ -10948,7 +10695,7 @@ value
 replace
 '
 )
-value
+valueFormat
 (
 1
 '
