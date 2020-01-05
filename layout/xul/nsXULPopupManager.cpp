@@ -1239,7 +1239,7 @@ Frame
 (
 )
 ;
-nsIntRect
+CSSIntRect
 anchorRect
 ;
 if
@@ -1254,11 +1254,17 @@ IsAnchored
 {
 anchorRect
 =
+CSSIntRect
+:
+:
+FromUnknownRect
+(
 popupFrame
 -
 >
 GetScreenAnchorRect
 (
+)
 )
 ;
 if
@@ -1406,7 +1412,7 @@ PresContext
 (
 )
 ;
-nsIntPoint
+CSSIntPoint
 posCSSPixels
 (
 presContext

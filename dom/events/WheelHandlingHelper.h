@@ -403,7 +403,7 @@ MayEndTransaction
 )
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 GetScreenPoint
 (
 WidgetGUIEvent

@@ -12658,7 +12658,7 @@ WidgetToScreenOffset
 (
 )
 ;
-nsIntRect
+CSSIntRect
 docFrameRect
 =
 docFrame

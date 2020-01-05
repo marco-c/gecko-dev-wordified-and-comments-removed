@@ -937,7 +937,7 @@ if
 sm
 )
 {
-nsIntRect
+CSSIntRect
 frameRect
 =
 GetScreenRect

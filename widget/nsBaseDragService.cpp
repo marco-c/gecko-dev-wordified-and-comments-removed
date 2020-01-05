@@ -2288,7 +2288,7 @@ enableDragImages
 mHasImage
 )
 {
-nsIntRect
+CSSIntRect
 dragRect
 ;
 if
@@ -2330,7 +2330,7 @@ GetRootFrame
 (
 )
 ;
-nsIntRect
+CSSIntRect
 screenRect
 =
 rootFrame
@@ -2392,7 +2392,8 @@ GetScreenRect
 ;
 }
 }
-dragRect
+nsIntRect
+dragRectDev
 =
 ToAppUnits
 (
@@ -2423,10 +2424,10 @@ aScreenDragRect
 >
 SizeTo
 (
-dragRect
+dragRectDev
 .
 width
-dragRect
+dragRectDev
 .
 height
 )
