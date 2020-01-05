@@ -401,7 +401,7 @@ cx
 :
 *
 JSContext
-str
+string
 :
 &
 DOMString
@@ -412,7 +412,7 @@ JSVal
 {
 match
 *
-str
+string
 {
 null_string
 =
