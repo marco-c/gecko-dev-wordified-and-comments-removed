@@ -67,14 +67,6 @@ io
 [
 feature
 (
-old_io
-)
-]
-#
-!
-[
-feature
-(
 optin_builtin_traits
 )
 ]
