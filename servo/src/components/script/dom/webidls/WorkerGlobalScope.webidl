@@ -89,8 +89,6 @@ attribute
 WorkerGlobalScope
 self
 ;
-/
-/
 readonly
 attribute
 WorkerLocation

@@ -807,6 +807,10 @@ workerglobalscope
 ;
 pub
 mod
+workerlocation
+;
+pub
+mod
 workernavigator
 ;
 pub
