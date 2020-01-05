@@ -505,6 +505,10 @@ SelectedFile
 >
 >
 FileOrigin
+Option
+<
+String
+>
 )
 SelectFiles
 (
@@ -523,6 +527,13 @@ SelectedFile
 >
 >
 FileOrigin
+Option
+<
+Vec
+<
+String
+>
+>
 )
 ReadFile
 (
