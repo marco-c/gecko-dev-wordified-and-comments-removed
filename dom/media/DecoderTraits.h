@@ -102,7 +102,7 @@ MediaDecoderReader
 CreateReader
 (
 const
-nsACString
+MediaContentType
 &
 aType
 AbstractMediaDecoder
