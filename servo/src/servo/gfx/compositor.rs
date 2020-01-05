@@ -51,6 +51,9 @@ Size2D
 <
 uint
 >
+stride
+:
+uint
 }
 trait
 Compositor

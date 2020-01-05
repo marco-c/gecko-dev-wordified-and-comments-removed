@@ -358,6 +358,9 @@ Size2D
 800u
 600u
 )
+stride
+:
+800
 }
 ;
 let
