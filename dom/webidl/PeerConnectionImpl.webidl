@@ -427,16 +427,6 @@ getRemoteStreams
 )
 ;
 void
-selectSsrc
-(
-MediaStreamTrack
-recvTrack
-unsigned
-short
-ssrcIndex
-)
-;
-void
 addRIDExtension
 (
 MediaStreamTrack
