@@ -809,7 +809,7 @@ null
 {
 mContentListener
 .
-onTitleChanged
+onTitleChange
 (
 GeckoView
 .
@@ -1026,7 +1026,7 @@ null
 {
 mProgressListener
 .
-onSecurityChanged
+onSecurityChange
 (
 GeckoView
 .
@@ -2519,7 +2519,6 @@ public
 interface
 ChromeDelegate
 {
-public
 void
 onAlert
 (
@@ -2533,7 +2532,6 @@ PromptResult
 result
 )
 ;
-public
 void
 onConfirm
 (
@@ -2547,7 +2545,6 @@ PromptResult
 result
 )
 ;
-public
 void
 onPrompt
 (
@@ -2563,7 +2560,6 @@ PromptResult
 result
 )
 ;
-public
 void
 onDebugRequest
 (
@@ -2601,7 +2597,6 @@ STATE_IS_INSECURE
 =
 4
 ;
-public
 void
 onPageStart
 (
@@ -2611,7 +2606,6 @@ String
 url
 )
 ;
-public
 void
 onPageStop
 (
@@ -2621,9 +2615,8 @@ boolean
 success
 )
 ;
-public
 void
-onSecurityChanged
+onSecurityChange
 (
 GeckoView
 view
@@ -2636,9 +2629,8 @@ public
 interface
 ContentListener
 {
-public
 void
-onTitleChanged
+onTitleChange
 (
 GeckoView
 view
@@ -2651,7 +2643,6 @@ public
 interface
 NavigationListener
 {
-public
 void
 onLocationChange
 (
@@ -2661,7 +2652,6 @@ String
 url
 )
 ;
-public
 void
 onCanGoBack
 (
@@ -2671,7 +2661,6 @@ boolean
 canGoBack
 )
 ;
-public
 void
 onCanGoForward
 (
