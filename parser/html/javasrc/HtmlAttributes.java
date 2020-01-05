@@ -230,7 +230,7 @@ names
 new
 AttributeName
 [
-5
+8
 ]
 ;
 this
@@ -240,7 +240,7 @@ values
 new
 String
 [
-5
+8
 ]
 ;
 this

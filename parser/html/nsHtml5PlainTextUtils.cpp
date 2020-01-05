@@ -80,6 +80,8 @@ nsHtml5AttributeName
 :
 ATTR_REL
 rel
+-
+1
 )
 ;
 nsString
@@ -109,6 +111,8 @@ nsHtml5AttributeName
 :
 ATTR_TYPE
 type
+-
+1
 )
 ;
 nsString
@@ -146,6 +150,8 @@ nsHtml5AttributeName
 :
 ATTR_HREF
 href
+-
+1
 )
 ;
 nsresult
@@ -290,6 +296,8 @@ nsHtml5AttributeName
 :
 ATTR_TITLE
 titleCopy
+-
+1
 )
 ;
 return

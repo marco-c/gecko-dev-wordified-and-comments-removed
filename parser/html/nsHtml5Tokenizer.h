@@ -452,6 +452,9 @@ private
 int32_t
 line
 ;
+int32_t
+attributeLine
+;
 nsHtml5AtomTable
 *
 interner

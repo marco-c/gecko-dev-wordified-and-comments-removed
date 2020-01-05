@@ -79,6 +79,8 @@ id
 release
 (
 )
+-
+1
 )
 ;
 auto
@@ -182,6 +184,8 @@ klass
 release
 (
 )
+-
+1
 )
 ;
 }
@@ -255,6 +259,8 @@ style
 release
 (
 )
+-
+1
 )
 ;
 }
@@ -306,6 +312,8 @@ nsHtml5AttributeName
 :
 ATTR_REL
 rel
+-
+1
 )
 ;
 nsString
@@ -335,6 +343,8 @@ nsHtml5AttributeName
 :
 ATTR_TYPE
 type
+-
+1
 )
 ;
 nsString
@@ -372,6 +382,8 @@ nsHtml5AttributeName
 :
 ATTR_HREF
 href
+-
+1
 )
 ;
 return

@@ -730,6 +730,8 @@ nsHtml5AttributeName
 :
 ATTR_ID
 preId
+-
+1
 )
 ;
 Push
