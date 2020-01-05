@@ -95,6 +95,10 @@ pick
 :
 {
 }
+pickAndFocus
+:
+{
+}
 cancelPick
 :
 {

@@ -322,6 +322,7 @@ function
 *
 (
 toolbox
+skipFocus
 )
 {
 info
@@ -334,6 +335,14 @@ picker
 "
 )
 ;
+toolbox
+.
+win
+.
+focus
+(
+)
+;
 yield
 toolbox
 .
@@ -343,6 +352,12 @@ startPicker
 (
 )
 ;
+if
+(
+!
+skipFocus
+)
+{
 yield
 ContentTask
 .
@@ -366,6 +381,7 @@ focus
 }
 )
 ;
+}
 }
 )
 ;
