@@ -9346,11 +9346,6 @@ finish_load
 load
 )
 ;
-{
-let
-mut
-loader
-=
 self
 .
 loader
@@ -9358,8 +9353,6 @@ loader
 borrow_mut
 (
 )
-;
-loader
 .
 finish_load
 (
@@ -9367,7 +9360,6 @@ finish_load
 load
 )
 ;
-}
 match
 load
 {
@@ -9383,13 +9375,13 @@ _
 {
 self
 .
-process_deferred_scripts
+process_pending_parsing_blocking_script
 (
 )
 ;
 self
 .
-process_pending_parsing_blocking_script
+process_deferred_scripts
 (
 )
 ;
@@ -9418,7 +9410,6 @@ _
 }
 }
 if
-!
 self
 .
 loader
@@ -9430,9 +9421,11 @@ borrow
 is_blocked
 (
 )
-&
-&
-!
+{
+return
+;
+}
+if
 self
 .
 loader
@@ -9445,6 +9438,9 @@ events_inhibited
 (
 )
 {
+return
+;
+}
 self
 .
 loader
@@ -9511,7 +9507,6 @@ unwrap
 (
 )
 ;
-}
 }
 pub
 fn
