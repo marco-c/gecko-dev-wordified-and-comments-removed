@@ -43,6 +43,8 @@ alias
 "
 fennec
 -
+beta
+-
 latest
 "
             
