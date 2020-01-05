@@ -4250,6 +4250,16 @@ sGetBoxQuadsEnabled
 }
 static
 bool
+RequestIdleCallbackEnabled
+(
+)
+{
+return
+sRequestIdleCallbackEnabled
+;
+}
+static
+bool
 IsControlledByServiceWorker
 (
 nsIDocument
@@ -6181,6 +6191,10 @@ sGetBoxQuadsEnabled
 static
 bool
 sSkipCursorMoveForSameValueSet
+;
+static
+bool
+sRequestIdleCallbackEnabled
 ;
 static
 uint32_t

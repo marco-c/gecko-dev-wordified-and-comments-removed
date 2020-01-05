@@ -1912,6 +1912,17 @@ JSObject
 nullptr
 )
 ;
+static
+bool
+IsRequestIdleCallbackEnabled
+(
+JSContext
+*
+JSObject
+*
+aObj
+)
+;
 bool
 DoResolve
 (
