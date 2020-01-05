@@ -64,7 +64,6 @@ tree
 1
 .
 xhtml
-fails
 =
 =
 promoted
@@ -164,7 +163,6 @@ tree
 2b
 .
 xhtml
-fails
 =
 =
 deferred
@@ -181,7 +179,6 @@ tree
 3a
 .
 xhtml
-fails
 =
 =
 deferred
@@ -198,7 +195,6 @@ tree
 3b
 .
 xhtml
-fails
 =
 =
 deferred
@@ -215,7 +211,6 @@ tree
 3c
 .
 xhtml
-fails
 =
 =
 deferred
