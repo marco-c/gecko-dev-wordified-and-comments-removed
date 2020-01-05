@@ -333,7 +333,7 @@ at
 ASSERT_NE
 (
 font
-reinterpret_cast
+static_cast
 <
 Font
 *
@@ -390,7 +390,7 @@ c_str
 ASSERT_NE
 (
 cmap_table_
-reinterpret_cast
+static_cast
 <
 CMapTable
 *
@@ -501,7 +501,7 @@ num_cmaps
 ASSERT_NE
 (
 num_cmaps_attr
-reinterpret_cast
+static_cast
 <
 TiXmlAttribute
 *

@@ -327,7 +327,7 @@ endif
 EXPECT_NE
 (
 input_file
-reinterpret_cast
+static_cast
 <
 FILE
 *
@@ -458,7 +458,7 @@ endif
 EXPECT_NE
 (
 output_file
-reinterpret_cast
+static_cast
 <
 FILE
 *
