@@ -794,6 +794,8 @@ resolve
 (
 request
 .
+result
+.
 usage
 )
 )

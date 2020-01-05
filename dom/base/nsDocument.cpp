@@ -712,7 +712,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -12514,7 +12514,7 @@ SANDBOXED_ORIGIN
 {
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
