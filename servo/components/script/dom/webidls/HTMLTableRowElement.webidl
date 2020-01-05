@@ -133,8 +133,9 @@ attribute
 HTMLCollection
 cells
 ;
-/
-/
+[
+Throws
+]
 HTMLElement
 insertCell
 (
@@ -146,8 +147,9 @@ index
 1
 )
 ;
-/
-/
+[
+Throws
+]
 void
 deleteCell
 (
