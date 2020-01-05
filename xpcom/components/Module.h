@@ -310,7 +310,7 @@ kPStaticModules
 visibility
 (
 "
-protected
+default
 "
 )
 )
