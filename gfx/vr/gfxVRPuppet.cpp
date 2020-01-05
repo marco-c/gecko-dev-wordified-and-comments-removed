@@ -488,14 +488,6 @@ Clear
 (
 )
 ;
-mSensorState
-.
-timestamp
-=
-PR_Now
-(
-)
-;
 gfx
 :
 :

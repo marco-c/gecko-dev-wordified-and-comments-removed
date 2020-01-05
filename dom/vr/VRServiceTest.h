@@ -183,6 +183,9 @@ gfx
 VRHMDSensorState
 mSensorState
 ;
+TimeStamp
+mTimestamp
+;
 }
 ;
 class
