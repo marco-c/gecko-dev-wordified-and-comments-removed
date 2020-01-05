@@ -1836,15 +1836,6 @@ toolkit
 /
 components
 /
-search
-/
-nsSearchService
-.
-js
-toolkit
-/
-components
-/
 url
 -
 classifier
