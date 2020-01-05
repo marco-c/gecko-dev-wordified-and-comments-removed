@@ -533,7 +533,6 @@ zoomed
 01
 .
 xhtml
-fails
 =
 =
 mask
@@ -550,7 +549,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 mask
@@ -600,7 +598,6 @@ extref
 02
 .
 xhtml
-fails
 =
 =
 mask
@@ -742,7 +739,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 mask
@@ -763,7 +759,6 @@ opacity
 01a
 .
 xhtml
-fails
 =
 =
 mask
@@ -824,7 +819,6 @@ opacity
 01d
 .
 xhtml
-fails
 =
 =
 mask
