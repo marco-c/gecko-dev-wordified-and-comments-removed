@@ -1115,7 +1115,10 @@ CrossProcessCompositorBridgeParent
 AllocPWebRenderBridgeParent
 (
 const
-uint64_t
+wr
+:
+:
+PipelineId
 &
 aPipelineId
 TextureFactoryIdentifier
@@ -1147,6 +1150,8 @@ Get
 IsMapped
 (
 aPipelineId
+.
+mHandle
 OtherPid
 (
 )
@@ -1174,6 +1179,13 @@ return
 nullptr
 ;
 }
+auto
+pipelineHandle
+=
+aPipelineId
+.
+mHandle
+;
 MonitorAutoLock
 lock
 (
@@ -1187,7 +1199,7 @@ sIndirectLayerTrees
 .
 find
 (
-aPipelineId
+pipelineHandle
 )
 !
 =
@@ -1202,7 +1214,7 @@ MOZ_ASSERT
 (
 sIndirectLayerTrees
 [
-aPipelineId
+pipelineHandle
 ]
 .
 mWrBridge
@@ -1217,7 +1229,7 @@ cbp
 =
 sIndirectLayerTrees
 [
-aPipelineId
+pipelineHandle
 ]
 .
 mParent
@@ -1281,7 +1293,7 @@ AddRef
 ;
 sIndirectLayerTrees
 [
-aPipelineId
+pipelineHandle
 ]
 .
 mCrossProcessParent
@@ -1290,7 +1302,7 @@ this
 ;
 sIndirectLayerTrees
 [
-aPipelineId
+pipelineHandle
 ]
 .
 mWrBridge
@@ -1358,6 +1370,8 @@ parent
 PipelineId
 (
 )
+.
+mHandle
 )
 ;
 parent
