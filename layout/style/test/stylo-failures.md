@@ -3474,14 +3474,6 @@ servo
 #
 15194
 *
-test_property_syntax_errors
-.
-html
-perspective
-[
-6
-]
-*
 test_specified_value_serialization
 .
 html
