@@ -64,7 +64,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMHTMLElement
+nsIDOMDocumentFragment
 ;
 interface
 nsIWebVTTListener
@@ -409,7 +409,7 @@ fragment
 .
 *
 /
-nsIDOMHTMLElement
+nsIDOMDocumentFragment
 convertCueToDOMTree
 (
 in
