@@ -81,6 +81,13 @@ GCLock
 \
 _
 (
+WasmInitBuiltinThunks
+450
+)
+\
+\
+_
+(
 SharedImmutableStringsCache
 500
 )

@@ -5230,7 +5230,7 @@ CallableOffsets
 wasm
 :
 :
-GenerateBuiltinNativeExit
+GenerateBuiltinThunk
 (
 MacroAssembler
 &
@@ -5241,7 +5241,7 @@ ExitReason
 exitReason
 void
 *
-func
+funcPtr
 )
 {
 masm
@@ -5515,7 +5515,7 @@ call
 (
 ImmPtr
 (
-func
+funcPtr
 ImmPtr
 :
 :

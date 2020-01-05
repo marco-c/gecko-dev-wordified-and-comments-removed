@@ -2684,6 +2684,13 @@ cpp
 '
 wasm
 /
+WasmBuiltins
+.
+cpp
+'
+'
+wasm
+/
 WasmCode
 .
 cpp
@@ -2741,13 +2748,6 @@ cpp
 wasm
 /
 WasmModule
-.
-cpp
-'
-'
-wasm
-/
-WasmRuntime
 .
 cpp
 '

@@ -123,7 +123,7 @@ throwLabel
 ;
 extern
 CallableOffsets
-GenerateBuiltinNativeExit
+GenerateBuiltinThunk
 (
 jit
 :
