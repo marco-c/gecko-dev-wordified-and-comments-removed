@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsWeakPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -145,10 +152,6 @@ friend
 class
 nsSHEntry
 ;
-friend
-class
-HistoryTracker
-;
 static
 already_AddRefed
 <
@@ -163,11 +166,6 @@ aEntry
 ;
 void
 RemoveFromExpirationTracker
-(
-)
-;
-void
-Expire
 (
 )
 ;
@@ -266,6 +264,9 @@ nsAutoPtr
 nsDocShellEditorData
 >
 mEditorData
+;
+nsWeakPtr
+mSHistory
 ;
 bool
 mIsFrameNavigation
