@@ -1030,14 +1030,12 @@ f64
 >
 Au
 {
-from_px
+from_frac_px
 (
 pt_to_px
 (
 pt
 )
-as
-int
 )
 }
 #

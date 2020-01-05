@@ -318,6 +318,9 @@ false
 show_debug_borders
 :
 false
+enable_text_antialiasing
+:
+true
 }
 ;
 native
