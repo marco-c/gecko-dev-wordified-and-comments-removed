@@ -471,6 +471,16 @@ rustflags
 "
 "
 #
+Enable
+rustc
+s
+incremental
+compilation
+#
+incremental
+=
+false
+#
 Android
 information
 [
