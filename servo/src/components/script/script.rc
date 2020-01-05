@@ -636,6 +636,10 @@ htmlunknownelement
 ;
 pub
 mod
+location
+;
+pub
+mod
 mouseevent
 ;
 pub

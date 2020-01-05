@@ -190,11 +190,15 @@ PutForwards
 href
 Unforgeable
 ]
+*
+/
 readonly
 attribute
 Location
 location
 ;
+/
+*
 readonly
 attribute
 History
