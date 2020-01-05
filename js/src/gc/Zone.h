@@ -1665,9 +1665,6 @@ bool
 >
 usedByExclusiveThread
 ;
-bool
-active
-;
 #
 ifdef
 DEBUG

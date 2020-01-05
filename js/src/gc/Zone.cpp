@@ -221,10 +221,6 @@ usedByExclusiveThread
 (
 false
 )
-active
-(
-false
-)
 jitZone_
 (
 nullptr
@@ -632,14 +628,6 @@ bool
 releaseTypes
 )
 {
-if
-(
-active
-)
-releaseTypes
-=
-false
-;
 AutoClearTypeInferenceStateOnOOM
 oom
 (
