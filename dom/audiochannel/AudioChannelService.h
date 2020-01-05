@@ -66,6 +66,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Logging
+.
+h
+"
+#
+include
 <
 functional
 >
@@ -268,7 +277,7 @@ IsAudioChannelMutedByDefault
 )
 ;
 static
-PRLogModuleInfo
+LogModule
 *
 GetAudioChannelLog
 (
