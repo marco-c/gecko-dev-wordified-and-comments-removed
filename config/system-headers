@@ -5183,6 +5183,11 @@ numsys
 h
 unicode
 /
+plurrule
+.
+h
+unicode
+/
 timezone
 .
 h
@@ -5229,6 +5234,11 @@ h
 unicode
 /
 unum
+.
+h
+unicode
+/
+upluralrules
 .
 h
 unicode
