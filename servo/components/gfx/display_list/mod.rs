@@ -273,7 +273,6 @@ geometry
 {
 self
 MAX_RECT
-ZERO_RECT
 }
 ;
 use
@@ -5100,7 +5099,12 @@ ClippingRegion
 {
 main
 :
-ZERO_RECT
+Rect
+:
+:
+zero
+(
+)
 complex
 :
 Vec
@@ -5211,7 +5215,12 @@ rect
 .
 unwrap_or
 (
-ZERO_RECT
+Rect
+:
+:
+zero
+(
+)
 )
 complex
 :

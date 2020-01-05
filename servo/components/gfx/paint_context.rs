@@ -324,7 +324,6 @@ MAX_RECT
 PagePx
 ScreenPx
 ZERO_POINT
-ZERO_RECT
 }
 ;
 use
@@ -9987,7 +9986,12 @@ box_bounds
 .
 unwrap_or
 (
-ZERO_RECT
+Rect
+:
+:
+zero
+(
+)
 )
 .
 inflate
