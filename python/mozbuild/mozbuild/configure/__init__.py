@@ -168,7 +168,10 @@ __slots__
 (
         
 '
-func
+_func
+'
+'
+_name
 '
 '
 dependencies
@@ -182,6 +185,7 @@ sandboxed
 '
 sandbox
 '
+        
 '
 _result
 '
@@ -207,11 +211,28 @@ sandbox
 ConfigureSandbox
 )
         
+assert
+not
+inspect
+.
+isgeneratorfunction
+(
+func
+)
+        
 self
 .
-func
+_func
 =
 func
+        
+self
+.
+_name
+=
+func
+.
+__name__
         
 self
 .
@@ -306,9 +327,25 @@ self
 return
 self
 .
-func
+_name
+    
+name
 .
-__name__
+setter
+    
+def
+name
+(
+self
+value
+)
+:
+        
+self
+.
+_name
+=
+value
     
 property
     
@@ -402,7 +439,7 @@ dependencies
 return
 self
 .
-func
+_func
 (
 *
 resolved_args
@@ -526,7 +563,7 @@ CombinedDependsFunction
 and
 d
 .
-func
+_func
 =
 =
 wrapper
@@ -681,7 +718,7 @@ deps
 return
 self
 .
-func
+_func
 (
 *
 resolved_args
@@ -708,12 +745,12 @@ and
                 
 self
 .
-func
+_func
 =
 =
 other
 .
-func
+_func
 and
                 
 set
@@ -2401,9 +2438,7 @@ _depends
 value
 ]
 .
-func
-.
-__name__
+name
 =
 key
         
@@ -2546,17 +2581,6 @@ need_help_dependency
 False
 )
 :
-        
-assert
-not
-inspect
-.
-isgeneratorfunction
-(
-obj
-.
-func
-)
         
 return
 obj
