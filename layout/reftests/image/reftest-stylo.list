@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 background
@@ -103,7 +102,6 @@ seam
 2
 .
 html
-fails
 =
 =
 image
@@ -120,7 +118,6 @@ zoom
 1
 .
 html
-fails
 =
 =
 image
