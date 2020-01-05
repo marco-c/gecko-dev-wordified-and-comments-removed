@@ -270,6 +270,13 @@ keycodes
 js
 '
 '
+natural
+-
+sort
+.
+js
+'
+'
 network
 -
 throttling
