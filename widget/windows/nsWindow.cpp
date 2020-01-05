@@ -13808,7 +13808,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -13848,7 +13848,6 @@ if
 iconFile
 )
 return
-NS_OK
 ;
 nsAutoString
 iconPath
@@ -14135,9 +14134,6 @@ GetLastError
 }
 #
 endif
-return
-NS_OK
-;
 }
 LayoutDeviceIntPoint
 nsWindow

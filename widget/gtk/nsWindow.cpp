@@ -7399,7 +7399,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7417,7 +7417,6 @@ if
 mShell
 )
 return
-NS_OK
 ;
 nsAutoCString
 iconName
@@ -7690,9 +7689,6 @@ get
 )
 ;
 }
-return
-NS_OK
-;
 }
 LayoutDeviceIntPoint
 nsWindow

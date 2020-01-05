@@ -2413,13 +2413,14 @@ aTitle
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetIcon
 (
 const
 nsAString
 &
-anIconSpec
+aIconSpec
 )
 =
 0
