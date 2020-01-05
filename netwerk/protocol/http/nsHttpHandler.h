@@ -99,6 +99,9 @@ class
 nsIStreamConverterService
 ;
 class
+nsIThrottlingService
+;
+class
 nsITimer
 ;
 class
@@ -1043,6 +1046,12 @@ GetSSService
 (
 )
 ;
+nsIThrottlingService
+*
+GetThrottlingService
+(
+)
+;
 uint32_t
 Get32BitsOfPseudoRandom
 (
@@ -1457,6 +1466,12 @@ nsMainThreadPtrHandle
 nsISiteSecurityService
 >
 mSSService
+;
+nsMainThreadPtrHandle
+<
+nsIThrottlingService
+>
+mThrottlingService
 ;
 nsHttpAuthCache
 mAuthCache
