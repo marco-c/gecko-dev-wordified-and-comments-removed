@@ -1577,13 +1577,11 @@ aState
 )
 override
 ;
-virtual
 void
 Suspend
 (
 )
 ;
-virtual
 void
 Resume
 (
@@ -1597,13 +1595,11 @@ IsSuspended
 const
 override
 ;
-virtual
 void
 Freeze
 (
 )
 ;
-virtual
 void
 Thaw
 (
@@ -1617,7 +1613,6 @@ IsFrozen
 const
 override
 ;
-virtual
 void
 SyncStateFromParentWindow
 (
