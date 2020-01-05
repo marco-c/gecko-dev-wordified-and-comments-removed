@@ -8903,6 +8903,21 @@ partial
 )
     
 def
+getPartialInterfaces
+(
+self
+)
+:
+        
+return
+list
+(
+self
+.
+_partialInterfaces
+)
+    
+def
 getJSImplementation
 (
 self
