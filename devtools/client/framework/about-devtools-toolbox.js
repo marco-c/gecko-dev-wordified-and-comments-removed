@@ -201,6 +201,12 @@ getSystemPrincipal
 (
 )
 ;
+aLoadInfo
+.
+resultPrincipalURI
+=
+aURI
+;
 return
 chan
 ;

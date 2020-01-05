@@ -206,6 +206,12 @@ originalURI
 =
 aURI
 ;
+aLoadInfo
+.
+resultPrincipalURI
+=
+aURI
+;
 if
 (
 this
