@@ -1665,7 +1665,7 @@ rv
 is
 (
 rv
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_TYPE_ERR
 "
 Correct
 error
@@ -1695,7 +1695,7 @@ rv
 is
 (
 rv
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_TYPE_ERR
 "
 Correct
 error
@@ -1725,7 +1725,7 @@ rv
 is
 (
 rv
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_TYPE_ERR
 "
 Correct
 error
