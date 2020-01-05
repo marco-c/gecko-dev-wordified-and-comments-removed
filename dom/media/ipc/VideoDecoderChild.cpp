@@ -1040,6 +1040,10 @@ mInitialized
 =
 false
 ;
+mCallback
+=
+nullptr
+;
 }
 bool
 VideoDecoderChild
