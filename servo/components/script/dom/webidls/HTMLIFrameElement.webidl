@@ -156,14 +156,10 @@ attribute
 boolean
 allowFullscreen
 ;
-/
-/
 attribute
 DOMString
 width
 ;
-/
-/
 attribute
 DOMString
 height

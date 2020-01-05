@@ -770,6 +770,7 @@ derive
 (
 Copy
 Clone
+Debug
 )
 ]
 pub
