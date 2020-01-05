@@ -46,6 +46,10 @@ font_list
 :
 FreeTypeFontListHandle
 ;
+pub
+impl
+FontListHandle
+{
 #
 [
 cfg
@@ -57,10 +61,6 @@ macos
 "
 )
 ]
-pub
-impl
-FontListHandle
-{
 static
 pub
 fn
@@ -84,7 +84,6 @@ new
 (
 )
 }
-}
 #
 [
 cfg
@@ -96,10 +95,6 @@ linux
 "
 )
 ]
-pub
-impl
-FontListHandle
-{
 static
 pub
 fn
