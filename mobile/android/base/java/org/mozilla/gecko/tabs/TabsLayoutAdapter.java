@@ -455,15 +455,6 @@ size
 1
 )
 ;
-if
-(
-index
-!
-=
--
-1
-)
-{
 Log
 .
 e
@@ -488,7 +479,6 @@ index
 )
 )
 ;
-}
 }
 }
 boolean

@@ -250,7 +250,6 @@ index
 firstVisibleIndex
 |
 |
-(
 index
 =
 =
@@ -263,15 +262,6 @@ getItemCount
 )
 -
 1
-&
-&
-index
-%
-spanCount
-=
-=
-0
-)
 ;
 }
 }
