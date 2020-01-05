@@ -2954,7 +2954,7 @@ set
 a
 callback
 using
-JS_SetGetIncumbentGlobalCallback
+SetGetIncumbentGlobalCallback
 before
 using
 Promises
