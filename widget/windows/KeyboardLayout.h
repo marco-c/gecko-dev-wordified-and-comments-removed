@@ -892,6 +892,10 @@ aChar
 ;
 private
 :
+NativeKey
+*
+mLastInstance
+;
 RefPtr
 <
 nsWindowBase
@@ -1561,6 +1565,11 @@ GetFocus
 )
 ;
 }
+static
+NativeKey
+*
+sLatestInstance
+;
 }
 ;
 class
