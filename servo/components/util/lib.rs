@@ -207,6 +207,10 @@ extern
 crate
 string_cache
 ;
+extern
+crate
+url
+;
 use
 std
 :
