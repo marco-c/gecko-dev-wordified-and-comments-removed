@@ -959,6 +959,14 @@ dll
 ALL_VERSIONS
 }
 {
+"
+nahimic2devprops
+.
+dll
+"
+ALL_VERSIONS
+}
+{
 nullptr
 0
 }
