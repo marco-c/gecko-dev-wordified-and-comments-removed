@@ -66,7 +66,6 @@ EEventRule
 {
 eAllowDupes
 eCoalesceReorder
-eCoalesceMutationTextChange
 eCoalesceOfSameType
 eCoalesceSelectionChange
 eCoalesceStateChange
@@ -562,7 +561,7 @@ AccEvent
 aEventType
 aTarget
 eAutoDetect
-eCoalesceMutationTextChange
+eCoalesceReorder
 )
 {
 mParent
