@@ -1210,11 +1210,6 @@ MaybeStartPlayback
 )
 ;
 void
-MaybeStartBuffering
-(
-)
-;
-void
 DecodeError
 (
 const
