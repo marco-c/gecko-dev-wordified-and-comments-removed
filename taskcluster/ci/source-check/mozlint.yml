@@ -344,7 +344,7 @@ kind
 test
 tier
 :
-2
+1
 platform
 :
 lint
@@ -488,7 +488,7 @@ kind
 test
 tier
 :
-2
+1
 platform
 :
 lint
