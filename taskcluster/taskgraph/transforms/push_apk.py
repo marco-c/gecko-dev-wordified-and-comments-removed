@@ -52,7 +52,6 @@ get_push_apk_track
 \
     
 get_push_apk_dry_run_option
-get_push_apk_rollout_percentage
 from
 taskgraph
 .
@@ -324,36 +323,6 @@ get_push_apk_dry_run_option
 (
 config
 )
-        
-rollout_percentage
-=
-get_push_apk_rollout_percentage
-(
-config
-)
-        
-if
-rollout_percentage
-is
-not
-None
-:
-            
-job
-[
-'
-worker
-'
-]
-[
-'
-rollout
--
-percentage
-'
-]
-=
-rollout_percentage
         
 job
 [
