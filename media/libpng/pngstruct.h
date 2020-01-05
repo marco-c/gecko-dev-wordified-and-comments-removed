@@ -890,7 +890,7 @@ endif
 #
 ifdef
 PNG_SET_OPTION_SUPPORTED
-png_byte
+png_uint_32
 options
 ;
 #
