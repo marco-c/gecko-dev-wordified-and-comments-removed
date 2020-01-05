@@ -62,3 +62,10 @@ rust
 -
 azure
 "
+features
+=
+[
+"
+plugins
+"
+]
