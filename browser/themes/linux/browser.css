@@ -11963,7 +11963,16 @@ background
 -
 image
 :
-none
+var
+(
+-
+-
+lwt
+-
+header
+-
+image
+)
 ;
 background
 -
