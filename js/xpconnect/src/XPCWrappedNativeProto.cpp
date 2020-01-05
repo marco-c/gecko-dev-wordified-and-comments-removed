@@ -494,6 +494,10 @@ old
 MOZ_ASSERT
 (
 mJSProtoObject
+.
+unbarrieredGet
+(
+)
 =
 =
 old

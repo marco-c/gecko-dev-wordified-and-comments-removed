@@ -243,7 +243,9 @@ trc
 {
 MOZ_ASSERT
 (
-mJSVal
+GetJSValPreserveColor
+(
+)
 .
 isMarkable
 (

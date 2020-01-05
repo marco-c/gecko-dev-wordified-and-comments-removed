@@ -1731,7 +1731,7 @@ while
 rt
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )
