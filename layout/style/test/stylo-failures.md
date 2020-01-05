@@ -1038,7 +1038,7 @@ font
 -
 variant
 [
-176
+167
 ]
 *
 test_specified_value_serialization
