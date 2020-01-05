@@ -202,6 +202,11 @@ E10SUtils
 jsm
 '
 '
+ExtensionsUI
+.
+jsm
+'
+'
 Feeds
 .
 jsm
