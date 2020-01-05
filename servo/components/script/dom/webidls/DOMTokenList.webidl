@@ -72,14 +72,6 @@ org
 /
 #
 domtokenlist
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 DOMTokenList
 {

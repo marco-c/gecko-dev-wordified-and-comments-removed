@@ -80,12 +80,6 @@ domstringmap
 interface
 [
 OverrideBuiltins
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 DOMStringMap
