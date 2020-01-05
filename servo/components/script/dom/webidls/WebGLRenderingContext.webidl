@@ -3117,8 +3117,6 @@ GLclampf
 zFar
 )
 ;
-/
-/
 void
 detachShader
 (
@@ -3184,15 +3182,11 @@ GLuint
 index
 )
 ;
-/
-/
 void
 finish
 (
 )
 ;
-/
-/
 void
 flush
 (
@@ -3245,8 +3239,6 @@ GLenum
 mode
 )
 ;
-/
-/
 void
 generateMipmap
 (
@@ -3930,8 +3922,6 @@ GLfloat
 v
 )
 ;
-/
-/
 void
 uniform1i
 (
