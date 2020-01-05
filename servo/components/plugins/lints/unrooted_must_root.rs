@@ -145,16 +145,7 @@ sty
 ty
 :
 :
-TyStruct
-(
-did
-_
-)
-|
-ty
-:
-:
-TyEnum
+TyAdt
 (
 did
 _
