@@ -417,6 +417,7 @@ except
 urllib2
 .
 URLError
+e
 :
         
 print
@@ -426,15 +427,26 @@ Error
 downloading
 Rust
 compiler
-;
-are
-you
-connected
-to
-the
-internet
-?
+:
 "
++
+str
+(
+e
+.
+reason
+)
++
+"
+.
+The
+failing
+URL
+was
+:
+"
++
+src
 )
         
 sys
