@@ -49,6 +49,10 @@ js
 ;
 pub
 mod
+namespace
+;
+pub
+mod
 num
 ;
 pub

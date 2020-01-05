@@ -1236,11 +1236,6 @@ partial
 interface
 Window
 {
-readonly
-attribute
-Console
-console
-;
 void
 debug
 (
