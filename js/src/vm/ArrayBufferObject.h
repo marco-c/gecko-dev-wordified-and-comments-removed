@@ -1673,6 +1673,12 @@ uint8_t
 *
 dataPointerUnshared
 (
+const
+JS
+:
+:
+AutoAssertOnGC
+&
 )
 ;
 void

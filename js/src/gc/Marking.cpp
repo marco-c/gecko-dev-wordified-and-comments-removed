@@ -8458,7 +8458,7 @@ traceList
 )
 tobj
 .
-inlineTypedMem
+inlineTypedMemForGC
 (
 )
 mozilla

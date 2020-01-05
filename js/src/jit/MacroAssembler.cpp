@@ -7252,6 +7252,12 @@ InlineTypedObject
 )
 )
 {
+JS
+:
+:
+AutoAssertOnGC
+nogc
+;
 size_t
 nbytes
 =
@@ -7286,6 +7292,7 @@ InlineTypedObject
 .
 inlineTypedMem
 (
+nogc
 )
 ;
 size_t
