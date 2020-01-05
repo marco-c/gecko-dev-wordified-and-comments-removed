@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+[
+NoInterfaceObject
+]
 interface
 AttrList
 {
