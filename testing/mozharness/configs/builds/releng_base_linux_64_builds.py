@@ -455,7 +455,22 @@ data
 min_scm_level
 '
 :
-1
+2
+'
+default
+'
+:
+'
+try
+-
+build
+-
+has
+-
+no
+-
+secrets
+'
 }
         
 {
@@ -744,6 +759,12 @@ False
     
 '
 enable_unittest_sendchange
+'
+:
+True
+    
+'
+skip_balrog_uploads
 '
 :
 True
