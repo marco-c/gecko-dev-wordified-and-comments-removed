@@ -8254,7 +8254,7 @@ for
 fixing
 this
 .
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -8264,7 +8264,7 @@ bool
 aShouldHide
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -8290,7 +8290,6 @@ eWindowType_dialog
 )
 )
 return
-NS_ERROR_FAILURE
 ;
 BOOL
 isVisible
@@ -8432,9 +8431,8 @@ mBorderStyle
 true
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
-rv
 rv
 )
 ;
@@ -8539,17 +8537,13 @@ mIsAnimationSuppressed
 =
 wasAnimationSuppressed
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
-rv
 rv
 )
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 class

@@ -2106,7 +2106,8 @@ aBrightForeground
 )
 {
 }
-NS_IMETHOD
+virtual
+void
 HideWindowChrome
 (
 bool

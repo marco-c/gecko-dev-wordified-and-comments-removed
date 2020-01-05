@@ -1049,7 +1049,8 @@ aMode
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 HideWindowChrome
 (
 bool

@@ -21570,7 +21570,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -21600,7 +21600,6 @@ if
 topWidget
 )
 return
-NS_ERROR_FAILURE
 ;
 nsWindow
 *
@@ -21617,9 +21616,7 @@ if
 topWindow
 )
 return
-NS_ERROR_FAILURE
 ;
-return
 topWindow
 -
 >
@@ -21627,6 +21624,8 @@ HideWindowChrome
 (
 aShouldHide
 )
+;
+return
 ;
 }
 bool
@@ -21719,9 +21718,6 @@ gdk_flush
 ;
 #
 endif
-return
-NS_OK
-;
 }
 bool
 nsWindow
