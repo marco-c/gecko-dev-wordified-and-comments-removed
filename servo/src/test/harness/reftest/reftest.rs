@@ -466,6 +466,12 @@ Same
 =
 >
 Different
+"
+#
+"
+=
+>
+continue
 _
 =
 >
