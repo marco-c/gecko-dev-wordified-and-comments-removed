@@ -250,7 +250,7 @@ const
 editRemoveMethods
 =
 {
-getEditableFields
+getFields
 :
 {
 request

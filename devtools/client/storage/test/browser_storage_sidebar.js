@@ -241,6 +241,9 @@ location
 :
 "
 idb2
+(
+default
+)
 "
 sidebarHidden
 :
@@ -266,6 +269,9 @@ org
 "
 "
 idb2
+(
+default
+)
 "
 "
 obj3
@@ -297,6 +303,9 @@ org
 idb
 -
 s2
+(
+default
+)
 "
 ]
 sidebarHidden
