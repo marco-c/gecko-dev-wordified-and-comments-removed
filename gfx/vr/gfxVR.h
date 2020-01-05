@@ -1204,6 +1204,13 @@ uint32_t
 aNumAxes
 )
 ;
+void
+RemoveGamepad
+(
+uint32_t
+aIndex
+)
+;
 protected
 :
 VRControllerManager
