@@ -196,12 +196,9 @@ log
 -
 r
 '
-options
-[
 '
-head_ref
+.
 '
-]
 '
 -
 T
