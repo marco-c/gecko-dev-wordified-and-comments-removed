@@ -295,7 +295,7 @@ size
 Size2D
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 LocalName

@@ -1025,7 +1025,7 @@ point
 Point2D
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 {
@@ -17200,6 +17200,7 @@ QualName
 :
 new
 (
+None
 ns
 local
 )
@@ -17609,6 +17610,7 @@ QualName
 :
 new
 (
+None
 ns
 LocalName
 :
@@ -17627,7 +17629,6 @@ Element
 create
 (
 name
-None
 self
 ElementCreator
 :
@@ -17707,6 +17708,7 @@ QualName
 :
 new
 (
+prefix
 namespace
 local_name
 )
@@ -17719,7 +17721,6 @@ Element
 create
 (
 name
-prefix
 self
 ElementCreator
 :
@@ -19859,6 +19860,7 @@ QualName
 :
 new
 (
+None
 ns
 !
 (
@@ -19882,7 +19884,6 @@ Element
 create
 (
 name
-None
 self
 ElementCreator
 :
@@ -20027,6 +20028,7 @@ QualName
 :
 new
 (
+None
 ns
 !
 (
@@ -20050,7 +20052,6 @@ Element
 create
 (
 name
-None
 self
 ElementCreator
 :

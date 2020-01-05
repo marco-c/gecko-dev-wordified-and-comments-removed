@@ -347,7 +347,7 @@ dom_struct
 dom_struct
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 LocalName

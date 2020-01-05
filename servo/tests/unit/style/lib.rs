@@ -33,7 +33,7 @@ macro_use
 ]
 extern
 crate
-html5ever_atoms
+html5ever
 ;
 extern
 crate

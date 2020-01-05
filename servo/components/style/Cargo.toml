@@ -123,8 +123,6 @@ servo_config
 "
 "
 html5ever
--
-atoms
 "
 "
 cssparser
@@ -287,8 +285,6 @@ optional
 true
 }
 html5ever
--
-atoms
 =
 {
 version
@@ -296,7 +292,7 @@ version
 "
 0
 .
-3
+16
 "
 optional
 =

@@ -27,7 +27,7 @@ str
 DOMString
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 {

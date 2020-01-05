@@ -390,7 +390,7 @@ point
 Point2D
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 LocalName

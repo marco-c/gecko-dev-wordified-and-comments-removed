@@ -143,7 +143,7 @@ gfx_traits
 ByteIndex
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 {
