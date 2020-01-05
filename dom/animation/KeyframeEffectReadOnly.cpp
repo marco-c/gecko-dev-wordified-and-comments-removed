@@ -5572,7 +5572,7 @@ mAnimation
 mAnimation
 -
 >
-IsPlayableOnCompositor
+IsPlaying
 (
 )
 )
