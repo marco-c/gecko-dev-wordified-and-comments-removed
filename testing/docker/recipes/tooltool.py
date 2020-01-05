@@ -2076,6 +2076,9 @@ with
 open
 (
 manifest_file
+"
+rb
+"
 )
 as
 f
@@ -5066,6 +5069,9 @@ s
 open
 (
 auth_file
+"
+rb
+"
 )
 .
 read
@@ -5322,6 +5328,9 @@ req_path
 open
 (
 filename
+"
+rb
+"
 )
                      
 {
