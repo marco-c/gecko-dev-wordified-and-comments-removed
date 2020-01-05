@@ -1942,7 +1942,7 @@ NOTE
 (
 certerror
 .
-wrongSystemTime
+wrongSystemTime2
 certerror
 .
 wrongSystemTimeWithoutReference
@@ -1979,7 +1979,7 @@ unchanged
 ENTITY
 certerror
 .
-wrongSystemTime
+wrongSystemTime2
 "
 <
 p
