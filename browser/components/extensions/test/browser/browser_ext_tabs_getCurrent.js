@@ -198,15 +198,6 @@ finished
 "
 )
 ;
-browser
-.
-tabs
-.
-remove
-(
-tabId
-)
-;
 }
 )
 ;
