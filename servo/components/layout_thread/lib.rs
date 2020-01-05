@@ -2698,11 +2698,6 @@ stylist
 clone
 (
 )
-generation
-:
-self
-.
-generation
 goal
 :
 goal
@@ -7266,15 +7261,6 @@ RecalcStyleAndConstructFlows
 new
 (
 shared_layout_context
-element
-.
-as_node
-(
-)
-.
-opaque
-(
-)
 )
 ;
 let
