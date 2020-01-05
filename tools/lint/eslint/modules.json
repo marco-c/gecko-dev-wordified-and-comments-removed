@@ -3599,6 +3599,17 @@ PresentationDeviceInfoService
 "
 ]
 "
+ProfileStorage
+.
+jsm
+"
+:
+[
+"
+profileStorage
+"
+]
+"
 PromiseWorker
 .
 jsm
