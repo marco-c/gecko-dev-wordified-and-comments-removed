@@ -1730,6 +1730,14 @@ slotFromTop
 ;
 MOZ_MUST_USE
 bool
+emitPopN
+(
+unsigned
+n
+)
+;
+MOZ_MUST_USE
+bool
 emitCheckIsObj
 (
 CheckIsObjectKind
