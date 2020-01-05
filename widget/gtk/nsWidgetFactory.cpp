@@ -367,10 +367,13 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboardHelper
 )
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
+nsIClipboard
 nsClipboard
-Init
+:
+:
+GetInstance
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
@@ -1044,7 +1047,7 @@ MOZ_X11
 kNS_CLIPBOARD_CID
 false
 nullptr
-nsClipboardConstructor
+nsIClipboardConstructor
 Module
 :
 :
