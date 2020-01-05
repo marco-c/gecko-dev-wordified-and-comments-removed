@@ -188,6 +188,10 @@ ipc
 IPCResult
 RecvInitUiCompositorController
 (
+const
+uint64_t
+&
+aRootLayerTreeId
 Endpoint
 <
 PUiCompositorControllerParent

@@ -13179,14 +13179,6 @@ nsIDOMNode
 aNode
 )
 ;
-void
-setNextPaintSyncId
-(
-in
-long
-aSyncId
-)
-;
 /
 *
 *

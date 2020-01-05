@@ -4192,15 +4192,6 @@ tab
 )
 )
 ;
-mLayerView
-.
-setPaintState
-(
-LayerView
-.
-PAINT_START
-)
-;
 }
 queuePersistAllTabs
 (

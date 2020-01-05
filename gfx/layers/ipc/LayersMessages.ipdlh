@@ -2745,9 +2745,6 @@ isRepeatTransaction
 TimeStamp
 transactionStart
 ;
-int32_t
-paintSyncId
-;
 }
 ;
 }

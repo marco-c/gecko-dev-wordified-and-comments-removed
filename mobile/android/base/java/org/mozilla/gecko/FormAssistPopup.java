@@ -1525,7 +1525,7 @@ getLayerView
 (
 )
 .
-getSurfaceTranslation
+getCurrentToolbarHeight
 (
 )
 )

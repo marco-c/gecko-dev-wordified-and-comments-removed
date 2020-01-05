@@ -421,6 +421,8 @@ endpoint
 async
 InitUiCompositorController
 (
+uint64_t
+rootLayerTreeId
 Endpoint
 <
 PUiCompositorControllerParent

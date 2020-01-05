@@ -505,13 +505,6 @@ aIsRootContent
 )
 ;
 async
-SetScrollingRootContent
-(
-bool
-aIsRootContent
-)
-;
-async
 NotifyMozMouseScrollEvent
 (
 ViewID

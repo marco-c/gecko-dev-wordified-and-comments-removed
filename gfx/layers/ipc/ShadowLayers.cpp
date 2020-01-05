@@ -966,10 +966,6 @@ mWindowOverlayChanged
 (
 false
 )
-mPaintSyncId
-(
-0
-)
 mNextLayerHandle
 (
 1
@@ -4095,14 +4091,6 @@ transactionStart
 =
 aTransactionStart
 ;
-info
-.
-paintSyncId
-(
-)
-=
-mPaintSyncId
-;
 TargetConfig
 targetConfig
 (
@@ -4372,10 +4360,6 @@ true
 mIsFirstPaint
 =
 false
-;
-mPaintSyncId
-=
-0
 ;
 MOZ_LAYERS_LOG
 (

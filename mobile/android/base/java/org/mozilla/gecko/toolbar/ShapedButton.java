@@ -223,7 +223,7 @@ CanvasDelegate
 this
 Mode
 .
-DST_IN
+DST_OUT
 paint
 )
 ;
