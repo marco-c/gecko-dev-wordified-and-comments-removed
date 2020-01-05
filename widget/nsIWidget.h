@@ -1826,7 +1826,8 @@ void
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetCursor
 (
 nsCursor
@@ -1843,7 +1844,8 @@ ClearCachedCursor
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetCursor
 (
 imgIContainer

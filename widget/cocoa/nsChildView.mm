@@ -4678,7 +4678,7 @@ cursor
 on
 the
 mac
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -4688,7 +4688,7 @@ nsCursor
 aCursor
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4698,7 +4698,6 @@ isDragInProgress
 ]
 )
 return
-NS_OK
 ;
 /
 /
@@ -4719,7 +4718,6 @@ SetCursor
 aCursor
 )
 ;
-return
 [
 [
 nsCursorManager
@@ -4730,7 +4728,7 @@ setCursor
 aCursor
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -4744,7 +4742,7 @@ virtual
 function
 "
 warning
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :

@@ -10926,7 +10926,7 @@ return
 1
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -10940,7 +10940,7 @@ if
 (
 mPopupContentView
 )
-return
+{
 mPopupContentView
 -
 >
@@ -10949,11 +10949,9 @@ SetCursor
 aCursor
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+}
+nsresult
 nsCocoaWindow
 :
 :

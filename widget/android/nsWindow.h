@@ -798,7 +798,8 @@ nullptr
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetCursor
 (
 nsCursor
@@ -806,11 +807,9 @@ aCursor
 )
 override
 {
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-NS_IMETHOD
+virtual
+nsresult
 SetCursor
 (
 imgIContainer

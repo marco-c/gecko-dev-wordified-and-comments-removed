@@ -6561,7 +6561,7 @@ return
 FALSE
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -6594,9 +6594,7 @@ if
 window
 )
 return
-NS_ERROR_FAILURE
 ;
-return
 window
 -
 >
@@ -6604,6 +6602,8 @@ SetCursor
 (
 aCursor
 )
+;
+return
 ;
 }
 if
@@ -6652,7 +6652,6 @@ if
 mContainer
 )
 return
-NS_OK
 ;
 gdk_window_set_cursor
 (
@@ -6668,11 +6667,8 @@ newCursor
 ;
 }
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
