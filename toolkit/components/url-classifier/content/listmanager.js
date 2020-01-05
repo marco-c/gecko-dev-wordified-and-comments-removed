@@ -2008,7 +2008,8 @@ Ci
 nsIUrlClassifierUtils
 )
 ;
-let
+streamerMap
+.
 requestPayload
 =
 urlUtils
@@ -2020,15 +2021,6 @@ stateArray
 tableArray
 .
 length
-)
-;
-streamerMap
-.
-requestPayload
-=
-btoa
-(
-requestPayload
 )
 ;
 streamerMap
