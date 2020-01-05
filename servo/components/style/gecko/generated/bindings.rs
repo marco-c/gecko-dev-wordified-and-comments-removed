@@ -34,13 +34,6 @@ css
 :
 GridTemplateAreasValue
 ;
-#
-[
-allow
-(
-unused_imports
-)
-]
 use
 gecko_bindings
 :
@@ -10823,6 +10816,9 @@ data
 *
 mut
 RawGeckoURLExtraData
+length_parsing_mode
+:
+LengthParsingMode
 )
 -
 >
