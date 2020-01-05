@@ -9582,7 +9582,7 @@ strcmp
 (
 info
 .
-fDescription
+fName
 "
 Shockwave
 Flash
