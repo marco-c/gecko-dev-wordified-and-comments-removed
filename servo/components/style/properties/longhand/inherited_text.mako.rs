@@ -1235,6 +1235,11 @@ none
 manual
 auto
 "
+gecko_enum_prefix
+=
+"
+StyleHyphens
+"
 products
 =
 "
