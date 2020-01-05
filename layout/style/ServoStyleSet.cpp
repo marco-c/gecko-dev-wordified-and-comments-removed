@@ -637,6 +637,11 @@ computedValues
 =
 Servo_ComputedValues_Inherit
 (
+mRawSet
+.
+get
+(
+)
 parentComputedValues
 )
 .
@@ -706,6 +711,11 @@ computedValues
 =
 Servo_ComputedValues_Inherit
 (
+mRawSet
+.
+get
+(
+)
 parent
 )
 .

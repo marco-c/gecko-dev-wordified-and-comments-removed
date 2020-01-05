@@ -525,6 +525,8 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputedValues_Inherit
 ServoComputedValuesStrong
+RawServoStyleSetBorrowed
+set
 ServoComputedValuesBorrowedOrNull
 parent_style
 )
