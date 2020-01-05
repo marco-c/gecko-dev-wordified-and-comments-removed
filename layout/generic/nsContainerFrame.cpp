@@ -4800,9 +4800,10 @@ aStatus
 if
 (
 !
-NS_INLINE_IS_BREAK_BEFORE
-(
 aStatus
+.
+IsInlineBreakBefore
+(
 )
 &
 &

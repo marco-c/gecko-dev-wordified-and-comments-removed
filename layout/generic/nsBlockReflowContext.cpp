@@ -1474,9 +1474,10 @@ DEBUG
 if
 (
 !
-NS_INLINE_IS_BREAK_BEFORE
-(
 aFrameReflowStatus
+.
+IsInlineBreakBefore
+(
 )
 )
 {
@@ -1673,9 +1674,10 @@ SetOverflowAreasToDesiredBounds
 if
 (
 !
-NS_INLINE_IS_BREAK_BEFORE
-(
 aFrameReflowStatus
+.
+IsInlineBreakBefore
+(
 )
 |
 |

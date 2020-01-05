@@ -4207,9 +4207,10 @@ IsTruncated
 )
 |
 |
-NS_INLINE_IS_BREAK_BEFORE
-(
 reflowStatus
+.
+IsInlineBreakBefore
+(
 )
 )
 {
