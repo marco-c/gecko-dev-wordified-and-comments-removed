@@ -3314,7 +3314,7 @@ false
 user_pref
 (
 "
-browser
+extensions
 .
 formautofill
 .

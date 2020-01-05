@@ -710,7 +710,7 @@ prefs
 setBoolPref
 (
 "
-browser
+extensions
 .
 formautofill
 .
@@ -733,7 +733,7 @@ prefs
 clearUserPref
 (
 "
-browser
+extensions
 .
 formautofill
 .

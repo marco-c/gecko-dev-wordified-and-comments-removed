@@ -13757,7 +13757,7 @@ NIGHTLY_BUILD
 pref
 (
 "
-browser
+extensions
 .
 formautofill
 .
@@ -13771,7 +13771,7 @@ else
 pref
 (
 "
-browser
+extensions
 .
 formautofill
 .
@@ -13799,7 +13799,7 @@ true
 pref
 (
 "
-browser
+extensions
 .
 formautofill
 .
