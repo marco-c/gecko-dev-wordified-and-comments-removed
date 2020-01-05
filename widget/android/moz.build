@@ -218,6 +218,11 @@ EventDispatcher
 cpp
 '
 '
+GeckoEditableSupport
+.
+cpp
+'
+'
 GeneratedJNIWrappers
 .
 cpp
