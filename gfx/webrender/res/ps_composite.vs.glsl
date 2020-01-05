@@ -70,16 +70,13 @@ src0_src1_target_id_op
 Composite
 fetch_composite
 (
-int
-index
 )
 {
 PrimitiveInstance
 pi
 =
-fetch_instance
+fetch_prim_instance
 (
-index
 )
 ;
 Composite
@@ -119,7 +116,6 @@ composite
 =
 fetch_composite
 (
-gl_InstanceID
 )
 ;
 Tile

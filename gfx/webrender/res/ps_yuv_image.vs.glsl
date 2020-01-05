@@ -70,7 +70,6 @@ prim
 =
 load_primitive
 (
-gl_InstanceID
 )
 ;
 #

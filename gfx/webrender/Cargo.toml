@@ -153,6 +153,8 @@ euclid
 0
 .
 10
+.
+3
 "
 fnv
 =
@@ -168,7 +170,7 @@ gleam
 .
 2
 .
-25
+29
 "
 lazy_static
 =

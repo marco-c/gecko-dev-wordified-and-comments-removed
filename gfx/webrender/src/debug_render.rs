@@ -183,7 +183,7 @@ VertexFormat
 :
 :
 DebugFont
-None
+32
 )
 ;
 let
@@ -197,7 +197,7 @@ VertexFormat
 :
 :
 DebugColor
-None
+32
 )
 ;
 let
@@ -211,7 +211,7 @@ VertexFormat
 :
 :
 DebugColor
-None
+32
 )
 ;
 let
@@ -1171,7 +1171,7 @@ DeviceUintSize
 )
 {
 let
-_
+_gm
 =
 GpuMarker
 :

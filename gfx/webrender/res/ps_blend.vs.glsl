@@ -70,16 +70,13 @@ src_id_target_id_op_amount
 Blend
 fetch_blend
 (
-int
-index
 )
 {
 PrimitiveInstance
 pi
 =
-fetch_instance
+fetch_prim_instance
 (
-index
 )
 ;
 Blend
@@ -124,7 +121,6 @@ blend
 =
 fetch_blend
 (
-gl_InstanceID
 )
 ;
 Tile

@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+varying
+vec2
+vColorTexCoord
+;
+varying
+vec4
+vColor
+;
 void
 main
 (
