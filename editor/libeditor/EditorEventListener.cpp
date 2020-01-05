@@ -3325,6 +3325,11 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 {
+if
+(
+mEditorBase
+)
+{
 mEditorBase
 -
 >
@@ -3332,6 +3337,7 @@ ForceCompositionEnd
 (
 )
 ;
+}
 return
 NS_OK
 ;
