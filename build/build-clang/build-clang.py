@@ -1149,6 +1149,27 @@ run_cmake
 =
 False
     
+def
+slashify_path
+(
+path
+)
+:
+        
+return
+path
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
+    
 cmake_args
 =
 [
@@ -1165,10 +1186,13 @@ DCMAKE_C_COMPILER
 s
 "
 %
+slashify_path
+(
 cc
 [
 0
 ]
+)
                   
 "
 -
@@ -1178,10 +1202,13 @@ DCMAKE_CXX_COMPILER
 s
 "
 %
+slashify_path
+(
 cxx
 [
 0
 ]
+)
                   
 "
 -
@@ -1191,10 +1218,13 @@ DCMAKE_ASM_COMPILER
 s
 "
 %
+slashify_path
+(
 cc
 [
 0
 ]
+)
                   
 "
 -
@@ -1283,7 +1313,10 @@ DPYTHON_EXECUTABLE
 s
 "
 %
+slashify_path
+(
 python_path
+)
                   
 "
 -
