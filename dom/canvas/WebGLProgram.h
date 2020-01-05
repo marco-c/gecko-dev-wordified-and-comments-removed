@@ -132,8 +132,13 @@ WebGLActiveInfo
 >
 mActiveInfo
 ;
+const
 uint32_t
 mLoc
+;
+const
+GLenum
+mBaseType
 ;
 }
 ;
@@ -470,6 +475,13 @@ WebGLProgram
 friend
 class
 WebGLTransformFeedback
+;
+friend
+struct
+webgl
+:
+:
+LinkedProgramInfo
 ;
 public
 :
