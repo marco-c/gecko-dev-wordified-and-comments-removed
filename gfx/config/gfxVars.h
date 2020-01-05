@@ -177,6 +177,13 @@ nsCString
 )
 )
 \
+_
+(
+DXInterop2Blocked
+bool
+false
+)
+\
 class
 gfxVars
 final
