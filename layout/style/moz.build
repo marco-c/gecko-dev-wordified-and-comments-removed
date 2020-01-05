@@ -583,6 +583,11 @@ ServoElementSnapshot
 h
 '
 '
+ServoStyleRule
+.
+h
+'
+'
 ServoStyleSet
 .
 h
@@ -1062,6 +1067,11 @@ cpp
 '
 '
 ServoElementSnapshot
+.
+cpp
+'
+'
+ServoStyleRule
 .
 cpp
 '

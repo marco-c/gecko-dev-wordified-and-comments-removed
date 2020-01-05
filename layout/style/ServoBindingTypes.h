@@ -37,6 +37,9 @@ RawServoStyleSet
 struct
 RawServoDeclarationBlock
 ;
+struct
+RawServoStyleRule
+;
 namespace
 mozilla
 {
@@ -253,6 +256,10 @@ DECL_ARC_REF_TYPE_FOR
 (
 RawServoDeclarationBlock
 )
+DECL_ARC_REF_TYPE_FOR
+(
+RawServoStyleRule
+)
 DECL_NULLABLE_BORROWED_REF_TYPE_FOR
 (
 RawServoDeclarationBlockStrong
@@ -461,6 +468,11 @@ DEFINE_REFPTR_TRAITS
 (
 DeclarationBlock
 RawServoDeclarationBlock
+)
+DEFINE_REFPTR_TRAITS
+(
+StyleRule
+RawServoStyleRule
 )
 #
 undef

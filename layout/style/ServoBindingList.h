@@ -137,6 +137,15 @@ result
 )
 SERVO_BINDING_FUNC
 (
+Servo_CssRules_GetStyleRuleAt
+RawServoStyleRuleStrong
+ServoCssRulesBorrowed
+rules
+uint32_t
+index
+)
+SERVO_BINDING_FUNC
+(
 Servo_ParseProperty
 RawServoDeclarationBlockStrong
 const
