@@ -12,6 +12,16 @@ mozconfigs
 /
 common
 "
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+rust
+"
 #
 L10n
 ac_add_options

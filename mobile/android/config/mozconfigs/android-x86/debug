@@ -12,6 +12,16 @@ mozconfigs
 /
 common
 "
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+rust
+"
 #
 Global
 options

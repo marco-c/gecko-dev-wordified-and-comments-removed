@@ -59,6 +59,16 @@ mozconfigs
 /
 common
 "
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+rust
+"
 ac_add_options
 -
 -
