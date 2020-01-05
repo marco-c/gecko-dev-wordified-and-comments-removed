@@ -19604,7 +19604,7 @@ timeRemaining
 else
 aExpirationTime
 =
-now
+0
 ;
 }
 }
