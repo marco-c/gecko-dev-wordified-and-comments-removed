@@ -762,7 +762,10 @@ style
 restyle_hints
 :
 :
+{
+self
 RestyleHint
+}
 ;
 use
 style
@@ -902,6 +905,13 @@ thread_state
 :
 :
 LAYOUT
+)
+;
+restyle_hints
+:
+:
+assert_restyle_hints_match
+(
 )
 ;
 }
