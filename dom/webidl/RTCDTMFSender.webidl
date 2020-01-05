@@ -165,17 +165,5 @@ attribute
 DOMString
 toneBuffer
 ;
-readonly
-attribute
-unsigned
-long
-duration
-;
-readonly
-attribute
-unsigned
-long
-interToneGap
-;
 }
 ;
