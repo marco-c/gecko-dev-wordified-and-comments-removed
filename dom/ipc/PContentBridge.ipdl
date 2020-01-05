@@ -438,6 +438,8 @@ chromeFlags
 ContentParentId
 cpId
 bool
+isForApp
+bool
 isForBrowser
 )
 ;

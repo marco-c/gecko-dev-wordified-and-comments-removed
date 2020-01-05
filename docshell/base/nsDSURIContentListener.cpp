@@ -1258,7 +1258,7 @@ curDocShell
 curDocShell
 -
 >
-GetIsMozBrowser
+GetIsMozBrowserOrApp
 (
 )
 )

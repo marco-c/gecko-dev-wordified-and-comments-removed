@@ -7713,7 +7713,7 @@ docshell
 docshell
 -
 >
-GetIsInMozBrowser
+GetIsInMozBrowserOrApp
 (
 )
 )

@@ -5774,7 +5774,7 @@ browserFrame
 browserFrame
 -
 >
-GetReallyIsBrowser
+GetReallyIsBrowserOrApp
 (
 )
 )

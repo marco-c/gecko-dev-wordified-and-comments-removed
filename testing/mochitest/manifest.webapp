@@ -198,6 +198,14 @@ events
 {
 }
 "
+embed
+-
+apps
+"
+:
+{
+}
+"
 audio
 -
 channel

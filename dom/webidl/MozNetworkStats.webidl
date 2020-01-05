@@ -197,6 +197,10 @@ is
 generated
 *
 from
+both
+the
+mozapp
+and
 mozbrowser
 iframe
 elements

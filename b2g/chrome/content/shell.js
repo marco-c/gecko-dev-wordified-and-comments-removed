@@ -2291,6 +2291,16 @@ systemAppFrame
 setAttribute
 (
 '
+mozapp
+'
+manifestURL
+)
+;
+systemAppFrame
+.
+setAttribute
+(
+'
 allowfullscreen
 '
 '

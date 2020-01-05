@@ -362,8 +362,12 @@ an
 iframe
 mozbrowser
 >
-.
-It
+or
+<
+iframe
+mozapp
+>
+it
 will
 instead
 return
@@ -376,7 +380,7 @@ a
 convience
 function
 for
-Ithose
+those
 wishing
 to
 not

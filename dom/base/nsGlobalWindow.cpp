@@ -18522,7 +18522,7 @@ if
 mDocShell
 -
 >
-GetIsMozBrowser
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -18688,7 +18688,7 @@ parent
 mDocShell
 -
 >
-GetSameTypeParentIgnoreBrowserBoundaries
+GetSameTypeParentIgnoreBrowserAndAppBoundaries
 (
 getter_AddRefs
 (
@@ -19174,7 +19174,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsInMozBrowser
+GetIsInMozBrowserOrApp
 (
 )
 )
@@ -32910,7 +32910,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsMozBrowser
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -33093,7 +33093,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsMozBrowser
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -37093,7 +37093,7 @@ IsFrame
 mDocShell
 -
 >
-GetIsMozBrowser
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -37139,6 +37139,15 @@ rv
 ;
 if
 (
+!
+mDocShell
+-
+>
+GetIsApp
+(
+)
+&
+&
 !
 StringBeginsWith
 (
@@ -39004,7 +39013,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsMozBrowser
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -39116,7 +39125,7 @@ parent
 mDocShell
 -
 >
-GetSameTypeParentIgnoreBrowserBoundaries
+GetSameTypeParentIgnoreBrowserAndAppBoundaries
 (
 getter_AddRefs
 (

@@ -2234,6 +2234,17 @@ aFrameType
 )
 {
 case
+FRAME_TYPE_APP
+:
+return
+NS_LITERAL_CSTRING
+(
+"
+app
+"
+)
+;
+case
 FRAME_TYPE_BROWSER
 :
 return

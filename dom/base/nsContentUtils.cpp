@@ -28976,7 +28976,7 @@ ignoreuserfocus
 browserFrame
 -
 >
-GetReallyIsBrowser
+GetReallyIsBrowserOrApp
 (
 )
 )

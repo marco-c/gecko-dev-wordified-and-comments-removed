@@ -512,7 +512,7 @@ receiver
 docShell
 -
 >
-GetIsInMozBrowser
+GetIsInMozBrowserOrApp
 (
 )
 &

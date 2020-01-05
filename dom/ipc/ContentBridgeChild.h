@@ -161,6 +161,10 @@ aCpID
 const
 bool
 &
+aIsForApp
+const
+bool
+&
 aIsForBrowser
 )
 override
@@ -246,6 +250,10 @@ aCpID
 const
 bool
 &
+aIsForApp
+const
+bool
+&
 aIsForBrowser
 )
 override
@@ -282,6 +290,10 @@ const
 ContentParentId
 &
 aCpID
+const
+bool
+&
+aIsForApp
 const
 bool
 &
