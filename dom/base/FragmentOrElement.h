@@ -94,13 +94,9 @@ nsIURI
 namespace
 mozilla
 {
-namespace
-css
-{
 class
-Declaration
+DeclarationBlock
 ;
-}
 namespace
 dom
 {
@@ -962,10 +958,7 @@ RefPtr
 mozilla
 :
 :
-css
-:
-:
-Declaration
+DeclarationBlock
 >
 mSMILOverrideStyleDeclaration
 ;

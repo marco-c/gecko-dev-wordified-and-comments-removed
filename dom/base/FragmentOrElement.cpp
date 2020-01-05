@@ -59,6 +59,15 @@ include
 "
 mozilla
 /
+DeclarationBlockInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EffectSet
 .
 h
