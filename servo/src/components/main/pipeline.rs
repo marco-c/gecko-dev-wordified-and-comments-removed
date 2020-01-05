@@ -285,6 +285,10 @@ create
 (
 id
 compositor_chan
+.
+clone
+(
+)
 layout_chan
 .
 clone
@@ -299,6 +303,11 @@ clone
 constellation_chan
 resource_task
 image_cache_task
+compositor_chan
+.
+get_size
+(
+)
 )
 ;
 Pipeline
@@ -412,7 +421,6 @@ iter
 .
 advance
 |
-&
 url
 |
 {
@@ -425,6 +433,10 @@ send
 LoadMsg
 (
 url
+.
+clone
+(
+)
 )
 )
 ;

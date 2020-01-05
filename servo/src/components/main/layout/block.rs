@@ -1838,8 +1838,9 @@ padding
 top
 ;
 cur_y
-+
 =
+cur_y
++
 top_offset
 ;
 left_offset
@@ -1851,6 +1852,7 @@ offset
 )
 ;
 }
+;
 }
 let
 mut
@@ -1975,8 +1977,9 @@ y
 cur_y
 ;
 cur_y
-+
 =
+cur_y
++
 child_node
 .
 position
@@ -1986,6 +1989,7 @@ size
 height
 ;
 }
+;
 }
 let
 height
@@ -2108,8 +2112,9 @@ height
 noncontent_height
 ;
 noncontent_height
-+
 =
+noncontent_height
++
 base
 .
 model

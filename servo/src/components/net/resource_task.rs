@@ -557,7 +557,11 @@ self
 .
 loaders
 .
-each
+iter
+(
+)
+.
+advance
 |
 scheme_loader
 |

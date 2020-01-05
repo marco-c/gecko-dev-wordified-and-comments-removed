@@ -71,7 +71,7 @@ for
 FreeTypeLibraryHandle
 {
 fn
-finalize
+drop
 (
 &
 self

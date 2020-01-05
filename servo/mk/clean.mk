@@ -204,7 +204,10 @@ rf
 libutil
 *
 .
+{
 dylib
+so
+}
 (
 DONE_util
 )
@@ -231,7 +234,10 @@ rf
 libmsg
 *
 .
+{
 dylib
+so
+}
 (
 DONE_msg
 )
@@ -258,7 +264,10 @@ rf
 libnet
 *
 .
+{
 dylib
+so
+}
 (
 DONE_net
 )
@@ -285,7 +294,10 @@ rf
 libgfx
 *
 .
+{
 dylib
+so
+}
 (
 DONE_gfx
 )
@@ -312,7 +324,10 @@ rf
 libscript
 *
 .
+{
 dylib
+so
+}
 (
 DONE_script
 )
@@ -332,6 +347,9 @@ net
 clean
 -
 script
+clean
+-
+msg
 rm
 -
 f

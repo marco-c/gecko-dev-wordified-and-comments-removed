@@ -225,12 +225,6 @@ std
 :
 str
 ;
-use
-std
-:
-:
-vec
-;
 fn
 float_to_fixed_ft
 (
@@ -367,7 +361,7 @@ for
 FontHandle
 {
 fn
-finalize
+drop
 (
 &
 self
@@ -477,13 +471,9 @@ let
 face_result
 =
 do
-vec
-:
-:
-as_imm_buf
-(
 buf
-)
+.
+as_imm_buf
 |
 bytes
 :

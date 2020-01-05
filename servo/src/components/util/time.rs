@@ -454,7 +454,11 @@ f64
 for
 vec
 .
-each
+iter
+(
+)
+.
+advance
 |
 &
 (
@@ -931,7 +935,11 @@ max
 (
 data
 .
-foldl
+iter
+(
+)
+.
+fold
 (
 0f64
 |

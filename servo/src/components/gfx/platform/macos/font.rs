@@ -189,12 +189,6 @@ std
 :
 ptr
 ;
-use
-std
-:
-:
-vec
-;
 pub
 struct
 FontTable
@@ -209,7 +203,7 @@ for
 FontTable
 {
 fn
-finalize
+drop
 (
 &
 self
@@ -432,12 +426,10 @@ fontprov
 :
 CGDataProvider
 =
-vec
-:
-:
-as_imm_buf
-(
+do
 buf
+.
+as_imm_buf
 |
 cbuf
 len
@@ -455,7 +447,6 @@ cbuf
 len
 )
 }
-)
 ;
 let
 cgfont

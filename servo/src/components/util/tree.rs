@@ -834,7 +834,13 @@ kid
 .
 traverse_preorder
 (
+|
+a
+|
 callback
+(
+a
+)
 )
 {
 return
@@ -878,7 +884,13 @@ kid
 .
 traverse_postorder
 (
+|
+a
+|
 callback
+(
+a
+)
 )
 {
 return

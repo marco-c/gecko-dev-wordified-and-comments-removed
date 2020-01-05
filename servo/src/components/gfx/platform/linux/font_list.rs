@@ -877,7 +877,7 @@ for
 AutoPattern
 {
 fn
-finalize
+drop
 (
 &
 self

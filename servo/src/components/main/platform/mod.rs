@@ -16,7 +16,7 @@ platform
 common
 :
 :
-glut_windowing
+glfw_windowing
 :
 :
 {
@@ -63,7 +63,7 @@ shared_gl_windowing
 ]
 pub
 mod
-glut_windowing
+glfw_windowing
 ;
 #
 [
