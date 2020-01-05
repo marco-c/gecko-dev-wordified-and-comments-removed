@@ -3402,6 +3402,14 @@ FragmentIndex
 )
 )
 ;
+if
+!
+fragment
+.
+is_inline_absolute
+(
+)
+{
 self
 .
 pending_line
@@ -3464,6 +3472,7 @@ fragment
 layout_context
 )
 ;
+}
 self
 .
 new_fragments
@@ -5145,6 +5154,14 @@ update_late_computed_inline_position_if_necessary
 (
 )
 ;
+if
+!
+fragment
+.
+is_inline_absolute
+(
+)
+{
 inline_start_position_for_fragment
 =
 inline_start_position_for_fragment
@@ -5163,6 +5180,7 @@ margin
 .
 inline_end
 ;
+}
 }
 }
 }
