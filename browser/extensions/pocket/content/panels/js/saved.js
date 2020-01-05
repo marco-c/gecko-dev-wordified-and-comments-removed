@@ -1504,6 +1504,8 @@ dictJSON
 maxtaglength
 )
 ;
+this
+.
 changestamp
 =
 Date
@@ -1877,6 +1879,8 @@ which
 if
 (
 typeof
+this
+.
 changestamp
 =
 =
@@ -1892,6 +1896,8 @@ now
 (
 )
 -
+this
+.
 changestamp
 >
 250
@@ -1967,6 +1973,8 @@ checkValidTagSubmit
 (
 )
 ;
+this
+.
 changestamp
 =
 Date
@@ -1998,6 +2006,8 @@ checkValidTagSubmit
 (
 )
 ;
+this
+.
 changestamp
 =
 Date
