@@ -1013,6 +1013,10 @@ beingDestroyed_
 (
 false
 )
+allowContentJS_
+(
+true
+)
 atoms_
 (
 nullptr
