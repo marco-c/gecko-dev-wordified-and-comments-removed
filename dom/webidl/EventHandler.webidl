@@ -745,6 +745,10 @@ handlers
 .
 attribute
 EventHandler
+onanimationcancel
+;
+attribute
+EventHandler
 onanimationend
 ;
 attribute
