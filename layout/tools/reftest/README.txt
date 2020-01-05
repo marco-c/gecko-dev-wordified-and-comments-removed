@@ -5646,12 +5646,12 @@ probably
 want
 to
 have
-skip
--
-if
+pref
 (
-!
-asyncPanZoom
+apz
+.
+allow_zooming
+true
 )
 on
 them
