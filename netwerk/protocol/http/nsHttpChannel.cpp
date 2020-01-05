@@ -28923,6 +28923,10 @@ mCacheEntry
 &
 &
 !
+mDidReval
+&
+&
+!
 mAsyncOpenTime
 .
 IsNull
