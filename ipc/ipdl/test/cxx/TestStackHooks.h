@@ -500,6 +500,9 @@ mExited
 int
 mIncallDepth
 ;
+int32_t
+mNumAnswerStackFrame
+;
 }
 ;
 }

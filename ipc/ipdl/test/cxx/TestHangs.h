@@ -173,6 +173,9 @@ CleanUp
 bool
 mDetectedHang
 ;
+int32_t
+mNumAnswerStackFrame
+;
 }
 ;
 class

@@ -366,6 +366,9 @@ mPP5TrialsToGo
 uint32_t
 mNumChildProcessedCompressedSpams
 ;
+uint32_t
+mWhichPong5
+;
 }
 ;
 class
@@ -524,6 +527,9 @@ mLastSeqno
 ;
 uint32_t
 mNumProcessedCompressedSpams
+;
+uint32_t
+mWhichPing5
 ;
 }
 ;
