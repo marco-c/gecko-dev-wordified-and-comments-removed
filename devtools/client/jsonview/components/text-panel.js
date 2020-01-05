@@ -138,6 +138,11 @@ className
 :
 "
 textPanelBox
+tab
+-
+panel
+-
+inner
 "
 }
 TextToolbar
