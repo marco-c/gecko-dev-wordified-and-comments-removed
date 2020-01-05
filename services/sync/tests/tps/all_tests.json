@@ -5,6 +5,11 @@ tests
 :
 [
 "
+test_bookmark_conflict
+.
+js
+"
+"
 test_sync
 .
 js
