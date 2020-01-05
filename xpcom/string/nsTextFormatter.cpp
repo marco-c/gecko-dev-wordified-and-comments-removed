@@ -3218,7 +3218,7 @@ case
 C
 '
 :
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -3296,7 +3296,7 @@ break
 ;
 default
 :
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -3772,7 +3772,7 @@ rv
 0
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -5207,7 +5207,7 @@ UINTN
 }
 else
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -5230,7 +5230,7 @@ case
 C
 '
 :
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -5391,7 +5391,7 @@ default
 #
 if
 0
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )

@@ -2281,7 +2281,7 @@ break
 ;
 default
 :
-PR_ASSERT
+MOZ_ASSERT
 (
 false
 )
