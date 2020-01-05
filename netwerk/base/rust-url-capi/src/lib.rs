@@ -10,7 +10,6 @@ url
 Url
 ParseError
 ParseOptions
-Position
 }
 ;
 use
@@ -988,16 +987,11 @@ cont
 .
 assign
 (
-&
 url
-[
-Position
-:
-:
-BeforePath
 .
-.
-]
+path
+(
+)
 )
 }
 }
