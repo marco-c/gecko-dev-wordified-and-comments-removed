@@ -65,11 +65,6 @@ test_bug562515
 js
 "
 "
-test_bug563989
-.
-js
-"
-"
 test_bug535326
 .
 js
