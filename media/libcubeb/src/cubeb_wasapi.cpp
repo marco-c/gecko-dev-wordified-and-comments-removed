@@ -7520,7 +7520,7 @@ if
 !
 defined
 (
-NDEBUG
+DEBUG
 )
 const
 int
