@@ -746,13 +746,9 @@ partial
 interface
 Window
 {
-/
-*
 [
 Replaceable
 ]
-*
-/
 readonly
 attribute
 Performance
