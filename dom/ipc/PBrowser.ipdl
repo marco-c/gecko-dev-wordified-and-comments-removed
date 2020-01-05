@@ -3996,6 +3996,15 @@ ScreenIntSize
 size
 ShowInfo
 info
+bool
+parentIsActive
+nsSizeMode
+sizeMode
+)
+;
+async
+InitRendering
+(
 TextureFactoryIdentifier
 textureFactoryIdentifier
 uint64_t
@@ -4003,10 +4012,6 @@ layersId
 nullable
 PRenderFrame
 renderFrame
-bool
-parentIsActive
-nsSizeMode
-sizeMode
 )
 ;
 async
