@@ -351,7 +351,7 @@ private
 Fprinter
 out_
 ;
-size_t
+uint32_t
 pid_
 ;
 bool
