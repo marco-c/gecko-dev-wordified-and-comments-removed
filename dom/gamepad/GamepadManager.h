@@ -36,6 +36,13 @@ namespace
 mozilla
 {
 namespace
+gfx
+{
+class
+VRManagerChild
+;
+}
+namespace
 dom
 {
 class
@@ -273,6 +280,13 @@ GamepadEventChannelChild
 *
 >
 mChannelChildren
+;
+gfx
+:
+:
+VRManagerChild
+*
+mVRChannelChild
 ;
 private
 :

@@ -614,6 +614,17 @@ override
 ;
 virtual
 bool
+RecvGamepadUpdate
+(
+const
+GamepadChangeEvent
+&
+aGamepadEvent
+)
+override
+;
+virtual
+bool
 AllocShmem
 (
 size_t

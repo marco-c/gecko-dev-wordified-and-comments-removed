@@ -144,6 +144,12 @@ LOCAL_INCLUDES
 [
 '
 /
+dom
+/
+base
+'
+'
+/
 gfx
 /
 layers
