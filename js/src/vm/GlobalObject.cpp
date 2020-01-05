@@ -2712,13 +2712,6 @@ global
 )
 &
 &
-InitSelfHostingCollectionIteratorFunctions
-(
-cx
-global
-)
-&
-&
 DefineFunctions
 (
 cx
