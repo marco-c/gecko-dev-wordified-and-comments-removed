@@ -172,6 +172,7 @@ document
 Document
 HTMLDocument
 NonHTMLDocument
+NotFromParser
 }
 ;
 use
@@ -632,6 +633,7 @@ win
 None
 NonHTMLDocument
 None
+NotFromParser
 )
 .
 root
@@ -935,6 +937,7 @@ win
 None
 HTMLDocument
 None
+NotFromParser
 )
 .
 root
