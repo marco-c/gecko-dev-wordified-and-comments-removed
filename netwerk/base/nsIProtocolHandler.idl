@@ -654,9 +654,15 @@ newURI
 in
 AUTF8String
 aSpec
+[
+optional
+]
 in
 string
 aOriginCharset
+[
+optional
+]
 in
 nsIURI
 aBaseURI
