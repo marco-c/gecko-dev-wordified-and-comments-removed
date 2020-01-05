@@ -27,9 +27,8 @@ true
 ;
 browserElementTestHelpers
 .
-setAccessibleCaretEnabledPref
+setupAccessibleCaretPref
 (
-true
 )
 ;
 browserElementTestHelpers
