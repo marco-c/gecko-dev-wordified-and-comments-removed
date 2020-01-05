@@ -123,8 +123,6 @@ bool
 Matches
 (
 nsPresContext
-&
-nsMediaQueryResultCacheKey
 *
 )
 const

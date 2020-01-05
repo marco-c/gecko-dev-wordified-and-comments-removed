@@ -2188,7 +2188,6 @@ media
 >
 Matches
 (
-*
 aPresContext
 &
 aKey

@@ -161,12 +161,8 @@ bool
 Matches
 (
 nsPresContext
-&
-aPresContext
-nsMediaQueryResultCacheKey
 *
-=
-nullptr
+aPresContext
 )
 const
 =

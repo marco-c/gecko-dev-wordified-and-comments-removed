@@ -2978,7 +2978,7 @@ nsMediaList
 Matches
 (
 nsPresContext
-&
+*
 aPresContext
 nsMediaQueryResultCacheKey
 *
@@ -3019,7 +3019,6 @@ i
 >
 Matches
 (
-&
 aPresContext
 aKey
 )

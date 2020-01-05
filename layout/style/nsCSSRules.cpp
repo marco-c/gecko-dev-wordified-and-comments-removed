@@ -1901,7 +1901,6 @@ mMedia
 >
 Matches
 (
-*
 aPresContext
 &
 aKey
