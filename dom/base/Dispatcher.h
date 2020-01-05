@@ -45,6 +45,7 @@ TaskCategory
 UI
 Network
 Timer
+Worker
 IdleCallback
 RefreshDriver
 Other

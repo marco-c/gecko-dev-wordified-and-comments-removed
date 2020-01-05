@@ -16,6 +16,9 @@ Timeout
 h
 "
 class
+nsIEventTarget
+;
+class
 nsITimeoutHandler
 ;
 class
@@ -24,9 +27,6 @@ nsGlobalWindow
 namespace
 mozilla
 {
-class
-ThrottledEventQueue
-;
 namespace
 dom
 {
@@ -439,10 +439,7 @@ int32_t
 aMinTimeoutValueMS
 SortBy
 aSortBy
-mozilla
-:
-:
-ThrottledEventQueue
+nsIEventTarget
 *
 aQueue
 )

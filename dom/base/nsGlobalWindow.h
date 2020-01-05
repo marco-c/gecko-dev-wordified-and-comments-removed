@@ -6554,16 +6554,6 @@ aReason
 )
 override
 ;
-mozilla
-:
-:
-ThrottledEventQueue
-*
-GetThrottledEventQueue
-(
-)
-override
-;
 already_AddRefed
 <
 nsPIDOMWindowOuter

@@ -1013,6 +1013,7 @@ nsIObserver
 NS_IMPL_ISUPPORTS
 (
 ThrottledEventQueue
+ThrottledEventQueue
 nsIEventTarget
 )
 ;
