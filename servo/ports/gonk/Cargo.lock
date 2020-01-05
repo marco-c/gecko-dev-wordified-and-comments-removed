@@ -5184,7 +5184,7 @@ smallvec
 .
 1
 .
-3
+4
 (
 registry
 +
@@ -8070,7 +8070,7 @@ smallvec
 .
 1
 .
-3
+4
 (
 registry
 +
@@ -12459,7 +12459,7 @@ smallvec
 .
 1
 .
-3
+4
 (
 registry
 +
@@ -12997,7 +12997,7 @@ smallvec
 .
 1
 .
-3
+4
 (
 registry
 +
@@ -13477,7 +13477,7 @@ version
 .
 1
 .
-3
+4
 "
 source
 =
@@ -14303,7 +14303,7 @@ smallvec
 .
 1
 .
-3
+4
 (
 registry
 +
@@ -15347,7 +15347,7 @@ smallvec
 .
 1
 .
-3
+4
 (
 registry
 +
