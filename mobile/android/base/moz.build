@@ -4134,6 +4134,13 @@ ANRReporter
 java
 '
 '
+bookmarks
+/
+BookmarkUtils
+.
+java
+'
+'
 BootReceiver
 .
 java
