@@ -373,6 +373,8 @@ IAccessibleHolder
 aParentCOMProxy
 WindowsHandle
 aEmulatedWindowHandle
+IAccessibleHolder
+aEmulatedWindowCOMProxy
 )
 ;
 async
