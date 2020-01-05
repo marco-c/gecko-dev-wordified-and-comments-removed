@@ -2461,6 +2461,13 @@ macro
 (
 Other
 MallocHeap
+cachedCFG
+)
+\
+macro
+(
+Other
+MallocHeap
 uniqueIdMap
 )
 \
