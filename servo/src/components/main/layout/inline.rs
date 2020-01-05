@@ -65,9 +65,9 @@ flow
 :
 :
 {
+BaseFlow
 FlowClass
 Flow
-FlowData
 InlineFlowClass
 }
 ;
@@ -3353,7 +3353,7 @@ flows
 .
 base
 :
-FlowData
+BaseFlow
 /
 /
 /
@@ -3481,7 +3481,7 @@ new
 (
 base
 :
-FlowData
+BaseFlow
 )
 -
 >
@@ -3518,7 +3518,7 @@ from_boxes
 (
 base
 :
-FlowData
+BaseFlow
 boxes
 :
 ~

@@ -70,8 +70,8 @@ flow
 :
 :
 {
+BaseFlow
 Flow
-FlowData
 MutableFlowUtils
 }
 ;
@@ -1538,7 +1538,7 @@ len
 let
 inline_base
 =
-FlowData
+BaseFlow
 :
 :
 new
@@ -2277,7 +2277,7 @@ Flow
 let
 base
 =
-FlowData
+BaseFlow
 :
 :
 new
@@ -2382,7 +2382,7 @@ Flow
 let
 base
 =
-FlowData
+BaseFlow
 :
 :
 new
