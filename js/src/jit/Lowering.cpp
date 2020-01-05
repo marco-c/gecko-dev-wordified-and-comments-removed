@@ -14048,7 +14048,7 @@ Double
 gen
 -
 >
-setPerformsCall
+setNeedsStaticStackAlignment
 (
 )
 ;
@@ -14068,7 +14068,7 @@ Float32
 gen
 -
 >
-setPerformsCall
+setNeedsStaticStackAlignment
 (
 )
 ;
@@ -24206,7 +24206,7 @@ Object
 gen
 -
 >
-setPerformsCall
+setNeedsOverrecursedCheck
 (
 )
 ;
@@ -24421,7 +24421,7 @@ monitoredResult
 gen
 -
 >
-setPerformsCall
+setNeedsOverrecursedCheck
 (
 )
 ;
@@ -26231,7 +26231,7 @@ value
 gen
 -
 >
-setPerformsCall
+setNeedsOverrecursedCheck
 (
 )
 ;
@@ -27646,7 +27646,7 @@ Value
 gen
 -
 >
-setPerformsCall
+setNeedsOverrecursedCheck
 (
 )
 ;
@@ -32782,13 +32782,22 @@ possiblyCalls
 (
 )
 )
+{
 gen
 -
 >
-setPerformsCall
+setNeedsStaticStackAlignment
 (
 )
 ;
+gen
+-
+>
+setNeedsOverrecursedCheck
+(
+)
+;
+}
 if
 (
 ins
