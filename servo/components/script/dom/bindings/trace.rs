@@ -1067,6 +1067,7 @@ trace_object
 (
 trc
 "
+heap
 object
 "
 self
@@ -1098,7 +1099,8 @@ trace_jsval
 (
 trc
 "
-val
+heap
+value
 "
 self
 )
@@ -3185,6 +3187,18 @@ mut
 JSTracer
 )
 {
+debug
+!
+(
+"
+tracing
+stack
+-
+rooted
+traceables
+"
+)
+;
 ROOTED_TRACEABLES
 .
 with
