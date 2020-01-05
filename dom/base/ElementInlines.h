@@ -266,14 +266,7 @@ GetShell
 shell
 -
 >
-SetNeedStyleFlush
-(
-)
-;
-shell
--
->
-ObserveStyleFlushes
+EnsureStyleFlush
 (
 )
 ;

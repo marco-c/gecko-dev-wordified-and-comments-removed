@@ -152,6 +152,9 @@ Keyframe
 struct
 ServoComputedValuesWithParent
 ;
+class
+ServoElementSnapshotTable
+;
 }
 class
 nsIContent
@@ -183,6 +186,10 @@ ServoStyleSet
 friend
 class
 ServoRestyleManager
+;
+typedef
+ServoElementSnapshotTable
+SnapshotTable
 ;
 public
 :
@@ -1050,6 +1057,13 @@ CSSPseudoElementType
 aPseudoType
 LazyComputeBehavior
 aMayCompute
+)
+;
+const
+SnapshotTable
+&
+Snapshots
+(
 )
 ;
 void

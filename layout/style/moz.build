@@ -623,6 +623,11 @@ ServoElementSnapshot
 h
 '
 '
+ServoElementSnapshotTable
+.
+h
+'
+'
 ServoMediaList
 .
 h
