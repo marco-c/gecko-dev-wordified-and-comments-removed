@@ -2491,7 +2491,7 @@ CamerasParent
 RecvNumberOfCaptureDevices
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 )
@@ -2705,7 +2705,7 @@ CamerasParent
 RecvNumberOfCapabilities
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -2951,7 +2951,7 @@ CamerasParent
 RecvGetCaptureCapability
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -3247,7 +3247,7 @@ CamerasParent
 RecvGetCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -3803,7 +3803,7 @@ CamerasParent
 RecvAllocateCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -4176,7 +4176,7 @@ CamerasParent
 ReleaseCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -4226,7 +4226,7 @@ CamerasParent
 RecvReleaseCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -4449,7 +4449,7 @@ CamerasParent
 RecvStartCapture
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -4862,7 +4862,7 @@ CamerasParent
 StopCapture
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -4999,7 +4999,7 @@ CamerasParent
 RecvStopCapture
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const

@@ -398,7 +398,7 @@ bool
 RecvAllocateCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 const
 nsCString
@@ -414,7 +414,7 @@ bool
 RecvReleaseCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 const
 int
@@ -427,7 +427,7 @@ bool
 RecvNumberOfCaptureDevices
 (
 const
-int
+CaptureEngine
 &
 )
 override
@@ -437,7 +437,7 @@ bool
 RecvNumberOfCapabilities
 (
 const
-int
+CaptureEngine
 &
 const
 nsCString
@@ -450,7 +450,7 @@ bool
 RecvGetCaptureCapability
 (
 const
-int
+CaptureEngine
 &
 const
 nsCString
@@ -466,7 +466,7 @@ bool
 RecvGetCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 const
 int
@@ -479,7 +479,7 @@ bool
 RecvStartCapture
 (
 const
-int
+CaptureEngine
 &
 const
 int
@@ -495,7 +495,7 @@ bool
 RecvStopCapture
 (
 const
-int
+CaptureEngine
 &
 const
 int
@@ -610,7 +610,7 @@ void
 StopCapture
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
@@ -623,7 +623,7 @@ int
 ReleaseCaptureDevice
 (
 const
-int
+CaptureEngine
 &
 aCapEngine
 const
