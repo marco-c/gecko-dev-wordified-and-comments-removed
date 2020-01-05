@@ -130,6 +130,14 @@ aFrame
 .
 mImage
 )
+&
+&
+mPrincipalHandle
+=
+=
+aFrame
+.
+mPrincipalHandle
 ;
 }
 bool
