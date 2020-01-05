@@ -342,6 +342,7 @@ button
 2
 }
 ;
+yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -378,6 +379,7 @@ button
 2
 }
 ;
+yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
