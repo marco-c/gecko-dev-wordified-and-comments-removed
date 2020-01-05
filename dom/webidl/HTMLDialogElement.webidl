@@ -159,6 +159,17 @@ document
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+dialog_element
+.
+enabled
+"
+]
 interface
 HTMLDialogElement
 :
