@@ -3293,6 +3293,13 @@ mLastOutputTime
 =
 aTime
 ;
+int64_t
+currentTime
+=
+GetPosition
+(
+)
+;
 RefPtr
 <
 MediaData
@@ -3316,7 +3323,7 @@ a
 >
 mTime
 <
-aTime
+currentTime
 ;
 )
 {
