@@ -1229,11 +1229,11 @@ mozilla
 :
 Runnable
 {
-virtual
 ~
 GetNextTokenRunnable
 (
 )
+override
 =
 default
 ;
