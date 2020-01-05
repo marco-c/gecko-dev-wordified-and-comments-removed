@@ -15224,12 +15224,7 @@ nullptr
 }
 if
 (
-XRE_IsParentProcess
-(
-)
-&
-&
-BrowserTabsRemoteAutostart
+XRE_IsE10sParentProcess
 (
 )
 )
