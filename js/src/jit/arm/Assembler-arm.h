@@ -2423,6 +2423,10 @@ rot
 (
 0xf
 )
+buff
+(
+0
+)
 invalid
 (
 1
@@ -2444,6 +2448,10 @@ data_
 rot
 (
 rot_
+)
+buff
+(
+0
 )
 invalid
 (
