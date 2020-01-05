@@ -284,4 +284,13 @@ env
 :
 AFTER_BUILD
 =
-wpt
+wpt1
+-
+os
+:
+osx
+env
+:
+AFTER_BUILD
+=
+wpt2
