@@ -26851,7 +26851,7 @@ bce
 emitAtomOp
 (
 lhs
-JSOP_GETXPROP
+JSOP_GETBOUNDNAME
 )
 )
 return

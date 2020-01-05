@@ -10920,7 +10920,7 @@ if
 op
 =
 =
-JSOP_GETXPROP
+JSOP_GETBOUNDNAME
 )
 {
 RootedObject
@@ -11120,7 +11120,7 @@ JSOP_LENGTH
 op
 =
 =
-JSOP_GETXPROP
+JSOP_GETBOUNDNAME
 )
 ;
 RootedShape

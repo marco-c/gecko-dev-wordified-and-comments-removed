@@ -3626,10 +3626,10 @@ JOF_BYTE
 \
 macro
 (
-JSOP_GETXPROP
+JSOP_GETBOUNDNAME
 195
 "
-getxprop
+getboundname
 "
 NULL
 5
@@ -3637,7 +3637,7 @@ NULL
 1
 JOF_ATOM
 |
-JOF_PROP
+JOF_NAME
 |
 JOF_TYPESET
 )
