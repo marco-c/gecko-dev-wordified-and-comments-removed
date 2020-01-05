@@ -192,7 +192,7 @@ nsSAXXMLReader
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
