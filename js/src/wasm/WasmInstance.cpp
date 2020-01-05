@@ -3984,6 +3984,11 @@ false
 }
 if
 (
+isAsmJS
+(
+)
+&
+&
 args
 .
 isConstructing

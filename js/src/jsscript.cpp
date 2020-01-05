@@ -4737,7 +4737,7 @@ MOZ_ASSERT
 function
 -
 >
-isWasmNative
+isAsmJSNative
 (
 )
 )
@@ -18551,7 +18551,7 @@ MOZ_ASSERT
 innerFun
 -
 >
-isWasmNative
+isAsmJSNative
 (
 )
 )

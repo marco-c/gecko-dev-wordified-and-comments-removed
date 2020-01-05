@@ -48769,7 +48769,7 @@ ASMJS_LAMBDA_CTOR
 JSFunction
 :
 :
-WASM_CTOR
+ASMJS_CTOR
 ;
 JSFunction
 *

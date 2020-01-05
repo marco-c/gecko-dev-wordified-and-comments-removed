@@ -90,7 +90,7 @@ Method
 ClassConstructor
 Getter
 Setter
-Wasm
+AsmJS
 FunctionKindLimit
 }
 ;
@@ -142,9 +142,9 @@ FUNCTION_KIND_MASK
 <
 <
 FUNCTION_KIND_SHIFT
-WASM_KIND
+ASMJS_KIND
 =
-Wasm
+AsmJS
 <
 <
 FUNCTION_KIND_SHIFT
@@ -193,14 +193,14 @@ NATIVE_FUN
 CONSTRUCTOR
 |
 CLASSCONSTRUCTOR_KIND
-WASM_CTOR
+ASMJS_CTOR
 =
-WASM_KIND
+ASMJS_KIND
 |
 NATIVE_CTOR
 ASMJS_LAMBDA_CTOR
 =
-WASM_KIND
+ASMJS_KIND
 |
 NATIVE_CTOR
 |
@@ -634,7 +634,7 @@ CONSTRUCTOR
 ;
 }
 bool
-isWasmNative
+isAsmJSNative
 (
 )
 const
@@ -645,7 +645,7 @@ kind
 )
 =
 =
-Wasm
+AsmJS
 ;
 }
 bool
@@ -988,7 +988,7 @@ isNative
 &
 &
 !
-isWasmNative
+isAsmJSNative
 (
 )
 )

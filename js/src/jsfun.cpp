@@ -1771,7 +1771,7 @@ isInterpreted
 fun
 -
 >
-isWasmNative
+isAsmJSNative
 (
 )
 )
