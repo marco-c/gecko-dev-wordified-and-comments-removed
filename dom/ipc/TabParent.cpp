@@ -13748,6 +13748,13 @@ nsLoadFlags
 )
 NO_IMPL
 NS_IMETHOD
+GetIsDocument
+(
+bool
+*
+)
+NO_IMPL
+NS_IMETHOD
 GetOriginalURI
 (
 nsIURI
