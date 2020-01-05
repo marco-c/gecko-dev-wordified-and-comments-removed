@@ -87,10 +87,10 @@ rust
 -
 clippy
 "
-branch
+rev
 =
 "
-servo
+9dca15de3e8ea266d3e7e868c0f358ed4fa5f195
 "
 optional
 =
