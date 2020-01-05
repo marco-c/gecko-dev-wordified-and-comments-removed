@@ -1033,6 +1033,7 @@ opts
 &
 Png
 (
+ref
 outfile
 )
 =
@@ -1079,6 +1080,7 @@ mode
 run_pipeline_png
 (
 opts
+*
 outfile
 )
 }

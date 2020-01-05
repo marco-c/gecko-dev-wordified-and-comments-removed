@@ -265,11 +265,13 @@ self
 UnscannedTextBox
 (
 _
+ref
 s
 )
 =
 >
 copy
+*
 s
 _
 =

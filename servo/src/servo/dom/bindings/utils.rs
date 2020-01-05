@@ -429,6 +429,7 @@ JSVAL_NULL
 &
 str
 (
+ref
 s
 )
 =
@@ -439,6 +440,7 @@ str
 :
 as_buf
 (
+*
 s
 |
 buf

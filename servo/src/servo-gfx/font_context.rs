@@ -1374,6 +1374,7 @@ backend
 &
 SelectorPlatformIdentifier
 (
+ref
 identifier
 )
 =
@@ -1389,6 +1390,7 @@ handle
 create_font_from_identifier
 (
 copy
+*
 identifier
 copy
 desc

@@ -5259,10 +5259,12 @@ box
 ImageBox
 (
 _
+ref
 img
 )
 =
 >
+{
 Au
 :
 :
@@ -5285,6 +5287,7 @@ Size2D
 .
 width
 )
+}
 TextBox
 (
 *
@@ -5694,6 +5697,7 @@ cur_box
 ImageBox
 (
 _
+ref
 img
 )
 =

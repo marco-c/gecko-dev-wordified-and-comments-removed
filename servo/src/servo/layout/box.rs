@@ -976,6 +976,7 @@ self
 UnscannedTextBox
 (
 _
+ref
 raw_text
 )
 =
@@ -1053,11 +1054,13 @@ font_style
 TextBox
 (
 _
+ref
 d1
 )
 TextBox
 (
 _
+ref
 d2
 )
 )
@@ -1874,6 +1877,7 @@ width
 ImageBox
 (
 _
+ref
 i
 )
 =
@@ -2033,6 +2037,7 @@ Au
 ImageBox
 (
 _
+ref
 i
 )
 =
@@ -2444,6 +2449,7 @@ self
 ImageBox
 (
 _
+ref
 i
 )
 =
@@ -3505,6 +3511,7 @@ _
 ImageBox
 (
 _
+ref
 i
 )
 =
@@ -4644,6 +4651,7 @@ length
 UnscannedTextBox
 (
 _
+ref
 s
 )
 =
@@ -4658,6 +4666,7 @@ UnscannedTextBox
 s
 )
 "
+*
 s
 )
 }
