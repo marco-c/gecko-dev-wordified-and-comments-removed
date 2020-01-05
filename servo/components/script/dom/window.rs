@@ -3515,10 +3515,6 @@ Storage
 new
 (
 self
-.
-upcast
-(
-)
 StorageType
 :
 :
@@ -3573,10 +3569,6 @@ Storage
 new
 (
 self
-.
-upcast
-(
-)
 StorageType
 :
 :

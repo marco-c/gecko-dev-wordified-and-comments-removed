@@ -130,15 +130,6 @@ use
 dom
 :
 :
-globalscope
-:
-:
-GlobalScope
-;
-use
-dom
-:
-:
 storage
 :
 :
@@ -318,7 +309,7 @@ new
 global
 :
 &
-GlobalScope
+Window
 type_
 :
 Atom
@@ -434,7 +425,7 @@ Constructor
 global
 :
 &
-GlobalScope
+Window
 type_
 :
 DOMString
