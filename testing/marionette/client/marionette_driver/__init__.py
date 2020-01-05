@@ -30,6 +30,8 @@ gestures
     
 keys
     
+localization
+    
 marionette
     
 selection

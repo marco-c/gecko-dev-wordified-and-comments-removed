@@ -295,6 +295,16 @@ js
 )
 content
 /
+l10n
+.
+js
+(
+l10n
+.
+js
+)
+content
+/
 assert
 .
 js
