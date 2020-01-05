@@ -11745,6 +11745,9 @@ bool
 forcePermissiveCOWs
 ;
 bool
+wasNuked
+;
+bool
 wrapperDenialWarnings
 [
 WrapperDenialTypeCount

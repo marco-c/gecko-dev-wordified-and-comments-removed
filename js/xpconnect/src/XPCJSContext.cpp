@@ -906,6 +906,10 @@ forcePermissiveCOWs
 (
 false
 )
+wasNuked
+(
+false
+)
 scriptability
 (
 c
