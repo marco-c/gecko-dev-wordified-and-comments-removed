@@ -3873,7 +3873,7 @@ aResult
 NoKeyErr
 )
 {
-NS_WARNING
+EME_LOG
 (
 "
 CDM
