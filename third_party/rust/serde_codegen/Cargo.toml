@@ -13,7 +13,7 @@ version
 .
 8
 .
-19
+20
 "
 authors
 =
@@ -195,6 +195,8 @@ quote
 0
 .
 3
+.
+8
 "
 serde_codegen_internals
 =
@@ -207,7 +209,7 @@ version
 .
 11
 .
-1
+2
 "
 default
 -

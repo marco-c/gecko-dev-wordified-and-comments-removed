@@ -142,7 +142,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -171,7 +171,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -308,7 +308,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -337,7 +337,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -619,7 +619,7 @@ gleam
 .
 2
 .
-27
+29
 (
 registry
 +
@@ -648,7 +648,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -758,7 +758,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -837,7 +837,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -945,7 +945,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -974,7 +974,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -1113,7 +1113,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -1279,7 +1279,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -1308,7 +1308,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -1337,7 +1337,7 @@ serde_codegen
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -1407,7 +1407,7 @@ version
 .
 10
 .
-2
+3
 "
 source
 =
@@ -1532,7 +1532,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -1561,7 +1561,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -1678,7 +1678,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -2019,7 +2019,7 @@ version
 .
 2
 .
-27
+29
 "
 source
 =
@@ -2531,7 +2531,7 @@ version
 .
 2
 .
-17
+18
 "
 source
 =
@@ -2926,7 +2926,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -3015,7 +3015,7 @@ gleam
 .
 2
 .
-27
+29
 (
 registry
 +
@@ -3164,7 +3164,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -3468,7 +3468,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -3548,7 +3548,7 @@ version
 .
 3
 .
-21
+22
 "
 source
 =
@@ -3590,7 +3590,7 @@ version
 .
 8
 .
-19
+20
 "
 source
 =
@@ -3632,7 +3632,7 @@ version
 .
 8
 .
-19
+20
 "
 source
 =
@@ -3695,7 +3695,7 @@ serde_codegen_internals
 .
 11
 .
-1
+2
 (
 registry
 +
@@ -3823,7 +3823,7 @@ version
 .
 11
 .
-1
+2
 "
 source
 =
@@ -3961,7 +3961,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -4246,7 +4246,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -4306,7 +4306,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -4472,7 +4472,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -4576,7 +4576,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -4636,7 +4636,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -5008,7 +5008,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -5704,7 +5704,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -5791,7 +5791,7 @@ gleam
 .
 2
 .
-27
+29
 (
 registry
 +
@@ -6087,7 +6087,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -6145,7 +6145,7 @@ gleam
 .
 2
 .
-27
+29
 (
 registry
 +
@@ -6391,7 +6391,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -6420,7 +6420,7 @@ gleam
 .
 2
 .
-27
+29
 (
 registry
 +
@@ -6507,7 +6507,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -6536,7 +6536,7 @@ serde_codegen
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -6697,7 +6697,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -7261,7 +7261,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -7286,7 +7286,7 @@ index
 "
 =
 "
-44ef2a3e4a621518e488db36820a12b49a9d5004764b8daf1458bbe5d7c9b626
+0c274f13773ec277a48408d0c7a8dc935ad4bfe190f4cfccd0126d203afc3c83
 "
 "
 checksum
@@ -7433,7 +7433,7 @@ gleam
 .
 2
 .
-27
+29
 (
 registry
 +
@@ -7458,7 +7458,7 @@ index
 "
 =
 "
-53acb72620725644d0a9eb0a81218c27e2adf70ef15d89937db8d1252f718e97
+1b83402229bde9d923f0b92811be017f9df5946ee86f8647367b1e02bcf5c293
 "
 "
 checksum
@@ -7639,7 +7639,7 @@ libc
 .
 2
 .
-17
+18
 (
 registry
 +
@@ -7664,7 +7664,7 @@ index
 "
 =
 "
-044d1360593a78f5c8e5e710beccdc24ab71d1f01bc19a29bcacdba22e8475d8
+a51822fc847e7a8101514d1d44e354ba2ffa7d4c194dcab48870740e327cac70
 "
 "
 checksum
@@ -7919,7 +7919,7 @@ serialize
 .
 3
 .
-21
+22
 (
 registry
 +
@@ -7944,7 +7944,7 @@ index
 "
 =
 "
-bff9fc1c79f2dec76b253273d07682e94a978bd8f132ded071188122b2af9818
+237546c689f20bb44980270c73c3b9edd0891c1be49cc1274406134a66d3957b
 "
 "
 checksum
@@ -7953,7 +7953,7 @@ serde
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -7978,7 +7978,7 @@ index
 "
 =
 "
-58a19c0871c298847e6b68318484685cd51fa5478c0c905095647540031356e5
+793aa8d4a777e46a68bbf88998cd957e638427ba5bfb0de22c92ff277b65bd21
 "
 "
 checksum
@@ -7987,7 +7987,7 @@ serde_codegen
 .
 8
 .
-19
+20
 (
 registry
 +
@@ -8012,7 +8012,7 @@ index
 "
 =
 "
-ce29a6ae259579707650ec292199b5fed2c0b8e2a4bdc994452d24d1bcf2242a
+460354e47fffa7cf0c96fcf9a040fd170e957f43dd8032531083866eb4a51c11
 "
 "
 checksum
@@ -8021,7 +8021,7 @@ serde_codegen_internals
 .
 11
 .
-1
+2
 (
 registry
 +
@@ -8046,7 +8046,7 @@ index
 "
 =
 "
-59933a62554548c690d2673c5164f0c4a46be7c5731edfd94b0ecb1048940732
+55224f713f022184a1c332dc5c8b1ac634d25a355d54836386771947f12585e0
 "
 "
 checksum

@@ -4060,6 +4060,16 @@ c_int
 ;
 pub
 const
+ENOTSUP
+:
+:
+:
+c_int
+=
+48
+;
+pub
+const
 EAGAIN
 :
 :
