@@ -17,7 +17,7 @@ parse
 "
         
 [
-Flippety
+NoInterfaceObject
 ]
         
 interface
@@ -25,8 +25,9 @@ TestExtendedAttr
 {
           
 [
-Foopy
+Unforgeable
 ]
+readonly
 attribute
 byte
 b
@@ -65,14 +66,14 @@ parse
 "
         
 [
-Flippety
+Pref
 =
 "
 foo
 .
 bar
 "
-Floppety
+Pref
 =
 flop
 ]
@@ -82,7 +83,7 @@ TestExtendedAttr
 {
           
 [
-Foopy
+Pref
 =
 "
 foo

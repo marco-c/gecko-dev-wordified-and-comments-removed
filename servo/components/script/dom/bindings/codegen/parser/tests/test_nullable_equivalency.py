@@ -159,16 +159,6 @@ b
 }
 ;
         
-/
-*
-Not
-implemented
-.
-*
-/
-        
-/
-*
 interface
 TestNullableEquivalency8
 {
@@ -180,26 +170,6 @@ a
           
 attribute
 float
-?
-b
-;
-        
-}
-;
-*
-/
-        
-interface
-TestNullableEquivalency8
-{
-          
-attribute
-double
-a
-;
-          
-attribute
-double
 ?
 b
 ;
@@ -212,6 +182,24 @@ TestNullableEquivalency9
 {
           
 attribute
+double
+a
+;
+          
+attribute
+double
+?
+b
+;
+        
+}
+;
+        
+interface
+TestNullableEquivalency10
+{
+          
+attribute
 object
 a
 ;
@@ -226,7 +214,7 @@ b
 ;
         
 interface
-TestNullableEquivalency10
+TestNullableEquivalency11
 {
           
 attribute
@@ -248,7 +236,7 @@ b
 ;
         
 interface
-TestNullableEquivalency11
+TestNullableEquivalency12
 {
           
 attribute
@@ -423,6 +411,12 @@ inner
 '
 '
 QName
+'
+'
+getDeps
+'
+'
+name
 '
 ]
 or

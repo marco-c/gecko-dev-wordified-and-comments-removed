@@ -92,7 +92,7 @@ type
 .
 name
 "
-Long
+LongOrNull
 "
                   
 "
