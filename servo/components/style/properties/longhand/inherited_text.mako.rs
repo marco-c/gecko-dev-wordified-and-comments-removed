@@ -2754,10 +2754,6 @@ normal
 break
 -
 all
-"
-extra_gecko_values
-=
-"
 keep
 -
 all
