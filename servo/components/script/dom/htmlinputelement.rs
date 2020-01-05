@@ -5760,7 +5760,7 @@ InputCheckbox
 >
 {
 /
-/
+*
 https
 :
 /
@@ -5793,8 +5793,6 @@ click
 activation
 -
 steps
-/
-/
 cache
 current
 values
@@ -5802,8 +5800,6 @@ of
 checked
 and
 indeterminate
-/
-/
 we
 may
 need
@@ -5811,6 +5807,8 @@ to
 restore
 them
 later
+*
+/
 cache
 .
 indeterminate
