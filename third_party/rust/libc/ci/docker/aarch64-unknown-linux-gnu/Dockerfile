@@ -1,9 +1,9 @@
 FROM
 ubuntu
 :
-14
+16
 .
-04
+10
 RUN
 apt
 -

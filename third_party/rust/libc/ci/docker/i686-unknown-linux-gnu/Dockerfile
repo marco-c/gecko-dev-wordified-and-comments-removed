@@ -3,7 +3,7 @@ ubuntu
 :
 16
 .
-04
+10
 RUN
 apt
 -
