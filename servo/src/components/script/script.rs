@@ -231,6 +231,10 @@ comment
 ;
 pub
 mod
+console
+;
+pub
+mod
 document
 ;
 pub
