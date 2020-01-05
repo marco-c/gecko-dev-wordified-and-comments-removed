@@ -2299,7 +2299,6 @@ Now
 DoReadToTypedArrayEvent
 (
 )
-override
 {
 if
 (
@@ -2448,7 +2447,6 @@ Now
 DoReadToStringEvent
 (
 )
-override
 {
 if
 (

@@ -61,9 +61,8 @@ nsParentalControlsService
 nsParentalControlsService
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsParentalControlsService
 :

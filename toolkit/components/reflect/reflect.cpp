@@ -95,9 +95,8 @@ Module
 Module
 (
 )
-=
-default
-;
+{
+}
 Module
 :
 :
@@ -105,9 +104,8 @@ Module
 Module
 (
 )
-=
-default
-;
+{
+}
 #
 define
 XPC_MAP_CLASSNAME
