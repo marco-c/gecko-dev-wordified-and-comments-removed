@@ -89,6 +89,15 @@ mozharness
 .
 mozilla
 .
+buildbot
+import
+TBPL_RETRY
+EXIT_STATUS_DICT
+from
+mozharness
+.
+mozilla
+.
 mozbase
 import
 MozbaseMixin
@@ -5154,6 +5163,11 @@ attempts
 '
 %
 max_restarts
+                
+EXIT_STATUS_DICT
+[
+TBPL_RETRY
+]
 )
         
 logcat_filename
@@ -5775,6 +5789,7 @@ on
 s
 '
 %
+                
 (
 self
 .
@@ -5788,6 +5803,10 @@ name
 "
 ]
 )
+EXIT_STATUS_DICT
+[
+TBPL_RETRY
+]
 )
         
 if
@@ -5845,6 +5864,7 @@ on
 s
 '
 %
+                    
 (
 self
 .
@@ -5858,6 +5878,10 @@ name
 "
 ]
 )
+EXIT_STATUS_DICT
+[
+TBPL_RETRY
+]
 )
         
 self
