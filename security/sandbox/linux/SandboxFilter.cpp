@@ -3457,6 +3457,9 @@ case
 __NR_eventfd2
 :
 case
+__NR_inotify_init
+:
+case
 __NR_inotify_init1
 :
 case
