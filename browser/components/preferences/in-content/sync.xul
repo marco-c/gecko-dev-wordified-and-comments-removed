@@ -1006,7 +1006,7 @@ label
 =
 "
 &
-disconnect
+disconnect2
 .
 label
 ;
@@ -1015,7 +1015,7 @@ accesskey
 =
 "
 &
-disconnect
+disconnect2
 .
 accesskey
 ;
@@ -1489,7 +1489,7 @@ label
 &
 signedIn
 .
-engines
+settings
 .
 label
 ;
@@ -1500,6 +1500,20 @@ label
 <
 /
 caption
+>
+<
+description
+>
+&
+signedIn
+.
+settings
+.
+description
+;
+<
+/
+description
 >
 <
 hbox
