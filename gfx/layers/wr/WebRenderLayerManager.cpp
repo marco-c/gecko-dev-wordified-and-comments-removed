@@ -1606,6 +1606,10 @@ MakeSnapshotIfRequired
 size
 )
 ;
+ClearDisplayItemLayers
+(
+)
+;
 mKeepAlive
 .
 Clear
