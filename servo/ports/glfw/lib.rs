@@ -1,15 +1,6 @@
 #
 !
 [
-license
-=
-"
-MPL
-"
-]
-#
-!
-[
 feature
 (
 macro_rules
