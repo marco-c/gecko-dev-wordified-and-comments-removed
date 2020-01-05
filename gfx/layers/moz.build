@@ -1150,6 +1150,13 @@ h
 '
 ipc
 /
+KnowsCompositor
+.
+h
+'
+'
+ipc
+/
 LayerAnimationUtils
 .
 h
