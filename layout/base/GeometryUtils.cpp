@@ -1269,6 +1269,8 @@ aFrame1
 nsIFrame
 *
 aFrame2
+CallerType
+aCallerType
 )
 {
 nsPresContext
@@ -1307,12 +1309,13 @@ true
 }
 if
 (
-nsContentUtils
+aCallerType
+=
+=
+CallerType
 :
 :
-IsCallerChrome
-(
-)
+System
 )
 {
 return
@@ -1363,6 +1366,8 @@ DOMQuad
 >
 &
 aResult
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1465,6 +1470,7 @@ CheckFramesInSameTopLevelBrowsingContext
 (
 frame
 relativeToFrame
+aCallerType
 )
 )
 {
@@ -1538,6 +1544,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1615,6 +1623,7 @@ CheckFramesInSameTopLevelBrowsingContext
 (
 fromFrame
 toFrame
+aCallerType
 )
 )
 {
@@ -1821,6 +1830,8 @@ dom
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1927,6 +1938,7 @@ aFrom
 4
 points
 aOptions
+aCallerType
 aRv
 )
 ;
@@ -1997,6 +2009,8 @@ dom
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -2097,6 +2111,7 @@ aFrom
 4
 points
 aOptions
+aCallerType
 aRv
 )
 ;
@@ -2168,6 +2183,8 @@ dom
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -2225,6 +2242,7 @@ aFrom
 &
 point
 aOptions
+aCallerType
 aRv
 )
 ;

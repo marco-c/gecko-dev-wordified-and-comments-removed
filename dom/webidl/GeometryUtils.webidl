@@ -208,6 +208,7 @@ nsINode
 :
 HasBoxQuadsSupport
 "
+NeedsCallerType
 ]
 sequence
 <
@@ -233,6 +234,7 @@ convertFromNode
 .
 enabled
 "
+NeedsCallerType
 ]
 DOMQuad
 convertQuadFromNode
@@ -259,6 +261,7 @@ convertFromNode
 .
 enabled
 "
+NeedsCallerType
 ]
 DOMQuad
 convertRectFromNode
@@ -285,6 +288,7 @@ convertFromNode
 .
 enabled
 "
+NeedsCallerType
 ]
 DOMPoint
 convertPointFromNode
