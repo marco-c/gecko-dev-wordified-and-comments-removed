@@ -3103,7 +3103,8 @@ _fields
 field_ascii
 =
 (
-str
+                
+unicode
 (
 getattr
 (
@@ -3113,7 +3114,7 @@ _last_seen_video_state
 field
 )
 )
-                           
+                
 .
 encode
 (
