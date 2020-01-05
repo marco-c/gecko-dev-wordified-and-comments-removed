@@ -370,10 +370,6 @@ mDecodeCount
 (
 0
 )
-mRequestedSampleSize
-(
-0
-)
 mImageProducerID
 (
 ImageContainer
@@ -4510,7 +4506,6 @@ mSize
 aSize
 decoderFlags
 surfaceFlags
-mRequestedSampleSize
 )
 ;
 }
@@ -4590,7 +4585,6 @@ WrapNotNull
 this
 )
 mSourceBuffer
-mRequestedSampleSize
 )
 ;
 if

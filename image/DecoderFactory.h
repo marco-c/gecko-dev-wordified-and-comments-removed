@@ -151,8 +151,6 @@ DecoderFlags
 aDecoderFlags
 SurfaceFlags
 aSurfaceFlags
-int
-aSampleSize
 )
 ;
 static
@@ -210,8 +208,6 @@ SourceBuffer
 *
 >
 aSourceBuffer
-int
-aSampleSize
 )
 ;
 static

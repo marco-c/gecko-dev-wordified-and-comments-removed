@@ -267,16 +267,6 @@ reftest
 .
 list
 #
-Blob
-URI
-tests
-include
-blob
-/
-reftest
-.
-list
-#
 Lossless
 encoders
 skip

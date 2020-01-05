@@ -536,8 +536,6 @@ DecoderFlags
 aDecoderFlags
 SurfaceFlags
 aSurfaceFlags
-int
-aSampleSize
 )
 {
 if
@@ -636,14 +634,6 @@ decoder
 SetSurfaceFlags
 (
 aSurfaceFlags
-)
-;
-decoder
--
->
-SetSampleSize
-(
-aSampleSize
 )
 ;
 if
@@ -1001,8 +991,6 @@ SourceBuffer
 *
 >
 aSourceBuffer
-int
-aSampleSize
 )
 {
 if
@@ -1064,14 +1052,6 @@ aSourceBuffer
 Iterator
 (
 )
-)
-;
-decoder
--
->
-SetSampleSize
-(
-aSampleSize
 )
 ;
 if

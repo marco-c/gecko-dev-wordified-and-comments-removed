@@ -460,15 +460,6 @@ ExplicitOutputSize
 )
 const
 ;
-virtual
-void
-SetSampleSize
-(
-int
-aSampleSize
-)
-{
-}
 void
 SetIterator
 (
