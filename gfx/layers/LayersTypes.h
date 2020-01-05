@@ -813,6 +813,14 @@ LayerCoord
 >
 BorderWidths
 ;
+typedef
+Array
+<
+uint8_t
+4
+>
+BorderStyles
+;
 class
 LayerHandle
 {
