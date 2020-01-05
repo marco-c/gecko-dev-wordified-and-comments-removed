@@ -26,11 +26,6 @@ DiagnosticsEngine
 &
 Diag
 ;
-const
-CompilerInstance
-&
-CI
-;
 DiagnosticsMatcher
 Matcher
 ;
@@ -38,7 +33,6 @@ public
 :
 MozChecker
 (
-const
 CompilerInstance
 &
 CI
@@ -52,7 +46,7 @@ getDiagnostics
 (
 )
 )
-CI
+Matcher
 (
 CI
 )
@@ -109,14 +103,6 @@ const
 Stmt
 *
 Statement
-)
-;
-bool
-VisitCXXRecordDecl
-(
-CXXRecordDecl
-*
-D
 )
 ;
 bool

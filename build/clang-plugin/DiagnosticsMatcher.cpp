@@ -10,6 +10,9 @@ DiagnosticsMatcher
 :
 DiagnosticsMatcher
 (
+CompilerInstance
+&
+CI
 )
 :
 #
@@ -56,6 +59,17 @@ registerMatchers
 (
 &
 AstMatcher
+)
+;
+\
+cls
+#
+#
+_
+.
+registerPPCallbacks
+(
+CI
 )
 ;
 #

@@ -18,6 +18,9 @@ public
 :
 DiagnosticsMatcher
 (
+CompilerInstance
+&
+CI
 )
 ;
 ASTConsumerPtr

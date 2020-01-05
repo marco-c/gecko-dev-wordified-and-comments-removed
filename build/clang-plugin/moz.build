@@ -143,6 +143,11 @@ MozChecker
 cpp
 '
 '
+MustOverrideChecker
+.
+cpp
+'
+'
 NaNExprChecker
 .
 cpp
