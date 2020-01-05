@@ -17,6 +17,15 @@ path
 PathBuf
 ;
 use
+super
+:
+:
+{
+LoadConsumer
+LoadData
+}
+;
+use
 uuid
 :
 :
@@ -104,6 +113,11 @@ Uuid
 DeleteFileID
 (
 Uuid
+)
+LoadBlob
+(
+LoadData
+LoadConsumer
 )
 Exit
 }

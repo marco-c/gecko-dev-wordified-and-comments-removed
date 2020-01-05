@@ -247,6 +247,10 @@ about_loader
 ;
 pub
 mod
+blob_loader
+;
+pub
+mod
 bluetooth_thread
 ;
 pub
