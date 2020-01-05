@@ -143,6 +143,11 @@ LoadArgumentsObjectLengthResult
 \
 _
 (
+LoadFunctionLengthResult
+)
+\
+_
+(
 LoadStringLengthResult
 )
 \
