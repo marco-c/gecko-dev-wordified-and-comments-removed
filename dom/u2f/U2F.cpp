@@ -224,10 +224,10 @@ mozilla
 :
 :
 LazyLogModule
-gWebauthLog
+gU2FLog
 (
 "
-webauth_u2f
+u2f
 "
 )
 ;
@@ -388,7 +388,7 @@ mCount
 ;
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -436,7 +436,7 @@ mCount
 ;
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -487,7 +487,7 @@ mReentrantMonitor
 ;
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -530,7 +530,7 @@ mCount
 ;
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -2897,7 +2897,7 @@ aTokens
 {
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -3685,7 +3685,7 @@ rv
 {
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -4556,7 +4556,7 @@ EnsureNSSInitializedChromeOrContent
 {
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :
@@ -4593,7 +4593,7 @@ XRE_IsParentProcess
 {
 MOZ_LOG
 (
-gWebauthLog
+gU2FLog
 LogLevel
 :
 :

@@ -344,6 +344,9 @@ smil
 url
 '
 '
+webauthn
+'
+'
 webidl
 '
 '
