@@ -124,6 +124,12 @@ PlanarYCbCrImage
 namespace
 mozilla
 {
+using
+media
+:
+:
+TimeUnit
+;
 static
 AVPixelFormat
 ChoosePixelFormat
@@ -1907,9 +1913,6 @@ aSample
 >
 mOffset
 pts
-media
-:
-:
 TimeUnit
 :
 :
@@ -2021,9 +2024,6 @@ empty
 >
 mTimecode
 =
-media
-:
-:
 TimeUnit
 :
 :

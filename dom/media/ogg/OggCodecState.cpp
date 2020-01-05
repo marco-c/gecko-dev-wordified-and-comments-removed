@@ -127,6 +127,12 @@ gMediaDecoderLog
 type
 msg
 )
+using
+media
+:
+:
+TimeUnit
+;
 OggCodecState
 *
 OggCodecState
@@ -1369,9 +1375,6 @@ sample
 >
 mTimecode
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -1388,9 +1391,6 @@ sample
 >
 mTime
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -1406,9 +1406,6 @@ sample
 >
 mDuration
 =
-media
-:
-:
 TimeUnit
 :
 :

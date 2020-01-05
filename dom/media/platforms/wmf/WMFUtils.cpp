@@ -107,6 +107,12 @@ endif
 namespace
 mozilla
 {
+using
+media
+:
+:
+TimeUnit
+;
 HRESULT
 HNsToFrames
 (
@@ -297,9 +303,6 @@ fract
 )
 ;
 }
-media
-:
-:
 TimeUnit
 GetSampleDuration
 (
@@ -311,9 +314,6 @@ aSample
 NS_ENSURE_TRUE
 (
 aSample
-media
-:
-:
 TimeUnit
 :
 :
@@ -337,9 +337,6 @@ duration
 )
 ;
 return
-media
-:
-:
 TimeUnit
 :
 :
@@ -352,9 +349,6 @@ duration
 )
 ;
 }
-media
-:
-:
 TimeUnit
 GetSampleTime
 (
@@ -366,9 +360,6 @@ aSample
 NS_ENSURE_TRUE
 (
 aSample
-media
-:
-:
 TimeUnit
 :
 :
@@ -400,9 +391,6 @@ SUCCEEDED
 (
 hr
 )
-media
-:
-:
 TimeUnit
 :
 :
@@ -412,9 +400,6 @@ Invalid
 )
 ;
 return
-media
-:
-:
 TimeUnit
 :
 :

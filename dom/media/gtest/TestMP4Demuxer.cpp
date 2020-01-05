@@ -86,6 +86,12 @@ using
 namespace
 mp4_demuxer
 ;
+using
+media
+:
+:
+TimeUnit
+;
 class
 AutoTaskQueue
 ;
@@ -345,9 +351,6 @@ this
 auto
 time
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -2876,9 +2879,6 @@ MockAddBufferedRange
 len
 )
 ;
-media
-:
-:
 TimeUnit
 time
 ;
@@ -2958,9 +2958,6 @@ binding
 (
 )
 {
-media
-:
-:
 TimeUnit
 time
 ;
