@@ -253,6 +253,7 @@ ReentrantMonitor
 *
 (
 )
+const
 {
 return
 mReentrantMonitor
