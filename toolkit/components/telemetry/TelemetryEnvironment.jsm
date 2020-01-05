@@ -4259,6 +4259,18 @@ _updateProfile
 )
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_BUILD_APP
+=
+=
+"
+browser
+"
+)
+{
 p
 .
 push
@@ -4270,6 +4282,7 @@ _updateAttribution
 )
 )
 ;
+}
 let
 setup
 =
