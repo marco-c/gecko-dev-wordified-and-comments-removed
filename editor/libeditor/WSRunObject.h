@@ -901,13 +901,6 @@ aChar
 }
 }
 ;
-enum
-AreaRestriction
-{
-eAnywhere
-eOutsideUserSelectAll
-}
-;
 nsINode
 *
 GetWSBoundingParent
@@ -1008,10 +1001,6 @@ nsINode
 aEndNode
 int32_t
 aEndOffset
-AreaRestriction
-aAR
-=
-eAnywhere
 )
 ;
 WSPoint
@@ -1057,10 +1046,6 @@ ConvertToNBSP
 (
 WSPoint
 aPoint
-AreaRestriction
-aAR
-=
-eAnywhere
 )
 ;
 void
