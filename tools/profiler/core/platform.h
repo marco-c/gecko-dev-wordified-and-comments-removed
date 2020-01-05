@@ -910,16 +910,6 @@ Stop
 )
 ;
 bool
-IsProfiling
-(
-)
-const
-{
-return
-profiling_
-;
-}
-bool
 IsActive
 (
 )
@@ -1462,10 +1452,6 @@ sRegisteredThreads
 const
 double
 interval_
-;
-const
-bool
-profiling_
 ;
 Atomic32
 paused_
