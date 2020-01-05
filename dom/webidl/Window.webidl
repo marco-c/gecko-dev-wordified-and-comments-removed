@@ -1108,7 +1108,6 @@ WindowLocalStorage
 {
 [
 Throws
-NeedsSubjectPrincipal
 ]
 readonly
 attribute

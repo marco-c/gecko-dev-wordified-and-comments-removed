@@ -400,15 +400,7 @@ nsIDocument
 *
 GetContentDocument
 (
-const
-mozilla
-:
-:
-Maybe
-<
 nsIPrincipal
-*
->
 &
 aSubjectPrincipal
 )
