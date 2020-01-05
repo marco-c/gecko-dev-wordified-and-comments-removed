@@ -18052,12 +18052,6 @@ aCx
 aParent
 aScriptURL
 loadInfo
-.
-mChannel
-.
-StartAssignment
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -96,10 +96,9 @@ const
 nsAString
 &
 aScriptURL
-nsIChannel
-*
-*
-aChannel
+WorkerLoadInfo
+&
+aLoadInfo
 )
 ;
 void
