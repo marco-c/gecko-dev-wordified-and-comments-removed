@@ -148,9 +148,6 @@ Library
 mozglue
 '
 )
-SDK_LIBRARY
-=
-True
 if
 CONFIG
 [

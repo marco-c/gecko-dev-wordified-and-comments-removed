@@ -414,16 +414,6 @@ RESOURCE_FILES
     
 b
 '
-SDK_HEADERS
-'
-    
-b
-'
-SDK_LIBRARY
-'
-    
-b
-'
 SHARED_LIBRARY_LIBS
 '
     
@@ -2210,15 +2200,6 @@ _install_manifests
 [
 '
 dist_private
-'
-]
-        
-self
-.
-_install_manifests
-[
-'
-dist_sdk
 '
 ]
         
@@ -8283,31 +8264,6 @@ soname
 if
 libdef
 .
-is_sdk
-:
-            
-backend_file
-.
-write
-(
-'
-SDK_LIBRARY
-:
-=
-%
-s
-\
-n
-'
-%
-libdef
-.
-import_name
-)
-        
-if
-libdef
-.
 symbols_file
 :
             
@@ -8410,31 +8366,6 @@ n
 libdef
 .
 lib_name
-)
-        
-if
-libdef
-.
-is_sdk
-:
-            
-backend_file
-.
-write
-(
-'
-SDK_LIBRARY
-:
-=
-%
-s
-\
-n
-'
-%
-libdef
-.
-import_name
 )
         
 if
@@ -9306,12 +9237,6 @@ include
 dist
 /
 branding
-'
-            
-'
-dist
-/
-sdk
 '
         
 )

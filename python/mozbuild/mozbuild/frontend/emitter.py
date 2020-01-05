@@ -139,8 +139,6 @@ HostRustLibrary
     
 RustProgram
     
-SdkFiles
-    
 SharedLibrary
     
 SimpleProgram
@@ -4127,43 +4125,6 @@ context
 get
 (
 '
-SDK_LIBRARY
-'
-)
-:
-                
-if
-shared_lib
-:
-                    
-shared_args
-[
-'
-is_sdk
-'
-]
-=
-True
-                
-elif
-static_lib
-:
-                    
-static_args
-[
-'
-is_sdk
-'
-]
-=
-True
-            
-if
-context
-.
-get
-(
-'
 NO_EXPAND_LIBS
 '
 )
@@ -6679,13 +6640,6 @@ ObjdirFiles
 OBJDIR_PP_FILES
 '
 ObjdirPreprocessedFiles
-)
-            
-(
-'
-SDK_FILES
-'
-SdkFiles
 )
             
 (

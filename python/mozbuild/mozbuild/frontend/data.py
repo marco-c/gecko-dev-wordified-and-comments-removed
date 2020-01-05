@@ -2724,10 +2724,6 @@ target
 __slots__
 =
 (
-        
-'
-is_sdk
-'
     
 )
     
@@ -2740,9 +2736,6 @@ basename
 real_name
 =
 None
-is_sdk
-=
-False
 )
 :
         
@@ -2762,12 +2755,6 @@ self
 basename
 =
 basename
-        
-self
-.
-is_sdk
-=
-is_sdk
 class
 StaticLibrary
 (
@@ -2813,9 +2800,6 @@ basename
 real_name
 =
 None
-is_sdk
-=
-False
         
 link_into
 =
@@ -2834,7 +2818,6 @@ self
 context
 basename
 real_name
-is_sdk
 )
         
 self
@@ -3144,9 +3127,6 @@ basename
 real_name
 =
 None
-is_sdk
-=
-False
                  
 soname
 =
@@ -3185,7 +3165,6 @@ self
 context
 basename
 real_name
-is_sdk
 )
         
 self
@@ -5312,85 +5291,6 @@ return
 dist
 /
 branding
-'
-class
-SdkFiles
-(
-FinalTargetFiles
-)
-:
-    
-"
-"
-"
-Sandbox
-container
-object
-for
-SDK_FILES
-which
-is
-a
-    
-HierarchicalStringList
-.
-    
-We
-need
-an
-object
-derived
-from
-ContextDerived
-for
-use
-in
-the
-backend
-so
-    
-this
-object
-fills
-that
-role
-.
-It
-just
-has
-a
-reference
-to
-the
-underlying
-    
-HierarchicalStringList
-which
-is
-created
-when
-parsing
-SDK_FILES
-.
-    
-"
-"
-"
-    
-property
-    
-def
-install_target
-(
-self
-)
-:
-        
-return
-'
-dist
-/
-sdk
 '
 class
 GeneratedFile

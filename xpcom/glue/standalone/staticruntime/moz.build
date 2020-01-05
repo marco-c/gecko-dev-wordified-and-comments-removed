@@ -115,9 +115,6 @@ Library
 xpcomglue_staticruntime
 '
 )
-SDK_LIBRARY
-=
-True
 #
 create
 a

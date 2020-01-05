@@ -158,9 +158,6 @@ SHARED_LIBRARY_NAME
 '
 nss3
 '
-SDK_LIBRARY
-=
-True
 USE_LIBS
 +
 =
