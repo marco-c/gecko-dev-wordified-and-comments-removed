@@ -360,11 +360,6 @@ function
 )
 {
 var
-myself
-=
-this
-;
-var
 controlvariant
 =
 window

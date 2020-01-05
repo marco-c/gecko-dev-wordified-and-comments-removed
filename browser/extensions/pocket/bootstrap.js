@@ -1198,13 +1198,6 @@ menu
 ownerDocument
 ;
 let
-window
-=
-document
-.
-defaultView
-;
-let
 pocketEnabled
 =
 CustomizableUI
