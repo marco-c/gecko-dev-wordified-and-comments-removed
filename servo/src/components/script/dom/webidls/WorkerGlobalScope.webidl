@@ -160,8 +160,9 @@ WorkerGlobalScope
 /
 not
 obsolete
-/
-/
+[
+Throws
+]
 void
 importScripts
 (
