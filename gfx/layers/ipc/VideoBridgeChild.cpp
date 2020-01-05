@@ -236,7 +236,7 @@ aShmem
 )
 ;
 }
-void
+bool
 VideoBridgeChild
 :
 :
@@ -250,6 +250,7 @@ Shmem
 aShmem
 )
 {
+return
 PVideoBridgeChild
 :
 :

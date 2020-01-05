@@ -4719,7 +4719,7 @@ aShmem
 )
 ;
 }
-void
+bool
 CompositorBridgeChild
 :
 :
@@ -4740,8 +4740,10 @@ mCanSend
 )
 {
 return
+false
 ;
 }
+return
 PCompositorBridgeChild
 :
 :

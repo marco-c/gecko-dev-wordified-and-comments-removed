@@ -731,6 +731,9 @@ aTask
 Shmem
 *
 aShmem
+bool
+*
+aResult
 )
 ;
 public
@@ -978,7 +981,7 @@ aShmem
 override
 ;
 virtual
-void
+bool
 DeallocShmem
 (
 mozilla

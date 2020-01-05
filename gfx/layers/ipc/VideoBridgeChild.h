@@ -159,7 +159,7 @@ aShmem
 )
 override
 ;
-void
+bool
 DeallocShmem
 (
 mozilla
