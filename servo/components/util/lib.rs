@@ -114,6 +114,10 @@ string_cache
 ;
 extern
 crate
+unicode
+;
+extern
+crate
 url
 ;
 #

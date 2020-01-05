@@ -82,6 +82,10 @@ extern
 crate
 serialize
 ;
+extern
+crate
+unicode
+;
 #
 [
 phase
