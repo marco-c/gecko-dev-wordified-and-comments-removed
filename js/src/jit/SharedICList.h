@@ -128,6 +128,11 @@ GetProp_Generic
 \
 _
 (
+CacheIR_Regular
+)
+\
+_
+(
 CacheIR_Monitored
 )
 \
