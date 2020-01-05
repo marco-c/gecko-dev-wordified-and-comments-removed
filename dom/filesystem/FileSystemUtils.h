@@ -34,11 +34,13 @@ static
 bool
 IsDescendantPath
 (
-nsIFile
-*
+const
+nsAString
+&
 aPath
-nsIFile
-*
+const
+nsAString
+&
 aDescendantPath
 )
 ;

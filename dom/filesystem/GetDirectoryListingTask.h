@@ -213,6 +213,16 @@ ErrorResult
 aRv
 )
 ;
+nsresult
+GetTargetPath
+(
+nsAString
+&
+aPath
+)
+const
+override
+;
 private
 :
 GetDirectoryListingTaskParent

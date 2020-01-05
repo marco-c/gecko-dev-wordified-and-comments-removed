@@ -144,6 +144,11 @@ FileSystemRequestParent
 h
 '
 '
+FileSystemSecurity
+.
+h
+'
+'
 FileSystemTaskBase
 .
 h
@@ -180,6 +185,11 @@ cpp
 '
 '
 FileSystemRequestParent
+.
+cpp
+'
+'
+FileSystemSecurity
 .
 cpp
 '
