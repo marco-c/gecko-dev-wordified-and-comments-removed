@@ -1793,6 +1793,13 @@ cpp
 '
 basic
 /
+BasicBorderLayer
+.
+cpp
+'
+'
+basic
+/
 BasicCanvasLayer
 .
 cpp
@@ -1879,6 +1886,13 @@ cpp
 client
 /
 CanvasClient
+.
+cpp
+'
+'
+client
+/
+ClientBorderLayer
 .
 cpp
 '
