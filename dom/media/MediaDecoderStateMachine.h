@@ -1793,12 +1793,6 @@ Mirror
 <
 bool
 >
-mIsVisible
-;
-Mirror
-<
-bool
->
 mHasSuspendTaint
 ;
 Canonical
