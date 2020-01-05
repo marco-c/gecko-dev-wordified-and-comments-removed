@@ -1118,7 +1118,7 @@ fin
 char
 fout
 [
-300
+320
 ]
 ;
 int
@@ -1231,7 +1231,7 @@ fin
 d
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 len
 <
