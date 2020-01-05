@@ -652,6 +652,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -665,6 +667,7 @@ A
 >
 bool
 {
+*
 *
 self
 =
@@ -677,6 +680,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -690,6 +695,7 @@ A
 >
 bool
 {
+*
 *
 self
 !

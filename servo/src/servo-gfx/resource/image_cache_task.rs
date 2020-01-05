@@ -422,6 +422,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -509,6 +511,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -520,7 +524,10 @@ bool
 {
 return
 !
+(
+*
 self
+)
 .
 eq
 (

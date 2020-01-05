@@ -255,6 +255,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -266,6 +268,7 @@ bool
 {
 match
 (
+*
 self
 *
 other
@@ -305,6 +308,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -315,7 +320,10 @@ BreakType
 bool
 {
 !
+(
+*
 self
+)
 .
 eq
 (
@@ -1750,6 +1758,8 @@ pure
 fn
 lt
 (
+&
+self
 other
 :
 &
@@ -1771,6 +1781,8 @@ pure
 fn
 le
 (
+&
+self
 other
 :
 &
@@ -1793,6 +1805,8 @@ pure
 fn
 ge
 (
+&
+self
 other
 :
 &
@@ -1815,6 +1829,8 @@ pure
 fn
 gt
 (
+&
+self
 other
 :
 &
@@ -1842,6 +1858,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -1864,6 +1882,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &

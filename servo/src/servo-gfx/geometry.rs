@@ -234,6 +234,8 @@ pure
 fn
 lt
 (
+&
+self
 other
 :
 &
@@ -243,6 +245,7 @@ Au
 >
 bool
 {
+*
 *
 self
 <
@@ -254,6 +257,8 @@ pure
 fn
 le
 (
+&
+self
 other
 :
 &
@@ -263,6 +268,7 @@ Au
 >
 bool
 {
+*
 *
 self
 <
@@ -275,6 +281,8 @@ pure
 fn
 ge
 (
+&
+self
 other
 :
 &
@@ -284,6 +292,7 @@ Au
 >
 bool
 {
+*
 *
 self
 >
@@ -296,6 +305,8 @@ pure
 fn
 gt
 (
+&
+self
 other
 :
 &
@@ -305,6 +316,7 @@ Au
 >
 bool
 {
+*
 *
 self
 >
@@ -325,6 +337,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -334,6 +348,7 @@ Au
 >
 bool
 {
+*
 *
 self
 =
@@ -346,6 +361,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -355,6 +372,7 @@ Au
 >
 bool
 {
+*
 *
 self
 !

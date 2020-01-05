@@ -99,6 +99,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -108,9 +110,16 @@ ProgressMsg
 >
 bool
 {
+/
+/
+FIXME
+:
+Bad
+copies
 match
 (
 copy
+*
 self
 copy
 *
@@ -173,6 +182,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -184,7 +195,10 @@ bool
 {
 return
 !
+(
+*
 self
+)
 .
 eq
 (
