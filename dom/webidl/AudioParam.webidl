@@ -164,6 +164,16 @@ attribute
 float
 defaultValue
 ;
+readonly
+attribute
+float
+minValue
+;
+readonly
+attribute
+float
+maxValue
+;
 /
 /
 Parameter
