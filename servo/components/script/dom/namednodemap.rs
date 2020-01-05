@@ -413,8 +413,6 @@ Atom
 :
 from
 (
-&
-*
 local_name
 )
 )
@@ -577,8 +575,6 @@ Atom
 :
 from
 (
-&
-*
 local_name
 )
 )

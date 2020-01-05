@@ -1494,8 +1494,6 @@ Atom
 :
 from
 (
-&
-*
 url
 .
 to_string

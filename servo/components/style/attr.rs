@@ -762,8 +762,6 @@ Atom
 :
 from
 (
-&
-*
 string
 )
 ;

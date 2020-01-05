@@ -344,8 +344,6 @@ Atom
 :
 from
 (
-&
-*
 type_
 )
 init
@@ -502,8 +500,6 @@ Atom
 :
 from
 (
-&
-*
 type_
 )
 can_bubble
