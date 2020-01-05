@@ -1920,15 +1920,9 @@ override
 ;
 public
 :
-static
 void
-CreateViewForFrame
+CreateView
 (
-nsIFrame
-*
-aFrame
-bool
-aForce
 )
 ;
 static

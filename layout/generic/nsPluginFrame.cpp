@@ -680,6 +680,10 @@ mInstanceOwner
 (
 nullptr
 )
+mOuterView
+(
+nullptr
+)
 mInnerView
 (
 nullptr
@@ -866,6 +870,10 @@ Init
 aContent
 aParent
 aPrevInFlow
+)
+;
+CreateView
+(
 )
 ;
 }
