@@ -585,7 +585,6 @@ constellation_msg
 FrameType
 PipelineId
 ReferrerPolicy
-WindowSizeType
 }
 ;
 use
@@ -780,6 +779,7 @@ as
 ConstellationMsg
 TimerEventRequest
 WindowSizeData
+WindowSizeType
 }
 ;
 use

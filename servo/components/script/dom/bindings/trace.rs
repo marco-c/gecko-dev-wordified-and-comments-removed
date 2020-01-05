@@ -296,7 +296,6 @@ FrameId
 FrameType
 PipelineId
 ReferrerPolicy
-WindowSizeType
 }
 ;
 use
@@ -450,8 +449,16 @@ script_traits
 TimerEventId
 TimerSource
 TouchpadPressurePhase
+}
+;
+use
+script_traits
+:
+:
+{
 UntrustedNodeAddress
 WindowSizeData
+WindowSizeType
 }
 ;
 use

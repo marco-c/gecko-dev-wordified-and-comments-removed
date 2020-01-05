@@ -627,18 +627,7 @@ constellation_msg
 FrameType
 PipelineId
 PipelineNamespace
-}
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-{
 ReferrerPolicy
-WindowSizeType
 }
 ;
 use
@@ -810,6 +799,7 @@ TouchEventType
 TouchId
 UntrustedNodeAddress
 WindowSizeData
+WindowSizeType
 }
 ;
 use
