@@ -2040,7 +2040,7 @@ pcp
 )
 -
 >
-AboutToLoadDocumentForChild
+AboutToLoadHttpFtpWyciwygDocumentForChild
 (
 chan
 )

@@ -5723,7 +5723,7 @@ pcp
 )
 -
 >
-AboutToLoadDocumentForChild
+AboutToLoadHttpFtpWyciwygDocumentForChild
 (
 chan
 )
