@@ -8,6 +8,9 @@ use
 IFrameLoadInfo
 ;
 use
+MouseButton
+;
+use
 MouseEventType
 ;
 use
@@ -68,7 +71,6 @@ constellation_msg
 :
 {
 LoadData
-MouseButton
 SubpageId
 }
 ;

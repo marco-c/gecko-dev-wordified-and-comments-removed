@@ -36,10 +36,7 @@ time_t
 }
 ;
 use
-msg
-:
-:
-constellation_msg
+script_traits
 :
 :
 MouseButton
