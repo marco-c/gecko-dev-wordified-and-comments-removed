@@ -4504,7 +4504,7 @@ ClearAnimations
 uint64_t
 animationGeneration
 =
-GeckoRestyleManager
+RestyleManager
 :
 :
 GetAnimationGenerationForFrame
