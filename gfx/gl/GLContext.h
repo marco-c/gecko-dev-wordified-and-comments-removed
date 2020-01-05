@@ -369,6 +369,7 @@ AdrenoTM320
 AdrenoTM330
 AdrenoTM420
 Mali400MP
+Mali450MP
 SGX530
 SGX540
 Tegra
