@@ -90,8 +90,7 @@ virtual
 nsHashPropertyBag
 (
 )
-{
-}
+;
 }
 ;
 class
