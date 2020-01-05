@@ -483,7 +483,7 @@ outerHTML
 }
 ;
 /
-*
+/
 Element
 implements
 ChildNode
@@ -492,5 +492,3 @@ Element
 implements
 ParentNode
 ;
-*
-/

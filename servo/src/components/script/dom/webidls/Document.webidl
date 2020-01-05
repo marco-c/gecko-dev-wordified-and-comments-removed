@@ -460,3 +460,7 @@ applets
 ;
 }
 ;
+Document
+implements
+ParentNode
+;

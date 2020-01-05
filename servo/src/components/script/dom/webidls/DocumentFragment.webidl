@@ -119,3 +119,7 @@ Node
 {
 }
 ;
+DocumentFragment
+implements
+ParentNode
+;
