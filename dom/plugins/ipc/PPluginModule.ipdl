@@ -955,7 +955,7 @@ uint64_t
 aCallbackId
 )
 ;
-sync
+intr
 GetKeyState
 (
 int32_t
