@@ -60,6 +60,7 @@ image_cache_task
 :
 {
 ImageCacheTask
+ImageCacheTaskClient
 ImageResponseMsg
 Msg
 }

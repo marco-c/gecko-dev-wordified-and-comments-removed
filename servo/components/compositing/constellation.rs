@@ -167,15 +167,6 @@ Failure
 }
 ;
 use
-net
-:
-:
-image_cache_task
-:
-:
-ImageCacheTaskClient
-;
-use
 net_traits
 :
 :
@@ -191,7 +182,10 @@ net_traits
 image_cache_task
 :
 :
+{
 ImageCacheTask
+ImageCacheTaskClient
+}
 ;
 use
 net_traits
