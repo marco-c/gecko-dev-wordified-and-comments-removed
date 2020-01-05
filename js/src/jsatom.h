@@ -310,6 +310,7 @@ nogc
 HashNumber
 hash
 ;
+MOZ_ALWAYS_INLINE
 Lookup
 (
 const
@@ -349,6 +350,7 @@ length
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 Lookup
 (
 const
@@ -420,7 +422,7 @@ hash
 ;
 }
 static
-inline
+MOZ_ALWAYS_INLINE
 bool
 match
 (
@@ -500,6 +502,7 @@ mSet
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 AtomSet
 :
 :
