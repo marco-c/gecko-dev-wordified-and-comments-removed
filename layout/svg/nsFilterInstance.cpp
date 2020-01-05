@@ -1514,7 +1514,6 @@ mTargetContent
 mMetrics
 mTargetBBox
 mUserSpaceToFilterSpaceScale
-mFilterSpaceToUserSpaceScale
 )
 ;
 if
