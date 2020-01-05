@@ -90,7 +90,6 @@ split
 )
 ;
 }
-;
 let
 non_private_browser
 =

@@ -232,7 +232,6 @@ false
 )
 ;
 }
-;
 yield
 PlacesTestUtils
 .

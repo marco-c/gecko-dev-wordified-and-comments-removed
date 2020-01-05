@@ -216,7 +216,6 @@ testURI
 )
 ;
 }
-;
 function
 openPrivateBrowsingModeByUI
 (
@@ -329,7 +328,6 @@ cmd
 )
 ;
 }
-;
 function
 testOnWindow
 (
@@ -368,7 +366,6 @@ aWin
 )
 ;
 }
-;
 registerCleanupFunction
 (
 function
