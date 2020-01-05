@@ -418,8 +418,8 @@ ErrorObject
 createProto
 nullptr
 nullptr
-exception_methods
-exception_properties
+nullptr
+nullptr
 nullptr
 JSProto_Error
 }
