@@ -1,0 +1,12 @@
+SpecialPowers
+.
+Cu
+.
+getJSTestingFunctions
+(
+)
+.
+enableForEach
+(
+)
+;
