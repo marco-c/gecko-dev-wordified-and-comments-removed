@@ -406,7 +406,7 @@ Cell
 :
 new
 (
-true
+false
 )
 bubbles
 :
