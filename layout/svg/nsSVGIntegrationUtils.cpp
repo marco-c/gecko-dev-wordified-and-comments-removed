@@ -385,11 +385,6 @@ RestyleManager
 )
 -
 >
-AsGecko
-(
-)
--
->
 IsInStyleRefresh
 (
 )

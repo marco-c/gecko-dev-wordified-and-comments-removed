@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -263,7 +263,8 @@ public
 mozilla
 :
 :
-RestyleManagerHandle
+RestyleManager
+*
 RestyleManager
 (
 )

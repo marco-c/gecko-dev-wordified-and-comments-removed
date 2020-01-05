@@ -382,7 +382,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -391,7 +391,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -4455,7 +4455,8 @@ nsRuleWalker
 aRuleWalker
 )
 {
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 aRuleWalker

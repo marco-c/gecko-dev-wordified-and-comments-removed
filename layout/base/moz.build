@@ -452,12 +452,7 @@ RestyleManager
 h
 '
 '
-RestyleManagerHandle
-.
-h
-'
-'
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 '
