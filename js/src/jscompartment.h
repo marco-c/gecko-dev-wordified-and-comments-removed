@@ -3334,6 +3334,15 @@ MutableHandleObject
 templateObj
 )
 ;
+JSObject
+*
+getExistingTemplateLiteralObject
+(
+JSObject
+*
+rawStrings
+)
+;
 void
 findOutgoingEdges
 (
