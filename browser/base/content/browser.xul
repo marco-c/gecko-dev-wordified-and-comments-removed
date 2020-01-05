@@ -2686,7 +2686,6 @@ providers
 class
 =
 "
-toolbarbutton
 share
 -
 provider
@@ -2776,7 +2775,6 @@ provider
 class
 =
 "
-toolbarbutton
 share
 -
 provider
