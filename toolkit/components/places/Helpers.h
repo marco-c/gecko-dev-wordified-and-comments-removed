@@ -436,11 +436,6 @@ mCallingThread
 ;
 }
 ;
-void
-ForceWALCheckpoint
-(
-)
-;
 bool
 GetHiddenState
 (

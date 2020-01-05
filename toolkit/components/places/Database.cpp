@@ -4887,10 +4887,6 @@ rv
 rv
 )
 ;
-ForceWALCheckpoint
-(
-)
-;
 return
 NS_OK
 ;
