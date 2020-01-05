@@ -871,6 +871,11 @@ if
 buf
 )
 {
+va_end
+(
+ap
+)
+;
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
@@ -888,6 +893,11 @@ buf
 JS_smprintf_free
 (
 buf
+)
+;
+va_end
+(
+ap
 )
 ;
 return
@@ -935,6 +945,11 @@ if
 buf
 )
 {
+va_end
+(
+ap
+)
+;
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
@@ -944,6 +959,11 @@ helper
 reportErrorAfterPop
 (
 buf
+)
+;
+va_end
+(
+ap
 )
 ;
 return
