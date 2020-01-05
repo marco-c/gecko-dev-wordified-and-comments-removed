@@ -516,9 +516,7 @@ aOriginPrincipal
 public
 :
 bool
-operator
-=
-=
+Equals
 (
 const
 URLValueData
