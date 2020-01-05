@@ -2637,11 +2637,6 @@ SVGZoomEvent
 webidl
 '
 '
-SystemUpdate
-.
-webidl
-'
-'
 TCPServerSocket
 .
 webidl
