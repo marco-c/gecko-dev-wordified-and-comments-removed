@@ -416,9 +416,6 @@ Applications
 /
 '
 endif
-INSTALL_SDK
-=
-1
 include
 (
 topsrcdir
