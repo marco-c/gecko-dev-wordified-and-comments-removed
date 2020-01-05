@@ -70,7 +70,11 @@ Callback
 aCallback
 void
 *
-aData
+aCallbackData
+const
+nsACString
+&
+aCallbackName
 uint32_t
 aInitialDelay
 =
@@ -121,6 +125,9 @@ mCallback
 void
 *
 mCallbackData
+;
+nsCString
+mCallbackName
 ;
 nsCOMPtr
 <
