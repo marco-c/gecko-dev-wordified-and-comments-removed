@@ -2892,6 +2892,7 @@ line
 .
 startswith
 (
+b
 "
 +
 "
@@ -2902,6 +2903,7 @@ line
 .
 startswith
 (
+b
 "
 +
 +
