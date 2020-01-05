@@ -2522,7 +2522,7 @@ output_file
 None
 max_session_history
 :
-16
+20
 replace_surrogates
 :
 false
@@ -3412,7 +3412,7 @@ tab
 .
 "
 "
-16
+20
 "
 )
 ;
@@ -5126,7 +5126,7 @@ err
 .
 unwrap_or
 (
-16
+20
 )
 ;
 if
