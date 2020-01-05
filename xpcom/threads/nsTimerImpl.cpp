@@ -1641,6 +1641,12 @@ oldDelay
 TimeStamp
 oldTimeout
 ;
+nsCOMPtr
+<
+nsITimer
+>
+kungFuDeathGrip
+;
 {
 MutexAutoLock
 lock
@@ -1677,6 +1683,10 @@ mDelay
 oldTimeout
 =
 mTimeout
+;
+kungFuDeathGrip
+=
+mITimer
 ;
 }
 PROFILER_LABEL
