@@ -17633,6 +17633,11 @@ SFTK_MAX_PIN
 return
 CKR_PIN_LEN_RANGE
 ;
+if
+(
+ulPinLen
+)
+{
 PORT_Memcpy
 (
 pinStr
@@ -17640,6 +17645,7 @@ pPin
 ulPinLen
 )
 ;
+}
 pinStr
 [
 ulPinLen

@@ -311,6 +311,7 @@ pqrstuvwxyz
 void
 ssl_PrintBuf
 (
+const
 sslSocket
 *
 ss
@@ -668,6 +669,7 @@ ssl_trace_iob
 void
 ssl_PrintKey
 (
+const
 sslSocket
 *
 ss

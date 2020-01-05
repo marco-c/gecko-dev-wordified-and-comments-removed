@@ -320,6 +320,7 @@ count
 PRBool
 secmod_MatchConfigList
 (
+const
 char
 *
 spec
@@ -328,6 +329,18 @@ SECMODConfigList
 conflist
 int
 count
+)
+;
+CK_SLOT_ID
+secmod_GetSlotIDFromModuleSpec
+(
+const
+char
+*
+moduleSpec
+SECMODModule
+*
+module
 )
 ;
 void
@@ -486,6 +499,7 @@ id
 v
 l
 )
+\
 (
 x
 )
@@ -509,6 +523,7 @@ pValue
 v
 )
 ;
+\
 (
 x
 )
