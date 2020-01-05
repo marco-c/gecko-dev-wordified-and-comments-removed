@@ -4241,7 +4241,7 @@ or
 show
 this
 component
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -4251,7 +4251,7 @@ bool
 aState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4321,10 +4321,7 @@ mVisible
 aState
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -4633,7 +4630,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -4681,7 +4678,7 @@ cursor
 on
 the
 mac
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -4691,7 +4688,7 @@ nsCursor
 aCursor
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4701,7 +4698,6 @@ isDragInProgress
 ]
 )
 return
-NS_OK
 ;
 /
 /
@@ -4722,7 +4718,6 @@ SetCursor
 aCursor
 )
 ;
-return
 [
 [
 nsCursorManager
@@ -4733,7 +4728,7 @@ setCursor
 aCursor
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -4747,7 +4742,7 @@ virtual
 function
 "
 warning
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -6621,7 +6616,7 @@ and
 event
 handling
 .
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -6796,7 +6791,7 @@ and
 event
 handling
 .
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -7120,7 +7115,7 @@ component
 s
 visible
 area
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -7132,7 +7127,7 @@ LayoutDeviceIntRect
 aRect
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -7144,7 +7139,6 @@ mView
 mVisible
 )
 return
-NS_OK
 ;
 NS_ASSERTION
 (
@@ -7239,10 +7233,7 @@ aRect
 ]
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 bool
@@ -7448,7 +7439,7 @@ on
 Event
 Listener
 object
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -8725,7 +8716,7 @@ LayoutDeviceIntPoint
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -9238,10 +9229,7 @@ mPluginFocused
 aFocused
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsChildView
 :
 :
@@ -9438,10 +9426,7 @@ implemented
 ;
 }
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsChildView
 :
 :
@@ -9535,11 +9520,8 @@ return
 mInputContext
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsChildView
 :
 :
@@ -9759,10 +9741,7 @@ aCallbackData
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsChildView
 :
 :
@@ -35488,7 +35467,7 @@ command
 mIsEnabled
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :

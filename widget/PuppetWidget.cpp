@@ -884,7 +884,7 @@ mTabChild
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -969,9 +969,6 @@ mBounds
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 PuppetWidget
@@ -1334,7 +1331,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :
@@ -1365,7 +1362,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -1399,7 +1396,6 @@ if
 mChild
 )
 {
-return
 mChild
 -
 >
@@ -1407,6 +1403,8 @@ Invalidate
 (
 aRect
 )
+;
+return
 ;
 }
 mDirtyRegion
@@ -1443,7 +1441,6 @@ PaintTask
 this
 )
 ;
-return
 NS_DispatchToCurrentThread
 (
 mPaintTask
@@ -1453,10 +1450,9 @@ get
 )
 )
 ;
-}
 return
-NS_OK
 ;
+}
 }
 void
 PuppetWidget
@@ -1512,7 +1508,7 @@ PR_Now
 1000
 ;
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :
@@ -2396,10 +2392,7 @@ AsyncPanZoomEnabled
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 PuppetWidget
 :
 :
@@ -3148,10 +3141,7 @@ aEvent
 )
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 PuppetWidget
 :
 :
@@ -3255,10 +3245,7 @@ mFocusChange
 )
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 PuppetWidget
 :
 :
@@ -3386,10 +3373,7 @@ return
 context
 ;
 }
-NS_IMETHODIMP_
-(
 NativeIMEContext
-)
 PuppetWidget
 :
 :
@@ -4105,7 +4089,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -4139,7 +4123,6 @@ mUpdateCursor
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -4165,7 +4148,6 @@ mUpdateCursor
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 mCursor
@@ -4176,11 +4158,8 @@ mUpdateCursor
 =
 false
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :

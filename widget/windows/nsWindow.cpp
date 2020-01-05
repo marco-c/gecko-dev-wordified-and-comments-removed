@@ -5429,7 +5429,7 @@ surface
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5948,9 +5948,6 @@ mWnd
 }
 #
 endif
-return
-NS_OK
-;
 }
 bool
 nsWindow
@@ -8481,7 +8478,7 @@ GA_ROOT
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -10226,7 +10223,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -10707,7 +10704,7 @@ mBrush
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -11317,11 +11314,8 @@ nullptr
 ;
 }
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -12179,7 +12173,7 @@ exStyle
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -12200,7 +12194,6 @@ mWnd
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -12273,11 +12266,8 @@ flags
 )
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -12371,9 +12361,6 @@ FALSE
 )
 ;
 }
-return
-NS_OK
-;
 }
 static
 LRESULT
@@ -13839,7 +13826,7 @@ break
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -15753,7 +15740,7 @@ messageTime
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -28538,10 +28525,7 @@ ResetLayout
 )
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -28577,10 +28561,7 @@ mInputContext
 newInputContext
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsWindow
 :
 :
@@ -28666,11 +28647,8 @@ GetUpdatePreference
 )
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsWindow
 :
 :
