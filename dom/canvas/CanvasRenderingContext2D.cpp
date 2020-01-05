@@ -5326,7 +5326,7 @@ parentContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 mCanvasElement
 nullptr
@@ -8513,7 +8513,7 @@ canvasStyle
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 mCanvasElement
 nullptr
@@ -11841,7 +11841,7 @@ result
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 aElement
 nullptr
@@ -19560,7 +19560,7 @@ canvasStyle
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 mCanvasElement
 nullptr

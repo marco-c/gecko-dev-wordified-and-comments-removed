@@ -11352,7 +11352,7 @@ styleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 aElement
 nullptr
@@ -12709,7 +12709,7 @@ shell
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 element
 nullptr

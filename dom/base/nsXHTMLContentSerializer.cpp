@@ -4001,7 +4001,7 @@ styleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 aNode
 -

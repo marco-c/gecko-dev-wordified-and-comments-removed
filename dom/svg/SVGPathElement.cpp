@@ -1388,7 +1388,7 @@ styleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 this
 nullptr

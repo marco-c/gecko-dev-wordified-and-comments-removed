@@ -1718,7 +1718,7 @@ styleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 aTargetElement
 nullptr

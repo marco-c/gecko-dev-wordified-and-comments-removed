@@ -74,7 +74,7 @@ mStyleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 aElement
 nullptr

@@ -13430,7 +13430,7 @@ sc
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 elementsToCheck
 [
