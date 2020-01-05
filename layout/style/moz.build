@@ -767,6 +767,11 @@ CSSRuleList
 h
 '
 '
+CSSSupportsRule
+.
+h
+'
+'
 CSSValue
 .
 h
@@ -902,6 +907,11 @@ cpp
 '
 '
 CSSStyleSheet
+.
+cpp
+'
+'
+CSSSupportsRule
 .
 cpp
 '
