@@ -964,13 +964,6 @@ GeckoProfiler
 .
 h
 '
-'
-public
-/
-GeckoProfilerTypes
-.
-h
-'
 ]
 if
 CONFIG
