@@ -6665,6 +6665,8 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+bool
+aUninitialized
 )
 {
 BackendType
@@ -6743,6 +6745,7 @@ aData
 aSize
 aStride
 aFormat
+aUninitialized
 )
 ;
 return

@@ -650,9 +650,9 @@ pref_complex
 "
 browser
 .
-menu
+startup
 .
-showCharacterEncoding
+homepage
 "
         
 properties_file
@@ -662,11 +662,11 @@ chrome
 :
 /
 /
-browser
+branding
 /
 locale
 /
-browser
+browserconfig
 .
 properties
 "
