@@ -161,6 +161,10 @@ mRegistered
 (
 false
 )
+mHasPendingLinkUpdate
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -198,6 +202,10 @@ mNeedsRegistration
 false
 )
 mRegistered
+(
+false
+)
+mHasPendingLinkUpdate
 (
 false
 )
