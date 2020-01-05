@@ -335,6 +335,7 @@ layout_interface
 {
 ScriptLayoutChan
 LayoutChan
+NoQuery
 ReflowForDisplay
 }
 ;
@@ -5942,7 +5943,6 @@ window
 .
 flush_layout
 (
-ReflowForDisplay
 )
 ;
 {
@@ -6485,6 +6485,7 @@ clone
 self
 .
 compositor
+NoQuery
 )
 ;
 }
@@ -7259,7 +7260,6 @@ window
 .
 flush_layout
 (
-ReflowForDisplay
 )
 ;
 }
