@@ -839,6 +839,11 @@ firstFrameSetting
 let
 secondFrameSetting
 ;
+requestLongerTimeout
+(
+3
+)
+;
 if
 (
 typeof
