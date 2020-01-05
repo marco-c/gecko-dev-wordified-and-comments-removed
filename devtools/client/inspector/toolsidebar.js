@@ -286,13 +286,6 @@ sidebar
 Tabbar
 (
 {
-toolbox
-:
-this
-.
-_toolPanel
-.
-_toolbox
 showAllTabsMenu
 :
 true

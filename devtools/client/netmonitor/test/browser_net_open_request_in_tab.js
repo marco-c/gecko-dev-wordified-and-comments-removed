@@ -187,9 +187,11 @@ false
 ;
 monitor
 .
-toolbox
+panelWin
 .
-doc
+parent
+.
+document
 .
 querySelector
 (

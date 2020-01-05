@@ -73,6 +73,7 @@ marker
 name
 =
 =
+=
 "
 document
 :
@@ -84,6 +85,7 @@ DOMContentLoaded
 state
 .
 firstDocumentDOMContentLoadedTimestamp
+=
 =
 =
 -
@@ -117,6 +119,7 @@ marker
 name
 =
 =
+=
 "
 document
 :
@@ -128,6 +131,7 @@ Load
 state
 .
 firstDocumentLoadTimestamp
+=
 =
 =
 -

@@ -148,9 +148,11 @@ setup
 {
 monitor
 .
-toolbox
+panelWin
 .
-doc
+parent
+.
+document
 .
 querySelector
 (

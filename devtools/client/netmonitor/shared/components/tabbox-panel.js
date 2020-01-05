@@ -413,7 +413,6 @@ activeTabId
 cloneSelectedRequest
 request
 selectTab
-toolbox
 }
 )
 {
@@ -442,7 +441,6 @@ true
 showAllTabsMenu
 :
 true
-toolbox
 }
 TabPanel
 (
@@ -641,13 +639,6 @@ selectTab
 PropTypes
 .
 func
-.
-isRequired
-toolbox
-:
-PropTypes
-.
-object
 .
 isRequired
 }

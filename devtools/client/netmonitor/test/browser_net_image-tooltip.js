@@ -110,9 +110,11 @@ toolboxDoc
 =
 monitor
 .
-toolbox
+panelWin
 .
-doc
+parent
+.
+document
 ;
 gStore
 .

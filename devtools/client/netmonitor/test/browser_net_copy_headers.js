@@ -317,9 +317,11 @@ setup
 {
 monitor
 .
-toolbox
+panelWin
 .
-doc
+parent
+.
+document
 .
 querySelector
 (
@@ -522,9 +524,11 @@ setup
 {
 monitor
 .
-toolbox
+panelWin
 .
-doc
+parent
+.
+document
 .
 querySelector
 (

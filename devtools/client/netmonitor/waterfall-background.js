@@ -97,15 +97,8 @@ timingMarkers
 function
 WaterfallBackground
 (
-document
 )
 {
-this
-.
-document
-=
-document
-;
 this
 .
 canvas
@@ -200,6 +193,7 @@ state
 waterfallWidth
 =
 =
+=
 null
 |
 |
@@ -208,11 +202,10 @@ state
 scale
 =
 =
+=
 null
 )
 {
-this
-.
 document
 .
 mozSetImageElement
@@ -354,8 +347,6 @@ isRTL
 =
 isDocumentRTL
 (
-this
-.
 document
 )
 ;
@@ -513,6 +504,7 @@ if
 timestamp
 =
 =
+=
 -
 1
 )
@@ -585,8 +577,6 @@ imageData
 0
 )
 ;
-this
-.
 document
 .
 mozSetImageElement
@@ -606,8 +596,6 @@ destroy
 (
 )
 {
-this
-.
 document
 .
 mozSetImageElement
