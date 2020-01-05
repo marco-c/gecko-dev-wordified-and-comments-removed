@@ -175,6 +175,7 @@ sSingleton
 >
 Shutdown
 (
+true
 )
 ;
 sSingleton

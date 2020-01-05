@@ -309,6 +309,8 @@ aNeedValidation
 void
 Shutdown
 (
+bool
+aXPCOMShutdown
 )
 ;
 enum
