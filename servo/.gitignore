@@ -162,3 +162,11 @@ codegen
 UnionConversions
 .
 h
+src
+/
+test
+/
+wpt
+/
+metadata
+/
