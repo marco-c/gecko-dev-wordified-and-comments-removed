@@ -5342,15 +5342,6 @@ tablespacing
 .
 html
 fails
-asserts
--
-if
-(
-stylo
-0
--
-2
-)
 =
 =
 tablespacing
@@ -5363,9 +5354,6 @@ tablespacing
 5
 .
 html
-#
-bug
-1324661
 fails
 =
 =
