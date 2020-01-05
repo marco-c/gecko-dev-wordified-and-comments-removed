@@ -354,11 +354,11 @@ override
 protected
 :
 void
-ReflowBarFrame
+ReflowChildFrame
 (
 nsIFrame
 *
-aBarFrame
+aChild
 nsPresContext
 *
 aPresContext
