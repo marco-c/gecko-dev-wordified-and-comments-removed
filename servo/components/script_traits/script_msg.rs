@@ -214,16 +214,6 @@ Deserialize
 Serialize
 )
 ]
-#
-[
-serde
-(
-bound
-=
-"
-"
-)
-]
 pub
 enum
 ScriptMsg
