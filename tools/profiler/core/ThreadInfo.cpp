@@ -202,15 +202,9 @@ MOZ_COUNT_DTOR
 ThreadInfo
 )
 ;
-if
-(
-mPendingDelete
-)
-{
 delete
 mPseudoStack
 ;
-}
 }
 void
 ThreadInfo
