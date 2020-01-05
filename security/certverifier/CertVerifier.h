@@ -301,6 +301,12 @@ SECItem
 sctsFromTLS
 =
 nullptr
+const
+char
+*
+firstPartyDomain
+=
+nullptr
 SECOidTag
 *
 evOidPolicy
@@ -380,6 +386,12 @@ Flags
 flags
 =
 0
+const
+char
+*
+firstPartyDomain
+=
+nullptr
 SECOidTag
 *
 evOidPolicy

@@ -234,6 +234,10 @@ SHA1Mode
 sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
+const
+char
+*
+firstPartyDomain
 UniqueCERTCertList
 &
 builtChain
@@ -776,6 +780,11 @@ mSHA1Mode
 ;
 NetscapeStepUpPolicy
 mNetscapeStepUpPolicy
+;
+const
+char
+*
+mFirstPartyDomain
 ;
 UniqueCERTCertList
 &

@@ -1674,6 +1674,10 @@ const
 SECItem
 *
 sctsFromTLSSECItem
+const
+char
+*
+firstPartyDomain
 SECOidTag
 *
 evOidPolicy
@@ -2088,6 +2092,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -2333,6 +2338,7 @@ sha1ModeConfigurations
 i
 ]
 mNetscapeStepUpPolicy
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -2686,6 +2692,7 @@ sha1ModeConfigurations
 j
 ]
 mNetscapeStepUpPolicy
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -2927,6 +2934,7 @@ SHA1Mode
 :
 Allowed
 mNetscapeStepUpPolicy
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -2988,6 +2996,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3087,6 +3096,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3186,6 +3196,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3325,6 +3336,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3381,6 +3393,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3437,6 +3450,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3524,6 +3538,10 @@ bool
 saveIntermediatesInPermanentDatabase
 Flags
 flags
+const
+char
+*
+firstPartyDomain
 SECOidTag
 *
 evOidPolicy
@@ -3611,6 +3629,7 @@ builtChain
 flags
 stapledOCSPResponse
 sctsFromTLS
+firstPartyDomain
 evOidPolicy
 ocspStaplingStatus
 keySizeStatus
