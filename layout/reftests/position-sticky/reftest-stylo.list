@@ -604,6 +604,15 @@ if
 !
 asyncPan
 )
+fails
+-
+if
+(
+stylo
+&
+&
+browserIsRemote
+)
 =
 =
 inline
