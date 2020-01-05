@@ -1548,6 +1548,9 @@ mPeerAddr
 bool
 m0RTTInProgress
 ;
+nsresult
+mTransportStatus
+;
 }
 ;
 }
