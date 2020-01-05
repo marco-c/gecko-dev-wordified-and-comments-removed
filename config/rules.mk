@@ -6872,6 +6872,8 @@ force
 -
 cargo
 -
+library
+-
 build
 :
 (
@@ -6893,6 +6895,9 @@ RUSTC
 CARGO
 )
 build
+-
+-
+lib
 (
 cargo_build_flags
 )
@@ -6906,10 +6911,12 @@ force
 -
 cargo
 -
+library
+-
 build
 endif
 #
-CARGO_FILE
+RUST_LIBRARY_FILE
 endif
 #
 MOZ_RUST
