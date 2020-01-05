@@ -49,3 +49,5 @@ unset
 CARGO
 unset
 MAKECAB
+unset
+TOOLCHAIN_PREFIX
