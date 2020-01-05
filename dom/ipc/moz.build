@@ -101,16 +101,6 @@ XPIDL_MODULE
 dom
 '
 EXPORTS
-+
-=
-[
-'
-nsICachedFileDescriptorListener
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 .
