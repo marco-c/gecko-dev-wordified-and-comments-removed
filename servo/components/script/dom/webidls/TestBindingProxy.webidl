@@ -164,6 +164,12 @@ TestBindingProxy
 :
 TestBinding
 {
+readonly
+attribute
+unsigned
+long
+length
+;
 getter
 DOMString
 getNamedItem
