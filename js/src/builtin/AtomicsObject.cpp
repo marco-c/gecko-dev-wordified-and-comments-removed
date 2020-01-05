@@ -5851,6 +5851,15 @@ state_
 WaitingInterrupted
 )
 {
+UnlockGuard
+<
+Mutex
+>
+unlock
+(
+locked
+)
+;
 JS_ReportErrorNumberASCII
 (
 cx
