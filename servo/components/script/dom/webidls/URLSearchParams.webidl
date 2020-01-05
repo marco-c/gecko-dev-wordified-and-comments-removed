@@ -166,8 +166,6 @@ USVString
 name
 )
 ;
-/
-/
 sequence
 <
 USVString
