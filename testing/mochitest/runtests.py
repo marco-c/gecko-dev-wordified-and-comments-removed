@@ -668,7 +668,6 @@ a
 valid
 structured
 message
-        
 (
 only
 does
@@ -896,7 +895,6 @@ or
 not
 )
 and
-        
 returns
 a
 list
@@ -2237,6 +2235,8 @@ e
 "
             
 "
+"
+"
 const
 _PROFILE_PATH
 =
@@ -2259,9 +2259,6 @@ port
 s
 '
 ;
-"
-            
-"
 const
 _SERVER_ADDR
 =
@@ -2282,9 +2279,6 @@ testPrefix
 )
 s
 ;
-"
-            
-"
 const
 _DISPLAY_RESULTS
 =
@@ -2294,6 +2288,8 @@ displayResults
 )
 s
 ;
+"
+"
 "
 %
 {
@@ -6280,15 +6276,6 @@ chrome
 "
 "
 "
-/
-*
-set
-default
-namespace
-to
-XUL
-*
-/
 namespace
 url
 (
@@ -6317,6 +6304,15 @@ xul
 "
 )
 ;
+/
+*
+set
+default
+namespace
+to
+XUL
+*
+/
 toolbar
 toolbarpalette
 {
@@ -7655,12 +7651,10 @@ False
 )
         
 elif
-(
 options
 .
 manifestFile
 and
-                
 os
 .
 path
@@ -7677,7 +7671,6 @@ SCRIPT_DIR
 options
 .
 manifestFile
-)
 )
 )
 :
@@ -8655,6 +8648,7 @@ marionette
 execute_script
 (
 script
+                
 script_args
 =
 self
@@ -12656,6 +12650,7 @@ log
 .
 info
 (
+                    
 "
 TEST
 -
@@ -12667,9 +12662,6 @@ zombiecheck
 |
 child
 process
-"
-                              
-"
 %
 d
 still
@@ -12678,6 +12670,7 @@ after
 shutdown
 "
 %
+                    
 processPID
 )
                 
@@ -12801,7 +12794,6 @@ seconds
 or
 outputs
 nothing
-        
 for
 |
 timeout
@@ -12909,7 +12901,6 @@ suppressions
 =
 "
 +
-                                           
 path
 for
 path
@@ -14314,6 +14305,7 @@ log
 .
 info
 (
+                        
 "
 TEST
 -
@@ -14326,9 +14318,6 @@ Bisection
 Please
 ignore
 repeats
-"
-                                  
-"
 and
 look
 for
@@ -14343,9 +14332,6 @@ at
 the
 end
 of
-"
-                                  
-"
 the
 failure
 list
@@ -15229,7 +15215,6 @@ log
 .
 format
 (
-                
 self
 .
 browserEnv
@@ -15920,7 +15905,6 @@ timeout
         
 error_message
 =
-(
 "
 TEST
 -
@@ -15935,9 +15919,6 @@ application
 timed
 out
 after
-"
-                         
-"
 %
 d
 seconds
@@ -15945,9 +15926,9 @@ with
 no
 output
 "
-)
 %
 (
+            
 self
 .
 lastTestSeen
@@ -16000,6 +15981,7 @@ es
 .
 "
 )
+;
         
 browser_pid
 =
