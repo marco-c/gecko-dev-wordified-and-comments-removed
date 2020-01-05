@@ -2651,7 +2651,13 @@ is_null
 {
 unsafe
 {
-report_pending_exception
+let
+_ac
+=
+JSAutoCompartment
+:
+:
+new
 (
 cx
 self
@@ -2667,6 +2673,11 @@ get_jsobject
 get
 (
 )
+)
+;
+report_pending_exception
+(
+cx
 )
 ;
 }

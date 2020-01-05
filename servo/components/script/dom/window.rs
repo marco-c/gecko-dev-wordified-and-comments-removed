@@ -7639,11 +7639,6 @@ string
 report_pending_exception
 (
 cx
-globalhandle
-.
-get
-(
-)
 )
 ;
 }
