@@ -111,9 +111,9 @@ i
 }
 }
 function
-addProfile
+addAddress
 (
-profile
+address
 )
 {
 return
@@ -131,10 +131,10 @@ sendAsyncMessage
 "
 FormAutofillTest
 :
-AddProfile
+AddAddress
 "
 {
-profile
+address
 }
 )
 ;
@@ -145,7 +145,7 @@ addMessageListener
 "
 FormAutofillTest
 :
-ProfileAdded
+AddressAdded
 "
 function
 onAdded
@@ -160,7 +160,7 @@ removeMessageListener
 "
 FormAutofillTest
 :
-ProfileAdded
+AddressAdded
 "
 onAdded
 )
@@ -177,7 +177,7 @@ resolve
 ;
 }
 function
-removeProfile
+removeAddress
 (
 guid
 )
@@ -197,7 +197,7 @@ sendAsyncMessage
 "
 FormAutofillTest
 :
-RemoveProfile
+RemoveAddress
 "
 {
 guid
@@ -211,7 +211,7 @@ addMessageListener
 "
 FormAutofillTest
 :
-ProfileRemoved
+AddressRemoved
 "
 function
 onDeleted
@@ -226,7 +226,7 @@ removeMessageListener
 "
 FormAutofillTest
 :
-ProfileRemoved
+AddressRemoved
 "
 onDeleted
 )
@@ -243,10 +243,10 @@ resolve
 ;
 }
 function
-updateProfile
+updateAddress
 (
 guid
-profile
+address
 )
 {
 return
@@ -264,10 +264,10 @@ sendAsyncMessage
 "
 FormAutofillTest
 :
-UpdateProfile
+UpdateAddress
 "
 {
-profile
+address
 guid
 }
 )
@@ -279,7 +279,7 @@ addMessageListener
 "
 FormAutofillTest
 :
-ProfileUpdated
+AddressUpdated
 "
 function
 onUpdated
@@ -294,7 +294,7 @@ removeMessageListener
 "
 FormAutofillTest
 :
-ProfileUpdated
+AddressUpdated
 "
 onUpdated
 )

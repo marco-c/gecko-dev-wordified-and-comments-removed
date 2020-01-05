@@ -577,7 +577,7 @@ return
 }
 this
 .
-_getProfiles
+_getAddresses
 (
 {
 info
@@ -588,7 +588,7 @@ searchString
 then
 (
 (
-profiles
+addresses
 )
 =
 >
@@ -624,7 +624,7 @@ info
 .
 fieldName
 allFieldNames
-profiles
+addresses
 {
 }
 )
@@ -666,7 +666,7 @@ forceStop
 true
 ;
 }
-_getProfiles
+_getAddresses
 (
 data
 )
@@ -678,7 +678,7 @@ log
 debug
 (
 "
-_getProfiles
+_getAddresses
 with
 data
 :
@@ -705,7 +705,7 @@ addMessageListener
 "
 FormAutofill
 :
-Profiles
+Addresses
 "
 function
 getResult
@@ -722,7 +722,7 @@ removeMessageListener
 "
 FormAutofill
 :
-Profiles
+Addresses
 "
 getResult
 )
@@ -746,7 +746,7 @@ sendAsyncMessage
 "
 FormAutofill
 :
-GetProfiles
+GetAddresses
 "
 data
 )

@@ -164,7 +164,7 @@ test
 :
 simple
 form
-profile
+address
 autofill
 <
 script
@@ -516,7 +516,7 @@ true
 function
 checkFormFilled
 (
-profile
+address
 )
 {
 let
@@ -530,7 +530,7 @@ for
 let
 prop
 in
-profile
+address
 )
 {
 let
@@ -560,7 +560,7 @@ push
 checkAutoCompleteInputFilled
 (
 element
-profile
+address
 [
 prop
 ]
@@ -577,7 +577,7 @@ push
 checkInputFilled
 (
 element
-profile
+address
 [
 prop
 ]
@@ -604,12 +604,12 @@ promises
 }
 function
 *
-setupProfileStorage
+setupAddressStorage
 (
 )
 {
 yield
-addProfile
+addAddress
 (
 MOCK_STORAGE
 [
@@ -618,7 +618,7 @@ MOCK_STORAGE
 )
 ;
 yield
-addProfile
+addAddress
 (
 MOCK_STORAGE
 [
@@ -748,7 +748,7 @@ with
 both
 history
 and
-profile
+address
 storage
 .
 add_task
@@ -760,7 +760,7 @@ check_menu_when_both_existed
 )
 {
 yield
-setupProfileStorage
+setupAddressStorage
 (
 )
 ;
@@ -792,7 +792,7 @@ MOCK_STORAGE
 .
 map
 (
-profile
+address
 =
 >
 JSON
@@ -802,12 +802,12 @@ stringify
 {
 primary
 :
-profile
+address
 .
 organization
 secondary
 :
-profile
+address
 [
 "
 street
@@ -850,7 +850,7 @@ MOCK_STORAGE
 .
 map
 (
-profile
+address
 =
 >
 JSON
@@ -860,7 +860,7 @@ stringify
 {
 primary
 :
-profile
+address
 [
 "
 street
@@ -870,7 +870,7 @@ address
 ]
 secondary
 :
-profile
+address
 .
 organization
 }
@@ -906,7 +906,7 @@ MOCK_STORAGE
 .
 map
 (
-profile
+address
 =
 >
 JSON
@@ -916,12 +916,12 @@ stringify
 {
 primary
 :
-profile
+address
 .
 tel
 secondary
 :
-profile
+address
 [
 "
 street
@@ -948,7 +948,7 @@ no
 matched
 data
 in
-profiles
+addresses
 .
 add_task
 (
@@ -996,7 +996,7 @@ US
 /
 Autofill
 the
-profile
+address
 from
 dropdown
 menu
@@ -1038,7 +1038,7 @@ MOCK_STORAGE
 .
 map
 (
-profile
+address
 =
 >
 JSON
@@ -1048,12 +1048,12 @@ stringify
 {
 primary
 :
-profile
+address
 .
 organization
 secondary
 :
-profile
+address
 [
 "
 street
@@ -1098,7 +1098,7 @@ history
 search
 after
 autofill
-profile
+address
 .
 add_task
 (
