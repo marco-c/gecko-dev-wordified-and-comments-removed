@@ -439,7 +439,7 @@ in
 "
 l10n
 -
-mozconfig
+nightly
 "
 "
 l10n
