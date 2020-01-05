@@ -2278,9 +2278,10 @@ outerDoc
 aChildDoc
 -
 >
-mParent
-=
+SetParent
+(
 outerDoc
+)
 ;
 outerDoc
 -
