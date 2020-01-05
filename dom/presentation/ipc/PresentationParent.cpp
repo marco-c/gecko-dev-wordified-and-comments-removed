@@ -309,11 +309,6 @@ PresentationParent
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-PresentationParent
-)
-;
 }
 PresentationParent
 :
@@ -323,11 +318,6 @@ PresentationParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-PresentationParent
-)
-;
 }
 bool
 PresentationParent
@@ -1673,11 +1663,6 @@ mChildId
 aContentParentId
 )
 {
-MOZ_COUNT_CTOR
-(
-PresentationRequestParent
-)
-;
 }
 PresentationRequestParent
 :
@@ -1687,11 +1672,6 @@ PresentationRequestParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-PresentationRequestParent
-)
-;
 }
 void
 PresentationRequestParent

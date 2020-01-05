@@ -828,11 +828,6 @@ SBR_DEBUG
 "
 )
 ;
-MOZ_COUNT_DTOR
-(
-SourceBufferResource
-)
-;
 }
 SourceBufferResource
 :
@@ -878,11 +873,6 @@ SBR_DEBUG
 (
 "
 "
-)
-;
-MOZ_COUNT_CTOR
-(
-SourceBufferResource
 )
 ;
 }

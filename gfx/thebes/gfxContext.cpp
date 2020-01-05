@@ -387,11 +387,6 @@ DrawTarget
 "
 ;
 }
-MOZ_COUNT_CTOR
-(
-gfxContext
-)
-;
 mStateStack
 .
 SetLength
@@ -678,11 +673,6 @@ mDT
 >
 Flush
 (
-)
-;
-MOZ_COUNT_DTOR
-(
-gfxContext
 )
 ;
 }

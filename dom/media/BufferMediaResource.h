@@ -83,11 +83,6 @@ mContentType
 aContentType
 )
 {
-MOZ_COUNT_CTOR
-(
-BufferMediaResource
-)
-;
 }
 protected
 :
@@ -97,11 +92,6 @@ BufferMediaResource
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-BufferMediaResource
-)
-;
 }
 private
 :

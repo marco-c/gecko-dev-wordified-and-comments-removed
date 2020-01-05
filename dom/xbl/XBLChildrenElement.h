@@ -583,11 +583,6 @@ mParent
 aParent
 )
 {
-MOZ_COUNT_CTOR
-(
-nsAnonymousContentList
-)
-;
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
@@ -670,11 +665,6 @@ nsAnonymousContentList
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsAnonymousContentList
-)
-;
 }
 nsCOMPtr
 <

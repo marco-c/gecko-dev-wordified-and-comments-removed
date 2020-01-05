@@ -459,11 +459,6 @@ nsStyleStructID_None
 #
 endif
 {
-MOZ_COUNT_CTOR
-(
-nsStyleContext
-)
-;
 }
 nsStyleContext
 :
@@ -864,11 +859,6 @@ nsStyleContext
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsStyleContext
-)
-;
 NS_ASSERTION
 (
 (

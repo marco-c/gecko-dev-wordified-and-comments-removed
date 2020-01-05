@@ -61,11 +61,6 @@ mData
 aData
 )
 {
-MOZ_COUNT_CTOR
-(
-MockWebBrowserPrint
-)
-;
 }
 MockWebBrowserPrint
 :
@@ -75,11 +70,6 @@ MockWebBrowserPrint
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-MockWebBrowserPrint
-)
-;
 }
 NS_IMETHODIMP
 MockWebBrowserPrint

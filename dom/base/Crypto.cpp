@@ -119,11 +119,6 @@ Crypto
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-Crypto
-)
-;
 }
 Crypto
 :
@@ -133,11 +128,6 @@ Crypto
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-Crypto
-)
-;
 }
 void
 Crypto

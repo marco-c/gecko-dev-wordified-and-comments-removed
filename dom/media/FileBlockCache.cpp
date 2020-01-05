@@ -165,11 +165,6 @@ mIsOpen
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-FileBlockCache
-)
-;
 }
 FileBlockCache
 :
@@ -242,11 +237,6 @@ nullptr
 ;
 }
 }
-MOZ_COUNT_DTOR
-(
-FileBlockCache
-)
-;
 }
 void
 FileBlockCache

@@ -2029,11 +2029,6 @@ mTelemetryReported
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-MediaDecoder
-)
-;
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -2457,11 +2452,6 @@ this
 ;
 UnpinForSeek
 (
-)
-;
-MOZ_COUNT_DTOR
-(
-MediaDecoder
 )
 ;
 }

@@ -1305,11 +1305,6 @@ PrintingParent
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-PrintingParent
-)
-;
 mPrintSettingsSvc
 =
 do_GetService
@@ -1343,11 +1338,6 @@ PrintingParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-PrintingParent
-)
-;
 }
 }
 }

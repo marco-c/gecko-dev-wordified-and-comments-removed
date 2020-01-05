@@ -465,11 +465,6 @@ GlobalNameMapEntry
 GLOBALNAME_HASHTABLE_INITIAL_LENGTH
 )
 {
-MOZ_COUNT_CTOR
-(
-nsScriptNameSpaceManager
-)
-;
 }
 nsScriptNameSpaceManager
 :
@@ -482,11 +477,6 @@ nsScriptNameSpaceManager
 UnregisterWeakMemoryReporter
 (
 this
-)
-;
-MOZ_COUNT_DTOR
-(
-nsScriptNameSpaceManager
 )
 ;
 }

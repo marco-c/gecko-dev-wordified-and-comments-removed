@@ -5338,11 +5338,6 @@ mRule
 aRule
 )
 {
-MOZ_COUNT_CTOR
-(
-DOMCSSDeclarationImpl
-)
-;
 }
 DOMCSSDeclarationImpl
 :
@@ -5363,11 +5358,6 @@ not
 called
 .
 "
-)
-;
-MOZ_COUNT_DTOR
-(
-DOMCSSDeclarationImpl
 )
 ;
 }

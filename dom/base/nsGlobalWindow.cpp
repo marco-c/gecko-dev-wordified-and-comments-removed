@@ -27490,11 +27490,6 @@ mFullscreen
 aFullscreen
 )
 {
-MOZ_COUNT_CTOR
-(
-FullscreenTransitionTask
-)
-;
 }
 NS_IMETHOD
 Run
@@ -27510,11 +27505,6 @@ FullscreenTransitionTask
 )
 override
 {
-MOZ_COUNT_DTOR
-(
-FullscreenTransitionTask
-)
-;
 }
 enum
 Stage
