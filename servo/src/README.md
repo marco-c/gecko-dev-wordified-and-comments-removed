@@ -410,7 +410,7 @@ available
 #
 Platform
 -
-specfic
+specific
 bindings
 #
 #
