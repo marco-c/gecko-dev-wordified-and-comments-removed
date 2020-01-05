@@ -18,6 +18,10 @@ extern
 crate
 gleam
 ;
+extern
+crate
+fnv
+;
 #
 [
 cfg
