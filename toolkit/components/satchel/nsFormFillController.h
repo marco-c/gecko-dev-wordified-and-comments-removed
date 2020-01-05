@@ -127,9 +127,6 @@ class
 nsPIDOMWindowOuter
 ;
 class
-nsIFormControl
-;
-class
 nsFormFillController
 final
 :
@@ -335,14 +332,6 @@ nsIDOMEvent
 aEvent
 )
 ;
-void
-FocusEventDelayedCallback
-(
-nsIFormControl
-*
-formControl
-)
-;
 nsCOMPtr
 <
 nsIAutoCompleteController
@@ -429,7 +418,7 @@ bool
 mAutofillInputs
 ;
 uint16_t
-mFocusAfterContextMenuThreshold
+mFocusAfterRightClickThreshold
 ;
 uint32_t
 mTimeout
@@ -444,7 +433,7 @@ mozilla
 :
 :
 TimeStamp
-mLastContextMenuEventTimeStamp
+mLastRightClickTimeStamp
 ;
 bool
 mDisableAutoComplete
