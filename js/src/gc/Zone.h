@@ -1249,7 +1249,7 @@ isOnList
 js
 :
 :
-ZoneGroupData
+ZoneGroupOrGCTaskData
 <
 js
 :
