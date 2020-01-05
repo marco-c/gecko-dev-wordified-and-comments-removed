@@ -21,6 +21,9 @@ expiration_offset
 uint32_t
 dataset
 ;
+bool
+keyed
+;
 const
 char
 *

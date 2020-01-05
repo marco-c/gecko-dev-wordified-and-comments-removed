@@ -613,6 +613,12 @@ release_channel_collection
 '
 :
 basestring
+            
+'
+keyed
+'
+:
+bool
         
 }
         
@@ -1402,6 +1408,43 @@ _definition
 kind
 '
 ]
+    
+property
+    
+def
+keyed
+(
+self
+)
+:
+        
+"
+"
+"
+Boolean
+indicating
+whether
+this
+is
+a
+keyed
+scalar
+"
+"
+"
+        
+return
+self
+.
+_definition
+.
+get
+(
+'
+keyed
+'
+False
+)
     
 property
     

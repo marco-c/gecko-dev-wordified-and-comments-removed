@@ -210,6 +210,8 @@ print
 }
 {
 }
+{
+}
 }
 }
 "
@@ -229,6 +231,18 @@ expiration_index
 scalar
 .
 dataset
+                  
+"
+true
+"
+if
+scalar
+.
+keyed
+else
+"
+false
+"
 )
           
 file
