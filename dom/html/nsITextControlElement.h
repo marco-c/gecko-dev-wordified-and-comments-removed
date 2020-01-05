@@ -267,7 +267,13 @@ CreateEditor
 ;
 NS_IMETHOD_
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 )
 GetRootEditorNode

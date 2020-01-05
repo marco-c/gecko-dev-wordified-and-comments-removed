@@ -476,7 +476,7 @@ override
 ;
 NS_IMETHOD_
 (
-nsIContent
+Element
 *
 )
 GetRootEditorNode

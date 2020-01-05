@@ -13446,7 +13446,7 @@ NS_ERROR_FAILURE
 }
 NS_IMETHODIMP_
 (
-nsIContent
+Element
 *
 )
 HTMLInputElement

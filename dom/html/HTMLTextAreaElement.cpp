@@ -1138,7 +1138,7 @@ PrepareEditor
 }
 NS_IMETHODIMP_
 (
-nsIContent
+Element
 *
 )
 HTMLTextAreaElement
