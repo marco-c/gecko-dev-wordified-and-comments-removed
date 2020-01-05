@@ -8774,10 +8774,6 @@ got_revision
 '
                                        
 rev
-[
-:
-12
-]
                                        
 write_to_file
 =
