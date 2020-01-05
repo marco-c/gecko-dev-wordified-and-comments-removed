@@ -810,7 +810,6 @@ step
 .
 For
 example
-:
 js
 document
 .
@@ -847,7 +846,6 @@ done
 )
 ;
 }
-)
 )
 ;
 As
@@ -898,7 +896,6 @@ true
 )
 ;
 }
-)
 )
 ;
 For
@@ -1347,7 +1344,6 @@ eventWatcher
 new
 EventWatcher
 (
-t
 watchedNode
 [
 '
@@ -1366,6 +1362,7 @@ eventWatcher
 .
 wait_for
 (
+t
 '
 animationstart
 '
@@ -1833,7 +1830,6 @@ The
 general
 signature
 is
-:
 js
 assert_something
 (
@@ -1877,7 +1873,6 @@ when
 a
 test
 fails
-.
 NOTE
 :
 All
@@ -2016,7 +2011,6 @@ known
 .
 For
 example
-:
 js
 test
 (
@@ -3361,10 +3355,10 @@ array
 of
 tests
 and
-a
+an
 status
 object
-Tests
+tests
 have
 the
 following
@@ -3631,7 +3625,7 @@ object
 These
 objects
 are
-structured
+structures
 as
 follows
 :

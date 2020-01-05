@@ -325,16 +325,6 @@ iframe
 ;
 frame
 .
-className
-=
-'
-test
--
-iframe
-'
-;
-frame
-.
 src
 =
 url
