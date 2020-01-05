@@ -1658,11 +1658,13 @@ HasSuspendTaint
 )
 const
 ;
+already_AddRefed
+<
 layers
 :
 :
 Image
-*
+>
 GetCurrentImage
 (
 )
