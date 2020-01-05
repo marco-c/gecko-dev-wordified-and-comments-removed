@@ -1608,6 +1608,17 @@ GetType
 =
 =
 NS_FORM_INPUT_TIME
+|
+|
+contentAsInputElem
+-
+>
+GetType
+(
+)
+=
+=
+NS_FORM_INPUT_DATE
 )
 {
 if

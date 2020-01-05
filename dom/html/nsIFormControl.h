@@ -589,14 +589,14 @@ aType
 NS_FORM_INPUT_TIME
 |
 |
-#
-endif
 aType
 =
 =
 NS_FORM_INPUT_DATE
 |
 |
+#
+endif
 aType
 =
 =
