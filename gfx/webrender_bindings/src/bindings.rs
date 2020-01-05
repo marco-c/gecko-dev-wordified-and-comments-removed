@@ -1789,7 +1789,10 @@ RendererOptions
 {
 enable_aa
 :
-false
+true
+enable_subpixel_aa
+:
+true
 enable_profiler
 :
 enable_profiler
