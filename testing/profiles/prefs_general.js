@@ -527,8 +527,7 @@ timeout
 -
 ms
 "
--
-1
+0
 )
 ;
 user_pref
