@@ -90,12 +90,12 @@ UNIFIED_SOURCES
 =
 [
 '
-AudioSinkWrapper
+AudioSink
 .
 cpp
 '
 '
-DecodedAudioDataSink
+AudioSinkWrapper
 .
 cpp
 '

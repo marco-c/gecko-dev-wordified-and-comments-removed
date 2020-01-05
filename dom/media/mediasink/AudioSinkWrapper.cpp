@@ -1,14 +1,14 @@
 #
 include
 "
-AudioSinkWrapper
+AudioSink
 .
 h
 "
 #
 include
 "
-DecodedAudioDataSink
+AudioSinkWrapper
 .
 h
 "
