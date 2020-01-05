@@ -31,13 +31,8 @@ MALLOC_PRODUCTION
 #
 endif
 #
-ifndef
-MOZ_STYLO
-#
 define
 MOZ_MEMORY_NARENAS_DEFAULT_ONE
-#
-endif
 #
 ifdef
 MOZ_WIDGET_GONK
