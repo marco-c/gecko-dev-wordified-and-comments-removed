@@ -157,6 +157,13 @@ js
 '
 webconsole
 -
+listeners
+.
+js
+'
+'
+webconsole
+-
 utils
 .
 js
@@ -166,7 +173,7 @@ webconsole
 -
 worker
 -
-utils
+listeners
 .
 js
 '

@@ -455,6 +455,12 @@ addActor
 threadActor
 )
 ;
+parent
+.
+threadActor
+=
+threadActor
+;
 let
 consoleActor
 =

@@ -185,7 +185,7 @@ utils
 "
 )
 .
-Utils
+WebConsoleUtils
 ;
 }
 )

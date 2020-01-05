@@ -494,18 +494,6 @@ target
 .
 client
 ;
-if
-(
-this
-.
-target
-.
-isWorkerTarget
-)
-{
-}
-else
-{
 client
 .
 addListener
@@ -590,7 +578,6 @@ this
 _onLastPrivateContextExited
 )
 ;
-}
 this
 .
 target
