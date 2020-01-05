@@ -347,13 +347,7 @@ uint32_t
 if
 defined
 (
-XP_WIN
-)
-|
-|
-defined
-(
-LINUX
+ANDROID
 )
 DECL_MEDIA_PREF
 (
@@ -366,7 +360,7 @@ enabled
 "
 AudioSinkForceStereo
 bool
-false
+true
 )
 ;
 #
@@ -382,7 +376,7 @@ enabled
 "
 AudioSinkForceStereo
 bool
-true
+false
 )
 ;
 #
