@@ -354,7 +354,6 @@ mpsc
 :
 {
 Receiver
-RecvError
 Sender
 channel
 }
