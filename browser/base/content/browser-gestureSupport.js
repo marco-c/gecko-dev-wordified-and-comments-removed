@@ -1221,12 +1221,16 @@ aCommand
 }
 }
 _doUpdate
+:
+function
 (
 aEvent
 )
 {
 }
 _doEnd
+:
+function
 (
 aEvent
 )
@@ -1473,6 +1477,8 @@ aDef
 }
 }
 rotate
+:
+function
 (
 aEvent
 )
@@ -1574,6 +1580,8 @@ delta
 ;
 }
 rotateEnd
+:
+function
 (
 )
 {
@@ -1848,6 +1856,8 @@ _currentRotation
 ;
 }
 restoreRotationState
+:
+function
 (
 )
 {
@@ -1978,6 +1988,8 @@ PI
 ;
 }
 _clearCompleteRotation
+:
+function
 (
 )
 {
@@ -2771,6 +2783,8 @@ dampValue
 }
 }
 _getCurrentHistoryIndex
+:
+function
 (
 )
 {

@@ -1282,6 +1282,8 @@ listener
 =
 {
 onInstallStarted
+:
+function
 (
 )
 {
@@ -1310,6 +1312,8 @@ visible
 ;
 }
 onInstallEnded
+:
+function
 (
 )
 {

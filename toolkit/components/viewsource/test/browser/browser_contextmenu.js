@@ -607,6 +607,8 @@ spawn
 browser
 {
 selector
+:
+selector
 }
 function
 *

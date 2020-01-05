@@ -127,6 +127,8 @@ setup
 :
 null
 onload
+:
+function
 (
 browser
 )
@@ -142,6 +144,8 @@ false
 }
 {
 setup
+:
+function
 (
 crD
 )
@@ -155,6 +159,8 @@ crD
 ;
 }
 onload
+:
+function
 (
 browser
 )

@@ -315,6 +315,8 @@ freeze
 (
 {
 collect
+:
+function
 (
 frame
 )
@@ -329,6 +331,8 @@ frame
 ;
 }
 restoreTree
+:
+function
 (
 root
 data
@@ -351,6 +355,8 @@ FormDataInternal
 =
 {
 collect
+:
+function
 (
 {
 document
@@ -829,6 +835,8 @@ ret
 ;
 }
 restore
+:
+function
 (
 {
 document
@@ -1005,6 +1013,8 @@ input
 }
 }
 restoreManyInputValues
+:
+function
 (
 data
 retrieve
@@ -1051,6 +1061,8 @@ key
 }
 }
 restoreSingleInputValue
+:
+function
 (
 aNode
 aValue
@@ -1392,6 +1404,8 @@ eventType
 }
 }
 fireEvent
+:
+function
 (
 node
 type
@@ -1438,6 +1452,8 @@ event
 ;
 }
 restoreTree
+:
+function
 (
 root
 data

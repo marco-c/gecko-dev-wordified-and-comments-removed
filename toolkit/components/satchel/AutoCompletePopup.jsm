@@ -183,6 +183,8 @@ image
 ;
 }
 handleEnter
+:
+function
 (
 aIsPopupSelection
 )
@@ -196,6 +198,8 @@ aIsPopupSelection
 ;
 }
 stopSearch
+:
+function
 (
 )
 {
@@ -234,6 +238,8 @@ requestFocus
 ;
 }
 clearResults
+:
+function
 (
 )
 {
@@ -246,6 +252,8 @@ results
 ;
 }
 setResults
+:
+function
 (
 results
 )
@@ -309,6 +317,8 @@ Invalidate
 "
 ]
 init
+:
+function
 (
 )
 {
@@ -335,6 +345,8 @@ this
 }
 }
 uninit
+:
+function
 (
 )
 {
@@ -361,6 +373,8 @@ this
 }
 }
 handleEvent
+:
+function
 (
 evt
 )
@@ -465,6 +479,8 @@ break
 }
 }
 showPopupWithResults
+:
+function
 (
 {
 browser
@@ -796,6 +812,8 @@ login
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -1104,11 +1122,15 @@ data
 }
 }
 stopSearch
+:
+function
 (
 )
 {
 }
 requestFocus
+:
+function
 (
 )
 {

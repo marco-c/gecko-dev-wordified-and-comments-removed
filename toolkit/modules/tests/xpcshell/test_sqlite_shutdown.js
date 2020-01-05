@@ -161,6 +161,8 @@ options
 =
 {
 path
+:
+path
 }
 ;
 for
@@ -347,6 +349,8 @@ initWithCallback
 (
 {
 notify
+:
+function
 (
 )
 {

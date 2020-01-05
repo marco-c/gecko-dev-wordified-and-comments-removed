@@ -297,6 +297,8 @@ _active
 :
 false
 enable
+:
+function
 (
 )
 {
@@ -317,6 +319,8 @@ _lastData
 ;
 }
 disable
+:
+function
 (
 )
 {
@@ -347,6 +351,8 @@ lastData
 ;
 }
 getData
+:
+function
 (
 )
 {
@@ -371,6 +377,8 @@ null
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -408,6 +416,8 @@ aData
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -501,6 +511,8 @@ _lastData
 }
 }
 destroy
+:
+function
 (
 )
 {
@@ -565,6 +577,8 @@ null
 ;
 }
 _update
+:
+function
 (
 aData
 )

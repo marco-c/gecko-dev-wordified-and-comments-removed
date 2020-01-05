@@ -13,6 +13,8 @@ _lastRemoveFromDb
 :
 false
 onValueRemoved
+:
+function
 (
 aResult
 aValue

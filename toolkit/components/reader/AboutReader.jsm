@@ -932,6 +932,8 @@ colorScheme
 value
 )
 value
+:
+value
 itemClass
 :
 value
@@ -1487,6 +1489,8 @@ _viewId
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -1815,6 +1819,8 @@ _article
 }
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -2108,6 +2114,8 @@ break
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -2203,6 +2211,8 @@ true
 ;
 }
 _onReaderClose
+:
+function
 (
 )
 {
@@ -2222,6 +2232,8 @@ _win
 ;
 }
 _setFontSize
+:
+function
 (
 newFontSize
 )
@@ -2303,6 +2315,8 @@ _fontSize
 ;
 }
 _setupFontSizeButtons
+:
+function
 (
 )
 {
@@ -2620,6 +2634,8 @@ true
 ;
 }
 _setContentWidth
+:
+function
 (
 newContentWidth
 )
@@ -2701,6 +2717,8 @@ _contentWidth
 ;
 }
 _setupContentWidthButtons
+:
+function
 (
 )
 {
@@ -2985,6 +3003,8 @@ true
 ;
 }
 _setLineHeight
+:
+function
 (
 newLineHeight
 )
@@ -3070,6 +3090,8 @@ _lineHeight
 ;
 }
 _setupLineHeightButtons
+:
+function
 (
 )
 {
@@ -3354,6 +3376,8 @@ true
 ;
 }
 _handleDeviceLight
+:
+function
 (
 newLux
 )
@@ -3449,6 +3473,8 @@ oldLux
 ;
 }
 _handleVisibilityChange
+:
+function
 (
 )
 {
@@ -3495,6 +3521,8 @@ hidden
 ;
 }
 _enableAmbientLighting
+:
+function
 (
 enable
 )
@@ -3559,6 +3587,8 @@ _totalLux
 }
 }
 _updateColorScheme
+:
+function
 (
 luxValue
 )
@@ -3644,6 +3674,8 @@ light
 ;
 }
 _setColorScheme
+:
+function
 (
 newColorScheme
 )
@@ -3712,6 +3744,8 @@ _colorScheme
 ;
 }
 _setColorSchemePref
+:
+function
 (
 colorSchemePref
 )
@@ -3750,6 +3784,8 @@ colorSchemePref
 ;
 }
 _setFontType
+:
+function
 (
 newFontType
 )
@@ -3823,6 +3859,8 @@ _fontType
 ;
 }
 _setSystemUIVisibility
+:
+function
 (
 visible
 )
@@ -3839,6 +3877,8 @@ Reader
 SystemUIVisibility
 "
 {
+visible
+:
 visible
 }
 )
@@ -3988,6 +4028,8 @@ article
 }
 )
 _getArticle
+:
+function
 (
 url
 )
@@ -4089,6 +4131,8 @@ ArticleGet
 "
 {
 url
+:
+url
 }
 )
 ;
@@ -4097,6 +4141,8 @@ url
 ;
 }
 _requestFavicon
+:
+function
 (
 )
 {
@@ -4179,6 +4225,8 @@ url
 ;
 }
 _loadFavicon
+:
+function
 (
 url
 faviconUrl
@@ -4251,6 +4299,8 @@ link
 ;
 }
 _updateImageMargins
+:
+function
 (
 )
 {
@@ -4670,6 +4720,8 @@ slowEstimate
 ;
 }
 _showError
+:
+function
 (
 )
 {
@@ -4747,6 +4799,8 @@ true
 ;
 }
 _stripHost
+:
+function
 (
 host
 )
@@ -4824,6 +4878,8 @@ start
 ;
 }
 _showContent
+:
+function
 (
 article
 )
@@ -5133,6 +5189,8 @@ false
 ;
 }
 _hideContent
+:
+function
 (
 )
 {
@@ -5162,6 +5220,8 @@ none
 ;
 }
 _showProgressDelayed
+:
+function
 (
 )
 {
@@ -5259,6 +5319,8 @@ this
 ;
 }
 _getOriginalUrl
+:
+function
 (
 win
 )
@@ -5295,6 +5357,8 @@ url
 ;
 }
 _setupSegmentedButton
+:
+function
 (
 id
 options
@@ -5610,6 +5674,8 @@ selected
 }
 }
 _setupButton
+:
+function
 (
 id
 callback
@@ -5714,6 +5780,8 @@ true
 ;
 }
 _setButtonTip
+:
+function
 (
 id
 titleEntity
@@ -5748,6 +5816,8 @@ titleEntity
 ;
 }
 _setupStyleDropdown
+:
+function
 (
 )
 {
@@ -5795,6 +5865,8 @@ typeControls
 ;
 }
 _updatePopupPosition
+:
+function
 (
 dropdown
 )
@@ -5866,6 +5938,8 @@ px
 ;
 }
 _toggleDropdownClicked
+:
+function
 (
 event
 )
@@ -5946,6 +6020,8 @@ dropdown
 }
 }
 _openDropdown
+:
+function
 (
 dropdown
 )
@@ -6002,6 +6078,8 @@ viewId
 ;
 }
 _closeDropdowns
+:
+function
 (
 scrolling
 )

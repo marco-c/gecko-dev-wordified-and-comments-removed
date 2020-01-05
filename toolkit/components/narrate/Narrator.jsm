@@ -292,6 +292,8 @@ Set
 (
 )
 acceptNode
+:
+function
 (
 node
 )
@@ -538,6 +540,8 @@ pending
 ;
 }
 _getVoice
+:
+function
 (
 voiceURI
 )
@@ -605,6 +609,8 @@ voiceURI
 ;
 }
 _isParagraphInView
+:
+function
 (
 paragraph
 )
@@ -649,6 +655,8 @@ innerHeight
 ;
 }
 _sendTestEvent
+:
+function
 (
 eventType
 detail
@@ -689,6 +697,8 @@ document
 ;
 }
 _speakInner
+:
+function
 (
 )
 {
@@ -1306,6 +1316,8 @@ utterance
 ;
 }
 start
+:
+function
 (
 speechOptions
 )
@@ -1453,6 +1465,8 @@ _speakInner
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -1474,6 +1488,8 @@ cancel
 ;
 }
 skipNext
+:
+function
 (
 )
 {
@@ -1489,6 +1505,8 @@ cancel
 ;
 }
 skipPrevious
+:
+function
 (
 )
 {
@@ -1509,6 +1527,8 @@ PREV_THRESHOLD
 ;
 }
 setRate
+:
+function
 (
 rate
 )
@@ -1530,6 +1550,8 @@ _goBackParagraphs
 ;
 }
 setVoice
+:
+function
 (
 voice
 )
@@ -1556,6 +1578,8 @@ _goBackParagraphs
 ;
 }
 _goBackParagraphs
+:
+function
 (
 count
 )
@@ -1635,6 +1659,8 @@ prototype
 =
 {
 highlight
+:
+function
 (
 startOffset
 length
@@ -1959,6 +1985,8 @@ join
 }
 }
 remove
+:
+function
 (
 )
 {
@@ -1987,6 +2015,8 @@ null
 ;
 }
 _getFreshHighlightNodes
+:
+function
 (
 count
 )
@@ -2109,6 +2139,8 @@ nodes
 ;
 }
 _getRange
+:
+function
 (
 startOffset
 endOffset

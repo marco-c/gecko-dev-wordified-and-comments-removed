@@ -342,6 +342,8 @@ nsIObserver
 ]
 )
 notify
+:
+function
 (
 timer
 )
@@ -411,6 +413,8 @@ updateManifest
 }
 }
 _delayedInit
+:
+function
 (
 )
 {
@@ -437,6 +441,8 @@ instance
 }
 }
 observe
+:
+function
 (
 subject
 topic

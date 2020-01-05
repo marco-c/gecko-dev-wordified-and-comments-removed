@@ -6284,6 +6284,8 @@ urlbar
 :
 this
 doCommand
+:
+function
 (
 aCommand
 )
@@ -6451,6 +6453,8 @@ val
 ;
 }
 supportsCommand
+:
+function
 (
 aCommand
 )
@@ -6479,6 +6483,8 @@ false
 ;
 }
 isCommandEnabled
+:
+function
 (
 aCommand
 )
@@ -6524,6 +6530,8 @@ selectionEnd
 ;
 }
 onEvent
+:
+function
 (
 aEventName
 )
@@ -7513,6 +7521,8 @@ action
 =
 {
 type
+:
+type
 }
 ;
 action
@@ -8231,6 +8241,8 @@ this
 mController
 .
 searchString
+event
+:
 event
 }
 ;

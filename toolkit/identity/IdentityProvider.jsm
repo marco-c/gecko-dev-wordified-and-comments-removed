@@ -1536,6 +1536,8 @@ errStr
 ;
 }
 setAuthenticationFlow
+:
+function
 (
 aAuthId
 aProvId

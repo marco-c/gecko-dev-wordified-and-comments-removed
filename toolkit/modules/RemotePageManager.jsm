@@ -93,6 +93,8 @@ prototype
 =
 {
 keys
+:
+function
 (
 )
 {
@@ -107,6 +109,8 @@ keys
 ;
 }
 has
+:
+function
 (
 name
 )
@@ -123,6 +127,8 @@ name
 ;
 }
 callListeners
+:
+function
 (
 message
 )
@@ -186,6 +192,8 @@ e
 }
 }
 addMessageListener
+:
+function
 (
 name
 callback
@@ -236,6 +244,8 @@ callback
 ;
 }
 removeMessageListener
+:
+function
 (
 name
 callback
@@ -357,6 +367,8 @@ destroyed
 :
 null
 destroy
+:
+function
 (
 )
 {
@@ -411,6 +423,8 @@ true
 ;
 }
 portCreated
+:
+function
 (
 port
 )
@@ -483,6 +497,8 @@ Init
 ;
 }
 portMessageReceived
+:
+function
 (
 message
 )
@@ -520,6 +536,8 @@ message
 ;
 }
 removeMessagePort
+:
+function
 (
 port
 )
@@ -574,6 +592,8 @@ port
 ;
 }
 registerPortListener
+:
+function
 (
 port
 name
@@ -591,6 +611,8 @@ portMessageReceived
 ;
 }
 sendAsyncMessage
+:
+function
 (
 name
 data
@@ -623,6 +645,8 @@ data
 }
 }
 addMessageListener
+:
+function
 (
 name
 callback
@@ -696,6 +720,8 @@ callback
 ;
 }
 removeMessageListener
+:
+function
 (
 name
 callback
@@ -733,6 +759,8 @@ callback
 ;
 }
 portsForBrowser
+:
+function
 (
 browser
 )
@@ -834,6 +862,8 @@ browser
 "
 {
 get
+:
+function
 (
 )
 {
@@ -939,6 +969,8 @@ remotePort
 :
 null
 swapMessageManager
+:
+function
 (
 messageManager
 )
@@ -983,6 +1015,8 @@ message
 ;
 }
 addMessageListener
+:
+function
 (
 name
 callback
@@ -1021,6 +1055,8 @@ callback
 ;
 }
 removeMessageListener
+:
+function
 (
 name
 callback
@@ -1059,6 +1095,8 @@ callback
 ;
 }
 sendAsyncMessage
+:
+function
 (
 name
 data
@@ -1105,12 +1143,18 @@ this
 .
 portID
 name
+:
+name
+data
+:
 data
 }
 )
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1278,6 +1322,8 @@ browser
 "
 {
 get
+:
+function
 (
 )
 {
@@ -1791,6 +1837,8 @@ InitPort
 "
 {
 portID
+:
+portID
 url
 :
 window
@@ -1951,6 +1999,8 @@ Map
 (
 )
 init
+:
+function
 (
 )
 {
@@ -1998,6 +2048,8 @@ this
 ;
 }
 addRemotePageListener
+:
+function
 (
 url
 callback
@@ -2096,6 +2148,8 @@ url
 ;
 }
 removeRemotePageListener
+:
+function
 (
 url
 )
@@ -2194,6 +2248,8 @@ url
 ;
 }
 initListener
+:
+function
 (
 {
 target
@@ -2230,6 +2286,8 @@ keys
 )
 }
 initPort
+:
+function
 (
 {
 target

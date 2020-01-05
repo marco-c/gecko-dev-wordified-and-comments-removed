@@ -123,6 +123,8 @@ TestUtils
 =
 {
 waitForTick
+:
+function
 (
 )
 {
@@ -141,6 +143,8 @@ resolve
 ;
 }
 waitMs
+:
+function
 (
 aTimeMs
 )
@@ -161,6 +165,8 @@ aTimeMs
 ;
 }
 waitForNotification
+:
+function
 (
 aTopic
 )
@@ -232,6 +238,8 @@ false
 ;
 }
 waitForEvent
+:
+function
 (
 aTarget
 aEventName
@@ -536,6 +544,8 @@ promiseUIWindow
 [
 0
 ]
+promiseResult
+:
 promiseResult
 }
 ;

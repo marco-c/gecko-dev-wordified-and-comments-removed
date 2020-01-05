@@ -2416,6 +2416,8 @@ null
 ;
 }
 getTransactionForData
+:
+function
 (
 aData
 aType
@@ -2638,6 +2640,8 @@ aData
 .
 uri
 )
+title
+:
 title
 parentGuid
 :
@@ -3266,6 +3270,8 @@ return
 ;
 }
 canUserRemove
+:
+function
 (
 aNode
 )
@@ -3331,6 +3337,8 @@ parentNode
 ;
 }
 isContentsReadOnly
+:
+function
 (
 aNodeOrItemId
 )
@@ -5854,6 +5862,8 @@ queryName
 ;
 }
 shouldShowTabsFromOtherComputersMenuitem
+:
+function
 (
 )
 {
@@ -7117,6 +7127,8 @@ aURI
 aTags
 )
 setLoadInSidebar
+:
+function
 (
 aItemId
 aLoadInSidebar
@@ -7163,6 +7175,8 @@ annoObj
 ;
 }
 editItemDescription
+:
+function
 (
 aItemId
 aDescription

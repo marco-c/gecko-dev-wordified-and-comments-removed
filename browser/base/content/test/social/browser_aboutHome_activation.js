@@ -667,6 +667,8 @@ enable
 panel
 "
 snippet
+:
+snippet
 panel
 :
 true

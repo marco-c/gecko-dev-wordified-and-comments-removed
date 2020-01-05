@@ -445,6 +445,8 @@ break
 }
 }
 isValidFeed
+:
+function
 (
 aLink
 aPrincipal

@@ -493,6 +493,8 @@ PluginHost
 =
 {
 getPluginTags
+:
+function
 (
 countRef
 )
@@ -510,6 +512,8 @@ PLUGINS
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

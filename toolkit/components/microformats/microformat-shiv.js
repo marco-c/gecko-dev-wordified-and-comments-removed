@@ -204,6 +204,8 @@ prototype
 =
 {
 init
+:
+function
 (
 )
 {
@@ -307,6 +309,8 @@ found
 ;
 }
 get
+:
+function
 (
 options
 )
@@ -563,6 +567,8 @@ out
 ;
 }
 getParent
+:
+function
 (
 node
 options
@@ -620,6 +626,8 @@ formatError
 ;
 }
 count
+:
+function
 (
 options
 )
@@ -859,6 +867,8 @@ out
 ;
 }
 isMicroformat
+:
+function
 (
 node
 options
@@ -977,6 +987,8 @@ length
 ;
 }
 hasMicroformats
+:
+function
 (
 node
 options
@@ -1086,6 +1098,8 @@ length
 ;
 }
 add
+:
+function
 (
 maps
 )
@@ -1146,6 +1160,8 @@ map
 ;
 }
 getParentTreeWalk
+:
+function
 (
 node
 options
@@ -1280,6 +1296,8 @@ formatEmpty
 ;
 }
 getDOMContext
+:
+function
 (
 options
 )
@@ -1314,6 +1332,8 @@ document
 ;
 }
 prepareDOM
+:
+function
 (
 options
 )
@@ -1511,6 +1531,8 @@ document
 ;
 }
 formatError
+:
+function
 (
 )
 {
@@ -1536,6 +1558,8 @@ out
 ;
 }
 formatEmpty
+:
+function
 (
 )
 {
@@ -1565,6 +1589,8 @@ urls
 ;
 }
 findFilterNodes
+:
+function
 (
 rootNode
 filters
@@ -1764,6 +1790,8 @@ newRootNode
 ;
 }
 appendCount
+:
+function
 (
 name
 count
@@ -1803,6 +1831,8 @@ count
 }
 }
 shouldInclude
+:
+function
 (
 uf
 filters
@@ -1874,6 +1904,8 @@ true
 ;
 }
 findRootNodes
+:
+function
 (
 rootNode
 includeRoot
@@ -2107,6 +2139,8 @@ out
 ;
 }
 walkRoot
+:
+function
 (
 node
 )
@@ -2282,6 +2316,8 @@ out
 ;
 }
 walkTree
+:
+function
 (
 node
 )
@@ -2399,6 +2435,8 @@ out
 ;
 }
 walkChildren
+:
+function
 (
 node
 out
@@ -3195,6 +3233,8 @@ y
 }
 }
 getValue
+:
+function
 (
 node
 className
@@ -3321,6 +3361,8 @@ value
 ;
 }
 getPValue
+:
+function
 (
 node
 valueParse
@@ -3521,6 +3563,8 @@ out
 ;
 }
 getEValue
+:
+function
 (
 node
 )
@@ -3608,6 +3652,8 @@ out
 ;
 }
 getUValue
+:
+function
 (
 node
 valueParse
@@ -3886,6 +3932,8 @@ out
 ;
 }
 getDTValue
+:
+function
 (
 node
 className
@@ -4187,6 +4235,8 @@ return
 ;
 }
 appendRootID
+:
+function
 (
 node
 id
@@ -4284,6 +4334,8 @@ join
 }
 }
 hasRootID
+:
+function
 (
 node
 id
@@ -4355,6 +4407,8 @@ propertyName
 ;
 }
 getValueClass
+:
+function
 (
 node
 propertyType
@@ -4631,6 +4685,8 @@ null
 ;
 }
 getValueTitle
+:
+function
 (
 node
 )
@@ -4735,6 +4791,8 @@ join
 ;
 }
 hasHClass
+:
+function
 (
 node
 )
@@ -4774,6 +4832,8 @@ false
 ;
 }
 getUfClassNames
+:
+function
 (
 node
 ufNameArr
@@ -5467,6 +5527,8 @@ out
 ;
 }
 getMapping
+:
+function
 (
 name
 )
@@ -5521,6 +5583,8 @@ null
 ;
 }
 getV2RootName
+:
+function
 (
 name
 )
@@ -5563,6 +5627,8 @@ null
 ;
 }
 isAllowedPropertyVersion
+:
+function
 (
 typeVersion
 propertyVersion
@@ -5596,6 +5662,8 @@ propertyVersion
 ;
 }
 createUfObject
+:
+function
 (
 names
 typeVersion
@@ -5702,6 +5770,8 @@ out
 ;
 }
 cleanUfObject
+:
+function
 (
 microformat
 )
@@ -5731,6 +5801,8 @@ microformat
 ;
 }
 removePropPrefix
+:
+function
 (
 text
 )
@@ -5794,6 +5866,8 @@ text
 ;
 }
 expandURLs
+:
+function
 (
 node
 attrName
@@ -5922,6 +5996,8 @@ err
 }
 }
 mergeOptions
+:
+function
 (
 options
 )
@@ -5962,6 +6038,8 @@ key
 }
 }
 removeRootIds
+:
+function
 (
 rootNode
 )
@@ -6015,6 +6093,8 @@ rootids
 }
 }
 clearUpDom
+:
+function
 (
 rootNode
 )
@@ -7407,6 +7487,8 @@ name
 :
 propertyName
 value
+:
+value
 }
 ;
 }
@@ -7449,6 +7531,8 @@ name
 :
 propertyName
 value
+:
+value
 }
 ;
 }
@@ -7487,6 +7571,8 @@ altValue
 name
 :
 propertyName
+value
+:
 value
 }
 ;
@@ -9411,6 +9497,8 @@ utils
 =
 {
 isString
+:
+function
 (
 obj
 )
@@ -9429,6 +9517,8 @@ string
 ;
 }
 isNumber
+:
+function
 (
 obj
 )
@@ -9451,6 +9541,8 @@ obj
 ;
 }
 isArray
+:
+function
 (
 obj
 )
@@ -9495,6 +9587,8 @@ number
 ;
 }
 isFunction
+:
+function
 (
 obj
 )
@@ -9523,6 +9617,8 @@ apply
 ;
 }
 startWith
+:
+function
 (
 text
 test
@@ -9544,6 +9640,8 @@ test
 ;
 }
 trim
+:
+function
 (
 text
 )
@@ -9602,6 +9700,8 @@ return
 ;
 }
 replaceCharAt
+:
+function
 (
 text
 index
@@ -9648,6 +9748,8 @@ text
 ;
 }
 trimWhitespace
+:
+function
 (
 text
 )
@@ -9771,6 +9873,8 @@ text
 ;
 }
 isOnlyWhiteSpace
+:
+function
 (
 text
 )
@@ -9798,6 +9902,8 @@ text
 ;
 }
 collapseWhiteSpace
+:
+function
 (
 text
 )
@@ -9825,6 +9931,8 @@ g
 ;
 }
 hasProperties
+:
+function
 (
 obj
 )
@@ -9859,6 +9967,8 @@ false
 ;
 }
 sortObjects
+:
+function
 (
 property
 reverse
@@ -9943,6 +10053,8 @@ rootNode
 :
 null
 getDOMParser
+:
+function
 (
 )
 {
@@ -10009,6 +10121,8 @@ DOMParser
 }
 }
 getDOMContext
+:
+function
 (
 options
 )
@@ -10207,6 +10321,8 @@ null
 ;
 }
 getTopMostNode
+:
+function
 (
 node
 )
@@ -10216,6 +10332,8 @@ node
 ;
 }
 ownerDocument
+:
+function
 (
 node
 )
@@ -10227,6 +10345,8 @@ ownerDocument
 ;
 }
 textContent
+:
+function
 (
 node
 )
@@ -10264,6 +10384,8 @@ return
 ;
 }
 innerHTML
+:
+function
 (
 node
 )
@@ -10275,6 +10397,8 @@ innerHTML
 ;
 }
 hasAttribute
+:
+function
 (
 node
 attributeName
@@ -10290,6 +10414,8 @@ attributeName
 ;
 }
 hasAttributeValue
+:
+function
 (
 node
 attributeName
@@ -10317,6 +10443,8 @@ value
 ;
 }
 getAttribute
+:
+function
 (
 node
 attributeName
@@ -10332,6 +10460,8 @@ attributeName
 ;
 }
 setAttribute
+:
+function
 (
 node
 attributeName
@@ -10348,6 +10478,8 @@ attributeValue
 ;
 }
 removeAttribute
+:
+function
 (
 node
 attributeName
@@ -10362,6 +10494,8 @@ attributeName
 ;
 }
 getElementById
+:
+function
 (
 docNode
 id
@@ -10381,6 +10515,8 @@ id
 ;
 }
 querySelector
+:
+function
 (
 docNode
 selector
@@ -10396,6 +10532,8 @@ selector
 ;
 }
 getAttributeList
+:
+function
 (
 node
 attributeName
@@ -10471,6 +10609,8 @@ out
 ;
 }
 getNodesByAttribute
+:
+function
 (
 node
 attributeName
@@ -10499,6 +10639,8 @@ selector
 ;
 }
 getNodesByAttributeValue
+:
+function
 (
 rootNode
 name
@@ -10584,6 +10726,8 @@ out
 ;
 }
 getAttrValFromTagList
+:
+function
 (
 node
 tagNames
@@ -10657,6 +10801,8 @@ null
 ;
 }
 getSingleDescendant
+:
+function
 (
 node
 )
@@ -10673,6 +10819,8 @@ false
 ;
 }
 getSingleDescendantOfType
+:
+function
 (
 node
 tagNames
@@ -10690,6 +10838,8 @@ true
 ;
 }
 getDescendant
+:
+function
 (
 node
 tagNames
@@ -10819,6 +10969,8 @@ null
 ;
 }
 hasTagName
+:
+function
 (
 node
 tagNames
@@ -10866,6 +11018,8 @@ false
 ;
 }
 appendChild
+:
+function
 (
 node
 childNode
@@ -10881,6 +11035,8 @@ childNode
 ;
 }
 removeChild
+:
+function
 (
 childNode
 )
@@ -10908,6 +11064,8 @@ null
 ;
 }
 clone
+:
+function
 (
 node
 )
@@ -10936,6 +11094,8 @@ newNode
 ;
 }
 getElementText
+:
+function
 (
 node
 )
@@ -10962,6 +11122,8 @@ return
 ;
 }
 getOrderedAttributes
+:
+function
 (
 node
 )
@@ -11047,6 +11209,8 @@ indexNum
 ;
 }
 decodeEntities
+:
+function
 (
 doc
 text
@@ -11064,6 +11228,8 @@ nodeValue
 ;
 }
 cloneDocument
+:
+function
 (
 document
 )
@@ -11149,6 +11315,8 @@ document
 ;
 }
 canCloneDocument
+:
+function
 (
 document
 )
@@ -11177,6 +11345,8 @@ createHTMLDocument
 ;
 }
 getChildIndex
+:
+function
 (
 node
 )
@@ -11232,6 +11402,8 @@ return
 ;
 }
 getNodePath
+:
+function
 (
 node
 )
@@ -11294,6 +11466,8 @@ path
 ;
 }
 getNodeByPath
+:
+function
 (
 document
 path
@@ -11342,6 +11516,8 @@ node
 ;
 }
 getChildren
+:
+function
 (
 node
 )
@@ -11353,6 +11529,8 @@ children
 ;
 }
 createNode
+:
+function
 (
 tagName
 )
@@ -11369,6 +11547,8 @@ tagName
 ;
 }
 createNodeWithText
+:
+function
 (
 tagName
 text
@@ -11404,6 +11584,8 @@ url
 =
 {
 init
+:
+function
 (
 )
 {
@@ -11516,6 +11698,8 @@ link
 ;
 }
 resolve
+:
+function
 (
 url
 baseUrl
@@ -11742,6 +11926,8 @@ prototype
 =
 {
 clear
+:
+function
 (
 )
 {
@@ -11771,6 +11957,8 @@ setAutoProfileState
 ;
 }
 clearDate
+:
+function
 (
 )
 {
@@ -11804,6 +11992,8 @@ dDDD
 ;
 }
 clearTime
+:
+function
 (
 )
 {
@@ -11837,6 +12027,8 @@ tD
 ;
 }
 clearTimeZone
+:
+function
 (
 )
 {
@@ -11870,6 +12062,8 @@ false
 ;
 }
 setAutoProfileState
+:
+function
 (
 )
 {
@@ -11907,6 +12101,8 @@ Z
 ;
 }
 parse
+:
+function
 (
 dateString
 format
@@ -12365,6 +12561,8 @@ format
 ;
 }
 parseDate
+:
+function
 (
 dateString
 format
@@ -12596,6 +12794,8 @@ format
 ;
 }
 parseTime
+:
+function
 (
 timeString
 format
@@ -12768,6 +12968,8 @@ format
 ;
 }
 parseTimeZone
+:
+function
 (
 timeString
 format
@@ -12971,6 +13173,8 @@ format
 ;
 }
 toString
+:
+function
 (
 format
 )
@@ -13153,6 +13357,8 @@ output
 ;
 }
 toTimeString
+:
+function
 (
 format
 )
@@ -13378,6 +13584,8 @@ out
 ;
 }
 setFormatSep
+:
+function
 (
 )
 {
@@ -13584,6 +13792,8 @@ tzZulu
 }
 }
 hasFullDate
+:
+function
 (
 )
 {
@@ -13621,6 +13831,8 @@ dD
 ;
 }
 hasDate
+:
+function
 (
 )
 {
@@ -13638,6 +13850,8 @@ dY
 ;
 }
 hasTime
+:
+function
 (
 )
 {
@@ -13655,6 +13869,8 @@ tH
 ;
 }
 hasTimeZone
+:
+function
 (
 )
 {
@@ -13691,6 +13907,8 @@ dates
 =
 {
 hasAM
+:
+function
 (
 text
 )
@@ -13736,6 +13954,8 @@ m
 ;
 }
 hasPM
+:
+function
 (
 text
 )
@@ -13781,6 +14001,8 @@ m
 ;
 }
 removeAMPM
+:
+function
 (
 text
 )
@@ -13832,6 +14054,8 @@ m
 ;
 }
 isDuration
+:
+function
 (
 text
 )
@@ -13881,6 +14105,8 @@ false
 ;
 }
 isTime
+:
+function
 (
 text
 )
@@ -14094,6 +14320,8 @@ false
 ;
 }
 parseAmPmTime
+:
+function
 (
 text
 )
@@ -14317,6 +14545,8 @@ text
 ;
 }
 dateTimeUnion
+:
+function
 (
 date
 time
@@ -14431,6 +14661,8 @@ ISODate
 ;
 }
 concatFragments
+:
+function
 (
 arr
 format
@@ -14714,6 +14946,8 @@ out
 ;
 }
 splitTimeAndZone
+:
+function
 (
 text
 )
@@ -15001,6 +15235,8 @@ frameset
 '
 ]
 parse
+:
+function
 (
 doc
 node
@@ -15091,6 +15327,8 @@ textFormat
 ;
 }
 parseText
+:
+function
 (
 doc
 text
@@ -15124,6 +15362,8 @@ textFormat
 ;
 }
 formatText
+:
+function
 (
 doc
 text
@@ -15225,6 +15465,8 @@ return
 ;
 }
 normalise
+:
+function
 (
 doc
 text
@@ -15294,6 +15536,8 @@ text
 ;
 }
 walkTreeForText
+:
+function
 (
 node
 )
@@ -15534,6 +15778,8 @@ source
 '
 ]
 parse
+:
+function
 (
 node
 )
@@ -15619,6 +15865,8 @@ out
 ;
 }
 walkTreeForHtml
+:
+function
 (
 node
 )

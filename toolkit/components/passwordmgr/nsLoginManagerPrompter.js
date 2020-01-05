@@ -295,6 +295,8 @@ _asyncPromptInProgress
 :
 false
 observe
+:
+function
 (
 subject
 topic
@@ -380,6 +382,8 @@ _cancelPendingPrompts
 }
 }
 getPrompt
+:
+function
 (
 aWindow
 aIID
@@ -411,6 +415,8 @@ prompt
 ;
 }
 _doAsyncPrompt
+:
+function
 (
 )
 {
@@ -724,6 +730,8 @@ cancel
 :
 false
 run
+:
+function
 (
 )
 {
@@ -1130,6 +1138,8 @@ dispatched
 ;
 }
 _cancelPendingPrompts
+:
+function
 (
 )
 {
@@ -1671,6 +1681,8 @@ true
 ;
 }
 prompt
+:
+function
 (
 aDialogTitle
 aText
@@ -1762,6 +1774,8 @@ null
 ;
 }
 promptUsernameAndPassword
+:
+function
 (
 aDialogTitle
 aText
@@ -2222,6 +2236,8 @@ ok
 ;
 }
 promptPassword
+:
+function
 (
 aDialogTitle
 aText
@@ -2550,6 +2566,8 @@ ok
 ;
 }
 _getRealmInfo
+:
+function
 (
 aRealmString
 )
@@ -2645,6 +2663,8 @@ username
 ;
 }
 promptAuth
+:
+function
 (
 aChannel
 aLevel
@@ -3360,6 +3380,8 @@ ok
 ;
 }
 asyncPromptAuth
+:
+function
 (
 aChannel
 aCallback
@@ -3613,6 +3635,8 @@ cancelable
 ;
 }
 init
+:
+function
 (
 aWindow
 =
@@ -3754,6 +3778,8 @@ aOpener
 ;
 }
 promptToSavePassword
+:
+function
 (
 aLogin
 )
@@ -3805,6 +3831,8 @@ aLogin
 ;
 }
 _showLoginNotification
+:
+function
 (
 aNotifyBox
 aName
@@ -5178,6 +5206,8 @@ hideClose
 :
 true
 eventCallback
+:
+function
 (
 topic
 )
@@ -5498,6 +5528,8 @@ false
 ;
 }
 _showSaveLoginNotification
+:
+function
 (
 aNotifyObj
 aLogin
@@ -5651,6 +5683,8 @@ popup
 :
 null
 callback
+:
+function
 (
 aNotifyObj
 aButton
@@ -5676,6 +5710,8 @@ popup
 :
 null
 callback
+:
+function
 (
 aNotifyObj
 aButton
@@ -5704,6 +5740,8 @@ popup
 :
 null
 callback
+:
+function
 (
 )
 {
@@ -5745,6 +5783,8 @@ null
 ;
 }
 _removeLoginNotifications
+:
+function
 (
 )
 {
@@ -5882,6 +5922,8 @@ oldBar
 }
 }
 _showSaveLoginDialog
+:
+function
 (
 aLogin
 )
@@ -6416,6 +6458,8 @@ popup
 :
 null
 callback
+:
+function
 (
 aNotifyObj
 aButton
@@ -6442,6 +6486,8 @@ popup
 :
 null
 callback
+:
+function
 (
 aNotifyObj
 aButton
@@ -6649,6 +6695,8 @@ oldGUID
 ;
 }
 promptToChangePasswordWithUsernames
+:
+function
 (
 logins
 count
@@ -6972,6 +7020,8 @@ propBag
 ;
 }
 _getChromeWindow
+:
+function
 (
 aWindow
 )
@@ -7036,6 +7086,8 @@ null
 ;
 }
 _getNotifyWindow
+:
+function
 (
 )
 {
@@ -7120,6 +7172,8 @@ _browser
 ;
 }
 _getPopupNote
+:
+function
 (
 )
 {
@@ -7177,6 +7231,8 @@ popupNote
 ;
 }
 _getNotifyBox
+:
+function
 (
 )
 {
@@ -7237,6 +7293,8 @@ notifyBox
 ;
 }
 _repickSelectedLogin
+:
+function
 (
 foundLogins
 username
@@ -7282,6 +7340,8 @@ null
 ;
 }
 _getLocalizedString
+:
+function
 (
 key
 formatArgs
@@ -7317,6 +7377,8 @@ key
 ;
 }
 _sanitizeUsername
+:
+function
 (
 username
 )
@@ -7366,6 +7428,8 @@ g
 ;
 }
 _getFormattedHostname
+:
+function
 (
 aURI
 )
@@ -7420,6 +7484,8 @@ hostPort
 ;
 }
 _getShortDisplayHost
+:
+function
 (
 aURIString
 )
@@ -7556,6 +7622,8 @@ displayHost
 ;
 }
 _getAuthTarget
+:
+function
 (
 aChannel
 aAuthInfo
@@ -7749,6 +7817,8 @@ realm
 ;
 }
 _GetAuthInfo
+:
+function
 (
 aAuthInfo
 )
@@ -7815,6 +7885,8 @@ password
 ;
 }
 _SetAuthInfo
+:
+function
 (
 aAuthInfo
 username
@@ -7914,6 +7986,8 @@ password
 ;
 }
 _newAsyncPromptConsumer
+:
+function
 (
 aCallback
 aContext
@@ -7940,6 +8014,8 @@ context
 :
 aContext
 cancel
+:
+function
 (
 )
 {

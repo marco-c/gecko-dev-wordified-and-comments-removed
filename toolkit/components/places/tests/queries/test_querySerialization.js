@@ -594,6 +594,8 @@ nsINavHistoryQuery
 getFolders
 "
 matches
+:
+function
 (
 aQuery1
 aQuery2
@@ -779,6 +781,8 @@ nsINavHistoryQuery
 getTags
 "
 matches
+:
+function
 (
 aQuery1
 aQuery2
@@ -1077,6 +1081,8 @@ nsINavHistoryQuery
 getTransitions
 "
 matches
+:
+function
 (
 aQuery1
 aQuery2
@@ -1274,6 +1280,8 @@ nsINavHistoryQueryOptions
 sortingMode
 "
 matches
+:
+function
 (
 aOptions1
 aOptions2

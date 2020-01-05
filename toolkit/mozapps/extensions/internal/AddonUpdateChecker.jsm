@@ -474,6 +474,8 @@ resources
 :
 null
 escapeEntities
+:
+function
 (
 aString
 )
@@ -547,6 +549,8 @@ quot
 ;
 }
 serializeContainerItems
+:
+function
 (
 aDs
 aContainer
@@ -644,6 +648,8 @@ result
 ;
 }
 serializeResourceProperties
+:
+function
 (
 aDs
 aResource
@@ -996,6 +1002,8 @@ result
 ;
 }
 serializeResource
+:
+function
 (
 aDs
 aResource
@@ -2409,6 +2417,8 @@ id
 :
 aId
 version
+:
+version
 multiprocessCompatible
 :
 getBooleanProperty
@@ -2964,6 +2974,8 @@ id
 :
 aId
 version
+:
+version
 multiprocessCompatible
 :
 getProperty
@@ -3455,6 +3467,8 @@ url
 :
 null
 onLoad
+:
+function
 (
 )
 {
@@ -3961,6 +3975,8 @@ marker
 }
 }
 onTimeout
+:
+function
 (
 )
 {
@@ -4013,6 +4029,8 @@ ERROR_TIMEOUT
 ;
 }
 onError
+:
+function
 (
 )
 {
@@ -4193,6 +4211,8 @@ ERROR_DOWNLOAD_ERROR
 ;
 }
 notifyError
+:
+function
 (
 aStatus
 )
@@ -4241,6 +4261,8 @@ e
 }
 }
 cancel
+:
+function
 (
 )
 {
@@ -4533,6 +4555,8 @@ ERROR_CANCELLED
 -
 6
 getCompatibilityUpdate
+:
+function
 (
 aUpdates
 aVersion
@@ -4663,6 +4687,8 @@ null
 ;
 }
 getNewestCompatibleUpdate
+:
+function
 (
 aUpdates
 aAppVersion
@@ -4821,6 +4847,8 @@ newest
 ;
 }
 checkForUpdates
+:
+function
 (
 aId
 aUpdateKey

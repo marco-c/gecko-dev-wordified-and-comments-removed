@@ -464,6 +464,8 @@ postMessage
 (
 {
 imageData
+:
+imageData
 maxColors
 :
 1

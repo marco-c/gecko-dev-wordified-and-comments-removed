@@ -258,6 +258,8 @@ TestRunner
 =
 {
 run
+:
+function
 (
 )
 {
@@ -314,6 +316,8 @@ this
 ;
 }
 next
+:
+function
 (
 aValue
 )

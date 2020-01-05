@@ -179,6 +179,8 @@ _onItemRemovedItemIds
 [
 ]
 onItemRemoved
+:
+function
 (
 aItemId
 aParentId
@@ -230,6 +232,8 @@ aItemId
 ;
 }
 QueryInterface
+:
+function
 (
 aIID
 )

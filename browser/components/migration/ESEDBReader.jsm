@@ -2183,8 +2183,10 @@ return
 true
 ;
 }
-*
 tableItems
+:
+function
+*
 (
 tableName
 columns

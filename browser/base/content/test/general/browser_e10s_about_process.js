@@ -128,6 +128,8 @@ prototype
 =
 {
 newChannel
+:
+function
 (
 aURI
 aLoadInfo
@@ -142,6 +144,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 getURIFlags
+:
+function
 (
 aURI
 )
@@ -197,6 +201,8 @@ return
 ;
 }
 getIndexedDBOriginPostfix
+:
+function
 (
 aURI
 )
@@ -224,6 +230,8 @@ AboutModuleFactory
 =
 {
 createInstance
+:
+function
 (
 aOuter
 aIID
@@ -253,6 +261,8 @@ aIID
 ;
 }
 lockFactory
+:
+function
 (
 aLock
 )

@@ -51,6 +51,8 @@ prototype
 =
 {
 init
+:
+function
 (
 window
 )
@@ -113,6 +115,8 @@ e
 }
 }
 addSearchEngine
+:
+function
 (
 engineURL
 iconURL
@@ -159,6 +163,8 @@ engineURL
 ;
 }
 AddSearchProvider
+:
+function
 (
 engineURL
 )
@@ -229,6 +235,8 @@ engineURL
 ;
 }
 IsSearchProviderInstalled
+:
+function
 (
 engineURL
 )

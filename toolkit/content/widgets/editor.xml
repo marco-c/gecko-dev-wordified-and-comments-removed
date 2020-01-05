@@ -256,6 +256,8 @@ CDATA
 (
 {
 QueryInterface
+:
+function
 (
 iid
 )
@@ -309,6 +311,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 onStartURIOpen
+:
+function
 (
 uri
 )
@@ -318,6 +322,8 @@ false
 ;
 }
 doContent
+:
+function
 (
 contentType
 isContentPreferred
@@ -330,6 +336,8 @@ false
 ;
 }
 isPreferred
+:
+function
 (
 contentType
 desiredContentType
@@ -340,6 +348,8 @@ false
 ;
 }
 canHandleContent
+:
+function
 (
 contentType
 isContentPreferred

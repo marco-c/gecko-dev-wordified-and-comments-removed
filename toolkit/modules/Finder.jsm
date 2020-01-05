@@ -399,6 +399,8 @@ _iterator
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -506,6 +508,8 @@ null
 ;
 }
 addResultListener
+:
+function
 (
 aListener
 )
@@ -537,6 +541,8 @@ aListener
 ;
 }
 removeResultListener
+:
+function
 (
 aListener
 )
@@ -562,6 +568,8 @@ aListener
 ;
 }
 _notify
+:
+function
 (
 options
 )
@@ -1072,6 +1080,8 @@ _lastFindResult
 :
 null
 fastFind
+:
+function
 (
 aSearchString
 aLinksOnly
@@ -1129,6 +1139,8 @@ aLinksOnly
 ;
 }
 findAgain
+:
+function
 (
 aFindBackwards
 aLinksOnly
@@ -1186,6 +1198,8 @@ aLinksOnly
 ;
 }
 setSearchStringToSelection
+:
+function
 (
 )
 {
@@ -1248,6 +1262,8 @@ aLinksOnly
 }
 )
 getInitialSelection
+:
+function
 (
 )
 {
@@ -1307,6 +1323,8 @@ ex
 ;
 }
 getActiveSelectionText
+:
+function
 (
 )
 {
@@ -1485,6 +1503,8 @@ selText
 ;
 }
 enableSelection
+:
+function
 (
 )
 {
@@ -1509,6 +1529,8 @@ _restoreOriginalOutline
 ;
 }
 removeSelection
+:
+function
 (
 )
 {
@@ -1536,6 +1558,8 @@ clear
 ;
 }
 focusContent
+:
+function
 (
 )
 {
@@ -1686,6 +1710,8 @@ e
 }
 }
 onFindbarClose
+:
+function
 (
 )
 {
@@ -1727,6 +1753,8 @@ false
 ;
 }
 onFindbarOpen
+:
+function
 (
 )
 {
@@ -1801,6 +1829,8 @@ reset
 ;
 }
 keyPress
+:
+function
 (
 aEvent
 )
@@ -1872,6 +1902,8 @@ MouseEvent
 click
 "
 {
+view
+:
 view
 cancelable
 :
@@ -2023,6 +2055,8 @@ break
 }
 }
 _notifyMatchesCount
+:
+function
 (
 result
 =
@@ -2097,6 +2131,8 @@ null
 ;
 }
 requestMatchesCount
+:
+function
 (
 aWord
 aLinksOnly
@@ -2417,6 +2453,8 @@ false
 ;
 }
 _getWindow
+:
+function
 (
 )
 {
@@ -2441,6 +2479,8 @@ nsIDOMWindow
 ;
 }
 _getResultRect
+:
+function
 (
 )
 {
@@ -2761,6 +2801,8 @@ value
 ;
 }
 _outlineLink
+:
+function
 (
 aDrawOutline
 )
@@ -2852,6 +2894,8 @@ foundLink
 }
 }
 _restoreOriginalOutline
+:
+function
 (
 )
 {
@@ -2895,6 +2939,8 @@ null
 }
 }
 _getSelectionController
+:
+function
 (
 aWindow
 )
@@ -2984,6 +3030,8 @@ controller
 ;
 }
 onLocationChange
+:
+function
 (
 aWebProgress
 aRequest

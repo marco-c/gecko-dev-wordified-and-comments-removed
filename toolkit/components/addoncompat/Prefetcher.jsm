@@ -1182,6 +1182,8 @@ prototype
 =
 {
 add
+:
+function
 (
 table
 obj
@@ -1260,6 +1262,8 @@ obj
 ;
 }
 cache
+:
+function
 (
 .
 .
@@ -1278,6 +1282,8 @@ args
 ;
 }
 process
+:
+function
 (
 )
 {
@@ -1351,6 +1357,8 @@ Prefetcher
 =
 {
 init
+:
+function
 (
 )
 {
@@ -1464,6 +1472,8 @@ false
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -1531,6 +1541,8 @@ false
 }
 }
 prefetch
+:
+function
 (
 trigger
 addons
@@ -1731,6 +1743,8 @@ cache
 :
 null
 generateCache
+:
+function
 (
 prefetched
 cpows
@@ -1822,6 +1836,8 @@ cache
 ;
 }
 withPrefetching
+:
+function
 (
 prefetched
 cpows
@@ -1889,6 +1905,8 @@ null
 }
 }
 lookupInCache
+:
+function
 (
 addon
 target

@@ -2610,6 +2610,8 @@ parentGuid
 :
 folderGuid
 index
+:
+index
 }
 )
 ;

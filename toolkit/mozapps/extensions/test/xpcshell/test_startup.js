@@ -622,6 +622,8 @@ addObserver
 (
 {
 observe
+:
+function
 (
 aSubject
 aTopic

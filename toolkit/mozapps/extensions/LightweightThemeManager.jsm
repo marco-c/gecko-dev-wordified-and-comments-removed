@@ -349,6 +349,8 @@ _maxUsedThemes
 "
 {
 get
+:
+function
 (
 )
 {
@@ -392,6 +394,8 @@ _maxUsedThemes
 ;
 }
 set
+:
+function
 (
 val
 )
@@ -790,6 +794,8 @@ false
 ;
 }
 setLocalTheme
+:
+function
 (
 aData
 )
@@ -802,6 +808,8 @@ true
 ;
 }
 getUsedTheme
+:
+function
 (
 aId
 )
@@ -839,6 +847,8 @@ null
 ;
 }
 forgetUsedTheme
+:
+function
 (
 aId
 )
@@ -949,6 +959,8 @@ wrapper
 ;
 }
 addBuiltInTheme
+:
+function
 (
 theme
 )
@@ -1038,6 +1050,8 @@ theme
 }
 }
 forgetBuiltInTheme
+:
+function
 (
 id
 )
@@ -1095,6 +1109,8 @@ id
 ;
 }
 clearBuiltInThemes
+:
+function
 (
 )
 {
@@ -1122,6 +1138,8 @@ id
 }
 }
 previewTheme
+:
+function
 (
 aData
 )
@@ -1242,6 +1260,8 @@ aData
 ;
 }
 resetPreview
+:
+function
 (
 )
 {
@@ -1270,6 +1290,8 @@ currentThemeForDisplay
 }
 }
 parseTheme
+:
+function
 (
 aString
 aBaseURI
@@ -1302,6 +1324,8 @@ null
 }
 }
 updateCurrentTheme
+:
+function
 (
 )
 {
@@ -1523,6 +1547,8 @@ null
 ;
 }
 themeChanged
+:
+function
 (
 aData
 )
@@ -1657,6 +1683,8 @@ null
 ;
 }
 startup
+:
+function
 (
 )
 {
@@ -1730,6 +1758,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -1744,6 +1774,8 @@ _prefObserver
 ;
 }
 addonChanged
+:
+function
 (
 aId
 aType
@@ -2066,6 +2098,8 @@ null
 }
 }
 getAddonByID
+:
+function
 (
 aId
 aCallback
@@ -2128,6 +2162,8 @@ theme
 ;
 }
 getAddonsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -2717,6 +2753,8 @@ false
 ;
 }
 uninstall
+:
+function
 (
 )
 {
@@ -2734,6 +2772,8 @@ id
 ;
 }
 cancelUninstall
+:
+function
 (
 )
 {
@@ -2754,6 +2794,8 @@ uninstalled
 ;
 }
 findUpdates
+:
+function
 (
 listener
 reason
@@ -2774,6 +2816,8 @@ platformVersion
 ;
 }
 isCompatibleWith
+:
+function
 (
 appVersion
 platformVersion
@@ -2836,6 +2880,8 @@ prototype
 prop
 {
 get
+:
+function
 (
 )
 {
@@ -2895,6 +2941,8 @@ prototype
 prop
 {
 get
+:
+function
 (
 )
 {
@@ -3850,6 +3898,8 @@ _previewTimerCallback
 =
 {
 notify
+:
+function
 (
 )
 {

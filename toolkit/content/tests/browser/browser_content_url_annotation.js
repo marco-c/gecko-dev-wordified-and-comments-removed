@@ -153,6 +153,8 @@ withNewTab
 (
 {
 gBrowser
+:
+gBrowser
 }
 function
 *

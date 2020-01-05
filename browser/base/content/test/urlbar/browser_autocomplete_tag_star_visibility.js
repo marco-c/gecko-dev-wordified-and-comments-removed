@@ -100,6 +100,8 @@ addVisits
 [
 {
 uri
+:
+uri
 title
 :
 Test

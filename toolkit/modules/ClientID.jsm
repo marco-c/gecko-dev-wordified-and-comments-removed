@@ -331,6 +331,8 @@ freeze
 (
 {
 getClientID
+:
+function
 (
 )
 {
@@ -343,6 +345,8 @@ getClientID
 ;
 }
 getCachedClientID
+:
+function
 (
 )
 {
@@ -355,6 +359,8 @@ getCachedClientID
 ;
 }
 _reset
+:
+function
 (
 )
 {
@@ -386,6 +392,8 @@ _logger
 :
 null
 _loadClientID
+:
+function
 (
 )
 {
@@ -649,6 +657,8 @@ null
 }
 )
 getClientID
+:
+function
 (
 )
 {
@@ -680,6 +690,8 @@ _clientID
 ;
 }
 getCachedClientID
+:
+function
 (
 )
 {
@@ -793,6 +805,8 @@ null
 }
 )
 updateClientID
+:
+function
 (
 id
 )

@@ -232,6 +232,8 @@ bubbles
 :
 true
 reason
+:
+reason
 }
 )
 ;
@@ -457,6 +459,8 @@ success
 }
 )
 collectFormFields
+:
+function
 (
 )
 {
@@ -622,6 +626,8 @@ info
 .
 fieldName
 element
+:
+element
 }
 )
 ;
@@ -760,6 +766,8 @@ autofillData
 ;
 }
 autofillFormFields
+:
+function
 (
 aAutofillResult
 )
@@ -848,6 +856,8 @@ value
 }
 }
 waitForTick
+:
+function
 (
 )
 {
@@ -926,6 +936,8 @@ nsIFormAutofillContentService
 ]
 )
 requestAutocomplete
+:
+function
 (
 aForm
 aWindow

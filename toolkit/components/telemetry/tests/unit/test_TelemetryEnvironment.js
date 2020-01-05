@@ -623,6 +623,8 @@ PLUGIN_MIME_TYPE1
 PLUGIN_MIME_TYPE2
 ]
 getMimeTypes
+:
+function
 (
 count
 )
@@ -683,6 +685,8 @@ PluginHost
 =
 {
 getPluginTags
+:
+function
 (
 countRef
 )
@@ -700,6 +704,8 @@ gInstalledPlugins
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )
@@ -1116,6 +1122,8 @@ aName
 ;
 }
 addAddon
+:
+function
 (
 aAddon
 )
@@ -1145,6 +1153,8 @@ aAddon
 ;
 }
 getAddonsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -3941,6 +3951,8 @@ updateDay
 "
 number
 "
+signedState
+:
 signedState
 isSystem
 :

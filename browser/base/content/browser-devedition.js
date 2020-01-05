@@ -83,6 +83,8 @@ org
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -166,6 +168,8 @@ true
 }
 }
 createStyleSheet
+:
+function
 (
 )
 {
@@ -241,6 +245,8 @@ true
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -371,6 +377,8 @@ _updateDevtoolsThemeAttribute
 }
 }
 _inferBrightness
+:
+function
 (
 )
 {
@@ -492,6 +500,8 @@ textColor
 }
 }
 _updateDevtoolsThemeAttribute
+:
+function
 (
 )
 {
@@ -552,6 +562,8 @@ _inferBrightness
 ;
 }
 handleEvent
+:
+function
 (
 e
 )
@@ -590,6 +602,8 @@ refreshBrowserDisplay
 }
 }
 refreshBrowserDisplay
+:
+function
 (
 )
 {
@@ -617,6 +631,8 @@ _inferBrightness
 }
 }
 _toggleStyleSheet
+:
+function
 (
 deveditionThemeEnabled
 )
@@ -698,6 +714,8 @@ refreshBrowserDisplay
 }
 }
 uninit
+:
+function
 (
 )
 {

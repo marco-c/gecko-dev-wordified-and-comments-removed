@@ -150,6 +150,8 @@ OAuth
 flow
 "
 run
+:
+function
 (
 )
 {
@@ -497,6 +499,8 @@ forcing
 auth
 "
 run
+:
+function
 (
 )
 {
@@ -866,6 +870,8 @@ state
 mismatch
 "
 run
+:
+function
 (
 )
 {
@@ -1061,6 +1067,8 @@ OAuth
 flow
 "
 run
+:
+function
 (
 )
 {
@@ -1291,6 +1299,8 @@ explicitly
 requested
 "
 run
+:
+function
 (
 )
 {
@@ -1497,6 +1507,8 @@ be
 obtained
 "
 run
+:
+function
 (
 )
 {

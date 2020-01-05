@@ -186,6 +186,8 @@ handler
 =
 {
 handleError
+:
+function
 (
 error
 )
@@ -212,6 +214,8 @@ false
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )

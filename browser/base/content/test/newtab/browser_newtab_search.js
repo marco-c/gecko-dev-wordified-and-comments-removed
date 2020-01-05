@@ -1175,6 +1175,8 @@ null
 false
 {
 onSuccess
+:
+function
 (
 engine
 )
@@ -1205,6 +1207,8 @@ engine
 ;
 }
 onError
+:
+function
 (
 errCode
 )

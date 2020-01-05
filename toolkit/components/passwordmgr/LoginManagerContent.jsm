@@ -1266,6 +1266,8 @@ request
 .
 form
 loginsFound
+:
+loginsFound
 recipes
 :
 msg
@@ -1423,6 +1425,8 @@ requestData
 =
 {
 form
+:
+form
 }
 ;
 let
@@ -1430,7 +1434,13 @@ messageData
 =
 {
 formOrigin
+:
+formOrigin
 actionOrigin
+:
+actionOrigin
+options
+:
 options
 }
 ;
@@ -1567,10 +1577,16 @@ messageData
 =
 {
 formOrigin
+:
+formOrigin
+actionOrigin
+:
 actionOrigin
 searchString
 :
 aSearchString
+previousResult
+:
 previousResult
 rect
 :
@@ -1593,6 +1609,8 @@ type
 "
 password
 "
+remote
+:
 remote
 }
 ;
@@ -2847,6 +2865,8 @@ index
 :
 i
 element
+:
+element
 }
 ;
 }
@@ -4009,6 +4029,10 @@ onFormSubmit
 "
 {
 hostname
+:
+hostname
+formSubmitURL
+:
 formSubmitURL
 usernameField
 :

@@ -227,6 +227,8 @@ count
 }
 {
 handleResult
+:
+function
 (
 aNumEntries
 )
@@ -261,6 +263,8 @@ A
 }
 {
 handleResult
+:
+function
 (
 aNumEntries2
 )
@@ -279,6 +283,8 @@ run_next_test
 ;
 }
 handleError
+:
+function
 (
 aError2
 )
@@ -307,6 +313,8 @@ entry
 ;
 }
 handleError
+:
+function
 (
 aError
 )

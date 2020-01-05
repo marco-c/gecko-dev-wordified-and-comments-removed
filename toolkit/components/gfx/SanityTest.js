@@ -801,6 +801,8 @@ ContentLoaded
 "
 ]
 scheduleTest
+:
+function
 (
 win
 )
@@ -882,6 +884,8 @@ endTest
 ;
 }
 runSanityTest
+:
+function
 (
 )
 {
@@ -1003,6 +1007,8 @@ break
 }
 }
 onWindowLoaded
+:
+function
 (
 )
 {
@@ -1136,6 +1142,8 @@ false
 ;
 }
 endTest
+:
+function
 (
 )
 {
@@ -1278,6 +1286,8 @@ nsISupportsWeakReference
 ]
 )
 shouldRunTest
+:
+function
 (
 )
 {
@@ -1493,6 +1503,8 @@ true
 ;
 }
 observe
+:
+function
 (
 subject
 topic

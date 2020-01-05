@@ -79,6 +79,8 @@ visit
 ;
 }
 handleResult
+:
+function
 (
 aPlaceInfo
 )

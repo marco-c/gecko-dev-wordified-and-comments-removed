@@ -2577,6 +2577,8 @@ _self
 :
 this
 QueryInterface
+:
+function
 (
 aIID
 )
@@ -2630,6 +2632,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic

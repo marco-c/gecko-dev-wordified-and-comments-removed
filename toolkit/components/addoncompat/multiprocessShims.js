@@ -361,6 +361,8 @@ nsISupportsWeakReference
 ]
 )
 getWhitelist
+:
+function
 (
 )
 {
@@ -371,6 +373,8 @@ _whitelist
 ;
 }
 getObjectTag
+:
+function
 (
 target
 )
@@ -487,6 +491,8 @@ generic
 ;
 }
 interposeProperty
+:
+function
 (
 addon
 target
@@ -744,6 +750,8 @@ prop
 ;
 }
 interposeCall
+:
+function
 (
 addonId
 originalFunc

@@ -611,6 +611,8 @@ loadExtension
 (
 {
 manifest
+:
+manifest
 useAddonManager
 :
 "
@@ -627,6 +629,8 @@ ExtensionTestUtils
 loadExtension
 (
 {
+manifest
+:
 manifest
 useAddonManager
 :
@@ -854,6 +858,8 @@ loadExtension
 (
 {
 manifest
+:
+manifest
 useAddonManager
 :
 "
@@ -999,6 +1005,8 @@ ExtensionTestUtils
 loadExtension
 (
 {
+manifest
+:
 manifest
 useAddonManager
 :

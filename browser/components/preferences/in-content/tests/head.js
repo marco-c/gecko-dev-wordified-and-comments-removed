@@ -800,6 +800,10 @@ resolve
 (
 {
 selectedPane
+:
+selectedPane
+selectedAdvancedTab
+:
 selectedAdvancedTab
 }
 )

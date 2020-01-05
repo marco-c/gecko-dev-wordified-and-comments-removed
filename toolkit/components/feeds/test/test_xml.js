@@ -22,6 +22,8 @@ prototype
 =
 {
 handleResult
+:
+function
 (
 result
 )

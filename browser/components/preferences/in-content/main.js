@@ -160,6 +160,8 @@ gMainPane
 =
 {
 init
+:
+function
 (
 )
 {
@@ -780,6 +782,8 @@ null
 ;
 }
 enableE10SChange
+:
+function
 (
 )
 {
@@ -947,6 +951,8 @@ value
 }
 }
 separateProfileModeChange
+:
+function
 (
 )
 {
@@ -1238,6 +1244,8 @@ return
 }
 }
 onGetStarted
+:
+function
 (
 aEvent
 )
@@ -1347,6 +1355,8 @@ accountsTab
 }
 }
 syncFromHomePref
+:
+function
 (
 )
 {
@@ -1468,6 +1478,8 @@ undefined
 ;
 }
 syncToHomePref
+:
+function
 (
 value
 )
@@ -1492,6 +1504,8 @@ undefined
 ;
 }
 setHomePageToCurrent
+:
+function
 (
 )
 {
@@ -1562,6 +1576,8 @@ join
 ;
 }
 setHomePageToBookmark
+:
+function
 (
 )
 {
@@ -1618,6 +1634,8 @@ rv
 ;
 }
 _setHomePageToBookmarkClosed
+:
+function
 (
 rv
 aEvent
@@ -1684,6 +1702,8 @@ join
 }
 }
 _updateUseCurrentButton
+:
+function
 (
 )
 {
@@ -1781,6 +1801,8 @@ tabs
 length
 }
 _getTabsForHomePage
+:
+function
 (
 )
 {
@@ -1905,6 +1927,8 @@ tabs
 ;
 }
 isNotAboutPreferences
+:
+function
 (
 aElement
 aIndex
@@ -1932,6 +1956,8 @@ preferences
 ;
 }
 restoreDefaultHomePage
+:
+function
 (
 )
 {
@@ -1961,6 +1987,8 @@ defaultValue
 ;
 }
 readUseDownloadDir
+:
+function
 (
 )
 {
@@ -2594,6 +2622,8 @@ size
 }
 )
 _getDisplayNameOfFile
+:
+function
 (
 aFolder
 )
@@ -2852,6 +2882,8 @@ value
 }
 )
 updateBrowserStartupLastSession
+:
+function
 (
 )
 {
@@ -2972,6 +3004,8 @@ updateElements
 }
 }
 readLinkTarget
+:
+function
 (
 )
 {
@@ -3001,6 +3035,8 @@ value
 ;
 }
 writeLinkTarget
+:
+function
 (
 )
 {
@@ -3027,6 +3063,8 @@ checked
 ;
 }
 updateSetDefaultBrowser
+:
+function
 (
 )
 {
@@ -3135,6 +3173,8 @@ checked
 }
 }
 setDefaultBrowser
+:
+function
 (
 )
 {

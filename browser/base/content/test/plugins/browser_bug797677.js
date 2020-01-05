@@ -178,6 +178,8 @@ errorListener
 =
 {
 observe
+:
+function
 (
 aMessage
 )
@@ -256,6 +258,10 @@ found
 "
 )
 ;
+/
+/
+simple
+cpows
 yield
 ContentTask
 .

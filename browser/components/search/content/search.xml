@@ -3362,6 +3362,8 @@ aData
 }
 {
 handleError
+:
+function
 (
 aError
 )
@@ -3885,6 +3887,8 @@ currentEngine
 speculativeConnect
 (
 {
+window
+:
 window
 }
 )
@@ -6401,6 +6405,8 @@ _self
 :
 this
 supportsCommand
+:
+function
 (
 aCommand
 )
@@ -6423,6 +6429,8 @@ cmd_togglesuggest
 ;
 }
 isCommandEnabled
+:
+function
 (
 aCommand
 )
@@ -6432,6 +6440,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 aCommand
 )
@@ -17717,6 +17727,8 @@ _rebuild
 ;
 }
 onError
+:
+function
 (
 errorCode
 )

@@ -2256,6 +2256,8 @@ Some
 author
 "
 developer
+:
+developer
 homepage_url
 :
 "
@@ -2367,6 +2369,8 @@ promiseInstallWebExtension
 manifest
 :
 {
+author
+:
 author
 manifest_version
 :

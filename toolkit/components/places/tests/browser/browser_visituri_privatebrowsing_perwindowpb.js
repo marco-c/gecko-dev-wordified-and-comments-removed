@@ -104,6 +104,8 @@ observer
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

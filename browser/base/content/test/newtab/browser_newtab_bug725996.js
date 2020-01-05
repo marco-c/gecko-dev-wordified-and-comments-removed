@@ -66,6 +66,8 @@ gBrowser
 selectedBrowser
 {
 data
+:
+data
 }
 function
 *

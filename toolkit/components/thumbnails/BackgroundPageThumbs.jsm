@@ -289,6 +289,8 @@ BackgroundPageThumbs
 =
 {
 capture
+:
+function
 (
 url
 options
@@ -692,6 +694,8 @@ url
 }
 )
 renewThumbnailBrowser
+:
+function
 (
 )
 {
@@ -703,6 +707,8 @@ true
 ;
 }
 _ensureParentWindowReady
+:
+function
 (
 )
 {
@@ -849,6 +855,8 @@ false
 ;
 }
 _destroy
+:
+function
 (
 )
 {
@@ -916,6 +924,8 @@ _parentWin
 ;
 }
 _ensureBrowser
+:
+function
 (
 )
 {
@@ -1259,6 +1269,8 @@ browser
 ;
 }
 _destroyBrowser
+:
+function
 (
 )
 {
@@ -1286,6 +1298,8 @@ _thumbBrowser
 ;
 }
 _processCaptureQueue
+:
+function
 (
 )
 {
@@ -1363,6 +1377,8 @@ _destroyBrowserTimer
 }
 }
 _onCaptureOrTimeout
+:
+function
 (
 capture
 )
@@ -1668,6 +1684,8 @@ _msgMan
 ;
 }
 start
+:
+function
 (
 messageManager
 )
@@ -1806,6 +1824,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1874,6 +1894,8 @@ options
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -1964,6 +1986,8 @@ TEL_CAPTURE_DONE_OK
 ;
 }
 notify
+:
+function
 (
 )
 {
@@ -1977,6 +2001,8 @@ TEL_CAPTURE_DONE_TIMEOUT
 ;
 }
 _done
+:
+function
 (
 data
 reason

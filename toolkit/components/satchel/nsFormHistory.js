@@ -624,6 +624,8 @@ lastUsed
 :
 now
 id
+:
+id
 }
 ;
 try
@@ -751,6 +753,8 @@ fieldname
 :
 name
 value
+:
+value
 timesUsed
 :
 1
@@ -760,6 +764,8 @@ now
 lastUsed
 :
 now
+guid
+:
 guid
 }
 ;
@@ -913,6 +919,8 @@ params
 =
 {
 id
+:
+id
 }
 ;
 let
@@ -955,6 +963,8 @@ timeDeleted
 )
 "
 {
+guid
+:
 guid
 timeDeleted
 :
@@ -1681,6 +1691,10 @@ params
 =
 {
 beginTime
+:
+beginTime
+endTime
+:
 endTime
 }
 ;
@@ -1739,6 +1753,10 @@ endTime
 "
 {
 beginTime
+:
+beginTime
+endTime
+:
 endTime
 }
 )
@@ -2194,6 +2212,8 @@ break
 }
 }
 generateGUID
+:
+function
 (
 )
 {
@@ -2298,6 +2318,8 @@ raw
 ;
 }
 sendStringNotification
+:
+function
 (
 changeType
 str1
@@ -2435,6 +2457,8 @@ strData
 ;
 }
 sendIntNotification
+:
+function
 (
 changeType
 int1
@@ -2560,6 +2584,8 @@ intData
 ;
 }
 sendNotification
+:
+function
 (
 changeType
 data
@@ -2584,6 +2610,8 @@ changeType
 ;
 }
 getExistingEntryID
+:
+function
 (
 name
 value
@@ -2629,6 +2657,8 @@ params
 fieldname
 :
 name
+value
+:
 value
 }
 ;
@@ -2716,6 +2746,8 @@ guid
 ;
 }
 countAllEntries
+:
+function
 (
 )
 {
@@ -2822,6 +2854,8 @@ numEntries
 ;
 }
 updatePrefs
+:
+function
 (
 )
 {
@@ -2865,6 +2899,8 @@ enable
 ;
 }
 dbCreateStatement
+:
+function
 (
 query
 params
@@ -2951,6 +2987,8 @@ stmt
 ;
 }
 dbOpen
+:
+function
 (
 )
 {
@@ -3001,6 +3039,8 @@ dbFile
 ;
 }
 dbInit
+:
+function
 (
 )
 {
@@ -3066,6 +3106,8 @@ version
 ;
 }
 dbCreate
+:
+function
 (
 )
 {
@@ -3211,6 +3253,8 @@ DB_VERSION
 ;
 }
 dbCreateTable
+:
+function
 (
 name
 table
@@ -3282,6 +3326,8 @@ tSQL
 ;
 }
 dbMigrate
+:
+function
 (
 oldVersion
 )
@@ -3484,6 +3530,8 @@ completed
 ;
 }
 dbMigrateToVersion1
+:
+function
 (
 )
 {
@@ -3664,6 +3712,8 @@ reset
 }
 }
 dbMigrateToVersion2
+:
+function
 (
 )
 {
@@ -3714,6 +3764,8 @@ query
 ;
 }
 dbMigrateToVersion3
+:
+function
 (
 )
 {
@@ -3900,6 +3952,8 @@ params
 =
 {
 id
+:
+id
 guid
 :
 this
@@ -3969,6 +4023,8 @@ reset
 }
 }
 dbMigrateToVersion4
+:
+function
 (
 )
 {
@@ -4006,6 +4062,8 @@ moz_deleted_formhistory
 }
 }
 dbAreExpectedColumnsPresent
+:
+function
 (
 )
 {
@@ -4112,6 +4170,8 @@ true
 ;
 }
 dbColumnExists
+:
+function
 (
 columnName
 )
@@ -4309,6 +4369,8 @@ true
 }
 }
 dbCleanup
+:
+function
 (
 )
 {

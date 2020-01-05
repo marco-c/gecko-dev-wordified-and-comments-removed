@@ -161,6 +161,8 @@ gFontsDialog
 =
 {
 _selectLanguageGroup
+:
+function
 (
 aLanguageGroup
 )
@@ -572,6 +574,8 @@ element
 }
 }
 readFontLanguageGroup
+:
+function
 (
 )
 {
@@ -605,6 +609,8 @@ undefined
 ;
 }
 readUseDocumentFonts
+:
+function
 (
 )
 {
@@ -634,6 +640,8 @@ value
 ;
 }
 writeUseDocumentFonts
+:
+function
 (
 )
 {
@@ -660,6 +668,8 @@ checked
 ;
 }
 onBeforeAccept
+:
+function
 (
 )
 {

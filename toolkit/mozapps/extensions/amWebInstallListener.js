@@ -364,6 +364,8 @@ isDownloading
 :
 true
 checkAllDownloaded
+:
+function
 (
 )
 {
@@ -894,6 +896,8 @@ downloads
 }
 }
 checkAllInstalled
+:
+function
 (
 )
 {
@@ -1018,6 +1022,8 @@ null
 ;
 }
 onDownloadCancelled
+:
+function
 (
 aInstall
 )
@@ -1037,6 +1043,8 @@ checkAllDownloaded
 ;
 }
 onDownloadFailed
+:
+function
 (
 aInstall
 )
@@ -1056,6 +1064,8 @@ checkAllDownloaded
 ;
 }
 onDownloadEnded
+:
+function
 (
 aInstall
 )
@@ -1071,6 +1081,8 @@ false
 ;
 }
 onInstallCancelled
+:
+function
 (
 aInstall
 )
@@ -1090,6 +1102,8 @@ checkAllInstalled
 ;
 }
 onInstallFailed
+:
+function
 (
 aInstall
 )
@@ -1109,6 +1123,8 @@ checkAllInstalled
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 )
@@ -1193,6 +1209,8 @@ prototype
 =
 {
 onWebInstallDisabled
+:
+function
 (
 aBrowser
 aUri
@@ -1245,6 +1263,8 @@ null
 ;
 }
 onWebInstallOriginBlocked
+:
+function
 (
 aBrowser
 aUri
@@ -1265,6 +1285,8 @@ installs
 :
 aInstalls
 install
+:
+function
 (
 )
 {
@@ -1307,6 +1329,8 @@ false
 ;
 }
 onWebInstallBlocked
+:
+function
 (
 aBrowser
 aUri
@@ -1327,6 +1351,8 @@ installs
 :
 aInstalls
 install
+:
+function
 (
 )
 {
@@ -1381,6 +1407,8 @@ false
 ;
 }
 onWebInstallRequested
+:
+function
 (
 aBrowser
 aUri

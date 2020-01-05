@@ -931,6 +931,8 @@ nsIPermissionManager
 .
 EXPIRE_SESSION
 callback
+:
+function
 (
 )
 {
@@ -975,6 +977,8 @@ nsIPermissionManager
 .
 EXPIRE_SESSION
 callback
+:
+function
 (
 )
 {
@@ -1686,6 +1690,8 @@ accessKey
 M
 "
 callback
+:
+function
 (
 )
 {
@@ -1716,6 +1722,8 @@ accessKey
 D
 "
 callback
+:
+function
 (
 )
 {

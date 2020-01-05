@@ -585,6 +585,8 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
+:
+function
 (
 )
 {
@@ -603,6 +605,8 @@ information
 ;
 }
 onNoUpdateAvailable
+:
+function
 (
 )
 {
@@ -620,6 +624,8 @@ update
 ;
 }
 onUpdateAvailable
+:
+function
 (
 unused
 install
@@ -638,6 +644,8 @@ version
 )
 }
 onUpdateFinished
+:
+function
 (
 )
 {
@@ -714,6 +722,8 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
+:
+function
 (
 )
 {
@@ -732,6 +742,8 @@ information
 ;
 }
 onNoUpdateAvailable
+:
+function
 (
 )
 {
@@ -749,6 +761,8 @@ update
 ;
 }
 onUpdateAvailable
+:
+function
 (
 unused
 install
@@ -767,6 +781,8 @@ version
 )
 }
 onUpdateFinished
+:
+function
 (
 )
 {
@@ -849,6 +865,8 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
+:
+function
 (
 )
 {
@@ -867,6 +885,8 @@ information
 ;
 }
 onUpdateAvailable
+:
+function
 (
 )
 {
@@ -885,6 +905,8 @@ update
 ;
 }
 onUpdateFinished
+:
+function
 (
 )
 {
@@ -957,6 +979,8 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
+:
+function
 (
 )
 {
@@ -975,6 +999,8 @@ information
 ;
 }
 onNoUpdateAvailable
+:
+function
 (
 )
 {
@@ -992,6 +1018,8 @@ update
 ;
 }
 onUpdateAvailable
+:
+function
 (
 unused
 install
@@ -1010,6 +1038,8 @@ version
 )
 }
 onUpdateFinished
+:
+function
 (
 )
 {

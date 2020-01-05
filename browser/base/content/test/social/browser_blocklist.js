@@ -496,6 +496,8 @@ tests
 =
 {
 testSimpleBlocklist
+:
+function
 (
 next
 )
@@ -605,6 +607,8 @@ next
 ;
 }
 testAddingNonBlockedProvider
+:
+function
 (
 next
 )
@@ -783,6 +787,8 @@ false
 ;
 }
 testAddingBlockedProvider
+:
+function
 (
 next
 )
@@ -936,6 +942,8 @@ true
 ;
 }
 testInstallingBlockedProvider
+:
+function
 (
 next
 )
@@ -1023,6 +1031,8 @@ manifest
 :
 manifest_bad
 window
+:
+window
 }
 Social
 .
@@ -1059,6 +1069,8 @@ true
 ;
 }
 testBlockingExistingProvider
+:
+function
 (
 next
 )
@@ -1071,6 +1083,8 @@ _window
 :
 null
 onOpenWindow
+:
+function
 (
 aXULWindow
 )
@@ -1255,12 +1269,16 @@ false
 ;
 }
 onCloseWindow
+:
+function
 (
 aXULWindow
 )
 {
 }
 onWindowTitleChange
+:
+function
 (
 aXULWindow
 aNewTitle

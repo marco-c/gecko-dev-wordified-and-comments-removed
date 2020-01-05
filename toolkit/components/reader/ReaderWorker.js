@@ -222,6 +222,8 @@ Agent
 =
 {
 parseDocument
+:
+function
 (
 uri
 serializedDoc

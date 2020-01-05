@@ -118,6 +118,8 @@ gListener
 =
 {
 onSearchResult
+:
+function
 (
 aSearch
 aResult

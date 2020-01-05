@@ -102,6 +102,8 @@ prototype
 =
 {
 runBatched
+:
+function
 (
 aUserData
 )

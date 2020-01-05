@@ -178,6 +178,8 @@ Agent
 =
 {
 bounce
+:
+function
 (
 .
 .
@@ -190,6 +192,8 @@ args
 ;
 }
 throwError
+:
+function
 (
 msg
 .

@@ -1078,6 +1078,8 @@ freeze
 (
 {
 executeBeforeShutdown
+:
+function
 (
 parent
 name
@@ -1532,6 +1534,8 @@ this
 ;
 }
 close
+:
+function
 (
 )
 {
@@ -1618,6 +1622,8 @@ _finalize
 ;
 }
 clone
+:
+function
 (
 readOnly
 =
@@ -1655,6 +1661,8 @@ this
 .
 _dbConn
 readOnly
+:
+readOnly
 }
 ;
 if
@@ -1679,6 +1687,8 @@ options
 ;
 }
 _getOperationId
+:
+function
 (
 )
 {
@@ -1691,6 +1701,8 @@ _operationsCounter
 ;
 }
 _finalize
+:
+function
 (
 )
 {
@@ -1917,6 +1929,8 @@ promise
 ;
 }
 executeCached
+:
+function
 (
 sql
 params
@@ -2079,6 +2093,8 @@ ex
 ;
 }
 execute
+:
+function
 (
 sql
 params
@@ -2286,6 +2302,8 @@ _hasInProgressTransaction
 ;
 }
 executeTransaction
+:
+function
 (
 func
 type
@@ -2845,6 +2863,8 @@ promise
 ;
 }
 shrinkMemory
+:
+function
 (
 )
 {
@@ -2893,6 +2913,8 @@ onShrunk
 ;
 }
 discardCachedStatements
+:
+function
 (
 )
 {
@@ -2956,6 +2978,8 @@ count
 ;
 }
 _bindParameters
+:
+function
 (
 statement
 params
@@ -3172,6 +3196,8 @@ params
 ;
 }
 _executeStatement
+:
+function
 (
 sql
 statement
@@ -3386,6 +3412,8 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 resultSet
 )
@@ -3489,6 +3517,8 @@ e
 }
 }
 handleError
+:
+function
 (
 error
 )
@@ -3530,6 +3560,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -3746,6 +3778,8 @@ promise
 ;
 }
 ensureOpen
+:
+function
 (
 )
 {
@@ -3773,6 +3807,8 @@ open
 }
 }
 _clearIdleShrinkTimer
+:
+function
 (
 )
 {
@@ -3797,6 +3833,8 @@ cancel
 ;
 }
 _startIdleShrinkTimer
+:
+function
 (
 )
 {
@@ -4959,6 +4997,8 @@ EXCLUSIVE
 "
 ]
 getSchemaVersion
+:
+function
 (
 )
 {
@@ -5014,6 +5054,8 @@ getInt32
 ;
 }
 setSchemaVersion
+:
+function
 (
 value
 )
@@ -5072,6 +5114,8 @@ value
 ;
 }
 close
+:
+function
 (
 )
 {
@@ -5124,6 +5168,8 @@ close
 ;
 }
 clone
+:
+function
 (
 readOnly
 =
@@ -5142,6 +5188,8 @@ readOnly
 ;
 }
 executeBeforeShutdown
+:
+function
 (
 name
 task
@@ -5161,6 +5209,8 @@ task
 ;
 }
 executeCached
+:
+function
 (
 sql
 params
@@ -5209,6 +5259,8 @@ onRow
 ;
 }
 execute
+:
+function
 (
 sql
 params
@@ -5270,6 +5322,8 @@ transactionInProgress
 ;
 }
 executeTransaction
+:
+function
 (
 func
 type
@@ -5330,6 +5384,8 @@ type
 ;
 }
 tableExists
+:
+function
 (
 name
 )
@@ -5402,6 +5458,8 @@ length
 ;
 }
 indexExists
+:
+function
 (
 name
 )
@@ -5474,6 +5532,8 @@ length
 ;
 }
 shrinkMemory
+:
+function
 (
 )
 {
@@ -5488,6 +5548,8 @@ shrinkMemory
 ;
 }
 discardCachedStatements
+:
+function
 (
 )
 {
@@ -5510,7 +5572,13 @@ Sqlite
 =
 {
 openConnection
+:
+openConnection
 cloneStorageConnection
+:
+cloneStorageConnection
+wrapStorageConnection
+:
 wrapStorageConnection
 get
 shutdown

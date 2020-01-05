@@ -147,6 +147,8 @@ domwindow
 :
 null
 handleEvent
+:
+function
 (
 event
 )
@@ -213,6 +215,8 @@ domwindow
 ;
 }
 onWindowTitleChange
+:
+function
 (
 window
 title
@@ -220,6 +224,8 @@ title
 {
 }
 onOpenWindow
+:
+function
 (
 window
 )
@@ -277,6 +283,8 @@ false
 ;
 }
 onCloseWindow
+:
+function
 (
 window
 )
@@ -374,6 +382,8 @@ gInstallNotificationObserver
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

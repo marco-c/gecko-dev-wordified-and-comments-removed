@@ -24,6 +24,8 @@ WindowWatcher
 =
 {
 openWindow
+:
+function
 (
 aParent
 aUrl
@@ -56,6 +58,8 @@ WindowMediator
 =
 {
 getMostRecentWindow
+:
+function
 (
 aWindowType
 )

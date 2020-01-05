@@ -24,6 +24,8 @@ single
 child
 "
 loading
+:
+function
 (
 node
 newState
@@ -56,6 +58,8 @@ STATE_CLOSED
 ;
 }
 opened
+:
+function
 (
 node
 newState
@@ -129,6 +133,8 @@ false
 ;
 }
 closed
+:
+function
 (
 node
 newState
@@ -199,6 +205,8 @@ be
 synchronous
 "
 loading
+:
+function
 (
 node
 newState
@@ -241,6 +249,8 @@ STATE_CLOSED
 ;
 }
 opened
+:
+function
 (
 node
 newState
@@ -323,6 +333,8 @@ false
 ;
 }
 closed
+:
+function
 (
 node
 newState
@@ -412,6 +424,8 @@ be
 called
 "
 loading
+:
+function
 (
 node
 newState
@@ -458,6 +472,8 @@ false
 ;
 }
 opened
+:
+function
 (
 node
 newState
@@ -477,6 +493,8 @@ called
 ;
 }
 closed
+:
+function
 (
 node
 newState
@@ -556,6 +574,8 @@ prototype
 =
 {
 checkArgs
+:
+function
 (
 aNewState
 aNode
@@ -622,6 +642,8 @@ aExpectOldState
 ;
 }
 checkStateChanged
+:
+function
 (
 aState
 aExpectedMin
@@ -681,6 +703,8 @@ aExpectedMax
 ;
 }
 checkState
+:
+function
 (
 aState
 aExpectedMin
@@ -808,6 +832,8 @@ cnt
 ;
 }
 openContainer
+:
+function
 (
 )
 {
@@ -822,6 +848,8 @@ observer
 =
 {
 containerStateChanged
+:
+function
 (
 container
 oldState
@@ -983,6 +1011,8 @@ true
 ;
 }
 run
+:
+function
 (
 )
 {
@@ -1000,8 +1030,10 @@ deferNextTest
 promise
 ;
 }
-*
 setup
+:
+function
+*
 (
 )
 {
@@ -1132,6 +1164,8 @@ opts
 ;
 }
 success
+:
+function
 (
 )
 {

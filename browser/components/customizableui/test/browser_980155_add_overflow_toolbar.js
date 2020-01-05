@@ -88,6 +88,8 @@ spec
 =
 {
 id
+:
+id
 type
 :
 "

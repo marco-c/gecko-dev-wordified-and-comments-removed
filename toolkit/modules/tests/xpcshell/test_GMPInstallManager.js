@@ -5019,12 +5019,16 @@ prototype
 =
 {
 overrideMimeType
+:
+function
 (
 aMimetype
 )
 {
 }
 setRequestHeader
+:
+function
 (
 aHeader
 aValue
@@ -5046,6 +5050,8 @@ aVal
 }
 }
 open
+:
+function
 (
 aMethod
 aUrl
@@ -5082,6 +5088,8 @@ aUrl
 ;
 }
 abort
+:
+function
 (
 )
 {
@@ -5113,6 +5121,8 @@ responseText
 :
 null
 send
+:
+function
 (
 aBody
 )
@@ -5482,6 +5492,8 @@ aValue
 ;
 }
 _notify
+:
+function
 (
 events
 )
@@ -5580,6 +5592,8 @@ listeners
 }
 }
 addEventListener
+:
+function
 (
 aEvent
 aValue
@@ -5618,6 +5632,8 @@ getScriptableHelper
 >
 null
 getInterfaces
+:
+function
 (
 aCount
 )
@@ -5682,6 +5698,8 @@ a5e0
 "
 )
 createInstance
+:
+function
 (
 aOuter
 aIID
@@ -5709,6 +5727,8 @@ NS_ERROR_NO_AGGREGATION
 ;
 }
 QueryInterface
+:
+function
 (
 aIID
 )

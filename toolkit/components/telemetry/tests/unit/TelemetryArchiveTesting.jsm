@@ -194,6 +194,8 @@ prototype
 =
 {
 promiseInit
+:
+function
 (
 )
 {
@@ -366,6 +368,8 @@ TelemetryArchiveTesting
 =
 {
 setup
+:
+function
 (
 )
 {
@@ -408,6 +412,8 @@ true
 )
 ;
 }
+Checker
+:
 Checker
 }
 ;

@@ -2306,6 +2306,8 @@ gGlobalScope
 name
 {
 get
+:
+function
 (
 )
 {
@@ -2741,6 +2743,8 @@ _createdDirs
 :
 null
 _installFile
+:
+function
 (
 aFile
 aTargetDirectory
@@ -2880,12 +2884,18 @@ push
 (
 {
 oldFile
+:
+oldFile
+newFile
+:
 newFile
 }
 )
 ;
 }
 _installDirectory
+:
+function
 (
 aDirectory
 aTargetDirectory
@@ -3141,6 +3151,8 @@ newDir
 ;
 }
 _installDirEntry
+:
+function
 (
 aDirEntry
 aTargetDirectory
@@ -3302,6 +3314,8 @@ e
 }
 }
 moveUnder
+:
+function
 (
 aFile
 aTargetDirectory
@@ -3336,6 +3350,8 @@ e
 }
 }
 moveTo
+:
+function
 (
 aOldLocation
 aNewLocation
@@ -3379,6 +3395,10 @@ push
 (
 {
 oldFile
+:
+oldFile
+newFile
+:
 newFile
 isMoveTo
 :
@@ -3404,6 +3424,8 @@ e
 }
 }
 copy
+:
+function
 (
 aFile
 aTargetDirectory
@@ -3438,6 +3460,8 @@ e
 }
 }
 rollback
+:
+function
 (
 )
 {
@@ -9294,6 +9318,8 @@ callback
 =
 {
 openSignedAppFileFinished
+:
+function
 (
 aRv
 aZipReader
@@ -9427,6 +9453,8 @@ callback
 =
 {
 verifySignedDirectoryFinished
+:
+function
 (
 aRv
 aCert
@@ -10707,6 +10735,8 @@ aFile
 .
 path
 e
+:
+e
 }
 )
 ;
@@ -11211,6 +11241,8 @@ location
 "
 {
 id
+:
+id
 location
 :
 location
@@ -11338,6 +11370,8 @@ location
 "
 {
 id
+:
+id
 location
 :
 location
@@ -11367,6 +11401,8 @@ location
 }
 "
 {
+id
+:
 id
 location
 :
@@ -11909,6 +11945,8 @@ _closing
 :
 false
 sortBootstrappedAddons
+:
+function
 (
 )
 {
@@ -12069,6 +12107,8 @@ id
 ;
 }
 setTelemetry
+:
+function
 (
 aId
 aName
@@ -12113,6 +12153,8 @@ _inProgress
 [
 ]
 doing
+:
+function
 (
 aCancellable
 )
@@ -12128,6 +12170,8 @@ aCancellable
 ;
 }
 done
+:
+function
 (
 aCancellable
 )
@@ -12172,6 +12216,8 @@ false
 ;
 }
 cancelAll
+:
+function
 (
 )
 {
@@ -12226,6 +12272,8 @@ e
 }
 }
 _addURIMapping
+:
+function
 (
 aID
 aFile
@@ -12274,6 +12322,8 @@ aID
 ;
 }
 _resolveURIToFile
+:
+function
 (
 aURI
 )
@@ -12493,6 +12543,8 @@ null
 }
 }
 startup
+:
+function
 (
 aAppChanged
 aOldAppVersion
@@ -13739,6 +13791,8 @@ addObserver
 (
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -13913,6 +13967,8 @@ addObserver
 (
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -14070,6 +14126,8 @@ e
 }
 }
 shutdown
+:
+function
 (
 )
 {
@@ -14322,6 +14380,8 @@ undefined
 ;
 }
 applyThemeChange
+:
+function
 (
 )
 {
@@ -14426,6 +14486,8 @@ PREF_DSS_SWITCHPENDING
 ;
 }
 shouldForceUpdateCheck
+:
+function
 (
 aAppChanged
 )
@@ -14630,6 +14692,8 @@ false
 ;
 }
 showUpgradeUI
+:
+function
 (
 aAddonIDs
 )
@@ -15644,6 +15708,8 @@ addon
 }
 )
 verifySignatures
+:
+function
 (
 )
 {
@@ -15847,6 +15913,8 @@ err
 ;
 }
 persistBootstrappedAddons
+:
+function
 (
 )
 {
@@ -15916,6 +15984,8 @@ filtered
 ;
 }
 addAddonsToCrashReporter
+:
+function
 (
 )
 {
@@ -16064,6 +16134,8 @@ data
 ;
 }
 processPendingFileChanges
+:
+function
 (
 aManifests
 )
@@ -17043,6 +17115,8 @@ uninstall
 uninstallReason
 {
 newVersion
+:
+newVersion
 }
 )
 ;
@@ -17209,6 +17283,8 @@ changed
 ;
 }
 installDistributionAddons
+:
+function
 (
 aManifests
 aAppChanged
@@ -17821,6 +17897,8 @@ changed
 ;
 }
 importPermissions
+:
+function
 (
 )
 {
@@ -17834,6 +17912,8 @@ XPI_PERMISSION
 ;
 }
 getDependentAddons
+:
+function
 (
 aAddon
 )
@@ -17869,6 +17949,8 @@ id
 ;
 }
 checkForChanges
+:
+function
 (
 aAppChanged
 aOldAppVersion
@@ -18685,6 +18767,8 @@ false
 ;
 }
 supportsMimetype
+:
+function
 (
 aMimetype
 )
@@ -18703,6 +18787,8 @@ xpinstall
 ;
 }
 isInstallEnabled
+:
+function
 (
 )
 {
@@ -18717,6 +18803,8 @@ true
 ;
 }
 isDirectRequestWhitelisted
+:
+function
 (
 )
 {
@@ -18731,6 +18819,8 @@ true
 ;
 }
 isFileRequestWhitelisted
+:
+function
 (
 )
 {
@@ -18745,6 +18835,8 @@ true
 ;
 }
 isInstallAllowed
+:
+function
 (
 aInstallingPrincipal
 )
@@ -18928,6 +19020,8 @@ true
 ;
 }
 isTemporaryInstallID
+:
+function
 (
 id
 )
@@ -18942,6 +19036,8 @@ TEMPORARY_ADDON_SUFFIX
 ;
 }
 getInstallForURL
+:
+function
 (
 aUrl
 aHash
@@ -19060,6 +19156,8 @@ wrapper
 }
 }
 getInstallForFile
+:
+function
 (
 aFile
 aCallback
@@ -19092,6 +19190,8 @@ null
 ;
 }
 installTemporaryAddon
+:
+function
 (
 aFile
 )
@@ -19747,6 +19847,8 @@ wrapper
 }
 )
 getAddonByInstanceID
+:
+function
 (
 aInstanceID
 )
@@ -19878,6 +19980,8 @@ null
 ;
 }
 removeActiveInstall
+:
+function
 (
 aInstall
 )
@@ -19893,6 +19997,8 @@ aInstall
 ;
 }
 getAddonByID
+:
+function
 (
 aId
 aCallback
@@ -19924,6 +20030,8 @@ null
 ;
 }
 getAddonsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -19967,6 +20075,8 @@ wrapper
 ;
 }
 getAddonBySyncGUID
+:
+function
 (
 aGUID
 aCallback
@@ -19998,6 +20108,8 @@ null
 ;
 }
 getAddonsWithOperationsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -20089,6 +20201,8 @@ results
 ;
 }
 getInstallsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -20155,6 +20269,8 @@ wrapper
 ;
 }
 mapURIToAddonID
+:
+function
 (
 aURI
 )
@@ -20172,6 +20288,8 @@ null
 ;
 }
 addonChanged
+:
+function
 (
 aId
 aType
@@ -20403,6 +20521,8 @@ true
 ;
 }
 updateAddonAppDisabledStates
+:
+function
 (
 )
 {
@@ -20433,6 +20553,8 @@ addon
 }
 }
 updateAddonRepositoryData
+:
+function
 (
 aCallback
 )
@@ -20581,6 +20703,8 @@ notifyComplete
 ;
 }
 enableDefaultTheme
+:
+function
 (
 )
 {
@@ -20715,6 +20839,8 @@ theme
 }
 }
 onDebugConnectionChange
+:
+function
 (
 aEvent
 aWhat
@@ -20767,6 +20893,8 @@ bootstrapScope
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -20939,6 +21067,8 @@ break
 }
 }
 isBlockingE10s
+:
+function
 (
 aAddon
 )
@@ -21105,6 +21235,8 @@ true
 ;
 }
 e10sBlocksEnabling
+:
+function
 (
 aAddon
 )
@@ -21145,6 +21277,8 @@ aAddon
 ;
 }
 enableRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -21234,6 +21368,8 @@ bootstrap
 ;
 }
 disableRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -21326,6 +21462,8 @@ bootstrap
 ;
 }
 installRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -21438,6 +21576,8 @@ bootstrap
 ;
 }
 uninstallRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -21473,6 +21613,8 @@ aAddon
 ;
 }
 loadBootstrapScope
+:
+function
 (
 aId
 aFile
@@ -22060,6 +22202,8 @@ bootstrapScope
 }
 }
 unloadBootstrapScope
+:
+function
 (
 aId
 )
@@ -22131,6 +22275,8 @@ null
 }
 }
 callBootstrapMethod
+:
+function
 (
 aAddon
 aFile
@@ -22875,6 +23021,8 @@ timeStart
 }
 }
 updateAddonDisabledState
+:
+function
 (
 aAddon
 aUserDisabled
@@ -23063,6 +23211,8 @@ aAddon
 userDisabled
 :
 aUserDisabled
+appDisabled
+:
 appDisabled
 softDisabled
 :
@@ -23478,6 +23628,8 @@ isDisabled
 ;
 }
 uninstallAddon
+:
+function
 (
 aAddon
 aForcePending
@@ -24185,6 +24337,8 @@ requiresRestart
 ;
 }
 cancelUninstallAddon
+:
+function
 (
 aAddon
 )
@@ -31287,6 +31441,8 @@ handler
 ;
 }
 install
+:
+function
 (
 )
 {
@@ -31301,6 +31457,8 @@ install
 ;
 }
 cancel
+:
+function
 (
 )
 {
@@ -31315,6 +31473,8 @@ cancel
 ;
 }
 addListener
+:
+function
 (
 listener
 )
@@ -31331,6 +31491,8 @@ listener
 ;
 }
 removeListener
+:
+function
 (
 listener
 )
@@ -31401,6 +31563,8 @@ prototype
 aProp
 {
 get
+:
+function
 (
 )
 {
@@ -31668,6 +31832,8 @@ syncCompatibility
 :
 null
 callListener
+:
+function
 (
 aMethod
 .
@@ -31730,6 +31896,8 @@ e
 }
 }
 onUpdateCheckComplete
+:
+function
 (
 aUpdates
 )
@@ -32220,6 +32388,8 @@ null
 }
 }
 onUpdateCheckError
+:
+function
 (
 aError
 )
@@ -32288,6 +32458,8 @@ aError
 ;
 }
 cancel
+:
+function
 (
 )
 {
@@ -32790,6 +32962,8 @@ needsABI
 ;
 }
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -33231,6 +33405,8 @@ wrapper
 ;
 }
 applyCompatibilityUpdate
+:
+function
 (
 aUpdate
 aSyncCompatibility
@@ -33339,6 +33515,8 @@ this
 ;
 }
 getDataDirectory
+:
+function
 (
 callback
 )
@@ -33446,6 +33624,8 @@ e
 ;
 }
 toJSON
+:
+function
 (
 aKey
 )
@@ -33545,6 +33725,8 @@ obj
 ;
 }
 importMetadata
+:
+function
 (
 aObj
 )
@@ -33591,6 +33773,8 @@ this
 ;
 }
 permissions
+:
+function
 (
 )
 {
@@ -33819,6 +34003,8 @@ hasEmbeddedWebExtension
 ;
 }
 markAsSeen
+:
+function
 (
 )
 {
@@ -35564,6 +35750,8 @@ KEY_APP_PROFILE
 ;
 }
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -35583,6 +35771,8 @@ aPlatformVersion
 ;
 }
 uninstall
+:
+function
 (
 alwaysAllowUndo
 )
@@ -35605,6 +35795,8 @@ alwaysAllowUndo
 ;
 }
 cancelUninstall
+:
+function
 (
 )
 {
@@ -35625,6 +35817,8 @@ addon
 ;
 }
 findUpdates
+:
+function
 (
 aListener
 aReason
@@ -35673,6 +35867,8 @@ aPlatformVersion
 ;
 }
 cancelUpdate
+:
+function
 (
 )
 {
@@ -35708,6 +35904,8 @@ false
 ;
 }
 hasResource
+:
+function
 (
 aPath
 )
@@ -35927,6 +36125,8 @@ close
 }
 }
 reload
+:
+function
 (
 )
 {
@@ -36035,6 +36235,8 @@ _sourceBundle
 ;
 }
 getResourceURI
+:
+function
 (
 aPath
 )
@@ -37158,6 +37360,8 @@ _IDToFileMap
 :
 null
 _readDirectoryFromFile
+:
+function
 (
 aFile
 )
@@ -37491,6 +37695,8 @@ null
 ;
 }
 _readAddons
+:
+function
 (
 )
 {
@@ -37777,6 +37983,8 @@ _scope
 ;
 }
 getAddonLocations
+:
+function
 (
 )
 {
@@ -37821,6 +38029,8 @@ locations
 ;
 }
 getLocationForID
+:
+function
 (
 aId
 )
@@ -37862,6 +38072,8 @@ aId
 ;
 }
 isLinkedAddon
+:
+function
 (
 aId
 )
@@ -37936,6 +38148,8 @@ MutableDirectoryInstallLocation
 prototype
 {
 getStagingDir
+:
+function
 (
 )
 {
@@ -37962,6 +38176,8 @@ dir
 ;
 }
 requestStagingDir
+:
+function
 (
 )
 {
@@ -38074,6 +38290,8 @@ e
 ;
 }
 releaseStagingDir
+:
+function
 (
 )
 {
@@ -38115,6 +38333,8 @@ resolve
 ;
 }
 cleanStagingDir
+:
+function
 (
 aLeafNames
 =
@@ -38245,6 +38465,8 @@ e
 }
 }
 getTrashDir
+:
+function
 (
 )
 {
@@ -38335,6 +38557,8 @@ trashDir
 ;
 }
 installAddon
+:
+function
 (
 {
 id
@@ -38801,6 +39025,8 @@ newFile
 ;
 }
 uninstallAddon
+:
+function
 (
 aId
 )
@@ -39213,6 +39439,8 @@ SystemAddonInstallLocation
 prototype
 {
 cleanStagingDir
+:
+function
 (
 aLeafNames
 =
@@ -39343,6 +39571,8 @@ e
 }
 }
 getStagingDir
+:
+function
 (
 )
 {
@@ -39433,6 +39663,8 @@ dir
 ;
 }
 requestStagingDir
+:
+function
 (
 )
 {
@@ -39590,6 +39822,8 @@ e
 ;
 }
 releaseStagingDir
+:
+function
 (
 )
 {
@@ -39631,6 +39865,8 @@ resolve
 ;
 }
 _loadAddonSet
+:
+function
 (
 )
 {
@@ -39722,6 +39958,8 @@ addons
 ;
 }
 _saveAddonSet
+:
+function
 (
 aAddonSet
 )
@@ -39741,6 +39979,8 @@ aAddonSet
 ;
 }
 getAddonLocations
+:
+function
 (
 )
 {
@@ -39810,6 +40050,8 @@ addons
 ;
 }
 isActive
+:
+function
 (
 )
 {
@@ -39823,6 +40065,8 @@ null
 ;
 }
 isValidAddon
+:
+function
 (
 aAddon
 )
@@ -39966,6 +40210,8 @@ true
 ;
 }
 isValid
+:
+function
 (
 aAddons
 )
@@ -40114,6 +40360,8 @@ true
 ;
 }
 resetAddonSet
+:
+function
 (
 )
 {
@@ -41159,6 +41407,8 @@ resumeAddon
 }
 )
 getTrashDir
+:
+function
 (
 )
 {
@@ -41249,6 +41499,8 @@ trashDir
 ;
 }
 installAddon
+:
+function
 (
 {
 id
@@ -41695,6 +41947,8 @@ appName
 ;
 }
 _readAddons
+:
+function
 (
 aKey
 )
@@ -41819,6 +42073,8 @@ _scope
 ;
 }
 getAddonLocations
+:
+function
 (
 )
 {
@@ -41863,6 +42119,8 @@ locations
 ;
 }
 isLinkedAddon
+:
+function
 (
 aId
 )

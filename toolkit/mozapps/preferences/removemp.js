@@ -18,6 +18,8 @@ _password
 :
 null
 init
+:
+function
 (
 )
 {
@@ -158,6 +160,8 @@ validateInput
 ;
 }
 validateInput
+:
+function
 (
 )
 {
@@ -183,6 +187,8 @@ value
 ;
 }
 removePassword
+:
+function
 (
 )
 {

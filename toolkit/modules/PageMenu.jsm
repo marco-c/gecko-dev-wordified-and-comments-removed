@@ -55,6 +55,8 @@ _browser
 :
 null
 getContextMenu
+:
+function
 (
 aTarget
 )
@@ -97,6 +99,8 @@ null
 ;
 }
 maybeBuild
+:
+function
 (
 aTarget
 )
@@ -189,6 +193,8 @@ menuString
 ;
 }
 buildAndAttachMenuWithObject
+:
+function
 (
 aMenu
 aBrowser
@@ -355,6 +361,8 @@ true
 ;
 }
 buildXULMenu
+:
+function
 (
 aNode
 aElementForAppending
@@ -641,6 +649,8 @@ menuitem
 }
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -846,6 +856,8 @@ null
 }
 }
 getImmediateChild
+:
+function
 (
 element
 tag
@@ -889,6 +901,8 @@ null
 ;
 }
 getInsertionPoint
+:
+function
 (
 aPopup
 )
@@ -982,6 +996,8 @@ null
 ;
 }
 removeGeneratedContent
+:
+function
 (
 aPopup
 )
@@ -1122,6 +1138,8 @@ PageMenu
 .
 prototype
 buildAndAddToPopup
+:
+function
 (
 aTarget
 aPopup
@@ -1159,6 +1177,8 @@ aPopup
 ;
 }
 addToPopup
+:
+function
 (
 aMenu
 aBrowser
@@ -1198,6 +1218,8 @@ PageMenu
 .
 prototype
 build
+:
+function
 (
 aTarget
 )
@@ -1212,6 +1234,8 @@ aTarget
 ;
 }
 executeMenu
+:
+function
 (
 aId
 )

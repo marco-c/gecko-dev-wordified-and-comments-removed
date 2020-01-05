@@ -904,6 +904,8 @@ hostPort
 ;
 }
 _createPopupContent
+:
+function
 (
 )
 {
@@ -1184,6 +1186,8 @@ nsIPresentationDevicePrompt
 ]
 )
 promptDeviceSelection
+:
+function
 (
 aRequest
 )
@@ -1252,6 +1256,8 @@ prompt
 ;
 }
 _loadDevices
+:
+function
 (
 )
 {

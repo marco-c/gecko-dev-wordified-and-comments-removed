@@ -1792,6 +1792,8 @@ name
 :
 aName
 duration
+:
+duration
 }
 ;
 }
@@ -2724,6 +2726,8 @@ frame
 args
 {
 timer
+:
+timer
 }
 )
 ;
@@ -2829,6 +2833,8 @@ timeEnd
 frame
 args
 {
+timer
+:
 timer
 }
 )

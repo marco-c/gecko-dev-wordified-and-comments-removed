@@ -1863,6 +1863,8 @@ observer
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -2625,6 +2627,8 @@ observer
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

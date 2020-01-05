@@ -125,6 +125,8 @@ listener
 =
 {
 onFindResult
+:
+function
 (
 )
 {

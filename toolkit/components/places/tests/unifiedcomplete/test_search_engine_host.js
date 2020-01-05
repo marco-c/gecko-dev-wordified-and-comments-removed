@@ -162,6 +162,8 @@ addBookmark
 (
 {
 uri
+:
+uri
 title
 :
 "

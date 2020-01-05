@@ -412,6 +412,8 @@ plugins
 :
 null
 startup
+:
+function
 (
 )
 {
@@ -441,6 +443,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -474,6 +478,8 @@ LIST_UPDATED_TOPIC
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -688,6 +694,8 @@ break
 }
 }
 buildWrapper
+:
+function
 (
 aPlugin
 )
@@ -712,6 +720,8 @@ tags
 ;
 }
 getAddonByID
+:
+function
 (
 aId
 aCallback
@@ -761,6 +771,8 @@ null
 ;
 }
 getAddonsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -845,6 +857,8 @@ results
 ;
 }
 getAddonsWithOperationsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -858,6 +872,8 @@ aCallback
 ;
 }
 getInstallsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -871,6 +887,8 @@ aCallback
 ;
 }
 getPluginList
+:
+function
 (
 )
 {
@@ -1048,6 +1066,8 @@ list
 ;
 }
 buildPluginList
+:
+function
 (
 )
 {
@@ -1063,6 +1083,8 @@ getPluginList
 ;
 }
 updatePluginList
+:
+function
 (
 )
 {
@@ -2987,6 +3009,8 @@ true
 ;
 }
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -2997,6 +3021,8 @@ true
 ;
 }
 findUpdates
+:
+function
 (
 aListener
 aReason

@@ -126,6 +126,8 @@ URL
 :
 url
 toString
+:
+function
 (
 )
 {

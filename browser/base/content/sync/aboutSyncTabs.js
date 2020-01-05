@@ -200,6 +200,8 @@ _tabsList
 :
 null
 init
+:
+function
 (
 )
 {
@@ -280,6 +282,8 @@ true
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -337,6 +341,8 @@ update
 ;
 }
 createItem
+:
+function
 (
 attrs
 )
@@ -414,6 +420,8 @@ item
 ;
 }
 filterTabs
+:
+function
 (
 event
 )
@@ -629,6 +637,8 @@ true
 }
 }
 openSelected
+:
+function
 (
 )
 {
@@ -757,6 +767,8 @@ clearSelection
 }
 }
 bookmarkSingleTab
+:
+function
 (
 )
 {
@@ -819,6 +831,10 @@ type
 bookmark
 "
 uri
+:
+uri
+title
+:
 title
 hiddenRows
 :
@@ -844,6 +860,8 @@ top
 ;
 }
 bookmarkSelectedTabs
+:
+function
 (
 )
 {
@@ -981,6 +999,8 @@ top
 }
 }
 getIcon
+:
+function
 (
 iconUri
 defaultIcon
@@ -1039,6 +1059,8 @@ _buildListRequested
 :
 false
 buildList
+:
+function
 (
 forceSync
 )
@@ -1186,6 +1208,8 @@ complete
 }
 }
 _clearTabList
+:
+function
 (
 )
 {
@@ -1242,6 +1266,8 @@ i
 }
 }
 _generateWeaveTabList
+:
+function
 (
 )
 {
@@ -1451,6 +1477,8 @@ title
 |
 url
 url
+:
+url
 icon
 :
 this
@@ -1484,6 +1512,8 @@ this
 }
 }
 _generateCloudSyncTabList
+:
+function
 (
 )
 {
@@ -1636,6 +1666,8 @@ Promise
 ;
 }
 adjustContextMenu
+:
+function
 (
 event
 )
@@ -1752,6 +1784,8 @@ nextSibling
 }
 }
 _refetchTabs
+:
+function
 (
 force
 )
@@ -1868,6 +1902,8 @@ true
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -1951,6 +1987,8 @@ break
 }
 }
 handleClick
+:
+function
 (
 event
 )

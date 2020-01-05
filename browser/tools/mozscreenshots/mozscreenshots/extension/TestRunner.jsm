@@ -1091,8 +1091,10 @@ restore
 )
 ;
 }
-*
 _performCombo
+:
+function
+*
 (
 combo
 )

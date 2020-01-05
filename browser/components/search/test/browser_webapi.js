@@ -172,6 +172,8 @@ addListener
 (
 {
 onOpenWindow
+:
+function
 (
 xulWin
 )

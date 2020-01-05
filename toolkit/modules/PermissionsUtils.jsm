@@ -305,6 +305,8 @@ PermissionsUtils
 =
 {
 importFromPrefs
+:
+function
 (
 aPrefBranch
 aPermission

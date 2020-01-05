@@ -197,6 +197,8 @@ DownloadUIHelper
 =
 {
 getPrompter
+:
+function
 (
 aParent
 )
@@ -423,6 +425,8 @@ _prompter
 :
 null
 confirmLaunchExecutable
+:
+function
 (
 aPath
 )

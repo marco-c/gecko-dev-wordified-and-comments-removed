@@ -436,6 +436,8 @@ downloadView
 =
 {
 onDownloadAdded
+:
+function
 (
 aDownload
 )
@@ -597,6 +599,8 @@ downloadView
 =
 {
 onDownloadAdded
+:
+function
 (
 aDownload
 )

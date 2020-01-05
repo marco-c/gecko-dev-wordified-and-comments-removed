@@ -516,6 +516,8 @@ state
 .
 email
 origin
+:
+origin
 }
 ;
 return
@@ -537,6 +539,8 @@ loggedInUser
 state
 .
 email
+origin
+:
 origin
 }
 ;
@@ -564,6 +568,8 @@ _doLogout
 (
 aRpCaller
 {
+origin
+:
 origin
 }
 )
@@ -1063,6 +1069,8 @@ _doLogout
 (
 rp
 {
+origin
+:
 origin
 }
 )

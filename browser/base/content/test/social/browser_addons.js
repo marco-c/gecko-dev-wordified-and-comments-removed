@@ -561,6 +561,8 @@ next
 return
 {
 onInstalling
+:
+function
 (
 addon
 )
@@ -626,6 +628,8 @@ onInstalled
 ;
 }
 onInstalled
+:
+function
 (
 addon
 )
@@ -710,6 +714,8 @@ onUninstalling
 ;
 }
 onUninstalling
+:
+function
 (
 addon
 )
@@ -773,6 +779,8 @@ onUninstalled
 ;
 }
 onUninstalled
+:
+function
 (
 addon
 )
@@ -845,6 +853,8 @@ tests
 =
 {
 testHTTPInstallFailure
+:
+function
 (
 next
 )
@@ -896,6 +906,10 @@ installFrom
 activate
 "
 manifest
+:
+manifest
+window
+:
 window
 }
 Social
@@ -931,6 +945,8 @@ next
 ;
 }
 testAddonEnableToggle
+:
+function
 (
 next
 )
@@ -951,6 +967,8 @@ listener
 =
 {
 onEnabled
+:
+function
 (
 addon
 )
@@ -1002,6 +1020,8 @@ true
 ;
 }
 onEnabling
+:
+function
 (
 addon
 )
@@ -1026,6 +1046,8 @@ onEnabled
 ;
 }
 onDisabled
+:
+function
 (
 addon
 )
@@ -1076,6 +1098,8 @@ next
 ;
 }
 onDisabling
+:
+function
 (
 addon
 )
@@ -1198,6 +1222,8 @@ next
 ;
 }
 testProviderEnableToggle
+:
+function
 (
 next
 )
@@ -1218,6 +1244,8 @@ listener
 =
 {
 onEnabled
+:
+function
 (
 addon
 )
@@ -1265,6 +1293,8 @@ userDisabled
 ;
 }
 onEnabling
+:
+function
 (
 addon
 )
@@ -1308,6 +1338,8 @@ onEnabled
 ;
 }
 onDisabled
+:
+function
 (
 addon
 )
@@ -1353,6 +1385,8 @@ userDisabled
 ;
 }
 onDisabling
+:
+function
 (
 addon
 )
@@ -1473,6 +1507,8 @@ next
 ;
 }
 testDirectoryInstall
+:
+function
 (
 next
 )
@@ -1601,6 +1637,8 @@ directory
 manifest
 :
 manifest2
+window
+:
 window
 }
 Social

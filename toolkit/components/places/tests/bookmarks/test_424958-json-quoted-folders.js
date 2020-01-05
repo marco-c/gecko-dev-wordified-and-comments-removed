@@ -20,6 +20,8 @@ _folderId
 :
 null
 populate
+:
+function
 (
 )
 {
@@ -48,6 +50,8 @@ DEFAULT_INDEX
 ;
 }
 clean
+:
+function
 (
 )
 {
@@ -64,6 +68,8 @@ _folderId
 ;
 }
 validate
+:
+function
 (
 )
 {

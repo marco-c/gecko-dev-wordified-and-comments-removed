@@ -528,6 +528,8 @@ tabPreviewPanelHelper
 =
 {
 opening
+:
+function
 (
 host
 )
@@ -588,6 +590,8 @@ focusedElement
 ;
 }
 _generateHandler
+:
+function
 (
 host
 )
@@ -649,6 +653,8 @@ host
 ;
 }
 _popupshown
+:
+function
 (
 host
 )
@@ -669,6 +675,8 @@ setupGUI
 ;
 }
 _popuphiding
+:
+function
 (
 host
 )
@@ -1246,6 +1254,8 @@ uninit
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -2905,6 +2915,8 @@ break
 }
 }
 filterForThumbnailExpiration
+:
+function
 (
 aCallback
 )
@@ -2977,6 +2989,8 @@ urls
 ;
 }
 _initRecentlyUsedTabs
+:
+function
 (
 )
 {

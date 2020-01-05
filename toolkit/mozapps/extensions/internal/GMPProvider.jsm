@@ -1509,6 +1509,8 @@ false
 ;
 }
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -1659,6 +1661,8 @@ id
 }
 }
 findUpdates
+:
+function
 (
 aListener
 aReason
@@ -2275,6 +2279,8 @@ length
 ;
 }
 _handleEnabledChanged
+:
+function
 (
 )
 {
@@ -2426,6 +2432,8 @@ this
 ;
 }
 onPrefEMEGlobalEnabledChanged
+:
+function
 (
 )
 {
@@ -2584,6 +2592,8 @@ _handleEnabledChanged
 }
 }
 checkForUpdates
+:
+function
 (
 delay
 )
@@ -2667,6 +2677,8 @@ delay
 ;
 }
 receiveMessage
+:
+function
 (
 {
 target
@@ -2768,6 +2780,8 @@ checkForUpdates
 }
 }
 onPrefEnabledChanged
+:
+function
 (
 )
 {
@@ -2796,6 +2810,8 @@ _handleEnabledChanged
 }
 }
 onPrefVersionChanged
+:
+function
 (
 )
 {
@@ -2990,6 +3006,8 @@ this
 ;
 }
 uninstallPlugin
+:
+function
 (
 )
 {
@@ -3090,6 +3108,8 @@ this
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -3181,6 +3201,8 @@ _updateTask
 ;
 }
 _arePluginFilesOnDisk
+:
+function
 (
 )
 {
@@ -3356,6 +3378,8 @@ voucher
 ;
 }
 validate
+:
+function
 (
 )
 {
@@ -3463,6 +3487,8 @@ _plugins
 :
 null
 startup
+:
+function
 (
 )
 {
@@ -3829,6 +3855,8 @@ e
 }
 }
 shutdown
+:
+function
 (
 )
 {
@@ -3956,6 +3984,8 @@ shutdownTask
 ;
 }
 getAddonByID
+:
+function
 (
 aId
 aCallback
@@ -4021,6 +4051,8 @@ null
 }
 }
 getAddonsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -4124,6 +4156,8 @@ false
 ;
 }
 generateFullDescription
+:
+function
 (
 aPlugin
 )
@@ -4252,6 +4286,8 @@ undefined
 ;
 }
 buildPluginList
+:
+function
 (
 )
 {
@@ -4357,6 +4393,8 @@ plugin
 }
 }
 ensureProperCDMInstallState
+:
+function
 (
 )
 {

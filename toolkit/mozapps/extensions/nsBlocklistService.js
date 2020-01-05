@@ -1696,6 +1696,8 @@ _pluginEntries
 :
 null
 shutdown
+:
+function
 (
 )
 {
@@ -1768,6 +1770,8 @@ this
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -1921,6 +1925,8 @@ break
 }
 }
 receiveMessage
+:
+function
 (
 aMsg
 )
@@ -2018,6 +2024,8 @@ undefined
 ;
 }
 isAddonBlocklisted
+:
+function
 (
 addon
 appVersion
@@ -2043,6 +2051,8 @@ STATE_BLOCKED
 ;
 }
 getAddonBlocklistState
+:
+function
 (
 addon
 appVersion
@@ -2079,6 +2089,8 @@ toolkitVersion
 ;
 }
 _getAddonBlocklistState
+:
+function
 (
 addon
 addonEntries
@@ -2214,6 +2226,8 @@ STATE_NOT_BLOCKED
 ;
 }
 _getAddonPrefs
+:
+function
 (
 addon
 )
@@ -2243,6 +2257,8 @@ slice
 ;
 }
 _findMatchingAddonEntry
+:
+function
 (
 aAddonEntries
 aAddon
@@ -2424,6 +2440,8 @@ null
 ;
 }
 getAddonBlocklistURL
+:
+function
 (
 addon
 appVersion
@@ -2493,6 +2511,8 @@ blockID
 ;
 }
 _createBlocklistURL
+:
+function
 (
 id
 )
@@ -2529,6 +2549,8 @@ url
 ;
 }
 notify
+:
+function
 (
 aTimer
 )
@@ -3595,6 +3617,8 @@ e
 }
 )
 onXMLError
+:
+function
 (
 aEvent
 )
@@ -3702,6 +3726,8 @@ statusText
 ;
 }
 _loadBlocklist
+:
+function
 (
 )
 {
@@ -3807,6 +3833,8 @@ found
 ;
 }
 _loadBlocklistFromFile
+:
+function
 (
 file
 )
@@ -4138,6 +4166,8 @@ text
 ;
 }
 _isBlocklistLoaded
+:
+function
 (
 )
 {
@@ -4167,6 +4197,8 @@ null
 ;
 }
 _isBlocklistPreloaded
+:
+function
 (
 )
 {
@@ -4180,6 +4212,8 @@ null
 ;
 }
 _clear
+:
+function
 (
 )
 {
@@ -4427,6 +4461,8 @@ text
 }
 )
 _loadBlocklistFromString
+:
+function
 (
 text
 )
@@ -4782,6 +4818,8 @@ return
 }
 }
 _processItemNodes
+:
+function
 (
 itemNodes
 itemName
@@ -4855,6 +4893,8 @@ result
 ;
 }
 _handleCertItemNode
+:
+function
 (
 blocklistElement
 result
@@ -5004,6 +5044,8 @@ e
 }
 }
 _handleEmItemNode
+:
+function
 (
 blocklistElement
 result
@@ -5308,6 +5350,8 @@ blockEntry
 ;
 }
 _handlePluginItemNode
+:
+function
 (
 blocklistElement
 result
@@ -5564,6 +5608,8 @@ blockEntry
 ;
 }
 _handleGfxBlacklistNode
+:
+function
 (
 blocklistElement
 result
@@ -5902,6 +5948,8 @@ blockEntry
 ;
 }
 getPluginBlocklistState
+:
+function
 (
 plugin
 appVersion
@@ -5963,6 +6011,8 @@ toolkitVersion
 ;
 }
 _getPluginBlocklistEntry
+:
+function
 (
 plugin
 pluginEntries
@@ -6138,6 +6188,8 @@ null
 ;
 }
 _getPluginBlocklistState
+:
+function
 (
 plugin
 pluginEntries
@@ -6259,6 +6311,8 @@ STATE_SOFTBLOCKED
 ;
 }
 getPluginBlocklistURL
+:
+function
 (
 plugin
 )
@@ -6334,6 +6388,8 @@ blockID
 ;
 }
 getPluginInfoURL
+:
+function
 (
 plugin
 )
@@ -6404,6 +6460,8 @@ infoURL
 ;
 }
 _notifyObserversBlocklistGFX
+:
+function
 (
 )
 {
@@ -6568,6 +6626,8 @@ payload
 ;
 }
 _notifyObserversBlocklistUpdated
+:
+function
 (
 )
 {
@@ -6604,6 +6664,8 @@ blocklistInvalidated
 ;
 }
 _blocklistUpdated
+:
+function
 (
 oldAddonEntries
 oldPluginEntries
@@ -7806,6 +7868,8 @@ prototype
 =
 {
 includesItem
+:
+function
 (
 version
 appVersion
@@ -7877,6 +7941,8 @@ toolkitVersion
 ;
 }
 matchesRange
+:
+function
 (
 version
 minVersion
@@ -7924,6 +7990,8 @@ true
 ;
 }
 matchesTargetRange
+:
+function
 (
 appID
 appVersion
@@ -7979,6 +8047,8 @@ false
 ;
 }
 getBlocklistAppVersions
+:
+function
 (
 targetAppElement
 )
@@ -8089,6 +8159,8 @@ appVersions
 ;
 }
 getBlocklistVersionRange
+:
+function
 (
 versionRangeElement
 )
@@ -8111,6 +8183,10 @@ versionRangeElement
 return
 {
 minVersion
+:
+minVersion
+maxVersion
+:
 maxVersion
 }
 ;
@@ -8161,6 +8237,10 @@ maxVersion
 return
 {
 minVersion
+:
+minVersion
+maxVersion
+:
 maxVersion
 }
 ;

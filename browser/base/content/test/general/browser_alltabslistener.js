@@ -25,6 +25,8 @@ gFrontProgressListener
 =
 {
 onProgressChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -36,6 +38,8 @@ aMaxTotalProgress
 {
 }
 onStateChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -116,6 +120,8 @@ gFrontNotificationsPos
 ;
 }
 onLocationChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -192,6 +198,8 @@ gFrontNotificationsPos
 ;
 }
 onStatusChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -201,6 +209,8 @@ aMessage
 {
 }
 onSecurityChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -285,6 +295,8 @@ gAllProgressListener
 =
 {
 onStateChange
+:
+function
 (
 aBrowser
 aWebProgress
@@ -438,6 +450,8 @@ gNextTest
 }
 }
 onLocationChange
+:
+function
 (
 aBrowser
 aWebProgress
@@ -533,6 +547,8 @@ gAllNotificationsPos
 ;
 }
 onStatusChange
+:
+function
 (
 aBrowser
 aWebProgress
@@ -568,6 +584,8 @@ browser
 ;
 }
 onSecurityChange
+:
+function
 (
 aBrowser
 aWebProgress

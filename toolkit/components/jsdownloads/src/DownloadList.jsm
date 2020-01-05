@@ -401,6 +401,8 @@ resolve
 ;
 }
 _notifyAllViews
+:
+function
 (
 aMethodName
 aDownload
@@ -640,6 +642,8 @@ _privateList
 :
 null
 add
+:
+function
 (
 aDownload
 )
@@ -676,6 +680,8 @@ aDownload
 ;
 }
 remove
+:
+function
 (
 aDownload
 )
@@ -712,6 +718,8 @@ aDownload
 ;
 }
 onDownloadAdded
+:
+function
 (
 aDownload
 )
@@ -737,6 +745,8 @@ aDownload
 ;
 }
 onDownloadChanged
+:
+function
 (
 aDownload
 )
@@ -753,6 +763,8 @@ aDownload
 ;
 }
 onDownloadRemoved
+:
+function
 (
 aDownload
 )
@@ -841,6 +853,8 @@ _list
 :
 null
 bindToList
+:
+function
 (
 aList
 )
@@ -903,6 +917,8 @@ _views
 :
 null
 addView
+:
+function
 (
 aView
 )
@@ -957,6 +973,8 @@ resolve
 ;
 }
 removeView
+:
+function
 (
 aView
 )
@@ -988,6 +1006,8 @@ progressCurrentBytes
 :
 0
 _onListChanged
+:
+function
 (
 )
 {
@@ -1144,6 +1164,8 @@ ex
 }
 }
 onDownloadAdded
+:
+function
 (
 aDownload
 )
@@ -1173,6 +1195,8 @@ _onListChanged
 }
 }
 onDownloadChanged
+:
+function
 (
 aDownload
 )
@@ -1185,6 +1209,8 @@ _onListChanged
 ;
 }
 onDownloadRemoved
+:
+function
 (
 aDownload
 )

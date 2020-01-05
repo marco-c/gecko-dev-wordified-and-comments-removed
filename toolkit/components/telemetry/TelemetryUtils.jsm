@@ -159,6 +159,8 @@ true
 ;
 }
 millisecondsToDays
+:
+function
 (
 aMsec
 )
@@ -175,6 +177,8 @@ MILLISECONDS_PER_DAY
 ;
 }
 truncateToDays
+:
+function
 (
 date
 )
@@ -206,6 +210,8 @@ getDate
 ;
 }
 areTimesClose
+:
+function
 (
 t1
 t2
@@ -227,6 +233,8 @@ tolerance
 ;
 }
 getNextMidnight
+:
+function
 (
 date
 )
@@ -263,6 +271,8 @@ nextMidnight
 ;
 }
 getNearestMidnight
+:
+function
 (
 date
 tolerance
@@ -341,6 +351,8 @@ null
 ;
 }
 generateUUID
+:
+function
 (
 )
 {
@@ -392,6 +404,8 @@ length
 ;
 }
 getElapsedTimeInMonths
+:
+function
 (
 aStartDate
 aEndDate
@@ -430,6 +444,8 @@ getFullYear
 ;
 }
 toLocalTimeISOString
+:
+function
 (
 date
 )

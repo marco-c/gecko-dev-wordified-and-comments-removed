@@ -95,6 +95,8 @@ create
 (
 {
 registerChannel
+:
+function
 (
 channel
 )
@@ -179,6 +181,8 @@ this
 }
 }
 unregisterChannel
+:
+function
 (
 channelToRemove
 )
@@ -217,6 +221,8 @@ found
 }
 }
 _listener
+:
+function
 (
 event
 )
@@ -477,6 +483,8 @@ Map
 (
 )
 _sendErrorEventToContent
+:
+function
 (
 id
 sendingContext
@@ -530,6 +538,8 @@ WebChannelMessageToContent
 "
 {
 id
+:
+id
 message
 :
 {
@@ -542,6 +552,8 @@ errorMsg
 }
 }
 {
+eventTarget
+:
 eventTarget
 }
 targetPrincipal
@@ -764,6 +776,8 @@ _deliverCallback
 :
 null
 listen
+:
+function
 (
 callback
 )
@@ -836,6 +850,8 @@ this
 }
 }
 stopListening
+:
+function
 (
 )
 {
@@ -856,6 +872,8 @@ null
 ;
 }
 send
+:
+function
 (
 message
 target
@@ -901,6 +919,8 @@ id
 this
 .
 id
+message
+:
 message
 }
 {
@@ -960,6 +980,8 @@ invalid
 }
 }
 deliver
+:
+function
 (
 data
 sendingContext

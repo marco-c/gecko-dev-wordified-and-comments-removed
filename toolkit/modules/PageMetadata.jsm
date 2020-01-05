@@ -632,6 +632,8 @@ break
 }
 }
 _getLinkData
+:
+function
 (
 document
 result

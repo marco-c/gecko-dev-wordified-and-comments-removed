@@ -196,6 +196,8 @@ HTTPObserver
 =
 {
 observeActivity
+:
+function
 (
 aChannel
 aType
@@ -625,6 +627,8 @@ null
 url
 {
 onUpdateCheckComplete
+:
+function
 (
 updates
 )
@@ -683,6 +687,8 @@ run_next_update_test
 ;
 }
 onUpdateCheckError
+:
+function
 (
 status
 )

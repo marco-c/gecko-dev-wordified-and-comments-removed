@@ -1264,8 +1264,10 @@ allowDistance
 )
 ;
 }
-*
 _yieldResult
+:
+function
+*
 (
 listener
 rangeSource
@@ -2010,8 +2012,10 @@ true
 ;
 }
 )
-*
 _iterateDocument
+:
+function
+*
 (
 {
 caseSensitive

@@ -77,6 +77,8 @@ SelectParentHelper
 =
 {
 populate
+:
+function
 (
 menulist
 items
@@ -111,6 +113,8 @@ zoom
 ;
 }
 open
+:
+function
 (
 browser
 menulist
@@ -353,6 +357,8 @@ false
 ;
 }
 hide
+:
+function
 (
 menulist
 browser
@@ -377,6 +383,8 @@ hidePopup
 }
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -516,6 +524,8 @@ event
 target
 .
 value
+closedWithEnter
+:
 closedWithEnter
 }
 )
@@ -666,6 +676,8 @@ currentZoom
 }
 }
 _registerListeners
+:
+function
 (
 browser
 popup
@@ -772,6 +784,8 @@ this
 ;
 }
 _unregisterListeners
+:
+function
 (
 browser
 popup

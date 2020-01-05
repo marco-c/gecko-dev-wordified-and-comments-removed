@@ -149,6 +149,8 @@ originalShown
 :
 true
 _init
+:
+function
 (
 document
 )
@@ -286,6 +288,8 @@ true
 }
 }
 _createItemForNode
+:
+function
 (
 node
 id
@@ -388,6 +392,8 @@ item
 ;
 }
 generateTextForItem
+:
+function
 (
 item
 )
@@ -609,6 +615,8 @@ str
 ;
 }
 showTranslation
+:
+function
 (
 )
 {
@@ -629,6 +637,8 @@ translation
 ;
 }
 showOriginal
+:
+function
 (
 )
 {
@@ -649,6 +659,8 @@ original
 ;
 }
 _swapDocumentContent
+:
+function
 (
 target
 )
@@ -769,6 +781,8 @@ isSimpleRoot
 :
 false
 toString
+:
+function
 (
 )
 {
@@ -843,6 +857,8 @@ rootType
 ;
 }
 parseResult
+:
+function
 (
 result
 )
@@ -917,6 +933,8 @@ firstChild
 ;
 }
 getChildById
+:
+function
 (
 id
 )
@@ -957,6 +975,8 @@ null
 ;
 }
 swapText
+:
+function
 (
 target
 )
@@ -975,6 +995,8 @@ TranslationItem_NodePlaceholder
 =
 {
 toString
+:
+function
 (
 )
 {

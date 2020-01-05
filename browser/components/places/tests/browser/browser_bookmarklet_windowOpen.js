@@ -65,6 +65,8 @@ title
 bookmarklet
 "
 url
+:
+url
 }
 )
 PlacesUtils
@@ -75,6 +77,10 @@ insert
 (
 {
 url
+:
+url
+keyword
+:
 keyword
 }
 )

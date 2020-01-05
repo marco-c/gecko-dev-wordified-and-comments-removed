@@ -627,6 +627,8 @@ org
 ]
 {
 searchFailed
+:
+function
 (
 )
 {

@@ -1143,6 +1143,8 @@ minResultsForPopup
 :
 0
 invalidate
+:
+function
 (
 )
 {
@@ -1163,11 +1165,15 @@ this
 ;
 }
 onSearchBegin
+:
+function
 (
 )
 {
 }
 onSearchComplete
+:
+function
 (
 )
 {
@@ -1359,6 +1365,8 @@ aCallback
 ;
 }
 setSelectedIndex
+:
+function
 (
 )
 {
@@ -1377,6 +1385,8 @@ length
 ;
 }
 getSearchAt
+:
+function
 (
 aIndex
 )

@@ -233,6 +233,8 @@ Map
 (
 )
 init
+:
+function
 (
 )
 {
@@ -270,6 +272,8 @@ false
 ;
 }
 register
+:
+function
 (
 error
 )
@@ -602,6 +606,8 @@ id
 ;
 }
 report
+:
+function
 (
 id
 )
@@ -658,6 +664,8 @@ value
 }
 }
 flush
+:
+function
 (
 )
 {
@@ -690,6 +698,8 @@ key
 }
 }
 unregister
+:
+function
 (
 id
 )
@@ -705,6 +715,8 @@ id
 ;
 }
 addObserver
+:
+function
 (
 observer
 )
@@ -720,6 +732,8 @@ observer
 ;
 }
 removeObserver
+:
+function
 (
 observer
 )
@@ -735,6 +749,8 @@ observer
 ;
 }
 removeAllObservers
+:
+function
 (
 )
 {
@@ -1862,6 +1878,8 @@ Debugging
 =
 {
 addUncaughtErrorObserver
+:
+function
 (
 observer
 )
@@ -1875,6 +1893,8 @@ observer
 ;
 }
 removeUncaughtErrorObserver
+:
+function
 (
 observer
 )
@@ -1888,6 +1908,8 @@ observer
 ;
 }
 clearUncaughtErrorObservers
+:
+function
 (
 )
 {
@@ -1899,6 +1921,8 @@ removeAllObservers
 ;
 }
 flushUncaughtErrors
+:
+function
 (
 )
 {
@@ -1951,6 +1975,8 @@ handlers
 [
 ]
 completePromise
+:
+function
 (
 aPromise
 aStatus
@@ -2120,6 +2146,8 @@ witness
 }
 }
 scheduleWalkerLoop
+:
+function
 (
 )
 {
@@ -2219,6 +2247,8 @@ walkerLoop
 }
 }
 schedulePromise
+:
+function
 (
 aPromise
 )
@@ -2277,6 +2307,8 @@ walkerLoopScheduled
 :
 false
 walkerLoop
+:
+function
 (
 )
 {
@@ -2465,6 +2497,8 @@ nextPromise
 :
 null
 process
+:
+function
 (
 )
 {

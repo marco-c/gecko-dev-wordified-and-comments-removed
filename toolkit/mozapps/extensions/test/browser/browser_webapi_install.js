@@ -71,6 +71,8 @@ listener
 =
 {
 receiveMessage
+:
+function
 (
 msg
 )

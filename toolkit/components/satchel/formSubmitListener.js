@@ -115,6 +115,8 @@ saveHttpsForms
 :
 true
 init
+:
+function
 (
 )
 {
@@ -164,6 +166,8 @@ false
 ;
 }
 updatePrefs
+:
+function
 (
 )
 {
@@ -226,6 +230,8 @@ saveHttpsForms
 ;
 }
 isValidCCNumber
+:
+function
 (
 ccNumber
 )
@@ -375,6 +381,8 @@ total
 ;
 }
 log
+:
+function
 (
 message
 )
@@ -419,6 +427,8 @@ message
 ;
 }
 handleEvent
+:
+function
 (
 e
 )
@@ -488,6 +498,8 @@ break
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -529,6 +541,8 @@ topic
 ;
 }
 notify
+:
+function
 (
 form
 domWin
@@ -930,6 +944,10 @@ push
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )

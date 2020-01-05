@@ -39,6 +39,8 @@ PromiseUtils
 =
 {
 defer
+:
+function
 (
 )
 {

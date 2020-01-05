@@ -24,6 +24,8 @@ nsISupportsWeakReference
 ]
 )
 observe
+:
+function
 (
 subject
 topic

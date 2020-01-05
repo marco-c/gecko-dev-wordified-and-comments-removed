@@ -233,6 +233,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -257,6 +259,8 @@ gTrigger
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -443,6 +447,8 @@ item1
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -457,6 +463,8 @@ VK_DOWN
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -481,6 +489,8 @@ up
 wrap
 "
 events
+:
+function
 (
 )
 {
@@ -504,6 +514,8 @@ last
 ]
 }
 test
+:
+function
 (
 )
 {
@@ -518,6 +530,8 @@ VK_UP
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -550,6 +564,8 @@ down
 wrap
 "
 condition
+:
+function
 (
 )
 {
@@ -572,6 +588,8 @@ item1
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -586,6 +604,8 @@ VK_DOWN
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -621,6 +641,8 @@ item2
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -635,6 +657,8 @@ VK_DOWN
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -670,6 +694,8 @@ item1
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -684,6 +710,8 @@ VK_UP
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -707,6 +735,8 @@ cursor
 left
 "
 test
+:
+function
 (
 )
 {
@@ -721,6 +751,8 @@ VK_LEFT
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -744,6 +776,8 @@ cursor
 right
 "
 test
+:
+function
 (
 )
 {
@@ -758,6 +792,8 @@ VK_RIGHT
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -782,6 +818,8 @@ down
 disabled
 "
 events
+:
+function
 (
 )
 {
@@ -829,6 +867,8 @@ amenu
 ;
 }
 test
+:
+function
 (
 )
 {
@@ -865,6 +905,8 @@ up
 disabled
 "
 events
+:
+function
 (
 )
 {
@@ -928,6 +970,8 @@ item1
 ;
 }
 test
+:
+function
 (
 )
 {
@@ -1021,6 +1065,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -1032,6 +1078,8 @@ hidePopup
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -1192,6 +1240,8 @@ topright
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -1217,6 +1267,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -1385,6 +1437,8 @@ topright
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -1419,6 +1473,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -1626,6 +1682,8 @@ overlap
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -1661,6 +1719,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -1828,6 +1888,8 @@ overlap
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -1862,6 +1924,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -2054,6 +2118,8 @@ overlap
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -2089,6 +2155,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -2245,6 +2313,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 )
 {
@@ -2264,6 +2334,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -2404,6 +2476,8 @@ topright
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -2434,6 +2508,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -2475,6 +2551,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -2515,6 +2593,8 @@ gCachedEvent
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -2609,6 +2689,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -2661,6 +2743,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -2693,6 +2777,8 @@ true
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -2721,6 +2807,8 @@ popup
 anchored
 "
 condition
+:
+function
 (
 )
 {
@@ -2823,6 +2911,8 @@ topright
 ]
 ]
 test
+:
+function
 (
 testname
 step
@@ -2888,6 +2978,8 @@ step
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -2957,6 +3049,8 @@ with
 position
 "
 condition
+:
+function
 (
 )
 {
@@ -2983,6 +3077,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -3012,6 +3108,8 @@ bottomright
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -3120,6 +3218,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -3140,6 +3240,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -3219,6 +3321,8 @@ item3
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -3247,6 +3351,8 @@ item3
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -3270,6 +3376,8 @@ close
 popup
 "
 condition
+:
+function
 (
 )
 {
@@ -3294,6 +3402,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -3329,6 +3439,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -3355,6 +3467,8 @@ false
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -3516,6 +3630,8 @@ amenu
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -3530,6 +3646,8 @@ M
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -3568,6 +3686,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -3595,6 +3715,8 @@ gCachedEvent
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -3890,6 +4012,8 @@ one
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -3904,6 +4028,8 @@ O
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -3950,6 +4076,8 @@ submenu
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -3964,6 +4092,8 @@ O
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4022,6 +4152,8 @@ submenupopup
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -4036,6 +4168,8 @@ VK_RIGHT
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4118,6 +4252,8 @@ submenu
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -4132,6 +4268,8 @@ VK_LEFT
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4204,6 +4342,8 @@ submenupopup
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -4218,6 +4358,8 @@ VK_RETURN
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4299,6 +4441,8 @@ submenu
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -4313,6 +4457,8 @@ VK_ESCAPE
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4370,6 +4516,8 @@ accelerator
 disabled
 "
 events
+:
+function
 (
 )
 {
@@ -4433,6 +4581,8 @@ item1
 ;
 }
 test
+:
+function
 (
 )
 {
@@ -4456,6 +4606,8 @@ F
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4483,6 +4635,8 @@ accelerator
 found
 "
 test
+:
+function
 (
 )
 {
@@ -4497,6 +4651,8 @@ G
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4567,6 +4723,8 @@ amenu
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -4581,6 +4739,8 @@ M
 ;
 }
 result
+:
+function
 (
 testname
 )
@@ -4636,6 +4796,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -4680,6 +4842,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -4692,6 +4856,8 @@ gTrigger
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -4750,6 +4916,8 @@ submenupopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -4769,6 +4937,8 @@ submenu
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -4838,6 +5008,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 )
 {
@@ -4849,6 +5021,8 @@ hidePopup
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -4886,6 +5060,8 @@ parent
 open
 "
 test
+:
+function
 (
 testname
 step
@@ -4905,6 +5081,8 @@ submenu
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -4941,6 +5119,8 @@ and
 position
 "
 condition
+:
+function
 (
 )
 {
@@ -4961,6 +5141,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -4985,6 +5167,8 @@ gTrigger
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5015,6 +5199,8 @@ open
 property
 "
 condition
+:
+function
 (
 )
 {
@@ -5039,6 +5225,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -5052,6 +5240,8 @@ gMenuPopup
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5082,6 +5272,8 @@ and
 alignment
 "
 condition
+:
+function
 (
 )
 {
@@ -5107,6 +5299,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -5155,6 +5349,8 @@ gTrigger
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5188,6 +5384,8 @@ and
 alignment
 "
 condition
+:
+function
 (
 )
 {
@@ -5213,6 +5411,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -5258,6 +5458,8 @@ gTrigger
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5307,6 +5509,8 @@ on
 trigger
 "
 condition
+:
+function
 (
 )
 {
@@ -5332,6 +5536,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -5360,6 +5566,8 @@ platformIsMac
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5395,6 +5603,8 @@ on
 trigger
 "
 condition
+:
+function
 (
 )
 {
@@ -5415,6 +5625,8 @@ thepopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -5443,6 +5655,8 @@ platformIsMac
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5477,6 +5691,8 @@ on
 menuitem
 "
 condition
+:
+function
 (
 )
 {
@@ -5517,6 +5733,8 @@ item1
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -5542,6 +5760,8 @@ VK_RETURN
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5569,6 +5789,8 @@ to
 open
 "
 condition
+:
+function
 (
 )
 {
@@ -5594,6 +5816,8 @@ autohide
 thepopup
 "
 test
+:
+function
 (
 testname
 step
@@ -5623,6 +5847,8 @@ VK_F4
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5658,6 +5884,8 @@ wrong
 modifier
 "
 condition
+:
+function
 (
 )
 {
@@ -5666,6 +5894,8 @@ gIsMenu
 ;
 }
 test
+:
+function
 (
 testname
 step
@@ -5709,6 +5939,8 @@ true
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5735,6 +5967,8 @@ disabled
 menu
 "
 condition
+:
+function
 (
 )
 {
@@ -5743,6 +5977,8 @@ gIsMenu
 ;
 }
 test
+:
+function
 (
 testname
 step
@@ -5771,6 +6007,8 @@ gTrigger
 ;
 }
 result
+:
+function
 (
 testname
 step
@@ -5827,6 +6065,8 @@ submenupopup
 "
 ]
 test
+:
+function
 (
 testname
 step
@@ -5893,6 +6133,8 @@ remove
 content
 "
 test
+:
+function
 (
 testname
 step

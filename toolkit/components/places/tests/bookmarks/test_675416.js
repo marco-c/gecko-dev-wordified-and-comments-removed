@@ -53,6 +53,8 @@ onItemMoved
 :
 forceBookmarkCaching
 onItemRemoved
+:
+function
 (
 id
 )

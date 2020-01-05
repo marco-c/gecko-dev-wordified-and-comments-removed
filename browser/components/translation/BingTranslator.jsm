@@ -220,6 +220,8 @@ prototype
 =
 {
 translate
+:
+function
 (
 )
 {
@@ -364,6 +366,8 @@ this
 ;
 }
 _resetToken
+:
+function
 (
 )
 {
@@ -375,6 +379,8 @@ _currentExpiryTime
 ;
 }
 _chunkCompleted
+:
+function
 (
 bingRequest
 )
@@ -413,6 +419,8 @@ _checkIfFinished
 ;
 }
 _chunkFailed
+:
+function
 (
 aError
 )
@@ -502,6 +510,8 @@ _checkIfFinished
 ;
 }
 _checkIfFinished
+:
+function
 (
 )
 {
@@ -570,6 +580,8 @@ error
 }
 }
 _parseChunkResult
+:
+function
 (
 bingRequest
 )
@@ -730,6 +742,8 @@ error
 ;
 }
 _generateNextTranslationRequest
+:
+function
 (
 startIndex
 )
@@ -929,6 +943,8 @@ prototype
 =
 {
 fireRequest
+:
+function
 (
 )
 {
@@ -1284,6 +1300,8 @@ bind
 this
 )
 onError
+:
+function
 (
 e
 responseText
@@ -1301,6 +1319,8 @@ xhr
 postData
 :
 requestString
+headers
+:
 headers
 }
 ;
@@ -1360,6 +1380,8 @@ _pendingRequest
 :
 null
 getToken
+:
+function
 (
 )
 {
@@ -1417,6 +1439,8 @@ _getNewToken
 ;
 }
 _getNewToken
+:
+function
 (
 )
 {
@@ -1543,6 +1567,8 @@ options
 =
 {
 onLoad
+:
+function
 (
 responseText
 xhr
@@ -1646,6 +1672,8 @@ e
 }
 }
 onError
+:
+function
 (
 e
 responseText

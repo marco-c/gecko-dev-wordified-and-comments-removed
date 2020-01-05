@@ -132,6 +132,8 @@ addListener
 (
 {
 onInstallEnded
+:
+function
 (
 aInstall
 )

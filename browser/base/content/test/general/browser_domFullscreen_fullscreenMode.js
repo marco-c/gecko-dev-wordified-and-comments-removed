@@ -595,6 +595,8 @@ affectsFullscreenMode
 :
 true
 exitFunc
+:
+function
 (
 )
 {

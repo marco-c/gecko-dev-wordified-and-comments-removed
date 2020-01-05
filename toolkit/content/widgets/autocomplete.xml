@@ -5053,6 +5053,8 @@ aCommand
 cmd_paste
 "
 doCommand
+:
+function
 (
 aCommand
 )
@@ -5088,6 +5090,8 @@ false
 ;
 }
 isCommandEnabled
+:
+function
 (
 aCommand
 )
@@ -5117,6 +5121,8 @@ _kGlobalClipboard
 ;
 }
 onEvent
+:
+function
 (
 )
 {
@@ -18152,6 +18158,8 @@ let
 action
 =
 {
+type
+:
 type
 }
 ;

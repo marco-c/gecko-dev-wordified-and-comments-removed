@@ -97,6 +97,8 @@ _shouldPromptForRestart
 :
 true
 _initTrackingProtection
+:
+function
 (
 )
 {
@@ -204,6 +206,8 @@ true
 ;
 }
 _initTrackingProtectionPBM
+:
+function
 (
 )
 {
@@ -257,6 +261,8 @@ url
 ;
 }
 _initAutocomplete
+:
+function
 (
 )
 {
@@ -292,6 +298,8 @@ mozIPlacesAutoComplete
 ;
 }
 _initBrowserContainers
+:
+function
 (
 )
 {
@@ -395,6 +403,8 @@ enabled
 ;
 }
 _checkBrowserContainers
+:
+function
 (
 event
 )
@@ -654,6 +664,8 @@ true
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -1323,6 +1335,8 @@ clearDataSettings
 "
 ]
 _checkHistoryValues
+:
+function
 (
 aPrefs
 )
@@ -1366,6 +1380,9 @@ true
 ;
 }
 initializeHistoryMode
+:
+function
+PPP_initializeHistoryMode
 (
 )
 {
@@ -1468,6 +1485,9 @@ mode
 ;
 }
 updateHistoryModePane
+:
+function
+PPP_updateHistoryModePane
 (
 )
 {
@@ -1560,6 +1580,9 @@ selectedIndex
 ;
 }
 updateHistoryModePrefs
+:
+function
+PPP_updateHistoryModePrefs
 (
 )
 {
@@ -1728,6 +1751,9 @@ break
 }
 }
 updatePrivacyMicroControls
+:
+function
+PPP_updatePrivacyMicroControls
 (
 )
 {
@@ -2064,6 +2090,9 @@ _updateSanitizeSettingsButton
 }
 }
 initAutoStartPrivateBrowsingReverter
+:
+function
+PPP_initAutoStartPrivateBrowsingReverter
 (
 )
 {
@@ -2120,6 +2149,9 @@ _lastCheckState
 :
 null
 updateAutostart
+:
+function
+PPP_updateAutostart
 (
 )
 {
@@ -2493,6 +2525,8 @@ containers
 ;
 }
 showBlockLists
+:
+function
 (
 )
 {
@@ -2612,6 +2646,8 @@ no
 ;
 }
 readAcceptCookies
+:
+function
 (
 )
 {
@@ -2723,6 +2759,8 @@ acceptCookies
 ;
 }
 writeAcceptCookies
+:
+function
 (
 )
 {
@@ -2773,6 +2811,8 @@ checked
 ;
 }
 readAcceptThirdPartyCookies
+:
+function
 (
 )
 {
@@ -2839,6 +2879,8 @@ undefined
 }
 }
 writeAcceptThirdPartyCookies
+:
+function
 (
 )
 {
@@ -2895,6 +2937,8 @@ undefined
 }
 }
 showCookieExceptions
+:
+function
 (
 )
 {
@@ -2979,6 +3023,8 @@ params
 ;
 }
 showCookies
+:
+function
 (
 aCategory
 )
@@ -3006,6 +3052,8 @@ xul
 ;
 }
 showClearPrivateDataSettings
+:
+function
 (
 )
 {
@@ -3037,6 +3085,8 @@ no
 ;
 }
 clearPrivateDataNow
+:
+function
 (
 aClearEverything
 )
@@ -3138,6 +3188,8 @@ null
 ;
 }
 _updateSanitizeSettingsButton
+:
+function
 (
 )
 {
@@ -3180,6 +3232,8 @@ value
 ;
 }
 readBrowserContainersCheckbox
+:
+function
 (
 )
 {

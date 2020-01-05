@@ -229,6 +229,8 @@ search
 :
 input
 matches
+:
+matches
 }
 )
 ;

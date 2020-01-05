@@ -1369,6 +1369,8 @@ transitionType
 :
 transType
 visitDate
+:
+visitDate
 }
 ]
 }
@@ -1409,6 +1411,8 @@ _success
 :
 false
 handleResult
+:
+function
 (
 )
 {
@@ -1420,11 +1424,15 @@ true
 ;
 }
 handleError
+:
+function
 (
 )
 {
 }
 handleCompletion
+:
+function
 (
 )
 {

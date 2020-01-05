@@ -525,6 +525,8 @@ promise
 ;
 }
 _updateEnabledState
+:
+function
 (
 enable
 )
@@ -548,6 +550,8 @@ enable
 }
 }
 _updateProviderCache
+:
+function
 (
 providers
 )
@@ -598,6 +602,8 @@ length
 ;
 }
 _getProviderFromOrigin
+:
+function
 (
 origin
 )
@@ -632,6 +638,8 @@ null
 ;
 }
 getManifestByOrigin
+:
+function
 (
 origin
 )
@@ -646,6 +654,8 @@ origin
 ;
 }
 installProvider
+:
+function
 (
 data
 installCallback
@@ -666,6 +676,8 @@ options
 ;
 }
 uninstallProvider
+:
+function
 (
 origin
 aCallback
@@ -681,6 +693,8 @@ aCallback
 ;
 }
 activateFromOrigin
+:
+function
 (
 origin
 callback
@@ -1196,6 +1210,8 @@ OpenGraphBuilder
 =
 {
 generateEndpointURL
+:
+function
 (
 URLTemplate
 pageData

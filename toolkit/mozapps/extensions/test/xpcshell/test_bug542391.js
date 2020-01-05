@@ -129,6 +129,8 @@ args
 :
 null
 openWindow
+:
+function
 (
 parent
 url
@@ -214,6 +216,8 @@ findUpdates
 (
 {
 onUpdateFinished
+:
+function
 (
 )
 {
@@ -369,6 +373,8 @@ false
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

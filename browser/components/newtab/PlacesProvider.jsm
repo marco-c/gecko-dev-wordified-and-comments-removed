@@ -944,6 +944,8 @@ PlacesProvider
 =
 {
 LinkChecker
+:
+LinkChecker
 links
 :
 gLinks

@@ -272,6 +272,8 @@ upgradeDeclined
 :
 0
 init
+:
+function
 (
 )
 {
@@ -432,6 +434,8 @@ shouldAutoCheck
 ;
 }
 _setUpButton
+:
+function
 (
 aButtonID
 aButtonKey
@@ -515,6 +519,8 @@ aDisabled
 ;
 }
 setButtonLabels
+:
+function
 (
 aBackButton
 aBackButtonIsDisabled
@@ -563,6 +569,8 @@ errorItems
 [
 ]
 checkForErrors
+:
+function
 (
 aElementIDToShow
 )
@@ -590,6 +598,8 @@ false
 ;
 }
 onWizardClose
+:
+function
 (
 aEvent
 )
@@ -603,6 +613,8 @@ onWizardCancel
 ;
 }
 onWizardCancel
+:
+function
 (
 )
 {
@@ -720,6 +732,8 @@ gOfflinePage
 =
 {
 onPageAdvanced
+:
+function
 (
 )
 {
@@ -736,6 +750,8 @@ true
 ;
 }
 toggleOffline
+:
+function
 (
 )
 {
@@ -769,6 +785,8 @@ listener
 =
 {
 onDisabled
+:
+function
 (
 aAddon
 )
@@ -792,6 +810,8 @@ metadataDisabled
 ;
 }
 onEnabled
+:
+function
 (
 aAddon
 )
@@ -1069,6 +1089,8 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 }
 )
 onAllUpdatesFinished
+:
+function
 (
 )
 {
@@ -1413,6 +1435,8 @@ close
 }
 }
 onUpdateFinished
+:
+function
 (
 aAddon
 status
@@ -1665,6 +1689,8 @@ onAllUpdatesFinished
 ;
 }
 onUpdateAvailable
+:
+function
 (
 aAddon
 aInstall
@@ -1718,6 +1744,8 @@ waiting
 :
 false
 onPageShow
+:
+function
 (
 )
 {
@@ -1835,6 +1863,8 @@ _completeCount
 :
 0
 onPageShow
+:
+function
 (
 )
 {
@@ -1931,6 +1961,8 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 }
 }
 onAllUpdatesFinished
+:
+function
 (
 )
 {
@@ -1985,6 +2017,8 @@ nextPage
 ;
 }
 onUpdateAvailable
+:
+function
 (
 aAddon
 aInstall
@@ -2026,6 +2060,8 @@ aInstall
 ;
 }
 onUpdateFinished
+:
+function
 (
 aAddon
 status
@@ -2176,6 +2212,8 @@ gFoundPage
 =
 {
 onPageShow
+:
+function
 (
 )
 {
@@ -2352,6 +2390,8 @@ false
 }
 }
 toggleXPInstallEnable
+:
+function
 (
 aEvent
 )
@@ -2416,6 +2456,8 @@ updateNextButton
 ;
 }
 updateNextButton
+:
+function
 (
 )
 {
@@ -2575,6 +2617,8 @@ _installing
 :
 false
 startInstalls
+:
+function
 (
 aInstallList
 )
@@ -2656,6 +2700,8 @@ startNextInstall
 ;
 }
 onPageShow
+:
+function
 (
 )
 {
@@ -2788,6 +2834,8 @@ toInstall
 ;
 }
 startNextInstall
+:
+function
 (
 )
 {
@@ -3043,6 +3091,8 @@ install
 ;
 }
 onDownloadStarted
+:
+function
 (
 aInstall
 )
@@ -3106,6 +3156,8 @@ label
 ;
 }
 onDownloadProgress
+:
+function
 (
 aInstall
 )
@@ -3153,12 +3205,16 @@ maxProgress
 ;
 }
 onDownloadEnded
+:
+function
 (
 aInstall
 )
 {
 }
 onDownloadFailed
+:
+function
 (
 aInstall
 )
@@ -3186,6 +3242,8 @@ startNextInstall
 ;
 }
 onInstallStarted
+:
+function
 (
 aInstall
 )
@@ -3249,6 +3307,8 @@ label
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 aAddon
@@ -3289,6 +3349,8 @@ startNextInstall
 ;
 }
 onInstallFailed
+:
+function
 (
 aInstall
 )
@@ -3322,6 +3384,8 @@ gInstallErrorsPage
 =
 {
 onPageShow
+:
+function
 (
 )
 {
@@ -3360,6 +3424,8 @@ gAdminDisabledPage
 =
 {
 onPageShow
+:
+function
 (
 )
 {
@@ -3400,6 +3466,8 @@ gFinishedPage
 =
 {
 onPageShow
+:
+function
 (
 )
 {
@@ -3494,6 +3562,8 @@ gNoUpdatesPage
 =
 {
 onPageShow
+:
+function
 (
 aEvent
 )

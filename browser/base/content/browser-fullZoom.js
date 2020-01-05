@@ -312,6 +312,8 @@ break
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -586,6 +588,8 @@ name
 ctxt
 {
 handleResult
+:
+function
 (
 )
 {
@@ -853,6 +857,8 @@ name
 ctxt
 {
 handleResult
+:
+function
 (
 resultPref
 )
@@ -1019,6 +1025,8 @@ browser
 ;
 }
 setZoom
+:
+function
 (
 value
 browser
@@ -1799,6 +1807,8 @@ browser
 )
 {
 handleResult
+:
+function
 (
 pref
 )

@@ -2333,6 +2333,8 @@ userContextId
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -4227,6 +4229,8 @@ prototype
 =
 {
 setBehavior
+:
+function
 (
 type
 )
@@ -4277,6 +4281,8 @@ history
 }
 }
 hasBehavior
+:
+function
 (
 type
 )
@@ -4332,6 +4338,8 @@ _sleepDeferred
 :
 null
 _sleep
+:
+function
 (
 aTimeMs
 )
@@ -4411,6 +4419,8 @@ promise
 ;
 }
 filterTokens
+:
+function
 (
 tokens
 )
@@ -5642,8 +5652,10 @@ looksLikeUrl
 )
 ;
 }
-*
 _matchKnownUrl
+:
+function
+*
 (
 conn
 )
@@ -5776,8 +5788,10 @@ return
 gotResult
 ;
 }
-*
 _matchExtensionHeuristicResult
+:
+function
+*
 (
 )
 {
@@ -5845,8 +5859,10 @@ return
 false
 ;
 }
-*
 _matchPlacesKeyword
+:
+function
+*
 (
 )
 {
@@ -6022,8 +6038,10 @@ return
 true
 ;
 }
-*
 _matchSearchEngineUrl
+:
+function
+*
 (
 )
 {
@@ -6208,6 +6226,8 @@ _addMatch
 (
 {
 value
+:
+value
 comment
 :
 match
@@ -6240,8 +6260,10 @@ return
 true
 ;
 }
-*
 _matchSearchEngineAlias
+:
+function
+*
 (
 )
 {
@@ -6321,8 +6343,10 @@ return
 true
 ;
 }
-*
 _matchCurrentSearchEngine
+:
+function
+*
 (
 )
 {
@@ -6513,6 +6537,8 @@ this
 _addMatch
 (
 {
+value
+:
 value
 comment
 :
@@ -6755,8 +6781,10 @@ match
 ;
 }
 }
-*
 _matchUnknownUrl
+:
+function
+*
 (
 )
 {
@@ -6924,6 +6952,8 @@ match
 =
 {
 value
+:
+value
 comment
 :
 displayURL
@@ -6982,6 +7012,8 @@ true
 ;
 }
 _onResultRow
+:
+function
 (
 row
 )
@@ -7113,6 +7145,8 @@ StopIteration
 ;
 }
 _maybeRestyleSearchMatch
+:
+function
 (
 match
 )
@@ -7585,6 +7619,8 @@ index
 ;
 }
 _processHostRow
+:
+function
 (
 row
 )
@@ -7734,6 +7770,8 @@ match
 ;
 }
 _processUrlRow
+:
+function
 (
 row
 )
@@ -7980,6 +8018,8 @@ match
 ;
 }
 _processRow
+:
+function
 (
 row
 )
@@ -9061,6 +9101,8 @@ query
 ;
 }
 notifyResults
+:
+function
 (
 searchOngoing
 )
@@ -9143,6 +9185,8 @@ _promiseDatabase
 :
 null
 getDatabaseHandle
+:
+function
 (
 )
 {
@@ -9361,6 +9405,8 @@ userContextId
 ;
 }
 startSearch
+:
+function
 (
 searchString
 searchParam
@@ -9528,6 +9574,8 @@ true
 ;
 }
 stopSearch
+:
+function
 (
 )
 {
@@ -9555,6 +9603,8 @@ finishSearch
 ;
 }
 finishSearch
+:
+function
 (
 notify
 =
@@ -9620,6 +9670,8 @@ false
 ;
 }
 onValueRemoved
+:
+function
 (
 result
 spec

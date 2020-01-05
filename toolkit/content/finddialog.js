@@ -758,6 +758,8 @@ value
 }
 {
 handleError
+:
+function
 (
 aError
 )

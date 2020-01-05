@@ -343,6 +343,8 @@ MOZSPG
 "
 )
 run
+:
+function
 (
 )
 {
@@ -400,6 +402,8 @@ moz35
 "
 )
 run
+:
+function
 (
 )
 {
@@ -459,6 +463,8 @@ utf
 "
 )
 run
+:
+function
 (
 )
 {
@@ -533,6 +539,8 @@ search
 "
 )
 run
+:
+function
 (
 )
 {

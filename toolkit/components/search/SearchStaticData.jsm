@@ -1002,6 +1002,8 @@ SearchStaticData
 =
 {
 getAlternateDomains
+:
+function
 (
 aDomain
 )

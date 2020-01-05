@@ -176,6 +176,8 @@ inited
 :
 false
 init
+:
+function
 (
 )
 {

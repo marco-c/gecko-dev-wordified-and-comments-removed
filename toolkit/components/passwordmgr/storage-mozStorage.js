@@ -164,6 +164,8 @@ prototype
 =
 {
 commit
+:
+function
 (
 )
 {
@@ -183,6 +185,8 @@ commitTransaction
 ;
 }
 rollback
+:
+function
 (
 )
 {
@@ -250,6 +254,8 @@ nsIInterfaceRequestor
 ]
 )
 getInterface
+:
+function
 (
 aIID
 )
@@ -715,6 +721,8 @@ _signonsFile
 :
 null
 initWithFile
+:
+function
 (
 aDBFile
 )
@@ -737,6 +745,8 @@ initialize
 ;
 }
 initialize
+:
+function
 (
 )
 {
@@ -880,6 +890,8 @@ failed
 }
 }
 terminate
+:
+function
 (
 )
 {
@@ -892,6 +904,8 @@ resolve
 ;
 }
 addLogin
+:
+function
 (
 login
 )
@@ -1165,6 +1179,8 @@ loginClone
 .
 guid
 encType
+:
+encType
 timeCreated
 :
 loginClone
@@ -1286,6 +1302,8 @@ loginClone
 ;
 }
 removeLogin
+:
+function
 (
 login
 )
@@ -1468,6 +1486,8 @@ storedLogin
 ;
 }
 modifyLogin
+:
+function
 (
 oldLogin
 newLoginData
@@ -1779,6 +1799,8 @@ newLogin
 .
 guid
 encType
+:
+encType
 timeCreated
 :
 newLogin
@@ -1900,6 +1922,8 @@ newLogin
 ;
 }
 getAllLogins
+:
+function
 (
 count
 )
@@ -1964,6 +1988,8 @@ logins
 ;
 }
 searchLogins
+:
+function
 (
 count
 matchData
@@ -2095,6 +2121,8 @@ logins
 ;
 }
 _searchLogins
+:
+function
 (
 matchData
 aOptions
@@ -2718,6 +2746,8 @@ ids
 ;
 }
 storeDeletedLogin
+:
+function
 (
 aLogin
 )
@@ -2830,6 +2860,8 @@ reset
 }
 }
 removeAllLogins
+:
+function
 (
 )
 {
@@ -2969,6 +3001,8 @@ null
 ;
 }
 findLogins
+:
+function
 (
 count
 hostname
@@ -2981,7 +3015,13 @@ loginData
 =
 {
 hostname
+:
+hostname
 formSubmitURL
+:
+formSubmitURL
+httpRealm
+:
 httpRealm
 }
 ;
@@ -3083,6 +3123,8 @@ logins
 ;
 }
 countLogins
+:
+function
 (
 hostname
 formSubmitURL
@@ -3310,6 +3352,8 @@ isLoggedIn
 ;
 }
 _getIdForLogin
+:
+function
 (
 login
 )
@@ -3454,6 +3498,8 @@ foundLogin
 ;
 }
 _buildConditionsAndParams
+:
+function
 (
 hostname
 formSubmitURL
@@ -3636,6 +3682,8 @@ params
 ;
 }
 _isGuidUnique
+:
+function
 (
 guid
 )
@@ -3664,6 +3712,8 @@ let
 params
 =
 {
+guid
+:
 guid
 }
 ;
@@ -3752,6 +3802,8 @@ numLogins
 ;
 }
 _encryptLogin
+:
+function
 (
 login
 )
@@ -3802,6 +3854,8 @@ encType
 ;
 }
 _decryptLogins
+:
+function
 (
 logins
 )
@@ -3888,6 +3942,8 @@ result
 ;
 }
 _dbCreateStatement
+:
+function
 (
 query
 params
@@ -3974,6 +4030,8 @@ wrappedStmt
 ;
 }
 _dbInit
+:
+function
 (
 )
 {
@@ -4106,6 +4164,8 @@ isFirstRun
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -4153,6 +4213,8 @@ break
 }
 }
 _dbCreate
+:
+function
 (
 )
 {
@@ -4182,6 +4244,8 @@ DB_VERSION
 ;
 }
 _dbCreateSchema
+:
+function
 (
 )
 {
@@ -4199,6 +4263,8 @@ _dbCreateIndices
 ;
 }
 _dbCreateTables
+:
+function
 (
 )
 {
@@ -4242,6 +4308,8 @@ name
 ;
 }
 _dbCreateIndices
+:
+function
 (
 )
 {
@@ -4330,6 +4398,8 @@ statement
 }
 }
 _dbMigrate
+:
+function
 (
 oldVersion
 )
@@ -4531,6 +4601,8 @@ completed
 ;
 }
 _dbMigrateToVersion2
+:
+function
 (
 )
 {
@@ -4717,6 +4789,8 @@ params
 =
 {
 id
+:
+id
 guid
 :
 this
@@ -4792,6 +4866,8 @@ reset
 }
 }
 _dbMigrateToVersion3
+:
+function
 (
 )
 {
@@ -5108,6 +5184,8 @@ reset
 }
 }
 _dbMigrateToVersion4
+:
+function
 (
 )
 {
@@ -5396,6 +5474,8 @@ reset
 }
 }
 _dbMigrateToVersion5
+:
+function
 (
 )
 {
@@ -5435,6 +5515,8 @@ moz_deleted_logins
 }
 }
 _dbMigrateToVersion6
+:
+function
 (
 )
 {
@@ -5604,6 +5686,8 @@ query
 ;
 }
 _dbAreExpectedColumnsPresent
+:
+function
 (
 )
 {
@@ -5776,6 +5860,8 @@ true
 ;
 }
 _dbColumnExists
+:
+function
 (
 columnName
 )
@@ -5829,6 +5915,8 @@ false
 }
 }
 _dbClose
+:
+function
 (
 )
 {
@@ -5925,6 +6013,8 @@ null
 ;
 }
 _dbCleanup
+:
+function
 (
 backup
 )

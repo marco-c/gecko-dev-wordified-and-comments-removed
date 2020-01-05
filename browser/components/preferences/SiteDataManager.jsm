@@ -283,6 +283,10 @@ principal
 origin
 {
 perm
+:
+perm
+status
+:
 status
 quotaUsage
 :
@@ -407,6 +411,8 @@ callback
 =
 {
 onUsageResult
+:
+function
 (
 request
 )
@@ -625,6 +631,8 @@ visitor
 =
 {
 onCacheEntryInfo
+:
+function
 (
 uri
 idEnhance
@@ -674,6 +682,8 @@ break
 }
 }
 onCacheEntryVisitCompleted
+:
+function
 (
 )
 {

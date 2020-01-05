@@ -398,6 +398,8 @@ name
 :
 null
 error
+:
+function
 (
 aStr
 aException
@@ -803,6 +805,8 @@ e
 }
 }
 warn
+:
+function
 (
 aStr
 aException
@@ -909,6 +913,8 @@ n
 ;
 }
 log
+:
+function
 (
 aStr
 aException
@@ -969,6 +975,8 @@ LogManager
 =
 {
 getLogger
+:
+function
 (
 aName
 aTarget
@@ -1059,6 +1067,8 @@ PrefObserver
 =
 {
 init
+:
+function
 (
 )
 {
@@ -1099,6 +1109,8 @@ PREF_LOGGING_ENABLED
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic

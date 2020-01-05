@@ -231,6 +231,8 @@ _syncAnimationTimer
 :
 0
 init
+:
+function
 (
 )
 {
@@ -666,6 +668,8 @@ false
 ;
 }
 _loginFailed
+:
+function
 (
 )
 {
@@ -1298,6 +1302,8 @@ updateUI
 ;
 }
 _getAppName
+:
+function
 (
 )
 {
@@ -1590,6 +1596,8 @@ wizardType
 }
 }
 openAddDevice
+:
+function
 (
 )
 {
@@ -1666,6 +1674,8 @@ no
 ;
 }
 openPrefs
+:
+function
 (
 entryPoint
 )
@@ -1688,6 +1698,8 @@ entryPoint
 ;
 }
 openSignInAgainPage
+:
+function
 (
 entryPoint
 =
@@ -2167,6 +2179,8 @@ tooltiptext
 }
 )
 formatLastSyncDate
+:
+function
 (
 date
 )
@@ -2299,6 +2313,8 @@ lastSyncDateString
 ;
 }
 onClientsSynced
+:
+function
 (
 )
 {

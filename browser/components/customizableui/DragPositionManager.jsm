@@ -162,6 +162,8 @@ _wideCache
 :
 null
 update
+:
+function
 (
 aContainer
 )
@@ -337,6 +339,8 @@ singleItemHeight
 }
 }
 find
+:
+function
 (
 aContainer
 aX
@@ -638,6 +642,8 @@ closest
 ;
 }
 insertPlaceholder
+:
+function
 (
 aContainer
 aBefore
@@ -874,6 +880,8 @@ aBefore
 ;
 }
 isWide
+:
+function
 (
 aNode
 )
@@ -892,6 +900,8 @@ id
 ;
 }
 _checkIfWide
+:
+function
 (
 aNode
 )
@@ -925,6 +935,8 @@ WIDE_PANEL_CLASS
 ;
 }
 clearPlaceholders
+:
+function
 (
 aContainer
 aNoTransition
@@ -1001,6 +1013,8 @@ null
 }
 }
 _getNextPos
+:
+function
 (
 aNode
 aShiftDown
@@ -1045,6 +1059,8 @@ aSize
 ;
 }
 _diffWithNext
+:
+function
 (
 aNode
 aSize
@@ -1334,6 +1350,8 @@ px
 ;
 }
 _moveNextBasedOnPrevious
+:
+function
 (
 aNode
 aNodeBounds
@@ -1488,6 +1506,8 @@ xDiff
 ;
 }
 _lazyStoreGet
+:
+function
 (
 aNode
 )
@@ -1605,6 +1625,8 @@ rect
 ;
 }
 _firstInRow
+:
+function
 (
 aNode
 )
@@ -1688,6 +1710,8 @@ rv
 ;
 }
 _getVisibleSiblingForDirection
+:
+function
 (
 aNode
 aDirection
@@ -1741,6 +1765,8 @@ DragPositionManager
 =
 {
 start
+:
+function
 (
 aWindow
 )
@@ -1855,6 +1881,8 @@ areaNode
 }
 }
 add
+:
+function
 (
 aWindow
 aArea
@@ -1893,6 +1921,8 @@ aContainer
 ;
 }
 remove
+:
+function
 (
 aWindow
 aArea
@@ -1926,6 +1956,8 @@ aContainer
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -1938,6 +1970,8 @@ WeakMap
 ;
 }
 getManagerForArea
+:
+function
 (
 aArea
 )

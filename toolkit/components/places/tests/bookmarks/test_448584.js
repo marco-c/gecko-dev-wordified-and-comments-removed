@@ -70,6 +70,8 @@ _itemId
 :
 null
 populate
+:
+function
 (
 )
 {
@@ -133,6 +135,8 @@ _itemTitle
 ;
 }
 clean
+:
+function
 (
 )
 {
@@ -149,6 +153,8 @@ _itemId
 ;
 }
 validate
+:
+function
 (
 aExpectValidItemsCount
 )

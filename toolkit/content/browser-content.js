@@ -254,6 +254,8 @@ this
 ;
 }
 isAutoscrollBlocker
+:
+function
 (
 node
 )
@@ -402,6 +404,8 @@ false
 ;
 }
 findNearestScrollableElement
+:
+function
 (
 aNode
 )
@@ -762,6 +766,8 @@ null
 }
 }
 startScroll
+:
+function
 (
 event
 )
@@ -926,6 +932,8 @@ autoscrollLoop
 ;
 }
 stopScroll
+:
+function
 (
 )
 {
@@ -976,6 +984,8 @@ true
 }
 }
 accelerate
+:
+function
 (
 curr
 start
@@ -1040,6 +1050,8 @@ return
 ;
 }
 roundToZero
+:
+function
 (
 num
 )
@@ -1068,6 +1080,8 @@ num
 ;
 }
 autoscrollLoop
+:
+function
 (
 timestamp
 )
@@ -1295,6 +1309,8 @@ autoscrollLoop
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -1447,6 +1463,8 @@ Cancel
 }
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -1496,6 +1514,8 @@ popupDataInternal
 :
 null
 init
+:
+function
 (
 )
 {
@@ -1548,6 +1568,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -1783,6 +1805,8 @@ break
 }
 }
 handleEvent
+:
+function
 (
 ev
 )
@@ -1839,6 +1863,8 @@ undefined
 ;
 }
 onPopupBlocked
+:
+function
 (
 ev
 )
@@ -1948,6 +1974,8 @@ true
 ;
 }
 onPageShow
+:
+function
 (
 ev
 )
@@ -2075,6 +2103,8 @@ false
 }
 }
 onPageHide
+:
+function
 (
 ev
 )
@@ -2108,6 +2138,8 @@ false
 }
 }
 updateBlockedPopups
+:
+function
 (
 freshPopup
 )
@@ -2390,6 +2422,8 @@ isPrinting
 wbp
 .
 doingPrint
+nsresult
+:
 nsresult
 }
 )
@@ -2714,6 +2748,8 @@ webProgressListener
 =
 {
 onStateChange
+:
+function
 (
 webProgress
 req
@@ -3946,6 +3982,8 @@ UpdatePageCount
 "
 {
 numPages
+:
+numPages
 }
 )
 ;
@@ -4511,6 +4549,8 @@ Findbar
 Keypress
 "
 {
+fakeEvent
+:
 fakeEvent
 shouldFastFind
 :
@@ -5642,6 +5682,8 @@ ViewSelectionSource
 =
 {
 init
+:
+function
 (
 )
 {
@@ -5657,6 +5699,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -5722,6 +5766,8 @@ selectionDetails
 }
 }
 getPath
+:
+function
 (
 ancestor
 node
@@ -5844,6 +5890,8 @@ path
 ;
 }
 getSelection
+:
+function
 (
 )
 {
@@ -6571,6 +6619,8 @@ baseURI
 ;
 }
 getMathMLSelection
+:
+function
 (
 node
 )
@@ -6997,6 +7047,8 @@ wrap_long_lines
 ;
 }
 getInnerMarkup
+:
+function
 (
 node
 indent
@@ -7052,6 +7104,8 @@ str
 ;
 }
 getOuterMarkup
+:
+function
 (
 node
 indent
@@ -7636,6 +7690,8 @@ str
 ;
 }
 unicodeToEntity
+:
+function
 (
 text
 )
@@ -8031,6 +8087,8 @@ RequestFocus
 "
 ]
 init
+:
+function
 (
 )
 {
@@ -8081,6 +8139,8 @@ false
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -8465,6 +8525,8 @@ _popupOpen
 ;
 }
 openAutocompletePopup
+:
+function
 (
 input
 element
@@ -8547,6 +8609,8 @@ input
 ;
 }
 closePopup
+:
+function
 (
 )
 {
@@ -8569,6 +8633,8 @@ ClosePopup
 ;
 }
 invalidate
+:
+function
 (
 )
 {
@@ -8606,6 +8672,8 @@ results
 }
 }
 selectBy
+:
+function
 (
 reverse
 page
@@ -8624,6 +8692,10 @@ SelectBy
 "
 {
 reverse
+:
+reverse
+page
+:
 page
 }
 )
@@ -8776,6 +8848,8 @@ DateTimePickerListener
 =
 {
 init
+:
+function
 (
 )
 {
@@ -8814,6 +8888,8 @@ uninit
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -8833,6 +8909,8 @@ null
 ;
 }
 close
+:
+function
 (
 )
 {
@@ -8859,6 +8937,8 @@ null
 ;
 }
 addListeners
+:
+function
 (
 )
 {
@@ -8908,6 +8988,8 @@ this
 ;
 }
 removeListeners
+:
+function
 (
 )
 {
@@ -8957,6 +9039,8 @@ this
 ;
 }
 getComputedDirection
+:
+function
 (
 aElement
 )
@@ -8982,6 +9066,8 @@ direction
 ;
 }
 getBoundingContentRect
+:
+function
 (
 aElement
 )
@@ -8996,6 +9082,8 @@ aElement
 ;
 }
 getTimePickerPref
+:
+function
 (
 )
 {
@@ -9019,6 +9107,8 @@ timepicker
 ;
 }
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -9076,6 +9166,8 @@ break
 }
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -9370,6 +9462,8 @@ TelemetryScrollTracker
 =
 {
 init
+:
+function
 (
 )
 {
@@ -9475,6 +9569,8 @@ true
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -9669,6 +9765,8 @@ break
 }
 }
 shouldIgnorePage
+:
+function
 (
 )
 {

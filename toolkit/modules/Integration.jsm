@@ -136,6 +136,8 @@ _combined
 =
 {
 QueryInterface
+:
+function
 (
 )
 {

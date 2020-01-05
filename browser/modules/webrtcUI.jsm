@@ -216,6 +216,8 @@ EventEmitter
 (
 )
 init
+:
+function
 (
 )
 {
@@ -384,6 +386,8 @@ this
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -753,6 +757,8 @@ _streams
 [
 ]
 getActiveStreams
+:
+function
 (
 aCamera
 aMicrophone
@@ -877,7 +883,13 @@ state
 .
 documentURI
 tab
+:
+tab
 browser
+:
+browser
+types
+:
 types
 }
 ;
@@ -886,6 +898,8 @@ types
 ;
 }
 swapBrowserForNotification
+:
+function
 (
 aOldBrowser
 aNewBrowser
@@ -919,6 +933,8 @@ aNewBrowser
 }
 }
 forgetStreamsFromBrowser
+:
+function
 (
 aBrowser
 )
@@ -946,6 +962,8 @@ aBrowser
 ;
 }
 showSharingDoorhanger
+:
+function
 (
 aActiveStream
 )
@@ -1119,6 +1137,8 @@ click
 ;
 }
 updateWarningLabel
+:
+function
 (
 aMenuList
 )
@@ -1170,6 +1190,8 @@ Screen
 ;
 }
 addPeerConnectionBlocker
+:
+function
 (
 aCallback
 )
@@ -1185,6 +1207,8 @@ aCallback
 ;
 }
 removePeerConnectionBlocker
+:
+function
 (
 aCallback
 )
@@ -1200,6 +1224,8 @@ aCallback
 ;
 }
 on
+:
+function
 (
 .
 .
@@ -1222,6 +1248,8 @@ args
 ;
 }
 off
+:
+function
 (
 .
 .
@@ -1244,6 +1272,8 @@ args
 ;
 }
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -2096,6 +2126,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -2136,6 +2168,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 aState
 )
@@ -2334,6 +2368,8 @@ productName
 undefined
 }
 eventCallback
+:
+function
 (
 aTopic
 aNewBrowser
@@ -4636,6 +4672,8 @@ Ci
 nsISystemStatusBar
 )
 _command
+:
+function
 (
 aEvent
 )
@@ -4653,6 +4691,8 @@ stream
 ;
 }
 _popupShowing
+:
+function
 (
 aEvent
 )
@@ -5121,6 +5161,8 @@ true
 ;
 }
 _popupHiding
+:
+function
 (
 aEvent
 )
@@ -5141,6 +5183,8 @@ remove
 ;
 }
 _setIndicatorState
+:
+function
 (
 aName
 aState
@@ -5344,6 +5388,8 @@ null
 }
 }
 updateIndicatorState
+:
+function
 (
 )
 {
@@ -5385,6 +5431,8 @@ showScreenSharingIndicator
 ;
 }
 close
+:
+function
 (
 )
 {

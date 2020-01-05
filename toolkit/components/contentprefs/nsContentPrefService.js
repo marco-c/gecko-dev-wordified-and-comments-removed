@@ -2903,6 +2903,8 @@ __stmtSelectPref
 ;
 }
 _scheduleCallback
+:
+function
 (
 func
 )
@@ -3064,6 +3066,8 @@ execute
 (
 {
 onResult
+:
+function
 (
 aResult
 )
@@ -3312,6 +3316,8 @@ execute
 (
 {
 onResult
+:
+function
 (
 aResult
 )
@@ -6286,6 +6292,8 @@ _hadResult
 :
 false
 handleResult
+:
+function
 (
 aResult
 )
@@ -6331,6 +6339,8 @@ value
 }
 }
 handleCompletion
+:
+function
 (
 aReason
 )
@@ -6368,6 +6378,8 @@ undefined
 ;
 }
 handleError
+:
+function
 (
 aError
 )

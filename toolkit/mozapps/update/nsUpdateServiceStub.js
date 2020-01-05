@@ -185,6 +185,8 @@ prototype
 =
 {
 observe
+:
+function
 (
 )
 {

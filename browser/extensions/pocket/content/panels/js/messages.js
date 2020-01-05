@@ -181,6 +181,8 @@ messagePayload
 =
 {
 panelId
+:
+panelId
 data
 :
 (
@@ -308,8 +310,16 @@ evt
 return
 {
 panelIdFromURL
+:
+panelIdFromURL
+addMessageListener
+:
 addMessageListener
 removeMessageListener
+:
+removeMessageListener
+sendMessage
+:
 sendMessage
 }
 ;

@@ -149,6 +149,8 @@ NavHistoryObserver
 .
 prototype
 onVisit
+:
+function
 (
 aURI
 aVisitID

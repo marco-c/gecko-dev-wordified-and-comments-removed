@@ -39,6 +39,8 @@ UITourListener
 =
 {
 handleEvent
+:
+function
 (
 event
 )
@@ -128,6 +130,8 @@ visibilityState
 ;
 }
 isTestingOrigin
+:
+function
 (
 aURI
 )
@@ -228,6 +232,8 @@ false
 ;
 }
 isSafeScheme
+:
+function
 (
 aURI
 )
@@ -295,6 +301,8 @@ true
 ;
 }
 ensureTrustedOrigin
+:
+function
 (
 )
 {
@@ -383,6 +391,8 @@ uri
 ;
 }
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -439,6 +449,8 @@ break
 }
 }
 sendPageEvent
+:
+function
 (
 type
 detail

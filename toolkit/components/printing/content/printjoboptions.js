@@ -446,6 +446,8 @@ prototype
 =
 {
 clearPaperList
+:
+function
 (
 )
 {
@@ -464,6 +466,8 @@ firstChild
 ;
 }
 appendPaperNames
+:
+function
 (
 aDataObject
 )

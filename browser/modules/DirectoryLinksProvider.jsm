@@ -1151,6 +1151,8 @@ this
 }
 }
 _cacheSuggestedLinks
+:
+function
 (
 link
 )
@@ -3219,6 +3221,8 @@ this
 ;
 }
 _handleManyLinksChanged
+:
+function
 (
 )
 {
@@ -3274,6 +3278,8 @@ _updateSuggestedTile
 ;
 }
 _handleLinkChanged
+:
+function
 (
 aLink
 )
@@ -3390,6 +3396,8 @@ false
 ;
 }
 _populatePlacesLinks
+:
+function
 (
 )
 {
@@ -3418,6 +3426,8 @@ _handleManyLinksChanged
 ;
 }
 onDeleteURI
+:
+function
 (
 aProvider
 aLink
@@ -3459,6 +3469,8 @@ url
 ;
 }
 onClearHistory
+:
+function
 (
 )
 {
@@ -3489,6 +3501,8 @@ onClearHistory
 ;
 }
 onLinkChanged
+:
+function
 (
 aProvider
 aLink
@@ -3531,6 +3545,8 @@ _updateSuggestedTile
 ;
 }
 onManyLinksChanged
+:
+function
 (
 )
 {
@@ -3553,6 +3569,8 @@ _handleManyLinksChanged
 ;
 }
 _getCurrentTopSiteCount
+:
+function
 (
 )
 {
@@ -3640,6 +3658,8 @@ visibleTopSiteCount
 ;
 }
 _shouldUpdateSuggestedTile
+:
+function
 (
 )
 {
@@ -3722,6 +3742,8 @@ false
 ;
 }
 _updateSuggestedTile
+:
+function
 (
 )
 {
@@ -5235,6 +5257,8 @@ err
 }
 }
 _removeObservers
+:
+function
 (
 )
 {

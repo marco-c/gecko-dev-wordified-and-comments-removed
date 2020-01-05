@@ -315,6 +315,8 @@ NavHistoryObserver
 .
 prototype
 onVisit
+:
+function
 (
 aURI
 aVisitId
@@ -2877,6 +2879,8 @@ VisitInfo
 (
 )
 ]
+placeId
+:
 placeId
 }
 ;

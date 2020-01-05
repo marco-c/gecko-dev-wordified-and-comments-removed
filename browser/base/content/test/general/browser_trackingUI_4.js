@@ -221,6 +221,8 @@ listener
 =
 {
 onSecurityChange
+:
+function
 (
 )
 {

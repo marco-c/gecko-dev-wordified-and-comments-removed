@@ -386,6 +386,8 @@ LanguageDetector
 =
 {
 detectLanguage
+:
+function
 (
 aParams
 )

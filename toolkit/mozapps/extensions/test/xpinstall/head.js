@@ -353,6 +353,8 @@ leaveOpen
 {
 }
 setup
+:
+function
 (
 )
 {
@@ -755,6 +757,8 @@ runningInstalls
 ;
 }
 finish
+:
+function
 (
 )
 {
@@ -764,6 +768,8 @@ finish
 ;
 }
 endTest
+:
+function
 (
 )
 {
@@ -937,6 +943,8 @@ count
 ;
 }
 windowReady
+:
+function
 (
 window
 )
@@ -1284,6 +1292,8 @@ break
 }
 }
 installDisabled
+:
+function
 (
 installInfo
 )
@@ -1339,6 +1349,8 @@ endTest
 ;
 }
 installCancelled
+:
+function
 (
 installInfo
 )
@@ -1390,6 +1402,8 @@ endTest
 ;
 }
 installOriginBlocked
+:
+function
 (
 installInfo
 )
@@ -1432,6 +1446,8 @@ endTest
 ;
 }
 installBlocked
+:
+function
 (
 installInfo
 )
@@ -1527,6 +1543,8 @@ endTest
 }
 }
 onWindowTitleChange
+:
+function
 (
 window
 title
@@ -1534,6 +1552,8 @@ title
 {
 }
 onOpenWindow
+:
+function
 (
 window
 )
@@ -1585,12 +1605,16 @@ domwindow
 ;
 }
 onCloseWindow
+:
+function
 (
 window
 )
 {
 }
 onNewInstall
+:
+function
 (
 install
 )
@@ -1749,6 +1773,8 @@ listener
 }
 }
 onDownloadStarted
+:
+function
 (
 install
 )
@@ -1774,6 +1800,8 @@ install
 ;
 }
 onDownloadProgress
+:
+function
 (
 install
 )
@@ -1793,6 +1821,8 @@ install
 ;
 }
 onDownloadEnded
+:
+function
 (
 install
 )
@@ -1812,6 +1842,8 @@ install
 ;
 }
 onDownloadCancelled
+:
+function
 (
 install
 )
@@ -1877,6 +1909,8 @@ checkTestEnded
 ;
 }
 onDownloadFailed
+:
+function
 (
 install
 )
@@ -1902,6 +1936,8 @@ checkTestEnded
 ;
 }
 onInstallStarted
+:
+function
 (
 install
 )
@@ -1921,6 +1957,8 @@ install
 ;
 }
 onInstallEnded
+:
+function
 (
 install
 addon
@@ -1954,6 +1992,8 @@ checkTestEnded
 ;
 }
 onInstallFailed
+:
+function
 (
 install
 )
@@ -1979,6 +2019,8 @@ checkTestEnded
 ;
 }
 checkTestEnded
+:
+function
 (
 )
 {
@@ -2007,6 +2049,8 @@ endTest
 ;
 }
 observe
+:
+function
 (
 subject
 topic

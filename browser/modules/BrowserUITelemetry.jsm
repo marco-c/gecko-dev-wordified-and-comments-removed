@@ -850,6 +850,8 @@ BrowserUITelemetry
 =
 {
 init
+:
+function
 (
 )
 {
@@ -986,6 +988,8 @@ this
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -1104,6 +1108,8 @@ break
 }
 }
 _ensureObjectChain
+:
+function
 (
 aKeys
 aEndWith
@@ -1207,6 +1213,8 @@ _countableEvents
 {
 }
 _countEvent
+:
+function
 (
 aKeyArray
 root
@@ -1249,6 +1257,8 @@ lastItemKey
 ;
 }
 _countMouseUpEvent
+:
+function
 (
 aCategory
 aAction
@@ -1300,6 +1310,8 @@ _firstWindowMeasurements
 :
 null
 _gatherFirstWindowMeasurements
+:
+function
 (
 )
 {
@@ -1363,6 +1375,8 @@ rv
 ;
 }
 _registerWindow
+:
+function
 (
 aWindow
 )
@@ -1509,6 +1523,8 @@ aWindow
 ;
 }
 _unregisterWindow
+:
+function
 (
 aWindow
 )
@@ -1646,6 +1662,8 @@ this
 }
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -1704,6 +1722,8 @@ break
 }
 }
 _handleMouseUp
+:
+function
 (
 aEvent
 )
@@ -1778,6 +1798,8 @@ aEvent
 }
 }
 _handleMouseDown
+:
+function
 (
 aEvent
 )
@@ -1822,6 +1844,8 @@ button
 }
 }
 _PlacesChevronMouseUp
+:
+function
 (
 aEvent
 )
@@ -1874,6 +1898,8 @@ button
 ;
 }
 _PlacesToolbarItemsMouseUp
+:
+function
 (
 aEvent
 )
@@ -1944,6 +1970,8 @@ button
 ;
 }
 _menubarMouseUp
+:
+function
 (
 aEvent
 )
@@ -2004,6 +2032,8 @@ button
 ;
 }
 _bookmarksMenuButtonMouseUp
+:
+function
 (
 aEvent
 )
@@ -2151,6 +2181,8 @@ button
 }
 }
 _checkForBuiltinItem
+:
+function
 (
 aEvent
 )
@@ -2348,6 +2380,8 @@ button
 }
 }
 _getWindowMeasurements
+:
+function
 (
 aWindow
 searchResult
@@ -2869,6 +2903,8 @@ result
 ;
 }
 getToolbarMeasures
+:
+function
 (
 )
 {
@@ -2904,6 +2940,8 @@ result
 ;
 }
 getSyncState
+:
+function
 (
 )
 {
@@ -2977,6 +3015,8 @@ result
 ;
 }
 countCustomizationEvent
+:
+function
 (
 aEventType
 )
@@ -2995,6 +3035,8 @@ aEventType
 ;
 }
 countSearchEvent
+:
+function
 (
 source
 query
@@ -3089,6 +3131,8 @@ kind
 }
 }
 countOneoffSearchEvent
+:
+function
 (
 id
 type
@@ -3113,6 +3157,8 @@ where
 ;
 }
 countSearchSettingsEvent
+:
+function
 (
 source
 )
@@ -3140,6 +3186,8 @@ settings
 ;
 }
 countPanicEvent
+:
+function
 (
 timeId
 )
@@ -3160,6 +3208,8 @@ timeId
 ;
 }
 countTabMutingEvent
+:
+function
 (
 action
 reason
@@ -3191,6 +3241,8 @@ given
 ;
 }
 countSyncedTabEvent
+:
+function
 (
 what
 where
@@ -3213,6 +3265,8 @@ where
 ;
 }
 countSidebarEvent
+:
+function
 (
 sidebarID
 action
@@ -3233,6 +3287,8 @@ action
 ;
 }
 _logAwesomeBarSearchResult
+:
+function
 (
 url
 )
@@ -3312,6 +3368,8 @@ customization
 ]
 }
 onCustomizeStart
+:
+function
 (
 aWindow
 )
@@ -3383,6 +3441,8 @@ _bucket
 ;
 }
 onCustomizeEnd
+:
+function
 (
 aWindow
 )
@@ -3435,6 +3495,8 @@ customization
 push
 (
 {
+duration
+:
 duration
 bucket
 :
@@ -3861,6 +3923,8 @@ _contextMenuInteractions
 {
 }
 registerContextMenuInteraction
+:
+function
 (
 keys
 itemID
@@ -3926,6 +3990,8 @@ _contextMenuInteractions
 ;
 }
 getContextMenuInfo
+:
+function
 (
 )
 {
@@ -3980,6 +4046,8 @@ _bucket
 ;
 }
 setBucket
+:
+function
 (
 aName
 )
@@ -4028,6 +4096,8 @@ BUCKET_DEFAULT
 ;
 }
 setExpiringBucket
+:
+function
 (
 aName
 aTimeSteps
@@ -4158,6 +4228,8 @@ aTimeOffset
 ;
 }
 _toTimeStr
+:
+function
 (
 aTimeMS
 )

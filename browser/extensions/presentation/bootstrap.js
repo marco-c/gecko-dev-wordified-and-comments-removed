@@ -129,6 +129,8 @@ prototype
 =
 {
 register
+:
+function
 (
 targetConstructor
 )
@@ -194,6 +196,8 @@ factory
 ;
 }
 unregister
+:
+function
 (
 )
 {
@@ -241,6 +245,8 @@ Presentation
 =
 {
 init
+:
+function
 (
 )
 {
@@ -266,6 +272,8 @@ _register
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -291,6 +299,8 @@ PRESENTATION_DEVICE_PROMPT_PATH
 ;
 }
 _register
+:
+function
 (
 )
 {
@@ -321,6 +331,8 @@ PresentationDevicePrompt
 ;
 }
 _unregister
+:
+function
 (
 )
 {

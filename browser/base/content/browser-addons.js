@@ -101,6 +101,8 @@ gXPInstallObserver
 =
 {
 _findChildShell
+:
+function
 (
 aDocShell
 aSoughtShell
@@ -184,6 +186,8 @@ null
 ;
 }
 _getBrowser
+:
+function
 (
 aDocShell
 )
@@ -225,6 +229,8 @@ WeakMap
 (
 )
 showInstallConfirmation
+:
+function
 (
 browser
 installInfo
@@ -1192,6 +1198,8 @@ WARNING_CONFIRM_ADDON_INSTALL
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -1623,6 +1631,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -2579,6 +2589,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -2779,6 +2791,8 @@ LightWeightThemeWebInstaller
 =
 {
 init
+:
+function
 (
 )
 {
@@ -2827,6 +2841,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -2932,6 +2948,8 @@ break
 }
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -3007,6 +3025,8 @@ LightweightThemeManager
 ;
 }
 _installRequest
+:
+function
 (
 dataString
 baseURI
@@ -3228,6 +3248,8 @@ accessKey
 :
 allowButtonAccesskey
 callback
+:
+function
 (
 )
 {
@@ -3289,6 +3311,8 @@ persistence
 ;
 }
 _install
+:
+function
 (
 newLWTheme
 notify
@@ -3308,6 +3332,8 @@ listener
 =
 {
 onEnabling
+:
+function
 (
 aAddon
 aRequiresRestart
@@ -3371,6 +3397,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -3421,6 +3449,8 @@ options
 ;
 }
 onEnabled
+:
+function
 (
 aAddon
 )
@@ -3466,6 +3496,8 @@ listener
 ;
 }
 _postInstallNotification
+:
+function
 (
 newTheme
 previousTheme
@@ -3515,6 +3547,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -3559,6 +3593,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -3642,6 +3678,8 @@ now
 ;
 }
 _removePreviousNotifications
+:
+function
 (
 )
 {
@@ -3704,6 +3742,8 @@ notification
 ;
 }
 _preview
+:
+function
 (
 dataString
 baseURI
@@ -3771,6 +3811,8 @@ data
 ;
 }
 _resetPreview
+:
+function
 (
 baseURI
 )
@@ -3813,6 +3855,8 @@ resetPreview
 ;
 }
 _isAllowed
+:
+function
 (
 srcURIString
 )
@@ -3891,6 +3935,8 @@ _modifiedStyles
 [
 ]
 init
+:
+function
 (
 )
 {
@@ -4036,6 +4082,8 @@ backgroundImage
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -4075,6 +4123,8 @@ optimized
 ;
 }
 updateStyleSheet
+:
+function
 (
 headerImage
 )
@@ -4102,6 +4152,8 @@ headerImage
 ;
 }
 substituteRules
+:
+function
 (
 ruleList
 headerImage
@@ -4267,6 +4319,8 @@ styleRulesModified
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic

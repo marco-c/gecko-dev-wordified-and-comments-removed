@@ -144,6 +144,8 @@ stubs
 =
 {
 updateAppMenuItem
+:
+function
 (
 )
 {
@@ -189,6 +191,8 @@ null
 ;
 }
 openPreferences
+:
+function
 (
 )
 {
@@ -1471,6 +1475,8 @@ kB
 "
 cafe
 "
+verified
+:
 verified
 oauthTokens
 :

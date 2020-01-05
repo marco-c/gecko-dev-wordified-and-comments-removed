@@ -247,6 +247,8 @@ WebProgressListener
 =
 {
 init
+:
+function
 (
 )
 {
@@ -379,6 +381,8 @@ null
 ;
 }
 _requestSpec
+:
+function
 (
 aRequest
 aPropertyName
@@ -1312,6 +1316,8 @@ WebNavigation
 =
 {
 init
+:
+function
 (
 )
 {
@@ -1417,6 +1423,8 @@ _inLoadURI
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -1625,6 +1633,8 @@ sendLoadCallResult
 }
 }
 goBack
+:
+function
 (
 )
 {
@@ -1657,6 +1667,8 @@ goBack
 }
 }
 goForward
+:
+function
 (
 )
 {
@@ -1689,6 +1701,8 @@ goForward
 }
 }
 gotoIndex
+:
+function
 (
 index
 )
@@ -1713,6 +1727,8 @@ index
 ;
 }
 loadURI
+:
+function
 (
 uri
 flags
@@ -1873,6 +1889,8 @@ baseURI
 ;
 }
 setOriginAttributes
+:
+function
 (
 originAttributes
 )
@@ -1894,6 +1912,8 @@ originAttributes
 }
 }
 reload
+:
+function
 (
 flags
 )
@@ -1909,6 +1929,8 @@ flags
 ;
 }
 stop
+:
+function
 (
 flags
 )
@@ -1936,6 +1958,8 @@ SecurityUI
 =
 {
 getSSLStatusAsString
+:
+function
 (
 )
 {
@@ -2016,6 +2040,8 @@ ControllerCommands
 =
 {
 init
+:
+function
 (
 )
 {
@@ -2041,6 +2067,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -2453,6 +2481,8 @@ value
 ;
 }
 refreshFullZoom
+:
+function
 (
 )
 {
@@ -2468,6 +2498,8 @@ fullZoom
 ;
 }
 refreshTextZoom
+:
+function
 (
 )
 {
@@ -2483,6 +2515,8 @@ textZoom
 ;
 }
 _refreshZoomValue
+:
+function
 (
 valueName
 )
@@ -2905,6 +2939,8 @@ Response
 "
 {
 result
+:
+result
 }
 )
 ;
@@ -2975,6 +3011,10 @@ Response
 "
 {
 channelError
+:
+channelError
+originalURL
+:
 originalURL
 }
 )
@@ -3376,6 +3416,8 @@ Browser
 Init
 "
 {
+outerWindowID
+:
 outerWindowID
 }
 )

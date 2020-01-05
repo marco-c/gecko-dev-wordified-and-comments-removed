@@ -1403,6 +1403,8 @@ PluginHost
 =
 {
 getPluginTags
+:
+function
 (
 countRef
 )
@@ -1420,6 +1422,8 @@ PLUGINS
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )
@@ -1462,6 +1466,8 @@ WindowWatcher
 =
 {
 openWindow
+:
+function
 (
 parent
 url
@@ -1531,6 +1537,8 @@ gCallback
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

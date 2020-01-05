@@ -252,6 +252,8 @@ searchbar
 history
 "
 value
+:
+value
 }
 }
 )
@@ -265,6 +267,8 @@ update
 addOps
 {
 handleCompletion
+:
+function
 (
 )
 {
@@ -313,6 +317,8 @@ searchbar
 -
 history
 "
+value
+:
 value
 }
 }

@@ -164,11 +164,15 @@ updatePlaces
 places
 {
 handleResult
+:
+function
 (
 )
 {
 }
 handleError
+:
+function
 (
 )
 {
@@ -187,6 +191,8 @@ failed
 ;
 }
 handleCompletion
+:
+function
 (
 )
 {

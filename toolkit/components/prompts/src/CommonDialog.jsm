@@ -148,6 +148,8 @@ focusTimer
 :
 null
 onLoad
+:
+function
 (
 xulDialog
 )
@@ -1168,6 +1170,8 @@ null
 ;
 }
 setLabelForNode
+:
+function
 (
 aNode
 aLabel
@@ -1308,6 +1312,8 @@ accessKey
 ;
 }
 initTextbox
+:
+function
 (
 aName
 aValue
@@ -1358,6 +1364,8 @@ aValue
 ;
 }
 setButtonsEnabledState
+:
+function
 (
 enabled
 )
@@ -1397,6 +1405,8 @@ enabled
 ;
 }
 setDefaultFocus
+:
+function
 (
 isInitialLoad
 )
@@ -1545,6 +1555,8 @@ focus
 }
 }
 onCheckbox
+:
+function
 (
 )
 {
@@ -1564,6 +1576,8 @@ checked
 ;
 }
 onButton0
+:
+function
 (
 )
 {
@@ -1678,6 +1692,8 @@ break
 }
 }
 onButton1
+:
+function
 (
 )
 {
@@ -1699,6 +1715,8 @@ buttonNumClicked
 ;
 }
 onButton2
+:
+function
 (
 )
 {
@@ -1720,6 +1738,8 @@ buttonNumClicked
 ;
 }
 onButton3
+:
+function
 (
 )
 {
@@ -1741,6 +1761,8 @@ buttonNumClicked
 ;
 }
 abortPrompt
+:
+function
 (
 )
 {

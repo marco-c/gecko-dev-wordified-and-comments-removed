@@ -100,6 +100,8 @@ listener
 =
 {
 onFindResult
+:
+function
 (
 )
 {
@@ -118,6 +120,8 @@ replaced
 ;
 }
 onHighlightFinished
+:
+function
 (
 )
 {

@@ -237,6 +237,8 @@ __utfConverter
 ;
 }
 _utfConverterReset
+:
+function
 (
 )
 {
@@ -251,6 +253,8 @@ _uiBusy
 :
 false
 init
+:
+function
 (
 )
 {
@@ -323,6 +327,8 @@ initPassword
 }
 }
 encrypt
+:
+function
 (
 plainText
 )
@@ -524,6 +530,8 @@ cipherText
 ;
 }
 decrypt
+:
+function
 (
 cipherText
 )
@@ -804,6 +812,8 @@ ENCTYPE_SDR
 ;
 }
 _notifyObservers
+:
+function
 (
 topic
 )

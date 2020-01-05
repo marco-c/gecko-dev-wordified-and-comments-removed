@@ -66,6 +66,8 @@ ScrollPositionInternal
 =
 {
 collect
+:
+function
 (
 frame
 )
@@ -147,6 +149,8 @@ null
 ;
 }
 restore
+:
+function
 (
 frame
 value
@@ -200,6 +204,8 @@ match
 }
 }
 restoreTree
+:
+function
 (
 root
 data

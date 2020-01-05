@@ -775,6 +775,8 @@ loginClone
 .
 guid
 encType
+:
+encType
 timeCreated
 :
 loginClone
@@ -1938,7 +1940,13 @@ loginData
 =
 {
 hostname
+:
+hostname
 formSubmitURL
+:
+formSubmitURL
+httpRealm
+:
 httpRealm
 }
 ;
@@ -2049,7 +2057,13 @@ loginData
 =
 {
 hostname
+:
+hostname
 formSubmitURL
+:
+formSubmitURL
+httpRealm
+:
 httpRealm
 }
 ;

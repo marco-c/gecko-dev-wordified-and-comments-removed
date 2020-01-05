@@ -195,6 +195,8 @@ topic
 return
 {
 addBlocker
+:
+function
 (
 .
 .
@@ -215,6 +217,8 @@ args
 ;
 }
 removeBlocker
+:
+function
 (
 blocker
 )
@@ -229,6 +233,8 @@ blocker
 ;
 }
 wait
+:
+function
 (
 )
 {
@@ -309,6 +315,8 @@ client
 .
 removeBlocker
 wait
+:
+function
 (
 )
 {
@@ -367,6 +375,8 @@ name
 return
 {
 addBlocker
+:
+function
 (
 blockerName
 condition
@@ -424,7 +434,11 @@ name
 :
 blockerName
 state
+:
+state
 blockShutdown
+:
+function
 (
 aBarrierClient
 )
@@ -531,6 +545,8 @@ stack
 ;
 }
 removeBlocker
+:
+function
 (
 condition
 )
@@ -567,6 +583,8 @@ blocker
 ;
 }
 wait
+:
+function
 (
 )
 {
@@ -654,6 +672,8 @@ client
 .
 removeBlocker
 wait
+:
+function
 (
 )
 {

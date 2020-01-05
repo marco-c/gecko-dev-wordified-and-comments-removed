@@ -119,6 +119,8 @@ nsITimerCallback
 ]
 )
 init
+:
+function
 (
 )
 {
@@ -188,6 +190,8 @@ this
 }
 }
 uninit
+:
+function
 (
 )
 {
@@ -249,12 +253,16 @@ null
 }
 }
 notify
+:
+function
 (
 aTimer
 )
 {
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -263,6 +271,8 @@ aData
 {
 }
 isAddonBlocklisted
+:
+function
 (
 aAddon
 aAppVersion
@@ -274,6 +284,8 @@ false
 ;
 }
 getAddonBlocklistState
+:
+function
 (
 aAddon
 aAppVersion
@@ -285,6 +297,8 @@ return
 ;
 }
 getPluginBlocklistState
+:
+function
 (
 aPluginTag
 aAppVersion
@@ -296,6 +310,8 @@ return
 ;
 }
 getAddonBlocklistURL
+:
+function
 (
 aAddon
 aAppVersion
@@ -308,6 +324,8 @@ return
 ;
 }
 getPluginBlocklistURL
+:
+function
 (
 aPluginTag
 )
@@ -318,6 +336,8 @@ return
 ;
 }
 getPluginInfoURL
+:
+function
 (
 aPluginTag
 )

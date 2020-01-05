@@ -157,6 +157,8 @@ defaultMatch
 :
 null
 initialize
+:
+function
 (
 )
 {
@@ -261,6 +263,8 @@ initialized
 :
 false
 observe
+:
+function
 (
 subject
 topic
@@ -309,6 +313,8 @@ _refresh
 }
 }
 _refresh
+:
+function
 (
 )
 {
@@ -394,6 +400,8 @@ e
 ;
 }
 _addEngine
+:
+function
 (
 engine
 )
@@ -755,6 +763,8 @@ freeze
 (
 {
 ensureInitialized
+:
+function
 (
 )
 {
@@ -891,6 +901,8 @@ defaultMatch
 }
 )
 parseSubmissionURL
+:
+function
 (
 url
 )

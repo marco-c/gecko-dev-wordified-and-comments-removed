@@ -40,6 +40,8 @@ remove
 bookmarks
 "
 run
+:
+function
 (
 )
 {
@@ -59,6 +61,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )
@@ -387,6 +391,8 @@ in
 Library
 "
 run
+:
+function
 (
 )
 {

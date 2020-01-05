@@ -1550,6 +1550,8 @@ AeroPeek
 return
 {
 onOpenWindow
+:
+function
 (
 )
 {
@@ -1562,6 +1564,8 @@ window
 ;
 }
 onCloseWindow
+:
+function
 (
 )
 {
@@ -2779,6 +2783,8 @@ gSessionHistoryObserver
 =
 {
 observe
+:
+function
 (
 subject
 topic
@@ -3026,6 +3032,8 @@ _reportButton
 :
 null
 onReportButtonMousedown
+:
+function
 (
 aEvent
 )
@@ -3082,6 +3090,8 @@ aEvent
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -3460,6 +3470,8 @@ true
 }
 }
 toggleAllowPopupsForSite
+:
+function
 (
 aEvent
 )
@@ -3542,6 +3554,8 @@ removeCurrentNotification
 ;
 }
 fillPopupList
+:
+function
 (
 aEvent
 )
@@ -4099,6 +4113,8 @@ null
 ;
 }
 onPopupHiding
+:
+function
 (
 aEvent
 )
@@ -4207,6 +4223,8 @@ next
 }
 }
 showBlockedPopup
+:
+function
 (
 aEvent
 )
@@ -4246,6 +4264,8 @@ popupReportIndex
 ;
 }
 showAllBlockedPopups
+:
+function
 (
 aBrowser
 )
@@ -4303,6 +4323,8 @@ null
 ;
 }
 editPopupSettings
+:
+function
 (
 )
 {
@@ -4489,6 +4511,8 @@ params
 ;
 }
 dontShowMessage
+:
+function
 (
 )
 {
@@ -4927,6 +4951,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -5006,6 +5032,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -5293,6 +5321,10 @@ loadParams
 =
 {
 uri
+:
+uri
+flags
+:
 flags
 referrer
 :
@@ -5304,6 +5336,10 @@ spec
 :
 null
 referrerPolicy
+:
+referrerPolicy
+postData
+:
 postData
 }
 if
@@ -5738,6 +5774,8 @@ delayedStartupFinished
 :
 false
 onLoad
+:
+function
 (
 )
 {
@@ -6360,6 +6398,8 @@ true
 ;
 }
 _cancelDelayedStartup
+:
+function
 (
 )
 {
@@ -6383,6 +6423,8 @@ null
 ;
 }
 _delayedStartup
+:
+function
 (
 )
 {
@@ -8296,6 +8338,8 @@ delayedStartupFinished
 ;
 }
 _getUriToLoad
+:
+function
 (
 )
 {
@@ -8400,6 +8444,8 @@ uri
 ;
 }
 onUnload
+:
+function
 (
 )
 {
@@ -10904,6 +10950,8 @@ _lastDir
 ;
 }
 reset
+:
+function
 (
 )
 {
@@ -11168,8 +11216,16 @@ referrerURI
 :
 referrer
 referrerPolicy
+:
+referrerPolicy
+postData
+:
 postData
 allowThirdPartyFixup
+:
+allowThirdPartyFixup
+userContextId
+:
 userContextId
 originPrincipal
 forceAboutBlankViewerInCurrent
@@ -12212,6 +12268,8 @@ browser
 BrowserViewSourceOfDocument
 (
 {
+browser
+:
 browser
 outerWindowID
 :
@@ -13463,6 +13521,8 @@ appUpdateBadge
 :
 null
 init
+:
+function
 (
 )
 {
@@ -13481,6 +13541,8 @@ true
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -13499,6 +13561,8 @@ true
 ;
 }
 handleEvent
+:
+function
 (
 e
 )
@@ -13525,6 +13589,8 @@ clearBadges
 }
 }
 _showBadge
+:
+function
 (
 )
 {
@@ -13583,6 +13649,8 @@ status
 }
 }
 _changeBadge
+:
+function
 (
 badgeId
 badgeStatus
@@ -13675,6 +13743,8 @@ _showBadge
 ;
 }
 addBadge
+:
+function
 (
 badgeId
 badgeStatus
@@ -13711,6 +13781,8 @@ badgeStatus
 ;
 }
 removeBadge
+:
+function
 (
 badgeId
 )
@@ -13724,6 +13796,8 @@ badgeId
 ;
 }
 clearBadges
+:
+function
 (
 )
 {
@@ -13771,6 +13845,8 @@ cancelObserverRegistered
 :
 false
 init
+:
+function
 (
 )
 {
@@ -13876,6 +13952,8 @@ false
 }
 }
 uninit
+:
+function
 (
 )
 {
@@ -13965,6 +14043,8 @@ false
 }
 }
 onMenuPanelCommand
+:
+function
 (
 event
 )
@@ -14097,6 +14177,8 @@ tab
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -14195,6 +14277,8 @@ TYPE_ONE_SHOT
 ;
 }
 notify
+:
+function
 (
 )
 {
@@ -14213,6 +14297,8 @@ true
 ;
 }
 displayBadge
+:
+function
 (
 succeeded
 )
@@ -14397,6 +14483,8 @@ false
 ;
 }
 reset
+:
+function
 (
 )
 {
@@ -14525,6 +14613,8 @@ BrowserOnClick
 =
 {
 init
+:
+function
 (
 )
 {
@@ -14695,6 +14785,8 @@ false
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -14851,6 +14943,8 @@ success
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -14902,6 +14996,8 @@ break
 }
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -14980,6 +15076,8 @@ ownerDoc
 }
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -15348,6 +15446,8 @@ break
 }
 }
 onSSLErrorReport
+:
+function
 (
 browser
 uri
@@ -15481,6 +15581,8 @@ port
 ;
 }
 onCertError
+:
+function
 (
 browser
 elementId
@@ -15561,6 +15663,8 @@ params
 exceptionAdded
 :
 false
+sslStatus
+:
 sslStatus
 }
 ;
@@ -15817,6 +15921,8 @@ break
 }
 }
 onOpenCaptivePortalPage
+:
+function
 (
 )
 {
@@ -15991,6 +16097,8 @@ false
 ;
 }
 onAboutBlocked
+:
+function
 (
 elementId
 reason
@@ -16241,6 +16349,8 @@ break
 }
 }
 onE10sAboutNewTab
+:
+function
 (
 event
 ownerDoc
@@ -16341,6 +16451,8 @@ documentURIObject
 }
 }
 ignoreWarningButton
+:
+function
 (
 reason
 )
@@ -16422,6 +16534,8 @@ accessKey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -16495,6 +16609,8 @@ accessKey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -16577,6 +16693,8 @@ accessKey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -17761,6 +17879,8 @@ _simplifyPageTab
 :
 null
 getPrintPreviewBrowser
+:
+function
 (
 )
 {
@@ -17841,6 +17961,8 @@ _printPreviewTab
 ;
 }
 createSimplifiedBrowser
+:
+function
 (
 )
 {
@@ -17873,6 +17995,8 @@ getSimplifiedSourceBrowser
 ;
 }
 getSourceBrowser
+:
+function
 (
 )
 {
@@ -17893,6 +18017,8 @@ selectedBrowser
 ;
 }
 getSimplifiedSourceBrowser
+:
+function
 (
 )
 {
@@ -17914,6 +18040,8 @@ null
 ;
 }
 getNavToolbox
+:
+function
 (
 )
 {
@@ -17922,6 +18050,8 @@ gNavToolbox
 ;
 }
 onEnter
+:
+function
 (
 )
 {
@@ -17958,6 +18088,8 @@ _toggleAffectedChrome
 ;
 }
 onExit
+:
+function
 (
 )
 {
@@ -18031,6 +18163,8 @@ null
 ;
 }
 _toggleAffectedChrome
+:
+function
 (
 )
 {
@@ -18072,6 +18206,8 @@ gInPrintPreviewMode
 ;
 }
 _hideChrome
+:
+function
 (
 )
 {
@@ -18240,6 +18376,8 @@ true
 }
 }
 _showChrome
+:
+function
 (
 )
 {
@@ -18404,6 +18542,8 @@ aEvent
 true
 )
 dragOver
+:
+function
 (
 aEvent
 )
@@ -18427,6 +18567,8 @@ preventDefault
 }
 }
 dropLinks
+:
+function
 (
 aEvent
 aDisallowInherit
@@ -18451,6 +18593,8 @@ homeButtonObserver
 =
 {
 onDrop
+:
+function
 (
 aEvent
 )
@@ -18500,6 +18644,8 @@ join
 }
 }
 onDragOver
+:
+function
 (
 aEvent
 )
@@ -18540,6 +18686,8 @@ link
 ;
 }
 onDragExit
+:
+function
 (
 aEvent
 )
@@ -18910,6 +19058,8 @@ DOMLinkHandler
 =
 {
 init
+:
+function
 (
 )
 {
@@ -18958,6 +19108,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 aMsg
 )
@@ -19074,6 +19226,8 @@ break
 }
 }
 setIcon
+:
+function
 (
 aBrowser
 aURL
@@ -19124,6 +19278,8 @@ true
 ;
 }
 addSearch
+:
+function
 (
 aBrowser
 aEngine
@@ -19166,6 +19322,8 @@ BrowserSearch
 =
 {
 addEngine
+:
+function
 (
 browser
 engine
@@ -19309,6 +19467,8 @@ updateOpenSearchBadge
 }
 }
 updateOpenSearchBadge
+:
+function
 (
 )
 {
@@ -19725,6 +19885,8 @@ searchBar
 ;
 }
 _loadSearch
+:
+function
 (
 searchText
 useNewTab
@@ -19825,6 +19987,8 @@ submission
 .
 postData
 inBackground
+:
+inBackground
 relatedToCurrent
 :
 true
@@ -19874,6 +20038,8 @@ name
 ;
 }
 loadSearchFromContext
+:
+function
 (
 terms
 )
@@ -19910,6 +20076,8 @@ contextmenu
 }
 }
 pasteAndSearch
+:
+function
 (
 event
 )
@@ -20023,6 +20191,8 @@ where
 ;
 }
 _getSearchEngineId
+:
+function
 (
 engine
 )
@@ -20093,6 +20263,8 @@ name
 ;
 }
 recordSearchInTelemetry
+:
+function
 (
 engine
 source
@@ -20140,6 +20312,8 @@ ex
 }
 }
 recordOneoffSearchInTelemetry
+:
+function
 (
 engine
 source
@@ -22165,6 +22339,8 @@ inContentWhitelist
 [
 ]
 QueryInterface
+:
+function
 (
 aIID
 )
@@ -22347,6 +22523,8 @@ canViewSource
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -22371,11 +22549,15 @@ true
 ;
 }
 setJSStatus
+:
+function
 (
 )
 {
 }
 forceInitialBrowserRemote
+:
+function
 (
 aRemoteType
 )
@@ -22411,6 +22593,8 @@ aRemoteType
 ;
 }
 forceInitialBrowserNonRemote
+:
+function
 (
 aOpener
 )
@@ -22446,6 +22630,8 @@ aOpener
 ;
 }
 setDefaultStatus
+:
+function
 (
 status
 )
@@ -22464,6 +22650,8 @@ updateStatusField
 ;
 }
 setOverLink
+:
+function
 (
 url
 anchorElt
@@ -22527,6 +22715,8 @@ update
 ;
 }
 showTooltip
+:
+function
 (
 x
 y
@@ -22623,6 +22813,8 @@ null
 ;
 }
 hideTooltip
+:
+function
 (
 )
 {
@@ -22646,6 +22838,8 @@ hidePopup
 ;
 }
 getTabCount
+:
+function
 (
 )
 {
@@ -22658,6 +22852,8 @@ length
 ;
 }
 updateStatusField
+:
+function
 (
 )
 {
@@ -22799,6 +22995,8 @@ text
 }
 }
 onBeforeLinkTraversal
+:
+function
 (
 originalTarget
 linkURI
@@ -22832,6 +23030,8 @@ target
 ;
 }
 shouldLoadURI
+:
+function
 (
 aDocShell
 aURI
@@ -22930,6 +23130,8 @@ true
 ;
 }
 onProgressChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -22941,6 +23143,8 @@ aMaxTotalProgress
 {
 }
 onProgressChange64
+:
+function
 (
 aWebProgress
 aRequest
@@ -22965,6 +23169,8 @@ aMaxTotalProgress
 ;
 }
 onStateChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -23363,6 +23569,8 @@ nsIRequest
 }
 }
 onLocationChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -24095,6 +24303,8 @@ ex
 }
 }
 asyncUpdateUI
+:
+function
 (
 )
 {
@@ -24112,11 +24322,15 @@ updateOpenSearchBadge
 ;
 }
 hideChromeForLocation
+:
+function
 (
 )
 {
 }
 onStatusChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -24144,6 +24358,8 @@ _lastLocation
 :
 null
 onSecurityChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -24493,6 +24709,8 @@ label
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -24593,6 +24811,8 @@ true
 }
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -24627,6 +24847,8 @@ break
 }
 }
 _showDelayed
+:
+function
 (
 )
 {
@@ -24667,6 +24889,8 @@ this
 ;
 }
 _hide
+:
+function
 (
 )
 {
@@ -24691,6 +24915,8 @@ CombinedStopReload
 =
 {
 init
+:
+function
 (
 )
 {
@@ -24814,6 +25040,8 @@ stop
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -24865,6 +25093,8 @@ null
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -24894,6 +25124,8 @@ true
 ;
 }
 switchToStop
+:
+function
 (
 )
 {
@@ -24928,6 +25160,8 @@ true
 ;
 }
 switchToReload
+:
+function
 (
 aDelay
 )
@@ -25062,6 +25296,8 @@ this
 ;
 }
 _cancelTransition
+:
+function
 (
 )
 {
@@ -25100,6 +25336,8 @@ WeakSet
 (
 )
 onStateChange
+:
+function
 (
 aBrowser
 aWebProgress
@@ -25496,6 +25734,8 @@ true
 }
 }
 onLocationChange
+:
+function
 (
 aBrowser
 aWebProgress
@@ -25664,6 +25904,8 @@ nsISupports
 ]
 )
 _openURIInNewTab
+:
+function
 (
 aURI
 aReferrer
@@ -25871,6 +26113,8 @@ browser
 ;
 }
 openURI
+:
+function
 (
 aURI
 aOpener
@@ -26366,6 +26610,8 @@ referrerURI
 :
 referrer
 referrerPolicy
+:
+referrerPolicy
 }
 )
 ;
@@ -26538,6 +26784,8 @@ null
 ;
 }
 isTabContentWindow
+:
+function
 (
 aWindow
 )
@@ -27876,6 +28124,8 @@ startup
 homepage
 "
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -27911,6 +28161,8 @@ updateTooltip
 ;
 }
 updateTooltip
+:
+function
 (
 homeButton
 )
@@ -28017,6 +28269,8 @@ homePage
 }
 }
 getHomePage
+:
+function
 (
 )
 {
@@ -29529,6 +29783,10 @@ allowMixedContent
 :
 persistAllowMixedContentInChildTab
 referrerURI
+:
+referrerURI
+referrerPolicy
+:
 referrerPolicy
 noReferrer
 :
@@ -30184,6 +30442,8 @@ WeakMap
 (
 )
 init
+:
+function
 (
 )
 {
@@ -30230,6 +30490,8 @@ data
 ;
 }
 getBrowserStyleSheets
+:
+function
 (
 browser
 )
@@ -30279,6 +30541,8 @@ filteredStyleSheets
 ;
 }
 _getStyleSheetInfo
+:
+function
 (
 browser
 )
@@ -30323,6 +30587,8 @@ data
 ;
 }
 fillPopup
+:
+function
 (
 menuPopup
 )
@@ -30640,6 +30906,8 @@ haveAltSheets
 ;
 }
 switchStyleSheet
+:
+function
 (
 title
 )
@@ -30664,11 +30932,15 @@ Switch
 "
 {
 title
+:
+title
 }
 )
 ;
 }
 disableStyle
+:
+function
 (
 )
 {
@@ -30744,6 +31016,8 @@ LanguageDetectionListener
 =
 {
 init
+:
+function
 (
 )
 {
@@ -30788,6 +31062,8 @@ _inited
 :
 false
 init
+:
+function
 (
 )
 {
@@ -30849,6 +31125,8 @@ true
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -30880,6 +31158,8 @@ changed
 }
 }
 toggleOfflineStatus
+:
+function
 (
 )
 {
@@ -30927,6 +31207,8 @@ offline
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -30963,6 +31245,8 @@ offline
 ;
 }
 _canGoOffline
+:
+function
 (
 )
 {
@@ -31032,6 +31316,8 @@ _uiElement
 :
 null
 _updateOfflineUI
+:
+function
 (
 aOffline
 )
@@ -31541,6 +31827,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -31607,6 +31895,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -32173,6 +32463,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -32226,6 +32518,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -32699,6 +32993,8 @@ MailIntegration
 =
 {
 sendLinkForBrowser
+:
+function
 (
 aBrowser
 )
@@ -32719,6 +33015,8 @@ contentTitle
 ;
 }
 sendMessage
+:
+function
 (
 aBody
 aSubject
@@ -32783,6 +33081,8 @@ uri
 ;
 }
 _launchExternalUrl
+:
+function
 (
 aURL
 )
@@ -33172,6 +33472,8 @@ bookmarkData
 .
 spec
 )
+title
+:
 title
 description
 :
@@ -34510,6 +34812,8 @@ permissionAnchors
 ;
 }
 handleMoreInfoClick
+:
+function
 (
 event
 )
@@ -34771,6 +35075,8 @@ hidePopup
 ;
 }
 getIdentityData
+:
+function
 (
 )
 {
@@ -35143,6 +35449,8 @@ updateSitePermissions
 }
 }
 getEffectiveHost
+:
+function
 (
 )
 {
@@ -36150,6 +36458,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 aNotification
 aButton
@@ -37132,6 +37442,8 @@ ex
 }
 }
 handleIdentityButtonEvent
+:
+function
 (
 event
 )
@@ -37427,6 +37739,8 @@ refreshIdentityBlock
 }
 }
 onDragStart
+:
+function
 (
 event
 )
@@ -37575,6 +37889,8 @@ _identityIcon
 ;
 }
 onLocationChange
+:
+function
 (
 )
 {
@@ -37592,6 +37908,8 @@ updatePermissionHint
 ;
 }
 updatePermissionHint
+:
+function
 (
 )
 {
@@ -37680,6 +37998,8 @@ true
 }
 }
 updateSitePermissions
+:
+function
 (
 )
 {
@@ -37864,6 +38184,8 @@ updatePermissionHint
 ;
 }
 _handleHeightChange
+:
+function
 (
 aFunction
 aWillShowReloadHint
@@ -37952,6 +38274,8 @@ heightChange
 ;
 }
 _createPermissionItem
+:
+function
 (
 aPermission
 )
@@ -38993,6 +39317,8 @@ gRemoteTabsUI
 =
 {
 init
+:
+function
 (
 )
 {
@@ -39596,6 +39922,8 @@ RestoreLastSessionObserver
 =
 {
 init
+:
+function
 (
 )
 {
@@ -39647,6 +39975,8 @@ true
 }
 }
 observe
+:
+function
 (
 )
 {
@@ -40911,6 +41241,8 @@ nsIDOMWindowUtils
 ;
 }
 addListener
+:
+function
 (
 listener
 )
@@ -40952,6 +41284,8 @@ listener
 ;
 }
 removeListener
+:
+function
 (
 listener
 )
@@ -40967,6 +41301,8 @@ listener
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -41048,6 +41384,8 @@ this
 ;
 }
 _callListener
+:
+function
 (
 listener
 )
@@ -41161,6 +41499,8 @@ ToolbarIconColor
 =
 {
 init
+:
+function
 (
 )
 {
@@ -41228,6 +41568,8 @@ inferFromText
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -41277,6 +41619,8 @@ update
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -41309,6 +41653,8 @@ break
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -41353,6 +41699,8 @@ break
 }
 }
 inferFromText
+:
+function
 (
 )
 {
@@ -41592,6 +41940,8 @@ PanicButtonNotifier
 =
 {
 init
+:
+function
 (
 )
 {
@@ -41622,6 +41972,8 @@ notify
 }
 }
 notify
+:
+function
 (
 )
 {
@@ -41742,6 +42094,8 @@ ex
 }
 }
 close
+:
+function
 (
 )
 {
@@ -41777,6 +42131,8 @@ AboutPrivateBrowsingListener
 =
 {
 init
+:
+function
 (
 )
 {

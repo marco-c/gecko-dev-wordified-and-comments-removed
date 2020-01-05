@@ -151,6 +151,8 @@ _element
 :
 null
 init
+:
+function
 (
 aWindow
 aTabChildGlobal
@@ -254,6 +256,8 @@ false
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -321,6 +325,8 @@ null
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -400,6 +406,8 @@ break
 }
 }
 notifyInvalidSubmit
+:
+function
 (
 aFormElement
 aInvalidElements
@@ -549,6 +557,8 @@ element
 ;
 }
 _onInput
+:
+function
 (
 aEvent
 )
@@ -608,6 +618,8 @@ element
 }
 }
 _onBlur
+:
+function
 (
 aEvent
 )
@@ -652,6 +664,8 @@ _hidePopup
 ;
 }
 _showPopup
+:
+function
 (
 aElement
 )
@@ -847,6 +861,8 @@ panelData
 ;
 }
 _hidePopup
+:
+function
 (
 )
 {
@@ -867,6 +883,8 @@ HidePopup
 ;
 }
 _getWindowUtils
+:
+function
 (
 )
 {
@@ -891,6 +909,8 @@ nsIDOMWindowUtils
 ;
 }
 _isRootDocumentEvent
+:
+function
 (
 aEvent
 )

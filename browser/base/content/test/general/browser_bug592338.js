@@ -1144,6 +1144,8 @@ addListener
 (
 {
 onInstallEnded
+:
+function
 (
 )
 {

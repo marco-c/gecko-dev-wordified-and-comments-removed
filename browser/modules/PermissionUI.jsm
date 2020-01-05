@@ -1196,6 +1196,8 @@ expireType
 :
 null
 callback
+:
+function
 (
 state
 )
@@ -1285,6 +1287,8 @@ EXPIRE_SESSION
 :
 null
 callback
+:
+function
 (
 state
 )

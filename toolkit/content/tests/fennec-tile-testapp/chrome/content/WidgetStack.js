@@ -266,6 +266,8 @@ prototype
 =
 {
 setBorder
+:
+function
 (
 t
 l
@@ -299,6 +301,8 @@ r
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -535,6 +539,8 @@ v
 ;
 }
 setRect
+:
+function
 (
 x
 y
@@ -575,6 +581,8 @@ this
 ;
 }
 setBounds
+:
+function
 (
 t
 l
@@ -766,6 +774,8 @@ round
 ;
 }
 copyFrom
+:
+function
 (
 r
 )
@@ -807,6 +817,8 @@ this
 ;
 }
 copyFromTLBR
+:
+function
 (
 r
 )
@@ -848,6 +860,8 @@ this
 ;
 }
 translate
+:
+function
 (
 x
 y
@@ -886,6 +900,8 @@ this
 ;
 }
 union
+:
+function
 (
 rect
 )
@@ -966,6 +982,8 @@ t
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -1005,6 +1023,8 @@ height
 ;
 }
 expandBy
+:
+function
 (
 b
 )
@@ -1050,6 +1070,8 @@ this
 ;
 }
 contains
+:
+function
 (
 other
 )
@@ -1100,6 +1122,8 @@ bottom
 ;
 }
 intersect
+:
+function
 (
 r2
 )
@@ -1229,6 +1253,8 @@ height
 ;
 }
 intersects
+:
+function
 (
 other
 )
@@ -1858,6 +1884,8 @@ _forceViewportUpdate
 :
 false
 init
+:
+function
 (
 el
 ew
@@ -2081,6 +2109,8 @@ wsRect
 }
 }
 moveWidgetBy
+:
+function
 (
 wid
 x
@@ -2287,6 +2317,8 @@ true
 ;
 }
 freeze
+:
+function
 (
 wid
 )
@@ -2309,6 +2341,8 @@ true
 ;
 }
 unfreeze
+:
+function
 (
 wid
 )
@@ -2347,6 +2381,8 @@ state
 ;
 }
 moveFrozenTo
+:
+function
 (
 wid
 x
@@ -2408,6 +2444,8 @@ y
 ;
 }
 moveUnfrozenTo
+:
+function
 (
 wid
 x
@@ -2533,6 +2571,8 @@ frozen
 ;
 }
 isWidgetVisible
+:
+function
 (
 wid
 )
@@ -2579,6 +2619,8 @@ rect
 ;
 }
 getWidgetVisibility
+:
+function
 (
 wid
 )
@@ -2658,6 +2700,8 @@ return
 ;
 }
 offsetAll
+:
+function
 (
 x
 y
@@ -3119,6 +3163,8 @@ true
 ;
 }
 setViewportHandler
+:
+function
 (
 uh
 )
@@ -3131,6 +3177,8 @@ uh
 ;
 }
 setPanHandler
+:
+function
 (
 uh
 )
@@ -3732,6 +3780,8 @@ _forceViewportUpdate
 ;
 }
 _updateWidgetRect
+:
+function
 (
 state
 )
@@ -3885,6 +3935,8 @@ widgetheight
 }
 }
 _dumpRects
+:
+function
 (
 )
 {
@@ -4181,6 +4233,8 @@ true
 ;
 }
 _getState
+:
+function
 (
 wid
 )
@@ -4511,6 +4565,8 @@ boundsChanged
 ;
 }
 _dragCoordsFromClient
+:
+function
 (
 cx
 cy
@@ -4597,6 +4653,8 @@ dy
 ;
 }
 _panHandleBarriers
+:
+function
 (
 dx
 dy
@@ -5531,6 +5589,8 @@ dy
 ;
 }
 _addNewWidget
+:
+function
 (
 w
 )
@@ -6054,6 +6114,8 @@ rect
 ;
 }
 _removeWidget
+:
+function
 (
 w
 )
@@ -6086,6 +6148,8 @@ _updateWidgets
 ;
 }
 _updateWidgets
+:
+function
 (
 )
 {
@@ -6311,6 +6375,8 @@ _updateViewportOverflow
 ;
 }
 _updateViewportOverflow
+:
+function
 (
 )
 {
@@ -6537,6 +6603,8 @@ null
 ;
 }
 _widgetBounds
+:
+function
 (
 )
 {
@@ -6589,6 +6657,8 @@ r
 ;
 }
 _commitState
+:
+function
 (
 state
 )
@@ -6690,6 +6760,8 @@ t
 }
 }
 _rectTranslateConstrain
+:
+function
 (
 dx
 dy
@@ -6900,6 +6972,8 @@ y
 ;
 }
 _addNewBarrierFromSpacer
+:
+function
 (
 el
 )

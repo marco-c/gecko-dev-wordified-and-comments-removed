@@ -174,6 +174,10 @@ resolve
 (
 {
 frame
+:
+frame
+browser
+:
 browser
 }
 )

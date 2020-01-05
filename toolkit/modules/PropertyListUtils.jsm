@@ -1943,6 +1943,8 @@ array
 objIndex
 {
 get
+:
+function
 (
 )
 {
@@ -1982,6 +1984,8 @@ array
 ;
 }
 _wrapDictionary
+:
+function
 (
 aObjectOffset
 aNumberOfObjects
@@ -3167,6 +3171,8 @@ array
 elemIndex
 {
 get
+:
+function
 (
 )
 {
@@ -3220,6 +3226,8 @@ Set
 (
 )
 get
+:
+function
 (
 target
 name

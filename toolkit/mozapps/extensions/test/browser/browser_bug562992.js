@@ -141,6 +141,8 @@ addTestListener
 (
 {
 onInstallEnded
+:
+function
 (
 )
 {

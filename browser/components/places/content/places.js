@@ -216,6 +216,8 @@ editBMPanel_keywordRow
 "
 ]
 _initFolderTree
+:
+function
 (
 )
 {
@@ -6504,6 +6506,10 @@ set
 aQueryString
 {
 view
+:
+view
+options
+:
 options
 }
 )
@@ -6927,6 +6933,8 @@ viewOptions
 ;
 }
 focus
+:
+function
 (
 )
 {

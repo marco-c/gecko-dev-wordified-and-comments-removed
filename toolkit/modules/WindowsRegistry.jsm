@@ -36,6 +36,8 @@ WindowsRegistry
 =
 {
 readRegKey
+:
+function
 (
 aRoot
 aPath
@@ -223,6 +225,8 @@ undefined
 ;
 }
 removeRegKey
+:
+function
 (
 aRoot
 aPath

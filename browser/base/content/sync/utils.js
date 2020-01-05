@@ -87,6 +87,8 @@ fxAccountsEnabled
 ;
 }
 _openLink
+:
+function
 (
 url
 )
@@ -349,6 +351,8 @@ duringSetup
 ;
 }
 changePassword
+:
+function
 (
 )
 {
@@ -373,6 +377,8 @@ ChangePassword
 ;
 }
 resetPassphrase
+:
+function
 (
 duringSetup
 )
@@ -399,6 +405,8 @@ duringSetup
 ;
 }
 updatePassphrase
+:
+function
 (
 )
 {
@@ -423,6 +431,8 @@ UpdatePassphrase
 ;
 }
 resetPassword
+:
+function
 (
 )
 {
@@ -476,6 +486,8 @@ termsURL
 ;
 }
 openToS
+:
+function
 (
 )
 {
@@ -527,6 +539,8 @@ privacyURL
 ;
 }
 openPrivacyPolicy
+:
+function
 (
 )
 {
@@ -541,6 +555,8 @@ privacyPolicyURL
 ;
 }
 _preparePPiframe
+:
+function
 (
 elid
 callback
@@ -764,6 +780,8 @@ false
 ;
 }
 passphrasePrint
+:
+function
 (
 elid
 )
@@ -862,6 +880,8 @@ ex
 ;
 }
 passphraseSave
+:
+function
 (
 elid
 )
@@ -1157,6 +1177,8 @@ false
 ;
 }
 validatePassword
+:
+function
 (
 el1
 el2

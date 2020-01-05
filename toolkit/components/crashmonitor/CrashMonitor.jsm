@@ -223,6 +223,8 @@ json
 "
 )
 loadPreviousCheckpoints
+:
+function
 (
 )
 {
@@ -460,6 +462,8 @@ CrashMonitorInternal
 previousCheckpoints
 }
 init
+:
+function
 (
 )
 {
@@ -586,6 +590,8 @@ promise
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic

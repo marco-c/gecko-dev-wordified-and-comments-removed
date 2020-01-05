@@ -279,6 +279,8 @@ installCount
 :
 0
 onInstallEnded
+:
+function
 (
 )
 {

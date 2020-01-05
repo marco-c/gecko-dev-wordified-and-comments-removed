@@ -3351,6 +3351,8 @@ a
 :
 1
 valueOf
+:
+function
 (
 )
 {

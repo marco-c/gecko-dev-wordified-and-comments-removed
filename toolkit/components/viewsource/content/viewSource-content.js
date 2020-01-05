@@ -1707,6 +1707,10 @@ subject
 =
 {
 event
+:
+event
+addonInfo
+:
 addonInfo
 }
 ;

@@ -99,6 +99,8 @@ icon
 png
 "
 toString
+:
+function
 (
 )
 {

@@ -549,6 +549,8 @@ prototype
 =
 {
 clearList
+:
+function
 (
 )
 {
@@ -578,6 +580,8 @@ popup
 }
 }
 appendPrinterNames
+:
+function
 (
 aDataObject
 )

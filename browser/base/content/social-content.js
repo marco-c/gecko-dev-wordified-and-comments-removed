@@ -587,6 +587,8 @@ ErrorPageNotify
 "
 {
 origin
+:
+origin
 url
 :
 src

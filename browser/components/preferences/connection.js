@@ -3,6 +3,8 @@ gConnectionsDialog
 =
 {
 beforeAccept
+:
+function
 (
 )
 {
@@ -411,6 +413,8 @@ true
 ;
 }
 checkForSystemProxy
+:
+function
 (
 )
 {
@@ -452,6 +456,8 @@ hidden
 ;
 }
 proxyTypeChanged
+:
+function
 (
 )
 {
@@ -647,6 +653,8 @@ updateReloadButton
 ;
 }
 updateDNSPref
+:
+function
 (
 )
 {
@@ -735,6 +743,8 @@ undefined
 ;
 }
 updateReloadButton
+:
+function
 (
 )
 {
@@ -876,6 +886,8 @@ pacURL
 ;
 }
 readProxyType
+:
+function
 (
 )
 {
@@ -890,6 +902,8 @@ undefined
 ;
 }
 updateProtocolPrefs
+:
+function
 (
 )
 {
@@ -1183,6 +1197,8 @@ undefined
 ;
 }
 readProxyProtocolPref
+:
+function
 (
 aProtocol
 aIsPort
@@ -1287,6 +1303,8 @@ undefined
 ;
 }
 reloadPAC
+:
+function
 (
 )
 {
@@ -1321,6 +1339,8 @@ reloadPAC
 ;
 }
 doAutoconfigURLFixup
+:
+function
 (
 )
 {
@@ -1412,6 +1432,8 @@ ex
 }
 }
 sanitizeNoProxiesPref
+:
+function
 (
 )
 {
@@ -1496,6 +1518,8 @@ g
 ;
 }
 readHTTPProxyServer
+:
+function
 (
 )
 {
@@ -1532,6 +1556,8 @@ undefined
 ;
 }
 readHTTPProxyPort
+:
+function
 (
 )
 {

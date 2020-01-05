@@ -199,6 +199,8 @@ installListener
 =
 {
 onDownloadCancelled
+:
+function
 (
 install
 )

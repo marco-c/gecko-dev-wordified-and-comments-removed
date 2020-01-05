@@ -352,6 +352,8 @@ display
 (
 {
 profile
+:
+profile
 isDefault
 :
 profile

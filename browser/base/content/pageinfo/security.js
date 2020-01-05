@@ -47,6 +47,8 @@ security
 =
 {
 init
+:
+function
 (
 uri
 windowInfo
@@ -66,6 +68,8 @@ windowInfo
 ;
 }
 viewCert
+:
+function
 (
 )
 {
@@ -84,6 +88,8 @@ cert
 ;
 }
 _getSecurityInfo
+:
+function
 (
 )
 {
@@ -280,6 +286,8 @@ retval
 =
 {
 hostName
+:
+hostName
 cAName
 :
 issuerName
@@ -293,8 +301,16 @@ version
 :
 undefined
 isBroken
+:
+isBroken
+isMixed
+:
 isMixed
 isEV
+:
+isEV
+cert
+:
 cert
 certificateTransparency
 :
@@ -515,6 +531,8 @@ retval
 return
 {
 hostName
+:
+hostName
 cAName
 :
 "
@@ -531,7 +549,13 @@ version
 "
 "
 isBroken
+:
+isBroken
 isMixed
+:
+isMixed
+isEV
+:
 isEV
 cert
 :
@@ -543,6 +567,8 @@ null
 ;
 }
 _getSecurityUI
+:
+function
 (
 )
 {
@@ -568,6 +594,8 @@ null
 ;
 }
 mapIssuerOrganization
+:
+function
 (
 name
 )
@@ -605,6 +633,8 @@ name
 ;
 }
 viewCookies
+:
+function
 (
 )
 {
@@ -774,6 +804,8 @@ eTLD
 ;
 }
 viewPasswords
+:
+function
 (
 )
 {

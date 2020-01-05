@@ -270,6 +270,8 @@ prototype
 =
 {
 translate
+:
+function
 (
 )
 {
@@ -414,6 +416,8 @@ this
 ;
 }
 _chunkCompleted
+:
+function
 (
 yandexRequest
 )
@@ -452,6 +456,8 @@ _checkIfFinished
 ;
 }
 _chunkFailed
+:
+function
 (
 aError
 )
@@ -534,6 +540,8 @@ _checkIfFinished
 ;
 }
 _checkIfFinished
+:
+function
 (
 )
 {
@@ -602,6 +610,8 @@ error
 }
 }
 _parseChunkResult
+:
+function
 (
 yandexRequest
 )
@@ -764,6 +774,8 @@ error
 ;
 }
 _generateNextTranslationRequest
+:
+function
 (
 startIndex
 )
@@ -956,6 +968,8 @@ prototype
 =
 {
 fireRequest
+:
+function
 (
 )
 {
@@ -1136,6 +1150,8 @@ bind
 this
 )
 onError
+:
+function
 (
 e
 responseText

@@ -111,6 +111,8 @@ prototype
 =
 {
 mouseDownCheck
+:
+function
 (
 e
 )
@@ -172,6 +174,8 @@ tabs
 "
 ]
 shouldDrag
+:
+function
 (
 aEvent
 )
@@ -340,6 +344,8 @@ true
 ;
 }
 isPanel
+:
+function
 (
 )
 {
@@ -368,6 +374,8 @@ panel
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )

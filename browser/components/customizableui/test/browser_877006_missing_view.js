@@ -41,6 +41,8 @@ viewId
 idontexist
 '
 onViewShowing
+:
+function
 (
 )
 {

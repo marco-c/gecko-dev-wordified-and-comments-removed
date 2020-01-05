@@ -114,6 +114,8 @@ prototype
 =
 {
 _init
+:
+function
 (
 )
 {
@@ -217,6 +219,8 @@ _historyLimit
 :
 7
 onResultsReturned
+:
+function
 (
 results
 )
@@ -349,6 +353,8 @@ formHistoryResult
 ;
 }
 onResultsReady
+:
+function
 (
 searchString
 results
@@ -412,6 +418,8 @@ null
 }
 }
 startSearch
+:
+function
 (
 searchString
 searchParam
@@ -555,6 +563,8 @@ this
 ;
 }
 _triggerSearch
+:
+function
 (
 searchString
 searchParam
@@ -585,6 +595,8 @@ currentEngine
 ;
 }
 stopSearch
+:
+function
 (
 )
 {

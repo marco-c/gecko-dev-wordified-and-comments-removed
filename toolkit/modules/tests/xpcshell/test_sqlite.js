@@ -237,6 +237,8 @@ initWithCallback
 (
 {
 notify
+:
+function
 (
 )
 {
@@ -304,6 +306,8 @@ let
 options
 =
 {
+path
+:
 path
 }
 ;
@@ -672,6 +676,8 @@ Sqlite
 openConnection
 (
 {
+path
+:
 path
 sharedMemoryCache
 :
@@ -3269,6 +3275,8 @@ shrinkMemory
 "
 {
 value
+:
+function
 (
 )
 {
@@ -3389,6 +3397,8 @@ shrinkMemory
 "
 {
 value
+:
+function
 (
 )
 {
@@ -3590,6 +3600,8 @@ shrinkMemory
 "
 {
 value
+:
+function
 (
 )
 {
@@ -5181,6 +5193,8 @@ executeAsync
 (
 {
 handleCompletion
+:
+function
 (
 reason
 )
@@ -5230,12 +5244,16 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 resultSet
 )
 {
 }
 handleError
+:
+function
 (
 error
 )
@@ -5292,6 +5310,8 @@ reject
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -5333,6 +5353,8 @@ executeAsync
 (
 {
 handleCompletion
+:
+function
 (
 reason
 )
@@ -5759,6 +5781,8 @@ openConnection
 (
 {
 path
+:
+path
 sharedMemoryCache
 :
 false
@@ -6117,6 +6141,8 @@ listener
 =
 {
 observe
+:
+function
 (
 msg
 )
@@ -6248,6 +6274,8 @@ listener
 =
 {
 observe
+:
+function
 (
 msg
 )
@@ -6385,6 +6413,8 @@ _witness
 =
 {
 forget
+:
+function
 (
 )
 {

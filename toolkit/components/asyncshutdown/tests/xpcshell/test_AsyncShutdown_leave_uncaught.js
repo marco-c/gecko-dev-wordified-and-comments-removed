@@ -167,6 +167,8 @@ function
 return
 {
 toJSON
+:
+function
 (
 )
 {

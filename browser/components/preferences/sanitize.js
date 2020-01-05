@@ -7,6 +7,8 @@ freeze
 (
 {
 init
+:
+function
 (
 )
 {
@@ -77,6 +79,8 @@ onClearHistoryChanged
 ;
 }
 onClearHistoryChanged
+:
+function
 (
 )
 {

@@ -796,6 +796,8 @@ on
 toolbar
 "
 run
+:
+function
 (
 )
 {
@@ -984,6 +986,8 @@ on
 toolbar
 "
 run
+:
+function
 (
 )
 {

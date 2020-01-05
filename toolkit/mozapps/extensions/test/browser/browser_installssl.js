@@ -539,6 +539,8 @@ addListener
 (
 {
 onDownloadEnded
+:
+function
 (
 install
 )
@@ -593,6 +595,8 @@ false
 ;
 }
 onDownloadFailed
+:
+function
 (
 install
 )

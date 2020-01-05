@@ -102,6 +102,8 @@ _inited
 :
 false
 init
+:
+function
 (
 )
 {
@@ -726,6 +728,8 @@ true
 }
 }
 tabSelectionChanged
+:
+function
 (
 )
 {
@@ -815,6 +819,8 @@ _storedSpellCheck
 :
 0
 readCheckSpelling
+:
+function
 (
 )
 {
@@ -852,6 +858,8 @@ value
 ;
 }
 writeCheckSpelling
+:
+function
 (
 )
 {
@@ -897,6 +905,8 @@ return
 ;
 }
 readEnableOCSP
+:
+function
 (
 )
 {
@@ -941,6 +951,8 @@ value
 ;
 }
 writeEnableOCSP
+:
+function
 (
 )
 {
@@ -967,6 +979,8 @@ checked
 ;
 }
 updateHardwareAcceleration
+:
+function
 (
 )
 {
@@ -1024,6 +1038,8 @@ value
 }
 }
 _setupLearnMoreLink
+:
+function
 (
 pref
 element
@@ -1084,6 +1100,8 @@ true
 }
 }
 initSubmitCrashes
+:
+function
 (
 )
 {
@@ -1105,6 +1123,8 @@ crashReporterLearnMore
 ;
 }
 initTelemetry
+:
+function
 (
 )
 {
@@ -1134,6 +1154,8 @@ telemetryLearnMore
 }
 }
 setTelemetrySectionEnabled
+:
+function
 (
 aEnabled
 )
@@ -1202,6 +1224,8 @@ disabled
 }
 }
 initSubmitHealthReport
+:
+function
 (
 )
 {
@@ -1292,6 +1316,8 @@ checked
 }
 }
 updateSubmitHealthReport
+:
+function
 (
 )
 {
@@ -1419,6 +1445,8 @@ false
 }
 }
 showConnections
+:
+function
 (
 )
 {
@@ -1445,6 +1473,8 @@ xul
 ;
 }
 showSiteDataSettings
+:
+function
 (
 )
 {
@@ -1471,6 +1501,8 @@ xul
 ;
 }
 updateTotalSiteDataSize
+:
+function
 (
 )
 {
@@ -1557,6 +1589,8 @@ false
 ;
 }
 updateActualCacheSize
+:
+function
 (
 )
 {
@@ -1590,6 +1624,8 @@ observer
 =
 {
 onNetworkCacheDiskConsumption
+:
+function
 (
 consumption
 )
@@ -1717,6 +1753,8 @@ e
 }
 }
 updateActualAppCacheSize
+:
+function
 (
 )
 {
@@ -1725,6 +1763,8 @@ visitor
 =
 {
 onCacheStorageInfo
+:
+function
 (
 aEntryCount
 aConsumption
@@ -1864,6 +1904,8 @@ e
 }
 }
 updateCacheSizeUI
+:
+function
 (
 smartSizeEnabled
 )
@@ -1909,6 +1951,8 @@ smartSizeEnabled
 ;
 }
 readSmartSizeEnabled
+:
+function
 (
 )
 {
@@ -2062,6 +2106,8 @@ intValue
 ;
 }
 clearCache
+:
+function
 (
 )
 {
@@ -2121,6 +2167,8 @@ updateActualCacheSize
 ;
 }
 clearOfflineAppCache
+:
+function
 (
 )
 {
@@ -2164,6 +2212,8 @@ updateOfflineApps
 ;
 }
 clearSiteData
+:
+function
 (
 )
 {
@@ -2286,6 +2336,8 @@ removeAll
 }
 }
 readOfflineNotify
+:
+function
 (
 )
 {
@@ -2335,6 +2387,8 @@ value
 ;
 }
 showOfflineExceptions
+:
+function
 (
 )
 {
@@ -2553,6 +2607,8 @@ usage
 ;
 }
 updateOfflineApps
+:
+function
 (
 )
 {
@@ -2841,6 +2897,8 @@ row
 }
 }
 offlineAppSelected
+:
+function
 (
 )
 {
@@ -2905,6 +2963,8 @@ true
 }
 }
 removeOfflineApp
+:
+function
 (
 )
 {
@@ -3279,6 +3339,8 @@ updateActualAppCacheSize
 ;
 }
 updateReadPrefs
+:
+function
 (
 )
 {
@@ -3540,6 +3602,8 @@ true
 }
 }
 updateWritePrefs
+:
+function
 (
 )
 {
@@ -3660,6 +3724,8 @@ false
 }
 }
 showUpdates
+:
+function
 (
 )
 {
@@ -3686,6 +3752,8 @@ xul
 ;
 }
 showCertificates
+:
+function
 (
 )
 {
@@ -3710,6 +3778,8 @@ xul
 ;
 }
 showSecurityDevices
+:
+function
 (
 )
 {
@@ -3734,6 +3804,8 @@ xul
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic

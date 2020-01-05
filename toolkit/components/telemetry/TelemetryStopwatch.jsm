@@ -97,6 +97,8 @@ Map
 (
 )
 _validTypes
+:
+function
 (
 histogram
 obj
@@ -169,6 +171,8 @@ key
 ;
 }
 get
+:
+function
 (
 histogram
 obj
@@ -233,6 +237,8 @@ key
 ;
 }
 put
+:
+function
 (
 histogram
 obj
@@ -341,6 +347,8 @@ true
 ;
 }
 has
+:
+function
 (
 histogram
 obj
@@ -413,6 +421,8 @@ key
 ;
 }
 delete
+:
+function
 (
 histogram
 obj
@@ -516,6 +526,8 @@ TelemetryStopwatch
 =
 {
 start
+:
+function
 (
 aHistogram
 aObj
@@ -533,6 +545,8 @@ null
 ;
 }
 cancel
+:
+function
 (
 aHistogram
 aObj
@@ -550,6 +564,8 @@ null
 ;
 }
 timeElapsed
+:
+function
 (
 aHistogram
 aObj
@@ -567,6 +583,8 @@ null
 ;
 }
 finish
+:
+function
 (
 aHistogram
 aObj
@@ -584,6 +602,8 @@ null
 ;
 }
 startKeyed
+:
+function
 (
 aHistogram
 aKey
@@ -602,6 +622,8 @@ aKey
 ;
 }
 cancelKeyed
+:
+function
 (
 aHistogram
 aKey
@@ -620,6 +642,8 @@ aKey
 ;
 }
 timeElapsedKeyed
+:
+function
 (
 aHistogram
 aKey
@@ -638,6 +662,8 @@ aKey
 ;
 }
 finishKeyed
+:
+function
 (
 aHistogram
 aKey
@@ -663,6 +689,8 @@ TelemetryStopwatchImpl
 =
 {
 start
+:
+function
 (
 histogram
 object
@@ -733,6 +761,8 @@ now
 ;
 }
 cancel
+:
+function
 (
 histogram
 object
@@ -751,6 +781,8 @@ key
 ;
 }
 timeElapsed
+:
+function
 (
 histogram
 object
@@ -893,6 +925,8 @@ return
 }
 }
 finish
+:
+function
 (
 histogram
 object

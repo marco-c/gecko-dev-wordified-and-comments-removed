@@ -139,6 +139,8 @@ UpdatePicker
 "
 ]
 init
+:
+function
 (
 )
 {
@@ -165,6 +167,8 @@ this
 }
 }
 uninit
+:
+function
 (
 )
 {
@@ -191,6 +195,8 @@ this
 }
 }
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -296,6 +302,8 @@ break
 }
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -393,6 +401,8 @@ break
 }
 }
 updateInputBoxValue
+:
+function
 (
 aEvent
 )
@@ -466,6 +476,8 @@ minute
 }
 }
 showPicker
+:
+function
 (
 aBrowser
 aData
@@ -687,6 +699,8 @@ addPickerListeners
 ;
 }
 close
+:
+function
 (
 )
 {
@@ -718,6 +732,8 @@ true
 ;
 }
 addPickerListeners
+:
+function
 (
 )
 {
@@ -758,6 +774,8 @@ this
 ;
 }
 removePickerListeners
+:
+function
 (
 )
 {

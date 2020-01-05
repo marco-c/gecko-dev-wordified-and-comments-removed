@@ -158,6 +158,8 @@ prototype
 =
 {
 handleResult
+:
+function
 (
 contentPref
 )
@@ -184,6 +186,8 @@ value
 ;
 }
 handleError
+:
+function
 (
 result
 )
@@ -198,6 +202,8 @@ result
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -257,6 +263,8 @@ Ci
 nsIMessageSender
 )
 _getRandomId
+:
+function
 (
 )
 {
@@ -299,6 +307,8 @@ Map
 (
 )
 init
+:
+function
 (
 )
 {
@@ -346,6 +356,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -526,6 +538,8 @@ break
 }
 }
 _callFunction
+:
+function
 (
 call
 args
@@ -546,7 +560,13 @@ data
 =
 {
 call
+:
+call
 args
+:
+args
+requestId
+:
 requestId
 }
 ;
@@ -580,6 +600,8 @@ callback
 ;
 }
 getByName
+:
+function
 (
 name
 context
@@ -606,6 +628,8 @@ callback
 ;
 }
 getByDomainAndName
+:
+function
 (
 domain
 name
@@ -634,6 +658,8 @@ callback
 ;
 }
 getBySubdomainAndName
+:
+function
 (
 domain
 name
@@ -662,6 +688,8 @@ callback
 ;
 }
 getGlobal
+:
+function
 (
 name
 context
@@ -697,6 +725,8 @@ getCachedGlobal
 :
 NYI
 set
+:
+function
 (
 domain
 name
@@ -726,6 +756,8 @@ callback
 ;
 }
 setGlobal
+:
+function
 (
 name
 value
@@ -753,6 +785,8 @@ callback
 ;
 }
 removeByDomainAndName
+:
+function
 (
 domain
 name
@@ -780,6 +814,8 @@ callback
 ;
 }
 removeBySubdomainAndName
+:
+function
 (
 domain
 name
@@ -807,6 +843,8 @@ callback
 ;
 }
 removeGlobal
+:
+function
 (
 name
 context
@@ -832,6 +870,8 @@ callback
 ;
 }
 removeByDomain
+:
+function
 (
 domain
 context
@@ -857,6 +897,8 @@ callback
 ;
 }
 removeBySubdomain
+:
+function
 (
 domain
 context
@@ -882,6 +924,8 @@ callback
 ;
 }
 removeByName
+:
+function
 (
 name
 context
@@ -908,6 +952,8 @@ callback
 ;
 }
 removeAllDomains
+:
+function
 (
 context
 callback
@@ -931,6 +977,8 @@ callback
 ;
 }
 removeAllGlobals
+:
+function
 (
 context
 callback
@@ -954,6 +1002,8 @@ callback
 ;
 }
 addObserverForName
+:
+function
 (
 name
 observer
@@ -1025,6 +1075,8 @@ AddObserverForName
 "
 {
 name
+:
+name
 }
 )
 ;
@@ -1048,6 +1100,8 @@ observer
 ;
 }
 removeObserverForName
+:
+function
 (
 name
 observer
@@ -1102,6 +1156,8 @@ ContentPrefs
 RemoveObserverForName
 "
 {
+name
+:
 name
 }
 )

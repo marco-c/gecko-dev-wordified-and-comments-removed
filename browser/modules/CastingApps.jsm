@@ -71,6 +71,8 @@ CastingApps
 =
 {
 _sendEventToVideo
+:
+function
 (
 element
 data
@@ -118,6 +120,8 @@ event
 ;
 }
 makeURI
+:
+function
 (
 url
 charset
@@ -138,6 +142,8 @@ baseURI
 ;
 }
 getVideo
+:
+function
 (
 element
 )
@@ -235,6 +241,8 @@ extensions
 return
 {
 element
+:
+element
 source
 :
 sourceURI
@@ -243,6 +251,8 @@ spec
 poster
 :
 posterURL
+sourceURI
+:
 sourceURI
 }
 ;
@@ -314,6 +324,8 @@ extensions
 return
 {
 element
+:
+element
 source
 :
 sourceURI
@@ -322,6 +334,8 @@ spec
 poster
 :
 posterURL
+sourceURI
+:
 sourceURI
 type
 :
@@ -337,6 +351,8 @@ null
 ;
 }
 sendVideoToService
+:
+function
 (
 videoElement
 service
@@ -503,7 +519,13 @@ session
 =
 {
 service
+:
+service
 app
+:
+app
+remoteMedia
+:
 remoteMedia
 data
 :
@@ -548,6 +570,8 @@ this
 ;
 }
 getServicesForVideo
+:
+function
 (
 videoElement
 )
@@ -620,6 +644,8 @@ filteredServices
 ;
 }
 getServicesForMirroring
+:
+function
 (
 )
 {
@@ -640,6 +666,8 @@ mirror
 ;
 }
 onRemoteMediaStart
+:
+function
 (
 remoteMedia
 )
@@ -699,18 +727,24 @@ true
 }
 }
 onRemoteMediaStop
+:
+function
 (
 remoteMedia
 )
 {
 }
 onRemoteMediaStatus
+:
+function
 (
 remoteMedia
 )
 {
 }
 allowableExtension
+:
+function
 (
 uri
 extensions
@@ -741,6 +775,8 @@ fileExtension
 ;
 }
 allowableMimeType
+:
+function
 (
 type
 types

@@ -50,6 +50,8 @@ Test
 1
 "
 run
+:
+function
 (
 )
 {
@@ -78,6 +80,8 @@ notifyObj
 ;
 }
 onShown
+:
+function
 (
 popup
 )
@@ -130,6 +134,8 @@ remove
 ;
 }
 onHidden
+:
+function
 (
 )
 {
@@ -144,6 +150,8 @@ Test
 2
 "
 run
+:
+function
 (
 )
 {
@@ -279,6 +287,8 @@ _update
 ;
 }
 onShown
+:
+function
 (
 popup
 )
@@ -309,6 +319,8 @@ remove
 ;
 }
 onHidden
+:
+function
 (
 popup
 )
@@ -323,8 +335,10 @@ Test
 #
 3
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -427,8 +441,10 @@ Test
 #
 4
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -495,8 +511,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -571,6 +589,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 popup
 )
@@ -627,8 +647,10 @@ Test
 #
 5
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -695,8 +717,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -740,6 +764,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 popup
 )
@@ -797,8 +823,10 @@ Test
 #
 6a
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -834,8 +862,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -868,6 +898,8 @@ com
 ;
 }
 onHidden
+:
+function
 (
 popup
 )
@@ -914,8 +946,10 @@ Test
 #
 6b
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -1003,8 +1037,10 @@ Test
 #
 7
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -1294,6 +1330,8 @@ Test
 8
 "
 run
+:
+function
 (
 )
 {
@@ -1421,6 +1459,8 @@ _update
 ;
 }
 onShown
+:
+function
 (
 popup
 )
@@ -1451,6 +1491,8 @@ remove
 ;
 }
 onHidden
+:
+function
 (
 popup
 )
@@ -1466,6 +1508,8 @@ Test
 9
 "
 run
+:
+function
 (
 )
 {
@@ -1651,6 +1695,8 @@ _update
 ;
 }
 onShown
+:
+function
 (
 popup
 )
@@ -1753,6 +1799,8 @@ remove
 ;
 }
 onHidden
+:
+function
 (
 popup
 )

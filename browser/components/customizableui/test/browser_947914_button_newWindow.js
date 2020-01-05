@@ -55,6 +55,8 @@ observerWindowOpened
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

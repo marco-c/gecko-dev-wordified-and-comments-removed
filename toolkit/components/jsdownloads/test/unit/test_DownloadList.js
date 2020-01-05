@@ -167,6 +167,8 @@ ex
 ;
 }
 handleResult
+:
+function
 (
 )
 {
@@ -829,6 +831,8 @@ viewOne
 =
 {
 onDownloadAdded
+:
+function
 (
 aDownload
 )
@@ -912,6 +916,8 @@ viewTwo
 =
 {
 onDownloadRemoved
+:
+function
 (
 aDownload
 )
@@ -1120,6 +1126,8 @@ addView
 (
 {
 onDownloadChanged
+:
+function
 (
 aDownload
 )
@@ -1214,6 +1222,8 @@ view
 =
 {
 onDownloadAdded
+:
+function
 (
 )
 {
@@ -1229,6 +1239,8 @@ true
 ;
 }
 onDownloadChanged
+:
+function
 (
 )
 {
@@ -1251,6 +1263,8 @@ true
 }
 }
 onDownloadRemoved
+:
+function
 (
 )
 {
@@ -1433,6 +1447,8 @@ downloadView
 =
 {
 onDownloadRemoved
+:
+function
 (
 aDownload
 )
@@ -1653,6 +1669,8 @@ downloadView
 =
 {
 onDownloadRemoved
+:
+function
 (
 aDownload
 )
@@ -1813,6 +1831,8 @@ downloadView
 =
 {
 onDownloadRemoved
+:
+function
 (
 aDownload
 )
@@ -2504,6 +2524,8 @@ addView
 (
 {
 onSummaryChanged
+:
+function
 (
 )
 {

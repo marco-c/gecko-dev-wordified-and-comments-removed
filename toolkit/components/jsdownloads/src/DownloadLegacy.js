@@ -538,6 +538,8 @@ aMaxTotalProgress
 ;
 }
 onLocationChange
+:
+function
 (
 )
 {
@@ -608,6 +610,8 @@ reportError
 }
 }
 onSecurityChange
+:
+function
 (
 )
 {
@@ -823,7 +827,13 @@ saver
 legacy
 "
 launchWhenSucceeded
+:
+launchWhenSucceeded
 contentType
+:
+contentType
+launcherPath
+:
 launcherPath
 }
 )
@@ -914,6 +924,8 @@ reportError
 ;
 }
 setSha256Hash
+:
+function
 (
 hash
 )
@@ -926,6 +938,8 @@ hash
 ;
 }
 setSignatureInfo
+:
+function
 (
 signatureInfo
 )
@@ -938,6 +952,8 @@ signatureInfo
 ;
 }
 setRedirects
+:
+function
 (
 redirects
 )

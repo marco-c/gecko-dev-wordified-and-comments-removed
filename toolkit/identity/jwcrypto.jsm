@@ -436,6 +436,8 @@ prototype
 =
 {
 getExpiration
+:
+function
 (
 duration
 =
@@ -461,6 +463,8 @@ duration
 ;
 }
 isCertValid
+:
+function
 (
 aCert
 aCallback
@@ -473,6 +477,8 @@ true
 ;
 }
 generateKeyPair
+:
+function
 (
 aAlgorithmName
 aCallback
@@ -493,6 +499,8 @@ aCallback
 ;
 }
 generateAssertion
+:
+function
 (
 aCert
 aKeyPair

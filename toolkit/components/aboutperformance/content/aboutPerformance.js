@@ -355,6 +355,8 @@ tabFinder
 =
 {
 update
+:
+function
 (
 )
 {
@@ -448,6 +450,8 @@ browser
 }
 }
 get
+:
+function
 (
 id
 )
@@ -498,6 +502,8 @@ browser
 ;
 }
 getAny
+:
+function
 (
 ids
 )
@@ -940,6 +946,8 @@ Error
 }
 }
 promiseInit
+:
+function
 (
 )
 {
@@ -992,6 +1000,8 @@ TypeError
 ;
 }
 _initWebpage
+:
+function
 (
 )
 {
@@ -1163,6 +1173,8 @@ addonId
 }
 )
 toString
+:
+function
 (
 )
 {
@@ -1654,6 +1666,8 @@ shift
 }
 )
 promiseDeltaSinceStartOfTime
+:
+function
 (
 )
 {
@@ -1669,6 +1683,8 @@ _oldest
 ;
 }
 promiseDeltaSinceStartOfBuffer
+:
+function
 (
 )
 {
@@ -1967,6 +1983,8 @@ Map
 (
 )
 get
+:
+function
 (
 deltaKey
 )
@@ -1983,6 +2001,8 @@ deltaKey
 ;
 }
 set
+:
+function
 (
 deltaKey
 value
@@ -2000,6 +2020,8 @@ value
 ;
 }
 trimTo
+:
+function
 (
 set
 )
@@ -2065,6 +2087,8 @@ key
 }
 }
 updateCategory
+:
+function
 (
 subset
 id
@@ -3040,6 +3064,8 @@ id
 ;
 }
 _insertElements
+:
+function
 (
 elements
 id
@@ -3235,6 +3261,8 @@ Nothing
 }
 }
 _setupStructure
+:
+function
 (
 id
 )
@@ -3493,6 +3521,8 @@ eltContainer
 ;
 }
 _grabOrCreateElements
+:
+function
 (
 delta
 nature
@@ -4480,6 +4510,8 @@ Control
 =
 {
 init
+:
+function
 (
 )
 {
@@ -4640,6 +4672,8 @@ mode
 }
 )
 _setOptions
+:
+function
 (
 options
 )
@@ -4738,6 +4772,8 @@ click
 }
 }
 _initAutorefresh
+:
+function
 (
 )
 {
@@ -4869,6 +4905,8 @@ _autoRefreshInterval
 :
 null
 _initDisplayMode
+:
+function
 (
 )
 {
@@ -5006,6 +5044,8 @@ _timeout
 :
 null
 init
+:
+function
 (
 )
 {
@@ -5038,6 +5078,8 @@ handleVisibilityChange
 ;
 }
 handleVisibilityChange
+:
+function
 (
 )
 {
@@ -5074,6 +5116,8 @@ null
 }
 }
 queueUpdate
+:
+function
 (
 )
 {
@@ -5097,6 +5141,8 @@ UPDATE_INTERVAL_MS
 ;
 }
 updateRow
+:
+function
 (
 row
 summaries
@@ -5180,6 +5226,8 @@ join
 ;
 }
 updateTable
+:
+function
 (
 )
 {

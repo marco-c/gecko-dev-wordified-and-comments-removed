@@ -8123,6 +8123,8 @@ _instance
 :
 null
 createInstance
+:
+function
 (
 outer
 iid
@@ -20302,6 +20304,8 @@ timer
 :
 null
 notify
+:
+function
 (
 )
 {
@@ -20347,6 +20351,8 @@ update
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -20663,6 +20669,8 @@ updatePrompt
 :
 this
 observe
+:
+function
 (
 aSubject
 aTopic

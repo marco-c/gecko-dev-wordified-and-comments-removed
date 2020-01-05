@@ -331,6 +331,8 @@ prototype
 =
 {
 acquire
+:
+function
 (
 )
 {
@@ -375,6 +377,8 @@ _counter
 ;
 }
 release
+:
+function
 (
 )
 {
@@ -460,6 +464,8 @@ _name
 }
 }
 extract
+:
+function
 (
 xpcom
 )
@@ -502,6 +508,8 @@ xpcom
 ;
 }
 isEqual
+:
+function
 (
 a
 b
@@ -556,6 +564,8 @@ false
 ;
 }
 subtract
+:
+function
 (
 a
 b
@@ -601,6 +611,8 @@ b
 ;
 }
 importChildCompartments
+:
+function
 (
 parent
 children
@@ -669,6 +681,8 @@ _name
 ;
 }
 compose
+:
+function
 (
 stats
 )
@@ -790,6 +804,8 @@ isMonitoringJank
 ;
 }
 extract
+:
+function
 (
 xpcom
 )
@@ -825,6 +841,8 @@ xpcom
 .
 totalSystemTime
 durations
+:
+durations
 longestDuration
 :
 lastNonZero
@@ -834,6 +852,8 @@ durations
 }
 }
 isEqual
+:
+function
 (
 a
 b
@@ -919,6 +939,8 @@ true
 ;
 }
 subtract
+:
+function
 (
 a
 b
@@ -1023,11 +1045,15 @@ result
 ;
 }
 importChildCompartments
+:
+function
 (
 )
 {
 }
 compose
+:
+function
 (
 stats
 )
@@ -1183,6 +1209,8 @@ isMonitoringCPOW
 ;
 }
 extract
+:
+function
 (
 xpcom
 )
@@ -1198,6 +1226,8 @@ totalCPOWTime
 ;
 }
 isEqual
+:
+function
 (
 a
 b
@@ -1215,6 +1245,8 @@ totalCPOWTime
 ;
 }
 subtract
+:
+function
 (
 a
 b
@@ -1235,11 +1267,15 @@ totalCPOWTime
 ;
 }
 importChildCompartments
+:
+function
 (
 )
 {
 }
 compose
+:
+function
 (
 stats
 )
@@ -1299,6 +1335,8 @@ true
 ;
 }
 extract
+:
+function
 (
 xpcom
 )
@@ -1314,6 +1352,8 @@ ticks
 ;
 }
 isEqual
+:
+function
 (
 a
 b
@@ -1331,6 +1371,8 @@ ticks
 ;
 }
 subtract
+:
+function
 (
 a
 b
@@ -1351,11 +1393,15 @@ ticks
 ;
 }
 importChildCompartments
+:
+function
 (
 )
 {
 }
 compose
+:
+function
 (
 stats
 )
@@ -1423,6 +1469,8 @@ isMonitoringPerCompartment
 ;
 }
 extract
+:
+function
 (
 xpcom
 )
@@ -1432,6 +1480,8 @@ null
 ;
 }
 isEqual
+:
+function
 (
 a
 b
@@ -1442,6 +1492,8 @@ true
 ;
 }
 subtract
+:
+function
 (
 a
 b
@@ -1452,6 +1504,8 @@ true
 ;
 }
 importChildCompartments
+:
+function
 (
 parent
 children
@@ -1465,6 +1519,8 @@ children
 ;
 }
 compose
+:
+function
 (
 stats
 )
@@ -1567,6 +1623,8 @@ name
 ;
 }
 _checkBeforeSnapshot
+:
+function
 (
 options
 )
@@ -1730,6 +1788,8 @@ probes
 ;
 }
 promiseContentSnapshot
+:
+function
 (
 options
 =
@@ -1758,6 +1818,8 @@ getSnapshot
 ;
 }
 promiseSnapshot
+:
+function
 (
 options
 =
@@ -1844,6 +1906,8 @@ now
 ;
 }
 dispose
+:
+function
 (
 )
 {
@@ -2132,6 +2196,8 @@ PerformanceStats
 =
 {
 getMonitor
+:
+function
 (
 probes
 )
@@ -2288,6 +2354,8 @@ prototype
 =
 {
 equals
+:
+function
 (
 to
 )
@@ -2358,6 +2426,8 @@ true
 ;
 }
 subtract
+:
+function
 (
 to
 =
@@ -2418,6 +2488,8 @@ prototype
 =
 {
 addChild
+:
+function
 (
 stat
 )
@@ -2483,6 +2555,8 @@ this
 ;
 }
 setParent
+:
+function
 (
 stat
 )
@@ -2541,6 +2615,8 @@ this
 ;
 }
 equals
+:
+function
 (
 to
 )
@@ -2679,6 +2755,8 @@ true
 ;
 }
 subtract
+:
+function
 (
 to
 =
@@ -2989,6 +3067,8 @@ prototype
 =
 {
 toString
+:
+function
 (
 )
 {
@@ -3734,6 +3814,8 @@ ppmm
 ;
 }
 broadcast
+:
+function
 (
 topic
 payload

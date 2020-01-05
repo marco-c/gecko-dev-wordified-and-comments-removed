@@ -1120,6 +1120,8 @@ Experiments
 =
 {
 instance
+:
+function
 (
 )
 {
@@ -1201,6 +1203,8 @@ prototype
 =
 {
 now
+:
+function
 (
 )
 {
@@ -1212,6 +1216,8 @@ Date
 ;
 }
 random
+:
+function
 (
 )
 {
@@ -1301,6 +1307,8 @@ random
 ;
 }
 futureDate
+:
+function
 (
 offset
 )
@@ -1324,6 +1332,8 @@ offset
 ;
 }
 oneshotTimer
+:
+function
 (
 callback
 timeout
@@ -1344,6 +1354,8 @@ name
 ;
 }
 updatechannel
+:
+function
 (
 )
 {
@@ -1354,6 +1366,8 @@ UpdateChannel
 ;
 }
 locale
+:
+function
 (
 )
 {
@@ -1396,6 +1410,8 @@ global
 ;
 }
 delayCacheWrite
+:
+function
 (
 promise
 )
@@ -1785,6 +1801,8 @@ _shutdown
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -2265,6 +2283,8 @@ uninitialization
 }
 )
 _getState
+:
+function
 (
 )
 {
@@ -2433,6 +2453,8 @@ state
 ;
 }
 _addToForensicsLog
+:
+function
 (
 what
 string
@@ -2485,6 +2507,8 @@ string
 ;
 }
 _registerWithAddonManager
+:
+function
 (
 previousExperimentsProvider
 )
@@ -2586,6 +2610,8 @@ TYPE_UI_HIDE_EMPTY
 }
 }
 _unregisterWithAddonManager
+:
+function
 (
 )
 {
@@ -2710,6 +2736,8 @@ null
 }
 }
 _setPreviousExperimentsProvider
+:
+function
 (
 provider
 )
@@ -2729,6 +2757,8 @@ provider
 ;
 }
 _checkForShutdown
+:
+function
 (
 )
 {
@@ -2899,6 +2929,8 @@ clear
 }
 )
 _telemetryStatusChanged
+:
+function
 (
 )
 {
@@ -2911,6 +2943,8 @@ gExperimentsEnabled
 ;
 }
 getExperiments
+:
+function
 (
 )
 {
@@ -2964,6 +2998,8 @@ list
 push
 (
 {
+id
+:
 id
 name
 :
@@ -3035,6 +3071,8 @@ this
 ;
 }
 getActiveExperiment
+:
+function
 (
 )
 {
@@ -3312,6 +3350,8 @@ branch
 }
 )
 _dateIsTodayUTC
+:
+function
 (
 d
 )
@@ -3349,6 +3389,8 @@ getTime
 ;
 }
 lastActiveToday
+:
+function
 (
 )
 {
@@ -3427,6 +3469,8 @@ this
 ;
 }
 _run
+:
+function
 (
 )
 {
@@ -3582,8 +3626,10 @@ this
 _mainTask
 ;
 }
-*
 _main
+:
+function
+*
 (
 )
 {
@@ -3675,8 +3721,10 @@ _dirty
 )
 ;
 }
-*
 _loadManifest
+:
+function
+*
 (
 )
 {
@@ -3816,6 +3864,8 @@ e
 }
 }
 updateManifest
+:
+function
 (
 )
 {
@@ -3895,6 +3945,8 @@ _run
 ;
 }
 notify
+:
+function
 (
 timer
 )
@@ -3927,6 +3979,8 @@ _run
 ;
 }
 onUninstalled
+:
+function
 (
 addon
 )
@@ -4021,6 +4075,8 @@ ADDON_UNINSTALLED
 ;
 }
 onInstallStarted
+:
+function
 (
 install
 )
@@ -4195,6 +4251,8 @@ false
 ;
 }
 _getExperimentByAddonId
+:
+function
 (
 addonId
 )
@@ -4232,6 +4290,8 @@ null
 ;
 }
 _httpGetRequest
+:
+function
 (
 url
 )
@@ -4635,8 +4695,10 @@ FILE_CACHE
 )
 ;
 }
-*
 _saveToCache
+:
+function
+*
 (
 )
 {
@@ -4911,6 +4973,8 @@ e
 }
 )
 _populateFromCache
+:
+function
 (
 data
 )
@@ -5050,6 +5114,8 @@ experiments
 ;
 }
 _updateExperiments
+:
+function
 (
 manifestObject
 )
@@ -5321,6 +5387,8 @@ true
 ;
 }
 getActiveExperimentID
+:
+function
 (
 )
 {
@@ -5362,6 +5430,8 @@ id
 ;
 }
 getActiveExperimentBranch
+:
+function
 (
 )
 {
@@ -5403,6 +5473,8 @@ branch
 ;
 }
 _getActiveExperiment
+:
+function
 (
 )
 {
@@ -5500,6 +5572,8 @@ null
 ;
 }
 disableExperiment
+:
+function
 (
 reason
 )
@@ -5601,8 +5675,10 @@ _addonId
 )
 ;
 }
-*
 _evaluateExperiments
+:
+function
+*
 (
 )
 {
@@ -6255,6 +6331,8 @@ e
 }
 }
 _scheduleNextRun
+:
+function
 (
 )
 {
@@ -6807,6 +6885,8 @@ ADDON_CHANGE_ENABLE
 :
 4
 initFromManifestData
+:
+function
 (
 data
 )
@@ -7010,6 +7090,8 @@ _needsUpdate
 ;
 }
 initFromCacheData
+:
+function
 (
 data
 )
@@ -7226,6 +7308,8 @@ true
 ;
 }
 toJSON
+:
+function
 (
 )
 {
@@ -7313,6 +7397,8 @@ obj
 ;
 }
 updateFromManifestData
+:
+function
 (
 data
 )
@@ -7431,6 +7517,8 @@ true
 ;
 }
 isApplicable
+:
+function
 (
 )
 {
@@ -10045,6 +10133,8 @@ changes
 }
 )
 _getAddon
+:
+function
 (
 )
 {
@@ -10103,6 +10193,8 @@ addon
 ;
 }
 _logTermination
+:
+function
 (
 terminationKind
 terminationReason
@@ -10190,6 +10282,8 @@ data
 ;
 }
 shouldStop
+:
+function
 (
 )
 {
@@ -10262,6 +10356,8 @@ shouldStop
 :
 true
 reason
+:
+reason
 }
 )
 )
@@ -10273,6 +10369,8 @@ promise
 ;
 }
 shouldDiscard
+:
+function
 (
 )
 {
@@ -10311,6 +10409,8 @@ limit
 ;
 }
 getScheduleTime
+:
+function
 (
 )
 {
@@ -10389,6 +10489,8 @@ startTime
 ;
 }
 _isManifestDataValid
+:
+function
 (
 data
 )
@@ -10631,6 +10733,8 @@ name
 PreviousExperimentProvider
 "
 startup
+:
+function
 (
 )
 {
@@ -10660,6 +10764,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -10697,6 +10803,8 @@ e
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -10722,6 +10830,8 @@ break
 }
 }
 getAddonByID
+:
+function
 (
 id
 cb
@@ -10767,6 +10877,8 @@ null
 ;
 }
 getAddonsByTypes
+:
+function
 (
 types
 cb
@@ -10828,6 +10940,8 @@ e
 ;
 }
 _updateExperimentList
+:
+function
 (
 )
 {
@@ -11403,6 +11517,8 @@ _endDate
 ;
 }
 isCompatibleWith
+:
+function
 (
 appVersion
 platformVersion
@@ -11413,6 +11529,8 @@ true
 ;
 }
 findUpdates
+:
+function
 (
 listener
 reason

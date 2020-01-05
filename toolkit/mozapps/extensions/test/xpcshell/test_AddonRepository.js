@@ -2164,6 +2164,8 @@ failCallback
 =
 {
 searchSucceeded
+:
+function
 (
 addons
 length
@@ -2189,6 +2191,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -2222,6 +2226,8 @@ testCallback
 =
 {
 searchSucceeded
+:
+function
 (
 addons
 length
@@ -2247,6 +2253,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -2893,6 +2901,8 @@ preference
 :
 PREF_GETADDONS_BROWSEADDONS
 urlTests
+:
+urlTests
 getURL
 :
 (
@@ -2910,6 +2920,8 @@ true
 preference
 :
 PREF_GETADDONS_BROWSERECOMMENDED
+urlTests
+:
 urlTests
 getURL
 :
@@ -3069,6 +3081,8 @@ callback
 =
 {
 searchSucceeded
+:
+function
 (
 aAddonsList
 aAddonCount
@@ -3092,6 +3106,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -3142,6 +3158,8 @@ callback
 =
 {
 searchSucceeded
+:
+function
 (
 aAddonsList
 aAddonCount
@@ -3169,6 +3187,8 @@ run_test_retrieveRecommended_fails
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -3237,6 +3257,8 @@ callback
 =
 {
 searchSucceeded
+:
+function
 (
 aAddonsList
 aAddonCount
@@ -3260,6 +3282,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -3308,6 +3332,8 @@ callback
 =
 {
 searchSucceeded
+:
+function
 (
 aAddonsList
 aAddonCount
@@ -3334,6 +3360,8 @@ run_test_searchAddons_fails
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -3400,6 +3428,8 @@ callback
 =
 {
 searchSucceeded
+:
+function
 (
 aAddonsList
 aAddonCount
@@ -3423,6 +3453,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -3478,6 +3510,8 @@ callback
 =
 {
 searchSucceeded
+:
+function
 (
 aAddonsList
 aAddonCount
@@ -3503,6 +3537,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {

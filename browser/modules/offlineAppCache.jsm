@@ -49,6 +49,8 @@ OfflineAppCacheHelper
 =
 {
 clear
+:
+function
 (
 )
 {

@@ -157,6 +157,8 @@ _bundle
 :
 null
 init
+:
+function
 (
 )
 {
@@ -296,6 +298,8 @@ true
 }
 }
 uninit
+:
+function
 (
 )
 {
@@ -354,6 +358,8 @@ changed
 ;
 }
 _populateList
+:
+function
 (
 aInitialLoad
 )
@@ -496,6 +502,8 @@ _saveState
 ;
 }
 _cookieEquals
+:
+function
 (
 aCookieA
 aCookieB
@@ -545,6 +553,8 @@ originAttributes
 ;
 }
 _isPrivateCookie
+:
+function
 (
 aCookie
 )
@@ -581,6 +591,8 @@ public
 ;
 }
 observe
+:
+function
 (
 aCookie
 aTopic
@@ -776,6 +788,8 @@ false
 }
 }
 _handleCookieChanged
+:
+function
 (
 changedCookie
 strippedHost
@@ -1024,6 +1038,8 @@ cookieItem
 ;
 }
 _handleCookieAdded
+:
+function
 (
 changedCookie
 strippedHost
@@ -1202,6 +1218,8 @@ _rowCount
 ;
 }
 _getItemAtIndex
+:
+function
 (
 aIndex
 )
@@ -1485,6 +1503,8 @@ null
 ;
 }
 _removeItemAtIndex
+:
+function
 (
 aIndex
 aCount
@@ -1760,6 +1780,8 @@ removeCount
 }
 }
 _invalidateCache
+:
+function
 (
 aIndex
 )
@@ -1780,6 +1802,8 @@ aIndex
 ;
 }
 getCellText
+:
+function
 (
 aIndex
 aColumn
@@ -1930,6 +1954,8 @@ val
 ;
 }
 getRowProperties
+:
+function
 (
 aIndex
 )
@@ -1940,6 +1966,8 @@ return
 ;
 }
 getCellProperties
+:
+function
 (
 aIndex
 aColumn
@@ -1951,6 +1979,8 @@ return
 ;
 }
 getColumnProperties
+:
+function
 (
 aColumn
 )
@@ -1961,6 +1991,8 @@ return
 ;
 }
 isContainer
+:
+function
 (
 aIndex
 )
@@ -2002,6 +2034,8 @@ false
 ;
 }
 isContainerOpen
+:
+function
 (
 aIndex
 )
@@ -2043,6 +2077,8 @@ false
 ;
 }
 isContainerEmpty
+:
+function
 (
 aIndex
 )
@@ -2089,6 +2125,8 @@ false
 ;
 }
 isSeparator
+:
+function
 (
 aIndex
 )
@@ -2098,6 +2136,8 @@ false
 ;
 }
 isSorted
+:
+function
 (
 aIndex
 )
@@ -2107,6 +2147,8 @@ false
 ;
 }
 canDrop
+:
+function
 (
 aIndex
 aOrientation
@@ -2117,6 +2159,8 @@ false
 ;
 }
 drop
+:
+function
 (
 aIndex
 aOrientation
@@ -2124,6 +2168,8 @@ aOrientation
 {
 }
 getParentIndex
+:
+function
 (
 aIndex
 )
@@ -2172,6 +2218,8 @@ return
 ;
 }
 hasNextSibling
+:
+function
 (
 aParentIndex
 aIndex
@@ -2298,6 +2346,8 @@ rowCount
 ;
 }
 hasPreviousSibling
+:
+function
 (
 aIndex
 )
@@ -2366,6 +2416,8 @@ aIndex
 ;
 }
 getLevel
+:
+function
 (
 aIndex
 )
@@ -2407,6 +2459,8 @@ return
 ;
 }
 getImageSrc
+:
+function
 (
 aIndex
 aColumn
@@ -2414,6 +2468,8 @@ aColumn
 {
 }
 getProgressMode
+:
+function
 (
 aIndex
 aColumn
@@ -2421,6 +2477,8 @@ aColumn
 {
 }
 getCellValue
+:
+function
 (
 aIndex
 aColumn
@@ -2428,12 +2486,16 @@ aColumn
 {
 }
 setTree
+:
+function
 (
 aTree
 )
 {
 }
 toggleOpenState
+:
+function
 (
 aIndex
 )
@@ -2537,17 +2599,23 @@ aIndex
 }
 }
 cycleHeader
+:
+function
 (
 aColumn
 )
 {
 }
 selectionChanged
+:
+function
 (
 )
 {
 }
 cycleCell
+:
+function
 (
 aIndex
 aColumn
@@ -2555,6 +2623,8 @@ aColumn
 {
 }
 isEditable
+:
+function
 (
 aIndex
 aColumn
@@ -2565,6 +2635,8 @@ false
 ;
 }
 isSelectable
+:
+function
 (
 aIndex
 aColumn
@@ -2575,6 +2647,8 @@ false
 ;
 }
 setCellValue
+:
+function
 (
 aIndex
 aColumn
@@ -2583,6 +2657,8 @@ aValue
 {
 }
 setCellText
+:
+function
 (
 aIndex
 aColumn
@@ -2591,12 +2667,16 @@ aValue
 {
 }
 performAction
+:
+function
 (
 aAction
 )
 {
 }
 performActionOnRow
+:
+function
 (
 aAction
 aIndex
@@ -2604,6 +2684,8 @@ aIndex
 {
 }
 performActionOnCell
+:
+function
 (
 aAction
 aindex
@@ -2613,6 +2695,8 @@ aColumn
 }
 }
 _makeStrippedHost
+:
+function
 (
 aHost
 )
@@ -2673,6 +2757,8 @@ formattedHost
 ;
 }
 _addCookie
+:
+function
 (
 aStrippedHost
 aCookie
@@ -2769,6 +2855,8 @@ c
 ;
 }
 _makeCookieObject
+:
+function
 (
 aStrippedHost
 aCookie
@@ -2834,6 +2922,8 @@ c
 ;
 }
 _loadCookies
+:
+function
 (
 )
 {
@@ -2952,6 +3042,8 @@ value
 ;
 }
 formatExpiresString
+:
+function
 (
 aExpires
 )
@@ -3071,6 +3163,8 @@ expireAtEndOfSession
 ;
 }
 _getUserContextString
+:
+function
 (
 aUserContextId
 )
@@ -3109,6 +3203,8 @@ aUserContextId
 ;
 }
 _updateCookieData
+:
+function
 (
 aItem
 )
@@ -3378,6 +3474,8 @@ property
 ;
 }
 onCookieSelected
+:
+function
 (
 )
 {
@@ -3722,6 +3820,8 @@ originAttributes
 }
 }
 deleteCookie
+:
+function
 (
 )
 {
@@ -4248,6 +4348,8 @@ focus
 }
 }
 deleteAllCookies
+:
+function
 (
 )
 {
@@ -4370,6 +4472,8 @@ focusFilterBox
 ;
 }
 onCookieKeyPress
+:
+function
 (
 aEvent
 )
@@ -4432,6 +4536,8 @@ _lastSortAscending
 :
 false
 sort
+:
+function
 (
 aProperty
 )
@@ -4773,6 +4879,8 @@ aProperty
 ;
 }
 clearFilter
+:
+function
 (
 )
 {
@@ -5003,6 +5111,8 @@ _updateRemoveAllButton
 ;
 }
 _cookieMatchesFilter
+:
+function
 (
 aCookie
 )
@@ -5063,6 +5173,8 @@ _filterValue
 ;
 }
 _filterCookies
+:
+function
 (
 aFilterValue
 )
@@ -5164,6 +5276,8 @@ _openIndices
 [
 ]
 _saveState
+:
+function
 (
 )
 {
@@ -5343,6 +5457,8 @@ _rowCount
 ;
 }
 filter
+:
+function
 (
 )
 {
@@ -5528,6 +5644,8 @@ _updateRemoveAllButton
 ;
 }
 setFilter
+:
+function
 (
 aFilterString
 )
@@ -5553,6 +5671,8 @@ filter
 ;
 }
 focusFilterBox
+:
+function
 (
 )
 {
@@ -5582,6 +5702,8 @@ select
 ;
 }
 onWindowKeyPress
+:
+function
 (
 aEvent
 )

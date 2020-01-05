@@ -237,6 +237,8 @@ _recipeManager
 :
 null
 init
+:
+function
 (
 )
 {
@@ -418,6 +420,8 @@ initializationPromise
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -837,6 +841,8 @@ loginsFound
 "
 {
 requestId
+:
+requestId
 logins
 :
 [
@@ -911,6 +917,8 @@ nsISupportsWeakReference
 ]
 )
 observe
+:
+function
 (
 subject
 topic
@@ -985,6 +993,8 @@ RemoteLogins
 loginsFound
 "
 {
+requestId
+:
 requestId
 logins
 :
@@ -1134,6 +1144,8 @@ loginsFound
 "
 {
 requestId
+:
+requestId
 logins
 :
 jsLogins
@@ -1144,6 +1156,8 @@ recipes
 }
 )
 doAutocompleteSearch
+:
+function
 (
 {
 formOrigin
@@ -1381,6 +1395,8 @@ loginsAutoCompleted
 "
 {
 requestId
+:
+requestId
 logins
 :
 jsLogins
@@ -1389,6 +1405,8 @@ jsLogins
 ;
 }
 onFormSubmit
+:
+function
 (
 hostname
 formSubmitURL

@@ -99,6 +99,8 @@ healthReportWrapper
 =
 {
 init
+:
+function
 (
 )
 {
@@ -156,6 +158,8 @@ healthReportWrapper
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -174,6 +178,8 @@ healthReportWrapper
 ;
 }
 _getReportURI
+:
+function
 (
 )
 {
@@ -203,6 +209,8 @@ null
 ;
 }
 setDataSubmission
+:
+function
 (
 enabled
 )
@@ -221,6 +229,8 @@ updatePrefState
 ;
 }
 updatePrefState
+:
+function
 (
 )
 {
@@ -265,6 +275,8 @@ ERROR_PREFS_FAILED
 }
 }
 sendTelemetryPingList
+:
+function
 (
 )
 {
@@ -359,6 +371,8 @@ ex
 ;
 }
 sendTelemetryPingData
+:
+function
 (
 pingId
 )
@@ -487,6 +501,8 @@ generic
 ;
 }
 sendCurrentEnvironment
+:
+function
 (
 )
 {
@@ -569,6 +585,8 @@ ex
 ;
 }
 sendCurrentPingData
+:
+function
 (
 )
 {
@@ -652,6 +670,8 @@ ex
 ;
 }
 injectData
+:
+function
 (
 type
 content
@@ -691,6 +711,10 @@ data
 =
 {
 type
+:
+type
+content
+:
 content
 }
 let
@@ -719,6 +743,8 @@ reportUrl
 ;
 }
 handleRemoteCommand
+:
+function
 (
 evt
 )
@@ -942,6 +968,8 @@ break
 }
 }
 initRemotePage
+:
+function
 (
 )
 {
@@ -1002,6 +1030,8 @@ ERROR_PREFS_FAILED
 :
 3
 reportFailure
+:
+function
 (
 error
 )
@@ -1026,6 +1056,8 @@ details
 ;
 }
 handleInitFailure
+:
+function
 (
 )
 {
@@ -1040,6 +1072,8 @@ ERROR_INIT_FAILED
 ;
 }
 handlePayloadFailure
+:
+function
 (
 )
 {

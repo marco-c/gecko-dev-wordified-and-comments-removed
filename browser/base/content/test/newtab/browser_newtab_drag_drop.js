@@ -460,6 +460,10 @@ gBrowser
 selectedBrowser
 {
 sourceIndex
+:
+sourceIndex
+dropIndex
+:
 dropIndex
 }
 function

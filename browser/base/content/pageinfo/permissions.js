@@ -120,6 +120,8 @@ permissionObserver
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

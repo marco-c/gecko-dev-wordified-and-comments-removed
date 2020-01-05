@@ -1100,6 +1100,8 @@ disabled
 }
 ]
 attachObservers
+:
+function
 (
 )
 {
@@ -1249,6 +1251,8 @@ false
 }
 }
 detachObservers
+:
+function
 (
 )
 {
@@ -1278,6 +1282,8 @@ this
 }
 }
 render
+:
+function
 (
 )
 {
@@ -1396,6 +1402,8 @@ _archivedPings
 :
 null
 attachObservers
+:
+function
 (
 )
 {
@@ -1734,6 +1742,8 @@ false
 ;
 }
 onPingSourceChanged
+:
+function
 (
 )
 {
@@ -1745,6 +1755,8 @@ update
 ;
 }
 onPingDisplayChanged
+:
+function
 (
 )
 {
@@ -2026,6 +2038,8 @@ _showRawPingData
 }
 )
 _updateCurrentPingData
+:
+function
 (
 )
 {
@@ -2074,6 +2088,8 @@ true
 ;
 }
 _updateArchivedPingData
+:
+function
 (
 )
 {
@@ -2319,6 +2335,8 @@ _updateArchivedPingData
 }
 )
 _renderWeeks
+:
+function
 (
 )
 {
@@ -2416,6 +2434,8 @@ option
 }
 }
 _getSelectedWeek
+:
+function
 (
 )
 {
@@ -2447,6 +2467,8 @@ selectedIndex
 ;
 }
 _renderPingList
+:
+function
 (
 id
 =
@@ -2638,6 +2660,8 @@ option
 }
 }
 _getSelectedPingId
+:
+function
 (
 )
 {
@@ -2681,6 +2705,8 @@ value
 ;
 }
 _movePingIndex
+:
+function
 (
 offset
 )
@@ -2838,6 +2864,8 @@ _updateArchivedPingData
 ;
 }
 _showRawPingData
+:
+function
 (
 )
 {
@@ -2891,6 +2919,8 @@ hidden
 ;
 }
 _showStructuredPingData
+:
+function
 (
 )
 {
@@ -2950,6 +2980,8 @@ GeneralData
 =
 {
 render
+:
+function
 (
 aPing
 )
@@ -3206,6 +3238,8 @@ table
 ;
 }
 appendColumn
+:
+function
 (
 aRowElement
 aColType
@@ -3254,6 +3288,8 @@ EnvironmentData
 =
 {
 render
+:
+function
 (
 ping
 )
@@ -3443,6 +3479,8 @@ ping
 ;
 }
 createSubsection
+:
+function
 (
 title
 hasSubdata
@@ -3731,6 +3769,8 @@ dataSection
 ;
 }
 renderPersona
+:
+function
 (
 addonObj
 addonSection
@@ -3789,6 +3829,8 @@ table
 ;
 }
 renderActivePlugins
+:
+function
 (
 addonObj
 addonSection
@@ -3887,6 +3929,8 @@ table
 ;
 }
 renderAddonsObject
+:
+function
 (
 addonObj
 addonSection
@@ -4004,6 +4048,8 @@ table
 ;
 }
 renderKeyValueObject
+:
+function
 (
 addonObj
 addonSection
@@ -4085,6 +4131,8 @@ table
 ;
 }
 appendAddonID
+:
+function
 (
 table
 addonID
@@ -4103,6 +4151,8 @@ addonID
 ;
 }
 appendHeading
+:
+function
 (
 table
 )
@@ -4164,6 +4214,8 @@ headings
 ;
 }
 appendHeadingName
+:
+function
 (
 table
 name
@@ -4212,6 +4264,8 @@ headings
 ;
 }
 appendAddonSubsectionTitle
+:
+function
 (
 section
 table
@@ -4264,6 +4318,8 @@ caption
 ;
 }
 createAddonSection
+:
+function
 (
 dataDiv
 ping
@@ -4398,6 +4454,8 @@ dataDiv
 ;
 }
 appendRow
+:
+function
 (
 table
 id
@@ -4447,6 +4505,8 @@ row
 ;
 }
 appendColumn
+:
+function
 (
 aRowElement
 aColType
@@ -4495,6 +4555,8 @@ TelLog
 =
 {
 render
+:
+function
 (
 aPing
 )
@@ -4770,6 +4832,8 @@ table
 ;
 }
 appendColumn
+:
+function
 (
 aRowElement
 aColType
@@ -5923,6 +5987,8 @@ RawPayload
 =
 {
 render
+:
+function
 (
 aPing
 )
@@ -6695,6 +6761,8 @@ ThreadHangStats
 =
 {
 render
+:
+function
 (
 aPayload
 )
@@ -6786,6 +6854,8 @@ thread
 ;
 }
 renderThread
+:
+function
 (
 aThread
 )
@@ -7359,6 +7429,8 @@ outerDiv
 ;
 }
 processHistogram
+:
+function
 (
 aHgram
 aName
@@ -7567,6 +7639,8 @@ max
 :
 max_value
 sample_count
+:
+sample_count
 sum
 :
 aHgram
@@ -7579,6 +7653,8 @@ result
 ;
 }
 getLogValue
+:
+function
 (
 aNumber
 )
@@ -8779,6 +8855,8 @@ GenericTable
 =
 {
 render
+:
+function
 (
 rows
 headings
@@ -8817,6 +8895,8 @@ table
 ;
 }
 renderHeader
+:
+function
 (
 table
 headings
@@ -8924,6 +9004,8 @@ column
 }
 }
 renderBody
+:
+function
 (
 table
 rows
@@ -9100,6 +9182,8 @@ KeyedHistogram
 =
 {
 render
+:
+function
 (
 parent
 id
@@ -9399,6 +9483,8 @@ Scalars
 =
 {
 render
+:
+function
 (
 aPayload
 )
@@ -9537,6 +9623,8 @@ KeyedScalars
 =
 {
 render
+:
+function
 (
 aPayload
 )
@@ -9722,6 +9810,8 @@ Events
 =
 {
 render
+:
+function
 (
 aPayload
 )

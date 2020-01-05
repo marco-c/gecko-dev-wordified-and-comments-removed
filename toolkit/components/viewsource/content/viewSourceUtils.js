@@ -137,6 +137,8 @@ interfaces
 .
 nsIWebPageDescriptor
 viewSource
+:
+function
 (
 aArgsOrURL
 aPageDescriptor
@@ -215,6 +217,8 @@ aLineNumber
 }
 }
 viewSourceInBrowser
+:
+function
 (
 aArgs
 )
@@ -255,6 +259,8 @@ aArgs
 ;
 }
 viewPartialSourceInBrowser
+:
+function
 (
 aViewSourceInBrowser
 aTarget
@@ -431,6 +437,8 @@ aTarget
 ;
 }
 _openInInternalViewer
+:
+function
 (
 aArgsOrURL
 aPageDescriptor
@@ -580,6 +588,8 @@ isForcedCharset
 ;
 }
 buildEditorArgs
+:
+function
 (
 aPath
 aLineNumber
@@ -718,6 +728,8 @@ editorArgs
 ;
 }
 openInExternalEditor
+:
+function
 (
 aArgsOrURL
 aPageDescriptor
@@ -1434,6 +1446,8 @@ return
 }
 }
 internalViewerFallback
+:
+function
 (
 result
 data
@@ -1466,6 +1480,8 @@ lineNumber
 }
 }
 handleCallBack
+:
+function
 (
 aCallBack
 result
@@ -1521,6 +1537,8 @@ data
 }
 }
 getExternalViewSourceEditor
+:
+function
 (
 )
 {
@@ -1641,6 +1659,8 @@ interfaces
 .
 nsIWebProgressListener
 QueryInterface
+:
+function
 (
 aIID
 )
@@ -1692,6 +1712,8 @@ NS_NOINTERFACE
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1752,6 +1774,8 @@ null
 ;
 }
 onStateChange
+:
+function
 (
 aProgress
 aRequest
@@ -1861,6 +1885,8 @@ return
 ;
 }
 onContentLoaded
+:
+function
 (
 )
 {
@@ -2209,6 +2235,8 @@ destroy
 }
 }
 onLocationChange
+:
+function
 (
 )
 {
@@ -2217,6 +2245,8 @@ return
 ;
 }
 onProgressChange
+:
+function
 (
 )
 {
@@ -2225,6 +2255,8 @@ return
 ;
 }
 onStatusChange
+:
+function
 (
 )
 {
@@ -2233,6 +2265,8 @@ return
 ;
 }
 onSecurityChange
+:
+function
 (
 )
 {
@@ -2257,6 +2291,8 @@ file
 null
 }
 getTemporaryFile
+:
+function
 (
 aURI
 aDocument

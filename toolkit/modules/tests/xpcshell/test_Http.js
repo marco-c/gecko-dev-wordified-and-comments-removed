@@ -492,6 +492,8 @@ options
 =
 {
 onLoad
+:
+function
 (
 aResponse
 )
@@ -515,6 +517,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 )
@@ -559,6 +563,8 @@ options
 =
 {
 onSuccess
+:
+function
 (
 aResponse
 )
@@ -578,6 +584,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 aResponse
@@ -634,6 +642,8 @@ options
 =
 {
 onLoad
+:
+function
 (
 aResponse
 )
@@ -657,6 +667,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 )
@@ -709,6 +721,8 @@ method
 PUT
 "
 onLoad
+:
+function
 (
 aResponse
 )
@@ -732,6 +746,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 )
@@ -779,6 +795,8 @@ options
 =
 {
 onLoad
+:
+function
 (
 aResponse
 )
@@ -802,6 +820,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 )
@@ -884,6 +904,8 @@ options
 =
 {
 onLoad
+:
+function
 (
 aResponse
 )
@@ -907,6 +929,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 )
@@ -985,6 +1009,8 @@ options
 =
 {
 onLoad
+:
+function
 (
 aResponse
 xhr
@@ -1039,6 +1065,8 @@ run_next_test
 ;
 }
 onError
+:
+function
 (
 e
 )

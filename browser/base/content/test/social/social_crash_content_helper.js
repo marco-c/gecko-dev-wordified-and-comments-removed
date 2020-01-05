@@ -70,6 +70,8 @@ TestHelper
 =
 {
 init
+:
+function
 (
 )
 {
@@ -87,6 +89,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )

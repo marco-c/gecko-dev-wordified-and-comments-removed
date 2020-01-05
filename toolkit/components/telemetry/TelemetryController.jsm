@@ -964,11 +964,19 @@ freeze
 (
 {
 PREF_LOG_LEVEL
+:
+PREF_LOG_LEVEL
 PREF_LOG_DUMP
+:
+PREF_LOG_DUMP
+PREF_SERVER
+:
 PREF_SERVER
 }
 )
 testInitLogging
+:
+function
 (
 )
 {
@@ -978,6 +986,8 @@ configureLogging
 ;
 }
 testReset
+:
+function
 (
 )
 {
@@ -990,6 +1000,8 @@ reset
 ;
 }
 testSetup
+:
+function
 (
 )
 {
@@ -1003,6 +1015,8 @@ true
 ;
 }
 testShutdown
+:
+function
 (
 )
 {
@@ -1015,6 +1029,8 @@ shutdown
 ;
 }
 testSetupContent
+:
+function
 (
 )
 {
@@ -1028,6 +1044,8 @@ true
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -1046,6 +1064,8 @@ aData
 ;
 }
 submitExternalPing
+:
+function
 (
 aType
 aPayload
@@ -1089,6 +1109,8 @@ aOptions
 ;
 }
 getCurrentPingData
+:
+function
 (
 aSubsession
 =
@@ -1105,6 +1127,8 @@ aSubsession
 ;
 }
 addPendingPing
+:
+function
 (
 aType
 aPayload
@@ -1164,6 +1188,8 @@ options
 ;
 }
 checkAbortedSessionPing
+:
+function
 (
 )
 {
@@ -1176,6 +1202,8 @@ checkAbortedSessionPing
 ;
 }
 saveAbortedSessionPing
+:
+function
 (
 aPayload
 )
@@ -1190,6 +1218,8 @@ aPayload
 ;
 }
 removeAbortedSessionPing
+:
+function
 (
 )
 {
@@ -1202,6 +1232,8 @@ removeAbortedSessionPing
 ;
 }
 savePing
+:
+function
 (
 aType
 aPayload
@@ -1263,6 +1295,8 @@ options
 ;
 }
 getSessionRecorder
+:
+function
 (
 )
 {
@@ -1273,6 +1307,8 @@ _sessionRecorder
 ;
 }
 promiseInitialized
+:
+function
 (
 )
 {
@@ -1390,6 +1426,8 @@ _logger
 ;
 }
 _getApplicationSection
+:
+function
 (
 )
 {
@@ -1627,6 +1665,8 @@ _getApplicationSection
 (
 )
 payload
+:
+payload
 }
 ;
 if
@@ -1671,6 +1711,8 @@ pingData
 ;
 }
 _trackPendingPingTask
+:
+function
 (
 aPromise
 )
@@ -2413,6 +2455,8 @@ removeAbortedSessionPing
 }
 )
 saveAbortedSessionPing
+:
+function
 (
 aPayload
 )
@@ -2462,6 +2506,8 @@ pingData
 ;
 }
 removeAbortedSessionPing
+:
+function
 (
 )
 {
@@ -2960,6 +3006,8 @@ promise
 ;
 }
 setupContentTelemetry
+:
+function
 (
 testing
 =
@@ -3118,6 +3166,8 @@ false
 }
 )
 shutdown
+:
+function
 (
 )
 {
@@ -3188,6 +3238,8 @@ _cleanupOnShutdown
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -3283,6 +3335,8 @@ undefined
 ;
 }
 _getState
+:
+function
 (
 )
 {
@@ -3330,6 +3384,8 @@ getShutdownState
 ;
 }
 _onUploadPrefChange
+:
+function
 (
 )
 {
@@ -3470,6 +3526,8 @@ p
 ;
 }
 _attachObservers
+:
+function
 (
 )
 {
@@ -3492,6 +3550,8 @@ this
 }
 }
 _detachObservers
+:
+function
 (
 )
 {
@@ -3514,6 +3574,8 @@ this
 }
 }
 promiseInitialized
+:
+function
 (
 )
 {
@@ -3526,6 +3588,8 @@ promise
 ;
 }
 getCurrentPingData
+:
+function
 (
 aSubsession
 )

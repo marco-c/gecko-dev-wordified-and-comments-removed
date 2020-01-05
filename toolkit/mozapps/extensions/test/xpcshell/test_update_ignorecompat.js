@@ -289,6 +289,8 @@ addInstallListener
 (
 {
 onNewInstall
+:
+function
 (
 aInstall
 )
@@ -341,6 +343,8 @@ version
 ;
 }
 onDownloadFailed
+:
+function
 (
 aInstall
 )
@@ -512,6 +516,8 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
+:
+function
 (
 )
 {
@@ -529,6 +535,8 @@ information
 ;
 }
 onUpdateAvailable
+:
+function
 (
 )
 {
@@ -547,6 +555,8 @@ update
 ;
 }
 onUpdateFinished
+:
+function
 (
 )
 {

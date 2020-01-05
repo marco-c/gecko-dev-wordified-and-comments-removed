@@ -328,6 +328,8 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 aResult
 )
@@ -381,6 +383,8 @@ e
 }
 }
 handleCompletion
+:
+function
 (
 aReason
 )

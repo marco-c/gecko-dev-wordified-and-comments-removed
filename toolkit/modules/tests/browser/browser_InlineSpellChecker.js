@@ -70,6 +70,8 @@ tests
 =
 {
 testDictionaryDisplayNames
+:
+function
 (
 )
 {

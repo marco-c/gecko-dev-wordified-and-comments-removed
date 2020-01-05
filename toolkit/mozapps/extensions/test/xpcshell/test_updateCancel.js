@@ -130,6 +130,8 @@ defer
 return
 {
 onUpdateAvailable
+:
+function
 (
 addon
 install
@@ -151,6 +153,8 @@ notification
 ;
 }
 onUpdateFinished
+:
+function
 (
 aAddon
 aError

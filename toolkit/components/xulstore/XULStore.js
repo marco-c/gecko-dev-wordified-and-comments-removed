@@ -310,6 +310,8 @@ Ci
 nsITimer
 )
 load
+:
+function
 (
 )
 {
@@ -387,6 +389,8 @@ readFile
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -422,6 +426,8 @@ false
 }
 }
 log
+:
+function
 (
 message
 )
@@ -464,6 +470,8 @@ message
 ;
 }
 import
+:
+function
 (
 )
 {
@@ -777,6 +785,8 @@ Value
 }
 }
 readFile
+:
+function
 (
 )
 {
@@ -1034,6 +1044,8 @@ e
 }
 )
 markAsChanged
+:
+function
 (
 )
 {
@@ -1074,6 +1086,8 @@ TYPE_ONE_SHOT
 ;
 }
 setValue
+:
+function
 (
 docURI
 id
@@ -1308,6 +1322,8 @@ markAsChanged
 ;
 }
 hasValue
+:
+function
 (
 docURI
 id
@@ -1384,6 +1400,8 @@ false
 ;
 }
 getValue
+:
+function
 (
 docURI
 id
@@ -1466,6 +1484,8 @@ return
 ;
 }
 removeValue
+:
+function
 (
 docURI
 id
@@ -1630,6 +1650,8 @@ markAsChanged
 }
 }
 getIDsEnumerator
+:
+function
 (
 docURI
 )
@@ -1721,6 +1743,8 @@ result
 ;
 }
 getAttributeEnumerator
+:
+function
 (
 docURI
 id
@@ -1855,6 +1879,8 @@ _nextIndex
 :
 0
 hasMore
+:
+function
 (
 )
 {
@@ -1871,6 +1897,8 @@ length
 ;
 }
 getNext
+:
+function
 (
 )
 {

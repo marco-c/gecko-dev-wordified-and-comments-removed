@@ -8895,6 +8895,8 @@ gUpdateStagedObserver
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -17773,6 +17775,8 @@ getScriptableHelper
 >
 null
 getInterfaces
+:
+function
 (
 aCount
 )
@@ -18480,6 +18484,8 @@ XULAppInfoFactory
 =
 {
 createInstance
+:
+function
 (
 aOuter
 aIID

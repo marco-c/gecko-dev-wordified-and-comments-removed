@@ -202,6 +202,8 @@ NotificationTracker
 =
 {
 init
+:
+function
 (
 )
 {
@@ -268,6 +270,8 @@ _watchers
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -364,6 +368,8 @@ count
 }
 }
 runCallback
+:
+function
 (
 watcher
 path
@@ -457,6 +463,8 @@ pathString
 }
 }
 findPaths
+:
+function
 (
 prefix
 )
@@ -621,6 +629,8 @@ result
 ;
 }
 findSuffixes
+:
+function
 (
 prefix
 )
@@ -660,6 +670,8 @@ length
 ;
 }
 watch
+:
+function
 (
 component1
 watcher
@@ -728,6 +740,8 @@ count
 }
 }
 unwatch
+:
+function
 (
 component1
 watcher
@@ -846,6 +860,8 @@ policy
 1
 "
 init
+:
+function
 (
 )
 {
@@ -917,6 +933,8 @@ nsISupportsWeakReference
 ]
 )
 track
+:
+function
 (
 path
 register
@@ -990,6 +1008,8 @@ false
 }
 }
 shouldLoad
+:
+function
 (
 contentType
 contentLocation
@@ -1084,6 +1104,8 @@ Run
 "
 {
 contentType
+:
+contentType
 contentLocation
 :
 contentLocation
@@ -1099,7 +1121,13 @@ spec
 :
 null
 mimeTypeGuess
+:
+mimeTypeGuess
 requestPrincipal
+:
+requestPrincipal
+prefetched
+:
 prefetched
 }
 cpows
@@ -1131,6 +1159,8 @@ rval
 ;
 }
 shouldProcess
+:
+function
 (
 contentType
 contentLocation
@@ -1149,6 +1179,8 @@ ACCEPT
 ;
 }
 createInstance
+:
+function
 (
 outer
 iid
@@ -1266,6 +1298,8 @@ Cr
 .
 NS_OK
 asyncOpen
+:
+function
 (
 listener
 context
@@ -1524,6 +1558,8 @@ DISPATCH_NORMAL
 ;
 }
 asyncOpen2
+:
+function
 (
 listener
 )
@@ -1549,6 +1585,8 @@ null
 ;
 }
 open
+:
+function
 (
 )
 {
@@ -1559,6 +1597,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 open2
+:
+function
 (
 )
 {
@@ -1569,6 +1609,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 isPending
+:
+function
 (
 )
 {
@@ -1577,6 +1619,8 @@ false
 ;
 }
 cancel
+:
+function
 (
 )
 {
@@ -1587,6 +1631,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 suspend
+:
+function
 (
 )
 {
@@ -1597,6 +1643,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 resume
+:
+function
 (
 )
 {
@@ -1648,6 +1696,8 @@ prototype
 =
 {
 createInstance
+:
+function
 (
 outer
 iid
@@ -1677,6 +1727,8 @@ iid
 ;
 }
 getURIFlags
+:
+function
 (
 uri
 )
@@ -1781,6 +1833,8 @@ _uriFlags
 ;
 }
 newChannel
+:
+function
 (
 uri
 loadInfo
@@ -1830,6 +1884,8 @@ protocol
 handler
 "
 init
+:
+function
 (
 )
 {
@@ -1865,6 +1921,8 @@ this
 ;
 }
 track
+:
+function
 (
 path
 register
@@ -2029,6 +2087,8 @@ ObserverChild
 =
 {
 init
+:
+function
 (
 )
 {
@@ -2044,6 +2104,8 @@ this
 ;
 }
 track
+:
+function
 (
 path
 register
@@ -2089,6 +2151,8 @@ topic
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -2133,7 +2197,13 @@ Run
 }
 {
 topic
+:
+topic
 subject
+:
+subject
+data
+:
 data
 }
 )
@@ -2204,6 +2274,8 @@ prototype
 =
 {
 uninit
+:
+function
 (
 )
 {
@@ -2219,6 +2291,8 @@ this
 ;
 }
 track
+:
+function
 (
 path
 register
@@ -2287,6 +2361,8 @@ useCapture
 }
 }
 handleEvent
+:
+function
 (
 capturing
 event
@@ -2374,11 +2450,15 @@ event
 .
 type
 capturing
+:
+capturing
 isTrusted
 :
 event
 .
 isTrusted
+prefetched
+:
 prefetched
 }
 cpows
@@ -2413,6 +2493,8 @@ prototype
 =
 {
 uninit
+:
+function
 (
 )
 {
@@ -2424,6 +2506,8 @@ clearSandboxes
 ;
 }
 addListener
+:
+function
 (
 )
 {
@@ -2464,6 +2548,8 @@ NOTIFY_LOCATION
 ;
 }
 removeListener
+:
+function
 (
 )
 {
@@ -2499,6 +2585,8 @@ this
 ;
 }
 onLocationChange
+:
+function
 (
 webProgress
 request
@@ -2514,6 +2602,8 @@ clearSandboxes
 ;
 }
 addSandbox
+:
+function
 (
 sandbox
 )
@@ -2548,6 +2638,8 @@ sandbox
 ;
 }
 clearSandboxes
+:
+function
 (
 )
 {
@@ -2600,6 +2692,8 @@ _ready
 :
 false
 makeReady
+:
+function
 (
 )
 {
@@ -2647,6 +2741,8 @@ e
 }
 }
 init
+:
+function
 (
 global
 )
@@ -2701,6 +2797,8 @@ RegisterGlobal
 }
 {
 global
+:
+global
 }
 )
 ;
@@ -2738,6 +2836,8 @@ sandboxChild
 ;
 }
 uninit
+:
+function
 (
 perTabShims
 )
