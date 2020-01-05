@@ -24590,6 +24590,10 @@ DispatchFocusToTopLevelWindow
 true
 )
 ;
+mLastSizeMode
+=
+mSizeMode
+;
 if
 (
 mSizeMode
