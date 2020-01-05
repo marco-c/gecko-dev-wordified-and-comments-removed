@@ -400,6 +400,7 @@ zFar
 bool
 rightHanded
 )
+const
 ;
 double
 upDegrees
