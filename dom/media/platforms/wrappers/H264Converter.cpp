@@ -1157,10 +1157,6 @@ __func__
 return
 ;
 }
-mNeedKeyframe
-=
-false
-;
 mNeedAVCC
 =
 Some
@@ -1220,6 +1216,10 @@ __func__
 return
 ;
 }
+mNeedKeyframe
+=
+false
+;
 if
 (
 CanRecycleDecoder
