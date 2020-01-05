@@ -8,10 +8,6 @@ cssparser
 ;
 extern
 crate
-gecko_bindings
-;
-extern
-crate
 style
 ;
 extern
