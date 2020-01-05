@@ -190,6 +190,11 @@ TestPriorityQueue
 cpp
 '
 '
+TestRacingServiceManager
+.
+cpp
+'
+'
 TestSlicedInputStream
 .
 cpp

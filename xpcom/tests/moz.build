@@ -162,9 +162,6 @@ GeckoSimplePrograms
 TestINIParser
 '
 '
-TestRacingServiceManager
-'
-'
 TestRegistrationOrder
 '
 '
