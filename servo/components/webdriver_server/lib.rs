@@ -168,7 +168,7 @@ constellation_msg
 :
 :
 {
-NavigationDirection
+TraversalDirection
 PixelFormat
 }
 ;
@@ -3452,10 +3452,10 @@ send
 ConstellationMsg
 :
 :
-Navigate
+TraverseHistory
 (
 None
-NavigationDirection
+TraversalDirection
 :
 :
 Back
@@ -3499,10 +3499,10 @@ send
 ConstellationMsg
 :
 :
-Navigate
+TraverseHistory
 (
 None
-NavigationDirection
+TraversalDirection
 :
 :
 Forward
