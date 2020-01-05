@@ -448,6 +448,7 @@ XP_WIN
 struct
 VersionW
 {
+explicit
 VersionW
 (
 const

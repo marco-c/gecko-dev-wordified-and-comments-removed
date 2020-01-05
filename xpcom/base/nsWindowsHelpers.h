@@ -39,6 +39,7 @@ AutoCriticalSection
 {
 public
 :
+explicit
 AutoCriticalSection
 (
 LPCRITICAL_SECTION
@@ -423,6 +424,7 @@ nullptr
 )
 {
 }
+explicit
 nsSimpleRef
 (
 RawRef
@@ -613,6 +615,7 @@ nsHGLOBAL
 {
 public
 :
+MOZ_IMPLICIT
 nsHGLOBAL
 (
 HGLOBAL
@@ -690,6 +693,7 @@ nsHPRINTER
 {
 public
 :
+MOZ_IMPLICIT
 nsHPRINTER
 (
 HANDLE
