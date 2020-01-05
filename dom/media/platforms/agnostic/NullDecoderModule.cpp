@@ -54,6 +54,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >

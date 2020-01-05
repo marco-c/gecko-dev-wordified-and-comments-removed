@@ -482,6 +482,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 buffer
 aSample
 -
@@ -543,6 +547,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 +
 1
 mSampleRate
@@ -716,6 +724,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 uint32_t
 (
 frames

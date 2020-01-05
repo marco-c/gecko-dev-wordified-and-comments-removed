@@ -1052,6 +1052,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 config
 -
 >

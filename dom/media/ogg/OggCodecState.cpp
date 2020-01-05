@@ -1388,7 +1388,16 @@ sample
 >
 mDuration
 =
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 duration
+)
 ;
 sample
 -

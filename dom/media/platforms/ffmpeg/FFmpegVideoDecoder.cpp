@@ -1151,6 +1151,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 if
@@ -1403,6 +1407,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 ;
 mDurationMap
 .

@@ -432,6 +432,11 @@ sample
 >
 mDuration
 =
+TimeUnit
+:
+:
+FromMicroseconds
+(
 s
 -
 >
@@ -439,6 +444,7 @@ mCompositionRange
 .
 Length
 (
+)
 )
 ;
 sample

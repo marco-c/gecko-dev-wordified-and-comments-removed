@@ -698,6 +698,14 @@ data
 >
 mDuration
 =
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aData
 .
 base
@@ -706,6 +714,7 @@ base
 .
 duration
 (
+)
 )
 ;
 data
@@ -1000,6 +1009,10 @@ data
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 data
 -
 >

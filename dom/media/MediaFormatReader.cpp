@@ -8635,6 +8635,10 @@ sample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 decoder

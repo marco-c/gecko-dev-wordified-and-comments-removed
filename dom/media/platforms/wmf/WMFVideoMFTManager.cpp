@@ -3340,6 +3340,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 ;
 mLastTime
 =
@@ -4952,10 +4956,6 @@ aOutData
 mDuration
 =
 duration
-.
-ToMicroseconds
-(
-)
 ;
 if
 (

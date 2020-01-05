@@ -407,6 +407,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >
@@ -639,6 +643,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 USECS_PER_S
 )
 ;
