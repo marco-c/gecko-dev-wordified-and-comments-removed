@@ -3568,7 +3568,6 @@ lock
 )
 ;
 let
-mut
 local_image_cache
 =
 unsafe
