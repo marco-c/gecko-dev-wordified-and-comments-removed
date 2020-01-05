@@ -877,6 +877,8 @@ PVsyncBridgeParent
 aVsyncEndpoint
 )
 {
+mVsyncBridge
+=
 VsyncBridgeParent
 :
 :
@@ -1609,6 +1611,10 @@ mVsyncBridge
 Shutdown
 (
 )
+;
+mVsyncBridge
+=
+nullptr
 ;
 }
 CompositorThreadHolder

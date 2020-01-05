@@ -115,6 +115,11 @@ PVsyncBridgeParent
 aEndpoint
 )
 ;
+void
+ShutdownImpl
+(
+)
+;
 private
 :
 bool
