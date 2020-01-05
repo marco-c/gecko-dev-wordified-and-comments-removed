@@ -3,14 +3,6 @@
 [
 feature
 (
-alloc
-)
-]
-#
-!
-[
-feature
-(
 append
 )
 ]
@@ -195,10 +187,6 @@ util
 extern
 crate
 rustc_serialize
-;
-extern
-crate
-alloc
 ;
 extern
 crate

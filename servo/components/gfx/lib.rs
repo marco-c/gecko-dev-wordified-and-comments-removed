@@ -3,14 +3,6 @@
 [
 feature
 (
-alloc
-)
-]
-#
-!
-[
-feature
-(
 arc_weak
 )
 ]
@@ -117,10 +109,6 @@ macro_use
 extern
 crate
 log
-;
-extern
-crate
-alloc
 ;
 extern
 crate
