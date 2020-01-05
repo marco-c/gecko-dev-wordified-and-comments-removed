@@ -142,6 +142,10 @@ PServiceWorkerManager
 ;
 include
 protocol
+PWebAuthnTransaction
+;
+include
+protocol
 PUDPSocket
 ;
 include
@@ -322,6 +326,9 @@ manages
 PServiceWorkerManager
 ;
 manages
+PWebAuthnTransaction
+;
+manages
 PUDPSocket
 ;
 manages
@@ -488,6 +495,11 @@ PMemoryStream
 (
 uint64_t
 aSize
+)
+;
+async
+PWebAuthnTransaction
+(
 )
 ;
 child
