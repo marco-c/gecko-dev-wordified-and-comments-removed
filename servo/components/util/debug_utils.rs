@@ -60,7 +60,7 @@ stderr
 ;
 stderr
 .
-write
+write_all
 (
 b
 "
@@ -107,7 +107,7 @@ uint
 ;
 stderr
 .
-write
+write_all
 (
 output
 .
@@ -131,7 +131,7 @@ i
 {
 stderr
 .
-write
+write_all
 (
 b
 "
@@ -151,7 +151,7 @@ unwrap
 {
 stderr
 .
-write
+write_all
 (
 b
 "
@@ -182,7 +182,7 @@ unwrap
 }
 stderr
 .
-write
+write_all
 (
 b
 "
@@ -246,9 +246,8 @@ from_buf
 slice
 :
 :
-from_raw_buf
+from_raw_parts
 (
-&
 buf
 size_of
 :

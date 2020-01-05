@@ -244,7 +244,6 @@ DList
 <
 DisplayItem
 >
-mut
 display_items
 :
 I
@@ -338,7 +337,6 @@ Arc
 StackingContext
 >
 >
-mut
 stacking_contexts
 :
 I

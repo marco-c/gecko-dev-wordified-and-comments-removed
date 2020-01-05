@@ -397,7 +397,7 @@ bitflags
 [
 derive
 (
-Show
+Debug
 )
 ]
 flags

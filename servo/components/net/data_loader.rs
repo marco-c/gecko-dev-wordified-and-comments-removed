@@ -328,10 +328,11 @@ true
 ;
 ct_str
 =
+&
 ct_str
+[
 .
-slice_to
-(
+.
 ct_str
 .
 as_bytes
@@ -343,7 +344,7 @@ len
 )
 -
 7
-)
+]
 ;
 }
 let

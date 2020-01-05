@@ -65,7 +65,7 @@ fmt
 :
 {
 Formatter
-Show
+Debug
 }
 ;
 use
@@ -106,7 +106,7 @@ Ord
 PartialEq
 PartialOrd
 Clone
-Show
+Debug
 Copy
 )
 ]
@@ -125,7 +125,7 @@ derive
 (
 PartialEq
 Eq
-Show
+Debug
 Copy
 )
 ]
@@ -189,7 +189,7 @@ uint
 )
 ;
 impl
-Show
+Debug
 for
 LayerId
 {

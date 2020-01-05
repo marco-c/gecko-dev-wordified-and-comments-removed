@@ -267,13 +267,15 @@ mut
 T
 ]
 {
+&
+mut
 self
-.
-slice_mut
-(
+[
 start
+.
+.
 end
-)
+]
 }
 }
 pub
@@ -2600,7 +2602,6 @@ T
 >
 >
 (
-mut
 iter
 :
 I
@@ -2694,7 +2695,6 @@ T
 &
 mut
 self
-mut
 iter
 :
 I

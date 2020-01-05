@@ -1,9 +1,9 @@
 #
 !
 [
-allow
+feature
 (
-missing_copy_implementations
+core
 )
 ]
 #
@@ -11,7 +11,7 @@ missing_copy_implementations
 [
 allow
 (
-unstable
+missing_copy_implementations
 )
 ]
 extern

@@ -1,8 +1,3 @@
-#
-!
-[
-experimental
-]
 pub
 use
 self

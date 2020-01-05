@@ -633,9 +633,9 @@ ends_with
 )
 {
 request_path
+[
 .
-slice_to
-(
+.
 request_path
 .
 len
@@ -643,7 +643,7 @@ len
 )
 -
 1
-)
+]
 .
 to_owned
 (

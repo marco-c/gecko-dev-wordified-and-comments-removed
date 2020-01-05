@@ -1585,12 +1585,13 @@ blue
 )
 =
 (
+&
 input
+[
 .
-slice_to
-(
+.
 length
-)
+]
 &
 input
 [
