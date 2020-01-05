@@ -839,7 +839,12 @@ mDiscardable
 1
 ;
 bool
-mHasSourceData
+mSomeSourceData
+:
+1
+;
+bool
+mAllSourceData
 :
 1
 ;
