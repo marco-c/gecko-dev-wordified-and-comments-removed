@@ -320,7 +320,7 @@ unicode_bidi
 [
 derive
 (
-RustcEncodable
+Serialize
 Debug
 Clone
 )
@@ -579,7 +579,7 @@ int_range_index
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 #
@@ -3639,7 +3639,7 @@ FragmentIndex
 [
 derive
 (
-RustcEncodable
+Serialize
 Clone
 )
 ]
@@ -3769,7 +3769,7 @@ index
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -9100,7 +9100,7 @@ derive
 Clone
 Copy
 Debug
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -9267,7 +9267,7 @@ derive
 Copy
 Clone
 Debug
-RustcEncodable
+Serialize
 )
 ]
 pub

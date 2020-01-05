@@ -1411,7 +1411,7 @@ AccumulatingMarginIn
 [
 derive
 (
-RustcEncodable
+Serialize
 Copy
 Clone
 )

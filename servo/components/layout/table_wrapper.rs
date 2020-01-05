@@ -230,7 +230,7 @@ derive
 (
 Copy
 Clone
-RustcEncodable
+Serialize
 Debug
 )
 ]
@@ -245,7 +245,7 @@ Auto
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub

@@ -91,7 +91,7 @@ LengthOrPercentageOrAuto
 derive
 (
 Clone
-RustcEncodable
+Serialize
 Debug
 Copy
 )

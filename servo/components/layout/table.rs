@@ -246,7 +246,7 @@ TableLayout
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -2776,7 +2776,7 @@ Au
 derive
 (
 Clone
-RustcEncodable
+Serialize
 Debug
 Copy
 )
@@ -2878,7 +2878,7 @@ percentage
 [
 derive
 (
-RustcEncodable
+Serialize
 Clone
 Copy
 Debug

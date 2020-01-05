@@ -201,7 +201,7 @@ CollapsedBorderProvenance
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -1621,7 +1621,7 @@ derive
 Copy
 Clone
 Debug
-RustcEncodable
+Serialize
 )
 ]
 pub
