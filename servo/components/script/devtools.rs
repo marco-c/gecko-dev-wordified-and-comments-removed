@@ -1360,11 +1360,8 @@ element
 for
 modification
 in
+&
 modifications
-.
-iter
-(
-)
 {
 match
 modification

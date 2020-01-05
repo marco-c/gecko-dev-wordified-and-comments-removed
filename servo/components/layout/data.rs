@@ -295,15 +295,12 @@ inline_fragments
 for
 fragment
 in
+&
 inline_fragments
 .
 fragments
 .
 fragments
-.
-iter
-(
-)
 {
 fragment
 .

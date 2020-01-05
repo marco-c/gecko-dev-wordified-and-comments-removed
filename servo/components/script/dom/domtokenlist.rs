@@ -852,11 +852,8 @@ local_name
 for
 token
 in
+&
 tokens
-.
-iter
-(
-)
 {
 let
 token
@@ -990,11 +987,8 @@ local_name
 for
 token
 in
+&
 tokens
-.
-iter
-(
-)
 {
 let
 token

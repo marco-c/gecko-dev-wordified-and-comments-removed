@@ -2218,13 +2218,10 @@ vec
 for
 fragment
 in
+&
 fragments
 .
 fragments
-.
-iter
-(
-)
 {
 match
 fragment
@@ -2430,11 +2427,8 @@ flow
 for
 inline_block_flow
 in
+&
 inline_block_flows
-.
-iter
-(
-)
 {
 inline_flow_ref
 .

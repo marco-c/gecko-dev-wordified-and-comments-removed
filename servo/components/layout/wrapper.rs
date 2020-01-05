@@ -3267,11 +3267,8 @@ classes
 for
 class
 in
+*
 classes
-.
-iter
-(
-)
 {
 callback
 (

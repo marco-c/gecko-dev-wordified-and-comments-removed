@@ -294,13 +294,10 @@ debug_id
 for
 fragment
 in
+&
 self
 .
 cols
-.
-iter
-(
-)
 {
 let
 inline_size

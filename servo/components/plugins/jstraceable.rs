@@ -658,10 +658,6 @@ span
 }
 in
 fields
-.
-iter
-(
-)
 {
 stmts
 .

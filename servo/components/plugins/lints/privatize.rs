@@ -140,13 +140,10 @@ privatize
 for
 field
 in
+&
 def
 .
 fields
-.
-iter
-(
-)
 {
 match
 field

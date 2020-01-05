@@ -11275,15 +11275,13 @@ false
 for
 fragment
 in
+&
+mut
 self
 .
 fragments
 .
 fragments
-.
-iter_mut
-(
-)
 {
 fragment
 .

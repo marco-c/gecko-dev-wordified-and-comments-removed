@@ -759,13 +759,10 @@ new
 for
 column_intrinsic_inline_size
 in
+&
 self
 .
 column_intrinsic_inline_sizes
-.
-iter
-(
-)
 {
 info
 .

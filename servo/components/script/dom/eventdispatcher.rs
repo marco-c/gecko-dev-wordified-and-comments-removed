@@ -346,11 +346,8 @@ cur_target
 for
 listener
 in
+&
 listeners
-.
-iter
-(
-)
 {
 let
 _
@@ -545,11 +542,8 @@ cur_target
 for
 listener
 in
+&
 listeners
-.
-iter
-(
-)
 {
 let
 _

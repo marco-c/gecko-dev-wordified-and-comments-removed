@@ -384,11 +384,9 @@ _
 running_animations
 )
 in
+&
+mut
 running_animations
-.
-iter_mut
-(
-)
 {
 running_animations
 .
@@ -608,11 +606,8 @@ id
 for
 animation
 in
+*
 animations
-.
-iter
-(
-)
 {
 let
 now

@@ -5520,11 +5520,8 @@ all_display_items
 for
 item
 in
+&
 all_items
-.
-iter
-(
-)
 {
 let
 paint_bounds

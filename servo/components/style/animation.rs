@@ -5174,10 +5174,6 @@ iter
 zip
 (
 to_list
-.
-iter
-(
-)
 )
 {
 match
@@ -5383,10 +5379,6 @@ iter
 zip
 (
 to_list
-.
-iter
-(
-)
 )
 {
 match
