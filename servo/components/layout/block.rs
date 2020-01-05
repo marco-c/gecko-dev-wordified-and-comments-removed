@@ -8512,7 +8512,6 @@ enumerate
 {
 {
 let
-mut
 kid_base
 =
 flow
