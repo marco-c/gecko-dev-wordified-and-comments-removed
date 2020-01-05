@@ -983,6 +983,7 @@ aBeforeFunc
 yield
 aBeforeFunc
 (
+aMode
 )
 ;
 }
