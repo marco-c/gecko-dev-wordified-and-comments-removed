@@ -208,8 +208,6 @@ const
 nsRect
 &
 aCurrentFrameOverflowArea
-bool
-aCheckPreEffectsBBoxPropCache
 )
 :
 mFirstContinuation
@@ -223,10 +221,6 @@ aCurrentFrame
 mCurrentFrameOverflowArea
 (
 aCurrentFrameOverflowArea
-)
-mCheckPreEffectsBBoxPropCache
-(
-aCheckPreEffectsBBoxPropCache
 )
 {
 NS_ASSERTION
@@ -274,7 +268,6 @@ mCurrentFrameOverflowArea
 GetPreEffectsVisualOverflowRect
 (
 aFrame
-mCheckPreEffectsBBoxPropCache
 )
 ;
 mResult
@@ -313,8 +306,6 @@ GetPreEffectsVisualOverflowRect
 nsIFrame
 *
 aFrame
-bool
-aCheckPropCache
 )
 {
 nsRect
@@ -432,9 +423,6 @@ mCurrentFrameOverflowArea
 nsRect
 mResult
 ;
-bool
-mCheckPreEffectsBBoxPropCache
-;
 }
 ;
 static
@@ -455,8 +443,6 @@ const
 nsPoint
 &
 aFirstContinuationToUserSpace
-bool
-aCheckPreEffectsBBoxPropCache
 )
 {
 NS_ASSERTION
@@ -482,7 +468,6 @@ collector
 aFirstContinuation
 aCurrentFrame
 aCurrentFramePreEffectsOverflow
-aCheckPreEffectsBBoxPropCache
 )
 ;
 nsLayoutUtils
@@ -871,7 +856,6 @@ GetOffsetToBoundingBox
 (
 firstFrame
 )
-true
 )
 ;
 return
@@ -998,7 +982,6 @@ firstFrame
 aFrame
 aPreEffectsOverflowRect
 firstFrameToBoundingBox
-false
 )
 aFrame
 -
