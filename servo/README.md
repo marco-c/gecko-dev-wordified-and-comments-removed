@@ -106,6 +106,7 @@ autoconf2
 freeglut3
 -
 dev
+libtool
 Servo
 builds
 its
