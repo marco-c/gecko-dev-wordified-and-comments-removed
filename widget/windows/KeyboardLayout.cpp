@@ -12440,7 +12440,7 @@ IsKeyDownMessage
 )
 |
 |
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 mMsg
 )
@@ -12448,7 +12448,7 @@ mMsg
 ;
 MOZ_ASSERT
 (
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 aCharMsg
 .
@@ -12469,7 +12469,7 @@ false
 }
 if
 (
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 mMsg
 )
