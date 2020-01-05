@@ -80,8 +80,11 @@ i
 )
 ;
 }
-function
+window
+.
 startRecursion
+=
+function
 (
 )
 {
