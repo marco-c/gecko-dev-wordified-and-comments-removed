@@ -90,8 +90,9 @@ Generate
 (
 )
 ;
-CERTCertificate
-*
+const
+UniqueCERTCertificate
+&
 cert
 (
 )
@@ -147,8 +148,8 @@ nsresult
 ComputeFingerprint
 (
 const
-CERTCertificate
-*
+UniqueCERTCertificate
+&
 cert
 const
 std
@@ -191,7 +192,8 @@ private
 DtlsIdentity
 (
 )
-;
+{
+}
 DISALLOW_COPY_ASSIGN
 (
 DtlsIdentity
@@ -200,8 +202,7 @@ DtlsIdentity
 ScopedSECKEYPrivateKey
 private_key_
 ;
-CERTCertificate
-*
+UniqueCERTCertificate
 cert_
 ;
 SSLKEAType

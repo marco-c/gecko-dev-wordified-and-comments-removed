@@ -373,7 +373,7 @@ mExpires
 SSLKEAType
 mAuthType
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 mCertificate
 ;
 SECOidTag
@@ -809,6 +809,10 @@ arena
 &
 innerDER
 mCertificate
+.
+get
+(
+)
 SEC_ASN1_GET
 (
 CERT_CertificateTemplate
@@ -1109,6 +1113,10 @@ cert
 CERT_DupCertificate
 (
 mCertificate
+.
+get
+(
+)
 )
 ;
 RefPtr
@@ -1423,6 +1431,10 @@ key
 SECKEY_CopyPrivateKey
 (
 mPrivateKey
+.
+get
+(
+)
 )
 ;
 CERTCertificate
@@ -1432,6 +1444,10 @@ cert
 CERT_DupCertificate
 (
 mCertificate
+.
+get
+(
+)
 )
 ;
 RefPtr
@@ -1508,13 +1524,13 @@ destructorSafeDestroyNSSReference
 {
 mPrivateKey
 .
-dispose
+reset
 (
 )
 ;
 mCertificate
 .
-dispose
+reset
 (
 )
 ;
@@ -1547,6 +1563,10 @@ CryptoKey
 PrivateKeyToJwk
 (
 mPrivateKey
+.
+get
+(
+)
 jwk
 aLockProof
 )
@@ -1809,7 +1829,9 @@ false
 ;
 }
 mPrivateKey
-=
+.
+reset
+(
 CryptoKey
 :
 :
@@ -1817,6 +1839,7 @@ PrivateKeyFromJwk
 (
 jwk
 aLockProof
+)
 )
 ;
 return
@@ -1891,7 +1914,9 @@ Length
 }
 ;
 mCertificate
-=
+.
+reset
+(
 CERT_NewTempCertificate
 (
 CERT_GetDefaultCertDB
@@ -1902,6 +1927,7 @@ der
 nullptr
 true
 true
+)
 )
 ;
 return

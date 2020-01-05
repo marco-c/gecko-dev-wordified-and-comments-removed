@@ -247,8 +247,9 @@ CreateDtlsIdentity
 )
 const
 ;
-CERTCertificate
-*
+const
+UniqueCERTCertificate
+&
 Certificate
 (
 )
@@ -368,10 +369,10 @@ nsIGlobalObject
 >
 mGlobal
 ;
-ScopedSECKEYPrivateKey
+UniqueSECKEYPrivateKey
 mPrivateKey
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 mCertificate
 ;
 SSLKEAType
