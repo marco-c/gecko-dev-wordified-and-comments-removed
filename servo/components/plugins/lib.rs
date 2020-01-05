@@ -378,7 +378,7 @@ clippy
 fn
 register_clippy
 (
-reg
+_reg
 :
 &
 mut
