@@ -1634,10 +1634,6 @@ reftest
 \
 talos
 \
-web
--
-platform
-\
 xpcshell
 \
 (

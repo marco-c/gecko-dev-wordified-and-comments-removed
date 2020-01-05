@@ -37,12 +37,6 @@ mozbase
 '
     
 '
-web
--
-platform
-'
-    
-'
 talos
 '
     
@@ -68,12 +62,6 @@ reftest
     
 '
 xpcshell
-'
-    
-'
-web
--
-platform
 '
     
 '
