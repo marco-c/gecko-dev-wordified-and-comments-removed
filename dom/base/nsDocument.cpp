@@ -13366,8 +13366,10 @@ Animation
 aAnimations
 )
 {
+RefPtr
+<
 Element
-*
+>
 root
 =
 GetRootElement
