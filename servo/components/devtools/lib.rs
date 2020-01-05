@@ -24,6 +24,7 @@ feature
 int_uint
 box_syntax
 io
+old_io
 core
 rustc_private
 )

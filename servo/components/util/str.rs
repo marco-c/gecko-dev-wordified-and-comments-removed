@@ -45,7 +45,7 @@ std
 ffi
 :
 :
-c_str_to_bytes
+CStr
 ;
 use
 std
@@ -77,7 +77,6 @@ str
 :
 {
 from_utf8
-CharEq
 FromStr
 Split
 }
@@ -2059,10 +2058,16 @@ String
 {
 from_utf8
 (
-c_str_to_bytes
+CStr
+:
+:
+from_ptr
 (
-&
 s
+)
+.
+to_bytes
+(
 )
 )
 .

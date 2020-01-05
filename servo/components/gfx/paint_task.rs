@@ -2539,6 +2539,10 @@ main
 ;
 }
 )
+.
+unwrap
+(
+)
 ;
 WorkerThreadProxy
 {

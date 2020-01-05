@@ -3,14 +3,6 @@
 [
 feature
 (
-hash
-)
-]
-#
-!
-[
-feature
-(
 int_uint
 )
 ]
