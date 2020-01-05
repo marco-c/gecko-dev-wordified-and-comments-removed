@@ -641,6 +641,12 @@ IsPannable
 const
 ;
 bool
+IsScrollInfoLayer
+(
+)
+const
+;
+bool
 IsFlingingFast
 (
 )
