@@ -1808,11 +1808,6 @@ hadError
 :
 1
 ;
-bool
-hitOOM
-:
-1
-;
 Flags
 (
 )
@@ -1827,9 +1822,6 @@ sawOctalEscape
 (
 )
 hadError
-(
-)
-hitOOM
 (
 )
 {
@@ -3991,7 +3983,9 @@ getCharIgnoreEOL
 ;
 }
 }
-void
+MOZ_MUST_USE
+MOZ_ALWAYS_INLINE
+bool
 updateLineInfoForEOL
 (
 )
