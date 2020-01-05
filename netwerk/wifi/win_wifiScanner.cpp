@@ -34,6 +34,7 @@ InterfaceScanCallbackData
 {
 public
 :
+explicit
 InterfaceScanCallbackData
 (
 uint32_t
