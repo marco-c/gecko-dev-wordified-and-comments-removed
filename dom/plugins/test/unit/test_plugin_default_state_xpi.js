@@ -504,6 +504,10 @@ registerProvider
 provider
 )
 ;
+dirSvc
+=
+null
+;
 restartManager
 (
 )
