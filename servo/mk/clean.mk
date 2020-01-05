@@ -217,6 +217,10 @@ dylib
 libutil
 *
 .
+rlib
+libutil
+*
+.
 dSYM
 libutil
 *
@@ -260,6 +264,10 @@ libmsg
 *
 .
 dylib
+libmsg
+*
+.
+rlib
 libmsg
 *
 .
@@ -309,6 +317,10 @@ dylib
 libnet
 *
 .
+rlib
+libnet
+*
+.
 dSYM
 libnet
 *
@@ -355,6 +367,10 @@ dylib
 libgfx
 *
 .
+rlib
+libgfx
+*
+.
 dSYM
 libgfx
 *
@@ -398,6 +414,10 @@ libscript
 *
 .
 dylib
+libscript
+*
+.
+rlib
 libscript
 *
 .
@@ -468,6 +488,10 @@ dylib
 libstyle
 *
 .
+rlib
+libstyle
+*
+.
 dSYM
 libstyle
 *
@@ -534,6 +558,10 @@ libservo
 *
 .
 so
+libservo
+*
+.
+a
 (
 Q
 )
