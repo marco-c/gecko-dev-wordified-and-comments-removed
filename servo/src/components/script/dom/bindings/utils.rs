@@ -462,6 +462,13 @@ js
 ;
 #
 [
+allow
+(
+raw_pointer_deriving
+)
+]
+#
+[
 deriving
 (
 Encodable
