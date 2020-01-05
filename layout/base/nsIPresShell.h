@@ -2760,6 +2760,9 @@ mActiveState
 bool
 mPrimaryState
 ;
+bool
+mPreventMouseEventByContent
+;
 explicit
 PointerInfo
 (
@@ -2782,6 +2785,10 @@ aActiveState
 mPrimaryState
 (
 aPrimaryState
+)
+mPreventMouseEventByContent
+(
+false
 )
 {
 }
