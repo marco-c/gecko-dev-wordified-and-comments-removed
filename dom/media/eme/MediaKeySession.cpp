@@ -697,7 +697,7 @@ s
 s
 )
 "
-ToBase64
+ToHexString
 (
 status
 .
@@ -1516,9 +1516,9 @@ mKeySystem
 )
 ;
 nsAutoCString
-base64InitData
+hexInitData
 (
-ToBase64
+ToHexString
 (
 data
 )
@@ -1588,9 +1588,6 @@ promiseId
 %
 d
 initData
-(
-base64
-)
 =
 '
 %
@@ -1613,7 +1610,7 @@ get
 (
 )
 pid
-base64InitData
+hexInitData
 .
 get
 (
@@ -2342,9 +2339,9 @@ forget
 ;
 }
 nsAutoCString
-base64Response
+hexResponse
 (
-ToBase64
+ToHexString
 (
 data
 )
@@ -2401,9 +2398,6 @@ promiseId
 %
 d
 Response
-(
-base64
-)
 =
 '
 %
@@ -2420,7 +2414,7 @@ get
 (
 )
 pid
-base64Response
+hexResponse
 .
 get
 (
@@ -3196,9 +3190,6 @@ type
 %
 s
 message
-(
-base64
-)
 =
 '
 %
@@ -3226,7 +3217,7 @@ aMessageType
 ]
 .
 value
-ToBase64
+ToHexString
 (
 aMessage
 )
