@@ -39,8 +39,11 @@ separators
 :
 '
 )
-             
 strict
+=
+True
+             
+handle_defaults
 =
 True
 )
@@ -143,6 +146,17 @@ be
 strict
 about
 parsing
+    
+-
+handle_defaults
+:
+whether
+to
+incorporate
+defaults
+into
+each
+section
     
 "
 "
@@ -637,6 +651,14 @@ global_dict
 local_dict
 )
 :
+        
+if
+not
+handle_defaults
+:
+            
+return
+local_dict
         
 variables
 =
