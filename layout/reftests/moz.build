@@ -2510,9 +2510,9 @@ BUG_COMPONENT
 Core
 '
 '
-Video
-/
 Audio
+/
+Video
 '
 )
 with
@@ -3790,9 +3790,9 @@ BUG_COMPONENT
 Core
 '
 '
-Video
-/
 Audio
+/
+Video
 '
 )
 with

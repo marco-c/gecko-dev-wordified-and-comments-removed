@@ -560,9 +560,9 @@ BUG_COMPONENT
 Core
 '
 '
-Video
-/
 Audio
+/
+Video
 '
 )
 with
