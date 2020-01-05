@@ -588,10 +588,6 @@ AutoEnterCycleCollection
 #
 ifdef
 DEBUG
-JSRuntime
-*
-runtime
-;
 public
 :
 explicit
