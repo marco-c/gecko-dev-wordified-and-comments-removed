@@ -30549,7 +30549,6 @@ AssertIsOnIOThread
 nsresult
 rv
 ;
-{
 if
 (
 mPersistent
@@ -31068,7 +31067,6 @@ rv
 ;
 }
 }
-}
 return
 NS_OK
 ;
@@ -31475,7 +31473,6 @@ AssertIsOnIOThread
 (
 )
 ;
-{
 nsresult
 rv
 ;
@@ -31646,7 +31643,6 @@ rv
 return
 rv
 ;
-}
 }
 }
 return
@@ -32448,7 +32444,6 @@ AssertIsOnIOThread
 (
 )
 ;
-{
 nsresult
 rv
 ;
@@ -32538,7 +32533,6 @@ rv
 return
 rv
 ;
-}
 }
 }
 return
