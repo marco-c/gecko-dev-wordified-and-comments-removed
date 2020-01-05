@@ -231,9 +231,6 @@ float
 "
 parking_lot
 =
-{
-version
-=
 "
 0
 .
@@ -241,14 +238,6 @@ version
 .
 3
 "
-features
-=
-[
-"
-nightly
-"
-]
-}
 plugins
 =
 {

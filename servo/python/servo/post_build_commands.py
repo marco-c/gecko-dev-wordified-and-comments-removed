@@ -390,6 +390,14 @@ RUST_BACKTRACE
 "
         
 if
+debugger
+:
+            
+debug
+=
+True
+        
+if
 android
 is
 None

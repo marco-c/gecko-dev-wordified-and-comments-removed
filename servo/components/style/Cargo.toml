@@ -127,11 +127,6 @@ heap_size
 "
 plugins
 "
-"
-parking_lot
-/
-nightly
-"
 ]
 testing
 =
