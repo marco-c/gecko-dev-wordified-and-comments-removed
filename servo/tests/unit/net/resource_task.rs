@@ -72,6 +72,10 @@ url
 :
 Url
 ;
+#
+[
+test
+]
 fn
 test_exit
 (
@@ -106,6 +110,10 @@ unwrap
 )
 ;
 }
+#
+[
+test
+]
 fn
 test_bad_scheme
 (
