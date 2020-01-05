@@ -1,13 +1,6 @@
 #
 include
 "
-SkArenaAlloc
-.
-h
-"
-#
-include
-"
 SkFloatBits
 .
 h
@@ -1244,7 +1237,7 @@ SkOpGlobalState
 SkOpContourHead
 *
 head
-SkArenaAlloc
+SkChunkAlloc
 *
 allocator
 SkDEBUGPARAMS

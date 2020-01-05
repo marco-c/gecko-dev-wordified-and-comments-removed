@@ -118,6 +118,9 @@ RunRecord
 *
 fCurrentRun
 ;
+int
+fRemainingRuns
+;
 SkDEBUGCODE
 (
 uint8_t

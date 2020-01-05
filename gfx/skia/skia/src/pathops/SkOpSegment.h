@@ -974,9 +974,6 @@ DEBUG_ACTIVE_SPANS
 void
 debugShowActiveSpans
 (
-SkString
-*
-str
 )
 const
 ;
@@ -1831,7 +1828,7 @@ moveMultiples
 (
 )
 ;
-bool
+void
 moveNearby
 (
 )
@@ -2115,7 +2112,7 @@ SkOpRayHit
 *
 *
 hits
-SkArenaAlloc
+SkChunkAlloc
 *
 )
 ;
@@ -2292,7 +2289,7 @@ int
 oppSumWinding
 )
 ;
-bool
+void
 sortAngles
 (
 )
@@ -2308,9 +2305,6 @@ const
 SkOpSpanBase
 *
 check
-bool
-*
-found
 )
 const
 ;
@@ -2496,10 +2490,17 @@ opp
 )
 const
 ;
-SkOpSpan
-*
+void
 undoneSpan
 (
+SkOpSpanBase
+*
+*
+start
+SkOpSpanBase
+*
+*
+end
 )
 ;
 int

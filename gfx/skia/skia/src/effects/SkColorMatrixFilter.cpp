@@ -79,10 +79,13 @@ MakeModeFilter
 mul
 |
 opaqueAlphaMask
-SkBlendMode
+SkXfermode
 :
 :
-kModulate
+Mode
+:
+:
+kModulate_Mode
 )
 ;
 }

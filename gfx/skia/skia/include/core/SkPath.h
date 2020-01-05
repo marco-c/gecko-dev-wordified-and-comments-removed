@@ -798,12 +798,6 @@ getBounds
 )
 ;
 }
-SkRect
-computeTightBounds
-(
-)
-const
-;
 bool
 conservativelyContainsRect
 (
@@ -2302,7 +2296,7 @@ kCurrent_Version
 2
 }
 ;
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >
@@ -2326,6 +2320,7 @@ sk_memory_order_relaxed
 >
 fFirstDirection
 ;
+mutable
 SkBool8
 fIsVolatile
 ;
@@ -2484,14 +2479,6 @@ SkAutoDisableOvalCheck
 friend
 class
 SkAutoDisableDirectionCheck
-;
-friend
-class
-SkPathWriter
-;
-friend
-class
-SkOpBuilder
 ;
 friend
 class

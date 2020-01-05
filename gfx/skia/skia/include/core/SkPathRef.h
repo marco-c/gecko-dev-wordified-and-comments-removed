@@ -96,7 +96,7 @@ public
 :
 Editor
 (
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >
@@ -702,7 +702,7 @@ static
 void
 CreateTransformedCopy
 (
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >
@@ -732,7 +732,7 @@ static
 void
 Rewind
 (
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >

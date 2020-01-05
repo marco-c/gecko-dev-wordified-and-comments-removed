@@ -101,7 +101,10 @@ analyzeClipPath
 const
 SkPath
 &
-SkClipOp
+SkCanvas
+:
+:
+ClipOp
 bool
 doAntiAlias
 )

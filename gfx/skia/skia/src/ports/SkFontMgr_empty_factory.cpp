@@ -5,10 +5,8 @@ SkFontMgr
 .
 h
 "
-sk_sp
-<
 SkFontMgr
->
+*
 SkFontMgr
 :
 :

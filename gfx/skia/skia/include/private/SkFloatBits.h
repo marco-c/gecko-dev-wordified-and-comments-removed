@@ -13,11 +13,11 @@ h
 "
 #
 include
-"
-SkSafe_math
+<
+math
 .
 h
-"
+>
 static
 inline
 int32_t

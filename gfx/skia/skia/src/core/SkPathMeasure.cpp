@@ -3676,6 +3676,7 @@ t
 =
 startT
 +
+SkScalarMulDiv
 (
 seg
 -
@@ -3685,15 +3686,9 @@ getScalarT
 )
 -
 startT
-)
-*
-(
 distance
 -
 startD
-)
-/
-(
 seg
 -
 >

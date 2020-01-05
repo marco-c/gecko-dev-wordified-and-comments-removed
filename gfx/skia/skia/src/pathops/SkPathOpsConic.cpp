@@ -963,12 +963,6 @@ cy
 cz
 }
 }
-SkDEBUGPARAMS
-(
-fPts
-.
-fDebugGlobalState
-)
 }
 SkDoubleToScalar
 (

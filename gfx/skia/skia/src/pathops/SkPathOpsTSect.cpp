@@ -31,7 +31,7 @@ sect1
 quad1
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -51,7 +51,7 @@ sect2
 quad2
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -109,7 +109,7 @@ sect1
 conic
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -129,7 +129,7 @@ sect2
 quad
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -187,7 +187,7 @@ sect1
 conic1
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -207,7 +207,7 @@ sect2
 conic2
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -265,7 +265,7 @@ sect1
 cubic
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -285,7 +285,7 @@ sect2
 quad
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -343,7 +343,7 @@ sect1
 cubic
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -363,7 +363,7 @@ sect2
 conic
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -421,7 +421,7 @@ sect1
 cubic1
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )
@@ -441,7 +441,7 @@ sect2
 cubic2
 SkDEBUGPARAMS
 (
-globalState
+debugGlobalState
 (
 )
 )

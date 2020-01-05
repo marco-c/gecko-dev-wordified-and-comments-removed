@@ -33,11 +33,11 @@ SkGpuDevice
 >
 )
 ;
+virtual
 ~
 SkSurface_Gpu
 (
 )
-override
 ;
 GrBackendObject
 onGetTextureHandle
@@ -80,6 +80,8 @@ SkImage
 >
 onNewImageSnapshot
 (
+SkBudgeted
+SkCopyPixelsMode
 )
 override
 ;

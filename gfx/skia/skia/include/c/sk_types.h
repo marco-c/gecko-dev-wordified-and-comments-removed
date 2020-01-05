@@ -277,7 +277,6 @@ SK_API
 sk_colortype_t
 sk_colortype_get_default_8888
 (
-void
 )
 ;
 typedef

@@ -88,9 +88,6 @@ transformToNormalizedDeviceSpace
 gpArgs
 .
 fPositionVar
-args
-.
-fRTAdjustName
 )
 ;
 if
@@ -227,11 +224,15 @@ kVec3f_GrSLType
 :
 kVec2f_GrSLType
 ;
-const
 GrSLPrecision
 precision
 =
-kHigh_GrSLPrecision
+coordTransform
+-
+>
+precision
+(
+)
 ;
 const
 char
@@ -716,6 +717,7 @@ vec2
 %
 s
 =
+vec2
 (
 %
 s
@@ -727,8 +729,6 @@ s
 1
 )
 )
-.
-xy
 ;
 "
 gpArgs

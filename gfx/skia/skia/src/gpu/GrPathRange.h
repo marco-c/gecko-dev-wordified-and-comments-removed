@@ -596,7 +596,7 @@ kPathsPerGroup
 }
 ;
 mutable
-sk_sp
+SkAutoTUnref
 <
 PathGenerator
 >

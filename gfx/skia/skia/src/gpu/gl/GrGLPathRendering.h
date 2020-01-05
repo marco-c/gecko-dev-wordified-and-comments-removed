@@ -21,13 +21,6 @@ h
 #
 include
 "
-GrStencilSettings
-.
-h
-"
-#
-include
-"
 gl
 /
 GrGLTypes
@@ -50,6 +43,9 @@ class
 GrGLGpu
 ;
 class
+GrStencilSettings
+;
+class
 GrStyle
 ;
 class
@@ -67,11 +63,11 @@ GrGLGpu
 gpu
 )
 ;
+virtual
 ~
 GrGLPathRendering
 (
 )
-override
 ;
 GrPath
 *

@@ -42,11 +42,11 @@ aspectRatio
 1
 )
 ;
+virtual
 ~
 SkRTree
 (
 )
-override
 {
 }
 void

@@ -305,7 +305,6 @@ color
 0xFF
 )
 static
-constexpr
 inline
 SkColor
 SkColorSetA

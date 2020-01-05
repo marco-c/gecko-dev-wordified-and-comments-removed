@@ -7,7 +7,7 @@ SkFontMgr_fontconfig_DEFINED
 #
 include
 "
-SkRefCnt
+SkTypes
 .
 h
 "
@@ -24,10 +24,8 @@ class
 SkFontMgr
 ;
 SK_API
-sk_sp
-<
 SkFontMgr
->
+*
 SkFontMgr_New_FontConfig
 (
 FcConfig

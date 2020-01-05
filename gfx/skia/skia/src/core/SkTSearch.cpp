@@ -7,13 +7,6 @@ h
 "
 #
 include
-"
-SkMalloc
-.
-h
-"
-#
-include
 <
 ctype
 .

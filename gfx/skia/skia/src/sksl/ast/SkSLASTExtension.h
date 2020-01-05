@@ -24,7 +24,10 @@ ASTExtension
 (
 Position
 position
-String
+std
+:
+:
+string
 name
 )
 :
@@ -45,7 +48,10 @@ name
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )
@@ -67,7 +73,10 @@ enable
 ;
 }
 const
-String
+std
+:
+:
+string
 fName
 ;
 typedef

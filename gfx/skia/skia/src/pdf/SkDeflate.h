@@ -39,7 +39,6 @@ false
 SkDeflateWStream
 (
 )
-override
 ;
 void
 finalize

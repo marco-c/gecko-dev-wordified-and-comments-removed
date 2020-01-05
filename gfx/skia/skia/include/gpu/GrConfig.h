@@ -447,4 +447,17 @@ bug
 "
 )
 #
+if
+!
+defined
+(
+GR_ENABLE_PLS_PATH_RENDERING
+)
+#
+define
+GR_ENABLE_PLS_PATH_RENDERING
+0
+#
+endif
+#
 endif
