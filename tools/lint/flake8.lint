@@ -894,6 +894,11 @@ harness
 '
 testing
 /
+mochitest
+'
+'
+testing
+/
 puppeteer
 '
 '
@@ -913,6 +918,13 @@ exclude
 '
 :
 [
+'
+testing
+/
+mochitest
+/
+pywebsocket
+'
 ]
 '
 extensions

@@ -20,8 +20,6 @@ logging
 import
 os
 import
-shutil
-import
 sys
 import
 warnings
@@ -2173,6 +2171,9 @@ a
 directory
 containing
 host
+'
+              
+'
 xpcshell
 '
 )
