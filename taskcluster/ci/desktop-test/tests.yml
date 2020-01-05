@@ -582,7 +582,7 @@ gtest
 suite
 =
 gtest
-jittests
+jittest
 :
 description
 :

@@ -156,11 +156,11 @@ unittest_task
 '
 mochitest
 -
+e10s
+-
 browser
 -
 chrome
--
-e10s
 '
 '
 linux64

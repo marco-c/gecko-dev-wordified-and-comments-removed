@@ -121,7 +121,7 @@ remote
 -
 gtest
 -
-jittests
+jittest
 -
 jsreftest
 -
@@ -227,7 +227,7 @@ remote
 -
 gtest
 -
-jittests
+jittest
 -
 jsreftest
 -
