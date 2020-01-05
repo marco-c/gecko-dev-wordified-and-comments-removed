@@ -164,7 +164,10 @@ use
 style
 :
 :
+{
+AuthorOrigin
 Stylesheet
+}
 ;
 #
 [
@@ -432,6 +435,7 @@ as_slice
 (
 )
 url
+AuthorOrigin
 )
 ;
 let
