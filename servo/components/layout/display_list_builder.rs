@@ -6498,8 +6498,6 @@ model
 specified
 (
 horiz_position
-.
-0
 bounds
 .
 size
@@ -6520,8 +6518,6 @@ model
 specified
 (
 vert_position
-.
-0
 bounds
 .
 size
@@ -7662,8 +7658,6 @@ specified
 center
 .
 horizontal
-.
-0
 bounds
 .
 size
@@ -7675,8 +7669,6 @@ specified
 center
 .
 vertical
-.
-0
 bounds
 .
 size

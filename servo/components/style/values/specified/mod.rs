@@ -340,9 +340,8 @@ position
 :
 :
 {
-HorizontalPosition
 Position
-VerticalPosition
+PositionComponent
 }
 ;
 #
