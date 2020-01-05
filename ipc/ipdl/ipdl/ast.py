@@ -9,12 +9,6 @@ INSIDE_SYNC_NESTED
 INSIDE_CPOW_NESTED
 =
 3
-NORMAL_PRIORITY
-=
-1
-HIGH_PRIORITY
-=
-2
 class
 Visitor
 :
@@ -1795,12 +1789,6 @@ self
 nested
 =
 NOT_NESTED
-        
-self
-.
-prio
-=
-NORMAL_PRIORITY
         
 self
 .
