@@ -2666,7 +2666,7 @@ FromChrome
 ChromeToDevtoolsControlMsg
 :
 :
-NetworkEventMessage
+NetworkEvent
 (
 request_id
 network_event
