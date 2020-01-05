@@ -50,12 +50,6 @@ appearance
 enabled
 true
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 progressbar
