@@ -115,11 +115,6 @@ OCSPCacheTest
 cpp
 '
 '
-STSParserTest
-.
-cpp
-'
-'
 TLSIntoleranceTest
 .
 cpp
