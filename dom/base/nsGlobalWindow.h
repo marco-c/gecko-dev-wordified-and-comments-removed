@@ -467,6 +467,9 @@ mozilla
 class
 DOMEventTargetHelper
 ;
+class
+ThrottledEventQueue
+;
 namespace
 dom
 {
@@ -6352,6 +6355,16 @@ nsISelection
 aSel
 int16_t
 aReason
+)
+override
+;
+mozilla
+:
+:
+ThrottledEventQueue
+*
+GetThrottledEventQueue
+(
 )
 override
 ;
