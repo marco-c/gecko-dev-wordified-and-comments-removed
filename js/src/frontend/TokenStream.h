@@ -2054,16 +2054,6 @@ return
 options_
 ;
 }
-bool
-fillExcludingContext
-(
-ErrorMetadata
-*
-err
-uint32_t
-offset
-)
-;
 void
 updateFlagsForEOL
 (
