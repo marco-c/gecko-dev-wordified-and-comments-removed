@@ -999,6 +999,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 {
 mFrames
@@ -1013,6 +1017,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 ;
 }
@@ -1380,6 +1388,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 if
 (

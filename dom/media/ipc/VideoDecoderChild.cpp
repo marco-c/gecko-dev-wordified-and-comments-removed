@@ -968,6 +968,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >

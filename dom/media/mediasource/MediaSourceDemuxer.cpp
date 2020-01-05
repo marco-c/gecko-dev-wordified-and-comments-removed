@@ -2569,10 +2569,6 @@ sample
 if
 (
 mNextRandomAccessPoint
-.
-ToMicroseconds
-(
-)
 <
 =
 sample

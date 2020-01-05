@@ -668,6 +668,14 @@ data
 >
 mTime
 =
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aData
 .
 base
@@ -676,6 +684,7 @@ base
 .
 time
 (
+)
 )
 ;
 data
@@ -1024,6 +1033,10 @@ data
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 data
 -
 >

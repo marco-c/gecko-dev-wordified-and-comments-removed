@@ -50,6 +50,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >

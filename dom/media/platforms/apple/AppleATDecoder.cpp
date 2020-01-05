@@ -421,6 +421,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >
@@ -1436,6 +1440,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 )
 ;
@@ -1759,6 +1767,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 duration
 .
 ToMicroseconds

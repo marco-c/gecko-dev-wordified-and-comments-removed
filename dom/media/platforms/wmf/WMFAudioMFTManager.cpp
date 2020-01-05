@@ -866,6 +866,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 ;
 }

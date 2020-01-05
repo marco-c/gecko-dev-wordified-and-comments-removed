@@ -771,6 +771,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 int64_t
 aTotalFrames
@@ -802,6 +806,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 {
 mFrames
@@ -816,6 +824,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 ;
 }

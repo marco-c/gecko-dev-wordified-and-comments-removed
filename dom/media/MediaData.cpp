@@ -1196,10 +1196,6 @@ IsNegative
 mTime
 =
 aTimestamp
-.
-ToMicroseconds
-(
-)
 ;
 mDuration
 =

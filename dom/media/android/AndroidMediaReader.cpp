@@ -663,6 +663,10 @@ mLastVideoFrame
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 0
 )
 ;
@@ -1338,7 +1342,7 @@ v
 continue
 ;
 }
-int64_t
+auto
 duration
 =
 v
@@ -1356,13 +1360,7 @@ mLastVideoFrame
 >
 UpdateDuration
 (
-TimeUnit
-:
-:
-FromMicroseconds
-(
 duration
-)
 )
 ;
 if
@@ -1641,6 +1639,10 @@ v
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 self
 -
