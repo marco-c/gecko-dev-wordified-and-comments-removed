@@ -316,14 +316,6 @@ fuzzy
 -
 if
 (
-azureQuartz
-1
-6
-)
-fuzzy
--
-if
-(
 OSX
 1
 6
