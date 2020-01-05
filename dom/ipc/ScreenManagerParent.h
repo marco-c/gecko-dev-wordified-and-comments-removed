@@ -38,9 +38,6 @@ public
 :
 ScreenManagerParent
 (
-uint32_t
-*
-aNumberOfScreens
 float
 *
 aSystemDefaultScale
@@ -66,9 +63,6 @@ ipc
 IPCResult
 RecvRefresh
 (
-uint32_t
-*
-aNumberOfScreens
 float
 *
 aSystemDefaultScale
