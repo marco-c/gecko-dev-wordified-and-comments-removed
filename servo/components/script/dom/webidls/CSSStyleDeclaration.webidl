@@ -107,13 +107,9 @@ Reserved
 interface
 CSSStyleDeclaration
 {
-/
-/
 [
 SetterThrows
 ]
-/
-/
 attribute
 DOMString
 cssText
