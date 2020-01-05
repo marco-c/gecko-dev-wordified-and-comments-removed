@@ -6404,7 +6404,7 @@ holder
 (
 CreateHolderFromAccessible
 (
-docAcc
+this
 )
 )
 ;
@@ -6416,7 +6416,7 @@ AccessibleWrap
 :
 GetChildIDFor
 (
-docAcc
+this
 )
 ;
 #
