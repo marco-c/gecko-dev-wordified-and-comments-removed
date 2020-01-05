@@ -3029,6 +3029,14 @@ e
 {
 }
 }
+json
+.
+originPrincipal
+=
+ownerDoc
+.
+nodePrincipal
+;
 sendAsyncMessage
 (
 "
