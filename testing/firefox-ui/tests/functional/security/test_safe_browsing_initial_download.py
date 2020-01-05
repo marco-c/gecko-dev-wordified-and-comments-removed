@@ -20,7 +20,7 @@ MarionetteTestCase
 )
 :
     
-file_extensions
+v2_file_extensions
 =
 [
         
@@ -30,6 +30,20 @@ pset
         
 '
 sbstore
+'
+    
+]
+    
+v4_file_extensions
+=
+[
+        
+'
+pset
+'
+        
+'
+metadata
 '
     
 ]
@@ -206,6 +220,7 @@ def
 get_safebrowsing_files
 (
 self
+is_v4
 )
 :
         
@@ -213,6 +228,34 @@ files
 =
 [
 ]
+        
+if
+is_v4
+:
+            
+my_file_extensions
+=
+self
+.
+v4_file_extensions
+        
+else
+:
+            
+files
+.
+append
+(
+'
+google4
+'
+)
+            
+my_file_extensions
+=
+self
+.
+v2_file_extensions
         
 for
 pref_name
@@ -242,9 +285,7 @@ split
 for
 ext
 in
-self
-.
-file_extensions
+my_file_extensions
 :
                 
 files
@@ -271,12 +312,26 @@ ext
 =
 ext
 )
+                              
 for
 f
 in
 base_names
 if
 f
+and
+f
+.
+endswith
+(
+'
+-
+proto
+'
+)
+=
+=
+is_v4
 ]
 )
         
@@ -357,12 +412,24 @@ safebrowsing
         
 self
 .
-safebrowsing_files
+safebrowsing_v2_files
 =
 self
 .
 get_safebrowsing_files
 (
+False
+)
+        
+self
+.
+safebrowsing_v4_files
+=
+self
+.
+get_safebrowsing_files
+(
+True
 )
     
 def
@@ -484,7 +551,8 @@ assertSetEqual
 (
 self
 .
-safebrowsing_files
+safebrowsing_v2_files
+                                
 set
 (
 os
