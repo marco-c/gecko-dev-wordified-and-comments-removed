@@ -74,14 +74,6 @@ multipage
 /
 #
 htmltabledatacellelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLTableDataCellElement
 :

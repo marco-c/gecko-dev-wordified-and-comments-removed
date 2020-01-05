@@ -74,14 +74,6 @@ multipage
 /
 #
 htmltablerowelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLTableRowElement
 :

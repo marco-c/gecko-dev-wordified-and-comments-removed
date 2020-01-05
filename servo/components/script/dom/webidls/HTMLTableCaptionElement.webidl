@@ -74,14 +74,6 @@ multipage
 /
 #
 htmltablecaptionelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLTableCaptionElement
 :
