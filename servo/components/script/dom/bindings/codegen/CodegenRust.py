@@ -18507,7 +18507,11 @@ PrototypeList
 "
 pub
 =
-True
+descriptor
+.
+hasDescendants
+(
+)
 )
     
 def
@@ -18612,6 +18616,13 @@ constructors
 :
 :
 "
+pub
+=
+descriptor
+.
+hasDescendants
+(
+)
 )
     
 def
@@ -36831,6 +36842,18 @@ isCallback
 )
 :
             
+if
+descriptor
+.
+concrete
+or
+descriptor
+.
+hasDescendants
+(
+)
+:
+                
 cgThings
 .
 append

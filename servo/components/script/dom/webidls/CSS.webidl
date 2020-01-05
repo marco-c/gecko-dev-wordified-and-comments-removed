@@ -89,6 +89,9 @@ css
 interface
 *
 /
+[
+Abstract
+]
 interface
 CSS
 {
