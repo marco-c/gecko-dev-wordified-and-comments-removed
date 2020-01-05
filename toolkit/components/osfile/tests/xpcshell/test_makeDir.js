@@ -339,6 +339,7 @@ makeDir
 add_task
 (
 function
+*
 test_option_from
 (
 )

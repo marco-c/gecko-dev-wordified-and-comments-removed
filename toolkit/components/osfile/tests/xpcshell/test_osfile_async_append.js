@@ -95,6 +95,7 @@ realMode
 ;
 }
 function
+*
 test_append
 (
 mode
@@ -306,6 +307,7 @@ becauseNoSuchFile
 }
 }
 function
+*
 test_no_append
 (
 mode

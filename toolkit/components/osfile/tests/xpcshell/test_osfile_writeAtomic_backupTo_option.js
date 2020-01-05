@@ -58,17 +58,9 @@ jsm
 "
 )
 ;
+async
 function
 clearFiles
-(
-)
-{
-return
-Task
-.
-spawn
-(
-function
 (
 )
 {
@@ -126,7 +118,7 @@ tmpDir
 file
 )
 ;
-yield
+await
 File
 .
 remove
@@ -134,7 +126,7 @@ remove
 path
 )
 ;
-yield
+await
 File
 .
 remove
@@ -148,9 +140,6 @@ backup
 )
 ;
 }
-}
-)
-;
 }
 function
 run_test

@@ -41,6 +41,7 @@ run_next_test
 add_task
 (
 function
+*
 test_compress_lz4
 (
 )
@@ -238,6 +239,7 @@ decompressed
 add_task
 (
 function
+*
 test_uncompressed
 (
 )
@@ -398,6 +400,7 @@ path
 add_task
 (
 function
+*
 test_no_header
 (
 )
@@ -540,6 +543,7 @@ path
 add_task
 (
 function
+*
 test_invalid_content
 (
 )

@@ -37,6 +37,7 @@ run_next_test
 add_task
 (
 function
+*
 (
 )
 {
@@ -327,6 +328,7 @@ close
 add_task
 (
 function
+*
 test_error_attributes
 (
 )

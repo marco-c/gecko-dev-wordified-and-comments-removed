@@ -67,6 +67,7 @@ jsm
 )
 ;
 function
+*
 test_setPosition
 (
 forward
@@ -339,6 +340,7 @@ ex
 }
 }
 function
+*
 test_setPosition_failures
 (
 )

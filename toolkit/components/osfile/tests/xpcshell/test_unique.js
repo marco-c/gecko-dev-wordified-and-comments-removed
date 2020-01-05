@@ -71,6 +71,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -593,6 +594,7 @@ becauseExists
 add_task
 (
 function
+*
 test_unique
 (
 )

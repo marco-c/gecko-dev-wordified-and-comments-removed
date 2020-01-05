@@ -103,6 +103,7 @@ do_get_profile
 add_task
 (
 function
+*
 system_shutdown
 (
 )
@@ -120,6 +121,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -520,14 +522,8 @@ testing
 "
 )
 ;
-throw
-new
-Task
-.
-Result
-(
+return
 resolved
-)
 ;
 }
 )
