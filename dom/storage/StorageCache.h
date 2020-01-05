@@ -271,11 +271,6 @@ Preload
 (
 )
 ;
-void
-KeepAlive
-(
-)
-;
 nsresult
 GetLength
 (
@@ -671,12 +666,6 @@ RefPtr
 StorageUsage
 >
 mUsage
-;
-nsCOMPtr
-<
-nsITimer
->
-mKeepAliveTimer
 ;
 nsCOMPtr
 <
