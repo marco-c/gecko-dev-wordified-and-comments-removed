@@ -93,7 +93,7 @@ PromiseTaskPtrVector
 \
 _
 (
-SPSProfilerStrings
+GeckoProfilerStrings
 500
 )
 \

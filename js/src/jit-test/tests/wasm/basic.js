@@ -6514,7 +6514,7 @@ signatureMismatch
 )
 ;
 {
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -6620,7 +6620,7 @@ stack
 }
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;

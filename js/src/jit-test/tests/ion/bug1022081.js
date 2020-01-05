@@ -16,7 +16,7 @@ gc
 (
 )
 }
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 f

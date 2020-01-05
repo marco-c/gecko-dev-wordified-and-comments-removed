@@ -3084,7 +3084,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -17754,7 +17754,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -17824,7 +17824,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 markEvent
 (

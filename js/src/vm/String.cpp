@@ -104,7 +104,7 @@ include
 "
 vm
 /
-SPSProfiler
+GeckoProfiler
 .
 h
 "
@@ -3197,9 +3197,9 @@ mozilla
 :
 Maybe
 <
-AutoSPSEntry
+AutoGeckoProfilerEntry
 >
-sps
+entry
 ;
 if
 (
@@ -3213,7 +3213,7 @@ isJSContext
 (
 )
 )
-sps
+entry
 .
 emplace
 (

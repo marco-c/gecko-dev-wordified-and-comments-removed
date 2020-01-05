@@ -163,7 +163,7 @@ include
 "
 vm
 /
-SavedFrame
+GeckoProfiler
 .
 h
 "
@@ -172,7 +172,7 @@ include
 "
 vm
 /
-SPSProfiler
+SavedFrame
 .
 h
 "
@@ -5892,7 +5892,7 @@ return
 true
 ;
 }
-AutoSPSEntry
+AutoGeckoProfilerEntry
 psuedoFrame
 (
 cx

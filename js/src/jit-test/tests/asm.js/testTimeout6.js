@@ -9,7 +9,7 @@ js
 "
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

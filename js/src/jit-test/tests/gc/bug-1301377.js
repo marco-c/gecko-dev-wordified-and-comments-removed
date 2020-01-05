@@ -6,7 +6,7 @@ gczeal
 14
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -41,7 +41,7 @@ i
 )
 {
 }
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 s
 "

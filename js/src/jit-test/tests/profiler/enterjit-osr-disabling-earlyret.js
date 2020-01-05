@@ -22,7 +22,7 @@ trigger
 20
 )
 ;
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;
@@ -43,7 +43,7 @@ n
 -
 )
 {
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -54,7 +54,7 @@ n
 )
 return
 ;
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;

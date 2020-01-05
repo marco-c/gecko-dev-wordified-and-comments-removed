@@ -414,7 +414,7 @@ buf
 )
 ;
 }
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -457,7 +457,7 @@ h
 (
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;

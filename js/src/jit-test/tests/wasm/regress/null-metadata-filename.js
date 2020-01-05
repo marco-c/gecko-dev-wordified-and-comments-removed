@@ -1,7 +1,7 @@
 if
 (
 typeof
-enableSPSProfiling
+enableGeckoProfiling
 =
 =
 =
@@ -19,7 +19,7 @@ quit
 (
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

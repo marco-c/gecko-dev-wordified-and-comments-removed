@@ -205,7 +205,7 @@ MacroAssembler
 masm
 int
 returnCode
-SPSProfiler
+GeckoProfiler
 *
 prof
 )
@@ -1479,7 +1479,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 addressOfEnabled
 (
@@ -1761,7 +1761,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 )
 ;
 Linker
@@ -4961,7 +4961,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 addressOfEnabled
 (

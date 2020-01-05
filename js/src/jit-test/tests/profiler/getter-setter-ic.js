@@ -22,7 +22,7 @@ prop
 (
 )
 {
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 )
 ;
@@ -40,7 +40,7 @@ prop
 v
 )
 {
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 )
 ;
@@ -72,7 +72,7 @@ prop
 (
 )
 {
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 )
 ;
@@ -88,7 +88,7 @@ prop
 v
 )
 {
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 )
 ;
@@ -172,7 +172,7 @@ res
 )
 ;
 }
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

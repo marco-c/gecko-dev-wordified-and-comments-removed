@@ -28,7 +28,7 @@ function
 }
 "
 )
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 try

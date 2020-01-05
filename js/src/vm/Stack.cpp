@@ -1710,7 +1710,7 @@ script
 functionNonDelazifying
 (
 )
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 )
@@ -8998,7 +8998,7 @@ if
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -9010,7 +9010,7 @@ MOZ_CRASH
 ProfilingFrameIterator
 called
 when
-spsProfiler
+geckoProfiler
 not
 enabled
 for

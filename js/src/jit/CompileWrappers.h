@@ -135,9 +135,9 @@ jitRuntime
 (
 )
 ;
-SPSProfiler
+GeckoProfiler
 &
-spsProfiler
+geckoProfiler
 (
 )
 ;
@@ -396,13 +396,13 @@ cloneSingletons_
 ;
 }
 bool
-spsSlowAssertionsEnabled
+profilerSlowAssertionsEnabled
 (
 )
 const
 {
 return
-spsSlowAssertionsEnabled_
+profilerSlowAssertionsEnabled_
 ;
 }
 bool
@@ -421,7 +421,7 @@ bool
 cloneSingletons_
 ;
 bool
-spsSlowAssertionsEnabled_
+profilerSlowAssertionsEnabled_
 ;
 bool
 offThreadCompilationAvailable_

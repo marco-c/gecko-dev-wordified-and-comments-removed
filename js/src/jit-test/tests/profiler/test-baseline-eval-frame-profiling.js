@@ -48,7 +48,7 @@ j
 +
 +
 )
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 )
 ;
@@ -62,7 +62,7 @@ gczeal
 10000
 )
 ;
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;

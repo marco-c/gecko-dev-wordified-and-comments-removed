@@ -81,7 +81,7 @@ JSScript
 JSFunction
 *
 bool
-popSPSFrame
+popProfilerFrame
 )
 ;
 bool

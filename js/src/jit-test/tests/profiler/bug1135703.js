@@ -17,11 +17,11 @@ idx
 newFunc
 (
 "
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -32,7 +32,7 @@ disableSPSProfiling
 newFunc
 (
 "
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

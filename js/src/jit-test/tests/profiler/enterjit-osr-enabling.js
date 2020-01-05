@@ -27,7 +27,7 @@ function
 (
 )
 {
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;

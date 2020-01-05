@@ -113,7 +113,7 @@ if
 rt
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -126,7 +126,7 @@ if
 rt
 -
 >
-spsProfiler
+geckoProfiler
 .
 enter
 (
@@ -156,7 +156,7 @@ isGenerator
 fp
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 )
@@ -164,7 +164,7 @@ hasPushedSPSFrame
 fp
 -
 >
-setPushedSPSFrame
+setPushedGeckoProfilerFrame
 (
 )
 ;
@@ -190,7 +190,7 @@ JSFunction
 *
 maybeFun
 bool
-popSPSFrame
+popProfilerFrame
 )
 {
 #
@@ -213,7 +213,7 @@ script
 endif
 if
 (
-popSPSFrame
+popProfilerFrame
 )
 cx
 -
@@ -223,7 +223,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 exit
 (

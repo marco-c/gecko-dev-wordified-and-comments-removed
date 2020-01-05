@@ -23,7 +23,7 @@ e
 f
 (
 "
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;

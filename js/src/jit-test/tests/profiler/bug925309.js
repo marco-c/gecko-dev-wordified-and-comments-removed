@@ -9,7 +9,7 @@ i
 <
 100
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 i

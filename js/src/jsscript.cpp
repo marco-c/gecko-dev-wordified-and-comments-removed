@@ -16474,7 +16474,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 onScriptFinalized
 (

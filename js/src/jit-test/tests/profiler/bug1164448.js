@@ -134,7 +134,7 @@ function
 "
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

@@ -13,7 +13,7 @@ quit
 (
 )
 ;
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;

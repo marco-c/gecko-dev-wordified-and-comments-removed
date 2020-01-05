@@ -41,7 +41,7 @@ f
 42
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

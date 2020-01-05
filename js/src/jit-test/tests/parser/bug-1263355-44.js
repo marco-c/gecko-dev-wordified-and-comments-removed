@@ -18,7 +18,7 @@ use
 strict
 "
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

@@ -27,7 +27,7 @@ quit
 (
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

@@ -2399,6 +2399,13 @@ cpp
 '
 vm
 /
+GeckoProfiler
+.
+cpp
+'
+'
+vm
+/
 GeneratorObject
 .
 cpp
@@ -2554,13 +2561,6 @@ cpp
 vm
 /
 SharedImmutableStringsCache
-.
-cpp
-'
-'
-vm
-/
-SPSProfiler
 .
 cpp
 '

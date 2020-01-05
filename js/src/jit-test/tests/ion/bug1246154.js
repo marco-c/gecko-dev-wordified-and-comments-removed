@@ -8,7 +8,7 @@ forceinlineCaches
 1
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

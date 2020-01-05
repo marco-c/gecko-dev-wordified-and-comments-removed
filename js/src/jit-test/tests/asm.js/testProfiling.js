@@ -501,7 +501,7 @@ enable
 +
 1
 )
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -523,7 +523,7 @@ enable
 -
 1
 )
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -669,7 +669,7 @@ stacks
 "
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

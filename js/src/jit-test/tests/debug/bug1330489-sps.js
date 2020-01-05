@@ -40,7 +40,7 @@ throw
 TestComplete
 "
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -252,7 +252,7 @@ test
 )
 ;
 }
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;

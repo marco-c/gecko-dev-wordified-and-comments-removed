@@ -204,7 +204,7 @@ include
 "
 vm
 /
-Interpreter
+GeckoProfiler
 .
 h
 "
@@ -213,7 +213,7 @@ include
 "
 vm
 /
-SPSProfiler
+Interpreter
 .
 h
 "

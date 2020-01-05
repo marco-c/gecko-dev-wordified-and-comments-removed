@@ -39,7 +39,7 @@ n
 -
 )
 {
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;
@@ -50,7 +50,7 @@ n
 )
 return
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;

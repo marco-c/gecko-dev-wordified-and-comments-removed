@@ -2110,7 +2110,7 @@ traceOrMark
 rt
 -
 >
-spsProfiler
+geckoProfiler
 .
 trace
 (

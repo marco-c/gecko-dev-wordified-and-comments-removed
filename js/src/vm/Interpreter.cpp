@@ -2170,7 +2170,7 @@ cx
 ;
 #
 endif
-SPSEntryMarker
+GeckoProfilerEntryMarker
 marker
 (
 cx
@@ -10322,7 +10322,7 @@ Method_Compiled
 )
 {
 bool
-wasSPS
+wasProfiler
 =
 REGS
 .
@@ -10331,7 +10331,7 @@ fp
 )
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 ;
@@ -10342,8 +10342,8 @@ JitExecStatus
 maybeOsr
 ;
 {
-SPSBaselineOSRMarker
-spsOSR
+GeckoProfilerBaselineOSRMarker
+osr
 (
 cx
 -
@@ -10351,7 +10351,7 @@ cx
 runtime
 (
 )
-wasSPS
+wasProfiler
 )
 ;
 maybeOsr
@@ -10400,7 +10400,7 @@ JitExec_Ok
 ;
 if
 (
-wasSPS
+wasProfiler
 )
 cx
 -
@@ -10410,7 +10410,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 exit
 (
@@ -15881,7 +15881,7 @@ fp
 )
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 )
@@ -15893,7 +15893,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 updatePC
 (
@@ -16153,7 +16153,7 @@ fp
 )
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 )
@@ -16165,7 +16165,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 updatePC
 (

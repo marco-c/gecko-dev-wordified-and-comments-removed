@@ -12,7 +12,8 @@ generators
 should
 not
 cache
-SPS
+Gecko
+Profiler
 state
 "
 ;
@@ -65,7 +66,7 @@ n
 "
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -90,12 +91,12 @@ if
 (
 slowAsserts
 )
-enableSPSProfilingWithSlowAssertions
+enableGeckoProfilingWithSlowAssertions
 (
 )
 ;
 else
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
