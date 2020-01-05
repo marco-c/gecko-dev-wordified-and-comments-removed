@@ -5,6 +5,7 @@ rx
 S
 lengthS
 replaceValue
+fullUnicode
 #
 ifdef
 SUBSTITUTION
@@ -19,15 +20,6 @@ elemBase
 endif
 )
 {
-var
-fullUnicode
-=
-!
-!
-rx
-.
-unicode
-;
 var
 lastIndex
 =
