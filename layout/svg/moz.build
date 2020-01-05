@@ -256,6 +256,11 @@ nsSVGOuterSVGFrame
 cpp
 '
 '
+nsSVGPathGeometryFrame
+.
+cpp
+'
+'
 nsSVGPatternFrame
 .
 cpp
@@ -302,11 +307,6 @@ cpp
 '
 '
 SVGFEUnstyledLeafFrame
-.
-cpp
-'
-'
-SVGGeometryFrame
 .
 cpp
 '

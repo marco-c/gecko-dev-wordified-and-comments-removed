@@ -135,7 +135,7 @@ nsSVGMark
 aMarks
 )
 {
-SVGPolyElement
+nsSVGPolyElement
 :
 :
 GetMarkPoints

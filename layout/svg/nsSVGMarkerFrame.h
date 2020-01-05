@@ -65,12 +65,12 @@ h
 class
 gfxContext
 ;
+class
+nsSVGPathGeometryFrame
+;
 namespace
 mozilla
 {
-class
-SVGGeometryFrame
-;
 namespace
 dom
 {
@@ -305,7 +305,7 @@ const
 gfxMatrix
 &
 aToMarkedFrameUserSpace
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aMarkedFrame
 nsSVGMark
@@ -324,7 +324,7 @@ Matrix
 aToBBoxUserspace
 uint32_t
 aFlags
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aMarkedFrame
 const
@@ -337,7 +337,7 @@ aStrokeWidth
 ;
 private
 :
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 mMarkedFrame
 ;
@@ -368,7 +368,7 @@ AutoMarkerReferencer
 nsSVGMarkerFrame
 *
 aFrame
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aMarkedFrame
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
