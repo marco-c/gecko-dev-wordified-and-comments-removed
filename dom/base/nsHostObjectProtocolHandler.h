@@ -399,7 +399,6 @@ static
 void
 Init
 (
-void
 )
 ;
 }
