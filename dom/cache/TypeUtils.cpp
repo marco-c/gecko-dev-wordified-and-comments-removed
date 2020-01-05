@@ -2498,16 +2498,6 @@ LowerCaseEqualsLiteral
 https
 "
 )
-|
-|
-scheme
-.
-LowerCaseEqualsLiteral
-(
-"
-app
-"
-)
 ;
 }
 uint32_t
