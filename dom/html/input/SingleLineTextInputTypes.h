@@ -49,6 +49,13 @@ IsValueMissing
 const
 override
 ;
+bool
+HasPatternMismatch
+(
+)
+const
+override
+;
 protected
 :
 explicit

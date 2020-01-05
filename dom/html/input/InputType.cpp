@@ -675,3 +675,16 @@ return
 false
 ;
 }
+bool
+InputType
+:
+:
+HasPatternMismatch
+(
+)
+const
+{
+return
+false
+;
+}

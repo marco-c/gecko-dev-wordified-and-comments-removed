@@ -113,6 +113,13 @@ HasTypeMismatch
 )
 const
 ;
+virtual
+bool
+HasPatternMismatch
+(
+)
+const
+;
 protected
 :
 explicit

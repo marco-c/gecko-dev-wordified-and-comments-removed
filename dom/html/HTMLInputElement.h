@@ -3676,12 +3676,6 @@ DoesRequiredApply
 const
 ;
 bool
-DoesPatternApply
-(
-)
-const
-;
-bool
 DoesMinMaxApply
 (
 )
