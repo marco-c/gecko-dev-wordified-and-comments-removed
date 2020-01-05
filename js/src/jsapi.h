@@ -2816,6 +2816,7 @@ typedef
 enum
 JSFinalizeStatus
 {
+JSFINALIZE_GROUP_PREPARE
 JSFINALIZE_GROUP_START
 JSFINALIZE_GROUP_END
 JSFINALIZE_COLLECTION_END
@@ -18892,12 +18893,8 @@ mBytes
 void
 initBytes
 (
-JS
-:
-:
-UniqueChars
-&
-&
+char
+*
 bytes
 )
 {
@@ -18910,10 +18907,6 @@ mBytes
 mBytes
 =
 bytes
-.
-release
-(
-)
 ;
 }
 char
