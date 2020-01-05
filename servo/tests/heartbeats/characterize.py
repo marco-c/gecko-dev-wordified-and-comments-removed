@@ -351,6 +351,27 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
     
 (
 "
+ScriptEnterFullscreen
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
+ScriptExitFullscreen
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
+ScriptWebVREvent
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
 ApplicationHeartbeat
 "
 100
