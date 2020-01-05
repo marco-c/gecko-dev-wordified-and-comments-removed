@@ -607,6 +607,8 @@ if
 aWindow
 .
 location
+.
+href
 =
 =
 =
