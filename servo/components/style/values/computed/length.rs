@@ -41,6 +41,7 @@ Auto
 CSSFloat
 Either
 None_
+Normal
 specified
 }
 ;
@@ -3060,6 +3061,16 @@ Either
 <
 Length
 Number
+>
+;
+pub
+type
+LengthOrNormal
+=
+Either
+<
+Length
+Normal
 >
 ;
 pub
