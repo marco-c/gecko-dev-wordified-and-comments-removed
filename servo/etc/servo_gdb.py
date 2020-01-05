@@ -54,12 +54,6 @@ return
 0
 }
 px
-(
-{
-1
-}
-au
-)
 "
 .
 format
@@ -69,7 +63,6 @@ au
 60
 .
 0
-au
 )
 class
 BitFieldU8Printer
@@ -680,6 +673,7 @@ type_map
     
 (
 '
+struct
 Au
 '
 AuPrinter
