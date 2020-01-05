@@ -127,7 +127,6 @@ eCSSPropertyExtra_all_properties
 eCSSPropertyExtra_x_none_value
 eCSSPropertyExtra_x_auto_value
 eCSSPropertyExtra_variable
-eCSSProperty_DOM
 }
 ;
 namespace

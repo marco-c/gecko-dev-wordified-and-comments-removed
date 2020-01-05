@@ -1442,11 +1442,6 @@ InspectorUtils
 webidl
 '
 '
-IntersectionObserver
-.
-webidl
-'
-'
 IterableIterator
 .
 webidl
