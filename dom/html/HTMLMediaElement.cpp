@@ -26020,6 +26020,17 @@ true
 }
 if
 (
+IsCurrentlyPlaying
+(
+)
+)
+{
+return
+true
+;
+}
+if
+(
 mPlayingThroughTheAudioChannelBeforeSeek
 )
 {
@@ -26037,7 +26048,7 @@ true
 ;
 }
 return
-true
+false
 ;
 }
 void
