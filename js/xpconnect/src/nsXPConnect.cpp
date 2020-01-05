@@ -1986,9 +1986,7 @@ uint32_t
 reason
 )
 {
-GetContext
-(
-)
+mRuntime
 -
 >
 GarbageCollect

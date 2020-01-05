@@ -3373,11 +3373,6 @@ js
 :
 ResetPerformanceMonitoring
 (
-Get
-(
-)
--
->
 Context
 (
 )
@@ -3442,11 +3437,6 @@ js
 :
 FlushPerformanceMonitoring
 (
-Get
-(
-)
--
->
 Context
 (
 )

@@ -7469,7 +7469,7 @@ if
 id
 =
 =
-XPCJSContext
+XPCJSRuntime
 :
 :
 Get
@@ -7509,7 +7509,7 @@ if
 id
 =
 =
-XPCJSContext
+XPCJSRuntime
 :
 :
 Get

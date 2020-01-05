@@ -21624,7 +21624,7 @@ if
 aId
 =
 =
-XPCJSContext
+XPCJSRuntime
 :
 :
 Get
@@ -21650,7 +21650,7 @@ if
 aId
 =
 =
-XPCJSContext
+XPCJSRuntime
 :
 :
 Get
