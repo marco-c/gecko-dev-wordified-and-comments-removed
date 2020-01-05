@@ -580,7 +580,10 @@ DOMRectList
 rectList
 ;
 required
-DOMStringList
+sequence
+<
+DOMString
+>
 textList
 ;
 }

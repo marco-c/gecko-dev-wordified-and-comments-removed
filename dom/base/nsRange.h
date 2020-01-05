@@ -988,7 +988,10 @@ mozilla
 dom
 :
 :
-DOMStringList
+Sequence
+<
+nsString
+>
 *
 aTextList
 nsRange
