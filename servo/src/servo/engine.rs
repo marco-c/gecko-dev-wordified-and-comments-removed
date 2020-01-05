@@ -43,6 +43,7 @@ Content
 ExecuteMsg
 ParseMsg
 ExitMsg
+create_content
 }
 ;
 class
@@ -73,7 +74,13 @@ Layout
 let
 content
 :
-Content
+chan
+<
+content
+:
+:
+ControlMsg
+>
 ;
 new
 (
@@ -107,7 +114,7 @@ renderer
 let
 content
 =
-Content
+create_content
 (
 layout
 sink
