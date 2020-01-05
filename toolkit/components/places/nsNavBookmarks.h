@@ -618,6 +618,9 @@ mUnfiledRoot
 int64_t
 mToolbarRoot
 ;
+int64_t
+mMobileRoot
+;
 inline
 bool
 IsRoot
@@ -655,6 +658,12 @@ aFolderId
 =
 =
 mToolbarRoot
+|
+|
+aFolderId
+=
+=
+mMobileRoot
 ;
 }
 nsresult

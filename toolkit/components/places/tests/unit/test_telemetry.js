@@ -156,7 +156,7 @@ val
 do_check_eq
 (
 val
-1
+2
 )
 PLACES_ANNOS_PAGES_COUNT
 :

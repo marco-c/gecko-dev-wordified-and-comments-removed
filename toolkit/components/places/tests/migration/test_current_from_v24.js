@@ -155,6 +155,16 @@ bookmarks
 .
 tagsGuid
 ]
+[
+PlacesUtils
+.
+mobileFolderId
+PlacesUtils
+.
+bookmarks
+.
+mobileGuid
+]
 ]
 )
 ;
