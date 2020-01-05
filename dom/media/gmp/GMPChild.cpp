@@ -1432,6 +1432,7 @@ static
 const
 char
 *
+const
 whitelist
 [
 ]
@@ -1449,16 +1450,6 @@ dll
 "
 "
 evr
-.
-dll
-"
-"
-mfh264dec
-.
-dll
-"
-"
-mfheaacdec
 .
 dll
 "
