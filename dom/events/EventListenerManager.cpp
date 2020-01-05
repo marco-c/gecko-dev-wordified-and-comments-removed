@@ -6233,6 +6233,15 @@ hasListenerForCurrentGroup
 |
 |
 usingLegacyMessage
+|
+|
+!
+aEvent
+-
+>
+IsTrusted
+(
+)
 )
 {
 break
