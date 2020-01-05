@@ -1697,19 +1697,11 @@ RemoteDecoderModule
 m
 )
 ;
-mWMFFailedToLoad
-=
-!
 StartupPDM
 (
 remote
 )
 ;
-if
-(
-mWMFFailedToLoad
-)
-{
 mWMFFailedToLoad
 =
 !
@@ -1718,7 +1710,6 @@ StartupPDM
 m
 )
 ;
-}
 }
 else
 {
