@@ -109,6 +109,13 @@ dom
 use_watchdog
 "
 "
+dom
+.
+webcomponents
+.
+enabled
+"
+"
 focusmanager
 .
 testmode
