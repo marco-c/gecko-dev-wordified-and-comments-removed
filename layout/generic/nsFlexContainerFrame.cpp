@@ -6275,6 +6275,13 @@ CachedFlexMeasuringReflow
 )
 ;
 }
+nsContainerFrame
+:
+:
+MarkIntrinsicISizesDirty
+(
+)
+;
 }
 nscoord
 nsFlexContainerFrame
