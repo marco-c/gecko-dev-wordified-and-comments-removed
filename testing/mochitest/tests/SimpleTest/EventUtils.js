@@ -3581,6 +3581,7 @@ aEvent
 aWindow
 =
 window
+aCallback
 )
 {
 var
@@ -3589,6 +3590,7 @@ TIP
 _getTIP
 (
 aWindow
+aCallback
 )
 ;
 if
