@@ -86,10 +86,13 @@ geometry
 Au
 ;
 use
-servo_util
+std
 :
 :
-geometry
+cmp
+:
+:
+max
 ;
 use
 std
@@ -1209,9 +1212,6 @@ specified_or_zero
 ;
 computed_inline_size
 =
-geometry
-:
-:
 max
 (
 fixed_cells_inline_size
@@ -1386,9 +1386,6 @@ input
 .
 available_inline_size
 >
-geometry
-:
-:
 max
 (
 cols_max
@@ -1461,9 +1458,6 @@ cols_min
 }
 else
 {
-geometry
-:
-:
 max
 (
 input
@@ -1517,9 +1511,6 @@ cols_min
 }
 else
 {
-geometry
-:
-:
 max
 (
 inline_size
