@@ -5026,6 +5026,7 @@ html
 8a
 .
 html
+fails
 =
 =
 315920
@@ -5038,6 +5039,9 @@ html
 8b
 .
 html
+#
+bug
+1349909
 fails
 =
 =
@@ -5128,6 +5132,7 @@ html
 13a
 .
 html
+fails
 =
 =
 315920
@@ -5140,6 +5145,9 @@ html
 13b
 .
 html
+#
+bug
+1349909
 fails
 =
 =
