@@ -16664,7 +16664,7 @@ FlushPendingMethods
 *
 *
 /
-NS_IMETHODIMP
+nsresult
 IMEInputHandler
 :
 :
