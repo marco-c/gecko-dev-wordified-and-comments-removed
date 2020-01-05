@@ -316,6 +316,16 @@ mHTMLCSSStyleSheet
 ;
 }
 inline
+void
+ToString
+(
+nsAString
+&
+aString
+)
+const
+;
+inline
 uint32_t
 Count
 (

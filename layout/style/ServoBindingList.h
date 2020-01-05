@@ -180,6 +180,16 @@ b
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_GetCssText
+void
+RawServoDeclarationBlockBorrowed
+declarations
+nsAString
+*
+result
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_SerializeOneValue
 void
 RawServoDeclarationBlockBorrowed
