@@ -3,7 +3,7 @@ bincode
 :
 :
 {
-SizeLimit
+Infinite
 serialize
 }
 ;
@@ -352,9 +352,6 @@ buf
 serialize
 (
 msg
-SizeLimit
-:
-:
 Infinite
 )
 .
@@ -506,7 +503,7 @@ DeleteImage
 ApiMsg
 :
 :
-SetRootDisplayList
+SetDisplayList
 (
 .
 .

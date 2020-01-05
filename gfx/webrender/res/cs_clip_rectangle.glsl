@@ -78,3 +78,8 @@ varying
 vec4
 vClipRadius
 ;
+flat
+varying
+float
+vClipMode
+;

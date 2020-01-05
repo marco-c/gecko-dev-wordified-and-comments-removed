@@ -1422,7 +1422,7 @@ vec4
 start_end_center
 ;
 vec4
-start_end_radius_extend_mode
+start_end_radius_ratio_xy_extend_mode
 ;
 }
 ;
@@ -1462,7 +1462,7 @@ ivec2
 ;
 gradient
 .
-start_end_radius_extend_mode
+start_end_radius_ratio_xy_extend_mode
 =
 texelFetchOffset
 (

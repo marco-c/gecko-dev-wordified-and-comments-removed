@@ -248,4 +248,14 @@ bs
 .
 color
 ;
+write_clip
+(
+vi
+.
+screen_pos
+prim
+.
+clip_area
+)
+;
 }

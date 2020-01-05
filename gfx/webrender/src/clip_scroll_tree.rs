@@ -115,7 +115,7 @@ ScrollLayerId
 >
 current_reference_frame_id
 :
-usize
+u64
 pub
 root_reference_frame_id
 :
