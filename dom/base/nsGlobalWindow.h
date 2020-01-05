@@ -4494,6 +4494,14 @@ aInit
 mozilla
 :
 :
+dom
+:
+:
+CallerType
+aCallerType
+mozilla
+:
+:
 ErrorResult
 &
 aRv

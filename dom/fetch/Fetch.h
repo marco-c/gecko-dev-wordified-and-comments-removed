@@ -132,6 +132,12 @@ OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 class
 RequestOrUSVString
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 namespace
 workers
 {
@@ -156,6 +162,8 @@ const
 RequestInit
 &
 aInit
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

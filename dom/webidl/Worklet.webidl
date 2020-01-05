@@ -136,6 +136,7 @@ Worklet
 [
 NewObject
 Throws
+NeedsCallerType
 ]
 Promise
 <

@@ -210,6 +210,7 @@ options
 ;
 [
 NewObject
+NeedsCallerType
 ]
 Promise
 <
@@ -223,6 +224,7 @@ request
 ;
 [
 NewObject
+NeedsCallerType
 ]
 Promise
 <

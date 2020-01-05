@@ -1939,6 +1939,8 @@ const
 RequestInit
 &
 aInit
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1950,6 +1952,7 @@ FetchRequest
 this
 aInput
 aInit
+aCallerType
 aRv
 )
 ;

@@ -465,6 +465,7 @@ WindowOrWorkerGlobalScope
 {
 [
 NewObject
+NeedsCallerType
 ]
 Promise
 <

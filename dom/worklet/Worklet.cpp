@@ -155,6 +155,8 @@ const
 nsAString
 &
 aModuleURL
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -444,6 +446,7 @@ FetchRequest
 global
 request
 init
+aCallerType
 aRv
 )
 ;
@@ -1588,6 +1591,8 @@ const
 nsAString
 &
 aModuleURL
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1601,6 +1606,7 @@ Fetch
 (
 this
 aModuleURL
+aCallerType
 aRv
 )
 ;
