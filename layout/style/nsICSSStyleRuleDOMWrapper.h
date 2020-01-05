@@ -30,6 +30,17 @@ NS_ICSS_STYLE_RULE_DOM_WRAPPER_IID
 0xaa
 }
 }
+namespace
+mozilla
+{
+namespace
+css
+{
+class
+StyleRule
+;
+}
+}
 class
 nsICSSStyleRuleDOMWrapper
 :
