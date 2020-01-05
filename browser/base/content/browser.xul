@@ -1756,6 +1756,8 @@ type
 =
 "
 autocomplete
+-
+richlistbox
 "
 id
 =
