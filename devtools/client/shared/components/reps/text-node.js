@@ -33,7 +33,7 @@ react
 const
 {
 isGrip
-cropMultipleLines
+cropString
 }
 =
 require
@@ -95,7 +95,7 @@ grip
 )
 {
 return
-cropMultipleLines
+cropString
 (
 grip
 .
@@ -214,6 +214,17 @@ getTitle
 (
 grip
 )
+DOM
+.
+span
+(
+{
+className
+:
+"
+nodeValue
+"
+}
 "
 \
 "
@@ -230,6 +241,7 @@ grip
 \
 "
 "
+)
 )
 )
 ;
