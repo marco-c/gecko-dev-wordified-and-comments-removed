@@ -1317,7 +1317,7 @@ uint32_t
 mPendingEventsNeedingAck
 ;
 bool
-mIsComposing
+mWidgetHasComposition
 ;
 bool
 GetCaretRect
