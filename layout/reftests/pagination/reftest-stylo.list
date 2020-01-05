@@ -939,7 +939,6 @@ auto
 1
 .
 html
-fails
 =
 =
 table
@@ -966,8 +965,6 @@ before
 auto
 -
 2
--
-ref
 .
 html
 =

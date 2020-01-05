@@ -1513,8 +1513,6 @@ html
 ?
 .
 svg
-fails
-fails
 =
 =
 downscale
@@ -1535,14 +1533,12 @@ downscale
 .
 html
 ?
-.
+-
 bmp
 -
 in
 .
 ico
-fails
-fails
 =
 =
 downscale
@@ -1563,7 +1559,7 @@ downscale
 .
 html
 ?
-.
+-
 png
 -
 in
