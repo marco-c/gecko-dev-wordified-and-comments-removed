@@ -2646,14 +2646,11 @@ LOG
 "
 )
 ;
-MOZ_ASSERT
+if
 (
 mJavaDecoder
-&
-&
-mJavaCallbacks
 )
-;
+{
 mJavaDecoder
 -
 >
@@ -2665,6 +2662,12 @@ mJavaDecoder
 =
 nullptr
 ;
+}
+if
+(
+mJavaCallbacks
+)
+{
 JavaCallbacksSupport
 :
 :
@@ -2682,6 +2685,7 @@ mJavaCallbacks
 =
 nullptr
 ;
+}
 mFormat
 =
 nullptr
