@@ -598,10 +598,6 @@ self
 .
 view
 .
-clone
-(
-)
-.
 map
 (
 |
