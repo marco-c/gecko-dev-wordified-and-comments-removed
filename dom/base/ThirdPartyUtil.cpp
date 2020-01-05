@@ -91,6 +91,13 @@ Logging
 .
 h
 "
+#
+include
+"
+nsPIDOMWindow
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 ThirdPartyUtil

@@ -3406,7 +3406,7 @@ docshell
 docshell
 -
 >
-GetIsInMozBrowserOrApp
+GetIsInMozBrowser
 (
 )
 &

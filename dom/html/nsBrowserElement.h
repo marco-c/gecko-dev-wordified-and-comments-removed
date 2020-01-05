@@ -631,17 +631,6 @@ GetFrameLoader
 =
 0
 ;
-NS_IMETHOD
-GetParentApplication
-(
-mozIApplication
-*
-*
-aApplication
-)
-=
-0
-;
 void
 InitBrowserElementAPI
 (

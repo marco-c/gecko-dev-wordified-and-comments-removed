@@ -232,10 +232,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 =
@@ -332,10 +328,6 @@ const
 ContentParentId
 &
 aCpId
-const
-bool
-&
-aIsForApp
 const
 bool
 &
@@ -437,13 +429,7 @@ aActor
 )
 ;
 virtual
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
+bool
 RecvAsyncMessage
 (
 const

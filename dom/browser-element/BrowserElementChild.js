@@ -125,7 +125,7 @@ docShell
 &
 docShell
 .
-isMozBrowserOrApp
+isMozBrowser
 )
 {
 return

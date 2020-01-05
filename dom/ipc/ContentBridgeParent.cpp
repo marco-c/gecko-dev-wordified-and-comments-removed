@@ -300,13 +300,7 @@ mSelfRef
 nullptr
 ;
 }
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
+bool
 ContentBridgeParent
 :
 :
@@ -362,13 +356,7 @@ aRetvals
 )
 ;
 }
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
+bool
 ContentBridgeParent
 :
 :
@@ -473,10 +461,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {
@@ -491,7 +475,6 @@ aTabId
 aContext
 aChromeFlags
 aCpID
-aIsForApp
 aIsForBrowser
 )
 ;
@@ -611,10 +594,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {
@@ -628,7 +607,6 @@ aTabId
 aContext
 aChromeFlags
 aCpID
-aIsForApp
 aIsForBrowser
 )
 ;
