@@ -101,6 +101,9 @@ sourceURL
 const
 CFURLRef
 referrerURL
+const
+bool
+isFromWeb
 )
 ;
 }

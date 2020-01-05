@@ -19,6 +19,9 @@ nsCOMPtr
 h
 "
 class
+nsIURI
+;
+class
 DownloadPlatform
 :
 public
@@ -52,6 +55,17 @@ DownloadPlatform
 *
 GetDownloadPlatform
 (
+)
+;
+private
+:
+static
+bool
+IsURLPossiblyFromWeb
+(
+nsIURI
+*
+aURI
 )
 ;
 }
