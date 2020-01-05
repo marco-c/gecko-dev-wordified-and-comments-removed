@@ -987,8 +987,6 @@ node
 initialize_style_for_subtree
 (
 &
-layout_ctx
-&
 self
 .
 layout_refs
