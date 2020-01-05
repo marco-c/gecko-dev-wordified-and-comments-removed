@@ -83,6 +83,15 @@ predicates
 js
 '
 '
+filter
+-
+text
+-
+utils
+.
+js
+'
+'
 format
 -
 utils
