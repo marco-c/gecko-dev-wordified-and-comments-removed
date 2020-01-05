@@ -703,6 +703,9 @@ features
 "
 heap_size
 "
+"
+query_encoding
+"
 ]
 }
 uuid
