@@ -4237,10 +4237,10 @@ yields
 a
 TableWrapperFlow
 with
+/
+/
+/
 possibly
-/
-/
-/
 other
 TableCaptionFlow
 s
