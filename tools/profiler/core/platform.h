@@ -778,12 +778,6 @@ TickSample
 sample
 )
 ;
-SyncProfile
-*
-GetBacktrace
-(
-)
-;
 void
 Start
 (
