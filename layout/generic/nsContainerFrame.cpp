@@ -4276,8 +4276,8 @@ const
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 {
 LogicalSize
@@ -4316,7 +4316,14 @@ aWM
 ;
 if
 (
-aShrinkWrap
+(
+aFlags
+&
+ComputeSizeFlags
+:
+:
+eShrinkWrap
+)
 |
 |
 IsFrameOfType
@@ -4356,6 +4363,7 @@ ShrinkWidthToFit
 (
 aRenderingContext
 availBased
+aFlags
 )
 ;
 }

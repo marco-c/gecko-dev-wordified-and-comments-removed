@@ -2122,8 +2122,8 @@ const
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 {
 float
@@ -2229,7 +2229,7 @@ aAvailableISize
 aMargin
 aBorder
 aPadding
-aShrinkWrap
+aFlags
 )
 ;
 MOZ_ASSERT
