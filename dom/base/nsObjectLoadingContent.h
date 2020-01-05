@@ -1015,6 +1015,15 @@ aContentPolicy
 )
 ;
 bool
+IsSupportedDocument
+(
+const
+nsCString
+&
+aType
+)
+;
+bool
 MakePluginListener
 (
 )
