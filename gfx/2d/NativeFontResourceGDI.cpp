@@ -334,6 +334,12 @@ uint32_t
 aIndex
 Float
 aGlyphSize
+const
+uint8_t
+*
+aInstanceData
+uint32_t
+aInstanceDataLength
 )
 {
 if

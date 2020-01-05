@@ -524,6 +524,11 @@ SOURCES
 =
 [
 '
+NativeFontResourceFontconfig
+.
+cpp
+'
+'
 ScaledFontFontconfig
 .
 cpp
