@@ -20,7 +20,7 @@ typedef
 subtle
 :
 :
-Atomic32
+AtomicWord
 AtomicRefCount
 ;
 inline

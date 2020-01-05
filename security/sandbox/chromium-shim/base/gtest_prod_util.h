@@ -1,5 +1,11 @@
 #
 ifndef
+BASE_GTEST_PROD_UTIL_H_
+#
+define
+BASE_GTEST_PROD_UTIL_H_
+#
+ifndef
 FRIEND_TEST
 #
 define
@@ -32,5 +38,7 @@ FORWARD_DECLARE_TEST
 test_case_name
 test_name
 )
+#
+endif
 #
 endif

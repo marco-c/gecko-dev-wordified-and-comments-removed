@@ -9,6 +9,15 @@ include
 "
 base
 /
+base_export
+.
+h
+"
+#
+include
+"
+base
+/
 threading
 /
 platform_thread
@@ -32,6 +41,7 @@ nice_value
 ;
 }
 ;
+BASE_EXPORT
 extern
 const
 ThreadPriorityToNiceValuePair
@@ -47,6 +57,7 @@ ThreadPriority
 priority
 )
 ;
+BASE_EXPORT
 ThreadPriority
 NiceValueToThreadPriority
 (

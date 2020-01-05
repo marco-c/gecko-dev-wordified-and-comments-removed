@@ -20,6 +20,11 @@ h
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 base
 /
@@ -34,7 +39,7 @@ base
 /
 memory
 /
-scoped_ptr
+free_deleter
 .
 h
 "
@@ -596,7 +601,10 @@ GetBufferSize
 (
 )
 ;
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 size_t
 [
@@ -1170,7 +1178,10 @@ size
 =
 MAX_PATH
 ;
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 UNICODE_STRING
 base

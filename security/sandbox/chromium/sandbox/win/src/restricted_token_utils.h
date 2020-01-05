@@ -76,6 +76,8 @@ IntegrityLevel
 integrity_level
 TokenType
 token_type
+bool
+lockdown_default_dacl
 base
 :
 :

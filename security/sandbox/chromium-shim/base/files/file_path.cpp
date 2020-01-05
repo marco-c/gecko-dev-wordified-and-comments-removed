@@ -9,6 +9,15 @@ file_path
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 base
 {
@@ -24,6 +33,10 @@ StringPieceType
 path
 )
 {
+MOZ_CRASH
+(
+)
+;
 }
 FilePath
 :
