@@ -1472,6 +1472,13 @@ cpp
 '
 gc
 /
+AtomMarking
+.
+cpp
+'
+'
+gc
+/
 Barrier
 .
 cpp

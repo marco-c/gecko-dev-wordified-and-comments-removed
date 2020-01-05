@@ -383,6 +383,12 @@ unlock
 (
 )
 ;
+bool
+ownedByCurrentThread
+(
+)
+const
+;
 private
 :
 const

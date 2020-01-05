@@ -8072,6 +8072,14 @@ getSource
 )
 )
 ;
+cx
+-
+>
+markAtom
+(
+source
+)
+;
 return
 RegExpObject
 :

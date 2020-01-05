@@ -12970,6 +12970,15 @@ if
 (
 validatedTimeZone
 )
+{
+cx
+-
+>
+markAtom
+(
+validatedTimeZone
+)
+;
 args
 .
 rval
@@ -12981,7 +12990,9 @@ setString
 validatedTimeZone
 )
 ;
+}
 else
+{
 args
 .
 rval
@@ -12992,6 +13003,7 @@ setNull
 (
 )
 ;
+}
 return
 true
 ;

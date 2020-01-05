@@ -22,6 +22,17 @@ Heap
 .
 h
 "
+#
+include
+"
+gc
+/
+Heap
+-
+inl
+.
+h
+"
 namespace
 js
 {
@@ -210,6 +221,8 @@ arena
 -
 >
 bufferedCells
+(
+)
 =
 =
 this
@@ -263,6 +276,8 @@ arena
 -
 >
 bufferedCells
+(
+)
 ;
 if
 (

@@ -23037,6 +23037,9 @@ uniqueIdMap
 size_t
 *
 shapeTables
+size_t
+*
+atomsMarkBitmaps
 )
 {
 *
@@ -23102,6 +23105,17 @@ mallocSizeOf
 )
 +
 initialShapes
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
+;
+*
+atomsMarkBitmaps
++
+=
+markedAtoms
 .
 sizeOfExcludingThis
 (

@@ -972,6 +972,15 @@ false
 ;
 }
 }
+JS_MarkCrossZoneIdValue
+(
+cx
+StringValue
+(
+funname
+)
+)
+;
 RootedId
 id
 (

@@ -5988,6 +5988,12 @@ cx
 targetObj
 )
 ;
+JS_MarkCrossZoneId
+(
+cx
+symbolId
+)
+;
 if
 (
 !

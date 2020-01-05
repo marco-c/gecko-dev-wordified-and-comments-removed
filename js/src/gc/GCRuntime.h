@@ -41,6 +41,15 @@ include
 "
 gc
 /
+AtomMarking
+.
+h
+"
+#
+include
+"
+gc
+/
 Heap
 .
 h
@@ -3897,6 +3906,9 @@ schedulingState
 ;
 MemProfiler
 mMemProfiler
+;
+AtomMarkingRuntime
+atomMarking
 ;
 private
 :

@@ -6364,6 +6364,9 @@ JSAtom
 *
 name
 (
+JSContext
+*
+cx
 )
 const
 ;
@@ -6371,6 +6374,9 @@ JSAtom
 *
 displayName
 (
+JSContext
+*
+cx
 )
 const
 ;
