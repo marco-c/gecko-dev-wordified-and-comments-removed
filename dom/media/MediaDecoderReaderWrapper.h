@@ -205,14 +205,6 @@ ReadMetadata
 (
 )
 ;
-RefPtr
-<
-HaveStartTimePromise
->
-AwaitStartTime
-(
-)
-;
 decltype
 (
 mAudioCallback
