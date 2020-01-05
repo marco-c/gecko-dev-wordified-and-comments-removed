@@ -119,8 +119,6 @@ attribute
 long
 rowIndex
 ;
-/
-/
 readonly
 attribute
 long
