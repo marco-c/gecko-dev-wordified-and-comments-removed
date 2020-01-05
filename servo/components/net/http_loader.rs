@@ -2607,6 +2607,7 @@ accept
 ;
 }
 }
+pub
 fn
 set_request_cookies
 (
