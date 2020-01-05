@@ -266,7 +266,7 @@ if
 !
 vp
 .
-isMarkable
+isGCThing
 (
 )
 )

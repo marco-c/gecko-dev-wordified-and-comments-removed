@@ -1383,7 +1383,7 @@ val
 return
 val
 .
-isMarkable
+isGCThing
 (
 )
 &
@@ -1392,10 +1392,6 @@ ShouldTraceCrossCompartment
 (
 trc
 src
-(
-Cell
-*
-)
 val
 .
 toGCThing
@@ -9145,7 +9141,7 @@ elements
 i
 ]
 .
-isMarkable
+isGCThing
 (
 )
 )

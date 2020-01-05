@@ -841,7 +841,7 @@ argv
 i
 ]
 .
-isMarkable
+isGCThing
 (
 )
 !

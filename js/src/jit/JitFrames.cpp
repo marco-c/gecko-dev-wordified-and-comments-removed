@@ -10686,7 +10686,7 @@ if
 !
 v
 .
-isMarkable
+isGCThing
 (
 )
 )

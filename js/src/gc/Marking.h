@@ -1677,7 +1677,7 @@ if
 (
 v
 .
-isMarkable
+isGCThing
 (
 )
 )

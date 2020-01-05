@@ -2630,7 +2630,7 @@ if
 (
 rhs
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -2645,7 +2645,7 @@ ImmGCPtr
 (
 rhs
 .
-toMarkablePointer
+toGCThing
 (
 )
 )

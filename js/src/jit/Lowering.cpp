@@ -16815,7 +16815,7 @@ return
 !
 v
 .
-isMarkable
+isGCThing
 (
 )
 |
@@ -16825,7 +16825,7 @@ IsInsideNursery
 (
 v
 .
-toMarkablePointer
+toGCThing
 (
 )
 )

@@ -7211,7 +7211,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -7222,7 +7222,7 @@ ImmGCPtr
 (
 val
 .
-toMarkablePointer
+toGCThing
 (
 )
 )

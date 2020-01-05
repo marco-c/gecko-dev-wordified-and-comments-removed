@@ -19370,7 +19370,7 @@ vector
 i
 ]
 .
-isMarkable
+isGCThing
 (
 )
 vector

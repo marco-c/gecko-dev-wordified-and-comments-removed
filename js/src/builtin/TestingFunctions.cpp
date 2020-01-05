@@ -6127,7 +6127,7 @@ if
 !
 parent
 .
-isMarkable
+isGCThing
 (
 )
 |
@@ -6135,7 +6135,7 @@ isMarkable
 !
 child
 .
-isMarkable
+isGCThing
 (
 )
 )

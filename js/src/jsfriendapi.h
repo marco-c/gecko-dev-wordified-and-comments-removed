@@ -3316,14 +3316,14 @@ slotRef
 slot
 )
 .
-isMarkable
+isGCThing
 (
 )
 |
 |
 value
 .
-isMarkable
+isGCThing
 (
 )
 )

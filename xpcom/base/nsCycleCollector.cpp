@@ -10306,7 +10306,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 &

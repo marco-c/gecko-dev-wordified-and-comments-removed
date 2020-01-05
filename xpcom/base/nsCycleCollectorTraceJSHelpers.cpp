@@ -172,7 +172,7 @@ unbarrieredGet
 (
 )
 .
-isMarkable
+isGCThing
 (
 )
 )

@@ -16476,7 +16476,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -16486,7 +16486,7 @@ ImmGCPtr
 (
 val
 .
-toMarkablePointer
+toGCThing
 (
 )
 )
@@ -17548,7 +17548,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -17558,7 +17558,7 @@ ImmGCPtr
 (
 val
 .
-toMarkablePointer
+toGCThing
 (
 )
 )
@@ -17669,7 +17669,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -17679,7 +17679,7 @@ ImmGCPtr
 (
 val
 .
-toMarkablePointer
+toGCThing
 (
 )
 )
@@ -26057,7 +26057,7 @@ if
 (
 rhs
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -26072,7 +26072,7 @@ ImmGCPtr
 (
 rhs
 .
-toMarkablePointer
+toGCThing
 (
 )
 )
