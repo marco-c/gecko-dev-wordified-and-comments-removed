@@ -3,6 +3,8 @@ interfaces
 :
 :
 {
+cef_app_t
+CefApp
 cef_drag_data_t
 cef_post_data_element_t
 cef_v8value_t
@@ -683,6 +685,12 @@ c_void
 cef_pointer_wrapper
 !
 (
+cef_app_t
+)
+;
+cef_pointer_wrapper
+!
+(
 cef_base_t
 )
 ;
@@ -939,6 +947,12 @@ cef_noop_wrapper
 !
 (
 c_int
+)
+;
+cef_noop_wrapper
+!
+(
+CefApp
 )
 ;
 cef_noop_wrapper

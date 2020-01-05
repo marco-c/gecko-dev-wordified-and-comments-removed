@@ -479,6 +479,9 @@ InitLoadUrl
 Url
 )
 LoadComplete
+(
+PipelineId
+)
 FrameRect
 (
 PipelineId

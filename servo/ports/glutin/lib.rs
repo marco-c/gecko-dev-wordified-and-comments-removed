@@ -57,6 +57,10 @@ extern
 crate
 msg
 ;
+extern
+crate
+net
+;
 #
 [
 cfg

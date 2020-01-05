@@ -6260,6 +6260,9 @@ ConstellationMsg
 :
 :
 LoadComplete
+(
+pipeline
+)
 )
 .
 unwrap
