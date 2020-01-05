@@ -1066,7 +1066,7 @@ repeat
 }
 ;
 struct
-WrExternalImageIdId
+WrExternalImageId
 {
 WrImageIdType
 id
@@ -1074,7 +1074,7 @@ id
 }
 ;
 struct
-WrExternalImageId
+WrExternalImage
 {
 WrExternalImageIdType
 type
@@ -1093,7 +1093,7 @@ handle
 }
 ;
 typedef
-WrExternalImageId
+WrExternalImage
 (
 *
 LockExternalImageCallback
@@ -1101,7 +1101,7 @@ LockExternalImageCallback
 (
 void
 *
-WrExternalImageIdId
+WrExternalImageId
 )
 ;
 typedef
@@ -1113,7 +1113,7 @@ UnlockExternalImageCallback
 (
 void
 *
-WrExternalImageIdId
+WrExternalImageId
 )
 ;
 typedef
@@ -1125,15 +1125,15 @@ ReleaseExternalImageCallback
 (
 void
 *
-WrExternalImageIdId
+WrExternalImageId
 )
 ;
 struct
-WrExternalImageIdHandler
+WrExternalImageHandler
 {
 void
 *
-ExternalImageObj
+renderer_obj
 ;
 LockExternalImageCallback
 lock_func
@@ -1325,7 +1325,7 @@ void
 aGLContext
 bool
 enable_profiler
-WrExternalImageIdHandler
+WrExternalImageHandler
 *
 handler
 WrAPI
