@@ -897,6 +897,8 @@ mozilla
 .
 org
 /
+supports
+-
 array
 ;
 1
@@ -907,7 +909,7 @@ createInstance
 (
 Ci
 .
-nsIMutableArray
+nsISupportsArray
 )
 ;
 let
@@ -948,7 +950,6 @@ audioDevices
 [
 audioId
 ]
-false
 )
 ;
 let
@@ -990,7 +991,6 @@ videoDevices
 [
 videoId
 ]
-false
 )
 ;
 let
