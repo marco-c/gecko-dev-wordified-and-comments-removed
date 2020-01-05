@@ -2004,7 +2004,7 @@ const
 return
 mServo
 ?
-Servo_AnimationValues_GetOpacity
+Servo_AnimationValue_GetOpacity
 (
 mServo
 )
@@ -2037,7 +2037,7 @@ nsCSSValueSharedList
 >
 list
 ;
-Servo_AnimationValues_GetTransform
+Servo_AnimationValue_GetTransform
 (
 mServo
 &

@@ -399,14 +399,14 @@ buffer
 )
 SERVO_BINDING_FUNC
 (
-Servo_AnimationValues_GetOpacity
+Servo_AnimationValue_GetOpacity
 float
 RawServoAnimationValueBorrowed
 value
 )
 SERVO_BINDING_FUNC
 (
-Servo_AnimationValues_GetTransform
+Servo_AnimationValue_GetTransform
 void
 RawServoAnimationValueBorrowed
 value
