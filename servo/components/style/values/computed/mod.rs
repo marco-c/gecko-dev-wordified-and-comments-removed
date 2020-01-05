@@ -292,6 +292,10 @@ font_metrics_provider
 '
 a
 FontMetricsProvider
+pub
+in_media_query
+:
+bool
 }
 impl
 <
