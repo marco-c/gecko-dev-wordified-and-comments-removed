@@ -4,9 +4,8 @@ import
 with_statement
 import
 sys
+import
 os
-tempfile
-shutil
 from
 optparse
 import
@@ -23,14 +22,6 @@ import
 mozfile
 import
 mozlog
-from
-contextlib
-import
-contextmanager
-from
-subprocess
-import
-PIPE
 SCRIPT_DIR
 =
 os
@@ -963,10 +954,10 @@ llvmsym
 )
             
 assert
-not
 '
 ASAN_OPTIONS
 '
+not
 in
 env
             
