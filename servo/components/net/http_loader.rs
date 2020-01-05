@@ -7932,6 +7932,10 @@ routines
 &
 &
 function
+.
+to_uppercase
+(
+)
 =
 =
 "
