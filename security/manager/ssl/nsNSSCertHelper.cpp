@@ -231,7 +231,9 @@ OI
 (
 x
 )
+\
 {
+\
 siDEROID
 (
 unsigned
@@ -241,6 +243,7 @@ char
 x
 sizeof
 x
+\
 }
 #
 define
@@ -251,7 +254,9 @@ desc
 mech
 ext
 )
+\
 {
+\
 OI
 (
 oid
@@ -260,6 +265,7 @@ SEC_OID_UNKNOWN
 desc
 mech
 ext
+\
 }
 #
 define
@@ -4290,6 +4296,8 @@ buf
 .
 2x
 %
+"
+"
 .
 2x
 %
