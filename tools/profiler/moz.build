@@ -227,13 +227,6 @@ cpp
 '
 core
 /
-Sampler
-.
-cpp
-'
-'
-core
-/
 StackTop
 .
 cpp

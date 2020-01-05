@@ -286,6 +286,9 @@ class
 GeckoJavaSampler
 :
 public
+mozilla
+:
+:
 java
 :
 :
@@ -3465,6 +3468,9 @@ aInterval
 10
 ;
 }
+mozilla
+:
+:
 java
 :
 :
@@ -5213,6 +5219,13 @@ ToMilliseconds
 )
 ;
 }
+#
+include
+"
+Sampler
+.
+cpp
+"
 #
 if
 defined
