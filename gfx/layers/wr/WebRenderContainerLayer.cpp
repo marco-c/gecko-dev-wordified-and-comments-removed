@@ -292,7 +292,6 @@ GetCompositorAnimationsId
 ;
 if
 (
-!
 HasOpacityAnimation
 (
 )
@@ -305,7 +304,6 @@ nullptr
 }
 if
 (
-!
 HasTransformAnimation
 (
 )
