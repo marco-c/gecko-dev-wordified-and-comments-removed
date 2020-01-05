@@ -26,6 +26,12 @@ rendered
 ]
 ;
 import
+arc
+:
+:
+arc
+;
+import
 display_list_builder
 :
 :
@@ -227,7 +233,10 @@ node
 .
 recompute_style_for_subtree
 (
+arc
+(
 styles
+)
 )
 ;
 let
