@@ -49,7 +49,7 @@ git
 repository
 is
 :
-git
+https
 :
 /
 /
@@ -60,13 +60,11 @@ com
 kinetiknz
 /
 nestegg
-.
-git
 The
 git
 commit
 ID
 used
 was
-5e2fb721d5808785475d68f63fc97d45b8a4ef03
+af26fc354ec9eadf5fcd34fb01223be3f6f8a773
 .
