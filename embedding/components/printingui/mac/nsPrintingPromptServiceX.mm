@@ -331,8 +331,9 @@ nsPrintingPromptService
 nsPrintingPromptService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsPrintingPromptService
 :

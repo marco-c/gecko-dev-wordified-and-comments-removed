@@ -60,8 +60,9 @@ WebBrowserPersistResourcesParent
 WebBrowserPersistResourcesParent
 (
 )
-{
-}
+=
+default
+;
 void
 WebBrowserPersistResourcesParent
 :

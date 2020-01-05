@@ -446,8 +446,9 @@ WebBrowserPersistLocalDocument
 WebBrowserPersistLocalDocument
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 WebBrowserPersistLocalDocument
 :
@@ -2919,8 +2920,9 @@ virtual
 PersistNodeFixup
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 WebBrowserPersistLocalDocument

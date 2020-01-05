@@ -46,8 +46,9 @@ WebBrowserPersistResourcesChild
 WebBrowserPersistResourcesChild
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 WebBrowserPersistResourcesChild
 :
