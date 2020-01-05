@@ -1382,8 +1382,6 @@ loadCompleted
 (
 )
 ;
-return
-;
 }
 }
 else

@@ -222,8 +222,6 @@ default
 break
 ;
 }
-return
-;
 }
 }
 ;

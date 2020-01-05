@@ -719,8 +719,6 @@ aEvent
 type
 )
 ;
-return
-;
 }
 }
 }
@@ -1368,8 +1366,6 @@ aEvent
 .
 type
 )
-;
-return
 ;
 }
 }

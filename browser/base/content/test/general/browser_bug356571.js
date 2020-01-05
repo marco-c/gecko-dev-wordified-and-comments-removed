@@ -289,8 +289,6 @@ disabled
 "
 )
 ;
-return
-;
 }
 function
 finishTest

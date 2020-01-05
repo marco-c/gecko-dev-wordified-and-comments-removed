@@ -9305,8 +9305,6 @@ showUpdateElevationRequired
 (
 )
 ;
-return
-;
 }
 else
 {

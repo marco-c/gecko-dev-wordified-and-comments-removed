@@ -1232,8 +1232,6 @@ createOrRemoveSpecialDevEditionFile
 (
 )
 ;
-return
-;
 }
 }
 }

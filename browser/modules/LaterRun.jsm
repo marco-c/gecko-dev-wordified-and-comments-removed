@@ -346,8 +346,6 @@ selfDestruct
 (
 )
 ;
-return
-;
 }
 }
 get

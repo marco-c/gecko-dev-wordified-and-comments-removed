@@ -839,8 +839,6 @@ triggered
 =
 true
 ;
-return
-;
 }
 ;
 this

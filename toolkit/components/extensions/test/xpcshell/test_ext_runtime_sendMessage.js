@@ -119,6 +119,7 @@ never
 )
 {
 return
+undefined
 ;
 }
 else

@@ -10841,8 +10841,6 @@ specified
 "
 )
 ;
-return
-;
 }
 }
 addNavBarWidget
@@ -11266,8 +11264,6 @@ given
 ID
 "
 )
-;
-return
 ;
 }
 )

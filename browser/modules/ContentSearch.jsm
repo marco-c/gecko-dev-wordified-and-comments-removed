@@ -1075,8 +1075,6 @@ selection
 }
 )
 ;
-return
-;
 }
 getSuggestions
 :

@@ -4777,8 +4777,6 @@ blocklist
 e
 )
 ;
-return
-;
 }
 }
 _processItemNodes

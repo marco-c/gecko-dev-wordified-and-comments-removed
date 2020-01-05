@@ -838,6 +838,7 @@ never
 )
 {
 return
+undefined
 ;
 }
 else

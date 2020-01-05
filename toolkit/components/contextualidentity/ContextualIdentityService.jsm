@@ -1273,8 +1273,6 @@ loadError
 error
 )
 ;
-return
-;
 }
 }
 getIdentities

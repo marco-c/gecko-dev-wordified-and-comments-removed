@@ -1074,8 +1074,6 @@ testShiftAltReturn
 (
 )
 {
-return
-;
 }
 )
 ;

@@ -227,8 +227,6 @@ finish
 (
 )
 ;
-return
-;
 }
 function
 ok

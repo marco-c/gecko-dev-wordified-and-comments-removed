@@ -4318,8 +4318,6 @@ successCallback
 (
 )
 ;
-return
-;
 }
 }
 catch

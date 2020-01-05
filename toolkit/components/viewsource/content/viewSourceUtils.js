@@ -1429,8 +1429,6 @@ false
 data
 )
 ;
-return
-;
 }
 }
 internalViewerFallback

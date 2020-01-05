@@ -1020,8 +1020,6 @@ clearHistory
 )
 ;
 }
-return
-;
 }
 )
 ;

@@ -2529,8 +2529,6 @@ resolve
 (
 )
 ;
-return
-;
 }
 }
 content

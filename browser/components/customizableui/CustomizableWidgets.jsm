@@ -5926,8 +5926,6 @@ stopPropagation
 (
 )
 ;
-return
-;
 }
 }
 onCreated

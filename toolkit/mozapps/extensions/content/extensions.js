@@ -10633,8 +10633,6 @@ focusSearchBox
 (
 )
 ;
-return
-;
 }
 }
 get

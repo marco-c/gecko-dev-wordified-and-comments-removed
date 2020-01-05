@@ -9791,8 +9791,6 @@ becauseNoSuchFile
 throw
 e
 ;
-return
-;
 }
 }
 )
