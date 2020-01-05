@@ -649,6 +649,10 @@ IpcSender
 String
 >
 )
+SetClipboardContents
+(
+String
+)
 WebDriverCommand
 (
 WebDriverCommandMsg
