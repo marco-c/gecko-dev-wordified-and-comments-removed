@@ -65,7 +65,7 @@ ENTITY
 brandShortName
 "
 Firefox
-Aurora
+Nightly
 "
 >
 <
@@ -75,7 +75,7 @@ brandFullName
 "
 Mozilla
 Firefox
-Aurora
+Nightly
 "
 >
 <

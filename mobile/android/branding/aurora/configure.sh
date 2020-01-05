@@ -57,7 +57,7 @@ MOZ_APP_DISPLAYNAME
 =
 "
 Firefox
-Aurora
+Nightly
 "
 ANDROID_PACKAGE_NAME
 =
