@@ -2554,7 +2554,7 @@ mZIndex
 =
 aZIndex
 ;
-nsBaseWidget
+auto
 *
 parent
 =
@@ -7937,7 +7937,7 @@ void
 aClosure
 )
 {
-nsIWidget
+auto
 *
 self
 =

@@ -2142,13 +2142,7 @@ if
 fl
 )
 {
-mozilla
-:
-:
-dom
-:
-:
-TabParent
+auto
 *
 tp
 =
