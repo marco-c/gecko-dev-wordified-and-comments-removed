@@ -26,7 +26,9 @@ github
 .
 com
 /
-mozilla
+rust
+-
+lang
 /
 rust
 )
