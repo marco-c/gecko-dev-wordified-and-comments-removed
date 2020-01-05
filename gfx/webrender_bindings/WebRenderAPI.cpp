@@ -194,6 +194,9 @@ layers
 CompositorBridgeParentBase
 *
 aBridge
+GLint
+*
+aMaxTextureSize
 RefPtr
 <
 widget
@@ -217,6 +220,10 @@ aEnableProfiler
 mWrApi
 (
 aApi
+)
+mMaxTextureSize
+(
+aMaxTextureSize
 )
 mBridge
 (
@@ -315,6 +322,15 @@ MakeCurrent
 return
 ;
 }
+gl
+-
+>
+fGetIntegerv
+(
+LOCAL_GL_MAX_TEXTURE_SIZE
+mMaxTextureSize
+)
+;
 wr_gl_init
 (
 &
@@ -397,6 +413,10 @@ WrAPI
 *
 *
 mWrApi
+;
+GLint
+*
+mMaxTextureSize
 ;
 layers
 :
@@ -564,6 +584,11 @@ wrApi
 =
 nullptr
 ;
+GLint
+maxTextureSize
+=
+0
+;
 layers
 :
 :
@@ -587,6 +612,8 @@ NewRenderer
 &
 wrApi
 aBridge
+&
+maxTextureSize
 Move
 (
 aWidget
@@ -640,6 +667,7 @@ WebRenderAPI
 (
 wrApi
 id
+maxTextureSize
 )
 )
 .

@@ -765,6 +765,11 @@ TimeStamp
 aEnd
 )
 ;
+TextureFactoryIdentifier
+GetTextureFactoryIdentifier
+(
+)
+;
 private
 :
 virtual

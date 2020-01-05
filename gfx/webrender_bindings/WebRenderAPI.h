@@ -285,6 +285,16 @@ RendererEvent
 aEvent
 )
 ;
+GLint
+GetMaxTextureSize
+(
+)
+const
+{
+return
+mMaxTextureSize
+;
+}
 protected
 :
 WebRenderAPI
@@ -297,6 +307,8 @@ wr
 :
 WindowId
 aId
+GLint
+aMaxTextureSize
 )
 :
 mWrApi
@@ -306,6 +318,10 @@ aRawApi
 mId
 (
 aId
+)
+mMaxTextureSize
+(
+aMaxTextureSize
 )
 {
 }
@@ -323,6 +339,9 @@ wr
 :
 WindowId
 mId
+;
+GLint
+mMaxTextureSize
 ;
 friend
 class
