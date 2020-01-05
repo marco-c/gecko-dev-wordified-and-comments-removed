@@ -589,14 +589,6 @@ return
 mIsDestroying
 ;
 }
-virtual
-void
-MakeZombie
-(
-)
-=
-0
-;
 void
 *
 AllocateFrame
@@ -4028,11 +4020,6 @@ mDidInitialize
 ;
 bool
 mIsDestroying
-:
-1
-;
-bool
-mIsZombie
 :
 1
 ;
