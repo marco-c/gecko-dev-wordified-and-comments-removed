@@ -30,7 +30,7 @@ ctypes
 libraryName
 (
 "
-c
+m
 "
 )
 )
