@@ -115,6 +115,7 @@ derive
 (
 Clone
 PartialEq
+Debug
 )
 ]
 pub
