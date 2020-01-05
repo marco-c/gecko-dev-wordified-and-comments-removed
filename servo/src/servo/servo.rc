@@ -100,6 +100,9 @@ opengles
 use
 http_client
 ;
+use
+hubbub
+;
 mod
 engine
 ;
@@ -249,6 +252,9 @@ html_builder
 ;
 mod
 css_builder
+;
+mod
+hubbub_html_parser
 ;
 }
 mod

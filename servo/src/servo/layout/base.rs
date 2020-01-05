@@ -1738,8 +1738,6 @@ box
 kind
 {
 BlockBox
-|
-InlineBox
 =
 >
 box
@@ -1751,6 +1749,8 @@ size
 width
 =
 available_width
+InlineBox
+|
 IntrinsicBox
 (
 *
