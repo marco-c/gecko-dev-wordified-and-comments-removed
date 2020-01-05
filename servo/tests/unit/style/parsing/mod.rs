@@ -775,6 +775,9 @@ mod
 supports
 ;
 mod
+text
+;
+mod
 text_overflow
 ;
 mod
