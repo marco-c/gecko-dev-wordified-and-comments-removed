@@ -568,6 +568,10 @@ second
 SURROGATE_OFFSET
 )
 #
+if
+!
+ENABLE_INTL_API
+#
 define
 UTF_ERROR_VALUE
 0xffff
@@ -1474,6 +1478,8 @@ i
 length
 c
 )
+#
+endif
 struct
 Isolate
 {
