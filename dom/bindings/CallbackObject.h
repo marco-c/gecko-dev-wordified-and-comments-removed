@@ -436,10 +436,6 @@ JS
 ObjectIsMarkedGray
 (
 mCallback
-.
-get
-(
-)
 )
 )
 ;
