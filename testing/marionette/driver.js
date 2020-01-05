@@ -5498,6 +5498,11 @@ return
 this
 .
 windowHandles
+.
+map
+(
+String
+)
 ;
 }
 GeckoDriver
@@ -5581,6 +5586,11 @@ return
 this
 .
 chromeWindowHandles
+.
+map
+(
+String
+)
 ;
 }
 GeckoDriver
