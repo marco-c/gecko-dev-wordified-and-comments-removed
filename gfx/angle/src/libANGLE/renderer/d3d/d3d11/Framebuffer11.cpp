@@ -959,6 +959,11 @@ getColorAttachment
 colorIndex
 )
 ;
+if
+(
+colorAttachment
+)
+{
 ANGLE_TRY
 (
 invalidateAttachment
@@ -967,6 +972,7 @@ colorAttachment
 )
 )
 ;
+}
 break
 ;
 }
