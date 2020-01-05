@@ -1,3 +1,5 @@
+import
+os
 from
 WebIDL
 import
@@ -2460,6 +2462,12 @@ object
 :
     
 return
+os
+.
+path
+.
+basename
+(
 object
 .
 location
@@ -2467,17 +2475,7 @@ location
 filename
 (
 )
-.
-split
-(
-'
-/
-'
 )
-[
--
-1
-]
 .
 split
 (
