@@ -973,12 +973,10 @@ SplitDidFit
 (
 Option
 <
-~
 Box
 >
 Option
 <
-~
 Box
 >
 )
@@ -986,12 +984,10 @@ SplitDidNotFit
 (
 Option
 <
-~
 Box
 >
 Option
 <
-~
 Box
 >
 )
@@ -6454,7 +6450,6 @@ left_range
 let
 new_text_box
 =
-~
 Box
 :
 :
@@ -6542,7 +6537,6 @@ range
 let
 new_text_box
 =
-~
 Box
 :
 :

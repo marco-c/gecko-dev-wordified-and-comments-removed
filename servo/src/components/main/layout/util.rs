@@ -322,14 +322,12 @@ old_boxes
 :
 &
 [
-~
 Box
 ]
 new_boxes
 :
 &
 [
-~
 Box
 ]
 )

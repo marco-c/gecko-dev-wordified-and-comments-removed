@@ -231,14 +231,12 @@ new_boxes
 :
 ~
 [
-~
 Box
 ]
 work_list
 :
 RingBuf
 <
-~
 Box
 >
 pending_line
@@ -2264,7 +2262,6 @@ mut
 self
 in_box
 :
-~
 Box
 flow
 :
@@ -2332,6 +2329,7 @@ self
 .
 initial_line_placement
 (
+&
 in_box
 this_line_y
 flow
@@ -2523,7 +2521,6 @@ mut
 self
 in_box
 :
-~
 Box
 flow
 :
@@ -2564,6 +2561,7 @@ self
 .
 initial_line_placement
 (
+&
 in_box
 self
 .
@@ -2722,6 +2720,7 @@ self
 .
 new_height_for_line
 (
+&
 in_box
 )
 ;
@@ -3315,7 +3314,6 @@ mut
 self
 box
 :
-~
 Box
 )
 {
@@ -3537,7 +3535,6 @@ boxes
 :
 ~
 [
-~
 Box
 ]
 /
@@ -3682,7 +3679,6 @@ boxes
 :
 ~
 [
-~
 Box
 ]
 )
@@ -4564,7 +4560,6 @@ boxes
 :
 &
 [
-~
 Box
 ]
 line
@@ -5895,7 +5890,6 @@ image_box
 .
 image_height
 (
-*
 cur_box
 )
 ;
@@ -6621,7 +6615,6 @@ InlineFlow
 :
 relative_offset_from_baseline
 (
-*
 cur_box
 ascent
 parent_text_top

@@ -387,7 +387,6 @@ boxes
 :
 ~
 [
-~
 Box
 ]
 }
@@ -580,7 +579,6 @@ predecessor_boxes
 :
 ~
 [
-~
 Box
 ]
 /
@@ -1388,7 +1386,6 @@ LayoutView
 )
 -
 >
-~
 Box
 {
 let
@@ -1452,7 +1449,6 @@ _
 GenericBox
 }
 ;
-~
 Box
 :
 :
@@ -1531,7 +1527,6 @@ boxes
 :
 ~
 [
-~
 Box
 ]
 flow
@@ -1657,7 +1652,6 @@ Option
 <
 ~
 [
-~
 Box
 ]
 >
@@ -3730,7 +3724,6 @@ Option
 <
 ~
 [
-~
 Box
 ]
 >
@@ -3825,7 +3818,6 @@ Option
 <
 ~
 [
-~
 Box
 ]
 >
