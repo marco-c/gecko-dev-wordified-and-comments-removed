@@ -34,6 +34,13 @@ MPL
 .
 0
 "
+build
+=
+"
+build
+.
+rs
+"
 publish
 =
 false
