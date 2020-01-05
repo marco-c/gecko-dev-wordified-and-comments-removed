@@ -15215,7 +15215,7 @@ Category
 GRAPHICS
 )
 ;
-NS_FOR_CSS_CORNERS
+NS_FOR_CSS_FULL_CORNERS
 (
 corner
 )
@@ -15325,7 +15325,7 @@ height
 ;
 }
 }
-NS_FOR_CSS_CORNERS
+NS_FOR_CSS_FULL_CORNERS
 (
 corner
 )

@@ -1257,7 +1257,7 @@ mozilla
 eCornerBottomLeft
 #
 define
-NS_FOR_CSS_CORNERS
+NS_FOR_CSS_FULL_CORNERS
 (
 var_
 )
