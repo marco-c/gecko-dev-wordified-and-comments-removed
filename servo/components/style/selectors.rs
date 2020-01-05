@@ -143,8 +143,10 @@ u32
 [
 deriving
 (
+Eq
 PartialEq
 Clone
+Hash
 )
 ]
 pub
@@ -208,8 +210,10 @@ LaterSibling
 [
 deriving
 (
+Eq
 PartialEq
 Clone
+Hash
 )
 ]
 pub
@@ -312,8 +316,10 @@ OnlyOfType
 [
 deriving
 (
+Eq
 PartialEq
 Clone
+Hash
 )
 ]
 pub
@@ -333,8 +339,10 @@ Atom
 [
 deriving
 (
+Eq
 PartialEq
 Clone
+Hash
 )
 ]
 pub
@@ -358,8 +366,10 @@ NamespaceConstraint
 [
 deriving
 (
+Eq
 PartialEq
 Clone
+Hash
 )
 ]
 pub

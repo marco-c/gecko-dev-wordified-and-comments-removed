@@ -3,6 +3,7 @@
 [
 feature
 (
+default_type_params
 macro_rules
 unsafe_destructor
 )
@@ -121,11 +122,19 @@ atom
 ;
 pub
 mod
+bloom
+;
+pub
+mod
 cache
 ;
 pub
 mod
 debug_utils
+;
+pub
+mod
+fnv
 ;
 pub
 mod

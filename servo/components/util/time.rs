@@ -149,6 +149,7 @@ TimeProfilerCategory
 CompositingCategory
 LayoutQueryCategory
 LayoutPerformCategory
+LayoutMaxSelectorMatchesCategory
 LayoutStyleRecalcCategory
 LayoutSelectorMatchCategory
 LayoutTreeBuilderCategory
@@ -225,6 +226,17 @@ buckets
 insert
 (
 LayoutPerformCategory
+vec
+!
+(
+)
+)
+;
+buckets
+.
+insert
+(
+LayoutMaxSelectorMatchesCategory
 vec
 !
 (

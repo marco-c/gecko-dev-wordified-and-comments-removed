@@ -2,9 +2,11 @@
 [
 deriving
 (
+Eq
 PartialEq
 Clone
 Encodable
+Hash
 )
 ]
 pub
