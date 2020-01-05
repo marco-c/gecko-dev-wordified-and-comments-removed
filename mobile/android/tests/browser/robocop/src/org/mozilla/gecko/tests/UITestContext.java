@@ -172,6 +172,14 @@ url
 )
 ;
 public
+void
+runOnUiThreadSync
+(
+Runnable
+runnable
+)
+;
+public
 BaseComponent
 getComponent
 (
