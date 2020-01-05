@@ -643,17 +643,6 @@ SetAboutToSendAsyncMessages
 )
 override
 ;
-void
-DidComposite
-(
-uint64_t
-aTransactionId
-TimeStamp
-aStart
-TimeStamp
-aEnd
-)
-;
 private
 :
 virtual
