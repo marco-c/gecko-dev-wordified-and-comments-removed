@@ -142,8 +142,12 @@ row
 ;
 SkWbmpCodec
 (
+int
+width
+int
+height
 const
-SkImageInfo
+SkEncodedInfo
 &
 SkStream
 *

@@ -95,14 +95,6 @@ if
 !
 =
 fRenderbufferID
-&
-&
-this
--
->
-shouldFreeResources
-(
-)
 )
 {
 GrGLGpu

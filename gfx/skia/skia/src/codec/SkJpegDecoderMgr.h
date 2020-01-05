@@ -92,9 +92,15 @@ init
 (
 )
 ;
-SkColorType
-getColorType
+bool
+getEncodedColor
 (
+SkEncodedInfo
+:
+:
+Color
+*
+outColor
 )
 ;
 ~

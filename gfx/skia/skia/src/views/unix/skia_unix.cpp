@@ -15,6 +15,13 @@ h
 #
 include
 "
+SkGraphics
+.
+h
+"
+#
+include
+"
 SkWindow
 .
 h
@@ -30,6 +37,13 @@ char
 argv
 )
 {
+SkGraphics
+:
+:
+Init
+(
+)
+;
 SkOSWindow
 *
 window

@@ -188,7 +188,7 @@ array
 }
 }
 static
-inline
+constexpr
 uint32_t
 SkEndianSwap32
 (

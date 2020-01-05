@@ -33,9 +33,6 @@ next
 SkOpCoincidence
 *
 coincidence
-SkChunkAlloc
-*
-allocator
 )
 ;
 #

@@ -240,7 +240,7 @@ IsOpaque
 paint
 -
 >
-getXfermode
+getBlendMode
 (
 )
 opacityType

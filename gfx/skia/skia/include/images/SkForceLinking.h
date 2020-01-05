@@ -1,3 +1,10 @@
+#
+include
+"
+SkTypes
+.
+h
+"
 int
 SkForceLinking
 (

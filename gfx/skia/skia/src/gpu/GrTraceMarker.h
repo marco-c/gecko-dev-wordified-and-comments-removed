@@ -233,7 +233,6 @@ Iter
 )
 {
 }
-;
 Iter
 &
 operator

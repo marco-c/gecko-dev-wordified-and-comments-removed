@@ -50,7 +50,6 @@ fDynamic
 kDynamic_GrAccessPattern
 :
 kStatic_GrAccessPattern
-false
 )
 GrVkBuffer
 (
@@ -63,6 +62,10 @@ this
 >
 registerWithCache
 (
+SkBudgeted
+:
+:
+kYes
 )
 ;
 }

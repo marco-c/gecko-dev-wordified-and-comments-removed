@@ -7,7 +7,7 @@ SkThreadUtils_WinData_DEFINED
 #
 include
 "
-SkTypes
+SkLeanWindows
 .
 h
 "

@@ -1913,7 +1913,6 @@ GlyphFindAndPlaceInterface
 )
 {
 }
-;
 virtual
 SkPoint
 findAndPositionGlyph
@@ -1953,7 +1952,6 @@ return
 }
 ;
 }
-;
 }
 ;
 template

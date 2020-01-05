@@ -7,14 +7,14 @@ SkBitmapCache_DEFINED
 #
 include
 "
-SkScalar
+SkBitmap
 .
 h
 "
 #
 include
 "
-SkBitmap
+SkMipMap
 .
 h
 "
@@ -23,9 +23,6 @@ SkImage
 ;
 class
 SkResourceCache
-;
-class
-SkMipMap
 ;
 uint64_t
 SkMakeResourceCacheSharedIDForBitmap
@@ -241,6 +238,7 @@ FindAndRef
 const
 SkBitmapCacheDesc
 &
+SkSourceGammaTreatment
 SkResourceCache
 *
 localCache
@@ -258,6 +256,7 @@ const
 SkBitmap
 &
 src
+SkSourceGammaTreatment
 SkResourceCache
 *
 localCache

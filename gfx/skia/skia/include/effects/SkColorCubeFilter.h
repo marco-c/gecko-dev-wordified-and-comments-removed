@@ -26,7 +26,7 @@ include
 /
 private
 /
-SkMutex
+SkOnce
 .
 h
 "
@@ -111,9 +111,10 @@ override
 #
 if
 SK_SUPPORT_GPU
-const
+sk_sp
+<
 GrFragmentProcessor
-*
+>
 asFragmentProcessor
 (
 GrContext
@@ -236,11 +237,8 @@ const
 int
 fCubeDimension
 ;
-SkMutex
-fLutsMutex
-;
-bool
-fLutsInited
+SkOnce
+fLutsInitOnce
 ;
 static
 void

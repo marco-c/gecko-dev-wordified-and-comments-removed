@@ -18,13 +18,6 @@ GrTypes
 .
 h
 "
-#
-include
-"
-SkImageFilter
-.
-h
-"
 class
 GrSingleOwner
 ;

@@ -25,7 +25,6 @@ SkColorMatrixFilterRowMajor255
 )
 {
 }
-;
 explicit
 SkColorMatrixFilterRowMajor255
 (
@@ -122,9 +121,10 @@ override
 #
 if
 SK_SUPPORT_GPU
-const
+sk_sp
+<
 GrFragmentProcessor
-*
+>
 asFragmentProcessor
 (
 GrContext

@@ -372,6 +372,12 @@ int
 msaaSampleCount
 *
 /
+bool
+/
+*
+deepColor
+*
+/
 AttachmentInfo
 *
 info

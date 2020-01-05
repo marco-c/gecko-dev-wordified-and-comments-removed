@@ -43,10 +43,14 @@ public
 :
 SkBmpRLECodec
 (
+int
+width
+int
+height
 const
-SkImageInfo
+SkEncodedInfo
 &
-srcInfo
+info
 SkStream
 *
 stream
@@ -131,6 +135,8 @@ private
 bool
 createColorTable
 (
+SkColorType
+dstColorType
 int
 *
 colorCount

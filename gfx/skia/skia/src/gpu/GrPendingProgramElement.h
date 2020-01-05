@@ -40,7 +40,6 @@ nullptr
 )
 {
 }
-;
 explicit
 GrPendingProgramElement
 (

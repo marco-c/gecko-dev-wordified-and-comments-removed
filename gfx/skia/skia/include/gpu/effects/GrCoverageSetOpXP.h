@@ -37,9 +37,11 @@ GrXPFactory
 public
 :
 static
+sk_sp
+<
 GrXPFactory
-*
-Create
+>
+Make
 (
 SkRegion
 :
@@ -111,7 +113,6 @@ GrCaps
 const
 GrPipelineOptimizations
 &
-bool
 )
 const
 override

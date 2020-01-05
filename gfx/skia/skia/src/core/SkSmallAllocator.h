@@ -237,11 +237,6 @@ storageRequired
 storageRemaining
 )
 {
-SkASSERT
-(
-false
-)
-;
 rec
 -
 >

@@ -59,6 +59,13 @@ h
 #
 include
 "
+SkGraphics
+.
+h
+"
+#
+include
+"
 SkNSView
 .
 h
@@ -244,6 +251,13 @@ argv
 ]
 )
 {
+SkGraphics
+:
+:
+Init
+(
+)
+;
 signal
 (
 SIGPIPE

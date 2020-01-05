@@ -28,6 +28,7 @@ h
 namespace
 SK_OPTS_NS
 {
+static
 void
 color_cube_filter_span
 (
