@@ -482,6 +482,7 @@ wasmScript
 .
 lineCount
 >
+=
 0
 true
 )
