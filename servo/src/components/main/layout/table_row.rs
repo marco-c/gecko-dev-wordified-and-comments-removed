@@ -402,9 +402,7 @@ style
 (
 )
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -505,9 +503,7 @@ style
 (
 )
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -925,9 +921,7 @@ style
 (
 )
 .
-Box
-.
-get
+get_box
 (
 )
 .

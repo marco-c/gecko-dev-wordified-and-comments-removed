@@ -2980,9 +2980,7 @@ get_content
 &
 before_style
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -3010,9 +3008,7 @@ get_content
 &
 after_style
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -3426,9 +3422,7 @@ get_ref
 ;
 before_style
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -3455,9 +3449,7 @@ get_ref
 ;
 after_style
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -3482,9 +3474,7 @@ get_ref
 ;
 after_style
 .
-Box
-.
-get
+get_box
 (
 )
 .
