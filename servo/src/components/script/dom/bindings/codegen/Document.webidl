@@ -503,6 +503,8 @@ createDocumentFragment
 (
 )
 ;
+*
+/
 [
 Creator
 ]
@@ -513,6 +515,8 @@ DOMString
 data
 )
 ;
+/
+*
 [
 Creator
 ]
