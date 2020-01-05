@@ -627,7 +627,7 @@ context
 >
 context
 .
-recreate
+set_bitmap_dimensions
 (
 size
 )
