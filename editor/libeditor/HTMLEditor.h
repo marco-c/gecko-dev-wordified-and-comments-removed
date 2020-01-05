@@ -2313,8 +2313,8 @@ nsresult
 InsertObject
 (
 const
-char
-*
+nsACString
+&
 aType
 nsISupports
 *
