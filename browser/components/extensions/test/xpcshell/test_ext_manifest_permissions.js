@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testPermission
 (
 options
@@ -83,7 +83,7 @@ loadExtension
 extensionDetails
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -93,7 +93,7 @@ startup
 let
 types
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -149,7 +149,7 @@ manifest
 entry
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -173,7 +173,7 @@ loadExtension
 extensionDetails
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -182,7 +182,7 @@ startup
 ;
 types
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -238,7 +238,7 @@ manifest
 entry
 )
 ;
-yield
+await
 extension
 .
 unload

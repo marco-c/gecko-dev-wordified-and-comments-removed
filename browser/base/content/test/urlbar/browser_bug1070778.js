@@ -165,8 +165,8 @@ abc
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -178,7 +178,7 @@ of
 bookmarks
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks

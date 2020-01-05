@@ -1908,8 +1908,8 @@ return
 menu
 ;
 }
+async
 function
-*
 openSubmenu
 (
 submenuItem
@@ -1948,7 +1948,7 @@ submenuItem
 win
 )
 ;
-yield
+await
 shown
 ;
 return

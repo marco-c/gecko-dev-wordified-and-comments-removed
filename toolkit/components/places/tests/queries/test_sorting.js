@@ -16,7 +16,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_NONE
-*
+async
 setup
 (
 )
@@ -184,7 +184,7 @@ this
 .
 _unsortedData
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -308,7 +308,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_TITLE_ASCENDING
-*
+async
 setup
 (
 )
@@ -524,7 +524,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -672,7 +672,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_DATE_ASCENDING
-*
+async
 setup
 (
 )
@@ -980,7 +980,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -1128,7 +1128,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_URI_ASCENDING
-*
+async
 setup
 (
 )
@@ -1461,7 +1461,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -2228,7 +2228,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_KEYWORD_ASCENDING
-*
+async
 setup
 (
 )
@@ -2562,7 +2562,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -2710,7 +2710,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_DATEADDED_ASCENDING
-*
+async
 setup
 (
 )
@@ -2986,7 +2986,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -3134,7 +3134,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_LASTMODIFIED_ASCENDING
-*
+async
 setup
 (
 )
@@ -3432,7 +3432,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -3580,7 +3580,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_TAGS_ASCENDING
-*
+async
 setup
 (
 )
@@ -3946,7 +3946,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -4094,7 +4094,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_ANNOTATION_ASCENDING
-*
+async
 setup
 (
 )
@@ -4376,7 +4376,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -4512,7 +4512,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_ANNOTATION_ASCENDING
-*
+async
 setup
 (
 )
@@ -4732,7 +4732,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -4868,7 +4868,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_ANNOTATION_ASCENDING
-*
+async
 setup
 (
 )
@@ -5093,7 +5093,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -5229,7 +5229,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_ANNOTATION_ASCENDING
-*
+async
 setup
 (
 )
@@ -5455,7 +5455,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -5591,7 +5591,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_FRECENCY_ASCENDING
-*
+async
 setup
 (
 )
@@ -5870,7 +5870,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this

@@ -3,8 +3,8 @@ visit_count
 =
 0
 ;
+async
 function
-*
 task_add_visit
 (
 aURI
@@ -121,7 +121,7 @@ visitId
 let
 visitId
 =
-yield
+await
 deferUpdatePlaces
 ;
 if

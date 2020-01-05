@@ -807,8 +807,8 @@ ready
 "
 )
 ;
+async
 function
-*
 clickContextMenu
 (
 )
@@ -816,7 +816,7 @@ clickContextMenu
 let
 extensionMenuRoot
 =
-yield
+await
 openContextMenu
 (
 )
@@ -851,7 +851,7 @@ item
 "
 )
 ;
-yield
+await
 closeExtensionContextMenu
 (
 items
@@ -866,7 +866,7 @@ onClicked
 from
 :
 {
-yield
+await
 extension
 .
 awaitMessage
@@ -886,7 +886,7 @@ onClicked
 from
 :
 {
-yield
+await
 extension
 .
 awaitMessage
@@ -901,8 +901,8 @@ fired
 )
 ;
 }
+async
 function
-*
 getCounts
 (
 page
@@ -923,7 +923,7 @@ counts
 )
 ;
 return
-yield
+await
 extension
 .
 awaitMessage
@@ -936,8 +936,8 @@ counts
 )
 ;
 }
+async
 function
-*
 resetCounts
 (
 )
@@ -974,7 +974,7 @@ counts
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -984,7 +984,7 @@ next
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1704,8 +1704,8 @@ ready
 "
 )
 ;
+async
 function
-*
 click
 (
 modifiers
@@ -1717,7 +1717,7 @@ modifiers
 const
 menu
 =
-yield
+await
 openContextMenu
 (
 )
@@ -1737,7 +1737,7 @@ modify
 "
 )
 ;
-yield
+await
 closeExtensionContextMenu
 (
 items

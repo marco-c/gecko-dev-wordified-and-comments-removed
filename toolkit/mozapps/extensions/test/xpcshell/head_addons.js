@@ -6403,8 +6403,8 @@ aId
 return
 file
 }
+async
 function
-*
 serveSystemUpdate
 (
 xml
@@ -6443,7 +6443,7 @@ xml
 ;
 try
 {
-yield
+await
 perform_update
 (
 )
@@ -6468,8 +6468,8 @@ null
 ;
 }
 }
+async
 function
-*
 installSystemAddons
 (
 xml
@@ -6490,12 +6490,12 @@ check
 "
 )
 ;
-yield
+await
 serveSystemUpdate
 (
 xml
+async
 function
-*
 (
 )
 {
@@ -6529,7 +6529,7 @@ jsm
 }
 )
 ;
-yield
+await
 XPIProvider
 .
 updateSystemAddons
@@ -6541,8 +6541,8 @@ testserver
 )
 ;
 }
+async
 function
-*
 updateAllSystemAddons
 (
 xml
@@ -6563,7 +6563,7 @@ check
 "
 )
 ;
-yield
+await
 serveSystemUpdate
 (
 xml

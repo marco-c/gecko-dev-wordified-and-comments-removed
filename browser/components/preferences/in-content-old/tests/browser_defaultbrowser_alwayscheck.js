@@ -50,8 +50,8 @@ isDefault
 :
 false
 }
+async
 function
-*
 (
 )
 {
@@ -190,7 +190,7 @@ updateSetDefaultBrowser
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -425,8 +425,8 @@ isDefault
 :
 false
 }
+async
 function
-*
 (
 )
 {
@@ -586,7 +586,7 @@ updateSetDefaultBrowser
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

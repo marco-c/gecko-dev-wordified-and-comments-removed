@@ -325,8 +325,8 @@ runNextTest
 )
 ;
 }
+async
 function
-*
 runNextTest
 (
 )
@@ -588,7 +588,7 @@ test
 "
 )
 ;
-yield
+await
 nextTest
 .
 run

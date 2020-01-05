@@ -176,8 +176,8 @@ and
 window
 .
 open
+async
 function
-*
 runTabReloadAndCloseTest
 (
 extension
@@ -202,7 +202,7 @@ js
 )
 )
 ;
-yield
+await
 chromeScript
 .
 promiseOneMessage
@@ -214,8 +214,8 @@ startup
 "
 )
 ;
+async
 function
-*
 getContextEvents
 (
 )
@@ -236,7 +236,7 @@ events
 let
 contextEvents
 =
-yield
+await
 chromeScript
 .
 promiseOneMessage
@@ -291,7 +291,7 @@ page
 let
 extensionPageUrl
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -306,8 +306,7 @@ loaded
 let
 contextEvents
 =
-yield
-*
+await
 getContextEvents
 (
 )
@@ -383,7 +382,7 @@ page
 let
 extensionPageUrl2
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -419,8 +418,7 @@ reload
 ;
 contextEvents
 =
-yield
-*
+await
 getContextEvents
 (
 )
@@ -531,7 +529,7 @@ page
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -545,8 +543,7 @@ page
 ;
 contextEvents
 =
-yield
-*
+await
 getContextEvents
 (
 )
@@ -622,7 +619,7 @@ destroy
 (
 )
 ;
-yield
+await
 extension
 .
 unload

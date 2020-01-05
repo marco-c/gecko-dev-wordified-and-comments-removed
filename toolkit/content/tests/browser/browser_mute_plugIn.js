@@ -25,8 +25,8 @@ file_plugIn
 html
 "
 ;
+async
 function
-*
 click_icon
 (
 tab
@@ -50,7 +50,7 @@ icon
 "
 )
 ;
-yield
+await
 hover_icon
 (
 icon

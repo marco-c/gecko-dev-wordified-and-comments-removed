@@ -134,8 +134,8 @@ com
 "
 ]
 ;
+async
 function
-*
 addBookmarks
 (
 )
@@ -148,7 +148,7 @@ of
 uris
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks

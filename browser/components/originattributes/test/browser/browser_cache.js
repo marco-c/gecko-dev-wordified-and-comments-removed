@@ -712,14 +712,14 @@ stopObservingChannels
 let
 stopObservingChannels
 ;
+async
 function
-*
 doInit
 (
 aMode
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1240,8 +1240,8 @@ return
 0
 ;
 }
+async
 function
-*
 doCheck
 (
 aShouldIsolate
@@ -1266,7 +1266,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1281,7 +1281,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1296,7 +1296,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1316,7 +1316,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1339,7 +1339,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1362,7 +1362,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1385,7 +1385,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1408,7 +1408,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1435,7 +1435,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1462,7 +1462,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1489,7 +1489,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo

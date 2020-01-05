@@ -658,8 +658,8 @@ tab
 }
 )
 ;
+async
 function
-*
 compareCounts
 (
 clickCallback
@@ -841,7 +841,7 @@ focus
 (
 )
 ;
-yield
+await
 clickCallback
 (
 )

@@ -43,8 +43,8 @@ SUSPENDED_PAUSE_DISPOSABLE
 3
 }
 ;
+async
 function
-*
 click_unblock_icon
 (
 tab
@@ -68,7 +68,7 @@ icon
 "
 )
 ;
-yield
+await
 hover_icon
 (
 icon

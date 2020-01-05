@@ -210,15 +210,15 @@ tab
 }
 )
 ;
+async
 function
-*
 checkState
 (
 prefix
 tab
 )
 {
-yield
+await
 TabStateFlusher
 .
 flush

@@ -2825,12 +2825,12 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 db
 .
 execute
@@ -2851,7 +2851,7 @@ visitsToRemove
 )
 )
 ;
-yield
+await
 db
 .
 execute
@@ -2967,7 +2967,7 @@ page
 }
 )
 ;
-yield
+await
 cleanupPages
 (
 db
@@ -3902,12 +3902,12 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 db
 .
 execute
@@ -3938,7 +3938,7 @@ id
 )
 )
 ;
-yield
+await
 cleanupPages
 (
 db

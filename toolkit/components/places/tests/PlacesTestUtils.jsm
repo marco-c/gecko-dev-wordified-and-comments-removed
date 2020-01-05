@@ -1016,12 +1016,12 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -1108,7 +1108,7 @@ NORMAL
 }
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1155,8 +1155,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -1196,7 +1196,7 @@ guid
 )
 ;
 }
-yield
+await
 db
 .
 executeCached

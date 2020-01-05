@@ -42,8 +42,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_availableTargets
 (
 )
@@ -51,7 +51,7 @@ test_availableTargets
 let
 data
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -155,8 +155,8 @@ cached
 ;
 add_UITour_task
 (
+async
 function
-*
 test_availableTargets_changeWidgets
 (
 )
@@ -201,7 +201,7 @@ change
 let
 data
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -331,8 +331,8 @@ reset
 ;
 add_UITour_task
 (
+async
 function
-*
 test_availableTargets_exceptionFromGetTarget
 (
 )
@@ -351,7 +351,7 @@ container
 let
 data
 =
-yield
+await
 getConfigurationPromise
 (
 "

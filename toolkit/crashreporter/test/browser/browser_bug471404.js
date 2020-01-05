@@ -217,8 +217,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -238,7 +238,7 @@ test
 setup
 )
 {
-yield
+await
 test
 .
 setup
@@ -259,7 +259,7 @@ crashes
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

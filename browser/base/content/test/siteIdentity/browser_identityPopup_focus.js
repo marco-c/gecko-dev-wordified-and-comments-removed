@@ -43,8 +43,8 @@ example
 .
 com
 "
+async
 function
-*
 (
 )
 {
@@ -74,7 +74,7 @@ _identityBox
 }
 )
 ;
-yield
+await
 shown
 ;
 isnot
@@ -151,8 +151,8 @@ example
 .
 com
 "
+async
 function
-*
 (
 )
 {
@@ -179,7 +179,7 @@ focus
 (
 )
 ;
-yield
+await
 focused
 ;
 let
@@ -207,7 +207,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 shown
 ;
 is

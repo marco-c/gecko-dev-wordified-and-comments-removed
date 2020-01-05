@@ -806,8 +806,8 @@ onFindAgainCommand
 )
 ;
 }
+async
 function
-*
 openFindBarAndWait
 (
 )
@@ -831,12 +831,12 @@ open
 (
 )
 ;
-yield
+await
 awaitTransitionEnd
 ;
 }
+async
 function
-*
 closeFindBarAndWait
 (
 )
@@ -876,7 +876,7 @@ close
 (
 )
 ;
-yield
+await
 awaitTransitionEnd
 ;
 }

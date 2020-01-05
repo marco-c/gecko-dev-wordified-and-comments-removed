@@ -24,8 +24,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_info_icon
 (
 )
@@ -102,7 +102,7 @@ false
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "

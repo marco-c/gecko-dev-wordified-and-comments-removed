@@ -360,13 +360,13 @@ e
 )
 ;
 }
+async
 function
-*
 waitForContentEvents
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

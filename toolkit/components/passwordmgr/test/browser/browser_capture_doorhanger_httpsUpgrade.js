@@ -447,8 +447,8 @@ subtst_notifications_8
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -507,8 +507,7 @@ popup
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -753,8 +752,8 @@ subtst_notifications_1
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -833,8 +832,7 @@ login
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "

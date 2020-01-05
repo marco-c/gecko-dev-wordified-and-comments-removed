@@ -140,8 +140,8 @@ SECURE_TESTROOT
 webapi_checkavailable
 .
 html
+async
 function
-*
 test_not_available
 (
 browser
@@ -150,7 +150,7 @@ browser
 let
 available
 =
-yield
+await
 check_availability
 (
 browser
@@ -210,8 +210,8 @@ SECURE_TESTROOT
 webapi_checkavailable
 .
 html
+async
 function
-*
 test_not_available
 (
 browser
@@ -220,7 +220,7 @@ browser
 let
 available
 =
-yield
+await
 check_availability
 (
 browser
@@ -262,8 +262,8 @@ SECURE_TESTROOT2
 webapi_checkavailable
 .
 html
+async
 function
-*
 test_not_available
 (
 browser
@@ -272,7 +272,7 @@ browser
 let
 available
 =
-yield
+await
 check_availability
 (
 browser
@@ -316,8 +316,8 @@ TESTROOT
 webapi_checkavailable
 .
 html
+async
 function
-*
 test_not_available
 (
 browser
@@ -326,7 +326,7 @@ browser
 let
 available
 =
-yield
+await
 check_availability
 (
 browser
@@ -370,8 +370,8 @@ SECURE_TESTROOT
 webapi_checkframed
 .
 html
+async
 function
-*
 test_available
 (
 browser
@@ -380,7 +380,7 @@ browser
 let
 available
 =
-yield
+await
 check_frame_availability
 (
 browser
@@ -422,8 +422,8 @@ TESTROOT
 webapi_checkframed
 .
 html
+async
 function
-*
 test_not_available
 (
 browser
@@ -432,7 +432,7 @@ browser
 let
 available
 =
-yield
+await
 check_frame_availability
 (
 browser
@@ -476,8 +476,8 @@ SECURE_TESTROOT2
 webapi_checkframed
 .
 html
+async
 function
-*
 test_not_available
 (
 browser
@@ -486,7 +486,7 @@ browser
 let
 available
 =
-yield
+await
 check_frame_availability
 (
 browser
@@ -689,8 +689,8 @@ CHROMEROOT
 webapi_checkchromeframe
 .
 xul
+async
 function
-*
 test_available
 (
 browser
@@ -699,7 +699,7 @@ browser
 let
 available
 =
-yield
+await
 check_frame_availability
 (
 browser

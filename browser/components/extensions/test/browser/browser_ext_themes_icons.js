@@ -350,8 +350,8 @@ area
 }
 }
 }
+async
 function
-*
 runTestWithIcons
 (
 icons
@@ -1064,7 +1064,7 @@ files
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1111,7 +1111,7 @@ AREA_PANEL
 ;
 }
 }
-yield
+await
 PanelUI
 .
 show
@@ -1127,14 +1127,14 @@ panel
 "
 )
 ;
-yield
+await
 PanelUI
 .
 hide
 (
 )
 ;
-yield
+await
 extension
 .
 unload

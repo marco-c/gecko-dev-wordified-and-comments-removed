@@ -510,8 +510,8 @@ alertName
 )
 ;
 }
+async
 function
-*
 testNoPrincipal
 (
 )
@@ -519,7 +519,7 @@ testNoPrincipal
 var
 source
 =
-yield
+await
 notify
 (
 "
@@ -542,8 +542,8 @@ principal
 )
 ;
 }
+async
 function
-*
 testSystemPrincipal
 (
 )
@@ -562,7 +562,7 @@ getSystemPrincipal
 var
 source
 =
-yield
+await
 notify
 (
 "
@@ -586,8 +586,8 @@ principal
 )
 ;
 }
+async
 function
-*
 testNullPrincipal
 (
 )
@@ -608,7 +608,7 @@ createNullPrincipal
 var
 source
 =
-yield
+await
 notify
 (
 "
@@ -632,8 +632,8 @@ principal
 )
 ;
 }
+async
 function
-*
 testNodePrincipal
 (
 )
@@ -653,7 +653,7 @@ nodePrincipal
 var
 source
 =
-yield
+await
 notify
 (
 "

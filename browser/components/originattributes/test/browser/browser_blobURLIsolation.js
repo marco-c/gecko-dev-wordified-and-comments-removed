@@ -476,8 +476,8 @@ blobURL
 null
 ;
 return
+async
 function
-*
 (
 browser
 )
@@ -506,7 +506,7 @@ toString
 ;
 blobURL
 =
-yield
+await
 blobify
 (
 browser
@@ -520,7 +520,7 @@ input
 let
 result
 =
-yield
+await
 deblobify
 (
 browser

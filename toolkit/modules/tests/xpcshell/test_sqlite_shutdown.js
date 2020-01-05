@@ -177,8 +177,8 @@ options
 )
 ;
 }
+async
 function
-*
 getDummyDatabase
 (
 name
@@ -221,7 +221,7 @@ TEXT
 let
 c
 =
-yield
+await
 getConnection
 (
 name
@@ -250,7 +250,7 @@ TABLES
 )
 )
 {
-yield
+await
 c
 .
 execute

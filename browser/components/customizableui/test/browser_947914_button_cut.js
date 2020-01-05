@@ -62,8 +62,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 )
 {
@@ -94,7 +94,7 @@ focus
 (
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -174,7 +174,7 @@ select
 (
 )
 ;
-yield
+await
 PanelUI
 .
 show

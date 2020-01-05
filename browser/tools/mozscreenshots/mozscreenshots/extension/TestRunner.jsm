@@ -1065,7 +1065,7 @@ restore
 )
 ;
 }
-*
+async
 _performCombo
 (
 combo
@@ -1303,7 +1303,7 @@ config
 name
 )
 ;
-yield
+await
 changeConfig
 (
 config
@@ -1383,7 +1383,7 @@ config
 name
 )
 ;
-yield
+await
 config
 .
 verifyConfig
@@ -1415,7 +1415,7 @@ ex
 return
 ;
 }
-yield
+await
 this
 .
 _onConfigurationReady

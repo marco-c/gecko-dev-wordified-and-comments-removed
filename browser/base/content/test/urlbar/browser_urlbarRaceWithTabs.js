@@ -27,8 +27,8 @@ dummy_page
 html
 "
 ;
+async
 function
-*
 addBookmark
 (
 bookmark
@@ -41,7 +41,7 @@ bookmark
 keyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -66,7 +66,7 @@ url
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -96,12 +96,12 @@ title
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -118,7 +118,7 @@ bookmark
 keyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords

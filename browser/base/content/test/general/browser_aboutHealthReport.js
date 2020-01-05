@@ -312,8 +312,8 @@ return
 date
 ;
 }
+async
 function
-*
 setupPingArchive
 (
 )
@@ -401,7 +401,7 @@ p
 .
 id
 =
-yield
+await
 scope
 .
 TelemetryController

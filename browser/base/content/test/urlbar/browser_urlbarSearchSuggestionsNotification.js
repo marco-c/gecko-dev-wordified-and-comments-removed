@@ -80,8 +80,8 @@ engine
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -111,7 +111,7 @@ clearUserPref
 SUGGEST_URLBAR_PREF
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 true

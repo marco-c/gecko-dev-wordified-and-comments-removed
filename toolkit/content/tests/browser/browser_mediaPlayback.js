@@ -114,8 +114,8 @@ true
 )
 ;
 }
+async
 function
-*
 test_on_browser
 (
 url
@@ -129,7 +129,7 @@ loadURI
 url
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -138,7 +138,7 @@ DOMAudioPlaybackStarted
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser

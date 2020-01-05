@@ -3,14 +3,14 @@ use
 strict
 "
 ;
+async
 function
-*
 reloadAndCheckLoginsGen
 (
 aExpectedLogins
 )
 {
-yield
+await
 LoginTestUtils
 .
 reloadData

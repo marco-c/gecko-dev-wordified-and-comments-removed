@@ -1091,8 +1091,8 @@ tab
 )
 ;
 }
+async
 function
-*
 generateCookies
 (
 aThirdParty
@@ -1165,7 +1165,7 @@ secondSiteURL
 TEST_SITE_TWO
 ;
 }
-yield
+await
 assignCookiesUnderFirstParty
 (
 firstSiteURL
@@ -1176,7 +1176,7 @@ cookies
 ]
 )
 ;
-yield
+await
 assignCookiesUnderFirstParty
 (
 secondSiteURL

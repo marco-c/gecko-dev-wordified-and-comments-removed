@@ -2697,8 +2697,8 @@ true
 let
 setTags
 =
+async
 function
-*
 (
 )
 {
@@ -2711,7 +2711,7 @@ length
 0
 )
 {
-yield
+await
 PlacesTransactions
 .
 Tag
@@ -2740,7 +2740,7 @@ length
 0
 )
 {
-yield
+await
 PlacesTransactions
 .
 Untag

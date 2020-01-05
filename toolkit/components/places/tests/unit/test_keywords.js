@@ -2,8 +2,8 @@
 use
 strict
 "
+async
 function
-*
 check_keyword
 (
 aExpectExists
@@ -25,7 +25,7 @@ toUpperCase
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -40,7 +40,7 @@ Assert
 deepEqual
 (
 entry
-yield
+await
 PlacesUtils
 .
 keywords
@@ -102,7 +102,7 @@ Assert
 deepEqual
 (
 entry
-yield
+await
 PlacesUtils
 .
 keywords
@@ -126,7 +126,7 @@ entries
 [
 ]
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -218,7 +218,7 @@ Assert
 equal
 (
 null
-yield
+await
 PlacesUtils
 .
 keywords

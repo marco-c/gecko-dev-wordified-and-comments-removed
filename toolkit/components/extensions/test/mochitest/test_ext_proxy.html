@@ -205,8 +205,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testProxyScript
 (
 script
@@ -339,7 +339,7 @@ replace
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -368,7 +368,7 @@ com
 let
 error
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -471,7 +471,7 @@ trace
 )
 ;
 }
-yield
+await
 extension
 .
 unload

@@ -496,7 +496,7 @@ Test
 #
 4
 "
-*
+async
 run
 (
 )
@@ -579,7 +579,7 @@ showNotification
 notifyObj1
 )
 ;
-yield
+await
 opened
 ;
 let
@@ -642,7 +642,7 @@ notifyObj2
 let
 popup
 =
-yield
+await
 opened
 ;
 checkPopup
@@ -695,7 +695,7 @@ synthesizeKey
 ;
 popup
 =
-yield
+await
 opened
 ;
 checkPopup
@@ -762,7 +762,7 @@ synthesizeKey
 ;
 popup
 =
-yield
+await
 opened
 ;
 checkPopup
@@ -924,7 +924,7 @@ popup
 )
 ;
 }
-*
+async
 onHidden
 (
 )
@@ -985,7 +985,7 @@ notifyObj
 let
 popup
 =
-yield
+await
 opened
 ;
 checkPopup

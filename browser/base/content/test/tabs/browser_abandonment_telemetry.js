@@ -160,7 +160,7 @@ browser
 )
 ;
 }
-*
+async
 doAction
 (
 browser
@@ -194,7 +194,7 @@ doCommand
 (
 )
 ;
-yield
+await
 pageShow
 ;
 }
@@ -259,7 +259,7 @@ await
 pageShow
 ;
 }
-*
+async
 doAction
 (
 browser
@@ -293,7 +293,7 @@ doCommand
 (
 )
 ;
-yield
+await
 pageShow
 ;
 }
@@ -369,7 +369,7 @@ browser
 )
 ;
 }
-*
+async
 doAction
 (
 browser
@@ -393,7 +393,7 @@ synthesizeHistoryNavigationToIndex
 0
 )
 ;
-yield
+await
 pageShow
 ;
 }
@@ -492,7 +492,7 @@ browser
 )
 ;
 }
-*
+async
 doAction
 (
 browser
@@ -516,7 +516,7 @@ synthesizeHistoryNavigationToIndex
 2
 )
 ;
-yield
+await
 pageShow
 ;
 }
@@ -882,8 +882,8 @@ example
 com
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -911,8 +911,7 @@ name
 "
 )
 ;
-yield
-*
+await
 probeTest
 .
 prepare
@@ -936,8 +935,7 @@ clear
 (
 )
 ;
-yield
-*
+await
 probeTest
 .
 doAction

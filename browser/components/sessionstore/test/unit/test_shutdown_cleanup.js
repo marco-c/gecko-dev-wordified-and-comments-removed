@@ -354,8 +354,8 @@ tabState
 }
 ;
 }
+async
 function
-*
 setMaxBackForward
 (
 back
@@ -394,7 +394,7 @@ max_serialize_forward
 fwd
 )
 ;
-yield
+await
 SessionFile
 .
 read
@@ -402,8 +402,8 @@ read
 )
 ;
 }
+async
 function
-*
 writeAndParse
 (
 state
@@ -414,7 +414,7 @@ options
 }
 )
 {
-yield
+await
 SessionWorker
 .
 post
@@ -433,7 +433,7 @@ JSON
 .
 parse
 (
-yield
+await
 File
 .
 read

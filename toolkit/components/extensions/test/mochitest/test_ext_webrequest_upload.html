@@ -1142,13 +1142,13 @@ startup
 (
 )
 ;
+async
 function
-*
 doneAndTabClosed
 (
 )
 {
-yield
+await
 extension
 .
 awaitMessage
@@ -1183,7 +1183,7 @@ tab
 "
 )
 ;
-yield
+await
 closed
 ;
 }

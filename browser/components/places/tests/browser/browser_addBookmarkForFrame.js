@@ -392,8 +392,8 @@ open
 await
 withAddBookmarkForFrame
 (
+async
 function
-*
 test
 (
 dialogWin
@@ -469,7 +469,7 @@ one
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -526,7 +526,7 @@ bookmarks
 .
 DEFAULT_INDEX
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks

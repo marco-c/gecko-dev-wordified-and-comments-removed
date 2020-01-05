@@ -179,7 +179,7 @@ the
 remote
 commands
 "
-*
+async
 teardown
 (
 )
@@ -190,7 +190,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 signOut
 (
 )
@@ -572,7 +572,7 @@ user
 logged
 in
 "
-*
+async
 teardown
 (
 )
@@ -583,7 +583,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 signOut
 (
 )
@@ -1154,7 +1154,7 @@ action
 =
 reauth
 "
-*
+async
 teardown
 (
 )
@@ -1165,7 +1165,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 signOut
 (
 )
@@ -1284,7 +1284,7 @@ enabled
 success
 )
 "
-*
+async
 teardown
 (
 )
@@ -1295,7 +1295,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 signOut
 (
 )
@@ -1686,7 +1686,7 @@ to
 migrate
 )
 "
-*
+async
 teardown
 (
 )
@@ -1697,7 +1697,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 signOut
 (
 )

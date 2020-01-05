@@ -172,8 +172,8 @@ pref
 0
 )
 ;
+async
 function
-*
 runTest
 (
 )
@@ -591,7 +591,7 @@ of
 valueResultMap
 )
 {
-yield
+await
 doesFail
 (
 kNotWhiteListed
@@ -699,7 +699,7 @@ result
 type
 )
 {
-yield
+await
 doesWork
 (
 pref
@@ -735,7 +735,7 @@ updated
 "
 )
 ;
-yield
+await
 doReset
 (
 pref
@@ -744,7 +744,7 @@ pref
 }
 else
 {
-yield
+await
 doesFail
 (
 pref

@@ -4294,7 +4294,7 @@ TITLE
 )
 ;
 }
-*
+async
 _writeContainer
 (
 aItem
@@ -4477,7 +4477,7 @@ aItem
 .
 children
 )
-yield
+await
 this
 .
 _writeContainerContents
@@ -4528,7 +4528,7 @@ p
 )
 ;
 }
-*
+async
 _writeContainerContents
 (
 aItem
@@ -4601,7 +4601,7 @@ PlacesUtils
 TYPE_X_MOZ_PLACE_CONTAINER
 )
 {
-yield
+await
 this
 .
 _writeContainer
@@ -4635,7 +4635,7 @@ localIndent
 }
 else
 {
-yield
+await
 this
 .
 _writeItem
@@ -4827,7 +4827,7 @@ aIndent
 )
 ;
 }
-*
+async
 _writeItem
 (
 aItem
@@ -4891,7 +4891,7 @@ _writeDateAttributes
 aItem
 )
 ;
-yield
+await
 this
 .
 _writeFaviconAttribute

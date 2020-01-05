@@ -3373,8 +3373,8 @@ uninit
 }
 )
 ;
+async
 function
-*
 test_checkForAddons_installAddon
 (
 id
@@ -3533,7 +3533,7 @@ sha256
 let
 expectedDigest
 =
-yield
+await
 ProductAddonCheckerScope
 .
 computeHash
@@ -3720,7 +3720,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -3759,7 +3759,7 @@ try
 let
 extractedPaths
 =
-yield
+await
 installManager
 .
 installAddon

@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testTabsCreateInvalidURL
 (
 tabsCreateURL
@@ -170,14 +170,14 @@ done
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -213,7 +213,7 @@ start
 tabsCreateURL
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -223,7 +223,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload

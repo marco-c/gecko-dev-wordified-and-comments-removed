@@ -132,8 +132,8 @@ sandbox
 ;
 }
 }
+async
 function
-*
 withContext
 (
 f
@@ -177,8 +177,7 @@ PRINCIPAL1
 ;
 try
 {
-yield
-*
+await
 f
 (
 context
@@ -187,7 +186,7 @@ context
 }
 finally
 {
-yield
+await
 context
 .
 unload
@@ -196,8 +195,8 @@ unload
 ;
 }
 }
+async
 function
-*
 withSyncContext
 (
 f
@@ -233,8 +232,7 @@ STORAGE_SYNC_PREF
 true
 )
 ;
-yield
-*
+await
 withContext
 (
 f

@@ -754,8 +754,8 @@ return
 panelHidePromise
 ;
 }
+async
 function
-*
 asyncCleanup
 (
 )
@@ -779,7 +779,7 @@ uri
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )

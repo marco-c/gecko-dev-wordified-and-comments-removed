@@ -112,8 +112,8 @@ newTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -160,7 +160,7 @@ org
 /
 "
 ;
-yield
+await
 awaitLoad
 ;
 }

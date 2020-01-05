@@ -156,7 +156,7 @@ Assert
 assert
 ;
 }
-*
+async
 reloadData
 (
 )
@@ -177,7 +177,7 @@ replace
 "
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved

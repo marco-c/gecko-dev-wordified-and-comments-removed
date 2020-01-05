@@ -86,13 +86,13 @@ suggestionsFn
 fn
 ;
 }
+async
 function
-*
 cleanUpSuggestions
 (
 )
 {
-yield
+await
 cleanup
 (
 )

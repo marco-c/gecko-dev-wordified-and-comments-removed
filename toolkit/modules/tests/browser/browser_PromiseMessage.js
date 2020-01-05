@@ -69,8 +69,8 @@ testPromiseMessageAPI
 }
 )
 ;
+async
 function
-*
 testPromiseMessageAPI
 (
 aBrowser
@@ -119,7 +119,7 @@ id
 foo
 }
 ;
-yield
+await
 PromiseMessage
 .
 send

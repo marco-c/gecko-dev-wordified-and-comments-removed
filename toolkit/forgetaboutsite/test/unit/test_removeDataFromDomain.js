@@ -1237,8 +1237,8 @@ clearHistory
 )
 ;
 }
+async
 function
-*
 test_cookie_cleared_with_direct_match
 (
 )
@@ -1257,7 +1257,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1276,8 +1276,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_cookie_cleared_with_subdomain
 (
 )
@@ -1298,7 +1298,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1317,8 +1317,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_cookie_not_cleared_with_uri_contains_domain
 (
 )
@@ -1337,7 +1337,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1356,8 +1356,8 @@ true
 )
 ;
 }
+async
 function
-*
 test_login_manager_disabled_hosts_cleared_with_direct_match
 (
 )
@@ -1380,7 +1380,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1399,8 +1399,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_login_manager_disabled_hosts_cleared_with_subdomain
 (
 )
@@ -1425,7 +1425,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1444,8 +1444,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_login_manager_disabled_hosts_not_cleared_with_uri_contains_domain
 (
 )
@@ -1468,7 +1468,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1526,8 +1526,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_login_manager_logins_cleared_with_direct_match
 (
 )
@@ -1550,7 +1550,7 @@ add_login
 TEST_HOST
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1569,8 +1569,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_login_manager_logins_cleared_with_subdomain
 (
 )
@@ -1595,7 +1595,7 @@ add_login
 TEST_HOST
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1614,8 +1614,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_login_manager_logins_not_cleared_with_uri_contains_domain
 (
 )
@@ -1638,7 +1638,7 @@ add_login
 TEST_HOST
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1694,8 +1694,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_permission_manager_cleared_with_direct_match
 (
 )
@@ -1721,7 +1721,7 @@ add_permission
 TEST_URI
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1740,8 +1740,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_permission_manager_cleared_with_subdomain
 (
 )
@@ -1769,7 +1769,7 @@ add_permission
 TEST_URI
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1788,8 +1788,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_permission_manager_not_cleared_with_uri_contains_domain
 (
 )
@@ -1815,7 +1815,7 @@ add_permission
 TEST_URI
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2592,8 +2592,8 @@ _shutdownService
 ;
 }
 }
+async
 function
-*
 test_cache_cleared
 (
 )
@@ -2700,7 +2700,7 @@ cache
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

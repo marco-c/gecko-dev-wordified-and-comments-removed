@@ -47,8 +47,8 @@ Ci
 nsIUUIDGenerator
 )
 ;
+async
 function
-*
 generateAddon
 (
 data
@@ -187,7 +187,7 @@ ExtensionData
 jarURI
 )
 ;
-yield
+await
 extension
 .
 loadManifest

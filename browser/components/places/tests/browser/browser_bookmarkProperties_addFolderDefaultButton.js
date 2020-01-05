@@ -123,8 +123,8 @@ withSidebarTree
 "
 bookmarks
 "
+async
 function
-*
 (
 tree
 )
@@ -167,7 +167,7 @@ enabled
 "
 )
 ;
-yield
+await
 withBookmarksDialog
 (
 false

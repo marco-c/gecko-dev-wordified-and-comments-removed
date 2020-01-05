@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testKeyword
 (
 params
@@ -13,7 +13,7 @@ params
 let
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest

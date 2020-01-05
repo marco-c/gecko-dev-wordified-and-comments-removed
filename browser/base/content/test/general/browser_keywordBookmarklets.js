@@ -61,8 +61,8 @@ addTab
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -73,7 +73,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks

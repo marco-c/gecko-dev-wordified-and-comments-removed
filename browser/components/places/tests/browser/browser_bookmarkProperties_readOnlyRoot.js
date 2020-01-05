@@ -34,8 +34,8 @@ withSidebarTree
 "
 bookmarks
 "
+async
 function
-*
 (
 tree
 )
@@ -90,7 +90,7 @@ enabled
 "
 )
 ;
-yield
+await
 withBookmarksDialog
 (
 true
@@ -113,8 +113,8 @@ info
 )
 ;
 }
+async
 function
-*
 test
 (
 dialogWin
@@ -249,7 +249,7 @@ correct
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

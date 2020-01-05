@@ -764,8 +764,8 @@ background
 devtoolsPage
 testCase
 :
+async
 function
-*
 (
 extension
 )
@@ -798,7 +798,7 @@ sendMessage
 testMessage
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1256,8 +1256,8 @@ background
 devtoolsPage
 testCase
 :
+async
 function
-*
 (
 extension
 )
@@ -1277,7 +1277,7 @@ agent
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1302,7 +1302,7 @@ agent
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1933,8 +1933,8 @@ background
 devtoolsPage
 testCase
 :
+async
 function
-*
 (
 extension
 )
@@ -1952,7 +1952,7 @@ script
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1975,7 +1975,7 @@ script
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage

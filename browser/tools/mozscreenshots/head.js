@@ -78,8 +78,8 @@ browser
 let
 TestRunner
 ;
+async
 function
-*
 setup
 (
 )
@@ -129,7 +129,7 @@ nsIFileURL
 .
 file
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon

@@ -6201,7 +6201,7 @@ return
 toolbarItem
 ;
 }
-*
+async
 _wrapToolbarItem
 (
 aArea
@@ -6276,7 +6276,7 @@ child
 )
 )
 {
-yield
+await
 this
 .
 deferredWrapToolbarItem
@@ -6434,7 +6434,7 @@ return
 target
 ;
 }
-*
+async
 _wrapToolbarItems
 (
 )
@@ -6449,7 +6449,7 @@ CustomizableUI
 areas
 )
 {
-yield
+await
 this
 .
 _wrapToolbarItem

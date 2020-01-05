@@ -875,13 +875,13 @@ AppConstants
 .
 MOZ_GECKO_PROFILER
 }
+async
 function
-*
 test_send_ping
 (
 )
 {
-yield
+await
 TelemetryController
 .
 testSetup
@@ -891,7 +891,7 @@ testSetup
 let
 found
 =
-yield
+await
 PingServer
 .
 promiseNextPing

@@ -969,8 +969,8 @@ ready
 "
 )
 ;
+async
 function
-*
 runTest
 (
 window
@@ -1020,7 +1020,7 @@ window
 let
 message
 =
-yield
+await
 extension
 .
 awaitMessage

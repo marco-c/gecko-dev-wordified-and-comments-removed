@@ -401,8 +401,8 @@ platform
 win
 "
 }
+async
 function
-*
 test_pathSearch_PATHEXT
 (
 )
@@ -476,7 +476,7 @@ join
 let
 path
 =
-yield
+await
 Subprocess
 .
 pathSearch

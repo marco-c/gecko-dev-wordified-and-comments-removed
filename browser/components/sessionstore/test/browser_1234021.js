@@ -79,14 +79,14 @@ url
 :
 PAGE_URL
 }
+async
 function
-*
 handler
 (
 aBrowser
 )
 {
-yield
+await
 TabStateFlusher
 .
 flush

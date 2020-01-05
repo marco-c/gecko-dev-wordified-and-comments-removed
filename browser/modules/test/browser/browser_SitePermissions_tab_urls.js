@@ -191,8 +191,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 browser
 )
@@ -228,7 +228,7 @@ uri
 spec
 )
 ;
-yield
+await
 loaded
 ;
 SitePermissions
@@ -277,7 +277,7 @@ uri2
 spec
 )
 ;
-yield
+await
 loaded2
 ;
 Assert
@@ -361,7 +361,7 @@ uri
 spec
 )
 ;
-yield
+await
 loaded
 ;
 SitePermissions
@@ -435,7 +435,7 @@ uri2
 spec
 )
 ;
-yield
+await
 loaded
 ;
 if

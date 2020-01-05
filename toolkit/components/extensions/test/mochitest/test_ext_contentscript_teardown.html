@@ -361,8 +361,8 @@ startup
 "
 )
 ;
+async
 function
-*
 getContextEvents
 (
 )
@@ -383,7 +383,7 @@ events
 let
 contextEvents
 =
-yield
+await
 chromeScript
 .
 promiseOneMessage

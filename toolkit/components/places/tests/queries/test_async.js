@@ -999,7 +999,7 @@ deferNextTest
 promise
 ;
 }
-*
+async
 setup
 (
 )
@@ -1053,7 +1053,7 @@ foo
 ]
 )
 ;
-yield
+await
 task_populateDB
 (
 this

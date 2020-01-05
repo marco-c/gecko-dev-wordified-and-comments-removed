@@ -135,8 +135,8 @@ STATUS_COMPLETE_NO_MATCH
 )
 ;
 }
+async
 function
-*
 addBookmark
 (
 bookmark
@@ -149,7 +149,7 @@ bookmark
 keyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -171,7 +171,7 @@ url
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -201,12 +201,12 @@ title
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -347,8 +347,8 @@ reject
 )
 ;
 }
+async
 function
-*
 prepareSearchEngine
 (
 )
@@ -375,7 +375,7 @@ true
 let
 engine
 =
-yield
+await
 addSearchEngine
 (
 TEST_ENGINE_BASENAME

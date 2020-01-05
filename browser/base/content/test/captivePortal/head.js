@@ -123,13 +123,13 @@ portal
 detected
 "
 ;
+async
 function
-*
 setupPrefsAndRecentWindowBehavior
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv

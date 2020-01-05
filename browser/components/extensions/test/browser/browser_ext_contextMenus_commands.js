@@ -323,8 +323,8 @@ testScript
 }
 )
 ;
+async
 function
-*
 testContext
 (
 id
@@ -333,7 +333,7 @@ id
 const
 menu
 =
-yield
+await
 openExtensionContextMenu
 (
 )
@@ -351,7 +351,7 @@ label
 id
 )
 ;
-yield
+await
 closeExtensionContextMenu
 (
 items

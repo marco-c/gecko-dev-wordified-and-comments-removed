@@ -520,8 +520,8 @@ visible
 }
 )
 ;
+async
 function
-*
 task_fill_history
 (
 )
@@ -595,7 +595,7 @@ b
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -633,7 +633,7 @@ a
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -671,7 +671,7 @@ b
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -709,7 +709,7 @@ a
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -2116,8 +2116,8 @@ itemId
 )
 ;
 }
+async
 function
-*
 task_test_date_liveupdate
 (
 aResultType
@@ -2269,7 +2269,7 @@ containerOpen
 =
 true
 ;
-yield
+await
 task_add_normalized_visit
 (
 uri
@@ -2468,7 +2468,7 @@ length
 1
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 uri

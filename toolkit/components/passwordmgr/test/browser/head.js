@@ -93,13 +93,13 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 cleanup_removeAllLoginsAndResetRecipes
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -134,7 +134,7 @@ recipeParent
 return
 ;
 }
-yield
+await
 recipeParent
 .
 then

@@ -58,8 +58,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 )
 {
@@ -95,7 +95,7 @@ a
 }
 )
 ;
-yield
+await
 popupopened
 ;
 let
@@ -134,10 +134,10 @@ button
 }
 )
 ;
-yield
+await
 loaded
 ;
-yield
+await
 popupclosed
 ;
 is

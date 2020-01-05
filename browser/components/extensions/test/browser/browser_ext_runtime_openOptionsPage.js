@@ -45,8 +45,8 @@ true
 )
 ;
 }
+async
 function
-*
 loadExtension
 (
 options
@@ -226,7 +226,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2072,8 +2072,8 @@ tab
 ;
 add_tasks
 (
+async
 function
-*
 test_options_no_manifest
 (
 extraOptions
@@ -2101,7 +2101,7 @@ extraOptions
 let
 extension
 =
-yield
+await
 loadExtension
 (
 Object
@@ -2210,7 +2210,7 @@ manifest
 )
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -2224,7 +2224,7 @@ manifest
 "
 )
 ;
-yield
+await
 extension
 .
 unload

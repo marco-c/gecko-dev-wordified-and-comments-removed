@@ -1115,8 +1115,8 @@ BrowserTestUtils
 withNewTab
 (
 options
+async
 function
-*
 (
 browser
 )
@@ -1356,7 +1356,7 @@ button
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -1454,7 +1454,7 @@ showing
 "
 )
 ;
-yield
+await
 PanelUI
 .
 hide
@@ -1491,7 +1491,7 @@ button
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -1550,8 +1550,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 browser
 )
@@ -1870,7 +1870,7 @@ button
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -2438,8 +2438,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 browser
 )
@@ -2834,7 +2834,7 @@ status
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -2956,8 +2956,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 browser
 )
@@ -3330,7 +3330,7 @@ button
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -3508,7 +3508,7 @@ button
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show

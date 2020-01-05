@@ -28,8 +28,8 @@ await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -48,7 +48,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -312,7 +312,7 @@ JSON
 .
 parse
 (
-yield
+await
 prefChanged
 )
 ;
@@ -367,8 +367,8 @@ await
 spawnInNewReaderTab
 (
 TEST_ITALIAN_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -387,7 +387,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -648,7 +648,7 @@ JSON
 .
 parse
 (
-yield
+await
 prefChanged
 )
 ;

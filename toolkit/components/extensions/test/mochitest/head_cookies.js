@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testCookies
 (
 options
@@ -746,14 +746,14 @@ options
 expiry
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -840,7 +840,7 @@ changed
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -852,7 +852,7 @@ permissions
 "
 )
 ;
-yield
+await
 extension
 .
 unload

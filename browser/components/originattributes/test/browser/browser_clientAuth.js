@@ -67,13 +67,13 @@ loaded
 }
 )
 ;
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv

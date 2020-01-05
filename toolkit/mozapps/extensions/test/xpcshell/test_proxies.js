@@ -472,8 +472,8 @@ run_next_test
 )
 ;
 }
+async
 function
-*
 run_proxy_tests
 (
 )
@@ -618,7 +618,7 @@ symlink
 "
 )
 {
-yield
+await
 createSymlink
 (
 addon
@@ -991,8 +991,8 @@ e
 )
 ;
 }
+async
 function
-*
 run_symlink_tests
 (
 )
@@ -1118,7 +1118,7 @@ tempDirectory
 leafName
 )
 ;
-yield
+await
 createSymlink
 (
 tempDirectory

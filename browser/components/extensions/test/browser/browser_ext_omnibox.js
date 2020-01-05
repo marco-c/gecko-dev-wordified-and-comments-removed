@@ -469,8 +469,8 @@ break
 }
 )
 ;
+async
 function
-*
 expectEvent
 (
 event
@@ -483,7 +483,7 @@ expected
 let
 actual
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -674,8 +674,8 @@ t
 "
 ;
 }
+async
 function
-*
 testInputEvents
 (
 )
@@ -714,7 +714,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -739,7 +739,7 @@ VK_BACK_SPACE
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -763,7 +763,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -788,7 +788,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -836,7 +836,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -861,7 +861,7 @@ b
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -893,7 +893,7 @@ c
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -925,7 +925,7 @@ VK_BACK_SPACE
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -957,7 +957,7 @@ VK_BACK_SPACE
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -988,7 +988,7 @@ VK_BACK_SPACE
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -1012,7 +1012,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -1036,7 +1036,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -1062,7 +1062,7 @@ blur
 (
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -1077,8 +1077,8 @@ fired
 )
 ;
 }
+async
 function
-*
 testHeuristicResult
 (
 expectedText
@@ -1112,7 +1112,7 @@ expectedText
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1130,7 +1130,7 @@ set
 let
 text
 =
-yield
+await
 startInputSession
 (
 )
@@ -1218,7 +1218,7 @@ item
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -1241,8 +1241,8 @@ currentTab
 )
 ;
 }
+async
 function
-*
 testDisposition
 (
 suggestionIndex
@@ -1250,7 +1250,7 @@ expectedDisposition
 expectedText
 )
 {
-yield
+await
 startInputSession
 (
 )
@@ -1368,7 +1368,7 @@ true
 )
 ;
 }
-yield
+await
 expectEvent
 (
 "
@@ -1391,8 +1391,8 @@ expectedDisposition
 )
 ;
 }
+async
 function
-*
 testSuggestions
 (
 info
@@ -1515,7 +1515,7 @@ content
 let
 text
 =
-yield
+await
 startInputSession
 (
 )
@@ -1529,7 +1529,7 @@ info
 test
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1568,7 +1568,7 @@ children
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "

@@ -7838,8 +7838,8 @@ aOptions
 let
 createItemInfoObject
 =
+async
 function
-*
 (
 aRow
 aIncludeParentGuid
@@ -8090,7 +8090,7 @@ spec
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords

@@ -112,8 +112,8 @@ BrowserTestUtils
 withNewTab
 (
 PERMISSIONS_PAGE
+async
 function
-*
 (
 )
 {
@@ -144,7 +144,7 @@ nextSibling
 .
 nextSibling
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -165,7 +165,7 @@ empty
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )
@@ -185,7 +185,7 @@ SitePermissions
 ALLOW
 )
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -326,7 +326,7 @@ class
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )
@@ -343,7 +343,7 @@ camera
 "
 )
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -364,7 +364,7 @@ empty
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )
@@ -610,8 +610,8 @@ BrowserTestUtils
 withNewTab
 (
 PERMISSIONS_PAGE
+async
 function
-*
 (
 )
 {
@@ -672,7 +672,7 @@ SitePermissions
 BLOCK
 )
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -799,7 +799,7 @@ removed
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )
@@ -824,8 +824,8 @@ BrowserTestUtils
 withNewTab
 (
 PERMISSIONS_PAGE
+async
 function
-*
 (
 browser
 )
@@ -888,7 +888,7 @@ hint
 "
 )
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -922,7 +922,7 @@ hidden
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )
@@ -957,7 +957,7 @@ SitePermissions
 BLOCK
 )
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -1099,7 +1099,7 @@ visible
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )
@@ -1122,10 +1122,10 @@ browser
 PERMISSIONS_PAGE
 )
 ;
-yield
+await
 loaded
 ;
-yield
+await
 openIdentityPopup
 (
 )
@@ -1163,7 +1163,7 @@ reloading
 "
 )
 ;
-yield
+await
 closeIdentityPopup
 (
 )

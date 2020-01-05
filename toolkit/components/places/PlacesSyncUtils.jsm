@@ -907,12 +907,12 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -999,7 +999,7 @@ NORMAL
 }
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1009,7 +1009,7 @@ FROM
 moz_bookmarks_deleted
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1105,7 +1105,7 @@ now
 )
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1133,7 +1133,7 @@ time
 )
 ;
 }
-yield
+await
 db
 .
 executeCached
@@ -1214,7 +1214,7 @@ t
 guid
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1280,7 +1280,7 @@ NULL
 }
 finally
 {
-yield
+await
 db
 .
 executeCached
@@ -1698,8 +1698,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -1714,7 +1714,7 @@ of
 syncedChanges
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -1761,7 +1761,7 @@ NORMAL
 )
 ;
 }
-yield
+await
 removeTombstones
 (
 db
@@ -2228,12 +2228,12 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -2261,7 +2261,7 @@ NEW
 }
 )
 ;
-yield
+await
 db
 .
 execute
@@ -2292,7 +2292,7 @@ SYNC_PARENT_ANNO
 }
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -7843,8 +7843,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -7871,7 +7871,7 @@ GUID
 remoteGuid
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -7901,7 +7901,7 @@ invalidateCachedGuidFor
 localId
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -7930,7 +7930,7 @@ if
 sameParent
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -7983,7 +7983,7 @@ SYNC_STATUS
 NORMAL
 )
 {
-yield
+await
 db
 .
 executeCached

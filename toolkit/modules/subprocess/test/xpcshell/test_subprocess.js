@@ -3132,8 +3132,8 @@ directory
 "
 )
 ;
+async
 function
-*
 pwd
 (
 options
@@ -3142,7 +3142,7 @@ options
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -3187,7 +3187,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait

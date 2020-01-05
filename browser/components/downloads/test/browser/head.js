@@ -753,8 +753,8 @@ promiseFocus
 )
 ;
 }
+async
 function
-*
 task_addDownloads
 (
 aItems
@@ -772,7 +772,7 @@ now
 let
 publicList
 =
-yield
+await
 Downloads
 .
 getList
@@ -922,12 +922,12 @@ item
 errorObj
 ;
 }
-yield
+await
 publicList
 .
 add
 (
-yield
+await
 Downloads
 .
 createDownload
@@ -966,8 +966,8 @@ await
 promise
 ;
 }
+async
 function
-*
 setDownloadDir
 (
 )
@@ -1046,7 +1046,7 @@ e
 )
 ;
 }
-yield
+await
 SpecialPowers
 .
 pushPrefEnv

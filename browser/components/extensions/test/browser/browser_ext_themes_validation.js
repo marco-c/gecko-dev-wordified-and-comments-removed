@@ -39,8 +39,8 @@ true
 }
 )
 ;
+async
 function
-*
 testThemeWithInvalidProperties
 (
 invalidProps
@@ -210,7 +210,7 @@ resources
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -241,7 +241,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

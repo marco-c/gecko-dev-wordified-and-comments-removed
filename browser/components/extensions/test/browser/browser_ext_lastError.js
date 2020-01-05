@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 sendMessage
 (
 options
@@ -132,14 +132,14 @@ options
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -149,7 +149,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload

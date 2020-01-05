@@ -191,8 +191,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_isDefaultBrowser
 (
 )
@@ -241,7 +241,7 @@ false
 let
 data
 =
-yield
+await
 getConfigurationPromise
 (
 "

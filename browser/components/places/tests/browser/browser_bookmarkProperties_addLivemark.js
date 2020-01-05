@@ -28,8 +28,8 @@ withSidebarTree
 "
 bookmarks
 "
+async
 function
-*
 (
 tree
 )
@@ -55,7 +55,7 @@ itemId
 ]
 )
 ;
-yield
+await
 withBookmarksDialog
 (
 true

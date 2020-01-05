@@ -602,8 +602,8 @@ add_task
 (
 testWithAPI
 (
+async
 function
-*
 (
 browser
 )
@@ -676,7 +676,7 @@ false
 false
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -692,7 +692,7 @@ PERM
 }
 )
 ;
-yield
+await
 check
 (
 false
@@ -710,7 +710,7 @@ unset
 )
 ;
 }
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -727,7 +727,7 @@ true
 }
 )
 ;
-yield
+await
 check
 (
 true

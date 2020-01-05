@@ -326,8 +326,8 @@ arguments
 }
 )
 ;
+async
 function
-*
 assertCombinedResults
 (
 combined
@@ -464,7 +464,7 @@ Assert
 .
 equal
 (
-yield
+await
 combined
 .
 asyncMethod
@@ -497,8 +497,8 @@ argument
 )
 ;
 }
+async
 function
-*
 assertCurrentCombinedResults
 (
 overridesCount
@@ -516,7 +516,7 @@ getCombined
 TestIntegration
 )
 ;
-yield
+await
 assertCombinedResults
 (
 combined

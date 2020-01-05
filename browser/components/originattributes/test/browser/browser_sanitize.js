@@ -283,8 +283,8 @@ aShouldExist
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -365,7 +365,7 @@ loadContextInfos
 let
 cacheURIs
 =
-yield
+await
 cacheDataForContext
 (
 loadContextInfo

@@ -663,7 +663,7 @@ Test
 #
 4
 "
-*
+async
 run
 (
 )
@@ -734,7 +734,7 @@ this
 notifyObj
 )
 ;
-yield
+await
 shown
 ;
 checkPopup
@@ -771,7 +771,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 hidden
 ;
 is
@@ -832,7 +832,7 @@ VK_TAB
 }
 )
 ;
-yield
+await
 shown
 ;
 is
@@ -878,7 +878,7 @@ true
 }
 )
 ;
-yield
+await
 hidden
 ;
 shown
@@ -898,7 +898,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 shown
 ;
 checkPopup
@@ -925,7 +925,7 @@ remove
 (
 )
 ;
-yield
+await
 hidden
 ;
 }
@@ -943,7 +943,7 @@ Test
 #
 5
 "
-*
+async
 run
 (
 )
@@ -1047,7 +1047,7 @@ this
 notifyObj
 )
 ;
-yield
+await
 notShowing
 ;
 let
@@ -1068,7 +1068,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 shown
 ;
 checkPopup
@@ -1096,7 +1096,7 @@ remove
 (
 )
 ;
-yield
+await
 hidden
 ;
 }
