@@ -1015,6 +1015,13 @@ h
 '
 tasktracer
 /
+SourceEventTypeMap
+.
+h
+'
+'
+tasktracer
+/
 TracedTaskCommon
 .
 h
