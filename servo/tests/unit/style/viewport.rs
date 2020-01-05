@@ -253,7 +253,9 @@ util
 prefs
 :
 :
-set_pref
+PREFS
+.
+set
 (
 "
 layout
@@ -2383,7 +2385,9 @@ util
 prefs
 :
 :
-set_pref
+PREFS
+.
+set
 (
 "
 layout

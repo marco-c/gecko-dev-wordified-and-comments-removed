@@ -372,7 +372,7 @@ util
 prefs
 :
 :
-get_pref
+PREFS
 ;
 #
 [
@@ -6775,7 +6775,9 @@ DOMString
 >
 bool
 {
-get_pref
+PREFS
+.
+get
 (
 pref_name
 .
@@ -6806,7 +6808,9 @@ DOMString
 >
 DOMString
 {
-get_pref
+PREFS
+.
+get
 (
 pref_name
 .

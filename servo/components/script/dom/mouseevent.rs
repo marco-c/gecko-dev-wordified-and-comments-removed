@@ -189,6 +189,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 ;
 #
 [
@@ -1162,10 +1165,9 @@ self
 i32
 {
 if
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 dom

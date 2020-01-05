@@ -316,7 +316,7 @@ prefs
 :
 :
 {
-self
+PREFS
 Pref
 }
 ;
@@ -1364,10 +1364,9 @@ clone
 )
 prefs
 :
-prefs
-:
-:
-get_cloned
+PREFS
+.
+cloned
 (
 )
 layout_to_paint_chan
@@ -2319,10 +2318,9 @@ MozBrowserEvent
 assert
 !
 (
-prefs
-:
-:
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 )

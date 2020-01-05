@@ -308,10 +308,7 @@ prefs
 :
 :
 {
-get_pref
-reset_all_prefs
-reset_pref
-set_pref
+PREFS
 PrefValue
 }
 ;
@@ -6811,7 +6808,9 @@ item
 clone
 (
 )
-get_pref
+PREFS
+.
+get
 (
 item
 )
@@ -6890,7 +6889,9 @@ iter
 (
 )
 {
-set_pref
+PREFS
+.
+set
 (
 key
 value
@@ -6941,7 +6942,9 @@ len
 =
 0
 {
-reset_all_prefs
+PREFS
+.
+reset_all
 (
 )
 ;
@@ -6973,7 +6976,9 @@ item
 clone
 (
 )
-reset_pref
+PREFS
+.
+reset
 (
 item
 )

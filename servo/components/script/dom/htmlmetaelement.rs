@@ -525,7 +525,9 @@ util
 prefs
 :
 :
-get_pref
+PREFS
+.
+get
 (
 "
 layout

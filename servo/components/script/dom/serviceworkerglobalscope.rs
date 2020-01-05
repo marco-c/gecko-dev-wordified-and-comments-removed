@@ -392,6 +392,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 ;
 use
 util
@@ -1520,10 +1523,9 @@ now
 let
 sw_lifetime_timeout
 =
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 dom

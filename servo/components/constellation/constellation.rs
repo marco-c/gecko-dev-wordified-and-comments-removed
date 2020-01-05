@@ -478,7 +478,7 @@ util
 prefs
 :
 :
-mozbrowser_enabled
+PREFS
 ;
 use
 util
@@ -6918,7 +6918,9 @@ let
 display_alert_dialog
 =
 if
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 {
@@ -8982,7 +8984,9 @@ MozBrowserEvent
 assert
 !
 (
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 )
@@ -12530,7 +12534,9 @@ pipeline_id
 )
 {
 if
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 &
@@ -13041,7 +13047,9 @@ PipelineId
 {
 if
 !
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 {
@@ -13244,7 +13252,9 @@ String
 {
 if
 !
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 {

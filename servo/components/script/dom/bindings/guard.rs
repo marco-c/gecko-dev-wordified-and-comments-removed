@@ -17,7 +17,7 @@ util
 prefs
 :
 :
-get_pref
+PREFS
 ;
 pub
 struct
@@ -185,7 +185,9 @@ name
 )
 =
 >
-get_pref
+PREFS
+.
+get
 (
 name
 )
