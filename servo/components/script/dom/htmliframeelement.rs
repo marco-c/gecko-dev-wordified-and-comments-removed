@@ -370,7 +370,6 @@ jsapi
 :
 {
 JSAutoCompartment
-JSAutoRequest
 RootedValue
 JSContext
 MutableHandleValue
@@ -1161,17 +1160,6 @@ window
 .
 get_cx
 (
-)
-;
-let
-_ar
-=
-JSAutoRequest
-:
-:
-new
-(
-cx
 )
 ;
 let

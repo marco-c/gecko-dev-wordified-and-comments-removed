@@ -318,7 +318,6 @@ jsapi
 :
 {
 JSAutoCompartment
-JSAutoRequest
 RootedValue
 }
 ;
@@ -4044,17 +4043,6 @@ r
 .
 get_cx
 (
-)
-;
-let
-_ar
-=
-JSAutoRequest
-:
-:
-new
-(
-cx
 )
 ;
 let
