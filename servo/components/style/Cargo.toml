@@ -487,11 +487,9 @@ unicode
 segmentation
 =
 "
-0
-.
 1
 .
-2
+0
 "
 [
 dependencies
@@ -583,7 +581,7 @@ true
 walkdir
 =
 "
-0
-.
 1
+.
+0
 "
