@@ -10494,7 +10494,12 @@ display
 mBinding
 -
 >
-mOriginPrincipal
+mExtraData
+-
+>
+GetPrincipal
+(
+)
 getter_AddRefs
 (
 binding
@@ -24505,7 +24510,12 @@ display
 mBinding
 -
 >
-mOriginPrincipal
+mExtraData
+-
+>
+GetPrincipal
+(
+)
 getter_AddRefs
 (
 newPendingBinding

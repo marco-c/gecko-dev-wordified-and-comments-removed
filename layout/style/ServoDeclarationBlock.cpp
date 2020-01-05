@@ -39,9 +39,11 @@ const
 nsAString
 &
 aCssText
-const
-GeckoParserExtraData
-&
+css
+:
+:
+URLExtraData
+*
 aExtraData
 )
 {
@@ -55,11 +57,9 @@ nsCString
 baseString
 ;
 aExtraData
-.
-mBaseURI
 -
 >
-get
+BaseURI
 (
 )
 -
@@ -81,7 +81,6 @@ Servo_ParseStyleAttribute
 value
 &
 baseString
-&
 aExtraData
 )
 .
