@@ -2462,9 +2462,11 @@ navigation_start_precise
 time
 :
 :
-precise_time_s
+precise_time_ns
 (
 )
+as
+f64
 screen
 :
 Default
