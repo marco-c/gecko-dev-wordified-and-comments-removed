@@ -910,6 +910,12 @@ u16
 ;
 pub
 fn
+Servo_Initialize
+(
+)
+;
+pub
+fn
 Servo_RestyleDocument
 (
 doc
