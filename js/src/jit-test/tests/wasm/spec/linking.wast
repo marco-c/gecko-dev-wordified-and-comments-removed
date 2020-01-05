@@ -1632,7 +1632,6 @@ undefined
 assert_unlinkable
 (
 module
-Q
 (
 func
 host
@@ -2349,7 +2348,6 @@ const
 assert_unlinkable
 (
 module
-Q
 (
 func
 host

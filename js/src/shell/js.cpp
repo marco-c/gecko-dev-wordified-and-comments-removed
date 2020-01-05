@@ -9682,7 +9682,7 @@ ucbuf
 JS
 :
 :
-UTF8CharsToNewTwoByteCharsZ
+LossyUTF8CharsToNewTwoByteCharsZ
 (
 cx
 JS
