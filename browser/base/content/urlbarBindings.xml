@@ -5769,6 +5769,13 @@ URL
 bar
 is
 modified
+or
+there
+is
+no
+text
+at
+all
 nothing
 else
 to
@@ -5787,6 +5794,13 @@ selectionStart
 this
 .
 valueIsTyped
+|
+|
+selectedVal
+=
+=
+"
+"
 )
 return
 selectedVal
