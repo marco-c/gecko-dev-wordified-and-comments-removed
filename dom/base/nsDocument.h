@@ -5365,9 +5365,9 @@ nsIDocumentObserver
 >
 mObservers
 ;
-nsTArray
+nsTHashtable
 <
-RefPtr
+nsPtrHashKey
 <
 mozilla
 :
