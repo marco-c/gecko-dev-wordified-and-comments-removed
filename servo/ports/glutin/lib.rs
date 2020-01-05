@@ -59,7 +59,7 @@ msg
 ;
 extern
 crate
-net
+net_traits
 ;
 #
 [

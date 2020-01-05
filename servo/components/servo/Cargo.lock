@@ -2419,14 +2419,6 @@ msg
 1
 "
 "
-net
-0
-.
-0
-.
-1
-"
-"
 net_traits
 0
 .
@@ -7697,7 +7689,7 @@ msg
 1
 "
 "
-net
+net_traits
 0
 .
 0

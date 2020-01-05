@@ -187,7 +187,7 @@ msg
 [
 dependencies
 .
-net
+net_traits
 ]
 path
 =
@@ -200,7 +200,7 @@ path
 /
 components
 /
-net
+net_traits
 "
 [
 dependencies
