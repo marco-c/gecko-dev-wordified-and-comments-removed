@@ -346,6 +346,11 @@ attribute
 WindowProxy
 parent
 ;
+readonly
+attribute
+Window
+parent
+;
 /
 /
 readonly
