@@ -238,6 +238,7 @@ webkitRelativePath
 [
 GetterThrows
 ChromeOnly
+NeedsCallerType
 ]
 readonly
 attribute
@@ -247,6 +248,7 @@ mozFullPath
 [
 ChromeOnly
 Throws
+NeedsCallerType
 ]
 static
 File
@@ -262,6 +264,7 @@ options
 [
 ChromeOnly
 Throws
+NeedsCallerType
 ]
 static
 File

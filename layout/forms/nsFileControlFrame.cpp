@@ -913,6 +913,9 @@ aBlobImpl
 GetMozFullPath
 (
 fullpath
+SystemCallerGuarantee
+(
+)
 err
 )
 ;

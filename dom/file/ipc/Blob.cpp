@@ -7441,6 +7441,8 @@ GetMozFullPath
 nsAString
 &
 aName
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -10369,6 +10371,8 @@ GetMozFullPath
 nsAString
 &
 aName
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -10381,6 +10385,7 @@ mBlobImpl
 GetMozFullPath
 (
 aName
+aGuarantee
 aRv
 )
 ;

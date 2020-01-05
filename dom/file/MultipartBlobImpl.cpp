@@ -1612,6 +1612,7 @@ ChromeFilePropertyBag
 aBag
 bool
 aIsFromNsIFile
+SystemCallerGuarantee
 ErrorResult
 &
 aRv
@@ -1646,16 +1647,6 @@ NS_ERROR_UNEXPECTED
 return
 ;
 }
-MOZ_ASSERT
-(
-nsContentUtils
-:
-:
-IsCallerChrome
-(
-)
-)
-;
 mName
 =
 aBag
@@ -1929,6 +1920,8 @@ const
 ChromeFilePropertyBag
 &
 aBag
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -1973,6 +1966,7 @@ aWindow
 file
 aBag
 false
+aGuarantee
 aRv
 )
 ;

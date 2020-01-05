@@ -58,6 +58,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BlobBinding
 .
 h
@@ -246,6 +257,8 @@ const
 ChromeFilePropertyBag
 &
 aBag
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -266,6 +279,7 @@ ChromeFilePropertyBag
 aBag
 bool
 aIsFromNsIFile
+SystemCallerGuarantee
 ErrorResult
 &
 aRv
