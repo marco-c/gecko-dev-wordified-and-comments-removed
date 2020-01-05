@@ -34,3 +34,11 @@ BrowserMobProxyArguments
     
 BrowserMobTestCase
 )
+from
+.
+window_manager
+import
+(
+    
+WindowManagerMixin
+)

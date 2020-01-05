@@ -23,6 +23,8 @@ MarionetteTestCase
     
 skip
     
+skip_if_chrome
+    
 skip_if_desktop
     
 skip_if_mobile
@@ -68,4 +70,6 @@ TestManifest
 TestResult
     
 TestResultCollection
+    
+WindowManagerMixin
 )

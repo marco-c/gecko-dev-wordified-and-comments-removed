@@ -45,4 +45,6 @@ BrowserMobProxyTestCaseMixin
 BrowserMobProxyArguments
     
 BrowserMobTestCase
+    
+WindowManagerMixin
 )
