@@ -930,6 +930,14 @@ false
 ;
 self
 .
+scene
+.
+mark_layer_contents_as_changed_recursively
+(
+)
+;
+self
+.
 send_buffer_requests_for_all_layers
 (
 )
