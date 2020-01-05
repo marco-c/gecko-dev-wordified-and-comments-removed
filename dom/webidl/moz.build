@@ -1857,11 +1857,6 @@ PermissionStatus
 webidl
 '
 '
-PhoneNumberService
-.
-webidl
-'
-'
 Plugin
 .
 webidl
