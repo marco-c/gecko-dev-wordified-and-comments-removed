@@ -838,6 +838,12 @@ self
 test_reflect_stringify
 =
 None
+        
+self
+.
+is_module
+=
+False
     
 staticmethod
     
@@ -1002,6 +1008,26 @@ test_reflect_stringify
 -
 -
 check
+"
+self
+.
+path
+]
+        
+elif
+self
+.
+is_module
+:
+            
+cmd
++
+=
+[
+"
+-
+-
+module
 "
 self
 .

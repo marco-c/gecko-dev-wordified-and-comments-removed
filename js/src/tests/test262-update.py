@@ -313,6 +313,7 @@ createRefTestEntry
 skip
 skipIf
 error
+isModule
 )
 :
     
@@ -447,6 +448,19 @@ error
 "
 +
 error
+)
+    
+if
+isModule
+:
+        
+terms
+.
+append
+(
+"
+module
+"
 )
     
 line
@@ -1172,6 +1186,14 @@ s
 %
 testName
     
+isModule
+=
+"
+module
+"
+in
+testRec
+    
 isNegative
 =
 "
@@ -1238,43 +1260,6 @@ not
 a
 test
 file
-"
-)
-    
-if
-"
-module
-"
-in
-testRec
-or
-pathStartsWith
-(
-testName
-"
-language
-"
-"
-module
--
-code
-"
-)
-:
-        
-refTestSkip
-.
-append
-(
-"
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 "
 )
     
@@ -1400,11 +1385,14 @@ createRefTestEntry
 refTestSkip
 refTestSkipIf
 errorType
+isModule
 )
     
 noStrictVariant
 =
 raw
+or
+isModule
 or
 isSupportFile
     
