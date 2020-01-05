@@ -952,6 +952,8 @@ derive
 Clone
 PartialEq
 Eq
+PartialOrd
+Ord
 Copy
 Hash
 Debug
@@ -975,6 +977,8 @@ derive
 Clone
 PartialEq
 Eq
+PartialOrd
+Ord
 Copy
 Hash
 Debug
@@ -998,6 +1002,8 @@ derive
 Clone
 PartialEq
 Eq
+PartialOrd
+Ord
 Copy
 Hash
 Debug
