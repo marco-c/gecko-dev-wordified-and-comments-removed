@@ -3617,8 +3617,11 @@ rv
 ;
 if
 (
+NS_WARN_IF
+(
 !
 mReady
+)
 )
 {
 LOG
@@ -3778,8 +3781,11 @@ found
 ;
 if
 (
+NS_WARN_IF
+(
 !
 altData
+)
 )
 {
 LOG
@@ -3846,9 +3852,12 @@ availableAltData
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
