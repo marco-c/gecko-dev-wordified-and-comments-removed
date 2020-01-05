@@ -1694,10 +1694,6 @@ const
 SigIdDesc
 &
 sigId
-const
-TrapOffset
-&
-trapOffset
 FuncOffsets
 *
 offsets
@@ -1762,6 +1758,12 @@ masm
 .
 currentOffset
 (
+)
+;
+TrapOffset
+trapOffset
+(
+0
 )
 ;
 TrapDesc

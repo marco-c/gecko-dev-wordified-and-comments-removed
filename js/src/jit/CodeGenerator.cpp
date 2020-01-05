@@ -57837,7 +57837,6 @@ frameSize
 (
 )
 sigId
-trapOffset
 offsets
 )
 ;
