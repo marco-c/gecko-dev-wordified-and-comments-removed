@@ -412,6 +412,14 @@ non
 empty
 bucket
 .
+.
+.
+_choosing
+-
+histogram
+-
+type
+:
 Choosing
 a
 Histogram
