@@ -235,8 +235,9 @@ USVString
 data
 )
 ;
-/
-/
+[
+Throws
+]
 void
 send
 (
