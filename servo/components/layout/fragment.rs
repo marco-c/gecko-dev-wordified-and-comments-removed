@@ -70,9 +70,7 @@ display_list
 :
 {
 BLUR_INFLATION_FACTOR
-FragmentType
 OpaqueNode
-StackingContextId
 }
 ;
 use
@@ -107,8 +105,10 @@ gfx_traits
 :
 :
 {
+FragmentType
 LayerId
 LayerType
+StackingContextId
 }
 ;
 use

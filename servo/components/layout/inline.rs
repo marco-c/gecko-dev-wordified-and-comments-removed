@@ -117,7 +117,6 @@ display_list
 {
 OpaqueNode
 StackingContext
-StackingContextId
 }
 ;
 use
@@ -137,6 +136,12 @@ font_context
 :
 :
 FontContext
+;
+use
+gfx_traits
+:
+:
+StackingContextId
 ;
 use
 incremental

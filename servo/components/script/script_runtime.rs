@@ -341,6 +341,7 @@ InputEvent
 NetworkEvent
 Resize
 ScriptEvent
+SetScrollState
 SetViewport
 StylesheetLoad
 TimerEvent

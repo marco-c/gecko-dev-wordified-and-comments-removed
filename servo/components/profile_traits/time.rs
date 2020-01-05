@@ -212,6 +212,7 @@ ScriptNetworkEvent
 ScriptParseHTML
 ScriptPlannedNavigation
 ScriptResize
+ScriptSetScrollState
 ScriptSetViewport
 ScriptTimerEvent
 ScriptStylesheetLoad

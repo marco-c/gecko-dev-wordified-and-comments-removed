@@ -66,10 +66,13 @@ gfx
 display_list
 :
 :
-{
 StackingContext
+;
+use
+gfx_traits
+:
+:
 StackingContextId
-}
 ;
 use
 layout_debug
