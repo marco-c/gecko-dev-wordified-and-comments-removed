@@ -1445,12 +1445,10 @@ ComputeShouldAccelerate
 clm
 -
 >
-GetTextureFactoryIdentifier
+GetCompositorBackendType
 (
 )
-.
-mParentBackend
-!
+=
 =
 LayersBackend
 :
