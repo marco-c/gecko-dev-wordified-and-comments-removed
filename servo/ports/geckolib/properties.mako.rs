@@ -1483,6 +1483,11 @@ unicode
 -
 bidi
 "
+"
+text
+-
+transform
+"
 ]
 #
 Need
