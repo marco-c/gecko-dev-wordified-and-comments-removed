@@ -852,14 +852,6 @@ role
 ;
 aObj
 .
-redirects
-=
-aApp
-.
-redirects
-;
-aObj
-.
 widgetPages
 =
 aApp

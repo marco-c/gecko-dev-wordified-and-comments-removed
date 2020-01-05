@@ -193,11 +193,6 @@ role
 "
 aRole
 "
-redirects
-:
-"
-aRedirects
-"
 kind
 :
 "
