@@ -78,17 +78,6 @@ aParams
 )
 override
 ;
-ConversionRequired
-DecoderNeedsConversion
-(
-const
-TrackInfo
-&
-aConfig
-)
-const
-override
-;
 bool
 SupportsMimeType
 (

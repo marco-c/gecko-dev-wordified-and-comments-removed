@@ -128,6 +128,10 @@ const
 nsCString
 &
 aHardwareReason
+const
+uint32_t
+&
+aConversion
 )
 override
 ;
@@ -240,6 +244,15 @@ TimeUnit
 aTime
 )
 ;
+MediaDataDecoder
+:
+:
+ConversionRequired
+NeedsConversion
+(
+)
+const
+;
 MOZ_IS_CLASS_INIT
 bool
 InitIPDL
@@ -284,6 +297,7 @@ void
 AssertOnManagerThread
 (
 )
+const
 ;
 RefPtr
 <
@@ -344,6 +358,12 @@ mInitialized
 ;
 bool
 mIsHardwareAccelerated
+;
+MediaDataDecoder
+:
+:
+ConversionRequired
+mConversion
 ;
 bool
 mNeedNewDecoder
