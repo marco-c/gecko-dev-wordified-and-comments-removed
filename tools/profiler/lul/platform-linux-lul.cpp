@@ -158,11 +158,11 @@ std
 :
 :
 string
-nativeName
+nativePath
 =
 lib
 .
-GetNativeDebugName
+GetNativeDebugPath
 (
 )
 ;
@@ -216,7 +216,7 @@ Map
 image
 &
 size
-nativeName
+nativePath
 )
 ;
 if
@@ -253,7 +253,7 @@ lib
 GetStart
 (
 )
-nativeName
+nativePath
 .
 c_str
 (
