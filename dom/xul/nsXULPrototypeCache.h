@@ -89,7 +89,7 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+StyleSheet
 ;
 }
 class
@@ -207,7 +207,7 @@ aDocumentInfo
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 GetStyleSheet
 (
@@ -231,7 +231,7 @@ PutStyleSheet
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 aStyleSheet
 )
@@ -395,7 +395,7 @@ nsURIHashKey
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 >
 mStyleSheetTable
 ;
