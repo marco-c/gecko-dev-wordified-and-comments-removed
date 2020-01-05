@@ -618,7 +618,7 @@ LOW_VIDEO_FRAMES
 static
 constexpr
 auto
-LOW_VIDEO_THRESHOLD_USECS
+LOW_VIDEO_THRESHOLD
 =
 TimeUnit
 :
@@ -9941,7 +9941,7 @@ mMaster
 >
 mPlaybackRate
 >
-LOW_VIDEO_THRESHOLD_USECS
+LOW_VIDEO_THRESHOLD
 .
 ToMicroseconds
 (
