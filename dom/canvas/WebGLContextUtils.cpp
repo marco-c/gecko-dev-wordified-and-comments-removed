@@ -401,7 +401,7 @@ ShouldGenerateWarnings
 )
 )
 {
-JS_ReportWarning
+JS_ReportWarningASCII
 (
 cx
 "
@@ -414,12 +414,14 @@ will
 be
 reported
 for
+"
+"
 this
-"
-"
 WebGL
 context
 .
+"
+"
 (
 already
 reported
