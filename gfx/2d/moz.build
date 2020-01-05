@@ -393,11 +393,6 @@ NativeFontResourceMac
 cpp
 '
 '
-PathCG
-.
-cpp
-'
-'
 ScaledFontMac
 .
 cpp
