@@ -168,10 +168,7 @@ Stylesheet
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

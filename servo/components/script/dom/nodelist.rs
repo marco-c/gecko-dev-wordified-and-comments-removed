@@ -98,10 +98,7 @@ Window
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [
@@ -131,10 +128,7 @@ Node
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

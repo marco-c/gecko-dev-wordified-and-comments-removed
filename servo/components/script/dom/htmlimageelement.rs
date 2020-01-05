@@ -230,10 +230,7 @@ RefCell
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

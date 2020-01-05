@@ -76,10 +76,7 @@ reflect_dom_object
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

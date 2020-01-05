@@ -145,10 +145,7 @@ StrokeRect
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

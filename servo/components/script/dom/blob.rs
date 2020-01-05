@@ -82,10 +82,7 @@ BlobBinding
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 pub
 enum
@@ -96,10 +93,7 @@ FileTypeId
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

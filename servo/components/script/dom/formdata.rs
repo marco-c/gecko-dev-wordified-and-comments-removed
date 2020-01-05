@@ -202,9 +202,12 @@ HashMap
 [
 deriving
 (
-Encodable
 Clone
 )
+]
+#
+[
+jstraceable
 ]
 #
 [
@@ -228,10 +231,7 @@ File
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

@@ -211,10 +211,7 @@ StaticStringVec
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

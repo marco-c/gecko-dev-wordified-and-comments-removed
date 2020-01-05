@@ -139,10 +139,7 @@ WorkerGlobalScope
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

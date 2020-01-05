@@ -102,10 +102,7 @@ XMLHttpRequestEventTarget
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

@@ -263,10 +263,7 @@ c_void
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

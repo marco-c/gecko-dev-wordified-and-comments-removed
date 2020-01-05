@@ -430,10 +430,7 @@ mem
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [
@@ -592,8 +589,11 @@ reflector
 deriving
 (
 PartialEq
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 pub
 enum

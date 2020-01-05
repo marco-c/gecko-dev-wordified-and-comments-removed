@@ -146,10 +146,7 @@ RefCell
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

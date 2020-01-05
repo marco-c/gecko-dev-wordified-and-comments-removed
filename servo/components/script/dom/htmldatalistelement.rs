@@ -172,10 +172,7 @@ DOMString
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [
@@ -336,6 +333,10 @@ Temporary
 HTMLCollection
 >
 {
+#
+[
+jstraceable
+]
 struct
 HTMLDataListOptionsFilter
 ;

@@ -223,8 +223,11 @@ deriving
 (
 PartialEq
 Clone
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 pub
 enum
@@ -498,10 +501,7 @@ as_slice
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

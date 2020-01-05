@@ -187,10 +187,7 @@ JSVal
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

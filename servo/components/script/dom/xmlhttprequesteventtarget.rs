@@ -115,10 +115,7 @@ XMLHttpRequestId
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [
