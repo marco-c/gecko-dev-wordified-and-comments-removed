@@ -3689,6 +3689,9 @@ popupid
 src
 =
 icon
+class
+=
+iconclass
 "
 /
 >
