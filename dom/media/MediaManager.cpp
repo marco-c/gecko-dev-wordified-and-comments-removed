@@ -13105,6 +13105,12 @@ uint64_t
 aWindowID
 )
 {
+MutexAutoLock
+lock
+(
+mCallbackMutex
+)
+;
 for
 (
 DeviceChangeCallback
@@ -13178,7 +13184,7 @@ aWindowID
 DeviceChangeCallback
 :
 :
-RemoveDeviceChangeCallback
+RemoveDeviceChangeCallbackLocked
 (
 observer
 )
