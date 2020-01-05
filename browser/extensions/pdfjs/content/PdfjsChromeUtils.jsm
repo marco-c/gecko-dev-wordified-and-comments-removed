@@ -666,7 +666,6 @@ quit
 -
 application
 '
-false
 )
 ;
 this
