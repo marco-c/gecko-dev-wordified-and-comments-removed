@@ -1563,7 +1563,8 @@ aY
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -1586,7 +1587,8 @@ aY
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -1599,7 +1601,8 @@ aRepaint
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double

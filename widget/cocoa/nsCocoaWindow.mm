@@ -7889,7 +7889,7 @@ Coordinates
 are
 desktop
 pixels
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -7901,6 +7901,8 @@ double
 aY
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -7908,7 +7910,6 @@ mWindow
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -8019,8 +8020,7 @@ coord
 ]
 ;
 }
-return
-NS_OK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -9589,7 +9589,7 @@ Coordinates
 are
 desktop
 pixels
-nsresult
+void
 nsCocoaWindow
 :
 :
@@ -9609,7 +9609,7 @@ bool
 aConstrainToCurrentScreen
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -9621,7 +9621,6 @@ mInResize
 )
 {
 return
-NS_OK
 ;
 }
 AutoRestore
@@ -9844,7 +9843,6 @@ isResizing
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -9898,10 +9896,7 @@ display
 YES
 ]
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -9910,7 +9905,7 @@ Coordinates
 are
 desktop
 pixels
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -9928,7 +9923,6 @@ bool
 aRepaint
 )
 {
-return
 DoResize
 (
 aX
@@ -9946,7 +9940,7 @@ Coordinates
 are
 desktop
 pixels
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -9971,7 +9965,6 @@ BackingScaleFactor
 (
 )
 ;
-return
 DoResize
 (
 mBounds

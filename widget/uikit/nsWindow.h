@@ -162,7 +162,8 @@ aDataType
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -188,7 +189,8 @@ bool
 aFullScreen
 )
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -200,7 +202,8 @@ aRepaint
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double

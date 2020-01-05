@@ -5144,7 +5144,7 @@ parent
 widget
 coordinate
 system
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -5156,7 +5156,7 @@ double
 aY
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 int32_t
 x
@@ -5198,7 +5198,6 @@ y
 )
 )
 return
-NS_OK
 ;
 mBounds
 .
@@ -5238,13 +5237,10 @@ ReportMoveEvent
 (
 )
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -5258,7 +5254,7 @@ bool
 aRepaint
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 int32_t
 width
@@ -5300,7 +5296,6 @@ height
 )
 )
 return
-NS_OK
 ;
 mBounds
 .
@@ -5354,13 +5349,10 @@ ReportSizeEvent
 (
 )
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -5378,7 +5370,7 @@ bool
 aRepaint
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 int32_t
 x
@@ -5468,7 +5460,6 @@ isResizing
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -5556,7 +5547,6 @@ if
 mOnDestroyCalled
 )
 return
-NS_OK
 ;
 }
 if
@@ -5567,10 +5557,7 @@ ReportSizeEvent
 (
 )
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 static

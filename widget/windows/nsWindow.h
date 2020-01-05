@@ -613,7 +613,8 @@ GetSizeConstraints
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -623,7 +624,8 @@ aY
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -635,7 +637,8 @@ aRepaint
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double

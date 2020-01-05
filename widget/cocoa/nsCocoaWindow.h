@@ -1030,7 +1030,8 @@ aConstraints
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -1167,7 +1168,8 @@ mFullscreenTransitionAnimation
 nil
 ;
 }
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -1179,7 +1181,8 @@ aRepaint
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -1689,7 +1692,7 @@ UpdateBounds
 (
 )
 ;
-nsresult
+void
 DoResize
 (
 double

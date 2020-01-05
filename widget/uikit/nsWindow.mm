@@ -3827,7 +3827,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -3863,7 +3863,6 @@ aY
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -3939,11 +3938,8 @@ ReportMoveEvent
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4017,7 +4013,6 @@ isResizing
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -4096,11 +4091,8 @@ ReportSizeEvent
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4138,7 +4130,6 @@ aHeight
 )
 )
 return
-NS_OK
 ;
 mBounds
 .
@@ -4180,9 +4171,6 @@ setNeedsDisplay
 ReportSizeEvent
 (
 )
-;
-return
-NS_OK
 ;
 }
 void

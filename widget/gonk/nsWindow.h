@@ -162,7 +162,8 @@ IsVisible
 )
 const
 ;
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -171,7 +172,8 @@ double
 aY
 )
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -182,7 +184,8 @@ bool
 aRepaint
 )
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double

@@ -8293,7 +8293,7 @@ aY
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8312,9 +8312,7 @@ IsTopLevel
 )
 )
 return
-NS_OK
 ;
-return
 Resize
 (
 aX
@@ -8329,7 +8327,7 @@ true
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8343,7 +8341,6 @@ bool
 aRepaint
 )
 {
-return
 Resize
 (
 mBounds
@@ -8358,7 +8355,7 @@ aRepaint
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8540,9 +8537,6 @@ mAwaitingFullScreen
 false
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsWindow

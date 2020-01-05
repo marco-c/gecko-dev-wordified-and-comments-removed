@@ -6512,7 +6512,7 @@ return
 c
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -6610,7 +6610,6 @@ y
 )
 {
 return
-NS_OK
 ;
 }
 mBounds
@@ -6879,11 +6878,8 @@ NotifyRollupGeometryChange
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7011,7 +7007,6 @@ Invalidate
 ;
 }
 return
-NS_OK
 ;
 }
 mBounds
@@ -7116,11 +7111,8 @@ NotifyRollupGeometryChange
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7288,7 +7280,6 @@ Invalidate
 ;
 }
 return
-NS_OK
 ;
 }
 mBounds
@@ -7429,9 +7420,6 @@ Invalidate
 NotifyRollupGeometryChange
 (
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
