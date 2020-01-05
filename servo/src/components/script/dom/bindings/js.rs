@@ -98,7 +98,7 @@ JS
 <
 T
 >
-js_ptr
+_js_ptr
 :
 *
 mut
@@ -176,7 +176,7 @@ Temporary
 inner
 :
 inner
-js_ptr
+_js_ptr
 :
 inner
 .
@@ -2749,10 +2749,6 @@ JSRef
 b
 T
 >
-ptr
-:
-*
-T
 js_ptr
 :
 *
@@ -2831,15 +2827,6 @@ chain
 :
 ContravariantLifetime
 }
-ptr
-:
-unrooted
-.
-ptr
-.
-clone
-(
-)
 js_ptr
 :
 unrooted

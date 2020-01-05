@@ -544,10 +544,6 @@ push_str
 ;
 }
 html
-.
-into_owned
-(
-)
 }
 fn
 serialize_comment
