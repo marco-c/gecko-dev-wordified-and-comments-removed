@@ -50,6 +50,10 @@ b
 '
 malloc_usable_size
 '
+b
+'
+__cxa_type_match
+'
 ]
 )
 actual_symbols
