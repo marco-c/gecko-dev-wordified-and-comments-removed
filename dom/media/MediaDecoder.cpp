@@ -1895,7 +1895,12 @@ NEXT_FRAME_UNAVAILABLE
 INIT_MIRROR
 (
 mCurrentPosition
-0
+TimeUnit
+:
+:
+Zero
+(
+)
 )
 INIT_MIRROR
 (

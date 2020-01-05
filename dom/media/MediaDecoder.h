@@ -1478,6 +1478,14 @@ CurrentPosition
 {
 return
 mCurrentPosition
+.
+Ref
+(
+)
+.
+ToMicroseconds
+(
+)
 ;
 }
 double
@@ -1862,7 +1870,10 @@ mNextFrameStatus
 ;
 Mirror
 <
-int64_t
+media
+:
+:
+TimeUnit
 >
 mCurrentPosition
 ;
