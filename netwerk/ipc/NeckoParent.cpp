@@ -192,6 +192,9 @@ IPCTransportProvider
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 mozilla
@@ -202,6 +205,8 @@ StunAddrsRequestParent
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1653,6 +1658,9 @@ AllocPStunAddrsRequestParent
 (
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 StunAddrsRequestParent
 *
 p
@@ -1672,6 +1680,13 @@ AddRef
 return
 p
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 bool
 NeckoParent
@@ -1684,6 +1699,9 @@ PStunAddrsRequestParent
 aActor
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 StunAddrsRequestParent
 *
 p
@@ -1704,6 +1722,8 @@ Release
 (
 )
 ;
+#
+endif
 return
 true
 ;

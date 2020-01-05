@@ -4,6 +4,13 @@ mozilla_net_NrIceStunAddrMessageUtils_h
 #
 define
 mozilla_net_NrIceStunAddrMessageUtils_h
+namespace
+mozilla
+{
+class
+NrIceStunAddr
+;
+}
 #
 include
 "
@@ -14,6 +21,9 @@ IPCMessageUtils
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 mtransport
@@ -22,6 +32,8 @@ nricestunaddr
 .
 h
 "
+#
+endif
 namespace
 IPC
 {
@@ -53,6 +65,9 @@ NrIceStunAddr
 aParam
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 const
 size_t
 bufSize
@@ -99,6 +114,8 @@ delete
 ]
 buffer
 ;
+#
+endif
 }
 static
 bool
@@ -119,6 +136,9 @@ NrIceStunAddr
 aResult
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 const
 size_t
 bufSize
@@ -190,6 +210,13 @@ buffer
 return
 result
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }
 ;

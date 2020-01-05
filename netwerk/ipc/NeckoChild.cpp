@@ -197,6 +197,9 @@ AltDataOutputStreamChild
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 mozilla
@@ -207,6 +210,8 @@ StunAddrsRequestChild
 .
 h
 "
+#
+endif
 #
 ifdef
 NECKO_PROTOCOL_rtsp
@@ -554,6 +559,9 @@ PStunAddrsRequestChild
 aActor
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 StunAddrsRequestChild
 *
 p
@@ -574,6 +582,8 @@ ReleaseIPDLReference
 (
 )
 ;
+#
+endif
 return
 true
 ;
