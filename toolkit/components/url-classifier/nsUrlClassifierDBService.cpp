@@ -1891,7 +1891,7 @@ ResetUpdate
 )
 )
 ;
-mUpdateWait
+mUpdateWaitSec
 =
 0
 ;
@@ -2379,17 +2379,17 @@ if
 mProtocolParser
 -
 >
-UpdateWait
+UpdateWaitSec
 (
 )
 )
 {
-mUpdateWait
+mUpdateWaitSec
 =
 mProtocolParser
 -
 >
-UpdateWait
+UpdateWaitSec
 (
 )
 ;
@@ -2653,7 +2653,7 @@ success
 %
 d
 "
-mUpdateWait
+mUpdateWaitSec
 )
 )
 ;
@@ -2662,7 +2662,7 @@ mUpdateObserver
 >
 UpdateSuccess
 (
-mUpdateWait
+mUpdateWaitSec
 )
 ;
 }

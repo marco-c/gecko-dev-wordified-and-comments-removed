@@ -2457,7 +2457,7 @@ function
 (
 tableList
 updateUrl
-waitForUpdate
+waitForUpdateSec
 )
 {
 log
@@ -2480,7 +2480,7 @@ updateUrl
 :
 "
 +
-waitForUpdate
+waitForUpdateSec
 +
 "
 \
@@ -2495,14 +2495,14 @@ delay
 ;
 if
 (
-waitForUpdate
+waitForUpdateSec
 )
 {
 delay
 =
 parseInt
 (
-waitForUpdate
+waitForUpdateSec
 10
 )
 *

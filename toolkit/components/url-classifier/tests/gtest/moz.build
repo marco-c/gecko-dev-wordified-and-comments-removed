@@ -112,6 +112,11 @@ TestPerProviderDirectory
 cpp
 '
 '
+TestProtocolParser
+.
+cpp
+'
+'
 TestRiceDeltaDecoder
 .
 cpp
