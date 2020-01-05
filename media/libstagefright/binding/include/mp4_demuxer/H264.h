@@ -257,10 +257,10 @@ matrix_coefficients
 bool
 chroma_loc_info_present_flag
 ;
-uint32_t
+uint8_t
 chroma_sample_loc_type_top_field
 ;
-uint32_t
+uint8_t
 chroma_sample_loc_type_bottom_field
 ;
 bool
@@ -628,7 +628,7 @@ aDest
 )
 ;
 static
-void
+bool
 vui_parameters
 (
 BitReader
