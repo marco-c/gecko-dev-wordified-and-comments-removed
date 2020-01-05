@@ -8,7 +8,7 @@ use
 properties
 :
 :
-ComputedValues
+ServoComputedValues
 ;
 use
 selector_impl
@@ -44,7 +44,7 @@ data
 PrivateStyleData
 <
 ServoSelectorImpl
-ComputedValues
+ServoComputedValues
 >
 ;
 pub

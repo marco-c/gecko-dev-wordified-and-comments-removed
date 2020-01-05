@@ -75,7 +75,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -2156,7 +2156,7 @@ padding_from_style
 style
 :
 &
-ComputedValues
+ServoComputedValues
 containing_block_inline_size
 :
 Au
@@ -2232,7 +2232,7 @@ specified_margin_from_style
 style
 :
 &
-ComputedValues
+ServoComputedValues
 )
 -
 >

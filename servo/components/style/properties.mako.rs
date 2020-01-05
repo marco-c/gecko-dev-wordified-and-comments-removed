@@ -796,7 +796,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 PropertyDeclaration
 TComputedValues
 }
@@ -45342,7 +45342,7 @@ self
 &
 '
 a
-ComputedValues
+ServoComputedValues
 ;
 fn
 as_servo_mut
@@ -45363,7 +45363,7 @@ self
 '
 a
 mut
-ComputedValues
+ServoComputedValues
 ;
 fn
 new
@@ -45645,7 +45645,7 @@ HeapSizeOf
 ]
 pub
 struct
-ComputedValues
+ServoComputedValues
 {
 %
 for
@@ -45701,7 +45701,7 @@ Au
 impl
 TComputedValues
 for
-ComputedValues
+ServoComputedValues
 {
 %
 for
@@ -45745,7 +45745,7 @@ self
 &
 '
 a
-ComputedValues
+ServoComputedValues
 {
 self
 }
@@ -45768,7 +45768,7 @@ self
 '
 a
 mut
-ComputedValues
+ServoComputedValues
 {
 self
 }
@@ -45828,7 +45828,7 @@ endfor
 >
 Self
 {
-ComputedValues
+ServoComputedValues
 {
 custom_properties
 :
@@ -46245,7 +46245,7 @@ is_some
 }
 }
 impl
-ComputedValues
+ServoComputedValues
 {
 /
 /
@@ -47825,9 +47825,9 @@ static
 ref
 INITIAL_SERVO_VALUES
 :
-ComputedValues
+ServoComputedValues
 =
-ComputedValues
+ServoComputedValues
 {
 %
 for
@@ -48758,7 +48758,7 @@ Option
 <
 CascadePropertyFn
 <
-ComputedValues
+ServoComputedValues
 >
 >
 >
@@ -48774,7 +48774,7 @@ Option
 <
 CascadePropertyFn
 <
-ComputedValues
+ServoComputedValues
 >
 >
 >
@@ -49121,12 +49121,14 @@ parent_style
 :
 Option
 <
+<
 &
 C
 >
 cached_style
 :
 Option
+<
 <
 &
 C
@@ -50493,7 +50495,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -50962,7 +50964,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 is_first_fragment_of_element
 :
@@ -50981,7 +50983,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 side
 :
@@ -51198,7 +51200,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 new_display_value
 :
@@ -51300,7 +51302,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -51409,7 +51411,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -51845,7 +51847,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -52026,7 +52028,7 @@ style
 mut
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {

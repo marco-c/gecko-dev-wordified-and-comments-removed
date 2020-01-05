@@ -243,7 +243,7 @@ properties
 :
 {
 self
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -1988,7 +1988,7 @@ new_style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 ;
@@ -2529,7 +2529,7 @@ style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 ;
@@ -4776,7 +4776,7 @@ style
 Option
 <
 &
-ComputedValues
+ServoComputedValues
 >
 writing_mode
 :
@@ -6671,7 +6671,7 @@ style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {

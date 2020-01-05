@@ -451,8 +451,8 @@ properties
 :
 :
 {
-ComputedValues
-TComputedValues
+PropertyDeclaration
+PropertyDeclarationBlock
 }
 ;
 use
@@ -463,8 +463,8 @@ properties
 :
 :
 {
-PropertyDeclaration
-PropertyDeclarationBlock
+ServoComputedValues
+TComputedValues
 }
 ;
 use
@@ -805,7 +805,7 @@ ln
 type
 ConcreteComputedValues
 =
-ComputedValues
+ServoComputedValues
 ;
 type
 ConcreteElement
@@ -4970,7 +4970,7 @@ Ref
 <
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 >
 {

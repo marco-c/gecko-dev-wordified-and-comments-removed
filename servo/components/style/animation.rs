@@ -324,7 +324,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -496,12 +496,12 @@ usize
 old_style
 :
 &
-ComputedValues
+ServoComputedValues
 new_style
 :
 &
 mut
-ComputedValues
+ServoComputedValues
 )
 -
 >
@@ -634,12 +634,12 @@ usize
 old_style
 :
 &
-ComputedValues
+ServoComputedValues
 new_style
 :
 &
 mut
-ComputedValues
+ServoComputedValues
 )
 -
 >
@@ -1267,7 +1267,7 @@ style
 :
 &
 mut
-ComputedValues
+ServoComputedValues
 time
 :
 f64

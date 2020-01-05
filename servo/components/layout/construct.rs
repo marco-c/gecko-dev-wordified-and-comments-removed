@@ -325,7 +325,7 @@ properties
 :
 {
 self
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -567,7 +567,7 @@ PseudoElementType
 >
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 RestyleDamage
 )
@@ -4052,7 +4052,7 @@ style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -12582,7 +12582,7 @@ style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 -

@@ -182,7 +182,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -2078,7 +2078,7 @@ new_style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -2637,7 +2637,7 @@ top
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2686,7 +2686,7 @@ right
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2735,7 +2735,7 @@ bottom
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2784,7 +2784,7 @@ left
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2836,7 +2836,7 @@ PhysicalSide
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2913,7 +2913,7 @@ inline_start
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2945,7 +2945,7 @@ inline_end
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2977,7 +2977,7 @@ block_start
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -3009,7 +3009,7 @@ block_end
 css_style
 :
 &
-ComputedValues
+ServoComputedValues
 provenance
 :
 CollapsedBorderProvenance

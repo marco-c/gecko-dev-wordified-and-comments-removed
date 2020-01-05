@@ -267,7 +267,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -4699,7 +4699,7 @@ OpaqueNode
 style
 :
 &
-ComputedValues
+ServoComputedValues
 default_cursor
 :
 Cursor

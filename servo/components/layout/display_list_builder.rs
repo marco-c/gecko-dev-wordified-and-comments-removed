@@ -452,7 +452,7 @@ properties
 :
 {
 self
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -884,7 +884,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 display_list_section
 :
 DisplayListSection
@@ -909,7 +909,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 bounds
 :
 &
@@ -942,7 +942,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 display_list_section
 :
 DisplayListSection
@@ -994,7 +994,7 @@ LinearGradient
 style
 :
 &
-ComputedValues
+ServoComputedValues
 )
 ;
 fn
@@ -1010,7 +1010,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 border_painting_mode
 :
 BorderPaintingMode
@@ -1043,7 +1043,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 bounds
 :
 &
@@ -1070,7 +1070,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 display_list_section
 :
 DisplayListSection
@@ -1100,7 +1100,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 stacking_relative_border_box
 :
 &
@@ -1696,7 +1696,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 display_list_section
 :
 DisplayListSection
@@ -2176,7 +2176,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 bounds
 :
 &
@@ -2639,7 +2639,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 display_list_section
 :
 DisplayListSection
@@ -3518,7 +3518,7 @@ LinearGradient
 style
 :
 &
-ComputedValues
+ServoComputedValues
 )
 {
 let
@@ -4419,7 +4419,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 display_list_section
 :
 DisplayListSection
@@ -4667,7 +4667,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 border_painting_mode
 :
 BorderPaintingMode
@@ -5039,7 +5039,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 bounds
 :
 &
@@ -5326,7 +5326,7 @@ DisplayListBuildState
 style
 :
 &
-ComputedValues
+ServoComputedValues
 stacking_relative_border_box
 :
 &
