@@ -1,3 +1,6 @@
+var
+InlineSpellChecker
+;
 function
 test
 (
@@ -31,7 +34,6 @@ jsm
 tempScope
 )
 ;
-let
 InlineSpellChecker
 =
 tempScope

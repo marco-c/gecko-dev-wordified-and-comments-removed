@@ -148,12 +148,16 @@ TESTING_JS_MODULES
 '
 tests
 /
+modules
+/
 MockDocument
 .
 jsm
 '
 '
 tests
+/
+modules
 /
 PromiseTestUtils
 .

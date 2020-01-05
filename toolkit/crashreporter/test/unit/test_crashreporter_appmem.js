@@ -9,6 +9,7 @@ function
 (
 )
 {
+let
 appAddr
 =
 CrashTestUtils

@@ -265,6 +265,11 @@ ok
 :
 false
 "
+PromiseDebugging
+"
+:
+false
+"
 runningInParent
 "
 :

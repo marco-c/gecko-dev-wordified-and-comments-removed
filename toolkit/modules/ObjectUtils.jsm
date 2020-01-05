@@ -74,6 +74,15 @@ jsm
 "
 )
 ;
+var
+pSlice
+=
+Array
+.
+prototype
+.
+slice
+;
 this
 .
 ObjectUtils

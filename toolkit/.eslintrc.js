@@ -573,6 +573,15 @@ error
 "
 no
 -
+undef
+"
+:
+"
+error
+"
+"
+no
+-
 unexpected
 -
 multiline
