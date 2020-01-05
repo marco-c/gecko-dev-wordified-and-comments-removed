@@ -862,8 +862,6 @@ level
 -
 {
 }
--
-cron
 '
 .
 format
