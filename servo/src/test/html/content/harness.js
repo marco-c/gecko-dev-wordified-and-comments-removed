@@ -2,6 +2,7 @@ function
 _fail
 (
 s
+m
 )
 {
 window
@@ -21,6 +22,12 @@ FAIL
 "
 +
 s
++
+"
+:
+"
++
+m
 )
 ;
 }
@@ -28,6 +35,7 @@ function
 _pass
 (
 s
+m
 )
 {
 window
@@ -42,6 +50,12 @@ PASS
 "
 +
 s
++
+"
+:
+"
++
+m
 )
 ;
 }
@@ -50,6 +64,7 @@ is
 (
 a
 b
+c
 )
 {
 let
@@ -64,6 +79,17 @@ _fail
 :
 _pass
 ;
+let
+m
+=
+!
+c
+?
+"
+"
+:
+c
+;
 f
 (
 a
@@ -74,6 +100,7 @@ a
 "
 +
 b
+m
 )
 ;
 }
