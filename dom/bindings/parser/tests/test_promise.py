@@ -22,12 +22,6 @@ parse
 "
             
 interface
-_Promise
-{
-}
-;
-            
-interface
 A
 {
               
@@ -107,12 +101,6 @@ parse
 "
             
 interface
-_Promise
-{
-}
-;
-            
-interface
 A
 {
               
@@ -209,12 +197,6 @@ parse
 "
             
 interface
-_Promise
-{
-}
-;
-            
-interface
 A
 {
               
@@ -309,12 +291,6 @@ parse
 "
 "
 "
-            
-interface
-_Promise
-{
-}
-;
             
 interface
 A
@@ -396,12 +372,6 @@ parse
 "
             
 interface
-_Promise
-{
-}
-;
-            
-interface
 A
 {
               
@@ -473,12 +443,6 @@ parse
 "
 "
 "
-        
-interface
-_Promise
-{
-}
-;
         
 interface
 A

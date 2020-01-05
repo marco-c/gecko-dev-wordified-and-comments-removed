@@ -2328,12 +2328,6 @@ Dict2
 ;
           
 interface
-_Promise
-{
-}
-;
-          
-interface
 TestInterface
 {
 %
