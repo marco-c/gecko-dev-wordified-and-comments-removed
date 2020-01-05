@@ -88,7 +88,6 @@ LocalImageCache
 {
 image_cache_task
 :
-move
 image_cache_task
 round_number
 :
@@ -204,7 +203,6 @@ on_image_available
 =
 Some
 (
-move
 on_image_available
 )
 ;
@@ -388,7 +386,6 @@ image
 )
 ;
 return
-move
 port
 ;
 }
@@ -426,7 +423,6 @@ ImageNotReady
 )
 ;
 return
-move
 port
 ;
 }
@@ -459,7 +455,6 @@ ImageFailed
 )
 ;
 return
-move
 port
 ;
 }
@@ -488,7 +483,6 @@ GetImage
 copy
 *
 url
-move
 response_chan
 )
 )
@@ -554,14 +548,6 @@ task
 :
 :
 spawn
-|
-move
-url
-move
-on_image_available
-move
-image_cache_task
-|
 {
 let
 (
@@ -584,7 +570,6 @@ WaitForImage
 (
 copy
 url
-move
 response_chan
 )
 )
@@ -640,7 +625,6 @@ state
 .
 last_response
 =
-move
 response_copy
 ;
 let
@@ -660,12 +644,10 @@ chan
 .
 send
 (
-move
 response
 )
 ;
 return
-move
 port
 ;
 }

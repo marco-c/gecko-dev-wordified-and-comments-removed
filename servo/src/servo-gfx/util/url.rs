@@ -251,7 +251,6 @@ path
 +
 ~
 [
-move
 str_url
 ]
 "
@@ -279,7 +278,6 @@ path
 }
 else
 {
-move
 str_url
 }
 ;
@@ -330,7 +328,6 @@ url
 =
 make_url
 (
-move
 file
 None
 )
@@ -406,7 +403,6 @@ old_url
 =
 make_url
 (
-move
 old_str
 None
 )
@@ -426,11 +422,9 @@ new_url
 =
 make_url
 (
-move
 new_str
 Some
 (
-move
 old_url
 )
 )
@@ -503,7 +497,6 @@ old_url
 =
 make_url
 (
-move
 old_str
 None
 )
@@ -523,11 +516,9 @@ new_url
 =
 make_url
 (
-move
 new_str
 Some
 (
-move
 old_url
 )
 )
@@ -603,7 +594,6 @@ old_url
 =
 make_url
 (
-move
 old_str
 None
 )
@@ -623,11 +613,9 @@ new_url
 =
 make_url
 (
-move
 new_str
 Some
 (
-move
 old_url
 )
 )
@@ -705,7 +693,6 @@ old_url
 =
 make_url
 (
-move
 old_str
 None
 )
@@ -725,11 +712,9 @@ new_url
 =
 make_url
 (
-move
 new_str
 Some
 (
-move
 old_url
 )
 )

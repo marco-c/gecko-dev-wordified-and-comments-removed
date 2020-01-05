@@ -799,7 +799,6 @@ FontEntry
 new
 (
 family
-move
 font_handle
 )
 ;

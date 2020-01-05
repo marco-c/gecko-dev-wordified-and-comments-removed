@@ -174,9 +174,9 @@ ctx
 }
 pub
 impl
-FreeTypeFontContextHandle
-:
 FontContextHandleMethods
+for
+FreeTypeFontContextHandle
 {
 pure
 fn

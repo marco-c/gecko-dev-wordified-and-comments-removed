@@ -331,7 +331,6 @@ FontList
 {
 handle
 :
-move
 handle
 family_map
 :
@@ -354,7 +353,6 @@ fctx
 )
 ;
 return
-move
 list
 ;
 }
@@ -949,7 +947,6 @@ is_italic
 )
 handle
 :
-move
 handle
 }
 }

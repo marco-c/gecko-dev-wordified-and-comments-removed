@@ -61,10 +61,6 @@ task
 :
 :
 spawn
-|
-move
-f
-|
 {
 let
 (
@@ -88,7 +84,6 @@ ch
 ;
 f
 (
-move
 po
 )
 ;

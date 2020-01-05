@@ -119,13 +119,13 @@ V
 :
 Copy
 >
-MonoCache
+Cache
 <
 K
 V
 >
-:
-Cache
+for
+MonoCache
 <
 K
 V
@@ -294,7 +294,6 @@ value
 )
 )
 ;
-move
 value
 }
 Some

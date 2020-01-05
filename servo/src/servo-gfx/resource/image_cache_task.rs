@@ -424,12 +424,9 @@ ImageFailed
 }
 }
 impl
-ImageResponseMsg
-:
-cmp
-:
-:
 Eq
+for
+ImageResponseMsg
 {
 pure
 fn
@@ -653,7 +650,6 @@ decoder_factory_cell
 =
 Cell
 (
-move
 decoder_factory
 )
 ;
@@ -672,7 +668,6 @@ chan
 =
 SharedChan
 (
-move
 chan
 )
 ;
@@ -681,7 +676,6 @@ port_cell
 =
 Cell
 (
-move
 port
 )
 ;
@@ -750,7 +744,6 @@ run
 )
 ;
 }
-move
 chan
 }
 fn
@@ -779,7 +772,6 @@ port_cell
 =
 Cell
 (
-move
 port
 )
 ;
@@ -821,14 +813,11 @@ recv
 )
 ;
 match
-move
 msg
 {
 GetImage
 (
-move
 url
-move
 response
 )
 =
@@ -840,9 +829,7 @@ send
 (
 WaitForImage
 (
-move
 url
-move
 response
 )
 )
@@ -850,7 +837,6 @@ response
 }
 Exit
 (
-move
 response
 )
 =
@@ -862,7 +848,6 @@ send
 (
 Exit
 (
-move
 response
 )
 )
@@ -870,7 +855,6 @@ response
 break
 ;
 }
-move
 msg
 =
 >
@@ -878,17 +862,14 @@ inner_cache
 .
 send
 (
-move
 msg
 )
 }
 }
 }
 return
-move
 SharedChan
 (
-move
 chan
 )
 ;
@@ -1131,12 +1112,10 @@ msg
 )
 ;
 match
-move
 msg
 {
 Prefetch
 (
-move
 url
 )
 =
@@ -1145,14 +1124,11 @@ self
 .
 prefetch
 (
-move
 url
 )
 StorePrefetchedImageData
 (
-move
 url
-move
 data
 )
 =
@@ -1162,16 +1138,13 @@ self
 .
 store_prefetched_image_data
 (
-move
 url
-move
 data
 )
 ;
 }
 Decode
 (
-move
 url
 )
 =
@@ -1180,14 +1153,11 @@ self
 .
 decode
 (
-move
 url
 )
 StoreImage
 (
-move
 url
-move
 image
 )
 =
@@ -1196,16 +1166,12 @@ self
 .
 store_image
 (
-move
 url
-move
 image
 )
 GetImage
 (
-move
 url
-move
 response
 )
 =
@@ -1214,16 +1180,12 @@ self
 .
 get_image
 (
-move
 url
-move
 response
 )
 WaitForImage
 (
-move
 url
-move
 response
 )
 =
@@ -1233,15 +1195,12 @@ self
 .
 wait_for_image
 (
-move
 url
-move
 response
 )
 }
 OnMsg
 (
-move
 handler
 )
 =
@@ -1254,7 +1213,6 @@ handler
 )
 Exit
 (
-move
 response
 )
 =
@@ -1275,7 +1233,6 @@ need_exit
 =
 Some
 (
-move
 response
 )
 ;
@@ -1295,12 +1252,10 @@ None
 )
 ;
 match
-move
 need_exit
 {
 Some
 (
-move
 response
 )
 =
@@ -1397,7 +1352,6 @@ need_exit
 =
 Some
 (
-move
 response
 )
 ;
@@ -1424,7 +1378,6 @@ Url
 ImageState
 {
 match
-move
 self
 .
 state_map
@@ -1437,12 +1390,10 @@ url
 {
 Some
 (
-move
 state
 )
 =
 >
-move
 state
 None
 =
@@ -1468,9 +1419,7 @@ state_map
 .
 insert
 (
-move
 url
-move
 state
 )
 ;
@@ -1592,7 +1541,6 @@ result
 :
 unwrap
 (
-move
 image
 )
 )
@@ -1615,7 +1563,6 @@ StorePrefetchedImageData
 (
 copy
 url
-move
 result
 )
 )
@@ -1647,7 +1594,6 @@ self
 .
 set_state
 (
-move
 url
 Prefetching
 (
@@ -1759,7 +1705,6 @@ Prefetched
 (
 Cell
 (
-move
 data
 )
 )
@@ -1775,7 +1720,6 @@ self
 .
 decode
 (
-move
 url
 )
 _
@@ -1805,7 +1749,6 @@ self
 .
 purge_waiters
 (
-move
 url
 |
 |
@@ -1906,7 +1849,6 @@ self
 .
 set_state
 (
-move
 url
 Prefetching
 (
@@ -1996,16 +1938,6 @@ decoder_factory
 ;
 do
 spawn
-|
-move
-url_cell
-move
-decode
-move
-data
-move
-to_cache
-|
 {
 let
 url
@@ -2064,7 +1996,6 @@ option
 :
 unwrap
 (
-move
 image
 )
 )
@@ -2083,7 +2014,6 @@ StoreImage
 (
 copy
 url
-move
 image
 )
 )
@@ -2113,7 +2043,6 @@ self
 .
 set_state
 (
-move
 url
 Decoding
 )
@@ -2203,7 +2132,6 @@ self
 .
 purge_waiters
 (
-move
 url
 |
 |
@@ -2235,7 +2163,6 @@ self
 .
 purge_waiters
 (
-move
 url
 |
 |
@@ -2612,7 +2539,6 @@ push
 mut
 *
 waiters
-move
 response
 )
 ;
@@ -2627,12 +2553,10 @@ wait_map
 .
 insert
 (
-move
 url
 mut
 ~
 [
-move
 response
 ]
 )
@@ -2686,9 +2610,9 @@ exit
 ;
 }
 impl
-ImageCacheTask
-:
 ImageCacheTaskClient
+for
+ImageCacheTask
 {
 fn
 exit
@@ -2711,7 +2635,6 @@ send
 (
 Exit
 (
-move
 response_chan
 )
 )
@@ -2765,7 +2688,6 @@ resource_task
 :
 Load
 (
-move
 url
 response_chan
 )
@@ -2823,7 +2745,6 @@ Ok
 return
 Ok
 (
-move
 image_data
 )
 ;
@@ -2941,8 +2862,6 @@ resource_task
 :
 ControlMsg
 >
-move
-on_load
 |
 {
 loop
@@ -3101,9 +3020,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 chan
 )
 )
@@ -3205,7 +3122,6 @@ send
 (
 Prefetch
 (
-move
 url
 )
 )
@@ -3284,7 +3200,6 @@ send
 (
 Decode
 (
-move
 url
 )
 )
@@ -3392,9 +3307,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 chan
 )
 )
@@ -3520,7 +3433,6 @@ send
 (
 Prefetch
 (
-move
 url
 )
 )
@@ -3584,8 +3496,6 @@ do
 mock_resource_task
 |
 response
-move
-wait_port
 |
 {
 /
@@ -3706,9 +3616,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -3939,9 +3847,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -4185,7 +4091,6 @@ GetImage
 (
 copy
 url
-move
 response_chan
 )
 )
@@ -4984,9 +4889,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -5223,7 +5126,6 @@ GetImage
 (
 copy
 url
-move
 response_chan
 )
 )
@@ -5272,9 +5174,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -5386,7 +5286,6 @@ wait_to_decode_port_cell
 =
 Cell
 (
-move
 wait_to_decode_port
 )
 ;
@@ -5396,8 +5295,6 @@ decoder_factory
 fn
 ~
 (
-move
-wait_to_decode_port_cell
 )
 -
 >
@@ -5434,8 +5331,6 @@ data
 [
 u8
 ]
-move
-wait_to_decode_port
 )
 -
 >
@@ -5476,7 +5371,6 @@ image_cache_task
 ImageCacheTask_
 (
 mock_resource_task
-move
 decoder_factory
 )
 ;
@@ -5613,9 +5507,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -5866,9 +5758,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -6098,9 +5988,7 @@ send
 (
 WaitForImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -6171,8 +6059,6 @@ do
 mock_resource_task
 |
 response
-move
-wait_port
 |
 {
 wait_port
@@ -6276,9 +6162,7 @@ send
 (
 WaitForImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -6357,8 +6241,6 @@ do
 mock_resource_task
 |
 response
-move
-wait_port
 |
 {
 wait_port
@@ -6462,9 +6344,7 @@ send
 (
 WaitForImage
 (
-move
 url
-move
 response_chan
 )
 )
@@ -6624,9 +6504,7 @@ send
 (
 GetImage
 (
-move
 url
-move
 response_chan
 )
 )

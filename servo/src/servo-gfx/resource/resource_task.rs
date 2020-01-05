@@ -254,7 +254,6 @@ http_loader_factory
 ;
 create_resource_task_with_loaders
 (
-move
 loaders
 )
 }
@@ -386,11 +385,9 @@ ResourceManager
 {
 from_client
 :
-move
 from_client
 loaders
 :
-move
 loaders
 }
 }
@@ -490,7 +487,6 @@ url
 ;
 loader_factory
 (
-move
 url
 progress_chan
 )
@@ -806,7 +802,6 @@ loader_factories
 "
 snicklefritz
 "
-move
 loader_factory
 )
 ]
@@ -816,7 +811,6 @@ resource_task
 =
 create_resource_task_with_loaders
 (
-move
 loader_factories
 )
 ;
@@ -869,7 +863,6 @@ recv
 =
 Payload
 (
-move
 payload
 )
 ;

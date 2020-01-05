@@ -336,7 +336,6 @@ family_map
 .
 insert
 (
-move
 family_name
 new_family
 )
@@ -345,7 +344,6 @@ new_family
 /
 }
 return
-move
 family_map
 ;
 }
@@ -471,7 +469,6 @@ new_from_CTFont
 self
 .
 fctx
-move
 font
 )
 )
@@ -505,7 +502,6 @@ FontEntry
 new
 (
 family
-move
 handle
 )
 ;

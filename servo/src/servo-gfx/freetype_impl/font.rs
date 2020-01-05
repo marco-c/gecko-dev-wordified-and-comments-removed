@@ -182,9 +182,9 @@ bogus
 }
 pub
 impl
-FreeTypeFontTable
-:
 FontTableMethods
+for
+FreeTypeFontTable
 {
 fn
 with_buffer
@@ -201,6 +201,9 @@ uint
 )
 {
 fail
+!
+(
+)
 }
 }
 enum
@@ -951,9 +954,9 @@ Err
 }
 pub
 impl
-FreeTypeFontHandle
-:
 FontHandleMethods
+for
+FreeTypeFontHandle
 {
 /
 /

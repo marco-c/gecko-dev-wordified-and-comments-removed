@@ -7,12 +7,9 @@ CompressWhitespaceNewline
 DiscardNewline
 }
 impl
-CompressionMode
-:
-cmp
-:
-:
 Eq
+for
+CompressionMode
 {
 pure
 fn
@@ -506,7 +503,6 @@ each_char
 }
 }
 return
-move
 out_str
 ;
 fn
