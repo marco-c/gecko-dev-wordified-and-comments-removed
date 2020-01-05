@@ -365,7 +365,7 @@ aRequestedFlag
 )
 ;
 void
-TryDNSPrefetchPreconnectOrPrefetchOrPrerender
+TryDNSPrefetchPreconnectOrPrefetch
 (
 )
 ;

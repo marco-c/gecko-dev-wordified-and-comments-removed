@@ -1864,7 +1864,7 @@ NS_FAILED
 mRootDocShell
 -
 >
-ForceCreateAboutBlankContentViewer
+CreateAboutBlankContentViewer
 (
 nullptr
 )
