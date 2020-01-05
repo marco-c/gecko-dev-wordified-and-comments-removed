@@ -61,6 +61,7 @@ length
 :
 {
 AbsoluteLength
+FontBaseSize
 FontRelativeLength
 ViewportPercentageLength
 }
@@ -180,7 +181,10 @@ length
 to_computed_value
 (
 context
-false
+FontBaseSize
+:
+:
+CurrentStyle
 )
 specified
 :
@@ -1031,7 +1035,10 @@ val
 to_computed_value
 (
 context
-false
+FontBaseSize
+:
+:
+CurrentStyle
 )
 ;
 }
