@@ -42,6 +42,15 @@ os
 .
 IBinder
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
+;
 public
 class
 NotificationService
@@ -82,8 +91,8 @@ protected
 void
 setForegroundNotification
 (
-int
-id
+String
+name
 Notification
 notification
 )
@@ -92,7 +101,7 @@ super
 .
 setForegroundNotification
 (
-id
+name
 notification
 )
 ;
@@ -114,7 +123,11 @@ else
 {
 startForeground
 (
+R
+.
 id
+.
+foregroundNotification
 notification
 )
 ;
