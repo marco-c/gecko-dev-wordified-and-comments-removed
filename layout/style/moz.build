@@ -870,6 +870,11 @@ StyleRule
 .
 h
 '
+'
+URLMatchingFunction
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
