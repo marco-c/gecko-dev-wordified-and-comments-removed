@@ -166,6 +166,10 @@ extern
 crate
 audio_video_metadata
 ;
+extern
+crate
+base64
+;
 #
 [
 macro_use
@@ -383,10 +387,6 @@ ref_slice
 extern
 crate
 regex
-;
-extern
-crate
-rustc_serialize
 ;
 extern
 crate

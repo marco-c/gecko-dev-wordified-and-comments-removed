@@ -32,6 +32,10 @@ step_by
 ]
 extern
 crate
+base64
+;
+extern
+crate
 brotli
 ;
 extern
@@ -115,10 +119,6 @@ openssl_verify
 extern
 crate
 profile_traits
-;
-extern
-crate
-rustc_serialize
 ;
 extern
 crate
