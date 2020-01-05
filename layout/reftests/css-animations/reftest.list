@@ -1208,12 +1208,6 @@ assigned
 to
 PaintedLayers
 .
-fails
--
-if
-(
-stylo
-)
 =
 =
 mask
@@ -1234,12 +1228,6 @@ anim
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 mask
