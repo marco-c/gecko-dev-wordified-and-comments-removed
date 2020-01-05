@@ -9528,13 +9528,12 @@ borrow_mut
 (
 )
 .
-edit_point
-.
-index
-=
+set_edit_point_index
+(
 i
 as
 usize
+)
 ;
 /
 /
