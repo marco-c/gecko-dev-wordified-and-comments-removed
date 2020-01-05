@@ -471,3 +471,9 @@ mochitest
 browser
 -
 chrome
+-
+mochitest
+-
+devtools
+-
+chrome
