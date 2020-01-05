@@ -151,13 +151,6 @@ jsm
 '
 modules
 /
-LogUtils
-.
-jsm
-'
-'
-modules
-/
 utils
 .
 js
