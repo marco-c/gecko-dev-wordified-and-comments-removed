@@ -110,16 +110,6 @@ enabled
 "
 true
 ]
-[
-"
-media
-.
-test
-.
-dumpDebugInfo
-"
-true
-]
 ]
 }
 bootstrapTest
