@@ -6428,6 +6428,11 @@ mInner
 mName
 .
 raw
+:
+:
+<
+nsIAtom
+>
 (
 )
 )
