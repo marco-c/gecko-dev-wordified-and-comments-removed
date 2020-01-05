@@ -542,16 +542,6 @@ GlobalObject
 aGlobal
 )
 ;
-static
-void
-NoopMethod
-(
-const
-GlobalObject
-&
-aGlobal
-)
-;
 void
 ClearStorage
 (
