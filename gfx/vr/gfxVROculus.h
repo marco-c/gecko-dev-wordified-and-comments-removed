@@ -179,6 +179,11 @@ aRightEyeRect
 )
 override
 ;
+void
+UpdateStageParameters
+(
+)
+;
 public
 :
 explicit
@@ -322,6 +327,9 @@ mInputLayout
 ;
 bool
 mIsPresenting
+;
+float
+mEyeHeight
 ;
 bool
 UpdateConstantBuffers
