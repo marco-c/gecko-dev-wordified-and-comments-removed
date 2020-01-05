@@ -1700,7 +1700,7 @@ return
 nsCSSRendering
 :
 :
-PaintStyleImageLayer
+PaintBackground
 (
 params
 )
@@ -5471,7 +5471,7 @@ return
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 params
 StyleContext
