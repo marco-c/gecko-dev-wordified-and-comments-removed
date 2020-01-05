@@ -417,10 +417,11 @@ T
 >
 ;
 enum
+class
 NodeKind
 {
-NODE_KIND_NORMAL
-NODE_KIND_SENTINEL
+Normal
+Sentinel
 }
 ;
 explicit
@@ -443,7 +444,10 @@ mIsSentinel
 nodeKind
 =
 =
-NODE_KIND_SENTINEL
+NodeKind
+:
+:
+Sentinel
 )
 {
 }
@@ -875,7 +879,10 @@ T
 >
 :
 :
-NODE_KIND_SENTINEL
+NodeKind
+:
+:
+Sentinel
 )
 {
 }
