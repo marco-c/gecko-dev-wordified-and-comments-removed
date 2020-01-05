@@ -210,6 +210,13 @@ parse_style_attribute
 /
 Style
 attributes
+pub
+use
+errors
+:
+:
+with_errors_silenced
+;
 mod
 stylesheets
 ;
