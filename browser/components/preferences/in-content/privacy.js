@@ -633,7 +633,7 @@ rv
 {
 ContextualIdentityService
 .
-closeAllContainerTabs
+closeContainerTabs
 (
 )
 ;
