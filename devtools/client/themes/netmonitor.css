@@ -895,7 +895,7 @@ top
 #
 requests
 -
-list
+menu
 -
 perf
 -
@@ -930,7 +930,7 @@ middle
 #
 requests
 -
-list
+menu
 -
 perf
 -
@@ -960,7 +960,7 @@ svg
 #
 requests
 -
-list
+menu
 -
 reload
 -
@@ -989,7 +989,7 @@ margin
 #
 requests
 -
-list
+menu
 -
 toolbar
 {
@@ -1005,7 +1005,7 @@ padding
 #
 requests
 -
-list
+menu
 -
 filter
 -
@@ -1029,7 +1029,7 @@ firebug
 #
 requests
 -
-list
+menu
 -
 toolbar
 {
@@ -1043,7 +1043,7 @@ important
 .
 requests
 -
-list
+menu
 -
 contents
 {
@@ -1091,7 +1091,7 @@ scale
 .
 requests
 -
-list
+menu
 -
 subitem
 {
@@ -1151,7 +1151,7 @@ ellipsis
 .
 requests
 -
-list
+menu
 -
 header
 {
@@ -1167,7 +1167,7 @@ none
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1330,7 +1330,7 @@ important
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1356,7 +1356,7 @@ padding
 .
 requests
 -
-list
+menu
 -
 header
 :
@@ -1366,7 +1366,7 @@ child
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1382,7 +1382,7 @@ width
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1408,7 +1408,7 @@ rgba
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1443,7 +1443,7 @@ ellipsis
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1486,7 +1486,7 @@ width
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1523,7 +1523,7 @@ image
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1560,7 +1560,7 @@ image
 .
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -1576,7 +1576,7 @@ flex
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1589,7 +1589,7 @@ sorted
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1634,7 +1634,7 @@ color
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1647,7 +1647,7 @@ sorted
 .
 requests
 -
-list
+menu
 -
 header
 [
@@ -1659,13 +1659,13 @@ active
 .
 requests
 -
-list
+menu
 -
 header
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1711,7 +1711,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 header
 {
@@ -1763,7 +1763,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1783,7 +1783,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1806,7 +1806,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1841,7 +1841,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -1875,7 +1875,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 header
 :
@@ -1907,7 +1907,7 @@ transparent
 .
 requests
 -
-list
+menu
 -
 status
 {
@@ -1931,13 +1931,13 @@ width
 .
 requests
 -
-list
+menu
 -
 method
 .
 requests
 -
-list
+menu
 -
 method
 -
@@ -1963,7 +1963,7 @@ width
 .
 requests
 -
-list
+menu
 -
 icon
 -
@@ -1979,7 +1979,7 @@ width
 .
 requests
 -
-list
+menu
 -
 icon
 {
@@ -2007,7 +2007,7 @@ end
 .
 requests
 -
-list
+menu
 -
 icon
 {
@@ -2030,7 +2030,7 @@ color
 .
 requests
 -
-list
+menu
 -
 security
 -
@@ -2264,13 +2264,13 @@ svg
 .
 requests
 -
-list
+menu
 -
 type
 .
 requests
 -
-list
+menu
 -
 size
 {
@@ -2294,7 +2294,7 @@ center
 .
 requests
 -
-list
+menu
 -
 transferred
 {
@@ -2318,7 +2318,7 @@ center
 .
 requests
 -
-list
+menu
 -
 cause
 {
@@ -2336,7 +2336,7 @@ width
 .
 requests
 -
-list
+menu
 -
 cause
 -
@@ -2434,7 +2434,7 @@ selected
 .
 requests
 -
-list
+menu
 -
 transferred
 .
@@ -2459,7 +2459,7 @@ color
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2494,7 +2494,7 @@ important
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2569,7 +2569,7 @@ selected
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2588,7 +2588,7 @@ brightness
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2622,7 +2622,7 @@ color2
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2662,7 +2662,7 @@ transparent
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2697,7 +2697,7 @@ blue
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2732,7 +2732,7 @@ green
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2805,7 +2805,7 @@ radius
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2846,7 +2846,7 @@ radius
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -2894,7 +2894,7 @@ rotate
 .
 requests
 -
-list
+menu
 -
 waterfall
 {
@@ -2914,7 +2914,7 @@ start
 .
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -2927,7 +2927,7 @@ not
 .
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -2946,7 +2946,7 @@ start
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3001,7 +3001,7 @@ initial
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3028,7 +3028,7 @@ dashed
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3055,7 +3055,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3086,7 +3086,7 @@ dark
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3113,7 +3113,7 @@ light
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3136,7 +3136,7 @@ important
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3153,7 +3153,7 @@ second
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3178,13 +3178,13 @@ weight
 .
 requests
 -
-list
+menu
 -
 subitem
 .
 requests
 -
-list
+menu
 -
 waterfall
 {
@@ -3238,13 +3238,13 @@ center
 .
 requests
 -
-list
+menu
 -
 subitem
 .
 requests
 -
-list
+menu
 -
 waterfall
 :
@@ -3269,7 +3269,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 {
@@ -3305,7 +3305,7 @@ scale
 .
 requests
 -
-list
+menu
 -
 timings
 :
@@ -3330,7 +3330,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 :
@@ -3355,7 +3355,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3382,7 +3382,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3409,7 +3409,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3468,7 +3468,7 @@ scale
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3492,7 +3492,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3534,7 +3534,7 @@ height
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3561,7 +3561,7 @@ color
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3588,7 +3588,7 @@ color
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3615,7 +3615,7 @@ color
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3642,7 +3642,7 @@ color
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3669,7 +3669,7 @@ color
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -3898,7 +3898,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 subitem
 {
@@ -3914,13 +3914,13 @@ firebug
 .
 requests
 -
-list
+menu
 -
 subitem
 .
 requests
 -
-list
+menu
 -
 status
 {
@@ -3938,13 +3938,13 @@ firebug
 .
 requests
 -
-list
+menu
 -
 subitem
 .
 requests
 -
-list
+menu
 -
 method
 -
@@ -3971,7 +3971,7 @@ selected
 .
 requests
 -
-list
+menu
 -
 method
 {
@@ -3996,13 +3996,13 @@ firebug
 .
 requests
 -
-list
+menu
 -
 subitem
 .
 requests
 -
-list
+menu
 -
 size
 {
@@ -4453,7 +4453,7 @@ width
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -4477,7 +4477,7 @@ center
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -4497,7 +4497,7 @@ out
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -4531,7 +4531,7 @@ firebug
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -4886,7 +4886,7 @@ start
 #
 requests
 -
-list
+menu
 -
 network
 -
@@ -4956,7 +4956,7 @@ width
 #
 requests
 -
-list
+menu
 -
 network
 -
@@ -5015,7 +5015,7 @@ opacity
 #
 requests
 -
-list
+menu
 -
 network
 -
@@ -5050,7 +5050,7 @@ start
 #
 requests
 -
-list
+menu
 -
 network
 -
@@ -5069,7 +5069,7 @@ icon
 #
 requests
 -
-list
+menu
 -
 network
 -
@@ -6162,7 +6162,7 @@ toggle
 #
 requests
 -
-list
+menu
 -
 network
 -
@@ -6185,7 +6185,7 @@ none
 #
 requests
 -
-list
+menu
 -
 toolbar
 {
@@ -6197,7 +6197,7 @@ height
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -6219,7 +6219,7 @@ left
 .
 requests
 -
-list
+menu
 -
 status
 {
@@ -6237,7 +6237,7 @@ width
 .
 requests
 -
-list
+menu
 -
 status
 -
@@ -6251,13 +6251,13 @@ auto
 .
 requests
 -
-list
+menu
 -
 method
 .
 requests
 -
-list
+menu
 -
 method
 -
@@ -6277,7 +6277,7 @@ width
 .
 requests
 -
-list
+menu
 -
 icon
 -
@@ -6293,7 +6293,7 @@ width
 .
 requests
 -
-list
+menu
 -
 security
 -
@@ -6309,25 +6309,25 @@ width
 .
 requests
 -
-list
+menu
 -
 cause
 .
 requests
 -
-list
+menu
 -
 type
 .
 requests
 -
-list
+menu
 -
 transferred
 .
 requests
 -
-list
+menu
 -
 size
 {
@@ -6345,7 +6345,7 @@ width
 .
 requests
 -
-list
+menu
 -
 waterfall
 {
@@ -6410,7 +6410,7 @@ win
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -6438,7 +6438,7 @@ win
 .
 requests
 -
-list
+menu
 -
 timings
 -
@@ -6521,7 +6521,7 @@ linux
 .
 requests
 -
-list
+menu
 -
 header
 -
@@ -7238,7 +7238,7 @@ summary
 .
 requests
 -
-list
+menu
 -
 status
 -

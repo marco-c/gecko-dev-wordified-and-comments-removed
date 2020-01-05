@@ -635,7 +635,7 @@ id
 :
 requests
 -
-list
+menu
 -
 filter
 -
@@ -740,7 +740,7 @@ id
 "
 requests
 -
-list
+menu
 -
 clear
 -
@@ -774,7 +774,7 @@ id
 "
 requests
 -
-list
+menu
 -
 filter
 -
@@ -805,7 +805,7 @@ id
 "
 requests
 -
-list
+menu
 -
 network
 -
