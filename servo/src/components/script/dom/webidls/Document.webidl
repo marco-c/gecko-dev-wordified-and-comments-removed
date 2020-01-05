@@ -393,6 +393,11 @@ documentURI
 readonly
 attribute
 DOMString
+origin
+;
+readonly
+attribute
+DOMString
 compatMode
 ;
 /
