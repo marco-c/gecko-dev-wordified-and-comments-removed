@@ -440,6 +440,7 @@ ServiceWorkerMsg
 ScopeThings
 SWManagerMsg
 SWManagerSenders
+DOMMessage
 }
 ;
 #

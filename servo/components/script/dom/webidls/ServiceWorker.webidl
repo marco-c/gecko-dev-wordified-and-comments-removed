@@ -112,8 +112,6 @@ attribute
 ServiceWorkerState
 state
 ;
-/
-/
 [
 Throws
 ]
