@@ -552,7 +552,10 @@ NodeBundle
 let
 val
 =
-JS_GetReservedSlot
+js
+:
+:
+GetReservedSlot
 (
 obj
 0
