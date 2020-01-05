@@ -5500,6 +5500,7 @@ fullZoom
 :
 zoomReset
 "
+null
 )
 ;
 }

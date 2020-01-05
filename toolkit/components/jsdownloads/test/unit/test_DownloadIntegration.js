@@ -57,6 +57,7 @@ application
 -
 requested
 "
+null
 )
 ;
 do_check_eq
@@ -86,6 +87,7 @@ offline
 -
 requested
 "
+null
 )
 ;
 do_check_eq
@@ -124,6 +126,7 @@ context
 -
 exiting
 "
+null
 )
 ;
 do_check_eq
@@ -1658,6 +1661,7 @@ null
 "
 sleep_notification
 "
+null
 )
 ;
 do_check_true
@@ -1719,6 +1723,7 @@ null
 "
 wake_notification
 "
+null
 )
 ;
 yield
@@ -1815,6 +1820,7 @@ go
 -
 offline
 "
+null
 )
 ;
 do_check_true
@@ -2046,6 +2052,7 @@ context
 -
 exited
 "
+null
 )
 ;
 }

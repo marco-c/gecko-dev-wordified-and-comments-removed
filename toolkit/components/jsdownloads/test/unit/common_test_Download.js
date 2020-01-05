@@ -10796,6 +10796,7 @@ context
 -
 exited
 "
+null
 )
 ;
 do_check_false

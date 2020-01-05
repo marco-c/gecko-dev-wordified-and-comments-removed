@@ -234,6 +234,7 @@ pdfjs
 :
 handlerChanged
 "
+null
 )
 ;
 handlerInfo

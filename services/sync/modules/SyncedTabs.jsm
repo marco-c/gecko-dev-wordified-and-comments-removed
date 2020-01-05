@@ -1181,6 +1181,7 @@ notifyObservers
 (
 null
 TOPIC_TABS_CHANGED
+null
 )
 ;
 break
@@ -1217,6 +1218,7 @@ notifyObservers
 (
 null
 TOPIC_TABS_CHANGED
+null
 )
 ;
 break
@@ -1236,6 +1238,7 @@ notifyObservers
 (
 null
 TOPIC_TABS_CHANGED
+null
 )
 ;
 break

@@ -310,6 +310,7 @@ startupcache
 -
 invalidate
 "
+null
 )
 ;
 }

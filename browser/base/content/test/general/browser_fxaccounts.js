@@ -181,6 +181,7 @@ browser_fxaccounts
 :
 updateUI
 "
+null
 )
 ;
 }
@@ -205,6 +206,7 @@ browser_fxaccounts
 :
 openPreferences
 "
+null
 )
 ;
 }
@@ -510,6 +512,7 @@ this
 FxAccountsCommon
 .
 ONLOGOUT_NOTIFICATION
+null
 )
 ;
 yield
@@ -953,6 +956,7 @@ this
 FxAccountsCommon
 .
 ON_PROFILE_CHANGE_NOTIFICATION
+null
 )
 ;
 Assert

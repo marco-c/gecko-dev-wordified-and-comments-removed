@@ -722,6 +722,7 @@ context
 -
 exited
 "
+null
 )
 ;
 get_device_entry_count

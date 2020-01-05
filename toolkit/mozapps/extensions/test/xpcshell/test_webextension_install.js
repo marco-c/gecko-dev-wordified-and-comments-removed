@@ -637,6 +637,7 @@ cache
 -
 entry
 "
+null
 )
 ;
 addonDir

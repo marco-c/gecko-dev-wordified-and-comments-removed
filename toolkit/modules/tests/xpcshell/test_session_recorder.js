@@ -1598,6 +1598,7 @@ interaction
 -
 active
 "
+null
 )
 ;
 yield
@@ -1644,6 +1645,7 @@ interaction
 -
 inactive
 "
+null
 )
 ;
 do_check_eq
@@ -1689,6 +1691,7 @@ interaction
 -
 active
 "
+null
 )
 ;
 do_check_eq
@@ -1734,6 +1737,7 @@ interaction
 -
 active
 "
+null
 )
 ;
 do_check_eq
@@ -1758,6 +1762,7 @@ interaction
 -
 active
 "
+null
 )
 ;
 do_check_eq

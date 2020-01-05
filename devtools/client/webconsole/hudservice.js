@@ -1928,6 +1928,7 @@ console
 -
 destroyed
 "
+null
 )
 ;
 this

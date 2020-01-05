@@ -103,6 +103,8 @@ notifyObservers
 (
 null
 TELEMETRY_SUBSESSION_TOPIC
+"
+"
 )
 ;
 function
@@ -997,6 +999,8 @@ notifyObservers
 (
 null
 TELEMETRY_SUBSESSION_TOPIC
+"
+"
 )
 ;
 checkScalars

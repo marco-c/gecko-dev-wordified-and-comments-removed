@@ -159,6 +159,7 @@ startupcache
 -
 invalidate
 "
+null
 )
 ;
 iterStyleNodes

@@ -38,6 +38,8 @@ addon
 -
 install
 "
+"
+"
 )
 ;
 }

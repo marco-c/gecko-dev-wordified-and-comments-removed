@@ -497,6 +497,7 @@ notifyObservers
 (
 null
 LIST_UPDATED_TOPIC
+null
 )
 ;
 AddonManager
@@ -664,6 +665,7 @@ notifyObservers
 (
 null
 LIST_UPDATED_TOPIC
+null
 )
 ;
 ensure_test_completed
@@ -843,6 +845,7 @@ notifyObservers
 (
 null
 LIST_UPDATED_TOPIC
+null
 )
 ;
 ensure_test_completed
@@ -951,6 +954,7 @@ notifyObservers
 (
 null
 LIST_UPDATED_TOPIC
+null
 )
 ;
 ensure_test_completed
@@ -1167,6 +1171,7 @@ notifyObservers
 (
 null
 LIST_UPDATED_TOPIC
+null
 )
 ;
 ensure_test_completed
@@ -1394,6 +1399,7 @@ notifyObservers
 (
 null
 LIST_UPDATED_TOPIC
+null
 )
 ;
 ensure_test_completed

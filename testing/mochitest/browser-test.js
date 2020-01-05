@@ -4542,6 +4542,7 @@ before
 -
 check
 "
+null
 )
 ;
 barrier

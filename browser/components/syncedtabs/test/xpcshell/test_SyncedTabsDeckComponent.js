@@ -890,6 +890,8 @@ null
 SyncedTabs
 .
 TOPIC_TABS_CHANGED
+"
+"
 )
 ;
 Assert
@@ -958,6 +960,8 @@ null
 FxAccountsCommon
 .
 ONLOGIN_NOTIFICATION
+"
+"
 )
 ;
 Assert
@@ -1019,6 +1023,8 @@ service
 login
 :
 change
+"
+"
 "
 )
 ;

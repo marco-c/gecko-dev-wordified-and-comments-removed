@@ -156,6 +156,7 @@ wrappedJSObject
 msg
 }
 CHROME_MSG
+null
 )
 ;
 }
@@ -194,6 +195,7 @@ wrappedJSObject
 msg
 }
 CHROME_MSG
+null
 )
 ;
 }

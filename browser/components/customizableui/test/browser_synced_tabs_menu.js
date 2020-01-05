@@ -125,6 +125,7 @@ null
 SyncedTabs
 .
 TOPIC_TABS_CHANGED
+null
 )
 ;
 return
