@@ -409,7 +409,7 @@ onTargetChange
 function
 BFSO_onSaveComplete
 (
-unused
+aSaver
 aTarget
 )
 {
@@ -430,7 +430,7 @@ onSaveComplete
 function
 BFSO_onSaveComplete
 (
-unused
+aSaver
 aStatus
 )
 {

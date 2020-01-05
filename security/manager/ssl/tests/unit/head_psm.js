@@ -1529,14 +1529,14 @@ REMOTE_PORT
 function
 Connection
 (
-host
+aHost
 )
 {
 this
 .
 host
 =
-host
+aHost
 ;
 let
 threadManager
@@ -1624,7 +1624,7 @@ ssl
 "
 ]
 1
-host
+aHost
 REMOTE_PORT
 null
 )
@@ -1973,7 +1973,7 @@ promise
 function
 connectTo
 (
-host
+aHost
 )
 {
 Services
@@ -1989,7 +1989,7 @@ dns
 .
 localDomains
 "
-host
+aHost
 )
 ;
 let
@@ -1998,7 +1998,7 @@ connection
 new
 Connection
 (
-host
+aHost
 )
 ;
 return

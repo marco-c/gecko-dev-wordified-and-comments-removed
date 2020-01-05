@@ -627,7 +627,7 @@ onUpdateAvailable
 :
 function
 (
-unused
+addon
 install
 )
 {
@@ -764,7 +764,7 @@ onUpdateAvailable
 :
 function
 (
-unused
+addon
 install
 )
 {
@@ -888,6 +888,8 @@ onUpdateAvailable
 :
 function
 (
+addon
+install
 )
 {
 do_throw
@@ -1021,7 +1023,7 @@ onUpdateAvailable
 :
 function
 (
-unused
+addon
 install
 )
 {

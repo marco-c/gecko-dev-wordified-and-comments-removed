@@ -90,7 +90,7 @@ true
 )
 ;
 var
-gProfile
+profile
 =
 do_get_profile
 (
@@ -99,7 +99,7 @@ do_get_profile
 var
 blockFile
 =
-gProfile
+profile
 .
 clone
 (
@@ -277,15 +277,15 @@ amo
 "
 ;
 var
-gRevocations
+revocations
 =
-gProfile
+profile
 .
 clone
 (
 )
 ;
-gRevocations
+revocations
 .
 append
 (
@@ -299,7 +299,7 @@ txt
 if
 (
 !
-gRevocations
+revocations
 .
 exists
 (
@@ -325,7 +325,7 @@ existing
 .
 copyTo
 (
-gProfile
+profile
 "
 revocations
 .
@@ -1980,7 +1980,7 @@ SEC_ERROR_UNKNOWN_ISSUER
 let
 lastModified
 =
-gRevocations
+revocations
 .
 lastModifiedTime
 ;
@@ -2006,7 +2006,7 @@ saveEntries
 let
 newModified
 =
-gRevocations
+revocations
 .
 lastModifiedTime
 ;

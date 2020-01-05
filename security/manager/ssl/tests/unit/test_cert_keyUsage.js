@@ -405,7 +405,7 @@ CTu
 )
 ;
 let
-caCert
+cert
 =
 constructCertFromFile
 (
@@ -426,7 +426,7 @@ yield
 asyncTestCertificateUsages
 (
 certdb
-caCert
+cert
 expectedUsagesMap
 [
 ca
@@ -453,7 +453,7 @@ ee
 ca
 ;
 let
-eeCert
+cert
 =
 constructCertFromFile
 (
@@ -474,7 +474,7 @@ yield
 asyncTestCertificateUsages
 (
 certdb
-eeCert
+cert
 expectedUsagesMap
 [
 eeFullName

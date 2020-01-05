@@ -13,7 +13,7 @@ options
 function
 background
 (
-bgOptions
+options
 )
 {
 browser
@@ -33,7 +33,7 @@ browser
 typeof
 browser
 [
-bgOptions
+options
 .
 namespace
 ]
@@ -42,7 +42,7 @@ chrome
 typeof
 chrome
 [
-bgOptions
+options
 .
 namespace
 ]

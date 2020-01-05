@@ -149,13 +149,13 @@ updateAppInfo
 )
 ;
 let
-server
+httpServer
 =
 useHttpServer
 (
 )
 ;
-server
+httpServer
 .
 registerContentType
 (

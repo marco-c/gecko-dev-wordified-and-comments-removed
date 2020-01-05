@@ -1213,7 +1213,7 @@ guid
 then
 (
 expectedError
-invalidGuidError
+error
 =
 >
 {
@@ -1223,7 +1223,7 @@ test
 .
 assertTrue
 (
-invalidGuidError
+error
 .
 message
 .
@@ -1279,7 +1279,7 @@ nonExistentId
 then
 (
 expectedError
-nonExistentIdError
+error
 =
 >
 {
@@ -1289,7 +1289,7 @@ test
 .
 assertTrue
 (
-nonExistentIdError
+error
 .
 message
 .
@@ -2094,10 +2094,10 @@ children
 .
 find
 (
-bookmarkItem
+bookmark
 =
 >
-bookmarkItem
+bookmark
 .
 id
 =
@@ -2978,7 +2978,7 @@ createdFolderId
 .
 then
 (
-newBookmarks
+results
 =
 >
 {
@@ -3002,7 +3002,7 @@ received
 ;
 checkOnCreated
 (
-newBookmarks
+results
 [
 2
 ]
@@ -3025,7 +3025,7 @@ org
 firefox
 /
 "
-newBookmarks
+results
 [
 2
 ]
@@ -3035,7 +3035,7 @@ dateAdded
 ;
 checkOnCreated
 (
-newBookmarks
+results
 [
 1
 ]
@@ -3057,7 +3057,7 @@ allizom
 com
 /
 "
-newBookmarks
+results
 [
 1
 ]
@@ -3067,7 +3067,7 @@ dateAdded
 ;
 checkOnCreated
 (
-newBookmarks
+results
 [
 0
 ]
@@ -3088,7 +3088,7 @@ allizom
 org
 /
 "
-newBookmarks
+results
 [
 0
 ]
@@ -3204,7 +3204,7 @@ search
 .
 then
 (
-bookmarksSearchResults
+results
 =
 >
 {
@@ -3214,7 +3214,7 @@ test
 .
 assertTrue
 (
-bookmarksSearchResults
+results
 .
 length
 >
@@ -6173,7 +6173,7 @@ search
 .
 then
 (
-searchResults
+results
 =
 >
 {
@@ -6186,7 +6186,7 @@ assertEq
 startBookmarkCount
 -
 4
-searchResults
+results
 .
 length
 "

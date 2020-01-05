@@ -430,7 +430,7 @@ string
 function
 do_wait_observer
 (
-obsTopic
+topic
 cb
 )
 {
@@ -464,7 +464,7 @@ obs
 addObserver
 (
 observer
-obsTopic
+topic
 false
 )
 ;

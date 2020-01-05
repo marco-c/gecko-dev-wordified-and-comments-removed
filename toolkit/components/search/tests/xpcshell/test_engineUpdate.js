@@ -158,7 +158,7 @@ loaded
 )
 {
 let
-loadedEngine
+engine
 =
 subject
 .
@@ -172,13 +172,13 @@ nsISearchEngine
 let
 rawEngine
 =
-loadedEngine
+engine
 .
 wrappedJSObject
 ;
 equal
 (
-loadedEngine
+engine
 .
 alias
 KEYWORD

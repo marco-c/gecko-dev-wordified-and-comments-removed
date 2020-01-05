@@ -372,7 +372,7 @@ addons
 )
 ;
 let
-experimentAddons
+addons
 =
 yield
 deferred
@@ -387,7 +387,7 @@ Array
 .
 isArray
 (
-experimentAddons
+addons
 )
 "
 getAddonsByTypes
@@ -402,7 +402,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 .
 length
 0
@@ -525,7 +525,7 @@ addons
 }
 )
 ;
-experimentAddons
+addons
 =
 yield
 deferred
@@ -536,7 +536,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 .
 length
 0
@@ -702,7 +702,7 @@ addons
 }
 )
 ;
-experimentAddons
+addons
 =
 yield
 deferred
@@ -713,7 +713,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 .
 length
 1
@@ -732,7 +732,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 [
 0
 ]
@@ -947,7 +947,7 @@ addons
 }
 )
 ;
-experimentAddons
+addons
 =
 yield
 deferred
@@ -958,7 +958,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 .
 length
 1
@@ -979,7 +979,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 [
 0
 ]
@@ -998,7 +998,7 @@ Assert
 .
 ok
 (
-experimentAddons
+addons
 [
 0
 ]
@@ -1202,7 +1202,7 @@ addons
 )
 ;
 let
-experimentAddons
+addons
 =
 yield
 deferred
@@ -1213,7 +1213,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 .
 length
 1
@@ -1258,7 +1258,7 @@ addons
 }
 )
 ;
-experimentAddons
+addons
 =
 yield
 deferred
@@ -1269,7 +1269,7 @@ Assert
 .
 equal
 (
-experimentAddons
+addons
 .
 length
 2
@@ -1289,7 +1289,7 @@ for
 let
 addon
 of
-experimentAddons
+addons
 )
 {
 if

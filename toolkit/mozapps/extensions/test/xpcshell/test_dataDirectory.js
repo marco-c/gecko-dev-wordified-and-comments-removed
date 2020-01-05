@@ -33,11 +33,6 @@ test_data_directory
 "
 }
 ;
-function
-run_test
-(
-)
-{
 var
 expectedDir
 =
@@ -67,6 +62,11 @@ ADDON
 id
 )
 ;
+function
+run_test
+(
+)
+{
 do_test_pending
 (
 )

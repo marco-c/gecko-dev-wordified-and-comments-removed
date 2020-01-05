@@ -234,7 +234,7 @@ onMessage
 .
 addListener
 (
-portMsg
+msg
 =
 >
 {
@@ -252,7 +252,7 @@ webextension
 port
 message
 "
-portMsg
+msg
 "
 Got
 the

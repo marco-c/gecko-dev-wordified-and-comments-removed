@@ -378,7 +378,7 @@ addBlocker
 :
 function
 (
-blockerName
+name
 condition
 state
 )
@@ -432,7 +432,7 @@ blocker
 {
 name
 :
-blockerName
+name
 state
 :
 state

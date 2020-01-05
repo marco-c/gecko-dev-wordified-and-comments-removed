@@ -176,7 +176,7 @@ addListener
 (
 (
 changes
-changedStorage
+storage
 )
 =
 >
@@ -190,7 +190,7 @@ assertEq
 "
 local
 "
-changedStorage
+storage
 "
 storage
 is

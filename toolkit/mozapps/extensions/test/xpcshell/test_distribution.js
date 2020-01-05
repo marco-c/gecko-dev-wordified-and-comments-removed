@@ -862,12 +862,12 @@ org
 "
 function
 (
-a1_2
+a1
 )
 {
 do_check_eq
 (
-a1_2
+a1
 null
 )
 ;

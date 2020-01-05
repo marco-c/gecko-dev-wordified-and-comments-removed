@@ -34,15 +34,6 @@ used
 "
 warn
 "
-"
-no
--
-shadow
-"
-:
-"
-error
-"
 }
 "
 globals

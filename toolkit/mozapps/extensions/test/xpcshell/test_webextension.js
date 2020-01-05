@@ -965,7 +965,7 @@ test_manifest_localization
 )
 {
 const
-extensionId
+ID
 =
 "
 webextension3
@@ -1001,7 +1001,7 @@ addon
 yield
 promiseAddonByID
 (
-extensionId
+ID
 )
 ;
 addon
@@ -1063,7 +1063,7 @@ addon
 yield
 promiseAddonByID
 (
-extensionId
+ID
 )
 ;
 equal
@@ -1119,7 +1119,7 @@ addon
 yield
 promiseAddonByID
 (
-extensionId
+ID
 )
 ;
 equal
@@ -1530,7 +1530,7 @@ html
 /
 ;
 const
-extensionId
+ID
 =
 "
 webextension
@@ -1556,7 +1556,7 @@ gecko
 {
 id
 :
-extensionId
+ID
 }
 }
 "
@@ -1584,7 +1584,7 @@ addon
 yield
 promiseAddonByID
 (
-extensionId
+ID
 )
 ;
 equal
@@ -1918,7 +1918,7 @@ RELEASE_OR_BETA
 return
 ;
 const
-extensionId
+ID
 =
 "
 meh
@@ -1939,7 +1939,7 @@ createTempXPIFile
 {
 id
 :
-extensionId
+ID
 type
 :
 256
@@ -2004,7 +2004,7 @@ equal
 addon
 .
 id
-extensionId
+ID
 "
 Add
 -
@@ -2050,7 +2050,7 @@ pop
 )
 .
 id
-extensionId
+ID
 "
 Add
 -
