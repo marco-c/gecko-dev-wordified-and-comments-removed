@@ -452,17 +452,6 @@ true
 }
 virtual
 bool
-ForceZeroStartTime
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
-bool
 UseBufferingHeuristics
 (
 )

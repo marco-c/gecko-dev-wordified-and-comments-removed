@@ -212,13 +212,6 @@ override
 ;
 public
 :
-bool
-ForceZeroStartTime
-(
-)
-const
-override
-;
 void
 ReleaseResources
 (
