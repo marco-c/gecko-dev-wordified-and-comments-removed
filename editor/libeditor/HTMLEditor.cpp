@@ -1192,8 +1192,10 @@ false
 }
 mCSSEditUtils
 =
-new
+MakeUnique
+<
 CSSEditUtils
+>
 (
 this
 )
