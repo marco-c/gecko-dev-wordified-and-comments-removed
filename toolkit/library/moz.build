@@ -816,9 +816,6 @@ USE_LIBS
 =
 [
 '
-gkmedias
-'
-'
 lgpllibs
 '
 '
@@ -1893,6 +1890,9 @@ ws2_32
 '
 '
 dbghelp
+'
+'
+dwmapi
 '
 '
 rasapi32

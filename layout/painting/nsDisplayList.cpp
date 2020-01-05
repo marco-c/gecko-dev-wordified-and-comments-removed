@@ -2681,7 +2681,7 @@ nsCSSValueSharedList
 >
 list
 ;
-Servo_AnimationValues_GetTransform
+Servo_AnimationValue_GetTransform
 (
 aAnimationValue
 .

@@ -31,6 +31,8 @@ os
 .
 path
 import
+re
+import
 sys
 import
 requests
@@ -484,22 +486,31 @@ nightly
     
 basename
 =
-basename
+re
 .
-replace
+sub
 (
+r
 '
 cargo
 -
 0
+\
 .
-16
+[
+\
+d
+\
+.
+]
++
 '
 '
 cargo
 -
 nightly
 '
+basename
 )
     
 print
@@ -1769,11 +1780,6 @@ linux64
 android
 android_x86
 ]
-channel
-=
-'
-beta
-'
 suffix
 =
 '
