@@ -43,11 +43,7 @@ util
 .
 scriptworker
 import
-(
 get_balrog_server_scope
-                                         
-get_balrog_channel_scopes
-)
 from
 taskgraph
 .
@@ -609,13 +605,6 @@ get_balrog_server_scope
 config
 )
         
-channel_scopes
-=
-get_balrog_channel_scopes
-(
-config
-)
-        
 task
 =
 {
@@ -703,8 +692,6 @@ scopes
 [
 server_scope
 ]
-+
-channel_scopes
             
 '
 dependencies
