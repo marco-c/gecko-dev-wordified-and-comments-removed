@@ -12585,6 +12585,14 @@ NS_ENSURE_ARG_POINTER
 aStatus
 )
 ;
+mCurrentTarget
+=
+aTargetFrame
+;
+mCurrentTargetContent
+=
+nullptr
+;
 bool
 dispatchedToContentProcess
 =
@@ -12594,11 +12602,7 @@ aEvent
 aStatus
 )
 ;
-mCurrentTarget
-=
 aTargetFrame
-;
-mCurrentTargetContent
 =
 nullptr
 ;
@@ -13706,7 +13710,7 @@ do_QueryFrame
 (
 ComputeScrollTarget
 (
-aTargetFrame
+mCurrentTarget
 wheelEvent
 COMPUTE_DEFAULT_ACTION_TARGET
 )
@@ -13781,7 +13785,7 @@ frameToScroll
 =
 ComputeScrollTarget
 (
-aTargetFrame
+mCurrentTarget
 wheelEvent
 COMPUTE_DEFAULT_ACTION_TARGET
 )
@@ -13879,7 +13883,7 @@ ScrollbarsForWheel
 PrepareToScrollText
 (
 this
-aTargetFrame
+mCurrentTarget
 wheelEvent
 )
 ;
@@ -13935,11 +13939,11 @@ nsIFrame
 rootScrollFrame
 =
 !
-aTargetFrame
+mCurrentTarget
 ?
 nullptr
 :
-aTargetFrame
+mCurrentTarget
 -
 >
 PresContext
@@ -14122,7 +14126,7 @@ break
 }
 DoScrollZoom
 (
-aTargetFrame
+mCurrentTarget
 intDelta
 )
 ;
@@ -14254,7 +14258,7 @@ allDeltaOverflown
 !
 ComputeScrollTarget
 (
-aTargetFrame
+mCurrentTarget
 wheelEvent
 COMPUTE_DEFAULT_ACTION_TARGET
 )
