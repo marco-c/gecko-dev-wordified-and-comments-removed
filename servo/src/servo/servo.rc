@@ -121,6 +121,13 @@ layout
 ;
 }
 mod
+parser
+{
+mod
+html
+;
+}
+mod
 widget
 {
 mod
