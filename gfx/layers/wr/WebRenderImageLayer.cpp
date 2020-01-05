@@ -687,6 +687,8 @@ height
 )
 ;
 }
+rect
+=
 RelativeToVisible
 (
 rect
