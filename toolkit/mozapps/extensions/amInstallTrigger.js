@@ -452,7 +452,7 @@ XPINSTALL_MIMETYPE
 ;
 install
 .
-principalToInherit
+triggeringPrincipal
 =
 principal
 ;
