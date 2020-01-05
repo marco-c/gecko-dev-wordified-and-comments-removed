@@ -781,9 +781,6 @@ write
 (
 "
 use
-style
-:
-:
 gecko_bindings
 :
 :
@@ -805,6 +802,9 @@ write
 (
 "
 use
+string_cache
+:
+:
 Atom
 ;
 \
