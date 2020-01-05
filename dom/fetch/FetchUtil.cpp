@@ -264,6 +264,13 @@ nsACString
 const_iterator
 &
 aStart
+const
+nsACString
+:
+:
+const_iterator
+&
+aEnd
 )
 {
 if
@@ -279,11 +286,9 @@ CR
 &
 &
 (
+aEnd
+-
 aStart
-.
-size_forward
-(
-)
 >
 1
 )
@@ -427,6 +432,7 @@ nsACString
 :
 const_iterator
 headerStart
+iter
 headerEnd
 ;
 header
@@ -443,6 +449,10 @@ EndReading
 headerEnd
 )
 ;
+iter
+=
+headerStart
+;
 if
 (
 !
@@ -451,7 +461,7 @@ FindCharInReadable
 '
 :
 '
-headerStart
+iter
 headerEnd
 )
 )
@@ -467,11 +477,9 @@ Assign
 StringHead
 (
 header
+iter
+-
 headerStart
-.
-size_backward
-(
-)
 )
 )
 ;
@@ -502,7 +510,7 @@ Substring
 (
 +
 +
-headerStart
+iter
 headerEnd
 )
 )
@@ -530,6 +538,7 @@ return
 PushOverLine
 (
 aStart
+aEnd
 )
 ;
 }

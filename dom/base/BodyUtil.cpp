@@ -384,6 +384,13 @@ nsACString
 const_iterator
 &
 aStart
+const
+nsACString
+:
+:
+const_iterator
+&
+aEnd
 )
 {
 if
@@ -399,11 +406,9 @@ CR
 &
 &
 (
+aEnd
+-
 aStart
-.
-size_forward
-(
-)
 >
 1
 )
@@ -1676,6 +1681,7 @@ if
 PushOverLine
 (
 start
+end
 )
 )
 {
@@ -1720,6 +1726,7 @@ emptyHeader
 PushOverLine
 (
 start
+end
 )
 )
 {
