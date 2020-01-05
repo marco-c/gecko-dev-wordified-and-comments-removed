@@ -381,7 +381,7 @@ cx
 (
 )
 ;
-JS_ReportWarning
+JS_ReportWarningASCII
 (
 cx
 "
