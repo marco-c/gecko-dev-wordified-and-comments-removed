@@ -1150,7 +1150,7 @@ track
 codec
 =
 =
-MP4PARSE_CODEC_OPUS
+mp4parse_codec_OPUS
 )
 {
 mMimeType
@@ -1235,7 +1235,7 @@ track
 codec
 =
 =
-MP4PARSE_CODEC_AAC
+mp4parse_codec_AAC
 )
 {
 mMimeType
@@ -1252,7 +1252,7 @@ track
 codec
 =
 =
-MP4PARSE_CODEC_FLAC
+mp4parse_codec_FLAC
 )
 {
 mMimeType
@@ -1269,7 +1269,7 @@ track
 codec
 =
 =
-MP4PARSE_CODEC_MP3
+mp4parse_codec_MP3
 )
 {
 mMimeType
@@ -1444,7 +1444,7 @@ track
 codec
 =
 =
-MP4PARSE_CODEC_AVC
+mp4parse_codec_AVC
 )
 {
 mMimeType
@@ -1461,7 +1461,7 @@ track
 codec
 =
 =
-MP4PARSE_CODEC_VP9
+mp4parse_codec_VP9
 )
 {
 mMimeType

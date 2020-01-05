@@ -4250,7 +4250,7 @@ true
 )
 ;
 }
-mp4parse_error
+mp4parse_status
 rv
 =
 mp4parse_read
@@ -4295,7 +4295,7 @@ MEDIA_RUST_MP4PARSE_SUCCESS
 rv
 =
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 ;
 if
@@ -4303,7 +4303,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 MOZ_ASSERT
@@ -4368,7 +4368,7 @@ info
 )
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 return
@@ -4433,7 +4433,7 @@ return
 aRHS
 =
 =
-MP4PARSE_TRACK_TYPE_AUDIO
+mp4parse_track_type_AUDIO
 ;
 case
 TrackInfo
@@ -4445,7 +4445,7 @@ return
 aRHS
 =
 =
-MP4PARSE_TRACK_TYPE_VIDEO
+mp4parse_track_type_VIDEO
 ;
 default
 :
@@ -4493,7 +4493,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 MOZ_LOG
@@ -4584,7 +4584,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 continue
@@ -4656,7 +4656,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 return
@@ -4708,7 +4708,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 continue
@@ -4833,7 +4833,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 MOZ_LOG
@@ -4878,7 +4878,7 @@ codec
 )
 {
 case
-MP4PARSE_CODEC_UNKNOWN
+mp4parse_codec_UNKNOWN
 :
 codec_string
 =
@@ -4889,7 +4889,7 @@ unknown
 break
 ;
 case
-MP4PARSE_CODEC_AAC
+mp4parse_codec_AAC
 :
 codec_string
 =
@@ -4900,7 +4900,7 @@ aac
 break
 ;
 case
-MP4PARSE_CODEC_OPUS
+mp4parse_codec_OPUS
 :
 codec_string
 =
@@ -4911,7 +4911,7 @@ opus
 break
 ;
 case
-MP4PARSE_CODEC_FLAC
+mp4parse_codec_FLAC
 :
 codec_string
 =
@@ -4922,7 +4922,7 @@ flac
 break
 ;
 case
-MP4PARSE_CODEC_AVC
+mp4parse_codec_AVC
 :
 codec_string
 =
@@ -4935,7 +4935,7 @@ h
 break
 ;
 case
-MP4PARSE_CODEC_VP9
+mp4parse_codec_VP9
 :
 codec_string
 =
@@ -4946,7 +4946,7 @@ vp9
 break
 ;
 case
-MP4PARSE_CODEC_MP3
+mp4parse_codec_MP3
 :
 codec_string
 =
@@ -5037,7 +5037,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 MOZ_LOG
@@ -5134,7 +5134,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 MOZ_LOG
@@ -5255,7 +5255,7 @@ if
 rv
 =
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 e
@@ -5387,7 +5387,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 return
@@ -5421,7 +5421,7 @@ if
 rv
 !
 =
-MP4PARSE_OK
+mp4parse_status_OK
 )
 {
 return
