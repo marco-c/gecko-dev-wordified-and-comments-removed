@@ -3122,9 +3122,6 @@ manager
 :
 null
 init
-:
-function
-init
 (
 pdfjsLib
 )
@@ -3162,8 +3159,6 @@ active
 :
 false
 add
-:
-function
 (
 pageNumber
 stat
@@ -3316,8 +3311,6 @@ push
 (
 {
 pageNumber
-:
-pageNumber
 div
 :
 wrapper
@@ -3391,8 +3384,6 @@ div
 }
 }
 cleanup
-:
-function
 (
 )
 {
@@ -3452,8 +3443,6 @@ StepperManager
 Stats
 ]
 enable
-:
-function
 (
 ids
 )
@@ -3624,9 +3613,6 @@ indexB
 ;
 }
 }
-init
-:
-function
 init
 (
 pdfjsLib
@@ -3951,9 +3937,6 @@ selectPanel
 ;
 }
 cleanup
-:
-function
-cleanup
 (
 )
 {
@@ -4006,9 +3989,6 @@ cleanup
 }
 }
 }
-selectPanel
-:
-function
 selectPanel
 (
 index

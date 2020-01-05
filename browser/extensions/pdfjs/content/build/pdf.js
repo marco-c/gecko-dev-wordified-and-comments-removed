@@ -6564,6 +6564,11 @@ if
 (
 !
 forceDataSchema
+&
+&
+URL
+.
+createObjectURL
 )
 {
 var
@@ -24275,7 +24280,7 @@ version
 .
 8
 .
-269
+290
 '
 ;
 exports
@@ -24285,7 +24290,7 @@ build
 build
 =
 '
-acdfc2d8
+60c232bc
 '
 ;
 }
@@ -32074,7 +32079,7 @@ version
 .
 8
 .
-269
+290
 '
 ;
 PDFJS
@@ -32082,7 +32087,7 @@ PDFJS
 build
 =
 '
-acdfc2d8
+60c232bc
 '
 ;
 }
@@ -50249,14 +50254,14 @@ pdfjsVersion
 .
 8
 .
-269
+290
 '
 ;
 var
 pdfjsBuild
 =
 '
-acdfc2d8
+60c232bc
 '
 ;
 var
