@@ -1341,14 +1341,18 @@ interactive
 -
 notifications
 :
+either
+None
+if
+no
+notifications
+or
 one
 of
 '
-none
-'
-'
 all
 '
+or
 '
 failure
 '
@@ -1488,9 +1492,7 @@ self
 .
 notifications
 =
-'
-none
-'
+None
         
 parts
 =
@@ -1720,6 +1722,7 @@ all
 -
 emails
 '
+                            
 dest
 =
 '
@@ -1752,6 +1755,7 @@ failure
 -
 emails
 '
+                            
 dest
 =
 '
@@ -1925,10 +1929,6 @@ self
 notifications
 =
 args
-.
-notifications
-or
-self
 .
 notifications
     

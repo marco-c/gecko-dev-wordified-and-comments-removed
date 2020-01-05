@@ -58,6 +58,12 @@ self
 trigger_tests
 =
 0
+        
+self
+.
+notifications
+=
+None
     
 def
 task_matches
