@@ -3875,6 +3875,9 @@ addObserver
 in
 nsINavHistoryResultObserver
 aObserver
+[
+optional
+]
 in
 boolean
 aOwnsWeak
@@ -9283,6 +9286,9 @@ addObserver
 in
 nsINavHistoryObserver
 observer
+[
+optional
+]
 in
 boolean
 ownsWeak

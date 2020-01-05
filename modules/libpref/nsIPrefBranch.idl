@@ -3015,6 +3015,9 @@ aDomain
 in
 nsIObserver
 aObserver
+[
+optional
+]
 in
 boolean
 aHoldWeak

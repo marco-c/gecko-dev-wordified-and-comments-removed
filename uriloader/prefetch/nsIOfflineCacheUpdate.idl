@@ -998,6 +998,9 @@ addObserver
 in
 nsIOfflineCacheUpdateObserver
 aObserver
+[
+optional
+]
 in
 boolean
 aHoldWeak

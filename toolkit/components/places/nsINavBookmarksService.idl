@@ -4696,6 +4696,9 @@ addObserver
 in
 nsINavBookmarkObserver
 observer
+[
+optional
+]
 in
 boolean
 ownsWeak

@@ -280,6 +280,9 @@ anObserver
 in
 string
 aTopic
+[
+optional
+]
 in
 boolean
 ownsWeak
@@ -398,6 +401,9 @@ aSubject
 in
 string
 aTopic
+[
+optional
+]
 in
 wstring
 someData
