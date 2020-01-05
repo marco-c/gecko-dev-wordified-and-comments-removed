@@ -31,6 +31,15 @@ macro_rules
 )
 ]
 #
+!
+[
+deny
+(
+unused_imports
+unused_variable
+)
+]
+#
 [
 phase
 (

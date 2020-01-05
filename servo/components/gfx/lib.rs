@@ -12,6 +12,15 @@ unsafe_destructor
 #
 !
 [
+deny
+(
+unused_imports
+unused_variable
+)
+]
+#
+!
+[
 feature
 (
 phase

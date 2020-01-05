@@ -9,6 +9,15 @@ managed_boxes
 phase
 )
 ]
+#
+!
+[
+deny
+(
+unused_imports
+unused_variable
+)
+]
 extern
 crate
 debug

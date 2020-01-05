@@ -1,3 +1,12 @@
+#
+!
+[
+deny
+(
+unused_imports
+unused_variable
+)
+]
 extern
 crate
 azure

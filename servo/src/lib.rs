@@ -32,6 +32,15 @@ thread_local
 )
 ]
 #
+!
+[
+deny
+(
+unused_imports
+unused_variable
+)
+]
+#
 [
 phase
 (
