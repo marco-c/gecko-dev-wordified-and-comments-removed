@@ -495,5 +495,9 @@ ChildNode
 ;
 Element
 implements
+NonDocumentTypeChildNode
+;
+Element
+implements
 ParentNode
 ;

@@ -233,3 +233,7 @@ CharacterData
 implements
 ChildNode
 ;
+CharacterData
+implements
+NonDocumentTypeChildNode
+;
