@@ -1722,9 +1722,6 @@ mKeys
 OnCDMCreated
 (
 aPromiseId
-GetNodeId
-(
-)
 0
 )
 ;

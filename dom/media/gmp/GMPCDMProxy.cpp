@@ -1401,9 +1401,6 @@ mKeys
 OnCDMCreated
 (
 aPromiseId
-GetNodeId
-(
-)
 mCDM
 -
 >
