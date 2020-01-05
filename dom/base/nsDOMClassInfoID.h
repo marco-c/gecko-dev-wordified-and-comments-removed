@@ -16,7 +16,6 @@ nsDOMClassInfoID
 {
 eDOMClassInfo_DOMPrototype_id
 eDOMClassInfo_DOMConstructor_id
-eDOMClassInfo_CSSMediaRule_id
 #
 ifdef
 MOZ_XUL
@@ -38,8 +37,6 @@ eDOMClassInfo_XULTemplateBuilder_id
 eDOMClassInfo_XULTreeBuilder_id
 #
 endif
-eDOMClassInfo_CSSMozDocumentRule_id
-eDOMClassInfo_CSSSupportsRule_id
 eDOMClassInfo_CSSFontFaceRule_id
 eDOMClassInfo_ContentFrameMessageManager_id
 eDOMClassInfo_ContentProcessMessageManager_id
