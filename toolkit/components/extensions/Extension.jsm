@@ -1550,6 +1550,14 @@ url
 ;
 this
 .
+incognito
+=
+params
+.
+incognito
+;
+this
+.
 currentMessageManager
 =
 xulBrowser

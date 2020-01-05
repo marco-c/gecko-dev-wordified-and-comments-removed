@@ -72,14 +72,9 @@ inIncognitoContext
 )
 {
 return
-PrivateBrowsingUtils
-.
-isContentWindowPrivate
-(
 context
 .
-contentWindow
-)
+incognito
 ;
 }
 }
