@@ -42,7 +42,7 @@ class
 FakeDecryptor
 :
 public
-GMPDecryptor7
+GMPDecryptor
 {
 public
 :
@@ -60,6 +60,10 @@ Init
 GMPDecryptorCallback
 *
 aCallback
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 override
 {
