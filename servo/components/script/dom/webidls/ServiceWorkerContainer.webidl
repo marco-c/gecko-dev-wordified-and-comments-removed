@@ -122,9 +122,11 @@ ready
 ;
 [
 NewObject
-Throws
 ]
+Promise
+<
 ServiceWorkerRegistration
+>
 register
 (
 USVString
