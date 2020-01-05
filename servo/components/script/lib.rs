@@ -246,6 +246,10 @@ extern
 crate
 webdriver_traits
 ;
+extern
+crate
+offscreen_gl_context
+;
 pub
 mod
 cors

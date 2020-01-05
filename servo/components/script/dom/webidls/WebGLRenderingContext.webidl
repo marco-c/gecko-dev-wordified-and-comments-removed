@@ -3057,8 +3057,6 @@ attribute
 GLsizei
 drawingBufferHeight
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]

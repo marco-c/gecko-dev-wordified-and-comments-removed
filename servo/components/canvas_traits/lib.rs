@@ -36,6 +36,10 @@ extern
 crate
 layers
 ;
+extern
+crate
+offscreen_gl_context
+;
 use
 azure
 :
@@ -158,6 +162,12 @@ surface
 :
 :
 NativeSurface
+;
+use
+offscreen_gl_context
+:
+:
+GLContextAttributes
 ;
 #
 [
@@ -415,6 +425,13 @@ pub
 enum
 CanvasWebGLMsg
 {
+GetContextAttributes
+(
+Sender
+<
+GLContextAttributes
+>
+)
 AttachShader
 (
 u32

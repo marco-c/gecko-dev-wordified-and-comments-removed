@@ -142,6 +142,11 @@ getContext
 (
 DOMString
 contextId
+any
+.
+.
+.
+arguments
 )
 ;
 /
