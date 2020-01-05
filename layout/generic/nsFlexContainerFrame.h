@@ -660,9 +660,6 @@ nsSize
 aContainerSize
 )
 ;
-bool
-mChildrenHaveBeenReordered
-;
 nscoord
 mBaselineFromLastReflow
 ;
