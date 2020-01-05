@@ -968,6 +968,12 @@ thread
 "
 )
 ;
+mSpeculations
+.
+Clear
+(
+)
+;
 mTokenizer
 -
 >

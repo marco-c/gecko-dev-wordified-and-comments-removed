@@ -141,6 +141,10 @@ nsAHtml5TreeBuilderState
 {
 private
 :
+nsHtml5TreeBuilder
+*
+treeBuilder
+;
 autoJArray
 <
 nsHtml5StackNode
@@ -195,6 +199,9 @@ public
 :
 nsHtml5StateSnapshot
 (
+nsHtml5TreeBuilder
+*
+treeBuilder
 jArray
 <
 nsHtml5StackNode
