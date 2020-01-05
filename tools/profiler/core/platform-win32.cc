@@ -709,7 +709,10 @@ return
 ;
 #
 if
-V8_HOST_ARCH_X64
+defined
+(
+SPS_ARCH_amd64
+)
 context
 .
 ContextFlags
@@ -747,7 +750,10 @@ return
 }
 #
 if
-V8_HOST_ARCH_X64
+defined
+(
+SPS_ARCH_amd64
+)
 sample
 -
 >
@@ -1058,7 +1064,7 @@ pContext
 if
 defined
 (
-SPS_PLAT_amd64_windows
+SPS_ARCH_amd64
 )
 pc
 =
@@ -1103,7 +1109,7 @@ Rbp
 elif
 defined
 (
-SPS_PLAT_x86_windows
+SPS_ARCH_x86
 )
 pc
 =

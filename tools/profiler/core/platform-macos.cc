@@ -934,7 +934,10 @@ return
 ;
 #
 if
-V8_HOST_ARCH_X64
+defined
+(
+SPS_ARCH_amd64
+)
 thread_state_flavor_t
 flavor
 =
@@ -977,7 +980,10 @@ name
 endif
 #
 elif
-V8_HOST_ARCH_IA32
+defined
+(
+SPS_ARCH_x86
+)
 thread_state_flavor_t
 flavor
 =
@@ -1282,7 +1288,7 @@ aContext
 if
 defined
 (
-SPS_PLAT_amd64_darwin
+SPS_ARCH_amd64
 )
 asm
 (
@@ -1336,7 +1342,7 @@ fp
 elif
 defined
 (
-SPS_PLAT_x86_darwin
+SPS_ARCH_x86
 )
 asm
 (

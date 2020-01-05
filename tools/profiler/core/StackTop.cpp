@@ -1,6 +1,9 @@
 #
-ifdef
-XP_MACOSX
+if
+defined
+(
+SPS_OS_darwin
+)
 #
 include
 <
@@ -28,7 +31,10 @@ h
 >
 #
 elif
-XP_WIN
+defined
+(
+SPS_OS_windows
+)
 #
 include
 <
@@ -58,7 +64,7 @@ guess
 if
 defined
 (
-XP_MACOSX
+SPS_OS_darwin
 )
 pthread_t
 thread
@@ -77,7 +83,7 @@ thread
 elif
 defined
 (
-XP_WIN
+SPS_OS_windows
 )
 #
 if
@@ -89,7 +95,7 @@ _MSC_VER
 &
 defined
 (
-_M_IX86
+SPS_ARCH_x86
 )
 NT_TIB
 *
@@ -131,7 +137,7 @@ __GNUC__
 &
 defined
 (
-i386
+SPS_ARCH_x86
 )
 NT_TIB
 *
@@ -178,13 +184,7 @@ StackBase
 elif
 defined
 (
-_M_X64
-)
-|
-|
-defined
-(
-__x86_64
+SPS_ARCH_amd64
 )
 PNT_TIB64
 pTib

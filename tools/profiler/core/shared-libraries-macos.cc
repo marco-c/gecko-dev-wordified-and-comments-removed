@@ -113,8 +113,11 @@ libraries
 h
 "
 #
-ifdef
-__i386__
+if
+defined
+(
+SPS_ARCH_x86
+)
 typedef
 mach_header
 platform_mach_header

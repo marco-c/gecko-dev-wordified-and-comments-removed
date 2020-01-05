@@ -102,8 +102,11 @@ stdarg
 h
 >
 #
-ifdef
-XP_WIN
+if
+defined
+(
+SPS_OS_windows
+)
 #
 include
 <
