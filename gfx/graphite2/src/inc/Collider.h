@@ -186,9 +186,12 @@ COLL_ISCOL
 COLL_KNOWN
 =
 64
-COLL_TEMPLOCK
+COLL_ISSPACE
 =
 128
+COLL_TEMPLOCK
+=
+256
 }
 ;
 enum
@@ -345,6 +348,12 @@ getKern
 (
 int
 dir
+)
+const
+;
+bool
+ignore
+(
 )
 const
 ;
@@ -908,8 +917,6 @@ Slot
 slot
 int
 dir
-float
-margin
 json
 *
 const

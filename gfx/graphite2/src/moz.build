@@ -204,11 +204,6 @@ UNIFIED_SOURCES
 =
 [
 '
-Bidi
-.
-cpp
-'
-'
 CachedFace
 .
 cpp

@@ -2644,7 +2644,9 @@ clusterMin
 Rect
 bbox
 ;
-if
+bool
+reorder
+=
 (
 currdir
 (
@@ -2652,6 +2654,11 @@ currdir
 !
 =
 isRtl
+)
+;
+if
+(
+reorder
 )
 {
 Slot
@@ -2848,6 +2855,14 @@ isFinal
 ;
 }
 }
+if
+(
+reorder
+)
+reverseSlots
+(
+)
+;
 return
 currpos
 ;

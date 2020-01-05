@@ -337,12 +337,6 @@ const
 FiniteStateMachine
 &
 fsm
-vm
-:
-:
-Machine
-&
-m
 const
 Rule
 &

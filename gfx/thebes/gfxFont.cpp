@@ -284,15 +284,6 @@ h
 "
 #
 include
-"
-graphite2
-/
-Font
-.
-h
-"
-#
-include
 <
 algorithm
 >
