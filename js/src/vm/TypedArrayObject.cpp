@@ -1252,6 +1252,13 @@ elements
 nbytes
 )
 ;
+if
+(
+nbytes
+>
+0
+)
+{
 nursery
 .
 maybeSetForwardingPointer
@@ -1278,6 +1285,7 @@ uintptr_t
 )
 )
 ;
+}
 return
 newObj
 -
