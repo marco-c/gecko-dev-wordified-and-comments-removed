@@ -11187,14 +11187,14 @@ NS_ERROR_FAILURE
 js
 :
 :
-SetReservedOrProxyPrivateSlot
+SetReservedSlot
 (
 newobj
 DOM_OBJECT_SLOT
 js
 :
 :
-GetReservedOrProxyPrivateSlot
+GetReservedSlot
 (
 aObj
 DOM_OBJECT_SLOT
@@ -11204,7 +11204,7 @@ DOM_OBJECT_SLOT
 js
 :
 :
-SetReservedOrProxyPrivateSlot
+SetReservedSlot
 (
 aObj
 DOM_OBJECT_SLOT

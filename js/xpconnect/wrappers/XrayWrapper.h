@@ -3827,7 +3827,7 @@ return
 js
 :
 :
-GetProxyExtra
+GetProxyReservedSlot
 (
 proxy
 SandboxProxySlot

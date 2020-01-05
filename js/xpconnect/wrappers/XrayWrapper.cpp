@@ -6606,7 +6606,7 @@ return
 js
 :
 :
-GetProxyExtra
+GetProxyReservedSlot
 (
 obj
 0
@@ -6649,7 +6649,7 @@ v
 js
 :
 :
-GetProxyExtra
+GetProxyReservedSlot
 (
 wrapper
 0
@@ -6718,7 +6718,7 @@ holder
 js
 :
 :
-SetProxyExtra
+SetProxyReservedSlot
 (
 wrapper
 0

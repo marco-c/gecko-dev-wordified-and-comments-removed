@@ -202,7 +202,7 @@ AuxCPOWData
 *
 >
 (
-GetProxyExtra
+GetProxyReservedSlot
 (
 obj
 1
@@ -240,7 +240,7 @@ WrapperOwner
 *
 >
 (
-GetProxyExtra
+GetProxyReservedSlot
 (
 obj
 0
@@ -6033,7 +6033,7 @@ objectTag
 )
 )
 ;
-SetProxyExtra
+SetProxyReservedSlot
 (
 obj
 0
@@ -6043,7 +6043,7 @@ this
 )
 )
 ;
-SetProxyExtra
+SetProxyReservedSlot
 (
 obj
 1

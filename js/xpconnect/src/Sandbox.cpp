@@ -3367,7 +3367,7 @@ obj
 js
 :
 :
-SetProxyExtra
+SetProxyReservedSlot
 (
 obj
 SandboxCallableProxyHandler

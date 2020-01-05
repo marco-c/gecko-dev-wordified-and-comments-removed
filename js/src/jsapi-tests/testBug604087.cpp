@@ -404,7 +404,7 @@ ProxyObject
 (
 )
 .
-setExtra
+setReservedSlot
 (
 0
 js
@@ -449,7 +449,7 @@ ProxyObject
 (
 )
 .
-setExtra
+setReservedSlot
 (
 0
 js
@@ -494,7 +494,7 @@ ProxyObject
 (
 )
 .
-setExtra
+setReservedSlot
 (
 0
 js

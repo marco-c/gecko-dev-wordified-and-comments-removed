@@ -1428,6 +1428,12 @@ JSCLASS_IS_PROXY
 JSCLASS_DELAY_METADATA_BUILDER
 |
 \
+JSCLASS_HAS_RESERVED_SLOTS
+(
+2
+)
+|
+\
 flags
 \
 &
@@ -2845,7 +2851,7 @@ JS_FRIEND_API
 (
 void
 )
-SetReservedOrProxyPrivateSlotWithBarrier
+SetReservedSlotWithBarrier
 (
 JSObject
 *
@@ -2932,7 +2938,7 @@ isGCThing
 (
 )
 )
-SetReservedOrProxyPrivateSlotWithBarrier
+SetReservedSlotWithBarrier
 (
 obj
 slot
@@ -5245,8 +5251,6 @@ const
 void
 *
 domProxyHandlerFamily
-uint32_t
-domProxyExpandoSlot
 DOMProxyShadowsCheck
 domProxyShadowsCheck
 )
@@ -5255,11 +5259,6 @@ const
 void
 *
 GetDOMProxyHandlerFamily
-(
-)
-;
-uint32_t
-GetDOMProxyExpandoSlot
 (
 )
 ;
