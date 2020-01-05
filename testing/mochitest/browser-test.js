@@ -2225,13 +2225,6 @@ blank
 skipAnimation
 :
 true
-relatedBrowser
-:
-gBrowser
-.
-selectedTab
-.
-linkedBrowser
 }
 )
 ;
