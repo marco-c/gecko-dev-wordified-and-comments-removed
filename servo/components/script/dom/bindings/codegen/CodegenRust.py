@@ -32249,8 +32249,6 @@ arguments
         
 methods
 =
-CGList
-(
 [
             
 CGGeneric
@@ -32293,10 +32291,11 @@ members
 )
         
 ]
-"
-"
-)
         
+if
+methods
+:
+            
 self
 .
 cgRoot
@@ -32305,9 +32304,14 @@ CGWrapper
 (
 CGIndenter
 (
+CGList
+(
 methods
+"
+"
 )
-                                
+)
+                                    
 pre
 =
 "
@@ -32327,11 +32331,24 @@ interface
 identifier
 .
 name
-                                
+                                    
 post
 =
 "
 }
+"
+)
+        
+else
+:
+            
+self
+.
+cgRoot
+=
+CGGeneric
+(
+"
 "
 )
     
@@ -33642,12 +33659,6 @@ s
 :
 %
 s
-<
-'
-a
-'
-b
->
 \
 n
 "
@@ -33661,7 +33672,7 @@ d
 .
 parent
 )
-                                                                 
+                                                         
 self
 .
 makeClassName
@@ -33736,12 +33747,6 @@ struct
 {
 selfName
 }
-<
-'
-a
-'
-b
->
 {
 \
 n
@@ -33956,21 +33961,9 @@ Template
             
 "
 impl
-<
-'
-a
-'
-b
->
 {
 selfName
 }
-<
-'
-a
-'
-b
->
 {
 \
 n
@@ -33987,12 +33980,6 @@ empty
 {
 selfName
 }
-<
-'
-a
-'
-b
->
 {
 \
 n
@@ -34051,12 +34038,6 @@ Result
 {
 selfName
 }
-<
-'
-a
-'
-b
->
 (
 )
 >
