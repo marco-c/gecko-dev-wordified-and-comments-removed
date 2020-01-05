@@ -182,6 +182,14 @@ const
 override
 ;
 virtual
+nsSMILTargetAttrType
+GetTargetAttributeType
+(
+)
+const
+override
+;
+virtual
 nsIAtom
 *
 GetPathDataAttrName

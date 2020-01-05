@@ -699,6 +699,10 @@ DOM_USER_DATA
 1
 #
 define
+SMIL_MAPPED_ATTR_ANIMVAL
+2
+#
+define
 NS_INODE_IID
 \
 {

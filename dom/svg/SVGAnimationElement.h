@@ -274,6 +274,13 @@ aLocalName
 )
 const
 ;
+virtual
+nsSMILTargetAttrType
+GetTargetAttributeType
+(
+)
+const
+;
 nsSMILTimedElement
 &
 TimedElement

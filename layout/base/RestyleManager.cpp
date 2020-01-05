@@ -1674,6 +1674,9 @@ CSSTransitions
 CSSAnimations
 "
 "
+SVGAttrAnimations
+"
+"
 StyleAttribute
 "
 "

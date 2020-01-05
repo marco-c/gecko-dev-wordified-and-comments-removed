@@ -166,6 +166,11 @@ nsSMILKeySpline
 h
 '
 '
+nsSMILMappedAttribute
+.
+h
+'
+'
 nsSMILMilestone
 .
 h
@@ -286,6 +291,11 @@ cpp
 '
 '
 nsSMILKeySpline
+.
+cpp
+'
+'
+nsSMILMappedAttribute
 .
 cpp
 '
