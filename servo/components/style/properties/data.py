@@ -377,6 +377,9 @@ False
 need_clone
 =
 False
+need_index
+=
+False
 gecko_ffi_name
 =
 None
@@ -462,9 +465,9 @@ internal
         
 self
 .
-need_clone
+need_index
 =
-need_clone
+need_index
         
 self
 .
@@ -561,6 +564,16 @@ animatable
 "
 True
 "
+        
+self
+.
+need_clone
+=
+need_clone
+or
+self
+.
+animatable
 class
 Shorthand
 (
