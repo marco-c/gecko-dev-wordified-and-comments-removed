@@ -1307,6 +1307,13 @@ h
 '
 wr
 /
+WebRenderCompositableHolder
+.
+h
+'
+'
+wr
+/
 WebRenderCompositorOGL
 .
 h
@@ -2467,6 +2474,13 @@ cpp
 wr
 /
 WebRenderColorLayer
+.
+cpp
+'
+'
+wr
+/
+WebRenderCompositableHolder
 .
 cpp
 '
