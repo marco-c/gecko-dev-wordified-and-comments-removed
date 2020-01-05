@@ -2436,6 +2436,9 @@ WrState
 bounds
 :
 WrRect
+overflow
+:
+WrRect
 transform
 :
 &
