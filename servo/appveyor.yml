@@ -420,9 +420,9 @@ nightly
 date
 cargo
 -
-nightly
+commit
 -
-build
+hash
 -
 .
 cargo
@@ -435,9 +435,9 @@ nightly
 date
 cargo
 -
-nightly
+commit
 -
-build
+hash
 install
 :
 -
