@@ -22,10 +22,7 @@ use
 euclid
 :
 :
-{
 Point2D
-Rect
-}
 ;
 use
 flow
@@ -46,6 +43,7 @@ fragment
 {
 Fragment
 FragmentBorderBoxIterator
+Overflow
 SpecificFragmentInfo
 }
 ;
@@ -450,15 +448,12 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 {
-Rect
+Overflow
 :
 :
-zero
+new
 (
 )
 }

@@ -59,6 +59,7 @@ fragment
 {
 Fragment
 FragmentBorderBoxIterator
+Overflow
 SpecificFragmentInfo
 }
 ;
@@ -1247,6 +1248,7 @@ iter_mut
 )
 {
 let
+mut
 kid_overflow
 =
 base
@@ -1277,13 +1279,6 @@ writing_mode
 container_size
 )
 ;
-overflow
-=
-overflow
-.
-union
-(
-&
 kid_overflow
 .
 translate
@@ -1293,6 +1288,13 @@ kid_position
 .
 origin
 )
+;
+overflow
+.
+union
+(
+&
+kid_overflow
 )
 }
 }
@@ -1310,7 +1312,6 @@ self
 overflow
 =
 overflow
-;
 }
 fn
 compute_absolute_position
@@ -1345,10 +1346,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 ;
 fn
 iterate_through_fragment_border_boxes
@@ -3953,10 +3951,7 @@ Au
 pub
 overflow
 :
-Rect
-<
-Au
->
+Overflow
 pub
 parallel
 :
@@ -5082,10 +5077,10 @@ writing_mode
 )
 overflow
 :
-Rect
+Overflow
 :
 :
-zero
+new
 (
 )
 parallel
@@ -5362,6 +5357,8 @@ union
 self
 .
 overflow
+.
+paint
 )
 ;
 let

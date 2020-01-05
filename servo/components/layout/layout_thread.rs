@@ -4938,6 +4938,8 @@ root_flow
 .
 overflow
 .
+scroll
+.
 size
 }
 }

@@ -7662,6 +7662,8 @@ base_flow
 .
 overflow
 .
+scroll
+.
 size
 )
 }
@@ -7747,6 +7749,8 @@ box
 base_flow
 .
 overflow
+.
+paint
 .
 translate
 (

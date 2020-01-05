@@ -34,10 +34,7 @@ use
 euclid
 :
 :
-{
 Point2D
-Rect
-}
 ;
 use
 floats
@@ -64,6 +61,14 @@ CoordinateSystem
 Fragment
 FragmentBorderBoxIterator
 GeneratedContentInfo
+}
+;
+use
+fragment
+:
+:
+{
+Overflow
 }
 ;
 use
@@ -843,10 +848,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 {
 let
 mut
@@ -906,8 +908,6 @@ self
 .
 marker_fragments
 {
-overflow
-=
 overflow
 .
 union

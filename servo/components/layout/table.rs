@@ -50,10 +50,7 @@ use
 euclid
 :
 :
-{
 Point2D
-Rect
-}
 ;
 use
 flow
@@ -84,6 +81,7 @@ fragment
 {
 Fragment
 FragmentBorderBoxIterator
+Overflow
 }
 ;
 use
@@ -2583,10 +2581,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 {
 self
 .

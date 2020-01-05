@@ -159,6 +159,7 @@ CoordinateSystem
 Fragment
 FragmentBorderBoxIterator
 HAS_LAYER
+Overflow
 }
 ;
 use
@@ -14663,10 +14664,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 {
 let
 flow_size
