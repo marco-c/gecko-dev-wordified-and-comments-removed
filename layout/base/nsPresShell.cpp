@@ -34306,6 +34306,9 @@ nullptr
 }
 if
 (
+frame
+&
+&
 sPointerEventImplicitCapture
 &
 &
