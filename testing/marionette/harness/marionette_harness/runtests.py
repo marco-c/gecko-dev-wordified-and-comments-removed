@@ -392,11 +392,23 @@ self
 args
 )
         
+try
+:
+            
 runner
 .
 run_tests
 (
 tests
+)
+        
+finally
+:
+            
+runner
+.
+cleanup
+(
 )
         
 return
