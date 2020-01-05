@@ -295,4 +295,9 @@ SetDocumentState
 PipelineId
 DocumentState
 )
+SetFinalUrl
+(
+PipelineId
+Url
+)
 }
