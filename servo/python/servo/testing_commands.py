@@ -6886,9 +6886,8 @@ use_release
 try
 :
             
-args
+bin_path
 =
-[
 self
 .
 get_binary_path
@@ -6897,17 +6896,32 @@ use_release
 not
 use_release
 )
-]
             
+if
+not
 set_osmesa_env
 (
-args
-[
-0
-]
+bin_path
 os
 .
 environ
+)
+:
+                
+print
+(
+"
+Warning
+:
+Cannot
+set
+the
+path
+to
+OSMesa
+library
+.
+"
 )
         
 except
