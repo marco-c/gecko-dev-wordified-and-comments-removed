@@ -242,6 +242,11 @@ test_case_1301065
 .
 mp4
 '
+'
+test_case_1329061
+.
+mov
+'
 ]
 if
 CONFIG

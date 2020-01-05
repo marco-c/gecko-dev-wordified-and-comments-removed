@@ -877,6 +877,9 @@ mValidMoof
 bool
 mHeader
 ;
+int8_t
+mAudioProfile
+;
 }
 ;
 static
@@ -905,6 +908,7 @@ false
 152
 false
 false
+0
 }
 {
 "
@@ -924,6 +928,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -943,6 +948,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -962,6 +968,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -981,6 +988,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1000,6 +1008,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1017,6 +1026,7 @@ false
 0
 false
 false
+2
 }
 {
 "
@@ -1035,6 +1045,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1054,6 +1065,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1072,6 +1084,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1091,6 +1104,7 @@ false
 152
 false
 false
+0
 }
 {
 "
@@ -1110,6 +1124,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1127,6 +1142,7 @@ true
 0
 true
 true
+2
 }
 {
 "
@@ -1145,6 +1161,7 @@ false
 0
 false
 false
+2
 }
 {
 "
@@ -1165,6 +1182,7 @@ false
 0
 false
 false
+2
 }
 {
 "
@@ -1187,6 +1205,7 @@ false
 0
 false
 false
+2
 }
 {
 "
@@ -1207,6 +1226,7 @@ false
 0
 false
 false
+2
 }
 {
 "
@@ -1229,6 +1249,7 @@ false
 0
 false
 false
+2
 }
 {
 "
@@ -1250,6 +1271,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1271,6 +1293,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1292,6 +1315,7 @@ false
 0
 false
 false
+0
 }
 {
 "
@@ -1312,6 +1336,26 @@ false
 0
 false
 false
+2
+}
+{
+"
+test_case_1329061
+.
+mov
+"
+0
+-
+1
+0
+0
+1
+234567981
+false
+0
+false
+false
+2
 }
 }
 ;
@@ -1815,6 +1859,20 @@ audioInfo
 -
 >
 mDuration
+)
+;
+EXPECT_EQ
+(
+testFiles
+[
+test
+]
+.
+mAudioProfile
+audioInfo
+-
+>
+mProfile
 )
 ;
 FallibleTArray
