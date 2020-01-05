@@ -375,9 +375,9 @@ application
 ;
 if
 (
-this
+Weave
 .
-weaveService
+Status
 .
 ready
 )
