@@ -1955,8 +1955,6 @@ accesskey
 &
 disconnect
 .
-label
-.
 accesskey
 ;
 "
@@ -1981,8 +1979,6 @@ accesskey
 "
 &
 verifiedManage
-.
-label
 .
 accesskey
 ;
@@ -2158,8 +2154,6 @@ accesskey
 &
 verify
 .
-label
-.
 accesskey
 ;
 "
@@ -2185,8 +2179,6 @@ accesskey
 "
 &
 forget
-.
-label
 .
 accesskey
 ;
@@ -2343,8 +2335,6 @@ accessky
 &
 signIn
 .
-label
-.
 accesskey
 ;
 "
@@ -2369,11 +2359,7 @@ accesskey
 =
 "
 &
-rejectUnlinkFxaAccount
-.
 forget
-.
-label
 .
 accesskey
 ;
@@ -2787,8 +2773,6 @@ accesskey
 &
 changeSyncDeviceName
 .
-label
-.
 accesskey
 ;
 "
@@ -2815,8 +2799,6 @@ accesskey
 "
 &
 cancelChangeSyncDeviceName
-.
-label
 .
 accesskey
 ;
@@ -2849,8 +2831,6 @@ accesskey
 "
 &
 saveChangeSyncDeviceName
-.
-label
 .
 accesskey
 ;
