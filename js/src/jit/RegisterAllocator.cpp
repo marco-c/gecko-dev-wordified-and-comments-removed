@@ -4102,7 +4102,7 @@ dumpInstructions
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 fprintf
 (
 stderr
