@@ -156,6 +156,11 @@ nsContentSecurityManager
 .
 h
 '
+'
+nsMixedContentBlocker
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +

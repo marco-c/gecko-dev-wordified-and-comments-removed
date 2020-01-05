@@ -90,6 +90,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIHstsPrimingCallback
+.
+idl
+'
+'
 nsIHttpActivityObserver
 .
 idl
@@ -328,6 +333,11 @@ cpp
 '
 '
 ConnectionDiagnostics
+.
+cpp
+'
+'
+HSTSPrimerListener
 .
 cpp
 '

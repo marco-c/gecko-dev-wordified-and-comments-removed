@@ -1,0 +1,12 @@
+function
+completed
+(
+)
+{
+return
+;
+}
+completed
+(
+)
+;

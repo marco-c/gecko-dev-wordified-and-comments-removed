@@ -151,6 +151,13 @@ AlternateServices
 .
 h
 "
+#
+include
+"
+nsIHstsPrimingCallback
+.
+h
+"
 class
 nsDNSPrefetch
 ;
@@ -261,6 +268,8 @@ public
 nsICorsPreflightCallback
 public
 nsIChannelWithDivertableParentListener
+public
+nsIHstsPrimingCallback
 {
 public
 :
@@ -277,6 +286,7 @@ NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
+NS_DECL_NSIHSTSPRIMINGCALLBACK
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_DECL_NSIDNSLISTENER
 NS_DECL_NSICHANNELWITHDIVERTABLEPARENTLISTENER
@@ -843,6 +853,11 @@ usingSSL
 ;
 nsresult
 ContinueConnect
+(
+)
+;
+nsresult
+TryHSTSPriming
 (
 )
 ;

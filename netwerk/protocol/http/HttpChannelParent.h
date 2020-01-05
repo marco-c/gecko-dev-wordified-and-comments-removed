@@ -566,6 +566,14 @@ const
 OptionalCorsPreflightArgs
 &
 aCorsPreflightArgs
+const
+bool
+&
+aForceHSTSPriming
+const
+bool
+&
+aMixedContentWouldBlock
 )
 override
 ;

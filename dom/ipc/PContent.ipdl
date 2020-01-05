@@ -4083,6 +4083,8 @@ URIParams
 uri
 bool
 active
+bool
+hasHSTSPriming
 )
 ;
 sync

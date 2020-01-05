@@ -102,6 +102,9 @@ SecurityPropertySet
 SecurityPropertyKnockout
 =
 2
+SecurityPropertyNegative
+=
+3
 }
 ;
 class
@@ -346,6 +349,8 @@ bool
 includeSubdomains
 uint32_t
 flags
+SecurityPropertyState
+aHSTSState
 )
 ;
 nsresult

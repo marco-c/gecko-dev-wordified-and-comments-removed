@@ -449,6 +449,12 @@ forcePreflight
 bool
 isPreflight
 ;
+bool
+forceHSTSPriming
+;
+bool
+mixedContentWouldBlock
+;
 }
 ;
 /

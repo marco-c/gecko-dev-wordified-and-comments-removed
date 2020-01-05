@@ -175,4 +175,11 @@ browser
 .
 ini
 '
+'
+hsts
+/
+browser
+.
+ini
+'
 ]

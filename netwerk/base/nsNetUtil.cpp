@@ -9609,6 +9609,7 @@ nsISiteSecurityService
 HEADER_HSTS
 aURI
 flags
+nullptr
 &
 isStsHost
 )
