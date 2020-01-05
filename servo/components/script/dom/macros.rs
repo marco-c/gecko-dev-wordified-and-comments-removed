@@ -86,12 +86,6 @@ element
 .
 get_string_attribute
 (
-&
-Atom
-:
-:
-from_slice
-(
 stringify
 !
 (
@@ -104,7 +98,6 @@ to_ascii_lower
 .
 as_slice
 (
-)
 )
 )
 }
@@ -295,12 +288,6 @@ element
 .
 get_uint_attribute
 (
-&
-Atom
-:
-:
-from_slice
-(
 stringify
 !
 (
@@ -313,7 +300,6 @@ to_ascii_lower
 .
 as_slice
 (
-)
 )
 )
 }
