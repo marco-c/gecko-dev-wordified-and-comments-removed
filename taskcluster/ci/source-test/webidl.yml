@@ -33,7 +33,13 @@ provisioner
 -
 v1
 /
-b2gtest
+gecko
+-
+t
+-
+linux
+-
+xlarge
 worker
 :
 implementation
