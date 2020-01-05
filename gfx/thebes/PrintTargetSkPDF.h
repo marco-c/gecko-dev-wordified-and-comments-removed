@@ -221,12 +221,6 @@ mRefCanvas
 SkDynamicMemoryWStream
 mRefOStream
 ;
-RefPtr
-<
-DrawTarget
->
-mRefDT
-;
 }
 ;
 }
