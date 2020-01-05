@@ -589,7 +589,7 @@ real
 (
 Map
 36
-InitMapClass
+InitViaClassSpec
 OCLASP
 (
 Map
@@ -600,7 +600,7 @@ real
 (
 Set
 37
-InitSetClass
+InitViaClassSpec
 OCLASP
 (
 Set
