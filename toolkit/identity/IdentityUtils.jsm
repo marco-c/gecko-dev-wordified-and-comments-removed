@@ -278,12 +278,10 @@ aOldName
 ]
 ;
 delete
-(
 aOptions
 [
 aOldName
 ]
-)
 ;
 }
 }
