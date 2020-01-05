@@ -12020,6 +12020,12 @@ window
 mWindowType
 &
 &
+mTransparencyMode
+!
+=
+aMode
+&
+&
 !
 nsUXThemeData
 :
