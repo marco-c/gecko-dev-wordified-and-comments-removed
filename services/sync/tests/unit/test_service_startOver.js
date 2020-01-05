@@ -386,7 +386,7 @@ removed
 ;
 Service
 .
-serverURL
+clusterURL
 =
 "
 https
@@ -396,14 +396,6 @@ https
 localhost
 /
 "
-;
-Service
-.
-clusterURL
-=
-Service
-.
-serverURL
 ;
 do_check_false
 (
