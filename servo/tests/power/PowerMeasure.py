@@ -1063,7 +1063,7 @@ Benchmarks
 .
 .
 /
-test
+tests
 /
 html
 /
