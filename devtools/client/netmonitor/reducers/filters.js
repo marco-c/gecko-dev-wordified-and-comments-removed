@@ -357,9 +357,5 @@ module
 .
 exports
 =
-{
-FilterTypes
-Filters
 filters
-}
 ;

@@ -274,7 +274,5 @@ module
 .
 exports
 =
-{
-UI
 ui
-}
+;
