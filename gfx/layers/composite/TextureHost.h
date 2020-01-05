@@ -114,17 +114,6 @@ mozilla
 /
 layers
 /
-FenceUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayersTypes
 .
 h

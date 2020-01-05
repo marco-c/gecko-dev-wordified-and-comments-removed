@@ -1100,13 +1100,6 @@ h
 '
 ipc
 /
-FenceUtils
-.
-h
-'
-'
-ipc
-/
 GonkNativeHandle
 .
 h
@@ -2208,13 +2201,6 @@ cpp
 ipc
 /
 CompositorThread
-.
-cpp
-'
-'
-ipc
-/
-FenceUtils
 .
 cpp
 '
