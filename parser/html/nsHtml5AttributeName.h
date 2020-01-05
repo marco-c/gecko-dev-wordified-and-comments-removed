@@ -259,7 +259,7 @@ interner
 private
 :
 static
-int32_t
+uint32_t
 bufToHash
 (
 char16_t

@@ -480,7 +480,7 @@ nsHtml5AtomTable
 interner
 )
 {
-int32_t
+uint32_t
 hash
 =
 nsHtml5AttributeName
@@ -596,7 +596,7 @@ attributeName
 ;
 }
 }
-int32_t
+uint32_t
 nsHtml5AttributeName
 :
 :
@@ -609,12 +609,12 @@ int32_t
 len
 )
 {
-int32_t
+uint32_t
 hash2
 =
 0
 ;
-int32_t
+uint32_t
 hash
 =
 len
