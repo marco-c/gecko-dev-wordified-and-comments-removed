@@ -476,6 +476,15 @@ aStorage
 )
 ;
 nsresult
+ForceCrashAndReplaceDatabase
+(
+const
+nsCString
+&
+aReason
+)
+;
+nsresult
 InitSchema
 (
 bool
