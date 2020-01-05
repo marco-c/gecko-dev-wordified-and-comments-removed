@@ -8865,6 +8865,8 @@ f
 MDefinition
 *
 condition
+=
+nullptr
 ;
 if
 (
@@ -9084,6 +9086,8 @@ value
 MDefinition
 *
 def
+=
+nullptr
 ;
 switch
 (
@@ -9211,6 +9215,18 @@ IsVoid
 type
 )
 )
+{
+MOZ_ASSERT_IF
+(
+!
+f
+.
+inDeadCode
+(
+)
+def
+)
+;
 f
 .
 iter
@@ -9222,6 +9238,7 @@ setResult
 def
 )
 ;
+}
 return
 true
 ;
