@@ -1344,7 +1344,8 @@ namespace
 Namespace
 name
 :
-DOMString
+&
+str
 )
 -
 >
@@ -2131,7 +2132,8 @@ namespace
 Namespace
 name
 :
-DOMString
+&
+str
 )
 -
 >
@@ -2146,10 +2148,6 @@ local_name
 get_attribute_parts
 (
 name
-.
-clone
-(
-)
 )
 ;
 let
@@ -4553,7 +4551,7 @@ get_attribute_parts
 (
 name
 .
-clone
+as_slice
 (
 )
 )
@@ -4885,6 +4883,10 @@ namespace
 :
 Null
 name
+.
+as_slice
+(
+)
 )
 }
 /
@@ -4947,6 +4949,10 @@ remove_attribute
 (
 namespace
 localname
+.
+as_slice
+(
+)
 )
 }
 /
@@ -5850,7 +5856,8 @@ get_attribute_parts
 (
 name
 :
-DOMString
+&
+str
 )
 -
 >
@@ -5891,10 +5898,6 @@ local_name
 if
 name
 .
-as_slice
-(
-)
-.
 contains
 (
 "
@@ -5907,10 +5910,6 @@ mut
 parts
 =
 name
-.
-as_slice
-(
-)
 .
 splitn
 (
@@ -5957,6 +5956,10 @@ else
 (
 None
 name
+.
+to_string
+(
+)
 )
 }
 ;

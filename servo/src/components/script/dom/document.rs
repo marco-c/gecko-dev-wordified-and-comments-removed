@@ -3839,6 +3839,10 @@ local_name_from_qname
 get_attribute_parts
 (
 qualified_name
+.
+as_slice
+(
+)
 )
 ;
 match
