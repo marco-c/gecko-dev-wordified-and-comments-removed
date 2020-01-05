@@ -629,6 +629,11 @@ prefix
 actor
 .
 actorPrefix
+|
+|
+actor
+.
+typeName
 ;
 if
 (
