@@ -224,8 +224,6 @@ attribute
 long
 selectedIndex
 ;
-/
-/
 attribute
 DOMString
 value
