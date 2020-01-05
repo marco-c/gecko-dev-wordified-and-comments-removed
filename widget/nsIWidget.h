@@ -3250,13 +3250,12 @@ aCallbackData
 =
 0
 ;
-virtual
+const
 IMENotificationRequests
-GetIMENotificationRequests
+&
+IMENotificationRequestsRef
 (
 )
-=
-0
 ;
 virtual
 MOZ_MUST_USE

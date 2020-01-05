@@ -8342,7 +8342,7 @@ aRequests
 widget
 -
 >
-GetIMENotificationRequests
+IMENotificationRequestsRef
 (
 )
 ;
@@ -8400,13 +8400,15 @@ IPC_OK
 #
 ifdef
 DEBUG
+const
 IMENotificationRequests
+&
 requests
 =
 widget
 -
 >
-GetIMENotificationRequests
+IMENotificationRequestsRef
 (
 )
 ;

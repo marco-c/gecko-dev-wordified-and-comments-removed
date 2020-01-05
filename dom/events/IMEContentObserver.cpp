@@ -1785,7 +1785,7 @@ mIMENotificationRequests
 mWidget
 -
 >
-GetIMENotificationRequests
+IMENotificationRequestsRef
 (
 )
 ;
