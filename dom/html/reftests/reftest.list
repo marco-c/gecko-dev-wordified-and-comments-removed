@@ -797,12 +797,6 @@ can
 be
 rotated
 .
-fails
--
-if
-(
-webrender
-)
 =
 =
 bug1228601
