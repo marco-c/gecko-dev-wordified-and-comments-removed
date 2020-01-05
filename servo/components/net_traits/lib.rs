@@ -54,6 +54,14 @@ plugin
 serde_macros
 )
 ]
+#
+!
+[
+plugin
+(
+serde_macros
+)
+]
 extern
 crate
 euclid

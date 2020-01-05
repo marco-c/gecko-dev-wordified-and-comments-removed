@@ -82,7 +82,10 @@ ipc_channel
 ipc
 :
 :
+{
+self
 IpcSender
+}
 ;
 use
 msg
@@ -909,7 +912,14 @@ sync_tx
 sync_rx
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;
