@@ -1207,17 +1207,6 @@ target
 )
 )
         
-if
-target_handle
-!
-=
-self
-.
-marionette
-.
-current_chrome_window_handle
-:
-            
 self
 .
 marionette
@@ -2695,6 +2684,19 @@ switch_to
 (
 )
         
+with
+self
+.
+marionette
+.
+using_context
+(
+"
+chrome
+"
+)
+:
+            
 self
 .
 window_element
