@@ -1273,7 +1273,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 ;
 /
@@ -1321,7 +1321,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 ;
 }
@@ -4640,7 +4640,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 {
 {
@@ -4843,7 +4843,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 {
 let
@@ -4954,7 +4954,7 @@ Clone
 ]
 pub
 struct
-LeafSet
+FlowLeafSet
 {
 priv
 set
@@ -4965,7 +4965,7 @@ UnsafeFlow
 >
 }
 impl
-LeafSet
+FlowLeafSet
 {
 /
 /
@@ -4973,6 +4973,7 @@ LeafSet
 Creates
 a
 new
+flow
 leaf
 set
 .
@@ -4983,9 +4984,9 @@ new
 )
 -
 >
-LeafSet
+FlowLeafSet
 {
-LeafSet
+FlowLeafSet
 {
 set
 :

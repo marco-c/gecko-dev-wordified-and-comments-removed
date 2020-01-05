@@ -74,8 +74,8 @@ flow
 {
 BaseFlow
 Flow
+FlowLeafSet
 ImmutableFlowUtils
-LeafSet
 MutableOwnedFlowUtils
 }
 ;
@@ -278,7 +278,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 {
 match
@@ -405,7 +405,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 {
 match
@@ -756,7 +756,7 @@ leaf_set
 :
 &
 mut
-LeafSet
+FlowLeafSet
 )
 {
 self
@@ -1752,7 +1752,7 @@ self
 .
 layout_context
 .
-leaf_set
+flow_leaf_set
 .
 access
 (
@@ -2445,7 +2445,7 @@ self
 .
 layout_context
 .
-leaf_set
+flow_leaf_set
 .
 access
 (
@@ -4057,7 +4057,7 @@ self
 .
 layout_context
 .
-leaf_set
+flow_leaf_set
 .
 access
 (
