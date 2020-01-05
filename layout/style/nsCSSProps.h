@@ -3718,6 +3718,13 @@ kTextOverflowKTable
 static
 const
 KTableEntry
+kTextSizeAdjustKTable
+[
+]
+;
+static
+const
+KTableEntry
 kTextTransformKTable
 [
 ]

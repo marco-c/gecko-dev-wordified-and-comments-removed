@@ -8653,12 +8653,8 @@ TextSizeAdjust
 CSS_PROPERTY_PARSE_VALUE
 "
 "
-VARIANT_AUTO
-|
-VARIANT_NONE
-|
-VARIANT_INHERIT
-nullptr
+VARIANT_HK
+kTextSizeAdjustKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
