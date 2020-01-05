@@ -4694,6 +4694,9 @@ instance
 .
 close
 (
+clean
+=
+True
 )
     
 def
