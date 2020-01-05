@@ -4470,7 +4470,9 @@ if
 aDisp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 return
 false
@@ -4511,7 +4513,9 @@ mutable_this
 aDisp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 )
 return
@@ -4534,7 +4538,9 @@ mutable_this
 aDisp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 ;
 }
