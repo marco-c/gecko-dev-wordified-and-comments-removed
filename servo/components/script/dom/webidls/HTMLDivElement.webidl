@@ -146,8 +146,6 @@ partial
 interface
 HTMLDivElement
 {
-/
-/
 attribute
 DOMString
 align
