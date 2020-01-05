@@ -17952,6 +17952,12 @@ aTabState
 return
 aTabState
 .
+userTypedValue
+|
+|
+(
+aTabState
+.
 entries
 .
 length
@@ -17991,6 +17997,7 @@ about
 :
 privatebrowsing
 "
+)
 )
 ;
 }
