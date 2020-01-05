@@ -517,7 +517,7 @@ fn
 ~
 fn
 (
-~
+&
 [
 u8
 ]
@@ -2587,7 +2587,7 @@ default_decoder_factory
 ~
 fn
 (
-~
+&
 [
 u8
 ]
@@ -2604,7 +2604,7 @@ fn
 (
 data
 :
-~
+&
 [
 u8
 ]
@@ -5110,7 +5110,7 @@ wait_to_decode_port_cell
 ~
 fn
 (
-~
+&
 [
 u8
 ]
@@ -5136,7 +5136,7 @@ fn
 (
 data
 :
-~
+&
 [
 u8
 ]
