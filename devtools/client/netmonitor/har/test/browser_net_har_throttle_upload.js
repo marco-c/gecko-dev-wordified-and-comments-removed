@@ -78,7 +78,6 @@ actuallyThrottle
 ;
 let
 {
-NetMonitorController
 NetMonitorView
 }
 =
@@ -144,7 +143,9 @@ uploadSize
 let
 client
 =
-NetMonitorController
+monitor
+.
+_controller
 .
 webConsoleClient
 ;
