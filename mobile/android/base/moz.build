@@ -4513,6 +4513,11 @@ ShareDialog
 java
 '
 '
+PackageReplacedReceiver
+.
+java
+'
+'
 preferences
 /
 AlignRightLinkPreference
