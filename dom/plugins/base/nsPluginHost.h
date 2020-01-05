@@ -736,7 +736,6 @@ eSpecialType_None
 eSpecialType_Test
 eSpecialType_Flash
 eSpecialType_Java
-eSpecialType_Unity
 }
 ;
 static
