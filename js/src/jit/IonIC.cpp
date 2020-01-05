@@ -799,6 +799,9 @@ cx
 outerScript
 )
 ;
+return
+true
+;
 }
 if
 (
