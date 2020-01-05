@@ -3187,6 +3187,13 @@ devPixelsPerPx
 )
 )
 {
+nsIWidget
+:
+:
+ScaleOverrideChanged
+(
+)
+;
 int32_t
 oldAppUnitsPerDevPixel
 =
