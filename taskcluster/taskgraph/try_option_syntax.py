@@ -1037,7 +1037,7 @@ Ubuntu
 :
 [
 '
-linux32
+linux
 '
 '
 linux64
