@@ -3260,6 +3260,15 @@ pn
 ;
 MOZ_MUST_USE
 bool
+emitSelfHostedHasOwn
+(
+ParseNode
+*
+pn
+)
+;
+MOZ_MUST_USE
+bool
 emitComprehensionFor
 (
 ParseNode
