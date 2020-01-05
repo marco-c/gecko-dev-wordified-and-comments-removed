@@ -256,7 +256,7 @@ var
 url
 =
 "
-wss
+ws
 :
 /
 /
@@ -276,8 +276,7 @@ blockedPort
 +
 __PATH
 ;
-wsocket
-=
+return
 new
 WebSocket
 (

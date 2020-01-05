@@ -984,7 +984,8 @@ false
 {
 promise_test
 (
-t
+(
+)
 =
 >
 {
@@ -1093,7 +1094,8 @@ false
 {
 promise_test
 (
-t
+(
+)
 =
 >
 {

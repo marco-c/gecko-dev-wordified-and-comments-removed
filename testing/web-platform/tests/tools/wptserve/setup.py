@@ -14,14 +14,6 @@ PACKAGE_VERSION
 deps
 =
 [
-"
-six
->
-=
-1
-.
-8
-"
 ]
 setup
 (

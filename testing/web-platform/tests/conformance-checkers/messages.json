@@ -3694,11 +3694,7 @@ html
 "
 Discarding
 unrecognized
-tokens
-\
-u201cswitch
-\
-u201d
+token
 \
 u201cinput
 \
@@ -151368,10 +151364,10 @@ xhtml
 "
 The
 \
-u201cmenu
+u201ccontextmenu
 \
 u201d
-element
+attribute
 is
 not
 supported

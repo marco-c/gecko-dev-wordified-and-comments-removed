@@ -448,6 +448,10 @@ access_control_allow_origin
 "
 *
 "
+            
+maybe_additional_headers
+=
+None
 )
 :
     
@@ -528,6 +532,34 @@ cache
 control
 "
 cache_control
+)
+    
+additional_headers
+=
+maybe_additional_headers
+or
+{
+}
+    
+for
+header
+value
+in
+additional_headers
+.
+items
+(
+)
+:
+        
+response
+.
+writer
+.
+write_header
+(
+header
+value
 )
     
 response

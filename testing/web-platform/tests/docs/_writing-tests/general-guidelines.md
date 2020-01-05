@@ -1253,9 +1253,7 @@ specification
 testsuite
 tests
 for
-csswg
--
-test
+CSS
 have
 some
 additional

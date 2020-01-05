@@ -217,7 +217,7 @@ response
 .
 writer
 .
-write
+write_content
 (
 text
 )

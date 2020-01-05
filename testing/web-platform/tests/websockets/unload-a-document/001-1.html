@@ -180,11 +180,9 @@ function
 e
 )
 {
-setTimeout
-(
 t
 .
-step_func
+step_timeout
 (
 function
 (
@@ -201,7 +199,6 @@ discarded
 )
 ;
 }
-)
 1000
 )
 ;
@@ -229,11 +226,9 @@ t
 .
 step_func
 (
-function
-(
 e
-)
-{
+=
+>
 assert_unreached
 (
 "
@@ -246,7 +241,6 @@ e
 .
 type
 )
-}
 )
 ;
 }
