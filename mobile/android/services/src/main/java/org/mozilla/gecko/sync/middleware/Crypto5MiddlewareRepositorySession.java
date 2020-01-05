@@ -571,7 +571,7 @@ delegate
 ;
 this
 .
-delegate
+storeDelegate
 =
 delegate
 ;
@@ -589,7 +589,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -636,7 +636,7 @@ CryptoException
 e
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (

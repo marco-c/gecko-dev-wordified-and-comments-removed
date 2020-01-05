@@ -1628,7 +1628,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -1759,14 +1759,13 @@ failing
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
 new
 InactiveSessionException
 (
-null
 )
 record
 .
@@ -2236,7 +2235,7 @@ androidID
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -2274,7 +2273,7 @@ record
 guid
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2310,7 +2309,7 @@ guid
 e
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2346,7 +2345,7 @@ guid
 e
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2391,7 +2390,7 @@ record
 guid
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -2484,7 +2483,7 @@ trackRecord
 toStore
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -3393,7 +3392,6 @@ onWipeFailed
 new
 InactiveSessionException
 (
-null
 )
 )
 ;

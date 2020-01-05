@@ -2748,7 +2748,7 @@ recordURI
 null
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2831,7 +2831,7 @@ Exception
 e
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2850,7 +2850,7 @@ trackRecord
 toStore
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -2945,7 +2945,7 @@ failed
 toStores
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2996,7 +2996,7 @@ failed
 toStores
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -3066,7 +3066,7 @@ trackRecord
 succeeded
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (

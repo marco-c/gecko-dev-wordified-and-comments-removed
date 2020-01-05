@@ -1069,7 +1069,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -1233,14 +1233,13 @@ isActive
 )
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
 new
 InactiveSessionException
 (
-null
 )
 record
 .
@@ -1260,7 +1259,7 @@ guid
 null
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -1342,7 +1341,7 @@ CLIENT_GUID_IS
 selectionArgs
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -1358,7 +1357,7 @@ Exception
 e
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -1538,7 +1537,7 @@ Inserted
 inserted
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -1568,7 +1567,7 @@ tabs
 e
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (

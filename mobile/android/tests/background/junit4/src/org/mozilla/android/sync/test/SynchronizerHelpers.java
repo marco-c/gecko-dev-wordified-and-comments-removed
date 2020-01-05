@@ -417,7 +417,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -442,7 +442,7 @@ FAIL_SENTINEL
 )
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -557,7 +557,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -706,7 +706,7 @@ if
 thisBatchShouldFail
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -736,7 +736,7 @@ NoStoreDelegateException
 e
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (

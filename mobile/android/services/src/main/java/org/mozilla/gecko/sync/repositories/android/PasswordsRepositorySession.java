@@ -1435,7 +1435,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -1601,14 +1601,13 @@ failing
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
 new
 InactiveSessionException
 (
-null
 )
 record
 .
@@ -1634,7 +1633,7 @@ guid
 null
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -1682,7 +1681,7 @@ RemoteException
 e
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -1950,7 +1949,7 @@ failed
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2029,7 +2028,7 @@ findExistingRecord
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2060,7 +2059,7 @@ findExistingRecord
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2145,7 +2144,7 @@ RemoteException
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2163,7 +2162,7 @@ trackRecord
 inserted
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -2358,7 +2357,7 @@ RemoteException
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -2401,7 +2400,7 @@ androidID
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -3599,7 +3598,7 @@ delete
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -3612,7 +3611,7 @@ guid
 return
 ;
 }
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (

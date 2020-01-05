@@ -224,7 +224,7 @@ repository
 ;
 protected
 RepositorySessionStoreDelegate
-delegate
+storeDelegate
 ;
 protected
 ExecutorService
@@ -392,7 +392,7 @@ delegate
 ;
 this
 .
-delegate
+storeDelegate
 =
 delegate
 ;
@@ -472,7 +472,7 @@ run
 (
 )
 {
-delegate
+storeDelegate
 .
 onStoreCompleted
 (
