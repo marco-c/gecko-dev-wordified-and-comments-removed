@@ -105,6 +105,9 @@ engine
 =
 servo
 "
+timeout
+=
+60
 ;
 ;
 -
@@ -120,6 +123,9 @@ engine
 =
 gecko
 "
+timeout
+=
+15
 ;
 ;
 -
@@ -302,6 +308,15 @@ engine
 -
 runs
 3
+-
+-
+timeout
+"
+{
+timeout
+}
+"
+\
 "
 {
 MANIFEST
