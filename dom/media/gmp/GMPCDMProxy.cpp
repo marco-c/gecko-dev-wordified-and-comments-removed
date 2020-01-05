@@ -637,6 +637,7 @@ new
 GMPCDMCallbackProxy
 (
 this
+mMainThread
 )
 )
 ;
