@@ -621,6 +621,10 @@ mouseevent
 ;
 pub
 mod
+navigator
+;
+pub
+mod
 node
 ;
 pub

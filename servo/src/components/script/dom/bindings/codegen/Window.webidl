@@ -389,13 +389,13 @@ name
 the
 user
 agent
-/
-*
 readonly
 attribute
 Navigator
 navigator
 ;
+/
+*
 readonly
 attribute
 External
