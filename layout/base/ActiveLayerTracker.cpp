@@ -2067,7 +2067,7 @@ return
 nsLayoutUtils
 :
 :
-HasCurrentAnimationOfProperty
+HasActiveAnimationOfProperty
 (
 aFrame
 aProperty

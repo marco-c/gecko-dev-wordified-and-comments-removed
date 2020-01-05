@@ -10053,7 +10053,7 @@ NS_STYLE_WILL_CHANGE_OPACITY
 nsLayoutUtils
 :
 :
-HasCurrentAnimationOfProperty
+HasActiveAnimationOfProperty
 (
 this
 eCSSProperty_opacity

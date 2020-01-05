@@ -4691,7 +4691,7 @@ clear
 ;
 static
 bool
-HasCurrentAnimationOfProperty
+HasActiveAnimationOfProperty
 (
 const
 nsIFrame
