@@ -107,7 +107,7 @@ com
         
 self
 .
-prefs
+marionette
 .
 set_pref
 (

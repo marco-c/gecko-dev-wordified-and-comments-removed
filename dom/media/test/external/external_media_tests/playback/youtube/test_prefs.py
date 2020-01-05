@@ -163,7 +163,7 @@ chrome
             
 self
 .
-prefs
+marionette
 .
 set_pref
 (
@@ -179,7 +179,7 @@ value
             
 self
 .
-prefs
+marionette
 .
 set_pref
 (
@@ -197,7 +197,7 @@ value
             
 self
 .
-prefs
+marionette
 .
 set_pref
 (
