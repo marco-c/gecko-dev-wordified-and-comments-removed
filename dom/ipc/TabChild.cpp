@@ -5422,6 +5422,12 @@ LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 nullptr
 nullptr
 nullptr
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 )
 ;
 if

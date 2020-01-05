@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsStyleCoord
 .
 h
@@ -3997,6 +4004,12 @@ get
 nullptr
 nullptr
 nullptr
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 )
 ;
 }

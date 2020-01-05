@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -3910,6 +3917,12 @@ blank
 nullptr
 nullptr
 nullptr
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 )
 ;
 }
