@@ -2968,6 +2968,13 @@ normal
 relations
 )
 ;
+if
+pseudo_element
+.
+is_none
+(
+)
+{
 let
 length_before_preshints
 =
@@ -3046,6 +3053,7 @@ preshints
 relations
 )
 ;
+}
 if
 element
 .
