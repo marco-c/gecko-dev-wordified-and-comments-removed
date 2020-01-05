@@ -38,6 +38,7 @@ mozbuild
 .
 base
 import
+BuildEnvironmentNotFoundException
 MachCommandBase
 from
 mozbuild
@@ -5321,6 +5322,13 @@ paths_by_flavor
 {
 }
         
+local_artifact_build
+=
+False
+        
+try
+:
+            
 if
 self
 .
@@ -5332,6 +5340,20 @@ get
 MOZ_ARTIFACT_BUILDS
 "
 )
+:
+                
+local_artifact_build
+=
+True
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+pass
+        
+if
+local_artifact_build
 :
             
 extra
@@ -5414,16 +5436,7 @@ exit
 )
         
 if
-self
-.
-substs
-.
-get
-(
-"
-MOZ_ARTIFACT_BUILDS
-"
-)
+local_artifact_build
 :
             
 if
