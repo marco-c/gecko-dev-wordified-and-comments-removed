@@ -180,7 +180,7 @@ MAX_WAL_SIZE_BYTES
 #
 define
 CURRENT_SCHEMA_VERSION
-1
+2
 namespace
 mozilla
 {
