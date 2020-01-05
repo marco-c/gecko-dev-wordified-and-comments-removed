@@ -416,11 +416,6 @@ long
 aIndex
 )
 ;
-void
-Compact
-(
-)
-;
 nsISupportsArray
 clone
 (
