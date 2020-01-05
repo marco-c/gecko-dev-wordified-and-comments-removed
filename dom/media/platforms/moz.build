@@ -466,6 +466,13 @@ AndroidDecoderModule
 .
 h
 '
+'
+android
+/
+JavaCallbacksSupport
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
