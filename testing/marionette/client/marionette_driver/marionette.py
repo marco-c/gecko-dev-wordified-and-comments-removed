@@ -10787,7 +10787,7 @@ ordering
 :
 returns
 :
-unordered
+Unordered
 list
 of
 unique
@@ -10873,10 +10873,11 @@ ordering
 :
 returns
 :
-unordered
+Unordered
 list
 of
 unique
+chrome
 window
 handles
 as
@@ -10978,10 +10979,24 @@ currently
 open
 .
         
+:
+returns
+:
+Unordered
+list
+of
+remaining
+unique
+window
+handles
+as
+strings
+        
 "
 "
 "
         
+return
 self
 .
 _send_message
@@ -11021,10 +11036,25 @@ window
 open
 .
         
+:
+returns
+:
+Unordered
+list
+of
+remaining
+unique
+chrome
+window
+handles
+as
+strings
+        
 "
 "
 "
         
+return
 self
 .
 _send_message
