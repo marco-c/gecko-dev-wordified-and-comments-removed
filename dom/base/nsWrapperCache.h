@@ -73,9 +73,6 @@ namespace
 css
 {
 class
-ImportRule
-;
-class
 StyleRule
 ;
 class
@@ -794,16 +791,6 @@ nsInProcessTabChildGlobal
 friend
 class
 nsWindowRoot
-;
-friend
-class
-mozilla
-:
-:
-css
-:
-:
-ImportRule
 ;
 friend
 class
