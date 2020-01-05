@@ -6978,11 +6978,6 @@ originPrincipal
 this
 .
 principal
-triggeringPrincipal
-:
-this
-.
-principal
 referrerURI
 :
 gContextMenuContentData
@@ -7922,7 +7917,7 @@ disallowInheritPrincipal
 :
 true
 referrerURI
-triggeringPrincipal
+originPrincipal
 :
 systemPrincipal
 }
