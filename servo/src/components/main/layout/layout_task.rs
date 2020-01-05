@@ -3966,6 +3966,8 @@ build_display_lists
 &
 display_list_builder
 &
+root_size
+&
 dirty
 0u
 display_list_collection
