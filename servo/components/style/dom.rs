@@ -339,6 +339,12 @@ self
 )
 ;
 fn
+dump_style
+(
+self
+)
+;
+fn
 traverse_preorder
 (
 self
