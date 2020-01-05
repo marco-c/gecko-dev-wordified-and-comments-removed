@@ -4246,7 +4246,6 @@ msg
 )
 =
 >
-{
 self
 .
 handle_webdriver_msg
@@ -4254,8 +4253,6 @@ handle_webdriver_msg
 pipeline_id
 msg
 )
-;
-}
 ConstellationControlMsg
 :
 :
