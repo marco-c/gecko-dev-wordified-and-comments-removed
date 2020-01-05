@@ -337,6 +337,7 @@ aInputStream
 aSize
 &
 rv
+aManager
 )
 ;
 if
