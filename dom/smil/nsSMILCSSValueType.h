@@ -33,8 +33,8 @@ nsAString
 namespace
 mozilla
 {
-class
-StyleAnimationValue
+struct
+AnimationValue
 ;
 namespace
 dom
@@ -66,8 +66,8 @@ typedef
 mozilla
 :
 :
-StyleAnimationValue
-StyleAnimationValue
+AnimationValue
+AnimationValue
 ;
 static
 nsSMILCSSValueType
@@ -217,13 +217,13 @@ Element
 *
 aTargetElement
 const
-StyleAnimationValue
+AnimationValue
 &
 aValue
 )
 ;
 static
-bool
+void
 ValueToString
 (
 const
