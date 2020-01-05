@@ -65,6 +65,12 @@ dispatch_event
 target
 :
 AbstractEventTarget
+pseudo_target
+:
+Option
+<
+AbstractEventTarget
+>
 event
 :
 AbstractEvent
@@ -102,7 +108,12 @@ target
 =
 Some
 (
+pseudo_target
+.
+unwrap_or
+(
 target
+)
 )
 ;
 event
