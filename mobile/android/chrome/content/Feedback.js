@@ -224,7 +224,7 @@ case
 FeedbackMaybeLater
 "
 :
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (

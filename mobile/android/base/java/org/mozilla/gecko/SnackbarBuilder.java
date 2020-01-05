@@ -25,7 +25,7 @@ gecko
 .
 util
 .
-NativeJSObject
+GeckoBundle
 ;
 import
 android
@@ -586,7 +586,7 @@ SnackbarBuilder
 fromEvent
 (
 final
-NativeJSObject
+GeckoBundle
 object
 )
 {
@@ -616,7 +616,7 @@ if
 (
 object
 .
-has
+containsKey
 (
 "
 backgroundColor
@@ -674,17 +674,16 @@ providedColor
 ;
 }
 }
-NativeJSObject
+GeckoBundle
 actionObject
 =
 object
 .
-optObject
+getBundle
 (
 "
 action
 "
-null
 )
 ;
 if
@@ -699,7 +698,7 @@ action
 =
 actionObject
 .
-optString
+getString
 (
 "
 label

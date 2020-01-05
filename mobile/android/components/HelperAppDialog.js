@@ -277,7 +277,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -1276,7 +1276,9 @@ source
 "
 ;
 }
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

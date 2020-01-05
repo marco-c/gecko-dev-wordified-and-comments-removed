@@ -75,8 +75,13 @@ tabEventExpecter
 =
 mActions
 .
-expectGeckoEvent
+expectGlobalEvent
 (
+Actions
+.
+EventType
+.
+UI
 "
 Tab
 :

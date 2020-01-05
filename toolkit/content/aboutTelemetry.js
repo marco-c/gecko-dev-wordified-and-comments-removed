@@ -1202,7 +1202,9 @@ jsm
 "
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
