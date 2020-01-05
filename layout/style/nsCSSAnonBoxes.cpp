@@ -36,8 +36,9 @@ mozilla
 define
 CSS_ANON_BOX
 (
-_name
-_value
+name_
+value_
+skips_fixup_
 )
 \
 nsICSSAnonBoxPseudo
@@ -45,7 +46,7 @@ nsICSSAnonBoxPseudo
 nsCSSAnonBoxes
 :
 :
-_name
+name_
 ;
 #
 include
@@ -63,6 +64,7 @@ CSS_ANON_BOX
 (
 name_
 value_
+skips_fixup_
 )
 \
 NS_STATIC_ATOM_BUFFER
@@ -97,6 +99,7 @@ CSS_ANON_BOX
 (
 name_
 value_
+skips_fixup_
 )
 #
 define
@@ -142,6 +145,7 @@ CSS_ANON_BOX
 (
 name_
 value_
+skips_fixup_
 )
 \
 NS_STATIC_ATOM
