@@ -346,6 +346,10 @@ relatedTarget
 enum
 buttonType
 {
+eNoButton
+=
+-
+1
 eLeftButton
 =
 0

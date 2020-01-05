@@ -30804,8 +30804,10 @@ eMouseMove
 :
 button
 =
--
-1
+WidgetMouseEvent
+:
+:
+eNoButton
 ;
 pointerMessage
 =
@@ -40158,9 +40160,6 @@ parent
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_PROFILER_SPS
 nsIURI
 *
 uri
@@ -40216,8 +40215,6 @@ A
 "
 )
 ;
-#
-endif
 nsDocShell
 *
 docShell
