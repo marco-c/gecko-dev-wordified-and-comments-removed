@@ -47,6 +47,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vpx_ports
 /
 vpx_once
@@ -55,6 +57,8 @@ h
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -78,6 +82,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vpx_ports
 /
 vpx_once
@@ -89,6 +95,8 @@ h
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /

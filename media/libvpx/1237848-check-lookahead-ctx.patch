@@ -50,6 +50,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp8
 /
 encoder
@@ -60,6 +62,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -79,6 +83,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp8
 /
 encoder
@@ -92,6 +98,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -202,6 +210,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp9
 /
 encoder
@@ -212,6 +222,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -231,6 +243,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp9
 /
 encoder
@@ -244,6 +258,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /

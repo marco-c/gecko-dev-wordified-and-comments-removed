@@ -36,6 +36,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp8
 /
 vp8_cx_iface
@@ -44,6 +46,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -61,6 +65,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp8
 /
 vp8_cx_iface
@@ -72,6 +78,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -90,7 +98,9 @@ static
 vpx_codec_err_t
 vp8e_encode
 (
-vpx_c
+vpx_codec_alg_priv_t
+*
+ctx
 dst_time_stamp
 =
 pts
@@ -271,7 +281,6 @@ dst_time_stamp
 dst_end_time_stamp
 )
 )
-{
 diff
 -
 -
@@ -282,6 +291,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp9
 /
 vp9_cx_iface
@@ -290,6 +301,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -307,6 +320,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp9
 /
 vp9_cx_iface
@@ -318,6 +333,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /

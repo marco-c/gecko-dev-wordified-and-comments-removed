@@ -50,6 +50,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp9
 /
 decoder
@@ -60,6 +62,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
@@ -79,6 +83,8 @@ media
 /
 libvpx
 /
+libvpx
+/
 vp9
 /
 decoder
@@ -92,6 +98,8 @@ c
 b
 /
 media
+/
+libvpx
 /
 libvpx
 /
