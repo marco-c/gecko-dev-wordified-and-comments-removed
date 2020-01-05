@@ -167,6 +167,17 @@ rf
 {
 MY_TEMP_DIR
 }
+patch
+-
+p1
+<
+clang
+-
+cl
+-
+exceptions
+.
+patch
 hg
 addremove
 DIRS
