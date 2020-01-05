@@ -870,9 +870,6 @@ messages
 [
 label
 ]
-isAlertTooltip
-:
-true
 }
 )
 ;
