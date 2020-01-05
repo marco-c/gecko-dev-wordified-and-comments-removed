@@ -708,6 +708,16 @@ property
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationCompose
+void
+RawServoAnimationValueMapBorrowed
+nsCSSPropertyID
+property
+RawGeckoAnimationPropertySegmentBorrowed
+RawGeckoComputedTimingBorrowed
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_PropertyIsSet
 bool
 RawServoDeclarationBlockBorrowed
