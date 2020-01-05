@@ -424,15 +424,6 @@ cc
 '
 hb
 -
-fallback
--
-shape
-.
-cc
-'
-'
-hb
--
 font
 .
 cc

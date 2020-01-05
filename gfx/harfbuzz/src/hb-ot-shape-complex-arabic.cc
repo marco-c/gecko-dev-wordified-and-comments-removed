@@ -2796,6 +2796,11 @@ if
 shortfall
 >
 0
+&
+&
+n_repeating
+>
+0
 )
 {
 +

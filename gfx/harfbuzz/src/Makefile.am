@@ -1174,7 +1174,7 @@ s
 '
 |
 \
-LANG
+LC_ALL
 =
 C
 sort

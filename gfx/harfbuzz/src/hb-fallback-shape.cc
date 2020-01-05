@@ -15,6 +15,16 @@ private
 .
 hh
 "
+HB_SHAPER_DATA_ENSURE_DEFINE
+(
+fallback
+face
+)
+HB_SHAPER_DATA_ENSURE_DEFINE
+(
+fallback
+font
+)
 struct
 hb_fallback_shaper_face_data_t
 {
@@ -295,6 +305,9 @@ y_advance
 continue
 ;
 }
+(
+void
+)
 font
 -
 >
