@@ -3918,7 +3918,7 @@ bool
 false
 )
 ;
-DECL_OVERRIDE_PREF
+DECL_GFX_PREF
 (
 Live
 "
@@ -3928,9 +3928,10 @@ advanced
 .
 background
 -
-image
+color
 "
-LayersAllowBackgroundImage
+LayersAllowBackgroundColorLayers
+bool
 false
 )
 ;
