@@ -234,6 +234,7 @@ MOZ_PKG_SPECIAL
 )
 endif
 MOZ_PKG_DIR
+?
 =
 (
 MOZ_APP_NAME
