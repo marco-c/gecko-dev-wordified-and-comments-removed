@@ -85,6 +85,11 @@ MPL
 0
 /
 .
+FINAL_LIBRARY
+=
+'
+js
+'
 if
 CONFIG
 [
@@ -104,11 +109,6 @@ MOZ_FFI_LIBS
 ]
 else
 :
-FINAL_LIBRARY
-=
-'
-js
-'
 ALLOW_COMPILER_WARNINGS
 =
 True
