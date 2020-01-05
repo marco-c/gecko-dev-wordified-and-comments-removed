@@ -5903,6 +5903,13 @@ js
 '
 builtin
 /
+WeakMap
+.
+js
+'
+'
+builtin
+/
 WeakSet
 .
 js
