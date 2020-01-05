@@ -238,6 +238,18 @@ android
 glut_app
 '
 )
+                       
+path
+.
+join
+(
+'
+ports
+'
+'
+gonk
+'
+)
 ]
         
 for
