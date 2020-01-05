@@ -49,17 +49,6 @@ view
 .
 WindowManager
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-.
-Versions
-;
 public
 class
 ActivityUtils

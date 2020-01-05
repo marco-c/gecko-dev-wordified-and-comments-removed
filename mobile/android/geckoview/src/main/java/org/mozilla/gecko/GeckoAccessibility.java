@@ -26,17 +26,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-.
-Versions
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 GeckoBundle

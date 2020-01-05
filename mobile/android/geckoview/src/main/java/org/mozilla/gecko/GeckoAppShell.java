@@ -9565,6 +9565,11 @@ getDefaultChromeURI
 (
 )
 ;
+boolean
+isOfficial
+(
+)
+;
 }
 ;
 private

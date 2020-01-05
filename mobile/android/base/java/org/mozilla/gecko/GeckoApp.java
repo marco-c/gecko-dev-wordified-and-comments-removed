@@ -13855,4 +13855,17 @@ return
 true
 ;
 }
+Override
+public
+boolean
+isOfficial
+(
+)
+{
+return
+AppConstants
+.
+MOZILLA_OFFICIAL
+;
+}
 }

@@ -14,15 +14,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoAppShell
 ;
 import
