@@ -40,6 +40,12 @@ ShellWorkerThreads
 \
 _
 (
+ShellThreadCooperation
+100
+)
+\
+_
+(
 ShellArrayBufferMailbox
 100
 )
