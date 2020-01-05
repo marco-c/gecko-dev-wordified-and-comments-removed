@@ -258,12 +258,6 @@ set_preferences_defaults
         
 self
 .
-restart
-(
-)
-        
-self
-.
 updates
 =
 [
