@@ -26,7 +26,6 @@ boxshadow
 basic
 .
 html
-#
 =
 =
 boxshadow
@@ -39,7 +38,6 @@ boxshadow
 blur
 .
 html
-#
 =
 =
 boxshadow
@@ -88,7 +86,6 @@ blur
 2
 .
 html
-#
 =
 =
 boxshadow
@@ -560,7 +557,6 @@ large
 offset
 .
 html
-#
 =
 =
 overflow
@@ -581,7 +577,6 @@ scrollable
 1
 .
 html
-#
 =
 =
 overflow
@@ -648,7 +643,6 @@ html
 2
 .
 html
-#
 =
 =
 fieldset

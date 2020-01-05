@@ -1516,7 +1516,7 @@ splitaftercaption
 7
 .
 html
-#
+fails
 =
 =
 table
@@ -1538,6 +1538,9 @@ splitaftercaption
 .
 html
 #
+Bug
+1341648
+fails
 =
 =
 table
@@ -1559,6 +1562,9 @@ splitaftercaption
 .
 html
 #
+Bug
+1341648
+fails
 =
 =
 table
@@ -1580,6 +1586,9 @@ splitaftercaption
 .
 html
 #
+Bug
+1341648
+fails
 =
 =
 table
@@ -1600,6 +1609,9 @@ splitaftercaption
 11
 .
 html
+#
+Bug
+1341648
 =
 =
 column

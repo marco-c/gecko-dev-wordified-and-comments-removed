@@ -162,7 +162,7 @@ to
 animation
 .
 html
-#
+fails
 =
 =
 stacking
@@ -196,6 +196,10 @@ style
 .
 html
 #
+Bug
+1302946
+?
+fails
 =
 =
 stacking
@@ -229,6 +233,15 @@ style
 .
 html
 #
+Bug
+1302946
+?
+skip
+-
+if
+(
+stylo
+)
 =
 =
 transition
@@ -257,3 +270,7 @@ different
 durations
 .
 html
+#
+Bug
+1302946
+?

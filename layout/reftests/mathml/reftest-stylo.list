@@ -3181,7 +3181,7 @@ dynamic
 1
 .
 html
-#
+fails
 =
 =
 maction
@@ -3308,7 +3308,6 @@ invisibleoperators
 2
 .
 html
-#
 =
 =
 mo
@@ -4148,7 +4147,6 @@ menclose
 invalid
 .
 html
-#
 =
 =
 menclose

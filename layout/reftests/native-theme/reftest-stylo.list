@@ -695,7 +695,6 @@ html
 RTL
 mirroring
 tests
-#
 =
 =
 checkbox
@@ -774,7 +773,7 @@ when
 rtl
 .
 xul
-#
+fails
 =
 =
 select

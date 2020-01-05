@@ -613,7 +613,6 @@ valid
 default
 .
 html
-#
 =
 =
 input
@@ -630,7 +629,6 @@ radio
 required
 .
 html
-#
 =
 =
 input
@@ -647,7 +645,6 @@ radio
 customerror
 .
 html
-#
 =
 =
 input
@@ -672,7 +669,6 @@ valid
 1
 .
 html
-#
 =
 =
 input
@@ -697,7 +693,6 @@ valid
 2
 .
 html
-#
 =
 =
 input
@@ -722,7 +717,6 @@ required
 valid
 .
 html
-#
 =
 =
 input

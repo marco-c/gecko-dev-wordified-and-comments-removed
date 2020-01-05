@@ -57,7 +57,6 @@ rl
 columns
 .
 html
-#
 =
 =
 1082844
@@ -157,7 +156,6 @@ background
 repeat
 .
 html
-#
 =
 =
 1083892
@@ -194,7 +192,6 @@ html
 1b
 .
 html
-#
 =
 =
 1088025
@@ -207,7 +204,6 @@ html
 1
 .
 html
-#
 =
 =
 1089388
@@ -220,7 +216,6 @@ html
 1
 .
 html
-#
 =
 =
 1089388
@@ -233,7 +228,6 @@ html
 2
 .
 html
-#
 =
 =
 1090159
@@ -246,7 +240,14 @@ html
 1
 .
 html
-#
+fails
+asserts
+-
+if
+(
+stylo
+1
+)
 =
 =
 1090168
@@ -259,7 +260,14 @@ html
 1
 .
 html
-#
+fails
+asserts
+-
+if
+(
+stylo
+1
+)
 =
 =
 1090168
@@ -318,7 +326,6 @@ html
 #
 bug
 1324700
-#
 =
 =
 1091058
@@ -405,7 +412,6 @@ html
 1b
 .
 html
-#
 =
 =
 1102175
@@ -418,7 +424,6 @@ html
 1a
 .
 html
-#
 =
 =
 1102175
@@ -431,7 +436,6 @@ html
 1b
 .
 html
-#
 =
 =
 1103613
@@ -444,7 +448,6 @@ html
 1
 .
 html
-#
 =
 =
 1105268
@@ -645,7 +648,7 @@ margin
 collapse
 .
 html
-#
+fails
 =
 =
 1124636
@@ -695,7 +698,6 @@ min
 height
 .
 html
-#
 =
 =
 ua
@@ -720,7 +722,6 @@ margin
 1
 .
 html
-#
 =
 =
 ua
@@ -745,7 +746,6 @@ margin
 2
 .
 html
-#
 =
 =
 ua
@@ -944,7 +944,6 @@ margin
 10
 .
 html
-#
 =
 =
 ua
@@ -969,7 +968,6 @@ margin
 11
 .
 html
-#
 =
 =
 ua
@@ -1043,7 +1041,6 @@ margin
 14
 .
 html
-#
 =
 =
 ua
@@ -1068,7 +1065,6 @@ border
 1
 .
 html
-#
 =
 =
 ua
@@ -1093,7 +1089,6 @@ border
 2
 .
 html
-#
 =
 =
 ua
@@ -1118,7 +1113,6 @@ border
 3
 .
 html
-#
 =
 =
 ua
@@ -1143,7 +1137,6 @@ border
 4
 .
 html
-#
 =
 =
 ua
@@ -1218,7 +1211,7 @@ size
 2
 .
 html
-#
+fails
 =
 =
 ua
@@ -1243,7 +1236,7 @@ fieldset
 1
 .
 html
-#
+fails
 =
 =
 ua
@@ -1268,7 +1261,7 @@ textarea
 1
 .
 html
-#
+fails
 =
 =
 ua
@@ -1293,7 +1286,7 @@ textarea
 1
 .
 html
-#
+fails
 =
 =
 ua
@@ -1318,7 +1311,6 @@ textarea
 1
 .
 html
-#
 =
 =
 ua
@@ -1347,7 +1339,7 @@ radio
 1
 .
 html
-#
+fails
 =
 =
 ua
@@ -1372,7 +1364,7 @@ button
 1
 .
 html
-#
+fails
 =
 =
 ua
@@ -2483,7 +2475,6 @@ lr
 ltr
 .
 html
-#
 =
 =
 1130907
@@ -2540,7 +2531,6 @@ vertical
 bidi
 .
 html
-#
 =
 =
 1133945
@@ -2623,7 +2613,6 @@ justify
 1
 .
 html
-#
 =
 =
 1136557
@@ -3221,7 +3210,6 @@ inflation
 1d
 .
 html
-#
 =
 =
 1144501
@@ -3254,7 +3242,6 @@ orthogonal
 size
 .
 html
-#
 =
 =
 1144501
@@ -3287,7 +3274,6 @@ orthogonal
 size
 .
 html
-#
 =
 =
 1147834
@@ -3316,7 +3302,6 @@ tb
 ltr
 .
 html
-#
 =
 =
 1147834
@@ -3345,7 +3330,6 @@ tb
 rtl
 .
 html
-#
 =
 =
 1147834
@@ -3374,7 +3358,6 @@ lr
 ltr
 .
 html
-#
 =
 =
 1147834
@@ -3403,7 +3386,6 @@ lr
 rtl
 .
 html
-#
 =
 =
 1147834
@@ -3432,7 +3414,6 @@ rl
 ltr
 .
 html
-#
 =
 =
 1147834
@@ -3461,7 +3442,6 @@ rl
 rtl
 .
 html
-#
 =
 =
 1151993
@@ -3486,7 +3466,6 @@ block
 size
 .
 html
-#
 =
 =
 1152941
@@ -3531,7 +3510,6 @@ indent
 percent
 .
 html
-#
 =
 =
 1157752
@@ -3548,7 +3526,6 @@ upright
 bidi
 .
 html
-#
 =
 =
 1157758
@@ -3569,7 +3546,6 @@ vertical
 arabic
 .
 html
-#
 =
 =
 1158549
@@ -3618,7 +3594,12 @@ auto
 margins
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3639,7 +3620,12 @@ margin
 1
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3660,7 +3646,12 @@ margin
 2
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3681,7 +3672,12 @@ margin
 3
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3702,7 +3698,12 @@ margin
 4
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3723,7 +3724,12 @@ padding
 1
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3744,7 +3750,12 @@ padding
 2
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3765,7 +3776,12 @@ padding
 3
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 1172774
@@ -3824,7 +3840,6 @@ overline
 1
 .
 html
-#
 =
 =
 1188061
@@ -3841,7 +3856,6 @@ html
 nsChangeHint_ClearAncestorIntrinsics
 .
 html
-#
 =
 =
 1188061
@@ -4028,7 +4042,7 @@ values
 1
 .
 html
-#
+fails
 =
 =
 1216747
@@ -4041,7 +4055,7 @@ html
 1
 .
 html
-#
+fails
 =
 =
 1216747
@@ -4054,7 +4068,6 @@ html
 1
 .
 html
-#
 =
 =
 1243125
@@ -4100,7 +4113,6 @@ break
 glyphrun
 .
 html
-#
 =
 =
 1302734
@@ -4121,7 +4133,6 @@ plaintext
 1a
 .
 html
-#
 =
 =
 1302734
@@ -4142,7 +4153,6 @@ plaintext
 1b
 .
 html
-#
 =
 =
 1302734
@@ -4163,7 +4173,6 @@ plaintext
 2a
 .
 html
-#
 =
 =
 1302734
@@ -4184,7 +4193,6 @@ plaintext
 2b
 .
 html
-#
 =
 =
 1302734
@@ -4205,7 +4213,6 @@ plaintext
 2c
 .
 html
-#
 =
 =
 1302734

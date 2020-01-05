@@ -96,7 +96,6 @@ first
 child
 .
 html
-#
 =
 =
 open
@@ -117,7 +116,6 @@ block
 style
 .
 html
-#
 =
 =
 open
@@ -138,7 +136,6 @@ inline
 style
 .
 html
-#
 =
 =
 open

@@ -139,7 +139,6 @@ html
 blur
 .
 html
-#
 =
 =
 color
@@ -252,7 +251,6 @@ html
 lineoverflow
 .
 html
-#
 =
 =
 overflow
@@ -273,7 +271,6 @@ scrollable
 1
 .
 html
-#
 =
 =
 overflow

@@ -18,7 +18,7 @@ testing
 basic
 sanity
 checking
-#
+fails
 =
 =
 plugin
@@ -32,6 +32,9 @@ sanity
 .
 html
 #
+Bug
+1341095
+fails
 =
 =
 plugin
@@ -44,6 +47,9 @@ plugin
 sanity
 .
 html
+#
+Bug
+1341095
 =
 =
 plugin
@@ -327,7 +333,6 @@ alpha
 zindex
 .
 html
-#
 =
 =
 plugin

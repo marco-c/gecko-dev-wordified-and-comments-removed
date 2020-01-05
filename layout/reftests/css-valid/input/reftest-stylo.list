@@ -397,7 +397,6 @@ fieldset
 legend
 .
 html
-#
 =
 =
 input
@@ -414,7 +413,6 @@ radio
 required
 .
 html
-#
 =
 =
 input
@@ -431,7 +429,6 @@ radio
 customerror
 .
 html
-#
 =
 =
 input
@@ -456,7 +453,6 @@ valid
 1
 .
 html
-#
 =
 =
 input
@@ -481,7 +477,6 @@ valid
 2
 .
 html
-#
 =
 =
 input
@@ -507,6 +502,8 @@ valid
 .
 html
 #
+Bug
+1341739
 =
 =
 input

@@ -2457,7 +2457,6 @@ an
 intrinsic
 size
 :
-#
 =
 =
 image
@@ -2486,7 +2485,7 @@ size
 html
 ?
 0
-#
+fails
 =
 =
 image
@@ -2516,6 +2515,9 @@ html
 ?
 90
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2545,6 +2547,9 @@ html
 ?
 180
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2574,6 +2579,9 @@ html
 ?
 270
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2607,6 +2615,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2640,6 +2651,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2673,6 +2687,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2705,6 +2722,9 @@ html
 270
 &
 flip
+#
+Bug
+1341758
 #
 Tests
 for
@@ -2719,7 +2739,6 @@ no
 intrinsic
 size
 :
-#
 =
 =
 image
@@ -2748,7 +2767,7 @@ size
 html
 ?
 0
-#
+fails
 =
 =
 image
@@ -2778,6 +2797,9 @@ html
 ?
 90
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2807,6 +2829,9 @@ html
 ?
 180
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2836,6 +2861,9 @@ html
 ?
 270
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2869,6 +2897,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2902,6 +2933,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2935,6 +2969,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -2967,6 +3004,9 @@ html
 270
 &
 flip
+#
+Bug
+1341758
 #
 Tests
 for
@@ -2981,7 +3021,6 @@ an
 intrinsic
 size
 :
-#
 =
 =
 image
@@ -3014,7 +3053,7 @@ size
 html
 ?
 0
-#
+fails
 =
 =
 image
@@ -3048,6 +3087,9 @@ html
 ?
 90
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3081,6 +3123,9 @@ html
 ?
 180
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3114,6 +3159,9 @@ html
 ?
 270
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3151,6 +3199,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3188,6 +3239,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3225,6 +3279,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3261,6 +3318,9 @@ html
 270
 &
 flip
+#
+Bug
+1341758
 #
 Tests
 for
@@ -3275,7 +3335,6 @@ no
 intrinsic
 size
 :
-#
 =
 =
 image
@@ -3308,7 +3367,7 @@ size
 html
 ?
 0
-#
+fails
 =
 =
 image
@@ -3342,6 +3401,9 @@ html
 ?
 90
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3375,6 +3437,9 @@ html
 ?
 180
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3408,6 +3473,9 @@ html
 ?
 270
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3445,6 +3513,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3482,6 +3553,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3519,6 +3593,9 @@ html
 &
 flip
 #
+Bug
+1341758
+fails
 =
 =
 image
@@ -3555,6 +3632,9 @@ html
 270
 &
 flip
+#
+Bug
+1341758
 #
 Test
 that
@@ -3579,7 +3659,6 @@ have
 EXIF
 data
 .
-#
 =
 =
 image
@@ -3612,7 +3691,6 @@ html
 from
 -
 image
-#
 =
 =
 image
@@ -4043,7 +4121,6 @@ to
 uniform
 scales
 .
-#
 =
 =
 nonuniform
@@ -4076,7 +4153,6 @@ html
 1
 .
 0
-#
 =
 =
 nonuniform
@@ -4109,7 +4185,6 @@ html
 1
 .
 0
-#
 =
 =
 nonuniform
@@ -4142,7 +4217,6 @@ html
 0
 .
 3
-#
 =
 =
 nonuniform
@@ -4175,7 +4249,6 @@ html
 0
 .
 3
-#
 =
 =
 nonuniform
@@ -4216,7 +4289,6 @@ html
 0
 .
 3
-#
 =
 =
 nonuniform
@@ -4257,7 +4329,6 @@ html
 0
 .
 3
-#
 =
 =
 nonuniform
@@ -4298,7 +4369,6 @@ html
 0
 .
 3
-#
 =
 =
 nonuniform

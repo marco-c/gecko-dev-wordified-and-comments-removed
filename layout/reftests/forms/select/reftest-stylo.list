@@ -14,7 +14,7 @@ list
 for
 Stylo
 testing
-#
+fails
 =
 =
 out
@@ -35,7 +35,7 @@ bounds
 selectedindex
 .
 html
-#
+fails
 =
 =
 multiple
@@ -53,7 +53,7 @@ html
 boguskids
 .
 html
-#
+fails
 =
 =
 dynamic
@@ -66,7 +66,7 @@ dynamic
 boguskids
 .
 html
-#
+fails
 =
 =
 option

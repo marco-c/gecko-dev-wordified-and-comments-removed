@@ -167,7 +167,6 @@ for
 the
 spin
 box
-#
 =
 =
 number
@@ -192,7 +191,6 @@ text
 unthemed
 .
 html
-#
 =
 =
 number
@@ -221,7 +219,6 @@ unthemed
 rtl
 .
 html
-#
 =
 =
 number
@@ -254,7 +251,6 @@ vertical
 lr
 .
 html
-#
 =
 =
 number
@@ -325,7 +321,6 @@ unthemed
 1
 .
 html
-#
 =
 =
 from
@@ -386,7 +381,6 @@ value
 html
 #
 disabled
-#
 =
 =
 number
@@ -403,7 +397,6 @@ html
 auto
 width
 :
-#
 =
 =
 number

@@ -29,7 +29,7 @@ html
 507947
 .
 html
-#
+fails
 =
 =
 progressbar
@@ -50,7 +50,7 @@ default
 style
 .
 html
-#
+fails
 =
 =
 meter
@@ -67,7 +67,7 @@ native
 style
 .
 html
-#
+fails
 =
 =
 meter
@@ -88,7 +88,7 @@ native
 style
 .
 html
-#
+fails
 =
 =
 meter

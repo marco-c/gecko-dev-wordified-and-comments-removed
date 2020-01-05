@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-#
 =
 =
 output
@@ -39,7 +38,6 @@ output
 2
 .
 html
-#
 =
 =
 output
@@ -52,7 +50,7 @@ output
 3
 .
 html
-#
+fails
 =
 =
 output
@@ -65,7 +63,6 @@ output
 4
 .
 html
-#
 =
 =
 output
@@ -78,7 +75,6 @@ output
 5
 .
 html
-#
 =
 =
 output
@@ -91,7 +87,6 @@ output
 6
 .
 html
-#
 =
 =
 output

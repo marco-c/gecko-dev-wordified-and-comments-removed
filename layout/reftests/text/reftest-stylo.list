@@ -226,7 +226,6 @@ be
 #
 see
 bug
-#
 =
 =
 font
@@ -1224,7 +1223,6 @@ last
 justify
 .
 html
-#
 =
 =
 text
@@ -1475,7 +1473,6 @@ text
 align
 -
 last
-#
 =
 =
 text
@@ -1500,7 +1497,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1525,7 +1521,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1550,7 +1545,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1575,7 +1569,6 @@ last
 end
 .
 html
-#
 =
 =
 text
@@ -1624,7 +1617,6 @@ last
 center
 .
 html
-#
 =
 =
 text
@@ -1649,7 +1641,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1674,7 +1665,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1699,7 +1689,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1724,7 +1713,6 @@ last
 end
 .
 html
-#
 =
 =
 text
@@ -1773,7 +1761,6 @@ last
 center
 .
 html
-#
 =
 =
 text
@@ -1798,7 +1785,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1823,7 +1809,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1848,32 +1833,6 @@ last
 start
 .
 html
-#
-=
-=
-text
--
-align
--
-center
--
-last
--
-end
-.
-html
-text
--
-align
--
-center
--
-last
--
-end
-.
-html
-#
 =
 =
 text
@@ -1908,6 +1867,30 @@ center
 -
 last
 -
+end
+.
+html
+text
+-
+align
+-
+center
+-
+last
+-
+end
+.
+html
+=
+=
+text
+-
+align
+-
+center
+-
+last
+-
 center
 .
 html
@@ -1922,7 +1905,6 @@ last
 center
 .
 html
-#
 =
 =
 text
@@ -1947,7 +1929,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1972,7 +1953,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -1997,7 +1977,6 @@ last
 start
 .
 html
-#
 =
 =
 text
@@ -2022,7 +2001,6 @@ last
 end
 .
 html
-#
 =
 =
 text
@@ -2157,7 +2135,6 @@ space
 1b
 .
 html
-#
 =
 =
 white
@@ -2494,7 +2471,7 @@ overflowwrap
 07
 .
 html
-#
+fails
 =
 =
 wordwrap
@@ -2508,6 +2485,12 @@ wordwrap
 .
 html
 #
+Bug
+1341637
+bug
+1321769
+?
+fails
 =
 =
 wordwrap
@@ -2521,6 +2504,12 @@ wordwrap
 .
 html
 #
+Bug
+1341637
+bug
+1321769
+?
+fails
 =
 =
 wordwrap
@@ -2534,6 +2523,12 @@ wordwrap
 .
 html
 #
+Bug
+1341637
+bug
+1321769
+?
+fails
 =
 =
 overflowwrap
@@ -2547,6 +2542,12 @@ overflowwrap
 .
 html
 #
+Bug
+1341637
+bug
+1321769
+?
+fails
 =
 =
 wordwrap
@@ -2560,6 +2561,12 @@ wordwrap
 .
 html
 #
+Bug
+1341637
+bug
+1321769
+?
+fails
 =
 =
 overflowwrap
@@ -2572,6 +2579,12 @@ overflowwrap
 09
 .
 html
+#
+Bug
+1341637
+bug
+1321769
+?
 =
 =
 wordwrap
@@ -3331,7 +3344,6 @@ control
 emoji
 rendering
 style
-#
 =
 =
 emoji
@@ -3395,7 +3407,6 @@ Windows
 and
 Linux
 .
-#
 =
 =
 emoji
@@ -4273,7 +4284,6 @@ hyphenation
 with
 hyphens
 property
-#
 =
 =
 auto
@@ -4290,7 +4300,6 @@ hyphenation
 1
 .
 html
-#
 =
 =
 auto
@@ -4468,7 +4477,7 @@ hyphenation
 10
 .
 html
-#
+fails
 =
 =
 auto
@@ -4490,6 +4499,9 @@ xmllang
 .
 xhtml
 #
+Bug
+1341714
+fails
 =
 =
 auto
@@ -4510,6 +4522,9 @@ xmllang
 1
 .
 xhtml
+#
+Bug
+1341714
 fails
 =
 =
@@ -4981,7 +4996,6 @@ da
 1
 .
 html
-#
 =
 =
 auto
@@ -5030,7 +5044,6 @@ de
 1
 .
 html
-#
 =
 =
 auto
@@ -5580,7 +5593,6 @@ sr
 1
 .
 html
-#
 =
 =
 auto
@@ -5601,7 +5613,6 @@ sv
 1
 .
 html
-#
 =
 =
 auto

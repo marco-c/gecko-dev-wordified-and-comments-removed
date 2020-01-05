@@ -805,7 +805,7 @@ setLTR
 InvalidDir6
 .
 html
-#
+fails
 =
 =
 dynamicDirAuto
@@ -823,6 +823,11 @@ InvalidDir7
 .
 html
 #
+Bug
+1340696
+bug
+1341086
+fails
 =
 =
 dynamicDirAuto
@@ -839,6 +844,11 @@ setLTR
 InvalidDir7
 .
 html
+#
+Bug
+1340696
+bug
+1341086
 fails
 =
 =

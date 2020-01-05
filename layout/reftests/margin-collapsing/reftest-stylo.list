@@ -175,7 +175,6 @@ that
 incorrectly
 collapsed
 .
-#
 =
 =
 inline
@@ -192,7 +191,6 @@ horizontal
 1
 .
 html
-#
 =
 =
 inline
@@ -209,7 +207,6 @@ horizontal
 1
 .
 html
-#
 =
 =
 inline
@@ -226,7 +223,6 @@ horizontal
 2
 .
 html
-#
 =
 =
 inline
@@ -243,7 +239,6 @@ horizontal
 2
 .
 html
-#
 =
 =
 inline
@@ -264,7 +259,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -285,7 +279,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -306,7 +299,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -663,7 +655,6 @@ do
 not
 collapse
 .
-#
 =
 =
 inline
@@ -684,7 +675,6 @@ horizontal
 1
 .
 html
-#
 =
 =
 inline
@@ -705,7 +695,6 @@ horizontal
 1
 .
 html
-#
 =
 =
 inline
@@ -726,7 +715,6 @@ horizontal
 2
 .
 html
-#
 =
 =
 inline
@@ -747,7 +735,6 @@ horizontal
 2
 .
 html
-#
 =
 =
 inline
@@ -772,7 +759,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -797,7 +783,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -822,7 +807,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -858,7 +842,6 @@ do
 not
 collapse
 .
-#
 =
 =
 inline
@@ -879,7 +862,6 @@ horizontal
 1
 .
 html
-#
 =
 =
 inline
@@ -900,7 +882,6 @@ horizontal
 1
 .
 html
-#
 =
 =
 inline
@@ -925,7 +906,6 @@ horizontal
 dyn
 .
 html
-#
 =
 =
 inline
@@ -12588,7 +12568,7 @@ overflow
 2
 .
 html
-#
+fails
 =
 =
 block
@@ -12606,6 +12586,10 @@ overflow
 .
 html
 #
+Bug
+1321769
+?
+fails
 =
 =
 block
@@ -12623,6 +12607,10 @@ overflow
 .
 html
 #
+Bug
+1321769
+?
+fails
 =
 =
 block
@@ -12640,6 +12628,10 @@ overflow
 .
 html
 #
+Bug
+1321769
+?
+fails
 =
 =
 block
@@ -12656,6 +12648,10 @@ overflow
 4
 .
 html
+#
+Bug
+1321769
+?
 =
 =
 block
@@ -12720,7 +12716,7 @@ overflow
 5b
 .
 html
-#
+fails
 =
 =
 block
@@ -12738,6 +12734,10 @@ overflow
 .
 html
 #
+Bug
+1321769
+?
+fails
 =
 =
 block
@@ -12754,6 +12754,10 @@ overflow
 5c
 .
 html
+#
+Bug
+1321769
+?
 =
 =
 block
@@ -14228,7 +14232,6 @@ bottom
 '
 respectively
 .
-#
 =
 =
 table
@@ -14317,7 +14320,6 @@ outside
 2
 .
 html
-#
 =
 =
 table
@@ -15445,7 +15447,6 @@ child
 1
 .
 html
-#
 =
 =
 inline
@@ -15466,7 +15467,6 @@ child
 2
 .
 html
-#
 =
 =
 inline

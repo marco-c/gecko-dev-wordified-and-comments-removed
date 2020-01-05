@@ -989,7 +989,6 @@ html
 nostops
 .
 html
-#
 =
 =
 onestop
@@ -2940,7 +2939,7 @@ dependence
 3
 .
 html
-#
+fails
 =
 =
 linear
@@ -2957,7 +2956,7 @@ onestopposition
 1
 .
 html
-#
+fails
 =
 =
 linear
@@ -3023,7 +3022,6 @@ onestopposition
 1c
 .
 html
-#
 =
 =
 repeating

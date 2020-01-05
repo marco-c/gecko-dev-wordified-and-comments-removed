@@ -30,7 +30,6 @@ repaint
 a
 .
 html
-#
 =
 =
 table
@@ -201,7 +200,12 @@ image
 layers
 .
 html
-#
+skip
+-
+if
+(
+stylo
+)
 =
 =
 test
@@ -1486,7 +1490,7 @@ invalidation
 html
 ?
 reverse
-#
+fails
 =
 =
 clipped
@@ -1507,7 +1511,7 @@ transform
 1
 .
 html
-#
+fails
 =
 =
 paintedlayer
@@ -1899,7 +1903,6 @@ position
 2b
 .
 html
-#
 =
 =
 background
@@ -1916,7 +1919,6 @@ position
 2c
 .
 html
-#
 =
 =
 background

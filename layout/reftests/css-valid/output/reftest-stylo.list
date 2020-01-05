@@ -14,7 +14,7 @@ list
 for
 Stylo
 testing
-#
+fails
 =
 =
 output
@@ -28,6 +28,8 @@ valid
 .
 html
 #
+Bug
+341739
 =
 =
 output

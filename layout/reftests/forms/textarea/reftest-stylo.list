@@ -14,7 +14,7 @@ list
 for
 Stylo
 testing
-#
+fails
 =
 =
 resize
@@ -41,7 +41,7 @@ this
 test
 for
 now
-#
+fails
 =
 =
 resize
@@ -54,7 +54,7 @@ resize
 background
 .
 html
-#
+fails
 =
 =
 ltr
@@ -63,7 +63,7 @@ html
 ltr
 .
 html
-#
+fails
 =
 =
 ltr
@@ -76,7 +76,7 @@ ltr
 scrollbar
 .
 html
-#
+fails
 =
 =
 in
@@ -97,7 +97,7 @@ doc
 scrollbar
 .
 html
-#
+fails
 =
 =
 ltr
@@ -106,7 +106,7 @@ html
 ltr
 .
 html
-#
+fails
 =
 =
 rtl
@@ -115,7 +115,7 @@ html
 rtl
 .
 html
-#
+fails
 =
 =
 rtl
@@ -124,7 +124,7 @@ html
 rtl
 .
 html
-#
+fails
 =
 =
 rtl
@@ -133,7 +133,7 @@ html
 rtl
 .
 html
-#
+fails
 =
 =
 rtl
@@ -159,7 +159,7 @@ framereconstruction
 1
 .
 html
-#
+fails
 =
 =
 padding
@@ -176,7 +176,7 @@ scrollbar
 placement
 .
 html
-#
+fails
 =
 =
 various

@@ -53,7 +53,6 @@ bug
 368155
 )
 .
-#
 =
 =
 text
@@ -78,7 +77,6 @@ line
 100
 .
 html
-#
 =
 =
 text
@@ -151,7 +149,6 @@ line
 percent
 .
 html
-#
 =
 =
 text
@@ -180,7 +177,6 @@ indent
 inline
 .
 html
-#
 =
 =
 text
@@ -209,7 +205,6 @@ indent
 inline
 .
 html
-#
 =
 =
 text
@@ -230,7 +225,6 @@ multiple
 line
 .
 html
-#
 =
 =
 text
@@ -251,7 +245,6 @@ multiple
 line
 .
 html
-#
 =
 =
 text

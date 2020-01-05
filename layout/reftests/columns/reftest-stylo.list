@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-#
 =
 =
 basic
@@ -350,7 +349,6 @@ balancing
 004
 .
 html
-#
 =
 =
 column
@@ -484,7 +482,6 @@ columnrule
 linestyles
 .
 html
-#
 =
 =
 columnrule

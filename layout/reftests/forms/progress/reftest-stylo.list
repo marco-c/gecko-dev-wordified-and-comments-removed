@@ -14,7 +14,7 @@ list
 for
 Stylo
 testing
-#
+fails
 =
 =
 values
@@ -23,7 +23,7 @@ html
 values
 .
 html
-#
+fails
 =
 =
 values
@@ -36,7 +36,7 @@ values
 rtl
 .
 html
-#
+fails
 =
 =
 margin
@@ -49,7 +49,7 @@ margin
 padding
 .
 html
-#
+fails
 =
 =
 margin
@@ -66,7 +66,7 @@ padding
 rtl
 .
 html
-#
+fails
 =
 =
 bar
@@ -83,7 +83,7 @@ pseudo
 element
 .
 html
-#
+fails
 =
 =
 bar
@@ -104,7 +104,7 @@ element
 rtl
 .
 html
-#
+fails
 =
 =
 indeterminate
@@ -124,7 +124,7 @@ html
 #
 vertical
 tests
-#
+fails
 =
 =
 values
@@ -137,7 +137,7 @@ values
 vertical
 .
 html
-#
+fails
 =
 =
 values
@@ -154,7 +154,7 @@ vertical
 rtl
 .
 html
-#
+fails
 =
 =
 margin
@@ -171,7 +171,7 @@ padding
 vertical
 .
 html
-#
+fails
 =
 =
 margin
@@ -192,7 +192,7 @@ vertical
 rtl
 .
 html
-#
+fails
 =
 =
 bar
@@ -213,7 +213,7 @@ element
 vertical
 .
 html
-#
+fails
 =
 =
 bar
@@ -238,7 +238,7 @@ vertical
 rtl
 .
 html
-#
+fails
 =
 =
 indeterminate
@@ -295,7 +295,7 @@ manually
 check
 those
 .
-#
+fails
 =
 =
 transformations
@@ -309,7 +309,7 @@ Tests
 for
 bugs
 :
-#
+fails
 =
 =
 block
@@ -322,7 +322,7 @@ block
 invalidate
 .
 html
-#
+fails
 =
 =
 in
@@ -335,7 +335,6 @@ in
 cells
 .
 html
-#
 =
 =
 max
@@ -361,7 +360,7 @@ with
 writing
 -
 mode
-#
+fails
 =
 =
 progress
@@ -407,7 +406,7 @@ orient
 vertical
 .
 html
-#
+fails
 =
 =
 progress
@@ -424,7 +423,7 @@ orient
 block
 .
 html
-#
+fails
 =
 =
 progress
@@ -441,7 +440,7 @@ orient
 inline
 .
 html
-#
+fails
 =
 =
 progress
@@ -454,7 +453,7 @@ progress
 vlr
 .
 html
-#
+fails
 =
 =
 progress
@@ -475,7 +474,7 @@ orient
 block
 .
 html
-#
+fails
 =
 =
 progress
@@ -496,7 +495,7 @@ orient
 inline
 .
 html
-#
+fails
 =
 =
 progress
@@ -517,7 +516,7 @@ orient
 horizontal
 .
 html
-#
+fails
 =
 =
 progress
@@ -538,7 +537,7 @@ orient
 vertical
 .
 html
-#
+fails
 =
 =
 progress
@@ -551,7 +550,7 @@ progress
 vrl
 .
 html
-#
+fails
 =
 =
 progress
@@ -572,7 +571,7 @@ orient
 block
 .
 html
-#
+fails
 =
 =
 progress
@@ -593,7 +592,7 @@ orient
 inline
 .
 html
-#
+fails
 =
 =
 progress
@@ -614,7 +613,7 @@ orient
 horizontal
 .
 html
-#
+fails
 =
 =
 progress

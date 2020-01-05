@@ -40,7 +40,6 @@ html
 append
 several
 elements
-#
 =
 =
 appendmultiple
@@ -66,7 +65,6 @@ html
 insert
 several
 elements
-#
 =
 =
 insertmultiple
@@ -177,7 +175,6 @@ insert
 and
 an
 append
-#
 =
 =
 insertmultiplemultiple
@@ -197,7 +194,6 @@ inserts
 and
 an
 append
-#
 =
 =
 insertmultiplemultiple

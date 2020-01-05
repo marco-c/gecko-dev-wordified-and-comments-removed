@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-#
 =
 =
 bounds
@@ -113,7 +112,7 @@ html
 select
 .
 html
-#
+fails
 =
 =
 intrinsic
@@ -126,7 +125,7 @@ intrinsic
 size
 .
 html
-#
+fails
 =
 =
 line
@@ -147,7 +146,7 @@ height
 5
 .
 html
-#
+fails
 =
 =
 line

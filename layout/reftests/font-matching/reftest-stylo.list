@@ -125,20 +125,6 @@ defaultfont
 oblique
 .
 html
-#
-=
-=
-defaultfont
--
-bolditalic
-.
-html
-defaultfont
--
-bolditalic
-.
-html
-#
 =
 =
 defaultfont
@@ -153,6 +139,18 @@ bolditalic
 html
 =
 =
+defaultfont
+-
+bolditalic
+.
+html
+defaultfont
+-
+bolditalic
+.
+html
+=
+=
 defaultjapanese
 -
 bold
@@ -187,7 +185,6 @@ defaultjapanese
 oblique
 .
 html
-#
 =
 =
 defaultjapanese
@@ -200,7 +197,6 @@ defaultjapanese
 bolditalic
 .
 html
-#
 =
 =
 defaultjapanese
@@ -249,7 +245,6 @@ impact
 oblique
 .
 html
-#
 =
 =
 impact
@@ -262,7 +257,6 @@ impact
 bolditalic
 .
 html
-#
 =
 =
 impact
@@ -311,7 +305,6 @@ arialunicode
 oblique
 .
 html
-#
 =
 =
 arialunicode
@@ -324,7 +317,6 @@ arialunicode
 bolditalic
 .
 html
-#
 =
 =
 arialunicode
@@ -373,7 +365,6 @@ lucidaconsole
 oblique
 .
 html
-#
 =
 =
 lucidaconsole
@@ -386,7 +377,6 @@ lucidaconsole
 bolditalic
 .
 html
-#
 =
 =
 lucidaconsole

@@ -50,7 +50,7 @@ html
 select
 .
 html
-#
+fails
 =
 =
 fieldset
@@ -60,6 +60,9 @@ fieldset
 .
 html
 #
+Bug
+1340696
+fails
 =
 =
 output
@@ -68,6 +71,9 @@ html
 output
 .
 html
+#
+Bug
+1341739
 fails
 =
 =

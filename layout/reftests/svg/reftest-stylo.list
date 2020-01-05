@@ -5215,7 +5215,6 @@ the
 reftest
 harness
 .
-#
 =
 =
 pseudo
@@ -5432,7 +5431,6 @@ ry
 01
 .
 svg
-#
 =
 =
 rootElement
@@ -8577,7 +8575,6 @@ soft
 light
 .
 svg
-#
 =
 =
 blend
