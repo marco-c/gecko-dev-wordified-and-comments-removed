@@ -66,7 +66,6 @@ bindings
 :
 {
 Gecko_ElementState
-Gecko_GetAttrAsUTF8
 Gecko_GetDocumentElement
 }
 ;

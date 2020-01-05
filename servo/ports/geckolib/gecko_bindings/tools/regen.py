@@ -621,7 +621,7 @@ IsDestructibleFallback
 "
             
 "
-nsProxyReleaseEvent
+ProxyReleaseEvent
 "
 "
 FallibleTArray
