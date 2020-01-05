@@ -995,6 +995,8 @@ const
 gfxCharacterMap
 *
 aUnicodeRangeMap
+=
+nullptr
 )
 ;
 void
