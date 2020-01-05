@@ -56,12 +56,6 @@ AboutRedirector
 )
 {
 }
-private
-:
-static
-bool
-sUseOldPreferences
-;
 }
 ;
 }
