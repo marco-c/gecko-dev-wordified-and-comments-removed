@@ -514,9 +514,10 @@ render_mode
 }
                      
 "
-path
+paths
 "
 :
+[
 path
 .
 abspath
@@ -533,6 +534,7 @@ ref
 "
 )
 )
+]
                      
 "
 include_arg
@@ -562,9 +564,10 @@ release
 }
                      
 "
-path
+paths
 "
 :
+[
 path
 .
 abspath
@@ -588,6 +591,27 @@ tests
 "
 )
 )
+                               
+path
+.
+abspath
+(
+path
+.
+join
+(
+"
+tests
+"
+"
+wpt
+"
+"
+mozilla
+"
+)
+)
+]
                      
 "
 include_arg
@@ -617,9 +641,10 @@ release
 }
                      
 "
-path
+paths
 "
 :
+[
 path
 .
 abspath
@@ -641,6 +666,7 @@ tests
 "
 )
 )
+]
                      
 "
 include_arg
@@ -666,12 +692,7 @@ unit
 suites_by_prefix
 =
 {
-v
-[
-"
 path
-"
-]
 :
 k
 for
@@ -685,10 +706,19 @@ iteritems
 )
 if
 "
-path
+paths
 "
 in
 v
+for
+path
+in
+v
+[
+"
+paths
+"
+]
 }
         
 selected_suites
