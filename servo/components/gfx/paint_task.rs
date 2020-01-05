@@ -163,7 +163,7 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
+PaintMsg
 as
 ConstellationMsg
 ;
@@ -1764,7 +1764,7 @@ send
 ConstellationMsg
 :
 :
-PainterReady
+Ready
 (
 self
 .
@@ -1886,7 +1886,7 @@ send
 ConstellationMsg
 :
 :
-PainterReady
+Ready
 (
 self
 .
