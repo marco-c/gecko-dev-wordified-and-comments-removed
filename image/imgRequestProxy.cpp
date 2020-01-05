@@ -2140,6 +2140,13 @@ imgRequestProxy
 aClone
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 NS_PRECONDITION
 (
 aClone
