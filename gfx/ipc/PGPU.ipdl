@@ -226,6 +226,8 @@ uint32_t
 ;
 float
 ;
+nsCString
+;
 }
 ;
 struct
