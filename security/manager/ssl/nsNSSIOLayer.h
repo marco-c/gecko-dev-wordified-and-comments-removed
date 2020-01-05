@@ -79,9 +79,6 @@ h
 namespace
 mozilla
 {
-class
-NeckoOriginAttributes
-;
 namespace
 psm
 {
@@ -90,12 +87,6 @@ SharedSSLState
 ;
 }
 }
-using
-mozilla
-:
-:
-NeckoOriginAttributes
-;
 class
 nsIObserver
 ;
@@ -899,9 +890,9 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+nsACString
 &
-originAttributes
+firstPartyDomain
 PRFileDesc
 *
 *
@@ -931,9 +922,9 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+nsACString
 &
-originAttributes
+firstPartyDomain
 PRFileDesc
 *
 fd

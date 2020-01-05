@@ -1675,9 +1675,9 @@ SECItem
 *
 sctsFromTLSSECItem
 const
-NeckoOriginAttributes
-&
-originAttributes
+char
+*
+firstPartyDomain
 SECOidTag
 *
 evOidPolicy
@@ -2092,7 +2092,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -2335,7 +2335,7 @@ sha1ModeConfigurations
 i
 ]
 mNetscapeStepUpPolicy
-originAttributes
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -2687,7 +2687,7 @@ sha1ModeConfigurations
 j
 ]
 mNetscapeStepUpPolicy
-originAttributes
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -2929,7 +2929,7 @@ SHA1Mode
 :
 Allowed
 mNetscapeStepUpPolicy
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -2991,7 +2991,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3091,7 +3091,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3191,7 +3191,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3331,7 +3331,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3388,7 +3388,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3445,7 +3445,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3534,9 +3534,9 @@ saveIntermediatesInPermanentDatabase
 Flags
 flags
 const
-NeckoOriginAttributes
-&
-originAttributes
+char
+*
+firstPartyDomain
 SECOidTag
 *
 evOidPolicy
@@ -3624,7 +3624,7 @@ builtChain
 flags
 stapledOCSPResponse
 sctsFromTLS
-originAttributes
+firstPartyDomain
 evOidPolicy
 ocspStaplingStatus
 keySizeStatus
