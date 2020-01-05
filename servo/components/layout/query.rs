@@ -3217,9 +3217,9 @@ let
 layout_node
 =
 match
+*
 pseudo
 {
-&
 Some
 (
 PseudoElement
@@ -3234,7 +3234,6 @@ layout_node
 get_before_pseudo
 (
 )
-&
 Some
 (
 PseudoElement
@@ -3249,7 +3248,6 @@ layout_node
 get_after_pseudo
 (
 )
-&
 Some
 (
 PseudoElement
@@ -3264,7 +3262,6 @@ layout_node
 get_details_summary_pseudo
 (
 )
-&
 Some
 (
 PseudoElement
@@ -3279,6 +3276,16 @@ layout_node
 get_details_content_pseudo
 (
 )
+Some
+(
+PseudoElement
+:
+:
+Selection
+)
+=
+>
+None
 _
 =
 >

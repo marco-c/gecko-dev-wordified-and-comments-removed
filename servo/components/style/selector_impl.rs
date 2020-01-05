@@ -155,6 +155,7 @@ PseudoElement
 {
 Before
 After
+Selection
 DetailsSummary
 DetailsContent
 }
@@ -486,6 +487,12 @@ after
 >
 After
 "
+selection
+"
+=
+>
+Selection
+"
 -
 servo
 -
@@ -648,6 +655,14 @@ PseudoElement
 :
 :
 DetailsSummary
+)
+;
+fun
+(
+PseudoElement
+:
+:
+Selection
 )
 ;
 }

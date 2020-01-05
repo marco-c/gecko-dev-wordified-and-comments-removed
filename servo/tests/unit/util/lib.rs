@@ -8,7 +8,6 @@ feature
 (
 plugin
 custom_derive
-heap_api
 )
 )
 ]

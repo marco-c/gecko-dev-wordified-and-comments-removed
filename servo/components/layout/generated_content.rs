@@ -3509,6 +3509,11 @@ from_opaque_node_and_style
 node
 pseudo
 style
+.
+clone
+(
+)
+style
 RestyleDamage
 :
 :
