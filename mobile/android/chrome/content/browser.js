@@ -33959,7 +33959,7 @@ uri
 spec
 ;
 }
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
