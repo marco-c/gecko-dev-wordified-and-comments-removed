@@ -2978,6 +2978,9 @@ MOZ_ARTIFACT_BUILDS
 '
 MOZ_USING_CCACHE
 '
+'
+MOZ_USING_SCCACHE
+'
 ]
 :
                     
