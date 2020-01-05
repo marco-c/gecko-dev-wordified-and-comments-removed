@@ -120,6 +120,11 @@ rayon
 servo_rand
 "
 "
+servo
+-
+websocket
+"
+"
 tempdir
 "
 "
@@ -127,9 +132,6 @@ tempfile
 "
 "
 uuid
-"
-"
-websocket
 "
 "
 ws
