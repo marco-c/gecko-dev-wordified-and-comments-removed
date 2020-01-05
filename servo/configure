@@ -2188,7 +2188,7 @@ rust
 SNAPSHOT_URL
 =
 "
-http
+https
 :
 /
 /
