@@ -185,8 +185,6 @@ g
 +
 +
 cmake
-python
--
 virtualenv
 python
 -
@@ -267,6 +265,16 @@ issues
 for
 a
 workaround
+.
+If
+virtualenv
+does
+not
+exist
+try
+python
+-
+virtualenv
 .
 On
 Fedora
