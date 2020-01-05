@@ -421,7 +421,7 @@ script_task
 :
 {
 ScriptChan
-ScriptMsg
+MainThreadScriptMsg
 }
 ;
 use
@@ -2120,13 +2120,13 @@ r
 (
 )
 .
-script_chan
+main_thread_script_chan
 (
 )
 .
 send
 (
-ScriptMsg
+MainThreadScriptMsg
 :
 :
 Navigate

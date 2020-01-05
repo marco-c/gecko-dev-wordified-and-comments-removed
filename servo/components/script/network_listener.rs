@@ -4,8 +4,8 @@ script_task
 :
 {
 ScriptChan
-ScriptMsg
 Runnable
+CommonScriptMsg
 }
 ;
 use
@@ -107,7 +107,7 @@ script_chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg

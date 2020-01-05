@@ -198,10 +198,10 @@ script_task
 :
 :
 {
+CommonScriptMsg
 ScriptChan
 TimerSource
 ScriptPort
-ScriptMsg
 }
 ;
 use
@@ -1764,7 +1764,7 @@ process_event
 self
 msg
 :
-ScriptMsg
+CommonScriptMsg
 )
 ;
 fn
@@ -2086,7 +2086,7 @@ process_event
 self
 msg
 :
-ScriptMsg
+CommonScriptMsg
 )
 {
 let

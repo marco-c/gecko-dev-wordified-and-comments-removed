@@ -342,8 +342,8 @@ script_task
 :
 :
 {
-ScriptMsg
 Runnable
+CommonScriptMsg
 }
 ;
 use
@@ -2858,7 +2858,7 @@ chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg

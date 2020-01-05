@@ -278,9 +278,9 @@ script_task
 :
 {
 ScriptChan
-ScriptMsg
 Runnable
 ScriptPort
+CommonScriptMsg
 }
 ;
 use
@@ -2879,7 +2879,7 @@ chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
@@ -2919,7 +2919,7 @@ chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
@@ -2977,7 +2977,7 @@ chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
@@ -3014,7 +3014,7 @@ chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
