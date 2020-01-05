@@ -306,7 +306,6 @@ dialog
 -
 loaded
 "
-false
 )
 ;
 registerCleanupFunction

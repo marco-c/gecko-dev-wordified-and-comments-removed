@@ -416,7 +416,6 @@ addObserver
 (
 PREF_BRANCH_LOG
 this
-false
 )
 ;
 let
@@ -539,7 +538,6 @@ windows
 -
 restored
 "
-false
 )
 ;
 }

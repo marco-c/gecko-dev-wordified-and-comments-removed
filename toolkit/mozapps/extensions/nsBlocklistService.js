@@ -1536,7 +1536,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 Services
@@ -1553,7 +1552,6 @@ windows
 -
 restored
 "
-false
 )
 ;
 gLoggingEnabled
@@ -1606,7 +1604,6 @@ blocklist
 .
 "
 this
-false
 )
 ;
 gPref
@@ -1615,7 +1612,6 @@ addObserver
 (
 PREF_EM_LOGGING_ENABLED
 this
-false
 )
 ;
 this
@@ -7392,7 +7388,6 @@ blocklist
 -
 closed
 "
-false
 )
 ;
 if

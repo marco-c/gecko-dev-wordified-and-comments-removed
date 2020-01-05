@@ -416,7 +416,6 @@ aData
 ;
 }
 aTopic
-false
 )
 ;
 return

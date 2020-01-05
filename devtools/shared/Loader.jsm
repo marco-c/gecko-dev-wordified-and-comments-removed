@@ -511,7 +511,6 @@ devtools
 -
 unload
 "
-false
 )
 ;
 }

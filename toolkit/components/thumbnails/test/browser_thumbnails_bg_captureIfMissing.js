@@ -54,7 +54,6 @@ thumbnail
 :
 create
 "
-false
 )
 ;
 let

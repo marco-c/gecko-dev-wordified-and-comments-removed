@@ -159,7 +159,6 @@ subject
 "
 domwindowopened
 "
-false
 )
 ;
 }

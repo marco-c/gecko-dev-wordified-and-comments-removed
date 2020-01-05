@@ -355,7 +355,6 @@ addObserver
 (
 HOMEPAGE_PREF
 observer
-false
 )
 ;
 }

@@ -752,7 +752,6 @@ onMessage
 "
 mozFxAccountsChromeEvent
 "
-false
 )
 ;
 SystemAppProxy

@@ -1444,7 +1444,6 @@ addObserver
 (
 PREF_PREFETCHING_ENABLED
 this
-false
 )
 ;
 Services
@@ -1459,7 +1458,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

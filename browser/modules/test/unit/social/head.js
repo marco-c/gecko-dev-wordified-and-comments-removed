@@ -423,7 +423,6 @@ addObserver
 (
 observer
 obsTopic
-false
 )
 ;
 }

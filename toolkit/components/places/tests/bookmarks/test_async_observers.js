@@ -333,7 +333,6 @@ bookmarks
 addObserver
 (
 observer
-false
 )
 ;
 add_task
@@ -758,7 +757,6 @@ close
 -
 connection
 "
-false
 )
 ;
 shutdownPlaces

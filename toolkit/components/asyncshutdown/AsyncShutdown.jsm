@@ -324,7 +324,6 @@ PREF_DELAY_CRASH_MS
 )
 ;
 }
-false
 )
 ;
 function
@@ -773,7 +772,6 @@ PREF_DEBUG_LOG
 )
 ;
 }
-false
 )
 ;
 function
@@ -1575,7 +1573,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

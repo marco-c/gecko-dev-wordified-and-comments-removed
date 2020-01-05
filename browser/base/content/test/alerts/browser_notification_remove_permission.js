@@ -316,7 +316,6 @@ perm
 -
 changed
 "
-false
 )
 ;
 alertWindow

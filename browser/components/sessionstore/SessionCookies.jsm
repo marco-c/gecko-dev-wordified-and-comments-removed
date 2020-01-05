@@ -453,7 +453,6 @@ cookie
 -
 changed
 "
-false
 )
 ;
 Services
@@ -481,7 +480,6 @@ _reloadCookies
 )
 ;
 }
-false
 )
 ;
 }

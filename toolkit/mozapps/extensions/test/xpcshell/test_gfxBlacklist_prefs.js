@@ -585,7 +585,6 @@ data
 -
 gfxItems
 "
-false
 )
 ;
 load_blocklist
@@ -747,7 +746,6 @@ data
 -
 gfxItems
 "
-false
 )
 ;
 load_blocklist

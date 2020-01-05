@@ -774,7 +774,6 @@ addObserver
 (
 FLYWEB_ENABLED_PREF
 prefObserver
-false
 )
 ;
 let

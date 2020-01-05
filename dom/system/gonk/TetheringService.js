@@ -821,7 +821,6 @@ addObserver
 (
 this
 TOPIC_XPCOM_SHUTDOWN
-false
 )
 ;
 Services
@@ -832,7 +831,6 @@ addObserver
 (
 this
 TOPIC_MOZSETTINGS_CHANGED
-false
 )
 ;
 Services
@@ -843,7 +841,6 @@ addObserver
 (
 this
 TOPIC_CONNECTION_STATE_CHANGED
-false
 )
 ;
 Services
@@ -854,7 +851,6 @@ addObserver
 (
 PREF_NETWORK_DEBUG_ENABLED
 this
-false
 )
 ;
 Services
@@ -865,7 +861,6 @@ addObserver
 (
 PREF_MANAGE_OFFLINE_STATUS
 this
-false
 )
 ;
 try

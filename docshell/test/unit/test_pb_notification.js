@@ -164,7 +164,6 @@ context
 -
 exited
 "
-false
 )
 ;
 destroy_transient_docshell

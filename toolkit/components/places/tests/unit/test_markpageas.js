@@ -178,7 +178,6 @@ history
 addObserver
 (
 observer
-false
 )
 ;
 for

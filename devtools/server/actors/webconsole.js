@@ -726,7 +726,6 @@ context
 -
 exited
 "
-false
 )
 ;
 }
@@ -933,7 +932,6 @@ onChromeWindowOpened
 "
 domwindowopened
 "
-false
 )
 ;
 }

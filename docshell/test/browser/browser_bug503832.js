@@ -290,7 +290,6 @@ historyService
 addObserver
 (
 historyObserver
-false
 )
 ;
 }

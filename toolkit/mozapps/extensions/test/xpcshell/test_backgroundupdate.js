@@ -235,7 +235,6 @@ update
 -
 complete
 "
-false
 )
 ;
 gInternalManager
@@ -627,7 +626,6 @@ update
 -
 complete
 "
-false
 )
 ;
 AddonManager

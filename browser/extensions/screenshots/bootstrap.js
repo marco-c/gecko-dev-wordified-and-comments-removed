@@ -249,7 +249,6 @@ addObserver
 (
 PREF_BRANCH
 this
-false
 )
 ;
 }
@@ -326,7 +325,6 @@ windows
 -
 restored
 "
-false
 )
 ;
 }

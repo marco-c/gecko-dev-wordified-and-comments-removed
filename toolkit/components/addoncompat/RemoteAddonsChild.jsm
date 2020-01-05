@@ -2444,7 +2444,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

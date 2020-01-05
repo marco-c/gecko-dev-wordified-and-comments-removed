@@ -536,7 +536,6 @@ addObserver
 enabled
 "
 prefObserver
-false
 )
 ;
 }

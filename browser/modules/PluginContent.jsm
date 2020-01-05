@@ -472,7 +472,6 @@ doctor
 -
 notification
 "
-false
 )
 ;
 }

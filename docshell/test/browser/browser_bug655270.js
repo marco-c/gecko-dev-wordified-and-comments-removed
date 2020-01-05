@@ -267,7 +267,6 @@ history
 addObserver
 (
 observer
-false
 )
 ;
 }

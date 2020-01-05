@@ -193,7 +193,6 @@ update
 -
 complete
 "
-false
 )
 ;
 AddonManagerPrivate

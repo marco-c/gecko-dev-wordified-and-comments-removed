@@ -278,7 +278,6 @@ storage
 -
 ready
 "
-false
 )
 ;
 do_test_pending

@@ -416,7 +416,6 @@ console
 -
 destroyed
 "
-false
 )
 ;
 waitForFocus

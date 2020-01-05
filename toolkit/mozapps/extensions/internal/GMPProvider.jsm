@@ -3372,7 +3372,6 @@ GMPPrefs
 .
 KEY_LOG_BASE
 configureLogging
-false
 )
 ;
 for

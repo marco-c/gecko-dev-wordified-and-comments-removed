@@ -826,7 +826,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 }

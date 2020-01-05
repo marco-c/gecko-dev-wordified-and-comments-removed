@@ -528,7 +528,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 Services

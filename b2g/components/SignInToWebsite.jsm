@@ -410,7 +410,6 @@ process
 -
 shutdown
 "
-false
 )
 ;
 Services
@@ -427,7 +426,6 @@ controller
 -
 unwatch
 "
-false
 )
 ;
 }
@@ -1400,7 +1398,6 @@ controller
 -
 watch
 "
-false
 )
 ;
 Services
@@ -1417,7 +1414,6 @@ controller
 -
 request
 "
-false
 )
 ;
 Services
@@ -1434,7 +1430,6 @@ controller
 -
 logout
 "
-false
 )
 ;
 }

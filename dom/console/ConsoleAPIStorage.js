@@ -325,7 +325,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 Services
@@ -342,7 +341,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 Services
@@ -357,7 +355,6 @@ memory
 -
 pressure
 "
-false
 )
 ;
 }

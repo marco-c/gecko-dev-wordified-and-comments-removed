@@ -303,7 +303,6 @@ addObserver
 (
 countingObserver
 TOPIC
-false
 )
 ;
 let

@@ -112,7 +112,6 @@ this
 pushService
 .
 pushTopic
-false
 )
 ;
 Services
@@ -125,7 +124,6 @@ this
 pushService
 .
 subscriptionChangeTopic
-false
 )
 ;
 Services
@@ -138,7 +136,6 @@ this
 pushService
 .
 subscriptionModifiedTopic
-false
 )
 ;
 }

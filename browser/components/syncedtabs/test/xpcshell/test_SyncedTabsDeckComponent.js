@@ -684,7 +684,6 @@ resolve
 SyncedTabs
 .
 TOPIC_TABS_CHANGED
-false
 )
 ;
 }

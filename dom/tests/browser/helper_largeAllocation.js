@@ -139,7 +139,6 @@ addObserver
 (
 observer
 topic
-false
 )
 ;
 kill
@@ -260,7 +259,6 @@ addObserver
 (
 observer
 topic
-false
 )
 ;
 return

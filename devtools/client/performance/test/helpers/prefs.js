@@ -451,7 +451,6 @@ addObserver
 (
 branch
 onObserve
-false
 )
 ;
 return

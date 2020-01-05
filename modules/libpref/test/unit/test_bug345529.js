@@ -119,7 +119,6 @@ addObserver
 (
 PREF_NAME
 observer
-false
 )
 ;
 prefs

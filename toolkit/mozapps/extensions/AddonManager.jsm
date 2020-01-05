@@ -1140,7 +1140,6 @@ addObserver
 (
 PREF_LOGGING_ENABLED
 this
-false
 )
 ;
 Services
@@ -1155,7 +1154,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 this
@@ -3670,7 +3668,6 @@ addObserver
 (
 PREF_EM_CHECK_COMPATIBILITY
 this
-false
 )
 ;
 gStrictCompatibility
@@ -3693,7 +3690,6 @@ addObserver
 (
 PREF_EM_STRICT_COMPATIBILITY
 this
-false
 )
 ;
 let
@@ -3739,7 +3735,6 @@ addObserver
 (
 PREF_EM_CHECK_UPDATE_SECURITY
 this
-false
 )
 ;
 gUpdateEnabled
@@ -3762,7 +3757,6 @@ addObserver
 (
 PREF_EM_UPDATE_ENABLED
 this
-false
 )
 ;
 gAutoUpdateDefault
@@ -3785,7 +3779,6 @@ addObserver
 (
 PREF_EM_AUTOUPDATE_DEFAULT
 this
-false
 )
 ;
 gHotfixID
@@ -3808,7 +3801,6 @@ addObserver
 (
 PREF_EM_HOTFIX_ID
 this
-false
 )
 ;
 gWebExtensionsMinPlatformVersion
@@ -3831,7 +3823,6 @@ addObserver
 (
 PREF_MIN_WEBEXT_PLATFORM_VERSION
 this
-false
 )
 ;
 let

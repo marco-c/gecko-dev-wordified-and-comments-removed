@@ -663,7 +663,6 @@ bookmarks
 addObserver
 (
 bmObserver
-false
 )
 ;
 const

@@ -409,7 +409,6 @@ before
 -
 change
 "
-false
 )
 ;
 this
@@ -424,7 +423,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 this
@@ -441,7 +439,6 @@ do
 -
 change
 "
-false
 )
 ;
 this
@@ -458,7 +455,6 @@ rdf
 -
 replace
 "
-false
 )
 ;
 }

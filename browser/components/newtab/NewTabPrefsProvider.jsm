@@ -555,7 +555,6 @@ addObserver
 (
 pref
 this
-false
 )
 ;
 }

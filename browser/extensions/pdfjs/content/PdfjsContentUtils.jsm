@@ -172,7 +172,6 @@ quit
 -
 application
 "
-false
 )
 ;
 }

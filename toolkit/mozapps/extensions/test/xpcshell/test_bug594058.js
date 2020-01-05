@@ -215,7 +215,6 @@ startupcache
 -
 invalidate
 "
-false
 )
 ;
 createAppInfo

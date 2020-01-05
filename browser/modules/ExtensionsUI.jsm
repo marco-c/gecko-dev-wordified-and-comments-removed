@@ -306,7 +306,6 @@ permission
 -
 prompt
 "
-false
 )
 ;
 Services
@@ -323,7 +322,6 @@ update
 -
 permissions
 "
-false
 )
 ;
 Services
@@ -340,7 +338,6 @@ install
 -
 notify
 "
-false
 )
 ;
 Services
@@ -359,7 +356,6 @@ permission
 -
 prompt
 "
-false
 )
 ;
 this

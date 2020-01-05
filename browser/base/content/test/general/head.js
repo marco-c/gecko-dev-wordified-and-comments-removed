@@ -393,7 +393,6 @@ startup
 -
 finished
 "
-false
 )
 ;
 }
@@ -1168,7 +1167,6 @@ blocklist
 -
 updated
 "
-false
 )
 ;
 blocklistNotifier
@@ -1354,7 +1352,6 @@ resolve
 "
 domwindowclosed
 "
-false
 )
 ;
 }
@@ -1476,7 +1473,6 @@ startup
 -
 finished
 "
-false
 )
 ;
 }
@@ -2675,7 +2671,6 @@ location
 -
 change
 "
-false
 )
 ;
 }
@@ -3669,7 +3664,6 @@ aData
 ;
 }
 aTopic
-false
 )
 ;
 }
@@ -3952,7 +3946,6 @@ bookmarks
 addObserver
 (
 bookmarksObserver
-false
 )
 ;
 }
@@ -4105,7 +4098,6 @@ ui
 -
 ready
 "
-false
 )
 ;
 }

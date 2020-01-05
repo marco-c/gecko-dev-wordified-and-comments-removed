@@ -119,7 +119,6 @@ addObserver
 (
 this
 TOPIC_PRESENTATION_RECEIVER_LAUNCH
-false
 )
 ;
 Services

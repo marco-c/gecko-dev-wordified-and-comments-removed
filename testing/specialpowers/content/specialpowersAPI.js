@@ -3725,7 +3725,6 @@ perm
 -
 changed
 "
-false
 )
 ;
 }
@@ -5357,7 +5356,6 @@ _applyPrefs
 )
 ;
 }
-false
 )
 ;
 for

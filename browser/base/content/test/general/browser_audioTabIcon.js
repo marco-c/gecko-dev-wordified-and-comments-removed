@@ -2298,7 +2298,6 @@ activity
 -
 normal
 "
-false
 )
 ;
 setTimeout

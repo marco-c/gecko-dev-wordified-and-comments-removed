@@ -432,7 +432,6 @@ link
 -
 visited
 "
-false
 )
 ;
 let

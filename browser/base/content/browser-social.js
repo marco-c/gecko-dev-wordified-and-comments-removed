@@ -208,7 +208,6 @@ providers
 -
 changed
 "
-false
 )
 ;
 CustomizableUI

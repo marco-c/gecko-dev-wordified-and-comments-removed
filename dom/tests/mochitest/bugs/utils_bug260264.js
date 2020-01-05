@@ -309,7 +309,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 }

@@ -360,7 +360,6 @@ status
 -
 changed
 "
-false
 )
 ;
 ContentTask

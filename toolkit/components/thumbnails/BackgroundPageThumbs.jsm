@@ -625,7 +625,6 @@ thumbnail
 :
 create
 "
-false
 )
 ;
 Services
@@ -642,7 +641,6 @@ thumbnail
 :
 error
 "
-false
 )
 ;
 }
@@ -1620,7 +1618,6 @@ renewThumbnailBrowser
 ;
 }
 }
-false
 )
 ;
 Object

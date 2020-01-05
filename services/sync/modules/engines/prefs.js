@@ -1239,7 +1239,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 }

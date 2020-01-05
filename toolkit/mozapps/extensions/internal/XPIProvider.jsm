@@ -13418,7 +13418,6 @@ addObserver
 (
 PREF_EM_MIN_COMPAT_APP_VERSION
 this
-false
 )
 ;
 Services
@@ -13429,7 +13428,6 @@ addObserver
 (
 PREF_EM_MIN_COMPAT_PLATFORM_VERSION
 this
-false
 )
 ;
 Services
@@ -13440,7 +13438,6 @@ addObserver
 (
 PREF_E10S_ADDON_BLOCKLIST
 this
-false
 )
 ;
 Services
@@ -13451,7 +13448,6 @@ addObserver
 (
 PREF_E10S_ADDON_POLICY
 this
-false
 )
 ;
 if
@@ -13467,7 +13463,6 @@ addObserver
 (
 PREF_XPI_SIGNATURES_REQUIRED
 this
-false
 )
 ;
 Services
@@ -13478,7 +13473,6 @@ addObserver
 (
 this
 NOTIFICATION_FLUSH_PERMISSIONS
-false
 )
 ;
 if
@@ -13551,7 +13545,6 @@ addObserver
 (
 this
 NOTIFICATION_TOOLBOXPROCESS_LOADED
-false
 )
 ;
 }
@@ -14131,7 +14124,6 @@ application
 -
 granted
 "
-false
 )
 ;
 Services
@@ -14188,7 +14180,6 @@ ui
 -
 startup
 "
-false
 )
 ;
 AddonManagerPrivate
@@ -29917,7 +29908,6 @@ go
 -
 offline
 "
-false
 )
 ;
 }

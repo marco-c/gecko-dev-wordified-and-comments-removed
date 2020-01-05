@@ -2321,7 +2321,6 @@ quit
 -
 application
 "
-false
 )
 ;
 if
@@ -2424,7 +2423,6 @@ attributes
 -
 data
 "
-false
 )
 ;
 Services
@@ -2443,7 +2441,6 @@ status
 -
 changed
 "
-false
 )
 ;
 prefs
@@ -2470,7 +2467,6 @@ idle
 -
 daily
 "
-false
 )
 ;
 Services
@@ -2485,7 +2481,6 @@ perm
 -
 changed
 "
-false
 )
 ;
 }

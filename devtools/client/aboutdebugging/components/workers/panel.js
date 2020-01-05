@@ -442,7 +442,6 @@ PROCESS_COUNT_PREF
 this
 .
 updateMultiE10S
-false
 )
 ;
 this

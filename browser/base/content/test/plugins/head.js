@@ -1228,7 +1228,6 @@ blocklist
 -
 updated
 "
-false
 )
 ;
 blocklistNotifier

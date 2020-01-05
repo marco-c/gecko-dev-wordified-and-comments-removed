@@ -309,7 +309,6 @@ addObserver
 (
 observer
 addedTopic
-false
 )
 ;
 observerService
@@ -318,7 +317,6 @@ addObserver
 (
 observer
 removedTopic
-false
 )
 ;
 var

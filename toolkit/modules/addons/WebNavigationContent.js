@@ -186,7 +186,6 @@ from
 -
 js
 "
-false
 )
 ;
 }
@@ -433,7 +432,6 @@ FormSubmitListener
 "
 earlyformsubmit
 "
-false
 )
 ;
 }

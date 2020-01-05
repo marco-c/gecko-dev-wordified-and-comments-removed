@@ -453,7 +453,6 @@ hs
 addObserver
 (
 historyObserver
-false
 )
 ;
 yield

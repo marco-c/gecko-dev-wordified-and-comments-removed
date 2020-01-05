@@ -339,7 +339,6 @@ this
 pushService
 .
 pushTopic
-false
 )
 ;
 Services
@@ -354,7 +353,6 @@ this
 pushService
 .
 subscriptionChangeTopic
-false
 )
 ;
 Services
@@ -365,7 +363,6 @@ addObserver
 (
 this
 ONLOGOUT_NOTIFICATION
-false
 )
 ;
 this

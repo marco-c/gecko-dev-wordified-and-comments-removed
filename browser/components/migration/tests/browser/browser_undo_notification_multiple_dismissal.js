@@ -425,7 +425,6 @@ bookmarks
 addObserver
 (
 bmObserver
-false
 )
 ;
 registerCleanupFunction
@@ -715,7 +714,6 @@ addObserver
 (
 kObservedPref
 obs
-false
 )
 ;
 }

@@ -959,7 +959,6 @@ window
 -
 ready
 "
-false
 )
 ;
 observerService
@@ -974,7 +973,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 observerService
@@ -987,7 +985,6 @@ private
 -
 browsing
 "
-false
 )
 ;
 handleAttachEventListeners

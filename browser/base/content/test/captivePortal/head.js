@@ -860,7 +860,6 @@ window
 -
 visible
 "
-false
 )
 ;
 }

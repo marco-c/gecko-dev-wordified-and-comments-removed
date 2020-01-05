@@ -185,7 +185,6 @@ console
 -
 created
 "
-false
 )
 ;
 let

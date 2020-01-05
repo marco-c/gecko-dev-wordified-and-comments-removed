@@ -3942,7 +3942,6 @@ manager
 -
 close
 "
-false
 )
 ;
 window

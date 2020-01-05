@@ -1192,7 +1192,6 @@ storage
 -
 cache
 "
-false
 )
 ;
 Services
@@ -1207,7 +1206,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

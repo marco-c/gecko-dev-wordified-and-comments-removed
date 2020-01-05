@@ -159,7 +159,6 @@ install
 -
 started
 "
-false
 )
 ;
 let

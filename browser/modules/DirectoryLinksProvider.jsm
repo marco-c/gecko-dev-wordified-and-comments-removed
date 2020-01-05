@@ -1112,7 +1112,6 @@ addObserver
 (
 prefName
 this
-false
 )
 ;
 }

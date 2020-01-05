@@ -199,7 +199,6 @@ log
 -
 event
 "
-false
 )
 ;
 Services
@@ -214,7 +213,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 cpmm

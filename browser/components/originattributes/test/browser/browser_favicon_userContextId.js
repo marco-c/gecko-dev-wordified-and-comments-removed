@@ -394,7 +394,6 @@ favicons
 -
 expired
 "
-false
 )
 ;
 faviconService
@@ -838,7 +837,6 @@ history
 addObserver
 (
 observer
-false
 )
 ;
 }
@@ -1055,7 +1053,6 @@ modify
 -
 request
 "
-false
 )
 ;
 let

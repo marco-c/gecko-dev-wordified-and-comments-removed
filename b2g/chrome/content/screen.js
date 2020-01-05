@@ -1134,7 +1134,6 @@ window
 -
 size
 '
-false
 )
 ;
 let

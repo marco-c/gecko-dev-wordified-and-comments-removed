@@ -1311,7 +1311,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 this

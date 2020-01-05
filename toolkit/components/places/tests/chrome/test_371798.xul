@@ -395,7 +395,6 @@ nsINavBookmarkObserver
 ]
 )
 }
-false
 )
 ;
 }

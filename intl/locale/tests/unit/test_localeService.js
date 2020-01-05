@@ -479,7 +479,6 @@ addObserver
 (
 observer
 REQ_LOC_CHANGE_EVENT
-false
 )
 ;
 Services
@@ -606,7 +605,6 @@ addObserver
 (
 observer
 REQ_LOC_CHANGE_EVENT
-false
 )
 ;
 Services

@@ -381,7 +381,6 @@ observeMessage
 PushServiceComponent
 .
 pushTopic
-false
 )
 ;
 let

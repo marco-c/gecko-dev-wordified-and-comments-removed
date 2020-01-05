@@ -278,7 +278,6 @@ smartcard
 -
 insert
 "
-false
 )
 ;
 Services
@@ -293,7 +292,6 @@ smartcard
 -
 remove
 "
-false
 )
 ;
 RefreshDeviceList

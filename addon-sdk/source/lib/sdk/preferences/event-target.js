@@ -260,7 +260,6 @@ addObserver
 '
 '
 observer
-false
 )
 ;
 unload

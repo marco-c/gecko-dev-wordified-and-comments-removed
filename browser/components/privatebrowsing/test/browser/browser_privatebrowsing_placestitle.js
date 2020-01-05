@@ -242,7 +242,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 let

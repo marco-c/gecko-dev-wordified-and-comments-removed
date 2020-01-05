@@ -507,7 +507,6 @@ device
 -
 events
 "
-false
 )
 ;
 geolocation

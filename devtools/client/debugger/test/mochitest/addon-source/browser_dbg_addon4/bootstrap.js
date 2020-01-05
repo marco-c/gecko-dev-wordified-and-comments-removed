@@ -151,7 +151,6 @@ test
 -
 ping
 "
-false
 )
 ;
 }

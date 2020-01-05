@@ -382,7 +382,6 @@ quit
 -
 application
 "
-false
 )
 ;
 return

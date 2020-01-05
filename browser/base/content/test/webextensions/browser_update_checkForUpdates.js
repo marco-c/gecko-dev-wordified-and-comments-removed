@@ -75,7 +75,6 @@ check
 -
 finished
 "
-false
 )
 ;
 }

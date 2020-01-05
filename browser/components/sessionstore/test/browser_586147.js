@@ -44,7 +44,6 @@ callback
 ;
 }
 topic
-false
 )
 ;
 }

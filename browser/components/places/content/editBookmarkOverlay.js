@@ -1429,7 +1429,6 @@ bookmarks
 addObserver
 (
 this
-false
 )
 ;
 window

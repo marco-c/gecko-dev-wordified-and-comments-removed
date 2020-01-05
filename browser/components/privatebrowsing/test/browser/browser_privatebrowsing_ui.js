@@ -284,7 +284,6 @@ true
 "
 domwindowopened
 "
-false
 )
 ;
 cmd
