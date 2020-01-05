@@ -470,13 +470,6 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
-adapter
-.
-open
-(
-)
-;
 let
 newRecord
 =
@@ -1318,13 +1311,6 @@ adapter
 do_get_kinto_adapter
 (
 sqliteHandle
-)
-;
-yield
-adapter
-.
-open
-(
 )
 ;
 yield
