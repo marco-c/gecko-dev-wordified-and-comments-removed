@@ -496,9 +496,6 @@ cpp
 check
 :
 :
-PYTHONDONTWRITEBYTECODE
-=
-1
 (
 PYTHON
 )
@@ -531,9 +528,6 @@ check
 -
 interactive
 :
-PYTHONDONTWRITEBYTECODE
-=
-1
 (
 PYTHON
 )

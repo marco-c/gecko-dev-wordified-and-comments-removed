@@ -559,9 +559,6 @@ CSS2PropertiesProps
 h
 |
 \
-PYTHONDONTWRITEBYTECODE
-=
-1
 (
 PYTHON
 )
@@ -656,9 +653,6 @@ webidl
 (
 NULL
 )
-PYTHONDONTWRITEBYTECODE
-=
-1
 (
 PYTHON
 )
@@ -725,9 +719,6 @@ webidl
 (
 NULL
 )
-PYTHONDONTWRITEBYTECODE
-=
-1
 (
 PYTHON
 )
@@ -853,9 +844,6 @@ globalgen_dependencies
 (
 all_webidl_files
 )
-PYTHONDONTWRITEBYTECODE
-=
-1
 (
 PYTHON
 )
