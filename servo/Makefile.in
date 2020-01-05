@@ -620,8 +620,9 @@ CFLAGS_
 1
 )
 =
--
-O2
+(
+CFLAGS
+)
 #
 any
 "
