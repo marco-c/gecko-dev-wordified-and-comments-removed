@@ -379,6 +379,11 @@ std
 string
 &
 extensionName
+SdpDirectionAttribute
+:
+:
+Direction
+direction
 )
 =
 0
@@ -394,6 +399,11 @@ std
 string
 &
 extensionName
+SdpDirectionAttribute
+:
+:
+Direction
+direction
 )
 =
 0
