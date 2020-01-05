@@ -294,12 +294,6 @@ upright
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ruby
@@ -326,12 +320,6 @@ upright
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ruby
