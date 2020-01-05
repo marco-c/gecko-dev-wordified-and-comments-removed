@@ -336,6 +336,13 @@ test
 js
 '
 '
+cc
+-
+analyzer
+.
+js
+'
+'
 chrome
 -
 harness
