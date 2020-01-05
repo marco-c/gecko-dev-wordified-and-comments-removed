@@ -394,6 +394,12 @@ CloseStickyConnection
 override
 ;
 NS_IMETHOD
+ForceNoSpdy
+(
+)
+override
+;
+NS_IMETHOD
 GetLoadFlags
 (
 nsLoadFlags
