@@ -1677,6 +1677,11 @@ disable
 text
 -
 aa
+disable
+-
+canvas
+-
+aa
 "
 )
 .
