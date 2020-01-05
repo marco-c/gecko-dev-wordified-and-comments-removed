@@ -4,7 +4,6 @@
 feature
 (
 start
-core_intrinsics
 )
 ]
 #
@@ -264,7 +263,7 @@ use
 std
 :
 :
-intrinsics
+process
 :
 :
 abort
@@ -353,13 +352,10 @@ new
 )
 )
 ;
-unsafe
-{
 abort
 (
 )
 ;
-}
 }
 signal
 !
