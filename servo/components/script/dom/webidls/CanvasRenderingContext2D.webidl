@@ -1210,6 +1210,9 @@ double
 h
 )
 ;
+[
+Throws
+]
 void
 arc
 (
