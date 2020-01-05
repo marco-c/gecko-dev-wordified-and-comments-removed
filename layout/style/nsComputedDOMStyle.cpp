@@ -11160,7 +11160,7 @@ mImage
 nsCSSProps
 :
 :
-kImageLayerOriginKTable
+kBackgroundOriginKTable
 )
 ;
 }
@@ -30725,7 +30725,7 @@ mMask
 nsCSSProps
 :
 :
-kImageLayerOriginKTable
+kMaskClipKTable
 )
 ;
 }
@@ -30875,7 +30875,7 @@ mMask
 nsCSSProps
 :
 :
-kImageLayerOriginKTable
+kMaskOriginKTable
 )
 ;
 }

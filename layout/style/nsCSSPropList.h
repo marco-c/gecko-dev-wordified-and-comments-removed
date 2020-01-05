@@ -1836,7 +1836,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_KEYWORD
-kImageLayerOriginKTable
+kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
@@ -5881,7 +5881,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_KEYWORD
-kImageLayerOriginKTable
+kMaskClipKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
@@ -5953,7 +5953,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_KEYWORD
-kImageLayerOriginKTable
+kMaskOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
