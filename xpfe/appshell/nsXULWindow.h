@@ -736,12 +736,6 @@ mTitle
 nsIntRect
 mOpenerScreenRect
 ;
-nsCOMArray
-<
-nsIWeakReference
->
-mTargetableShells
-;
 nsCOMPtr
 <
 nsITabParent
