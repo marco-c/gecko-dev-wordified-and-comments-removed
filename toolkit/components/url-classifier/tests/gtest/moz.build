@@ -112,6 +112,11 @@ TestChunkSet
 cpp
 '
 '
+TestClassifier
+.
+cpp
+'
+'
 TestFailUpdate
 .
 cpp

@@ -130,6 +130,17 @@ aPrefixMap
 )
 ;
 nsresult
+GetFixedLengthPrefixes
+(
+FallibleTArray
+<
+uint32_t
+>
+&
+aPrefixes
+)
+;
+nsresult
 ApplyUpdate
 (
 TableUpdateV4
