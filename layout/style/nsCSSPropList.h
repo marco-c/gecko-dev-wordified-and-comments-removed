@@ -1598,6 +1598,8 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 VARIANT_NONE
 |
 VARIANT_IDENTIFIER_NO_INHERIT
+|
+VARIANT_STRING
 nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6896,7 +6898,7 @@ offsetof
 nsStyleOutline
 mOutlineWidth
 )
-eStyleAnimType_nscoord
+eStyleAnimType_Coord
 )
 CSS_PROP_SHORTHAND
 (
