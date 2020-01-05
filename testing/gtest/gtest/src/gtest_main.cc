@@ -1,7 +1,9 @@
 #
 include
 <
-iostream
+stdio
+.
+h
 >
 #
 include
@@ -24,12 +26,8 @@ char
 argv
 )
 {
-std
-:
-:
-cout
-<
-<
+printf
+(
 "
 Running
 main
@@ -42,6 +40,7 @@ cc
 \
 n
 "
+)
 ;
 testing
 :

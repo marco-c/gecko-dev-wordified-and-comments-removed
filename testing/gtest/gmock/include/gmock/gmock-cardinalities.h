@@ -117,6 +117,7 @@ const
 }
 ;
 class
+GTEST_API_
 Cardinality
 {
 public
@@ -288,6 +289,7 @@ impl_
 ;
 }
 ;
+GTEST_API_
 Cardinality
 AtLeast
 (
@@ -295,6 +297,7 @@ int
 n
 )
 ;
+GTEST_API_
 Cardinality
 AtMost
 (
@@ -302,11 +305,13 @@ int
 n
 )
 ;
+GTEST_API_
 Cardinality
 AnyNumber
 (
 )
 ;
+GTEST_API_
 Cardinality
 Between
 (
@@ -316,6 +321,7 @@ int
 max
 )
 ;
+GTEST_API_
 Cardinality
 Exactly
 (

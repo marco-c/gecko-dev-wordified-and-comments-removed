@@ -651,6 +651,7 @@ called
 ;
 }
 }
+GTEST_API_
 Cardinality
 AtLeast
 (
@@ -666,6 +667,7 @@ INT_MAX
 )
 ;
 }
+GTEST_API_
 Cardinality
 AtMost
 (
@@ -681,6 +683,7 @@ n
 )
 ;
 }
+GTEST_API_
 Cardinality
 AnyNumber
 (
@@ -693,6 +696,7 @@ AtLeast
 )
 ;
 }
+GTEST_API_
 Cardinality
 Between
 (
@@ -714,6 +718,7 @@ max
 )
 ;
 }
+GTEST_API_
 Cardinality
 Exactly
 (

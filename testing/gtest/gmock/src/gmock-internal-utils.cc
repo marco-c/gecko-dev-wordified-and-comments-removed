@@ -67,6 +67,7 @@ testing
 namespace
 internal
 {
+GTEST_API_
 string
 ConvertIdentifierNameToWords
 (
@@ -229,7 +230,7 @@ AssertHelper
 type
 =
 =
-FATAL
+kFatal
 ?
 TestPartResult
 :
@@ -258,7 +259,7 @@ if
 type
 =
 =
-FATAL
+kFatal
 )
 {
 posix
@@ -272,6 +273,7 @@ Abort
 }
 }
 ;
+GTEST_API_
 FailureReporterInterface
 *
 GetFailureReporter
@@ -299,6 +301,7 @@ GTEST_DEFINE_STATIC_MUTEX_
 g_log_mutex
 )
 ;
+GTEST_API_
 bool
 LogIsVisible
 (
@@ -343,10 +346,11 @@ return
 severity
 =
 =
-WARNING
+kWarning
 ;
 }
 }
+GTEST_API_
 void
 Log
 (
@@ -382,7 +386,7 @@ if
 severity
 =
 =
-WARNING
+kWarning
 )
 {
 std
