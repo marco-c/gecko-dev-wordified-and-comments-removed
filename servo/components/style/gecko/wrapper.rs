@@ -1831,13 +1831,8 @@ parse_style_attribute
 (
 value
 base_url
-Box
-:
-:
-new
-(
+&
 StdoutErrorReporter
-)
 extra_data
 )
 }

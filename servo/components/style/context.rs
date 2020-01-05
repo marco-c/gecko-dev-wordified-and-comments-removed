@@ -66,12 +66,6 @@ parking_lot
 RwLock
 ;
 use
-properties
-:
-:
-ComputedValues
-;
-use
 selector_parser
 :
 :
@@ -293,8 +287,6 @@ error_reporter
 Box
 <
 ParseErrorReporter
-+
-Sync
 >
 pub
 local_context_creation_data
@@ -311,13 +303,6 @@ pub
 quirks_mode
 :
 QuirksMode
-pub
-default_computed_values
-:
-Arc
-<
-ComputedValues
->
 }
 impl
 SharedStyleContext

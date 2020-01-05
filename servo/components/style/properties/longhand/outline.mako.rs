@@ -76,12 +76,10 @@ color
 CSSColor
 "
 "
+computed
 :
 :
-cssparser
-:
-:
-Color
+CSSColor
 :
 :
 CurrentColor

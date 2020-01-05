@@ -108,12 +108,10 @@ data
 testing
 :
 use
-cssparser
+values
 :
 :
-Color
-as
-CSSParserColor
+specified
 ;
 use
 properties
@@ -484,7 +482,10 @@ text_decoration_color
 parsed
 !
 =
-CSSParserColor
+specified
+:
+:
+Color
 :
 :
 CurrentColor

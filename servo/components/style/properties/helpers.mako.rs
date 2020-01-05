@@ -1719,13 +1719,7 @@ CascadeInfo
 error_reporter
 :
 &
-mut
-StdBox
-<
 ParseErrorReporter
-+
-Send
->
 )
 {
 let

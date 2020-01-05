@@ -232,6 +232,11 @@ new_for_cssom
 (
 &
 url
+win
+.
+css_error_reporter
+(
+)
 )
 ;
 decl
@@ -313,6 +318,11 @@ new_for_cssom
 (
 &
 url
+win
+.
+css_error_reporter
+(
+)
 )
 ;
 cond

@@ -772,13 +772,7 @@ Self
 let
 error_reporter
 =
-Box
-:
-:
-new
-(
 MemoryHoleReporter
-)
 ;
 let
 context
@@ -795,6 +789,7 @@ origin
 parent_stylesheet
 .
 base_url
+&
 error_reporter
 extra_data
 )

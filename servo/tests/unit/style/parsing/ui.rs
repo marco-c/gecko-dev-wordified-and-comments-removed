@@ -240,6 +240,11 @@ unwrap
 )
 ;
 let
+reporter
+=
+CSSErrorReporterTest
+;
+let
 context
 =
 ParserContext
@@ -253,13 +258,8 @@ Origin
 Author
 &
 url
-Box
-:
-:
-new
-(
-CSSErrorReporterTest
-)
+&
+reporter
 )
 ;
 let
