@@ -178,11 +178,12 @@ fileName
 ;
 MockFilePicker
 .
-returnFiles
-=
+setFiles
+(
 [
 destFile
 ]
+)
 ;
 MockFilePicker
 .
