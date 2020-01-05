@@ -1956,11 +1956,6 @@ mCompositableCount
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-TextureSource
-)
-;
 }
 TextureSource
 :
@@ -1970,11 +1965,6 @@ TextureSource
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-TextureSource
-)
-;
 }
 const
 char
