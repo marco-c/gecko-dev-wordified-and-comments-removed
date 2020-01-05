@@ -7259,6 +7259,19 @@ wipeServer
 engines
 )
 ;
+let
+extra
+=
+{
+reason
+:
+"
+wipe
+-
+remote
+"
+}
+;
 if
 (
 engines
@@ -7285,6 +7298,8 @@ wipeEngine
 [
 e
 ]
+null
+extra
 )
 ;
 }
@@ -7305,6 +7320,8 @@ wipeAll
 "
 [
 ]
+null
+extra
 )
 ;
 }
