@@ -74,12 +74,6 @@ use
 net_traits
 :
 :
-ResourceTask
-;
-use
-net_traits
-:
-:
 image_cache_task
 :
 :
@@ -181,9 +175,6 @@ ScriptControlChan
 paint_chan
 :
 PaintChan
-resource_task
-:
-ResourceTask
 image_cache_task
 :
 ImageCacheTask

@@ -246,6 +246,10 @@ pub
 mod
 cors
 ;
+pub
+mod
+document_loader
+;
 #
 [
 macro_use
