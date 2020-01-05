@@ -174,32 +174,6 @@ not
 paths
 :
             
-print
-(
-"
-{
-}
-:
-no
-files
-to
-lint
-in
-specified
-paths
-"
-.
-format
-(
-linter
-[
-'
-name
-'
-]
-)
-)
-            
 return
         
 if

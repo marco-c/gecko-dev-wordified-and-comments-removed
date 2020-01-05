@@ -28,6 +28,9 @@ __call__
 (
 self
 results
+*
+*
+kwargs
 )
 :
         

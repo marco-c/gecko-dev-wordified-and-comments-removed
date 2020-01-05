@@ -100,6 +100,9 @@ __call__
 (
 self
 result
+*
+*
+kwargs
 )
 :
         

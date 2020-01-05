@@ -73,9 +73,10 @@ defaultdict
 list
 )
     
-return_code
+failed
 =
-0
+[
+]
     
 while
 True
@@ -102,7 +103,7 @@ IOError
             
 return
 results
-return_code
+failed
         
 linter
 =
@@ -153,9 +154,17 @@ if
 res
 :
                 
-return_code
-=
-1
+failed
+.
+append
+(
+linter
+[
+'
+name
+'
+]
+)
             
 continue
         
@@ -354,7 +363,7 @@ getcwd
         
 self
 .
-return_code
+failed
 =
 None
     
@@ -778,9 +787,10 @@ SIG_IGN
         
 self
 .
-return_code
+failed
 =
-0
+[
+]
         
 for
 worker
@@ -789,7 +799,7 @@ workers
 :
             
 results
-return_code
+failed
 =
 worker
 .
@@ -798,16 +808,17 @@ get
 )
             
 if
-results
-or
-return_code
+failed
 :
                 
 self
 .
-return_code
-=
-1
+failed
+.
+extend
+(
+failed
+)
             
 for
 k

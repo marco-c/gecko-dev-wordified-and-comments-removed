@@ -111,10 +111,11 @@ result
 assert
 lint
 .
-return_code
+failed
 =
 =
-1
+[
+]
     
 path
 =
@@ -322,10 +323,11 @@ result
 assert
 lint
 .
-return_code
+failed
 =
 =
-0
+[
+]
 def
 test_roll_with_invalid_extension
 (
@@ -387,10 +389,11 @@ result
 assert
 lint
 .
-return_code
+failed
 =
 =
-0
+[
+]
 def
 test_roll_with_failure_code
 (
@@ -422,7 +425,7 @@ lint
 assert
 lint
 .
-return_code
+failed
 is
 None
     
@@ -447,10 +450,14 @@ result
 assert
 lint
 .
-return_code
+failed
 =
 =
-1
+[
+'
+BadReturnCodeLinter
+'
+]
 if
 __name__
 =
