@@ -587,7 +587,7 @@ transformed_pixel_depth
 ;
 #
 if
-PNG_ZLIB_VERNUM
+ZLIB_VERNUM
 >
 =
 0x1240

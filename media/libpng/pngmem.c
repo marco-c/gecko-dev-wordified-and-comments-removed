@@ -243,6 +243,9 @@ element_size
 png_alloc_size_t
 req
 =
+(
+png_alloc_size_t
+)
 nelements
 ;
 if

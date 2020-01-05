@@ -1425,6 +1425,9 @@ ppm
 0
 )
 return
+(
+png_uint_32
+)
 result
 ;
 return

@@ -4306,6 +4306,9 @@ palette_size
 =
 entry_size
 *
+(
+png_size_t
+)
 spalette
 -
 >
@@ -7018,6 +7021,9 @@ png_ptr
 png_alloc_size_t
 )
 (
+(
+png_alloc_size_t
+)
 nparams
 *
 (
@@ -9704,6 +9710,7 @@ sum
 =
 0
 ;
+unsigned
 int
 v
 ;
@@ -9772,6 +9779,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -9862,6 +9872,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -10059,6 +10072,7 @@ sum
 =
 0
 ;
+unsigned
 int
 v
 ;
@@ -10156,6 +10170,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -10329,6 +10346,7 @@ sum
 =
 0
 ;
+unsigned
 int
 v
 ;
@@ -10427,6 +10445,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -10528,6 +10549,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -10772,6 +10796,7 @@ sum
 =
 0
 ;
+unsigned
 int
 v
 ;
@@ -10866,6 +10891,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -11098,6 +11126,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128
@@ -11589,6 +11620,7 @@ sum
 png_size_t
 i
 ;
+unsigned
 int
 v
 ;
@@ -11631,6 +11663,9 @@ sum
 -
 abs
 (
+(
+int
+)
 v
 -
 128

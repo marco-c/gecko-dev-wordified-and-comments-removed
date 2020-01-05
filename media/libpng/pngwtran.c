@@ -566,6 +566,7 @@ shift_dec
 4
 ]
 ;
+unsigned
 int
 channels
 =
