@@ -252,17 +252,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-ConstellationMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 {
 PipelineId
 SubpageId
