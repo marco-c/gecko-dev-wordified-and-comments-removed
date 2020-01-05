@@ -8212,7 +8212,7 @@ offsetof
 nsStyleText
 mTabSize
 )
-eStyleAnimType_Coord
+eStyleAnimType_Discrete
 )
 CSS_PROP_TABLE
 (
