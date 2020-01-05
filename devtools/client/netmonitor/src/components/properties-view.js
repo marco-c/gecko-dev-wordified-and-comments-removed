@@ -898,9 +898,6 @@ sectionNames
 }
 enableInput
 expandableStrings
-useQuotes
-:
-false
 expandedNodes
 :
 this
