@@ -179,7 +179,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -230,7 +230,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -280,7 +280,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -331,7 +331,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -381,7 +381,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -432,7 +432,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -483,7 +483,7 @@ newRawPtr
 {
 newRawPtr
 =
-0
+nullptr
 ;
 }
 assign_assuming_AddRef
@@ -511,7 +511,7 @@ begin_assignment
 {
 assign_assuming_AddRef
 (
-0
+nullptr
 )
 ;
 return
