@@ -21,7 +21,7 @@ utils
 :
 :
 {
-WrapperCache
+Reflector
 DOMString
 Traceable
 }
@@ -37,7 +37,7 @@ utils
 :
 :
 {
-CacheableWrapper
+Reflectable
 BindingObject
 null_str_as_empty
 }
@@ -302,9 +302,9 @@ ScriptChan
 compositor
 :
 ScriptListener
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 timer_chan
 :
 SharedChan
@@ -726,12 +726,12 @@ JSVAL_NULL
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 Window
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -741,7 +741,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -753,7 +753,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -816,7 +816,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 None
@@ -1178,9 +1178,9 @@ clone
 compositor
 :
 compositor
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -1302,7 +1302,7 @@ next_timer_handle
 unsafe
 {
 let
-cache
+reflector
 =
 ptr
 :
@@ -1311,7 +1311,7 @@ to_unsafe_ptr
 (
 win
 .
-get_wrappercache
+reflector
 (
 )
 )
@@ -1339,10 +1339,10 @@ global
 =
 (
 *
-cache
+reflector
 )
 .
-wrapper
+object
 ;
 do
 "
@@ -1519,9 +1519,9 @@ as
 JSTracer
 doc
 .
-wrapper
+reflector_
 .
-wrapper
+object
 JSTRACE_OBJECT
 as
 u32

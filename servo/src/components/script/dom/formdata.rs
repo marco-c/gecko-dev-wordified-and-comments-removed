@@ -9,7 +9,7 @@ utils
 :
 :
 {
-CacheableWrapper
+Reflectable
 BindingObject
 DerivedWrapper
 }
@@ -25,7 +25,7 @@ utils
 :
 :
 {
-WrapperCache
+Reflector
 DOMString
 null_str_as_empty
 }
@@ -126,9 +126,9 @@ HashMap
 str
 FormDatum
 >
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 }
 impl
 FormData
@@ -154,9 +154,9 @@ HashMap
 new
 (
 )
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -293,12 +293,12 @@ clone
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 FormData
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -308,7 +308,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -320,7 +320,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -383,7 +383,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 let
@@ -412,7 +412,7 @@ get_ref
 window
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }

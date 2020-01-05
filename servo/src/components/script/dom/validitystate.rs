@@ -9,9 +9,9 @@ utils
 :
 :
 {
-WrapperCache
+Reflector
 BindingObject
-CacheableWrapper
+Reflectable
 }
 ;
 use
@@ -48,9 +48,9 @@ pub
 struct
 ValidityState
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 state
 :
 u8
@@ -69,9 +69,9 @@ ValidityState
 {
 ValidityState
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -205,12 +205,12 @@ true
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 ValidityState
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -220,7 +220,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -232,7 +232,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -295,7 +295,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 None

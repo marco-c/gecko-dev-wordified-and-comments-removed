@@ -9,9 +9,9 @@ utils
 :
 :
 {
-WrapperCache
+Reflector
 BindingObject
-CacheableWrapper
+Reflectable
 }
 ;
 use
@@ -56,9 +56,9 @@ pub
 struct
 Blob
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 }
 impl
 Blob
@@ -76,9 +76,9 @@ Blob
 mut
 Blob
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -88,12 +88,12 @@ new
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 Blob
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -103,7 +103,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -115,7 +115,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -178,7 +178,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 let
@@ -207,7 +207,7 @@ get_ref
 window
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }

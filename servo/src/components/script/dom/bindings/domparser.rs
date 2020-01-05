@@ -21,8 +21,8 @@ utils
 :
 :
 {
-CacheableWrapper
-WrapperCache
+Reflectable
+Reflector
 }
 ;
 use
@@ -80,12 +80,12 @@ std
 cast
 ;
 impl
-CacheableWrapper
+Reflectable
 for
 DOMParser
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -95,7 +95,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -107,7 +107,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -170,7 +170,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 Some
@@ -180,7 +180,7 @@ self
 owner
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }
