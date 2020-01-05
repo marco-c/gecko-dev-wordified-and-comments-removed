@@ -85,6 +85,16 @@ extensions
 :
 true
 "
+getContainerForCookieStoreId
+"
+:
+true
+"
+getCookieStoreIdForContainer
+"
+:
+true
+"
 global
 "
 :
