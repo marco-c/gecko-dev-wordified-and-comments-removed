@@ -1169,8 +1169,6 @@ String
 keySystem
 Callbacks
 nativeCallbacks
-boolean
-isRemote
 )
 {
 MediaDrmProxy
@@ -1181,7 +1179,6 @@ MediaDrmProxy
 (
 keySystem
 nativeCallbacks
-isRemote
 )
 ;
 return
@@ -1194,8 +1191,6 @@ String
 keySystem
 Callbacks
 nativeCallbacks
-boolean
-isRemote
 )
 {
 if
@@ -1227,11 +1222,6 @@ toString
 (
 )
 ;
-if
-(
-isRemote
-)
-{
 IMediaDrmBridge
 remoteBridge
 =
@@ -1255,18 +1245,6 @@ RemoteMediaDrmBridge
 remoteBridge
 )
 ;
-}
-else
-{
-mImpl
-=
-new
-LocalMediaDrmBridge
-(
-keySystem
-)
-;
-}
 mImpl
 .
 setCallbacks
