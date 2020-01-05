@@ -368,6 +368,13 @@ SystemAllocPolicy
 Bytes
 ;
 typedef
+UniquePtr
+<
+Bytes
+>
+UniqueBytes
+;
+typedef
 int8_t
 I8x16
 [
