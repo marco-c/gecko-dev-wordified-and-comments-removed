@@ -2477,7 +2477,7 @@ T
 >
 :
 :
-isMarkableTaggedPointer
+isMarkable
 (
 *
 thingp
