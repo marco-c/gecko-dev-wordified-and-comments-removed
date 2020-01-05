@@ -1,9 +1,9 @@
 #
 ifndef
-MozCheck_h__
+BaseCheck_h__
 #
 define
-MozCheck_h__
+BaseCheck_h__
 class
 MozContext
 {
@@ -14,7 +14,7 @@ MozContext
 ContextType
 ;
 class
-MozCheck
+BaseCheck
 :
 public
 MatchFinder
@@ -24,7 +24,7 @@ MatchCallback
 {
 public
 :
-MozCheck
+BaseCheck
 (
 StringRef
 CheckName
