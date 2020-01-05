@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -13,6 +18,9 @@ charset
 utf
 -
 8
+"
++
+"
 <
 p
 >

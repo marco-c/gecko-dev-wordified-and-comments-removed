@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 {
 FlameGraphUtils
 }

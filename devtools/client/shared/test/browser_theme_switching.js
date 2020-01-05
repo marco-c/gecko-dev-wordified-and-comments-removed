@@ -1,5 +1,7 @@
-var
-toolbox
+"
+use
+strict
+"
 ;
 add_task
 (
@@ -222,7 +224,7 @@ sheets
 for
 (
 let
-sheet
+themeSheet
 of
 sheetsFromTheme
 )
@@ -240,7 +242,7 @@ s
 .
 includes
 (
-sheet
+themeSheet
 )
 )
 "
@@ -251,7 +253,7 @@ stylesheet
 for
 "
 +
-sheet
+themeSheet
 )
 ;
 }
@@ -312,12 +314,9 @@ mac
 "
 ;
 }
-else
-{
 return
 "
 linux
 "
 ;
-}
 }

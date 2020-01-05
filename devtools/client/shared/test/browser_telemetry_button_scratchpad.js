@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -284,12 +289,14 @@ was
 opened
 and
 closed
+"
++
 count
 is
 now
-"
-+
+{
 numScratchpads
+}
 )
 ;
 if

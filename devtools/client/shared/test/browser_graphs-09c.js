@@ -1,10 +1,15 @@
+"
+use
+strict
+"
+;
 const
 TEST_DATA
 =
 [
 ]
 ;
-var
+const
 LineGraphWidget
 =
 require
@@ -62,7 +67,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

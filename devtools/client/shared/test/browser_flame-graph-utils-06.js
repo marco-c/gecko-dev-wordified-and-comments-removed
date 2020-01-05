@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 {
 FlameGraphUtils
 }
@@ -18,7 +23,7 @@ FlameGraph
 "
 )
 ;
-var
+const
 {
 PALLETTE_SIZE
 }
@@ -38,14 +43,14 @@ FlameGraph
 "
 )
 ;
-var
+const
 MANGLED_FN
 =
 "
 __Z3FooIiEvv
 "
 ;
-var
+const
 UNMANGLED_FN
 =
 "

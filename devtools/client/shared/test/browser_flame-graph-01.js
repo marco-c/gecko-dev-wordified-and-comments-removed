@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 {
 FlameGraph
 }
@@ -58,7 +63,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =
@@ -123,9 +127,12 @@ ready
 )
 =
 >
+{
 readyEventEmitted
 =
 true
+;
+}
 )
 ;
 yield

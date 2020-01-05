@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 FAST_FPS
 =
@@ -90,7 +95,7 @@ t
 ;
 }
 }
-var
+const
 LineGraphWidget
 =
 require
@@ -148,7 +153,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 LineGraphWidget
 =
 require
@@ -60,7 +65,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =
@@ -128,9 +132,12 @@ ready
 )
 =
 >
+{
 readyEventEmitted
 =
 true
+;
+}
 )
 ;
 yield

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 "
@@ -759,11 +764,6 @@ ownsWeak
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

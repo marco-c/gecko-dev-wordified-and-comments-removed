@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -158,9 +163,6 @@ gBrowser
 selectedTab
 )
 ;
-let
-toolbox
-=
 yield
 gDevTools
 .

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 createStore
@@ -173,7 +178,9 @@ dispatch
 getState
 )
 {
-throw
+let
+error
+=
 "
 task
 -
@@ -183,6 +190,9 @@ error
 -
 generator
 "
+;
+throw
+error
 ;
 }
 ;

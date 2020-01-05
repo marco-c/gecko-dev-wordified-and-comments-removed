@@ -29,5 +29,16 @@ mochitests
 .
 js
 "
+"
+globals
+"
+:
+{
+"
+DeveloperToolbar
+"
+:
+true
+}
 }
 ;

@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 {
 scrollIntoViewIfNeeded
 }
@@ -38,7 +43,6 @@ let
 [
 host
 win
-doc
 ]
 =
 yield

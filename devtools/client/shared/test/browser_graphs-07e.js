@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_DATA
 =
@@ -316,7 +321,7 @@ value
 }
 ]
 ;
-var
+const
 LineGraphWidget
 =
 require
@@ -334,7 +339,7 @@ LineGraphWidget
 "
 )
 ;
-var
+let
 CURRENT_ZOOM
 =
 1
@@ -379,7 +384,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

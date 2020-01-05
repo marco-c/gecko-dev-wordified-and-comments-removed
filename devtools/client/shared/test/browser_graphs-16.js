@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 MountainGraphWidget
 =
 require
@@ -171,7 +176,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

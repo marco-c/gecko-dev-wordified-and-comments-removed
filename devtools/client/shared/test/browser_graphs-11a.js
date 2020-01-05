@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 BarGraphWidget
 =
 require
@@ -101,7 +106,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

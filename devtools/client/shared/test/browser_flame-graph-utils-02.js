@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 {
 FlameGraphUtils
 }
@@ -18,7 +23,7 @@ FlameGraph
 "
 )
 ;
-var
+const
 {
 PALLETTE_SIZE
 }

@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 LineGraphWidget
 =
 require
@@ -16,7 +21,7 @@ LineGraphWidget
 "
 )
 ;
-var
+const
 BarGraphWidget
 =
 require
@@ -34,7 +39,7 @@ BarGraphWidget
 "
 )
 ;
-var
+const
 {
 CanvasGraphUtils
 }
@@ -94,7 +99,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

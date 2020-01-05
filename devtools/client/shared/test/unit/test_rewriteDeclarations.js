@@ -4115,11 +4115,6 @@ run_test
 (
 )
 {
-let
-i
-=
-0
-;
 for
 (
 let
@@ -4128,10 +4123,6 @@ of
 TEST_DATA
 )
 {
-+
-+
-i
-;
 let
 {
 changed

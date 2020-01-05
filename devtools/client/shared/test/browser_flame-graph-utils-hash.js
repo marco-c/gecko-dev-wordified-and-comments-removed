@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 {
 FlameGraphUtils
 }
@@ -18,12 +23,7 @@ FlameGraph
 "
 )
 ;
-var
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -256,10 +256,6 @@ NaN
 )
 .
 "
-)
-;
-finish
-(
 )
 ;
 }
