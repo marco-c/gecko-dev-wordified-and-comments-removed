@@ -354,9 +354,6 @@ openWebIDE
 openContentProcessToolbox
 "
 "
-moveWebIDEWidgetInNavbar
-"
-"
 registerBrowserWindow
 "
 "
