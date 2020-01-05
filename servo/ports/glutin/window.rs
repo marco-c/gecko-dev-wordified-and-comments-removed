@@ -497,6 +497,12 @@ TypedSize2D
 DevicePixel
 u32
 >
+parent
+:
+glutin
+:
+:
+WindowID
 )
 -
 >
@@ -561,6 +567,11 @@ gl_version
 with_visibility
 (
 is_foreground
+)
+.
+with_parent
+(
+parent
 )
 .
 build
@@ -4544,6 +4555,12 @@ TypedSize2D
 DevicePixel
 u32
 >
+_parent
+:
+glutin
+:
+:
+WindowID
 )
 -
 >

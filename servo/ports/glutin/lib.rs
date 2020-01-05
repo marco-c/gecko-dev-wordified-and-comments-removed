@@ -132,6 +132,15 @@ mod
 window
 ;
 pub
+type
+WindowID
+=
+glutin
+:
+:
+WindowID
+;
+pub
 trait
 NestedEventLoopListener
 {
@@ -154,6 +163,9 @@ pub
 fn
 create_window
 (
+parent
+:
+WindowID
 )
 -
 >
@@ -235,5 +247,6 @@ cast
 unwrap
 (
 )
+parent
 )
 }
