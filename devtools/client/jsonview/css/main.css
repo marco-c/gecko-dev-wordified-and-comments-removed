@@ -116,6 +116,10 @@ css
 .
 panelContent
 {
+direction
+:
+ltr
+;
 overflow
 -
 y
