@@ -1509,6 +1509,7 @@ HandleObject
 obj
 )
 ;
+static
 inline
 js
 :
@@ -1520,6 +1521,11 @@ getGroup
 JSContext
 *
 cx
+js
+:
+:
+HandleObject
+obj
 )
 ;
 const

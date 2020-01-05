@@ -5327,12 +5327,13 @@ RootedObjectGroup
 newGroup
 (
 cx
-obj_
--
->
+JSObject
+:
+:
 getGroup
 (
 cx
+obj_
 )
 )
 ;

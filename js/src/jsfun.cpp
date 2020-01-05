@@ -4062,12 +4062,13 @@ ObjectGroup
 *
 protoGroup
 =
-functionProto
--
->
+JSObject
+:
+:
 getGroup
 (
 cx
+functionProto
 )
 ;
 if
