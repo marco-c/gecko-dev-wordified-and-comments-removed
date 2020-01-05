@@ -240,9 +240,11 @@ mScrollbarDirection
 aLayer
 -
 >
-GetScrollbarDirection
+GetScrollThumbData
 (
 )
+.
+mDirection
 ;
 mScrollbarTargetContainerId
 =

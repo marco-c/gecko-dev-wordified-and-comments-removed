@@ -1147,9 +1147,11 @@ return
 mLayer
 -
 >
-GetScrollbarDirection
+GetScrollThumbData
 (
 )
+.
+mDirection
 ;
 }
 FrameMetrics

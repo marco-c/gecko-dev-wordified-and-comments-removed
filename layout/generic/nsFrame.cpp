@@ -13157,9 +13157,9 @@ FrameMetrics
 :
 :
 NULL_SCROLL_ID
-0
-.
-0f
+ScrollThumbData
+{
+}
 false
 )
 )
