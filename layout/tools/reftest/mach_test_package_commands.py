@@ -525,6 +525,14 @@ kwargs
 )
 :
         
+self
+.
+context
+.
+activate_mozharness_venv
+(
+)
+        
 kwargs
 [
 '
