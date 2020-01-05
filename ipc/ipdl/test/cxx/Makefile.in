@@ -75,8 +75,6 @@ cpp
 EXTRA_PROTOCOLS
 =
 \
-TestBridgeSub
-\
 TestEndpointBridgeSub
 \
 (
