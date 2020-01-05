@@ -4139,6 +4139,16 @@ true
 true
 )
 ;
+if
+(
+!
+fontname
+.
+IsEmpty
+(
+)
+)
+{
 aFontList
 .
 AppendElement
@@ -4146,6 +4156,7 @@ AppendElement
 fontname
 )
 ;
+}
 +
 +
 p
