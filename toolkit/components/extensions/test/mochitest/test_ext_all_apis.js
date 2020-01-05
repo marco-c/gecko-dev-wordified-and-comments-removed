@@ -350,6 +350,16 @@ runtime
 .
 setUninstallURL
 "
+"
+types
+.
+LevelOfControl
+"
+"
+types
+.
+SettingScope
+"
 ]
 ;
 function

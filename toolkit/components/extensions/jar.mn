@@ -226,6 +226,15 @@ extensions
 /
 ext
 -
+privacy
+.
+js
+content
+/
+extensions
+/
+ext
+-
 c
 -
 backgroundPage

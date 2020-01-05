@@ -7087,6 +7087,9 @@ let
 subpath
 =
 [
+.
+.
+.
 path
 this
 .
