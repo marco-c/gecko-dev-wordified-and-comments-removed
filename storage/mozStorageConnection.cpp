@@ -1703,7 +1703,7 @@ NS_GetCurrentThread
 )
 =
 =
-mClone
+mConnection
 -
 >
 getAsyncExecutionTarget
@@ -5309,9 +5309,6 @@ nsIEventTarget
 >
 target
 =
-clone
--
->
 getAsyncExecutionTarget
 (
 )
