@@ -91,6 +91,11 @@ attribute
 mozIDOMWindowProxy
 window
 ;
+readonly
+attribute
+float
+scale
+;
 }
 ;
 [
