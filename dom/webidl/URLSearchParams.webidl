@@ -280,6 +280,14 @@ USVString
 value
 )
 ;
+[
+Throws
+]
+void
+sort
+(
+)
+;
 iterable
 <
 USVString

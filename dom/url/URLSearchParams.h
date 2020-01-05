@@ -387,6 +387,11 @@ aIndex
 mValue
 ;
 }
+nsresult
+Sort
+(
+)
+;
 bool
 ReadStructuredClone
 (
@@ -655,6 +660,14 @@ uint32_t
 aIndex
 )
 const
+;
+void
+Sort
+(
+ErrorResult
+&
+aRv
+)
 ;
 void
 Stringify
