@@ -57,11 +57,12 @@ MPL
 *
 /
 #
-version
-150
-#
 define
 SERVO_GL3
+precision
+highp
+float
+;
 uniform
 sampler2D
 sDiffuse

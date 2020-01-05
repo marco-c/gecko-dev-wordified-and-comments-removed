@@ -57,9 +57,6 @@ MPL
 *
 /
 #
-version
-150
-#
 define
 SERVO_GL3
 uniform
