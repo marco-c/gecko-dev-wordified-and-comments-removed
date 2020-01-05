@@ -164,6 +164,8 @@ value
 +
 }
 impl
+Parse
+for
 name
 {
 #
@@ -173,10 +175,13 @@ allow
 missing_docs
 )
 ]
-pub
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &

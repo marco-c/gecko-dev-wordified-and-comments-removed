@@ -288,9 +288,6 @@ BorderStyle
 :
 none
 "
-needs_context
-=
-False
 need_clone
 =
 True

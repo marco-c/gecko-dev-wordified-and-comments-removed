@@ -106,9 +106,6 @@ BorderStyle
 :
 parse
 "
-needs_context
-=
-False
 spec
 =
 "
@@ -578,6 +575,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -585,6 +585,10 @@ BorderStyle
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 style
