@@ -129,6 +129,11 @@ DispatchTarget
 dispatchTarget
 ;
 public
+final
+boolean
+noLiteral
+;
+public
 AnnotationInfo
 (
 String
@@ -139,6 +144,8 @@ CallingThread
 callingThread
 DispatchTarget
 dispatchTarget
+boolean
+noLiteral
 )
 {
 this
@@ -164,6 +171,12 @@ this
 dispatchTarget
 =
 dispatchTarget
+;
+this
+.
+noLiteral
+=
+noLiteral
 ;
 }
 }

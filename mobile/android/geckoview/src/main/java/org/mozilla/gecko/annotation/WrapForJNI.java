@@ -112,4 +112,11 @@ default
 current
 "
 ;
+boolean
+noLiteral
+(
+)
+default
+false
+;
 }
