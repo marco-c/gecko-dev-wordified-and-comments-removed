@@ -588,11 +588,10 @@ a
 new
 request
 context
-identifier
 *
 /
-nsID
-newRequestContextID
+nsIRequestContext
+newRequestContext
 (
 )
 ;
