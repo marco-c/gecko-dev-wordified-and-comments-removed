@@ -1729,7 +1729,13 @@ this
 }
 mSize
 =
+static_cast
+<
+uint64_t
+>
+(
 size
+)
 <
 <
 10
