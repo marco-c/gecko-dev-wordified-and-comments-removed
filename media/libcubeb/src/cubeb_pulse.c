@@ -6441,7 +6441,7 @@ CUBEB_DEVICE_STATE_ENABLED
 ;
 }
 return
-CUBEB_DEVICE_STATE_DISABLED
+CUBEB_DEVICE_STATE_ENABLED
 ;
 }
 static
@@ -6635,6 +6635,7 @@ devinfo
 >
 preferred
 =
+(
 strcmp
 (
 info
@@ -6649,6 +6650,11 @@ default_sink_name
 =
 =
 0
+)
+?
+CUBEB_DEVICE_PREF_ALL
+:
+CUBEB_DEVICE_PREF_NONE
 ;
 devinfo
 -
@@ -6806,7 +6812,7 @@ CUBEB_DEVICE_STATE_ENABLED
 ;
 }
 return
-CUBEB_DEVICE_STATE_DISABLED
+CUBEB_DEVICE_STATE_ENABLED
 ;
 }
 static
@@ -6994,6 +7000,7 @@ devinfo
 >
 preferred
 =
+(
 strcmp
 (
 info
@@ -7008,6 +7015,11 @@ default_source_name
 =
 =
 0
+)
+?
+CUBEB_DEVICE_PREF_ALL
+:
+CUBEB_DEVICE_PREF_NONE
 ;
 devinfo
 -

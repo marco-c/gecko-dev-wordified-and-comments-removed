@@ -1380,6 +1380,9 @@ s
 >
 mtx
 =
+(
+pthread_mutex_t
+)
 PTHREAD_MUTEX_INITIALIZER
 ;
 s
