@@ -9617,7 +9617,7 @@ getCurrentWindow
 let
 {
 id
-value
+text
 }
 =
 cmd
@@ -9626,16 +9626,9 @@ parameters
 ;
 assert
 .
-defined
+string
 (
-value
-Expected
-character
-sequence
-:
-{
-value
-}
+text
 )
 ;
 switch
@@ -9675,7 +9668,7 @@ interaction
 sendKeysToElement
 (
 el
-value
+text
 true
 this
 .
@@ -9697,7 +9690,7 @@ listener
 sendKeysToElement
 (
 id
-value
+text
 )
 ;
 break

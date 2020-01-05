@@ -5615,7 +5615,7 @@ sendKeysToElement
 =
 function
 (
-keySequence
+keyString
 el
 opts
 =
@@ -5676,17 +5676,6 @@ modifier
 false
 ;
 }
-let
-value
-=
-keySequence
-.
-join
-(
-"
-"
-)
-;
 for
 (
 let
@@ -5696,7 +5685,7 @@ i
 ;
 i
 <
-value
+keyString
 .
 length
 ;
@@ -5708,7 +5697,7 @@ i
 let
 c
 =
-value
+keyString
 .
 charAt
 (
