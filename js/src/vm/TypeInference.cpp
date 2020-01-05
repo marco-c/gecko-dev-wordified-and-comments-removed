@@ -23760,6 +23760,15 @@ CancelOffThreadIonCompile
 rt
 )
 ;
+JSRuntime
+:
+:
+AutoProhibitActiveContextChange
+apacc
+(
+rt
+)
+;
 zone
 -
 >
