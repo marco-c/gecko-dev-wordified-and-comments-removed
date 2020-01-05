@@ -291,6 +291,11 @@ aMsg
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 ;
 static
 void
@@ -310,6 +315,11 @@ aMsg
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+4
+5
 )
 ;
 virtual
