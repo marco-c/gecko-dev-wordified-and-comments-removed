@@ -1208,6 +1208,14 @@ ins
 )
 ;
 void
+visitWasmAddOffset
+(
+LWasmAddOffset
+*
+ins
+)
+;
+void
 visitAsmJSLoadHeap
 (
 LAsmJSLoadHeap
