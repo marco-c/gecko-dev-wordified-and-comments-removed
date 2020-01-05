@@ -99,13 +99,6 @@ view
 js
 '
 '
-details
--
-view
-.
-js
-'
-'
 events
 .
 js

@@ -63,6 +63,13 @@ panel
 js
 '
 '
+details
+-
+panel
+.
+js
+'
+'
 editor
 .
 js

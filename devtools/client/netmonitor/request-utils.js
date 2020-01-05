@@ -383,7 +383,13 @@ text
 =
 btoa
 (
+unescape
+(
+encodeURIComponent
+(
 text
+)
+)
 )
 ;
 }

@@ -111,12 +111,10 @@ waitForDOM
 (
 document
 "
-#
+.
 headers
 -
-tabpanel
-.
-summary
+overview
 "
 )
 ;

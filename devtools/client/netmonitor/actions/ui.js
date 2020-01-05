@@ -7,6 +7,7 @@ const
 {
 OPEN_SIDEBAR
 OPEN_STATISTICS
+SELECT_DETAILS_PANEL_TAB
 WATERFALL_RESIZE
 }
 =
@@ -62,6 +63,21 @@ type
 :
 WATERFALL_RESIZE
 width
+}
+;
+}
+function
+selectDetailsPanelTab
+(
+index
+)
+{
+return
+{
+type
+:
+SELECT_DETAILS_PANEL_TAB
+index
 }
 ;
 }
@@ -129,6 +145,7 @@ exports
 openSidebar
 openStatistics
 resizeWaterfall
+selectDetailsPanelTab
 toggleSidebar
 toggleStatistics
 }
