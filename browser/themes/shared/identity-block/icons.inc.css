@@ -193,8 +193,6 @@ image
 :
 url
 (
-url
-(
 chrome
 :
 /
@@ -213,7 +211,6 @@ notice
 -
 hover
 iconVariant
-)
 )
 ;
 }
