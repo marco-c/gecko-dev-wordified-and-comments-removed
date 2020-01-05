@@ -780,8 +780,14 @@ asyncPan
 &
 !
 layersGPUAccelerated
-140
+121
 514
+)
+fails
+-
+if
+(
+webrender
 )
 =
 =

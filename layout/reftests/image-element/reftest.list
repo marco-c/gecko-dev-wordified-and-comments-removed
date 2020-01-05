@@ -27,6 +27,12 @@ bug
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 canvas

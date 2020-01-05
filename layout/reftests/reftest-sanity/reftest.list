@@ -1235,6 +1235,12 @@ if
 !
 browserIsRemote
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 test
