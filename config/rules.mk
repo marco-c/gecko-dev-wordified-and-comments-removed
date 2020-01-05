@@ -6547,8 +6547,6 @@ _VPATH_SRCS
 endif
 ifdef
 MOZ_RUST
-ifdef
-RUST_LIBRARY_FILE
 #
 Permit
 users
@@ -6819,6 +6817,8 @@ level
 0
 '
 endif
+ifdef
+RUST_LIBRARY_FILE
 #
 Assume
 any
