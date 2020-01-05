@@ -1718,7 +1718,7 @@ if
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -1740,7 +1740,7 @@ MOZ_ASSERT_IF
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 keepArenas
@@ -10170,7 +10170,7 @@ FreeOp
 *
 fop
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -11533,7 +11533,7 @@ i
 fgTask
 -
 >
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -14844,7 +14844,7 @@ return
 ;
 decommitTask
 .
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -16287,7 +16287,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -18226,7 +18226,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -21916,7 +21916,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -24480,7 +24480,7 @@ phase
 ;
 task
 .
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -24542,7 +24542,7 @@ SystemAllocPolicy
 ;
 static
 void
-SweepWeakCachesFromMainThread
+SweepWeakCachesFromActiveCooperatingThread
 (
 JSRuntime
 *
@@ -24602,7 +24602,7 @@ cache
 ;
 task
 .
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -24681,7 +24681,7 @@ cache
 )
 )
 {
-SweepWeakCachesFromMainThread
+SweepWeakCachesFromActiveCooperatingThread
 (
 rt
 )
@@ -33809,7 +33809,7 @@ cx
 source
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -39246,7 +39246,7 @@ rt
 tc
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

@@ -4470,7 +4470,7 @@ MOZ_ASSERT
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 )
 ;
 #
@@ -4479,7 +4479,7 @@ DEBUG
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 =
 true
 ;
@@ -4558,7 +4558,7 @@ MOZ_ASSERT
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 )
 ;
 #
@@ -4567,7 +4567,7 @@ DEBUG
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 =
 false
 ;

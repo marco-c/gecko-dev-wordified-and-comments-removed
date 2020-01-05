@@ -1616,7 +1616,7 @@ helperThread
 )
 )
 return
-refillFreeListFromMainThread
+refillFreeListFromActiveCooperatingThread
 (
 cx
 thingKind
@@ -1624,7 +1624,7 @@ thingSize
 )
 ;
 return
-refillFreeListOffMainThread
+refillFreeListFromHelperThread
 (
 cx
 thingKind
@@ -1636,7 +1636,7 @@ TenuredCell
 GCRuntime
 :
 :
-refillFreeListFromMainThread
+refillFreeListFromActiveCooperatingThread
 (
 JSContext
 *
@@ -1701,7 +1701,7 @@ TenuredCell
 GCRuntime
 :
 :
-refillFreeListOffMainThread
+refillFreeListFromHelperThread
 (
 JSContext
 *
@@ -1790,7 +1790,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

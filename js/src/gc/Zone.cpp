@@ -585,7 +585,7 @@ isAtomsZone
 (
 )
 !
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -1404,7 +1404,7 @@ usedByExclusiveThread
 ?
 0
 :
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -

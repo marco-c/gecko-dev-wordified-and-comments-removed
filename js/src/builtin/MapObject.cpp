@@ -1088,7 +1088,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -2957,7 +2957,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -5229,7 +5229,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -6260,7 +6260,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )

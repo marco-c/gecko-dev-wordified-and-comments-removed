@@ -520,7 +520,7 @@ return
 script
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -538,7 +538,7 @@ return
 comp
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -1492,7 +1492,7 @@ builder
 comp
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -5665,7 +5665,7 @@ js
 GCParallelTask
 :
 :
-runFromMainThread
+runFromActiveCooperatingThread
 (
 JSRuntime
 *

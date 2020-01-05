@@ -7278,7 +7278,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -12935,12 +12935,12 @@ length
 (
 )
 >
-MAX_MAIN_THREAD_SCRIPT_SIZE
+MAX_ACTIVE_THREAD_SCRIPT_SIZE
 |
 |
 numLocalsAndArgs
 >
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
 )
 {
 if

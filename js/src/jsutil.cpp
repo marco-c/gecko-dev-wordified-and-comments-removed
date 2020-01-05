@@ -291,7 +291,7 @@ THREAD_TYPE_NONE
 targetThread
 !
 =
-THREAD_TYPE_MAIN
+THREAD_TYPE_COOPERATING
 )
 HelperThreadState
 (

@@ -2763,7 +2763,7 @@ AutoWritableJitCode
 code
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 code

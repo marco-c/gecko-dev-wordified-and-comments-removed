@@ -515,7 +515,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -5424,7 +5424,7 @@ zone
 )
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -

@@ -599,7 +599,7 @@ FreeOp
 )
 ;
 bool
-onMainThread
+onActiveCooperatingThread
 (
 )
 const
@@ -612,7 +612,7 @@ nullptr
 ;
 }
 bool
-maybeOffMainThread
+maybeOnHelperThread
 (
 )
 const
@@ -2181,7 +2181,7 @@ exclusiveAccessLock
 ifdef
 DEBUG
 bool
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 ;
 #
 endif
@@ -2254,7 +2254,7 @@ exclusiveThreadsPresent
 )
 &
 &
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 )
 |
 |

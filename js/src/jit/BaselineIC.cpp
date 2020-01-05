@@ -5155,7 +5155,7 @@ UnboxedArrayObject
 obj
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -

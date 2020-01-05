@@ -640,7 +640,7 @@ RuntimeExclusiveAccess
 #
 ifdef
 DEBUG
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 (
 false
 )
@@ -3880,7 +3880,7 @@ be
 mutated
 by
 the
-main
+active
 thread
 .
 "
@@ -3921,7 +3921,7 @@ be
 mutated
 by
 the
-main
+active
 thread
 .
 "
@@ -3995,7 +3995,7 @@ be
 mutated
 by
 the
-main
+active
 thread
 .
 "

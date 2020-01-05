@@ -190,10 +190,10 @@ IonRegisterAllocator
 registerAllocator_
 ;
 uint32_t
-inlineMaxBytecodePerCallSiteOffThread_
+inlineMaxBytecodePerCallSiteHelperThread_
 ;
 uint32_t
-inlineMaxBytecodePerCallSiteMainThread_
+inlineMaxBytecodePerCallSiteActiveCooperatingThread_
 ;
 uint16_t
 inlineMaxCalleeInlinedBytecodeLength_
@@ -617,9 +617,9 @@ JitOptions
 limitScriptSize
 )
 ?
-inlineMaxBytecodePerCallSiteOffThread_
+inlineMaxBytecodePerCallSiteHelperThread_
 :
-inlineMaxBytecodePerCallSiteMainThread_
+inlineMaxBytecodePerCallSiteActiveCooperatingThread_
 ;
 }
 uint16_t

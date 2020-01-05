@@ -1044,10 +1044,10 @@ TraceLogger_Last
 ]
 ;
 bool
-mainThreadEnabled
+cooperatingThreadEnabled
 ;
 bool
-offThreadEnabled
+helperThreadEnabled
 ;
 bool
 graphSpewingEnabled
@@ -1127,11 +1127,11 @@ false
 )
 #
 endif
-mainThreadEnabled
+cooperatingThreadEnabled
 (
 false
 )
-offThreadEnabled
+helperThreadEnabled
 (
 false
 )

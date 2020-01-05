@@ -467,7 +467,7 @@ barrierTracer_
 }
 JSRuntime
 *
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 const

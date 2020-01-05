@@ -1868,7 +1868,7 @@ behaviors_
 }
 JSRuntime
 *
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 const

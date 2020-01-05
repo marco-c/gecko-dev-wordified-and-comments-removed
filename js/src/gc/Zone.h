@@ -664,7 +664,7 @@ return
 nullptr
 ;
 return
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -845,7 +845,7 @@ MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 )
@@ -1082,7 +1082,7 @@ return
 needsIncrementalBarrier
 |
 |
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -2499,7 +2499,7 @@ MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 )
@@ -2677,8 +2677,6 @@ unique
 ids
 from
 off
--
-main
 -
 thread
 "

@@ -106,7 +106,7 @@ namespace
 js
 {
 bool
-RuntimeFromMainThreadIsHeapMajorCollecting
+RuntimeFromActiveCooperatingThreadIsHeapMajorCollecting
 (
 JS
 :
@@ -126,7 +126,7 @@ CurrentThreadCanAccessRuntime
 shadowZone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 )

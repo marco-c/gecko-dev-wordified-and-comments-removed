@@ -1836,7 +1836,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -1871,7 +1871,7 @@ rt
 obj
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

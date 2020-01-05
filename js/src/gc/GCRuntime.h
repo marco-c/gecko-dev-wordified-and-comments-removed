@@ -2867,7 +2867,7 @@ thingSize
 static
 TenuredCell
 *
-refillFreeListFromMainThread
+refillFreeListFromActiveCooperatingThread
 (
 JSContext
 *
@@ -2881,7 +2881,7 @@ thingSize
 static
 TenuredCell
 *
-refillFreeListOffMainThread
+refillFreeListFromHelperThread
 (
 JSContext
 *

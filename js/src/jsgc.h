@@ -3587,7 +3587,7 @@ locked
 )
 ;
 void
-runFromMainThread
+runFromActiveCooperatingThread
 (
 JSRuntime
 *
