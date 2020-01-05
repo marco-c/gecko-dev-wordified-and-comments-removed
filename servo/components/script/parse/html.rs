@@ -2409,7 +2409,7 @@ err
 =
 >
 {
-panic
+debug
 !
 (
 "
@@ -2432,6 +2432,8 @@ serialize
 )
 err
 )
+;
+break
 ;
 }
 ProgressMsg
