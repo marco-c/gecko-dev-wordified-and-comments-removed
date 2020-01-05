@@ -5756,6 +5756,10 @@ propertyID
 value
 false
 data
+LengthParsingMode
+:
+:
+SVG
 )
 ;
 }

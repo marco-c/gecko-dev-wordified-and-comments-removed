@@ -1480,6 +1480,10 @@ aPropID
 value
 aIsImportant
 data
+LengthParsingMode
+:
+:
+Default
 )
 ;
 }
@@ -1610,6 +1614,10 @@ property
 value
 aIsImportant
 data
+LengthParsingMode
+:
+:
+Default
 )
 ;
 }
