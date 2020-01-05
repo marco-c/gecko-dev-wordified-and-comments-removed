@@ -3670,6 +3670,7 @@ _onProgress
 =
 onProgress
 ;
+let
 oldWarn
 =
 res18
@@ -3798,6 +3799,14 @@ baseURI
 json
 "
 )
+;
+res18
+.
+_log
+.
+warn
+=
+oldWarn
 ;
 _
 (

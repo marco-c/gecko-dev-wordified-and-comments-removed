@@ -505,8 +505,6 @@ close
 (
 )
 ;
-result
-=
 yield
 OneCRLBlocklistClient
 .

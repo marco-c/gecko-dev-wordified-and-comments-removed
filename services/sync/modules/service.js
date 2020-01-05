@@ -7782,6 +7782,8 @@ Sync11Service
 (
 )
 ;
+this
+.
 Service
 .
 onStartup

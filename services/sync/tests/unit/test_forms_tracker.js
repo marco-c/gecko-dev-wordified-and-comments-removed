@@ -171,6 +171,7 @@ name
 value
 )
 {
+let
 guid
 =
 engine
