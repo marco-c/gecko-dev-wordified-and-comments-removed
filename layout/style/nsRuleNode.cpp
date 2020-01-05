@@ -18633,9 +18633,7 @@ synthesis
 Unused
 0
 Unused
-systemFont
-.
-synthesis
+Unused
 )
 ;
 const

@@ -23729,11 +23729,6 @@ kerning
 "
 font
 -
-synthesis
-"
-"
-font
--
 variant
 -
 alternates
