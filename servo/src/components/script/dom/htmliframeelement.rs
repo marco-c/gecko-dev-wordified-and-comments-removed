@@ -143,7 +143,7 @@ window
 Window
 ;
 use
-script_task
+page
 :
 :
 IterablePage

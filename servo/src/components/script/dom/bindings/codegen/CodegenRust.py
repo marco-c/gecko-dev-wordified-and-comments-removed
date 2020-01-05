@@ -34212,7 +34212,7 @@ ByteString
 '
             
 '
-script_task
+page
 :
 :
 JSPageInfo
@@ -40784,7 +40784,7 @@ Window
 '
             
 '
-script_task
+page
 :
 :
 JSPageInfo

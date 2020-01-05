@@ -63,12 +63,10 @@ str
 DOMString
 ;
 use
-script_task
+page
 :
 :
-{
 Page
-}
 ;
 use
 std
