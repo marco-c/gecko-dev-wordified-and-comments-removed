@@ -36932,6 +36932,15 @@ type
 "
 )
 ;
+if
+(
+!
+parent
+.
+firstChild
+)
+continue
+;
 parent
 .
 firstChild
