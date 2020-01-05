@@ -85,10 +85,6 @@ layout_traits
 ;
 extern
 crate
-opengles
-;
-extern
-crate
 png
 ;
 extern
@@ -126,6 +122,10 @@ util
 "
 as
 servo_util
+;
+extern
+crate
+gleam
 ;
 extern
 crate

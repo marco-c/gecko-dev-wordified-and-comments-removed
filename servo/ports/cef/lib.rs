@@ -95,10 +95,6 @@ layers
 ;
 extern
 crate
-opengles
-;
-extern
-crate
 png
 ;
 extern
