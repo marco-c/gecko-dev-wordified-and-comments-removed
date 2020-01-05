@@ -3071,6 +3071,14 @@ randomKeyGenerator_
 ;
 public
 :
+js
+:
+:
+HashNumber
+randomHashCode
+(
+)
+;
 mozilla
 :
 :
