@@ -2416,6 +2416,17 @@ wrapper
 )
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
+wrapper
+)
+{
 *
 aInstancePtr
 =
@@ -2434,6 +2445,7 @@ GetXPTCStub
 (
 )
 ;
+}
 return
 rv
 ;
