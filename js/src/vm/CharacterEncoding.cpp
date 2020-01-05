@@ -1362,7 +1362,7 @@ uint32_t
 dummy
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

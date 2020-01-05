@@ -8465,7 +8465,7 @@ cloneSingletons
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -8949,7 +8949,7 @@ loadLength
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -11766,7 +11766,7 @@ isInterpreted
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -12060,7 +12060,7 @@ length
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -15533,7 +15533,7 @@ filename
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -23895,7 +23895,7 @@ sArgc
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -24162,7 +24162,7 @@ case
 -
 1
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -24235,7 +24235,7 @@ status
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage

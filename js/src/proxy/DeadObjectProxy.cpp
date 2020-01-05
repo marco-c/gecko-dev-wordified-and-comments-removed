@@ -50,7 +50,7 @@ JSContext
 cx
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
