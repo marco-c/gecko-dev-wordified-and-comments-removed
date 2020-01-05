@@ -378,6 +378,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+void
+ReportCanPlayTelemetry
+(
+)
+;
 nsresult
 LoadWithChannel
 (
