@@ -4087,6 +4087,13 @@ return
 true
 ;
 }
+void
+HandleVideoSuspendTimeout
+(
+)
+override
+{
+}
 private
 :
 bool
