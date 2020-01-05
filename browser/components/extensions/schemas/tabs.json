@@ -1286,6 +1286,11 @@ sessionId
 :
 {
 "
+unsupported
+"
+:
+true
+"
 type
 "
 :
