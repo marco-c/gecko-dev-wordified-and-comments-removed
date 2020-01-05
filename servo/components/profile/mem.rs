@@ -1235,11 +1235,10 @@ new
 for
 _
 in
-range
-(
 0
+.
+.
 depth
-)
 {
 indent_str
 .

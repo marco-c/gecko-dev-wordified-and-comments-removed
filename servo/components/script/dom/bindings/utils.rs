@@ -2292,9 +2292,10 @@ as
 usize
 &
 &
-range
 (
 0
+.
+.
 length
 as
 usize

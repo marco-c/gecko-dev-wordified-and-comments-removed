@@ -1360,13 +1360,12 @@ Au
 for
 _
 in
-range
-(
 1
+.
+.
 cell_intrinsic_inline_size
 .
 column_span
-)
 {
 let
 extra_column_computed_inline_size

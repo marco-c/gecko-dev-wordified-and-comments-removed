@@ -490,13 +490,12 @@ iter
 for
 _
 in
-range
-(
 0
+.
+.
 child_cell_inline_size
 .
 column_span
-)
 {
 if
 column_index

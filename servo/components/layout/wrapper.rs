@@ -1545,11 +1545,10 @@ new
 for
 _
 in
-range
-(
 0
+.
+.
 indent
-)
 {
 s
 .
