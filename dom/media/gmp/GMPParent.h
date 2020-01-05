@@ -592,12 +592,6 @@ MOZ_CRASHREPORTER
 void
 WriteExtraDataForMinidump
 (
-CrashReporter
-:
-:
-AnnotationTable
-&
-notes
 )
 ;
 bool
