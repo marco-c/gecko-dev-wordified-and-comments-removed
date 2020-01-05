@@ -2561,7 +2561,7 @@ console
 groupEnd
 (
 '
-foo
+bar
 '
 )
 "
