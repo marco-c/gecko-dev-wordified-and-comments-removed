@@ -2328,10 +2328,6 @@ gtk_widget_get_style_context
 )
 STUB
 (
-gtk_widget_path_append_for_widget
-)
-STUB
-(
 gtk_widget_path_append_type
 )
 STUB
