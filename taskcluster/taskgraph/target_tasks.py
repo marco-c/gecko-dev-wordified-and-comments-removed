@@ -652,17 +652,6 @@ get
 unittest_suite
 '
 )
-or
-task
-.
-attributes
-.
-get
-(
-'
-talos_suite
-'
-)
 :
             
 if
@@ -677,6 +666,27 @@ get
 e10s
 '
 )
+:
+                
+return
+False
+            
+if
+task
+.
+attributes
+.
+get
+(
+'
+unittest_suite
+'
+)
+=
+=
+'
+talos
+'
 :
                 
 return
