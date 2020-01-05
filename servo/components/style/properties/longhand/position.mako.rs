@@ -1393,6 +1393,9 @@ LengthOrPercentageOrAutoOrContent
 :
 Auto
 "
+"
+parse_non_negative_with_context
+"
 spec
 =
 "
