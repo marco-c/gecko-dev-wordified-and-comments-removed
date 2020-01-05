@@ -2946,8 +2946,6 @@ format
 self
 .
 type_id
-(
-)
 )
 }
 fn
@@ -3316,8 +3314,6 @@ bool
 self
 .
 type_id
-(
-)
 =
 =
 DocumentNodeTypeId
@@ -3339,8 +3335,6 @@ bool
 self
 .
 type_id
-(
-)
 =
 =
 ElementNodeTypeId
@@ -3386,8 +3380,6 @@ bool
 self
 .
 type_id
-(
-)
 =
 =
 TextNodeTypeId
@@ -11681,8 +11673,6 @@ match
 self
 .
 type_id
-(
-)
 {
 DocumentNodeTypeId
 |
@@ -11805,8 +11795,6 @@ match
 self
 .
 type_id
-(
-)
 {
 DocumentNodeTypeId
 =
