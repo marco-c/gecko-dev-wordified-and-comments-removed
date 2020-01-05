@@ -4960,6 +4960,13 @@ ContentParentId
 cpId
 )
 ;
+async
+TabChildNotReady
+(
+TabId
+tabId
+)
+;
 /
 *
 *
@@ -5785,8 +5792,6 @@ bool
 lastModifiedPassed
 int64_t
 lastModified
-bool
-aExistenceCheck
 bool
 aIsFromNsIFile
 )
