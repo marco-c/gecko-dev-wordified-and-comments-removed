@@ -8,14 +8,14 @@ h
 #
 include
 "
-WebRenderLayersLogging
+gfxPrefs
 .
 h
 "
 #
 include
 "
-gfxPrefs
+LayersLogging
 .
 h
 "

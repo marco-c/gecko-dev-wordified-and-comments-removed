@@ -26,7 +26,7 @@ h
 #
 include
 "
-WebRenderLayersLogging
+LayersLogging
 .
 h
 "
