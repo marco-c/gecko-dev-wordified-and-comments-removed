@@ -775,6 +775,9 @@ devel
 dbus
 -
 devel
+ncurses
+-
+devel
 #
 #
 #
