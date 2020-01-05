@@ -1589,6 +1589,17 @@ arg
 )
 ;
 void
+passUnion9
+(
+(
+TestDictionary
+or
+long
+)
+arg
+)
+;
+void
 passUnionWithTypedef
 (
 (
