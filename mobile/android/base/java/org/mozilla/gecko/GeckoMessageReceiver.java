@@ -65,9 +65,13 @@ action
 )
 )
 {
-GeckoAppShell
+EventDispatcher
 .
-notifyObservers
+getInstance
+(
+)
+.
+dispatch
 (
 "
 Passwords
