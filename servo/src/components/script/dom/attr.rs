@@ -127,6 +127,15 @@ use
 servo_util
 :
 :
+atom
+:
+:
+Atom
+;
+use
+servo_util
+:
+:
 namespace
 ;
 use
@@ -426,7 +435,7 @@ AttrValue
 pub
 name
 :
-DOMString
+Atom
 pub
 namespace
 :
@@ -492,7 +501,7 @@ value
 AttrValue
 name
 :
-DOMString
+Atom
 namespace
 :
 Namespace
@@ -587,7 +596,7 @@ value
 AttrValue
 name
 :
-DOMString
+Atom
 namespace
 :
 Namespace
@@ -1058,7 +1067,11 @@ self
 .
 name
 .
-clone
+as_slice
+(
+)
+.
+to_string
 (
 )
 }
