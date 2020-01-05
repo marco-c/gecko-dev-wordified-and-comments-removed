@@ -2270,6 +2270,9 @@ isPrivate
 case
 LOAD_ERROR
 :
+case
+LOCATION_CHANGE
+:
 flags
 .
 add
@@ -2279,9 +2282,6 @@ UpdateFlags
 TITLE
 )
 ;
-case
-LOCATION_CHANGE
-:
 flags
 .
 add
