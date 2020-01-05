@@ -56,10 +56,7 @@ const
 nsAutoCString
 originA
 ;
-DebugOnly
-<
 nsresult
->
 rv
 =
 a
@@ -120,10 +117,7 @@ const
 nsAutoCString
 originA
 ;
-DebugOnly
-<
 nsresult
->
 rv
 =
 a
@@ -332,10 +326,7 @@ AppendLiteral
 nsAutoCString
 subOrigin
 ;
-DebugOnly
-<
 nsresult
->
 rv
 =
 ep

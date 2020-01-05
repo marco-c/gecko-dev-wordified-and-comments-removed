@@ -392,10 +392,7 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoCString
 originNoSuffix
 ;
-DebugOnly
-<
 nsresult
->
 rv
 =
 mURI
