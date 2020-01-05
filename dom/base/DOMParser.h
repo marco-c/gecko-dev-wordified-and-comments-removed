@@ -485,12 +485,6 @@ mPrincipal
 ;
 nsCOMPtr
 <
-nsIPrincipal
->
-mOriginalPrincipal
-;
-nsCOMPtr
-<
 nsIURI
 >
 mDocumentURI
@@ -506,6 +500,9 @@ mScriptHandlingObject
 ;
 bool
 mAttemptedInit
+;
+bool
+mOriginalPrincipalWasSystem
 ;
 }
 ;
