@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ArrayUtils
 .
 h
@@ -56,6 +65,15 @@ include
 mozilla
 /
 TypedEnumBits
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Unused
 .
 h
 "
@@ -2134,6 +2152,7 @@ bool
 aInsideBlock
 )
 ;
+MOZ_MUST_USE
 bool
 SkipDeclaration
 (
@@ -4414,6 +4433,7 @@ aKeywordTable
 ]
 )
 ;
+MOZ_MUST_USE
 bool
 ParseSingleTokenVariant
 (
@@ -16664,6 +16684,9 @@ descName
 )
 )
 {
+Unused
+<
+<
 SkipDeclaration
 (
 true
@@ -66063,6 +66086,9 @@ fillKTable
 )
 )
 {
+Unused
+<
+<
 ParseSingleTokenVariant
 (
 second
@@ -66082,6 +66108,9 @@ shapeKTable
 )
 )
 {
+Unused
+<
+<
 ParseSingleTokenVariant
 (
 second
@@ -72345,6 +72374,9 @@ if
 aIsBoxShadow
 )
 {
+Unused
+<
+<
 ParseSingleTokenVariant
 (
 val
@@ -72698,6 +72730,9 @@ GetUnit
 eCSSUnit_Null
 )
 {
+Unused
+<
+<
 ParseSingleTokenVariant
 (
 val
