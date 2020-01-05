@@ -784,6 +784,17 @@ load
 .
 svg
 asserts
+(
+2
+)
+load
+606914
+.
+xhtml
+#
+bug
+606914
+asserts
 -
 if
 (
