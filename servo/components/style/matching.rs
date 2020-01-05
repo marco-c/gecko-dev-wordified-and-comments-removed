@@ -2082,6 +2082,7 @@ touch
 (
 index
 )
+;
 }
 }
 pub
