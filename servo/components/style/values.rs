@@ -9299,15 +9299,9 @@ self
 >
 f32
 {
-let
-Angle
-(
-radians
-)
-=
 self
-;
-radians
+.
+0
 }
 }
 const
