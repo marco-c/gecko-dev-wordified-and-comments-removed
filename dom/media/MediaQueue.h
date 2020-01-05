@@ -178,6 +178,12 @@ mReentrantMonitor
 ;
 MOZ_ASSERT
 (
+!
+mEndOfStream
+)
+;
+MOZ_ASSERT
+(
 aItem
 )
 ;
@@ -415,6 +421,12 @@ mon
 mReentrantMonitor
 )
 ;
+if
+(
+!
+mEndOfStream
+)
+{
 mEndOfStream
 =
 true
@@ -425,6 +437,7 @@ Notify
 (
 )
 ;
+}
 }
 int64_t
 Duration
