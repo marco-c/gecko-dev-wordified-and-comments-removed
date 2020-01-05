@@ -5498,7 +5498,7 @@ iter
 {
 box_
 .
-assign_height
+assign_replaced_height_if_necessary
 (
 )
 ;
