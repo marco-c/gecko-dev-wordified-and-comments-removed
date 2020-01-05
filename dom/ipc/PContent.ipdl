@@ -1168,7 +1168,7 @@ GetFilesResponseFailure
 struct
 FileCreationSuccessResult
 {
-IPCBlob
+PBlob
 blob
 ;
 }
