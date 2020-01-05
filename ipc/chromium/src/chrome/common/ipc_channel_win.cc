@@ -1127,6 +1127,10 @@ GetLastError
 (
 )
 ;
+closed_
+=
+true
+;
 return
 false
 ;
