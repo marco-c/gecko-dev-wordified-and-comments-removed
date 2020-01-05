@@ -182,6 +182,13 @@ boolean
 force
 )
 ;
+[
+Pure
+]
+attribute
+DOMString
+value
+;
 stringifier
 ;
 }

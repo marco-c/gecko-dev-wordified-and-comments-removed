@@ -263,6 +263,9 @@ className
 ;
 [
 SameObject
+PutForwards
+=
+value
 ]
 readonly
 attribute
