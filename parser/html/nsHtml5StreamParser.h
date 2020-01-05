@@ -906,6 +906,12 @@ nsITimer
 >
 mFlushTimer
 ;
+mozilla
+:
+:
+Mutex
+mFlushTimerMutex
+;
 bool
 mFlushTimerArmed
 ;
