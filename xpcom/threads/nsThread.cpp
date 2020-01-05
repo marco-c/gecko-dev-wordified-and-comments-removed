@@ -3651,6 +3651,16 @@ nsIRunnable
 aEvent
 )
 {
+MOZ_ASSERT
+(
+PR_GetCurrentThread
+(
+)
+=
+=
+mThread
+)
+;
 MutexAutoLock
 lock
 (
