@@ -1790,10 +1790,6 @@ aDeclaration
 )
 )
 {
-SetIsNotDOMBinding
-(
-)
-;
 mDeclaration
 -
 >
@@ -1910,6 +1906,12 @@ aCssText
 )
 const
 override
+;
+nsICSSDeclaration
+*
+Style
+(
+)
 ;
 const
 nsTArray

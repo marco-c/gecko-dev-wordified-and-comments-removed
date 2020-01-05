@@ -80,9 +80,6 @@ class
 nsWindowRoot
 ;
 class
-nsCSSKeyframeRule
-;
-class
 nsCSSKeyframesRule
 ;
 class
@@ -765,10 +762,6 @@ nsInProcessTabChildGlobal
 friend
 class
 nsWindowRoot
-;
-friend
-class
-nsCSSKeyframeRule
 ;
 friend
 class
