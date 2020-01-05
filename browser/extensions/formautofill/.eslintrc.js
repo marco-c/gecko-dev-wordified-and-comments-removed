@@ -105,7 +105,7 @@ tests
 "
 :
 "
-warn
+error
 "
 "
 mozilla
@@ -122,7 +122,7 @@ level
 "
 :
 "
-warn
+error
 "
 "
 valid
