@@ -20,14 +20,6 @@ macro_use
 ]
 extern
 crate
-lazy_static
-;
-#
-[
-macro_use
-]
-extern
-crate
 log
 ;
 extern
@@ -37,10 +29,6 @@ parking_lot
 extern
 crate
 selectors
-;
-extern
-crate
-servo_url
 ;
 #
 [
