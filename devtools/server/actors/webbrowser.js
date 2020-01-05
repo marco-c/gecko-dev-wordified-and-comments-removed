@@ -2555,6 +2555,11 @@ _tabbrowser
 {
 if
 (
+this
+.
+_browser
+&
+&
 typeof
 this
 .
@@ -2737,6 +2742,11 @@ if
 this
 .
 _browser
+&
+&
+this
+.
+_browser
 .
 __SS_restore
 )
@@ -2815,6 +2825,11 @@ url
 {
 if
 (
+this
+.
+_browser
+&
+&
 this
 .
 _browser
