@@ -311,18 +311,6 @@ caches
 ;
 WorkerGlobalScope
 implements
-WindowTimers
-;
-WorkerGlobalScope
-implements
-WindowBase64
-;
-WorkerGlobalScope
-implements
-GlobalFetch
-;
-WorkerGlobalScope
-implements
 GlobalCrypto
 ;
 WorkerGlobalScope
@@ -331,7 +319,7 @@ IDBEnvironment
 ;
 WorkerGlobalScope
 implements
-ImageBitmapFactories
+WindowOrWorkerGlobalScope
 ;
 /
 /

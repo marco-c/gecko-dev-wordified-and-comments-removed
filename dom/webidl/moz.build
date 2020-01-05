@@ -3092,6 +3092,11 @@ WifiOptions
 webidl
 '
 '
+WindowOrWorkerGlobalScope
+.
+webidl
+'
+'
 WindowRoot
 .
 webidl
