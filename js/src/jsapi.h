@@ -18034,7 +18034,7 @@ JS
 :
 :
 HandleObject
-promise
+promiseObj
 JS
 :
 :
@@ -18056,7 +18056,7 @@ JS
 :
 :
 HandleObject
-promise
+promiseObj
 JS
 :
 :
