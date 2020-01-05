@@ -278,7 +278,13 @@ MainThread
 ;
 static
 void
-InitStatics
+InitTLS
+(
+)
+;
+static
+void
+InitMainThread
 (
 )
 ;
