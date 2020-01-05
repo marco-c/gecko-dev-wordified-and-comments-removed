@@ -20,9 +20,6 @@ rst
 bouncer_submitter
 .
 rst
-bump_gaia_json
-.
-rst
 configtest
 .
 rst
@@ -33,15 +30,6 @@ desktop_unittest
 .
 rst
 fx_desktop_build
-.
-rst
-gaia_build_integration
-.
-rst
-gaia_integration
-.
-rst
-gaia_unit
 .
 rst
 marionette
