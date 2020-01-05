@@ -1240,7 +1240,13 @@ deadline
 routes
 "
 :
+parent_task
+.
+task
 [
+'
+routes
+'
 ]
         
 "
@@ -1319,6 +1325,18 @@ mozharness
 }
     
 }
+    
+parent_task
+.
+task
+[
+'
+routes
+'
+]
+=
+[
+]
     
 label
 =
