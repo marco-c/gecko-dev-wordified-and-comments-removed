@@ -785,6 +785,16 @@ StickyTimeDuration
 )
 )
 ;
+enum
+class
+TransitionPhase
+;
+TransitionPhase
+GetTransitionPhaseWithoutEffect
+(
+)
+const
+;
 OwningElementRef
 mOwningElement
 ;
