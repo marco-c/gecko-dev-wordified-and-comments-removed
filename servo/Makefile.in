@@ -990,8 +990,12 @@ PHONY
 :
 check
 -
+rust
+-
 geom
 check
+-
+rust
 -
 geom
 :
