@@ -804,6 +804,9 @@ getApplied
 (
 node
 {
+skipPseudo
+:
+true
 }
 )
 ;

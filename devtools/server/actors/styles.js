@@ -2288,6 +2288,12 @@ oneRule
 if
 (
 showElementStyles
+&
+&
+!
+options
+.
+skipPseudo
 )
 {
 for
