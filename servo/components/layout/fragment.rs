@@ -6730,6 +6730,9 @@ style_specified_intrinsic_inline_size
 (
 )
 ;
+let
+use_border_padding
+=
 match
 self
 .
@@ -6757,6 +6760,7 @@ TableWrapperFragment
 =
 >
 {
+true
 }
 InlineBlockFragment
 (
@@ -6834,6 +6838,7 @@ intrinsic_inline_sizes
 surround_inline_size
 )
 ;
+false
 }
 ImageFragment
 (
@@ -6877,6 +6882,7 @@ preferred_inline_size
 image_inline_size
 )
 ;
+true
 }
 ScannedTextFragment
 (
@@ -6982,6 +6988,7 @@ preferred_inline_size
 max_line_inline_size
 )
 ;
+true
 }
 UnscannedTextFragment
 (
@@ -7007,6 +7014,7 @@ now
 "
 )
 }
+;
 /
 /
 Take
@@ -7022,6 +7030,9 @@ account
 if
 necessary
 .
+if
+use_border_padding
+{
 match
 self
 .
@@ -7110,6 +7121,7 @@ border_width
 +
 padding_inline_size
 ;
+}
 }
 }
 }
@@ -9110,8 +9122,6 @@ base
 intrinsic_inline_sizes
 .
 surround_inline_size
-+
-noncontent_inline_size
 ;
 block_flow
 .
