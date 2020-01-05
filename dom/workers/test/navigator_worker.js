@@ -41,6 +41,9 @@ storage
 nightly
 :
 true
+isSecureContext
+:
+true
 }
 "
 connection
@@ -148,6 +151,16 @@ release
 channelData
 .
 isRelease
+|
+|
+prop
+.
+isSecureContext
+=
+=
+=
+!
+isSecureContext
 )
 {
 interfaceMap
