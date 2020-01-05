@@ -22,6 +22,12 @@ app_units
 Au
 ;
 use
+bit_vec
+:
+:
+BitVec
+;
+use
 bloom
 :
 :
@@ -437,6 +443,13 @@ OpaqueNode
 is_initial_style
 :
 bool
+pub
+revalidation_match_results
+:
+Option
+<
+BitVec
+>
 #
 [
 allow
@@ -1615,6 +1628,9 @@ data
 has_styles
 (
 )
+revalidation_match_results
+:
+None
 possibly_expired_animations
 :
 Vec

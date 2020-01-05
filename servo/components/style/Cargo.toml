@@ -176,6 +176,17 @@ bitflags
 .
 7
 "
+bit
+-
+vec
+=
+"
+0
+.
+4
+.
+3
+"
 byteorder
 =
 "
