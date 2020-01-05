@@ -1446,7 +1446,7 @@ mSessionRestoreParsingFinished
 =
 false
 ;
-private
+protected
 int
 lastSelectedTabId
 =
