@@ -67,6 +67,12 @@ MPL
 use
 std
 ;
+use
+sdl
+;
+use
+azure
+;
 mod
 dom
 {
