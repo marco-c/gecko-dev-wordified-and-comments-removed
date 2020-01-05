@@ -115,6 +115,14 @@ drain
 [
 feature
 (
+fnbox
+)
+]
+#
+!
+[
+feature
+(
 hashmap_hasher
 )
 ]

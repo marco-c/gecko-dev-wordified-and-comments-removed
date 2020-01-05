@@ -5372,7 +5372,7 @@ DevtoolScriptControlMsg
 RequestAnimationFrame
 (
 pipeline_id
-callback
+name
 )
 =
 >
@@ -5384,7 +5384,7 @@ handle_request_animation_frame
 &
 page
 pipeline_id
-callback
+name
 )
 }
 }

@@ -1085,12 +1085,6 @@ IpcSender
 <
 DevtoolScriptControlMsg
 >
-devtools_sender
-:
-Sender
-<
-DevtoolsControlMsg
->
 actor_pipelines
 :
 &
@@ -1261,7 +1255,6 @@ timeline
 )
 pipeline
 script_sender
-devtools_sender
 )
 ;
 let
@@ -2563,9 +2556,9 @@ Ok
 DevtoolsControlMsg
 :
 :
-FromChrome
+FromScript
 (
-ChromeToDevtoolsControlMsg
+ScriptToDevtoolsControlMsg
 :
 :
 FramerateTick
@@ -2616,11 +2609,6 @@ clone
 )
 ids
 script_sender
-sender
-.
-clone
-(
-)
 &
 mut
 actor_pipelines
