@@ -442,7 +442,6 @@ impl
 BoxGenerator
 {
 static
-pub
 pure
 fn
 new

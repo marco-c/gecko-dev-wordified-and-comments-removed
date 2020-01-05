@@ -226,7 +226,6 @@ impl
 TextRun
 {
 static
-pub
 fn
 new
 (

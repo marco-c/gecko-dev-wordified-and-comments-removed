@@ -1188,7 +1188,7 @@ if
 -
 z
 "
-CFG_ENABLE_LOCAL_RUST
+CFG_LOCAL_RUST_ROOT
 "
 ]
 then
@@ -1901,6 +1901,8 @@ putvar
 CFG_SUBMODULES
 putvar
 CFG_DISABLE_MANAGE_SUBMODULES
+putvar
+CFG_RUSTC
 msg
 copy_if_changed
 {

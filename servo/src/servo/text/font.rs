@@ -333,7 +333,6 @@ own
 fontbuf
 ?
 static
-pub
 fn
 new
 (
