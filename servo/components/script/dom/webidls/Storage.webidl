@@ -148,8 +148,6 @@ DOMString
 name
 )
 ;
-/
-/
 setter
 creator
 void
@@ -161,14 +159,6 @@ DOMString
 value
 )
 ;
-/
-/
-deleter
-not
-supported
-yet
-/
-/
 deleter
 void
 removeItem

@@ -218,6 +218,15 @@ resource_task
 ResourceTask
 ;
 use
+servo_net
+:
+:
+storage_task
+:
+:
+StorageTask
+;
+use
 servo_util
 :
 :
@@ -447,6 +456,10 @@ pub
 resource_task
 :
 ResourceTask
+pub
+storage_task
+:
+StorageTask
 pub
 constellation_chan
 :
@@ -680,6 +693,9 @@ WindowSizeData
 resource_task
 :
 ResourceTask
+storage_task
+:
+StorageTask
 constellation_chan
 :
 ConstellationChan
@@ -872,6 +888,9 @@ new
 resource_task
 :
 resource_task
+storage_task
+:
+storage_task
 constellation_chan
 :
 constellation_chan

@@ -121,6 +121,10 @@ pub
 mod
 resource_task
 ;
+pub
+mod
+storage_task
+;
 mod
 sniffer_task
 ;

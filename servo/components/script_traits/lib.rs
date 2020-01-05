@@ -149,6 +149,15 @@ resource_task
 ResourceTask
 ;
 use
+servo_net
+:
+:
+storage_task
+:
+:
+StorageTask
+;
+use
 servo_util
 :
 :
@@ -456,6 +465,9 @@ Failure
 resource_task
 :
 ResourceTask
+storage_task
+:
+StorageTask
 image_cache_task
 :
 ImageCacheTask
