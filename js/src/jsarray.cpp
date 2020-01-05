@@ -4258,16 +4258,9 @@ if
 obj
 )
 {
-JS_ReportErrorASCII
+ReportAccessDenied
 (
 cx
-"
-Permission
-denied
-to
-access
-object
-"
 )
 ;
 return

@@ -9528,12 +9528,9 @@ if
 unwrappedPromiseObj
 )
 {
-JS_ReportErrorNumberASCII
+ReportAccessDenied
 (
 cx
-GetErrorMessage
-nullptr
-JSMSG_UNWRAP_DENIED
 )
 ;
 return

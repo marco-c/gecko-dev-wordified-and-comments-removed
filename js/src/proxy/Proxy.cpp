@@ -154,12 +154,9 @@ id
 )
 )
 {
-JS_ReportErrorNumberASCII
+ReportAccessDenied
 (
 cx
-GetErrorMessage
-nullptr
-JSMSG_OBJECT_ACCESS_DENIED
 )
 ;
 }
