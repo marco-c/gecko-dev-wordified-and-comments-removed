@@ -910,6 +910,7 @@ ExitPipeline
 (
 PipelineId
 )
+ExitScriptThread
 SendEvent
 (
 PipelineId
@@ -1128,6 +1129,12 @@ ExitPipeline
 >
 "
 ExitPipeline
+"
+ExitScriptThread
+=
+>
+"
+ExitScriptThread
 "
 SendEvent
 (
