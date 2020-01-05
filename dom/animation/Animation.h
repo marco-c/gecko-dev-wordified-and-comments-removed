@@ -741,6 +741,16 @@ GetCurrentOrPendingStartTime
 )
 const
 ;
+TimeDuration
+StartTimeFromReadyTime
+(
+const
+TimeDuration
+&
+aReadyTime
+)
+const
+;
 TimeStamp
 AnimationTimeToTimeStamp
 (
