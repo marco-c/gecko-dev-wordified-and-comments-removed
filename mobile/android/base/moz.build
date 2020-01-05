@@ -2310,11 +2310,6 @@ GeckoViewChrome
 java
 '
 '
-GeckoViewContent
-.
-java
-'
-'
 GeckoViewFragment
 .
 java
