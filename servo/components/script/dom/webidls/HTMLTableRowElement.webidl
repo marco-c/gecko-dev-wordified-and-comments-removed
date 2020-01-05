@@ -209,8 +209,6 @@ attribute
 DOMString
 vAlign
 ;
-/
-/
 [
 TreatNullAs
 =

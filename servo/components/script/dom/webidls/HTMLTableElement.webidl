@@ -289,8 +289,6 @@ attribute
 DOMString
 width
 ;
-/
-/
 [
 TreatNullAs
 =
