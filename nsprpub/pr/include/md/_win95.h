@@ -880,6 +880,15 @@ define
 _MD_SENDTO
 _PR_MD_SENDTO
 #
+ifdef
+_WIN64
+#
+define
+_MD_TCPSENDTO
+_PR_MD_TCPSENDTO
+#
+endif
+#
 define
 _MD_RECVFROM
 _PR_MD_RECVFROM
