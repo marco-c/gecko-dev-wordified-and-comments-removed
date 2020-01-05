@@ -398,6 +398,7 @@ WebGLFBAttachPoint
 &
 mRef
 ;
+explicit
 Ordered
 (
 const
@@ -645,6 +646,7 @@ Ordered
 >
 readSet
 ;
+explicit
 ResolvedData
 (
 const
