@@ -125,6 +125,9 @@ in
 android
 '
 '
+cocoa
+'
+'
 gonk
 '
 '
@@ -270,11 +273,6 @@ EXPORTS
 [
 '
 nsINativeMenuService
-.
-h
-'
-'
-nsIPrintDialogService
 .
 h
 '

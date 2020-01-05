@@ -1117,6 +1117,8 @@ nsIPrintSettings
 aNSSettings
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_PRECONDITION
 (
 aParent
@@ -1220,6 +1222,8 @@ NSFileHandlingPanelOKButton
 NS_OK
 :
 NS_ERROR_ABORT
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
