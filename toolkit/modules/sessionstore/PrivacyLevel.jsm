@@ -74,8 +74,6 @@ freeze
 (
 {
 check
-:
-function
 (
 url
 )
@@ -102,8 +100,6 @@ https
 ;
 }
 canSave
-:
-function
 (
 {
 isHttps

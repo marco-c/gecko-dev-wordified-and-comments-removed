@@ -648,6 +648,13 @@ sessionstore
 '
 sessionstore
 /
+PrivacyLevel
+.
+jsm
+'
+'
+sessionstore
+/
 Utils
 .
 jsm

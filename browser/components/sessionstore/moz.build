@@ -197,11 +197,6 @@ PrivacyFilter
 jsm
 '
 '
-PrivacyLevel
-.
-jsm
-'
-'
 RecentlyClosedTabsAndWindowsMenuUtils
 .
 jsm
