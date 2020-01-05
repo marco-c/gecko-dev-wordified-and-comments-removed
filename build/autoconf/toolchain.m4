@@ -62,6 +62,8 @@ AC_PROG_CPP
 /
 AC_PROG_CXXCPP
 dnl
+or
+AC_HEADER_STDC
 meaning
 they
 are
@@ -73,6 +75,7 @@ don
 '
 t
 call
+dnl
 them
 explicitly
 .
@@ -112,6 +115,14 @@ define
 (
 [
 AC_PROG_CXXCPP
+]
+[
+]
+)
+define
+(
+[
+AC_HEADER_STDC
 ]
 [
 ]
