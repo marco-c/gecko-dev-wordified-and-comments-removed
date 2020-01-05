@@ -221,6 +221,10 @@ priv
 mod
 select_handler
 ;
+pub
+mod
+compute
+;
 }
 pub
 mod
