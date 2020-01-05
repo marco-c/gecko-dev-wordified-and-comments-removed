@@ -10,6 +10,15 @@ AbstractNode
 LayoutData
 }
 ;
+use
+servo_util
+:
+:
+tree
+:
+:
+TreeUtils
+;
 pub
 trait
 LayoutAuxMethods

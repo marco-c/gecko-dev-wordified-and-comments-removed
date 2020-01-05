@@ -166,6 +166,15 @@ JS_THIS_OBJECT
 JSPROP_NATIVE_ACCESSORS
 }
 ;
+use
+servo_util
+:
+:
+tree
+:
+:
+TreeNodeRef
+;
 pub
 fn
 init
@@ -1114,7 +1123,7 @@ self
 .
 with_mut_node
 |
-n
+node
 |
 {
 unsafe
@@ -1125,7 +1134,7 @@ cast
 transmute
 (
 &
-n
+node
 .
 wrapper
 )
