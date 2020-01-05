@@ -51,16 +51,7 @@ use
 azure
 :
 :
-{
 AZ_CAP_BUTT
-AZ_CAP_ROUND
-}
-;
-use
-azure
-:
-:
-AZ_JOIN_BEVEL
 ;
 use
 azure
