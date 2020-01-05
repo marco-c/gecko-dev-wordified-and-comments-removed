@@ -564,14 +564,6 @@ char
 )
 false
 )
-PROFILER_FUNC_VOID
-(
-profiler_set_frame_number
-(
-int
-frameNumber
-)
-)
 PROFILER_FUNC
 (
 mozilla

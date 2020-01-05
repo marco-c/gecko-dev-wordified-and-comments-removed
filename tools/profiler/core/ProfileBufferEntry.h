@@ -163,12 +163,6 @@ void
 \
 _
 (
-FrameNumber
-int
-)
-\
-_
-(
 JitReturnAddr
 void
 *
