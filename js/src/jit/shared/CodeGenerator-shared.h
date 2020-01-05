@@ -447,17 +447,6 @@ js
 :
 Vector
 <
-CodeOffset
-0
-SystemAllocPolicy
->
-patchableTraceLoggers_
-;
-js
-:
-:
-Vector
-<
 PatchableTLEvent
 0
 SystemAllocPolicy

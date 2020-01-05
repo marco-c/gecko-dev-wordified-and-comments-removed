@@ -6959,14 +6959,9 @@ TraceLoggerThread
 *
 logger
 =
-TraceLoggerForMainThread
+TraceLoggerForCurrentThread
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 TraceLogStopEvent
@@ -7532,7 +7527,6 @@ frameNo
 TraceLoggerEvent
 scriptEvent
 (
-logger
 TraceLogger_Scripts
 scr
 )

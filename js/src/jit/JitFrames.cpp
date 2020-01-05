@@ -4122,14 +4122,9 @@ TraceLoggerThread
 *
 logger
 =
-TraceLoggerForMainThread
+TraceLoggerForCurrentThread
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 AutoResetLastProfilerFrameOnReturnFromException

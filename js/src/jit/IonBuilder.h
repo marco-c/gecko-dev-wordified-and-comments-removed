@@ -5965,14 +5965,8 @@ traceLogger
 )
 {
 return
-TraceLoggerForMainThread
+TraceLoggerForCurrentThread
 (
-compartment
--
->
-runtime
-(
-)
 )
 ;
 }

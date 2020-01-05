@@ -31119,9 +31119,8 @@ return
 AutoTraceLog
 logGC
 (
-TraceLoggerForMainThread
+TraceLoggerForCurrentThread
 (
-rt
 )
 TraceLogger_GC
 )
@@ -32231,9 +32230,8 @@ TraceLoggerThread
 *
 logger
 =
-TraceLoggerForMainThread
+TraceLoggerForCurrentThread
 (
-runtime
 )
 ;
 AutoTraceLog

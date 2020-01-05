@@ -1421,6 +1421,12 @@ size_t
 count
 )
 ;
+HelperThread
+*
+CurrentHelperThread
+(
+)
+;
 void
 PauseCurrentHelperThread
 (

@@ -1516,16 +1516,6 @@ oldCount
 0
 )
 ;
-#
-ifdef
-JS_TRACE_LOGGING
-DestroyTraceLoggerMainThread
-(
-this
-)
-;
-#
-endif
 js_delete
 (
 zoneGroupFromMainThread
