@@ -2498,16 +2498,9 @@ pattern
 =
 "
 impl
-<
-'
-a
->
 %
 sMethods
 for
-&
-'
-a
 %
 s
 {
