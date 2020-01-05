@@ -435,12 +435,6 @@ peeking
 "
 )
 ;
-let
-mut
-i
-=
-0u
-;
 while
 po
 .
