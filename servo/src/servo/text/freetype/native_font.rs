@@ -62,12 +62,6 @@ glyph
 GlyphIndex
 ;
 use
-font
-:
-:
-FontMetrics
-;
-use
 freetype
 :
 :
