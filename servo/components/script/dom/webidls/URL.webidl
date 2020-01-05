@@ -103,8 +103,6 @@ USVString
 domain
 )
 ;
-/
-/
 static
 USVString
 domainToUnicode
