@@ -266,8 +266,9 @@ path
 fill
 =
 "
-#
-0077ff
+context
+-
+fill
 "
 fill
 -
@@ -351,8 +352,9 @@ myMask
 fill
 =
 "
-#
-0090ff
+context
+-
+fill
 "
 d
 =
