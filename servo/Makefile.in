@@ -614,6 +614,8 @@ src
 compiler
 /
 rust
+/
+rust
 -
 auto
 -
@@ -2051,6 +2053,8 @@ all
 src
 /
 compiler
+/
+rust
 /
 rust
 -
