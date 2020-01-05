@@ -5677,9 +5677,8 @@ aStyle
 void
 SetListStyleType
 (
-const
-nsSubstring
-&
+nsIAtom
+*
 aType
 nsPresContext
 *

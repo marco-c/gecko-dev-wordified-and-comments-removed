@@ -709,7 +709,10 @@ uint32_t
 aLineOffset
 )
 ;
-bool
+already_AddRefed
+<
+nsIAtom
+>
 ParseCounterStyleName
 (
 const
@@ -719,9 +722,6 @@ aBuffer
 nsIURI
 *
 aURL
-nsAString
-&
-aName
 )
 ;
 bool

@@ -4249,7 +4249,10 @@ mKeyframesRuleTable
 ;
 nsDataHashtable
 <
-nsStringHashKey
+nsPtrHashKey
+<
+nsIAtom
+>
 nsCSSCounterStyleRule
 *
 >
@@ -13771,9 +13774,8 @@ CounterStyleRuleForName
 nsPresContext
 *
 aPresContext
-const
-nsAString
-&
+nsIAtom
+*
 aName
 )
 {
@@ -17163,7 +17165,7 @@ Put
 rule
 -
 >
-GetName
+Name
 (
 )
 rule

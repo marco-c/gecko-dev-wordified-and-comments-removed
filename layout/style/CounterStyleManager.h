@@ -623,9 +623,8 @@ CounterStyle
 *
 BuildCounterStyle
 (
-const
-nsSubstring
-&
+nsIAtom
+*
 aName
 )
 ;
@@ -694,7 +693,10 @@ mPresContext
 ;
 nsRefPtrHashtable
 <
-nsStringHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 CounterStyle
 >
 mCacheTable

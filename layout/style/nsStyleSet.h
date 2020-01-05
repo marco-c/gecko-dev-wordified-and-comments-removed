@@ -939,9 +939,8 @@ nsCSSCounterStyleRule
 *
 CounterStyleRuleForName
 (
-const
-nsAString
-&
+nsIAtom
+*
 aName
 )
 ;

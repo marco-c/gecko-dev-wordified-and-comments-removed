@@ -11335,9 +11335,8 @@ nsStyleSet
 :
 CounterStyleRuleForName
 (
-const
-nsAString
-&
+nsIAtom
+*
 aName
 )
 {

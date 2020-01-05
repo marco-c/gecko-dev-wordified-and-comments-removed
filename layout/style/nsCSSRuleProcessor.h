@@ -604,9 +604,8 @@ CounterStyleRuleForName
 nsPresContext
 *
 aPresContext
-const
-nsAString
-&
+nsIAtom
+*
 aName
 )
 ;

@@ -3603,6 +3603,16 @@ aUnit
 )
 ;
 void
+SetAtomIdentValue
+(
+already_AddRefed
+<
+nsIAtom
+>
+aValue
+)
+;
+void
 SetColorValue
 (
 nscolor
