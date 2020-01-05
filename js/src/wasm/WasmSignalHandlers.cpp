@@ -8291,7 +8291,7 @@ if
 !
 AddVectoredExceptionHandler
 (
-true
+false
 WasmFaultHandler
 )
 )
