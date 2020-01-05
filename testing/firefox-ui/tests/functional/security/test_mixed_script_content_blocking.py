@@ -174,6 +174,7 @@ enabled
             
 color
 icon_filename
+identity
 state
 =
 (
@@ -188,9 +189,29 @@ rgb
 '
                 
 '
-identity
+url
+(
+"
+chrome
+:
+/
+/
+browser
+/
+skin
+/
+connection
 -
 secure
+.
+svg
+"
+)
+'
+                
+'
+verifiedDomain
+mixedActiveBlocked
 '
                 
 '
@@ -204,6 +225,7 @@ else
             
 color
 icon_filename
+identity
 state
 =
 (
@@ -218,13 +240,35 @@ rgb
 '
                 
 '
-identity
+url
+(
+"
+chrome
+:
+/
+/
+browser
+/
+skin
+/
+connection
 -
 mixed
 -
 active
 -
 loaded
+.
+svg
+#
+icon
+"
+)
+'
+                
+'
+unknownIdentity
+mixedActiveContent
 '
                 
 '
@@ -261,8 +305,6 @@ until
 lambda
 _
 :
-icon_filename
-in
 connection_icon
 .
 value_of_css_property
@@ -275,17 +317,48 @@ style
 image
 '
 )
+=
+=
+icon_filename
             
 message
 =
-"
-The
-correct
+'
+Connection
 icon
-is
-displayed
 "
+{
+}
+"
+is
+not
+set
+'
+.
+format
+(
+icon_filename
+)
         
+)
+        
+self
+.
+assertEqual
+(
+self
+.
+locationbar
+.
+identity_box
+.
+get_attribute
+(
+'
+className
+'
+)
+identity
 )
         
 with
