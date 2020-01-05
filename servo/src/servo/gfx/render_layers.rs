@@ -99,7 +99,7 @@ TILE_SIZE
 :
 uint
 =
-512
+4096
 ;
 pub
 struct
