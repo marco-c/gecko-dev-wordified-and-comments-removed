@@ -582,7 +582,7 @@ aEndFrame
 const
 ;
 virtual
-void
+bool
 UpdateCaretsForOverlappingTilt
 (
 )

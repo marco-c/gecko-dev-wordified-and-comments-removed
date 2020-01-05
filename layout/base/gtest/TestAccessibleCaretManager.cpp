@@ -327,12 +327,15 @@ true
 ;
 }
 virtual
-void
+bool
 UpdateCaretsForOverlappingTilt
 (
 )
 override
 {
+return
+true
+;
 }
 virtual
 void
