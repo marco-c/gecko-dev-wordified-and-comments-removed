@@ -4110,6 +4110,11 @@ Ovr
 :
 ?
 }
+Dmg
+{
+:
+?
+}
 "
 self
 .
@@ -4137,6 +4142,9 @@ len
 self
 .
 overflow
+self
+.
+restyle_damage
 )
 }
 }

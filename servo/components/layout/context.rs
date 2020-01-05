@@ -522,7 +522,7 @@ image_cache_sender
 :
 ImageCacheChan
 pub
-screen_size
+viewport_size
 :
 Size2D
 <

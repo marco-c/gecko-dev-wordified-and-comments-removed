@@ -2454,7 +2454,7 @@ cascade
 (
 layout_context
 .
-screen_size
+viewport_size
 applicable_declarations
 shareable
 Some
@@ -2490,7 +2490,7 @@ cascade
 (
 layout_context
 .
-screen_size
+viewport_size
 applicable_declarations
 shareable
 None
