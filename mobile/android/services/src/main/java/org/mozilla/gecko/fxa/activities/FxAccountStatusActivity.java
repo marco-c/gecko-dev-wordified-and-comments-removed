@@ -836,13 +836,11 @@ fxaccount_remove_account_dialog_message
 .
 setPositiveButton
 (
-android
-.
 R
 .
 string
 .
-ok
+fxaccount_remove_account_dialog_action_confirm
 new
 Dialog
 .
