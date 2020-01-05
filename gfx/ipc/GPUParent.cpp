@@ -370,6 +370,13 @@ InitNullMetadata
 (
 )
 ;
+gfxPlatform
+:
+:
+InitMoz2DLogging
+(
+)
+;
 #
 if
 defined

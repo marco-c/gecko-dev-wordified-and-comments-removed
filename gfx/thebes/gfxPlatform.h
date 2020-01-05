@@ -635,6 +635,12 @@ InitNullMetadata
 (
 )
 ;
+static
+void
+InitMoz2DLogging
+(
+)
+;
 virtual
 already_AddRefed
 <
