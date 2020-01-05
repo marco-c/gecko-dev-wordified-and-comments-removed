@@ -233,7 +233,6 @@ Throws
 void
 send
 (
-optional
 USVString
 data
 )
