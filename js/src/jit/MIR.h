@@ -22789,10 +22789,6 @@ setGuard
 (
 )
 ;
-setMovable
-(
-)
-;
 }
 public
 :
@@ -22933,10 +22929,6 @@ Int32
 )
 ;
 setGuard
-(
-)
-;
-setMovable
 (
 )
 ;
@@ -29434,6 +29426,7 @@ if
 (
 trapOnError
 )
+{
 div
 -
 >
@@ -29441,6 +29434,14 @@ setGuard
 (
 )
 ;
+div
+-
+>
+setNotMovable
+(
+)
+;
+}
 div
 -
 >
@@ -30026,6 +30027,7 @@ if
 (
 trapOnError
 )
+{
 mod
 -
 >
@@ -30033,6 +30035,14 @@ setGuard
 (
 )
 ;
+mod
+-
+>
+setNotMovable
+(
+)
+;
+}
 if
 (
 type
