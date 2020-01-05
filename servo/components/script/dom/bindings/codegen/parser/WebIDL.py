@@ -18306,24 +18306,13 @@ value
 24
 :
                 
-floatType
-=
-BuiltinTypes
-[
-IDLBuiltinType
-.
-Types
-.
-float
-]
-                
 return
 IDLValue
 (
 self
 .
 location
-floatType
+type
 float
 (
 self
@@ -18539,7 +18528,16 @@ location
 ;
             
 return
+IDLValue
+(
 self
+.
+location
+type
+self
+.
+value
+)
         
 elif
 self

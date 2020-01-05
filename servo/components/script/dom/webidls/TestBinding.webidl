@@ -211,8 +211,6 @@ unsignedLongLongValue
 =
 7
 ;
-/
-/
 unrestricted
 float
 unrestrictedFloatValue
@@ -221,8 +219,6 @@ unrestrictedFloatValue
 .
 0
 ;
-/
-/
 float
 floatValue
 =
@@ -230,8 +226,6 @@ floatValue
 .
 0
 ;
-/
-/
 unrestricted
 double
 UnrestrictedDoubleValue
@@ -240,8 +234,6 @@ UnrestrictedDoubleValue
 .
 0
 ;
-/
-/
 double
 doubleValue
 =
@@ -334,8 +326,6 @@ nullableUnsignedLongLongValue
 =
 7
 ;
-/
-/
 unrestricted
 float
 ?
@@ -345,8 +335,6 @@ nullableUnrestrictedFloatValue
 .
 0
 ;
-/
-/
 float
 ?
 nullableFloatValue
@@ -355,8 +343,6 @@ nullableFloatValue
 .
 0
 ;
-/
-/
 unrestricted
 double
 ?
@@ -366,8 +352,6 @@ nullableUnrestrictedDoubleValue
 .
 0
 ;
-/
-/
 double
 ?
 nullableDoubleValue
