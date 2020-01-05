@@ -188,7 +188,7 @@ core
 to_str
 :
 :
-to_str
+ToStr
 ;
 import
 std

@@ -70,7 +70,7 @@ import
 num
 :
 :
-num
+Num
 ;
 import
 util

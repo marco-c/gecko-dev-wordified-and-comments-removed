@@ -29,7 +29,7 @@ import
 num
 :
 :
-num
+Num
 ;
 enum
 au
@@ -39,7 +39,7 @@ int
 impl
 au
 :
-num
+Num
 {
 pure
 fn
@@ -208,7 +208,7 @@ box
 A
 :
 copy
-num
+Num
 >
 (
 x

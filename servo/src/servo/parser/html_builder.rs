@@ -143,7 +143,7 @@ import
 to_str
 :
 :
-to_str
+ToStr
 ;
 enum
 CSSMessage

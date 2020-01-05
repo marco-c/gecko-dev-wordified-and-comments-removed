@@ -853,7 +853,7 @@ core
 to_str
 :
 :
-to_str
+ToStr
 ;
 hashmap
 :
