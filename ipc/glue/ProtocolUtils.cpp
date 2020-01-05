@@ -239,8 +239,14 @@ IToplevelProtocol
 (
 ProtocolId
 aProtoId
+Side
+aSide
 )
 :
+IProtocol
+(
+aSide
+)
 mProtocolId
 (
 aProtoId
