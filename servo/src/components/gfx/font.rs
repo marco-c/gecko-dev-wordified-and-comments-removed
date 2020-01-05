@@ -58,7 +58,6 @@ computed_values
 :
 :
 {
-text_decoration
 font_weight
 font_style
 }
@@ -1102,12 +1101,6 @@ self
 text
 :
 String
-decoration
-:
-text_decoration
-:
-:
-T
 )
 -
 >
@@ -1152,7 +1145,6 @@ text
 clone
 (
 )
-decoration
 )
 }
 }
