@@ -442,11 +442,10 @@ aTrack
 {
 if
 (
-!
 self
 -
 >
-mDestroyed
+mDecoder
 )
 {
 nsCString
