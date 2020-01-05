@@ -7,7 +7,7 @@ PACKAGE_VERSION
 '
 0
 .
-23
+24
 '
 setup
 (
