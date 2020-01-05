@@ -35,6 +35,7 @@ const
 isGrip
 cropString
 cropMultipleLines
+wrapRender
 }
 =
 require
@@ -143,6 +144,8 @@ key
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -237,6 +240,7 @@ textContent
 )
 ;
 }
+)
 }
 )
 ;

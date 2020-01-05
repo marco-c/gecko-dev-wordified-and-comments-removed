@@ -33,6 +33,7 @@ react
 const
 {
 isGrip
+wrapRender
 }
 =
 require
@@ -515,6 +516,8 @@ attributeElements
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -627,6 +630,7 @@ elements
 )
 ;
 }
+)
 }
 )
 ;

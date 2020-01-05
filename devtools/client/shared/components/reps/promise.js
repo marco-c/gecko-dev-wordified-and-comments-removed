@@ -34,6 +34,7 @@ const
 {
 createFactories
 isGrip
+wrapRender
 }
 =
 require
@@ -300,6 +301,8 @@ length
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -500,6 +503,7 @@ object
 )
 ;
 }
+)
 }
 )
 ;

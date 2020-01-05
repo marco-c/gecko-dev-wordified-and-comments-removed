@@ -33,6 +33,7 @@ react
 const
 {
 isGrip
+wrapRender
 }
 =
 require
@@ -176,6 +177,8 @@ text
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -235,6 +238,7 @@ grip
 )
 ;
 }
+)
 }
 )
 ;

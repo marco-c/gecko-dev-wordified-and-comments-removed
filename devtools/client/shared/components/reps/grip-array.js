@@ -34,6 +34,7 @@ const
 {
 createFactories
 isGrip
+wrapRender
 }
 =
 require
@@ -570,6 +571,8 @@ items
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -825,6 +828,7 @@ group
 )
 ;
 }
+)
 }
 )
 ;

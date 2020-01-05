@@ -33,6 +33,7 @@ react
 const
 {
 createFactories
+wrapRender
 }
 =
 require
@@ -464,6 +465,8 @@ event
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -710,6 +713,7 @@ group
 )
 ;
 }
+)
 }
 )
 ;
@@ -732,6 +736,8 @@ ItemRep
 "
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -804,6 +810,7 @@ delim
 )
 ;
 }
+)
 }
 )
 )

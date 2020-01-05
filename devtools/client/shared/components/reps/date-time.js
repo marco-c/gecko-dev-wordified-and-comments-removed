@@ -33,6 +33,7 @@ react
 const
 {
 isGrip
+wrapRender
 }
 =
 require
@@ -125,6 +126,8 @@ return
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -213,6 +216,7 @@ return
 date
 ;
 }
+)
 }
 )
 ;

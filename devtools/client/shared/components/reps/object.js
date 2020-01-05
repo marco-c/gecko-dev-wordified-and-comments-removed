@@ -33,6 +33,7 @@ react
 const
 {
 createFactories
+wrapRender
 }
 =
 require
@@ -660,6 +661,8 @@ props
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -810,6 +813,7 @@ object
 )
 ;
 }
+)
 }
 )
 ;

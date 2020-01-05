@@ -34,6 +34,7 @@ const
 {
 isGrip
 cropString
+wrapRender
 }
 =
 require
@@ -165,6 +166,8 @@ name
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -213,6 +216,7 @@ grip
 )
 ;
 }
+)
 }
 )
 ;

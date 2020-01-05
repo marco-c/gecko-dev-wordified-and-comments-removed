@@ -33,6 +33,7 @@ react
 const
 {
 createFactories
+wrapRender
 }
 =
 require
@@ -72,10 +73,6 @@ DOM
 let
 PropRep
 =
-React
-.
-createFactory
-(
 React
 .
 createClass
@@ -155,6 +152,8 @@ key
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -321,8 +320,8 @@ delim
 )
 ;
 }
-}
 )
+}
 )
 ;
 exports

@@ -34,6 +34,7 @@ const
 {
 createFactories
 isGrip
+wrapRender
 }
 =
 require
@@ -164,6 +165,8 @@ title
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -505,6 +508,7 @@ props
 )
 ;
 }
+)
 }
 )
 ;
