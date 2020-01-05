@@ -1109,7 +1109,7 @@ platform
 phylum
 '
 {
-        
+            
 Required
 (
 '
@@ -1118,7 +1118,7 @@ script
 )
 :
 basestring
-        
+            
 Required
 (
 '
@@ -1128,18 +1128,18 @@ config
 :
 optionally_keyed_by
 (
-            
+                
 '
 test
 -
 platform
 '
-            
+                
 [
 basestring
 ]
 )
-        
+            
 Optional
 (
 '
@@ -1150,7 +1150,7 @@ actions
 [
 basestring
 ]
-        
+            
 Required
 (
 '
@@ -1166,18 +1166,18 @@ default
 :
 optionally_keyed_by
 (
-            
+                
 '
 test
 -
 platform
 '
-            
+                
 [
 basestring
 ]
 )
-        
+            
 Optional
 (
 '
@@ -1190,7 +1190,7 @@ name
 )
 :
 basestring
-        
+            
 Required
 (
 '
@@ -1204,7 +1204,7 @@ False
 )
 :
 bool
-        
+            
 Required
 (
 '
@@ -1222,7 +1222,7 @@ False
 )
 :
 bool
-        
+            
 Optional
 (
 '
@@ -1237,7 +1237,7 @@ branch
 )
 :
 bool
-        
+            
 Optional
 (
 '
@@ -1254,7 +1254,7 @@ True
 ondemand
 '
 )
-        
+            
 Required
 (
 '
@@ -1272,7 +1272,7 @@ False
 )
 :
 bool
-        
+            
 Required
 (
 '
@@ -1284,7 +1284,7 @@ False
 )
 :
 bool
-        
+            
 Required
 (
 '
@@ -1303,13 +1303,13 @@ chunk
 :
 Any
 (
-            
+                
 '
 this
 -
 chunk
 '
-            
+                
 '
 test
 -
@@ -1317,9 +1317,9 @@ suite
 -
 suffix
 '
-        
+            
 )
-        
+            
 Optional
 (
 '
@@ -1330,8 +1330,9 @@ suffix
 )
 :
 basestring
-    
+        
 }
+    
 )
     
 Optional
@@ -1505,6 +1506,7 @@ mozharness
 =
 get_keyed_by
 (
+            
 item
 =
 test
@@ -1513,6 +1515,7 @@ field
 '
 mozharness
 '
+            
 item_name
 =
 test
@@ -2113,6 +2116,7 @@ translation
 .
 get
 (
+            
 test
 [
 '
@@ -3524,7 +3528,7 @@ size
 legacy
 '
 \
-                   
+                
 '
 Software
 GL
