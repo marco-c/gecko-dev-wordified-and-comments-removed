@@ -136,9 +136,6 @@ js
 )
 ;
 var
-logger
-;
-var
 fetched
 =
 false

@@ -1035,7 +1035,7 @@ elements
 function
 url2entry
 (
-url
+urlToConvert
 )
 {
 return
@@ -1045,7 +1045,7 @@ url
 (
 (
 typeof
-url
+urlToConvert
 =
 =
 "
@@ -1053,11 +1053,11 @@ function
 "
 )
 ?
-url
+urlToConvert
 (
 )
 :
-url
+urlToConvert
 )
 title
 :

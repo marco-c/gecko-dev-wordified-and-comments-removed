@@ -1479,16 +1479,6 @@ Authorization
 )
 )
 ;
-let
-message
-=
-"
-Delta
-:
-"
-+
-delta
-;
 if
 (
 delta
