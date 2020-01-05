@@ -3910,6 +3910,13 @@ fi
 done
 if
 [
+-
+z
+"
+CFG_LOCAL_RUST_ROOT
+"
+-
+a
 {
 do_reconfigure
 }
