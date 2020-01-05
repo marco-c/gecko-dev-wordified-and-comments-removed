@@ -4004,7 +4004,7 @@ parent_element
 if
 pseudo
 .
-is_some
+is_none
 (
 )
 {
