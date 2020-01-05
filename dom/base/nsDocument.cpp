@@ -13117,6 +13117,9 @@ mDocGroup
 nsAutoCString
 docGroupKey
 ;
+nsresult
+rv
+=
 mozilla
 :
 :
@@ -13134,6 +13137,14 @@ NodePrincipal
 docGroupKey
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 MOZ_ASSERT
 (
 mDocGroup
@@ -13145,6 +13156,7 @@ docGroupKey
 )
 )
 ;
+}
 }
 #
 endif
@@ -19426,6 +19438,9 @@ TabGroup
 nsAutoCString
 docGroupKey
 ;
+nsresult
+rv
+=
 mozilla
 :
 :
@@ -19448,6 +19463,14 @@ if
 mDocGroup
 )
 {
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 MOZ_RELEASE_ASSERT
 (
 mDocGroup
@@ -19459,6 +19482,7 @@ docGroupKey
 )
 )
 ;
+}
 }
 else
 {

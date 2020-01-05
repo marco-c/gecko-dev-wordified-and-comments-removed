@@ -94,7 +94,8 @@ TabGroup
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 static
-void
+MOZ_MUST_USE
+nsresult
 GetKey
 (
 nsIPrincipal
