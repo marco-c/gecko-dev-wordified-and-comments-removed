@@ -356,6 +356,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyAsCurl
 (
 )

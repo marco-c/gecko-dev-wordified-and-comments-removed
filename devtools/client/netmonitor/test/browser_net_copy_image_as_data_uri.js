@@ -119,6 +119,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyImageAsDataUri
 (
 )

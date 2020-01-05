@@ -126,6 +126,8 @@ false
 ;
 RequestsMenu
 .
+contextMenu
+.
 openRequestInTab
 (
 )

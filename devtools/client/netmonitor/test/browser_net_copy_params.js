@@ -521,6 +521,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyUrlParams
 (
 )
@@ -651,6 +653,8 @@ setup
 )
 {
 RequestsMenu
+.
+contextMenu
 .
 copyPostData
 (

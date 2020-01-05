@@ -3756,7 +3756,7 @@ function
 openContextMenuAndGetAllItems
 (
 netmonitor
-options
+event
 )
 {
 let
@@ -3766,9 +3766,11 @@ netmonitor
 .
 RequestsMenu
 .
-_openMenu
+contextMenu
+.
+open
 (
-options
+event
 )
 ;
 let

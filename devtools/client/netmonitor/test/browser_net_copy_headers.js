@@ -251,6 +251,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyRequestHeaders
 (
 )
@@ -404,6 +406,8 @@ setup
 )
 {
 RequestsMenu
+.
+contextMenu
 .
 copyResponseHeaders
 (
