@@ -39,7 +39,7 @@ client
 /
 inspector
 /
-layout
+grids
 /
 reducers
 /
@@ -60,7 +60,7 @@ client
 /
 inspector
 /
-layout
+grids
 /
 reducers
 /
