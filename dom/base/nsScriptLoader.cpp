@@ -3098,11 +3098,14 @@ result
 =
 =
 %
-d
+u
 )
 "
 aRequest
+unsigned
+(
 aResult
+)
 )
 )
 ;
