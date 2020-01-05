@@ -386,7 +386,7 @@ test_animations
 .
 html
 [
-70
+44
 ]
 *
 test_animations_dynamic_changes
