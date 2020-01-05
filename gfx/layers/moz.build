@@ -1383,6 +1383,13 @@ h
 '
 wr
 /
+WebRenderImageHost
+.
+h
+'
+'
+wr
+/
 WebRenderLayerManager
 .
 h
@@ -2600,6 +2607,13 @@ cpp
 wr
 /
 WebRenderContainerLayer
+.
+cpp
+'
+'
+wr
+/
+WebRenderImageHost
 .
 cpp
 '
