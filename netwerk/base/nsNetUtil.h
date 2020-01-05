@@ -2627,6 +2627,13 @@ NS_GetDefaultReferrerPolicy
 (
 )
 ;
+nsresult
+NS_NotifyCurrentTopLevelOuterContentWindowId
+(
+uint64_t
+aWindowId
+)
+;
 namespace
 mozilla
 {

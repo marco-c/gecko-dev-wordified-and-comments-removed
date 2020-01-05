@@ -723,6 +723,17 @@ DecreaseThrottlePressure
 (
 )
 ;
+prio
+(
+high
+)
+async
+NotifyCurrentTopLevelOuterContentWindowId
+(
+uint64_t
+windowId
+)
+;
 child
 :
 /
