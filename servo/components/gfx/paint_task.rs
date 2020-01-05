@@ -293,7 +293,10 @@ util
 geometry
 :
 :
+{
+ExpandToPixelBoundaries
 ZERO_POINT
+}
 ;
 use
 util
@@ -504,6 +507,10 @@ bounds
 display_list
 .
 calculate_bounding_rect
+(
+)
+.
+expand_to_px_boundaries
 (
 )
 ;
