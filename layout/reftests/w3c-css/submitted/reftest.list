@@ -76,6 +76,16 @@ reftest
 .
 list
 #
+Color
+Level
+4
+include
+color4
+/
+reftest
+.
+list
+#
 Conditional
 Rules
 Level
