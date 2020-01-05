@@ -286,6 +286,7 @@ FT_GlyphSlot
 =
 reinterpret_cast
 (
+&
 void_glyph
 )
 ;
