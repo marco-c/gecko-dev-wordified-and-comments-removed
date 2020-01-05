@@ -4466,6 +4466,13 @@ proto_id
 as
 u8
 }
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 const
 DOM_CALLBACKS

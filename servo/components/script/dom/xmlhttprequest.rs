@@ -8352,6 +8352,15 @@ header
 :
 SetCookie
 ;
+use
+hyper
+:
+:
+error
+:
+:
+Result
+;
 /
 /
 a
@@ -8419,7 +8428,7 @@ u8
 )
 -
 >
-Option
+Result
 <
 SetCookie2
 >

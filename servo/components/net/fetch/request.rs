@@ -69,7 +69,6 @@ header
 HeaderView
 AcceptLanguage
 ContentLanguage
-Language
 }
 ;
 use
