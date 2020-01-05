@@ -275,6 +275,12 @@ nodeName
 [
 Pure
 Throws
+NeedsCallerType
+BinaryName
+=
+"
+baseURIFromJS
+"
 ]
 readonly
 attribute
