@@ -966,12 +966,9 @@ uint8_t
 Track
 =
 0x1
-Lock
-=
-0x2
 Discard
 =
-0x4
+0x2
 }
 ;
 nsStyleImageRequest
