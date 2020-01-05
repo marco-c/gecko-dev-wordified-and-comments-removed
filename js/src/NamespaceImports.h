@@ -148,7 +148,10 @@ class
 ObjectOpResult
 ;
 struct
+JS_PUBLIC_API
+(
 PropertyDescriptor
+)
 ;
 }
 namespace
