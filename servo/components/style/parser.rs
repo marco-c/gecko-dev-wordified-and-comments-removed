@@ -28,7 +28,10 @@ use
 gecko_bindings
 :
 :
-ptr
+sugar
+:
+:
+refptr
 :
 :
 {

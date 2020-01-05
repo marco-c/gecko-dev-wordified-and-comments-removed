@@ -11,10 +11,6 @@ pub
 mod
 bindings
 ;
-pub
-mod
-ptr
-;
 #
 [
 cfg
