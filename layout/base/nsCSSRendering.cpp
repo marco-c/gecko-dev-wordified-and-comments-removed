@@ -12391,7 +12391,8 @@ aStops
 mPosition
 >
 =
-0
+-
+1e6
 )
 ;
 MOZ_ASSERT
@@ -12403,9 +12404,11 @@ LastElement
 )
 .
 mPosition
+-
+1
 <
 =
-1
+1e6
 )
 ;
 if
@@ -15962,8 +15965,6 @@ OP_OVER
 when
 it
 is
-"
-"
 restored
 later
 "
