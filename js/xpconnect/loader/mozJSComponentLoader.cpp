@@ -1974,7 +1974,7 @@ NSGetFactory_val
 JSTYPE_FUNCTION
 )
 {
-JS_ReportError
+JS_ReportErrorLatin1
 (
 cx
 "
