@@ -513,7 +513,7 @@ AnimationPerformanceWarning
 aWarning
 )
 ;
-void
+bool
 PreTraverse
 (
 )
