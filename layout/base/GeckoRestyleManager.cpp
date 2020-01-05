@@ -447,6 +447,10 @@ aPresContext
 :
 RestyleManager
 (
+StyleBackendType
+:
+:
+Gecko
 aPresContext
 )
 mDoRebuildAllStyleData

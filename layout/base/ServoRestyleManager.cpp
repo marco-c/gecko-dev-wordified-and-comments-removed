@@ -88,6 +88,10 @@ aPresContext
 :
 RestyleManager
 (
+StyleBackendType
+:
+:
+Servo
 aPresContext
 )
 mReentrantChanges
