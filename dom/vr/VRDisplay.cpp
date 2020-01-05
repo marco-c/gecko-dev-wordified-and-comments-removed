@@ -1221,12 +1221,6 @@ mFrameId
 =
 0
 ;
-mVRState
-.
-Clear
-(
-)
-;
 mozilla
 :
 :
@@ -3887,12 +3881,6 @@ mTimeStampOffset
 0f
 )
 {
-mVRState
-.
-Clear
-(
-)
-;
 }
 bool
 VRFrameInfo

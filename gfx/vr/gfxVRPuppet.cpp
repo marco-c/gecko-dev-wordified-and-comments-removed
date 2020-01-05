@@ -489,12 +489,6 @@ _43
 .
 0f
 ;
-mSensorState
-.
-Clear
-(
-)
-;
 gfx
 :
 :

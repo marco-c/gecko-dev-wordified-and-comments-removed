@@ -87,12 +87,6 @@ Now
 )
 )
 {
-mSensorState
-.
-Clear
-(
-)
-;
 mDisplayInfo
 .
 mDisplayName
