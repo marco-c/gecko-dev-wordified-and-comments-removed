@@ -2338,9 +2338,9 @@ getExtras
 (
 )
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -3039,9 +3039,9 @@ onDestroy
 (
 )
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .

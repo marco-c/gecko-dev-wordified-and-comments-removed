@@ -465,9 +465,9 @@ startListeningForClosedTabs
 (
 )
 {
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -512,9 +512,9 @@ StopNotifications
 null
 )
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -539,9 +539,9 @@ startListeningForHistorySanitize
 (
 )
 {
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -562,9 +562,9 @@ stopListeningForHistorySanitize
 (
 )
 {
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
