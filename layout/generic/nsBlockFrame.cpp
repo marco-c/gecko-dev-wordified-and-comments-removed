@@ -17770,7 +17770,7 @@ lineReflowStatus
 do
 {
 nscoord
-availableSpaceHeight
+availableSpaceBSize
 =
 0
 ;
@@ -17876,7 +17876,7 @@ aState
 lineLayout
 aLine
 floatAvailableSpace
-availableSpaceHeight
+availableSpaceBSize
 &
 floatManagerState
 aKeepReflowGoing
@@ -18095,7 +18095,7 @@ nsFlowAreaRect
 aFloatAvailableSpace
 nscoord
 &
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 nsFloatManager
 :
 :
@@ -19035,7 +19035,7 @@ aFloatStateBeforeLine
 aFloatAvailableSpace
 .
 mRect
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 aKeepReflowGoing
 )
 )
@@ -20849,7 +20849,7 @@ LogicalRect
 aFloatAvailableSpace
 nscoord
 &
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 bool
 *
 aKeepReflowGoing
@@ -21042,14 +21042,14 @@ oldFloatAvailableSpace
 aFloatAvailableSpace
 )
 ;
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 =
 std
 :
 :
 max
 (
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 aLine
 -
 >
@@ -21070,7 +21070,7 @@ aLine
 BStart
 (
 )
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 aFloatStateBeforeLine
 )
 .

@@ -1879,7 +1879,7 @@ LogicalRect
 aFloatAvailableSpace
 nscoord
 &
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 bool
 *
 aKeepReflowGoing
@@ -1985,7 +1985,7 @@ nsFlowAreaRect
 aFloatAvailableSpace
 nscoord
 &
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 nsFloatManager
 :
 :
