@@ -202,8 +202,10 @@ make_url
 :
 current_url
 :
-%
+{
+:
 ?
+}
 "
 current_url
 )
@@ -668,8 +670,10 @@ debug
 "
 url
 :
-%
+{
+:
 ?
+}
 "
 url
 )

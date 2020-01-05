@@ -6444,7 +6444,7 @@ log_css_error
 rule
 .
 location
-fmt
+format
 !
 (
 "
@@ -6456,8 +6456,10 @@ in
 declaration
 list
 :
-%
+{
+:
 s
+}
 "
 rule
 .

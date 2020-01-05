@@ -209,8 +209,10 @@ loading
 style
 sheet
 at
-%
+{
+:
 s
+}
 "
 url
 .

@@ -776,8 +776,8 @@ assigning
 width
 for
 flow
-%
-?
+{
+}
 "
 self
 .
@@ -1100,8 +1100,8 @@ assign_widths_float
 -
 width
 :
-%
-?
+{
+}
 "
 width
 )
@@ -1348,8 +1348,8 @@ assigning
 height
 for
 float
-%
-?
+{
+}
 "
 self
 .
@@ -1674,8 +1674,8 @@ assigning
 height
 for
 float
-%
-?
+{
+}
 "
 self
 .
@@ -2090,8 +2090,8 @@ assign_height_float
 -
 height
 :
-%
-?
+{
+}
 "
 height
 )

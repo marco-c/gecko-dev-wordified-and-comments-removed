@@ -2939,8 +2939,8 @@ assigning
 width
 for
 flow
-%
-?
+{
+}
 "
 self
 .
@@ -3532,8 +3532,8 @@ assigning
 height
 for
 block
-%
-?
+{
+}
 "
 self
 .
@@ -3574,8 +3574,8 @@ assigning
 height
 for
 block
-%
-?
+{
+}
 "
 self
 .

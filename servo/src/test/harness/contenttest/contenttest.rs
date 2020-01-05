@@ -41,7 +41,6 @@ std
 {
 os
 run
-io
 str
 }
 ;
@@ -579,9 +578,6 @@ res
 output
 )
 ;
-io
-:
-:
 print
 (
 out

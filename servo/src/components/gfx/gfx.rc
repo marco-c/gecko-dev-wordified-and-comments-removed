@@ -114,6 +114,7 @@ lib
 feature
 (
 globs
+managed_boxes
 )
 ]
 ;
