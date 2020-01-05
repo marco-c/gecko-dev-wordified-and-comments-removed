@@ -340,7 +340,7 @@ DPEnd
 (
 IntSize
 aSize
-WebRenderCommand
+WebRenderParentCommand
 [
 ]
 commands
@@ -367,7 +367,7 @@ DPSyncEnd
 (
 IntSize
 aSize
-WebRenderCommand
+WebRenderParentCommand
 [
 ]
 commands

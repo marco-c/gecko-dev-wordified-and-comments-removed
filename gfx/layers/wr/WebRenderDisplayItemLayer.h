@@ -142,6 +142,12 @@ WebRenderCommand
 >
 mCommands
 ;
+nsTArray
+<
+WebRenderParentCommand
+>
+mParentCommands
+;
 RefPtr
 <
 ImageClient
