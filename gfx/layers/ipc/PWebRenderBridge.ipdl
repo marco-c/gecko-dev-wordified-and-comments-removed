@@ -177,11 +177,6 @@ aHeight
 )
 ;
 sync
-Destroy
-(
-)
-;
-sync
 AddImage
 (
 uint32_t
@@ -287,6 +282,13 @@ uint64_t
 aImageId
 )
 ;
+async
+Shutdown
+(
+)
+;
+child
+:
 async
 __delete__
 (

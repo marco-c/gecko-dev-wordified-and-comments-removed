@@ -1003,7 +1003,7 @@ WRBridge
 )
 -
 >
-SendDestroy
+Destroy
 (
 )
 ;

@@ -194,7 +194,7 @@ ipc
 :
 :
 IPCResult
-RecvDestroy
+RecvShutdown
 (
 )
 override
