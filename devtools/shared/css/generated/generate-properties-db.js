@@ -72,6 +72,14 @@ pseudoElements
 )
 )
 ;
+dump
+(
+"
+\
+n
+"
+)
+;
 function
 cssProperties
 (
