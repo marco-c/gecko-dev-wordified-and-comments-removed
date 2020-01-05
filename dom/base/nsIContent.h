@@ -1268,6 +1268,15 @@ TextIsOnlyWhitespace
 ;
 virtual
 bool
+ThreadSafeTextIsOnlyWhitespace
+(
+)
+const
+=
+0
+;
+virtual
+bool
 HasTextForTranslation
 (
 )

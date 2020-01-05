@@ -633,6 +633,14 @@ override
 ;
 virtual
 bool
+ThreadSafeTextIsOnlyWhitespace
+(
+)
+const
+final
+;
+virtual
+bool
 HasTextForTranslation
 (
 )

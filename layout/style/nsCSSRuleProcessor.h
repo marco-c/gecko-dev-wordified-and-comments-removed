@@ -414,6 +414,8 @@ mozilla
 EventStates
 aStateMask
 bool
+aIsGecko
+bool
 *
 aSetSlowSelectorFlag
 bool
