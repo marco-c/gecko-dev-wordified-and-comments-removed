@@ -132,7 +132,7 @@ wait_for_run_mozharness
 (
 timeout
 =
-30
+60
 )
 :
 starttime
