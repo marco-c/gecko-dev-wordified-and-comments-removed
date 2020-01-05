@@ -457,8 +457,14 @@ MessageInfo
 ;
 IProtocol
 (
+Side
+aSide
 )
 :
+mSide
+(
+aSide
+)
 mManager
 (
 nullptr
@@ -730,6 +736,9 @@ aChannel
 }
 private
 :
+Side
+mSide
+;
 IProtocol
 *
 mManager
@@ -774,6 +783,8 @@ IToplevelProtocol
 (
 ProtocolId
 aProtoId
+Side
+aSide
 )
 ;
 ~
