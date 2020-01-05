@@ -1,4 +1,10 @@
 use
+cssparser
+:
+:
+Color
+;
+use
 properties
 :
 :
@@ -486,6 +492,16 @@ Value
 ref
 color
 )
+if
+color
+.
+parsed
+!
+=
+Color
+:
+:
+CurrentColor
 =
 >
 {

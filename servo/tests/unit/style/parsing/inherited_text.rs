@@ -1061,10 +1061,6 @@ assert_eq
 result
 .
 _webkit_text_stroke_color
-.
-unwrap
-(
-)
 parse_longhand
 !
 (
@@ -1081,10 +1077,6 @@ assert_eq
 result
 .
 _webkit_text_stroke_width
-.
-unwrap
-(
-)
 parse_longhand
 !
 (
@@ -1135,10 +1127,6 @@ assert_eq
 result
 .
 _webkit_text_stroke_color
-.
-unwrap
-(
-)
 parse_longhand
 !
 (
@@ -1155,10 +1143,6 @@ assert_eq
 result
 .
 _webkit_text_stroke_width
-.
-unwrap
-(
-)
 parse_longhand
 !
 (
