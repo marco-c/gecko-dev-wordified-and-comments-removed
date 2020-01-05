@@ -26261,6 +26261,7 @@ aFullScreen
 )
 ;
 }
+static
 void
 FinishDOMFullscreenChange
 (
@@ -26276,6 +26277,9 @@ if
 aInDOMFullscreen
 )
 {
+if
+(
+!
 nsIDocument
 :
 :
@@ -26283,7 +26287,17 @@ HandlePendingFullscreenRequests
 (
 aDoc
 )
+)
+{
+nsIDocument
+:
+:
+AsyncExitFullscreen
+(
+aDoc
+)
 ;
+}
 }
 else
 {
