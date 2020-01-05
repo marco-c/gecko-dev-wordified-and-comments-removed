@@ -5071,7 +5071,7 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-uint32_t
+uintptr_t
 CanvasRenderingContext2D
 :
 :
