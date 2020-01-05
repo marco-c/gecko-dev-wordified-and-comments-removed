@@ -250,6 +250,11 @@ TestTArray2
 cpp
 '
 '
+TestTaskQueue
+.
+cpp
+'
+'
 TestTextFormatter
 .
 cpp
