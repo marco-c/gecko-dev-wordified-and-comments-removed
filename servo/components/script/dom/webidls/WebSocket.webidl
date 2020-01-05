@@ -161,8 +161,6 @@ unsigned
 short
 readyState
 ;
-/
-/
 readonly
 attribute
 unsigned
