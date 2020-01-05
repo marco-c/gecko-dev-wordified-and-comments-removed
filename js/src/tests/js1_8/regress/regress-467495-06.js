@@ -108,7 +108,7 @@ r
 !
 =
 "
-function
+number
 "
 )
 actual

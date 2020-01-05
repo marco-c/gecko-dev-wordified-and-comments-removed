@@ -74,7 +74,7 @@ true
 3
 )
 "
-function
+number
 "
 )
 ;
