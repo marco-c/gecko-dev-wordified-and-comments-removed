@@ -323,6 +323,17 @@ target
 -
 container
 "
+"
+data
+-
+addon
+-
+id
+"
+:
+target
+.
+addonID
 }
 dom
 .
