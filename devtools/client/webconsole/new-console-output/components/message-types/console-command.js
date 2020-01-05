@@ -101,6 +101,13 @@ props
 message
 ;
 const
+{
+serviceContainer
+}
+=
+props
+;
+const
 childProps
 =
 {
@@ -117,6 +124,7 @@ scrollToMessage
 props
 .
 autoscroll
+serviceContainer
 }
 ;
 return

@@ -1657,13 +1657,12 @@ newConsoleOutput
 dispatchMessageAdd
 (
 response
+true
 )
-;
-callback
-&
-&
-callback
+.
+then
 (
+callback
 )
 ;
 return
