@@ -112,8 +112,6 @@ HTMLMetaElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 name
@@ -124,8 +122,6 @@ attribute
 DOMString
 httpEquiv
 ;
-/
-/
 attribute
 DOMString
 content
