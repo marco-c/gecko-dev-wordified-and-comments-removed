@@ -75,7 +75,7 @@ dictdef
 -
 eventmodifierinit
 dictionary
-SharedKeyboardAndMouseEventInit
+EventModifierInit
 :
 UIEventInit
 {

@@ -325,7 +325,7 @@ keyboardeventinit
 dictionary
 KeyboardEventInit
 :
-SharedKeyboardAndMouseEventInit
+EventModifierInit
 {
 DOMString
 key

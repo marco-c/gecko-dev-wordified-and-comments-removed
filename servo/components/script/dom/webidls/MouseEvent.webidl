@@ -205,7 +205,7 @@ eventmodifierinit
 dictionary
 MouseEventInit
 :
-SharedKeyboardAndMouseEventInit
+EventModifierInit
 {
 long
 screenX
