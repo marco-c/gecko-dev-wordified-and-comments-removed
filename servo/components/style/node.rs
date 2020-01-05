@@ -376,6 +376,15 @@ self
 bool
 ;
 fn
+get_checked_state
+(
+self
+)
+-
+>
+bool
+;
+fn
 has_class
 (
 self

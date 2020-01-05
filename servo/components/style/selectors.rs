@@ -235,6 +235,7 @@ Visited
 Hover
 Disabled
 Enabled
+Checked
 FirstChild
 LastChild
 OnlyChild
@@ -1120,6 +1121,9 @@ OnlyChild
 |
 &
 Root
+|
+&
+Checked
 /
 /
 |
@@ -3537,6 +3541,15 @@ enabled
 Ok
 (
 Enabled
+)
+"
+checked
+"
+=
+>
+Ok
+(
+Checked
 )
 "
 first
