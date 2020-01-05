@@ -551,13 +551,6 @@ char
 aPipe
 )
 )
-XRE_API
-(
-bool
-XRE_UnsetRemoteExceptionHandler
-(
-)
-)
 #
 endif
 namespace

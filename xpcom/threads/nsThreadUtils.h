@@ -159,16 +159,6 @@ TypeTraits
 h
 "
 extern
-void
-NS_SetCurrentThreadName
-(
-const
-char
-*
-aName
-)
-;
-extern
 nsresult
 NS_NewThread
 (

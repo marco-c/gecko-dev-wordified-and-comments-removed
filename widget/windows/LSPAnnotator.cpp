@@ -184,7 +184,7 @@ Run
 (
 )
 {
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 LSP

@@ -19,13 +19,6 @@ GeckoProfiler
 .
 h
 "
-#
-include
-"
-nsThreadUtils
-.
-h
-"
 using
 namespace
 mozilla
@@ -565,7 +558,7 @@ HRTFDatabaseLdr
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 HRTFDatabaseLdr

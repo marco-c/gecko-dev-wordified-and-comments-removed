@@ -2262,7 +2262,7 @@ StartupCache
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 StartupCache

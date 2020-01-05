@@ -12268,7 +12268,7 @@ BackgroundChild
 char
 stackBaseGuess
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 DOM

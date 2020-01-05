@@ -197,13 +197,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsToolkit
 .
 h
@@ -37617,7 +37610,7 @@ Thread
 aLocal
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 APZC
