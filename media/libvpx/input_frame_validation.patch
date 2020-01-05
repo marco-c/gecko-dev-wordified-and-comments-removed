@@ -46,8 +46,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 vp8_cx_iface
@@ -56,8 +54,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -75,8 +71,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 vp8_cx_iface
@@ -88,8 +82,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /

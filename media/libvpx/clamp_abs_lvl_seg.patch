@@ -162,8 +162,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 common
@@ -174,8 +172,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -195,8 +191,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 common
@@ -210,8 +204,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /

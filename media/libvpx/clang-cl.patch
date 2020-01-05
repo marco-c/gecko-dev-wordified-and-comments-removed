@@ -18,8 +18,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 common
@@ -32,8 +30,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -61,8 +57,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 common
@@ -78,8 +72,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -156,8 +148,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 common
@@ -168,8 +158,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -195,8 +183,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 common
@@ -210,8 +196,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -278,8 +262,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 decoder
@@ -290,8 +272,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -317,8 +297,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 decoder
@@ -332,8 +310,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -424,8 +400,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 encoder
@@ -436,8 +410,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -463,8 +435,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 encoder
@@ -478,8 +448,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -560,8 +528,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 encoder
@@ -572,8 +538,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -599,8 +563,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vp8
 /
 encoder
@@ -614,8 +576,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -685,8 +645,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vpx_dsp
 /
 vpx_dsp_rtcd
@@ -695,8 +653,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -720,8 +676,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vpx_dsp
 /
 vpx_dsp_rtcd
@@ -733,8 +687,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -805,8 +757,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vpx_scale
 /
 vpx_scale_rtcd
@@ -815,8 +765,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /
@@ -840,8 +788,6 @@ media
 /
 libvpx
 /
-libvpx
-/
 vpx_scale
 /
 vpx_scale_rtcd
@@ -853,8 +799,6 @@ c
 b
 /
 media
-/
-libvpx
 /
 libvpx
 /

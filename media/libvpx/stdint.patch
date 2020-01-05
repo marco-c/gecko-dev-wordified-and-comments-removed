@@ -1,8 +1,6 @@
 -
 -
 -
-libvpx
-/
 vpx
 /
 vpx_integer
@@ -26,8 +24,6 @@ h
 +
 +
 +
-libvpx
-/
 vpx
 /
 vpx_integer

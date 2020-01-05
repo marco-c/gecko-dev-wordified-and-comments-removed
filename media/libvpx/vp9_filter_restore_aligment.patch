@@ -66,8 +66,6 @@ diff
 git
 a
 /
-libvpx
-/
 vp9
 /
 common
@@ -76,8 +74,6 @@ vp9_filter
 .
 c
 b
-/
-libvpx
 /
 vp9
 /
@@ -97,8 +93,6 @@ b256d4a
 -
 a
 /
-libvpx
-/
 vp9
 /
 common
@@ -110,8 +104,6 @@ c
 +
 +
 b
-/
-libvpx
 /
 vp9
 /
