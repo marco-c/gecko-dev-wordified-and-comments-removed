@@ -13005,6 +13005,13 @@ return
 false
 ;
 }
+mRemoteBrowser
+-
+>
+InitRenderFrame
+(
+)
+;
 MaybeUpdatePrimaryTabParent
 (
 eTabParentChanged

@@ -3110,6 +3110,11 @@ GetFrameLoader
 (
 )
 ;
+MOZ_ASSERT
+(
+frameLoader
+)
+;
 if
 (
 frameLoader
@@ -3193,8 +3198,11 @@ mIsDestroyed
 return
 ;
 }
-InitRenderFrame
+MOZ_ASSERT
 (
+GetRenderFrame
+(
+)
 )
 ;
 RenderFrameParent
