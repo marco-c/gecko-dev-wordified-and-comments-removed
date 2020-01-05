@@ -6921,7 +6921,11 @@ return
 bridge
 -
 >
-AsyncPanZoomEnabled
+GetOptions
+(
+)
+.
+UseAPZ
 (
 )
 ;

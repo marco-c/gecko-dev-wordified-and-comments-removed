@@ -955,13 +955,6 @@ aActor
 )
 override
 ;
-bool
-GetAPZEnabled
-(
-uint64_t
-aLayerTreeId
-)
-;
 PAPZCTreeManagerChild
 *
 AllocPAPZCTreeManagerChild
