@@ -29,6 +29,7 @@ id
 }
 =
 yield
+*
 installer
 (
 )
@@ -312,11 +313,13 @@ uninstall
 add_task
 (
 function
+*
 test_options_signed
 (
 )
 {
-return
+yield
+*
 runTest
 (
 function
@@ -384,7 +387,8 @@ test_options_temporary
 (
 )
 {
-return
+yield
+*
 runTest
 (
 function
