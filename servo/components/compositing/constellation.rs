@@ -4159,7 +4159,7 @@ send
 CompositorMsg
 :
 :
-SetLayerOrigin
+SetLayerRect
 (
 pipeline
 .
@@ -4175,8 +4175,6 @@ rect
 to_untyped
 (
 )
-.
-origin
 )
 )
 ;

@@ -991,11 +991,11 @@ CreateOrUpdateDescendantLayer
 (
 LayerProperties
 )
-SetLayerOrigin
+SetLayerRect
 (
 PipelineId
 LayerId
-Point2D
+Rect
 <
 f32
 >
@@ -1228,7 +1228,7 @@ CreateOrUpdateDescendantLayer
 Msg
 :
 :
-SetLayerOrigin
+SetLayerRect
 (
 .
 .
@@ -1240,7 +1240,7 @@ write
 (
 f
 "
-SetLayerOrigin
+SetLayerRect
 "
 )
 Msg

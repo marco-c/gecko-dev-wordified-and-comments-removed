@@ -469,7 +469,7 @@ CreateOrUpdateDescendantLayer
 Msg
 :
 :
-SetLayerOrigin
+SetLayerRect
 (
 .
 .
