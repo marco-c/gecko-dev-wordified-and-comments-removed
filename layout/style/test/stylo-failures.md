@@ -476,6 +476,13 @@ html
 1
 ]
 *
+test_animations_reverse
+.
+html
+[
+1
+]
+*
 SMIL
 Animation
 *
