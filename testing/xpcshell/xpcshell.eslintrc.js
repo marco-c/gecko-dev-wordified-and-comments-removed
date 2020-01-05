@@ -90,6 +90,11 @@ do_check_false
 :
 false
 "
+do_check_instanceof
+"
+:
+false
+"
 do_check_matches
 "
 :
@@ -136,6 +141,11 @@ do_get_profile
 false
 "
 do_get_tempdir
+"
+:
+false
+"
+do_load_child_test_harness
 "
 :
 false
@@ -266,6 +276,11 @@ run_test
 false
 "
 run_test_in_child
+"
+:
+false
+"
+sendCommand
 "
 :
 false

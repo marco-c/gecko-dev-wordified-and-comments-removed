@@ -3699,6 +3699,7 @@ error
 e
 )
 ;
+let
 msg
 =
 appender
@@ -4127,6 +4128,7 @@ ParameterFormatter
 (
 )
 ;
+let
 err
 =
 new
@@ -4142,6 +4144,7 @@ ERROR_FILE
 28
 )
 ;
+let
 str
 =
 pFormat

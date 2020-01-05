@@ -72,6 +72,11 @@ add_task
 :
 false
 "
+addLoadEvent
+"
+:
+false
+"
 Assert
 "
 :
@@ -168,6 +173,11 @@ isnot
 false
 "
 ok
+"
+:
+false
+"
+privateNoteIntentionalCrash
 "
 :
 false

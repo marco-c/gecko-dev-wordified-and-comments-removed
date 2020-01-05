@@ -70,11 +70,8 @@ Components
 utils
 ;
 Cu
-[
-"
+.
 import
-"
-]
 (
 "
 resource

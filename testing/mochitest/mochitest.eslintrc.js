@@ -70,6 +70,11 @@ add_task
 :
 false
 "
+addLoadEvent
+"
+:
+false
+"
 Assert
 "
 :

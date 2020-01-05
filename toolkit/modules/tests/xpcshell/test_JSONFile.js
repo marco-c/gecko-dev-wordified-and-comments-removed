@@ -1596,6 +1596,8 @@ saveSoon
 )
 ;
 yield
+Assert
+.
 rejects
 (
 promiseSave

@@ -370,6 +370,7 @@ interfaces
 ;
 for
 (
+let
 i
 in
 Ci
@@ -420,6 +421,7 @@ properties
 ;
 for
 (
+let
 p
 in
 aObject

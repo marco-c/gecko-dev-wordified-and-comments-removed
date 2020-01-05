@@ -3829,6 +3829,7 @@ sort
 ;
 for
 (
+let
 num
 of
 nums

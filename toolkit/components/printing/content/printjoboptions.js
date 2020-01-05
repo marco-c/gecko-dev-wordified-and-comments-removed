@@ -25,6 +25,9 @@ var
 gPrefs
 ;
 var
+gParamBlock
+;
+var
 gPrintSetInterface
 =
 Components
@@ -2114,7 +2117,7 @@ QueryInterface
 gPrintSetInterface
 )
 ;
-paramBlock
+gParamBlock
 =
 window
 .
@@ -2156,7 +2159,7 @@ null
 ;
 if
 (
-paramBlock
+gParamBlock
 =
 =
 null
@@ -2172,7 +2175,7 @@ null
 )
 ;
 }
-paramBlock
+gParamBlock
 .
 SetInt
 (
@@ -2524,10 +2527,10 @@ n
 }
 if
 (
-paramBlock
+gParamBlock
 )
 {
-paramBlock
+gParamBlock
 .
 SetInt
 (
