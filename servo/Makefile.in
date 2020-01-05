@@ -3503,3 +3503,6 @@ compiler
 rust
 ;
 fi
+.
+NOTPARALLEL
+:
