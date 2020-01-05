@@ -173,7 +173,7 @@ Fedora
 :
 sh
 sudo
-yum
+dnf
 install
 curl
 freeglut
