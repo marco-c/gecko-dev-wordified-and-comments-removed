@@ -364,6 +364,10 @@ mInitialized
 HANDLE
 mThreadID
 ;
+void
+*
+mStackTop
+;
 #
 elif
 defined

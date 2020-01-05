@@ -817,6 +817,15 @@ char
 str
 )
 )
+PROFILER_FUNC
+(
+void
+*
+profiler_get_stack_top
+(
+)
+nullptr
+)
 #
 if
 defined
