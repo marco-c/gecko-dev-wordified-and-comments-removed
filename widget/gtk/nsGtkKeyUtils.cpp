@@ -4303,10 +4303,7 @@ aKeyEvent
 .
 mLocation
 =
-nsIDOMKeyEvent
-:
-:
-DOM_KEY_LOCATION_LEFT
+eKeyLocationLeft
 ;
 break
 ;
@@ -4332,10 +4329,7 @@ aKeyEvent
 .
 mLocation
 =
-nsIDOMKeyEvent
-:
-:
-DOM_KEY_LOCATION_RIGHT
+eKeyLocationRight
 ;
 break
 ;
@@ -4448,10 +4442,7 @@ aKeyEvent
 .
 mLocation
 =
-nsIDOMKeyEvent
-:
-:
-DOM_KEY_LOCATION_NUMPAD
+eKeyLocationNumpad
 ;
 break
 ;
@@ -4461,10 +4452,7 @@ aKeyEvent
 .
 mLocation
 =
-nsIDOMKeyEvent
-:
-:
-DOM_KEY_LOCATION_STANDARD
+eKeyLocationStandard
 ;
 break
 ;
