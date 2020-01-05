@@ -597,6 +597,11 @@ option
 "
 done
 fi
+cd
+/
+home
+/
+worker
 python2
 .
 7
