@@ -731,7 +731,9 @@ doCommand
 )
 ;
 }
-yield
+let
+promise
+=
 toggleHighlightAndWait
 (
 true
@@ -742,6 +744,9 @@ gFindBar
 _find
 (
 )
+;
+yield
+promise
 ;
 yield
 ContentTask
@@ -1156,7 +1161,6 @@ test
 iframes
 too
 .
-let
 promise
 =
 BrowserTestUtils
