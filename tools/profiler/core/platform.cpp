@@ -2362,7 +2362,7 @@ mozilla
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )

@@ -6933,6 +6933,16 @@ Init
 (
 )
 ;
+if
+(
+jni
+:
+:
+IsFennec
+(
+)
+)
+{
 nsWindow
 :
 :
@@ -6943,6 +6953,7 @@ Init
 (
 )
 ;
+}
 }
 nsWindow
 *

@@ -496,6 +496,14 @@ ifdef
 MOZ_WIDGET_ANDROID
 if
 (
+jni
+:
+:
+IsFennec
+(
+)
+&
+&
 addToRecentDocs
 )
 {

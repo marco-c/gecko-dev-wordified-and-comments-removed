@@ -515,6 +515,11 @@ AbstractCall
 aCall
 )
 ;
+bool
+IsFennec
+(
+)
+;
 }
 }
 #

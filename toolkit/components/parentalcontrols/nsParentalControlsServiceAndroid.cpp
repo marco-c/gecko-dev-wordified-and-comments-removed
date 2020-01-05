@@ -59,7 +59,7 @@ mozilla
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )
@@ -270,7 +270,7 @@ mozilla
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )
