@@ -8,7 +8,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 EventHandlerBinding
@@ -26,7 +26,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 XMLHttpRequestBinding
@@ -41,7 +41,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 XMLHttpRequestBinding
@@ -59,7 +59,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 XMLHttpRequestBinding

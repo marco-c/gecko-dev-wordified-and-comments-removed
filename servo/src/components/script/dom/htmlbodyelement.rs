@@ -8,7 +8,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 EventHandlerBinding
@@ -26,7 +26,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 HTMLBodyElementBinding

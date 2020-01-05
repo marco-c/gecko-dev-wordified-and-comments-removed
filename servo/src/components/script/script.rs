@@ -260,7 +260,7 @@ RegisterBindings
 ;
 pub
 mod
-BindingDeclarations
+Bindings
 ;
 pub
 mod

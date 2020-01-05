@@ -8,7 +8,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 DOMExceptionBinding
@@ -23,7 +23,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 DOMExceptionBinding

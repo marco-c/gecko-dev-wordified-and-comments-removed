@@ -26,7 +26,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 DocumentTypeBinding

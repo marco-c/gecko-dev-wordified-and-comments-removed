@@ -430,7 +430,7 @@ generate_file
 (
 config
 '
-BindingDeclarations
+Bindings
 '
 )
     

@@ -8,7 +8,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 HTMLLegendElementBinding

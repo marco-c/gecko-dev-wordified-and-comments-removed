@@ -24,7 +24,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 TestBindingBinding
@@ -42,7 +42,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 TestBindingBinding

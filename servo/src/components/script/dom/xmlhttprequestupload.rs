@@ -23,7 +23,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 XMLHttpRequestUploadBinding

@@ -17,7 +17,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 HTMLObjectElementBinding

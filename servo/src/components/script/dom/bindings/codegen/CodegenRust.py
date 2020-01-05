@@ -32605,7 +32605,7 @@ lines
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 %
@@ -33760,7 +33760,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 *
@@ -40504,7 +40504,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 %
@@ -40610,7 +40610,7 @@ curr
 staticmethod
     
 def
-BindingDeclarations
+Bindings
 (
 config
 )
