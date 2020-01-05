@@ -756,6 +756,12 @@ type
 array
 "
 "
+default
+"
+:
+[
+]
+"
 items
 "
 :
