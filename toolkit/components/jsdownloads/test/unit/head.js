@@ -1703,7 +1703,7 @@ aContext
 )
 {
 let
-channel
+requestChannel
 =
 aRequest
 .
@@ -1722,7 +1722,7 @@ gExternalHelperAppService
 .
 doContent
 (
-channel
+requestChannel
 .
 contentType
 aRequest

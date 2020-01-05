@@ -1423,7 +1423,8 @@ c
 3
 )
 ;
-var
+{
+let
 uri1
 =
 ContentPrefTest
@@ -1444,7 +1445,7 @@ com
 "
 )
 ;
-var
+let
 uri2
 =
 ContentPrefTest
@@ -1465,7 +1466,7 @@ com
 "
 )
 ;
-var
+let
 uri3
 =
 ContentPrefTest
@@ -1484,7 +1485,7 @@ com
 "
 )
 ;
-var
+let
 uri4
 =
 ContentPrefTest
@@ -1801,6 +1802,7 @@ uri4
 )
 )
 ;
+}
 var
 specificObserver
 =

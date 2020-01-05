@@ -42,13 +42,13 @@ jsm
 )
 ;
 const
-server
+gServer
 =
 createHttpServer
 (
 )
 ;
-server
+gServer
 .
 registerDirectory
 (
@@ -87,7 +87,7 @@ http
 localhost
 :
 {
-server
+gServer
 .
 identity
 .

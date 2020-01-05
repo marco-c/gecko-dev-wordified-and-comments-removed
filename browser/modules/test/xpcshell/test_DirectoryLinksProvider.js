@@ -1643,7 +1643,6 @@ notify
 :
 function
 (
-timer
 )
 {
 fun
@@ -10611,7 +10610,7 @@ badSiteB64
 }
 ;
 let
-dataURI
+uri
 =
 '
 data
@@ -10632,7 +10631,7 @@ DirectoryLinksProvider
 .
 _inadjacentSitesUrl
 =
-dataURI
+uri
 ;
 return
 DirectoryLinksProvider

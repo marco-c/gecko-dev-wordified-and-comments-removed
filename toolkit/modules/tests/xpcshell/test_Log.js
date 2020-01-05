@@ -3651,7 +3651,7 @@ only
 )
 ;
 let
-testFormatter
+mockFormatter
 =
 {
 format
@@ -3668,7 +3668,7 @@ appender
 new
 MockAppender
 (
-testFormatter
+mockFormatter
 )
 ;
 log
@@ -3947,7 +3947,7 @@ logger
 )
 ;
 let
-testFormatter
+mockFormatter
 =
 {
 format
@@ -3964,7 +3964,7 @@ appender
 new
 MockAppender
 (
-testFormatter
+mockFormatter
 )
 ;
 log
