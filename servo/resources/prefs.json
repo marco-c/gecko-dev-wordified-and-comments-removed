@@ -51,6 +51,15 @@ false
 "
 dom
 .
+mutation_observer
+.
+enabled
+"
+:
+false
+"
+dom
+.
 permissions
 .
 enabled
