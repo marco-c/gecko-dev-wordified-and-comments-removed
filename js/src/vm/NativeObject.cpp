@@ -11801,7 +11801,7 @@ isDenseOrTypedArrayElement
 {
 if
 (
-obj
+pobj
 -
 >
 getElementsHeader
