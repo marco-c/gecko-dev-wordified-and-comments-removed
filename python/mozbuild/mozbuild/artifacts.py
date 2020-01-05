@@ -1571,6 +1571,14 @@ bin
 '
 firefox
 /
+minidump
+-
+analyzer
+'
+        
+'
+firefox
+/
 platform
 .
 ini
@@ -1958,6 +1966,20 @@ Contents
 MacOS
 /
 crashreporter
+'
+                
+'
+crashreporter
+.
+app
+/
+Contents
+/
+MacOS
+/
+minidump
+-
+analyzer
 '
                 
 '
