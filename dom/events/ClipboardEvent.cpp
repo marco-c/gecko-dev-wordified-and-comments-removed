@@ -191,6 +191,17 @@ DataTransfer
 aClipboardData
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 Event
 :
 :

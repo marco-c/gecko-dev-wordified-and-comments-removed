@@ -200,6 +200,17 @@ int32_t
 aAxis
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 MouseEvent
 :
 :

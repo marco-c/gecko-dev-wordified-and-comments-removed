@@ -421,6 +421,17 @@ uint32_t
 aClickCountArg
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 MouseEvent
 :
 :

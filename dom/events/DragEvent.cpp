@@ -191,6 +191,17 @@ DataTransfer
 aDataTransfer
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 MouseEvent
 :
 :

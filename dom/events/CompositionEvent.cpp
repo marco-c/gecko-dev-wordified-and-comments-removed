@@ -207,6 +207,17 @@ nsAString
 aLocale
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 UIEvent
 :
 :

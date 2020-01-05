@@ -172,6 +172,17 @@ EventTarget
 aRelatedTarget
 )
 {
+MOZ_ASSERT
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 UIEvent
 :
 :
