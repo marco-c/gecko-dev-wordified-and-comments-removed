@@ -2472,6 +2472,13 @@ ViewTransform
 java
 '
 '
+gfx
+/
+VsyncSource
+.
+java
+'
+'
 InputConnectionListener
 .
 java
