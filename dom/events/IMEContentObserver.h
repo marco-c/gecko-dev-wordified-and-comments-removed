@@ -263,6 +263,12 @@ Destroy
 (
 )
 ;
+bool
+Destroyed
+(
+)
+const
+;
 void
 DisconnectFromEventStateManager
 (
