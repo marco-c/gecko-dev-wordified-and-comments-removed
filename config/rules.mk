@@ -4001,7 +4001,7 @@ OS_ARCH
 )
 )
 (
-EXPAND_LD
+EXPAND_LINK
 )
 -
 NOLOGO
@@ -4364,7 +4364,7 @@ EXPAND_LIBS_EXEC
 -
 -
 (
-HOST_LD
+LINK
 )
 -
 NOLOGO
@@ -4722,7 +4722,7 @@ OS_ARCH
 )
 )
 (
-EXPAND_LD
+EXPAND_LINK
 )
 -
 nologo
@@ -4907,7 +4907,7 @@ EXPAND_LIBS_EXEC
 -
 -
 (
-HOST_LD
+LINK
 )
 -
 NOLOGO

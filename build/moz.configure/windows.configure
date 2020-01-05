@@ -3112,7 +3112,7 @@ vc_compiler_path
 add_old_configure_assignment
 (
 '
-LD
+LINK
 '
 depends_win
 (

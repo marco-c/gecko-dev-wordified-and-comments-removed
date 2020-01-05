@@ -2780,7 +2780,7 @@ _LD_FULL_VERSION
 =
 "
 {
-LD
+LINK
 }
 "
 -
@@ -8343,13 +8343,6 @@ else
 TARGET_COMPILER_ABI
 =
 msvc
-HOST_LD
-=
-'
-(
-LD
-)
-'
 if
 test
 "
@@ -8416,7 +8409,7 @@ MKSHLIB
 =
 '
 (
-LD
+LINK
 )
 -
 NOLOGO
@@ -8439,7 +8432,7 @@ MKCSHLIB
 =
 '
 (
-LD
+LINK
 )
 -
 NOLOGO
@@ -49815,10 +49808,6 @@ HOST_AR
 AC_SUBST
 (
 HOST_AR_FLAGS
-)
-AC_SUBST
-(
-HOST_LD
 )
 AC_SUBST
 (

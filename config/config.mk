@@ -3344,7 +3344,7 @@ uselist
 (
 CCC
 )
-EXPAND_LD
+EXPAND_LINK
 =
 (
 EXPAND_LIBS_EXEC
@@ -3355,7 +3355,7 @@ uselist
 -
 -
 (
-LD
+LINK
 )
 EXPAND_MKSHLIB_ARGS
 =
