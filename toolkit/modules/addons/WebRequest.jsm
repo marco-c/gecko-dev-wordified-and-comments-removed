@@ -4615,7 +4615,7 @@ if
 !
 channelData
 .
-listener
+hasListener
 &
 &
 channel
@@ -4673,9 +4673,9 @@ orig
 ;
 channelData
 .
-listener
+hasListener
 =
-listener
+true
 ;
 }
 }
