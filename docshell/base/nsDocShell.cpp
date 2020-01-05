@@ -32182,11 +32182,6 @@ GetLoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 mozilla
 :
 :
@@ -32205,7 +32200,6 @@ GetOriginAttributes
 )
 )
 ;
-}
 }
 return
 NS_OK
@@ -49499,8 +49493,14 @@ if
 triggeringPrincipal
 )
 {
-return
-NS_ERROR_FAILURE
+triggeringPrincipal
+=
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 ;
 }
 rv
