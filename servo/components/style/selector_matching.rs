@@ -432,10 +432,8 @@ from_bytes
 (
 &
 res
-Url
-:
-:
-parse
+url
+!
 (
 "
 chrome
@@ -449,10 +447,6 @@ mode
 .
 css
 "
-)
-.
-unwrap
-(
 )
 None
 None

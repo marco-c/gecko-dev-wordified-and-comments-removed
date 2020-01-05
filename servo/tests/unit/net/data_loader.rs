@@ -300,7 +300,7 @@ data
 uri
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -595,7 +595,7 @@ Ext
 latin1
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -610,7 +610,7 @@ Some
 latin1
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -702,7 +702,7 @@ utf
 8
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -871,7 +871,7 @@ octet
 stream
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -961,7 +961,7 @@ koi8
 r
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -978,7 +978,7 @@ koi8
 r
 "
 .
-to_string
+to_owned
 (
 )
 )
