@@ -4006,7 +4006,7 @@ try
 return
 Long
 .
-valueOf
+parseLong
 (
 timestampStr
 )
