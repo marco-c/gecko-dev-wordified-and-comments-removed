@@ -131,12 +131,6 @@ nsconv
 cpp
 '
 #
-'
-plattest
-.
-cpp
-'
-#
 ]
 #
 #

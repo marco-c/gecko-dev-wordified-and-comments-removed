@@ -13,6 +13,7 @@ h
 "
 class
 nsPlatformCharset
+final
 :
 public
 nsIPlatformCharset
@@ -34,19 +35,6 @@ GetCharset
 (
 nsPlatformCharsetSel
 selector
-nsACString
-&
-oResult
-)
-override
-;
-NS_IMETHOD
-GetDefaultCharsetForLocale
-(
-const
-nsAString
-&
-localeName
 nsACString
 &
 oResult
