@@ -16576,6 +16576,13 @@ mColumnWidth
 '
 )
 }
+#
+[
+allow
+(
+unused_unsafe
+)
+]
 pub
 fn
 set_column_count
@@ -16626,6 +16633,8 @@ number
 )
 =
 >
+unsafe
+{
 cmp
 :
 :
@@ -16634,6 +16643,7 @@ min
 number
 nsStyleColumn_kMaxColumnCount
 )
+}
 None
 =
 >
