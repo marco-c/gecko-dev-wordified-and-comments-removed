@@ -522,19 +522,21 @@ self
 .
 marionette
 .
-set_search_timeout
-(
-120000
-)
+timeout
+.
+implicit
+=
+120
         
 self
 .
 marionette
 .
-set_page_load_timeout
-(
-120000
-)
+timeout
+.
+page_load
+=
+120
     
 def
 set_server_prefix
