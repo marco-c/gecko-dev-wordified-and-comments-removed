@@ -38,11 +38,8 @@ jsm
 }
 )
 ;
-this
-.
-requireRawId
-=
 function
+requireRawId
 (
 id
 require
@@ -220,7 +217,6 @@ return
 data
 ;
 }
-;
 this
 .
 EXPORTED_SYMBOLS
