@@ -225,16 +225,6 @@ js
 )
 content
 /
-dispatcher
-.
-js
-(
-dispatcher
-.
-js
-)
-content
-/
 modal
 .
 js
