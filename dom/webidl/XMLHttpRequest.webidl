@@ -429,7 +429,7 @@ open
 (
 ByteString
 method
-DOMString
+USVString
 url
 )
 ;
@@ -441,18 +441,18 @@ open
 (
 ByteString
 method
-DOMString
+USVString
 url
 boolean
 async
 optional
-DOMString
+USVString
 ?
 user
 =
 null
 optional
-DOMString
+USVString
 ?
 password
 =
@@ -548,7 +548,7 @@ Throws
 void
 send
 (
-DOMString
+USVString
 ?
 data
 )
@@ -596,7 +596,7 @@ abort
 response
 readonly
 attribute
-DOMString
+USVString
 responseURL
 ;
 [
@@ -667,7 +667,7 @@ Throws
 ]
 readonly
 attribute
-DOMString
+USVString
 ?
 responseText
 ;
