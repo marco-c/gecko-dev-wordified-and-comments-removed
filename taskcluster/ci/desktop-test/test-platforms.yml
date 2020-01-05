@@ -630,12 +630,12 @@ set
 macosx64
 -
 tests
-#
+-
+debug
 macosx64
 /
 opt
 :
-#
 build
 -
 platform
@@ -643,7 +643,6 @@ platform
 macosx64
 /
 opt
-#
 test
 -
 set
@@ -651,3 +650,5 @@ set
 macosx64
 -
 tests
+-
+talos
