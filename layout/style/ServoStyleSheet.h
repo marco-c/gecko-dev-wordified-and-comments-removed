@@ -287,9 +287,6 @@ ServoCSSRuleList
 >
 mRuleList
 ;
-StyleSheetInfo
-mSheetInfo
-;
 friend
 class
 StyleSheet
