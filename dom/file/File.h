@@ -208,9 +208,6 @@ class
 OwningArrayBufferOrArrayBufferViewOrBlobOrUSVString
 ;
 class
-Promise
-;
-class
 Blob
 :
 public
@@ -735,7 +732,7 @@ aRv
 static
 already_AddRefed
 <
-Promise
+File
 >
 CreateFromFileName
 (
@@ -759,7 +756,7 @@ aRv
 static
 already_AddRefed
 <
-Promise
+File
 >
 CreateFromNsIFile
 (

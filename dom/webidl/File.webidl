@@ -249,10 +249,7 @@ ChromeOnly
 Throws
 ]
 static
-Promise
-<
 File
->
 createFromNsIFile
 (
 nsIFile
@@ -267,10 +264,7 @@ ChromeOnly
 Throws
 ]
 static
-Promise
-<
 File
->
 createFromFileName
 (
 USVString
