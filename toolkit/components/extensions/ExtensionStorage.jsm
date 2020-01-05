@@ -128,6 +128,7 @@ jsm
 function
 jsonReplacer
 (
+context
 key
 value
 )
@@ -227,8 +228,14 @@ key
 )
 {
 return
-{
-}
+new
+context
+.
+cloneScope
+.
+Object
+(
+)
 ;
 }
 return
@@ -267,6 +274,12 @@ jsonStringify
 (
 value
 jsonReplacer
+.
+bind
+(
+null
+context
+)
 )
 ;
 return
