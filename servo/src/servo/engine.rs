@@ -158,12 +158,15 @@ Send
 Copy
 >
 (
++
 compositor
 :
 C
++
 resource_task
 :
 ResourceTask
++
 image_cache_task
 :
 ImageCacheTask
@@ -288,6 +291,7 @@ on
 fn
 handle_request
 (
++
 request
 :
 Msg

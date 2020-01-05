@@ -687,6 +687,7 @@ Send
 A
 >
 (
++
 d
 :
 ScopeData
@@ -1046,6 +1047,7 @@ f
 :
 fn
 (
+&
 T
 )
 -
@@ -1059,6 +1061,7 @@ unsafe
 {
 f
 (
+&
 *
 self
 .
@@ -1198,6 +1201,7 @@ f
 :
 fn
 (
+&
 A
 )
 -
@@ -1218,6 +1222,7 @@ has_aux
 ;
 f
 (
+&
 *
 self
 .
@@ -1769,6 +1774,7 @@ U
 (
 h
 :
+&
 Handle
 <
 T
@@ -1778,6 +1784,7 @@ f
 :
 fn
 (
+&
 T
 )
 -
@@ -1809,6 +1816,7 @@ may
 not
 f
 (
+&
 *
 h
 .
@@ -1825,6 +1833,7 @@ U
 (
 h
 :
+&
 Handle
 <
 T
@@ -1834,6 +1843,7 @@ f
 :
 fn
 (
+&
 T
 )
 -
@@ -1944,11 +1954,13 @@ d
 .
 first_dirty
 =
+*
 h
 ;
 }
 f
 (
+&
 *
 h
 .
@@ -1957,6 +1969,21 @@ write_ptr
 )
 )
 }
+/
+/
+FIXME
+:
+This
+could
+avoid
+a
+deep
+copy
+by
+taking
+ownership
+of
+v
 #
 [
 allow
@@ -1969,6 +1996,7 @@ handle
 (
 v
 :
+&
 T
 )
 -
@@ -2037,7 +2065,6 @@ ptr
 :
 to_unsafe_ptr
 (
-&
 v
 )
 )
@@ -2217,6 +2244,7 @@ s
 .
 handle
 (
+&
 {
 name
 :
@@ -2243,6 +2271,7 @@ s
 .
 handle
 (
+&
 {
 name
 :
@@ -2271,6 +2300,7 @@ mutate
 (
 a
 :
+&
 animal
 )
 {
@@ -2310,6 +2340,7 @@ read_characteristic
 (
 a
 :
+&
 animal
 )
 -
@@ -2366,6 +2397,7 @@ s
 .
 handle
 (
+&
 {
 name
 :
@@ -2395,6 +2427,7 @@ s
 .
 handle
 (
+&
 {
 name
 :
@@ -2599,6 +2632,7 @@ s
 .
 write
 (
+&
 henrietta
 mutate
 )
@@ -2619,6 +2653,7 @@ s
 .
 write
 (
+&
 ferdinand
 mutate
 )

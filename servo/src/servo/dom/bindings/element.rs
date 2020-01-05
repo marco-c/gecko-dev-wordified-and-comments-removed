@@ -254,6 +254,7 @@ init
 (
 compartment
 :
+&
 bare_compartment
 )
 {
@@ -695,6 +696,7 @@ scope
 .
 write
 (
+&
 node
 |
 nd
@@ -917,6 +919,7 @@ scope
 .
 write
 (
+&
 (
 *
 bundle
@@ -1110,6 +1113,7 @@ scope
 .
 write
 (
+&
 (
 *
 bundle
@@ -1153,6 +1157,7 @@ vp
 domstring_to_jsval
 (
 cx
+&
 s
 )
 ;
@@ -1217,6 +1222,7 @@ scope
 .
 write
 (
+&
 node
 |
 nd

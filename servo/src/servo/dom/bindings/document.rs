@@ -612,6 +612,7 @@ init
 (
 compartment
 :
+&
 bare_compartment
 doc
 :

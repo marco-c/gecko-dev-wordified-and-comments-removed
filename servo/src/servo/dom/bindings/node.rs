@@ -150,6 +150,7 @@ init
 (
 compartment
 :
+&
 bare_compartment
 )
 {
@@ -402,6 +403,7 @@ scope
 .
 write
 (
+&
 node
 )
 |
@@ -633,6 +635,7 @@ scope
 .
 write
 (
+&
 (
 *
 bundle
@@ -776,6 +779,7 @@ scope
 .
 write
 (
+&
 (
 *
 bundle

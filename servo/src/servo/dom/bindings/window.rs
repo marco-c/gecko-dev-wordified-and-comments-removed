@@ -520,6 +520,7 @@ init
 (
 compartment
 :
+&
 bare_compartment
 win
 :
