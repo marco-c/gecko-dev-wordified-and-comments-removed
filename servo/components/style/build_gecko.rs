@@ -2229,7 +2229,7 @@ StyleBasicShapeType
 StyleClipPath
 "
 "
-StyleClipPathGeometryBox
+StyleGeometryBox
 "
 "
 StyleTransition
