@@ -14,6 +14,8 @@ import
 json
 import
 socket
+import
+errno
 from
 mozharness
 .
@@ -5786,6 +5788,9 @@ abs_minidump_path
 )
 :
                 
+try
+:
+                    
 self
 .
 chmod
@@ -5793,6 +5798,25 @@ chmod
 abs_minidump_path
 0755
 )
+                
+except
+OSError
+as
+e
+:
+                    
+if
+e
+.
+errno
+!
+=
+errno
+.
+EPERM
+:
+                        
+raise
                 
 self
 .
