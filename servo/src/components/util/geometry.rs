@@ -74,6 +74,11 @@ ScreenPx
 }
 pub
 enum
+ViewportPx
+{
+}
+pub
+enum
 PagePx
 {
 }
