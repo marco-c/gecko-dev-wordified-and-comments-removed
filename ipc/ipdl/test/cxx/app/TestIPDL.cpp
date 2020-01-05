@@ -61,10 +61,9 @@ Bootstrap
 :
 UniquePtr
 bootstrap
-;
-XRE_GetBootstrap
+=
+GetBootstrap
 (
-bootstrap
 )
 ;
 if
