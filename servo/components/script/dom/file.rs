@@ -120,6 +120,10 @@ File
 fn
 new_inherited
 (
+global
+:
+&
+GlobalRef
 _file_bits
 :
 JSRef
@@ -143,6 +147,8 @@ Blob
 :
 new_inherited
 (
+global
+None
 )
 name
 :
@@ -158,6 +164,7 @@ new
 (
 global
 :
+&
 GlobalRef
 file_bits
 :
@@ -184,9 +191,11 @@ File
 :
 new_inherited
 (
+global
 file_bits
 name
 )
+*
 global
 FileBinding
 :
