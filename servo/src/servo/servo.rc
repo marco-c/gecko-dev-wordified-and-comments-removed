@@ -349,6 +349,9 @@ file_loader
 mod
 http_loader
 ;
+mod
+image_cache_task
+;
 }
 import
 servo_text
