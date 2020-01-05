@@ -617,7 +617,7 @@ x
 )
     
 def
-test_by_value_invalid_dict
+test_by_value_dict
 (
 self
 )
@@ -671,10 +671,10 @@ value
         
 self
 .
-assertRaises
+assertEqual
 (
-Exception
 get_keyed_by
+(
 test
 '
 option
@@ -682,6 +682,13 @@ option
 '
 x
 '
+)
+test
+[
+'
+option
+'
+]
 )
     
 def
@@ -759,7 +766,7 @@ x
 )
     
 def
-test_by_value_invalid_no_by
+test_by_value_no_by
 (
 self
 )
@@ -800,10 +807,10 @@ value
         
 self
 .
-assertRaises
+assertEqual
 (
-Exception
 get_keyed_by
+(
 test
 '
 option
@@ -811,6 +818,13 @@ option
 '
 x
 '
+)
+test
+[
+'
+option
+'
+]
 )
 if
 __name__
