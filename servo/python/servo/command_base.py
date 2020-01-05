@@ -184,6 +184,16 @@ mingw64_nt
 -
 "
 )
+or
+os_type
+.
+startswith
+(
+"
+cygwin_nt
+-
+"
+)
 :
         
 os_type
