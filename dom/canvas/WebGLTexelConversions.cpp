@@ -1562,6 +1562,13 @@ None
 {
 MOZ_ASSERT
 (
+(
+srcPremultiplied
+!
+=
+dstPremultiplied
+|
+|
 shouldYFlip
 |
 |
@@ -1569,6 +1576,7 @@ srcStride
 !
 =
 dstStride
+)
 "
 Performance
 trap
