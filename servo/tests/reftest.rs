@@ -573,7 +573,7 @@ None
 run_tests
 :
 true
-run_benchmarks
+bench_benchmarks
 :
 false
 nocapture

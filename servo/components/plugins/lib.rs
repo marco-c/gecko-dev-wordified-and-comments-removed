@@ -59,10 +59,7 @@ ext
 base
 :
 :
-{
-Decorator
-Modifier
-}
+*
 ;
 use
 syntax
@@ -141,7 +138,7 @@ intern
 jstraceable
 "
 )
-Decorator
+MultiDecorator
 (
 box
 jstraceable
