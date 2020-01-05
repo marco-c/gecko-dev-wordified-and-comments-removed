@@ -804,6 +804,14 @@ ValOperandId
 val
 )
 ;
+JSValueType
+knownType
+(
+ValOperandId
+val
+)
+const
+;
 }
 ;
 class
