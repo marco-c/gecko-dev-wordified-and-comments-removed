@@ -866,9 +866,7 @@ Ci
 mozIOSPreferences
 )
 .
-getSystemLocale
-(
-)
+systemLocale
 ;
 }
 try

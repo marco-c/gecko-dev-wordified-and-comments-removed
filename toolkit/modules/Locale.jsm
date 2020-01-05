@@ -131,9 +131,7 @@ mozIOSPreferences
 return
 osPrefs
 .
-getSystemLocale
-(
-)
+systemLocale
 ;
 }
 try
