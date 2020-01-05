@@ -64,7 +64,12 @@ MPL
 DevToolsModules
 (
 '
-bundle
+debugger
+.
+css
+'
+'
+debugger
 .
 js
 '
@@ -90,10 +95,5 @@ map
 worker
 .
 js
-'
-'
-styles
-.
-css
 '
 )
