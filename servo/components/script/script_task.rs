@@ -1595,7 +1595,10 @@ TimelineMarker
 >
 js_runtime
 :
+Rc
+<
 Runtime
+>
 mouse_over_targets
 :
 DOMRefCell
@@ -1761,7 +1764,7 @@ unsafe_get
 )
 )
 .
-clear_js_context_for_script_deallocation
+clear_js_runtime_for_script_deallocation
 (
 )
 ;
@@ -2565,7 +2568,13 @@ None
 )
 js_runtime
 :
+Rc
+:
+:
+new
+(
 runtime
+)
 mouse_over_targets
 :
 DOMRefCell
@@ -7611,8 +7620,6 @@ self
 .
 js_runtime
 .
-cx
-.
 clone
 (
 )
@@ -10776,7 +10783,7 @@ r
 (
 )
 .
-clear_js_context
+clear_js_runtime
 (
 )
 ;

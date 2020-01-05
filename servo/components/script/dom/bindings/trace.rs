@@ -160,10 +160,7 @@ js
 rust
 :
 :
-{
-Cx
 Runtime
-}
 ;
 use
 layout_interface
@@ -1522,12 +1519,6 @@ no_jsmanaged_fields
 !
 (
 QuirksMode
-)
-;
-no_jsmanaged_fields
-!
-(
-Cx
 )
 ;
 no_jsmanaged_fields
