@@ -10583,8 +10583,9 @@ ansExt
 direction
 )
 {
-JSEP_SET_ERROR
+MOZ_MTLOG
 (
+ML_WARNING
 "
 Answer
 has
@@ -10641,9 +10642,6 @@ direction
 .
 "
 )
-;
-return
-NS_ERROR_INVALID_ARG
 ;
 }
 if
