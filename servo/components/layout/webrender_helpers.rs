@@ -3356,15 +3356,6 @@ LayeredItemClass
 .
 .
 )
-|
-DisplayItem
-:
-:
-NoopClass
-(
-.
-.
-)
 =
 >
 {
