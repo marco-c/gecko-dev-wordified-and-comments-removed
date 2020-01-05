@@ -106,7 +106,6 @@ capitalize
 ref
 .
 html
-fails
 =
 =
 capitalize
@@ -121,9 +120,6 @@ capitalize
 ref
 .
 html
-#
-bug
-1309582
 =
 =
 lowercase

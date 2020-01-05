@@ -1308,6 +1308,15 @@ isBreakableSpace
 if
 (
 isSpace
+|
+|
+ch
+=
+=
+'
+\
+n
+'
 )
 {
 if
