@@ -108,6 +108,11 @@ Grid
 js
 '
 '
+GridDisplaySettings
+.
+js
+'
+'
 GridList
 .
 js
