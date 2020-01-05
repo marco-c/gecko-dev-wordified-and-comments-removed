@@ -321,7 +321,7 @@ return
 aNode
 -
 >
-GetFlattenedTreeParentNode
+GetFlattenedTreeParentNodeForStyle
 (
 )
 ;
@@ -401,7 +401,7 @@ return
 aElement
 -
 >
-GetFlattenedTreeParentElement
+GetFlattenedTreeParentElementForStyle
 (
 )
 ;
