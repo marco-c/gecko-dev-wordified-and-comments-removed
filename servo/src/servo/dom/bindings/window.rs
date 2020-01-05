@@ -160,7 +160,7 @@ use
 dom
 :
 :
-base
+node
 :
 :
 Node

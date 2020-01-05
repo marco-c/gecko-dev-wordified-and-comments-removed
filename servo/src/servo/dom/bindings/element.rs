@@ -122,7 +122,7 @@ use
 dom
 :
 :
-base
+node
 :
 :
 {

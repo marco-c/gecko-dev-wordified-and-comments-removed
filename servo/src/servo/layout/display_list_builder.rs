@@ -43,7 +43,7 @@ use
 dom
 :
 :
-base
+node
 :
 :
 {

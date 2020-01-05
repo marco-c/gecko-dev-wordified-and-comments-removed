@@ -139,7 +139,10 @@ node
 create
 ;
 use
-base
+dom
+:
+:
+document
 :
 :
 Document

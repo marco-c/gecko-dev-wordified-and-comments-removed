@@ -125,9 +125,6 @@ mod
 dom
 {
 mod
-base
-;
-mod
 bindings
 {
 mod
@@ -147,10 +144,16 @@ window
 ;
 }
 mod
+document
+;
+mod
 element
 ;
 mod
 event
+;
+mod
+node
 ;
 mod
 rcu
