@@ -245,6 +245,11 @@ VRControllerInfo
 aControllerInfo
 )
 ;
+void
+CreateVRTestSystem
+(
+)
+;
 protected
 :
 VRManager
@@ -349,6 +354,9 @@ mInitialized
 ;
 TimeStamp
 mLastRefreshTime
+;
+bool
+mVRTestSystemCreated
 ;
 }
 ;

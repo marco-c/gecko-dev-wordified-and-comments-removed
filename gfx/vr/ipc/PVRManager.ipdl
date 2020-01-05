@@ -515,6 +515,11 @@ aControllerInfo
 )
 ;
 async
+CreateVRTestSystem
+(
+)
+;
+async
 CreateVRServiceTestDisplay
 (
 nsCString
