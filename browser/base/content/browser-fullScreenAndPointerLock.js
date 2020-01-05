@@ -358,9 +358,11 @@ aOrigin
 let
 uri
 =
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 this
 .

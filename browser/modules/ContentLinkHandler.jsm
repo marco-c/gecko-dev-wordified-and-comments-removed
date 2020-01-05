@@ -853,9 +853,11 @@ ownerDocument
 var
 uri
 =
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 aLink
 .
