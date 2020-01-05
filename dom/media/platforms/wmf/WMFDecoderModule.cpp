@@ -1163,7 +1163,7 @@ if
 MediaPrefs
 :
 :
-PDMWMFIntelDecoderEnabled
+PDMWMFVP9DecoderEnabled
 (
 )
 &
