@@ -263,11 +263,6 @@ _
 TypeOf_Fallback
 )
 \
-_
-(
-TypeOf_Typed
-)
-\
 \
 _
 (
