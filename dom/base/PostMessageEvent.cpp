@@ -675,7 +675,7 @@ nullptr
 ;
 Nullable
 <
-WindowProxyOrMessagePort
+WindowProxyOrMessagePortOrServiceWorker
 >
 source
 ;
