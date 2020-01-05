@@ -1165,9 +1165,8 @@ a
 (
 origin
 urlbarOrigin
-isInprivateBrowsing
 )
-tuple
+pair
 .
 *
 /
@@ -1186,9 +1185,6 @@ topLevelOrigin
 in
 AString
 gmpName
-in
-bool
-inPrivateBrowsingMode
 in
 GetNodeIdCallback
 callback

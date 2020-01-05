@@ -169,8 +169,6 @@ const
 nsAString
 &
 aName
-bool
-aInPrivateBrowsing
 )
 {
 MOZ_ASSERT
@@ -221,17 +219,6 @@ aTopLevelOrigin
 .
 get
 (
-)
-(
-aInPrivateBrowsing
-?
-"
-PrivateBrowsing
-"
-:
-"
-NonPrivateBrowsing
-"
 )
 )
 ;

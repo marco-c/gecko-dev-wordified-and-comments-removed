@@ -1229,8 +1229,6 @@ const
 nsAString
 &
 aGMPName
-bool
-aInPrivateBrowsing
 UniquePtr
 <
 GetNodeIdCallback
@@ -1289,11 +1287,6 @@ gmpName
 aGMPName
 )
 ;
-bool
-pb
-=
-aInPrivateBrowsing
-;
 GetServiceChild
 (
 )
@@ -1308,7 +1301,6 @@ rawCallback
 origin
 topLevelOrigin
 gmpName
-pb
 ]
 (
 GMPServiceChild
@@ -1339,7 +1331,6 @@ SendGetGMPNodeId
 origin
 topLevelOrigin
 gmpName
-pb
 &
 outId
 )

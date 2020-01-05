@@ -224,6 +224,16 @@ IsFirstPartyEnabled
 (
 )
 ;
+static
+bool
+IsPrivateBrowsing
+(
+const
+nsACString
+&
+aOrigin
+)
+;
 protected
 :
 OriginAttributes
