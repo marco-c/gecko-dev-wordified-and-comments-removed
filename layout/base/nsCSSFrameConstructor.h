@@ -308,6 +308,9 @@ CreateNeededFrames
 nsIContent
 *
 aContent
+TreeMatchContext
+&
+aTreeMatchContext
 )
 ;
 enum
@@ -451,6 +454,11 @@ nsIContent
 aFirstNewContent
 bool
 aAllowLazyConstruction
+TreeMatchContext
+*
+aProvidedTreeMatchContext
+=
+nullptr
 )
 ;
 nsresult
@@ -486,6 +494,11 @@ nsILayoutHistoryState
 aFrameState
 bool
 aAllowLazyConstruction
+TreeMatchContext
+*
+aProvidedTreeMatchContext
+=
+nullptr
 )
 ;
 enum
