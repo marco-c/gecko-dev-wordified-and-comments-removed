@@ -552,7 +552,7 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -568,7 +568,7 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >

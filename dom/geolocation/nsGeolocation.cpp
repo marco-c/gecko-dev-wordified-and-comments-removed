@@ -28,7 +28,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -284,7 +286,7 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -448,7 +450,7 @@ mCallback
 GeoPositionErrorCallback
 mErrorCallback
 ;
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -478,7 +480,7 @@ mProtocolType
 }
 ;
 static
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -490,16 +492,17 @@ PositionOptions
 aOptions
 )
 {
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
 geoOptions
-(
-new
+=
+MakeUnique
+<
 PositionOptions
+>
 (
-)
 )
 ;
 geoOptions
@@ -1056,7 +1059,7 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -4718,7 +4721,7 @@ aCallback
 nsIDOMGeoPositionErrorCallback
 *
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -4760,7 +4763,7 @@ GeoPositionCallback
 callback
 GeoPositionErrorCallback
 errorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -5023,7 +5026,7 @@ aCallback
 nsIDOMGeoPositionErrorCallback
 *
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
@@ -5069,7 +5072,7 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
-nsAutoPtr
+UniquePtr
 <
 PositionOptions
 >
