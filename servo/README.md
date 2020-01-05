@@ -168,6 +168,11 @@ libxmu6
 libxmu
 -
 dev
+libglu1
+-
+mesa
+-
+dev
 On
 Fedora
 :
