@@ -126,6 +126,13 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mQueuedEntries
 )
+tmp
+-
+>
+Disconnect
+(
+)
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
@@ -807,6 +814,10 @@ mConnected
 return
 ;
 }
+mConnected
+=
+true
+;
 nsIDocument
 *
 document
@@ -825,10 +836,6 @@ AddIntersectionObserver
 (
 this
 )
-;
-mConnected
-=
-true
 ;
 }
 void

@@ -319,10 +319,6 @@ DOMIntersectionObserver
 (
 )
 {
-Disconnect
-(
-)
-;
 }
 public
 :
