@@ -7602,6 +7602,7 @@ paint_chan
 pipeline_port
 layout_to_constellation_chan
 content_process_shutdown_chan
+layout_threads
 }
 =
 new_layout_info
@@ -7677,6 +7678,9 @@ clone
 content_process_shutdown_chan
 :
 content_process_shutdown_chan
+layout_threads
+:
+layout_threads
 }
 ;
 let
