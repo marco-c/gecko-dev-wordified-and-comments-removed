@@ -2046,8 +2046,7 @@ features
 )
 ]
             
-result
-=
+return
 call
 (
 args
@@ -2062,16 +2061,6 @@ servo_crate
 (
 )
 )
-            
-if
-result
-!
-=
-0
-:
-                
-return
-result
         
 if
 has_style
@@ -2140,8 +2129,7 @@ testing
 "
 ]
             
-result
-=
+return
 call
 (
 args
@@ -2156,16 +2144,6 @@ servo_crate
 (
 )
 )
-            
-if
-result
-!
-=
-0
-:
-                
-return
-result
     
 Command
 (
@@ -2279,8 +2257,7 @@ geckolib
 )
 :
             
-result
-=
+return
 call
 (
 [
@@ -2302,16 +2279,6 @@ env
 =
 env
 )
-        
-if
-result
-!
-=
-0
-:
-            
-return
-result
     
 Command
 (
@@ -2738,8 +2705,7 @@ BUILD_MODE
 debug
 "
         
-result
-=
+return
 call
 (
 args
@@ -2754,16 +2720,6 @@ servo_crate
 (
 )
 )
-        
-if
-result
-!
-=
-0
-:
-            
-return
-result
     
 Command
 (
