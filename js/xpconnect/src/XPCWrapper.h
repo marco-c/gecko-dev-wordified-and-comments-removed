@@ -47,10 +47,11 @@ GetScriptableInfo
 )
 -
 >
-GetFlags
+GetCallback
 (
 )
-.
+-
+>
 _flag
 (
 )
