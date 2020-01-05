@@ -1352,9 +1352,13 @@ static
 void
 GeneratePermutations
 (
+const
 IntIntervals
+&
 aI1
+const
 IntIntervals
+&
 aI2
 )
 {
