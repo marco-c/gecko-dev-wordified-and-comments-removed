@@ -1420,6 +1420,14 @@ ensure_python_modern
 (
 )
         
+self
+.
+instance
+.
+ensure_rust_modern
+(
+)
+        
 state_dir
 _
 =
