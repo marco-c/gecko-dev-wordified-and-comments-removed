@@ -253,15 +253,6 @@ aType
 mType
 ;
 }
-void
-SetType
-(
-const
-nsAString
-&
-aType
-)
-;
 eKind
 Kind
 (
@@ -473,6 +464,7 @@ mChromeOnly
 eKind
 mKind
 ;
+const
 nsString
 mType
 ;
