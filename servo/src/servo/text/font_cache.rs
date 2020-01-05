@@ -369,6 +369,7 @@ FT_Init_FreeType
 (
 addr_of
 (
+&
 lib
 )
 )

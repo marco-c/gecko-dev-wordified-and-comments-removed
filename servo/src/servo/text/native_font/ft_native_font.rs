@@ -1,3 +1,8 @@
+#
+[
+legacy_exports
+]
+;
 export
 FreeTypeNativeFont
 with_test_native_font
@@ -567,6 +572,7 @@ as
 FT_Long
 addr_of
 (
+&
 face
 )
 )
@@ -760,6 +766,7 @@ FT_Init_FreeType
 (
 addr_of
 (
+&
 lib
 )
 )
