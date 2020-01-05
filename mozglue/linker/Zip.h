@@ -30,6 +30,13 @@ h
 >
 #
 include
+<
+pthread
+.
+h
+>
+#
+include
 "
 Utils
 .
@@ -1406,6 +1413,10 @@ const
 DirectoryEntry
 *
 entries
+;
+mutable
+pthread_mutex_t
+mutex
 ;
 }
 ;
