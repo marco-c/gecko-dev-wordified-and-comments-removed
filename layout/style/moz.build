@@ -416,6 +416,16 @@ nsLayoutStylesheetCache
 h
 '
 '
+nsMediaFeatures
+.
+h
+'
+'
+nsMediaList
+.
+h
+'
+'
 nsRuleData
 .
 h
