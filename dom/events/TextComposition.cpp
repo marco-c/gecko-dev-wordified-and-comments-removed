@@ -988,6 +988,16 @@ t
 '
 |
 |
+*
+source
+=
+=
+'
+\
+n
+'
+|
+|
 !
 IsControlChar
 (
