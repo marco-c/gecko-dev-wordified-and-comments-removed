@@ -313,6 +313,15 @@ implemented
 "
 )
 ;
+StyleSet
+(
+)
+-
+>
+RecomputeDefaultComputedStyles
+(
+)
+;
 }
 void
 ServoRestyleManager

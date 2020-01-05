@@ -553,6 +553,11 @@ AssertTreeIsClean
 }
 #
 endif
+void
+RecomputeDefaultComputedStyles
+(
+)
+;
 private
 :
 already_AddRefed

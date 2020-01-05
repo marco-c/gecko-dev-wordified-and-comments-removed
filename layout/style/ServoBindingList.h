@@ -136,6 +136,15 @@ pres_context
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_RecomputeDefaultStyles
+void
+RawServoStyleSetBorrowed
+set
+RawGeckoPresContextBorrowed
+pres_context
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSet_Drop
 void
 RawServoStyleSetOwned
