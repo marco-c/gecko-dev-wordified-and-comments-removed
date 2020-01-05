@@ -8,10 +8,7 @@ bindings
 cell
 :
 :
-{
 DOMRefCell
-Ref
-}
 ;
 use
 dom
@@ -137,6 +134,15 @@ str
 :
 :
 DOMString
+;
+use
+std
+:
+:
+cell
+:
+:
+Ref
 ;
 #
 [

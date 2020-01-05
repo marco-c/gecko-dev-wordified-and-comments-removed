@@ -8,11 +8,7 @@ bindings
 cell
 :
 :
-{
 DOMRefCell
-Ref
-RefMut
-}
 ;
 use
 dom
@@ -267,7 +263,11 @@ std
 cell
 :
 :
+{
 Cell
+Ref
+RefMut
+}
 ;
 use
 std

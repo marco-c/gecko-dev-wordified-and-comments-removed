@@ -17,10 +17,7 @@ bindings
 cell
 :
 :
-{
 DOMRefCell
-Ref
-}
 ;
 use
 dom
@@ -792,7 +789,10 @@ std
 cell
 :
 :
+{
 Cell
+Ref
+}
 ;
 use
 std
