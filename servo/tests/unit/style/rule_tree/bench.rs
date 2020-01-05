@@ -81,6 +81,7 @@ rule_tree
 :
 :
 {
+CascadeLevel
 RuleTree
 StrongRuleNode
 StyleSource
@@ -271,7 +272,7 @@ Vec
 <
 (
 StyleSource
-Importance
+CascadeLevel
 )
 >
 {
@@ -398,10 +399,10 @@ s
 {
 (
 s
-Importance
+CascadeLevel
 :
 :
-Normal
+UserNormal
 )
 }
 )
@@ -423,7 +424,7 @@ Vec
 <
 (
 StyleSource
-Importance
+CascadeLevel
 )
 >
 )
@@ -455,7 +456,7 @@ rules
 [
 (
 StyleSource
-Importance
+CascadeLevel
 )
 ]
 )
@@ -536,10 +537,10 @@ important_count
 )
 )
 )
-Importance
+CascadeLevel
 :
 :
-Normal
+UserNormal
 )
 )
 ;

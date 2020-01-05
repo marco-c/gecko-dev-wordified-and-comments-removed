@@ -1197,12 +1197,10 @@ is_in_doc
 |
 |
 mutation
-=
-=
-AttributeMutation
-:
-:
-Removed
+.
+is_removal
+(
+)
 {
 return
 ;

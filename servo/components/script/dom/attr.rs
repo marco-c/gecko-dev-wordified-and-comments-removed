@@ -824,6 +824,7 @@ owner
 .
 will_mutate_attr
 (
+self
 )
 ;
 self

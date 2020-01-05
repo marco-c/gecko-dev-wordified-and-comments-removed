@@ -2473,7 +2473,7 @@ d
 source
 d
 .
-importance
+level
 )
 )
 ;
@@ -2539,13 +2539,13 @@ MatchResults
 let
 mut
 applicable_declarations
-:
+=
 Vec
+:
+:
 <
 ApplicableDeclarationBlock
 >
-=
-Vec
 :
 :
 with_capacity
@@ -2679,10 +2679,6 @@ Some
 (
 &
 pseudo
-.
-clone
-(
-)
 )
 &
 mut
