@@ -50,8 +50,6 @@ uint32_t
 aDataSize
 Microseconds
 aTimestamp
-Microseconds
-aDuration
 )
 ;
 HRESULT
@@ -131,8 +129,6 @@ uint32_t
 aDataSize
 Microseconds
 aTimestamp
-Microseconds
-aDuration
 IMFSample
 *
 *
