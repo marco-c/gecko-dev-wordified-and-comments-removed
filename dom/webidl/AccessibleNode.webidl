@@ -139,6 +139,16 @@ DOMString
 states
 )
 ;
+boolean
+has
+(
+DOMString
+.
+.
+.
+attributes
+)
+;
 [
 Throws
 ]
