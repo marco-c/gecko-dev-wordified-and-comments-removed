@@ -1294,6 +1294,16 @@ return
 mMaxHttpResponseHeaderSize
 ;
 }
+float
+FocusedWindowTransactionRatio
+(
+)
+const
+{
+return
+mFocusedWindowTransactionRatio
+;
+}
 private
 :
 virtual
@@ -1727,6 +1737,9 @@ mDefaultHpackBuffer
 ;
 uint32_t
 mMaxHttpResponseHeaderSize
+;
+float
+mFocusedWindowTransactionRatio
 ;
 private
 :

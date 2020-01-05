@@ -143,6 +143,16 @@ PR_SecondsToInterval
 )
 ;
 }
+uint64_t
+TopLevelOuterContentWindowId
+(
+)
+override
+{
+return
+0
+;
+}
 protected
 :
 virtual
