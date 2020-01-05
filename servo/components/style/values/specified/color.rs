@@ -212,6 +212,7 @@ MozDefaultBackgroundColor
 MozHyperlinktext
 MozActiveHyperlinktext
 MozVisitedHyperlinktext
+InheritFromBodyQuirk
 }
 no_viewport_percentage
 !
@@ -611,6 +612,17 @@ moz
 -
 visitedhyperlinktext
 "
+)
+Color
+:
+:
+InheritFromBodyQuirk
+=
+>
+Ok
+(
+(
+)
 )
 }
 }
