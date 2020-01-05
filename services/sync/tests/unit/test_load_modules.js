@@ -98,11 +98,6 @@ identity
 js
 "
 "
-jpakeclient
-.
-js
-"
-"
 keys
 .
 js
