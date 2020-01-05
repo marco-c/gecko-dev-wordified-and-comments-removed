@@ -4711,7 +4711,7 @@ int32_t
 z
 ;
 nsresult
-res
+rv
 =
 htmlEditor
 -
@@ -4725,8 +4725,8 @@ z
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 *

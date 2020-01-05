@@ -310,7 +310,7 @@ DebugOnly
 <
 nsresult
 >
-res
+rv
 =
 mIter
 -
@@ -325,7 +325,7 @@ MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 )
 ;
