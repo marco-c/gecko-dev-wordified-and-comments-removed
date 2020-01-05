@@ -3529,7 +3529,7 @@ int32_t
 10
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -3542,7 +3542,6 @@ omta
 enabled
 "
 WebRenderOMTAEnabled
-bool
 gfxPrefs
 :
 :
