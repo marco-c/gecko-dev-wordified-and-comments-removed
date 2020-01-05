@@ -194,6 +194,11 @@ object
 js
 '
 '
+promise
+.
+js
+'
+'
 prop
 -
 rep
