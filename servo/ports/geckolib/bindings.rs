@@ -705,6 +705,11 @@ pseudoTag
 *
 mut
 nsIAtom
+set
+:
+*
+mut
+RawServoStyleSet
 )
 -
 >
