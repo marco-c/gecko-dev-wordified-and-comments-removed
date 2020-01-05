@@ -584,6 +584,15 @@ mozIStorageCompletionCallback
 aCallback
 )
 :
+Runnable
+(
+"
+storage
+:
+:
+CallbackComplete
+"
+)
 mStatus
 (
 aStatus

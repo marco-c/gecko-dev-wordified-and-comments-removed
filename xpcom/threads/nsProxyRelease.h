@@ -124,6 +124,12 @@ T
 aDoomed
 )
 :
+Runnable
+(
+"
+ProxyReleaseEvent
+"
+)
 mDoomed
 (
 aDoomed

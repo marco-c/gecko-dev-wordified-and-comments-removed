@@ -5137,6 +5137,15 @@ WorkerThread
 aThread
 )
 :
+Runnable
+(
+"
+WorkerThreadPrimaryRunnable
+:
+:
+FinishedRunnable
+"
+)
 mThread
 (
 aThread
