@@ -108,10 +108,6 @@ event
 target
 )
 ;
-"
-onpopupshown
-=
-"
 UpdateCurrentCharset
 (
 this

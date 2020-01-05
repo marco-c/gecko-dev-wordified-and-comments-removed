@@ -2658,10 +2658,6 @@ event
 target
 )
 ;
-"
-onpopupshown
-=
-"
 CharsetMenu
 .
 update
