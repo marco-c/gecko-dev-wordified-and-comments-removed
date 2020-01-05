@@ -70,7 +70,7 @@ servo
 /
 ports
 /
-geckoservo
+geckolib
 "
 }
 mp4parse_capi
