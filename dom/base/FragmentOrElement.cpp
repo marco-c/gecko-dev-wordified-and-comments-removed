@@ -2063,7 +2063,7 @@ GetWrapperPreserveColor
 aNode
 -
 >
-IsBlackAndDoesNotNeedTracing
+HasKnownLiveWrapperAndDoesNotNeedTracing
 (
 aNode
 )
@@ -2102,7 +2102,7 @@ return
 tmp
 -
 >
-IsBlackAndDoesNotNeedTracing
+HasKnownLiveWrapperAndDoesNotNeedTracing
 (
 tmp
 )

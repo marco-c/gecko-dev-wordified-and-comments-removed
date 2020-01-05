@@ -399,7 +399,7 @@ return
 tmp
 -
 >
-IsBlackAndDoesNotNeedTracing
+HasKnownLiveWrapperAndDoesNotNeedTracing
 (
 static_cast
 <

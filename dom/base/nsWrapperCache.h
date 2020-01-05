@@ -358,7 +358,7 @@ HasKnownLiveWrapper
 const
 ;
 bool
-IsBlackAndDoesNotNeedTracing
+HasKnownLiveWrapperAndDoesNotNeedTracing
 (
 nsISupports
 *
