@@ -486,10 +486,6 @@ scope
 ;
 let
 debug
-;
-try
-{
-debug
 =
 Services
 .
@@ -498,15 +494,9 @@ prefs
 getBoolPref
 (
 kPrefCustomizationDebug
+false
 )
 ;
-}
-catch
-(
-ex
-)
-{
-}
 let
 consoleOptions
 =

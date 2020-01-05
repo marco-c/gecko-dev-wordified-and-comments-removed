@@ -1652,10 +1652,6 @@ return
 }
 let
 active
-;
-try
-{
-active
 =
 Services
 .
@@ -1668,15 +1664,9 @@ social
 .
 active
 "
+false
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 !
