@@ -1097,7 +1097,9 @@ if
 v
 -
 >
-mSentToCompositor
+IsSentToCompositor
+(
+)
 )
 {
 TryUpdateRenderedVideoFrames
@@ -1550,9 +1552,9 @@ VideoData
 frame
 -
 >
-mSentToCompositor
-=
-true
+MarkSentToCompositor
+(
+)
 ;
 if
 (
@@ -1939,7 +1941,9 @@ VideoData
 )
 -
 >
-mSentToCompositor
+IsSentToCompositor
+(
+)
 )
 {
 mFrameStats
