@@ -871,11 +871,6 @@ mozframetype
 ;
 }
 void
-ResetPermissionManagerStatus
-(
-)
-;
-void
 InitializeBrowserAPI
 (
 )
@@ -970,9 +965,6 @@ dom
 Element
 >
 mOwnerContentStrong
-;
-uint32_t
-mAppIdSentToPermissionManager
 ;
 nsWeakFrame
 mDetachedSubdocFrame
