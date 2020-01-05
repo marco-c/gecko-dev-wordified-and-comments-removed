@@ -162,6 +162,7 @@ run
 =
 some
 (
+copy
 run
 )
 ;

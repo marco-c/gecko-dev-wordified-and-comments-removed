@@ -411,6 +411,7 @@ image
 )
 bounds
 :
+copy
 box
 .
 bounds
@@ -469,6 +470,7 @@ u8
 )
 bounds
 :
+copy
 box
 .
 bounds

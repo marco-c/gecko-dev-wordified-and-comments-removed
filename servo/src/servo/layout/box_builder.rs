@@ -868,6 +868,7 @@ rd
 |
 n
 |
+copy
 n
 .
 kind
@@ -911,6 +912,7 @@ size
 {
 bk_intrinsic
 (
+copy
 size
 )
 }

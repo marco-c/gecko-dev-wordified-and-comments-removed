@@ -160,6 +160,7 @@ self
 .
 pos
 =
+copy
 pos
 ;
 }

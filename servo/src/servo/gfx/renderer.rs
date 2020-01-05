@@ -328,6 +328,7 @@ u8
 let
 bounds
 =
+copy
 (
 *
 item
@@ -500,6 +501,7 @@ inefficient
 let
 bounds
 =
+copy
 (
 *
 item

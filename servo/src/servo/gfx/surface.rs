@@ -87,6 +87,7 @@ image_surface
 {
 size
 :
+copy
 size
 format
 :
