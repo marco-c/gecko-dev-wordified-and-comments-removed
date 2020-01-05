@@ -400,10 +400,10 @@ _
 FontContextHandle
 buf
 :
-~
-[
+Vec
+<
 u8
-]
+>
 style
 :
 &
@@ -427,6 +427,10 @@ CGDataProvider
 from_buffer
 (
 buf
+.
+as_slice
+(
+)
 )
 ;
 let
