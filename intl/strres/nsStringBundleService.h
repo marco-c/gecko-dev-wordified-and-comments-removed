@@ -111,7 +111,7 @@ nsStringBundleService
 (
 )
 ;
-nsresult
+void
 getStringBundle
 (
 const
