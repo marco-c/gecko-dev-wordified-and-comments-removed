@@ -106,9 +106,6 @@ static
 bool
 CanHaveTextOverflow
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aBlockFrame
