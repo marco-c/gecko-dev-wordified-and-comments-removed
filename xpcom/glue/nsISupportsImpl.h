@@ -666,6 +666,9 @@ _p
 if
 (
 _p
+!
+=
+nullptr
 )
 \
 NS_LogCOMPtrAddRef
