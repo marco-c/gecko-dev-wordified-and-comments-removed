@@ -74,14 +74,6 @@ multipage
 /
 #
 validitystate
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 ValidityState
 {

@@ -78,14 +78,6 @@ idl
 def
 -
 Touch
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 Touch
 {
