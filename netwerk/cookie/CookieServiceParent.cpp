@@ -141,8 +141,6 @@ aHostURI
 OriginAttributes
 &
 aAttrs
-bool
-aIsPrivate
 nsIChannel
 *
 *
@@ -255,7 +253,11 @@ pbChannel
 >
 SetPrivate
 (
-aIsPrivate
+aAttrs
+.
+mPrivateBrowsingId
+>
+0
 )
 ;
 dummyChannel
@@ -402,15 +404,6 @@ IPC_FAIL_NO_REASON
 this
 )
 ;
-bool
-isPrivate
-=
-aAttrs
-.
-mPrivateBrowsingId
->
-0
-;
 mCookieService
 -
 >
@@ -420,7 +413,6 @@ hostURI
 aIsForeign
 false
 aAttrs
-isPrivate
 *
 aResult
 )
@@ -497,15 +489,6 @@ IPC_FAIL_NO_REASON
 this
 )
 ;
-bool
-isPrivate
-=
-aAttrs
-.
-mPrivateBrowsingId
->
-0
-;
 nsCOMPtr
 <
 nsIChannel
@@ -523,7 +506,6 @@ OriginAttributes
 (
 aAttrs
 )
-isPrivate
 getter_AddRefs
 (
 dummyChannel
@@ -548,7 +530,6 @@ cookieString
 aServerTime
 false
 aAttrs
-isPrivate
 dummyChannel
 )
 ;

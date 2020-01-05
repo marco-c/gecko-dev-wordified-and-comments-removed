@@ -1016,8 +1016,6 @@ const
 OriginAttributes
 &
 aOriginAttrs
-bool
-aIsPrivate
 nsCString
 &
 aCookie
@@ -1065,8 +1063,6 @@ const
 OriginAttributes
 &
 aOriginAttrs
-bool
-aIsPrivate
 nsIChannel
 *
 aChannel
