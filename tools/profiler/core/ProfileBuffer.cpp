@@ -21,7 +21,7 @@ mozilla
 :
 MakeUnique
 <
-ProfileEntry
+ProfileBufferEntry
 [
 ]
 >
@@ -80,7 +80,7 @@ ProfileBuffer
 addTag
 (
 const
-ProfileEntry
+ProfileBufferEntry
 &
 aTag
 )
@@ -132,7 +132,7 @@ mEntries
 mReadPos
 ]
 =
-ProfileEntry
+ProfileBufferEntry
 (
 )
 ;
@@ -338,7 +338,7 @@ tagsConsumed
 +
 +
 ;
-ProfileEntry
+ProfileBufferEntry
 readAheadEntry
 =
 mEntries

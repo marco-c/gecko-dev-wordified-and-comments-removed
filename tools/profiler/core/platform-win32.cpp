@@ -22,13 +22,6 @@ h
 #
 include
 "
-ProfileEntry
-.
-h
-"
-#
-include
-"
 nsMemoryReporterManager
 .
 h

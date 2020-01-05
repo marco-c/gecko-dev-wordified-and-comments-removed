@@ -915,7 +915,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 CodeLocation
@@ -1018,7 +1018,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 EmbeddedString
@@ -1246,7 +1246,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 CodeLocation
@@ -1287,7 +1287,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 LineNumber
@@ -1347,7 +1347,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Category
@@ -1734,7 +1734,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Sample
@@ -2158,7 +2158,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 JitReturnAddr
@@ -2212,7 +2212,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 NativeLeafAddr
@@ -3658,7 +3658,7 @@ aInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 NativeLeafAddr
@@ -3699,7 +3699,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 ThreadId
@@ -3729,7 +3729,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Time
@@ -3859,7 +3859,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Marker
@@ -3909,7 +3909,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Responsiveness
@@ -3938,7 +3938,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 ResidentMemory
@@ -3972,7 +3972,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 UnsharedMemory
@@ -4003,7 +4003,7 @@ currThreadInfo
 .
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 FrameNumber

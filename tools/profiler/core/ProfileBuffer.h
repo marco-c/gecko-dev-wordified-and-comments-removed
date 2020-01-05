@@ -7,7 +7,7 @@ MOZ_PROFILE_BUFFER_H
 #
 include
 "
-ProfileEntry
+ProfileBufferEntry
 .
 h
 "
@@ -78,7 +78,7 @@ void
 addTag
 (
 const
-ProfileEntry
+ProfileBufferEntry
 &
 aTag
 )
@@ -189,7 +189,7 @@ mozilla
 :
 UniquePtr
 <
-ProfileEntry
+ProfileBufferEntry
 [
 ]
 >

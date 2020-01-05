@@ -1,9 +1,9 @@
 #
 ifndef
-MOZ_PROFILE_ENTRY_H
+ProfileBufferEntry_h
 #
 define
-MOZ_PROFILE_ENTRY_H
+ProfileBufferEntry_h
 #
 include
 <
@@ -135,7 +135,7 @@ h
 "
 #
 define
-PROFILE_ENTRY_KIND_LIST
+PROFILE_BUFFER_ENTRY_KIND_LIST
 (
 _
 )
@@ -248,7 +248,7 @@ push
 #
 endif
 class
-ProfileEntry
+ProfileBufferEntry
 {
 public
 :
@@ -269,7 +269,7 @@ k
 t
 )
 k
-PROFILE_ENTRY_KIND_LIST
+PROFILE_BUFFER_ENTRY_KIND_LIST
 (
 DEF_ENUM_
 )
@@ -279,13 +279,13 @@ DEF_ENUM_
 LIMIT
 }
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 )
 ;
 private
 :
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -295,7 +295,7 @@ char
 aTagData
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -304,7 +304,7 @@ void
 aTagPtr
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -313,7 +313,7 @@ ProfilerMarker
 aTagMarker
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -321,7 +321,7 @@ double
 aTagDouble
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -329,7 +329,7 @@ uintptr_t
 aTagOffset
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -337,7 +337,7 @@ Address
 aTagAddress
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -345,7 +345,7 @@ int
 aTagLine
 )
 ;
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 aKind
@@ -364,15 +364,16 @@ t
 )
 \
 static
-ProfileEntry
+ProfileBufferEntry
 k
 (
 t
 val
 )
 {
+\
 return
-ProfileEntry
+ProfileBufferEntry
 (
 Kind
 :
@@ -381,8 +382,9 @@ k
 val
 )
 ;
+\
 }
-PROFILE_ENTRY_KIND_LIST
+PROFILE_BUFFER_ENTRY_KIND_LIST
 (
 DEF_MAKE_
 )
@@ -443,7 +445,7 @@ k
 )
 ;
 }
-PROFILE_ENTRY_KIND_LIST
+PROFILE_BUFFER_ENTRY_KIND_LIST
 (
 DEF_METHODS_
 )

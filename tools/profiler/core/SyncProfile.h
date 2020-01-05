@@ -7,13 +7,6 @@ __SYNCPROFILE_H
 #
 include
 "
-ProfileEntry
-.
-h
-"
-#
-include
-"
 ThreadInfo
 .
 h

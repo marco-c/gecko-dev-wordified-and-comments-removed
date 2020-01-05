@@ -266,7 +266,7 @@ ThreadInfo
 addTag
 (
 const
-ProfileEntry
+ProfileBufferEntry
 &
 aTag
 )
