@@ -2834,11 +2834,8 @@ AbortReasonOr
 <
 Ok
 >
-getElemTryCache
+getElemAddCache
 (
-bool
-*
-emitted
 MDefinition
 *
 obj

@@ -473,14 +473,6 @@ pc
 )
 ;
 bool
-hasSeenNonNativeGetElement
-(
-jsbytecode
-*
-pc
-)
-;
-bool
 hasSeenNegativeIndexGetElement
 (
 jsbytecode
