@@ -17,6 +17,12 @@ SelectorImpl
 }
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 style
 ;
 use
@@ -384,6 +390,11 @@ SelectorImpl
 for
 GeckoSelectorImpl
 {
+type
+AttrString
+=
+Atom
+;
 type
 PseudoElement
 =

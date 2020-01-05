@@ -548,6 +548,9 @@ Element
 Impl
 =
 ServoSelectorImpl
+AttrString
+=
+String
 >
 ;
 type
@@ -2091,6 +2094,9 @@ Element
 Impl
 =
 ServoSelectorImpl
+AttrString
+=
+String
 >
 +
 PresentationalHintsSynthetizer

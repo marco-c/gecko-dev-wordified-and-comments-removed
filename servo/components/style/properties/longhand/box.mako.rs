@@ -691,11 +691,6 @@ need_clone
 "
 True
 "
-gecko_ffi_name
-=
-"
-mFloats
-"
 >
 impl
 ToComputedValue

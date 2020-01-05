@@ -59,6 +59,11 @@ gecko
 "
 gecko_bindings
 "
+"
+selectors
+/
+gecko
+"
 ]
 servo
 =
@@ -304,7 +309,7 @@ selectors
 "
 0
 .
-6
+7
 "
 serde
 =
