@@ -101,7 +101,7 @@ if
 (
 script
 )
-property
+formatProperty
 (
 "
 name
@@ -167,10 +167,6 @@ property
 (
 "
 name
-"
-"
-%
-s
 "
 pass
 )
@@ -255,10 +251,6 @@ property
 mode
 "
 "
-%
-s
-"
-"
 At
 "
 )
@@ -277,10 +269,6 @@ property
 mode
 "
 "
-%
-s
-"
-"
 After
 "
 )
@@ -297,10 +285,6 @@ property
 (
 "
 mode
-"
-"
-%
-s
 "
 "
 Outer
@@ -799,7 +783,7 @@ endStringProperty
 }
 else
 {
-property
+formatProperty
 (
 "
 type
@@ -1762,10 +1746,6 @@ property
 (
 "
 allocation
-"
-"
-%
-s
 "
 range
 -
