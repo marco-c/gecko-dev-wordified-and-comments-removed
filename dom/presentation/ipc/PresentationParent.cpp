@@ -1701,6 +1701,11 @@ windowId
 (
 )
 eventTarget
+aRequest
+.
+principal
+(
+)
 this
 constructor
 )

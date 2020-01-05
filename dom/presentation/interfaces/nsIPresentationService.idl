@@ -84,6 +84,9 @@ nsIPresentationSessionListener
 interface
 nsIPresentationTransportBuilderConstructor
 ;
+interface
+nsIPrincipal
+;
 %
 {
 C
@@ -448,6 +451,17 @@ in
 .
 *
 param
+principal
+:
+The
+principal
+that
+initiated
+the
+session
+.
+*
+param
 callback
 :
 Invoke
@@ -533,6 +547,9 @@ windowId
 in
 nsIDOMEventTarget
 eventTarget
+in
+nsIPrincipal
+principal
 in
 nsIPresentationServiceCallback
 callback

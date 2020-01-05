@@ -981,6 +981,19 @@ GetChromeEventHandler
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+principal
+=
+doc
+-
+>
+NodePrincipal
+(
+)
+;
+nsCOMPtr
+<
 nsIPresentationServiceCallback
 >
 callback
@@ -1026,6 +1039,7 @@ WindowID
 (
 )
 handler
+principal
 callback
 constructor
 )
