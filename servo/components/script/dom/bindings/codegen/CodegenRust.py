@@ -15980,7 +15980,6 @@ s
 throw_dom_exception
 (
 cx
-&
 global
 .
 root_ref
