@@ -685,7 +685,7 @@ url
 }
 pub
 fn
-AfterRemoveAttr
+BeforeRemoveAttr
 (
 &
 mut

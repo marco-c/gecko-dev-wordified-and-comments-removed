@@ -778,7 +778,7 @@ modes
 }
 pub
 fn
-AfterRemoveAttr
+BeforeRemoveAttr
 (
 &
 mut
