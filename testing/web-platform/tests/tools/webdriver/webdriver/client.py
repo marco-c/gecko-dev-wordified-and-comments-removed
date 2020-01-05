@@ -2206,13 +2206,10 @@ None
 required_capabilities
 =
 None
-timeout
-=
-transport
-.
-HTTP_TIMEOUT
-                 
 extension
+=
+None
+timeout
 =
 None
 )
