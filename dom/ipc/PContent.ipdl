@@ -3942,6 +3942,8 @@ tables
 )
 returns
 (
+nsresult
+rv
 nsCString
 [
 ]
