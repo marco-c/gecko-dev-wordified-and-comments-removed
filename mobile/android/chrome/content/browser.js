@@ -15613,17 +15613,6 @@ return
 }
 htmlMenu
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIHTMLMenu
-)
-;
-htmlMenu
-.
 sendShowEvent
 (
 )
