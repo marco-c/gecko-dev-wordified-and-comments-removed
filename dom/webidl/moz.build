@@ -3415,7 +3415,17 @@ Fetch
 webidl
 '
 '
+FetchController
+.
+webidl
+'
+'
 FetchEvent
+.
+webidl
+'
+'
+FetchSignal
 .
 webidl
 '
