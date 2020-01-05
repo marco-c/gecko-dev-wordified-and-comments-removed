@@ -1037,12 +1037,9 @@ file
 ;
 mErrorResult
 =
-NS_NewNativeLocalFile
-(
-NS_ConvertUTF16toUTF8
+NS_NewLocalFile
 (
 mDirectoryPath
-)
 true
 getter_AddRefs
 (
@@ -1187,9 +1184,7 @@ file
 ;
 mErrorResult
 =
-NS_NewNativeLocalFile
-(
-NS_ConvertUTF16toUTF8
+NS_NewLocalFile
 (
 mTargetPathArray
 [
@@ -1197,7 +1192,6 @@ i
 ]
 .
 mRealPath
-)
 true
 getter_AddRefs
 (
