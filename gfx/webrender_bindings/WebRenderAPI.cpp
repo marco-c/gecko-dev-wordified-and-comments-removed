@@ -89,6 +89,9 @@ aBridge
 GLint
 *
 aMaxTextureSize
+bool
+*
+aUseANGLE
 RefPtr
 <
 widget
@@ -116,6 +119,10 @@ aApi
 mMaxTextureSize
 (
 aMaxTextureSize
+)
+mUseANGLE
+(
+aUseANGLE
 )
 mBridge
 (
@@ -223,6 +230,16 @@ LOCAL_GL_MAX_TEXTURE_SIZE
 mMaxTextureSize
 )
 ;
+*
+mUseANGLE
+=
+gl
+-
+>
+IsANGLE
+(
+)
+;
 WrRenderer
 *
 wrRenderer
@@ -315,6 +332,10 @@ mWrApi
 GLint
 *
 mMaxTextureSize
+;
+bool
+*
+mUseANGLE
 ;
 layers
 :
@@ -491,6 +512,11 @@ maxTextureSize
 =
 0
 ;
+bool
+useANGLE
+=
+false
+;
 layers
 :
 :
@@ -516,6 +542,8 @@ wrApi
 aBridge
 &
 maxTextureSize
+&
+useANGLE
 Move
 (
 aWidget
@@ -570,6 +598,7 @@ WebRenderAPI
 wrApi
 id
 maxTextureSize
+useANGLE
 )
 )
 .

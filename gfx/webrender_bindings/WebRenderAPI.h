@@ -291,6 +291,16 @@ return
 mMaxTextureSize
 ;
 }
+bool
+GetUseANGLE
+(
+)
+const
+{
+return
+mUseANGLE
+;
+}
 protected
 :
 WebRenderAPI
@@ -305,6 +315,8 @@ WindowId
 aId
 GLint
 aMaxTextureSize
+bool
+aUseANGLE
 )
 :
 mWrApi
@@ -318,6 +330,10 @@ aId
 mMaxTextureSize
 (
 aMaxTextureSize
+)
+mUseANGLE
+(
+aUseANGLE
 )
 {
 }
@@ -338,6 +354,9 @@ mId
 ;
 GLint
 mMaxTextureSize
+;
+bool
+mUseANGLE
 ;
 friend
 class
