@@ -32,6 +32,15 @@ h
 #
 include
 "
+pkix
+/
+Result
+.
+h
+"
+#
+include
+"
 SignedCertificateTimestamp
 .
 h
