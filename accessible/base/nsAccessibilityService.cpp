@@ -9964,14 +9964,6 @@ xpcAccessibilityService
 IsInUse
 (
 )
-|
-|
-accService
--
->
-HasXPCDocuments
-(
-)
 )
 {
 nsAccessibilityService
