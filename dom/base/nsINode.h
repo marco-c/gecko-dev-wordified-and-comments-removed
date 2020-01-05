@@ -1970,7 +1970,6 @@ aStatus
 )
 ;
 }
-virtual
 void
 *
 GetProperty
@@ -2018,7 +2017,6 @@ aTransfer
 )
 ;
 }
-virtual
 nsresult
 SetProperty
 (
@@ -2092,7 +2090,6 @@ aPropertyName
 )
 ;
 }
-virtual
 void
 DeleteProperty
 (
@@ -2126,7 +2123,6 @@ aStatus
 )
 ;
 }
-virtual
 void
 *
 UnsetProperty
