@@ -302,6 +302,7 @@ NetworkDetails
 .
 initialize
 (
+gStore
 )
 ;
 this
