@@ -199,15 +199,6 @@ extensions
 /
 ext
 -
-test
-.
-js
-content
-/
-extensions
-/
-ext
--
 topSites
 .
 js
