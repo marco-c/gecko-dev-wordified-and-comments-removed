@@ -2192,6 +2192,8 @@ StartIceChecks_s
 bool
 aIsControlling
 bool
+aIsOfferer
+bool
 aIsIceLite
 const
 std

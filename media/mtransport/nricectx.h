@@ -1101,6 +1101,8 @@ proxy_only
 nsresult
 StartChecks
 (
+bool
+offerer
 )
 ;
 void
@@ -1194,8 +1196,6 @@ std
 string
 &
 name
-bool
-offerer
 Policy
 policy
 )

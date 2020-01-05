@@ -1035,6 +1035,15 @@ const
 0
 ;
 virtual
+bool
+IsOfferer
+(
+)
+const
+=
+0
+;
+virtual
 const
 std
 :

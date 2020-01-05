@@ -72,8 +72,6 @@ std
 string
 &
 name
-bool
-offerer
 NrIceCtx
 :
 :
@@ -87,7 +85,6 @@ new
 NrIceCtx
 (
 name
-offerer
 policy
 )
 )
@@ -117,8 +114,6 @@ std
 string
 &
 name
-bool
-offerer
 bool
 allow_loopback
 bool
@@ -152,7 +147,6 @@ new
 NrIceCtxHandler
 (
 name
-offerer
 policy
 )
 ;
@@ -325,7 +319,6 @@ current_ctx
 name
 (
 )
-true
 this
 -
 >

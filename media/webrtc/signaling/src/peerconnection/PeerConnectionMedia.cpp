@@ -1794,7 +1794,6 @@ PC
 "
 +
 mParentName
-true
 mParent
 -
 >
@@ -3199,6 +3198,11 @@ IsIceControlling
 )
 aSession
 .
+IsOfferer
+(
+)
+aSession
+.
 RemoteIsIceLite
 (
 )
@@ -3236,6 +3240,8 @@ StartIceChecks_s
 (
 bool
 aIsControlling
+bool
+aIsOfferer
 bool
 aIsIceLite
 const
@@ -3413,6 +3419,7 @@ ctx
 >
 StartChecks
 (
+aIsOfferer
 )
 ;
 }

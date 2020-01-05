@@ -34,8 +34,6 @@ string
 &
 name
 bool
-offerer
-bool
 allow_loopback
 =
 false
@@ -175,8 +173,6 @@ std
 string
 &
 name
-bool
-offerer
 NrIceCtx
 :
 :
