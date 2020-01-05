@@ -100,8 +100,6 @@ text
 /
 xml
 "
-/
-*
 "
 application
 /
@@ -114,6 +112,8 @@ xhtml
 +
 xml
 "
+/
+*
 "
 image
 /
