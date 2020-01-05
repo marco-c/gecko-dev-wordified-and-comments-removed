@@ -677,6 +677,7 @@ new
 CDMWrapper
 (
 cdm
+decryptor
 )
 )
 ;
