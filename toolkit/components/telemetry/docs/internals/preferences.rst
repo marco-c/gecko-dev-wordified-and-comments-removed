@@ -635,6 +635,13 @@ of
 a
 telemetry
 subsession
+and
+throttling
+time
+for
+common
+environment
+changes
 (
 seconds
 )

@@ -460,7 +460,7 @@ telemetry
 .
 minSubsessionLength
 "
-10
+5
 *
 60
 )
@@ -747,15 +747,6 @@ idleTimeout
 *
 60
 )
-;
-const
-CHANGE_THROTTLE_INTERVAL_MS
-=
-5
-*
-60
-*
-1000
 ;
 const
 ABORTED_SESSION_UPDATE_INTERVAL_MS
@@ -9791,7 +9782,7 @@ if
 timeDelta
 <
 =
-CHANGE_THROTTLE_INTERVAL_MS
+MIN_SUBSESSION_LENGTH_MS
 )
 {
 this
