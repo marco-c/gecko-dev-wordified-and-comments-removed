@@ -432,9 +432,9 @@ ANDROID_SUPPORT_LIBRARY_VERSION
 '
 23
 .
-4
-.
 0
+.
+1
 '
 )
 add_old_configure_assignment
@@ -445,9 +445,9 @@ ANDROID_SUPPORT_LIBRARY_VERSION
 '
 23
 .
-4
-.
 0
+.
+1
 '
 )
 set_config
