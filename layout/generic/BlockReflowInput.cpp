@@ -4200,9 +4200,10 @@ wm
 )
 |
 |
-NS_FRAME_IS_TRUNCATED
-(
 reflowStatus
+.
+IsTruncated
+(
 )
 |
 |

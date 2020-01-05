@@ -5471,9 +5471,10 @@ IsComplete
 &
 &
 !
-NS_FRAME_IS_TRUNCATED
-(
 aStatus
+.
+IsTruncated
+(
 )
 ;
 if
