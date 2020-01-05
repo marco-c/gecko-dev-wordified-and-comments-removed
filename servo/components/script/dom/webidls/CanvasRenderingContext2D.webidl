@@ -664,8 +664,6 @@ nonzero
 "
 )
 ;
-/
-/
 void
 stroke
 (
