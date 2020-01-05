@@ -430,6 +430,7 @@ GetRangeAt
 int32_t
 aIndex
 )
+const
 ;
 const
 nsRange
@@ -601,6 +602,7 @@ bool
 IsCollapsed
 (
 )
+const
 ;
 void
 Collapse
@@ -770,6 +772,15 @@ mozilla
 ErrorResult
 &
 aRv
+)
+;
+bool
+ContainsPoint
+(
+const
+nsPoint
+&
+aPoint
 )
 ;
 void
