@@ -37,6 +37,7 @@ compositor_task
 {
 ShutdownComplete
 ChangeRenderState
+ReRenderMsgDiscarded
 }
 ;
 use
@@ -426,6 +427,12 @@ ScrollFragmentPoint
 )
 |
 LoadComplete
+(
+.
+.
+)
+|
+ReRenderMsgDiscarded
 (
 .
 .
