@@ -107,16 +107,6 @@ Device
 Interfaces
 "
 )
-IPDL_SOURCES
-+
-=
-[
-'
-PWebAuthnTransaction
-.
-ipdl
-'
-]
 EXPORTS
 .
 mozilla
