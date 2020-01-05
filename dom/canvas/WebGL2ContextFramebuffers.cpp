@@ -331,14 +331,15 @@ ErrorInvalidOperation
 (
 "
 %
-a
+s
 :
-Xannot
+Cannot
 modify
 framebuffer
 0
 .
 "
+funcName
 )
 ;
 fb
