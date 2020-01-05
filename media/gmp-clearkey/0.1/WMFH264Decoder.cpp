@@ -794,6 +794,8 @@ uint32_t
 aDataSize
 Microseconds
 aTimestamp
+Microseconds
+aDuration
 IMFSample
 *
 *
@@ -1013,6 +1015,17 @@ SUCCEEDED
 hr
 )
 hr
+)
+;
+sample
+-
+>
+SetSampleDuration
+(
+UsecsToHNs
+(
+aDuration
+)
 )
 ;
 *
@@ -1314,6 +1327,8 @@ uint32_t
 aDataSize
 Microseconds
 aTimestamp
+Microseconds
+aDuration
 )
 {
 HRESULT
@@ -1334,6 +1349,7 @@ CreateInputSample
 aData
 aDataSize
 aTimestamp
+aDuration
 &
 input
 )
