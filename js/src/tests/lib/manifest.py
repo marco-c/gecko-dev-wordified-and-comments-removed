@@ -163,6 +163,18 @@ true
                 
 '
 var
+release_or_beta
+=
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+;
+'
+                
+'
+var
 isDebugBuild
 =
 {
