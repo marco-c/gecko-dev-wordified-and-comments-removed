@@ -46,6 +46,14 @@ plugin
 plugins
 )
 ]
+#
+!
+[
+deny
+(
+unsafe_code
+)
+]
 extern
 crate
 brotli
