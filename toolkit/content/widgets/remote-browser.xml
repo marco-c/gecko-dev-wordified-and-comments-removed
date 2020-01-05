@@ -2020,7 +2020,7 @@ false
 const
 kTimeout
 =
-5000
+1000
 ;
 let
 finished
