@@ -972,6 +972,9 @@ run
 (
 self
 command
+env
+=
+None
 )
 :
         
@@ -985,6 +988,9 @@ stdin
 sys
 .
 stdin
+env
+=
+env
 )
     
 def
@@ -1148,11 +1154,40 @@ s
 '
 ]
         
+makepkg_env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+makepkg_env
+[
+'
+PKGEXT
+'
+]
+=
+'
+.
+pkg
+.
+tar
+.
+xz
+'
+        
 self
 .
 run
 (
 command
+env
+=
+makepkg_env
 )
         
 pack
@@ -1165,6 +1200,8 @@ name
 +
 '
 *
+.
+pkg
 .
 tar
 .
