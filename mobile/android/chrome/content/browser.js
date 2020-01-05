@@ -8161,6 +8161,7 @@ androidBridge
 .
 isContentDocumentDisplayed
 (
+window
 )
 )
 return
@@ -8231,6 +8232,7 @@ androidBridge
 .
 contentDocumentChanged
 (
+window
 )
 ;
 }

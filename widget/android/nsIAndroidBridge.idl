@@ -243,11 +243,17 @@ browserApp
 void
 contentDocumentChanged
 (
+in
+mozIDOMWindowProxy
+window
 )
 ;
 boolean
 isContentDocumentDisplayed
 (
+in
+mozIDOMWindowProxy
+window
 )
 ;
 }

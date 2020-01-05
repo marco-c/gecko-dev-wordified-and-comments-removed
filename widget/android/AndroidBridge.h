@@ -417,11 +417,17 @@ sBridge
 void
 ContentDocumentChanged
 (
+mozIDOMWindowProxy
+*
+aDOMWindow
 )
 ;
 bool
 IsContentDocumentDisplayed
 (
+mozIDOMWindowProxy
+*
+aDOMWindow
 )
 ;
 void
