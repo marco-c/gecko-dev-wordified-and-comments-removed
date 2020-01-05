@@ -209,11 +209,6 @@ SSLExceptions
 jsm
 '
 '
-TabMirror
-.
-jsm
-'
-'
 WebsiteMetadata
 .
 jsm
