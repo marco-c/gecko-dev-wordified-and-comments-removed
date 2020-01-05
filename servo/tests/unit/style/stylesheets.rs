@@ -393,7 +393,7 @@ Display
 DeclaredValue
 :
 :
-SpecifiedValue
+Value
 (
 longhands
 :
@@ -611,7 +611,7 @@ Display
 DeclaredValue
 :
 :
-SpecifiedValue
+Value
 (
 longhands
 :
@@ -851,7 +851,7 @@ BackgroundColor
 DeclaredValue
 :
 :
-SpecifiedValue
+Value
 (
 longhands
 :
