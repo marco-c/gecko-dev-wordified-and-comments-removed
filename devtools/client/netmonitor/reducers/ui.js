@@ -274,5 +274,8 @@ module
 .
 exports
 =
+{
+UI
 ui
+}
 ;
