@@ -288,7 +288,7 @@ mProperties
 ;
 }
 nsCSSPropertyIDSet
-Invert
+Inverse
 (
 )
 const

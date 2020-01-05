@@ -3365,7 +3365,7 @@ PropertiesForAnimationsLevel
 (
 )
 .
-Invert
+Inverse
 (
 )
 :
