@@ -533,7 +533,7 @@ _boundingClientRect
 =
 boundingClientRect
 ;
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -574,7 +574,7 @@ function
 (
 )
 {
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -756,7 +756,7 @@ _selectionID
 return
 ;
 }
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -953,7 +953,7 @@ sendAlways
 actionsMatch
 )
 {
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
