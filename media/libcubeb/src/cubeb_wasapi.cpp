@@ -2849,7 +2849,7 @@ length
 stm
 -
 >
-input_mix_params
+input_stream_params
 .
 channels
 )
