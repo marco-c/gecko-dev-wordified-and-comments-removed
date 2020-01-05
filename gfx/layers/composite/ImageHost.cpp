@@ -854,6 +854,9 @@ ImageHost
 :
 Composite
 (
+Compositor
+*
+aCompositor
 LayerComposite
 *
 aLayer
@@ -990,9 +993,7 @@ mTextureHost
 >
 SetTextureSourceProvider
 (
-GetCompositor
-(
-)
+aCompositor
 )
 ;
 SetCurrentTextureHost
@@ -1110,9 +1111,7 @@ return
 if
 (
 !
-GetCompositor
-(
-)
+aCompositor
 -
 >
 SupportsEffect
@@ -1514,9 +1513,7 @@ mTextureCoords
 height
 ;
 }
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawGeometry
@@ -1529,9 +1526,7 @@ aTransform
 aGeometry
 )
 ;
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawDiagnostics
@@ -1566,9 +1561,7 @@ EndBigImageIteration
 (
 )
 ;
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawDiagnostics
@@ -1704,9 +1697,7 @@ mTextureCoords
 height
 ;
 }
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawGeometry
@@ -1719,9 +1710,7 @@ aTransform
 aGeometry
 )
 ;
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawDiagnostics
