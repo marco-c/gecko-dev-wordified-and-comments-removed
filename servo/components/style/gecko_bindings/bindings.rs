@@ -5174,7 +5174,7 @@ Servo_StyleSet_AppendStyleSheet
 (
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
@@ -5192,7 +5192,7 @@ Servo_StyleSet_PrependStyleSheet
 (
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
@@ -5210,7 +5210,7 @@ Servo_StyleSet_RemoveStyleSheet
 (
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
@@ -5228,7 +5228,7 @@ Servo_StyleSet_InsertStyleSheetBefore
 (
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
@@ -5530,7 +5530,7 @@ mut
 nsIAtom
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 )
 -
 >
@@ -5559,7 +5559,7 @@ mut
 nsIAtom
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 is_probe
 :
 bool
@@ -5681,7 +5681,7 @@ node
 RawGeckoNodeBorrowed
 set
 :
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 )
 ;
 }
