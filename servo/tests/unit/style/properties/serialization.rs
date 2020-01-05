@@ -6594,7 +6594,6 @@ position
 :
 {
 HorizontalPosition
-Position
 VerticalPosition
 }
 ;

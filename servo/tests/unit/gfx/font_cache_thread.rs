@@ -23,10 +23,7 @@ computed_values
 font_family
 :
 :
-{
-FontFamily
 FamilyName
-}
 ;
 use
 style
