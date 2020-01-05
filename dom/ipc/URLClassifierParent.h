@@ -73,6 +73,11 @@ aWhy
 )
 override
 ;
+void
+ClassificationFailed
+(
+)
+;
 private
 :
 ~
