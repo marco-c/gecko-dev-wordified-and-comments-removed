@@ -1,8 +1,12 @@
+"
+use
+strict
+"
+;
 const
 {
 Cc
 Ci
-Cu
 components
 }
 =

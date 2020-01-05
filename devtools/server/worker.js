@@ -332,8 +332,6 @@ id
 =
 {
 connection
-:
-connection
 rpcs
 :
 [
