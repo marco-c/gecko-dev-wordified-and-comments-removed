@@ -61,6 +61,11 @@ filename
 URL_ROOT
 +
 TEST_LIB
++
+"
+:
+1387
+"
 attributes
 :
 [
@@ -71,8 +76,6 @@ jQuery
 handler
 :
 "
-ready
-:
 function
 (
 )
@@ -319,6 +322,11 @@ load
 filename
 :
 TEST_URL
++
+"
+:
+27
+"
 attributes
 :
 [
@@ -326,7 +334,7 @@ attributes
 Bubbling
 "
 "
-DOM0
+DOM2
 "
 ]
 handler
@@ -987,6 +995,11 @@ filename
 URL_ROOT
 +
 TEST_LIB
++
+"
+:
+1224
+"
 attributes
 :
 [
@@ -994,14 +1007,12 @@ attributes
 Bubbling
 "
 "
-DOM0
+DOM2
 "
 ]
 handler
 :
 "
-handle
-:
 function
 (
 event
@@ -1424,9 +1435,6 @@ jQuery
 handler
 :
 "
-var
-handler7
-=
 function
 divClick1
 (
@@ -1474,9 +1482,6 @@ jQuery
 handler
 :
 "
-var
-handler8
-=
 function
 divClick2
 (
@@ -1529,8 +1534,6 @@ DOM2
 handler
 :
 "
-handle
-:
 function
 (
 event
@@ -1941,9 +1944,6 @@ jQuery
 handler
 :
 "
-var
-handler9
-=
 function
 divKeyDown
 (
@@ -1996,8 +1996,6 @@ DOM2
 handler
 :
 "
-handle
-:
 function
 (
 event
