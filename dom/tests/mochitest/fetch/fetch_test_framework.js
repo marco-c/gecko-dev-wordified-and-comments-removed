@@ -93,6 +93,16 @@ dom
 .
 serviceWorkers
 .
+idle_timeout
+"
+0
+]
+[
+"
+dom
+.
+serviceWorkers
+.
 exemptFromPerDomainMax
 "
 true
