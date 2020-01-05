@@ -20100,6 +20100,10 @@ JSErrorReport
 (
 )
 {
+freeLinebuf
+(
+)
+;
 freeMessage
 (
 )
