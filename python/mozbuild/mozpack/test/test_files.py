@@ -7614,6 +7614,9 @@ FileFinder
 self
 .
 tmpdir
+find_executables
+=
+False
 )
         
 self
@@ -7651,6 +7654,9 @@ FileFinder
 self
 .
 tmpdir
+find_executables
+=
+False
 )
         
 self
@@ -7782,6 +7788,9 @@ foo
 qux
 '
 ]
+find_executables
+=
+False
 )
         
 self
@@ -8010,6 +8019,9 @@ bar
 bar
 '
 ]
+find_executables
+=
+False
 )
         
 self
@@ -8176,6 +8188,9 @@ qux
 *
 '
 ]
+find_executables
+=
+False
 )
         
 self
@@ -8282,6 +8297,9 @@ tmpdir
 find_dotfiles
 =
 True
+find_executables
+=
+False
 )
         
 self
@@ -8399,6 +8417,9 @@ bar
 *
 '
 ]
+find_executables
+=
+False
 )
         
 self
@@ -9071,6 +9092,9 @@ tmppath
 a
 '
 )
+find_executables
+=
+False
 )
             
 '
@@ -9089,6 +9113,9 @@ tmppath
 b
 '
 )
+find_executables
+=
+False
 )
         
 }

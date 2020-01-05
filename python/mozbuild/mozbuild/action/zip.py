@@ -159,6 +159,9 @@ FileFinder
 args
 .
 C
+find_executables
+=
+False
 )
         
 for

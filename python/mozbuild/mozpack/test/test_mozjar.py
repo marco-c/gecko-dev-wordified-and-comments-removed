@@ -2233,6 +2233,9 @@ finder
 FileFinder
 (
 test_data_path
+find_executables
+=
+False
 )
             
 for

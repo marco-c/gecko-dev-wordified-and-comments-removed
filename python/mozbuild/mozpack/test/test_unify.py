@@ -330,6 +330,9 @@ tmppath
 a
 '
 )
+find_executables
+=
+False
 )
                                
 FileFinder
@@ -342,6 +345,9 @@ tmppath
 b
 '
 )
+find_executables
+=
+False
 )
                                
 sorted
@@ -559,6 +565,9 @@ tmppath
 a
 '
 )
+find_executables
+=
+False
 )
                                     
 FileFinder
@@ -571,6 +580,9 @@ tmppath
 b
 '
 )
+find_executables
+=
+False
 )
 )
         

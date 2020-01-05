@@ -50,6 +50,9 @@ in
 FileFinder
 (
 dir
+find_executables
+=
+True
 )
 :
         
