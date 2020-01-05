@@ -316,10 +316,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 use
 std
@@ -662,7 +659,7 @@ std
 ]
 sender
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -928,7 +925,7 @@ false
 )
 sender
 :
-RefCell
+DOMRefCell
 :
 :
 new

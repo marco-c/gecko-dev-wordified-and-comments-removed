@@ -5,6 +5,18 @@ dom
 bindings
 :
 :
+cell
+:
+:
+DOMRefCell
+;
+use
+dom
+:
+:
+bindings
+:
+:
 codegen
 :
 :
@@ -277,10 +289,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 use
 std
@@ -505,7 +514,7 @@ DOMException
 >
 result
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -577,7 +586,7 @@ None
 )
 result
 :
-RefCell
+DOMRefCell
 :
 :
 new

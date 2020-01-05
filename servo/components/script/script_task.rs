@@ -2210,7 +2210,7 @@ Element
 >
 closed_pipelines
 :
-RefCell
+DOMRefCell
 <
 HashSet
 <
@@ -3641,7 +3641,7 @@ vec
 )
 closed_pipelines
 :
-RefCell
+DOMRefCell
 :
 :
 new

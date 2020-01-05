@@ -30,6 +30,18 @@ dom
 bindings
 :
 :
+cell
+:
+:
+DOMRefCell
+;
+use
+dom
+:
+:
+bindings
+:
+:
 codegen
 :
 :
@@ -122,10 +134,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 use
 std
@@ -178,7 +187,7 @@ gl_type
 u32
 source
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -187,7 +196,7 @@ String
 >
 info_log
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -341,7 +350,7 @@ gl_type
 shader_type
 source
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -350,7 +359,7 @@ None
 )
 info_log
 :
-RefCell
+DOMRefCell
 :
 :
 new
