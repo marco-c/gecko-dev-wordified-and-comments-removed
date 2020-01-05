@@ -821,6 +821,11 @@ defined
 XP_WIN
 )
 void
+MaybeInitWindowEmulation
+(
+)
+;
+void
 SetCOMProxy
 (
 const
