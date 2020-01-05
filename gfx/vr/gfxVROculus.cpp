@@ -531,11 +531,11 @@ OVR_PRODUCT_VERSION
 #
 define
 OVR_MAJOR_VERSION
-3
+1
 #
 define
 OVR_MINOR_VERSION
-1
+10
 static
 bool
 InitializeOculusCAPI
