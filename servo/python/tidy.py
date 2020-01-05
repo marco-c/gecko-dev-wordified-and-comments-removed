@@ -556,11 +556,28 @@ VIM_HEADER
 vim
 :
 "
+MAX_LICENSE_LINESPAN
+=
+max
+(
+len
+(
+license
+.
+splitlines
+(
+)
+)
+for
+license
+in
+licenses
+)
 def
 check_license
 (
 file_name
-contents
+lines
 )
 :
     
@@ -590,33 +607,51 @@ raise
 StopIteration
     
 while
-contents
+lines
+and
+(
+lines
+[
+0
+]
 .
 startswith
 (
 EMACS_HEADER
 )
 or
-contents
+lines
+[
+0
+]
 .
 startswith
 (
 VIM_HEADER
 )
+)
 :
         
-_
-_
+lines
+=
+lines
+[
+1
+:
+]
+    
 contents
 =
-contents
+"
+"
 .
-partition
+join
 (
-"
-\
-n
-"
+lines
+[
+:
+MAX_LICENSE_LINESPAN
+]
 )
     
 valid_license
@@ -644,10 +679,6 @@ license
 "
 in
 contents
-[
-:
-100
-]
     
 if
 not
@@ -1077,18 +1108,9 @@ def
 check_by_line
 (
 file_name
-contents
+lines
 )
 :
-    
-lines
-=
-contents
-.
-splitlines
-(
-True
-)
     
 for
 idx
@@ -1707,7 +1729,7 @@ def
 check_toml
 (
 file_name
-contents
+lines
 )
 :
     
@@ -1727,22 +1749,13 @@ toml
 raise
 StopIteration
     
-contents
-=
-contents
-.
-splitlines
-(
-True
-)
-    
 for
 idx
 line
 in
 enumerate
 (
-contents
+lines
 )
 :
         
@@ -1780,7 +1793,7 @@ def
 check_rust
 (
 file_name
-contents
+lines
 )
 :
     
@@ -1863,15 +1876,6 @@ rs
         
 raise
 StopIteration
-    
-contents
-=
-contents
-.
-splitlines
-(
-True
-)
     
 comment_depth
 =
@@ -1966,7 +1970,7 @@ original_line
 in
 enumerate
 (
-contents
+lines
 )
 :
         
@@ -3257,7 +3261,7 @@ macro_use
 "
 not
 in
-contents
+lines
 [
 idx
 -
@@ -3910,7 +3914,7 @@ def
 check_spec
 (
 file_name
-contents
+lines
 )
 :
     
@@ -4060,15 +4064,6 @@ file_name
 file_name
 )
     
-contents
-=
-contents
-.
-splitlines
-(
-True
-)
-    
 brace_count
 =
 0
@@ -4083,7 +4078,7 @@ line
 in
 enumerate
 (
-contents
+lines
 )
 :
         
@@ -4171,7 +4166,7 @@ idx
                     
 up_line
 =
-contents
+lines
 [
 idx
 -
@@ -4265,11 +4260,12 @@ collect_errors_for_files
 (
 files_to_check
 checking_functions
+line_checking_functions
 )
 :
     
 for
-file_name
+filename
 in
 files_to_check
 :
@@ -4277,18 +4273,18 @@ files_to_check
 with
 open
 (
-file_name
+filename
 "
 r
 "
 )
 as
-fp
+f
 :
             
 contents
 =
-fp
+f
 .
 read
 (
@@ -4305,23 +4301,49 @@ error
 in
 check
 (
-file_name
+filename
 contents
 )
 :
                     
 yield
 (
-file_name
-error
-[
-0
-]
-error
-[
-1
-]
+filename
 )
++
+error
+            
+lines
+=
+contents
+.
+splitlines
+(
+True
+)
+            
+for
+check
+in
+line_checking_functions
+:
+                
+for
+error
+in
+check
+(
+filename
+lines
+)
+:
+                    
+yield
+(
+filename
+)
++
+error
 def
 check_reftest_order
 (
@@ -4815,17 +4837,21 @@ all_files
     
 checking_functions
 =
-[
+(
+check_flake8
+check_lock
+check_webidl_spec
+)
+    
+line_checking_functions
+=
+(
 check_license
 check_by_line
-check_flake8
 check_toml
-                          
-check_lock
 check_rust
-check_webidl_spec
 check_spec
-]
+)
     
 errors
 =
@@ -4833,6 +4859,7 @@ collect_errors_for_files
 (
 files_to_check
 checking_functions
+line_checking_functions
 )
     
 reftest_files
