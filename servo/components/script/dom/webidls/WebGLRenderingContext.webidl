@@ -244,6 +244,18 @@ unrestricted
 float
 GLclampf
 ;
+typedef
+(
+ImageData
+or
+HTMLImageElement
+or
+HTMLCanvasElement
+or
+HTMLVideoElement
+)
+TexImageSource
+;
 dictionary
 WebGLContextAttributes
 {
@@ -2773,8 +2785,6 @@ GLclampf
 alpha
 )
 ;
-/
-/
 void
 clearDepth
 (
@@ -2782,8 +2792,6 @@ GLclampf
 depth
 )
 ;
-/
-/
 void
 clearStencil
 (
@@ -2791,8 +2799,6 @@ GLint
 s
 )
 ;
-/
-/
 void
 colorMask
 (
@@ -2958,8 +2964,6 @@ createTexture
 (
 )
 ;
-/
-/
 void
 cullFace
 (
@@ -3015,8 +3019,6 @@ WebGLTexture
 texture
 )
 ;
-/
-/
 void
 depthFunc
 (
@@ -3024,8 +3026,6 @@ GLenum
 func
 )
 ;
-/
-/
 void
 depthMask
 (
@@ -3033,8 +3033,6 @@ GLboolean
 flag
 )
 ;
-/
-/
 void
 depthRange
 (
@@ -3057,8 +3055,6 @@ WebGLShader
 shader
 )
 ;
-/
-/
 void
 disable
 (
@@ -3101,8 +3097,6 @@ GLintptr
 offset
 )
 ;
-/
-/
 void
 enable
 (
@@ -3171,8 +3165,6 @@ GLint
 level
 )
 ;
-/
-/
 void
 frontFace
 (
@@ -3417,8 +3409,6 @@ GLenum
 pname
 )
 ;
-/
-/
 void
 hint
 (
@@ -3518,8 +3508,6 @@ WebGLTexture
 texture
 )
 ;
-/
-/
 void
 lineWidth
 (
@@ -3535,8 +3523,6 @@ WebGLProgram
 program
 )
 ;
-/
-/
 void
 pixelStorei
 (
@@ -3546,8 +3532,6 @@ GLint
 param
 )
 ;
-/
-/
 void
 polygonOffset
 (
@@ -3712,26 +3696,6 @@ zpass
 ;
 /
 /
-typedef
-(
-ImageData
-or
-/
-/
-HTMLImageElement
-or
-/
-/
-HTMLCanvasElement
-or
-/
-/
-HTMLVideoElement
-)
-TexImageSource
-;
-/
-/
 void
 texImage2D
 (
@@ -3760,8 +3724,6 @@ ArrayBufferView
 pixels
 )
 ;
-/
-/
 void
 texImage2D
 (
@@ -3771,8 +3733,6 @@ GLint
 level
 GLenum
 internalformat
-/
-/
 GLenum
 format
 GLenum
@@ -3787,8 +3747,6 @@ source
 May
 throw
 DOMException
-/
-/
 void
 texParameterf
 (
@@ -3800,8 +3758,6 @@ GLfloat
 param
 )
 ;
-/
-/
 void
 texParameteri
 (
