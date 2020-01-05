@@ -14636,12 +14636,6 @@ int32_t
 aEnd
 )
 {
-AutoIMESynchronize
-as
-(
-this
-)
-;
 if
 (
 mIMEMaskEventsCount
