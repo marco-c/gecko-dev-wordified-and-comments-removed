@@ -1174,11 +1174,6 @@ async
 callback
 "
 "
-unsupported
-"
-:
-true
-"
 parameters
 "
 :
@@ -1527,11 +1522,6 @@ async
 "
 callback
 "
-"
-unsupported
-"
-:
-true
 "
 parameters
 "
