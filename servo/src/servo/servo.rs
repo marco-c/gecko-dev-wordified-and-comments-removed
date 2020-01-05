@@ -26,7 +26,7 @@ bindgen
 *
 ;
 fn
-on_main
+on_osmain
 (
 f
 :
@@ -100,7 +100,7 @@ main
 (
 )
 {
-on_main
+on_osmain
 {
 |
 |
