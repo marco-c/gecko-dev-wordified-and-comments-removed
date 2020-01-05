@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsICloneableInputStream
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -291,6 +298,8 @@ public
 nsILineInputStream
 public
 nsIIPCSerializableInputStream
+public
+nsICloneableInputStream
 {
 public
 :
@@ -298,6 +307,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIFILEINPUTSTREAM
 NS_DECL_NSILINEINPUTSTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
+NS_DECL_NSICLONEABLEINPUTSTREAM
 NS_IMETHOD
 Close
 (
@@ -494,6 +504,12 @@ ioFlags
 int32_t
 perm
 )
+;
+bool
+IsCloneable
+(
+)
+const
 ;
 }
 ;
