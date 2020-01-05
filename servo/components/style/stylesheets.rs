@@ -1402,6 +1402,9 @@ _
 :
 &
 UrlExtraData
+_
+:
+u64
 )
 {
 }
@@ -3572,6 +3575,7 @@ existing
 shared_lock
 stylesheet_loader
 error_reporter
+0u64
 )
 ;
 *
@@ -3662,6 +3666,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+line_number_offset
+:
+u64
 )
 -
 >
@@ -3718,12 +3725,12 @@ context
 ParserContext
 :
 :
-new
+new_with_line_number_offset
 (
 origin
 url_data
 error_reporter
-None
+line_number_offset
 )
 state
 :
@@ -3895,6 +3902,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+line_number_offset
+:
+u64
 )
 -
 >
@@ -3933,6 +3943,7 @@ namespaces
 shared_lock
 stylesheet_loader
 error_reporter
+line_number_offset
 )
 ;
 Stylesheet

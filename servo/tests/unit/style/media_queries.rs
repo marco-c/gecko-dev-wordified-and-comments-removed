@@ -146,6 +146,9 @@ _url
 :
 &
 ServoUrl
+_line_number_offset
+:
+u64
 )
 {
 }
@@ -255,6 +258,7 @@ lock
 None
 &
 CSSErrorReporterTest
+0u64
 )
 ;
 let
@@ -477,6 +481,7 @@ lock
 None
 &
 CSSErrorReporterTest
+0u64
 )
 ;
 let

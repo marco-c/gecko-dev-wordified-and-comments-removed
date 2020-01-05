@@ -271,6 +271,7 @@ shared_lock
 None
 &
 error_reporter
+0u64
 )
 )
 }

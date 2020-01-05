@@ -3651,6 +3651,7 @@ shared_lock
 None
 &
 StdoutErrorReporter
+0u64
 )
 )
 .
@@ -3926,6 +3927,7 @@ shared_lock
 loader
 &
 StdoutErrorReporter
+0u64
 )
 )
 .

@@ -351,6 +351,7 @@ media
 shared_lock
 stylesheet_loader
 error_reporter
+0u64
 )
 }
 pub
