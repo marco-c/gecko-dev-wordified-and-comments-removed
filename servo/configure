@@ -1654,6 +1654,19 @@ performance
 hit
 )
 "
+opt
+tree
+-
+rust
+0
+"
+build
+in
+-
+tree
+rust
+compiler
+"
 valopt
 local
 -
@@ -2084,7 +2097,7 @@ androideabi
 "
 ]
 then
-CFG_TREE_RUST
+CFG_ENABLE_TREE_RUST
 =
 1
 #
@@ -2102,7 +2115,7 @@ if
 -
 z
 "
-CFG_TREE_RUST
+CFG_ENABLE_TREE_RUST
 "
 ]
 then
@@ -3434,7 +3447,7 @@ CFG_LOCAL_RUSTC
 putvar
 CFG_LOCAL_RUST_ROOT
 putvar
-CFG_TREE_RUST
+CFG_ENABLE_TREE_RUST
 putvar
 CFG_ENABLE_DEBUG
 putvar
