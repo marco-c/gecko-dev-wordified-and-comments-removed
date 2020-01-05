@@ -3263,6 +3263,13 @@ postData
 null
 ;
 let
+browser
+=
+gBrowser
+.
+selectedBrowser
+;
+let
 lastLocationChange
 =
 gBrowser
@@ -3468,6 +3475,7 @@ this
 _loadURL
 (
 url
+browser
 postData
 where
 openUILinkParams
@@ -3604,6 +3612,7 @@ this
 _loadURL
 (
 url
+browser
 postData
 where
 openUILinkParams
@@ -3652,9 +3661,7 @@ matchLastLocationChange
 lastLocationChange
 =
 =
-gBrowser
-.
-selectedBrowser
+browser
 .
 lastLocationChange
 ;
@@ -3663,6 +3670,7 @@ this
 _loadURL
 (
 url
+browser
 postData
 where
 openUILinkParams
@@ -3801,6 +3809,15 @@ parameter
 name
 =
 "
+browser
+"
+/
+>
+<
+parameter
+name
+=
+"
 postData
 "
 /
@@ -3855,7 +3872,7 @@ value
 =
 url
 ;
-gBrowser
+browser
 .
 userTypedValue
 =
@@ -3871,9 +3888,7 @@ url
 )
 )
 {
-gBrowser
-.
-selectedBrowser
+browser
 .
 initialPageLoadedFromURLBar
 =
@@ -3939,6 +3954,9 @@ postData
 allowThirdPartyFixup
 :
 true
+currentBrowser
+:
+browser
 }
 ;
 if
@@ -4060,9 +4078,7 @@ re
 -
 selected
 .
-gBrowser
-.
-selectedBrowser
+browser
 .
 focus
 (
