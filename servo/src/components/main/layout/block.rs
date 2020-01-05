@@ -2261,8 +2261,6 @@ screen_height
 =
 ctx
 .
-shared
-.
 screen_size
 .
 height
@@ -4484,8 +4482,6 @@ width
 =
 ctx
 .
-shared
-.
 screen_size
 .
 width
@@ -4826,8 +4822,6 @@ let
 screen_size
 =
 ctx
-.
-shared
 .
 screen_size
 ;

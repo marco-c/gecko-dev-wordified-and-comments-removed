@@ -103,6 +103,10 @@ extern
 mod
 geom
 ;
+extern
+mod
+native
+;
 pub
 mod
 cache
@@ -138,4 +142,8 @@ io
 pub
 mod
 task
+;
+pub
+mod
+workqueue
 ;
