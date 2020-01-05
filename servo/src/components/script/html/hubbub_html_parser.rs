@@ -63,7 +63,6 @@ HTMLSelectElement
 HTMLSmallElement
 HTMLSpanElement
 HTMLTableCellElement
-HTMLTitleElement
 }
 ;
 use
@@ -208,6 +207,15 @@ htmltextareaelement
 :
 :
 HTMLTextAreaElement
+;
+use
+dom
+:
+:
+htmltitleelement
+:
+:
+HTMLTitleElement
 ;
 use
 dom

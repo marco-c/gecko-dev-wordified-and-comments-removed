@@ -376,6 +376,10 @@ HTMLTextAreaElementBinding
 ;
 pub
 mod
+HTMLTitleElementBinding
+;
+pub
+mod
 HTMLUListElementBinding
 ;
 pub
@@ -519,6 +523,10 @@ htmltablesectionelement
 pub
 mod
 htmltextareaelement
+;
+pub
+mod
+htmltitleelement
 ;
 pub
 mod

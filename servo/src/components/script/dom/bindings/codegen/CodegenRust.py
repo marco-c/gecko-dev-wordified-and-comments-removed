@@ -37833,6 +37833,16 @@ HTMLTextAreaElement
 dom
 :
 :
+htmltitleelement
+:
+:
+HTMLTitleElement
+'
+                          
+'
+dom
+:
+:
 htmlulistelement
 :
 :

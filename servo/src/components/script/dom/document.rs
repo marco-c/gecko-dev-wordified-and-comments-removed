@@ -55,7 +55,6 @@ element
 {
 Element
 HTMLHtmlElement
-HTMLTitleElement
 }
 ;
 use
@@ -139,6 +138,15 @@ windowproxy
 :
 :
 WindowProxy
+;
+use
+dom
+:
+:
+htmltitleelement
+:
+:
+HTMLTitleElement
 ;
 use
 js
