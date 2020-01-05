@@ -300,8 +300,8 @@ mParent
 ;
 }
 ;
-MOZ_RAII
 class
+MOZ_RAII
 BoxReader
 {
 public
