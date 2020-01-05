@@ -4230,10 +4230,12 @@ inline
 jsval_layout
 JSVAL_TO_IMPL
 (
+const
 JS
 :
 :
 Value
+&
 v
 )
 ;
@@ -5780,7 +5782,9 @@ jsval_layout
 JSVAL_TO_IMPL
 )
 (
+const
 Value
+&
 )
 ;
 friend
@@ -8803,10 +8807,12 @@ inline
 jsval_layout
 JSVAL_TO_IMPL
 (
+const
 JS
 :
 :
 Value
+&
 v
 )
 {

@@ -16023,7 +16023,9 @@ JSObject
 obj
 uint32_t
 index
+const
 Value
+&
 value
 )
 {
@@ -23215,10 +23217,12 @@ SetModuleHostDefinedField
 JSObject
 *
 module
+const
 JS
 :
 :
 Value
+&
 value
 )
 {
@@ -31211,7 +31215,9 @@ bool
 )
 JS_IsStopIteration
 (
+const
 Value
+&
 v
 )
 {

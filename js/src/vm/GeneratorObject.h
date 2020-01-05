@@ -579,7 +579,9 @@ NEWTARGET_SLOT
 void
 setNewTarget
 (
+const
 Value
+&
 newTarget
 )
 {

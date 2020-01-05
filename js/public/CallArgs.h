@@ -118,7 +118,9 @@ void
 )
 CheckIsValidConstructible
 (
+const
 Value
+&
 v
 )
 ;
@@ -603,7 +605,9 @@ public
 void
 setCallee
 (
+const
 Value
+&
 aCalleev
 )
 const
@@ -627,7 +631,9 @@ aCalleev
 void
 setThis
 (
+const
 Value
+&
 aThisv
 )
 const

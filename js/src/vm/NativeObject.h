@@ -990,7 +990,9 @@ inline
 bool
 IsObjectValueInCompartment
 (
+const
 Value
+&
 v
 JSCompartment
 *
@@ -5617,7 +5619,9 @@ inline
 bool
 IsObjectValueInCompartment
 (
+const
 Value
+&
 v
 JSCompartment
 *

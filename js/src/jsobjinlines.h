@@ -3381,7 +3381,9 @@ ToPropertyKey
 JSContext
 *
 cx
+const
 Value
+&
 argument
 MutableHandleId
 result

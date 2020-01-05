@@ -316,10 +316,12 @@ JSObject
 obj
 jsid
 id
+const
 JS
 :
 :
 Value
+&
 old
 JS
 :

@@ -1323,7 +1323,9 @@ cb
 void
 *
 cbClosure
+const
 Value
+&
 tVal
 )
 :
@@ -1950,7 +1952,9 @@ cb
 void
 *
 cbClosure
+const
 Value
+&
 transferable
 )
 {

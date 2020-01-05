@@ -452,7 +452,9 @@ ToNumberSlow
 JSContext
 *
 cx
+const
 Value
+&
 v
 double
 *
@@ -788,7 +790,9 @@ ToNumberSlow
 JSContext
 *
 cx
+const
 Value
+&
 v
 double
 *
@@ -1082,7 +1086,9 @@ ToNumberSlow
 ExclusiveContext
 *
 cx
+const
 Value
+&
 v
 double
 *

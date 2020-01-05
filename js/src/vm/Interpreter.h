@@ -753,7 +753,9 @@ virtual
 void
 setReturnValue
 (
+const
 Value
+&
 v
 )
 =
@@ -929,7 +931,9 @@ virtual
 void
 setReturnValue
 (
+const
 Value
+&
 v
 )
 {
@@ -1069,7 +1073,9 @@ virtual
 void
 setReturnValue
 (
+const
 Value
+&
 v
 )
 {

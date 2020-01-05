@@ -1771,7 +1771,9 @@ static
 Value
 ValueToWindowProxyIfWindow
 (
+const
 Value
+&
 v
 )
 {
@@ -4698,7 +4700,9 @@ const
 BaseProxyHandler
 *
 handler
+const
 Value
+&
 priv
 )
 {

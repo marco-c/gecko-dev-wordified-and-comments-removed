@@ -646,7 +646,9 @@ js
 :
 IsSymbolOrSymbolWrapper
 (
+const
 Value
+&
 v
 )
 {
@@ -691,7 +693,9 @@ js
 :
 ToSymbolPrimitive
 (
+const
 Value
+&
 v
 )
 {

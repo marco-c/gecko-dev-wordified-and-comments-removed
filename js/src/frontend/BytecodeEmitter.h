@@ -128,7 +128,9 @@ MOZ_MUST_USE
 bool
 append
 (
+const
 Value
+&
 v
 )
 {
