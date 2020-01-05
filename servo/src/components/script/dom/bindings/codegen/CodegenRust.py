@@ -6527,14 +6527,6 @@ isOptional
 None
 )
         
-argIsPointer
-=
-type
-.
-nullable
-(
-)
-        
 forceOwningType
 =
 descriptor
@@ -6642,8 +6634,6 @@ failureCode
                         
 isOptional
 or
-argIsPointer
-or
 type
 .
 nullable
@@ -6688,8 +6678,6 @@ declName
 "
                         
 isOptional
-or
-argIsPointer
 or
 type
 .
@@ -6865,7 +6853,11 @@ typePtr
 )
         
 if
-argIsPointer
+type
+.
+nullable
+(
+)
 or
 isOptional
 :
