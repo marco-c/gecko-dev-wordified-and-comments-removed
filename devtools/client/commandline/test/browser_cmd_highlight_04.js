@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-3
+4
 )
 ;
 var
