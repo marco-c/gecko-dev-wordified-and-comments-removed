@@ -943,6 +943,9 @@ formats
 "
 sha512
 "
+"
+sha256
+"
 ]
         
 if

@@ -17383,10 +17383,15 @@ return
 None
     
 def
-file_sha512sum
+get_hash_for_file
 (
 self
 file_path
+hash_type
+=
+"
+sha512
+"
 )
 :
         
@@ -17398,8 +17403,9 @@ hasher
 =
 hashlib
 .
-sha512
+new
 (
+hash_type
 )
         
 with
