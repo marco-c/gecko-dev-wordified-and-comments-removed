@@ -343,6 +343,13 @@ SplitView
 jsm
 '
 '
+stylesheet
+-
+utils
+.
+js
+'
+'
 suggestion
 -
 picker
