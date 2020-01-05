@@ -1348,7 +1348,6 @@ in
 an
 anonymous
 block
-fails
 =
 =
 flexbox
@@ -1369,7 +1368,6 @@ horiz
 1a
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1410,7 +1408,6 @@ horiz
 2
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1431,7 +1428,6 @@ horiz
 3a
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1452,7 +1448,6 @@ horiz
 3b
 .
 xhtml
-fails
 =
 =
 flexbox

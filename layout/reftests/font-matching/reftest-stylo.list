@@ -626,7 +626,6 @@ html
 weight
 mapping
 tests
-fails
 HTTP
 (
 .
@@ -640,7 +639,6 @@ html
 normalmedium
 .
 html
-fails
 HTTP
 (
 .
@@ -777,7 +775,6 @@ weightmapping
 12579
 .
 html
-fails
 HTTP
 (
 .
@@ -795,7 +792,6 @@ stretchmapping
 all
 .
 html
-fails
 HTTP
 (
 .
@@ -849,7 +845,6 @@ using
 font
 -
 face
-fails
 HTTP
 (
 .
@@ -871,7 +866,6 @@ stretch
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -923,7 +917,6 @@ a
 true
 styled
 face
-fails
 =
 =
 synthetic
@@ -940,7 +933,6 @@ style
 1
 .
 html
-fails
 =
 =
 synthetic
@@ -1116,7 +1108,6 @@ arial
 arabic
 .
 html
-fails
 =
 =
 syntheticbold
@@ -1129,7 +1120,6 @@ syntheticbold
 rotated
 .
 html
-fails
 HTTP
 (
 .
@@ -1151,7 +1141,6 @@ synthesis
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1195,7 +1184,6 @@ on
 other
 platforms
 .
-fails
 =
 =
 apple
@@ -1231,7 +1219,6 @@ simple
 oblique
 .
 html
-fails
 =
 =
 italic
@@ -1248,7 +1235,6 @@ oblique
 1
 .
 html
-fails
 =
 =
 italic
@@ -1265,7 +1251,6 @@ oblique
 2
 .
 html
-fails
 =
 =
 italic
@@ -1282,7 +1267,6 @@ oblique
 3
 .
 html
-fails
 =
 =
 italic
@@ -1299,7 +1283,6 @@ oblique
 4
 .
 html
-fails
 =
 =
 italic
@@ -1316,7 +1299,6 @@ oblique
 5
 .
 html
-fails
 =
 =
 italic
@@ -1333,7 +1315,6 @@ oblique
 6
 .
 html
-fails
 =
 =
 italic
@@ -1350,7 +1331,6 @@ oblique
 7
 .
 html
-fails
 =
 =
 italic
@@ -1367,7 +1347,6 @@ oblique
 8
 .
 html
-fails
 =
 =
 italic

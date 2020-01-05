@@ -50,7 +50,6 @@ lang
 01
 .
 html
-fails
 HTTP
 (
 .
@@ -76,7 +75,6 @@ fallback
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -307,7 +305,6 @@ justification
 2d
 .
 html
-fails
 =
 =
 justification
@@ -436,7 +433,6 @@ editing
 1e
 .
 html
-fails
 =
 =
 lineheight
@@ -453,7 +449,6 @@ metrics
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -475,7 +470,6 @@ metrics
 2a
 .
 html
-fails
 HTTP
 (
 .
@@ -1001,7 +995,6 @@ x
 2a
 .
 html
-fails
 HTTP
 (
 .
@@ -1083,7 +1076,6 @@ swash
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -2076,7 +2068,6 @@ rtl
 block
 .
 html
-fails
 HTTP
 (
 .
@@ -2280,7 +2271,6 @@ wordbreak
 8
 .
 html
-fails
 pref
 (
 gfx
@@ -2781,7 +2771,6 @@ html
 467722
 .
 html
-fails
 =
 =
 475092
@@ -2794,7 +2783,6 @@ html
 sub
 .
 html
-fails
 =
 =
 475092
@@ -2855,7 +2843,6 @@ kern
 '
 table
 support
-fails
 HTTP
 (
 .
@@ -2910,7 +2897,6 @@ OpenType
 Arabic
 shaping
 support
-fails
 HTTP
 (
 .
@@ -3030,7 +3016,6 @@ GSUB
 being
 used
 .
-fails
 =
 =
 arabic
@@ -3047,7 +3032,6 @@ fallback
 1
 .
 html
-fails
 =
 =
 arabic
@@ -3064,7 +3048,6 @@ fallback
 2
 .
 html
-fails
 =
 =
 arabic
@@ -3081,17 +3064,6 @@ fallback
 3
 .
 html
-fails
--
-if
-(
-!
-cocoaWidget
-&
-&
-!
-Android
-)
 HTTP
 (
 .
@@ -3161,7 +3133,6 @@ absence
 of
 GPOS
 :
-fails
 HTTP
 (
 .
@@ -3255,7 +3226,6 @@ html
 820255
 .
 html
-fails
 HTTP
 (
 .
@@ -3460,7 +3430,6 @@ bug
 )
 is
 working
-fails
 pref
 (
 gfx
@@ -3529,7 +3498,6 @@ a
 single
 cluster
 .
-fails
 =
 =
 graphite
@@ -3542,7 +3510,6 @@ graphite
 02
 .
 html
-fails
 pref
 (
 gfx
@@ -3600,7 +3567,6 @@ graphite
 03b
 .
 html
-fails
 pref
 (
 gfx
@@ -3629,7 +3595,6 @@ graphite
 01
 .
 html
-fails
 pref
 (
 gfx
@@ -3676,7 +3641,6 @@ opentype
 harfbuzz
 as
 well
-fails
 pref
 (
 gfx
@@ -3705,7 +3669,6 @@ graphite
 03a
 .
 html
-fails
 pref
 (
 gfx
@@ -3745,7 +3708,6 @@ and
 invalid
 lang
 tags
-fails
 pref
 (
 gfx
@@ -3778,7 +3740,6 @@ graphite
 fa
 .
 html
-fails
 pref
 (
 gfx
@@ -3811,7 +3772,6 @@ graphite
 sd
 .
 html
-fails
 pref
 (
 gfx
@@ -3844,7 +3804,6 @@ graphite
 snd
 .
 html
-fails
 pref
 (
 gfx
@@ -3877,7 +3836,6 @@ graphite
 ur
 .
 html
-fails
 pref
 (
 gfx
@@ -3910,7 +3868,6 @@ graphite
 urd
 .
 html
-fails
 pref
 (
 gfx
@@ -4011,7 +3968,6 @@ ot
 only
 .
 html
-fails
 HTTP
 (
 .
@@ -4036,7 +3992,6 @@ html
 #
 Bug
 1290237
-fails
 HTTP
 (
 .
@@ -4058,7 +4013,6 @@ graphite
 multipass
 .
 html
-fails
 HTTP
 (
 .
@@ -4080,7 +4034,6 @@ graphite
 lang
 .
 html
-fails
 HTTP
 (
 .
@@ -4141,7 +4094,6 @@ OpenType
 and
 Graphite
 shaping
-fails
 pref
 (
 gfx
@@ -4174,7 +4126,6 @@ decomposition
 opentype
 .
 html
-fails
 pref
 (
 gfx
@@ -4230,7 +4181,6 @@ in
 bug
 1207061
 )
-fails
 HTTP
 (
 .
@@ -4252,7 +4202,6 @@ bidi
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -6057,7 +6006,6 @@ family
 -
 bug
 970891
-fails
 HTTP
 (
 .

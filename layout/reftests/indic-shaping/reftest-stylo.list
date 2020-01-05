@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 HTTP
 (
 .
@@ -32,7 +31,6 @@ devanagari
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -50,7 +48,6 @@ devanagari
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -68,7 +65,6 @@ devanagari
 2
 .
 html
-fails
 HTTP
 (
 .
@@ -86,7 +82,6 @@ devanagari
 3a
 .
 html
-fails
 HTTP
 (
 .
@@ -121,7 +116,6 @@ devanagari
 4
 .
 html
-fails
 HTTP
 (
 .
@@ -139,7 +133,6 @@ gujarati
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -157,7 +150,6 @@ gujarati
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -175,7 +167,6 @@ gujarati
 2
 .
 html
-fails
 HTTP
 (
 .
@@ -193,7 +184,6 @@ gujarati
 3a
 .
 html
-fails
 HTTP
 (
 .
@@ -228,7 +218,6 @@ gujarati
 4
 .
 html
-fails
 HTTP
 (
 .
@@ -246,7 +235,6 @@ bengali
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -264,7 +252,6 @@ bengali
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -282,7 +269,6 @@ bengali
 2a
 .
 html
-fails
 HTTP
 (
 .
@@ -300,7 +286,6 @@ bengali
 2b
 .
 html
-fails
 HTTP
 (
 .
@@ -318,7 +303,6 @@ bengali
 3a
 .
 html
-fails
 HTTP
 (
 .
@@ -336,7 +320,6 @@ bengali
 3b
 .
 html
-fails
 HTTP
 (
 .
@@ -354,7 +337,6 @@ bengali
 3c
 .
 html
-fails
 HTTP
 (
 .
@@ -412,7 +394,6 @@ kannada
 aat
 .
 html
-fails
 HTTP
 (
 .

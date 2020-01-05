@@ -71,7 +71,6 @@ works
 via
 Pango
 )
-fails
 HTTP
 (
 .
@@ -166,7 +165,6 @@ to
 break
 the
 ligature
-fails
 HTTP
 (
 .
@@ -196,7 +194,6 @@ with
 explicitly
 disabled
 ligatures
-fails
 HTTP
 (
 .
@@ -323,7 +320,6 @@ hlig
 4
 .
 html
-fails
 HTTP
 (
 .
@@ -600,7 +596,6 @@ a
 feature
 is
 repeated
-fails
 HTTP
 (
 .
@@ -626,9 +621,6 @@ order
 1
 .
 html
-#
-Bug
-1290237
 fails
 HTTP
 (
@@ -954,7 +946,6 @@ variant
 numeric
 .
 html
-fails
 HTTP
 (
 .
@@ -980,7 +971,6 @@ html
 font
 -
 kerning
-fails
 HTTP
 (
 .
@@ -1002,7 +992,6 @@ kerning
 normal
 .
 html
-fails
 HTTP
 (
 .
@@ -1024,7 +1013,6 @@ kerning
 auto
 .
 html
-fails
 HTTP
 (
 .
@@ -1046,7 +1034,6 @@ kerning
 auto
 .
 html
-fails
 HTTP
 (
 .
@@ -1068,7 +1055,6 @@ kerning
 normal
 .
 html
-fails
 HTTP
 (
 .
@@ -1156,7 +1142,6 @@ kerning
 3
 .
 html
-fails
 HTTP
 (
 .
@@ -1255,7 +1240,6 @@ inter
 -
 word
 spaces
-fails
 HTTP
 (
 .
@@ -1729,7 +1713,6 @@ fallback
 smallcaps1
 .
 html
-fails
 HTTP
 (
 .
@@ -1751,7 +1734,6 @@ fallback
 smallcaps2
 .
 html
-fails
 HTTP
 (
 .
@@ -1846,7 +1828,6 @@ fallback
 smallcaps1
 .
 html
-fails
 HTTP
 (
 .
@@ -1868,7 +1849,6 @@ fallback
 smallcaps2
 .
 html
-fails
 HTTP
 (
 .
@@ -1941,7 +1921,6 @@ variant
 -
 position
 fallback
-fails
 =
 =
 subsuper
@@ -1954,7 +1933,6 @@ subsuper
 fallback
 .
 html
-fails
 HTTP
 (
 .
@@ -1972,7 +1950,6 @@ subsuper
 fallback
 .
 html
-fails
 HTTP
 (
 .
@@ -1990,7 +1967,6 @@ subsuper
 fallback
 .
 html
-fails
 HTTP
 (
 .
@@ -2008,7 +1984,6 @@ subsuper
 fallback
 .
 html
-fails
 HTTP
 (
 .
@@ -2030,7 +2005,6 @@ fallback
 omega
 .
 html
-fails
 HTTP
 (
 .
@@ -2048,7 +2022,6 @@ subsuper
 nofallback
 .
 html
-fails
 =
 =
 subsuper
@@ -2061,7 +2034,6 @@ subsuper
 nofallback
 .
 html
-fails
 HTTP
 (
 .

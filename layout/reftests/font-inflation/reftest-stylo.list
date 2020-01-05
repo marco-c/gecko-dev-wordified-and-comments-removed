@@ -1728,7 +1728,6 @@ fit
 1b
 .
 html
-fails
 pref
 (
 font
@@ -1783,7 +1782,6 @@ fit
 1c
 .
 html
-fails
 pref
 (
 font
@@ -1838,7 +1836,6 @@ fit
 2a
 .
 html
-fails
 pref
 (
 font
@@ -1893,7 +1890,6 @@ fit
 2b
 .
 html
-fails
 pref
 (
 font

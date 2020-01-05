@@ -27,7 +27,6 @@ logical
 layout
 coordinates
 .
-fails
 HTTP
 (
 .
@@ -65,7 +64,6 @@ html
 1082844
 .
 html
-fails
 HTTP
 (
 .
@@ -79,7 +77,6 @@ html
 1083748
 .
 html
-fails
 HTTP
 (
 .
@@ -105,7 +102,6 @@ inline
 border
 .
 html
-fails
 HTTP
 (
 .
@@ -134,7 +130,6 @@ html
 #
 Bug
 1290237
-fails
 =
 =
 1083848
@@ -564,7 +559,6 @@ list
 marker
 .
 html
-fails
 =
 =
 1115916
@@ -585,7 +579,6 @@ vertical
 metrics
 .
 html
-fails
 =
 =
 1117210
@@ -4003,7 +3996,6 @@ floats
 overflowing
 .
 html
-fails
 =
 =
 1248248

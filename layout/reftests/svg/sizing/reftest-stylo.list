@@ -5618,7 +5618,6 @@ base
 #
 coverage
 .
-fails
 HTTP
 (
 .
@@ -5651,7 +5650,6 @@ block
 01
 .
 xhtml
-fails
 =
 =
 inline
@@ -5676,7 +5674,6 @@ inline
 01
 .
 xhtml
-fails
 HTTP
 (
 .
@@ -5809,7 +5806,6 @@ absolute
 02
 .
 xhtml
-fails
 HTTP
 (
 .

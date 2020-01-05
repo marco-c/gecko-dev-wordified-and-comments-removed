@@ -1146,13 +1146,6 @@ face
 447
 ]
 *
-test_redundant_font_download
-.
-html
-[
-3
-]
-*
 namespace
 support
 :

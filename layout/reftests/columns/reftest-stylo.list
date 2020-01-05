@@ -359,7 +359,6 @@ alignment
 rtl
 .
 html
-fails
 HTTP
 (
 .
@@ -377,7 +376,6 @@ columnfill
 balance
 .
 html
-fails
 =
 =
 columnfill

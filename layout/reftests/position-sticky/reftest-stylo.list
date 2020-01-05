@@ -558,7 +558,6 @@ overconstrained
 3
 .
 html
-fails
 =
 =
 inline
@@ -571,7 +570,6 @@ inline
 1
 .
 html
-fails
 =
 =
 inline
@@ -584,7 +582,6 @@ inline
 2
 .
 html
-fails
 =
 =
 inline
@@ -604,15 +601,6 @@ if
 !
 asyncPan
 )
-fails
--
-if
-(
-stylo
-&
-&
-browserIsRemote
-)
 =
 =
 inline
@@ -673,7 +661,6 @@ contain
 2
 .
 html
-fails
 =
 =
 block
@@ -694,7 +681,6 @@ inline
 1
 .
 html
-fails
 =
 =
 block
@@ -715,7 +701,6 @@ inline
 2
 .
 html
-fails
 =
 =
 block

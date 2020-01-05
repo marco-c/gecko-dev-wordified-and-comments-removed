@@ -338,7 +338,6 @@ for
 consistency
 of
 results
-fails
 =
 =
 all
@@ -351,7 +350,6 @@ all
 upper
 .
 html
-fails
 =
 =
 all
@@ -364,7 +362,6 @@ all
 lower
 .
 html
-fails
 =
 =
 all

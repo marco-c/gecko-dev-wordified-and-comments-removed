@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 ellipsis
@@ -31,7 +30,6 @@ font
 fallback
 .
 html
-fails
 =
 =
 line
@@ -44,7 +42,6 @@ line
 clipping
 .
 html
-fails
 =
 =
 marker
@@ -109,7 +106,6 @@ simple
 scrolled
 .
 html
-fails
 =
 =
 scroll
@@ -158,7 +154,6 @@ anonymous
 block
 .
 html
-fails
 HTTP
 (
 .
@@ -180,7 +175,6 @@ marker
 overlap
 .
 html
-fails
 HTTP
 (
 .
@@ -215,7 +209,6 @@ html
 Bug
 1321769
 ?
-fails
 HTTP
 (
 .
@@ -233,7 +226,6 @@ quirks
 decorations
 .
 html
-fails
 HTTP
 (
 .
@@ -255,7 +247,6 @@ line
 height
 .
 html
-fails
 HTTP
 (
 .
@@ -273,7 +264,6 @@ standards
 decorations
 .
 html
-fails
 HTTP
 (
 .
@@ -295,7 +285,6 @@ line
 height
 .
 html
-fails
 =
 =
 selection
@@ -304,7 +293,6 @@ html
 selection
 .
 html
-fails
 HTTP
 (
 .
@@ -364,7 +352,6 @@ theme
 overflow
 .
 html
-fails
 HTTP
 (
 .
@@ -417,7 +404,6 @@ single
 value
 .
 html
-fails
 =
 =
 atomic
