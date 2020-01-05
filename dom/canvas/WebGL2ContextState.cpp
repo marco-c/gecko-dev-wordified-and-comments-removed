@@ -455,7 +455,7 @@ JS
 :
 NumberValue
 (
-0
+UINT32_MAX
 )
 ;
 MOZ_FALLTHROUGH
