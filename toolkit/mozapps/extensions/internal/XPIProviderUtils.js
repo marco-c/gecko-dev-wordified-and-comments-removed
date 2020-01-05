@@ -666,6 +666,9 @@ hasEmbeddedWebExtension
 "
 mpcOptedOut
 "
+"
+userPermissions
+"
 ]
 ;
 const
