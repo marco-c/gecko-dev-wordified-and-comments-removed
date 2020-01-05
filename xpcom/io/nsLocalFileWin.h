@@ -161,6 +161,15 @@ GlobalShutdown
 (
 )
 ;
+static
+bool
+CleanupCmdHandlerPath
+(
+nsAString
+&
+aCommandHandler
+)
+;
 private
 :
 enum
