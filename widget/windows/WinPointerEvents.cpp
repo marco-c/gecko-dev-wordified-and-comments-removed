@@ -21,6 +21,15 @@ MouseEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
 using
 namespace
 mozilla

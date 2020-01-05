@@ -14,6 +14,13 @@ MouseEvents
 h
 "
 #
+include
+"
+nsWindowBase
+.
+h
+"
+#
 if
 WINVER
 <
