@@ -6,6 +6,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WrapForJNI
+;
+import
 android
 .
 os
@@ -73,6 +84,7 @@ Runnable
 runnable
 )
 ;
+WrapForJNI
 public
 static
 final
@@ -81,6 +93,7 @@ ONE_SHOT
 =
 1
 ;
+WrapForJNI
 public
 static
 final
@@ -89,6 +102,7 @@ START_MONITOR
 =
 2
 ;
+WrapForJNI
 public
 static
 final
