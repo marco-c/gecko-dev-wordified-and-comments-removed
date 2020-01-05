@@ -907,6 +907,7 @@ DocumentSource
 :
 NotFromParser
 loader
+None
 )
 ;
 {

@@ -248,6 +248,7 @@ content_type
 last_modified
 source
 doc_loader
+None
 )
 }
 }

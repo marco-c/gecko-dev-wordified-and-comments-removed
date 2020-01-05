@@ -7455,6 +7455,12 @@ HttpsState
 None
 }
 ;
+metadata
+.
+referrer
+=
+referrer_url
+;
 /
 /
 Only

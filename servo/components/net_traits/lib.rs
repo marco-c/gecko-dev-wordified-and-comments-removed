@@ -2515,6 +2515,13 @@ pub
 https_state
 :
 HttpsState
+pub
+referrer
+:
+Option
+<
+Url
+>
 }
 impl
 Metadata
@@ -2565,6 +2572,9 @@ https_state
 :
 HttpsState
 :
+:
+None
+referrer
 :
 None
 }

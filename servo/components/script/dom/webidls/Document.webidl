@@ -527,8 +527,6 @@ attribute
 DOMString
 domain
 ;
-/
-/
 readonly
 attribute
 DOMString

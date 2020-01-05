@@ -2286,6 +2286,7 @@ DocumentSource
 :
 FromParser
 loader
+None
 )
 ;
 document
