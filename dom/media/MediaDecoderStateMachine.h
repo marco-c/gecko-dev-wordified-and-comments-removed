@@ -1231,11 +1231,6 @@ MediaData
 >
 mVideoQueue
 ;
-State
-mState
-=
-DECODER_STATE_DECODING_METADATA
-;
 UniquePtr
 <
 StateObject
