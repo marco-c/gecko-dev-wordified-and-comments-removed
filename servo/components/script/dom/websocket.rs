@@ -1543,7 +1543,7 @@ r
 )
 global
 .
-script_chan
+networking_task_source
 (
 )
 )
@@ -1566,7 +1566,7 @@ sender
 =
 global
 .
-script_chan
+networking_task_source
 (
 )
 ;
@@ -2104,7 +2104,7 @@ r
 (
 )
 .
-script_chan
+networking_task_source
 (
 )
 ;

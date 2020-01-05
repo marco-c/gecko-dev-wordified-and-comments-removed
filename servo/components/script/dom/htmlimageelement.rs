@@ -729,7 +729,7 @@ get_cx
 self
 window
 .
-script_chan
+networking_task_source
 (
 )
 )
@@ -756,7 +756,7 @@ script_chan
 =
 window
 .
-script_chan
+networking_task_source
 (
 )
 ;

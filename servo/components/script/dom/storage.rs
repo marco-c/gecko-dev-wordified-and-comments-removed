@@ -1422,7 +1422,7 @@ script_chan
 =
 global_ref
 .
-script_chan
+dom_manipulation_task_source
 (
 )
 ;

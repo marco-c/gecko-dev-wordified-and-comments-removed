@@ -2599,7 +2599,7 @@ get_cx
 self
 global
 .
-script_chan
+file_reading_task_source
 (
 )
 )
@@ -2620,7 +2620,7 @@ script_chan
 =
 global
 .
-script_chan
+file_reading_task_source
 (
 )
 ;
