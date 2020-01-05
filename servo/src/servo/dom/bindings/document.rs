@@ -137,6 +137,9 @@ import
 content
 :
 :
+content_task
+:
+:
 Document
 ;
 enum

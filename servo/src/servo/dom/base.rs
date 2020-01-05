@@ -135,6 +135,9 @@ import
 content
 :
 :
+content_task
+:
+:
 Document
 ;
 import

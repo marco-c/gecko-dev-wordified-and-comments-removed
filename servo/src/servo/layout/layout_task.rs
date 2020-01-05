@@ -122,6 +122,12 @@ ReflowEvent
 }
 ;
 import
+content
+:
+:
+content_task
+;
+import
 task
 :
 :
@@ -161,7 +167,7 @@ PingMsg
 (
 Chan
 <
-content
+content_task
 :
 :
 PingMsg
@@ -213,7 +219,7 @@ ping_channel
 .
 send
 (
-content
+content_task
 :
 :
 PongMsg
