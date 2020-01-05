@@ -322,8 +322,6 @@ nongecko_unreachable
 >
 _context
 .
-style
-.
 cached_system_font
 .
 as_ref
@@ -2154,8 +2152,6 @@ self
 nongecko_unreachable
 >
 _cx
-.
-style
 .
 cached_system_font
 .
@@ -4252,8 +4248,6 @@ nongecko_unreachable
 >
 context
 .
-style
-.
 cached_system_font
 .
 as_ref
@@ -6287,8 +6281,6 @@ nongecko_unreachable
 >
 context
 .
-style
-.
 cached_system_font
 .
 as_ref
@@ -7512,8 +7504,6 @@ self
 nongecko_unreachable
 >
 context
-.
-style
 .
 cached_system_font
 .
@@ -14611,8 +14601,6 @@ nongecko_unreachable
 >
 _context
 .
-style
-.
 cached_system_font
 .
 as_ref
@@ -17443,8 +17431,6 @@ Context
 if
 context
 .
-style
-.
 cached_system_font
 .
 is_none
@@ -17463,8 +17449,6 @@ context
 ;
 context
 .
-style
-.
 cached_system_font
 =
 Some
@@ -17480,8 +17464,6 @@ system
 =
 =
 context
-.
-style
 .
 cached_system_font
 .

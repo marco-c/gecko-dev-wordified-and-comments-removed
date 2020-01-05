@@ -47,7 +47,10 @@ use
 properties
 :
 :
+{
 ComputedValues
+StyleBuilder
+}
 ;
 use
 std
@@ -946,10 +949,12 @@ layout_parent_style
 default_values
 style
 :
-default_values
-.
-clone
+StyleBuilder
+:
+:
+for_derived_style
 (
+default_values
 )
 font_metrics_provider
 :
@@ -958,6 +963,9 @@ ServoMetricsProvider
 in_media_query
 :
 true
+cached_system_font
+:
+None
 quirks_mode
 :
 quirks_mode
