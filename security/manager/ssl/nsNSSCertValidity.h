@@ -7,14 +7,14 @@ nsNSSCertValidity_h
 #
 include
 "
-DateTimeFormat
+ScopedNSSTypes
 .
 h
 "
 #
 include
 "
-ScopedNSSTypes
+nsIDateTimeFormat
 .
 h
 "

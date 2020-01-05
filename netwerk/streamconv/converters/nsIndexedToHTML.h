@@ -52,6 +52,9 @@ NS_NSINDEXEDTOHTMLCONVERTER_CID
 }
 }
 class
+nsIDateTimeFormat
+;
+class
 nsIStringBundle
 ;
 class
@@ -153,6 +156,12 @@ nsCOMPtr
 nsIStreamListener
 >
 mListener
+;
+nsCOMPtr
+<
+nsIDateTimeFormat
+>
+mDateTime
 ;
 nsCOMPtr
 <
