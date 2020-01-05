@@ -173,13 +173,6 @@ js
 '
 modules
 /
-bookmark_utils
-.
-js
-'
-'
-modules
-/
 bookmark_validator
 .
 js
