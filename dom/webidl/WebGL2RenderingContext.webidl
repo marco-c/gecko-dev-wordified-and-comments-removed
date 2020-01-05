@@ -1869,6 +1869,8 @@ GLenum
 usage
 )
 ;
+/
+/
 void
 bufferData
 (
@@ -1891,6 +1893,8 @@ ArrayBuffer
 srcData
 )
 ;
+/
+/
 void
 bufferSubData
 (
@@ -1915,8 +1919,11 @@ ArrayBufferView
 srcData
 GLenum
 usage
+optional
 GLuint
 srcOffset
+=
+0
 optional
 GLuint
 length
@@ -1933,8 +1940,11 @@ GLintptr
 dstByteOffset
 ArrayBufferView
 srcData
+optional
 GLuint
 srcOffset
+=
+0
 optional
 GLuint
 length
@@ -4435,8 +4445,7 @@ GLenum
 target
 )
 ;
-WebGLQuery
-?
+any
 getQuery
 (
 GLenum
