@@ -6395,6 +6395,12 @@ iter_mut
 {
 fragment
 .
+update_late_computed_replaced_inline_size_if_necessary
+(
+)
+;
+fragment
+.
 assign_replaced_block_size_if_necessary
 (
 containing_block_block_size
