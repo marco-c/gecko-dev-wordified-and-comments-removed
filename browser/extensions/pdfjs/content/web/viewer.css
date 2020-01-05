@@ -842,6 +842,12 @@ strikeoutAnnotation
 .
 annotationLayer
 .
+lineAnnotation
+svg
+line
+.
+annotationLayer
+.
 fileAttachmentAnnotation
 {
 cursor
