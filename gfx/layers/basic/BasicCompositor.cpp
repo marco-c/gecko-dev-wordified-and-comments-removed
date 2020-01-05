@@ -1684,6 +1684,16 @@ Polygon
 aPolygon
 )
 {
+MOZ_ASSERT
+(
+!
+aPolygon
+.
+IsEmpty
+(
+)
+)
+;
 RefPtr
 <
 PathBuilder
