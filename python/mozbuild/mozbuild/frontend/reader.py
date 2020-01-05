@@ -9730,6 +9730,15 @@ items
 )
 :
             
+assert
+'
+\
+\
+'
+not
+in
+path
+            
 flags
 =
 Files
@@ -9756,17 +9765,43 @@ Files
                     
 continue
                 
-relpath
+ctx_rel_dir
 =
-mozpath
-.
-relpath
-(
-path
 ctx
 .
 relsrcdir
+                
+if
+ctx_rel_dir
+:
+                    
+assert
+path
+.
+startswith
+(
+ctx_rel_dir
 )
+                    
+relpath
+=
+path
+[
+len
+(
+ctx_rel_dir
+)
++
+1
+:
+]
+                
+else
+:
+                    
+relpath
+=
+path
                 
 pattern
 =
