@@ -5522,6 +5522,17 @@ if
 aPageError
 .
 stack
+&
+&
+!
+Cu
+.
+isDeadWrapper
+(
+aPageError
+.
+stack
+)
 )
 {
 stack
