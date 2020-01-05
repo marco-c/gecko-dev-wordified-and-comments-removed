@@ -15557,6 +15557,16 @@ monospace
 )
 GK_ATOM
 (
+mozfixed
+"
+-
+moz
+-
+fixed
+"
+)
+GK_ATOM
+(
 Remote
 "
 remote
