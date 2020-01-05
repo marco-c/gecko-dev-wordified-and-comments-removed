@@ -1414,7 +1414,10 @@ media
 TimeUnit
 mLowAudioThreshold
 ;
-int64_t
+media
+:
+:
+TimeUnit
 mAmpleAudioThresholdUsecs
 ;
 uint32_t
@@ -1432,6 +1435,10 @@ OnTaskQueue
 ;
 return
 mAmpleAudioThresholdUsecs
+.
+ToMicroseconds
+(
+)
 /
 2
 ;
