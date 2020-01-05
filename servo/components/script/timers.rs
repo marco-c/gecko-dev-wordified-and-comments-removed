@@ -860,6 +860,7 @@ unwrap
 (
 )
 ;
+if
 script_chan
 .
 send
@@ -876,7 +877,14 @@ handle
 )
 )
 )
+.
+is_err
+(
+)
+{
+break
 ;
+}
 if
 is_interval
 =

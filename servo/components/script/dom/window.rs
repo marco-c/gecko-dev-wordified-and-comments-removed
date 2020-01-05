@@ -1318,6 +1318,10 @@ clone
 )
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -2698,6 +2702,10 @@ id
 fragment
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 None
@@ -2728,6 +2736,10 @@ new
 url
 )
 )
+)
+.
+unwrap
+(
 )
 ;
 }
