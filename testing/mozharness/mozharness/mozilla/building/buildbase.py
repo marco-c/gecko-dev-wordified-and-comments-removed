@@ -13732,6 +13732,32 @@ ignoring
 return
 None
         
+extra_options
+=
+self
+.
+perfherder_resource_options
+(
+)
+        
+if
+self
+.
+query_is_nightly
+(
+)
+:
+            
+extra_options
+=
+[
+'
+nightly
+'
+]
++
+extra_options
+        
 data
 =
 {
@@ -13760,11 +13786,7 @@ duration
 extraOptions
 '
 :
-self
-.
-perfherder_resource_options
-(
-)
+extra_options
             
 '
 subtests
