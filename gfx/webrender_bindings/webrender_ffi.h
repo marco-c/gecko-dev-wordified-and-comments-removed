@@ -339,16 +339,6 @@ typedef
 uint64_t
 WrExternalImageId
 ;
-typedef
-mozilla
-:
-:
-gfx
-:
-:
-Point
-Point2D
-;
 #
 ifdef
 MOZ_BUILD_WEBRENDER
