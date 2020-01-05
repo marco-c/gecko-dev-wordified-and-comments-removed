@@ -159,17 +159,6 @@ mozilla
 /
 layers
 /
-PCompositableParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 PImageBridgeParent
 .
 h

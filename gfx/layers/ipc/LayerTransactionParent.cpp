@@ -180,17 +180,6 @@ mozilla
 /
 layers
 /
-PCompositableParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 TextureHostOGL
 .
 h
