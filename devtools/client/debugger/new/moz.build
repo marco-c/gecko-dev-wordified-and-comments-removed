@@ -74,6 +74,13 @@ debugger
 js
 '
 '
+integration
+-
+tests
+.
+js
+'
+'
 panel
 .
 js

@@ -1,7 +1,7 @@
 const
 {
 setupTestRunner
-scopes
+asm
 }
 =
 require
@@ -34,7 +34,7 @@ this
 )
 ;
 yield
-scopes
+asm
 (
 this
 )
