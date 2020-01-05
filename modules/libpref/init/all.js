@@ -23118,7 +23118,8 @@ monospace
 ar
 "
 "
-Consolas
+Courier
+New
 "
 )
 ;
@@ -23188,7 +23189,8 @@ monospace
 el
 "
 "
-Consolas
+Courier
+New
 "
 )
 ;
@@ -23738,7 +23740,8 @@ x
 cyrillic
 "
 "
-Consolas
+Courier
+New
 "
 )
 ;
@@ -23816,7 +23819,8 @@ x
 unicode
 "
 "
-Consolas
+Courier
+New
 "
 )
 ;
@@ -23894,7 +23898,8 @@ x
 western
 "
 "
-Consolas
+Courier
+New
 "
 )
 ;
@@ -26423,7 +26428,8 @@ x
 math
 "
 "
-Consolas
+Courier
+New
 "
 )
 ;

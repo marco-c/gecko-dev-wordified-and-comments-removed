@@ -24,14 +24,6 @@ layersGPUAccelerated
 140
 111
 )
-fuzzy
--
-if
-(
-winWidget
-24
-1
-)
 =
 =
 size
