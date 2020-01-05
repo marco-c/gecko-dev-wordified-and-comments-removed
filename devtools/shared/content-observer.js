@@ -170,7 +170,6 @@ global
 -
 created
 "
-false
 )
 ;
 Services
@@ -189,7 +188,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 }

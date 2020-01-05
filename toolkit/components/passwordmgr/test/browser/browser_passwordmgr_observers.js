@@ -794,7 +794,6 @@ dialog
 -
 updated
 "
-false
 )
 ;
 pmDialog

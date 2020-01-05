@@ -1492,7 +1492,6 @@ this
 PushService
 .
 subscriptionModifiedTopic
-false
 )
 ;
 this

@@ -567,7 +567,6 @@ removeObserver
 (
 notificationCallback
 aObserver
-false
 )
 ;
 clearTimeout
@@ -600,7 +599,6 @@ removeObserver
 (
 notificationCallback
 aObserver
-false
 )
 ;
 deferred

@@ -301,7 +301,6 @@ favicons
 -
 expired
 "
-false
 )
 ;
 }
@@ -656,7 +655,6 @@ modify
 -
 request
 "
-false
 )
 ;
 }
@@ -817,7 +815,6 @@ examine
 -
 response
 "
-false
 )
 ;
 Services
@@ -838,7 +835,6 @@ cached
 -
 response
 "
-false
 )
 ;
 }

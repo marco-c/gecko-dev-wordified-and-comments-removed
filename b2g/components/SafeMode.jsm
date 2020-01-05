@@ -204,7 +204,6 @@ removeObserver
 (
 kSafeModePref
 observer
-false
 )
 ;
 aResolve

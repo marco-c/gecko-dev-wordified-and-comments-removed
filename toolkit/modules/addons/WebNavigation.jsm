@@ -255,7 +255,6 @@ enter
 -
 text
 "
-true
 )
 ;
 this

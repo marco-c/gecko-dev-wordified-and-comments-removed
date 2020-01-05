@@ -210,7 +210,6 @@ FormSubmitListener
 "
 earlyformsubmit
 "
-false
 )
 ;
 this

@@ -810,7 +810,6 @@ removeObserver
 (
 this
 AUTOCOMPLETE_ENTER_TEXT_TOPIC
-true
 )
 ;
 }
@@ -1190,7 +1189,6 @@ removeObserver
 (
 this
 DOMWINDOW_OPENED_TOPIC
-false
 )
 ;
 Services
@@ -1201,7 +1199,6 @@ removeObserver
 (
 this
 TELEMETRY_SUBSESSIONSPLIT_TOPIC
-false
 )
 ;
 Services
@@ -1212,7 +1209,6 @@ removeObserver
 (
 this
 WINDOWS_RESTORED_TOPIC
-false
 )
 ;
 urlbarListener

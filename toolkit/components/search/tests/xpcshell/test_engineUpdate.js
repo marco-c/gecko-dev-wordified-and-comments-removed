@@ -219,7 +219,6 @@ removeObserver
 (
 obs
 TOPIC
-false
 )
 ;
 resolve

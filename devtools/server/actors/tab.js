@@ -5163,7 +5163,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 this

@@ -767,7 +767,6 @@ storage
 -
 changed
 "
-false
 )
 ;
 do_test_finished

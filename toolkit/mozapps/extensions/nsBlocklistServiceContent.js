@@ -195,7 +195,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

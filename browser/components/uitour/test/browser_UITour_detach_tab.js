@@ -123,7 +123,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 windowDestroyedDeferred

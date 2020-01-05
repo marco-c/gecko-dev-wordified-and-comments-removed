@@ -554,7 +554,6 @@ onActorEvent
 "
 actor
 "
-false
 )
 ;
 client

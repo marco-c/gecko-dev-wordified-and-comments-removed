@@ -2150,7 +2150,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 this
