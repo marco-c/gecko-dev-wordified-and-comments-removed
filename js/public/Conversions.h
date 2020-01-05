@@ -93,12 +93,10 @@ ToNumberSlow
 JSContext
 *
 cx
-const
 JS
 :
 :
-Value
-&
+HandleValue
 v
 double
 *

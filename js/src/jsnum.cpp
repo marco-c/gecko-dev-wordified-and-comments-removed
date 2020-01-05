@@ -8550,9 +8550,7 @@ ToNumberSlow
 ExclusiveContext
 *
 cx
-const
-Value
-&
+HandleValue
 v_
 double
 *
@@ -8812,9 +8810,7 @@ ToNumberSlow
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 double
 *

@@ -3623,9 +3623,7 @@ valueToNative
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 T
 *
