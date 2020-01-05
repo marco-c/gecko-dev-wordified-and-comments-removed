@@ -409,7 +409,7 @@ rv
 }
 already_AddRefed
 <
-nsIRunnable
+Runnable
 >
 CreateTracedRunnable
 (
@@ -422,9 +422,9 @@ nsIRunnable
 aRunnable
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIRunnable
+Runnable
 >
 runnable
 =
