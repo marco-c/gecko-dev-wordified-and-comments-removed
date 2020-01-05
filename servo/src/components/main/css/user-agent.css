@@ -468,12 +468,9 @@ before
 {
 content
 :
-\
 "
 \
-\
 A
-\
 "
 ;
 white
@@ -516,10 +513,8 @@ BDO
 [
 DIR
 =
-\
 "
 ltr
-\
 "
 ]
 {
@@ -539,10 +534,8 @@ BDO
 [
 DIR
 =
-\
 "
 rtl
-\
 "
 ]
 {
@@ -562,10 +555,8 @@ override
 [
 DIR
 =
-\
 "
 ltr
-\
 "
 ]
 {
@@ -583,10 +574,8 @@ embed
 [
 DIR
 =
-\
 "
 rtl
-\
 "
 ]
 {
