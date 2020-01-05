@@ -1,4 +1,10 @@
 use
+context
+:
+:
+StyleSystemOptions
+;
+use
 num_cpus
 ;
 use
@@ -44,6 +50,10 @@ pub
 shared_lock
 :
 SharedRwLock
+pub
+options
+:
+StyleSystemOptions
 }
 lazy_static
 !
@@ -202,6 +212,14 @@ SharedRwLock
 :
 :
 new
+(
+)
+options
+:
+StyleSystemOptions
+:
+:
+default
 (
 )
 }
