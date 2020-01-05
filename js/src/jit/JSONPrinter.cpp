@@ -15,6 +15,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SizePrintfMacros
 .
 h
