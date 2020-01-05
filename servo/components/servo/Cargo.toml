@@ -368,6 +368,13 @@ util
 [
 dependencies
 ]
+backtrace
+=
+"
+0
+.
+2
+"
 browserhtml
 =
 {
@@ -811,13 +818,6 @@ sig
 0
 .
 1
-"
-backtrace
-=
-"
-0
-.
-2
 "
 [
 target
