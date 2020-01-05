@@ -174,15 +174,6 @@ browser
 /
 ext
 -
-devtools
-.
-js
-content
-/
-browser
-/
-ext
--
 history
 .
 js

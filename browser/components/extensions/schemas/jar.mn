@@ -117,15 +117,6 @@ browser
 /
 schemas
 /
-devtools
-.
-json
-content
-/
-browser
-/
-schemas
-/
 history
 .
 json
