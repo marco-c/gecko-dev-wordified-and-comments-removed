@@ -56,6 +56,7 @@ __VA_ARGS__
 define
 VSINK_LOG
 (
+x
 .
 .
 .
@@ -70,6 +71,9 @@ Debug
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -78,6 +82,7 @@ __VA_ARGS__
 define
 VSINK_LOG_V
 (
+x
 .
 .
 .
@@ -92,6 +97,9 @@ Verbose
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -100,6 +108,7 @@ __VA_ARGS__
 define
 DUMP_LOG
 (
+x
 .
 .
 .
@@ -111,6 +120,9 @@ nsPrintfCString
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
