@@ -99,6 +99,10 @@ aDest
 )
 override
 ;
+#
+if
+!
+ENABLE_INTL_API
 static
 bool
 Compose
@@ -126,6 +130,8 @@ uint32_t
 c2
 )
 ;
+#
+endif
 private
 :
 virtual
