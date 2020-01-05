@@ -457,6 +457,12 @@ info
 isAnalysis
 (
 )
+&
+&
+!
+JitOptions
+.
+disableOptimizationTracking
 ;
 }
 bool
