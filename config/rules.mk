@@ -6541,7 +6541,7 @@ cargo_build_flags
 CARGOFLAGS
 )
 ifndef
-MOZ_DEBUG
+MOZ_DEBUG_RUST
 cargo_build_flags
 +
 =
@@ -6792,13 +6792,13 @@ explicitly
 disable
 them
 when
-MOZ_DEBUG
+MOZ_DEBUG_RUST
 is
 not
 set
 .
 ifndef
-MOZ_DEBUG
+MOZ_DEBUG_RUST
 rustflags
 +
 =

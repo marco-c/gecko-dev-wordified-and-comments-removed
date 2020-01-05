@@ -2345,7 +2345,7 @@ substs
 get
 (
 '
-MOZ_DEBUG
+MOZ_DEBUG_RUST
 '
 )
 :
