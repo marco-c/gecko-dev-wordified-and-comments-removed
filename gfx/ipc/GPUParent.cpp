@@ -481,15 +481,6 @@ GPU
 "
 )
 ;
-GetIPCChannel
-(
-)
--
->
-SendBuildID
-(
-)
-;
 #
 ifdef
 MOZ_CRASHREPORTER
