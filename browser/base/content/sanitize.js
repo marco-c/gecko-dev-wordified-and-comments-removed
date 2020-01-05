@@ -762,16 +762,11 @@ handles
 for
 (
 let
-itemName
+name
 of
 itemsToClear
 )
 {
-let
-name
-=
-itemName
-;
 let
 item
 =

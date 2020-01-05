@@ -2201,18 +2201,13 @@ of
 aNames
 )
 {
-let
-propName
-=
-name
-;
 this
 .
 inputProps
 .
 set
 (
-propName
+name
 {
 validateValue
 :
@@ -2256,7 +2251,7 @@ for
 input
 property
 {
-propName
+name
 }
 )
 ;
@@ -2277,7 +2272,7 @@ aRequired
 &
 !
 (
-propName
+name
 in
 aInput
 )
@@ -2293,7 +2288,7 @@ is
 missing
 :
 {
-propName
+name
 }
 )
 ;
@@ -2304,7 +2299,7 @@ validateValue
 (
 aInput
 [
-propName
+name
 ]
 )
 ;
@@ -6086,11 +6081,6 @@ aURIs
 )
 {
 let
-currentURI
-=
-uri
-;
-let
 promiseIsBookmarked
 =
 function
@@ -6111,7 +6101,7 @@ PlacesUtils
 .
 asyncGetBookmarkIds
 (
-currentURI
+uri
 ids
 =
 >
@@ -6142,7 +6132,7 @@ if
 yield
 promiseIsBookmarked
 (
-currentURI
+uri
 )
 )
 {
@@ -6160,7 +6150,7 @@ NewBookmark
 {
 url
 :
-currentURI
+uri
 tags
 :
 aTags
@@ -6222,7 +6212,7 @@ tagging
 .
 getTagsForURI
 (
-currentURI
+uri
 )
 ;
 let
@@ -6250,7 +6240,7 @@ tagging
 .
 tagURI
 (
-currentURI
+uri
 newTags
 )
 ;
@@ -6269,7 +6259,7 @@ tagging
 .
 untagURI
 (
-currentURI
+uri
 newTags
 )
 ;
@@ -6291,7 +6281,7 @@ tagging
 .
 tagURI
 (
-currentURI
+uri
 newTags
 )
 ;
@@ -6406,11 +6396,6 @@ aURIs
 )
 {
 let
-currentURI
-=
-uri
-;
-let
 tagsToRemove
 ;
 let
@@ -6422,7 +6407,7 @@ tagging
 .
 getTagsForURI
 (
-currentURI
+uri
 )
 ;
 if
@@ -6461,7 +6446,7 @@ tagging
 .
 untagURI
 (
-currentURI
+uri
 tagsToRemove
 )
 ;
@@ -6480,7 +6465,7 @@ tagging
 .
 tagURI
 (
-currentURI
+uri
 tagsToRemove
 )
 ;
@@ -6502,7 +6487,7 @@ tagging
 .
 untagURI
 (
-currentURI
+uri
 tagsToRemove
 )
 ;
