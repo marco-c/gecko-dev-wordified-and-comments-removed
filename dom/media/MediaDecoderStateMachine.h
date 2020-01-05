@@ -955,11 +955,6 @@ Push
 MediaData
 *
 aSample
-MediaData
-:
-:
-Type
-aSampleType
 )
 ;
 void
