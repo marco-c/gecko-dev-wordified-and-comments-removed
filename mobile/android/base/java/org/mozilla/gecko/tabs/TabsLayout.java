@@ -677,7 +677,7 @@ OPENED_FROM_TABS_TRAY
 )
 ;
 }
-private
+protected
 void
 updateSelectedPosition
 (
