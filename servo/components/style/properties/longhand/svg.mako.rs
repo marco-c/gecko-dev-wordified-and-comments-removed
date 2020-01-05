@@ -586,6 +586,11 @@ boxed
 "
 True
 "
+creates_stacking_context
+=
+"
+True
+"
 spec
 =
 "
@@ -1828,6 +1833,11 @@ product
 gecko
 '
 }
+"
+creates_stacking_context
+=
+"
+True
 "
 spec
 =

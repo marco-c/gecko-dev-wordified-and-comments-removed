@@ -269,6 +269,9 @@ z
 -
 index
 "
+creates_stacking_context
+=
+True
 animatable
 =
 "
