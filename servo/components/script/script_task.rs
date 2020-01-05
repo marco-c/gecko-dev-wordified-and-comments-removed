@@ -145,18 +145,6 @@ dom
 bindings
 :
 :
-global
-:
-:
-GlobalRef
-;
-use
-dom
-:
-:
-bindings
-:
-:
 js
 :
 :
@@ -276,8 +264,6 @@ event
 {
 Event
 EventHelpers
-EventBubbles
-EventCancelable
 }
 ;
 use
