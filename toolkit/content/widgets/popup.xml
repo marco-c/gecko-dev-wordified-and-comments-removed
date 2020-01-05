@@ -4924,6 +4924,17 @@ CDATA
 [
 if
 (
+this
+.
+state
+=
+=
+"
+open
+"
+&
+&
+(
 event
 .
 target
@@ -4958,6 +4969,7 @@ localName
 "
 menucaption
 "
+)
 )
 {
 this
