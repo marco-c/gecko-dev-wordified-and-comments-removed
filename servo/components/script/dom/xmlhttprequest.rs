@@ -255,7 +255,11 @@ dom
 event
 :
 :
+{
 Event
+DoesNotBubble
+Cancelable
+}
 ;
 use
 dom
@@ -5817,8 +5821,8 @@ readystatechange
 to_string
 (
 )
-false
-true
+DoesNotBubble
+Cancelable
 )
 .
 root

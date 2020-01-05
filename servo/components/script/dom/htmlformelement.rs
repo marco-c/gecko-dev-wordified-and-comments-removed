@@ -210,7 +210,11 @@ dom
 event
 :
 :
+{
 Event
+Bubbles
+Cancelable
+}
 ;
 use
 dom
@@ -1670,8 +1674,8 @@ submit
 to_string
 (
 )
-true
-true
+Bubbles
+Cancelable
 )
 .
 root
