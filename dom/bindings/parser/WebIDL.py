@@ -42510,7 +42510,7 @@ p
             
 NonAnyType
 :
-PrimitiveOrStringType
+PrimitiveType
 Null
                        
 |
@@ -42621,6 +42621,46 @@ self
 handleNullable
 (
 type
+p
+[
+2
+]
+)
+    
+def
+p_NonAnyTypeStringType
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+NonAnyType
+:
+StringType
+Null
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+self
+.
+handleNullable
+(
+p
+[
+1
+]
 p
 [
 2
@@ -43108,7 +43148,7 @@ p
             
 ConstType
 :
-PrimitiveOrStringType
+PrimitiveType
 Null
         
 "
@@ -43210,7 +43250,7 @@ p
 )
     
 def
-p_PrimitiveOrStringTypeUint
+p_PrimitiveTypeUint
 (
 self
 p
@@ -43221,7 +43261,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 UnsignedIntegerType
         
@@ -43240,7 +43280,7 @@ p
 ]
     
 def
-p_PrimitiveOrStringTypeBoolean
+p_PrimitiveTypeBoolean
 (
 self
 p
@@ -43251,7 +43291,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 BOOLEAN
         
@@ -43271,7 +43311,7 @@ Types
 boolean
     
 def
-p_PrimitiveOrStringTypeByte
+p_PrimitiveTypeByte
 (
 self
 p
@@ -43282,7 +43322,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 BYTE
         
@@ -43302,7 +43342,7 @@ Types
 byte
     
 def
-p_PrimitiveOrStringTypeOctet
+p_PrimitiveTypeOctet
 (
 self
 p
@@ -43313,7 +43353,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 OCTET
         
@@ -43333,7 +43373,7 @@ Types
 octet
     
 def
-p_PrimitiveOrStringTypeFloat
+p_PrimitiveTypeFloat
 (
 self
 p
@@ -43344,7 +43384,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 FLOAT
         
@@ -43364,7 +43404,7 @@ Types
 float
     
 def
-p_PrimitiveOrStringTypeUnrestictedFloat
+p_PrimitiveTypeUnrestictedFloat
 (
 self
 p
@@ -43375,7 +43415,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 UNRESTRICTED
 FLOAT
@@ -43396,7 +43436,7 @@ Types
 unrestricted_float
     
 def
-p_PrimitiveOrStringTypeDouble
+p_PrimitiveTypeDouble
 (
 self
 p
@@ -43407,7 +43447,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 DOUBLE
         
@@ -43427,7 +43467,7 @@ Types
 double
     
 def
-p_PrimitiveOrStringTypeUnrestictedDouble
+p_PrimitiveTypeUnrestictedDouble
 (
 self
 p
@@ -43438,7 +43478,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+PrimitiveType
 :
 UNRESTRICTED
 DOUBLE
@@ -43459,7 +43499,7 @@ Types
 unrestricted_double
     
 def
-p_PrimitiveOrStringTypeDOMString
+p_StringType
 (
 self
 p
@@ -43470,7 +43510,40 @@ p
 "
 "
             
-PrimitiveOrStringType
+StringType
+:
+BuiltinStringType
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+BuiltinTypes
+[
+p
+[
+1
+]
+]
+    
+def
+p_BuiltinStringTypeDOMString
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+BuiltinStringType
 :
 DOMSTRING
         
@@ -43490,7 +43563,7 @@ Types
 domstring
     
 def
-p_PrimitiveOrStringTypeBytestring
+p_BuiltinStringTypeBytestring
 (
 self
 p
@@ -43501,7 +43574,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+BuiltinStringType
 :
 BYTESTRING
         
@@ -43521,7 +43594,7 @@ Types
 bytestring
     
 def
-p_PrimitiveOrStringTypeUSVString
+p_BuiltinStringTypeUSVString
 (
 self
 p
@@ -43532,7 +43605,7 @@ p
 "
 "
             
-PrimitiveOrStringType
+BuiltinStringType
 :
 USVSTRING
         
