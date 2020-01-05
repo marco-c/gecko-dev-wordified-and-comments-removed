@@ -113,6 +113,13 @@ AppCompatCheckBox
 import
 android
 .
+widget
+.
+CheckBox
+;
+import
+android
+.
 text
 .
 Html
@@ -780,7 +787,7 @@ CheckBox
 checkbox
 =
 new
-AppCompatCheckBox
+CheckBox
 (
 context
 )

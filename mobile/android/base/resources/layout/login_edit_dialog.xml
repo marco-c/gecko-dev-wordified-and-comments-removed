@@ -221,15 +221,7 @@ doorhanger_login_edit_password_hint
 /
 >
 <
-android
-.
-support
-.
-v7
-.
-widget
-.
-AppCompatCheckBox
+CheckBox
 android
 :
 id
