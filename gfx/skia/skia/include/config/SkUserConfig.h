@@ -40,6 +40,9 @@ define
 SK_IGNORE_ETC1_SUPPORT
 #
 define
+GR_GL_FUNCTION_TYPE
+#
+define
 SK_RASTERIZE_EVEN_ROUNDING
 #
 define
