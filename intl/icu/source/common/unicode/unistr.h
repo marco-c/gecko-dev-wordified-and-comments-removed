@@ -120,9 +120,15 @@ pErrorCode
 #
 endif
 U_NAMESPACE_BEGIN
+#
+if
+!
+UCONFIG_NO_BREAK_ITERATION
 class
 BreakIterator
 ;
+#
+endif
 class
 Locale
 ;
@@ -1685,9 +1691,6 @@ src
 )
 ;
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 if
 U_HAVE_RVALUE_REFERENCES
 UnicodeString
@@ -1754,8 +1757,6 @@ s2
 )
 ;
 }
-#
-endif
 inline
 UnicodeString
 &
@@ -2694,9 +2695,6 @@ that
 )
 ;
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 if
 U_HAVE_RVALUE_REFERENCES
 UnicodeString
@@ -2708,8 +2706,6 @@ src
 )
 U_NOEXCEPT
 ;
-#
-endif
 #
 endif
 UnicodeString
@@ -2752,9 +2748,7 @@ static
 UnicodeString
 fromUTF8
 (
-const
 StringPiece
-&
 utf8
 )
 ;
@@ -2832,9 +2826,7 @@ UnicodeString
 &
 setToUTF8
 (
-const
 StringPiece
-&
 utf8
 )
 ;
@@ -3443,9 +3435,6 @@ U_SIZEOF_UCHAR
 kInvalidUChar
 =
 0xffff
-kGrowSize
-=
-128
 kInvalidHashCode
 =
 0

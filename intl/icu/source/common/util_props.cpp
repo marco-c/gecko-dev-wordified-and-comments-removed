@@ -347,6 +347,8 @@ return
 1
 ;
 }
+U_FALLTHROUGH
+;
 case
 126
 :

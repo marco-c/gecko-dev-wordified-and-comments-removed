@@ -306,6 +306,9 @@ uprv_memcpy
 (
 result
 spec
+(
+size_t
+)
 len
 *
 sizeof

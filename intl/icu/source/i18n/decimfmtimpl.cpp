@@ -1388,6 +1388,9 @@ fMultiplier
 .
 set
 (
+(
+int32_t
+)
 0
 )
 ;
@@ -1398,6 +1401,9 @@ fMultiplier
 .
 set
 (
+(
+int32_t
+)
 1
 )
 ;
@@ -2119,9 +2125,7 @@ DecimalFormatImpl
 :
 format
 (
-const
 StringPiece
-&
 number
 UnicodeString
 &
@@ -3218,6 +3222,9 @@ fMultiplier
 .
 set
 (
+(
+int32_t
+)
 0
 )
 ;
@@ -6506,6 +6513,10 @@ result
 .
 append
 (
+(
+UChar
+)
+(
 fEffPrecision
 .
 fMantissa
@@ -6518,6 +6529,7 @@ i
 )
 +
 kPatternZeroDigit
+)
 )
 ;
 }

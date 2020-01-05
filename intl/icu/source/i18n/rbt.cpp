@@ -501,14 +501,6 @@ lockedMutexAtThisLevel
 =
 FALSE
 ;
-if
-(
-isDataOwned
-=
-=
-FALSE
-)
-{
 UBool
 needToLock
 ;
@@ -550,7 +542,6 @@ lockedMutexAtThisLevel
 =
 TRUE
 ;
-}
 }
 if
 (

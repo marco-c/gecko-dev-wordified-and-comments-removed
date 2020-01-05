@@ -13,6 +13,15 @@ utypes
 .
 h
 "
+#
+include
+"
+unicode
+/
+udata
+.
+h
+"
 U_CFUNC
 const
 UDataInfo

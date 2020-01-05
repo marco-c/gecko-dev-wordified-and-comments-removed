@@ -179,9 +179,6 @@ int32_t
 index
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 TimeZone
 *
@@ -190,8 +187,6 @@ detectHostTimeZone
 (
 )
 ;
-#
-endif
 static
 TimeZone
 *

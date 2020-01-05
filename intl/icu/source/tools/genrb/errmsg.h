@@ -5,6 +5,15 @@ ERROR_H
 define
 ERROR_H
 1
+#
+include
+"
+unicode
+/
+utypes
+.
+h
+"
 U_CDECL_BEGIN
 extern
 const

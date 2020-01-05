@@ -5,6 +5,15 @@ COLLUNSAFE_H
 define
 COLLUNSAFE_H
 #
+include
+"
+unicode
+/
+utypes
+.
+h
+"
+#
 define
 COLLUNSAFE_ICU_VERSION
 "

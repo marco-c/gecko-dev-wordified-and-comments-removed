@@ -361,9 +361,6 @@ UHashtable
 *
 nodes
 ;
-#
-ifndef
-U_HIDE_INTERNAL_API
 class
 Node
 :
@@ -541,6 +538,9 @@ offset
 ;
 }
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 class
 FinalValueNode
 :
@@ -598,6 +598,8 @@ value
 ;
 }
 ;
+#
+endif
 class
 ValueNode
 :
@@ -673,6 +675,9 @@ value
 ;
 }
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 class
 IntermediateValueNode
 :
@@ -750,6 +755,8 @@ next
 ;
 }
 ;
+#
+endif
 class
 LinearMatchNode
 :
@@ -826,6 +833,9 @@ next
 ;
 }
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 class
 BranchNode
 :

@@ -17,6 +17,15 @@ h
 if
 !
 UCONFIG_NO_CONVERSION
+#
+include
+"
+unicode
+/
+uenum
+.
+h
+"
 U_NAMESPACE_BEGIN
 class
 InputText

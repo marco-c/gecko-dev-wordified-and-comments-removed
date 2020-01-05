@@ -476,6 +476,9 @@ j
 insertionPoint
 )
 *
+(
+size_t
+)
 itemSize
 )
 ;
@@ -672,6 +675,9 @@ px
 array
 +
 (
+size_t
+)
+(
 (
 start
 +
@@ -756,6 +762,9 @@ uprv_memcpy
 pw
 array
 +
+(
+size_t
+)
 left
 *
 itemSize
@@ -766,11 +775,17 @@ uprv_memcpy
 (
 array
 +
+(
+size_t
+)
 left
 *
 itemSize
 array
 +
+(
+size_t
+)
 right
 *
 itemSize
@@ -781,6 +796,9 @@ uprv_memcpy
 (
 array
 +
+(
+size_t
+)
 right
 *
 itemSize

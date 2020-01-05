@@ -1073,6 +1073,9 @@ pv
 -
 >
 v
+(
+size_t
+)
 rows
 *
 columns
@@ -1219,6 +1222,9 @@ firstRow
 +
 columns
 firstRow
+(
+size_t
+)
 count
 *
 4
@@ -1261,6 +1267,9 @@ lastRow
 +
 columns
 lastRow
+(
+size_t
+)
 columns
 *
 4
@@ -2059,6 +2068,9 @@ count
 row
 +
 2
+(
+size_t
+)
 valueColumns
 *
 4
@@ -2370,6 +2382,9 @@ toUTrie2
 =
 {
 NULL
+0
+0
+0
 }
 ;
 upvec_compact

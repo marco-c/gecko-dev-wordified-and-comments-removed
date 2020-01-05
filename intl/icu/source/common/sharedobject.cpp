@@ -66,6 +66,11 @@ cachePtr
 NULL
 )
 {
+(
+void
+)
+fromWithinCache
+;
 U_ASSERT
 (
 fromWithinCache

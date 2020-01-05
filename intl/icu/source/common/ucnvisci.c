@@ -6096,17 +6096,9 @@ U_ASSERT
 (
 i
 <
-sizeof
+UPRV_LENGTHOF
 (
 vowelSignESpecialCases
-)
-/
-sizeof
-(
-vowelSignESpecialCases
-[
-0
-]
 )
 )
 ;
@@ -6654,6 +6646,8 @@ break
 ;
 }
 }
+U_FALLTHROUGH
+;
 }
 default
 :

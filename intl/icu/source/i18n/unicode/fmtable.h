@@ -130,9 +130,7 @@ strToCopy
 endif
 Formattable
 (
-const
 StringPiece
-&
 number
 UErrorCode
 &
@@ -578,9 +576,7 @@ objectToAdopt
 void
 setDecimalNumber
 (
-const
 StringPiece
-&
 numberString
 UErrorCode
 &

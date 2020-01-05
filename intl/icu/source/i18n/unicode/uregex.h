@@ -447,10 +447,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uregex_groupNumberFromName
@@ -469,7 +466,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uregex_groupNumberFromCName
@@ -488,8 +485,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 U_STABLE
 int32_t
 U_EXPORT2

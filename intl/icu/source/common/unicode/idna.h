@@ -179,9 +179,7 @@ virtual
 void
 labelToASCII_UTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -199,9 +197,7 @@ virtual
 void
 labelToUnicodeUTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -219,9 +215,7 @@ virtual
 void
 nameToASCII_UTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -239,9 +233,7 @@ virtual
 void
 nameToUnicodeUTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &

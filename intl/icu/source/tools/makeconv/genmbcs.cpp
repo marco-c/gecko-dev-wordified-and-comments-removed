@@ -4311,6 +4311,8 @@ pb
 +
 +
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -4328,6 +4330,8 @@ pb
 +
 +
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -4344,6 +4348,8 @@ b
 pb
 +
 +
+;
+U_FALLTHROUGH
 ;
 case
 1
@@ -5190,6 +5196,8 @@ case
 -
 1
 :
+U_FALLTHROUGH
+;
 case
 0
 :

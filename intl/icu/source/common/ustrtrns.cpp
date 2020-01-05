@@ -1221,6 +1221,8 @@ illegal
 break
 ;
 }
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -1262,6 +1264,8 @@ c
 )
 |
 trail
+;
+U_FALLTHROUGH
 ;
 case
 1
@@ -1502,6 +1506,8 @@ illegal
 break
 ;
 }
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -1537,6 +1543,8 @@ trail
 )
 ^
 0x80
+;
+U_FALLTHROUGH
 ;
 case
 1

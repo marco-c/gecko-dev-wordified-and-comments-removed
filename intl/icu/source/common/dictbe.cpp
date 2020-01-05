@@ -309,6 +309,9 @@ text
 ;
 rangeStart
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -329,6 +332,9 @@ text
 ;
 rangeEnd
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -1505,6 +1511,9 @@ for
 int32_t
 pcIndex
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -1520,6 +1529,9 @@ text
 int32_t
 pcSize
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -1779,6 +1791,9 @@ text
 int32_t
 paiyannoiIndex
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -1792,6 +1807,9 @@ text
 cuWordLength
 +
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -1843,6 +1861,9 @@ text
 int32_t
 maiyamokIndex
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -1856,6 +1877,9 @@ text
 cuWordLength
 +
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -2610,6 +2634,9 @@ for
 int32_t
 pcIndex
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -2625,6 +2652,9 @@ text
 int32_t
 pcSize
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -3503,6 +3533,9 @@ for
 int32_t
 pcIndex
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -3518,6 +3551,9 @@ text
 int32_t
 pcSize
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -4406,6 +4442,9 @@ for
 int32_t
 pcIndex
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -4421,6 +4460,9 @@ text
 int32_t
 pcSize
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 text
@@ -5141,6 +5183,9 @@ inText
 {
 limit
 =
+(
+int32_t
+)
 utext_nativeLength
 (
 inText
@@ -5184,6 +5229,9 @@ limit
 int32_t
 nativePosition
 =
+(
+int32_t
+)
 utext_getNativeIndex
 (
 inText
@@ -5825,6 +5873,11 @@ ix
 =
 0
 ;
+bool
+is_prev_katakana
+=
+false
+;
 for
 (
 int32_t
@@ -6042,11 +6095,6 @@ ln_j_i
 ;
 }
 }
-bool
-is_prev_katakana
-=
-false
-;
 bool
 is_katakana
 =

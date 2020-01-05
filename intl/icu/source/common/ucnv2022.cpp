@@ -644,6 +644,7 @@ UConverterDataISO2022
 ;
 U_CFUNC
 void
+U_CALLCONV
 ucnv_fromUnicode_UTF8
 (
 UConverterFromUnicodeArgs
@@ -656,6 +657,7 @@ err
 ;
 U_CFUNC
 void
+U_CALLCONV
 ucnv_fromUnicode_UTF8_OFFSETS_LOGIC
 (
 UConverterFromUnicodeArgs
@@ -1496,6 +1498,7 @@ Variant2022
 ;
 static
 void
+U_CALLCONV
 _ISO2022Open
 (
 UConverter
@@ -1511,6 +1514,7 @@ errorCode
 ;
 static
 void
+U_CALLCONV
 _ISO2022Close
 (
 UConverter
@@ -1520,6 +1524,7 @@ converter
 ;
 static
 void
+U_CALLCONV
 _ISO2022Reset
 (
 UConverter
@@ -1529,10 +1534,12 @@ UConverterResetChoice
 choice
 )
 ;
+U_CDECL_BEGIN
 static
 const
 char
 *
+U_CALLCONV
 _ISO2022getName
 (
 const
@@ -1541,8 +1548,10 @@ UConverter
 cnv
 )
 ;
+U_CDECL_END
 static
 void
+U_CALLCONV
 _ISO_2022_WriteSub
 (
 UConverterFromUnicodeArgs
@@ -1555,9 +1564,11 @@ UErrorCode
 err
 )
 ;
+U_CDECL_BEGIN
 static
 UConverter
 *
+U_CALLCONV
 _ISO_2022_SafeClone
 (
 const
@@ -1575,11 +1586,13 @@ UErrorCode
 status
 )
 ;
+U_CDECL_END
 #
 ifdef
 U_ENABLE_GENERIC_ISO_2022
 static
 void
+U_CALLCONV
 T_UConverter_toUnicode_ISO_2022_OFFSETS_LOGIC
 (
 UConverterToUnicodeArgs
@@ -1848,6 +1861,7 @@ fromUnicodeStatus
 }
 static
 void
+U_CALLCONV
 _ISO2022Open
 (
 UConverter
@@ -3076,6 +3090,7 @@ U_MEMORY_ALLOCATION_ERROR
 }
 static
 void
+U_CALLCONV
 _ISO2022Close
 (
 UConverter
@@ -3195,6 +3210,7 @@ NULL
 }
 static
 void
+U_CALLCONV
 _ISO2022Reset
 (
 UConverter
@@ -3453,10 +3469,12 @@ myConverterData
 }
 }
 }
+U_CDECL_BEGIN
 static
 const
 char
 *
+U_CALLCONV
 _ISO2022getName
 (
 const
@@ -3497,6 +3515,7 @@ return
 NULL
 ;
 }
+U_CDECL_END
 static
 const
 int8_t
@@ -4571,9 +4590,13 @@ U_UNSUPPORTED_ESCAPE_SEQUENCE
 break
 ;
 }
+U_FALLTHROUGH
+;
 case
 GB2312_1
 :
+U_FALLTHROUGH
+;
 case
 CNS_11643_1
 :
@@ -5583,6 +5606,7 @@ ifdef
 U_ENABLE_GENERIC_ISO_2022
 static
 void
+U_CALLCONV
 T_UConverter_toUnicode_ISO_2022_OFFSETS_LOGIC
 (
 UConverterToUnicodeArgs
@@ -6860,6 +6884,7 @@ HWKANA_START
 ;
 static
 void
+U_CALLCONV
 UConverter_fromUnicode_ISO_2022_JP_OFFSETS_LOGIC
 (
 UConverterFromUnicodeArgs
@@ -8709,6 +8734,7 @@ target
 }
 static
 void
+U_CALLCONV
 UConverter_toUnicode_ISO_2022_JP_OFFSETS_LOGIC
 (
 UConverterToUnicodeArgs
@@ -9256,6 +9282,8 @@ pToU2022State
 g
 =
 0
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -10063,6 +10091,7 @@ if
 UCONFIG_ONLY_HTML_CONVERSION
 static
 void
+U_CALLCONV
 UConverter_fromUnicode_ISO_2022_KR_OFFSETS_LOGIC_IBM
 (
 UConverterFromUnicodeArgs
@@ -10216,6 +10245,7 @@ saveConv
 }
 static
 void
+U_CALLCONV
 UConverter_fromUnicode_ISO_2022_KR_OFFSETS_LOGIC
 (
 UConverterFromUnicodeArgs
@@ -11271,6 +11301,7 @@ isTargetByteDBCS
 }
 static
 void
+U_CALLCONV
 UConverter_toUnicode_ISO_2022_KR_OFFSETS_LOGIC_IBM
 (
 UConverterToUnicodeArgs
@@ -11806,6 +11837,7 @@ err
 }
 static
 void
+U_CALLCONV
 UConverter_toUnicode_ISO_2022_KR_OFFSETS_LOGIC
 (
 UConverterToUnicodeArgs
@@ -12753,6 +12785,7 @@ CNS_11643_1992_Plane_7_STR
 ;
 static
 void
+U_CALLCONV
 UConverter_fromUnicode_ISO_2022_CN_OFFSETS_LOGIC
 (
 UConverterFromUnicodeArgs
@@ -14256,6 +14289,7 @@ target
 }
 static
 void
+U_CALLCONV
 UConverter_toUnicode_ISO_2022_CN_OFFSETS_LOGIC
 (
 UConverterToUnicodeArgs
@@ -14741,6 +14775,8 @@ sizeof
 ISO2022State
 )
 )
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -15420,6 +15456,7 @@ mySource
 endif
 static
 void
+U_CALLCONV
 _ISO_2022_WriteSub
 (
 UConverterFromUnicodeArgs
@@ -16030,9 +16067,11 @@ mydata
 ;
 }
 ;
+U_CDECL_BEGIN
 static
 UConverter
 *
+U_CALLCONV
 _ISO_2022_SafeClone
 (
 const
@@ -16259,8 +16298,10 @@ localClone
 cnv
 ;
 }
+U_CDECL_END
 static
 void
+U_CALLCONV
 _ISO_2022_GetUnicodeSet
 (
 const
@@ -17065,7 +17106,7 @@ ISO_2022_KR
 UCNV_IBM
 UCNV_ISO_2022
 1
-3
+8
 {
 0x1a
 0

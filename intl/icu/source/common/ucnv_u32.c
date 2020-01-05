@@ -2392,6 +2392,8 @@ NULL
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static
@@ -4767,6 +4769,8 @@ NULL
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static
@@ -5616,6 +5620,8 @@ NULL
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static

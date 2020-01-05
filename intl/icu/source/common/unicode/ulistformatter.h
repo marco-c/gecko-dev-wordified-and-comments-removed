@@ -18,9 +18,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -37,7 +34,7 @@ struct
 UListFormatter
 UListFormatter
 ;
-U_DRAFT
+U_STABLE
 UListFormatter
 *
 U_EXPORT2
@@ -52,7 +49,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ulistfmt_close
@@ -108,8 +105,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

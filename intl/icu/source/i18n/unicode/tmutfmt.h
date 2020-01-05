@@ -94,6 +94,9 @@ Hashtable
 class
 UVector
 ;
+struct
+TimeUnitFormatReadSink
+;
 class
 U_I18N_API
 TimeUnitFormat
@@ -386,6 +389,10 @@ UErrorCode
 &
 status
 )
+;
+friend
+struct
+TimeUnitFormatReadSink
 ;
 }
 ;

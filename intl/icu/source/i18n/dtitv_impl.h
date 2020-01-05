@@ -82,6 +82,15 @@ UChar
 )
 #
 define
+SOLIDUS
+(
+(
+UChar
+)
+0x002F
+)
+#
+define
 DIGIT_ZERO
 (
 (

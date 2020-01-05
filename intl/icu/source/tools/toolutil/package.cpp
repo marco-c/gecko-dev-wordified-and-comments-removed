@@ -7386,6 +7386,9 @@ uprv_memcpy
 (
 newItems
 items
+(
+size_t
+)
 itemCount
 *
 sizeof

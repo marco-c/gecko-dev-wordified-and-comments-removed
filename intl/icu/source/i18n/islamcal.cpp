@@ -3180,6 +3180,7 @@ return
 gSystemDefaultCenturyStartYear
 ;
 }
+U_CFUNC
 void
 U_CALLCONV
 IslamicCalendar

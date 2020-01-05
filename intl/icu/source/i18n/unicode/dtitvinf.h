@@ -64,9 +64,6 @@ UObject
 {
 public
 :
-#
-ifndef
-U_HIDE_INTERNAL_API
 DateIntervalInfo
 (
 UErrorCode
@@ -74,8 +71,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 DateIntervalInfo
 (
 const
@@ -228,6 +223,9 @@ private
 friend
 class
 DateIntervalFormat
+;
+struct
+DateIntervalSink
 ;
 enum
 IntervalPatternIndex

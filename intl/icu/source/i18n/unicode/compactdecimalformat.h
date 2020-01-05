@@ -278,9 +278,7 @@ UnicodeString
 &
 format
 (
-const
 StringPiece
-&
 number
 UnicodeString
 &

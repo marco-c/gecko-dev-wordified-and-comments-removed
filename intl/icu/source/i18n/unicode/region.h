@@ -132,9 +132,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 StringEnumeration
 *
@@ -148,8 +145,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 const
 Region
 *
@@ -168,9 +163,6 @@ type
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 StringEnumeration
 *
 getContainedRegions
@@ -193,8 +185,6 @@ status
 )
 const
 ;
-#
-endif
 UBool
 contains
 (
@@ -205,9 +195,6 @@ other
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 StringEnumeration
 *
 getPreferredValues
@@ -218,8 +205,6 @@ status
 )
 const
 ;
-#
-endif
 const
 char
 *
@@ -286,6 +271,7 @@ Region
 ;
 static
 void
+U_CALLCONV
 loadRegionData
 (
 UErrorCode

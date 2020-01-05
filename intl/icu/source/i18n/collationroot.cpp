@@ -145,6 +145,7 @@ TRUE
 }
 U_CDECL_END
 void
+U_CALLCONV
 CollationRoot
 :
 :

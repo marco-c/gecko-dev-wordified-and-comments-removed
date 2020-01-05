@@ -4966,6 +4966,9 @@ codePoints
 +
 idx
 codePoints
+(
+size_t
+)
 m
 -
 >
@@ -5735,6 +5738,13 @@ UCMapping
 m
 =
 {
+0
+{
+0
+}
+0
+0
+0
 0
 }
 ;

@@ -641,6 +641,7 @@ T
 obj
 void
 (
+U_CALLCONV
 T
 :
 :
@@ -701,6 +702,7 @@ UInitOnce
 uio
 void
 (
+U_CALLCONV
 *
 fp
 )
@@ -755,6 +757,7 @@ UInitOnce
 uio
 void
 (
+U_CALLCONV
 *
 fp
 )
@@ -851,6 +854,7 @@ UInitOnce
 uio
 void
 (
+U_CALLCONV
 *
 fp
 )
@@ -913,6 +917,7 @@ UInitOnce
 uio
 void
 (
+U_CALLCONV
 *
 fp
 )
@@ -1015,7 +1020,7 @@ U_USER_MUTEX_H
 )
 #
 elif
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 #
 define
 WIN32_LEAN_AND_MEAN

@@ -22,7 +22,7 @@ include
 "
 unicode
 /
-uobject
+parseerr
 .
 h
 "
@@ -40,7 +40,16 @@ include
 "
 unicode
 /
-parseerr
+uobject
+.
+h
+"
+#
+include
+"
+unicode
+/
+utext
 .
 h
 "

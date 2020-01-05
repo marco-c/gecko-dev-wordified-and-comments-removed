@@ -6596,6 +6596,8 @@ c
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -6613,6 +6615,8 @@ c
 >
 16
 )
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -6632,6 +6636,8 @@ c
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -6644,6 +6650,8 @@ target
 uint8_t
 )
 c
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -6683,6 +6691,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -6707,6 +6717,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -6733,6 +6745,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -6752,6 +6766,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -6821,6 +6837,8 @@ c
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -6838,6 +6856,8 @@ c
 >
 16
 )
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -6857,6 +6877,8 @@ c
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -6867,6 +6889,8 @@ p
 uint8_t
 )
 c
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -6930,6 +6954,8 @@ offsets
 sourceIndex
 ;
 }
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -6964,6 +6990,8 @@ offsets
 sourceIndex
 ;
 }
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -6993,6 +7021,8 @@ offsets
 sourceIndex
 ;
 }
+U_FALLTHROUGH
+;
 default
 :
 break
@@ -8928,6 +8958,8 @@ c
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -8945,6 +8977,8 @@ c
 >
 16
 )
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -8964,6 +8998,8 @@ c
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -8976,6 +9012,8 @@ target
 uint8_t
 )
 c
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -9040,6 +9078,8 @@ c
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -9057,6 +9097,8 @@ c
 >
 16
 )
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -9076,6 +9118,8 @@ c
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -9086,6 +9130,8 @@ p
 uint8_t
 )
 c
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -9133,6 +9179,8 @@ c
 16
 )
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -9151,6 +9199,8 @@ c
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -9163,6 +9213,8 @@ target
 uint8_t
 )
 c
+;
+U_FALLTHROUGH
 ;
 default
 :

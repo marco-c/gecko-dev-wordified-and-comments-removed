@@ -114,6 +114,8 @@ UNormalizationMode
 mode
 )
 ;
+#
+endif
 Normalizer
 (
 const
@@ -122,8 +124,6 @@ Normalizer
 copy
 )
 ;
-#
-endif
 virtual
 ~
 Normalizer
@@ -557,14 +557,9 @@ Normalizer2
 *
 fNorm2
 ;
-#
-ifndef
-U_HIDE_DEPRECATED_API
 UNormalizationMode
 fUMode
 ;
-#
-endif
 int32_t
 fOptions
 ;

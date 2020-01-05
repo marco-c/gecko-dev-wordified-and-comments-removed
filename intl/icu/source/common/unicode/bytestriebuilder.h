@@ -73,9 +73,7 @@ BytesTrieBuilder
 &
 add
 (
-const
 StringPiece
-&
 s
 int32_t
 value

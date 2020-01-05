@@ -1012,7 +1012,10 @@ const
 FieldPosition
 fpos
 (
-0
+FieldPosition
+:
+:
+DONT_CARE
 )
 ;
 UnicodeString
@@ -1049,7 +1052,10 @@ const
 FieldPosition
 fpos
 (
-0
+FieldPosition
+:
+:
+DONT_CARE
 )
 ;
 UnicodeString

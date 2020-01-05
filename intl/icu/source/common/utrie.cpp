@@ -602,6 +602,9 @@ other
 -
 >
 data
+(
+size_t
+)
 other
 -
 >
@@ -3432,6 +3435,9 @@ trie
 data
 4
 *
+(
+size_t
+)
 trie
 -
 >

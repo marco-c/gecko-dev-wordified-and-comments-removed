@@ -615,6 +615,9 @@ segments
 other
 .
 segments
+(
+size_t
+)
 other
 .
 segmentsCount

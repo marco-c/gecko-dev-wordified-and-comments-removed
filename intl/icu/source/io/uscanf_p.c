@@ -1180,14 +1180,8 @@ unum_getSymbol
 format
 UNUM_PLUS_SIGN_SYMBOL
 plusSymbol
-sizeof
+UPRV_LENGTHOF
 (
-plusSymbol
-)
-/
-sizeof
-(
-*
 plusSymbol
 )
 &
@@ -5185,6 +5179,8 @@ fInfo
 fWidth
 =
 cpConsumed
+;
+U_FALLTHROUGH
 ;
 case
 ufmt_char

@@ -1624,6 +1624,10 @@ kind
 status
 )
 ;
+#
+if
+!
+UCONFIG_NO_FILTERED_BREAK_ITERATION
 {
 char
 ssKeyValue
@@ -1718,6 +1722,8 @@ fbiBuilder
 }
 }
 }
+#
+endif
 break
 ;
 case

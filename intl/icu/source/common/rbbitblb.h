@@ -161,6 +161,17 @@ mergeRuleStatusVals
 )
 ;
 void
+addRuleRootNodes
+(
+UVector
+*
+dest
+RBBINode
+*
+node
+)
+;
+void
 setAdd
 (
 UVector

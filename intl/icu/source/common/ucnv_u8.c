@@ -3342,6 +3342,8 @@ break
 +
 source
 ;
+U_FALLTHROUGH
+;
 case
 5
 :
@@ -3380,6 +3382,8 @@ break
 +
 +
 source
+;
+U_FALLTHROUGH
 ;
 case
 4
@@ -3420,6 +3424,8 @@ break
 +
 source
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -3458,6 +3464,8 @@ break
 +
 +
 source
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -4932,6 +4940,8 @@ NULL
 NULL
 NULL
 ucnv_getCompleteUnicodeSet
+NULL
+NULL
 }
 ;
 static

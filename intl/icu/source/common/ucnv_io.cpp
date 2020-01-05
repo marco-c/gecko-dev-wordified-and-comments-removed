@@ -1345,10 +1345,10 @@ not
 valid
 #
 endif
-U_CFUNC
+U_CAPI
 char
 *
-U_EXPORT2
+U_CALLCONV
 ucnv_io_stripASCIIForCompare
 (
 char
@@ -1493,10 +1493,10 @@ return
 dst
 ;
 }
-U_CFUNC
+U_CAPI
 char
 *
-U_EXPORT2
+U_CALLCONV
 ucnv_io_stripEBCDICForCompare
 (
 char
@@ -2746,7 +2746,7 @@ return
 UINT32_MAX
 ;
 }
-U_CFUNC
+U_CAPI
 const
 char
 *
@@ -2893,6 +2893,7 @@ return
 NULL
 ;
 }
+U_CDECL_BEGIN
 static
 int32_t
 U_CALLCONV
@@ -3140,6 +3141,7 @@ enumerator
 )
 ;
 }
+U_CDECL_END
 static
 const
 UEnumeration
@@ -4045,6 +4047,7 @@ return
 NULL
 ;
 }
+U_CDECL_BEGIN
 static
 int32_t
 U_CALLCONV
@@ -4189,6 +4192,7 @@ context
 0
 ;
 }
+U_CDECL_END
 static
 const
 UEnumeration
@@ -4334,7 +4338,7 @@ return
 myEnum
 ;
 }
-U_CFUNC
+U_CAPI
 uint16_t
 ucnv_io_countKnownConverters
 (
@@ -4364,6 +4368,7 @@ return
 0
 ;
 }
+U_CDECL_BEGIN
 typedef
 char
 *
@@ -4379,6 +4384,7 @@ char
 name
 )
 ;
+U_CDECL_END
 typedef
 struct
 TempRow
@@ -4423,6 +4429,7 @@ STACK_ROW_CAPACITY
 ;
 static
 int32_t
+U_CALLCONV
 io_compareRows
 (
 const
@@ -5707,6 +5714,9 @@ q
 r
 2
 *
+(
+size_t
+)
 count
 )
 ;
@@ -5759,6 +5769,9 @@ q2
 r
 2
 *
+(
+size_t
+)
 count
 )
 ;

@@ -1706,7 +1706,10 @@ resultStr
 FieldPosition
 fieldPosition
 (
-0
+FieldPosition
+:
+:
+DONT_CARE
 )
 ;
 (

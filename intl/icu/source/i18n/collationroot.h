@@ -84,6 +84,7 @@ private
 :
 static
 void
+U_CALLCONV
 load
 (
 UErrorCode

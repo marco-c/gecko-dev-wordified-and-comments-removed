@@ -5,7 +5,7 @@ C
 )
 1999
 -
-2015
+2016
 International
 Business
 Machines
@@ -90,7 +90,7 @@ txt
 .
 *
 Unicode
-8
+9
 .
 0
 .
@@ -12961,6 +12961,9 @@ FFEE
 1F23A
 >
 55B6
+1F23B
+>
+914D
 1F240
 >
 3014

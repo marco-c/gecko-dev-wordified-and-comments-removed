@@ -99,9 +99,6 @@ class
 DigitList
 ;
 class
-ChoiceFormat
-;
-class
 CurrencyPluralInfo
 ;
 class
@@ -549,9 +546,7 @@ UnicodeString
 &
 format
 (
-const
 StringPiece
-&
 number
 UnicodeString
 &
@@ -1008,6 +1003,8 @@ getMinimumGroupingDigits
 )
 const
 ;
+#
+endif
 virtual
 void
 setMinimumGroupingDigits
@@ -1016,8 +1013,6 @@ int32_t
 newValue
 )
 ;
-#
-endif
 UBool
 isDecimalSeparatorAlwaysShown
 (
@@ -1390,6 +1385,14 @@ DecimalFormatSymbols
 symbolsToAdopt
 =
 0
+)
+;
+void
+handleCurrencySignInPattern
+(
+UErrorCode
+&
+status
 )
 ;
 void

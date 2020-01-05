@@ -50,6 +50,13 @@ h
 #
 include
 "
+collationiterator
+.
+h
+"
+#
+include
+"
 normalizer2impl
 .
 h

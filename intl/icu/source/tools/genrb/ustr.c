@@ -395,7 +395,7 @@ NULL
 return
 ;
 }
-uprv_memcpy
+u_memcpy
 (
 dst
 -
@@ -405,11 +405,6 @@ src
 -
 >
 fChars
-sizeof
-(
-UChar
-)
-*
 src
 -
 >

@@ -347,14 +347,8 @@ uLimit
 =
 uBuffer
 +
-sizeof
+UPRV_LENGTHOF
 (
-uBuffer
-)
-/
-sizeof
-(
-*
 uBuffer
 )
 ;

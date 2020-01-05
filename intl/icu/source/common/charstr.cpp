@@ -813,9 +813,7 @@ CharString
 :
 appendPathPart
 (
-const
 StringPiece
-&
 s
 UErrorCode
 &

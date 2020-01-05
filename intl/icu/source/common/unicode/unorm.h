@@ -35,12 +35,6 @@ unorm2
 .
 h
 "
-#
-ifndef
-U_HIDE_DEPRECATED_API
-#
-ifndef
-U_HIDE_DEPRECATED_API
 typedef
 enum
 {
@@ -70,7 +64,8 @@ UNORM_MODE_COUNT
 UNormalizationMode
 ;
 #
-endif
+ifndef
+U_HIDE_DEPRECATED_API
 enum
 {
 UNORM_UNICODE_3_2

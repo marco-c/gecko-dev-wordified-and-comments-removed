@@ -82,9 +82,7 @@ buffer
 }
 CharString
 (
-const
 StringPiece
-&
 s
 UErrorCode
 &
@@ -333,9 +331,7 @@ CharString
 &
 append
 (
-const
 StringPiece
-&
 s
 UErrorCode
 &
@@ -437,9 +433,7 @@ CharString
 &
 appendPathPart
 (
-const
 StringPiece
-&
 s
 UErrorCode
 &

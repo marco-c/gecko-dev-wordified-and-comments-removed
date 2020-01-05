@@ -146,6 +146,7 @@ codePoints
 ;
 static
 void
+U_CALLCONV
 ucnv_MBCSLoad
 (
 UConverterSharedData
@@ -165,6 +166,7 @@ pErrorCode
 ;
 static
 void
+U_CALLCONV
 ucnv_MBCSUnload
 (
 UConverterSharedData
@@ -174,6 +176,7 @@ sharedData
 ;
 static
 void
+U_CALLCONV
 ucnv_MBCSOpen
 (
 UConverter
@@ -189,6 +192,7 @@ pErrorCode
 ;
 static
 UChar32
+U_CALLCONV
 ucnv_MBCSGetNextUChar
 (
 UConverterToUnicodeArgs
@@ -201,6 +205,7 @@ pErrorCode
 ;
 static
 void
+U_CALLCONV
 ucnv_MBCSGetStarters
 (
 const
@@ -217,10 +222,12 @@ UErrorCode
 pErrorCode
 )
 ;
+U_CDECL_BEGIN
 static
 const
 char
 *
+U_CALLCONV
 ucnv_MBCSGetName
 (
 const
@@ -229,8 +236,10 @@ UConverter
 cnv
 )
 ;
+U_CDECL_END
 static
 void
+U_CALLCONV
 ucnv_MBCSWriteSub
 (
 UConverterFromUnicodeArgs
@@ -245,6 +254,7 @@ pErrorCode
 ;
 static
 UChar32
+U_CALLCONV
 ucnv_MBCSGetNextUChar
 (
 UConverterToUnicodeArgs
@@ -257,6 +267,7 @@ pErrorCode
 ;
 static
 void
+U_CALLCONV
 ucnv_SBCSFromUTF8
 (
 UConverterFromUnicodeArgs
@@ -272,6 +283,7 @@ pErrorCode
 ;
 static
 void
+U_CALLCONV
 ucnv_MBCSGetUnicodeSet
 (
 const
@@ -291,6 +303,7 @@ pErrorCode
 ;
 static
 void
+U_CALLCONV
 ucnv_DBCSFromUTF8
 (
 UConverterFromUnicodeArgs
@@ -2448,6 +2461,8 @@ stage3
 +
 +
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -2458,6 +2473,8 @@ b
 stage3
 +
 +
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -2479,6 +2496,8 @@ stage3
 +
 =
 2
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -3078,6 +3097,7 @@ pErrorCode
 }
 static
 void
+U_CALLCONV
 ucnv_MBCSGetUnicodeSet
 (
 const
@@ -5066,6 +5086,7 @@ pErrorCode
 }
 static
 void
+U_CALLCONV
 ucnv_MBCSLoad
 (
 UConverterSharedData
@@ -6667,6 +6688,7 @@ asciiRoundtrips
 }
 static
 void
+U_CALLCONV
 ucnv_MBCSUnload
 (
 UConverterSharedData
@@ -6768,6 +6790,7 @@ reconstitutedData
 }
 static
 void
+U_CALLCONV
 ucnv_MBCSOpen
 (
 UConverter
@@ -7245,10 +7268,12 @@ fromUnicodeStatus
 #
 endif
 }
+U_CDECL_BEGIN
 static
 const
 char
 *
+U_CALLCONV
 ucnv_MBCSGetName
 (
 const
@@ -7314,8 +7339,10 @@ name
 ;
 }
 }
+U_CDECL_END
 static
 UChar32
+U_CALLCONV
 ucnv_MBCSGetFallback
 (
 UConverterMBCSTable
@@ -11998,6 +12025,7 @@ return
 }
 static
 UChar32
+U_CALLCONV
 ucnv_MBCSGetNextUChar
 (
 UConverterToUnicodeArgs
@@ -18669,6 +18697,8 @@ value
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -18686,6 +18716,8 @@ value
 >
 16
 )
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -18705,6 +18737,8 @@ value
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -18717,6 +18751,8 @@ target
 uint8_t
 )
 value
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -18756,6 +18792,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -18780,6 +18818,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -18806,6 +18846,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -18825,6 +18867,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -18883,6 +18927,8 @@ value
 16
 )
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -18901,6 +18947,8 @@ value
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -18911,6 +18959,8 @@ charErrorBuffer
 uint8_t
 )
 value
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -18974,6 +19024,8 @@ offsets
 sourceIndex
 ;
 }
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -19008,6 +19060,8 @@ offsets
 sourceIndex
 ;
 }
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -19037,6 +19091,8 @@ offsets
 sourceIndex
 ;
 }
+U_FALLTHROUGH
+;
 default
 :
 break
@@ -20165,6 +20221,7 @@ utf8_offsets
 ;
 static
 void
+U_CALLCONV
 ucnv_SBCSFromUTF8
 (
 UConverterFromUnicodeArgs
@@ -21559,6 +21616,7 @@ target
 }
 static
 void
+U_CALLCONV
 ucnv_DBCSFromUTF8
 (
 UConverterFromUnicodeArgs
@@ -23059,6 +23117,7 @@ target
 }
 static
 void
+U_CALLCONV
 ucnv_MBCSGetStarters
 (
 const
@@ -23175,6 +23234,7 @@ byte
 }
 static
 void
+U_CALLCONV
 ucnv_MBCSWriteSub
 (
 UConverterFromUnicodeArgs

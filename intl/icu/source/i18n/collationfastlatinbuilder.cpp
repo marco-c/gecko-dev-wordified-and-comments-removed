@@ -643,6 +643,9 @@ result
 .
 append
 (
+(
+UChar
+)
 0
 )
 ;
@@ -3263,6 +3266,9 @@ result
 .
 append
 (
+(
+UChar
+)
 0
 )
 ;

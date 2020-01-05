@@ -206,9 +206,7 @@ IDNA
 :
 labelToASCII_UTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -260,9 +258,7 @@ IDNA
 :
 labelToUnicodeUTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -314,9 +310,7 @@ IDNA
 :
 nameToASCII_UTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -368,9 +362,7 @@ IDNA
 :
 nameToUnicodeUTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -527,9 +519,7 @@ virtual
 void
 labelToASCII_UTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -547,9 +537,7 @@ virtual
 void
 labelToUnicodeUTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -567,9 +555,7 @@ virtual
 void
 nameToASCII_UTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -587,9 +573,7 @@ virtual
 void
 nameToUnicodeUTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -632,9 +616,7 @@ const
 void
 processUTF8
 (
-const
 StringPiece
-&
 src
 UBool
 isLabel
@@ -1113,9 +1095,7 @@ UTS46
 :
 labelToASCII_UTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -1146,9 +1126,7 @@ UTS46
 :
 labelToUnicodeUTF8
 (
-const
 StringPiece
-&
 label
 ByteSink
 &
@@ -1179,9 +1157,7 @@ UTS46
 :
 nameToASCII_UTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -1212,9 +1188,7 @@ UTS46
 :
 nameToUnicodeUTF8
 (
-const
 StringPiece
-&
 name
 ByteSink
 &
@@ -2045,9 +2019,7 @@ UTS46
 :
 processUTF8
 (
-const
 StringPiece
-&
 src
 UBool
 isLabel

@@ -300,6 +300,9 @@ continue
 }
 if
 (
+(
+int32_t
+)
 uprv_strlen
 (
 buffer

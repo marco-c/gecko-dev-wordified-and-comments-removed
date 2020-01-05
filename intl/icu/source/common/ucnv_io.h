@@ -175,7 +175,7 @@ endif
 U_CAPI
 char
 *
-U_EXPORT2
+U_CALLCONV
 ucnv_io_stripASCIIForCompare
 (
 char
@@ -190,7 +190,7 @@ name
 U_CAPI
 char
 *
-U_EXPORT2
+U_CALLCONV
 ucnv_io_stripEBCDICForCompare
 (
 char
@@ -202,7 +202,7 @@ char
 name
 )
 ;
-U_CFUNC
+U_CAPI
 const
 char
 *
@@ -220,7 +220,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_CFUNC
+U_CAPI
 uint16_t
 ucnv_io_countKnownConverters
 (

@@ -522,9 +522,6 @@ status
 ;
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 DateFormat
 *
@@ -581,8 +578,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 static
 const
 Locale

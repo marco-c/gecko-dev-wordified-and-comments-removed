@@ -22,6 +22,7 @@ h
 "
 U_NAMESPACE_BEGIN
 class
+U_COMMON_API
 UnifiedCacheBase
 :
 public

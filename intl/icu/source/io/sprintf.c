@@ -662,6 +662,9 @@ if
 size
 >
 =
+(
+int32_t
+)
 MAX_UCHAR_BUFFER_SIZE
 (
 patBuffer

@@ -146,6 +146,7 @@ private
 :
 static
 void
+U_CALLCONV
 loadRootRules
 (
 UErrorCode

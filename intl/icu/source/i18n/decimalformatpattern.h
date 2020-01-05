@@ -65,6 +65,7 @@ DecimalFormatSymbols
 struct
 DecimalFormatPattern
 :
+public
 UMemory
 {
 enum
@@ -178,6 +179,7 @@ fPadPosition
 class
 DecimalFormatPatternParser
 :
+public
 UMemory
 {
 public

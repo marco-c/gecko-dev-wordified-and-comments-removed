@@ -88,11 +88,11 @@ U_HIDE_DEPRECATED_API
 UBRK_TITLE
 =
 4
-#
-endif
 UBRK_COUNT
 =
 5
+#
+endif
 }
 UBreakIteratorType
 ;

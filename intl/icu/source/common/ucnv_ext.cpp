@@ -2424,6 +2424,8 @@ value
 16
 )
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -2442,6 +2444,8 @@ value
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -2454,6 +2458,8 @@ p
 uint8_t
 )
 value
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -3198,7 +3204,7 @@ preFromULength
 -
 match
 ;
-uprv_memmove
+u_memmove
 (
 cnv
 -
@@ -3211,8 +3217,6 @@ preFromU
 +
 match
 length
-*
-U_SIZEOF_UCHAR
 )
 ;
 cnv

@@ -892,7 +892,7 @@ uint16_t
 mappingLength
 ;
 }
-uprv_memmove
+u_memmove
 (
 mappingData
 +
@@ -905,8 +905,6 @@ value
 -
 >
 length
-*
-U_SIZEOF_UCHAR
 )
 ;
 currentIndex

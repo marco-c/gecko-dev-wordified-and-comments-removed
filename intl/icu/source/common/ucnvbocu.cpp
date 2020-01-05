@@ -1136,6 +1136,7 @@ result
 }
 static
 void
+U_CALLCONV
 _Bocu1FromUnicodeWithOffsets
 (
 UConverterFromUnicodeArgs
@@ -1840,6 +1841,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -1864,6 +1867,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -1906,6 +1911,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -1967,6 +1974,8 @@ diff
 16
 )
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -1985,6 +1994,8 @@ diff
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -1995,6 +2006,8 @@ charErrorBuffer
 uint8_t
 )
 diff
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -2049,6 +2062,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -2074,6 +2089,8 @@ offsets
 =
 sourceIndex
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -2093,6 +2110,8 @@ offsets
 +
 =
 sourceIndex
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -2176,6 +2195,7 @@ offsets
 }
 static
 void
+U_CALLCONV
 _Bocu1FromUnicode
 (
 UConverterFromUnicodeArgs
@@ -2764,6 +2784,8 @@ diff
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -2806,6 +2828,8 @@ target
 uint8_t
 )
 diff
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -2863,6 +2887,8 @@ diff
 16
 )
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -2881,6 +2907,8 @@ diff
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -2891,6 +2919,8 @@ charErrorBuffer
 uint8_t
 )
 diff
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -2938,6 +2968,8 @@ diff
 16
 )
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -2956,6 +2988,8 @@ diff
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -2968,6 +3002,8 @@ target
 uint8_t
 )
 diff
+;
+U_FALLTHROUGH
 ;
 default
 :
@@ -3325,6 +3361,7 @@ BOCU1_TRAIL_COUNT
 }
 static
 void
+U_CALLCONV
 _Bocu1ToUnicodeWithOffsets
 (
 UConverterToUnicodeArgs
@@ -4351,6 +4388,7 @@ return
 }
 static
 void
+U_CALLCONV
 _Bocu1ToUnicode
 (
 UConverterToUnicodeArgs

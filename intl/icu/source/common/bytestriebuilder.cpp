@@ -88,9 +88,7 @@ public
 void
 setTo
 (
-const
 StringPiece
-&
 s
 int32_t
 val
@@ -377,9 +375,7 @@ BytesTrieElement
 :
 setTo
 (
-const
 StringPiece
-&
 s
 int32_t
 val
@@ -701,9 +697,7 @@ BytesTrieBuilder
 :
 add
 (
-const
 StringPiece
-&
 s
 int32_t
 value
@@ -812,6 +806,9 @@ uprv_memcpy
 (
 newElements
 elements
+(
+size_t
+)
 elementsLength
 *
 sizeof

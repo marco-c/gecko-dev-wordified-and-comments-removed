@@ -136,7 +136,7 @@ bytes
 16
 ]
 ;
-int
+int32_t
 length
 ;
 if
@@ -306,6 +306,9 @@ if
 length
 >
 (
+(
+int32_t
+)
 sizeof
 (
 filename

@@ -17,6 +17,15 @@ h
 if
 !
 UCONFIG_NO_FORMATTING
+#
+include
+"
+unicode
+/
+uobject
+.
+h
+"
 U_NAMESPACE_BEGIN
 class
 UnicodeSet

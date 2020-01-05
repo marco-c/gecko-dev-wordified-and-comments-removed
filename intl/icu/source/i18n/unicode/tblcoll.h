@@ -1109,6 +1109,7 @@ const
 ;
 static
 void
+U_CALLCONV
 computeMaxExpansions
 (
 const

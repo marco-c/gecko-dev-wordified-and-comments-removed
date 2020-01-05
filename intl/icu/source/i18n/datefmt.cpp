@@ -1231,7 +1231,10 @@ const
 FieldPosition
 fpos
 (
-0
+FieldPosition
+:
+:
+DONT_CARE
 )
 ;
 return

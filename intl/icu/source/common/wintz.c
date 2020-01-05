@@ -1136,6 +1136,11 @@ FALSE
 ;
 }
 }
+ures_close
+(
+winTZ
+)
+;
 }
 }
 if

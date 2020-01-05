@@ -4624,11 +4624,12 @@ variables
 j
 ]
 =
-(
-(
-UnicodeSet
+static_cast
+<
+UnicodeFunctor
 *
-)
+>
+(
 variablesVector
 .
 elementAt

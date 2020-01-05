@@ -1336,6 +1336,9 @@ mem
 -
 >
 staticArray
+(
+size_t
+)
 mem
 -
 >

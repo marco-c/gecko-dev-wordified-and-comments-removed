@@ -13007,6 +13007,9 @@ uprv_memcpy
 (
 saveLevels
 levels
+(
+size_t
+)
 pBiDi
 -
 >
@@ -13811,6 +13814,9 @@ pBiDi
 >
 levels
 saveLevels
+(
+size_t
+)
 saveLength
 *
 sizeof

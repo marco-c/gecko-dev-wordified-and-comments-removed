@@ -56,6 +56,7 @@ UCLN_I18N_COUNT
 ;
 static
 UBool
+U_CALLCONV
 i18n_cleanup
 (
 void

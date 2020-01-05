@@ -322,6 +322,7 @@ private
 :
 static
 void
+U_CALLCONV
 initializeSystemDefaultCentury
 (
 void

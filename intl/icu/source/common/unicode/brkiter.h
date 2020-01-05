@@ -673,6 +673,9 @@ other
 )
 {
 }
+#
+ifndef
+U_HIDE_INTERNAL_API
 BreakIterator
 (
 const
@@ -685,6 +688,8 @@ Locale
 actual
 )
 ;
+#
+endif
 private
 :
 char

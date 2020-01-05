@@ -2523,6 +2523,8 @@ value
 24
 )
 ;
+U_FALLTHROUGH
+;
 case
 3
 :
@@ -2540,6 +2542,8 @@ value
 >
 16
 )
+;
+U_FALLTHROUGH
 ;
 case
 2
@@ -2559,6 +2563,8 @@ value
 8
 )
 ;
+U_FALLTHROUGH
+;
 case
 1
 :
@@ -2571,6 +2577,8 @@ pLMBCS
 ulmbcs_byte_t
 )
 value
+;
+U_FALLTHROUGH
 ;
 default
 :

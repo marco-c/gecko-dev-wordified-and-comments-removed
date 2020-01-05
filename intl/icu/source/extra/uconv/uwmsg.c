@@ -55,6 +55,13 @@ h
 #
 include
 "
+cmemory
+.
+h
+"
+#
+include
+"
 cstring
 .
 h
@@ -480,12 +487,10 @@ if
 UCONFIG_NO_FORMATTING
 resultLength
 =
-sizeof
+UPRV_LENGTHOF
 (
 gNoFormatting
 )
-/
-U_SIZEOF_UCHAR
 ;
 if
 (

@@ -1184,6 +1184,9 @@ list
 o
 .
 list
+(
+size_t
+)
 len
 *
 sizeof
@@ -1407,6 +1410,9 @@ list
 o
 .
 list
+(
+size_t
+)
 len
 *
 sizeof
@@ -4903,6 +4909,9 @@ list
 +
 1
 (
+size_t
+)
+(
 len
 -
 1
@@ -4948,6 +4957,9 @@ buffer
 +
 1
 list
+(
+size_t
+)
 len
 *
 sizeof

@@ -431,9 +431,7 @@ Formattable
 :
 Formattable
 (
-const
 StringPiece
-&
 number
 UErrorCode
 &
@@ -1519,6 +1517,8 @@ status
 )
 ;
 }
+U_FALLTHROUGH
+;
 default
 :
 status
@@ -1758,6 +1758,8 @@ status
 )
 ;
 }
+U_FALLTHROUGH
+;
 default
 :
 status
@@ -1886,6 +1888,8 @@ status
 )
 ;
 }
+U_FALLTHROUGH
+;
 default
 :
 status
@@ -2881,9 +2885,7 @@ Formattable
 :
 setDecimalNumber
 (
-const
 StringPiece
-&
 numberString
 UErrorCode
 &

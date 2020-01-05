@@ -498,6 +498,9 @@ uprv_memcpy
 (
 newElements
 elements
+(
+size_t
+)
 elementsLength
 *
 sizeof

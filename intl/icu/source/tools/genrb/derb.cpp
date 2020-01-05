@@ -2043,6 +2043,8 @@ np
 =
 0x005C
 ;
+U_FALLTHROUGH
+;
 default
 :
 *

@@ -9403,6 +9403,7 @@ isNumeric
 ;
 }
 void
+U_CALLCONV
 RuleBasedCollator
 :
 :

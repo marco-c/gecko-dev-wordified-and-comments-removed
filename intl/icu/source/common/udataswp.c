@@ -1630,6 +1630,9 @@ length
 &
 length
 <
+(
+int32_t
+)
 sizeof
 (
 DataHeader
@@ -2373,6 +2376,9 @@ length
 &
 length
 <
+(
+int32_t
+)
 sizeof
 (
 DataHeader

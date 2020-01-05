@@ -623,6 +623,9 @@ a
 getAlias
 (
 )
+(
+size_t
+)
 length
 *
 sizeof

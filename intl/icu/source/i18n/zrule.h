@@ -18,6 +18,15 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+include
+"
+unicode
+/
+uobject
+.
+h
+"
+#
 ifndef
 UCNV_H
 struct

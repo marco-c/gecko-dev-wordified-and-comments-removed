@@ -18,9 +18,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -37,7 +34,7 @@ struct
 UFieldPositionIterator
 UFieldPositionIterator
 ;
-U_DRAFT
+U_STABLE
 UFieldPositionIterator
 *
 U_EXPORT2
@@ -48,7 +45,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ufieldpositer_close
@@ -72,7 +69,7 @@ ufieldpositer_close
 U_NAMESPACE_END
 #
 endif
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ufieldpositer_next
@@ -88,8 +85,6 @@ int32_t
 endIndex
 )
 ;
-#
-endif
 #
 endif
 #

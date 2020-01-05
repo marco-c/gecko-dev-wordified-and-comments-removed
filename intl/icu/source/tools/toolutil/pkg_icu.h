@@ -14,6 +14,13 @@ utypes
 h
 "
 #
+include
+"
+package
+.
+h
+"
+#
 define
 U_PKG_RESERVED_CHARS
 "

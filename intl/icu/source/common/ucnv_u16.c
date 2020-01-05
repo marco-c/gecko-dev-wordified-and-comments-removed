@@ -2979,6 +2979,8 @@ _UTF16BEGetName
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static
@@ -5948,6 +5950,8 @@ _UTF16LEGetName
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static
@@ -6904,6 +6908,8 @@ _UTF16GetName
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static
@@ -7008,6 +7014,8 @@ _UTF16GetName
 NULL
 NULL
 ucnv_getNonSurrogateUnicodeSet
+NULL
+NULL
 }
 ;
 static

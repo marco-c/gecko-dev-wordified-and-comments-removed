@@ -415,6 +415,7 @@ canonID
 ;
 static
 void
+U_CALLCONV
 init
 (
 UErrorCode

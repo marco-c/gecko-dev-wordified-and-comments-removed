@@ -592,6 +592,9 @@ sizeof
 int32_t
 )
 *
+(
+size_t
+)
 offset
 )
 ;
@@ -701,6 +704,9 @@ sizeof
 int64_t
 )
 *
+(
+size_t
+)
 offset
 )
 ;
@@ -4761,15 +4767,10 @@ source1length
 0
 )
 {
-uprv_memcpy
+u_memcpy
 (
 destination
 source1
-sizeof
-(
-UChar
-)
-*
 source1length
 )
 ;

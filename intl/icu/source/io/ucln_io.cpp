@@ -93,6 +93,7 @@ UCLN_IO_COUNT
 ;
 static
 UBool
+U_CALLCONV
 io_cleanup
 (
 void

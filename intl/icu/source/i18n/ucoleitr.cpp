@@ -117,6 +117,9 @@ void
 src
 )
 (
+size_t
+)
+(
 count
 )
 *
@@ -141,6 +144,9 @@ type
 )
 uprv_malloc
 (
+(
+size_t
+)
 (
 count
 )
@@ -872,6 +878,8 @@ ucol_tertiaryOrder
 ce
 )
 ;
+U_FALLTHROUGH
+;
 case
 UCOL_SECONDARY
 :
@@ -881,6 +889,8 @@ ucol_secondaryOrder
 (
 ce
 )
+;
+U_FALLTHROUGH
 ;
 case
 UCOL_PRIMARY

@@ -846,6 +846,9 @@ other
 -
 >
 index2
+(
+size_t
+)
 other
 -
 >
@@ -884,6 +887,9 @@ other
 -
 >
 data
+(
+size_t
+)
 other
 -
 >
@@ -941,6 +947,9 @@ other
 >
 map
 (
+(
+size_t
+)
 other
 -
 >
@@ -2617,6 +2626,9 @@ trie
 -
 >
 data
+(
+size_t
+)
 trie
 -
 >
@@ -6542,6 +6554,9 @@ newTrie
 -
 >
 data
+(
+size_t
+)
 newTrie
 -
 >

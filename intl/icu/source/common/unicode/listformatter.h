@@ -230,6 +230,9 @@ const
 ListFormatData
 &
 data
+UErrorCode
+&
+errorCode
 )
 ;
 ListFormatter

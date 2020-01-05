@@ -3553,6 +3553,7 @@ canonID
 ;
 }
 void
+U_CALLCONV
 TransliteratorIDParser
 :
 :

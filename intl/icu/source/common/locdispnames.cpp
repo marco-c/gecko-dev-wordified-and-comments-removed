@@ -2720,6 +2720,8 @@ locale
 pErrorCode
 )
 ;
+U_FALLTHROUGH
+;
 default
 :
 {
@@ -3600,13 +3602,11 @@ dispNameLen
 destCapacity
 )
 {
-uprv_memcpy
+u_memcpy
 (
 dest
 dispName
 dispNameLen
-*
-U_SIZEOF_UCHAR
 )
 ;
 return

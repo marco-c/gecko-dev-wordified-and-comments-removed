@@ -1316,14 +1316,8 @@ U16_APPEND
 (
 buf
 idx
-sizeof
+UPRV_LENGTHOF
 (
-buf
-)
-/
-sizeof
-(
-*
 buf
 )
 uc
@@ -1854,7 +1848,7 @@ dataSize
 0
 )
 {
-uprv_memmove
+u_memmove
 (
 f
 -
@@ -1865,11 +1859,6 @@ str
 >
 fPos
 dataSize
-*
-sizeof
-(
-UChar
-)
 )
 ;
 }

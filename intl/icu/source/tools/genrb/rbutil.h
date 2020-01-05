@@ -5,6 +5,15 @@ UTIL_H
 define
 UTIL_H
 1
+#
+include
+"
+unicode
+/
+utypes
+.
+h
+"
 U_CDECL_BEGIN
 void
 get_dirname

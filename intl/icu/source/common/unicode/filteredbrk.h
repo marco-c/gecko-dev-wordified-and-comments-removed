@@ -30,9 +30,6 @@ UCONFIG_NO_BREAK_ITERATION
 &
 !
 UCONFIG_NO_FILTERED_BREAK_ITERATION
-#
-ifndef
-U_HIDE_DRAFT_API
 U_NAMESPACE_BEGIN
 class
 U_COMMON_API
@@ -127,8 +124,6 @@ FilteredBreakIteratorBuilder
 }
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

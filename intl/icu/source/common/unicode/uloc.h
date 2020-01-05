@@ -216,11 +216,11 @@ U_HIDE_DEPRECATED_API
 ULOC_REQUESTED_LOCALE
 =
 2
-#
-endif
 ULOC_DATA_LOCALE_TYPE_LIMIT
 =
 3
+#
+endif
 }
 ULocDataLocaleType
 ;
