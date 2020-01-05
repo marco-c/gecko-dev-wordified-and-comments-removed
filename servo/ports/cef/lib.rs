@@ -240,6 +240,10 @@ string_map
 ;
 pub
 mod
+string_multimap
+;
+pub
+mod
 task
 ;
 pub
