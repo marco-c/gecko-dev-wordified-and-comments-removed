@@ -222,6 +222,14 @@ closed
 ;
 }
 ;
+struct
+IPCBlobInputStreamParams
+{
+nsID
+id
+;
+}
+;
 union
 InputStreamParams
 {
@@ -242,6 +250,8 @@ RemoteInputStreamParams
 SameProcessInputStreamParams
 ;
 SlicedInputStreamParams
+;
+IPCBlobInputStreamParams
 ;
 }
 ;
