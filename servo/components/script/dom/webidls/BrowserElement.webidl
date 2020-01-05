@@ -91,8 +91,6 @@ MPL
 .
 *
 /
-/
-/
 callback
 BrowserElementNextPaintEventCallback
 =
