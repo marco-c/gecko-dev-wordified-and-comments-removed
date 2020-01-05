@@ -1977,7 +1977,7 @@ input
 LengthOrNumber
 :
 :
-parse
+parse_non_negative
 (
 input
 )
