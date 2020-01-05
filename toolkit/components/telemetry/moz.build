@@ -227,12 +227,6 @@ mozilla
 [
 '
 !
-TelemetryEventEnums
-.
-h
-'
-'
-!
 TelemetryHistogramEnums
 .
 h
@@ -275,11 +269,6 @@ cpp
 '
 '
 TelemetryCommon
-.
-cpp
-'
-'
-TelemetryEvent
 .
 cpp
 '
