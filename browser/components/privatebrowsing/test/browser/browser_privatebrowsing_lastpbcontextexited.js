@@ -45,8 +45,6 @@ observerExiting
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -122,8 +120,6 @@ observerExited
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic

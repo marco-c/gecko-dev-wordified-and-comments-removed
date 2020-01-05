@@ -171,8 +171,6 @@ nsISupportsWeakReference
 ]
 )
 observe
-:
-function
 (
 )
 {
@@ -497,9 +495,9 @@ tpButton
 .
 addEventListener
 (
-'
+"
 click
-'
+"
 (
 )
 =

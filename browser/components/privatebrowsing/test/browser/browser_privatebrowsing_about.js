@@ -516,8 +516,6 @@ nsIObserver
 ]
 )
 observe
-:
-function
 (
 )
 {
