@@ -1037,13 +1037,10 @@ element
 E
 parent_bf
 :
-&
 Option
 <
-Box
-<
+&
 BloomFilter
->
 >
 style_attribute
 :
