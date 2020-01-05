@@ -642,6 +642,10 @@ Rect
 <
 Au
 >
+pub
+generation
+:
+uint
 }
 pub
 struct
@@ -2169,6 +2173,9 @@ Rect
 zero
 (
 )
+generation
+:
+0
 }
 )
 )
@@ -2350,6 +2357,11 @@ Rect
 zero
 (
 )
+generation
+:
+rw_data
+.
+generation
 }
 }
 /
@@ -5955,6 +5967,13 @@ end_trace
 )
 ;
 }
+rw_data
+.
+generation
++
+=
+1
+;
 /
 /
 Tell

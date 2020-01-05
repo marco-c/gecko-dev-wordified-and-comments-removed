@@ -311,6 +311,10 @@ Rect
 <
 Au
 >
+pub
+generation
+:
+uint
 }
 pub
 struct
