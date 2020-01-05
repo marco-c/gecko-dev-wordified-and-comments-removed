@@ -1080,11 +1080,9 @@ GetStackLocation
 arrayPtr
 =
 *
-*
 reinterpret_cast
 <
 PVOID
-*
 *
 >
 (
