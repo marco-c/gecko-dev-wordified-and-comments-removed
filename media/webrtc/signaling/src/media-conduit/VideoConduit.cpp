@@ -8083,6 +8083,11 @@ max_bitrate_bps
 ;
 if
 (
+mSendStream
+)
+{
+if
+(
 !
 mSendStream
 -
@@ -8149,6 +8154,7 @@ lambda
 __FUNCTION__
 )
 ;
+}
 }
 return
 NS_OK
@@ -8525,6 +8531,11 @@ kMediaConduitNoError
 ;
 }
 }
+if
+(
+mSendStream
+)
+{
 mSendStream
 -
 >
@@ -8538,6 +8549,7 @@ IncomingCapturedFrame
 frame
 )
 ;
+}
 }
 mSendStreamStats
 .
