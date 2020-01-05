@@ -76,14 +76,6 @@ panZoomStopped
 )
 ;
 public
-void
-forceRedraw
-(
-DisplayPortMetrics
-displayPort
-)
-;
-public
 boolean
 isGeckoReady
 (
