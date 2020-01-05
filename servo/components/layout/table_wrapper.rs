@@ -2592,7 +2592,7 @@ middle
 low
 )
 .
-to_subpx
+to_frac32_px
 (
 )
 /
@@ -2602,7 +2602,7 @@ high
 low
 )
 .
-to_subpx
+to_frac32_px
 (
 )
 }
@@ -2844,7 +2844,7 @@ column_intrinsic_inline_size
 .
 preferred
 .
-to_subpx
+to_frac32_px
 (
 )
 /
@@ -2852,7 +2852,7 @@ self
 .
 preferred_inline_size_of_nonconstrained_columns_with_no_percentage
 .
-to_subpx
+to_frac32_px
 (
 )
 }
@@ -2898,7 +2898,7 @@ column_intrinsic_inline_size
 .
 preferred
 .
-to_subpx
+to_frac32_px
 (
 )
 /
@@ -2906,7 +2906,7 @@ self
 .
 preferred_inline_size_of_constrained_columns_with_no_percentage
 .
-to_subpx
+to_frac32_px
 (
 )
 }
@@ -2987,7 +2987,7 @@ size
 Au
 percentage
 :
-f64
+f32
 }
 fn
 initial_computed_inline_size

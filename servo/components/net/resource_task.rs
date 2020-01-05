@@ -113,6 +113,12 @@ std
 :
 :
 boxed
+:
+:
+{
+self
+FnBox
+}
 ;
 use
 std
@@ -183,15 +189,6 @@ channel
 Receiver
 Sender
 }
-;
-use
-std
-:
-:
-thunk
-:
-:
-Invoke
 ;
 static
 mut
@@ -305,8 +302,7 @@ lines
 {
 Ok
 (
-(
-)
+_
 )
 =
 >
@@ -1717,8 +1713,7 @@ MIMEClassifier
 >
 Box
 <
-Invoke
-<
+FnBox
 (
 LoadData
 LoadConsumer
@@ -1727,7 +1722,6 @@ Arc
 MIMEClassifier
 >
 )
->
 +
 Send
 >
@@ -1735,11 +1729,9 @@ Send
 box
 move
 |
-(
 load_data
 senders
 classifier
-)
 |
 {
 factory
@@ -1918,7 +1910,7 @@ serialize
 ;
 loader
 .
-invoke
+call_box
 (
 (
 load_data

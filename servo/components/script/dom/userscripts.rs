@@ -261,7 +261,7 @@ else
 PathBuf
 :
 :
-new
+from
 (
 path_str
 )

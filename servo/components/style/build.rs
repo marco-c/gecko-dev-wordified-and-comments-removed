@@ -1,12 +1,3 @@
-#
-!
-[
-feature
-(
-io
-path
-)
-]
 use
 std
 :

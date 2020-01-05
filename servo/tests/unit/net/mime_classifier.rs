@@ -153,7 +153,7 @@ p
 PathBuf
 :
 :
-new
+from
 (
 "
 parsable_mime
@@ -335,7 +335,7 @@ filename
 PathBuf
 :
 :
-new
+from
 (
 "
 parsable_mime
@@ -570,7 +570,7 @@ x
 PathBuf
 :
 :
-new
+from
 (
 "
 .
@@ -1171,7 +1171,7 @@ test_sniff_full
 PathBuf
 :
 :
-new
+from
 (
 "
 unknown
@@ -1211,7 +1211,7 @@ test_sniff_full
 PathBuf
 :
 :
-new
+from
 (
 "
 unknown
@@ -1249,7 +1249,7 @@ test_sniff_full
 PathBuf
 :
 :
-new
+from
 (
 "
 unknown
@@ -2953,7 +2953,7 @@ test_sniff_full
 PathBuf
 :
 :
-new
+from
 (
 "
 text
@@ -3002,7 +3002,7 @@ test_sniff_full
 PathBuf
 :
 :
-new
+from
 (
 "
 text

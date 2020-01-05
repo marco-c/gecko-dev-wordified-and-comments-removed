@@ -51,7 +51,7 @@ PathBuf
 PathBuf
 :
 :
-new
+from
 (
 "
 /
@@ -123,7 +123,7 @@ path
 PathBuf
 :
 :
-new
+from
 (
 path
 )

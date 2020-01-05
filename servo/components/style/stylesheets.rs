@@ -121,10 +121,7 @@ util
 smallvec
 :
 :
-{
-SmallVec
 SmallVec2
-}
 ;
 #
 [
@@ -954,11 +951,9 @@ rule
 self
 .
 stack
-.
-get_mut
-(
+[
 top
-)
+]
 .
 next
 (

@@ -215,10 +215,7 @@ util
 smallvec
 :
 :
-{
-SmallVec
 SmallVec8
-}
 ;
 use
 std
@@ -1659,10 +1656,6 @@ clone
 ;
 }
 positioned_children
-.
-as_slice_mut
-(
-)
 .
 sort_by
 (

@@ -464,6 +464,16 @@ layout_context
 layout_context
 }
 ;
+{
+let
+root
+:
+&
+mut
+Flow
+=
+root
+;
 root
 .
 traverse_postorder
@@ -472,6 +482,7 @@ traverse_postorder
 bubble_inline_sizes
 )
 ;
+}
 }
 let
 assign_inline_sizes

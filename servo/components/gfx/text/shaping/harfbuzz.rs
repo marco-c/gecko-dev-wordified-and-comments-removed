@@ -979,10 +979,6 @@ Box
 FontAndShapingOptions
 >
 }
-#
-[
-unsafe_destructor
-]
 impl
 Drop
 for

@@ -6,10 +6,7 @@ cfg_attr
 test
 feature
 (
-net
 alloc
-path
-io
 )
 )
 ]

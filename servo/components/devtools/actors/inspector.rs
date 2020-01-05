@@ -97,15 +97,6 @@ use
 std
 :
 :
-num
-:
-:
-Float
-;
-use
-std
-:
-:
 sync
 :
 :

@@ -269,15 +269,6 @@ use
 util
 :
 :
-smallvec
-:
-:
-SmallVec
-;
-use
-util
-:
-:
 task
 :
 :

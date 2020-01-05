@@ -1492,7 +1492,7 @@ x2d
 ;
 attr_name
 .
-push
+extend
 (
 ch
 .

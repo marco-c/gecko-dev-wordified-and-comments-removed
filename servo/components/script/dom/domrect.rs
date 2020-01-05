@@ -103,15 +103,6 @@ geometry
 :
 Au
 ;
-use
-std
-:
-:
-num
-:
-:
-Float
-;
 #
 [
 dom_struct

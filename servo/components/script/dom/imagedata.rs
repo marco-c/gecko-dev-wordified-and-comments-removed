@@ -257,12 +257,12 @@ ptr
 :
 copy_nonoverlapping
 (
-js_object_data
 vec
 .
 as_ptr
 (
 )
+js_object_data
 vec
 .
 len

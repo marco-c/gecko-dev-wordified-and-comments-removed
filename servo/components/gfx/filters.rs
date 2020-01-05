@@ -58,15 +58,6 @@ GaussianBlurInput
 }
 ;
 use
-std
-:
-:
-num
-:
-:
-Float
-;
-use
 style
 :
 :

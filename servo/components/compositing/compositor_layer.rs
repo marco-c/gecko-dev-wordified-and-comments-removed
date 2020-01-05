@@ -163,15 +163,6 @@ use
 std
 :
 :
-num
-:
-:
-Float
-;
-use
-std
-:
-:
 rc
 :
 :
@@ -304,6 +295,9 @@ layer_properties
 .
 background_color
 )
+1
+.
+0
 new_compositor_data
 )
 )

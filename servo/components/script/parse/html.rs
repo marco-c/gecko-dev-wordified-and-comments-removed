@@ -395,12 +395,12 @@ use
 std
 :
 :
-old_io
+io
 :
 :
 {
-Writer
-IoResult
+self
+Write
 }
 ;
 use
@@ -465,6 +465,7 @@ QuirksMode
 NodeOrText
 AppendNode
 AppendText
+NextParserState
 }
 ;
 use
@@ -1636,6 +1637,9 @@ JS
 Node
 >
 )
+-
+>
+NextParserState
 {
 let
 node
@@ -1688,6 +1692,10 @@ prepare
 )
 )
 ;
+NextParserState
+:
+:
+Continue
 }
 fn
 reparent_children
@@ -1802,7 +1810,7 @@ serialize
 wr
 Wr
 :
-Writer
+Write
 >
 (
 &
@@ -1823,7 +1831,10 @@ TraversalScope
 )
 -
 >
-IoResult
+io
+:
+:
+Result
 <
 (
 )

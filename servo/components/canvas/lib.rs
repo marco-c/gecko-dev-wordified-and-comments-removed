@@ -3,14 +3,6 @@
 [
 feature
 (
-collections
-)
-]
-#
-!
-[
-feature
-(
 core
 )
 ]
@@ -19,7 +11,7 @@ core
 [
 feature
 (
-std_misc
+collections
 )
 ]
 #
@@ -53,6 +45,10 @@ util
 extern
 crate
 gleam
+;
+extern
+crate
+num
 ;
 extern
 crate

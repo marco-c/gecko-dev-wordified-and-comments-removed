@@ -77,15 +77,6 @@ selector_matching
 Stylist
 ;
 use
-selectors
-:
-:
-smallvec
-:
-:
-VecLike
-;
-use
 util
 :
 :
@@ -93,6 +84,15 @@ geometry
 :
 :
 Au
+;
+use
+util
+:
+:
+smallvec
+:
+:
+VecLike
 ;
 use
 util
@@ -333,7 +333,7 @@ length
 =
 matching_rules_list
 .
-vec_len
+len
 (
 )
 ;
@@ -347,7 +347,7 @@ matching_rules_list
 if
 matching_rules_list
 .
-vec_len
+len
 (
 )
 !
@@ -428,7 +428,7 @@ percentage
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -485,7 +485,7 @@ length
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -590,7 +590,7 @@ isize
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -724,7 +724,7 @@ value
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -836,7 +836,7 @@ value
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -928,7 +928,7 @@ CSSFloat
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -1082,7 +1082,7 @@ isize
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -1110,7 +1110,7 @@ width_value
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -1138,7 +1138,7 @@ width_value
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (
@@ -1166,7 +1166,7 @@ width_value
 ;
 matching_rules_list
 .
-vec_push
+push
 (
 from_declaration
 (

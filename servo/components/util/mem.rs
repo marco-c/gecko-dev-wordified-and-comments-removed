@@ -607,10 +607,6 @@ panic
 )
 ;
 }
-#
-[
-unsafe_destructor
-]
 impl
 <
 T

@@ -91,15 +91,6 @@ Sender
 }
 ;
 use
-std
-:
-:
-boxed
-:
-:
-BoxAny
-;
-use
 style
 :
 :
@@ -330,6 +321,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 Debug
 )
 ]
@@ -741,11 +733,11 @@ PropertyAnimation
 pub
 start_time
 :
-f64
+f32
 pub
 end_time
 :
-f64
+f32
 }
 impl
 Animation
@@ -763,7 +755,7 @@ self
 )
 -
 >
-f64
+f32
 {
 self
 .

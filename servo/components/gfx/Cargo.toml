@@ -388,17 +388,6 @@ servo
 /
 skia
 "
-branch
-=
-"
-upstream
--
-2014
--
-06
--
-16
-"
 [
 dependencies
 .

@@ -267,10 +267,7 @@ util
 smallvec
 :
 :
-{
-SmallVec
 SmallVec16
-}
 ;
 use
 util
@@ -3571,13 +3568,10 @@ cascade_node_pseudo_element
 (
 layout_context
 parent_style
+&
 applicable_declarations
 .
 normal
-.
-as_slice
-(
-)
 &
 mut
 layout_data

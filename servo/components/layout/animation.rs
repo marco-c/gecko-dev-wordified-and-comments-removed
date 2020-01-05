@@ -183,6 +183,8 @@ clock_ticks
 precise_time_s
 (
 )
+as
+f32
 ;
 let
 animation_style
@@ -393,6 +395,8 @@ clock_ticks
 precise_time_s
 (
 )
+as
+f32
 ;
 let
 mut
@@ -580,6 +584,8 @@ clock_ticks
 precise_time_s
 (
 )
+as
+f32
 ;
 for
 running_animation

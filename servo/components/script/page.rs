@@ -66,15 +66,6 @@ constellation_msg
 PipelineId
 ;
 use
-util
-:
-:
-smallvec
-:
-:
-SmallVec
-;
-use
 std
 :
 :
