@@ -227,8 +227,16 @@ display_list
 {
 ClippingRegion
 OpaqueNode
-WebRenderImageInfo
 }
+;
+use
+gfx
+:
+:
+display_list
+:
+:
+WebRenderImageInfo
 ;
 use
 gfx

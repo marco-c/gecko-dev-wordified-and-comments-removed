@@ -444,7 +444,7 @@ vec4
 break
 ;
 }
-ClipInfo
+ClipData
 clip
 =
 fetch_clip

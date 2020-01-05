@@ -85,7 +85,7 @@ WR_VERTEX_SHADER
 void
 write_clip
 (
-ClipInfo
+ClipData
 clip
 )
 {
@@ -173,7 +173,7 @@ vClipMaskUvRect
 =
 clip
 .
-mask_info
+mask_data
 .
 uv_rect
 /
@@ -185,7 +185,7 @@ vClipMaskLocalRect
 =
 clip
 .
-mask_info
+mask_data
 .
 local_rect
 ;
