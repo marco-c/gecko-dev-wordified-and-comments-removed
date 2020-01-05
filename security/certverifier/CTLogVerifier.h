@@ -41,6 +41,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 SignedCertificateTimestamp
 .
 h
@@ -200,6 +207,9 @@ Buffer
 &
 signature
 )
+;
+UniqueSECKEYPublicKey
+mPublicECKey
 ;
 Buffer
 mSubjectPublicKeyInfo

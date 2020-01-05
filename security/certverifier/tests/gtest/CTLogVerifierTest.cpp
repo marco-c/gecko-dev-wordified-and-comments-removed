@@ -211,6 +211,9 @@ timestamp
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :
@@ -264,6 +267,9 @@ xFF
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :
@@ -302,6 +308,9 @@ xFF
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :
@@ -355,6 +364,9 @@ x0
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :
@@ -424,6 +436,9 @@ xFF
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :

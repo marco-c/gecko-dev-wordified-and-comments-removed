@@ -8818,6 +8818,10 @@ resources
 return
 ;
 }
+mDefaultCertVerifier
+=
+nullptr
+;
 UnloadLoadableRoots
 (
 )
