@@ -320,6 +320,13 @@ PresentationChild
 :
 RecvNotifyAvailableChange
 (
+nsTArray
+<
+nsString
+>
+&
+&
+aAvailabilityUrls
 const
 bool
 &
@@ -343,6 +350,7 @@ mService
 >
 NotifyAvailableChange
 (
+aAvailabilityUrls
 aAvailable
 )
 )
