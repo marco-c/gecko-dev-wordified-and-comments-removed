@@ -25485,11 +25485,6 @@ _WINDOWS
 NOMINMAX
 '
 '
-PSAPI_VERSION
-=
-1
-'
-'
 _CRT_RAND_S
 '
 '
@@ -26220,11 +26215,6 @@ lib
 '
 '
 usp10
-.
-lib
-'
-'
-psapi
 .
 lib
 '

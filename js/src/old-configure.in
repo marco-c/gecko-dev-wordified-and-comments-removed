@@ -6194,8 +6194,6 @@ lgdi32
 lwinmm
 -
 lwsock32
--
-lpsapi
 "
 MOZ_FIX_LINK_PATHS
 =
@@ -7555,9 +7553,6 @@ wsock32
 .
 lib
 advapi32
-.
-lib
-psapi
 .
 lib
 "
