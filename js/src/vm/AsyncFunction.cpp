@@ -229,11 +229,17 @@ LinkConstructorAndPrototype
 cx
 asyncFunction
 asyncFunctionProto
+JSPROP_PERMANENT
+|
+JSPROP_READONLY
+JSPROP_READONLY
 )
 )
+{
 return
 false
 ;
+}
 global
 -
 >

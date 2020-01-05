@@ -1945,6 +1945,8 @@ LinkConstructorAndPrototype
 cx
 genFunctionProto
 genObjectProto
+JSPROP_READONLY
+JSPROP_READONLY
 )
 |
 |
@@ -2062,11 +2064,17 @@ LinkConstructorAndPrototype
 cx
 genFunction
 genFunctionProto
+JSPROP_PERMANENT
+|
+JSPROP_READONLY
+JSPROP_READONLY
 )
 )
+{
 return
 false
 ;
+}
 global
 -
 >

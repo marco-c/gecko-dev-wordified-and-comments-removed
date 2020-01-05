@@ -4543,6 +4543,16 @@ ctor
 JSObject
 *
 proto
+unsigned
+prototypeAttrs
+=
+JSPROP_PERMANENT
+|
+JSPROP_READONLY
+unsigned
+constructorAttrs
+=
+0
 )
 ;
 extern
