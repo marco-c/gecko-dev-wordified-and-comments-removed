@@ -1001,7 +1001,7 @@ DeviceChangedCallback
 (
 )
 ;
-void
+bool
 StartStream
 (
 )
@@ -1010,7 +1010,7 @@ friend
 class
 AsyncCubebTask
 ;
-void
+bool
 Init
 (
 )
