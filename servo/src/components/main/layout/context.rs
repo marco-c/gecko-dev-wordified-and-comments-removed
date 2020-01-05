@@ -5,7 +5,10 @@ extra
 arc
 :
 :
+{
+Arc
 MutexArc
+}
 ;
 use
 green
@@ -197,7 +200,7 @@ constellation_chan
 ConstellationChan
 dom_leaf_set
 :
-MutexArc
+Arc
 <
 DomLeafSet
 >
@@ -206,7 +209,7 @@ layout_chan
 LayoutChan
 flow_leaf_set
 :
-MutexArc
+Arc
 <
 FlowLeafSet
 >
