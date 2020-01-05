@@ -7413,7 +7413,6 @@ fn
 *
 mut
 JSContext
-&
 GlobalRef
 Box
 <
