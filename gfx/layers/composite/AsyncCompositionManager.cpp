@@ -2191,6 +2191,12 @@ ancestorTransform
 )
 ;
 }
+ancestorTransform
+.
+NudgeToIntegersFixedEpsilon
+(
+)
+;
 MOZ_ASSERT
 (
 ancestorTransform
@@ -2213,6 +2219,12 @@ GetBaseTransform
 layer
 &
 localTransform
+)
+;
+localTransform
+.
+NudgeToIntegersFixedEpsilon
+(
 )
 ;
 MOZ_ASSERT
