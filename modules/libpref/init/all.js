@@ -2975,6 +2975,8 @@ allowed
 MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
 MediaCannotInitializePulseAudio
+MediaCannotPlayNoDecoders
+MediaNoDecoders
 "
 )
 ;
