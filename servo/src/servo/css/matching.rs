@@ -30,6 +30,12 @@ values
 *
 ;
 use
+newcss
+:
+:
+Stylesheet
+;
+use
 styles
 :
 :
