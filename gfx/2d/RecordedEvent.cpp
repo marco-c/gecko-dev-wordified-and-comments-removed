@@ -1395,6 +1395,16 @@ pat
 >
 mSurface
 ;
+store
+-
+>
+mSamplingRect
+=
+pat
+-
+>
+mSamplingRect
+;
 return
 ;
 }
@@ -2889,6 +2899,10 @@ storage
 -
 >
 mSamplingFilter
+storage
+-
+>
+mSamplingRect
 )
 ;
 return

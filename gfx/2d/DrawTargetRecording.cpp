@@ -1294,6 +1294,10 @@ surfPat
 -
 >
 mSamplingFilter
+surfPat
+-
+>
+mSamplingRect
 )
 ;
 return

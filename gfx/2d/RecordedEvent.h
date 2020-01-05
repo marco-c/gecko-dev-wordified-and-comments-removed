@@ -53,13 +53,13 @@ const
 uint16_t
 kMajorRevision
 =
-4
+5
 ;
 const
 uint16_t
 kMinorRevision
 =
-1
+0
 ;
 struct
 ReferencePtr
@@ -597,6 +597,9 @@ mSurface
 ;
 Matrix
 mMatrix
+;
+IntRect
+mSamplingRect
 ;
 }
 ;
