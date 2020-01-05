@@ -1340,6 +1340,16 @@ int
 len
 )
 ;
+bool
+RequiresNewSendStream
+(
+const
+VideoCodecConfig
+&
+newConfig
+)
+const
+;
 mozilla
 :
 :
