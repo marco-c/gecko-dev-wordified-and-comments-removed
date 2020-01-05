@@ -581,17 +581,6 @@ mNumProcessAttempts
 0
 ;
 }
-uint64_t
-GetNextDeviceResetSequenceNumber
-(
-)
-{
-return
-+
-+
-mNextResetSequenceNo
-;
-}
 private
 :
 void
@@ -879,9 +868,6 @@ mNextLayerTreeId
 ;
 uint32_t
 mNextNamespace
-;
-uint64_t
-mNextResetSequenceNo
 ;
 uint32_t
 mNumProcessAttempts

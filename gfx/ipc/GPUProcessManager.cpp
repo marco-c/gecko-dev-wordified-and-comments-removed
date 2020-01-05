@@ -411,10 +411,6 @@ mNextNamespace
 (
 0
 )
-mNextResetSequenceNo
-(
-0
-)
 mNumProcessAttempts
 (
 0
