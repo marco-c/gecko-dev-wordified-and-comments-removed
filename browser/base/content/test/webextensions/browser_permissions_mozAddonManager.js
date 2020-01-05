@@ -84,6 +84,9 @@ add_task
 testInstallMethod
 (
 installMozAM
+"
+installAmo
+"
 )
 )
 ;

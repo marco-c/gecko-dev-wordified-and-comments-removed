@@ -82,6 +82,9 @@ add_task
 testInstallMethod
 (
 installTrigger
+"
+installAmo
+"
 )
 )
 ;
