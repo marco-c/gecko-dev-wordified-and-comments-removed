@@ -1219,6 +1219,9 @@ define_css_keyword_enum
 ExtremumLength
 :
 "
+-
+moz
+-
 max
 -
 content
@@ -1227,6 +1230,9 @@ content
 >
 MaxContent
 "
+-
+moz
+-
 min
 -
 content
@@ -1235,6 +1241,9 @@ content
 >
 MinContent
 "
+-
+moz
+-
 fit
 -
 content
@@ -1243,7 +1252,8 @@ content
 >
 FitContent
 "
-fill
+-
+moz
 -
 available
 "
