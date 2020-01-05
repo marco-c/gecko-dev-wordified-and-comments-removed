@@ -4207,8 +4207,6 @@ return
 RENAME_ERROR_EXPECTED_FILE
 ;
 }
-else
-{
 LOG
 (
 (
@@ -4224,7 +4222,6 @@ directory
 )
 )
 ;
-}
 }
 if
 (
