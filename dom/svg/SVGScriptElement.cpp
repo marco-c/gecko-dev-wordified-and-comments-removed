@@ -160,7 +160,7 @@ SVGScriptElementBase
 (
 aNodeInfo
 )
-nsScriptElement
+ScriptElement
 (
 aFromParser
 )

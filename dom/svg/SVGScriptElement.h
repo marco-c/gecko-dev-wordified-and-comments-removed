@@ -28,7 +28,11 @@ h
 #
 include
 "
-nsScriptElement
+mozilla
+/
+dom
+/
+ScriptElement
 .
 h
 "
@@ -82,7 +86,7 @@ final
 public
 SVGScriptElementBase
 public
-nsScriptElement
+ScriptElement
 {
 protected
 :
