@@ -672,7 +672,7 @@ len
 0
 )
 ;
-assert
+assert_eq
 !
 (
 flac
@@ -683,12 +683,10 @@ blocks
 ]
 .
 block_type
-=
-=
 0
 )
 ;
-assert
+assert_eq
 !
 (
 flac
@@ -703,8 +701,6 @@ data
 len
 (
 )
-=
-=
 34
 )
 ;
