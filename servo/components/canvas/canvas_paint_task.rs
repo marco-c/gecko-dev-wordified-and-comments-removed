@@ -386,7 +386,7 @@ rect
 PatternRef
 :
 :
-ColorPatternRef
+Color
 (
 &
 self
@@ -495,7 +495,7 @@ new
 BackendType
 :
 :
-SkiaBackend
+Skia
 size
 SurfaceFormat
 :

@@ -3048,7 +3048,7 @@ new
 BackendType
 :
 :
-SkiaBackend
+Skia
 size
 SurfaceFormat
 :
@@ -3095,7 +3095,7 @@ new_with_fbo
 BackendType
 :
 :
-SkiaBackend
+Skia
 native_graphics_context
 !
 (
