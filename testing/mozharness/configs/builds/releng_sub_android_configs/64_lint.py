@@ -104,19 +104,11 @@ postflight_build_mach_commands
 '
 gradle
 '
-         
 '
 app
 :
-lintOfficialAustralisDebug
+lintAutomationDebug
 '
-         
-'
-app
-:
-lintOfficialPhotonDebug
-'
-        
 ]
     
 ]

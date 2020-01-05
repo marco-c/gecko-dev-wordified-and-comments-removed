@@ -277,9 +277,7 @@ apk
 /
 app
 -
-official
--
-australis
+automation
 -
 debug
 -

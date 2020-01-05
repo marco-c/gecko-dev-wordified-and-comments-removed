@@ -1183,10 +1183,10 @@ gradle
 \
 app
 :
-assembleOfficialAustralisDebug
+assembleAutomationDebug
 app
 :
-assembleOfficialAustralisDebugAndroidTest
+assembleAutomationDebugAndroidTest
 -
 x
 lint
@@ -1214,7 +1214,7 @@ transforms
 /
 dex
 /
-officialAustralis
+automation
 /
 debug
 /
@@ -3673,9 +3673,7 @@ res
 /
 resources
 -
-official
--
-australis
+automation
 -
 debug
 .
