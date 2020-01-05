@@ -166,6 +166,14 @@ Constant
 ]
 readonly
 attribute
+boolean
+isIntersecting
+;
+[
+Constant
+]
+readonly
+attribute
 double
 intersectionRatio
 ;
