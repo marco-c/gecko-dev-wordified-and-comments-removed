@@ -950,11 +950,8 @@ aActor
 )
 override
 ;
-RefPtr
-<
-IAPZCTreeManager
->
-GetAPZCTreeManager
+bool
+GetAPZEnabled
 (
 uint64_t
 aLayerTreeId

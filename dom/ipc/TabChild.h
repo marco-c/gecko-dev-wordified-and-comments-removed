@@ -3279,6 +3279,11 @@ aRenderFrame
 )
 ;
 void
+InitAPZState
+(
+)
+;
+void
 DestroyWindow
 (
 )
@@ -3471,13 +3476,6 @@ layers
 IAPZCTreeManager
 >
 mApzcTreeManager
-;
-layers
-:
-:
-APZChild
-*
-mAPZChild
 ;
 uint64_t
 mLayerObserverEpoch
