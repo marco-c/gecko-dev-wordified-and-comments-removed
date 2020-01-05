@@ -1986,6 +1986,14 @@ DoGetID
 )
 const
 ;
+inline
+nsIURI
+*
+GetBaseURIWithoutXMLBase
+(
+)
+const
+;
 public
 :
 #
