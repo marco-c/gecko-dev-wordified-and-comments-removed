@@ -637,9 +637,12 @@ addActivityCallback
 )
 =
 >
+{
 activitySeen
 =
 true
+;
+}
 null
 null
 null

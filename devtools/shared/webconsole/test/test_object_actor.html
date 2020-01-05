@@ -173,8 +173,8 @@ onAttach
 function
 onAttach
 (
-aState
-aResponse
+state
+response
 )
 {
 onConsoleCall
@@ -184,10 +184,10 @@ onConsoleCall
 bind
 (
 null
-aState
+state
 )
 ;
-aState
+state
 .
 dbgClient
 .
@@ -774,7 +774,7 @@ false
 function
 onConsoleCall
 (
-aState
+state
 aType
 aPacket
 )
@@ -784,7 +784,7 @@ is
 aPacket
 .
 from
-aState
+state
 .
 actor
 "
@@ -854,7 +854,7 @@ z
 }
 )
 ;
-aState
+state
 .
 dbgClient
 .
@@ -891,7 +891,7 @@ onProperties
 bind
 (
 null
-aState
+state
 )
 ;
 let
@@ -900,7 +900,7 @@ client
 new
 ObjectClient
 (
-aState
+state
 .
 dbgClient
 args
@@ -920,14 +920,14 @@ onProperties
 function
 onProperties
 (
-aState
-aResponse
+state
+response
 )
 {
 let
 props
 =
-aResponse
+response
 .
 ownProperties
 ;
@@ -970,7 +970,7 @@ expectedProps
 ;
 closeDebugger
 (
-aState
+state
 function
 (
 )

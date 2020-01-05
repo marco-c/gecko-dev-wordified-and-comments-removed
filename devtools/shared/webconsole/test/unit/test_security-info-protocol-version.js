@@ -75,13 +75,6 @@ true
 }
 )
 ;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 const
 TEST_CASES
 =
