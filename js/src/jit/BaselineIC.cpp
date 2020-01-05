@@ -14214,16 +14214,6 @@ oldGroup
 return
 false
 ;
-RootedReceiverGuard
-oldGuard
-(
-cx
-ReceiverGuard
-(
-obj
-)
-)
-;
 if
 (
 obj
