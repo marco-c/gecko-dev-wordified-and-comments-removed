@@ -250,8 +250,7 @@ mChildren
 Length
 (
 )
-!
-=
+>
 1
 )
 MOZ_CRASH
