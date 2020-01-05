@@ -805,6 +805,15 @@ aTargets
 )
 override
 ;
+bool
+SetLayerAttributes
+(
+const
+OpSetLayerAttributes
+&
+aOp
+)
+;
 virtual
 void
 ActorDestroy

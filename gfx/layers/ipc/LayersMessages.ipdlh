@@ -2505,8 +2505,6 @@ OpCreateCanvasLayer
 ;
 OpCreateRefLayer
 ;
-OpSetLayerAttributes
-;
 OpSetDiagnosticTypes
 ;
 OpWindowOverlayChanged
@@ -2664,6 +2662,11 @@ Edit
 [
 ]
 cset
+;
+OpSetLayerAttributes
+[
+]
+setAttrs
 ;
 CompositableOperation
 [
