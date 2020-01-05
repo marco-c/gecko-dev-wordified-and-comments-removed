@@ -610,15 +610,6 @@ helpers
 :
 vector_longhand
 >
-/
-/
-FIXME
-:
-This
-prop
-should
-be
-animatable
 {
 helpers
 .
@@ -644,7 +635,7 @@ auto
 animation_type
 =
 "
-none
+normal
 "
 boxed
 =
