@@ -287,8 +287,6 @@ attribute
 DOMString
 summary
 ;
-/
-/
 attribute
 DOMString
 width
