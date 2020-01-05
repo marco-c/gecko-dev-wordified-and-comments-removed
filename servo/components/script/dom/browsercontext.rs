@@ -415,7 +415,15 @@ wrapper
 }
 #
 [
-dom_struct
+must_root
+]
+#
+[
+privatize
+]
+#
+[
+jstraceable
 ]
 pub
 struct
