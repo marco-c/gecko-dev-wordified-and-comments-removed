@@ -812,16 +812,6 @@ NS_ENSURE_ARG
 aPrefName
 )
 ;
-const
-char
-*
-pref
-=
-getPrefName
-(
-aPrefName
-)
-;
 nsAutoCString
 stringVal
 ;
@@ -830,7 +820,7 @@ rv
 =
 GetCharPref
 (
-pref
+aPrefName
 getter_Copies
 (
 stringVal
