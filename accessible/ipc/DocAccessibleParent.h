@@ -541,7 +541,7 @@ const
 ;
 static
 const
-int32_t
+uint64_t
 kNoParentDoc
 =
 UINT64_MAX
@@ -1044,11 +1044,11 @@ aProxy
 ;
 nsTArray
 <
-int32_t
+uint64_t
 >
 mChildDocs
 ;
-int32_t
+uint64_t
 mParentDoc
 ;
 #
