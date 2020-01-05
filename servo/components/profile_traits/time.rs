@@ -208,7 +208,6 @@ ScriptSetViewport
 ScriptTimerEvent
 ScriptWebSocketEvent
 ScriptWorkerEvent
-ScriptXhrEvent
 ApplicationHeartbeat
 }
 #
