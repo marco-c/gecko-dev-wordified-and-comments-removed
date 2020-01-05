@@ -1704,6 +1704,14 @@ non_unified_sources
 +
 =
 signaling_non_unified_sources
+if
+CONFIG
+[
+'
+ENABLE_TESTS
+'
+]
+:
 DIRS
 +
 =
