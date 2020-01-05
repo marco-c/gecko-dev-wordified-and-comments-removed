@@ -694,6 +694,9 @@ gfx
 Matrix4x4
 mRightView
 ;
+double
+mTimeStampOffset
+;
 }
 ;
 class
