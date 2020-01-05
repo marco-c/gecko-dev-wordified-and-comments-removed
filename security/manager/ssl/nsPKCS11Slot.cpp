@@ -7,6 +7,13 @@ h
 "
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -215,7 +222,7 @@ mSlotDesc
 Assign
 (
 ccDesc
-PL_strnlen
+strnlen
 (
 ccDesc
 sizeof
@@ -263,7 +270,7 @@ mSlotManufacturerID
 Assign
 (
 ccManID
-PL_strnlen
+strnlen
 (
 ccManID
 sizeof

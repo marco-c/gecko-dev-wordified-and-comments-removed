@@ -7,6 +7,13 @@ h
 "
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 ScopedNSSTypes
 .
@@ -238,7 +245,7 @@ mTokenLabel
 Assign
 (
 ccLabel
-PL_strnlen
+strnlen
 (
 ccLabel
 sizeof
@@ -286,7 +293,7 @@ mTokenManufacturerID
 Assign
 (
 ccManID
-PL_strnlen
+strnlen
 (
 ccManID
 sizeof
@@ -408,7 +415,7 @@ mTokenSerialNum
 Assign
 (
 ccSerial
-PL_strnlen
+strnlen
 (
 ccSerial
 sizeof
