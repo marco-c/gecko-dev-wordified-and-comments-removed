@@ -7982,7 +7982,10 @@ longhands
 _moz_binding
 :
 :
-SpecifiedValue
+computed_value
+:
+:
+T
 as
 BindingValue
 ;
