@@ -5056,6 +5056,9 @@ png
 important
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 -
@@ -5171,6 +5174,8 @@ important
 ;
 }
 }
+%
+endif
 #
 minimize
 -
@@ -5549,6 +5554,9 @@ radius
 )
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 conditionalForwardWithUrlbar
 >
 #
@@ -5755,6 +5763,8 @@ direction
 reverse
 ;
 }
+%
+endif
 %
 include
 .
@@ -6033,6 +6043,10 @@ input
 box
 {
 margin
+-
+inline
+-
+start
 :
 0
 ;
