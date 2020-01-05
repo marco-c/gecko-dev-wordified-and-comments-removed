@@ -1105,6 +1105,9 @@ mHttpVersion
 uint16_t
 mHttpResponseCode
 ;
+uint32_t
+mCurrentHttpResponseHeaderSize
+;
 Atomic
 <
 uint32_t

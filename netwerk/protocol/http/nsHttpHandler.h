@@ -1337,6 +1337,16 @@ return
 mDefaultHpackBuffer
 ;
 }
+uint32_t
+MaxHttpResponseHeaderSize
+(
+)
+const
+{
+return
+mMaxHttpResponseHeaderSize
+;
+}
 private
 :
 virtual
@@ -1807,6 +1817,9 @@ mKeepEmptyResponseHeadersAsEmtpyString
 ;
 uint32_t
 mDefaultHpackBuffer
+;
+uint32_t
+mMaxHttpResponseHeaderSize
 ;
 private
 :
