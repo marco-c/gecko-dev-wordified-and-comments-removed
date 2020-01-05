@@ -2283,13 +2283,6 @@ tc
 M
 (
 )
-tags
-:
-test
--
-type
-:
-mochitest
 loopback
 -
 video
