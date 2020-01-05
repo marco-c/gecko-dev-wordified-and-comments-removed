@@ -483,6 +483,16 @@ SetCursor
 (
 Cursor
 )
+MozBrowserEvent
+(
+PipelineId
+SubpageId
+String
+Option
+<
+String
+>
+)
 }
 #
 [
