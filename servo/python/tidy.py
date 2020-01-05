@@ -17,6 +17,9 @@ ports
 "
 components
 "
+"
+tests
+"
 ]
 filetypes_to_check
 =
@@ -75,12 +78,6 @@ support
 tests
 /
 wpt
-/
-web
--
-platform
--
-tests
 /
 *
 "
