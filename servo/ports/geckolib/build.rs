@@ -492,6 +492,11 @@ style_template
 .
 render
 (
+PRODUCT
+=
+'
+gecko
+'
 )
 geckolib_template
 =
