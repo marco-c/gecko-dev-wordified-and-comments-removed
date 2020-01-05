@@ -424,17 +424,6 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
@@ -442,7 +431,6 @@ interface
 hasInterfaceObject
 (
 )
-)
             
 elif
 key
@@ -458,24 +446,12 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
 .
 hasInterfacePrototypeObject
 (
-)
 )
             
 elif
@@ -517,28 +493,6 @@ x
 interface
 .
 isCallback
-(
-)
-            
-elif
-key
-=
-=
-'
-isExternal
-'
-:
-                
-getter
-=
-lambda
-x
-:
-x
-.
-interface
-.
-isExternal
 (
 )
             
@@ -1011,14 +965,6 @@ self
 .
 interface
 .
-isExternal
-(
-)
-or
-self
-.
-interface
-.
 isCallback
 (
 )
@@ -1112,14 +1058,6 @@ interface
 isCallback
 (
 )
-or
-self
-.
-interface
-.
-isExternal
-(
-)
 :
             
 if
@@ -1137,8 +1075,6 @@ TypeError
 %
 s
 is
-external
-or
 callback
 but
 has
@@ -1207,14 +1143,7 @@ get
 '
 concrete
 '
-not
-self
-.
-interface
-.
-isExternal
-(
-)
+True
 )
         
 if
@@ -1824,19 +1753,6 @@ hasInterfaceOrInterfacePrototypeObject
 self
 )
 :
-        
-if
-self
-.
-interface
-.
-isExternal
-(
-)
-:
-            
-return
-False
         
 return
 self

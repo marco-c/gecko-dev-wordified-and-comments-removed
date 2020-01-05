@@ -6534,18 +6534,6 @@ type
 nullable
 (
 )
-or
-type
-.
-unroll
-(
-)
-.
-inner
-.
-isExternal
-(
-)
         
 forceOwningType
 =
@@ -11369,17 +11357,6 @@ wrappingCode
 "
         
 if
-(
-not
-descriptor
-.
-interface
-.
-isExternal
-(
-)
-and
-            
 not
 descriptor
 .
@@ -11387,7 +11364,6 @@ interface
 .
 isCallback
 (
-)
 )
 :
             
@@ -18881,18 +18857,6 @@ in
 descriptors
 :
         
-if
-d
-.
-interface
-.
-isExternal
-(
-)
-:
-            
-continue
-        
 for
 t
 in
@@ -19117,18 +19081,6 @@ d
 in
 descriptors
 :
-        
-if
-d
-.
-interface
-.
-isExternal
-(
-)
-:
-            
-continue
         
 def
 addUnionTypes
@@ -28854,18 +28806,6 @@ if
 type
 .
 nullable
-(
-)
-or
-type
-.
-unroll
-(
-)
-.
-inner
-.
-isExternal
 (
 )
 :
@@ -40221,16 +40161,6 @@ descriptor
             
 if
 (
-not
-descriptor
-.
-interface
-.
-isExternal
-(
-)
-and
-                
 descriptor
 .
 interface
@@ -42937,10 +42867,6 @@ hasInterfaceObject
 =
 True
                                                         
-isExternal
-=
-False
-                                                        
 register
 =
 True
@@ -45577,12 +45503,6 @@ argIsPointer
 type
 .
 nullable
-(
-)
-or
-iface
-.
-isExternal
 (
 )
             
