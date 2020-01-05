@@ -7086,7 +7086,9 @@ readType
 (
 tracked
 .
-constructor
+hasConstructor
+(
+)
 ?
 "
 constructor
