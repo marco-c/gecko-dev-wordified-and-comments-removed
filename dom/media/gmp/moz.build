@@ -487,6 +487,11 @@ UNIFIED_SOURCES
 =
 [
 '
+ChromiumCDMAdapter
+.
+cpp
+'
+'
 ChromiumCDMChild
 .
 cpp
