@@ -28,12 +28,6 @@ TestMutex
 \
 _
 (
-ShellAsyncTasks
-100
-)
-\
-_
-(
 ShellContextWatchdog
 100
 )
@@ -62,6 +56,13 @@ _
 (
 GlobalHelperThreadState
 300
+)
+\
+\
+_
+(
+ShellAsyncTasks
+350
 )
 \
 \
