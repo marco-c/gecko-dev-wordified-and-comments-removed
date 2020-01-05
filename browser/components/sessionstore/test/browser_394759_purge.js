@@ -608,6 +608,13 @@ testState
 )
 )
 ;
+let
+clearHistoryPromise
+=
+promiseClearHistory
+(
+)
+;
 yield
 ForgetAboutSite
 .
@@ -621,9 +628,7 @@ org
 )
 ;
 yield
-promiseClearHistory
-(
-)
+clearHistoryPromise
 ;
 let
 closedWindowData
