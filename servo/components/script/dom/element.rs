@@ -6640,9 +6640,15 @@ assert
 (
 name
 .
-eq_ignore_ascii_case
+as_slice
 (
+)
+=
+=
 name
+.
+to_ascii_lowercase
+(
 )
 )
 ;
