@@ -1908,6 +1908,9 @@ RESULT_DETAIL
 (
 "
 Invalid
+Top
+-
+Level
 Box
 :
 %
@@ -2106,6 +2109,15 @@ prft
 "
 "
 pssh
+"
+"
+emsg
+"
+"
+bloc
+"
+"
+uuid
 "
 }
 ;
