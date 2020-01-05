@@ -4754,6 +4754,8 @@ BoyerMoorePositionInfo
 LifoAlloc
 *
 alloc
+bool
+unicode_ignore_case
 )
 :
 map_
@@ -4780,6 +4782,10 @@ kNotYet
 surrogate_
 (
 kNotYet
+)
+unicode_ignore_case_
+(
+unicode_ignore_case
 )
 {
 map_
@@ -4921,6 +4927,9 @@ d_
 ;
 ContainedInLattice
 surrogate_
+;
+bool
+unicode_ignore_case_
 ;
 }
 ;
