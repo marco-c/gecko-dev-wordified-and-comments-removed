@@ -402,7 +402,7 @@ mozilla
 central
 repo
 =
-http
+https
 :
 /
 /
@@ -1492,7 +1492,7 @@ org
 >
 _
 and
-http
+https
 :
 /
 /
@@ -1507,5 +1507,7 @@ l10n
 mozilla
 -
 aurora
+/
+source
 /
 .
