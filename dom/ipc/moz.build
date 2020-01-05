@@ -237,6 +237,11 @@ TabParent
 h
 '
 '
+TelemetryScrollProbe
+.
+h
+'
+'
 URLClassifierChild
 .
 h
@@ -380,6 +385,11 @@ cpp
 '
 '
 TabParent
+.
+cpp
+'
+'
+TelemetryScrollProbe
 .
 cpp
 '
