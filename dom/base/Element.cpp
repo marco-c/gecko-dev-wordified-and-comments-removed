@@ -2342,8 +2342,6 @@ sc
 false
 )
 ;
-NS_IF_ADDREF
-(
 *
 aResult
 =
@@ -2356,7 +2354,6 @@ StyleDisplay
 -
 >
 mBinding
-)
 ;
 return
 true
@@ -2623,13 +2620,14 @@ return
 obj
 ;
 }
-RefPtr
-<
+mozilla
+:
+:
 css
 :
 :
 URLValue
->
+*
 bindingURL
 ;
 bool
@@ -2638,10 +2636,8 @@ ok
 GetBindingURL
 (
 doc
-getter_AddRefs
-(
+&
 bindingURL
-)
 )
 ;
 if
