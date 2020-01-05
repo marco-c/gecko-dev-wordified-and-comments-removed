@@ -1038,17 +1038,6 @@ ClearRuleCascades
 (
 )
 ;
-void
-SubjectSubsumesInnerPrincipal
-(
-nsIPrincipal
-&
-aSubjectPrincipal
-ErrorResult
-&
-aRv
-)
-;
 nsresult
 RegisterNamespaceRule
 (

@@ -487,6 +487,17 @@ const
 ;
 protected
 :
+void
+SubjectSubsumesInnerPrincipal
+(
+nsIPrincipal
+&
+aSubjectPrincipal
+ErrorResult
+&
+aRv
+)
+;
 nsString
 mTitle
 ;
