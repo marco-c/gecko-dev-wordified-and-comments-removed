@@ -2229,6 +2229,10 @@ startActivity
 intent
 )
 ;
+finish
+(
+)
+;
 }
 }
 private
