@@ -1,6 +1,13 @@
 #
 include
 "
+nsCSSParser
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -62,13 +69,6 @@ include
 <
 limits
 >
-#
-include
-"
-nsCSSParser
-.
-h
-"
 #
 include
 "

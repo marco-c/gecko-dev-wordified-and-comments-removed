@@ -18,14 +18,14 @@ h
 #
 include
 "
-nsAutoPtr
+nsCSSRuleProcessor
 .
 h
 "
 #
 include
 "
-nsCSSRuleProcessor
+nsAutoPtr
 .
 h
 "

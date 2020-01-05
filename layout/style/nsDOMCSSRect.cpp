@@ -1,6 +1,13 @@
 #
 include
 "
+nsDOMCSSRect
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -13,13 +20,6 @@ h
 include
 "
 nsROCSSPrimitiveValue
-.
-h
-"
-#
-include
-"
-nsDOMCSSRect
 .
 h
 "

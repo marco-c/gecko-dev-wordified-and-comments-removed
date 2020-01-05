@@ -1,14 +1,14 @@
 #
 include
 "
-gfxUserFontSet
+nsFontFaceUtils
 .
 h
 "
 #
 include
 "
-nsFontFaceUtils
+gfxUserFontSet
 .
 h
 "

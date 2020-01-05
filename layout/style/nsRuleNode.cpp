@@ -1,5 +1,12 @@
 #
 include
+"
+nsRuleNode
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -115,13 +122,6 @@ h
 include
 "
 nsAlgorithm
-.
-h
-"
-#
-include
-"
-nsRuleNode
 .
 h
 "
