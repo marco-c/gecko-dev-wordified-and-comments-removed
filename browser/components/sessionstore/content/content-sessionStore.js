@@ -865,7 +865,6 @@ restoreTabContent
 {
 loadArguments
 isRemotenessUpdate
-reason
 }
 )
 {
@@ -914,7 +913,6 @@ restoreTabContentStarted
 {
 epoch
 isRemotenessUpdate
-reason
 }
 )
 ;
