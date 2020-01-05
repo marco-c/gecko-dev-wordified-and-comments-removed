@@ -44,13 +44,6 @@ WorkerPrivate
 aWorkerPrivate
 )
 ;
-DOMHighResTimeStamp
-Now
-(
-)
-const
-override
-;
 virtual
 PerformanceTiming
 *

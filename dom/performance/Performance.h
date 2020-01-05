@@ -239,14 +239,11 @@ ClearResourceTimings
 (
 )
 ;
-virtual
 DOMHighResTimeStamp
 Now
 (
 )
 const
-=
-0
 ;
 DOMHighResTimeStamp
 TimeOrigin
