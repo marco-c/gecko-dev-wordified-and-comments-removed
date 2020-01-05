@@ -607,6 +607,11 @@ reorder
 (
 parentGuid
 orderedChildrenGuids
+{
+source
+:
+SOURCE_SYNC
+}
 )
 ;
 }
