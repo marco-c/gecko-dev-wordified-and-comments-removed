@@ -73,15 +73,6 @@ deleteDrawable
 gfxXlibSurface
 *
 pixmap
-=
-nullptr
-ContextProfile
-profile
-=
-ContextProfile
-:
-:
-OpenGLCompatibility
 )
 ;
 static
@@ -269,8 +260,6 @@ aDoubleBuffered
 gfxXlibSurface
 *
 aPixmap
-ContextProfile
-profile
 )
 ;
 GLXContext

@@ -1102,15 +1102,6 @@ mOwnsContext
 true
 )
 {
-SetProfileVersion
-(
-ContextProfile
-:
-:
-OpenGLES
-200
-)
-;
 #
 ifdef
 DEBUG
