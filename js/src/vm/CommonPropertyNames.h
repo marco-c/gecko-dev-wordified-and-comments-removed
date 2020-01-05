@@ -120,6 +120,15 @@ ArraySpeciesCreate
 \
 macro
 (
+ArrayToLocaleString
+ArrayToLocaleString
+"
+ArrayToLocaleString
+"
+)
+\
+macro
+(
 ArrayType
 ArrayType
 "
