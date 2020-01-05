@@ -45,16 +45,6 @@ balrog_usernames
 {
                 
 '
-b2g
-'
-:
-'
-stage
--
-b2gbld
-'
-                
-'
 firefox
 '
 :
@@ -86,26 +76,6 @@ ffxbld
                 
 '
 Fennec
-'
-:
-'
-stage
--
-ffxbld
-'
-                
-'
-graphene
-'
-:
-'
-stage
--
-ffxbld
-'
-                
-'
-horizon
 '
 :
 '
