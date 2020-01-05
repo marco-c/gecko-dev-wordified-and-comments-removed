@@ -34602,6 +34602,10 @@ speculativeConnect
 window
 :
 window
+originAttributes
+:
+{
+}
 }
 )
 ;

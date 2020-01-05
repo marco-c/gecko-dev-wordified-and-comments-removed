@@ -3886,6 +3886,13 @@ speculativeConnect
 (
 {
 window
+originAttributes
+:
+gBrowser
+.
+contentPrincipal
+.
+originAttributes
 }
 )
 ;

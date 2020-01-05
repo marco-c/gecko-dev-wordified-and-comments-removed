@@ -750,6 +750,16 @@ performing
 the
 search
 *
+{
+originAttributes
+}
+the
+originAttributes
+for
+performing
+the
+search
+*
 *
 throws
 NS_ERROR_INVALID_ARG

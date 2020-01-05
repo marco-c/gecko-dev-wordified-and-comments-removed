@@ -2196,6 +2196,15 @@ msg
 target
 .
 contentWindow
+originAttributes
+:
+msg
+.
+target
+.
+contentPrincipal
+.
+originAttributes
 }
 )
 ;
