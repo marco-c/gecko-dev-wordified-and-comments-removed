@@ -80,6 +80,14 @@ isolate
 "
 )
 ;
+Services
+.
+cookies
+.
+removeAll
+(
+)
+;
 }
 )
 ;
