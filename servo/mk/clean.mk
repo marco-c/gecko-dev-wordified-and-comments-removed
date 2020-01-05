@@ -183,8 +183,6 @@ DEPS_CLEAN_ALL
 "
 clean
 -
-servo
--
 util
 :
 cd
@@ -196,8 +194,6 @@ src
 /
 components
 /
-servo
--
 util
 /
 &
@@ -214,8 +210,6 @@ DONE_servo_util
 )
 clean
 -
-servo
--
 net
 :
 cd
@@ -227,8 +221,6 @@ src
 /
 components
 /
-servo
--
 net
 /
 &
@@ -245,8 +237,6 @@ DONE_servo_net
 )
 clean
 -
-servo
--
 gfx
 :
 cd
@@ -258,8 +248,6 @@ src
 /
 components
 /
-servo
--
 gfx
 /
 &
@@ -280,17 +268,11 @@ servo
 :
 clean
 -
-servo
--
 gfx
 clean
 -
-servo
--
 util
 clean
--
-servo
 -
 net
 rm

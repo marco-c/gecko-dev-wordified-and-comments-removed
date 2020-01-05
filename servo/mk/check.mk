@@ -114,6 +114,10 @@ S
 )
 src
 /
+test
+/
+harness
+/
 reftest
 /
 reftest
@@ -138,6 +142,10 @@ contenttest
 S
 )
 src
+/
+test
+/
+harness
 /
 contenttest
 /
@@ -249,6 +257,8 @@ src
 /
 test
 /
+html
+/
 ref
 -
 -
@@ -259,6 +269,8 @@ dir
 src
 /
 test
+/
+html
 /
 ref
 (
