@@ -1224,6 +1224,11 @@ _
 (
 JSOP_IS_CONSTRUCTING
 )
+\
+_
+(
+JSOP_TRY_DESTRUCTURING_ITERCLOSE
+)
 class
 BaselineCompiler
 :
