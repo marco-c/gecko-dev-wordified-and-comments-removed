@@ -320,6 +320,7 @@ net_traits
 {
 Metadata
 NetworkError
+ResourceThreads
 }
 ;
 use
@@ -1982,6 +1983,12 @@ no_jsmanaged_fields
 !
 (
 ReferrerPolicy
+)
+;
+no_jsmanaged_fields
+!
+(
+ResourceThreads
 )
 ;
 impl

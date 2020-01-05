@@ -12576,9 +12576,3 @@ debug_msg
 )
 ;
 }
-no_jsmanaged_fields
-!
-(
-ResourceThreads
-)
-;
