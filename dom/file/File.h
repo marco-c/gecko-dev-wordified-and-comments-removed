@@ -205,7 +205,7 @@ class
 File
 ;
 class
-OwningArrayBufferOrArrayBufferViewOrBlobOrUSVString
+OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
 ;
 class
 Promise
@@ -236,7 +236,7 @@ Blob
 nsIDOMBlob
 )
 typedef
-OwningArrayBufferOrArrayBufferViewOrBlobOrUSVString
+OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
 BlobPart
 ;
 static
