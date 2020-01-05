@@ -223,9 +223,7 @@ GeckoProfile
 .
 get
 (
-getApplicationContext
-(
-)
+this
 )
 ;
 GeckoThread
