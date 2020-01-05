@@ -5834,6 +5834,7 @@ bool
 IsAboutPage
 (
 )
+const
 ;
 nsDocument
 (
