@@ -356,7 +356,7 @@ kwargs
 timeout
 '
 :
-5
+60
 '
 headers
 '
@@ -506,8 +506,6 @@ warning
 (
 "
 SETA
-server
-is
 timeout
 we
 will
@@ -534,9 +532,8 @@ warning
 (
 "
 SETA
-server
-is
-timeout
+connection
+error
 we
 will
 treat
@@ -758,7 +755,7 @@ kwargs
 timeout
 '
 :
-5
+60
 '
 headers
 '
