@@ -24,10 +24,6 @@ from
 shutil
 import
 copytree
-from
-webapps
-import
-WebappCollection
 __all__
 =
 [
@@ -222,9 +218,6 @@ None
 addon_manifests
 =
 None
-apps
-=
-None
                  
 preferences
 =
@@ -290,18 +283,6 @@ ly
         
 :
 param
-apps
-:
-Dictionary
-or
-class
-of
-webapps
-to
-install
-        
-:
-param
 preferences
 :
 Dictionary
@@ -353,12 +334,6 @@ self
 _addon_manifests
 =
 addon_manifests
-        
-self
-.
-_apps
-=
-apps
         
 self
 .
@@ -702,32 +677,6 @@ self
 .
 _addon_manifests
 )
-        
-self
-.
-webapps
-=
-WebappCollection
-(
-profile
-=
-self
-.
-profile
-apps
-=
-self
-.
-_apps
-)
-        
-self
-.
-webapps
-.
-update_manifests
-(
-)
     
 def
 __enter__
@@ -841,28 +790,6 @@ self
 permissions
 .
 clean_db
-(
-)
-            
-if
-getattr
-(
-self
-'
-webapps
-'
-None
-)
-is
-not
-None
-:
-                
-self
-.
-webapps
-.
-clean
 (
 )
             
