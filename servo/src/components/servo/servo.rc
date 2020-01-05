@@ -647,8 +647,8 @@ Opts
 {
 let
 (
-dom_event_port
-dom_event_chan
+script_port
+script_chan
 )
 =
 comm
@@ -659,14 +659,14 @@ stream
 )
 ;
 let
-dom_event_chan
+script_chan
 =
 SharedChan
 :
 :
 new
 (
-dom_event_chan
+script_chan
 )
 ;
 /
@@ -684,7 +684,7 @@ CompositorImpl
 :
 new
 (
-dom_event_chan
+script_chan
 .
 clone
 (
@@ -769,8 +769,8 @@ clone
 (
 )
 opts
-dom_event_port
-dom_event_chan
+script_port
+script_chan
 resource_task
 image_cache_task
 )
