@@ -1,6 +1,7 @@
 mod
 ns_style_auto_array
 ;
+pub
 mod
 ns_style_coord
 ;
