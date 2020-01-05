@@ -2004,11 +2004,11 @@ mathbackground
 4
 .
 xml
-fails
+random
 -
 if
 (
-debug
+true
 )
 =
 =
@@ -5805,11 +5805,11 @@ E
 1
 .
 html
-fails
+random
 -
 if
 (
-debug
+true
 )
 pref
 (
