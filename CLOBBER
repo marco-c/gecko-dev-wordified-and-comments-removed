@@ -194,10 +194,6 @@ changes
 any
 more
 .
-Bug
-1280590
--
-xpcshell
-failure
-in
-windows7
+Merge
+day
+clobber
