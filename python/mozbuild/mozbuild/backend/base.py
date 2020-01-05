@@ -71,6 +71,14 @@ import
 ContextDerived
 from
 .
+.
+frontend
+.
+reader
+import
+EmptyConfig
+from
+.
 configenvironment
 import
 ConfigEnvironment
@@ -158,7 +166,10 @@ assert
 isinstance
 (
 environment
+(
 ConfigEnvironment
+EmptyConfig
+)
 )
         
 self

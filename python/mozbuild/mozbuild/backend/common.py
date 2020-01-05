@@ -26,14 +26,6 @@ BuildBackend
 from
 mozbuild
 .
-backend
-.
-test_manifest
-import
-TestManifestBackend
-from
-mozbuild
-.
 frontend
 .
 context
@@ -81,8 +73,6 @@ PreprocessedWebIDLFile
     
 SharedLibrary
     
-TestManifest
-    
 TestWebIDLFile
     
 UnifiedSources
@@ -116,10 +106,6 @@ chrome
 manifest
 import
 parse_manifest_line
-from
-collections
-import
-defaultdict
 from
 mozbuild
 .
@@ -1161,17 +1147,6 @@ _ipdl_sources
 set
 (
 )
-        
-self
-.
-_test_backend
-=
-TestManifestBackend
-(
-self
-.
-environment
-)
     
 def
 consume_object
@@ -1193,23 +1168,6 @@ config
 )
         
 if
-isinstance
-(
-obj
-TestManifest
-)
-:
-            
-self
-.
-_test_backend
-.
-consume_object
-(
-obj
-)
-        
-elif
 isinstance
 (
 obj
@@ -1935,14 +1893,6 @@ add
 config
 .
 source
-)
-        
-self
-.
-_test_backend
-.
-consume_finished
-(
 )
         
 topobjdir
