@@ -4162,10 +4162,6 @@ CONFIGURE_ARGS
 =
 "
 "
-ENV_VARS
-=
-"
-"
 ENABLE_DEBUG
 =
 "
