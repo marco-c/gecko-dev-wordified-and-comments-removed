@@ -20,12 +20,6 @@ usercss
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 usercss
@@ -44,6 +38,3 @@ document
 ref
 .
 html
-#
-bug
-1355408
