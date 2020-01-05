@@ -1826,12 +1826,6 @@ let
 addon
 =
 yield
-new
-Promise
-(
-resolve
-=
->
 AddonManager
 .
 getAddonByID
@@ -1840,8 +1834,6 @@ getAddonByID
 meh
 experiment
 "
-resolve
-)
 )
 ;
 deepEqual
@@ -1971,12 +1963,6 @@ let
 addons
 =
 yield
-new
-Promise
-(
-resolve
-=
->
 AddonManager
 .
 getAddonsByTypes
@@ -1986,8 +1972,6 @@ getAddonsByTypes
 apiextension
 "
 ]
-resolve
-)
 )
 ;
 let
@@ -2022,12 +2006,6 @@ extension
 addons
 =
 yield
-new
-Promise
-(
-resolve
-=
->
 AddonManager
 .
 getAddonsByTypes
@@ -2037,8 +2015,6 @@ getAddonsByTypes
 extension
 "
 ]
-resolve
-)
 )
 ;
 equal

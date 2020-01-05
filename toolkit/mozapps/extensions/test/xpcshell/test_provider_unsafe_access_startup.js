@@ -171,6 +171,8 @@ function
 (
 )
 {
+resolve
+(
 AddonManager
 .
 getAddonByID
@@ -182,7 +184,7 @@ not
 -
 exist
 "
-resolve
+)
 )
 ;
 }
