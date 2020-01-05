@@ -198,6 +198,26 @@ mozilla
 -
 esr52
 "
+        
+"
+clone_upstream_url
+"
+:
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+mozilla
+-
+unified
+"
     
 }
 ]
