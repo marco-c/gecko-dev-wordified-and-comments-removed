@@ -110,10 +110,10 @@ ByteString
 ?
 value
 ;
-[
-Throws
-]
+Promise
+<
 ByteString
+>
 readValue
 (
 )
@@ -128,10 +128,10 @@ readValue
 (
 )
 ;
-[
-Throws
-]
+Promise
+<
 void
+>
 writeValue
 (
 sequence
