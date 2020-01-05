@@ -1507,6 +1507,7 @@ RESTYLE_LATER_SIBLINGS
 derive
 (
 Debug
+HeapSizeOf
 )
 ]
 struct
@@ -1577,6 +1578,7 @@ false
 derive
 (
 Debug
+HeapSizeOf
 )
 ]
 struct
@@ -1611,6 +1613,7 @@ Sensitivities
 derive
 (
 Debug
+HeapSizeOf
 )
 ]
 pub

@@ -114,6 +114,7 @@ Debug
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub

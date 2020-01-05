@@ -131,6 +131,7 @@ derive
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
