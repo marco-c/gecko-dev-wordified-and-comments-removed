@@ -454,8 +454,6 @@ mochitest
 devtools
 -
 chrome
--
-xpcshell
 jsdcov
 -
 code
