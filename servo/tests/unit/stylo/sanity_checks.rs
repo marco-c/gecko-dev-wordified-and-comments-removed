@@ -111,6 +111,9 @@ restyle_hints
 *
 ;
 use
+style
+:
+:
 gecko_bindings
 :
 :
@@ -262,6 +265,8 @@ include
 components
 /
 style
+/
+gecko
 /
 generated
 /
