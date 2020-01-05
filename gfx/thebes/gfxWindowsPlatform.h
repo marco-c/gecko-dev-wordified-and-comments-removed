@@ -939,6 +939,11 @@ InitDWriteSupport
 (
 )
 ;
+bool
+InitGPUProcessSupport
+(
+)
+;
 void
 DisableD2D
 (

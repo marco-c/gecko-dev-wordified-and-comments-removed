@@ -281,6 +281,11 @@ DeviceResetReason
 aOutReason
 )
 ;
+bool
+CheckRemotePresentSupport
+(
+)
+;
 private
 :
 IDXGIAdapter1
