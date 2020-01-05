@@ -6100,13 +6100,6 @@ mask_type
 MaskType
 CSS_PROPERTY_PARSE_VALUE
 "
-layout
-.
-css
-.
-masking
-.
-enabled
 "
 VARIANT_HK
 kMaskTypeKTable
