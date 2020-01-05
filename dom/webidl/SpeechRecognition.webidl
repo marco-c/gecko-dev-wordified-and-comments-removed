@@ -223,6 +223,7 @@ interaction
 [
 Throws
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 start

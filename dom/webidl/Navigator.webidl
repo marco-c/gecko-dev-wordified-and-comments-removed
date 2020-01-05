@@ -2227,6 +2227,7 @@ Navigator
 HasUserMediaSupport
 "
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 mozGetUserMedia

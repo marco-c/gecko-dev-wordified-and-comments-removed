@@ -195,6 +195,7 @@ enumerateDevices
 ;
 [
 Throws
+NeedsCallerType
 ]
 Promise
 <

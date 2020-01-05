@@ -138,6 +138,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SpeechRecognitionError
 .
 h
@@ -415,6 +426,8 @@ DOMMediaStream
 >
 &
 aStream
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

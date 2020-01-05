@@ -2954,6 +2954,8 @@ DOMMediaStream
 >
 &
 aStream
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -3097,6 +3099,7 @@ GetUserMediaErrorCallback
 (
 this
 )
+aCallerType
 )
 ;
 }

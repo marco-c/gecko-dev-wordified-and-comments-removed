@@ -6134,6 +6134,8 @@ aOnSuccess
 NavigatorUserMediaErrorCallback
 &
 aOnError
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -6248,6 +6250,7 @@ mWindow
 aConstraints
 onsuccess
 onerror
+aCallerType
 )
 ;
 }

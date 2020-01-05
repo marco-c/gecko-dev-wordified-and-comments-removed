@@ -278,6 +278,12 @@ MediaTrackConstraints
 struct
 MediaTrackConstraintSet
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 }
 namespace
 ipc
@@ -1049,6 +1055,11 @@ onSuccess
 nsIDOMGetUserMediaErrorCallback
 *
 onError
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 nsresult

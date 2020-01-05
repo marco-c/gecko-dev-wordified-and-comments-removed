@@ -943,6 +943,8 @@ aOnSuccess
 NavigatorUserMediaErrorCallback
 &
 aOnError
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
