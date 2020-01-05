@@ -53,7 +53,6 @@ constellation_msg
 {
 PanicMsg
 PipelineId
-WindowSizeData
 }
 ;
 use
@@ -98,6 +97,7 @@ LayoutMsg
 as
 ConstellationMsg
 StackingContextScrollState
+WindowSizeData
 }
 ;
 use
