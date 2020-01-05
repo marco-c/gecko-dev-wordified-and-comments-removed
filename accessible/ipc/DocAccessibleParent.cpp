@@ -2229,6 +2229,14 @@ Destroy
 (
 )
 {
+if
+(
+mShutdown
+)
+{
+return
+;
+}
 NS_ASSERTION
 (
 mChildDocs
@@ -2248,12 +2256,6 @@ destroyed
 already
 ?
 "
-)
-;
-MOZ_ASSERT
-(
-!
-mShutdown
 )
 ;
 mShutdown
