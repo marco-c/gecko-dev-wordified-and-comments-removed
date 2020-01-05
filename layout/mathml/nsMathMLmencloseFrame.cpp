@@ -174,6 +174,14 @@ mNotationsToDraw
 (
 0
 )
+mRuleThickness
+(
+0
+)
+mRadicalRuleThickness
+(
+0
+)
 mLongDivCharIndex
 (
 -
