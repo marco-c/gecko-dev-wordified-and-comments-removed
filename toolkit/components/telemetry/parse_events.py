@@ -14,19 +14,19 @@ import
 add_expiration_postfix
 MAX_CATEGORY_NAME_LENGTH
 =
-30
+100
 MAX_METHOD_NAME_LENGTH
 =
-20
+40
 MAX_OBJECT_NAME_LENGTH
 =
-20
+40
 MAX_EXTRA_KEYS_COUNT
 =
-10
+20
 MAX_EXTRA_KEY_NAME_LENGTH
 =
-15
+20
 IDENTIFIER_PATTERN
 =
 r
@@ -1042,10 +1042,6 @@ ValueError
 (
 "
 Value
-'
-%
-s
-'
 for
 %
 s
@@ -1063,7 +1059,6 @@ d
 \
                          
 (
-value
 field_name
 category
 max_length
