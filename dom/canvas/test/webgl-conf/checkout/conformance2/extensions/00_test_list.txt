@@ -7,6 +7,17 @@ buffer
 float
 .
 html
+ext
+-
+disjoint
+-
+timer
+-
+query
+-
+webgl2
+.
+html
 promoted
 -
 extensions

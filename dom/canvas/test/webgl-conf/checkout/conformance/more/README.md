@@ -287,7 +287,7 @@ http
 :
 /
 /
-dxr
+mxr
 .
 mozilla
 .
