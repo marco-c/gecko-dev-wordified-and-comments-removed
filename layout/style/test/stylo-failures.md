@@ -5586,7 +5586,7 @@ test_value_cloning
 html
 asserts
 [
-18
+24
 ]
 *
 test_value_computation
@@ -5594,7 +5594,7 @@ test_value_computation
 html
 asserts
 [
-18
+24
 ]
 *
 test_value_storage
@@ -5602,7 +5602,7 @@ test_value_storage
 html
 asserts
 [
-32
+44
 ]
 *
 test_value_cloning
