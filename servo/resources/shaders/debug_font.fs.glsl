@@ -68,7 +68,7 @@ SERVO_ES2
 float
 alpha
 =
-Texture
+texture
 (
 sDiffuse
 vColorTexCoord
@@ -83,7 +83,7 @@ else
 float
 alpha
 =
-Texture
+texture
 (
 sDiffuse
 vColorTexCoord
@@ -95,8 +95,8 @@ r
 ;
 #
 endif
-SetFragColor
-(
+oFragColor
+=
 vec4
 (
 vColor
@@ -107,7 +107,6 @@ vColor
 w
 *
 alpha
-)
 )
 ;
 }

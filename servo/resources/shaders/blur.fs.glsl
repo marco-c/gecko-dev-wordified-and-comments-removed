@@ -317,7 +317,7 @@ y
 .
 0
 ?
-Texture
+texture
 (
 sDiffuse
 lColorTexCoord
