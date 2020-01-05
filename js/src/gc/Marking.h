@@ -227,7 +227,7 @@ TagMask
 gc
 :
 :
-CellMask
+CellAlignMask
 "
 The
 tag

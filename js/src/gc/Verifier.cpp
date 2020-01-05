@@ -2847,7 +2847,7 @@ uintptr_t
 cell
 )
 &
-CellMask
+CellAlignMask
 )
 =
 =

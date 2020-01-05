@@ -2397,7 +2397,7 @@ next
 ;
 BitArray
 <
-ArenaCellCount
+MaxArenaCellIndex
 >
 bits
 ;

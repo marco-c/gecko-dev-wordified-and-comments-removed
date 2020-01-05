@@ -1511,10 +1511,7 @@ position
 (
 )
 %
-gc
-:
-:
-CellSize
+CellAlignBytes
 =
 =
 0
@@ -1524,10 +1521,7 @@ MOZ_ASSERT
 (
 size
 %
-gc
-:
-:
-CellSize
+CellAlignBytes
 =
 =
 0
@@ -1550,13 +1544,13 @@ Nursery
 Canary
 )
 +
-CellSize
+CellAlignBytes
 -
 1
 )
 &
 ~
-CellMask
+CellAlignMask
 ;
 if
 (
@@ -5219,7 +5213,7 @@ sizeof
 SweepAction
 )
 %
-CellSize
+CellAlignBytes
 =
 =
 0
@@ -5232,7 +5226,7 @@ a
 multiple
 of
 cell
-size
+alignment
 "
 )
 ;

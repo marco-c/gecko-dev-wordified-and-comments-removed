@@ -1112,7 +1112,7 @@ listp
 )
 &
 ~
-CellMask
+CellAlignMask
 )
 ;
 AllocKind

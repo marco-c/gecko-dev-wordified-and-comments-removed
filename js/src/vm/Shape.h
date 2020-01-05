@@ -1579,7 +1579,7 @@ BaseShape
 gc
 :
 :
-CellSize
+CellAlignBytes
 =
 =
 0
@@ -1606,7 +1606,7 @@ of
 gc
 :
 :
-CellSize
+CellAlignBytes
 "
 )
 ;
