@@ -340,6 +340,7 @@ static
 bool
 IsLink
 (
+const
 mozilla
 :
 :

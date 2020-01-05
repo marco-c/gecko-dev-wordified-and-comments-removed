@@ -334,6 +334,7 @@ nsIFrame
 *
 FrameForPseudoElement
 (
+const
 nsIContent
 *
 aContent

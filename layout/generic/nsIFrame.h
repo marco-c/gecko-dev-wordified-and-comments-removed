@@ -6465,6 +6465,7 @@ NS_FRAME_GENERATED_CONTENT
 bool
 IsPseudoFrame
 (
+const
 nsIContent
 *
 aParentContent
