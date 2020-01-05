@@ -458,7 +458,7 @@ panicking
 (
 )
 {
-assert
+debug_assert
 !
 (
 self
