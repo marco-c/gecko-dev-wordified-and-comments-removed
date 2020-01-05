@@ -6115,6 +6115,12 @@ WSI_INFO
 =
 0x10000
 ;
+const
+GLenum
+UNPACK_REQUIRE_FASTPATH
+=
+0x10001
+;
 [
 Throws
 ]

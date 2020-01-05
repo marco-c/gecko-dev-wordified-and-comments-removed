@@ -2882,6 +2882,10 @@ mPixelStore_ColorspaceConversion
 =
 BROWSER_DEFAULT_WEBGL
 ;
+mPixelStore_RequireFastPath
+=
+false
+;
 mPixelStore_UnpackImageHeight
 =
 0
