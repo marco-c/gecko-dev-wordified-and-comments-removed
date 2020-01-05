@@ -342,6 +342,9 @@ TypedSize2D
 800
 600
 )
+profile_tasks
+:
+false
 user_agent
 :
 None
