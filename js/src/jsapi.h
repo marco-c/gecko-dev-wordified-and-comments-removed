@@ -15112,10 +15112,6 @@ allowHTMLComments
 (
 true
 )
-isProbablySystemOrAddonCode
-(
-false
-)
 introductionType
 (
 nullptr
@@ -15262,9 +15258,6 @@ sourceIsLazy
 ;
 bool
 allowHTMLComments
-;
-bool
-isProbablySystemOrAddonCode
 ;
 const
 char
@@ -19453,11 +19446,6 @@ toStringTag
 macro
 (
 unscopables
-)
-\
-macro
-(
-asyncIterator
 )
 enum
 class
@@ -24247,7 +24235,7 @@ js
 :
 PerformanceGroup
 >
-0
+8
 SystemAllocPolicy
 >
 ;

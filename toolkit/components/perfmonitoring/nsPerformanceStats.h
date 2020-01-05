@@ -62,6 +62,7 @@ RefPtr
 <
 nsPerformanceGroup
 >
+8
 >
 GroupVector
 ;
