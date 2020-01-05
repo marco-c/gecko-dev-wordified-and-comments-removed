@@ -332,7 +332,7 @@ nsIOService
 nsIOService
 :
 :
-GetAddRefed
+GetInstance
 )
 #
 include
