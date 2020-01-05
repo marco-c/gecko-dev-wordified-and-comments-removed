@@ -218,10 +218,8 @@ testing
 testing
 )
     
-rust
+template
 =
-render
-(
 os
 .
 path
@@ -237,12 +235,21 @@ mako
 rs
 "
 )
+    
+rust
+=
+render
+(
+template
 product
 =
 product
 data
 =
 properties
+__file__
+=
+template
 )
     
 if
