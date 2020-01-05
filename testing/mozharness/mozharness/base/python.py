@@ -3243,22 +3243,6 @@ install_method
 pip
 '
             
-if
-module_name
-in
-(
-'
-pywin32
-'
-)
-:
-                
-install_method
-=
-'
-easy_install
-'
-            
 self
 .
 install_module

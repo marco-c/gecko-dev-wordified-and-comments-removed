@@ -268,16 +268,6 @@ dll
 )
     
 "
-virtualenv_modules
-"
-:
-[
-'
-pywin32
-'
-]
-    
-"
 find_links
 "
 :
