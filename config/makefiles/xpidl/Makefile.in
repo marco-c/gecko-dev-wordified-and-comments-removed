@@ -290,12 +290,9 @@ virtualenv
 .
 xpt
 :
-echo
-"
 (
-F
+REPORT_BUILD
 )
-"
 (
 PYTHON_PATH
 )
