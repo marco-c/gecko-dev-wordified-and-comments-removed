@@ -199,6 +199,7 @@ setSelectedNode
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode
 onShowGridAreaHighlight
+onShowGridCellHighlight
 onToggleGridHighlighter
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
@@ -241,6 +242,7 @@ onShowBoxModelEditor
 onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 onShowGridAreaHighlight
+onShowGridCellHighlight
 onToggleGridHighlighter
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
