@@ -741,6 +741,7 @@ mut
 self
 load
 :
+&
 LoadType
 )
 {
@@ -764,6 +765,7 @@ unfinished
 unfinished
 =
 =
+*
 load
 )
 ;

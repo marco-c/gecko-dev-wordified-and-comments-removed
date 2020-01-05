@@ -1833,6 +1833,7 @@ ref
 chan
 )
 =
+*
 document
 .
 window
@@ -2466,11 +2467,8 @@ ref
 layout_chan
 )
 =
+*
 win
-.
-r
-(
-)
 .
 layout_chan
 (

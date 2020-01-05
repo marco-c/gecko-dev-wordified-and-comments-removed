@@ -617,6 +617,10 @@ global
 constellation_chan
 (
 )
+.
+clone
+(
+)
 ;
 let
 scheduler_chan
@@ -624,6 +628,10 @@ scheduler_chan
 global
 .
 scheduler_chan
+(
+)
+.
+clone
 (
 )
 ;
@@ -828,6 +836,10 @@ mem_profiler_chan
 global
 .
 mem_profiler_chan
+(
+)
+.
+clone
 (
 )
 to_devtools_sender

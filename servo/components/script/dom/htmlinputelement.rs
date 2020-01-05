@@ -769,6 +769,10 @@ window
 constellation_chan
 (
 )
+.
+clone
+(
+)
 ;
 HTMLInputElement
 {
