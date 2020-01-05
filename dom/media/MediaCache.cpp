@@ -1058,6 +1058,8 @@ MediaCacheStream
 ChannelMediaResource
 *
 aClient
+bool
+aIsPrivateBrowsing
 )
 :
 mClient
@@ -1141,6 +1143,10 @@ sizeof
 int64_t
 )
 )
+)
+mIsPrivateBrowsing
+(
+aIsPrivateBrowsing
 )
 {
 }

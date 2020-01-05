@@ -20351,6 +20351,19 @@ get
 )
 )
 ;
+bool
+isPrivateBrowsing
+=
+nsContentUtils
+:
+:
+IsInPrivateBrowsing
+(
+OwnerDoc
+(
+)
+)
+;
 RefPtr
 <
 MediaResource
@@ -20369,6 +20382,7 @@ GetResourceCallback
 (
 )
 aChannel
+isPrivateBrowsing
 )
 ;
 if

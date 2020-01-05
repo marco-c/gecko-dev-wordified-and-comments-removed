@@ -95,12 +95,13 @@ MODE_METADATA
 MODE_PLAYBACK
 }
 ;
-explicit
 MediaCacheStream
 (
 ChannelMediaResource
 *
 aClient
+bool
+aIsPrivateBrowsing
 )
 ;
 ~
@@ -729,6 +730,10 @@ int64_t
 ]
 >
 mPartialBlockBuffer
+;
+const
+bool
+mIsPrivateBrowsing
 ;
 }
 ;
