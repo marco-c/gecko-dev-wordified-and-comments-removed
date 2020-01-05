@@ -3183,7 +3183,6 @@ rebuild_and_reflow
 }
 }
 }
-unsafe
 fn
 cascade_node
 (
@@ -3467,6 +3466,8 @@ mut
 possibly_expired_animations
 )
 ;
+unsafe
+{
 self
 .
 as_node
@@ -3508,6 +3509,7 @@ is_multicol
 )
 )
 ;
+}
 damage
 }
 ;

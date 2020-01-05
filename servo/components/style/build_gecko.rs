@@ -1885,12 +1885,6 @@ ConsumeStyleBehavior
 mozilla
 :
 :
-LazyComputeBehavior
-"
-"
-mozilla
-:
-:
 css
 :
 :
@@ -1978,9 +1972,6 @@ Image
 "
 "
 ImageURL
-"
-"
-LazyComputeBehavior
 "
 "
 nsAttrName
@@ -2987,9 +2978,6 @@ ThreadSafePrincipalHolder
 "
 "
 ConsumeStyleBehavior
-"
-"
-LazyComputeBehavior
 "
 "
 TraversalRootBehavior
