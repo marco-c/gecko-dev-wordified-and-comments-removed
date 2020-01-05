@@ -8923,7 +8923,7 @@ cx
 ;
 if
 (
-HasDataProperty
+GetPropertyPure
 (
 cx
 nobj
