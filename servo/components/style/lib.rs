@@ -246,6 +246,10 @@ media_queries
 ;
 pub
 mod
+parallel
+;
+pub
+mod
 parser
 ;
 pub
@@ -258,7 +262,15 @@ selector_matching
 ;
 pub
 mod
+sequential
+;
+pub
+mod
 stylesheets
+;
+pub
+mod
+traversal
 ;
 #
 [
