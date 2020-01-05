@@ -1775,7 +1775,10 @@ releaser
 new
 ReleaseDispatcher
 (
+ToSupports
+(
 this
+)
 )
 ;
 if
@@ -2578,7 +2581,10 @@ releaser
 new
 ReleaseDispatcher
 (
+ToSupports
+(
 scan
+)
 )
 ;
 if

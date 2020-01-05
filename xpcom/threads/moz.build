@@ -105,6 +105,11 @@ nsIIdlePeriod
 idl
 '
 '
+nsINamed
+.
+idl
+'
+'
 nsIProcess
 .
 idl
