@@ -126,6 +126,15 @@ browser
 /
 schemas
 /
+sessions
+.
+json
+content
+/
+browser
+/
+schemas
+/
 tabs
 .
 json
