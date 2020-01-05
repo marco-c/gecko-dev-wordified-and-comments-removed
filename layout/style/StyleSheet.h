@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsICSSLoaderObserver
+.
+h
+"
+#
+include
+"
 nsIDOMCSSStyleSheet
 .
 h
@@ -137,6 +144,8 @@ StyleSheet
 public
 nsIDOMCSSStyleSheet
 public
+nsICSSLoaderObserver
+public
 nsWrapperCache
 {
 protected
@@ -175,9 +184,10 @@ StyleSheet
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 StyleSheet
+nsIDOMCSSStyleSheet
 )
 void
 SetOwningNode

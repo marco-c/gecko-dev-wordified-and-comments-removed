@@ -178,6 +178,14 @@ uint32_t
 aIndex
 )
 ;
+uint16_t
+GetRuleType
+(
+uint32_t
+aIndex
+)
+const
+;
 private
 :
 virtual

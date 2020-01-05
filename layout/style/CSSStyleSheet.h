@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsICSSLoaderObserver
-.
-h
-"
-#
-include
-"
 nsTArrayForwardDeclare
 .
 h
@@ -296,8 +289,6 @@ final
 :
 public
 StyleSheet
-public
-nsICSSLoaderObserver
 {
 public
 :
