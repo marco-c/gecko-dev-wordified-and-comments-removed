@@ -491,16 +491,10 @@ Ci
 nsIAboutModule
 .
 URI_CAN_LOAD_IN_CHILD
-&
-&
-aPreferredRemoteType
-!
-=
-NOT_REMOTE
 )
 {
 return
-DEFAULT_REMOTE_TYPE
+aPreferredRemoteType
 ;
 }
 return
