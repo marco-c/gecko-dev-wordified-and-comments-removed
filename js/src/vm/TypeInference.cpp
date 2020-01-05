@@ -1334,6 +1334,11 @@ MOZ_NORETURN
 MOZ_COLD
 static
 void
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 TypeFailure
 (
 JSContext
@@ -17297,7 +17302,10 @@ bytecodeType
 %
 p
 %
-05u
+05
+"
+PRIuSIZE
+"
 :
 %
 s

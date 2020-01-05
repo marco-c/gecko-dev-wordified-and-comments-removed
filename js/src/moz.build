@@ -2383,13 +2383,6 @@ Wrapper
 cpp
 '
 '
-threading
-/
-Mutex
-.
-cpp
-'
-'
 vm
 /
 ArgumentsObject
@@ -4629,7 +4622,7 @@ threading
 /
 windows
 /
-MutexImpl
+Mutex
 .
 cpp
 '
@@ -4695,7 +4688,7 @@ threading
 /
 posix
 /
-MutexImpl
+Mutex
 .
 cpp
 '
@@ -6015,6 +6008,12 @@ CXXFLAGS
 Wno
 -
 shadow
+'
+'
+-
+Werror
+=
+format
 '
 ]
 #

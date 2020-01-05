@@ -114,6 +114,11 @@ fmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 virtual
 int
@@ -341,6 +346,11 @@ fmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 virtual
 int
@@ -486,6 +496,11 @@ fmt
 .
 )
 override
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 virtual
 int
@@ -634,6 +649,11 @@ fmt
 .
 )
 override
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 virtual
 int
