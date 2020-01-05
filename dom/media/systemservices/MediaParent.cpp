@@ -539,7 +539,8 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-nsAutoCString
+nsACString
+&
 aString
 )
 {
@@ -643,7 +644,7 @@ Assign
 (
 info
 .
-spec
+originNoSuffix
 (
 )
 )
@@ -662,7 +663,7 @@ CreateSuffix
 suffix
 )
 ;
-suffix
+aString
 .
 Append
 (
