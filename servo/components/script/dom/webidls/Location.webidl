@@ -109,13 +109,9 @@ multipage
 /
 #
 location
-/
-*
 [
 Unforgeable
 ]
-*
-/
 interface
 Location
 {

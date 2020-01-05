@@ -522,12 +522,14 @@ Document
 resource
 metadata
 management
-/
-/
 [
+/
+*
 PutForwards
 =
 href
+*
+/
 Unforgeable
 ]
 readonly
