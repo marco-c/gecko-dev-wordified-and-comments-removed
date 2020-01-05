@@ -219,6 +219,8 @@ Ci
 nsIDOMWindowUtils
 )
 ;
+try
+{
 is
 (
 winUtils
@@ -241,6 +243,13 @@ None
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 ok
 (
 true
