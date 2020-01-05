@@ -33,6 +33,11 @@ result
 scroll
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
