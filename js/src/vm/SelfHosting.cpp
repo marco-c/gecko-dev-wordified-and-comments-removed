@@ -16038,9 +16038,9 @@ regexp_test_no_statics
 JS_FN
 (
 "
-regexp_construct_no_sticky
+regexp_construct_raw_flags
 "
-regexp_construct_no_sticky
+regexp_construct_raw_flags
 2
 0
 )

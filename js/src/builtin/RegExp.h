@@ -245,7 +245,7 @@ vp
 extern
 MOZ_MUST_USE
 bool
-regexp_construct_no_sticky
+regexp_construct_raw_flags
 (
 JSContext
 *
