@@ -11872,6 +11872,14 @@ Line
 (
 _
 )
+|
+PropertyDeclaration
+:
+:
+WritingMode
+(
+_
+)
 )
 ;
 if
