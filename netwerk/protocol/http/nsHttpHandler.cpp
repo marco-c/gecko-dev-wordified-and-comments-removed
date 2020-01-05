@@ -1748,15 +1748,15 @@ mAppName
 .
 StripChars
 (
+R
 "
+(
 (
 )
 <
 >
 ;
 :
-\
-\
 \
 "
 /
@@ -1766,6 +1766,7 @@ StripChars
 =
 {
 }
+)
 "
 )
 ;
