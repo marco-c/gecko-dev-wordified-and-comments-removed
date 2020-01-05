@@ -652,6 +652,14 @@ fd
 PR_NSPR_IO_LAYER
 )
 ;
+PR_ASSERT
+(
+NULL
+!
+=
+bottom
+)
+;
 if
 (
 (
