@@ -13420,6 +13420,14 @@ aParentFrame
 fieldsetFrame
 )
 ;
+fieldsetFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_OWNS_ANON_BOXES
+)
+;
 RefPtr
 <
 nsStyleContext
