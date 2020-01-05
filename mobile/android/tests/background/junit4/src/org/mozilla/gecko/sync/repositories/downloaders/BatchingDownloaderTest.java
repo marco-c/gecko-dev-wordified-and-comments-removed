@@ -1948,10 +1948,10 @@ url
 ;
 mockDownloader
 .
-onFetchFailed
+handleFetchFailed
 (
-ex
 sessionFetchRecordsDelegate
+ex
 request
 )
 ;

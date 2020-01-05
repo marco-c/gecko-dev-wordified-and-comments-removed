@@ -499,15 +499,6 @@ storeFlush
 }
 public
 void
-sourceFailed
-(
-Exception
-e
-)
-{
-}
-public
-void
 performCleanup
 (
 )

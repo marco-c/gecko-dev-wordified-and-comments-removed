@@ -830,6 +830,11 @@ local
 new
 FailFetchWBORepository
 (
+SynchronizerHelpers
+.
+FailMode
+.
+FETCH
 )
 ;
 Synchronizer
@@ -904,6 +909,11 @@ remote
 new
 FailFetchWBORepository
 (
+SynchronizerHelpers
+.
+FailMode
+.
+FETCH
 )
 ;
 WBORepository
@@ -994,6 +1004,11 @@ local
 new
 SerialFailStoreWBORepository
 (
+SynchronizerHelpers
+.
+FailMode
+.
+FETCH
 )
 ;
 Synchronizer
@@ -1098,6 +1113,11 @@ getSynchronizer
 new
 SerialFailStoreWBORepository
 (
+SynchronizerHelpers
+.
+FailMode
+.
+STORE
 )
 new
 TrackingWBORepository
