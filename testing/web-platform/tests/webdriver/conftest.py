@@ -7,10 +7,11 @@ fixtures
 import
 (
     
+configuration
 create_frame
-create_session
 create_window
 http
+new_session
 server_config
 session
     
@@ -20,9 +21,14 @@ pytest
 .
 fixture
 (
+scope
+=
+"
+session
+"
 )
 (
-create_frame
+configuration
 )
 pytest
 .
@@ -30,7 +36,7 @@ fixture
 (
 )
 (
-create_session
+create_frame
 )
 pytest
 .
@@ -47,6 +53,19 @@ fixture
 )
 (
 http
+)
+pytest
+.
+fixture
+(
+scope
+=
+"
+function
+"
+)
+(
+new_session
 )
 pytest
 .
