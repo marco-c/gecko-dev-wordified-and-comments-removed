@@ -24,6 +24,16 @@ enabled
 "
 true
 ]
+[
+"
+dom
+.
+ipc
+.
+processCount
+"
+1
+]
 ]
 }
 )
