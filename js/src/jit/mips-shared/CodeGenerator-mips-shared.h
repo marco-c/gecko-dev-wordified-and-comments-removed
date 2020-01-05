@@ -748,6 +748,15 @@ ins
 ;
 virtual
 void
+visitMulI64
+(
+LMulI64
+*
+ins
+)
+;
+virtual
+void
 visitDivI
 (
 LDivI
