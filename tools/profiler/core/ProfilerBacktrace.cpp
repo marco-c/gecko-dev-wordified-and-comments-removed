@@ -87,8 +87,6 @@ UniqueStacks
 aUniqueStacks
 )
 {
-:
-:
 MutexAutoLock
 lock
 (

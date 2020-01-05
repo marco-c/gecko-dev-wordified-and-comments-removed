@@ -957,8 +957,6 @@ IsPaused
 )
 )
 {
-:
-:
 MutexAutoLock
 lock
 (

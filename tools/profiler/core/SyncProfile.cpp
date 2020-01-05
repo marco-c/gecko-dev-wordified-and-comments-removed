@@ -70,8 +70,6 @@ ShouldDestroy
 (
 )
 {
-:
-:
 MutexAutoLock
 lock
 (

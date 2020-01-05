@@ -30,10 +30,10 @@ Stack
 )
 mMutex
 (
-OS
-:
-:
-CreateMutex
+MakeUnique
+<
+Mutex
+>
 (
 "
 ThreadProfile

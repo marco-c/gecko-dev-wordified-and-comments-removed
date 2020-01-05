@@ -1281,8 +1281,6 @@ ignore
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -1392,8 +1390,6 @@ nullptr
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -1649,8 +1645,6 @@ threads
 "
 )
 ;
-:
-:
 MutexAutoLock
 lock
 (
@@ -2926,8 +2920,6 @@ true
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -2974,8 +2966,6 @@ Profile
 )
 continue
 ;
-:
-:
 MutexAutoLock
 lock
 (
@@ -3187,8 +3177,6 @@ true
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -3281,8 +3269,6 @@ aContext
 continue
 ;
 }
-:
-:
 MutexAutoLock
 lock
 (
