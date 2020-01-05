@@ -3957,10 +3957,7 @@ text_run
 :
 Arc
 <
-Box
-<
 TextRun
->
 >
 pub
 range
