@@ -512,6 +512,11 @@ CSSImportRule
 webidl
 '
 '
+CSSKeyframeRule
+.
+webidl
+'
+'
 CSSLexer
 .
 webidl
