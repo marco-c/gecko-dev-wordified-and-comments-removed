@@ -354,9 +354,7 @@ skin
 /
 images
 /
-tabs
--
-icon
+globe
 .
 svg
 "

@@ -525,9 +525,9 @@ url
 (
 images
 /
-debugger
+item
 -
-blackbox
+toggle
 .
 svg
 )
@@ -577,9 +577,9 @@ url
 (
 images
 /
-debugger
+tool
 -
-prettyprint
+styleeditor
 .
 svg
 )
@@ -831,9 +831,9 @@ url
 (
 images
 /
-debugger
+item
 -
-blackbox
+toggle
 .
 svg
 )
