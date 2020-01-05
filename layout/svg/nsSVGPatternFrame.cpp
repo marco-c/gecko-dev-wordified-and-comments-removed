@@ -175,6 +175,10 @@ LayoutFrameType
 :
 SVGPattern
 )
+mSource
+(
+nullptr
+)
 mLoopFlag
 (
 false
