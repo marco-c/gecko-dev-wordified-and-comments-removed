@@ -169,10 +169,9 @@ Text
 :
 CharacterData
 {
-/
-/
 [
 NewObject
+Throws
 ]
 Text
 splitText
