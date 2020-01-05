@@ -79,6 +79,15 @@ ProxyTraps
 }
 ;
 use
+js
+:
+:
+rust
+:
+:
+with_compartment
+;
+use
 libc
 :
 :
@@ -423,6 +432,12 @@ ptr
 let
 wrapper
 =
+with_compartment
+(
+cx
+parent
+|
+|
 unsafe
 {
 WrapperNew
@@ -437,6 +452,7 @@ deref
 )
 )
 }
+)
 ;
 assert
 !
