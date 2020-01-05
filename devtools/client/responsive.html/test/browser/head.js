@@ -315,6 +315,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 flags
 .
 testing
