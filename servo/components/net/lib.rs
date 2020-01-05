@@ -19,14 +19,6 @@ box_syntax
 [
 feature
 (
-mpsc_select
-)
-]
-#
-!
-[
-feature
-(
 step_by
 )
 ]
@@ -146,10 +138,6 @@ servo_url
 ;
 extern
 crate
-threadpool
-;
-extern
-crate
 time
 ;
 #
@@ -233,7 +221,7 @@ http_loader
 ;
 pub
 mod
-image_cache_thread
+image_cache
 ;
 pub
 mod

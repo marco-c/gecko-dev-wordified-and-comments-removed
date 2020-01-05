@@ -52,11 +52,11 @@ use
 net_traits
 :
 :
-image_cache_thread
+image_cache
 :
 :
 {
-ImageCacheThread
+ImageCache
 PendingImageId
 }
 ;
@@ -111,7 +111,10 @@ id
 PendingImageId
 cache
 :
-ImageCacheThread
+Arc
+<
+ImageCache
+>
 }
 impl
 FetchResponseListener
@@ -261,7 +264,10 @@ id
 PendingImageId
 cache
 :
-ImageCacheThread
+Arc
+<
+ImageCache
+>
 )
 {
 let

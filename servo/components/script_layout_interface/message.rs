@@ -59,10 +59,10 @@ use
 net_traits
 :
 :
-image_cache_thread
+image_cache
 :
 :
-ImageCacheThread
+ImageCache
 ;
 use
 profile_traits
@@ -474,9 +474,12 @@ IpcSender
 ConstellationControlMsg
 >
 pub
-image_cache_thread
+image_cache
 :
-ImageCacheThread
+Arc
+<
+ImageCache
+>
 pub
 content_process_shutdown_chan
 :

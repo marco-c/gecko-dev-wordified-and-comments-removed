@@ -258,7 +258,7 @@ hosts
 ;
 pub
 mod
-image_cache_thread
+image_cache
 ;
 pub
 mod

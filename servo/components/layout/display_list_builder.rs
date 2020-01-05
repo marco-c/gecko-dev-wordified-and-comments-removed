@@ -272,7 +272,7 @@ use
 net_traits
 :
 :
-image_cache_thread
+image_cache
 :
 :
 UsePlaceholder
