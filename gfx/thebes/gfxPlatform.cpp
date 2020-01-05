@@ -6539,7 +6539,7 @@ aFormat
 {
 NS_ASSERTION
 (
-mContentBackend
+mPreferredCanvasBackend
 !
 =
 BackendType
