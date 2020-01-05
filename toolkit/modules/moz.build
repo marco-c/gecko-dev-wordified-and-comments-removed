@@ -358,6 +358,11 @@ Integration
 jsm
 '
 '
+JSONFile
+.
+jsm
+'
+'
 LoadContextInfo
 .
 jsm
