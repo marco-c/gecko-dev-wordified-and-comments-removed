@@ -166,6 +166,7 @@ parser
 :
 :
 {
+Parse
 ParserContext
 log_css_error
 }
@@ -6046,10 +6047,10 @@ ViewportRule
 :
 parse
 (
-input
 self
 .
 context
+input
 )
 )
 )

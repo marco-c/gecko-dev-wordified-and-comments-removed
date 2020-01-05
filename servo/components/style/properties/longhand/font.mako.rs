@@ -5263,6 +5263,7 @@ LengthOrPercentage
 parse_non_negative
 )
 {
+return
 Ok
 (
 SpecifiedValue
@@ -5274,7 +5275,6 @@ lop
 )
 )
 }
-else
 if
 let
 Ok
@@ -5292,6 +5292,7 @@ KeywordSize
 parse
 )
 {
+return
 Ok
 (
 SpecifiedValue
@@ -5303,8 +5304,6 @@ kw
 )
 )
 }
-else
-{
 match_ignore_ascii_case
 !
 {
@@ -5348,7 +5347,6 @@ Err
 (
 )
 )
-}
 }
 }
 <
