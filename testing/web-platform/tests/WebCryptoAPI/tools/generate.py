@@ -483,9 +483,8 @@ successes_worker
 "
 /
 /
-<
-meta
->
+META
+:
 timeout
 =
 long
@@ -546,9 +545,8 @@ failures_worker
 "
 /
 /
-<
-meta
->
+META
+:
 timeout
 =
 long

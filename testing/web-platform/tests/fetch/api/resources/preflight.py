@@ -212,8 +212,7 @@ Request
 -
 Headers
 "
-"
-"
+None
 )
         
 if
@@ -520,6 +519,18 @@ preflight
 )
 )
     
+if
+stashed_data
+[
+'
+control_request_headers
+'
+]
+!
+=
+None
+:
+      
 headers
 .
 append
