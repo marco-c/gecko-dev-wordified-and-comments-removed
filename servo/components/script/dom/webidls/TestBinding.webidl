@@ -199,6 +199,7 @@ DOMString
 stringValue
 =
 "
+foo
 "
 ;
 TestEnum
@@ -297,6 +298,7 @@ DOMString
 nullableStringValue
 =
 "
+foo
 "
 ;
 /
@@ -1543,6 +1545,7 @@ DOMString
 arg
 =
 "
+x
 "
 )
 ;
@@ -1950,6 +1953,7 @@ DOMString
 arg
 =
 "
+x
 "
 )
 ;
