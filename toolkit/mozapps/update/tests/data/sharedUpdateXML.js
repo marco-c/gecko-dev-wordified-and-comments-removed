@@ -438,6 +438,7 @@ update
 /
 >
 "
+;
 }
 return
 (
@@ -566,9 +567,7 @@ let
 isCompleteUpdate
 =
 typeof
-(
 aIsCompleteUpdate
-)
 =
 =
 "
@@ -599,9 +598,7 @@ let
 foregroundDownload
 =
 typeof
-(
 aForegroundDownload
-)
 =
 =
 "
@@ -769,9 +766,7 @@ let
 selected
 =
 typeof
-(
 aSelected
-)
 =
 =
 "

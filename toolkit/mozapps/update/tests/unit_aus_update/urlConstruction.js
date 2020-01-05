@@ -327,6 +327,7 @@ force
 =
 1
 "
+;
 if
 (
 gRequestURL
@@ -862,6 +863,7 @@ osVersion
 }
 return
 osVersion
+;
 }
 function
 getServicePack
@@ -1478,4 +1480,5 @@ return
 "
 NA
 "
+;
 }

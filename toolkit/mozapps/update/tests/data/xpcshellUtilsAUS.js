@@ -8104,6 +8104,7 @@ detect_leaks
 0
 "
 )
+;
 }
 else
 {
@@ -8120,6 +8121,7 @@ detect_leaks
 0
 "
 )
+;
 }
 let
 process
@@ -17751,6 +17753,7 @@ arguments
 )
 ;
 }
+;
 }
 )
 ;
@@ -19284,15 +19287,11 @@ e
 if
 (
 typeof
-(
 end_test
-)
 =
 =
 typeof
-(
 Function
-)
 )
 {
 debugDump

@@ -949,11 +949,9 @@ Assert
 equal
 (
 typeof
-(
 patch
 .
 state
-)
 "
 string
 "

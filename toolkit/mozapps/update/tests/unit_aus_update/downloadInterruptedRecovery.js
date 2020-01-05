@@ -503,6 +503,7 @@ status
 Cr
 .
 NS_OK
+;
 switch
 (
 gIncrementalDownloadErrorType
