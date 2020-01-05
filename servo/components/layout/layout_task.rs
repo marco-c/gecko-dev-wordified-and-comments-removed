@@ -99,7 +99,7 @@ parallel
 :
 {
 self
-UnsafeFlow
+WorkQueueData
 }
 ;
 use
@@ -746,7 +746,7 @@ Option
 WorkQueue
 <
 SharedLayoutContextWrapper
-UnsafeFlow
+WorkQueueData
 >
 >
 pub
