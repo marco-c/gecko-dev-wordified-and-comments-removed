@@ -1019,6 +1019,25 @@ Latn
 alalc97
 "
     
+assert
+all
+(
+len
+(
+lang
+)
+>
+3
+for
+lang
+in
+langTagMappings
+.
+iterkeys
+(
+)
+)
+    
 return
 {
 "
