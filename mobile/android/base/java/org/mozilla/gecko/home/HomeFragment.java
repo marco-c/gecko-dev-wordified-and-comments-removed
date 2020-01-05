@@ -446,7 +446,7 @@ protected
 OnUrlOpenListener
 mUrlOpenListener
 ;
-private
+protected
 OnUrlOpenInBackgroundListener
 mUrlOpenInBackgroundListener
 ;
