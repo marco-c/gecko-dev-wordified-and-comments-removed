@@ -205,6 +205,7 @@ int
 :
 Type
 >
+MOZ_IMPLICIT
 Range
 (
 const
