@@ -128,11 +128,11 @@ energymon
 {
 extern
 crate
-energymon
+energy_monitor
 ;
 extern
 crate
-energy_monitor
+energymon
 ;
 use
 self

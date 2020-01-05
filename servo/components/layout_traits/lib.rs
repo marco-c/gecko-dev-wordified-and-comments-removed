@@ -29,11 +29,11 @@ ipc_channel
 ;
 extern
 crate
-script_traits
+msg
 ;
 extern
 crate
-msg
+net_traits
 ;
 extern
 crate
@@ -41,7 +41,7 @@ profile_traits
 ;
 extern
 crate
-net_traits
+script_traits
 ;
 extern
 crate

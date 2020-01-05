@@ -2,6 +2,10 @@ extern
 crate
 gaol
 ;
+extern
+crate
+libc
+;
 #
 [
 macro_use
@@ -96,10 +100,6 @@ crate
 url
 ;
 }
-extern
-crate
-libc
-;
 #
 [
 cfg

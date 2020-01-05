@@ -1,10 +1,10 @@
 extern
 crate
-script
+msg
 ;
 extern
 crate
-msg
+script
 ;
 extern
 crate

@@ -21,6 +21,10 @@ extern
 crate
 app_units
 ;
+extern
+crate
+azure
+;
 #
 [
 macro_use
@@ -28,10 +32,6 @@ macro_use
 extern
 crate
 bitflags
-;
-extern
-crate
-azure
 ;
 extern
 crate
