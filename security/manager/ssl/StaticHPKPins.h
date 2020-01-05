@@ -1504,6 +1504,7 @@ kPinset_google_Data
 kGOOGLE_PIN_GoogleG2Fingerprint
 kGoogleBackup2048Fingerprint
 kGeoTrust_Global_CAFingerprint
+kGlobalSign_Root_CA___R2Fingerprint
 }
 ;
 static
@@ -9433,6 +9434,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1489415068691000
+1489505883092000
 )
 ;
