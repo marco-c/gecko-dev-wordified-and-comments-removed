@@ -25044,7 +25044,7 @@ rv
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "

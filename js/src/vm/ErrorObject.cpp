@@ -999,7 +999,7 @@ if
 target
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1094,7 +1094,7 @@ if
 target
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

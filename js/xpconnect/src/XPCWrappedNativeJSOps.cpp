@@ -906,7 +906,7 @@ IsCallerChrome
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3214,7 +3214,7 @@ unwrapped
 )
 {
 \
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

@@ -1206,7 +1206,7 @@ obj
 return
 true
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

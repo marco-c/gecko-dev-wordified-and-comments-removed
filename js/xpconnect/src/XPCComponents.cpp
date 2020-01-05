@@ -11243,7 +11243,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12951,7 +12951,7 @@ global
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13051,7 +13051,7 @@ global
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13951,7 +13951,7 @@ if
 scope
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -13987,7 +13987,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "

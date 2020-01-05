@@ -10732,7 +10732,7 @@ isPrimitive
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -23979,7 +23979,7 @@ break
 ;
 default
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -26096,7 +26096,7 @@ baseSize
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -30343,7 +30343,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -30574,7 +30574,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33145,7 +33145,7 @@ abi
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33227,7 +33227,7 @@ true
 case
 FFI_BAD_ABI
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33243,7 +33243,7 @@ false
 case
 FFI_BAD_TYPEDEF
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33258,7 +33258,7 @@ false
 ;
 default
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33543,7 +33543,7 @@ abi
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33684,7 +33684,7 @@ i
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33731,7 +33731,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33776,7 +33776,7 @@ mABI
 ABI_DEFAULT
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -34395,7 +34395,7 @@ fninfo
 mIsVariadic
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -34428,7 +34428,7 @@ mABI
 ABI_WINAPI
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -34943,7 +34943,7 @@ if
 library
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -36296,7 +36296,7 @@ mReturnType
 TYPE_void_t
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -36517,7 +36517,7 @@ closure
 code
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -36566,7 +36566,7 @@ status
 FFI_OK
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -38776,7 +38776,7 @@ void
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -40109,7 +40109,7 @@ if
 objType
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -40602,7 +40602,7 @@ if
 p
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -40707,7 +40707,7 @@ objProto
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -41236,7 +41236,7 @@ if
 freePointer
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -41455,7 +41455,7 @@ abi
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -41498,7 +41498,7 @@ if
 rtype
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -41940,7 +41940,7 @@ valJSData
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

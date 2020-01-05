@@ -1882,7 +1882,7 @@ return
 true
 ;
 }
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2400,7 +2400,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2784,7 +2784,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2819,7 +2819,7 @@ ObjectOpResult
 result
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

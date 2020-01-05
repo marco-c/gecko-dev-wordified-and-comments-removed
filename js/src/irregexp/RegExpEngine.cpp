@@ -8003,7 +8003,7 @@ destroy
 (
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -8196,7 +8196,7 @@ RegExpMacroAssembler
 kMaxRegister
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

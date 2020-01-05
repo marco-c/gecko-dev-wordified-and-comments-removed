@@ -1336,7 +1336,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1370,7 +1370,7 @@ args
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1703,7 +1703,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1834,7 +1834,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1928,7 +1928,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1980,7 +1980,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2091,7 +2091,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4278,7 +4278,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5749,7 +5749,7 @@ if
 unwrappedProto
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6279,7 +6279,7 @@ rv
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6324,7 +6324,7 @@ if
 principal
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6494,7 +6494,7 @@ if
 length
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6581,7 +6581,7 @@ val
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6816,7 +6816,7 @@ if
 isSystem
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7804,7 +7804,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -7856,7 +7856,7 @@ if
 isArray
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -8083,7 +8083,7 @@ freshZone
 sameZoneAs
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -8482,7 +8482,7 @@ val
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

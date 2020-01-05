@@ -17618,7 +17618,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -43375,7 +43375,7 @@ obj
 )
 {
 \
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -43500,7 +43500,7 @@ obj
 )
 {
 \
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -50929,7 +50929,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -53740,7 +53740,7 @@ if
 referent
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

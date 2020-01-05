@@ -919,7 +919,7 @@ isInt32
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

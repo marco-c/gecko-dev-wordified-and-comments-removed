@@ -2333,7 +2333,7 @@ d
 UINT32_MAX
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2374,7 +2374,7 @@ cx
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2419,7 +2419,7 @@ value
 gcBytes
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2492,7 +2492,7 @@ if
 ok
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2702,7 +2702,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3460,7 +3460,7 @@ isExceptionPending
 (
 )
 )
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3545,7 +3545,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3594,7 +3594,7 @@ JSFunction
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3681,7 +3681,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3730,7 +3730,7 @@ JSFunction
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3838,7 +3838,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3925,7 +3925,7 @@ INCREMENTAL_MARK_STACK_BASE_CAPACITY
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4136,7 +4136,7 @@ Limit
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5127,7 +5127,7 @@ callee
 )
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6462,7 +6462,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6507,7 +6507,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6666,7 +6666,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6707,7 +6707,7 @@ args
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6799,7 +6799,7 @@ length
 3
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6840,7 +6840,7 @@ args
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6890,7 +6890,7 @@ SavedFrame
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6937,7 +6937,7 @@ empty
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7243,7 +7243,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7268,7 +7268,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7315,7 +7315,7 @@ count
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7394,7 +7394,7 @@ oom
 THREAD_TYPE_MAX
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7591,7 +7591,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7643,7 +7643,7 @@ JSFunction
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7689,7 +7689,7 @@ isBoolean
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7850,7 +7850,7 @@ oom
 THREAD_TYPE_MAX
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7897,7 +7897,7 @@ rt
 runningOOMTest
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -8407,7 +8407,7 @@ PromiseObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -8665,7 +8665,7 @@ getClass
 FakePromiseClass
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -9158,7 +9158,7 @@ length
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -10369,7 +10369,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -10506,7 +10506,7 @@ toInt32
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -10518,6 +10518,7 @@ positive
 number
 that
 fits
+in
 an
 int32
 "
@@ -10971,7 +10972,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11082,7 +11083,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11415,7 +11416,7 @@ done
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12004,7 +12005,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12027,7 +12028,7 @@ gcNumber
 "
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12384,7 +12385,7 @@ if
 hasTransferable
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12800,7 +12801,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12837,7 +12838,7 @@ CloneBufferObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12889,7 +12890,7 @@ data
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13034,7 +13035,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13065,7 +13066,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13838,7 +13839,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13868,7 +13869,7 @@ SharedArrayBufferObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -15796,7 +15797,7 @@ isSymbol
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17027,7 +17028,7 @@ if
 global
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17057,7 +17058,7 @@ GlobalObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17513,7 +17514,7 @@ if
 global
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17543,7 +17544,7 @@ GlobalObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17852,7 +17853,7 @@ JSFunction
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17900,7 +17901,7 @@ isNative
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -18049,7 +18050,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -18883,7 +18884,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19185,7 +19186,7 @@ JSGC_END
 ;
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19430,7 +19431,7 @@ MAX_NESTING
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19502,7 +19503,7 @@ info
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19565,7 +19566,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19613,7 +19614,7 @@ if
 global
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19643,7 +19644,7 @@ if
 global
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19673,7 +19674,7 @@ GlobalObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19902,7 +19903,7 @@ seed1
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20074,7 +20075,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20120,7 +20121,7 @@ ModuleObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20298,7 +20299,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20344,7 +20345,7 @@ ModuleObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20374,7 +20375,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

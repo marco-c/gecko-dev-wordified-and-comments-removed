@@ -646,7 +646,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1690,7 +1690,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2333,7 +2333,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2371,7 +2371,7 @@ if
 str
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2414,7 +2414,7 @@ args
 JSTYPE_FUNCTION
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2461,7 +2461,7 @@ nullptr
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3057,7 +3057,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3126,7 +3126,7 @@ toObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3205,7 +3205,7 @@ isBoolean
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3280,7 +3280,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3308,7 +3308,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

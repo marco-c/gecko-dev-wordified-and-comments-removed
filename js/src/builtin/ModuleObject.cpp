@@ -4666,7 +4666,7 @@ if
 funDecls
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4900,7 +4900,7 @@ if
 scope
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

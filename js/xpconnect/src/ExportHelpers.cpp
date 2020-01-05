@@ -937,7 +937,7 @@ length
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1001,7 +1001,7 @@ aWriter
 }
 #
 endif
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1327,7 +1327,7 @@ obj
 return
 true
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1847,7 +1847,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1945,7 +1945,7 @@ targetScope
 funObj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1974,7 +1974,7 @@ targetScope
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2020,7 +2020,7 @@ funObj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2147,7 +2147,7 @@ rval
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2234,7 +2234,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2276,7 +2276,7 @@ if
 scope
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2321,7 +2321,7 @@ scope
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

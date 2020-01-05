@@ -526,7 +526,7 @@ BROWSER_SHIM_USAGE_BLOCKED
 1
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -596,7 +596,7 @@ addonIdCString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

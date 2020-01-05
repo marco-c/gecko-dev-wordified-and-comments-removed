@@ -3830,7 +3830,7 @@ rv
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3860,7 +3860,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3911,7 +3911,7 @@ whitelistObj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3960,7 +3960,7 @@ if
 isArray
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4041,7 +4041,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4083,7 +4083,7 @@ if
 str
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

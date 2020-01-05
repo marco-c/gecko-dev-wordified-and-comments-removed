@@ -57,7 +57,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -94,7 +94,7 @@ Object
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -125,7 +125,7 @@ length
 3
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -174,7 +174,7 @@ toInt32
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -204,7 +204,7 @@ isConstructing
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

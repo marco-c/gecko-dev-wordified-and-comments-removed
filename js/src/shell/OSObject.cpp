@@ -3178,7 +3178,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3414,7 +3414,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3570,7 +3570,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3834,7 +3834,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3978,7 +3978,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4170,7 +4170,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4226,7 +4226,7 @@ isInt32
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

@@ -895,7 +895,7 @@ active
 )
 {
 \
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1841,7 +1841,7 @@ toObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1966,7 +1966,7 @@ toObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3349,7 +3349,7 @@ if
 found
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5218,7 +5218,7 @@ JSContext
 cx
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5302,7 +5302,7 @@ ReturnStatus
 TReturnDeadCPOW
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

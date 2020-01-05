@@ -4822,7 +4822,7 @@ result
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -4931,7 +4931,7 @@ result
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

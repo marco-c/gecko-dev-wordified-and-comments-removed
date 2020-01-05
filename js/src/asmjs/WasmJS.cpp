@@ -732,7 +732,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -8162,7 +8162,7 @@ cx
 finishAsyncTaskCallback
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
