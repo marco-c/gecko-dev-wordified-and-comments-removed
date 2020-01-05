@@ -4082,7 +4082,6 @@ format
 GLenum
 type
 ImageData
-?
 pixels
 )
 ;
@@ -4214,7 +4213,6 @@ format
 GLenum
 type
 ArrayBufferView
-?
 pixels
 )
 ;
@@ -4245,7 +4243,6 @@ format
 GLenum
 type
 ImageData
-?
 pixels
 )
 ;
