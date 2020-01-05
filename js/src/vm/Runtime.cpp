@@ -1416,8 +1416,16 @@ isEmpty
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+geckoProfiler
+(
+)
+.
+enabled
+(
+)
 !
 singleThreadedExecutionRequired_
 )
