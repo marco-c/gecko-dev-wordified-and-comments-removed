@@ -679,6 +679,7 @@ args
 )
 )
     
+return
 subprocess
 .
 call
@@ -1328,6 +1329,8 @@ builder
 )
 :
                 
+status
+=
 call
 (
 [
@@ -1349,6 +1352,13 @@ verbose
 =
 verbose
 )
+                
+if
+status
+:
+                    
+return
+status
             
 opts
 +
@@ -1681,6 +1691,13 @@ in
 %
 elapsed
 )
+        
+if
+android
+:
+            
+return
+0
         
 return
 status
