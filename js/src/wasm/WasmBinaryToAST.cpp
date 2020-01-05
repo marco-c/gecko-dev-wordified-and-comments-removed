@@ -5523,7 +5523,7 @@ F32Const
 )
 :
 {
-RawF32
+float
 f32
 ;
 if
@@ -5593,7 +5593,7 @@ F64Const
 )
 :
 {
-RawF64
+double
 f64
 ;
 if

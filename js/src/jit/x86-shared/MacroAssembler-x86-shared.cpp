@@ -1134,10 +1134,7 @@ MacroAssemblerX86Shared
 :
 getFloat
 (
-wasm
-:
-:
-RawF32
+float
 f
 )
 {
@@ -1149,10 +1146,6 @@ FloatMap
 >
 (
 f
-.
-bits
-(
-)
 floatMap_
 floats_
 )
@@ -1168,10 +1161,7 @@ MacroAssemblerX86Shared
 :
 getDouble
 (
-wasm
-:
-:
-RawF64
+double
 d
 )
 {
@@ -1183,10 +1173,6 @@ DoubleMap
 >
 (
 d
-.
-bits
-(
-)
 doubleMap_
 doubles_
 )

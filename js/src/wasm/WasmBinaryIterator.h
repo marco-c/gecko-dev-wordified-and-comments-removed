@@ -1040,7 +1040,7 @@ MOZ_MUST_USE
 bool
 readFixedF32
 (
-RawF32
+float
 *
 out
 )
@@ -1057,13 +1057,11 @@ readFixedF32
 out
 )
 ;
-*
-out
-=
 d_
 .
 uncheckedReadFixedF32
 (
+out
 )
 ;
 return
@@ -1074,7 +1072,7 @@ MOZ_MUST_USE
 bool
 readFixedF64
 (
-RawF64
+double
 *
 out
 )
@@ -1091,13 +1089,11 @@ readFixedF64
 out
 )
 ;
-*
-out
-=
 d_
 .
 uncheckedReadFixedF64
 (
+out
 )
 ;
 return
@@ -2719,7 +2715,7 @@ MOZ_MUST_USE
 bool
 readF32Const
 (
-RawF32
+float
 *
 f32
 )
@@ -2728,7 +2724,7 @@ MOZ_MUST_USE
 bool
 readF64Const
 (
-RawF64
+double
 *
 f64
 )
@@ -8032,7 +8028,7 @@ Policy
 :
 readF32Const
 (
-RawF32
+float
 *
 f32
 )
@@ -8051,7 +8047,7 @@ OpKind
 F32
 )
 ;
-RawF32
+float
 unused
 ;
 if
@@ -8103,7 +8099,7 @@ Policy
 :
 readF64Const
 (
-RawF64
+double
 *
 f64
 )
@@ -8122,7 +8118,7 @@ OpKind
 F64
 )
 ;
-RawF64
+double
 unused
 ;
 if
