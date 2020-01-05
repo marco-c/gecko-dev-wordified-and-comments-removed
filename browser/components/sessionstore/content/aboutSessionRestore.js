@@ -377,11 +377,6 @@ winState
 {
 label
 :
-aWinData
-.
-tabGroupsMigrationTitle
-|
-|
 winLabel
 .
 replace

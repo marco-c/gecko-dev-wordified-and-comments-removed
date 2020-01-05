@@ -292,11 +292,6 @@ SocialService
 jsm
 '
 '
-TabGroupsMigrator
-.
-jsm
-'
-'
 TransientPrefs
 .
 jsm
