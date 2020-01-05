@@ -58,9 +58,6 @@ class
 PlanarYCbCrImage
 ;
 class
-GrallocImage
-;
-class
 SurfaceTextureImage
 ;
 class
@@ -96,7 +93,6 @@ BlitType
 {
 BlitTex2D
 BlitTexRect
-ConvertGralloc
 ConvertPlanarYCbCr
 ConvertSurfaceTexture
 ConvertEGLImage

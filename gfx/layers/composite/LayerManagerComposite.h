@@ -1146,15 +1146,6 @@ true
 ;
 }
 bool
-LastFrameMissedHWC
-(
-)
-{
-return
-mLastFrameMissedHWC
-;
-}
-bool
 AsyncPanZoomEnabled
 (
 )
@@ -1465,9 +1456,6 @@ mTextRenderer
 ;
 bool
 mGeometryChanged
-;
-bool
-mLastFrameMissedHWC
 ;
 bool
 mWindowOverlayChanged
