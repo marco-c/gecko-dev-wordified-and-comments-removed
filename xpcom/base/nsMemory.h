@@ -111,7 +111,8 @@ array
 freeFunc
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 int32_t
 iter_
@@ -151,7 +152,11 @@ array
 )
 ;
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 #
 define
 NS_FREE_XPCOM_ALLOCATED_POINTER_ARRAY

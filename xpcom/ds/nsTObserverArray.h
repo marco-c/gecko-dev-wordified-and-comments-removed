@@ -1399,7 +1399,8 @@ func_
 params_
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 nsTObserverArray
 <
@@ -1450,7 +1451,11 @@ params_
 \
 }
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 #
 define
 NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS
@@ -1461,7 +1466,8 @@ func_
 params_
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 nsTObserverArray
 <
@@ -1510,7 +1516,11 @@ params_
 \
 }
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 #
 define
 NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS_WITH_QI
@@ -1522,7 +1532,8 @@ func_
 params_
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 nsTObserverArray
 <
@@ -1591,6 +1602,10 @@ params_
 \
 }
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 #
 endif
