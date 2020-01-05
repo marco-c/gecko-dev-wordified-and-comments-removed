@@ -307,10 +307,10 @@ aString
 )
 ;
 void
-SetVideoBlankDecode
+SetVideoNullDecode
 (
 bool
-aIsBlankDecode
+aIsNullDecode
 )
 override
 ;
@@ -792,7 +792,7 @@ mLastStreamSourceID
 (
 UINT32_MAX
 )
-mIsBlankDecode
+mIsNullDecode
 (
 false
 )
@@ -1439,7 +1439,7 @@ TimeUnit
 mFirstDemuxedSampleTime
 ;
 bool
-mIsBlankDecode
+mIsNullDecode
 ;
 }
 ;
@@ -2036,12 +2036,12 @@ GMPCrashHelper
 mCrashHelper
 ;
 void
-SetBlankDecode
+SetNullDecode
 (
 TrackType
 aTrack
 bool
-aIsBlankDecode
+aIsNullDecode
 )
 ;
 class

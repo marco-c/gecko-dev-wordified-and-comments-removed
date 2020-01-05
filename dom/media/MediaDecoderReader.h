@@ -746,10 +746,10 @@ mOnTrackWaitingForKey
 }
 virtual
 void
-SetVideoBlankDecode
+SetVideoNullDecode
 (
 bool
-aIsBlankDecode
+aIsNullDecode
 )
 {
 }
