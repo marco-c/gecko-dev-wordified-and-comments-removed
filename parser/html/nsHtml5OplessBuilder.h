@@ -22,7 +22,6 @@ nsHtml5DocumentBuilder
 {
 public
 :
-NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 nsHtml5OplessBuilder
 (
 )
