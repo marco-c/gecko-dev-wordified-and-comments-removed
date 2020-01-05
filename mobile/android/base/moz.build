@@ -5591,6 +5591,13 @@ TouchTargetUtil
 java
 '
 '
+util
+/
+ViewUtil
+.
+java
+'
+'
 widget
 /
 ActivityChooserModel
