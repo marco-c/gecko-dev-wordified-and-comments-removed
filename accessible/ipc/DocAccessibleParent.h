@@ -826,15 +826,8 @@ MaybeInitWindowEmulation
 )
 ;
 void
-SetCOMProxy
+SendParentCOMProxy
 (
-const
-RefPtr
-<
-IAccessible
->
-&
-aCOMProxy
 )
 ;
 virtual
