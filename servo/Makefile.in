@@ -2378,6 +2378,8 @@ rm
 rf
 src
 /
+compiler
+/
 rust
 ;
 mv
@@ -2386,6 +2388,8 @@ mv
 /
 rust
 src
+/
+compiler
 /
 ;
 fi
