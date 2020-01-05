@@ -1645,11 +1645,6 @@ cascade_node
 (
 parent_opt
 &
-*
-layout_context
-.
-initial_css_values
-&
 applicable_declarations
 layout_context
 .

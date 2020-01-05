@@ -1684,10 +1684,6 @@ Option
 <
 LayoutNode
 >
-initial_values
-:
-&
-ComputedValues
 applicable_declarations
 :
 &
@@ -1735,10 +1731,6 @@ Arc
 ComputedValues
 >
 >
-initial_values
-:
-&
-ComputedValues
 applicable_declarations_cache
 :
 &
@@ -1821,10 +1813,6 @@ Arc
 ComputedValues
 >
 >
-initial_values
-:
-&
-ComputedValues
 applicable_declarations_cache
 :
 &
@@ -1909,7 +1897,6 @@ Some
 *
 parent_style
 )
-initial_values
 cached_computed_values
 )
 ;
@@ -1943,7 +1930,6 @@ cascade
 applicable_declarations
 shareable
 None
-initial_values
 None
 )
 ;
@@ -2609,21 +2595,11 @@ shareable
 }
 unsafe
 {
-let
-initial_values
-=
-&
-*
-layout_context
-.
-initial_css_values
-;
 self
 .
 cascade_node
 (
 parent
-initial_values
 applicable_declarations
 applicable_declarations_cache
 )
@@ -2760,10 +2736,6 @@ Option
 <
 LayoutNode
 >
-initial_values
-:
-&
-ComputedValues
 applicable_declarations
 :
 &
@@ -2987,7 +2959,6 @@ layout_data
 shared_data
 .
 style
-initial_values
 applicable_declarations_cache
 applicable_declarations
 .
@@ -3024,7 +2995,6 @@ layout_data
 data
 .
 before_style
-initial_values
 applicable_declarations_cache
 false
 )
@@ -3060,7 +3030,6 @@ layout_data
 data
 .
 after_style
-initial_values
 applicable_declarations_cache
 false
 )
