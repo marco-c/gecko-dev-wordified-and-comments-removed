@@ -1143,6 +1143,10 @@ aPluginInfo
 fVariantCount
 )
 ;
+InitSandboxLevel
+(
+)
+;
 EnsureMembersAreUTF8
 (
 )
