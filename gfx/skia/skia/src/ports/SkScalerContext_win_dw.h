@@ -261,6 +261,12 @@ fTextureType
 DWRITE_MEASURING_MODE
 fMeasuringMode
 ;
+SkTScopedComPtr
+<
+IDWriteRenderingParams
+>
+fDefaultRenderingParams
+;
 #
 if
 SK_HAS_DWRITE_2_H
