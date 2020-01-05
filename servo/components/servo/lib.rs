@@ -185,7 +185,10 @@ net
 image_cache_task
 :
 :
+{
 ImageCacheTask
+LoadPlaceholder
+}
 ;
 #
 [
@@ -554,6 +557,10 @@ time_profiler_chan
 clone
 (
 )
+LoadPlaceholder
+:
+:
+Preload
 )
 }
 else
@@ -574,6 +581,10 @@ time_profiler_chan
 clone
 (
 )
+LoadPlaceholder
+:
+:
+Preload
 )
 }
 ;
