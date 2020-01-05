@@ -451,10 +451,9 @@ fragments
 ;
 fragments
 .
-fixup
-(
+fragments
+=
 new_fragments
-)
 ;
 }
 pub
