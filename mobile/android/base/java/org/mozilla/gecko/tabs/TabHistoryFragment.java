@@ -678,7 +678,7 @@ backStackId
 =
 transaction
 .
-commit
+commitAllowingStateLoss
 (
 )
 ;
