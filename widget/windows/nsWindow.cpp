@@ -4183,7 +4183,7 @@ nullptr
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4248,7 +4248,6 @@ this
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -4268,9 +4267,6 @@ nullptr
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsWindow
@@ -5645,6 +5641,9 @@ mWnd
 SW_SHOWNOACTIVATE
 )
 ;
+Unused
+<
+<
 GetAttention
 (
 2
@@ -6513,7 +6512,7 @@ return
 c
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -6611,7 +6610,6 @@ y
 )
 {
 return
-NS_OK
 ;
 }
 mBounds
@@ -6880,11 +6878,8 @@ NotifyRollupGeometryChange
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7012,7 +7007,6 @@ Invalidate
 ;
 }
 return
-NS_OK
 ;
 }
 mBounds
@@ -7117,11 +7111,8 @@ NotifyRollupGeometryChange
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7289,7 +7280,6 @@ Invalidate
 ;
 }
 return
-NS_OK
 ;
 }
 mBounds
@@ -7431,11 +7421,8 @@ NotifyRollupGeometryChange
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -8382,7 +8369,7 @@ logHeight
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8406,9 +8393,6 @@ bState
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 nsWindow
@@ -11938,7 +11922,7 @@ policy
 }
 #
 endif
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -11988,7 +11972,6 @@ context
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -11999,7 +11982,6 @@ mHideChrome
 aShouldHide
 )
 return
-NS_OK
 ;
 DWORD_PTR
 style
@@ -12146,9 +12128,6 @@ hwnd
 GWL_EXSTYLE
 exStyle
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -13820,7 +13799,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -13860,7 +13839,6 @@ if
 iconFile
 )
 return
-NS_OK
 ;
 nsAutoString
 iconPath
@@ -14147,9 +14125,6 @@ GetLastError
 }
 #
 endif
-return
-NS_OK
-;
 }
 LayoutDeviceIntPoint
 nsWindow
@@ -14571,7 +14546,7 @@ UnregisterSpecialDropdownHooks
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -14968,7 +14943,7 @@ return
 mLayerManager
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
