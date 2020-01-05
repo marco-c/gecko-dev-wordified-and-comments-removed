@@ -6674,6 +6674,12 @@ selectedIndex
 this
 .
 _fullZoom
+data
+.
+uaBackgroundColor
+data
+.
+uaColor
 )
 ;
 this

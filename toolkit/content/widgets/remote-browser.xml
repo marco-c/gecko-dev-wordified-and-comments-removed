@@ -3381,6 +3381,12 @@ data
 .
 selectedIndex
 zoom
+data
+.
+uaBackgroundColor
+data
+.
+uaColor
 )
 ;
 this
