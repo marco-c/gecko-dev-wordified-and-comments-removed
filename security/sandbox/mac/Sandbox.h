@@ -110,6 +110,10 @@ level
 (
 0
 )
+shouldLog
+(
+true
+)
 {
 }
 _MacSandboxInfo
@@ -175,6 +179,12 @@ other
 .
 profileDir
 )
+shouldLog
+(
+other
+.
+shouldLog
+)
 {
 }
 MacSandboxType
@@ -218,6 +228,9 @@ std
 :
 string
 profileDir
+;
+bool
+shouldLog
 ;
 }
 MacSandboxInfo
