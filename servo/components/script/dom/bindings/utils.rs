@@ -1100,7 +1100,6 @@ BoolVal
 bool
 )
 NullVal
-VoidVal
 }
 #
 [
@@ -1191,12 +1190,6 @@ b
 BooleanValue
 (
 b
-)
-VoidVal
-=
->
-UndefinedValue
-(
 )
 }
 }
