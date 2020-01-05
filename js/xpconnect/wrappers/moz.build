@@ -228,6 +228,10 @@ base
 /
 src
 '
+'
+/
+caps
+'
 ]
 if
 CONFIG
