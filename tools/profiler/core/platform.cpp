@@ -3675,9 +3675,6 @@ aSample
 nativeStack
 )
 ;
-#
-ifdef
-ENABLE_LEAF_DATA
 if
 (
 aSample
@@ -3707,8 +3704,6 @@ pc
 )
 ;
 }
-#
-endif
 }
 static
 void
@@ -8826,17 +8821,9 @@ stackwalk
 "
 #
 endif
-#
-if
-defined
-(
-ENABLE_LEAF_DATA
-)
 "
 leaf
 "
-#
-endif
 "
 java
 "
