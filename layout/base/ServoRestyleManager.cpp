@@ -582,6 +582,13 @@ if
 (
 !
 primaryFrame
+|
+|
+(
+changeHint
+&
+nsChangeHint_ReconstructFrame
+)
 )
 {
 aContent
