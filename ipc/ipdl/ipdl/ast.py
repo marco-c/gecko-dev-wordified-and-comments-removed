@@ -2577,9 +2577,6 @@ __init__
 self
 loc
 spec
-state
-=
-None
 array
 =
 0
@@ -2609,12 +2606,6 @@ self
 spec
 =
 spec
-        
-self
-.
-state
-=
-state
         
 self
 .
@@ -2653,21 +2644,6 @@ self
 spec
 .
 baseid
-    
-def
-isActor
-(
-self
-)
-:
-        
-return
-self
-.
-state
-is
-not
-None
     
 def
 __str__
