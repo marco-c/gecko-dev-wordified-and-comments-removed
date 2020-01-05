@@ -479,6 +479,12 @@ waitForAllAnimationTargets
 panel
 )
 ;
+yield
+waitForAnimationSelecting
+(
+panel
+)
+;
 }
 )
 ;

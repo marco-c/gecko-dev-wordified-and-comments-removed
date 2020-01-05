@@ -264,6 +264,12 @@ yield
 onAnimationChanged
 ;
 yield
+waitForAnimationSelecting
+(
+panel
+)
+;
+yield
 waitForAllAnimationTargets
 (
 panel
