@@ -631,12 +631,13 @@ length
 if
 (
 !
-unwrapped
--
->
+JSFunction
+:
+:
 getLength
 (
 cx
+unwrapped
 &
 length
 )
