@@ -245,11 +245,6 @@ clone
 )
 copy
 opts
-constellation_chan
-.
-clone
-(
-)
 profiler_chan
 .
 clone
