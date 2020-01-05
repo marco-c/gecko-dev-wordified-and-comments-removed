@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsImageRenderer
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h

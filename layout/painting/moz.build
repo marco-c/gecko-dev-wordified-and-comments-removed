@@ -171,6 +171,11 @@ nsDisplayListInvalidation
 .
 h
 '
+'
+nsImageRenderer
+.
+h
+'
 ]
 EXPORTS
 .
@@ -250,6 +255,11 @@ cpp
 '
 '
 nsDisplayListInvalidation
+.
+cpp
+'
+'
+nsImageRenderer
 .
 cpp
 '
