@@ -2152,6 +2152,17 @@ aCallback
 0
 ;
 virtual
+already_AddRefed
+<
+nsIScreen
+>
+GetWidgetScreen
+(
+)
+=
+0
+;
+virtual
 nsresult
 MakeFullScreen
 (
