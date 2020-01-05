@@ -6268,6 +6268,7 @@ as_ptr
 unsafe
 {
 if
+!
 Evaluate2
 (
 cx
@@ -6279,10 +6280,6 @@ code
 as_ptr
 (
 )
-as
-*
-const
-i16
 code
 .
 len
@@ -6295,9 +6292,6 @@ libc
 size_t
 rval
 )
-=
-=
-0
 {
 debug
 !

@@ -5771,6 +5771,7 @@ collect
 unsafe
 {
 if
+!
 JS_ParseJSON
 (
 cx
@@ -5779,10 +5780,6 @@ decoded
 as_ptr
 (
 )
-as
-*
-const
-i16
 decoded
 .
 len
@@ -5796,9 +5793,6 @@ handle_mut
 (
 )
 )
-=
-=
-0
 {
 JS_ClearPendingException
 (

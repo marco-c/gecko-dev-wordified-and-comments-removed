@@ -172,10 +172,8 @@ undefined
 }
 ;
 if
+!
 result
-=
-=
-0
 {
 unsafe
 {
@@ -254,9 +252,6 @@ null_mut
 (
 )
 )
-!
-=
-0
 )
 ;
 }

@@ -2123,7 +2123,7 @@ n
                     
 "
 return
-JSFalse
+false
 ;
 \
 n
@@ -3212,7 +3212,7 @@ n
                                
 "
 return
-JSFalse
+false
 ;
 "
 %
@@ -4182,7 +4182,7 @@ exceptionCode
 =
 "
 return
-JSFalse
+false
 ;
 "
     
@@ -5833,7 +5833,7 @@ handleInvalidEnumValueCode
 =
 "
 return
-JSTrue
+true
 ;
 "
         
@@ -6313,9 +6313,6 @@ to_object
 (
 )
 )
-!
-=
-0
 "
                                        
 conversion
@@ -6782,7 +6779,7 @@ _
 =
 >
 return
-JSFalse
+false
 \
 n
 "
@@ -6939,7 +6936,7 @@ failureCode
 =
 '
 return
-JSFalse
+false
 '
     
 declType
@@ -8233,7 +8230,7 @@ successCode
 =
 '
 return
-JSTrue
+true
 ;
 '
 pre
@@ -12435,7 +12432,7 @@ js
 jsapi
 :
 :
-_Z24JS_GlobalObjectTraceHookP8JSTracerP8JSObject
+JS_GlobalObjectTraceHook
 )
 "
             
@@ -12702,7 +12699,7 @@ None
             
 isWrappedNative
 :
-0
+false
             
 weakmapKeyDelegateOp
 :
@@ -19126,7 +19123,7 @@ isFallible
 errorResult
 =
 "
-JSFalse
+false
 "
         
 cgThings
@@ -19968,7 +19965,7 @@ return
 "
 \
 nreturn
-JSTrue
+true
 ;
 "
     
@@ -20118,7 +20115,7 @@ self
 descriptor
 name
 "
-u8
+bool
 "
 args
 extern
@@ -20308,7 +20305,7 @@ self
 descriptor
 name
 '
-u8
+bool
 '
 args
 )
@@ -20390,6 +20387,8 @@ let
 argc
 =
 args
+.
+_base
 .
 argc_
 ;
@@ -20712,7 +20711,7 @@ self
 descriptor
 name
 "
-u8
+bool
 "
 args
 )
@@ -21145,7 +21144,7 @@ self
 descriptor
 name
 "
-u8
+bool
 "
 args
 )
@@ -21408,7 +21407,7 @@ n
             
 "
 return
-JSFalse
+false
 ;
 \
 n
@@ -21596,6 +21595,7 @@ UndefinedValue
 )
 ;
 if
+!
 JS_GetProperty
 (
 cx
@@ -21619,13 +21619,10 @@ handle_mut
 (
 )
 )
-=
-=
-0
 {
     
 return
-JSFalse
+false
 ;
 }
 if
@@ -21657,7 +21654,7 @@ object
 ;
     
 return
-JSFalse
+false
 ;
 }
 let
@@ -21905,7 +21902,7 @@ fill
 JSJitInfo
 {
                     
-_bindgen_data_1_
+call
 :
 {
 opName
@@ -21942,42 +21939,31 @@ depth
                     
 _bitfield_1
 :
+                        
+JSJitInfo
+:
+:
+new_bitfield_1
 (
-(
-JSJitInfo_OpType
+                            
+OpType
 :
 :
 {
 opType
 }
 as
-u32
-)
-<
-<
-0
-)
-|
-                                 
-(
-(
-JSJitInfo_AliasSet
+u8
+                            
+AliasSet
 :
 :
 {
 aliasSet
 }
 as
-u32
-)
-<
-<
-4
-)
-|
-                                 
-(
-(
+u8
+                            
 JSValueType
 :
 :
@@ -21985,95 +21971,34 @@ JSValueType
 returnType
 }
 as
-u32
-)
-<
-<
-8
-)
-|
-                                 
-(
-(
+u8
+                            
 {
 isInfallible
 }
-as
-u32
-)
-<
-<
-16
-)
-|
-                                 
-(
-(
+                            
 {
 isMovable
 }
-as
-u32
-)
-<
-<
-17
-)
-|
-                                 
-(
-(
+                            
 {
 isAlwaysInSlot
 }
-as
-u32
-)
-<
-<
-18
-)
-|
-                                 
-(
-(
+                            
 {
 isLazilyCachedInSlot
 }
-as
-u32
-)
-<
-<
-19
-)
-|
-                                 
-(
-(
+                            
 {
 isTypedMethod
 }
-as
-u32
-)
-<
-<
-20
-)
-|
-                                 
-(
-(
+                            
 {
 slotIndex
 }
 as
-u32
-)
-<
-<
-21
+u16
+                        
 )
                 
 }
@@ -28666,7 +28591,7 @@ exceptionCode
 =
 "
 return
-JSFalse
+false
 ;
 "
 )
@@ -29628,7 +29553,7 @@ getOwnPropertyDescriptor
 "
                                         
 "
-u8
+bool
 "
 args
 )
@@ -29764,7 +29689,7 @@ n
                               
 "
 return
-JSTrue
+true
 ;
 "
 %
@@ -29969,7 +29894,7 @@ n
                               
 "
 return
-JSTrue
+true
 ;
 "
 %
@@ -30037,9 +29962,6 @@ RUST_JSID_IS_STRING
 (
 id
 )
-!
-=
-0
 &
 &
 !
@@ -30152,6 +30074,7 @@ is_null
 {
     
 if
+!
 JS_GetPropertyDescriptorById
 (
 cx
@@ -30163,13 +30086,10 @@ handle
 id
 desc
 )
-=
-=
-0
 {
         
 return
-JSFalse
+false
 ;
     
 }
@@ -30215,7 +30135,7 @@ ptr
 ;
         
 return
-JSTrue
+true
 ;
     
 }
@@ -30246,7 +30166,7 @@ null_mut
 )
 ;
 return
-JSTrue
+true
 ;
 "
 "
@@ -30353,7 +30273,7 @@ descriptor
 defineProperty
 "
 "
-u8
+bool
 "
 args
 )
@@ -30471,7 +30391,7 @@ define
                     
 "
 return
-JSTrue
+true
 ;
 \
 n
@@ -30521,7 +30441,7 @@ n
                     
 "
 return
-JSFalse
+false
 ;
 \
 n
@@ -30589,9 +30509,6 @@ RUST_JSID_IS_STRING
 (
 id
 )
-!
-=
-0
 {
 \
 n
@@ -30638,7 +30555,7 @@ n
                     
 "
 return
-JSTrue
+true
 ;
 \
 n
@@ -30656,7 +30573,7 @@ n
                     
 "
 return
-JSFalse
+false
 ;
 \
 n
@@ -30683,9 +30600,6 @@ RUST_JSID_IS_STRING
 (
 id
 )
-!
-=
-0
 {
 \
 n
@@ -30794,7 +30708,7 @@ n
                     
 "
 return
-JSTrue
+true
 ;
 \
 n
@@ -30833,7 +30747,7 @@ n
                     
 "
 return
-JSTrue
+true
 ;
 \
 n
@@ -30982,7 +30896,7 @@ descriptor
 delete
 "
 "
-u8
+bool
 "
 args
 )
@@ -31045,8 +30959,6 @@ delete
 %
 s
 )
-as
-u8
 ;
 "
 %
@@ -31148,7 +31060,7 @@ descriptor
 own_property_keys
 "
 "
-u8
+bool
 "
 args
 )
@@ -31461,7 +31373,7 @@ props
 }
             
 return
-JSTrue
+true
 ;
             
 "
@@ -31541,7 +31453,7 @@ Argument
 '
 *
 mut
-u8
+bool
 '
 '
 bp
@@ -31559,7 +31471,7 @@ descriptor
 hasOwn
 "
 "
-u8
+bool
 "
 args
 )
@@ -31679,8 +31591,6 @@ n
 bp
 =
 found
-as
-u8
 ;
 \
 n
@@ -31689,7 +31599,7 @@ n
                        
 "
 return
-JSTrue
+true
 ;
 \
 n
@@ -31739,9 +31649,6 @@ RUST_JSID_IS_STRING
 (
 id
 )
-!
-=
-0
 &
 &
 !
@@ -31782,8 +31689,6 @@ n
 bp
 =
 found
-as
-u8
 ;
 \
 n
@@ -31791,7 +31696,7 @@ n
                      
 "
 return
-JSTrue
+true
 ;
 \
 n
@@ -31854,10 +31759,8 @@ is_null
 let
 mut
 b
-:
-u8
 =
-1
+true
 ;
     
 let
@@ -31876,22 +31779,12 @@ id
 mut
 b
 )
-!
-=
-0
 ;
     
 *
 bp
 =
-(
 b
-!
-=
-0
-)
-as
-u8
 ;
     
 if
@@ -31901,15 +31794,10 @@ ok
 |
 *
 bp
-!
-=
-0
 {
         
 return
 ok
-as
-u8
 ;
     
 }
@@ -31927,10 +31815,10 @@ named
 *
 bp
 =
-JSFalse
+false
 ;
 return
-JSTrue
+true
 ;
 "
 "
@@ -32031,7 +31919,7 @@ descriptor
 get
 "
 "
-u8
+bool
 "
 args
 )
@@ -32085,10 +31973,11 @@ let
 mut
 hasProp
 =
-0
+false
 ;
     
 if
+!
 JS_HasPropertyById
 (
 cx
@@ -32102,26 +31991,19 @@ id
 mut
 hasProp
 )
-=
-=
-0
 {
         
 return
-JSFalse
+false
 ;
     
 }
     
 if
 hasProp
-!
-=
-0
 {
         
 return
-(
 JS_GetPropertyById
 (
 cx
@@ -32133,12 +32015,6 @@ handle
 id
 vp
 )
-!
-=
-0
-)
-as
-u8
 ;
     
 }
@@ -32165,7 +32041,7 @@ successCode
 :
 '
 return
-JSTrue
+true
 ;
 '
         
@@ -32367,9 +32243,6 @@ RUST_JSID_IS_STRING
 (
 id
 )
-!
-=
-0
 {
 \
 n
@@ -32462,7 +32335,7 @@ vp
 {
     
 return
-JSFalse
+false
 ;
 }
 if
@@ -32470,7 +32343,7 @@ found
 {
     
 return
-JSTrue
+true
 ;
 }
 %
@@ -32485,7 +32358,7 @@ UndefinedValue
 )
 ;
 return
-JSTrue
+true
 ;
 "
 "
@@ -33124,7 +32997,7 @@ descriptor
 CONSTRUCT_HOOK_NAME
                                         
 '
-u8
+bool
 '
 args
 )
@@ -33371,7 +33244,7 @@ identifier
 name
                                         
 '
-u8
+bool
 '
 args
 )
@@ -37867,8 +37740,8 @@ jsapi
 JSString
 JSTracer
 JSJitInfo
-JSJitInfo_OpType
-JSJitInfo_AliasSet
+OpType
+AliasSet
 }
 '
             
@@ -38055,16 +37928,6 @@ rust
 :
 :
 GCMethods
-'
-            
-'
-js
-:
-:
-{
-JSTrue
-JSFalse
-}
 '
             
 '
@@ -42301,10 +42164,8 @@ n
             
 "
 if
+!
 ok
-=
-=
-0
 {
 \
 n
@@ -42643,9 +42504,6 @@ callback
 (
 )
 )
-!
-=
-0
 }
 ;
 \
