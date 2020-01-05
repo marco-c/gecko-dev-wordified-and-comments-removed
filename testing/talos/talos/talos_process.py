@@ -913,6 +913,10 @@ timeout_message
 finally
 :
         
+return_code
+=
+None
+        
 try
 :
             
