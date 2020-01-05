@@ -1537,8 +1537,10 @@ return
 maxISize
 ;
 }
-static
 nscoord
+nsTableWrapperFrame
+:
+:
 ChildShrinkWrapISize
 (
 nsRenderingContext
@@ -1556,9 +1558,8 @@ aAvailableISize
 nscoord
 *
 aMarginResult
-=
-nullptr
 )
+const
 {
 AutoMaybeDisableFontInflation
 an
