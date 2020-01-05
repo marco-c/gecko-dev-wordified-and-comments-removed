@@ -36,9 +36,9 @@ spec
 mv
 spec
 /
-interpreter
-/
 test
+/
+core
 /
 *
 .
