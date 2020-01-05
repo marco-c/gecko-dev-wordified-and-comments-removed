@@ -535,6 +535,9 @@ mClauses
 TextRange
 mCaret
 ;
+bool
+mReplacedNativeLineBreakers
+;
 void
 EnsureClauseArray
 (
