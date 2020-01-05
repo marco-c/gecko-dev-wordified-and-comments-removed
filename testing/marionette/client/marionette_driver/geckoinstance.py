@@ -2263,17 +2263,6 @@ enabled
 False
         
 '
-browser
-.
-usedOnWindows10
-.
-introURL
-'
-:
-'
-'
-        
-'
 extensions
 .
 getAddons
