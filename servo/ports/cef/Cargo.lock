@@ -209,7 +209,7 @@ rust
 -
 mozjs
 #
-41fb0d80a5ed5614ca13a120cdb3281e599d4e04
+0d1700b4bb5981f75a4c75b7df75d8f28e499479
 )
 "
 "
@@ -3306,7 +3306,7 @@ rust
 -
 mozjs
 #
-41fb0d80a5ed5614ca13a120cdb3281e599d4e04
+0d1700b4bb5981f75a4c75b7df75d8f28e499479
 "
 dependencies
 =
@@ -4833,7 +4833,7 @@ rust
 -
 mozjs
 #
-41fb0d80a5ed5614ca13a120cdb3281e599d4e04
+0d1700b4bb5981f75a4c75b7df75d8f28e499479
 )
 "
 "
