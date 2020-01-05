@@ -4465,6 +4465,12 @@ UntypedActionResultHolderBase
 {
 public
 :
+explicit
+ActionResultHolder
+(
+)
+{
+}
 void
 GetValueAndDelete
 (
@@ -4534,7 +4540,10 @@ call_description
 )
 ;
 return
-NULL
+new
+ActionResultHolder
+(
+)
 ;
 }
 template
@@ -4575,7 +4584,10 @@ args
 )
 ;
 return
-NULL
+new
+ActionResultHolder
+(
+)
 ;
 }
 }
