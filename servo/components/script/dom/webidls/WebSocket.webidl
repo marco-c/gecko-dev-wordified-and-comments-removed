@@ -175,7 +175,7 @@ unsigned
 short
 code
 optional
-DOMString
+USVString
 reason
 )
 ;
@@ -197,7 +197,7 @@ unsigned
 short
 code
 optional
-DOMString
+USVString
 reason
 )
 ;
@@ -230,7 +230,7 @@ void
 send
 (
 optional
-DOMString
+USVString
 data
 )
 ;
