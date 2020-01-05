@@ -74,7 +74,12 @@ index
 js
 '
 '
-sidebar
+requests
+.
+js
+'
+'
+ui
 .
 js
 '
