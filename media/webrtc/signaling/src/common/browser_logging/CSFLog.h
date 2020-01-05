@@ -11,9 +11,6 @@ stdarg
 .
 h
 >
-struct
-PRLogModuleInfo
-;
 typedef
 enum
 {
@@ -288,13 +285,6 @@ char
 format
 va_list
 args
-)
-;
-struct
-PRLogModuleInfo
-*
-GetSignalingLogInfo
-(
 )
 ;
 #

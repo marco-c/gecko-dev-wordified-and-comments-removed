@@ -155,6 +155,9 @@ aLine
 ;
 }
 }
+class
+PRLogModuleInfo
+;
 namespace
 mozilla
 {
