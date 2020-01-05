@@ -2193,7 +2193,7 @@ Otherwise
 will
 be
 true
-if
+iff
 LOAD_DOCUMENT_URI
 is
 set
