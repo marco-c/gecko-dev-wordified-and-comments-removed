@@ -1343,7 +1343,10 @@ as_ptr
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 rval
 .
 handle

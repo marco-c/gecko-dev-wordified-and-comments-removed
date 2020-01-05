@@ -10327,7 +10327,10 @@ name
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 \
 n
 '
@@ -10886,7 +10889,10 @@ name
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 \
 n
 '
@@ -21413,7 +21419,10 @@ u8
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 v
 .
 handle_mut
@@ -21496,7 +21505,10 @@ u8
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 args
 .
 get
