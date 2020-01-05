@@ -26,6 +26,12 @@ scale_factor
 ScaleFactor
 ;
 use
+serialize
+:
+:
+Encodable
+;
+use
 servo_util
 :
 :
@@ -149,6 +155,13 @@ Option
 SubpageId
 >
 }
+#
+[
+deriving
+(
+Encodable
+)
+]
 pub
 struct
 WindowSizeData
