@@ -183,7 +183,7 @@ override
 explicit
 CompositorBridgeChild
 (
-LayerManager
+ClientLayerManager
 *
 aLayerManager
 )
@@ -243,7 +243,7 @@ const
 uint64_t
 &
 aProcessToken
-LayerManager
+ClientLayerManager
 *
 aLayerManager
 Endpoint
@@ -492,17 +492,15 @@ override
 ;
 virtual
 void
-FatalError
+HandleFatalError
 (
 const
 char
 *
-const
 aName
 const
 char
 *
-const
 aMsg
 )
 const
@@ -1173,7 +1171,7 @@ mAPZCId
 ;
 RefPtr
 <
-LayerManager
+ClientLayerManager
 >
 mLayerManager
 ;
