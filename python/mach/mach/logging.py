@@ -537,6 +537,9 @@ tigetstr
 sgr0
 '
 )
+or
+'
+'
 if
 terminal
 and
