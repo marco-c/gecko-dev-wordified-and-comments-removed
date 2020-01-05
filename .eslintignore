@@ -354,6 +354,8 @@ tabview
 *
 #
 generated
+&
+special
 files
 in
 cld2
@@ -365,11 +367,8 @@ translation
 /
 cld2
 /
-cld
--
-worker
-.
-js
+*
+*
 browser
 /
 extensions

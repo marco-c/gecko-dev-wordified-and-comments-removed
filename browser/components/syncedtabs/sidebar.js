@@ -102,8 +102,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 syncedTabsDeckComponent
 =
 new

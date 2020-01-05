@@ -4863,6 +4863,7 @@ allTags
 ;
 for
 (
+let
 tag
 of
 allTags
@@ -5934,6 +5935,7 @@ menupopup
 ;
 for
 (
+let
 menuitem
 of
 menupopup
