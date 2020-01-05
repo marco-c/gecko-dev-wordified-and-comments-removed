@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_BASE_HTTP
 =
