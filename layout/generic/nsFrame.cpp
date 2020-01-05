@@ -2351,7 +2351,7 @@ aPresShell
 nsFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 None
@@ -2366,7 +2366,7 @@ nsFrame
 nsStyleContext
 *
 aContext
-FrameType
+LayoutFrameType
 aType
 )
 :
@@ -2555,7 +2555,7 @@ GetContent
 (
 )
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -2604,7 +2604,7 @@ IsFloating
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Letter
@@ -4187,7 +4187,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 this
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -17660,7 +17660,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 this
-FrameType
+LayoutFrameType
 :
 :
 Scrollbar
@@ -18583,7 +18583,7 @@ nullptr
 )
 ;
 }
-FrameType
+LayoutFrameType
 type
 =
 aFrame
@@ -18598,7 +18598,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -18631,7 +18631,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -28290,7 +28290,7 @@ this
 #
 ifdef
 DEBUG
-FrameType
+LayoutFrameType
 frameType
 =
 Type
@@ -28302,7 +28302,7 @@ NS_ASSERTION
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SubDocument
@@ -28311,7 +28311,7 @@ SubDocument
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ListControl
@@ -28320,7 +28320,7 @@ ListControl
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Object
@@ -28329,7 +28329,7 @@ Object
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -28338,7 +28338,7 @@ Viewport
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 MenuPopup
@@ -42050,7 +42050,7 @@ StyleDisplay
 (
 )
 ;
-FrameType
+LayoutFrameType
 fType
 =
 aFrame
@@ -42075,7 +42075,7 @@ disp
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -42084,7 +42084,7 @@ Scroll
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ListControl
@@ -42093,7 +42093,7 @@ ListControl
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGOuterSVG
@@ -50948,7 +50948,7 @@ Init
 void
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 aFrameType
 const
 char
@@ -50964,7 +50964,7 @@ DR_FrameTypeInfo
 *
 GetFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -51171,7 +51171,7 @@ DR_RulePart
 explicit
 DR_RulePart
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 :
@@ -51190,7 +51190,7 @@ Destroy
 (
 )
 ;
-FrameType
+LayoutFrameType
 mFrameType
 ;
 DR_RulePart
@@ -51275,7 +51275,7 @@ DR_Rule
 void
 AddPart
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -51297,7 +51297,7 @@ DR_Rule
 :
 AddPart
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -51332,7 +51332,7 @@ DR_FrameTypeInfo
 {
 DR_FrameTypeInfo
 (
-FrameType
+LayoutFrameType
 aFrameType
 const
 char
@@ -51389,7 +51389,7 @@ i
 ;
 }
 }
-FrameType
+LayoutFrameType
 mType
 ;
 char
@@ -51432,7 +51432,7 @@ DR_FrameTypeInfo
 :
 DR_FrameTypeInfo
 (
-FrameType
+LayoutFrameType
 aFrameType
 const
 char
@@ -52227,7 +52227,7 @@ rule
 >
 AddPart
 (
-FrameType
+LayoutFrameType
 :
 :
 None
@@ -52454,7 +52454,7 @@ rule
 mTarget
 )
 {
-FrameType
+LayoutFrameType
 fType
 =
 rule
@@ -52520,7 +52520,7 @@ DR_State
 :
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 aFrameType
 const
 char
@@ -52552,7 +52552,7 @@ DR_State
 :
 GetFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -52750,7 +52750,7 @@ InitFrameTypeTable
 {
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -52764,7 +52764,7 @@ block
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -52778,7 +52778,7 @@ br
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Bullet
@@ -52792,7 +52792,7 @@ bullet
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 ColorControl
@@ -52806,7 +52806,7 @@ colorControl
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 GfxButtonControl
@@ -52820,7 +52820,7 @@ gfxButtonControl
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 HTMLButtonControl
@@ -52834,7 +52834,7 @@ HTMLButtonControl
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 HTMLCanvas
@@ -52848,7 +52848,7 @@ HTMLCanvas
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 SubDocument
@@ -52862,7 +52862,7 @@ subDocument
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Image
@@ -52876,7 +52876,7 @@ image
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Inline
@@ -52890,7 +52890,7 @@ inline
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Letter
@@ -52904,7 +52904,7 @@ letter
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Line
@@ -52918,7 +52918,7 @@ line
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 ListControl
@@ -52932,7 +52932,7 @@ select
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Object
@@ -52946,7 +52946,7 @@ object
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Page
@@ -52960,7 +52960,7 @@ page
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -52974,7 +52974,7 @@ placeholder
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -52988,7 +52988,7 @@ canvas
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Root
@@ -53002,7 +53002,7 @@ root
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -53016,7 +53016,7 @@ scroll
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TableCell
@@ -53030,7 +53030,7 @@ tableCell
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell
@@ -53044,7 +53044,7 @@ bcTableCell
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TableCol
@@ -53058,7 +53058,7 @@ tableCol
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup
@@ -53072,7 +53072,7 @@ tableColGroup
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -53086,7 +53086,7 @@ table
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -53100,7 +53100,7 @@ tableWrapper
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -53114,7 +53114,7 @@ tableRowGroup
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -53128,7 +53128,7 @@ tableRow
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 TextInput
@@ -53142,7 +53142,7 @@ textInput
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -53156,7 +53156,7 @@ text
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -53173,7 +53173,7 @@ ifdef
 MOZ_XUL
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 XULLabel
@@ -53187,7 +53187,7 @@ XULLabel
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Box
@@ -53201,7 +53201,7 @@ Box
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 Slider
@@ -53215,7 +53215,7 @@ Slider
 ;
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 PopupSet
@@ -53231,7 +53231,7 @@ PopupSet
 endif
 AddFrameTypeInfo
 (
-FrameType
+LayoutFrameType
 :
 :
 None
@@ -53477,7 +53477,7 @@ rulePart
 mFrameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 None

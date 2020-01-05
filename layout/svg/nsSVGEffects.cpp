@@ -389,7 +389,7 @@ nsSVGRenderingObserver
 :
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 aFrameType
 bool
 *
@@ -861,7 +861,7 @@ nsSVGFilterFrame
 (
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGFilter
@@ -2624,7 +2624,7 @@ result
 return
 nullptr
 ;
-FrameType
+LayoutFrameType
 type
 =
 result
@@ -2639,7 +2639,7 @@ if
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGLinearGradient
@@ -2648,7 +2648,7 @@ SVGLinearGradient
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGRadialGradient
@@ -2657,7 +2657,7 @@ SVGRadialGradient
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGPattern
@@ -2711,7 +2711,7 @@ mClipPath
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGClipPath
@@ -2814,7 +2814,7 @@ i
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGMask
@@ -2904,7 +2904,7 @@ mClipPath
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGClipPath
@@ -3009,7 +3009,7 @@ i
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGMask

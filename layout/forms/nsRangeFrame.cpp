@@ -246,7 +246,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Range

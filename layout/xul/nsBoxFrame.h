@@ -548,7 +548,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Box
@@ -670,7 +670,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 bool
 aIsRoot

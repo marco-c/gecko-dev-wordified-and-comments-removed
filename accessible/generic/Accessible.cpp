@@ -3354,7 +3354,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 canvasFrame
-FrameType
+LayoutFrameType
 :
 :
 HTMLCanvas

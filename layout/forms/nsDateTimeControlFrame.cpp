@@ -181,7 +181,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 DateTimeControl

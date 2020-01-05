@@ -479,7 +479,7 @@ aFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 const
 LogicalRect

@@ -606,7 +606,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -1152,7 +1152,7 @@ GetTableFrame
 (
 )
 ;
-FrameType
+LayoutFrameType
 cellFrameType
 =
 tableFrame
@@ -1162,12 +1162,12 @@ IsBorderCollapse
 (
 )
 ?
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell
 :
-FrameType
+LayoutFrameType
 :
 :
 TableCell

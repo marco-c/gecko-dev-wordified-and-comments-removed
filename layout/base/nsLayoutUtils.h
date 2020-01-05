@@ -314,7 +314,7 @@ EventListenerManager
 ;
 enum
 class
-FrameType
+LayoutFrameType
 :
 uint8_t
 ;
@@ -1004,7 +1004,7 @@ aFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 nsIFrame
 *

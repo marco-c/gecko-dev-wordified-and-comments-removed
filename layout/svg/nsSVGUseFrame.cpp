@@ -79,7 +79,7 @@ aContext
 nsSVGGFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGUse

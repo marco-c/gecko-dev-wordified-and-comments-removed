@@ -247,7 +247,7 @@ aContext
 SVGGeometryFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGImage

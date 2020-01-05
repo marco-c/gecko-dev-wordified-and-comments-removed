@@ -15165,7 +15165,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 type
 =
 aFrame
@@ -15180,7 +15180,7 @@ if
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 TableCell
@@ -15189,7 +15189,7 @@ TableCell
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell

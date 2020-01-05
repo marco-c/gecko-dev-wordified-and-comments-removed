@@ -296,7 +296,7 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGOuterSVG

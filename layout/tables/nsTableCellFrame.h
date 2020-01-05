@@ -177,7 +177,7 @@ aTableFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 TableCell
@@ -837,7 +837,7 @@ aTableFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 ;

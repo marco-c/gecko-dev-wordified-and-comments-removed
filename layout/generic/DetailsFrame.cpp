@@ -127,7 +127,7 @@ aContext
 nsBlockFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Details

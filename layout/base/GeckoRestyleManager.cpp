@@ -3409,7 +3409,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -3424,7 +3424,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -3485,7 +3485,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Backdrop
@@ -6882,7 +6882,7 @@ return
 false
 ;
 }
-FrameType
+LayoutFrameType
 type
 =
 child
@@ -6897,7 +6897,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Letter
@@ -6906,7 +6906,7 @@ Letter
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Line
@@ -8285,7 +8285,7 @@ false
 return
 ;
 }
-FrameType
+LayoutFrameType
 type
 =
 aSelf
@@ -8300,7 +8300,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Letter
@@ -8336,7 +8336,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Line

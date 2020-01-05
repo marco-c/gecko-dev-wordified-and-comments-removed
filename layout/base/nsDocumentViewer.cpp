@@ -9592,7 +9592,7 @@ Type
 )
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 None

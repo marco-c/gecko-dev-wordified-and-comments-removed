@@ -751,7 +751,7 @@ result
 return
 nullptr
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 result
@@ -766,7 +766,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGFilter

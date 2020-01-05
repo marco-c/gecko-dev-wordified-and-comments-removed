@@ -24496,7 +24496,7 @@ GetWritingMode
 break
 ;
 }
-FrameType
+LayoutFrameType
 frameType
 =
 cbRI
@@ -24515,7 +24515,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -24535,7 +24535,7 @@ IsPaginated
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ColumnSet

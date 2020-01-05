@@ -335,7 +335,7 @@ IsAtomicElement
 nsIFrame
 *
 aFrame
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -370,7 +370,7 @@ NS_PRECONDITION
 aFrameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -1876,7 +1876,7 @@ aClippedMarkerEdges
 )
 {
 const
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -1891,7 +1891,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -1900,7 +1900,7 @@ Br
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -2045,7 +2045,7 @@ isAtomic
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -2108,7 +2108,7 @@ AnalyzeMarkerEdges
 nsIFrame
 *
 aFrame
-FrameType
+LayoutFrameType
 aFrameType
 const
 LogicalRect
@@ -2322,7 +2322,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text

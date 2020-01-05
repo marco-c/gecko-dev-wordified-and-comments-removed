@@ -660,7 +660,7 @@ aContext
 nsLeafFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 None
@@ -722,7 +722,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 FrameSet
@@ -7017,7 +7017,7 @@ aVisibility
 nsLeafFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 None

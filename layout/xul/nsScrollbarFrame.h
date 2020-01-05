@@ -37,7 +37,6 @@ aContext
 ;
 class
 nsScrollbarFrame
-final
 :
 public
 nsBoxFrame
@@ -58,7 +57,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Scrollbar

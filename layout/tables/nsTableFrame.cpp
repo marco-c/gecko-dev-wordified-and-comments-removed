@@ -746,7 +746,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -6040,7 +6040,7 @@ static
 bool
 IsFrameAllowedInTable
 (
-FrameType
+LayoutFrameType
 aType
 )
 {
@@ -6051,7 +6051,7 @@ aType
 )
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -6060,7 +6060,7 @@ TableRow
 aType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -6069,7 +6069,7 @@ TableRowGroup
 aType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -6078,7 +6078,7 @@ Scroll
 aType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -6087,7 +6087,7 @@ Table
 aType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableCol
@@ -6096,7 +6096,7 @@ TableCol
 aType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup
@@ -6164,7 +6164,7 @@ nsDisplayItem
 aItem
 )
 {
-FrameType
+LayoutFrameType
 type
 =
 aItem
@@ -6184,7 +6184,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -6197,7 +6197,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -6210,7 +6210,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -8477,7 +8477,7 @@ rs
 mParentReflowInput
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 rs
@@ -8499,7 +8499,7 @@ frameType
 |
 |
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -8510,7 +8510,7 @@ frameType
 |
 |
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -8574,7 +8574,7 @@ true
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -8792,7 +8792,7 @@ rs
 mParentReflowInput
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 rs
@@ -8813,7 +8813,7 @@ frameType
 )
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -8822,7 +8822,7 @@ TableRow
 frameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -8831,7 +8831,7 @@ TableRowGroup
 frameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -8858,7 +8858,7 @@ NS_FRAME_CONTAINS_RELATIVE_BSIZE
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -12161,7 +12161,7 @@ GetFrameAtOrBefore
 (
 this
 aPrevFrame
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup
@@ -19633,7 +19633,7 @@ aParentFrame
 nsIFrame
 *
 aPriorChildFrame
-FrameType
+LayoutFrameType
 aChildType
 )
 {
@@ -20213,7 +20213,7 @@ mColGroups
 {
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup

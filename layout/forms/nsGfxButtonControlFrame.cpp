@@ -93,7 +93,7 @@ aContext
 nsHTMLButtonControlFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 GfxButtonControl

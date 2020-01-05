@@ -118,7 +118,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 HTMLCanvas

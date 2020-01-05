@@ -663,7 +663,7 @@ nsHTMLScrollFrame
 nsStyleContext
 *
 aContext
-FrameType
+LayoutFrameType
 aType
 bool
 aIsRoot
@@ -5196,7 +5196,7 @@ aClipAllDescendants
 nsBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Scroll

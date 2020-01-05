@@ -417,7 +417,7 @@ nsBoxFrame
 nsStyleContext
 *
 aContext
-FrameType
+LayoutFrameType
 aType
 bool
 aIsRoot
@@ -8705,7 +8705,6 @@ NS_OK
 }
 class
 nsDisplayXULEventRedirector
-final
 :
 public
 nsDisplayWrapList
@@ -8997,7 +8996,6 @@ mTargetFrame
 }
 class
 nsXULEventRedirectorWrapper
-final
 :
 public
 nsDisplayWrapper

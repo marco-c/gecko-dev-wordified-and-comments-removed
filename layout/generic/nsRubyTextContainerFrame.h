@@ -178,7 +178,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer

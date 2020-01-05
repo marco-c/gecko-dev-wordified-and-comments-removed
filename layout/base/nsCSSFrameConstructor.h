@@ -1327,7 +1327,7 @@ GetParentType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;

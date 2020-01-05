@@ -220,7 +220,7 @@ GetReferencedFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 bool
 *

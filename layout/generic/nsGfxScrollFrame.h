@@ -4207,7 +4207,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -4223,7 +4223,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 bool
 aIsRoot

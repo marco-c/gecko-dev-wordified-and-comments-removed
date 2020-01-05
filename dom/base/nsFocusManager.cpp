@@ -12501,7 +12501,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-FrameType
+LayoutFrameType
 :
 :
 MenuPopup
@@ -13300,7 +13300,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-FrameType
+LayoutFrameType
 :
 :
 MenuPopup

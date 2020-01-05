@@ -87,7 +87,7 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGA

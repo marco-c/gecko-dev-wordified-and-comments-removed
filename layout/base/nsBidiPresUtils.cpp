@@ -2267,7 +2267,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -2294,7 +2294,7 @@ eBidiInlineContainer
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Line
@@ -2304,7 +2304,7 @@ Line
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -5040,7 +5040,7 @@ aLineIter
 content
 )
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 frame
@@ -5052,7 +5052,7 @@ Type
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -5535,7 +5535,7 @@ next
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -6900,7 +6900,7 @@ LogicalMargin
 aBorderPadding
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -6960,7 +6960,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -7093,7 +7093,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer
@@ -7217,7 +7217,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBase
@@ -7226,7 +7226,7 @@ RubyBase
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText

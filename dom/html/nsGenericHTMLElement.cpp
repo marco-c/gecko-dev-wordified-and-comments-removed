@@ -1327,12 +1327,12 @@ static
 bool
 IS_TABLE_CELL
 (
-FrameType
+LayoutFrameType
 frameType
 )
 {
 return
-FrameType
+LayoutFrameType
 :
 :
 TableCell
@@ -1341,7 +1341,7 @@ TableCell
 frameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell
@@ -1359,7 +1359,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -1380,7 +1380,7 @@ frameType
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table

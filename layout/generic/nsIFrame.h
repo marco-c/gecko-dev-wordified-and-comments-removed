@@ -446,7 +446,7 @@ mozilla
 {
 enum
 class
-FrameType
+LayoutFrameType
 :
 uint8_t
 {
@@ -1613,7 +1613,7 @@ nsIFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 :
@@ -6375,7 +6375,7 @@ const
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 Type
 (
 )
@@ -6403,7 +6403,9 @@ Frame
 (
 )
 const
+\
 {
+\
 return
 mType
 =
@@ -6411,11 +6413,12 @@ mType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 name_
 ;
+\
 }
 #
 include
@@ -8714,7 +8717,7 @@ mWritingMode
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 mType
 ;
 virtual

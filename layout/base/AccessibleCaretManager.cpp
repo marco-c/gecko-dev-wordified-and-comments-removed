@@ -5512,7 +5512,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 anchorFrame
-FrameType
+LayoutFrameType
 :
 :
 Scroll

@@ -215,7 +215,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -7954,7 +7954,7 @@ GetFrameAtOrBefore
 (
 this
 aPrevFrame
-FrameType
+LayoutFrameType
 :
 :
 TableRow

@@ -2664,7 +2664,7 @@ base
 #
 ifdef
 DEBUG
-FrameType
+LayoutFrameType
 baseType
 =
 baseFrame
@@ -2677,7 +2677,7 @@ Type
 (
 )
 ;
-FrameType
+LayoutFrameType
 annotationType
 =
 aFrame
@@ -2696,7 +2696,7 @@ MOZ_ASSERT
 baseType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer
@@ -2705,7 +2705,7 @@ RubyBaseContainer
 annotationType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -2716,7 +2716,7 @@ RubyTextContainer
 baseType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBase
@@ -2725,7 +2725,7 @@ RubyBase
 annotationType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText
@@ -3877,7 +3877,7 @@ allowed
 "
 )
 ;
-FrameType
+LayoutFrameType
 fType
 =
 aFrame
@@ -3892,7 +3892,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -4087,7 +4087,7 @@ InlineTable
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 HTMLButtonControl
@@ -4096,7 +4096,7 @@ HTMLButtonControl
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GfxButtonControl
@@ -4105,7 +4105,7 @@ GfxButtonControl
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FieldSet
@@ -4114,7 +4114,7 @@ FieldSet
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ComboboxDisplay
@@ -4447,7 +4447,7 @@ LineIsEmpty
 !
 mImpactedByFloats
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -4463,7 +4463,7 @@ isText
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -4883,7 +4883,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 None
@@ -4906,7 +4906,7 @@ else
 {
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -5115,7 +5115,7 @@ TextIsOnlyWhitespace
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -5140,7 +5140,7 @@ else
 {
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Letter
@@ -5749,7 +5749,7 @@ false
 }
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -8713,7 +8713,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 aFrame
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -13744,7 +13744,7 @@ aPFD
 >
 mFrame
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 frame
@@ -13759,7 +13759,7 @@ MOZ_ASSERT
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText
@@ -13768,7 +13768,7 @@ RubyText
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -13826,7 +13826,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText
@@ -13867,7 +13867,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText
