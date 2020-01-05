@@ -2566,7 +2566,7 @@ configure
 _import
 =
 '
-DependsFunction
+SandboxDependsFunction
 '
 )
 def
@@ -2579,7 +2579,7 @@ if
 isinstance
 (
 obj
-DependsFunction
+SandboxDependsFunction
 )
 :
 return

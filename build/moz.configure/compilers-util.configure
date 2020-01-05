@@ -104,7 +104,7 @@ configure
 _import
 =
 '
-DependsFunction
+SandboxDependsFunction
 '
 )
 def
@@ -116,7 +116,7 @@ compiler
 class
 Compiler
 (
-DependsFunction
+SandboxDependsFunction
 )
 :
 #
