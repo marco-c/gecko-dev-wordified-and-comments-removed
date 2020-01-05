@@ -12553,7 +12553,7 @@ mString
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 GetCounters
 (
@@ -12745,7 +12745,7 @@ aType
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 aCounters
 )
@@ -12932,7 +12932,7 @@ mImage
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 mCounters
 ;

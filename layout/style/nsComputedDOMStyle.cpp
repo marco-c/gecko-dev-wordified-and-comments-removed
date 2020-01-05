@@ -5368,7 +5368,7 @@ counters
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 a
 =
