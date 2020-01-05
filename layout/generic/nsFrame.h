@@ -1223,6 +1223,8 @@ mozilla
 LogicalSize
 &
 aPadding
+ComputeSizeFlags
+aFlags
 )
 ;
 nsRect

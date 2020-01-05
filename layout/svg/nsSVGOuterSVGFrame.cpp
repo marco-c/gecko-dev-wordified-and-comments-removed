@@ -1647,6 +1647,7 @@ cbSize
 aMargin
 aBorder
 aPadding
+aFlags
 )
 ;
 }
