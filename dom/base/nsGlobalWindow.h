@@ -4146,6 +4146,9 @@ const
 nsAString
 &
 aOptions
+nsIDocShellLoadInfo
+*
+aLoadInfo
 nsPIDOMWindowOuter
 *
 *
@@ -7769,6 +7772,9 @@ argv
 nsISupports
 *
 aExtraArgument
+nsIDocShellLoadInfo
+*
+aLoadInfo
 nsPIDOMWindowOuter
 *
 *

@@ -1481,6 +1481,7 @@ true
 argv
 false
 false
+nullptr
 aResult
 )
 ;
@@ -1660,6 +1661,9 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
+nsIDocShellLoadInfo
+*
+aLoadInfo
 mozIDOMWindowProxy
 *
 *
@@ -1728,6 +1732,7 @@ aNavigate
 argv
 aIsPopupSpam
 aForceNoOpener
+aLoadInfo
 aResult
 )
 ;
@@ -2573,6 +2578,9 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
+nsIDocShellLoadInfo
+*
+aLoadInfo
 mozIDOMWindowProxy
 *
 *
@@ -4474,6 +4482,8 @@ nsCOMPtr
 nsIDocShellLoadInfo
 >
 loadInfo
+=
+aLoadInfo
 ;
 if
 (
@@ -4481,6 +4491,10 @@ uriToLoad
 &
 &
 aNavigate
+&
+&
+!
+loadInfo
 )
 {
 newDocShell

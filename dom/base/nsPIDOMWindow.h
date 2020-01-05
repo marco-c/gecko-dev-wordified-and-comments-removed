@@ -105,6 +105,9 @@ class
 nsIDocShell
 ;
 class
+nsIDocShellLoadInfo
+;
+class
 nsIDocument
 ;
 class
@@ -1361,6 +1364,9 @@ const
 nsAString
 &
 aOptions
+nsIDocShellLoadInfo
+*
+aLoadInfo
 nsPIDOMWindowOuter
 *
 *
