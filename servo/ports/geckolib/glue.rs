@@ -10569,7 +10569,7 @@ from_ffi
 raw_data
 )
 .
-borrow_mut
+borrow
 (
 )
 ;
