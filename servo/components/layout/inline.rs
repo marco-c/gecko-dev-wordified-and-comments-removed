@@ -265,7 +265,7 @@ computed_values
 :
 :
 {
-overflow
+overflow_x
 text_align
 text_justify
 text_overflow
@@ -3454,7 +3454,7 @@ get_box
 (
 )
 .
-overflow
+overflow_x
 )
 {
 (
@@ -3470,7 +3470,7 @@ _
 |
 (
 _
-overflow
+overflow_x
 :
 :
 T
