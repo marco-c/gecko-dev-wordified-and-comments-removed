@@ -169,8 +169,8 @@ PR_INTERVAL_NO_TIMEOUT
 #
 ifdef
 MOZILLA_INTERNAL_API
-GeckoProfilerSleepRAII
-profiler_sleep
+GeckoProfilerThreadSleepRAII
+sleep
 ;
 #
 endif

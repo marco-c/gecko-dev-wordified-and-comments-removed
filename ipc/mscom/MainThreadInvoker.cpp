@@ -668,8 +668,8 @@ ULONG_PTR
 aParam
 )
 {
-GeckoProfilerWakeRAII
-wakeProfiler
+GeckoProfilerThreadWakeRAII
+wake
 ;
 mozilla
 :

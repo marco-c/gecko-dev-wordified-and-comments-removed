@@ -172,7 +172,7 @@ Suspend
 (
 )
 ;
-profiler_sleep_start
+profiler_thread_sleep
 (
 )
 ;
@@ -189,7 +189,7 @@ nfsd
 timeout_
 )
 ;
-profiler_sleep_end
+profiler_thread_wake
 (
 )
 ;
