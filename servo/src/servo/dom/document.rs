@@ -37,12 +37,6 @@ Node
 scope
 :
 NodeScope
-css_rules
-:
-ARC
-<
-Stylesheet
->
 }
 fn
 Document
@@ -53,9 +47,6 @@ Node
 scope
 :
 NodeScope
-css_rules
-:
-Stylesheet
 )
 -
 >
@@ -69,12 +60,5 @@ root
 scope
 :
 scope
-css_rules
-:
-ARC
-(
-move
-css_rules
-)
 }
 }
