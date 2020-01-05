@@ -3,6 +3,14 @@
 [
 feature
 (
+alloc
+)
+]
+#
+!
+[
+feature
+(
 box_syntax
 )
 ]
