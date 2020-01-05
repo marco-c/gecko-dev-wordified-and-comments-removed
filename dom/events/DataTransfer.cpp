@@ -3132,6 +3132,15 @@ return
 true
 ;
 }
+void
+DataTransfer
+:
+:
+TypesListMayHaveChanged
+(
+)
+{
+}
 nsresult
 DataTransfer
 :

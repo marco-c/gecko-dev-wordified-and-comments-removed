@@ -1039,6 +1039,11 @@ nsIPrincipal
 aPrincipal
 )
 ;
+void
+TypesListMayHaveChanged
+(
+)
+;
 protected
 :
 nsresult
