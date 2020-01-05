@@ -115,6 +115,11 @@ SeekableZStream
 cpp
 '
 '
+XZStream
+.
+cpp
+'
+'
 Zip
 .
 cpp
