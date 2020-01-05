@@ -442,10 +442,10 @@ gecko_ffi_name
 "
 mUserInput
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_USER_INPUT
+StyleUserInput
 "
 animatable
 =
@@ -486,10 +486,10 @@ gecko_ffi_name
 "
 mUserModify
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_USER_MODIFY
+StyleUserModify
 "
 animatable
 =

@@ -518,6 +518,10 @@ DefaultDelete
 "
             
 "
+DOMIntersectionObserverEntry
+"
+            
+"
 Element
 "
             
