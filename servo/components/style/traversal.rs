@@ -594,13 +594,6 @@ N
 )
 ;
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 struct
 StandaloneStyleContext
@@ -711,13 +704,6 @@ self
 cached_local_style_context
 }
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 struct
 RecalcStyleOnly
