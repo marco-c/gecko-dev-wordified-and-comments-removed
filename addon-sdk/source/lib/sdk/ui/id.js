@@ -35,13 +35,9 @@ core
 '
 )
 ;
-const
-{
-uuid
-}
-=
-require
+lazyRequire
 (
+this
 '
 .
 .
@@ -50,6 +46,9 @@ util
 /
 uuid
 '
+"
+uuid
+"
 )
 ;
 function

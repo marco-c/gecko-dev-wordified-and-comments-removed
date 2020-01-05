@@ -31,17 +31,6 @@ Firefox
 }
 }
 ;
-require
-(
-"
-.
-/
-frame
-/
-view
-"
-)
-;
 const
 {
 Frame
