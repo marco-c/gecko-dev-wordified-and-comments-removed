@@ -182,12 +182,6 @@ false
 ;
 }
 void
-NotifyDataArrived
-(
-)
-override
-;
-void
 AttachSourceBuffer
 (
 TrackBuffersManager
@@ -213,6 +207,11 @@ return
 mTaskQueue
 ;
 }
+void
+NotifyInitDataArrived
+(
+)
+;
 void
 GetMozDebugReaderData
 (

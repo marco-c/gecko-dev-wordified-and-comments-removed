@@ -282,6 +282,11 @@ return
 true
 ;
 }
+void
+NotifyInitDataArrived
+(
+)
+;
 private
 :
 void
