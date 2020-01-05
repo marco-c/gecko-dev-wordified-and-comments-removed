@@ -1189,7 +1189,10 @@ Ref
 )
 ;
 }
-int64_t
+media
+:
+:
+TimeUnit
 GetDecodedAudioDuration
 (
 )
