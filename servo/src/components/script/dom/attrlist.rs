@@ -246,6 +246,10 @@ get
 .
 attrs
 .
+as_slice
+(
+)
+.
 get
 (
 index

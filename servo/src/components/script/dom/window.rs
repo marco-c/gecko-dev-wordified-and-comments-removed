@@ -709,13 +709,6 @@ pub
 funval
 :
 JSVal
-pub
-args
-:
-~
-[
-JSVal
-]
 }
 impl
 Window
@@ -1553,11 +1546,6 @@ is_interval
 funval
 :
 callback
-args
-:
-~
-[
-]
 }
 ;
 let

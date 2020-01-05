@@ -351,9 +351,10 @@ doc
 window
 Static
 (
-~
-[
-]
+vec
+!
+(
+)
 )
 )
 }
