@@ -2546,7 +2546,7 @@ in
 #
 endif
 #
-ifdef
+if
 MOZ_CRASHREPORTER
 <
 activity
