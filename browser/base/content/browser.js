@@ -33971,8 +33971,6 @@ identity
 -
 popup
 -
-headline
-.
 host
 "
 ;
@@ -34026,8 +34024,6 @@ identity
 -
 popup
 -
-headline
-.
 hostless
 "
 ;
