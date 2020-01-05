@@ -120,6 +120,15 @@ panel
 js
 '
 '
+performance
+-
+statistics
+-
+view
+.
+js
+'
+'
 prefs
 .
 js
