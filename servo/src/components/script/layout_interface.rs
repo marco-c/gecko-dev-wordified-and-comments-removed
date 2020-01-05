@@ -67,6 +67,12 @@ use
 std
 :
 :
+cmp
+;
+use
+std
+:
+:
 comm
 :
 :
@@ -79,7 +85,10 @@ use
 std
 :
 :
-cmp
+libc
+:
+:
+c_void
 ;
 use
 style
@@ -157,6 +166,13 @@ HitTestResponse
 )
 }
 pub
+type
+UntrustedNodeAddress
+=
+*
+c_void
+;
+pub
 struct
 ContentBoxResponse
 (
@@ -183,7 +199,7 @@ pub
 struct
 HitTestResponse
 (
-AbstractNode
+UntrustedNodeAddress
 )
 ;
 #
