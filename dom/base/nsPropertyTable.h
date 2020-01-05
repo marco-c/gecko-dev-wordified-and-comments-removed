@@ -145,7 +145,9 @@ void
 *
 GetProperty
 (
+const
 nsPropertyOwner
+&
 aObject
 nsIAtom
 *
@@ -170,7 +172,9 @@ aResult
 nsresult
 SetProperty
 (
+const
 nsPropertyOwner
+&
 aObject
 nsIAtom
 *
@@ -222,7 +226,9 @@ void
 *
 UnsetProperty
 (
+const
 nsPropertyOwner
+&
 aObject
 nsIAtom
 *

@@ -4967,10 +4967,12 @@ static
 nsresult
 SendMouseEvent
 (
+const
 nsCOMPtr
 <
 nsIPresShell
 >
+&
 aPresShell
 const
 nsAString

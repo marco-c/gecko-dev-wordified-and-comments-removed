@@ -7632,7 +7632,9 @@ static
 nsresult
 getScrollXYAppUnits
 (
+const
 nsWeakPtr
+&
 aWindow
 bool
 aFlushLayout
