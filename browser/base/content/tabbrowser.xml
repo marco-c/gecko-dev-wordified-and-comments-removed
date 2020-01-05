@@ -10122,6 +10122,9 @@ body
 CDATA
 [
 var
+aTriggeringPrincipal
+;
+var
 aReferrerPolicy
 ;
 var
@@ -10200,6 +10203,11 @@ arguments
 1
 ]
 ;
+aTriggeringPrincipal
+=
+params
+.
+triggeringPrincipal
 aReferrerURI
 =
 params
@@ -10356,6 +10364,9 @@ addTab
 (
 aURI
 {
+triggeringPrincipal
+:
+aTriggeringPrincipal
 referrerURI
 :
 aReferrerURI
@@ -14394,6 +14405,9 @@ xul
 "
 ;
 var
+aTriggeringPrincipal
+;
+var
 aReferrerPolicy
 ;
 var
@@ -14477,6 +14491,12 @@ arguments
 [
 1
 ]
+;
+aTriggeringPrincipal
+=
+params
+.
+triggeringPrincipal
 ;
 aReferrerURI
 =
@@ -15531,6 +15551,9 @@ loadURIWithFlags
 aURI
 {
 flags
+triggeringPrincipal
+:
+aTriggeringPrincipal
 referrerURI
 :
 aNoReferrer

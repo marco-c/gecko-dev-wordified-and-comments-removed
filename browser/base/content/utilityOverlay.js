@@ -1789,6 +1789,9 @@ loadURIWithFlags
 (
 url
 {
+triggeringPrincipal
+:
+aPrincipal
 flags
 referrerURI
 :
@@ -1871,6 +1874,9 @@ userContextId
 :
 aUserContextId
 originPrincipal
+:
+aPrincipal
+triggeringPrincipal
 :
 aPrincipal
 }

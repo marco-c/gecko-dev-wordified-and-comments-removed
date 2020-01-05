@@ -3015,6 +3015,9 @@ bookmark
 :
 false
 referrerPolicy
+triggeringPrincipal
+:
+principal
 originAttributes
 :
 principal
