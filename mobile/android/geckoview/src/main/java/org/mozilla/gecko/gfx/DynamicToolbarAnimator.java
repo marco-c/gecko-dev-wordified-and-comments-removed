@@ -124,6 +124,10 @@ PAGE_LOADING
 (
 5
 )
+CUSTOM_TAB
+(
+6
+)
 ;
 public
 final
