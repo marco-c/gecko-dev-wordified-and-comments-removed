@@ -2840,7 +2840,9 @@ document
 match
 document
 .
-root
+GetDocumentElement
+(
+)
 {
 None
 =

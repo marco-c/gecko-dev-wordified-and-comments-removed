@@ -785,6 +785,7 @@ pub
 struct
 Document
 {
+priv
 root
 :
 Option
@@ -2232,7 +2233,9 @@ _
 match
 self
 .
-root
+GetDocumentElement
+(
+)
 {
 None
 =
@@ -2324,7 +2327,6 @@ s
 break
 ;
 }
-;
 }
 }
 }
@@ -2432,7 +2434,9 @@ get_scope_and_cx
 match
 self
 .
-root
+GetDocumentElement
+(
+)
 {
 None
 =
@@ -2603,7 +2607,6 @@ new_title
 break
 ;
 }
-;
 }
 }
 }
@@ -3074,7 +3077,9 @@ elements
 match
 self
 .
-root
+GetDocumentElement
+(
+)
 {
 None
 =
@@ -3129,7 +3134,6 @@ child
 }
 }
 }
-;
 }
 }
 let
