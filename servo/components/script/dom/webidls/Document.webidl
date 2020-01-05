@@ -540,8 +540,7 @@ Location
 /
 location
 ;
-/
-/
+readonly
 attribute
 DOMString
 domain
