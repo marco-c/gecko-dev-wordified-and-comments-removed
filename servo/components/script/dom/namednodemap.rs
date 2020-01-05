@@ -393,9 +393,10 @@ ns
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 local_name
 )
 )
@@ -494,9 +495,10 @@ ns
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 local_name
 )
 )

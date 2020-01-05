@@ -1269,9 +1269,10 @@ borrow_mut
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 type_
 )
 ;

@@ -2073,7 +2073,9 @@ local_name
 atom
 !
 (
+"
 disabled
+"
 )
 =
 >
@@ -2153,7 +2155,9 @@ check_ancestors_disabled_state_for_form_control
 atom
 !
 (
+"
 cols
+"
 )
 =
 >
@@ -2200,7 +2204,9 @@ DEFAULT_COLS
 atom
 !
 (
+"
 rows
+"
 )
 =
 >

@@ -366,8 +366,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -496,8 +494,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom

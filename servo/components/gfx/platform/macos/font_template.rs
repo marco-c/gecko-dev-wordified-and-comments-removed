@@ -299,13 +299,11 @@ font
 :
 new_from_name
 (
+&
+*
 self
 .
 identifier
-.
-as_slice
-(
-)
 0
 .
 0

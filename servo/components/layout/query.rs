@@ -3273,11 +3273,9 @@ style
 .
 computed_value_to_string
 (
+&
+*
 property
-.
-as_slice
-(
-)
 )
 .
 ok

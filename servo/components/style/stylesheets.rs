@@ -2262,7 +2262,7 @@ Namespace
 Atom
 :
 :
-from_slice
+from
 (
 &
 *

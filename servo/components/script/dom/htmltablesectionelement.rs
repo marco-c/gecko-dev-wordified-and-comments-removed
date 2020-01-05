@@ -669,8 +669,6 @@ get_attr_for_layout
 ns
 !
 (
-"
-"
 )
 &
 atom

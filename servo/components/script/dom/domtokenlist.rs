@@ -285,8 +285,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 self
@@ -354,7 +352,7 @@ Ok
 Atom
 :
 :
-from_slice
+from
 (
 slice
 )

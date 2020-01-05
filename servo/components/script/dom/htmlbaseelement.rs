@@ -279,8 +279,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -523,7 +521,9 @@ local_name
 atom
 !
 (
+"
 href
+"
 )
 {
 document_from_node

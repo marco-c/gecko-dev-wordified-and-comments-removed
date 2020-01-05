@@ -528,9 +528,7 @@ version
 "
 0
 .
-1
-.
-15
+2
 "
 features
 =
@@ -540,13 +538,6 @@ unstable
 "
 ]
 }
-string_cache_plugin
-=
-"
-0
-.
-1
-"
 euclid
 =
 {

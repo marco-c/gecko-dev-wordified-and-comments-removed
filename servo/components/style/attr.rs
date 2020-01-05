@@ -152,7 +152,7 @@ map
 Atom
 :
 :
-from_slice
+from
 )
 .
 fold
@@ -376,9 +376,10 @@ value
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 string
 )
 ;

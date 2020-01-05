@@ -76,7 +76,7 @@ get_string_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -203,7 +203,7 @@ has_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -333,7 +333,7 @@ get_uint_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -482,7 +482,7 @@ get_url_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -612,7 +612,7 @@ get_url_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -785,8 +785,9 @@ get_string_attribute
 Atom
 :
 :
-from_slice
+from
 (
+*
 htmlname
 )
 )
@@ -987,7 +988,7 @@ set_string_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -1092,7 +1093,7 @@ set_bool_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -1224,7 +1225,7 @@ set_uint_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -1420,7 +1421,7 @@ set_uint_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -1577,7 +1578,7 @@ set_atomic_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -1702,7 +1703,7 @@ set_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )
@@ -1818,7 +1819,7 @@ set_attribute
 Atom
 :
 :
-from_slice
+from
 (
 htmlname
 )

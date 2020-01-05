@@ -9745,9 +9745,11 @@ p
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
+*
 p
 )
 )
@@ -10371,8 +10373,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 =
 >
@@ -10448,7 +10448,7 @@ namespace
 ns
 !
 (
-XMLNS
+xmlns
 )
 &
 &
@@ -10575,8 +10575,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 &
 &
@@ -10618,8 +10616,11 @@ s
 Atom
 :
 :
-from_slice
+from
 (
+&
+*
+*
 s
 )
 )
@@ -10693,8 +10694,6 @@ None
 ns
 !
 (
-"
-"
 )
 Some
 (
@@ -10753,8 +10752,6 @@ None
 ns
 !
 (
-"
-"
 )
 Some
 (
@@ -10787,8 +10784,6 @@ DocumentType
 ns
 !
 (
-"
-"
 )
 NodeTypeId
 :
@@ -10799,8 +10794,6 @@ DocumentFragment
 ns
 !
 (
-"
-"
 )
 _
 =
@@ -10818,8 +10811,6 @@ None
 ns
 !
 (
-"
-"
 )
 Some
 (
@@ -14009,8 +14000,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 {
 return

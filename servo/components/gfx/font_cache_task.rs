@@ -1105,9 +1105,10 @@ add_template
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 path
 )
 None
@@ -1170,9 +1171,10 @@ add_template
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 url
 .
 to_string
@@ -1471,9 +1473,10 @@ add_template
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 path
 )
 None

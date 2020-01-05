@@ -982,8 +982,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 attribute_info
@@ -1023,8 +1021,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 attribute_info
@@ -1417,8 +1413,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -1516,8 +1510,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -1689,8 +1681,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 attribute_info
@@ -1726,8 +1716,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 attribute_info
@@ -1824,8 +1812,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 attribute_name
 )
@@ -3164,8 +3150,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 atom
