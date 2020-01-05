@@ -124,6 +124,13 @@ MutexIDs
 h
 "
 #
+include
+"
+jscompartmentinlines
+.
+h
+"
+#
 ifndef
 JIT_SPEW_DIR
 #
