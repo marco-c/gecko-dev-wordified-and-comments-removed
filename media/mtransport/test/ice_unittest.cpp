@@ -6825,7 +6825,6 @@ return
 false
 ;
 }
-else
 if
 (
 priority

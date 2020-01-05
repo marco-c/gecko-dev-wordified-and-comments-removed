@@ -292,7 +292,6 @@ TestNat
 ENDPOINT_INDEPENDENT
 ;
 }
-else
 if
 (
 !
@@ -313,7 +312,6 @@ TestNat
 ADDRESS_DEPENDENT
 ;
 }
-else
 if
 (
 !
@@ -2302,8 +2300,6 @@ written
 )
 ;
 }
-else
-{
 destroy_stale_port_mappings
 (
 )
@@ -2432,7 +2428,6 @@ len
 written
 )
 ;
-}
 }
 int
 TestNrSocket
@@ -2812,7 +2807,6 @@ line
 )
 ;
 }
-else
 if
 (
 how
@@ -4186,7 +4180,6 @@ return
 0
 ;
 }
-else
 if
 (
 r
