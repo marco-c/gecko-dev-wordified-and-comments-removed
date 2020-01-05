@@ -799,7 +799,6 @@ false
 fail
 !
 (
-~
 "
 WAT
 :

@@ -712,7 +712,6 @@ _
 fail
 !
 (
-~
 "
 color
 type

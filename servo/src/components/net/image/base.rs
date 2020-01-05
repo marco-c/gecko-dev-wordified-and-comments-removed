@@ -442,7 +442,6 @@ _image
 fail
 !
 (
-~
 "
 HDR
 images

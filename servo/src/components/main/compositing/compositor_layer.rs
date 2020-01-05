@@ -5404,7 +5404,6 @@ _
 fail
 !
 (
-~
 "
 found
 unexpected

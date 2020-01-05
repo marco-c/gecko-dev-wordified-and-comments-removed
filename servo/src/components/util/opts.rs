@@ -984,7 +984,6 @@ else
 fail
 !
 (
-~
 "
 unknown
 backend
