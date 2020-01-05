@@ -1869,6 +1869,12 @@ ChangePageUrl
 (
 new_frame
 .
+pipeline
+.
+borrow
+(
+)
+.
 id
 new_frame
 .

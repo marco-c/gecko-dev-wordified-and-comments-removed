@@ -1049,7 +1049,7 @@ String
 )
 ChangePageUrl
 (
-FrameId
+PipelineId
 Url
 )
 PaintMsgDiscarded
