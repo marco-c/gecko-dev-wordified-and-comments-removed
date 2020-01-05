@@ -3274,7 +3274,7 @@ dm_trans
 default
 =
 "
-sut
+adb
 "
                           
 help
@@ -3300,7 +3300,7 @@ sut
 ;
 default
 =
-sut
+adb
 "
 )
         
