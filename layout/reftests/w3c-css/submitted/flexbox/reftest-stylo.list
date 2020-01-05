@@ -1265,7 +1265,6 @@ blocks
 as
 flex
 items
-fails
 =
 =
 flexbox
@@ -1290,7 +1289,6 @@ horiz
 001
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2149,7 +2147,6 @@ stretching
 flexing
 .
 )
-fails
 =
 =
 flexbox
@@ -2170,7 +2167,6 @@ ratio
 001
 .
 html
-fails
 =
 =
 flexbox
@@ -2191,7 +2187,6 @@ ratio
 002
 .
 html
-fails
 =
 =
 flexbox
@@ -2212,7 +2207,6 @@ ratio
 003
 .
 html
-fails
 =
 =
 flexbox
@@ -2658,7 +2652,6 @@ vert
 004
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2745,7 +2738,6 @@ horiz
 002
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2766,7 +2758,6 @@ horiz
 001
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2791,7 +2782,6 @@ horiz
 reverse
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2816,7 +2806,6 @@ horiz
 rtl
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2845,7 +2834,6 @@ rtl
 reverse
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2866,7 +2854,6 @@ horiz
 002a
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2887,7 +2874,6 @@ horiz
 002b
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2908,7 +2894,6 @@ horiz
 003
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -3598,7 +3583,6 @@ min
 max
 size
 constraints
-fails
 =
 =
 flexbox
@@ -3639,7 +3623,6 @@ horiz
 002
 .
 xhtml
-fails
 =
 =
 flexbox

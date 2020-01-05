@@ -339,7 +339,6 @@ and
 flex
 items
 .
-fails
 =
 =
 flexbox
@@ -372,7 +371,6 @@ horiz
 1
 .
 html
-fails
 =
 =
 flexbox
@@ -437,7 +435,6 @@ horiz
 1a
 .
 html
-fails
 =
 =
 flexbox
@@ -502,7 +499,6 @@ vert
 1a
 .
 html
-fails
 =
 =
 flexbox
@@ -1215,7 +1211,6 @@ absolute
 2
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1265,27 +1260,6 @@ position
 -
 fixed
 -
-3
-.
-xhtml
-flexbox
--
-position
--
-fixed
--
-3
-.
-xhtml
-fails
-=
-=
-flexbox
--
-position
--
-fixed
--
 1
 .
 xhtml
@@ -1319,7 +1293,6 @@ fixed
 2
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1417,7 +1390,6 @@ horiz
 1b
 .
 xhtml
-fails
 =
 =
 flexbox
