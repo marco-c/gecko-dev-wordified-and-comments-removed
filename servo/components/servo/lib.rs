@@ -561,9 +561,10 @@ Profiler
 :
 create
 (
+&
 opts
 .
-time_profiler_period
+time_profiling
 opts
 .
 time_profiler_trace_path

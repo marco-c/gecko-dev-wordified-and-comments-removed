@@ -1,5 +1,9 @@
 extern
 crate
+ipc_channel
+;
+extern
+crate
 profile
 ;
 extern
