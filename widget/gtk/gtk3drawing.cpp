@@ -11811,17 +11811,6 @@ aOrientation
 GTK_ORIENTATION_HORIZONTAL
 )
 {
-metrics
--
->
-size
-.
-button
-.
-Rotate
-(
-)
-;
 gint
 extra
 =
