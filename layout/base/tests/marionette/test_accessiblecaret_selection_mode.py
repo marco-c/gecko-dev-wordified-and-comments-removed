@@ -293,16 +293,6 @@ eat_space_to_next_word
 :
 False
             
-'
-layout
-.
-accessiblecaret
-.
-use_long_tap_injector
-'
-:
-False
-            
 self
 .
 carets_tested_pref

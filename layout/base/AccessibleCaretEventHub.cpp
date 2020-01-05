@@ -1627,7 +1627,7 @@ AccessibleCaretEventHub
 :
 sUseLongTapInjector
 =
-true
+false
 ;
 AccessibleCaretEventHub
 :

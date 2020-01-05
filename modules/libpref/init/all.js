@@ -41861,7 +41861,7 @@ accessiblecaret
 .
 use_long_tap_injector
 "
-true
+false
 )
 ;
 pref
