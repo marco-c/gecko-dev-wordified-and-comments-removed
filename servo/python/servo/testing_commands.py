@@ -65,9 +65,14 @@ CommandBase
 call
 cd
 check_call
-host_triple
 set_osmesa_env
 )
+from
+servo
+.
+util
+import
+host_triple
 from
 wptrunner
 import

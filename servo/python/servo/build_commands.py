@@ -45,8 +45,13 @@ CommandBase
 cd
 call
 BIN_SUFFIX
-host_triple
 find_dep_path_newest
+from
+servo
+.
+util
+import
+host_triple
 def
 format_duration
 (
