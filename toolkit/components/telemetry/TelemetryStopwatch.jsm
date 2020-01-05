@@ -553,6 +553,7 @@ timeElapsed
 (
 aHistogram
 aObj
+aCanceledOkay
 )
 {
 return
@@ -563,6 +564,7 @@ timeElapsed
 aHistogram
 aObj
 null
+aCanceledOkay
 )
 ;
 }
@@ -570,6 +572,7 @@ finish
 (
 aHistogram
 aObj
+aCanceledOkay
 )
 {
 return
@@ -580,6 +583,7 @@ finish
 aHistogram
 aObj
 null
+aCanceledOkay
 )
 ;
 }
@@ -624,6 +628,7 @@ timeElapsedKeyed
 aHistogram
 aKey
 aObj
+aCanceledOkay
 )
 {
 return
@@ -634,6 +639,7 @@ timeElapsed
 aHistogram
 aObj
 aKey
+aCanceledOkay
 )
 ;
 }
@@ -642,6 +648,7 @@ finishKeyed
 aHistogram
 aKey
 aObj
+aCanceledOkay
 )
 {
 return
@@ -652,6 +659,7 @@ finish
 aHistogram
 aObj
 aKey
+aCanceledOkay
 )
 ;
 }
@@ -755,6 +763,7 @@ timeElapsed
 histogram
 object
 key
+aCanceledOkay
 )
 {
 let
@@ -776,6 +785,12 @@ startTime
 =
 =
 null
+)
+{
+if
+(
+!
+aCanceledOkay
 )
 {
 Cu
@@ -811,6 +826,7 @@ key
 "
 )
 ;
+}
 return
 -
 1
@@ -897,6 +913,7 @@ finish
 histogram
 object
 key
+aCanceledOkay
 )
 {
 let
@@ -909,6 +926,7 @@ timeElapsed
 histogram
 object
 key
+aCanceledOkay
 )
 ;
 if
