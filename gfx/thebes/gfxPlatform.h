@@ -1711,17 +1711,12 @@ return
 false
 ;
 }
-virtual
 bool
 SupportsApzTouchInput
 (
 )
 const
-{
-return
-false
 ;
-}
 bool
 SupportsApzDragInput
 (

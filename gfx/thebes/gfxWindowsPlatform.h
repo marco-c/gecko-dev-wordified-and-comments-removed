@@ -692,13 +692,6 @@ true
 ;
 }
 bool
-SupportsApzTouchInput
-(
-)
-const
-override
-;
-bool
 HandleDeviceReset
 (
 )
