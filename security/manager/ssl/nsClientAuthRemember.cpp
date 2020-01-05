@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-RefPtr
+BasePrincipal
 .
 h
 "
@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-BasePrincipal
+RefPtr
 .
 h
 "
@@ -755,7 +755,7 @@ NS_ERROR_OUT_OF_MEMORY
 entry
 -
 >
-mHostWithCert
+mEntryKey
 =
 entryKey
 ;
