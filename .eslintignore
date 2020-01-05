@@ -351,14 +351,6 @@ browser
 /
 components
 /
-privatebrowsing
-/
-*
-*
-browser
-/
-components
-/
 sessionstore
 /
 *
