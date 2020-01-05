@@ -709,6 +709,14 @@ MDefinition
 def
 )
 ;
+void
+DumpMIRExpressions
+(
+MIRGraph
+&
+graph
+)
+;
 }
 }
 #
