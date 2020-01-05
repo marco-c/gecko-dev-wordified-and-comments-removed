@@ -1072,7 +1072,7 @@ flags
 ~
 uint32_t
 (
-0x3
+0x1
 )
 )
 return
@@ -1096,7 +1096,7 @@ flags
 ~
 uint32_t
 (
-0x3
+0x1
 )
 )
 )
