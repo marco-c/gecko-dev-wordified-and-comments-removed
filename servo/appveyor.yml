@@ -55,6 +55,8 @@ only
 master
 -
 auto
+-
+try
 platform
 :
 -
