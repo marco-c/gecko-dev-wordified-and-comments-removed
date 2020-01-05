@@ -2749,7 +2749,6 @@ func
 key
 )
 :
-_
 deps
 =
 __sandbox__
@@ -2760,11 +2759,16 @@ get
 (
 func
 (
-None
-(
 )
 )
-)
+if
+deps
+:
+deps
+=
+deps
+.
+dependencies
 def
 result
 (
