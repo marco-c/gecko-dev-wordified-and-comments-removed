@@ -64,12 +64,6 @@ transaction
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 image
