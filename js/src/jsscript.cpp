@@ -10857,9 +10857,16 @@ if
 !
 task
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 return
 EnqueueOffThreadCompression
 (
