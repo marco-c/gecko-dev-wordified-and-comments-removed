@@ -205,17 +205,7 @@ AnnexB
 cpp
 '
 '
-AudioDecoder
-.
-cpp
-'
-'
 VideoDecoder
-.
-cpp
-'
-'
-WMFAACDecoder
 .
 cpp
 '

@@ -85,9 +85,8 @@ __uuidof
 (
 CMSH264DecoderMFT
 )
-WMFDecoderDllNameFor
+WMFDecoderDllName
 (
-H264
 )
 mDecoder
 )
@@ -105,9 +104,8 @@ hr
 CreateMFT
 (
 CLSID_CMSH264DecMFT
-WMFDecoderDllNameFor
+WMFDecoderDllName
 (
-H264
 )
 mDecoder
 )
