@@ -659,6 +659,11 @@ entrypoint
 abouthome
 "
 }
+origin
+:
+"
+aboutHome
+"
 }
 )
 ;
@@ -675,6 +680,14 @@ window
 .
 openPreferences
 (
+undefined
+{
+origin
+:
+"
+aboutHome
+"
+}
 )
 ;
 break
