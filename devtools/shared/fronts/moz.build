@@ -178,11 +178,6 @@ inspector
 js
 '
 '
-layout
-.
-js
-'
-'
 memory
 .
 js
@@ -218,6 +213,11 @@ js
 '
 '
 promises
+.
+js
+'
+'
+reflow
 .
 js
 '
