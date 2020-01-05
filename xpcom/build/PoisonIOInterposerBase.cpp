@@ -38,6 +38,13 @@ PoisonIOInterposer
 h
 "
 #
+include
+"
+prlock
+.
+h
+"
+#
 ifdef
 MOZ_REPLACE_MALLOC
 #

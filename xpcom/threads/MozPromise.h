@@ -812,9 +812,8 @@ ifdef
 PROMISE_DEBUG
 mMagic4
 (
+&
 mMutex
-.
-mLock
 )
 #
 endif
@@ -2975,9 +2974,8 @@ sMagic
 mMagic4
 =
 =
+&
 mMutex
-.
-mLock
 )
 ;
 MOZ_ASSERT
@@ -3771,9 +3769,8 @@ sMagic
 mMagic4
 =
 =
+&
 mMutex
-.
-mLock
 )
 ;
 MutexAutoLock
@@ -4258,9 +4255,8 @@ sMagic
 mMagic4
 =
 =
+&
 mMutex
-.
-mLock
 )
 ;
 MutexAutoLock
@@ -4356,9 +4352,8 @@ sMagic
 mMagic4
 =
 =
+&
 mMutex
-.
-mLock
 )
 ;
 MutexAutoLock
@@ -4454,9 +4449,8 @@ sMagic
 mMagic4
 =
 =
+&
 mMutex
-.
-mLock
 )
 ;
 MutexAutoLock
