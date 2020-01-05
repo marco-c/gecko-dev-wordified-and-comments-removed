@@ -1604,6 +1604,7 @@ if
 let
 Some
 (
+ref
 charset
 )
 =
@@ -1739,6 +1740,7 @@ Step
 .
 Some
 (
+ref
 src
 )
 =

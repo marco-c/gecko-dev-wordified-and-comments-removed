@@ -2387,6 +2387,10 @@ allow
 unrooted_must_root
 )
 ]
+#
+[
+no_move
+]
 pub
 struct
 RootedVec

@@ -5640,6 +5640,7 @@ if
 let
 Some
 (
+ref
 frame_element
 )
 =
@@ -5813,6 +5814,7 @@ if
 let
 Some
 (
+ref
 frame_element
 )
 =
@@ -5905,11 +5907,11 @@ root
 ;
 frame_element
 .
-unwrap
+r
 (
 )
 .
-r
+unwrap
 (
 )
 .
@@ -9045,6 +9047,7 @@ root
 {
 Some
 (
+ref
 node
 )
 =
@@ -9186,6 +9189,7 @@ fragment_node
 {
 Some
 (
+ref
 node
 )
 =

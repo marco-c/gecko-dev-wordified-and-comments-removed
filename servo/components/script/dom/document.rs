@@ -9342,6 +9342,7 @@ new
 )
 Some
 (
+ref
 title
 )
 =
@@ -10425,6 +10426,7 @@ get_html_element
 root
 (
 )
+&
 old_body
 )
 {
@@ -10439,6 +10441,7 @@ Some
 ref
 root
 )
+&
 Some
 (
 ref
@@ -10547,6 +10550,7 @@ Some
 ref
 root
 )
+&
 None
 )
 =

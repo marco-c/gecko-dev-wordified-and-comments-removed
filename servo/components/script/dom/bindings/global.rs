@@ -187,6 +187,10 @@ WorkerGlobalScope
 >
 )
 }
+#
+[
+no_move
+]
 pub
 enum
 GlobalRoot

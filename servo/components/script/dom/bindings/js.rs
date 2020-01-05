@@ -2766,6 +2766,10 @@ get_js
 ;
 }
 }
+#
+[
+no_move
+]
 pub
 struct
 RootCollection
@@ -2986,6 +2990,10 @@ js_ptr
 }
 }
 }
+#
+[
+no_move
+]
 pub
 struct
 Root
