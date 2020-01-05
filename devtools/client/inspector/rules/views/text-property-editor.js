@@ -2357,14 +2357,6 @@ overridden
 ;
 this
 .
-filterProperty
-.
-hidden
-=
-true
-;
-this
-.
 enable
 .
 style
