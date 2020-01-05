@@ -62,6 +62,7 @@ nChar
 *
 )
 /
+;
 function
 parseError
 (
@@ -85,9 +86,11 @@ if
 !
 matches
 )
+{
 return
 null
 ;
+}
 return
 {
 fatal
@@ -120,6 +123,7 @@ matches
 ]
 )
 }
+;
 }
 let
 entityRegex
@@ -255,6 +259,7 @@ comments
 [
 ]
 }
+;
 this
 .
 _currentNode
@@ -336,6 +341,7 @@ parser
 .
 line
 }
+;
 for
 (
 let
@@ -536,6 +542,7 @@ text
 ;
 }
 }
+;
 const
 INDENT_LEVEL
 =
@@ -1011,6 +1018,7 @@ err
 )
 ;
 }
+;
 let
 xp
 =
@@ -1519,6 +1527,8 @@ filter
 n
 =
 >
+{
+return
 n
 .
 local
@@ -1535,6 +1545,8 @@ namespace
 =
 =
 NS_XBL
+;
+}
 )
 .
 map
@@ -1567,6 +1579,8 @@ filter
 n
 =
 >
+{
+return
 n
 .
 local
@@ -1583,6 +1597,8 @@ namespace
 =
 =
 NS_XBL
+;
+}
 )
 [
 0

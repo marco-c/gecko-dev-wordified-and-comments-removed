@@ -460,6 +460,7 @@ node
 .
 computed
 )
+{
 throw
 new
 Error
@@ -472,6 +473,7 @@ MemberExpression
 "
 )
 ;
+}
 return
 this
 .
@@ -1853,6 +1855,7 @@ name
 manifest
 }
 )
+;
 }
 catch
 (

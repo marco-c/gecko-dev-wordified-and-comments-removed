@@ -150,8 +150,6 @@ indexOf
 ;
 let
 value
-=
-undefined
 ;
 if
 (
@@ -257,6 +255,7 @@ this
 .
 path
 )
+;
 this
 .
 root
@@ -423,6 +422,7 @@ writable
 :
 true
 }
+;
 }
 )
 ;
@@ -738,6 +738,7 @@ name
 value
 }
 )
+;
 }
 }
 }
@@ -907,6 +908,7 @@ globalScope
 )
 ;
 }
+;
 }
 return
 parser
