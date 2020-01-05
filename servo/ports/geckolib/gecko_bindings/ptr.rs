@@ -24,7 +24,7 @@ Debug
 ;
 macro_rules
 !
-define_holder_arc
+define_arc
 {
 (
 arc_type
@@ -33,7 +33,7 @@ ident
 name
 :
 ident
-holder_type
+gecko_type
 :
 ident
 addref
@@ -61,7 +61,7 @@ ptr
 :
 *
 mut
-holder_type
+gecko_type
 }
 impl
 arc_type
@@ -74,7 +74,7 @@ data
 :
 *
 mut
-holder_type
+gecko_type
 )
 -
 >
@@ -117,7 +117,7 @@ self
 >
 *
 mut
-holder_type
+gecko_type
 {
 self
 .
@@ -247,7 +247,7 @@ name
 }
 )
 }
-define_holder_arc
+define_arc
 !
 (
 GeckoArcPrincipal
@@ -257,7 +257,7 @@ Gecko_AddRefPrincipalArbitraryThread
 Gecko_ReleasePrincipalArbitraryThread
 )
 ;
-define_holder_arc
+define_arc
 !
 (
 GeckoArcURI
