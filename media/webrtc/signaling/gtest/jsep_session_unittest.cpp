@@ -579,6 +579,7 @@ Maybe
 <
 JsepOfferOptions
 >
+&
 options
 =
 Nothing
@@ -2864,6 +2865,7 @@ Maybe
 <
 JsepOfferOptions
 >
+&
 options
 =
 Nothing
