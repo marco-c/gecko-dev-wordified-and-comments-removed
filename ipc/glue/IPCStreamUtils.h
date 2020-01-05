@@ -87,9 +87,6 @@ bool
 mTaken
 ;
 bool
-mDelayedStart
-;
-bool
 IsSet
 (
 )
@@ -97,13 +94,8 @@ const
 ;
 public
 :
-explicit
 AutoIPCStream
 (
-bool
-aDelayedStart
-=
-false
 )
 ;
 explicit
@@ -112,10 +104,6 @@ AutoIPCStream
 IPCStream
 &
 aTarget
-bool
-aDelayedStart
-=
-false
 )
 ;
 explicit
@@ -124,10 +112,6 @@ AutoIPCStream
 OptionalIPCStream
 &
 aTarget
-bool
-aDelayedStart
-=
-false
 )
 ;
 ~
