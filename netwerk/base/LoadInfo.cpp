@@ -222,7 +222,7 @@ get
 )
 mPrincipalToInherit
 (
-mTriggeringPrincipal
+nullptr
 )
 mLoadingContext
 (
@@ -315,11 +315,6 @@ mLoadingPrincipal
 MOZ_ASSERT
 (
 mTriggeringPrincipal
-)
-;
-MOZ_ASSERT
-(
-mPrincipalToInherit
 )
 ;
 #
@@ -971,7 +966,7 @@ aTriggeringPrincipal
 )
 mPrincipalToInherit
 (
-mTriggeringPrincipal
+nullptr
 )
 mSecurityFlags
 (
@@ -1060,11 +1055,6 @@ aOuterWindow
 MOZ_ASSERT
 (
 mTriggeringPrincipal
-)
-;
-MOZ_ASSERT
-(
-mPrincipalToInherit
 )
 ;
 if
@@ -1568,11 +1558,6 @@ MOZ_ASSERT
 mTriggeringPrincipal
 )
 ;
-MOZ_ASSERT
-(
-mPrincipalToInherit
-)
-;
 mRedirectChainIncludingInternalRedirects
 .
 SwapElements
@@ -1907,7 +1892,7 @@ nsIPrincipal
 aPrincipalToInherit
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aPrincipalToInherit

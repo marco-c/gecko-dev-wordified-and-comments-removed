@@ -387,7 +387,7 @@ requestingPrincipalInfo
 PrincipalInfo
 triggeringPrincipalInfo
 ;
-PrincipalInfo
+OptionalPrincipalInfo
 principalToInheritInfo
 ;
 uint32_t
