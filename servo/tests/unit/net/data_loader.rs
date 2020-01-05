@@ -1,5 +1,5 @@
 use
-fetch_sync
+fetch
 ;
 use
 hyper
@@ -167,7 +167,7 @@ None
 let
 response
 =
-fetch_sync
+fetch
 (
 request
 None
