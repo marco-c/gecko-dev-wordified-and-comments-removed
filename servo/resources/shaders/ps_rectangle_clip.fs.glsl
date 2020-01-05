@@ -62,6 +62,9 @@ main
 void
 )
 {
+float
+alpha
+=
 do_clip
 (
 vPos
@@ -72,5 +75,13 @@ vClipRadius
 oFragColor
 =
 vColor
+*
+vec4
+(
+1
+1
+1
+alpha
+)
 ;
 }

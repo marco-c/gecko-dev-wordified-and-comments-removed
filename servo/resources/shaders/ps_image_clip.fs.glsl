@@ -62,6 +62,9 @@ main
 void
 )
 {
+float
+alpha
+=
 do_clip
 (
 vPos
@@ -87,6 +90,14 @@ texture
 (
 sDiffuse
 st
+)
+*
+vec4
+(
+1
+1
+1
+alpha
 )
 ;
 }
