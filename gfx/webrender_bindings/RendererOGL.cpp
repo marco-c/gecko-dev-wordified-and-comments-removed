@@ -76,7 +76,7 @@ namespace
 mozilla
 {
 namespace
-layers
+wr
 {
 RendererOGL
 :
@@ -110,7 +110,7 @@ CompositorWidget
 &
 &
 aWidget
-gfx
+wr
 :
 :
 WindowId
@@ -118,6 +118,9 @@ aWindowId
 WrRenderer
 *
 aWrRenderer
+layers
+:
+:
 CompositorBridgeParentBase
 *
 aBridge
@@ -221,6 +224,9 @@ static
 void
 NotifyDidRender
 (
+layers
+:
+:
 CompositorBridgeParentBase
 *
 aBridge
@@ -396,6 +402,9 @@ Now
 (
 )
 ;
+layers
+:
+:
 CompositorThreadHolder
 :
 :

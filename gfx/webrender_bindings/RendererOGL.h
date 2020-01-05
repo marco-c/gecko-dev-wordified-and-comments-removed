@@ -67,6 +67,10 @@ layers
 class
 CompositorBridgeParentBase
 ;
+}
+namespace
+wr
+{
 class
 RendererOGL
 {
@@ -135,7 +139,7 @@ CompositorWidget
 >
 &
 &
-gfx
+wr
 :
 :
 WindowId
@@ -143,6 +147,9 @@ aWindowId
 WrRenderer
 *
 aWrRenderer
+layers
+:
+:
 CompositorBridgeParentBase
 *
 aBridge
@@ -178,11 +185,14 @@ WrRenderer
 *
 mWrRenderer
 ;
+layers
+:
+:
 CompositorBridgeParentBase
 *
 mBridge
 ;
-gfx
+wr
 :
 :
 WindowId

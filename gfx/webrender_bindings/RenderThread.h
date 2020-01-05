@@ -89,7 +89,7 @@ namespace
 mozilla
 {
 namespace
-layers
+wr
 {
 class
 RendererOGL
@@ -116,7 +116,7 @@ Run
 RenderThread
 &
 aRenderThread
-gfx
+wr
 :
 :
 WindowId
@@ -172,7 +172,7 @@ IsInRenderThread
 void
 AddRenderer
 (
-gfx
+wr
 :
 :
 WindowId
@@ -187,7 +187,7 @@ aRenderer
 void
 RemoveRenderer
 (
-gfx
+wr
 :
 :
 WindowId
@@ -198,7 +198,7 @@ RendererOGL
 *
 GetRenderer
 (
-gfx
+wr
 :
 :
 WindowId
@@ -208,7 +208,7 @@ aWindowId
 void
 NewFrameReady
 (
-gfx
+wr
 :
 :
 WindowId
@@ -218,7 +218,7 @@ aWindowId
 void
 NewScrollFrameReady
 (
-gfx
+wr
 :
 :
 WindowId
@@ -230,7 +230,7 @@ aCompositeNeeded
 void
 PipelineSizeChanged
 (
-gfx
+wr
 :
 :
 WindowId
@@ -246,7 +246,7 @@ aHeight
 void
 RunEvent
 (
-gfx
+wr
 :
 :
 WindowId
@@ -279,7 +279,7 @@ RenderThread
 void
 UpdateAndRender
 (
-gfx
+wr
 :
 :
 WindowId
@@ -299,7 +299,7 @@ std
 :
 map
 <
-gfx
+wr
 :
 :
 WindowId

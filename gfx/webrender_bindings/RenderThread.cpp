@@ -47,7 +47,7 @@ namespace
 mozilla
 {
 namespace
-layers
+wr
 {
 static
 StaticRefPtr
@@ -262,7 +262,7 @@ RenderThread
 :
 AddRenderer
 (
-gfx
+wr
 :
 :
 WindowId
@@ -298,7 +298,7 @@ RenderThread
 :
 RemoveRenderer
 (
-gfx
+wr
 :
 :
 WindowId
@@ -327,7 +327,7 @@ RenderThread
 :
 GetRenderer
 (
-gfx
+wr
 :
 :
 WindowId
@@ -394,7 +394,7 @@ RenderThread
 :
 NewFrameReady
 (
-gfx
+wr
 :
 :
 WindowId
@@ -418,7 +418,7 @@ PostTask
 (
 NewRunnableMethod
 <
-gfx
+wr
 :
 :
 WindowId
@@ -449,7 +449,7 @@ RenderThread
 :
 NewScrollFrameReady
 (
-gfx
+wr
 :
 :
 WindowId
@@ -475,7 +475,7 @@ PostTask
 (
 NewRunnableMethod
 <
-gfx
+wr
 :
 :
 WindowId
@@ -508,7 +508,7 @@ RenderThread
 :
 PipelineSizeChanged
 (
-gfx
+wr
 :
 :
 WindowId
@@ -538,7 +538,7 @@ PostTask
 (
 NewRunnableMethod
 <
-gfx
+wr
 :
 :
 WindowId
@@ -575,7 +575,7 @@ RenderThread
 :
 RunEvent
 (
-gfx
+wr
 :
 :
 WindowId
@@ -604,7 +604,7 @@ PostTask
 (
 NewRunnableMethod
 <
-gfx
+wr
 :
 :
 WindowId
@@ -654,7 +654,7 @@ RenderThread
 :
 UpdateAndRender
 (
-gfx
+wr
 :
 :
 WindowId
@@ -752,7 +752,7 @@ aWindowId
 mozilla
 :
 :
-layers
+wr
 :
 :
 RenderThread
@@ -768,7 +768,7 @@ NewFrameReady
 mozilla
 :
 :
-gfx
+wr
 :
 :
 WindowId
@@ -790,7 +790,7 @@ aCompositeNeeded
 mozilla
 :
 :
-layers
+wr
 :
 :
 RenderThread
@@ -806,7 +806,7 @@ NewScrollFrameReady
 mozilla
 :
 :
-gfx
+wr
 :
 :
 WindowId
@@ -833,7 +833,7 @@ aHeight
 mozilla
 :
 :
-layers
+wr
 :
 :
 RenderThread
@@ -849,7 +849,7 @@ PipelineSizeChanged
 mozilla
 :
 :
-gfx
+wr
 :
 :
 WindowId
@@ -879,7 +879,7 @@ UniquePtr
 mozilla
 :
 :
-layers
+wr
 :
 :
 RendererEvent
@@ -891,7 +891,7 @@ reinterpret_cast
 mozilla
 :
 :
-layers
+wr
 :
 :
 RendererEvent
@@ -905,7 +905,7 @@ aRawEvent
 mozilla
 :
 :
-layers
+wr
 :
 :
 RenderThread
@@ -921,7 +921,7 @@ RunEvent
 mozilla
 :
 :
-gfx
+wr
 :
 :
 WindowId

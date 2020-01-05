@@ -178,7 +178,7 @@ return
 mozilla
 :
 :
-layers
+wr
 :
 :
 RenderThread
@@ -521,6 +521,9 @@ CompositorWidget
 aWidget
 RefPtr
 <
+wr
+:
+:
 WebRenderAPI
 >
 &
@@ -664,7 +667,7 @@ LayerIntSize
 aWidth
 aHeight
 )
-gfx
+wr
 :
 :
 PipelineId
@@ -1264,6 +1267,9 @@ isSome
 )
 )
 ;
+wr
+:
+:
 DisplayListBuilder
 &
 builder
@@ -2174,6 +2180,9 @@ glyphs
 auto
 fontKey
 =
+wr
+:
+:
 FontKey
 (
 wr_window_add_raw_font

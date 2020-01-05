@@ -4500,6 +4500,9 @@ WebRenderEnabled
 )
 )
 {
+wr
+:
+:
 RenderThread
 :
 :
@@ -4648,6 +4651,9 @@ WebRenderEnabled
 )
 )
 {
+wr
+:
+:
 RenderThread
 :
 :

@@ -64,7 +64,7 @@ namespace
 mozilla
 {
 namespace
-layers
+wr
 {
 inline
 Maybe
@@ -234,6 +234,9 @@ WrAPI
 *
 *
 aApi
+layers
+:
+:
 CompositorBridgeParentBase
 *
 aBridge
@@ -247,6 +250,9 @@ CompositorWidget
 &
 &
 aWidget
+layers
+:
+:
 SynchronousTask
 *
 aTask
@@ -302,14 +308,14 @@ Run
 RenderThread
 &
 aRenderThread
-gfx
-:
-:
 WindowId
 aWindowId
 )
 override
 {
+layers
+:
+:
 AutoCompleteTask
 complete
 (
@@ -438,6 +444,9 @@ WrAPI
 *
 mWRApi
 ;
+layers
+:
+:
 CompositorBridgeParentBase
 *
 mBridge
@@ -451,6 +460,9 @@ CompositorWidget
 >
 mCompositorWidget
 ;
+layers
+:
+:
 SynchronousTask
 *
 mTask
@@ -471,6 +483,9 @@ public
 explicit
 RemoveRenderer
 (
+layers
+:
+:
 SynchronousTask
 *
 aTask
@@ -505,9 +520,6 @@ Run
 RenderThread
 &
 aRenderThread
-gfx
-:
-:
 WindowId
 aWindowId
 )
@@ -520,6 +532,9 @@ RemoveRenderer
 aWindowId
 )
 ;
+layers
+:
+:
 AutoCompleteTask
 complete
 (
@@ -527,6 +542,9 @@ mTask
 )
 ;
 }
+layers
+:
+:
 SynchronousTask
 *
 mTask
@@ -544,6 +562,9 @@ Create
 (
 bool
 aEnableProfiler
+layers
+:
+:
 CompositorBridgeParentBase
 *
 aBridge
@@ -575,9 +596,6 @@ sNextId
 =
 1
 ;
-gfx
-:
-:
 WindowId
 id
 (
@@ -592,6 +610,9 @@ wrApi
 =
 nullptr
 ;
+layers
+:
+:
 SynchronousTask
 task
 (
@@ -691,6 +712,9 @@ mWRApi
 ;
 #
 endif
+layers
+:
+:
 SynchronousTask
 task
 (
@@ -747,9 +771,6 @@ gfx
 :
 Color
 aBgColor
-gfx
-:
-:
 Epoch
 aEpoch
 LayerSize
@@ -783,9 +804,6 @@ WebRenderAPI
 :
 SetRootPipeline
 (
-gfx
-:
-:
 PipelineId
 aPipeline
 )
@@ -799,9 +817,6 @@ mHandle
 )
 ;
 }
-gfx
-:
-:
 ImageKey
 WebRenderAPI
 :
@@ -840,9 +855,6 @@ value
 )
 ;
 return
-gfx
-:
-:
 ImageKey
 (
 wr_api_add_image
@@ -870,9 +882,6 @@ length
 )
 ;
 }
-gfx
-:
-:
 ImageKey
 WebRenderAPI
 :
@@ -906,9 +915,6 @@ value
 )
 ;
 return
-gfx
-:
-:
 ImageKey
 (
 wr_api_add_external_image_texture
@@ -932,9 +938,6 @@ WebRenderAPI
 :
 UpdateImageBuffer
 (
-gfx
-:
-:
 ImageKey
 aKey
 gfx
@@ -998,9 +1001,6 @@ WebRenderAPI
 :
 DeleteImage
 (
-gfx
-:
-:
 ImageKey
 aKey
 )
@@ -1014,7 +1014,7 @@ mHandle
 )
 ;
 }
-gfx
+wr
 :
 :
 FontKey
@@ -1031,7 +1031,7 @@ aBytes
 )
 {
 return
-gfx
+wr
 :
 :
 FontKey
@@ -1059,7 +1059,7 @@ WebRenderAPI
 :
 DeleteFont
 (
-gfx
+wr
 :
 :
 FontKey
@@ -1136,9 +1136,6 @@ Run
 RenderThread
 &
 aRenderThread
-gfx
-:
-:
 WindowId
 aWindowId
 )
@@ -1222,9 +1219,6 @@ const
 LayerIntSize
 &
 aSize
-gfx
-:
-:
 PipelineId
 aId
 )
@@ -1307,9 +1301,6 @@ End
 WebRenderAPI
 &
 aApi
-gfx
-:
-:
 Epoch
 aEpoch
 )
@@ -1476,9 +1467,6 @@ const
 WRRect
 &
 aClip
-gfx
-:
-:
 PipelineId
 aPipeline
 )
@@ -1579,7 +1567,7 @@ gfx
 Color
 &
 aColor
-gfx
+wr
 :
 :
 FontKey

@@ -263,7 +263,7 @@ DWriteFontFileData
 this
 )
 ;
-gfx
+wr
 :
 :
 ByteBuffer
@@ -450,10 +450,16 @@ AddWebRenderCommand
 (
 OpDPPushText
 (
+wr
+:
+:
 ToWRRect
 (
 rect
 )
+wr
+:
+:
 ToWRRect
 (
 clip

@@ -38,7 +38,7 @@ namespace
 mozilla
 {
 namespace
-layers
+wr
 {
 static
 inline
@@ -267,14 +267,6 @@ rect
 )
 ;
 }
-}
-}
-namespace
-mozilla
-{
-namespace
-gfx
-{
 struct
 ByteBuffer
 {

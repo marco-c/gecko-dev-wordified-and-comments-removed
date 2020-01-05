@@ -49,7 +49,7 @@ ParamTraits
 mozilla
 :
 :
-gfx
+wr
 :
 :
 ByteBuffer
@@ -59,7 +59,7 @@ typedef
 mozilla
 :
 :
-gfx
+wr
 :
 :
 ByteBuffer
