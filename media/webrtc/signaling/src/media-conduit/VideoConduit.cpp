@@ -170,12 +170,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-&
-&
-defined
-(
-MOZILLA_INTERNAL_API
-)
 #
 include
 "
@@ -4314,12 +4308,6 @@ InitMain
 (
 )
 {
-#
-if
-defined
-(
-MOZILLA_INTERNAL_API
-)
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -4744,8 +4732,6 @@ return
 kMediaConduitSessionNotInited
 ;
 }
-#
-endif
 #
 endif
 return
@@ -5943,9 +5929,6 @@ enabled
 =
 false
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 enabled
 =
 mozilla
@@ -5970,8 +5953,6 @@ acceleration_enabled
 false
 )
 ;
-#
-endif
 if
 (
 enabled
@@ -6241,9 +6222,6 @@ enabled
 =
 false
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 enabled
 =
 mozilla
@@ -6268,8 +6246,6 @@ acceleration_enabled
 false
 )
 ;
-#
-endif
 if
 (
 enabled

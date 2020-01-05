@@ -431,9 +431,6 @@ webrtc
 VideoReceiveState
 mReceiveState
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 TimeStamp
 mFirstDecodeTime
 ;
@@ -449,8 +446,6 @@ mRecoveredBeforeLoss
 uint32_t
 mRecoveredLosses
 ;
-#
-endif
 }
 ;
 }

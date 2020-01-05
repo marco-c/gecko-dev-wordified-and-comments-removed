@@ -131,17 +131,12 @@ MediaSegment
 h
 "
 #
-ifdef
-MOZILLA_INTERNAL_API
-#
 include
 "
 MediaStreamGraph
 .
 h
 "
-#
-endif
 #
 include
 "
