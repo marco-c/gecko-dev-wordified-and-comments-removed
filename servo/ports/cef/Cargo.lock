@@ -13901,7 +13901,7 @@ decoder
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -14733,7 +14733,7 @@ version
 .
 1
 .
-6
+8
 "
 source
 =
@@ -14794,9 +14794,9 @@ index
 rayon
 0
 .
-4
+5
 .
-3
+0
 (
 registry
 +
@@ -25566,9 +25566,9 @@ version
 "
 0
 .
-4
+5
 .
-3
+0
 "
 source
 =
@@ -38198,7 +38198,7 @@ servo
 /
 webrender
 #
-c5eb15a9b8030bbad15809aba7dd1b5906d96397
+13e06df7906b71aaa2aa621a012678cae1f88052
 "
 dependencies
 =
@@ -38648,9 +38648,9 @@ index
 rayon
 0
 .
-4
+5
 .
-3
+0
 (
 registry
 +
@@ -38762,7 +38762,7 @@ servo
 /
 webrender
 #
-c5eb15a9b8030bbad15809aba7dd1b5906d96397
+13e06df7906b71aaa2aa621a012678cae1f88052
 "
 dependencies
 =
@@ -43567,7 +43567,7 @@ decoder
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -43592,7 +43592,7 @@ index
 "
 =
 "
-70be4c5ed7c80bb403fb28d95d30dd97ccf76829e943ae2350037fd6cd6961b6
+4be50b418a1fc5d198588d9a4f682ef808a55db4084dce39d09bb0562525bb8c
 "
 "
 checksum
@@ -45849,9 +45849,9 @@ checksum
 rayon
 0
 .
-4
+5
 .
-3
+0
 (
 registry
 +
@@ -45876,7 +45876,7 @@ index
 "
 =
 "
-0f0783f5880c56f5a308e219ac9309dbe781e064741dd5def4c617c440890305
+3b6a6e05e0e6b703e9f2ad266eb63f3712e693a17a2702b95a23de14ce8defa9
 "
 "
 checksum

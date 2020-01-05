@@ -62,6 +62,19 @@ main
 void
 )
 {
+#
+ifdef
+WR_FEATURE_SUBPIXEL_AA
+oFragColor
+=
+texture
+(
+sDiffuse
+vUv
+)
+;
+#
+else
 float
 a
 =
@@ -111,4 +124,6 @@ a
 a
 )
 ;
+#
+endif
 }
