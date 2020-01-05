@@ -194,14 +194,6 @@ changes
 any
 more
 .
-Bug
-1223692
-vp8
-/
-common
-/
-loopfilter
-.
-c
-removed
-.
+Merge
+day
+clobber
