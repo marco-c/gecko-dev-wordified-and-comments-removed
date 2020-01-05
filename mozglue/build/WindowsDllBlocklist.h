@@ -86,6 +86,7 @@ AutoSetXPCOMLoadOnMainThread
 {
 public
 :
+explicit
 AutoSetXPCOMLoadOnMainThread
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
