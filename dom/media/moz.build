@@ -543,7 +543,7 @@ MediaCache
 h
 '
 '
-MediaContentType
+MediaContainerType
 .
 h
 '
@@ -1055,7 +1055,7 @@ MediaCache
 cpp
 '
 '
-MediaContentType
+MediaContainerType
 .
 cpp
 '

@@ -134,9 +134,9 @@ AbstractMediaDecoder
 *
 aDecoder
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 :
 MediaDecoderReader
@@ -145,7 +145,7 @@ aDecoder
 )
 mType
 (
-aContentType
+aContainerType
 )
 mPlugin
 (

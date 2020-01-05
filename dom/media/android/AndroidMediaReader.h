@@ -18,7 +18,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -82,7 +82,7 @@ AndroidMediaReader
 public
 MediaDecoderReader
 {
-MediaContentType
+MediaContainerType
 mType
 ;
 MPAPI
@@ -142,9 +142,9 @@ AbstractMediaDecoder
 *
 aDecoder
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 ;
 nsresult

@@ -117,7 +117,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -323,9 +323,9 @@ public
 MediaDecodeTask
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 uint8_t
 *
 aBuffer
@@ -336,9 +336,9 @@ WebAudioDecodeJob
 aDecodeJob
 )
 :
-mContentType
+mContainerType
 (
-aContentType
+aContainerType
 )
 mBuffer
 (
@@ -561,8 +561,8 @@ mBuffer
 }
 private
 :
-MediaContentType
-mContentType
+MediaContainerType
+mContainerType
 ;
 uint8_t
 *
@@ -811,7 +811,7 @@ mBuffer
 )
 mLength
 principal
-mContentType
+mContainerType
 .
 Type
 (
@@ -855,7 +855,7 @@ DecoderTraits
 :
 CreateReader
 (
-mContentType
+mContainerType
 mBufferDecoder
 )
 ;
@@ -1142,7 +1142,7 @@ resource
 %
 s
 "
-mContentType
+mContainerType
 .
 Type
 (
@@ -2202,11 +2202,11 @@ aDecodeJob
 {
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-contentType
+containerType
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aContentType
 )
@@ -2229,7 +2229,7 @@ APPLICATION_OCTET_STREAM
 |
 |
 !
-contentType
+containerType
 )
 {
 nsCOMPtr
@@ -2277,7 +2277,7 @@ new
 MediaDecodeTask
 (
 *
-contentType
+containerType
 aBuffer
 aLength
 aDecodeJob

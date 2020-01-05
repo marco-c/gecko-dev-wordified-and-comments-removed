@@ -36,7 +36,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -391,7 +391,7 @@ DecoderTraits
 :
 IsMP4SupportedType
 (
-MediaContentType
+MediaContainerType
 (
 MEDIAMIMETYPE
 (
@@ -502,11 +502,11 @@ NS_ERROR_DOM_TYPE_ERR
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-contentType
+containerType
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aType
 )
@@ -514,7 +514,7 @@ aType
 if
 (
 !
-contentType
+containerType
 )
 {
 return
@@ -526,10 +526,10 @@ if
 DecoderTraits
 :
 :
-CanHandleContentType
+CanHandleContainerType
 (
 *
-contentType
+containerType
 aDiagnostics
 )
 =
@@ -546,7 +546,7 @@ MediaMIMEType
 &
 mimeType
 =
-contentType
+containerType
 -
 >
 Type
@@ -1281,11 +1281,11 @@ nullptr
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-contentType
+containerType
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aType
 )
@@ -1293,7 +1293,7 @@ aType
 if
 (
 !
-contentType
+containerType
 )
 {
 aRv
@@ -1312,7 +1312,7 @@ nsACString
 &
 mimeType
 =
-contentType
+containerType
 -
 >
 Type

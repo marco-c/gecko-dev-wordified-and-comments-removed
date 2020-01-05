@@ -10,7 +10,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -88,9 +88,9 @@ WebMDecoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 if
@@ -118,7 +118,7 @@ false
 bool
 isVideo
 =
-aContentType
+aContainerType
 .
 Type
 (
@@ -136,7 +136,7 @@ webm
 ;
 if
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -166,7 +166,7 @@ MediaCodecs
 &
 codecs
 =
-aContentType
+aContainerType
 .
 ExtendedType
 (

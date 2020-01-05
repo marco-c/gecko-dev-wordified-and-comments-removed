@@ -35,7 +35,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -2587,16 +2587,16 @@ UniquePtr
 <
 TrackInfo
 >
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 const
 nsACString
 &
 aCodecMIMEType
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 UniquePtr
@@ -2637,7 +2637,7 @@ int32_t
 >
 maybeWidth
 =
-aContentType
+aContainerType
 .
 ExtendedType
 (
@@ -2675,7 +2675,7 @@ int32_t
 >
 maybeHeight
 =
-aContentType
+aContainerType
 .
 ExtendedType
 (

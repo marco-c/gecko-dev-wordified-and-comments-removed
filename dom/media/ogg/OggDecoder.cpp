@@ -8,7 +8,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -37,13 +37,6 @@ h
 include
 "
 OggDecoder
-.
-h
-"
-#
-include
-"
-nsContentTypeParser
 .
 h
 "
@@ -126,9 +119,9 @@ OggDecoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 if
@@ -148,7 +141,7 @@ false
 }
 if
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -165,7 +158,7 @@ ogg
 )
 &
 &
-aContentType
+aContainerType
 .
 Type
 (
@@ -182,7 +175,7 @@ ogg
 )
 &
 &
-aContentType
+aContainerType
 .
 Type
 (
@@ -208,7 +201,7 @@ bool
 isOggVideo
 =
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -230,7 +223,7 @@ MediaCodecs
 &
 codecs
 =
-aContentType
+aContainerType
 .
 ExtendedType
 (

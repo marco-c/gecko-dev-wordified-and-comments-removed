@@ -8,7 +8,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -247,7 +247,7 @@ MP4Decoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 DecoderDoctorDiagnostics
@@ -429,7 +429,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (
@@ -457,7 +457,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (
@@ -509,7 +509,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (
@@ -544,7 +544,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (
@@ -577,7 +577,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (
@@ -610,7 +610,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (
@@ -642,7 +642,7 @@ trackInfos
 .
 AppendElement
 (
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 NS_LITERAL_CSTRING
 (

@@ -8,7 +8,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -159,14 +159,14 @@ MP3Decoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 if
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -183,7 +183,7 @@ mp3
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -207,7 +207,7 @@ IsEnabled
 &
 &
 (
-aContentType
+aContainerType
 .
 ExtendedType
 (
@@ -222,7 +222,7 @@ IsEmpty
 )
 |
 |
-aContentType
+aContainerType
 .
 ExtendedType
 (

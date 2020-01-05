@@ -22,7 +22,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -83,7 +83,7 @@ DirectShowDecoder
 GetSupportedCodecs
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 MediaCodecs

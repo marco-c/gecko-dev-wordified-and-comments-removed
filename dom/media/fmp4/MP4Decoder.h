@@ -48,7 +48,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 class
 MP4Decoder
@@ -108,9 +108,9 @@ bool
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 DecoderDoctorDiagnostics
 *
 aDiagnostics

@@ -22,7 +22,7 @@ class
 MediaCodecs
 ;
 class
-MediaContentType
+MediaContainerType
 ;
 class
 DirectShowDecoder
@@ -88,7 +88,7 @@ bool
 GetSupportedCodecs
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 MediaCodecs

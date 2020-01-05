@@ -654,7 +654,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -19291,11 +19291,11 @@ aDiagnostics
 {
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-contentType
+containerType
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aType
 )
@@ -19303,7 +19303,7 @@ aType
 if
 (
 !
-contentType
+containerType
 )
 {
 return
@@ -19314,10 +19314,10 @@ return
 DecoderTraits
 :
 :
-CanHandleContentType
+CanHandleContainerType
 (
 *
-contentType
+containerType
 aDiagnostics
 )
 ;

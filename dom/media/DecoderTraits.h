@@ -27,7 +27,7 @@ class
 DecoderDoctorDiagnostics
 ;
 class
-MediaContentType
+MediaContainerType
 ;
 class
 MediaDecoder
@@ -53,12 +53,12 @@ public
 :
 static
 CanPlayStatus
-CanHandleContentType
+CanHandleContainerType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -102,7 +102,7 @@ MediaDecoderReader
 CreateReader
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 AbstractMediaDecoder
@@ -125,7 +125,7 @@ bool
 IsMP4SupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 DecoderDoctorDiagnostics

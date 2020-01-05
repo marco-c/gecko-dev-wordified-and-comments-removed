@@ -32,7 +32,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -2685,11 +2685,11 @@ MediaKeySystemMediaCapability
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-maybeContentType
+maybeContainerType
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 contentTypeString
 )
@@ -2697,7 +2697,7 @@ contentTypeString
 if
 (
 !
-maybeContentType
+maybeContainerType
 )
 {
 EME_LOG
@@ -2732,7 +2732,7 @@ unsupported
 failed
 to
 parse
-contentType
+contentTypeString
 as
 MIME
 type
@@ -2770,12 +2770,12 @@ continue
 ;
 }
 const
-MediaContentType
+MediaContainerType
 &
-contentType
+containerType
 =
 *
-maybeContentType
+maybeContainerType
 ;
 bool
 invalid
@@ -2795,7 +2795,7 @@ auto
 &
 codecString
 :
-contentType
+containerType
 .
 ExtendedType
 (
@@ -2938,7 +2938,7 @@ DecoderTraits
 :
 IsMP4SupportedType
 (
-contentType
+containerType
 aDiagnostics
 )
 ;
@@ -3032,7 +3032,7 @@ WebMDecoder
 :
 IsSupportedType
 (
-contentType
+containerType
 )
 ;
 if
@@ -3299,7 +3299,7 @@ majorType
 =
 GetMajorType
 (
-contentType
+containerType
 .
 Type
 (
