@@ -1129,13 +1129,6 @@ RESPATH
 /
 components
 /
-dom_cellbroadcast
-.
-xpt
-RESPATH
-/
-components
-/
 dom_mobilemessage
 .
 xpt

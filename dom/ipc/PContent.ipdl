@@ -132,10 +132,6 @@ PBrowser
 ;
 include
 protocol
-PCellBroadcast
-;
-include
-protocol
 PCompositorBridge
 ;
 include
@@ -1481,9 +1477,6 @@ PBluetooth
 ;
 manages
 PBrowser
-;
-manages
-PCellBroadcast
 ;
 manages
 PContentPermissionRequest
@@ -4157,11 +4150,6 @@ float
 systemDefaultScale
 bool
 success
-)
-;
-async
-PCellBroadcast
-(
 )
 ;
 async
