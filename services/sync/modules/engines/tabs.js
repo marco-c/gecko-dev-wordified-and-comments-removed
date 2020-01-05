@@ -1561,13 +1561,6 @@ Ci
 nsIObserver
 ]
 )
-loadChangedIDs
-:
-function
-(
-)
-{
-}
 clearChangedIDs
 :
 function
