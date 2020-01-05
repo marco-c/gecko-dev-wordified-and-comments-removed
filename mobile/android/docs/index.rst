@@ -80,6 +80,7 @@ uitelemetry
 adjust
 defaultdomains
 bouncer
+shutdown
 Indices
 and
 tables
