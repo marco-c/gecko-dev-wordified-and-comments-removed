@@ -411,6 +411,17 @@ DOMString
 selectors
 )
 ;
+[
+Pure
+Throws
+]
+boolean
+webkitMatchesSelector
+(
+DOMString
+selectors
+)
+;
 HTMLCollection
 getElementsByTagName
 (
