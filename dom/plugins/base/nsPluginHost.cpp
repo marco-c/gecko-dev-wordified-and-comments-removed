@@ -1004,8 +1004,6 @@ return
 break
 ;
 }
-else
-{
 remaining
 -
 =
@@ -1030,7 +1028,6 @@ start
 =
 cp
 ;
-}
 }
 return
 len
@@ -12939,7 +12936,6 @@ mPluginRegFile
 return
 NS_ERROR_FAILURE
 ;
-else
 return
 NS_ERROR_NOT_AVAILABLE
 ;
