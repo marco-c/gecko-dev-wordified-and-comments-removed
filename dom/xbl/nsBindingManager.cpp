@@ -1449,6 +1449,12 @@ mProcessAttachedQueueEvent
 =
 NewRunnableMethod
 (
+"
+nsBindingManager
+:
+:
+DoProcessAttachedQueue
+"
 this
 &
 nsBindingManager

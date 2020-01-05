@@ -1562,6 +1562,12 @@ nsIDocument
 aDocument
 )
 :
+Runnable
+(
+"
+nsDocumentShownDispatcher
+"
+)
 mDocument
 (
 aDocument

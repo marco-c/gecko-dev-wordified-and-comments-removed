@@ -640,6 +640,12 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+TransactionIdAllocator
+:
+:
+NotifyTransactionCompleted
+"
 [
 allocator
 id

@@ -8381,6 +8381,12 @@ bool
 aSourceIsMSG
 )
 :
+Runnable
+(
+"
+MediaStreamGraphStableStateRunnable
+"
+)
 mGraph
 (
 aGraph

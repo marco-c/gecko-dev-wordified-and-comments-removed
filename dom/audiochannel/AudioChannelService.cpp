@@ -212,6 +212,12 @@ bool
 aActive
 )
 :
+Runnable
+(
+"
+NotifyChannelActiveRunnable
+"
+)
 mWindowID
 (
 aWindowID

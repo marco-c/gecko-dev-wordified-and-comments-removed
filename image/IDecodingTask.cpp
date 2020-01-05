@@ -199,6 +199,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+IDecodingTask
+:
+:
+NotifyProgress
+"
 [
 =
 ]
@@ -409,6 +415,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+IDecodingTask
+:
+:
+NotifyDecodeComplete
+"
 [
 =
 ]

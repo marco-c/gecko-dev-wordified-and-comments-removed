@@ -3865,6 +3865,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+ProgressTracker
+:
+:
+SyncNotifyProgress
+"
 [
 =
 ]

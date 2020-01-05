@@ -755,6 +755,12 @@ bool
 aPrivateBrowsing
 )
 :
+Runnable
+(
+"
+StorageNotifierRunnable
+"
+)
 mSubject
 (
 aSubject
