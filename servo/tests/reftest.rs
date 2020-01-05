@@ -11,14 +11,6 @@ fs_walk
 [
 feature
 (
-path_ext
-)
-]
-#
-!
-[
-feature
-(
 slice_patterns
 )
 ]
@@ -88,7 +80,6 @@ fs
 :
 :
 {
-PathExt
 File
 walk_dir
 }

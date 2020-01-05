@@ -823,6 +823,12 @@ cef_pointer_wrapper
 u64
 )
 ;
+cef_pointer_wrapper
+!
+(
+usize
+)
+;
 cef_noop_wrapper
 !
 (
@@ -1247,6 +1253,12 @@ u64
 cef_noop_wrapper
 !
 (
+usize
+)
+;
+cef_noop_wrapper
+!
+(
 cef_string_list_t
 )
 ;
@@ -1368,8 +1380,6 @@ len
 *
 2
 )
-as
-u64
 )
 as
 *
@@ -1428,8 +1438,6 @@ buffer
 len
 (
 )
-as
-u64
 dtor
 :
 Some
@@ -2076,8 +2084,6 @@ utf16_chars
 len
 (
 )
-as
-u64
 )
 ;
 ptr

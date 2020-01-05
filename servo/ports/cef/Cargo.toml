@@ -65,7 +65,9 @@ url
 libc
 =
 "
-*
+0
+.
+2
 "
 euclid
 =

@@ -477,8 +477,6 @@ k
 len
 (
 )
-as
-u64
 value
 1
 )

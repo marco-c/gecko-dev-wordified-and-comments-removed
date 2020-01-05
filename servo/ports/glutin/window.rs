@@ -131,6 +131,12 @@ surface
 :
 NativeDisplay
 ;
+use
+libc
+:
+:
+c_void
+;
 #
 [
 cfg
@@ -1096,6 +1102,10 @@ get_proc_address
 (
 s
 )
+as
+*
+const
+c_void
 )
 ;
 }
@@ -5686,6 +5696,10 @@ get_proc_address
 (
 s
 )
+as
+*
+const
+c_void
 )
 ;
 let

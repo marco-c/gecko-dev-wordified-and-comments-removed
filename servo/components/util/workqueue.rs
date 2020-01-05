@@ -15,15 +15,6 @@ use
 libc
 :
 :
-funcs
-:
-:
-posix88
-:
-:
-unistd
-:
-:
 usleep
 ;
 use

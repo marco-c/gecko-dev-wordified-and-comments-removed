@@ -66,15 +66,11 @@ plugins
 "
 [
 dependencies
-.
-url
 ]
-version
+url
 =
 "
 0
 .
-2
-.
-36
+5
 "

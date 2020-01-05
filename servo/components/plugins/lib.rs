@@ -8,6 +8,7 @@ quote
 plugin
 box_syntax
 rustc_private
+slice_patterns
 )
 ]
 #

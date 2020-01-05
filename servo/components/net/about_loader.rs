@@ -71,15 +71,6 @@ use
 std
 :
 :
-fs
-:
-:
-PathExt
-;
-use
-std
-:
-:
 sync
 :
 :

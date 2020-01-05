@@ -109,7 +109,7 @@ def
 hir
 :
 :
-StructDef
+VariantData
 _n
 :
 ast
@@ -159,6 +159,8 @@ reflector_span
 def
 .
 fields
+(
+)
 .
 iter
 (
@@ -256,6 +258,8 @@ _
 def
 .
 fields
+(
+)
 .
 iter
 (

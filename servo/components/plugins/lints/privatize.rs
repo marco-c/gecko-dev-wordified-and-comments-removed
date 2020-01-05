@@ -98,7 +98,7 @@ def
 hir
 :
 :
-StructDef
+VariantData
 _n
 :
 ast
@@ -145,10 +145,11 @@ privatize
 for
 field
 in
-&
 def
 .
 fields
+(
+)
 {
 match
 field

@@ -170,15 +170,6 @@ std
 :
 env
 ;
-use
-std
-:
-:
-fs
-:
-:
-PathExt
-;
 match
 *
 CMD_RESOURCE_DIR

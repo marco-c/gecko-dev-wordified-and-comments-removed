@@ -745,8 +745,6 @@ key
 len
 (
 )
-as
-u64
 value
 1
 )
