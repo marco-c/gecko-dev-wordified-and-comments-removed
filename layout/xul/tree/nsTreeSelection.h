@@ -110,6 +110,14 @@ aClosure
 ;
 protected
 :
+already_AddRefed
+<
+nsIContent
+>
+GetContent
+(
+)
+;
 nsCOMPtr
 <
 nsITreeBoxObject
