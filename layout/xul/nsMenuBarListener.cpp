@@ -809,6 +809,11 @@ AsKeyboardEvent
 ;
 if
 (
+!
+nativeKeyEvent
+|
+|
+(
 nativeKeyEvent
 &
 &
@@ -816,6 +821,7 @@ nativeKeyEvent
 -
 >
 mAccessKeyForwardedToChild
+)
 )
 {
 return
