@@ -107,6 +107,12 @@ style
 :
 :
 stylist
+;
+use
+style
+:
+:
+stylist
 :
 :
 {
@@ -348,6 +354,9 @@ str
 >
 (
 SelectorMap
+<
+Rule
+>
 SharedRwLock
 )
 {
@@ -356,6 +365,11 @@ mut
 map
 =
 SelectorMap
+:
+:
+<
+Rule
+>
 :
 :
 new
@@ -1218,7 +1232,7 @@ top
 assert_eq
 !
 (
-SelectorMap
+stylist
 :
 :
 get_id_name
@@ -1231,6 +1245,8 @@ rules_list
 [
 0
 ]
+.
+selector
 )
 None
 )
@@ -1238,7 +1254,7 @@ None
 assert_eq
 !
 (
-SelectorMap
+stylist
 :
 :
 get_id_name
@@ -1251,6 +1267,8 @@ rules_list
 [
 0
 ]
+.
+selector
 )
 Some
 (
@@ -1302,7 +1320,7 @@ top
 assert_eq
 !
 (
-SelectorMap
+stylist
 :
 :
 get_class_name
@@ -1315,6 +1333,8 @@ rules_list
 [
 0
 ]
+.
+selector
 )
 Some
 (
@@ -1333,7 +1353,7 @@ foo
 assert_eq
 !
 (
-SelectorMap
+stylist
 :
 :
 get_class_name
@@ -1346,6 +1366,8 @@ rules_list
 [
 0
 ]
+.
+selector
 )
 None
 )
@@ -1411,7 +1433,7 @@ str
 assert
 !
 (
-SelectorMap
+stylist
 :
 :
 get_local_name
@@ -1424,6 +1446,8 @@ i
 [
 0
 ]
+.
+selector
 )
 =
 =
