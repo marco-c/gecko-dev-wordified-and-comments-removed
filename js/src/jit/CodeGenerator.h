@@ -319,7 +319,7 @@ sigId
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 trapOffset
 wasm
 :

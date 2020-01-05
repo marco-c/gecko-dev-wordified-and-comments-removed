@@ -1938,7 +1938,7 @@ currentOffset
 (
 )
 ;
-TrapOffset
+BytecodeOffset
 trapOffset
 (
 0

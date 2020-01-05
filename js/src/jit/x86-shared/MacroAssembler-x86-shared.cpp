@@ -3491,7 +3491,7 @@ fail
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 ;
 explicit
@@ -3503,7 +3503,7 @@ masm
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 )
 :
@@ -3684,7 +3684,7 @@ isUnsigned
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 Label
 *
@@ -3788,7 +3788,7 @@ isUnsigned
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 Label
 *
@@ -3865,7 +3865,7 @@ isUnsigned
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 Label
 *
@@ -3998,7 +3998,7 @@ isUnsigned
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 Label
 *

@@ -14334,7 +14334,7 @@ mir
 )
 -
 >
-trapOffset
+bytecodeOffset
 (
 )
 )
@@ -27155,13 +27155,13 @@ isUnsigned
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 off
 =
 ool
 -
 >
-trapOffset
+bytecodeOffset
 (
 )
 ;

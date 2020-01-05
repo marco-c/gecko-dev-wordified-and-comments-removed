@@ -3524,6 +3524,8 @@ MoveOp
 :
 Type
 result
+bool
+callFromWasm
 )
 {
 if

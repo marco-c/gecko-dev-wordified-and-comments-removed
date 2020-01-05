@@ -56,9 +56,6 @@ FuncOffsets
 struct
 CallableOffsets
 ;
-struct
-TrapOffset
-;
 class
 FrameIterator
 {
