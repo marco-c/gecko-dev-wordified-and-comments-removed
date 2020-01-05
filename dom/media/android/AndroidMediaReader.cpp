@@ -671,7 +671,13 @@ mLastVideoFrame
 >
 UpdateDuration
 (
+TimeUnit
+:
+:
+FromMicroseconds
+(
 durationUs
+)
 )
 ;
 mVideoQueue
@@ -1338,7 +1344,13 @@ mLastVideoFrame
 >
 UpdateDuration
 (
+TimeUnit
+:
+:
+FromMicroseconds
+(
 duration
+)
 )
 ;
 if
