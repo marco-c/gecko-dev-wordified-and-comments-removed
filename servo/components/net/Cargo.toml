@@ -253,6 +253,15 @@ regex_macros
 .
 8
 "
+mime_guess
+=
+"
+1
+.
+1
+.
+1
+"
 flate2
 =
 "
