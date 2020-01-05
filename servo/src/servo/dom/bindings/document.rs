@@ -91,12 +91,6 @@ JS_ResolveStub
 }
 ;
 import
-js
-:
-:
-ptr_methods
-;
-import
 result
 :
 :
