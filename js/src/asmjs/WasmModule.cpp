@@ -562,7 +562,7 @@ serializedSize
 (
 )
 +
-func
+field
 .
 serializedSize
 (
@@ -593,7 +593,7 @@ cursor
 ;
 cursor
 =
-func
+field
 .
 serialize
 (
@@ -633,7 +633,7 @@ cursor
 (
 cursor
 =
-func
+field
 .
 deserialize
 (
@@ -664,7 +664,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-func
+field
 .
 sizeOfExcludingThis
 (

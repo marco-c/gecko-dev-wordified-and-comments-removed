@@ -200,7 +200,7 @@ CacheableChars
 module
 ;
 CacheableChars
-func
+field
 ;
 DefinitionKind
 kind
@@ -220,7 +220,7 @@ module
 UniqueChars
 &
 &
-func
+field
 DefinitionKind
 kind
 )
@@ -232,11 +232,11 @@ Move
 module
 )
 )
-func
+field
 (
 Move
 (
-func
+field
 )
 )
 kind
