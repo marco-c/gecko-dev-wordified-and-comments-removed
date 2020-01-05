@@ -1985,7 +1985,6 @@ test
 android_build_tools_version
 "
 =
-=
 "
 "
 ;
