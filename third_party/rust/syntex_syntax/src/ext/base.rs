@@ -3613,10 +3613,6 @@ Parser
 a
 >
 {
-let
-mut
-parser
-=
 parse
 :
 :
@@ -3631,14 +3627,6 @@ to_vec
 (
 )
 )
-;
-parser
-.
-allow_interpolated_tts
-=
-false
-;
-parser
 }
 pub
 fn

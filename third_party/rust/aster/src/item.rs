@@ -5065,15 +5065,9 @@ unsafety
 self
 .
 generics
-P
-:
-:
-from_vec
-(
 self
 .
 bounds
-)
 self
 .
 items
@@ -6217,6 +6211,10 @@ TraitItemKind
 Type
 (
 bounds
+.
+into_vec
+(
+)
 ty
 )
 ;

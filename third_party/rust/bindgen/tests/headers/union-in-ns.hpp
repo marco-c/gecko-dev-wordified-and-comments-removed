@@ -1,8 +1,0 @@
-union
-bar
-{
-int
-baz
-;
-}
-;

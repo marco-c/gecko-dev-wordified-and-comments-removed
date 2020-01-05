@@ -29,5 +29,5 @@ build
 features
 "
 BINDGEN_FEATURES
-docs_
+testing_only_docs
 "

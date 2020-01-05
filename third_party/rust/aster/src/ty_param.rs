@@ -277,10 +277,6 @@ bounds
 ty_param
 .
 bounds
-.
-into_vec
-(
-)
 default
 :
 ty_param
@@ -587,15 +583,9 @@ ast
 DUMMY_NODE_ID
 bounds
 :
-P
-:
-:
-from_vec
-(
 self
 .
 bounds
-)
 default
 :
 self

@@ -11,7 +11,7 @@ version
 "
 0
 .
-38
+41
 .
 0
 "
@@ -119,12 +119,9 @@ syntex_syntax
 version
 =
 "
-^
 0
 .
-54
-.
-0
+58
 "
 optional
 =
@@ -150,12 +147,9 @@ compiletest_rs
 version
 =
 "
-^
 0
 .
 2
-.
-0
 "
 optional
 =

@@ -11,7 +11,7 @@ version
 "
 0
 .
-29
+32
 .
 0
 "
@@ -121,7 +121,6 @@ clippy
 version
 =
 "
-^
 0
 .
 *
@@ -136,12 +135,9 @@ syntex_errors
 version
 =
 "
-^
 0
 .
-54
-.
-0
+58
 "
 optional
 =
@@ -153,12 +149,9 @@ syntex_syntax
 version
 =
 "
-^
 0
 .
-54
-.
-0
+58
 "
 optional
 =

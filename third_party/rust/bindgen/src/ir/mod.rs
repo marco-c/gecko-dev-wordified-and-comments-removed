@@ -16,6 +16,10 @@ derive
 ;
 pub
 mod
+dot
+;
+pub
+mod
 enum_ty
 ;
 pub
@@ -45,6 +49,10 @@ module
 pub
 mod
 named
+;
+pub
+mod
+template
 ;
 pub
 mod
