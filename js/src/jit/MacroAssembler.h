@@ -7576,6 +7576,8 @@ wasm
 CalleeDesc
 &
 callee
+bool
+needsBoundsCheck
 )
 ;
 void

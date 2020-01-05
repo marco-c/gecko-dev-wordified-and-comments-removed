@@ -8059,6 +8059,12 @@ wasmCallIndirect
 (
 desc
 callee
+ins
+-
+>
+needsBoundsCheck
+(
+)
 )
 ;
 break
