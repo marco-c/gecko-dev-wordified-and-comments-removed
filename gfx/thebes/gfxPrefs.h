@@ -3918,7 +3918,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -3931,7 +3931,6 @@ border
 layers
 "
 LayersAllowBorderLayers
-bool
 false
 )
 ;
@@ -3954,7 +3953,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -3969,7 +3968,6 @@ outer
 layers
 "
 LayersAllowOuterBoxShadow
-bool
 false
 )
 ;
@@ -4028,7 +4026,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -4041,8 +4039,12 @@ caret
 layers
 "
 LayersAllowCaretLayers
-bool
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_GFX_PREF
@@ -6904,6 +6906,12 @@ aOutValue
 static
 void
 AssertMainThread
+(
+)
+;
+static
+bool
+OverrideBase_WebRender
 (
 )
 ;
