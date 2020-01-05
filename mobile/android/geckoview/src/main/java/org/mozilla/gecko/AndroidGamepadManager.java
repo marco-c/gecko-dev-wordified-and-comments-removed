@@ -624,7 +624,7 @@ ui
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 private
@@ -649,7 +649,7 @@ ui
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 private
@@ -678,7 +678,7 @@ ui
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 private

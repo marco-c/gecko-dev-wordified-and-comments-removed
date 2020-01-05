@@ -1987,7 +1987,7 @@ nullptr
 ;
 }
 void
-DispatchToGeckoThread
+DispatchToGeckoPriorityQueue
 (
 UniquePtr
 <
