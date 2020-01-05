@@ -3754,9 +3754,6 @@ mIsAudioTrackAudible
 bool
 mHasSuspendTaint
 ;
-bool
-mMediaTracksConstructed
-;
 Visibility
 mVisibilityState
 ;
