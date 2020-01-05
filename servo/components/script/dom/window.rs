@@ -8628,6 +8628,10 @@ then
 forces
 a
 reflow
+if
+tick
+is
+true
 .
 pub
 fn
@@ -8638,6 +8642,9 @@ self
 delta
 :
 i32
+tick
+:
+bool
 )
 {
 self
@@ -8652,6 +8659,7 @@ Msg
 AdvanceClockMs
 (
 delta
+tick
 )
 )
 .

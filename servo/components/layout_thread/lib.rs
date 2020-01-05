@@ -3661,6 +3661,7 @@ Msg
 AdvanceClockMs
 (
 how_many
+do_tick
 )
 =
 >
@@ -3671,6 +3672,7 @@ handle_advance_clock_ms
 (
 how_many
 possibly_locked_rw_data
+do_tick
 )
 ;
 }
@@ -4648,6 +4650,9 @@ a
 '
 b
 >
+tick_animations
+:
+bool
 )
 {
 self
@@ -4665,6 +4670,9 @@ f64
 0
 )
 ;
+if
+tick_animations
+{
 self
 .
 tick_all_animations
@@ -4672,6 +4680,7 @@ tick_all_animations
 possibly_locked_rw_data
 )
 ;
+}
 }
 /
 /

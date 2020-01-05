@@ -7363,6 +7363,9 @@ self
 ms
 :
 i32
+tick
+:
+bool
 )
 {
 self
@@ -7382,6 +7385,7 @@ as_window
 advance_animation_clock
 (
 ms
+tick
 )
 ;
 }
