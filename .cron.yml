@@ -67,6 +67,10 @@ tasks
 method
 :
 nightly_linux
+run
+-
+on
+-
 projects
 :
 -
@@ -116,6 +120,10 @@ tasks
 method
 :
 nightly_fennec
+run
+-
+on
+-
 projects
 :
 -
