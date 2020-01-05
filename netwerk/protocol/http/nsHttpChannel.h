@@ -491,6 +491,15 @@ uint32_t
 status
 )
 ;
+static
+bool
+WillRedirect
+(
+nsHttpResponseHead
+*
+response
+)
+;
 NS_IMETHOD
 Cancel
 (
