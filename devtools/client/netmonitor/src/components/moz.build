@@ -192,6 +192,15 @@ panel
 js
 '
 '
+stack
+-
+trace
+-
+panel
+.
+js
+'
+'
 statistics
 -
 panel
