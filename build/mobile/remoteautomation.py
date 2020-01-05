@@ -1233,6 +1233,11 @@ mozcrash
 check_for_java_exception
 (
 logcat
+test_name
+=
+self
+.
+lastTestSeen
 )
         
 if
