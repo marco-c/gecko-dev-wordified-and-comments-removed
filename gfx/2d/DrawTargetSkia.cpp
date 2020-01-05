@@ -2162,12 +2162,10 @@ static
 bool
 ExtractAlphaBitmap
 (
-const
 sk_sp
 <
 SkImage
 >
-&
 aImage
 SkBitmap
 *
@@ -8028,7 +8026,7 @@ imageInfo
 colorType
 (
 )
-!
+=
 =
 kUnknown_SkColorType
 )
