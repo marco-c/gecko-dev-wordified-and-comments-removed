@@ -321,12 +321,6 @@ kMaxNackListSize
 =
 250
 ;
-const
-int
-kInvalidRtpExtensionId
-=
-0
-;
 class
 ChannelStatsObserver
 :
@@ -644,10 +638,6 @@ last_rtt_ms_
 num_rtts_
 (
 0
-)
-rid_extension_id_
-(
-kInvalidRtpExtensionId
 )
 rtp_rtcp_modules_
 (
@@ -3512,10 +3502,6 @@ if
 enable
 )
 {
-rid_extension_id_
-=
-id
-;
 for
 (
 RtpRtcp
@@ -3548,10 +3534,6 @@ id
 }
 else
 {
-rid_extension_id_
-=
-kInvalidRtpExtensionId
-;
 for
 (
 RtpRtcp
