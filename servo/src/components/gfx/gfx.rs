@@ -317,10 +317,6 @@ font_list
 /
 Misc
 .
-pub
-mod
-opts
-;
 mod
 buffer_map
 ;

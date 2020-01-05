@@ -39,6 +39,10 @@ managed_boxes
 ;
 extern
 mod
+azure
+;
+extern
+mod
 extra
 ;
 extern
@@ -76,6 +80,10 @@ io
 pub
 mod
 namespace
+;
+pub
+mod
+opts
 ;
 pub
 mod
