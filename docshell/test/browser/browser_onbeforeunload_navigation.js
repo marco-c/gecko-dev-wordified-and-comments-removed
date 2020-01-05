@@ -696,6 +696,12 @@ stayingOnPage
 =
 false
 ;
+contentWindow
+.
+onbeforeunload
+=
+null
+;
 currentTest
 =
 0
@@ -707,6 +713,10 @@ if
 stayingOnPage
 )
 {
+contentWindow
+=
+null
+;
 onAfterPageLoad
 =
 runCurrentTest
@@ -714,12 +724,6 @@ runCurrentTest
 loadExpected
 =
 TEST_PAGE
-;
-contentWindow
-.
-onbeforeunload
-=
-null
 ;
 testTab
 .
