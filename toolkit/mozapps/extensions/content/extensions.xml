@@ -5096,6 +5096,13 @@ info
 addon
 .
 iconURL
+permissions
+:
+info
+.
+addon
+.
+userPermissions
 resolve
 reject
 }
