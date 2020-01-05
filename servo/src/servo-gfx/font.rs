@@ -2982,10 +2982,12 @@ store
 =
 GlyphStore
 (
-text
-.
-len
+str
+:
+:
+char_len
 (
+text
 )
 )
 ;
