@@ -1369,6 +1369,8 @@ handleParseWorkload
 AutoLockHelperThreadState
 &
 locked
+uintptr_t
+stackLimit
 )
 ;
 void
