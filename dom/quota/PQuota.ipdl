@@ -158,7 +158,7 @@ clearAll
 }
 ;
 struct
-ClearOriginsParams
+ClearDataParams
 {
 nsString
 pattern
@@ -182,7 +182,7 @@ InitParams
 ;
 ClearOriginParams
 ;
-ClearOriginsParams
+ClearDataParams
 ;
 ClearAllParams
 ;

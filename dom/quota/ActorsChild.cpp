@@ -802,7 +802,7 @@ case
 RequestResponse
 :
 :
-TClearOriginsResponse
+TClearDataResponse
 :
 case
 RequestResponse

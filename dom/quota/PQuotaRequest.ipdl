@@ -80,7 +80,7 @@ ClearOriginResponse
 }
 ;
 struct
-ClearOriginsResponse
+ClearDataResponse
 {
 }
 ;
@@ -103,7 +103,7 @@ InitResponse
 ;
 ClearOriginResponse
 ;
-ClearOriginsResponse
+ClearDataResponse
 ;
 ClearAllResponse
 ;
