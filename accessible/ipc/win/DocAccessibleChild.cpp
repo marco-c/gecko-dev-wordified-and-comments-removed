@@ -120,17 +120,6 @@ IAccessibleHolder
 aProxy
 )
 {
-int32_t
-msaaID
-=
-AccessibleWrap
-:
-:
-GetChildIDFor
-(
-mDoc
-)
-;
 IAccessibleHolder
 parentProxy
 ;
@@ -139,7 +128,6 @@ PDocAccessibleChild
 :
 SendCOMProxy
 (
-msaaID
 aProxy
 &
 parentProxy

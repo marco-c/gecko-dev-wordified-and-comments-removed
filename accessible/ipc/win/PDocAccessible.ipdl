@@ -368,8 +368,6 @@ PBrowser
 sync
 COMProxy
 (
-int32_t
-aMsaaID
 IAccessibleHolder
 aDocCOMProxy
 )
@@ -377,13 +375,6 @@ returns
 (
 IAccessibleHolder
 aParentCOMProxy
-)
-;
-async
-MsaaID
-(
-int32_t
-aMsaaID
 )
 ;
 child
