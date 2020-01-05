@@ -335,10 +335,6 @@ PTestShell
 ;
 include
 protocol
-PVoicemail
-;
-include
-protocol
 PJavaScript
 ;
 include
@@ -1496,9 +1492,6 @@ PTelephony
 ;
 manages
 PTestShell
-;
-manages
-PVoicemail
 ;
 manages
 PJavaScript
@@ -4094,11 +4087,6 @@ PStorage
 ;
 async
 PTelephony
-(
-)
-;
-async
-PVoicemail
 (
 )
 ;

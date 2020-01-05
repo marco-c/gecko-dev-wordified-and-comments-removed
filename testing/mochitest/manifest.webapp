@@ -103,12 +103,6 @@ telephony
 {
 }
 "
-voicemail
-"
-:
-{
-}
-"
 device
 -
 storage

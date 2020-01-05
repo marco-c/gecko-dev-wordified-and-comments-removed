@@ -1160,13 +1160,6 @@ components
 dom_traversal
 .
 xpt
-RESPATH
-/
-components
-/
-dom_voicemail
-.
-xpt
 #
 ifdef
 MOZ_WEBSPEECH
