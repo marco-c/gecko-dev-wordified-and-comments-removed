@@ -137,9 +137,7 @@ properties
 style_structs
 :
 :
-Font
-as
-FontStyle
+ServoFont
 ;
 use
 text
@@ -561,7 +559,7 @@ pub
 type
 SpecifiedFontStyle
 =
-FontStyle
+ServoFont
 ;
 #
 [

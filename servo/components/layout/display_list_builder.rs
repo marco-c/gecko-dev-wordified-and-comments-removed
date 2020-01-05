@@ -441,7 +441,7 @@ properties
 style_structs
 :
 :
-Border
+ServoBorder
 ;
 use
 style
@@ -1532,7 +1532,7 @@ Au
 border_style
 :
 &
-Border
+ServoBorder
 )
 -
 >
