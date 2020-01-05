@@ -490,10 +490,6 @@ webrender_traits
 ;
 extern
 crate
-websocket
-;
-extern
-crate
 webvr_traits
 ;
 extern
