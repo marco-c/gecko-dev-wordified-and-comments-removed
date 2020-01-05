@@ -101,6 +101,11 @@ GENERATED_FILES
 [
 (
 '
+xpidl
+.
+stub
+'
+'
 xpidllex
 .
 py
@@ -115,6 +120,11 @@ py
 GENERATED_FILES
 [
 (
+'
+xpidl
+.
+stub
+'
 '
 xpidllex
 .
