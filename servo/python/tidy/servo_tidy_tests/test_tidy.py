@@ -1060,7 +1060,7 @@ self
         
 tidy
 .
-spec_base_path
+SPEC_BASE_PATH
 =
 base_path
         
