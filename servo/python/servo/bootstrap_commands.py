@@ -588,7 +588,7 @@ self
 .
 context
 .
-topdir
+sharedir
 "
 rust
 "
@@ -878,10 +878,16 @@ self
 .
 context
 .
-topdir
+sharedir
 "
 cargo
 "
+                              
+self
+.
+cargo_build_id
+(
+)
 )
         
 if
@@ -958,7 +964,7 @@ cargo_dir
         
 os
 .
-mkdir
+makedirs
 (
 cargo_dir
 )
@@ -1001,17 +1007,23 @@ cargo
 -
 dist
 /
-2014
--
-10
--
-21
+%
+s
 /
 %
 s
 "
 %
+\
+            
+(
+self
+.
+cargo_build_id
+(
+)
 tgz_file
+)
         
 download
 (
