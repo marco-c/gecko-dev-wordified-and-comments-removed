@@ -66,6 +66,15 @@ platform
 font_list
 :
 :
+SANS_SERIF_FONT_FAMILY
+;
+use
+platform
+:
+:
+font_list
+:
+:
 for_each_available_family
 ;
 use
@@ -618,9 +627,7 @@ FontFamily
 :
 :
 SansSerif
-"
-Arial
-"
+SANS_SERIF_FONT_FAMILY
 )
 ;
 append_map
