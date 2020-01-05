@@ -655,6 +655,16 @@ override
 ;
 virtual
 nsresult
+PreHandleEvent
+(
+EventChainVisitor
+&
+aVisitor
+)
+override
+;
+virtual
+nsresult
 PostHandleEvent
 (
 EventChainPostVisitor
