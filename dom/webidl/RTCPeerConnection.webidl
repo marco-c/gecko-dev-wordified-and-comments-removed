@@ -138,13 +138,6 @@ error
 )
 ;
 callback
-VoidFunction
-=
-void
-(
-)
-;
-callback
 RTCStatsCallback
 =
 void

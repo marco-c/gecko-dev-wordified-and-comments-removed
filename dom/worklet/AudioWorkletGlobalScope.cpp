@@ -23,7 +23,7 @@ mozilla
 /
 dom
 /
-RTCPeerConnectionBinding
+FunctionBinding
 .
 h
 "

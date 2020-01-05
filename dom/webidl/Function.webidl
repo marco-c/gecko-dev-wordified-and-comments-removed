@@ -170,3 +170,10 @@ any
 arguments
 )
 ;
+callback
+VoidFunction
+=
+void
+(
+)
+;
