@@ -5,6 +5,13 @@ _CPR_TYPES_H_
 define
 _CPR_TYPES_H_
 #
+include
+<
+inttypes
+.
+h
+>
+#
 if
 defined
 SIP_OS_LINUX
