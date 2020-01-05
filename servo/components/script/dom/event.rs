@@ -226,6 +226,7 @@ ProgressEvent
 StorageEvent
 UIEvent
 ErrorEvent
+CloseEvent
 }
 #
 [

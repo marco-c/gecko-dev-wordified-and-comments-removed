@@ -210,6 +210,10 @@ extern
 crate
 util
 ;
+extern
+crate
+websocket
+;
 #
 [
 macro_use
