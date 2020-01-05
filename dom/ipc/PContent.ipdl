@@ -1433,10 +1433,6 @@ PPluginModule
 ;
 parent
 opens
-PProcessHangMonitor
-;
-parent
-opens
 PGMPService
 ;
 child
@@ -1813,6 +1809,16 @@ aOuterWindowID
 ;
 child
 :
+async
+InitProcessHangMonitor
+(
+Endpoint
+<
+PProcessHangMonitorChild
+>
+hangMonitor
+)
+;
 /
 /
 Give
