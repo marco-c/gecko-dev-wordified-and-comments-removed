@@ -49,6 +49,15 @@ timeout_seconds
 "
 dom
 .
+testable_crash
+.
+enabled
+"
+:
+false
+"
+dom
+.
 testbinding
 .
 enabled
