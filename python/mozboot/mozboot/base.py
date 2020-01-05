@@ -1925,8 +1925,6 @@ Downloading
 clang
 package
 from
-%
-s
 '
 package_url
 )
