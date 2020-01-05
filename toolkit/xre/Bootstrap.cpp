@@ -337,12 +337,6 @@ virtual
 void
 XRE_LibFuzzerSetMain
 (
-int
-argc
-char
-*
-*
-argv
 LibFuzzerMain
 aMain
 )
@@ -352,8 +346,6 @@ override
 :
 XRE_LibFuzzerSetMain
 (
-argc
-argv
 aMain
 )
 ;
