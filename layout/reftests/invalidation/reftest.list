@@ -112,6 +112,7 @@ html
 ref
 .
 html
+skip
 =
 =
 test
@@ -130,6 +131,9 @@ layers
 ref
 .
 html
+#
+Bug
+1067360
 =
 =
 test
