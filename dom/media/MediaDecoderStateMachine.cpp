@@ -203,13 +203,6 @@ h
 #
 include
 "
-AccurateSeekTask
-.
-h
-"
-#
-include
-"
 AudioSegment
 .
 h
@@ -5715,12 +5708,6 @@ bool
 mIsVideoQueueFinished
 =
 false
-;
-RefPtr
-<
-AccurateSeekTask
->
-mTask
 ;
 }
 ;
