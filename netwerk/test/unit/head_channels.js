@@ -1123,6 +1123,12 @@ this
 _isFromCache
 )
 ;
+this
+.
+_closurectx
+=
+null
+;
 }
 catch
 (
