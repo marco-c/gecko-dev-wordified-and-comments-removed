@@ -373,9 +373,11 @@ x
 mY
 =
 y
+;
 mWidthOrX2
 =
 width
+;
 mHeightOrY2
 =
 height
@@ -438,12 +440,15 @@ y2
 mX
 =
 x1
+;
 mY
 =
 y1
+;
 mWidthOrX2
 =
 x2
+;
 mHeightOrY2
 =
 y2
