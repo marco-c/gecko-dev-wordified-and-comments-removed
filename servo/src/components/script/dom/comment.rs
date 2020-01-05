@@ -23,6 +23,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 CommentBinding
 ;
 use

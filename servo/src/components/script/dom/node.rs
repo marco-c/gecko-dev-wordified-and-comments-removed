@@ -92,6 +92,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 NodeBinding
 :
 :

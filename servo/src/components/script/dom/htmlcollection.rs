@@ -26,6 +26,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 HTMLCollectionBinding
 ;
 use

@@ -8,6 +8,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 HTMLFrameElementBinding
 ;
 use

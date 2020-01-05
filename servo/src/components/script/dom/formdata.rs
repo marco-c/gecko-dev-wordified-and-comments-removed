@@ -38,6 +38,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 FormDataBinding
 ;
 use

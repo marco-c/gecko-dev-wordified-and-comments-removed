@@ -8,6 +8,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 DOMParserBinding
 ;
 use
@@ -18,6 +21,9 @@ bindings
 :
 :
 codegen
+:
+:
+BindingDeclarations
 :
 :
 DOMParserBinding

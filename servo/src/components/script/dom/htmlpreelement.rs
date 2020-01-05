@@ -8,6 +8,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 HTMLPreElementBinding
 ;
 use

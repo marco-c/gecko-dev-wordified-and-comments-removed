@@ -8,6 +8,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 EventBinding
 ;
 use
@@ -18,6 +21,9 @@ bindings
 :
 :
 codegen
+:
+:
+BindingDeclarations
 :
 :
 EventBinding

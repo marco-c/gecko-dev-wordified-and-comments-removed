@@ -31,6 +31,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 ElementBinding
 ;
 use
