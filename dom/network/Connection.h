@@ -42,13 +42,6 @@ namespace
 mozilla
 {
 namespace
-workers
-{
-class
-WorkerPrivate
-;
-}
-namespace
 hal
 {
 class
@@ -58,6 +51,13 @@ NetworkInformation
 namespace
 dom
 {
+namespace
+workers
+{
+class
+WorkerPrivate
+;
+}
 namespace
 network
 {

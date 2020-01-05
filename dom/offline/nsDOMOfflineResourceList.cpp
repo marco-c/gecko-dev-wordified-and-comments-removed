@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsILoadContext
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h

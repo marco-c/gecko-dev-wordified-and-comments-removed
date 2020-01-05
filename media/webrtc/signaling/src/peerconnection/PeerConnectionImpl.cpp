@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsILoadContext
+.
+h
+"
+#
+include
+"
 nsIProperty
 .
 h

@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Mutex
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
