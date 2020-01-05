@@ -156,7 +156,7 @@ c_str
 ;
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 mask
 =

@@ -220,7 +220,7 @@ protected
 :
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 buildMaskLayer
 (
@@ -671,7 +671,7 @@ mPaintedLayerCallbackData
 void
 AddImageKeyForDiscard
 (
-WRImageKey
+WrImageKey
 )
 ;
 void
@@ -727,7 +727,7 @@ std
 :
 vector
 <
-WRImageKey
+WrImageKey
 >
 mImageKeys
 ;

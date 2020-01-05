@@ -30,7 +30,7 @@ mozilla
 :
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 MaybeImageMask
 ;
@@ -95,8 +95,8 @@ c
 }
 static
 inline
-WRBorderSide
-ToWRBorderSide
+WrBorderSide
+ToWrBorderSide
 (
 const
 LayerCoord
@@ -110,7 +110,7 @@ Color
 color
 )
 {
-WRBorderSide
+WrBorderSide
 bs
 ;
 bs
@@ -132,7 +132,7 @@ bs
 .
 style
 =
-WRBorderStyle
+WrBorderStyle
 :
 :
 Solid
@@ -431,7 +431,7 @@ WindowId
 explicit
 WindowId
 (
-WRWindowId
+WrWindowId
 aHandle
 )
 :
@@ -481,7 +481,7 @@ aOther
 mHandle
 ;
 }
-WRWindowId
+WrWindowId
 mHandle
 ;
 }
@@ -492,7 +492,7 @@ PipelineId
 explicit
 PipelineId
 (
-WRPipelineId
+WrPipelineId
 aHandle
 )
 :
@@ -542,7 +542,7 @@ aOther
 mHandle
 ;
 }
-WRPipelineId
+WrPipelineId
 mHandle
 ;
 }
@@ -553,7 +553,7 @@ Epoch
 explicit
 Epoch
 (
-WREpoch
+WrEpoch
 aHandle
 )
 :
@@ -603,7 +603,7 @@ aOther
 mHandle
 ;
 }
-WREpoch
+WrEpoch
 mHandle
 ;
 }
@@ -614,7 +614,7 @@ FontKey
 explicit
 FontKey
 (
-WRFontKey
+WrFontKey
 aHandle
 )
 :
@@ -664,7 +664,7 @@ aOther
 mHandle
 ;
 }
-WRFontKey
+WrFontKey
 mHandle
 ;
 }
@@ -675,7 +675,7 @@ ImageKey
 explicit
 ImageKey
 (
-WRImageKey
+WrImageKey
 aHandle
 )
 :
@@ -725,7 +725,7 @@ aOther
 mHandle
 ;
 }
-WRImageKey
+WrImageKey
 mHandle
 ;
 }

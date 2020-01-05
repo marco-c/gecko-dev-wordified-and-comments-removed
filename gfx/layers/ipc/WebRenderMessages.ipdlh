@@ -119,7 +119,7 @@ protocol
 PTexture
 ;
 using
-WRBorderSide
+WrBorderSide
 from
 "
 mozilla
@@ -132,7 +132,7 @@ h
 "
 ;
 using
-WRImageKey
+WrImageKey
 from
 "
 mozilla
@@ -145,7 +145,7 @@ h
 "
 ;
 using
-WRTextureFilter
+WrTextureFilter
 from
 "
 mozilla
@@ -184,7 +184,7 @@ h
 "
 ;
 using
-WRGlyphArray
+WrGlyphArray
 from
 "
 mozilla
@@ -322,16 +322,16 @@ bounds
 WrRect
 clip
 ;
-WRBorderSide
+WrBorderSide
 top
 ;
-WRBorderSide
+WrBorderSide
 right
 ;
-WRBorderSide
+WrBorderSide
 bottom
 ;
-WRBorderSide
+WrBorderSide
 left
 ;
 WrLayoutSize
@@ -360,10 +360,10 @@ clip
 MaybeImageMask
 mask
 ;
-WRTextureFilter
+WrTextureFilter
 filter
 ;
-WRImageKey
+WrImageKey
 key
 ;
 }
@@ -383,7 +383,7 @@ clip
 MaybeImageMask
 mask
 ;
-WRTextureFilter
+WrTextureFilter
 filter
 ;
 uint64_t
@@ -414,7 +414,7 @@ bounds
 WrRect
 clip
 ;
-WRGlyphArray
+WrGlyphArray
 [
 ]
 glyph_array

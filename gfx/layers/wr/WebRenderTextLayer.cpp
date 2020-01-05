@@ -275,7 +275,7 @@ mFontData
 ;
 nsTArray
 <
-WRGlyphArray
+WrGlyphArray
 >
 wr_glyphs
 ;

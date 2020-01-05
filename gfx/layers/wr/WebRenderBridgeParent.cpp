@@ -800,14 +800,14 @@ uint32_t
 &
 aStride
 const
-WRImageFormat
+WrImageFormat
 &
 aFormat
 const
 ByteBuffer
 &
 aBuffer
-WRImageKey
+WrImageKey
 *
 aOutImageKey
 )
@@ -865,7 +865,7 @@ WebRenderBridgeParent
 RecvUpdateImage
 (
 const
-WRImageKey
+WrImageKey
 &
 aImageKey
 const
@@ -877,7 +877,7 @@ uint32_t
 &
 aHeight
 const
-WRImageFormat
+WrImageFormat
 &
 aFormat
 const
@@ -936,7 +936,7 @@ WebRenderBridgeParent
 RecvDeleteImage
 (
 const
-WRImageKey
+WrImageKey
 &
 aImageKey
 )
@@ -1285,7 +1285,7 @@ std
 :
 vector
 <
-WRImageKey
+WrImageKey
 >
 keysToDelete
 ;
@@ -1951,7 +1951,7 @@ map
 break
 ;
 }
-WRImageKey
+WrImageKey
 key
 =
 wr_add_image
@@ -2131,7 +2131,7 @@ get_OpDPPushText
 const
 nsTArray
 <
-WRGlyphArray
+WrGlyphArray
 >
 &
 glyph_array
@@ -3326,7 +3326,7 @@ DeleteOldImages
 {
 for
 (
-WRImageKey
+WrImageKey
 key
 :
 mKeysToDelete
