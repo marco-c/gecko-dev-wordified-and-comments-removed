@@ -54,9 +54,6 @@ const
 SurfaceCaps
 &
 caps
-GLContextEGL
-*
-shareContext
 bool
 isOffscreen
 EGLConfig
@@ -84,9 +81,6 @@ const
 SurfaceCaps
 &
 caps
-GLContext
-*
-shareContext
 bool
 isOffscreen
 EGLConfig

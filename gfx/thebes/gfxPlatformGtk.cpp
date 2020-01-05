@@ -3321,7 +3321,6 @@ SurfaceCaps
 Any
 (
 )
-nullptr
 false
 mXDisplay
 root
