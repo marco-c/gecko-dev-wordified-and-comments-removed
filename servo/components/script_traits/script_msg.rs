@@ -353,13 +353,12 @@ String
 )
 RemoveIFrame
 (
-PipelineId
-Option
-<
+FrameId
 IpcSender
 <
-(
-)
+Vec
+<
+PipelineId
 >
 >
 )
