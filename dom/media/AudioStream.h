@@ -600,6 +600,8 @@ Init
 uint32_t
 aNumChannels
 uint32_t
+aChannelMap
+uint32_t
 aRate
 const
 dom
