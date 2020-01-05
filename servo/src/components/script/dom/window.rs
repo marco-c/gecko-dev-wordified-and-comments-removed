@@ -23,7 +23,7 @@ use
 layout_interface
 :
 :
-MatchSelectorsDamage
+ReflowForScriptQuery
 ;
 use
 script_task
@@ -460,11 +460,10 @@ self
 script_context
 )
 .
-trigger_relayout
+reflow_all
 (
-MatchSelectorsDamage
+ReflowForScriptQuery
 )
-;
 }
 }
 pub
