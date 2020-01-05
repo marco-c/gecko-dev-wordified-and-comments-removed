@@ -4454,6 +4454,13 @@ DocAccessibleParent
 aDoc
 )
 ;
+doc
+-
+>
+AddToMap
+(
+)
+;
 if
 (
 mIsDestroyed
