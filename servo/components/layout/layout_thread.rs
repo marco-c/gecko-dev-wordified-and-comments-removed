@@ -96,7 +96,6 @@ flow
 self
 Flow
 ImmutableFlowUtils
-MutableFlowUtils
 MutableOwnedFlowUtils
 }
 ;
@@ -753,7 +752,6 @@ wrapper
 LayoutNode
 NonOpaqueStyleAndLayoutData
 ServoLayoutNode
-ThreadSafeLayoutNode
 }
 ;
 pub

@@ -53,15 +53,6 @@ use
 euclid
 :
 :
-num
-:
-:
-Zero
-;
-use
-euclid
-:
-:
 {
 Matrix4D
 Point2D

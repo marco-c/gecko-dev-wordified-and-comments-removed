@@ -4,15 +4,6 @@ cssparser
 :
 ToCss
 ;
-use
-std
-:
-:
-ascii
-:
-:
-AsciiExt
-;
 macro_rules
 !
 define_cursor

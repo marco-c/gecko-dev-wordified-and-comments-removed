@@ -582,10 +582,7 @@ use
 script_runtime
 :
 :
-{
 ScriptChan
-ScriptPort
-}
 ;
 use
 std

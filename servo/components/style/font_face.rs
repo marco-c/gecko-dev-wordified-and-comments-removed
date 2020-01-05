@@ -40,15 +40,6 @@ font_family
 parse_one_family
 ;
 use
-std
-:
-:
-ascii
-:
-:
-AsciiExt
-;
-use
 url
 :
 :

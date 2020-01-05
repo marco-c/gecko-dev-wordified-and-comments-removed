@@ -14,7 +14,6 @@ piston_image
 {
 self
 DynamicImage
-GenericImage
 ImageFormat
 }
 ;

@@ -67,10 +67,7 @@ bindings
 js
 :
 :
-{
 Root
-RootedReference
-}
 ;
 use
 dom

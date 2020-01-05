@@ -25,15 +25,6 @@ syntax
 :
 ast
 ;
-use
-syntax
-:
-:
-attr
-:
-:
-AttrMetaMethods
-;
 declare_lint
 !
 (

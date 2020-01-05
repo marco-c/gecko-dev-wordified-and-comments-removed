@@ -93,15 +93,6 @@ use
 std
 :
 :
-iter
-:
-:
-Iterator
-;
-use
-std
-:
-:
 mem
 ;
 use

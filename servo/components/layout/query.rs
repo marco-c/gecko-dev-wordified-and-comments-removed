@@ -131,7 +131,6 @@ layout_interface
 :
 {
 ResolvedStyleResponse
-ScriptLayoutChan
 MarginStyleResponse
 }
 ;

@@ -46,7 +46,6 @@ flow
 :
 {
 self
-Flow
 ImmutableFlowUtils
 }
 ;

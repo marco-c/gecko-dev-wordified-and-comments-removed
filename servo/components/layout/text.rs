@@ -122,10 +122,7 @@ use
 range
 :
 :
-{
 Range
-RangeIndex
-}
 ;
 use
 std

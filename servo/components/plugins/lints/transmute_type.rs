@@ -19,15 +19,6 @@ LateLintPass
 LintContext
 }
 ;
-use
-syntax
-:
-:
-attr
-:
-:
-AttrMetaMethods
-;
 declare_lint
 !
 (

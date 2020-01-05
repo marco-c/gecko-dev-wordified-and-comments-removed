@@ -17,7 +17,6 @@ font
 {
 DISABLE_KERNING_SHAPING_FLAG
 Font
-FontHandleMethods
 FontTableMethods
 FontTableTag
 }

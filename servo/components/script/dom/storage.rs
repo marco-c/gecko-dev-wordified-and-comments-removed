@@ -80,10 +80,7 @@ bindings
 js
 :
 :
-{
 Root
-RootedReference
-}
 ;
 use
 dom
@@ -171,12 +168,6 @@ StorageThread
 StorageThreadMsg
 StorageType
 }
-;
-use
-script_runtime
-:
-:
-ScriptChan
 ;
 use
 script_thread

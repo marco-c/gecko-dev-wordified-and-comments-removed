@@ -108,10 +108,7 @@ style
 properties
 :
 :
-{
-ComputedValues
 ServoComputedValues
-}
 ;
 use
 style

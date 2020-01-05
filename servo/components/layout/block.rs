@@ -102,7 +102,6 @@ flow
 :
 {
 NEEDS_LAYER
-PostorderFlowTraversal
 PreorderFlowTraversal
 FragmentationContext
 }

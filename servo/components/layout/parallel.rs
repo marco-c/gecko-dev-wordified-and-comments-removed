@@ -77,10 +77,7 @@ style
 dom
 :
 :
-{
-TNode
 UnsafeNode
-}
 ;
 use
 style
@@ -118,7 +115,6 @@ traversal
 {
 AssignISizes
 BubbleISizes
-PostorderNodeMutTraversal
 }
 ;
 use

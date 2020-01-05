@@ -32,12 +32,6 @@ eventtarget
 EventTarget
 ;
 use
-script_runtime
-:
-:
-ScriptChan
-;
-use
 script_thread
 :
 :

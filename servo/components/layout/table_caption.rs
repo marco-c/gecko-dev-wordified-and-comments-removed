@@ -99,10 +99,7 @@ style
 properties
 :
 :
-{
-ComputedValues
 ServoComputedValues
-}
 ;
 use
 util

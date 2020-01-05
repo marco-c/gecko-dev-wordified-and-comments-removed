@@ -17,15 +17,6 @@ use
 euclid
 :
 :
-num
-:
-:
-Zero
-;
-use
-euclid
-:
-:
 {
 Point2D
 Rect

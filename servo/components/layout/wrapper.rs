@@ -79,10 +79,7 @@ use
 range
 :
 :
-{
 Range
-RangeIndex
-}
 ;
 use
 script
@@ -110,7 +107,6 @@ inheritance
 :
 :
 {
-Castable
 CharacterDataTypeId
 ElementTypeId
 }
