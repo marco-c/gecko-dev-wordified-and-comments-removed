@@ -1706,7 +1706,7 @@ true
 )
 ;
 return
-NS_ERROR_DOM_MEDIA_CUBEB_INITIALIZATION_ERR
+NS_ERROR_FAILURE
 ;
 }
 return
@@ -1759,7 +1759,7 @@ latency_frames
 CubebUtils
 :
 :
-GetCubebLatency
+GetCubebPlaybackLatencyInMilliseconds
 (
 )
 *
