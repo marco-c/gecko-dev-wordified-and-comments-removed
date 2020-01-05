@@ -94,6 +94,16 @@ LOCAL_INCLUDES
 .
 '
 ]
+UNIFIED_SOURCES
++
+=
+[
+'
+TestProfileLock
+.
+cpp
+'
+]
 if
 CONFIG
 [
@@ -112,7 +122,7 @@ UNIFIED_SOURCES
 =
 [
 '
-TestProfileLock
+TestProfileLockRetry
 .
 cpp
 '

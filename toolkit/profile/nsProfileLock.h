@@ -115,6 +115,11 @@ false
 )
 ;
 nsresult
+Cleanup
+(
+)
+;
+nsresult
 GetReplacedLockTime
 (
 PRTime
@@ -129,6 +134,12 @@ mHaveLock
 ;
 PRTime
 mReplacedLockTime
+;
+nsCOMPtr
+<
+nsIFile
+>
+mLockFile
 ;
 #
 if
