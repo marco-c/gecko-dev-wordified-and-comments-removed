@@ -700,9 +700,6 @@ JS
 Value
 >
 aRetVal
-ErrorResult
-&
-aRv
 )
 ;
 already_AddRefed

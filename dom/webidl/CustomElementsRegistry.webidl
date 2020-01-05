@@ -104,9 +104,6 @@ ElementDefinitionOptions
 options
 )
 ;
-[
-Throws
-]
 any
 get
 (
