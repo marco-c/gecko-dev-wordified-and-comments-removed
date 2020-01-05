@@ -442,6 +442,12 @@ tests
 ]
             
 '
+download_tooltool
+'
+:
+True
+            
+'
 talos_extra_options
 '
 :
