@@ -819,6 +819,12 @@ WebGLShaderId
 WebGLTextureId
 }
 ;
+use
+webvr_traits
+:
+:
+WebVRGamepadHand
+;
 pub
 unsafe
 trait
@@ -2466,6 +2472,12 @@ unsafe_no_jsmanaged_fields
 !
 (
 MediaList
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+WebVRGamepadHand
 )
 ;
 unsafe

@@ -31,6 +31,15 @@ false
 "
 dom
 .
+gamepad
+.
+enabled
+"
+:
+false
+"
+dom
+.
 mouseevent
 .
 which
