@@ -303,15 +303,11 @@ taskdesc
 env
 =
 worker
-.
-setdefault
-(
+[
 '
 env
 '
-{
-}
-)
+]
     
 env
 .

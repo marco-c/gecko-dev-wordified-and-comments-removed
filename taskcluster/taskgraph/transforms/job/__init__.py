@@ -88,8 +88,6 @@ import
 validate_schema
     
 Schema
-    
-optionally_keyed_by
 )
 from
 taskgraph
@@ -104,9 +102,9 @@ voluptuous
 import
 (
     
-Extra
-    
 Any
+    
+Extra
     
 Optional
     
@@ -435,12 +433,8 @@ type
 '
 )
 :
-optionally_keyed_by
+Any
 (
-        
-'
-platform
-'
         
 task_description_schema
 [
@@ -450,6 +444,28 @@ worker
 type
 '
 ]
+        
+{
+'
+by
+-
+platform
+'
+:
+{
+basestring
+:
+task_description_schema
+[
+'
+worker
+-
+type
+'
+]
+}
+}
+    
 )
     
 Required
@@ -459,28 +475,35 @@ worker
 '
 )
 :
-optionally_keyed_by
+Any
 (
         
+task_description_schema
+[
 '
+worker
+'
+]
+        
+{
+'
+by
+-
 platform
 '
+:
 {
-            
-Required
-(
-'
-implementation
-'
-)
-:
 basestring
-            
-Extra
 :
-object
-        
+task_description_schema
+[
+'
+worker
+'
+]
 }
+}
+    
 )
 }
 )
