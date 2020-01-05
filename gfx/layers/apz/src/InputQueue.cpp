@@ -1162,6 +1162,7 @@ block
 CancelAnimationsForNewBlock
 (
 block
+ExcludeWheel
 )
 ;
 MaybeRequestContentResponse
@@ -1619,6 +1620,8 @@ CancelAnimationsForNewBlock
 CancelableBlockState
 *
 aBlock
+CancelAnimationFlags
+aExtraFlags
 )
 {
 if
@@ -1640,6 +1643,8 @@ GetOverscrollHandoffChain
 >
 CancelAnimations
 (
+aExtraFlags
+|
 ExcludeOverscroll
 |
 ScrollSnap

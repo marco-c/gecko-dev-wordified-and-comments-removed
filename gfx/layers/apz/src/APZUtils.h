@@ -77,6 +77,9 @@ ExcludeOverscroll
 ScrollSnap
 =
 0x2
+ExcludeWheel
+=
+0x4
 }
 ;
 inline
