@@ -446,6 +446,13 @@ RegisterSink
 this
 )
 ;
+if
+(
+GetOwnedStream
+(
+)
+)
+{
 mPrincipalHandleListener
 =
 new
@@ -459,6 +466,7 @@ AddListener
 mPrincipalHandleListener
 )
 ;
+}
 nsresult
 rv
 ;

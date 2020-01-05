@@ -1050,6 +1050,7 @@ MediaStreamTrackConsumer
 aConsumer
 )
 ;
+virtual
 void
 AddListener
 (
@@ -1066,6 +1067,7 @@ MediaStreamTrackListener
 aListener
 )
 ;
+virtual
 void
 AddDirectListener
 (

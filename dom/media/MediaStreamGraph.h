@@ -1904,6 +1904,7 @@ FinishAddTracks
 (
 )
 ;
+virtual
 bool
 AppendToTrack
 (
