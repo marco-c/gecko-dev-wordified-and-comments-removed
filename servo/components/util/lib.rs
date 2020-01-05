@@ -192,6 +192,10 @@ getopts
 ;
 extern
 crate
+ipc_channel
+;
+extern
+crate
 libc
 ;
 extern
@@ -260,6 +264,10 @@ linked_list
 pub
 mod
 geometry
+;
+pub
+mod
+ipc
 ;
 pub
 mod

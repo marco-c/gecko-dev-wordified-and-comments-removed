@@ -354,10 +354,11 @@ None
 }
 ;
 match
-*
 template
 .
 ctfont
+(
+)
 {
 Some
 (
