@@ -6386,7 +6386,7 @@ if
 fontArea
 .
 top
->
+<
 0
 )
 fontArea
