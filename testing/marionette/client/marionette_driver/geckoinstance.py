@@ -2391,7 +2391,7 @@ newtabpage
 enabled
 "
 :
-False
+True
         
 "
 browser
