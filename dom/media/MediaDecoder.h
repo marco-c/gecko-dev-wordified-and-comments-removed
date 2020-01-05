@@ -696,13 +696,6 @@ override
 public
 :
 void
-SetMediaSeekable
-(
-bool
-aMediaSeekable
-)
-;
-void
 SetMediaSeekableOnlyInBufferedRanges
 (
 bool
@@ -1502,10 +1495,9 @@ OnMediaNotSeekable
 (
 )
 {
-SetMediaSeekable
-(
+mMediaSeekable
+=
 false
-)
 ;
 }
 void
