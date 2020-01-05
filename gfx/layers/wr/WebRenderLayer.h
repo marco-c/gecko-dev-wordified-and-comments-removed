@@ -216,11 +216,6 @@ aRect
 )
 ;
 LayerRect
-ParentStackingContextBounds
-(
-)
-;
-LayerRect
 RelativeToParent
 (
 const
@@ -270,6 +265,11 @@ BoundsTransform
 ;
 LayerRect
 BoundsForStackingContext
+(
+)
+;
+LayerRect
+ParentBounds
 (
 )
 ;

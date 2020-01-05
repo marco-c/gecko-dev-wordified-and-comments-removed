@@ -109,7 +109,7 @@ mBounds
 )
 )
 -
-ParentStackingContextBounds
+ParentBounds
 (
 )
 .
@@ -155,7 +155,7 @@ ToUnknownRect
 )
 )
 -
-ParentStackingContextBounds
+ParentBounds
 (
 )
 .

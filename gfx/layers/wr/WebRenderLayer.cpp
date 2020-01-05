@@ -192,7 +192,7 @@ LayerRect
 WebRenderLayer
 :
 :
-ParentStackingContextBounds
+ParentBounds
 (
 )
 {
@@ -245,7 +245,7 @@ aRect
 return
 aRect
 -
-ParentStackingContextBounds
+ParentBounds
 (
 )
 .
@@ -292,7 +292,7 @@ GetOffsetToParent
 )
 {
 return
-ParentStackingContextBounds
+ParentBounds
 (
 )
 .
@@ -372,7 +372,7 @@ bounds
 return
 transformed
 -
-ParentStackingContextBounds
+ParentBounds
 (
 )
 .
