@@ -265,6 +265,9 @@ remotebrowserutils
 reflect
 '
 '
+resistfingerprinting
+'
+'
 securityreporter
 '
 '
