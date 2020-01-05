@@ -122,10 +122,7 @@ dom
 document
 :
 :
-{
 Document
-DocumentTypeId
-}
 ;
 use
 dom
@@ -588,9 +585,6 @@ match
 type_id
 {
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 {
@@ -1313,9 +1307,6 @@ DoctypeNodeTypeId
 DocumentFragmentNodeTypeId
 CommentNodeTypeId
 DocumentNodeTypeId
-(
-DocumentTypeId
-)
 ElementNodeTypeId
 (
 ElementTypeId
@@ -2504,10 +2495,6 @@ type_id
 )
 {
 DocumentNodeTypeId
-(
-.
-.
-)
 =
 >
 true
@@ -5279,9 +5266,6 @@ CommentNodeTypeId
 >
 8
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 9
@@ -5461,9 +5445,6 @@ document
 fragment
 "
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 ~
@@ -5577,9 +5558,6 @@ owner_doc
 )
 )
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 None
@@ -6247,9 +6225,6 @@ Data
 DoctypeNodeTypeId
 |
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 {
@@ -6584,10 +6559,6 @@ type_id
 )
 {
 DocumentNodeTypeId
-(
-.
-.
-)
 |
 DocumentFragmentNodeTypeId
 |
@@ -6765,10 +6736,6 @@ CommentNodeTypeId
 (
 )
 DocumentNodeTypeId
-(
-.
-.
-)
 =
 >
 return
@@ -6790,9 +6757,6 @@ type_id
 )
 {
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 {
@@ -7250,9 +7214,6 @@ CommentNodeTypeId
 (
 )
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 unreachable
@@ -8357,9 +8318,6 @@ content_changed
 DoctypeNodeTypeId
 |
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 {
@@ -8608,10 +8566,6 @@ type_id
 )
 {
 DocumentNodeTypeId
-(
-.
-.
-)
 |
 DocumentFragmentNodeTypeId
 |
@@ -8737,10 +8691,6 @@ CommentNodeTypeId
 (
 )
 DocumentNodeTypeId
-(
-.
-.
-)
 =
 >
 return
@@ -8762,10 +8712,6 @@ type_id
 )
 {
 DocumentNodeTypeId
-(
-.
-.
-)
 =
 >
 {
@@ -9097,10 +9043,6 @@ CommentNodeTypeId
 (
 )
 DocumentNodeTypeId
-(
-.
-.
-)
 =
 >
 unreachable
