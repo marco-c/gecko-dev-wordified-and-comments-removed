@@ -40,6 +40,13 @@ h
 #
 include
 "
+PseudoStack
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr

@@ -631,7 +631,7 @@ char
 aEvent
 )
 ;
-struct
+class
 PseudoStack
 {
 public
