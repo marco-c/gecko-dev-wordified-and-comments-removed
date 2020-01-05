@@ -537,7 +537,7 @@ then
 CLANG_LDFLAGS
 =
 "
-clangASTMatchers
+clang
 .
 lib
 "
