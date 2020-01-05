@@ -207,6 +207,9 @@ Init
 (
 )
 {
+#
+ifdef
+MOZILLA_INTERNAL_API
 nsCOMPtr
 <
 nsIObserverService
@@ -232,9 +235,6 @@ rv
 =
 NS_OK
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 rv
 =
 observerService
@@ -269,13 +269,13 @@ MOZ_ALWAYS_SUCCEEDS
 rv
 )
 ;
-#
-endif
 (
 void
 )
 rv
 ;
+#
+endif
 }
 NS_IMETHOD
 Observe
@@ -323,6 +323,9 @@ Destroy
 (
 )
 ;
+#
+ifdef
+MOZILLA_INTERNAL_API
 nsCOMPtr
 <
 nsIObserverService
@@ -377,6 +380,8 @@ MOZ_ALWAYS_SUCCEEDS
 rv
 )
 ;
+#
+endif
 RefPtr
 <
 PeerConnectionCtxObserver
@@ -533,6 +538,9 @@ PeerConnectionCtxObserver
 (
 )
 {
+#
+ifdef
+MOZILLA_INTERNAL_API
 nsCOMPtr
 <
 nsIObserverService
@@ -570,6 +578,8 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 ;
 }
+#
+endif
 }
 }
 ;
