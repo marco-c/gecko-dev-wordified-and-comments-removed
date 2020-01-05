@@ -178,7 +178,7 @@ RenderTask
 C
 :
 Compositor
-Send
+Owned
 >
 (
 compositor
@@ -233,8 +233,8 @@ opts_cell
 {
 let
 (
-layer_buffer_channel
 layer_buffer_set_port
+layer_buffer_channel
 )
 =
 pipes
@@ -483,7 +483,7 @@ Renderer
 C
 :
 Compositor
-Send
+Owned
 >
 {
 port
@@ -525,7 +525,7 @@ impl
 C
 :
 Compositor
-Send
+Owned
 >
 Renderer
 <
@@ -659,8 +659,8 @@ recv
 ;
 let
 (
-layer_buffer_set_channel
 new_layer_buffer_set_port
+layer_buffer_set_channel
 )
 =
 pipes

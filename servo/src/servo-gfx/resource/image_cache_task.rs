@@ -18,6 +18,9 @@ resource
 resource_task
 ;
 use
+resource
+:
+:
 resource_task
 :
 :
@@ -380,8 +383,10 @@ clone
 ImageResponseMsg
 {
 match
+&
 self
 {
+&
 ImageReady
 (
 img
@@ -399,10 +404,12 @@ img
 )
 }
 )
+&
 ImageNotReady
 =
 >
 ImageNotReady
+&
 ImageFailed
 =
 >
@@ -643,8 +650,8 @@ decoder_factory
 ;
 let
 (
-chan
 port
+chan
 )
 =
 stream
@@ -754,8 +761,8 @@ ImageCacheTask
 {
 let
 (
-chan
 port
+chan
 )
 =
 stream
@@ -2634,8 +2641,8 @@ exit
 {
 let
 (
-response_chan
 response_port
+response_chan
 )
 =
 stream

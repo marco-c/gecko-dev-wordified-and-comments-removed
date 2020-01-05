@@ -896,8 +896,8 @@ buffer
 .
 let
 (
-new_buffer_chan
 new_buffer_port
+new_buffer_chan
 )
 =
 pipes

@@ -34,6 +34,9 @@ layout
 layout_task
 ;
 use
+layout
+:
+:
 layout_task
 :
 :
@@ -177,7 +180,7 @@ Engine
 C
 :
 Compositor
-Send
+Owned
 Copy
 >
 {
@@ -216,7 +219,7 @@ Engine
 C
 :
 Compositor
-Send
+Owned
 Copy
 >
 (
@@ -407,7 +410,7 @@ C
 :
 Compositor
 Copy
-Send
+Owned
 >
 Engine
 <
@@ -544,8 +547,8 @@ ExitMsg
 ;
 let
 (
-response_chan
 response_port
+response_chan
 )
 =
 pipes

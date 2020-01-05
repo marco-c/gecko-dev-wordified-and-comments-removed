@@ -22,6 +22,9 @@ ResizeEvent
 }
 ;
 use
+platform
+:
+:
 resize_rate_limiter
 :
 :
@@ -2293,7 +2296,7 @@ on_osmain
 <
 T
 :
-Send
+Owned
 >
 (
 f

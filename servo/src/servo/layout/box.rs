@@ -969,8 +969,10 @@ is_whitespace_only
 bool
 {
 match
+&
 self
 {
+&
 UnscannedTextBox
 (
 _
@@ -1766,6 +1768,7 @@ LayoutContext
 Au
 {
 match
+&
 self
 {
 /
@@ -1829,6 +1832,7 @@ the
 context
 width
 .
+&
 GenericBox
 (
 *
@@ -1866,6 +1870,7 @@ consult
 width
 '
 .
+&
 ImageBox
 (
 _
@@ -1895,6 +1900,7 @@ Size2D
 .
 width
 )
+&
 TextBox
 (
 _
@@ -1914,6 +1920,7 @@ d
 .
 range
 )
+&
 UnscannedTextBox
 (
 *
@@ -1947,6 +1954,7 @@ LayoutContext
 Au
 {
 match
+&
 self
 {
 /
@@ -2010,6 +2018,7 @@ the
 context
 width
 .
+&
 GenericBox
 (
 *
@@ -2020,6 +2029,7 @@ Au
 (
 0
 )
+&
 ImageBox
 (
 _
@@ -2123,6 +2133,7 @@ that
 it
 owns
 .
+&
 TextBox
 (
 _
@@ -2209,6 +2220,7 @@ line_width
 }
 max_line_width
 }
+&
 UnscannedTextBox
 (
 *
@@ -2425,8 +2437,10 @@ Au
 >
 {
 match
+&
 self
 {
+&
 ImageBox
 (
 _
@@ -2483,6 +2497,7 @@ height
 )
 }
 }
+&
 GenericBox
 (
 *
@@ -2604,6 +2619,7 @@ offset_bottom
 *
 /
 }
+&
 TextBox
 (
 *
@@ -2620,6 +2636,7 @@ d
 .
 position
 }
+&
 UnscannedTextBox
 (
 *
@@ -3222,7 +3239,6 @@ abs_box_bounds
 )
 ;
 match
-*
 self
 {
 UnscannedTextBox

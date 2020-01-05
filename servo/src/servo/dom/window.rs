@@ -252,8 +252,8 @@ io
 :
 println
 (
-#
 fmt
+!
 (
 "
 ALERT

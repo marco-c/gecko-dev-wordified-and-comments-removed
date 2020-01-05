@@ -126,6 +126,12 @@ libc
 c_uint
 ;
 use
+dom
+:
+:
+bindings
+:
+:
 utils
 :
 :
@@ -136,6 +142,9 @@ jsval_to_str
 }
 ;
 use
+dom
+:
+:
 bindings
 :
 :
@@ -166,6 +175,9 @@ node
 Node
 ;
 use
+core
+:
+:
 dvec
 :
 :

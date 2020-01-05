@@ -11,6 +11,9 @@ geometry
 Au
 ;
 use
+text
+:
+:
 glyph
 :
 :
@@ -93,7 +96,6 @@ str
 font
 :
 Font
-priv
 glyphs
 :
 GlyphStore

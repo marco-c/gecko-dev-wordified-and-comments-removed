@@ -417,15 +417,16 @@ DOMString
 JSVal
 {
 match
-*
 string
 {
+&
 null_string
 =
 >
 {
 JSVAL_NULL
 }
+&
 str
 (
 s

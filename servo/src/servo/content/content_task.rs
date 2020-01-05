@@ -415,8 +415,8 @@ ContentTask
 {
 let
 (
-control_chan
 control_port
+control_chan
 )
 =
 pipes
@@ -1893,8 +1893,8 @@ s
 done
 let
 (
-join_chan
 join_port
+join_chan
 )
 =
 pipes

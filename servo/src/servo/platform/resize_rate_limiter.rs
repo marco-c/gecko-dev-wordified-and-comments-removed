@@ -300,8 +300,8 @@ uint
 {
 let
 (
-chan
 port
+chan
 )
 =
 pipes

@@ -32,6 +32,9 @@ stream
 }
 ;
 use
+resource
+:
+:
 image_cache_task
 :
 :
@@ -41,6 +44,16 @@ ImageResponseMsg
 Prefetch
 Decode
 GetImage
+}
+;
+use
+resource
+:
+:
+image_cache_task
+:
+:
+{
 WaitForImage
 ImageReady
 ImageNotReady
@@ -350,8 +363,8 @@ unsafe
 {
 let
 (
-chan
 port
+chan
 )
 =
 pipes
@@ -394,8 +407,8 @@ round_number
 {
 let
 (
-chan
 port
+chan
 )
 =
 pipes
@@ -427,8 +440,8 @@ ImageFailed
 {
 let
 (
-chan
 port
+chan
 )
 =
 pipes
@@ -453,8 +466,8 @@ port
 }
 let
 (
-response_chan
 response_port
+response_chan
 )
 =
 pipes
@@ -552,8 +565,8 @@ image_cache_task
 {
 let
 (
-response_chan
 response_port
+response_chan
 )
 =
 pipes
@@ -632,8 +645,8 @@ response_copy
 ;
 let
 (
-chan
 port
+chan
 )
 =
 pipes

@@ -118,6 +118,12 @@ libc
 c_uint
 ;
 use
+dom
+:
+:
+bindings
+:
+:
 utils
 :
 :
@@ -130,6 +136,9 @@ str
 }
 ;
 use
+dom
+:
+:
 bindings
 :
 :

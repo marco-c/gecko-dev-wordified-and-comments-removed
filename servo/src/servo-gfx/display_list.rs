@@ -305,9 +305,9 @@ RenderContext
 )
 {
 match
-*
 self
 {
+&
 SolidColor
 (
 _
@@ -329,6 +329,7 @@ d
 bounds
 color
 )
+&
 Text
 (
 _
@@ -403,6 +404,7 @@ color
 )
 ;
 }
+&
 Image
 (
 _
@@ -449,6 +451,7 @@ img
 )
 ;
 }
+&
 Border
 (
 _

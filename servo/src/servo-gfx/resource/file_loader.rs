@@ -14,6 +14,9 @@ task
 spawn
 ;
 use
+resource
+:
+:
 resource_task
 :
 :
