@@ -2101,13 +2101,11 @@ crossorigin
 "
 anonymous
 "
-(
 "
 use
 -
 credentials
 "
-)
 )
 ;
 /

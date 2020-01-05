@@ -963,11 +963,9 @@ default
 :
 expr
 (
-(
 choices
 :
 pat
-)
 )
 |
 +
