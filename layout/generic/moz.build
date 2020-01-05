@@ -772,11 +772,6 @@ mozilla
 =
 [
 '
-CSSAlignUtils
-.
-h
-'
-'
 ReflowInput
 .
 h
@@ -831,11 +826,6 @@ cpp
 '
 '
 BlockReflowInput
-.
-cpp
-'
-'
-CSSAlignUtils
 .
 cpp
 '

@@ -1210,6 +1210,7 @@ vert
 ref
 .
 html
+fails
 =
 =
 flexbox
@@ -1236,6 +1237,10 @@ item
 ref
 .
 html
+#
+bug
+1269045
+fails
 =
 =
 flexbox
@@ -1262,6 +1267,9 @@ item
 ref
 .
 html
+#
+bug
+1269045
 #
 Basic
 tests
