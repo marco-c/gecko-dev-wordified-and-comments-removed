@@ -544,6 +544,13 @@ c_void
 -
 >
 usize
+pub
+global
+:
+InterfaceObjectMap
+:
+:
+Globals
 }
 unsafe
 impl

@@ -166,6 +166,14 @@ multipage
 /
 #
 htmlanchorelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLAnchorElement
 :

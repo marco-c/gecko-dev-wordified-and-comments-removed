@@ -78,6 +78,14 @@ idl
 def
 -
 TouchList
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 TouchList
 {

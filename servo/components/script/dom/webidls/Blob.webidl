@@ -87,12 +87,10 @@ options
 )
 Exposed
 =
+(
 Window
-/
-*
 Worker
-*
-/
+)
 ]
 interface
 Blob

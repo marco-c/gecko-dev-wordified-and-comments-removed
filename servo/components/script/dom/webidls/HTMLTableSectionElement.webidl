@@ -74,6 +74,14 @@ multipage
 /
 #
 htmltablesectionelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLTableSectionElement
 :

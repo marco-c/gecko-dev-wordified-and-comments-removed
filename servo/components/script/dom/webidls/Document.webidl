@@ -127,6 +127,12 @@ interface
 document
 [
 Constructor
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Document

@@ -91,6 +91,12 @@ interface
 /
 [
 Abstract
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 CSS

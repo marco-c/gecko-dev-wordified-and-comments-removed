@@ -99,6 +99,14 @@ latest
 10
 /
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 WebGLUniformLocation
 {

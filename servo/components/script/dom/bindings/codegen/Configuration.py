@@ -537,6 +537,26 @@ isJSImplemented
 (
 )
             
+elif
+key
+=
+=
+'
+isGlobal
+'
+:
+                
+getter
+=
+lambda
+x
+:
+x
+.
+isGlobal
+(
+)
+            
 else
 :
                 
@@ -2545,6 +2565,7 @@ sort
 "
         
 return
+bool
 (
 self
 .
@@ -2557,7 +2578,7 @@ Global
 "
 )
 or
-                
+                    
 self
 .
 interface

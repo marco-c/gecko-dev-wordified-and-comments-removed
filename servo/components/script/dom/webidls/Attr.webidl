@@ -86,6 +86,14 @@ attr
 *
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 Attr
 {

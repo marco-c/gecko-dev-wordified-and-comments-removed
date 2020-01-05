@@ -84,6 +84,12 @@ bluetooth
 .
 enabled
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 BluetoothCharacteristicProperties

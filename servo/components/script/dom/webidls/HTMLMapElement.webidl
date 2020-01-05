@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlmapelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLMapElement
 :

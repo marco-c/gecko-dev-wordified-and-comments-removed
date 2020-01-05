@@ -76,6 +76,12 @@ interface
 htmlcollection
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 HTMLCollection

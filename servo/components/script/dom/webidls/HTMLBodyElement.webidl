@@ -78,6 +78,14 @@ the
 body
 -
 element
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLBodyElement
 :

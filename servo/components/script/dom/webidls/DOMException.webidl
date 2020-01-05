@@ -101,6 +101,12 @@ object
 /
 [
 ExceptionClass
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 DOMException

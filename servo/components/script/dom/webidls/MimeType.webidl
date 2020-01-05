@@ -74,6 +74,14 @@ multipage
 /
 #
 mimetype
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 MimeType
 {

@@ -74,6 +74,14 @@ multipage
 /
 #
 htmllinkelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLLinkElement
 :

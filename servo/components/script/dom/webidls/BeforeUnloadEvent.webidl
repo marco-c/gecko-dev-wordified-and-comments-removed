@@ -86,6 +86,14 @@ multipage
 beforeunloadevent
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 BeforeUnloadEvent
 :

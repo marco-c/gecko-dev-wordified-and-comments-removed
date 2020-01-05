@@ -83,6 +83,12 @@ optional
 FocusEventInit
 focusEventInitDict
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 FocusEvent

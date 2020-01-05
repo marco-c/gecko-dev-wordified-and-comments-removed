@@ -87,16 +87,12 @@ optional
 PopStateEventInit
 eventInitDict
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 PopStateEvent

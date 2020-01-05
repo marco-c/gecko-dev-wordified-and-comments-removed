@@ -84,16 +84,12 @@ height
 =
 0
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 /
 /

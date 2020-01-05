@@ -117,6 +117,12 @@ optional
 StorageEventInit
 eventInitDict
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 StorageEvent

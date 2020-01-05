@@ -74,6 +74,14 @@ multipage
 /
 #
 canvaspattern
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 CanvasPattern
 {

@@ -74,6 +74,14 @@ multipage
 /
 #
 htmllabelelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLLabelElement
 :

@@ -76,6 +76,12 @@ multipage
 elementcontenteditable
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ElementContentEditable

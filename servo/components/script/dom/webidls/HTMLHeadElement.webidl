@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlheadelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLHeadElement
 :

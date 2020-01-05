@@ -78,6 +78,14 @@ idl
 def
 -
 TouchEvent
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 TouchEvent
 :

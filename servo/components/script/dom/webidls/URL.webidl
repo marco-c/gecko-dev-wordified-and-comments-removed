@@ -81,16 +81,12 @@ optional
 USVString
 base
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 URL

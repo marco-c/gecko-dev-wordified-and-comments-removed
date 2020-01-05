@@ -105,6 +105,12 @@ DOMString
 )
 protocols
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 WebSocket

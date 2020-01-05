@@ -76,6 +76,12 @@ interface
 namednodemap
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 NamedNodeMap

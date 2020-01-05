@@ -76,6 +76,12 @@ multipage
 mimetypearray
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 MimeTypeArray

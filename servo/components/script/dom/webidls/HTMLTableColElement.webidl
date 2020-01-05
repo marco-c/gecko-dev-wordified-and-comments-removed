@@ -74,6 +74,14 @@ multipage
 /
 #
 htmltablecolelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLTableColElement
 :

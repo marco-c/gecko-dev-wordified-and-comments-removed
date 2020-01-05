@@ -104,6 +104,14 @@ timing
 interface
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 PerformanceTiming
 {

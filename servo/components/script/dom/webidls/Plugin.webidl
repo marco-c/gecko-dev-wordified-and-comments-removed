@@ -78,6 +78,12 @@ dom
 plugin
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Plugin

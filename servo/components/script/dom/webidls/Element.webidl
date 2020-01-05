@@ -157,6 +157,14 @@ apply
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 Element
 :

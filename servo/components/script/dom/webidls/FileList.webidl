@@ -74,6 +74,14 @@ FileAPI
 dfn
 -
 filelist
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 FileList
 {

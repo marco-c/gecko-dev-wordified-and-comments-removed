@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLElement
 :

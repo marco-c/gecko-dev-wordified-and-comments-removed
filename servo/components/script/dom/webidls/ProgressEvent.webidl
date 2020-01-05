@@ -177,14 +177,12 @@ optional
 ProgressEventInit
 eventInitDict
 )
-/
-*
 Exposed
 =
+(
 Window
 Worker
-*
-/
+)
 ]
 interface
 ProgressEvent

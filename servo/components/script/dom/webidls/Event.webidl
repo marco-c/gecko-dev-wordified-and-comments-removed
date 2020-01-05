@@ -93,6 +93,12 @@ optional
 EventInit
 eventInitDict
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Event

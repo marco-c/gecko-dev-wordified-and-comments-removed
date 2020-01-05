@@ -103,6 +103,12 @@ interface
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 GlobalCrypto
@@ -122,8 +128,6 @@ WorkerGlobalScope
 implements
 GlobalCrypto
 ;
-/
-/
 [
 Exposed
 =

@@ -76,6 +76,12 @@ interface
 documentfragment
 [
 Constructor
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 DocumentFragment

@@ -156,16 +156,12 @@ w
 =
 1
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 DOMPoint

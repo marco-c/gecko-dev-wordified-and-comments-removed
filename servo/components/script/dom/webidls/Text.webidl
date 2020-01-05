@@ -131,6 +131,12 @@ data
 "
 "
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Text

@@ -85,6 +85,14 @@ interface
 treewalker
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 TreeWalker
 {

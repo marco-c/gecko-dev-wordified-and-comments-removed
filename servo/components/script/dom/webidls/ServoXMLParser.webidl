@@ -78,6 +78,12 @@ pages
 .
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ServoXMLParser

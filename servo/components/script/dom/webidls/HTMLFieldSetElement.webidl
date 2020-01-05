@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlfieldsetelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLFieldSetElement
 :

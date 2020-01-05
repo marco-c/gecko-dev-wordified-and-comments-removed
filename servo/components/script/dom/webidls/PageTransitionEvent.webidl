@@ -87,16 +87,12 @@ optional
 PageTransitionEventInit
 eventInitDict
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 PageTransitionEvent

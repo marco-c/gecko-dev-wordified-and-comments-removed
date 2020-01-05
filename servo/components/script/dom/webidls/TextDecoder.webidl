@@ -107,14 +107,12 @@ optional
 TextDecoderOptions
 options
 )
-/
-*
 Exposed
 =
+(
 Window
 Worker
-*
-/
+)
 ]
 interface
 TextDecoder

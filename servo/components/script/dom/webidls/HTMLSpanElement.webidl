@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlspanelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLSpanElement
 :

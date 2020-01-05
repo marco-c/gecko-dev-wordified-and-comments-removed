@@ -113,6 +113,12 @@ bluetooth
 .
 enabled
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 BluetoothAdvertisingData

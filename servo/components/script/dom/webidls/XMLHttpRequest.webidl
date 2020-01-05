@@ -226,14 +226,12 @@ text
 ;
 [
 Constructor
-/
-*
 Exposed
 =
+(
 Window
 Worker
-*
-/
+)
 ]
 interface
 XMLHttpRequest

@@ -76,12 +76,13 @@ multipage
 worker
 -
 locations
-/
-/
 [
 Exposed
 =
+(
+Window
 Worker
+)
 ]
 interface
 WorkerLocation

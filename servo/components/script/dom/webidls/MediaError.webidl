@@ -74,6 +74,14 @@ multipage
 /
 #
 mediaerror
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 MediaError
 {

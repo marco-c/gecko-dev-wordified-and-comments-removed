@@ -74,6 +74,14 @@ multipage
 /
 #
 htmltrackelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLTrackElement
 :

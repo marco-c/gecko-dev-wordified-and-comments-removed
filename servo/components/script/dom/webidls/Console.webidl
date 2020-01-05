@@ -113,6 +113,14 @@ Foundation
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 Console
 {

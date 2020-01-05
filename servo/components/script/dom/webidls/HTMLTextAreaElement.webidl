@@ -74,6 +74,14 @@ multipage
 /
 #
 htmltextareaelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLTextAreaElement
 :

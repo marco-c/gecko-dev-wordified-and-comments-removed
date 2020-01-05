@@ -79,6 +79,12 @@ eventtarget
 /
 [
 Abstract
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 EventTarget

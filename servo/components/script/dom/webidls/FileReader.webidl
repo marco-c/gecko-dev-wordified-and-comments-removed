@@ -90,12 +90,10 @@ FileReaderResult
 Constructor
 Exposed
 =
+(
 Window
-/
-*
 Worker
-*
-/
+)
 ]
 interface
 FileReader

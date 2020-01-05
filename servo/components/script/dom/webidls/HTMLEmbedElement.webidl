@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlembedelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLEmbedElement
 :

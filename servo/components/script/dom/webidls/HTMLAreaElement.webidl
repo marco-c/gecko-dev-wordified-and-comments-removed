@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlareaelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLAreaElement
 :

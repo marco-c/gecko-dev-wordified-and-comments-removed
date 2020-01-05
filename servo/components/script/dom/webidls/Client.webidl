@@ -76,13 +76,6 @@ service_worker
 /
 #
 client
-/
-/
-[
-Exposed
-=
-ServiceWorker
-]
 [
 Pref
 =
@@ -93,6 +86,12 @@ serviceworker
 .
 enabled
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Client

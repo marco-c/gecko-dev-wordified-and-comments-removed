@@ -74,6 +74,14 @@ multipage
 /
 #
 htmltableheadercellelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLTableHeaderCellElement
 :

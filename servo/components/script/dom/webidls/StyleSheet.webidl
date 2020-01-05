@@ -76,6 +76,14 @@ the
 stylesheet
 -
 interface
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 StyleSheet
 {

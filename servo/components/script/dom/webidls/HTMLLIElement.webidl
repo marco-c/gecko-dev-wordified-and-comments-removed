@@ -74,6 +74,14 @@ multipage
 /
 #
 htmllielement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLLIElement
 :

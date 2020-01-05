@@ -87,16 +87,12 @@ optional
 ErrorEventInit
 eventInitDict
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 ErrorEvent

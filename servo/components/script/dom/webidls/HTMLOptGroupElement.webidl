@@ -74,6 +74,14 @@ multipage
 /
 #
 htmloptgroupelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLOptGroupElement
 :

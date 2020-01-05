@@ -76,6 +76,12 @@ multipage
 htmltablecellelement
 [
 Abstract
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 HTMLTableCellElement

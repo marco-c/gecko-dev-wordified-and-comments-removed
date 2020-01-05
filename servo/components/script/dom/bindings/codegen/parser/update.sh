@@ -43,6 +43,15 @@ patch
 debug
 .
 patch
+patch
+<
+pref
+-
+main
+-
+thread
+.
+patch
 wget
 https
 :

@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlmodelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLModElement
 :

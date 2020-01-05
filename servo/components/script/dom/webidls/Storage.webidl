@@ -90,6 +90,14 @@ interface
 *
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 Storage
 {

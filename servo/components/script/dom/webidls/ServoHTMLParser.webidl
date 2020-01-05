@@ -95,6 +95,12 @@ content
 )
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ServoHTMLParser

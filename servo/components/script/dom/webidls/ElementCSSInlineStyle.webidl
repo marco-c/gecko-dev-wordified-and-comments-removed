@@ -76,6 +76,12 @@ cssom
 elementcssinlinestyle
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ElementCSSInlineStyle

@@ -303,6 +303,12 @@ false
 ;
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 WebGLRenderingContextBase
@@ -4779,6 +4785,14 @@ height
 ;
 }
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 WebGLRenderingContext
 {

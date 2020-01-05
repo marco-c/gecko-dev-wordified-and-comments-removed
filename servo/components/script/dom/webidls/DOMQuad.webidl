@@ -126,16 +126,12 @@ optional
 DOMPointInit
 p4
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 DOMQuad

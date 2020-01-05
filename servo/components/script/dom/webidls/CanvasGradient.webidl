@@ -74,8 +74,6 @@ multipage
 /
 #
 canvasgradient
-/
-/
 [
 Exposed
 =

@@ -103,6 +103,12 @@ init
 *
 /
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 URLSearchParams

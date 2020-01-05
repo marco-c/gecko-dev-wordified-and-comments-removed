@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlparamelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLParamElement
 :

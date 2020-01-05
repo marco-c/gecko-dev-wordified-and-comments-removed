@@ -88,6 +88,12 @@ node
 /
 [
 Abstract
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Node

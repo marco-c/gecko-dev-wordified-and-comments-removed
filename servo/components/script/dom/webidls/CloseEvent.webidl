@@ -87,16 +87,12 @@ optional
 CloseEventInit
 eventInitDict
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 CloseEvent

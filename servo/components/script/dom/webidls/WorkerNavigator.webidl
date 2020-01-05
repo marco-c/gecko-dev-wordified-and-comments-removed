@@ -74,12 +74,13 @@ multipage
 /
 #
 workernavigator
-/
-/
 [
 Exposed
 =
+(
+Window
 Worker
+)
 ]
 interface
 WorkerNavigator

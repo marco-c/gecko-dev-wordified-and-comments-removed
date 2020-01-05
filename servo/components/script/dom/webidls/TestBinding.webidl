@@ -474,6 +474,12 @@ testbinding
 .
 enabled
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 TestBinding

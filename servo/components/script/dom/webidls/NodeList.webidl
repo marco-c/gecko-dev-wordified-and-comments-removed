@@ -86,6 +86,14 @@ interface
 nodelist
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 NodeList
 {

@@ -168,13 +168,13 @@ owfa
 .
 *
 /
-/
-/
 [
 Exposed
 =
+(
 Window
 Worker
+)
 ]
 interface
 XMLHttpRequestUpload

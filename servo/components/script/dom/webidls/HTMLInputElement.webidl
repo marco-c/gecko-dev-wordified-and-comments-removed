@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlinputelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLInputElement
 :

@@ -108,6 +108,14 @@ typedef
 double
 DOMHighResTimeStamp
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 Performance
 {

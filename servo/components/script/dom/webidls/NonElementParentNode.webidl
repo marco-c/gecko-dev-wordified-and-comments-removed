@@ -76,7 +76,10 @@ nonelementparentnode
 NoInterfaceObject
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 NonElementParentNode

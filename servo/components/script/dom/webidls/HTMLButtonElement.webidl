@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlbuttonelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLButtonElement
 :

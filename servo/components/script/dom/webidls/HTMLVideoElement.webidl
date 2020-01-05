@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlvideoelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLVideoElement
 :

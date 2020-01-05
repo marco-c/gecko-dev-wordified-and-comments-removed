@@ -74,6 +74,14 @@ multipage
 /
 #
 htmlfontelement
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 HTMLFontElement
 :

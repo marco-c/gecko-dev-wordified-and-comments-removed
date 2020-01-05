@@ -170,16 +170,12 @@ owfa
 /
 [
 Abstract
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 XMLHttpRequestEventTarget

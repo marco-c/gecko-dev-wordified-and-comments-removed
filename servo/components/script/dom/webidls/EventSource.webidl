@@ -95,16 +95,12 @@ optional
 EventSourceInit
 eventSourceInitDict
 )
-/
-*
 Exposed
 =
 (
 Window
 Worker
 )
-*
-/
 ]
 interface
 EventSource
