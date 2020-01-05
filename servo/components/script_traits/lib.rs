@@ -1,3 +1,10 @@
+#
+[
+deny
+(
+missing_docs
+)
+]
 extern
 crate
 devtools_traits
