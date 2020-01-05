@@ -1322,15 +1322,6 @@ servo
 Stylesheet
 ;
 use
-task_source
-:
-:
-dom_manipulation
-:
-:
-DOMManipulationTask
-;
-use
 time
 ;
 use
