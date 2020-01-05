@@ -2330,7 +2330,7 @@ add_display_item
 DisplayItem
 :
 :
-SolidColorClass
+SolidColor
 (
 box
 SolidColorDisplayItem
@@ -4060,7 +4060,7 @@ add_display_item
 DisplayItem
 :
 :
-ImageClass
+Image
 (
 box
 ImageDisplayItem
@@ -5116,7 +5116,7 @@ gradient_display_item
 DisplayItem
 :
 :
-GradientClass
+Gradient
 (
 box
 GradientDisplayItem
@@ -5302,7 +5302,7 @@ add_display_item
 DisplayItem
 :
 :
-BoxShadowClass
+BoxShadow
 (
 box
 BoxShadowDisplayItem
@@ -5704,7 +5704,7 @@ add_display_item
 DisplayItem
 :
 :
-BorderClass
+Border
 (
 box
 BorderDisplayItem
@@ -6016,7 +6016,7 @@ add_display_item
 DisplayItem
 :
 :
-BorderClass
+Border
 (
 box
 BorderDisplayItem
@@ -6175,7 +6175,7 @@ add_display_item
 DisplayItem
 :
 :
-BorderClass
+Border
 (
 box
 BorderDisplayItem
@@ -6351,7 +6351,7 @@ add_display_item
 DisplayItem
 :
 :
-LineClass
+Line
 (
 box
 LineDisplayItem
@@ -6457,7 +6457,7 @@ add_display_item
 DisplayItem
 :
 :
-BorderClass
+Border
 (
 box
 BorderDisplayItem
@@ -6870,7 +6870,7 @@ add_display_item
 DisplayItem
 :
 :
-SolidColorClass
+SolidColor
 (
 box
 SolidColorDisplayItem
@@ -7107,7 +7107,7 @@ add_display_item
 DisplayItem
 :
 :
-SolidColorClass
+SolidColor
 (
 box
 SolidColorDisplayItem
@@ -8044,7 +8044,7 @@ item
 DisplayItem
 :
 :
-IframeClass
+Iframe
 (
 box
 IframeDisplayItem
@@ -8140,7 +8140,7 @@ add_display_item
 DisplayItem
 :
 :
-ImageClass
+Image
 (
 box
 ImageDisplayItem
@@ -8438,7 +8438,7 @@ canvas_data
 DisplayItem
 :
 :
-ImageClass
+Image
 (
 box
 ImageDisplayItem
@@ -8527,7 +8527,7 @@ context_id
 DisplayItem
 :
 :
-WebGLClass
+WebGL
 (
 box
 WebGLDisplayItem
@@ -10149,7 +10149,7 @@ add_display_item
 DisplayItem
 :
 :
-TextClass
+Text
 (
 box
 TextDisplayItem
@@ -10635,7 +10635,7 @@ add_display_item
 DisplayItem
 :
 :
-BoxShadowClass
+BoxShadow
 (
 box
 BoxShadowDisplayItem
@@ -13129,7 +13129,7 @@ add_display_item
 DisplayItem
 :
 :
-BorderClass
+Border
 (
 box
 BorderDisplayItem

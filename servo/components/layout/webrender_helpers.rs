@@ -1916,7 +1916,7 @@ item
 DisplayItem
 :
 :
-PushStackingContextClass
+PushStackingContext
 (
 ref
 stacking_context_item
@@ -1989,7 +1989,7 @@ stacking_context_id
 DisplayItem
 :
 :
-PopStackingContextClass
+PopStackingContext
 (
 _
 )
@@ -2356,7 +2356,7 @@ Some
 DisplayItem
 :
 :
-PushStackingContextClass
+PushStackingContext
 (
 ref
 stacking_context_item
@@ -2442,7 +2442,7 @@ self
 DisplayItem
 :
 :
-SolidColorClass
+SolidColor
 (
 ref
 item
@@ -2501,7 +2501,7 @@ color
 DisplayItem
 :
 :
-TextClass
+Text
 (
 ref
 item
@@ -2753,7 +2753,7 @@ auxiliary_lists_builder
 DisplayItem
 :
 :
-ImageClass
+Image
 (
 ref
 item
@@ -2851,7 +2851,7 @@ id
 DisplayItem
 :
 :
-WebGLClass
+WebGL
 (
 ref
 item
@@ -2891,7 +2891,7 @@ context_id
 DisplayItem
 :
 :
-BorderClass
+Border
 (
 ref
 item
@@ -3121,7 +3121,7 @@ radius
 DisplayItem
 :
 :
-GradientClass
+Gradient
 (
 ref
 item
@@ -3224,7 +3224,7 @@ auxiliary_lists_builder
 DisplayItem
 :
 :
-LineClass
+Line
 (
 .
 .
@@ -3240,7 +3240,7 @@ TODO
 DisplayItem
 :
 :
-LineClass
+Line
 "
 )
 ;
@@ -3248,7 +3248,7 @@ LineClass
 DisplayItem
 :
 :
-LayeredItemClass
+LayeredItem
 (
 .
 .
@@ -3271,7 +3271,7 @@ webrender
 DisplayItem
 :
 :
-BoxShadowClass
+BoxShadow
 (
 ref
 item
@@ -3367,7 +3367,7 @@ to_clip_mode
 DisplayItem
 :
 :
-IframeClass
+Iframe
 (
 ref
 item
@@ -3421,7 +3421,7 @@ pipeline_id
 DisplayItem
 :
 :
-PushStackingContextClass
+PushStackingContext
 (
 _
 )
@@ -3429,7 +3429,7 @@ _
 DisplayItem
 :
 :
-PopStackingContextClass
+PopStackingContext
 (
 _
 )
