@@ -186,7 +186,7 @@ aFrame
 )
 ;
 }
-nsresult
+void
 ProcessRestyledFrames
 (
 nsStyleChangeList

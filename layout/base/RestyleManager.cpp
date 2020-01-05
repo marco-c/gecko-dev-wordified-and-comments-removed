@@ -6384,7 +6384,7 @@ return
 nextContinuation
 ;
 }
-nsresult
+void
 RestyleManager
 :
 :
@@ -6422,7 +6422,6 @@ IsEmpty
 )
 )
 return
-NS_OK
 ;
 PROFILER_LABEL
 (
@@ -7896,9 +7895,6 @@ aChangeList
 Clear
 (
 )
-;
-return
-NS_OK
 ;
 }
 RestyleManager
