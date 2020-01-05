@@ -2,7 +2,7 @@ use
 task
 :
 :
-spawn_named_native
+spawn_named
 ;
 use
 task_state
@@ -1093,7 +1093,7 @@ enumerate
 (
 )
 {
-spawn_named_native
+spawn_named
 (
 format
 !
