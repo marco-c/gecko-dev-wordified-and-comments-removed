@@ -119,10 +119,10 @@ throttleData
 "
 :
 {
-roundTripTimeMean
+latencyMean
 :
 0
-roundTripTimeMax
+latencyMax
 :
 0
 downloadBPSMean
