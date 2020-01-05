@@ -1850,6 +1850,17 @@ mScale
 scale
 )
 ;
+if
+(
+!
+gfxPrefs
+:
+:
+WebRenderEnabled
+(
+)
+)
+{
 mCompositorScheduler
 =
 new
@@ -1859,6 +1870,7 @@ this
 mWidget
 )
 ;
+}
 }
 mozilla
 :
