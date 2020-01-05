@@ -35,13 +35,6 @@ EncodingVersion
 ;
 static
 const
-uint32_t
-PrevEncodingVersion
-=
-0x0d
-;
-static
-const
 char
 NameSectionName
 [

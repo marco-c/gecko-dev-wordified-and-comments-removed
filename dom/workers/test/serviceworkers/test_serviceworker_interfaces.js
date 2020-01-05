@@ -154,6 +154,9 @@ WeakMap
 "
 WeakSet
 "
+"
+WebAssembly
+"
 ]
 ;
 var
