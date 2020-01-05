@@ -5351,7 +5351,7 @@ obj
 )
 )
 return
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 ;
 if
 (
@@ -5423,7 +5423,7 @@ isUndefined
 )
 )
 return
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 ;
 if
 (

@@ -14729,7 +14729,7 @@ if
 hint
 =
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 )
 hint
 =

@@ -4157,7 +4157,7 @@ return
 ToPrimitiveSlow
 (
 cx
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 vp
 )
 ;
