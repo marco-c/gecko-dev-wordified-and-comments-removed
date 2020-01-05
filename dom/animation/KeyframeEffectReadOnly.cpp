@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-StyleAnimationValue
+StyleAnimationValueInlines
 .
 h
 "
