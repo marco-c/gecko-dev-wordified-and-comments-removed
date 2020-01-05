@@ -136,8 +136,6 @@ aLastModifiedPassed
 int64_t
 aLastModified
 bool
-aExistenceCheck
-bool
 aIsFromNsIFile
 BlobImpl
 *
@@ -190,8 +188,6 @@ bool
 aLastModifiedPassed
 int64_t
 aLastModified
-bool
-aExistenceCheck
 bool
 aIsFromNsIFile
 BlobImpl
