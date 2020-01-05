@@ -172,11 +172,18 @@ if
 -
 help
 '
-not
 in
 options
 :
             
+return
+out
+.
+getvalue
+(
+)
+config
+        
 self
 .
 assertEquals
@@ -360,54 +367,25 @@ self
 )
 :
         
+help
 config
 =
-{
-}
-        
-out
-=
-StringIO
+self
+.
+get_config
 (
-)
-        
-sandbox
-=
-ConfigureSandbox
-(
-config
-{
-}
 [
-'
-configure
-'
 '
 -
 -
 help
 '
 ]
-                                   
-out
-out
-)
-        
-sandbox
-.
-run
-(
-mozpath
-.
-join
-(
-test_data_path
+prog
+=
 '
-moz
-.
 configure
 '
-)
 )
         
 self
@@ -640,11 +618,7 @@ Compiler
 n
 '
             
-out
-.
-getvalue
-(
-)
+help
         
 )
     
@@ -3138,6 +3112,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
@@ -3412,6 +3387,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
@@ -3745,6 +3721,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
@@ -3937,6 +3914,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
@@ -4248,6 +4226,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
@@ -4504,6 +4483,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
@@ -4723,6 +4703,7 @@ configure
 '
 )
         
+help
 config
 =
 get_config
