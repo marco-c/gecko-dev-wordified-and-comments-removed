@@ -428,5 +428,17 @@ bool
 >
 >
 )
+Test
+(
+String
+IpcSender
+<
+BluetoothResult
+<
+(
+)
+>
+>
+)
 Exit
 }

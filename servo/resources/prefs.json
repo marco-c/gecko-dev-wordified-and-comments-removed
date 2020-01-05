@@ -11,6 +11,17 @@ false
 "
 dom
 .
+bluetooth
+.
+testing
+.
+enabled
+"
+:
+false
+"
+dom
+.
 forcetouch
 .
 enabled
