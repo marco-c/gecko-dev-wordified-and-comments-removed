@@ -894,6 +894,11 @@ Server11Repository
 collection
 session
 .
+getSyncDeadline
+(
+)
+session
+.
 config
 .
 storageURL

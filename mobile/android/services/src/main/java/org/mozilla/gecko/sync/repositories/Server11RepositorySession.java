@@ -533,6 +533,13 @@ serverRepositorySession
 .
 serverRepository
 .
+getSyncDeadline
+(
+)
+serverRepositorySession
+.
+serverRepository
+.
 getAllowMultipleBatches
 (
 )

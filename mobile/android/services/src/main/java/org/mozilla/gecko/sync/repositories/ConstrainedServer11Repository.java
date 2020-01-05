@@ -77,6 +77,8 @@ ConstrainedServer11Repository
 (
 String
 collection
+long
+syncDeadline
 String
 storageURL
 AuthHeaderProvider
@@ -98,6 +100,7 @@ URISyntaxException
 super
 (
 collection
+syncDeadline
 storageURL
 authHeaderProvider
 infoCollections
