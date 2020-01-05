@@ -394,11 +394,6 @@ TelemetryScrollProbe
 cpp
 '
 '
-URLClassifierChild
-.
-cpp
-'
-'
 URLClassifierParent
 .
 cpp
@@ -523,6 +518,11 @@ ipdl
 PURLClassifierInfo
 .
 ipdlh
+'
+'
+PURLClassifierLocal
+.
+ipdl
 '
 '
 ServiceWorkerConfiguration
