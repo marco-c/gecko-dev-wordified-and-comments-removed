@@ -1767,17 +1767,8 @@ uint64_t
 aID
 )
 {
-WrExternalImageId
-id
-;
-id
-.
-id
-=
-aID
-;
 return
-id
+aID
 ;
 }
 static
@@ -1796,7 +1787,7 @@ size
 return
 WrExternalImage
 {
-WrExternalImageIdType
+WrExternalImageType
 :
 :
 RawData
@@ -1838,7 +1829,7 @@ v1
 return
 WrExternalImage
 {
-WrExternalImageIdType
+WrExternalImageType
 :
 :
 NativeTexture

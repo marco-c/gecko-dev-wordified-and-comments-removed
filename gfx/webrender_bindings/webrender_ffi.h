@@ -442,7 +442,7 @@ Sentinel
 ;
 enum
 class
-WrExternalImageIdType
+WrExternalImageType
 :
 uint32_t
 {
@@ -546,7 +546,7 @@ Sentinel
 ;
 typedef
 uint64_t
-WrImageIdType
+WrExternalImageId
 ;
 struct
 WrItemRange
@@ -1439,17 +1439,9 @@ has_image_mask
 }
 ;
 struct
-WrExternalImageId
-{
-WrImageIdType
-id
-;
-}
-;
-struct
 WrExternalImage
 {
-WrExternalImageIdType
+WrExternalImageType
 type
 ;
 uint32_t
