@@ -10,10 +10,10 @@ use
 core
 :
 :
-dvec
+dlist
 :
 :
-DVec
+DList
 ;
 use
 css
@@ -322,7 +322,7 @@ InlineFlowData
 boxes
 :
 ~
-DVec
+DList
 <
 RenderBox
 >
@@ -340,7 +340,7 @@ InlineFlowData
 boxes
 :
 ~
-DVec
+DList
 (
 )
 }
