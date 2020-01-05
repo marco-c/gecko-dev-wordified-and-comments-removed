@@ -304,6 +304,10 @@ documenttype
 ;
 pub
 mod
+domexception
+;
+pub
+mod
 domimplementation
 ;
 pub
