@@ -392,6 +392,7 @@ draw_image
 (
 draw_target
 item
+copy
 image
 )
 ;

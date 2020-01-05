@@ -235,6 +235,7 @@ recompute_style_for_subtree
 (
 arc
 (
+copy
 styles
 )
 )

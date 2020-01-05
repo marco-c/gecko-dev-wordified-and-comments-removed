@@ -1204,13 +1204,10 @@ let
 selectors
 decls
 )
-<
--
-*
-(
+=
 copy
+*
 sty
-)
 ;
 for
 selectors

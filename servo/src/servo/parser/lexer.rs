@@ -2625,8 +2625,8 @@ spawn
 |
 let
 filename
-<
--
+=
+copy
 *
 filename
 ;
@@ -2771,8 +2771,8 @@ spawn
 |
 let
 filename
-<
--
+=
+copy
 *
 filename
 ;

@@ -405,8 +405,8 @@ spawn
 |
 let
 new_file
-<
--
+=
+copy
 new_file
 ;
 let
@@ -459,6 +459,7 @@ stream
 =
 spawn_html_parser_task
 (
+copy
 filename
 )
 ;

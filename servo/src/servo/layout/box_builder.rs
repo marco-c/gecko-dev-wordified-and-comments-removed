@@ -920,6 +920,7 @@ TextBox
 (
 text_box
 (
+copy
 string
 )
 )
