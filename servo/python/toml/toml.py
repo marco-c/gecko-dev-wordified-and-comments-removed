@@ -1,6 +1,7 @@
 import
 datetime
 decimal
+re
 try
 :
     
@@ -274,7 +275,7 @@ False
         
 arrayoftables
 =
-True
+False
         
 beginline
 =
@@ -573,12 +574,6 @@ i
 and
 not
 openstring
-and
-not
-keygroup
-and
-not
-arrayoftables
 :
                 
 if
@@ -2147,6 +2142,19 @@ escapes
 )
 :
             
+if
+escapes
+[
+i
+]
+=
+=
+'
+\
+\
+'
+:
+                
 v
 =
 v
@@ -2168,22 +2176,36 @@ i
 ]
 )
             
+else
+:
+                
 v
 =
-v
+re
 .
-replace
+sub
 (
 "
-\
-\
-"
-+
-escapedchars
+(
 [
-i
+^
+\
+\
+\
+\
 ]
-"
+(
+\
+\
+\
+\
+\
+\
+\
+\
+)
+*
+)
 \
 \
 \
@@ -2194,6 +2216,17 @@ escapes
 [
 i
 ]
+"
+\
+\
+1
+"
++
+escapedchars
+[
+i
+]
+v
 )
         
 return
