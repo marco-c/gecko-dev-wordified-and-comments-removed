@@ -26,7 +26,7 @@ fd
 )
 ;
 void
-TCPFastOpenConnectResult
+TCPFastOpenFinish
 (
 PRFileDesc
 *
@@ -37,6 +37,14 @@ err
 bool
 *
 fastOpenNotSupported
+)
+;
+int32_t
+TCPFastOpenGetBufferSizeLeft
+(
+PRFileDesc
+*
+fd
 )
 ;
 }

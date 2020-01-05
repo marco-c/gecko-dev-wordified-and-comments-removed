@@ -27,6 +27,9 @@ virtual
 nsresult
 StartFastOpen
 (
+PRFileDesc
+*
+fd
 )
 =
 0
