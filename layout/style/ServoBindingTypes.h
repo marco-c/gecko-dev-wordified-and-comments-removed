@@ -456,10 +456,6 @@ DECL_BORROWED_MUT_REF_TYPE_FOR
 (
 nsTimingFunction
 )
-DECL_BORROWED_REF_TYPE_FOR
-(
-nsTimingFunction
-)
 #
 undef
 DECL_ARC_REF_TYPE_FOR

@@ -211,7 +211,9 @@ const
 nsACString
 *
 property
-nsTimingFunctionBorrowed
+const
+nsTimingFunction
+*
 timing_function
 ServoComputedValuesBorrowed
 computed_values
