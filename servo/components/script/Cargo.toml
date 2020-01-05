@@ -222,9 +222,9 @@ bluetooth_traits
 byteorder
 =
 "
-0
+1
 .
-5
+0
 "
 canvas_traits
 =
