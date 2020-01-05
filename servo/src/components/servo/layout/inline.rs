@@ -6421,8 +6421,6 @@ range
 &
 text_box
 .
-text_data
-.
 range
 ;
 let
@@ -6430,8 +6428,6 @@ run
 =
 &
 text_box
-.
-text_data
 .
 run
 ;
@@ -6679,8 +6675,6 @@ text_box
 {
 (
 text_box
-.
-text_data
 .
 run
 .
