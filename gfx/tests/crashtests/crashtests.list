@@ -723,7 +723,7 @@ asserts
 if
 (
 stylo
-3
+2
 )
 load
 783041
@@ -733,7 +733,7 @@ load
 html
 #
 bug
-1324671
+1324661
 asserts
 -
 if

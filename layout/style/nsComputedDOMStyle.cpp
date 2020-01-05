@@ -2420,7 +2420,7 @@ aStyleType
 eDefaultOnly
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo

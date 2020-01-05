@@ -144,13 +144,6 @@ bug599320
 1
 .
 html
-asserts
--
-if
-(
-stylo
-1
-)
 =
 =
 bug608373
@@ -163,9 +156,6 @@ bug608373
 1
 .
 html
-#
-bug
-1324683
 fails
 asserts
 -

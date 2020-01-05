@@ -1399,13 +1399,6 @@ button
 .
 html
 fails
-asserts
--
-if
-(
-stylo
-6
-)
 =
 =
 ua
@@ -1434,9 +1427,6 @@ color
 1
 .
 html
-#
-bug
-1324671
 #
 fuzzy
 -

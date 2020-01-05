@@ -938,7 +938,7 @@ if
 aPseudoElement
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo

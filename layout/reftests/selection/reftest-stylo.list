@@ -546,13 +546,6 @@ normalize
 .
 html
 fails
-asserts
--
-if
-(
-stylo
-13
-)
 =
 =
 modify
@@ -565,9 +558,6 @@ modify
 range
 .
 html
-#
-bug
-1324683
 fails
 =
 =

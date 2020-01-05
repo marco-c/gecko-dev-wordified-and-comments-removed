@@ -5404,13 +5404,6 @@ if
 (
 winWidget
 )
-asserts
--
-if
-(
-stylo
-6
-)
 needs
 -
 focus
@@ -5422,9 +5415,6 @@ html
 drawFocusIfNeeded
 .
 html
-#
-bug
-1324671
 pref
 (
 canvas
@@ -5454,13 +5444,6 @@ gtkWidget
 64
 410
 )
-asserts
--
-if
-(
-stylo
-6
-)
 needs
 -
 focus
@@ -5472,9 +5455,6 @@ html
 drawCustomFocusRing
 .
 html
-#
-bug
-1324671
 #
 Check
 that

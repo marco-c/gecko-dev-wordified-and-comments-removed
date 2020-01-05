@@ -391,13 +391,6 @@ OSX
 =
 1010
 )
-asserts
--
-if
-(
-stylo
-1
-)
 =
 =
 progress
@@ -414,9 +407,6 @@ orient
 vertical
 .
 html
-#
-bug
-1324671
 #
 =
 =

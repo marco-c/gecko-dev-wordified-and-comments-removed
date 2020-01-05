@@ -686,7 +686,7 @@ asserts
 if
 (
 stylo
-2
+1
 )
 load
 880862
@@ -1380,13 +1380,6 @@ load
 1331272
 .
 html
-asserts
--
-if
-(
-stylo
-1
-)
 HTTP
 load
 1333001
@@ -1394,6 +1387,3 @@ load
 1
 .
 html
-#
-bug
-1324702

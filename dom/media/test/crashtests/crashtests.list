@@ -46,13 +46,6 @@ load
 1
 .
 html
-asserts
--
-if
-(
-stylo
-8
-)
 HTTP
 load
 481136
@@ -60,9 +53,6 @@ load
 1
 .
 html
-#
-bug
-1324671
 #
 needs
 to
@@ -391,13 +381,6 @@ load
 1020205
 .
 html
-asserts
--
-if
-(
-stylo
-8
-)
 skip
 -
 if
@@ -421,9 +404,6 @@ load
 1028458
 .
 html
-#
-bug
-1324671
 #
 bug
 1048863
