@@ -13363,7 +13363,7 @@ false
 {
 install
 .
-promptHandler
+_permHandler
 =
 info
 =
@@ -14584,13 +14584,13 @@ STATE_DOWNLOAD_FAILED
 ]
 [
 "
-STATE_AWAITING_PROMPT
+STATE_AWAITING_PERMISSIONS
 "
 5
 ]
 [
 "
-STATE_PROMPTS_DONE
+STATE_PERMISSION_GRANTED
 "
 6
 ]

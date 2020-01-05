@@ -2527,7 +2527,7 @@ perminfo
 ;
 install
 .
-promptHandler
+_permHandler
 =
 info
 =
@@ -2795,7 +2795,7 @@ perminfo
 ;
 install
 .
-promptHandler
+_permHandler
 =
 info
 =

@@ -24607,11 +24607,11 @@ null
 ;
 this
 .
-promptHandler
+permHandler
 =
 options
 .
-promptHandler
+permHandler
 |
 |
 (
@@ -24773,7 +24773,7 @@ STATE_DOWNLOADED
 :
 this
 .
-checkPrompt
+checkPermissions
 (
 )
 ;
@@ -24782,7 +24782,7 @@ break
 case
 AddonManager
 .
-STATE_PROMPTS_DONE
+STATE_PERMISSION_GRANTED
 :
 this
 .
@@ -26227,7 +26227,7 @@ icon
 spec
 ;
 }
-checkPrompt
+checkPermissions
 (
 )
 {
@@ -26245,7 +26245,7 @@ if
 (
 this
 .
-promptHandler
+permHandler
 )
 {
 let
@@ -26286,7 +26286,7 @@ try
 yield
 this
 .
-promptHandler
+permHandler
 (
 info
 )
@@ -26311,8 +26311,10 @@ addon
 id
 }
 cancelled
-by
+since
 user
+declined
+permissions
 )
 ;
 this
@@ -26355,7 +26357,7 @@ state
 =
 AddonManager
 .
-STATE_PROMPTS_DONE
+STATE_PERMISSION_GRANTED
 ;
 this
 .
@@ -31403,7 +31405,7 @@ sourceURI
 ;
 }
 set
-promptHandler
+_permHandler
 (
 handler
 )
@@ -31413,7 +31415,7 @@ installFor
 this
 )
 .
-promptHandler
+permHandler
 =
 handler
 ;
