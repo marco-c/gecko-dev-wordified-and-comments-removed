@@ -2127,6 +2127,12 @@ imageKey
 >
 OnSurfaceDiscarded
 (
+aSurface
+-
+>
+GetSurfaceKey
+(
+)
 )
 ;
 }
