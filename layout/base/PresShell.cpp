@@ -19398,13 +19398,12 @@ EndUpdate
 )
 ;
 }
-nsresult
+void
 PresShell
 :
 :
 ReconstructFrames
 (
-void
 )
 {
 NS_PRECONDITION
@@ -19441,7 +19440,6 @@ mIsDestroying
 )
 {
 return
-NS_OK
 ;
 }
 nsCOMPtr
@@ -19470,7 +19468,6 @@ mIsDestroying
 )
 {
 return
-NS_OK
 ;
 }
 nsAutoCauseReflowNotifier
@@ -19486,9 +19483,6 @@ BeginUpdate
 (
 )
 ;
-nsresult
-rv
-=
 mFrameConstructor
 -
 >
@@ -19504,9 +19498,6 @@ mFrameConstructor
 EndUpdate
 (
 )
-;
-return
-rv
 ;
 }
 void

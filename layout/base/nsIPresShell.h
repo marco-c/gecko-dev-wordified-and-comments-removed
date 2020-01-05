@@ -2193,7 +2193,7 @@ aSheet
 0
 ;
 virtual
-nsresult
+void
 ReconstructFrames
 (
 )

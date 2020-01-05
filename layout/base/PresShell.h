@@ -830,7 +830,7 @@ NotifyCounterStylesAreDirty
 override
 ;
 virtual
-nsresult
+void
 ReconstructFrames
 (
 void

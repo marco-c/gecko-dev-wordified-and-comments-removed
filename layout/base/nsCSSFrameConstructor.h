@@ -138,6 +138,7 @@ FlattenedChildIterator
 }
 class
 nsCSSFrameConstructor
+final
 :
 public
 nsFrameManager
@@ -198,7 +199,7 @@ nsCSSFrameConstructor
 void
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mUpdateCount
 =
@@ -290,7 +291,7 @@ ConstructRootFrame
 (
 )
 ;
-nsresult
+void
 ReconstructDocElementHierarchy
 (
 )
@@ -443,7 +444,7 @@ aEndChild
 ;
 public
 :
-nsresult
+void
 ContentAppended
 (
 nsIContent
@@ -461,7 +462,7 @@ aProvidedTreeMatchContext
 nullptr
 )
 ;
-nsresult
+void
 ContentInserted
 (
 nsIContent
@@ -477,7 +478,7 @@ bool
 aAllowLazyConstruction
 )
 ;
-nsresult
+void
 ContentRangeInserted
 (
 nsIContent
@@ -509,7 +510,7 @@ REMOVE_FOR_RECONSTRUCTION
 REMOVE_DESTROY_FRAMES
 }
 ;
-nsresult
+void
 ContentRemoved
 (
 nsIContent
@@ -534,7 +535,7 @@ aDestroyedFramesFor
 nullptr
 )
 ;
-nsresult
+void
 CharacterDataChanged
 (
 nsIContent
@@ -554,7 +555,7 @@ nsGenericDOMDataNode
 aContent
 )
 ;
-nsresult
+void
 GenerateChildFrames
 (
 nsContainerFrame
@@ -645,7 +646,7 @@ nsIContent
 aChild
 )
 ;
-nsresult
+void
 CreateListBoxContent
 (
 nsContainerFrame
@@ -926,7 +927,7 @@ nsIContent
 aDocElement
 )
 ;
-nsresult
+void
 CreateAttributeContent
 (
 nsIContent
@@ -1024,7 +1025,7 @@ FrameConstructionItemList
 aItems
 )
 ;
-nsresult
+void
 AppendFramesToParent
 (
 nsFrameConstructorState
@@ -4257,7 +4258,7 @@ nsIFrame
 aScrolledFrame
 )
 ;
-nsresult
+void
 InitializeSelectFrame
 (
 nsFrameConstructorState
@@ -4297,7 +4298,7 @@ Element
 aElement
 )
 ;
-nsresult
+void
 RecreateFramesForContent
 (
 nsIContent
@@ -4321,9 +4322,6 @@ nsIFrame
 aFrame
 RemoveFlags
 aFlags
-nsresult
-*
-aResult
 nsIContent
 *
 *
@@ -4561,7 +4559,7 @@ nsIFrame
 aPrevSibling
 )
 ;
-nsresult
+void
 ReframeContainingBlock
 (
 nsIFrame
@@ -4672,7 +4670,7 @@ nsContainerFrame
 aBlockFrame
 )
 ;
-nsresult
+void
 RemoveLetterFrames
 (
 nsIPresShell
@@ -4683,7 +4681,7 @@ nsContainerFrame
 aBlockFrame
 )
 ;
-nsresult
+void
 RemoveFirstLetterFrames
 (
 nsIPresShell
@@ -4700,7 +4698,7 @@ bool
 aStopLooking
 )
 ;
-nsresult
+void
 RemoveFloatingFirstLetterFrames
 (
 nsIPresShell
@@ -4759,7 +4757,7 @@ nsFrameItems
 aFrameItems
 )
 ;
-nsresult
+void
 InsertFirstLineFrames
 (
 nsFrameConstructorState
