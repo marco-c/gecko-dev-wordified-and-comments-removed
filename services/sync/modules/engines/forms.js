@@ -438,7 +438,6 @@ changes
 callbacks
 )
 ;
-return
 cb
 .
 wait

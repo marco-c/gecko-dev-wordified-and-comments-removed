@@ -810,7 +810,6 @@ if
 error
 )
 {
-return
 deferred
 .
 reject
@@ -823,6 +822,8 @@ restResponse
 error
 )
 )
+;
+return
 ;
 }
 self
@@ -883,7 +884,6 @@ retrying
 "
 )
 ;
-return
 deferred
 .
 resolve
@@ -900,6 +900,8 @@ extraHeaders
 false
 )
 )
+;
+return
 ;
 }
 let
@@ -961,7 +963,6 @@ jsonResponse
 error
 )
 {
-return
 deferred
 .
 reject
@@ -970,7 +971,8 @@ jsonResponse
 )
 ;
 }
-return
+else
+{
 deferred
 .
 reject
@@ -986,6 +988,9 @@ failed
 "
 )
 )
+;
+}
+return
 ;
 }
 deferred

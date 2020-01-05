@@ -2207,6 +2207,9 @@ deviceId
 )
 ;
 }
+return
+null
+;
 }
 )
 .
@@ -3305,6 +3308,9 @@ sign
 out
 "
 )
+;
+return
+null
 ;
 }
 )
@@ -4633,11 +4639,12 @@ if
 err
 )
 {
-return
 reject
 (
 err
 )
+;
+return
 ;
 }
 log
@@ -7082,6 +7089,9 @@ signedInUser
 )
 ;
 }
+return
+null
+;
 }
 )
 .
@@ -7275,6 +7285,7 @@ disconnected
 )
 ;
 return
+null
 ;
 }
 if
@@ -7335,6 +7346,9 @@ disconnect
 deviceId
 }
 )
+;
+return
+null
 ;
 }
 )

@@ -869,7 +869,6 @@ catch
 ex
 )
 {
-return
 sendMozSvcError
 (
 request
@@ -878,6 +877,8 @@ response
 8
 "
 )
+;
+return
 ;
 }
 if
@@ -893,7 +894,6 @@ object
 "
 )
 {
-return
 sendMozSvcError
 (
 request
@@ -902,6 +902,8 @@ response
 8
 "
 )
+;
+return
 ;
 }
 if
@@ -1055,7 +1057,6 @@ response
 )
 ;
 return
-true
 ;
 }
 this
@@ -1090,7 +1091,6 @@ response
 )
 ;
 return
-true
 ;
 }
 this
@@ -1136,7 +1136,6 @@ response
 )
 ;
 return
-true
 ;
 }
 this
@@ -1188,7 +1187,6 @@ response
 )
 ;
 return
-true
 ;
 }
 }
@@ -3656,7 +3654,6 @@ array
 "
 )
 ;
-return
 sendMozSvcError
 (
 request
@@ -3665,6 +3662,8 @@ response
 8
 "
 )
+;
+return
 ;
 }
 }
@@ -3733,7 +3732,6 @@ line
 "
 )
 ;
-return
 sendMozSvcError
 (
 request
@@ -3742,6 +3740,8 @@ response
 8
 "
 )
+;
+return
 ;
 }
 input
@@ -4003,7 +4003,6 @@ case
 GET
 "
 :
-return
 self
 .
 getHandler
@@ -4012,12 +4011,13 @@ request
 response
 )
 ;
+return
+;
 case
 "
 POST
 "
 :
-return
 self
 .
 postHandler
@@ -4026,12 +4026,13 @@ request
 response
 )
 ;
+return
+;
 case
 "
 DELETE
 "
 :
-return
 self
 .
 deleteHandler
@@ -4039,6 +4040,8 @@ deleteHandler
 request
 response
 )
+;
+return
 ;
 }
 request
@@ -6854,7 +6857,6 @@ first
 ;
 try
 {
-return
 handler
 .
 call
@@ -6867,6 +6869,8 @@ version
 username
 rest
 )
+;
+return
 ;
 }
 catch
@@ -7144,7 +7148,6 @@ if
 bsoID
 )
 {
-return
 coll
 .
 collectionHandler
@@ -7152,6 +7155,8 @@ collectionHandler
 req
 resp
 )
+;
+return
 ;
 }
 let
@@ -7182,7 +7187,6 @@ Found
 return
 ;
 }
-return
 bso
 .
 getHandler
@@ -7190,6 +7194,8 @@ getHandler
 req
 resp
 )
+;
+return
 ;
 case
 "
@@ -7552,7 +7558,6 @@ catch
 ex
 )
 {
-return
 sendMozSvcError
 (
 req
@@ -7561,6 +7566,8 @@ resp
 8
 "
 )
+;
+return
 ;
 }
 }
@@ -7581,10 +7588,8 @@ req
 timestamp
 ;
 return
-resp
 ;
 }
-return
 coll
 .
 collectionHandler
@@ -7592,6 +7597,8 @@ collectionHandler
 req
 resp
 )
+;
+return
 ;
 }
 catch
@@ -7675,7 +7682,6 @@ case
 collections
 "
 :
-return
 this
 .
 handleInfoCollections
@@ -7685,12 +7691,13 @@ resp
 username
 )
 ;
+return
+;
 case
 "
 collection_counts
 "
 :
-return
 this
 .
 handleInfoCounts
@@ -7700,12 +7707,13 @@ resp
 username
 )
 ;
+return
+;
 case
 "
 collection_usage
 "
 :
-return
 this
 .
 handleInfoUsage
@@ -7715,12 +7723,13 @@ resp
 username
 )
 ;
+return
+;
 case
 "
 quota
 "
 :
-return
 this
 .
 handleInfoQuota
@@ -7729,6 +7738,8 @@ req
 resp
 username
 )
+;
+return
 ;
 default
 :

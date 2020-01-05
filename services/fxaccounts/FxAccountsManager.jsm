@@ -355,6 +355,7 @@ errno
 )
 {
 return
+null
 ;
 }
 let

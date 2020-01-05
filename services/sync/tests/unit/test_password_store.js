@@ -278,6 +278,9 @@ id
 )
 ;
 }
+return
+undefined
+;
 }
 function
 changePassword

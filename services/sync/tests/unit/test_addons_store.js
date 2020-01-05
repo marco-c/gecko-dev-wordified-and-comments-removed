@@ -629,6 +629,9 @@ ex
 )
 ;
 }
+return
+null
+;
 }
 function
 run_test

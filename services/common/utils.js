@@ -635,6 +635,10 @@ delay
 wait
 ;
 return
+thisObj
+[
+name
+]
 ;
 }
 let

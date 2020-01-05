@@ -1492,6 +1492,7 @@ _needToReadSecure
 )
 {
 return
+null
 ;
 }
 return
@@ -1519,6 +1520,9 @@ _doReadAndUpdateSecure
 )
 ;
 }
+return
+null
+;
 }
 )
 ;

@@ -498,7 +498,6 @@ if
 error
 )
 {
-return
 reject
 (
 new
@@ -521,6 +520,8 @@ toString
 }
 )
 )
+;
+return
 ;
 }
 let
@@ -549,7 +550,6 @@ catch
 e
 )
 {
-return
 reject
 (
 new
@@ -580,6 +580,8 @@ body
 )
 )
 ;
+return
+;
 }
 if
 (
@@ -590,11 +592,12 @@ response
 success
 )
 {
-return
 resolve
 (
 body
 )
+;
+return
 ;
 }
 if
@@ -634,7 +637,6 @@ errno
 ERRNO_UNKNOWN_ERROR
 ;
 }
-return
 reject
 (
 new
@@ -667,7 +669,6 @@ params
 }
 else
 {
-return
 reject
 (
 new

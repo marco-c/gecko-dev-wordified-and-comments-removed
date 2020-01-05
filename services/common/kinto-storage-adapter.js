@@ -1175,6 +1175,7 @@ length
 )
 {
 return
+null
 ;
 }
 return
