@@ -1270,7 +1270,7 @@ feature
 -
 settings
 [
-118
+40
 ]
 *
 image
