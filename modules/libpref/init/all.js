@@ -3416,7 +3416,7 @@ dtmf
 .
 enabled
 "
-false
+true
 )
 ;
 pref
