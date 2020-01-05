@@ -74,14 +74,12 @@ GamepadServiceTest
 {
 readonly
 attribute
-unsigned
-long
+GamepadMappingType
 noMapping
 ;
 readonly
 attribute
-unsigned
-long
+GamepadMappingType
 standardMapping
 ;
 [
@@ -96,8 +94,7 @@ addGamepad
 (
 DOMString
 id
-unsigned
-long
+GamepadMappingType
 mapping
 unsigned
 long

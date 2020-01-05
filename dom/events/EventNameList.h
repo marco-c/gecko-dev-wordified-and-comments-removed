@@ -1588,9 +1588,6 @@ eScrolledAreaChanged
 EventNameType_None
 eScrollAreaEventClass
 )
-#
-ifdef
-MOZ_GAMEPAD
 NON_IDL_EVENT
 (
 gamepadbuttondown
@@ -1626,8 +1623,6 @@ eGamepadDisconnected
 EventNameType_None
 eBasicEventClass
 )
-#
-endif
 NON_IDL_EVENT
 (
 MozSwipeGestureMayStart

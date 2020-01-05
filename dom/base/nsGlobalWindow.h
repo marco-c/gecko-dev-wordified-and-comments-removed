@@ -2816,9 +2816,6 @@ ShowSlowScriptDialog
 (
 )
 ;
-#
-ifdef
-MOZ_GAMEPAD
 void
 AddGamepad
 (
@@ -2895,8 +2892,6 @@ SyncGamepadState
 (
 )
 ;
-#
-endif
 void
 EnableGamepadUpdates
 (
@@ -8931,9 +8926,6 @@ mHasVREvents
 :
 1
 ;
-#
-ifdef
-MOZ_GAMEPAD
 nsCheapSet
 <
 nsUint32HashKey
@@ -8956,8 +8948,6 @@ mGamepads
 bool
 mHasSeenGamepadInput
 ;
-#
-endif
 bool
 mNotifiedIDDestroyed
 :

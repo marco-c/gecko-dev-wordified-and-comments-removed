@@ -15018,9 +15018,6 @@ onactivestatechanged
 onactivestatechanged
 "
 )
-#
-ifdef
-MOZ_GAMEPAD
 GK_ATOM
 (
 ongamepadbuttondown
@@ -15056,8 +15053,6 @@ ongamepaddisconnected
 ongamepaddisconnected
 "
 )
-#
-endif
 GK_ATOM
 (
 animationsProperty

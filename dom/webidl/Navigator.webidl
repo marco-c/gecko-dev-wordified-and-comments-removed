@@ -1965,9 +1965,6 @@ connection
 ;
 }
 ;
-#
-ifdef
-MOZ_GAMEPAD
 /
 /
 https
@@ -2050,11 +2047,6 @@ requestGamepadServiceTest
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_GAMEPAD
 partial
 interface
 Navigator
