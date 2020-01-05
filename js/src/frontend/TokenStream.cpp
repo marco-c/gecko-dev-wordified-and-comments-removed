@@ -5088,7 +5088,7 @@ contains
 but
 as
 !
-IsLetter
+IsUnicodeIDStart
 (
 '
 '
@@ -5122,7 +5122,7 @@ _
 but
 as
 !
-IsLetter
+IsUnicodeIDStart
 (
 '
 _
@@ -5147,7 +5147,7 @@ if
 unicode
 :
 :
-IsLetter
+IsUnicodeIDStart
 (
 c
 )
