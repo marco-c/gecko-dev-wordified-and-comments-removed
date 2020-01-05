@@ -160,6 +160,11 @@ TestNSPRLogModulesParser
 cpp
 '
 '
+TestObserverArray
+.
+cpp
+'
+'
 TestPipes
 .
 cpp
