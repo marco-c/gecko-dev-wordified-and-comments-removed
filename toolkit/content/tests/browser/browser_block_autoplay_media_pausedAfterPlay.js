@@ -85,9 +85,9 @@ document
 .
 getElementById
 (
-'
+"
 testAudio
-'
+"
 )
 ;
 if
@@ -146,9 +146,9 @@ document
 .
 getElementById
 (
-'
+"
 testAudio
-'
+"
 )
 ;
 if
