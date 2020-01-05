@@ -370,7 +370,7 @@ types
 "
 :
 "
-off
+error
 "
 "
 react
