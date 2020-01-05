@@ -994,9 +994,12 @@ sa_handler
 =
 SIG_IGN
 )
-raise
+sigaction
 (
-signum
+SIGSEGV
+&
+sPrevSEGVHandler
+nullptr
 )
 ;
 else
@@ -1046,6 +1049,8 @@ faultHandler
 sa_flags
 =
 SA_SIGINFO
+|
+SA_NODEFER
 ;
 faultHandler
 .
