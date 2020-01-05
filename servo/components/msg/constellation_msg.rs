@@ -690,6 +690,12 @@ String
 OpenWindow
 SecurityChange
 ShowModalPrompt
+(
+String
+String
+String
+String
+)
 TitleChange
 (
 String
@@ -820,6 +826,12 @@ MozBrowserEvent
 :
 :
 ShowModalPrompt
+(
+_
+_
+_
+_
+)
 =
 >
 "
