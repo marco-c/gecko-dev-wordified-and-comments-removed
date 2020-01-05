@@ -125,13 +125,9 @@ Attr
 attr
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 Attr
 removeNamedItem
 (
@@ -139,13 +135,9 @@ DOMString
 name
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 Attr
 removeNamedItemNS
 (
