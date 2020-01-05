@@ -81,6 +81,7 @@ i32
 )
 loop
 top
+i32
 get_local
 x
 if

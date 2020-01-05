@@ -39,6 +39,7 @@ nop
 )
 (
 loop
+i32
 (
 i32
 .
@@ -47,6 +48,7 @@ const
 )
 )
 )
+drop
 )
 (
 export
@@ -136,6 +138,7 @@ const
 3
 )
 )
+drop
 )
 (
 export

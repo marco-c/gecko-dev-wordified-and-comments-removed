@@ -553,13 +553,7 @@ memory
 10
 )
 )
-/
-popping
-value
-from
-empty
-stack
-/
+emptyStackError
 )
 ;
 runTest
