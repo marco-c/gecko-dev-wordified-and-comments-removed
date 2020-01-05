@@ -1967,6 +1967,10 @@ page
 .
 next_subpage_id
 .
+deref
+(
+)
+.
 borrow
 (
 )
