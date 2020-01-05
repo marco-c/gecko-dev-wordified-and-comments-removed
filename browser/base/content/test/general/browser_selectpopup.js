@@ -1424,15 +1424,6 @@ ArrowDown
 }
 )
 ;
-let
-expectedIndex
-=
-isWindows
-?
-5
-:
-9
-;
 is
 (
 menulist
@@ -1444,7 +1435,7 @@ menulist
 .
 getItemAtIndex
 (
-expectedIndex
+9
 )
 "
 Skip
@@ -1466,7 +1457,7 @@ menulist
 selectedIndex
 isWindows
 ?
-5
+9
 :
 1
 "

@@ -558,12 +558,6 @@ list
 "
 VK_DOWN
 "
-iswin
-?
-"
-2b
-"
-:
 3
 "
 cursor
@@ -899,12 +893,6 @@ list
 "
 T
 "
-iswin
-?
-"
-2b
-"
-:
 3
 "
 letter
