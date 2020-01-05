@@ -213,5 +213,10 @@ attribute
 uint64_t
 tabId
 ;
+readonly
+attribute
+bool
+isInFreshProcess
+;
 }
 ;
