@@ -3210,6 +3210,9 @@ mLayerTreeEpoch
 bool
 mPreserveLayers
 ;
+bool
+mHasPresented
+;
 public
 :
 static

@@ -1007,6 +1007,10 @@ mPreserveLayers
 (
 false
 )
+mHasPresented
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -13267,6 +13271,10 @@ if
 aActive
 )
 {
+mHasPresented
+=
+true
+;
 event
 -
 >
@@ -15884,6 +15892,14 @@ event
 "
 )
 ;
+return
+;
+}
+if
+(
+mHasPresented
+)
+{
 return
 ;
 }
