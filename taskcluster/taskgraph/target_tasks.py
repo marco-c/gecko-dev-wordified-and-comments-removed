@@ -660,7 +660,7 @@ attributes
 get
 (
 '
-talos_siute
+talos_suite
 '
 )
 :
