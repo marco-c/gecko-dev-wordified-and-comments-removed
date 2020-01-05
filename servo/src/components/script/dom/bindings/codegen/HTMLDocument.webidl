@@ -94,12 +94,6 @@ MPL
 interface
 Selection
 ;
-interface
-HTMLElement
-;
-interface
-HTMLHeadElement
-;
 [
 OverrideBuiltins
 ]

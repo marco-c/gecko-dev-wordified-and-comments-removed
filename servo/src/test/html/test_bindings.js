@@ -1053,3 +1053,15 @@ document
 title
 )
 ;
+window
+.
+alert
+(
+document
+.
+links
+[
+0
+]
+)
+;

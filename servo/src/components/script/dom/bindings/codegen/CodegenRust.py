@@ -10780,8 +10780,12 @@ str
 "
 if
 !
+(
 %
 s
+as
+bool
+)
 {
 \
 n
@@ -11335,10 +11339,6 @@ wrapMethod
 WrapNewBindingNonWrapperCachedObject
 "
             
-properResult
-=
-result
-            
 if
 descriptor
 .
@@ -11349,29 +11349,33 @@ pointerType
 '
 :
                 
-properResult
+wrap
 =
-result
-+
 "
+%
+s
 .
-as_cacheable_wrapper
+wrap
 (
+cx
+{
+obj
+}
+{
+jsvalPtr
+}
+as
+*
+mut
+JSVal
 )
 "
+%
+result
             
 else
 :
                 
-properResult
-+
-=
-"
-as
-mut
-CacheableWrapper
-"
-            
 wrap
 =
 "
@@ -11384,6 +11388,9 @@ obj
 }
 %
 s
+as
+mut
+CacheableWrapper
 {
 jsvalPtr
 }
@@ -11396,7 +11403,7 @@ JSVal
 %
 (
 wrapMethod
-properResult
+result
 )
             
 assert
@@ -19664,7 +19671,7 @@ mut
 +
 descriptor
 .
-name
+concreteType
 '
 aObject
 '
@@ -19949,11 +19956,12 @@ mut
 +
 descriptor
 .
-name
+concreteType
 '
 aObject
 '
 )
+                
 Argument
 (
 '
@@ -25115,7 +25123,7 @@ self
 .
 descriptor
 .
-name
+concreteType
 )
 )
     
@@ -25453,7 +25461,7 @@ s
 %
 descriptor
 .
-name
+concreteType
 '
 this
 '
@@ -25893,7 +25901,7 @@ s
 %
 descriptor
 .
-name
+concreteType
 '
 this
 '
@@ -26459,7 +26467,7 @@ s
 %
 descriptor
 .
-name
+concreteType
 '
 this
 '
@@ -32833,7 +32841,7 @@ val
 %
 descriptor
 .
-name
+concreteType
     
 return
 release
@@ -34628,7 +34636,16 @@ enumName
 +
 '
 _Count
+=
 '
++
+str
+(
+len
+(
+entries
+)
+)
 )
         
 entries
@@ -37489,10 +37506,24 @@ glue
 dom
 :
 :
+characterdata
+:
+:
+CharacterData
+'
+                          
+'
+dom
+:
+:
 node
 :
 :
+{
 AbstractNode
+Node
+Text
+}
 '
                           
 '
@@ -37506,6 +37537,40 @@ document
 Document
 AbstractDocument
 }
+'
+                          
+'
+dom
+:
+:
+element
+:
+:
+{
+Element
+HTMLHeadElement
+HTMLHtmlElement
+}
+'
+                          
+'
+dom
+:
+:
+htmlanchorelement
+:
+:
+HTMLAnchorElement
+'
+                          
+'
+dom
+:
+:
+htmlelement
+:
+:
+HTMLElement
 '
                           
 '

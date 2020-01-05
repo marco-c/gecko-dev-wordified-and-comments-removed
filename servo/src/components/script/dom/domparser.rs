@@ -69,7 +69,6 @@ element
 :
 :
 {
-Element
 HTMLHtmlElement
 HTMLHtmlElementTypeId
 }
@@ -82,6 +81,15 @@ htmldocument
 :
 :
 HTMLDocument
+;
+use
+dom
+:
+:
+htmlelement
+:
+:
+HTMLElement
 ;
 use
 dom
@@ -287,12 +295,11 @@ unsafe
 let
 root
 =
-~
 HTMLHtmlElement
 {
 parent
 :
-Element
+HTMLElement
 :
 :
 new

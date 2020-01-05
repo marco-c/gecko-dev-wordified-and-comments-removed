@@ -155,9 +155,6 @@ apply
 .
 *
 /
-interface
-Node
-;
 [
 Constructor
 (
