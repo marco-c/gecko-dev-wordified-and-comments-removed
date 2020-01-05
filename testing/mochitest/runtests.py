@@ -8844,6 +8844,11 @@ self
 .
 _active_tests
         
+tests
+=
+[
+]
+        
 manifest
 =
 self
@@ -9829,9 +9834,13 @@ False
 else
 :
                 
+manifest
+=
+None
+                
 self
 .
-_log
+log
 .
 warning
 (
