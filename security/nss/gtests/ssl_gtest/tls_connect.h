@@ -387,6 +387,16 @@ ConnectExpectFail
 )
 ;
 void
+ConnectExpectFailOneSide
+(
+TlsAgent
+:
+:
+Role
+failingSide
+)
+;
+void
 ConnectWithCipherSuite
 (
 uint16_t

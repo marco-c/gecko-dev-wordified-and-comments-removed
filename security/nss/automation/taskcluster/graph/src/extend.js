@@ -1504,6 +1504,9 @@ v
 -
 -
 fuzz
+-
+-
+ubsan
 "
 ]
 artifacts

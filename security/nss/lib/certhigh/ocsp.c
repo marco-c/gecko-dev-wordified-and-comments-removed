@@ -8153,6 +8153,13 @@ defined
 (
 __GNUC__
 )
+&
+&
+!
+defined
+(
+NSS_NO_GCC48
+)
 #
 pragma
 GCC
@@ -8508,6 +8515,13 @@ if
 defined
 (
 __GNUC__
+)
+&
+&
+!
+defined
+(
+NSS_NO_GCC48
 )
 #
 pragma

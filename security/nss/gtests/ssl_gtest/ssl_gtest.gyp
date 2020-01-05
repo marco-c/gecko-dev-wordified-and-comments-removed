@@ -179,6 +179,11 @@ ssl_fuzz_unittest
 cc
 '
 '
+ssl_fragment_unittest
+.
+cc
+'
+'
 ssl_gtest
 .
 cc
@@ -250,6 +255,11 @@ cc
 '
 '
 tls_parser
+.
+cc
+'
+'
+tls_protect
 .
 cc
 '

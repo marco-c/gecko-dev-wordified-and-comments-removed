@@ -423,7 +423,7 @@ ss
 void
 *
 v
-PRInt32
+PRUint32
 bytes
 SSL3Opaque
 *
@@ -434,14 +434,17 @@ PRUint32
 length
 )
 ;
-PRInt32
+SECStatus
 ssl3_ExtConsumeHandshakeNumber
 (
 const
 sslSocket
 *
 ss
-PRInt32
+PRUint32
+*
+num
+PRUint32
 bytes
 SSL3Opaque
 *
@@ -462,7 +465,7 @@ ss
 SECItem
 *
 i
-PRInt32
+PRUint32
 bytes
 SSL3Opaque
 *
