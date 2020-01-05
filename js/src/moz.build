@@ -1409,6 +1409,13 @@ cpp
 '
 ds
 /
+Bitmap
+.
+cpp
+'
+'
+ds
+/
 LifoAlloc
 .
 cpp

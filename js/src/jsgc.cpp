@@ -24036,10 +24036,7 @@ run
 (
 )
 {
-AtomMarkingRuntime
-:
-:
-Bitmap
+DenseBitmap
 marked
 ;
 if
