@@ -1585,6 +1585,9 @@ beta
 alpha
 '
 '
+rollout
+'
+'
 invalid
 '
 )
