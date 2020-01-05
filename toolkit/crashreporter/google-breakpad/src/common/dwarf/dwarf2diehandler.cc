@@ -8,6 +8,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -619,7 +626,7 @@ enum
 DwarfForm
 form
 const
-char
+uint8_t
 *
 data
 uint64

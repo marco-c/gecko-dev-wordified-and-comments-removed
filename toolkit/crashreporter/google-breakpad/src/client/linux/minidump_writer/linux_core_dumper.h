@@ -62,6 +62,13 @@ const
 char
 *
 procfs_path
+const
+char
+*
+root_prefix
+=
+"
+"
 )
 ;
 virtual

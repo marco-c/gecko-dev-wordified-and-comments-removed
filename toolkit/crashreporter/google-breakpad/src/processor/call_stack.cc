@@ -81,5 +81,9 @@ delete
 iterator
 ;
 }
+tid_
+=
+0
+;
 }
 }

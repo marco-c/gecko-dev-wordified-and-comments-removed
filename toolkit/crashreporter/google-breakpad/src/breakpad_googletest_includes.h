@@ -7,12 +7,6 @@ BREAKPAD_GOOGLETEST_INCLUDES_H__
 #
 include
 "
-testing
-/
-gtest
-/
-include
-/
 gtest
 /
 gtest
@@ -22,10 +16,6 @@ h
 #
 include
 "
-testing
-/
-include
-/
 gmock
 /
 gmock
