@@ -411,6 +411,7 @@ ExtensionUtils
 const
 {
 BaseContext
+CanOfAPIs
 SchemaAPIManager
 }
 =
@@ -3081,6 +3082,17 @@ localApis
 {
 }
 ;
+let
+can
+=
+new
+CanOfAPIs
+(
+this
+apiManager
+localApis
+)
+;
 apiManager
 .
 generateAPIs
@@ -3099,7 +3111,7 @@ this
 this
 .
 messageManager
-localApis
+can
 {
 envType
 :
