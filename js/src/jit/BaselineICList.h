@@ -174,15 +174,9 @@ _
 GetElem_Fallback
 )
 \
-\
 _
 (
 SetElem_Fallback
-)
-\
-_
-(
-SetElem_TypedArray
 )
 \
 \

@@ -127,12 +127,6 @@ sawOOBTypedArrayWrite
 )
 const
 ;
-bool
-sawTypedArrayWrite
-(
-)
-const
-;
 }
 ;
 class

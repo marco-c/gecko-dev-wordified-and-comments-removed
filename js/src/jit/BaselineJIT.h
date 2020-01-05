@@ -1553,7 +1553,7 @@ pcOffset
 )
 ;
 void
-noteArrayWriteHole
+noteHasDenseAdd
 (
 uint32_t
 pcOffset
