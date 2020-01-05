@@ -3,7 +3,7 @@ importedArgs
 =
 [
 '
-func
+globals
 .
 wast
 '
