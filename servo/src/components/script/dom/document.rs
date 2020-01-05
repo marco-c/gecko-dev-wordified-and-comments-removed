@@ -31,7 +31,6 @@ utils
 :
 {
 DOMString
-Reflector
 ErrorResult
 Fallible
 }
@@ -47,8 +46,8 @@ utils
 :
 :
 {
-BindingObject
 Reflectable
+Reflector
 DerivedWrapper
 }
 ;
@@ -1197,12 +1196,6 @@ exist
 }
 }
 }
-}
-impl
-BindingObject
-for
-AbstractDocument
-{
 fn
 GetParentObject
 (
@@ -1380,12 +1373,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-Document
-{
 fn
 GetParentObject
 (

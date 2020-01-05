@@ -39,7 +39,6 @@ utils
 {
 Reflectable
 Reflector
-BindingObject
 }
 ;
 use
@@ -778,12 +777,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-MouseEvent
-{
 fn
 GetParentObject
 (

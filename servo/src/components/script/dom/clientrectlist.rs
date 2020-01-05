@@ -21,9 +21,8 @@ utils
 :
 :
 {
-Reflector
 Reflectable
-BindingObject
+Reflector
 }
 ;
 use
@@ -348,12 +347,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-ClientRectList
-{
 fn
 GetParentObject
 (

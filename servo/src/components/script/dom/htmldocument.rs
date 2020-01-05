@@ -39,7 +39,6 @@ utils
 :
 {
 Reflectable
-BindingObject
 Reflector
 }
 ;
@@ -1171,12 +1170,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-HTMLDocument
-{
 fn
 GetParentObject
 (

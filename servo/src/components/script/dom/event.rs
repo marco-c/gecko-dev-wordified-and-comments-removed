@@ -40,7 +40,7 @@ utils
 :
 {
 Reflectable
-BindingObject
+Reflector
 }
 ;
 use
@@ -57,7 +57,6 @@ utils
 DOMString
 ErrorResult
 Fallible
-Reflector
 }
 ;
 use
@@ -573,12 +572,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-Event
-{
 fn
 GetParentObject
 (
