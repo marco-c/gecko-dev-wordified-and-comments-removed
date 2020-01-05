@@ -90,6 +90,12 @@ UsePlaceholder
 }
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 std
 :
 :
@@ -138,7 +144,6 @@ sync
 {
 Arc
 Mutex
-RwLock
 }
 ;
 use
@@ -1074,10 +1079,6 @@ read
 (
 )
 .
-unwrap
-(
-)
-.
 get
 (
 &
@@ -1174,10 +1175,6 @@ self
 webrender_image_cache
 .
 write
-(
-)
-.
-unwrap
 (
 )
 ;

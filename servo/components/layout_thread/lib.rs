@@ -125,6 +125,10 @@ extern
 crate
 net_traits
 ;
+extern
+crate
+parking_lot
+;
 #
 [
 macro_use
@@ -541,6 +545,12 @@ image_cache_thread
 UsePlaceholder
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 profile_traits
 :
 :
@@ -744,7 +754,6 @@ sync
 Arc
 Mutex
 MutexGuard
-RwLock
 }
 ;
 use
@@ -8137,10 +8146,6 @@ running_animations
 read
 (
 )
-.
-unwrap
-(
-)
 ;
 profile
 (
@@ -8412,10 +8417,6 @@ running_animations
 write
 (
 )
-.
-unwrap
-(
-)
 &
 mut
 *
@@ -8424,10 +8425,6 @@ self
 expired_animations
 .
 write
-(
-)
-.
-unwrap
 (
 )
 &
