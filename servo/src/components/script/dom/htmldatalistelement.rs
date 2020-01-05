@@ -338,6 +338,11 @@ Node
 >
 bool
 {
+"
+option
+"
+=
+=
 elem
 .
 deref
@@ -345,12 +350,6 @@ deref
 )
 .
 local_name
-=
-=
-~
-"
-option
-"
 }
 }
 let

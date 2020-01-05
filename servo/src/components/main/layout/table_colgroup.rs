@@ -475,11 +475,14 @@ str
 let
 txt
 =
-~
 "
 TableColGroupFlow
 :
 "
+.
+to_owned
+(
+)
 ;
 txt
 .

@@ -1993,11 +1993,14 @@ str
 let
 txt
 =
-~
 "
 TableFlow
 :
 "
+.
+to_owned
+(
+)
 ;
 txt
 .

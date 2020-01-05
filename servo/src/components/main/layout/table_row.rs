@@ -1667,11 +1667,14 @@ str
 let
 txt
 =
-~
 "
 TableRowFlow
 :
 "
+.
+to_owned
+(
+)
 ;
 txt
 .

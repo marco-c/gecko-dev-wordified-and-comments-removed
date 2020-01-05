@@ -2313,7 +2313,6 @@ push
 (
 LoadUrlWindowEvent
 (
-~
 "
 http
 :
@@ -2324,6 +2323,10 @@ purple
 com
 /
 "
+.
+to_owned
+(
+)
 )
 )
 }

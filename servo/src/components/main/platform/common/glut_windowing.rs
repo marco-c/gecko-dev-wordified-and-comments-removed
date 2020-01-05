@@ -342,10 +342,13 @@ glut
 :
 create_window
 (
-~
 "
 Servo
 "
+.
+to_owned
+(
+)
 )
 ;
 /
@@ -1949,7 +1952,6 @@ push
 (
 LoadUrlWindowEvent
 (
-~
 "
 http
 :
@@ -1960,6 +1962,10 @@ purple
 com
 /
 "
+.
+to_owned
+(
+)
 )
 )
 }

@@ -1532,11 +1532,14 @@ str
 let
 txt
 =
-~
 "
 TableRowGroupFlow
 :
 "
+.
+to_owned
+(
+)
 ;
 txt
 .
