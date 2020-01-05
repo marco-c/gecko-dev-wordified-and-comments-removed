@@ -9,11 +9,11 @@ ubuntu
 .
 04
 MAINTAINER
-Tim
-Taubert
+Franziskus
+Kiefer
 <
-ttaubert
-mozilla
+franziskuskiefer
+gmail
 .
 com
 >
