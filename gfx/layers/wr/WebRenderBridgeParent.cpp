@@ -628,7 +628,6 @@ get_OpPopDLBuilder
 ;
 wr_pop_dl_builder
 (
-mWRWindowState
 mWRState
 op
 .
