@@ -284,13 +284,6 @@ query
 support
 :
 *
-test_bug1089417
-.
-html
-[
-1
-]
-*
 test_bug418986
 -
 2
