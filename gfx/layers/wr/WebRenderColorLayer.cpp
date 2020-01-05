@@ -15,13 +15,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 webrender
@@ -58,6 +51,13 @@ mozilla
 namespace
 layers
 {
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 void
 WebRenderColorLayer
 :
