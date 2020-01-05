@@ -68,16 +68,6 @@ TemporaryFile
         
 self
 .
-stderr_file
-=
-tempfile
-.
-TemporaryFile
-(
-)
-        
-self
-.
 timedout
 =
 None
@@ -106,9 +96,9 @@ stdout_file
                                      
 stderr
 =
-self
+subprocess
 .
-stderr_file
+STDOUT
 )
     
 property
@@ -171,78 +161,6 @@ content
 self
 .
 stdout_file
-.
-read
-(
-)
-.
-rstrip
-(
-)
-        
-return
-content
-    
-property
-    
-def
-stderr
-(
-self
-)
-:
-        
-"
-"
-"
-Return
-the
-contents
-of
-stderr
-.
-"
-"
-"
-        
-if
-not
-self
-.
-stderr_file
-or
-self
-.
-stderr_file
-.
-closed
-:
-            
-content
-=
-"
-"
-        
-else
-:
-            
-self
-.
-stderr_file
-.
-seek
-(
-0
-os
-.
-SEEK_SET
-)
-            
-content
-=
-self
-.
-stderr_file
 .
 read
 (
@@ -277,10 +195,6 @@ stdout
 :
 %
 s
-stderr
-:
-%
-s
 '
 %
 (
@@ -300,9 +214,6 @@ exitcode
 self
 .
 stdout
-self
-.
-stderr
 )
 )
 class
@@ -1254,15 +1165,14 @@ fashion
 that
 stdout
         
-and
-stderr
 of
 the
 adb
 process
-are
+is
+a
 file
-handles
+handle
 on
 the
 host
@@ -1316,8 +1226,9 @@ stderr
         
 directed
 to
+a
 temporary
-files
+file
 .
 If
 the
@@ -1350,10 +1261,8 @@ closing
         
 the
 stdout
-and
-stderr
 temporary
-files
+file
 .
         
 "
@@ -1565,18 +1474,6 @@ poll
 adb_process
 .
 stdout_file
-.
-seek
-(
-0
-os
-.
-SEEK_SET
-)
-        
-adb_process
-.
-stderr_file
 .
 seek
 (
@@ -1920,14 +1817,6 @@ file
 adb_process
 .
 stdout_file
-.
-close
-(
-)
-                
-adb_process
-.
-stderr_file
 .
 close
 (
@@ -2287,15 +2176,14 @@ fashion
 that
 stdout
         
-and
-stderr
 of
 the
 adb
 process
-are
+is
+a
 file
-handles
+handle
 on
 the
 host
@@ -2349,8 +2237,9 @@ stderr
         
 directed
 to
+a
 temporary
-files
+file
 .
 If
 the
@@ -2383,10 +2272,8 @@ closing
         
 the
 stdout
-and
-stderr
 temporary
-files
+file
 .
         
 "
@@ -5835,8 +5722,6 @@ fashion
 that
 stdout
         
-and
-stderr
 of
 the
 adb
@@ -5915,8 +5800,9 @@ and
 stderr
 directed
 to
+a
 temporary
-files
+file
 .
 If
 the
@@ -5950,10 +5836,8 @@ closing
         
 the
 stdout
-and
-stderr
 temporary
-files
+file
 .
         
 "
@@ -7079,41 +6963,28 @@ stdout
 contains
 the
 stdout
+and
+stderr
 of
 the
 host
 abd
 process
+        
 combined
 with
 the
-        
-combined
 stdout
-/
+and
 stderr
 of
 the
 shell
 command
+        
 on
 the
 device
-        
-while
-stderr
-is
-still
-the
-stderr
-of
-the
-adb
-process
-on
-the
-        
-host
 .
 The
 exit
@@ -7145,9 +7016,7 @@ code
         
 from
 the
-stdout
-/
-stderr
+output
 of
 the
 shell
@@ -7298,8 +7167,9 @@ and
 stderr
 directed
 to
+a
 temporary
-files
+file
 .
 If
 the
@@ -7350,8 +7220,6 @@ closing
         
 the
 stdout
-and
-stderr
 temporary
 files
 .
@@ -7761,18 +7629,6 @@ os
 SEEK_SET
 )
         
-adb_process
-.
-stderr_file
-.
-seek
-(
-0
-os
-.
-SEEK_SET
-)
-        
 return
 adb_process
     
@@ -8037,14 +7893,6 @@ adb_process
 adb_process
 .
 stdout_file
-.
-close
-(
-)
-                
-adb_process
-.
-stderr_file
 .
 close
 (
@@ -8427,14 +8275,6 @@ file
 adb_process
 .
 stdout_file
-.
-close
-(
-)
-                
-adb_process
-.
-stderr_file
 .
 close
 (
@@ -14025,14 +13865,6 @@ file
 adb_process
 .
 stdout_file
-.
-close
-(
-)
-                
-adb_process
-.
-stderr_file
 .
 close
 (
