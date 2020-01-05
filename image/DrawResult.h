@@ -6,6 +6,11 @@ define
 mozilla_image_DrawResult_h
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
