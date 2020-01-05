@@ -107,7 +107,7 @@ test
 ]
 extern
 crate
-tempdir
+difference
 ;
 #
 [
