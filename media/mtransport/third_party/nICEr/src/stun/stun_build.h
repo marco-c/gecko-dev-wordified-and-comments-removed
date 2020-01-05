@@ -31,6 +31,10 @@ mode
 /
 #
 endif
+#
+define
+NR_STUN_MODE_STUN_NO_AUTH
+3
 int
 nr_stun_form_request_or_indication
 (
