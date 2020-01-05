@@ -2230,6 +2230,12 @@ wr
 :
 GradientExtendMode
 aExtendMode
+const
+WrSize
+aTileSize
+const
+WrSize
+aTileSpacing
 )
 {
 wr_dp_push_linear_gradient
@@ -2250,6 +2256,8 @@ Length
 (
 )
 aExtendMode
+aTileSize
+aTileSpacing
 )
 ;
 }
@@ -2287,6 +2295,12 @@ wr
 :
 GradientExtendMode
 aExtendMode
+const
+WrSize
+aTileSize
+const
+WrSize
+aTileSpacing
 )
 {
 wr_dp_push_radial_gradient
@@ -2307,6 +2321,8 @@ Length
 (
 )
 aExtendMode
+aTileSize
+aTileSpacing
 )
 ;
 }
