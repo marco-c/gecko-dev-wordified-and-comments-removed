@@ -417,7 +417,6 @@ reflect_dom_object
 (
 box
 parser
-&
 global
 :
 :

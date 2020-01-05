@@ -139,7 +139,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -191,6 +190,7 @@ Blob
 :
 new
 (
+*
 global
 )
 )

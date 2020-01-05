@@ -182,7 +182,6 @@ new_inherited
 (
 url
 )
-&
 Worker
 (
 global

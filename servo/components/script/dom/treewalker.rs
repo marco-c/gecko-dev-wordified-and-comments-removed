@@ -325,7 +325,6 @@ root_node
 what_to_show
 filter
 )
-&
 Window
 (
 *

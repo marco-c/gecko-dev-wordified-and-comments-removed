@@ -262,7 +262,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -321,6 +320,7 @@ URLSearchParams
 :
 new
 (
+*
 global
 )
 .

@@ -611,7 +611,6 @@ Blob
 :
 new
 (
-&
 global
 .
 root_ref
@@ -1174,7 +1173,6 @@ Blob
 :
 new
 (
-&
 global
 .
 root_ref
@@ -1479,7 +1477,6 @@ Blob
 :
 new
 (
-&
 global
 .
 root_ref
@@ -1825,7 +1822,6 @@ Blob
 :
 new
 (
-&
 global
 .
 root_ref

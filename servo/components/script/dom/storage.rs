@@ -124,7 +124,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -

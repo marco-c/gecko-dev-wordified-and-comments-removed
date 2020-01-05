@@ -160,7 +160,6 @@ Navigator
 new_inherited
 (
 )
-&
 global
 :
 :

@@ -439,7 +439,6 @@ MouseEvent
 new_inherited
 (
 )
-&
 global
 :
 :

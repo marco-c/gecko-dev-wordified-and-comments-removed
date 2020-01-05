@@ -130,7 +130,6 @@ ValidityState
 new_inherited
 (
 )
-&
 global
 :
 :

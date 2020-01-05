@@ -321,7 +321,6 @@ new_inherited
 (
 collection
 )
-&
 global
 :
 :

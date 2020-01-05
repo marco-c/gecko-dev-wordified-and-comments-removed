@@ -262,7 +262,6 @@ new_uninitialized
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -325,6 +324,7 @@ CustomEvent
 :
 new_uninitialized
 (
+*
 global
 )
 .

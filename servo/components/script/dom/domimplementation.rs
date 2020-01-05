@@ -353,7 +353,6 @@ new_inherited
 (
 document
 )
-&
 Window
 (
 *

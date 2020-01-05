@@ -1071,6 +1071,7 @@ XMLHttpRequestUpload
 :
 new
 (
+*
 global
 )
 )
@@ -1329,6 +1330,7 @@ new_inherited
 (
 global
 )
+*
 global
 XMLHttpRequestBinding
 :
@@ -6208,7 +6210,6 @@ Event
 :
 new
 (
-&
 global
 .
 root_ref
@@ -7356,7 +7357,6 @@ ProgressEvent
 :
 new
 (
-&
 global
 .
 root_ref

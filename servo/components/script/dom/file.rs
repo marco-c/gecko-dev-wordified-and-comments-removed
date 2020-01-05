@@ -158,7 +158,6 @@ new
 (
 global
 :
-&
 GlobalRef
 file_bits
 :

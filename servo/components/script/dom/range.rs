@@ -194,7 +194,6 @@ Range
 new_inherited
 (
 )
-&
 Window
 (
 *

@@ -192,7 +192,6 @@ new_inherited
 (
 window
 )
-&
 global
 :
 :

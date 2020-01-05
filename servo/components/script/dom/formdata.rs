@@ -381,6 +381,7 @@ new_inherited
 form
 global
 )
+*
 global
 FormDataBinding
 :
@@ -1033,7 +1034,6 @@ File
 :
 new
 (
-&
 global
 .
 root_ref

@@ -689,7 +689,6 @@ namespace
 prefix
 owner
 )
-&
 global
 :
 :

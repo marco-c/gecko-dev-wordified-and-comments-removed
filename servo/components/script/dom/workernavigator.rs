@@ -163,7 +163,6 @@ WorkerNavigator
 new_inherited
 (
 )
-&
 Worker
 (
 global

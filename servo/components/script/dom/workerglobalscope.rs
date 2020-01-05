@@ -939,7 +939,6 @@ Console
 :
 new
 (
-&
 global
 :
 :

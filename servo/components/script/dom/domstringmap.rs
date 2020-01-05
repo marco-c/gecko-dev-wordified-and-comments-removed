@@ -169,7 +169,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -

@@ -197,7 +197,6 @@ new_inherited
 (
 page
 )
-&
 global
 :
 :

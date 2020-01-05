@@ -1369,7 +1369,6 @@ Console
 :
 new
 (
-&
 global
 :
 :

@@ -227,7 +227,6 @@ bottom
 left
 right
 )
-&
 global
 :
 :

@@ -115,7 +115,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -

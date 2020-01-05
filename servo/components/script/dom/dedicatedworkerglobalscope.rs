@@ -865,7 +865,6 @@ MessageEvent
 dispatch_jsval
 (
 target
-&
 global
 :
 :

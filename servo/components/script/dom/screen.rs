@@ -142,7 +142,6 @@ Screen
 new_inherited
 (
 )
-&
 global
 :
 :
