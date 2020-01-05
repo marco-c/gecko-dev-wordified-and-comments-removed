@@ -335,7 +335,6 @@ in
 01d
 .
 html
-fails
 =
 =
 image
@@ -364,7 +363,6 @@ out
 01a
 .
 html
-fails
 =
 =
 image
@@ -393,7 +391,6 @@ out
 01b
 .
 html
-fails
 =
 =
 image
@@ -422,7 +419,6 @@ out
 01c
 .
 html
-fails
 =
 =
 image
