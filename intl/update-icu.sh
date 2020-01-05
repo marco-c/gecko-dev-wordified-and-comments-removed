@@ -703,6 +703,10 @@ ulist_resetList
 .
 diff
 \
+unum_formatDoubleForFields
+.
+diff
+\
 ;
 do
 echo
