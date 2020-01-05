@@ -191,7 +191,7 @@ artifacts
 sh
 git
 clone
-git
+https
 :
 /
 /
