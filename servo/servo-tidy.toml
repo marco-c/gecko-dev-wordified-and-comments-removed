@@ -33,17 +33,6 @@ prefs
 .
 json
 "
-"
-.
-/
-resources
-/
-package
--
-prefs
-.
-json
-"
 ]
 lint
 -

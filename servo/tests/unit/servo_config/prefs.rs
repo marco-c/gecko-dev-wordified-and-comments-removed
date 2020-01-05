@@ -92,7 +92,7 @@ homepage
 :
 \
 "
-http
+https
 :
 /
 /
@@ -297,7 +297,7 @@ PrefValue
 String
 (
 "
-http
+https
 :
 /
 /
@@ -384,7 +384,7 @@ PrefValue
 String
 (
 "
-http
+https
 :
 /
 /
