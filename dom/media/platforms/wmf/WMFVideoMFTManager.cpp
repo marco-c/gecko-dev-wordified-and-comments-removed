@@ -4117,10 +4117,6 @@ ToMicroseconds
 (
 )
 duration
-.
-ToMicroseconds
-(
-)
 b
 false
 -
@@ -4211,10 +4207,6 @@ ToMicroseconds
 (
 )
 duration
-.
-ToMicroseconds
-(
-)
 image
 .
 forget
@@ -4399,10 +4391,6 @@ ToMicroseconds
 (
 )
 duration
-.
-ToMicroseconds
-(
-)
 image
 .
 forget

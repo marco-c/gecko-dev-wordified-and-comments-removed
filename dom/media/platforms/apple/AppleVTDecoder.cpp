@@ -2134,10 +2134,6 @@ ToMicroseconds
 aFrameRef
 .
 duration
-.
-ToMicroseconds
-(
-)
 buffer
 aFrameRef
 .
@@ -2241,10 +2237,6 @@ ToMicroseconds
 aFrameRef
 .
 duration
-.
-ToMicroseconds
-(
-)
 image
 .
 forget

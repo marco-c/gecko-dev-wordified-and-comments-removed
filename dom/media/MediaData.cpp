@@ -1481,7 +1481,9 @@ int64_t
 aOffset
 int64_t
 aTime
-int64_t
+const
+TimeUnit
+&
 aDuration
 const
 YCbCrBuffer
@@ -1515,6 +1517,10 @@ VideoData
 aOffset
 aTime
 aDuration
+.
+ToMicroseconds
+(
+)
 aKeyframe
 aTimecode
 aInfo
@@ -1558,6 +1564,10 @@ VideoData
 aOffset
 aTime
 aDuration
+.
+ToMicroseconds
+(
+)
 aKeyframe
 aTimecode
 aInfo
@@ -1860,7 +1870,9 @@ int64_t
 aOffset
 int64_t
 aTime
-int64_t
+const
+TimeUnit
+&
 aDuration
 const
 YCbCrBuffer
@@ -1901,6 +1913,10 @@ VideoData
 aOffset
 aTime
 aDuration
+.
+ToMicroseconds
+(
+)
 aKeyframe
 aTimecode
 aInfo
@@ -1944,6 +1960,10 @@ VideoData
 aOffset
 aTime
 aDuration
+.
+ToMicroseconds
+(
+)
 aKeyframe
 aTimecode
 aInfo
@@ -2132,7 +2152,9 @@ int64_t
 aOffset
 int64_t
 aTime
-int64_t
+const
+TimeUnit
+&
 aDuration
 const
 RefPtr
@@ -2159,6 +2181,10 @@ VideoData
 aOffset
 aTime
 aDuration
+.
+ToMicroseconds
+(
+)
 aKeyframe
 aTimecode
 aDisplay

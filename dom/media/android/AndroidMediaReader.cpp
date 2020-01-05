@@ -810,7 +810,13 @@ pos
 frame
 .
 mTimeUs
+TimeUnit
+:
+:
+FromMicroseconds
+(
 1
+)
 currentImage
 frame
 .
@@ -1246,7 +1252,13 @@ pos
 frame
 .
 mTimeUs
+TimeUnit
+:
+:
+FromMicroseconds
+(
 1
+)
 b
 frame
 .

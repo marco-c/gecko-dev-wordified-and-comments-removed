@@ -1045,10 +1045,6 @@ aSample
 -
 >
 mDuration
-.
-ToMicroseconds
-(
-)
 b
 aSample
 -

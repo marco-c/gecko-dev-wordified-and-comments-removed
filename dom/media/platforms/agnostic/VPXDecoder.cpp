@@ -1436,10 +1436,6 @@ aSample
 -
 >
 mDuration
-.
-ToMicroseconds
-(
-)
 b
 aSample
 -
@@ -1549,10 +1545,6 @@ aSample
 -
 >
 mDuration
-.
-ToMicroseconds
-(
-)
 b
 alpha_plane
 aSample
