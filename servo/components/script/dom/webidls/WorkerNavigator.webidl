@@ -125,8 +125,6 @@ WorkerNavigator
 implements
 NavigatorID
 ;
-/
-/
 WorkerNavigator
 implements
 NavigatorLanguage
