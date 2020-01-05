@@ -9685,11 +9685,6 @@ inline_end
 )
 ;
 }
-pieces_processed_count
-+
-=
-1
-;
 break
 }
 /
