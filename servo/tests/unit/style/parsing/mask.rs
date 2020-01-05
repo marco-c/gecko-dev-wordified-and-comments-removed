@@ -1422,7 +1422,7 @@ box
 test
 ]
 fn
-mask_shorthand_should_not_parse_when_mode_specified_but_image_not
+mask_shorthand_should_parse_mode_everywhere
 (
 )
 {
@@ -1487,6 +1487,8 @@ repeat
 -
 x
 padding
+-
+box
 "
 )
 ;
@@ -1505,7 +1507,7 @@ mut
 parser
 )
 .
-is_err
+is_ok
 (
 )
 )
@@ -1539,7 +1541,7 @@ mut
 parser
 )
 .
-is_err
+is_ok
 (
 )
 )
