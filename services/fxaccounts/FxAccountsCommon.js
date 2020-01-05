@@ -453,6 +453,16 @@ update
 ;
 exports
 .
+ON_DEVICE_CONNECTED_NOTIFICATION
+=
+"
+fxaccounts
+:
+device_connected
+"
+;
+exports
+.
 ON_DEVICE_DISCONNECTED_NOTIFICATION
 =
 "
