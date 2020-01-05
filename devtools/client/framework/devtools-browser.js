@@ -396,10 +396,11 @@ WINDOW
 ;
 isDocked
 ?
-toolbox
+gDevTools
 .
-destroy
+closeToolbox
 (
+target
 )
 :
 gDevTools
@@ -1025,10 +1026,11 @@ raise
 }
 else
 {
-toolbox
+gDevTools
 .
-destroy
+closeToolbox
 (
+target
 )
 ;
 }
