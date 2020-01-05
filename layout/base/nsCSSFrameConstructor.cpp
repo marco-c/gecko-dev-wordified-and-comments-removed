@@ -17192,14 +17192,13 @@ mCreatingExtraFrames
 |
 |
 (
-(
 primaryFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
+NS_FRAME_ANONYMOUSCONTENTCREATOR_CONTENT
+|
 NS_FRAME_GENERATED_CONTENT
 )
 &
