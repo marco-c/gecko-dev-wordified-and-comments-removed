@@ -7465,7 +7465,7 @@ installAddonFromAOM
 browser
 document
 .
-documentURI
+documentURIObject
 install
 )
 ;
@@ -22332,7 +22332,7 @@ installAddonFromAOM
 browser
 document
 .
-documentURI
+documentURIObject
 install
 )
 ;
