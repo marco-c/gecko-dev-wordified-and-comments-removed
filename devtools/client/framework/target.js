@@ -2321,7 +2321,7 @@ this
 .
 _tab
 .
-isReponsiveDesignMode
+isResponsiveDesignMode
 )
 {
 return
