@@ -113,7 +113,9 @@ script_traits
 {
 ConstellationControlMsg
 LayoutControlMsg
-OpaqueScriptLayoutChannel
+LayoutMsg
+as
+ConstellationMsg
 }
 ;
 use
@@ -121,9 +123,7 @@ script_traits
 :
 :
 {
-ScriptMsg
-as
-ConstellationMsg
+OpaqueScriptLayoutChannel
 UntrustedNodeAddress
 }
 ;

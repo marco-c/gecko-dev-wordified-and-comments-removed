@@ -293,7 +293,10 @@ use
 script_msg
 :
 :
+{
+LayoutMsg
 ScriptMsg
+}
 ;
 #
 [
@@ -874,6 +877,13 @@ constellation_chan
 ConstellationChan
 <
 ScriptMsg
+>
+pub
+layout_to_constellation_chan
+:
+ConstellationChan
+<
+LayoutMsg
 >
 pub
 scheduler_chan

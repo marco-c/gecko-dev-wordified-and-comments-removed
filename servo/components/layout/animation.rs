@@ -51,7 +51,7 @@ use
 script_traits
 :
 :
-ScriptMsg
+LayoutMsg
 as
 ConstellationMsg
 ;
