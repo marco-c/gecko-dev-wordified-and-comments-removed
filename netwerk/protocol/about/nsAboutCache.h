@@ -616,6 +616,7 @@ nsAboutCache
 {
 }
 static
+MOZ_MUST_USE
 nsresult
 Create
 (
@@ -631,6 +632,7 @@ aResult
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 GetStorage
 (
@@ -727,6 +729,7 @@ Channel
 }
 public
 :
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -738,6 +741,7 @@ nsILoadInfo
 aLoadInfo
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseURI
 (
@@ -749,6 +753,7 @@ nsACString
 storage
 )
 ;
+MOZ_MUST_USE
 nsresult
 VisitNextStorage
 (
@@ -759,6 +764,7 @@ FireVisitStorage
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 VisitStorage
 (
@@ -768,6 +774,7 @@ const
 storageName
 )
 ;
+MOZ_MUST_USE
 nsresult
 FlushBuffer
 (

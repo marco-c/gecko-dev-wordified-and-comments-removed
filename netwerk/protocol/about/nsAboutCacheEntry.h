@@ -138,6 +138,7 @@ Channel
 }
 public
 :
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -149,6 +150,7 @@ nsILoadInfo
 aLoadInfo
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetContentStream
 (
@@ -159,6 +161,7 @@ nsIInputStream
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 OpenCacheEntry
 (
@@ -166,11 +169,13 @@ nsIURI
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 OpenCacheEntry
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 WriteCacheEntryDescription
 (
@@ -178,11 +183,13 @@ nsICacheEntry
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 WriteCacheEntryUnavailable
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseURI
 (
@@ -211,6 +218,7 @@ CloseContent
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 PrintCacheData
 (
