@@ -2645,9 +2645,3 @@ hardwareConcurrency
 ;
 }
 ;
-partial
-interface
-Navigator
-{
-}
-;
