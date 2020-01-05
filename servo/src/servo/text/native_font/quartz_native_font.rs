@@ -5,7 +5,7 @@ glyph
 GlyphIndex
 ;
 class
-NativeFont
+QuartzNativeFont
 /
 &
 {
