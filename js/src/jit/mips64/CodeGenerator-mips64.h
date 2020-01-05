@@ -365,6 +365,14 @@ lir
 )
 ;
 void
+visitInt64ToFloatingPoint
+(
+LInt64ToFloatingPoint
+*
+lir
+)
+;
+void
 visitOutOfLineBailout
 (
 OutOfLineBailout
