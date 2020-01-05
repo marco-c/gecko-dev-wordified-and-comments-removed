@@ -619,19 +619,13 @@ self
 .
 buffering
 =
-buffering
+False
         
 self
 .
 restore_buffering
 =
-False
-        
-self
-.
-tests_started
-=
-False
+buffering
         
 self
 .
@@ -1083,31 +1077,6 @@ errors
 "
         
 if
-not
-self
-.
-tests_started
-and
-message
-[
-'
-action
-'
-]
-=
-=
-'
-test_start
-'
-:
-            
-self
-.
-tests_started
-=
-True
-        
-if
 message
 [
 '
@@ -1345,11 +1314,6 @@ buffering
                   
 unstructured
                   
-not
-self
-.
-tests_started
-                  
 message
 [
 '
@@ -1406,6 +1370,38 @@ buffered_messages
 =
 [
 ]
+            
+self
+.
+restore_buffering
+=
+self
+.
+restore_buffering
+or
+self
+.
+buffering
+            
+self
+.
+buffering
+=
+False
+        
+if
+message
+[
+'
+action
+'
+]
+=
+=
+'
+test_start
+'
+:
             
 if
 self
