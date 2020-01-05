@@ -473,7 +473,6 @@ TreatNullAs
 =
 EmptyString
 ]
-readonly
 attribute
 DOMString
 innerHTML
