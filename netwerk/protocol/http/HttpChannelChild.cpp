@@ -3676,6 +3676,12 @@ timing
 .
 responseEnd
 ;
+mAsyncOpenTime
+=
+timing
+.
+fetchStart
+;
 mRedirectStartTimeStamp
 =
 timing
