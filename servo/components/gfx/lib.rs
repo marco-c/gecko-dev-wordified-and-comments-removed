@@ -160,6 +160,10 @@ euclid
 ;
 extern
 crate
+ipc_channel
+;
+extern
+crate
 layers
 ;
 extern
