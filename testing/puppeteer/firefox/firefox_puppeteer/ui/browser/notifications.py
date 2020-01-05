@@ -9,7 +9,9 @@ By
 from
 firefox_puppeteer
 .
-ui_base_lib
+ui
+.
+base
 import
 UIBaseLib
 class
