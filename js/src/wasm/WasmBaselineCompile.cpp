@@ -9064,6 +9064,12 @@ endFunction
 {
 masm
 .
+breakpoint
+(
+)
+;
+masm
+.
 bind
 (
 &
