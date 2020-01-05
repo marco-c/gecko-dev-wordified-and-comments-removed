@@ -364,7 +364,7 @@ LayerBufferSet
 )
 ;
 fn
-rerendermsg_discarded
+render_msg_discarded
 (
 &
 self

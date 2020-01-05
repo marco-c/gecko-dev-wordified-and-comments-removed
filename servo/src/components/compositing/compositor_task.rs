@@ -658,7 +658,7 @@ rect
 }
 }
 fn
-rerendermsg_discarded
+render_msg_discarded
 (
 &
 self
@@ -670,7 +670,7 @@ chan
 .
 send
 (
-ReRenderMsgDiscarded
+RenderMsgDiscarded
 )
 ;
 }
@@ -908,7 +908,7 @@ ChangeRenderState
 (
 RenderState
 )
-ReRenderMsgDiscarded
+RenderMsgDiscarded
 SetIds
 (
 SendableFrameTree

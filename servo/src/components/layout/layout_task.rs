@@ -199,7 +199,7 @@ render_task
 :
 :
 {
-RenderMsg
+RenderInitMsg
 RenderChan
 RenderLayer
 }
@@ -4529,7 +4529,7 @@ render_chan
 .
 send
 (
-RenderMsg
+RenderInitMsg
 (
 layers
 )

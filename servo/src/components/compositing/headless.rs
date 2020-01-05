@@ -37,7 +37,7 @@ compositor_task
 {
 ShutdownComplete
 ChangeRenderState
-ReRenderMsgDiscarded
+RenderMsgDiscarded
 }
 ;
 use
@@ -432,7 +432,7 @@ LoadComplete
 .
 )
 |
-ReRenderMsgDiscarded
+RenderMsgDiscarded
 (
 .
 .
