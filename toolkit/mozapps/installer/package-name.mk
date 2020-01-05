@@ -391,6 +391,18 @@ partial
 *
 .
 mar
+ifdef
+MOZ_SIMPLE_PACKAGE_NAME
+PKG_LANGPACK_BASENAME
+=
+(
+MOZ_SIMPLE_PACKAGE_NAME
+)
+.
+langpack
+PKG_LANGPACK_PATH
+=
+else
 PKG_LANGPACK_BASENAME
 =
 (
@@ -414,6 +426,7 @@ MOZ_PKG_PLATFORM
 /
 xpi
 /
+endif
 LANGPACK
 =
 (
