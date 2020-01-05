@@ -183,6 +183,16 @@ get
 )
 ;
 }
+void
+ClearContextPaint
+(
+)
+{
+mContextPaint
+=
+nullptr
+;
+}
 bool
 operator
 =
