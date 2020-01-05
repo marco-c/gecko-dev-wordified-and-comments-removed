@@ -2057,7 +2057,7 @@ CreateScaledFont
 (
 uint32_t
 aIndex
-uint32_t
+Float
 aGlyphSize
 )
 =
