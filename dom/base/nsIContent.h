@@ -2075,6 +2075,14 @@ element
 enum
 ETabFocusType
 {
+eTabFocus_textControlsMask
+=
+(
+1
+<
+<
+0
+)
 eTabFocus_formElementsMask
 =
 (
