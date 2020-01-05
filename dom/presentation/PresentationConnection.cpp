@@ -2769,15 +2769,7 @@ EmptyString
 (
 )
 nullptr
-Sequence
-<
-OwningNonNull
-<
-MessagePort
->
->
-(
-)
+nullptr
 )
 ;
 messageEvent

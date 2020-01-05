@@ -1894,15 +1894,7 @@ EmptyString
 (
 )
 nullptr
-Sequence
-<
-OwningNonNull
-<
-MessagePort
->
->
-(
-)
+nullptr
 )
 ;
 event
