@@ -6124,7 +6124,7 @@ AudibleState
 eNotAudible
 )
 {
-MaybeNotifyMediaBlocked
+MaybeNotifyMediaBlockStart
 (
 aAgent
 )
@@ -6474,7 +6474,7 @@ AudioChannelService
 AudioChannelWindow
 :
 :
-MaybeNotifyMediaBlocked
+MaybeNotifyMediaBlockStart
 (
 AudioChannelAgent
 *
