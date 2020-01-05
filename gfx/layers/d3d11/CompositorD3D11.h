@@ -139,6 +139,15 @@ blendConfig
 4
 ]
 ;
+float
+yuvColorMatrix
+[
+3
+]
+[
+4
+]
+;
 }
 ;
 struct
