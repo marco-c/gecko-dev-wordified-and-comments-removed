@@ -791,12 +791,18 @@ port
                                              
 capabilities
 =
+{
+"
+alwaysMatch
+"
+:
 configuration
 [
 "
 capabilities
 "
 ]
+}
 )
     
 try
