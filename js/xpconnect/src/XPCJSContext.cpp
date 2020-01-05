@@ -5425,9 +5425,8 @@ return
 true
 ;
 }
-MOZ_ASSERT
+if
 (
-!
 win
 -
 >
@@ -5435,7 +5434,11 @@ IsDying
 (
 )
 )
+{
+return
+false
 ;
+}
 if
 (
 win
