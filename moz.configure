@@ -730,7 +730,7 @@ PKG_CONFIG
 '
 pkg_config
 )
-include_when
+include
 (
 '
 build
@@ -755,7 +755,7 @@ compile
 environment
 '
 )
-include_when
+include
 (
 '
 build
@@ -780,7 +780,7 @@ compile
 environment
 '
 )
-include_when
+include
 (
 '
 build
@@ -805,7 +805,7 @@ compile
 environment
 '
 )
-include_when
+include
 (
 '
 build

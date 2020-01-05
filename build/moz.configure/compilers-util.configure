@@ -405,6 +405,9 @@ flags
 +
 =
 extra_flags
+or
+[
+]
 flags
 .
 append
