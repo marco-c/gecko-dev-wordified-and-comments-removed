@@ -188,7 +188,7 @@ none
 "
 =
 >
-NoCursor
+None
 =
 0
 "
@@ -196,7 +196,7 @@ default
 "
 =
 >
-DefaultCursor
+Default
 =
 1
 "
@@ -204,7 +204,7 @@ pointer
 "
 =
 >
-PointerCursor
+Pointer
 =
 2
 "
@@ -214,7 +214,7 @@ menu
 "
 =
 >
-ContextMenuCursor
+ContextMenu
 =
 3
 "
@@ -222,7 +222,7 @@ help
 "
 =
 >
-HelpCursor
+Help
 =
 4
 "
@@ -230,7 +230,7 @@ progress
 "
 =
 >
-ProgressCursor
+Progress
 =
 5
 "
@@ -238,7 +238,7 @@ wait
 "
 =
 >
-WaitCursor
+Wait
 =
 6
 "
@@ -246,7 +246,7 @@ cell
 "
 =
 >
-CellCursor
+Cell
 =
 7
 "
@@ -254,7 +254,7 @@ crosshair
 "
 =
 >
-CrosshairCursor
+Crosshair
 =
 8
 "
@@ -262,7 +262,7 @@ text
 "
 =
 >
-TextCursor
+Text
 =
 9
 "
@@ -272,7 +272,7 @@ text
 "
 =
 >
-VerticalTextCursor
+VerticalText
 =
 10
 "
@@ -280,7 +280,7 @@ alias
 "
 =
 >
-AliasCursor
+Alias
 =
 11
 "
@@ -288,7 +288,7 @@ copy
 "
 =
 >
-CopyCursor
+Copy
 =
 12
 "
@@ -296,7 +296,7 @@ move
 "
 =
 >
-MoveCursor
+Move
 =
 13
 "
@@ -306,7 +306,7 @@ drop
 "
 =
 >
-NoDropCursor
+NoDrop
 =
 14
 "
@@ -316,7 +316,7 @@ allowed
 "
 =
 >
-NotAllowedCursor
+NotAllowed
 =
 15
 "
@@ -324,7 +324,7 @@ grab
 "
 =
 >
-GrabCursor
+Grab
 =
 16
 "
@@ -332,7 +332,7 @@ grabbing
 "
 =
 >
-GrabbingCursor
+Grabbing
 =
 17
 "
@@ -342,7 +342,7 @@ resize
 "
 =
 >
-EResizeCursor
+EResize
 =
 18
 "
@@ -352,7 +352,7 @@ resize
 "
 =
 >
-NResizeCursor
+NResize
 =
 19
 "
@@ -362,7 +362,7 @@ resize
 "
 =
 >
-NeResizeCursor
+NeResize
 =
 20
 "
@@ -372,7 +372,7 @@ resize
 "
 =
 >
-NwResizeCursor
+NwResize
 =
 21
 "
@@ -382,7 +382,7 @@ resize
 "
 =
 >
-SResizeCursor
+SResize
 =
 22
 "
@@ -392,7 +392,7 @@ resize
 "
 =
 >
-SeResizeCursor
+SeResize
 =
 23
 "
@@ -402,7 +402,7 @@ resize
 "
 =
 >
-SwResizeCursor
+SwResize
 =
 24
 "
@@ -412,7 +412,7 @@ resize
 "
 =
 >
-WResizeCursor
+WResize
 =
 25
 "
@@ -422,7 +422,7 @@ resize
 "
 =
 >
-EwResizeCursor
+EwResize
 =
 26
 "
@@ -432,7 +432,7 @@ resize
 "
 =
 >
-NsResizeCursor
+NsResize
 =
 27
 "
@@ -442,7 +442,7 @@ resize
 "
 =
 >
-NeswResizeCursor
+NeswResize
 =
 28
 "
@@ -452,7 +452,7 @@ resize
 "
 =
 >
-NwseResizeCursor
+NwseResize
 =
 29
 "
@@ -462,7 +462,7 @@ resize
 "
 =
 >
-ColResizeCursor
+ColResize
 =
 30
 "
@@ -472,7 +472,7 @@ resize
 "
 =
 >
-RowResizeCursor
+RowResize
 =
 31
 "
@@ -482,7 +482,7 @@ scroll
 "
 =
 >
-AllScrollCursor
+AllScroll
 =
 32
 "
@@ -492,7 +492,7 @@ in
 "
 =
 >
-ZoomInCursor
+ZoomIn
 =
 33
 "
@@ -502,7 +502,7 @@ out
 "
 =
 >
-ZoomOutCursor
+ZoomOut
 =
 34
 }
