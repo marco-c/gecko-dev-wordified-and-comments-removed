@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsProxyRelease
-.
-h
-"
-#
-include
-"
 WorkerPrivate
 .
 h
