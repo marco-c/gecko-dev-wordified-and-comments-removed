@@ -260,6 +260,8 @@ if
 onContent
 )
 {
+window
+.
 messageManager
 .
 addMessageListener
@@ -625,6 +627,8 @@ if
 onContent
 )
 {
+window
+.
 messageManager
 .
 removeMessageListener

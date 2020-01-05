@@ -15,6 +15,8 @@ plain
 bug562649
 "
 ;
+window
+.
 browserDOMWindow
 .
 openURI

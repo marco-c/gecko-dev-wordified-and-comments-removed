@@ -335,6 +335,8 @@ toString
 let
 mm
 =
+window
+.
 getGroupMessageManager
 (
 "
@@ -1267,6 +1269,8 @@ window
 let
 mm
 =
+window
+.
 getGroupMessageManager
 (
 "
@@ -2034,6 +2038,8 @@ tag
 let
 mm
 =
+window
+.
 getGroupMessageManager
 (
 "
@@ -2444,6 +2450,8 @@ then
 let
 mm
 =
+window
+.
 getGroupMessageManager
 (
 "

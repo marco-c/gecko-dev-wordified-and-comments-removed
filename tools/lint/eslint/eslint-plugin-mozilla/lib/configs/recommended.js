@@ -1140,6 +1140,11 @@ ImageDocument
 :
 false
 "
+InstallTrigger
+"
+:
+false
+"
 InternalError
 "
 :

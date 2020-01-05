@@ -17,6 +17,8 @@ gBrowser
 selectedBrowser
 )
 ;
+window
+.
 browserDOMWindow
 .
 openURI

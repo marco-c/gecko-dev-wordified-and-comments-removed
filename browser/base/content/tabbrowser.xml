@@ -12939,7 +12939,7 @@ remoteType
 {
 throw
 new
-Exception
+Error
 (
 "
 Cannot
@@ -37043,6 +37043,8 @@ CDATA
 var
 tab
 =
+this
+.
 getTabFromAudioEvent
 (
 event
@@ -37216,6 +37218,8 @@ CDATA
 var
 tab
 =
+this
+.
 getTabFromAudioEvent
 (
 event
@@ -37386,6 +37390,8 @@ CDATA
 var
 tab
 =
+this
+.
 getTabFromAudioEvent
 (
 event
@@ -37464,6 +37470,8 @@ CDATA
 var
 tab
 =
+this
+.
 getTabFromAudioEvent
 (
 event

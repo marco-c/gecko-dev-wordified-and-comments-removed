@@ -9173,6 +9173,8 @@ UpdatePopupNotificationsVisibility
 }
 if
 (
+this
+.
 ExtensionSearchHandler
 .
 hasActiveInputSession
@@ -9180,6 +9182,8 @@ hasActiveInputSession
 )
 )
 {
+this
+.
 ExtensionSearchHandler
 .
 handleInputCancelled

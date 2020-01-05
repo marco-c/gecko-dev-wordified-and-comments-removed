@@ -20,6 +20,8 @@ focus
 (
 )
 ;
+window
+.
 browserDOMWindow
 .
 openURI
