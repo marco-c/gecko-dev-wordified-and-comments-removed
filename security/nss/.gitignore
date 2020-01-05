@@ -57,3 +57,6 @@ libFuzzer
 fuzz
 /
 corpus
+fuzz
+/
+out

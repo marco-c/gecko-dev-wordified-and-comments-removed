@@ -346,7 +346,7 @@ NSS_SSL_ENABLE_ZLIB
 ]
 [
 '
-fuzz
+fuzz_tls
 =
 =
 1
