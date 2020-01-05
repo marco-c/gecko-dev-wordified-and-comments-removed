@@ -92,9 +92,6 @@ default
 =
 [
 "
-glutin_app
-"
-"
 webdriver
 "
 "
@@ -650,9 +647,6 @@ ports
 /
 glutin
 "
-optional
-=
-true
 }
 ipc
 -
