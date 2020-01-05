@@ -226,7 +226,9 @@ is
 (
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 selected

@@ -757,7 +757,9 @@ splitconsole
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 checked

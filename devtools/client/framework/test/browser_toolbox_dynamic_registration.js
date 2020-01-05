@@ -620,6 +620,14 @@ toolbox
 destroy
 (
 )
+.
+then
+(
+(
+)
+=
+>
+{
 ;
 toolbox
 =
@@ -635,4 +643,6 @@ finish
 (
 )
 ;
+}
+)
 }

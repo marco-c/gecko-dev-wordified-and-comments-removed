@@ -173,6 +173,13 @@ function
 (
 )
 {
+setTimeout
+(
+(
+)
+=
+>
+{
 gBrowser
 .
 removeCurrentTab
@@ -190,6 +197,10 @@ finish
 )
 ;
 }
+)
+;
+}
+1000
 )
 ;
 }

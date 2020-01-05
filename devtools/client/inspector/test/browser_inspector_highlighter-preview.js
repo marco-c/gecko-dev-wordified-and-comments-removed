@@ -386,7 +386,9 @@ is
 (
 pickerButton
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 checked

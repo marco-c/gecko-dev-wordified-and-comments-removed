@@ -123,6 +123,14 @@ head
 js
 '
 ]
+DIRS
++
+=
+[
+'
+components
+'
+]
 DevToolsModules
 (
 '

@@ -292,7 +292,9 @@ true
 ;
 toolbox
 .
-pickerButtonChecked
+pickerButton
+.
+isChecked
 =
 true
 ;
@@ -476,7 +478,9 @@ false
 ;
 toolbox
 .
-pickerButtonChecked
+pickerButton
+.
+isChecked
 =
 false
 ;
