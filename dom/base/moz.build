@@ -558,11 +558,6 @@ nsIStyleSheetLinkingElement
 h
 '
 '
-nsITimeoutHandler
-.
-h
-'
-'
 nsJSEnvironment
 .
 h

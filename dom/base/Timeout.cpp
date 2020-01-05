@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsITimeoutHandler
+nsIScriptTimeoutHandler
 .
 h
 "
