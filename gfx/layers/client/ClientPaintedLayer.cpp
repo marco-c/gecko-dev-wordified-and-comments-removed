@@ -359,6 +359,14 @@ SetTransactionIncomplete
 (
 )
 ;
+mContentClient
+-
+>
+EndPaint
+(
+nullptr
+)
+;
 return
 ;
 }

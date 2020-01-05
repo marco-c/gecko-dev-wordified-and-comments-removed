@@ -1296,6 +1296,9 @@ IsLocked
 if
 (
 aReadbackUpdates
+&
+&
+aReadbackUpdates
 -
 >
 Length
