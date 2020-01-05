@@ -405,6 +405,9 @@ StopDrag
 bool
 StartAPZDrag
 (
+WidgetGUIEvent
+*
+aEvent
 )
 ;
 static
