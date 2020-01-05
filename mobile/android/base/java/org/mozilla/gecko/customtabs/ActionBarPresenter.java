@@ -870,6 +870,12 @@ setDisplayHomeAsUpEnabled
 true
 )
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 final
 Drawable
 icon
@@ -877,6 +883,10 @@ icon
 mActionBar
 .
 getThemedContext
+(
+)
+.
+getResources
 (
 )
 .
