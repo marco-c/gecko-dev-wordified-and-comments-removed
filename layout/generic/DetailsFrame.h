@@ -94,7 +94,7 @@ endif
 #
 ifdef
 DEBUG
-void
+bool
 CheckValidMainSummary
 (
 const
