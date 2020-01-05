@@ -10124,14 +10124,6 @@ SetOriginalURI
 wcwgURI
 )
 ;
-loadInfo
--
->
-SetResultPrincipalURI
-(
-wcwgURI
-)
-;
 rv
 =
 loadGroup

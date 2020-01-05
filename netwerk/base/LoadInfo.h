@@ -352,12 +352,6 @@ nsIPrincipal
 >
 mSandboxedLoadingPrincipal
 ;
-nsCOMPtr
-<
-nsIURI
->
-mResultPrincipalURI
-;
 nsWeakPtr
 mLoadingContext
 ;
