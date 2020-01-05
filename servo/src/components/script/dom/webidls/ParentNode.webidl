@@ -214,6 +214,8 @@ relativeSelectors
 [
 NewObject
 ]
+/
+/
 Elements
 queryAll
 (
@@ -236,6 +238,9 @@ selectors
 /
 [
 NewObject
+]
+[
+Throws
 ]
 NodeList
 querySelectorAll
