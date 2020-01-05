@@ -4219,7 +4219,7 @@ EncodingVersion
 return
 d
 .
-fail
+failf
 (
 "
 binary
