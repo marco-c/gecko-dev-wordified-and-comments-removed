@@ -16022,11 +16022,6 @@ msg
 data
 .
 securityInfoAsString
-msg
-.
-data
-.
-originAttributesAsString
 )
 ;
 break
@@ -16439,7 +16434,6 @@ elementId
 isTopFrame
 location
 securityInfoAsString
-originAttributesAsString
 )
 {
 let
@@ -16687,12 +16681,6 @@ getDetailedCertErrorInfo
 (
 location
 securityInfo
-JSON
-.
-parse
-(
-originAttributesAsString
-)
 )
 ;
 browser
@@ -16762,12 +16750,6 @@ getDetailedCertErrorInfo
 (
 location
 securityInfo
-JSON
-.
-parse
-(
-originAttributesAsString
-)
 )
 ;
 gClipboardHelper
@@ -18013,7 +17995,6 @@ getDetailedCertErrorInfo
 (
 location
 securityInfo
-originAttributes
 )
 {
 if
@@ -18151,7 +18132,6 @@ sss
 HEADER_HSTS
 uri
 flags
-originAttributes
 )
 ;
 let
@@ -18166,7 +18146,6 @@ sss
 HEADER_HPKP
 uri
 flags
-originAttributes
 )
 ;
 certErrorDetails
