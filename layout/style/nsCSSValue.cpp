@@ -4986,7 +4986,7 @@ GetArrayValue
 ;
 MOZ_ASSERT
 (
-array
+calcPlusArray
 -
 >
 Count
