@@ -933,7 +933,7 @@ test_computed_style
 html
 url
 [
-12
+11
 ]
 *
 test_parse_url
@@ -986,7 +986,7 @@ value
 bug
 1331516
 [
-11
+0
 ]
 *
 auto
