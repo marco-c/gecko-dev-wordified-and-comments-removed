@@ -22,12 +22,16 @@ quattro
 (
 )
 ;
-const
+let
 tres
 =
 {
+}
+;
+tres
+.
 quattro
-:
+=
 (
 )
 =
@@ -35,8 +39,6 @@ quattro
 saveStack
 (
 )
-}
-;
 const
 frame
 =

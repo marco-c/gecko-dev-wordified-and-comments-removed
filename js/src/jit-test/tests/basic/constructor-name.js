@@ -95,8 +95,6 @@ Ctor
 name
 :
 "
-makeInstance
-/
 LexicalCtor
 "
 object
