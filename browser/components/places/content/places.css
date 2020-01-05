@@ -62,6 +62,16 @@ bidi
 plaintext
 ;
 }
+#
+bhtTitleText
+{
+unicode
+-
+bidi
+:
+plaintext
+;
+}
 .
 toolbar
 -
