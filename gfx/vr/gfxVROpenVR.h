@@ -287,6 +287,8 @@ uint32_t
 aNumButtons
 uint32_t
 aNumAxes
+:
+:
 vr
 :
 :
@@ -321,6 +323,8 @@ GetTrigger
 void
 VibrateHaptic
 (
+:
+:
 vr
 :
 :
@@ -355,6 +359,8 @@ private
 void
 UpdateVibrateHaptic
 (
+:
+:
 vr
 :
 :
@@ -586,6 +592,21 @@ VRControllerHost
 aController
 )
 ;
+dom
+:
+:
+GamepadHand
+GetGamepadHandFromControllerRole
+(
+:
+:
+vr
+:
+:
+ETrackedControllerRole
+aRole
+)
+;
 RefPtr
 <
 impl
@@ -607,6 +628,8 @@ VRControllerOpenVR
 >
 mOpenVRController
 ;
+:
+:
 vr
 :
 :
