@@ -1093,7 +1093,7 @@ nullptr
 }
 PropertyName
 *
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 reservedWordToPropertyName
@@ -1390,7 +1390,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 bool
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 SourceCoords
@@ -1399,7 +1399,7 @@ SourceCoords
 fill
 (
 const
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 SourceCoords
@@ -1525,7 +1525,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 uint32_t
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 SourceCoords
@@ -1724,7 +1724,7 @@ iMin
 ;
 }
 uint32_t
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 SourceCoords
@@ -1753,7 +1753,7 @@ lineIndex
 ;
 }
 uint32_t
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 SourceCoords
@@ -1797,7 +1797,7 @@ lineStartOffset
 ;
 }
 void
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 SourceCoords
@@ -1875,10 +1875,10 @@ disable
 )
 #
 endif
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
-TokenStreamBase
+TokenStreamAnyChars
 (
 JSContext
 *
@@ -1990,7 +1990,7 @@ StrictModeGetter
 smg
 )
 :
-TokenStreamBase
+TokenStreamAnyChars
 (
 cx
 options
@@ -2075,7 +2075,7 @@ pop
 #
 endif
 bool
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 checkOptions
@@ -2186,7 +2186,7 @@ linebase
 }
 MOZ_ALWAYS_INLINE
 void
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 updateFlagsForEOL
@@ -3196,7 +3196,7 @@ args
 ;
 }
 bool
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 compileWarning
@@ -3272,7 +3272,7 @@ args
 ;
 }
 void
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 computeErrorMetadataNoOffset
@@ -3323,7 +3323,7 @@ nullptr
 ;
 }
 bool
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 fillExcludingContext
@@ -3806,7 +3806,7 @@ args
 ;
 }
 void
-TokenStreamBase
+TokenStreamAnyChars
 :
 :
 reportErrorNoOffset

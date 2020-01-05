@@ -1726,7 +1726,7 @@ getFunctionNameOffset
 (
 Node
 func
-TokenStreamBase
+TokenStreamAnyChars
 &
 ts
 )

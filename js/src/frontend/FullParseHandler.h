@@ -4734,7 +4734,7 @@ getFunctionNameOffset
 ParseNode
 *
 func
-TokenStreamBase
+TokenStreamAnyChars
 &
 ts
 )

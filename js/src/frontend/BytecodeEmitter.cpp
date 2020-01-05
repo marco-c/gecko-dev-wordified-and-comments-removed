@@ -11822,7 +11822,7 @@ uint32_t
 offset
 )
 {
-TokenStreamBase
+TokenStreamAnyChars
 *
 ts
 =
@@ -16321,7 +16321,7 @@ script
 ;
 }
 inline
-TokenStreamBase
+TokenStreamAnyChars
 &
 BytecodeEmitter
 :

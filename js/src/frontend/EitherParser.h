@@ -145,7 +145,7 @@ template
 class
 Parser
 >
-TokenStreamBase
+TokenStreamAnyChars
 &
 match
 (
@@ -165,7 +165,7 @@ tokenStream
 ;
 public
 :
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream
 (
@@ -183,7 +183,7 @@ TokenStreamMatcher
 ;
 }
 const
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream
 (

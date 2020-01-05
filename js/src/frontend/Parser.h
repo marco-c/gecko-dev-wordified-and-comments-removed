@@ -1000,7 +1000,7 @@ SharedContext
 *
 sc_
 ;
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream_
 ;
