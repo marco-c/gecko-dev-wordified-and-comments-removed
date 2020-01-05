@@ -88,9 +88,7 @@ gleam
 "
 0
 .
-2
-.
-8
+4
 "
 log
 =
@@ -159,7 +157,7 @@ glutin
 "
 0
 .
-9
+10
 "
 servo_geometry
 =

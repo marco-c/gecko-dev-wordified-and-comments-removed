@@ -969,6 +969,11 @@ Renderer
 :
 new
 (
+window
+.
+gl
+(
+)
 webrender
 :
 :

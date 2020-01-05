@@ -16003,6 +16003,9 @@ base
 writing_mode
 )
 ;
+let
+overflow
+=
 self
 .
 fragment
@@ -16020,6 +16023,8 @@ early_absolute_position_info
 .
 relative_containing_block_size
 )
+;
+overflow
 }
 fn
 iterate_through_fragment_border_boxes
