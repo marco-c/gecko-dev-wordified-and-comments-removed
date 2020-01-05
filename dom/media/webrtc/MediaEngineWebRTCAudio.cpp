@@ -1402,6 +1402,12 @@ NS_ERROR_FAILURE
 ;
 }
 }
+else
+{
+return
+NS_ERROR_FAILURE
+;
+}
 if
 (
 !
