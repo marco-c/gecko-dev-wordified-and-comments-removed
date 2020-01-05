@@ -3065,8 +3065,15 @@ IntPoint
 Matrix4x4
 (
 )
-30
-650
+24
+600
+TextRenderer
+:
+:
+FontType
+:
+:
+FixedWidth
 )
 ;
 if

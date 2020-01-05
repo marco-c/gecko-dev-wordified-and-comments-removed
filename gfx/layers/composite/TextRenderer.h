@@ -73,6 +73,7 @@ class
 FontType
 {
 Default
+FixedWidth
 NumTypes
 }
 ;
