@@ -1521,6 +1521,9 @@ JSRuntime
 rt
 )
 {
+AutoNoteSingleThreadedRegion
+anstr
+;
 MOZ_RELEASE_ASSERT
 (
 !
