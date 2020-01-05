@@ -8272,7 +8272,13 @@ onLogAllocationSite
 cx
 obj
 frame
-JS_GetCurrentEmbedderTime
+mozilla
+:
+:
+TimeStamp
+:
+:
+Now
 (
 )
 )
