@@ -1315,6 +1315,12 @@ space
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
@@ -1344,12 +1350,6 @@ for
 ignored
 space
 kerns
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
