@@ -3,10 +3,9 @@ use
 strict
 "
 ;
-SimpleTest
-.
-requestCompleteLog
+requestLongerTimeout
 (
+2
 )
 ;
 Services
