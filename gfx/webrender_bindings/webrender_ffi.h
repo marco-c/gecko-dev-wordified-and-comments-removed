@@ -1413,9 +1413,6 @@ uint8_t
 *
 wr_readback_into_buffer
 (
-WrWindowState
-*
-wrWindow
 uint32_t
 width
 uint32_t
