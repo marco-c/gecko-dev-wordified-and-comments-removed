@@ -18332,18 +18332,6 @@ FlushUseCounters
 (
 )
 ;
-const
-auto
-reportKind
-=
-nsDocument
-:
-:
-UseCounterReportKind
-:
-:
-eIncludeExternalResources
-;
 static_cast
 <
 nsDocument
@@ -18360,7 +18348,6 @@ get
 >
 ReportUseCounters
 (
-reportKind
 )
 ;
 return
