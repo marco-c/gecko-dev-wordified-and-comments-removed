@@ -614,15 +614,6 @@ GetOwnedFrameSelection
 )
 override
 ;
-nsresult
-GetPhonetic
-(
-nsAString
-&
-aPhonetic
-)
-override
-;
 virtual
 nsresult
 EnsureEditorInitialized

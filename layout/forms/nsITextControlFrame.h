@@ -88,17 +88,6 @@ GetOwnedFrameSelection
 ;
 virtual
 nsresult
-GetPhonetic
-(
-nsAString
-&
-aPhonetic
-)
-=
-0
-;
-virtual
-nsresult
 EnsureEditorInitialized
 (
 )

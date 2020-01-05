@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsIPhonetic
-.
-h
-"
-#
-include
-"
 nsIPlaintextEditor
 .
 h
@@ -455,8 +448,6 @@ public
 nsIEditor
 public
 nsSupportsWeakReference
-public
-nsIPhonetic
 {
 public
 :
@@ -596,7 +587,6 @@ aNotification
 )
 ;
 NS_DECL_NSIEDITOR
-NS_DECL_NSIPHONETIC
 public
 :
 virtual
@@ -2686,10 +2676,6 @@ UniquePtr
 SelectionState
 >
 mSelState
-;
-nsString
-*
-mPhonetic
 ;
 RefPtr
 <
