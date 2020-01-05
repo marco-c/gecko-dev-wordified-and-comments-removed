@@ -261,6 +261,11 @@ api
 l10n
 :
 internal
+macosx64
+-
+nightly
+:
+internal
 index
 :
 type
@@ -417,7 +422,11 @@ linux32
 opt
 macosx64
 :
-macosx64
+osx
+-
+10
+-
+7
 /
 opt
 android

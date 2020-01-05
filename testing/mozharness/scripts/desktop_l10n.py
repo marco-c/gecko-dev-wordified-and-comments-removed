@@ -5857,10 +5857,14 @@ tar
 bz2
 "
 "
+dmg
+"
+"
 langpack
 .
 xpi
 "
+                            
 "
 complete
 .
