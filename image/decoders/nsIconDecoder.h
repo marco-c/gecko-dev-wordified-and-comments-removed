@@ -48,8 +48,6 @@ nsIconDecoder
 (
 )
 ;
-protected
-:
 LexerResult
 DoDecode
 (
@@ -59,12 +57,6 @@ aIterator
 IResumable
 *
 aOnResume
-)
-override
-;
-nsresult
-FinishInternal
-(
 )
 override
 ;

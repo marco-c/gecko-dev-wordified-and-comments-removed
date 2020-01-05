@@ -221,11 +221,6 @@ FinishedJPEGData
 (
 )
 ;
-void
-ClearRemainingRows
-(
-)
-;
 StreamingLexer
 <
 State

@@ -88,12 +88,6 @@ aOnResume
 )
 override
 ;
-nsresult
-FinishInternal
-(
-)
-override
-;
 Maybe
 <
 Telemetry

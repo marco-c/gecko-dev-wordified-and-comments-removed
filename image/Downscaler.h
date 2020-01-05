@@ -201,11 +201,6 @@ uint32_t
 ;
 }
 void
-ClearRemainingRows
-(
-)
-;
-void
 ClearRow
 (
 )
@@ -328,9 +323,6 @@ mCurrentOutLine
 ;
 int32_t
 mCurrentInLine
-;
-uint8_t
-mClearValue
 ;
 bool
 mHasAlpha
