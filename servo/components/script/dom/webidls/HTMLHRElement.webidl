@@ -152,8 +152,6 @@ attribute
 DOMString
 align
 ;
-/
-/
 attribute
 DOMString
 color
