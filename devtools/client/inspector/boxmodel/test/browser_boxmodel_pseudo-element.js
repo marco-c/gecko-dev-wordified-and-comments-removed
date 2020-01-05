@@ -224,9 +224,7 @@ span
 "
 value
 :
-"
-auto
-"
+0
 }
 {
 selector
@@ -264,9 +262,7 @@ span
 "
 value
 :
-"
-auto
-"
+0
 }
 {
 selector
