@@ -1529,8 +1529,8 @@ return
 NS_OK
 ;
 }
-nsSecurityFlags
-securityFlags
+auto
+securityMode
 =
 loadInfo
 -
@@ -1554,7 +1554,7 @@ IsEmpty
 &
 &
 (
-securityFlags
+securityMode
 =
 =
 nsILoadInfo
@@ -1563,7 +1563,7 @@ nsILoadInfo
 SEC_REQUIRE_SAME_ORIGIN_DATA_INHERITS
 |
 |
-securityFlags
+securityMode
 =
 =
 nsILoadInfo
@@ -1572,7 +1572,7 @@ nsILoadInfo
 SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
 |
 |
-securityFlags
+securityMode
 =
 =
 nsILoadInfo
