@@ -83,6 +83,13 @@ panel
 .
 js
 '
+'
+request
+-
+utils
+.
+js
+'
 )
 BROWSER_CHROME_MANIFESTS
 +
