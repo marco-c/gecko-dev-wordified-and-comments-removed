@@ -160,6 +160,9 @@ default
 =
 [
 "
+glutin_app
+"
+"
 window
 "
 ]
@@ -303,6 +306,9 @@ ports
 /
 glutin
 "
+optional
+=
+true
 [
 dependencies
 .
