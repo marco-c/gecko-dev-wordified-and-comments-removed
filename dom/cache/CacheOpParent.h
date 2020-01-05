@@ -148,6 +148,9 @@ aManagerId
 void
 Execute
 (
+cache
+:
+:
 Manager
 *
 aManager
@@ -254,6 +257,9 @@ mOpArgs
 ;
 RefPtr
 <
+cache
+:
+:
 Manager
 >
 mManager
