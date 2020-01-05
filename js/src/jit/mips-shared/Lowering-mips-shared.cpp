@@ -2132,9 +2132,6 @@ MIRType
 Int32
 )
 ;
-#
-ifdef
-JS_CODEGEN_MIPS64
 if
 (
 ins
@@ -2200,8 +2197,6 @@ ins
 return
 ;
 }
-#
-endif
 auto
 *
 lir
@@ -2306,9 +2301,6 @@ useRegisterAtStart
 base
 )
 ;
-#
-ifdef
-JS_CODEGEN_MIPS64
 if
 (
 ins
@@ -2380,8 +2372,6 @@ ins
 return
 ;
 }
-#
-endif
 LAllocation
 valueAlloc
 =
