@@ -4,7 +4,7 @@ as
 ConstellationMsg
 ;
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -13,7 +13,7 @@ CompositorReceiver
 }
 ;
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -687,7 +687,7 @@ CreatePng
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 .
 .

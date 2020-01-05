@@ -831,7 +831,7 @@ properties
 ;
 }
 fn
-notify_paint_task_exiting
+notify_paint_thread_exiting
 (
 &
 mut
@@ -848,7 +848,7 @@ send
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 pipeline_id
 )
@@ -983,7 +983,7 @@ Image
 >
 >
 )
-PaintTaskExited
+PaintThreadExited
 (
 PipelineId
 )
@@ -1405,7 +1405,7 @@ CreatePng
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 .
 .
@@ -1417,7 +1417,7 @@ write
 (
 f
 "
-PaintTaskExited
+PaintThreadExited
 "
 )
 Msg
@@ -1619,10 +1619,10 @@ PipelineExited
 }
 pub
 struct
-CompositorTask
+CompositorThread
 ;
 impl
-CompositorTask
+CompositorThread
 {
 pub
 fn

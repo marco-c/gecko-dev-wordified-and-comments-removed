@@ -41,7 +41,7 @@ Serialize
 ]
 pub
 enum
-StorageTaskMsg
+StorageThreadMsg
 {
 Length
 (
@@ -138,10 +138,10 @@ Exit
 }
 pub
 type
-StorageTask
+StorageThread
 =
 IpcSender
 <
-StorageTaskMsg
+StorageThreadMsg
 >
 ;

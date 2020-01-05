@@ -58,7 +58,7 @@ Metadata
 }
 ;
 use
-resource_task
+resource_thread
 :
 :
 {

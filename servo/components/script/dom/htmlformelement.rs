@@ -355,7 +355,7 @@ constellation_msg
 LoadData
 ;
 use
-script_task
+script_thread
 :
 :
 {

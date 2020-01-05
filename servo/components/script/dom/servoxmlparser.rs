@@ -140,10 +140,10 @@ parse
 Parser
 ;
 use
-script_task
+script_thread
 :
 :
-ScriptTask
+ScriptThread
 ;
 use
 std
@@ -437,7 +437,7 @@ self
 .
 pipeline
 {
-ScriptTask
+ScriptThread
 :
 :
 parsing_complete

@@ -153,7 +153,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -667,7 +667,7 @@ while
 let
 Some
 (
-task
+thread
 )
 =
 self
@@ -677,7 +677,7 @@ receive_next_task
 )
 {
 match
-task
+thread
 {
 Task
 :

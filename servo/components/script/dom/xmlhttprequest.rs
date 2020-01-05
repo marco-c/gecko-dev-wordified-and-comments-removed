@@ -550,7 +550,7 @@ LoadConsumer
 LoadContext
 LoadData
 ResourceCORSData
-ResourceTask
+ResourceThread
 }
 ;
 use
@@ -587,7 +587,7 @@ parse_xml
 }
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -1509,9 +1509,9 @@ ScriptChan
 +
 Send
 >
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 )
 {
 struct
@@ -1546,9 +1546,9 @@ ScriptChan
 +
 Send
 >
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 }
 impl
 AsyncCORSResponseListener
@@ -1709,7 +1709,7 @@ clone
 )
 self
 .
-resource_task
+resource_thread
 .
 clone
 (
@@ -1753,9 +1753,9 @@ script_chan
 clone
 (
 )
-resource_task
+resource_thread
 :
-resource_task
+resource_thread
 }
 ;
 req
@@ -1788,9 +1788,9 @@ ScriptChan
 +
 Send
 >
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 load_data
 :
 LoadData
@@ -2080,7 +2080,7 @@ unwrap
 }
 )
 ;
-resource_task
+resource_thread
 .
 send
 (
@@ -8156,7 +8156,7 @@ r
 (
 )
 .
-networking_task_source
+networking_thread_source
 (
 )
 )
@@ -9411,7 +9411,7 @@ new
 self
 global
 .
-networking_task_source
+networking_thread_source
 (
 )
 )
@@ -9515,7 +9515,7 @@ else
 (
 global
 .
-networking_task_source
+networking_thread_source
 (
 )
 None
@@ -9523,11 +9523,11 @@ None
 }
 ;
 let
-resource_task
+resource_thread
 =
 global
 .
-resource_task
+resource_thread
 (
 )
 ;
@@ -9561,7 +9561,7 @@ script_chan
 clone
 (
 )
-resource_task
+resource_thread
 )
 ;
 }
@@ -9578,7 +9578,7 @@ clone
 (
 )
 script_chan
-resource_task
+resource_thread
 load_data
 )
 ;

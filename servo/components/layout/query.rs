@@ -60,10 +60,10 @@ OpaqueNode
 }
 ;
 use
-layout_task
+layout_thread
 :
 :
-LayoutTaskData
+LayoutThreadData
 ;
 use
 msg
@@ -241,7 +241,7 @@ Arc
 <
 Mutex
 <
-LayoutTaskData
+LayoutThreadData
 >
 >
 )

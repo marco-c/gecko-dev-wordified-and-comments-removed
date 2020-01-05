@@ -121,7 +121,7 @@ PreInvoke
 }
 ;
 use
-script_task
+script_thread
 :
 :
 ScriptChan
@@ -194,7 +194,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named

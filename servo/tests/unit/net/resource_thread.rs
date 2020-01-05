@@ -8,10 +8,10 @@ use
 net
 :
 :
-resource_task
+resource_thread
 :
 :
-new_resource_task
+new_resource_thread
 ;
 use
 net_traits
@@ -83,9 +83,9 @@ test_exit
 )
 {
 let
-resource_task
+resource_thread
 =
-new_resource_task
+new_resource_thread
 (
 "
 "
@@ -96,7 +96,7 @@ to_owned
 None
 )
 ;
-resource_task
+resource_thread
 .
 send
 (
@@ -121,9 +121,9 @@ test_bad_scheme
 )
 {
 let
-resource_task
+resource_thread
 =
-new_resource_task
+new_resource_thread
 (
 "
 "
@@ -166,7 +166,7 @@ whatever
 "
 )
 ;
-resource_task
+resource_thread
 .
 send
 (
@@ -259,7 +259,7 @@ bleh
 "
 )
 }
-resource_task
+resource_thread
 .
 send
 (
@@ -2436,9 +2436,9 @@ as_bytes
 )
 ;
 let
-resource_task
+resource_thread
 =
-new_resource_task
+new_resource_thread
 (
 "
 "
@@ -2536,7 +2536,7 @@ unwrap
 (
 )
 ;
-resource_task
+resource_thread
 .
 send
 (
@@ -2588,7 +2588,7 @@ unwrap
 (
 )
 ;
-resource_task
+resource_thread
 .
 send
 (
@@ -2605,7 +2605,7 @@ unwrap
 (
 )
 ;
-resource_task
+resource_thread
 .
 send
 (
@@ -2705,7 +2705,7 @@ baaaah
 "
 )
 }
-resource_task
+resource_thread
 .
 send
 (

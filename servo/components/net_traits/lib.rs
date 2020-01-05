@@ -221,7 +221,7 @@ hosts
 ;
 pub
 mod
-image_cache_task
+image_cache_thread
 ;
 pub
 mod
@@ -233,7 +233,7 @@ response
 ;
 pub
 mod
-storage_task
+storage_thread
 ;
 pub
 mod
@@ -657,7 +657,7 @@ AsyncResponseTarget
 }
 pub
 type
-ResourceTask
+ResourceThread
 =
 IpcSender
 <
@@ -878,9 +878,9 @@ pub
 struct
 PendingAsyncLoad
 {
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 url
 :
 Url
@@ -965,9 +965,9 @@ new
 context
 :
 LoadContext
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 url
 :
 Url
@@ -984,9 +984,9 @@ PendingAsyncLoad
 {
 PendingAsyncLoad
 {
-resource_task
+resource_thread
 :
-resource_task
+resource_thread
 url
 :
 url
@@ -1057,7 +1057,7 @@ listener
 ;
 self
 .
-resource_task
+resource_thread
 .
 send
 (
@@ -1386,10 +1386,10 @@ load_whole_resource
 context
 :
 LoadContext
-resource_task
+resource_thread
 :
 &
-ResourceTask
+ResourceThread
 url
 :
 Url
@@ -1431,7 +1431,7 @@ unwrap
 (
 )
 ;
-resource_task
+resource_thread
 .
 send
 (

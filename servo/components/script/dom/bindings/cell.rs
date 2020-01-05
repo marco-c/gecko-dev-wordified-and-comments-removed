@@ -37,13 +37,13 @@ use
 util
 :
 :
-task_state
+thread_state
 ;
 use
 util
 :
 :
-task_state
+thread_state
 :
 :
 SCRIPT
@@ -102,7 +102,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -186,7 +186,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -259,7 +259,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -322,7 +322,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -382,7 +382,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get

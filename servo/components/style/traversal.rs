@@ -116,7 +116,7 @@ None
 )
 ;
 fn
-take_task_local_bloom_filter
+take_thread_local_bloom_filter
 <
 '
 ln
@@ -335,7 +335,7 @@ bloom_filter
 }
 pub
 fn
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 (
 bf
 :
@@ -381,7 +381,7 @@ a
 never
 -
 taken
-task
+thread
 -
 local
 bloom
@@ -939,7 +939,7 @@ let
 mut
 bf
 =
-take_task_local_bloom_filter
+take_thread_local_bloom_filter
 (
 parent_opt
 root
@@ -1284,7 +1284,7 @@ mut
 bf
 )
 ;
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 (
 bf
 &

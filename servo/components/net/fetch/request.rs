@@ -185,7 +185,7 @@ Metadata
 }
 ;
 use
-resource_task
+resource_thread
 :
 :
 CancellationListener
@@ -249,7 +249,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named

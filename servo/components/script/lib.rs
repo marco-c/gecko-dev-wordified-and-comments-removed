@@ -455,7 +455,7 @@ unsafe_code
 ]
 pub
 mod
-script_task
+script_thread
 ;
 pub
 mod
@@ -739,7 +739,7 @@ null
 0
 Some
 (
-script_task
+script_thread
 :
 :
 shadow_check_callback

@@ -693,7 +693,7 @@ use
 util
 :
 :
-task_state
+thread_state
 ;
 use
 uuid
@@ -1209,7 +1209,7 @@ Node
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get

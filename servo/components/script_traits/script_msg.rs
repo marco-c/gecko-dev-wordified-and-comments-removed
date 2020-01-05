@@ -160,7 +160,7 @@ ChangeRunningAnimationsState
 PipelineId
 AnimationState
 )
-CreateCanvasPaintTask
+CreateCanvasPaintThread
 (
 Size2D
 <
@@ -177,7 +177,7 @@ usize
 )
 >
 )
-CreateWebGLPaintTask
+CreateWebGLPaintThread
 (
 Size2D
 <

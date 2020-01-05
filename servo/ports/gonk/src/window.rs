@@ -2,7 +2,7 @@ use
 compositing
 :
 :
-compositor_task
+compositor_thread
 :
 :
 {
@@ -5109,7 +5109,7 @@ sender
 :
 Sender
 <
-compositor_task
+compositor_thread
 :
 :
 Msg
@@ -5133,7 +5133,7 @@ send
 self
 msg
 :
-compositor_task
+compositor_thread
 :
 :
 Msg

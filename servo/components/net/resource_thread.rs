@@ -127,7 +127,7 @@ net_traits
 AsyncResponseTarget
 Metadata
 ProgressMsg
-ResourceTask
+ResourceThread
 ResponseAction
 }
 ;
@@ -233,7 +233,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -1043,7 +1043,7 @@ target
 }
 pub
 fn
-new_resource_task
+new_resource_thread
 (
 user_agent
 :
@@ -1060,7 +1060,7 @@ DevtoolsControlMsg
 )
 -
 >
-ResourceTask
+ResourceThread
 {
 let
 hsts_preload
@@ -1190,7 +1190,7 @@ mut
 self
 control_sender
 :
-ResourceTask
+ResourceThread
 )
 {
 loop
@@ -1430,9 +1430,9 @@ Receiver
 resource_id
 :
 ResourceId
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 }
 impl
 CancellableResource
@@ -1451,9 +1451,9 @@ Receiver
 res_id
 :
 ResourceId
-res_task
+res_thread
 :
-ResourceTask
+ResourceThread
 )
 -
 >
@@ -1467,9 +1467,9 @@ receiver
 resource_id
 :
 res_id
-resource_task
+resource_thread
 :
-res_task
+res_thread
 }
 }
 }
@@ -1627,7 +1627,7 @@ _
 =
 resource
 .
-resource_task
+resource_thread
 .
 send
 (
@@ -1942,9 +1942,9 @@ IpcSender
 ResourceId
 >
 >
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 )
 {
 fn
@@ -2063,7 +2063,7 @@ new
 (
 cancel_receiver
 current_res_id
-resource_task
+resource_thread
 )
 }
 )
@@ -2191,7 +2191,7 @@ debug
 !
 (
 "
-resource_task
+resource_thread
 :
 no
 loader
@@ -2233,7 +2233,7 @@ debug
 !
 (
 "
-resource_task
+resource_thread
 :
 loading
 url

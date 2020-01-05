@@ -17,7 +17,7 @@ bitflags
 !
 {
 flags
-TaskState
+ThreadState
 :
 u32
 {
@@ -49,7 +49,7 @@ IN_HTML_PARSER
 }
 macro_rules
 !
-task_types
+thread_types
 (
 (
 (
@@ -68,7 +68,7 @@ ident
 >
 (
 impl
-TaskState
+ThreadState
 {
 (
 #
@@ -134,7 +134,7 @@ TYPES
 '
 static
 [
-TaskState
+ThreadState
 ]
 =
 &
@@ -148,7 +148,7 @@ flag
 )
 )
 ;
-task_types
+thread_types
 !
 {
 is_script
@@ -189,7 +189,7 @@ super
 :
 {
 TYPES
-TaskState
+ThreadState
 }
 ;
 thread_local
@@ -202,7 +202,7 @@ RefCell
 <
 Option
 <
-TaskState
+ThreadState
 >
 >
 =
@@ -221,7 +221,7 @@ initialize
 (
 x
 :
-TaskState
+ThreadState
 )
 {
 STATE
@@ -251,7 +251,7 @@ panic
 !
 (
 "
-Task
+Thread
 state
 already
 initialized
@@ -297,7 +297,7 @@ get
 )
 -
 >
-TaskState
+ThreadState
 {
 let
 state
@@ -326,7 +326,7 @@ panic
 !
 (
 "
-Task
+Thread
 state
 not
 initialized
@@ -381,7 +381,7 @@ enter
 (
 x
 :
-TaskState
+ThreadState
 )
 {
 let
@@ -435,7 +435,7 @@ exit
 (
 x
 :
-TaskState
+ThreadState
 )
 {
 let
@@ -501,7 +501,7 @@ use
 super
 :
 :
-TaskState
+ThreadState
 ;
 #
 [
@@ -516,7 +516,7 @@ initialize
 (
 _
 :
-TaskState
+ThreadState
 )
 {
 }
@@ -534,9 +534,9 @@ get
 )
 -
 >
-TaskState
+ThreadState
 {
-TaskState
+ThreadState
 :
 :
 empty
@@ -556,7 +556,7 @@ enter
 (
 _
 :
-TaskState
+ThreadState
 )
 {
 }
@@ -573,7 +573,7 @@ exit
 (
 _
 :
-TaskState
+ThreadState
 )
 {
 }

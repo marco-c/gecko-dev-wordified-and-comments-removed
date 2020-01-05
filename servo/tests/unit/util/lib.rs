@@ -80,7 +80,7 @@ test
 )
 ]
 mod
-task
+thread
 ;
 #
 [

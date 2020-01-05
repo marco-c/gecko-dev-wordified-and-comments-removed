@@ -269,7 +269,7 @@ SslMethod
 }
 ;
 use
-resource_task
+resource_thread
 :
 :
 {
@@ -379,7 +379,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named

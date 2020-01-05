@@ -145,7 +145,7 @@ use
 net_traits
 :
 :
-ResourceTask
+ResourceThread
 ;
 use
 profile_traits
@@ -154,14 +154,14 @@ profile_traits
 mem
 ;
 use
-script_task
+script_thread
 :
 :
 {
 CommonScriptMsg
 ScriptChan
 ScriptPort
-ScriptTask
+ScriptThread
 }
 ;
 use
@@ -642,14 +642,14 @@ devtools_chan
 }
 pub
 fn
-resource_task
+resource_thread
 (
 &
 self
 )
 -
 >
-ResourceTask
+ResourceThread
 {
 match
 *
@@ -697,7 +697,7 @@ loader
 *
 loader
 .
-resource_task
+resource_thread
 )
 .
 clone
@@ -716,7 +716,7 @@ worker
 >
 worker
 .
-resource_task
+resource_thread
 (
 )
 .
@@ -873,7 +873,7 @@ clone
 }
 pub
 fn
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 &
 self
@@ -903,7 +903,7 @@ window
 >
 window
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 GlobalRef
@@ -925,7 +925,7 @@ script_chan
 }
 pub
 fn
-user_interaction_task_source
+user_interaction_thread_source
 (
 &
 self
@@ -955,7 +955,7 @@ window
 >
 window
 .
-user_interaction_task_source
+user_interaction_thread_source
 (
 )
 GlobalRef
@@ -977,7 +977,7 @@ script_chan
 }
 pub
 fn
-networking_task_source
+networking_thread_source
 (
 &
 self
@@ -1007,7 +1007,7 @@ window
 >
 window
 .
-networking_task_source
+networking_thread_source
 (
 )
 GlobalRef
@@ -1029,7 +1029,7 @@ script_chan
 }
 pub
 fn
-history_traversal_task_source
+history_traversal_thread_source
 (
 &
 self
@@ -1059,7 +1059,7 @@ window
 >
 window
 .
-history_traversal_task_source
+history_traversal_thread_source
 (
 )
 GlobalRef
@@ -1081,7 +1081,7 @@ script_chan
 }
 pub
 fn
-file_reading_task_source
+file_reading_thread_source
 (
 &
 self
@@ -1111,7 +1111,7 @@ window
 >
 window
 .
-file_reading_task_source
+file_reading_thread_source
 (
 )
 GlobalRef
@@ -1215,7 +1215,7 @@ _
 )
 =
 >
-ScriptTask
+ScriptThread
 :
 :
 process_event

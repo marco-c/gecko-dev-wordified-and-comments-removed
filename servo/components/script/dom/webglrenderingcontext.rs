@@ -365,7 +365,7 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
 ImageResponse
@@ -690,7 +690,7 @@ send
 ConstellationMsg
 :
 :
-CreateWebGLPaintTask
+CreateWebGLPaintThread
 (
 size
 attrs
@@ -5435,7 +5435,7 @@ or
 in
 the
 webgl
-task
+thread
 /
 /
 https

@@ -266,16 +266,16 @@ ToBase64
 }
 ;
 use
-script_task
+script_thread
 :
 :
-ScriptTaskEventCategory
+ScriptThreadEventCategory
 :
 :
 FileRead
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -312,7 +312,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -2564,7 +2564,7 @@ new
 self
 global
 .
-file_reading_task_source
+file_reading_thread_source
 (
 )
 )
@@ -2585,7 +2585,7 @@ script_chan
 =
 global
 .
-file_reading_task_source
+file_reading_thread_source
 (
 )
 ;
@@ -2828,7 +2828,7 @@ chan
 script_chan
 ;
 let
-task
+thread
 =
 box
 FileReaderEvent
@@ -2854,7 +2854,7 @@ CommonScriptMsg
 RunnableMsg
 (
 FileRead
-task
+thread
 )
 )
 .
@@ -2863,7 +2863,7 @@ unwrap
 )
 ;
 let
-task
+thread
 =
 box
 FileReaderEvent
@@ -2889,7 +2889,7 @@ CommonScriptMsg
 RunnableMsg
 (
 FileRead
-task
+thread
 )
 )
 .
@@ -2898,7 +2898,7 @@ unwrap
 )
 ;
 let
-task
+thread
 =
 box
 FileReaderEvent
@@ -2922,7 +2922,7 @@ CommonScriptMsg
 RunnableMsg
 (
 FileRead
-task
+thread
 )
 )
 .

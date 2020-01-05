@@ -1101,7 +1101,7 @@ entry
 }
 pub
 enum
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 {
 Clear
 (
@@ -1175,7 +1175,7 @@ CORSCacheSender
 =
 Sender
 <
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 >
 ;
 impl
@@ -1211,7 +1211,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Clear
@@ -1256,7 +1256,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Cleanup
@@ -1310,7 +1310,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeader
@@ -1374,7 +1374,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeaderUpdate
@@ -1435,7 +1435,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethod
@@ -1494,7 +1494,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethodUpdate
@@ -1545,7 +1545,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Insert
@@ -1568,13 +1568,13 @@ recv
 }
 pub
 struct
-CORSCacheTask
+CORSCacheThread
 {
 receiver
 :
 Receiver
 <
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 >
 cache
 :
@@ -1584,7 +1584,7 @@ sender
 CORSCacheSender
 }
 impl
-CORSCacheTask
+CORSCacheThread
 {
 pub
 fn
@@ -1593,7 +1593,7 @@ new
 )
 -
 >
-CORSCacheTask
+CORSCacheThread
 {
 let
 (
@@ -1605,7 +1605,7 @@ channel
 (
 )
 ;
-CORSCacheTask
+CORSCacheThread
 {
 receiver
 :
@@ -1667,7 +1667,7 @@ unwrap
 (
 )
 {
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Clear
@@ -1699,7 +1699,7 @@ send
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Cleanup
@@ -1729,7 +1729,7 @@ send
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeader
@@ -1761,7 +1761,7 @@ header
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeaderUpdate
@@ -1795,7 +1795,7 @@ new_max_age
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethod
@@ -1826,7 +1826,7 @@ method
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethodUpdate
@@ -1859,7 +1859,7 @@ new_max_age
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Insert
@@ -1891,7 +1891,7 @@ send
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 ExitMsg

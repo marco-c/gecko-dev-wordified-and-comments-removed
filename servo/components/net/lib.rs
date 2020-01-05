@@ -154,7 +154,7 @@ http_loader
 ;
 pub
 mod
-image_cache_task
+image_cache_thread
 ;
 pub
 mod
@@ -166,11 +166,11 @@ pub_domains
 ;
 pub
 mod
-resource_task
+resource_thread
 ;
 pub
 mod
-storage_task
+storage_thread
 ;
 pub
 mod

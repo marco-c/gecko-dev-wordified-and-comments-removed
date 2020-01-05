@@ -687,7 +687,7 @@ compilation
 in
 the
 paint
-task
+thread
 /
 /
 will
@@ -707,7 +707,7 @@ log
 from
 the
 paint
-task
+thread
 though
 let
 msg

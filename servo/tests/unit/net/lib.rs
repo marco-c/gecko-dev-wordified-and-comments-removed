@@ -98,7 +98,7 @@ test
 )
 ]
 mod
-resource_task
+resource_thread
 ;
 #
 [

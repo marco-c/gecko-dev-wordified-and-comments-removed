@@ -104,7 +104,7 @@ paint_context
 PaintContext
 ;
 use
-paint_task
+paint_thread
 :
 :
 {

@@ -21,7 +21,7 @@ WantsScrollEventsFlag
 }
 ;
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -30,7 +30,7 @@ CompositorProxy
 }
 ;
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -96,7 +96,7 @@ use
 gfx
 :
 :
-paint_task
+paint_thread
 :
 :
 {
@@ -1731,7 +1731,7 @@ layers
 so
 that
 painting
-tasks
+threads
 can
 destroy
 the
@@ -1773,7 +1773,7 @@ blocking
 /
 /
 another
-task
+thread
 from
 finishing
 (
@@ -2815,7 +2815,7 @@ unwrap
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 pipeline_id
 )
@@ -3041,7 +3041,7 @@ name
 "
 compositor
 -
-task
+thread
 "
 ;
 /
@@ -5398,7 +5398,7 @@ back
 to
 the
 paint
-task
+thread
 .
 If
 this
@@ -8926,7 +8926,7 @@ coordinates
 but
 the
 paint
-task
+thread
 /
 /
 wants
@@ -9634,7 +9634,7 @@ layer
 because
 the
 paint
-task
+thread
 won
 '
 t
@@ -9737,7 +9737,7 @@ the
 /
 associated
 script
-tasks
+threads
 are
 idle
 .

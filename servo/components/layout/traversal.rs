@@ -105,7 +105,7 @@ traversal
 :
 :
 {
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 recalc_style_at
 }
 ;
@@ -651,7 +651,7 @@ to_unsafe
 (
 )
 ;
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 (
 bf
 &

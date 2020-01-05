@@ -280,7 +280,7 @@ Serialize
 ]
 pub
 struct
-ImageCacheTask
+ImageCacheThread
 {
 chan
 :
@@ -290,7 +290,7 @@ ImageCacheCommand
 >
 }
 impl
-ImageCacheTask
+ImageCacheThread
 {
 pub
 fn
@@ -305,9 +305,9 @@ ImageCacheCommand
 )
 -
 >
-ImageCacheTask
+ImageCacheThread
 {
-ImageCacheTask
+ImageCacheThread
 {
 chan
 :

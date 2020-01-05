@@ -205,7 +205,7 @@ Page
 }
 ;
 use
-script_task
+script_thread
 :
 :
 get_page

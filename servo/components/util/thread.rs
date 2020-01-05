@@ -50,7 +50,7 @@ thread
 Builder
 ;
 use
-task_state
+thread_state
 ;
 pub
 fn
@@ -240,10 +240,10 @@ name
 String
 state
 :
-task_state
+thread_state
 :
 :
-TaskState
+ThreadState
 f
 :
 F
@@ -314,7 +314,7 @@ move
 |
 |
 {
-task_state
+thread_state
 :
 :
 initialize

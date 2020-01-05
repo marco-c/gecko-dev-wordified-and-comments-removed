@@ -86,10 +86,10 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
-ImageCacheTask
+ImageCacheThread
 ;
 use
 profile_traits
@@ -298,9 +298,9 @@ IpcSender
 bool
 >
 )
-CreateLayoutTask
+CreateLayoutThread
 (
-NewLayoutTaskInfo
+NewLayoutThreadInfo
 )
 SetFinalUrl
 (
@@ -906,7 +906,7 @@ unwrap
 }
 pub
 struct
-NewLayoutTaskInfo
+NewLayoutThreadInfo
 {
 pub
 id
@@ -950,9 +950,9 @@ IpcSender
 ConstellationControlMsg
 >
 pub
-image_cache_task
+image_cache_thread
 :
-ImageCacheTask
+ImageCacheThread
 pub
 paint_chan
 :

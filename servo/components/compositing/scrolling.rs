@@ -1,5 +1,5 @@
 use
-compositor_task
+compositor_thread
 :
 :
 {

@@ -129,7 +129,7 @@ use
 net
 :
 :
-resource_task
+resource_thread
 :
 :
 CancellationListener

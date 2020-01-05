@@ -15,12 +15,12 @@ use
 net_traits
 :
 :
-storage_task
+storage_thread
 :
 :
 {
-StorageTask
-StorageTaskMsg
+StorageThread
+StorageThreadMsg
 StorageType
 }
 ;
@@ -73,7 +73,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -91,7 +91,7 @@ usize
 ;
 pub
 trait
-StorageTaskFactory
+StorageThreadFactory
 {
 fn
 new
@@ -103,9 +103,9 @@ Self
 ;
 }
 impl
-StorageTaskFactory
+StorageThreadFactory
 for
-StorageTask
+StorageThread
 {
 fn
 new
@@ -113,7 +113,7 @@ new
 )
 -
 >
-StorageTask
+StorageThread
 {
 let
 (
@@ -170,7 +170,7 @@ port
 :
 IpcReceiver
 <
-StorageTaskMsg
+StorageThreadMsg
 >
 session_data
 :
@@ -211,7 +211,7 @@ port
 :
 IpcReceiver
 <
-StorageTaskMsg
+StorageThreadMsg
 >
 )
 -
@@ -268,7 +268,7 @@ unwrap
 (
 )
 {
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 Length
@@ -289,7 +289,7 @@ url
 storage_type
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 Key
@@ -312,7 +312,7 @@ storage_type
 index
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 Keys
@@ -333,7 +333,7 @@ url
 storage_type
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 SetItem
@@ -358,7 +358,7 @@ name
 value
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 GetItem
@@ -381,7 +381,7 @@ storage_type
 name
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 RemoveItem
@@ -404,7 +404,7 @@ storage_type
 name
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 Clear
@@ -425,7 +425,7 @@ url
 storage_type
 )
 }
-StorageTaskMsg
+StorageThreadMsg
 :
 :
 Exit

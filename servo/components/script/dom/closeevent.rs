@@ -123,7 +123,7 @@ EventCancelable
 }
 ;
 use
-script_task
+script_thread
 :
 :
 ScriptChan

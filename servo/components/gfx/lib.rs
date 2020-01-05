@@ -432,7 +432,7 @@ font
 ;
 pub
 mod
-font_cache_task
+font_cache_thread
 ;
 pub
 mod
@@ -444,7 +444,7 @@ font_template
 ;
 pub
 mod
-paint_task
+paint_thread
 ;
 #
 [
