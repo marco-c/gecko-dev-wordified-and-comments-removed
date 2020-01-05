@@ -172,9 +172,14 @@ nsIAndroidView
 )
 ;
 return
+Object
+.
+freeze
+(
 view
 .
 settings
+)
 ;
 }
 get

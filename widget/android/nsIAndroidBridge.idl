@@ -385,6 +385,14 @@ nsIAndroidView
 :
 nsIAndroidEventDispatcher
 {
+[
+implicit_jscontext
+]
+readonly
+attribute
+jsval
+settings
+;
 }
 ;
 [

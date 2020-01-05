@@ -342,6 +342,8 @@ EventDispatcher
 dispatcher
 String
 chromeURI
+GeckoBundle
+settings
 int
 screenId
 )
@@ -1196,6 +1198,11 @@ getCompositor
 )
 eventDispatcher
 chromeURI
+mSettings
+.
+asBundle
+(
+)
 screenId
 )
 ;
@@ -1236,6 +1243,14 @@ String
 .
 class
 chromeURI
+GeckoBundle
+.
+class
+mSettings
+.
+asBundle
+(
+)
 screenId
 )
 ;
