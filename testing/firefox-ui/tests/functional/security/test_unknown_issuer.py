@@ -1,6 +1,10 @@
 import
 time
 from
+marionette
+import
+MarionetteTestCase
+from
 marionette_driver
 import
 By
@@ -10,16 +14,10 @@ marionette_driver
 errors
 import
 MarionetteException
-from
-firefox_ui_harness
-.
-testcases
-import
-FirefoxTestCase
 class
 TestUnknownIssuer
 (
-FirefoxTestCase
+MarionetteTestCase
 )
 :
     

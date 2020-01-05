@@ -1,11 +1,9 @@
 import
 os
 from
-firefox_ui_harness
-.
-testcases
+firefox_puppeteer
 import
-FirefoxTestCase
+PuppeteerMixin
 from
 firefox_puppeteer
 .
@@ -14,10 +12,15 @@ api
 software_update
 import
 SoftwareUpdate
+from
+marionette
+import
+MarionetteTestCase
 class
 TestSoftwareUpdate
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     
@@ -502,7 +505,8 @@ staging_directory
 class
 TestUpdateChannel
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     
@@ -676,7 +680,8 @@ new_channel
 class
 TestMARChannels
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

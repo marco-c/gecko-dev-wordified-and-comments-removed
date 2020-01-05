@@ -1,4 +1,12 @@
 from
+firefox_puppeteer
+import
+PuppeteerMixin
+from
+marionette
+import
+MarionetteTestCase
+from
 marionette_driver
 import
 expected
@@ -10,16 +18,11 @@ marionette_driver
 errors
 import
 NoSuchElementException
-from
-firefox_ui_harness
-.
-testcases
-import
-FirefoxTestCase
 class
 TestNavBar
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     
@@ -608,7 +611,8 @@ default_homepage
 class
 TestLocationBar
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     
@@ -1124,7 +1128,8 @@ data_uri
 class
 TestAutoCompleteResults
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     
@@ -1622,7 +1627,8 @@ close
 class
 TestIdentityPopup
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

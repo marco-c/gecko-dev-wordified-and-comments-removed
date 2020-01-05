@@ -1,6 +1,14 @@
 import
 time
 from
+firefox_puppeteer
+import
+PuppeteerMixin
+from
+marionette
+import
+MarionetteTestCase
+from
 marionette_driver
 import
 By
@@ -12,16 +20,11 @@ marionette_driver
 errors
 import
 MarionetteException
-from
-firefox_ui_harness
-.
-testcases
-import
-FirefoxTestCase
 class
 TestSSLDisabledErrorPage
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

@@ -1,9 +1,7 @@
 from
-firefox_ui_harness
-.
-testcases
+firefox_puppeteer
 import
-FirefoxTestCase
+PuppeteerMixin
 from
 firefox_puppeteer
 .
@@ -12,10 +10,15 @@ ui
 update_wizard
 import
 UpdateWizardDialog
+from
+marionette
+import
+MarionetteTestCase
 class
 TestUpdateWizard
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

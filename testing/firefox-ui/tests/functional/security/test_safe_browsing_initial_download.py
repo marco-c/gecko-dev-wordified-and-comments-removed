@@ -1,11 +1,13 @@
 import
 os
 from
-firefox_ui_harness
-.
-testcases
+firefox_puppeteer
 import
-FirefoxTestCase
+PuppeteerMixin
+from
+marionette
+import
+MarionetteTestCase
 from
 marionette_driver
 import
@@ -13,7 +15,8 @@ Wait
 class
 TestSafeBrowsingInitialDownload
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

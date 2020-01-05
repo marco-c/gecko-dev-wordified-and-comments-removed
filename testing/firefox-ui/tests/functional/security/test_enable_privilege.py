@@ -1,17 +1,15 @@
 from
+marionette
+import
+MarionetteTestCase
+from
 marionette_driver
 import
 By
-from
-firefox_ui_harness
-.
-testcases
-import
-FirefoxTestCase
 class
 TestEnablePrivilege
 (
-FirefoxTestCase
+MarionetteTestCase
 )
 :
     
