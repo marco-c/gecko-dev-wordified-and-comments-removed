@@ -829,6 +829,10 @@ pkix
 :
 Time
 time
+const
+OriginAttributes
+&
+originAttributes
 nsTArray
 <
 nsCString
@@ -984,6 +988,7 @@ nsDependentCString
 evalHost
 )
 time
+originAttributes
 pinArray
 &
 includeSubdomains
@@ -1234,6 +1239,10 @@ pkix
 :
 Time
 time
+const
+OriginAttributes
+&
+originAttributes
 bool
 &
 chainHasValidPins
@@ -1295,6 +1304,7 @@ FindPinningInformation
 (
 hostname
 time
+originAttributes
 dynamicFingerprints
 staticFingerprints
 )
@@ -1696,6 +1706,10 @@ Time
 time
 bool
 enforceTestMode
+const
+OriginAttributes
+&
+originAttributes
 bool
 &
 chainHasValidPins
@@ -1757,6 +1771,7 @@ get
 )
 enforceTestMode
 time
+originAttributes
 chainHasValidPins
 pinningTelemetryInfo
 )
@@ -1782,6 +1797,10 @@ Time
 time
 bool
 enforceTestMode
+const
+OriginAttributes
+&
+originAttributes
 bool
 &
 hostHasPins
@@ -1824,6 +1843,7 @@ get
 (
 )
 time
+originAttributes
 dynamicFingerprints
 staticFingerprints
 )

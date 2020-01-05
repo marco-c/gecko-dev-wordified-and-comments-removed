@@ -135,6 +135,8 @@ includeSubdomains
 "
 sslStatus
 0
+{
+}
 parsedMaxAge
 parsedIncludeSubdomains
 )

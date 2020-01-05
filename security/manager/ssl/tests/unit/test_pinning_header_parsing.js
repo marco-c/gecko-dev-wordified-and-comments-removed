@@ -336,6 +336,8 @@ uri
 pinValue
 sslStatus
 0
+{
+}
 maxAge
 )
 ;
