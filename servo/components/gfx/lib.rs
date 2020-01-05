@@ -121,14 +121,6 @@ unique
 #
 !
 [
-feature
-(
-vec_push_all
-)
-]
-#
-!
-[
 plugin
 (
 plugins

@@ -449,7 +449,7 @@ usize
 ;
 image_data
 .
-push_all
+extend_from_slice
 (
 row
 )
@@ -5313,7 +5313,7 @@ usize
 ;
 new_image_data
 .
-push_all
+extend_from_slice
 (
 row
 )

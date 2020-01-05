@@ -6024,7 +6024,7 @@ else
 {
 result
 .
-push_all
+extend_from_slice
 (
 from_list
 )

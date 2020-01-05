@@ -161,14 +161,6 @@ unicode
 #
 !
 [
-feature
-(
-vec_push_all
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code

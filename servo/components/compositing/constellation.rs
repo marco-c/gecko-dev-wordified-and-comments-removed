@@ -8192,7 +8192,7 @@ frame_id
 ;
 pipelines_to_close
 .
-push_all
+extend_from_slice
 (
 &
 frame
@@ -8211,7 +8211,7 @@ current
 ;
 pipelines_to_close
 .
-push_all
+extend_from_slice
 (
 &
 frame
@@ -8322,7 +8322,7 @@ pipeline_id
 ;
 frames_to_close
 .
-push_all
+extend_from_slice
 (
 &
 pipeline

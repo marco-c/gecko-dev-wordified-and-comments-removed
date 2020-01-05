@@ -975,7 +975,7 @@ new
 ;
 bytes
 .
-push_all
+extend_from_slice
 (
 &
 vec

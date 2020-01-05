@@ -19,14 +19,6 @@ slice_bytes
 [
 feature
 (
-vec_push_all
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
