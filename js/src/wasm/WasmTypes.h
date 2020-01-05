@@ -369,6 +369,15 @@ Bytes
 UniqueBytes
 ;
 typedef
+Vector
+<
+char
+0
+SystemAllocPolicy
+>
+UTF8Bytes
+;
+typedef
 int8_t
 I8x16
 [
