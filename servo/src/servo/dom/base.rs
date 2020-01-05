@@ -101,6 +101,7 @@ attr
 ;
 new
 (
+-
 tag_name
 :
 str
@@ -179,6 +180,7 @@ name
 ret
 some
 (
+copy
 self
 .
 attrs
@@ -216,9 +218,11 @@ str
 ;
 new
 (
+-
 name
 :
 str
+-
 value
 :
 str

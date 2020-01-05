@@ -54,10 +54,12 @@ msg
 {
 parse
 (
+~
 str
 )
 execute
 (
+~
 str
 )
 exit
@@ -225,6 +227,7 @@ s
 to
 parse
 "
+*
 filename
 ]
 ;
@@ -254,7 +257,10 @@ open
 a
 stylesheet
 assert
+(
+*
 filename
+)
 .
 ends_with
 (
@@ -267,12 +273,18 @@ html
 let
 new_file
 =
+(
+*
 filename
+)
 .
 substr
 (
 0u
+(
+*
 filename
+)
 .
 len
 (
@@ -325,6 +337,12 @@ spawn
 |
 |
 let
+new_file
+<
+-
+new_file
+;
+let
 css_stream
 =
 parser
@@ -335,6 +353,7 @@ lexer
 :
 spawn_css_lexer_task
 (
+~
 new_file
 )
 ;
@@ -546,6 +565,7 @@ s
 to
 execute
 "
+*
 filename
 ]
 ;
@@ -555,6 +575,7 @@ io
 :
 read_whole_file
 (
+*
 filename
 )
 {
@@ -583,6 +604,7 @@ s
 %
 s
 "
+*
 filename
 msg
 ]
@@ -657,6 +679,7 @@ comp
 .
 global_obj
 bytes
+*
 filename
 1u
 )

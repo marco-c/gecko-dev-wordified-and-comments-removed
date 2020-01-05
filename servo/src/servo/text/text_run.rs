@@ -56,6 +56,7 @@ glyph
 ;
 new
 (
+-
 text
 :
 str

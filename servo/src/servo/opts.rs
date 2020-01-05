@@ -110,6 +110,12 @@ ok
 m
 )
 {
+let
+m
+<
+-
+m
+;
 m
 }
 result
@@ -158,6 +164,7 @@ URLs
 }
 else
 {
+copy
 match
 .
 free
@@ -183,6 +190,12 @@ some
 output_file
 )
 {
+let
+output_file
+<
+-
+output_file
+;
 png
 (
 output_file

@@ -1356,9 +1356,11 @@ new_node_from_attr
 scope
 :
 node_scope
+-
 name
 :
 str
+-
 val
 :
 str
@@ -1401,7 +1403,6 @@ attrs
 .
 push
 (
-copy
 attr
 )
 ;

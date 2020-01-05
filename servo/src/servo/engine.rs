@@ -9,6 +9,7 @@ msg
 {
 load_url
 (
+~
 str
 )
 exit
@@ -127,8 +128,17 @@ load_url
 url
 )
 {
-if
+let
 url
+<
+-
+url
+;
+if
+(
+*
+url
+)
 .
 ends_with
 (
