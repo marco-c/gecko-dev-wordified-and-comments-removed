@@ -2019,9 +2019,6 @@ ObserverCount
 }
 already_AddRefed
 <
-image
-:
-:
 Image
 >
 imgRequest
@@ -2040,9 +2037,6 @@ mMutex
 ;
 RefPtr
 <
-image
-:
-:
 Image
 >
 image
@@ -3499,9 +3493,6 @@ final
 explicit
 NewPartResult
 (
-image
-:
-:
 Image
 *
 aExistingImage
@@ -3534,9 +3525,6 @@ mContentDisposition
 ;
 RefPtr
 <
-image
-:
-:
 Image
 >
 mImage
@@ -3570,9 +3558,6 @@ ImageURL
 aURI
 bool
 aIsMultipart
-image
-:
-:
 Image
 *
 aExistingImage
@@ -3779,16 +3764,10 @@ ProgressTracker
 ;
 RefPtr
 <
-image
-:
-:
 Image
 >
 partImage
 =
-image
-:
-:
 ImageFactory
 :
 :
@@ -3837,9 +3816,6 @@ result
 .
 mImage
 =
-image
-:
-:
 ImageFactory
 :
 :
@@ -3917,9 +3893,6 @@ result
 .
 mImage
 =
-image
-:
-:
 ImageFactory
 :
 :

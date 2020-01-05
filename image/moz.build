@@ -407,11 +407,6 @@ imgLoader
 cpp
 '
 '
-imgRequest
-.
-cpp
-'
-'
 imgTools
 .
 cpp
@@ -507,6 +502,11 @@ SOURCES
 +
 =
 [
+'
+imgRequest
+.
+cpp
+'
 '
 imgRequestProxy
 .
