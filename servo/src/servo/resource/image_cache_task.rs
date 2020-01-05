@@ -103,6 +103,15 @@ arc
 :
 clone
 ;
+import
+std
+:
+:
+cell
+:
+:
+Cell
+;
 enum
 Msg
 {
@@ -374,6 +383,16 @@ run
 {
 loop
 {
+/
+/
+FIXME
+:
+Need
+to
+move
+out
+the
+urls
 match
 self
 .
@@ -393,6 +412,7 @@ self
 .
 prefetch
 (
+copy
 url
 )
 GetImage
@@ -406,6 +426,7 @@ self
 .
 get_image
 (
+copy
 url
 response
 )
@@ -420,6 +441,7 @@ self
 .
 store_image
 (
+copy
 url
 &
 image
@@ -439,6 +461,7 @@ priv
 fn
 get_state
 (
++
 url
 :
 url
@@ -454,7 +477,6 @@ state_map
 .
 find
 (
-copy
 url
 )
 {
@@ -479,6 +501,7 @@ priv
 fn
 set_state
 (
++
 url
 :
 url
@@ -493,7 +516,6 @@ state_map
 .
 insert
 (
-copy
 url
 state
 )
@@ -507,6 +529,7 @@ priv
 fn
 prefetch
 (
++
 url
 :
 url
@@ -517,6 +540,7 @@ self
 .
 get_state
 (
+copy
 url
 )
 {
@@ -620,6 +644,7 @@ priv
 fn
 get_image
 (
++
 url
 :
 url
@@ -636,6 +661,7 @@ self
 .
 get_state
 (
+copy
 url
 )
 {
@@ -764,11 +790,20 @@ chan
 (
 )
 ;
+let
+url_cell
+=
+Cell
+(
+copy
+url
+)
+;
 do
 spawn
 |
-copy
-url
+move
+url_cell
 |
 {
 let
@@ -812,8 +847,11 @@ send
 (
 StoreImage
 (
-copy
-url
+url_cell
+.
+take
+(
+)
 clone_arc
 (
 &
@@ -839,7 +877,6 @@ self
 .
 set_state
 (
-copy
 url
 Decoding
 (
@@ -904,7 +941,6 @@ self
 .
 set_state
 (
-copy
 url
 Failed
 )
@@ -1016,6 +1052,7 @@ priv
 fn
 store_image
 (
++
 url
 :
 url
@@ -1034,6 +1071,7 @@ self
 .
 get_state
 (
+copy
 url
 )
 {
