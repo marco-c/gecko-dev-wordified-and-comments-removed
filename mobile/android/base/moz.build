@@ -997,6 +997,12 @@ extra_jars
 +
 =
 [
+CONFIG
+[
+'
+ANDROID_SUPPORT_ANNOTATIONS_JAR_LIB
+'
+]
 '
 constants
 .
