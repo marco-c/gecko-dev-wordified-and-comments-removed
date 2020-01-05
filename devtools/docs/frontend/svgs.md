@@ -430,8 +430,9 @@ shapes
 ]
 (
 .
+.
 /
-svgs
+resources
 /
 pathfinder
 .
@@ -484,8 +485,9 @@ objects
 ]
 (
 .
+.
 /
-svgs
+resources
 /
 expand
 -
@@ -608,8 +610,9 @@ Sketch
 ]
 (
 .
+.
 /
-svgs
+resources
 /
 sketch
 -

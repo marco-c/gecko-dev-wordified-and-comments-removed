@@ -286,6 +286,8 @@ Files
 '
 docs
 /
+tools
+/
 memory
 -
 panel
@@ -313,6 +315,8 @@ Files
 '
 docs
 /
+tools
+/
 debugger
 -
 panel
@@ -339,6 +343,8 @@ Files
 (
 '
 docs
+/
+backend
 /
 debugger
 -
@@ -367,6 +373,8 @@ Files
 '
 docs
 /
+tools
+/
 http
 -
 inspector
@@ -393,6 +401,8 @@ Files
 (
 '
 docs
+/
+tools
 /
 inspector
 -
