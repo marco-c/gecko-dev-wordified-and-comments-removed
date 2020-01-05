@@ -6924,17 +6924,9 @@ ConcreteRestyleDamage
 :
 compute
 (
-&
 Some
 (
-(
-*
 style
-)
-.
-clone
-(
-)
 )
 &
 new_style

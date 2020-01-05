@@ -363,9 +363,9 @@ compute
 (
 old
 :
-&
 Option
 <
+&
 Arc
 <
 ComputedValues
@@ -770,9 +770,9 @@ compute_damage
 (
 old
 :
-&
 Option
 <
+&
 Arc
 <
 ComputedValues
@@ -795,10 +795,6 @@ ComputedValues
 =
 match
 old
-.
-as_ref
-(
-)
 {
 None
 =
