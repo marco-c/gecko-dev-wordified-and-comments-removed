@@ -10902,6 +10902,7 @@ function
 reference
 rendered
 threshold
+skipPixels
 )
 {
 return
@@ -10921,6 +10922,7 @@ reference
 rendered
 threshold
 undefined
+skipPixels
 )
 ;
 }

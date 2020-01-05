@@ -9519,6 +9519,13 @@ color
 =
 255
 ;
+color
+[
+3
+]
+=
+1
+;
 return
 color
 ;

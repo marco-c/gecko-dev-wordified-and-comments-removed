@@ -624,6 +624,13 @@ bindingTarget
 0
 0
 0
+canvas
+.
+width
+canvas
+.
+height
+1
 gl
 [
 pixelFormat

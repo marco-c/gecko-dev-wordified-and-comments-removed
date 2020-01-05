@@ -4069,6 +4069,7 @@ run
 function
 (
 context
+range
 )
 {
 gl
@@ -4134,6 +4135,17 @@ es3fPrimitiveRestartTests
 .
 init
 (
+)
+;
+if
+(
+range
+)
+state
+.
+setRange
+(
+range
 )
 ;
 tcuTestCase

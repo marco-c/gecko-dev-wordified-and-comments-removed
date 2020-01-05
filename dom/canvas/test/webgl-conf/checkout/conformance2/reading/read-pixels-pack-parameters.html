@@ -756,6 +756,7 @@ width
 height
 packParams
 usePixelPackBuffer
+packParamsValid
 )
 {
 if
@@ -1268,6 +1269,11 @@ array
 )
 ;
 }
+if
+(
+packParamsValid
+)
+{
 wtu
 .
 glErrorShouldBe
@@ -1283,6 +1289,28 @@ succeed
 "
 )
 ;
+}
+else
+{
+wtu
+.
+glErrorShouldBe
+(
+gl
+gl
+.
+INVALID_OPERATION
+"
+Invalid
+pack
+params
+combination
+"
+)
+;
+return
+;
+}
 if
 (
 size
@@ -1297,11 +1325,10 @@ if
 usePixelPackBuffer
 )
 {
-var
-arrBuffer
+array
 =
 new
-ArrayBuffer
+Uint8Array
 (
 skipSize
 +
@@ -1316,15 +1343,7 @@ gl
 .
 PIXEL_PACK_BUFFER
 0
-arrBuffer
-)
-;
 array
-=
-new
-Uint8Array
-(
-arrBuffer
 )
 ;
 }
@@ -2082,6 +2101,7 @@ alignment
 1
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2096,6 +2116,7 @@ alignment
 2
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2110,6 +2131,7 @@ alignment
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2124,6 +2146,7 @@ alignment
 8
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2138,6 +2161,7 @@ alignment
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2152,6 +2176,7 @@ alignment
 8
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2166,6 +2191,7 @@ alignment
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2180,6 +2206,7 @@ alignment
 8
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2194,6 +2221,7 @@ alignment
 1
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2208,6 +2236,7 @@ alignment
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2222,6 +2251,7 @@ alignment
 8
 }
 usePixelPackBuffer
+true
 )
 ;
 debug
@@ -2243,9 +2273,9 @@ to
 destText
 +
 "
-works
-fine
-with
+is
+disallowed
+when
 PACK_ROW_LENGTH
 <
 width
@@ -2268,6 +2298,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2286,6 +2317,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2304,6 +2336,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2323,6 +2356,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2341,6 +2375,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2359,6 +2394,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2376,6 +2412,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2393,6 +2430,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2410,6 +2448,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2427,6 +2466,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2444,6 +2484,7 @@ rowLength
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -2461,6 +2502,7 @@ rowLength
 1
 }
 usePixelPackBuffer
+false
 )
 ;
 debug
@@ -2508,6 +2550,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2526,6 +2569,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2544,6 +2588,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2563,6 +2608,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2581,6 +2627,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2599,6 +2646,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2616,6 +2664,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2633,6 +2682,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2650,6 +2700,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2667,6 +2718,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2684,6 +2736,7 @@ rowLength
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 debug
@@ -2733,6 +2786,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2751,6 +2805,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2769,6 +2824,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2788,6 +2844,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2806,6 +2863,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2824,6 +2882,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2841,6 +2900,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2858,6 +2918,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2875,6 +2936,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2892,6 +2954,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2909,6 +2972,7 @@ rowLength
 4
 }
 usePixelPackBuffer
+true
 )
 ;
 debug
@@ -2957,6 +3021,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2975,6 +3040,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -2993,6 +3059,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3012,6 +3079,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3030,6 +3098,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3048,6 +3117,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3065,6 +3135,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3082,6 +3153,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3099,6 +3171,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3116,6 +3189,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3133,6 +3207,7 @@ rowLength
 5
 }
 usePixelPackBuffer
+true
 )
 ;
 debug
@@ -3179,6 +3254,7 @@ skipPixels
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -3199,6 +3275,7 @@ skipRows
 3
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -3216,6 +3293,7 @@ skipRows
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 runTestIteration
@@ -3233,6 +3311,7 @@ skipPixels
 2
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -3253,6 +3332,7 @@ skipRows
 3
 }
 usePixelPackBuffer
+false
 )
 ;
 runTestIteration
@@ -3270,6 +3350,7 @@ skipRows
 3
 }
 usePixelPackBuffer
+true
 )
 ;
 }

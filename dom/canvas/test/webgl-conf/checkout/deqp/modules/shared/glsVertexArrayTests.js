@@ -783,7 +783,7 @@ unsigned_int
 half
 '
 '
-usigned_int2_10_10_10
+unsigned_int2_10_10_10
 '
 '
 int2_10_10_10

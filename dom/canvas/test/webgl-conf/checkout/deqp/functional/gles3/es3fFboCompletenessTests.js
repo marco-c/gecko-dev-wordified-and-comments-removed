@@ -2673,13 +2673,6 @@ catch
 err
 )
 {
-console
-.
-log
-(
-err
-)
-;
 bufferedLogToConsole
 (
 err

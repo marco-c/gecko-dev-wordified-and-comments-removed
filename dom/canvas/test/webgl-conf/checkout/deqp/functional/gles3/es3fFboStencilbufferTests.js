@@ -331,6 +331,9 @@ this
 m_format
 )
 ;
+return
+true
+;
 }
 ;
 es3fFboStencilbufferTests

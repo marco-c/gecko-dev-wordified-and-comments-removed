@@ -385,6 +385,13 @@ bindingTarget
 0
 0
 0
+image
+.
+width
+image
+.
+height
+1
 gl
 [
 pixelFormat

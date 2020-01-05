@@ -786,9 +786,7 @@ function
 (
 )
 {
-console
-.
-log
+bufferedLogToConsole
 (
 '
 ShaderBuildInConstantCase

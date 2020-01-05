@@ -437,6 +437,9 @@ this
 m_format
 )
 ;
+return
+true
+;
 }
 ;
 es3fFboDepthbufferTests
@@ -1101,6 +1104,9 @@ this
 m_format
 )
 ;
+return
+true
+;
 }
 ;
 es3fFboDepthbufferTests
@@ -1696,6 +1702,9 @@ this
 .
 m_format
 )
+;
+return
+true
 ;
 }
 ;

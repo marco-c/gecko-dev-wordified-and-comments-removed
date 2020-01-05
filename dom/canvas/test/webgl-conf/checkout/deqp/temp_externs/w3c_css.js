@@ -1525,6 +1525,12 @@ CSSProperties
 .
 prototype
 .
+markerOffset
+;
+CSSProperties
+.
+prototype
+.
 marks
 ;
 CSSProperties
