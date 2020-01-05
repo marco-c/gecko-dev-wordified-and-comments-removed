@@ -122,6 +122,11 @@ MediaIPCUtils
 h
 '
 '
+RemoteVideoDecoder
+.
+h
+'
+'
 VideoDecoderManagerChild
 .
 h
@@ -136,6 +141,11 @@ SOURCES
 +
 =
 [
+'
+RemoteVideoDecoder
+.
+cpp
+'
 '
 VideoDecoderChild
 .
