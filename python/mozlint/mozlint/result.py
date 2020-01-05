@@ -486,8 +486,6 @@ in
 a
 .
 lint
-.
-py
 file
     
 :
