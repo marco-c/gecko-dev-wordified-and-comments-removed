@@ -634,6 +634,16 @@ DOMString
 attrToBinaryRename
 ;
 [
+PutForwards
+=
+booleanAttribute
+]
+readonly
+attribute
+TestBinding
+forwardedAttribute
+;
+[
 BinaryName
 =
 "
