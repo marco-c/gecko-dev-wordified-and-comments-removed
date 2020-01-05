@@ -442,8 +442,6 @@ URIParams
 host
 bool
 isForeign
-bool
-fromHttp
 OriginAttributes
 attrs
 )
@@ -674,8 +672,6 @@ nsCString
 cookieString
 nsCString
 serverTime
-bool
-fromHttp
 OriginAttributes
 attrs
 )
