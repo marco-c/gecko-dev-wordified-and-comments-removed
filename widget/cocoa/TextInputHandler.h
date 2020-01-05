@@ -666,6 +666,8 @@ ComputeGeckoCodeNameIndex
 (
 UInt32
 aNativeKeyCode
+UInt32
+aKbType
 )
 ;
 protected
