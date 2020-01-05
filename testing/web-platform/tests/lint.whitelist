@@ -2030,12 +2030,6 @@ html
 SET
 TIMEOUT
 :
-webdriver
-/
-*
-SET
-TIMEOUT
-:
 webmessaging
 /
 *
