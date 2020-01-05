@@ -292,16 +292,6 @@ MessageEvent
 "
 MessagePort
 "
-{
-name
-:
-"
-NetworkInformation
-"
-nightly
-:
-true
-}
 "
 Notification
 "
