@@ -435,13 +435,6 @@ modules
 =
 [
 "
-data
-/
-EventEmitter
-.
-js
-"
-"
 lib
 /
 CleanupManager
@@ -452,6 +445,13 @@ jsm
 lib
 /
 EnvExpressions
+.
+jsm
+"
+"
+lib
+/
+EventEmitter
 .
 jsm
 "

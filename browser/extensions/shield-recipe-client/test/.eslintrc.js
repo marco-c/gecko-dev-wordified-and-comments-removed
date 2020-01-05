@@ -35,6 +35,9 @@ false
 SimpleTest
 :
 false
+registerCleanupFunction
+:
+false
 }
 rules
 :
