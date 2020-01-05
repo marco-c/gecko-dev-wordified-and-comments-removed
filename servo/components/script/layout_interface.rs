@@ -722,7 +722,6 @@ uintptr_t
 [
 derive
 (
-Copy
 Clone
 )
 ]
