@@ -1706,6 +1706,11 @@ WrBridge
 >
 DPEnd
 (
+size
+.
+ToUnknownSize
+(
+)
 sync
 mLatestTransactionId
 )

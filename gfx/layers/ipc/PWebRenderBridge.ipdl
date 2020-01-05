@@ -304,6 +304,8 @@ aSize
 async
 DPEnd
 (
+IntSize
+aSize
 WebRenderCommand
 [
 ]
@@ -321,6 +323,8 @@ transactionId
 sync
 DPSyncEnd
 (
+IntSize
+aSize
 WebRenderCommand
 [
 ]

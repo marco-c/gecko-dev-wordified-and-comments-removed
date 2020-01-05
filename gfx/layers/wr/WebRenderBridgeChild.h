@@ -112,6 +112,13 @@ aSize
 void
 DPEnd
 (
+const
+gfx
+:
+:
+IntSize
+&
+aSize
 bool
 aIsSync
 uint64_t
