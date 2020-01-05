@@ -2011,6 +2011,9 @@ bool
 mOverLimitEvicting
 ;
 bool
+mCacheSizeOnHardLimit
+;
+bool
 mRemovingTrashDirs
 ;
 nsCOMPtr
