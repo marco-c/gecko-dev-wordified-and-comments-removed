@@ -252,6 +252,13 @@ for
 a
 Crypto
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -287,13 +294,6 @@ Crypto
 method
 -
 getRandomValues
-#
-[
-allow
-(
-unsafe_code
-)
-]
 fn
 GetRandomValues
 (

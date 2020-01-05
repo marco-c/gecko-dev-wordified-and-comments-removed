@@ -676,7 +676,7 @@ Blob
 {
 /
 /
-http
+https
 :
 /
 /
@@ -732,7 +732,7 @@ u64
 }
 /
 /
-http
+https
 :
 /
 /
@@ -771,7 +771,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
