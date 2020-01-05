@@ -54,3 +54,6 @@ CommentPragmas
 "
 ^
 "
+SortIncludes
+:
+false
