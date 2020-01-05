@@ -1406,9 +1406,6 @@ StopIteration
 exceptions
 =
 [
-"
-cocoa
-"
 ]
     
 import
