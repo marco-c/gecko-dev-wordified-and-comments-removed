@@ -13735,7 +13735,10 @@ mozilla
 StyleUserInput
 mUserInput
 ;
-uint8_t
+mozilla
+:
+:
+StyleUserModify
 mUserModify
 ;
 mozilla

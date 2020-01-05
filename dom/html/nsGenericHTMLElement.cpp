@@ -6177,7 +6177,10 @@ userModify
 >
 SetIntValue
 (
-NS_STYLE_USER_MODIFY_READ_WRITE
+StyleUserModify
+:
+:
+ReadWrite
 eCSSUnit_Enumerated
 )
 ;
@@ -6203,7 +6206,10 @@ userModify
 >
 SetIntValue
 (
-NS_STYLE_USER_MODIFY_READ_ONLY
+StyleUserModify
+:
+:
+ReadOnly
 eCSSUnit_Enumerated
 )
 ;

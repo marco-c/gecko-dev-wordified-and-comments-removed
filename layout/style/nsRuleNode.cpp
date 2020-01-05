@@ -6694,6 +6694,12 @@ StyleUserInput
 None
 Auto
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleUserModify
+ReadOnly
+WriteOnly
+)
 #
 ifdef
 MOZ_XUL
@@ -25186,7 +25192,10 @@ parentUI
 -
 >
 mUserModify
-NS_STYLE_USER_MODIFY_READ_ONLY
+StyleUserModify
+:
+:
+ReadOnly
 )
 ;
 SetValue
