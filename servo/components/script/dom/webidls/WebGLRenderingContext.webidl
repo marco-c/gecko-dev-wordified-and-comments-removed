@@ -3959,8 +3959,6 @@ long
 v
 )
 ;
-/
-/
 void
 uniform2f
 (
