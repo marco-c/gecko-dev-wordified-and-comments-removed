@@ -3111,10 +3111,6 @@ ToolbarIconColor
 .
 inferFromText
 (
-"
-fullscreen
-"
-aEnterFS
 )
 ;
 if
