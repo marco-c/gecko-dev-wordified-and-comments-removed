@@ -850,6 +850,14 @@ liveRuntimesCount
 +
 +
 ;
+JS_INIT_CLIST
+(
+&
+onNewGlobalObjectWatchers
+(
+)
+)
+;
 PodZero
 (
 &
