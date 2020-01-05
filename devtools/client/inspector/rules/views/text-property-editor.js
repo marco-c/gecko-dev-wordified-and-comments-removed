@@ -3776,6 +3776,8 @@ if
 this
 .
 isDisplayGrid
+(
+)
 )
 {
 this
