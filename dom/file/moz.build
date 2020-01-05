@@ -147,11 +147,6 @@ File
 h
 '
 '
-FileCreatorHelper
-.
-h
-'
-'
 FileList
 .
 h
@@ -183,11 +178,6 @@ cpp
 '
 '
 File
-.
-cpp
-'
-'
-FileCreatorHelper
 .
 cpp
 '

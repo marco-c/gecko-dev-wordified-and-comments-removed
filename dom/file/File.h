@@ -746,7 +746,7 @@ aGlobal
 const
 nsAString
 &
-aFilePath
+aData
 const
 ChromeFilePropertyBag
 &
@@ -769,7 +769,7 @@ GlobalObject
 aGlobal
 nsIFile
 *
-aFile
+aData
 const
 ChromeFilePropertyBag
 &
