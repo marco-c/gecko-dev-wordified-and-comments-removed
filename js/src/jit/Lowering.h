@@ -2434,6 +2434,14 @@ ins
 )
 ;
 void
+visitCheckIsCallable
+(
+MCheckIsCallable
+*
+ins
+)
+;
+void
 visitCheckObjCoercible
 (
 MCheckObjCoercible

@@ -1399,6 +1399,11 @@ CheckIsObj
 \
 _
 (
+CheckIsCallable
+)
+\
+_
+(
 CheckObjCoercible
 )
 \
