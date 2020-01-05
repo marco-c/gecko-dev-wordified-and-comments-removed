@@ -9711,7 +9711,7 @@ StartDecoding
 imgIContainer
 :
 :
-FLAG_NONE
+FLAG_ASYNC_NOTIFY
 )
 ;
 }
