@@ -154,7 +154,7 @@ h
 "
 ;
 using
-WrLayoutSize
+WrSize
 from
 "
 mozilla
