@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 kTransitionalProcessing
 =
@@ -55,12 +60,12 @@ u0dd3
 "
 m
 \
-200cn
+u200cn
 "
 "
 p
 \
-200dq
+u200dq
 "
 ]
 ;
