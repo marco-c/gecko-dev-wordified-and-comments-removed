@@ -700,6 +700,9 @@ importance
 :
 Importance
 )
+-
+>
+bool
 {
 for
 slot
@@ -780,7 +783,17 @@ important_count
 _
 =
 >
+if
+slot
+.
+0
+=
+=
+declaration
 {
+return
+false
+;
 }
 }
 *
@@ -792,6 +805,8 @@ importance
 )
 ;
 return
+true
+;
 }
 }
 self
@@ -821,6 +836,7 @@ important_count
 1
 ;
 }
+true
 }
 pub
 fn

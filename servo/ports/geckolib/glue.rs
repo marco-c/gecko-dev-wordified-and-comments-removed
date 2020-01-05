@@ -6320,6 +6320,12 @@ Importance
 Normal
 }
 ;
+let
+mut
+changed
+=
+false
+;
 for
 decl
 in
@@ -6329,6 +6335,9 @@ into_iter
 (
 )
 {
+changed
+|
+=
 declarations
 .
 set_parsed_declaration
@@ -6340,7 +6349,7 @@ importance
 )
 ;
 }
-true
+changed
 }
 else
 {
