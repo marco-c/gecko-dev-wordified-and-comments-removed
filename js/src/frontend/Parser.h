@@ -2924,6 +2924,17 @@ errorNumber
 ;
 MOZ_MUST_USE
 bool
+warning
+(
+unsigned
+errorNumber
+.
+.
+.
+)
+;
+MOZ_MUST_USE
+bool
 extraWarning
 (
 unsigned
