@@ -4087,6 +4087,12 @@ nsISuspendedTypes
 :
 :
 NONE_SUSPENDED
+|
+|
+mOwner
+-
+>
+mPaused
 )
 {
 return
