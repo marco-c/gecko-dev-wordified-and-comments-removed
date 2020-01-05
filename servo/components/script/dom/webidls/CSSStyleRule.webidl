@@ -92,8 +92,6 @@ attribute
 DOMString
 selectorText
 ;
-/
-/
 [
 SameObject
 PutForwards
