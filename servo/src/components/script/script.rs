@@ -625,6 +625,10 @@ pub
 mod
 windowproxy
 ;
+pub
+mod
+testbinding
+;
 }
 pub
 mod
