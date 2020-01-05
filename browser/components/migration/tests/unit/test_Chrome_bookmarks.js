@@ -38,6 +38,7 @@ do_get_file
 chromefiles
 /
 "
+true
 )
 ;
 let
