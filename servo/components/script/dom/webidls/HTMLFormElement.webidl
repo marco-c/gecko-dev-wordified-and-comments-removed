@@ -163,8 +163,6 @@ attribute
 HTMLFormControlsCollection
 elements
 ;
-/
-/
 readonly
 attribute
 long
