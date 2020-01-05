@@ -1921,6 +1921,13 @@ scheduledremoval
 :
 not
 (
+[
+muted
+]
+)
+:
+not
+(
 :
 hover
 )
@@ -1935,6 +1942,13 @@ soundplaying
 -
 scheduledremoval
 ]
+:
+not
+(
+[
+muted
+]
+)
 :
 not
 (
