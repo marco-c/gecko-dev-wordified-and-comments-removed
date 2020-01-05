@@ -604,7 +604,7 @@ _image
 =
 >
 {
-error
+debug
 !
 (
 "
@@ -630,7 +630,7 @@ e
 =
 >
 {
-error
+debug
 !
 (
 "
