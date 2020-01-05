@@ -78,6 +78,15 @@ install
 mercurial
 .
 sh
+.
+/
+setup
+/
+install
+-
+make
+.
+sh
 rm
 -
 rf
