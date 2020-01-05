@@ -1609,6 +1609,19 @@ Darwin
 '
 :
     
+os
+.
+environ
+[
+'
+SOURCE
+'
+]
+=
+DIR
+.
+source
+    
 set_vars_from_script
 (
 os
