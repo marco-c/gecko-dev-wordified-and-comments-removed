@@ -545,9 +545,15 @@ v
 {
 if
 (
+getItemViewType
+(
 position
-<
-1
+)
+!
+=
+HighlightItem
+.
+LAYOUT_ID
 )
 {
 return
