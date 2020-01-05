@@ -73,9 +73,6 @@ nsIGlobalObject
 class
 nsStyleContext
 ;
-class
-CSSAnimationBuilder
-;
 struct
 nsStyleDisplay
 ;
@@ -1011,6 +1008,11 @@ default
 ;
 private
 :
+template
+<
+class
+BuilderType
+>
 void
 DoUpdateAnimations
 (
@@ -1025,7 +1027,7 @@ const
 nsStyleDisplay
 &
 aStyleDisplay
-CSSAnimationBuilder
+BuilderType
 &
 aBuilder
 )
