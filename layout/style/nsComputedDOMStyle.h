@@ -1040,14 +1040,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMozAppearance
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetBoxAlign
 (
 )

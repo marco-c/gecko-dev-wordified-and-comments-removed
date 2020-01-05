@@ -3460,9 +3460,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 !
 =
 NS_THEME_NONE
@@ -3769,9 +3767,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_NONE
@@ -6730,9 +6726,7 @@ ThemeDrawsFocusForWidget
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 )
 &

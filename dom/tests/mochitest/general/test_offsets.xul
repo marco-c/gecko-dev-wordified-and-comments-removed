@@ -721,10 +721,6 @@ appearance
 :
 none
 ;
-appearance
-:
-none
-;
 "
 >
 <
@@ -749,10 +745,6 @@ solid
 -
 moz
 -
-appearance
-:
-none
-;
 appearance
 :
 none

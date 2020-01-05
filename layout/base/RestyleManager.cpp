@@ -1422,9 +1422,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 ;
 if
 (

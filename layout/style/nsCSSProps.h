@@ -2735,13 +2735,6 @@ kAppearanceKTable
 static
 const
 KTableEntry
-kMozAppearanceKTable
-[
-]
-;
-static
-const
-KTableEntry
 kAzimuthKTable
 [
 ]
