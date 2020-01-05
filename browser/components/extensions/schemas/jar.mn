@@ -189,6 +189,15 @@ browser
 /
 schemas
 /
+url_overrides
+.
+json
+content
+/
+browser
+/
+schemas
+/
 windows
 .
 json
