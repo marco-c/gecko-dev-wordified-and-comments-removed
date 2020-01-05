@@ -41,6 +41,15 @@ heapsize
 HeapSizeOf
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+PipelineId
+;
+use
 net_traits
 :
 :
@@ -506,6 +515,10 @@ LayoutContext
 a
 >
 {
+pub
+id
+:
+PipelineId
 pub
 style_context
 :

@@ -65,12 +65,6 @@ TypedSize2D
 }
 ;
 use
-gfx_traits
-:
-:
-ScrollRootId
-;
-use
 ipc_channel
 :
 :
@@ -165,6 +159,12 @@ viewport
 :
 :
 ViewportConstraints
+;
+use
+webrender_traits
+:
+:
+ClipId
 ;
 #
 [
@@ -480,8 +480,7 @@ bool
 )
 ScrollFragmentPoint
 (
-PipelineId
-ScrollRootId
+ClipId
 Point2D
 <
 f32

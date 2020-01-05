@@ -114,6 +114,10 @@ time
 ;
 extern
 crate
+webrender_traits
+;
+extern
+crate
 webvr_traits
 ;
 mod
@@ -195,12 +199,6 @@ gfx_traits
 :
 :
 Epoch
-;
-use
-gfx_traits
-:
-:
-ScrollRootId
 ;
 use
 heapsize
@@ -413,6 +411,12 @@ webdriver_msg
 LoadStatus
 WebDriverScriptCommand
 }
+;
+use
+webrender_traits
+:
+:
+ClipId
 ;
 use
 webvr_traits
@@ -2498,7 +2502,7 @@ StackingContextScrollState
 pub
 scroll_root_id
 :
-ScrollRootId
+ClipId
 pub
 scroll_offset
 :

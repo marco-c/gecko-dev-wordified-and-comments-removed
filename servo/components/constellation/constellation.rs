@@ -5388,7 +5388,6 @@ FromScriptMsg
 :
 ScrollFragmentPoint
 (
-pipeline_id
 scroll_root_id
 point
 smooth
@@ -5407,7 +5406,6 @@ ToCompositorMsg
 :
 ScrollFragmentPoint
 (
-pipeline_id
 scroll_root_id
 point
 smooth
