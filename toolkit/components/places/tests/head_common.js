@@ -3835,9 +3835,6 @@ setFaviconForPage
 (
 page
 icon
-forceReload
-=
-true
 )
 {
 let
@@ -3904,7 +3901,7 @@ setAndFetchFaviconForPage
 (
 pageURI
 iconURI
-forceReload
+true
 PlacesUtils
 .
 favicons
