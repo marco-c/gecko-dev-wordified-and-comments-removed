@@ -338,11 +338,6 @@ blur
 (
 )
 ;
-void
-click
-(
-)
-;
 nsIDOMNodeList
 getElementsByAttribute
 (

@@ -436,7 +436,7 @@ blur
 )
 ;
 [
-Throws
+NeedsCallerType
 ]
 void
 click

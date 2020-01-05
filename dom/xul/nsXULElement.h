@@ -230,6 +230,12 @@ BoxObject
 class
 HTMLIFrameElement
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 }
 }
 namespace
@@ -1425,7 +1431,7 @@ aIsTrustedEvent
 )
 override
 ;
-nsresult
+void
 ClickWithInputSource
 (
 uint16_t
@@ -2479,9 +2485,11 @@ Click
 mozilla
 :
 :
-ErrorResult
-&
-rv
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 void
