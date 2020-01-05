@@ -237,6 +237,11 @@ IsWARP
 )
 ;
 bool
+CanInitializeKeyedMutexTextures
+(
+)
+;
+bool
 CreateCompositorDevices
 (
 )
