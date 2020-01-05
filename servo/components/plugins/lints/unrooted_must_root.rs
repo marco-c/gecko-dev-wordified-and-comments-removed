@@ -1406,7 +1406,7 @@ codemap
 :
 :
 Span
-_id
+id
 :
 ast
 :
@@ -1439,6 +1439,7 @@ kind
 decl
 block
 span
+id
 )
 ;
 }
