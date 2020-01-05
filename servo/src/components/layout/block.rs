@@ -10523,6 +10523,13 @@ a
 >
 )
 {
+if
+self
+.
+is_replaced_content
+(
+)
+{
 /
 /
 Assign
@@ -10546,6 +10553,8 @@ assign_replaced_block_size_if_necessary
 (
 )
 ;
+}
+else
 if
 self
 .
