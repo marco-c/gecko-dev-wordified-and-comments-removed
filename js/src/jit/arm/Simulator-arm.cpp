@@ -9615,11 +9615,12 @@ WasmActivation
 *
 activation
 =
-JSContext
+wasm
 :
 :
-innermostWasmActivation
+MaybeActiveActivation
 (
+cx_
 )
 ;
 const
@@ -9716,11 +9717,12 @@ WasmActivation
 *
 act
 =
-cx_
--
->
-wasmActivationStack
+wasm
+:
+:
+MaybeActiveActivation
 (
+cx_
 )
 ;
 if
@@ -9972,7 +9974,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -10127,7 +10129,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -10275,7 +10277,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -10430,7 +10432,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -10850,7 +10852,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -10997,7 +10999,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -11142,7 +11144,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
@@ -11285,7 +11287,7 @@ FixupFault
 wasm
 :
 :
-IsPCInWasmCode
+InCompiledCode
 (
 reinterpret_cast
 <
