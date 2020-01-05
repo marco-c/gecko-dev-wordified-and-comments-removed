@@ -92,7 +92,6 @@ FileSystemDirectoryReader
 CreateReader
 (
 )
-const
 override
 ;
 private
@@ -137,7 +136,6 @@ aErrorCallback
 GetInternalType
 aType
 )
-const
 override
 ;
 void

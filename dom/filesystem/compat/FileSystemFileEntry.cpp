@@ -151,6 +151,9 @@ aGlobal
 File
 *
 aFile
+FileSystemDirectoryEntry
+*
+aParentEntry
 FileSystem
 *
 aFileSystem
@@ -159,6 +162,7 @@ aFileSystem
 FileSystemEntry
 (
 aGlobal
+aParentEntry
 aFileSystem
 )
 mFile

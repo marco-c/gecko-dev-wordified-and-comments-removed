@@ -11,17 +11,6 @@ mozilla
 /
 dom
 /
-FileSystemBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 FileSystemEntry
 .
 h
@@ -60,6 +49,9 @@ aGlobalObject
 Directory
 *
 aDirectory
+FileSystemDirectoryEntry
+*
+aParentEntry
 FileSystem
 *
 aFileSystem
@@ -133,7 +125,6 @@ FileSystemDirectoryReader
 CreateReader
 (
 )
-const
 ;
 void
 GetFile
@@ -170,7 +161,6 @@ ErrorCallback
 &
 aErrorCallback
 )
-const
 {
 GetInternal
 (
@@ -231,7 +221,6 @@ ErrorCallback
 &
 aErrorCallback
 )
-const
 {
 GetInternal
 (
@@ -318,7 +307,6 @@ aErrorCallback
 GetInternalType
 aType
 )
-const
 ;
 protected
 :
