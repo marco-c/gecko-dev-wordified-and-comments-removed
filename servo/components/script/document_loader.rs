@@ -5,9 +5,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-}
 ;
 use
 net_traits

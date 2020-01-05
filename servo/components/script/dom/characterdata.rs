@@ -1094,6 +1094,7 @@ Some
 (
 i
 )
+;
 }
 code_units
 +

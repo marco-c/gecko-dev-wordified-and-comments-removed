@@ -17,9 +17,7 @@ js
 jsapi
 :
 :
-{
 JSTracer
-}
 ;
 use
 std

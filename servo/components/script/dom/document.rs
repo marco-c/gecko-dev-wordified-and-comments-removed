@@ -477,9 +477,7 @@ dom
 eventtarget
 :
 :
-{
 EventTarget
-}
 ;
 use
 dom
@@ -545,9 +543,7 @@ dom
 htmlelement
 :
 :
-{
 HTMLElement
-}
 ;
 use
 dom
@@ -2624,6 +2620,7 @@ precise_time_ns
 reflow_timeout
 {
 return
+;
 }
 self
 .
@@ -2688,6 +2685,7 @@ existing_timeout
 timeout
 {
 return
+;
 }
 }
 self
@@ -2970,6 +2968,7 @@ must
 be
 a
 document
+\
 element
 .
 "
@@ -3235,7 +3234,6 @@ false
 |
 attr
 |
-{
 &
 *
 *
@@ -3247,7 +3245,6 @@ value
 =
 =
 fragid
-}
 )
 }
 ;
@@ -3455,8 +3452,8 @@ Err
 >
 vec
 !
-(
-)
+[
+]
 }
 }
 pub
@@ -9036,8 +9033,8 @@ new
 (
 vec
 !
-(
-)
+[
+]
 )
 asap_in_order_scripts_list
 :
@@ -9048,8 +9045,8 @@ new
 (
 vec
 !
-(
-)
+[
+]
 )
 asap_scripts_set
 :
@@ -9060,8 +9057,8 @@ new
 (
 vec
 !
-(
-)
+[
+]
 )
 scripting_enabled
 :
@@ -13764,6 +13761,7 @@ return
 else
 {
 return
+;
 }
 ;
 elem
@@ -13826,7 +13824,6 @@ and_then
 |
 root
 |
-{
 root
 .
 upcast
@@ -13853,7 +13850,6 @@ downcast
 next
 (
 )
-}
 )
 }
 /
@@ -14497,7 +14493,6 @@ false
 |
 attr
 |
-{
 &
 *
 *
@@ -14511,7 +14506,6 @@ value
 &
 *
 name
-}
 )
 }
 )
@@ -16548,7 +16542,6 @@ filter
 |
 node
 |
-{
 filter_by_name
 (
 &
@@ -16559,7 +16552,6 @@ r
 (
 )
 )
-}
 )
 .
 peekable
@@ -16617,6 +16609,7 @@ get_jsobject
 get
 (
 )
+;
 }
 }
 else

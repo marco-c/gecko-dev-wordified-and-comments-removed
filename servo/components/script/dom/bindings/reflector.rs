@@ -70,10 +70,6 @@ global
 GlobalRef
 wrap_fn
 :
-extern
-"
-Rust
-"
 fn
 (
 *

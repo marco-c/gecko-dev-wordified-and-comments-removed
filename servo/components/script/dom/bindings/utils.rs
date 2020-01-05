@@ -1975,6 +1975,9 @@ constants
 pub
 unsafe
 extern
+"
+C
+"
 fn
 throwing_constructor
 (
@@ -3657,6 +3660,9 @@ JSObject
 }
 unsafe
 extern
+"
+C
+"
 fn
 wrap
 (
@@ -3722,6 +3728,9 @@ false
 }
 unsafe
 extern
+"
+C
+"
 fn
 pre_wrap
 (
@@ -3810,6 +3819,9 @@ windows
 pub
 unsafe
 extern
+"
+C
+"
 fn
 outerize_global
 (
@@ -4237,6 +4249,9 @@ interface
 pub
 unsafe
 extern
+"
+C
+"
 fn
 generic_method
 (
@@ -4282,6 +4297,9 @@ interface
 pub
 unsafe
 extern
+"
+C
+"
 fn
 generic_getter
 (
@@ -4328,6 +4346,9 @@ interface
 pub
 unsafe
 extern
+"
+C
+"
 fn
 generic_lenient_getter
 (
@@ -4363,6 +4384,9 @@ CallJitGetterOp
 }
 unsafe
 extern
+"
+C
+"
 fn
 call_setter
 (
@@ -4437,6 +4461,9 @@ interface
 pub
 unsafe
 extern
+"
+C
+"
 fn
 generic_setter
 (
@@ -4483,6 +4510,9 @@ interface
 pub
 unsafe
 extern
+"
+C
+"
 fn
 generic_lenient_setter
 (

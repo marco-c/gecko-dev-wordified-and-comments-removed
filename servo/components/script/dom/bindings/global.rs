@@ -101,9 +101,7 @@ js
 jsapi
 :
 :
-{
 GetGlobalForObjectCrossCompartment
-}
 ;
 use
 js
