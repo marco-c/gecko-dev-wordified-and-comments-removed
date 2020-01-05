@@ -10813,6 +10813,9 @@ jsop_newobject
 case
 JSOP_NEWARRAY
 :
+case
+JSOP_SPREADCALLARRAY
+:
 return
 jsop_newarray
 (
