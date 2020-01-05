@@ -16447,7 +16447,10 @@ NS_STYLE_OVERFLOWWRAP_NORMAL
 )
 mHyphens
 (
-NS_STYLE_HYPHENS_MANUAL
+StyleHyphens
+:
+:
+Manual
 )
 mRubyAlign
 (

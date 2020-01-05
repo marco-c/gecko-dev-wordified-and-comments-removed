@@ -138,6 +138,12 @@ mozilla
 class
 SVGContextPaint
 ;
+enum
+class
+StyleHyphens
+:
+uint8_t
+;
 }
 ;
 struct
@@ -572,7 +578,10 @@ aBreakBefore
 0
 ;
 virtual
-int8_t
+mozilla
+:
+:
+StyleHyphens
 GetHyphensOption
 (
 )

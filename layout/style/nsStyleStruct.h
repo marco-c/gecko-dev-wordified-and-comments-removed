@@ -7839,7 +7839,10 @@ mWordBreak
 uint8_t
 mOverflowWrap
 ;
-uint8_t
+mozilla
+:
+:
+StyleHyphens
 mHyphens
 ;
 uint8_t

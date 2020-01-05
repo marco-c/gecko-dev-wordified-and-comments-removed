@@ -430,7 +430,10 @@ BreakAndMeasureText
 ;
 }
 virtual
-int8_t
+mozilla
+:
+:
+StyleHyphens
 GetHyphensOption
 (
 )
@@ -453,7 +456,13 @@ BreakAndMeasureText
 )
 ;
 return
-NS_STYLE_HYPHENS_NONE
+mozilla
+:
+:
+StyleHyphens
+:
+:
+None
 ;
 }
 virtual

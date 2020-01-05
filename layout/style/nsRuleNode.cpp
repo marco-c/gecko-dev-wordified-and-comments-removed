@@ -6902,6 +6902,12 @@ MarginBox
 )
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleHyphens
+None
+Auto
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleUserFocus
 None
 SelectMenu
@@ -23957,7 +23963,10 @@ parentText
 -
 >
 mHyphens
-NS_STYLE_HYPHENS_MANUAL
+StyleHyphens
+:
+:
+Manual
 )
 ;
 SetValue
