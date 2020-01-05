@@ -819,6 +819,15 @@ mFloatBreakType
 nscoord
 mConsumedBSize
 ;
+mozilla
+:
+:
+Maybe
+<
+nscoord
+>
+mLineBSize
+;
 private
 :
 bool
