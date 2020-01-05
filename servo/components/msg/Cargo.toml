@@ -103,15 +103,6 @@ heapsize_plugin
 .
 2
 "
-ipc
--
-channel
-=
-"
-0
-.
-5
-"
 plugins
 =
 {

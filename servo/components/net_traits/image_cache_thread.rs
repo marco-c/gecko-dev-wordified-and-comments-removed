@@ -5,7 +5,10 @@ image
 base
 :
 :
+{
+Image
 ImageMetadata
+}
 ;
 use
 ipc_channel
@@ -18,15 +21,6 @@ ipc
 self
 IpcSender
 }
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-Image
 ;
 use
 std

@@ -49,10 +49,6 @@ heapsize
 ;
 extern
 crate
-ipc_channel
-;
-extern
-crate
 serde
 ;
 #

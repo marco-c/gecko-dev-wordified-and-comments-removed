@@ -259,7 +259,6 @@ constellation_msg
 {
 FrameId
 FrameType
-Image
 Key
 KeyModifiers
 KeyState
@@ -307,6 +306,18 @@ bluetooth_thread
 :
 :
 BluetoothMethodMsg
+;
+use
+net_traits
+:
+:
+image
+:
+:
+base
+:
+:
+Image
 ;
 use
 net_traits
