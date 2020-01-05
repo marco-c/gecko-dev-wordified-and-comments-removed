@@ -3422,6 +3422,9 @@ mPrefChangedTimer
 CreateTimer
 (
 PrefChangedUpdateTimerCallback
+"
+PrefChangedUpdateTimerCallback
+"
 0
 )
 ;
@@ -6800,6 +6803,9 @@ mPrefChangedTimer
 CreateTimer
 (
 PrefChangedUpdateTimerCallback
+"
+PrefChangedUpdateTimerCallback
+"
 0
 )
 ;
@@ -11194,6 +11200,10 @@ CreateTimer
 (
 nsTimerCallbackFunc
 aCallback
+const
+char
+*
+aName
 uint32_t
 aDelay
 )
@@ -11228,7 +11238,7 @@ rv
 timer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 aCallback
 this
@@ -11237,6 +11247,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+aName
 )
 ;
 if
@@ -12772,6 +12783,9 @@ mApplyPluginGeometryTimer
 CreateTimer
 (
 ApplyPluginGeometryUpdatesCallback
+"
+ApplyPluginGeometryUpdatesCallback
+"
 nsRefreshDriver
 :
 :
@@ -13624,6 +13638,9 @@ mNotifyDidPaintTimer
 CreateTimer
 (
 NotifyDidPaintForSubtreeCallback
+"
+NotifyDidPaintForSubtreeCallback
+"
 100
 )
 ;

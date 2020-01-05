@@ -1229,7 +1229,7 @@ true
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 Tick
 this
@@ -1238,6 +1238,15 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+nsHTMLDNSPrefetch
+:
+:
+nsDeferrals
+:
+:
+Tick
+"
 )
 ;
 }

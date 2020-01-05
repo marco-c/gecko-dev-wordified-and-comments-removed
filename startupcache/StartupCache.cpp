@@ -2578,7 +2578,7 @@ rv
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 StartupCache
 :
@@ -2590,6 +2590,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+StartupCache
+:
+:
+WriteTimeout
+"
 )
 ;
 return
