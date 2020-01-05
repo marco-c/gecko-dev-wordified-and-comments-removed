@@ -892,9 +892,8 @@ animated_properties
 :
 :
 {
+Animatable
 AnimationValue
-ComputeDistance
-Interpolate
 TransitionProperty
 }
 ;

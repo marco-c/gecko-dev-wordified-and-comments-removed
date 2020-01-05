@@ -7762,10 +7762,7 @@ properties
 animated_properties
 :
 :
-{
-ComputeDistance
-Interpolate
-}
+Animatable
 ;
 use
 std
@@ -7931,7 +7928,7 @@ gecko
 }
 }
 impl
-Interpolate
+Animatable
 for
 T
 {
@@ -8015,12 +8012,6 @@ Err
 )
 }
 }
-}
-impl
-ComputeDistance
-for
-T
-{
 #
 [
 inline

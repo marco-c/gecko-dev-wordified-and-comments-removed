@@ -300,10 +300,7 @@ properties
 animated_properties
 :
 :
-{
-ComputeDistance
-Interpolate
-}
+Animatable
 ;
 #
 [
@@ -367,7 +364,7 @@ simple
 -
 list
 impl
-Interpolate
+Animatable
 for
 T
 {
@@ -440,12 +437,6 @@ time
 }
 )
 }
-}
-impl
-ComputeDistance
-for
-T
-{
 #
 [
 inline
