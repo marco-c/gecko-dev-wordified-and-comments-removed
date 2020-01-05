@@ -85,7 +85,7 @@ WindowEvent
 }
 ;
 use
-glfw_app
+glutin_app
 ;
 use
 libc
@@ -178,7 +178,7 @@ OnScreen
 (
 Browser
 <
-glfw_app
+glutin_app
 :
 :
 window
@@ -611,9 +611,9 @@ windowless_rendering_enabled
 0
 {
 let
-glfw_window
+glutin_window
 =
-glfw_app
+glutin_app
 :
 :
 create_window
@@ -630,7 +630,7 @@ new
 (
 Some
 (
-glfw_window
+glutin_window
 .
 clone
 (
