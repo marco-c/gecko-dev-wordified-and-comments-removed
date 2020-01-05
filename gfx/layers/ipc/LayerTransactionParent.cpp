@@ -522,6 +522,12 @@ mDestroyed
 =
 true
 ;
+mCompositables
+.
+clear
+(
+)
+;
 }
 mozilla
 :
