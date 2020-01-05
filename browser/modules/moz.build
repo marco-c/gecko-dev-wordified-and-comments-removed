@@ -219,6 +219,11 @@ FormValidationHandler
 jsm
 '
 '
+FullZoomUI
+.
+jsm
+'
+'
 HiddenFrame
 .
 jsm
@@ -295,11 +300,6 @@ jsm
 '
 '
 TransientPrefs
-.
-jsm
-'
-'
-URLBarZoom
 .
 jsm
 '
