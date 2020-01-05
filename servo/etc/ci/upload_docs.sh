@@ -93,10 +93,6 @@ servo
 org
 /
 *
-components
-/
-servo
-/
 target
 /
 doc
@@ -106,10 +102,6 @@ ghp
 import
 -
 n
-components
-/
-servo
-/
 target
 /
 doc

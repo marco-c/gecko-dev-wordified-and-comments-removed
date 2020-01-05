@@ -333,10 +333,6 @@ libmozjs
 .
 so
 (
-ports
-/
-gonk
-/
 target
 /
 arm
@@ -438,10 +434,6 @@ Copy
 b2s
 adb
 push
-ports
-/
-gonk
-/
 target
 /
 arm

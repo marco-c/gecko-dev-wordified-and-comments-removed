@@ -227,10 +227,6 @@ time
 .
 .
 /
-components
-/
-servo
-/
 target
 /
 release

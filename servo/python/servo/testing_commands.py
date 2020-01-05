@@ -214,18 +214,9 @@ join
             
 self
 .
-context
-.
-topdir
-"
-components
-"
-"
-servo
-"
-"
-target
-"
+get_target_dir
+(
+)
 "
 debug
 "
@@ -260,19 +251,9 @@ join
                     
 self
 .
-context
-.
-topdir
-"
-components
-"
-"
-servo
-"
-                    
-"
-target
-"
+get_target_dir
+(
+)
 "
 debug
 "
