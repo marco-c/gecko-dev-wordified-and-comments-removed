@@ -15,7 +15,7 @@ SSL3ProtocolVersion
 #
 define
 TLS_1_3_DRAFT_VERSION
-15
+16
 typedef
 PRUint16
 ssl3CipherSuite
@@ -848,7 +848,7 @@ ssl_sig_ecdsa_sha1
 =
 0x0203
 }
-SignatureScheme
+SSLSignatureScheme
 ;
 #
 endif

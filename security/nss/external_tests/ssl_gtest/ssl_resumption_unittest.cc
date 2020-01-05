@@ -1832,7 +1832,7 @@ original_suite
 resumed_suite
 )
 ;
-ASSERT_EQ
+ASSERT_NE
 (
 initialTicket
 c2

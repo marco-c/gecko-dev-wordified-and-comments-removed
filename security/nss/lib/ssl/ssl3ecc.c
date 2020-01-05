@@ -2528,7 +2528,7 @@ NULL
 SSLHashType
 hashAlg
 ;
-SignatureScheme
+SSLSignatureScheme
 sigScheme
 ;
 SECItem

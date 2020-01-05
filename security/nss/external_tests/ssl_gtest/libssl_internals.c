@@ -236,6 +236,14 @@ return
 rv
 ;
 }
+rnd_len
+=
+PR_MIN
+(
+SSL3_RANDOM_LENGTH
+rnd_len
+)
+;
 PORT_Memset
 (
 &
