@@ -581,7 +581,11 @@ bar
 )
 (
 table
+anyfunc
+(
+elem
 bar
+)
 )
 (
 export
@@ -707,7 +711,11 @@ good
 )
 (
 table
+anyfunc
+(
+elem
 bar
+)
 )
 (
 export
@@ -768,10 +776,8 @@ const
 )
 (
 table
-(
-resizable
 10
-)
+anyfunc
 )
 (
 elem
@@ -1117,6 +1123,7 @@ b
 (
 table
 10
+anyfunc
 )
 )
 (
