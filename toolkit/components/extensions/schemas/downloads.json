@@ -2856,11 +2856,6 @@ method
 :
 {
 "
-unsupported
-"
-:
-true
-"
 description
 "
 :
@@ -2912,11 +2907,6 @@ headers
 "
 :
 {
-"
-unsupported
-"
-:
-true
 "
 optional
 "
@@ -3073,11 +3063,6 @@ body
 "
 :
 {
-"
-unsupported
-"
-:
-true
 "
 description
 "
