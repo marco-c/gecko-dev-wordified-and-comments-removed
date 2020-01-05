@@ -408,6 +408,8 @@ true
 linux64
 -
 devedition
+-
+nightly
 /
 opt
 :
@@ -416,8 +418,13 @@ description
 "
 Linux64
 devedition
-Opt
+Nightly
 "
+attributes
+:
+nightly
+:
+true
 index
 :
 product
@@ -430,6 +437,9 @@ name
 linux64
 -
 opt
+type
+:
+nightly
 treeherder
 :
 platform
@@ -443,7 +453,7 @@ symbol
 :
 tc
 (
-B
+N
 )
 worker
 -
@@ -506,6 +516,10 @@ config
 builds
 /
 releng_base_linux_64_builds
+.
+py
+-
+disable_signing
 .
 py
 -
@@ -980,6 +994,8 @@ true
 linux
 -
 devedition
+-
+nightly
 /
 opt
 :
@@ -988,8 +1004,13 @@ description
 "
 Linux32
 devedition
-Opt
+Nightly
 "
+attributes
+:
+nightly
+:
+true
 index
 :
 product
@@ -1002,6 +1023,9 @@ name
 linux
 -
 opt
+type
+:
+nightly
 treeherder
 :
 platform
@@ -1015,7 +1039,7 @@ symbol
 :
 tc
 (
-B
+N
 )
 worker
 -
@@ -1078,6 +1102,10 @@ config
 builds
 /
 releng_base_linux_32_builds
+.
+py
+-
+disable_signing
 .
 py
 -
