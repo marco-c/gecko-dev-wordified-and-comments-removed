@@ -1157,9 +1157,6 @@ mAPZEventState
 >
 ProcessAPZStateChange
 (
-GetRootDocument
-(
-)
 aGuid
 .
 mScrollId

@@ -281,13 +281,6 @@ aInputBlockId
 void
 ProcessAPZStateChange
 (
-const
-nsCOMPtr
-<
-nsIDocument
->
-&
-aDocument
 ViewID
 aViewId
 APZStateChange
@@ -381,9 +374,6 @@ mEndTouchIsClick
 ;
 bool
 mTouchEndCancelled
-;
-int
-mActiveAPZTransforms
 ;
 int32_t
 mLastTouchIdentifier
