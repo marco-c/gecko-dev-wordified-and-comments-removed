@@ -204,7 +204,7 @@ null
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -225,7 +225,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -238,7 +238,7 @@ o
 o
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -247,7 +247,7 @@ null
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -331,7 +331,7 @@ null
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -354,7 +354,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -404,7 +404,7 @@ undefined
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -425,7 +425,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -437,7 +437,7 @@ f
 oo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -656,7 +656,7 @@ com
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -696,7 +696,7 @@ o
 o
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -715,7 +715,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -736,7 +736,7 @@ f
 oo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -756,7 +756,7 @@ a
 0
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -815,7 +815,7 @@ a
 u0BC6
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -1281,7 +1281,7 @@ prefix
 local
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -1869,7 +1869,7 @@ null
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -1892,7 +1892,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2078,7 +2078,7 @@ namespace
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2129,7 +2129,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2452,7 +2452,7 @@ xmlns
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2503,7 +2503,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2730,7 +2730,7 @@ foo
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2755,7 +2755,7 @@ foo
 :
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
