@@ -11,7 +11,7 @@ libc
 c_char
 ;
 use
-num
+num_traits
 :
 :
 ToPrimitive
