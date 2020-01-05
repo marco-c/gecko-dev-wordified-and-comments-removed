@@ -570,10 +570,6 @@ impl
 ln
 >
 TNode
-<
-'
-ln
->
 for
 GeckoNode
 <
@@ -1598,10 +1594,6 @@ impl
 ld
 >
 TDocument
-<
-'
-ld
->
 for
 GeckoDocument
 <
@@ -1891,10 +1883,6 @@ impl
 le
 >
 TElement
-<
-'
-le
->
 for
 GeckoElement
 <
@@ -1959,8 +1947,6 @@ self
 -
 >
 &
-'
-le
 Option
 <
 PropertyDeclarationBlock

@@ -114,8 +114,6 @@ None
 fn
 take_thread_local_bloom_filter
 <
-'
-ln
 N
 Impl
 :
@@ -149,10 +147,6 @@ where
 N
 :
 TNode
-<
-'
-ln
->
 {
 STYLE_BLOOM
 .
@@ -424,8 +418,6 @@ generation
 fn
 insert_ancestors_into_bloom_filter
 <
-'
-ln
 N
 >
 (
@@ -449,10 +441,6 @@ where
 N
 :
 TNode
-<
-'
-ln
->
 {
 debug
 !
@@ -544,15 +532,9 @@ pub
 trait
 DomTraversalContext
 <
-'
-ln
 N
 :
 TNode
-<
-'
-ln
->
 >
 {
 type
@@ -621,8 +603,6 @@ recalc_style_at
 <
 '
 a
-'
-ln
 N
 C
 >
@@ -644,10 +624,6 @@ where
 N
 :
 TNode
-<
-'
-ln
->
 C
 :
 StyleContext
