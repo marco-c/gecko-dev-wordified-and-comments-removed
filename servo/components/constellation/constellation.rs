@@ -13661,9 +13661,8 @@ continue
 ;
 evicted_pipelines
 .
-extend_from_slice
+extend
 (
-&
 frame
 .
 remove_forward_entries
