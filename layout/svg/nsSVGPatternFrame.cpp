@@ -68,7 +68,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -1570,7 +1570,7 @@ GetNextSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -1589,7 +1589,7 @@ SVGFrame
 >
 NotifySVGChanged
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED

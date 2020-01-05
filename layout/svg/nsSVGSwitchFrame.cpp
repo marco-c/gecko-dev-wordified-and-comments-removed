@@ -591,7 +591,7 @@ GetActiveChildFrame
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgFrame
 =
@@ -723,7 +723,7 @@ GetActiveChildFrame
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 child
 =
@@ -865,7 +865,7 @@ GetActiveChildFrame
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgChild
 =
@@ -979,7 +979,7 @@ GetActiveChildFrame
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgKid
 =

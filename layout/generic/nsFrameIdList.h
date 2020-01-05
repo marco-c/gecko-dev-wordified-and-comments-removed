@@ -208,7 +208,7 @@ nsIRootBox
 )
 FRAME_ID
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 )
 FRAME_ID
 (

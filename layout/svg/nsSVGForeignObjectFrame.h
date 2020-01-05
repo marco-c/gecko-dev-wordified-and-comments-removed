@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -64,7 +64,7 @@ nsSVGForeignObjectFrame
 public
 nsContainerFrame
 public
-nsISVGChildFrame
+nsSVGDisplayableFrame
 {
 friend
 nsContainerFrame

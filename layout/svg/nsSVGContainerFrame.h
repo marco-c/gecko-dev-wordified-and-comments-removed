@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -274,7 +274,7 @@ nsSVGDisplayContainerFrame
 public
 nsSVGContainerFrame
 public
-nsISVGChildFrame
+nsSVGDisplayableFrame
 {
 protected
 :

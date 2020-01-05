@@ -196,7 +196,7 @@ nsSVGForeignObjectFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (

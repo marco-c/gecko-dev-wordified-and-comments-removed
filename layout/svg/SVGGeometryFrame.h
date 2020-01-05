@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -124,7 +124,7 @@ SVGGeometryFrame
 public
 nsFrame
 public
-nsISVGChildFrame
+nsSVGDisplayableFrame
 {
 typedef
 mozilla

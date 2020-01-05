@@ -45,7 +45,7 @@ class
 gfxContext
 ;
 class
-nsISVGChildFrame
+nsSVGDisplayableFrame
 ;
 class
 nsSVGClipPathFrame
@@ -245,7 +245,7 @@ aPoint
 bool
 IsTrivial
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 *
 aSingleChild

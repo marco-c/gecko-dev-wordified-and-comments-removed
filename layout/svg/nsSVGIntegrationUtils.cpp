@@ -2627,9 +2627,9 @@ hasSVGLayout
 #
 ifdef
 DEBUG
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
-svgChildFrame
+svgFrame
 =
 do_QueryFrame
 (
@@ -2638,7 +2638,7 @@ aFrame
 ;
 MOZ_ASSERT
 (
-svgChildFrame
+svgFrame
 &
 &
 aFrame

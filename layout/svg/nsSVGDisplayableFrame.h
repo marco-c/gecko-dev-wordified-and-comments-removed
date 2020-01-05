@@ -60,7 +60,7 @@ Matrix
 }
 }
 class
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 public
 nsQueryFrame
@@ -114,7 +114,7 @@ DrawResult
 ;
 NS_DECL_QUERYFRAME_TARGET
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 )
 virtual
 DrawResult
