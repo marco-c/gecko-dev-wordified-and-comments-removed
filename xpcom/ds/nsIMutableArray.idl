@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIArray
+nsIArrayExtensions
 .
 idl
 "
@@ -247,7 +247,7 @@ ae4bfdc192cc
 interface
 nsIMutableArray
 :
-nsIArray
+nsIArrayExtensions
 {
 /
 *

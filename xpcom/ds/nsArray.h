@@ -7,6 +7,13 @@ nsArray_h__
 #
 include
 "
+nsIArrayExtensions
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h
@@ -70,6 +77,7 @@ nsIMutableArray
 public
 :
 NS_DECL_NSIARRAY
+NS_DECL_NSIARRAYEXTENSIONS
 NS_DECL_NSIMUTABLEARRAY
 static
 already_AddRefed
@@ -208,9 +216,10 @@ nsArrayBase
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsArrayCC
+nsIMutableArray
 )
 private
 :

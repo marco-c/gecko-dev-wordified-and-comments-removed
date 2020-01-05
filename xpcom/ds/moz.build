@@ -95,6 +95,11 @@ nsIArray
 idl
 '
 '
+nsIArrayExtensions
+.
+idl
+'
+'
 nsIAtom
 .
 idl
