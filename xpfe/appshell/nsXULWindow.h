@@ -601,6 +601,14 @@ uint32_t
 aDirtyFlags
 )
 ;
+nsresult
+GetTabCount
+(
+uint32_t
+*
+aResult
+)
+;
 nsChromeTreeOwner
 *
 mChromeTreeOwner
