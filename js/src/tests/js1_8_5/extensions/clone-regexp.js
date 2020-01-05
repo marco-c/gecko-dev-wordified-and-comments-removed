@@ -174,13 +174,6 @@ testRegExp
 gimy
 )
 ;
-testRegExp
-(
-RegExp
-.
-prototype
-)
-;
 var
 re
 =

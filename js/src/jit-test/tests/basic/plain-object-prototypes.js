@@ -41,6 +41,9 @@ prototype
 URIError
 .
 prototype
+RegExp
+.
+prototype
 ]
 ;
 for
