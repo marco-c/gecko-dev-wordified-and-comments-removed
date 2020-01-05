@@ -304,13 +304,6 @@ h
 #
 include
 "
-nsBidi
-.
-h
-"
-#
-include
-"
 nsBidiPresUtils
 .
 h
@@ -19889,9 +19882,6 @@ currentFontStyle
 nscoord
 totalWidthCoord
 ;
-nsBidi
-bidiEngine
-;
 rv
 =
 nsBidiPresUtils
@@ -19930,7 +19920,7 @@ nullptr
 &
 totalWidthCoord
 &
-bidiEngine
+mBidiEngine
 )
 ;
 if
@@ -20475,7 +20465,7 @@ nullptr
 0
 nullptr
 &
-bidiEngine
+mBidiEngine
 )
 ;
 mTarget
