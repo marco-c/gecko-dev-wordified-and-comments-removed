@@ -4,6 +4,7 @@ ns_com_ptr
 mod
 ns_css_shadow_array
 ;
+pub
 mod
 ns_css_value
 ;

@@ -64,7 +64,7 @@ use
 font_face
 :
 :
-FontFaceData
+FontFaceRuleData
 ;
 use
 font_face
@@ -3045,7 +3045,7 @@ pub
 type
 FontFaceRule
 =
-FontFaceData
+FontFaceRuleData
 ;
 impl
 Stylesheet
@@ -5752,7 +5752,6 @@ self
 context
 input
 )
-?
 .
 into
 (
