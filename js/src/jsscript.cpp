@@ -3078,6 +3078,9 @@ ssHolder
 ss
 )
 ;
+if
+(
+!
 ss
 -
 >
@@ -3087,6 +3090,9 @@ cx
 *
 options
 )
+)
+return
+false
 ;
 sourceObject
 =
