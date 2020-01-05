@@ -1143,6 +1143,22 @@ None
             
 return
         
+if
+os
+.
+environ
+.
+get
+(
+'
+INSIDE_EMACS
+'
+None
+)
+:
+            
+return
+        
 self
 .
 t
