@@ -378,10 +378,10 @@ undef
 LOGV
 #
 undef
-SAMPLE_LOG
+LOGW
 #
 undef
-DECODER_WARN
+SAMPLE_LOG
 #
 undef
 SFMT
@@ -491,7 +491,7 @@ __VA_ARGS__
 )
 #
 define
-DECODER_WARN
+LOGW
 (
 x
 .
@@ -13891,13 +13891,12 @@ mMediaSeekable
 mMediaSeekableOnlyInBufferedRanges
 )
 {
-DECODER_WARN
+LOGW
 (
 "
 Seek
 (
 )
-function
 should
 not
 be
@@ -13907,8 +13906,7 @@ a
 non
 -
 seekable
-state
-machine
+media
 "
 )
 ;
@@ -13941,7 +13939,7 @@ HasVideo
 )
 )
 {
-DECODER_WARN
+LOGW
 (
 "
 Ignore
@@ -15506,7 +15504,7 @@ IsShutdown
 )
 )
 ;
-DECODER_WARN
+LOGW
 (
 "
 Decode
@@ -18000,6 +17998,9 @@ LOG
 #
 undef
 LOGV
+#
+undef
+LOGW
 #
 undef
 NS_DispatchToMainThread
