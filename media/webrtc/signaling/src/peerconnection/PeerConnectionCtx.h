@@ -68,7 +68,7 @@ namespace
 mozilla
 {
 class
-PeerConnectionCtxShutdown
+PeerConnectionCtxObserver
 ;
 namespace
 dom
@@ -147,6 +147,14 @@ onGMPReady
 bool
 gmpHasH264
 (
+)
+;
+static
+void
+UpdateNetworkState
+(
+bool
+online
 )
 ;
 friend
@@ -367,9 +375,9 @@ StaticRefPtr
 mozilla
 :
 :
-PeerConnectionCtxShutdown
+PeerConnectionCtxObserver
 >
-gPeerConnectionCtxShutdown
+gPeerConnectionCtxObserver
 ;
 }
 ;

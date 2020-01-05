@@ -1922,6 +1922,13 @@ aLevel
 )
 ;
 }
+void
+UpdateNetworkState
+(
+bool
+online
+)
+;
 NS_IMETHODIMP
 CloseStreams
 (

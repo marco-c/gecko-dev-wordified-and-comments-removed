@@ -1301,6 +1301,13 @@ uint32_t
 aMLine
 )
 ;
+void
+UpdateNetworkState
+(
+bool
+online
+)
+;
 nsresult
 UpdateMediaPipelines
 (
@@ -2302,6 +2309,13 @@ string
 aMid
 uint32_t
 aMLine
+)
+;
+void
+UpdateNetworkState_s
+(
+bool
+online
 )
 ;
 void
