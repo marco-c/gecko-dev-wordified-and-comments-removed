@@ -707,12 +707,6 @@ enabled
 "
 true
 )
-|
-|
-IsWebMForced
-(
-aDiagnostics
-)
 )
 )
 {
