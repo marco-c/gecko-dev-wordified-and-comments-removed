@@ -578,6 +578,7 @@ mIsStopped
 nsString
 mResponse
 ;
+MOZ_INIT_OUTSIDE_CTOR
 ErrorCode
 mErrorCode
 ;
