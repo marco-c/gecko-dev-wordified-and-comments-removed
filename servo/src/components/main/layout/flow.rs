@@ -23,7 +23,7 @@ layout
 box
 :
 :
-RenderBox
+Box
 ;
 use
 layout
@@ -1872,7 +1872,7 @@ boxes
 :
 ~
 [
-RenderBox
+Box
 ]
 priv
 index
@@ -1882,7 +1882,7 @@ uint
 impl
 Iterator
 <
-RenderBox
+Box
 >
 for
 BoxIterator
@@ -1898,7 +1898,7 @@ self
 >
 Option
 <
-RenderBox
+Box
 >
 {
 if
