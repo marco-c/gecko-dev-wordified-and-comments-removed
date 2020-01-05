@@ -697,6 +697,17 @@ UInt32
 aKbType
 )
 ;
+bool
+IsDeadKey
+(
+UInt32
+aKeyCode
+UInt32
+aModifiers
+UInt32
+aKbType
+)
+;
 void
 ComputeInsertStringForCharCode
 (
