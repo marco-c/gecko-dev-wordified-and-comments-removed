@@ -84,7 +84,7 @@ resource_task
 ResourceTask
 ;
 import
-core
+std
 :
 :
 arc
@@ -95,7 +95,7 @@ arc
 import
 clone_arc
 =
-core
+std
 :
 :
 arc

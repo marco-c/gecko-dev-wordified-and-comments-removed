@@ -124,6 +124,9 @@ ptr
 addr_of
 ;
 import
+std
+:
+:
 arc
 :
 :
@@ -858,6 +861,9 @@ unsafe
 let
 image
 =
+std
+:
+:
 arc
 :
 :
