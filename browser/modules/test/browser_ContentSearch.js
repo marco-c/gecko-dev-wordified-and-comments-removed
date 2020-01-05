@@ -21,11 +21,6 @@ contentSearch
 js
 "
 ;
-const
-SUGGESTIONS_TIMEOUT
-=
-10000
-;
 var
 gMsgMan
 ;
@@ -1105,9 +1100,6 @@ name
 searchString
 :
 searchStr
-remoteTimeout
-:
-SUGGESTIONS_TIMEOUT
 }
 }
 )
@@ -1293,9 +1285,6 @@ name
 searchString
 :
 searchStr
-remoteTimeout
-:
-SUGGESTIONS_TIMEOUT
 }
 }
 )

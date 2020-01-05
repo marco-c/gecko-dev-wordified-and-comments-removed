@@ -170,12 +170,6 @@ init
 }
 )
 ;
-gController
-.
-remoteTimeout
-=
-5000
-;
 }
 key
 :

@@ -2383,16 +2383,6 @@ function
 (
 )
 {
-content
-.
-wrappedJSObject
-.
-gContentSearchController
-.
-remoteTimeout
-=
-5000
-;
 let
 input
 =

@@ -237,9 +237,6 @@ ContentSearchUIController
 prototype
 =
 {
-remoteTimeout
-:
-undefined
 _oneOffButtons
 :
 [
@@ -3827,11 +3824,6 @@ this
 input
 .
 value
-remoteTimeout
-:
-this
-.
-remoteTimeout
 }
 )
 ;
