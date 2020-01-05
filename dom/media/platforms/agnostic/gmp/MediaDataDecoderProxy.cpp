@@ -66,12 +66,6 @@ InternalInit
 (
 )
 {
-MOZ_ASSERT
-(
-!
-mIsShutdown
-)
-;
 return
 mProxyDecoder
 -
