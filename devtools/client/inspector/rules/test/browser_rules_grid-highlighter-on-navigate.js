@@ -209,6 +209,8 @@ highlighters
 once
 (
 "
+grid
+-
 highlighter
 -
 shown

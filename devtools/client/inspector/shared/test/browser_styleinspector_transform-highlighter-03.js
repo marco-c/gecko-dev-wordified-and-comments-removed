@@ -247,7 +247,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -288,7 +288,7 @@ hidden
 ;
 hs
 .
-_onMouseOut
+onMouseOut
 (
 )
 ;
@@ -357,7 +357,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -388,7 +388,7 @@ once
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -399,7 +399,7 @@ valueSpan
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -483,7 +483,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -561,7 +561,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -652,7 +652,7 @@ hidden
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target

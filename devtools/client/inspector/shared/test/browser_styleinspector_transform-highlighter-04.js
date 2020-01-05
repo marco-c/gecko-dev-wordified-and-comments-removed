@@ -162,7 +162,7 @@ transform
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -273,7 +273,7 @@ transform
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -350,7 +350,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
