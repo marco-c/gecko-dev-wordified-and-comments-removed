@@ -136,8 +136,6 @@ reference
 to
 the
 canvas
-/
-/
 readonly
 attribute
 HTMLCanvasElement
