@@ -479,12 +479,6 @@ point
 Point2D
 ;
 use
-gfx_traits
-:
-:
-LayerId
-;
-use
 hyper
 :
 :
@@ -13486,12 +13480,6 @@ ConstellationMsg
 ScrollFragmentPoint
 (
 pipeline_id
-LayerId
-:
-:
-null
-(
-)
 point
 false
 )

@@ -26,12 +26,6 @@ size
 Size2D
 ;
 use
-gfx_traits
-:
-:
-LayerId
-;
-use
 ipc_channel
 :
 :
@@ -322,7 +316,6 @@ ShutdownComplete
 ScrollFragmentPoint
 (
 PipelineId
-LayerId
 Point2D
 <
 f32
