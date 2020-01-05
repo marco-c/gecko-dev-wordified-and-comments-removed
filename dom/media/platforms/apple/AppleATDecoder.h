@@ -217,6 +217,11 @@ ProcessFlush
 )
 ;
 void
+ProcessShutdown
+(
+)
+;
+void
 SubmitSample
 (
 MediaRawData
@@ -271,6 +276,9 @@ SetupChannelLayout
 ;
 uint32_t
 mParsedFramesForAACMagicCookie
+;
+bool
+mErrored
 ;
 }
 ;
