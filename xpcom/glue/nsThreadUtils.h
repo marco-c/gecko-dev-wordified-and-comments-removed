@@ -2054,7 +2054,7 @@ typename
 T
 >
 struct
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 {
 typedef
 RefPtr
@@ -2077,7 +2077,7 @@ typename
 A
 >
 MOZ_IMPLICIT
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 (
 A
 &
@@ -2123,7 +2123,7 @@ S
 struct
 IsParameterStorageClass
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 S
 >
@@ -2734,7 +2734,7 @@ TWithoutPointer
 :
 :
 value
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 TWithoutPointer
 >
@@ -2818,7 +2818,7 @@ T
 :
 :
 value
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 typename
 mozilla

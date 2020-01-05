@@ -663,7 +663,7 @@ task
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 MediaData
 >

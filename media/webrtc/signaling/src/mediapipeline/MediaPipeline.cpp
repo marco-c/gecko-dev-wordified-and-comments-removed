@@ -897,7 +897,7 @@ runnable
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 Image
 >
