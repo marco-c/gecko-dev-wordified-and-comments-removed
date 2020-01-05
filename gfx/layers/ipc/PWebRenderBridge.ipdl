@@ -294,11 +294,16 @@ ImageKey
 aImageKey
 )
 ;
-async
+sync
 DPBegin
 (
 IntSize
 aSize
+)
+returns
+(
+bool
+aOutSuccess
 )
 ;
 async
