@@ -6271,7 +6271,7 @@ kApplication
 ASSERT_EQ
 (
 "
-5000
+0
 "
 msection
 -
@@ -6295,11 +6295,8 @@ sctpmap
 msection
 -
 >
-FindSctpmap
+GetSctpmap
 (
-"
-5000
-"
 )
 )
 ;
@@ -6311,7 +6308,7 @@ sctpmap
 ASSERT_EQ
 (
 "
-5000
+0
 "
 sctpmap
 -

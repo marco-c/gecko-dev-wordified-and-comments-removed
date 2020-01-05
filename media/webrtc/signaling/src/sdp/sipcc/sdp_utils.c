@@ -286,6 +286,13 @@ line_number
 =
 line
 ;
+mca_p
+-
+>
+sctp_fmt
+=
+SDP_SCTP_MEDIA_FMT_UNKNOWN
+;
 return
 (
 mca_p

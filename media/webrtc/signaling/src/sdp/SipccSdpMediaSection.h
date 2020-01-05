@@ -316,14 +316,9 @@ std
 :
 string
 &
-pt
-const
-std
-:
-:
-string
-&
 name
+uint16_t
+port
 uint16_t
 streams
 )

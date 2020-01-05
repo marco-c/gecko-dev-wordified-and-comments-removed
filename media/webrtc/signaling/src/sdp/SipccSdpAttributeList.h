@@ -348,6 +348,15 @@ const
 override
 ;
 virtual
+unsigned
+int
+GetSctpPort
+(
+)
+const
+override
+;
+virtual
 const
 std
 :
