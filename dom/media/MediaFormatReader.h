@@ -151,7 +151,12 @@ RequestVideoData
 (
 bool
 aSkipToNextKeyframe
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aTimeThreshold
 )
 override
