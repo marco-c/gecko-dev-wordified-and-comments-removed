@@ -642,16 +642,6 @@ SyncTestingInfrastructure
 server
 )
 ;
-Service
-.
-identity
-.
-username
-=
-"
-foo
-"
-;
 let
 meta_global
 =

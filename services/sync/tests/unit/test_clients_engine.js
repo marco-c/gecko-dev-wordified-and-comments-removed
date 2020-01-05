@@ -746,9 +746,6 @@ Service
 .
 login
 (
-"
-foo
-"
 )
 ;
 generateNewKeys
