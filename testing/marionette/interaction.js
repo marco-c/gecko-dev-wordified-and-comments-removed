@@ -411,7 +411,7 @@ interactable
 {
 throw
 new
-ElementNotVisibleError
+ElementNotInteractableError
 (
 )
 ;

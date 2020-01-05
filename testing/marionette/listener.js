@@ -3910,7 +3910,7 @@ visible
 {
 throw
 new
-ElementNotVisibleError
+ElementNotInteractableError
 (
 "
 Element
