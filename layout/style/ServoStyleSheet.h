@@ -142,6 +142,11 @@ uint32_t
 aLineNumber
 )
 ;
+void
+LoadFailed
+(
+)
+;
 size_t
 SizeOfIncludingThis
 (
