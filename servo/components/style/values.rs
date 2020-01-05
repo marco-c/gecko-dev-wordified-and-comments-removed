@@ -11563,6 +11563,10 @@ CSSFloat
 impl
 CalcLengthOrPercentage
 {
+#
+[
+inline
+]
 pub
 fn
 length
@@ -11586,6 +11590,10 @@ Au
 )
 )
 }
+#
+[
+inline
+]
 pub
 fn
 percentage
