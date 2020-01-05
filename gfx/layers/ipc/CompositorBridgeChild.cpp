@@ -1151,6 +1151,7 @@ CompositorBridgeParent
 (
 aScale
 vsyncRate
+aOptions
 aUseExternalSurface
 aSurfaceSize
 )
@@ -1194,7 +1195,6 @@ InitSameProcess
 (
 aWidget
 aLayerTreeId
-aOptions
 )
 ;
 return

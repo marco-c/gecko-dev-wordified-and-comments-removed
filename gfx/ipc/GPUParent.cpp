@@ -1509,6 +1509,10 @@ TimeDuration
 &
 aVsyncRate
 const
+CompositorOptions
+&
+aOptions
+const
 bool
 &
 aUseExternalSurfaceSize
@@ -1529,6 +1533,7 @@ CompositorBridgeParent
 (
 aScale
 aVsyncRate
+aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
 )

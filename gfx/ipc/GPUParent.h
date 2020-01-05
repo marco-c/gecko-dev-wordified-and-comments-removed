@@ -229,6 +229,10 @@ TimeDuration
 &
 aVsyncRate
 const
+CompositorOptions
+&
+aOptions
+const
 bool
 &
 aUseExternalSurface
