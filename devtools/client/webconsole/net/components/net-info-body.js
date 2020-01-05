@@ -39,8 +39,6 @@ components
 /
 reps
 /
-load
--
 reps
 "
 )

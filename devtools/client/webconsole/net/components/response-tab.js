@@ -67,8 +67,6 @@ components
 /
 reps
 /
-load
--
 reps
 "
 )
