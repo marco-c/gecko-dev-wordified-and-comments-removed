@@ -8550,8 +8550,14 @@ aSubjectPrincipal
 bool
 CanMoveResizeWindows
 (
-bool
-aCallerIsChrome
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 mozilla
