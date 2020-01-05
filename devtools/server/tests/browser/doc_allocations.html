@@ -29,6 +29,11 @@ body
 <
 script
 >
+"
+use
+strict
+"
+;
 window
 .
 allocs
@@ -51,7 +56,7 @@ allocator
 {
 for
 (
-var
+let
 i
 =
 0
@@ -73,6 +78,8 @@ push
 (
 new
 Object
+(
+)
 )
 ;
 }

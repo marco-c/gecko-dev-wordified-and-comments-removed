@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 WAIT_TIME
 =
@@ -28,9 +33,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -42,13 +44,6 @@ doc_perf
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (

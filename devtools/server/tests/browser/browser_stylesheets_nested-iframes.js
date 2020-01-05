@@ -28,9 +28,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -46,13 +43,6 @@ iframes
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 info
 (

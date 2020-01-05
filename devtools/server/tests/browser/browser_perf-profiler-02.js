@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -19,7 +24,6 @@ performance
 const
 {
 pmmIsProfilerActive
-pmmStopProfiler
 pmmLoadFrameScripts
 }
 =

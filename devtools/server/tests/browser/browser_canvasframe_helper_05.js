@@ -730,9 +730,6 @@ y
 win
 )
 {
-let
-forceReflow
-=
 win
 .
 document

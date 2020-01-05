@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -20,7 +25,6 @@ const
 {
 pmmIsProfilerActive
 pmmStartProfiler
-pmmStopProfiler
 pmmLoadFrameScripts
 pmmClearFrameScripts
 }
@@ -164,9 +168,6 @@ connect
 (
 )
 ;
-let
-recording
-=
 yield
 firstFront
 .

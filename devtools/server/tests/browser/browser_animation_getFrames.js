@@ -3,17 +3,6 @@ use
 strict
 "
 ;
-const
-URL
-=
-MAIN_DOMAIN
-+
-"
-animation
-.
-html
-"
-;
 add_task
 (
 function

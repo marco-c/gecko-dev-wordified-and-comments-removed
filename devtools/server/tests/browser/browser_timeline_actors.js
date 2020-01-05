@@ -28,9 +28,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -49,13 +46,6 @@ utf
 mop
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (

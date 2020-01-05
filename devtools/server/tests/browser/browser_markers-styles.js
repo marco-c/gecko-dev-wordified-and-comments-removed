@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -30,9 +35,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -44,13 +46,6 @@ doc_perf
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (
@@ -119,11 +114,11 @@ front
 MARKER_NAME
 function
 (
-markers
+marker
 )
 {
 return
-markers
+marker
 .
 some
 (
