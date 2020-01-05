@@ -156,6 +156,8 @@ body
 ;
 *
 /
+/
+/
 readonly
 attribute
 HTMLHeadElement
