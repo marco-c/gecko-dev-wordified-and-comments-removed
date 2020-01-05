@@ -493,7 +493,7 @@ asserts
 if
 (
 stylo
-2
+4
 )
 =
 =
@@ -509,7 +509,7 @@ styles
 html
 #
 bug
-1324704
+1328319
 fails
 =
 =

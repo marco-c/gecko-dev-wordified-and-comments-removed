@@ -7613,13 +7613,6 @@ xul
 .
 xul
 fails
-asserts
--
-if
-(
-stylo
-30
-)
 skip
 -
 if
@@ -7638,9 +7631,6 @@ html
 1
 .
 html
-#
-bug
-1324704
 #
 crash
 bug
@@ -8210,14 +8200,6 @@ html
 6
 .
 html
-fails
-asserts
--
-if
-(
-stylo
-2
-)
 =
 =
 368622
@@ -8230,9 +8212,6 @@ html
 1
 .
 html
-#
-bug
-1324704
 =
 =
 368651
@@ -16046,7 +16025,6 @@ html
 1
 .
 html
-fails
 =
 =
 451168
@@ -19429,7 +19407,6 @@ html
 2
 .
 html
-fails
 =
 =
 528096
