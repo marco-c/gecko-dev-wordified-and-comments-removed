@@ -171,6 +171,11 @@ nsIHttpProtocolHandler
 idl
 '
 '
+nsIRaceCacheWithNetwork
+.
+idl
+'
+'
 nsIWellKnownOpportunisticUtils
 .
 idl
