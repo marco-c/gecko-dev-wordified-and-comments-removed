@@ -1012,7 +1012,7 @@ pos
 }
 }
 nsAutoString
-moduleNameStr
+moduleName
 (
 modulePath
 )
@@ -1020,7 +1020,7 @@ modulePath
 int32_t
 pos
 =
-moduleNameStr
+moduleName
 .
 RFindChar
 (
@@ -1038,7 +1038,7 @@ pos
 kNotFound
 )
 {
-moduleNameStr
+moduleName
 .
 Cut
 (
@@ -1070,7 +1070,7 @@ module
 SizeOfImage
 0
 breakpadId
-moduleNameStr
+moduleName
 pdbNameStr
 GetVersion
 (
