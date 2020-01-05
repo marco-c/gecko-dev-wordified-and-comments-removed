@@ -1019,6 +1019,14 @@ GetFlattenedTreeParentElement
 )
 const
 ;
+inline
+Element
+*
+GetFlattenedTreeParentElementForStyle
+(
+)
+const
+;
 bool
 HasDirtyDescendantsForServo
 (

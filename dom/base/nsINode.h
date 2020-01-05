@@ -2208,6 +2208,14 @@ GetFlattenedTreeParentNode
 )
 const
 ;
+inline
+nsINode
+*
+GetFlattenedTreeParentNodeForStyle
+(
+)
+const
+;
 mozilla
 :
 :
