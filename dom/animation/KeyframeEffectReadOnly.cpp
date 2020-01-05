@@ -813,7 +813,7 @@ Keyframe
 &
 aKeyframes
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )
@@ -869,7 +869,7 @@ IsSame
 <
 StyleType
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 >
 :
@@ -885,7 +885,7 @@ or
 "
 "
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 "
 )
@@ -1346,7 +1346,7 @@ AsServoComputedValues
 nullptr
 ;
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 servoValues
 =
 {
@@ -1367,7 +1367,7 @@ KeyframeEffectReadOnly
 UpdateProperties
 (
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )
@@ -3937,7 +3937,7 @@ IsSame
 <
 StyleType
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 >
 :
@@ -3953,7 +3953,7 @@ or
 "
 "
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 "
 )
