@@ -213,6 +213,16 @@ friend
 class
 CondVar
 ;
+template
+<
+typename
+typename
+bool
+>
+friend
+class
+MozPromise
+;
 }
 ;
 class
