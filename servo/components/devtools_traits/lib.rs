@@ -494,6 +494,7 @@ Hash
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
