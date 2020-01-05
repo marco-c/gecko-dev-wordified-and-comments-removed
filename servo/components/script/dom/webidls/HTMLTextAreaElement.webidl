@@ -173,8 +173,6 @@ attribute
 DOMString
 placeholder
 ;
-/
-/
 attribute
 boolean
 readOnly

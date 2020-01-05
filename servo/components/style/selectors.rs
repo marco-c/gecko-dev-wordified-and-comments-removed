@@ -254,6 +254,7 @@ Hover
 Disabled
 Enabled
 Checked
+Indeterminate
 FirstChild
 LastChild
 OnlyChild
@@ -695,6 +696,9 @@ Root
 |
 &
 Checked
+|
+&
+Indeterminate
 |
 &
 NthChild
@@ -3748,6 +3752,15 @@ checked
 Ok
 (
 Checked
+)
+"
+indeterminate
+"
+=
+>
+Ok
+(
+Indeterminate
 )
 "
 first

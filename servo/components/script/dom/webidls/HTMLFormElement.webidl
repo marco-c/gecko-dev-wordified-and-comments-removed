@@ -195,8 +195,6 @@ submit
 (
 )
 ;
-/
-/
 void
 reset
 (

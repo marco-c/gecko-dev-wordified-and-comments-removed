@@ -136,8 +136,6 @@ attribute
 boolean
 autofocus
 ;
-/
-/
 attribute
 boolean
 defaultChecked
@@ -296,8 +294,6 @@ attribute
 DOMString
 type
 ;
-/
-/
 attribute
 DOMString
 defaultValue
