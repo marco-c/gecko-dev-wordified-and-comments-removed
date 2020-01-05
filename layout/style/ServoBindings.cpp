@@ -196,6 +196,17 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
 using
 namespace
 mozilla

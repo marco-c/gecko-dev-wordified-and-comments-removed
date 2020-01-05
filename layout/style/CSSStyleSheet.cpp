@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsStyleSet
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

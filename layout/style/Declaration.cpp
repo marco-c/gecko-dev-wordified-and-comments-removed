@@ -30,6 +30,17 @@ h
 #
 include
 "
+mozilla
+/
+css
+/
+Rule
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

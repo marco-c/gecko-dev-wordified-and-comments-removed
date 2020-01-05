@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsStaticAtom
 .
 h
