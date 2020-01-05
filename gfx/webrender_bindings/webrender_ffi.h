@@ -1650,9 +1650,7 @@ height
 WR_FUNC
 ;
 WR_INLINE
-const
-uint8_t
-*
+void
 wr_renderer_readback
 (
 WrRenderer
