@@ -14,6 +14,21 @@ dom
 bindings
 :
 :
+cell
+:
+:
+{
+DOMRefCell
+Ref
+}
+;
+use
+dom
+:
+:
+bindings
+:
+:
 codegen
 :
 :
@@ -731,11 +746,7 @@ std
 cell
 :
 :
-{
 Cell
-Ref
-RefCell
-}
 ;
 use
 std
@@ -786,7 +797,7 @@ Window
 >
 idmap
 :
-RefCell
+DOMRefCell
 <
 HashMap
 <
@@ -811,7 +822,7 @@ content_type
 DOMString
 last_modified
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -820,7 +831,7 @@ DOMString
 >
 encoding_name
 :
-RefCell
+DOMRefCell
 <
 DOMString
 >
@@ -2237,7 +2248,7 @@ window
 )
 idmap
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -2307,7 +2318,7 @@ to_string
 }
 last_modified
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -2328,7 +2339,7 @@ NoQuirks
 )
 encoding_name
 :
-RefCell
+DOMRefCell
 :
 :
 new

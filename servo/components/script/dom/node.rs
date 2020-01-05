@@ -17,6 +17,18 @@ dom
 bindings
 :
 :
+cell
+:
+:
+DOMRefCell
+;
+use
+dom
+:
+:
+bindings
+:
+:
 codegen
 :
 :
@@ -781,7 +793,7 @@ layout_data
 LayoutDataRef
 unique_id
 :
-RefCell
+DOMRefCell
 <
 String
 >
@@ -7416,7 +7428,7 @@ new
 )
 unique_id
 :
-RefCell
+DOMRefCell
 :
 :
 new

@@ -5,6 +5,18 @@ dom
 bindings
 :
 :
+cell
+:
+:
+DOMRefCell
+;
+use
+dom
+:
+:
+bindings
+:
+:
 codegen
 :
 :
@@ -115,10 +127,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 use
 std
@@ -252,7 +261,7 @@ EventTarget
 >
 type_
 :
-RefCell
+DOMRefCell
 <
 DOMString
 >
@@ -369,7 +378,7 @@ PhaseNone
 )
 type_
 :
-RefCell
+DOMRefCell
 :
 :
 new

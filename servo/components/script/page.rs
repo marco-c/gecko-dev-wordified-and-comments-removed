@@ -5,6 +5,22 @@ dom
 bindings
 :
 :
+cell
+:
+:
+{
+DOMRefCell
+Ref
+RefMut
+}
+;
+use
+dom
+:
+:
+bindings
+:
+:
 codegen
 :
 :
@@ -245,12 +261,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-Ref
-RefMut
-}
 ;
 use
 std
@@ -319,7 +330,7 @@ uint
 pub
 frame
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -342,7 +353,7 @@ static
 pub
 layout_join_port
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -362,7 +373,7 @@ WindowSizeData
 >
 js_info
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -371,7 +382,7 @@ JSPageInfo
 >
 url
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -400,7 +411,7 @@ WindowSizeData
 pub
 pending_dirty_nodes
 :
-RefCell
+DOMRefCell
 <
 SmallVec1
 <
@@ -410,7 +421,7 @@ UntrustedNodeAddress
 pub
 fragment_name
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -428,7 +439,7 @@ ConstellationChan
 pub
 children
 :
-RefCell
+DOMRefCell
 <
 Vec
 <
@@ -728,7 +739,7 @@ subpage_id
 subpage_id
 frame
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -743,7 +754,7 @@ layout_rpc
 layout_rpc
 layout_join_port
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -761,7 +772,7 @@ window_size
 )
 js_info
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -773,7 +784,7 @@ js_info
 )
 url
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -803,7 +814,7 @@ None
 )
 pending_dirty_nodes
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -817,7 +828,7 @@ new
 )
 fragment_name
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -841,7 +852,7 @@ constellation_chan
 constellation_chan
 children
 :
-RefCell
+DOMRefCell
 :
 :
 new
