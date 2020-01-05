@@ -1102,6 +1102,11 @@ if
 browser
 .
 frameLoader
+&
+&
+browser
+.
+frameLoader
 .
 tabParent
 &

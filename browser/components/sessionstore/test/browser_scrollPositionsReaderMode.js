@@ -258,12 +258,6 @@ tabs
 1
 ]
 ;
-yield
-promiseTabRestoring
-(
-tab
-)
-;
 ok
 (
 tab

@@ -173,6 +173,12 @@ if
 chromeWin
 .
 gMultiProcessBrowser
+|
+|
+!
+aBrowser
+.
+isConnected
 )
 {
 return
