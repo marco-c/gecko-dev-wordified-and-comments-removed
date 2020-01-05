@@ -394,7 +394,7 @@ rootDir
 ;
 VerifyPrivateStorePath
 <
-LookupCache
+LookupCacheV2
 >
 (
 "
@@ -413,7 +413,7 @@ false
 ;
 VerifyPrivateStorePath
 <
-LookupCache
+LookupCacheV4
 >
 (
 "
@@ -431,7 +431,7 @@ false
 ;
 VerifyPrivateStorePath
 <
-LookupCache
+LookupCacheV4
 >
 (
 "
