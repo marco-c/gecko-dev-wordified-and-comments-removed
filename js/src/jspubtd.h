@@ -59,6 +59,15 @@ include
 "
 js
 /
+Result
+.
+h
+"
+#
+include
+"
+js
+/
 TraceKind
 .
 h

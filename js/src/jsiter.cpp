@@ -3124,7 +3124,11 @@ nullptr
 JSObject
 *
 obj
-=
+;
+JS_TRY_VAR_OR_RETURN_NULL
+(
+cx
+obj
 JSObject
 :
 :
@@ -3140,14 +3144,7 @@ clasp
 shape
 group
 )
-;
-if
-(
-!
-obj
 )
-return
-nullptr
 ;
 PropertyIteratorObject
 *
