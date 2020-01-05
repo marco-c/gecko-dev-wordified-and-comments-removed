@@ -2140,6 +2140,7 @@ body
 ;
 }
 function
+*
 dirIter
 (
 dir
