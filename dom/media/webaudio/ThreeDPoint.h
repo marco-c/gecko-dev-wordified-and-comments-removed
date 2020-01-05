@@ -97,6 +97,16 @@ Normalize
 (
 )
 {
+if
+(
+IsZero
+(
+)
+)
+{
+return
+;
+}
 double
 invMax
 =
