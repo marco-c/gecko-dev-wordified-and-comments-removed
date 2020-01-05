@@ -6134,13 +6134,6 @@ TouchDelegateWithReset
 java
 '
 '
-widget
-/
-TwoWayView
-.
-java
-'
-'
 ZoomedView
 .
 java
