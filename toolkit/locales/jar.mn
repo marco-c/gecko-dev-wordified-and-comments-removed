@@ -733,6 +733,9 @@ filefield
 .
 properties
 )
+#
+ifdef
+MOZ_GTK
 locale
 /
 AB_CD
@@ -752,6 +755,8 @@ filepicker
 .
 dtd
 )
+#
+endif
 locale
 /
 AB_CD

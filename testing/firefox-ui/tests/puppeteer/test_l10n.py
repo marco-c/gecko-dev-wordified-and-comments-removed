@@ -89,7 +89,7 @@ global
 /
 locale
 /
-filepicker
+about
 .
 dtd
 '
@@ -191,7 +191,7 @@ global
 /
 locale
 /
-filepicker
+about
 .
 dtd
 '
