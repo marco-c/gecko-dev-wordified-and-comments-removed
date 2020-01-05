@@ -173,6 +173,16 @@ jar
 mn
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+SiteDataManager
+.
+jsm
+'
+]
 with
 Files
 (
