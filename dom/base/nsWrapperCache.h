@@ -80,6 +80,9 @@ class
 nsWindowRoot
 ;
 class
+nsCSSFontFeatureValuesRule
+;
+class
 nsCSSKeyframeRule
 ;
 class
@@ -765,6 +768,10 @@ nsInProcessTabChildGlobal
 friend
 class
 nsWindowRoot
+;
+friend
+class
+nsCSSFontFeatureValuesRule
 ;
 friend
 class

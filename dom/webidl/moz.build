@@ -497,11 +497,6 @@ CSSFontFaceRule
 webidl
 '
 '
-CSSFontFeatureValuesRule
-.
-webidl
-'
-'
 CSSGroupingRule
 .
 webidl
