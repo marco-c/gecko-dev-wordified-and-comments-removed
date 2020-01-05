@@ -100,10 +100,6 @@ uint8_t
 *
 fp_
 ;
-uint8_t
-*
-pc_
-;
 Unwind
 unwind_
 ;
