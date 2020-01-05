@@ -6625,6 +6625,11 @@ SharedPreferencesHelper
 java
 '
 '
+SingleTabActivity
+.
+java
+'
+'
 SiteIdentity
 .
 java
