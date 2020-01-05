@@ -772,6 +772,15 @@ property
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_HasCSSWideKeyword
+bool
+RawServoDeclarationBlockBorrowed
+declarations
+nsCSSPropertyID
+property
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationCompose
 void
 RawServoAnimationValueMapBorrowed
