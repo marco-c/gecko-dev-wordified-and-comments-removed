@@ -49,5 +49,17 @@ Version
 }
 zoneStrings
 {
+"
+Etc
+:
+Unknown
+"
+{
+ec
+{
+"
+"
+}
+}
 }
 }

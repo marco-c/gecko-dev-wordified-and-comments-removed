@@ -57,5 +57,17 @@ Version
 }
 zoneStrings
 {
+"
+Asia
+:
+Kabul
+"
+{
+ec
+{
+"
+"
+}
+}
 }
 }
