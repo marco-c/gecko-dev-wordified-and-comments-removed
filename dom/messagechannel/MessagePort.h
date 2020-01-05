@@ -61,13 +61,13 @@ namespace
 dom
 {
 class
+ClonedMessageData
+;
+class
 MessagePortChild
 ;
 class
 MessagePortIdentifier
-;
-class
-MessagePortMessage
 ;
 class
 PostMessageRunnable
@@ -264,7 +264,7 @@ Entangled
 (
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 aMessages
@@ -275,7 +275,7 @@ MessagesReceived
 (
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 aMessages

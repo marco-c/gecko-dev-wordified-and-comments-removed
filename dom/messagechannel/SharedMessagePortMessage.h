@@ -11,7 +11,9 @@ mozilla
 /
 dom
 /
-StructuredCloneHolder
+ipc
+/
+StructuredCloneData
 .
 h
 "
@@ -35,7 +37,10 @@ SharedMessagePortMessage
 final
 :
 public
-StructuredCloneHolder
+ipc
+:
+:
+StructuredCloneData
 {
 public
 :
@@ -47,14 +52,11 @@ SharedMessagePortMessage
 (
 )
 :
-StructuredCloneHolder
+ipc
+:
+:
+StructuredCloneData
 (
-CloningSupported
-TransferringSupported
-StructuredCloneScope
-:
-:
-DifferentProcess
 )
 {
 }
@@ -77,7 +79,7 @@ SharedMessagePortMessage
 aData
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 aArray
@@ -89,7 +91,7 @@ FromMessagesToSharedChild
 (
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 aArray
@@ -123,7 +125,7 @@ SharedMessagePortMessage
 aData
 FallibleTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 aArray
@@ -135,7 +137,7 @@ FromMessagesToSharedParent
 (
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 aArray
