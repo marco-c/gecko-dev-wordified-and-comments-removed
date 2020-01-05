@@ -139,10 +139,6 @@ PImageContainer
 ;
 include
 protocol
-PLayer
-;
-include
-protocol
 PLayerTransaction
 ;
 include

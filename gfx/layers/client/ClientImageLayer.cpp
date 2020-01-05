@@ -344,13 +344,6 @@ DestroyBackBuffer
 (
 )
 ;
-ClientLayer
-:
-:
-Disconnect
-(
-)
-;
 }
 void
 DestroyBackBuffer

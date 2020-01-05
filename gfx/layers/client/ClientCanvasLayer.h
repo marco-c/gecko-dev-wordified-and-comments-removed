@@ -358,13 +358,6 @@ mCanvasClient
 =
 nullptr
 ;
-ClientLayer
-:
-:
-Disconnect
-(
-)
-;
 }
 virtual
 CompositableClient

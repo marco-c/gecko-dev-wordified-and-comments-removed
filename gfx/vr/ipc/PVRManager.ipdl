@@ -109,10 +109,6 @@ LayersSurfaces
 ;
 include
 protocol
-PLayer
-;
-include
-protocol
 PTexture
 ;
 include
