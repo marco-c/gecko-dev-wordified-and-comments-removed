@@ -4609,7 +4609,7 @@ return
 0
 ;
 }
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -4619,9 +4619,6 @@ bool
 aState
 )
 {
-return
-NS_OK
-;
 }
 bool
 nsChildView

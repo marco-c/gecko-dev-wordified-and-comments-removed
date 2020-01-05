@@ -4975,7 +4975,7 @@ SetAllocation
 }
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4988,9 +4988,6 @@ aState
 mEnabled
 =
 aState
-;
-return
-NS_OK
 ;
 }
 bool

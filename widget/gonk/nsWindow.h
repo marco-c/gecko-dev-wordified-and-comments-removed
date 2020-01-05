@@ -200,7 +200,8 @@ bool
 aRepaint
 )
 ;
-NS_IMETHOD
+virtual
+void
 Enable
 (
 bool

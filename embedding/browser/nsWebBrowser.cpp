@@ -5975,7 +5975,6 @@ if
 mInternalWidget
 )
 {
-return
 mInternalWidget
 -
 >
@@ -5983,6 +5982,9 @@ Enable
 (
 aEnabled
 )
+;
+return
+NS_OK
 ;
 }
 return

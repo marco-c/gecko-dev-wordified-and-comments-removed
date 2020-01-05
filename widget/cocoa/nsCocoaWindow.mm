@@ -7206,7 +7206,7 @@ whiteColor
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -7216,9 +7216,6 @@ bool
 aState
 )
 {
-return
-NS_OK
-;
 }
 bool
 nsCocoaWindow

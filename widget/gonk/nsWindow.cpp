@@ -1682,7 +1682,7 @@ mBounds
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -1692,9 +1692,6 @@ bool
 aState
 )
 {
-return
-NS_OK
-;
 }
 bool
 nsWindow

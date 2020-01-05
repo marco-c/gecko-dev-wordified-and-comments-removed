@@ -1703,7 +1703,8 @@ SizeMode
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 Enable
 (
 bool

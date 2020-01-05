@@ -8369,7 +8369,7 @@ logHeight
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8393,9 +8393,6 @@ bState
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 nsWindow
