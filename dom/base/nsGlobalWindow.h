@@ -1694,7 +1694,7 @@ override
 ;
 virtual
 void
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 override

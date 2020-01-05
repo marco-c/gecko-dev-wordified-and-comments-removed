@@ -35511,7 +35511,7 @@ nullptr
 win
 -
 >
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 ;

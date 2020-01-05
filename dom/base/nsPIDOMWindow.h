@@ -803,7 +803,7 @@ aOriginalOpener
 ;
 virtual
 void
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 =
