@@ -98,10 +98,6 @@ HAVE_PSUTIL
 =
 False
 from
-automation
-import
-Automation
-from
 xpcshellcommandline
 import
 parser_desktop
@@ -252,6 +248,8 @@ import
 commandline
 import
 mozcrash
+import
+mozfile
 import
 mozinfo
 from
@@ -597,6 +595,19 @@ get
 (
 '
 xrePath
+'
+)
+        
+self
+.
+utility_path
+=
+kwargs
+.
+get
+(
+'
+utility_path
 '
 )
         
@@ -1172,9 +1183,9 @@ filesystem
 "
 "
         
-shutil
+mozfile
 .
-rmtree
+remove
 (
 dirname
 )
@@ -1735,23 +1746,21 @@ proc
 )
 :
         
-Automation
-(
-)
+mozcrash
 .
-killAndGetStackNoScreenshot
+kill_and_get_minidump
 (
 proc
 .
 pid
-                                                 
 self
 .
-appPath
-                                                 
+tempDir
+utility_path
+=
 self
 .
-debuggerInfo
+utility_path
 )
     
 def
@@ -1832,6 +1841,31 @@ is
 None
 :
             
+if
+HAVE_PSUTIL
+:
+                
+try
+:
+                    
+self
+.
+kill
+(
+proc
+)
+                
+except
+psutil
+.
+NoSuchProcess
+:
+                    
+pass
+            
+else
+:
+                
 self
 .
 kill
@@ -8805,6 +8839,12 @@ xrePath
         
 self
 .
+utility_path
+=
+utility_path
+        
+self
+.
 appPath
 =
 appPath
@@ -9124,6 +9164,8 @@ stack_fixer_function
 None
         
 if
+self
+.
 utility_path
 and
 os
@@ -9132,6 +9174,8 @@ path
 .
 exists
 (
+self
+.
 utility_path
 )
 :
@@ -9142,6 +9186,8 @@ stack_fixer_function
 =
 get_stack_fixer_function
 (
+self
+.
 utility_path
 self
 .
@@ -9265,6 +9311,14 @@ xrePath
 self
 .
 xrePath
+            
+'
+utility_path
+'
+:
+self
+.
+utility_path
             
 '
 testingModulesDir
