@@ -536,6 +536,8 @@ serif
 ~
 "
 Times
+New
+Roman
 "
 )
 ;
