@@ -187,7 +187,6 @@ document
 :
 :
 {
-DocumentProgressTask
 DocumentSource
 MouseEventType
 }
@@ -7552,10 +7551,6 @@ addr
 clone
 (
 )
-DocumentProgressTask
-:
-:
-Load
 )
 ;
 self
