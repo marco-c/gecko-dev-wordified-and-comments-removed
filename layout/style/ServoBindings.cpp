@@ -4907,10 +4907,9 @@ aKeyword
 aCSSValue
 -
 >
-SetIntValue
+SetEnumValue
 (
 aKeyword
-eCSSUnit_Enumerated
 )
 ;
 }
@@ -4926,10 +4925,9 @@ aPercent
 aCSSValue
 -
 >
-SetFloatValue
+SetPercentValue
 (
 aPercent
-eCSSUnit_Number
 )
 ;
 }
