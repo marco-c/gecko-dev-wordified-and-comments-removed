@@ -636,7 +636,7 @@ mCurrentLine
 aFrame
 -
 >
-end_lines
+EndLine
 (
 )
 ;
@@ -1992,7 +1992,7 @@ firstLine
 block
 -
 >
-begin_lines
+BeginLine
 (
 )
 ;
@@ -2621,7 +2621,7 @@ NS_PRECONDITION
 mBlock
 -
 >
-end_lines
+EndLine
 (
 )
 !

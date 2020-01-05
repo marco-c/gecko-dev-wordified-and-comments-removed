@@ -17854,7 +17854,7 @@ aLine
 aParent
 -
 >
-end_lines
+EndLine
 (
 )
 )
@@ -18233,7 +18233,7 @@ firstLine
 bf
 -
 >
-begin_lines
+BeginLine
 (
 )
 ;
@@ -18246,7 +18246,7 @@ end
 bf
 -
 >
-end_lines
+EndLine
 (
 )
 ;

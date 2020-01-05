@@ -535,7 +535,7 @@ line
 block
 -
 >
-begin_lines
+BeginLine
 (
 )
 ;
@@ -544,7 +544,7 @@ line_end
 block
 -
 >
-end_lines
+EndLine
 (
 )
 ;
