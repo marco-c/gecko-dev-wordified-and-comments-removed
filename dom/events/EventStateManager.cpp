@@ -3472,16 +3472,10 @@ nsEventStatus_eConsumeNoDefault
 MOZ_FALLTHROUGH
 ;
 case
-eBeforeKeyDown
-:
-case
 eKeyDown
 :
 case
 eAfterKeyDown
-:
-case
-eBeforeKeyUp
 :
 case
 eKeyUp
@@ -14782,9 +14776,6 @@ AsDragEvent
 ;
 break
 ;
-case
-eBeforeKeyUp
-:
 case
 eKeyUp
 :

@@ -984,12 +984,6 @@ case
 eKeyUpOnPlugin
 :
 case
-eBeforeKeyDown
-:
-case
-eBeforeKeyUp
-:
-case
 eAfterKeyDown
 :
 case

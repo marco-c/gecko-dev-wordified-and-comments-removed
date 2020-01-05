@@ -49,15 +49,7 @@ eKeyUpOnPlugin
 )
 NS_EVENT_MESSAGE
 (
-eBeforeKeyDown
-)
-NS_EVENT_MESSAGE
-(
 eAfterKeyDown
-)
-NS_EVENT_MESSAGE
-(
-eBeforeKeyUp
 )
 NS_EVENT_MESSAGE
 (
