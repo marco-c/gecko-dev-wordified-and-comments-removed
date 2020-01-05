@@ -441,6 +441,14 @@ mRatio
 .
 0f
 )
+mDragStart
+(
+0
+)
+mThumbStart
+(
+0
+)
 mCurPos
 (
 0
