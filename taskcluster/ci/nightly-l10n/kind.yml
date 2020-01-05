@@ -61,7 +61,7 @@ task
 .
 repacks
 :
-load_tasks
+loader
 transforms
 :
 -

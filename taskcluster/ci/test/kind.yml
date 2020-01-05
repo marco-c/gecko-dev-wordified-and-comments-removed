@@ -6,7 +6,7 @@ task
 .
 test
 :
-load_tasks
+loader
 kind
 -
 dependencies

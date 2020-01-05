@@ -61,7 +61,7 @@ task
 .
 checksums_signing
 :
-load_tasks
+loader
 transforms
 :
 -

@@ -61,7 +61,7 @@ task
 .
 signing
 :
-load_tasks
+loader
 transforms
 :
 -

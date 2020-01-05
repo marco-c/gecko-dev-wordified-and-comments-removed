@@ -61,7 +61,7 @@ task
 .
 balrog
 :
-load_tasks
+loader
 transforms
 :
 -

@@ -61,7 +61,7 @@ task
 .
 beetmover
 :
-load_tasks
+loader
 transforms
 :
 -
