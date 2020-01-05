@@ -168,6 +168,8 @@ min_android_version
 =
 dependable
 (
+lambda
+:
 '
 9
 '

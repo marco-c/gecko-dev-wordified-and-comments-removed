@@ -834,7 +834,14 @@ include
 (
 include_project_configure
 )
-dependable
+depends
+(
+'
+-
+-
+help
+'
+)
 imports
 (
 _from
@@ -853,6 +860,7 @@ backends
 def
 build_backends_choices
 (
+_
 )
 :
 return

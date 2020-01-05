@@ -3347,7 +3347,14 @@ know
 anything
 about
 .
-dependable
+depends
+(
+'
+-
+-
+help
+'
+)
 imports
 (
 '
@@ -3374,6 +3381,7 @@ Option
 def
 remaining_mozconfig_options
 (
+_
 )
 :
 helper
