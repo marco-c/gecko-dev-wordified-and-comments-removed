@@ -1,3 +1,12 @@
+if
+(
+Array
+.
+prototype
+.
+values
+)
+{
 assertEq
 (
 Array
@@ -86,6 +95,7 @@ valuesUnscopeable
 (
 )
 ;
+}
 if
 (
 typeof
