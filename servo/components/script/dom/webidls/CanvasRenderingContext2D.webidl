@@ -1322,8 +1322,6 @@ double
 h
 )
 ;
-/
-/
 void
 arc
 (
