@@ -710,7 +710,7 @@ DIRS
 filter
 -
 out
-gtests
+external_tests
 (
 DIRS
 )

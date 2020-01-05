@@ -474,7 +474,7 @@ config
 SOURCE_DIR
 }
 /
-gtests
+external_tests
 /
 nss_bogo_shim
 /

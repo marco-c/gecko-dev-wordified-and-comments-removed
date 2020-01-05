@@ -195,7 +195,6 @@ rv
 =
 ssl_CreateECDHEphemeralKeyPair
 (
-NULL
 group
 &
 gECDHEKeyPairs

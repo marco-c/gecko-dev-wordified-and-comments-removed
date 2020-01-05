@@ -460,6 +460,10 @@ optimizeSpace
 "
 )
 ;
+first
+=
+PR_FALSE
+;
 }
 return
 flags
@@ -2778,11 +2782,6 @@ initParams
 passwordRequired
 ;
 }
-SECMOD_RestartModules
-(
-PR_FALSE
-)
-;
 }
 else
 {

@@ -2353,7 +2353,6 @@ R3
 }
 static
 SECStatus
-NO_SANITIZE_ALIGNMENT
 rc2_EncryptECB
 (
 RC2Context
@@ -2426,7 +2425,6 @@ SECSuccess
 }
 static
 SECStatus
-NO_SANITIZE_ALIGNMENT
 rc2_DecryptECB
 (
 RC2Context
@@ -2499,7 +2497,6 @@ SECSuccess
 }
 static
 SECStatus
-NO_SANITIZE_ALIGNMENT
 rc2_EncryptCBC
 (
 RC2Context

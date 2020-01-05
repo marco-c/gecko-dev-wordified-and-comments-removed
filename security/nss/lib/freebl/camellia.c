@@ -8700,7 +8700,6 @@ return
 ;
 }
 SECStatus
-NO_SANITIZE_ALIGNMENT
 camellia_encrypt128
 (
 const
@@ -9582,7 +9581,6 @@ SECSuccess
 ;
 }
 SECStatus
-NO_SANITIZE_ALIGNMENT
 camellia_decrypt128
 (
 const
@@ -10464,7 +10462,6 @@ SECSuccess
 ;
 }
 SECStatus
-NO_SANITIZE_ALIGNMENT
 camellia_encrypt256
 (
 const
@@ -11578,7 +11575,6 @@ SECSuccess
 ;
 }
 SECStatus
-NO_SANITIZE_ALIGNMENT
 camellia_decrypt256
 (
 const

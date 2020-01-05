@@ -74,11 +74,9 @@ MAPERROR
 x
 y
 )
-\
 case
 x
 :
-\
 return
 y
 ;

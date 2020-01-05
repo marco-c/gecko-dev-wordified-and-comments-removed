@@ -1293,6 +1293,10 @@ issuerCert
 =
 NULL
 ;
+rv
+=
+SECSuccess
+;
 count
 +
 +
@@ -2474,6 +2478,10 @@ PORT_SetError
 (
 SEC_ERROR_UNSUPPORTED_KEYALG
 )
+;
+rv
+=
+SECFailure
 ;
 break
 ;

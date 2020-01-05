@@ -4415,10 +4415,6 @@ PORT_Free
 str
 )
 ;
-str
-=
-NULL
-;
 groups
 =
 PORT_ZNewArray

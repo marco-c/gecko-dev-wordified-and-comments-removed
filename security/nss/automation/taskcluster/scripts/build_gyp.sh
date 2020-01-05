@@ -44,12 +44,7 @@ script
 exec
 su
 worker
--
-c
-"
 0
-*
-"
 fi
 #
 Clone
@@ -81,14 +76,10 @@ nss
 build
 .
 sh
-{
-*
--
 -
 g
 -
 v
-}
 #
 Package
 .

@@ -62,6 +62,23 @@ MP_ASSEMBLY_SQUARE
 endif
 #
 if
+defined
+(
+_MSC_VER
+)
+&
+&
+_MSC_VER
+<
+1900
+#
+define
+inline
+__inline
+#
+endif
+#
+if
 MP_LOGTAB
 #
 include
@@ -10883,6 +10900,7 @@ return
 MP_OKAY
 ;
 }
+inline
 void
 s_mp_setz
 (
@@ -10940,6 +10958,7 @@ mp_digit
 #
 endif
 }
+inline
 void
 s_mp_copy
 (
@@ -11004,6 +11023,7 @@ mp_digit
 #
 endif
 }
+inline
 void
 *
 s_mp_alloc
@@ -11022,6 +11042,7 @@ ni
 )
 ;
 }
+inline
 void
 s_mp_free
 (
@@ -11042,6 +11063,7 @@ ptr
 ;
 }
 }
+inline
 void
 s_mp_clamp
 (

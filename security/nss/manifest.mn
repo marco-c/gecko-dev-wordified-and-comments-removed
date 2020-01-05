@@ -79,7 +79,7 @@ DIRS
 coreconf
 lib
 cmd
-gtests
+external_tests
 ifdef
 FUZZ
 DIRS

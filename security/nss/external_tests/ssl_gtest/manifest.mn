@@ -208,7 +208,7 @@ I
 CORE_DEPTH
 )
 /
-gtests
+external_tests
 /
 google_test
 /
@@ -222,7 +222,7 @@ I
 CORE_DEPTH
 )
 /
-gtests
+external_tests
 /
 common
 REQUIRES
