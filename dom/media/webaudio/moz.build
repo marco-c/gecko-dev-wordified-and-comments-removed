@@ -117,7 +117,7 @@ TEST_DIRS
 =
 [
 '
-compiledtest
+gtest
 '
 ]
 MOCHITEST_MANIFESTS
