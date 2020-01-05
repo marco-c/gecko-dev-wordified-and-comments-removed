@@ -4096,7 +4096,6 @@ mozilla
 :
 Maybe
 <
-const
 SVGImageContext
 >
 &

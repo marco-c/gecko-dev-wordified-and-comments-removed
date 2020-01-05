@@ -1783,7 +1783,6 @@ TYPE_VECTOR
 const
 Maybe
 <
-const
 SVGImageContext
 >
 context
