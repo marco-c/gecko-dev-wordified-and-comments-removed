@@ -10794,7 +10794,12 @@ return
 false
 ;
 return
-true
+!
+masm
+.
+oom
+(
+)
 ;
 }
 struct
