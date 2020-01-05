@@ -6,17 +6,12 @@ MediaPipeline
 h
 "
 #
-ifndef
-USE_FAKE_MEDIA_STREAMS
-#
 include
 "
 MediaStreamGraphImpl
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -8454,9 +8449,6 @@ MediaStreamGraphImpl
 graph
 )
 {
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 class
 Message
 :
@@ -8520,14 +8512,6 @@ this
 )
 )
 ;
-#
-else
-UnsetTrackIdImpl
-(
-)
-;
-#
-endif
 }
 void
 MediaPipelineTransmit
@@ -9336,9 +9320,6 @@ track_id_
 )
 ;
 }
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 void
 SetPrincipalHandle_m
 (
@@ -9446,8 +9427,6 @@ principal_handle_
 principal_handle
 ;
 }
-#
-endif
 protected
 :
 SourceMediaStream
@@ -10242,9 +10221,6 @@ Init
 )
 ;
 }
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 void
 MediaPipelineReceiveAudio
 :
@@ -10266,8 +10242,6 @@ principal_handle
 )
 ;
 }
-#
-endif
 class
 MediaPipelineReceiveVideo
 :
@@ -11216,9 +11190,6 @@ Init
 )
 ;
 }
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 void
 MediaPipelineReceiveVideo
 :
@@ -11240,6 +11211,4 @@ principal_handle
 )
 ;
 }
-#
-endif
 }

@@ -12,18 +12,6 @@ sigslot
 h
 "
 #
-ifdef
-USE_FAKE_MEDIA_STREAMS
-#
-include
-"
-FakeMediaStreams
-.
-h
-"
-#
-endif
-#
 include
 "
 MediaConduitInterface
@@ -136,9 +124,6 @@ VideoFrameConverter
 ;
 #
 endif
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 namespace
 dom
 {
@@ -149,8 +134,6 @@ MediaStreamTrack
 class
 SourceMediaStream
 ;
-#
-endif
 class
 MediaPipeline
 :
@@ -1302,9 +1285,6 @@ return
 segments_added_
 ;
 }
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 virtual
 void
 SetPrincipalHandle_m
@@ -1317,8 +1297,6 @@ principal_handle
 =
 0
 ;
-#
-endif
 protected
 :
 ~
@@ -1425,9 +1403,6 @@ return
 false
 ;
 }
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 void
 SetPrincipalHandle_m
 (
@@ -1438,8 +1413,6 @@ principal_handle
 )
 override
 ;
-#
-endif
 private
 :
 class
@@ -1539,9 +1512,6 @@ return
 true
 ;
 }
-#
-ifndef
-USE_FAKE_MEDIA_STREAMS
 void
 SetPrincipalHandle_m
 (
@@ -1552,8 +1522,6 @@ principal_handle
 )
 override
 ;
-#
-endif
 private
 :
 class
