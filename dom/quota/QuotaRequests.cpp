@@ -496,12 +496,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-MOZ_ASSERT
-(
-mResult
-)
-;
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aResult
@@ -773,12 +768,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-MOZ_ASSERT
-(
-mResult
-)
-;
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aResult
