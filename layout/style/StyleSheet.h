@@ -415,6 +415,7 @@ css
 SheetParsingMode
 mParsingMode
 ;
+const
 StyleBackendType
 mType
 ;
