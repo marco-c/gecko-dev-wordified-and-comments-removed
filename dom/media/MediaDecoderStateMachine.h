@@ -1801,12 +1801,6 @@ mBuffered
 ;
 Mirror
 <
-bool
->
-mIsReaderSuspended
-;
-Mirror
-<
 media
 :
 :
