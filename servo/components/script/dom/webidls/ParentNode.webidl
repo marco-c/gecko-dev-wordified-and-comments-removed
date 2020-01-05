@@ -131,8 +131,6 @@ attribute
 HTMLCollection
 children
 ;
-/
-*
 [
 Pure
 ]
@@ -160,8 +158,6 @@ unsigned
 long
 childElementCount
 ;
-*
-/
 /
 /
 Not
