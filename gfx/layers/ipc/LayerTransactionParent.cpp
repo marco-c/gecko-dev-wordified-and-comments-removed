@@ -3059,11 +3059,11 @@ nullptr
 layer
 -
 >
-SetAnimations
+SetCompositorAnimations
 (
 common
 .
-animations
+compositorAnimations
 (
 )
 )
