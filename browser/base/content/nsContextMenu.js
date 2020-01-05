@@ -2461,9 +2461,9 @@ isFrameImage
 .
 removeAttribute
 (
-'
+"
 hidden
-'
+"
 )
 ;
 else
@@ -2473,12 +2473,12 @@ isFrameImage
 .
 setAttribute
 (
-'
+"
 hidden
-'
-'
+"
+"
 true
-'
+"
 )
 ;
 }
@@ -2754,8 +2754,6 @@ blob
 ;
 }
 initSpellingItems
-:
-function
 (
 )
 {
@@ -2965,6 +2963,7 @@ numsug
 ;
 }
 else
+{
 this
 .
 showItem
@@ -2979,6 +2978,7 @@ suggestions
 false
 )
 ;
+}
 this
 .
 showItem
@@ -3106,6 +3106,7 @@ showDictionaries
 ;
 }
 else
+{
 this
 .
 showItem
@@ -3123,9 +3124,8 @@ false
 )
 ;
 }
+}
 initClipboardItems
-:
-function
 (
 )
 {
@@ -3487,8 +3487,6 @@ onAudio
 ;
 }
 initMediaPlayerItems
-:
-function
 (
 )
 {
@@ -4263,8 +4261,6 @@ onMedia
 ;
 }
 initClickToPlayItems
-:
-function
 (
 )
 {
@@ -4318,8 +4314,6 @@ onCTPPlugin
 ;
 }
 initPasswordManagerItems
-:
-function
 (
 )
 {
@@ -4634,8 +4628,6 @@ insertBeforeElement
 ;
 }
 initSyncItems
-:
-function
 (
 )
 {
@@ -4648,8 +4640,6 @@ this
 ;
 }
 openPasswordManager
-:
-function
 (
 )
 {
@@ -4667,8 +4657,6 @@ host
 ;
 }
 inspectNode
-:
-function
 (
 )
 {
@@ -4744,8 +4732,6 @@ target
 ;
 }
 setTarget
-:
-function
 (
 aNode
 aRangeParent
@@ -5977,27 +5963,6 @@ target
 )
 ;
 }
-const
-XMLNS
-=
-"
-http
-:
-/
-/
-www
-.
-w3
-.
-org
-/
-XML
-/
-1998
-/
-namespace
-"
-;
 var
 elem
 =
@@ -6650,11 +6615,11 @@ classList
 .
 contains
 (
-'
+"
 text
 -
 link
-'
+"
 )
 &
 &
@@ -6665,8 +6630,6 @@ href
 }
 }
 getComputedStyle
-:
-function
 (
 aElem
 aProp
@@ -6689,8 +6652,6 @@ aProp
 ;
 }
 getComputedURL
-:
-function
 (
 aElem
 aProp
@@ -6764,8 +6725,6 @@ null
 ;
 }
 isLinkSaveable
-:
-function
 (
 aLink
 )
@@ -6820,8 +6779,6 @@ snews
 ;
 }
 _isSpellCheckEnabled
-:
-function
 (
 aNode
 )
@@ -6889,8 +6846,6 @@ spellcheck
 ;
 }
 _isProprietaryDRM
-:
-function
 (
 )
 {
@@ -6928,8 +6883,6 @@ clearkey
 ;
 }
 _openLinkInParameters
-:
-function
 (
 extra
 )
@@ -7055,8 +7008,6 @@ params
 ;
 }
 openLink
-:
-function
 (
 )
 {
@@ -7087,8 +7038,6 @@ _openLinkInParameters
 ;
 }
 openLinkInPrivateWindow
-:
-function
 (
 )
 {
@@ -7124,8 +7073,6 @@ true
 ;
 }
 openLinkInTab
-:
-function
 (
 event
 )
@@ -7213,11 +7160,11 @@ target
 .
 getAttribute
 (
-'
+"
 data
 -
 usercontextid
-'
+"
 )
 )
 }
@@ -7240,8 +7187,6 @@ params
 ;
 }
 openLinkInCurrent
-:
-function
 (
 )
 {
@@ -7272,8 +7217,6 @@ _openLinkInParameters
 ;
 }
 openFrameInTab
-:
-function
 (
 )
 {
@@ -7313,8 +7256,6 @@ null
 ;
 }
 reloadFrame
-:
-function
 (
 )
 {
@@ -7343,8 +7284,6 @@ target
 ;
 }
 openFrame
-:
-function
 (
 )
 {
@@ -7384,8 +7323,6 @@ null
 ;
 }
 showOnlyThisFrame
-:
-function
 (
 )
 {
@@ -7440,8 +7377,6 @@ null
 ;
 }
 reload
-:
-function
 (
 event
 )
@@ -7453,8 +7388,6 @@ event
 ;
 }
 viewPartialSource
-:
-function
 (
 aContext
 )
@@ -7584,8 +7517,6 @@ openSelectionFn
 ;
 }
 viewFrameSource
-:
-function
 (
 )
 {
@@ -7612,8 +7543,6 @@ frameOuterWindowID
 ;
 }
 viewInfo
-:
-function
 (
 )
 {
@@ -7632,8 +7561,6 @@ browser
 ;
 }
 viewImageInfo
-:
-function
 (
 )
 {
@@ -7656,8 +7583,6 @@ browser
 ;
 }
 viewImageDesc
-:
-function
 (
 e
 )
@@ -7699,8 +7624,6 @@ documentURIObject
 ;
 }
 viewFrameInfo
-:
-function
 (
 )
 {
@@ -7721,8 +7644,6 @@ browser
 ;
 }
 reloadImage
-:
-function
 (
 )
 {
@@ -7768,8 +7689,6 @@ target
 ;
 }
 _canvasToBlobURL
-:
-function
 (
 target
 )
@@ -7867,8 +7786,6 @@ onMessage
 ;
 }
 viewMedia
-:
-function
 (
 e
 )
@@ -7923,8 +7840,6 @@ disallowInheritPrincipal
 :
 true
 referrerURI
-:
-referrerURI
 originPrincipal
 :
 systemPrincipal
@@ -7968,16 +7883,12 @@ disallowInheritPrincipal
 :
 true
 referrerURI
-:
-referrerURI
 }
 )
 ;
 }
 }
 saveVideoFrameAsImage
-:
-function
 (
 )
 {
@@ -8168,8 +8079,6 @@ onMessage
 ;
 }
 leaveDOMFullScreen
-:
-function
 (
 )
 {
@@ -8181,8 +8090,6 @@ exitFullscreen
 ;
 }
 viewBGImage
-:
-function
 (
 e
 )
@@ -8224,8 +8131,6 @@ documentURIObject
 ;
 }
 setDesktopBackground
-:
-function
 (
 )
 {
@@ -8297,7 +8202,7 @@ document
 .
 createElementNS
 (
-'
+"
 http
 :
 /
@@ -8311,10 +8216,10 @@ org
 1999
 /
 xhtml
-'
-'
+"
+"
 img
-'
+"
 )
 ;
 image
@@ -8477,8 +8382,6 @@ onMessage
 ;
 }
 saveFrame
-:
-function
 (
 )
 {
@@ -8495,8 +8398,6 @@ frameOuterWindowID
 ;
 }
 saveHelper
-:
-function
 (
 linkURL
 linkText
@@ -8958,8 +8859,6 @@ cancel
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
 ;
-return
-;
 }
 }
 var
@@ -9171,8 +9070,6 @@ saveAsListener
 ;
 }
 saveLink
-:
-function
 (
 )
 {
@@ -9214,8 +9111,6 @@ linkDownload
 ;
 }
 saveImage
-:
-function
 (
 )
 {
@@ -9238,8 +9133,6 @@ saveMedia
 ;
 }
 saveMedia
-:
-function
 (
 )
 {
@@ -9420,8 +9313,6 @@ frameOuterWindowID
 }
 }
 sendImage
-:
-function
 (
 )
 {
@@ -9444,8 +9335,6 @@ sendMedia
 ;
 }
 sendMedia
-:
-function
 (
 )
 {
@@ -9462,8 +9351,6 @@ mediaURL
 ;
 }
 castVideo
-:
-function
 (
 )
 {
@@ -9479,8 +9366,6 @@ window
 ;
 }
 populateCastVideoMenu
-:
-function
 (
 popup
 )
@@ -9581,8 +9466,6 @@ item
 ;
 }
 playPlugin
-:
-function
 (
 )
 {
@@ -9603,8 +9486,6 @@ play
 ;
 }
 hidePlugin
-:
-function
 (
 )
 {
@@ -9625,8 +9506,6 @@ hide
 ;
 }
 copyEmail
-:
-function
 (
 )
 {
@@ -9753,8 +9632,6 @@ addresses
 ;
 }
 copyLink
-:
-function
 (
 )
 {
@@ -9812,8 +9689,6 @@ linkURL
 ;
 }
 showItem
-:
-function
 (
 aItemOrId
 aShow
@@ -9851,8 +9726,6 @@ aShow
 ;
 }
 setItemAttr
-:
-function
 (
 aID
 aAttr
@@ -9904,8 +9777,6 @@ aVal
 }
 }
 setItemAttrFromNode
-:
-function
 (
 aItem_id
 aAttr
@@ -9962,8 +9833,6 @@ null
 ;
 }
 cloneNode
-:
-function
 (
 aItem
 )
@@ -10033,8 +9902,6 @@ node
 ;
 }
 getLinkURL
-:
-function
 (
 )
 {
@@ -10132,8 +9999,6 @@ href
 ;
 }
 getLinkURI
-:
-function
 (
 )
 {
@@ -10159,8 +10024,6 @@ null
 ;
 }
 getLinkProtocol
-:
-function
 (
 )
 {
@@ -10182,8 +10045,6 @@ null
 ;
 }
 getLinkText
-:
-function
 (
 )
 {
@@ -10289,8 +10150,6 @@ text
 ;
 }
 linkText
-:
-function
 (
 )
 {
@@ -10301,8 +10160,6 @@ linkTextStr
 ;
 }
 isMediaURLReusable
-:
-function
 (
 aURL
 )
@@ -10334,8 +10191,6 @@ true
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -10438,8 +10293,6 @@ n
 ;
 }
 isTargetATextBox
-:
-function
 (
 node
 )
@@ -10467,8 +10320,6 @@ HTMLTextAreaElement
 ;
 }
 shouldShowSeparator
-:
-function
 (
 aSeparatorID
 )
@@ -10533,8 +10384,6 @@ false
 ;
 }
 addDictionaries
-:
-function
 (
 )
 {
@@ -11104,10 +10953,6 @@ MediaCommand
 "
 {
 command
-:
-command
-data
-:
 data
 handlingUserInput
 :
@@ -11126,8 +10971,6 @@ target
 ;
 }
 copyMediaLocation
-:
-function
 (
 )
 {
@@ -11167,8 +11010,6 @@ mediaURL
 ;
 }
 drmLearnMore
-:
-function
 (
 aEvent
 )
@@ -11251,8 +11092,6 @@ return
 ;
 }
 formatSearchContextItem
-:
-function
 (
 )
 {
@@ -11400,8 +11239,6 @@ accesskey
 ;
 }
 _getTelemetryClickInfo
-:
-function
 (
 aXulMenu
 )
@@ -11620,8 +11457,6 @@ true
 ;
 }
 _getTelemetryPageContextInfo
-:
-function
 (
 )
 {
@@ -11721,9 +11556,9 @@ rv
 .
 push
 (
-'
+"
 other
-'
+"
 )
 ;
 }
@@ -11737,8 +11572,6 @@ rv
 ;
 }
 _checkTelemetryForMenu
-:
-function
 (
 aXulMenu
 )
@@ -11776,8 +11609,6 @@ aXulMenu
 ;
 }
 createContainerMenu
-:
-function
 (
 aEvent
 )
