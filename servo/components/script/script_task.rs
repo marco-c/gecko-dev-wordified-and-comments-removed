@@ -12065,6 +12065,16 @@ r
 frame_element
 )
 ;
+document
+.
+set_ready_state
+(
+DocumentReadyState
+:
+:
+Loading
+)
+;
 /
 /
 Create

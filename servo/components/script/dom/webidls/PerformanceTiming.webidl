@@ -242,6 +242,8 @@ long
 long
 responseEnd
 ;
+*
+/
 readonly
 attribute
 unsigned
@@ -277,6 +279,8 @@ long
 long
 domComplete
 ;
+/
+*
 readonly
 attribute
 unsigned
