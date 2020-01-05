@@ -329,6 +329,15 @@ aAsyncContainerId
 )
 ;
 async
+AddExternalImageIdForCompositable
+(
+uint64_t
+aImageId
+PCompositable
+aCompositable
+)
+;
+async
 RemoveExternalImageId
 (
 uint64_t

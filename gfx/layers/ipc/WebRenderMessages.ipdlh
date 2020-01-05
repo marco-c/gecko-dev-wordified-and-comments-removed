@@ -253,7 +253,7 @@ key
 }
 ;
 struct
-OpDPPushCompositable
+OpDPPushExternalImageId
 {
 WRRect
 bounds
@@ -264,8 +264,8 @@ clip
 MaybeImageMask
 mask
 ;
-PCompositable
-compositable
+uint64_t
+externalImageId
 ;
 }
 ;
@@ -294,7 +294,7 @@ OpDPPushRect
 ;
 OpDPPushImage
 ;
-OpDPPushCompositable
+OpDPPushExternalImageId
 ;
 OpDPPushIframe
 ;
