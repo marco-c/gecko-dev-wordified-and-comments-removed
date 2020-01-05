@@ -3668,6 +3668,7 @@ StyleBackground
 >
 IsTransparent
 (
+bgSC
 )
 )
 {
@@ -3711,7 +3712,10 @@ StyleBackground
 )
 -
 >
-mBackgroundColor
+BackgroundColor
+(
+bgSC
+)
 ;
 return
 NS_GET_A

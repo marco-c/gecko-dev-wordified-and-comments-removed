@@ -1365,7 +1365,10 @@ StyleBackground
 )
 -
 >
-mBackgroundColor
+BackgroundColor
+(
+this
+)
 )
 ;
 int32_t
@@ -2290,6 +2293,7 @@ StyleBackground
 >
 IsTransparent
 (
+this
 )
 |
 |

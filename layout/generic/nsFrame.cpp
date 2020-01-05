@@ -8957,6 +8957,7 @@ StyleBackground
 >
 IsTransparent
 (
+this
 )
 |
 |
@@ -25717,6 +25718,7 @@ StyleBackground
 >
 IsTransparent
 (
+this
 )
 |
 |

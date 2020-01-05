@@ -1792,7 +1792,7 @@ offsetof
 nsStyleBackground
 mBackgroundColor
 )
-eStyleAnimType_Color
+eStyleAnimType_ComplexColor
 )
 CSS_PROP_BACKGROUND
 (
