@@ -30,6 +30,12 @@ mozlog
 3
 .
 0
+setuptools
+=
+=
+18
+.
+5
 toml
 =
 =
