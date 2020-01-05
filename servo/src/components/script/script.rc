@@ -573,6 +573,14 @@ htmltablecellelement
 ;
 pub
 mod
+htmltabledatacellelement
+;
+pub
+mod
+htmltableheadercellelement
+;
+pub
+mod
 htmltablecolelement
 ;
 pub

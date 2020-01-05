@@ -1,0 +1,17 @@
+use
+dom
+:
+:
+htmltablecellelement
+:
+:
+HTMLTableCellElement
+;
+pub
+struct
+HTMLTableDataCellElement
+{
+htmlelement
+:
+HTMLTableCellElement
+}
