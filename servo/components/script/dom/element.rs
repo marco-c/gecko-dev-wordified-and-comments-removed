@@ -2678,7 +2678,7 @@ computed_value
 FontFamily
 :
 :
-FamilyName
+from_atom
 (
 font_family
 )

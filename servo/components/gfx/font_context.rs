@@ -1153,11 +1153,7 @@ find_font_template
 (
 family
 .
-name
-(
-)
-.
-to_owned
+clone
 (
 )
 desc
