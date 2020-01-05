@@ -3282,7 +3282,6 @@ JSTracer
 {
 }
 }
-pub
 struct
 RootedTraceableSet
 {
