@@ -97,7 +97,6 @@ by
 passing
 the
 -
--
 marionette
 flag
 .
@@ -113,7 +112,6 @@ on
 :
 %
 firefox
--
 -
 marionette
 1491228343089
