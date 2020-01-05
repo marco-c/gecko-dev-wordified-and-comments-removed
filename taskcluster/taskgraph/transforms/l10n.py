@@ -78,8 +78,6 @@ import
     
 Any
     
-Extra
-    
 Optional
     
 Required
@@ -408,48 +406,6 @@ int
     
 }
     
-Required
-(
-'
-attributes
-'
-)
-:
-{
-        
-Optional
-(
-'
-nightly
-'
-)
-:
-bool
-        
-Required
-(
-'
-build_platform
-'
-)
-:
-basestring
-        
-Required
-(
-'
-build_type
-'
-)
-:
-basestring
-        
-Extra
-:
-object
-    
-}
-    
 Optional
 (
 '
@@ -511,6 +467,20 @@ basestring
 ]
     
 }
+    
+Optional
+(
+'
+attributes
+'
+)
+:
+job_description_schema
+[
+'
+attributes
+'
+]
     
 Optional
 (
