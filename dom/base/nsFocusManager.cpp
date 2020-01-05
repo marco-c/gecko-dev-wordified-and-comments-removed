@@ -12501,10 +12501,10 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-nsGkAtoms
+FrameType
 :
 :
-menuPopupFrame
+MenuPopup
 )
 ;
 }
@@ -13300,10 +13300,10 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-nsGkAtoms
+FrameType
 :
 :
-menuPopupFrame
+MenuPopup
 )
 ;
 if
