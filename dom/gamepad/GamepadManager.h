@@ -249,9 +249,6 @@ aDuration
 nsIGlobalObject
 *
 aGlobal
-ErrorResult
-&
-aRv
 )
 ;
 protected

@@ -102,8 +102,13 @@ GamepadMappingType
 :
 :
 Standard
+GamepadHand
+:
+:
+_empty
 kStandardGamepadButtons
 kStandardGamepadAxes
+0
 )
 ;
 java

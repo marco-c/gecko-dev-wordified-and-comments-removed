@@ -1428,6 +1428,16 @@ GamepadMappingType
 :
 :
 _empty
+mozilla
+:
+:
+dom
+:
+:
+GamepadHand
+:
+:
+_empty
 (
 int
 )
@@ -1450,6 +1460,7 @@ slot
 numAxes
 (
 )
+0
 )
 ;
 mGamepads
