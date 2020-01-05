@@ -2371,7 +2371,7 @@ true
 ;
 try
 {
-containersEnabled
+containerEnabled
 =
 Services
 .
