@@ -1340,6 +1340,13 @@ h
 '
 wr
 /
+WebRenderCompositorOGL
+.
+h
+'
+'
+wr
+/
 WebRenderLayerManager
 .
 h
@@ -2495,6 +2502,13 @@ cpp
 wr
 /
 WebRenderColorLayer
+.
+cpp
+'
+'
+wr
+/
+WebRenderCompositorOGL
 .
 cpp
 '
