@@ -120,6 +120,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+uri
 )
 {
 nsCOMPtr
