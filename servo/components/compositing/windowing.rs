@@ -191,6 +191,13 @@ A
 is_foreground
 :
 bool
+size
+:
+TypedSize2D
+<
+DevicePixel
+uint
+>
 )
 -
 >
