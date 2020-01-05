@@ -1632,7 +1632,7 @@ example_frames
 .
 slice
 (
-1
+2
 )
 .
 forEach

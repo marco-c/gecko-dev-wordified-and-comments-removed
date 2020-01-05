@@ -44,7 +44,7 @@ Flow
 var
 MAX_PAYLOAD_SIZE
 =
-4096
+16384
 ;
 function
 createFlow
