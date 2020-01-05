@@ -399,20 +399,11 @@ path
 as
 mozpath
 from
-mozregression
-.
-download_manager
+dlmanager
 import
 (
     
 DownloadManager
-)
-from
-mozregression
-.
-persist_limit
-import
-(
     
 PersistLimit
 )
