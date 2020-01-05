@@ -389,6 +389,9 @@ mInitialized
 TimeStamp
 mLastRefreshTime
 ;
+TimeStamp
+mLastActiveTime
+;
 bool
 mVRTestSystemCreated
 ;
