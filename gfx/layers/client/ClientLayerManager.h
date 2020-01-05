@@ -1029,6 +1029,7 @@ aData
 )
 const
 ;
+virtual
 void
 SetTransactionIdAllocator
 (
@@ -1036,6 +1037,7 @@ TransactionIdAllocator
 *
 aAllocator
 )
+override
 {
 mTransactionIdAllocator
 =
@@ -1075,21 +1077,7 @@ aLayerObserverEpoch
 )
 override
 ;
-class
-DidCompositeObserver
-{
-public
-:
 virtual
-void
-DidComposite
-(
-)
-=
-0
-;
-}
-;
 void
 AddDidCompositeObserver
 (
@@ -1097,7 +1085,9 @@ DidCompositeObserver
 *
 aObserver
 )
+override
 ;
+virtual
 void
 RemoveDidCompositeObserver
 (
@@ -1105,6 +1095,7 @@ DidCompositeObserver
 *
 aObserver
 )
+override
 ;
 virtual
 already_AddRefed

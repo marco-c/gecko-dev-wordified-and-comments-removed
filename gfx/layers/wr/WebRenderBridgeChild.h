@@ -93,8 +93,8 @@ DPEnd
 (
 bool
 aIsSync
-=
-false
+uint64_t
+aTransactionId
 )
 ;
 CompositorBridgeChild

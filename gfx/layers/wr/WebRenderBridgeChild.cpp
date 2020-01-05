@@ -203,6 +203,8 @@ DPEnd
 (
 bool
 aIsSync
+uint64_t
+aTransactionId
 )
 {
 MOZ_ASSERT
@@ -227,6 +229,7 @@ this
 SendDPSyncEnd
 (
 mCommands
+aTransactionId
 )
 ;
 }
@@ -238,6 +241,7 @@ this
 SendDPEnd
 (
 mCommands
+aTransactionId
 )
 ;
 }

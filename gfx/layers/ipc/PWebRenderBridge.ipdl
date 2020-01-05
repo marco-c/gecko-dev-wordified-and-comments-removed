@@ -280,6 +280,8 @@ WebRenderCommand
 [
 ]
 commands
+uint64_t
+transactionId
 )
 ;
 sync
@@ -289,6 +291,8 @@ WebRenderCommand
 [
 ]
 commands
+uint64_t
+transactionId
 )
 ;
 sync
