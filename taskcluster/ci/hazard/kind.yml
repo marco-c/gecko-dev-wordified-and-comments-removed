@@ -174,10 +174,6 @@ job
 -
 name
 :
-gecko
--
-v2
-:
 shell
 -
 haz
@@ -300,10 +296,6 @@ firefox
 job
 -
 name
-:
-gecko
--
-v2
 :
 browser
 -

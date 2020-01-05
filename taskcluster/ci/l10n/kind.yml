@@ -365,10 +365,6 @@ job
 -
 name
 :
-gecko
--
-v2
-:
 linux32
 -
 l10n
@@ -491,10 +487,6 @@ index
 job
 -
 name
-:
-gecko
--
-v2
 :
 linux64
 -
@@ -627,10 +619,6 @@ mobile
 job
 -
 name
-:
-gecko
--
-v2
 :
 android
 -
