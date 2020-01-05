@@ -82,6 +82,7 @@ Timeout
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -109,6 +110,7 @@ u8
 derive
 (
 Clone
+Debug
 )
 ]
 pub
