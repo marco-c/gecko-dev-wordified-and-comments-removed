@@ -806,6 +806,9 @@ allowSpdy
 bool
 allowAltSvc
 ;
+bool
+beConservative
+;
 OptionalLoadInfoArgs
 loadInfo
 ;

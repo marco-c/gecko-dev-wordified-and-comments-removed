@@ -425,6 +425,10 @@ bool
 &
 allowAltSvc
 const
+bool
+&
+beConservative
+const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs

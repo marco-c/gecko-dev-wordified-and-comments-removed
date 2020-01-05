@@ -196,6 +196,15 @@ NS_HTTP_ERROR_SOFTLY
 )
 #
 define
+NS_HTTP_BE_CONSERVATIVE
+(
+1
+<
+<
+11
+)
+#
+define
 NS_HTTP_DEFAULT_PORT
 80
 #
