@@ -3323,44 +3323,6 @@ moz_configure
 '
 '
             
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-always
-(
-_
-)
-:
-                
-return
-True
-            
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-never
-(
-_
-)
-:
-                
-return
-False
-            
 option
 (
 '
@@ -3387,7 +3349,7 @@ foo
 '
 when
 =
-always
+True
 )
             
 set_config
@@ -3400,7 +3362,7 @@ bar
 '
 when
 =
-never
+False
 )
             
 set_config
@@ -3844,44 +3806,6 @@ moz_configure
 '
 '
             
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-always
-(
-_
-)
-:
-                
-return
-True
-            
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-never
-(
-_
-)
-:
-                
-return
-False
-            
 option
 (
 '
@@ -3908,7 +3832,7 @@ foo
 '
 when
 =
-always
+True
 )
             
 set_define
@@ -3921,7 +3845,7 @@ bar
 '
 when
 =
-never
+False
 )
             
 set_define
@@ -6197,80 +6121,42 @@ moz_configure
 '
 '
             
-depends
+option
 (
 '
 -
 -
+with
+-
+foo
+'
 help
+=
 '
-)
-            
-def
-always
-(
-_
-)
-:
-                
-return
+foo
+'
+when
+=
 True
+)
             
-depends
+option
 (
 '
 -
 -
+with
+-
+bar
+'
 help
+=
 '
-)
-            
-def
-never
-(
-_
-)
-:
-                
-return
+bar
+'
+when
+=
 False
-            
-option
-(
-'
--
--
-with
--
-foo
-'
-help
-=
-'
-foo
-'
-when
-=
-always
-)
-            
-option
-(
-'
--
--
-with
--
-bar
-'
-help
-=
-'
-bar
-'
-when
-=
-never
 )
             
 option
@@ -6319,7 +6205,7 @@ foo
 '
 when
 =
-always
+True
 )
 (
 lambda
@@ -6345,7 +6231,7 @@ bar
 '
 when
 =
-never
+False
 )
 (
 lambda
@@ -6867,25 +6753,6 @@ moz_configure
 '
 '
             
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-always
-(
-_
-)
-:
-                
-return
-True
-            
 option
 (
 '
@@ -6902,7 +6769,7 @@ foo
 '
 when
 =
-always
+True
 )
             
 set_config
@@ -6990,17 +6857,14 @@ moz_configure
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 always
 (
-_
 )
 :
                 
@@ -7009,17 +6873,14 @@ True
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 always2
 (
-_
 )
 :
                 
@@ -7414,44 +7275,6 @@ dedent
 '
 '
                 
-depends
-(
-'
--
--
-help
-'
-)
-                
-def
-always
-(
-_
-)
-:
-                    
-return
-True
-                
-depends
-(
-'
--
--
-help
-'
-)
-                
-def
-never
-(
-_
-)
-:
-                    
-return
-False
-                
 option
 (
 '
@@ -7477,7 +7300,7 @@ configure
 '
 when
 =
-always
+True
 )
                 
 include
@@ -7489,7 +7312,7 @@ configure
 '
 when
 =
-never
+False
 )
                 
 include
@@ -8753,58 +8576,14 @@ moz_configure
             
 depends
 (
-'
--
--
-help
-'
-)
-            
-def
-always
-(
-_
-)
-:
-                
-return
-True
-            
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-never
-(
-_
-)
-:
-                
-return
-False
-            
-depends
-(
-'
--
--
-help
-'
 when
 =
-always
+True
 )
             
 def
 foo
 (
-_
 )
 :
                 
@@ -8823,20 +8602,14 @@ foo
             
 depends
 (
-'
--
--
-help
-'
 when
 =
-never
+False
 )
             
 def
 bar
 (
-_
 )
 :
                 
@@ -8871,11 +8644,6 @@ qux
             
 depends
 (
-'
--
--
-help
-'
 when
 =
 '
@@ -8890,7 +8658,6 @@ qux
 def
 qux
 (
-_
 )
 :
                 

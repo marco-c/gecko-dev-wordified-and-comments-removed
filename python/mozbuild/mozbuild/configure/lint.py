@@ -171,6 +171,7 @@ DependsFunction
 :
             
 if
+(
 self
 .
 _help_option
@@ -178,6 +179,19 @@ in
 obj
 .
 dependencies
+or
+                
+obj
+in
+(
+self
+.
+_always
+self
+.
+_never
+)
+)
 :
                 
 return

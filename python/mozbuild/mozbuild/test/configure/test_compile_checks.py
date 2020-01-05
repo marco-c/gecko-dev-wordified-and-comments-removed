@@ -243,17 +243,14 @@ dedent
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 extra_toolchain_flags
 (
-_
 )
 :
                 
@@ -279,17 +276,14 @@ compiler_class
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 c_compiler
 (
-_
 )
 :
                 
@@ -343,17 +337,14 @@ compiler_class
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 cxx_compiler
 (
-_
 )
 :
                 
@@ -2198,17 +2189,14 @@ dedent
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 never
 (
-_
 )
 :
                 
@@ -2303,17 +2291,14 @@ dedent
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 always
 (
-_
 )
 :
                 
@@ -2636,17 +2621,14 @@ dedent
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 never
 (
-_
 )
 :
                 
@@ -2741,17 +2723,14 @@ dedent
             
 depends
 (
-'
--
--
-help
-'
+when
+=
+True
 )
             
 def
 always
 (
-_
 )
 :
                 
