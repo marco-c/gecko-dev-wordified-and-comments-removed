@@ -1550,7 +1550,6 @@ TimeDuration
 *
 maxPause
 )
-const
 {
 *
 total
@@ -2856,7 +2855,6 @@ Statistics
 formatDetailedMessage
 (
 )
-const
 {
 FragmentVector
 fragments
@@ -3010,7 +3008,6 @@ Statistics
 formatDetailedDescription
 (
 )
-const
 {
 const
 double
@@ -3430,7 +3427,6 @@ SliceData
 &
 slice
 )
-const
 {
 char
 budgetDescription
@@ -3644,7 +3640,6 @@ PhaseTimeTable
 &
 phaseTimes
 )
-const
 {
 static
 const
@@ -3904,7 +3899,6 @@ Statistics
 formatDetailedTotals
 (
 )
-const
 {
 TimeDuration
 total
@@ -3993,7 +3987,6 @@ formatJsonMessage
 uint64_t
 timestamp
 )
-const
 {
 MOZ_ASSERT
 (
@@ -4298,7 +4291,6 @@ formatJsonDescription
 uint64_t
 timestamp
 )
-const
 {
 TimeDuration
 total
@@ -4679,7 +4671,6 @@ SliceData
 &
 slice
 )
-const
 {
 TimeDuration
 duration
@@ -5058,7 +5049,6 @@ PhaseTimeTable
 &
 phaseTimes
 )
-const
 {
 FragmentVector
 fragments
