@@ -102,7 +102,7 @@ etc
 /
 ci
 /
-check_no_unwrap
+check_no_panic
 .
 sh
 -
