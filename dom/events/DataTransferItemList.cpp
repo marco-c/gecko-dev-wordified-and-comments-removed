@@ -1299,7 +1299,7 @@ i
 ]
 -
 >
-GetType
+GetInternalType
 (
 type
 )
@@ -1412,7 +1412,7 @@ type
 item
 -
 >
-GetType
+GetInternalType
 (
 type
 )
@@ -1534,7 +1534,7 @@ type
 item
 -
 >
-GetType
+GetInternalType
 (
 type
 )

@@ -1426,7 +1426,7 @@ type
 item
 -
 >
-GetType
+GetInternalType
 (
 type
 )
@@ -2309,7 +2309,7 @@ i
 ]
 -
 >
-GetType
+GetInternalType
 (
 type
 )
@@ -4220,7 +4220,7 @@ type
 formatitem
 -
 >
-GetType
+GetInternalType
 (
 type
 )
