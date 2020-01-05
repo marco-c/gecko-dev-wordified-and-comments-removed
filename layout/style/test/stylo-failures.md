@@ -2705,7 +2705,7 @@ border
 -
 radius
 [
-4
+0
 ]
 *
 test_value_storage
@@ -2728,7 +2728,7 @@ to
 shortest
 possible
 [
-6
+0
 ]
 *
 color
