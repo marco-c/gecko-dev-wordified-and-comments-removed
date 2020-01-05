@@ -3,7 +3,6 @@
 [
 feature
 (
-libc
 thread_local
 )
 ]

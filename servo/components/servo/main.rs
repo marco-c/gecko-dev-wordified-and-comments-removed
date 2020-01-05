@@ -4,7 +4,6 @@
 feature
 (
 start
-libc
 )
 ]
 extern
