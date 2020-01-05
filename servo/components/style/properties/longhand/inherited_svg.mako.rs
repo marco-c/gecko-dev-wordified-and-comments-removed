@@ -622,7 +622,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -672,7 +672,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -728,7 +728,7 @@ gecko
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 spec
 =
@@ -781,7 +781,7 @@ gecko
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 spec
 =
@@ -840,6 +840,11 @@ vector
 "
 True
 "
+delegate_animate
+=
+"
+True
+"
 allow_empty
 =
 "
@@ -853,7 +858,7 @@ gecko
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 space_separated_allowed
 =

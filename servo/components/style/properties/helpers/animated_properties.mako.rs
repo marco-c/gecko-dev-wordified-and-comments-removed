@@ -4641,6 +4641,16 @@ Interpolate
 {
 }
 impl
+RepeatableListInterpolate
+for
+Either
+<
+f32
+LengthOrPercentage
+>
+{
+}
+impl
 <
 T
 :
