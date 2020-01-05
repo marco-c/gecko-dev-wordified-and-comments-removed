@@ -125,11 +125,6 @@ redux
 shim
 '
 '
-source
--
-map
-'
-'
 vendor
 '
 '
