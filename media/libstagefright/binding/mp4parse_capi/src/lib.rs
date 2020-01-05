@@ -599,11 +599,11 @@ profile
 :
 u16
 pub
-codec_specific_data
+codec_specific_config
 :
 mp4parse_byte_data
 pub
-codec_specific_config
+extra_data
 :
 mp4parse_byte_data
 pub
@@ -2731,7 +2731,7 @@ INVALID
 info
 )
 .
-codec_specific_config
+extra_data
 .
 length
 =
@@ -2750,7 +2750,7 @@ u32
 info
 )
 .
-codec_specific_config
+extra_data
 .
 data
 =
@@ -2767,7 +2767,7 @@ as_ptr
 info
 )
 .
-codec_specific_data
+codec_specific_config
 .
 length
 =
@@ -2786,7 +2786,7 @@ u32
 info
 )
 .
-codec_specific_data
+codec_specific_config
 .
 data
 =
@@ -2916,7 +2916,7 @@ INVALID
 info
 )
 .
-codec_specific_config
+extra_data
 .
 length
 =
@@ -2935,7 +2935,7 @@ u32
 info
 )
 .
-codec_specific_config
+extra_data
 .
 data
 =
@@ -3064,7 +3064,7 @@ INVALID
 info
 )
 .
-codec_specific_config
+extra_data
 .
 length
 =
@@ -3081,7 +3081,7 @@ u32
 info
 )
 .
-codec_specific_config
+extra_data
 .
 data
 =

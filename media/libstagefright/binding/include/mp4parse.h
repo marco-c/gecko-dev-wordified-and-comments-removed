@@ -190,10 +190,10 @@ uint16_t
 profile
 ;
 mp4parse_byte_data
-codec_specific_data
+codec_specific_config
 ;
 mp4parse_byte_data
-codec_specific_config
+extra_data
 ;
 mp4parse_sinf_info
 protected_data
