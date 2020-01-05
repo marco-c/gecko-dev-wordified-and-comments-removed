@@ -4781,8 +4781,6 @@ check_wpt_lint_errors
     
 errors
 =
-list
-(
 itertools
 .
 chain
@@ -4792,18 +4790,17 @@ r_errors
 not_found_in_basic_list_errors
 wpt_lint_errors
 )
-)
     
-if
-errors
-:
-        
+error
+=
+None
+    
 for
 error
 in
 errors
 :
-            
+        
 print
 "
 \
@@ -4845,11 +4842,11 @@ format
 *
 error
 )
-        
-return
-1
     
-else
+if
+error
+is
+None
 :
         
 print
@@ -4870,3 +4867,9 @@ errors
         
 return
 0
+    
+else
+:
+        
+return
+1
