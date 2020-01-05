@@ -1369,10 +1369,7 @@ layer
 :
 Option
 <
-Arc
-<
 PaintLayer
->
 >
 pub
 bounds
@@ -1469,10 +1466,7 @@ layer
 :
 Option
 <
-Arc
-<
 PaintLayer
->
 >
 transform
 :
