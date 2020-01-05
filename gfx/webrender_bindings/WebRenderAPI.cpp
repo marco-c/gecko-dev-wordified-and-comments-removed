@@ -872,7 +872,7 @@ UpdateAndRender
 aWindowId
 )
 ;
-wr_readback_into_buffer
+wr_renderer_readback
 (
 mSize
 .
