@@ -33,7 +33,7 @@ use
 newcss
 :
 :
-Stylesheet
+SelectCtx
 ;
 use
 dom
@@ -639,7 +639,7 @@ LayoutContext
 styles
 :
 &
-Stylesheet
+SelectCtx
 )
 ;
 }
@@ -940,7 +940,7 @@ LayoutContext
 styles
 :
 &
-Stylesheet
+SelectCtx
 )
 {
 let
