@@ -2491,6 +2491,13 @@ handle
 impl
 WorkerGlobalScope
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 execute_script
@@ -2602,6 +2609,8 @@ failed
 "
 )
 ;
+unsafe
+{
 report_pending_exception
 (
 self
@@ -2626,6 +2635,7 @@ get
 )
 )
 ;
+}
 }
 }
 }

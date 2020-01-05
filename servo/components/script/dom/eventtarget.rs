@@ -2645,6 +2645,8 @@ is_null
 (
 )
 {
+unsafe
+{
 report_pending_exception
 (
 cx
@@ -2663,6 +2665,7 @@ get
 )
 )
 ;
+}
 return
 None
 ;
