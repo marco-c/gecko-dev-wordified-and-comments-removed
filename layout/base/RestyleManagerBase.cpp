@@ -1954,6 +1954,16 @@ aFrame
 {
 if
 (
+IsServo
+(
+)
+)
+{
+return
+;
+}
+if
+(
 aFrame
 )
 {
