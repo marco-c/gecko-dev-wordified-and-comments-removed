@@ -1266,6 +1266,10 @@ mReporter
 (
 nullptr
 )
+mSVGMode
+(
+false
+)
 mRecording
 (
 false
@@ -4860,6 +4864,12 @@ ch
 '
 /
 '
+&
+&
+!
+IsSVGMode
+(
+)
 &
 &
 Peek
