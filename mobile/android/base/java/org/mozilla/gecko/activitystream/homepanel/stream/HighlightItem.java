@@ -5,9 +5,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 stream
 ;
@@ -131,9 +131,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 menu
 .
@@ -146,9 +146,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 model
 .

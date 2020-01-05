@@ -64,9 +64,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 model
 .

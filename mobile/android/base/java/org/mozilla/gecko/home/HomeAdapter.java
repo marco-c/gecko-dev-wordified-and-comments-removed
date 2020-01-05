@@ -51,9 +51,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 ActivityStreamHomeFragment
 ;
