@@ -513,6 +513,12 @@ GetFrameSelection
 )
 const
 ;
+nsAutoString
+StringifiedSelection
+(
+)
+const
+;
 nsRect
 GetAllChildFrameRectsUnion
 (
