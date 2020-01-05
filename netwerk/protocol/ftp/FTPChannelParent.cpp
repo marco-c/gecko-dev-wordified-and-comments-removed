@@ -2040,7 +2040,7 @@ pcp
 )
 -
 >
-TransmitPermissionsFor
+AboutToLoadDocumentForChild
 (
 chan
 )

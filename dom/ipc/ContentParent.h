@@ -2568,7 +2568,7 @@ aLayerObserverEpoch
 )
 ;
 nsresult
-TransmitPermissionsFor
+AboutToLoadDocumentForChild
 (
 nsIChannel
 *
