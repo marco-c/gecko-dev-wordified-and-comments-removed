@@ -1770,7 +1770,7 @@ BaseProxyHandler
 (
 &
 family
-true
+false
 )
 {
 }
@@ -2327,7 +2327,9 @@ id
 )
 )
 ;
-return
+*
+bp
+=
 symbol
 =
 =
@@ -2339,6 +2341,9 @@ wellKnownSymbols
 )
 .
 toStringTag
+;
+return
+true
 ;
 }
 *
@@ -2461,8 +2466,14 @@ return
 true
 ;
 }
+vp
+.
+setUndefined
+(
+)
+;
 return
-false
+true
 ;
 }
 ModuleEnvironmentObject
