@@ -58,15 +58,6 @@ context
 LayoutContext
 ;
 use
-layout
-:
-:
-traverse_parallel
-:
-:
-top_down_traversal
-;
-use
 image
 :
 :

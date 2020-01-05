@@ -286,10 +286,6 @@ pub
 mod
 traverse
 ;
-pub
-mod
-traverse_parallel
-;
 }
 pub
 mod
