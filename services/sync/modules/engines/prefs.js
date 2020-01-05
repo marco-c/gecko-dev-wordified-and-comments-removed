@@ -297,6 +297,9 @@ version
 syncPriority
 :
 1
+allowSkippedRecord
+:
+false
 getChangedIDs
 :
 function

@@ -1549,6 +1549,9 @@ index
 syncPriority
 :
 4
+allowSkippedRecord
+:
+false
 _getStringUrlForId
 (
 id
