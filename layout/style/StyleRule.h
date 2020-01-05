@@ -1364,14 +1364,6 @@ GetDOMRule
 )
 override
 ;
-virtual
-nsIDOMCSSRule
-*
-GetExistingDOMRule
-(
-)
-override
-;
 #
 ifdef
 DEBUG
@@ -1411,6 +1403,11 @@ private
 :
 ~
 StyleRule
+(
+)
+;
+void
+DropReferences
 (
 )
 ;
