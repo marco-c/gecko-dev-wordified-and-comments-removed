@@ -866,9 +866,6 @@ i
 "
 )
 ;
-var
-x
-=
 i
 .
 parentNode
@@ -911,7 +908,7 @@ run5
 ;
 }
 ;
-x
+i
 .
 addEventListener
 (
@@ -936,7 +933,7 @@ documentElement
 .
 appendChild
 (
-x
+i
 )
 ;
 gWbp
