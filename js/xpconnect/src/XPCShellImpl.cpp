@@ -4951,7 +4951,7 @@ if
 file
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 jsapi
 .
