@@ -527,15 +527,9 @@ GlobalObject
 &
 aGlobal
 const
-Sequence
-<
-JS
-:
-:
-Value
->
+nsAString
 &
-aData
+aLabel
 )
 ;
 static
@@ -768,7 +762,7 @@ aData
 ;
 static
 void
-TimeMethod
+StringMethod
 (
 const
 GlobalObject
