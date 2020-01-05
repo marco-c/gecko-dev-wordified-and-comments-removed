@@ -20521,6 +20521,10 @@ SetSuspendTaint
 mHasSuspendTaint
 )
 ;
+NotifyDecoderActivityChanges
+(
+)
+;
 NotifyDecoderPrincipalChanged
 (
 )
