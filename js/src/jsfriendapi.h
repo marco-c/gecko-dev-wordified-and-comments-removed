@@ -8448,7 +8448,7 @@ JS
 :
 :
 HandleObject
-arrayBuffer
+buffer
 uint32_t
 byteOffset
 int32_t
@@ -8487,6 +8487,9 @@ JS_GetDataViewData
 JSObject
 *
 obj
+bool
+*
+isSharedMemory
 const
 JS
 :
