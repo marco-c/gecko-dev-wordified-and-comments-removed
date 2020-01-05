@@ -55,12 +55,16 @@ dependencies
 log
 =
 "
-*
+0
+.
+3
 "
 url
 =
 "
-*
+0
+.
+5
 "
 libc
 =
@@ -77,7 +81,7 @@ version
 "
 0
 .
-3
+4
 "
 features
 =
@@ -441,7 +445,7 @@ foundation
 "
 0
 .
-1
+2
 "
 core
 -
@@ -450,7 +454,7 @@ graphics
 "
 0
 .
-1
+2
 "
 cgl
 =
@@ -509,7 +513,9 @@ dependencies
 x11
 =
 "
-*
+2
+.
+3
 "
 [
 target
@@ -527,5 +533,7 @@ dependencies
 x11
 =
 "
-*
+2
+.
+3
 "
