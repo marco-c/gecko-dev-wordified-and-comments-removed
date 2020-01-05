@@ -109,7 +109,7 @@ font
 font
 :
 :
-create
+create_test_font
 (
 )
 ;
