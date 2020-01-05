@@ -2138,7 +2138,7 @@ present
 }
 ;
 static
-int
+size_t
 numDisableReasonStr
 =
 sizeof
@@ -2190,8 +2190,8 @@ ciphers
 *
 mechanisms
 ;
-PK11DisableReasons
-reason
+size_t
+reasonIdx
 ;
 Error
 rv
@@ -2927,7 +2927,7 @@ slot
 )
 )
 {
-reason
+reasonIdx
 =
 PK11_GetDisabledReason
 (
@@ -2936,7 +2936,7 @@ slot
 ;
 if
 (
-reason
+reasonIdx
 <
 numDisableReasonStr
 )
@@ -2958,7 +2958,7 @@ n
 "
 disableReasonStr
 [
-reason
+reasonIdx
 ]
 )
 ;

@@ -1544,6 +1544,17 @@ der_gtest
 '
 gtests
 /
+freebl_gtest
+/
+freebl_gtest
+.
+gyp
+:
+prng_gtest
+'
+'
+gtests
+/
 pk11_gtest
 /
 pk11_gtest
