@@ -109,6 +109,10 @@ aEvent
 void
 CancelSwipe
 (
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 static
@@ -124,6 +128,10 @@ const
 LayoutDeviceIntPoint
 &
 aPosition
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 void
@@ -186,6 +194,10 @@ aTargetValue
 void
 SwipeFinished
 (
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 void
@@ -202,6 +214,10 @@ uint32_t
 aDirection
 double
 aDelta
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 nsChildView
