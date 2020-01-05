@@ -115,10 +115,10 @@ TextPoint
 {
 line
 :
-uint
+usize
 index
 :
-uint
+usize
 }
 #
 [
@@ -845,7 +845,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
@@ -874,7 +874,7 @@ mut
 self
 adjust
 :
-int
+isize
 select
 :
 Selection
@@ -950,7 +950,7 @@ len
 let
 target_line
 :
-int
+isize
 =
 self
 .
@@ -958,7 +958,7 @@ edit_point
 .
 line
 as
-int
+isize
 +
 adjust
 ;
@@ -990,7 +990,7 @@ else
 if
 target_line
 as
-uint
+usize
 >
 =
 self
@@ -1040,7 +1040,7 @@ line
 =
 target_line
 as
-uint
+usize
 ;
 self
 .
@@ -1071,7 +1071,7 @@ mut
 self
 adjust
 :
-int
+isize
 select
 :
 Selection
@@ -1177,7 +1177,7 @@ abs
 (
 )
 as
-uint
+usize
 >
 remaining
 &
@@ -1248,7 +1248,7 @@ int
 adjust
 )
 as
-uint
+usize
 ;
 }
 }
@@ -1272,7 +1272,7 @@ index
 if
 adjust
 as
-uint
+usize
 >
 remaining
 &
@@ -1347,7 +1347,7 @@ index
 +
 adjust
 as
-uint
+usize
 )
 ;
 }
