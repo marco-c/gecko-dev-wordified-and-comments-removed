@@ -346,9 +346,6 @@ fails
 if
 (
 Android
-|
-|
-B2G
 )
 fails
 -
@@ -376,8 +373,6 @@ ref
 html
 #
 Android
-/
-B2G
 :
 very
 different
@@ -393,9 +388,6 @@ fails
 if
 (
 Android
-|
-|
-B2G
 )
 fails
 -
@@ -423,8 +415,6 @@ ref
 html
 #
 Android
-/
-B2G
 :
 very
 different
@@ -2333,14 +2323,6 @@ fuzzy
 (
 125
 5808
-)
-fuzzy
--
-if
-(
-B2G
-151
-5809
 )
 =
 =
