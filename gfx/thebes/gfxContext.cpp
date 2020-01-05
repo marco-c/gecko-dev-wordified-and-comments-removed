@@ -668,13 +668,6 @@ PopClip
 ;
 }
 }
-mDT
--
->
-Flush
-(
-)
-;
 }
 void
 gfxContext
