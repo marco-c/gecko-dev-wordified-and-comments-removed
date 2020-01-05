@@ -10361,6 +10361,7 @@ Text
 {
 Some
 (
+ref
 text
 )
 =
@@ -10381,7 +10382,7 @@ CharacterData
 (
 )
 .
-Data
+data
 (
 )
 )
