@@ -332,17 +332,6 @@ apply
 return
 ;
 }
-if
-(
-currentVersion
->
-=
-DATA_REPORTING_VERSION
-)
-{
-return
-;
-}
 }
 public
 static
