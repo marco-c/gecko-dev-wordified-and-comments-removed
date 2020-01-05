@@ -2956,10 +2956,6 @@ for
 split
 in
 splits
-.
-into_iter
-(
-)
 {
 /
 /
@@ -4124,10 +4120,6 @@ for
 content_item
 in
 text_content
-.
-into_iter
-(
-)
 {
 let
 specific
@@ -4412,10 +4404,6 @@ for
 split
 in
 splits
-.
-into_iter
-(
-)
 {
 let
 InlineBlockSplit
@@ -6274,10 +6262,6 @@ for
 kid_flow
 in
 child_flows
-.
-into_iter
-(
-)
 {
 if
 anonymous_flow

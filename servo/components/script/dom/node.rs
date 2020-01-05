@@ -11358,13 +11358,11 @@ for
 ref
 attr
 in
+&
+*
 node_elem
 .
 attrs
-(
-)
-.
-iter
 (
 )
 {

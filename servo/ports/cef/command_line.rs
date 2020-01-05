@@ -451,16 +451,13 @@ unwrap
 for
 s
 in
+&
 (
 *
 cl
 )
 .
 argv
-.
-iter
-(
-)
 {
 let
 o

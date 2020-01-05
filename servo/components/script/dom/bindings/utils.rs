@@ -4220,7 +4220,6 @@ for
 proto
 in
 (
-&
 *
 array
 )

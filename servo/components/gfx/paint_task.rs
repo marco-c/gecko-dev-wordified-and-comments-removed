@@ -1300,10 +1300,6 @@ layer_kind
 }
 in
 requests
-.
-into_iter
-(
-)
 {
 if
 self
@@ -2191,15 +2187,12 @@ perspective
 for
 kid
 in
+&
 stacking_context
 .
 display_list
 .
 children
-.
-iter
-(
-)
 {
 build
 (

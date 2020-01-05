@@ -1204,11 +1204,9 @@ Step
 for
 longhand
 in
+&
+*
 longhand_properties
-.
-iter
-(
-)
 {
 /
 /
@@ -2323,11 +2321,9 @@ longhands
 for
 longhand
 in
+&
+*
 longhands
-.
-iter
-(
-)
 {
 elem
 .

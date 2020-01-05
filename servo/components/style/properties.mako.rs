@@ -39269,10 +39269,6 @@ for
 result
 in
 results
-.
-into_iter
-(
-)
 {
 properties
 .

@@ -700,13 +700,10 @@ key
 val
 )
 in
+&
 (
 *
 smm
-)
-.
-iter
-(
 )
 {
 if

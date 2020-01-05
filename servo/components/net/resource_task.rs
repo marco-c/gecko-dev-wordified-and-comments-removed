@@ -1359,10 +1359,6 @@ for
 bare_cookie
 in
 cookies
-.
-into_iter
-(
-)
 {
 if
 let

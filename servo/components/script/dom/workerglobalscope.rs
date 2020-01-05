@@ -1098,10 +1098,6 @@ for
 url
 in
 url_strings
-.
-into_iter
-(
-)
 {
 let
 url
@@ -1160,10 +1156,6 @@ for
 url
 in
 urls
-.
-into_iter
-(
-)
 {
 let
 (

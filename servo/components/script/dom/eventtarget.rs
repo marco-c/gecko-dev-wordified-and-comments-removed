@@ -2173,7 +2173,6 @@ borrow_mut
 )
 ;
 let
-mut
 entry
 =
 handlers
@@ -2188,10 +2187,6 @@ for
 entry
 in
 entry
-.
-iter_mut
-(
-)
 {
 let
 phase

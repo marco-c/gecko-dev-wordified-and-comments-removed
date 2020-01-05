@@ -1437,13 +1437,10 @@ browsers
 for
 browser
 in
+&
 browsers
 .
 borrow
-(
-)
-.
-iter
 (
 )
 {
