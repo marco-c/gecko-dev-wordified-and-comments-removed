@@ -215,6 +215,17 @@ test
 mochitest
 /
 mochitest
+-
+remote
+.
+ini
+'
+'
+test
+/
+mochitest
+/
+mochitest
 .
 ini
 '
