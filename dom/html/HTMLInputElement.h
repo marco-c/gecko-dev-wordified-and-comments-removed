@@ -4079,11 +4079,6 @@ InitColorPicker
 (
 )
 ;
-nsresult
-InitDatePicker
-(
-)
-;
 bool
 IsPopupBlocked
 (
@@ -4529,12 +4524,6 @@ IsWebkitFileSystemEnabled
 static
 bool
 IsDirPickerEnabled
-(
-)
-;
-static
-bool
-IsDatePickerEnabled
 (
 )
 ;

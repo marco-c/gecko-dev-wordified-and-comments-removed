@@ -420,11 +420,6 @@ nsIColorPicker
 idl
 '
 '
-nsIDatePicker
-.
-idl
-'
-'
 nsIDisplayInfo
 .
 idl
@@ -812,11 +807,6 @@ cpp
 '
 '
 nsContentProcessWidgetFactory
-.
-cpp
-'
-'
-nsDatePickerProxy
 .
 cpp
 '
