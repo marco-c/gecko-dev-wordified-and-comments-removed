@@ -8485,6 +8485,8 @@ is
 }
 "
 node_address
+.
+0
 )
 ;
 let

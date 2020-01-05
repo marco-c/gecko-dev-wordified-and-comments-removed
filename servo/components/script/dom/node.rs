@@ -5634,6 +5634,8 @@ mem
 transmute
 (
 candidate
+.
+0
 )
 ;
 let
