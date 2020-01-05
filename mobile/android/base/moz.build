@@ -2305,13 +2305,6 @@ jar
 '
 gecko
 -
-R
-.
-jar
-'
-'
-gecko
--
 mozglue
 .
 jar
