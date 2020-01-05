@@ -67,9 +67,6 @@ public
 explicit
 ContentBridgeParent
 (
-Transport
-*
-aTransport
 )
 ;
 NS_DECL_ISUPPORTS
@@ -480,10 +477,6 @@ RefPtr
 ContentBridgeParent
 >
 mSelfRef
-;
-Transport
-*
-mTransport
 ;
 ContentParentId
 mChildID

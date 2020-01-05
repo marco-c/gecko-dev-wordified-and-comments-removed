@@ -46,9 +46,6 @@ public
 explicit
 ContentBridgeChild
 (
-Transport
-*
-aTransport
 )
 ;
 NS_DECL_ISUPPORTS
@@ -427,10 +424,6 @@ RefPtr
 ContentBridgeChild
 >
 mSelfRef
-;
-Transport
-*
-mTransport
 ;
 }
 ;

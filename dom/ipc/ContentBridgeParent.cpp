@@ -85,14 +85,6 @@ ContentBridgeParent
 :
 ContentBridgeParent
 (
-Transport
-*
-aTransport
-)
-:
-mTransport
-(
-aTransport
 )
 {
 }
@@ -197,7 +189,6 @@ bridge
 new
 ContentBridgeParent
 (
-aTransport
 )
 ;
 bridge
