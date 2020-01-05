@@ -3096,6 +3096,13 @@ clicks
 return
 ;
 }
+BrowserUsageTelemetry
+.
+recordUrlbarSelectedResultMethod
+(
+event
+)
+;
 /
 /
 Determine
