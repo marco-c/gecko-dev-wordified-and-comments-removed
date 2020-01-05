@@ -231,9 +231,6 @@ bool
 forceInlineCaches
 ;
 bool
-fullDebugChecks
-;
-bool
 limitScriptSize
 ;
 bool

@@ -558,12 +558,6 @@ frequentBailoutThreshold
 ;
 SET_DEFAULT
 (
-fullDebugChecks
-true
-)
-;
-SET_DEFAULT
-(
 maxStackArgs
 4096
 )
