@@ -2367,7 +2367,9 @@ S
 void
 storePtr
 (
+const
 T
+&
 S
 )
 {
