@@ -1030,7 +1030,7 @@ address
 }
 #
 ifdef
-MOZ_JEMALLOC
+MOZ_JEMALLOC4
 #
 include
 "
