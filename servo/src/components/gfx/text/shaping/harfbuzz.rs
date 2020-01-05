@@ -355,9 +355,6 @@ pub
 struct
 ShapedGlyphEntry
 {
-cluster
-:
-int
 codepoint
 :
 GlyphId
@@ -804,16 +801,6 @@ y_offset
 ;
 ShapedGlyphEntry
 {
-cluster
-:
-(
-*
-glyph_info_i
-)
-.
-cluster
-as
-int
 codepoint
 :
 (

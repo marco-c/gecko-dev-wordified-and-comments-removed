@@ -254,6 +254,7 @@ constellation
 :
 Constellation
 ;
+pub
 mod
 compositor_task
 ;
@@ -266,9 +267,11 @@ compositor
 mod
 headless
 ;
+pub
 mod
 pipeline
 ;
+pub
 mod
 constellation
 ;

@@ -8,6 +8,7 @@ compositor
 use
 headless
 ;
+pub
 use
 constellation
 :

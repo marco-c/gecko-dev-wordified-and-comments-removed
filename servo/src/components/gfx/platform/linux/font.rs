@@ -253,7 +253,7 @@ pub
 struct
 FontTable
 {
-bogus
+_bogus
 :
 (
 )
