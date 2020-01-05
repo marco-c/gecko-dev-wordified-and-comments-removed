@@ -204,9 +204,6 @@ NR_SOCKET_IS_VOID_PTR
 '
 SCTP_DEBUG
 '
-'
-INET
-'
 )
 :
 DEFINES
@@ -267,16 +264,6 @@ android
 include
 '
 ]
-else
-:
-DEFINES
-[
-'
-INET6
-'
-]
-=
-True
 if
 CONFIG
 [
