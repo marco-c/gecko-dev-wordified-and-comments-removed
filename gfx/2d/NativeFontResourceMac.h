@@ -58,15 +58,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-uint32_t
-aVariationCount
-const
-ScaledFont
-:
-:
-VariationSetting
-*
-aVariations
 )
 ;
 already_AddRefed

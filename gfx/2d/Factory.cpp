@@ -2377,15 +2377,6 @@ uint8_t
 aData
 uint32_t
 aSize
-uint32_t
-aVariationCount
-const
-ScaledFont
-:
-:
-VariationSetting
-*
-aVariations
 FontType
 aType
 )
@@ -2487,8 +2478,6 @@ Create
 (
 aData
 aSize
-aVariationCount
-aVariations
 )
 ;
 #
