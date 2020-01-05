@@ -314,9 +314,15 @@ mFlatJSObject
 ;
 cb
 .
-NoteJSObject
+NoteJSChild
+(
+JS
+:
+:
+GCCellPtr
 (
 obj
+)
 )
 ;
 }
