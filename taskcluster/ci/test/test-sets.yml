@@ -366,6 +366,12 @@ stylo
 mochitest
 -
 style
+-
+mochitest
+-
+chrome
+-
+style
 qr
 -
 tests
