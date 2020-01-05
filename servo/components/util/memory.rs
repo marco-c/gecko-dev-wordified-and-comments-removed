@@ -35,8 +35,6 @@ collections
 :
 :
 LinkedList
-as
-DList
 ;
 use
 std
@@ -493,7 +491,7 @@ SizeOf
 >
 SizeOf
 for
-DList
+LinkedList
 <
 T
 >
@@ -512,7 +510,7 @@ let
 list2
 :
 &
-DList2
+LinkedList2
 <
 T
 >
@@ -533,7 +531,7 @@ size_of_excluding_self
 }
 }
 struct
-DList2
+LinkedList2
 <
 T
 >
@@ -651,7 +649,7 @@ SizeOf
 >
 SizeOf
 for
-DList2
+LinkedList2
 <
 T
 >
@@ -734,7 +732,7 @@ dead_code
 ]
 unsafe
 fn
-dlist2_check
+linked_list2_check
 (
 )
 {
@@ -742,11 +740,11 @@ transmute
 :
 :
 <
-DList
+LinkedList
 <
 i32
 >
-DList2
+LinkedList2
 <
 i32
 >
@@ -769,7 +767,7 @@ T
 >
 Drop
 for
-DList2
+LinkedList2
 <
 T
 >

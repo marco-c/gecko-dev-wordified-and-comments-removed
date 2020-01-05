@@ -12,10 +12,10 @@ use
 collections
 :
 :
-dlist
+linked_list
 :
 :
-DList
+LinkedList
 ;
 use
 geom
@@ -240,7 +240,7 @@ result_list
 :
 &
 mut
-DList
+LinkedList
 <
 DisplayItem
 >
@@ -330,7 +330,7 @@ result_list
 :
 &
 mut
-DList
+LinkedList
 <
 Arc
 <

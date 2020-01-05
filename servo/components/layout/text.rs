@@ -100,7 +100,10 @@ use
 util
 :
 :
-dlist
+linked_list
+:
+:
+split_off_head
 ;
 use
 util
@@ -338,9 +341,6 @@ append
 (
 &
 mut
-dlist
-:
-:
 split_off_head
 (
 &
@@ -391,9 +391,6 @@ append
 (
 &
 mut
-dlist
-:
-:
 split_off_head
 (
 &
