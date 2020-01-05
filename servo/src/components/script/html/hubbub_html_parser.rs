@@ -2,18 +2,6 @@ use
 dom
 :
 :
-bindings
-:
-:
-utils
-:
-:
-str
-;
-use
-dom
-:
-:
 element
 :
 :
@@ -2988,7 +2976,7 @@ set_attr
 (
 node
 &
-str
+Some
 (
 attr
 .
@@ -2999,7 +2987,7 @@ clone
 )
 )
 &
-str
+Some
 (
 attr
 .

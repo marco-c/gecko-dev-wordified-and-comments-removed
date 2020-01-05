@@ -10,7 +10,6 @@ utils
 :
 {
 DOMString
-null_string
 ErrorResult
 }
 ;
@@ -45,7 +44,7 @@ self
 >
 DOMString
 {
-null_string
+None
 }
 pub
 fn
@@ -58,12 +57,15 @@ _dateTime
 :
 &
 DOMString
-_rv
-:
-&
-mut
-ErrorResult
 )
+-
+>
+ErrorResult
 {
+Ok
+(
+(
+)
+)
 }
 }
