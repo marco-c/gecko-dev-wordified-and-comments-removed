@@ -479,10 +479,6 @@ extern
 crate
 xml5ever
 ;
-pub
-mod
-bluetooth_blacklist
-;
 mod
 body
 ;
