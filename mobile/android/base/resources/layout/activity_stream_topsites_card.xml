@@ -275,6 +275,13 @@ title
 "
 android
 :
+drawablePadding
+=
+"
+2dp
+"
+android
+:
 layout_width
 =
 "
