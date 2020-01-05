@@ -2428,8 +2428,10 @@ SetTLSTraceInfo
 ;
 #
 endif
+nsCOMPtr
+<
 nsIEventTarget
-*
+>
 target
 =
 timer
