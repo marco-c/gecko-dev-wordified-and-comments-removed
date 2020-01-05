@@ -973,6 +973,16 @@ pref
 "
 extensions
 .
+startupScanScopes
+"
+0
+)
+;
+pref
+(
+"
+extensions
+.
 geckoProfiler
 .
 symbols
@@ -13757,7 +13767,7 @@ NIGHTLY_BUILD
 pref
 (
 "
-extensions
+browser
 .
 formautofill
 .
@@ -13771,7 +13781,7 @@ else
 pref
 (
 "
-extensions
+browser
 .
 formautofill
 .
@@ -13785,11 +13795,9 @@ endif
 pref
 (
 "
-extensions
+browser
 .
 formautofill
-.
-addresses
 .
 enabled
 "
@@ -13799,7 +13807,7 @@ true
 pref
 (
 "
-extensions
+browser
 .
 formautofill
 .
