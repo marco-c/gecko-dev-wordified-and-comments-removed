@@ -73,7 +73,7 @@ MOZ_CRASHREPORTER
 '
 1
 '
-            
+           
 '
 MOZ_CRASHREPORTER_NO_REPORT
 '
@@ -81,7 +81,7 @@ MOZ_CRASHREPORTER_NO_REPORT
 '
 1
 '
-            
+           
 '
 MOZ_CRASHREPORTER_SHUTDOWN
 '
@@ -89,7 +89,7 @@ MOZ_CRASHREPORTER_SHUTDOWN
 '
 1
 '
-            
+           
 '
 MOZ_HIDE_RESULTS_TABLE
 '
@@ -97,7 +97,7 @@ MOZ_HIDE_RESULTS_TABLE
 '
 1
 '
-            
+           
 '
 MOZ_LOG
 '
@@ -119,7 +119,7 @@ MediaPipelineFactory
 :
 5
 '
-            
+           
 '
 R_LOG_LEVEL
 '
@@ -127,7 +127,7 @@ R_LOG_LEVEL
 '
 6
 '
-            
+           
 '
 R_LOG_DESTINATION
 '
@@ -135,7 +135,7 @@ R_LOG_DESTINATION
 '
 stderr
 '
-            
+           
 '
 R_LOG_VERBOSE
 '
@@ -143,7 +143,7 @@ R_LOG_VERBOSE
 '
 1
 '
-            
+           
 '
 NO_EM_RESTART
 '

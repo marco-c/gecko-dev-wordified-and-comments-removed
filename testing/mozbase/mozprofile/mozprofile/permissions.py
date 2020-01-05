@@ -9,6 +9,14 @@ profile
 "
 "
 "
+import
+codecs
+import
+os
+import
+sqlite3
+import
+urlparse
 __all__
 =
 [
@@ -43,14 +51,6 @@ ServerLocations
 Permissions
 '
 ]
-import
-codecs
-import
-os
-import
-sqlite3
-import
-urlparse
 DEFAULT_PORTS
 =
 {
@@ -61,7 +61,7 @@ http
 '
 8888
 '
-                  
+                 
 '
 https
 '
@@ -69,7 +69,7 @@ https
 '
 4443
 '
-                  
+                 
 '
 ws
 '
@@ -77,7 +77,7 @@ ws
 '
 4443
 '
-                  
+                 
 '
 wss
 '
@@ -548,6 +548,7 @@ in
 self
 .
 attrs
+                    
 if
 getattr
 (
@@ -940,6 +941,7 @@ MissingPrimaryLocationError
 exception
 is
 raised
+          
 if
 no
 primary
@@ -979,6 +981,8 @@ server
 locations
 .
 txt
+#
+noqa
         
 The
 only
@@ -1476,7 +1480,6 @@ permDB
 cursor
 (
 )
-;
         
 cursor
 .
@@ -2637,7 +2640,6 @@ permDB
 cursor
 (
 )
-;
         
 cursor
 .
@@ -2651,7 +2653,6 @@ EXISTS
 moz_hosts
 "
 )
-;
         
 permDB
 .

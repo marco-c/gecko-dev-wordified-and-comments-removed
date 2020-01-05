@@ -36,7 +36,7 @@ commands
 "
 ps
 "
-                                         
+                                       
 "
 10029
 549
@@ -48,7 +48,7 @@ launcher
 \
 n
 "
-                                         
+                                       
 "
 10066
 1198
@@ -59,7 +59,7 @@ twitter
 android
 "
 )
-                                        
+                                      
 (
 "
 info
@@ -68,7 +68,7 @@ sutuserinfo
 "
 "
 )
-                                        
+                                      
 (
 "
 exec
@@ -79,7 +79,7 @@ W
 -
 n
 "
-                                         
+                                       
 "
 org
 .
@@ -97,7 +97,7 @@ BrowserApp
 -
 a
 "
-                                         
+                                       
 "
 android
 .
@@ -107,7 +107,7 @@ action
 .
 VIEW
 "
-                                         
+                                       
 "
 OK
 \
@@ -186,7 +186,7 @@ commands
 "
 ps
 "
-                                         
+                                       
 "
 10029
 549
@@ -198,7 +198,7 @@ launcher
 \
 n
 "
-                                         
+                                       
 "
 10066
 1198
@@ -209,7 +209,7 @@ twitter
 android
 "
 )
-                                        
+                                      
 (
 "
 info
@@ -222,7 +222,7 @@ Serial
 0
 "
 )
-                                        
+                                      
 (
 "
 exec
@@ -237,7 +237,7 @@ W
 -
 n
 "
-                                         
+                                       
 "
 org
 .
@@ -255,7 +255,7 @@ BrowserApp
 -
 a
 "
-                                         
+                                       
 "
 android
 .
@@ -265,7 +265,7 @@ action
 .
 VIEW
 "
-                                         
+                                       
 "
 OK
 \

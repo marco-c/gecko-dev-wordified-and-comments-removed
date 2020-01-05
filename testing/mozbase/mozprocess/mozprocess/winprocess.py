@@ -5,6 +5,8 @@ absolute_import
 unicode_literals
 import
 sys
+import
+subprocess
 from
 ctypes
 import
@@ -673,7 +675,6 @@ GetLastErrorProto
 WINFUNCTYPE
 (
 DWORD
-                               
 )
 GetLastErrorFlags
 =
@@ -1032,7 +1033,6 @@ HANDLE
 c_ulong
                                           
 DWORD
-                                         
 )
 CreateIoCompletionPortFlags
 =
@@ -1085,7 +1085,7 @@ windll
 .
 kernel32
 )
-                                                      
+                                                     
 CreateIoCompletionPortFlags
 )
 CreateIoCompletionPort
@@ -1106,7 +1106,6 @@ DWORD
 LPVOID
                                            
 DWORD
-                                          
 )
 SetInformationJobObjectProtoFlags
 =
@@ -1156,7 +1155,7 @@ windll
 .
 kernel32
 )
-                                                        
+                                                       
 SetInformationJobObjectProtoFlags
 )
 SetInformationJobObject
@@ -1707,6 +1706,8 @@ limitflags
 JOB_OBJECT_LIMIT_BREAKAWAY_OK
 )
 or
+\
+            
 bool
 (
 limitflags
@@ -1811,6 +1812,8 @@ command
     
 process
 =
+subprocess
+.
 Popen
 (
 command
@@ -1904,6 +1907,8 @@ can_create
     
 process
 =
+subprocess
+.
 Popen
 (
 '

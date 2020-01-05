@@ -183,7 +183,7 @@ value
 strip
 (
 )
-;
+        
 other
 =
 other

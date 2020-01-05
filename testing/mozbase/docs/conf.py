@@ -12,6 +12,7 @@ utf
 -
 import
 sys
+import
 os
 here
 =
@@ -281,7 +282,7 @@ latex_elements
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -296,7 +297,7 @@ u
 MozBase
 Documentation
 '
-   
+     
 u
 '
 Mozilla
@@ -343,7 +344,7 @@ team
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -356,7 +357,7 @@ u
 MozBase
 Documentation
 '
-   
+     
 u
 '
 Mozilla
@@ -376,7 +377,7 @@ of
 project
 .
 '
-   
+     
 '
 Miscellaneous
 '

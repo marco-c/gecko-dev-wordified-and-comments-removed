@@ -1121,6 +1121,8 @@ firefox
 api
 /
 '
+\
+                    
 +
 AMO_API_VERSION
 +
@@ -1267,6 +1269,8 @@ org_
 27_Guide
 /
 The_generic_AMO_API
+#
+noqa
         
 "
 "
@@ -1784,10 +1788,13 @@ e
             
 raise
 AddonFormatError
+(
 str
 (
 e
 )
+)
+None
 sys
 .
 exc_info
@@ -1981,10 +1988,13 @@ e
             
 raise
 AddonFormatError
+(
 str
 (
 e
 )
+)
+None
 sys
 .
 exc_info

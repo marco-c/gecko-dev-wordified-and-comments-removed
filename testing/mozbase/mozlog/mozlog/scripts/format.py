@@ -37,6 +37,7 @@ structured
 log
 stream
 "
+                                     
 add_help
 =
 add_help

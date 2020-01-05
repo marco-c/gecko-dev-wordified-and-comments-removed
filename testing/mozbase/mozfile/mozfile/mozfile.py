@@ -926,7 +926,7 @@ Retrying
 '
 %
 \
-                    
+                
 (
 func
 .
@@ -1530,7 +1530,6 @@ last_child
 \
 \
 '
-    
 }
 unicode_delimeters
 =
@@ -1556,7 +1555,6 @@ last_child
 :
 '
 '
-    
 }
 def
 tree
@@ -1845,9 +1843,9 @@ indent
 1
 ]
 )
-                                 
+                                  
 dirpath_mark
-                                 
+                                  
 basename
 if
 retval
@@ -1904,7 +1902,7 @@ item_marker
 filename
 )
 )
-                                        
+                           
 for
 index
 filename

@@ -362,6 +362,7 @@ device_firmware_date
 )
 )
 )
+                
 .
 strftime
 (
@@ -395,6 +396,7 @@ version_info
 .
 get
 (
+                
 "
 device_firmware_version_incremental
 "
@@ -417,6 +419,7 @@ version_info
 .
 get
 (
+                
 "
 device_firmware_version_release
 "
@@ -450,6 +453,7 @@ gaia_date
 )
 )
 )
+                
 .
 strftime
 (
@@ -671,6 +675,7 @@ version_info
 .
 get
 (
+                        
 "
 gaia_changeset
 "
@@ -1852,6 +1857,7 @@ td
 v
 )
 )
+                         
 for
 k
 v
@@ -2014,6 +2020,7 @@ self
 .
 test_count
 [
+                                     
 "
 UNEXPECTED_FAIL
 "
@@ -2041,6 +2048,7 @@ self
 .
 test_count
 [
+                                     
 "
 UNEXPECTED_ERROR
 "
@@ -2232,6 +2240,7 @@ tbody
 self
 .
 result_rows
+                                   
 id
 =
 '

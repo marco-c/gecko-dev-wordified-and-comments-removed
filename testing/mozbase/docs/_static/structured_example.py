@@ -208,15 +208,13 @@ itervalues
 :
             
 if
-type
+isinstance
 (
 item
-)
-=
-=
 types
 .
 FunctionType
+)
 and
 item
 .

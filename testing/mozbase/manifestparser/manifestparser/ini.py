@@ -1,3 +1,5 @@
+import
+os
 __all__
 =
 [
@@ -5,8 +7,6 @@ __all__
 read_ini
 '
 ]
-import
-os
 def
 read_ini
 (
@@ -355,6 +355,7 @@ s
 "
 %
 (
+                    
 section
 section_names
 )
@@ -716,6 +717,7 @@ field_name
 pattern
 %
 (
+                    
 global_value
 .
 split

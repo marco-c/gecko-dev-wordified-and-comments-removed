@@ -171,7 +171,7 @@ assertNotEqual
 (
 m
 None
-                    
+                                    
 '
 trace
 output
@@ -221,8 +221,7 @@ data
             
 if
 m
-=
-=
+is
 None
 :
                 

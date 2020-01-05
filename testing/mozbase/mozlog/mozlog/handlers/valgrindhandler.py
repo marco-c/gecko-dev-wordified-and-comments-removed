@@ -119,6 +119,7 @@ definitely
 lost
 in
 loss
+                  
 record
 2
 746
@@ -230,6 +231,8 @@ libxul
 .
 so
 )
+#
+noqa
     
 =
 =
@@ -460,8 +463,7 @@ re
 .
 compile
 (
-\
-            
+                
 r
 '
 =
@@ -474,8 +476,7 @@ d
 (
 '
 +
-\
-            
+                
 r
 '
 (
@@ -492,8 +493,7 @@ d
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -514,8 +514,7 @@ s
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -535,8 +534,7 @@ s
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -561,8 +559,7 @@ s
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -586,8 +583,7 @@ request
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -615,8 +611,7 @@ realloc
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -638,8 +633,7 @@ delete
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -658,8 +652,7 @@ d
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -677,8 +670,7 @@ line
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -693,8 +685,7 @@ in
 |
 '
 +
-\
-            
+                
 r
 '
 (
@@ -712,13 +703,11 @@ lost
 )
 '
 +
-\
-            
+                
 r
 '
 )
 '
-\
             
 )
         
@@ -1014,7 +1003,7 @@ else
 output_message
 =
 {
-                                   
+                    
 u
 "
 action
@@ -1023,7 +1012,7 @@ action
 "
 valgrind_error
 "
-                                   
+                    
 u
 "
 time
@@ -1035,7 +1024,7 @@ msg
 time
 "
 ]
-                                   
+                    
 u
 "
 thread
@@ -1047,7 +1036,7 @@ msg
 thread
 "
 ]
-                                   
+                    
 u
 "
 pid
@@ -1059,7 +1048,7 @@ msg
 pid
 "
 ]
-                                   
+                    
 u
 "
 source
@@ -1071,7 +1060,7 @@ msg
 source
 "
 ]
-                                   
+                    
 u
 "
 primary
@@ -1080,7 +1069,7 @@ primary
 self
 .
 curr_failure_msg
-                                   
+                    
 u
 "
 secondary

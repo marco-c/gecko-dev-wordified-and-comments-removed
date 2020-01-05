@@ -137,7 +137,6 @@ test_packages
 "
 mock
 "
-                  
 ]
 extra_packages
 =
@@ -145,7 +144,6 @@ extra_packages
 "
 sphinx
 "
-                  
 ]
 def
 cycle_check
@@ -279,6 +277,7 @@ py
 egg_info
 '
 ]
+             
 cwd
 =
 directory
@@ -364,6 +363,7 @@ s
 %
 (
 directory
+                                                                                    
 egg_info
 )
     
@@ -1192,6 +1192,8 @@ issubset
 (
 mozbase_packages
 )
+\
+        
 "
 Packages
 should

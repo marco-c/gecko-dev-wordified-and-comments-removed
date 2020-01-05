@@ -297,6 +297,7 @@ keys
 )
 )
 |
+                          
 specials
 set
 (
@@ -874,6 +875,7 @@ logger
 .
 test_start
 (
+            
 (
 "
 test1
@@ -1087,6 +1089,7 @@ expected
 "
 FAIL
 "
+                                
 message
 =
 "
@@ -1306,6 +1309,7 @@ test1
 subtest
 name
 "
+                          
 "
 XXXUNKNOWNXXX
 "
@@ -1360,6 +1364,7 @@ expected
 "
 PASS
 "
+                                
 extra
 =
 {
@@ -1428,7 +1433,6 @@ data
 :
 42
 }
-                            
 }
 )
         
@@ -1503,6 +1507,7 @@ expected
 "
 PASS
 "
+                                
 stack
 =
 "
@@ -1575,7 +1580,6 @@ nof
 \
 nstack
 "
-                            
 }
 )
         
@@ -1800,6 +1804,7 @@ logger
 .
 test_end
 (
+            
 "
 test1
 "
@@ -1890,6 +1895,7 @@ self
 logger
 .
 test_end
+                          
 "
 test1
 "
@@ -1943,6 +1949,7 @@ expected
 "
 PASS
 "
+                             
 stack
 =
 "
@@ -1998,7 +2005,6 @@ nof
 \
 nstack
 "
-                            
 }
 )
         
@@ -3392,6 +3398,7 @@ action
 "
 suite_start
 "
+                             
 "
 tests
 "
@@ -3399,6 +3406,7 @@ tests
 [
 1
 ]
+                             
 "
 time
 "
@@ -3506,6 +3514,7 @@ x8d
 \
 x84
 "
+                                
 42
 u
 "
@@ -3544,6 +3553,7 @@ U00010343
 \
 U00010344
 '
+                                         
 u
 "
 42
@@ -3921,6 +3931,7 @@ logger
 .
 test_status
 (
+            
 "
 subtest1
 "
@@ -4114,6 +4125,7 @@ self
 logger
 .
 test_status
+                          
 "
 test1
 "
@@ -4170,6 +4182,7 @@ handlers
 .
 LogLevelFilter
 (
+            
 lambda
 x
 :
@@ -4479,6 +4492,7 @@ handlers
 .
 LogLevelFilter
 (
+            
 lambda
 x
 :
@@ -4776,6 +4790,7 @@ structuredlog
 .
 StructuredLogger
 (
+            
 "
 test_
 %
@@ -4872,6 +4887,7 @@ self
 raise
 NotImplementedError
 (
+            
 "
 FormatterTest
 subclasses
@@ -5892,6 +5908,7 @@ self
 .
 assertIn
 (
+            
 "
 Unexpected
 results
@@ -6061,6 +6078,7 @@ test2
 "
 subtest1
 "
+                                
 status
 =
 "
@@ -6147,6 +6165,7 @@ self
 .
 assertIn
 (
+            
 "
 Unexpected
 results
@@ -6276,6 +6295,7 @@ test2
 "
 subtest1
 "
+                                
 status
 =
 "
@@ -6612,6 +6632,7 @@ logger
 .
 test_end
 (
+            
 "
 test1
 "
@@ -6758,6 +6779,7 @@ root
 .
 find
 (
+            
 '
 testcase
 /
@@ -6967,6 +6989,7 @@ formatter
 .
 test_end
 (
+            
 dict
 (
 time
@@ -7676,6 +7699,7 @@ parser
 .
 parse_args
 (
+            
 [
 "
 -
@@ -7795,6 +7819,7 @@ parser
 .
 parse_args
 (
+            
 [
 "
 -
@@ -7947,6 +7972,7 @@ ValueError
 commandline
 .
 setup_logging
+                          
 "
 test_fmtopts
 "
@@ -8069,6 +8095,7 @@ keys
 )
 )
 |
+                          
 specials
 set
 (

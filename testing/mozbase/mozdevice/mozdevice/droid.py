@@ -683,6 +683,7 @@ intent
 url
 =
 url
+                               
 extras
 =
 extras
@@ -953,6 +954,7 @@ stop
 "
 appName
 ]
+                                  
 root
 =
 self
@@ -1066,6 +1068,7 @@ self
 .
 shellCheckOutput
 (
+                
 [
 "
 dumpsys
@@ -1287,7 +1290,7 @@ sutuserinfo
 >
 0
 :
-               
+                
 userSerialString
 =
 infoDict
@@ -1299,7 +1302,7 @@ sutuserinfo
 [
 0
 ]
-               
+                
 m
 =
 re
@@ -1321,11 +1324,11 @@ Serial
 '
 userSerialString
 )
-               
+                
 if
 m
 :
-                   
+                    
 self
 .
 _userSerial
@@ -1336,10 +1339,10 @@ group
 (
 1
 )
-               
+                
 else
 :
-                   
+                    
 self
 .
 _userSerial
@@ -1473,6 +1476,7 @@ to
 show
 up
 using
+    
 mDNS
 with
 the

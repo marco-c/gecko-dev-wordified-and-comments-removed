@@ -390,7 +390,7 @@ name
 '
 test_app_1
 '
-                     
+                    
 '
 description
 '
@@ -399,7 +399,7 @@ description
 a
 description
 '
-                     
+                    
 '
 manifestURL
 '
@@ -419,7 +419,7 @@ manifest
 .
 webapp
 '
-                     
+                    
 '
 appStatus
 '
@@ -437,7 +437,7 @@ name
 '
 test_app_2
 '
-                     
+                    
 '
 description
 '
@@ -446,7 +446,7 @@ description
 another
 description
 '
-                     
+                    
 '
 manifestURL
 '
@@ -466,7 +466,7 @@ manifest
 .
 webapp
 '
-                     
+                    
 '
 appStatus
 '
@@ -484,7 +484,7 @@ name
 '
 test_app_2
 '
-                     
+                    
 '
 description
 '
@@ -494,7 +494,7 @@ a
 third
 description
 '
-                     
+                    
 '
 manifestURL
 '
@@ -514,7 +514,7 @@ manifest
 .
 webapp
 '
-                     
+                    
 '
 appStatus
 '
@@ -1111,6 +1111,7 @@ app
 name
 '
 ]
+                                                        
 '
 manifest
 .
@@ -1424,6 +1425,7 @@ app
 name
 '
 ]
+                                                        
 '
 manifest
 .
@@ -1515,6 +1517,7 @@ app
 name
 '
 ]
+                                                        
 '
 manifest
 .

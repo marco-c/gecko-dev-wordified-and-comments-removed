@@ -1,16 +1,3 @@
-__all__
-=
-[
-'
-ManifestParser
-'
-'
-TestManifest
-'
-'
-convert
-'
-]
 from
 StringIO
 import
@@ -48,6 +35,19 @@ _exists
     
 filterlist
 )
+__all__
+=
+[
+'
+ManifestParser
+'
+'
+TestManifest
+'
+'
+convert
+'
+]
 relpath
 =
 os
@@ -1644,11 +1644,14 @@ if
 inverse
 :
             
+def
 has_tags
-=
-lambda
+(
 test
+)
 :
+                
+return
 not
 tags
 .
@@ -1700,11 +1703,14 @@ True
 else
 :
             
+def
 has_tags
-=
-lambda
+(
 test
+)
 :
+                
+return
 tags
 .
 issubset
@@ -2075,7 +2081,7 @@ s
 "
 %
 \
-                                  
+                
 json
 .
 dumps
@@ -3386,11 +3392,14 @@ not
 patterns
 :
             
+def
 accept_filename
-=
-lambda
+(
 filename
+)
 :
+                
+return
 True
         
 else
@@ -3427,21 +3436,27 @@ not
 ignore
 :
             
+def
 accept_dirname
-=
-lambda
+(
 dirname
+)
 :
+                
+return
 True
         
 else
 :
             
+def
 accept_dirname
-=
-lambda
+(
 dirname
+)
 :
+                
+return
 dirname
 not
 in
@@ -3643,6 +3658,7 @@ ignore
 =
 (
 )
+                                     
 overwrite
 =
 False
@@ -3665,11 +3681,11 @@ in
 -
 place
 ;
+        
 returns
 cls
 instance
 populated
-        
 with
 the
 given
@@ -4186,7 +4202,7 @@ denormalize_path
 (
 filename
 )
-                                               
+                                       
 for
 filename
 in

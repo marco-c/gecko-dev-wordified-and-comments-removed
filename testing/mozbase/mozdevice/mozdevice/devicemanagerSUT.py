@@ -862,6 +862,7 @@ s
 attempts
 "
 %
+                      
 (
 self
 .
@@ -1182,6 +1183,7 @@ None
 raise
 DMError
 (
+                    
 "
 Remote
 Device
@@ -1200,6 +1202,7 @@ str
 (
 msg
 )
+                    
 fatal
 =
 True
@@ -1448,8 +1451,7 @@ Error
 sending
 data
 "
-\
-                        
+                                   
 "
 to
 socket
@@ -1684,6 +1686,7 @@ command
 s
 "
 %
+                                          
 cmd
 [
 '
@@ -1756,6 +1759,7 @@ None
 raise
 DMError
 (
+                            
 "
 Automation
 Error
@@ -1766,6 +1770,9 @@ data
 from
 socket
 .
+"
+                            
+"
 cmd
 =
 %
@@ -1854,7 +1861,7 @@ data
 >
 1024
 :
-                            
+                        
 outputfile
 .
 write
@@ -1866,7 +1873,7 @@ data
 1024
 ]
 )
-                            
+                        
 data
 =
 data
@@ -2330,6 +2337,7 @@ group
 raise
 DMError
 (
+            
 "
 Automation
 Error
@@ -2438,7 +2446,7 @@ str
 (
 filesize
 )
-                                              
+                                             
 '
 data
 '
@@ -2753,6 +2761,7 @@ root
 f
 )
 remoteName
+                              
 retryLimit
 =
 retryLimit
@@ -3439,8 +3448,7 @@ processExist
 (
 appname
 )
-!
-=
+is
 None
 )
 :
@@ -3886,7 +3894,7 @@ str
 pid
 )
 ]
-                           
+                                          
 root
 =
 True
@@ -3920,7 +3928,7 @@ s
 )
 "
 %
-                           
+                                         
 (
 sig
 appname
@@ -3968,7 +3976,7 @@ running
 ?
 "
 %
-                       
+                                     
 (
 sig
 appname
@@ -4054,7 +4062,7 @@ kill
 s
 "
 %
-                           
+                                         
 (
 retries
 self
@@ -4277,8 +4285,8 @@ rest
 "
             
 while
-not
 c
+not
 in
 buf
 :
@@ -4639,6 +4647,7 @@ unsuccessful
 s
 "
 %
+                          
 (
 remoteFile
 error_str
@@ -5002,8 +5011,7 @@ localFile
 if
 (
 remoteHash
-=
-=
+is
 None
 )
 :
@@ -6481,8 +6489,7 @@ string
 if
 (
 env
-=
-=
+is
 None
 or
 env
@@ -6612,6 +6619,7 @@ resolutions
 1152x864
 1200x1024
 1440x900
+        
 1680x1050
 1920x1080
         
@@ -6723,6 +6731,7 @@ s
 s
 "
 %
+                           
 (
 parts
 [
@@ -6876,6 +6885,7 @@ self
 .
 _runCmds
 (
+            
 [
 {
 '
@@ -6912,6 +6922,7 @@ self
 .
 _runCmds
 (
+            
 [
 {
 '

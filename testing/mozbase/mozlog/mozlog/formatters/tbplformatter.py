@@ -1571,7 +1571,7 @@ screenshots
 =
 3
 :
-                     
+                    
 message
 +
 =
@@ -1597,7 +1597,7 @@ s
 \
 n
 "
-                                 
+                                
 "
 REFTEST
 IMAGE
@@ -1619,6 +1619,7 @@ s
 )
 %
 (
+                                    
 screenshots
 [
 0
@@ -1628,7 +1629,7 @@ screenshots
 screenshot
 "
 ]
-                                                                         
+                                    
 screenshots
 [
 2
@@ -1671,6 +1672,8 @@ image1
 )
 s
 "
+\
+                               
 %
 screenshots
 [
@@ -1702,7 +1705,7 @@ n
 "
 %
 (
-            
+                
 data
 [
 "
@@ -2070,7 +2073,8 @@ or
 "
 "
         
-message
+return
+fmt
 .
 append
 (

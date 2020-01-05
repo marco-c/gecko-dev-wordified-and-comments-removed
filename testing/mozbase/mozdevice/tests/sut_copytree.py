@@ -174,7 +174,7 @@ test
 .
 txt
 '
-                
+                                          
 '
 /
 mnt
@@ -343,7 +343,7 @@ port
 m
 .
 port
-                
+                               
 logLevel
 =
 logging
@@ -370,7 +370,7 @@ tests
 /
 foo
 '
-                
+                                          
 '
 /
 mnt
@@ -598,7 +598,7 @@ port
 m
 .
 port
-                
+                               
 logLevel
 =
 logging
@@ -648,7 +648,7 @@ tests
 /
 foo
 '
-                
+                                          
 '
 /
 mnt

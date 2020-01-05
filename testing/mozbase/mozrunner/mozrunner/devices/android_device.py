@@ -9,8 +9,6 @@ platform
 import
 psutil
 import
-re
-import
 shutil
 import
 signal
@@ -819,7 +817,7 @@ s
 .
 "
 %
-                
+                      
 emulator
 .
 get_avd_description
@@ -864,7 +862,7 @@ pm
 '
 list
 '
-            
+                                                  
 '
 packages
 '
@@ -878,17 +876,17 @@ mozilla
 )
         
 if
-not
 '
 fennec
 '
+not
 in
 installed
 and
-not
 '
 firefox
 '
+not
 in
 installed
 :
@@ -982,7 +980,7 @@ target
 '
 install
 '
-                    
+                                    
 ensure_exit_code
 =
 False
@@ -1018,7 +1016,7 @@ xre_path
             
 err
 =
-'
+"
 environment
 variable
 MOZ_HOST_BIN
@@ -1028,10 +1026,14 @@ set
 to
 a
 directory
+"
+\
+                  
+"
 containing
 host
 xpcshell
-'
+"
         
 elif
 not
@@ -1285,6 +1287,7 @@ build_obj
 substs
 path
 EMULATOR_HOME_DIR
+                                           
 '
 releng
 .
@@ -1392,6 +1395,7 @@ else
                     
 _log_warning
 (
+                        
 "
 Unable
 to
@@ -1610,6 +1614,7 @@ host_platform
                     
 _log_info
 (
+                        
 "
 Installing
 JimDB
@@ -1633,6 +1638,7 @@ while
 %
 (
 host_platform
+                                                                                
 build_platform
 )
 )
@@ -1647,6 +1653,7 @@ join
 (
 MANIFEST_PATH
 host_platform
+                                        
 '
 jimdb
 -
@@ -1665,6 +1672,7 @@ build_obj
 .
 substs
 path
+                                           
 EMULATOR_HOME_DIR
 '
 releng
@@ -1778,6 +1786,9 @@ from
 git
 -
 -
+"
+                                         
+"
 some
 JimDB
 features
@@ -2172,7 +2183,7 @@ build_obj
 "
 "
 "
-       
+    
 Grant
 required
 runtime
@@ -2181,6 +2192,7 @@ to
 the
 specified
 app
+    
 (
 typically
 org
@@ -2644,7 +2656,7 @@ adb_path
 retryLimit
 =
 1
-            
+                                   
 deviceSerial
 =
 device_serial
@@ -3427,7 +3439,7 @@ command
 s
 "
 %
-                        
+                   
 '
 '
 .
@@ -3452,7 +3464,7 @@ s
 '
 "
 %
-                        
+                   
 log_path
 )
         
@@ -3495,7 +3507,7 @@ pid
 d
 "
 %
-                        
+                   
 int
 (
 self
@@ -4336,8 +4348,6 @@ not
 None
 :
                     
-res
-=
 tn
 .
 read_until
@@ -4417,6 +4427,10 @@ port
 d
 "
 %
+self
+.
+avd_info
+.
 port
 )
             
@@ -4792,7 +4806,7 @@ get
 '
 MOZBUILD_STATE_PATH
 '
-            
+                                       
 os
 .
 path

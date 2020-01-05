@@ -1,30 +1,9 @@
-__all__
-=
-[
-'
-Profile
-'
-           
-'
-FirefoxProfile
-'
-           
-'
-MetroFirefoxProfile
-'
-           
-'
-ThunderbirdProfile
-'
-]
 import
 os
 import
 time
 import
 tempfile
-import
-types
 import
 uuid
 from
@@ -49,6 +28,25 @@ from
 webapps
 import
 WebappCollection
+__all__
+=
+[
+'
+Profile
+'
+           
+'
+FirefoxProfile
+'
+           
+'
+MetroFirefoxProfile
+'
+           
+'
+ThunderbirdProfile
+'
+]
 class
 Profile
 (
@@ -1595,6 +1593,7 @@ delimeters
 1
 ]
 e
+                                                                
 self
 .
 delimeters
@@ -1889,7 +1888,7 @@ append
 (
 (
 prefs_file
-                    
+                                  
 '
 \
 n
@@ -1905,6 +1904,7 @@ n
 .
 join
 (
+                                      
 [
 '
 %
@@ -1925,7 +1925,7 @@ key
 ]
 )
 )
-                                        
+                                       
 for
 key
 in
@@ -1937,7 +1937,6 @@ keys
 (
 )
 )
-                                        
 ]
 )
 )
@@ -2060,7 +2059,6 @@ find
 origins_end
 start
 )
-;
                             
 splitline
 =
@@ -2114,6 +2112,7 @@ end
 .
 replace
 (
+                                
 '
 '
 '
@@ -2275,7 +2274,7 @@ Firefox
 preferences
 =
 {
-                   
+        
 '
 app
 .
@@ -2285,7 +2284,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 browser
 .
@@ -2295,7 +2294,7 @@ resume_from_crash
 '
 :
 False
-                   
+        
 '
 browser
 .
@@ -2305,7 +2304,7 @@ checkDefaultBrowser
 '
 :
 False
-                   
+        
 '
 browser
 .
@@ -2315,7 +2314,7 @@ warnOnClose
 '
 :
 False
-                   
+        
 '
 browser
 .
@@ -2323,7 +2322,7 @@ warnOnQuit
 '
 :
 False
-                   
+        
 '
 datareporting
 .
@@ -2346,7 +2345,7 @@ s
 healthreport
 /
 '
-                   
+        
 '
 extensions
 .
@@ -2354,7 +2353,7 @@ enabledScopes
 '
 :
 5
-                   
+        
 '
 extensions
 .
@@ -2362,7 +2361,7 @@ autoDisableScopes
 '
 :
 10
-                   
+        
 '
 extensions
 .
@@ -2374,7 +2373,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2382,7 +2381,7 @@ installDistroAddons
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2390,7 +2389,7 @@ showMismatchUI
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2400,7 +2399,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2410,7 +2409,7 @@ notifyUser
 '
 :
 False
-                   
+        
 '
 focusmanager
 .
@@ -2418,7 +2417,7 @@ testmode
 '
 :
 True
-                   
+        
 '
 geo
 .
@@ -2428,7 +2427,7 @@ testing
 '
 :
 True
-                   
+        
 '
 security
 .
@@ -2436,7 +2435,7 @@ notification_enable_delay
 '
 :
 0
-                   
+        
 '
 toolkit
 .
@@ -2447,7 +2446,7 @@ max_resumed_crashes
 :
 -
 1
-                   
+        
 '
 toolkit
 .
@@ -2457,7 +2456,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 toolkit
 .
@@ -2482,7 +2481,7 @@ telemetry
 dummy
 /
 '
-                   
+    
 }
 class
 MetroFirefoxProfile
@@ -2507,7 +2506,7 @@ Metro
 preferences
 =
 {
-                   
+        
 '
 app
 .
@@ -2517,7 +2516,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 app
 .
@@ -2529,7 +2528,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 browser
 .
@@ -2541,7 +2540,7 @@ dismissed
 '
 :
 True
-                   
+        
 '
 browser
 .
@@ -2551,7 +2550,7 @@ resume_from_crash
 '
 :
 False
-                   
+        
 '
 browser
 .
@@ -2561,7 +2560,7 @@ checkDefaultBrowser
 '
 :
 False
-                   
+        
 '
 datareporting
 .
@@ -2584,7 +2583,7 @@ s
 healthreport
 /
 '
-                   
+        
 '
 extensions
 .
@@ -2594,7 +2593,7 @@ enabled
 '
 :
 True
-                   
+        
 '
 extensions
 .
@@ -2602,7 +2601,7 @@ enabledScopes
 '
 :
 5
-                   
+        
 '
 extensions
 .
@@ -2610,7 +2609,7 @@ autoDisableScopes
 '
 :
 10
-                   
+        
 '
 extensions
 .
@@ -2622,7 +2621,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2630,7 +2629,7 @@ installDistroAddons
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2638,7 +2637,7 @@ showMismatchUI
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2646,7 +2645,7 @@ strictCompatibility
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2656,7 +2655,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 extensions
 .
@@ -2666,7 +2665,7 @@ notifyUser
 '
 :
 False
-                   
+        
 '
 focusmanager
 .
@@ -2674,7 +2673,7 @@ testmode
 '
 :
 True
-                   
+        
 '
 security
 .
@@ -2682,7 +2681,7 @@ notification_enable_delay
 '
 :
 0
-                   
+        
 '
 toolkit
 .
@@ -2693,7 +2692,7 @@ max_resumed_crashes
 :
 -
 1
-                   
+        
 '
 toolkit
 .
@@ -2703,7 +2702,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 toolkit
 .
@@ -2728,7 +2727,7 @@ telemetry
 dummy
 /
 '
-                   
+    
 }
 class
 ThunderbirdProfile

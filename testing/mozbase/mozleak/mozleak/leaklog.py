@@ -2,14 +2,6 @@ import
 os
 import
 re
-import
-sys
-import
-mozinfo
-import
-mozrunner
-.
-utils
 def
 _get_default_logger
 (
@@ -405,8 +397,8 @@ TOTAL
                 
 if
 totalBytesLeaked
-!
-=
+is
+not
 None
 :
                     
@@ -421,6 +413,9 @@ leakcheck
 |
 %
 s
+"
+                                        
+"
 multiple
 BloatView
 byte
@@ -1254,8 +1249,8 @@ leakThresholds
 :
         
 if
-not
 processType
+not
 in
 knownProcessTypes
 :
@@ -1445,8 +1440,8 @@ default
 "
             
 if
-not
 processType
+not
 in
 knownProcessTypes
 :

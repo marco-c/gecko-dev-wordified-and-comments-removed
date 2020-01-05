@@ -310,7 +310,7 @@ mozrunner
 '
 :
 [
-            
+          
 '
 resources
 /
@@ -364,5 +364,4 @@ cli
 "
 "
 "
-    
 )

@@ -1624,7 +1624,7 @@ n
 '
 +
 \
-                         
+            
 message_string_two
 +
 '
@@ -1633,7 +1633,7 @@ n
 '
 +
 \
-                         
+            
 message_string_three
 +
 '
@@ -2048,7 +2048,6 @@ message
 for
 '
 +
-\
                                         
 '
 "

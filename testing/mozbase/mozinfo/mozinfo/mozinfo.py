@@ -906,7 +906,7 @@ int
 (
 bits
 )
-            
+             
 }
 )
 if
@@ -1556,7 +1556,6 @@ dumps
 info
 )
 )
-;
 update
 (
 {
@@ -1628,7 +1627,6 @@ output_to_file
 '
 StringVersion
 '
-    
 ]
 def
 main
@@ -1822,6 +1820,7 @@ True
 if
 flag
 :
+        
 return
     
 for

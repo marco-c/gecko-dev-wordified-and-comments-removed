@@ -83,7 +83,7 @@ s
 "
 %
 remoteName
-                                             
+                                           
 "
 %
 s
@@ -97,16 +97,16 @@ s
 %
 (
 remoteName
-                                                            
+                                                          
 len
 (
 cheeseburgers
 )
-                                                            
+                                                          
 cheeseburgers
 )
 )
-                                            
+                                          
 (
 "
 isdir
@@ -220,7 +220,7 @@ s
 "
 %
 remoteName
-                                         
+                                       
 "
 %
 s
@@ -233,7 +233,7 @@ s
 %
 (
 remoteName
-                                                        
+                                                      
 "
 cheeseburgh
 "

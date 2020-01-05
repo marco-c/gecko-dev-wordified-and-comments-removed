@@ -215,6 +215,9 @@ to
 operate
 on
 .
+"
+                          
+"
 If
 none
 creates
@@ -268,6 +271,9 @@ Can
 be
 a
 filepath
+"
+                          
+"
 a
 directory
 containing
@@ -345,6 +351,9 @@ preference
 to
 set
 .
+"
+                          
+"
 Must
 be
 a
@@ -404,6 +413,9 @@ or
 INI
 file
 .
+"
+                          
+"
 For
 INI
 use
@@ -563,6 +575,9 @@ value
 pair
 separated
 by
+"
+                                  
+"
 a
 '
 :

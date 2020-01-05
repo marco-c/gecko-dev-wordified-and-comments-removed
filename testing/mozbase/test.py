@@ -286,7 +286,7 @@ b
 -
 binary
 "
-                  
+                      
 dest
 =
 "
@@ -298,7 +298,7 @@ help
 Binary
 path
 "
-                  
+                      
 metavar
 =
 None

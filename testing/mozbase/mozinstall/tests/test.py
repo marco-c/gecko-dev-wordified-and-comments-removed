@@ -201,6 +201,9 @@ new
 firefox
 .
 exe
+"
+                     
+"
 for
 mozinstall
 1
@@ -342,7 +345,7 @@ mozinstall
 get_binary
 (
 installdir_exe
-                             
+                                                               
 '
 firefox
 '
@@ -400,7 +403,7 @@ mozinstall
 get_binary
 (
 installdir_zip
-                             
+                                                               
 '
 firefox
 '
@@ -533,6 +536,9 @@ new
 firefox
 .
 exe
+"
+                     
+"
 for
 mozinstall
 1
@@ -798,6 +804,9 @@ new
 firefox
 .
 exe
+"
+                     
+"
 for
 mozinstall
 1
@@ -1041,6 +1050,9 @@ new
 firefox
 .
 exe
+"
+                     
+"
 for
 mozinstall
 1

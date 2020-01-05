@@ -273,7 +273,7 @@ devices
 (
 )
 :
-       
+        
 print
 "
 There
@@ -283,7 +283,7 @@ connected
 adb
 devices
 "
-       
+        
 sys
 .
 exit
@@ -324,7 +324,6 @@ output
 ]
 )
 and
-\
                 
 int
 (
@@ -370,7 +369,7 @@ that
 start
 "
 \
-                    
+                
 "
 adbd
 as

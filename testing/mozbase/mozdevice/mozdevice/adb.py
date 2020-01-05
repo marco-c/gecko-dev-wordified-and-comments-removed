@@ -1502,8 +1502,7 @@ and
 adb_process
 .
 exitcode
-=
-=
+is
 None
 )
 :
@@ -1533,8 +1532,7 @@ if
 adb_process
 .
 exitcode
-=
-=
+is
 None
 :
             
@@ -3095,8 +3093,9 @@ re
 .
 compile
 (
+            
 r
-'
+"
 (
 [
 ^
@@ -3121,6 +3120,9 @@ recovery
 |
 sideload
 |
+"
+            
+"
 no
 permissions
 |
@@ -3128,7 +3130,7 @@ unauthorized
 |
 unknown
 )
-'
+"
 )
         
 devices
@@ -7480,8 +7482,7 @@ timeout
 )
 and
 exitcode
-=
-=
+is
 None
 :
             
@@ -7506,8 +7507,7 @@ poll
         
 if
 exitcode
-=
-=
+is
 None
 :
             
@@ -8195,7 +8195,7 @@ output
 s
 '
 %
-                                
+                                   
 (
 '
 '
@@ -8206,19 +8206,19 @@ adb_process
 .
 args
 )
-                                 
+                                    
 timeout
                                     
 root
-                                 
+                                    
 adb_process
 .
 timedout
-                                 
+                                    
 adb_process
 .
 exitcode
-                                 
+                                    
 output
 )
 )

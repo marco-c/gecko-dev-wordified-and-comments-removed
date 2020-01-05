@@ -1162,14 +1162,14 @@ date
 except
 KeyError
 :
-                
+            
 self
 .
 _logger
 .
 warning
 (
-                    
+                
 '
 Unable
 to
@@ -1181,7 +1181,7 @@ gaia_commit
 txt
 in
 '
-                    
+                
 '
 application
 .

@@ -2064,7 +2064,7 @@ intent
 url
 =
 None
-                          
+                           
 extras
 =
 None
@@ -2074,7 +2074,7 @@ True
 fail_if_running
 =
 True
-                          
+                           
 timeout
 =
 None
@@ -2511,7 +2511,7 @@ action
 .
 VIEW
 "
-                     
+                      
 moz_env
 =
 None
@@ -2524,7 +2524,7 @@ None
 wait
 =
 True
-                     
+                      
 fail_if_running
 =
 True
@@ -2841,17 +2841,18 @@ intent
 url
 =
 url
+                                
 extras
 =
 extras
-                               
+                                
 wait
 =
 wait
 fail_if_running
 =
 fail_if_running
-                               
+                                
 timeout
 =
 timeout
@@ -3166,7 +3167,7 @@ after
 %
 s
 "
-                                  
+                                   
 "
 tries
 "

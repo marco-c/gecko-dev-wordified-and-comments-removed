@@ -1459,7 +1459,7 @@ org
 /
 "
 )
-                   
+                  
 (
 "
 zoom
@@ -1578,7 +1578,7 @@ maxPercent
 "
 300
 )
-                   
+                  
 (
 "
 webgl
@@ -2644,7 +2644,7 @@ bar
 "
 somethingxyz
 "
-            
+        
 }
         
 values
@@ -2668,7 +2668,7 @@ abc
 "
 something
 "
-            
+        
 }
         
 path
