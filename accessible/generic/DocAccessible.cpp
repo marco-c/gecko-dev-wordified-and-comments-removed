@@ -6321,6 +6321,10 @@ return
 if
 (
 aIsReloading
+&
+&
+!
+mLoadEventType
 )
 {
 RefPtr
