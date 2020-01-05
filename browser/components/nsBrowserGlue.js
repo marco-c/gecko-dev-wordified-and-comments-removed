@@ -3123,9 +3123,6 @@ visiturl
 remotetab
 :
 9
-extension
-:
-10
 }
 ;
 if
