@@ -1131,6 +1131,18 @@ identifier
 .
 name
         
+typeName
+=
+desc
+.
+get
+(
+'
+nativeType
+'
+ifaceName
+)
+        
 if
 self
 .
@@ -1214,7 +1226,7 @@ s
 >
 "
 %
-ifaceName
+typeName
             
 self
 .
@@ -1226,7 +1238,7 @@ argumentType
 s
 "
 %
-ifaceName
+typeName
             
 self
 .
@@ -1239,13 +1251,13 @@ const
 s
 "
 %
-ifaceName
+typeName
         
 self
 .
 concreteType
 =
-ifaceName
+typeName
         
 self
 .
@@ -1259,6 +1271,31 @@ get
 register
 '
 True
+)
+        
+self
+.
+path
+=
+desc
+.
+get
+(
+'
+path
+'
+'
+dom
+:
+:
+types
+:
+:
+%
+s
+'
+%
+typeName
 )
         
 self

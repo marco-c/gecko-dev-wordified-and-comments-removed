@@ -12125,6 +12125,7 @@ child
 descriptors
 callbacks
 imports
+config
 ignored_warnings
 =
 None
@@ -12482,36 +12483,53 @@ relatedTypesForSignatures
 c
 )
         
-imports
-+
+descriptorProvider
 =
-[
-'
-dom
-:
-:
+config
+.
+getDescriptorProvider
+(
+)
+        
+for
+t
+in
 types
 :
+            
+if
+isImportable
+(
+t
+)
 :
-%
-s
-'
-%
+                
+descriptor
+=
+descriptorProvider
+.
+getDescriptor
+(
 getIdentifier
 (
 t
 )
 .
 name
-for
-t
-in
-types
-if
-isImportable
-(
-t
 )
+                
+imports
++
+=
+[
+'
+%
+s
+'
+%
+descriptor
+.
+path
 ]
         
 statements
@@ -15060,6 +15078,7 @@ n
 [
 ]
 imports
+config
 ignored_warnings
 =
 [
@@ -41570,6 +41589,10 @@ False
 isCallback
 =
 False
+                                                 
+register
+=
+True
 )
 )
         
@@ -43070,6 +43093,16 @@ WeakReferenceable
 '
             
 '
+dom
+:
+:
+browsingcontext
+:
+:
+BrowsingContext
+'
+            
+'
 mem
 :
 :
@@ -43177,6 +43210,7 @@ CString
 '
         
 ]
+config
 )
         
 curr
@@ -48264,6 +48298,7 @@ libc
 '
         
 ]
+config
 ignored_warnings
 =
 [
