@@ -304,10 +304,7 @@ dom
 htmlinputelement
 :
 :
-{
-HTMLInputElement
 LayoutHTMLInputElementHelpers
-}
 ;
 use
 script
