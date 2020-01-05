@@ -444,6 +444,13 @@ NotifyControllerSnapshotFailed
 (
 )
 ;
+void
+CheckForResetOnNextMove
+(
+ScreenIntCoord
+aCurrentTouch
+)
+;
 uint64_t
 mRootLayerTreeId
 ;
@@ -471,6 +478,9 @@ mControllerCancelTouchTracking
 bool
 mControllerDragChangedDirection
 ;
+bool
+mControllerResetOnNextMove
+;
 ScreenIntCoord
 mControllerStartTouch
 ;
@@ -494,6 +504,9 @@ mControllerCompositionHeight
 ;
 int32_t
 mControllerLastDragDirection
+;
+int32_t
+mControllerTouchCount
 ;
 uint32_t
 mControllerLastEventTimeStamp
