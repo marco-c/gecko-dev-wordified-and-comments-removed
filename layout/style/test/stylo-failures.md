@@ -386,7 +386,7 @@ test_animations
 .
 html
 [
-36
+35
 ]
 *
 test_animations_dynamic_changes
@@ -4717,7 +4717,7 @@ test_animations
 html
 asserts
 [
-24
+12
 ]
 #
 #
