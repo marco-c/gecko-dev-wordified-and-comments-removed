@@ -139,6 +139,14 @@ on_unimplemented
 [
 feature
 (
+peekable_is_empty
+)
+]
+#
+!
+[
+feature
+(
 plugin
 )
 ]
