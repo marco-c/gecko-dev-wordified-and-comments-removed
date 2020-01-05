@@ -105,9 +105,9 @@ name
 "
 SharedArrayBuffer
 "
-nightly
+release
 :
-true
+false
 }
 {
 name
@@ -125,9 +125,9 @@ name
 "
 Atomics
 "
-nightly
+release
 :
-true
+false
 }
 "
 StopIteration
