@@ -236,8 +236,6 @@ taintEnabled
 /
 constant
 false
-/
-/
 readonly
 attribute
 DOMString
