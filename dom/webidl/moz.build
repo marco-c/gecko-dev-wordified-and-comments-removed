@@ -987,6 +987,11 @@ HTMLDetailsElement
 webidl
 '
 '
+HTMLDialogElement
+.
+webidl
+'
+'
 HTMLDirectoryElement
 .
 webidl
