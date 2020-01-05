@@ -397,13 +397,9 @@ Node
 node
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 void
 surroundContents
 (
