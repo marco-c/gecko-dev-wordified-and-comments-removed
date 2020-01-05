@@ -189,7 +189,6 @@ ServiceWorker
 controller
 ;
 [
-SameObject
 Throws
 ]
 readonly

@@ -25647,16 +25647,6 @@ isInterface
 )
 and
             
-not
-self
-.
-type
-.
-isPromise
-(
-)
-and
-            
 self
 .
 getExtendedAttribute

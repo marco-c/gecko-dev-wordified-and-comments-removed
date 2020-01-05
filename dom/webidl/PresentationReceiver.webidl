@@ -157,7 +157,6 @@ context
 *
 /
 [
-SameObject
 Throws
 ]
 readonly
