@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -4869,6 +4878,10 @@ private
 GeckoChildProcessHost
 *
 mSubprocess
+;
+const
+TimeStamp
+mLaunchTS
 ;
 ContentParent
 *
