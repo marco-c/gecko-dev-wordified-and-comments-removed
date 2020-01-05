@@ -127,6 +127,11 @@ body
 <
 script
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
@@ -440,8 +445,9 @@ onUnexpectedClose
 =
 >
 {
-do_throw
+ok
 (
+false
 "
 Closed
 unexpectedly
@@ -573,6 +579,7 @@ destroy
 )
 ;
 }
+;
 <
 /
 script
