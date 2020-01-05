@@ -793,7 +793,7 @@ mReader
 MediaDecoderReader
 :
 :
-SetVideoBlankDecode
+SetVideoNullDecode
 aIsBlankDecode
 )
 ;
