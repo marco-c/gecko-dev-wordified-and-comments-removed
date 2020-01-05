@@ -399,9 +399,13 @@ deleted
 return
 {
 id
+:
+id
 addonID
 :
 addonId
+enabled
+:
 enabled
 deleted
 :

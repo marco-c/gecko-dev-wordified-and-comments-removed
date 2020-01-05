@@ -882,6 +882,8 @@ updatedFields
 ;
 }
 resolve
+:
+function
 (
 result
 )
@@ -959,6 +961,8 @@ result
 ;
 }
 reject
+:
+function
 (
 error
 )
@@ -1775,6 +1779,8 @@ fxa
 :
 this
 profileServerUrl
+:
+profileServerUrl
 }
 )
 ;
@@ -1814,6 +1820,8 @@ storage
 ;
 }
 notifyDevices
+:
+function
 (
 deviceIds
 payload
@@ -1913,6 +1921,8 @@ TTL
 ;
 }
 now
+:
+function
 (
 )
 {
@@ -1927,6 +1937,8 @@ now
 ;
 }
 getAccountsClient
+:
+function
 (
 )
 {
@@ -2955,6 +2967,8 @@ uid
 ;
 }
 checkVerificationStatus
+:
+function
 (
 )
 {
@@ -3043,6 +3057,8 @@ push
 ;
 }
 _destroyOAuthToken
+:
+function
 (
 tokenData
 )
@@ -3076,6 +3092,8 @@ token
 )
 }
 _destroyAllOAuthTokens
+:
+function
 (
 tokenInfos
 )
@@ -3587,6 +3605,8 @@ sessionToken
 ;
 }
 getKeys
+:
+function
 (
 )
 {
@@ -3816,6 +3836,8 @@ result
 ;
 }
 fetchAndUnwrapKeys
+:
+function
 (
 keyFetchToken
 )
@@ -4113,6 +4135,8 @@ result
 ;
 }
 getAssertionFromCert
+:
+function
 (
 data
 keyPair
@@ -4281,6 +4305,8 @@ result
 ;
 }
 getCertificateSigned
+:
+function
 (
 sessionToken
 serializedPublicKey
@@ -4711,10 +4737,14 @@ keyPair
 .
 rawKeyPair
 certificate
+:
+certificate
 }
 }
 )
 getUserAccountData
+:
+function
 (
 )
 {
@@ -4750,6 +4780,8 @@ verified
 ;
 }
 loadAndPoll
+:
+function
 (
 )
 {
@@ -4828,6 +4860,8 @@ data
 ;
 }
 startVerifiedCheck
+:
+function
 (
 data
 )
@@ -4905,6 +4939,8 @@ err
 ;
 }
 whenVerified
+:
+function
 (
 data
 )
@@ -5001,6 +5037,8 @@ result
 ;
 }
 notifyObservers
+:
+function
 (
 topic
 data
@@ -5414,6 +5452,8 @@ whenVerifiedDeferred
 ;
 }
 pollEmailStatusAgain
+:
+function
 (
 currentState
 sessionToken
@@ -5570,6 +5610,8 @@ timeoutMs
 ;
 }
 requiresHttps
+:
+function
 (
 )
 {
@@ -5806,6 +5848,8 @@ result
 }
 )
 promiseAccountsChangeProfileURI
+:
+function
 (
 entrypoint
 settingToEdit
@@ -6040,6 +6084,8 @@ result
 ;
 }
 promiseAccountsManageURI
+:
+function
 (
 entrypoint
 )
@@ -6499,6 +6545,8 @@ entry
 =
 {
 token
+:
+token
 server
 :
 oAuthURL
@@ -6751,6 +6799,8 @@ ERROR_UNVERIFIED_ACCOUNT
 }
 )
 _errorToErrorClass
+:
+function
 (
 aError
 )
@@ -6857,6 +6907,8 @@ aError
 ;
 }
 _error
+:
+function
 (
 aError
 aDetails
@@ -6912,6 +6964,8 @@ reason
 ;
 }
 getSignedInUserProfile
+:
+function
 (
 )
 {

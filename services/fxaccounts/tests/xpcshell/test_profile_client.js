@@ -71,11 +71,15 @@ requestUri
 return
 {
 setHeader
+:
+function
 (
 )
 {
 }
 get
+:
+function
 (
 )
 {
@@ -171,11 +175,15 @@ function
 return
 {
 setHeader
+:
+function
 (
 )
 {
 }
 get
+:
+function
 (
 )
 {
@@ -856,6 +864,8 @@ requestUri
 return
 {
 setHeader
+:
+function
 (
 name
 value
@@ -888,6 +898,8 @@ lastToken
 }
 }
 get
+:
+function
 (
 )
 {
@@ -1189,6 +1201,8 @@ requestUri
 return
 {
 setHeader
+:
+function
 (
 name
 value
@@ -1221,6 +1235,8 @@ lastToken
 }
 }
 get
+:
+function
 (
 )
 {

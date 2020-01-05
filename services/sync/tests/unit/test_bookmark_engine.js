@@ -5469,6 +5469,8 @@ get
 ;
 }
 get
+:
+function
 (
 )
 {

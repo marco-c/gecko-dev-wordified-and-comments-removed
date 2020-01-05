@@ -36,6 +36,8 @@ _potentialError
 :
 null
 init
+:
+function
 (
 path
 )
@@ -269,6 +271,8 @@ UTF
 ;
 }
 write
+:
+function
 (
 data
 )
@@ -316,6 +320,8 @@ data
 ;
 }
 close
+:
+function
 (
 )
 {
@@ -352,6 +358,8 @@ null
 }
 }
 AssertTrue
+:
+function
 (
 bool
 msg
@@ -409,6 +417,8 @@ msg
 ;
 }
 AssertFalse
+:
+function
 (
 bool
 msg
@@ -428,6 +438,8 @@ showPotentialError
 ;
 }
 AssertEqual
+:
+function
 (
 val1
 val2
@@ -479,6 +491,8 @@ val1
 ;
 }
 log
+:
+function
 (
 msg
 withoutPrefix
@@ -696,6 +710,8 @@ n
 }
 }
 clearPotentialError
+:
+function
 (
 )
 {
@@ -707,6 +723,8 @@ null
 ;
 }
 logPotentialError
+:
+function
 (
 msg
 )
@@ -719,6 +737,8 @@ msg
 ;
 }
 logLastPotentialError
+:
+function
 (
 msg
 )
@@ -763,6 +783,8 @@ message
 ;
 }
 logError
+:
+function
 (
 msg
 )
@@ -782,6 +804,8 @@ msg
 ;
 }
 logInfo
+:
+function
 (
 msg
 withoutPrefix
@@ -815,6 +839,8 @@ msg
 ;
 }
 logPass
+:
+function
 (
 msg
 )

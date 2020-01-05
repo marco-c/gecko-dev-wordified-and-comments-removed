@@ -1636,6 +1636,8 @@ observerPrefix
 :
 null
 _maybeNotifyBackoff
+:
+function
 (
 response
 headerName
@@ -1740,6 +1742,8 @@ backoffInterval
 ;
 }
 newRESTRequest
+:
+function
 (
 url
 )

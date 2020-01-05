@@ -490,6 +490,8 @@ __proto__
 :
 SyncServerCallback
 onItemDeleted
+:
+function
 (
 username
 coll
@@ -511,6 +513,8 @@ wboID
 ;
 }
 onCollectionDeleted
+:
+function
 (
 username
 coll

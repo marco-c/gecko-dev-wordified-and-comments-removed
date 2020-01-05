@@ -162,6 +162,10 @@ method
 uri
 {
 ts
+:
+ts
+nonce
+:
 nonce
 }
 )
@@ -241,7 +245,13 @@ method
 uri
 {
 ts
+:
+ts
 nonce
+:
+nonce
+ext
+:
 ext
 }
 )

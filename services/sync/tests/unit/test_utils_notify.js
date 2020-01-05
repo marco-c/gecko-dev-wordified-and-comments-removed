@@ -60,12 +60,16 @@ _log
 :
 {
 trace
+:
+function
 (
 )
 {
 }
 }
 func
+:
+function
 (
 )
 {
@@ -105,6 +109,8 @@ return
 ;
 }
 throwy
+:
+function
 (
 )
 {
@@ -163,6 +169,8 @@ obj
 =
 {
 observe
+:
+function
 (
 subject
 topic

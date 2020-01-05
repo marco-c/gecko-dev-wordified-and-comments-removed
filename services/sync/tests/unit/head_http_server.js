@@ -439,6 +439,8 @@ payload
 ;
 }
 get
+:
+function
 (
 )
 {
@@ -463,6 +465,8 @@ payload
 ;
 }
 put
+:
+function
 (
 input
 )
@@ -494,6 +498,8 @@ new_timestamp
 ;
 }
 delete
+:
+function
 (
 )
 {
@@ -509,6 +515,8 @@ modified
 ;
 }
 handler
+:
+function
 (
 )
 {
@@ -933,6 +941,8 @@ os
 ;
 }
 payloads
+:
+function
 (
 )
 {
@@ -1071,6 +1081,8 @@ id
 ;
 }
 _inResultSet
+:
+function
 (
 wbo
 options
@@ -1128,6 +1140,8 @@ newer
 ;
 }
 count
+:
+function
 (
 options
 )
@@ -1190,6 +1204,8 @@ c
 ;
 }
 get
+:
+function
 (
 options
 )
@@ -1487,6 +1503,8 @@ result
 ;
 }
 post
+:
+function
 (
 input
 )
@@ -1653,11 +1671,17 @@ new_timestamp
 (
 )
 success
+:
+success
+failed
+:
 failed
 }
 ;
 }
 delete
+:
+function
 (
 options
 )
@@ -1737,6 +1761,8 @@ deleted
 ;
 }
 handler
+:
+function
 (
 )
 {
@@ -3034,6 +3060,8 @@ username
 =
 {
 password
+:
+password
 collections
 :
 {
@@ -3588,9 +3616,19 @@ username
 return
 {
 collection
+:
+collection
+createCollection
+:
 createCollection
 createContents
+:
+createContents
 deleteCollections
+:
+deleteCollections
+modified
+:
 modified
 }
 ;

@@ -36,6 +36,8 @@ prototype
 =
 {
 has
+:
+function
 (
 id
 )
@@ -52,6 +54,8 @@ id
 ;
 }
 insert
+:
+function
 (
 id
 parentId
@@ -157,6 +161,8 @@ id
 }
 }
 remove
+:
+function
 (
 id
 )
@@ -274,6 +280,8 @@ id
 ;
 }
 setParent
+:
+function
 (
 id
 parentId
@@ -422,6 +430,8 @@ true
 ;
 }
 getParent
+:
+function
 (
 id
 )
@@ -472,6 +482,8 @@ id
 ;
 }
 getChildren
+:
+function
 (
 id
 )
@@ -522,6 +534,8 @@ id
 ;
 }
 setChildren
+:
+function
 (
 id
 children
@@ -571,6 +585,8 @@ id
 }
 }
 dump
+:
+function
 (
 )
 {

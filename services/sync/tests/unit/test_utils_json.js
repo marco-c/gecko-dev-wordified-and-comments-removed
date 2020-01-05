@@ -477,6 +477,8 @@ _log
 :
 {
 trace
+:
+function
 (
 msg
 )
@@ -699,6 +701,8 @@ _log
 :
 {
 trace
+:
+function
 (
 msg
 )
@@ -709,6 +713,8 @@ msg
 ;
 }
 debug
+:
+function
 (
 msg
 )

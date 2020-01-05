@@ -1376,6 +1376,8 @@ params
 =
 {
 collection_name
+:
+collection_name
 record_id
 :
 record
@@ -1430,6 +1432,8 @@ const
 params
 =
 {
+collection_name
+:
 collection_name
 }
 ;
@@ -1489,6 +1493,8 @@ const
 params
 =
 {
+collection_name
+:
 collection_name
 last_modified
 :

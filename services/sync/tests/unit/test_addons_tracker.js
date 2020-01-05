@@ -781,6 +781,8 @@ listener
 =
 {
 onDisabled
+:
+function
 (
 disabled
 )
@@ -818,6 +820,8 @@ cb
 }
 }
 onDisabling
+:
+function
 (
 disabling
 )

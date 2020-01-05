@@ -1955,6 +1955,8 @@ message
 length
 )
 ;
+return
+;
 }
 }
 )
@@ -2643,6 +2645,8 @@ message
 .
 length
 )
+;
+return
 ;
 }
 }

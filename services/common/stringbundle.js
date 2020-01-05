@@ -186,6 +186,8 @@ _stringBundle
 ;
 }
 get
+:
+function
 (
 key
 args
@@ -222,6 +224,8 @@ key
 ;
 }
 getAll
+:
+function
 (
 )
 {
@@ -337,6 +341,8 @@ _stringBundle
 ;
 }
 getString
+:
+function
 (
 key
 )
@@ -351,6 +357,8 @@ key
 ;
 }
 getFormattedString
+:
+function
 (
 key
 args

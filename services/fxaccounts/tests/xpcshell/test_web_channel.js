@@ -769,6 +769,8 @@ helpers
 :
 {
 login
+:
+function
 (
 accountData
 )
@@ -860,6 +862,8 @@ helpers
 :
 {
 logout
+:
+function
 (
 uid
 )
@@ -946,6 +950,8 @@ helpers
 :
 {
 logout
+:
+function
 (
 uid
 )
@@ -1035,6 +1041,8 @@ helpers
 :
 {
 shouldAllowRelink
+:
+function
 (
 email
 )
@@ -1119,6 +1127,8 @@ helpers
 :
 {
 openSyncPreferences
+:
+function
 (
 browser
 entryPoint
@@ -1375,6 +1385,8 @@ fxAccounts
 :
 {
 setSignedInUser
+:
+function
 (
 accountData
 )
@@ -1514,6 +1526,8 @@ fxAccounts
 :
 {
 setSignedInUser
+:
+function
 (
 accountData
 )
@@ -1621,6 +1635,8 @@ fxAccounts
 :
 {
 setSignedInUser
+:
+function
 (
 accountData
 )

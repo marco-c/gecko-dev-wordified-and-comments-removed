@@ -272,6 +272,8 @@ syncPriority
 :
 2
 _syncFinish
+:
+function
 (
 )
 {
@@ -517,6 +519,8 @@ ex
 }
 }
 _findDupe
+:
+function
 (
 item
 )
@@ -667,6 +671,8 @@ Store
 .
 prototype
 _newPropertyBag
+:
+function
 (
 )
 {
@@ -697,6 +703,8 @@ nsIWritablePropertyBag2
 ;
 }
 _nsLoginInfoFromRecord
+:
+function
 (
 record
 )
@@ -853,6 +861,8 @@ info
 ;
 }
 _getLoginFromGUID
+:
+function
 (
 id
 )
@@ -962,6 +972,8 @@ null
 ;
 }
 getAllIDs
+:
+function
 (
 )
 {
@@ -1051,6 +1063,8 @@ items
 ;
 }
 changeItemID
+:
+function
 (
 oldID
 newID
@@ -1185,6 +1199,8 @@ prop
 ;
 }
 itemExists
+:
+function
 (
 id
 )
@@ -1201,6 +1217,8 @@ id
 ;
 }
 createRecord
+:
+function
 (
 id
 collection
@@ -1328,6 +1346,8 @@ record
 ;
 }
 create
+:
+function
 (
 record
 )
@@ -1446,6 +1466,8 @@ ex
 }
 }
 remove
+:
+function
 (
 record
 )
@@ -1518,6 +1540,8 @@ loginItem
 ;
 }
 update
+:
+function
 (
 record
 )
@@ -1640,6 +1664,8 @@ ex
 }
 }
 wipe
+:
+function
 (
 )
 {
@@ -1718,6 +1744,8 @@ Tracker
 .
 prototype
 startTracking
+:
+function
 (
 )
 {
@@ -1739,6 +1767,8 @@ this
 ;
 }
 stopTracking
+:
+function
 (
 )
 {
@@ -1760,6 +1790,8 @@ this
 ;
 }
 observe
+:
+function
 (
 subject
 topic

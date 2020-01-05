@@ -1131,6 +1131,8 @@ mockTSC
 =
 {
 getTokenFromBrowserIDAssertion
+:
+function
 (
 uri
 assertion

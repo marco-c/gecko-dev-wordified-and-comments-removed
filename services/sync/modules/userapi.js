@@ -684,6 +684,8 @@ null
 false
 )
 ;
+return
+;
 }
 else
 if
@@ -701,6 +703,8 @@ cb
 null
 true
 )
+;
+return
 ;
 }
 else
@@ -722,6 +726,8 @@ body
 )
 null
 )
+;
+return
 ;
 }
 }
@@ -873,6 +879,8 @@ cb
 error
 null
 )
+;
+return
 ;
 }
 _onChangePassword
@@ -1076,6 +1084,8 @@ cb
 error
 null
 )
+;
+return
 ;
 }
 }

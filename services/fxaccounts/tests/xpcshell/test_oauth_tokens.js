@@ -539,6 +539,8 @@ storage
 ;
 }
 _destroyOAuthToken
+:
+function
 (
 tokenData
 )
@@ -893,6 +895,8 @@ test
 scope
 "
 client
+:
+client
 }
 ;
 let
@@ -1083,6 +1087,8 @@ test
 scope
 "
 client
+:
+client
 }
 )
 ;
@@ -1132,6 +1138,8 @@ scope
 -
 2
 "
+client
+:
 client
 }
 )
@@ -1292,6 +1300,8 @@ test
 scope
 "
 client
+:
+client
 }
 )
 fxa
@@ -1306,6 +1316,8 @@ test
 -
 scope
 "
+client
+:
 client
 }
 )
@@ -1324,6 +1336,8 @@ scope
 2
 "
 client
+:
+client
 }
 )
 fxa
@@ -1340,6 +1354,8 @@ scope
 -
 2
 "
+client
+:
 client
 }
 )

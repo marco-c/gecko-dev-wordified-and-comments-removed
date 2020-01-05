@@ -46,6 +46,8 @@ BrowserTabs
 =
 {
 Add
+:
+function
 (
 uri
 fn
@@ -153,6 +155,8 @@ true
 ;
 }
 Find
+:
+function
 (
 uri
 title

@@ -549,6 +549,8 @@ TPSCmdLineFactory
 =
 {
 createInstance
+:
+function
 (
 outer
 iid
@@ -593,6 +595,8 @@ TPSCmdLineModule
 =
 {
 registerSelf
+:
+function
 (
 compMgr
 fileSpec
@@ -687,6 +691,8 @@ true
 ;
 }
 unregisterSelf
+:
+function
 (
 compMgr
 fileSpec
@@ -767,6 +773,8 @@ true
 ;
 }
 getClassObject
+:
+function
 (
 compMgr
 cid
@@ -827,6 +835,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 canUnload
+:
+function
 (
 compMgr
 )

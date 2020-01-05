@@ -311,6 +311,8 @@ id
 :
 BOGUS_GUID
 hostname
+:
+hostname
 formSubmitURL
 :
 hostname
@@ -319,6 +321,8 @@ username
 "
 john
 "
+password
+:
 password
 usernameField
 :

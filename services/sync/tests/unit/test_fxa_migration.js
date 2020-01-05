@@ -392,6 +392,8 @@ SyncServer
 (
 {
 onRequest
+:
+onRequest
 }
 )
 ;

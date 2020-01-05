@@ -508,6 +508,8 @@ toolbarFolder
 "
 }
 toString
+:
+function
 (
 )
 {
@@ -684,6 +686,8 @@ guid
 ;
 }
 GetPlacesNodeId
+:
+function
 (
 folder
 type
@@ -858,6 +862,8 @@ node_id
 ;
 }
 IsAdjacentTo
+:
+function
 (
 itemName
 relativePos
@@ -1043,6 +1049,8 @@ true
 ;
 }
 GetItemIndex
+:
+function
 (
 )
 {
@@ -1078,6 +1086,8 @@ item_id
 ;
 }
 GetFolder
+:
+function
 (
 location
 )
@@ -1196,6 +1206,8 @@ folder_id
 ;
 }
 CreateFolder
+:
+function
 (
 location
 )
@@ -1327,6 +1339,8 @@ folder_id
 ;
 }
 GetOrCreateFolder
+:
+function
 (
 location
 )
@@ -1362,6 +1376,8 @@ folder_id
 ;
 }
 CheckDescription
+:
+function
 (
 expectedDescription
 )
@@ -1471,6 +1487,8 @@ true
 ;
 }
 CheckPosition
+:
+function
 (
 before
 after
@@ -1594,6 +1612,8 @@ true
 ;
 }
 SetLocation
+:
+function
 (
 location
 )
@@ -1675,6 +1695,8 @@ newfolder_id
 }
 }
 SetDescription
+:
+function
 (
 description
 )
@@ -1742,6 +1764,8 @@ description
 }
 }
 SetPosition
+:
+function
 (
 position
 )
@@ -1844,6 +1868,8 @@ newposition
 }
 }
 SetTitle
+:
+function
 (
 title
 )
@@ -1928,6 +1954,8 @@ prototype
 =
 {
 SetKeyword
+:
+function
 (
 keyword
 )
@@ -1997,6 +2025,8 @@ insert
 (
 {
 keyword
+:
+keyword
 url
 :
 this
@@ -2011,6 +2041,8 @@ uri
 }
 }
 SetLoadInSidebar
+:
+function
 (
 loadInSidebar
 )
@@ -2075,6 +2107,8 @@ loadInSidebar
 ;
 }
 SetTitle
+:
+function
 (
 title
 )
@@ -2099,6 +2133,8 @@ title
 ;
 }
 SetUri
+:
+function
 (
 uri
 )
@@ -2137,6 +2173,8 @@ newURI
 }
 }
 SetTags
+:
+function
 (
 tags
 )
@@ -2196,6 +2234,8 @@ tags
 }
 }
 Create
+:
+function
 (
 )
 {
@@ -2345,6 +2385,8 @@ item_id
 ;
 }
 Update
+:
+function
 (
 )
 {
@@ -2469,6 +2511,8 @@ position
 ;
 }
 Find
+:
+function
 (
 )
 {
@@ -3003,6 +3047,8 @@ item_id
 ;
 }
 Remove
+:
+function
 (
 )
 {
@@ -3090,6 +3136,8 @@ prototype
 =
 {
 Create
+:
+function
 (
 )
 {
@@ -3190,6 +3238,8 @@ folder_id
 ;
 }
 Find
+:
+function
 (
 )
 {
@@ -3328,6 +3378,8 @@ item_id
 ;
 }
 Remove
+:
+function
 (
 )
 {
@@ -3390,6 +3442,8 @@ item_id
 ;
 }
 Update
+:
+function
 (
 )
 {
@@ -3508,6 +3562,8 @@ prototype
 =
 {
 Create
+:
+function
 (
 )
 {
@@ -3611,6 +3667,8 @@ this
 props
 .
 livemark
+siteURI
+:
 siteURI
 feedURI
 :
@@ -3742,6 +3800,8 @@ item_id
 ;
 }
 Find
+:
+function
 (
 )
 {
@@ -4111,6 +4171,8 @@ item_id
 ;
 }
 Update
+:
+function
 (
 )
 {
@@ -4183,6 +4245,8 @@ true
 ;
 }
 Remove
+:
+function
 (
 )
 {
@@ -4270,6 +4334,8 @@ prototype
 =
 {
 Create
+:
+function
 (
 )
 {
@@ -4354,6 +4420,8 @@ item_id
 ;
 }
 Find
+:
+function
 (
 )
 {
@@ -4615,6 +4683,7 @@ expected_pos
 ;
 }
 else
+{
 if
 (
 PlacesUtils
@@ -4664,6 +4733,7 @@ return
 1
 ;
 }
+}
 return
 this
 .
@@ -4673,6 +4743,8 @@ item_id
 ;
 }
 Update
+:
+function
 (
 )
 {
@@ -4734,6 +4806,8 @@ true
 ;
 }
 Remove
+:
+function
 (
 )
 {

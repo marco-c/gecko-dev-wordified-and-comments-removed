@@ -420,6 +420,8 @@ prototype
 =
 {
 Create
+:
+function
 (
 )
 {
@@ -491,6 +493,8 @@ guid
 ;
 }
 Find
+:
+function
 (
 )
 {
@@ -630,6 +634,8 @@ return
 ;
 }
 Update
+:
+function
 (
 )
 {
@@ -731,6 +737,8 @@ newlogin
 ;
 }
 Remove
+:
+function
 (
 )
 {

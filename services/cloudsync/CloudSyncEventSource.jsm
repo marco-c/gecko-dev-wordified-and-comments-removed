@@ -130,6 +130,8 @@ prototype
 =
 {
 addEventListener
+:
+function
 (
 type
 listener
@@ -173,6 +175,8 @@ resume
 ;
 }
 removeEventListener
+:
+function
 (
 type
 listener
@@ -227,6 +231,8 @@ suspend
 }
 }
 hasListeners
+:
+function
 (
 )
 {
@@ -263,6 +269,8 @@ false
 ;
 }
 emit
+:
+function
 (
 type
 arg

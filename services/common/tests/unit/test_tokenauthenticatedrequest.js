@@ -181,6 +181,10 @@ extra
 =
 {
 ts
+:
+ts
+nonce
+:
 nonce
 }
 ;
@@ -306,6 +310,10 @@ TokenAuthenticatedRESTRequest
 uri
 {
 id
+:
+id
+key
+:
 key
 }
 extra

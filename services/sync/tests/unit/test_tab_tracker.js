@@ -86,6 +86,8 @@ wm
 =
 {
 getEnumerator
+:
+function
 (
 )
 {
@@ -95,6 +97,8 @@ cnt
 :
 2
 hasMoreElements
+:
+function
 (
 )
 {
@@ -109,6 +113,8 @@ cnt
 ;
 }
 getNext
+:
+function
 (
 )
 {
@@ -142,6 +148,8 @@ elt
 return
 {
 addEventListener
+:
+function
 (
 topic
 )
@@ -157,6 +165,8 @@ topic
 ;
 }
 removeEventListener
+:
+function
 (
 topic
 )

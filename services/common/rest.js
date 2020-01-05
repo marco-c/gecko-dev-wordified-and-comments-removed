@@ -2275,6 +2275,8 @@ delayTimeout
 ;
 }
 getInterface
+:
+function
 (
 aIID
 )

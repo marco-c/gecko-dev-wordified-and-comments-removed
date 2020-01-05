@@ -639,6 +639,8 @@ name
 ;
 }
 resetScore
+:
+function
 (
 )
 {
@@ -691,6 +693,8 @@ saveSoon
 ;
 }
 ignoreID
+:
+function
 (
 id
 )
@@ -713,6 +717,8 @@ id
 ;
 }
 unignoreID
+:
+function
 (
 id
 )
@@ -794,6 +800,8 @@ _saveChangedIDs
 ;
 }
 addChangedID
+:
+function
 (
 id
 when
@@ -896,6 +904,8 @@ true
 ;
 }
 removeChangedID
+:
+function
 (
 .
 .
@@ -1035,6 +1045,8 @@ true
 ;
 }
 clearChangedIDs
+:
+function
 (
 )
 {
@@ -1086,16 +1098,22 @@ _isTracking
 :
 false
 startTracking
+:
+function
 (
 )
 {
 }
 stopTracking
+:
+function
 (
 )
 {
 }
 engineIsEnabled
+:
+function
 (
 )
 {
@@ -1120,6 +1138,8 @@ enabled
 ;
 }
 onEngineEnabledChanged
+:
+function
 (
 engineEnabled
 )
@@ -1178,6 +1198,8 @@ clearChangedIDs
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -1337,6 +1359,8 @@ enabled
 )
 ;
 }
+return
+;
 }
 }
 }
@@ -1543,6 +1567,8 @@ cb
 ;
 }
 applyIncomingBatch
+:
+function
 (
 records
 )
@@ -1649,11 +1675,14 @@ id
 ;
 }
 }
+;
 return
 failed
 ;
 }
 applyIncoming
+:
+function
 (
 record
 )
@@ -1701,6 +1730,8 @@ record
 ;
 }
 create
+:
+function
 (
 record
 )
@@ -1716,6 +1747,8 @@ subclass
 ;
 }
 remove
+:
+function
 (
 record
 )
@@ -1731,6 +1764,8 @@ subclass
 ;
 }
 update
+:
+function
 (
 record
 )
@@ -1746,6 +1781,8 @@ subclass
 ;
 }
 itemExists
+:
+function
 (
 id
 )
@@ -1761,6 +1798,8 @@ subclass
 ;
 }
 createRecord
+:
+function
 (
 id
 collection
@@ -1777,6 +1816,8 @@ subclass
 ;
 }
 changeItemID
+:
+function
 (
 oldID
 newID
@@ -1793,6 +1834,8 @@ subclass
 ;
 }
 getAllIDs
+:
+function
 (
 )
 {
@@ -1807,6 +1850,8 @@ subclass
 ;
 }
 wipe
+:
+function
 (
 )
 {
@@ -1909,6 +1954,8 @@ prototype
 =
 {
 get
+:
+function
 (
 name
 )
@@ -2043,6 +2090,8 @@ engine
 ;
 }
 getAll
+:
+function
 (
 )
 {
@@ -2082,6 +2131,8 @@ engines
 ;
 }
 getEnabled
+:
+function
 (
 )
 {
@@ -2146,6 +2197,8 @@ name
 ;
 }
 persistDeclined
+:
+function
 (
 )
 {
@@ -2176,6 +2229,8 @@ join
 ;
 }
 getDeclined
+:
+function
 (
 )
 {
@@ -2191,6 +2246,8 @@ _declined
 ;
 }
 setDeclined
+:
+function
 (
 engines
 )
@@ -2213,6 +2270,8 @@ persistDeclined
 ;
 }
 isDeclined
+:
+function
 (
 engineName
 )
@@ -2229,6 +2288,8 @@ engineName
 ;
 }
 decline
+:
+function
 (
 engines
 )
@@ -2259,6 +2320,8 @@ persistDeclined
 ;
 }
 undecline
+:
+function
 (
 engines
 )
@@ -2289,6 +2352,8 @@ persistDeclined
 ;
 }
 declineDisabled
+:
+function
 (
 )
 {
@@ -2350,6 +2415,8 @@ persistDeclined
 ;
 }
 register
+:
+function
 (
 engineObject
 )
@@ -2497,6 +2564,8 @@ engineObject
 }
 }
 unregister
+:
+function
 (
 val
 )
@@ -2530,6 +2599,8 @@ name
 ;
 }
 clear
+:
+function
 (
 )
 {
@@ -2885,6 +2956,8 @@ tracker
 ;
 }
 sync
+:
+function
 (
 )
 {
@@ -2937,6 +3010,8 @@ _sync
 ;
 }
 resetClient
+:
+function
 (
 )
 {
@@ -2980,6 +3055,8 @@ _resetClient
 ;
 }
 _wipeClient
+:
+function
 (
 )
 {
@@ -3037,6 +3114,8 @@ clearChangedIDs
 ;
 }
 wipeClient
+:
+function
 (
 )
 {
@@ -3061,6 +3140,8 @@ _wipeClient
 ;
 }
 getValidator
+:
+function
 (
 )
 {
@@ -3370,6 +3451,8 @@ toString
 ;
 }
 resetLastSync
+:
+function
 (
 )
 {
@@ -3544,6 +3627,8 @@ _toFetchDelay
 ;
 }
 loadToFetch
+:
+function
 (
 )
 {
@@ -3710,6 +3795,8 @@ _previousFailedDelay
 ;
 }
 loadPreviousFailed
+:
+function
 (
 )
 {
@@ -3813,6 +3900,8 @@ toString
 ;
 }
 getChangedIDs
+:
+function
 (
 )
 {
@@ -3825,6 +3914,8 @@ changedIDs
 ;
 }
 _createRecord
+:
+function
 (
 id
 )
@@ -3863,6 +3954,8 @@ record
 ;
 }
 _syncStartup
+:
+function
 (
 )
 {
@@ -4098,6 +4191,7 @@ _resetClient
 )
 ;
 }
+;
 if
 (
 needsWipe
@@ -4206,6 +4300,8 @@ _delete
 ;
 }
 itemSource
+:
+function
 (
 )
 {
@@ -4226,6 +4322,8 @@ service
 ;
 }
 _processIncoming
+:
+function
 (
 newitems
 )
@@ -5729,16 +5827,22 @@ false
 ;
 }
 _noteApplyFailure
+:
+function
 (
 )
 {
 }
 _noteApplyNewFailure
+:
+function
 (
 )
 {
 }
 _findDupe
+:
+function
 (
 item
 )
@@ -5754,6 +5858,8 @@ true
 ;
 }
 _deleteId
+:
+function
 (
 id
 )
@@ -5868,6 +5974,8 @@ id
 ;
 }
 _reconcile
+:
+function
 (
 item
 )
@@ -6635,6 +6743,8 @@ remoteIsNewer
 ;
 }
 _uploadOutgoing
+:
+function
 (
 )
 {
@@ -7215,6 +7325,8 @@ failed
 {
 }
 _syncFinish
+:
+function
 (
 )
 {
@@ -7372,6 +7484,8 @@ slice
 }
 }
 _syncCleanup
+:
+function
 (
 )
 {
@@ -7408,6 +7522,8 @@ clear
 }
 }
 _sync
+:
+function
 (
 )
 {
@@ -7489,6 +7605,8 @@ _syncCleanup
 }
 }
 canDecrypt
+:
+function
 (
 )
 {
@@ -7572,6 +7690,11 @@ canDecrypt
 true
 ;
 }
+.
+bind
+(
+this
+)
 ;
 try
 {
@@ -7641,6 +7764,8 @@ canDecrypt
 ;
 }
 _resetClient
+:
+function
 (
 )
 {
@@ -7666,6 +7791,8 @@ toFetch
 ;
 }
 wipeServer
+:
+function
 (
 )
 {
@@ -7717,11 +7844,15 @@ _resetClient
 ;
 }
 removeClientData
+:
+function
 (
 )
 {
 }
 handleHMACMismatch
+:
+function
 (
 item
 mayRetry

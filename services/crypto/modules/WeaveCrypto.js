@@ -722,6 +722,8 @@ name
 :
 CRYPT_ALGO
 iv
+:
+iv
 }
 ;
 return
@@ -1254,6 +1256,8 @@ deriveAlgo
 name
 :
 KEY_DERIVATION_ALGO
+salt
+:
 salt
 iterations
 :

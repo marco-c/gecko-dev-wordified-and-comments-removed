@@ -395,6 +395,8 @@ encryptPayload
 (
 {
 id
+:
+id
 histUri
 :
 "
