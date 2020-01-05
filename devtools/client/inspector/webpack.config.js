@@ -875,6 +875,14 @@ lazyGetter
 >
 {
 }
+lazyImporter
+:
+(
+)
+=
+>
+{
+}
 }
 "
 dump
