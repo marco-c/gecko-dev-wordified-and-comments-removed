@@ -4983,12 +4983,6 @@ Cell
 cell
 )
 {
-CheckEdgeIsNotBlackToGray
-(
-this
-cell
-)
-;
 void
 *
 *
