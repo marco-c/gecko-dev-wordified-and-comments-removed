@@ -3277,10 +3277,9 @@ InPrivacyMode
 mozilla
 :
 :
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
-*
 Sampler
 :
 :

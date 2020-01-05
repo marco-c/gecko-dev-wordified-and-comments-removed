@@ -506,10 +506,9 @@ IsPaused
 mozilla
 :
 :
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
-*
 Sampler
 :
 :

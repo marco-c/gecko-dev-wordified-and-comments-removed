@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-Mutex
+StaticMutex
 .
 h
 "
@@ -998,13 +998,7 @@ static
 mozilla
 :
 :
-UniquePtr
-<
-mozilla
-:
-:
-Mutex
->
+StaticMutex
 sRegisteredThreadsMutex
 ;
 static

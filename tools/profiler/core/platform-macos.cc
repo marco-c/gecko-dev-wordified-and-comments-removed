@@ -780,10 +780,9 @@ IsPaused
 )
 )
 {
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
-*
 Sampler
 :
 :
