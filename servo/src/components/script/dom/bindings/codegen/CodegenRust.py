@@ -40619,10 +40619,16 @@ config
         
 descriptors
 =
-[
+(
+set
+(
 d
 .
 name
++
+"
+Binding
+"
 for
 d
 in
@@ -40634,7 +40640,28 @@ register
 =
 True
 )
-]
+)
+|
+            
+set
+(
+d
+.
+unroll
+(
+)
+.
+module
+(
+)
+for
+d
+in
+config
+.
+callbacks
+)
+)
         
 curr
 =
@@ -40647,7 +40674,7 @@ CGGeneric
 pub
 mod
 %
-sBinding
+s
 ;
 \
 n
@@ -40658,7 +40685,10 @@ name
 for
 name
 in
+sorted
+(
 descriptors
+)
 ]
 )
         
