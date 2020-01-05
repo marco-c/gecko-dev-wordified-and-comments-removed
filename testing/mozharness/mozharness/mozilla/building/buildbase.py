@@ -201,7 +201,12 @@ base
 .
 python
 import
+(
+    
+PerfherderResourceOptionsMixin
+    
 VirtualenvMixin
+)
 AUTOMATION_EXIT_CODES
 =
 EXIT_STATUS_DICT
@@ -4135,6 +4140,7 @@ VirtualenvMixin
 MercurialScript
                   
 SecretsMixin
+PerfherderResourceOptionsMixin
 )
 :
     
@@ -13652,6 +13658,16 @@ resources
 duration
 '
 ]
+            
+'
+extraOptions
+'
+:
+self
+.
+perfherder_resource_options
+(
+)
             
 '
 subtests
