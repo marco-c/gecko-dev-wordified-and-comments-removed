@@ -120,11 +120,6 @@ null
 }
 )
 ;
-const
-REQUESTS_WATERFALL_SAFE_BOUNDS
-=
-90
-;
 function
 resetColumns
 (
@@ -164,8 +159,6 @@ waterfallWidth
 action
 .
 width
--
-REQUESTS_WATERFALL_SAFE_BOUNDS
 )
 ;
 }

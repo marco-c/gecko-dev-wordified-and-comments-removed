@@ -136,9 +136,8 @@ l10n
 ;
 const
 {
-div
 button
-span
+div
 }
 =
 DOM
@@ -270,7 +269,7 @@ devtools
 toolbar
 devtools
 -
-toolbar
+status
 -
 bottom
 "
@@ -298,7 +297,7 @@ onClick
 :
 openStatistics
 }
-span
+div
 (
 {
 className
@@ -313,7 +312,7 @@ icon
 }
 )
 )
-span
+div
 (
 {
 className
@@ -344,7 +343,7 @@ count
 0
 &
 &
-span
+div
 (
 {
 className
@@ -375,7 +374,7 @@ count
 0
 &
 &
-span
+div
 (
 {
 className
@@ -405,7 +404,7 @@ DOMContentLoaded
 1
 &
 &
-span
+div
 (
 {
 className
@@ -438,7 +437,7 @@ load
 1
 &
 &
-span
+div
 (
 {
 className
