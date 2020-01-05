@@ -119,6 +119,25 @@ params
 )
 :
         
+env
+=
+self
+.
+build_env
+(
+)
+        
+env
+[
+"
+RUST_BACKTRACE
+"
+]
+=
+"
+1
+"
+        
 subprocess
 .
 check_call
@@ -141,11 +160,7 @@ params
                               
 env
 =
-self
-.
-build_env
-(
-)
+env
 )
     
 Command
