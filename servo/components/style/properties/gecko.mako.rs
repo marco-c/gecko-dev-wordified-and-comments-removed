@@ -12749,6 +12749,22 @@ the
 different
 name
 .
+/
+/
+/
+/
+/
+/
+Returns
+true
+if
+the
+inherited
+keyword
+size
+was
+actually
+used
 pub
 fn
 inherit_font_size_from
@@ -12767,6 +12783,9 @@ Option
 Au
 >
 )
+-
+>
+bool
 {
 let
 (
@@ -12994,6 +13013,7 @@ adjusted_unconstrained_size
 .
 0
 ;
+false
 }
 else
 if
@@ -13063,6 +13083,7 @@ size
 .
 0
 ;
+true
 }
 else
 {
@@ -13133,6 +13154,7 @@ gecko
 .
 mScriptUnconstrainedSize
 ;
+false
 }
 }
 pub

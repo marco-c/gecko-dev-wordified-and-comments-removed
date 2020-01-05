@@ -11590,6 +11590,9 @@ Option
 Au
 >
 )
+-
+>
+bool
 {
 self
 .
@@ -11598,6 +11601,7 @@ copy_font_size_from
 parent
 )
 ;
+false
 }
 /
 /
