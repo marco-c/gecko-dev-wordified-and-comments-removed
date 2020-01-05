@@ -2610,7 +2610,7 @@ aRv
 ;
 Nullable
 <
-int32_t
+uint32_t
 >
 GetSelectionEnd
 (
@@ -2625,7 +2625,7 @@ SetSelectionEnd
 const
 Nullable
 <
-int32_t
+uint32_t
 >
 &
 aValue
