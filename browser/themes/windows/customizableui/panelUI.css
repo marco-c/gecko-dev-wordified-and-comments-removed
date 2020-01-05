@@ -150,6 +150,17 @@ arrowpanel
 background
 )
 ;
+color
+:
+var
+(
+-
+-
+arrowpanel
+-
+color
+)
+;
 border
 :
 1px
