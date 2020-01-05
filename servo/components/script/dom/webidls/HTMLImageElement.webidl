@@ -143,8 +143,6 @@ attribute
 DOMString
 srcset
 ;
-/
-/
 attribute
 DOMString
 crossOrigin
@@ -183,6 +181,11 @@ readonly
 attribute
 boolean
 complete
+;
+readonly
+attribute
+DOMString
+currentSrc
 ;
 /
 /
