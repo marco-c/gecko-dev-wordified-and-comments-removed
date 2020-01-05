@@ -109,6 +109,9 @@ org
 interface
 -
 htmlcollection
+[
+LegacyUnenumerableNamedProperties
+]
 interface
 HTMLCollection
 {

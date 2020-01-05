@@ -38,6 +38,17 @@ patch
 abstract
 .
 patch
+patch
+<
+legacy
+-
+unenumerable
+-
+named
+-
+properties
+.
+patch
 #
 TODO
 :

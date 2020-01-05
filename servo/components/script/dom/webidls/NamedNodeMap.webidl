@@ -74,6 +74,9 @@ org
 interface
 -
 namednodemap
+[
+LegacyUnenumerableNamedProperties
+]
 interface
 NamedNodeMap
 {
