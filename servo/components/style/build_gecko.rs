@@ -3490,6 +3490,12 @@ mozilla
 :
 LengthParsingMode
 "
+"
+mozilla
+:
+:
+InheritTarget
+"
 ]
 ;
 let
@@ -4818,6 +4824,9 @@ UpdateAnimationsTasks
 "
 "
 LengthParsingMode
+"
+"
+InheritTarget
 "
 ]
 ;

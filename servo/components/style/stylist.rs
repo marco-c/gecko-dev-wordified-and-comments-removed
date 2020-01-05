@@ -1932,10 +1932,6 @@ self
 device
 &
 rule_node
-Some
-(
-pseudo
-)
 guards
 parent
 .
@@ -2481,10 +2477,6 @@ self
 device
 &
 rule_node
-Some
-(
-pseudo
-)
 guards
 Some
 (
@@ -4080,7 +4072,6 @@ self
 device
 &
 rule_node
-None
 guards
 Some
 (

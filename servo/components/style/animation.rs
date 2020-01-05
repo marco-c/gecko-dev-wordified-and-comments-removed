@@ -2071,7 +2071,6 @@ stylist
 .
 device
 false
-None
 iter
 previous_style
 previous_style
