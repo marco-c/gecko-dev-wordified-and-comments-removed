@@ -363,7 +363,7 @@ i
 .
 color
 =
-toWrColor
+ToWRColor
 (
 glyph_array
 .
@@ -453,11 +453,11 @@ AddWebRenderCommand
 (
 OpDPPushText
 (
-toWrRect
+ToWRRect
 (
 rect
 )
-toWrRect
+ToWRRect
 (
 clip
 )
