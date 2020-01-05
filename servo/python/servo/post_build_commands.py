@@ -493,6 +493,12 @@ path
 .
 join
 (
+            
+self
+.
+context
+.
+topdir
 "
 components
 "
@@ -519,7 +525,7 @@ docs
             
 os
 .
-mkdir
+makedirs
 (
 docs
 )
@@ -754,6 +760,11 @@ path
 join
 (
             
+self
+.
+servo_crate
+(
+)
 "
 target
 "
