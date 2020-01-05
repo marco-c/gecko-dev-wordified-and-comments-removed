@@ -197,6 +197,11 @@ removeSHistoryListener
 listener
 )
 ;
+delete
+content
+.
+_testListener
+;
 content
 .
 setTimeout
@@ -296,6 +301,12 @@ addSHistoryListener
 (
 listener
 )
+;
+content
+.
+_testListener
+=
+listener
 ;
 content
 .
