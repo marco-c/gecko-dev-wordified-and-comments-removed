@@ -1742,7 +1742,7 @@ const
 )
 )
 (
-assert_trap
+assert_exhaustion
 (
 invoke
 "
@@ -1756,7 +1756,7 @@ exhausted
 "
 )
 (
-assert_trap
+assert_exhaustion
 (
 invoke
 "

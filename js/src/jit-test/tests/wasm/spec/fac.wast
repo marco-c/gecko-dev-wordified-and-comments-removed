@@ -662,7 +662,7 @@ const
 )
 )
 (
-assert_trap
+assert_exhaustion
 (
 invoke
 "
