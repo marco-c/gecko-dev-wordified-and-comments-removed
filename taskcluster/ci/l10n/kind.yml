@@ -229,9 +229,6 @@ l10n
 internal
 index
 :
-type
-:
-l10n
 product
 :
 by
@@ -266,7 +263,9 @@ linux
 -
 l10n
 :
-linux
+linux32
+-
+l10n
 -
 opt
 linux64
@@ -275,10 +274,14 @@ l10n
 :
 linux64
 -
+l10n
+-
 opt
 macosx64
 :
 macosx64
+-
+l10n
 -
 opt
 android
@@ -291,9 +294,7 @@ l10n
 :
 android
 -
-api
--
-15
+l10n
 -
 opt
 worker
