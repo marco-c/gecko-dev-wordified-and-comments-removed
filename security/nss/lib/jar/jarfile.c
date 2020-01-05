@@ -2740,6 +2740,8 @@ ent
 JAR_Item
 *
 it
+=
+NULL
 ;
 JAR_Physical
 *

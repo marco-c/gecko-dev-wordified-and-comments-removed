@@ -4038,6 +4038,9 @@ NSS_DISABLE_UNLOAD
 ;
 if
 (
+blLib
+&
+&
 !
 disableUnload
 )

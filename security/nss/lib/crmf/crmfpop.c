@@ -575,6 +575,11 @@ len
 ]
 )
 ;
+if
+(
+len
+)
+{
 PORT_Memcpy
 (
 cursor
@@ -582,6 +587,7 @@ buf
 len
 )
 ;
+}
 encoderArg
 -
 >

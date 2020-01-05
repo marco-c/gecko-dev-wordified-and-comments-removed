@@ -133,7 +133,6 @@ fwMechanism
 {
 if
 (
-!
 fwMechanism
 -
 >

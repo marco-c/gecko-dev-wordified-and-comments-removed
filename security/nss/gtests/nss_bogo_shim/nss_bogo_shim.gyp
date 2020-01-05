@@ -169,7 +169,7 @@ sqlite3
 DEPTH
 )
 /
-external_tests
+gtests
 /
 google_test
 /

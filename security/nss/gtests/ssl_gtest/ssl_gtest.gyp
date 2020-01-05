@@ -299,7 +299,7 @@ sqlite3
 DEPTH
 )
 /
-external_tests
+gtests
 /
 google_test
 /
@@ -925,7 +925,7 @@ include_dirs
 .
 .
 /
-external_tests
+gtests
 /
 google_test
 /
@@ -940,7 +940,7 @@ include
 .
 .
 /
-external_tests
+gtests
 /
 common
 '

@@ -523,6 +523,11 @@ len
 =
 len
 ;
+if
+(
+len
+)
+{
 PORT_Memcpy
 (
 output
@@ -538,6 +543,7 @@ buf
 len
 )
 ;
+}
 }
 }
 static
