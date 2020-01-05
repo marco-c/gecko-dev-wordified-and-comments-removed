@@ -1117,6 +1117,11 @@ python
 mozlint
 '
 '
+security
+/
+manager
+'
+'
 taskcluster
 '
 '
