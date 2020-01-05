@@ -382,6 +382,11 @@ partial
 interface
 Document
 {
+readonly
+attribute
+DOMString
+lastModified
+;
 [
 SetterThrows
 ]
