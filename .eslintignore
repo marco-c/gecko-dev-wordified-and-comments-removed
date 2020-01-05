@@ -675,15 +675,6 @@ client
 /
 webconsole
 /
-utils
-.
-js
-devtools
-/
-client
-/
-webconsole
-/
 webconsole
 -
 connection
