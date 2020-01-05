@@ -19473,9 +19473,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_EME
 static
 void
 CheckIfContainsEMEContent
@@ -19608,8 +19605,6 @@ return
 containsEME
 ;
 }
-#
-endif
 static
 void
 CheckIfContainsMSEContent
@@ -37298,9 +37293,6 @@ false
 }
 #
 endif
-#
-ifdef
-MOZ_EME
 if
 (
 ContainsEMEContent
@@ -37312,8 +37304,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 ContainsMSEContent
