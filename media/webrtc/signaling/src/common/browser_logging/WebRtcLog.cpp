@@ -1071,13 +1071,6 @@ aLogFile
 }
 #
 endif
-#
-if
-!
-defined
-(
-MOZILLA_EXTERNAL_LINKAGE
-)
 if
 (
 XRE_IsParentProcess
@@ -1106,8 +1099,6 @@ aLogFile
 )
 ;
 }
-#
-endif
 return
 ;
 }
@@ -1499,13 +1490,6 @@ get
 )
 )
 ;
-#
-if
-!
-defined
-(
-MOZILLA_EXTERNAL_LINKAGE
-)
 if
 (
 XRE_IsParentProcess
@@ -1534,8 +1518,6 @@ aAECLogDir
 )
 ;
 }
-#
-endif
 }
 void
 StartAecLog
