@@ -39259,6 +39259,13 @@ n
 "
 STDCXX_COMPAT
 "
+-
+a
+-
+n
+"
+COMPILE_ENVIRONMENT
+"
 ;
 then
 eval
