@@ -383,6 +383,7 @@ static
 bool
 StringPseudoMatches
 (
+const
 mozilla
 :
 :
@@ -397,9 +398,11 @@ mozilla
 :
 CSSPseudoClassType
 aPseudo
+const
 char16_t
 *
 aString
+const
 nsIDocument
 *
 aDocument
@@ -410,6 +413,9 @@ mozilla
 :
 EventStates
 aStateMask
+bool
+*
+aSetSlowSelectorFlag
 bool
 *
 const

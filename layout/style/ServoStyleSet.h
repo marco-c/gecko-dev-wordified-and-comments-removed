@@ -757,6 +757,11 @@ PreTraverse
 (
 )
 ;
+void
+PreTraverseSync
+(
+)
+;
 already_AddRefed
 <
 ServoComputedValues
