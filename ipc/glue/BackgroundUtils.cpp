@@ -55,6 +55,13 @@ h
 #
 include
 "
+nsExpandedPrincipal
+.
+h
+"
+#
+include
+"
 nsPrincipal
 .
 h

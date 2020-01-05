@@ -89,7 +89,7 @@ h
 #
 include
 "
-nsPrincipal
+nsExpandedPrincipal
 .
 h
 "
