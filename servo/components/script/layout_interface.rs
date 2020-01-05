@@ -117,7 +117,6 @@ script_traits
 {
 ConstellationControlMsg
 LayoutControlMsg
-ScriptControlChan
 }
 ;
 use
@@ -619,7 +618,10 @@ TrustedNodeAddress
 pub
 script_chan
 :
-ScriptControlChan
+Sender
+<
+ConstellationControlMsg
+>
 pub
 window_size
 :

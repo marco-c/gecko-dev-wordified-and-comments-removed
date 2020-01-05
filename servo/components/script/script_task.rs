@@ -466,10 +466,7 @@ use
 script_traits
 :
 :
-{
 ConstellationControlMsg
-ScriptControlChan
-}
 ;
 use
 script_traits
@@ -1748,7 +1745,10 @@ chan
 NonWorkerScriptChan
 control_chan
 :
-ScriptControlChan
+Sender
+<
+ConstellationControlMsg
+>
 control_port
 :
 Receiver
@@ -2124,7 +2124,10 @@ layout_chan
 OpaqueScriptLayoutChannel
 control_chan
 :
-ScriptControlChan
+Sender
+<
+ConstellationControlMsg
+>
 control_port
 :
 Receiver
@@ -3066,7 +3069,10 @@ chan
 NonWorkerScriptChan
 control_chan
 :
-ScriptControlChan
+Sender
+<
+ConstellationControlMsg
+>
 control_port
 :
 Receiver
@@ -6342,8 +6348,6 @@ script_chan
 self
 .
 control_chan
-.
-0
 .
 clone
 (

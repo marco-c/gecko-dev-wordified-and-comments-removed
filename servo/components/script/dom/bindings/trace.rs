@@ -247,12 +247,6 @@ use
 script_traits
 :
 :
-ScriptControlChan
-;
-use
-script_traits
-:
-:
 UntrustedNodeAddress
 ;
 use
@@ -1713,7 +1707,6 @@ no_jsmanaged_fields
 Image
 ImageCacheChan
 ImageCacheTask
-ScriptControlChan
 )
 ;
 no_jsmanaged_fields

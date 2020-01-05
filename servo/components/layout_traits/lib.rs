@@ -125,7 +125,7 @@ script_traits
 :
 {
 LayoutControlMsg
-ScriptControlChan
+ConstellationControlMsg
 OpaqueScriptLayoutChannel
 }
 ;
@@ -217,7 +217,10 @@ failure_msg
 Failure
 script_chan
 :
-ScriptControlChan
+Sender
+<
+ConstellationControlMsg
+>
 layout_to_paint_chan
 :
 OptionalIpcSender
