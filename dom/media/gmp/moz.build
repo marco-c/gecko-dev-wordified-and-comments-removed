@@ -523,14 +523,6 @@ GMPLoader
 cpp
 '
 ]
-USE_LIBS
-+
-=
-[
-'
-rlz
-'
-]
 UNIFIED_SOURCES
 +
 =
@@ -700,9 +692,6 @@ DIRS
 +
 =
 [
-'
-rlz
-'
 '
 widevine
 -
