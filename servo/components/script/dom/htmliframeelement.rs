@@ -1432,7 +1432,7 @@ event_loop
 queue
 (
 box
-IframeLoadEventSteps
+IFrameLoadEventSteps
 :
 :
 new
@@ -5906,7 +5906,7 @@ None
 }
 }
 struct
-IframeLoadEventSteps
+IFrameLoadEventSteps
 {
 frame_element
 :
@@ -5919,7 +5919,7 @@ pipeline_id
 PipelineId
 }
 impl
-IframeLoadEventSteps
+IFrameLoadEventSteps
 {
 fn
 new
@@ -5931,9 +5931,9 @@ HTMLIFrameElement
 )
 -
 >
-IframeLoadEventSteps
+IFrameLoadEventSteps
 {
-IframeLoadEventSteps
+IFrameLoadEventSteps
 {
 frame_element
 :
@@ -5961,7 +5961,7 @@ unwrap
 impl
 Runnable
 for
-IframeLoadEventSteps
+IFrameLoadEventSteps
 {
 fn
 handler
@@ -5970,7 +5970,7 @@ self
 :
 Box
 <
-IframeLoadEventSteps
+IFrameLoadEventSteps
 >
 )
 {
