@@ -160,7 +160,7 @@ LowLatency
 MediaPrefs
 :
 :
-PDMFFVPXLowLatencyEnabled
+PDMFFmpegLowLatencyEnabled
 (
 )
 )
