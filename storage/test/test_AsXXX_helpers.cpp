@@ -41,8 +41,9 @@ virtual
 Spinner
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
