@@ -182,16 +182,6 @@ return
 mGPUChild
 ;
 }
-TimeStamp
-GetLaunchTime
-(
-)
-const
-{
-return
-mLaunchTime
-;
-}
 void
 OnChannelConnected
 (
@@ -298,9 +288,6 @@ mShutdownRequested
 ;
 bool
 mChannelClosed
-;
-TimeStamp
-mLaunchTime
 ;
 }
 ;
