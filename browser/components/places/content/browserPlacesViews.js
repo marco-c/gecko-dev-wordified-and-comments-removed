@@ -2786,6 +2786,15 @@ parentNode
 }
 elt
 .
+removeAttribute
+(
+"
+image
+"
+)
+;
+elt
+.
 setAttribute
 (
 "
