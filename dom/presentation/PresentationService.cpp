@@ -1076,10 +1076,9 @@ aReason
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS
 (
 PresentationService
-PresentationServiceBase
 nsIPresentationService
 nsIObserver
 )

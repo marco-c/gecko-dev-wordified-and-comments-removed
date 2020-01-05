@@ -354,11 +354,6 @@ PresentationService
 cpp
 '
 '
-PresentationServiceBase
-.
-cpp
-'
-'
 PresentationSessionInfo
 .
 cpp
