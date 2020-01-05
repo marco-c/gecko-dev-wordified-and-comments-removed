@@ -4668,6 +4668,9 @@ Servo_StyleSet_NoteStyleSheetsChanged
 raw_data
 :
 RawServoStyleSetBorrowed
+author_style_disabled
+:
+bool
 )
 {
 let
@@ -4691,6 +4694,12 @@ data
 stylesheets_changed
 =
 true
+;
+data
+.
+author_style_disabled
+=
+author_style_disabled
 ;
 }
 #

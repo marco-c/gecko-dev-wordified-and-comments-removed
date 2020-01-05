@@ -161,6 +161,10 @@ stylesheets_changed
 :
 bool
 pub
+author_style_disabled
+:
+bool
+pub
 new_animations_sender
 :
 Sender
@@ -304,6 +308,9 @@ vec
 stylesheets_changed
 :
 true
+author_style_disabled
+:
+false
 new_animations_sender
 :
 new_anims_sender
@@ -528,6 +535,14 @@ mut
 self
 .
 font_faces
+author_style_disabled
+:
+Some
+(
+self
+.
+author_style_disabled
+)
 }
 ;
 stylist
