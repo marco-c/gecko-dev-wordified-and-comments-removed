@@ -5504,14 +5504,12 @@ find
 pid
 )
 .
-and_then
+map
 (
 |
 page
 |
 {
-Some
-(
 page
 .
 frame
@@ -5532,7 +5530,6 @@ window
 .
 root
 (
-)
 )
 }
 )
