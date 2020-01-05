@@ -589,10 +589,6 @@ Window
 doctype
 :
 DocumentType
-title
-:
-~
-str
 idmap
 :
 HashMap
@@ -807,11 +803,6 @@ window
 doctype
 :
 doctype
-title
-:
-~
-"
-"
 idmap
 :
 HashMap
