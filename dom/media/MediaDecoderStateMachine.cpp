@@ -3312,6 +3312,10 @@ mMaster
 -
 >
 mLowAudioThresholdUsecs
+.
+ToMicroseconds
+(
+)
 &
 &
 !
@@ -3328,6 +3332,11 @@ mMaster
 >
 mLowAudioThresholdUsecs
 =
+TimeUnit
+:
+:
+FromMicroseconds
+(
 std
 :
 :
@@ -3338,6 +3347,7 @@ mMaster
 -
 >
 mAmpleAudioThresholdUsecs
+)
 )
 ;
 mMaster
@@ -3356,6 +3366,10 @@ mMaster
 -
 >
 mLowAudioThresholdUsecs
+.
+ToMicroseconds
+(
+)
 mMaster
 -
 >
@@ -3386,6 +3400,10 @@ mMaster
 -
 >
 mLowAudioThresholdUsecs
+.
+ToMicroseconds
+(
+)
 mMaster
 -
 >
@@ -9871,6 +9889,10 @@ mMaster
 -
 >
 mLowAudioThresholdUsecs
+.
+ToMicroseconds
+(
+)
 *
 mMaster
 -
@@ -11450,10 +11472,6 @@ detail
 :
 :
 LOW_AUDIO_USECS
-.
-ToMicroseconds
-(
-)
 )
 mAmpleAudioThresholdUsecs
 (
