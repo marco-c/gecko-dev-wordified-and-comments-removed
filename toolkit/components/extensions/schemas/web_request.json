@@ -597,6 +597,11 @@ type
 string
 "
 }
+"
+minItems
+"
+:
+1
 }
 "
 types
@@ -653,6 +658,11 @@ ref
 ResourceType
 "
 }
+"
+minItems
+"
+:
+1
 }
 "
 tabId
