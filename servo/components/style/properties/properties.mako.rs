@@ -593,7 +593,7 @@ file
 /
 longhand
 /
-svg_inherited
+inherited_svg
 .
 mako
 .
