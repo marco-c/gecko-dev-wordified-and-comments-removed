@@ -68,10 +68,6 @@ euclid
 ;
 extern
 crate
-gfx
-;
-extern
-crate
 gfx_traits
 ;
 extern
@@ -170,10 +166,7 @@ size
 TypedSize2D
 ;
 use
-gfx
-:
-:
-paint_thread
+gfx_traits
 :
 :
 ChromeToPaintMsg
