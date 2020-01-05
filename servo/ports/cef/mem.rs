@@ -24,6 +24,17 @@ set_memory
 ;
 #
 [
+cfg
+(
+target_os
+=
+"
+macos
+"
+)
+]
+#
+[
 link_args
 =
 "
@@ -49,6 +60,9 @@ U
 _tc_deletearray
 "
 ]
+extern
+{
+}
 extern
 "
 C

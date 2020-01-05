@@ -120,6 +120,9 @@ matrix
 TASKS
 =
 build
+build
+-
+cef
 test
 -
 content
@@ -154,14 +157,3 @@ build
 test
 -
 wpt2
--
-os
-:
-osx
-env
-:
-TASKS
-=
-build
--
-cef
