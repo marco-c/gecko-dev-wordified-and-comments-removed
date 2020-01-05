@@ -344,11 +344,9 @@ harness
 '
 testing
 /
-firefox
--
-ui
+marionette
 /
-tests
+client
 '
     
 '
@@ -384,7 +382,9 @@ testing
 /
 marionette
 /
-client
+puppeteer
+/
+firefox
 '
     
 '
@@ -529,14 +529,6 @@ testing
 mozbase
 /
 manifestparser
-'
-    
-'
-testing
-/
-puppeteer
-/
-firefox
 '
     
 '

@@ -12,10 +12,3 @@ ui
 /
 harness
 /
-.
-.
-/
-puppeteer
-/
-firefox
-/
