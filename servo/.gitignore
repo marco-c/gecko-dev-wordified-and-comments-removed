@@ -102,3 +102,16 @@ mk
 last
 /
 glfw
+#
+Editors
+#
+IntelliJ
+.
+idea
+*
+.
+iws
+#
+VSCode
+.
+vscode
