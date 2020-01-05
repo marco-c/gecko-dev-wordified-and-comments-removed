@@ -510,6 +510,14 @@ nsPresContext
 :
 public
 nsIObserver
+public
+mozilla
+:
+:
+SupportsWeakPtr
+<
+nsPresContext
+>
 {
 public
 :
@@ -545,6 +553,10 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsPresContext
+)
+MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 nsPresContext
 )
