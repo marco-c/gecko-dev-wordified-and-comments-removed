@@ -170,11 +170,17 @@ MouseEvent
 :
 UIEvent
 {
+[
+NeedsCallerType
+]
 readonly
 attribute
 long
 screenX
 ;
+[
+NeedsCallerType
+]
 readonly
 attribute
 long

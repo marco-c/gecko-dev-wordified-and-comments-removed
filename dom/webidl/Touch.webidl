@@ -246,11 +246,17 @@ EventTarget
 ?
 target
 ;
+[
+NeedsCallerType
+]
 readonly
 attribute
 long
 screenX
 ;
+[
+NeedsCallerType
+]
 readonly
 attribute
 long
