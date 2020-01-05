@@ -1,14 +1,6 @@
 #
 !
 [
-feature
-(
-core_intrinsics
-)
-]
-#
-!
-[
 cfg_attr
 (
 feature

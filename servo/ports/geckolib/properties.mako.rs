@@ -749,12 +749,9 @@ FnOnce
 &
 Vec
 <
-Option
-<
 CascadePropertyFn
 <
 Self
->
 >
 >
 )
@@ -9996,12 +9993,9 @@ CASCADE_PROPERTY
 :
 Vec
 <
-Option
-<
 CascadePropertyFn
 <
 GeckoComputedValues
->
 >
 >
 =
