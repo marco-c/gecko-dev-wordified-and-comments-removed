@@ -697,7 +697,7 @@ up
 pub
 splits
 :
-Vec
+DList
 <
 InlineBlockSplit
 >
@@ -3575,12 +3575,12 @@ let
 mut
 opt_inline_block_splits
 :
-Vec
+DList
 <
 InlineBlockSplit
 >
 =
-Vec
+DList
 :
 :
 new
@@ -4306,7 +4306,7 @@ InlineFragmentsConstructionResult
 {
 splits
 :
-Vec
+DList
 :
 :
 new
@@ -4441,7 +4441,7 @@ InlineFragmentsConstructionResult
 {
 splits
 :
-Vec
+DList
 :
 :
 new
@@ -4600,7 +4600,7 @@ InlineFragmentsConstructionResult
 {
 splits
 :
-Vec
+DList
 :
 :
 new
