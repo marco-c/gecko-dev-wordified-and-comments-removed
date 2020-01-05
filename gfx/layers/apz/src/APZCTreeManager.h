@@ -573,9 +573,10 @@ aPoint
 HitTestResult
 *
 aOutHitResult
-bool
+HitTestingTreeNode
 *
-aOutHitScrollbar
+*
+aOutScrollbarNode
 =
 nullptr
 )
@@ -727,9 +728,10 @@ aHitTestPoint
 HitTestResult
 *
 aOutHitResult
-bool
+HitTestingTreeNode
 *
-aOutHitScrollbar
+*
+aOutScrollbarNode
 )
 ;
 AsyncPanZoomController
