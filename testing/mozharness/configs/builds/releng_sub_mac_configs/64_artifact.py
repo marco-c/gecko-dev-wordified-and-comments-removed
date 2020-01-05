@@ -168,13 +168,13 @@ enable_count_ctors
 False
     
 '
-enable_talos_sendchange
+enable_unittest_sendchange
 '
 :
-False
+True
     
 '
-enable_unittest_sendchange
+enable_talos_sendchange
 '
 :
 True
