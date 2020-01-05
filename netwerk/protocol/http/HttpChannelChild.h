@@ -515,6 +515,10 @@ const
 nsCString
 &
 altDataType
+const
+bool
+&
+contentDecodingWillBeCalledOnParent
 )
 override
 ;
@@ -1127,6 +1131,9 @@ mShouldParentIntercept
 ;
 bool
 mSuspendParentAfterSynthesizeResponse
+;
+bool
+mContentDecodingWillBeCalledOnParent
 ;
 nsCOMPtr
 <
