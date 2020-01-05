@@ -809,11 +809,6 @@ multi
 |
 |
 disqualified
-|
-|
-getAddonsDisqualifyForMulti
-(
-)
 )
 {
 Preferences
@@ -834,6 +829,12 @@ return
 if
 (
 cohortPrefix
+&
+&
+!
+getAddonsDisqualifyForMulti
+(
+)
 )
 {
 cohortPrefix
