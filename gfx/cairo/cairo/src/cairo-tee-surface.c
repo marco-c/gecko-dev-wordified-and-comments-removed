@@ -2534,9 +2534,6 @@ int
 n
 num_slaves
 ;
-cairo_status_t
-status
-;
 if
 (
 unlikely
@@ -2560,8 +2557,6 @@ finished
 )
 )
 {
-status
-=
 _cairo_surface_set_error
 (
 abstract_surface
@@ -2586,8 +2581,6 @@ backend
 cairo_tee_surface_backend
 )
 {
-status
-=
 _cairo_surface_set_error
 (
 abstract_surface
@@ -2621,8 +2614,6 @@ master
 target
 )
 {
-status
-=
 _cairo_surface_set_error
 (
 abstract_surface
@@ -2696,8 +2687,6 @@ n
 num_slaves
 )
 {
-status
-=
 _cairo_surface_set_error
 (
 abstract_surface

@@ -5819,7 +5819,6 @@ buffer
 glyph_count_end
 ;
 int
-num_charstrings
 length
 ;
 charstrings
@@ -5862,8 +5861,6 @@ CharStrings
 "
 )
 ;
-num_charstrings
-=
 strtol
 (
 p
@@ -7121,7 +7118,6 @@ font
 ;
 cairo_status_t
 status
-status_ignored
 ;
 unsigned
 long
@@ -7639,8 +7635,6 @@ base_font
 ;
 fail1
 :
-status_ignored
-=
 _cairo_type1_font_subset_fini
 (
 &

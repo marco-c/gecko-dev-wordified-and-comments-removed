@@ -1698,9 +1698,6 @@ extents
 cairo_matrix_t
 matrix
 ;
-cairo_bool_t
-is_empty
-;
 parent_surface
 =
 _cairo_gstate_get_target
@@ -1711,8 +1708,6 @@ cr
 gstate
 )
 ;
-is_empty
-=
 _cairo_surface_get_extents
 (
 parent_surface
@@ -1740,8 +1735,6 @@ clip_extents
 =
 NULL
 )
-is_empty
-=
 _cairo_rectangle_intersect
 (
 &
@@ -6800,9 +6793,6 @@ scaled_font
 cairo_status_t
 status
 ;
-cairo_bool_t
-was_previous
-;
 if
 (
 unlikely
@@ -6865,19 +6855,6 @@ gstate
 scaled_font
 )
 return
-;
-was_previous
-=
-scaled_font
-=
-=
-cr
--
->
-gstate
--
->
-previous_scaled_font
 ;
 status
 =
