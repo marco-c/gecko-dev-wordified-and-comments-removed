@@ -32390,7 +32390,7 @@ provider
 "
 }
 "
-URLCLASSIFIER_COMPLETE_REMOTE_STATUS
+URLCLASSIFIER_COMPLETE_REMOTE_STATUS2
 "
 :
 {
@@ -32423,6 +32423,11 @@ kind
 enumerated
 "
 "
+keyed
+"
+:
+true
+"
 n_values
 "
 :
@@ -32433,6 +32438,7 @@ bug_numbers
 :
 [
 1150921
+1311926
 ]
 "
 description
@@ -32503,6 +32509,10 @@ lookups
 =
 Other
 )
+.
+Keyed
+by
+provider
 "
 }
 "
@@ -32577,7 +32587,7 @@ type
 "
 }
 "
-URLCLASSIFIER_COMPLETE_TIMEOUT
+URLCLASSIFIER_COMPLETE_TIMEOUT2
 "
 :
 {
@@ -32600,7 +32610,7 @@ expires_in_version
 "
 :
 "
-56
+59
 "
 "
 kind
@@ -32610,11 +32620,17 @@ kind
 boolean
 "
 "
+keyed
+"
+:
+true
+"
 bug_numbers
 "
 :
 [
 1172688
+1311926
 ]
 "
 description
@@ -32641,6 +32657,9 @@ lookup
 times
 out
 .
+Keyed
+by
+provider
 "
 }
 "
