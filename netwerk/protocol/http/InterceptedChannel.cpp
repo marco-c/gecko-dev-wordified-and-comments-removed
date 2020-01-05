@@ -95,6 +95,16 @@ namespace
 net
 {
 extern
+bool
+WillRedirect
+(
+const
+nsHttpResponseHead
+*
+response
+)
+;
+extern
 nsresult
 DoUpdateExpirationTime
 (
@@ -929,9 +939,6 @@ EnsureSynthesizedResponse
 ;
 if
 (
-nsHttpChannel
-:
-:
 WillRedirect
 (
 mSynthesizedResponseHead

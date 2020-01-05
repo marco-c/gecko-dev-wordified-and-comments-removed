@@ -386,6 +386,15 @@ mozilla
 namespace
 net
 {
+extern
+bool
+WillRedirect
+(
+nsHttpResponseHead
+*
+response
+)
+;
 namespace
 {
 const
@@ -12635,9 +12644,6 @@ aStreamListener
 if
 (
 !
-nsHttpChannel
-:
-:
 WillRedirect
 (
 aResponseHead
@@ -12660,9 +12666,6 @@ true
 ;
 if
 (
-nsHttpChannel
-:
-:
 WillRedirect
 (
 mResponseHead
