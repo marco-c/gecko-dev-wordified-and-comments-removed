@@ -576,6 +576,14 @@ SQLITE_DEBUG
 ]
 =
 1
+DEFINES
+[
+'
+SQLITE_ENABLE_API_ARMOR
+'
+]
+=
+True
 if
 CONFIG
 [
