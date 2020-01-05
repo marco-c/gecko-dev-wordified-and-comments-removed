@@ -4940,14 +4940,6 @@ RoundingMode
 mode
 )
 ;
-void
-*
-AddressOf
-(
-SymbolicAddress
-imm
-)
-;
 struct
 Assumptions
 {
