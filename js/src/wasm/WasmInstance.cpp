@@ -1916,8 +1916,10 @@ WasmInstanceObject
 *
 >
 object
-UniqueCode
+MutableCode
 code
+UniqueDebugState
+debug
 UniqueGlobalSegment
 globals
 HandleWasmMemoryObject
@@ -1952,9 +1954,13 @@ object
 )
 code_
 (
+code
+)
+debug_
+(
 Move
 (
-code
+debug
 )
 )
 globals_
@@ -4840,7 +4846,7 @@ enabled
 )
 return
 ;
-code_
+debug_
 -
 >
 adjustEnterAndLeaveFrameTrapsState

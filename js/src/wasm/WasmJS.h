@@ -555,7 +555,7 @@ create
 JSContext
 *
 cx
-UniquePtr
+RefPtr
 <
 wasm
 :
@@ -563,6 +563,14 @@ wasm
 Code
 >
 code
+UniquePtr
+<
+wasm
+:
+:
+DebugState
+>
+debug
 UniquePtr
 <
 wasm

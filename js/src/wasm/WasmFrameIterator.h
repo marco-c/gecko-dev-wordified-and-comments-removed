@@ -45,6 +45,9 @@ class
 DebugFrame
 ;
 class
+DebugState
+;
+class
 Instance
 ;
 class

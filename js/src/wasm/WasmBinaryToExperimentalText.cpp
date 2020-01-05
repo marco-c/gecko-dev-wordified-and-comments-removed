@@ -71,6 +71,15 @@ include
 "
 wasm
 /
+WasmDebug
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTextUtils
 .
 h

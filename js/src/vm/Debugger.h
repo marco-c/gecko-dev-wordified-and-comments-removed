@@ -7812,9 +7812,9 @@ public
 wasm
 :
 :
-Code
+DebugState
 *
-code
+debug
 ;
 uint32_t
 offset
@@ -7837,9 +7837,9 @@ WasmBreakpointSite
 wasm
 :
 :
-Code
+DebugState
 *
-code
+debug
 uint32_t
 offset
 )
