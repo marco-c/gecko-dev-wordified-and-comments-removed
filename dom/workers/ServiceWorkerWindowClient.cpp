@@ -1443,6 +1443,10 @@ mPromiseProxy
 (
 aPromiseProxy
 )
+mWorkerPrivate
+(
+nullptr
+)
 {
 MOZ_ASSERT
 (
