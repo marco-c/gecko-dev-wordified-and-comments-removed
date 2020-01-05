@@ -5850,6 +5850,8 @@ GetUnit
 eCSSUnit_Enumerated
 &
 &
+StyleShapeRadius
+(
 array
 -
 >
@@ -5861,9 +5863,13 @@ Item
 GetIntValue
 (
 )
+)
 =
 =
-NS_RADIUS_CLOSEST_SIDE
+StyleShapeRadius
+:
+:
+ClosestSide
 &
 &
 (
@@ -5890,6 +5896,8 @@ GetUnit
 eCSSUnit_Enumerated
 &
 &
+StyleShapeRadius
+(
 array
 -
 >
@@ -5901,9 +5909,13 @@ Item
 GetIntValue
 (
 )
+)
 =
 =
-NS_RADIUS_CLOSEST_SIDE
+StyleShapeRadius
+:
+:
+ClosestSide
 )
 )
 )
