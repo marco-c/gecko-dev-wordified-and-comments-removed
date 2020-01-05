@@ -79,7 +79,6 @@ codegen
 allow
 (
 unrooted_must_root
-moved_no_move
 )
 ]
 pub

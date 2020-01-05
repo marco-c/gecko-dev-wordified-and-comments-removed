@@ -36430,16 +36430,6 @@ Template
 (
                 
 "
-#
-[
-no_move
-]
-\
-n
-"
-+
-                
-"
 pub
 struct
 {

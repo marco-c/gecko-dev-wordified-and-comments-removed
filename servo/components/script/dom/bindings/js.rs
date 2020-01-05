@@ -2428,10 +2428,6 @@ r
 )
 }
 }
-#
-[
-no_move
-]
 pub
 struct
 RootCollection
