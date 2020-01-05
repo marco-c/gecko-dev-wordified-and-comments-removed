@@ -145,7 +145,7 @@ str
 :
 {
 DOMString
-WHITESPACE
+HTML_SPACE_CHARACTERS
 read_numbers
 }
 ;
@@ -978,7 +978,7 @@ input
 .
 trim_matches
 (
-WHITESPACE
+HTML_SPACE_CHARACTERS
 )
 ;
 enum
