@@ -419,16 +419,6 @@ true
 "
 browser
 .
-reader
-.
-detectedFirstArticle
-"
-true
-]
-[
-"
-browser
-.
 safebrowsing
 .
 blockedURIs

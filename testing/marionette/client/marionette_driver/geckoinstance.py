@@ -2633,16 +2633,6 @@ True
 "
 browser
 .
-reader
-.
-detectedFirstArticle
-"
-:
-True
-        
-"
-browser
-.
 safebrowsing
 .
 blockedURIs
