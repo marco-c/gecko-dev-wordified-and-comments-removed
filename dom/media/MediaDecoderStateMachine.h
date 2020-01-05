@@ -1504,12 +1504,6 @@ mQueuedSeek
 SeekJob
 mCurrentSeek
 ;
-RefPtr
-<
-SeekTask
->
-mSeekTask
-;
 int64_t
 mFragmentEndTime
 ;
