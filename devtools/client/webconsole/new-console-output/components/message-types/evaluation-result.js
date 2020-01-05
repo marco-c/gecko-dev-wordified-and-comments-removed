@@ -148,6 +148,7 @@ exceptionDocURL
 frame
 timeStamp
 parameters
+notes
 }
 =
 message
@@ -218,6 +219,7 @@ exceptionDocURL
 frame
 timeStamp
 parameters
+notes
 }
 ;
 return

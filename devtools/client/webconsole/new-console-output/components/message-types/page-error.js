@@ -131,6 +131,7 @@ stacktrace
 frame
 exceptionDocURL
 timeStamp
+notes
 }
 =
 message
@@ -165,6 +166,7 @@ stacktrace
 serviceContainer
 exceptionDocURL
 timeStamp
+notes
 }
 ;
 return
