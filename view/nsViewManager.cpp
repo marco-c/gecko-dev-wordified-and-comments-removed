@@ -4836,7 +4836,6 @@ return
 true
 ;
 }
-else
 if
 (
 aView
@@ -4854,8 +4853,6 @@ return
 false
 ;
 }
-else
-{
 nsView
 *
 view
@@ -4905,7 +4902,6 @@ GetNextSibling
 return
 false
 ;
-}
 }
 void
 nsViewManager
