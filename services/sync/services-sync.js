@@ -403,12 +403,13 @@ about
 .
 *
 |
+resource
+:
+.
+*
+|
 chrome
 :
-/
-/
-weave
-/
 .
 *
 |
