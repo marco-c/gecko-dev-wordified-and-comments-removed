@@ -416,15 +416,9 @@ dropmarker
 -
 icon
 {
-list
--
-style
--
-image
+fill
 :
-none
-!
-important
+transparent
 ;
 }
 #
