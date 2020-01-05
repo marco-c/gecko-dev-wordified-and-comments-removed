@@ -65,7 +65,7 @@ h
 "
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 #
 include
 "
@@ -605,7 +605,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -651,7 +651,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -698,7 +698,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -745,7 +745,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -792,7 +792,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -838,7 +838,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -883,7 +883,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -928,7 +928,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -975,7 +975,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -1022,7 +1022,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -1069,7 +1069,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -1116,7 +1116,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
@@ -1181,7 +1181,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla

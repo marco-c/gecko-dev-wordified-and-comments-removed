@@ -278,7 +278,7 @@ if
 CONFIG
 [
 '
-MOZ_FAULTY
+FUZZING
 '
 ]
 =

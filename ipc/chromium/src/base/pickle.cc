@@ -2849,7 +2849,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 std
 :
 :
@@ -2987,7 +2987,7 @@ value
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 std
 :
 :
@@ -3134,7 +3134,7 @@ length
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 std
 :
 :
