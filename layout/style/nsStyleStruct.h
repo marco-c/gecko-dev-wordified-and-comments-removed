@@ -2870,8 +2870,11 @@ const
 nsStyleImageLayers
 &
 aNewLayers
-nsChangeHint
-aPositionChangeHint
+nsStyleImageLayers
+:
+:
+LayerType
+aType
 )
 const
 ;
