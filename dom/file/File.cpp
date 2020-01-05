@@ -711,11 +711,6 @@ impl
 >
 InitializeBlob
 (
-aGlobal
-.
-Context
-(
-)
 aData
 type
 false

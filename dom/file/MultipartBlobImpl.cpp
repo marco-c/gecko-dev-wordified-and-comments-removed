@@ -864,9 +864,6 @@ MultipartBlobImpl
 :
 InitializeBlob
 (
-JSContext
-*
-aCx
 const
 Sequence
 <
@@ -991,7 +988,6 @@ GetAsUSVString
 (
 )
 aNativeEOL
-aCx
 )
 ;
 if
