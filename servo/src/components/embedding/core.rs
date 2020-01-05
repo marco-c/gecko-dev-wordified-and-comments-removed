@@ -324,6 +324,9 @@ false
 bubble_widths_separately
 :
 false
+native_threading
+:
+false
 }
 ;
 native
