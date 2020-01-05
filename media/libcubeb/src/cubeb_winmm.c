@@ -5460,6 +5460,7 @@ winmm_get_backend_id
 winmm_get_max_channel_count
 winmm_get_min_latency
 winmm_get_preferred_sample_rate
+NULL
 winmm_enumerate_devices
 winmm_destroy
 winmm_stream_init

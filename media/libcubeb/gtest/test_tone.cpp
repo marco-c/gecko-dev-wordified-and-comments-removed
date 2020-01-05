@@ -528,6 +528,12 @@ channels
 =
 1
 ;
+params
+.
+layout
+=
+CUBEB_LAYOUT_MONO
+;
 user_data
 =
 (
