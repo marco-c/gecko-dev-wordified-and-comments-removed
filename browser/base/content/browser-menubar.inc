@@ -2251,6 +2251,11 @@ View
 :
 ReaderView
 "
+key
+=
+"
+key_toggleReaderMode
+"
 hidden
 =
 "
