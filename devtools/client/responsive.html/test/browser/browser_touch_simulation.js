@@ -1426,7 +1426,7 @@ classList
 contains
 (
 "
-active
+checked
 "
 )
 "
@@ -1458,7 +1458,7 @@ classList
 contains
 (
 "
-active
+checked
 "
 )
 "
@@ -1487,7 +1487,7 @@ classList
 contains
 (
 "
-active
+checked
 "
 )
 "
