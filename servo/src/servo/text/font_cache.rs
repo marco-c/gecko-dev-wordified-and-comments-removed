@@ -1,7 +1,3 @@
-extern
-mod
-freetype
-;
 use
 font
 :
@@ -257,6 +253,10 @@ pub
 mod
 native
 {
+extern
+mod
+freetype
+;
 use
 ptr
 :
