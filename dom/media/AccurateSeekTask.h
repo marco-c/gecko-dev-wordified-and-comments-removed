@@ -169,11 +169,6 @@ AccurateSeekTask
 (
 )
 ;
-void
-MaybeFinishSeek
-(
-)
-;
 const
 media
 :
