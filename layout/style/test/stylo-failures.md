@@ -2816,14 +2816,6 @@ marker
 8
 ]
 *
-test_initial_storage
-.
-html
-marker
-[
-5
-]
-*
 stroke
 properties
 *
