@@ -1202,6 +1202,14 @@ nsAString
 aType
 )
 ;
+enum
+BeaconType
+{
+eBeaconTypeBlob
+eBeaconTypeArrayBuffer
+eBeaconTypeOther
+}
+;
 bool
 SendBeaconInternal
 (
@@ -1212,8 +1220,8 @@ aUrl
 BodyExtractorBase
 *
 aBody
-bool
-aIsBlob
+BeaconType
+aType
 ErrorResult
 &
 aRv
