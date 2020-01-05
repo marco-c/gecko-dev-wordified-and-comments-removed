@@ -6554,7 +6554,3 @@ gonkdir
 :
 return
 None
-include
-(
-include_project_configure
-)

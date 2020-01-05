@@ -695,6 +695,10 @@ compile
 environment
 '
 )
+include
+(
+include_project_configure
+)
 depends
 (
 building_js
