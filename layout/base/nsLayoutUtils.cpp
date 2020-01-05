@@ -3042,10 +3042,10 @@ IsNull
 UpdateMinMaxScale
 (
 aFrame
-{
+AnimationValue
+(
 baseStyle
-nullptr
-}
+)
 aMinScale
 aMaxScale
 )
