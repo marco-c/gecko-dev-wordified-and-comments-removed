@@ -842,6 +842,11 @@ IsFrameCaptureRequested
 const
 ;
 void
+ProcessDestroyedFrameListeners
+(
+)
+;
+void
 SetFrameCapture
 (
 already_AddRefed
