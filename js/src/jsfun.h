@@ -2943,7 +2943,7 @@ FUNCTION
 NewObjectKind
 newKind
 =
-GenericObject
+SingletonObject
 )
 ;
 extern
@@ -2976,7 +2976,7 @@ FUNCTION
 NewObjectKind
 newKind
 =
-GenericObject
+SingletonObject
 JSFunction
 :
 :

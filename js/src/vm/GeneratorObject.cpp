@@ -2026,6 +2026,14 @@ NATIVE_CTOR
 nullptr
 name
 proto
+gc
+:
+:
+AllocKind
+:
+:
+FUNCTION
+SingletonObject
 )
 )
 ;

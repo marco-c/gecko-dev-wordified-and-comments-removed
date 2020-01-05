@@ -4204,7 +4204,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
-GenericObject
+SingletonObject
 JSFunction
 :
 :
