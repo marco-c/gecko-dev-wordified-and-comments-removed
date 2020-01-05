@@ -154,13 +154,12 @@ mAddon
 optionsType
 AddonManager
 .
-OPTIONS_TYPE_INLINE_INFO
+OPTIONS_TYPE_INLINE
 "
 Options
 should
 be
 inline
-info
 type
 "
 )
@@ -194,7 +193,7 @@ btn
 "
 )
 ;
-is_element_hidden
+is_element_visible
 (
 button
 "
