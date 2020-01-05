@@ -77,10 +77,7 @@ location
 [
 Exposed
 =
-(
 Window
-Worker
-)
 Unforgeable
 ]
 interface

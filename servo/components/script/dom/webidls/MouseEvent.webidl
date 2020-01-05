@@ -83,6 +83,9 @@ optional
 MouseEventInit
 mouseEventInitDict
 )
+Exposed
+=
+Window
 ]
 interface
 MouseEvent

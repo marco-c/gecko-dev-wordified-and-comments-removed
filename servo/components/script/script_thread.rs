@@ -11627,11 +11627,8 @@ TransitionEvent
 :
 new
 (
+&
 window
-.
-upcast
-(
-)
 atom
 !
 (

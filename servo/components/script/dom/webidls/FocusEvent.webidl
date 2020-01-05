@@ -83,6 +83,9 @@ optional
 FocusEventInit
 focusEventInitDict
 )
+Exposed
+=
+Window
 ]
 interface
 FocusEvent
