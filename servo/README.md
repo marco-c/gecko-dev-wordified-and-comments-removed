@@ -401,7 +401,7 @@ cmake
 On
 OS
 X
-<
+>
 =
 10
 .
@@ -415,7 +415,7 @@ also
 have
 to
 install
-openssl
+OpenSSL
 sh
 brew
 install
