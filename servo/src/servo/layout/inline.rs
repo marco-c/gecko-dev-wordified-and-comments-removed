@@ -1356,6 +1356,8 @@ d
 (
 )
 run
+TextRange
+(
 0
 run
 .
@@ -1363,6 +1365,7 @@ text
 .
 len
 (
+)
 )
 )
 ;
@@ -1927,6 +1930,8 @@ d
 (
 )
 run
+TextRange
+(
 0
 run
 .
@@ -1934,6 +1939,7 @@ text
 .
 len
 (
+)
 )
 )
 ;
@@ -4958,15 +4964,9 @@ run
 .
 metrics_for_range
 (
-TextRange
-(
 data
 .
-offset
-data
-.
-length
-)
+range
 )
 .
 bounding_box
