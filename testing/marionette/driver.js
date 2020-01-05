@@ -1052,15 +1052,6 @@ toUpperCase
 (
 )
 "
-XULappId
-"
-:
-Services
-.
-appinfo
-.
-ID
-"
 appBuildId
 "
 :
