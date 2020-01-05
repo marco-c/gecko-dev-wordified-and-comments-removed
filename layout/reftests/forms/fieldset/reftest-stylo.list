@@ -438,7 +438,6 @@ html
 #
 Bug
 1340696
-fails
 =
 =
 fieldset
@@ -459,7 +458,6 @@ image
 1a
 .
 html
-fails
 =
 =
 fieldset
@@ -480,7 +478,6 @@ image
 1b
 .
 html
-fails
 =
 =
 fieldset
@@ -501,7 +498,6 @@ image
 2a
 .
 html
-fails
 =
 =
 fieldset

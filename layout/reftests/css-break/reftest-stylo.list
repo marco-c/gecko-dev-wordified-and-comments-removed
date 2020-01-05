@@ -132,7 +132,6 @@ shadow
 1
 .
 html
-fails
 =
 =
 box
@@ -209,7 +208,6 @@ block
 margin
 .
 html
-fails
 =
 =
 box

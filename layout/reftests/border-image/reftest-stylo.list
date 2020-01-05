@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 solid
@@ -31,7 +30,6 @@ image
 1
 .
 html
-fails
 =
 =
 solid
@@ -48,7 +46,6 @@ image
 1a
 .
 html
-fails
 =
 =
 solid
@@ -65,7 +62,6 @@ image
 2
 .
 html
-fails
 =
 =
 solid
@@ -82,7 +78,6 @@ image
 2a
 .
 html
-fails
 =
 =
 multicolor
@@ -130,7 +125,6 @@ perf
 cost
 .
 )
-fails
 =
 =
 multicolor
@@ -147,7 +141,6 @@ image
 2
 .
 html
-fails
 =
 =
 multicolor
@@ -164,7 +157,6 @@ image
 3
 .
 html
-fails
 =
 =
 multicolor
@@ -181,7 +173,6 @@ image
 4
 .
 html
-fails
 =
 =
 multicolor
@@ -198,7 +189,6 @@ image
 5
 .
 html
-fails
 =
 =
 transparent
@@ -215,7 +205,6 @@ image
 1
 .
 html
-fails
 =
 =
 repeat
@@ -232,7 +221,6 @@ image
 1
 .
 html
-fails
 =
 =
 470250
@@ -245,7 +233,6 @@ html
 1
 .
 html
-fails
 =
 =
 470250
@@ -258,7 +245,6 @@ html
 2
 .
 html
-fails
 =
 =
 different
@@ -282,7 +268,6 @@ html
 #
 Bug
 1341703
-fails
 =
 =
 different
@@ -303,7 +288,6 @@ v
 2
 .
 html
-fails
 =
 =
 different
@@ -327,7 +311,6 @@ html
 #
 Bug
 1341703
-fails
 =
 =
 center
@@ -344,7 +327,6 @@ scaling
 1
 .
 html
-fails
 =
 =
 center
@@ -361,7 +343,6 @@ scaling
 2
 .
 html
-fails
 =
 =
 center
@@ -378,7 +359,6 @@ scaling
 3
 .
 html
-fails
 =
 =
 center
@@ -395,7 +375,6 @@ scaling
 4t
 .
 html
-fails
 =
 =
 center
@@ -412,7 +391,6 @@ scaling
 4r
 .
 html
-fails
 =
 =
 center
@@ -429,7 +407,6 @@ scaling
 4b
 .
 html
-fails
 =
 =
 center
@@ -446,7 +423,6 @@ scaling
 4l
 .
 html
-fails
 =
 =
 center
@@ -463,7 +439,6 @@ scaling
 4tb
 .
 html
-fails
 =
 =
 center
@@ -480,7 +455,6 @@ scaling
 4lr
 .
 html
-fails
 =
 =
 side
@@ -497,7 +471,6 @@ scaling
 1h
 .
 html
-fails
 =
 =
 side
@@ -514,7 +487,6 @@ scaling
 1v
 .
 html
-fails
 =
 =
 border
@@ -535,7 +507,6 @@ width
 1a
 .
 html
-fails
 =
 =
 border
@@ -556,7 +527,6 @@ width
 1b
 .
 html
-fails
 =
 =
 border
@@ -577,7 +547,12 @@ width
 1c
 .
 html
-fails
+skip
+-
+if
+(
+stylo
+)
 =
 =
 border
@@ -598,7 +573,9 @@ width
 large
 .
 html
-fails
+#
+Bug
+1357060
 =
 =
 border
@@ -619,7 +596,6 @@ outset
 1a
 .
 html
-fails
 =
 =
 border
@@ -640,7 +616,6 @@ outset
 1b
 .
 html
-fails
 =
 =
 border
@@ -661,7 +636,6 @@ outset
 1c
 .
 html
-fails
 =
 =
 border
@@ -682,7 +656,6 @@ nofill
 1
 .
 html
-fails
 =
 =
 border
@@ -707,7 +680,6 @@ resize
 1
 .
 html
-fails
 =
 =
 border
@@ -732,7 +704,6 @@ move
 1
 .
 html
-fails
 =
 =
 border
@@ -753,7 +724,6 @@ style
 none
 .
 html
-fails
 =
 =
 border
@@ -778,7 +748,6 @@ none
 length
 .
 html
-fails
 =
 =
 border
@@ -1931,7 +1900,6 @@ as
 border
 -
 image
-fails
 =
 =
 svg
@@ -1956,7 +1924,6 @@ image
 1a
 .
 html
-fails
 =
 =
 svg
@@ -1981,7 +1948,6 @@ image
 1b
 .
 html
-fails
 =
 =
 svg
@@ -2006,7 +1972,6 @@ image
 1c
 .
 html
-fails
 =
 =
 svg
@@ -2031,7 +1996,6 @@ image
 2
 .
 html
-fails
 =
 =
 svg
@@ -2056,7 +2020,6 @@ image
 3
 .
 html
-fails
 =
 =
 svg

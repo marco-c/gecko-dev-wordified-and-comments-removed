@@ -429,7 +429,6 @@ border
 image
 test
 cases
-fails
 =
 =
 border
@@ -454,7 +453,6 @@ round
 1
 .
 html
-fails
 =
 =
 border
@@ -479,7 +477,6 @@ round
 2
 .
 html
-fails
 =
 =
 border
@@ -504,7 +501,6 @@ space
 1
 .
 html
-fails
 =
 =
 border
@@ -529,7 +525,6 @@ space
 2
 .
 html
-fails
 =
 =
 border
@@ -554,7 +549,6 @@ space
 3
 .
 html
-fails
 =
 =
 border
@@ -611,7 +605,6 @@ ref
 1
 .
 html
-fails
 =
 =
 border
@@ -668,7 +661,6 @@ ref
 1
 .
 html
-fails
 =
 =
 border
@@ -693,7 +685,6 @@ space
 6
 .
 html
-fails
 =
 =
 border
@@ -718,7 +709,6 @@ space
 7
 .
 html
-fails
 =
 =
 border

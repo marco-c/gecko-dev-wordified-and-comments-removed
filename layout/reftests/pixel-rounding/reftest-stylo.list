@@ -3434,7 +3434,6 @@ image
 tiling
 .
 html
-fails
 =
 =
 border
@@ -3455,7 +3454,6 @@ width
 0
 .
 html
-fails
 =
 =
 border
@@ -3476,7 +3474,6 @@ width
 4
 .
 html
-fails
 =
 =
 border
