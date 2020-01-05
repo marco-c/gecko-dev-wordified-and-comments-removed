@@ -396,7 +396,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 h
 "
@@ -506,15 +506,6 @@ mozilla
 dom
 /
 CanvasRenderingContext2DBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-CycleCollectedJSContext
 .
 h
 "
@@ -5055,7 +5046,7 @@ sContext
 }
 else
 {
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 Get
@@ -8131,7 +8122,7 @@ GetObjectZone
 aObj
 )
 ;
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 Get

@@ -597,9 +597,9 @@ public
 explicit
 AutoEnterCycleCollection
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 ~
@@ -614,9 +614,9 @@ public
 explicit
 AutoEnterCycleCollection
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 {
 }

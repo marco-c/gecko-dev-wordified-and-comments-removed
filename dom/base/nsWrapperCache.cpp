@@ -39,7 +39,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 h
 "
@@ -141,7 +141,7 @@ mWrapper
 )
 )
 {
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 Get
@@ -194,7 +194,7 @@ aWrapper
 )
 )
 {
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 Get
