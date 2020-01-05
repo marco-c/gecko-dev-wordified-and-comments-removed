@@ -145,7 +145,7 @@ test_custom_retention
 acceptThirdPartyMenu
 "
 "
-remember
+custom
 "
 "
 visited
@@ -169,7 +169,7 @@ test_custom_retention
 keepCookiesUntil
 "
 "
-remember
+custom
 "
 1
 )
@@ -199,7 +199,7 @@ test_custom_retention
 alwaysClear
 "
 "
-remember
+custom
 "
 )
 test_custom_retention
@@ -217,7 +217,7 @@ test_historymode_retention
 remember
 "
 "
-remember
+custom
 "
 )
 ]
