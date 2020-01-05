@@ -227,6 +227,14 @@ JSEXN_WARN
 1
 =
 =
+JSEXN_NOTE
+&
+&
+JSEXN_NOTE
++
+1
+=
+=
 JSEXN_LIMIT
 "
 GetExceptionProtoKey
