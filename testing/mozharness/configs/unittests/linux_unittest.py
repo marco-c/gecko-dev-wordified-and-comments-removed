@@ -2091,6 +2091,29 @@ flavor
 a11y
 "
 ]
+        
+"
+mochitest
+-
+stylo
+"
+:
+[
+"
+-
+-
+disable
+-
+e10s
+"
+"
+-
+-
+tag
+=
+stylo
+"
+]
     
 }
     

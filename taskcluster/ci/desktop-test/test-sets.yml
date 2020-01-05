@@ -390,6 +390,10 @@ crashtest
 reftest
 -
 stylo
+-
+mochitest
+-
+stylo
 asan
 -
 tests
