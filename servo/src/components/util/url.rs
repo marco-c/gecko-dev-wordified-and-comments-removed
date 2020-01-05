@@ -57,7 +57,6 @@ str_url
 trim_chars
 (
 &
-&
 [
 '
 '
@@ -78,6 +77,10 @@ r
 x0C
 '
 ]
+)
+.
+to_owned
+(
 )
 ;
 let
@@ -337,7 +340,6 @@ str_url
 .
 trim_left_chars
 (
-&
 '
 /
 '
@@ -377,7 +379,6 @@ path
 .
 trim_right_chars
 (
-&
 |
 c
 :
@@ -1725,7 +1726,6 @@ str
 =
 &
 [
-&
 "
 data
 :
@@ -1733,7 +1733,6 @@ image
 /
 png
 "
-&
 "
 data
 :
@@ -1741,7 +1740,6 @@ image
 /
 gif
 "
-&
 "
 data
 :

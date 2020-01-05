@@ -181,7 +181,7 @@ window
 ;
 reflect_dom_object
 (
-~
+box
 performance
 window
 PerformanceBinding

@@ -122,8 +122,10 @@ Stylesheet
 )
 ReflowMsg
 (
-~
+Box
+<
 Reflow
+>
 )
 QueryMsg
 (

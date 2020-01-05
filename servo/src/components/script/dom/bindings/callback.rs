@@ -462,8 +462,10 @@ _scope
 JSObject
 p
 :
-~
+Box
+<
 T
+>
 )
 -
 >

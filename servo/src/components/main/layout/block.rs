@@ -280,6 +280,12 @@ num
 Zero
 ;
 use
+std
+:
+:
+owned
+;
+use
 style
 :
 :
@@ -2253,8 +2259,13 @@ float
 :
 Option
 <
-~
+owned
+:
+:
+Box
+<
 FloatedBlockInfo
+>
 >
 }
 impl
@@ -2451,7 +2462,7 @@ float
 :
 Some
 (
-~
+box
 FloatedBlockInfo
 :
 :

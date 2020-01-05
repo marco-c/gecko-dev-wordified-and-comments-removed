@@ -277,6 +277,10 @@ Stylesheet
 from_str
 (
 string
+.
+as_slice
+(
+)
 base_url
 used_encoding
 )
@@ -412,6 +416,10 @@ lower_name
 rule
 .
 name
+.
+as_slice
+(
+)
 .
 to_ascii_lower
 (

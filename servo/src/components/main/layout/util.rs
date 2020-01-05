@@ -250,8 +250,10 @@ SharedLayoutData
 pub
 data
 :
-~
+Box
+<
 PrivateLayoutData
+>
 }
 pub
 trait

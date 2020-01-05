@@ -249,7 +249,7 @@ Node
 :
 reflect_node
 (
-~
+box
 element
 document
 HTMLMapElementBinding

@@ -150,7 +150,7 @@ navigationStartPrecise
 ;
 reflect_dom_object
 (
-~
+box
 timing
 window
 PerformanceTimingBinding

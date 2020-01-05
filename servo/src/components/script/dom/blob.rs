@@ -157,7 +157,7 @@ Blob
 {
 reflect_dom_object
 (
-~
+box
 Blob
 :
 :

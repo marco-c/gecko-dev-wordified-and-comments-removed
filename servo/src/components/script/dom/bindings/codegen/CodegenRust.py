@@ -12971,9 +12971,13 @@ aScope
 Argument
 (
 "
-~
+Box
+<
+%
+s
+>
 "
-+
+%
 descriptor
 .
 concreteType
@@ -13006,9 +13010,13 @@ aCx
 Argument
 (
 "
-~
+Box
+<
+%
+s
+>
 "
-+
+%
 descriptor
 .
 concreteType
@@ -19975,7 +19983,6 @@ join
 (
 [
 '
-&
 "
 %
 s
@@ -29675,9 +29682,11 @@ obj
 let
 _
 :
-~
+Box
+<
 %
 s
+>
 =
 cast
 :
@@ -33317,7 +33326,6 @@ utils
 {
 ConstantSpec
 cx_for_dom_object
-Default
 }
 '
             
@@ -33809,13 +33817,6 @@ std
 :
 :
 ptr
-'
-            
-'
-std
-:
-:
-slice
 '
             
 '
@@ -36678,8 +36679,10 @@ insert
 Argument
 (
 "
-~
+Box
+<
 T
+>
 "
 "
 thisObj
@@ -37845,7 +37848,7 @@ let
 mut
 argv
 =
-slice
+Vec
 :
 :
 from_elem
@@ -38392,11 +38395,14 @@ prepend
 wrapForType
 (
 "
+*
 argv
-[
+.
+get_mut
+(
 %
 s
-]
+)
 "
 %
 jsvalIndex
@@ -39156,11 +39162,11 @@ argv
 ]
 =
 "
-&
 argv
-[
-0
-]
+.
+as_ptr
+(
+)
 "
             
 replacements

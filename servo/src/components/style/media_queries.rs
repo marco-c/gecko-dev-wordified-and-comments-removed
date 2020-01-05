@@ -155,6 +155,10 @@ parse_media_query_list
 rule
 .
 prelude
+.
+as_slice
+(
+)
 )
 ;
 let
@@ -245,6 +249,10 @@ parse_nested_at_rule
 rule
 .
 name
+.
+as_slice
+(
+)
 .
 to_ascii_lower
 (
@@ -369,6 +377,10 @@ let
 value_lower
 =
 value
+.
+as_slice
+(
+)
 .
 to_ascii_lower
 (

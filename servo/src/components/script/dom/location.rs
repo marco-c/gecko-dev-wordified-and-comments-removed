@@ -183,7 +183,7 @@ Location
 {
 reflect_dom_object
 (
-~
+box
 Location
 :
 :

@@ -239,7 +239,7 @@ Node
 :
 reflect_node
 (
-~
+box
 element
 document
 HTMLProgressElementBinding

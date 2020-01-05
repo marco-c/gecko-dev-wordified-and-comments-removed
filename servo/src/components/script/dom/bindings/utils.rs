@@ -1065,8 +1065,10 @@ T
 (
 x
 :
-~
+Box
+<
 T
+>
 )
 -
 >
@@ -2363,7 +2365,9 @@ JSObject
 let
 protoArray
 =
-~
+box
+(
+)
 (
 [
 0
@@ -2468,8 +2472,10 @@ Reflectable
 (
 obj
 :
-~
+Box
+<
 T
+>
 window
 :
 &
@@ -2498,8 +2504,10 @@ window
 :
 Window
 >
-~
+Box
+<
 T
+>
 )
 -
 >

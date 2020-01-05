@@ -76,7 +76,10 @@ use
 std
 :
 :
-slice
+vec
+:
+:
+Vec
 ;
 use
 geom
@@ -2662,7 +2665,7 @@ false
 let
 glyphs_vec
 =
-slice
+Vec
 :
 :
 from_fn
@@ -2709,6 +2712,10 @@ add_detailed_glyphs_for_entry
 (
 i
 glyphs_vec
+.
+as_slice
+(
+)
 )
 ;
 GlyphEntry

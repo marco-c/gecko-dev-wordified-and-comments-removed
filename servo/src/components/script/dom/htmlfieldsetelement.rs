@@ -277,7 +277,7 @@ Node
 :
 reflect_node
 (
-~
+box
 element
 document
 HTMLFieldSetElementBinding
@@ -721,7 +721,7 @@ self
 let
 filter
 =
-~
+box
 ElementsFilter
 ;
 let

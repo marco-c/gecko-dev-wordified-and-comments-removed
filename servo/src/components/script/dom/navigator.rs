@@ -135,7 +135,7 @@ Navigator
 {
 reflect_dom_object
 (
-~
+box
 Navigator
 :
 :
