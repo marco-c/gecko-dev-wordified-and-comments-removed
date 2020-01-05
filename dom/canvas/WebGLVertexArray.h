@@ -147,7 +147,7 @@ mAttribs
 index
 ]
 .
-enabled
+mEnabled
 ;
 }
 void
