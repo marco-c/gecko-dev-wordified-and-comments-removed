@@ -182,8 +182,6 @@ long
 offset
 )
 ;
-/
-/
 readonly
 attribute
 DOMString
