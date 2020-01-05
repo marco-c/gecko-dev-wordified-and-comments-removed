@@ -143,10 +143,9 @@ RemotePrintJobChild
 :
 ProcessPage
 (
-const
-nsCString
+Shmem
 &
-aPageFileName
+aStoredPage
 )
 {
 MOZ_ASSERT
@@ -166,7 +165,7 @@ Unused
 <
 SendProcessPage
 (
-aPageFileName
+aStoredPage
 )
 ;
 }
