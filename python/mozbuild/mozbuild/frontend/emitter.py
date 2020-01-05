@@ -324,19 +324,6 @@ tests
     
 (
 '
-TestMinStringAPI
-'
-'
-xpcom
-/
-tests
-/
-external
-'
-)
-    
-(
-'
 testcomponent
 '
 '
@@ -847,21 +834,6 @@ webrtc
 signaling
 /
 test
-'
-)
-    
-(
-'
-sdp_file_parser
-'
-'
-media
-/
-webrtc
-/
-signaling
-/
-fuzztest
 '
 )
     
