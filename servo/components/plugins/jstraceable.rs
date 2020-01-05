@@ -195,7 +195,10 @@ quote_attr
 cx
 #
 [
-_generate_reflector
+derive
+(
+DomObject
+)
 ]
 )
 )

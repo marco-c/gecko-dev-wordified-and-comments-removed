@@ -212,6 +212,14 @@ extern
 crate
 devtools_traits
 ;
+#
+[
+macro_use
+]
+extern
+crate
+domobject_derive
+;
 extern
 crate
 encoding
