@@ -1002,7 +1002,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
