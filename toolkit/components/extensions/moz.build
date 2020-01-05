@@ -125,6 +125,11 @@ ExtensionParent
 jsm
 '
 '
+ExtensionPreferencesManager
+.
+jsm
+'
+'
 ExtensionSettingsStore
 .
 jsm
