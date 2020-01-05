@@ -313,6 +313,12 @@ Servo_DeclarationBlock_SerializeOneValue
 void
 RawServoDeclarationBlockBorrowed
 declarations
+const
+nsIAtom
+*
+property
+bool
+is_custom
 nsString
 *
 buffer
