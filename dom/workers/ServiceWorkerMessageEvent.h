@@ -142,14 +142,11 @@ const
 void
 GetPorts
 (
-Nullable
-<
 nsTArray
 <
 RefPtr
 <
 MessagePort
->
 >
 >
 &
@@ -293,9 +290,6 @@ MessagePort
 >
 >
 mPorts
-;
-bool
-mPortsSet
 ;
 }
 ;
