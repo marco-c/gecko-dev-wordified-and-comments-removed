@@ -1209,10 +1209,8 @@ SYNCHRONOUS
 explicit
 ImageContainer
 (
-const
-CompositableHandle
-&
-aHandle
+uint64_t
+aAsyncContainerID
 )
 ;
 typedef
@@ -1352,8 +1350,8 @@ IsAsync
 )
 const
 ;
-CompositableHandle
-GetAsyncContainerHandle
+uint64_t
+GetAsyncContainerID
 (
 )
 ;
@@ -1630,8 +1628,8 @@ ImageClient
 >
 mImageClient
 ;
-CompositableHandle
-mAsyncContainerHandle
+uint64_t
+mAsyncContainerID
 ;
 nsTArray
 <

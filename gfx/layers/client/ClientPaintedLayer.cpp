@@ -540,7 +540,7 @@ MOZ_ASSERT
 contentClientRemote
 -
 >
-GetIPCHandle
+GetIPDLActor
 (
 )
 )

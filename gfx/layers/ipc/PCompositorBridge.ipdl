@@ -127,6 +127,10 @@ PBrowser
 ;
 include
 protocol
+PCompositable
+;
+include
+protocol
 PCompositorWidget
 ;
 include
