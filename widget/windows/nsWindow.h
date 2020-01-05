@@ -2170,6 +2170,15 @@ ResizeState
 aNewState
 )
 ;
+nsIntPoint
+GetTouchCoordinates
+(
+WPARAM
+wParam
+LPARAM
+lParam
+)
+;
 virtual
 void
 OnDestroy
