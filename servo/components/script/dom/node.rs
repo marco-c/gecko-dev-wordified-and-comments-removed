@@ -4048,7 +4048,7 @@ dirty
 NodeDamage
 :
 :
-OtherNodeDamage
+NodeStyleDamaged
 )
 ;
 }
@@ -4092,7 +4092,7 @@ dirty
 NodeDamage
 :
 :
-OtherNodeDamage
+NodeStyleDamaged
 )
 ;
 }
