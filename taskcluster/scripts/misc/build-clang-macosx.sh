@@ -151,7 +151,7 @@ x86_64
 -
 apple
 -
-darwin10
+darwin11
 -
 lipo
 /
