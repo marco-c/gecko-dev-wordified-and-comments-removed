@@ -2678,7 +2678,7 @@ constructor
 cx
 aFunctionConstructor
 .
-Callable
+CallableOrNull
 (
 )
 )
