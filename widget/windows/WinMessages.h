@@ -22,6 +22,14 @@ WM_APP
 )
 #
 define
+MOZ_WM_STARTA11Y
+(
+WM_APP
++
+0x0302
+)
+#
+define
 MOZ_WM_MOUSEVWHEEL
 (
 WM_APP
