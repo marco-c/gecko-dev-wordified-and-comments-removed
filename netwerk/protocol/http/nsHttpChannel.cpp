@@ -7853,7 +7853,7 @@ if
 cert
 )
 {
-ScopedCERTCertificate
+UniqueCERTCertificate
 nssCert
 (
 cert
