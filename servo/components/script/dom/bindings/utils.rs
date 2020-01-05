@@ -783,9 +783,7 @@ JSObject
 >
 *
 mut
-*
-mut
-JSObject
+ProtoOrIfaceArray
 {
 unsafe
 {
@@ -822,9 +820,7 @@ to_private
 as
 *
 mut
-*
-mut
-JSObject
+ProtoOrIfaceArray
 }
 }
 pub
@@ -1655,6 +1651,7 @@ return
 0
 ;
 }
+pub
 type
 ProtoOrIfaceArray
 =
@@ -2942,10 +2939,6 @@ get_proto_or_iface_array
 (
 obj
 )
-as
-*
-mut
-ProtoOrIfaceArray
 )
 ;
 }
@@ -2973,10 +2966,6 @@ get_proto_or_iface_array
 (
 obj
 )
-as
-*
-mut
-ProtoOrIfaceArray
 ;
 for
 &
