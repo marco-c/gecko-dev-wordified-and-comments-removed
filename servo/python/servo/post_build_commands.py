@@ -35,6 +35,12 @@ copy2
 from
 mach
 .
+registrar
+import
+Registrar
+from
+mach
+.
 decorators
 import
 (
