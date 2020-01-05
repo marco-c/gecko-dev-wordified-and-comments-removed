@@ -3,11 +3,8 @@
 [
 feature
 (
-custom_derive
 plugin
 proc_macro
-rustc_attrs
-structural_match
 )
 ]
 #
