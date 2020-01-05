@@ -624,6 +624,16 @@ padding
 !
 important
 ;
+padding
+-
+inline
+-
+end
+:
+0
+!
+important
+;
 border
 :
 1px
@@ -735,7 +745,8 @@ firebug
 devtools
 -
 tab
-span
+-
+label
 {
 padding
 -
@@ -743,7 +754,7 @@ inline
 -
 end
 :
-0
+4px
 ;
 }
 .
@@ -862,9 +873,9 @@ border
 -
 bottom
 -
-width
+color
 :
-0
+transparent
 !
 important
 ;
