@@ -939,6 +939,11 @@ mTarget
 nullptr
 )
 {
+MOZ_COUNT_CTOR
+(
+WebRenderLayerManager
+)
+;
 }
 KnowsCompositor
 *
@@ -1162,6 +1167,11 @@ WebRenderLayerManager
 {
 Destroy
 (
+)
+;
+MOZ_COUNT_DTOR
+(
+WebRenderLayerManager
 )
 ;
 }
