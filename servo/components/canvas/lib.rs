@@ -40,6 +40,10 @@ geom
 ;
 extern
 crate
+gfx
+;
+extern
+crate
 util
 ;
 pub
