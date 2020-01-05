@@ -814,6 +814,11 @@ this
 .
 highlighterEnv
 ;
+if
+(
+pageListenerTarget
+)
+{
 pageListenerTarget
 .
 removeEventListener
@@ -865,6 +870,7 @@ FullZoomChange
 this
 )
 ;
+}
 this
 .
 getElement
