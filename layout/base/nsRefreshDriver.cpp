@@ -2534,6 +2534,11 @@ sample
 }
 else
 {
+if
+(
+mVsyncRefreshDriverTimer
+)
+{
 mVsyncRate
 =
 mVsyncRefreshDriverTimer
@@ -2546,6 +2551,7 @@ GetVsyncRate
 (
 )
 ;
+}
 }
 #
 endif
