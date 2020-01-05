@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsISupports
+nsIDOMCSSRule
 .
 idl
 "
@@ -116,7 +116,7 @@ d4ca434f958e
 interface
 nsIDOMCSSFontFeatureValuesRule
 :
-nsISupports
+nsIDOMCSSRule
 {
 attribute
 DOMString

@@ -94,13 +94,10 @@ MPL
 #
 include
 "
-nsISupports
+nsIDOMCSSRule
 .
 idl
 "
-interface
-nsIDOMCSSStyleDeclaration
-;
 [
 scriptable
 uuid
@@ -119,7 +116,7 @@ acc2814a57c9
 interface
 nsIDOMCSSKeyframeRule
 :
-nsISupports
+nsIDOMCSSRule
 {
 attribute
 DOMString
