@@ -80,11 +80,7 @@ layout
 box
 :
 :
-{
-LogicalBefore
-LogicalAfter
 RenderBox
-}
 ;
 use
 layout
