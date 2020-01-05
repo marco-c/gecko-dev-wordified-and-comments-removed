@@ -402,7 +402,7 @@ clone
 }
 pub
 fn
-window_for_script_dealloation
+window_for_script_deallocation
 (
 &
 self

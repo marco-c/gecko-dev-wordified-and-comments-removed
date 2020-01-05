@@ -115,7 +115,6 @@ js
 {
 RootCollection
 RootCollectionPtr
-Unrooted
 }
 ;
 use
@@ -1617,16 +1616,10 @@ iter
 let
 window
 =
-Unrooted
-:
-:
-from_temporary
-(
 page
 .
-window
+window_for_script_deallocation
 (
-)
 )
 ;
 (
