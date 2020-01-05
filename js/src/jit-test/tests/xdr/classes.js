@@ -11,6 +11,11 @@ js
 '
 )
 ;
+gczeal
+(
+0
+)
+;
 var
 test
 =
