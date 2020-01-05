@@ -100,11 +100,6 @@ TestAudioCompactor
 cpp
 '
 '
-TestEME
-.
-cpp
-'
-'
 TestGMPCrossOrigin
 .
 cpp
@@ -392,14 +387,6 @@ LOCAL_INCLUDES
 dom
 /
 media
-'
-'
-/
-dom
-/
-media
-/
-eme
 '
 '
 /
