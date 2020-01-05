@@ -509,6 +509,11 @@ SizePrintfMacros
 h
 '
 '
+Span
+.
+h
+'
+'
 SplayTree
 .
 h
