@@ -581,7 +581,7 @@ EndEditorInit
 (
 )
 ;
-NS_IMETHOD
+nsresult
 GetAndInitDocEncoder
 (
 const
@@ -670,7 +670,7 @@ nsITransferable
 transferable
 )
 ;
-NS_IMETHOD
+nsresult
 InsertTextFromTransferable
 (
 nsITransferable

@@ -506,7 +506,7 @@ aStringToInsert
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextEditor
 :
 :
