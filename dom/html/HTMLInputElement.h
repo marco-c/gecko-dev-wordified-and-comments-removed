@@ -3478,12 +3478,6 @@ return
 DoesMinMaxApply
 (
 )
-&
-&
-mType
-!
-=
-NS_FORM_INPUT_DATETIME_LOCAL
 ;
 }
 bool
@@ -4361,9 +4355,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
+nsRuleData
 *
-aGenericData
+aData
 )
 ;
 bool
