@@ -5,7 +5,7 @@ doc
 "
 A
 graphics
-sink
+compositor
 that
 renders
 to
@@ -20,7 +20,7 @@ renders
 a
 frame
 the
-bufsink
+compositor
 will
 output
 a
@@ -39,7 +39,7 @@ format
 ]
 ;
 export
-PngSink
+PngCompositor
 Msg
 Exit
 ;
@@ -130,7 +130,7 @@ renderer
 :
 {
 Renderer
-Sink
+Compositor
 RenderMsg
 }
 ;
@@ -208,7 +208,7 @@ cell
 Cell
 ;
 type
-PngSink
+PngCompositor
 =
 Chan
 <
@@ -247,7 +247,7 @@ Chan
 Msg
 >
 :
-Sink
+Compositor
 {
 fn
 begin_drawing
@@ -321,12 +321,12 @@ No
 events
 in
 this
-sink
+compositor
 .
 }
 }
 fn
-PngSink
+PngCompositor
 (
 output
 :
@@ -340,7 +340,7 @@ u8
 )
 -
 >
-PngSink
+PngCompositor
 {
 do
 spawn_listener
@@ -394,7 +394,7 @@ debug
 !
 (
 "
-pngsink
+png_compositor
 :
 begin_drawing
 "
@@ -424,7 +424,7 @@ debug
 !
 (
 "
-pngsink
+png_compositor
 :
 draw
 "
@@ -557,9 +557,9 @@ self_channel
 |
 {
 let
-sink
+compositor
 =
-PngSink
+PngCompositor
 (
 self_channel
 )
@@ -569,7 +569,7 @@ renderer
 =
 Renderer
 (
-sink
+compositor
 )
 ;
 let
@@ -623,7 +623,7 @@ recv
 (
 )
 ;
-sink
+compositor
 .
 send
 (

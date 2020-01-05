@@ -90,7 +90,7 @@ gfx
 renderer
 :
 :
-Sink
+Compositor
 ;
 import
 dom
@@ -835,7 +835,7 @@ used
 as
 a
 graphics
-sink
+compositor
 for
 the
 renderer
@@ -844,7 +844,7 @@ renderer
 impl
 OSMain
 :
-Sink
+Compositor
 {
 fn
 begin_drawing
