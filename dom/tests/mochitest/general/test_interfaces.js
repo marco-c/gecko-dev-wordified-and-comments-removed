@@ -1007,9 +1007,6 @@ name
 "
 IdleDeadline
 "
-nightly
-:
-true
 }
 "
 IDBCursor
