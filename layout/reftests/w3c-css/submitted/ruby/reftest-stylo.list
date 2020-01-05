@@ -134,7 +134,6 @@ base
 -
 identical
 annotations
-fails
 =
 =
 ruby
@@ -151,7 +150,6 @@ autohide
 001
 .
 html
-fails
 =
 =
 ruby
@@ -168,7 +166,6 @@ autohide
 002
 .
 html
-fails
 =
 =
 ruby
@@ -185,7 +182,6 @@ autohide
 003
 .
 html
-fails
 =
 =
 ruby

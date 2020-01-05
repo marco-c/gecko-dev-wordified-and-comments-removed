@@ -729,7 +729,7 @@ style
 -
 type
 [
-9
+8
 ]
 *
 test_bug387615
@@ -1172,7 +1172,7 @@ style
 -
 type
 [
-74
+60
 ]
 *
 .
@@ -4034,7 +4034,7 @@ html
 '
 content
 [
-38
+41
 ]
 *
 SVG

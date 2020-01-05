@@ -54,7 +54,6 @@ bidi
 000
 .
 html
-fails
 =
 =
 bidi
@@ -67,7 +66,6 @@ bidi
 001
 .
 html
-fails
 =
 =
 bidi
@@ -100,7 +98,6 @@ bidi
 v
 .
 html
-fails
 =
 =
 bidi
@@ -113,7 +110,6 @@ bidi
 002
 .
 html
-fails
 =
 =
 bidi
@@ -126,7 +122,6 @@ bidi
 003
 .
 html
-fails
 =
 =
 bidi
@@ -139,7 +134,6 @@ bidi
 004
 .
 html
-fails
 =
 =
 bidi
@@ -1455,7 +1449,6 @@ html
 1
 .
 html
-fails
 =
 =
 503269

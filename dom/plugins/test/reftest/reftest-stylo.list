@@ -44,7 +44,6 @@ plugin
 sanity
 .
 html
-fails
 =
 =
 plugin
@@ -267,7 +266,6 @@ direction
 2
 .
 html
-fails
 =
 =
 plugin
@@ -309,7 +307,6 @@ alpha
 zindex
 .
 html
-fails
 =
 =
 plugin
@@ -343,7 +340,6 @@ plugin
 background
 .
 html
-fails
 =
 =
 plugin
@@ -364,7 +360,6 @@ background
 step
 .
 html
-fails
 =
 =
 plugin
@@ -385,7 +380,6 @@ background
 step
 .
 html
-fails
 =
 =
 plugin
@@ -406,7 +400,6 @@ background
 step
 .
 html
-fails
 =
 =
 plugin
@@ -473,7 +466,6 @@ shrink
 1
 .
 html
-fails
 =
 =
 update
