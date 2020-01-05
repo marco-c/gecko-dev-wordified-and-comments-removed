@@ -701,6 +701,14 @@ h
 "
 \
 -
+match
+"
+StaticPtr
+.
+h
+"
+\
+-
 blacklist
 -
 type
