@@ -61,6 +61,13 @@ nsIChannel
 class
 nsTableColFrame
 ;
+namespace
+mozilla
+{
+class
+ViewportFrame
+;
+}
 #
 define
 NS_BLOCK_FLAGS_MASK
@@ -204,9 +211,9 @@ nsStyleContext
 aContext
 )
 ;
-class
-ViewportFrame
-;
+mozilla
+:
+:
 ViewportFrame
 *
 NS_NewViewportFrame

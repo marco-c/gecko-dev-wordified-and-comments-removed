@@ -30,6 +30,9 @@ class
 nsPageContentFrame
 :
 public
+mozilla
+:
+:
 ViewportFrame
 {
 public

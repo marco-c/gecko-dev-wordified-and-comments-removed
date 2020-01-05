@@ -23,6 +23,9 @@ h
 class
 nsPresContext
 ;
+namespace
+mozilla
+{
 class
 ViewportFrame
 :
@@ -308,5 +311,6 @@ const
 ;
 }
 ;
+}
 #
 endif
