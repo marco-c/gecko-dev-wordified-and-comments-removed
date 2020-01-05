@@ -300,7 +300,9 @@ HTMLDocument
 :
 new
 (
-None
+self
+.
+owner
 )
 }
 Text_xml
@@ -319,7 +321,9 @@ Document
 :
 new
 (
-None
+self
+.
+owner
 XML
 )
 )
