@@ -13361,7 +13361,7 @@ status
 }
 if
 (
-script
+rscript
 -
 >
 isIonCompilingOffThread
