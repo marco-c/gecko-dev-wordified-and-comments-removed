@@ -101,10 +101,6 @@ size_t
 first
 size_t
 count
-uint32_t
-*
-const
-out_upperBound
 )
 ;
 template
@@ -174,10 +170,6 @@ size_t
 first
 size_t
 count
-uint32_t
-*
-const
-out_upperBound
 )
 ;
 template
