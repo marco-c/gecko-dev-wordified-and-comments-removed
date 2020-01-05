@@ -835,6 +835,9 @@ startOfUnpatchedCallsites_
 Uint32Vector
 debugTrapFarJumps_
 ;
+FuncArgTypesVector
+debugFuncArgTypes_
+;
 bool
 parallel_
 ;
