@@ -916,11 +916,6 @@ MOZ_MUST_USE
 bool
 patchCallSites
 (
-TrapExitOffsetArray
-*
-maybeTrapExits
-=
-nullptr
 )
 ;
 MOZ_MUST_USE

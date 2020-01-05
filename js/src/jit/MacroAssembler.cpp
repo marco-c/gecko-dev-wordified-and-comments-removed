@@ -15658,10 +15658,6 @@ reserveStack
 dec
 )
 ;
-loadWasmTlsRegFromFrame
-(
-)
-;
 wasm
 :
 :
