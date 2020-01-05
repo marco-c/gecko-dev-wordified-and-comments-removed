@@ -1652,6 +1652,15 @@ bool
 aVisible
 )
 ;
+layers
+:
+:
+Image
+*
+GetCurrentImage
+(
+)
+;
 already_AddRefed
 <
 DOMMediaStream
@@ -3694,6 +3703,9 @@ mDefaultPlaybackStartPosition
 ;
 bool
 mIsAudioTrackAudible
+;
+bool
+mHasSuspendTaint
 ;
 Visibility
 mVisibilityState
