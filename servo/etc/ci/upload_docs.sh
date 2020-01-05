@@ -97,6 +97,14 @@ target
 /
 doc
 /
+python
+components
+/
+style
+/
+list_properties
+.
+py
 ghp
 -
 import
