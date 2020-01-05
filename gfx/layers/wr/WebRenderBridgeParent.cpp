@@ -2467,7 +2467,7 @@ i
 const
 nsTArray
 <
-WRGlyphInstance
+WrGlyphInstance
 >
 &
 glyphs
@@ -2575,7 +2575,7 @@ fontKey
 Range
 <
 const
-WRGlyphInstance
+WrGlyphInstance
 >
 (
 glyphs

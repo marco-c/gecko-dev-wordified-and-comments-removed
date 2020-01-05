@@ -333,7 +333,7 @@ glyphs
 ;
 nsTArray
 <
-WRGlyphInstance
+WrGlyphInstance
 >
 &
 wr_glyph_instances
