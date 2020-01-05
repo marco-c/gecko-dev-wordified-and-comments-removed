@@ -667,12 +667,8 @@ uint8_t
 url_bytes
 uint32_t
 url_length
-const
-uint8_t
-*
-media_bytes
-uint32_t
-media_length
+RawServoMediaListStrong
+media_list
 )
 ;
 StyleChildrenIteratorOwnedOrNull
