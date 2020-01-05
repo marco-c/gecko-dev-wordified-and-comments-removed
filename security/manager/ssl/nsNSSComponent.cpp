@@ -974,13 +974,6 @@ Cleanup
 -
 mInstanceCount
 ;
-nsNSSShutDownList
-:
-:
-shutdown
-(
-)
-;
 MOZ_LOG
 (
 gPIPNSSLog
@@ -8668,7 +8661,7 @@ NS_FAILED
 nsNSSShutDownList
 :
 :
-evaporateAllNSSResources
+evaporateAllNSSResourcesAndShutDown
 (
 )
 )

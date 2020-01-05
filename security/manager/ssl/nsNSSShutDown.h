@@ -147,12 +147,6 @@ public
 :
 static
 void
-shutdown
-(
-)
-;
-static
-void
 remember
 (
 nsNSSShutDownObject
@@ -189,7 +183,7 @@ o
 ;
 static
 nsresult
-evaporateAllNSSResources
+evaporateAllNSSResourcesAndShutDown
 (
 )
 ;
@@ -358,11 +352,7 @@ isAlreadyShutDown
 (
 )
 const
-{
-return
-mAlreadyShutDown
 ;
-}
 protected
 :
 virtual
