@@ -182,6 +182,18 @@ use
 html5ever
 :
 :
+tokenizer
+:
+:
+buffer_queue
+:
+:
+BufferQueue
+;
+use
+html5ever
+:
+:
 tree_builder
 :
 :
@@ -2029,6 +2041,7 @@ WorkerId
 no_jsmanaged_fields
 !
 (
+BufferQueue
 QuirksMode
 )
 ;

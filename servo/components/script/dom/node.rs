@@ -559,10 +559,7 @@ dom
 servoparser
 :
 :
-html
-:
-:
-parse_html_fragment
+ServoParser
 ;
 use
 dom
@@ -5128,6 +5125,9 @@ is_html_document
 (
 )
 {
+ServoParser
+:
+:
 parse_html_fragment
 (
 self
