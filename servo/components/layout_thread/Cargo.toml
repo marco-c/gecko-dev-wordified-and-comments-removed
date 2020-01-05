@@ -235,6 +235,13 @@ path
 profile_traits
 "
 }
+rayon
+=
+"
+0
+.
+5
+"
 script
 =
 {
