@@ -21975,14 +21975,12 @@ id
 )
 ;
             
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-entrySlot
-!
 JS
 :
 :
-ObjectIsMarkedGray
+ObjectIsNotGray
 (
 entrySlot
 )
@@ -25657,11 +25655,10 @@ global
             
 MOZ_ASSERT
 (
-!
 JS
 :
 :
-ObjectIsMarkedGray
+ObjectIsNotGray
 (
 global
 )

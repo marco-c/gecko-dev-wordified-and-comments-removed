@@ -2150,8 +2150,10 @@ adpc
 ;
 MOZ_ASSERT
 (
-!
-ObjectIsMarkedGray
+JS
+:
+:
+ObjectIsNotGray
 (
 obj
 )
