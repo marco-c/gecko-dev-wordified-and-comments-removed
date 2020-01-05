@@ -268,6 +268,11 @@ isAllowedIncognitoAccess
 "
 extensionTypes
 .
+CSSOrigin
+"
+"
+extensionTypes
+.
 ImageFormat
 "
 "
