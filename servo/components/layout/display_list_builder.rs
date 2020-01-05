@@ -561,13 +561,6 @@ range
 Range
 ;
 const
-FAKE_FRAGMENT_ID_FOR_OVERFLOW_SCROLL
-:
-u32
-=
-1000000
-;
-const
 INSERTION_POINT_LOGICAL_WIDTH
 :
 Au
@@ -10551,7 +10544,6 @@ self
 .
 layer_id
 (
-0
 )
 scroll_policy
 )
@@ -10605,7 +10597,6 @@ self
 .
 layer_id
 (
-0
 )
 )
 StackingContextCreationMode
@@ -11070,7 +11061,6 @@ self
 .
 layer_id
 (
-0
 )
 )
 StackingContextCreationMode
@@ -11154,9 +11144,8 @@ is_some
 {
 self
 .
-layer_id
+layer_id_for_overflow_scroll
 (
-FAKE_FRAGMENT_ID_FOR_OVERFLOW_SCROLL
 )
 }
 else
@@ -11165,7 +11154,6 @@ self
 .
 layer_id
 (
-0
 )
 }
 ;
@@ -11239,7 +11227,6 @@ self
 .
 layer_id
 (
-0
 )
 scroll_policy
 )
@@ -11354,7 +11341,6 @@ self
 .
 layer_id
 (
-0
 )
 )
 StackingContextCreationMode
@@ -11996,7 +11982,6 @@ self
 .
 layer_id
 (
-0
 )
 )
 StackingContextCreationMode
