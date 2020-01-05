@@ -2238,7 +2238,7 @@ rv
 }
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_ENABLE_GIO
 rv
 =
 CallGetService
