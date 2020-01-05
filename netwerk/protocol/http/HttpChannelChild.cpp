@@ -6166,6 +6166,18 @@ nsIChannel
 >
 newChannel
 ;
+nsCOMPtr
+<
+nsILoadInfo
+>
+redirectLoadInfo
+=
+CloneLoadInfoForRedirect
+(
+uri
+redirectFlags
+)
+;
 rv
 =
 NS_NewChannelInternal
@@ -6175,7 +6187,7 @@ getter_AddRefs
 newChannel
 )
 uri
-mLoadInfo
+redirectLoadInfo
 nullptr
 nullptr
 nsIRequest
