@@ -338,11 +338,10 @@ Max
 ;
 enum
 class
-StyleClipPathGeometryBox
+StyleGeometryBox
 :
 uint8_t
 {
-NoBox
 Content
 Padding
 Border
@@ -350,6 +349,12 @@ Margin
 Fill
 Stroke
 View
+NoClip
+Text
+NoBox
+MozAlmostPadding
+=
+127
 }
 ;
 enum

@@ -10923,7 +10923,7 @@ StyleClipPath
 =
 StyleShapeSource
 <
-StyleClipPathGeometryBox
+StyleGeometryBox
 >
 ;
 using
