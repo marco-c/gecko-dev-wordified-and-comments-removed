@@ -79,8 +79,6 @@ HTMLTimeElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 dateTime
