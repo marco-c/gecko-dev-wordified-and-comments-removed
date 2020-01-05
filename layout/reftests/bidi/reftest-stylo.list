@@ -610,7 +610,6 @@ isolate
 aharon
 .
 html
-fails
 =
 =
 unicode
@@ -846,7 +845,6 @@ html
 1c
 .
 html
-fails
 =
 =
 83958
@@ -859,7 +857,6 @@ html
 2a
 .
 html
-fails
 =
 =
 83958
@@ -1114,7 +1111,6 @@ html
 1
 .
 html
-fails
 =
 =
 263359
@@ -1127,7 +1123,6 @@ html
 1
 .
 html
-fails
 =
 =
 263359
@@ -1140,7 +1135,6 @@ html
 1a
 .
 html
-fails
 =
 =
 263359
@@ -1178,7 +1172,6 @@ html
 3
 .
 html
-fails
 =
 =
 263359
@@ -1309,7 +1302,6 @@ html
 386339
 .
 html
-fails
 =
 =
 409375
@@ -1627,7 +1619,6 @@ html
 1
 .
 html
-fails
 =
 =
 613149
@@ -1640,7 +1631,6 @@ html
 1a
 .
 html
-fails
 =
 =
 613149
@@ -1701,7 +1691,6 @@ html
 2
 .
 html
-fails
 =
 =
 662288

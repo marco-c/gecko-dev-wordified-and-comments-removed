@@ -324,7 +324,6 @@ cjk
 extension
 .
 html
-fails
 =
 =
 justification
@@ -3224,7 +3223,6 @@ html
 3
 .
 html
-fails
 =
 =
 745555
@@ -3237,7 +3235,6 @@ html
 1
 .
 html
-fails
 =
 =
 745555
@@ -4380,7 +4377,6 @@ hyphenation
 4
 .
 html
-fails
 =
 =
 auto

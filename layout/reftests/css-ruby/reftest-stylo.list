@@ -375,7 +375,6 @@ whitespace
 1
 .
 html
-fails
 =
 =
 intra
@@ -787,7 +786,6 @@ positioning
 1
 .
 html
-fails
 =
 =
 relative
@@ -872,7 +870,6 @@ align
 2a
 .
 html
-fails
 =
 =
 ruby
@@ -889,7 +886,6 @@ position
 horizontal
 .
 html
-fails
 =
 =
 ruby
@@ -910,7 +906,6 @@ vertical
 lr
 .
 html
-fails
 =
 =
 ruby
