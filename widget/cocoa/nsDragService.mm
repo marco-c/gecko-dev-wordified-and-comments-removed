@@ -293,8 +293,10 @@ mozilla
 gfx
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 sCocoaLog
 ;
 extern

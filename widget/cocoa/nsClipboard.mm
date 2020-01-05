@@ -263,8 +263,10 @@ NSPasteboardTypePNG
 \
 nil
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 sCocoaLog
 ;
 extern
