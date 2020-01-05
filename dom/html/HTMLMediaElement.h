@@ -2349,9 +2349,12 @@ mTrackPorts
 ;
 }
 ;
-nsresult
+void
 PlayInternal
 (
+ErrorResult
+&
+aRv
 )
 ;
 void
