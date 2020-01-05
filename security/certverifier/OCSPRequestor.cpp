@@ -1001,7 +1001,6 @@ nullptr
 &
 httpResponseCode
 nullptr
-nullptr
 &
 httpResponseData
 &
