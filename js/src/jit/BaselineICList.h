@@ -252,6 +252,11 @@ SetProp_Fallback
 \
 _
 (
+SetProp_Native
+)
+\
+_
+(
 SetProp_NativeAdd
 )
 \
