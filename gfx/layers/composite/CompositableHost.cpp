@@ -240,7 +240,7 @@ texture
 mTexture
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 GetCompositor
 (
@@ -282,7 +282,7 @@ GetCompositor
 aTextureOnBlack
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 GetCompositor
 (
@@ -292,7 +292,7 @@ GetCompositor
 aTextureOnWhite
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 GetCompositor
 (
