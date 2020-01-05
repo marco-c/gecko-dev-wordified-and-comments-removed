@@ -5494,6 +5494,17 @@ GetExistingID
 }
 if
 (
+varChild
+.
+ulVal
+!
+=
+GetExistingID
+(
+)
+&
+&
+(
 IsProxy
 (
 )
@@ -5513,6 +5524,7 @@ nsAccUtils
 MustPrune
 (
 this
+)
 )
 )
 {
