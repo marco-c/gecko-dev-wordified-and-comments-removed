@@ -3,6 +3,8 @@ toPrinted
 (
 value
 )
+{
+return
 value
 =
 value
@@ -50,6 +52,7 @@ g
 escapeString
 )
 ;
+}
 function
 escapeString
 (

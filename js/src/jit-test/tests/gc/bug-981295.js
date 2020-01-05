@@ -42,6 +42,8 @@ function
 (
 x
 )
+{
+return
 myObj
 (
 Date
@@ -55,6 +57,8 @@ apply
 x
 )
 )
+;
+}
 ;
 void
 i

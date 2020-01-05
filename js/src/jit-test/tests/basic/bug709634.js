@@ -7,11 +7,15 @@ toString
 function
 (
 )
+{
+return
 f
 (
 this
 true
 )
+;
+}
 ;
 function
 f

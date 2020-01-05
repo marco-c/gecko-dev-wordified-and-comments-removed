@@ -3440,9 +3440,10 @@ rec
 ;
 assertThrowsInstanceOf
 (
-function
 (
 )
+=
+>
 rec
 (
 100000000000

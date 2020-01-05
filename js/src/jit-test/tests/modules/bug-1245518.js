@@ -65,12 +65,15 @@ function
 g
 (
 )
+{
+return
 this
 .
 hours
 =
 0
 ;
+}
 evalInFrame
 .
 call

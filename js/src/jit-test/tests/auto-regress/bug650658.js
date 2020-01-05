@@ -37,9 +37,13 @@ pattern
 index
 matches_array
 )
+{
+return
 (
 matches_array
 .
 length
 regexp
 )
+;
+}

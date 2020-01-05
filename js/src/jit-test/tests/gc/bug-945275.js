@@ -31,8 +31,12 @@ function
 reportCompare
 (
 )
+{
+return
 new
 TestCase
+;
+}
 ;
 \
 reportCompare

@@ -89,6 +89,8 @@ function
 addThis
 (
 )
+{
+return
 reportCompare
 (
 expect
@@ -98,6 +100,7 @@ ok
 '
 )
 ;
+}
 Object
 .
 defineProperty

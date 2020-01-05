@@ -77,11 +77,15 @@ writeValue
 o
 v
 )
+{
+return
 o
 .
 f
 =
 v
+;
+}
 for
 (
 var

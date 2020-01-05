@@ -155,6 +155,8 @@ toString
 function
 (
 )
+{
+return
 "
 [
 Debugger
@@ -181,6 +183,8 @@ global
 "
 ]
 "
+;
+}
 ;
 return
 script

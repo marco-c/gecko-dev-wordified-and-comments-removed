@@ -68,9 +68,12 @@ function
 testBasic
 (
 )
+{
+return
 new
 LineType
 ;
+}
 testBasic
 (
 )

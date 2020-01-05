@@ -6,12 +6,16 @@ d
 e
 a
 )
+{
+return
 function
 writeHeaderToLog
 (
 string
 )
 {
+}
+;
 }
 var
 SECTION

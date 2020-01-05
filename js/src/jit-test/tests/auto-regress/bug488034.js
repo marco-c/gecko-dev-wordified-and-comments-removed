@@ -17,7 +17,11 @@ x
 function
 (
 )
+{
+return
 x
+;
+}
 )
 (
 )

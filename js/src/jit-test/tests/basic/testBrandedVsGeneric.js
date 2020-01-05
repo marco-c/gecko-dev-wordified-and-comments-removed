@@ -21,7 +21,11 @@ m1
 function
 (
 )
+{
+return
 a
+;
+}
 ;
 this
 .
@@ -30,7 +34,11 @@ m2
 function
 (
 )
+{
+return
 b
+;
+}
 ;
 this
 .
@@ -39,7 +47,11 @@ m3
 function
 (
 )
+{
+return
 c
+;
+}
 ;
 }
 }
@@ -72,7 +84,11 @@ m0
 function
 (
 )
+{
+return
 e
+;
+}
 }
 }
 (

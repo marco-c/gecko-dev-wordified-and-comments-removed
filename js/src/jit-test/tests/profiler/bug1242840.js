@@ -56,7 +56,11 @@ case
 function
 (
 )
+{
+return
 x
+;
+}
 )
 (
 )

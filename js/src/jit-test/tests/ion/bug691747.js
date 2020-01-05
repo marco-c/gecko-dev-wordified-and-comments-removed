@@ -3,6 +3,8 @@ reportCompare
 (
 actual
 )
+{
+return
 -
 +
 +
@@ -12,6 +14,7 @@ actual
 '
 "
 ;
+}
 var
 UBound
 =

@@ -51,9 +51,13 @@ oomTest
 function
 (
 )
+{
+return
 eval
 (
 lfVarx
 )
+;
+}
 )
 }

@@ -32,6 +32,8 @@ valueOf
 function
 (
 )
+{
+return
 Object
 .
 defineProperty
@@ -45,6 +47,8 @@ g
 {
 }
 )
+;
+}
 }
 ;
 var

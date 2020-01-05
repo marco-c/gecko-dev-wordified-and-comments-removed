@@ -26,6 +26,8 @@ put
 field
 value
 )
+{
+return
 desc
 [
 field
@@ -33,6 +35,7 @@ field
 =
 value
 ;
+}
 WRITABLES
 .
 forEach

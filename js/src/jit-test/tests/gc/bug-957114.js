@@ -57,9 +57,12 @@ function
 test
 (
 )
+{
+return
 new
 TestCase
 ;
+}
 test
 (
 )

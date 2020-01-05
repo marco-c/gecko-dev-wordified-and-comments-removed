@@ -52,9 +52,13 @@ getName
 function
 (
 )
+{
+return
 "
 Y
 "
+;
+}
 ;
 var
 a

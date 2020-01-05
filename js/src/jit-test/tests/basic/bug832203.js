@@ -83,6 +83,8 @@ function
 (
 r
 )
+{
+return
 assertEq
 (
 '
@@ -95,6 +97,8 @@ r
 )
 1
 )
+;
+}
 )
 ;
 \

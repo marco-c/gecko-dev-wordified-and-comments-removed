@@ -6,6 +6,8 @@ d
 e
 a
 )
+{
+return
 this
 .
 reason
@@ -13,6 +15,7 @@ reason
 '
 '
 ;
+}
 function
 reportCompare
 (

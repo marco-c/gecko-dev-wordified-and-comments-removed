@@ -50,6 +50,8 @@ DayWithinYear
 (
 t
 )
+{
+return
 Day
 (
 t
@@ -58,6 +60,8 @@ t
 YearFromTime
 (
 )
+;
+}
 function
 WeekDay
 (

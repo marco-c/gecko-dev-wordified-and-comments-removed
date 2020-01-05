@@ -9,9 +9,11 @@ function
 y
 (
 )
-(
+{
+return
 Iterator
-)
+;
+}
 "
 this
 )

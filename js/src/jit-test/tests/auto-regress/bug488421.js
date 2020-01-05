@@ -22,7 +22,11 @@ y
 function
 (
 )
+{
+return
 x
+;
+}
 )
 "
 )

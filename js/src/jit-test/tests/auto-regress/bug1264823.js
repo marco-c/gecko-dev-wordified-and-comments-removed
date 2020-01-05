@@ -55,6 +55,8 @@ loadFile
 (
 lfVarx
 )
+{
+return
 oomTest
 (
 function
@@ -67,3 +69,5 @@ lfVarx
 )
 }
 )
+;
+}

@@ -11,10 +11,14 @@ function
 (
 z
 )
+{
+return
 function
 (
 )
 {
 z
+}
+;
 }
 )

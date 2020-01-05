@@ -7,6 +7,8 @@ function
 f
 (
 )
+{
+return
 k
 .
 apply
@@ -15,6 +17,7 @@ this
 arguments
 )
 ;
+}
 if
 (
 undefined

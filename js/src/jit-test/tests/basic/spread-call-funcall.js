@@ -165,7 +165,11 @@ function
 .
 x
 )
+{
+return
 x
+;
+}
 )
 ;
 check

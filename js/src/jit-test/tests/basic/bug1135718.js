@@ -15,12 +15,15 @@ ArrayCallback
 (
 state
 )
+{
+return
 this
 .
 state
 =
 state
 ;
+}
 ArrayCallback
 .
 prototype

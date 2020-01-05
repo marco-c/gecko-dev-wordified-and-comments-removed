@@ -25,7 +25,7 @@ d
 5
 ]
 )
-(
+{
 assertEq
 (
 a
@@ -46,8 +46,7 @@ assertEq
 d
 dIs
 )
-)
-;
+}
 assertEq
 (
 f1

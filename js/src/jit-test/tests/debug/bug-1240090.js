@@ -23,10 +23,17 @@ onNewScript
 function
 (
 )
+{
+return
 function
 (
 )
+{
+return
 this
+;
+}
+}
 ;
 schedulegc
 (

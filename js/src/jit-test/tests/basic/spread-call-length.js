@@ -602,9 +602,13 @@ function
 (
 x
 )
+{
+return
 arguments
 .
 length
+;
+}
 makeCall
 )
 ;
@@ -614,9 +618,13 @@ function
 (
 x
 )
+{
+return
 arguments
 .
 length
+;
+}
 makeFunCall
 )
 ;

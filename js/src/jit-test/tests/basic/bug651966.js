@@ -139,10 +139,14 @@ function
 x
 (
 )
+{
+return
 (
 {
 }
 )
+;
+}
 }
 try
 {

@@ -13,9 +13,13 @@ return
 function
 (
 )
+{
+return
 x
 +
 y
+;
+}
 )
 (
 )

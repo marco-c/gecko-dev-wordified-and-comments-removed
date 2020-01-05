@@ -143,6 +143,8 @@ cases
 function
 (
 )
+{
+return
 ieval
 (
 "
@@ -153,6 +155,8 @@ undef
 +
 statement
 )
+;
+}
 Function
 (
 statement

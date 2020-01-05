@@ -66,6 +66,8 @@ function
 TestCase
 (
 )
+{
+return
 gTestcases
 [
 gTc
@@ -75,6 +77,7 @@ gTc
 =
 this
 ;
+}
 function
 checkCollation
 (

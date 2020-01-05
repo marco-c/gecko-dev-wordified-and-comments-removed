@@ -32,7 +32,11 @@ onExceptionUnwind
 function
 (
 )
+{
+return
 0
+;
+}
 ;
 }
 +

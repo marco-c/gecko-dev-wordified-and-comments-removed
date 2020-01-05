@@ -48,6 +48,8 @@ f
 function
 (
 )
+{
+return
 f
 (
 .
@@ -57,6 +59,8 @@ a
 )
 +
 1
+;
+}
 ;
 let
 g
@@ -81,6 +85,8 @@ h
 function
 (
 )
+{
+return
 new
 h
 (
@@ -91,6 +97,8 @@ a
 )
 +
 1
+;
+}
 ;
 check
 (

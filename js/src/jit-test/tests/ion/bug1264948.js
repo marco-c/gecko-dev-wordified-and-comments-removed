@@ -68,11 +68,15 @@ function
 writeObject
 (
 )
+{
+return
 o
 .
 f
 =
 v
+;
+}
 writeObject
 (
 {

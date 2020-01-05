@@ -203,11 +203,15 @@ function
 (
 q
 )
+{
+return
 (
 "
 "
 s
 )
+;
+}
 )
 let
 u

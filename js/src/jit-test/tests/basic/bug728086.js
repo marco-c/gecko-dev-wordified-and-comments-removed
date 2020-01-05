@@ -131,6 +131,8 @@ enterFunc
 (
 funcName
 )
+{
+return
 callStack
 .
 push
@@ -138,6 +140,7 @@ push
 funcName
 )
 ;
+}
 try
 {
 reportCompare

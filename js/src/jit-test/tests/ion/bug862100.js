@@ -87,6 +87,7 @@ test_negation
 value
 expected
 )
+{
 \
 reportCompare
 (
@@ -110,6 +111,7 @@ expected
 )
 ;
 \
+}
 "
 )
 ;

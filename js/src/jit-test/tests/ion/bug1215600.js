@@ -103,12 +103,16 @@ newFunc
 (
 x
 )
+{
+return
 Function
 (
 x
 )
 (
 )
+;
+}
 newFunc
 (
 lfVarx

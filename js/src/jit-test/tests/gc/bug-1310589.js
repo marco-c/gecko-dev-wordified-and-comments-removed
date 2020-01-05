@@ -101,11 +101,15 @@ toString
 function
 (
 )
+{
+return
 a
 .
 reverse
 (
 )
+;
+}
 )
 oomTest
 (

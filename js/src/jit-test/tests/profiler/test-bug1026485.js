@@ -6,6 +6,8 @@ d
 e
 a
 )
+{
+return
 TestCase
 .
 prototype
@@ -16,6 +18,8 @@ function
 (
 )
 {
+}
+;
 }
 enableSPSProfiling
 (

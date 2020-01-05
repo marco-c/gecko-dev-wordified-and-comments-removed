@@ -133,7 +133,11 @@ g
 function
 (
 )
+{
+return
 arguments
+;
+}
 )
 .
 call

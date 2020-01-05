@@ -24,10 +24,13 @@ function
 a
 b
 )
+{
+return
 a
 +
 b
 ;
+}
 assertEq
 (
 decompileThis

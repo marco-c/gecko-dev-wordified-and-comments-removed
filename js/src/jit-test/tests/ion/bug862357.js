@@ -4,6 +4,8 @@ TestCase
 e
 a
 )
+{
+return
 this
 .
 passed
@@ -15,6 +17,7 @@ e
 a
 )
 ;
+}
 function
 reportCompare
 (

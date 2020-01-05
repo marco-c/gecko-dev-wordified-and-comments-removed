@@ -10,6 +10,8 @@ toPrinted
 (
 value
 )
+{
+return
 value
 =
 String
@@ -17,6 +19,7 @@ String
 value
 )
 ;
+}
 var
 lfcode
 =

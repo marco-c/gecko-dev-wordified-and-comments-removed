@@ -102,6 +102,8 @@ newFunc
 (
 x
 )
+{
+return
 Function
 (
 x
@@ -109,6 +111,7 @@ x
 (
 )
 ;
+}
 newFunc
 (
 lfVarx

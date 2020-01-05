@@ -20,6 +20,8 @@ exitFunc
 (
 funcName
 )
+{
+return
 reportCompare
 (
 undefined
@@ -27,6 +29,7 @@ undefined
 '
 )
 ;
+}
 reportCompare
 (
 '

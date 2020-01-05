@@ -3,12 +3,16 @@ newFunc
 (
 x
 )
+{
+return
 Function
 (
 x
 )
 (
 )
+;
+}
 newFunc
 (
 var

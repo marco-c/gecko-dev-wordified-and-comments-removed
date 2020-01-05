@@ -13,7 +13,11 @@ yield
 function
 (
 )
+{
+return
 a
+;
+}
 ;
 }
 if

@@ -8,11 +8,15 @@ function
 g2
 (
 )
+{
+return
 function
 Int8Array
 (
 )
 {
+}
+;
 }
 function
 f1
