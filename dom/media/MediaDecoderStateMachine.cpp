@@ -3465,11 +3465,6 @@ DisconnectIfExists
 (
 )
 ;
-if
-(
-mSeekTask
-)
-{
 mMaster
 -
 >
@@ -3487,10 +3482,6 @@ Discard
 (
 )
 ;
-mSeekTask
-=
-nullptr
-;
 mMaster
 -
 >
@@ -3498,7 +3489,6 @@ SetMediaDecoderReaderWrapperCallback
 (
 )
 ;
-}
 }
 State
 GetState
