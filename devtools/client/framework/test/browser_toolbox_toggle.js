@@ -524,9 +524,9 @@ toolboxWindow
 =
 toolbox
 .
-_host
+win
 .
-_window
+top
 ;
 let
 onToolboxWindowFocus
