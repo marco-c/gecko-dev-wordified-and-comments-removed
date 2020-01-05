@@ -128,7 +128,7 @@ azure
 azure_hl
 :
 :
-BackendType
+SkiaBackend
 ;
 use
 azure
@@ -195,9 +195,6 @@ android
 fn
 create_scaled_font
 (
-backend
-:
-BackendType
 template
 :
 &
@@ -218,7 +215,7 @@ ScaledFont
 :
 new
 (
-backend
+SkiaBackend
 FontData
 (
 &
@@ -245,9 +242,6 @@ macos
 fn
 create_scaled_font
 (
-backend
-:
-BackendType
 template
 :
 &
@@ -287,7 +281,7 @@ ScaledFont
 :
 new
 (
-backend
+SkiaBackend
 &
 cgfont
 pt_size
@@ -1061,9 +1055,6 @@ FontTemplateData
 pt_size
 :
 f64
-backend
-:
-BackendType
 )
 -
 >
@@ -1130,7 +1121,6 @@ new
 (
 create_scaled_font
 (
-backend
 template
 pt_size
 )

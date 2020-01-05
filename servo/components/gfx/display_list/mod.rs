@@ -2216,11 +2216,6 @@ text
 text_run
 .
 actual_pt_size
-render_context
-.
-opts
-.
-render_backend
 )
 .
 borrow

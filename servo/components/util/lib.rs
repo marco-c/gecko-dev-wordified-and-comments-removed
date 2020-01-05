@@ -47,10 +47,6 @@ alloc
 ;
 extern
 crate
-azure
-;
-extern
-crate
 collections
 ;
 extern

@@ -279,15 +279,6 @@ Opts
 urls
 :
 urls
-render_backend
-:
-azure
-:
-:
-azure_hl
-:
-:
-SkiaBackend
 n_render_threads
 :
 1
