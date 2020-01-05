@@ -3978,6 +3978,7 @@ borrow_mut
 ;
 if
 let
+&
 Some
 (
 ref
@@ -3985,12 +3986,10 @@ mut
 declarations
 )
 =
+&
+mut
 *
 inline_declarations
-.
-deref_mut
-(
-)
 {
 let
 existing_declarations

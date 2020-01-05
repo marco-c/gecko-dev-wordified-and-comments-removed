@@ -849,11 +849,11 @@ CharIndex
 (
 run_text
 .
-as_slice
+chars
 (
 )
 .
-char_len
+count
 (
 )
 as
@@ -899,11 +899,11 @@ CharIndex
 (
 run_text
 .
-as_slice
+chars
 (
 )
 .
-char_len
+count
 (
 )
 as

@@ -755,11 +755,10 @@ flow
 :
 base
 (
+&
+*
+*
 flow
-.
-deref
-(
-)
 )
 .
 restyle_damage
@@ -10510,10 +10509,6 @@ block_flow
 info
 .
 flow_ref
-.
-deref
-(
-)
 .
 as_immutable_block
 (

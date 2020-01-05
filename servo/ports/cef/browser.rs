@@ -132,7 +132,7 @@ atomic
 :
 {
 AtomicInt
-SeqCst
+Ordering
 }
 ;
 thread_local
@@ -679,6 +679,9 @@ counter
 fetch_add
 (
 1
+Ordering
+:
+:
 SeqCst
 )
 }

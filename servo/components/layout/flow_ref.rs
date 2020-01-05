@@ -35,7 +35,7 @@ sync
 atomic
 :
 :
-SeqCst
+Ordering
 ;
 #
 [
@@ -307,6 +307,9 @@ ref_count
 fetch_sub
 (
 1
+Ordering
+:
+:
 SeqCst
 )
 >
@@ -440,11 +443,10 @@ flow
 :
 base
 (
+&
+*
+*
 self
-.
-deref
-(
-)
 )
 .
 ref_count
@@ -454,6 +456,9 @@ ref_count
 fetch_add
 (
 1
+Ordering
+:
+:
 SeqCst
 )
 )

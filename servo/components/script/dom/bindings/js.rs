@@ -3689,10 +3689,10 @@ self
 a
 Reflector
 {
-self
-.
-deref
 (
+*
+*
+self
 )
 .
 reflector

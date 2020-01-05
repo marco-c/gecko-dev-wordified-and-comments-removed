@@ -6934,6 +6934,15 @@ use
 std
 :
 :
+cmp
+:
+:
+Ordering
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -7267,6 +7276,9 @@ source_order
 )
 =
 =
+Ordering
+:
+:
 Less
 "
 The

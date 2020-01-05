@@ -42,7 +42,10 @@ std
 cmp
 :
 :
+{
+Ordering
 PartialOrd
+}
 ;
 use
 std
@@ -1809,10 +1812,16 @@ a
 <
 b
 {
+Ordering
+:
+:
 Less
 }
 else
 {
+Ordering
+:
+:
 Greater
 }
 }

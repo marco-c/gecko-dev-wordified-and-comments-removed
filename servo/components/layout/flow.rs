@@ -242,7 +242,7 @@ atomic
 :
 {
 AtomicUint
-SeqCst
+Ordering
 }
 ;
 use
@@ -3550,6 +3550,9 @@ children_count
 .
 load
 (
+Ordering
+:
+:
 SeqCst
 )
 self
@@ -4007,6 +4010,9 @@ ref_count
 .
 load
 (
+Ordering
+:
+:
 SeqCst
 )
 !

@@ -8,6 +8,7 @@ cmp
 {
 PartialOrd
 PartialEq
+Ordering
 }
 ;
 #
@@ -367,6 +368,9 @@ key
 midv
 )
 {
+Ordering
+:
+:
 Greater
 =
 >
@@ -379,6 +383,9 @@ int
 )
 +
 1
+Ordering
+:
+:
 Less
 =
 >
@@ -391,6 +398,9 @@ int
 )
 -
 1
+Ordering
+:
+:
 Equal
 =
 >

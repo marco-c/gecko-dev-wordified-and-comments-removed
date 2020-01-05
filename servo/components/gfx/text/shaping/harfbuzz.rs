@@ -1591,7 +1591,11 @@ char_max
 =
 text
 .
-char_len
+chars
+(
+)
+.
+count
 (
 )
 as

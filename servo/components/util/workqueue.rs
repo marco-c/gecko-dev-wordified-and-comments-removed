@@ -58,7 +58,7 @@ atomic
 :
 {
 AtomicUint
-SeqCst
+Ordering
 }
 ;
 use
@@ -610,6 +610,9 @@ ref_count
 fetch_sub
 (
 1
+Ordering
+:
+:
 SeqCst
 )
 =
@@ -745,6 +748,9 @@ ref_count
 fetch_add
 (
 1
+Ordering
+:
+:
 SeqCst
 )
 )
