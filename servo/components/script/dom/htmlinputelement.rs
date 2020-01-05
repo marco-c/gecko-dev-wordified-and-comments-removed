@@ -2771,7 +2771,6 @@ this
 is
 safe
 let
-mut
 iter
 =
 unsafe
