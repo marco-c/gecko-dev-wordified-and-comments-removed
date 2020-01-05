@@ -120,10 +120,7 @@ bindings
 global
 :
 :
-{
 GlobalRef
-global_root_from_reflector
-}
 ;
 use
 dom
@@ -151,6 +148,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -899,9 +897,10 @@ DOMRect
 :
 new
 (
-global_root_from_reflector
-(
 self
+.
+global
+(
 )
 .
 r

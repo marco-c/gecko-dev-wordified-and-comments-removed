@@ -84,10 +84,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -318,9 +315,6 @@ Worker
 eventtarget
 :
 EventTarget
-global
-:
-GlobalField
 #
 [
 ignore_heap_size_of
@@ -347,9 +341,6 @@ Worker
 fn
 new_inherited
 (
-global
-:
-GlobalRef
 sender
 :
 Sender
@@ -373,16 +364,6 @@ EventTarget
 :
 new_inherited
 (
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
 )
 sender
 :
@@ -421,7 +402,6 @@ Worker
 :
 new_inherited
 (
-global
 sender
 )
 global
@@ -811,8 +791,6 @@ r
 )
 .
 global
-.
-root
 (
 )
 ;
@@ -962,8 +940,6 @@ r
 )
 .
 global
-.
-root
 (
 )
 ;
@@ -1026,8 +1002,6 @@ r
 )
 .
 global
-.
-root
 (
 )
 ;
@@ -1165,8 +1139,6 @@ self
 self
 .
 global
-.
-root
 (
 )
 .

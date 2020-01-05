@@ -222,7 +222,6 @@ global
 :
 :
 {
-GlobalField
 GlobalRef
 GlobalRoot
 }
@@ -1062,9 +1061,6 @@ Cell
 <
 bool
 >
-global
-:
-GlobalField
 timeout_cancel
 :
 DOMRefCell
@@ -1350,16 +1346,6 @@ Cell
 new
 (
 false
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
 )
 timeout_cancel
 :
@@ -2504,8 +2490,6 @@ base
 self
 .
 global
-.
-root
 (
 )
 .
@@ -3666,8 +3650,6 @@ match
 self
 .
 global
-.
-root
 (
 )
 {
@@ -4161,8 +4143,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -4575,8 +4555,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -4586,8 +4564,6 @@ referer_url
 self
 .
 global
-.
-root
 (
 )
 .
@@ -5642,8 +5618,6 @@ match
 self
 .
 global
-.
-root
 (
 )
 {
@@ -6384,8 +6358,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -7737,8 +7709,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -8132,8 +8102,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -8242,8 +8210,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -8647,8 +8613,6 @@ wr
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -8781,8 +8745,6 @@ wr
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -8907,8 +8869,6 @@ wr
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -8971,8 +8931,6 @@ base
 self
 .
 global
-.
-root
 (
 )
 .

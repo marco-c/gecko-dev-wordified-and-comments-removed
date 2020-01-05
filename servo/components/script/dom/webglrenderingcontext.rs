@@ -129,10 +129,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -174,6 +171,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -542,9 +540,6 @@ WebGLRenderingContext
 reflector_
 :
 Reflector
-global
-:
-GlobalField
 renderer_id
 :
 usize
@@ -735,16 +730,6 @@ Reflector
 :
 new
 (
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
 )
 renderer_id
 :
@@ -5490,8 +5475,6 @@ maybe_new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -5561,8 +5544,6 @@ maybe_new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -5632,8 +5613,6 @@ maybe_new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -5703,8 +5682,6 @@ maybe_new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -5774,8 +5751,6 @@ maybe_new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -5878,8 +5853,6 @@ maybe_new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -7365,8 +7338,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -9472,8 +9443,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
