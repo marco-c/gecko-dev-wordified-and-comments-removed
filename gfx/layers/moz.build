@@ -1107,6 +1107,13 @@ h
 '
 ipc
 /
+CompositorVsyncSchedulerOwner
+.
+h
+'
+'
+ipc
+/
 CrossProcessCompositorBridgeParent
 .
 h

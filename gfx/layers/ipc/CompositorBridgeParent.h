@@ -136,7 +136,7 @@ mozilla
 /
 layers
 /
-CompositorVsyncScheduler
+CompositorVsyncSchedulerOwner
 .
 h
 "
@@ -280,6 +280,9 @@ Compositor
 ;
 class
 CompositorBridgeParent
+;
+class
+CompositorVsyncScheduler
 ;
 class
 LayerManagerComposite
