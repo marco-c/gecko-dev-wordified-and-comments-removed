@@ -695,7 +695,10 @@ dom
 htmliframeelement
 :
 :
+{
+self
 HTMLIFrameElement
+}
 ;
 use
 dom
@@ -965,12 +968,6 @@ script_traits
 MouseButton
 UntrustedNodeAddress
 }
-;
-use
-util
-:
-:
-opts
 ;
 use
 util
@@ -5904,10 +5901,10 @@ MozBrowserEvent
 )
 {
 if
-opts
+htmliframeelement
 :
 :
-experimental_enabled
+mozbrowser_enabled
 (
 )
 {
