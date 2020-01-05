@@ -1504,6 +1504,12 @@ http
 '
 '
 /
+netwerk
+/
+socket
+'
+'
+/
 security
 /
 pkix
