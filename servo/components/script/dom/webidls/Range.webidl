@@ -369,14 +369,10 @@ deleteContents
 (
 )
 ;
-/
-/
 [
 NewObject
 Throws
 ]
-/
-/
 DocumentFragment
 extractContents
 (
