@@ -7772,7 +7772,7 @@ version
 .
 3
 .
-16
+17
 "
 source
 =
@@ -14126,11 +14126,11 @@ sys
 version
 =
 "
-0
-.
 1
 .
-8
+0
+.
+0
 "
 source
 =
@@ -14164,7 +14164,7 @@ gcc
 .
 3
 .
-16
+17
 (
 registry
 +
@@ -14191,9 +14191,9 @@ index
 libc
 0
 .
-1
+2
 .
-12
+2
 (
 registry
 +
@@ -14846,7 +14846,7 @@ gcc
 .
 3
 .
-16
+17
 (
 registry
 +
@@ -15039,7 +15039,7 @@ servo
 /
 mozjs
 #
-10796a16f6a8aba1e4990a0939b8b2f4a1075e55
+e89e72f1d69b6a90a7b691fec2e4624e6a375824
 "
 dependencies
 =
@@ -15077,11 +15077,11 @@ index
 libz
 -
 sys
-0
-.
 1
 .
-8
+0
+.
+0
 (
 registry
 +
@@ -18146,7 +18146,7 @@ gcc
 .
 3
 .
-16
+17
 (
 registry
 +
@@ -25700,7 +25700,7 @@ gcc
 .
 3
 .
-16
+17
 (
 registry
 +
