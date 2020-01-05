@@ -1351,6 +1351,12 @@ HeaderVisitor
 aChannel
 )
 ;
+DebugOnly
+<
+nsresult
+>
+rv
+=
 mSynthesizedResponseHead
 -
 >
@@ -1361,6 +1367,14 @@ nsHttpHeaderArray
 :
 :
 eFilterResponse
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 nsCOMPtr

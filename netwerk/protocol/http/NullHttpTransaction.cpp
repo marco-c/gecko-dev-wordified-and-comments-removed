@@ -280,6 +280,8 @@ NullHttpChannel
 (
 )
 ;
+rv
+=
 channel
 -
 >
@@ -290,6 +292,14 @@ uri
 nullptr
 0
 nullptr
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 mActivityDistributor
@@ -891,6 +901,8 @@ rv
 )
 )
 {
+rv
+=
 mRequestHead
 -
 >
@@ -901,6 +913,14 @@ nsHttp
 :
 Host
 hostHeader
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 if

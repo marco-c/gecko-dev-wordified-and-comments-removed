@@ -3821,6 +3821,12 @@ if
 httpInternal
 )
 {
+DebugOnly
+<
+nsresult
+>
+rv
+=
 httpInternal
 -
 >
@@ -3830,6 +3836,14 @@ mResponseHeaderValue
 .
 get
 (
+)
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;
