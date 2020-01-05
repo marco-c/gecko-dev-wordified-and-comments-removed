@@ -131,6 +131,11 @@ TestUrlClassifierUtils
 .
 cpp
 '
+'
+TestVariableLengthPrefixSet
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
