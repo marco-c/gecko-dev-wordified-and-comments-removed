@@ -637,10 +637,6 @@ window
 (
 )
 .
-r
-(
-)
-.
 constellation_chan
 (
 )

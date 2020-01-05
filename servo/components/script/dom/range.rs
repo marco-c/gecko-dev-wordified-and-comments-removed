@@ -464,15 +464,6 @@ Root
 Range
 >
 {
-let
-window
-=
-document
-.
-window
-(
-)
-;
 reflect_dom_object
 (
 box
@@ -491,9 +482,9 @@ GlobalRef
 :
 Window
 (
-window
+document
 .
-r
+window
 (
 )
 )

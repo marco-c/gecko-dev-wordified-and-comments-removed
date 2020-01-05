@@ -9370,10 +9370,6 @@ NamedNodeMap
 new
 (
 window
-.
-r
-(
-)
 self
 )
 }

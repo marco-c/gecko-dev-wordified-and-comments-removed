@@ -2701,6 +2701,11 @@ Root
 Document
 >
 {
+Root
+:
+:
+from_ref
+(
 self
 .
 browsing_context
@@ -2717,6 +2722,7 @@ unwrap
 .
 active_document
 (
+)
 )
 }
 /
@@ -3068,6 +3074,14 @@ unwrap
 .
 frame_element
 (
+)
+.
+map
+(
+Root
+:
+:
+from_ref
 )
 }
 /
@@ -9831,10 +9845,6 @@ window
 window_from_node
 (
 frame_element
-.
-r
-(
-)
 )
 ;
 /
@@ -9877,6 +9887,11 @@ browsing_context
 (
 )
 ;
+Root
+:
+:
+from_ref
+(
 context
 .
 as_ref
@@ -9889,6 +9904,7 @@ unwrap
 .
 active_window
 (
+)
 )
 }
 )

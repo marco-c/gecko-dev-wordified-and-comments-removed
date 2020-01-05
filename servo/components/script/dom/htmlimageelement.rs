@@ -696,15 +696,6 @@ window
 )
 ;
 let
-window
-=
-window
-.
-r
-(
-)
-;
-let
 image_cache
 =
 window
