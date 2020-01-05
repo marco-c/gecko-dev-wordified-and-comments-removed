@@ -629,7 +629,7 @@ cant_summarise
 if
 defined
 (
-LUL_ARCH_arm
+SPS_ARCH_arm
 )
 switch
 (
@@ -1064,13 +1064,13 @@ DW_REG_ARM_R14
 elif
 defined
 (
-LUL_ARCH_x64
+SPS_ARCH_amd64
 )
 |
 |
 defined
 (
-LUL_ARCH_x86
+SPS_ARCH_x86
 )
 switch
 (

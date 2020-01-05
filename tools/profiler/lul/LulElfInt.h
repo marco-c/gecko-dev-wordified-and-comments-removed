@@ -30,7 +30,7 @@ h
 #
 include
 "
-LulPlatformMacros
+PlatformMacros
 .
 h
 "
@@ -38,7 +38,7 @@ h
 if
 defined
 (
-LUL_OS_android
+SPS_OS_android
 )
 #
 ifndef

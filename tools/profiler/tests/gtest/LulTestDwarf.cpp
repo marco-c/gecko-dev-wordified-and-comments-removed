@@ -14710,7 +14710,7 @@ ix
 if
 defined
 (
-LUL_ARCH_arm
+SPS_ARCH_arm
 )
 #
 define
@@ -14724,13 +14724,13 @@ DW_REG_ARM_R11
 elif
 defined
 (
-LUL_ARCH_x64
+SPS_ARCH_amd64
 )
 |
 |
 defined
 (
-LUL_ARCH_x86
+SPS_ARCH_x86
 )
 #
 define

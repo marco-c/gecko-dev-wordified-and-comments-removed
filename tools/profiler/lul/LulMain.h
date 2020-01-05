@@ -7,7 +7,7 @@ LulMain_h
 #
 include
 "
-LulPlatformMacros
+PlatformMacros
 .
 h
 "
@@ -458,7 +458,7 @@ UnwindRegs
 if
 defined
 (
-LUL_ARCH_arm
+SPS_ARCH_arm
 )
 TaggedUWord
 r7
@@ -482,13 +482,13 @@ r15
 elif
 defined
 (
-LUL_ARCH_x64
+SPS_ARCH_amd64
 )
 |
 |
 defined
 (
-LUL_ARCH_x86
+SPS_ARCH_x86
 )
 TaggedUWord
 xbp
