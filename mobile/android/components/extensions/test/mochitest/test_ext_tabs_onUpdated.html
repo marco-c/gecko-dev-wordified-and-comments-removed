@@ -307,6 +307,9 @@ collectedSequence
 [
 ]
 ;
+let
+tabId
+;
 browser
 .
 tabs
@@ -372,6 +375,7 @@ onMessage
 .
 addListener
 (
+async
 msg
 =
 >
@@ -509,6 +513,16 @@ url
 }
 }
 }
+await
+browser
+.
+tabs
+.
+remove
+(
+tabId
+)
+;
 browser
 .
 test
@@ -535,6 +549,21 @@ create
 url
 :
 pageURL
+}
+)
+.
+then
+(
+tab
+=
+>
+{
+tabId
+=
+tab
+.
+id
+;
 }
 )
 ;
@@ -766,6 +795,7 @@ onUpdated
 .
 addListener
 (
+async
 function
 onUpdated
 (
@@ -861,6 +891,7 @@ Remove
 created
 tab
 .
+await
 browser
 .
 tabs
@@ -987,6 +1018,7 @@ onUpdated
 .
 addListener
 (
+async
 function
 onUpdated
 (
@@ -1079,6 +1111,7 @@ removeListener
 onUpdated
 )
 ;
+await
 browser
 .
 tabs
@@ -1215,6 +1248,7 @@ onUpdated
 .
 addListener
 (
+async
 function
 onUpdated
 (
@@ -1374,6 +1408,7 @@ removeListener
 onUpdated
 )
 ;
+await
 browser
 .
 tabs
