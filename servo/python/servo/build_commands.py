@@ -1465,6 +1465,31 @@ True
 )
         
 if
+env
+.
+get
+(
+"
+SERVO_ENABLE_DEBUG_ASSERTIONS
+"
+None
+)
+:
+            
+env
+[
+"
+RUSTFLAGS
+"
+]
+=
+"
+-
+C
+debug_assertions
+"
+        
+if
 android
 :
             
