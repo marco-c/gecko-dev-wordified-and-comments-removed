@@ -1786,7 +1786,7 @@ image
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eHTMLCanvasElement
+HTMLCanvasElement
 (
 canvas
 )
@@ -1802,7 +1802,7 @@ origin_is_clean
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eCanvasRenderingContext2D
+CanvasRenderingContext2D
 (
 image
 )
@@ -1820,7 +1820,7 @@ origin_is_clean
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eHTMLImageElement
+HTMLImageElement
 (
 image
 )
@@ -2226,7 +2226,7 @@ image
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eHTMLCanvasElement
+HTMLCanvasElement
 (
 ref
 canvas
@@ -2256,7 +2256,7 @@ dh
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eCanvasRenderingContext2D
+CanvasRenderingContext2D
 (
 ref
 image
@@ -2304,7 +2304,7 @@ dh
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eHTMLImageElement
+HTMLImageElement
 (
 ref
 image
@@ -7438,7 +7438,7 @@ unwrap
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eString
+String
 (
 DOMString
 :
@@ -7463,7 +7463,7 @@ gradient
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasGradient
+CanvasGradient
 (
 Root
 :
@@ -7490,7 +7490,7 @@ pattern
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasPattern
+CanvasPattern
 (
 Root
 :
@@ -7545,7 +7545,7 @@ value
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eString
+String
 (
 string
 )
@@ -7621,7 +7621,7 @@ unwrap
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasGradient
+CanvasGradient
 (
 gradient
 )
@@ -7694,7 +7694,7 @@ unwrap
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasPattern
+CanvasPattern
 (
 pattern
 )
@@ -7863,7 +7863,7 @@ unwrap
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eString
+String
 (
 DOMString
 :
@@ -7888,7 +7888,7 @@ gradient
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasGradient
+CanvasGradient
 (
 Root
 :
@@ -7915,7 +7915,7 @@ pattern
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasPattern
+CanvasPattern
 (
 Root
 :
@@ -7970,7 +7970,7 @@ value
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eString
+String
 (
 string
 )
@@ -8045,7 +8045,7 @@ unwrap
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasGradient
+CanvasGradient
 (
 gradient
 )
@@ -8115,7 +8115,7 @@ unwrap
 StringOrCanvasGradientOrCanvasPattern
 :
 :
-eCanvasPattern
+CanvasPattern
 (
 pattern
 )
@@ -9491,7 +9491,7 @@ image
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eHTMLImageElement
+HTMLImageElement
 (
 ref
 image
@@ -9569,7 +9569,7 @@ InvalidState
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eHTMLCanvasElement
+HTMLCanvasElement
 (
 ref
 canvas
@@ -9607,7 +9607,7 @@ InvalidState
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
 :
-eCanvasRenderingContext2D
+CanvasRenderingContext2D
 (
 ref
 context

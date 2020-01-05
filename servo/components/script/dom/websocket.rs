@@ -114,13 +114,6 @@ UnionTypes
 :
 :
 StringOrStringSequence
-:
-:
-{
-self
-eString
-eStringSequence
-}
 ;
 use
 dom
@@ -1236,7 +1229,10 @@ protocols
 {
 Some
 (
-eString
+StringOrStringSequence
+:
+:
+String
 (
 string
 )
@@ -1256,7 +1252,10 @@ string
 ]
 Some
 (
-eStringSequence
+StringOrStringSequence
+:
+:
+StringSequence
 (
 sequence
 )

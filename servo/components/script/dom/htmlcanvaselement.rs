@@ -1858,7 +1858,7 @@ map
 CanvasRenderingContext2DOrWebGLRenderingContext
 :
 :
-eCanvasRenderingContext2D
+CanvasRenderingContext2D
 )
 }
 "
@@ -1895,7 +1895,7 @@ map
 CanvasRenderingContext2DOrWebGLRenderingContext
 :
 :
-eWebGLRenderingContext
+WebGLRenderingContext
 )
 }
 _

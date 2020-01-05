@@ -9744,7 +9744,7 @@ source
 ImageDataOrHTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
 :
 :
-eImageData
+ImageData
 (
 image_data
 )
@@ -9782,7 +9782,7 @@ get_size
 ImageDataOrHTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
 :
 :
-eHTMLImageElement
+HTMLImageElement
 (
 image
 )
@@ -9942,7 +9942,7 @@ size
 ImageDataOrHTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
 :
 :
-eHTMLCanvasElement
+HTMLCanvasElement
 (
 canvas
 )
@@ -9995,7 +9995,7 @@ return
 ImageDataOrHTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
 :
 :
-eHTMLVideoElement
+HTMLVideoElement
 (
 _rooted_video
 )

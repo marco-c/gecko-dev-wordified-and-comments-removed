@@ -63,13 +63,6 @@ UnionTypes
 :
 :
 RadioNodeListOrElement
-:
-:
-{
-self
-eElement
-eRadioNodeList
-}
 ;
 use
 dom
@@ -493,7 +486,10 @@ is_none
 {
 Some
 (
-eElement
+RadioNodeListOrElement
+:
+:
+Element
 (
 elem
 )
@@ -570,7 +566,10 @@ as_window
 ;
 Some
 (
-eRadioNodeList
+RadioNodeListOrElement
+:
+:
+RadioNodeList
 (
 RadioNodeList
 :

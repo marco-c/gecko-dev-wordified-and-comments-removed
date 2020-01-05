@@ -902,7 +902,7 @@ object
 EventOrString
 :
 :
-eString
+String
 (
 event
 .
@@ -959,7 +959,7 @@ object
 EventOrString
 :
 :
-eEvent
+Event
 (
 Root
 :

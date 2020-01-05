@@ -916,7 +916,7 @@ HTMLElementOrLong
 HTMLElementOrLong
 :
 :
-eLong
+Long
 (
 0
 )
@@ -945,7 +945,7 @@ EventOrString
 EventOrString
 :
 :
-eString
+String
 (
 DOMString
 :
@@ -979,7 +979,7 @@ EventOrUSVString
 EventOrUSVString
 :
 :
-eUSVString
+USVString
 (
 USVString
 (
@@ -1957,7 +1957,7 @@ Some
 HTMLElementOrLong
 :
 :
-eLong
+Long
 (
 0
 )
@@ -1995,7 +1995,7 @@ Some
 EventOrString
 :
 :
-eString
+String
 (
 DOMString
 :
@@ -2386,7 +2386,7 @@ HTMLElementOrLong
 HTMLElementOrLong
 :
 :
-eLong
+Long
 (
 0
 )
@@ -2404,7 +2404,7 @@ EventOrString
 EventOrString
 :
 :
-eString
+String
 (
 DOMString
 :
@@ -2427,7 +2427,7 @@ StringOrLongSequence
 StringOrLongSequence
 :
 :
-eLongSequence
+LongSequence
 (
 vec
 !
@@ -2448,7 +2448,7 @@ StringOrStringSequence
 StringOrStringSequence
 :
 :
-eStringSequence
+StringSequence
 (
 vec
 !
@@ -2469,7 +2469,7 @@ BlobOrBlobSequence
 BlobOrBlobSequence
 :
 :
-eBlobSequence
+BlobSequence
 (
 vec
 !
@@ -2978,7 +2978,7 @@ Some
 HTMLElementOrLong
 :
 :
-eLong
+Long
 (
 0
 )
@@ -3002,7 +3002,7 @@ Some
 EventOrString
 :
 :
-eString
+String
 (
 DOMString
 :
@@ -3031,7 +3031,7 @@ Some
 StringOrLongSequence
 :
 :
-eString
+String
 (
 DOMString
 :
