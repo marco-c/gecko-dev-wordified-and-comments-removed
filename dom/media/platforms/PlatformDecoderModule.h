@@ -768,13 +768,6 @@ OnReaderTaskQueue
 =
 0
 ;
-virtual
-void
-WaitingForKey
-(
-)
-{
-}
 }
 ;
 class
