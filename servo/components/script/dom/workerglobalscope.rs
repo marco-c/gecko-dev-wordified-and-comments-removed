@@ -1782,9 +1782,13 @@ reflector
 get_jsobject
 (
 )
+String
+:
+:
+from
+(
 source
-.
-0
+)
 self
 .
 worker_url

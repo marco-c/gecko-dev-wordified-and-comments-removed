@@ -2950,6 +2950,9 @@ encoding
 .
 (
 DOMString
+:
+:
+from
 (
 UTF_8
 .
@@ -3990,6 +3993,9 @@ Window
 window
 )
 DOMString
+:
+:
+from
 (
 type_
 )

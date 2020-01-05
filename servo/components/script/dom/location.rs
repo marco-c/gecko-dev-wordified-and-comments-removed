@@ -727,6 +727,9 @@ self
 DOMString
 {
 DOMString
+:
+:
+from
 (
 self
 .

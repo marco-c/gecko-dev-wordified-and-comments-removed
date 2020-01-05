@@ -380,14 +380,13 @@ doc
 CreateElement
 (
 DOMString
+:
+:
+from
 (
 "
 script
 "
-.
-to_owned
-(
-)
 )
 )
 .
@@ -417,6 +416,9 @@ src
 "
 )
 DOMString
+:
+:
+from
 (
 name
 )

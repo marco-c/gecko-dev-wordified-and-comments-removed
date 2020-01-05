@@ -1622,6 +1622,9 @@ scope
 execute_script
 (
 DOMString
+:
+:
+from
 (
 source
 )

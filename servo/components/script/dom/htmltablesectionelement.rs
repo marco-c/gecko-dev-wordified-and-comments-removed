@@ -498,14 +498,13 @@ HTMLTableRowElement
 new
 (
 DOMString
+:
+:
+from
 (
 "
 tr
 "
-.
-to_owned
-(
-)
 )
 None
 node

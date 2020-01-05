@@ -905,14 +905,13 @@ new
 (
 global
 DOMString
+:
+:
+from
 (
 "
 webglcontextcreationerror
 "
-.
-to_owned
-(
-)
 )
 EventBubbles
 :
@@ -923,6 +922,9 @@ EventCancelable
 :
 Cancelable
 DOMString
+:
+:
+from
 (
 msg
 )
@@ -5645,6 +5647,9 @@ info_log
 map
 (
 DOMString
+:
+:
+from
 )
 }
 else

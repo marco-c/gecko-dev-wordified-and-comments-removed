@@ -121,7 +121,7 @@ let
 mut
 escaped
 =
-DOMString
+String
 :
 :
 new
@@ -135,8 +135,6 @@ ident
 &
 mut
 escaped
-.
-0
 )
 .
 unwrap
@@ -145,7 +143,13 @@ unwrap
 ;
 Ok
 (
+DOMString
+:
+:
+from
+(
 escaped
+)
 )
 }
 }

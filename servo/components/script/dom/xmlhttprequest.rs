@@ -5980,6 +5980,9 @@ Text
 Ok
 (
 DOMString
+:
+:
+from
 (
 match
 self
@@ -6147,14 +6150,13 @@ r
 (
 )
 DOMString
+:
+:
+from
 (
 "
 readystatechange
 "
-.
-to_owned
-(
-)
 )
 EventBubbles
 :
@@ -7499,6 +7501,9 @@ r
 (
 )
 DOMString
+:
+:
+from
 (
 type_
 )

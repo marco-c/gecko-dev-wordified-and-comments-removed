@@ -216,15 +216,6 @@ use
 std
 :
 :
-borrow
-:
-:
-ToOwned
-;
-use
-std
-:
-:
 cell
 :
 :
@@ -1830,6 +1821,9 @@ node
 query_selector_iter
 (
 DOMString
+:
+:
+from
 (
 "
 button
@@ -1839,10 +1833,6 @@ type
 submit
 ]
 "
-.
-to_owned
-(
-)
 )
 )
 .

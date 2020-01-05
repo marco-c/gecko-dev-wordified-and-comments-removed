@@ -216,6 +216,9 @@ let
 tokens
 =
 DOMString
+:
+:
+from
 (
 str_join
 (

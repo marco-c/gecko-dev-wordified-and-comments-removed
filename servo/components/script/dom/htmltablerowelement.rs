@@ -618,14 +618,13 @@ HTMLTableDataCellElement
 new
 (
 DOMString
+:
+:
+from
 (
 "
 td
 "
-.
-to_owned
-(
-)
 )
 None
 node

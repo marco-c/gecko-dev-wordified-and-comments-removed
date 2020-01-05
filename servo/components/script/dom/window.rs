@@ -2002,6 +2002,9 @@ RFC4648
 Ok
 (
 DOMString
+:
+:
+from
 (
 octets
 .
@@ -2434,6 +2437,9 @@ data
 Ok
 (
 DOMString
+:
+:
+from
 (
 data
 .
@@ -8068,6 +8074,9 @@ resolved
 map
 (
 DOMString
+:
+:
+from
 )
 }
 pub
