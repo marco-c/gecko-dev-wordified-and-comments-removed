@@ -832,7 +832,7 @@ Update
 <
 !
 ENTITY
-updateApp
+updateApplication
 .
 label
 "
@@ -840,7 +840,6 @@ label
 brandShortName
 ;
 updates
-:
 "
 >
 <
@@ -982,13 +981,12 @@ b
 <
 !
 ENTITY
-updateOthers
+autoUpdateOthers
 .
 label
 "
 Automatically
 update
-:
 "
 >
 <

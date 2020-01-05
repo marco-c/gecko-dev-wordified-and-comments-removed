@@ -2875,7 +2875,7 @@ caption
 label
 >
 &
-updateApp
+updateApplication
 .
 label
 ;
@@ -3113,7 +3113,7 @@ caption
 label
 >
 &
-updateOthers
+autoUpdateOthers
 .
 label
 ;
