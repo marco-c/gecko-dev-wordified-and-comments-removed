@@ -41,6 +41,8 @@ nss
 /
 fuzz
 /
+config
+/
 clone_corpus
 .
 sh

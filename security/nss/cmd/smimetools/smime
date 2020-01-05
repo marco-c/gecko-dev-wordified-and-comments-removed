@@ -1576,7 +1576,7 @@ that
 cmsutil
 generates
 a
-SHA1
+SHA256
 digest
 )
 out
@@ -1605,7 +1605,7 @@ signature
 ;
 micalg
 =
-sha1
+sha256
 ;
 boundary
 =

@@ -485,7 +485,7 @@ hash
 (
 default
 :
-SHA1
+SHA256
 )
 \
 n
@@ -6319,7 +6319,7 @@ signOptions
 .
 hashAlgTag
 =
-SEC_OID_SHA1
+SEC_OID_SHA256
 ;
 envelopeOptions
 .

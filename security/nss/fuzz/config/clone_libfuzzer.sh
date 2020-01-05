@@ -41,6 +41,9 @@ Fuzzer
 b96a41ac6bbc3824fc7c7977662bebacac8f0983
 d
 /
+.
+.
+/
 libFuzzer
 #
 [
@@ -117,6 +120,9 @@ p0
 -
 d
 d
+/
+.
+.
 diff
 -
 -
@@ -262,6 +268,9 @@ p0
 -
 d
 d
+/
+.
+.
 diff
 -
 -

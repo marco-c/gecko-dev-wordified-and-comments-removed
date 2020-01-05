@@ -310,6 +310,8 @@ options
 cp
 fuzz
 /
+options
+/
 *
 .
 options

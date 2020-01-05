@@ -214,6 +214,8 @@ cwd
 /
 fuzz
 /
+config
+/
 clone_libfuzzer
 .
 sh

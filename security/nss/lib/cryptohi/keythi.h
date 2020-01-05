@@ -645,7 +645,7 @@ attribute
 )
 )
 :
-PK11_HasAttributeSet
+pk11_HasAttributeSet_Lock
 (
 key
 -
