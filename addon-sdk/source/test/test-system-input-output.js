@@ -934,6 +934,8 @@ foo
 .
 com
 "
+null
+null
 )
 ;
 send
