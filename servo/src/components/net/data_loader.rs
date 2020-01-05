@@ -57,7 +57,7 @@ url
 :
 {
 percent_decode
-OtherSchemeData
+NonRelativeSchemeData
 }
 ;
 pub
@@ -145,7 +145,7 @@ url
 .
 scheme_data
 {
-OtherSchemeData
+NonRelativeSchemeData
 (
 scheme_data
 )
@@ -284,13 +284,10 @@ let
 mut
 ct_str
 =
-*
 parts
-.
-get
-(
+[
 0
-)
+]
 ;
 if
 ct_str
@@ -363,11 +360,9 @@ bytes
 percent_decode
 (
 parts
-.
-get
-(
+[
 1
-)
+]
 .
 as_bytes
 (

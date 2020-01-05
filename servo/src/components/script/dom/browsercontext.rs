@@ -222,13 +222,11 @@ new
 self
 .
 history
-.
-get
-(
+[
 self
 .
 active_index
-)
+]
 .
 document
 .

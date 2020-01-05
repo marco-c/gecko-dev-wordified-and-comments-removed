@@ -135,6 +135,12 @@ Q
 RUSTC
 )
 (
+strip
+(
+CFG_RUSTC_FLAGS
+)
+)
+(
 RFLAGS_
 (
 1

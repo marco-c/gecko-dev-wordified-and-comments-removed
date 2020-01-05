@@ -30,15 +30,6 @@ TextDisplayItemClass
 }
 ;
 use
-std
-:
-:
-collections
-:
-:
-Deque
-;
-use
 collections
 :
 :
@@ -198,7 +189,7 @@ display_item
 >
 result
 .
-push_back
+push
 (
 display_item
 )

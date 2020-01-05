@@ -545,6 +545,11 @@ callback
 (
 )
 )
+;
+let
+global
+=
+global
 .
 root
 (

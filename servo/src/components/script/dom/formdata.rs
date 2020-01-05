@@ -684,11 +684,9 @@ get
 &
 name
 )
-.
-get
-(
+[
 0
-)
+]
 .
 clone
 (

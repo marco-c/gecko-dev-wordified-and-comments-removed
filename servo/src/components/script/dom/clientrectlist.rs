@@ -334,13 +334,11 @@ Temporary
 new
 (
 rects
-.
-get
-(
+[
 index
 as
 uint
-)
+]
 .
 clone
 (

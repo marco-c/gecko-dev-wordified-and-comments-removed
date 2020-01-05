@@ -1870,13 +1870,11 @@ v
 self
 .
 nodes
-.
-get
-(
+[
 self
 .
 index
-)
+]
 .
 clone
 (
@@ -4419,6 +4417,7 @@ ptr
 }
 }
 pub
+unsafe
 fn
 layout_node_from_unsafe_layout_node
 (
@@ -4430,8 +4429,10 @@ UnsafeLayoutNode
 -
 >
 LayoutNode
-{
-unsafe
+<
+'
+static
+>
 {
 let
 (
@@ -4449,5 +4450,4 @@ transmute
 (
 node
 )
-}
 }

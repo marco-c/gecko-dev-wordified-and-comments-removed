@@ -958,11 +958,9 @@ other_deques
 push
 (
 infos
-.
-get
-(
+[
 j
-)
+]
 .
 thief
 .

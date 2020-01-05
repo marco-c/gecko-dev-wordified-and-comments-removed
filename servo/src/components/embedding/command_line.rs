@@ -18,7 +18,7 @@ use
 std
 :
 :
-str
+string
 ;
 use
 std
@@ -198,13 +198,13 @@ a
 .
 push
 (
-str
+string
 :
 :
 raw
 :
 :
-from_c_str
+from_buf
 (
 *
 argv
@@ -218,7 +218,7 @@ int
 as
 *
 const
-i8
+u8
 )
 )
 ;

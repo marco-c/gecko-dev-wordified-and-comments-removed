@@ -939,8 +939,9 @@ borrow_mut
 (
 )
 .
-shift
+remove
 (
+0
 )
 .
 unwrap
@@ -963,8 +964,9 @@ borrow_mut
 (
 )
 .
-shift
+remove
 (
+0
 )
 .
 unwrap_or

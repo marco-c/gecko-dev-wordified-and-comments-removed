@@ -454,13 +454,11 @@ Temporary
 new
 (
 elems
-.
-get
-(
+[
 index
 as
 uint
-)
+]
 .
 clone
 (

@@ -2930,11 +2930,9 @@ force_pipeline_exit
 self
 .
 pending_frames
-.
-get
-(
+[
 idx
-)
+]
 .
 after
 .
