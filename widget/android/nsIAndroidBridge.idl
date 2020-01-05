@@ -251,6 +251,7 @@ data
 ;
 [
 scriptable
+function
 uuid
 (
 73569a75
