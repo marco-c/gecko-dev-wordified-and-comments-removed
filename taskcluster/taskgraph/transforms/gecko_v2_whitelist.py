@@ -410,6 +410,22 @@ pgo
 '
     
 '
+linux
+-
+qr
+-
+debug
+'
+    
+'
+linux
+-
+qr
+-
+opt
+'
+    
+'
 linux32
 -
 nightly
@@ -677,6 +693,22 @@ opt
 win32
 -
 pgo
+'
+    
+'
+win32
+-
+qr
+-
+debug
+'
+    
+'
+win32
+-
+qr
+-
+opt
 '
     
 '

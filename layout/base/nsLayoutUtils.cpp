@@ -2730,7 +2730,7 @@ nsIFrame
 *
 aFrame
 const
-StyleAnimationValue
+AnimationValue
 &
 aValue
 gfxSize
@@ -3026,7 +3026,10 @@ set
 UpdateMinMaxScale
 (
 aFrame
+{
 baseStyle
+nullptr
+}
 aMinScale
 aMaxScale
 )
