@@ -7229,12 +7229,6 @@ aPrincipal
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-mPrincipalInfo
-)
-;
 mPrincipal
 =
 aPrincipal
