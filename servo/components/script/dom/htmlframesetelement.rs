@@ -121,7 +121,7 @@ node
 :
 {
 Node
-window_from_node
+document_from_node
 }
 ;
 use
