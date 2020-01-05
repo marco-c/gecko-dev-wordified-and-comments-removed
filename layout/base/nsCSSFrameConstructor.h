@@ -821,11 +821,6 @@ aContent
 nsFrameConstructorState
 *
 aState
-Element
-*
-aOriginatingElementOrNull
-=
-nullptr
 )
 ;
 void

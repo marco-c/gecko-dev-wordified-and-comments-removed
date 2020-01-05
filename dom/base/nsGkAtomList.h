@@ -15181,13 +15181,6 @@ PaintRequestTime
 )
 GK_ATOM
 (
-pseudoProperty
-"
-PseudoProperty
-"
-)
-GK_ATOM
-(
 Japanese
 "
 ja

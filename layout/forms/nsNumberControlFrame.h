@@ -538,6 +538,9 @@ nsIAtom
 aTagName
 CSSPseudoElementType
 aPseudoType
+nsStyleContext
+*
+aParentContext
 )
 ;
 class

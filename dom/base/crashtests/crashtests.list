@@ -1112,11 +1112,14 @@ load
 978646
 .
 html
-skip
+asserts
 -
 if
 (
 stylo
+1
+-
+11
 )
 pref
 (
@@ -1135,7 +1138,7 @@ load
 html
 #
 bug
-1340009
+1324671
 load
 1026714
 .
