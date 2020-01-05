@@ -41,6 +41,7 @@ cef_string_t
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -89,6 +90,7 @@ lt
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -158,6 +160,7 @@ c_int
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -260,6 +263,7 @@ cs
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -389,6 +393,7 @@ value
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -493,6 +498,7 @@ unwrap
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -562,6 +568,7 @@ v
 [
 no_mangle
 ]
+pub
 extern
 "
 C
