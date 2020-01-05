@@ -100,7 +100,7 @@ require
 /
 components
 /
-app
+App
 "
 )
 )
