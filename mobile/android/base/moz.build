@@ -2503,11 +2503,6 @@ InputMethods
 java
 '
 '
-NativeQueue
-.
-java
-'
-'
 NotificationListener
 .
 java
@@ -6071,6 +6066,13 @@ java
 util
 /
 DrawableUtil
+.
+java
+'
+'
+util
+/
+JavaUtil
 .
 java
 '
