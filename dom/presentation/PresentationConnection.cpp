@@ -3343,6 +3343,14 @@ nsString
 aMessage
 )
 ;
+RefPtr
+<
+PresentationConnection
+>
+self
+=
+this
+;
 nsCOMPtr
 <
 nsIRunnable
@@ -3352,7 +3360,7 @@ r
 NS_NewRunnableFunction
 (
 [
-this
+self
 message
 ]
 (
@@ -3361,6 +3369,9 @@ message
 >
 void
 {
+self
+-
+>
 mState
 =
 PresentationConnectionState
@@ -3375,6 +3386,9 @@ NS_WARN_IF
 (
 NS_FAILED
 (
+self
+-
+>
 DispatchConnectionCloseEvent
 (
 PresentationConnectionClosedReason
@@ -3422,7 +3436,13 @@ service
 >
 CloseSession
 (
+self
+-
+>
 mId
+self
+-
+>
 mRole
 nsIPresentationService
 :
