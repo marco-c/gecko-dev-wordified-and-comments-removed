@@ -8762,7 +8762,7 @@ aClipState
 )
 {
 StyleGeometryBox
-backgroundClip
+layerClip
 =
 ComputeBoxValue
 (
@@ -8776,7 +8776,7 @@ if
 (
 IsSVGStyleGeometryBox
 (
-backgroundClip
+layerClip
 )
 )
 {
@@ -8833,14 +8833,14 @@ nsLayoutUtils
 ComputeGeometryBox
 (
 aForFrame
-backgroundClip
+layerClip
 )
 ;
 nsRect
 strokeBox
 =
 (
-backgroundClip
+layerClip
 =
 =
 StyleGeometryBox
@@ -8912,7 +8912,7 @@ return
 }
 if
 (
-backgroundClip
+layerClip
 =
 =
 StyleGeometryBox
@@ -9049,7 +9049,7 @@ if
 isSolidBorder
 &
 &
-backgroundClip
+layerClip
 =
 =
 StyleGeometryBox
@@ -9058,7 +9058,7 @@ StyleGeometryBox
 Border
 )
 {
-backgroundClip
+layerClip
 =
 haveRoundedCorners
 ?
@@ -9120,7 +9120,7 @@ mAttachment
 {
 if
 (
-backgroundClip
+layerClip
 =
 =
 StyleGeometryBox
@@ -9229,7 +9229,7 @@ padding
 )
 ;
 }
-backgroundClip
+layerClip
 =
 StyleGeometryBox
 :
@@ -9239,7 +9239,7 @@ Padding
 }
 if
 (
-backgroundClip
+layerClip
 !
 =
 StyleGeometryBox
@@ -9248,7 +9248,7 @@ StyleGeometryBox
 Border
 &
 &
-backgroundClip
+layerClip
 !
 =
 StyleGeometryBox
@@ -9269,7 +9269,7 @@ GetUsedBorder
 ;
 if
 (
-backgroundClip
+layerClip
 =
 =
 StyleGeometryBox
@@ -9350,7 +9350,7 @@ aAppUnitsPerPixel
 else
 if
 (
-backgroundClip
+layerClip
 !
 =
 StyleGeometryBox
@@ -9361,7 +9361,7 @@ Padding
 {
 NS_ASSERTION
 (
-backgroundClip
+layerClip
 =
 =
 StyleGeometryBox
@@ -16856,10 +16856,10 @@ aOutIsTransformedFixed
 )
 {
 nsRect
-bgPositioningArea
+positionArea
 ;
 StyleGeometryBox
-backgroundOrigin
+layerOrigin
 =
 ComputeBoxValue
 (
@@ -16873,7 +16873,7 @@ if
 (
 IsSVGStyleGeometryBox
 (
-backgroundOrigin
+layerOrigin
 )
 )
 {
@@ -16912,7 +16912,7 @@ aAttachedToFrame
 =
 aForFrame
 ;
-bgPositioningArea
+positionArea
 =
 nsLayoutUtils
 :
@@ -16920,7 +16920,7 @@ nsLayoutUtils
 ComputeGeometryBox
 (
 aForFrame
-backgroundOrigin
+layerOrigin
 )
 ;
 nsPoint
@@ -16934,7 +16934,7 @@ nsPoint
 ;
 if
 (
-backgroundOrigin
+layerOrigin
 !
 =
 StyleGeometryBox
@@ -16960,7 +16960,7 @@ Stroke
 ;
 toStrokeBoxOffset
 =
-bgPositioningArea
+positionArea
 .
 TopLeft
 (
@@ -16977,7 +16977,7 @@ return
 nsRect
 (
 toStrokeBoxOffset
-bgPositioningArea
+positionArea
 .
 Size
 (
@@ -17062,7 +17062,7 @@ do_QueryFrame
 aForFrame
 )
 ;
-bgPositioningArea
+positionArea
 =
 nsRect
 (
@@ -17102,7 +17102,7 @@ Size
 ;
 if
 (
-backgroundOrigin
+layerOrigin
 =
 =
 StyleGeometryBox
@@ -17133,14 +17133,14 @@ GetSkipSides
 )
 )
 ;
-bgPositioningArea
+positionArea
 .
 Inflate
 (
 border
 )
 ;
-bgPositioningArea
+positionArea
 .
 Inflate
 (
@@ -17156,7 +17156,7 @@ GetActualScrollbarSizes
 else
 if
 (
-backgroundOrigin
+layerOrigin
 !
 =
 StyleGeometryBox
@@ -17187,7 +17187,7 @@ GetSkipSides
 )
 )
 ;
-bgPositioningArea
+positionArea
 .
 Deflate
 (
@@ -17196,7 +17196,7 @@ padding
 ;
 NS_ASSERTION
 (
-backgroundOrigin
+layerOrigin
 =
 =
 StyleGeometryBox
@@ -17219,7 +17219,7 @@ aAttachedToFrame
 aForFrame
 ;
 return
-bgPositioningArea
+positionArea
 ;
 }
 if
@@ -17254,7 +17254,7 @@ if
 geometryFrame
 )
 {
-bgPositioningArea
+positionArea
 =
 geometryFrame
 -
@@ -17267,7 +17267,7 @@ GetRect
 }
 else
 {
-bgPositioningArea
+positionArea
 =
 nsRect
 (
@@ -17286,7 +17286,7 @@ Size
 }
 if
 (
-backgroundOrigin
+layerOrigin
 !
 =
 StyleGeometryBox
@@ -17310,7 +17310,7 @@ GetUsedBorder
 ;
 if
 (
-backgroundOrigin
+layerOrigin
 !
 =
 StyleGeometryBox
@@ -17331,7 +17331,7 @@ GetUsedPadding
 ;
 NS_ASSERTION
 (
-backgroundOrigin
+layerOrigin
 =
 =
 StyleGeometryBox
@@ -17348,7 +17348,7 @@ value
 )
 ;
 }
-bgPositioningArea
+positionArea
 .
 Deflate
 (
@@ -17466,7 +17466,7 @@ true
 }
 else
 {
-bgPositioningArea
+positionArea
 =
 nsRect
 (
@@ -17523,7 +17523,7 @@ GetActualScrollbarSizes
 (
 )
 ;
-bgPositioningArea
+positionArea
 .
 Deflate
 (
@@ -17540,7 +17540,7 @@ aAttachedToFrame
 attachedToFrame
 ;
 return
-bgPositioningArea
+positionArea
 ;
 }
 static
@@ -18213,7 +18213,7 @@ transformedFixed
 false
 ;
 nsRect
-bgPositioningArea
+positionArea
 =
 ComputeImageLayerPositioningArea
 (
@@ -18275,7 +18275,7 @@ bgClipRect
 IntersectRect
 (
 bgClipRect
-bgPositioningArea
+positionArea
 +
 aBorderArea
 .
@@ -18318,7 +18318,7 @@ ComputeIntrinsicSize
 nsSize
 bgPositionSize
 =
-bgPositioningArea
+positionArea
 .
 Size
 (
@@ -18507,7 +18507,7 @@ NS_STYLE_IMAGELAYER_REPEAT_NO_REPEAT
 imageTopLeft
 +
 =
-bgPositioningArea
+positionArea
 .
 TopLeft
 (
@@ -18518,7 +18518,7 @@ state
 mAnchor
 +
 =
-bgPositioningArea
+positionArea
 .
 TopLeft
 (
