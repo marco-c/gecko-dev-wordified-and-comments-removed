@@ -466,7 +466,7 @@ flowing
 fn
 bubble_widths_block
 (
-_ctx
+ctx
 :
 &
 LayoutContext
@@ -576,6 +576,7 @@ box
 .
 get_min_width
 (
+ctx
 )
 )
 ;
@@ -590,6 +591,7 @@ box
 .
 get_pref_width
 (
+ctx
 )
 )
 ;
