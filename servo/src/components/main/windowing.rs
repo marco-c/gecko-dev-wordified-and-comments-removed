@@ -69,6 +69,7 @@ enum
 WindowEvent
 {
 IdleWindowEvent
+RefreshWindowEvent
 ResizeWindowEvent
 (
 uint
