@@ -3402,6 +3402,15 @@ src
 /
 components
 /
+canvas
+make_dir
+{
+CFG_BUILD_DIR
+}
+src
+/
+components
+/
 gfx
 make_dir
 {

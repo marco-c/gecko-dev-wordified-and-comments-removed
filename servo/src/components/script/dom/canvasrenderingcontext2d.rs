@@ -127,7 +127,7 @@ size
 Size2D
 ;
 use
-gfx
+canvas
 :
 :
 canvas_render_task
