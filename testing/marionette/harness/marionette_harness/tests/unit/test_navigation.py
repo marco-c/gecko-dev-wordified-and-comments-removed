@@ -1910,11 +1910,15 @@ marionette
 start_session
 (
             
-desired_capabilities
-=
+{
+"
+requiredCapabilities
+"
+:
 self
 .
 insecure_tls
+}
 )
     
 def
@@ -1972,11 +1976,15 @@ marionette
 start_session
 (
                 
-desired_capabilities
-=
+{
+"
+requiredCapabilities
+"
+:
 self
 .
 secure_tls
+}
 )
             
 self
@@ -2034,11 +2042,15 @@ marionette
 start_session
 (
                 
-desired_capabilities
-=
+{
+"
+requiredCapabilities
+"
+:
 self
 .
 insecure_tls
+}
 )
             
 self

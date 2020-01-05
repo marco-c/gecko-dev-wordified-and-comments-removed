@@ -671,12 +671,19 @@ marionette
 .
 start_session
 (
+            
+{
+"
+requiredCapabilities
+"
+:
 {
 "
 specificationLevel
 "
 :
 1
+}
 }
 )
     
