@@ -8952,10 +8952,12 @@ const
 SizeSpec
 &
 aSizeSpec
+const
 Maybe
 <
 float
 >
+&
 aOpenerFullZoom
 )
 {

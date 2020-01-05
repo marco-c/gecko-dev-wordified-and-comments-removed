@@ -7308,6 +7308,7 @@ char
 aName
 int32_t
 aFeature
+const
 Maybe
 <
 mozilla
@@ -7318,6 +7319,7 @@ gfx
 :
 FeatureStatus
 >
+&
 aFeatureStatus
 JS
 :
