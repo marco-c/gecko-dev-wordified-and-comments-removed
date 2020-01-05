@@ -116,8 +116,6 @@ Element
 /
 metadata
 attributes
-/
-/
 attribute
 DOMString
 title
