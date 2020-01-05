@@ -215,6 +215,10 @@ const
 nsAString
 &
 aPrintToFileName
+int32_t
+aStartPage
+int32_t
+aEndPage
 )
 {
 const
