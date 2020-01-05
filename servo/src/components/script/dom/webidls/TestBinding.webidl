@@ -642,8 +642,6 @@ arg
 null
 )
 ;
-/
-/
 void
 passOptionalNullableStringWithDefault
 (
