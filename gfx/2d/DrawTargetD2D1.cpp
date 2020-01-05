@@ -2836,6 +2836,10 @@ aOptions
 {
 if
 (
+!
+aPath
+|
+|
 aPath
 -
 >
