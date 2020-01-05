@@ -399,6 +399,11 @@ Http2PushTransactionBuffer
 (
 )
 ;
+uint64_t
+Available
+(
+)
+;
 const
 static
 uint32_t
