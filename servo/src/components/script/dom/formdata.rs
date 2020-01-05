@@ -55,10 +55,7 @@ dom
 node
 :
 :
-{
 AbstractNode
-ScriptView
-}
 ;
 use
 dom
@@ -120,9 +117,6 @@ form
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 }
 impl
@@ -137,9 +131,6 @@ form
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 window
 :
@@ -185,9 +176,6 @@ form
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 window
 :
@@ -230,9 +218,6 @@ form
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 )
 -

@@ -79,7 +79,6 @@ node
 {
 AbstractNode
 ElementNodeTypeId
-ScriptView
 }
 ;
 use
@@ -420,9 +419,6 @@ impl
 NodeWrapping
 for
 AbstractNode
-<
-ScriptView
->
 {
 unsafe
 fn
@@ -459,9 +455,6 @@ NodeDataPtr
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 cast
 :
@@ -907,9 +900,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 /
 /
@@ -2260,11 +2250,6 @@ document_node
 AbstractNode
 :
 :
-<
-ScriptView
->
-:
-:
 from_document
 (
 document
@@ -3082,9 +3067,6 @@ let
 parent
 :
 AbstractNode
-<
-ScriptView
->
 =
 NodeWrapping
 :
@@ -3098,9 +3080,6 @@ let
 child
 :
 AbstractNode
-<
-ScriptView
->
 =
 NodeWrapping
 :
@@ -3331,9 +3310,6 @@ let
 scriptnode
 :
 AbstractNode
-<
-ScriptView
->
 =
 NodeWrapping
 :
@@ -3587,9 +3563,6 @@ let
 style
 :
 AbstractNode
-<
-ScriptView
->
 =
 NodeWrapping
 :

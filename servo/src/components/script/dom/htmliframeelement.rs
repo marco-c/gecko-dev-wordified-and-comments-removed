@@ -62,7 +62,6 @@ node
 {
 AbstractNode
 Node
-ScriptView
 }
 ;
 use
@@ -247,9 +246,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 element
@@ -398,9 +394,6 @@ self
 _abstract_self
 :
 AbstractNode
-<
-ScriptView
->
 )
 -
 >
@@ -450,9 +443,6 @@ self
 abstract_self
 :
 AbstractNode
-<
-ScriptView
->
 sandbox
 :
 DOMString

@@ -59,7 +59,6 @@ node
 {
 AbstractNode
 Node
-ScriptView
 }
 ;
 pub
@@ -142,9 +141,6 @@ HeadingLevel
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 element

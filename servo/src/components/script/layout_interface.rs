@@ -8,8 +8,6 @@ node
 {
 AbstractNode
 LayoutDataRef
-LayoutView
-ScriptView
 }
 ;
 use
@@ -127,9 +125,6 @@ LayoutQuery
 ContentBoxQuery
 (
 AbstractNode
-<
-ScriptView
->
 Chan
 <
 ContentBoxResponse
@@ -138,9 +133,6 @@ ContentBoxResponse
 ContentBoxesQuery
 (
 AbstractNode
-<
-ScriptView
->
 Chan
 <
 ContentBoxesResponse
@@ -149,9 +141,6 @@ ContentBoxesResponse
 HitTestQuery
 (
 AbstractNode
-<
-ScriptView
->
 Point2D
 <
 f32
@@ -195,9 +184,6 @@ struct
 HitTestResponse
 (
 AbstractNode
-<
-LayoutView
->
 )
 ;
 #
@@ -253,9 +239,6 @@ DocumentDamage
 root
 :
 AbstractNode
-<
-ScriptView
->
 level
 :
 DocumentDamageLevel
@@ -281,9 +264,6 @@ Reflow
 document_root
 :
 AbstractNode
-<
-ScriptView
->
 damage
 :
 DocumentDamage

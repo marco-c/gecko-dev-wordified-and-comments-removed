@@ -48,7 +48,6 @@ node
 {
 Node
 NodeTypeId
-ScriptView
 }
 ;
 pub
@@ -58,9 +57,6 @@ CharacterData
 node
 :
 Node
-<
-ScriptView
->
 data
 :
 ~

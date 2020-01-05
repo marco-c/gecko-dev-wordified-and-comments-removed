@@ -52,7 +52,6 @@ node
 :
 {
 AbstractNode
-ScriptView
 Node
 TextNodeTypeId
 }
@@ -123,9 +122,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 node
@@ -170,9 +166,6 @@ DOMString
 Fallible
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 Ok
@@ -210,9 +203,6 @@ u32
 Fallible
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 fail

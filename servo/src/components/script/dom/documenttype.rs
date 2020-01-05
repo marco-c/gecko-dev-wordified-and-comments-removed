@@ -40,7 +40,6 @@ node
 :
 {
 AbstractNode
-ScriptView
 Node
 DoctypeNodeTypeId
 }
@@ -52,9 +51,6 @@ DocumentType
 node
 :
 Node
-<
-ScriptView
->
 name
 :
 DOMString
@@ -176,9 +172,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 documenttype

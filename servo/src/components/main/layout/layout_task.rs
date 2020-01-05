@@ -124,6 +124,15 @@ OpaqueNode
 }
 ;
 use
+layout
+:
+:
+wrapper
+:
+:
+LayoutNode
+;
+use
 extra
 :
 :
@@ -241,9 +250,8 @@ node
 :
 {
 AbstractNode
-LayoutDataRef
-LayoutView
 ElementNodeTypeId
+LayoutDataRef
 }
 ;
 use
@@ -1992,10 +2000,7 @@ mut
 LayoutContext
 node
 :
-AbstractNode
-<
-LayoutView
->
+LayoutNode
 )
 -
 >
@@ -2362,10 +2367,7 @@ let
 node
 :
 &
-AbstractNode
-<
-LayoutView
->
+LayoutNode
 =
 unsafe
 {
@@ -3383,7 +3385,7 @@ node
 OpaqueNode
 :
 :
-from_node
+from_script_node
 (
 &
 node
@@ -3569,7 +3571,7 @@ node
 OpaqueNode
 :
 :
-from_node
+from_script_node
 (
 &
 node
@@ -3953,9 +3955,6 @@ let
 node
 :
 AbstractNode
-<
-LayoutView
->
 =
 unsafe
 {
@@ -3967,7 +3966,7 @@ base
 .
 extra
 .
-to_node
+to_script_node
 (
 )
 }
