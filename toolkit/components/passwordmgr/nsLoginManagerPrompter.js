@@ -6709,7 +6709,7 @@ this
 _getLocalizedString
 (
 "
-userSelectText
+userSelectText2
 "
 )
 ;
