@@ -444,14 +444,6 @@ aMessage
 =
 0
 ;
-void
-SendFenceHandleIfPresent
-(
-PTextureParent
-*
-aTexture
-)
-;
 virtual
 void
 SendPendingAsyncMessages
