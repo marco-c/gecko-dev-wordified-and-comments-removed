@@ -16616,8 +16616,11 @@ proxy
 domClass
 =
 "
+Some
+(
 &
 Class
+)
 "
             
 else
@@ -16626,10 +16629,13 @@ else
 domClass
 =
 "
+Some
+(
 &
 Class
 .
 dom_class
+)
 "
         
 else
@@ -16638,12 +16644,7 @@ else
 domClass
 =
 "
-ptr
-:
-:
-null
-(
-)
+None
 "
         
 if
