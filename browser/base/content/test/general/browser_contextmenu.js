@@ -657,6 +657,11 @@ test
 text
 "
 plainTextItems
+{
+maybeScreenshotsPresent
+:
+true
+}
 )
 ;
 }
@@ -934,6 +939,11 @@ selectall
 "
 true
 ]
+{
+maybeScreenshotsPresent
+:
+true
+}
 )
 ;
 }
@@ -2546,6 +2556,11 @@ test
 text
 "
 plainTextItems
+{
+maybeScreenshotsPresent
+:
+true
+}
 )
 ;
 }
@@ -3326,6 +3341,9 @@ removed
 )
 ;
 }
+maybeScreenshotsPresent
+:
+true
 }
 )
 ;
@@ -3471,6 +3489,9 @@ viewinfo
 true
 ]
 {
+maybeScreenshotsPresent
+:
+true
 shiftkey
 :
 true
@@ -3792,6 +3813,9 @@ viewinfo
 true
 ]
 {
+maybeScreenshotsPresent
+:
+true
 shiftkey
 :
 true
@@ -4462,6 +4486,9 @@ viewinfo
 true
 ]
 {
+maybeScreenshotsPresent
+:
+true
 *
 preCheckContextMenuFn
 (
@@ -5007,6 +5034,9 @@ text
 "
 plainTextItemsWithSendPage
 {
+maybeScreenshotsPresent
+:
+true
 *
 onContextMenuShown
 (

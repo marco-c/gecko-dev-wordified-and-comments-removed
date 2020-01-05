@@ -1116,6 +1116,9 @@ selectall
 null
 ]
 {
+maybeScreenshotsPresent
+:
+true
 skipFocusChange
 :
 true
@@ -1279,6 +1282,9 @@ viewinfo
 true
 ]
 {
+maybeScreenshotsPresent
+:
+true
 skipFocusChange
 :
 true
@@ -1519,6 +1525,9 @@ selectall
 null
 ]
 {
+maybeScreenshotsPresent
+:
+true
 skipFocusChange
 :
 true
