@@ -165,6 +165,13 @@ PropTypes
 array
 .
 isRequired
+serviceContainer
+:
+PropTypes
+.
+shape
+(
+{
 hudProxyClient
 :
 PropTypes
@@ -172,6 +179,8 @@ PropTypes
 object
 .
 isRequired
+}
+)
 id
 :
 PropTypes
@@ -190,7 +199,7 @@ const
 {
 id
 dispatch
-hudProxyClient
+serviceContainer
 parameters
 }
 =
@@ -227,6 +236,8 @@ client
 new
 ObjectClient
 (
+serviceContainer
+.
 hudProxyClient
 parameters
 [

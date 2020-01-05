@@ -98,9 +98,7 @@ const
 {
 message
 open
-sourceMapService
-onViewSourceInDebugger
-emitNewMessage
+serviceContainer
 }
 =
 props
@@ -140,9 +138,7 @@ messageBody
 repeat
 frame
 stacktrace
-onViewSourceInDebugger
-sourceMapService
-emitNewMessage
+serviceContainer
 }
 ;
 return

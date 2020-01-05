@@ -122,7 +122,7 @@ const
 source
 type
 level
-emitNewMessage
+serviceContainer
 }
 =
 message
@@ -187,7 +187,7 @@ scrollToMessage
 props
 .
 autoscroll
-emitNewMessage
+serviceContainer
 }
 ;
 return
