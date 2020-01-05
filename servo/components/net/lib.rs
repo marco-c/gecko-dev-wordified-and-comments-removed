@@ -82,7 +82,7 @@ flate2
 ;
 extern
 crate
-geom
+euclid
 ;
 extern
 crate

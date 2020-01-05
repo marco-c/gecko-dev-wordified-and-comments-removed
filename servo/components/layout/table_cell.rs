@@ -96,7 +96,7 @@ cssparser
 Color
 ;
 use
-geom
+euclid
 :
 :
 {

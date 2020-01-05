@@ -1,5 +1,5 @@
 use
-geom
+euclid
 :
 :
 length
@@ -8,7 +8,7 @@ length
 Length
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -17,7 +17,7 @@ point
 Point2D
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -26,7 +26,7 @@ rect
 Rect
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -35,7 +35,7 @@ size
 Size2D
 ;
 use
-geom
+euclid
 :
 :
 num

@@ -91,7 +91,7 @@ LinkedList
 }
 ;
 use
-geom
+euclid
 :
 :
 {
@@ -104,7 +104,7 @@ Matrix4
 }
 ;
 use
-geom
+euclid
 :
 :
 approxeq
@@ -113,7 +113,7 @@ approxeq
 ApproxEq
 ;
 use
-geom
+euclid
 :
 :
 num

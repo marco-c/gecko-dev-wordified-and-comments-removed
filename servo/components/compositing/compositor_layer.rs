@@ -20,7 +20,7 @@ azure
 azure_hl
 ;
 use
-geom
+euclid
 :
 :
 length
@@ -29,7 +29,7 @@ length
 Length
 ;
 use
-geom
+euclid
 :
 :
 matrix
@@ -38,7 +38,7 @@ matrix
 Matrix4
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -50,7 +50,7 @@ TypedPoint2D
 }
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -59,7 +59,7 @@ size
 TypedSize2D
 ;
 use
-geom
+euclid
 :
 :
 rect

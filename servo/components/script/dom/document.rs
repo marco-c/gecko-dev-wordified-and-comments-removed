@@ -991,7 +991,7 @@ ReflowQueryType
 }
 ;
 use
-geom
+euclid
 :
 :
 point

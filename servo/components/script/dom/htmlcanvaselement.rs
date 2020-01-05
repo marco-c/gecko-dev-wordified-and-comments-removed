@@ -329,7 +329,7 @@ offscreen_gl_context
 GLContextAttributes
 ;
 use
-geom
+euclid
 :
 :
 size

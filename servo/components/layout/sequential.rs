@@ -98,7 +98,7 @@ PostorderDomTraversal
 }
 ;
 use
-geom
+euclid
 :
 :
 point

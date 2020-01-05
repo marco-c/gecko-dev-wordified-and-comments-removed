@@ -75,7 +75,7 @@ canvasgradient
 ToFillOrStrokeStyle
 ;
 use
-geom
+euclid
 :
 :
 size

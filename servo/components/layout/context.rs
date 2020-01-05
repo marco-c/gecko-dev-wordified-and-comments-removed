@@ -40,7 +40,7 @@ fnv
 FnvHasher
 ;
 use
-geom
+euclid
 :
 :
 {

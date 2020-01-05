@@ -5,7 +5,7 @@ compositor_msg
 Epoch
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -14,7 +14,7 @@ rect
 Rect
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -23,7 +23,7 @@ size
 TypedSize2D
 ;
 use
-geom
+euclid
 :
 :
 scale_factor

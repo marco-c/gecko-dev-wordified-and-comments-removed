@@ -593,7 +593,7 @@ WindowHelpers
 }
 ;
 use
-geom
+euclid
 :
 :
 rect

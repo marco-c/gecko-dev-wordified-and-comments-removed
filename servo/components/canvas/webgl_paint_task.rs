@@ -9,7 +9,7 @@ CanvasCommonMsg
 }
 ;
 use
-geom
+euclid
 :
 :
 size

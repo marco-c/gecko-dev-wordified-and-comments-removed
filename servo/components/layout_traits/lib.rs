@@ -1,6 +1,6 @@
 extern
 crate
-geom
+euclid
 ;
 extern
 crate
@@ -31,7 +31,7 @@ crate
 util
 ;
 use
-geom
+euclid
 :
 :
 rect

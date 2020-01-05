@@ -32,7 +32,7 @@ step_by
 ]
 extern
 crate
-geom
+euclid
 ;
 extern
 crate

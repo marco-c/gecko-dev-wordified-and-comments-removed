@@ -59,7 +59,7 @@ cursor
 Cursor
 ;
 use
-geom
+euclid
 :
 :
 {

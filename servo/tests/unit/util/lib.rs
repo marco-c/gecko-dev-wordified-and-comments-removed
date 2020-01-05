@@ -26,7 +26,7 @@ libc
 ;
 extern
 crate
-geom
+euclid
 ;
 #
 [
