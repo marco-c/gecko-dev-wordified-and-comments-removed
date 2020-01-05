@@ -513,13 +513,14 @@ kwargs
 )
 :
         
-unittest
-.
-TestCase
+super
+(
+CommonTestCase
+self
+)
 .
 __init__
 (
-self
 methodName
 )
         
@@ -1582,15 +1583,16 @@ marionette
 reset_timeouts
 (
 )
-    
-def
-tearDown
+        
+super
 (
+CommonTestCase
 self
 )
-:
-        
-pass
+.
+setUp
+(
+)
     
 def
 cleanTest
@@ -3114,11 +3116,14 @@ testvars
 None
 )
         
-CommonTestCase
+super
+(
+MarionetteTestCase
+self
+)
 .
 __init__
 (
-self
 methodName
 *
 *
@@ -3264,11 +3269,14 @@ self
 )
 :
         
-CommonTestCase
+super
+(
+MarionetteTestCase
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -3460,11 +3468,14 @@ IOError
                 
 pass
         
-CommonTestCase
+super
+(
+MarionetteTestCase
+self
+)
 .
 tearDown
 (
-self
 )
     
 def
@@ -3606,11 +3617,14 @@ marionette
 =
 None
         
-CommonTestCase
+super
+(
+MarionetteJSTestCase
+self
+)
 .
 __init__
 (
-self
 methodName
 )
     
