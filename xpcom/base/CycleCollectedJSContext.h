@@ -1796,6 +1796,17 @@ override
 EnvironmentPreparer
 mEnvironmentPreparer
 ;
+#
+ifdef
+DEBUG
+uint32_t
+mNumTraversedGCThings
+;
+uint32_t
+mNumTraceChildren
+;
+#
+endif
 }
 ;
 void
