@@ -55422,7 +55422,7 @@ if
 !
 aStatus
 .
-IsFullyComplete
+IsEmpty
 (
 )
 )
