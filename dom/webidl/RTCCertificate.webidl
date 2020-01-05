@@ -113,6 +113,17 @@ certificate
 management
 *
 /
+dictionary
+RTCCertificateExpiration
+{
+[
+EnforceRange
+]
+DOMTimeStamp
+expires
+;
+}
+;
 [
 Pref
 =
