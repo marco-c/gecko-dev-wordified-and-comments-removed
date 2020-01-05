@@ -157,6 +157,9 @@ target
 ;
 /
 /
+[
+SameObject
+]
 readonly
 attribute
 HTMLFormControlsCollection
