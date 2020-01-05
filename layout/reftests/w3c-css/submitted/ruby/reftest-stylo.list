@@ -22,7 +22,7 @@ block
 -
 level
 boxes
-fails
+#
 =
 =
 ruby
@@ -84,7 +84,7 @@ blocks
 003
 .
 html
-fails
+#
 =
 =
 ruby
@@ -105,7 +105,7 @@ blocks
 004
 .
 html
-fails
+#
 =
 =
 ruby

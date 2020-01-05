@@ -74,7 +74,7 @@ no
 animations
 .
 html
-fails
+#
 =
 =
 animate
@@ -175,7 +175,7 @@ view
 animation
 .
 html
-fails
+#
 =
 =
 animate
@@ -411,7 +411,6 @@ in
 delay
 .
 html
-fails
 =
 =
 stacking
@@ -461,7 +460,6 @@ transform
 none
 .
 html
-fails
 =
 =
 stacking
@@ -490,7 +488,6 @@ in
 delay
 .
 html
-fails
 =
 =
 stacking
@@ -531,7 +528,6 @@ main
 thread
 .
 html
-fails
 =
 =
 stacking
@@ -684,7 +680,6 @@ opacity
 animation
 .
 html
-fails
 =
 =
 stacking
@@ -717,7 +712,6 @@ fill
 backwards
 .
 html
-fails
 =
 =
 stacking
@@ -750,7 +744,6 @@ fill
 forwards
 .
 html
-fails
 =
 =
 stacking
@@ -1005,7 +998,6 @@ fill
 forwards
 .
 html
-fails
 =
 =
 stacking
@@ -1034,7 +1026,6 @@ in
 delay
 .
 html
-fails
 =
 =
 stacking

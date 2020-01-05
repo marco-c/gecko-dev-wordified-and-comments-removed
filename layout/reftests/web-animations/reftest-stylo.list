@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 test
 -
 pref
@@ -42,7 +41,6 @@ html
 1
 .
 html
-fails
 test
 -
 pref
@@ -238,6 +236,7 @@ in
 delay
 .
 html
+#
 test
 -
 pref
@@ -365,6 +364,7 @@ changing
 effect
 .
 html
+#
 test
 -
 pref
@@ -416,6 +416,7 @@ in
 delay
 .
 html
+#
 test
 -
 pref
@@ -631,6 +632,7 @@ changing
 effect
 .
 html
+#
 test
 -
 pref
@@ -674,6 +676,7 @@ display
 property
 .
 html
+#
 test
 -
 pref
@@ -725,7 +728,6 @@ in
 delay
 .
 html
-fails
 test
 -
 pref

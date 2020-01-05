@@ -1095,7 +1095,6 @@ right
 1
 .
 html
-fails
 =
 =
 table
@@ -1124,7 +1123,6 @@ always
 1
 .
 html
-fails
 =
 =
 table
@@ -1153,7 +1151,6 @@ left
 1
 .
 html
-fails
 =
 =
 table
@@ -1182,7 +1179,6 @@ right
 1
 .
 html
-fails
 =
 =
 rowgroup
@@ -1211,7 +1207,6 @@ always
 1
 .
 html
-fails
 =
 =
 row
@@ -1240,7 +1235,6 @@ always
 1
 .
 html
-fails
 =
 =
 row
@@ -1269,7 +1263,6 @@ always
 2
 .
 html
-fails
 =
 =
 rowgroup
@@ -1302,7 +1295,6 @@ always
 1
 .
 html
-fails
 =
 =
 rowgroup

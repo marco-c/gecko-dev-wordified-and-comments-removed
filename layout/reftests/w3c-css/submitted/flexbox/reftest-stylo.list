@@ -1686,7 +1686,6 @@ horiz
 001a
 .
 html
-fails
 =
 =
 flexbox
@@ -1783,7 +1782,6 @@ vert
 001a
 .
 html
-fails
 =
 =
 flexbox
