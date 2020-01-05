@@ -101,7 +101,7 @@ all
 true
 }
 )
-url
+text
 :
 "
 "
@@ -339,11 +339,11 @@ state
 set
 (
 "
-url
+text
 "
 action
 .
-url
+text
 )
 ;
 default

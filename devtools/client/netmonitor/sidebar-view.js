@@ -71,15 +71,6 @@ visibleFlag
 }
 )
 ;
-NetMonitorView
-.
-RequestsMenu
-.
-_flushWaterfallViews
-(
-true
-)
-;
 }
 populate
 :

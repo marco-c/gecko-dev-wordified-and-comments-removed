@@ -125,6 +125,7 @@ wait
 verifyRequestItemTarget
 (
 RequestsMenu
+RequestsMenu
 .
 getItemAtIndex
 (
@@ -193,6 +194,7 @@ true
 ;
 verifyRequestItemTarget
 (
+RequestsMenu
 RequestsMenu
 .
 getItemAtIndex
