@@ -25,6 +25,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozStorageHelper
+.
+h
+"
 struct
 sqlite3
 ;
@@ -498,6 +505,11 @@ Parameter
 _declIndex
 \
 {
+\
+WARN_DEPRECATED
+(
+)
+;
 \
 _guard
 \
