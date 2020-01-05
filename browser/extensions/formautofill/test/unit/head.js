@@ -258,6 +258,13 @@ let
 facGlobal
 =
 {
+addEventListener
+:
+function
+(
+)
+{
+}
 }
 ;
 let
@@ -445,10 +452,6 @@ autocomplete
 experimental
 "
 true
-)
-;
-loadFormAutofillContent
-(
 )
 ;
 do_register_cleanup
