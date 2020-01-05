@@ -972,6 +972,12 @@ bool
 IsFinished
 (
 )
+const
+;
+void
+SetInactiveOnFinish
+(
+)
 ;
 nsIPrincipal
 *
@@ -1279,6 +1285,11 @@ NotifyTracksCreated
 )
 ;
 void
+NotifyFinished
+(
+)
+;
+void
 NotifyActive
 (
 )
@@ -1483,6 +1494,9 @@ mTrackListeners
 ;
 bool
 mActive
+;
+bool
+mSetInactiveOnFinish
 ;
 private
 :
