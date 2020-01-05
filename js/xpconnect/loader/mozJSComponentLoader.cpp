@@ -3370,6 +3370,12 @@ get
 )
 1
 )
+.
+setSourceIsLazy
+(
+!
+mReuseLoaderGlobal
+)
 ;
 if
 (
