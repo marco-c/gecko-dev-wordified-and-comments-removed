@@ -118,6 +118,9 @@ class
 TextureClientRecycleAllocator
 ;
 class
+ContentClientRemote
+;
+class
 CompositableClient
 {
 protected
@@ -365,6 +368,17 @@ TextureClient
 aTexture
 )
 ;
+virtual
+ContentClientRemote
+*
+AsContentClientRemote
+(
+)
+{
+return
+nullptr
+;
+}
 static
 RefPtr
 <
