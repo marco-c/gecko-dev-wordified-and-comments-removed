@@ -8458,7 +8458,7 @@ r
 (
 )
 .
-init_browser_context
+init_browsing_context
 (
 document
 .

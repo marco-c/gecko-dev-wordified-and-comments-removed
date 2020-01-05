@@ -3754,7 +3754,7 @@ context
 =
 win
 .
-browser_context
+browsing_context
 (
 )
 ;
