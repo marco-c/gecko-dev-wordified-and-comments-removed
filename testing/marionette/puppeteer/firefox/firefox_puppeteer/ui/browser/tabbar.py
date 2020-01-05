@@ -901,7 +901,7 @@ self
 .
 window
 .
-get_entity
+localize_entity
 (
 '
 tabCmd
@@ -909,6 +909,7 @@ tabCmd
 commandkey
 '
 )
+                                      
 accel
 =
 True
@@ -2053,7 +2054,7 @@ self
 .
 window
 .
-get_entity
+localize_entity
 (
 '
 closeCmd
@@ -2061,6 +2062,7 @@ closeCmd
 key
 '
 )
+                                      
 accel
 =
 True

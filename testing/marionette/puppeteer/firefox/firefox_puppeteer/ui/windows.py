@@ -1987,7 +1987,7 @@ handle
 )
     
 def
-get_entity
+localize_entity
 (
 self
 entity_id
@@ -2055,7 +2055,7 @@ self
 .
 _l10n
 .
-get_entity
+localize_entity
 (
 self
 .
@@ -2064,7 +2064,7 @@ entity_id
 )
     
 def
-get_property
+localize_property
 (
 self
 property_id
@@ -2131,7 +2131,7 @@ self
 .
 _l10n
 .
-get_property
+localize_property
 (
 self
 .

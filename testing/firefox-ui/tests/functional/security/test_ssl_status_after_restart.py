@@ -767,7 +767,7 @@ owner
 =
 page_info
 .
-get_property
+localize_property
 (
 '
 securityNoOwner

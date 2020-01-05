@@ -418,7 +418,7 @@ self
 .
 browser
 .
-get_property
+localize_property
 (
 '
 identity
@@ -561,7 +561,7 @@ value
                          
 page_info_window
 .
-get_property
+localize_property
 (
 '
 securityNoOwner

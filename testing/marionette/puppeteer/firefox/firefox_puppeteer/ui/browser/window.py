@@ -1164,7 +1164,7 @@ send_shortcut
 (
 win
 .
-get_entity
+localize_entity
 (
 '
 closeCmd
@@ -1495,7 +1495,7 @@ send_shortcut
 (
 win
 .
-get_entity
+localize_entity
 (
 cmd_key
 )
@@ -1884,7 +1884,7 @@ send_shortcut
 (
 win
 .
-get_entity
+localize_entity
 (
 '
 pageInfoCmd
