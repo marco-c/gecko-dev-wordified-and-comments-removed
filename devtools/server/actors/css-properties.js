@@ -440,6 +440,16 @@ COLOR
 )
 ;
 }
+let
+subproperties
+=
+DOMUtils
+.
+getSubpropertiesForCSSProperty
+(
+name
+)
+;
 const
 clientDefinition
 =
@@ -466,6 +476,7 @@ name
 )
 values
 supports
+subproperties
 }
 ;
 properties
