@@ -73,8 +73,6 @@ client
 /
 netmonitor
 /
-src
-/
 constants
 "
 )
@@ -93,8 +91,6 @@ client
 /
 netmonitor
 /
-src
-/
 constants
 "
 )
@@ -112,8 +108,6 @@ devtools
 client
 /
 netmonitor
-/
-src
 /
 selectors
 /

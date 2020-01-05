@@ -51,8 +51,6 @@ client
 /
 netmonitor
 /
-src
-/
 constants
 "
 )
@@ -91,8 +89,6 @@ devtools
 client
 /
 netmonitor
-/
-src
 /
 utils
 /
