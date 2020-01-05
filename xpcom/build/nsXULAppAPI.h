@@ -219,6 +219,13 @@ XRE_OS_UPDATE_APPLY_TO_DIR
 "
 OSUpdApplyToD
 "
+namespace
+mozilla
+{
+struct
+BootstrapConfig
+;
+}
 XRE_API
 (
 int
@@ -235,9 +242,9 @@ const
 mozilla
 :
 :
-XREAppData
+BootstrapConfig
 &
-aAppData
+aConfig
 )
 )
 XRE_API
