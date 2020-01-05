@@ -239,6 +239,17 @@ return
 this
 ;
 }
+nsIDOMCSSRule
+*
+GetExistingDOMRule
+(
+)
+final
+{
+return
+this
+;
+}
 size_t
 SizeOfIncludingThis
 (
