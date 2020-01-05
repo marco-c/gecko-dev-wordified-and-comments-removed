@@ -226,8 +226,6 @@ attribute
 BarProp
 toolbar
 ;
-/
-/
 attribute
 DOMString
 status
