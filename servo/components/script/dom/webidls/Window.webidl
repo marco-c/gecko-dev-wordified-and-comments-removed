@@ -343,6 +343,11 @@ attribute
 WindowProxy
 top
 ;
+readonly
+attribute
+Window
+top
+;
 /
 /
 attribute
