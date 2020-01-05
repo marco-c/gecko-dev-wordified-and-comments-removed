@@ -31356,7 +31356,7 @@ return
 mAllowAsyncAnimation
 ;
 }
-auto
+bool
 nsDisplayTransform
 :
 :
@@ -31369,9 +31369,6 @@ nsIFrame
 *
 aFrame
 )
--
->
-PrerenderDecision
 {
 if
 (
@@ -31417,7 +31414,7 @@ TransformFrameInactive
 )
 ;
 return
-NoPrerender
+false
 ;
 }
 nsSize
@@ -31543,7 +31540,7 @@ maxInAppUnits
 )
 {
 return
-FullPrerender
+true
 ;
 }
 }
@@ -31640,7 +31637,7 @@ maxInAppUnits
 )
 ;
 return
-NoPrerender
+false
 ;
 }
 static
