@@ -178,11 +178,6 @@ cb
 NoteXPCOMChild
 (
 aRule
--
->
-GetExistingDOMRule
-(
-)
 )
 ;
 }
