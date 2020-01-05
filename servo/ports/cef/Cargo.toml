@@ -75,6 +75,18 @@ lto
 =
 false
 [
+features
+]
+debugmozjs
+=
+[
+"
+libservo
+/
+debugmozjs
+"
+]
+[
 dependencies
 ]
 compositing
@@ -253,7 +265,7 @@ components
 script_traits
 "
 }
-servo
+libservo
 =
 {
 path

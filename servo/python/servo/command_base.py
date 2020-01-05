@@ -4192,7 +4192,7 @@ context
 .
 topdir
 "
-components
+ports
 "
 "
 servo
@@ -4253,8 +4253,6 @@ features
 =
 [
 "
-script
-/
 debugmozjs
 "
 ]
