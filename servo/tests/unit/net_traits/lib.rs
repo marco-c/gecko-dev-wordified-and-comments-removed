@@ -14,6 +14,16 @@ image
 ;
 #
 [
+cfg
+(
+test
+)
+]
+mod
+pub_domains
+;
+#
+[
 test
 ]
 fn
