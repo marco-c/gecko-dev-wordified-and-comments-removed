@@ -6,6 +6,8 @@ mozilla
 gecko
 .
 fxa
+.
+devices
 ;
 import
 org
