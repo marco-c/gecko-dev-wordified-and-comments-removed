@@ -2628,7 +2628,7 @@ html
 cloned
 correctly
 [
-150
+155
 ]
 *
 .
@@ -2637,7 +2637,7 @@ correctly
 matched
 clone
 [
-195
+198
 ]
 *
 Unsupported
@@ -4243,16 +4243,6 @@ moz
 6
 ]
 *
-.
-.
-.
-unexpected
-rule
-index
-[
-5
-]
-*
 :
 dir
 *
@@ -4262,7 +4252,7 @@ html
 :
 dir
 [
-10
+18
 ]
 *
 issues

@@ -142,7 +142,6 @@ in
 these
 cases
 .
-fails
 =
 =
 webkit
@@ -171,7 +170,6 @@ items
 1a
 .
 html
-fails
 =
 =
 webkit
