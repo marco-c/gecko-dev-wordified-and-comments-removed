@@ -330,6 +330,12 @@ Id
 (
 )
 ;
+options_
+=
+aOther
+.
+options_
+;
 }
 js
 :
@@ -372,6 +378,12 @@ id_
 Id
 (
 )
+;
+options_
+=
+aOther
+.
+options_
 ;
 return
 *
