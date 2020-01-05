@@ -663,7 +663,7 @@ put
 (
 Stage
 .
-syncHistory
+syncFullHistory
 stageNotReset
 )
 ;

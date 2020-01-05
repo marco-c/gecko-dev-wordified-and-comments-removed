@@ -2338,6 +2338,9 @@ history
 passwords
 "
 "
+recentHistory
+"
+"
 tabs
 "
 }
