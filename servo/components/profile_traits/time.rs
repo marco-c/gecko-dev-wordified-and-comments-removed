@@ -317,6 +317,9 @@ ScriptWorkerEvent
 ScriptServiceWorkerEvent
 =
 0x75
+ScriptParseXML
+=
+0x76
 ApplicationHeartbeat
 =
 0x90

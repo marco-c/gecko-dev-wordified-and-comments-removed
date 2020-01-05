@@ -20358,18 +20358,19 @@ name
 }
 )
         
-if
-len
-(
+parentName
+=
 self
 .
 descriptor
 .
-prototypeChain
+getParentName
+(
 )
-=
-=
-1
+        
+if
+not
+parentName
 :
             
 if
@@ -20471,13 +20472,7 @@ handle_mut
                                  
 toBindingNamespace
 (
-self
-.
-descriptor
-.
-getParentName
-(
-)
+parentName
 )
 )
         
