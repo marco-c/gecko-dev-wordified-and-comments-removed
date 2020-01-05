@@ -1378,6 +1378,9 @@ deviceId
 "
 deviceRegistrationVersion
 "
+"
+profileCache
+"
 ]
 )
 ;
