@@ -163,6 +163,13 @@ infinity
 js
 '
 '
+long
+-
+string
+.
+js
+'
+'
 nan
 .
 js
