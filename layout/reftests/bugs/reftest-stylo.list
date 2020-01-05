@@ -8644,7 +8644,6 @@ html
 1
 .
 html
-fails
 =
 =
 372063
@@ -10208,7 +10207,6 @@ html
 1
 .
 html
-fails
 =
 =
 389224
@@ -10221,9 +10219,6 @@ html
 2
 .
 html
-#
-Bug
-1341728
 fails
 =
 =
@@ -10974,7 +10969,6 @@ html
 2
 .
 html
-fails
 =
 =
 399258
@@ -23720,7 +23714,6 @@ html
 1b
 .
 html
-fails
 =
 =
 827799

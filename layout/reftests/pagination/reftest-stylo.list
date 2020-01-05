@@ -102,7 +102,6 @@ breaking
 002
 .
 xhtml
-fails
 =
 =
 abspos
@@ -119,7 +118,6 @@ breaking
 003
 .
 html
-fails
 =
 =
 abspos
@@ -136,7 +134,6 @@ breaking
 004
 .
 html
-fails
 =
 =
 abspos
@@ -153,7 +150,6 @@ breaking
 005
 .
 html
-fails
 =
 =
 abspos
@@ -170,7 +166,6 @@ breaking
 006
 .
 html
-fails
 pref
 (
 layout
@@ -202,7 +197,6 @@ breaking
 007
 .
 html
-fails
 pref
 (
 layout
@@ -234,7 +228,6 @@ breaking
 008
 .
 html
-fails
 pref
 (
 layout
@@ -266,7 +259,6 @@ breaking
 009
 .
 html
-fails
 pref
 (
 layout
