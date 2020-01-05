@@ -853,7 +853,7 @@ NullHttpChannel
 :
 GetRequestContextID
 (
-nsID
+uint64_t
 *
 _retval
 )
@@ -868,8 +868,7 @@ NullHttpChannel
 :
 SetRequestContextID
 (
-const
-nsID
+uint64_t
 rcID
 )
 {

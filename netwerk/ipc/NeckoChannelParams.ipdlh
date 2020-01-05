@@ -818,7 +818,7 @@ synthesizedSecurityInfoSerialization
 uint32_t
 cacheKey
 ;
-nsCString
+uint64_t
 requestContextID
 ;
 OptionalCorsPreflightArgs

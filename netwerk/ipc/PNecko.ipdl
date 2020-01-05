@@ -716,7 +716,7 @@ userCancel
 async
 RemoveRequestContext
 (
-nsCString
+uint64_t
 rcid
 )
 ;

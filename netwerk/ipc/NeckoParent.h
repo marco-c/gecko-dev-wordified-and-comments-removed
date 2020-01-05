@@ -1082,7 +1082,7 @@ IPCResult
 RecvRemoveRequestContext
 (
 const
-nsCString
+uint64_t
 &
 rcid
 )

@@ -247,7 +247,9 @@ noscript
 ]
 readonly
 attribute
-nsID
+unsigned
+long
+long
 ID
 ;
 /
@@ -575,7 +577,9 @@ nsIRequestContext
 getRequestContext
 (
 in
-nsIDRef
+unsigned
+long
+long
 id
 )
 ;
@@ -613,7 +617,9 @@ void
 removeRequestContext
 (
 in
-nsIDRef
+unsigned
+long
+long
 id
 )
 ;

@@ -589,7 +589,9 @@ noscript
 ]
 readonly
 attribute
-nsID
+unsigned
+long
+long
 requestContextID
 ;
 /
