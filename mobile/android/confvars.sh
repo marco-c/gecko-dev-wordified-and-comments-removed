@@ -303,14 +303,6 @@ MOZ_INSTALL_TRACKING
 fi
 fi
 #
-Mark
-as
-WebGL
-conformant
-MOZ_WEBGL_CONFORMANT
-=
-1
-#
 Use
 the
 low
