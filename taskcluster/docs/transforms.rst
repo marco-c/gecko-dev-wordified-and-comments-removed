@@ -543,7 +543,7 @@ transform
 .
 base
 .
-get_keyed_by
+resolve_keyed_by
 .
 Organization
 -

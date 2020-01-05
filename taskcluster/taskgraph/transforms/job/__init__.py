@@ -75,7 +75,7 @@ transforms
 .
 base
 import
-get_keyed_by
+resolve_keyed_by
 validate_schema
 TransformSequence
 from
@@ -633,7 +633,7 @@ transforms
 .
 add
 def
-resolve_keyed_by
+handle_keyed_by
 (
 config
 jobs
@@ -668,18 +668,9 @@ in
 fields
 :
             
-job
-[
-field
-]
-=
-get_keyed_by
+resolve_keyed_by
 (
-item
-=
 job
-field
-=
 field
 item_name
 =
