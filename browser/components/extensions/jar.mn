@@ -183,6 +183,17 @@ browser
 /
 ext
 -
+devtools
+-
+inspectedWindow
+.
+js
+content
+/
+browser
+/
+ext
+-
 history
 .
 js
