@@ -368,6 +368,13 @@ layer_buffer
 =
 LayerBuffer
 {
+cairo_surface
+:
+cairo_surface
+.
+clone
+(
+)
 draw_target
 :
 move

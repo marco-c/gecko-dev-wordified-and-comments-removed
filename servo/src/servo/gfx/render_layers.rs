@@ -173,6 +173,10 @@ buffer
 =
 LayerBuffer
 {
+cairo_surface
+:
+move
+cairo_surface
 draw_target
 :
 move
