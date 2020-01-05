@@ -152,6 +152,11 @@ data
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_CreateEmpty
+RawServoDeclarationBlockStrong
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_AddRef
 void
 RawServoDeclarationBlockBorrowed
