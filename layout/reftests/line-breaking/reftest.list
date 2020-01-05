@@ -578,7 +578,6 @@ cluster
 ref
 .
 html
-fails
 =
 =
 surrogates
@@ -593,7 +592,6 @@ surrogates
 ref
 .
 html
-fails
 =
 =
 surrogates
@@ -608,7 +606,6 @@ surrogates
 ref
 .
 html
-fails
 =
 =
 surrogates
@@ -623,7 +620,6 @@ surrogates
 ref
 .
 html
-fails
 =
 =
 surrogates
