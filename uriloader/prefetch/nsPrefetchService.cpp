@@ -839,6 +839,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 mShouldFireLoadEvent
 =
 loadInfo
@@ -891,6 +896,7 @@ rv
 )
 )
 ;
+}
 bool
 requestSucceeded
 ;

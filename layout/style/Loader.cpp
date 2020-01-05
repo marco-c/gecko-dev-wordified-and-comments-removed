@@ -3870,6 +3870,9 @@ GetLoadInfo
 if
 (
 loadInfo
+&
+&
+loadInfo
 -
 >
 GetEnforceSRI

@@ -5140,6 +5140,11 @@ rv
 rv
 )
 ;
+NS_ENSURE_STATE
+(
+loadInfo
+)
+;
 mContentPolicyType
 =
 loadInfo

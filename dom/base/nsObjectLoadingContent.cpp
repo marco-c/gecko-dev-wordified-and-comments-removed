@@ -11345,6 +11345,11 @@ GetLoadInfo
 (
 )
 ;
+NS_ENSURE_STATE
+(
+loadinfo
+)
+;
 loadinfo
 -
 >

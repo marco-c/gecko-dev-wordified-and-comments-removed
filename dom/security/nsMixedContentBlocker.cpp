@@ -1548,6 +1548,11 @@ rv
 rv
 )
 ;
+if
+(
+newLoadInfo
+)
+{
 rv
 =
 nsMixedContentBlocker
@@ -1578,6 +1583,14 @@ newLoadInfo
 ClearHSTSPriming
 (
 )
+;
+}
+}
+else
+{
+decision
+=
+REJECT_REQUEST
 ;
 }
 }

@@ -6308,6 +6308,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 rv
 =
 loadInfo
@@ -6318,6 +6323,7 @@ SetOriginAttributes
 originAttributes
 )
 ;
+}
 if
 (
 NS_FAILED

@@ -5126,6 +5126,16 @@ if
 (
 !
 loadInfo
+)
+{
+return
+false
+;
+}
+if
+(
+!
+loadInfo
 -
 >
 LoadingPrincipal

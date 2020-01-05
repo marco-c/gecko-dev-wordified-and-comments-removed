@@ -3706,6 +3706,16 @@ rv
 false
 )
 ;
+if
+(
+!
+loadInfo
+)
+{
+return
+false
+;
+}
 return
 loadInfo
 -

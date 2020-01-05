@@ -45045,6 +45045,16 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+!
+loadInfo
+)
+{
+return
+false
+;
+}
 nsCOMPtr
 <
 nsIPrincipal
