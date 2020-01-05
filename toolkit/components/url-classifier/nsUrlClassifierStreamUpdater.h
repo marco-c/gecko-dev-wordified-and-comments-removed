@@ -191,6 +191,9 @@ bool
 mBeganStream
 ;
 nsCString
+mDownloadErrorStatusStr
+;
+nsCString
 mStreamTable
 ;
 nsCOMPtr
