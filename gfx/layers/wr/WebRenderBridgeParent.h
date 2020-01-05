@@ -460,6 +460,13 @@ aWhy
 override
 ;
 void
+SetWebRenderProfilerEnabled
+(
+bool
+aEnabled
+)
+;
+void
 Destroy
 (
 )
