@@ -1442,6 +1442,12 @@ IsAllowedToDispatchDOMEvent
 )
 const
 ;
+bool
+IsAllowedToDispatchInSystemGroup
+(
+)
+const
+;
 void
 SetDefaultComposed
 (
