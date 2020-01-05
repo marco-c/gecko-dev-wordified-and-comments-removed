@@ -1891,9 +1891,10 @@ map
 |
 ua
 |
+{
 load_data
 .
-headers
+preserved_headers
 .
 set
 (
@@ -1906,6 +1907,8 @@ clone
 )
 )
 )
+;
+}
 )
 ;
 fn
