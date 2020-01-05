@@ -383,6 +383,9 @@ False
 gecko_ffi_name
 =
 None
+depend_on_viewport_size
+=
+False
 )
 :
         
@@ -482,6 +485,12 @@ m
 self
 .
 camel_case
+        
+self
+.
+depend_on_viewport_size
+=
+depend_on_viewport_size
         
 self
 .

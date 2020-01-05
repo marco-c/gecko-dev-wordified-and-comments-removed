@@ -99,6 +99,12 @@ use
 values
 :
 :
+NoViewportPercentage
+;
+use
+values
+:
+:
 computed
 :
 :
@@ -106,6 +112,12 @@ ComputedValueAsSpecified
 ;
 impl
 ComputedValueAsSpecified
+for
+SpecifiedValue
+{
+}
+impl
+NoViewportPercentage
 for
 SpecifiedValue
 {
