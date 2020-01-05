@@ -1,7 +1,4 @@
 #
-if
-MOZ_APP_STATIC_INI
-#
 ifdef
 MOZ_BUILD_APP_IS_BROWSER
 ;
@@ -92,8 +89,6 @@ ini
 ;
 argument
 .
-#
-endif
 #
 endif
 #

@@ -572,9 +572,6 @@ MOZ_CRASHREPORTER
 '
 MOZ_PROFILE_MIGRATOR
 '
-'
-MOZ_APP_STATIC_INI
-'
 )
 :
 if
@@ -724,14 +721,6 @@ settings
 ini
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_APP_STATIC_INI
-'
-]
-:
 GENERATED_FILES
 +
 =

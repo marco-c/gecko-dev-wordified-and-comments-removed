@@ -109,9 +109,6 @@ sh
 MOZ_NO_SMART_CARDS
 =
 1
-MOZ_APP_STATIC_INI
-=
-1
 if
 test
 "

@@ -249,9 +249,6 @@ dab2
 -
 7ea25febc110
 }
-MOZ_APP_STATIC_INI
-=
-1
 #
 Enable
 second
