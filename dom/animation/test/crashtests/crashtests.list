@@ -415,6 +415,12 @@ load
 1
 .
 html
+skip
+-
+if
+(
+stylo
+)
 pref
 (
 dom
@@ -434,6 +440,9 @@ load
 1
 .
 html
+#
+bug
+1323733
 pref
 (
 dom
