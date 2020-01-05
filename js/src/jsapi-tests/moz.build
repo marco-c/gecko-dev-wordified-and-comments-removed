@@ -286,6 +286,11 @@ testGCFinalizeCallback
 cpp
 '
 '
+testGCGrayMarking
+.
+cpp
+'
+'
 testGCHeapPostBarriers
 .
 cpp
