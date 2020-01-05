@@ -2684,6 +2684,7 @@ rv
 return
 rv
 ;
+return
 NS_EscapeURL
 (
 buf
@@ -2691,10 +2692,8 @@ esc_OnlyNonASCII
 |
 esc_AlwaysCopy
 result
+fallible
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
