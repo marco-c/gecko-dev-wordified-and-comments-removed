@@ -905,6 +905,12 @@ context
 ReflowGoal
 ;
 use
+style
+:
+:
+thread_state
+;
+use
 task_source
 :
 :
@@ -987,12 +993,6 @@ util
 :
 :
 thread
-;
-use
-util
-:
-:
-thread_state
 ;
 use
 webdriver_handlers

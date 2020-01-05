@@ -875,6 +875,12 @@ use
 style
 :
 :
+thread_state
+;
+use
+style
+:
+:
 timer
 :
 :
@@ -933,12 +939,6 @@ util
 :
 :
 thread
-;
-use
-util
-:
-:
-thread_state
 ;
 const
 DISPLAY_PORT_THRESHOLD_SIZE_FACTOR

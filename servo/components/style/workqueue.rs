@@ -86,6 +86,9 @@ channel
 }
 ;
 use
+thread_state
+;
+use
 util
 :
 :
@@ -93,12 +96,6 @@ thread
 :
 :
 spawn_named
-;
-use
-util
-:
-:
-thread_state
 ;
 pub
 struct

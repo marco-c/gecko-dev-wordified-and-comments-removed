@@ -233,6 +233,12 @@ std
 ptr
 ;
 use
+style
+:
+:
+thread_state
+;
+use
 time
 :
 :
@@ -255,12 +261,6 @@ prefs
 :
 :
 PREFS
-;
-use
-util
-:
-:
-thread_state
 ;
 pub
 enum

@@ -230,6 +230,12 @@ channel
 }
 ;
 use
+style
+:
+:
+thread_state
+;
+use
 url
 :
 :
@@ -255,12 +261,6 @@ util
 :
 :
 thread
-;
-use
-util
-:
-:
-thread_state
 ;
 #
 [
