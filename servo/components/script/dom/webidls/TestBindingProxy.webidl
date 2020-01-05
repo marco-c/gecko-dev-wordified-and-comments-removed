@@ -175,7 +175,7 @@ DOMString
 getNamedItem
 (
 DOMString
-name
+item_name
 )
 ;
 setter
@@ -184,7 +184,7 @@ void
 setNamedItem
 (
 DOMString
-name
+item_name
 DOMString
 value
 )
