@@ -4211,8 +4211,6 @@ to_object
 )
 )
 ;
-\
-n
 "
 %
 name
@@ -4223,6 +4221,7 @@ template
 wrapObjectTemplate
 (
 conversion
+isDefinitelyObject
 type
                                           
 "
