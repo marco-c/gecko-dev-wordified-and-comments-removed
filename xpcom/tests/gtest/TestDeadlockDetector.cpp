@@ -369,7 +369,7 @@ detected
 *
 "
 ;
-ASSERT_DEATH
+ASSERT_DEATH_IF_SUPPORTED
 (
 Sanity_Child
 (
@@ -564,7 +564,7 @@ detected
 *
 "
 ;
-ASSERT_DEATH
+ASSERT_DEATH_IF_SUPPORTED
 (
 Sanity2_Child
 (
@@ -860,7 +860,7 @@ detected
 *
 "
 ;
-ASSERT_DEATH
+ASSERT_DEATH_IF_SUPPORTED
 (
 Sanity3_Child
 (
@@ -1052,7 +1052,7 @@ detected
 *
 "
 ;
-ASSERT_DEATH
+ASSERT_DEATH_IF_SUPPORTED
 (
 Sanity4_Child
 (
@@ -1425,7 +1425,7 @@ detected
 *
 "
 ;
-ASSERT_DEATH
+ASSERT_DEATH_IF_SUPPORTED
 (
 TwoThreads_Child
 (

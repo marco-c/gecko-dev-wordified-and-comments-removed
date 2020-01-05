@@ -295,7 +295,7 @@ ShouldAbortDeathTest
 #
 endif
 {
-ASSERT_DEATH
+ASSERT_DEATH_IF_SUPPORTED
 (
 ShouldAbort
 (
