@@ -6545,6 +6545,13 @@ StyleDisplay
 Contents
 }
 {
+eCSSKeyword_flow_root
+StyleDisplay
+:
+:
+FlowRoot
+}
+{
 eCSSKeyword_UNKNOWN
 -
 1

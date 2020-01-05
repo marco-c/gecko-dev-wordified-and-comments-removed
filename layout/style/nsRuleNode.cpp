@@ -989,6 +989,12 @@ StyleDisplay
 :
 Grid
 :
+case
+StyleDisplay
+:
+:
+FlowRoot
+:
 break
 ;
 case
@@ -1083,6 +1089,12 @@ StyleDisplay
 :
 :
 Block
+:
+case
+StyleDisplay
+:
+:
+FlowRoot
 :
 display
 =
