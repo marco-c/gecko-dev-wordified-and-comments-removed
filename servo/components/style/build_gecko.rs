@@ -2613,6 +2613,9 @@ nsIPresShell_ScrollAxis
 nsPIDOMWindow
 "
 "
+RawGeckoPresContext
+"
+"
 JS
 :
 :
@@ -3121,6 +3124,9 @@ RawGeckoElement
 RawGeckoNode
 "
 "
+RawGeckoPresContext
+"
+"
 ThreadSafeURIHolder
 "
 "
@@ -3437,6 +3443,9 @@ RawGeckoDocument
 "
 "
 RawServoDeclarationBlockStrong
+"
+"
+RawGeckoPresContext
 "
 ]
 ;

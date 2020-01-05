@@ -2033,6 +2033,10 @@ Some
 *
 parent_style
 )
+&
+shared_context
+.
+default_computed_values
 Some
 (
 &
@@ -2060,6 +2064,10 @@ shared_context
 viewport_size
 rule_node
 None
+&
+shared_context
+.
+default_computed_values
 Some
 (
 &

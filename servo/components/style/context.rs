@@ -58,6 +58,12 @@ parking_lot
 RwLock
 ;
 use
+properties
+:
+:
+ComputedValues
+;
+use
 std
 :
 :
@@ -258,6 +264,13 @@ pub
 quirks_mode
 :
 QuirksMode
+pub
+default_computed_values
+:
+Arc
+<
+ComputedValues
+>
 }
 pub
 struct
