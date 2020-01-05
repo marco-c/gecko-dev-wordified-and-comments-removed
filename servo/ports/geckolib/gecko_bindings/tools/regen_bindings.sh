@@ -381,6 +381,10 @@ SheetParsingMode
 nsMainThreadPtrHandle
 nsMainThreadPtrHolder
 nscolor
+nsFont
+\
+FontFamilyList
+FontFamilyType
 do
 MAP_GECKO_TYPES
 =
