@@ -4877,6 +4877,10 @@ showArgs
 showLocals
 showThisProps
 )
+.
+release
+(
+)
 ;
 return
 nullptr

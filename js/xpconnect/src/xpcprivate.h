@@ -9313,8 +9313,10 @@ showThisProps
 )
 ;
 extern
-char
-*
+JS
+:
+:
+UniqueChars
 xpc_PrintJSStack
 (
 JSContext
