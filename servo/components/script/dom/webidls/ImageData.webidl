@@ -119,8 +119,6 @@ document
 .
 *
 /
-/
-/
 [
 Constructor
 (
@@ -131,11 +129,14 @@ unsigned
 long
 sh
 )
-/
-/
 Constructor
 (
+/
+*
 Uint8ClampedArray
+*
+/
+object
 data
 unsigned
 long
@@ -145,7 +146,6 @@ unsigned
 long
 sh
 )
-[
 Exposed
 =
 (
