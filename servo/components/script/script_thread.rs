@@ -2369,7 +2369,7 @@ FIXME
 :
 Use
 a
-thread
+task
 source
 specific
 message
@@ -2385,7 +2385,7 @@ JSTraceable
 ]
 pub
 struct
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 pub
 Sender
@@ -2397,7 +2397,7 @@ MainThreadScriptMsg
 impl
 ScriptChan
 for
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 {
 fn
 send
@@ -2419,7 +2419,7 @@ Result
 >
 {
 let
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 ref
 chan
@@ -2466,7 +2466,7 @@ Send
 >
 {
 let
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 ref
 chan
@@ -2476,7 +2476,7 @@ chan
 self
 ;
 box
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 (
 *
@@ -2495,7 +2495,7 @@ FIXME
 :
 Use
 a
-thread
+task
 source
 specific
 message
@@ -2511,7 +2511,7 @@ JSTraceable
 ]
 pub
 struct
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 pub
 Sender
@@ -2523,7 +2523,7 @@ MainThreadScriptMsg
 impl
 ScriptChan
 for
-UserInteractionThreadSource
+UserInteractionTaskSource
 {
 fn
 send
@@ -2545,7 +2545,7 @@ Result
 >
 {
 let
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 ref
 chan
@@ -2592,7 +2592,7 @@ Send
 >
 {
 let
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 ref
 chan
@@ -2602,7 +2602,7 @@ chan
 self
 ;
 box
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 (
 *
@@ -2621,7 +2621,7 @@ FIXME
 :
 Use
 a
-thread
+task
 source
 specific
 message
@@ -2637,7 +2637,7 @@ JSTraceable
 ]
 pub
 struct
-NetworkingThreadSource
+NetworkingTaskSource
 (
 pub
 Sender
@@ -2649,7 +2649,7 @@ MainThreadScriptMsg
 impl
 ScriptChan
 for
-NetworkingThreadSource
+NetworkingTaskSource
 {
 fn
 send
@@ -2671,7 +2671,7 @@ Result
 >
 {
 let
-NetworkingThreadSource
+NetworkingTaskSource
 (
 ref
 chan
@@ -2718,7 +2718,7 @@ Send
 >
 {
 let
-NetworkingThreadSource
+NetworkingTaskSource
 (
 ref
 chan
@@ -2728,7 +2728,7 @@ chan
 self
 ;
 box
-NetworkingThreadSource
+NetworkingTaskSource
 (
 (
 *
@@ -2747,7 +2747,7 @@ FIXME
 :
 Use
 a
-thread
+task
 source
 specific
 message
@@ -2763,7 +2763,7 @@ JSTraceable
 ]
 pub
 struct
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 pub
 Sender
@@ -2775,7 +2775,7 @@ MainThreadScriptMsg
 impl
 ScriptChan
 for
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 {
 fn
 send
@@ -2797,7 +2797,7 @@ Result
 >
 {
 let
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 ref
 chan
@@ -2844,7 +2844,7 @@ Send
 >
 {
 let
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 ref
 chan
@@ -2854,7 +2854,7 @@ chan
 self
 ;
 box
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 (
 *
@@ -2873,7 +2873,7 @@ FIXME
 :
 Use
 a
-thread
+task
 source
 specific
 message
@@ -2889,7 +2889,7 @@ JSTraceable
 ]
 pub
 struct
-FileReadingThreadSource
+FileReadingTaskSource
 (
 pub
 Sender
@@ -2901,7 +2901,7 @@ MainThreadScriptMsg
 impl
 ScriptChan
 for
-FileReadingThreadSource
+FileReadingTaskSource
 {
 fn
 send
@@ -2923,7 +2923,7 @@ Result
 >
 {
 let
-FileReadingThreadSource
+FileReadingTaskSource
 (
 ref
 chan
@@ -2970,7 +2970,7 @@ Send
 >
 {
 let
-FileReadingThreadSource
+FileReadingTaskSource
 (
 ref
 chan
@@ -2980,7 +2980,7 @@ chan
 self
 ;
 box
-FileReadingThreadSource
+FileReadingTaskSource
 (
 (
 *
@@ -2999,7 +2999,7 @@ FIXME
 :
 Use
 a
-thread
+task
 source
 specific
 message
@@ -3466,21 +3466,21 @@ queue
 chan
 :
 MainThreadScriptChan
-dom_manipulation_thread_source
+dom_manipulation_task_source
 :
-DOMManipulationThreadSource
-user_interaction_thread_source
+DOMManipulationTaskSource
+user_interaction_task_source
 :
-UserInteractionThreadSource
-networking_thread_source
+UserInteractionTaskSource
+networking_task_source
 :
-NetworkingThreadSource
-history_traversal_thread_source
+NetworkingTaskSource
+history_traversal_task_source
 :
-HistoryTraversalThreadSource
-file_reading_thread_source
+HistoryTraversalTaskSource
+file_reading_task_source
 :
-FileReadingThreadSource
+FileReadingTaskSource
 /
 /
 /
@@ -5321,9 +5321,9 @@ clone
 (
 )
 )
-dom_manipulation_thread_source
+dom_manipulation_task_source
 :
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 chan
 .
@@ -5331,9 +5331,9 @@ clone
 (
 )
 )
-user_interaction_thread_source
+user_interaction_task_source
 :
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 chan
 .
@@ -5341,9 +5341,9 @@ clone
 (
 )
 )
-networking_thread_source
+networking_task_source
 :
-NetworkingThreadSource
+NetworkingTaskSource
 (
 chan
 .
@@ -5351,9 +5351,9 @@ clone
 (
 )
 )
-history_traversal_thread_source
+history_traversal_task_source
 :
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 chan
 .
@@ -5361,9 +5361,9 @@ clone
 (
 )
 )
-file_reading_thread_source
+file_reading_task_source
 :
-FileReadingThreadSource
+FileReadingTaskSource
 (
 chan
 )
@@ -12791,7 +12791,7 @@ self
 chan
 ;
 let
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 ref
 dom_sender
@@ -12799,10 +12799,10 @@ dom_sender
 =
 self
 .
-dom_manipulation_thread_source
+dom_manipulation_task_source
 ;
 let
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 ref
 user_sender
@@ -12810,10 +12810,10 @@ user_sender
 =
 self
 .
-user_interaction_thread_source
+user_interaction_task_source
 ;
 let
-NetworkingThreadSource
+NetworkingTaskSource
 (
 ref
 network_sender
@@ -12821,10 +12821,10 @@ network_sender
 =
 self
 .
-networking_thread_source
+networking_task_source
 ;
 let
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 ref
 history_sender
@@ -12832,10 +12832,10 @@ history_sender
 =
 self
 .
-history_traversal_thread_source
+history_traversal_task_source
 ;
 let
-FileReadingThreadSource
+FileReadingTaskSource
 (
 ref
 file_sender
@@ -12843,7 +12843,7 @@ file_sender
 =
 self
 .
-file_reading_thread_source
+file_reading_task_source
 ;
 let
 (
@@ -12913,7 +12913,7 @@ clone
 (
 )
 )
-DOMManipulationThreadSource
+DOMManipulationTaskSource
 (
 dom_sender
 .
@@ -12921,7 +12921,7 @@ clone
 (
 )
 )
-UserInteractionThreadSource
+UserInteractionTaskSource
 (
 user_sender
 .
@@ -12929,7 +12929,7 @@ clone
 (
 )
 )
-NetworkingThreadSource
+NetworkingTaskSource
 (
 network_sender
 .
@@ -12937,7 +12937,7 @@ clone
 (
 )
 )
-HistoryTraversalThreadSource
+HistoryTraversalTaskSource
 (
 history_sender
 .
@@ -12945,7 +12945,7 @@ clone
 (
 )
 )
-FileReadingThreadSource
+FileReadingTaskSource
 (
 file_sender
 .

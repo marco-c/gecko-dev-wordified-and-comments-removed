@@ -564,7 +564,7 @@ chan
 =
 window
 .
-dom_manipulation_thread_source
+dom_manipulation_task_source
 (
 )
 ;

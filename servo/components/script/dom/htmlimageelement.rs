@@ -757,7 +757,7 @@ new
 self
 window
 .
-networking_thread_source
+networking_task_source
 (
 )
 )
@@ -784,7 +784,7 @@ script_chan
 =
 window
 .
-networking_thread_source
+networking_task_source
 (
 )
 ;
