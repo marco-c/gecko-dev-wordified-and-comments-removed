@@ -269,6 +269,10 @@ mSize
 (
 0
 )
+mLastInserted
+(
+nullptr
+)
 {
 }
 ~
@@ -480,6 +484,10 @@ nsGenConNode
 *
 >
 mNodes
+;
+nsGenConNode
+*
+mLastInserted
 ;
 }
 ;
