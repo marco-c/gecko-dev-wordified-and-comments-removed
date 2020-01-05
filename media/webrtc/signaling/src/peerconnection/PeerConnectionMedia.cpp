@@ -2436,10 +2436,6 @@ os
 str
 (
 )
-.
-c_str
-(
-)
 aComponentCount
 )
 ;
