@@ -2640,7 +2640,7 @@ self
 )
 -
 >
-NodeChildrenIterator
+NodeSiblingIterator
 ;
 fn
 rev_children
@@ -2649,7 +2649,7 @@ self
 )
 -
 >
-ReverseChildrenIterator
+ReverseSiblingIterator
 ;
 fn
 child_elements
@@ -2667,7 +2667,7 @@ self
 )
 -
 >
-NodeChildrenIterator
+NodeSiblingIterator
 ;
 fn
 preceding_siblings
@@ -2676,7 +2676,7 @@ self
 )
 -
 >
-ReverseChildrenIterator
+ReverseSiblingIterator
 ;
 fn
 is_in_doc
@@ -3121,7 +3121,7 @@ self
 )
 -
 >
-NodeChildrenIterator
+NodeSiblingIterator
 ;
 fn
 to_trusted_node_address
@@ -4419,9 +4419,9 @@ self
 )
 -
 >
-NodeChildrenIterator
+NodeSiblingIterator
 {
-NodeChildrenIterator
+NodeSiblingIterator
 {
 current
 :
@@ -4490,9 +4490,9 @@ self
 )
 -
 >
-NodeChildrenIterator
+NodeSiblingIterator
 {
-NodeChildrenIterator
+NodeSiblingIterator
 {
 current
 :
@@ -4510,9 +4510,9 @@ self
 )
 -
 >
-ReverseChildrenIterator
+ReverseSiblingIterator
 {
-ReverseChildrenIterator
+ReverseSiblingIterator
 {
 current
 :
@@ -5129,9 +5129,9 @@ self
 )
 -
 >
-NodeChildrenIterator
+NodeSiblingIterator
 {
-NodeChildrenIterator
+NodeSiblingIterator
 {
 current
 :
@@ -5151,9 +5151,9 @@ self
 )
 -
 >
-ReverseChildrenIterator
+ReverseSiblingIterator
 {
-ReverseChildrenIterator
+ReverseSiblingIterator
 {
 current
 :
@@ -6815,7 +6815,7 @@ Peekable
 <
 FilterMap
 <
-NodeChildrenIterator
+NodeSiblingIterator
 fn
 (
 Temporary
@@ -6837,7 +6837,7 @@ Element
 ;
 pub
 struct
-NodeChildrenIterator
+NodeSiblingIterator
 {
 current
 :
@@ -6852,7 +6852,7 @@ Node
 impl
 Iterator
 for
-NodeChildrenIterator
+NodeSiblingIterator
 {
 type
 Item
@@ -6941,7 +6941,7 @@ r
 }
 pub
 struct
-ReverseChildrenIterator
+ReverseSiblingIterator
 {
 current
 :
@@ -6956,7 +6956,7 @@ Node
 impl
 Iterator
 for
-ReverseChildrenIterator
+ReverseSiblingIterator
 {
 type
 Item
