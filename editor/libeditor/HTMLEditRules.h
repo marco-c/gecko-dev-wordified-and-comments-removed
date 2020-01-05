@@ -1905,12 +1905,14 @@ aNode
 nsresult
 PopListItem
 (
-nsIDOMNode
-*
+nsIContent
+&
 aListItem
 bool
 *
 aOutOfList
+=
+nullptr
 )
 ;
 nsresult
