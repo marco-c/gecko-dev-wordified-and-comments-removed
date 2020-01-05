@@ -879,6 +879,10 @@ if
 mCanSend
 )
 {
+mCanSend
+=
+false
+;
 Unused
 <
 <
