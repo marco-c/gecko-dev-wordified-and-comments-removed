@@ -617,6 +617,12 @@ options
 )
 )
 ;
+this
+.
+expiryTimeout
+=
+SCRIPT_EXPIRY_TIMEOUT_MS
+;
 scriptCaches
 .
 add
@@ -681,7 +687,9 @@ bind
 this
 url
 )
-SCRIPT_EXPIRY_TIMEOUT_MS
+this
+.
+expiryTimeout
 Ci
 .
 nsITimer
