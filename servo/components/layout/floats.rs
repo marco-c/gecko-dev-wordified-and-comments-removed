@@ -748,7 +748,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .

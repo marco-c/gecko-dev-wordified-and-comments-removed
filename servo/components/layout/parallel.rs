@@ -202,8 +202,8 @@ type
 UnsafeFlow
 =
 (
-uint
-uint
+usize
+usize
 )
 ;
 fn
