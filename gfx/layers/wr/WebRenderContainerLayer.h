@@ -7,6 +7,13 @@ GFX_WEBRENDERCONTAINERLAYER_H
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 Layers
 .
 h
