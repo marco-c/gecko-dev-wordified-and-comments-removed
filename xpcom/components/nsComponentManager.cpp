@@ -7862,6 +7862,11 @@ ShallowSizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+if
+(
+sModuleLocations
+)
+{
 n
 +
 =
@@ -7873,6 +7878,7 @@ ShallowSizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+}
 n
 +
 =

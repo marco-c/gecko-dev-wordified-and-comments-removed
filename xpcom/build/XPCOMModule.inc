@@ -349,10 +349,14 @@ COMPONENT
 SYSTEMINFO
 nsSystemInfoConstructor
 )
-COMPONENT
+COMPONENT_M
 (
 MEMORY_REPORTER_MANAGER
 nsMemoryReporterManagerConstructor
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 )
 COMPONENT
 (

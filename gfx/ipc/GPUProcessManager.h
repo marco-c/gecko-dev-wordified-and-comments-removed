@@ -126,6 +126,9 @@ nsBaseWidget
 namespace
 mozilla
 {
+class
+MemoryReportingProcess
+;
 namespace
 layers
 {
@@ -505,6 +508,14 @@ base
 :
 ProcessId
 GPUProcessPid
+(
+)
+;
+RefPtr
+<
+MemoryReportingProcess
+>
+GetProcessMemoryReporter
 (
 )
 ;
