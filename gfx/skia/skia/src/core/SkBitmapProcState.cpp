@@ -1409,6 +1409,12 @@ defined
 (
 SK_ARM_HAS_NEON
 )
+|
+|
+defined
+(
+SK_ARM_HAS_OPTIONAL_NEON
+)
 static
 const
 SampleProc32
