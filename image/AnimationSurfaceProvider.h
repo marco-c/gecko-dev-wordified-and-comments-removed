@@ -110,6 +110,9 @@ aHeapSizeOut
 size_t
 &
 aNonHeapSizeOut
+size_t
+&
+aSharedHandlesOut
 )
 override
 ;

@@ -736,6 +736,11 @@ nonHeap
 =
 0
 ;
+size_t
+handles
+=
+0
+;
 aCachedSurface
 -
 >
@@ -747,6 +752,7 @@ AddSizeOfExcludingThis
 mMallocSizeOf
 heap
 nonHeap
+handles
 )
 ;
 counter
@@ -769,6 +775,17 @@ Values
 SetDecodedNonHeap
 (
 nonHeap
+)
+;
+counter
+.
+Values
+(
+)
+.
+SetSharedHandles
+(
+handles
 )
 ;
 mCounters

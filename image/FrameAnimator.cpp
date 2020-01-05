@@ -1240,6 +1240,9 @@ heap
 nonHeap
 =
 0
+handles
+=
+0
 ;
 aSurface
 -
@@ -1249,6 +1252,7 @@ AddSizeOfExcludingThis
 aMallocSizeOf
 heap
 nonHeap
+handles
 )
 ;
 counter
@@ -1271,6 +1275,17 @@ Values
 SetDecodedNonHeap
 (
 nonHeap
+)
+;
+counter
+.
+Values
+(
+)
+.
+SetSharedHandles
+(
+handles
 )
 ;
 aCounters
