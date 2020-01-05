@@ -1596,23 +1596,6 @@ usize
 )
 ;
 }
-extern
-"
-C
-"
-{
-pub
-fn
-Servo_Node_ClearNodeData
-(
-arg1
-:
-*
-mut
-nsINode
-)
-;
-}
 #
 [
 repr
@@ -5062,6 +5045,21 @@ C
 {
 pub
 fn
+Servo_Node_ClearNodeData
+(
+node
+:
+RawGeckoNodeBorrowed
+)
+;
+}
+extern
+"
+C
+"
+{
+pub
+fn
 Servo_StyleSheet_FromUTF8Bytes
 (
 bytes
@@ -5555,9 +5553,7 @@ Servo_ComputeRestyleHint
 (
 element
 :
-*
-mut
-RawGeckoElement
+RawGeckoElementBorrowed
 snapshot
 :
 *
@@ -5601,7 +5597,7 @@ Servo_GetStyleFont
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5621,7 +5617,7 @@ Servo_GetStyleColor
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5641,7 +5637,7 @@ Servo_GetStyleList
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5661,7 +5657,7 @@ Servo_GetStyleText
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5681,7 +5677,7 @@ Servo_GetStyleVisibility
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5701,7 +5697,7 @@ Servo_GetStyleUserInterface
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5721,7 +5717,7 @@ Servo_GetStyleTableBorder
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5741,7 +5737,7 @@ Servo_GetStyleSVG
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5761,7 +5757,7 @@ Servo_GetStyleVariables
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5781,7 +5777,7 @@ Servo_GetStyleBackground
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5801,7 +5797,7 @@ Servo_GetStylePosition
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5821,7 +5817,7 @@ Servo_GetStyleTextReset
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5841,7 +5837,7 @@ Servo_GetStyleDisplay
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5861,7 +5857,7 @@ Servo_GetStyleContent
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5881,7 +5877,7 @@ Servo_GetStyleUIReset
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5901,7 +5897,7 @@ Servo_GetStyleTable
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5921,7 +5917,7 @@ Servo_GetStyleMargin
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5941,7 +5937,7 @@ Servo_GetStylePadding
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5961,7 +5957,7 @@ Servo_GetStyleBorder
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -5981,7 +5977,7 @@ Servo_GetStyleOutline
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -6001,7 +5997,7 @@ Servo_GetStyleXUL
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -6021,7 +6017,7 @@ Servo_GetStyleSVGReset
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -6041,7 +6037,7 @@ Servo_GetStyleColumn
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >
@@ -6061,7 +6057,7 @@ Servo_GetStyleEffects
 (
 computed_values
 :
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 )
 -
 >

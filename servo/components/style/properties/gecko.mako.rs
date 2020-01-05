@@ -16410,6 +16410,7 @@ unused_variables
 )
 ]
 pub
+unsafe
 extern
 "
 C

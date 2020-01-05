@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-unsafe_code
-)
-]
 use
 app_units
 :
