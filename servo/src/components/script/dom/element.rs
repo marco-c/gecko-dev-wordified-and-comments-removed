@@ -469,7 +469,7 @@ as_slice
 )
 }
 fn
-get_namespace
+get_namespace_url
 <
 '
 a
@@ -482,7 +482,9 @@ self
 )
 -
 >
-~
+&
+'
+a
 str
 {
 self
@@ -495,7 +497,6 @@ to_str
 .
 unwrap_or
 (
-~
 "
 "
 )

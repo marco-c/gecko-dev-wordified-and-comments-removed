@@ -1877,7 +1877,7 @@ a
 str
 ;
 fn
-get_namespace
+get_namespace_url
 <
 '
 a
@@ -1890,7 +1890,9 @@ self
 )
 -
 >
-~
+&
+'
+a
 str
 ;
 fn
