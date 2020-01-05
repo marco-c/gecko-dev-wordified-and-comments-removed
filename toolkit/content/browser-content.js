@@ -5184,13 +5184,6 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-let
-suspendTypes
-=
-Ci
-.
-nsISuspendedTypes
-;
 switch
 (
 msg
