@@ -298,6 +298,7 @@ NodeTargetTypeId
 (
 NodeTypeId
 )
+WebSocketTypeId
 WindowTypeId
 WorkerTypeId
 WorkerGlobalScopeTypeId
