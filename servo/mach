@@ -159,13 +159,10 @@ argv
 sys
 .
 path
-[
+.
+insert
+(
 0
-:
-0
-]
-=
-[
 os
 .
 path
@@ -177,7 +174,7 @@ topdir
 python
 "
 )
-]
+)
 import
 mach_bootstrap
 mach
