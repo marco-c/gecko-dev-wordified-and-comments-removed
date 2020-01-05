@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -938,7 +943,7 @@ onProxyAvailable
 function
 (
 req
-uri
+channel
 pi
 status
 )
@@ -2759,7 +2764,7 @@ function
 TestResolveCallback_onProxyAvailable
 (
 req
-uri
+channel
 pi
 status
 )
@@ -2770,11 +2775,13 @@ dump
 *
 *
 *
-uri
+channelURI
 =
 "
 +
-uri
+channel
+.
+URI
 .
 spec
 +
@@ -2818,7 +2825,7 @@ null
 ;
 do_check_neq
 (
-uri
+channel
 null
 )
 ;
@@ -3648,7 +3655,7 @@ function
 TestResolveCancelationCallback_onProxyAvailable
 (
 req
-uri
+channel
 pi
 status
 )
@@ -3659,11 +3666,13 @@ dump
 *
 *
 *
-uri
+channelURI
 =
 "
 +
-uri
+channel
+.
+URI
 .
 spec
 +
@@ -3688,7 +3697,7 @@ null
 ;
 do_check_neq
 (
-uri
+channel
 null
 )
 ;
@@ -4088,6 +4097,9 @@ uriStrUseProxyList
 ;
 var
 hostFilterList
+;
+var
+uriStrFilterList
 ;
 function
 run_proxy_host_filters_test
