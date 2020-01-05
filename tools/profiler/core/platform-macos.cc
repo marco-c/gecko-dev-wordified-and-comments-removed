@@ -1147,9 +1147,6 @@ threadInfo
 =
 aThreadInfo
 ;
-gSampler
--
->
 Tick
 (
 sample

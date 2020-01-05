@@ -154,9 +154,6 @@ aData
 ;
 }
 uintptr_t
-Sampler
-:
-:
 GetThreadHandle
 (
 PlatformData
@@ -629,9 +626,6 @@ isFirstProfiledThread
 uintptr_t
 thread
 =
-Sampler
-:
-:
 GetThreadHandle
 (
 aThreadInfo
@@ -946,9 +940,6 @@ context
 &
 context
 ;
-gSampler
--
->
 Tick
 (
 sample
