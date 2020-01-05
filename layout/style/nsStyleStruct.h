@@ -6044,11 +6044,16 @@ static
 const
 int32_t
 kMinLine
+=
+-
+10000
 ;
 static
 const
 int32_t
 kMaxLine
+=
+10000
 ;
 nsStyleGridLine
 (
@@ -14099,6 +14104,8 @@ static
 const
 uint32_t
 kMaxColumnCount
+=
+1000
 ;
 uint32_t
 mColumnCount
