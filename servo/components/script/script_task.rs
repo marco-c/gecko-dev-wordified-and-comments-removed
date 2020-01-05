@@ -4710,6 +4710,13 @@ content_changed
 (
 )
 ;
+window
+.
+flush_layout
+(
+ReflowForDisplay
+)
+;
 let
 fragment
 =
@@ -4953,6 +4960,13 @@ failed
 "
 )
 }
+window
+.
+flush_layout
+(
+ReflowForDisplay
+)
+;
 }
 }
 )
