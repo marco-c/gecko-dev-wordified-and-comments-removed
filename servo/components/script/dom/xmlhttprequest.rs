@@ -5392,10 +5392,6 @@ else
 "
 "
 .
-into_string
-(
-)
-.
 to_jsval
 (
 cx
