@@ -1982,11 +1982,16 @@ aURI
 nullptr
 )
 ;
+#
+ifdef
+DEBUG
 void
-CheckPrivateBrowsing
+AssertPrivateBrowsingId
 (
 )
 ;
+#
+endif
 friend
 class
 PrivateBrowsingChannel
