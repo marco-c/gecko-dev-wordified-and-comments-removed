@@ -1706,7 +1706,7 @@ if
 (
 dpi
 <
-132
+144
 )
 {
 return
@@ -3261,6 +3261,11 @@ config
 int
 visid
 ;
+bool
+forWebRender
+=
+false
+;
 if
 (
 !
@@ -3281,6 +3286,7 @@ cfgs
 config
 &
 visid
+forWebRender
 )
 )
 {
