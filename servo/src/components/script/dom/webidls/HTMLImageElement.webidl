@@ -222,12 +222,6 @@ attribute
 DOMString
 src
 ;
-/
-/
-attribute
-DOMString
-srcset
-;
 [
 SetterThrows
 ]
