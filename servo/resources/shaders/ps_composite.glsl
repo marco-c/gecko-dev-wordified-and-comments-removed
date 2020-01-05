@@ -57,11 +57,11 @@ MPL
 *
 /
 varying
-vec2
+vec3
 vUv0
 ;
 varying
-vec2
+vec3
 vUv1
 ;
 flat

@@ -152,7 +152,7 @@ local_clamped_pos
 ;
 #
 endif
-Clip
+ClipInfo
 clip
 =
 fetch_clip

@@ -98,17 +98,6 @@ vPos
 ;
 #
 endif
-alpha
-=
-min
-(
-alpha
-do_clip
-(
-local_pos
-)
-)
-;
 oFragColor
 =
 vColor

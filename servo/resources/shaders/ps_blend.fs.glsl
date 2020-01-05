@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-uniform
-sampler2D
-sCache
-;
 vec3
 rgbToHsv
 (

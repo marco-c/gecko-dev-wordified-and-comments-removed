@@ -59,10 +59,6 @@ MPL
 .
 *
 /
-uniform
-sampler2D
-sCache
-;
 float
 gauss
 (
