@@ -75433,7 +75433,9 @@ if
 QuotaManager
 :
 :
-kRunningXPCShellTests
+IsRunningXPCShellTests
+(
+)
 )
 {
 lowDiskSpace
