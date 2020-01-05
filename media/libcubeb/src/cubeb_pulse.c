@@ -4424,7 +4424,7 @@ CUBEB_ERROR
 }
 if
 (
-g_log_level
+g_cubeb_log_level
 )
 {
 if
@@ -7286,7 +7286,7 @@ PA_SUBSCRIPTION_EVENT_SINK
 :
 if
 (
-g_log_level
+g_cubeb_log_level
 )
 {
 if

@@ -42,10 +42,10 @@ h
 #
 endif
 cubeb_log_level
-g_log_level
+g_cubeb_log_level
 ;
 cubeb_log_callback
-g_log_callback
+g_cubeb_log_callback
 ;
 const
 size_t
@@ -387,7 +387,7 @@ fmt
 if
 (
 !
-g_log_callback
+g_cubeb_log_callback
 )
 {
 return
