@@ -1655,25 +1655,6 @@ asmjs
 '
 ]
 )
-                            
-test
-.
-test_also
-.
-append
-(
-[
-'
--
--
-wasm
--
-always
--
-baseline
-'
-]
-)
                     
 elif
 name
