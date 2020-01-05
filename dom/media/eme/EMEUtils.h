@@ -304,15 +304,6 @@ aKeySystem
 )
 ;
 bool
-IsPrimetimeKeySystem
-(
-const
-nsAString
-&
-aKeySystem
-)
-;
-bool
 IsWidevineKeySystem
 (
 const
