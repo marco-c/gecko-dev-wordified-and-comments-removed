@@ -22,6 +22,9 @@ namespace
 dom
 {
 class
+VideoDecoderManagerThreadHolder
+;
+class
 VideoDecoderManagerParent
 final
 :
@@ -169,8 +172,7 @@ IProtocol
 ActorDestroyReason
 )
 override
-{
-}
+;
 void
 DeallocPVideoDecoderManagerParent
 (
@@ -179,8 +181,12 @@ override
 ;
 private
 :
+explicit
 VideoDecoderManagerParent
 (
+VideoDecoderManagerThreadHolder
+*
+aThreadHolder
 )
 ;
 ~
@@ -231,6 +237,12 @@ TextureClient
 >
 >
 mTextureMap
+;
+RefPtr
+<
+VideoDecoderManagerThreadHolder
+>
+mThreadHolder
 ;
 }
 ;
