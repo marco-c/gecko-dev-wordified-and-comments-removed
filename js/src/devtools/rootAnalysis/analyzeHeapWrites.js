@@ -996,6 +996,15 @@ null
 ]
 [
 "
+Gecko_GetOrCreateKeyframeAtStart
+"
+"
+aKeyframes
+"
+null
+]
+[
+"
 Gecko_SetStyleCoordCalcValue
 "
 null
@@ -1856,6 +1865,9 @@ GetStringValue
 /
 "
 Gecko_AnimationAppendKeyframe
+"
+"
+Gecko_GetOrCreateKeyframeAtStart
 "
 "
 Gecko_NewStyleQuoteValues
