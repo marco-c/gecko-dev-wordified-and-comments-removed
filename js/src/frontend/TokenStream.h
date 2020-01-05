@@ -1237,6 +1237,16 @@ errorNumber
 .
 )
 ;
+void
+error
+(
+unsigned
+errorNumber
+.
+.
+.
+)
+;
 static
 const
 uint32_t
