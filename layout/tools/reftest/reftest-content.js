@@ -468,9 +468,6 @@ OnInitialLoad
 (
 )
 {
-#
-ifndef
-REFTEST_B2G
 removeEventListener
 (
 "
@@ -480,8 +477,6 @@ OnInitialLoad
 true
 )
 ;
-#
-endif
 gDebug
 =
 CC
@@ -835,14 +830,6 @@ doPrintMode
 contentRootElement
 )
 {
-#
-if
-REFTEST_B2G
-return
-false
-;
-#
-else
 return
 contentRootElement
 &
@@ -888,8 +875,6 @@ print
 -
 1
 ;
-#
-endif
 }
 function
 setupPrintMode
@@ -5829,15 +5814,6 @@ rects
 ;
 }
 }
-#
-if
-REFTEST_B2G
-OnInitialLoad
-(
-)
-;
-#
-else
 if
 (
 content
@@ -5869,5 +5845,3 @@ true
 )
 ;
 }
-#
-endif
