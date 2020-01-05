@@ -5669,6 +5669,13 @@ if
 property
 .
 experimental
+and
+product
+=
+=
+"
+servo
+"
 :
 if
 !
@@ -5855,6 +5862,13 @@ if
 shorthand
 .
 experimental
+and
+product
+=
+=
+"
+servo
+"
 :
 if
 !
