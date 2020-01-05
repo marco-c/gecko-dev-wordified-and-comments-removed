@@ -1930,8 +1930,6 @@ const
 PaintFramesParams
 &
 aParams
-float
-aOpacity
 nsStyleContext
 *
 aSC
@@ -2040,7 +2038,9 @@ aParams
 .
 frame
 cssPxToDevPxMatrix
-aOpacity
+1
+.
+0
 &
 aOutMaskTransform
 svgReset
@@ -2354,7 +2354,9 @@ aParams
 .
 frame
 cssPxToDevPxMatrix
-aOpacity
+1
+.
+0
 &
 svgMaskMatrix
 svgReset
@@ -3866,7 +3868,6 @@ result
 GenerateMaskSurface
 (
 aParams
-opacity
 firstFrame
 -
 >
