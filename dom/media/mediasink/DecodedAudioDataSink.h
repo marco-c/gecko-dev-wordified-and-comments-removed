@@ -135,7 +135,7 @@ AbstractThread
 aThread
 MediaQueue
 <
-MediaData
+AudioData
 >
 &
 aAudioQueue
@@ -365,7 +365,7 @@ OnAudioPopped
 const
 RefPtr
 <
-MediaData
+AudioData
 >
 &
 aSample
@@ -377,7 +377,7 @@ OnAudioPushed
 const
 RefPtr
 <
-MediaData
+AudioData
 >
 &
 aSample

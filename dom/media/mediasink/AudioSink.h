@@ -43,9 +43,6 @@ h
 namespace
 mozilla
 {
-class
-MediaData
-;
 template
 <
 class
@@ -70,7 +67,7 @@ AudioSink
 (
 MediaQueue
 <
-MediaData
+AudioData
 >
 &
 aAudioQueue
@@ -189,7 +186,7 @@ AudioSink
 virtual
 MediaQueue
 <
-MediaData
+AudioData
 >
 &
 AudioQueue
@@ -203,7 +200,7 @@ mAudioQueue
 }
 MediaQueue
 <
-MediaData
+AudioData
 >
 &
 mAudioQueue
