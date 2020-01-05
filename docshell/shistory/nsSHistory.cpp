@@ -6331,9 +6331,6 @@ aPostStream
 nsIInputStream
 *
 aExtraHeaderStream
-nsIPrincipal
-*
-aTriggeringPrincipal
 )
 {
 return

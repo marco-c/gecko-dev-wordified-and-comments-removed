@@ -1200,12 +1200,6 @@ LOAD_FLAGS_NONE
 nullptr
 nullptr
 nullptr
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
