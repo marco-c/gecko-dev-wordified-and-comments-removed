@@ -80,8 +80,8 @@ dfn
 Blob
 [
 Constructor
-Constructor
 (
+optional
 sequence
 <
 (
