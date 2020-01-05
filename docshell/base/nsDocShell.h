@@ -656,6 +656,9 @@ nsIInputStream
 aHeadersDataStream
 bool
 aIsTrusted
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 override
 ;
@@ -702,6 +705,11 @@ nsIRequest
 aRequest
 =
 0
+nsIPrincipal
+*
+aTriggeringPrincipal
+=
+nullptr
 )
 override
 ;

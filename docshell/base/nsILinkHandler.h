@@ -89,6 +89,9 @@ nsIInputStream
 aHeadersDataStream
 bool
 aIsTrusted
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 =
 0
@@ -136,6 +139,11 @@ nsIRequest
 aRequest
 =
 0
+nsIPrincipal
+*
+aTriggeringPrincipal
+=
+nullptr
 )
 =
 0
