@@ -884,6 +884,7 @@ popup
 )
 ;
 }
+*
 onHidden
 (
 popup
@@ -905,6 +906,13 @@ icon
 "
 )
 ;
+let
+shown
+=
+waitForNotificationPanel
+(
+)
+;
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -913,6 +921,9 @@ icon
 {
 }
 )
+;
+yield
+shown
 ;
 let
 notification
