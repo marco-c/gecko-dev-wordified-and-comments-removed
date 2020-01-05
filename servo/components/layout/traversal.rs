@@ -117,6 +117,7 @@ wrapper
 :
 {
 LayoutNode
+ServoLayoutNode
 layout_node_to_unsafe_layout_node
 }
 ;
@@ -171,7 +172,7 @@ parent_node
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 root
 :
@@ -464,7 +465,7 @@ BloomFilter
 mut
 n
 :
-LayoutNode
+ServoLayoutNode
 root
 :
 OpaqueNode
@@ -567,7 +568,7 @@ process
 self
 node
 :
-LayoutNode
+ServoLayoutNode
 )
 ;
 }
@@ -582,7 +583,7 @@ process
 self
 node
 :
-LayoutNode
+ServoLayoutNode
 )
 ;
 }
@@ -679,7 +680,7 @@ process
 self
 node
 :
-LayoutNode
+ServoLayoutNode
 )
 {
 node
@@ -1138,7 +1139,7 @@ process
 self
 node
 :
-LayoutNode
+ServoLayoutNode
 )
 {
 {

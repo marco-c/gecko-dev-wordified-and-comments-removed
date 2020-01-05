@@ -718,7 +718,10 @@ wrapper
 :
 :
 {
+LayoutDocument
+LayoutElement
 LayoutNode
+ServoLayoutNode
 ThreadSafeLayoutNode
 }
 ;
@@ -4150,7 +4153,7 @@ try_get_layout_root
 self
 node
 :
-LayoutNode
+ServoLayoutNode
 )
 -
 >
@@ -4699,7 +4702,7 @@ node
 =
 unsafe
 {
-LayoutNode
+ServoLayoutNode
 :
 :
 new
@@ -6589,7 +6592,7 @@ document
 =
 unsafe
 {
-LayoutNode
+ServoLayoutNode
 :
 :
 new
@@ -6650,7 +6653,7 @@ lock
 let
 node
 :
-LayoutNode
+ServoLayoutNode
 =
 match
 document
@@ -8835,7 +8838,7 @@ dirty_all_nodes
 (
 node
 :
-LayoutNode
+ServoLayoutNode
 )
 {
 for

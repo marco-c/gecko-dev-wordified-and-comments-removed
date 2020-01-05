@@ -250,6 +250,8 @@ wrapper
 {
 LayoutElement
 LayoutNode
+ServoLayoutElement
+ServoLayoutNode
 }
 ;
 pub
@@ -931,7 +933,7 @@ create_common_style_affecting_attributes_from_element
 element
 :
 &
-LayoutElement
+ServoLayoutElement
 )
 -
 >
@@ -1213,7 +1215,7 @@ new
 element
 :
 &
-LayoutElement
+ServoLayoutElement
 )
 -
 >
@@ -1478,7 +1480,7 @@ self
 element
 :
 &
-LayoutElement
+ServoLayoutElement
 )
 -
 >
@@ -1922,7 +1924,7 @@ self
 element
 :
 &
-LayoutElement
+ServoLayoutElement
 )
 {
 match
@@ -2035,7 +2037,7 @@ parent
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 )
 -
@@ -2085,7 +2087,7 @@ parent
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 applicable_declarations
 :
@@ -2187,7 +2189,7 @@ parent_node
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 candidate
 :
@@ -2212,7 +2214,7 @@ ln
 >
 PrivateMatchMethods
 for
-LayoutNode
+ServoLayoutNode
 <
 '
 ln
@@ -2569,7 +2571,7 @@ ln
 >
 PrivateElementMatchMethods
 for
-LayoutElement
+ServoLayoutElement
 <
 '
 ln
@@ -2584,7 +2586,7 @@ parent_node
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 candidate
 :
@@ -2740,7 +2742,7 @@ ln
 >
 ElementMatchMethods
 for
-LayoutElement
+ServoLayoutElement
 <
 '
 ln
@@ -2883,7 +2885,7 @@ parent
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 )
 -
@@ -3094,7 +3096,7 @@ ln
 >
 MatchMethods
 for
-LayoutNode
+ServoLayoutNode
 <
 '
 ln
@@ -3282,7 +3284,7 @@ parent
 :
 Option
 <
-LayoutNode
+ServoLayoutNode
 >
 applicable_declarations
 :

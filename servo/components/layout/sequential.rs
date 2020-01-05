@@ -126,7 +126,10 @@ use
 wrapper
 :
 :
+{
 LayoutNode
+ServoLayoutNode
+}
 ;
 pub
 fn
@@ -134,7 +137,7 @@ traverse_dom_preorder
 (
 root
 :
-LayoutNode
+ServoLayoutNode
 shared_layout_context
 :
 &
@@ -146,7 +149,7 @@ doit
 (
 node
 :
-LayoutNode
+ServoLayoutNode
 recalc_style
 :
 RecalcStyleForNode

@@ -153,6 +153,7 @@ wrapper
 :
 {
 LayoutNode
+ServoLayoutNode
 layout_node_from_unsafe_layout_node
 layout_node_to_unsafe_layout_node
 }
@@ -535,7 +536,7 @@ unsafe_nodes
 let
 node
 :
-LayoutNode
+ServoLayoutNode
 =
 unsafe
 {
@@ -869,7 +870,7 @@ let
 mut
 node
 :
-LayoutNode
+ServoLayoutNode
 =
 unsafe
 {
@@ -2040,7 +2041,7 @@ traverse_dom_preorder
 (
 root
 :
-LayoutNode
+ServoLayoutNode
 shared_layout_context
 :
 &
