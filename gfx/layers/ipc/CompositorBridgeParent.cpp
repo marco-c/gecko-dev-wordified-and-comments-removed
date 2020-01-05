@@ -329,6 +329,17 @@ mozilla
 /
 layers
 /
+CompositorVsyncScheduler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CrossProcessCompositorBridgeParent
 .
 h
@@ -1104,11 +1115,9 @@ LayerTreeState
 >
 LayerTreeMap
 ;
-static
 LayerTreeMap
 sIndirectLayerTrees
 ;
-static
 StaticAutoPtr
 <
 mozilla
@@ -7196,7 +7205,6 @@ return
 true
 ;
 }
-static
 void
 EraseLayerState
 (
@@ -8583,7 +8591,6 @@ return
 true
 ;
 }
-static
 void
 UpdateIndirectTree
 (
