@@ -635,9 +635,15 @@ mozilla
 CSSIntRect
 &
 aSrc
-uint8_t
+mozilla
+:
+:
+StyleBorderImageRepeat
 aHFill
-uint8_t
+mozilla
+:
+:
+StyleBorderImageRepeat
 aVFill
 const
 nsSize
