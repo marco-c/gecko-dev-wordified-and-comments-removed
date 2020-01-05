@@ -1766,9 +1766,6 @@ uint64_t
 const
 uint32_t
 &
-const
-IAccessibleHolder
-&
 )
 override
 ;
