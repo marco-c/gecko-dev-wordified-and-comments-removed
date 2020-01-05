@@ -1444,6 +1444,7 @@ borrow_mut
 deriving
 (
 PartialEq
+Show
 )
 ]
 #
