@@ -280,17 +280,6 @@ base
 /
 content
 /
-browser
--
-social
-.
-js
-browser
-/
-base
-/
-content
-/
 nsContextMenu
 .
 js
