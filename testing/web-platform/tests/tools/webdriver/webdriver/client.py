@@ -1000,6 +1000,8 @@ pointer_up
 (
 self
 button
+=
+0
 )
 :
         
@@ -1024,6 +1026,16 @@ to
 perform
 action
 with
+.
+                       
+Default
+:
+0
+which
+represents
+main
+device
+button
 .
         
 "
@@ -1048,6 +1060,8 @@ pointer_down
 (
 self
 button
+=
+0
 )
 :
         
@@ -1072,6 +1086,16 @@ to
 perform
 action
 with
+.
+                       
+Default
+:
+0
+which
+represents
+main
+device
+button
 .
         
 "
