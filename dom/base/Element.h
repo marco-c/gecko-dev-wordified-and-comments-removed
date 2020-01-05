@@ -249,9 +249,6 @@ DOMIntersectionObserver
 h
 "
 class
-mozAutoDocUpdate
-;
-class
 nsIFrame
 ;
 class
@@ -4229,13 +4226,6 @@ bool
 aNotify
 bool
 aCallAfterSetAttr
-nsIDocument
-*
-aComposedDocument
-const
-mozAutoDocUpdate
-&
-aGuard
 )
 ;
 void
