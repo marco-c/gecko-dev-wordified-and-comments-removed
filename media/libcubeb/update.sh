@@ -166,6 +166,15 @@ cp
 /
 src
 /
+cubeb_array_queue
+.
+h
+src
+cp
+1
+/
+src
+/
 cubeb_panner
 .
 cpp
