@@ -461,14 +461,10 @@ nsFrameTraversal
 (
 )
 ;
-*
-aResult
-=
 t
-;
-NS_ADDREF
+.
+forget
 (
-*
 aResult
 )
 ;
