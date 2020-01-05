@@ -1215,6 +1215,12 @@ column_gap
 get_position
 .
 flex_direction
+get_position
+.
+flex_basis
+get_position
+.
+order
 ]
 )
 |
