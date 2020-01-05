@@ -99,8 +99,7 @@ Init
 (
 )
 {
-TraceInfo
-*
+TraceInfoHolder
 info
 =
 GetOrCreateTraceInfo
@@ -172,8 +171,7 @@ GetTLSTraceInfo
 (
 )
 {
-TraceInfo
-*
+TraceInfoHolder
 info
 =
 GetOrCreateTraceInfo
@@ -219,8 +217,7 @@ SetTLSTraceInfo
 (
 )
 {
-TraceInfo
-*
+TraceInfoHolder
 info
 =
 GetOrCreateTraceInfo
@@ -268,8 +265,7 @@ ClearTLSTraceInfo
 (
 )
 {
-TraceInfo
-*
+TraceInfoHolder
 info
 =
 GetOrCreateTraceInfo
