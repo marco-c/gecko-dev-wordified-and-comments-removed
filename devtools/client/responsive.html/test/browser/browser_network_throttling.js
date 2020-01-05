@@ -119,7 +119,7 @@ Regular
 )
 ;
 yield
-switchNetworkThrottling
+selectNetworkThrottling
 (
 ui
 "
@@ -273,7 +273,7 @@ profile
 )
 {
 yield
-switchNetworkThrottling
+selectNetworkThrottling
 (
 ui
 profile

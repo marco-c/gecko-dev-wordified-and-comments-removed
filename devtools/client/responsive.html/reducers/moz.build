@@ -93,6 +93,15 @@ devices
 js
 '
 '
+display
+-
+pixel
+-
+ratio
+.
+js
+'
+'
 location
 .
 js

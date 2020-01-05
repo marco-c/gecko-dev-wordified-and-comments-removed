@@ -260,7 +260,7 @@ selected
 )
 ;
 yield
-switchDevice
+selectDevice
 (
 ui
 "
@@ -396,7 +396,7 @@ selected
 )
 ;
 yield
-switchDevice
+selectDevice
 (
 ui
 "

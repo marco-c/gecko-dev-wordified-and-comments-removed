@@ -107,6 +107,13 @@ selector
 js
 '
 '
+dpr
+-
+selector
+.
+js
+'
+'
 global
 -
 toolbar
