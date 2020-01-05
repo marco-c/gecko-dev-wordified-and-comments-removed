@@ -387,6 +387,13 @@ HasTypeMismatch
 const
 override
 ;
+bool
+HasBadInput
+(
+)
+const
+override
+;
 private
 :
 explicit

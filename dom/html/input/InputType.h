@@ -95,6 +95,9 @@ struct
 DoNotDelete
 ;
 class
+nsIFrame
+;
+class
 InputType
 {
 public
@@ -205,6 +208,13 @@ aUseZeroIfValueNaN
 const
 ;
 virtual
+bool
+HasBadInput
+(
+)
+const
+;
+virtual
 nsresult
 MinMaxStepAttrChanged
 (
@@ -270,6 +280,13 @@ mozilla
 :
 Decimal
 GetStepBase
+(
+)
+const
+;
+nsIFrame
+*
+GetPrimaryFrame
 (
 )
 const

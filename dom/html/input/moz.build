@@ -201,6 +201,12 @@ dom
 /
 html
 '
+'
+/
+layout
+/
+forms
+'
 ]
 FINAL_LIBRARY
 =
