@@ -756,9 +756,13 @@ sharedLibraries
 )
 {
 return
+{
+sharedLibraries
+:
 nsIProfilerModule
 .
 sharedLibraries
+}
 ;
 }
 get
