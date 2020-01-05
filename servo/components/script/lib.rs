@@ -299,6 +299,10 @@ mime
 ;
 extern
 crate
+mime_guess
+;
+extern
+crate
 msg
 ;
 extern
