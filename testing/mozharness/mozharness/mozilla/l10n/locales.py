@@ -360,7 +360,8 @@ get
 "
 locales
 "
-None
+[
+]
 )
 :
             
@@ -389,7 +390,13 @@ CLI
 s
 "
 %
+"
+"
+.
+join
+(
 locales
+)
 )
         
 if
