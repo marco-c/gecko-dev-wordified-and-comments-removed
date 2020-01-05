@@ -875,7 +875,9 @@ Get10msTone
 int16_t
 output
 [
-320
+MAX_DTMF_SAMPLERATE
+/
+100
 ]
 uint16_t
 &
@@ -986,7 +988,7 @@ int16_t
 volume
 int16_t
 frameLen
-int16_t
+uint16_t
 fs
 )
 {
