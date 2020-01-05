@@ -156,9 +156,6 @@ apply
 *
 /
 interface
-WindowProxy
-;
-interface
 Node
 ;
 [
