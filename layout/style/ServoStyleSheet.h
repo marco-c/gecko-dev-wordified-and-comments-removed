@@ -266,11 +266,6 @@ EnabledStateChangedInternal
 private
 :
 void
-DropSheet
-(
-)
-;
-void
 DropRuleList
 (
 )
