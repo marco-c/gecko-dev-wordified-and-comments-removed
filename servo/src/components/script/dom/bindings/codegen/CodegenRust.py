@@ -15833,17 +15833,25 @@ create
 =
 "
 let
+mut
 raw
 :
-*
-mut
+JS
+<
 %
 s
+>
 =
+JS
+:
+:
+from_raw
+(
 &
 mut
 *
 aObject
+)
 ;
 \
 n
@@ -15852,7 +15860,6 @@ n
 descriptor
 .
 concreteType
-;
     
 if
 descriptor
@@ -15983,24 +15990,16 @@ null
 )
 ;
   
-if
+assert
+!
+(
 obj
 .
-is_null
+is_not_null
 (
 )
-{
-    
-return
-ptr
-:
-:
-null
-(
 )
 ;
-  
-}
 "
 "
 "
@@ -16072,24 +16071,16 @@ create
 "
 "
 "
-if
+assert
+!
+(
 obj
 .
-is_null
+is_not_null
 (
 )
-{
-    
-return
-ptr
-:
-:
-null
-(
 )
 ;
-  
-}
   
 JS_SetReservedSlot
 (
@@ -16224,6 +16215,20 @@ True
 )
 ]
         
+retval
+=
+'
+JS
+<
+%
+s
+>
+'
+%
+descriptor
+.
+concreteType
+        
 CGAbstractMethod
 .
 __init__
@@ -16233,10 +16238,7 @@ descriptor
 '
 Wrap
 '
-'
-*
-JSObject
-'
+retval
 args
 pub
 =
@@ -16332,31 +16334,20 @@ scope
 )
 ;
   
-if
+assert
+!
+(
 proto
 .
-is_null
+is_not_null
 (
 )
-{
-    
-return
-ptr
-:
-:
-null
-(
 )
 ;
-  
-}
 %
 s
   
-(
-*
 raw
-)
 .
 mut_reflector
 (
@@ -16369,7 +16360,7 @@ obj
 ;
   
 return
-obj
+raw
 ;
 "
 "
@@ -16414,10 +16405,7 @@ proto
 )
 ;
   
-(
-*
 raw
-)
 .
 mut_reflector
 (
@@ -16430,7 +16418,7 @@ obj
 ;
   
 return
-obj
+raw
 ;
 "
 "

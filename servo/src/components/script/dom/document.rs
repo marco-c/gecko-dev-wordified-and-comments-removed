@@ -434,10 +434,7 @@ js
 jsapi
 :
 :
-{
-JSObject
 JSContext
-}
 ;
 use
 std
@@ -644,8 +641,10 @@ D
 )
 -
 >
-*
-JSObject
+JS
+<
+D
+>
 )
 -
 >
