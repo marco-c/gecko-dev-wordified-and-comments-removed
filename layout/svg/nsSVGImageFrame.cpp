@@ -1811,7 +1811,6 @@ GetAnimValue
 (
 )
 )
-true
 )
 )
 )
