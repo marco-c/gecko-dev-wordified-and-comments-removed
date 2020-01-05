@@ -5445,6 +5445,7 @@ workerActor
 onResponse
 )
 {
+return
 this
 .
 client
