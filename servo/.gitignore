@@ -36,7 +36,9 @@ android
 /
 obj
 /
-python
+tests
+/
+wpt
 /
 _virtualenv
 *
