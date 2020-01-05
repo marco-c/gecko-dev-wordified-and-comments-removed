@@ -234,9 +234,6 @@ SPUnloadExtension
 "
 SPExtensionMessage
 "
-"
-SPClearAppPrivateData
-"
 ]
 ;
 addMessageListener

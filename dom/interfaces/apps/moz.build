@@ -95,11 +95,6 @@ mozIApplication
 idl
 '
 '
-mozIApplicationClearPrivateDataParams
-.
-idl
-'
-'
 nsIAppsService
 .
 idl

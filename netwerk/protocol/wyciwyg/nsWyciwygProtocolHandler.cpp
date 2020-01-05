@@ -50,13 +50,6 @@ h
 #
 include
 "
-mozIApplicationClearPrivateDataParams
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

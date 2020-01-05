@@ -494,13 +494,6 @@ h
 #
 include
 "
-mozIApplicationClearPrivateDataParams
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
