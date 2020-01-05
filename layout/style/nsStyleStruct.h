@@ -2612,10 +2612,16 @@ Layer
 nsStyleImage
 mImage
 ;
+RefPtr
+<
 mozilla
 :
 :
-FragmentOrURL
+css
+:
+:
+URLValueData
+>
 mSourceURI
 ;
 mozilla
