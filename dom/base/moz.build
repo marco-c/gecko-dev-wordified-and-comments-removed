@@ -1053,6 +1053,11 @@ Timeout
 h
 '
 '
+TimeoutManager
+.
+h
+'
+'
 TreeWalker
 .
 h
@@ -1734,6 +1739,11 @@ cpp
 '
 '
 Timeout
+.
+cpp
+'
+'
+TimeoutManager
 .
 cpp
 '
