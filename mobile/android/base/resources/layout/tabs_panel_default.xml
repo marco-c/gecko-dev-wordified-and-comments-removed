@@ -714,13 +714,6 @@ match_parent
 "
 android
 :
-choiceMode
-=
-"
-singleChoice
-"
-android
-:
 visibility
 =
 "

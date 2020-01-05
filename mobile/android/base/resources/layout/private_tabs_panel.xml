@@ -244,13 +244,6 @@ layout_height
 "
 match_parent
 "
-android
-:
-choiceMode
-=
-"
-singleChoice
-"
 gecko
 :
 tabs
