@@ -93,11 +93,6 @@ engines
 js
 "
 "
-identity
-.
-js
-"
-"
 keys
 .
 js
@@ -129,13 +124,6 @@ js
 "
 "
 service
-.
-js
-"
-"
-stages
-/
-cluster
 .
 js
 "
