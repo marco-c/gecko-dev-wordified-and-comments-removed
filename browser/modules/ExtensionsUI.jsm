@@ -2303,6 +2303,15 @@ options
 hideClose
 :
 true
+timeout
+:
+Date
+.
+now
+(
+)
++
+30000
 popupIconURL
 :
 addon
