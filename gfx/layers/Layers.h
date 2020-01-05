@@ -5579,6 +5579,9 @@ endif
 nsCString
 mDisplayListLog
 ;
+StyleAnimationValue
+mBaseAnimationStyle
+;
 }
 ;
 class
