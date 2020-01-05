@@ -444,8 +444,6 @@ nsIWebBrowserChrome
 aParentChrome
 uint32_t
 aChromeFlags
-uint32_t
-aContextFlags
 nsITabParent
 *
 aOpeningTabParent

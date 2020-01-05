@@ -556,13 +556,6 @@ public
 :
 inline
 bool
-IsLoadingOrRunningTimeout
-(
-)
-const
-;
-inline
-bool
 IsLoading
 (
 )
