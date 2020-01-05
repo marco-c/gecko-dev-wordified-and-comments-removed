@@ -91,12 +91,6 @@ nsString
 .
 h
 "
-#
-define
-BIAS_TIME_MS
-1
-.
-0
 namespace
 mozilla
 {
@@ -2390,6 +2384,3 @@ isAlphaPremultiplied
 }
 }
 }
-#
-undef
-BIAS_TIME_MS
