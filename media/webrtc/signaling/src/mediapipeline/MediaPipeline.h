@@ -337,8 +337,8 @@ ssrc_index
 void
 SelectSsrc_s
 (
-size_t
-ssrc_index
+uint32_t
+ssrc
 )
 ;
 virtual

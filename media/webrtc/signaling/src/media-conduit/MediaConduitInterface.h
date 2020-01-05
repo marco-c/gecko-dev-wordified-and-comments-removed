@@ -648,6 +648,17 @@ ssrc
 ;
 virtual
 bool
+SetRemoteSSRC
+(
+unsigned
+int
+ssrc
+)
+=
+0
+;
+virtual
+bool
 SetLocalCNAME
 (
 const
