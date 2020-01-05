@@ -345,6 +345,11 @@ Http
 jsm
 '
 '
+IndexedDB
+.
+jsm
+'
+'
 InlineSpellChecker
 .
 jsm
