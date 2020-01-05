@@ -965,6 +965,11 @@ CanThrottle
 const
 ;
 void
+WillComposeStyle
+(
+)
+;
+void
 ComposeStyle
 (
 AnimationRule

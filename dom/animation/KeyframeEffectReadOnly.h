@@ -987,6 +987,11 @@ aServoValues
 )
 ;
 void
+WillComposeStyle
+(
+)
+;
+void
 ComposeStyle
 (
 AnimationRule
