@@ -112,13 +112,6 @@ SeekJob
 .
 h
 "
-#
-include
-"
-SeekTask
-.
-h
-"
 namespace
 mozilla
 {
