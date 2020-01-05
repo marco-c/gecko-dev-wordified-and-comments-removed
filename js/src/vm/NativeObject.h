@@ -6343,6 +6343,14 @@ NativeObject
 nullptr
 ;
 }
+bool
+IsPackedArray
+(
+JSObject
+*
+obj
+)
+;
 }
 inline
 bool
