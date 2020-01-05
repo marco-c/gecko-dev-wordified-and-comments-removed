@@ -244,6 +244,13 @@ h
 #
 include
 "
+WinCompositorWidget
+.
+h
+"
+#
+include
+"
 nsUXThemeData
 .
 h
