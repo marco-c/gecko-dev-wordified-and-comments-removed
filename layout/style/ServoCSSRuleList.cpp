@@ -294,7 +294,7 @@ NAMESPACE_RULE
 :
 default
 :
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
