@@ -198,7 +198,7 @@ family_name
 CFString
 :
 :
-wrap_extern
+wrap_shared
 (
 strref
 )
