@@ -1954,13 +1954,6 @@ openPreferences
 "
 paneGeneral
 "
-{
-origin
-:
-"
-contentSearch
-"
-}
 )
 ;
 }

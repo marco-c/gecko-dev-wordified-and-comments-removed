@@ -297,14 +297,6 @@ oncommand
 "
 openPreferences
 (
-undefined
-{
-origin
-:
-'
-commandLineLegacy
-'
-}
 )
 ;
 "

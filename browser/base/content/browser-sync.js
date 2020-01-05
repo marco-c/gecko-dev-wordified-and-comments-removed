@@ -1424,9 +1424,6 @@ openPrefs
 "
 menupanel
 "
-"
-fxaSignedin
-"
 )
 ;
 break
@@ -1462,9 +1459,6 @@ openPrefs
 "
 menupanel
 "
-"
-fxaError
-"
 )
 ;
 }
@@ -1490,9 +1484,6 @@ openPrefs
 (
 "
 menupanel
-"
-"
-fxa
 "
 )
 ;
@@ -2617,9 +2608,6 @@ entryPoint
 "
 syncbutton
 "
-origin
-=
-undefined
 )
 {
 window
@@ -2630,7 +2618,6 @@ openPreferences
 paneSync
 "
 {
-origin
 urlParams
 :
 {
