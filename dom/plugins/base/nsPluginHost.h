@@ -729,6 +729,16 @@ nsACString
 aMimeType
 )
 ;
+static
+bool
+CanUsePluginForMIMEType
+(
+const
+nsACString
+&
+aMIMEType
+)
+;
 enum
 SpecialType
 {
