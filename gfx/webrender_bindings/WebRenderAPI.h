@@ -78,9 +78,6 @@ class
 RendererOGL
 ;
 class
-NewRenderer
-;
-class
 RendererEvent
 ;
 class
@@ -342,10 +339,6 @@ mId
 ;
 GLint
 mMaxTextureSize
-;
-friend
-class
-NewRenderer
 ;
 friend
 class

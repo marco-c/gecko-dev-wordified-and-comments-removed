@@ -333,9 +333,11 @@ mMaxTextureSize
 ;
 wr_gl_init
 (
-&
-*
 gl
+.
+get
+(
+)
 )
 ;
 WrRenderer
@@ -409,6 +411,8 @@ renderer
 )
 ;
 }
+private
+:
 WrAPI
 *
 *
@@ -516,6 +520,8 @@ mTask
 )
 ;
 }
+private
+:
 layers
 :
 :
@@ -1134,6 +1140,8 @@ mEnabled
 ;
 }
 }
+private
+:
 bool
 mEnabled
 ;
