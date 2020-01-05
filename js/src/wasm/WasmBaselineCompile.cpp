@@ -8514,10 +8514,6 @@ stackSize
 return
 false
 ;
-if
-(
-label
-)
 ctl_
 .
 back
