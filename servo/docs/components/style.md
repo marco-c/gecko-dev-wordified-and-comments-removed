@@ -378,7 +378,7 @@ Rule
 [
 selectors
 -
-rules
+rule
 ]
 s
 and
@@ -1658,9 +1658,9 @@ servo
 .
 org
 /
-style
+selectors
 /
-selector_matching
+matching
 /
 struct
 .
@@ -1683,9 +1683,9 @@ servo
 .
 org
 /
-style
+selectors
 /
-selector_matching
+matching
 /
 struct
 .
