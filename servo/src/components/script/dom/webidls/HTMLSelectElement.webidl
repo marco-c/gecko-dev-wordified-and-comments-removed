@@ -229,8 +229,6 @@ DOMString
 name
 )
 ;
-/
-*
 [
 Throws
 ]
@@ -255,8 +253,6 @@ before
 null
 )
 ;
-*
-/
 void
 remove
 (
