@@ -246,4 +246,9 @@ GeckoViewProgress
 .
 jsm
 '
+'
+GeckoViewSettings
+.
+jsm
+'
 ]
