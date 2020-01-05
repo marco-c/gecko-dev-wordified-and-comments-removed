@@ -40,8 +40,10 @@ protected
 Spinner
 (
 )
-{
-}
+override
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
