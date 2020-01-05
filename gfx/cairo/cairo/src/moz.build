@@ -317,14 +317,6 @@ win32
 h
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_ENABLE_DWRITE_FONT
-'
-]
-:
 SOURCES
 +
 =
