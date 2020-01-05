@@ -756,7 +756,7 @@ docker
 image
 "
 :
-                                
+                               
 dep_job
 .
 dependencies
@@ -797,7 +797,7 @@ build
 signing
 "
 ]
-                               
+                                
 }
         
 dependencies
@@ -818,7 +818,7 @@ repackage
 dep_job
 .
 label
-                                 
+                                  
 }
         
 dependencies
@@ -858,7 +858,7 @@ build
 -
 "
 )
-                             
+                              
 }
         
 dependencies
