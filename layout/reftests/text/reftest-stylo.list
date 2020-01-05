@@ -4016,7 +4016,7 @@ ot
 only
 .
 html
-#
+fails
 HTTP
 (
 .
@@ -4038,6 +4038,9 @@ graphite
 simple
 .
 html
+#
+Bug
+1290237
 fails
 HTTP
 (

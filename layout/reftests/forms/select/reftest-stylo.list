@@ -100,7 +100,7 @@ button
 placement
 .
 html
-#
+fails
 HTTP
 (
 .
@@ -121,6 +121,9 @@ vertical
 centering
 .
 html
+#
+Bug
+1290237
 fails
 =
 =

@@ -600,7 +600,7 @@ a
 feature
 is
 repeated
-#
+fails
 HTTP
 (
 .
@@ -626,6 +626,9 @@ order
 1
 .
 html
+#
+Bug
+1290237
 fails
 HTTP
 (
@@ -2076,7 +2079,7 @@ subsuper
 nofallback
 .
 html
-#
+fails
 HTTP
 (
 .
@@ -2098,3 +2101,6 @@ fallback
 size
 .
 html
+#
+Bug
+1290237
