@@ -26,9 +26,7 @@ helper32
 sh
 clang
 -
-static
--
-analysis
+tidy
 -
 win32
 .
