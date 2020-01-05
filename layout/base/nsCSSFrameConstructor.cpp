@@ -37245,10 +37245,6 @@ IncrementDOMGeneration
 )
 ;
 }
-+
-+
-sGlobalGenerationNumber
-;
 #
 ifdef
 DEBUG

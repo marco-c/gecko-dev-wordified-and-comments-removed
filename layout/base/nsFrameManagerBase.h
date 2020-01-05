@@ -88,16 +88,6 @@ mRootFrame
 aRootFrame
 ;
 }
-static
-uint32_t
-GetGlobalGenerationNumber
-(
-)
-{
-return
-sGlobalGenerationNumber
-;
-}
 protected
 :
 class
@@ -125,10 +115,6 @@ mDisplayContentsMap
 ;
 bool
 mIsDestroyingFrames
-;
-static
-uint32_t
-sGlobalGenerationNumber
 ;
 }
 ;

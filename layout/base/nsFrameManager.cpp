@@ -3849,9 +3849,3 @@ RemoveUndisplayedEntry
 )
 ;
 }
-uint32_t
-nsFrameManagerBase
-:
-:
-sGlobalGenerationNumber
-;
