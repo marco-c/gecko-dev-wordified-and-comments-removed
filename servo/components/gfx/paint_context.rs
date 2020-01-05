@@ -1351,6 +1351,7 @@ draw_target
 let
 azure_surface
 =
+match
 draw_target_ref
 .
 create_source_surface_from_data
@@ -1365,6 +1366,19 @@ as
 i32
 source_format
 )
+{
+Some
+(
+azure_surface
+)
+=
+>
+azure_surface
+None
+=
+>
+return
+}
 ;
 let
 source_rect

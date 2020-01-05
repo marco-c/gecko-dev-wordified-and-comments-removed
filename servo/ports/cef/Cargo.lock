@@ -1140,7 +1140,7 @@ rust
 -
 azure
 #
-befed8e71a7e66027905546e2057404edb0532f4
+f517e08c00fcd0249f031ac1f976e18b57f3da60
 "
 dependencies
 =
@@ -11764,7 +11764,7 @@ ipc
 -
 channel
 #
-63a7b00deb5296ff890cc2c7964e039dbd7aeb13
+5e71fe6a1831e61e01ec8580bd3c3280b25d6054
 "
 dependencies
 =
