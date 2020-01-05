@@ -141,6 +141,9 @@ nsISupports
 idl
 "
 interface
+nsIMutableArray
+;
+interface
 nsILayoutHistoryState
 ;
 interface
@@ -154,9 +157,6 @@ nsIInputStream
 ;
 interface
 nsIDocShellTreeItem
-;
-interface
-nsISupportsArray
 ;
 interface
 nsIStructuredCloneContainer
@@ -735,7 +735,7 @@ viewer
 *
 /
 attribute
-nsISupportsArray
+nsIMutableArray
 refreshURIList
 ;
 /

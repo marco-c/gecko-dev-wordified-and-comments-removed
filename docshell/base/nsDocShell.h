@@ -414,6 +414,9 @@ class
 nsIHttpChannel
 ;
 class
+nsIMutableArray
+;
+class
 nsIPrompt
 ;
 class
@@ -424,9 +427,6 @@ nsISecureBrowserUI
 ;
 class
 nsIStringBundle
-;
-class
-nsISupportsArray
 ;
 class
 nsIURIFixup
@@ -2334,13 +2334,13 @@ mDefaultScrollbarPref
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 mRefreshURIList
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 mSavedRefreshURIList
 ;

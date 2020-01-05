@@ -3065,7 +3065,7 @@ nsSHEntry
 :
 GetRefreshURIList
 (
-nsISupportsArray
+nsIMutableArray
 *
 *
 aList
@@ -3092,7 +3092,7 @@ nsSHEntry
 :
 SetRefreshURIList
 (
-nsISupportsArray
+nsIMutableArray
 *
 aList
 )
