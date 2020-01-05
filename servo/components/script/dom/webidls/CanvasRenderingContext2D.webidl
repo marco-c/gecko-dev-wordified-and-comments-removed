@@ -1028,8 +1028,9 @@ id
 /
 pixel
 manipulation
-/
-/
+[
+Throws
+]
 ImageData
 createImageData
 (
@@ -1039,8 +1040,9 @@ double
 sh
 )
 ;
-/
-/
+[
+Throws
+]
 ImageData
 createImageData
 (
@@ -1048,8 +1050,9 @@ ImageData
 imagedata
 )
 ;
-/
-/
+[
+Throws
+]
 ImageData
 getImageData
 (
@@ -1063,8 +1066,6 @@ double
 sh
 )
 ;
-/
-/
 void
 putImageData
 (
@@ -1076,8 +1077,6 @@ double
 dy
 )
 ;
-/
-/
 void
 putImageData
 (
