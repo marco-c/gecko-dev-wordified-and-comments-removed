@@ -292,7 +292,7 @@ dump
 ;
 this_box
 .
-apply_style_for_subtree
+apply_css_style
 (
 )
 ;
