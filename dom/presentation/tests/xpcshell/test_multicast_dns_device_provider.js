@@ -2686,6 +2686,10 @@ listener
 =
 null
 ;
+provider
+=
+null
+;
 run_next_test
 (
 )
@@ -4706,6 +4710,10 @@ listener
 =
 null
 ;
+provider
+=
+null
+;
 run_next_test
 (
 )
@@ -5162,6 +5170,10 @@ count
 provider
 .
 listener
+=
+null
+;
+provider
 =
 null
 ;
