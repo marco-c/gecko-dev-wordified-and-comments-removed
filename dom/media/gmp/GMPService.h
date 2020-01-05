@@ -131,6 +131,13 @@ GMPContentParent
 .
 h
 "
+#
+include
+"
+GMPCrashHelper
+.
+h
+"
 template
 <
 class
