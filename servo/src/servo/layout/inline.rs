@@ -145,10 +145,7 @@ util
 *
 ;
 use
-gfx
-:
-:
-util
+servo_util
 :
 :
 range

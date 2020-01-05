@@ -57,7 +57,7 @@ FontTableMethods
 }
 ;
 use
-util
+servo_util
 :
 :
 range

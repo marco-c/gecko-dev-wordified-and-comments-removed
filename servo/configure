@@ -2276,6 +2276,15 @@ src
 /
 servo
 -
+util
+make_dir
+{
+CFG_BUILD_DIR
+}
+src
+/
+servo
+-
 gfx
 make_dir
 src

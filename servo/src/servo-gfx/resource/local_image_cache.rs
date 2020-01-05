@@ -60,7 +60,7 @@ ImageFailed
 }
 ;
 use
-util
+servo_util
 :
 :
 url

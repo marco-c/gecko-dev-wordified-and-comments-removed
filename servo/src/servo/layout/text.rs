@@ -25,10 +25,7 @@ text_run
 TextRun
 ;
 use
-gfx
-:
-:
-util
+servo_util
 :
 :
 range

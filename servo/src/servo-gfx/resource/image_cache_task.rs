@@ -26,7 +26,7 @@ resource_task
 ResourceTask
 ;
 use
-util
+servo_util
 :
 :
 url

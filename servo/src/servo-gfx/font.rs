@@ -23,7 +23,7 @@ render_context
 RenderContext
 ;
 use
-util
+servo_util
 :
 :
 range

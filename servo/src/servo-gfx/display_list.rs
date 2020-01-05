@@ -35,7 +35,7 @@ text
 SendableTextRun
 ;
 use
-util
+servo_util
 :
 :
 range
