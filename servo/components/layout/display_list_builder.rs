@@ -7425,6 +7425,14 @@ shared
 .
 canvas_layers_sender
 .
+lock
+(
+)
+.
+unwrap
+(
+)
+.
 send
 (
 (
