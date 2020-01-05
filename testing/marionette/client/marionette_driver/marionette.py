@@ -8360,15 +8360,6 @@ flags
 )
 }
 )
-        
-self
-.
-delete_session
-(
-in_app
-=
-True
-)
     
 do_process_check
     
@@ -8543,6 +8534,22 @@ callback
 )
 :
                 
+self
+.
+_send_message
+(
+"
+acceptConnections
+"
+{
+"
+value
+"
+:
+False
+}
+)
+                
 callback
 (
 )
@@ -8554,6 +8561,15 @@ self
 .
 _request_in_app_shutdown
 (
+)
+            
+self
+.
+delete_session
+(
+in_app
+=
+True
 )
             
 self
@@ -8800,6 +8816,22 @@ callback
 )
 :
                 
+self
+.
+_send_message
+(
+"
+acceptConnections
+"
+{
+"
+value
+"
+:
+False
+}
+)
+                
 callback
 (
 )
@@ -8814,6 +8846,15 @@ _request_in_app_shutdown
 "
 eRestart
 "
+)
+            
+self
+.
+delete_session
+(
+in_app
+=
+True
 )
             
 try
