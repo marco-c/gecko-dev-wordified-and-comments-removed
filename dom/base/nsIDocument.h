@@ -3586,7 +3586,10 @@ virtual
 void
 FlushPendingNotifications
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 =
@@ -3596,7 +3599,10 @@ virtual
 void
 FlushExternalResources
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 =

@@ -285,7 +285,10 @@ AddRefreshObserver
 nsARefreshObserver
 *
 aObserver
-mozFlushType
+mozilla
+:
+:
+FlushType
 aFlushType
 )
 ;
@@ -295,7 +298,10 @@ RemoveRefreshObserver
 nsARefreshObserver
 *
 aObserver
-mozFlushType
+mozilla
+:
+:
+FlushType
 aFlushType
 )
 ;
@@ -701,7 +707,10 @@ IsRefreshObserver
 nsARefreshObserver
 *
 aObserver
-mozFlushType
+mozilla
+:
+:
+FlushType
 aFlushType
 )
 ;
@@ -1018,7 +1027,10 @@ ObserverArray
 &
 ArrayFor
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aFlushType
 )
 ;

@@ -3936,7 +3936,10 @@ mShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -4988,7 +4991,10 @@ shell
 >
 FlushPendingNotifications
 (
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 return
@@ -9170,7 +9176,10 @@ mShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -25937,7 +25946,10 @@ presShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 presShell

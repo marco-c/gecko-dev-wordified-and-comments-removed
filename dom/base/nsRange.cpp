@@ -12178,7 +12178,10 @@ OwnerDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -12622,7 +12625,10 @@ OwnerDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -13353,7 +13359,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 NS_ENSURE_TRUE

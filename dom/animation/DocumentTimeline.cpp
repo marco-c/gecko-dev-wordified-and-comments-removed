@@ -599,7 +599,10 @@ refreshDriver
 AddRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mIsObservingRefreshDriver
@@ -901,7 +904,10 @@ aDriver
 AddRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mIsObservingRefreshDriver
@@ -936,7 +942,10 @@ aDriver
 RemoveRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mIsObservingRefreshDriver
@@ -1149,7 +1158,10 @@ refreshDriver
 RemoveRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mIsObservingRefreshDriver

@@ -833,7 +833,7 @@ nsHtml5TreeOpExecutor
 :
 FlushPendingNotifications
 (
-mozFlushType
+FlushType
 aType
 )
 {
@@ -842,7 +842,10 @@ if
 aType
 >
 =
-Flush_InterruptibleLayout
+FlushType
+:
+:
+InterruptibleLayout
 )
 {
 nsContentSink

@@ -405,7 +405,10 @@ mDocument
 >
 FlushPendingNotifications
 (
-Flush_Content
+FlushType
+:
+:
+Content
 )
 ;
 }

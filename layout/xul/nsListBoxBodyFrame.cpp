@@ -3213,7 +3213,10 @@ GetComposedDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 return
@@ -3535,7 +3538,10 @@ GetComposedDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -3747,7 +3753,10 @@ PresShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if

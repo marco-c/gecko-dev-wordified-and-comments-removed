@@ -1127,7 +1127,10 @@ composedDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -3167,7 +3170,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 NS_ENSURE_TRUE
@@ -11941,7 +11947,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 }

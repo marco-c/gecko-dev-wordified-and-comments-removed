@@ -2279,7 +2279,10 @@ mDocument
 >
 FlushPendingNotifications
 (
-Flush_ContentAndNotify
+FlushType
+:
+:
+ContentAndNotify
 )
 ;
 }
@@ -3284,7 +3287,10 @@ shell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -12965,7 +12971,10 @@ mDocument
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 nsIFrame

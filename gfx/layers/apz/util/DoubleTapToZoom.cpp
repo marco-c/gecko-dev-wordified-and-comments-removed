@@ -507,7 +507,10 @@ aRootContentDocument
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 const

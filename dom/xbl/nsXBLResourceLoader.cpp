@@ -1013,7 +1013,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 nsIPresShell
@@ -1088,7 +1091,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_ContentAndNotify
+FlushType
+:
+:
+ContentAndNotify
 )
 ;
 }

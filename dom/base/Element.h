@@ -3498,7 +3498,7 @@ nsIFrame
 *
 GetPrimaryFrame
 (
-mozFlushType
+FlushType
 aType
 )
 ;

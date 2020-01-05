@@ -1111,7 +1111,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_ContentAndNotify
+FlushType
+:
+:
+ContentAndNotify
 )
 ;
 NS_ENSURE_TRUE

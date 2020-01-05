@@ -343,7 +343,10 @@ mPresShell
 RemoveRefreshObserver
 (
 this
-Flush_Display
+FlushType
+:
+:
+Display
 )
 )
 {
@@ -2215,7 +2218,10 @@ mPresShell
 AddRefreshObserver
 (
 this
-Flush_Display
+FlushType
+:
+:
+Display
 )
 )
 mObservingState
@@ -4637,7 +4643,10 @@ mPresShell
 RemoveRefreshObserver
 (
 this
-Flush_Display
+FlushType
+:
+:
+Display
 )
 )
 {

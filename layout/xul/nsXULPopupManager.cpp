@@ -2708,7 +2708,10 @@ presShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -7270,7 +7273,10 @@ presShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 popupFrame

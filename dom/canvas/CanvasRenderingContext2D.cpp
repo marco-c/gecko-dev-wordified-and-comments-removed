@@ -13004,7 +13004,10 @@ presShell
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 bool

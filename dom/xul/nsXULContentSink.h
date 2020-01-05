@@ -149,7 +149,10 @@ virtual
 void
 FlushPendingNotifications
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 override

@@ -1436,7 +1436,13 @@ presShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+mozilla
+:
+:
+FlushType
+:
+:
+Layout
 )
 ;
 RefPtr

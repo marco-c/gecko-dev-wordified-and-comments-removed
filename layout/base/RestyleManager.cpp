@@ -3047,7 +3047,10 @@ GetDocument
 >
 FlushPendingNotifications
 (
-Flush_ContentAndNotify
+FlushType
+:
+:
+ContentAndNotify
 )
 ;
 nsAutoScriptBlocker

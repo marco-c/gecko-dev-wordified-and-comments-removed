@@ -807,7 +807,10 @@ mRefreshDriver
 AddRefreshObserver
 (
 this
-Flush_Display
+FlushType
+:
+:
+Display
 )
 ;
 mRegistered
@@ -846,7 +849,10 @@ mRefreshDriver
 RemoveRefreshObserver
 (
 this
-Flush_Display
+FlushType
+:
+:
+Display
 )
 ;
 mRegistered

@@ -1268,7 +1268,13 @@ document
 >
 FlushPendingNotifications
 (
-Flush_Frames
+mozilla
+:
+:
+FlushType
+:
+:
+Frames
 )
 ;
 if

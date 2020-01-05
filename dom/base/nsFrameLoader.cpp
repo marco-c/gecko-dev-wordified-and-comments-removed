@@ -6510,7 +6510,10 @@ ourDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 otherDoc
@@ -6518,7 +6521,10 @@ otherDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 InitializeBrowserAPI
@@ -8617,7 +8623,10 @@ ourParentDocument
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 otherParentDocument
@@ -8625,7 +8634,10 @@ otherParentDocument
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 InitializeBrowserAPI

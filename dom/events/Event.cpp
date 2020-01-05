@@ -4351,7 +4351,10 @@ shell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 nsIFrame

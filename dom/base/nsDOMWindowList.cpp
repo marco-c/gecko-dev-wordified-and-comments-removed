@@ -188,7 +188,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_ContentAndNotify
+FlushType
+:
+:
+ContentAndNotify
 )
 ;
 }
