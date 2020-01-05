@@ -338,11 +338,6 @@ ColorConversion
 js
 '
 '
-ExtensionSearchHandler
-.
-jsm
-'
-'
 History
 .
 jsm
