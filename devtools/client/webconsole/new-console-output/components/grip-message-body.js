@@ -184,6 +184,11 @@ userProvidedStyle
 PropTypes
 .
 string
+useQuotes
+:
+PropTypes
+.
+bool
 }
 ;
 GripMessageBody
@@ -209,6 +214,7 @@ const
 grip
 userProvidedStyle
 serviceContainer
+useQuotes
 }
 =
 props
@@ -291,7 +297,7 @@ object
 grip
 useQuotes
 :
-false
+useQuotes
 mode
 :
 props
