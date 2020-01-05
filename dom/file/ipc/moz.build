@@ -303,3 +303,15 @@ error
 shadow
 '
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+tests
+/
+browser
+.
+ini
+'
+]
