@@ -1403,8 +1403,15 @@ activate
 (
 )
 .
-unwrap
+expect
 (
+"
+Failed
+to
+activate
+sandbox
+!
+"
 )
 ;
 }
