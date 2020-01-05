@@ -2869,7 +2869,7 @@ gl
 getExtension
 (
 "
-MOZ_debug_get
+MOZ_debug
 "
 )
 ;

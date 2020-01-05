@@ -793,11 +793,6 @@ WebGLExtensionCompressedTextureS3TC
 cpp
 '
 '
-WebGLExtensionDebugGet
-.
-cpp
-'
-'
 WebGLExtensionDebugRendererInfo
 .
 cpp
@@ -844,6 +839,11 @@ cpp
 '
 '
 WebGLExtensionLoseContext
+.
+cpp
+'
+'
+WebGLExtensionMOZDebug
 .
 cpp
 '
