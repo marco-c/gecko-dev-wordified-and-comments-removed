@@ -199,6 +199,11 @@ DIRS
 =
 [
 '
+activity
+-
+stream
+'
+'
 webcompat
 -
 reporter
