@@ -1499,7 +1499,7 @@ result
 \
 static_assert
 (
-NS_HALF_CORNER_IS_X
+HalfCornerIsX
 (
 corner
 )
@@ -1508,7 +1508,7 @@ corner
 result
 \
 "
-NS_HALF_CORNER_IS_X
+HalfCornerIsX
 is
 wrong
 "
