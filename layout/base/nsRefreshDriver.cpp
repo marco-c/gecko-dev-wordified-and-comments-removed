@@ -2326,6 +2326,12 @@ NewRunnableMethod
 <
 >
 (
+"
+RefreshDriverVsyncObserver
+:
+:
+NormalPriorityNotify
+"
 this
 &
 RefreshDriverVsyncObserver

@@ -41,6 +41,15 @@ T
 aPtr
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsHtml5RefPtrReleaser
+"
+)
 mPtr
 (
 aPtr

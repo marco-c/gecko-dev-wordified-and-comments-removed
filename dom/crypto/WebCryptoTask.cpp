@@ -16775,6 +16775,12 @@ WebCryptoTask
 (
 )
 :
+CancelableRunnable
+(
+"
+WebCryptoTask
+"
+)
 mEarlyRv
 (
 NS_OK
