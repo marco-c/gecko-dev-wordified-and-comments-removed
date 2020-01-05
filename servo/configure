@@ -1625,6 +1625,7 @@ exit
 CFG_SUBMODULES
 =
 "
+libwapcaplet
 rust
 -
 harfbuzz
