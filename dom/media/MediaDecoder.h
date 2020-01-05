@@ -459,6 +459,11 @@ Shutdown
 (
 )
 ;
+void
+NotifyXPCOMShutdown
+(
+)
+;
 virtual
 nsresult
 Load
