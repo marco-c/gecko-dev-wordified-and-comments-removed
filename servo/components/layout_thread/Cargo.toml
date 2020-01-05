@@ -281,14 +281,14 @@ path
 script_traits
 "
 }
-serde_json
+serde_derive
 =
 "
 0
 .
 8
 "
-serde_macros
+serde_json
 =
 "
 0
@@ -364,6 +364,6 @@ features
 =
 [
 "
-serde_macros
+serde_derive
 "
 ]

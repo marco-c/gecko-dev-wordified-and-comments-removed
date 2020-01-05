@@ -78,7 +78,7 @@ unstable
 serde
 "
 "
-serde_macros
+serde_derive
 "
 "
 heapsize_plugin
@@ -350,7 +350,7 @@ optional
 =
 true
 }
-serde_macros
+serde_derive
 =
 {
 version

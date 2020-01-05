@@ -148,7 +148,7 @@ serde_json
 .
 8
 "
-serde_macros
+serde_derive
 =
 "
 0

@@ -68,7 +68,7 @@ heapsize_plugin
 serde
 "
 "
-serde_macros
+serde_derive
 "
 "
 cssparser
@@ -164,7 +164,7 @@ optional
 =
 true
 }
-serde_macros
+serde_derive
 =
 {
 version

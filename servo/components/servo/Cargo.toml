@@ -753,7 +753,7 @@ features
 =
 [
 "
-serde_macros
+serde_derive
 "
 ]
 [
@@ -783,7 +783,7 @@ features
 =
 [
 "
-serde_macros
+serde_derive
 "
 ]
 [

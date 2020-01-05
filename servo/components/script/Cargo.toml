@@ -500,7 +500,7 @@ phf
 .
 7
 .
-16
+17
 "
 phf_macros
 =
@@ -509,7 +509,7 @@ phf_macros
 .
 7
 .
-16
+17
 "
 plugins
 =
@@ -778,6 +778,6 @@ features
 nightly
 "
 "
-serde_macros
+serde_derive
 "
 ]

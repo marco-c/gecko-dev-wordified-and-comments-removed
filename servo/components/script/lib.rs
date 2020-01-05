@@ -123,14 +123,6 @@ stmt_expr_attributes
 [
 feature
 (
-try_borrow
-)
-]
-#
-!
-[
-feature
-(
 try_from
 )
 ]

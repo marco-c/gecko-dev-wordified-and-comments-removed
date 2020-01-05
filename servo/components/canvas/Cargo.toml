@@ -212,6 +212,6 @@ features
 =
 [
 "
-serde_macros
+serde_derive
 "
 ]

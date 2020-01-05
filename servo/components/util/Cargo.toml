@@ -68,7 +68,7 @@ servo
 serde
 "
 "
-serde_macros
+serde_derive
 "
 "
 ipc
@@ -207,7 +207,7 @@ optional
 =
 true
 }
-serde_macros
+serde_derive
 =
 {
 version

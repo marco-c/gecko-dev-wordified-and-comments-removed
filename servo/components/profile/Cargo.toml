@@ -132,14 +132,14 @@ serde
 .
 8
 "
-serde_json
+serde_derive
 =
 "
 0
 .
 8
 "
-serde_macros
+serde_json
 =
 "
 0
