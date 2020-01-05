@@ -4276,13 +4276,6 @@ java
 '
 media
 /
-GeckoMediaDrm
-.
-java
-'
-'
-media
-/
 JellyBeanAsyncCodec
 .
 java
@@ -4326,13 +4319,6 @@ java
 media
 /
 SamplePool
-.
-java
-'
-'
-media
-/
-SessionKeyInfo
 .
 java
 '
