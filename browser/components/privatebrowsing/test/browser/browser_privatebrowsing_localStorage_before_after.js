@@ -7,15 +7,6 @@ test
 )
 {
 let
-testURI
-=
-"
-about
-:
-blank
-"
-;
-let
 prefix
 =
 "

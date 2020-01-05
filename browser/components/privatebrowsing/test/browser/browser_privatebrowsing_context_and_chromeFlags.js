@@ -141,7 +141,7 @@ function
 )
 {
 let
-loadContext
+contentLoadContext
 =
 docShell
 .
@@ -156,7 +156,7 @@ Assert
 .
 ok
 (
-loadContext
+contentLoadContext
 .
 usePrivateBrowsing
 "

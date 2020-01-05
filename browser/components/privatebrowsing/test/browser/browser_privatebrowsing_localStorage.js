@@ -59,9 +59,6 @@ true
 }
 )
 ;
-let
-tab
-=
 win
 .
 gBrowser
