@@ -101,10 +101,15 @@ cpp
 '
 ]
 if
+'
+gtk
+'
+not
+in
 CONFIG
 [
 '
-ENABLE_INTL_API
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :
