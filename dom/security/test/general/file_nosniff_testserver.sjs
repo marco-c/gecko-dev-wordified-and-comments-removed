@@ -341,7 +341,7 @@ query
 has
 (
 "
-imgtWrongType
+imgWrongType
 "
 )
 )
