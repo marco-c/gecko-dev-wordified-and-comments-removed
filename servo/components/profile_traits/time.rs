@@ -186,6 +186,7 @@ LayoutTreeBuilder
 LayoutDamagePropagate
 LayoutGeneratedContent
 LayoutDisplayListSorting
+LayoutFloatPlacementSpeculation
 LayoutMain
 LayoutStoreOverflow
 LayoutParallelWarmup
