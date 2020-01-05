@@ -194,6 +194,9 @@ mLock
 nsAdoptingCString
 mIPv4OnlyDomains
 ;
+nsAdoptingCString
+mForceResolve
+;
 bool
 mDisableIPv6
 ;
@@ -211,6 +214,9 @@ mNotifyResolution
 ;
 bool
 mOfflineLocalhost
+;
+bool
+mForceResolveOn
 ;
 nsTHashtable
 <
