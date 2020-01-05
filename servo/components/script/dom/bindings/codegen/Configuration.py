@@ -557,6 +557,28 @@ isGlobal
 (
 )
             
+elif
+key
+=
+=
+'
+isExposedConditionally
+'
+:
+                
+getter
+=
+lambda
+x
+:
+x
+.
+interface
+.
+isExposedConditionally
+(
+)
+            
 else
 :
                 
