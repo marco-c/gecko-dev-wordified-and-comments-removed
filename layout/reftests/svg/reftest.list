@@ -5522,14 +5522,6 @@ padding
 ref
 .
 svg
-fuzzy
--
-if
-(
-skiaContent
-7
-175
-)
 fails
 -
 if
