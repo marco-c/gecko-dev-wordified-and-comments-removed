@@ -1417,13 +1417,6 @@ import
 MozbuildObject
 BuildEnvironmentNotFoundException
         
-from
-mozbuild
-.
-mozconfig
-import
-MozconfigFindException
-        
 build
 =
 MozbuildObject
@@ -1476,10 +1469,7 @@ ImportError
 pass
     
 except
-(
 BuildEnvironmentNotFoundException
-MozconfigFindException
-)
 :
         
 pass
