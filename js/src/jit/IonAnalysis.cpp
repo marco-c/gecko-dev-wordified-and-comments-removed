@@ -22453,7 +22453,6 @@ info
 script
 fun
 nullptr
-false
 Analysis_DefiniteProperties
 script
 -
@@ -23688,7 +23687,6 @@ functionNonDelazifying
 (
 )
 nullptr
-false
 Analysis_ArgumentsUsage
 true
 inlineScriptTree
