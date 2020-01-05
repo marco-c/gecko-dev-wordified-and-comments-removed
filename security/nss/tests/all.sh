@@ -781,13 +781,6 @@ use
 32bit
 build
 #
-USE_ASAN
--
-use
-Address
-Sanitizer
-build
-#
 #
 Optional
 environment

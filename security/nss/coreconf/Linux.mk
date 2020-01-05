@@ -758,13 +758,6 @@ Wl
 -
 z
 defs
-ifneq
-(
-(
-USE_ASAN
-)
-1
-)
 DSO_LDOPTS
 +
 =
@@ -792,7 +785,6 @@ v
 ZDEFS_FLAG
 )
 )
-endif
 LDFLAGS
 +
 =
@@ -1168,13 +1160,3 @@ DSO_LDOPTS
 -
 coverage
 endif
-include
-(
-CORE_DEPTH
-)
-/
-coreconf
-/
-sanitizers
-.
-mk

@@ -710,6 +710,13 @@ en
 )
 ;
 void
+SetFallbackSCSVEnabled
+(
+bool
+en
+)
+;
+void
 SetShortHeadersEnabled
 (
 )
