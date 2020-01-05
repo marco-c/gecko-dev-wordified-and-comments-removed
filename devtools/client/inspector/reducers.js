@@ -16,7 +16,7 @@ client
 /
 inspector
 /
-boxmodel
+layout
 /
 reducers
 /

@@ -222,16 +222,20 @@ span
 =
 view
 .
-document
+doc
 .
 querySelector
 (
 "
 .
+old
+-
 boxmodel
 -
 border
 .
+old
+-
 boxmodel
 -
 top
@@ -269,7 +273,7 @@ span
 }
 view
 .
-document
+doc
 .
 defaultView
 )
@@ -279,7 +283,7 @@ editor
 =
 view
 .
-document
+doc
 .
 querySelector
 (
@@ -336,7 +340,7 @@ synthesizeKey
 }
 view
 .
-document
+doc
 .
 defaultView
 )
@@ -443,7 +447,7 @@ VK_ESCAPE
 }
 view
 .
-document
+doc
 .
 defaultView
 )
