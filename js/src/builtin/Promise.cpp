@@ -8162,8 +8162,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 Promise_reject
 (
 JSContext
@@ -8246,8 +8248,10 @@ return
 promise
 ;
 }
-static
 bool
+js
+:
+:
 Promise_static_resolve
 (
 JSContext
@@ -8702,8 +8706,10 @@ return
 resultPromise
 ;
 }
-static
 bool
+js
+:
+:
 Promise_then
 (
 JSContext

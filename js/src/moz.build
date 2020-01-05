@@ -2413,6 +2413,13 @@ cpp
 '
 vm
 /
+AsyncFunction
+.
+cpp
+'
+'
+vm
+/
 Caches
 .
 cpp
@@ -5767,6 +5774,13 @@ js
 builtin
 /
 Array
+.
+js
+'
+'
+builtin
+/
+AsyncFunctions
 .
 js
 '

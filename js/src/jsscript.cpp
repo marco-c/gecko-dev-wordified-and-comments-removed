@@ -17795,6 +17795,17 @@ HandleFunction
 srcFun
 )
 {
+MOZ_ASSERT
+(
+!
+srcFun
+-
+>
+isAsync
+(
+)
+)
+;
 RootedObject
 cloneProto
 (
