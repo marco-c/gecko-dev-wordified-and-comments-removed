@@ -4675,14 +4675,6 @@ servo
 test_shorthand_property_getters
 .
 html
-animation
-[
-9
-]
-*
-.
-.
-.
 transition
 [
 5
