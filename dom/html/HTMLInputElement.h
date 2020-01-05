@@ -3431,6 +3431,12 @@ return
 DoesMinMaxApply
 (
 )
+&
+&
+mType
+!
+=
+NS_FORM_INPUT_DATETIME_LOCAL
 ;
 }
 bool
@@ -3455,6 +3461,12 @@ return
 DoesMinMaxApply
 (
 )
+&
+&
+mType
+!
+=
+NS_FORM_INPUT_DATETIME_LOCAL
 ;
 }
 bool
