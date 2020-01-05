@@ -441,9 +441,6 @@ RenderFrameParent
 nsFrameLoader
 *
 aFrameLoader
-bool
-*
-aSuccess
 )
 :
 mLayersId
@@ -473,11 +470,6 @@ Init
 (
 aFrameLoader
 )
-;
-*
-aSuccess
-=
-mInitted
 ;
 }
 RenderFrameParent

@@ -211,14 +211,12 @@ ViewID
 ;
 public
 :
+explicit
 RenderFrameParent
 (
 nsFrameLoader
 *
 aFrameLoader
-bool
-*
-aSuccess
 )
 ;
 virtual
