@@ -280,12 +280,7 @@ MOZ_ASSERT
 responsiveness
 =
 =
-(
 mIsMainThread
-&
-&
-mIsBeingProfiled
-)
 )
 ;
 return
