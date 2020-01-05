@@ -792,7 +792,7 @@ element
 set_string_attribute
 (
 "
-useMap
+usemap
 "
 use_map
 )
@@ -834,7 +834,7 @@ element
 set_string_attribute
 (
 "
-isMap
+ismap
 "
 is_map
 .
