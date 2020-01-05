@@ -2661,6 +2661,9 @@ ipc
 IPCResult
 RecvEnsureLayersConnected
 (
+CompositorOptions
+*
+aCompositorOptions
 )
 override
 ;

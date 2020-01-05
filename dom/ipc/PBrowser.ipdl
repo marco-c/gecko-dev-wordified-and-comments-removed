@@ -3766,6 +3766,11 @@ sync
 EnsureLayersConnected
 (
 )
+returns
+(
+CompositorOptions
+compositorOptions
+)
 ;
 /
 *
