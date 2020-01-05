@@ -166,13 +166,7 @@ cx
 JS
 :
 :
-MutableHandle
-<
-JS
-:
-:
-Value
->
+MutableHandleValue
 retval
 )
 ;
