@@ -1215,15 +1215,6 @@ env
 '
 MOZ_PROFILING
 '
-default
-=
-delayed_getattr
-(
-milestone
-'
-is_nightly
-'
-)
 help
 =
 '
