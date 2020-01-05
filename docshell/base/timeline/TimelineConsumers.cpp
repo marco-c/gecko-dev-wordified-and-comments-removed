@@ -586,6 +586,8 @@ char
 aName
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
 )
 {
 MOZ_ASSERT
@@ -620,6 +622,7 @@ TimelineMarker
 (
 aName
 aTracingType
+aStackRequest
 )
 )
 )
@@ -645,6 +648,8 @@ TimeStamp
 aTime
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
 )
 {
 MOZ_ASSERT
@@ -680,6 +685,7 @@ TimelineMarker
 aName
 aTime
 aTracingType
+aStackRequest
 )
 )
 )
@@ -750,6 +756,8 @@ char
 aName
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
 )
 {
 MOZ_ASSERT
@@ -771,6 +779,7 @@ aDocShell
 )
 aName
 aTracingType
+aStackRequest
 )
 ;
 }
@@ -793,6 +802,8 @@ TimeStamp
 aTime
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
 )
 {
 MOZ_ASSERT
@@ -815,6 +826,7 @@ aDocShell
 aName
 aTime
 aTracingType
+aStackRequest
 )
 ;
 }
