@@ -135,6 +135,10 @@ interfaces
 let
 webProgress
 =
+content
+.
+document
+.
 docShell
 .
 QueryInterface
