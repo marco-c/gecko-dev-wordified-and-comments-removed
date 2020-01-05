@@ -2727,6 +2727,10 @@ PLayerTransactionChild
 aShadowManager
 )
 {
+DestroyLayerManager
+(
+)
+;
 MOZ_ASSERT
 (
 mTabChild
