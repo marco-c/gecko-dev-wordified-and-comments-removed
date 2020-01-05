@@ -734,6 +734,10 @@ TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
+const
+char
+*
+aName
 )
 ;
 template

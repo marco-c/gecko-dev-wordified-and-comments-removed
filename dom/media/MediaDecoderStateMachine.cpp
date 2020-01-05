@@ -11511,6 +11511,12 @@ MediaThreadType
 :
 PLAYBACK
 )
+"
+MDSM
+:
+:
+mTaskQueue
+"
 true
 )
 )

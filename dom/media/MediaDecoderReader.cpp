@@ -334,6 +334,12 @@ MediaThreadType
 :
 PLAYBACK
 )
+"
+MediaDecoderReader
+:
+:
+mTaskQueue
+"
 true
 )
 )
