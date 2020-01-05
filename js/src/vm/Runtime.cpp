@@ -2838,7 +2838,9 @@ defaultLocale
 =
 JS_strdup
 (
-this
+contextFromMainThread
+(
+)
 locale
 )
 ;
@@ -2940,7 +2942,9 @@ lang
 =
 JS_strdup
 (
-this
+contextFromMainThread
+(
+)
 locale
 )
 ;
