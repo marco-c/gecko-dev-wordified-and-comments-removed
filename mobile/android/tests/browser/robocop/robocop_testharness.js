@@ -10,8 +10,11 @@ Services
 .
 androidBridge
 .
-handleGeckoMessage
+dispatch
 (
+message
+.
+type
 message
 )
 ;
@@ -286,7 +289,7 @@ type
 "
 Robocop
 :
-JS
+Java
 "
 innerType
 :

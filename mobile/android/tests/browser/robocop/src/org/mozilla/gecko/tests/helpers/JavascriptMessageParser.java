@@ -57,7 +57,7 @@ EVENT_TYPE
 "
 Robocop
 :
-JS
+Java
 "
 ;
 private

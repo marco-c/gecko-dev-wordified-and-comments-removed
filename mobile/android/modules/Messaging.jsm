@@ -627,7 +627,7 @@ formattedStack
 }
 }
 ;
-const
+var
 EventDispatcher
 =
 {
