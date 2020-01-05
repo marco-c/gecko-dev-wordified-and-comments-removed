@@ -1337,8 +1337,9 @@ base
 :
 {
 NodeScope
+TreeReadMethods
+TreeWriteMethods
 UnknownElement
-wr_tree_ops
 }
 ;
 import

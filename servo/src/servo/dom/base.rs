@@ -83,7 +83,7 @@ tree
 tree
 :
 :
-fields
+Tree
 <
 Node
 >
@@ -412,11 +412,12 @@ k
 }
 }
 impl
+TreeReadMethods
 of
 tree
 :
 :
-rd_tree_ops
+ReadMethods
 <
 Node
 >
@@ -489,7 +490,7 @@ fn
 tree
 :
 :
-fields
+Tree
 <
 Node
 >
@@ -522,11 +523,12 @@ tree
 }
 }
 impl
+TreeWriteMethods
 of
 tree
 :
 :
-wr_tree_ops
+WriteMethods
 <
 Node
 >
@@ -570,7 +572,7 @@ fn
 tree
 :
 :
-fields
+Tree
 <
 Node
 >

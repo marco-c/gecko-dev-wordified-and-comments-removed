@@ -43,8 +43,8 @@ HTMLImageElement
 Node
 NodeScope
 Text
-UnknownElement
-rd_tree_ops
+TreeReadMethods
+TreeWriteMethods
 }
 ;
 import
@@ -55,7 +55,7 @@ base
 :
 :
 {
-wr_tree_ops
+UnknownElement
 }
 ;
 import
