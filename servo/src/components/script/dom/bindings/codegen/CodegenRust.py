@@ -37665,6 +37665,7 @@ element
 {
 HTMLDivElement
 HTMLSpanElement
+HTMLParagraphElement
 }
 '
                           
@@ -37702,10 +37703,30 @@ HTMLDocument
 dom
 :
 :
+htmlhrelement
+:
+:
+HTMLHRElement
+'
+                          
+'
+dom
+:
+:
 htmlimageelement
 :
 :
 HTMLImageElement
+'
+                          
+'
+dom
+:
+:
+htmlscriptelement
+:
+:
+HTMLScriptElement
 '
                           
 '
