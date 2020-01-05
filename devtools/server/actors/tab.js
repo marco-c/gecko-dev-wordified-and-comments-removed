@@ -2283,8 +2283,6 @@ document
 .
 nodePrincipal
 .
-originAttributes
-.
 addonId
 ;
 return

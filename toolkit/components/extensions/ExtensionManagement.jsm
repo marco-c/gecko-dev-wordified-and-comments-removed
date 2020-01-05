@@ -1256,8 +1256,6 @@ getObjectPrincipal
 window
 )
 .
-originAttributes
-.
 addonId
 ;
 }

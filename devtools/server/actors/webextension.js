@@ -1233,8 +1233,6 @@ document
 .
 nodePrincipal
 .
-originAttributes
-.
 addonId
 =
 =
