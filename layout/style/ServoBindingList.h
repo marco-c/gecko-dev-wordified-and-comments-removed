@@ -220,6 +220,15 @@ keyframe_list
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_GetFontFaceRules
+void
+RawServoStyleSetBorrowed
+set
+RawGeckoFontFaceRuleListBorrowedMut
+list
+)
+SERVO_BINDING_FUNC
+(
 Servo_CssRules_ListTypes
 void
 ServoCssRulesBorrowed

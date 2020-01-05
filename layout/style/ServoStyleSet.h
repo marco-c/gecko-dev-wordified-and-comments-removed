@@ -760,6 +760,17 @@ ServoComputedValuesWithParent
 aServoValues
 )
 ;
+bool
+AppendFontFaceRules
+(
+nsTArray
+<
+nsFontFaceRuleContainer
+>
+&
+aArray
+)
+;
 private
 :
 already_AddRefed
