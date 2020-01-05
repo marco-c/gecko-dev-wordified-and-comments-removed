@@ -18,6 +18,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 sys
 /
@@ -5245,10 +5254,9 @@ deviceNum
 kMountInfoLineLength
 ]
 ;
-snprintf
+SprintfLiteral
 (
 deviceNum
-kMountInfoLineLength
 "
 %
 d
