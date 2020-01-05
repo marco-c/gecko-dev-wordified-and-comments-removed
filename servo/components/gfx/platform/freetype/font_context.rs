@@ -1,8 +1,6 @@
-use
+extern
+crate
 alloc
-:
-:
-heap
 ;
 use
 freetype
@@ -66,6 +64,15 @@ heapsize
 HeapSizeOf
 heap_size_of
 }
+;
+use
+self
+:
+:
+alloc
+:
+:
+heap
 ;
 use
 std

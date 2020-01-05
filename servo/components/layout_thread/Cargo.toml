@@ -111,13 +111,6 @@ heapsize
 .
 0
 "
-heapsize_derive
-=
-"
-0
-.
-1
-"
 ipc
 -
 channel

@@ -131,10 +131,6 @@ extern
 crate
 regex
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use

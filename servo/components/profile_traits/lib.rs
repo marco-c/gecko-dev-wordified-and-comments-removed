@@ -42,10 +42,6 @@ extern
 crate
 log
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use

@@ -34,10 +34,6 @@ extern
 crate
 rustc_serialize
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use

@@ -39,13 +39,6 @@ html5ever_atoms
 [
 macro_use
 ]
-#
-[
-allow
-(
-unused_extern_crates
-)
-]
 extern
 crate
 matches

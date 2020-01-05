@@ -46,10 +46,6 @@ extern
 crate
 rustc_plugin
 ;
-#
-[
-macro_use
-]
 extern
 crate
 syntax

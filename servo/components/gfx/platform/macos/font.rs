@@ -1,15 +1,3 @@
-extern
-crate
-core_foundation
-;
-extern
-crate
-core_graphics
-;
-extern
-crate
-core_text
-;
 use
 app_units
 :

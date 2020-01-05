@@ -1,7 +1,3 @@
-extern
-crate
-hyper
-;
 use
 actor
 :

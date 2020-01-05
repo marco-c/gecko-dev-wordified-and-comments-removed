@@ -87,13 +87,6 @@ plugins
 [
 dependencies
 ]
-bitflags
-=
-"
-0
-.
-7
-"
 euclid
 =
 "

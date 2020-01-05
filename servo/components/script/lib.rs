@@ -176,13 +176,6 @@ audio_video_metadata
 ;
 #
 [
-allow
-(
-unused_extern_crates
-)
-]
-#
-[
 macro_use
 ]
 extern
@@ -407,10 +400,6 @@ extern
 crate
 servo_atoms
 ;
-#
-[
-macro_use
-]
 extern
 crate
 servo_config
@@ -479,10 +468,6 @@ extern
 crate
 url
 ;
-#
-[
-macro_use
-]
 extern
 crate
 uuid

@@ -20,10 +20,6 @@ extern
 crate
 gaol
 ;
-#
-[
-macro_use
-]
 extern
 crate
 gleam
