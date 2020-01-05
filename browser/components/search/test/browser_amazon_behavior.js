@@ -98,6 +98,12 @@ keywords
 =
 foo
 &
+ie
+=
+UTF
+-
+8
+&
 mode
 =
 blended
