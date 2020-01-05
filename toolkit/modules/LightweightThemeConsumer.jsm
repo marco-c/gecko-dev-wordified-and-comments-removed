@@ -613,7 +613,9 @@ removeProperty
 -
 lwt
 -
-textcolor
+text
+-
+color
 "
 )
 ;
@@ -628,7 +630,9 @@ removeProperty
 -
 lwt
 -
-accentcolor
+accent
+-
+color
 "
 )
 ;
@@ -660,7 +664,9 @@ setProperty
 -
 lwt
 -
-textcolor
+text
+-
+color
 "
 textcolor
 )
@@ -676,7 +682,9 @@ setProperty
 -
 lwt
 -
-accentcolor
+accent
+-
+color
 "
 aData
 .
