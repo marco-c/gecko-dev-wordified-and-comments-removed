@@ -2015,6 +2015,12 @@ unset_dirty_descendants
 (
 )
 ;
+curr
+.
+unset_animation_only_dirty_descendants
+(
+)
+;
 }
 if
 in_doc
@@ -3249,6 +3255,12 @@ unsafe
 el
 .
 unset_dirty_descendants
+(
+)
+;
+el
+.
+unset_animation_only_dirty_descendants
 (
 )
 ;
