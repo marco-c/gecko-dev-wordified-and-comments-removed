@@ -114,8 +114,6 @@ HTMLLegendElement
 :
 HTMLElement
 {
-/
-/
 readonly
 attribute
 HTMLFormElement
