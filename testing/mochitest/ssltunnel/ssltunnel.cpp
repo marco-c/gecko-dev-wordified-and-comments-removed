@@ -981,7 +981,6 @@ a
 return
 1
 ;
-else
 return
 -
 1
@@ -4392,8 +4391,6 @@ n
 continue
 ;
 }
-else
-{
 ci
 -
 >
@@ -4511,7 +4508,6 @@ numberOfSockets
 =
 2
 ;
-}
 }
 else
 if
