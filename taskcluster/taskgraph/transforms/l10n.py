@@ -1344,6 +1344,22 @@ if
 chunks
 :
             
+if
+chunks
+>
+len
+(
+all_locales
+)
+:
+                
+chunks
+=
+len
+(
+all_locales
+)
+            
 for
 this_chunk
 in
