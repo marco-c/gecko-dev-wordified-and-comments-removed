@@ -640,7 +640,7 @@ r
 (
 )
 .
-send_title_to_compositor
+title_changed
 (
 )
 ;
@@ -695,9 +695,10 @@ r
 (
 )
 .
-send_title_to_compositor
+title_changed
 (
 )
+;
 }
 }
 }
