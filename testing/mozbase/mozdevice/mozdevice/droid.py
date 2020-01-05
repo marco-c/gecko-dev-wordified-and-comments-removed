@@ -1082,9 +1082,7 @@ windows
 ]
 timeout
 =
-self
-.
-short_timeout
+60
 )
         
 except
