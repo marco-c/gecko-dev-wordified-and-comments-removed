@@ -1056,11 +1056,6 @@ StyleSheet
 cpp
 '
 '
-StyleSheetInfo
-.
-cpp
-'
-'
 SVGAttrAnimationRuleProcessor
 .
 cpp
