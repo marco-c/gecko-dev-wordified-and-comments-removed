@@ -596,10 +596,20 @@ parts
 =
 moz_stripped
 .
-split
+replace
 (
 '
 -
+'
+'
+_
+'
+)
+.
+split
+(
+'
+_
 '
 )
             
