@@ -224,7 +224,7 @@ struct
 NewLayoutInfo
 {
 pub
-old_pipeline_id
+containing_pipeline_id
 :
 PipelineId
 pub
@@ -253,10 +253,6 @@ pub
 enum
 ConstellationControlMsg
 {
-Activate
-(
-PipelineId
-)
 AttachLayout
 (
 NewLayoutInfo
@@ -305,6 +301,12 @@ PipelineId
 Thaw
 (
 PipelineId
+)
+Navigate
+(
+PipelineId
+SubpageId
+LoadData
 )
 }
 unsafe
@@ -466,7 +468,10 @@ DevtoolsControlChan
 >
 window_size
 :
+Option
+<
 WindowSizeData
+>
 load_data
 :
 LoadData
