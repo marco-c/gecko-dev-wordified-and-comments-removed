@@ -2646,6 +2646,9 @@ uint32_t
 newCount
 )
 {
+AutoCheckCannotGC
+nogc
+;
 if
 (
 !
