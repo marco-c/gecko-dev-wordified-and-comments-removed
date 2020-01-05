@@ -337,7 +337,7 @@ mMainThread
 time_t
 mStartTime
 ;
-uint32_t
+GeckoProcessType
 mProcessType
 ;
 bool
