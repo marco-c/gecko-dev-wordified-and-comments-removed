@@ -2577,7 +2577,12 @@ script
 :
 performing
 reflow
+for
+goal
+%
+?
 "
+goal
 )
 ;
 /
