@@ -342,11 +342,6 @@ ReleaseResources
 )
 ;
 void
-SetIdle
-(
-)
-;
-void
 ResetDecode
 (
 TrackSet

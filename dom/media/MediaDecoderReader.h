@@ -447,13 +447,6 @@ aEndTime
 ;
 virtual
 void
-SetIdle
-(
-)
-{
-}
-virtual
-void
 SetCDMProxy
 (
 CDMProxy
