@@ -18,7 +18,7 @@ super
 .
 .
 .
-allowContentSpread
+allowContentIter
 (
 args
 )
