@@ -125,6 +125,11 @@ VPXDecoder
 h
 '
 '
+DurationMap
+.
+h
+'
+'
 MediaTelemetryConstants
 .
 h
