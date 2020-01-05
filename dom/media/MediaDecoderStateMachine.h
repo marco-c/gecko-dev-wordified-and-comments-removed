@@ -884,7 +884,7 @@ OnAudioDecoded
 (
 MediaData
 *
-aAudioSample
+aAudio
 )
 ;
 void
