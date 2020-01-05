@@ -3102,6 +3102,12 @@ MAX_EMPTY_CHUNK_AGE
 =
 4
 ;
+extern
+bool
+InitializeStaticData
+(
+)
+;
 }
 class
 InterpreterFrame
