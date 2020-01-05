@@ -269,6 +269,10 @@ bindings
 {
 pub
 mod
+cell
+;
+pub
+mod
 global
 ;
 pub
