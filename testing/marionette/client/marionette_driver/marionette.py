@@ -9349,7 +9349,7 @@ def
 start_session
 (
 self
-desired_capabilities
+capabilities
 =
 None
 session_id
@@ -9385,20 +9385,16 @@ action
         
 :
 param
-desired_capabilities
+capabilities
 :
 An
 optional
 dict
 of
 desired
-            
+or
+required
 capabilities
-.
-This
-is
-currently
-ignored
 .
         
 :
@@ -9548,7 +9544,7 @@ body
 capabilities
 "
 :
-desired_capabilities
+capabilities
 "
 sessionId
 "
