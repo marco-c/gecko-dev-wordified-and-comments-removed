@@ -62,7 +62,10 @@ codegen
 InheritTypes
 :
 :
+{
 DocumentFragmentDerived
+ElementCast
+}
 ;
 use
 dom
@@ -78,8 +81,9 @@ InheritTypes
 :
 :
 {
-ElementCast
+EventTargetTypeId
 NodeCast
+NodeTypeId
 }
 ;
 use
@@ -161,10 +165,7 @@ dom
 eventtarget
 :
 :
-{
 EventTarget
-EventTargetTypeId
-}
 ;
 use
 dom
@@ -184,7 +185,6 @@ node
 :
 {
 Node
-NodeTypeId
 window_from_node
 }
 ;

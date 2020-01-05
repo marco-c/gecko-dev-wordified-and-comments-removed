@@ -65,6 +65,7 @@ InheritTypes
 {
 CustomEventDerived
 EventCast
+EventTypeId
 }
 ;
 use
@@ -125,10 +126,7 @@ dom
 event
 :
 :
-{
 Event
-EventTypeId
-}
 ;
 use
 js
@@ -222,9 +220,6 @@ CustomEvent
 fn
 new_inherited
 (
-type_id
-:
-EventTypeId
 )
 -
 >
@@ -239,7 +234,6 @@ Event
 :
 new_inherited
 (
-type_id
 )
 detail
 :
@@ -274,10 +268,6 @@ CustomEvent
 :
 new_inherited
 (
-EventTypeId
-:
-:
-CustomEvent
 )
 global
 CustomEventBinding

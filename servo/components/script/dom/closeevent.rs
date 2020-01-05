@@ -123,7 +123,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventTypeId
 }
 ;
 use
@@ -169,9 +168,6 @@ pub
 fn
 new_inherited
 (
-type_id
-:
-EventTypeId
 wasClean
 :
 bool
@@ -195,7 +191,6 @@ Event
 :
 new_inherited
 (
-type_id
 )
 wasClean
 :
@@ -250,10 +245,6 @@ CloseEvent
 :
 new_inherited
 (
-EventTypeId
-:
-:
-CloseEvent
 wasClean
 code
 reason
