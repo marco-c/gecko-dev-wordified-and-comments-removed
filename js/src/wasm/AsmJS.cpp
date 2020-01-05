@@ -10895,7 +10895,7 @@ if
 (
 mask
 >
-MaxTableLength
+MaxTableInitialLength
 )
 return
 failCurrentOffset
