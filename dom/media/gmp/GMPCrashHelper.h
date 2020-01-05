@@ -11,7 +11,7 @@ GMPCrashHelper_h_
 #
 include
 "
-nsPIDOMWindow
+MainThreadUtils
 .
 h
 "
@@ -19,6 +19,13 @@ h
 include
 "
 nsISupportsImpl
+.
+h
+"
+#
+include
+"
+nsPIDOMWindow
 .
 h
 "
