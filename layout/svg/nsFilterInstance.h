@@ -306,6 +306,8 @@ aPreFilterBounds
 nullptr
 )
 ;
+private
+:
 nsFilterInstance
 (
 nsIFrame
@@ -430,8 +432,6 @@ return
 mFilterSpaceToDeviceSpaceTransform
 ;
 }
-private
-:
 struct
 SourceInfo
 {
