@@ -518,7 +518,7 @@ data
 ]
 ;
 return
-h
+this
 .
 isPixelNot
 (
