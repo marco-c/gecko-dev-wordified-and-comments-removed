@@ -181,7 +181,7 @@ gCubebLog
 LogLevel
 :
 :
-Verbose
+Error
 (
 "
 %
