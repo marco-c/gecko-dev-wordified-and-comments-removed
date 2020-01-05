@@ -132,7 +132,7 @@ remoteHostOrig
 =
 prefBranch
 .
-getComplexValue
+getStringPref
 (
 "
 devtools
@@ -143,12 +143,7 @@ remote
 -
 host
 "
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 info
 (
@@ -408,7 +403,7 @@ ecom
 =
 prefBranch
 .
-getComplexValue
+getStringPref
 (
 "
 devtools
@@ -419,12 +414,7 @@ remote
 -
 host
 "
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 is
 (
@@ -607,7 +597,7 @@ mozfoo
 =
 prefBranch
 .
-getComplexValue
+getStringPref
 (
 "
 devtools
@@ -618,12 +608,7 @@ remote
 -
 host
 "
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 is
 (

@@ -273,7 +273,7 @@ remoteHostOrig
 =
 prefBranch
 .
-getComplexValue
+getStringPref
 (
 "
 devtools
@@ -284,14 +284,7 @@ remote
 -
 host
 "
-Components
-.
-interfaces
-.
-nsISupportsString
 )
-.
-data
 ;
 info
 (

@@ -459,15 +459,10 @@ Services
 .
 prefs
 .
-getComplexValue
+getStringPref
 (
 pref
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 }
 catch

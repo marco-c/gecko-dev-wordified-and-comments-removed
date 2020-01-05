@@ -1199,15 +1199,10 @@ this
 .
 _prefs
 .
-getComplexValue
+getStringPref
 (
 aName
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 break
 ;

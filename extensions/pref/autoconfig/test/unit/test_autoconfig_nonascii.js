@@ -435,15 +435,10 @@ prefName
 ]
 prefs
 .
-getComplexValue
+getStringPref
 (
 prefName
-Ci
-.
-nsISupportsString
 )
-.
-data
 )
 ;
 }

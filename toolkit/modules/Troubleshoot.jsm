@@ -653,15 +653,10 @@ name
 >
 prefs
 .
-getComplexValue
+getStringPref
 (
 name
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 PREFS_GETTERS
 [

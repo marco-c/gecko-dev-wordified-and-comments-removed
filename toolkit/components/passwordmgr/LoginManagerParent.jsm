@@ -365,7 +365,7 @@ Services
 .
 prefs
 .
-getComplexValue
+getStringPref
 (
 "
 signon
@@ -374,12 +374,7 @@ recipes
 .
 path
 "
-Ci
-.
-nsISupportsString
 )
-.
-data
 }
 )
 ;
