@@ -957,6 +957,9 @@ mSuspendCount
 =
 =
 0
+&
+&
+mAsyncStream
 )
 EnsureWaiting
 (
