@@ -3864,6 +3864,19 @@ set
 host
 )
 ;
+if
+!
+headers
+.
+has
+:
+:
+<
+UserAgent
+>
+(
+)
+{
 headers
 .
 set
@@ -3878,6 +3891,7 @@ to_owned
 )
 )
 ;
+}
 set_default_accept
 (
 headers
