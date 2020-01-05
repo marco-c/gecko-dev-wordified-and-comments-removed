@@ -175,9 +175,6 @@ JSObject
 *
 >
 aCallable
-nsIGlobalObject
-*
-aIncumbentGlobal
 const
 FastCallbackConstructor
 &
@@ -186,7 +183,6 @@ FastCallbackConstructor
 CallbackObject
 (
 aCallable
-aIncumbentGlobal
 FastCallbackConstructor
 (
 )
