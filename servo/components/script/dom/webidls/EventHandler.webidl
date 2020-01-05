@@ -178,7 +178,7 @@ TreatNonObjectAsNull
 callback
 OnErrorEventHandlerNonNull
 =
-boolean
+any
 (
 (
 Event
