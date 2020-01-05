@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-createFactory
 createClass
 DOM
 :
@@ -175,8 +174,6 @@ constants
 const
 FilterButton
 =
-createFactory
-(
 require
 (
 "
@@ -198,7 +195,6 @@ filter
 -
 button
 "
-)
 )
 ;
 const
