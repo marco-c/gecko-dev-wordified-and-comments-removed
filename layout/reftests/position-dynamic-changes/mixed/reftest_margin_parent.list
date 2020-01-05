@@ -10,6 +10,12 @@ of
 reftest
 .
 list
+random
+-
+if
+(
+webrender
+)
 =
 =
 mixed
@@ -28,6 +34,12 @@ ref
 html
 ?
 margin_parent
+random
+-
+if
+(
+webrender
+)
 =
 =
 mixed
