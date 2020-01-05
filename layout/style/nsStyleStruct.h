@@ -1307,6 +1307,11 @@ image
 ;
 MOZ_ASSERT
 (
+mImage
+)
+;
+MOZ_ASSERT
+(
 mImageTracked
 "
 Should

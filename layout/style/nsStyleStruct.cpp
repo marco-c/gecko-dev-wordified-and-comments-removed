@@ -9468,15 +9468,10 @@ const
 {
 if
 (
-(
 mType
 =
 =
 eStyleImageType_Image
-)
-&
-&
-mImage
 )
 {
 return
