@@ -1454,6 +1454,11 @@ WasmBoundsCheck
 \
 _
 (
+WasmLoadTls
+)
+\
+_
+(
 WasmAddOffset
 )
 \
