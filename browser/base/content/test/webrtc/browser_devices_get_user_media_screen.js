@@ -3556,8 +3556,6 @@ stopSharing
 "
 camera
 "
-false
-true
 )
 ;
 info
@@ -3667,8 +3665,6 @@ stopSharing
 "
 camera
 "
-false
-true
 )
 ;
 }

@@ -439,9 +439,6 @@ selectedBrowser
 yield
 closeStream
 (
-false
-0
-2
 )
 ;
 promise
@@ -1173,9 +1170,6 @@ true
 yield
 closeStream
 (
-false
-0
-2
 )
 ;
 }
@@ -1637,9 +1631,6 @@ false
 yield
 closeStream
 (
-false
-0
-2
 )
 ;
 }
