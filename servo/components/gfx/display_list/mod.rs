@@ -2387,6 +2387,16 @@ return
 }
 }
 }
+point
+=
+point
+-
+self
+.
+bounds
+.
+origin
+;
 debug_assert
 !
 (
