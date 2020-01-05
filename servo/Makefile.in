@@ -3820,11 +3820,6 @@ apk
 CFG_BUILD_HOME
 )
 else
-bindings
-:
-(
-AUTOGEN_SRC_script
-)
 .
 PHONY
 :
@@ -3832,6 +3827,11 @@ package
 package
 :
 endif
+bindings
+:
+(
+AUTOGEN_SRC_script
+)
 #
 Backup
 targets
