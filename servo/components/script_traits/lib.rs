@@ -314,6 +314,10 @@ WebDriverCommand
 PipelineId
 WebDriverScriptCommand
 )
+TickAllAnimations
+(
+PipelineId
+)
 }
 #
 [

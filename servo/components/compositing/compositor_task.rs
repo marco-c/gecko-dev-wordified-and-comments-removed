@@ -123,6 +123,7 @@ constellation_msg
 :
 :
 {
+AnimationState
 ConstellationChan
 PipelineId
 }
@@ -1029,7 +1030,7 @@ Url
 ChangeRunningAnimationsState
 (
 PipelineId
-bool
+AnimationState
 )
 PaintMsgDiscarded
 SetFrameTree
