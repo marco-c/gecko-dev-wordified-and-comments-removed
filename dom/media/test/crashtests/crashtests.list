@@ -586,6 +586,12 @@ ended
 2
 .
 html
+skip
+-
+if
+(
+Android
+)
 load
 video
 -
@@ -598,6 +604,9 @@ audio
 end
 .
 html
+#
+bug
+1339449
 #
 This
 needs
