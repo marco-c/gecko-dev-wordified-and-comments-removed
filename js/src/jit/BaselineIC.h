@@ -6134,6 +6134,13 @@ stubCode
 }
 public
 :
+static
+const
+uint32_t
+MAX_OPTIMIZED_STUBS
+=
+6
+;
 class
 Compiler
 :
