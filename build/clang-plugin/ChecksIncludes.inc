@@ -43,6 +43,13 @@ h
 #
 include
 "
+MustReturnFromCallerChecker
+.
+h
+"
+#
+include
+"
 MustUseChecker
 .
 h

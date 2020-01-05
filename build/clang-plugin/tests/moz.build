@@ -162,6 +162,11 @@ TestMustOverride
 cpp
 '
 '
+TestMustReturnFromCaller
+.
+cpp
+'
+'
 TestMustUse
 .
 cpp

@@ -143,6 +143,11 @@ MustOverrideChecker
 cpp
 '
 '
+MustReturnFromCallerChecker
+.
+cpp
+'
+'
 MustUseChecker
 .
 cpp
