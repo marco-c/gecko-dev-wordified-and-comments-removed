@@ -2696,7 +2696,7 @@ public
 static
 final
 Uri
-CONTENT_RECENCY_URI
+CONTENT_NO_STALE_SORTED_URI
 =
 Uri
 .
@@ -2704,7 +2704,7 @@ withAppendedPath
 (
 TABS_AUTHORITY_URI
 "
-clients_recency
+clients_no_stale_sorted
 "
 )
 ;

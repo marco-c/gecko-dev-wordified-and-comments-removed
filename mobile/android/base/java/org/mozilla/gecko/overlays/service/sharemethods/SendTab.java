@@ -1139,7 +1139,7 @@ remoteTabsCursor
 =
 tabsAccessor
 .
-getRemoteClientsByRecencyCursor
+getRemoteClientsNoStaleSorted
 (
 context
 )
@@ -1169,7 +1169,7 @@ emptyList
 return
 tabsAccessor
 .
-getClientsWithoutTabsByRecencyFromCursor
+getClientsWithoutTabsNoStaleSortedFromCursor
 (
 remoteTabsCursor
 )
