@@ -1070,9 +1070,6 @@ MessagePort
 >
 mPorts
 ;
-bool
-mPortsSet
-;
 protected
 :
 explicit
@@ -1257,14 +1254,11 @@ NS_OK
 void
 GetPorts
 (
-Nullable
-<
 nsTArray
 <
 RefPtr
 <
 MessagePort
->
 >
 >
 &
