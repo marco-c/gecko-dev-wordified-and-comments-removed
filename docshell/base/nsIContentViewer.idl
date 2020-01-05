@@ -257,6 +257,14 @@ attribute
 boolean
 loadCompleted
 ;
+[
+noscript
+]
+readonly
+attribute
+boolean
+isStopped
+;
 /
 *
 *
