@@ -814,7 +814,13 @@ dbl
 =
 getDouble
 (
+wasm
+:
+:
+RawF64
+(
 d
+)
 )
 ;
 if

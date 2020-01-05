@@ -328,7 +328,7 @@ LDouble
 ins
 -
 >
-toDouble
+toRawF64
 (
 )
 )
@@ -356,7 +356,7 @@ LFloat32
 ins
 -
 >
-toFloat32
+toRawF32
 (
 )
 )

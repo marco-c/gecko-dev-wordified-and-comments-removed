@@ -4245,7 +4245,8 @@ Expr
 :
 F32Const
 :
-float
+{
+RawF32
 f32
 ;
 if
@@ -4306,13 +4307,15 @@ tmp
 ;
 break
 ;
+}
 case
 Expr
 :
 :
 F64Const
 :
-double
+{
+RawF64
 f64
 ;
 if
@@ -4373,6 +4376,7 @@ tmp
 ;
 break
 ;
+}
 case
 Expr
 :

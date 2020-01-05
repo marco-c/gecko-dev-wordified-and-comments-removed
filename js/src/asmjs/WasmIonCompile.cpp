@@ -1478,7 +1478,7 @@ MDefinition
 *
 constant
 (
-float
+RawF32
 f
 )
 {
@@ -1498,7 +1498,7 @@ constant
 MConstant
 :
 :
-NewRawFloat32
+New
 (
 alloc
 (
@@ -1522,7 +1522,7 @@ MDefinition
 *
 constant
 (
-double
+RawF64
 d
 )
 {
@@ -1542,7 +1542,7 @@ constant
 MConstant
 :
 :
-NewRawDouble
+New
 (
 alloc
 (
@@ -10724,6 +10724,10 @@ value
 f32
 (
 )
+.
+fp
+(
+)
 )
 mirType
 )
@@ -10747,6 +10751,10 @@ DoubleValue
 value
 .
 f64
+(
+)
+.
+fp
 (
 )
 )
@@ -18890,7 +18898,7 @@ Expr
 F32Const
 :
 {
-float
+RawF32
 f32
 ;
 if
@@ -19407,7 +19415,7 @@ Expr
 F64Const
 :
 {
-double
+RawF64
 f64
 ;
 if

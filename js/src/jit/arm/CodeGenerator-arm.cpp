@@ -6271,7 +6271,7 @@ done
 ;
 masm
 .
-ma_vimm
+loadConstantDouble
 (
 NegativeInfinity
 <
@@ -6316,7 +6316,7 @@ Equal
 ;
 masm
 .
-ma_vimm
+loadConstantDouble
 (
 0
 .
@@ -8282,7 +8282,7 @@ getDef
 ;
 masm
 .
-ma_vimm
+loadConstantDouble
 (
 ins
 -
