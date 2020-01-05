@@ -1939,6 +1939,9 @@ locationapi
 '
 sapi
 '
+'
+dxguid
+'
 ]
 if
 CONFIG
