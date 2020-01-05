@@ -189,12 +189,6 @@ mDocument
 ;
 }
 bool
-IsInPlay
-(
-)
-const
-;
-bool
 IsCurrent
 (
 )
