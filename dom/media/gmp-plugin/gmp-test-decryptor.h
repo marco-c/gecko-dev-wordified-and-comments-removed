@@ -38,9 +38,6 @@ public
 explicit
 FakeDecryptor
 (
-GMPDecryptorHost
-*
-aHost
 )
 ;
 void
@@ -263,10 +260,6 @@ TestStorage
 GMPDecryptorCallback
 *
 mCallback
-;
-GMPDecryptorHost
-*
-mHost
 ;
 }
 ;
