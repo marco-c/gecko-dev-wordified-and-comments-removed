@@ -9651,6 +9651,7 @@ pref
 <
 100000
 )
+{
 sActiveIntersliceGCBudget
 =
 pref
@@ -9662,6 +9663,7 @@ JSGC_SLICE_TIME_BUDGET
 pref
 )
 ;
+}
 }
 static
 void
