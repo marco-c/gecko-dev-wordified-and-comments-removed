@@ -119,6 +119,13 @@ panel
 js
 '
 '
+preview
+-
+panel
+.
+js
+'
+'
 properties
 -
 view
