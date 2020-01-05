@@ -284,11 +284,6 @@ GMPLoader
 >
 CreateGMPLoader
 (
-UniquePtr
-<
-SandboxStarter
->
-aStarter
 )
 ;
 }

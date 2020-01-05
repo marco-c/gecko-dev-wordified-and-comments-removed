@@ -376,8 +376,10 @@ mPluginPath
 nsCString
 mNodeId
 ;
+UniquePtr
+<
 GMPLoader
-*
+>
 mGMPLoader
 ;
 }
