@@ -261,9 +261,6 @@ _handle_unstructured_output
 (
 self
 line
-log_output
-=
-True
 )
 :
         
@@ -314,12 +311,6 @@ CRITICAL
 )
             
 return
-        
-self
-.
-log_output
-=
-log_output
         
 super
 (
@@ -478,30 +469,6 @@ data
 action
 "
 ]
-        
-if
-action
-=
-=
-"
-process_output
-"
-:
-            
-self
-.
-_handle_unstructured_output
-(
-data
-[
-'
-data
-'
-]
-log_output
-=
-False
-)
         
 if
 action
