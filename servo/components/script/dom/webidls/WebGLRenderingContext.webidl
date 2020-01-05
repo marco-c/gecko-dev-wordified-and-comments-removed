@@ -3523,8 +3523,6 @@ GLenum
 mode
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
@@ -3548,8 +3546,6 @@ GLenum
 cap
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
@@ -3574,8 +3570,6 @@ WebGLProgram
 program
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
