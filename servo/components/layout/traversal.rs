@@ -37,6 +37,7 @@ flow
 {
 self
 Flow
+CAN_BE_FRAGMENTED
 }
 ;
 use
@@ -983,6 +984,9 @@ Flow
 >
 bool
 {
+let
+base
+=
 flow
 :
 :
@@ -990,6 +994,8 @@ base
 (
 flow
 )
+;
+base
 .
 restyle_damage
 .
@@ -998,6 +1004,17 @@ intersects
 REFLOW_OUT_OF_FLOW
 |
 REFLOW
+)
+&
+&
+!
+base
+.
+flags
+.
+contains
+(
+CAN_BE_FRAGMENTED
 )
 }
 }

@@ -1331,6 +1331,8 @@ AccumulatingMarginIn
 derive
 (
 RustcEncodable
+Copy
+Clone
 )
 ]
 pub

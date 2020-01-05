@@ -6864,6 +6864,16 @@ TableWrapper
 SpecificFragmentInfo
 :
 :
+Multicol
+|
+SpecificFragmentInfo
+:
+:
+MulticolColumn
+|
+SpecificFragmentInfo
+:
+:
 InlineBlock
 (
 _
