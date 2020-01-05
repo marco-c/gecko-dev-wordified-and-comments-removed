@@ -278,7 +278,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 net_traits
@@ -371,7 +374,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -432,7 +435,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

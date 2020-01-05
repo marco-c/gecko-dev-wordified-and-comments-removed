@@ -134,7 +134,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 servo_atoms
@@ -188,7 +191,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -232,7 +235,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

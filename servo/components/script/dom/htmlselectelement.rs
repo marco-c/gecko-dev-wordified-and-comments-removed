@@ -350,7 +350,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 std
@@ -553,7 +556,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -614,7 +617,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

@@ -180,7 +180,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 style
@@ -216,7 +219,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -260,7 +263,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

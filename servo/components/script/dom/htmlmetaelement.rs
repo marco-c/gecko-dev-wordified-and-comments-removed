@@ -191,7 +191,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 servo_config
@@ -333,7 +336,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -395,7 +398,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

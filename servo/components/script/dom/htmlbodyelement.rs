@@ -193,7 +193,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 script_traits
@@ -253,7 +256,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -297,7 +300,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

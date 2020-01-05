@@ -134,7 +134,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 #
 [
@@ -161,7 +164,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -205,7 +208,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
