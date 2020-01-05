@@ -1529,10 +1529,6 @@ header
 :
 :
 Headers
-Vec
-<
-String
->
 )
 MessageReceived
 (
