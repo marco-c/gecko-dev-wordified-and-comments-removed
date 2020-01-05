@@ -294,6 +294,7 @@ designMode
 ;
 [
 Throws
+NeedsCallerType
 ]
 boolean
 execCommand
@@ -315,6 +316,7 @@ value
 ;
 [
 Throws
+NeedsCallerType
 ]
 boolean
 queryCommandEnabled
@@ -343,6 +345,9 @@ DOMString
 commandId
 )
 ;
+[
+NeedsCallerType
+]
 boolean
 queryCommandSupported
 (
