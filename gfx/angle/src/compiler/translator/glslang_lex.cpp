@@ -10885,7 +10885,7 @@ yy_n_chars
 ;
 else
 {
-yy_size_t
+int
 num_to_read
 =
 YY_CURRENT_BUFFER_LVALUE
