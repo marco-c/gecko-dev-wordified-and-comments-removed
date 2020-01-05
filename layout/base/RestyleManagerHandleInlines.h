@@ -23,6 +23,15 @@ ServoRestyleManager
 h
 "
 #
+include
+"
+mozilla
+/
+ServoRestyleManagerInlines
+.
+h
+"
+#
 define
 FORWARD_CONCRETE
 (

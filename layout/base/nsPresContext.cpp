@@ -548,6 +548,15 @@ StyleSheetInlines
 h
 "
 #
+include
+"
+mozilla
+/
+ServoRestyleManagerInlines
+.
+h
+"
+#
 if
 defined
 (

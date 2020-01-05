@@ -457,6 +457,11 @@ ServoRestyleManager
 h
 '
 '
+ServoRestyleManagerInlines
+.
+h
+'
+'
 StaticPresData
 .
 h
