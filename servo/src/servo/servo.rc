@@ -205,6 +205,9 @@ export
 text_run
 ;
 export
+font_library
+;
+export
 font
 ;
 export
@@ -218,6 +221,9 @@ text_run
 ;
 mod
 font
+;
+mod
+font_library
 ;
 mod
 shaper
