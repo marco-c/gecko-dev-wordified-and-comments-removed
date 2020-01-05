@@ -153,6 +153,8 @@ const
 gfxRect
 *
 aOverrideBounds
+uint32_t
+aFlags
 )
 override
 ;
@@ -411,6 +413,8 @@ const
 gfxRect
 *
 aOverrideBounds
+uint32_t
+aFlags
 )
 ;
 nsSVGPatternFrame

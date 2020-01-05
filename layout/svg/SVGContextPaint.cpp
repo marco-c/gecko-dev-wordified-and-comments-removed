@@ -711,6 +711,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 return
@@ -726,6 +728,7 @@ nsStyleSVG
 :
 mFill
 aCTM
+aFlags
 )
 ;
 }
@@ -755,6 +758,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 return
@@ -770,6 +775,7 @@ nsStyleSVG
 :
 mStroke
 aCTM
+aFlags
 )
 ;
 }
@@ -808,6 +814,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 RefPtr
@@ -950,6 +958,8 @@ aDrawTarget
 mContextMatrix
 aFillOrStroke
 aOpacity
+nullptr
+aFlags
 )
 ;
 {
@@ -1032,6 +1042,7 @@ GetFillPattern
 aDrawTarget
 aOpacity
 aCTM
+aFlags
 )
 ;
 return
@@ -1063,6 +1074,7 @@ GetStrokePattern
 aDrawTarget
 aOpacity
 aCTM
+aFlags
 )
 ;
 return
@@ -1320,6 +1332,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 if
@@ -1409,6 +1423,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 if

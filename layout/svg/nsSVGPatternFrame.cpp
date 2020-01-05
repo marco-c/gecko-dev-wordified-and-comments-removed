@@ -904,6 +904,8 @@ const
 gfxRect
 *
 aOverrideBounds
+uint32_t
+aFlags
 )
 {
 nsSVGPatternFrame
@@ -1713,6 +1715,8 @@ kid
 *
 ctx
 tm
+nullptr
+aFlags
 )
 ;
 }
@@ -3391,6 +3395,8 @@ const
 gfxRect
 *
 aOverrideBounds
+uint32_t
+aFlags
 )
 {
 if
@@ -3467,6 +3473,7 @@ aSource
 aFillOrStroke
 aGraphicOpacity
 aOverrideBounds
+aFlags
 )
 ;
 if

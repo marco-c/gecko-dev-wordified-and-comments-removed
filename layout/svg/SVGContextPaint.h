@@ -178,6 +178,10 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
+=
+0
 )
 =
 0
@@ -206,6 +210,10 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
+=
+0
 )
 =
 0
@@ -249,6 +257,10 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
+=
+0
 )
 {
 return
@@ -259,6 +271,7 @@ GetFillOpacity
 (
 )
 aCTM
+aFlags
 )
 ;
 }
@@ -283,6 +296,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 return
@@ -293,6 +308,7 @@ GetStrokeOpacity
 (
 )
 aCTM
+aFlags
 )
 ;
 }
@@ -514,6 +530,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 override
 ;
@@ -540,6 +558,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 override
 ;
@@ -763,6 +783,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 ;
 }
@@ -876,6 +898,10 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
+=
+0
 )
 override
 ;
@@ -902,6 +928,10 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
+=
+0
 )
 override
 ;

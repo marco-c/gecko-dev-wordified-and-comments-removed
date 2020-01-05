@@ -886,6 +886,10 @@ nsIntRect
 aDirtyRect
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 ;
 static
@@ -1335,6 +1339,10 @@ SVGContextPaint
 aContextPaint
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 ;
 static
@@ -1355,6 +1363,10 @@ SVGContextPaint
 aContextPaint
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 ;
 static

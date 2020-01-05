@@ -2275,6 +2275,19 @@ nsSVGFilterPaintCallback
 {
 public
 :
+explicit
+SVGPaintCallback
+(
+uint32_t
+aFlags
+)
+:
+mFlags
+(
+aFlags
+)
+{
+}
 virtual
 DrawResult
 Paint
@@ -2420,9 +2433,15 @@ GetCSSPxToDevPxMatrix
 aTarget
 )
 dirtyRect
+mFlags
 )
 ;
 }
+private
+:
+uint32_t
+mFlags
+;
 }
 ;
 float
@@ -3281,6 +3300,8 @@ const
 nsIntRect
 *
 aDirtyRect
+uint32_t
+aFlags
 )
 {
 NS_ASSERTION
@@ -4189,6 +4210,9 @@ devPxToCssPxTM
 ;
 SVGPaintCallback
 paintCallback
+(
+aFlags
+)
 ;
 result
 =
@@ -4224,6 +4248,7 @@ PaintSVG
 target
 aTransform
 aDirtyRect
+aFlags
 )
 ;
 }
@@ -7448,6 +7473,8 @@ aOutPattern
 SVGContextPaint
 *
 aContextPaint
+uint32_t
+aFlags
 )
 {
 const
@@ -7619,6 +7646,8 @@ nsStyleSVG
 :
 mFill
 fillOpacity
+nullptr
+aFlags
 )
 ;
 if
@@ -7699,6 +7728,7 @@ aContext
 CurrentMatrix
 (
 )
+aFlags
 )
 ;
 break
@@ -7725,6 +7755,7 @@ aContext
 CurrentMatrix
 (
 )
+aFlags
 )
 ;
 break
@@ -7823,6 +7854,8 @@ aOutPattern
 SVGContextPaint
 *
 aContextPaint
+uint32_t
+aFlags
 )
 {
 const
@@ -7994,6 +8027,8 @@ nsStyleSVG
 :
 mStroke
 strokeOpacity
+nullptr
+aFlags
 )
 ;
 if
@@ -8074,6 +8109,7 @@ aContext
 CurrentMatrix
 (
 )
+aFlags
 )
 ;
 break
@@ -8100,6 +8136,7 @@ aContext
 CurrentMatrix
 (
 )
+aFlags
 )
 ;
 break
