@@ -135,10 +135,7 @@ aInitData
 bool
 PreRender
 (
-layers
-:
-:
-LayerManagerComposite
+WidgetRenderingContext
 *
 )
 override
@@ -146,10 +143,7 @@ override
 void
 PostRender
 (
-layers
-:
-:
-LayerManagerComposite
+WidgetRenderingContext
 *
 )
 override
