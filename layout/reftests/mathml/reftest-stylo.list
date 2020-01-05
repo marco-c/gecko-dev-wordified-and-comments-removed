@@ -2005,6 +2005,11 @@ mathbackground
 .
 xml
 fails
+-
+if
+(
+debug
+)
 =
 =
 mstyle
@@ -5800,6 +5805,12 @@ E
 1
 .
 html
+fails
+-
+if
+(
+debug
+)
 pref
 (
 dom
