@@ -916,6 +916,7 @@ test
 )
 )
 ]
+pub
 fn
 run
 (
