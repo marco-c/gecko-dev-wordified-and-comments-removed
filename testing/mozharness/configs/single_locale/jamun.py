@@ -57,25 +57,6 @@ jamun
 "
     
 "
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-firefox
-/
-nightly
-/
-latest
--
-jamun
--
-l10n
-'
-    
-"
 hg_l10n_base
 "
 :
