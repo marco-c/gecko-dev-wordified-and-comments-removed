@@ -172,6 +172,12 @@ PROCESS_TYPE_GMPLUGIN
 ;
 const
 long
+PROCESS_TYPE_GPU
+=
+4
+;
+const
+long
 CRASH_TYPE_CRASH
 =
 0
