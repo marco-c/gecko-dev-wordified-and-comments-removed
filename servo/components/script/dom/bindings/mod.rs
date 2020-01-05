@@ -49,6 +49,10 @@ js
 ;
 pub
 mod
+mozmap
+;
+pub
+mod
 namespace
 ;
 pub
