@@ -138,8 +138,9 @@ USVString
 url
 )
 ;
-/
-/
+[
+Throws
+]
 void
 replace
 (

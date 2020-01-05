@@ -10758,16 +10758,9 @@ window
 None
 Some
 (
-(
-*
 document
 .
 url
-(
-)
-)
-.
-clone
 (
 )
 )

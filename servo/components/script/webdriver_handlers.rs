@@ -1713,10 +1713,6 @@ send
 GetCookiesDataForUrl
 (
 url
-.
-clone
-(
-)
 sender
 NonHTTP
 )
@@ -1862,10 +1858,6 @@ send
 GetCookiesDataForUrl
 (
 url
-.
-clone
-(
-)
 sender
 NonHTTP
 )
@@ -2107,10 +2099,6 @@ send
 SetCookiesForUrlWithData
 (
 url
-.
-clone
-(
-)
 cookie
 method
 )
@@ -2156,10 +2144,6 @@ send
 SetCookiesForUrlWithData
 (
 url
-.
-clone
-(
-)
 cookie
 method
 )
@@ -2916,10 +2900,6 @@ document
 document
 .
 url
-(
-)
-.
-clone
 (
 )
 )

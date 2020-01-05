@@ -2752,10 +2752,6 @@ document
 url
 (
 )
-.
-clone
-(
-)
 pipeline_id
 :
 Some
@@ -2777,10 +2773,6 @@ Some
 document
 .
 url
-(
-)
-.
-clone
 (
 )
 )

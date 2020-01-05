@@ -1205,10 +1205,6 @@ document
 url
 (
 )
-.
-clone
-(
-)
 )
 document
 .

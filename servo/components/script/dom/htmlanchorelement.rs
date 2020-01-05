@@ -4902,6 +4902,7 @@ load_url
 (
 url
 false
+false
 referrer_policy
 )
 ;
