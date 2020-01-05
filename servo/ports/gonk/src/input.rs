@@ -78,9 +78,6 @@ std
 :
 :
 thread
-:
-:
-Thread
 ;
 use
 std
@@ -1742,7 +1739,7 @@ clone
 (
 )
 ;
-Thread
+thread
 :
 :
 spawn
