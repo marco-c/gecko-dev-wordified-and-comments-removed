@@ -3502,6 +3502,20 @@ with
 gold
 "
 ]
+and
+sys
+.
+platform
+not
+in
+(
+"
+win32
+"
+"
+msys
+"
+)
 :
             
 if
