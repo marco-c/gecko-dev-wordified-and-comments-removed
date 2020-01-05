@@ -85,6 +85,12 @@ style_methods
 }
 ;
 import
+text
+:
+:
+text_box
+;
+import
 util
 :
 :
@@ -717,7 +723,10 @@ s
 {
 bk_text
 (
+text_box
+(
 s
+)
 )
 }
 }

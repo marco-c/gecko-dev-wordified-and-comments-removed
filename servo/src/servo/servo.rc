@@ -150,6 +150,9 @@ inline
 mod
 layout
 ;
+mod
+text
+;
 }
 mod
 parser
@@ -169,6 +172,16 @@ base
 ;
 mod
 osmain
+;
+}
+mod
+text
+{
+mod
+glyph
+;
+mod
+text_run
 ;
 }
 mod
@@ -193,4 +206,9 @@ opts
 ;
 mod
 engine
+;
+import
+servo_text
+=
+text
 ;
