@@ -151,9 +151,7 @@ mCanceled
 =
 true
 ;
-mReentrantMonitor
-.
-NotifyAll
+NotifyEndOfStream
 (
 )
 ;
@@ -494,6 +492,10 @@ mTrackRate
 (
 aTrackRate
 )
+mEncodedTicks
+(
+0
+)
 mVideoBitrate
 (
 0
@@ -655,6 +657,12 @@ mLastChunk
 ;
 VideoSegment
 mRawSegment
+;
+StreamTime
+mEncodedTicks
+;
+TimeStamp
+mStartOffset
 ;
 uint32_t
 mVideoBitrate
