@@ -133,17 +133,6 @@ IsSeekable
 const
 override
 ;
-bool
-ShouldComputeStartTime
-(
-)
-const
-override
-{
-return
-false
-;
-}
 private
 :
 bool
