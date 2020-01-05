@@ -297,6 +297,12 @@ ChildProcessHasCompositorBridge
 (
 )
 ;
+static
+bool
+CompositorIsInGPUProcess
+(
+)
+;
 void
 AddOverfillObserver
 (
