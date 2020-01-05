@@ -1215,7 +1215,6 @@ defaultView
 getComputedStyle
 (
 elem
-null
 )
 ;
 if

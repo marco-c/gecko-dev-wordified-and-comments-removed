@@ -735,7 +735,6 @@ defaultView
 getComputedStyle
 (
 this
-null
 )
 .
 direction

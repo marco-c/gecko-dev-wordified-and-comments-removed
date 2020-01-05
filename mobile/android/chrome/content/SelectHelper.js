@@ -578,7 +578,6 @@ window
 getComputedStyle
 (
 child
-null
 )
 ;
 if

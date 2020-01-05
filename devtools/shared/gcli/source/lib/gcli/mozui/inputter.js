@@ -767,8 +767,6 @@ defaultView
 getComputedStyle
 (
 currentElement
-'
-'
 )
 ;
 if

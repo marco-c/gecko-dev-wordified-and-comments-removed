@@ -57,8 +57,6 @@ defaultView
 getComputedStyle
 (
 node
-"
-"
 )
 ;
 var
@@ -1003,8 +1001,6 @@ defaultView
 getComputedStyle
 (
 elm
-"
-"
 )
 ;
 var

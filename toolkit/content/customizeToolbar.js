@@ -2229,7 +2229,6 @@ window
 getComputedStyle
 (
 aItem
-null
 )
 .
 direction
@@ -3410,7 +3409,6 @@ getComputedStyle
 dropTarget
 .
 parentNode
-null
 )
 .
 direction

@@ -1516,7 +1516,6 @@ frame
 getComputedStyle
 (
 frame
-null
 )
 ;
 if

@@ -2994,8 +2994,6 @@ defaultView
 getComputedStyle
 (
 aItem
-"
-"
 )
 ;
 return

@@ -27,7 +27,6 @@ cells
 ]
 .
 node
-null
 )
 ;
 let
@@ -833,7 +832,6 @@ window
 getComputedStyle
 (
 aNode
-null
 )
 ;
 return

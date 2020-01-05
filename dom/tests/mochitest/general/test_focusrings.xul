@@ -43,13 +43,6 @@ stylesheet
 href
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
@@ -1550,8 +1543,6 @@ childwin
 getComputedStyle
 (
 elem
-"
-"
 )
 .
 outlineWidth
@@ -1647,8 +1638,6 @@ childwin
 getComputedStyle
 (
 elem
-"
-"
 )
 .
 outlineWidth

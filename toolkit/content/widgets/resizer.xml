@@ -211,8 +211,6 @@ window
 getComputedStyle
 (
 this
-"
-"
 )
 ;
 if

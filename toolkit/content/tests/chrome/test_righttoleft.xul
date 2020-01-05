@@ -497,8 +497,6 @@ getElementById
 hbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -542,8 +540,6 @@ getElementById
 vbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -582,8 +578,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -626,8 +620,6 @@ getElementById
 hbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -677,8 +669,6 @@ getElementById
 vbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -723,8 +713,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -770,8 +758,6 @@ getElementById
 hbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -818,8 +804,6 @@ getElementById
 vbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -861,8 +845,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -937,8 +919,6 @@ getElementById
 hbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -982,8 +962,6 @@ getElementById
 vbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -1022,8 +1000,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -1066,8 +1042,6 @@ getElementById
 hbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -1117,8 +1091,6 @@ getElementById
 vbox
 "
 )
-"
-"
 )
 .
 backgroundColor
@@ -1163,8 +1135,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -1214,8 +1184,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -1258,8 +1226,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -1298,8 +1264,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction
@@ -1356,8 +1320,6 @@ getComputedStyle
 subdoc
 .
 documentElement
-"
-"
 )
 .
 direction

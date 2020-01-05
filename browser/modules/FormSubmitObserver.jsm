@@ -777,7 +777,6 @@ win
 getComputedStyle
 (
 aElement
-null
 )
 ;
 if

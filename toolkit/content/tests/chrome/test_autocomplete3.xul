@@ -914,8 +914,6 @@ window
 getComputedStyle
 (
 autocomplete
-"
-"
 )
 ;
 is

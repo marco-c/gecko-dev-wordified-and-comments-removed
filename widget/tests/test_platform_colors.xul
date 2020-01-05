@@ -1788,7 +1788,6 @@ defaultView
 getComputedStyle
 (
 colorbox
-null
 )
 .
 getPropertyValue

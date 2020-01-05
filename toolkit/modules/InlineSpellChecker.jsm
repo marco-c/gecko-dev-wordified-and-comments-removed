@@ -2346,8 +2346,6 @@ defaultView
 getComputedStyle
 (
 aElem
-"
-"
 )
 .
 getPropertyValue

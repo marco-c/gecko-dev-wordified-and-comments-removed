@@ -637,8 +637,6 @@ win
 getComputedStyle
 (
 parentFrame
-"
-"
 )
 ;
 let

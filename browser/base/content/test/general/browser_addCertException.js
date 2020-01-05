@@ -166,8 +166,6 @@ connection
 icon
 "
 )
-"
-"
 )
 .
 getPropertyValue
@@ -202,8 +200,6 @@ popup
 securityView
 "
 )
-"
-"
 )
 .
 getPropertyValue
@@ -238,8 +234,6 @@ security
 content
 "
 )
-"
-"
 )
 .
 getPropertyValue

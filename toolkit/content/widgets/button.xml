@@ -770,7 +770,6 @@ defaultView
 getComputedStyle
 (
 node
-null
 )
 ;
 if
@@ -1334,8 +1333,6 @@ getComputedStyle
 this
 .
 parentNode
-"
-"
 )
 .
 direction
@@ -1367,8 +1364,6 @@ getComputedStyle
 this
 .
 parentNode
-"
-"
 )
 .
 direction
@@ -1431,8 +1426,6 @@ getComputedStyle
 this
 .
 parentNode
-"
-"
 )
 .
 direction
@@ -1464,8 +1457,6 @@ getComputedStyle
 this
 .
 parentNode
-"
-"
 )
 .
 direction

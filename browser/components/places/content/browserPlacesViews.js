@@ -4060,8 +4060,6 @@ getComputedStyle
 this
 .
 viewElt
-"
-"
 )
 .
 direction

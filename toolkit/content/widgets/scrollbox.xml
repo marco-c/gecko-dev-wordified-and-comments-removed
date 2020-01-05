@@ -1598,7 +1598,6 @@ window
 getComputedStyle
 (
 this
-null
 )
 .
 direction
@@ -1636,7 +1635,6 @@ getComputedStyle
 this
 .
 _scrollbox
-null
 )
 ;
 return
@@ -1848,8 +1846,6 @@ getComputedStyle
 this
 .
 _scrollbox
-"
-"
 )
 .
 direction
@@ -2072,7 +2068,6 @@ getComputedStyle
 this
 .
 _scrollbox
-null
 )
 ;
 var

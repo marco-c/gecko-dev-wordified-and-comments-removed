@@ -2379,8 +2379,6 @@ defaultView
 getComputedStyle
 (
 this
-"
-"
 )
 .
 height
@@ -2528,8 +2526,6 @@ defaultView
 getComputedStyle
 (
 this
-"
-"
 )
 .
 height
@@ -3501,8 +3497,6 @@ window
 getComputedStyle
 (
 this
-"
-"
 )
 .
 width
@@ -3588,8 +3582,6 @@ window
 getComputedStyle
 (
 this
-"
-"
 )
 .
 width
@@ -3603,8 +3595,6 @@ window
 getComputedStyle
 (
 this
-"
-"
 )
 .
 width

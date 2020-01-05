@@ -807,8 +807,6 @@ defView
 getComputedStyle
 (
 tipElement
-"
-"
 )
 .
 getPropertyValue

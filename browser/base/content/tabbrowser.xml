@@ -23551,7 +23551,6 @@ getComputedStyle
 this
 .
 parentNode
-null
 )
 .
 direction
@@ -31048,7 +31047,6 @@ window
 getComputedStyle
 (
 this
-null
 )
 .
 direction
@@ -36612,7 +36610,6 @@ window
 getComputedStyle
 (
 tabMiddle
-null
 )
 ;
 this
@@ -42191,7 +42188,6 @@ window
 getComputedStyle
 (
 this
-null
 )
 .
 direction
@@ -44406,7 +44402,6 @@ window
 getComputedStyle
 (
 this
-null
 )
 .
 direction
@@ -45653,7 +45648,6 @@ window
 getComputedStyle
 (
 this
-null
 )
 .
 direction

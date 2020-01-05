@@ -58,8 +58,6 @@ defaultView
 getComputedStyle
 (
 button
-"
-"
 )
 ;
 if

@@ -131,7 +131,6 @@ window
 getComputedStyle
 (
 elem
-null
 )
 .
 getPropertyValue

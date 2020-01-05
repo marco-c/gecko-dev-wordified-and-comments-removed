@@ -10736,8 +10736,6 @@ outerWin
 getComputedStyle
 (
 node
-"
-"
 )
 ;
 if
@@ -16733,7 +16731,6 @@ window
 getComputedStyle
 (
 gridRow
-null
 )
 .
 getPropertyValue
@@ -19464,7 +19461,6 @@ window
 getComputedStyle
 (
 setting
-null
 )
 .
 getPropertyValue
@@ -19649,7 +19645,6 @@ window
 getComputedStyle
 (
 firstRow
-null
 )
 .
 getPropertyValue

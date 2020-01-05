@@ -6430,8 +6430,6 @@ getComputedStyle
 this
 .
 _paneDeckContainer
-"
-"
 )
 .
 height
@@ -6447,8 +6445,6 @@ window
 getComputedStyle
 (
 aPaneElement
-"
-"
 )
 .
 paddingTop
@@ -6464,8 +6460,6 @@ window
 getComputedStyle
 (
 aPaneElement
-"
-"
 )
 .
 paddingBottom
@@ -6561,8 +6555,6 @@ window
 getComputedStyle
 (
 bottomBox
-"
-"
 )
 .
 paddingBottom
@@ -7136,8 +7128,6 @@ window
 getComputedStyle
 (
 elt
-"
-"
 )
 .
 opacity

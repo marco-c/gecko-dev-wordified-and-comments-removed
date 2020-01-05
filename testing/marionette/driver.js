@@ -8674,7 +8674,6 @@ defaultView
 getComputedStyle
 (
 el
-null
 )
 ;
 resp

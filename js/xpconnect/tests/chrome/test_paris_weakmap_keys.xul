@@ -455,7 +455,6 @@ getComputedStyle
 document
 .
 documentElement
-null
 )
 .
 getPropertyCSSValue

@@ -10244,7 +10244,6 @@ window
 getComputedStyle
 (
 dragOverItem
-null
 )
 .
 direction

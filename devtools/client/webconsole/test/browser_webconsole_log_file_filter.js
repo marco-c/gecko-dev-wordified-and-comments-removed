@@ -399,7 +399,6 @@ messageNodes
 [
 i
 ]
-null
 )
 ;
 if

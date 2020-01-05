@@ -1156,8 +1156,6 @@ window
 getComputedStyle
 (
 this
-"
-"
 )
 .
 direction
@@ -1238,8 +1236,6 @@ window
 getComputedStyle
 (
 this
-"
-"
 )
 .
 direction
@@ -5605,7 +5601,6 @@ getComputedStyle
 this
 .
 parentNode
-null
 )
 .
 direction
@@ -5677,7 +5672,6 @@ getComputedStyle
 this
 .
 parentNode
-null
 )
 .
 direction

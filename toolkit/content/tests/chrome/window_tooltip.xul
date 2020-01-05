@@ -539,8 +539,6 @@ window
 getComputedStyle
 (
 gButton
-"
-"
 )
 ;
 is
@@ -1181,8 +1179,6 @@ getElementById
 thetooltip
 "
 )
-"
-"
 )
 ;
 is
@@ -1645,8 +1641,6 @@ getElementById
 thetooltip
 "
 )
-"
-"
 )
 ;
 var
@@ -1664,8 +1658,6 @@ getElementById
 withtooltip
 "
 )
-"
-"
 )
 ;
 is
@@ -2085,8 +2077,6 @@ getElementById
 thetooltip
 "
 )
-"
-"
 )
 ;
 var
@@ -2104,8 +2094,6 @@ getElementById
 withtooltip
 "
 )
-"
-"
 )
 ;
 is
@@ -2548,8 +2536,6 @@ getElementById
 thetooltip
 "
 )
-"
-"
 )
 ;
 is

@@ -3504,8 +3504,6 @@ defaultView
 getComputedStyle
 (
 aElement
-"
-"
 )
 ;
 if

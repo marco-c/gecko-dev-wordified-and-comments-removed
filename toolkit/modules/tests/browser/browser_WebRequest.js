@@ -1434,7 +1434,6 @@ getElementById
 test
 "
 )
-null
 )
 ;
 is
