@@ -13202,7 +13202,7 @@ aIndex
 =
 0
 bool
-aAllowAsyncAnimation
+aIsFullyVisible
 =
 false
 )
@@ -14164,7 +14164,7 @@ bool
 mTransformPreserves3DInited
 ;
 bool
-mAllowAsyncAnimation
+mIsFullyVisible
 ;
 }
 ;

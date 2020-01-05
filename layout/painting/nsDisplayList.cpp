@@ -29172,7 +29172,7 @@ mTransformPreserves3DInited
 (
 false
 )
-mAllowAsyncAnimation
+mIsFullyVisible
 (
 false
 )
@@ -29408,7 +29408,7 @@ aChildrenVisibleRect
 uint32_t
 aIndex
 bool
-aAllowAsyncAnimation
+aIsFullyVisible
 )
 :
 nsDisplayItem
@@ -29454,9 +29454,9 @@ mTransformPreserves3DInited
 (
 false
 )
-mAllowAsyncAnimation
+mIsFullyVisible
 (
-aAllowAsyncAnimation
+aIsFullyVisible
 )
 {
 MOZ_COUNT_CTOR
@@ -29557,7 +29557,7 @@ mTransformPreserves3DInited
 (
 false
 )
-mAllowAsyncAnimation
+mIsFullyVisible
 (
 false
 )
@@ -29663,7 +29663,7 @@ mTransformPreserves3DInited
 (
 false
 )
-mAllowAsyncAnimation
+mIsFullyVisible
 (
 false
 )
@@ -31353,7 +31353,7 @@ aBuilder
 )
 {
 return
-mAllowAsyncAnimation
+mIsFullyVisible
 ;
 }
 bool
@@ -32236,7 +32236,7 @@ eCSSProperty_transform
 ;
 if
 (
-mAllowAsyncAnimation
+mIsFullyVisible
 &
 &
 MayBeAnimated
