@@ -280,6 +280,17 @@ attributes
 [
 Pure
 ]
+sequence
+<
+DOMString
+>
+getAttributeNames
+(
+)
+;
+[
+Pure
+]
 DOMString
 ?
 getAttribute
