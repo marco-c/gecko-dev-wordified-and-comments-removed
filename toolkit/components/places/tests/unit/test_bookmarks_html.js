@@ -1104,11 +1104,9 @@ skin
 /
 icons
 /
-information
--
-16
+info
 .
-png
+svg
 "
 )
 ;
