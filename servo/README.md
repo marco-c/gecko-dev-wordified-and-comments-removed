@@ -238,6 +238,11 @@ devel
 libXmu
 -
 devel
+mesa
+-
+libOSMesa
+-
+devel
 pushd
 /
 tmp
