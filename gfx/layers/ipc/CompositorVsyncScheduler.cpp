@@ -809,6 +809,16 @@ ObserveVsync
 (
 )
 ;
+PostCompositeTask
+(
+TimeStamp
+:
+:
+Now
+(
+)
+)
+;
 }
 }
 bool
