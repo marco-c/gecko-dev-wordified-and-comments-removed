@@ -1273,17 +1273,6 @@ env
 )
 :
         
-if
-'
-AndroidEclipse
-'
-not
-in
-options
-.
-backend
-:
-            
 print
 (
 ANDROID_IDE_ADVERTISEMENT
