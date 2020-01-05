@@ -1445,13 +1445,6 @@ java
 '
 util
 /
-Clipboard
-.
-java
-'
-'
-util
-/
 ContextUtils
 .
 java
@@ -2248,6 +2241,11 @@ java
 '
 '
 BaseGeckoInterface
+.
+java
+'
+'
+Clipboard
 .
 java
 '

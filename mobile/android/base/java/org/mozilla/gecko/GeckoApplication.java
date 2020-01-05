@@ -731,13 +731,6 @@ init
 context
 )
 ;
-Clipboard
-.
-init
-(
-context
-)
-;
 FilePicker
 .
 init
