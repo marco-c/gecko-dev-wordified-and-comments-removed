@@ -230,6 +230,11 @@ TestTArray2
 cpp
 '
 '
+TestTextFormatter
+.
+cpp
+'
+'
 TestThreadPool
 .
 cpp
