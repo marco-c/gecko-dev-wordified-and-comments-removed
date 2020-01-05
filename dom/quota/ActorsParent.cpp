@@ -4905,7 +4905,7 @@ DoProcessOriginDirectories
 }
 ;
 class
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 final
 :
 public
@@ -4917,7 +4917,7 @@ mPersistent
 ;
 public
 :
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 (
 nsIFile
 *
@@ -4937,7 +4937,7 @@ aPersistent
 {
 }
 nsresult
-UpgradeMetadataFiles
+DoUpgrade
 (
 )
 ;
@@ -16112,12 +16112,12 @@ PERSISTENCE_TYPE_PERSISTENT
 ;
 RefPtr
 <
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 >
 helper
 =
 new
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 (
 directory
 persistent
@@ -16128,7 +16128,7 @@ rv
 helper
 -
 >
-UpgradeMetadataFiles
+DoUpgrade
 (
 )
 ;
@@ -30507,10 +30507,10 @@ NS_OK
 ;
 }
 nsresult
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 :
 :
-UpgradeMetadataFiles
+DoUpgrade
 (
 )
 {
@@ -30906,7 +30906,7 @@ NS_OK
 ;
 }
 nsresult
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 :
 :
 GetDirectoryMetadata
@@ -31121,7 +31121,7 @@ NS_OK
 ;
 }
 nsresult
-UpgradeDirectoryMetadataFrom1To2Helper
+UpgradeStorageFrom0_0To1_0Helper
 :
 :
 DoProcessOriginDirectories
