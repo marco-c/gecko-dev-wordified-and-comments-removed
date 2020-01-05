@@ -705,12 +705,8 @@ uint32_t
 aControllerIdx
 uint32_t
 aButton
-uint64_t
-aTouchMask
 float
 aValue
-uint64_t
-aButtonTouched
 )
 ;
 void
