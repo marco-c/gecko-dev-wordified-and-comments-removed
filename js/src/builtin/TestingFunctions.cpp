@@ -24902,12 +24902,13 @@ false
 if
 (
 !
-reobj
--
->
+RegExpObject
+:
+:
 dumpBytecode
 (
 cx
+reobj
 match_only
 input
 )

@@ -44,8 +44,11 @@ cx
 RegExpStatics
 *
 res
+Handle
+<
 RegExpObject
-&
+*
+>
 reobj
 HandleLinearString
 input
