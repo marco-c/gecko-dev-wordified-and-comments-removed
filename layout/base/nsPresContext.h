@@ -3665,12 +3665,6 @@ HasCachedStyleData
 (
 )
 ;
-bool
-IsChromeSlow
-(
-)
-const
-;
 already_AddRefed
 <
 nsITimer
