@@ -3554,6 +3554,7 @@ self
 >
 OnGC
 (
+aContext
 aStatus
 )
 ;
@@ -6652,6 +6653,9 @@ CycleCollectedJSRuntime
 :
 OnGC
 (
+JSContext
+*
+aContext
 JSGCStatus
 aStatus
 )
@@ -6729,8 +6733,9 @@ Recovered
 }
 #
 endif
-FinalizeDeferredThings
-(
+bool
+finalizeIncrementally
+=
 JS
 :
 :
@@ -6738,6 +6743,16 @@ WasIncrementalGC
 (
 mJSRuntime
 )
+|
+|
+JS_IsExceptionPending
+(
+aContext
+)
+;
+FinalizeDeferredThings
+(
+finalizeIncrementally
 ?
 CycleCollectedJSContext
 :
