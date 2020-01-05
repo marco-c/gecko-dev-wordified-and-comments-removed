@@ -1068,7 +1068,7 @@ aToDestroy
 +
 mWrEpoch
 ;
-ProcessWebrenderCommands
+ProcessWebRenderCommands
 (
 aSize
 aCommands
@@ -1264,7 +1264,7 @@ void
 WebRenderBridgeParent
 :
 :
-ProcessWebrenderCommands
+ProcessWebRenderCommands
 (
 const
 gfx
