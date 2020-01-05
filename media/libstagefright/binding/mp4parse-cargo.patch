@@ -383,9 +383,7 @@ byteorder
 .
 0
 "
-"
 mp4parse
-"
 =
 {
 version
@@ -393,7 +391,7 @@ version
 "
 0
 .
-6
+7
 .
 0
 "
