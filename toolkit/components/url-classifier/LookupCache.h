@@ -431,6 +431,12 @@ aComplete
 =
 0
 ;
+virtual
+void
+ClearAll
+(
+)
+;
 template
 <
 typename
@@ -532,12 +538,6 @@ const
 ;
 protected
 :
-virtual
-void
-ClearAll
-(
-)
-;
 bool
 mPrimed
 ;
