@@ -1009,9 +1009,6 @@ node
 Node
 )
 {
-resolve
-:
-:
 apply
 :
 :

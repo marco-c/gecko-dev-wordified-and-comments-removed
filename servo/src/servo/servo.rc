@@ -212,16 +212,11 @@ mod
 styles
 ;
 mod
-resolve
-{
-pub
-mod
 apply
 ;
 mod
 matching
 ;
-}
 }
 pub
 mod
