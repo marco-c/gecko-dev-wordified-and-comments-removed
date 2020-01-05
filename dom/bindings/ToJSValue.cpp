@@ -178,7 +178,6 @@ exception
 =
 CreateException
 (
-aCx
 aArgument
 )
 ;

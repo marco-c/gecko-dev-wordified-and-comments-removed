@@ -118,9 +118,6 @@ Exception
 >
 CreateException
 (
-JSContext
-*
-aCx
 nsresult
 aRv
 const
