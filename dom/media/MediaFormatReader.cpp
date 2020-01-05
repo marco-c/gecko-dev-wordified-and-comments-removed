@@ -15010,16 +15010,6 @@ ShutdownDecoder
 (
 )
 ;
-ScheduleUpdate
-(
-TrackInfo
-:
-:
-kVideoTrack
-)
-;
-return
-;
 }
 void
 MediaFormatReader
