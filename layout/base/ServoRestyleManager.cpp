@@ -845,6 +845,14 @@ NotPseudo
 aElement
 )
 ;
+newContext
+-
+>
+EnsureStructsForServo
+(
+oldStyleContext
+)
+;
 for
 (
 nsIFrame
