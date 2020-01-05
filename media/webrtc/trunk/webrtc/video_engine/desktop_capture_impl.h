@@ -1123,6 +1123,9 @@ ThreadWrapper
 >
 capturer_thread_
 ;
+bool
+started_
+;
 }
 ;
 }
