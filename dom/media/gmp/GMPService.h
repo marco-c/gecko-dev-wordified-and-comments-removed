@@ -325,11 +325,6 @@ aCallback
 )
 ;
 }
-int32_t
-AsyncShutdownTimeoutMs
-(
-)
-;
 NS_IMETHOD
 RunPluginCrashCallbacks
 (
