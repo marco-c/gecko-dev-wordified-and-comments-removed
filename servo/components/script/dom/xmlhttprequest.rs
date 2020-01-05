@@ -6793,14 +6793,6 @@ borrow_mut
 metadata
 .
 final_url
-.
-as_url
-(
-)
-.
-unwrap
-(
-)
 [
 .
 .
