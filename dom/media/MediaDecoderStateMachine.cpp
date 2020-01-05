@@ -372,7 +372,7 @@ undef
 FMT
 #
 undef
-DECODER_LOG
+LOG
 #
 undef
 VERBOSE_LOG
@@ -413,7 +413,7 @@ mDecoderID
 __VA_ARGS__
 #
 define
-DECODER_LOG
+LOG
 (
 x
 .
@@ -12800,7 +12800,7 @@ OnTaskQueue
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 StopPlayback
@@ -12885,7 +12885,7 @@ MediaDecoder
 PLAY_STATE_PLAYING
 )
 {
-DECODER_LOG
+LOG
 (
 "
 Not
@@ -12908,7 +12908,7 @@ Ref
 return
 ;
 }
-DECODER_LOG
+LOG
 (
 "
 MaybeStartPlayback
@@ -13575,7 +13575,7 @@ OnTaskQueue
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 VideoDecodeModeChanged
@@ -14068,7 +14068,7 @@ IsStarted
 )
 )
 {
-DECODER_LOG
+LOG
 (
 "
 Stop
@@ -15662,7 +15662,7 @@ MOZ_ASSERT
 mSentFirstFrameLoadedEvent
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 FinishDecodeFirstFrame
@@ -15681,7 +15681,7 @@ Info
 mVideo
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 Media
@@ -15779,7 +15779,7 @@ OnTaskQueue
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 Shutting
@@ -15852,7 +15852,7 @@ OnTaskQueue
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 MediaDecoderStateMachine
@@ -16259,7 +16259,7 @@ aStatus
 mNextFrameStatus
 )
 {
-DECODER_LOG
+LOG
 (
 "
 Changed
@@ -17540,7 +17540,7 @@ NS_IsMainThread
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 AddOutputStream
@@ -17615,7 +17615,7 @@ NS_IsMainThread
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 RemoveOutputStream
@@ -17890,7 +17890,7 @@ OnSuspendTimerResolved
 (
 )
 {
-DECODER_LOG
+LOG
 (
 "
 OnSuspendTimerResolved
@@ -17919,7 +17919,7 @@ CancelSuspendTimer
 (
 )
 {
-DECODER_LOG
+LOG
 (
 "
 CancelSuspendTimer
@@ -17994,6 +17994,9 @@ Reset
 ;
 }
 }
+#
+undef
+LOG
 #
 undef
 NS_DispatchToMainThread
