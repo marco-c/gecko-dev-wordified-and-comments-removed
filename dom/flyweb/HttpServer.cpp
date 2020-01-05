@@ -202,6 +202,13 @@ HttpServer
 HttpServer
 (
 )
+:
+mPort
+(
+)
+mHttps
+(
+)
 {
 }
 HttpServer
@@ -1329,6 +1336,12 @@ aTransport
 mState
 (
 eRequestLine
+)
+mPendingReqVersion
+(
+)
+mRemainingBodySize
+(
 )
 mCloseAfterRequest
 (
