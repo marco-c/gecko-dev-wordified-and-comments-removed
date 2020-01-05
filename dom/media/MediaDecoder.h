@@ -1721,9 +1721,6 @@ mPlaybackStatistics
 bool
 mPinnedForSeek
 ;
-bool
-mPausedForPlaybackRateNull
-;
 dom
 :
 :
