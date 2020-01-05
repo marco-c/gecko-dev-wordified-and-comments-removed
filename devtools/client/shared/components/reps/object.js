@@ -155,6 +155,13 @@ key
 ]
 )
 )
+objectLink
+:
+React
+.
+PropTypes
+.
+func
 }
 getTitle
 :

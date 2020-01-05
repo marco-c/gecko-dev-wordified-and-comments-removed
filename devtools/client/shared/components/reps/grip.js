@@ -172,6 +172,13 @@ React
 PropTypes
 .
 string
+objectLink
+:
+React
+.
+PropTypes
+.
+func
 }
 getTitle
 :

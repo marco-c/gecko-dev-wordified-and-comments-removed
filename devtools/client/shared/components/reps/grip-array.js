@@ -146,6 +146,13 @@ React
 PropTypes
 .
 object
+objectLink
+:
+React
+.
+PropTypes
+.
+func
 }
 getLength
 :
