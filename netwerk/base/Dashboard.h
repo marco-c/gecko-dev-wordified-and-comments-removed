@@ -91,6 +91,9 @@ class
 ConnectionData
 ;
 class
+RcwnData
+;
+class
 Dashboard
 final
 :
@@ -353,6 +356,13 @@ nsresult
 GetWebSocketConnections
 (
 WebSocketRequest
+*
+)
+;
+nsresult
+GetRcwnData
+(
+RcwnData
 *
 )
 ;
