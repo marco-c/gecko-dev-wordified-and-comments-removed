@@ -834,7 +834,6 @@ Append
 )
 ;
 }
-nsresult
 nsrv
 =
 AppendEscapedBase64Item
