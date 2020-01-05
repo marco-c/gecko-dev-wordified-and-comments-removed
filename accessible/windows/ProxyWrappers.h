@@ -25,6 +25,7 @@ AccessibleWrap
 {
 public
 :
+explicit
 ProxyAccessibleWrap
 (
 ProxyAccessible
@@ -100,6 +101,7 @@ HyperTextAccessibleWrap
 {
 public
 :
+explicit
 HyperTextProxyAccessibleWrap
 (
 ProxyAccessible
@@ -175,6 +177,7 @@ HyperTextProxyAccessibleWrap
 {
 public
 :
+explicit
 DocProxyAccessibleWrap
 (
 ProxyAccessible

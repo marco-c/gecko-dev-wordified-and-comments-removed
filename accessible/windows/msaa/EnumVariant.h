@@ -33,6 +33,7 @@ IEnumVARIANT
 {
 public
 :
+explicit
 ChildrenEnumVariant
 (
 AccessibleWrap

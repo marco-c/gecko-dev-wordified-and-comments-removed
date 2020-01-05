@@ -52,6 +52,7 @@ IRawElementProviderSimple
 {
 public
 :
+explicit
 uiaRawElmProvider
 (
 AccessibleWrap

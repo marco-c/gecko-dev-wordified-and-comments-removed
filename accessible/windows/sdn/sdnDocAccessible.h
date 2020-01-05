@@ -40,6 +40,7 @@ ISimpleDOMDocument
 {
 public
 :
+explicit
 sdnDocAccessible
 (
 DocAccessibleWrap
