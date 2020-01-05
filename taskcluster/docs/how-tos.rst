@@ -389,6 +389,7 @@ none
 /
 mach
 taskgraph
+tasks
 -
 -
 json
@@ -397,7 +398,6 @@ p
 parameters
 .
 yml
-tasks
 >
 old
 -
