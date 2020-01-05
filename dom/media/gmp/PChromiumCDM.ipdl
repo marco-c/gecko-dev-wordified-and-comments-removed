@@ -190,6 +190,8 @@ aSessionId
 async
 Decrypt
 (
+uint32_t
+aId
 CDMInputBuffer
 aBuffer
 )
@@ -333,6 +335,8 @@ Decrypt
 async
 Decrypted
 (
+uint32_t
+aId
 uint32_t
 aStatus
 uint8_t
