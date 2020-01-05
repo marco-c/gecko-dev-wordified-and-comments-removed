@@ -54,6 +54,7 @@ X
 homebrew
 )
 :
+sh
 brew
 install
 https
@@ -106,6 +107,7 @@ configuration
 as
 well
 :
+sh
 sudo
 sh
 -
@@ -138,6 +140,7 @@ X
 MacPorts
 )
 :
+sh
 sudo
 port
 install
@@ -148,6 +151,7 @@ Debian
 based
 Linuxes
 :
+sh
 sudo
 apt
 -
@@ -181,6 +185,7 @@ compiler
 #
 #
 Building
+sh
 git
 clone
 git
