@@ -133,6 +133,14 @@ TimeUnits
 .
 h
 "
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 struct
 JSContext
 ;
