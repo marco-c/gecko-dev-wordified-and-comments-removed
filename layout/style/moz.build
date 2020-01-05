@@ -553,6 +553,11 @@ RuleProcessorCache
 h
 '
 '
+ServoArcTypeList
+.
+h
+'
+'
 ServoBindingList
 .
 h
