@@ -363,35 +363,35 @@ no
 alpha
 "
 )
-boolean
+GLboolean
 alpha
 ;
-boolean
+GLboolean
 depth
 =
 true
 ;
-boolean
+GLboolean
 stencil
 =
 false
 ;
-boolean
+GLboolean
 antialias
 =
 true
 ;
-boolean
+GLboolean
 premultipliedAlpha
 =
 true
 ;
-boolean
+GLboolean
 preserveDrawingBuffer
 =
 false
 ;
-boolean
+GLboolean
 failIfMajorPerformanceCaveat
 =
 false
@@ -2974,10 +2974,8 @@ void
 attachShader
 (
 WebGLProgram
-?
 program
 WebGLShader
-?
 shader
 )
 ;
@@ -2985,7 +2983,6 @@ void
 bindAttribLocation
 (
 WebGLProgram
-?
 program
 GLuint
 index
@@ -3100,17 +3097,6 @@ bufferData
 (
 GLenum
 target
-ArrayBufferView
-data
-GLenum
-usage
-)
-;
-void
-bufferData
-(
-GLenum
-target
 ArrayBuffer
 ?
 data
@@ -3123,7 +3109,7 @@ bufferData
 (
 GLenum
 target
-SharedArrayBuffer
+ArrayBufferView
 data
 GLenum
 usage
@@ -3136,19 +3122,7 @@ GLenum
 target
 GLintptr
 offset
-ArrayBufferView
-data
-)
-;
-void
-bufferSubData
-(
-GLenum
-target
-GLintptr
-offset
 ArrayBuffer
-?
 data
 )
 ;
@@ -3159,7 +3133,7 @@ GLenum
 target
 GLintptr
 offset
-SharedArrayBuffer
+ArrayBufferView
 data
 )
 ;
@@ -3224,7 +3198,6 @@ void
 compileShader
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -3430,10 +3403,8 @@ void
 detachShader
 (
 WebGLProgram
-?
 program
 WebGLShader
-?
 shader
 )
 ;
@@ -3551,7 +3522,6 @@ WebGLActiveInfo
 getActiveAttrib
 (
 WebGLProgram
-?
 program
 GLuint
 index
@@ -3565,7 +3535,6 @@ WebGLActiveInfo
 getActiveUniform
 (
 WebGLProgram
-?
 program
 GLuint
 index
@@ -3579,7 +3548,6 @@ WebGLShader
 getAttachedShaders
 (
 WebGLProgram
-?
 program
 )
 ;
@@ -3590,7 +3558,6 @@ GLint
 getAttribLocation
 (
 WebGLProgram
-?
 program
 DOMString
 name
@@ -3641,7 +3608,6 @@ any
 getProgramParameter
 (
 WebGLProgram
-?
 program
 GLenum
 pname
@@ -3652,7 +3618,6 @@ DOMString
 getProgramInfoLog
 (
 WebGLProgram
-?
 program
 )
 ;
@@ -3669,7 +3634,6 @@ any
 getShaderParameter
 (
 WebGLShader
-?
 shader
 GLenum
 pname
@@ -3693,7 +3657,6 @@ DOMString
 getShaderInfoLog
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -3702,7 +3665,6 @@ DOMString
 getShaderSource
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -3719,10 +3681,8 @@ any
 getUniform
 (
 WebGLProgram
-?
 program
 WebGLUniformLocation
-?
 location
 )
 ;
@@ -3734,7 +3694,6 @@ WebGLUniformLocation
 getUniformLocation
 (
 WebGLProgram
-?
 program
 DOMString
 name
@@ -3755,7 +3714,7 @@ pname
 [
 WebGLHandlesContextLoss
 ]
-GLsizeiptr
+GLintptr
 getVertexAttribOffset
 (
 GLuint
@@ -3860,7 +3819,6 @@ void
 linkProgram
 (
 WebGLProgram
-?
 program
 )
 ;
@@ -3944,7 +3902,6 @@ void
 shaderSource
 (
 WebGLShader
-?
 shader
 DOMString
 source
@@ -4041,7 +3998,7 @@ GLenum
 target
 GLint
 level
-GLenum
+GLint
 internalformat
 GLsizei
 width
@@ -4076,7 +4033,7 @@ GLenum
 target
 GLint
 level
-GLenum
+GLint
 internalformat
 GLenum
 format
@@ -4096,7 +4053,7 @@ GLenum
 target
 GLint
 level
-GLenum
+GLint
 internalformat
 GLenum
 format
@@ -4121,7 +4078,7 @@ GLenum
 target
 GLint
 level
-GLenum
+GLint
 internalformat
 GLenum
 format
@@ -4146,7 +4103,7 @@ GLenum
 target
 GLint
 level
-GLenum
+GLint
 internalformat
 GLenum
 format
@@ -4214,6 +4171,7 @@ format
 GLenum
 type
 ArrayBufferView
+?
 pixels
 )
 ;
@@ -4560,7 +4518,6 @@ void
 validateProgram
 (
 WebGLProgram
-?
 program
 )
 ;
@@ -5031,7 +4988,6 @@ DOMString
 getTranslatedShaderSource
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -5685,7 +5641,6 @@ beginQueryEXT
 GLenum
 target
 WebGLQuery
-?
 query
 )
 ;
@@ -5700,7 +5655,6 @@ void
 queryCounterEXT
 (
 WebGLQuery
-?
 query
 GLenum
 target
@@ -5719,7 +5673,6 @@ any
 getQueryObjectEXT
 (
 WebGLQuery
-?
 query
 GLenum
 pname
