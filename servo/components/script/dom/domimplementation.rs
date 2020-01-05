@@ -1381,12 +1381,6 @@ fn
 HasFeature
 (
 self
-_feature
-:
-DOMString
-_version
-:
-DOMString
 )
 -
 >
