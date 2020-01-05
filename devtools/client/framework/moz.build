@@ -229,15 +229,6 @@ js
 '
 toolbox
 -
-host
--
-manager
-.
-js
-'
-'
-toolbox
--
 hosts
 .
 js

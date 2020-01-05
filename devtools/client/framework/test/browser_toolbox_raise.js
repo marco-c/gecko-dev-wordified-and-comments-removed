@@ -225,9 +225,9 @@ onToolboxFocus
 {
 toolbox
 .
-win
+_host
 .
-parent
+_window
 .
 removeEventListener
 (
@@ -258,9 +258,9 @@ focus
 ;
 toolbox
 .
-win
+_host
 .
-parent
+_window
 .
 addEventListener
 (
@@ -315,9 +315,9 @@ onToolboxFocusAgain
 {
 toolbox
 .
-win
+_host
 .
-parent
+_window
 .
 removeEventListener
 (
@@ -356,9 +356,9 @@ cleanup
 ;
 toolbox
 .
-win
+_host
 .
-parent
+_window
 .
 addEventListener
 (

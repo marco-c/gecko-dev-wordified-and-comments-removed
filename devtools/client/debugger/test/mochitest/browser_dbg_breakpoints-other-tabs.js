@@ -233,6 +233,12 @@ breakpoint
 )
 ;
 yield
+teardown
+(
+panel1
+)
+;
+yield
 resumeDebuggerThenCloseAndFinish
 (
 panel2
