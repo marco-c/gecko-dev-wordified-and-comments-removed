@@ -3630,15 +3630,6 @@ lastIns
 isThrow
 (
 )
-&
-&
-!
-prev
--
->
-isAssertRecoveredOnBailout
-(
-)
 )
 {
 size_t
