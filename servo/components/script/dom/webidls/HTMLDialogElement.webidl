@@ -74,14 +74,6 @@ multipage
 /
 #
 htmldialogelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLDialogElement
 :

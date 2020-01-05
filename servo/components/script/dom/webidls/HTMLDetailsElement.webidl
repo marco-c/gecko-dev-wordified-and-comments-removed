@@ -74,14 +74,6 @@ multipage
 /
 #
 htmldetailselement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLDetailsElement
 :

@@ -74,14 +74,6 @@ multipage
 /
 #
 htmldivelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLDivElement
 :

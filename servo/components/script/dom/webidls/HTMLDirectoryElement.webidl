@@ -74,14 +74,6 @@ multipage
 /
 #
 htmldirectoryelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLDirectoryElement
 :

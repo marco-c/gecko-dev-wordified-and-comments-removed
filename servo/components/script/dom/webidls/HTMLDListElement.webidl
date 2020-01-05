@@ -74,14 +74,6 @@ multipage
 /
 #
 htmldlistelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLDListElement
 :
