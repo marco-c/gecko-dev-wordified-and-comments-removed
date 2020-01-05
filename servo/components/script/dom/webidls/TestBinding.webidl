@@ -4341,6 +4341,11 @@ entryGlobal
 (
 )
 ;
+GlobalScope
+incumbentGlobal
+(
+)
+;
 }
 ;
 callback
