@@ -125,6 +125,9 @@ local_pos
 ;
 #
 else
+VertexInfo
+vi
+=
 write_vertex
 (
 prim
@@ -143,4 +146,14 @@ tile
 ;
 #
 endif
+write_clip
+(
+vi
+.
+global_clamped_pos
+prim
+.
+clip_area
+)
+;
 }

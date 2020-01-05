@@ -28,6 +28,13 @@ PipelineId
 ScrollLayerId
 }
 ;
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Layer

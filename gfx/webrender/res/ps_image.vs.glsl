@@ -152,6 +152,16 @@ p0
 ;
 #
 endif
+write_clip
+(
+vi
+.
+global_clamped_pos
+prim
+.
+clip_area
+)
+;
 /
 /
 vUv
@@ -176,7 +186,7 @@ vec2
 (
 textureSize
 (
-sDiffuse
+sColor0
 0
 )
 )

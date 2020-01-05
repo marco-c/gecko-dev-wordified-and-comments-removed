@@ -70,7 +70,7 @@ alpha
 =
 texture
 (
-sDiffuse
+sColor0
 vColorTexCoord
 .
 xy
@@ -85,7 +85,7 @@ alpha
 =
 texture
 (
-sDiffuse
+sColor0
 vColorTexCoord
 .
 xy

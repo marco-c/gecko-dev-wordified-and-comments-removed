@@ -368,6 +368,16 @@ local_clamped_pos
 ;
 #
 endif
+write_clip
+(
+vi
+.
+global_clamped_pos
+prim
+.
+clip_area
+)
+;
 switch
 (
 int

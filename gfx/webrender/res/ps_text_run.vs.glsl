@@ -227,6 +227,16 @@ p0
 ;
 #
 endif
+write_clip
+(
+vi
+.
+global_clamped_pos
+prim
+.
+clip_area
+)
+;
 vec2
 texture_size
 =
@@ -234,7 +244,7 @@ vec2
 (
 textureSize
 (
-sDiffuse
+sColor0
 0
 )
 )
