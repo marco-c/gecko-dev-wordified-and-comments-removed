@@ -4,6 +4,7 @@ dom
 :
 {
 StylingMode
+TElement
 TNode
 }
 ;
@@ -96,6 +97,14 @@ C
 traverse_children
 (
 node
+.
+as_element
+(
+)
+.
+unwrap
+(
+)
 |
 kid
 |
@@ -133,6 +142,14 @@ debug_assert
 !
 (
 root
+.
+as_element
+(
+)
+.
+unwrap
+(
+)
 .
 styling_mode
 (

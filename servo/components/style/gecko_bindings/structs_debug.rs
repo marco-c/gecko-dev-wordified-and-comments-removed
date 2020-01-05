@@ -8,7 +8,7 @@ use
 data
 :
 :
-NodeData
+ElementData
 ;
 pub
 use
@@ -65,7 +65,7 @@ ServoNodeData
 =
 AtomicRefCell
 <
-NodeData
+ElementData
 >
 ;
 #

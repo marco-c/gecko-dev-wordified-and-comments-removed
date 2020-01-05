@@ -281,6 +281,13 @@ path
 script_traits
 "
 }
+selectors
+=
+"
+0
+.
+14
+"
 serde_derive
 =
 "

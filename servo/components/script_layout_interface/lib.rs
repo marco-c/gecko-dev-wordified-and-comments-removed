@@ -249,7 +249,7 @@ style
 data
 :
 :
-NodeData
+ElementData
 ;
 pub
 struct
@@ -258,7 +258,7 @@ PartialPersistentLayoutData
 pub
 style_data
 :
-NodeData
+ElementData
 pub
 restyle_damage
 :
@@ -284,7 +284,7 @@ PartialPersistentLayoutData
 {
 style_data
 :
-NodeData
+ElementData
 :
 :
 new
