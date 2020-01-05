@@ -997,7 +997,7 @@ RawGeckoElementBorrowed
 element
 )
 ;
-RawServoDeclarationBlockStrong
+bool
 Gecko_GetAnimationRule
 (
 RawGeckoElementBorrowed
@@ -1013,6 +1013,8 @@ EffectCompositor
 :
 CascadeLevel
 aCascadeLevel
+RawServoAnimationValueMapBorrowed
+aAnimationValues
 )
 ;
 bool

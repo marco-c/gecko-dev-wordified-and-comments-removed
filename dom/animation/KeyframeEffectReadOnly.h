@@ -1538,12 +1538,10 @@ aComputedTiming
 void
 ComposeStyleRule
 (
-RefPtr
-<
-ServoAnimationRule
->
+const
+RawServoAnimationValueMap
 &
-aStyleRule
+aAnimationValues
 const
 AnimationProperty
 &

@@ -102,6 +102,15 @@ nsPresContext
 class
 nsStyleContext
 ;
+struct
+RawServoAnimationValueMap
+;
+typedef
+RawServoAnimationValueMap
+const
+*
+RawServoAnimationValueMapBorrowed
+;
 namespace
 mozilla
 {
@@ -352,8 +361,7 @@ nsStyleContext
 aStyleContext
 )
 ;
-ServoAnimationRule
-*
+bool
 GetServoAnimationRule
 (
 const
@@ -367,6 +375,8 @@ CSSPseudoElementType
 aPseudoType
 CascadeLevel
 aCascadeLevel
+RawServoAnimationValueMapBorrowed
+aAnimationValues
 )
 ;
 bool
