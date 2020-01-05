@@ -2148,7 +2148,9 @@ if
 frame
 -
 >
-mTime
+GetEndTime
+(
+)
 >
 =
 lowerLimit
