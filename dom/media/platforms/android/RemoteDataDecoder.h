@@ -248,7 +248,7 @@ aSample
 )
 ;
 void
-ReturnDecodedData
+InputExhausted
 (
 )
 ;
@@ -335,16 +335,6 @@ mTaskQueue
 ;
 bool
 mShutdown
-=
-false
-;
-bool
-mDrained
-=
-true
-;
-bool
-mDraining
 =
 false
 ;
