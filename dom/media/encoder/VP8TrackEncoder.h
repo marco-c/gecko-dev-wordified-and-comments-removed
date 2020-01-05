@@ -115,7 +115,7 @@ StreamTime
 aProcessedDuration
 )
 ;
-bool
+nsresult
 GetEncodedPartitions
 (
 EncodedFrameContainer
@@ -133,6 +133,12 @@ aChunk
 ;
 StreamTime
 mEncodedTimestamp
+;
+CheckedInt64
+mExtractedDuration
+;
+CheckedInt64
+mExtractedDurationUs
 ;
 RefPtr
 <
