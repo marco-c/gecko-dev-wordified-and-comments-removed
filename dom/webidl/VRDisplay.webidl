@@ -1856,6 +1856,7 @@ displayed
 /
 [
 Throws
+NeedsCallerType
 ]
 Promise
 <
