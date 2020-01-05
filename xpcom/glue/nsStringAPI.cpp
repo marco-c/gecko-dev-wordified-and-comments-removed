@@ -977,7 +977,6 @@ return
 1
 ;
 }
-else
 if
 (
 selflen
@@ -1082,7 +1081,6 @@ return
 1
 ;
 }
-else
 if
 (
 selflen
@@ -3344,7 +3342,6 @@ return
 1
 ;
 }
-else
 if
 (
 selflen
@@ -3449,7 +3446,6 @@ return
 1
 ;
 }
-else
 if
 (
 selflen

@@ -3973,7 +3973,6 @@ return
 saved_write_error
 ;
 }
-else
 if
 (
 saved_read_error
@@ -3989,14 +3988,11 @@ saved_read_error
 #
 if
 DEBUG
-else
-{
 MOZ_ASSERT
 (
 0
 )
 ;
-}
 #
 endif
 }
@@ -7963,7 +7959,6 @@ mPath
 )
 ;
 }
-else
 if
 (
 NS_SUCCEEDED
@@ -7982,8 +7977,6 @@ return
 NS_OK
 ;
 }
-else
-{
 nsCOMPtr
 <
 nsIFile
@@ -8038,7 +8031,6 @@ ShowURIForInput
 dirPath
 )
 ;
-}
 #
 elif
 defined

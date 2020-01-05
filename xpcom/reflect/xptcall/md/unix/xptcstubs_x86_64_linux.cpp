@@ -299,7 +299,6 @@ ap
 continue
 ;
 }
-else
 if
 (
 !
@@ -359,8 +358,6 @@ ap
 continue
 ;
 }
-else
-{
 if
 (
 nr_gpr
@@ -384,7 +381,6 @@ ap
 +
 +
 ;
-}
 if
 (
 param
