@@ -43,7 +43,6 @@ stdlib
 h
 >
 extern
-MOZ_EXPORT
 int
 gSeccompTsyncBroadcastSignum
 ;

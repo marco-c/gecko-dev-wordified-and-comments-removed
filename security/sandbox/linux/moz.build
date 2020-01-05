@@ -753,6 +753,11 @@ SandboxFilterUtil
 cpp
 '
 '
+SandboxHooks
+.
+cpp
+'
+'
 SandboxInfo
 .
 cpp
@@ -1124,9 +1129,6 @@ broker
 '
 '
 glue
-'
-'
-interpose
 '
 ]
 TEST_DIRS
