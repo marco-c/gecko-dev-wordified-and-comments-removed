@@ -23,16 +23,6 @@ pref
 "
 marionette
 .
-forcelocal
-"
-true
-)
-;
-pref
-(
-"
-marionette
-.
 log
 .
 level
