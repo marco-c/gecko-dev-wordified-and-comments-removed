@@ -500,6 +500,7 @@ ResourceTask
 ResourceCORSData
 Load
 LoadData
+LoadResponse
 Payload
 Done
 }
@@ -1453,6 +1454,12 @@ CORSRequest
 gen_id
 :
 GenerationId
+start_port
+:
+Receiver
+<
+LoadResponse
+>
 )
 -
 >
@@ -1788,16 +1795,6 @@ _
 Step
 10
 13
-let
-(
-start_chan
-start_port
-)
-=
-channel
-(
-)
-;
 resource_task
 .
 send
@@ -1805,7 +1802,6 @@ send
 Load
 (
 load_data
-start_chan
 )
 )
 ;
@@ -3991,6 +3987,16 @@ resource_task
 )
 ;
 let
+(
+start_chan
+start_port
+)
+=
+channel
+(
+)
+;
+let
 mut
 load_data
 =
@@ -4014,6 +4020,7 @@ clone
 unwrap
 (
 )
+start_chan
 )
 ;
 load_data
@@ -4600,6 +4607,7 @@ load_data
 terminate_receiver
 cors_request
 gen_id
+start_port
 )
 ;
 }
@@ -4745,6 +4753,7 @@ load_data
 terminate_receiver
 cors_request
 gen_id
+start_port
 )
 ;
 let
