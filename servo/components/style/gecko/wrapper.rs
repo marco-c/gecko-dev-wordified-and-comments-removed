@@ -4326,6 +4326,16 @@ NonTSPseudoClass
 :
 :
 MozHandlerCrashed
+|
+NonTSPseudoClass
+:
+:
+Required
+|
+NonTSPseudoClass
+:
+:
+Optional
 =
 >
 {
