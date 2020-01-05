@@ -14414,7 +14414,7 @@ rust
 -
 mozjs
 #
-bc9add648b3174120d70d0bef3935912bd6f1313
+14e4556d7cd3dc4fd5eaf5e19e725a1325be14e6
 "
 dependencies
 =
@@ -18148,7 +18148,7 @@ servo
 /
 mozjs
 #
-2af5849a97a9f18acd482940ba3fa0c6797ed7eb
+94eabc218780b696933122184e524bd35544c378
 "
 dependencies
 =
