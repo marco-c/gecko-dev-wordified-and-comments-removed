@@ -117,11 +117,6 @@ MessagePortChild
 h
 '
 '
-MessagePortList
-.
-h
-'
-'
 MessagePortParent
 .
 h
@@ -143,11 +138,6 @@ cpp
 '
 '
 MessagePortChild
-.
-cpp
-'
-'
-MessagePortList
 .
 cpp
 '
