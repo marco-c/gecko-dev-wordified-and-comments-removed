@@ -247,6 +247,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+TabGroup
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

@@ -1821,6 +1821,17 @@ include
 "
 mozilla
 /
+dom
+/
+TabGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DocLoadingTimelineMarker
 .
 h

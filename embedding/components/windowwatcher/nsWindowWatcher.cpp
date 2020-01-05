@@ -425,6 +425,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+TabGroup
+.
+h
+"
+#
+include
+"
 nsIXULWindow
 .
 h
