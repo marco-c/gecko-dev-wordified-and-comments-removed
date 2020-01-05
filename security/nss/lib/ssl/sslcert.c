@@ -2969,8 +2969,8 @@ if
 keyPair
 )
 {
-return
-SECFailure
+goto
+loser
 ;
 }
 rv

@@ -1622,6 +1622,9 @@ PRNG_SEEDLEN
 2
 ]
 ;
+#
+ifndef
+UNSAFE_FUZZER_MODE
 unsigned
 int
 numBytes
@@ -1631,6 +1634,8 @@ rv
 =
 SECSuccess
 ;
+#
+endif
 if
 (
 globalrng
@@ -1700,6 +1705,9 @@ return
 PR_FAILURE
 ;
 }
+#
+ifndef
+UNSAFE_FUZZER_MODE
 numBytes
 =
 (
@@ -1819,6 +1827,8 @@ return
 PR_FAILURE
 ;
 }
+#
+endif
 globalrng
 -
 >
