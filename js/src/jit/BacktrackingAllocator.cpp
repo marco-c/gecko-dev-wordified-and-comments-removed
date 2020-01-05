@@ -15608,7 +15608,7 @@ get
 ;
 if
 (
-compilingAsmJS
+compilingWasm
 (
 )
 )

@@ -10089,7 +10089,7 @@ dest
 bool
 widenFloatToDouble
 bool
-compilingAsmJS
+compilingWasm
 )
 ;
 void

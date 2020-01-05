@@ -372,7 +372,7 @@ isProfilerInstrumentationEnabled
 {
 return
 !
-compilingAsmJS
+compilingWasm
 (
 )
 &
@@ -511,7 +511,7 @@ abortReason_
 ;
 }
 bool
-compilingAsmJS
+compilingWasm
 (
 )
 const
@@ -520,7 +520,7 @@ return
 info_
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 ;
@@ -533,7 +533,7 @@ const
 {
 MOZ_ASSERT
 (
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -551,7 +551,7 @@ n
 {
 MOZ_ASSERT
 (
-compilingAsmJS
+compilingWasm
 (
 )
 )

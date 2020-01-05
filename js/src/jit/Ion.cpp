@@ -7903,7 +7903,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -7964,7 +7964,7 @@ disablePgo
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -8383,7 +8383,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -8725,7 +8725,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -9943,7 +9943,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -9988,7 +9988,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )

@@ -15230,7 +15230,7 @@ MOZ_ASSERT
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )

@@ -1080,7 +1080,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )

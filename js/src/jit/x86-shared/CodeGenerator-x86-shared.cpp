@@ -2380,7 +2380,7 @@ MOZ_ASSERT
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -14463,7 +14463,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -14716,7 +14716,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -16399,7 +16399,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )

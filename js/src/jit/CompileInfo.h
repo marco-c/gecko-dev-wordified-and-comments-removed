@@ -809,7 +809,7 @@ script_
 ;
 }
 bool
-compilingAsmJS
+compilingWasm
 (
 )
 const

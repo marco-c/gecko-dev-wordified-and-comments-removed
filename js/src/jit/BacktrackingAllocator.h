@@ -3429,7 +3429,7 @@ bundle
 )
 ;
 bool
-compilingAsmJS
+compilingWasm
 (
 )
 {
@@ -3441,7 +3441,7 @@ info
 (
 )
 .
-compilingAsmJS
+compilingWasm
 (
 )
 ;
