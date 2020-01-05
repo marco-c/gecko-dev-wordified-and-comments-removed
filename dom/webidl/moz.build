@@ -2392,6 +2392,11 @@ SVGGElement
 webidl
 '
 '
+SVGGeometryElement
+.
+webidl
+'
+'
 SVGGradientElement
 .
 webidl
