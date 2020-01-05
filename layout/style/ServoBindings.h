@@ -613,6 +613,12 @@ uint32_t
 media_length
 )
 ;
+RawGeckoURLExtraData
+*
+Gecko_URLExtraData_CreateDummy
+(
+)
+;
 StyleChildrenIteratorOwnedOrNull
 Gecko_MaybeCreateStyleChildrenIterator
 (
