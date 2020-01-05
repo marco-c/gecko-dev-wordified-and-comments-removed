@@ -527,6 +527,7 @@ string_cache
 {
 Atom
 Namespace
+QualName
 }
 ;
 use
@@ -1648,6 +1649,7 @@ no_jsmanaged_fields
 (
 Atom
 Namespace
+QualName
 )
 ;
 no_jsmanaged_fields

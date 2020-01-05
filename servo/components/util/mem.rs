@@ -312,7 +312,10 @@ string_cache
 namespace
 :
 :
+{
+QualName
 Namespace
+}
 ;
 use
 url
@@ -2286,6 +2289,7 @@ Color
 RGBA
 Cursor
 Matrix4
+QualName
 Atom
 Namespace
 )
