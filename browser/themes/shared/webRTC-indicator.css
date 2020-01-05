@@ -563,13 +563,8 @@ firefoxButton
 moz
 -
 focusring
->
-.
-button
--
-box
 {
-border
+outline
 :
 none
 ;
