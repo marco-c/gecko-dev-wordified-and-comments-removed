@@ -1228,6 +1228,7 @@ mRadii
 ;
 class
 EllipseShapeInfo
+final
 :
 public
 ShapeInfo
@@ -1361,7 +1362,7 @@ aBlockStart
 )
 ;
 }
-protected
+private
 :
 nsPoint
 mCenter
