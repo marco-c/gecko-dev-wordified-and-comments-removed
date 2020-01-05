@@ -522,6 +522,22 @@ opt
 '
 win32
 -
+clang
+-
+debug
+'
+    
+'
+win32
+-
+clang
+-
+opt
+'
+    
+'
+win32
+-
 debug
 '
     
@@ -535,6 +551,22 @@ opt
 win32
 -
 pgo
+'
+    
+'
+win64
+-
+clang
+-
+debug
+'
+    
+'
+win64
+-
+clang
+-
+opt
 '
     
 '
