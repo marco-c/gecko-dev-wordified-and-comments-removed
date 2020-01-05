@@ -6632,12 +6632,15 @@ path
 (
 CARGO_FILE
 )
+ifdef
+BUILD_VERBOSE_LOG
 cargo_build_flags
 +
 =
 -
 -
 verbose
+endif
 #
 Enable
 color
