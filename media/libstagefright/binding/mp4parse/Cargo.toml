@@ -121,9 +121,6 @@ dependencies
 ]
 byteorder
 =
-{
-version
-=
 "
 0
 .
@@ -131,7 +128,6 @@ version
 .
 0
 "
-}
 [
 dev
 -
