@@ -79,6 +79,12 @@ js
 :
 JSVAL_NULL
 ;
+use
+dom
+:
+:
+namespace
+;
 pub
 struct
 HTMLElement
@@ -120,6 +126,10 @@ new
 (
 type_id
 tag_name
+namespace
+:
+:
+HTML
 document
 )
 }
