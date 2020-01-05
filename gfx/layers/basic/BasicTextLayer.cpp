@@ -102,6 +102,17 @@ PathHelpers
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+LayersMessages
+.
+h
+"
 using
 namespace
 mozilla
