@@ -2485,14 +2485,14 @@ components
 extensions
 .
 manifest
-BINPATH
+RESPATH
 /
 components
 /
 EditorUtils
 .
 manifest
-BINPATH
+RESPATH
 /
 components
 /
