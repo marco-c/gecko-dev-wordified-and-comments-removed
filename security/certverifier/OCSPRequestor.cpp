@@ -366,7 +366,7 @@ FATAL_ERROR_INVALID_ARGS
 uint32_t
 urlLen
 =
-PL_strlen
+strlen
 (
 url
 )
