@@ -959,6 +959,7 @@ MOZ_RELEASE_ASSERT
 (
 waitResult
 =
+=
 WAIT_OBJECT_0
 +
 1
