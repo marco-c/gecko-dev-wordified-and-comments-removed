@@ -870,6 +870,8 @@ const
 nsAString
 &
 aCacheName
+nsLoadFlags
+aLoadFlags
 )
 :
 mPrincipal
@@ -887,6 +889,10 @@ aScriptSpec
 mCacheName
 (
 aCacheName
+)
+mLoadFlags
+(
+aLoadFlags
 )
 mState
 (

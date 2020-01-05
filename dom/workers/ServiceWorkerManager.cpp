@@ -7757,6 +7757,12 @@ aRegistration
 cacheName
 (
 )
+registration
+-
+>
+GetLoadFlags
+(
+)
 )
 )
 ;
