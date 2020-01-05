@@ -654,11 +654,10 @@ epoch
 aBridge
 -
 >
-NotifyDidComposite
+NotifyDidCompositeToPipeline
 (
+pipeline
 epoch
-.
-mHandle
 aStart
 aEnd
 )
