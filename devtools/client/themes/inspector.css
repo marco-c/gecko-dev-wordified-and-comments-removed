@@ -82,6 +82,17 @@ color
 454d5d
 ;
 }
+*
+{
+box
+-
+sizing
+:
+border
+-
+box
+;
+}
 window
 {
 overflow
