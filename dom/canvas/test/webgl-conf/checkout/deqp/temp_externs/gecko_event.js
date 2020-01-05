@@ -68,12 +68,6 @@ Event
 .
 prototype
 .
-isChar
-;
-Event
-.
-prototype
-.
 keyCode
 ;
 Event

@@ -259,11 +259,6 @@ attribute
 long
 rangeOffset
 ;
-readonly
-attribute
-boolean
-isChar
-;
 }
 ;
 dictionary

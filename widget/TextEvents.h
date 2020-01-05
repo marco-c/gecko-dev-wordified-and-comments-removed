@@ -382,10 +382,6 @@ mInputMethodAppState
 (
 eNotHandled
 )
-mIsChar
-(
-false
-)
 mIsRepeat
 (
 false
@@ -492,10 +488,6 @@ CODE_NAME_INDEX_UNKNOWN
 mInputMethodAppState
 (
 eNotHandled
-)
-mIsChar
-(
-false
 )
 mIsRepeat
 (
@@ -771,9 +763,6 @@ eHandled
 ;
 InputMethodAppState
 mInputMethodAppState
-;
-bool
-mIsChar
 ;
 bool
 mIsRepeat
@@ -1069,12 +1058,6 @@ mAlternativeCharCodes
 aEvent
 .
 mAlternativeCharCodes
-;
-mIsChar
-=
-aEvent
-.
-mIsChar
 ;
 mIsRepeat
 =

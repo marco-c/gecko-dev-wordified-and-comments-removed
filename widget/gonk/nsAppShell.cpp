@@ -1300,16 +1300,6 @@ mDOMKeyCode
 }
 event
 .
-mIsChar
-=
-!
-!
-event
-.
-mCharCode
-;
-event
-.
 mIsRepeat
 =
 IsRepeat
