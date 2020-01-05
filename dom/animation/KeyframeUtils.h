@@ -201,9 +201,6 @@ dom
 :
 CompositeOperation
 aEffectComposite
-nsStyleContext
-*
-aStyleContext
 )
 ;
 static

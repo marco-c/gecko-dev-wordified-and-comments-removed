@@ -2890,9 +2890,6 @@ dom
 :
 CompositeOperation
 aEffectComposite
-nsStyleContext
-*
-aStyleContext
 )
 {
 MOZ_ASSERT
