@@ -565,6 +565,12 @@ DOMString
 elementName
 )
 ;
+readonly
+attribute
+HTMLScriptElement
+?
+currentScript
+;
 /
 /
 special
