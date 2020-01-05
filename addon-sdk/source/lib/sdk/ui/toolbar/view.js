@@ -1004,6 +1004,11 @@ none
 overflow
 :
 hidden
+;
+border
+:
+0
+;
 "
 )
 ;
