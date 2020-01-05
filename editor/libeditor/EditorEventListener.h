@@ -315,7 +315,7 @@ GetFocusedRootContent
 bool
 NotifyIMEOfMouseButtonEvent
 (
-nsIDOMMouseEvent
+WidgetMouseEvent
 *
 aMouseEvent
 )
