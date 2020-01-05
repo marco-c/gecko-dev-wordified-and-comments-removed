@@ -1610,6 +1610,11 @@ hasDirectEvalInParameterExpr
 1
 ;
 bool
+hasDuplicateParameters
+:
+1
+;
+bool
 useAsm
 :
 1
