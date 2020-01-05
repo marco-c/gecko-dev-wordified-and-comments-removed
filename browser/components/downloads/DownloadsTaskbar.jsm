@@ -374,6 +374,7 @@ _summary
 )
 {
 return
+undefined
 ;
 }
 this
@@ -381,6 +382,16 @@ this
 _summary
 =
 summary
+;
+return
+this
+.
+_summary
+.
+addView
+(
+this
+)
 ;
 }
 )
