@@ -1397,6 +1397,19 @@ GetSecurityMode
 ;
 if
 (
+loadInfo
+-
+>
+RedirectChain
+(
+)
+.
+IsEmpty
+(
+)
+&
+&
+(
 securityFlags
 =
 =
@@ -1422,6 +1435,7 @@ nsILoadInfo
 :
 :
 SEC_REQUIRE_CORS_DATA_INHERITS
+)
 )
 {
 nsCOMPtr
