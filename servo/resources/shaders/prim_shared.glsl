@@ -3352,6 +3352,8 @@ smoothstep
 .
 0
 0
+.
+0
 distance_from_border
 )
 ;
@@ -3436,6 +3438,8 @@ squared_distance
 !
 =
 0
+.
+0
 )
 {
 float
@@ -3466,6 +3470,8 @@ squared_distance
 delta
 *
 2
+.
+0
 )
 ;
 }

@@ -69,6 +69,8 @@ float
 alpha
 =
 0
+.
+0
 ;
 init_transform_fs
 (

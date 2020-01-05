@@ -832,12 +832,16 @@ pow
 (
 width
 2
+.
+0
 )
 +
 pow
 (
 height
 2
+.
+0
 )
 )
 ;

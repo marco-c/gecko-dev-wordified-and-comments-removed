@@ -199,10 +199,13 @@ UV_PIXEL
 vec2
 texture_size
 =
+vec2
+(
 textureSize
 (
 sDiffuse
 0
+)
 )
 ;
 st0
