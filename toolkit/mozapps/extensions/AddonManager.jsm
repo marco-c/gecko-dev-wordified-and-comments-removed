@@ -11729,7 +11729,6 @@ getAddonsWithOperationsByTypes
 nextObject
 :
 function
-getAddonsWithOperationsByTypes_nextObject
 (
 aCaller
 aProvider
@@ -11743,7 +11742,6 @@ getAddonsWithOperationsByTypes
 "
 aTypes
 function
-getAddonsWithOperationsByTypes_concatAddons
 (
 aProviderAddons
 )

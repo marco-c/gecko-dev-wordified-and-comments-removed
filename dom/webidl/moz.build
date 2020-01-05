@@ -337,11 +337,6 @@ BrowserElementDictionaries
 webidl
 '
 '
-BrowserElementProxy
-.
-webidl
-'
-'
 Cache
 .
 webidl
