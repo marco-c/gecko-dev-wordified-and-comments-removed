@@ -617,20 +617,6 @@ nightly
 '
 :
 _DESKTOP_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
-+
-[
-        
-"
-target
-.
-sdk
-.
-tar
-.
-bz2
-"
-    
-]
     
 '
 linux
@@ -639,20 +625,6 @@ nightly
 '
 :
 _DESKTOP_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
-+
-[
-        
-"
-target
-.
-sdk
-.
-tar
-.
-bz2
-"
-    
-]
     
 '
 android
