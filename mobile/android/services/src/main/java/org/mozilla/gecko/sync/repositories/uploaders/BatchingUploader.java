@@ -959,9 +959,14 @@ AtomicLong
 lastModifiedTimestamp
 )
 {
-repositorySession
+sessionStoreDelegate
 .
-storeDone
+deferredStoreDelegate
+(
+executor
+)
+.
+onStoreCompleted
 (
 lastModifiedTimestamp
 .

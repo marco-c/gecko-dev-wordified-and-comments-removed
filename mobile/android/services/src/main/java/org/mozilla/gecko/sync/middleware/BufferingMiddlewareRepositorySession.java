@@ -323,23 +323,6 @@ flush
 Override
 public
 void
-storeDone
-(
-)
-{
-storeDone
-(
-System
-.
-currentTimeMillis
-(
-)
-)
-;
-}
-Override
-public
-void
 storeFlush
 (
 )
@@ -356,9 +339,6 @@ public
 void
 storeDone
 (
-final
-long
-end
 )
 {
 bufferStorage
@@ -401,7 +381,6 @@ return
 }
 doMergeBuffer
 (
-end
 )
 ;
 }
@@ -409,8 +388,6 @@ VisibleForTesting
 void
 doMergeBuffer
 (
-long
-end
 )
 {
 final
@@ -439,7 +416,6 @@ super
 .
 storeDone
 (
-end
 )
 ;
 return
@@ -477,7 +453,6 @@ super
 .
 storeDone
 (
-end
 )
 ;
 }
