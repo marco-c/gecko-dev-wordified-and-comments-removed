@@ -1966,7 +1966,6 @@ html
 3
 .
 html
-#
 needs
 -
 focus
@@ -2006,7 +2005,6 @@ html
 5
 .
 html
-#
 needs
 -
 focus
@@ -2022,7 +2020,7 @@ html
 4
 .
 html
-#
+fails
 needs
 -
 focus
@@ -2072,7 +2070,7 @@ html
 7
 .
 html
-#
+fails
 needs
 -
 focus
@@ -2131,7 +2129,6 @@ contenteditable
 attr
 .
 html
-#
 needs
 -
 focus
@@ -2151,7 +2148,6 @@ contenteditable
 focused
 .
 html
-#
 needs
 -
 focus

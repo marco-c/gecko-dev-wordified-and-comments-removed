@@ -11706,7 +11706,6 @@ html
 5
 .
 html
-#
 =
 =
 403657
@@ -11933,7 +11932,6 @@ compartments
 for
 now
 .
-#
 =
 =
 data
@@ -18818,11 +18816,9 @@ bug
 gets
 resolved
 .
-#
 needs
 -
 focus
-fails
 =
 =
 503531
@@ -20133,7 +20129,7 @@ html
 1
 .
 html
-#
+fails
 fuzzy
 -
 if
@@ -20141,6 +20137,12 @@ if
 skiaContent
 4
 5
+)
+skip
+-
+if
+(
+stylo
 )
 =
 =
@@ -20155,6 +20157,9 @@ html
 .
 html
 #
+Bug
+1341973
+fails
 fails
 -
 if
@@ -20173,6 +20178,12 @@ Android
 2
 5
 )
+skip
+-
+if
+(
+stylo
+)
 =
 =
 557087
@@ -20185,6 +20196,9 @@ html
 2
 .
 html
+#
+Bug
+1341973
 fails
 =
 =
@@ -22242,7 +22256,6 @@ html
 1
 .
 html
-#
 fuzzy
 -
 if

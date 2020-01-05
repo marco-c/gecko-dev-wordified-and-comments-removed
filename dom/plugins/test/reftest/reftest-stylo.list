@@ -181,7 +181,6 @@ written
 or
 replaced
 .
-#
 random
 -
 if
@@ -222,6 +221,12 @@ haveTestPlugin
 !
 Android
 )
+skip
+-
+if
+(
+stylo
+)
 =
 =
 pluginproblemui
@@ -238,7 +243,6 @@ direction
 1
 .
 html
-#
 random
 -
 if
@@ -255,6 +259,12 @@ haveTestPlugin
 &
 !
 Android
+)
+skip
+-
+if
+(
+stylo
 )
 =
 =

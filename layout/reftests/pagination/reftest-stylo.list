@@ -51,11 +51,7 @@ multicol3
 #
 Pagination
 tests
-#
-asserts
-(
-3
-)
+fails
 =
 =
 abspos
@@ -968,7 +964,7 @@ auto
 1
 .
 html
-#
+fails
 =
 =
 table
@@ -999,8 +995,6 @@ auto
 ref
 .
 html
-bug
-bug
 =
 =
 table

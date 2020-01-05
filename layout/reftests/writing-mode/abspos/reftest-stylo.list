@@ -143,6 +143,7 @@ run
 the
 test
 .
+fails
 =
 =
 s71
@@ -175,6 +176,7 @@ vlr
 003
 .
 xht
+fails
 =
 =
 s71
@@ -207,6 +209,7 @@ vlr
 005
 .
 xht
+fails
 =
 =
 s71

@@ -319,7 +319,7 @@ placeholder
 textarea
 .
 html
-#
+fails
 needs
 -
 focus
@@ -335,7 +335,7 @@ placeholder
 7
 .
 html
-#
+fails
 needs
 -
 focus
@@ -351,7 +351,7 @@ placeholder
 8
 .
 html
-#
+fails
 needs
 -
 focus
@@ -466,7 +466,7 @@ placeholder
 19
 .
 xul
-#
+fails
 needs
 -
 focus
@@ -482,7 +482,7 @@ placeholder
 20
 .
 html
-#
+fails
 needs
 -
 focus

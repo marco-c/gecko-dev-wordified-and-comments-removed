@@ -61,7 +61,6 @@ input
 create
 .
 html
-#
 fuzzy
 -
 if
@@ -69,6 +68,12 @@ if
 skiaContent
 1
 3
+)
+skip
+-
+if
+(
+stylo
 )
 needs
 -
@@ -85,6 +90,9 @@ input
 number
 .
 html
+#
+Bug
+1341973
 fails
 =
 =

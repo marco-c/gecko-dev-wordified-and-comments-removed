@@ -1217,7 +1217,6 @@ by
 this
 #
 test
-#
 fails
 -
 if
@@ -1238,6 +1237,12 @@ azureSkiaGL
 Android
 )
 )
+skip
+-
+if
+(
+stylo
+)
 =
 =
 linear
@@ -1254,6 +1259,10 @@ gradient
 1a
 .
 html
+#
+Too
+random
+.
 #
 this
 passes
@@ -1274,7 +1283,6 @@ azure
 for
 reasons
 unknown
-#
 fails
 -
 if
@@ -1295,6 +1303,12 @@ azureSkiaGL
 Android
 )
 )
+skip
+-
+if
+(
+stylo
+)
 =
 =
 linear
@@ -1311,6 +1325,10 @@ gradient
 1b
 .
 html
+#
+Too
+random
+.
 =
 =
 zero

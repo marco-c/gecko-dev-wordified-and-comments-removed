@@ -612,22 +612,6 @@ names
 without
 the
 spaces
-#
-fails
--
-if
-(
-http
-.
-oscpu
-=
-=
-"
-Linux
-\
-u0020x86_64
-"
-)
 =
 =
 familyname
@@ -1462,7 +1446,6 @@ problems
 are
 corrected
 .
-#
 random
 -
 if
@@ -1490,7 +1473,6 @@ fallback
 1
 .
 html
-#
 random
 -
 if
@@ -1523,7 +1505,6 @@ fallback
 2
 .
 html
-#
 random
 -
 if
@@ -1556,7 +1537,6 @@ fallback
 3
 .
 html
-#
 random
 -
 if
@@ -1589,7 +1569,6 @@ fallback
 4
 .
 html
-#
 random
 -
 if
@@ -1617,7 +1596,6 @@ fallback
 ko
 .
 html
-#
 random
 -
 if
@@ -1649,7 +1627,6 @@ zh
 tw
 .
 html
-#
 random
 -
 if
@@ -1681,7 +1658,6 @@ zh
 cn
 .
 html
-#
 random
 -
 if

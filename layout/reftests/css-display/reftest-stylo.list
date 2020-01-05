@@ -55,7 +55,7 @@ contents
 acid
 .
 html
-#
+fails
 fuzzy
 -
 if
@@ -436,7 +436,6 @@ contents
 xbl
 .
 xhtml
-#
 fuzzy
 -
 if
@@ -444,6 +443,12 @@ if
 Android
 7
 1186
+)
+skip
+-
+if
+(
+stylo
 )
 pref
 (
@@ -478,6 +483,9 @@ dom
 1
 .
 html
+#
+Bug
+1293844
 =
 =
 display

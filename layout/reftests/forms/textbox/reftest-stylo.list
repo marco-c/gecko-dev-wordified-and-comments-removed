@@ -97,14 +97,6 @@ in
 XUL
 bidi
 support
-#
-fails
--
-if
-(
-!
-cocoaWidget
-)
 skip
 -
 if
@@ -126,7 +118,6 @@ accesskey
 3
 .
 xul
-#
 skip
 -
 if

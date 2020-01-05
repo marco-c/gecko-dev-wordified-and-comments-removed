@@ -4751,7 +4751,6 @@ order
 03
 .
 svg
-#
 fuzzy
 (
 23
@@ -8369,7 +8368,12 @@ svg
 #
 Too
 intermittent
-#
+skip
+-
+if
+(
+stylo
+)
 skip
 -
 if
@@ -8467,7 +8471,6 @@ blend
 normal
 .
 svg
-#
 skip
 -
 if
@@ -8501,7 +8504,12 @@ blend
 overlay
 .
 svg
-#
+skip
+-
+if
+(
+stylo
+)
 skip
 -
 if
@@ -8535,7 +8543,12 @@ blend
 saturation
 .
 svg
-#
+skip
+-
+if
+(
+stylo
+)
 skip
 -
 if
@@ -8569,7 +8582,6 @@ blend
 screen
 .
 svg
-#
 skip
 -
 if
