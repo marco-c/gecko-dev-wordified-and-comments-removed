@@ -640,7 +640,7 @@ cookie_path
 &
 &
 (
-request_path
+cookie_path
 .
 ends_with
 (
