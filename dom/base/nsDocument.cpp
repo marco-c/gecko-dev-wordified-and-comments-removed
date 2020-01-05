@@ -6204,10 +6204,6 @@ mPostedFlushUserFontSet
 (
 false
 )
-mBidiOptions
-(
-IBMBIDI_DEFAULT_BIDI_OPTIONS
-)
 mPartID
 (
 0
@@ -39150,6 +39146,13 @@ nullptr
 )
 ;
 }
+{
+PageUnloadingEventTimeStamp
+timeStamp
+(
+this
+)
+;
 DispatchPageTransition
 (
 target
@@ -39162,6 +39165,7 @@ pagehide
 aPersisted
 )
 ;
+}
 mVisible
 =
 false
