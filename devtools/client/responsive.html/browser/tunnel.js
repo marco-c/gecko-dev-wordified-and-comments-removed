@@ -1176,6 +1176,10 @@ OUTER_TO_INNER_MESSAGE_PREFIXES
 :
 [
 "
+ContextMenu
+:
+"
+"
 debug
 :
 "
@@ -1203,6 +1207,10 @@ PageMetadata
 INNER_TO_OUTER_MESSAGE_PREFIXES
 :
 [
+"
+ContextMenu
+:
+"
 "
 debug
 :
