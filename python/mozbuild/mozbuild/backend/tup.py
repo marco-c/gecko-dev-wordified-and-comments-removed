@@ -1651,6 +1651,22 @@ extend
 full_inputs
 )
             
+cmd
+.
+extend
+(
+shell_quote
+(
+f
+)
+for
+f
+in
+obj
+.
+flags
+)
+            
 outputs
 =
 [
