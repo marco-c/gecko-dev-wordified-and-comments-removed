@@ -1408,7 +1408,7 @@ stylesheet
 if
 file_try
 .
-is_success
+is_ok
 (
 )
 {

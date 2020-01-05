@@ -78,7 +78,7 @@ channel
 }
 class
 file_channel
-implements
+:
 channel
 {
 let

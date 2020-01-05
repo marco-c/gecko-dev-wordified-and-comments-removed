@@ -407,6 +407,13 @@ listen
 {
 |
 data_ch
+:
+chan
+<
+[
+u8
+]
+>
 |
 crust
 fn

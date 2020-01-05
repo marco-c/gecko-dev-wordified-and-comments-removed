@@ -5,12 +5,6 @@ comm
 *
 ;
 import
-result
-:
-:
-extensions
-;
-import
 gfx
 :
 :
