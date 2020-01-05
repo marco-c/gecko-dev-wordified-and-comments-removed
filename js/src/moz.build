@@ -5780,13 +5780,6 @@ js
 '
 builtin
 /
-AsyncFunctions
-.
-js
-'
-'
-builtin
-/
 Classes
 .
 js
