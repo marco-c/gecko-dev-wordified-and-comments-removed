@@ -166,7 +166,7 @@ T
 (
 )
 as
-u64
+size_t
 )
 as
 *
@@ -217,7 +217,7 @@ T
 (
 )
 as
-u64
+size_t
 )
 as
 *

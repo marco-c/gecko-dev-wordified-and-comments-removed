@@ -4,6 +4,7 @@ VPATH
 VPATH
 %
 CC
+?
 =
 gcc
 RUSTC
@@ -18,6 +19,7 @@ RUSTFLAGS
 ?
 =
 CFLAGS
++
 =
 -
 Wall

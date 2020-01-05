@@ -31,8 +31,6 @@ rustdoc
 RUSTFLAGS
 ?
 =
--
-O
 EXT_DEPS
 ?
 =
@@ -215,7 +213,6 @@ PHONY
 check
 check
 :
-doctest
 rustencoding
 -
 test

@@ -99,6 +99,13 @@ libpng
 (
 NULL
 )
+NO_CROSS_BUILDS
++
+=
+\
+(
+NULL
+)
 #
 NOTE
 :

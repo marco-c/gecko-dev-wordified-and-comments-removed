@@ -48,6 +48,14 @@ thread_local
 #
 !
 [
+allow
+(
+experimental
+)
+]
+#
+!
+[
 feature
 (
 phase
