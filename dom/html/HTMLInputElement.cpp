@@ -16577,12 +16577,7 @@ mHandlingSelectEvent
 WidgetEvent
 event
 (
-nsContentUtils
-:
-:
-LegacyIsCallerChromeOrNativeCode
-(
-)
+true
 eFormSelect
 )
 ;
