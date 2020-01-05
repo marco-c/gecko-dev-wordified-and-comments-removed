@@ -35,7 +35,7 @@ jsapi
 :
 {
 JSContext
-jsval
+JSVal
 JSObject
 JSBool
 jsid
@@ -595,7 +595,7 @@ vp
 :
 *
 mut
-jsval
+JSVal
 )
 -
 >
@@ -746,7 +746,7 @@ vp
 :
 *
 mut
-jsval
+JSVal
 )
 -
 >
@@ -952,7 +952,7 @@ vp
 :
 *
 mut
-jsval
+JSVal
 )
 -
 >

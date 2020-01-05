@@ -313,7 +313,7 @@ jsapi
 :
 {
 JSContext
-jsval
+JSVal
 }
 ;
 use
@@ -436,6 +436,7 @@ pipes
 :
 SharedChan
 (
+move
 control_chan
 )
 ;
@@ -453,6 +454,7 @@ control_port
 =
 Cell
 (
+move
 control_port
 )
 ;
@@ -461,6 +463,7 @@ dom_event_port
 =
 Cell
 (
+move
 dom_event_port
 )
 ;
@@ -469,6 +472,7 @@ dom_event_chan
 =
 Cell
 (
+move
 dom_event_chan
 )
 ;
@@ -483,6 +487,22 @@ SingleThreaded
 )
 .
 spawn
+|
+move
+layout_task
+move
+control_port
+move
+control_chan_copy
+move
+resource_task
+move
+img_cache_task
+move
+dom_event_port
+move
+dom_event_chan
+|
 {
 let
 content
@@ -526,6 +546,7 @@ start
 ;
 }
 return
+move
 control_chan
 ;
 }
@@ -754,24 +775,30 @@ Content
 {
 layout_task
 :
+move
 layout_task
 layout_join_port
 :
 None
 image_cache_task
 :
+move
 img_cache_task
 control_port
 :
+move
 control_port
 control_chan
 :
+move
 control_chan
 event_port
 :
+move
 event_port
 event_chan
 :
+move
 event_chan
 scope
 :
@@ -1117,6 +1144,7 @@ root
 self
 .
 scope
+move
 css_rules
 )
 ;
@@ -1150,6 +1178,7 @@ document
 =
 Some
 (
+move
 document
 )
 ;
@@ -1159,6 +1188,7 @@ window
 =
 Some
 (
+move
 window
 )
 ;
@@ -1168,7 +1198,7 @@ doc_url
 =
 Some
 (
-copy
+move
 url
 )
 ;
@@ -1230,6 +1260,7 @@ vec
 :
 consume
 (
+move
 js_scripts
 )
 |
@@ -1246,6 +1277,7 @@ evaluate_script
 compartment
 .
 global_obj
+move
 bytes
 ~
 "
@@ -1342,7 +1374,7 @@ requires
 passing
 a
 *
-jsval
+JSVal
 argv
 JS_CallFunctionValue
 (
@@ -1508,6 +1540,7 @@ evaluate_script
 compartment
 .
 global_obj
+move
 bytes
 copy
 url
@@ -1819,6 +1852,7 @@ layout_join_port
 move
 Some
 (
+move
 join_port
 )
 ;

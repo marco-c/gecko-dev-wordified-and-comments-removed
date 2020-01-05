@@ -323,6 +323,7 @@ path
 +
 ~
 [
+move
 str_url
 ]
 "
@@ -350,6 +351,7 @@ path
 }
 else
 {
+move
 str_url
 }
 ;

@@ -498,6 +498,7 @@ each_char
 }
 }
 return
+move
 out_str
 ;
 fn

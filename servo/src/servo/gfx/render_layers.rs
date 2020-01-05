@@ -112,6 +112,7 @@ let
 mut
 buffer
 =
+move
 buffer
 ;
 if

@@ -139,7 +139,7 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 /
 /
@@ -236,7 +236,7 @@ Image
 )
 BorderData
 (
-au
+Au
 u8
 u8
 u8
@@ -440,7 +440,7 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 r
 :
@@ -490,11 +490,11 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 width
 :
-au
+Au
 r
 :
 u8
@@ -544,7 +544,7 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 run
 :
@@ -578,7 +578,9 @@ data
 :
 TextData
 (
+move
 run
+move
 range
 )
 }
@@ -604,7 +606,7 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 image
 :
@@ -644,6 +646,7 @@ data
 :
 ImageData
 (
+move
 image
 )
 }

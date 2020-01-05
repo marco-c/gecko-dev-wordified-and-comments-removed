@@ -60,7 +60,7 @@ gfx
 geometry
 :
 :
-au
+Au
 ;
 use
 glyph
@@ -370,7 +370,7 @@ Range
 )
 -
 >
-au
+Au
 ;
 fn
 iter_natural_lines_for_range
@@ -546,7 +546,7 @@ Range
 )
 -
 >
-au
+Au
 {
 assert
 range
@@ -562,7 +562,7 @@ let
 mut
 max_piece_width
 =
-au
+Au
 (
 0
 )
@@ -1207,12 +1207,14 @@ TextRun
 {
 text
 :
+move
 text
 font
 :
 font
 glyphs
 :
+move
 glyph_store
 }
 ;
@@ -1223,6 +1225,7 @@ run
 )
 ;
 return
+move
 run
 ;
 }
@@ -1266,7 +1269,7 @@ text
 str
 width
 :
-au
+Au
 )
 {
 let

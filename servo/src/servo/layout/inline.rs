@@ -88,7 +88,7 @@ gfx
 geometry
 :
 :
-au
+Au
 ;
 use
 layout
@@ -747,6 +747,7 @@ dvec
 :
 unwrap
 (
+move
 out_boxes
 )
 }
@@ -2186,7 +2187,7 @@ MutableRange
 mut
 width
 :
-au
+Au
 }
 line_spans
 :
@@ -2245,7 +2246,7 @@ empty_mut
 mut
 width
 :
-au
+Au
 (
 0
 )
@@ -2356,7 +2357,7 @@ pending_line
 .
 width
 =
-au
+Au
 (
 0
 )
@@ -2729,6 +2730,7 @@ boxes
 .
 set
 (
+move
 boxes
 )
 ;
@@ -2759,6 +2761,7 @@ lines
 .
 set
 (
+move
 boxes
 )
 ;
@@ -2823,7 +2826,7 @@ let
 mut
 offset_x
 =
-au
+Au
 (
 0
 )
@@ -2973,6 +2976,7 @@ line_spans
 .
 push
 (
+move
 line_range
 )
 ;
@@ -3971,14 +3975,14 @@ b
 &
 Rect
 <
-au
+Au
 >
 c
 :
 &
 Point2D
 <
-au
+Au
 >
 d
 :
@@ -4056,7 +4060,7 @@ let
 mut
 min_width
 =
-au
+Au
 (
 0
 )
@@ -4065,7 +4069,7 @@ let
 mut
 pref_width
 =
-au
+Au
 (
 0
 )
@@ -4551,7 +4555,7 @@ let
 mut
 cur_y
 =
-au
+Au
 (
 0
 )
@@ -4853,7 +4857,7 @@ translate
 &
 Point2D
 (
-au
+Au
 (
 0
 )
@@ -4940,7 +4944,7 @@ position
 origin
 .
 x
-au
+Au
 (
 0
 )
@@ -5106,14 +5110,14 @@ dirty
 &
 Rect
 <
-au
+Au
 >
 offset
 :
 &
 Point2D
 <
-au
+Au
 >
 list
 :

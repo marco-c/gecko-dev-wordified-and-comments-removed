@@ -241,6 +241,7 @@ dom_event_chan
 =
 Cell
 (
+move
 dom_event_chan
 )
 ;
@@ -253,6 +254,8 @@ Msg
 >
 |
 po
+move
+dom_event_chan
 |
 {
 do
@@ -733,6 +736,7 @@ sender
 lend_surface
 (
 surfaces
+move
 sender
 )
 Draw
@@ -760,12 +764,14 @@ frame
 return_surface
 (
 surfaces
+move
 dt
 )
 ;
 lend_surface
 (
 surfaces
+move
 sender
 )
 ;
@@ -834,6 +840,7 @@ layers
 :
 :
 ARGB32Format
+move
 buffer
 )
 ;
@@ -1192,6 +1199,7 @@ send
 (
 BeginDrawing
 (
+move
 next_dt
 )
 )
@@ -1219,7 +1227,9 @@ send
 (
 Draw
 (
+move
 next_dt
+move
 draw_me
 )
 )
@@ -1351,6 +1361,7 @@ receiver
 .
 send
 (
+move
 layer_buffer
 )
 ;
@@ -1640,6 +1651,7 @@ PlatformThread
 .
 spawn_listener
 (
+move
 f
 )
 }

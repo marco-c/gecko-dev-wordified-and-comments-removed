@@ -71,13 +71,11 @@ http
 ;
 do
 spawn
+|
+move
+url
+|
 {
-let
-url
-=
-copy
-url
-;
 #
 debug
 (
@@ -116,6 +114,8 @@ request
 begin
 |
 event
+copy
+url
 |
 {
 let
@@ -165,7 +165,7 @@ url
 ;
 let
 mut
-crap
+junk
 =
 None
 ;
@@ -174,7 +174,7 @@ data
 <
 -
 >
-crap
+junk
 ;
 progress_chan
 .
@@ -187,7 +187,8 @@ option
 :
 unwrap
 (
-crap
+move
+junk
 )
 )
 )

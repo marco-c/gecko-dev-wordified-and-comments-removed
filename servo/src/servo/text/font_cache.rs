@@ -208,6 +208,7 @@ result
 :
 unwrap
 (
+move
 native_font
 )
 }
@@ -232,6 +233,7 @@ Font
 (
 lib
 font_bin
+move
 native_font
 )
 )

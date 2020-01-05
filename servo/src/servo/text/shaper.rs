@@ -14,7 +14,7 @@ use
 au
 :
 :
-au
+Au
 ;
 use
 core
@@ -749,7 +749,7 @@ GlyphIndex
 let
 advance
 :
-au
+Au
 =
 au
 :

@@ -1292,6 +1292,7 @@ font
 =
 unwrap_result
 (
+move
 res
 )
 ;

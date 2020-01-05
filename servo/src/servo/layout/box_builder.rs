@@ -1932,6 +1932,7 @@ Flow_Absolute
 >
 AbsoluteFlow
 (
+move
 data
 )
 Flow_Block
@@ -1939,6 +1940,7 @@ Flow_Block
 >
 BlockFlow
 (
+move
 data
 BlockFlowData
 (
@@ -1949,6 +1951,7 @@ Flow_Float
 >
 FloatFlow
 (
+move
 data
 )
 Flow_InlineBlock
@@ -1956,6 +1959,7 @@ Flow_InlineBlock
 >
 InlineBlockFlow
 (
+move
 data
 )
 Flow_Inline
@@ -1963,6 +1967,7 @@ Flow_Inline
 >
 InlineFlow
 (
+move
 data
 InlineFlowData
 (
@@ -1973,6 +1978,7 @@ Flow_Root
 >
 RootFlow
 (
+move
 data
 RootFlowData
 (
@@ -1983,6 +1989,7 @@ Flow_Table
 >
 TableFlow
 (
+move
 data
 )
 }
@@ -2263,6 +2270,7 @@ next_box_id
 (
 )
 )
+move
 holder
 )
 }

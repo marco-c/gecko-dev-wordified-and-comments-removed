@@ -27,7 +27,7 @@ js
 jsapi
 :
 :
-jsval
+JSVal
 ;
 use
 dvec
@@ -123,12 +123,12 @@ TimerData
 {
 funval
 :
-jsval
+JSVal
 args
 :
 DVec
 <
-jsval
+JSVal
 >
 }
 pub
@@ -144,7 +144,7 @@ c_uint
 argv
 :
 *
-jsval
+JSVal
 )
 -
 >
@@ -204,6 +204,7 @@ i
 ;
 }
 ;
+move
 data
 }
 /
@@ -295,7 +296,7 @@ c_uint
 argv
 :
 *
-jsval
+JSVal
 )
 {
 let
@@ -379,11 +380,14 @@ Port
 <
 TimerControlMsg
 >
+move
+content_chan
 |
 {
 loop
 {
 match
+move
 timer_port
 .
 recv
@@ -396,6 +400,7 @@ TimerMessage_Close
 break
 TimerMessage_Fire
 (
+move
 td
 )
 =
@@ -407,7 +412,7 @@ send
 (
 Timer
 (
-copy
+move
 td
 )
 )

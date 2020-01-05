@@ -79,6 +79,10 @@ file
 ;
 do
 spawn
+|
+move
+url
+|
 {
 match
 file_reader
@@ -123,6 +127,7 @@ send
 (
 Payload
 (
+move
 data
 )
 )

@@ -34,7 +34,7 @@ jsapi
 :
 {
 JSContext
-jsval
+JSVal
 JSObject
 JSBool
 jsid
@@ -243,6 +243,7 @@ cast
 :
 forget
 (
+move
 x
 )
 ;
@@ -262,7 +263,7 @@ cx
 JSContext
 v
 :
-jsval
+JSVal
 )
 -
 >
@@ -407,7 +408,7 @@ DOMString
 )
 -
 >
-jsval
+JSVal
 {
 match
 *
@@ -549,7 +550,7 @@ JSObject
 v
 :
 *
-jsval
+JSVal
 bp
 :
 *
@@ -641,6 +642,7 @@ fn
 (
 compartment
 :
+&
 bare_compartment
 )
 -
@@ -650,7 +652,10 @@ JSClass
 |
 compartment
 :
+&
 bare_compartment
+move
+name
 |
 {
 {
@@ -903,6 +908,7 @@ fn
 (
 compartment
 :
+&
 bare_compartment
 )
 -
@@ -912,7 +918,10 @@ JSClass
 |
 compartment
 :
+&
 bare_compartment
+move
+name
 |
 {
 {
@@ -1216,6 +1225,7 @@ new_object_with_proto
 (
 copy
 name
+move
 s
 compartment
 .
@@ -1277,6 +1287,7 @@ compartment
 .
 stash_global_proto
 (
+move
 name
 obj
 )

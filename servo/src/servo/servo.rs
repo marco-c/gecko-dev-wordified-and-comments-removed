@@ -283,6 +283,7 @@ send
 (
 AddKeyHandler
 (
+move
 keypress_to_engine
 )
 )
@@ -305,6 +306,7 @@ image_cache_task
 =
 ImageCacheTask
 (
+copy
 resource_task
 )
 ;
@@ -314,9 +316,13 @@ engine_task
 Engine
 (
 osmain
+move
 dom_event_port
+move
 dom_event_chan
+move
 resource_task
+move
 image_cache_task
 )
 ;
@@ -363,6 +369,7 @@ send
 (
 LoadURLMsg
 (
+move
 url
 )
 )
@@ -450,6 +457,7 @@ engine
 :
 ExitMsg
 (
+move
 exit_chan
 )
 )
@@ -582,10 +590,15 @@ engine_task
 =
 Engine
 (
+copy
 compositor
+move
 dom_event_port
+move
 dom_event_chan
+move
 resource_task
+move
 image_cache_task
 )
 ;
@@ -661,6 +674,7 @@ engine
 :
 ExitMsg
 (
+move
 exit_chan
 )
 )

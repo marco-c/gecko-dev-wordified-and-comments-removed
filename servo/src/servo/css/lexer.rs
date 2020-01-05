@@ -275,6 +275,7 @@ token
 ]
 ;
 return
+move
 token
 ;
 }
@@ -372,6 +373,7 @@ eat_whitespace
 )
 ;
 return
+move
 token
 ;
 }
@@ -518,8 +520,10 @@ parser_state
 CssAttribute
 ;
 return
+move
 Element
 (
+move
 element
 )
 ;
@@ -774,6 +778,7 @@ values
 :
 Exists
 (
+move
 attr_name
 )
 )
@@ -825,7 +830,9 @@ values
 :
 Exact
 (
+move
 attr_name
+move
 attr_val
 )
 )
@@ -890,7 +897,9 @@ values
 :
 Includes
 (
+move
 attr_name
+move
 attr_val
 )
 )
@@ -955,7 +964,9 @@ values
 :
 StartsWith
 (
+move
 attr_name
+move
 attr_val
 )
 )
@@ -1523,6 +1534,7 @@ result_chan
 .
 send
 (
+move
 token
 )
 ;
@@ -1570,6 +1582,12 @@ task
 :
 :
 spawn
+|
+move
+result_chan
+move
+content
+|
 {
 let
 input_port
@@ -1620,6 +1638,7 @@ result_chan
 ;
 }
 return
+move
 result_port
 ;
 }
@@ -1670,6 +1689,10 @@ task
 :
 spawn
 |
+move
+result_chan
+move
+url
 |
 {
 assert
@@ -1718,6 +1741,7 @@ result_chan
 }
 ;
 return
+move
 result_port
 ;
 }

@@ -10,7 +10,7 @@ use
 au
 :
 :
-au
+Au
 ;
 use
 comm
@@ -164,6 +164,15 @@ C
 >
 RenderTask
 {
+let
+compositor_cell
+=
+Cell
+(
+move
+compositor
+)
+;
 do
 task
 :
@@ -179,6 +188,8 @@ Port
 <
 Msg
 >
+move
+compositor_cell
 |
 {
 let
@@ -191,6 +202,15 @@ pipes
 :
 :
 stream
+(
+)
+;
+let
+compositor
+=
+compositor_cell
+.
+take
 (
 )
 ;
@@ -209,12 +229,14 @@ port
 po
 compositor
 :
+move
 compositor
 mut
 layer_buffer_port
 :
 Cell
 (
+move
 layer_buffer_port
 )
 font_cache
@@ -319,6 +341,7 @@ self
 .
 render
 (
+move
 render_layer
 )
 ExitMsg
@@ -423,6 +446,7 @@ layer_buffer_port
 .
 put_back
 (
+move
 new_layer_buffer_port
 )
 ;
@@ -440,6 +464,7 @@ layer_buffer_cell
 =
 Cell
 (
+move
 layer_buffer
 )
 ;
@@ -570,6 +595,7 @@ compositor
 .
 draw
 (
+move
 layer_buffer_channel
 move
 layer_buffer

@@ -10,7 +10,7 @@ use
 au
 :
 :
-au
+Au
 ;
 use
 content
@@ -390,6 +390,8 @@ Msg
 >
 |
 from_content
+move
+img_cache_task
 |
 {
 Layout
@@ -559,6 +561,7 @@ data
 =
 Cell
 (
+move
 data
 )
 ;
@@ -800,6 +803,7 @@ self
 font_cache
 doc_url
 :
+move
 doc_url
 screen_size
 :
@@ -807,11 +811,11 @@ Rect
 (
 Point2D
 (
-au
+Au
 (
 0
 )
-au
+Au
 (
 0
 )
@@ -1234,7 +1238,7 @@ Option
 <
 Rect
 <
-au
+Au
 >
 >
 =
@@ -1439,6 +1443,7 @@ ReflowEvent
 )
 }
 ;
+move
 f
 }
 ;

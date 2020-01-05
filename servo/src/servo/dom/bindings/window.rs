@@ -33,7 +33,7 @@ jsapi
 :
 {
 JSContext
-jsval
+JSVal
 JSObject
 JSBool
 jsid
@@ -185,7 +185,7 @@ c_uint
 vp
 :
 *
-jsval
+JSVal
 )
 -
 >
@@ -286,7 +286,7 @@ c_uint
 vp
 :
 *
-jsval
+JSVal
 )
 -
 >
@@ -387,7 +387,7 @@ c_uint
 vp
 :
 *
-jsval
+JSVal
 )
 -
 >

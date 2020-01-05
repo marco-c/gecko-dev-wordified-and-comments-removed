@@ -38,15 +38,13 @@ rect
 Rect
 ;
 use
-au
-=
 gfx
 :
 :
 geometry
 :
 :
-au
+Au
 ;
 struct
 LayoutContext
@@ -64,6 +62,6 @@ screen_size
 :
 Rect
 <
-au
+Au
 >
 }

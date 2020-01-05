@@ -1,5 +1,4 @@
 use
-mod
 au
 =
 geometry
@@ -48,11 +47,9 @@ Image
 ;
 use
 au
-=
-au
 :
 :
-au
+Au
 ;
 use
 util
@@ -230,7 +227,7 @@ bounds
 &
 Rect
 <
-au
+Au
 >
 r
 :
@@ -307,11 +304,11 @@ bounds
 &
 Rect
 <
-au
+Au
 >
 width
 :
-au
+Au
 r
 :
 u8
@@ -441,7 +438,7 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 image
 :
@@ -584,6 +581,7 @@ draw_target_ref
 .
 draw_surface
 (
+move
 azure_surface
 dest_rect
 source_rect
@@ -602,7 +600,7 @@ bounds
 :
 Rect
 <
-au
+Au
 >
 run
 :
@@ -1226,7 +1224,7 @@ AzFloat
 impl
 Rect
 <
-au
+Au
 >
 :
 ToAzureRect
