@@ -4073,6 +4073,9 @@ initial_values
 clone
 (
 )
+font_metrics_provider
+:
+None
 }
 ;
 let

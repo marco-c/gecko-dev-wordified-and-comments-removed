@@ -452,6 +452,10 @@ pub
 mod
 font_face
 ;
+pub
+mod
+font_metrics
+;
 #
 [
 cfg
