@@ -208,17 +208,6 @@ num_cpus
 .
 2
 "
-num
--
-traits
-=
-"
-0
-.
-1
-.
-32
-"
 rand
 =
 "
