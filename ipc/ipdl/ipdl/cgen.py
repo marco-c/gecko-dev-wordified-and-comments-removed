@@ -516,20 +516,6 @@ println
 (
 )
         
-for
-transStmt
-in
-p
-.
-transitionStmts
-:
-transStmt
-.
-accept
-(
-self
-)
-        
 self
 .
 dedent
