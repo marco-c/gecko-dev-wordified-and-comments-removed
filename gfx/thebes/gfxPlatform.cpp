@@ -3239,8 +3239,6 @@ d
 d
 %
 d
-%
-d
 )
 "
 gfxPrefs
@@ -3253,12 +3251,6 @@ gfxPrefs
 :
 :
 CanvasAzureAccelerated
-(
-)
-gfxPrefs
-:
-:
-DisableGralloc
 (
 )
 gfxPrefs
@@ -10574,13 +10566,6 @@ AsyncPanZoomEnabled
 {
 #
 if
-!
-defined
-(
-MOZ_B2G
-)
-&
-&
 !
 defined
 (
