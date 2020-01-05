@@ -429,10 +429,10 @@ pipeline_id
 PipelineId
 metadata
 :
-~
-[
+Vec
+<
 LayerMetadata
-]
+>
 epoch
 :
 Epoch
