@@ -60,6 +60,8 @@ FileType
 eBlob
 eMutableFile
 eStructuredClone
+eWasmBytecode
+eWasmCompiled
 eEndGuard
 }
 ;
