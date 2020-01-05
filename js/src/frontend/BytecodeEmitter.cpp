@@ -12004,6 +12004,9 @@ PNK_YIELD_STAR
 case
 PNK_YIELD
 :
+case
+PNK_AWAIT
+:
 MOZ_ASSERT
 (
 pn
@@ -42438,6 +42441,9 @@ break
 ;
 case
 PNK_YIELD
+:
+case
+PNK_AWAIT
 :
 if
 (
