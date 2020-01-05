@@ -848,6 +848,7 @@ isFound
 )
 ;
 }
+explicit
 operator
 bool
 (
