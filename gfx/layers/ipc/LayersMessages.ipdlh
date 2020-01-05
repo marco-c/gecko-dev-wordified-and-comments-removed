@@ -2665,6 +2665,11 @@ Edit
 ]
 cset
 ;
+CompositableOperation
+[
+]
+paints
+;
 OpDestroy
 [
 ]
