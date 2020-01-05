@@ -216,6 +216,14 @@ DOMString
 keyArg
 )
 ;
+[
+Throws
+]
+readonly
+attribute
+long
+which
+;
 }
 ;
 /

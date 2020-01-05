@@ -4635,6 +4635,11 @@ as
 i32
 ;
 let
+clickCount
+=
+1
+;
+let
 event
 =
 MouseEvent
@@ -4664,7 +4669,7 @@ r
 (
 )
 )
-0i32
+clickCount
 x
 y
 x
