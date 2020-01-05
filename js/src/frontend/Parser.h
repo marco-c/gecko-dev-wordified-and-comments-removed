@@ -2128,7 +2128,7 @@ public
 explicit
 UsedNameInfo
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2335,7 +2335,7 @@ public
 explicit
 UsedNameTracker
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2444,7 +2444,7 @@ MOZ_MUST_USE
 bool
 noteUse
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSAtom
@@ -2559,7 +2559,7 @@ this
 }
 public
 :
-ExclusiveContext
+JSContext
 *
 const
 context
@@ -2632,7 +2632,7 @@ public
 :
 ParserBase
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -3217,7 +3217,7 @@ public
 :
 Parser
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc

@@ -44,12 +44,12 @@ h
 class
 JSString
 ;
+struct
+JSContext
+;
 namespace
 js
 {
-class
-ExclusiveContext
-;
 class
 LifoAlloc
 ;
@@ -201,7 +201,7 @@ checkInvariants
 }
 }
 ;
-ExclusiveContext
+JSContext
 *
 context
 ;
@@ -246,7 +246,7 @@ public
 explicit
 Sprinter
 (
-ExclusiveContext
+JSContext
 *
 cx
 bool
@@ -697,7 +697,7 @@ JSString
 *
 QuoteString
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSString

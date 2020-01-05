@@ -2273,7 +2273,7 @@ ObjectGroup
 :
 defaultNewGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -2642,11 +2642,6 @@ JSObject
 changeToSingleton
 (
 cx
--
->
-asJSContext
-(
-)
 protoObj
 )
 )
@@ -2897,11 +2892,6 @@ TypeNewScript
 make
 (
 cx
--
->
-asJSContext
-(
-)
 group
 &
 associated
@@ -3098,7 +3088,7 @@ ObjectGroup
 :
 lazySingletonGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -4095,7 +4085,7 @@ ObjectGroup
 :
 newArrayObject
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -4777,7 +4767,7 @@ static
 bool
 GiveObjectGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -5249,7 +5239,7 @@ js
 :
 CombineArrayElementTypes
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -5431,7 +5421,7 @@ js
 :
 CombinePlainObjectPropertyTypes
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -6558,7 +6548,7 @@ static
 bool
 AddPlainObjectProperties
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandlePlainObject
@@ -6645,7 +6635,7 @@ js
 :
 NewPlainObjectWithProperties
 (
-ExclusiveContext
+JSContext
 *
 cx
 IdValuePair
@@ -6715,7 +6705,7 @@ ObjectGroup
 :
 newPlainObject
 (
-ExclusiveContext
+JSContext
 *
 cx
 IdValuePair
@@ -9558,7 +9548,7 @@ ObjectGroupCompartment
 :
 makeGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 const

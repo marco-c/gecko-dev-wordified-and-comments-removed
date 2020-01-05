@@ -741,7 +741,7 @@ entries_
 bool
 init
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -752,7 +752,7 @@ lastProp
 bool
 change
 (
-ExclusiveContext
+JSContext
 *
 cx
 int
@@ -969,7 +969,7 @@ size
 bool
 grow
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -980,7 +980,7 @@ class
 MOZ_RAII
 AutoKeepShapeTables
 {
-ExclusiveContext
+JSContext
 *
 cx_
 ;
@@ -1013,7 +1013,7 @@ explicit
 inline
 AutoKeepShapeTables
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1443,7 +1443,7 @@ UnownedBaseShape
 *
 getUnowned
 (
-ExclusiveContext
+JSContext
 *
 cx
 StackBaseShape
@@ -1758,7 +1758,7 @@ clasp_
 inline
 StackBaseShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -2164,7 +2164,7 @@ Shape
 *
 search
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -2190,7 +2190,7 @@ MOZ_MUST_USE
 bool
 search
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -2263,7 +2263,7 @@ Shape
 *
 replaceLastProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 StackBaseShape
@@ -2279,7 +2279,7 @@ static
 bool
 hashify
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -2371,7 +2371,7 @@ p
 bool
 ensureOwnBaseShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2400,7 +2400,7 @@ cx
 bool
 makeOwnBaseShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2410,7 +2410,7 @@ MOZ_MUST_USE
 bool
 maybeCreateTableForLookup
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2493,7 +2493,7 @@ ShapeTable
 *
 ensureTableForDictionary
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -2753,7 +2753,7 @@ public
 :
 Range
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -2787,7 +2787,7 @@ shape
 cursor
 (
 (
-ExclusiveContext
+JSContext
 *
 )
 nullptr
@@ -2887,7 +2887,7 @@ Shape
 *
 setObjectFlags
 (
-ExclusiveContext
+JSContext
 *
 cx
 BaseShape
@@ -3023,7 +3023,7 @@ Shape
 *
 new_
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -4298,7 +4298,7 @@ Shape
 *
 search
 (
-ExclusiveContext
+JSContext
 *
 cx
 jsid
@@ -4556,7 +4556,7 @@ public
 inline
 Inner
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint8_t
@@ -4598,7 +4598,7 @@ public
 inline
 AutoRooterGetterSetter
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint8_t
@@ -4615,7 +4615,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 inline
 AutoRooterGetterSetter
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint8_t
@@ -4676,7 +4676,7 @@ Shape
 *
 new_
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -4694,7 +4694,7 @@ Shape
 *
 getInitialShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -4716,7 +4716,7 @@ Shape
 *
 getInitialShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -4740,7 +4740,7 @@ static
 void
 insertInitialShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleShape
@@ -4759,7 +4759,7 @@ inline
 bool
 ensureInitialCustomShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle

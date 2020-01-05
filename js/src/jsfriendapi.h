@@ -4185,6 +4185,9 @@ GetNativeStackLimit
 JSContext
 *
 cx
+JS
+:
+:
 StackKind
 kind
 int
@@ -4196,7 +4199,10 @@ extraAllowance
 uintptr_t
 limit
 =
-ContextFriendFields
+JS
+:
+:
+RootingContext
 :
 :
 get
@@ -4246,6 +4252,9 @@ extraAllowance
 0
 )
 {
+JS
+:
+:
 StackKind
 kind
 =
@@ -4254,7 +4263,13 @@ RunningWithTrustedPrincipals
 cx
 )
 ?
+JS
+:
+:
 StackForTrustedScript
+:
+JS
+:
 :
 StackForUntrustedScript
 ;
@@ -4476,7 +4491,7 @@ js
 GetNativeStackLimit
 (
 cx
-js
+JS
 :
 :
 StackForSystemCode
@@ -4501,7 +4516,7 @@ js
 GetNativeStackLimit
 (
 cx
-js
+JS
 :
 :
 StackForUntrustedScript
@@ -4537,7 +4552,7 @@ js
 GetNativeStackLimit
 (
 cx
-js
+JS
 :
 :
 StackForUntrustedScript

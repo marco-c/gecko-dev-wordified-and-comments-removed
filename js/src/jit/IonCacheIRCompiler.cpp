@@ -1689,6 +1689,11 @@ code
 cx_
 -
 >
+runtime
+(
+)
+-
+>
 jitRuntime
 (
 )
@@ -2080,7 +2085,14 @@ if
 cx_
 -
 >
+runtime
+(
+)
+-
+>
 geckoProfiler
+(
+)
 .
 enabled
 (

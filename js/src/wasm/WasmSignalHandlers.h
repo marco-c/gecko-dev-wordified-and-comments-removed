@@ -40,6 +40,9 @@ Thread
 h
 "
 struct
+JSContext
+;
+struct
 JSRuntime
 ;
 namespace

@@ -323,7 +323,7 @@ Sprinter
 :
 Sprinter
 (
-ExclusiveContext
+JSContext
 *
 cx
 bool
@@ -1701,7 +1701,7 @@ JSString
 *
 QuoteString
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSString

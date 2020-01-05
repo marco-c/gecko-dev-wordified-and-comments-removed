@@ -499,6 +499,8 @@ cx_
 -
 >
 caches
+(
+)
 .
 evalCache
 lookup_
@@ -571,6 +573,8 @@ cx_
 -
 >
 caches
+(
+)
 .
 evalCache
 lookup_
@@ -602,6 +606,8 @@ cx_
 -
 >
 caches
+(
+)
 .
 evalCache
 lookup_

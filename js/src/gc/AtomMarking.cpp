@@ -235,6 +235,10 @@ if
 (
 freeArenaIndexes
 .
+ref
+(
+)
+.
 length
 (
 )
@@ -248,6 +252,10 @@ atomBitmapStart
 )
 =
 freeArenaIndexes
+.
+ref
+(
+)
 .
 popCopy
 (
@@ -302,6 +310,10 @@ Unused
 <
 <
 freeArenaIndexes
+.
+ref
+(
+)
 .
 emplaceBack
 (
@@ -500,6 +512,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 length
 (
@@ -526,6 +540,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 length
 (
@@ -539,6 +555,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 [
 i
 ]
@@ -814,6 +832,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 length
 (
@@ -836,6 +856,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 length
 (
@@ -855,6 +877,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 [
 i
 ]
@@ -910,6 +934,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 )
 ;
 }
@@ -1083,7 +1109,7 @@ AtomMarkingRuntime
 :
 markAtom
 (
-ExclusiveContext
+JSContext
 *
 cx
 TenuredCell
@@ -1172,6 +1198,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 allocatedWords
 )
 )
@@ -1198,6 +1226,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 begin
 (
@@ -1207,10 +1237,11 @@ bit
 ;
 if
 (
+!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 )
@@ -1231,7 +1262,7 @@ AtomMarkingRuntime
 :
 markId
 (
-ExclusiveContext
+JSContext
 *
 cx
 jsid
@@ -1271,7 +1302,7 @@ AtomMarkingRuntime
 :
 markAtomValue
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1362,6 +1393,8 @@ target
 -
 >
 markedAtoms
+(
+)
 ;
 Bitmap
 *
@@ -1372,6 +1405,8 @@ source
 -
 >
 markedAtoms
+(
+)
 ;
 if
 (
@@ -1445,11 +1480,15 @@ target
 -
 >
 markedAtoms
+(
+)
 )
 target
 -
 >
 markedAtoms
+(
+)
 =
 Move
 (
@@ -1457,6 +1496,8 @@ source
 -
 >
 markedAtoms
+(
+)
 )
 ;
 else
@@ -1464,6 +1505,8 @@ source
 -
 >
 markedAtoms
+(
+)
 .
 clear
 (
@@ -1627,6 +1670,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 length
 (
@@ -1644,6 +1689,8 @@ zone
 -
 >
 markedAtoms
+(
+)
 .
 begin
 (

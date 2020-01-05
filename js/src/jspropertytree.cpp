@@ -213,7 +213,7 @@ PropertyTree
 :
 insertChild
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -680,7 +680,7 @@ PropertyTree
 :
 getChild
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape

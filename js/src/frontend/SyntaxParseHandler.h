@@ -206,7 +206,7 @@ public
 :
 SyntaxParseHandler
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -281,7 +281,7 @@ const
 TokenPos
 &
 pos
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2313,7 +2313,7 @@ isEvalAnyParentheses
 (
 Node
 node
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2338,7 +2338,7 @@ nameIsArgumentsEvalAnyParentheses
 (
 Node
 node
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2397,7 +2397,7 @@ isAsyncKeyword
 (
 Node
 node
-ExclusiveContext
+JSContext
 *
 cx
 )

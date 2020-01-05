@@ -66,7 +66,7 @@ ArrayObject
 :
 setLength
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -130,7 +130,7 @@ ArrayObject
 :
 createArrayInternal
 (
-ExclusiveContext
+JSContext
 *
 cx
 gc
@@ -435,7 +435,7 @@ ArrayObject
 :
 createArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 gc
@@ -536,7 +536,7 @@ ArrayObject
 :
 createCopyOnWriteArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 gc

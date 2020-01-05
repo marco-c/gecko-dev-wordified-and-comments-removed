@@ -81,7 +81,7 @@ SharedImmutableStringsCache
 \
 _
 (
-FutexRuntime
+FutexThread
 500
 )
 \

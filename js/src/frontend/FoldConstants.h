@@ -23,7 +23,7 @@ MOZ_MUST_USE
 bool
 FoldConstants
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -43,7 +43,7 @@ MOZ_MUST_USE
 bool
 FoldConstants
 (
-ExclusiveContext
+JSContext
 *
 cx
 SyntaxParseHandler

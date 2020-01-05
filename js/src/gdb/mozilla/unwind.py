@@ -392,7 +392,7 @@ self
 d
 [
 '
-per_tls_data
+per_tls_context
 '
 ]
 =
@@ -404,7 +404,7 @@ lookup_global_symbol
 js
 :
 :
-TlsPerThreadData
+TlsContext
 '
 )
         
@@ -2220,17 +2220,17 @@ text_address_claimed
 pc
 )
         
-ptd
+cx
 =
 self
 .
-get_tls_per_thread_data
+get_tls_context
 (
 )
         
 runtime
 =
-ptd
+cx
 [
 '
 runtime_
@@ -2367,7 +2367,7 @@ self
 thread
     
 def
-get_tls_per_thread_data
+get_tls_context
 (
 self
 )
@@ -2378,7 +2378,7 @@ self
 .
 typecache
 .
-per_tls_data
+per_tls_context
 .
 value
 (
@@ -2703,11 +2703,11 @@ is
 None
 :
             
-ptd
+cx
 =
 self
 .
-get_tls_per_thread_data
+get_tls_context
 (
 )
             
@@ -2715,12 +2715,7 @@ self
 .
 activation
 =
-ptd
-[
-'
-runtime_
-'
-]
+cx
 [
 '
 jitActivation
@@ -2729,12 +2724,7 @@ jitActivation
             
 jittop
 =
-ptd
-[
-'
-runtime_
-'
-]
+cx
 [
 '
 jitTop

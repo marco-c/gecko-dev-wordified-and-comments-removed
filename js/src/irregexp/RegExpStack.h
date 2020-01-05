@@ -37,9 +37,9 @@ public
 explicit
 RegExpStackScope
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 ~

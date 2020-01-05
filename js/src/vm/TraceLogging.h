@@ -105,9 +105,6 @@ ReadOnlyCompileOptions
 namespace
 js
 {
-class
-PerThreadData
-;
 namespace
 jit
 {
@@ -1339,9 +1336,9 @@ TraceLoggerThread
 *
 forMainThread
 (
-PerThreadData
+JSContext
 *
-mainThread
+cx
 )
 ;
 #

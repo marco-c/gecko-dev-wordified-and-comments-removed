@@ -182,7 +182,7 @@ RegExpStatics
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle

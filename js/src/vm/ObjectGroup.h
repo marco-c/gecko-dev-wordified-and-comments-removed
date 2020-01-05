@@ -1050,7 +1050,7 @@ inline
 void
 setShouldPreTenure
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1060,7 +1060,7 @@ HeapTypeSet
 *
 getProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -1097,7 +1097,7 @@ i
 void
 updateNewPropertyTypes
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -1113,7 +1113,7 @@ types
 void
 addDefiniteProperties
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -1131,7 +1131,7 @@ obj
 void
 markPropertyNonData
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -1144,7 +1144,7 @@ id
 void
 markPropertyNonWritable
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -1157,7 +1157,7 @@ id
 void
 markStateChange
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1165,7 +1165,7 @@ cx
 void
 setFlags
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroupFlags
@@ -1175,7 +1175,7 @@ flags
 void
 markUnknown
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1188,7 +1188,7 @@ maybeClearNewScriptOnOOM
 void
 clearNewScript
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroup
@@ -1523,7 +1523,7 @@ ObjectGroup
 *
 defaultNewGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1544,7 +1544,7 @@ ObjectGroup
 *
 lazySingletonGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1611,7 +1611,7 @@ JSObject
 *
 newArrayObject
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1636,7 +1636,7 @@ JSObject
 *
 newPlainObject
 (
-ExclusiveContext
+JSContext
 *
 cx
 IdValuePair
@@ -1924,7 +1924,7 @@ ObjectGroup
 *
 makeGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -2043,7 +2043,7 @@ PlainObject
 *
 NewPlainObjectWithProperties
 (
-ExclusiveContext
+JSContext
 *
 cx
 IdValuePair
@@ -2058,7 +2058,7 @@ newKind
 bool
 CombineArrayElementTypes
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2075,7 +2075,7 @@ ncompare
 bool
 CombinePlainObjectPropertyTypes
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject

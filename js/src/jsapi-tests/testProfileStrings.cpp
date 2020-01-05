@@ -66,7 +66,14 @@ pstack
 cx
 -
 >
+runtime
+(
+)
+-
+>
 geckoProfiler
+(
+)
 .
 stringsReset
 (
@@ -75,7 +82,14 @@ stringsReset
 cx
 -
 >
+runtime
+(
+)
+-
+>
 geckoProfiler
+(
+)
 .
 enableSlowAssertions
 (
@@ -679,6 +693,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -742,6 +758,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -801,6 +819,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -1218,6 +1238,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -1269,6 +1291,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -1514,6 +1538,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -1689,6 +1715,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 stringsCount
 (
@@ -1959,6 +1987,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 enableSlowAssertions
 (

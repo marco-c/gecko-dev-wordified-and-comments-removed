@@ -1376,10 +1376,6 @@ if
 cx
 -
 >
-mainThread
-(
-)
-.
 simulator
 (
 )

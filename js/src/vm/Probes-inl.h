@@ -20,6 +20,15 @@ jscntxt
 .
 h
 "
+#
+include
+"
+gc
+/
+Zone
+.
+h
+"
 namespace
 js
 {
@@ -114,6 +123,8 @@ rt
 -
 >
 geckoProfiler
+(
+)
 .
 enabled
 (
@@ -127,6 +138,8 @@ rt
 -
 >
 geckoProfiler
+(
+)
 .
 enter
 (
@@ -224,6 +237,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 exit
 (

@@ -390,6 +390,16 @@ unlock
 (
 )
 ;
+#
+ifdef
+DEBUG
+bool
+isLockedByCurrentThread
+(
+)
+;
+#
+endif
 enum
 CondVar
 {
@@ -1088,15 +1098,6 @@ mozilla
 :
 Maybe
 <
-PerThreadData
->
-threadData
-;
-mozilla
-:
-:
-Maybe
-<
 Thread
 >
 thread
@@ -1783,7 +1784,7 @@ AutoEnqueuePendingParseTasksAfterGC
 bool
 StartOffThreadCompression
 (
-ExclusiveContext
+JSContext
 *
 cx
 SourceCompressionTask
@@ -1878,7 +1879,7 @@ ParseTask
 ParseTaskKind
 kind
 ;
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -1961,7 +1962,7 @@ ParseTask
 (
 ParseTaskKind
 kind
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -1990,7 +1991,7 @@ ParseTask
 (
 ParseTaskKind
 kind
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2095,7 +2096,7 @@ ParseTask
 {
 ScriptParseTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2136,7 +2137,7 @@ ParseTask
 {
 ModuleParseTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2177,7 +2178,7 @@ ParseTask
 {
 ScriptDecodeTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2238,7 +2239,7 @@ helperThread
 ;
 private
 :
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -2282,7 +2283,7 @@ public
 explicit
 SourceCompressionTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

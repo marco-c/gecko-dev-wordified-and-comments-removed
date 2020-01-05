@@ -25,9 +25,6 @@ h
 namespace
 js
 {
-class
-ExclusiveContext
-;
 namespace
 frontend
 {
@@ -38,7 +35,7 @@ MOZ_MUST_USE
 bool
 NameFunctions
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode

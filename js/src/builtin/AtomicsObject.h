@@ -394,7 +394,7 @@ value
 )
 ;
 class
-FutexRuntime
+FutexThread
 {
 friend
 class
@@ -427,7 +427,7 @@ unlock
 (
 )
 ;
-FutexRuntime
+FutexThread
 (
 )
 ;
@@ -561,7 +561,10 @@ Mutex
 >
 lock_
 ;
+ThreadLocalData
+<
 bool
+>
 canWait_
 ;
 }

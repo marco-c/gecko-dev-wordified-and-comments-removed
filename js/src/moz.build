@@ -1561,6 +1561,13 @@ Zone
 cpp
 '
 '
+gc
+/
+ZoneGroup
+.
+cpp
+'
+'
 irregexp
 /
 NativeRegExpMacroAssembler
@@ -2309,6 +2316,13 @@ cpp
 threading
 /
 Mutex
+.
+cpp
+'
+'
+threading
+/
+ProtectedData
 .
 cpp
 '

@@ -1179,6 +1179,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 addressOfEnabled
 (
@@ -4500,6 +4502,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 addressOfEnabled
 (

@@ -740,7 +740,7 @@ cx
 >
 nativeStackLimit
 [
-js
+JS
 :
 :
 StackForSystemCode
@@ -1168,7 +1168,7 @@ cx
 >
 nativeStackLimit
 [
-js
+JS
 :
 :
 StackForSystemCode

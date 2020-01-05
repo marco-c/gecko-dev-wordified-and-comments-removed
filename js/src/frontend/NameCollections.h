@@ -254,7 +254,7 @@ Collection
 *
 acquire
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1002,7 +1002,7 @@ Map
 *
 acquireMap
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1074,7 +1074,7 @@ Vector
 *
 acquireVector
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1279,7 +1279,7 @@ collection_
 bool
 acquire
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

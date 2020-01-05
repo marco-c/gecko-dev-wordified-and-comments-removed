@@ -2004,11 +2004,6 @@ if
 cx
 -
 >
-runtime
-(
-)
--
->
 simulator
 (
 )

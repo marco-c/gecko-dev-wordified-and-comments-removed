@@ -802,7 +802,7 @@ ModuleEnvironmentObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleModuleObject

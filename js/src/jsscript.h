@@ -1350,7 +1350,7 @@ MOZ_MUST_USE
 bool
 initFromOptions
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1378,7 +1378,7 @@ MOZ_MUST_USE
 bool
 setSourceCopy
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -1625,7 +1625,7 @@ MOZ_MUST_USE
 bool
 setSource
 (
-ExclusiveContext
+JSContext
 *
 cx
 UniqueTwoByteChars
@@ -1649,7 +1649,7 @@ MOZ_MUST_USE
 bool
 setCompressedSource
 (
-ExclusiveContext
+JSContext
 *
 cx
 UniqueChars
@@ -1694,7 +1694,7 @@ MOZ_MUST_USE
 bool
 setFilename
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1776,7 +1776,7 @@ MOZ_MUST_USE
 bool
 setDisplayURL
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1824,7 +1824,7 @@ MOZ_MUST_USE
 bool
 setSourceMapURL
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1966,7 +1966,7 @@ xdrEncoder_
 bool
 xdrEncodeTopLevel
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -1982,7 +1982,7 @@ script
 bool
 xdrEncodeFunction
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction
@@ -2146,7 +2146,7 @@ ScriptSourceObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScriptSource
@@ -2540,7 +2540,7 @@ SharedScriptData
 *
 new_
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -3373,10 +3373,7 @@ JSScript
 *
 Create
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -3400,10 +3397,7 @@ sourceEnd
 void
 initCompartment
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -3412,10 +3406,7 @@ static
 bool
 partiallyInit
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -3449,10 +3440,7 @@ static
 void
 initFromFunctionBox
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 js
@@ -3475,10 +3463,7 @@ static
 void
 initFromModuleContext
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 js
@@ -3503,10 +3488,7 @@ static
 bool
 fullyInitFromEmitter
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 js
@@ -3529,10 +3511,7 @@ static
 bool
 initFunctionPrototype
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 js
@@ -6072,10 +6051,7 @@ cx
 bool
 createScriptData
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -6089,10 +6065,7 @@ natoms
 bool
 shareScriptData
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -8134,7 +8107,7 @@ LazyScript
 *
 CreateRaw
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction
@@ -8178,7 +8151,7 @@ LazyScript
 *
 Create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction
@@ -8217,7 +8190,7 @@ LazyScript
 *
 Create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction

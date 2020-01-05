@@ -684,9 +684,9 @@ class
 MOZ_STACK_CLASS
 AutoEntryMonitor
 {
-JSRuntime
+JSContext
 *
-runtime_
+cx_
 ;
 AutoEntryMonitor
 *

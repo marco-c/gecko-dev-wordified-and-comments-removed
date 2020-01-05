@@ -2981,10 +2981,7 @@ static
 bool
 setTypeForScriptedFunction
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 js
@@ -3217,7 +3214,7 @@ JSFunction
 *
 NewNativeFunction
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSNative
@@ -3250,7 +3247,7 @@ JSFunction
 *
 NewNativeConstructor
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSNative
@@ -3293,7 +3290,7 @@ JSFunction
 *
 NewScriptedFunction
 (
-ExclusiveContext
+JSContext
 *
 cx
 unsigned
@@ -3344,7 +3341,7 @@ JSFunction
 *
 NewFunctionWithProto
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSNative
@@ -3409,7 +3406,7 @@ JSAtom
 *
 NameToFunctionName
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom

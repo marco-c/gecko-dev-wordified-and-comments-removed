@@ -634,7 +634,7 @@ ImportEntryObject
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -982,7 +982,7 @@ ExportEntryObject
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -3061,7 +3061,7 @@ ModuleObject
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -4427,7 +4427,7 @@ ModuleObject
 :
 noteFunctionDeclaration
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -5319,7 +5319,7 @@ ModuleBuilder
 :
 ModuleBuilder
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleModuleObject

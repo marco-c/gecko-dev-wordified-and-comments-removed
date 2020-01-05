@@ -478,7 +478,7 @@ CodeLocationJump
 jump
 CodeLocationLabel
 label
-JitRuntime
+JitZoneGroup
 :
 :
 BackedgeTarget

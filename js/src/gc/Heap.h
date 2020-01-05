@@ -4638,6 +4638,7 @@ HeapUsage
 {
 HeapUsage
 *
+const
 parent_
 ;
 mozilla

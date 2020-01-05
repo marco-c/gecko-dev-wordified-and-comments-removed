@@ -2434,10 +2434,9 @@ JSContext
 *
 cx
 =
-comp
--
->
-contextFromMainThread
+TlsContext
+.
+get
 (
 )
 ;
@@ -2454,6 +2453,11 @@ TN
 if
 (
 cx
+-
+>
+runtime
+(
+)
 -
 >
 compartmentNameCallback
@@ -2475,6 +2479,11 @@ nogc
 (
 *
 cx
+-
+>
+runtime
+(
+)
 -
 >
 compartmentNameCallback

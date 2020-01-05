@@ -331,7 +331,7 @@ Shape
 *
 assignInitialShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle

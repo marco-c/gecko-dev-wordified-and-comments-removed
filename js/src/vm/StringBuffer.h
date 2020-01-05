@@ -60,7 +60,7 @@ char16_t
 >
 TwoByteCharBuffer
 ;
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -226,7 +226,7 @@ public
 explicit
 StringBuffer
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

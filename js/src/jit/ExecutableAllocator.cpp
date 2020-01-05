@@ -1509,6 +1509,11 @@ preventBackedgePatching
 rt
 -
 >
+unsafeContextFromAnyThread
+(
+)
+-
+>
 handlingJitInterrupt
 (
 )

@@ -46,15 +46,6 @@ onMainThread
 (
 )
 ;
-js
-:
-:
-PerThreadData
-*
-mainThread
-(
-)
-;
 const
 void
 *

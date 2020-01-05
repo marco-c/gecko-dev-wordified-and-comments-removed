@@ -63,10 +63,7 @@ AtomStateEntry
 :
 asPtr
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -82,10 +79,11 @@ asPtrUnbarriered
 ;
 if
 (
+!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 )
@@ -324,7 +322,7 @@ inline
 bool
 ValueToId
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename
@@ -534,7 +532,7 @@ end
 bool
 IndexToIdSlow
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -547,7 +545,7 @@ inline
 bool
 IndexToId
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -1102,7 +1100,7 @@ ClassName
 (
 JSProtoKey
 key
-ExclusiveContext
+JSContext
 *
 cx
 )

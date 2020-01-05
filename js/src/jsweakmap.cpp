@@ -169,6 +169,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 m
 -
@@ -218,6 +220,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 {
 m
@@ -275,6 +279,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 {
 if
@@ -326,6 +332,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 {
 if
@@ -370,6 +378,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 .
 getFirst
 (
@@ -424,6 +434,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 ;
 }
@@ -445,6 +457,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 MOZ_ASSERT
 (
@@ -484,6 +498,11 @@ tracer
 -
 >
 context
+-
+>
+runtime
+(
+)
 ;
 for
 (
@@ -518,6 +537,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 {
 JS
@@ -564,6 +585,8 @@ zone
 -
 >
 gcWeakMapList
+(
+)
 )
 {
 if
@@ -794,6 +817,8 @@ delegateZone
 -
 >
 gcZoneGroupEdges
+(
+)
 .
 put
 (

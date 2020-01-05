@@ -101,7 +101,7 @@ RegExpStaticsObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -626,6 +626,10 @@ runtime
 -
 >
 emptyString
+.
+ref
+(
+)
 )
 ;
 return

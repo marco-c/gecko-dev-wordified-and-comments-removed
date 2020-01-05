@@ -113,7 +113,7 @@ i64
 bool
 HasCompilerSupport
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -121,7 +121,7 @@ cx
 bool
 HasSupport
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -351,7 +351,7 @@ WasmModuleObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 wasm
@@ -837,7 +837,7 @@ WasmMemoryObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle

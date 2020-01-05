@@ -2712,12 +2712,16 @@ MathCache
 *
 cache
 =
-GetJSContextFromMainThread
+TlsContext
+.
+get
 (
 )
 -
 >
 caches
+(
+)
 .
 maybeGetMathCache
 (

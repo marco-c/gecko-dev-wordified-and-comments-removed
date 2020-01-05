@@ -113,7 +113,7 @@ public
 explicit
 CGConstList
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -261,7 +261,7 @@ vector
 explicit
 CGScopeList
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -333,7 +333,7 @@ list
 explicit
 CGTryNoteList
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -411,7 +411,7 @@ list
 explicit
 CGScopeNoteList
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -485,7 +485,7 @@ list
 explicit
 CGYieldOffsetList
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -620,7 +620,7 @@ SharedContext
 const
 sc
 ;
-ExclusiveContext
+JSContext
 *
 const
 cx
@@ -667,7 +667,7 @@ lastTarget
 ;
 EmitSection
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -1182,7 +1182,7 @@ maybeSetSourceMap
 void
 tellDebuggerAboutCompiledScript
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

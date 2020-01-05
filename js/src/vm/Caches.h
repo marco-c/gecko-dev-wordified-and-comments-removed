@@ -21,6 +21,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -670,9 +677,9 @@ this
 void
 clearNurseryObjects
 (
-JSRuntime
+ZoneGroup
 *
-rt
+group
 )
 ;
 inline
@@ -1190,10 +1197,7 @@ group_
 }
 ;
 class
-MathCache
-;
-class
-ContextCaches
+ZoneGroupCaches
 {
 UniquePtr
 <
@@ -1254,9 +1258,6 @@ js
 EvalCache
 evalCache
 ;
-js
-:
-:
 LazyScriptCache
 lazyScriptCache
 ;

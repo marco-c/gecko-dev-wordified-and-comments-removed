@@ -904,7 +904,7 @@ js
 :
 BooleanToString
 (
-ExclusiveContext
+JSContext
 *
 cx
 bool

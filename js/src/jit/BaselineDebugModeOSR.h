@@ -462,6 +462,10 @@ cx
 -
 >
 liveVolatileJitFrameIterators_
+.
+ref
+(
+)
 ;
 prev
 =

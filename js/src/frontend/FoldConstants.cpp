@@ -121,7 +121,7 @@ static
 bool
 ContainsHoistedDeclaration
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -136,7 +136,7 @@ static
 bool
 ListContainsHoistedDeclaration
 (
-ExclusiveContext
+JSContext
 *
 cx
 ListNode
@@ -203,7 +203,7 @@ static
 bool
 ContainsHoistedDeclaration
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -1452,7 +1452,7 @@ static
 bool
 FoldType
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -1880,7 +1880,7 @@ static
 bool
 Fold
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -1901,7 +1901,7 @@ static
 bool
 FoldCondition
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -2023,7 +2023,7 @@ static
 bool
 FoldTypeOfExpr
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -2271,7 +2271,7 @@ static
 bool
 FoldDeleteExpr
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -2382,7 +2382,7 @@ static
 bool
 FoldDeleteElement
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -2505,7 +2505,7 @@ static
 bool
 FoldDeleteProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -2625,7 +2625,7 @@ static
 bool
 FoldNot
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -2854,7 +2854,7 @@ static
 bool
 FoldUnaryArithmetic
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3094,7 +3094,7 @@ static
 bool
 FoldIncrementDecrement
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3226,7 +3226,7 @@ static
 bool
 FoldAndOr
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3588,7 +3588,7 @@ static
 bool
 FoldConditional
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3844,7 +3844,7 @@ static
 bool
 FoldIf
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -4224,7 +4224,7 @@ static
 bool
 FoldFunction
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -4561,7 +4561,7 @@ static
 bool
 FoldModule
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -4627,7 +4627,7 @@ static
 bool
 FoldBinaryArithmetic
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5027,7 +5027,7 @@ static
 bool
 FoldExponentiation
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5259,7 +5259,7 @@ static
 bool
 FoldList
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5352,7 +5352,7 @@ static
 bool
 FoldReturn
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5427,7 +5427,7 @@ static
 bool
 FoldTry
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5556,7 +5556,7 @@ static
 bool
 FoldCatch
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5685,7 +5685,7 @@ static
 bool
 FoldClass
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -5806,7 +5806,7 @@ static
 bool
 FoldElement
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -6158,7 +6158,7 @@ static
 bool
 FoldAdd
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -6787,7 +6787,7 @@ static
 bool
 FoldCall
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -6932,7 +6932,7 @@ static
 bool
 FoldForInOrOf
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -7019,7 +7019,7 @@ static
 bool
 FoldForHead
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -7175,7 +7175,7 @@ static
 bool
 FoldDottedProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -7278,7 +7278,7 @@ static
 bool
 FoldName
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -7344,7 +7344,7 @@ inGenexpLambda
 bool
 Fold
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -8719,7 +8719,7 @@ frontend
 :
 FoldConstants
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode

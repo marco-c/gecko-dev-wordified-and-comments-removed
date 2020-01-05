@@ -609,7 +609,14 @@ newProfilingEnabled
 cx
 -
 >
+runtime
+(
+)
+-
+>
 geckoProfiler
+(
+)
 .
 enabled
 (

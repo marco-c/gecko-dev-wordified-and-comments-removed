@@ -110,7 +110,7 @@ JSString
 *
 ConcatStrings
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename
@@ -646,7 +646,7 @@ extern
 UniqueChars
 DuplicateString
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -659,7 +659,7 @@ extern
 UniqueTwoByteChars
 DuplicateString
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -722,7 +722,7 @@ JSString
 *
 ToStringSlow
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename
@@ -1112,7 +1112,7 @@ char16_t
 *
 InflateString
 (
-ExclusiveContext
+JSContext
 *
 cx
 const

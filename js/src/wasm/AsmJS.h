@@ -14,9 +14,6 @@ h
 namespace
 js
 {
-class
-ExclusiveContext
-;
 namespace
 frontend
 {
@@ -56,7 +53,7 @@ MOZ_MUST_USE
 bool
 CompileAsmJS
 (
-ExclusiveContext
+JSContext
 *
 cx
 AsmJSParser

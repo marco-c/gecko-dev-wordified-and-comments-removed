@@ -4613,7 +4613,7 @@ AddressOf
 (
 SymbolicAddress
 imm
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -4649,7 +4649,7 @@ Assumptions
 bool
 initBuildIdFromContext
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

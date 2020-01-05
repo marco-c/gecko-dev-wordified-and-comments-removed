@@ -1480,6 +1480,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 addressOfEnabled
 (
@@ -1762,6 +1764,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 )
 ;
 Linker
@@ -4962,6 +4966,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 addressOfEnabled
 (

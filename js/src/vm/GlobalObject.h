@@ -3546,7 +3546,7 @@ RegExpStatics
 *
 getRegExpStatics
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle

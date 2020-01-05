@@ -21,6 +21,15 @@ h
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 vm
 /
 Runtime
@@ -982,7 +991,7 @@ expando_
 bool
 containsUnboxedOrExpandoProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 jsid
@@ -1009,7 +1018,7 @@ obj
 bool
 setValue
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1058,7 +1067,7 @@ UnboxedPlainObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -1072,7 +1081,7 @@ JSObject
 *
 createWithProperties
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -1087,7 +1096,7 @@ properties
 void
 fillAfterConvert
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -1151,7 +1160,7 @@ data_
 bool
 TryConvertToUnboxedLayout
 (
-ExclusiveContext
+JSContext
 *
 cx
 AutoEnterAnalysis
@@ -1591,7 +1600,7 @@ UnboxedArrayObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -1610,7 +1619,7 @@ static
 bool
 convertToNativeWithGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -1627,7 +1636,7 @@ shape
 bool
 convertInt32ToDouble
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroup
@@ -1638,7 +1647,7 @@ group
 void
 fillAfterConvert
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -1798,7 +1807,7 @@ length
 bool
 containsProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 jsid
@@ -1808,7 +1817,7 @@ id
 bool
 setElement
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -1822,7 +1831,7 @@ v
 bool
 initElement
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -1860,7 +1869,7 @@ inline
 bool
 setElementSpecific
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -1897,7 +1906,7 @@ inline
 bool
 initElementSpecific
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -1954,7 +1963,7 @@ index
 bool
 growElements
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -1964,7 +1973,7 @@ cap
 void
 shrinkElements
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -2051,7 +2060,7 @@ inline
 void
 setLength
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t

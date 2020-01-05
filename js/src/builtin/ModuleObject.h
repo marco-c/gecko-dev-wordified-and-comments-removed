@@ -148,7 +148,7 @@ JSObject
 *
 initClass
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObject
@@ -168,7 +168,7 @@ ImportEntryObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -247,7 +247,7 @@ JSObject
 *
 initClass
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObject
@@ -267,7 +267,7 @@ ExportEntryObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -954,7 +954,7 @@ ModuleObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1165,7 +1165,7 @@ createEnvironment
 bool
 noteFunctionDeclaration
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -1282,7 +1282,7 @@ public
 explicit
 ModuleBuilder
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleModuleObject
@@ -1415,7 +1415,7 @@ Rooted
 ExportEntryVector
 >
 ;
-ExclusiveContext
+JSContext
 *
 cx_
 ;

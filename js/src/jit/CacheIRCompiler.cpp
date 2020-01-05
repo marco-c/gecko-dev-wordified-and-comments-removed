@@ -7498,6 +7498,11 @@ clasp
 cx_
 -
 >
+runtime
+(
+)
+-
+>
 maybeWindowProxyClass
 (
 )
