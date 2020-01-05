@@ -563,13 +563,6 @@ BINPATH
 /
 components
 /
-cookie
-.
-xpt
-BINPATH
-/
-components
-/
 directory
 .
 xpt
