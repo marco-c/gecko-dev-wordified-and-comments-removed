@@ -78,6 +78,11 @@ hidden
 "
 true
 "
+role
+=
+"
+alertdialog
+"
 onpopupshown
 =
 "

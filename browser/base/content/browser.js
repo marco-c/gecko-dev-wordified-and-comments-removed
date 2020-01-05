@@ -21909,7 +21909,7 @@ identity
 =
 ContextualIdentityService
 .
-getPublicIdentityFromId
+getIdentityFromId
 (
 userContextId
 )
@@ -36962,6 +36962,17 @@ this
 _identityPopup
 )
 {
+document
+.
+commandDispatcher
+.
+advanceFocusIntoSubtree
+(
+this
+.
+_identityPopup
+)
+;
 window
 .
 addEventListener
