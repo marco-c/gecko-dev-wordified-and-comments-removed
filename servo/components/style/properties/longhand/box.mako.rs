@@ -39,10 +39,10 @@ Box
 inherited
 =
 False
-gecko_ffi_name
+gecko_name
 =
 "
-nsStyleDisplay
+Display
 "
 additional_methods
 =

@@ -30,11 +30,6 @@ List
 inherited
 =
 True
-gecko_ffi_name
-=
-"
-nsStyleList
-"
 )
 %
 >

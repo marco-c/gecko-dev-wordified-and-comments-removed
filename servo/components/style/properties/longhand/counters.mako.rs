@@ -30,10 +30,10 @@ Counters
 inherited
 =
 False
-gecko_ffi_name
+gecko_name
 =
 "
-nsStyleContent
+Content
 "
 )
 %

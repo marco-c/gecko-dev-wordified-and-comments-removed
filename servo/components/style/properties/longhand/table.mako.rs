@@ -30,11 +30,6 @@ Table
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleTable
-"
 )
 %
 >

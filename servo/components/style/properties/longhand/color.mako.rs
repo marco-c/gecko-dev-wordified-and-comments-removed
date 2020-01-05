@@ -30,11 +30,6 @@ Color
 inherited
 =
 True
-gecko_ffi_name
-=
-"
-nsStyleColor
-"
 )
 %
 >

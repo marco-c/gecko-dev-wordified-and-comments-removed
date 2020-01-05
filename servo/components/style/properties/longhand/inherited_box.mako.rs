@@ -30,10 +30,10 @@ InheritedBox
 inherited
 =
 True
-gecko_ffi_name
+gecko_name
 =
 "
-nsStyleVisibility
+Visibility
 "
 )
 %

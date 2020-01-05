@@ -30,11 +30,6 @@ Position
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStylePosition
-"
 )
 %
 >

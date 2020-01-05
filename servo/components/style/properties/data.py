@@ -769,7 +769,7 @@ __init__
 self
 name
 inherited
-gecko_ffi_name
+gecko_name
 =
 None
 additional_methods
@@ -840,9 +840,23 @@ inherited
         
 self
 .
+gecko_name
+=
+gecko_name
+or
+name
+        
+self
+.
 gecko_ffi_name
 =
-gecko_ffi_name
+"
+nsStyle
+"
++
+self
+.
+gecko_name
         
 self
 .

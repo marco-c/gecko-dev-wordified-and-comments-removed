@@ -37,11 +37,6 @@ Effects
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleEffects
-"
 )
 %
 >

@@ -30,11 +30,6 @@ Background
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleBackground
-"
 )
 %
 >
