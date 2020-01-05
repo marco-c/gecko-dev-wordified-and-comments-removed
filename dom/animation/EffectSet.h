@@ -209,6 +209,7 @@ EffectSet
 *
 GetEffectSet
 (
+const
 dom
 :
 :
