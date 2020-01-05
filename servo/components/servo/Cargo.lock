@@ -812,7 +812,7 @@ branch
 =
 servo
 #
-eefe3506ae13e8ace811ca544fd6b4a5f0db0a04
+d0a2db05d1ada8e38b0143a5846f68089f332e9e
 "
 dependencies
 =
@@ -14781,7 +14781,7 @@ rust
 -
 mozjs
 #
-a5ec009853a6bd1c57d9c909a0d2994bc015cee2
+28f9fb0625a798ad53abf7edeb3e8b7bc0007dc3
 "
 dependencies
 =
