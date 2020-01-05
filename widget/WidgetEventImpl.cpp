@@ -984,12 +984,6 @@ case
 eKeyUpOnPlugin
 :
 case
-eAfterKeyDown
-:
-case
-eAfterKeyUp
-:
-case
 eAccessKeyNotFound
 :
 return

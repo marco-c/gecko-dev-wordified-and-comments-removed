@@ -3348,13 +3348,6 @@ WidgetKeyboardEvent
 event
 )
 ;
-async
-DispatchAfterKeyboardEvent
-(
-WidgetKeyboardEvent
-event
-)
-;
 sync
 RequestNativeKeyBindings
 (
