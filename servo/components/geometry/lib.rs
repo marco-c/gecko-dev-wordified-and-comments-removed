@@ -67,14 +67,14 @@ Debug
 ]
 pub
 enum
-ScreenPx
+DeviceIndependentPixel
 {
 }
 known_heap_size
 !
 (
 0
-ScreenPx
+DeviceIndependentPixel
 )
 ;
 #

@@ -158,7 +158,7 @@ use
 servo_geometry
 :
 :
-ScreenPx
+DeviceIndependentPixel
 ;
 use
 std
@@ -1534,7 +1534,7 @@ self
 TypedSize2D
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 >
 {
 let
@@ -1832,7 +1832,7 @@ clone
 }
 }
 fn
-scale_factor
+hidpi_factor
 (
 &
 self
@@ -1842,7 +1842,7 @@ self
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 {

@@ -81,7 +81,7 @@ use
 servo_geometry
 :
 :
-ScreenPx
+DeviceIndependentPixel
 ;
 use
 servo_url
@@ -638,7 +638,7 @@ self
 TypedSize2D
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 >
 ;
 fn
@@ -787,7 +787,7 @@ self
 )
 ;
 fn
-scale_factor
+hidpi_factor
 (
 &
 self
@@ -797,7 +797,7 @@ self
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 ;

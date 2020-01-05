@@ -785,7 +785,7 @@ scale_factor
 =
 window
 .
-scale_factor
+hidpi_factor
 (
 )
 .
