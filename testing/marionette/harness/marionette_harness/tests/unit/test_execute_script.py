@@ -2768,27 +2768,17 @@ self
         
 self
 .
-assertEqual
-(
-1
-self
-.
 marionette
 .
 execute_script
 (
-"
-"
-"
             
-var
-c
-=
+"
 Components
 .
 classes
 [
-"
+'
 mozilla
 .
 org
@@ -2798,16 +2788,9 @@ preferences
 service
 ;
 1
-"
+'
 ]
-;
-return
-1
-;
 "
-"
-"
-)
 )
     
 skip_if_mobile
