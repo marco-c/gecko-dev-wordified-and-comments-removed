@@ -1260,6 +1260,7 @@ tabsRecordFromCursor
 cursor
 TEST_CLIENT_GUID
 TEST_CLIENT_NAME
+0
 )
 ;
 assertEquals
