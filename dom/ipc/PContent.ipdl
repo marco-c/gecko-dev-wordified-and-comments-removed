@@ -1196,7 +1196,7 @@ BlobURLRegistrationData
 nsCString
 url
 ;
-PBlob
+IPCBlob
 blob
 ;
 Principal
@@ -2959,7 +2959,7 @@ BlobURLRegistration
 (
 nsCString
 aURI
-PBlob
+IPCBlob
 aBlob
 Principal
 aPrincipal
@@ -5705,7 +5705,7 @@ StoreAndBroadcastBlobURLRegistration
 (
 nsCString
 url
-PBlob
+IPCBlob
 blob
 Principal
 principal
