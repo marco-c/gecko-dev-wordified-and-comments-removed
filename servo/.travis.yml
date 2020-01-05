@@ -135,6 +135,8 @@ notifications
 :
 irc
 :
+channels
+:
 "
 irc
 .
@@ -144,6 +146,15 @@ org
 #
 servo
 "
+on_success
+:
+change
+on_failure
+:
+change
+use_notice
+:
+true
 email
 :
 false
@@ -152,8 +163,4 @@ branches
 only
 :
 -
-travis
--
 master
-after_success
-:
