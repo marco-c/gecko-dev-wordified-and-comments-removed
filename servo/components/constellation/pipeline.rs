@@ -70,12 +70,6 @@ font_cache_thread
 FontCacheThread
 ;
 use
-gfx_traits
-:
-:
-DevicePixel
-;
-use
 ipc_channel
 :
 :
@@ -155,6 +149,7 @@ script_traits
 :
 {
 ConstellationControlMsg
+DevicePixel
 DiscardBrowsingContext
 InitialScriptState
 }

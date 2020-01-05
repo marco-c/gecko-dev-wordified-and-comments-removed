@@ -68,10 +68,6 @@ euclid
 ;
 extern
 crate
-gfx_traits
-;
-extern
-crate
 gleam
 ;
 extern

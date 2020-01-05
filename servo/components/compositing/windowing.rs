@@ -44,12 +44,6 @@ size
 TypedSize2D
 ;
 use
-gfx_traits
-:
-:
-DevicePixel
-;
-use
 msg
 :
 :
@@ -76,6 +70,7 @@ script_traits
 :
 :
 {
+DevicePixel
 MouseButton
 TouchEventType
 TouchId
