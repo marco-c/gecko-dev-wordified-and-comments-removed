@@ -229,6 +229,17 @@ givenProto
 )
 override
 ;
+bool
+ValidateCanBindToTarget
+(
+const
+char
+*
+funcName
+GLenum
+target
+)
+;
 void
 BufferData
 (
@@ -277,6 +288,9 @@ mCache
 ;
 size_t
 mNumActiveTFOs
+;
+bool
+mBoundForTF
 ;
 }
 ;
