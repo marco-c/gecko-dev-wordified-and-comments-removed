@@ -392,7 +392,7 @@ const
 nsAString
 &
 aID
-uint32_t
+GamepadMappingType
 aMapping
 uint32_t
 aNumButtons
@@ -421,16 +421,10 @@ aID
 )
 0
 aMapping
-static_cast
-<
-uint32_t
->
-(
 GamepadHand
 :
 :
 _empty
-)
 GamepadServiceType
 :
 :
