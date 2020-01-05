@@ -1370,20 +1370,7 @@ symbols_url
 symbols_url
             
 except
-(
-urllib2
-.
-HTTPError
-urllib2
-.
-URLError
-socket
-.
-error
-socket
-.
-timeout
-)
+Exception
 as
 ex
 :
