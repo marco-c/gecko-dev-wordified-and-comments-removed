@@ -29,6 +29,9 @@ mozilla
 namespace
 sandboxing
 {
+class
+PermissionsService
+;
 sandbox
 :
 :
@@ -49,6 +52,12 @@ sandbox
 BrokerServices
 *
 GetInitializedBrokerServices
+(
+)
+;
+PermissionsService
+*
+GetPermissionsService
 (
 )
 ;
