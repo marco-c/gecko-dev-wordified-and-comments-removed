@@ -385,12 +385,6 @@ USE_LIBS
 nspr
 '
 '
-%
-s_s
-'
-%
-xpcomglue
-'
 xul
 '
 ]
