@@ -389,12 +389,6 @@ ProcessPostTraversalForText
 nsIContent
 *
 aTextNode
-nsStyleContext
-*
-aParentContext
-ServoStyleSet
-*
-aStyleSet
 nsStyleChangeList
 &
 aChangeList
