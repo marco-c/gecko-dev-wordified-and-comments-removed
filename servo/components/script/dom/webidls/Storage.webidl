@@ -152,6 +152,9 @@ DOMString
 name
 )
 ;
+[
+Throws
+]
 setter
 void
 setItem

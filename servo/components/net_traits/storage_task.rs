@@ -103,6 +103,8 @@ SetItem
 (
 IpcSender
 <
+Result
+<
 (
 bool
 Option
@@ -110,6 +112,9 @@ Option
 DOMString
 >
 )
+(
+)
+>
 >
 Url
 StorageType
