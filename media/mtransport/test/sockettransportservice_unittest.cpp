@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsXPCOMGlue
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h
