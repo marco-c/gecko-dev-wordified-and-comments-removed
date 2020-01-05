@@ -5590,6 +5590,11 @@ size
 }
 if
 (
+NS_IsMainThread
+(
+)
+&
+&
 latencyMs
 >
 =
