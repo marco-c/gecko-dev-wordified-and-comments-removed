@@ -164,6 +164,11 @@ AccessibleHandlerControl
 .
 cpp
 '
+'
+AccessibleTextTearoff
+.
+cpp
+'
 ]
 GENERATED_FILES
 +
