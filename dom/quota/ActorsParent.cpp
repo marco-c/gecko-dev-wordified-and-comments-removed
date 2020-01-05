@@ -20123,7 +20123,7 @@ bool
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 const
 nsACString
@@ -25877,7 +25877,7 @@ mGetAll
 aQuotaManager
 -
 >
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 origin
 )
@@ -32920,7 +32920,7 @@ persistent
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 originProps
 .
@@ -33575,7 +33575,7 @@ if
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 aOriginProps
 .

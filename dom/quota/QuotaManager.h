@@ -1073,7 +1073,7 @@ aOrigin
 ;
 static
 bool
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 const
 nsACString

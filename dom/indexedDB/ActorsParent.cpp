@@ -85064,7 +85064,7 @@ MOZ_ASSERT
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 mOrigin
 )
@@ -85192,7 +85192,7 @@ if
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 origin
 )
