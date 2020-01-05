@@ -147,6 +147,7 @@ document
 {
 supportsType
 isValidOnClient
+supportsCssColor4ColorFunction
 }
 )
 {
@@ -217,6 +218,14 @@ _onAngleSwatchMouseDown
 bind
 (
 this
+)
+;
+this
+.
+cssColor4
+=
+supportsCssColor4ColorFunction
+(
 )
 ;
 }
@@ -782,6 +791,9 @@ colorUtils
 isValidCSSColor
 (
 functionText
+this
+.
+cssColor4
 )
 )
 {
@@ -908,6 +920,9 @@ isValidCSSColor
 token
 .
 text
+this
+.
+cssColor4
 )
 )
 {
@@ -1004,6 +1019,9 @@ colorUtils
 isValidCSSColor
 (
 original
+this
+.
+cssColor4
 )
 )
 {
@@ -1657,6 +1675,9 @@ colorUtils
 CssColor
 (
 color
+this
+.
+cssColor4
 )
 ;
 if

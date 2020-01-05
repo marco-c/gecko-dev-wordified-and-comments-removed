@@ -494,6 +494,9 @@ this
 view
 .
 inspector
+this
+.
+_cssProperties
 )
 ;
 this

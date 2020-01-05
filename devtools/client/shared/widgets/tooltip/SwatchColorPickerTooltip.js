@@ -150,6 +150,9 @@ SwatchColorPickerTooltip
 (
 document
 inspector
+{
+supportsCssColor4ColorFunction
+}
 )
 {
 let
@@ -228,6 +231,14 @@ _openEyeDropper
 bind
 (
 this
+)
+;
+this
+.
+cssColor4
+=
+supportsCssColor4ColorFunction
+(
 )
 ;
 }
@@ -903,6 +914,9 @@ colorUtils
 CssColor
 (
 color
+this
+.
+cssColor4
 )
 ;
 let
@@ -956,6 +970,9 @@ setAuthoredUnitFromColor
 this
 .
 _originalColor
+this
+.
+cssColor4
 )
 ;
 return
