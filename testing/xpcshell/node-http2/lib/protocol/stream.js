@@ -1012,7 +1012,7 @@ type
 =
 =
 '
-BLOCKED
+ORIGIN
 '
 )
 {
@@ -1684,7 +1684,7 @@ false
 ALTSVC
 =
 false
-BLOCKED
+ORIGIN
 =
 false
 ;
@@ -1785,10 +1785,10 @@ break
 ;
 case
 '
-BLOCKED
+ORIGIN
 '
 :
-BLOCKED
+ORIGIN
 =
 true
 ;
@@ -1996,10 +1996,10 @@ HALF_CLOSED_LOCAL
 else
 if
 (
-BLOCKED
-|
-|
 PRIORITY
+|
+|
+ORIGIN
 )
 {
 }
@@ -2100,7 +2100,7 @@ CLOSED
 else
 if
 (
-BLOCKED
+ORIGIN
 |
 |
 ALTSVC
@@ -2167,7 +2167,7 @@ CLOSED
 else
 if
 (
-BLOCKED
+ORIGIN
 |
 |
 ALTSVC
@@ -2244,6 +2244,9 @@ RST_STREAM
 |
 |
 ALTSVC
+|
+|
+ORIGIN
 )
 )
 )
