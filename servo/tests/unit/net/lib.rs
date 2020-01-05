@@ -1,9 +1,5 @@
 extern
 crate
-content_blocker
-;
-extern
-crate
 cookie
 as
 cookie_rs
