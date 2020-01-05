@@ -22,11 +22,6 @@ shouldCapture
 return
 ;
 }
-requestLongerTimeout
-(
-20
-)
-;
 let
 sets
 =

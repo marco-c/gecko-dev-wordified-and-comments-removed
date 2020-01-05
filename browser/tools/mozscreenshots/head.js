@@ -112,7 +112,7 @@ setup
 {
 requestLongerTimeout
 (
-10
+100
 )
 ;
 info
