@@ -822,7 +822,7 @@ host
 of
 this
 .
-_hostsOrder
+_hostOrder
 )
 {
 +
@@ -841,12 +841,7 @@ host
 ;
 if
 (
-this
-.
-_hostOrder
-[
-i
-]
+host
 =
 =
 strippedHost
@@ -5412,6 +5407,7 @@ _openIndices
 ;
 for
 (
+let
 i
 =
 0
