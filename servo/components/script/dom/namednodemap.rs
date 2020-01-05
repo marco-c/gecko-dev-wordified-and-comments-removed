@@ -88,7 +88,10 @@ dom
 element
 :
 :
+{
 Element
+ElementHelpers
+}
 ;
 use
 dom
