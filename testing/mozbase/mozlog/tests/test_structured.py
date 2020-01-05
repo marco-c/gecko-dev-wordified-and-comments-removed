@@ -764,11 +764,17 @@ suite_start
 tests
 "
 :
+{
+"
+default
+"
+:
 [
 "
 test
 "
 ]
+}
 }
 )
         
@@ -2299,8 +2305,14 @@ suite_start
 tests
 "
 :
+{
+"
+default
+"
+:
 [
 ]
+}
 }
 )
         
@@ -2394,8 +2406,14 @@ suite_start
 tests
 "
 :
+{
+"
+default
+"
+:
 [
 ]
+}
 }
 )
         
@@ -3436,11 +3454,17 @@ suite_start
 tests
 "
 :
+{
+"
+default
+"
+:
 [
 "
 1
 "
 ]
+}
                                 
 "
 time
@@ -3902,8 +3926,14 @@ suite_start
 tests
 "
 :
+{
+"
+default
+"
+:
 [
 ]
+}
                                 
 "
 run_info
@@ -8912,8 +8942,14 @@ suite_start
 tests
 "
 :
+{
+"
+default
+"
+:
 [
 ]
+}
 }
 )
 class

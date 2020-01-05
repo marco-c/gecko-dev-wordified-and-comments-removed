@@ -24,6 +24,7 @@ logtypes
 import
 Unicode
 TestId
+TestList
 Status
 SubStatus
 Dict
@@ -1641,9 +1642,8 @@ True
     
 log_action
 (
-List
+TestList
 (
-Unicode
 "
 tests
 "
@@ -1724,7 +1724,7 @@ message
         
 :
 param
-list
+dict
 tests
 :
 Test
@@ -1736,6 +1736,10 @@ run
 in
 the
 suite
+keyed
+by
+group
+name
 .
         
 :
