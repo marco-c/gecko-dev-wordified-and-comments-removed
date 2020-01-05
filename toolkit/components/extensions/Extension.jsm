@@ -107,6 +107,8 @@ dom
 ipc
 .
 processCount
+.
+extension
 "
 )
 ;
