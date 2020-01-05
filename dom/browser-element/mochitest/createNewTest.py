@@ -173,12 +173,6 @@ type
 application
 /
 javascript
-;
-version
-=
-1
-.
-7
 "
 src
 =
