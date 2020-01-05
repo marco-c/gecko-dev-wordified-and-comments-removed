@@ -4807,6 +4807,11 @@ Xcomposite
 h
 X11
 /
+ImUtil
+.
+h
+X11
+/
 Intrinsic
 .
 h

@@ -173,6 +173,10 @@ WaitIfPendingReply
 (
 )
 ;
+Display
+*
+mDisplay
+;
 xcb_connection_t
 *
 mConnection
@@ -205,6 +209,9 @@ gfx
 :
 IntSize
 mSize
+;
+int
+mStride
 ;
 xcb_pixmap_t
 mPixmap
