@@ -867,11 +867,6 @@ aEvent
 )
 ;
 nsEventStatus
-HandleEndOfPan
-(
-)
-;
-nsEventStatus
 OnScrollWheel
 (
 const
@@ -1047,7 +1042,7 @@ nsEventStatus
 StartPanning
 (
 const
-ParentLayerPoint
+MultiTouchInput
 &
 aStartPoint
 )
