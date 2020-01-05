@@ -5447,7 +5447,7 @@ or
 AvRevertMmThreadCharacteristics
 :
 %
-x
+lx
 "
 GetLastError
 (
