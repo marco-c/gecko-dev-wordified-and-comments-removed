@@ -1196,6 +1196,10 @@ InlineSpellChecker
 :
 "
 "
+PageInfo
+:
+"
+"
 Social
 :
 "
@@ -1221,6 +1225,10 @@ Findbar
 "
 "
 Finder
+:
+"
+"
+PageInfo
 :
 "
 "
