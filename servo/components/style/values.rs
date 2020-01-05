@@ -6558,6 +6558,10 @@ Size2D
 <
 Au
 >
+pub
+outline_style_present
+:
+bool
 }
 pub
 trait
