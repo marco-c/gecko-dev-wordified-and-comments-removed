@@ -464,6 +464,13 @@ pub
 visible
 :
 bool
+pub
+frame
+:
+Option
+<
+FrameId
+>
 }
 pub
 struct
@@ -1619,6 +1626,9 @@ visible
 is_private
 :
 is_private
+frame
+:
+None
 }
 }
 pub
