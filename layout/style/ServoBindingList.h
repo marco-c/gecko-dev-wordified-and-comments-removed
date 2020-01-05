@@ -414,6 +414,14 @@ const
 nsACString
 *
 data
+const
+nsACString
+*
+base
+const
+GeckoParserExtraData
+*
+extraData
 )
 SERVO_BINDING_FUNC
 (

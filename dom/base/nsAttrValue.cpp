@@ -7451,6 +7451,19 @@ StyleBackendType
 Servo
 )
 {
+GeckoParserExtraData
+data
+(
+baseURI
+docURI
+aElement
+-
+>
+NodePrincipal
+(
+)
+)
+;
 decl
 =
 ServoDeclarationBlock
@@ -7459,6 +7472,7 @@ ServoDeclarationBlock
 FromCssText
 (
 aString
+data
 )
 ;
 }

@@ -954,15 +954,6 @@ url
 test_shorthand_property_getters
 .
 html
-background
-shorthand
-[
-1
-]
-*
-.
-.
-.
 url
 [
 3

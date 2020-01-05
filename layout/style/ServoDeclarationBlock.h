@@ -115,6 +115,10 @@ const
 nsAString
 &
 aCssText
+const
+GeckoParserExtraData
+&
+aExtraData
 )
 ;
 RawServoDeclarationBlock
