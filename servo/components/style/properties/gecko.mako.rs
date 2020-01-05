@@ -20832,7 +20832,7 @@ mImage
 set
 (
 image
-false
+true
 cacheable
 )
 _
@@ -20840,14 +20840,6 @@ _
 >
 (
 )
-/
-/
-we
-need
-to
-support
-url
-valeus
 }
 %
 endif
