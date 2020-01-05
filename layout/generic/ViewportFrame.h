@@ -1,9 +1,9 @@
 #
 ifndef
-nsViewportFrame_h___
+mozilla_ViewportFrame_h
 #
 define
-nsViewportFrame_h___
+mozilla_ViewportFrame_h
 #
 include
 "

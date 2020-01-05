@@ -16,7 +16,9 @@ h
 #
 include
 "
-nsViewportFrame
+mozilla
+/
+ViewportFrame
 .
 h
 "

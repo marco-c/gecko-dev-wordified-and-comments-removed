@@ -787,6 +787,11 @@ ReflowOutput
 h
 '
 '
+ViewportFrame
+.
+h
+'
+'
 WritingModes
 .
 h
@@ -1075,11 +1080,6 @@ nsVideoFrame
 cpp
 '
 '
-nsViewportFrame
-.
-cpp
-'
-'
 ReflowInput
 .
 cpp
@@ -1116,6 +1116,11 @@ cpp
 '
 '
 TextOverflow
+.
+cpp
+'
+'
+ViewportFrame
 .
 cpp
 '

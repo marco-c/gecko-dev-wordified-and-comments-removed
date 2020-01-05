@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h
