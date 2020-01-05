@@ -78,6 +78,7 @@ rb
 brew
 install
 automake
+libtool
 On
 OS
 X
