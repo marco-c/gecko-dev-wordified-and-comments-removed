@@ -663,6 +663,7 @@ parent
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 readonly
 attribute
@@ -838,6 +839,7 @@ prompts
 [
 Throws
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 void
 alert
@@ -847,6 +849,7 @@ alert
 [
 Throws
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 void
 alert
@@ -858,6 +861,7 @@ message
 [
 Throws
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 boolean
 confirm
@@ -873,6 +877,7 @@ message
 [
 Throws
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 DOMString
 ?
@@ -927,6 +932,7 @@ nsGlobalWindow
 IsShowModalDialogEnabled
 "
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 any
 showModalDialog
@@ -947,6 +953,7 @@ options
 [
 Throws
 CrossOriginCallable
+NeedsSubjectPrincipal
 ]
 void
 postMessage
@@ -2523,6 +2530,7 @@ nsGlobalWindow
 :
 IsModalContentWindow
 "
+NeedsSubjectPrincipal
 ]
 readonly
 attribute
@@ -2539,6 +2547,7 @@ nsGlobalWindow
 :
 IsModalContentWindow
 "
+NeedsSubjectPrincipal
 ]
 attribute
 any
