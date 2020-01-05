@@ -103,6 +103,14 @@ h
 DEFINES
 [
 '
+MOZ_HAS_MOZGLUE
+'
+]
+=
+True
+DEFINES
+[
+'
 MOZ_MEMORY_IMPL
 '
 ]

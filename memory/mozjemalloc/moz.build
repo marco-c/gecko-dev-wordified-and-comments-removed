@@ -233,6 +233,14 @@ moz_abort
 DEFINES
 [
 '
+MOZ_HAS_MOZGLUE
+'
+]
+=
+True
+DEFINES
+[
+'
 MOZ_JEMALLOC_IMPL
 '
 ]

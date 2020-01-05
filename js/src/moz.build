@@ -552,6 +552,14 @@ JS_STANDALONE
 '
 ]
 :
+LIBRARY_DEFINES
+[
+'
+MOZ_HAS_MOZGLUE
+'
+]
+=
+True
 CONFIGURE_SUBST_FILES
 +
 =
@@ -5115,9 +5123,6 @@ USE_LIBS
 +
 =
 [
-'
-fdlibm
-'
 '
 nspr
 '

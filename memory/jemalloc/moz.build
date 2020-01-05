@@ -546,6 +546,14 @@ abort
 '
 moz_abort
 '
+DEFINES
+[
+'
+MOZ_HAS_MOZGLUE
+'
+]
+=
+True
 LOCAL_INCLUDES
 +
 =

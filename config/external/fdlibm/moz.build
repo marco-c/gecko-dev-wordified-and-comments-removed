@@ -85,12 +85,6 @@ MPL
 0
 /
 .
-Library
-(
-'
-fdlibm
-'
-)
 with
 Files
 (
