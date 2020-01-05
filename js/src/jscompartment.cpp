@@ -321,6 +321,10 @@ warnedAboutForEach
 (
 false
 )
+warnedAboutStringGenericsMethods
+(
+0
+)
 #
 ifdef
 DEBUG

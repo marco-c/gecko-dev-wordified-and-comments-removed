@@ -1713,6 +1713,9 @@ warnedAboutExprClosure
 bool
 warnedAboutForEach
 ;
+uint32_t
+warnedAboutStringGenericsMethods
+;
 #
 ifdef
 DEBUG
