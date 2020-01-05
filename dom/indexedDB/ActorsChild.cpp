@@ -5111,6 +5111,7 @@ mResultCode
 ;
 public
 :
+explicit
 PreprocessHelper
 (
 BackgroundRequestChild
