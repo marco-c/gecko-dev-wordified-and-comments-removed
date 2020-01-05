@@ -137,12 +137,6 @@ uikit
 GeckoCppUnitTests
 (
 [
-'
-mediapipeline_unittest
-'
-'
-signaling_unittests
-'
 ]
 )
 include
