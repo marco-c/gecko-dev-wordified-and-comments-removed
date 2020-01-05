@@ -124,6 +124,12 @@ WasmSigIdSet
 \
 _
 (
+WasmCodeProfilingLabels
+500
+)
+\
+_
+(
 ShellOffThreadState
 500
 )

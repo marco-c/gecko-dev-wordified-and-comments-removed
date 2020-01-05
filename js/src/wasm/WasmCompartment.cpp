@@ -479,6 +479,7 @@ codeBase
 }
 }
 ;
+const
 Code
 *
 Compartment

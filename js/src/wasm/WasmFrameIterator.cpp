@@ -2302,6 +2302,7 @@ callerFP
 #
 ifdef
 DEBUG
+const
 Code
 *
 code
@@ -4979,6 +4980,7 @@ void
 fp
 )
 {
+const
 Code
 *
 code

@@ -557,6 +557,7 @@ JSContext
 cx
 RefPtr
 <
+const
 wasm
 :
 :

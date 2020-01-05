@@ -246,7 +246,8 @@ WasmBreakpointSiteMap
 class
 DebugState
 {
-MutableCode
+const
+SharedCode
 code_
 ;
 const
@@ -290,7 +291,7 @@ public
 :
 DebugState
 (
-MutableCode
+SharedCode
 code
 const
 Metadata

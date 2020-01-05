@@ -153,6 +153,7 @@ return
 instances_
 ;
 }
+const
 Code
 *
 lookupCode

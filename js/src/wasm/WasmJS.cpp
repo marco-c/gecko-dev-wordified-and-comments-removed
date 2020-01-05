@@ -5451,7 +5451,7 @@ create
 JSContext
 *
 cx
-MutableCode
+SharedCode
 code
 UniqueDebugState
 debug
