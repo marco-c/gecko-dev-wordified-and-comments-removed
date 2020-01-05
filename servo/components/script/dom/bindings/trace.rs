@@ -2387,10 +2387,6 @@ allow
 unrooted_must_root
 )
 ]
-#
-[
-jstraceable
-]
 pub
 struct
 RootedVec
