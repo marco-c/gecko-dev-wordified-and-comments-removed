@@ -2085,6 +2085,14 @@ lir
 )
 ;
 void
+visitNewLexicalEnvironmentObject
+(
+LNewLexicalEnvironmentObject
+*
+lir
+)
+;
+void
 visitCallGetProperty
 (
 LCallGetProperty

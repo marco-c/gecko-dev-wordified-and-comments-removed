@@ -5291,7 +5291,7 @@ LexicalEnvironmentObject
 LexicalEnvironmentObject
 :
 :
-createTemplateObject
+create
 (
 JSContext
 *
@@ -5463,7 +5463,7 @@ environmentChain
 )
 ;
 return
-createTemplateObject
+create
 (
 cx
 scope
@@ -5920,7 +5920,7 @@ LexicalEnvironmentObject
 copy
 (
 cx
-createTemplateObject
+create
 (
 cx
 scope
@@ -6050,7 +6050,7 @@ enclosingEnvironment
 )
 ;
 return
-createTemplateObject
+create
 (
 cx
 scope
@@ -6286,7 +6286,7 @@ obj
 LexicalEnvironmentObject
 :
 :
-createTemplateObject
+create
 (
 cx
 scope

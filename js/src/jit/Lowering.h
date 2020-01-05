@@ -1274,6 +1274,14 @@ ins
 )
 ;
 void
+visitNewLexicalEnvironmentObject
+(
+MNewLexicalEnvironmentObject
+*
+ins
+)
+;
+void
 visitKeepAliveObject
 (
 MKeepAliveObject

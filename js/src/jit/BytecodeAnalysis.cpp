@@ -933,6 +933,12 @@ JSOP_DEFFUN
 case
 JSOP_DEFVAR
 :
+case
+JSOP_PUSHLEXICALENV
+:
+case
+JSOP_POPLEXICALENV
+:
 usesEnvironmentChain_
 =
 true
