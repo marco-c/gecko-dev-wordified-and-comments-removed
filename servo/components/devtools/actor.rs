@@ -207,6 +207,13 @@ boxed
 [
 inline
 ]
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 downcast_ref
@@ -273,6 +280,13 @@ None
 #
 [
 inline
+]
+#
+[
+allow
+(
+unsafe_code
+)
 ]
 pub
 fn
