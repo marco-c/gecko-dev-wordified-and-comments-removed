@@ -1704,7 +1704,7 @@ __SUNPRO_CC
 |
 defined
 (
-JS_CPU_SPARC
+__sparc__
 )
 5000000
 #
