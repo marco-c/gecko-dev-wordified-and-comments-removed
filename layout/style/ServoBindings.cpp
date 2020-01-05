@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsSVGElement
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
