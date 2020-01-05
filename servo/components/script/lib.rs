@@ -351,10 +351,6 @@ style
 ;
 extern
 crate
-tendril
-;
-extern
-crate
 time
 ;
 extern
