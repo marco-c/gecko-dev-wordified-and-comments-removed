@@ -443,13 +443,6 @@ heap_size
 "
 ]
 }
-serde
-=
-"
-0
-.
-7
-"
 serde_json
 =
 "

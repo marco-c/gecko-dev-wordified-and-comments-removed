@@ -56,14 +56,6 @@ extern
 crate
 ipc_channel
 ;
-#
-[
-macro_use
-]
-extern
-crate
-log
-;
 extern
 crate
 msg

@@ -67,10 +67,6 @@ extern
 crate
 serde
 ;
-extern
-crate
-util
-;
 pub
 mod
 color
