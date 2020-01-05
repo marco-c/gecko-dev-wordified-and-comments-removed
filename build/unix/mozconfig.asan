@@ -190,6 +190,12 @@ disable
 elf
 -
 hack
+ac_add_options
+-
+-
+disable
+-
+profiling
 .
 "
 topsrcdir
