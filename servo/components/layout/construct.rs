@@ -343,9 +343,12 @@ use
 style
 :
 :
+properties
+:
+:
 {
-self
 ComputedValues
+make_inline
 }
 ;
 use
@@ -4685,9 +4688,6 @@ Arc
 :
 new
 (
-style
-:
-:
 make_inline
 (
 &

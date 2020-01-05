@@ -28,12 +28,9 @@ Developers
 build
 =
 "
-make
--
-f
-makefile
+build
 .
-cargo
+rs
 "
 [
 lib
@@ -218,4 +215,11 @@ url
 =
 "
 *
+"
+mod_path
+=
+"
+0
+.
+1
 "

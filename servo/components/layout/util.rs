@@ -129,6 +129,9 @@ use
 style
 :
 :
+properties
+:
+:
 ComputedValues
 ;
 use
@@ -866,7 +869,7 @@ for
 style
 :
 :
-computed_values
+values
 :
 :
 RGBA

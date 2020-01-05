@@ -43,6 +43,9 @@ use
 style
 :
 :
+properties
+:
+:
 ComputedValues
 ;
 bitflags

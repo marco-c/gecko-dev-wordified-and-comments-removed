@@ -190,6 +190,9 @@ use
 style
 :
 :
+properties
+:
+:
 {
 is_supported_property
 longhands_from_shorthand
@@ -198,6 +201,9 @@ parse_style_attribute
 ;
 use
 style
+:
+:
+properties
 :
 :
 PropertyDeclaration

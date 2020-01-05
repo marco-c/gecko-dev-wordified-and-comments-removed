@@ -320,6 +320,9 @@ use
 style
 :
 :
+properties
+:
+:
 PropertyDeclarationBlock
 ;
 use
