@@ -889,7 +889,12 @@ SetReadyState
 MediaStreamTrackState
 aState
 )
+{
+mReadyState
+=
+aState
 ;
+}
 void
 NotifyEnded
 (

@@ -315,10 +315,6 @@ PSharedBufferManager
 ;
 include
 protocol
-PSms
-;
-include
-protocol
 PSpeechSynthesis
 ;
 include
@@ -1477,9 +1473,6 @@ PSendStream
 ;
 manages
 PScreenManager
-;
-manages
-PSms
 ;
 manages
 PSpeechSynthesis
@@ -4064,11 +4057,6 @@ float
 systemDefaultScale
 bool
 success
-)
-;
-async
-PSms
-(
 )
 ;
 async
