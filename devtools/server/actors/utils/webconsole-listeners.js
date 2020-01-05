@@ -825,13 +825,6 @@ if
 (
 message
 .
-originAttributes
-&
-&
-message
-.
-originAttributes
-.
 addonId
 =
 =

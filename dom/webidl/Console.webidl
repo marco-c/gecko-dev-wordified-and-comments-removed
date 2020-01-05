@@ -428,6 +428,12 @@ originAttributes
 null
 ;
 DOMString
+addonId
+=
+"
+"
+;
+DOMString
 level
 =
 "
