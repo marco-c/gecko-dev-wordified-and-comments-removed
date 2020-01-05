@@ -1780,13 +1780,6 @@ sAddedPointerEventEnabled
 true
 ;
 }
-WheelTransaction
-:
-:
-InitializeStatics
-(
-)
-;
 }
 nsresult
 EventStateManager
