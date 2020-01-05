@@ -125,13 +125,9 @@ DOMString
 localName
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 Attr
 ?
 setNamedItem
@@ -140,13 +136,9 @@ Attr
 attr
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 Attr
 ?
 setNamedItemNS
