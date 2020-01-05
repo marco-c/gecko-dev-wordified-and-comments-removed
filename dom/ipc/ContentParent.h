@@ -2479,6 +2479,12 @@ domainPolicy
 StructuredCloneData
 *
 initialData
+InfallibleTArray
+<
+FontFamilyListEntry
+>
+*
+fontFamilies
 )
 override
 ;
