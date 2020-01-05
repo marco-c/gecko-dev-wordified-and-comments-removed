@@ -250,7 +250,7 @@ c
         
 os
 .
-mkdir
+makedirs
 (
 os
 .
@@ -263,6 +263,12 @@ self
 _tmpdir
 '
 servo
+'
+'
+components
+'
+'
+style
 '
 )
 )

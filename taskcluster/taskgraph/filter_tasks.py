@@ -221,6 +221,12 @@ GECKO
 '
 servo
 '
+'
+components
+'
+'
+style
+'
 )
 )
 :
