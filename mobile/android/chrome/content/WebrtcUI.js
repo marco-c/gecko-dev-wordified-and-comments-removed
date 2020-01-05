@@ -318,7 +318,9 @@ count
 =
 windows
 .
-length
+Count
+(
+)
 ;
 let
 msg
@@ -422,12 +424,9 @@ win
 =
 windows
 .
-queryElementAt
+GetElementAt
 (
 i
-Ci
-.
-nsIDOMWindow
 )
 ;
 let
