@@ -2651,6 +2651,10 @@ maybeWidth
 =
 aContentType
 .
+ExtendedType
+(
+)
+.
 GetWidth
 (
 )
@@ -2684,6 +2688,10 @@ int32_t
 maybeHeight
 =
 aContentType
+.
+ExtendedType
+(
+)
 .
 GetHeight
 (
