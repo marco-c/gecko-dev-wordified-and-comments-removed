@@ -4098,7 +4098,7 @@ Function
 Entry
 ImportJitExit
 ImportInterpExit
-ImportNativeExit
+BuiltinNativeExit
 TrapExit
 DebugTrap
 FarJumpIsland
@@ -4239,7 +4239,7 @@ kind
 )
 =
 =
-ImportNativeExit
+BuiltinNativeExit
 ;
 }
 bool

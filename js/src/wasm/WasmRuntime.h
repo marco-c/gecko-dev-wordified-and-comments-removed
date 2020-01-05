@@ -48,6 +48,9 @@ ExecutablePool
 namespace
 wasm
 {
+class
+ExitReason
+;
 bool
 NeedsBuiltinThunk
 (
@@ -215,7 +218,7 @@ CodeRange
 CodeRange
 :
 :
-ImportNativeExit
+BuiltinNativeExit
 offsets
 )
 )
@@ -275,6 +278,8 @@ jit
 :
 ABIFunctionType
 type
+ExitReason
+exitReason
 void
 *
 *

@@ -3333,7 +3333,7 @@ case
 ImportJitExit
 :
 case
-ImportNativeExit
+BuiltinNativeExit
 :
 case
 ImportInterpExit
@@ -3428,7 +3428,7 @@ case
 ImportJitExit
 :
 case
-ImportNativeExit
+BuiltinNativeExit
 :
 case
 ImportInterpExit

@@ -33,6 +33,9 @@ namespace
 wasm
 {
 class
+ExitReason
+;
+class
 FuncExport
 ;
 class
@@ -120,7 +123,7 @@ throwLabel
 ;
 extern
 CallableOffsets
-GenerateBuiltinImportExit
+GenerateBuiltinNativeExit
 (
 jit
 :
@@ -133,6 +136,8 @@ jit
 :
 ABIFunctionType
 abiType
+ExitReason
+exitReason
 void
 *
 func
