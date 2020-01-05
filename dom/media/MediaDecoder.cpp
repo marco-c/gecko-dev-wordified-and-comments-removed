@@ -647,12 +647,6 @@ MediaMemoryTracker
 :
 sUniqueInstance
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 LazyLogModule
 gMediaTimerLog
 (
@@ -661,8 +655,6 @@ MediaTimer
 "
 )
 ;
-#
-endif
 void
 MediaDecoder
 :

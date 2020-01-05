@@ -881,9 +881,6 @@ pluginreg
 dat
 "
 )
-#
-ifdef
-PLUGIN_LOGGING
 LazyLogModule
 nsPluginLogging
 :
@@ -911,8 +908,6 @@ gPluginLog
 PLUGIN_LOG_NAME
 )
 ;
-#
-endif
 #
 define
 NS_PREF_MAX_NUM_CACHED_INSTANCES
