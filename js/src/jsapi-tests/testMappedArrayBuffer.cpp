@@ -891,6 +891,16 @@ write
 cx
 v1
 transferable
+JS
+:
+:
+CloneDataPolicy
+(
+)
+.
+denySharedArrayBuffer
+(
+)
 nullptr
 nullptr
 )
