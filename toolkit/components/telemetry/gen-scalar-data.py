@@ -212,6 +212,8 @@ print
 }
 {
 }
+{
+}
 }
 }
 "
@@ -231,6 +233,17 @@ expiration_index
 scalar
 .
 dataset
+                  
+"
+|
+"
+.
+join
+(
+scalar
+.
+record_in_processes_enum
+)
                   
 "
 true
