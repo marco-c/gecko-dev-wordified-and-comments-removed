@@ -184,6 +184,16 @@ BrowserContract
 TopSites
 .
 TYPE_PINNED
+&
+&
+type
+!
+=
+BrowserContract
+.
+TopSites
+.
+TYPE_SUGGESTED
 )
 {
 isBookmarked
