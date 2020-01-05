@@ -6368,6 +6368,8 @@ reference_node
 index
 (
 )
++
+1
 )
 }
 reference_node
