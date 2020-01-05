@@ -1520,7 +1520,7 @@ file
 "
 )
                 
-os
+sys
 .
 exit
 (
