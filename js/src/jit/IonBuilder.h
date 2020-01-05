@@ -3958,6 +3958,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_hasown
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_instanceof
 (
 )

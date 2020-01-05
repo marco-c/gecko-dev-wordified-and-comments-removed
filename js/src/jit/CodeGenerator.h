@@ -3129,6 +3129,14 @@ ins
 )
 ;
 void
+visitHasOwnCache
+(
+LHasOwnCache
+*
+ins
+)
+;
+void
 visitBindNameIC
 (
 OutOfLineUpdateCache

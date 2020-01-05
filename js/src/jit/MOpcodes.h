@@ -1299,6 +1299,11 @@ In
 \
 _
 (
+HasOwnCache
+)
+\
+_
+(
 InstanceOf
 )
 \
