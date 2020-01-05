@@ -2067,6 +2067,12 @@ not
 disabled
 )
 :
+not
+(
+.
+checked
+)
+:
 hover
 .
 devtools
