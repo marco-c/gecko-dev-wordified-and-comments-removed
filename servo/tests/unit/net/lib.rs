@@ -50,6 +50,10 @@ net_traits
 ;
 extern
 crate
+profile_traits
+;
+extern
+crate
 time
 ;
 extern

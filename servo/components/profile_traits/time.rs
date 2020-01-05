@@ -192,6 +192,7 @@ LayoutMain
 LayoutStoreOverflow
 LayoutParallelWarmup
 LayoutDispListBuild
+NetHTTPRequestResponse
 PaintingPerTile
 PaintingPrepBuff
 Painting
@@ -202,11 +203,13 @@ ScriptConstellationMsg
 ScriptDevtoolsMsg
 ScriptDocumentEvent
 ScriptDomEvent
+ScriptEvaluate
 ScriptEvent
 ScriptFileRead
 ScriptImageCacheMsg
 ScriptInputEvent
 ScriptNetworkEvent
+ScriptParseHTML
 ScriptPlannedNavigation
 ScriptResize
 ScriptSetViewport

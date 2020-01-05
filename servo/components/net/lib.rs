@@ -154,6 +154,10 @@ openssl_verify
 ;
 extern
 crate
+profile_traits
+;
+extern
+crate
 rustc_serialize
 ;
 extern
