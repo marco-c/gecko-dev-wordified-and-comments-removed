@@ -906,8 +906,6 @@ null
 SyncedTabs
 .
 TOPIC_TABS_CHANGED
-"
-"
 )
 "
 component
@@ -974,8 +972,6 @@ null
 FxAccountsCommon
 .
 ONLOGIN_NOTIFICATION
-"
-"
 )
 "
 component
@@ -1041,8 +1037,6 @@ service
 login
 :
 change
-"
-"
 "
 )
 "
