@@ -104,7 +104,10 @@ servo_util
 str
 :
 :
+{
 DOMString
+split_html_space_chars
+}
 ;
 use
 serialize
@@ -682,12 +685,9 @@ ClassNameFilter
 {
 classes
 :
-classes
-.
-split
+split_html_space_chars
 (
-'
-'
+classes
 )
 .
 map
