@@ -39,6 +39,11 @@ PRBool
 isServer
 )
 ;
+void
+EnsureServerVerificationInitialized
+(
+)
+;
 }
 }
 #

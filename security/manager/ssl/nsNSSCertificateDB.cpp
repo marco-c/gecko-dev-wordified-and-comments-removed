@@ -6665,6 +6665,15 @@ _retval
 =
 PR_UNKNOWN_ERROR
 ;
+#
+ifndef
+MOZ_NO_EV_CERTS
+EnsureIdentityInfoLoaded
+(
+)
+;
+#
+endif
 UniqueCERTCertificate
 nssCert
 (
