@@ -47,3 +47,5 @@ unset
 RUSTC
 unset
 CARGO
+unset
+MAKECAB
