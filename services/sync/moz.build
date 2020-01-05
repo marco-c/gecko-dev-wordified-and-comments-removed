@@ -285,13 +285,6 @@ js
 '
 modules
 /
-userapi
-.
-js
-'
-'
-modules
-/
 util
 .
 js

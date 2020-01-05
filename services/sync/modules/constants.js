@@ -33,13 +33,6 @@ SYNC_API_VERSION
 .
 1
 "
-USER_API_VERSION
-:
-"
-1
-.
-0
-"
 MISC_API_VERSION
 :
 "
