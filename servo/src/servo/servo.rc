@@ -219,6 +219,10 @@ priv
 mod
 node_util
 ;
+priv
+mod
+node_void_ptr
+;
 }
 pub
 mod
