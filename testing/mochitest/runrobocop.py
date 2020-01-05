@@ -3,8 +3,6 @@ json
 import
 os
 import
-shutil
-import
 sys
 import
 tempfile
@@ -1990,25 +1988,6 @@ s
 self
 .
 localProfile
-)
-        
-shutil
-.
-rmtree
-(
-os
-.
-path
-.
-join
-(
-self
-.
-localProfile
-'
-webapps
-'
-)
 )
         
 os

@@ -74,7 +74,3 @@ from
 view
 import
 *
-from
-webapps
-import
-*
