@@ -1286,6 +1286,12 @@ in
 fs
 :
             
+with
+f
+.
+_condition
+:
+                
 f
 .
 _waiters
@@ -1648,6 +1654,12 @@ in
 fs
 :
         
+with
+f
+.
+_condition
+:
+            
 f
 .
 _waiters

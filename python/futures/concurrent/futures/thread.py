@@ -70,6 +70,11 @@ items
 (
 )
 )
+if
+_threads_queues
+else
+(
+)
     
 for
 t
@@ -96,6 +101,9 @@ t
 .
 join
 (
+sys
+.
+maxint
 )
 atexit
 .
@@ -638,6 +646,9 @@ t
 .
 join
 (
+sys
+.
+maxint
 )
     
 shutdown

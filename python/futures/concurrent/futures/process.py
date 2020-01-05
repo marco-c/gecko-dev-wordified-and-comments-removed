@@ -764,6 +764,11 @@ items
 (
 )
 )
+if
+_threads_queues
+else
+(
+)
     
 for
 t
@@ -790,6 +795,9 @@ t
 .
 join
 (
+sys
+.
+maxint
 )
 EXTRA_QUEUED_CALLS
 =
@@ -2359,6 +2367,9 @@ _queue_management_thread
 .
 join
 (
+sys
+.
+maxint
 )
         
 self
