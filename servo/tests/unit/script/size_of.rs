@@ -218,7 +218,7 @@ sizeof_checker
 (
 size_event_target
 EventTarget
-48
+40
 )
 ;
 sizeof_checker
@@ -226,7 +226,7 @@ sizeof_checker
 (
 size_node
 Node
-160
+152
 )
 ;
 sizeof_checker
@@ -234,7 +234,7 @@ sizeof_checker
 (
 size_element
 Element
-320
+312
 )
 ;
 sizeof_checker
@@ -242,7 +242,7 @@ sizeof_checker
 (
 size_htmlelement
 HTMLElement
-336
+328
 )
 ;
 sizeof_checker
@@ -250,7 +250,7 @@ sizeof_checker
 (
 size_div
 HTMLDivElement
-336
+328
 )
 ;
 sizeof_checker
@@ -258,7 +258,7 @@ sizeof_checker
 (
 size_span
 HTMLSpanElement
-336
+328
 )
 ;
 sizeof_checker
@@ -266,7 +266,7 @@ sizeof_checker
 (
 size_text
 Text
-192
+184
 )
 ;
 sizeof_checker
@@ -274,7 +274,7 @@ sizeof_checker
 (
 size_characterdata
 CharacterData
-192
+184
 )
 ;
 sizeof_checker
