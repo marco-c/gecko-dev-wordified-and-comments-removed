@@ -350,6 +350,11 @@ ChannelSplitterNode
 h
 '
 '
+ConstantSourceNode
+.
+h
+'
+'
 ConvolverNode
 .
 h
@@ -516,6 +521,11 @@ cpp
 '
 '
 ChannelSplitterNode
+.
+cpp
+'
+'
+ConstantSourceNode
 .
 cpp
 '
