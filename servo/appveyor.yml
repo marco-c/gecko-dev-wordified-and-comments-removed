@@ -1036,6 +1036,16 @@ bash
 -
 lc
 "
+export
+PATH
+=
+/
+c
+/
+Python27
+:
+PATH
+;
 cd
 APPVEYOR_BUILD_FOLDER
 ;
