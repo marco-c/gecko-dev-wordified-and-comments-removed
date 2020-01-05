@@ -384,12 +384,14 @@ badptr
 contents
 }
 ;
-setTimeout
+addEventListener
 (
+"
+pagehide
+"
+function
 (
 )
-=
->
 {
 dump
 (
@@ -409,7 +411,6 @@ dies
 )
 ;
 }
-0
 )
 ;
 }
