@@ -36,6 +36,12 @@ detect_leaks
 =
 0
 "
+"
+:
+allocator_may_return_null
+=
+1
+"
 ;
 }
 #
