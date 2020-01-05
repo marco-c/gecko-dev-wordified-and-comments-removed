@@ -753,6 +753,10 @@ eAnimationIteration
 )
 NS_EVENT_MESSAGE
 (
+eAnimationCancel
+)
+NS_EVENT_MESSAGE
+(
 eWebkitTransitionEnd
 )
 NS_EVENT_MESSAGE
