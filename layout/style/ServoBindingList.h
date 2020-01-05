@@ -333,6 +333,8 @@ SERVO_BINDING_FUNC
 (
 Servo_RestyleWithAddedDeclaration
 ServoComputedValuesStrong
+RawServoStyleSetBorrowed
+set
 RawServoDeclarationBlockBorrowed
 declarations
 ServoComputedValuesBorrowed
