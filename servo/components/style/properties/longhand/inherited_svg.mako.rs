@@ -799,7 +799,7 @@ stroke
 dasharray
 "
 "
-LoPOrNumber
+LengthOrPercentageOrNumber
 "
 "
 Either

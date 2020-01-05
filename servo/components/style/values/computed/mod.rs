@@ -2250,7 +2250,7 @@ Ok
 }
 pub
 type
-LoPOrNumber
+LengthOrPercentageOrNumber
 =
 Either
 <
