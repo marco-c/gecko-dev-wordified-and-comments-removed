@@ -28,6 +28,10 @@ stdint
 .
 h
 >
+using
+namespace
+mozilla
+;
 inline
 size_t
 nsRuleData
