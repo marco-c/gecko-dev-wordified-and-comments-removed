@@ -130,14 +130,10 @@ HTMLFormElement
 ?
 form
 ;
-/
-/
 attribute
 boolean
 multiple
 ;
-/
-/
 attribute
 DOMString
 name
@@ -148,8 +144,6 @@ attribute
 boolean
 required
 ;
-/
-/
 attribute
 unsigned
 long
