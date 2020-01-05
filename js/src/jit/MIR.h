@@ -1418,6 +1418,8 @@ AssertBasicGraphCoherency
 MIRGraph
 &
 graph
+bool
+force
 )
 ;
 virtual
@@ -53315,6 +53317,8 @@ AssertBasicGraphCoherency
 MIRGraph
 &
 graph
+bool
+force
 )
 ;
 FixedList
