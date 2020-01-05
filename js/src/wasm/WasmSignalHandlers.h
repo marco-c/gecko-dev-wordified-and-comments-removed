@@ -148,6 +148,14 @@ cx
 ;
 #
 endif
+bool
+IsPCInWasmCode
+(
+void
+*
+pc
+)
+;
 }
 }
 #

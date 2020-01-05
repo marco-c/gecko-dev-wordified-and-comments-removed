@@ -3265,9 +3265,6 @@ public
 explicit
 Simulator
 (
-JSContext
-*
-cx
 Decoder
 *
 decoder
@@ -11201,11 +11198,6 @@ Instruction
 *
 instr
 )
-;
-JSContext
-*
-const
-cx_
 ;
 SimExclusiveLocalMonitor
 local_monitor_

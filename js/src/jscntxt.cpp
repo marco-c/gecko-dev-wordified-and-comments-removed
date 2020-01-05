@@ -5536,6 +5536,10 @@ profilingActivation_
 (
 nullptr
 )
+wasmActivationStack_
+(
+nullptr
+)
 nativeStackBase
 (
 GetNativeStackBase
