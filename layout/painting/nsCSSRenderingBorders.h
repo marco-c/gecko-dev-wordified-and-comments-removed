@@ -231,6 +231,10 @@ friend
 class
 nsDisplayBorder
 ;
+friend
+class
+nsDisplayOutline
+;
 public
 :
 nsCSSBorderRenderer
@@ -343,7 +347,6 @@ DrawTarget
 *
 mDrawTarget
 ;
-const
 Rect
 mDirtyRect
 ;

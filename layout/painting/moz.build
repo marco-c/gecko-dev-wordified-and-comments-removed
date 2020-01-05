@@ -147,6 +147,11 @@ LayerState
 h
 '
 '
+nsCSSRenderingBorders
+.
+h
+'
+'
 nsDisplayItemTypes
 .
 h
