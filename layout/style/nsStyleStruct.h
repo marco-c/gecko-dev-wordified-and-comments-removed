@@ -997,9 +997,6 @@ already_AddRefed
 mozilla
 :
 :
-css
-:
-:
 URLExtraData
 >
 aExtraData

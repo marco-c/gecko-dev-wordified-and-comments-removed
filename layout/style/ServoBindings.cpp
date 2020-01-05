@@ -6237,9 +6237,6 @@ CSSURLValue
 ;
 NS_IMPL_THREADSAFE_FFI_REFCOUNTING
 (
-css
-:
-:
 URLExtraData
 URLExtraData
 )
@@ -7374,17 +7371,11 @@ Gecko_URLExtraData_CreateDummy
 {
 RefPtr
 <
-css
-:
-:
 URLExtraData
 >
 data
 =
 new
-css
-:
-:
 URLExtraData
 (
 NullPrincipalURI

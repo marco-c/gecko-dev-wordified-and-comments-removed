@@ -323,17 +323,11 @@ aLineNumber
 {
 RefPtr
 <
-css
-:
-:
 URLExtraData
 >
 extraData
 =
 new
-css
-:
-:
 URLExtraData
 (
 aBaseURI

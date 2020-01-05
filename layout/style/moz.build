@@ -717,6 +717,11 @@ StyleSheetInlines
 .
 h
 '
+'
+URLExtraData
+.
+h
+'
 ]
 EXPORTS
 .
@@ -1222,6 +1227,11 @@ cpp
 '
 '
 StyleSheet
+.
+cpp
+'
+'
+URLExtraData
 .
 cpp
 '

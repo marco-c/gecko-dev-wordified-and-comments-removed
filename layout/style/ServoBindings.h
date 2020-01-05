@@ -467,9 +467,6 @@ mURLStringLength
 mozilla
 :
 :
-css
-:
-:
 URLExtraData
 *
 mExtraData

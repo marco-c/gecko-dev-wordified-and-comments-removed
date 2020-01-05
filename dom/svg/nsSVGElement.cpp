@@ -5719,17 +5719,11 @@ aMappedAttrValue
 ;
 RefPtr
 <
-css
-:
-:
 URLExtraData
 >
 data
 =
 new
-css
-:
-:
 URLExtraData
 (
 mBaseURI
