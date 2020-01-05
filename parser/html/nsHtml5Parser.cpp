@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

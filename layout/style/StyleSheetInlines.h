@@ -31,6 +31,13 @@ CSSStyleSheet
 .
 h
 "
+#
+include
+"
+nsINode
+.
+h
+"
 namespace
 mozilla
 {

@@ -70,6 +70,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsCSSPseudoElements
 .
 h
@@ -128,6 +135,9 @@ struct
 ServoComputedValuesWithParent
 ;
 }
+class
+nsIContent
+;
 class
 nsIDocument
 ;
@@ -641,6 +651,9 @@ StyleDocument
 void
 StyleNewSubtree
 (
+dom
+:
+:
 Element
 *
 aRoot
@@ -649,6 +662,9 @@ aRoot
 void
 StyleNewChildren
 (
+dom
+:
+:
 Element
 *
 aParent
