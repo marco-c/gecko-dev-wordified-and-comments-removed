@@ -31012,6 +31012,7 @@ RegExpFlag
 flags
 )
 nullptr
+nullptr
 cx
 -
 >
@@ -31066,6 +31067,7 @@ RegExpFlag
 (
 flags
 )
+nullptr
 nullptr
 cx
 -
