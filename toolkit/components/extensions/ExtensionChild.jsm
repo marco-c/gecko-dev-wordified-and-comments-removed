@@ -3406,7 +3406,12 @@ let
 useDirectParentAPI
 =
 (
-false
+namespace
+=
+=
+"
+webNavigation
+"
 )
 ;
 if

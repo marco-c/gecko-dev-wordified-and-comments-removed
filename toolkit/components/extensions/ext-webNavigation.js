@@ -129,6 +129,7 @@ var
 {
 SingletonEventManager
 ignoreEvent
+runSafe
 }
 =
 ExtensionUtils
@@ -629,10 +630,9 @@ data
 data2
 )
 ;
-context
-.
 runSafe
 (
+context
 callback
 data2
 )
