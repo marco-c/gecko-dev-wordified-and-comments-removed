@@ -2230,7 +2230,7 @@ AbortReasonOr
 <
 Ok
 >
-inTryFold
+hasTryNotDefined
 (
 bool
 *
@@ -2241,6 +2241,8 @@ obj
 MDefinition
 *
 id
+bool
+ownProperty
 )
 ;
 TypedObjectPrediction
@@ -5594,6 +5596,10 @@ MDefinition
 obj
 jsid
 id
+bool
+ownProperty
+=
+false
 )
 ;
 uint32_t
