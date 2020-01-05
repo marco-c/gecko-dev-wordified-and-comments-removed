@@ -64,15 +64,6 @@ nsIQuotaRequestBase
 {
 protected
 :
-#
-ifdef
-DEBUG
-PRThread
-*
-mOwningThread
-;
-#
-endif
 nsCOMPtr
 <
 nsIPrincipal
