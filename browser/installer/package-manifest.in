@@ -4884,7 +4884,7 @@ clang_rt
 .
 asan_dynamic
 -
-i386
+*
 .
 dll
 #
