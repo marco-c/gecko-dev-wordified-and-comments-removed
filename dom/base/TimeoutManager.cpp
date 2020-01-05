@@ -487,7 +487,7 @@ dom
 .
 min_tracking_background_timeout_value
 "
-DEFAULT_MIN_BACKGROUND_TIMEOUT_VALUE
+DEFAULT_MIN_TRACKING_BACKGROUND_TIMEOUT_VALUE
 )
 ;
 Preferences
