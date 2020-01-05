@@ -588,7 +588,7 @@ certificate_transparency
 .
 mode
 "
-1
+0
 )
 ;
 pref
