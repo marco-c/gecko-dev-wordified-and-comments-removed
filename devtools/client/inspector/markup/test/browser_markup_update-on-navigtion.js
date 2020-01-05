@@ -116,6 +116,8 @@ willNavigate
 =
 inspector
 .
+toolbox
+.
 target
 .
 once

@@ -178,6 +178,7 @@ function
 let
 {
 inspector
+toolbox
 testActor
 }
 =
@@ -212,7 +213,7 @@ inspector
 )
 ;
 yield
-inspector
+toolbox
 .
 highlighter
 .
@@ -272,7 +273,7 @@ highlighter
 )
 ;
 yield
-inspector
+toolbox
 .
 highlighter
 .

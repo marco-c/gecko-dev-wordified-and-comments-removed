@@ -347,7 +347,7 @@ promise
 all
 (
 [
-inspector
+toolbox
 .
 selection
 .
