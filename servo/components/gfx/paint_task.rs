@@ -295,7 +295,6 @@ geometry
 :
 {
 ExpandToPixelBoundaries
-ZERO_POINT
 }
 ;
 use
@@ -2502,7 +2501,12 @@ mut
 properties
 root_paint_layer
 &
-ZERO_POINT
+Point2D
+:
+:
+zero
+(
+)
 &
 Matrix4
 :
