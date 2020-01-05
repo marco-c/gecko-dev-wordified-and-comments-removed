@@ -1880,6 +1880,13 @@ NewOrigin
 "
 :
 {
+if
+(
+document
+.
+fullscreen
+)
+{
 PointerlockFsWarning
 .
 showFullScreen
@@ -1891,6 +1898,7 @@ data
 originNoSuffix
 )
 ;
+}
 break
 ;
 }
