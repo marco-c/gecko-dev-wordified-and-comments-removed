@@ -50,6 +50,13 @@ test
 -
 unit
 -
+.
+/
+mach
+test
+-
+compiletest
+-
 bash
 etc
 /
