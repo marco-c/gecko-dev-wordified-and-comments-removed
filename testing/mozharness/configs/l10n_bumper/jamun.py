@@ -1,11 +1,9 @@
 MULTI_REPO
 =
 "
-releases
+projects
 /
-mozilla
--
-beta
+jamun
 "
 config
 =
