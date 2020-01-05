@@ -33,6 +33,7 @@ Ordering
 derive
 (
 Clone
+Debug
 RustcDecodable
 RustcEncodable
 )
