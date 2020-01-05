@@ -12,12 +12,7 @@ mach
 .
 decorators
 import
-(
-    
-CommandProvider
-    
 Command
-)
 class
 Settings
 (

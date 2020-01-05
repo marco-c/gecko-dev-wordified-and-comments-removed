@@ -4,8 +4,6 @@ import
 print_function
 unicode_literals
 import
-argparse
-import
 os
 import
 os
@@ -13,18 +11,8 @@ os
 path
 as
 path
-from
-os
-import
-chdir
 import
 subprocess
-import
-SimpleHTTPServer
-import
-SocketServer
-import
-mozdebug
 import
 sys
 from
@@ -32,7 +20,6 @@ shutil
 import
 copytree
 rmtree
-ignore_patterns
 copy2
 from
 mach

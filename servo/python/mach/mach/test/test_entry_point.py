@@ -26,10 +26,6 @@ from
 mock
 import
 patch
-from
-mozunit
-import
-main
 here
 =
 os
