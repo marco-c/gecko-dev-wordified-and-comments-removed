@@ -118,8 +118,12 @@ N_BITS
 =
 1
 lx
-+
 =
+(
+unsigned
+)
+lx
++
 X_FRAC_FIRST
 (
 1
@@ -128,8 +132,12 @@ X_FRAC_FIRST
 pixman_fixed_e
 ;
 rx
-+
 =
+(
+unsigned
+)
+rx
++
 X_FRAC_FIRST
 (
 1
