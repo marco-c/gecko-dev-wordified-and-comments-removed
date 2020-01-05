@@ -30,14 +30,12 @@ unsigned
 short
 mnLang
 ;
-const
 char
 maLangStr
 [
 4
 ]
 ;
-const
 char
 maCountry
 [
