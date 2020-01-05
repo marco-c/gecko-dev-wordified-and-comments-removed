@@ -3500,6 +3500,13 @@ PREF_DIR
 devtools
 .
 js
+RESPATH
+/
+PREF_DIR
+/
+debugger
+.
+js
 #
 endif
 ;

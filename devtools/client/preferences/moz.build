@@ -90,6 +90,11 @@ JS_PREFERENCE_PP_FILES
 =
 [
 '
+debugger
+.
+js
+'
+'
 devtools
 .
 js

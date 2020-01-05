@@ -3788,6 +3788,15 @@ PREF_DIR
 devtools
 .
 js
+RESPATH
+/
+browser
+/
+PREF_DIR
+/
+debugger
+.
+js
 ;
 shell
 icons
