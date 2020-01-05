@@ -5326,11 +5326,6 @@ toSource
 )
 )
 ;
-var
-expectedProgressCount
-=
-0
-;
 if
 (
 !
@@ -5346,10 +5341,6 @@ test
 username
 )
 {
-expectedProgressCount
-=
-1
-;
 is
 (
 res
@@ -5431,7 +5422,7 @@ is
 res
 .
 progressEvents
-expectedProgressCount
+0
 "
 wrong
 events
