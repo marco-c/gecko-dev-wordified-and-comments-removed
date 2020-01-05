@@ -15684,6 +15684,15 @@ regexp_construct_no_sticky
 JS_FN
 (
 "
+regexp_clone
+"
+regexp_clone
+1
+0
+)
+JS_FN
+(
+"
 IsModule
 "
 intrinsic_IsInstanceOfBuiltin
