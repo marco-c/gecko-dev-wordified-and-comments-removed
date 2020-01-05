@@ -84,8 +84,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -194,12 +193,9 @@ url
 DOMString
 storage_area
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Storage
->
 >
 }
 impl
@@ -266,7 +262,7 @@ url
 url
 storage_area
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

@@ -37,7 +37,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -326,12 +326,9 @@ bool
 >
 active_document
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Document
->
 >
 frame_element
 :

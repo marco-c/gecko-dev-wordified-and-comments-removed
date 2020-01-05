@@ -84,8 +84,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -248,12 +247,9 @@ i16
 >
 related_target
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 EventTarget
->
 >
 }
 impl

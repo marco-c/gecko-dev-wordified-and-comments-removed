@@ -93,8 +93,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -298,12 +297,9 @@ Stylesheet
 >
 cssom_stylesheet
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 CSSStyleSheet
->
 >
 }
 impl
@@ -354,7 +350,7 @@ None
 )
 cssom_stylesheet
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

@@ -60,8 +60,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -224,12 +223,9 @@ KeyframesRule
 >
 rulelist
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 CSSRuleList
->
 >
 }
 impl
@@ -272,7 +268,7 @@ keyframesrule
 keyframesrule
 rulelist
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

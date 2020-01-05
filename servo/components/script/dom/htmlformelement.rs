@@ -197,8 +197,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -597,12 +596,9 @@ bool
 >
 elements
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 HTMLFormControlsCollection
->
 >
 generation_id
 :

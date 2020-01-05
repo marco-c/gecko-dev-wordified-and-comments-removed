@@ -174,7 +174,7 @@ T
 detected
 .
 Use
-MutHeap
+MutJS
 <
 JS
 <
@@ -264,7 +264,7 @@ JSVal
 detected
 .
 Use
-MutHeap
+MutJS
 <
 JSVal
 >
@@ -360,7 +360,7 @@ T
 detected
 .
 Use
-MutHeap
+MutJS
 <
 JS
 <

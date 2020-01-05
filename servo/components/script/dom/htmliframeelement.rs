@@ -277,9 +277,8 @@ js
 :
 :
 {
-JS
 LayoutJS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -708,12 +707,9 @@ PipelineId
 >
 sandbox
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 DOMTokenList
->
 >
 sandbox_allowance
 :

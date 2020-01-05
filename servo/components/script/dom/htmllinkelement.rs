@@ -107,8 +107,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -500,12 +499,9 @@ htmlelement
 HTMLElement
 rel_list
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 DOMTokenList
->
 >
 #
 [
@@ -529,12 +525,9 @@ Stylesheet
 >
 cssom_stylesheet
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 CSSStyleSheet
->
 >
 parser_inserted
 :
@@ -617,7 +610,7 @@ None
 )
 cssom_stylesheet
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

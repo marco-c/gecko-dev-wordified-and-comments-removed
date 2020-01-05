@@ -200,7 +200,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 RootCollection
 }
@@ -2853,12 +2853,9 @@ Runtime
 >
 topmost_mouse_over_target
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Element
->
 >
 closed_pipelines
 :
@@ -4219,7 +4216,7 @@ runtime
 )
 topmost_mouse_over_target
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

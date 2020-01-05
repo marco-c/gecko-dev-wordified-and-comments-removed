@@ -87,8 +87,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -471,12 +470,9 @@ eventtarget
 EventTarget
 crypto
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Crypto
->
 >
 next_worker_id
 :

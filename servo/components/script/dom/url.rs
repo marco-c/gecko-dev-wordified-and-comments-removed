@@ -76,8 +76,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -224,12 +223,9 @@ ServoUrl
 >
 search_params
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 URLSearchParams
->
 >
 }
 impl

@@ -124,7 +124,7 @@ js
 :
 {
 JS
-MutHeap
+MutJS
 Root
 }
 ;
@@ -210,12 +210,9 @@ mozjs
 ]
 reference_node
 :
-MutHeap
-<
-JS
+MutJS
 <
 Node
->
 >
 pointer_before_reference_node
 :
@@ -287,7 +284,7 @@ root_node
 )
 reference_node
 :
-MutHeap
+MutJS
 :
 :
 new

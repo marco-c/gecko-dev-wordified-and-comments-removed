@@ -124,7 +124,7 @@ js
 :
 {
 JS
-MutHeap
+MutJS
 }
 ;
 use
@@ -200,12 +200,9 @@ Node
 >
 current_node
 :
-MutHeap
-<
-JS
+MutJS
 <
 Node
->
 >
 what_to_show
 :
@@ -272,7 +269,7 @@ root_node
 )
 current_node
 :
-MutHeap
+MutJS
 :
 :
 new

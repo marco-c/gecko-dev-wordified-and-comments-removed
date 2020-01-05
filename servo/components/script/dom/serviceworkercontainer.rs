@@ -61,7 +61,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -192,12 +192,9 @@ eventtarget
 EventTarget
 controller
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 ServiceWorker
->
 >
 client
 :

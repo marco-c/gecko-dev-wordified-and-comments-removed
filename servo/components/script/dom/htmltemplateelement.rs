@@ -90,8 +90,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -175,12 +174,9 @@ htmlelement
 HTMLElement
 contents
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 DocumentFragment
->
 >
 }
 impl
@@ -222,7 +218,7 @@ document
 )
 contents
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

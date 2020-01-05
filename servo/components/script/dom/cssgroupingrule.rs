@@ -69,8 +69,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -196,12 +195,9 @@ StyleCssRules
 >
 rulelist
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 CSSRuleList
->
 >
 }
 impl
@@ -245,7 +241,7 @@ rules
 rules
 rulelist
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

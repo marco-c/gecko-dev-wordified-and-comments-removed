@@ -123,7 +123,7 @@ js
 {
 JS
 LayoutJS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -300,12 +300,9 @@ u32
 >
 tbodies
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 HTMLCollection
->
 >
 }
 #

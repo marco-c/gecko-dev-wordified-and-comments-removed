@@ -200,7 +200,7 @@ js
 :
 {
 JS
-MutHeap
+MutJS
 Root
 RootedReference
 }
@@ -5764,12 +5764,9 @@ BoundaryPoint
 {
 node
 :
-MutHeap
-<
-JS
+MutJS
 <
 Node
->
 >
 offset
 :
@@ -5824,7 +5821,7 @@ BoundaryPoint
 {
 node
 :
-MutHeap
+MutJS
 :
 :
 new
