@@ -4978,6 +4978,17 @@ DOMStorage
 *
 GetLocalStorage
 (
+const
+mozilla
+:
+:
+Maybe
+<
+nsIPrincipal
+*
+>
+&
+aSubjectPrincipal
 mozilla
 :
 :
@@ -8698,6 +8709,9 @@ StorageEvent
 >
 &
 aEvent
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
