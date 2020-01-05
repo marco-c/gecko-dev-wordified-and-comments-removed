@@ -924,6 +924,17 @@ basestring
 Optional
 (
 '
+mochitest
+-
+flavor
+'
+)
+:
+basestring
+            
+Optional
+(
+'
 actions
 '
 )
