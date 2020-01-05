@@ -82,6 +82,9 @@ nsTArray
 h
 "
 class
+nsIPrincipal
+;
+class
 nsWrapperCache
 ;
 namespace
@@ -261,6 +264,13 @@ Get
 )
 ;
 }
+nsIPrincipal
+*
+GetSubjectPrincipal
+(
+)
+const
+;
 protected
 :
 JS
