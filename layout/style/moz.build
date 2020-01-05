@@ -737,6 +737,11 @@ CSSMediaRule
 h
 '
 '
+CSSNamespaceRule
+.
+h
+'
+'
 CSSRuleList
 .
 h
