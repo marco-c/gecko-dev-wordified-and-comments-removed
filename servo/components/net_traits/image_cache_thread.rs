@@ -1,4 +1,13 @@
 use
+image
+:
+:
+base
+:
+:
+ImageMetadata
+;
+use
 ipc_channel
 :
 :
@@ -17,10 +26,7 @@ msg
 constellation_msg
 :
 :
-{
 Image
-ImageMetadata
-}
 ;
 use
 std
