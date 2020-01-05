@@ -807,14 +807,14 @@ true
 ;
 SET_DEFAULT
 (
-wasmBatchThreshold
+wasmBatchBaselineThreshold
 10000
 )
 ;
 SET_DEFAULT
 (
-wasmBatchIonScaleFactor
-9
+wasmBatchIonThreshold
+1100
 )
 ;
 SET_DEFAULT

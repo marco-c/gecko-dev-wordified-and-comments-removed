@@ -926,7 +926,7 @@ test_also_wasm_baseline
 =
 self
 .
-test_also_noasmjs
+test_also_wasm_baseline
         
 t
 .
