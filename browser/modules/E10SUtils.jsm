@@ -760,6 +760,7 @@ shouldLoadURI
 aDocShell
 aURI
 aReferrer
+aHasPostData
 )
 {
 if
@@ -780,6 +781,10 @@ true
 ;
 if
 (
+!
+aHasPostData
+&
+&
 Services
 .
 appinfo
