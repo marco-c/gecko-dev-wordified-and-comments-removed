@@ -448,6 +448,12 @@ mochitest
 browser
 -
 chrome
+-
+mochitest
+-
+devtools
+-
+chrome
 jsdcov
 -
 code
