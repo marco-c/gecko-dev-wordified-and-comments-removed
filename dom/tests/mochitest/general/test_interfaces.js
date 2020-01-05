@@ -1193,6 +1193,9 @@ MediaList
 MediaQueryList
 "
 "
+MediaQueryListEvent
+"
+"
 MediaRecorder
 "
 "
