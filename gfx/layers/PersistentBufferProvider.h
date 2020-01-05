@@ -217,6 +217,13 @@ true
 ;
 }
 virtual
+void
+ClearCachedResources
+(
+)
+{
+}
+virtual
 bool
 PreservesDrawingState
 (
@@ -539,6 +546,13 @@ SetForwarder
 ShadowLayerForwarder
 *
 aFwd
+)
+override
+;
+virtual
+void
+ClearCachedResources
+(
 )
 override
 ;

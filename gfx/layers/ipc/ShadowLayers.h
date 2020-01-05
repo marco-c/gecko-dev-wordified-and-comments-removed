@@ -445,6 +445,14 @@ aRef
 )
 ;
 void
+CreatedBorderLayer
+(
+ShadowableLayer
+*
+aRef
+)
+;
+void
 Mutated
 (
 ShadowableLayer
@@ -866,6 +874,11 @@ IsShmem
 SurfaceDescriptor
 *
 aSurface
+)
+;
+void
+SyncWithCompositor
+(
 )
 ;
 TextureForwarder

@@ -359,6 +359,8 @@ mBackBuffer
 =
 mFrontBuffer
 =
+mBufferProviderTexture
+=
 nullptr
 ;
 }
