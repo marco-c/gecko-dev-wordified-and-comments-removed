@@ -2188,7 +2188,7 @@ self
 .
 window
 .
-wait_events
+poll_events
 (
 )
 {
