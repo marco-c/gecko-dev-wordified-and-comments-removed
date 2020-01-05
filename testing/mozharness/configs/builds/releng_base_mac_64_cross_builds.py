@@ -41,7 +41,11 @@ stats
 '
         
 '
-update
+generate
+-
+balrog
+-
+properties
 '
     
 ]
