@@ -264,7 +264,7 @@ Assert
 .
 assertEquals
 (
-TEST_ICON_URL_1
+TEST_ICON_URL_2
 request
 .
 getBestIcon
@@ -309,7 +309,7 @@ Assert
 .
 assertEquals
 (
-TEST_ICON_URL_2
+TEST_ICON_URL_1
 request
 .
 getBestIcon
