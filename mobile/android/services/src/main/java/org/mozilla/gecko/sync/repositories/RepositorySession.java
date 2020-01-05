@@ -400,6 +400,13 @@ NoStoreDelegateException
 ;
 public
 void
+storeIncomplete
+(
+)
+{
+}
+public
+void
 storeDone
 (
 )

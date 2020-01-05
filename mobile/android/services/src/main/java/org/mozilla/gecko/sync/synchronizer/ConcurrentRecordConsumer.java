@@ -261,7 +261,6 @@ delegate
 .
 consumerIsDone
 (
-!
 allRecordsQueued
 )
 ;
