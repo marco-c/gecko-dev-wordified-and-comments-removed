@@ -299,11 +299,6 @@ LocaleService
 cpp
 '
 '
-nsCollation
-.
-cpp
-'
-'
 nsCollationFactory
 .
 cpp
@@ -356,6 +351,11 @@ DateTimeFormat
 .
 cpp
 '
+'
+nsCollation
+.
+cpp
+'
 ]
 else
 :
@@ -365,6 +365,11 @@ UNIFIED_SOURCES
 [
 '
 DateTimeFormatAndroid
+.
+cpp
+'
+'
+nsCollationAndroid
 .
 cpp
 '
