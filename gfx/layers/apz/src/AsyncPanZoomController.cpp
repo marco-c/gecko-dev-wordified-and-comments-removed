@@ -1882,13 +1882,6 @@ gZoomAnimationFunction
 new
 ComputedTimingFunction
 (
-)
-;
-gZoomAnimationFunction
--
->
-Init
-(
 nsTimingFunction
 (
 NS_STYLE_TRANSITION_TIMING_FUNCTION_EASE
@@ -1905,13 +1898,6 @@ gVelocityCurveFunction
 =
 new
 ComputedTimingFunction
-(
-)
-;
-gVelocityCurveFunction
--
->
-Init
 (
 nsTimingFunction
 (
