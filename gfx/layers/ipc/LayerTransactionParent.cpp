@@ -376,9 +376,6 @@ mozilla
 namespace
 layers
 {
-class
-PGrallocBufferParent
-;
 static
 ShadowLayerParent
 *

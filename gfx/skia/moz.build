@@ -5689,9 +5689,6 @@ in
 '
 android
 '
-'
-gonk
-'
 )
 :
 UNIFIED_SOURCES
@@ -7278,9 +7275,6 @@ in
 '
 android
 '
-'
-gonk
-'
 )
 :
 DEFINES
@@ -7314,9 +7308,6 @@ gtk3
 '
 '
 uikit
-'
-'
-gonk
 '
 }
 :
@@ -8166,9 +8157,6 @@ gtk3
 '
 '
 android
-'
-'
-gonk
 '
 )
 :

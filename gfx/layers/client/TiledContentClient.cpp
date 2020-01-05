@@ -1675,12 +1675,6 @@ defined
 (
 MOZ_GFX_OPTIMIZE_MOBILE
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 mode
 =
 SurfaceMode
@@ -1751,12 +1745,6 @@ if
 defined
 (
 MOZ_GFX_OPTIMIZE_MOBILE
-)
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
 )
 if
 (

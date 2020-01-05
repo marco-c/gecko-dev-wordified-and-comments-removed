@@ -90,14 +90,6 @@ LayersTypes
 .
 h
 "
-#
-ifdef
-MOZ_WIDGET_GONK
-#
-define
-MOZ_HAVE_SURFACEDESCRIPTORGRALLOC
-#
-endif
 namespace
 mozilla
 {

@@ -116,17 +116,6 @@ mozilla
 /
 layers
 /
-GrallocTextureClient
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayersTypes
 .
 h

@@ -1938,9 +1938,6 @@ RecordingFontUserData
 aUserData
 )
 ;
-#
-ifndef
-MOZ_WIDGET_GONK
 userData
 -
 >
@@ -1958,8 +1955,6 @@ refPtr
 )
 )
 ;
-#
-endif
 delete
 userData
 ;
@@ -2019,9 +2014,6 @@ get
 )
 )
 {
-#
-ifndef
-MOZ_WIDGET_GONK
 RecordedFontData
 fontData
 (
@@ -2133,8 +2125,6 @@ ScaledFont
 ;
 }
 }
-#
-endif
 RecordingFontUserData
 *
 userData
@@ -2179,9 +2169,6 @@ RecordingFontUserDataDestroyFunc
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_GONK
 mRecorder
 -
 >
@@ -2202,8 +2189,6 @@ mNumGlyphs
 )
 )
 ;
-#
-endif
 mFinalDT
 -
 >

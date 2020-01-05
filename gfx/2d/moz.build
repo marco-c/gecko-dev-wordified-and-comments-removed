@@ -1288,9 +1288,6 @@ gtk2
 '
 gtk3
 '
-'
-gonk
-'
 )
 :
 DEFINES
@@ -1327,9 +1324,6 @@ gtk2
 '
 '
 gtk3
-'
-'
-gonk
 '
 )
 :
