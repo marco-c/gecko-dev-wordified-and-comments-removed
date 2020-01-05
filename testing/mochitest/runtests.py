@@ -2579,7 +2579,7 @@ self
 .
 _log
 .
-info
+error
 (
                 
 "
@@ -8378,7 +8378,7 @@ self
 .
 log
 .
-info
+error
 (
                 
 "
@@ -11667,7 +11667,7 @@ self
 .
 log
 .
-info
+error
 (
                 
 "
@@ -12594,7 +12594,7 @@ self
 .
 log
 .
-info
+error
 (
 "
 TEST
@@ -12608,7 +12608,7 @@ zombiecheck
 child
 process
 "
-                              
+                               
 "
 %
 d
@@ -13521,7 +13521,7 @@ self
 .
 log
 .
-info
+error
 (
                     
 "
@@ -14208,7 +14208,7 @@ self
 .
 log
 .
-info
+error
 (
 "
 TEST
@@ -14223,7 +14223,7 @@ Please
 ignore
 repeats
 "
-                                  
+                                   
 "
 and
 look
@@ -14240,7 +14240,7 @@ the
 end
 of
 "
-                                  
+                                   
 "
 the
 failure
