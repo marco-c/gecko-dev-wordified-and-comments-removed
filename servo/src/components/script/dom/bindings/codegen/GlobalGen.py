@@ -461,14 +461,6 @@ config
 UnionTypes
 '
 )
-    
-generate_file
-(
-config
-'
-UnionConversions
-'
-)
 if
 __name__
 =
