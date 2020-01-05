@@ -5866,6 +5866,17 @@ hint
 )
 )
 {
+MOZ_ASSERT
+(
+!
+ServoStyleSet
+:
+:
+IsInServoTraversal
+(
+)
+)
+;
 bool
 change
 =
