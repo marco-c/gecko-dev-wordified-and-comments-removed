@@ -524,9 +524,6 @@ nsStyleContext
 >
 ResolveStyleForPlaceholder
 (
-nsStyleContext
-*
-aParentContext
 )
 ;
 inline

@@ -3314,9 +3314,6 @@ aContent
 nsIFrame
 *
 aFrame
-nsStyleContext
-*
-aParentStyle
 nsContainerFrame
 *
 aParentFrame

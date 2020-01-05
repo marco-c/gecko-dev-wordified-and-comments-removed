@@ -44550,7 +44550,7 @@ StyleContext
 nullptr
 ;
 }
-nsIFrame
+nsPlaceholderFrame
 *
 placeholder
 =
@@ -44615,7 +44615,7 @@ return
 placeholder
 -
 >
-GetParentStyleContext
+GetParentStyleContextForOutOfFlow
 (
 aProviderFrame
 )

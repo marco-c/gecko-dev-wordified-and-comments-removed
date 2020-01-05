@@ -299,9 +299,6 @@ nsStyleContext
 >
 ResolveStyleForPlaceholder
 (
-nsStyleContext
-*
-aParentContext
 )
 ;
 already_AddRefed
