@@ -1170,6 +1170,15 @@ mTransparentSurface
 size
 )
 ;
+if
+(
+!
+drawTarget
+)
+{
+return
+;
+}
 drawTarget
 -
 >
