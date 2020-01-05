@@ -1,5 +1,5 @@
 use
-hbs_pow
+heartbeats_simple
 :
 :
 HeartbeatPow
@@ -7,7 +7,7 @@ as
 Heartbeat
 ;
 use
-hbs_pow
+heartbeats_simple
 :
 :
 HeartbeatPowContext

@@ -105,14 +105,14 @@ ipc
 channel
 "
 }
-hbs
+heartbeats
 -
-pow
+simple
 =
 "
 0
 .
-2
+3
 "
 log
 =
