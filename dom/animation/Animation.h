@@ -870,6 +870,9 @@ mPlaybackRate
 0
 &
 &
+mTimeline
+&
+&
 (
 PlayState
 (

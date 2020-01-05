@@ -3015,6 +3015,15 @@ startTime
 IsNull
 (
 )
+|
+|
+!
+aAnimation
+-
+>
+GetTimeline
+(
+)
 ?
 TimeStamp
 (
