@@ -99,6 +99,7 @@ net_traits
 {
 ResponseAction
 LoadContext
+NetworkError
 }
 ;
 use
@@ -242,7 +243,7 @@ Result
 <
 (
 )
-String
+NetworkError
 >
 >
 listeners

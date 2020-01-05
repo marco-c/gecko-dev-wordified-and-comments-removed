@@ -108,6 +108,7 @@ net_traits
 {
 AsyncResponseListener
 Metadata
+NetworkError
 ResponseAction
 }
 ;
@@ -653,7 +654,11 @@ mut
 self
 _metadata
 :
+Result
+<
 Metadata
+NetworkError
+>
 )
 {
 }
@@ -684,7 +689,7 @@ Result
 <
 (
 )
-String
+NetworkError
 >
 )
 {

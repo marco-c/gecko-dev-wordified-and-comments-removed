@@ -72,6 +72,16 @@ test
 )
 ]
 mod
+chrome_loader
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
 cookie
 ;
 #

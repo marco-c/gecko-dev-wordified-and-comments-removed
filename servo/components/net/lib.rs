@@ -181,6 +181,10 @@ about_loader
 ;
 pub
 mod
+chrome_loader
+;
+pub
+mod
 cookie
 ;
 pub
