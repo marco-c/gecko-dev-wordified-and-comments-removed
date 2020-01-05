@@ -8389,7 +8389,7 @@ pi
 mParticipant
 -
 >
-Traverse
+TraverseNativeAndJS
 (
 pi
 -
@@ -9657,7 +9657,7 @@ cf
 aCp
 -
 >
-Traverse
+TraverseNativeAndJS
 (
 aObj
 cf
