@@ -9833,6 +9833,15 @@ aChild
 )
 ;
 }
+NotificationController
+:
+:
+MoveGuard
+mguard
+(
+mNotificationController
+)
+;
 if
 (
 curParent
