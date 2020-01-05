@@ -145,11 +145,6 @@ PermissionsTable
 .
 jsm
 '
-'
-UserCustomizations
-.
-jsm
-'
 ]
 EXTRA_PP_JS_MODULES
 +
