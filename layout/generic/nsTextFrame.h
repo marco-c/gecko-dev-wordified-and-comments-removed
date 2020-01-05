@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsFrameSelection
+.
+h
+"
+#
+include
+"
 nsSplittableFrame
 .
 h
