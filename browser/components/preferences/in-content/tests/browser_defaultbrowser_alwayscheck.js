@@ -775,7 +775,7 @@ options
 function
 *
 (
-options
+contentOptions
 )
 {
 let
@@ -848,7 +848,7 @@ mockShellService
 .
 _isDefault
 =
-options
+contentOptions
 .
 isDefault
 ;

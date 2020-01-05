@@ -187,7 +187,7 @@ function
 waitForCondition
 (
 condition
-nextTest
+nextTestFn
 errorMsg
 )
 {
@@ -199,7 +199,7 @@ errorMsg
 .
 then
 (
-nextTest
+nextTestFn
 (
 reason
 )
@@ -242,7 +242,7 @@ fun
 {
 return
 (
-done
+doneFn
 )
 =
 >
@@ -269,7 +269,7 @@ fun
 .
 then
 (
-done
+doneFn
 (
 reason
 )
@@ -282,7 +282,7 @@ false
 reason
 )
 ;
-done
+doneFn
 (
 )
 ;
@@ -529,7 +529,7 @@ function
 waitForElementToBeVisible
 (
 element
-nextTest
+nextTestFn
 msg
 )
 {
@@ -554,7 +554,7 @@ true
 msg
 )
 ;
-nextTest
+nextTestFn
 (
 )
 ;
@@ -575,7 +575,7 @@ function
 waitForElementToBeHidden
 (
 element
-nextTest
+nextTestFn
 msg
 )
 {
@@ -600,7 +600,7 @@ true
 msg
 )
 ;
-nextTest
+nextTestFn
 (
 )
 ;
@@ -682,7 +682,7 @@ waitForPopupAtAnchor
 (
 popup
 anchorNode
-nextTest
+nextTestFn
 msg
 )
 {
@@ -728,7 +728,7 @@ visible
 "
 )
 ;
-nextTest
+nextTestFn
 (
 )
 ;
@@ -762,7 +762,7 @@ gTestTab
 .
 linkedBrowser
 configName
-configName
+contentConfigName
 =
 >
 {
@@ -796,7 +796,7 @@ UITour
 .
 getConfiguration
 (
-configName
+contentConfigName
 resolve
 )
 ;
@@ -910,12 +910,12 @@ content
 ;
 let
 [
-target
-title
-text
-icon
-buttonsFunctionName
-optionsFunctionName
+contentTarget
+contentTitle
+contentText
+contentIcon
+contentButtonsFunctionName
+contentOptionsFunctionName
 ]
 =
 args
@@ -923,11 +923,11 @@ args
 let
 buttons
 =
-buttonsFunctionName
+contentButtonsFunctionName
 ?
 contentWin
 [
-buttonsFunctionName
+contentButtonsFunctionName
 ]
 (
 )
@@ -937,11 +937,11 @@ null
 let
 options
 =
-optionsFunctionName
+contentOptionsFunctionName
 ?
 contentWin
 [
-optionsFunctionName
+contentOptionsFunctionName
 ]
 (
 )
@@ -956,10 +956,10 @@ UITour
 .
 showInfo
 (
-target
-title
-text
-icon
+contentTarget
+contentTitle
+contentText
+contentIcon
 buttons
 options
 )
@@ -1031,7 +1031,7 @@ gTestTab
 .
 linkedBrowser
 name
-name
+contentName
 =
 >
 {
@@ -1065,7 +1065,7 @@ UITour
 .
 showMenu
 (
-name
+contentName
 resolve
 )
 ;
@@ -1587,7 +1587,7 @@ gTestTab
 .
 linkedBrowser
 taskArgs
-args
+contentArgs
 =
 >
 {
@@ -1606,7 +1606,7 @@ content
 return
 contentWin
 [
-args
+contentArgs
 .
 methodName
 ]
@@ -1614,7 +1614,7 @@ methodName
 apply
 (
 contentWin
-args
+contentArgs
 .
 args
 )
@@ -1809,7 +1809,7 @@ taskArgs
 function
 *
 (
-args
+contentArgs
 )
 {
 let
@@ -1849,7 +1849,7 @@ resolve
 let
 argumentsWithFunctions
 =
-args
+contentArgs
 .
 args
 .
@@ -1872,7 +1872,7 @@ arg
 "
 &
 &
-args
+contentArgs
 .
 fnIndices
 .
@@ -1914,7 +1914,7 @@ if
 callbacksCalled
 >
 =
-args
+contentArgs
 .
 fnIndices
 .
@@ -1944,7 +1944,7 @@ Mozilla
 .
 UITour
 [
-args
+contentArgs
 .
 methodName
 ]
@@ -1961,7 +1961,7 @@ argumentsWithFunctions
 ;
 if
 (
-args
+contentArgs
 .
 fnIndices
 .

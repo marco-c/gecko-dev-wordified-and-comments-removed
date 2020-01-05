@@ -75,6 +75,15 @@ none
 "
 }
 ]
+"
+no
+-
+shadow
+"
+:
+"
+error
+"
 }
 }
 ;

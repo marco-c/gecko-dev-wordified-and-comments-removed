@@ -50,10 +50,9 @@ wpl
 {
 onLocationChange
 (
-wpl
-request
+unused
+unused2
 location
-flags
 )
 {
 if

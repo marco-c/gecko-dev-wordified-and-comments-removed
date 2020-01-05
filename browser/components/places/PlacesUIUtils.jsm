@@ -5069,7 +5069,7 @@ leftPaneQueries
 }
 ;
 let
-items
+queryItems
 =
 as
 .
@@ -5099,7 +5099,7 @@ i
 ;
 i
 <
-items
+queryItems
 .
 length
 ;
@@ -5115,7 +5115,7 @@ as
 .
 getItemAnnotation
 (
-items
+queryItems
 [
 i
 ]
@@ -5147,7 +5147,7 @@ query
 .
 itemId
 =
-items
+queryItems
 [
 i
 ]
@@ -5185,7 +5185,7 @@ itemId
 if
 (
 !
-items
+queryItems
 .
 includes
 (
@@ -5299,7 +5299,7 @@ queriesCount
 EXPECTED_QUERY_COUNT
 )
 {
-items
+queryItems
 .
 forEach
 (

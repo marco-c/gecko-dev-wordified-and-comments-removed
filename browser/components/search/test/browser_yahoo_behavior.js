@@ -496,12 +496,12 @@ load
 function
 load
 (
-event
+loadEvent
 )
 {
 if
 (
-event
+loadEvent
 .
 originalTarget
 !
@@ -513,7 +513,7 @@ linkedBrowser
 contentDocument
 |
 |
-event
+loadEvent
 .
 target
 .
@@ -611,7 +611,7 @@ ContentSearchService
 function
 done
 (
-event
+searchServiceEvent
 )
 {
 info
@@ -623,7 +623,7 @@ search
 event
 "
 +
-event
+searchServiceEvent
 .
 detail
 .
@@ -632,7 +632,7 @@ type
 ;
 if
 (
-event
+searchServiceEvent
 .
 detail
 .

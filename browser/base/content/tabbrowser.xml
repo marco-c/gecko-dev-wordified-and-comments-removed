@@ -31933,6 +31933,7 @@ resize
 start
 "
 :
+{
 browser
 =
 this
@@ -31989,6 +31990,7 @@ browser
 }
 break
 ;
+}
 case
 "
 live
@@ -31998,6 +32000,7 @@ resize
 end
 "
 :
+{
 browser
 =
 this
@@ -32052,6 +32055,7 @@ null
 }
 break
 ;
+}
 case
 "
 nsPref
@@ -32059,6 +32063,7 @@ nsPref
 changed
 "
 :
+{
 /
 /
 This
@@ -32087,6 +32092,7 @@ typeaheadfind
 ;
 break
 ;
+}
 }
 ]
 ]
@@ -39698,7 +39704,6 @@ mid
 .
 boxObject
 ;
-let
 screenX
 =
 boxObject

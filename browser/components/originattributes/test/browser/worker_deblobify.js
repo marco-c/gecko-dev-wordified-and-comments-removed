@@ -40,7 +40,7 @@ message
 "
 function
 (
-e
+message
 )
 {
 if
@@ -49,14 +49,14 @@ if
 error
 "
 in
-e
+message
 .
 data
 )
 {
 postMessage
 (
-e
+message
 .
 data
 )
@@ -67,7 +67,7 @@ return
 var
 blobURL
 =
-e
+message
 .
 data
 .

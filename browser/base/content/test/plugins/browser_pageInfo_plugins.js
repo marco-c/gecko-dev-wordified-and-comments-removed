@@ -513,7 +513,7 @@ testPart1a
 )
 {
 let
-test
+testElement
 =
 gTestBrowser
 .
@@ -529,7 +529,7 @@ test
 let
 objLoadingContent
 =
-test
+testElement
 .
 QueryInterface
 (
@@ -801,7 +801,7 @@ testPart2
 )
 {
 let
-test
+testElement
 =
 gTestBrowser
 .
@@ -823,7 +823,7 @@ nsIObjectLoadingContent
 ;
 ok
 (
-test
+testElement
 .
 activated
 "
@@ -1098,7 +1098,7 @@ testPart3
 )
 {
 let
-test
+testElement
 =
 gTestBrowser
 .
@@ -1121,7 +1121,7 @@ nsIObjectLoadingContent
 ok
 (
 !
-test
+testElement
 .
 activated
 "
@@ -1139,7 +1139,7 @@ activated
 ;
 is
 (
-test
+testElement
 .
 pluginFallbackType
 Ci
