@@ -1839,9 +1839,12 @@ k
 let
 u
 =
-bs
+yield
+PlacesUtils
 .
-getURIForKeyword
+keywords
+.
+fetch
 (
 "
 bar
@@ -1862,7 +1865,7 @@ com
 "
 u
 .
-spec
+url
 )
 ;
 tmpFolder
