@@ -142,10 +142,7 @@ servo_msg
 constellation_msg
 :
 :
-{
-ConstellationChan
 SubpageId
-}
 ;
 use
 servo_net
@@ -1821,9 +1818,6 @@ ImageCacheTask
 next_subpage_id
 :
 SubpageId
-constellation_chan
-:
-ConstellationChan
 )
 -
 >
@@ -2900,13 +2894,6 @@ pipeline_id
 subpage_id
 :
 subpage_id
-constellation_chan
-:
-constellation_chan
-.
-clone
-(
-)
 }
 )
 ;
