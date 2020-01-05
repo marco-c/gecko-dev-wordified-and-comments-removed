@@ -479,6 +479,8 @@ uint16_t
 aLocalPort
 bool
 aUseSSL
+bool
+aReuseAddrPort
 )
 {
 mSocket
@@ -518,6 +520,7 @@ aLocalHost
 )
 aLocalPort
 aUseSSL
+aReuseAddrPort
 true
 mFilterName
 )

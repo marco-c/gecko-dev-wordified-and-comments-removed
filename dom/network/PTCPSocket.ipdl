@@ -361,6 +361,8 @@ localPort
 bool
 useSSL
 bool
+reuseAddrPort
+bool
 aUseArrayBuffers
 nsCString
 aFilter

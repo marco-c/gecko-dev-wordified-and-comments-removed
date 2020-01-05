@@ -1017,6 +1017,9 @@ mHttpsProxy
 uint32_t
 mConnectionFlags
 ;
+bool
+mReuseAddrPort
+;
 NeckoOriginAttributes
 mOriginAttributes
 ;

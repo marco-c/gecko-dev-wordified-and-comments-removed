@@ -622,6 +622,10 @@ aUseSSL
 const
 bool
 &
+aReuseAddrPort
+const
+bool
+&
 aUseArrayBuffers
 const
 nsCString
@@ -723,6 +727,14 @@ IPC_OK
 )
 ;
 }
+socketTransport
+-
+>
+SetReuseAddrPort
+(
+aReuseAddrPort
+)
+;
 PRNetAddr
 prAddr
 ;
