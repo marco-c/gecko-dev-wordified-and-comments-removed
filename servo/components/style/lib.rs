@@ -203,10 +203,6 @@ extern
 crate
 lazy_static
 ;
-extern
-crate
-libc
-;
 #
 [
 macro_use
