@@ -4618,7 +4618,7 @@ ShapeRadius
 fn
 parse
 (
-context
+_
 :
 &
 ParserContext
@@ -4647,9 +4647,8 @@ i
 LengthOrPercentage
 :
 :
-parse
+parse_non_negative
 (
-context
 i
 )
 )
