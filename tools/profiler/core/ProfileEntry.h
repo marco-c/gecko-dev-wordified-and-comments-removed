@@ -133,9 +133,6 @@ UniquePtr
 .
 h
 "
-class
-ThreadProfile
-;
 #
 ifndef
 __arm__

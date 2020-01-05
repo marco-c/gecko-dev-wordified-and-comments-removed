@@ -637,6 +637,9 @@ is_native_unwinding_avail
 )
 ;
 class
+ThreadInfo
+;
+class
 TickSample
 {
 public
@@ -674,7 +677,7 @@ isSamplingCurrentThread
 (
 false
 )
-threadProfile
+threadInfo
 (
 nullptr
 )
@@ -720,9 +723,9 @@ context
 bool
 isSamplingCurrentThread
 ;
-ThreadProfile
+ThreadInfo
 *
-threadProfile
+threadInfo
 ;
 mozilla
 :
@@ -758,12 +761,6 @@ SpliceableJSONWriter
 ;
 class
 SyncProfile
-;
-class
-ThreadInfo
-;
-class
-ThreadProfile
 ;
 namespace
 mozilla
@@ -1373,9 +1370,9 @@ private
 void
 doNativeBacktrace
 (
-ThreadProfile
+ThreadInfo
 &
-aProfile
+aInfo
 TickSample
 *
 aSample

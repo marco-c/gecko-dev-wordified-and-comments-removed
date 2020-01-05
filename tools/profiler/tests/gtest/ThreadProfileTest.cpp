@@ -17,7 +17,7 @@ h
 #
 include
 "
-ThreadProfile
+ThreadInfo
 .
 h
 "
@@ -70,11 +70,10 @@ ProfileBuffer
 10
 )
 ;
-ThreadProfile
-tp
-(
-&
 info
+.
+SetProfile
+(
 pb
 )
 ;

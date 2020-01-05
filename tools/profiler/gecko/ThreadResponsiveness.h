@@ -30,7 +30,7 @@ TimeStamp
 h
 "
 class
-ThreadProfile
+ThreadInfo
 ;
 class
 CheckResponsivenessTask
@@ -43,9 +43,9 @@ public
 explicit
 ThreadResponsiveness
 (
-ThreadProfile
+ThreadInfo
 *
-aThreadProfile
+aThreadInfo
 )
 ;
 ~
@@ -97,9 +97,9 @@ IsNull
 }
 private
 :
-ThreadProfile
+ThreadInfo
 *
-mThreadProfile
+mThreadInfo
 ;
 RefPtr
 <

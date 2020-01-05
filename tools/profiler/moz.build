@@ -253,13 +253,6 @@ ThreadInfo
 cpp
 '
 '
-core
-/
-ThreadProfile
-.
-cpp
-'
-'
 gecko
 /
 nsProfiler
