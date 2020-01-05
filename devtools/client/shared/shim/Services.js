@@ -1310,7 +1310,7 @@ isParentRoot
 !
 parent
 .
-parent
+_parent
 ;
 let
 branchName
