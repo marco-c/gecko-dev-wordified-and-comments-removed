@@ -414,12 +414,7 @@ GetThreadHandle
 aSample
 -
 >
-mThreadInfo
--
->
-GetPlatformData
-(
-)
+mPlatformData
 )
 ;
 HANDLE

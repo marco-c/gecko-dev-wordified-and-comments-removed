@@ -527,12 +527,7 @@ samplee_thread
 aSample
 -
 >
-mThreadInfo
--
->
-GetPlatformData
-(
-)
+mPlatformData
 -
 >
 profiled_thread
