@@ -606,16 +606,6 @@ GetOriginAttributes
 oa
 )
 ;
-oa
-.
-StripAttributes
-(
-OriginAttributes
-:
-:
-STRIP_ADDON_ID
-)
-;
 #
 ifdef
 DEBUG

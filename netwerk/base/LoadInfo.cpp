@@ -2027,16 +2027,6 @@ attrs
 mOriginAttributes
 )
 ;
-attrs
-.
-StripAttributes
-(
-OriginAttributes
-:
-:
-STRIP_ADDON_ID
-)
-;
 mSandboxedLoadingPrincipal
 =
 nsNullPrincipal

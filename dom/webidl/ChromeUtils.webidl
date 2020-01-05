@@ -536,12 +536,6 @@ inIsolatedMozBrowser
 =
 false
 ;
-DOMString
-addonId
-=
-"
-"
-;
 unsigned
 long
 privateBrowsingId
@@ -569,9 +563,6 @@ userContextId
 ;
 boolean
 inIsolatedMozBrowser
-;
-DOMString
-addonId
 ;
 unsigned
 long
