@@ -2593,6 +2593,11 @@ StringOrObject
 :
 Object
 (
+Heap
+:
+:
+new
+(
 (
 *
 arr_buffer
@@ -2606,6 +2611,7 @@ get
 .
 to_object
 (
+)
 )
 )
 }

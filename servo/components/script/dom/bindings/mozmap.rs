@@ -166,6 +166,7 @@ Deref
 derive
 (
 Clone
+JSTraceable
 )
 ]
 pub
