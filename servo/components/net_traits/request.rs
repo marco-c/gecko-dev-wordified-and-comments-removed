@@ -710,10 +710,6 @@ origin
 :
 Origin
 pub
-omit_origin_header
-:
-bool
-pub
 referrer
 :
 Referrer
@@ -881,9 +877,6 @@ Origin
 :
 Client
 )
-omit_origin_header
-:
-false
 referrer
 :
 Referrer
