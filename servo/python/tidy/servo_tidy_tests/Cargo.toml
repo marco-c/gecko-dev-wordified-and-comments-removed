@@ -42,3 +42,13 @@ version
 *
 "
 }
+[
+lib
+]
+path
+=
+"
+lib
+.
+rs
+"
