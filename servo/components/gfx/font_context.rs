@@ -1206,13 +1206,6 @@ None
 }
 }
 }
-if
-fonts
-.
-is_empty
-(
-)
-{
 let
 mut
 cache_hit
@@ -1405,7 +1398,6 @@ font
 !
 "
 )
-}
 }
 }
 let
