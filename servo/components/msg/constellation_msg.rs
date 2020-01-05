@@ -128,7 +128,7 @@ webdriver_msg
 :
 {
 WebDriverScriptCommand
-LoadComplete
+LoadStatus
 }
 ;
 #
@@ -947,7 +947,7 @@ PipelineId
 LoadData
 Sender
 <
-LoadComplete
+LoadStatus
 >
 )
 ScriptCommand
