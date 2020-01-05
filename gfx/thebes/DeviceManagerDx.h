@@ -244,6 +244,11 @@ CanInitializeKeyedMutexTextures
 )
 ;
 bool
+HasCrashyInitData
+(
+)
+;
+bool
 CreateCompositorDevices
 (
 )
