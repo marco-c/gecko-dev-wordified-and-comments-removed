@@ -143,7 +143,7 @@ gfx
 display_list
 :
 :
-DisplayList
+DisplayListCollection
 ;
 use
 servo_util
@@ -3798,12 +3798,15 @@ Rect
 <
 Au
 >
-list
+index
+:
+uint
+lists
 :
 &
 RefCell
 <
-DisplayList
+DisplayListCollection
 <
 E
 >
@@ -3811,7 +3814,7 @@ E
 )
 -
 >
-bool
+uint
 {
 let
 abs_rect
@@ -3842,7 +3845,7 @@ dirty
 )
 {
 return
-true
+index
 ;
 }
 /
@@ -3952,8 +3955,10 @@ self
 as
 &
 Flow
-list
+index
+lists
 )
+;
 }
 /
 /
@@ -4001,7 +4006,7 @@ the
 subtree
 rooted
 here
-true
+index
 }
 /
 /
