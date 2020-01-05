@@ -2192,7 +2192,7 @@ UnprotectedData
 <
 size_t
 >
-numHelperThreadZones
+numExclusiveThreads
 ;
 friend
 class
@@ -2204,7 +2204,7 @@ AutoLockForExclusiveAccess
 public
 :
 void
-setUsedByHelperThread
+setUsedByExclusiveThread
 (
 JS
 :
@@ -2215,7 +2215,7 @@ zone
 )
 ;
 void
-clearUsedByHelperThread
+clearUsedByExclusiveThread
 (
 JS
 :
@@ -2226,13 +2226,13 @@ zone
 )
 ;
 bool
-hasHelperThreadZones
+exclusiveThreadsPresent
 (
 )
 const
 {
 return
-numHelperThreadZones
+numExclusiveThreads
 >
 0
 ;
@@ -2249,7 +2249,7 @@ const
 return
 (
 !
-hasHelperThreadZones
+exclusiveThreadsPresent
 (
 )
 &

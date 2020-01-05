@@ -7229,16 +7229,6 @@ setPrivateUnbarriered
 dstData
 )
 ;
-if
-(
-trc
--
->
-isTenuringTracer
-(
-)
-)
-{
 Nursery
 &
 nursery
@@ -7270,7 +7260,6 @@ dstData
 false
 )
 ;
-}
 }
 else
 {

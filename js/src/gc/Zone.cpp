@@ -278,6 +278,10 @@ isSystem
 group
 false
 )
+usedByExclusiveThread
+(
+false
+)
 #
 ifdef
 DEBUG
@@ -586,7 +590,7 @@ runtimeFromActiveCooperatingThread
 )
 -
 >
-hasHelperThreadZones
+exclusiveThreadsPresent
 (
 )
 )
@@ -1396,9 +1400,7 @@ gcNumber
 )
 {
 return
-usedByHelperThread
-(
-)
+usedByExclusiveThread
 ?
 0
 :
@@ -1534,9 +1536,7 @@ canCollect
 {
 if
 (
-usedByHelperThread
-(
-)
+usedByExclusiveThread
 )
 return
 false
@@ -1559,7 +1559,7 @@ isAtomsZone
 rt
 -
 >
-hasHelperThreadZones
+exclusiveThreadsPresent
 (
 )
 )

@@ -50,15 +50,11 @@ get
 )
 enterCount
 (
+this
 1
 )
 zones_
 (
-this
-)
-usedByHelperThread
-(
-false
 )
 nursery_
 (

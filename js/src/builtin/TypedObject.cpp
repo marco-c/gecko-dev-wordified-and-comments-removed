@@ -7715,16 +7715,6 @@ setData
 newData
 )
 ;
-if
-(
-trc
--
->
-isTenuringTracer
-(
-)
-)
-{
 Nursery
 &
 nursery
@@ -7755,7 +7745,6 @@ newData
 false
 )
 ;
-}
 }
 if
 (
