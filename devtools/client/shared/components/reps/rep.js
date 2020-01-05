@@ -781,6 +781,7 @@ LongStringRep
 NaNRep
 Null
 Number
+Obj
 ObjectWithText
 ObjectWithURL
 PromiseRep
