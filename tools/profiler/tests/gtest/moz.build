@@ -156,6 +156,11 @@ UNIFIED_SOURCES
 =
 [
 '
+GeckoProfiler
+.
+cpp
+'
+'
 ThreadProfileTest
 .
 cpp
