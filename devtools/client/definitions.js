@@ -73,8 +73,6 @@ client
 /
 inspector
 /
-inspector
--
 panel
 "
 )
