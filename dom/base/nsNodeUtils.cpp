@@ -2514,6 +2514,7 @@ getter_AddRefs
 (
 clone
 )
+aDeep
 )
 ;
 NS_ENSURE_SUCCESS

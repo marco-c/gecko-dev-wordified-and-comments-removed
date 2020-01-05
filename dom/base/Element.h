@@ -5076,6 +5076,9 @@ nsINode
 *
 *
 aResult
+\
+bool
+aPreallocateChildren
 )
 const
 \
@@ -5169,6 +5172,7 @@ this
 CopyInnerTo
 (
 it
+aPreallocateChildren
 )
 ;
 \
@@ -5225,6 +5229,9 @@ nsINode
 *
 *
 aResult
+\
+bool
+aPreallocateChildren
 )
 const
 \
@@ -5329,6 +5336,7 @@ this
 CopyInnerTo
 (
 it
+aPreallocateChildren
 )
 ;
 \

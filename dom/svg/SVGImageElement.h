@@ -307,6 +307,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override
@@ -323,6 +325,8 @@ dom
 Element
 *
 aDest
+bool
+aPreallocateChildren
 )
 ;
 void

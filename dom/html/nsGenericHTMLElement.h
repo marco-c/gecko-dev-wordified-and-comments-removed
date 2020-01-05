@@ -274,6 +274,8 @@ dom
 Element
 *
 aDest
+bool
+aPreallocateChildren
 )
 ;
 void

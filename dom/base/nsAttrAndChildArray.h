@@ -624,6 +624,17 @@ ClearMappedServoStyle
 (
 )
 ;
+nsresult
+EnsureCapacityToClone
+(
+const
+nsAttrAndChildArray
+&
+aOther
+bool
+aAllocateChildren
+)
+;
 private
 :
 nsAttrAndChildArray

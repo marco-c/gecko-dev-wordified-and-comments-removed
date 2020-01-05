@@ -3158,6 +3158,8 @@ CopyInnerTo
 Element
 *
 aDest
+bool
+aPreallocateChildren
 )
 {
 bool
@@ -3207,6 +3209,7 @@ nsGenericHTMLElement
 CopyInnerTo
 (
 aDest
+aPreallocateChildren
 )
 ;
 if

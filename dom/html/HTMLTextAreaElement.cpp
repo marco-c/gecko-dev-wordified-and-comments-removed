@@ -443,6 +443,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 {
@@ -509,6 +511,7 @@ this
 CopyInnerTo
 (
 it
+aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4249,6 +4252,8 @@ CopyInnerTo
 Element
 *
 aDest
+bool
+aPreallocateChildren
 )
 {
 nsresult
@@ -4260,6 +4265,7 @@ nsGenericHTMLFormElementWithState
 CopyInnerTo
 (
 aDest
+aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

@@ -936,6 +936,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 {
@@ -1019,6 +1021,7 @@ this
 CopyInnerTo
 (
 it
+aPreallocateChildren
 )
 ;
 if

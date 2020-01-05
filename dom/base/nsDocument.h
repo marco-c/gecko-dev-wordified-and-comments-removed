@@ -3314,6 +3314,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override
@@ -4177,6 +4179,8 @@ CloneDocHelper
 nsDocument
 *
 clone
+bool
+aPreallocateChildren
 )
 const
 ;

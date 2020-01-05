@@ -155,6 +155,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override

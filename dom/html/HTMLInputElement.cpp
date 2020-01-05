@@ -5795,6 +5795,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateArrays
 )
 const
 {
@@ -5866,6 +5868,7 @@ this
 CopyInnerTo
 (
 it
+aPreallocateArrays
 )
 ;
 NS_ENSURE_SUCCESS

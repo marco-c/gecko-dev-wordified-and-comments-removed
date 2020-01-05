@@ -2108,6 +2108,8 @@ CopyInnerTo
 Element
 *
 aDest
+bool
+aPreallocateChildren
 )
 {
 nsresult
@@ -2119,6 +2121,7 @@ nsGenericHTMLFormElement
 CopyInnerTo
 (
 aDest
+aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

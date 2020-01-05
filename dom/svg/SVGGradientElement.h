@@ -216,6 +216,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override
@@ -465,6 +467,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override
@@ -634,6 +638,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override
