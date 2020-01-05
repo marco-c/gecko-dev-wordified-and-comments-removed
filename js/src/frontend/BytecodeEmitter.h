@@ -2835,7 +2835,7 @@ InnerEmitter
 >
 MOZ_MUST_USE
 bool
-wrapWithDestructuringIteratorCloseTryNote
+wrapWithIteratorCloseTryNote
 (
 int32_t
 iterDepth
