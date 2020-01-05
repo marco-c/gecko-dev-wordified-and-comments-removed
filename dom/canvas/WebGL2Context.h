@@ -462,6 +462,10 @@ GLuint
 viewElemOffset
 =
 0
+GLuint
+viewElemLengthOverride
+=
+0
 )
 {
 const
@@ -486,6 +490,7 @@ src
 (
 anySrc
 viewElemOffset
+viewElemLengthOverride
 )
 ;
 CompressedTexImage
@@ -537,6 +542,10 @@ GLuint
 viewElemOffset
 =
 0
+GLuint
+viewElemLengthOverride
+=
+0
 )
 {
 const
@@ -561,6 +570,7 @@ src
 (
 anySrc
 viewElemOffset
+viewElemLengthOverride
 )
 ;
 CompressedTexSubImage
