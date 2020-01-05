@@ -2300,7 +2300,6 @@ ImageBitmap
 ExtensionsEnabled
 (
 aCx
-nullptr
 )
 )
 {

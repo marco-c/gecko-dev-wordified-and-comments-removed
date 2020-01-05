@@ -495,6 +495,8 @@ aCx
 JSObject
 *
 aObj
+=
+nullptr
 )
 ;
 friend

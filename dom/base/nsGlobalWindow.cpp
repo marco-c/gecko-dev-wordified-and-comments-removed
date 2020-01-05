@@ -62836,7 +62836,6 @@ ImageBitmap
 ExtensionsEnabled
 (
 aCx
-nullptr
 )
 )
 {
