@@ -243,6 +243,7 @@ CompositableChild
 *
 aCompositable
 )
+override
 ;
 bool
 DestroyInTransaction
