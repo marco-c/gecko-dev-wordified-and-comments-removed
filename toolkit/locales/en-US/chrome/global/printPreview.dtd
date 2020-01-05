@@ -429,6 +429,16 @@ Page
 ENTITY
 simplifyPage
 .
+accesskey
+"
+i
+"
+>
+<
+!
+ENTITY
+simplifyPage
+.
 enabled
 .
 tooltip

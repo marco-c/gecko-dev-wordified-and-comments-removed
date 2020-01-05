@@ -1250,6 +1250,15 @@ disabled
 "
 true
 "
+accesskey
+=
+"
+&
+simplifyPage
+.
+accesskey
+;
+"
 tooltiptext
 -
 disabled
