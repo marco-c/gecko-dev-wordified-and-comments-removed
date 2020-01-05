@@ -456,13 +456,6 @@ h
 #
 include
 "
-AndroidUiThread
-.
-h
-"
-#
-include
-"
 android_npapi
 .
 h
@@ -16127,12 +16120,7 @@ APZThreadUtils
 :
 SetControllerThread
 (
-mozilla
-:
-:
-GetAndroidUiThreadMessageLoop
-(
-)
+nullptr
 )
 ;
 }
