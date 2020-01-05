@@ -41,6 +41,14 @@ MPL
 #
 !
 [
+allow
+(
+non_snake_case
+)
+]
+#
+!
+[
 feature
 (
 phase
