@@ -8993,7 +8993,7 @@ loc
 >
 mLoc
 numElementsToUpload
-false
+transpose
 elemBytes
 )
 ;
