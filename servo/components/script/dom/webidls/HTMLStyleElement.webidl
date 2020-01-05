@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlstyleelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLStyleElement
 :

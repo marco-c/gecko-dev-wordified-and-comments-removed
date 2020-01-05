@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlselectelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLSelectElement
 :

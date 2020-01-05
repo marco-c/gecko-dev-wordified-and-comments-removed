@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlpreelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLPreElement
 :

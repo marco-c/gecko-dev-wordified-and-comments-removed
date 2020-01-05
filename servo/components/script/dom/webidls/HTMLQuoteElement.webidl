@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlquoteelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLQuoteElement
 :

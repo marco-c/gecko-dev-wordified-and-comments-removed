@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlprogresselement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLProgressElement
 :

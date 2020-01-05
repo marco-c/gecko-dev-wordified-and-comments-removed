@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlparagraphelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLParagraphElement
 :
