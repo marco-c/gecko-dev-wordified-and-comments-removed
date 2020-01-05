@@ -606,6 +606,17 @@ color
 }
 }
 }
+ColorInt
+public
+int
+getTextPrimaryColor
+(
+)
+{
+return
+mTextPrimaryColor
+;
+}
 UiThread
 private
 void
