@@ -1682,6 +1682,13 @@ _buildGUIDMap
 )
 {
 let
+store
+=
+this
+.
+_store
+;
+let
 guidMap
 =
 {
@@ -1752,6 +1759,13 @@ tree
 children
 )
 {
+store
+.
+_sleep
+(
+0
+)
+;
 yield
 *
 walkBookmarksTree
