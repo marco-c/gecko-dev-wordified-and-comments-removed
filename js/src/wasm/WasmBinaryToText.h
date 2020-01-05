@@ -34,7 +34,7 @@ include
 "
 wasm
 /
-WasmGeneratedSourceMap
+WasmCode
 .
 h
 "

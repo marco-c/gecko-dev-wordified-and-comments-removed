@@ -31,10 +31,11 @@ js
 ;
 using
 namespace
-js
-:
-:
 jit
+;
+using
+namespace
+wasm
 ;
 using
 mozilla
@@ -48,9 +49,6 @@ size_t
 base
 >
 bool
-js
-:
-:
 wasm
 :
 :
@@ -146,9 +144,6 @@ true
 }
 template
 bool
-js
-:
-:
 wasm
 :
 :
@@ -170,9 +165,6 @@ class
 T
 >
 bool
-js
-:
-:
 wasm
 :
 :
@@ -320,9 +312,6 @@ payload
 template
 MOZ_MUST_USE
 bool
-js
-:
-:
 wasm
 :
 :
@@ -341,9 +330,6 @@ num
 template
 MOZ_MUST_USE
 bool
-js
-:
-:
 wasm
 :
 :
