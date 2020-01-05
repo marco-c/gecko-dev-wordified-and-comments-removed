@@ -1708,11 +1708,6 @@ function
 (
 )
 {
-let
-callbackCount
-=
-0
-;
 this
 .
 testNotif1
