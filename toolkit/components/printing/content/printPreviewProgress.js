@@ -516,10 +516,6 @@ registerListener
 progressListener
 )
 ;
-moveToAlertPosition
-(
-)
-;
 window
 .
 setTimeout
