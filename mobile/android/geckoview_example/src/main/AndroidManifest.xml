@@ -96,6 +96,13 @@ label
 "
 GeckoViewActivity
 "
+android
+:
+launchMode
+=
+"
+singleTop
+"
 >
 <
 intent
