@@ -458,13 +458,15 @@ mozilla
 TimeStamp
 sStartTime
 ;
+static
 int
-sFrameNumber
+gFrameNumber
 =
 0
 ;
+static
 int
-sLastFrameNumber
+gLastFrameNumber
 =
 0
 ;
@@ -4621,7 +4623,7 @@ NS_IsMainThread
 )
 )
 ;
-sFrameNumber
+gFrameNumber
 =
 frameNumber
 ;
