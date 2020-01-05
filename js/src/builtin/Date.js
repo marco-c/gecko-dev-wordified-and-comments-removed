@@ -66,9 +66,9 @@ RuntimeDefaultLocale
 )
 ;
 var
-icuDefaultTimeZone
+localTZA
 =
-intl_defaultTimeZone
+LocalTZA
 (
 )
 ;
@@ -88,11 +88,11 @@ runtimeDefaultLocale
 |
 dateTimeFormatCache
 .
-icuDefaultTimeZone
+localTZA
 !
 =
 =
-icuDefaultTimeZone
+localTZA
 )
 {
 formatters
@@ -114,9 +114,9 @@ runtimeDefaultLocale
 ;
 dateTimeFormatCache
 .
-icuDefaultTimeZone
+localTZA
 =
-icuDefaultTimeZone
+localTZA
 ;
 }
 else
