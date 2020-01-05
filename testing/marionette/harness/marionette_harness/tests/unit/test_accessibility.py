@@ -294,7 +294,7 @@ def
 setup_accessibility
 (
 self
-raisesAccessibilityExceptions
+enable_a11y_checks
 =
 True
 navigate
@@ -317,13 +317,14 @@ marionette
 .
 start_session
 (
-            
 {
 "
-raisesAccessibilityExceptions
+moz
+:
+accessibilityChecks
 "
 :
-raisesAccessibilityExceptions
+enable_a11y_checks
 }
 )
         
