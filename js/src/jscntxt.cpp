@@ -772,6 +772,13 @@ maxNurseryBytes
 )
 )
 {
+runtime
+-
+>
+destroyRuntime
+(
+)
+;
 js_delete
 (
 cx
@@ -801,6 +808,13 @@ Cooperative
 )
 )
 {
+runtime
+-
+>
+destroyRuntime
+(
+)
+;
 js_delete
 (
 cx
