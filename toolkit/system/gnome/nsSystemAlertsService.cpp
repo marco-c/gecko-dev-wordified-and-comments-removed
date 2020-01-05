@@ -61,8 +61,9 @@ nsSystemAlertsService
 nsSystemAlertsService
 (
 )
-{
-}
+=
+default
+;
 nsSystemAlertsService
 :
 :
@@ -70,8 +71,9 @@ nsSystemAlertsService
 nsSystemAlertsService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsSystemAlertsService
 :
