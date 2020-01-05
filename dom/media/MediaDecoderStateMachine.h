@@ -1306,11 +1306,6 @@ GetDecodedAudioDuration
 )
 ;
 void
-MaybeFinishDecodeFirstFrame
-(
-)
-;
-void
 FinishDecodeFirstFrame
 (
 )
