@@ -449,7 +449,7 @@ contentAreaContextMenu
 return
 cm_el
 .
-get_property
+get_attribute
 (
 "
 state
@@ -837,7 +837,7 @@ assertEqual
 "
 urlbar
 .
-get_property
+get_attribute
 (
 "
 value
@@ -858,7 +858,7 @@ assertEqual
 (
 urlbar
 .
-get_property
+get_attribute
 (
 "
 value
@@ -908,7 +908,7 @@ assertEqual
 (
 urlbar
 .
-get_property
+get_attribute
 (
 "
 value
@@ -961,7 +961,7 @@ tabContextMenu
 return
 cm_el
 .
-get_property
+get_attribute
 (
 "
 state
