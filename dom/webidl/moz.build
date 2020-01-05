@@ -682,11 +682,6 @@ DOMTokenList
 webidl
 '
 '
-Downloads
-.
-webidl
-'
-'
 DragEvent
 .
 webidl
@@ -1638,11 +1633,6 @@ webidl
 '
 '
 MozSelfSupport
-.
-webidl
-'
-'
-MozTetheringManager
 .
 webidl
 '
@@ -3435,11 +3425,6 @@ webidl
 '
 '
 DeviceStorageChangeEvent
-.
-webidl
-'
-'
-DownloadEvent
 .
 webidl
 '
