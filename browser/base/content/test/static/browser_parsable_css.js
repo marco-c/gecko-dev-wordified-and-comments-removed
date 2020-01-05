@@ -455,7 +455,15 @@ push
 sourceName
 :
 /
+(
+?
+:
 res
+|
+gre
+-
+resources
+)
 \
 /
 (
