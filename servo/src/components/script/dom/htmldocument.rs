@@ -193,10 +193,6 @@ HTML
 let
 compartment
 =
-unsafe
-{
-(
-*
 window
 .
 get_ref
@@ -204,7 +200,6 @@ get_ref
 )
 .
 page
-)
 .
 js_info
 .
@@ -213,7 +208,6 @@ get_ref
 )
 .
 js_compartment
-}
 ;
 AbstractDocument
 :
@@ -259,14 +253,9 @@ get_ref
 let
 cx
 =
-unsafe
-{
-(
-*
 win
 .
 page
-)
 .
 js_info
 .
@@ -279,7 +268,6 @@ js_compartment
 cx
 .
 ptr
-}
 ;
 let
 cache
