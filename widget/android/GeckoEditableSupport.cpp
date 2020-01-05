@@ -3653,6 +3653,10 @@ status
 }
 if
 (
+!
+mDispatcher
+|
+|
 widget
 -
 >
@@ -3712,6 +3716,10 @@ status
 ;
 if
 (
+!
+mDispatcher
+|
+|
 widget
 -
 >
@@ -3781,6 +3789,10 @@ eKeyDown
 ;
 if
 (
+!
+mDispatcher
+|
+|
 widget
 -
 >
@@ -3855,6 +3867,10 @@ string
 }
 if
 (
+!
+mDispatcher
+|
+|
 widget
 -
 >
