@@ -527,13 +527,6 @@ codeOnFailure
 isOptional
 =
 False
-                 
-preUnwrapped
-=
-None
-postUnwrapped
-=
-None
 )
 :
         
@@ -541,26 +534,6 @@ assert
 descriptor
 .
 castable
-        
-unwrappedVal
-=
-"
-val
-"
-        
-if
-preUnwrapped
-or
-postUnwrapped
-:
-            
-unwrappedVal
-=
-preUnwrapped
-+
-unwrappedVal
-+
-postUnwrapped
         
 self
 .
@@ -659,21 +632,18 @@ define
 unwrapped_val
 "
 :
-(
 "
 Some
 (
-%
-s
+val
 )
 "
-%
-unwrappedVal
-)
 if
 isOptional
 else
-unwrappedVal
+"
+val
+"
                               
 "
 unwrapFn
@@ -2682,14 +2652,6 @@ sourceDescription
 "
 value
 "
-                                    
-preSuccess
-=
-None
-                                    
-postSuccess
-=
-None
 )
 :
     
@@ -3543,69 +3505,22 @@ return
 template
         
 return
-CGWrapper
+CGIfElseWrapper
 (
-            
-CGIndenter
-(
+"
+{
+haveValue
+}
+"
+                               
 CGGeneric
 (
 template
 )
-)
-            
-pre
-=
-"
-if
-{
-haveValue
-}
-{
-\
-n
-"
-            
-post
-=
-(
-"
-\
-n
-"
-                  
-"
-}
-else
-{
-\
-n
-"
-                  
-"
-%
-s
-;
-\
-n
-"
-                  
-"
-}
-"
-%
-                  
-CGIndenter
-(
+                               
 CGGeneric
 (
 setDefault
-)
-)
-.
-define
-(
-)
 )
 )
 .
@@ -3669,7 +3584,6 @@ templateBody
 isDefinitelyObject
 type
                            
-codeToSetNull
 failureCode
 =
 None
@@ -3752,14 +3666,15 @@ n
 "
                     
 "
-%
-s
+{
+declName
+}
+=
+None
 ;
 \
 n
 "
-%
-codeToSetNull
 )
             
 templateBody
@@ -3807,7 +3722,14 @@ templateBody
 handleDefaultNull
 (
 templateBody
-codeToSetNull
+"
+{
+declName
+}
+=
+None
+;
+"
 )
             
 else
@@ -4098,6 +4020,7 @@ declName
 }
 =
 None
+;
 "
 )
         
@@ -4223,14 +4146,6 @@ wrapObjectTemplate
 conversion
 isDefinitelyObject
 type
-                                          
-"
-{
-declName
-}
-=
-None
-"
                                           
 failureCode
 )
@@ -4359,13 +4274,6 @@ type
 nullable
 (
 )
-                        
-preUnwrapped
-=
-preSuccess
-postUnwrapped
-=
-postSuccess
 )
 )
             
@@ -4557,14 +4465,6 @@ templateBody
 isDefinitelyObject
                                           
 type
-"
-{
-declName
-}
-=
-None
-"
-                                          
 failureCode
 )
         
@@ -4863,6 +4763,7 @@ declName
 SetNull
 (
 )
+;
 "
 )
             
@@ -4938,6 +4839,7 @@ declName
 =
 %
 s
+;
 "
 %
                 
@@ -5668,6 +5570,7 @@ declName
 NullValue
 (
 )
+;
 "
 )
         
@@ -6001,26 +5904,6 @@ return
 0
 '
     
-successVal
-=
-"
-v
-"
-    
-if
-preSuccess
-or
-postSuccess
-:
-        
-successVal
-=
-preSuccess
-+
-successVal
-+
-postSuccess
-    
 template
 =
 (
@@ -6055,8 +5938,7 @@ v
 declName
 }
 =
-%
-s
+v
 \
 n
 "
@@ -6080,10 +5962,7 @@ n
 }
 "
 %
-(
-successVal
 exceptionCode
-)
 )
     
 declType
@@ -6247,44 +6126,21 @@ defaultStr
         
 template
 =
-CGWrapper
+CGIfElseWrapper
 (
-CGIndenter
-(
+"
+{
+haveValue
+}
+"
+                                   
 CGGeneric
 (
 template
 )
-)
-                             
-pre
-=
-"
-if
-{
-haveValue
-}
-{
-\
-n
-"
-                             
-post
-=
+                                   
+CGGeneric
 (
-"
-\
-n
-"
-                                   
-"
-}
-else
-{
-\
-n
-"
-                                   
 "
 {
 declName
@@ -6293,12 +6149,6 @@ declName
 %
 s
 ;
-\
-n
-"
-                                   
-"
-}
 "
 %
 defaultStr
@@ -8750,7 +8600,13 @@ isVoid
 :
         
 return
-None
+CGGeneric
+(
+"
+(
+)
+"
+)
     
 if
 returnType
@@ -18786,9 +18642,6 @@ object
 "
 this
 "
-declareResult
-=
-True
 )
 :
         
@@ -19122,25 +18975,11 @@ prepend
 CGWrapper
 (
 result
-if
-result
-is
-not
-None
-else
-CGGeneric
-(
-"
-(
-)
-"
-)
                 
 pre
 =
 "
 let
-mut
 result_fallible
 :
 Result
@@ -19156,15 +18995,6 @@ Error
 )
 )
         
-if
-result
-is
-not
-None
-and
-declareResult
-:
-            
 result
 =
 CGWrapper
@@ -19174,7 +19004,6 @@ pre
 =
 "
 let
-mut
 result
 :
 "
@@ -19184,7 +19013,7 @@ post
 ;
 "
 )
-            
+        
 self
 .
 cgRoot
@@ -19211,26 +19040,6 @@ result_fallible
 "
 )
         
-elif
-result
-is
-not
-None
-:
-            
-call
-=
-CGWrapper
-(
-call
-pre
-=
-"
-result
-=
-"
-)
-        
 else
 :
             
@@ -19242,11 +19051,7 @@ call
 pre
 =
 "
-let
-_
-:
-(
-)
+result
 =
 "
 )
@@ -19317,13 +19122,6 @@ CGGeneric
 )
 )
             
-if
-result
-is
-not
-None
-:
-                
 self
 .
 cgRoot
@@ -39203,16 +39001,6 @@ std
 :
 :
 num
-'
-            
-'
-std
-:
-:
-intrinsics
-:
-:
-uninit
 '
         
 ]
