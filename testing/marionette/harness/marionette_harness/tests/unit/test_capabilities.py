@@ -1005,6 +1005,30 @@ platformName
         
 self
 .
+delete_session
+(
+)
+    
+def
+delete_session
+(
+self
+)
+:
+        
+if
+self
+.
+marionette
+.
+session
+is
+not
+None
+:
+            
+self
+.
 marionette
 .
 delete_session
@@ -1126,8 +1150,6 @@ allowed
             
 self
 .
-marionette
-.
 delete_session
 (
 )
@@ -1233,8 +1255,6 @@ allowed
 :
             
 self
-.
-marionette
 .
 delete_session
 (
@@ -1545,8 +1565,6 @@ allowed
             
 self
 .
-marionette
-.
 delete_session
 (
 )
@@ -1652,8 +1670,6 @@ allowed
 :
             
 self
-.
-marionette
 .
 delete_session
 (
@@ -1944,8 +1960,6 @@ value
         
 self
 .
-marionette
-.
 delete_session
 (
 )
@@ -1988,8 +2002,6 @@ acceptInsecureCerts
 )
         
 self
-.
-marionette
 .
 delete_session
 (
@@ -2071,8 +2083,6 @@ strategy
 )
             
 self
-.
-marionette
 .
 delete_session
 (
