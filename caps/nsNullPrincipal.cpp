@@ -385,6 +385,10 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 }
+FinishInit
+(
+)
+;
 return
 NS_OK
 ;

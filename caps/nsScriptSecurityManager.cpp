@@ -5457,8 +5457,10 @@ nsSystemPrincipal
 >
 system
 =
-new
 nsSystemPrincipal
+:
+:
+Create
 (
 )
 ;

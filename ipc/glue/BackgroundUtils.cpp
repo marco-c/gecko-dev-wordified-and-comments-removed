@@ -591,8 +591,10 @@ nsExpandedPrincipal
 >
 expandedPrincipal
 =
-new
 nsExpandedPrincipal
+:
+:
+Create
 (
 whitelist
 info

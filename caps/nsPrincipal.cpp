@@ -477,6 +477,10 @@ mOriginAttributes
 =
 aOriginAttributes
 ;
+FinishInit
+(
+)
+;
 return
 NS_OK
 ;
