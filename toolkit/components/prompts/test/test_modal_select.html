@@ -198,6 +198,18 @@ text
 javascript
 "
 >
+/
+*
+import
+-
+globals
+-
+from
+prompt_common
+.
+js
+*
+/
 let
 prompter
 =
@@ -370,10 +382,6 @@ selectVal
 let
 isOK
 ;
-let
-state
-action
-;
 function
 handlePrompt
 (
@@ -437,8 +445,6 @@ handlePrompt
 "
 {
 action
-:
-action
 isSelect
 :
 true
@@ -479,6 +485,7 @@ ok
 "
 )
 ;
+let
 state
 =
 {
@@ -503,6 +510,7 @@ items
 ]
 }
 ;
+let
 action
 =
 {
@@ -513,6 +521,7 @@ ok
 "
 }
 ;
+let
 promptDone
 =
 handlePrompt
@@ -521,6 +530,7 @@ state
 action
 )
 ;
+let
 items
 =
 [
@@ -625,6 +635,7 @@ ok
 "
 )
 ;
+let
 state
 =
 {
@@ -658,6 +669,7 @@ three
 ]
 }
 ;
+let
 action
 =
 {
@@ -668,6 +680,7 @@ ok
 "
 }
 ;
+let
 promptDone
 =
 handlePrompt
@@ -676,6 +689,7 @@ state
 action
 )
 ;
+let
 items
 =
 [
@@ -790,6 +804,7 @@ ok
 "
 )
 ;
+let
 state
 =
 {
@@ -823,6 +838,7 @@ three
 ]
 }
 ;
+let
 action
 =
 {
@@ -836,6 +852,7 @@ selectItem
 1
 }
 ;
+let
 promptDone
 =
 handlePrompt
@@ -844,6 +861,7 @@ state
 action
 )
 ;
+let
 items
 =
 [
@@ -956,6 +974,7 @@ cancel
 "
 )
 ;
+let
 state
 =
 {
@@ -989,6 +1008,7 @@ three
 ]
 }
 ;
+let
 action
 =
 {
@@ -999,6 +1019,7 @@ cancel
 "
 }
 ;
+let
 promptDone
 =
 handlePrompt
@@ -1007,6 +1028,7 @@ state
 action
 )
 ;
+let
 items
 =
 [
