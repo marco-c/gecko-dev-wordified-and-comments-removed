@@ -194,6 +194,9 @@ mod
 lexer_util
 ;
 mod
+parser_util
+;
+mod
 css_lexer
 ;
 mod

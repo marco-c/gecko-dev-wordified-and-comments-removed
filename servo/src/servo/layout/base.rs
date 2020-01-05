@@ -138,7 +138,10 @@ util
 color
 :
 :
+{
 Color
+css_colors
+}
 ;
 import
 text
@@ -153,7 +156,7 @@ style
 style
 :
 :
-computed_style
+SpecifiedStyle
 ;
 import
 text
@@ -203,10 +206,7 @@ let
 mut
 background_color
 :
-option
-<
 Color
->
 ;
 new
 (
@@ -222,7 +222,12 @@ self
 .
 background_color
 =
-none
+css_colors
+:
+:
+black
+(
+)
 ;
 }
 }
@@ -323,10 +328,10 @@ LayoutData
 =
 {
 mut
-computed_style
+specified_style
 :
 ~
-computed_style
+SpecifiedStyle
 mut
 box
 :

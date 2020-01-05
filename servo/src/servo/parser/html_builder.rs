@@ -131,14 +131,14 @@ dvec
 extensions
 ;
 enum
-css_message
+CSSMessage
 {
-file
+File
 (
 ~
 str
 )
-exit
+Exit
 }
 #
 [
@@ -574,7 +574,7 @@ from_parent
 :
 port
 <
-css_message
+CSSMessage
 >
 )
 {
@@ -595,7 +595,7 @@ recv
 (
 )
 {
-file
+File
 (
 filename
 )
@@ -656,7 +656,7 @@ css_stream
 css_lexer
 :
 :
-spawn_css_lexer_task
+spawn_css_lexer_from_file
 (
 filename
 )
@@ -690,7 +690,7 @@ result_port
 )
 ;
 }
-exit
+Exit
 {
 break
 ;
@@ -1157,7 +1157,7 @@ style_chan
 .
 send
 (
-file
+File
 (
 copy
 filename
@@ -1277,7 +1277,7 @@ style_chan
 .
 send
 (
-exit
+Exit
 )
 ;
 ret
