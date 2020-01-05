@@ -23163,7 +23163,10 @@ abortReason
 )
 =
 =
-AbortReason_Alloc
+AbortReason
+:
+:
+Alloc
 )
 {
 ReportOutOfMemory
@@ -24401,7 +24404,10 @@ abortReason
 )
 =
 =
-AbortReason_Alloc
+AbortReason
+:
+:
+Alloc
 )
 {
 ReportOutOfMemory

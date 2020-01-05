@@ -498,7 +498,10 @@ disable
 {
 abortReason_
 =
-AbortReason_Disable
+AbortReason
+:
+:
+Disable
 ;
 }
 AbortReason
