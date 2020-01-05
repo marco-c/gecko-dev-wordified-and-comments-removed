@@ -889,6 +889,10 @@ port
 nsIProxyInfo
 *
 proxy
+const
+nsACString
+&
+firstPartyDomain
 PRFileDesc
 *
 *
@@ -917,6 +921,10 @@ port
 nsIProxyInfo
 *
 proxy
+const
+nsACString
+&
+firstPartyDomain
 PRFileDesc
 *
 fd

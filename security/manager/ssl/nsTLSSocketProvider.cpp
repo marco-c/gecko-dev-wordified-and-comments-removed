@@ -83,6 +83,7 @@ family
 host
 port
 proxy
+firstPartyDomain
 _result
 securityInfo
 true
@@ -143,6 +144,7 @@ family
 host
 port
 proxy
+firstPartyDomain
 aSocket
 securityInfo
 true
