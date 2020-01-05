@@ -455,13 +455,6 @@ r3
 static
 constexpr
 Register
-GlobalReg
-=
-r10
-;
-static
-constexpr
-Register
 HeapReg
 =
 r11
@@ -884,13 +877,6 @@ ScratchDoubleReg
 {
 }
 }
-;
-static
-const
-int32_t
-WasmGlobalRegBias
-=
-1024
 ;
 static
 constexpr

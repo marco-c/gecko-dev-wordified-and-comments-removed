@@ -5045,6 +5045,8 @@ JSContext
 cx
 UniqueCode
 code
+UniqueGlobalSegment
+globals
 HandleWasmMemoryObject
 memory
 SharedTableVector
@@ -5257,6 +5259,10 @@ obj
 Move
 (
 code
+)
+Move
+(
+globals
 )
 memory
 Move
