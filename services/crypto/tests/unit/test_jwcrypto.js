@@ -293,7 +293,7 @@ kpo
 undefined
 )
 ;
-do_print
+log
 (
 kpo
 .
@@ -364,7 +364,7 @@ kpo
 undefined
 )
 ;
-do_print
+log
 (
 kpo
 .

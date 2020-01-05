@@ -262,7 +262,7 @@ default
 :
 throw
 new
-Error
+InputException
 (
 "
 Illegal
