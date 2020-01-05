@@ -6169,10 +6169,14 @@ JS_BITS_PER_WORD
 =
 =
 32
+protected
+:
 void
 *
 padding_
 ;
+private
+:
 #
 endif
 Frame
