@@ -259,8 +259,6 @@ if
 (
 !
 frames
-.
-toJS
 )
 {
 return
