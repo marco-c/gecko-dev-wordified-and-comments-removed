@@ -4472,11 +4472,6 @@ Apps
 webidl
 '
 '
-Identity
-.
-webidl
-'
-'
 MozApplicationEvent
 .
 webidl
