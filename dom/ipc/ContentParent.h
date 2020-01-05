@@ -2626,11 +2626,6 @@ nsAString
 aRemoteType
 )
 ;
-void
-InitializeMembers
-(
-)
-;
 bool
 LaunchSubprocess
 (
