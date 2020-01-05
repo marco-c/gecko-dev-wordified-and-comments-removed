@@ -5044,7 +5044,7 @@ rv
 }
 mReferrerPolicy
 =
-REFERRER_POLICY_NO_REFERRER_WHEN_DOWNGRADE
+referrerPolicy
 ;
 if
 (
@@ -5064,10 +5064,6 @@ referrerPolicy
 REFERRER_POLICY_NO_REFERRER
 )
 {
-mReferrerPolicy
-=
-REFERRER_POLICY_NO_REFERRER
-;
 return
 NS_OK
 ;
@@ -6237,10 +6233,6 @@ rv
 mReferrer
 =
 clone
-;
-mReferrerPolicy
-=
-referrerPolicy
 ;
 return
 NS_OK

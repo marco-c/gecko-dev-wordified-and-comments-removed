@@ -374,6 +374,10 @@ RequestHeaderTuples
 changedHeaders
 uint32_t
 loadFlags
+uint32_t
+referrerPolicy
+OptionalURIParams
+referrerUri
 OptionalURIParams
 apiRedirectTo
 OptionalCorsPreflightArgs
