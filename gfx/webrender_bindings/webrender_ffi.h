@@ -1387,14 +1387,8 @@ WrRect
 bounds
 WrRect
 clip
-float
-r
-float
-g
-float
-b
-float
-a
+WrColor
+color
 )
 WR_FUNC
 ;

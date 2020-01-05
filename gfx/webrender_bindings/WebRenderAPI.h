@@ -461,10 +461,7 @@ WrRect
 &
 aClip
 const
-gfx
-:
-:
-Color
+WrColor
 &
 aColor
 )
