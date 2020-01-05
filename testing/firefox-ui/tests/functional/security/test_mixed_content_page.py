@@ -152,7 +152,7 @@ locationbar
 .
 identity_box
 .
-get_attribute
+get_property
 (
 '
 className

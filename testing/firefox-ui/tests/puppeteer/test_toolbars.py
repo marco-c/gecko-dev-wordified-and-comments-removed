@@ -150,7 +150,7 @@ navbar
 .
 back_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -171,7 +171,7 @@ navbar
 .
 forward_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -192,7 +192,7 @@ navbar
 .
 home_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -213,7 +213,7 @@ navbar
 .
 menu_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -234,7 +234,7 @@ navbar
 .
 toolbar
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -662,7 +662,7 @@ locationbar
 .
 urlbar
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -688,7 +688,7 @@ locationbar
 .
 urlbar_input
 .
-get_attribute
+get_property
 (
 '
 className
@@ -706,7 +706,7 @@ locationbar
 .
 connection_icon
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -727,7 +727,7 @@ locationbar
 .
 identity_box
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -748,7 +748,7 @@ locationbar
 .
 identity_country_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -770,7 +770,7 @@ locationbar
 .
 identity_organization_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -792,7 +792,7 @@ locationbar
 .
 identity_icon
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -813,7 +813,7 @@ locationbar
 .
 history_drop_marker
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -835,7 +835,7 @@ locationbar
 .
 reload_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -857,7 +857,7 @@ locationbar
 .
 stop_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -879,7 +879,7 @@ locationbar
 .
 contextmenu
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1308,7 +1308,7 @@ int
 (
 results
 .
-get_attribute
+get_property
 (
 '
 itemCount
@@ -1780,7 +1780,7 @@ main
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1799,7 +1799,7 @@ main
 .
 expander
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1818,7 +1818,7 @@ main
 .
 host
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1837,7 +1837,7 @@ main
 .
 insecure_connection_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1857,7 +1857,7 @@ main
 .
 internal_connection_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1877,7 +1877,7 @@ main
 .
 secure_connection_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1897,7 +1897,7 @@ main
 .
 permissions
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1926,7 +1926,7 @@ security
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1945,7 +1945,7 @@ security
 .
 host
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1964,7 +1964,7 @@ security
 .
 insecure_connection_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1984,7 +1984,7 @@ security
 .
 secure_connection_label
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -2004,7 +2004,7 @@ security
 .
 owner
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -2023,7 +2023,7 @@ security
 .
 owner_location
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -2042,7 +2042,7 @@ security
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -2061,7 +2061,7 @@ security
 .
 disable_mixed_content_blocking_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -2081,7 +2081,7 @@ security
 .
 enable_mixed_content_blocking_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -2101,7 +2101,7 @@ security
 .
 more_info_button
 .
-get_attribute
+get_property
 (
 '
 localName

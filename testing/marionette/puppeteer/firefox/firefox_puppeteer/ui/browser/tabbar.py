@@ -344,7 +344,7 @@ self
 .
 toolbar
 .
-get_attribute
+get_property
 (
 '
 selectedIndex

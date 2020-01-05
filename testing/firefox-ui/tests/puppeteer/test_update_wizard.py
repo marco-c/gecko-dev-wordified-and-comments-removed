@@ -247,7 +247,7 @@ wizard
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -301,7 +301,7 @@ wizard
 button
 )
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -374,7 +374,7 @@ panel
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -398,7 +398,7 @@ checking
 .
 progress
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -422,7 +422,7 @@ downloading
 .
 progress
 .
-get_attribute
+get_property
 (
 '
 localName

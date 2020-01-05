@@ -114,7 +114,7 @@ deck
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -137,7 +137,7 @@ feed
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -160,7 +160,7 @@ general
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -183,7 +183,7 @@ media
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -206,7 +206,7 @@ permissions
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -240,7 +240,7 @@ panel
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -259,7 +259,7 @@ panel
 .
 domain
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -278,7 +278,7 @@ panel
 .
 owner
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -297,7 +297,7 @@ panel
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -316,7 +316,7 @@ panel
 .
 view_certificate
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -335,7 +335,7 @@ panel
 .
 view_cookies
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -354,7 +354,7 @@ panel
 .
 view_passwords
 .
-get_attribute
+get_property
 (
 '
 localName

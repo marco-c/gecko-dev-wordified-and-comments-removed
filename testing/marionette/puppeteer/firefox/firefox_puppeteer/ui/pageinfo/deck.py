@@ -584,7 +584,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 selectedIndex
@@ -793,7 +793,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 id

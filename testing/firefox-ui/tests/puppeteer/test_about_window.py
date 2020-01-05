@@ -157,7 +157,7 @@ deck
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -184,7 +184,7 @@ panel
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -203,7 +203,7 @@ panel
 .
 button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -230,7 +230,7 @@ panel
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -249,7 +249,7 @@ panel
 .
 button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -272,7 +272,7 @@ checking_for_updates
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -299,7 +299,7 @@ panel
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -318,7 +318,7 @@ panel
 .
 button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -341,7 +341,7 @@ download_failed
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -364,7 +364,7 @@ downloading
 .
 element
 .
-get_attribute
+get_property
 (
 '
 localName
