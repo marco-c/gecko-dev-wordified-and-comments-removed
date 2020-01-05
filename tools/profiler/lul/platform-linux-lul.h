@@ -31,13 +31,5 @@ char
 str
 )
 ;
-extern
-lul
-:
-:
-LUL
-*
-gLUL
-;
 #
 endif

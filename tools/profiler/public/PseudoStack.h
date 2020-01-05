@@ -656,10 +656,6 @@ mStartJSSampling
 (
 false
 )
-mPrivacyMode
-(
-false
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -1358,11 +1354,6 @@ private
 :
 bool
 mStartJSSampling
-;
-public
-:
-bool
-mPrivacyMode
 ;
 }
 ;

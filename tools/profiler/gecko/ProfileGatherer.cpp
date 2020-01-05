@@ -113,9 +113,11 @@ ProfileGatherer
 :
 GatheredOOPProfile
 (
+PSLockRef
+aLock
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -161,6 +163,7 @@ mPendingProfiles
 {
 Finish
 (
+aLock
 )
 ;
 }
@@ -184,6 +187,8 @@ ProfileGatherer
 :
 Start
 (
+PSLockRef
+aLock
 double
 aSinceTime
 Promise
@@ -191,7 +196,7 @@ Promise
 aPromise
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -226,6 +231,7 @@ aPromise
 ;
 Start2
 (
+aLock
 aSinceTime
 )
 ;
@@ -236,6 +242,8 @@ ProfileGatherer
 :
 Start
 (
+PSLockRef
+aLock
 double
 aSinceTime
 const
@@ -244,7 +252,7 @@ nsACString
 aFileName
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -300,6 +308,7 @@ file
 ;
 Start2
 (
+aLock
 aSinceTime
 )
 ;
@@ -310,10 +319,19 @@ ProfileGatherer
 :
 Start2
 (
+PSLockRef
+aLock
 double
 aSinceTime
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mSinceTime
 =
 aSinceTime
@@ -418,6 +436,7 @@ mPendingProfiles
 {
 Finish
 (
+aLock
 )
 ;
 }
@@ -428,9 +447,11 @@ ProfileGatherer
 :
 Finish
 (
+PSLockRef
+aLock
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -455,6 +476,7 @@ buf
 =
 ToJSON
 (
+aLock
 mSinceTime
 )
 ;

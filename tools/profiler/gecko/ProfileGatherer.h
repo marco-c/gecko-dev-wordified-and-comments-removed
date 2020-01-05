@@ -22,6 +22,13 @@ nsIFile
 .
 h
 "
+#
+include
+"
+platform
+.
+h
+"
 namespace
 mozilla
 {
@@ -49,11 +56,15 @@ WillGatherOOPProfile
 void
 GatheredOOPProfile
 (
+PSLockRef
+aLock
 )
 ;
 void
 Start
 (
+PSLockRef
+aLock
 double
 aSinceTime
 mozilla
@@ -70,6 +81,8 @@ aPromise
 void
 Start
 (
+PSLockRef
+aLock
 double
 aSinceTime
 const
@@ -104,6 +117,8 @@ ProfileGatherer
 void
 Finish
 (
+PSLockRef
+aLock
 )
 ;
 void
@@ -114,6 +129,8 @@ Reset
 void
 Start2
 (
+PSLockRef
+aLock
 double
 aSinceTime
 )
