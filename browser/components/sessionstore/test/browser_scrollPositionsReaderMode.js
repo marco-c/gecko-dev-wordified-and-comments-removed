@@ -202,11 +202,6 @@ closeWindow
 newWin
 )
 ;
-yield
-forceSaveState
-(
-)
-;
 newWin
 =
 ss
