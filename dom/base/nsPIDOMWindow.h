@@ -1557,6 +1557,7 @@ DocGroup
 GetDocGroup
 (
 )
+const
 ;
 virtual
 mozilla
