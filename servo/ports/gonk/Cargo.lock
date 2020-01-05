@@ -12170,7 +12170,7 @@ version
 .
 1
 .
-0
+1
 "
 source
 =
@@ -12191,7 +12191,7 @@ rust
 -
 mozjs
 #
-8fabaf877224fdd7a33286c5de2a99189aae5524
+e2458c40432119693456c73ac0710ff182cfc6d2
 "
 dependencies
 =
@@ -15635,6 +15635,14 @@ io
 -
 index
 )
+"
+"
+msg
+0
+.
+0
+.
+1
 "
 "
 net_traits
@@ -19874,7 +19882,7 @@ js
 .
 1
 .
-0
+1
 (
 git
 +
@@ -25568,7 +25576,7 @@ js
 .
 1
 .
-0
+1
 (
 git
 +
