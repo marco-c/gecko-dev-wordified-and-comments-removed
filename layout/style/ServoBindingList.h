@@ -491,8 +491,8 @@ set
 mozilla
 :
 :
-SkipRootBehavior
-skip_root
+TraversalRootBehavior
+root_behavior
 )
 SERVO_BINDING_FUNC
 (

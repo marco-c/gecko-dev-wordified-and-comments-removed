@@ -103,10 +103,10 @@ Assert
 ;
 enum
 class
-SkipRootBehavior
+TraversalRootBehavior
 {
-Skip
-DontSkip
+Normal
+UnstyledChildrenOnly
 }
 ;
 }
