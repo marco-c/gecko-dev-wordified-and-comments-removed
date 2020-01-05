@@ -235,7 +235,7 @@ n
 info
 (
 "
-Recieved
+Received
 onSecurityChange
 event
 "
