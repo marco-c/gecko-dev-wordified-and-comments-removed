@@ -1087,6 +1087,17 @@ initializeWithCurrentIdentity
 (
 )
 ;
+await
+ns
+.
+Service
+.
+identity
+.
+whenReadyToAuthenticate
+.
+promise
+;
 if
 (
 config

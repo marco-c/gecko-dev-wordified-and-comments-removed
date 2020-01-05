@@ -104,7 +104,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -853,7 +853,7 @@ this
 .
 whenReadyToAuthenticate
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -2404,7 +2404,7 @@ token
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
