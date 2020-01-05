@@ -76,7 +76,7 @@ namespace
 media
 {
 class
-DecodedAudioDataSink
+AudioSink
 ;
 class
 AudioSinkWrapper
@@ -97,7 +97,7 @@ Creator
 {
 }
 virtual
-DecodedAudioDataSink
+AudioSink
 *
 Create
 (
@@ -135,7 +135,7 @@ aFunc
 )
 {
 }
-DecodedAudioDataSink
+AudioSink
 *
 Create
 (
@@ -385,7 +385,7 @@ mCreator
 ;
 RefPtr
 <
-DecodedAudioDataSink
+AudioSink
 >
 mAudioSink
 ;
