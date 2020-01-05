@@ -461,7 +461,7 @@ mEnvironmentReferrerPolicy
 net
 :
 :
-RP_Default
+RP_Unset
 )
 mMode
 (
@@ -617,7 +617,7 @@ mEnvironmentReferrerPolicy
 net
 :
 :
-RP_Default
+RP_Unset
 )
 mMode
 (
