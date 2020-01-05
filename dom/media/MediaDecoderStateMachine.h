@@ -1736,9 +1736,10 @@ mPlaybackRate
 ;
 }
 bool
-mIsPrerolling
-=
-false
+mIsAudioPrerolling
+;
+bool
+mIsVideoPrerolling
 ;
 MediaEventListener
 mAudioCallback
