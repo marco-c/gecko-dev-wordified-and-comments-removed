@@ -719,6 +719,13 @@ String
 >
 >
 )
+NodeStatus
+(
+Option
+<
+String
+>
+)
 }
 #
 [

@@ -581,6 +581,17 @@ Url
 )
 ;
 fn
+status
+(
+&
+self
+Option
+<
+String
+>
+)
+;
+fn
 load_start
 (
 &
