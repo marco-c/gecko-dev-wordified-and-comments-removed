@@ -1361,6 +1361,12 @@ GetMaskFrames
 )
 ;
 bool
+MightHaveNoneSVGMask
+(
+)
+const
+;
+bool
 HasValidFilter
 (
 )
