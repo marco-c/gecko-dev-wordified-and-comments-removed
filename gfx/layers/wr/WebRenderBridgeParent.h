@@ -964,6 +964,14 @@ return
 mIdNameSpace
 ;
 }
+const
+WebRenderScrollData
+&
+GetScrollData
+(
+)
+const
+;
 private
 :
 virtual
@@ -1256,6 +1264,9 @@ mPaused
 ;
 bool
 mDestroyed
+;
+WebRenderScrollData
+mScrollData
 ;
 static
 uint32_t
