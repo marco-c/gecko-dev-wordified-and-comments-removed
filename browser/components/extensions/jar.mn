@@ -270,6 +270,15 @@ browser
 /
 ext
 -
+theme
+.
+js
+content
+/
+browser
+/
+ext
+-
 url
 -
 overrides
