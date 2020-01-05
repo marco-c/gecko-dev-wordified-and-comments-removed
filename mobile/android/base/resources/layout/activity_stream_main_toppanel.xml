@@ -434,6 +434,13 @@ layout_alignParentStart
 "
 true
 "
+android
+:
+layout_marginBottom
+=
+"
+6dp
+"
 /
 >
 <
