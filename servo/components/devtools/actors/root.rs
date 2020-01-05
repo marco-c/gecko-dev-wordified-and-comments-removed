@@ -23,7 +23,7 @@ use
 protocol
 :
 :
-JsonPacketSender
+JsonPacketStream
 ;
 use
 serialize

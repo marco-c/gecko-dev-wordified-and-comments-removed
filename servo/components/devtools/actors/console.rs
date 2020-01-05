@@ -11,7 +11,7 @@ use
 protocol
 :
 :
-JsonPacketSender
+JsonPacketStream
 ;
 use
 devtools_traits
