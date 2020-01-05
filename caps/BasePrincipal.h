@@ -329,6 +329,12 @@ IsFirstPartyEnabled
 ;
 static
 bool
+IsRestrictOpenerAccessForFPI
+(
+)
+;
+static
+bool
 IsPrivateBrowsing
 (
 const
