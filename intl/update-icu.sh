@@ -87,7 +87,7 @@ for
 ICU
 58
 .
-1
+2
 :
 update
 -
@@ -110,15 +110,15 @@ repos
 /
 icu
 /
-icu
-/
 tags
 /
 release
 -
 58
 -
-1
+2
+/
+icu4c
 /
 if
 [
