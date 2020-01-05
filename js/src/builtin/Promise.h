@@ -721,6 +721,14 @@ execute
 =
 0
 ;
+bool
+executeAndFinish
+(
+JSContext
+*
+cx
+)
+;
 }
 ;
 bool
