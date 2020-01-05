@@ -94,6 +94,17 @@ Value
 vp
 )
 ;
+static
+bool
+isBuiltinAdd
+(
+HandleValue
+add
+JSContext
+*
+cx
+)
+;
 }
 ;
 extern
