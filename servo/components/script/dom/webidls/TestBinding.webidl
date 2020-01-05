@@ -398,6 +398,9 @@ null
 ;
 }
 ;
+[
+Constructor
+]
 interface
 TestBinding
 {
@@ -2618,8 +2621,6 @@ TestEnum
 args
 )
 ;
-/
-/
 void
 passVariadicInterface
 (

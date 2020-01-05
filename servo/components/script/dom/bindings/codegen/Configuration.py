@@ -994,16 +994,6 @@ argumentType
             
 self
 .
-memberType
-=
-"
-?
-?
-?
-"
-            
-self
-.
 nativeType
 =
 ty
@@ -1045,28 +1035,13 @@ ifaceName
             
 self
 .
-memberType
-=
-"
-Root
-<
-%
-s
->
-"
-%
-ifaceName
-            
-self
-.
 nativeType
 =
 "
-Root
-<
+*
+const
 %
 s
->
 "
 %
 ifaceName
