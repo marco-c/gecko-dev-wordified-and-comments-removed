@@ -970,3 +970,15 @@ maxRecords
 1000
 )
 ;
+pref
+(
+"
+services
+.
+sync
+.
+maxResyncs
+"
+5
+)
+;
