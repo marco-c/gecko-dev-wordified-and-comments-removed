@@ -27,7 +27,7 @@ values
 :
 {
 BgColor
-BgTransparent
+BgColorTransparent
 Specified
 }
 ;

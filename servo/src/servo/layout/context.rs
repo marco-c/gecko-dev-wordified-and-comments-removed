@@ -60,6 +60,12 @@ ImageCacheTask
 doc_url
 :
 Url
+reflow_cb
+:
+fn
+~
+(
+)
 screen_size
 :
 Rect

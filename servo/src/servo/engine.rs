@@ -244,6 +244,7 @@ ContentTask
 layout_task
 compositor
 resource_task
+image_cache_task
 )
 ;
 Engine
