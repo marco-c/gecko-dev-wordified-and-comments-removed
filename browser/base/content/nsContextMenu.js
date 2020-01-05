@@ -7937,6 +7937,17 @@ gContextMenuContentData
 .
 documentURIObject
 ;
+let
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 if
 (
 this
@@ -7971,6 +7982,9 @@ true
 referrerURI
 :
 referrerURI
+originPrincipal
+:
+systemPrincipal
 }
 )
 ;
