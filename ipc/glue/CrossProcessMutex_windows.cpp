@@ -84,7 +84,7 @@ if
 mMutex
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 This
@@ -133,7 +133,7 @@ flags
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Attempt

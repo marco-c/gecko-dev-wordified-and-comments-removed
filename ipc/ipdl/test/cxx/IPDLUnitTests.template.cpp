@@ -435,7 +435,7 @@ n
 testString
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can
@@ -650,7 +650,7 @@ n
 testString
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

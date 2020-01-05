@@ -18526,7 +18526,7 @@ aXSocketFd
 #
 ifndef
 MOZ_X11
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 This

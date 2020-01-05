@@ -5788,7 +5788,7 @@ FALSE
 endif
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 cannot
@@ -5888,7 +5888,7 @@ peer_pid
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

@@ -2447,7 +2447,7 @@ if
 mBuffer
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Fix

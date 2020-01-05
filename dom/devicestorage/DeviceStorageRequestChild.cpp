@@ -760,7 +760,7 @@ GetId
 )
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not

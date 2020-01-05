@@ -94,7 +94,7 @@ if
 mCvar
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can

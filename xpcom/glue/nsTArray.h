@@ -406,7 +406,7 @@ FailureResult
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Infallible
@@ -437,7 +437,7 @@ if
 aValue
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 infallible

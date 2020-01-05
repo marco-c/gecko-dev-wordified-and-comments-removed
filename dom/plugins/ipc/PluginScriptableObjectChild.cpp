@@ -482,7 +482,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Huh
@@ -530,7 +530,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -608,7 +608,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -713,7 +713,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -873,7 +873,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -1092,7 +1092,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -1300,7 +1300,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -1454,7 +1454,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -1643,7 +1643,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -1833,7 +1833,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -1989,7 +1989,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -2281,7 +2281,7 @@ GetClass
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don

@@ -3092,7 +3092,7 @@ Dispatch
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 We
@@ -3144,7 +3144,7 @@ Dispatch
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 We

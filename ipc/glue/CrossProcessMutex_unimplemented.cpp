@@ -25,7 +25,7 @@ char
 *
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Cross
@@ -50,7 +50,7 @@ CrossProcessMutex
 CrossProcessMutexHandle
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Cross
@@ -75,7 +75,7 @@ CrossProcessMutex
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Cross
@@ -110,7 +110,7 @@ Lock
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Cross
@@ -145,7 +145,7 @@ Unlock
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Cross
@@ -185,7 +185,7 @@ ProcessId
 aTargetPid
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Cross

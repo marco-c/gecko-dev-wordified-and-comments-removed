@@ -90,7 +90,7 @@ flags
 oldflags
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

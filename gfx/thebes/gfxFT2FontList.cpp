@@ -5978,7 +5978,7 @@ Count
 0
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could

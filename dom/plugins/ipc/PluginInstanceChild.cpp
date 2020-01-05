@@ -663,7 +663,7 @@ if
 drawTarget
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 CreateDrawTargetForSurface
@@ -4648,7 +4648,7 @@ Shmem
 rtnmem
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -11734,7 +11734,7 @@ NPError
 result
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -11804,7 +11804,7 @@ AssertPluginThread
 (
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -14271,7 +14271,7 @@ return
 true
 ;
 }
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Shared
@@ -15330,7 +15330,7 @@ IsSharedDIBSurface
 curSurface
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Expected
@@ -15990,7 +15990,7 @@ paintEvent
 ;
 #
 else
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Surface
@@ -16550,7 +16550,7 @@ IsSharedDIBSurface
 aSurface
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Expected
@@ -17970,7 +17970,7 @@ GetShmem
 }
 else
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Surface
@@ -18673,7 +18673,7 @@ break
 }
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected
@@ -19766,7 +19766,7 @@ mStackDepth
 0
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Destroying

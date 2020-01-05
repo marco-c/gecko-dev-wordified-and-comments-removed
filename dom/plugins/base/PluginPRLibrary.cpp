@@ -1307,7 +1307,7 @@ nsIntRect
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 This

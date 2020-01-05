@@ -257,7 +257,7 @@ if
 mLock
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 couldn
@@ -614,7 +614,7 @@ if
 cycle
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can
@@ -858,7 +858,7 @@ if
 chain
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

@@ -18671,7 +18671,7 @@ ancestor
 ;
 }
 }
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unable

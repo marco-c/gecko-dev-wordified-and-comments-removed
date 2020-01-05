@@ -684,7 +684,7 @@ GetBackendType
 }
 else
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected

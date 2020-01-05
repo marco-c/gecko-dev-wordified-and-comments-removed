@@ -3616,7 +3616,7 @@ EffectTypes
 YCBCR
 :
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can
@@ -3734,7 +3734,7 @@ EffectTypes
 COMPONENT_ALPHA
 :
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can
@@ -3758,7 +3758,7 @@ break
 default
 :
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Invalid

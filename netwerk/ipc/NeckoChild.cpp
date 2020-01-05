@@ -598,7 +598,7 @@ FTPChannelCreationArgs
 aOpenArgs
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 AllocPFTPChannelChild

@@ -66,7 +66,7 @@ if
 mLock
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can

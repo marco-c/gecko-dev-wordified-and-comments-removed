@@ -95,7 +95,7 @@ aSize
 flags
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

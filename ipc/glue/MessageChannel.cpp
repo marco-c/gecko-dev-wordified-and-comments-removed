@@ -7579,7 +7579,7 @@ routing_id
 MSG_ROUTING_NONE
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unhandled
@@ -7813,7 +7813,7 @@ break
 case
 RIPError
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 NYI
@@ -7831,7 +7831,7 @@ return
 ;
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -8889,7 +8889,7 @@ break
 ;
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unreached
@@ -9138,7 +9138,7 @@ break
 ;
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unknown
@@ -9321,7 +9321,7 @@ if
 mAbortOnError
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Aborting
@@ -9825,7 +9825,7 @@ ChannelClosed
 mChannelState
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Close
@@ -9892,7 +9892,7 @@ ChannelClosed
 =
 mChannelState
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 channel

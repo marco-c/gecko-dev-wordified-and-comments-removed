@@ -1667,7 +1667,7 @@ Success
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 programming

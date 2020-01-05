@@ -447,7 +447,7 @@ f
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 We

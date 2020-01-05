@@ -173,7 +173,7 @@ n
 stderr
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 failed

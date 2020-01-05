@@ -141,7 +141,7 @@ aNewPtr
 oldPtr
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Logic

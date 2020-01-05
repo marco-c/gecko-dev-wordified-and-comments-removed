@@ -721,7 +721,7 @@ mSurfaceFormat
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Failed

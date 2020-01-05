@@ -3097,7 +3097,7 @@ IsPainting
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -4510,7 +4510,7 @@ AwaitingIncomingMessage
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 StackDepth

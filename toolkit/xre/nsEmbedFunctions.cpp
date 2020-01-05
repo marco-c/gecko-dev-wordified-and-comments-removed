@@ -2990,7 +2990,7 @@ XRE_GetProcessType
 case
 GeckoProcessType_Default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 This
@@ -3278,7 +3278,7 @@ parentPID
 ;
 #
 else
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 rebuild
@@ -3331,7 +3331,7 @@ break
 ;
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unknown

@@ -121,7 +121,7 @@ if
 isSerialized
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unable

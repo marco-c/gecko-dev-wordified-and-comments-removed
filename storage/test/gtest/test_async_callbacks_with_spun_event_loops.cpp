@@ -200,7 +200,7 @@ if
 sAlive
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 The
@@ -243,7 +243,7 @@ if
 sAlive
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 The

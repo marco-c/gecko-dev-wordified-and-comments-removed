@@ -368,7 +368,7 @@ aOffset
 y
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 SetScreenRenderOffset

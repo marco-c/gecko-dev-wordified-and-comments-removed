@@ -123,7 +123,7 @@ aData
 )
 override
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Incompatibe

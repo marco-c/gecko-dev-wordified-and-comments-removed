@@ -2074,7 +2074,7 @@ void
 size_t
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 nsFrame
@@ -27467,7 +27467,7 @@ GetRootPresContext
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 trying

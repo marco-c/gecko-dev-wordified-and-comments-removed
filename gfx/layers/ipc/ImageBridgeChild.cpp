@@ -2774,7 +2774,7 @@ Length
 i
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -4632,7 +4632,7 @@ AllocPImageContainerChild
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not

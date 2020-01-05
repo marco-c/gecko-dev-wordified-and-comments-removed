@@ -126,7 +126,7 @@ Instance
 (
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Incorrect
@@ -152,7 +152,7 @@ s
 &
 mStream
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Incorrect

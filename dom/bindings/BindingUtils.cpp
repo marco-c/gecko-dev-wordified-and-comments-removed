@@ -12291,7 +12291,7 @@ obj
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Should
