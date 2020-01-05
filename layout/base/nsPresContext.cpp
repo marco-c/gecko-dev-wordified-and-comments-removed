@@ -6165,10 +6165,6 @@ ResolveStyleFor
 (
 docElement
 nullptr
-ConsumeStyleBehavior
-:
-:
-DontConsume
 LazyComputeBehavior
 :
 :
@@ -6300,10 +6296,6 @@ AsElement
 (
 )
 rootStyle
-ConsumeStyleBehavior
-:
-:
-DontConsume
 LazyComputeBehavior
 :
 :

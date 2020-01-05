@@ -463,8 +463,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 )
@@ -485,8 +483,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 TreeMatchContext

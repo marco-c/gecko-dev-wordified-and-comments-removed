@@ -199,8 +199,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 )
@@ -220,8 +218,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 TreeMatchContext
@@ -570,8 +566,6 @@ dom
 Element
 *
 aElement
-ConsumeStyleBehavior
-aConsume
 )
 ;
 ServoComputedValuesStrong
@@ -625,8 +619,6 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 )

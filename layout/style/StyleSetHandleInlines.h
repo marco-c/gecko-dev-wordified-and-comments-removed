@@ -288,8 +288,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 )
@@ -300,7 +298,6 @@ ResolveStyleFor
 (
 aElement
 aParentContext
-aConsume
 aMayCompute
 )
 )
@@ -327,8 +324,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 TreeMatchContext
@@ -342,7 +337,6 @@ ResolveStyleFor
 (
 aElement
 aParentContext
-aConsume
 aMayCompute
 aTreeMatchContext
 )

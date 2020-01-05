@@ -9543,10 +9543,6 @@ AsElement
 StyleContext
 (
 )
-ConsumeStyleBehavior
-:
-:
-DontConsume
 LazyComputeBehavior
 :
 :

@@ -531,7 +531,7 @@ GetPrimaryFrame
 nsChangeHint
 changeHint
 =
-Servo_CheckChangeHint
+Servo_TakeChangeHint
 (
 aElement
 )
@@ -591,10 +591,6 @@ aStyleSet
 ResolveServoStyle
 (
 aElement
-ConsumeStyleBehavior
-:
-:
-Consume
 )
 ;
 RefPtr

@@ -10303,10 +10303,6 @@ ResolveStyleFor
 (
 aDocElement
 nullptr
-ConsumeStyleBehavior
-:
-:
-Consume
 LazyComputeBehavior
 :
 :
@@ -10452,10 +10448,6 @@ ResolveStyleFor
 (
 aDocElement
 nullptr
-ConsumeStyleBehavior
-:
-:
-Consume
 LazyComputeBehavior
 :
 :
@@ -21503,10 +21495,6 @@ AsElement
 (
 )
 aParentStyleContext
-ConsumeStyleBehavior
-:
-:
-Consume
 LazyComputeBehavior
 :
 :
@@ -21534,10 +21522,6 @@ AsElement
 (
 )
 aParentStyleContext
-ConsumeStyleBehavior
-:
-:
-Consume
 LazyComputeBehavior
 :
 :
@@ -40010,10 +39994,6 @@ oldContext
 GetParent
 (
 )
-ConsumeStyleBehavior
-:
-:
-Consume
 LazyComputeBehavior
 :
 :

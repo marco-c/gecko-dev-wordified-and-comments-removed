@@ -1411,10 +1411,6 @@ AsElement
 (
 )
 mStyleContext
-ConsumeStyleBehavior
-:
-:
-DontConsume
 LazyComputeBehavior
 :
 :

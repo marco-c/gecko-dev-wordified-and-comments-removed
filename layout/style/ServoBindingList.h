@@ -563,7 +563,7 @@ change_hint
 )
 SERVO_BINDING_FUNC
 (
-Servo_CheckChangeHint
+Servo_TakeChangeHint
 nsChangeHint
 RawGeckoElementBorrowed
 element
@@ -576,11 +576,6 @@ RawGeckoElementBorrowed
 element
 RawServoStyleSetBorrowed
 set
-mozilla
-:
-:
-ConsumeStyleBehavior
-consume
 )
 SERVO_BINDING_FUNC
 (
@@ -605,11 +600,6 @@ element
 nsIAtom
 *
 pseudo_tag
-mozilla
-:
-:
-ConsumeStyleBehavior
-consume
 RawServoStyleSetBorrowed
 set
 )
