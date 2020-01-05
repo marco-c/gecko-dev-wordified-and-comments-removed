@@ -2422,7 +2422,7 @@ Editor
 .
 modes
 .
-wasm
+text
 )
 ;
 }
