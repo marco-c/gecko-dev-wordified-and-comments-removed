@@ -320,6 +320,11 @@ OpenDragPopup
 (
 )
 ;
+void
+DiscardInternalTransferData
+(
+)
+;
 bool
 TakeDragEventDispatchedToChildProcess
 (
