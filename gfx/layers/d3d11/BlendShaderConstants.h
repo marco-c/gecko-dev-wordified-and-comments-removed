@@ -22,10 +22,6 @@ PS_LAYER_COLOR
 3
 #
 define
-PS_LAYER_NV12
-4
-#
-define
 PS_MASK_NONE
 0
 #

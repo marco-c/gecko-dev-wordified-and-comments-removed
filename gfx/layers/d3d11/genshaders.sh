@@ -239,8 +239,6 @@ makeShaderPS
 ComponentAlphaShader
 makeShaderPS
 YCbCrShader
-makeShaderPS
-NV12Shader
 makeShaderVS
 LayerQuadMaskVS
 makeShaderVS
@@ -253,8 +251,6 @@ makeShaderPS
 RGBAShaderMask
 makeShaderPS
 YCbCrShaderMask
-makeShaderPS
-NV12ShaderMask
 makeShaderPS
 ComponentAlphaShaderMask
 #
