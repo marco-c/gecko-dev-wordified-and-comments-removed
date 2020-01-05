@@ -142,7 +142,7 @@ args
 )
 ;
 function
-testApiFactory
+makeTestAPI
 (
 context
 )
@@ -483,7 +483,7 @@ test
 "
 addon_parent
 "
-testApiFactory
+makeTestAPI
 )
 ;
 extensions
@@ -496,6 +496,6 @@ test
 "
 content_parent
 "
-testApiFactory
+makeTestAPI
 )
 ;
