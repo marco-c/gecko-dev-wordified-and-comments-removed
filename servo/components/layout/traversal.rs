@@ -45,8 +45,8 @@ flow
 :
 :
 {
+self
 Flow
-MutableFlowUtils
 }
 ;
 use
@@ -57,9 +57,6 @@ flow
 PreorderFlowTraversal
 PostorderFlowTraversal
 }
-;
-use
-flow
 ;
 use
 incremental

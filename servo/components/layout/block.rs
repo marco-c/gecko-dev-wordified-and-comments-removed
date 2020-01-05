@@ -68,7 +68,6 @@ flow
 :
 {
 ImmutableFlowUtils
-MutableFlowUtils
 PreorderFlowTraversal
 }
 ;
@@ -10915,6 +10914,13 @@ REFLOW
 self
 .
 assign_block_size
+(
+layout_context
+)
+;
+self
+.
+store_overflow
 (
 layout_context
 )
