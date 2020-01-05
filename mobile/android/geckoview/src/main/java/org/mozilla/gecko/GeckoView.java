@@ -287,6 +287,12 @@ private
 boolean
 onAttachedToWindowCalled
 ;
+private
+int
+screenId
+=
+0
+;
 Override
 public
 void
@@ -733,6 +739,8 @@ Object
 compositor
 String
 chromeURI
+int
+screenId
 )
 ;
 Override
@@ -1210,6 +1218,7 @@ getCompositor
 (
 )
 chromeURI
+screenId
 )
 ;
 }
@@ -1245,6 +1254,7 @@ String
 .
 class
 chromeURI
+screenId
 )
 ;
 }
