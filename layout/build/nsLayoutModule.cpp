@@ -859,7 +859,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -2890,7 +2890,7 @@ SystemPrincipalSingletonConstructor
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsNullPrincipal
+NullPrincipal
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -5058,7 +5058,7 @@ nsSystemPrincipalConstructor
 kNS_NULLPRINCIPAL_CID
 false
 nullptr
-nsNullPrincipalConstructor
+NullPrincipalConstructor
 }
 {
 &

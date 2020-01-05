@@ -448,7 +448,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -9304,7 +9304,7 @@ else
 {
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes

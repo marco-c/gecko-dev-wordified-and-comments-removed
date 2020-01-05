@@ -169,7 +169,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -3479,7 +3479,7 @@ loadingPrincipal
 {
 loadingPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

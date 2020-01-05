@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -889,7 +889,7 @@ principal
 ;
 mPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

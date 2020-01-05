@@ -1354,7 +1354,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -2950,11 +2950,11 @@ sSystemPrincipal
 ;
 RefPtr
 <
-nsNullPrincipal
+NullPrincipal
 >
 nullPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -21674,7 +21674,7 @@ nsIPrincipal
 >
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

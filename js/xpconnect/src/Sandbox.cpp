@@ -82,7 +82,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -5337,11 +5337,11 @@ else
 {
 RefPtr
 <
-nsNullPrincipal
+NullPrincipal
 >
 nullPrin
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

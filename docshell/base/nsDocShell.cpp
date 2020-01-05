@@ -789,7 +789,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -6803,7 +6803,7 @@ NS_ERROR_DOM_SECURITY_ERR
 }
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -6854,7 +6854,7 @@ false
 ;
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -32900,7 +32900,7 @@ aPrincipal
 {
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -32913,7 +32913,7 @@ else
 {
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -48771,7 +48771,7 @@ LoadingPrincipal
 {
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -48801,7 +48801,7 @@ attrs
 ;
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -49613,7 +49613,7 @@ triggeringPrincipal
 {
 triggeringPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -56393,7 +56393,7 @@ nsIPrincipal
 >
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes

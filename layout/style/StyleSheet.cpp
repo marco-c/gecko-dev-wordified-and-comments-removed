@@ -84,7 +84,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -915,7 +915,7 @@ aIntegrity
 :
 mPrincipal
 (
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -957,7 +957,7 @@ mPrincipal
 NS_RUNTIMEABORT
 (
 "
-nsNullPrincipal
+NullPrincipal
 :
 :
 Init

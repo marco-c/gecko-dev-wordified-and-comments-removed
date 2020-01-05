@@ -1,9 +1,9 @@
 #
 ifndef
-nsNullPrincipal_h__
+NullPrincipal_h
 #
 define
-nsNullPrincipal_h__
+NullPrincipal_h
 #
 include
 "
@@ -95,7 +95,7 @@ moz
 nullprincipal
 "
 class
-nsNullPrincipal
+NullPrincipal
 final
 :
 public
@@ -106,7 +106,7 @@ BasePrincipal
 {
 public
 :
-nsNullPrincipal
+NullPrincipal
 (
 )
 :
@@ -206,7 +206,7 @@ override
 static
 already_AddRefed
 <
-nsNullPrincipal
+NullPrincipal
 >
 CreateWithInheritedAttributes
 (
@@ -218,7 +218,7 @@ aInheritFrom
 static
 already_AddRefed
 <
-nsNullPrincipal
+NullPrincipal
 >
 CreateWithInheritedAttributes
 (
@@ -234,7 +234,7 @@ false
 static
 already_AddRefed
 <
-nsNullPrincipal
+NullPrincipal
 >
 Create
 (
@@ -297,11 +297,12 @@ protected
 :
 virtual
 ~
-nsNullPrincipal
+NullPrincipal
 (
 )
-{
-}
+=
+default
+;
 bool
 SubsumesInternal
 (

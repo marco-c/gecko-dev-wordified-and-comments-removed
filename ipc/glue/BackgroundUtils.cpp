@@ -99,7 +99,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -343,7 +343,7 @@ nullptr
 }
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
