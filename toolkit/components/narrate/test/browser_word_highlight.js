@@ -112,6 +112,14 @@ toggled
 "
 )
 ;
+yield
+NarrateTestUtils
+.
+waitForVoiceOptions
+(
+content
+)
+;
 NarrateTestUtils
 .
 isStoppedState
