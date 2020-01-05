@@ -19,7 +19,13 @@ nsTSubstringTuple_CharT
 self_type
 ;
 typedef
-nsTSubstring_CharT
+mozilla
+:
+:
+detail
+:
+:
+nsTStringRepr_CharT
 base_string_type
 ;
 typedef
