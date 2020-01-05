@@ -17007,10 +17007,6 @@ const
 nsPresContext
 *
 aPresContext
-const
-nsFont
-*
-aDefaultVariableFont
 )
 {
 gfxFontStyle
@@ -17200,7 +17196,7 @@ std
 :
 max
 (
-aDefaultVariableFont
+defaultVariableFont
 -
 >
 size
@@ -17662,7 +17658,6 @@ ComputeSystemFont
 systemFont
 fontID
 aPresContext
-defaultVariableFont
 )
 ;
 }
