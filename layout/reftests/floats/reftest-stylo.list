@@ -1822,7 +1822,6 @@ floats
 1d
 .
 html
-fails
 pref
 (
 layout
@@ -1858,7 +1857,6 @@ side
 1
 .
 html
-fails
 pref
 (
 layout
@@ -1894,7 +1892,6 @@ side
 2
 .
 html
-fails
 pref
 (
 layout
@@ -1930,7 +1927,6 @@ side
 3
 .
 html
-fails
 pref
 (
 layout
