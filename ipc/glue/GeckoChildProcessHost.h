@@ -636,8 +636,16 @@ GetCurrentProcessArchitecture
 )
 )
 ;
+enum
+class
+BinaryPathType
+{
+Self
+PluginContainer
+}
+;
 static
-void
+BinaryPathType
 GetPathToBinary
 (
 FilePath
