@@ -505,6 +505,10 @@ mesa
 libOSMesa
 -
 devel
+\
+dbus
+-
+devel
 On
 Arch
 Linux
