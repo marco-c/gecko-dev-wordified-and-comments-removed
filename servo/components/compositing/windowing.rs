@@ -622,6 +622,12 @@ prepare_for_composite
 (
 &
 self
+width
+:
+usize
+height
+:
+usize
 )
 -
 >
