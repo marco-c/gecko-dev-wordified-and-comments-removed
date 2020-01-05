@@ -305,6 +305,9 @@ const
 gfxMatrix
 &
 aToMarkedFrameUserSpace
+mozilla
+:
+:
 SVGGeometryFrame
 *
 aMarkedFrame
@@ -324,6 +327,9 @@ Matrix
 aToBBoxUserspace
 uint32_t
 aFlags
+mozilla
+:
+:
 SVGGeometryFrame
 *
 aMarkedFrame
@@ -336,6 +342,9 @@ aStrokeWidth
 )
 ;
 private
+:
+mozilla
+:
 :
 SVGGeometryFrame
 *
@@ -368,6 +377,9 @@ AutoMarkerReferencer
 nsSVGMarkerFrame
 *
 aFrame
+mozilla
+:
+:
 SVGGeometryFrame
 *
 aMarkedFrame

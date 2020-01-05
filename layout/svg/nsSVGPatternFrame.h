@@ -458,6 +458,9 @@ aTarget
 ;
 private
 :
+mozilla
+:
+:
 SVGGeometryFrame
 *
 mSource
