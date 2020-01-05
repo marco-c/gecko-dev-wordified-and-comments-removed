@@ -2468,7 +2468,6 @@ v
 }
 pub
 unsafe
-extern
 fn
 trace_collections
 (
@@ -2477,14 +2476,6 @@ tracer
 *
 mut
 JSTracer
-_data
-:
-*
-mut
-libc
-:
-:
-c_void
 )
 {
 ROOTED_COLLECTIONS
