@@ -2434,10 +2434,7 @@ ScrollRootId
 pub
 clip
 :
-Rect
-<
-Au
->
+ClippingRegion
 pub
 content_rect
 :
