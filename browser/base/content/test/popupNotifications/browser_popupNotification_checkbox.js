@@ -33,10 +33,6 @@ setup
 (
 )
 ;
-goNext
-(
-)
-;
 }
 function
 checkCheckbox
