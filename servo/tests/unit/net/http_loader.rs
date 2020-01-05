@@ -183,7 +183,7 @@ net
 hsts
 :
 :
-HSTSEntry
+HstsEntry
 ;
 use
 net
@@ -5581,7 +5581,7 @@ unwrap
 let
 entry
 =
-HSTSEntry
+HstsEntry
 :
 :
 new
