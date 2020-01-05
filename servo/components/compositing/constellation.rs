@@ -1674,7 +1674,6 @@ let
 (
 pipeline
 unprivileged_pipeline_content
-mut
 privileged_pipeline_content
 )
 =
