@@ -480,11 +480,9 @@ self
 .
 data_source_surface
 .
-get_size
+stride
 (
 )
-.
-width
 as
 uint
 }
@@ -2273,6 +2271,8 @@ Size2D
 stride
 :
 800
+*
+4
 }
 ;
 let
