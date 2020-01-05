@@ -521,6 +521,10 @@ ty
 >
 (
 (
+#
+[
+no_mangle
+]
 pub
 extern
 "
