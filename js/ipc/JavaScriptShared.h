@@ -490,6 +490,14 @@ ObjectId
 id
 )
 ;
+JSObject
+*
+findPreserveColor
+(
+ObjectId
+id
+)
+;
 void
 remove
 (
