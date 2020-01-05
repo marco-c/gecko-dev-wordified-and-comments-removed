@@ -157,8 +157,6 @@ for
 acceptNode
 (
 )
-/
-/
 const
 unsigned
 short
@@ -166,8 +164,6 @@ FILTER_ACCEPT
 =
 1
 ;
-/
-/
 const
 unsigned
 short
@@ -175,8 +171,6 @@ FILTER_REJECT
 =
 2
 ;
-/
-/
 const
 unsigned
 short
@@ -189,8 +183,6 @@ FILTER_SKIP
 Constants
 for
 whatToShow
-/
-/
 const
 unsigned
 long
@@ -198,8 +190,6 @@ SHOW_ALL
 =
 0xFFFFFFFF
 ;
-/
-/
 const
 unsigned
 long
@@ -207,8 +197,6 @@ SHOW_ELEMENT
 =
 0x1
 ;
-/
-/
 const
 unsigned
 long
@@ -219,8 +207,6 @@ SHOW_ATTRIBUTE
 /
 /
 historical
-/
-/
 const
 unsigned
 long
@@ -228,8 +214,6 @@ SHOW_TEXT
 =
 0x4
 ;
-/
-/
 const
 unsigned
 long
@@ -240,8 +224,6 @@ SHOW_CDATA_SECTION
 /
 /
 historical
-/
-/
 const
 unsigned
 long
@@ -252,8 +234,6 @@ SHOW_ENTITY_REFERENCE
 /
 /
 historical
-/
-/
 const
 unsigned
 long
@@ -264,8 +244,6 @@ SHOW_ENTITY
 /
 /
 historical
-/
-/
 const
 unsigned
 long
@@ -273,8 +251,6 @@ SHOW_PROCESSING_INSTRUCTION
 =
 0x40
 ;
-/
-/
 const
 unsigned
 long
@@ -282,8 +258,6 @@ SHOW_COMMENT
 =
 0x80
 ;
-/
-/
 const
 unsigned
 long
@@ -291,8 +265,6 @@ SHOW_DOCUMENT
 =
 0x100
 ;
-/
-/
 const
 unsigned
 long
@@ -300,8 +272,6 @@ SHOW_DOCUMENT_TYPE
 =
 0x200
 ;
-/
-/
 const
 unsigned
 long
@@ -309,8 +279,6 @@ SHOW_DOCUMENT_FRAGMENT
 =
 0x400
 ;
-/
-/
 const
 unsigned
 long
