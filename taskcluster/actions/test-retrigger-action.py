@@ -405,11 +405,10 @@ default
 :
 {
 '
-MY_ENV_1
+MOZ_LOG
 '
 :
 '
-myvalue1
 '
 }
                 
