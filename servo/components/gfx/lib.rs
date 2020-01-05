@@ -81,6 +81,10 @@ log
 ;
 extern
 crate
+alloc
+;
+extern
+crate
 azure
 ;
 #
