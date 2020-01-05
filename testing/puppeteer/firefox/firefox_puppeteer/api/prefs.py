@@ -665,6 +665,9 @@ set_pref
 self
 pref_name
 value
+default_branch
+=
+False
 )
 :
         
@@ -755,6 +758,22 @@ the
 preference
 to
         
+:
+param
+default_branch
+:
+Optional
+flag
+to
+use
+the
+default
+branch
+         
+default
+to
+False
+        
 "
 "
 "
@@ -842,6 +861,43 @@ jsm
 ;
               
 let
+[
+pref_name
+value
+default_branch
+]
+=
+arguments
+;
+              
+let
+prefBranch
+;
+              
+if
+(
+default_branch
+)
+{
+                
+prefBranch
+=
+Services
+.
+prefs
+.
+getDefaultBranch
+(
+"
+"
+)
+;
+              
+}
+              
+else
+{
+                
 prefBranch
 =
 Services
@@ -849,23 +905,7 @@ Services
 prefs
 ;
               
-let
-pref_name
-=
-arguments
-[
-0
-]
-;
-              
-let
-value
-=
-arguments
-[
-1
-]
-;
+}
               
 let
 type
@@ -1055,6 +1095,7 @@ script_args
 [
 pref_name
 value
+default_branch
 ]
 )
         
