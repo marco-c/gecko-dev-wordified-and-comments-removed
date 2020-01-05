@@ -140,6 +140,9 @@ ptr
 :
 Ptr
 ;
+use
+native
+;
 pub
 struct
 FontconfigFontListHandle

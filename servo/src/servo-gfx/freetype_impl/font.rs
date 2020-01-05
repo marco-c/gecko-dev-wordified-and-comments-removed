@@ -3,6 +3,9 @@ mod
 freetype
 ;
 use
+native
+;
+use
 freetype_impl
 :
 :
@@ -36,6 +39,9 @@ FontWeight700
 FontWeight800
 FontWeight900
 }
+;
+use
+geometry
 ;
 use
 geometry

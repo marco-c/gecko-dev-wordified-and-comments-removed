@@ -1,4 +1,7 @@
 use
+core
+;
+use
 dom
 :
 :
@@ -78,6 +81,15 @@ util
 :
 :
 tree
+;
+use
+core
+:
+:
+mutable
+:
+:
+Mut
 ;
 use
 core
@@ -832,8 +844,10 @@ Au
 list
 :
 &
-mut
+Mut
+<
 DisplayList
+>
 )
 {
 debug
@@ -1507,7 +1521,7 @@ FlowContext
 {
 pure
 fn
-eq
+tree_eq
 (
 a
 :

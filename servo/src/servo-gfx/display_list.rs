@@ -215,12 +215,6 @@ DisplayItemData
 ARC
 <
 ~
-image
-:
-:
-base
-:
-:
 Image
 >
 )
@@ -659,12 +653,6 @@ image
 ARC
 <
 ~
-image
-:
-:
-base
-:
-:
 Image
 >
 )

@@ -229,6 +229,11 @@ style
 )
 )
 ;
+let
+d
+:
+DataStream
+=
 |
 move
 style
@@ -254,6 +259,10 @@ else
 {
 None
 }
+;
+return
+d
+;
 }
 fn
 html4_default_style_str

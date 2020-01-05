@@ -13,6 +13,9 @@ glyph
 :
 GlyphStore
 ;
+use
+harfbuzz
+;
 pub
 type
 Shaper

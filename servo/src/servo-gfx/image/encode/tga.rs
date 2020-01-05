@@ -4,6 +4,9 @@ io
 :
 WriterUtil
 ;
+use
+surface
+;
 fn
 encode
 (
