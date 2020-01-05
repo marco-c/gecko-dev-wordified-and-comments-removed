@@ -491,6 +491,10 @@ dom
 ;
 pub
 mod
+fetch
+;
+pub
+mod
 layout_wrapper
 ;
 mod
