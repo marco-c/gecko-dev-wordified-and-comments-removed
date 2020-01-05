@@ -1251,7 +1251,7 @@ rules
 bug
 1357906
 [
-72
+70
 ]
 *
 test_variables
