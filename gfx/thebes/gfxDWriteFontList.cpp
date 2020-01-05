@@ -3372,7 +3372,7 @@ gfxFontFamily
 gfxDWriteFontList
 :
 :
-GetDefaultFont
+GetDefaultFontForPlatform
 (
 const
 gfxFontStyle
@@ -3804,7 +3804,7 @@ nsresult
 gfxDWriteFontList
 :
 :
-InitFontList
+InitFontListForPlatform
 (
 )
 {
@@ -3901,13 +3901,6 @@ directwrite
 use_gdi_table_loading
 "
 false
-)
-;
-gfxPlatformFontList
-:
-:
-InitFontList
-(
 )
 ;
 mFontSubstitutes
@@ -6630,6 +6623,11 @@ aMatchedFamily
 bool
 useCmaps
 =
+IsFontFamilyWhitelistActive
+(
+)
+|
+|
 gfxPlatform
 :
 :

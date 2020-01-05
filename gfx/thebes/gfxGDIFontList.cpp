@@ -3104,7 +3104,7 @@ nsresult
 gfxGDIFontList
 :
 :
-InitFontList
+InitFontListForPlatform
 (
 )
 {
@@ -3119,13 +3119,6 @@ Telemetry
 GDI_INITFONTLIST_TOTAL
 >
 timer
-;
-gfxPlatformFontList
-:
-:
-InitFontList
-(
-)
 ;
 mFontSubstitutes
 .
@@ -4181,7 +4174,7 @@ gfxFontFamily
 gfxGDIFontList
 :
 :
-GetDefaultFont
+GetDefaultFontForPlatform
 (
 const
 gfxFontStyle
