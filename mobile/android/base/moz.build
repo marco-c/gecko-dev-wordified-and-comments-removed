@@ -2524,6 +2524,13 @@ ActivityStream
 java
 '
 '
+adjust
+/
+AdjustBrowserAppDelegate
+.
+java
+'
+'
 animation
 /
 AnimationUtils
