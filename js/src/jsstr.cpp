@@ -3381,6 +3381,12 @@ GREEK_SMALL_LETTER_SIGMA
 #
 if
 ENABLE_INTL_API
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 bool
 precededByCased
 =
