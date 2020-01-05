@@ -30,7 +30,7 @@ gfx
 geometry
 :
 :
-au
+Au
 ;
 use
 util
@@ -700,7 +700,7 @@ float
 )
 -
 >
-au
+Au
 {
 let
 face
