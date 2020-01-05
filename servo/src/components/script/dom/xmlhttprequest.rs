@@ -5520,7 +5520,6 @@ root
 )
 ;
 let
-mut
 progressevent
 =
 ProgressEvent
