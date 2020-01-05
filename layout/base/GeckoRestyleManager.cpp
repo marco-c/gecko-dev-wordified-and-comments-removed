@@ -13735,9 +13735,8 @@ aFrame
 nsLayoutUtils
 :
 :
-GetBeforeFrameForContent
+GetBeforeFrame
 (
-aGenConParentFrame
 aContent
 )
 )
@@ -13768,9 +13767,8 @@ aFrame
 nsLayoutUtils
 :
 :
-GetAfterFrameForContent
+GetAfterFrame
 (
-aGenConParentFrame
 aContent
 )
 )
