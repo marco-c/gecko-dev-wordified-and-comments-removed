@@ -1420,8 +1420,8 @@ aProperties
 )
 {
 }
-StyleAnimationValue
-ResolveBaseStyle
+void
+EnsureBaseStyle
 (
 nsCSSPropertyID
 aProperty
