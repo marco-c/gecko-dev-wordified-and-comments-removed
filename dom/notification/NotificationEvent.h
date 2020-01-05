@@ -198,6 +198,16 @@ trusted
 e
 -
 >
+SetComposed
+(
+aOptions
+.
+mComposed
+)
+;
+e
+-
+>
 mNotification
 =
 aOptions

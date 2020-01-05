@@ -307,6 +307,16 @@ SetTrusted
 trusted
 )
 ;
+e
+-
+>
+SetComposed
+(
+aParam
+.
+mComposed
+)
+;
 return
 e
 .

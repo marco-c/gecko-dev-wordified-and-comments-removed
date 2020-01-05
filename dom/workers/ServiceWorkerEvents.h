@@ -349,6 +349,16 @@ SetTrusted
 trusted
 )
 ;
+e
+-
+>
+SetComposed
+(
+aOptions
+.
+mComposed
+)
+;
 return
 e
 .

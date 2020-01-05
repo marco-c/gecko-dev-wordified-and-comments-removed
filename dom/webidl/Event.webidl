@@ -287,6 +287,14 @@ boolean
 defaultPreventedByContent
 ;
 [
+Pure
+]
+readonly
+attribute
+boolean
+composed
+;
+[
 Unforgeable
 Pure
 ]
@@ -405,6 +413,11 @@ false
 ;
 boolean
 cancelable
+=
+false
+;
+boolean
+composed
 =
 false
 ;
