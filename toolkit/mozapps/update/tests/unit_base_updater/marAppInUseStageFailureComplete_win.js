@@ -40,11 +40,6 @@ gTestDirs
 =
 gTestDirsCompleteSuccess
 ;
-createUpdaterINI
-(
-false
-)
-;
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
