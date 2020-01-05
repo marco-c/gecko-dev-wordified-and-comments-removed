@@ -539,10 +539,6 @@ float_context
 ;
 pub
 mod
-float
-;
-pub
-mod
 flow
 ;
 pub
