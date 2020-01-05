@@ -541,6 +541,8 @@ Origin
 SameOrigin
 OriginWhenCrossOrigin
 UnsafeUrl
+StrictOrigin
+StrictOriginWhenCrossOrigin
 }
 #
 [

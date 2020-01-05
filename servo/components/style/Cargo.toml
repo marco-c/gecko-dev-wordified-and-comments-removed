@@ -312,11 +312,11 @@ traits
 num_cpus
 =
 "
+1
+.
+1
+.
 0
-.
-2
-.
-2
 "
 ordered
 -
