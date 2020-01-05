@@ -6666,6 +6666,17 @@ cargo_build_flags
 -
 frozen
 endif
+ifdef
+MOZ_STYLO
+cargo_build_flags
++
+=
+-
+-
+features
+=
+servo
+endif
 cargo_build_flags
 +
 =

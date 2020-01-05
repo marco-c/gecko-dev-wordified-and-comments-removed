@@ -58,6 +58,17 @@ shared
 bindgen
 "
 ]
+servo
+=
+[
+"
+gkrust
+-
+shared
+/
+servo
+"
+]
 [
 dependencies
 ]
