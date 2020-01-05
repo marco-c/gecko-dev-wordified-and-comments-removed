@@ -170,6 +170,12 @@ include_dirs
 MOZ_LIBVPX_CFLAGS
 )
 '
+'
+<
+(
+libvpx_dir
+)
+'
 ]
 }
 ]
