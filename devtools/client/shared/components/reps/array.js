@@ -181,9 +181,6 @@ push
 ItemRep
 (
 {
-key
-:
-i
 object
 :
 value
@@ -212,9 +209,6 @@ push
 ItemRep
 (
 {
-key
-:
-i
 object
 :
 exc
@@ -262,11 +256,6 @@ push
 Caption
 (
 {
-key
-:
-"
-more
-"
 object
 :
 objectLink
@@ -526,6 +515,7 @@ length
 ;
 items
 =
+[
 DOM
 .
 span
@@ -546,6 +536,7 @@ object
 .
 length
 )
+]
 ;
 brackets
 =
@@ -641,6 +632,9 @@ brackets
 .
 left
 )
+.
+.
+.
 items
 objectLink
 (

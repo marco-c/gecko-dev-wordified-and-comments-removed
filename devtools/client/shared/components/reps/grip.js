@@ -422,11 +422,6 @@ push
 Caption
 (
 {
-key
-:
-"
-more
-"
 object
 :
 objectLink
@@ -600,9 +595,6 @@ this
 .
 props
 {
-key
-:
-name
 mode
 :
 "
@@ -917,6 +909,9 @@ object
 {
 "
 )
+.
+.
+.
 props
 objectLink
 (
