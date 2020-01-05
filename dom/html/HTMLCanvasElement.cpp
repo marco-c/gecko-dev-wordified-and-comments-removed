@@ -1647,12 +1647,12 @@ nsICanvasRenderingContextInternal
 >
 ret
 =
-CanvasRenderingContextHelper
-:
-:
-CreateContext
+CreateContextHelper
 (
 aContextType
+GetCompositorBackendType
+(
+)
 )
 ;
 if
@@ -3491,7 +3491,7 @@ ToBlob
 JSContext
 *
 aCx
-BlobCallback
+FileCallback
 &
 aCallback
 const
