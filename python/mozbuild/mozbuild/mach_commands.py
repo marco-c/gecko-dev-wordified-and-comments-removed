@@ -1250,6 +1250,14 @@ _handler
 footer
 =
 None
+        
+self
+.
+monitor
+.
+stop_resource_recording
+(
+)
     
 def
 write_line
