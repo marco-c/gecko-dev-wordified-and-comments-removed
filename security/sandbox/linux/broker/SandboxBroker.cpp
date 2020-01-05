@@ -2744,7 +2744,7 @@ pathLen2
 0
 )
 {
-pathBuf
+pathBuf2
 [
 pathLen2
 ]
