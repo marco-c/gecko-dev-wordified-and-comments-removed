@@ -870,6 +870,13 @@ category
 "
 paneAdvanced
 "
+data
+-
+subcategory
+=
+"
+reports
+"
 hidden
 =
 "
@@ -1156,6 +1163,13 @@ category
 =
 "
 paneAdvanced
+"
+data
+-
+subcategory
+=
+"
+reports
 "
 hidden
 =
