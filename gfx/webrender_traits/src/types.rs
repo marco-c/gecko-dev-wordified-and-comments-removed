@@ -1921,6 +1921,13 @@ ScrollPolicy
 Scrollable
 Fixed
 }
+known_heap_size
+!
+(
+0
+ScrollPolicy
+)
+;
 #
 [
 derive

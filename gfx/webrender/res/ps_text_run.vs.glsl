@@ -145,6 +145,9 @@ prim
 local_clip_rect
 prim
 .
+z
+prim
+.
 layer
 prim
 .
@@ -199,6 +202,9 @@ local_rect
 prim
 .
 local_clip_rect
+prim
+.
+z
 prim
 .
 layer

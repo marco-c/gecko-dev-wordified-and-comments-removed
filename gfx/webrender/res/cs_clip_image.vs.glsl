@@ -226,10 +226,13 @@ zw
 vec2
 texture_size
 =
+vec2
+(
 textureSize
 (
 sMask
 0
+)
 )
 ;
 vClipMaskUvRect

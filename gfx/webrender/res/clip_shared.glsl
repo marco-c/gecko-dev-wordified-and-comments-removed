@@ -144,7 +144,6 @@ always
 covers
 the
 whole
-whole
 clip
 area
 /
