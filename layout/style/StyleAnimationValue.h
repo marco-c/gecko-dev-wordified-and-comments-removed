@@ -66,6 +66,13 @@ nsCSSValue
 .
 h
 "
+#
+include
+"
+nsStyleCoord
+.
+h
+"
 class
 nsIFrame
 ;

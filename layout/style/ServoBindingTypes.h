@@ -49,6 +49,9 @@ StyleChildrenIterator
 }
 }
 class
+nsCSSValue
+;
+class
 nsIDocument
 ;
 class
@@ -286,6 +289,14 @@ RawGeckoDocument
 DECL_BORROWED_MUT_REF_TYPE_FOR
 (
 StyleChildrenIterator
+)
+DECL_BORROWED_REF_TYPE_FOR
+(
+nsCSSValue
+)
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+nsCSSValue
 )
 #
 undef
