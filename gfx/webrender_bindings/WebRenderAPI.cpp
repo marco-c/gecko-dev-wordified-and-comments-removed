@@ -2267,11 +2267,11 @@ PushScrollLayer
 const
 WrRect
 &
-aBounds
+aContentRect
 const
 WrRect
 &
-aOverflow
+aClipRect
 const
 WrImageMask
 *
@@ -2281,8 +2281,8 @@ aMask
 wr_dp_push_scroll_layer
 (
 mWrState
-aBounds
-aOverflow
+aContentRect
+aClipRect
 aMask
 )
 ;

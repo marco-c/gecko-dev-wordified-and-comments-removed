@@ -605,11 +605,11 @@ PushScrollLayer
 const
 WrRect
 &
-aBounds
+aContentRect
 const
 WrRect
 &
-aOverflow
+aClipRect
 const
 WrImageMask
 *
