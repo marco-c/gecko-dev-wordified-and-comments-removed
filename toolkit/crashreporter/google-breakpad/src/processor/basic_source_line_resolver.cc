@@ -874,6 +874,7 @@ address
 func
 &
 function_base
+NULL
 &
 function_size
 )
@@ -942,6 +943,7 @@ address
 line
 &
 line_base
+NULL
 NULL
 )
 )
@@ -1214,6 +1216,7 @@ address
 function
 &
 function_base
+NULL
 &
 function_size
 )
@@ -1368,6 +1371,7 @@ address
 initial_rules
 &
 initial_base
+NULL
 &
 initial_size
 )
@@ -2242,6 +2246,7 @@ tokens
 if
 (
 !
+*
 filename
 )
 {

@@ -46,6 +46,7 @@ LibcurlWrapper
 (
 )
 ;
+virtual
 ~
 LibcurlWrapper
 (
