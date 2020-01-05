@@ -4912,8 +4912,6 @@ aStyleContext
 nsView
 *
 aView
-uint32_t
-aFlags
 )
 {
 NS_ASSERTION
@@ -4981,16 +4979,6 @@ StyleContext
 }
 if
 (
-0
-=
-=
-(
-aFlags
-&
-NS_FRAME_NO_VISIBILITY
-)
-&
-&
 !
 aFrame
 -
