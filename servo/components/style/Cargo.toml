@@ -152,6 +152,10 @@ testing
 =
 [
 ]
+gecko_debug
+=
+[
+]
 [
 dependencies
 ]

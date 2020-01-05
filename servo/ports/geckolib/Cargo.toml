@@ -82,6 +82,15 @@ style
 testing
 "
 ]
+gecko_debug
+=
+[
+"
+style
+/
+gecko_debug
+"
+]
 [
 dependencies
 ]
