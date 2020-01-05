@@ -93,6 +93,11 @@ GuardNoDenseElements
 \
 _
 (
+GuardAndGetIndexFromString
+)
+\
+_
+(
 LoadProto
 )
 \

@@ -3942,7 +3942,7 @@ JSObject
 obj
 )
 ;
-uint32_t
+int32_t
 GetIndexFromString
 (
 JSString
