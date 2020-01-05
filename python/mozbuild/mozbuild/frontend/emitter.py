@@ -546,6 +546,9 @@ emit
 (
 self
 output
+emitfn
+=
+None
 )
 :
         
@@ -591,6 +594,14 @@ contexts
 =
 {
 }
+        
+emitfn
+=
+emitfn
+or
+self
+.
+emit_from_context
         
 def
 emit_objs
@@ -660,9 +671,7 @@ objs
 =
 list
 (
-self
-.
-emit_from_context
+emitfn
 (
 out
 )
