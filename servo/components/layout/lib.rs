@@ -15,6 +15,14 @@ int_uint
 [
 deny
 (
+unsafe_blocks
+)
+]
+#
+!
+[
+deny
+(
 unused_imports
 )
 ]

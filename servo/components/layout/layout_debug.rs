@@ -478,6 +478,13 @@ None
 ;
 }
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 pub
 fn
 generate_unique_debug_id
