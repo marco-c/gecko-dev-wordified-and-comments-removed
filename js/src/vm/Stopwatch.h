@@ -442,10 +442,7 @@ highestTimestampCounter_
 ;
 #
 if
-WINVER
->
-=
-0x0600
+0
 struct
 cpuid_t
 {
