@@ -12495,7 +12495,7 @@ ac
 cx
 oldestEnabledFrame
 .
-compartment
+environmentChain
 (
 )
 )
@@ -12598,11 +12598,6 @@ ac
 (
 cx
 script
--
->
-compartment
-(
-)
 )
 ;
 zone
@@ -23014,13 +23009,6 @@ r
 .
 front
 (
-)
-;
-AutoCompartment
-ac
-(
-cx
-comp
 )
 ;
 if
@@ -44415,11 +44403,6 @@ ac
 (
 cx
 script
--
->
-compartment
-(
-)
 )
 ;
 if

@@ -11208,11 +11208,6 @@ frame
 script
 (
 )
--
->
-compartment
-(
-)
 )
 ;
 if
