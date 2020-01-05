@@ -32215,6 +32215,16 @@ void
                                      
 args
 )
+        
+self
+.
+traceGlobal
+=
+descriptor
+.
+isGlobal
+(
+)
     
 def
 generate_code
@@ -32223,7 +32233,9 @@ self
 )
 :
         
-return
+body
+=
+[
 CGGeneric
 (
 "
@@ -32248,6 +32260,40 @@ args
 ]
 .
 name
+)
+]
+        
+if
+self
+.
+traceGlobal
+:
+            
+body
++
+=
+[
+CGGeneric
+(
+"
+trace_global
+(
+trc
+obj
+)
+;
+"
+)
+]
+        
+return
+CGList
+(
+body
+"
+\
+n
+"
 )
 class
 CGClassConstructHook
@@ -36998,7 +37044,10 @@ bindings
 utils
 :
 :
+{
 finalize_global
+trace_global
+}
 '
             
 '
