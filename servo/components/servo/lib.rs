@@ -244,7 +244,6 @@ compositing
 :
 {
 CompositorProxy
-CompositorThread
 IOCompositor
 }
 ;
@@ -819,7 +818,7 @@ clone
 let
 compositor
 =
-CompositorThread
+IOCompositor
 :
 :
 create
