@@ -16,7 +16,7 @@ servo_gfx_util
 range
 :
 :
-MutableRange
+Range
 ;
 use
 servo_gfx_util
@@ -3702,7 +3702,7 @@ range
 :
 &
 const
-MutableRange
+Range
 cb
 :
 fn

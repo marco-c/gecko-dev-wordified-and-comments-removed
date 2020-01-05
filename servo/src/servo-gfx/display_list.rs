@@ -41,7 +41,7 @@ util
 range
 :
 :
-MutableRange
+Range
 ;
 use
 azure
@@ -206,7 +206,7 @@ Text
 DisplayItemData
 ~
 SendableTextRun
-MutableRange
+Range
 Color
 )
 Image
@@ -578,7 +578,7 @@ run
 SendableTextRun
 range
 :
-MutableRange
+Range
 color
 :
 Color

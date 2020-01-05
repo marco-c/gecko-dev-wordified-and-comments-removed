@@ -34,7 +34,7 @@ util
 range
 :
 :
-MutableRange
+Range
 ;
 pub
 struct
@@ -45,7 +45,7 @@ run
 TextRun
 range
 :
-MutableRange
+Range
 }
 pub
 fn
@@ -58,7 +58,7 @@ range
 :
 &
 const
-MutableRange
+Range
 )
 -
 >
@@ -91,7 +91,7 @@ range
 :
 &
 const
-MutableRange
+Range
 )
 -
 >

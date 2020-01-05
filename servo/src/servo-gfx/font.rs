@@ -29,10 +29,7 @@ util
 range
 :
 :
-{
 Range
-MutableRange
-}
 ;
 use
 text
@@ -2429,7 +2426,7 @@ TextRun
 range
 :
 &
-MutableRange
+Range
 baseline_origin
 :
 Point2D
@@ -2448,7 +2445,7 @@ measure_text
 TextRun
 &
 const
-MutableRange
+Range
 )
 -
 >
@@ -2516,7 +2513,7 @@ range
 :
 &
 const
-MutableRange
+Range
 baseline_origin
 :
 Point2D
@@ -2864,7 +2861,7 @@ range
 :
 &
 const
-MutableRange
+Range
 )
 -
 >
