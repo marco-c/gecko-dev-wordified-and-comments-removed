@@ -12079,7 +12079,7 @@ as_b
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -14212,7 +14212,7 @@ label
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {
@@ -14236,11 +14236,17 @@ do
 {
 append
 (
+wasm
+:
+:
+TrapSite
+(
 target
 b
 .
 getOffset
 (
+)
 )
 )
 ;

@@ -1388,7 +1388,7 @@ label
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {

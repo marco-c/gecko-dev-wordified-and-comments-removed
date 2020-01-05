@@ -6544,7 +6544,7 @@ ma_b
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Assembler
 :

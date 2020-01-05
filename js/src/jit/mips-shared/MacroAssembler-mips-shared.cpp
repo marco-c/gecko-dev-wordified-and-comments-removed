@@ -1024,7 +1024,7 @@ ma_addTestCarry
 wasm
 :
 :
-JumpTarget
+TrapDesc
 >
 (
 Register
@@ -1036,7 +1036,7 @@ rt
 wasm
 :
 :
-JumpTarget
+TrapDesc
 overflow
 )
 ;
@@ -1108,7 +1108,7 @@ ma_addTestCarry
 wasm
 :
 :
-JumpTarget
+TrapDesc
 >
 (
 Register
@@ -1120,7 +1120,7 @@ imm
 wasm
 :
 :
-JumpTarget
+TrapDesc
 overflow
 )
 ;
@@ -3287,7 +3287,7 @@ rhs
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -3333,7 +3333,7 @@ rhs
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -3358,7 +3358,7 @@ rhs
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -3383,7 +3383,7 @@ rhs
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -3428,7 +3428,7 @@ ma_b
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 JumpKind
 jumpKind

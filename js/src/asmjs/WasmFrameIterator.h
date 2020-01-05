@@ -28,9 +28,6 @@ jit
 class
 MacroAssembler
 ;
-class
-Label
-;
 }
 namespace
 wasm
@@ -45,9 +42,6 @@ class
 CodeRange
 ;
 class
-Instance
-;
-class
 SigIdDesc
 ;
 struct
@@ -57,10 +51,10 @@ struct
 FuncOffsets
 ;
 struct
-Metadata
+ProfilingOffsets
 ;
 struct
-ProfilingOffsets
+TrapOffset
 ;
 class
 FrameIterator
@@ -201,6 +195,7 @@ None
 ImportJit
 ImportInterp
 Native
+Trap
 }
 ;
 class
@@ -372,6 +367,10 @@ const
 SigIdDesc
 &
 sigId
+const
+TrapOffset
+&
+trapOffset
 FuncOffsets
 *
 offsets
