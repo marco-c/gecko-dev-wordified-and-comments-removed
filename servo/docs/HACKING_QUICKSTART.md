@@ -864,7 +864,7 @@ toml
 Servo
 is
 split
-in
+into
 components
 and
 ports
@@ -1517,6 +1517,7 @@ away
 you
 might
 want
+to
 get
 some
 information
