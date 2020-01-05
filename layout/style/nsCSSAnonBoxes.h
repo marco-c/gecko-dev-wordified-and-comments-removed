@@ -72,7 +72,13 @@ mozText
 aPseudo
 =
 =
-mozOtherNonElement
+oofPlaceholder
+|
+|
+aPseudo
+=
+=
+firstLetterContinuation
 ;
 }
 #

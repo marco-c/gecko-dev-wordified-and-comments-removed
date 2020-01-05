@@ -12594,7 +12594,7 @@ StyleSet
 )
 -
 >
-ResolveStyleForOtherNonElement
+ResolveStyleForPlaceholder
 (
 aParentStyle
 )

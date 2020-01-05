@@ -277,7 +277,7 @@ StyleSet
 )
 -
 >
-ResolveStyleForOtherNonElement
+ResolveStyleForFirstLetterContinuation
 (
 parentStyleContext
 )
@@ -1652,7 +1652,7 @@ StyleSet
 )
 -
 >
-ResolveStyleForOtherNonElement
+ResolveStyleForFirstLetterContinuation
 (
 parentSC
 )
