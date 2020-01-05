@@ -734,11 +734,6 @@ int64_t
 aTime
 )
 ;
-void
-StartBuffering
-(
-)
-;
 bool
 CanPlayThrough
 (
