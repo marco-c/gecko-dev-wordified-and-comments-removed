@@ -228,6 +228,10 @@ extern
 crate
 msg
 ;
+extern
+crate
+selectors
+;
 #
 [
 macro_use

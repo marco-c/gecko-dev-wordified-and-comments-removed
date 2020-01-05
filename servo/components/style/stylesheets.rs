@@ -63,6 +63,9 @@ use
 selectors
 :
 :
+parser
+:
+:
 {
 Selector
 parse_selector_list
@@ -525,9 +528,9 @@ parser
 .
 context
 .
-namespaces
+selector_context
 .
-prefix_map
+namespace_prefixes
 .
 insert
 (
@@ -552,9 +555,9 @@ parser
 .
 context
 .
-namespaces
+selector_context
 .
-default
+default_namespace
 =
 Some
 (
@@ -1693,9 +1696,12 @@ Selector
 {
 parse_selector_list
 (
+&
 self
 .
 context
+.
+selector_context
 input
 )
 }
@@ -2090,6 +2096,9 @@ cssparser
 ;
 use
 selectors
+:
+:
+parser
 :
 :
 *

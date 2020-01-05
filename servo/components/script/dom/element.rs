@@ -654,10 +654,10 @@ LengthAttribute
 }
 ;
 use
-style
+selectors
 :
 :
-selector_matching
+matching
 :
 :
 matches
@@ -676,10 +676,10 @@ parse_style_attribute
 }
 ;
 use
-style
-:
-:
 selectors
+:
+:
+parser
 :
 :
 parse_author_origin_selector_list_from_str

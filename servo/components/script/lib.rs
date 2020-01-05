@@ -220,6 +220,10 @@ extern
 crate
 script_traits
 ;
+extern
+crate
+selectors
+;
 #
 [
 no_link
