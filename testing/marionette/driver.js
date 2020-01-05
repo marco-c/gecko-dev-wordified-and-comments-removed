@@ -4051,9 +4051,9 @@ script
 let
 wargs
 =
-element
+evaluate
 .
-fromJson
+fromJSON
 (
 args
 this
@@ -4087,9 +4087,9 @@ then
 res
 =
 >
-element
+evaluate
 .
-toJson
+toJSON
 (
 res
 this
@@ -4194,9 +4194,9 @@ CHROME
 let
 wargs
 =
-element
+evaluate
 .
-fromJson
+fromJSON
 (
 args
 this
@@ -4282,9 +4282,9 @@ body
 .
 value
 =
-element
+evaluate
 .
-toJson
+toJSON
 (
 res
 this
