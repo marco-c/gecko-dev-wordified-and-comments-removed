@@ -91,12 +91,6 @@ cocoaWidget
 -
 2
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 size

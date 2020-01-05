@@ -3,7 +3,7 @@ Tests
 for
 repeat
 behaviour
-skip
+fails
 -
 if
 (

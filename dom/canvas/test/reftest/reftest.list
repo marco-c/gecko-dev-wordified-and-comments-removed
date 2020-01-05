@@ -270,12 +270,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 webgl

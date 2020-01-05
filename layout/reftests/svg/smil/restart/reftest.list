@@ -31,7 +31,7 @@ box
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -79,7 +79,7 @@ and
 has
 been
 removed
-skip
+fails
 -
 if
 (

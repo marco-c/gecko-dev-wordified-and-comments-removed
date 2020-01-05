@@ -1491,12 +1491,6 @@ multiple
 summary
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 mouse
@@ -1548,12 +1542,6 @@ if
 gtkWidget
 1
 20
-)
-fails
--
-if
-(
-stylo
 )
 =
 =
