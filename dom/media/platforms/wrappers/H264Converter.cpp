@@ -157,6 +157,7 @@ mOptions
 {
 CreateDecoder
 (
+mOriginalConfig
 aParams
 .
 mDiagnostics
@@ -780,6 +781,10 @@ H264Converter
 :
 CreateDecoder
 (
+const
+VideoInfo
+&
+aConfig
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -796,7 +801,7 @@ AnnexB
 :
 HasSPS
 (
-mCurrentConfig
+aConfig
 .
 mExtraData
 )
@@ -808,7 +813,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 UpdateConfigFromExtraData
 (
-mCurrentConfig
+aConfig
 .
 mExtraData
 )
@@ -829,7 +834,7 @@ H264
 :
 DecodeSPSFromExtraData
 (
-mCurrentConfig
+aConfig
 .
 mExtraData
 spsdata
@@ -897,11 +902,7 @@ mPDM
 CreateVideoDecoder
 (
 {
-mUseOriginalConfig
-?
-mOriginalConfig
-:
-mCurrentConfig
+aConfig
 mTaskQueue
 aDiagnostics
 mImageContainer
@@ -927,10 +928,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mUseOriginalConfig
-=
-false
-;
 mNeedKeyframe
 =
 true
@@ -996,6 +993,7 @@ rv
 =
 CreateDecoder
 (
+mCurrentConfig
 nullptr
 )
 ;

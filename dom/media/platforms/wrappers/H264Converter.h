@@ -223,6 +223,10 @@ private
 nsresult
 CreateDecoder
 (
+const
+VideoInfo
+&
+aConfig
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -386,11 +390,6 @@ mLastError
 ;
 bool
 mNeedKeyframe
-=
-true
-;
-bool
-mUseOriginalConfig
 =
 true
 ;
