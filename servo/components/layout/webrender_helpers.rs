@@ -2814,6 +2814,12 @@ stretch_size
 to_sizef
 (
 )
+Size2D
+:
+:
+zero
+(
+)
 item
 .
 image_rendering
