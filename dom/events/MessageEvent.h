@@ -213,9 +213,6 @@ const
 MessageEventInit
 &
 aEventInit
-ErrorResult
-&
-aRv
 )
 ;
 void
