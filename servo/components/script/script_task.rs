@@ -1422,7 +1422,6 @@ ScriptMemoryFailsafe
 new
 (
 &
-*
 script_task
 )
 ;
@@ -1534,10 +1533,7 @@ WindowSizeData
 )
 -
 >
-Rc
-<
 ScriptTask
->
 {
 let
 (
@@ -1734,11 +1730,6 @@ clone
 }
 )
 ;
-Rc
-:
-:
-new
-(
 ScriptTask
 {
 page
@@ -1811,7 +1802,6 @@ new
 None
 )
 }
-)
 }
 pub
 fn
