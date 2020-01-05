@@ -115,7 +115,7 @@ unsafe_no_drop_flag
 [
 deny
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 #

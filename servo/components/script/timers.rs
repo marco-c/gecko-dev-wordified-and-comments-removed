@@ -698,7 +698,7 @@ resume
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 pub

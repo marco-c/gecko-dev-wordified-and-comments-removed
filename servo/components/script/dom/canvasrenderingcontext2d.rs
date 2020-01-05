@@ -610,6 +610,13 @@ pub
 trait
 LayoutCanvasRenderingContext2DHelpers
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 fn
 get_renderer
@@ -633,6 +640,13 @@ LayoutJS
 CanvasRenderingContext2D
 >
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 fn
 get_renderer

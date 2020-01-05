@@ -99,7 +99,7 @@ custom_attribute
 [
 deny
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 #

@@ -173,7 +173,7 @@ ImageData
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn
@@ -395,7 +395,7 @@ ImageData
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn

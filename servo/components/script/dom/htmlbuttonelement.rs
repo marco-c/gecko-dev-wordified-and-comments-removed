@@ -1671,7 +1671,7 @@ submission
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn

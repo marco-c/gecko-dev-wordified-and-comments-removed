@@ -1574,6 +1574,13 @@ Value
 }
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 trait
 AttrHelpersForLayout
@@ -1637,6 +1644,13 @@ self
 Atom
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 impl
 AttrHelpersForLayout
 for

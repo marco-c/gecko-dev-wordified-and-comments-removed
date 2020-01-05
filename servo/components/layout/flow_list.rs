@@ -126,6 +126,13 @@ head
 [
 inline
 ]
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 unsafe
 fn
@@ -221,6 +228,13 @@ tail
 #
 [
 inline
+]
+#
+[
+allow
+(
+unsafe_code
+)
 ]
 pub
 unsafe
