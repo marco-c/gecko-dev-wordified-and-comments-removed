@@ -135,7 +135,7 @@ new_line_pos
 :
 Vec
 <
-uint
+int
 >
 }
 fn
@@ -189,6 +189,9 @@ pub
 clump
 :
 Range
+<
+int
+>
 }
 impl
 TextRunScanner
@@ -573,6 +576,8 @@ clump
 begin
 (
 )
+as
+uint
 ]
 .
 specific
@@ -673,6 +678,8 @@ clump
 begin
 (
 )
+as
+uint
 ]
 .
 clone
@@ -706,6 +713,8 @@ clump
 begin
 (
 )
+as
+uint
 ]
 ;
 let
@@ -794,8 +803,8 @@ new_line_pos
 =
 vec
 !
-(
-)
+[
+]
 ;
 let
 (
@@ -1034,6 +1043,8 @@ clump
 begin
 (
 )
+as
+uint
 ]
 ;
 let
@@ -1123,8 +1134,8 @@ NewLinePositions
 =
 vec
 !
-(
-)
+[
+]
 ;
 /
 /
@@ -1165,6 +1176,8 @@ clump
 length
 (
 )
+as
+uint
 |
 i
 |
@@ -1217,6 +1230,8 @@ let
 idx
 =
 i
+as
+int
 +
 self
 .
@@ -1233,6 +1248,8 @@ match
 in_boxes
 [
 idx
+as
+uint
 ]
 .
 specific
@@ -1271,8 +1288,8 @@ new_line_pos
 =
 vec
 !
-(
-)
+[
+]
 ;
 let
 (
@@ -1354,12 +1371,15 @@ new_ranges
 Vec
 <
 Range
+<
+int
+>
 >
 =
 vec
 !
-(
-)
+[
+]
 ;
 let
 mut
@@ -1378,6 +1398,8 @@ transformed_strs
 len
 (
 )
+as
+int
 )
 {
 let
@@ -1388,11 +1410,15 @@ transformed_strs
 get
 (
 i
+as
+uint
 )
 .
 char_len
 (
 )
+as
+int
 ;
 new_ranges
 .
@@ -1418,6 +1444,8 @@ transformed_strs
 get
 (
 i
+as
+uint
 )
 )
 ;
@@ -1602,6 +1630,8 @@ new_ranges
 get
 (
 logical_offset
+as
+uint
 )
 ;
 if
@@ -1637,6 +1667,8 @@ compression
 in_boxes
 [
 i
+as
+uint
 ]
 )
 ;
@@ -1682,6 +1714,8 @@ new_box
 in_boxes
 [
 i
+as
+uint
 ]
 .
 transform
@@ -1706,6 +1740,8 @@ new_line_positions
 get
 (
 logical_offset
+as
+uint
 )
 .
 new_line_pos

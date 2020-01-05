@@ -34,7 +34,7 @@ new_line_pos
 mut
 Vec
 <
-uint
+int
 >
 )
 -

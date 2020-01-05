@@ -236,6 +236,9 @@ pub
 range
 :
 Range
+<
+int
+>
 pub
 bounds
 :
@@ -2740,6 +2743,8 @@ new_boxes
 len
 (
 )
+as
+int
 0
 )
 ;
@@ -2942,6 +2947,8 @@ self
 .
 map
 i
+as
+int
 )
 )
 )
@@ -3065,6 +3072,8 @@ self
 .
 map
 i
+as
+int
 )
 )
 )
@@ -3195,6 +3204,8 @@ boxes
 len
 (
 )
+as
+int
 1
 )
 )
@@ -4158,6 +4169,8 @@ boxes
 get_mut
 (
 i
+as
+uint
 )
 ;
 let
@@ -4819,6 +4832,8 @@ boxes
 get_mut
 (
 box_i
+as
+uint
 )
 ;
 let
@@ -4984,6 +4999,8 @@ boxes
 get_mut
 (
 box_i
+as
+uint
 )
 ;
 match
@@ -5349,6 +5366,9 @@ pub
 range
 :
 Range
+<
+int
+>
 }
 impl
 FragmentRange
@@ -5365,6 +5385,9 @@ ComputedValues
 range
 :
 Range
+<
+int
+>
 )
 -
 >
@@ -5448,10 +5471,10 @@ ComputedValues
 >
 new_start_index
 :
-uint
+int
 old_end_index
 :
-uint
+int
 }
 pub
 struct
@@ -5471,7 +5494,7 @@ FragmentRange
 >
 index
 :
-uint
+int
 seen_first
 :
 bool
@@ -5671,6 +5694,9 @@ ComputedValues
 range
 :
 Range
+<
+int
+>
 )
 {
 self
@@ -5769,7 +5795,7 @@ mut
 self
 index
 :
-uint
+int
 )
 -
 >
@@ -5790,6 +5816,8 @@ as_mut_slice
 )
 [
 index
+as
+uint
 ]
 }
 #
@@ -5812,7 +5840,7 @@ a
 self
 index
 :
-uint
+int
 )
 -
 >
@@ -5977,6 +6005,8 @@ node
 >
 {
 index
+as
+int
 }
 Some
 (
@@ -6080,6 +6110,8 @@ begin
 )
 >
 old_fragment_index
+as
+int
 {
 break
 }
@@ -6160,6 +6192,8 @@ last_work_item
 old_end_index
 >
 old_fragment_index
+as
+int
 +
 1
 {
@@ -6199,6 +6233,8 @@ _
 >
 index
 }
+as
+int
 ;
 let
 FragmentFixupWorkItem
@@ -6268,7 +6304,7 @@ a
 FragmentMap
 index
 :
-uint
+int
 }
 impl
 <
@@ -6297,7 +6333,7 @@ a
 FragmentMap
 index
 :
-uint
+int
 )
 -
 >

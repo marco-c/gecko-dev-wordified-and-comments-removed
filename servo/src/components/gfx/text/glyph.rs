@@ -215,7 +215,7 @@ starts_ligature
 bool
 glyph_count
 :
-uint
+int
 )
 -
 >
@@ -232,7 +232,7 @@ u16
 :
 MAX
 as
-uint
+int
 )
 ;
 debug
@@ -314,7 +314,7 @@ missing
 (
 glyph_count
 :
-uint
+int
 )
 -
 >
@@ -331,7 +331,7 @@ u16
 :
 MAX
 as
-uint
+int
 )
 ;
 GlyphEntry
@@ -1173,10 +1173,10 @@ DetailedGlyphRecord
 {
 entry_offset
 :
-uint
+int
 detail_offset
 :
-uint
+int
 }
 impl
 Ord
@@ -1335,7 +1335,7 @@ mut
 self
 entry_offset
 :
-uint
+int
 glyphs
 :
 &
@@ -1361,6 +1361,8 @@ detail_buffer
 len
 (
 )
+as
+int
 }
 ;
 debug
@@ -1373,8 +1375,6 @@ entry
 off
 =
 {
-:
-u
 }
 ]
 for
@@ -1424,7 +1424,7 @@ a
 self
 entry_offset
 :
-uint
+int
 count
 :
 u16
@@ -1449,8 +1449,6 @@ glyphs
 n
 =
 {
-:
-u
 }
 ]
 for
@@ -1459,14 +1457,10 @@ entry
 off
 =
 {
-:
-u
 }
 ]
 "
 count
-as
-uint
 entry_offset
 )
 ;
@@ -1625,7 +1619,7 @@ a
 self
 entry_offset
 :
-uint
+int
 detail_offset
 :
 u16
@@ -1996,7 +1990,7 @@ SimpleGlyphInfo
 '
 a
 GlyphStore
-uint
+int
 )
 DetailGlyphInfo
 (
@@ -2004,7 +1998,7 @@ DetailGlyphInfo
 '
 a
 GlyphStore
-uint
+int
 u16
 )
 }
@@ -2046,6 +2040,8 @@ entry_buffer
 get
 (
 entry_i
+as
+uint
 )
 .
 index
@@ -2108,6 +2104,8 @@ entry_buffer
 get
 (
 entry_i
+as
+uint
 )
 .
 advance
@@ -2220,7 +2218,7 @@ new
 (
 length
 :
-uint
+int
 is_whitespace
 :
 bool
@@ -2247,6 +2245,8 @@ Vec
 from_elem
 (
 length
+as
+uint
 GlyphEntry
 :
 :
@@ -2276,7 +2276,7 @@ self
 )
 -
 >
-uint
+int
 {
 self
 .
@@ -2285,6 +2285,8 @@ entry_buffer
 len
 (
 )
+as
+int
 }
 pub
 fn
@@ -2328,7 +2330,7 @@ mut
 self
 i
 :
-uint
+int
 data
 :
 &
@@ -2396,6 +2398,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -2507,6 +2511,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 )
 ;
@@ -2518,6 +2524,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -2532,7 +2540,7 @@ mut
 self
 i
 :
-uint
+int
 data_for_glyphs
 :
 &
@@ -2553,6 +2561,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 assert
@@ -2575,6 +2585,8 @@ data_for_glyphs
 len
 (
 )
+as
+int
 ;
 let
 first_glyph_data
@@ -2615,6 +2627,8 @@ slice
 from_fn
 (
 glyph_count
+as
+uint
 |
 i
 |
@@ -2682,6 +2696,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 )
 ;
@@ -2696,14 +2712,10 @@ glyphs
 idx
 =
 {
-:
-u
 }
 count
 =
 {
-:
-u
 }
 ]
 :
@@ -2725,6 +2737,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -2739,7 +2753,7 @@ mut
 self
 i
 :
-uint
+int
 cluster_start
 :
 bool
@@ -2760,6 +2774,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -2790,8 +2806,6 @@ glyph
 idx
 =
 {
-:
-u
 }
 ]
 "
@@ -2806,6 +2820,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -2821,7 +2837,7 @@ a
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -2842,6 +2858,8 @@ Range
 new
 (
 i
+as
+int
 1
 )
 )
@@ -2862,6 +2880,9 @@ rang
 :
 &
 Range
+<
+int
+>
 )
 -
 >
@@ -2886,6 +2907,8 @@ entry_buffer
 len
 (
 )
+as
+int
 {
 fail
 !
@@ -2917,6 +2940,8 @@ entry_buffer
 len
 (
 )
+as
+int
 {
 fail
 !
@@ -2966,7 +2991,7 @@ char_is_space
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -2984,6 +3009,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 self
@@ -2993,6 +3020,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 .
 char_is_space
@@ -3007,7 +3036,7 @@ char_is_tab
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -3025,6 +3054,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 self
@@ -3034,6 +3065,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 .
 char_is_tab
@@ -3048,7 +3081,7 @@ char_is_newline
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -3066,6 +3099,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 self
@@ -3075,6 +3110,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 .
 char_is_newline
@@ -3089,7 +3126,7 @@ is_ligature_start
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -3107,6 +3144,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 self
@@ -3116,6 +3155,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 .
 is_ligature_start
@@ -3130,7 +3171,7 @@ is_cluster_start
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -3148,6 +3189,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 self
@@ -3157,6 +3200,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 .
 is_cluster_start
@@ -3171,7 +3216,7 @@ can_break_before
 self
 i
 :
-uint
+int
 )
 -
 >
@@ -3189,6 +3234,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 self
@@ -3198,6 +3245,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 .
 can_break_before
@@ -3213,7 +3262,7 @@ mut
 self
 i
 :
-uint
+int
 )
 {
 assert
@@ -3228,6 +3277,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -3241,6 +3292,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 ;
 *
@@ -3251,6 +3304,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -3269,7 +3324,7 @@ mut
 self
 i
 :
-uint
+int
 )
 {
 assert
@@ -3284,6 +3339,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -3297,6 +3354,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 ;
 *
@@ -3307,6 +3366,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -3325,7 +3386,7 @@ mut
 self
 i
 :
-uint
+int
 )
 {
 assert
@@ -3340,6 +3401,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -3353,6 +3416,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 ;
 *
@@ -3363,6 +3428,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -3381,7 +3448,7 @@ mut
 self
 i
 :
-uint
+int
 t
 :
 BreakType
@@ -3399,6 +3466,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -3412,6 +3481,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 ;
 *
@@ -3422,6 +3493,8 @@ entry_buffer
 get_mut
 (
 i
+as
+uint
 )
 =
 entry
@@ -3449,7 +3522,7 @@ a
 GlyphStore
 char_index
 :
-uint
+int
 char_range
 :
 iter
@@ -3457,7 +3530,7 @@ iter
 :
 Range
 <
-uint
+int
 >
 glyph_range
 :
@@ -3468,7 +3541,7 @@ iter
 :
 Range
 <
-uint
+int
 >
 >
 }
@@ -3502,7 +3575,7 @@ self
 Option
 <
 (
-uint
+int
 GlyphInfo
 <
 '
@@ -3587,14 +3660,14 @@ entry
 GlyphEntry
 i
 :
-uint
+int
 )
 -
 >
 Option
 <
 (
-uint
+int
 GlyphInfo
 <
 '
@@ -3636,6 +3709,8 @@ glyphs
 len
 (
 )
+as
+int
 )
 )
 ;
@@ -3654,7 +3729,7 @@ a
 Iterator
 <
 (
-uint
+int
 GlyphInfo
 <
 '
@@ -3688,7 +3763,7 @@ self
 Option
 <
 (
-uint
+int
 GlyphInfo
 <
 '
@@ -3750,6 +3825,8 @@ entry_buffer
 len
 (
 )
+as
+int
 )
 ;
 let
@@ -3764,6 +3841,8 @@ entry_buffer
 get
 (
 i
+as
+uint
 )
 ;
 if
