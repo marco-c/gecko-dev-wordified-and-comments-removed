@@ -1217,7 +1217,7 @@ tooltiptext
 =
 "
 &
-paneDownloadLinks
+paneFilesApplications
 .
 title
 ;
@@ -1255,7 +1255,7 @@ flex
 "
 >
 &
-paneDownloadLinks
+paneFilesApplications
 .
 title
 ;
