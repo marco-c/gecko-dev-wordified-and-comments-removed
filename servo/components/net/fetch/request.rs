@@ -164,11 +164,15 @@ use
 net_traits
 :
 :
+response
+:
+:
 {
-AsyncFetchListener
 CacheState
 HttpsState
 Response
+ResponseType
+TerminationReason
 }
 ;
 use
@@ -176,9 +180,8 @@ net_traits
 :
 :
 {
-ResponseType
+AsyncFetchListener
 Metadata
-TerminationReason
 }
 ;
 use
