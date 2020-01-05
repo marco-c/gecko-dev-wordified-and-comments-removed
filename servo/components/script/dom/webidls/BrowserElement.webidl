@@ -426,7 +426,7 @@ dictionary
 BrowserElementLocationChangeEventDetail
 {
 DOMString
-uri
+url
 ;
 boolean
 canGoBack
