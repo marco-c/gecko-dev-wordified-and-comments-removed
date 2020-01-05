@@ -58,3 +58,8 @@ SERVO_ARC_TYPE
 PageRule
 RawServoPageRule
 )
+SERVO_ARC_TYPE
+(
+SupportsRule
+RawServoSupportsRule
+)

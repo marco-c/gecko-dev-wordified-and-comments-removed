@@ -663,6 +663,11 @@ ServoStyleSheet
 h
 '
 '
+ServoSupportsRule
+.
+h
+'
+'
 ServoTypes
 .
 h
@@ -1242,6 +1247,11 @@ cpp
 '
 '
 ServoStyleSheet
+.
+cpp
+'
+'
+ServoSupportsRule
 .
 cpp
 '

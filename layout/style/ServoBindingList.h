@@ -407,6 +407,10 @@ BASIC_RULE_FUNCS
 (
 Page
 )
+GROUP_RULE_FUNCS
+(
+Supports
+)
 #
 undef
 GROUP_RULE_FUNCS
@@ -487,6 +491,16 @@ RawServoPageRuleBorrowed
 rule
 RawServoDeclarationBlockBorrowed
 declarations
+)
+SERVO_BINDING_FUNC
+(
+Servo_SupportsRule_GetConditionText
+void
+RawServoSupportsRuleBorrowed
+rule
+nsAString
+*
+result
 )
 SERVO_BINDING_FUNC
 (
