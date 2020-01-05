@@ -12,15 +12,6 @@ CacheRequestDetails
 }
 ;
 use
-fetch
-:
-:
-response
-:
-:
-ResponseMethods
-;
-use
 http_loader
 :
 :
