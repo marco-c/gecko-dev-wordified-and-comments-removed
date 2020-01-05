@@ -743,8 +743,9 @@ recv
 (
 )
 .
-ok
+unwrap_or
 (
+None
 )
 }
 fn
@@ -948,7 +949,10 @@ GetNativeDisplay
 (
 Sender
 <
+Option
+<
 NativeDisplay
+>
 >
 )
 InitializeLayersForPipeline
