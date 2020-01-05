@@ -111,7 +111,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-action
+legacyaction
 "
 ]
 ;
@@ -129,6 +129,10 @@ Marionette
 "
 )
 ;
+this
+.
+legacyaction
+=
 this
 .
 action
