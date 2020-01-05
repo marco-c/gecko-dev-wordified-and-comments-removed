@@ -1988,7 +1988,7 @@ azure
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -4317,7 +4317,7 @@ version
 "
 0
 .
-4
+5
 .
 0
 "
@@ -12308,7 +12308,7 @@ canvas_traits
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -12585,7 +12585,7 @@ selectors
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -14528,7 +14528,7 @@ index
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -19261,7 +19261,7 @@ index
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -19779,7 +19779,7 @@ selectors
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -20474,7 +20474,7 @@ version
 .
 2
 .
-2
+3
 "
 source
 =
@@ -20535,7 +20535,7 @@ index
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -23846,7 +23846,7 @@ index
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -24119,7 +24119,7 @@ selectors
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -24359,7 +24359,7 @@ dependencies
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -24545,7 +24545,7 @@ selectors
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -26074,7 +26074,7 @@ index
 cssparser
 0
 .
-4
+5
 .
 0
 (
@@ -26511,7 +26511,7 @@ selectors
 .
 2
 .
-2
+3
 (
 registry
 +

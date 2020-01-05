@@ -86,6 +86,15 @@ plugin
 plugins
 )
 ]
+#
+!
+[
+recursion_limit
+=
+"
+500
+"
+]
 extern
 crate
 app_units
