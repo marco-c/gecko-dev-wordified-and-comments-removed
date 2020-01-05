@@ -523,10 +523,6 @@ direction
 ;
 attribute
 DOMString
-selectionDirection
-;
-attribute
-DOMString
 useMap
 ;
 readonly
