@@ -1438,6 +1438,13 @@ timing
 >
 NotifyNavigationStart
 (
+nsDOMNavigationTiming
+:
+:
+DocShellState
+:
+:
+eInactive
 )
 ;
 viewer
