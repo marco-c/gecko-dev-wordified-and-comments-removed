@@ -629,7 +629,6 @@ changeFrameWidth
 4
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -650,7 +649,6 @@ changeOrder
 1a
 .
 html
-fails
 =
 =
 flexbox
