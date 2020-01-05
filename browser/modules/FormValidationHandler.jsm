@@ -545,7 +545,7 @@ _anchor
 =
 tabBrowser
 .
-formValidationAnchor
+popupAnchor
 ;
 this
 .
