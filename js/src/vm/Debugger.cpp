@@ -10897,12 +10897,13 @@ obj
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 constructorDisplayAtom
 (
 cx
+obj
 &
 ctorName
 )
