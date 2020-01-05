@@ -1336,6 +1336,11 @@ mNeedTimeCheck
 aNeedTimeCheck
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+mRegistration
+)
+;
 }
 NS_IMETHOD
 Run
@@ -2210,6 +2215,11 @@ bool
 aRunResult
 )
 {
+if
+(
+mRegistration
+)
+{
 nsCOMPtr
 <
 nsIRunnable
@@ -2235,6 +2245,7 @@ forget
 )
 )
 ;
+}
 ExtendableEventWorkerRunnable
 :
 :
@@ -4825,12 +4836,6 @@ const
 nsCString
 mScriptSpec
 ;
-nsMainThreadPtrHandle
-<
-ServiceWorkerRegistrationInfo
->
-mRegistration
-;
 nsTArray
 <
 nsCString
@@ -4935,10 +4940,6 @@ aChannel
 mScriptSpec
 (
 aScriptSpec
-)
-mRegistration
-(
-aRegistration
 )
 mClientId
 (
