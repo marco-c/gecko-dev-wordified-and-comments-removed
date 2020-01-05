@@ -618,6 +618,11 @@ ServoMediaList
 h
 '
 '
+ServoMediaRule
+.
+h
+'
+'
 ServoPropPrefList
 .
 h
@@ -1157,6 +1162,11 @@ cpp
 '
 '
 ServoMediaList
+.
+cpp
+'
+'
+ServoMediaRule
 .
 cpp
 '
