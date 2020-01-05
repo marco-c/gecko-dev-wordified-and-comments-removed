@@ -2323,6 +2323,15 @@ DecoderFactory
 >
 mDecoderFactory
 ;
+class
+ShutdownPromisePool
+;
+UniquePtr
+<
+ShutdownPromisePool
+>
+mShutdownPromisePool
+;
 MediaEventListener
 mCompositorUpdatedListener
 ;
