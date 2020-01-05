@@ -7849,6 +7849,9 @@ IDLNullValue
         
 return
 "
+ConstantVal
+:
+:
 NullVal
 "
     
@@ -7897,6 +7900,9 @@ int32
         
 return
 "
+ConstantVal
+:
+:
 IntVal
 (
 %
@@ -7923,6 +7929,9 @@ uint32
         
 return
 "
+ConstantVal
+:
+:
 UintVal
 (
 %
@@ -7955,6 +7964,9 @@ uint64
         
 return
 "
+ConstantVal
+:
+:
 DoubleVal
 (
 %
@@ -7981,6 +7993,9 @@ bool
         
 return
 "
+ConstantVal
+:
+:
 BoolVal
 (
 true
@@ -7992,6 +8007,9 @@ value
 value
 else
 "
+ConstantVal
+:
+:
 BoolVal
 (
 false
@@ -8028,6 +8046,9 @@ double
         
 return
 "
+ConstantVal
+:
+:
 DoubleVal
 (
 %
@@ -15114,31 +15135,7 @@ return
 "
 \
 static
-INTERFACE_OBJECT_OPS
-:
-js
-:
-:
-jsapi
-:
-:
-ClassOps
-=
-    
-NonCallbackInterfaceObjectClass
-:
-:
-ops
-(
-%
-(
-constructorBehavior
-)
-s
-)
-;
-static
-InterfaceObjectClass
+INTERFACE_OBJECT_CLASS
 :
 NonCallbackInterfaceObjectClass
 =
@@ -15150,7 +15147,11 @@ new
 (
         
 &
-INTERFACE_OBJECT_OPS
+%
+(
+constructorBehavior
+)
+s
         
 %
 (
@@ -20509,7 +20510,7 @@ handle
 )
                                     
 &
-InterfaceObjectClass
+INTERFACE_OBJECT_CLASS
                                     
 %
 (
@@ -21132,7 +21133,7 @@ named_constructors
 :
 [
 (
-NonNullJSNative
+ConstructorClassHook
 &
 '
 static
@@ -21206,7 +21207,7 @@ CGGeneric
 %
 s
 as
-NonNullJSNative
+ConstructorClassHook
 %
 s
 %
@@ -41256,6 +41257,32 @@ dom
 bindings
 :
 :
+constant
+:
+:
+ConstantSpec
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
+constant
+:
+:
+ConstantVal
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
 global
 :
 :
@@ -41298,39 +41325,7 @@ bindings
 interface
 :
 :
-ConstantSpec
-'
-        
-'
-dom
-:
-:
-bindings
-:
-:
-interface
-:
-:
-ConstantVal
-:
-:
-IntVal
-'
-        
-'
-dom
-:
-:
-bindings
-:
-:
-interface
-:
-:
-ConstantVal
-:
-:
-UintVal
+ConstructorClassHook
 '
         
 '
@@ -41357,19 +41352,6 @@ interface
 :
 :
 NonCallbackInterfaceObjectClass
-'
-        
-'
-dom
-:
-:
-bindings
-:
-:
-interface
-:
-:
-NonNullJSNative
 '
         
 '
