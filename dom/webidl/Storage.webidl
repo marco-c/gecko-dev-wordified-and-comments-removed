@@ -159,7 +159,6 @@ Storage
 {
 [
 Throws
-NeedsSubjectPrincipal
 ]
 readonly
 attribute
@@ -169,7 +168,6 @@ length
 ;
 [
 Throws
-NeedsSubjectPrincipal
 ]
 DOMString
 ?
@@ -182,7 +180,6 @@ index
 ;
 [
 Throws
-NeedsSubjectPrincipal
 ]
 getter
 DOMString
@@ -195,7 +192,6 @@ key
 ;
 [
 Throws
-NeedsSubjectPrincipal
 ]
 setter
 creator
@@ -210,7 +206,6 @@ value
 ;
 [
 Throws
-NeedsSubjectPrincipal
 ]
 deleter
 void
@@ -222,7 +217,6 @@ key
 ;
 [
 Throws
-NeedsSubjectPrincipal
 ]
 void
 clear
