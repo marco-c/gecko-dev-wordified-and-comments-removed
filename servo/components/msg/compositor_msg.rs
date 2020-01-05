@@ -309,8 +309,8 @@ pub
 enum
 LayerKind
 {
-Layer2D
-Layer3D
+NoTransform
+HasTransform
 }
 #
 [

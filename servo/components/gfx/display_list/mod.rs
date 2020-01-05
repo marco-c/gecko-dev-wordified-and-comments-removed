@@ -2176,7 +2176,7 @@ layer_kind
 LayerKind
 :
 :
-Layer3D
+HasTransform
 {
 self
 .
@@ -4615,7 +4615,7 @@ layer_kind
 LayerKind
 :
 :
-Layer2D
+NoTransform
 {
 let
 this_clip
