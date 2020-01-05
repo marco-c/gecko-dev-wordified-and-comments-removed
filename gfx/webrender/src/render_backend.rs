@@ -1508,11 +1508,10 @@ false
 ApiMsg
 :
 :
-ScrollLayersWithScrollId
+ScrollLayerWithId
 (
 origin
-pipeline_id
-scroll_root_id
+id
 )
 =
 >
@@ -1521,7 +1520,7 @@ profile_scope
 !
 (
 "
-ScrollLayersWithScrollId
+ScrollLayerWithScrollId
 "
 )
 ;
@@ -1555,8 +1554,7 @@ frame
 scroll_nodes
 (
 origin
-pipeline_id
-scroll_root_id
+id
 )
 {
 Some
