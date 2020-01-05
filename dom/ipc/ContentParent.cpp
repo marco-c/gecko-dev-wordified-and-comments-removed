@@ -10752,6 +10752,10 @@ sheetService
 >
 AgentStyleSheets
 (
+StyleBackendType
+:
+:
+Gecko
 )
 )
 {
@@ -10794,6 +10798,10 @@ sheetService
 >
 UserStyleSheets
 (
+StyleBackendType
+:
+:
+Gecko
 )
 )
 {
@@ -10836,6 +10844,10 @@ sheetService
 >
 AuthorStyleSheets
 (
+StyleBackendType
+:
+:
+Gecko
 )
 )
 {
