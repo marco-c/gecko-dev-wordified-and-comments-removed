@@ -223,6 +223,9 @@ cache
 canvas
 '
 '
+contacts
+'
+'
 crypto
 '
 '
@@ -262,6 +265,9 @@ grid
 html
 '
 '
+icc
+'
+'
 inputport
 '
 '
@@ -278,6 +284,9 @@ mathml
 '
 '
 media
+'
+'
+mobileconnection
 '
 '
 notification

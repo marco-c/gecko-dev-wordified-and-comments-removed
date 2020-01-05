@@ -16,15 +16,6 @@ include
 "
 mozilla
 /
-DOMEventTargetHelper
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 GamepadBinding
