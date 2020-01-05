@@ -21,6 +21,7 @@ net_traits
 :
 :
 {
+CacheState
 Response
 ResponseBody
 ResponseType
@@ -152,6 +153,12 @@ ResponseBody
 :
 :
 Empty
+cache_state
+:
+CacheState
+:
+:
+None
 internal_response
 :
 None
