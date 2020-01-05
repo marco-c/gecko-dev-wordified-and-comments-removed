@@ -1381,7 +1381,7 @@ OwnerDoc
 mozilla
 :
 :
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 RefPtr
