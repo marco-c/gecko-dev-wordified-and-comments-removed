@@ -159,8 +159,9 @@ index
 1
 )
 ;
-/
-/
+[
+Throws
+]
 void
 deleteRow
 (
