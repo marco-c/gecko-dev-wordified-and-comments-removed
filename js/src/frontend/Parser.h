@@ -2913,6 +2913,17 @@ errorNumber
 .
 )
 ;
+MOZ_MUST_USE
+bool
+strictModeError
+(
+unsigned
+errorNumber
+.
+.
+.
+)
+;
 Parser
 (
 ExclusiveContext
