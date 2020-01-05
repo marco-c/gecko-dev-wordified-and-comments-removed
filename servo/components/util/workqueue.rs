@@ -147,7 +147,7 @@ WorkData
 >
 >
 *
-mut
+const
 AtomicUsize
 *
 const
@@ -939,7 +939,7 @@ WorkData
 ref_count
 :
 *
-mut
+const
 AtomicUsize
 queue_data
 :
@@ -1519,7 +1519,6 @@ QueueData
 )
 {
 let
-mut
 work_count
 =
 AtomicUsize
@@ -1564,7 +1563,6 @@ unwrap
 (
 )
 &
-mut
 work_count
 data
 )
