@@ -698,7 +698,18 @@ StyleStateFromLocks
 )
 ;
 }
+struct
+StyleStateLocks
+{
 EventStates
+mLocks
+;
+EventStates
+mValues
+;
+}
+;
+StyleStateLocks
 LockedStyleStates
 (
 )
@@ -709,6 +720,8 @@ LockStyleStates
 (
 EventStates
 aStates
+bool
+aEnabled
 )
 ;
 void
