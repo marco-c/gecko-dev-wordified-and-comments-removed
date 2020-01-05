@@ -2459,7 +2459,7 @@ add_task
 (
 function
 *
-test_invalidated_lazy_injection
+test_neuter
 (
 )
 {
