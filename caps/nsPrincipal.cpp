@@ -178,13 +178,6 @@ nsIAppsService
 .
 h
 "
-#
-include
-"
-mozIApplication
-.
-h
-"
 using
 namespace
 mozilla

@@ -562,13 +562,6 @@ mozapp
 )
 GK_ATOM
 (
-mozwidget
-"
-mozwidget
-"
-)
-GK_ATOM
-(
 applet
 "
 applet

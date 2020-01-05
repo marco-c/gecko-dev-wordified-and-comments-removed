@@ -722,11 +722,6 @@ OwnerIsMozBrowserOrAppFrame
 )
 ;
 bool
-OwnerIsWidget
-(
-)
-;
-bool
 OwnerIsAppFrame
 (
 )
