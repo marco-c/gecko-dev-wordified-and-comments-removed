@@ -31289,6 +31289,24 @@ iterexpr
 )
 :
         
+msgtype
+=
+ExprCall
+(
+ExprSelect
+(
+msgexpr
+'
+.
+'
+'
+type
+'
+)
+[
+]
+)
+        
 return
 StmtExpr
 (
@@ -31309,6 +31327,7 @@ args
 =
 [
 iterexpr
+msgtype
 ]
 )
 )
