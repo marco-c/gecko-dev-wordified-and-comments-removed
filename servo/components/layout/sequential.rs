@@ -523,8 +523,7 @@ base
 (
 &
 *
-*
-root
+flow_root
 )
 .
 stacking_context_id
