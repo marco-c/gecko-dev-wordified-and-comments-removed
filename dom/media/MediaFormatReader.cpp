@@ -9712,11 +9712,6 @@ if
 decoder
 .
 mFlushing
-|
-|
-decoder
-.
-mShuttingDown
 )
 {
 LOGV
@@ -12179,10 +12174,10 @@ flushing
 :
 %
 d
-shutdown
+desc
 :
 %
-d
+s
 pending
 :
 %
@@ -12229,7 +12224,7 @@ decoder
 mFlushing
 decoder
 .
-mShuttingDown
+mDescription
 uint32_t
 (
 decoder

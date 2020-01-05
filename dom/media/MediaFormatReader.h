@@ -933,11 +933,6 @@ ShutdownPromise
 >
 mShutdownPromise
 ;
-bool
-mShuttingDown
-=
-false
-;
 MozPromiseRequestHolder
 <
 MediaDataDecoder
