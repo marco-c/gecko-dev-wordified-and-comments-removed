@@ -1152,14 +1152,6 @@ devtools
 /
 shared
 /
-heapsnapshot
-/
-*
-*
-devtools
-/
-shared
-/
 platform
 /
 content
