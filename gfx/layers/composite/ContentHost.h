@@ -296,6 +296,9 @@ const
 nsIntRegion
 &
 aOldValidRegionBack
+nsIntRegion
+*
+aUpdatedRegionBack
 )
 =
 0
@@ -808,6 +811,9 @@ const
 nsIntRegion
 &
 aOldValidRegionBack
+nsIntRegion
+*
+aUpdatedRegionBack
 )
 ;
 protected
@@ -876,6 +882,9 @@ const
 nsIntRegion
 &
 aOldValidRegionBack
+nsIntRegion
+*
+aUpdatedRegionBack
 )
 ;
 }

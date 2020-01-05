@@ -289,6 +289,13 @@ toDestroy
 uint64_t
 fwdTransactionId
 )
+returns
+(
+EditReply
+[
+]
+reply
+)
 ;
 async
 UpdateNoSwap
