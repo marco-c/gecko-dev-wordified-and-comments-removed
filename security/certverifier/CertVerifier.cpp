@@ -2209,9 +2209,6 @@ Result
 :
 ERROR_UNKNOWN_ERROR
 ;
-#
-ifndef
-MOZ_NO_EV_CERTS
 NSSCertDBTrustDomain
 :
 :
@@ -2518,8 +2515,6 @@ Success
 break
 ;
 }
-#
-endif
 if
 (
 flags
