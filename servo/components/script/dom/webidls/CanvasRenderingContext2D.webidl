@@ -1193,8 +1193,6 @@ double
 y
 )
 ;
-/
-/
 void
 lineTo
 (
