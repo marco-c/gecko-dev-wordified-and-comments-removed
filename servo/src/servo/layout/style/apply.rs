@@ -220,7 +220,7 @@ read
 node
 |
 {
-alt
+match
 node
 .
 kind
@@ -250,7 +250,7 @@ appearance
 .
 background_color
 =
-alt
+match
 style
 .
 background_color
@@ -274,7 +274,7 @@ default_color
 )
 }
 ;
-alt
+match
 element
 .
 kind

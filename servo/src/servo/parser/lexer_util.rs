@@ -305,7 +305,7 @@ get
 >
 CharOrEof
 {
-alt
+match
 copy
 self
 .
@@ -388,7 +388,7 @@ return
 CoeEof
 ;
 }
-alt
+match
 self
 .
 input_port
@@ -415,7 +415,7 @@ move
 once
 we
 have
-alt
+match
 move
 self
 .
@@ -510,7 +510,7 @@ ch
 u8
 )
 {
-alt
+match
 self
 .
 get
@@ -605,7 +605,7 @@ u8
 ;
 loop
 {
-alt
+match
 self
 .
 get
@@ -757,7 +757,7 @@ eat_whitespace
 {
 loop
 {
-alt
+match
 self
 .
 get

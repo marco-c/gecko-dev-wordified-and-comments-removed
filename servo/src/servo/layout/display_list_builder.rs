@@ -509,7 +509,7 @@ appearance
 .
 background_color
 ;
-alt
+match
 box
 .
 kind
@@ -803,7 +803,7 @@ construct_boxes
 let
 subbox
 =
-alt
+match
 check
 b
 .
@@ -853,7 +853,7 @@ px_to_au
 )
 )
 ;
-alt
+match
 list
 [
 0
@@ -937,7 +937,7 @@ construct_boxes
 let
 subbox
 =
-alt
+match
 check
 b
 .
@@ -989,7 +989,7 @@ px_to_au
 )
 )
 ;
-alt
+match
 list
 [
 1
@@ -1066,7 +1066,7 @@ construct_boxes
 let
 subbox
 =
-alt
+match
 check
 b
 .
@@ -1209,7 +1209,7 @@ construct_boxes
 let
 subbox
 =
-alt
+match
 check
 b
 .

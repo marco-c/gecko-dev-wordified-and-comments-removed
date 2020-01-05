@@ -258,7 +258,7 @@ Msg
 >
 bool
 {
-alt
+match
 request
 {
 LoadURLMsg
@@ -279,7 +279,7 @@ move
 once
 we
 have
-alt
+match
 move
 let
 url

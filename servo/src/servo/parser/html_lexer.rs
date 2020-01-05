@@ -169,7 +169,7 @@ ch
 :
 u8
 ;
-alt
+match
 self
 .
 input_state
@@ -202,7 +202,7 @@ Eof
 let
 token
 =
-alt
+match
 self
 .
 parser_state
@@ -276,7 +276,7 @@ as
 u8
 )
 {
-alt
+match
 self
 .
 input_state
@@ -510,7 +510,7 @@ ch
 ;
 loop
 {
-alt
+match
 self
 .
 input_state
@@ -632,7 +632,7 @@ as
 u8
 )
 {
-alt
+match
 self
 .
 input_state
@@ -757,7 +757,7 @@ ch
 ;
 loop
 {
-alt
+match
 self
 .
 input_state
@@ -848,7 +848,7 @@ attribute_value
 ;
 loop
 {
-alt
+match
 self
 .
 input_state

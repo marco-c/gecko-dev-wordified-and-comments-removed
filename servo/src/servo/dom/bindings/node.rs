@@ -744,7 +744,7 @@ read
 nd
 |
 {
-alt
+match
 nd
 .
 tree
@@ -840,7 +840,7 @@ read
 nd
 |
 {
-alt
+match
 nd
 .
 tree
@@ -936,7 +936,7 @@ read
 nd
 |
 {
-alt
+match
 nd
 .
 kind

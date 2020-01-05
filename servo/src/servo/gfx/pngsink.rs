@@ -366,7 +366,7 @@ is_not_null
 ;
 loop
 {
-alt
+match
 po
 .
 recv

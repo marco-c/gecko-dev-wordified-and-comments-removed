@@ -106,7 +106,7 @@ o
 let
 opt_match
 =
-alt
+match
 getopts
 :
 :
@@ -187,7 +187,7 @@ free
 let
 render_mode
 =
-alt
+match
 getopts
 :
 :

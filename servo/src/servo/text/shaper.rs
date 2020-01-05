@@ -650,7 +650,7 @@ is_not_null
 )
 ;
 return
-alt
+match
 (
 *
 font

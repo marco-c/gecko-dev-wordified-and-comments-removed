@@ -2249,7 +2249,7 @@ a
 animal
 )
 {
-alt
+match
 a
 .
 species
@@ -2291,7 +2291,7 @@ animal
 >
 uint
 {
-alt
+match
 a
 .
 species

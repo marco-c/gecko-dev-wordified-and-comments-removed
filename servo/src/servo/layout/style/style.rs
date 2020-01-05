@@ -241,7 +241,7 @@ default_color
 >
 Color
 {
-alt
+match
 self
 {
 Text
@@ -307,7 +307,7 @@ default_display_type
 >
 DisplayType
 {
-alt
+match
 self
 {
 Text
@@ -326,7 +326,7 @@ element
 =
 >
 {
-alt
+match
 *
 element
 .

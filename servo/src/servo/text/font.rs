@@ -540,7 +540,7 @@ extents
 )
 )
 ;
-alt
+match
 cairo_scaled_font_status
 (
 self

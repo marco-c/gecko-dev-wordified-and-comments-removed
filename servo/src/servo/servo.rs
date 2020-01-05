@@ -114,7 +114,7 @@ opts
 Opts
 )
 {
-alt
+match
 opts
 .
 render_mode
@@ -326,7 +326,7 @@ keypress
 "
 ]
 ;
-alt
+match
 keypress_from_osmain
 .
 try_recv
@@ -507,7 +507,7 @@ none
 )
 )
 ;
-alt
+match
 buffered_file_writer
 (
 outfile

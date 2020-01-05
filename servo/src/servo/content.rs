@@ -295,14 +295,6 @@ url
 :
 make_url
 ;
-type
-Content
-=
-chan
-<
-ControlMsg
->
-;
 enum
 ControlMsg
 {
@@ -644,7 +636,7 @@ Event
 >
 bool
 {
-alt
+match
 msg
 {
 left
@@ -684,7 +676,7 @@ ControlMsg
 >
 bool
 {
-alt
+match
 control_msg
 {
 ParseMsg
@@ -981,7 +973,7 @@ url
 )
 ]
 ;
-alt
+match
 read_whole_file
 (
 url
@@ -1243,7 +1235,7 @@ Event
 >
 bool
 {
-alt
+match
 event
 {
 ResizeEvent
@@ -1272,7 +1264,7 @@ new_width
 new_height
 )
 ;
-alt
+match
 copy
 self
 .

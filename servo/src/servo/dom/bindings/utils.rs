@@ -388,7 +388,7 @@ DOMString
 >
 jsval
 {
-alt
+match
 str
 {
 null_string

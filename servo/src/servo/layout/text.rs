@@ -142,7 +142,7 @@ subbox
 text_box
 )
 {
-alt
+match
 self
 .
 kind
@@ -334,7 +334,7 @@ construct_boxes
 let
 subbox
 =
-alt
+match
 check
 b
 .

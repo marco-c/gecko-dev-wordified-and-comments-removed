@@ -116,7 +116,7 @@ ElementData
 >
 bool
 {
-alt
+match
 attr
 {
 Exists
@@ -126,7 +126,7 @@ name
 =
 >
 {
-alt
+match
 elmt
 .
 get_attr
@@ -155,7 +155,7 @@ val
 =
 >
 {
-alt
+match
 elmt
 .
 get_attr
@@ -217,7 +217,7 @@ return
 false
 ;
 }
-alt
+match
 elmt
 .
 get_attr
@@ -257,7 +257,7 @@ val
 =
 >
 {
-alt
+match
 elmt
 .
 get_attr
@@ -444,7 +444,7 @@ Selector
 >
 bool
 {
-alt
+match
 *
 sel
 {
@@ -480,7 +480,7 @@ attrs
 =
 >
 {
-alt
+match
 self
 .
 read
@@ -638,7 +638,7 @@ Selector
 >
 bool
 {
-alt
+match
 *
 sel
 {
@@ -668,7 +668,7 @@ sel2
 >
 {
 return
-alt
+match
 self
 .
 read
@@ -755,7 +755,7 @@ let
 mut
 cur_parent
 =
-alt
+match
 self
 .
 read
@@ -800,7 +800,7 @@ true
 }
 cur_parent
 =
-alt
+match
 cur_parent
 .
 read
@@ -868,7 +868,7 @@ if
 they
 match
 .
-alt
+match
 self
 .
 read
@@ -912,7 +912,7 @@ true
 }
 cur_sib
 =
-alt
+match
 cur_sib
 .
 read
@@ -959,7 +959,7 @@ rest
 of
 the
 siblings
-alt
+match
 self
 .
 read
@@ -1003,7 +1003,7 @@ true
 }
 cur_sib
 =
-alt
+match
 cur_sib
 .
 read
@@ -1106,7 +1106,7 @@ aux
 layout
 |
 {
-alt
+match
 decl
 {
 BackgroundColor

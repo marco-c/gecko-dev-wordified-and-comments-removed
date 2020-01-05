@@ -68,7 +68,7 @@ option
 Unit
 >
 {
-alt
+match
 str
 {
 s
@@ -472,7 +472,7 @@ default
 .
 0
 ;
-alt
+match
 str
 {
 ~
@@ -685,7 +685,7 @@ option
 Unit
 >
 {
-alt
+match
 str
 {
 ~
@@ -737,7 +737,7 @@ option
 DisplayType
 >
 {
-alt
+match
 str
 {
 ~

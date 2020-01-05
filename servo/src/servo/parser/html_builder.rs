@@ -244,7 +244,7 @@ node
 node_contents
 |
 {
-alt
+match
 *
 node_contents
 .
@@ -273,7 +273,7 @@ value
 )
 )
 ;
-alt
+match
 *
 element
 .
@@ -294,7 +294,7 @@ width
 =
 >
 {
-alt
+match
 int
 :
 :
@@ -354,7 +354,7 @@ height
 =
 >
 {
-alt
+match
 int
 :
 :
@@ -463,7 +463,7 @@ str
 ~
 ElementKind
 {
-alt
+match
 tag_name
 {
 ~
@@ -677,7 +677,7 @@ result_vec
 ;
 loop
 {
-alt
+match
 from_parent
 .
 recv
@@ -723,7 +723,7 @@ move
 once
 we
 have
-alt
+match
 move
 let
 url
@@ -872,7 +872,7 @@ result_vec
 ;
 loop
 {
-alt
+match
 from_parent
 .
 recv
@@ -918,7 +918,7 @@ move
 once
 we
 have
-alt
+match
 move
 let
 url
@@ -981,7 +981,7 @@ buf
 ;
 loop
 {
-alt
+match
 input_port
 .
 recv
@@ -1339,7 +1339,7 @@ recv
 (
 )
 ;
-alt
+match
 token
 {
 parser
@@ -1526,7 +1526,7 @@ cur_node
 n
 |
 {
-alt
+match
 *
 n
 .
@@ -1549,7 +1549,7 @@ link
 =
 >
 {
-alt
+match
 elmt
 .
 get_attr
@@ -1575,7 +1575,7 @@ stylesheet
 =
 >
 {
-alt
+match
 elmt
 .
 get_attr
@@ -1736,7 +1736,7 @@ cur_node
 n
 |
 {
-alt
+match
 *
 n
 .
@@ -1759,7 +1759,7 @@ script
 =
 >
 {
-alt
+match
 elmt
 .
 get_attr

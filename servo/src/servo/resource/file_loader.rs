@@ -89,7 +89,7 @@ file
 do
 spawn
 {
-alt
+match
 file_reader
 (
 url

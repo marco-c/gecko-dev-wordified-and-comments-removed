@@ -211,7 +211,7 @@ ch
 :
 u8
 ;
-alt
+match
 self
 .
 input_state
@@ -241,7 +241,7 @@ Eof
 let
 token
 =
-alt
+match
 self
 .
 parser_state
@@ -320,7 +320,7 @@ CssElement
 let
 token
 =
-alt
+match
 c
 {
 '
@@ -608,7 +608,7 @@ eat_whitespace
 (
 )
 ;
-alt
+match
 self
 .
 input_state
@@ -653,7 +653,7 @@ ch
 )
 ;
 }
-alt
+match
 ch
 {
 '
@@ -731,7 +731,7 @@ parse_ident
 (
 )
 ;
-alt
+match
 self
 .
 input_state
@@ -1067,7 +1067,7 @@ eat_whitespace
 (
 )
 ;
-alt
+match
 self
 .
 input_state
@@ -1184,7 +1184,7 @@ ch
 )
 ;
 }
-alt
+match
 self
 .
 input_state
@@ -1248,7 +1248,7 @@ the
 descriptor
 loop
 {
-alt
+match
 self
 .
 input_state

@@ -171,7 +171,7 @@ get
 >
 Token
 {
-alt
+match
 copy
 self
 .
@@ -330,7 +330,7 @@ type
 let
 elmt_name
 =
-alt
+match
 self
 .
 get
@@ -397,7 +397,7 @@ get
 (
 )
 ;
-alt
+match
 tok
 {
 Attr
@@ -544,7 +544,7 @@ let
 mut
 cur_sel
 ;
-alt
+match
 self
 .
 parse_element
@@ -602,14 +602,14 @@ built_sel
 -
 cur_sel
 ;
-alt
+match
 tok
 {
 Descendant
 =
 >
 {
-alt
+match
 self
 .
 parse_element
@@ -656,7 +656,7 @@ Child
 =
 >
 {
-alt
+match
 self
 .
 parse_element
@@ -703,7 +703,7 @@ Sibling
 =
 >
 {
-alt
+match
 self
 .
 parse_element
@@ -866,7 +866,7 @@ get
 (
 )
 ;
-alt
+match
 tok
 {
 StartDescription
@@ -951,7 +951,7 @@ get
 (
 )
 ;
-alt
+match
 tok
 {
 EndDescription
@@ -972,7 +972,7 @@ val
 let
 desc
 =
-alt
+match
 prop
 {
 /
@@ -1238,13 +1238,13 @@ rid
 of
 copies
 once
-alt
+match
 move
 works
 let
 sel_list
 =
-alt
+match
 self
 .
 parse_selector
@@ -1297,7 +1297,7 @@ selector
 let
 desc_list
 =
-alt
+match
 self
 .
 parse_description
@@ -1396,7 +1396,7 @@ none
 ;
 loop
 {
-alt
+match
 reader
 .
 parse_rule

@@ -374,7 +374,7 @@ start
 {
 loop
 {
-alt
+match
 self
 .
 from_client
@@ -422,7 +422,7 @@ ProgressMsg
 >
 )
 {
-alt
+match
 self
 .
 get_loader_factory
@@ -644,7 +644,7 @@ chan
 )
 )
 ;
-alt
+match
 check
 progress
 .

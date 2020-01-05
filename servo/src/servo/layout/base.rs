@@ -361,8 +361,8 @@ we
 can
 '
 t
-alt
-over
+match
+against
 it
 /
 /
@@ -1279,7 +1279,7 @@ available_width
 au
 )
 {
-alt
+match
 self
 .
 kind

@@ -376,7 +376,7 @@ current
 anonymous
 box
 .
-alt
+match
 kid
 .
 get_specified_style
@@ -410,7 +410,7 @@ DisInline
 let
 anon_box
 =
-alt
+match
 self
 .
 anon_box
@@ -649,7 +649,7 @@ current
 enclosing
 box
 .
-alt
+match
 kid
 .
 get_specified_style
@@ -780,7 +780,7 @@ dump
 (
 )
 ;
-alt
+match
 self
 .
 parent_node
@@ -888,7 +888,7 @@ finish_anonymous_box_if_necessary
 (
 )
 {
-alt
+match
 copy
 self
 .
@@ -983,7 +983,7 @@ determine_box_kind
 >
 BoxKind
 {
-alt
+match
 self
 .
 read
@@ -1020,7 +1020,7 @@ element
 =
 >
 {
-alt
+match
 *
 element
 .
@@ -1115,7 +1115,7 @@ self
 box_kind
 )
 ;
-alt
+match
 box_kind
 {
 BlockBox

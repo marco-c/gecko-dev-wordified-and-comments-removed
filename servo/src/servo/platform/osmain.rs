@@ -504,7 +504,7 @@ peek
 (
 )
 {
-alt
+match
 po
 .
 recv
@@ -1393,7 +1393,7 @@ sched_mode
 task
 :
 :
-osmain
+platform_thread
 )
 .
 spawn_listener
