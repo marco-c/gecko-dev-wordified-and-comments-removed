@@ -5480,7 +5480,7 @@ return
 mozilla
 :
 :
-MakeGenericErrorResult
+Err
 (
 reportedOOM
 )
@@ -5527,7 +5527,7 @@ return
 mozilla
 :
 :
-MakeGenericErrorResult
+Err
 (
 reportedError
 )

@@ -1518,7 +1518,7 @@ GenericErrorResult
 <
 E
 >
-MakeGenericErrorResult
+Err
 (
 E
 &
@@ -1571,7 +1571,7 @@ return
 mozilla
 :
 :
-MakeGenericErrorResult
+Err
 (
 mozTryTempResult_
 .
@@ -1623,7 +1623,7 @@ return
 mozilla
 :
 :
-MakeGenericErrorResult
+Err
 (
 \
 mozTryVarTempResult_

@@ -18,13 +18,13 @@ using
 mozilla
 :
 :
-GenericErrorResult
+Err
 ;
 using
 mozilla
 :
 :
-MakeGenericErrorResult
+GenericErrorResult
 ;
 using
 mozilla
@@ -455,7 +455,7 @@ Failed
 failed
 ;
 return
-MakeGenericErrorResult
+Err
 <
 Failed
 &
@@ -915,7 +915,7 @@ unwrap
 ;
 res
 =
-MakeGenericErrorResult
+Err
 (
 d
 )
@@ -982,7 +982,7 @@ Snafu
 snafu
 ;
 return
-MakeGenericErrorResult
+Err
 (
 &
 snafu
