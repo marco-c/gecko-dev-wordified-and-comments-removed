@@ -1105,14 +1105,9 @@ slice
 =
 text
 .
-slice
+slice_from
 (
 byte_last_boundary
-text
-.
-len
-(
-)
 )
 .
 to_owned

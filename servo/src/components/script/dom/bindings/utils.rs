@@ -4678,14 +4678,8 @@ JS_GetStringCharsAndLength
 (
 cx
 jsstr
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 length
-)
 )
 ;
 if
