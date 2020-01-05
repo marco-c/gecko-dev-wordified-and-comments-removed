@@ -177,6 +177,7 @@ _printer
 "
 =
 =
+=
 "
 function
 (
@@ -186,6 +187,7 @@ b
 {
 return
 a
+=
 =
 =
 b
@@ -201,6 +203,7 @@ _printer
 "
 !
 =
+=
 "
 function
 (
@@ -211,6 +214,7 @@ b
 return
 a
 !
+=
 =
 b
 ;
