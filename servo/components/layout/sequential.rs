@@ -95,7 +95,10 @@ StackingContext
 }
 ;
 use
-incremental
+script_layout_interface
+:
+:
+restyle_damage
 :
 :
 {

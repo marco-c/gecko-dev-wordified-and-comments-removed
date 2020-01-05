@@ -5,7 +5,10 @@ construct
 ConstructionResult
 ;
 use
-incremental
+script_layout_interface
+:
+:
+restyle_damage
 :
 :
 RestyleDamage

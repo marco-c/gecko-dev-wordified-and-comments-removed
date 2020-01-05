@@ -59,7 +59,6 @@ ParseErrorReporter
 [
 derive
 (
-JSTraceable
 HeapSizeOf
 )
 ]

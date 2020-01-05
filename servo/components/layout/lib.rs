@@ -225,6 +225,10 @@ script
 ;
 extern
 crate
+script_layout_interface
+;
+extern
+crate
 script_traits
 ;
 extern
@@ -402,11 +406,4 @@ fragment
 :
 :
 Fragment
-;
-pub
-use
-wrapper
-:
-:
-ServoThreadSafeLayoutNode
 ;
