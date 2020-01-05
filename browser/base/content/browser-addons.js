@@ -404,6 +404,9 @@ originatingURI
 persistent
 :
 true
+hideClose
+:
+true
 }
 ;
 let
