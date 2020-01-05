@@ -2862,6 +2862,7 @@ FromCompositorMsg
 :
 KeyEvent
 (
+ch
 key
 state
 modifiers
@@ -2885,6 +2886,7 @@ self
 .
 handle_key_msg
 (
+ch
 key
 state
 modifiers
@@ -4538,6 +4540,7 @@ FromScriptMsg
 :
 SendKeyEvent
 (
+ch
 key
 key_state
 key_modifiers
@@ -4556,6 +4559,7 @@ ToCompositorMsg
 :
 KeyEvent
 (
+ch
 key
 key_state
 key_modifiers
@@ -8543,6 +8547,12 @@ handle_key_msg
 &
 mut
 self
+ch
+:
+Option
+<
+char
+>
 key
 :
 Key
@@ -8617,6 +8627,7 @@ CompositorEvent
 :
 KeyEvent
 (
+ch
 key
 state
 mods
@@ -8717,6 +8728,7 @@ ToCompositorMsg
 :
 KeyEvent
 (
+ch
 key
 state
 mods
@@ -10302,6 +10314,7 @@ CompositorEvent
 :
 KeyEvent
 (
+None
 key
 state
 mods

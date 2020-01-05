@@ -1698,6 +1698,7 @@ AtomicBool
 AtomicUsize
 UrlOrigin
 Uuid
+char
 )
 ;
 no_jsmanaged_fields

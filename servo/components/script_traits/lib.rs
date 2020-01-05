@@ -1022,6 +1022,10 @@ TouchpadPressurePhase
 )
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers
@@ -2025,6 +2029,10 @@ Epoch
 )
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers

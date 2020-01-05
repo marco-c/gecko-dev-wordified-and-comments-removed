@@ -288,6 +288,10 @@ WindowNavigateMsg
 Quit
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers
@@ -870,6 +874,12 @@ handle_key
 (
 &
 self
+ch
+:
+Option
+<
+char
+>
 key
 :
 Key

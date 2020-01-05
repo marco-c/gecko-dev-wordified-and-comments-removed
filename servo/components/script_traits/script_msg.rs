@@ -354,6 +354,10 @@ String
 )
 SendKeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers

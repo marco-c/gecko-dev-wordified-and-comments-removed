@@ -691,6 +691,10 @@ CompositingReason
 )
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers
