@@ -451,6 +451,13 @@ RawGeckoNodeBorrowed
 node
 )
 ;
+bool
+Gecko_IsInDocument
+(
+RawGeckoNodeBorrowed
+node
+)
+;
 RawGeckoNodeBorrowedOrNull
 Gecko_GetParentNode
 (
