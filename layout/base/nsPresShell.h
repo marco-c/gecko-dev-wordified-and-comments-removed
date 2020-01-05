@@ -337,6 +337,13 @@ override
 ;
 virtual
 void
+MakeZombie
+(
+)
+override
+;
+virtual
+void
 UpdatePreferenceStyles
 (
 )
