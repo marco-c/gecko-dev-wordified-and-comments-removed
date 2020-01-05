@@ -8853,6 +8853,14 @@ mRedirectionLimit
 ;
 openArgs
 .
+allowPipelining
+(
+)
+=
+mAllowPipelining
+;
+openArgs
+.
 allowSTS
 (
 )

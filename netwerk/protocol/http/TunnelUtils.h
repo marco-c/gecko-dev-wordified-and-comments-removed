@@ -243,6 +243,13 @@ nsIAsyncOutputStream
 outSocketOut
 )
 ;
+nsHttpPipeline
+*
+QueryPipeline
+(
+)
+override
+;
 bool
 IsNullTransaction
 (
