@@ -736,6 +736,11 @@ IsPlaying
 const
 ;
 void
+SetMediaNotSeekable
+(
+)
+;
+void
 ResetDecode
 (
 TrackSet
