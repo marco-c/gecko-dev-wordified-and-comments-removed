@@ -388,6 +388,10 @@ ScaledFontBase
 aUnscaledFont
 aSize
 )
+mFont
+(
+aFont
+)
 {
 if
 (
@@ -420,8 +424,6 @@ if
 aOwnsFont
 )
 {
-mFont
-=
 CGFontRetain
 (
 aFont
