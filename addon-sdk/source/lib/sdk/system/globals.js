@@ -108,6 +108,15 @@ nsIConsoleService
 )
 ;
 exports
+=
+module
+.
+exports
+=
+{
+}
+;
+exports
 .
 dump
 =
