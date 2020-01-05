@@ -678,11 +678,6 @@ StyleAnimationValue
 h
 '
 '
-StyleAnimationValueInlines
-.
-h
-'
-'
 StyleBackendType
 .
 h
