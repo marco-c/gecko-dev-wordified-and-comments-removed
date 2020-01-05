@@ -28,6 +28,7 @@ derive
 (
 JSTraceable
 Clone
+Copy
 Eq
 PartialEq
 )
