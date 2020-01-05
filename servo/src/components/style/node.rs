@@ -118,7 +118,9 @@ str
 >
 Option
 <
-~
+&
+'
+static
 str
 >
 ;

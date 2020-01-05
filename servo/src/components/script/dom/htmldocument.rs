@@ -84,12 +84,6 @@ str
 :
 eq_slice
 ;
-use
-style
-:
-:
-TElement
-;
 pub
 struct
 HTMLDocument
@@ -300,7 +294,7 @@ area
 &
 elem
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -411,7 +405,7 @@ a
 &
 elem
 .
-get_attr
+get_attribute
 (
 Null
 "

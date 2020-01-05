@@ -2539,7 +2539,7 @@ elem
 |
 elem
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -2556,7 +2556,7 @@ eq_slice
 (
 elem
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -2565,6 +2565,10 @@ name
 )
 .
 unwrap
+(
+)
+.
+value_ref
 (
 )
 name
@@ -3126,7 +3130,7 @@ element
 match
 element
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -3146,7 +3150,7 @@ callback
 &
 id
 .
-to_str
+Value
 (
 )
 &
