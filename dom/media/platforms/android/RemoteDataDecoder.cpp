@@ -1251,11 +1251,11 @@ Insert
 aSample
 -
 >
-mDuration
+mTime
 aSample
 -
 >
-mTime
+mDuration
 )
 ;
 return
