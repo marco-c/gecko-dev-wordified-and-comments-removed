@@ -154,7 +154,7 @@ null
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -199,7 +199,7 @@ preview0
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -258,7 +258,7 @@ org
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -328,7 +328,7 @@ null
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -386,7 +386,7 @@ org
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -509,7 +509,7 @@ theme
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -602,7 +602,7 @@ theme
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -699,7 +699,7 @@ attribute
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -867,7 +867,7 @@ org
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -895,7 +895,7 @@ preview0
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -935,7 +935,7 @@ preview1
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -963,7 +963,7 @@ resetPreview
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -990,7 +990,7 @@ null
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -1039,7 +1039,7 @@ org
 ;
 ok
 (
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "
@@ -1073,7 +1073,7 @@ resetPreview
 ok
 (
 !
-DevEdition
+CompactTheme
 .
 isStyleSheetEnabled
 "

@@ -1,5 +1,5 @@
 var
-DevEdition
+CompactTheme
 =
 {
 _devtoolsThemePrefName
@@ -20,7 +20,7 @@ browser
 /
 skin
 /
-devedition
+compacttheme
 .
 css
 "
@@ -666,12 +666,12 @@ appShell
 hiddenDOMWindow
 &
 &
-DevEdition
+CompactTheme
 .
 isThemeCurrentlyApplied
 )
 {
-DevEdition
+CompactTheme
 .
 createStyleSheet
 (
