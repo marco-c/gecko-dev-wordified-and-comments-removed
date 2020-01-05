@@ -3755,7 +3755,7 @@ mDefaultParagraphSeparator
 ParagraphSeparator
 :
 :
-br
+div
 ;
 public
 :
