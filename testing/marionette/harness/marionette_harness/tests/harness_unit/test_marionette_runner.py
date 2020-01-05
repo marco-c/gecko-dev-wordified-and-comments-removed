@@ -2493,6 +2493,16 @@ manifest_with_tests
 manifest_class
 )
     
+mock_runner
+.
+marionette
+=
+mock_runner
+.
+driverclass
+(
+)
+    
 with
 patch
 (
@@ -2731,6 +2741,16 @@ kwargs
 [
 attr
 ]
+)
+    
+mock_runner
+.
+marionette
+=
+mock_runner
+.
+driverclass
+(
 )
     
 with

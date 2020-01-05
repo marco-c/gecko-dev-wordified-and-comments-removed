@@ -7129,6 +7129,19 @@ e10s
 self
 .
 e10s
+                
+"
+manage_instance
+"
+:
+self
+.
+marionette
+.
+instance
+is
+not
+None
             
 }
             
