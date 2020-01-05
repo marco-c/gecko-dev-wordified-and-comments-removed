@@ -185,6 +185,7 @@ resource_task
 :
 {
 Load
+LoadData
 Payload
 Done
 ResourceTask
@@ -2596,10 +2597,16 @@ send
 (
 Load
 (
+LoadData
+:
+:
+new
+(
 url
 .
 clone
 (
+)
 )
 input_chan
 )

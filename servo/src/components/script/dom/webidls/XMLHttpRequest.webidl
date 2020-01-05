@@ -357,8 +357,9 @@ password
 null
 )
 ;
-/
-/
+[
+Throws
+]
 void
 setRequestHeader
 (
