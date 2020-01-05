@@ -1044,6 +1044,11 @@ gc
 (
 )
 ;
+void
+trap
+(
+)
+;
 }
 ;
 Window
