@@ -156,9 +156,6 @@ rust
 Runtime
 ;
 use
-libc
-;
-use
 profile_traits
 :
 :
@@ -210,6 +207,12 @@ marker
 :
 :
 PhantomData
+;
+use
+std
+:
+:
+os
 ;
 use
 std
@@ -2614,7 +2617,10 @@ _data
 :
 *
 mut
-libc
+os
+:
+:
+raw
 :
 :
 c_void
@@ -2678,7 +2684,10 @@ _data
 :
 *
 mut
-libc
+os
+:
+:
+raw
 :
 :
 c_void
