@@ -1351,6 +1351,11 @@ PRFileDesc
 fd
 )
 ;
+bool
+FastOpenInProgress
+(
+)
+;
 void
 OnInputClosed
 (
@@ -1501,6 +1506,9 @@ mKeepaliveProbeCount
 TCPFastOpen
 *
 mFastOpenCallback
+;
+bool
+mFastOpenLayerHasBufferedData
 ;
 }
 ;
