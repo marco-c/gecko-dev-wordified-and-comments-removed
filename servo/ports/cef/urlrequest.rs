@@ -1,5 +1,5 @@
 use
-types
+interfaces
 :
 :
 {

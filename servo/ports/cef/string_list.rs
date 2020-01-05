@@ -17,9 +17,9 @@ string
 :
 :
 {
-cef_string_userfree_utf8_alloc
-cef_string_userfree_utf8_free
-cef_string_utf8_set
+cef_string_userfree_utf16_alloc
+cef_string_userfree_utf16_free
+cef_string_utf16_set
 }
 ;
 use
@@ -213,11 +213,11 @@ lt
 let
 cs
 =
-cef_string_userfree_utf8_alloc
+cef_string_userfree_utf16_alloc
 (
 )
 ;
-cef_string_utf8_set
+cef_string_utf16_set
 (
 mem
 :
@@ -342,7 +342,7 @@ as
 uint
 ]
 ;
-cef_string_utf8_set
+cef_string_utf16_set
 (
 mem
 :
@@ -450,7 +450,7 @@ pop
 (
 )
 ;
-cef_string_userfree_utf8_free
+cef_string_userfree_utf16_free
 (
 cs
 .

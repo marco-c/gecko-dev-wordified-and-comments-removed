@@ -41,9 +41,16 @@ string
 :
 :
 {
-cef_string_userfree_utf8_alloc
-cef_string_userfree_utf8_free
-cef_string_utf8_set
+cef_string_userfree_utf16_alloc
+cef_string_userfree_utf16_free
+}
+;
+use
+string
+:
+:
+{
+cef_string_utf16_set
 }
 ;
 use
@@ -286,11 +293,11 @@ result
 let
 csv
 =
-cef_string_userfree_utf8_alloc
+cef_string_userfree_utf16_alloc
 (
 )
 ;
-cef_string_utf8_set
+cef_string_utf16_set
 (
 (
 *
@@ -301,7 +308,7 @@ str
 as
 *
 const
-u8
+u16
 (
 *
 value
@@ -430,7 +437,7 @@ s
 =
 >
 {
-cef_string_utf8_set
+cef_string_utf16_set
 (
 (
 *
@@ -442,7 +449,7 @@ str
 as
 *
 const
-u8
+u16
 (
 *
 *
@@ -568,7 +575,7 @@ index
 as
 uint
 {
-cef_string_utf8_set
+cef_string_utf16_set
 (
 k
 .
@@ -579,6 +586,10 @@ as_bytes
 as_ptr
 (
 )
+as
+*
+const
+u16
 k
 .
 len
@@ -701,7 +712,7 @@ index
 as
 uint
 {
-cef_string_utf8_set
+cef_string_utf16_set
 (
 (
 *
@@ -713,7 +724,7 @@ str
 as
 *
 const
-u8
+u16
 (
 *
 *
@@ -784,7 +795,7 @@ values
 (
 )
 {
-cef_string_userfree_utf8_free
+cef_string_userfree_utf16_free
 (
 *
 val
