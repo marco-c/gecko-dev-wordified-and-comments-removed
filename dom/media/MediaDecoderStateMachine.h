@@ -1702,10 +1702,6 @@ OnTaskQueue
 ;
 return
 !
-mIsVisible
-|
-|
-!
 IsVideoDecoding
 (
 )
