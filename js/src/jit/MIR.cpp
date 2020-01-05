@@ -12228,6 +12228,7 @@ this
 alloc
 )
 )
+{
 specialization_
 =
 MIRType
@@ -12235,6 +12236,15 @@ MIRType
 :
 Float32
 ;
+setResultType
+(
+MIRType
+:
+:
+Float32
+)
+;
+}
 }
 MTableSwitch
 *
