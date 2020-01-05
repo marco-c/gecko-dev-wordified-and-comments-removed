@@ -12315,9 +12315,6 @@ SynchronouslyCreateForCurrentThread
 )
 )
 {
-return
-NS_ERROR_UNEXPECTED
-;
 }
 class
 MOZ_STACK_CLASS
