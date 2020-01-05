@@ -460,6 +460,7 @@ new
 self
 .
 window
+None
 Some
 (
 url
@@ -533,6 +534,7 @@ new
 self
 .
 window
+None
 Some
 (
 url

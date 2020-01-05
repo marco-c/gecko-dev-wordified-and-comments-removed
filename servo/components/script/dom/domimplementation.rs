@@ -823,6 +823,7 @@ new
 (
 win
 None
+None
 IsHTMLDocument
 :
 :
