@@ -489,7 +489,6 @@ ordinal
 -
 group
 "
-fails
 =
 =
 webkit
@@ -596,7 +595,6 @@ value
 being
 rejected
 .
-fails
 =
 =
 webkit
@@ -621,7 +619,6 @@ group
 2
 .
 html
-fails
 =
 =
 webkit
