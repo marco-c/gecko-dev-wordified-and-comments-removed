@@ -10022,10 +10022,12 @@ right
 ;
 emitBranch
 (
-Assembler
-:
-:
-NonZero
+baab
+-
+>
+cond
+(
+)
 baab
 -
 >

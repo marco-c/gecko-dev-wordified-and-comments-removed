@@ -10789,10 +10789,12 @@ emitBranch
 (
 ScratchRegister
 ScratchRegister
-Assembler
-:
-:
-NonZero
+lir
+-
+>
+cond
+(
+)
 lir
 -
 >
