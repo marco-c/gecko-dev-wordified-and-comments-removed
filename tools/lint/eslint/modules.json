@@ -3686,15 +3686,6 @@ btoa
 encryptPayload
 "
 "
-isConfiguredWithLegacyIdentity
-"
-"
-ensureLegacyIdentityManager
-"
-"
-setBasicCredentials
-"
-"
 makeIdentityConfig
 "
 "
