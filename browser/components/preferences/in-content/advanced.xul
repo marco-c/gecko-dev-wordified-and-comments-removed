@@ -741,6 +741,13 @@ id
 "
 showUpdateHistory
 "
+class
+=
+"
+accessory
+-
+button
+"
 label
 =
 "
