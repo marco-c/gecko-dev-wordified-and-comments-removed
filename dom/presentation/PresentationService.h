@@ -161,14 +161,6 @@ bool
 aIsAvailable
 )
 ;
-bool
-IsAppInstalled
-(
-nsIURI
-*
-aUri
-)
-;
 already_AddRefed
 <
 PresentationSessionInfo
