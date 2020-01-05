@@ -593,7 +593,6 @@ html
 ref
 .
 svg
-random
 =
 =
 mask
@@ -616,12 +615,6 @@ html
 ref
 .
 svg
-#
-random
-due
-to
-bug
-877661
 =
 =
 mask
