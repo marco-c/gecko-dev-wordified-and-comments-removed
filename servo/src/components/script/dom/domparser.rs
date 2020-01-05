@@ -71,7 +71,6 @@ document
 {
 AbstractDocument
 Document
-XML
 }
 ;
 use
@@ -241,18 +240,14 @@ Text_xml
 =
 >
 {
-Ok
-(
 Document
 :
 :
-new
+Constructor
 (
 self
 .
 owner
-XML
-)
 )
 }
 _

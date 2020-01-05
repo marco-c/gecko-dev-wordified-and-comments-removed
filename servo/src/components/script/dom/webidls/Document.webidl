@@ -406,8 +406,6 @@ attribute
 DOMString
 characterSet
 ;
-/
-/
 readonly
 attribute
 DOMString
