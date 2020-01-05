@@ -330,6 +330,10 @@ nsIURI
 aURI
 )
 {
+mOriginAttributes
+=
+aOriginAttributes
+;
 if
 (
 aURI
@@ -391,7 +395,6 @@ NS_ERROR_NOT_AVAILABLE
 }
 FinishInit
 (
-aOriginAttributes
 )
 ;
 return
