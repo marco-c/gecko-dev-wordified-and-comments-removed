@@ -24190,10 +24190,7 @@ height
 SVGImageContext
 svgContext
 (
-Some
-(
 sz
-)
 Nothing
 (
 )

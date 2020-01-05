@@ -32264,12 +32264,9 @@ fallbackContext
 .
 emplace
 (
-Some
-(
 params
 .
 svgViewportSize
-)
 )
 ;
 }
@@ -33137,6 +33134,7 @@ GRAPHICS
 const
 Maybe
 <
+const
 SVGImageContext
 >
 svgContext
@@ -33145,10 +33143,7 @@ Some
 (
 SVGImageContext
 (
-Some
-(
 aImageSize
-)
 )
 )
 )
