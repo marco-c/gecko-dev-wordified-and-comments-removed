@@ -402,6 +402,8 @@ uint64_t
 aUsageBytes
 int64_t
 aAccessTime
+bool
+aPersisted
 )
 ;
 void
@@ -1251,6 +1253,8 @@ nsACString
 aOrigin
 int64_t
 aAccessTime
+bool
+aPersisted
 nsIFile
 *
 aDirectory
