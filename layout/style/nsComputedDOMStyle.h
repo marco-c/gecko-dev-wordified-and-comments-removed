@@ -1211,6 +1211,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetFontVariationSettings
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetFontKerning
 (
 )
