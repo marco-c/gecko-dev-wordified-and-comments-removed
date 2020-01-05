@@ -231,6 +231,7 @@ FloatContext
 Invalid
 Valid
 (
+~
 FloatContextBase
 )
 }
@@ -251,6 +252,7 @@ FloatContext
 {
 Valid
 (
+~
 FloatContextBase
 :
 :
@@ -374,6 +376,10 @@ base
 >
 callback
 (
+&
+mut
+*
+*
 base
 )
 }
@@ -437,6 +443,9 @@ base
 >
 callback
 (
+&
+*
+*
 base
 )
 }
