@@ -68,6 +68,9 @@ h
 "
 #
 endif
+class
+JSLinearString
+;
 namespace
 js
 {
@@ -133,7 +136,7 @@ hash
 explicit
 Lookup
 (
-JSFlatString
+JSLinearString
 *
 timeZone
 )
