@@ -80,17 +80,6 @@ aDiagnostics
 const
 override
 ;
-ConversionRequired
-DecoderNeedsConversion
-(
-const
-TrackInfo
-&
-aConfig
-)
-const
-override
-;
 private
 :
 virtual
