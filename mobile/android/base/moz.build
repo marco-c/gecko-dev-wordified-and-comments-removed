@@ -4868,6 +4868,11 @@ GeckoActivity
 java
 '
 '
+GeckoActivityMonitor
+.
+java
+'
+'
 GeckoActivityStatus
 .
 java
