@@ -959,6 +959,8 @@ const
 nsIntRect
 *
 aDirtyRect
+uint32_t
+aFlags
 )
 {
 NS_ASSERTION

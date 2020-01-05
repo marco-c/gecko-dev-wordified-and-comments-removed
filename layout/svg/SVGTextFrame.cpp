@@ -11160,6 +11160,8 @@ const
 nsIntRect
 *
 aDirtyRect
+uint32_t
+aFlags
 )
 {
 DrawTarget

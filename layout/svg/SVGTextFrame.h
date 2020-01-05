@@ -741,6 +741,10 @@ nsIntRect
 aDirtyRect
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 override
 ;
