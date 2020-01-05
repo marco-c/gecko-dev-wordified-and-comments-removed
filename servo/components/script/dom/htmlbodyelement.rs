@@ -209,12 +209,6 @@ cssparser
 RGBA
 ;
 use
-string_cache
-:
-:
-Atom
-;
-use
 util
 :
 :

@@ -155,8 +155,6 @@ unsigned
 long
 hspace
 ;
-/
-/
 attribute
 DOMString
 name

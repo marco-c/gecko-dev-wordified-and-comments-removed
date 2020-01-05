@@ -577,8 +577,6 @@ readyState
 DOM
 tree
 accessors
-/
-/
 getter
 object
 (

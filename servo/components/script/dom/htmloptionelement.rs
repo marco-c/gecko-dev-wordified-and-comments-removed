@@ -254,12 +254,6 @@ DOMString
 split_html_space_chars
 }
 ;
-use
-string_cache
-:
-:
-Atom
-;
 #
 [
 dom_struct

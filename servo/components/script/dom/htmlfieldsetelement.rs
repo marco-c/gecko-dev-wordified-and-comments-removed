@@ -214,12 +214,6 @@ DOMString
 StaticStringVec
 }
 ;
-use
-string_cache
-:
-:
-Atom
-;
 #
 [
 dom_struct
