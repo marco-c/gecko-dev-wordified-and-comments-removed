@@ -2227,7 +2227,6 @@ sIndirectLayerTreesLock
 ForEachIndirectLayerTree
 (
 [
-this
 ]
 (
 LayerTreeState

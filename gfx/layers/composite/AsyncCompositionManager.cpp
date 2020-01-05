@@ -4031,6 +4031,11 @@ false
 }
 #
 else
+*
+aOutFoundRoot
+=
+false
+;
 mIsFirstPaint
 =
 false
