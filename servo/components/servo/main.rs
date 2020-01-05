@@ -62,7 +62,7 @@ all
 feature
 =
 "
-glutin
+glutin_app
 "
 not
 (
@@ -88,7 +88,7 @@ all
 feature
 =
 "
-glfw_app
+glfw
 "
 not
 (

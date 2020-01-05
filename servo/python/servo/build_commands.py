@@ -464,24 +464,6 @@ linux
 -
 androideabi
 "
-"
--
--
-no
--
-default
--
-features
-"
-]
-            
-features
-+
-=
-[
-"
-glutin
-"
 ]
         
 if

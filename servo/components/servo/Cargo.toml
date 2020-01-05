@@ -138,14 +138,14 @@ default
 =
 [
 "
-glfw_app
+glutin_app
 "
 ]
-glutin
+glfw
 =
 [
 "
-glutin_app
+glfw_app
 "
 ]
 [
