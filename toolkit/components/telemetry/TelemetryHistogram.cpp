@@ -1804,7 +1804,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCString
+nsAutoCString
 histogramName
 ;
 histogramName
@@ -5992,7 +5992,7 @@ gHistograms
 aId
 ]
 ;
-nsCString
+nsAutoCString
 id
 ;
 id
