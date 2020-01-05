@@ -2781,6 +2781,9 @@ Strong
 =
 :
 :
+gecko_bindings
+:
+:
 sugar
 :
 :
@@ -2795,6 +2798,7 @@ Strong
 >
 ;
 "
+                         
 .
 format
 (
@@ -2860,6 +2864,11 @@ BorrowedOrNull
 a
 >
 =
+\
+                          
+:
+:
+gecko_bindings
 :
 :
 sugar
@@ -3114,6 +3123,11 @@ BorrowedOrNull
 a
 >
 =
+\
+                          
+:
+:
+gecko_bindings
 :
 :
 sugar
@@ -3481,6 +3495,9 @@ Owned
 =
 :
 :
+gecko_bindings
+:
+:
 sugar
 :
 :
@@ -3560,6 +3577,9 @@ BorrowedOrNull
 a
 >
 =
+:
+:
+gecko_bindings
 :
 :
 sugar
@@ -3646,6 +3666,9 @@ a
 =
 :
 :
+gecko_bindings
+:
+:
 sugar
 :
 :
@@ -3724,6 +3747,9 @@ type
 }
 OwnedOrNull
 =
+:
+:
+gecko_bindings
 :
 :
 sugar
@@ -3811,6 +3837,9 @@ append
 (
 "
 use
+gecko_bindings
+:
+:
 structs
 :
 :

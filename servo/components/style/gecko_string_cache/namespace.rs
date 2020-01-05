@@ -1,10 +1,4 @@
 use
-{
-Atom
-WeakAtom
-}
-;
-use
 gecko_bindings
 :
 :
@@ -46,6 +40,15 @@ ops
 :
 Deref
 ;
+use
+string_cache
+:
+:
+{
+Atom
+WeakAtom
+}
+;
 #
 [
 macro_export
@@ -60,6 +63,9 @@ ns
 >
 {
 crate
+:
+:
+string_cache
 :
 :
 Namespace

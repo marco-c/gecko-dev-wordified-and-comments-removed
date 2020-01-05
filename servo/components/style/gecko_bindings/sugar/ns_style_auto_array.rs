@@ -1,4 +1,13 @@
 use
+gecko_bindings
+:
+:
+structs
+:
+:
+nsStyleAutoArray
+;
+use
 std
 :
 :
@@ -23,12 +32,6 @@ slice
 Iter
 IterMut
 }
-;
-use
-structs
-:
-:
-nsStyleAutoArray
 ;
 impl
 <
