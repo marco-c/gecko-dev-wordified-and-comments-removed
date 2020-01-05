@@ -6421,6 +6421,7 @@ destructors
 in
 statics
 .
+pub
 enum
 StaticId
 {
