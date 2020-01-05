@@ -7280,6 +7280,7 @@ aEnd
 aTextOrFunc
 aIsInserted
 aFromUser
+aAsync
 )
 {
 this
@@ -7318,6 +7319,12 @@ this
 textOrFunc
 =
 aTextOrFunc
+;
+this
+.
+async
+=
+aAsync
 ;
 this
 .
