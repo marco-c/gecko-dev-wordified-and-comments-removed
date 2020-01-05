@@ -45,7 +45,6 @@ gfxCoreTextShaper
 (
 )
 ;
-virtual
 bool
 ShapeText
 (
@@ -64,10 +63,13 @@ Script
 aScript
 bool
 aVertical
+RoundingFlags
+aRounding
 gfxShapedText
 *
 aShapedText
 )
+override
 ;
 static
 void

@@ -84,7 +84,6 @@ Initialize
 (
 )
 ;
-virtual
 bool
 ShapeText
 (
@@ -103,10 +102,13 @@ Script
 aScript
 bool
 aVertical
+RoundingFlags
+aRounding
 gfxShapedText
 *
 aShapedText
 )
+override
 ;
 hb_blob_t
 *
@@ -308,9 +310,6 @@ protected
 nsresult
 SetGlyphsFromRun
 (
-DrawTarget
-*
-aDrawTarget
 gfxShapedText
 *
 aShapedText
@@ -327,6 +326,8 @@ hb_buffer_t
 aBuffer
 bool
 aVertical
+RoundingFlags
+aRounding
 )
 ;
 nscoord

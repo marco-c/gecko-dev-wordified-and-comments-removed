@@ -482,6 +482,8 @@ Script
 aScript
 bool
 aVertical
+RoundingFlags
+aRounding
 gfxShapedText
 *
 aShapedText

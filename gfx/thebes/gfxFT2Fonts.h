@@ -247,7 +247,6 @@ override
 ;
 protected
 :
-virtual
 bool
 ShapeText
 (
@@ -266,6 +265,8 @@ Script
 aScript
 bool
 aVertical
+RoundingFlags
+aRounding
 gfxShapedText
 *
 aShapedText
