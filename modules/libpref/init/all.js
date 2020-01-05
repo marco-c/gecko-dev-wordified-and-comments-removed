@@ -11126,7 +11126,7 @@ http
 .
 referer
 .
-XOriginPolicy
+XOriginTrimmingPolicy
 "
 0
 )
@@ -11138,9 +11138,11 @@ network
 .
 http
 .
-sendSecureXSiteReferrer
+referer
+.
+XOriginPolicy
 "
-true
+0
 )
 ;
 pref
