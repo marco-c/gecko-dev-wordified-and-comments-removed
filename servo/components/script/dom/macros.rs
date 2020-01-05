@@ -2373,6 +2373,14 @@ GetOnsubmit
 SetOnsubmit
 )
 ;
+event_handler
+!
+(
+toggle
+GetOntoggle
+SetOntoggle
+)
+;
 )
 )
 ;

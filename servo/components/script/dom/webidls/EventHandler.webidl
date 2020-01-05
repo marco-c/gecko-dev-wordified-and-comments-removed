@@ -253,6 +253,10 @@ attribute
 EventHandler
 onsubmit
 ;
+attribute
+EventHandler
+ontoggle
+;
 }
 ;
 [
