@@ -855,7 +855,13 @@ GeckoProcessType_GPU
 )
 {
 return
-nullptr
+mWrapped
+-
+>
+CreateVideoDecoder
+(
+aParams
+)
 ;
 }
 MediaDataDecoderCallback
