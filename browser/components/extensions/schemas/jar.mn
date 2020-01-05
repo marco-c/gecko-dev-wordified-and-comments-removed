@@ -144,6 +144,15 @@ browser
 /
 schemas
 /
+devtools_panels
+.
+json
+content
+/
+browser
+/
+schemas
+/
 history
 .
 json
