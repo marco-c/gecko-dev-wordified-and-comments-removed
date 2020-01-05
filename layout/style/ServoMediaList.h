@@ -119,6 +119,17 @@ aReturn
 )
 final
 ;
+bool
+Matches
+(
+nsPresContext
+&
+nsMediaQueryResultCacheKey
+*
+)
+const
+final
+;
 protected
 :
 nsresult

@@ -901,12 +901,14 @@ bool
 Matches
 (
 nsPresContext
-*
+&
 aPresContext
 nsMediaQueryResultCacheKey
 *
 aKey
 )
+const
+final
 ;
 void
 AppendQuery

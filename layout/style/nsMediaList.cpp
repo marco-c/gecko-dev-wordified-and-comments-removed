@@ -2978,12 +2978,13 @@ nsMediaList
 Matches
 (
 nsPresContext
-*
+&
 aPresContext
 nsMediaQueryResultCacheKey
 *
 aKey
 )
+const
 {
 for
 (
@@ -3018,6 +3019,7 @@ i
 >
 Matches
 (
+&
 aPresContext
 aKey
 )

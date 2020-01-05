@@ -39,9 +39,6 @@ HTMLMediaElement
 h
 "
 class
-nsMediaList
-;
-class
 nsAttrValue
 ;
 namespace
@@ -50,6 +47,9 @@ mozilla
 namespace
 dom
 {
+class
+MediaList
+;
 class
 HTMLSourceElement
 final
@@ -429,7 +429,7 @@ private
 :
 RefPtr
 <
-nsMediaList
+MediaList
 >
 mMediaList
 ;
