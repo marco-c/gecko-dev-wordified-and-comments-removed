@@ -196,6 +196,10 @@ CSSStyleDeclaration
 implements
 LegacyQueryInterface
 ;
+CSSStyleRule
+implements
+LegacyQueryInterface
+;
 CSSValueList
 implements
 LegacyQueryInterface
