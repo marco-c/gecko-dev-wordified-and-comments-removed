@@ -609,6 +609,8 @@ startTest
 )
 ;
 }
+try
+{
 function
 handleMessageFromChrome
 (
@@ -653,3 +655,10 @@ ScrollTest
 handleMessageFromChrome
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
