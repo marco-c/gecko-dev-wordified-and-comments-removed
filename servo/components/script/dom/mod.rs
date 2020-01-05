@@ -513,6 +513,10 @@ text
 ;
 pub
 mod
+textencoder
+;
+pub
+mod
 treewalker
 ;
 pub
