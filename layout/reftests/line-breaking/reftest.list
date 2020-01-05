@@ -506,7 +506,6 @@ smileys
 ref
 .
 html
-fails
 =
 =
 space
@@ -525,10 +524,6 @@ cluster
 ref
 .
 html
-#
-bug
-1308502
-fails
 =
 =
 space
@@ -547,9 +542,6 @@ cluster
 ref
 .
 html
-#
-bug
-1308502
 =
 =
 url
