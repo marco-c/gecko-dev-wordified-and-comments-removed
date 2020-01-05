@@ -2342,6 +2342,15 @@ src
 /
 components
 /
+msg
+make_dir
+{
+CFG_BUILD_DIR
+}
+src
+/
+components
+/
 net
 make_dir
 {

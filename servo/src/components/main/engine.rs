@@ -56,10 +56,10 @@ gfx
 render_task
 ;
 use
-script
+servo_msg
 :
 :
-compositor_interface
+compositor
 :
 :
 {
@@ -68,10 +68,10 @@ ReadyState
 }
 ;
 use
-script
+servo_msg
 :
 :
-engine_interface
+engine
 :
 :
 {

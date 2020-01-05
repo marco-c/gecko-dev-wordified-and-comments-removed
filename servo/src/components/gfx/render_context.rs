@@ -1,4 +1,7 @@
 use
+servo_msg
+:
+:
 compositor
 :
 :

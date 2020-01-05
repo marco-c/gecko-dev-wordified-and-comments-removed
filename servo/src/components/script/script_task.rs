@@ -1,5 +1,8 @@
 use
-compositor_interface
+servo_msg
+:
+:
+compositor
 :
 :
 {
@@ -125,7 +128,10 @@ use
 layout_interface
 ;
 use
-engine_interface
+servo_msg
+:
+:
+engine
 :
 :
 {
