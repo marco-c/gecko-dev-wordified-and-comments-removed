@@ -53,7 +53,7 @@ const
 uint16_t
 kMajorRevision
 =
-7
+8
 ;
 const
 uint16_t

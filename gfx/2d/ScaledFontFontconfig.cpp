@@ -1172,6 +1172,11 @@ mSize
 aBaton
 )
 ;
+delete
+[
+]
+data
+;
 return
 true
 ;
