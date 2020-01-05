@@ -1327,7 +1327,6 @@ GetOrCreateFolder
 location
 )
 {
-let
 folder_id
 =
 this
@@ -3683,7 +3682,7 @@ Components
 results
 .
 NS_ERROR_UNEXPECTED
-null
+aLivemark
 ]
 )
 }
@@ -4476,7 +4475,6 @@ props
 before
 )
 {
-let
 other_id
 =
 this
