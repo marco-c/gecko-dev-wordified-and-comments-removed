@@ -113,14 +113,6 @@ unboxed_closures
 #
 !
 [
-allow
-(
-missing_copy_implementations
-)
-]
-#
-!
-[
 plugin
 (
 regex_macros

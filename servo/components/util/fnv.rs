@@ -28,13 +28,6 @@ wrapping
 :
 WrappingOps
 ;
-#
-[
-allow
-(
-missing_copy_implementations
-)
-]
 pub
 struct
 FnvHasher

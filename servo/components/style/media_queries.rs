@@ -476,13 +476,6 @@ Unknown
 }
 #
 [
-allow
-(
-missing_copy_implementations
-)
-]
-#
-[
 derive
 (
 Debug

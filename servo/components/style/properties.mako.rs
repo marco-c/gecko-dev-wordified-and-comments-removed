@@ -24077,13 +24077,6 @@ properties
 :
 longhands
 ;
-#
-[
-allow
-(
-missing_copy_implementations
-)
-]
 pub
 struct
 Longhands
@@ -29576,13 +29569,6 @@ style_struct
 in
 STYLE_STRUCTS
 :
-#
-[
-allow
-(
-missing_copy_implementations
-)
-]
 #
 [
 derive
