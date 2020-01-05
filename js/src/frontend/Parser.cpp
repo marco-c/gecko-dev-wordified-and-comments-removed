@@ -13235,15 +13235,9 @@ pn
 =
 handler
 .
-newReturnStatement
+newExpressionBody
 (
 kid
-handler
-.
-getPosition
-(
-kid
-)
 )
 ;
 if
