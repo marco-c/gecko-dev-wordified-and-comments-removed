@@ -10595,6 +10595,8 @@ MOZ_RELEASE_ASSERT
 imm8
 .
 invalid
+(
+)
 )
 ;
 *

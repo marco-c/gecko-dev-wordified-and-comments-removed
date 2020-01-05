@@ -1202,8 +1202,12 @@ if
 both
 .
 fst
+(
+)
 .
 invalid
+(
+)
 )
 return
 false
@@ -1217,6 +1221,8 @@ Operand2
 both
 .
 fst
+(
+)
 )
 interop
 LeaveCC
@@ -1232,6 +1238,8 @@ Operand2
 both
 .
 snd
+(
+)
 )
 op
 s
@@ -1289,15 +1297,12 @@ src1
 scratch
 )
 ;
-if
+MOZ_ASSERT_IF
 (
 dest
 =
 =
 InvalidReg
-)
-MOZ_ASSERT
-(
 s
 =
 =
@@ -1320,6 +1325,8 @@ if
 imm8
 .
 invalid
+(
+)
 )
 {
 as_alu
@@ -1379,6 +1386,8 @@ OpInvalid
 negImm8
 .
 invalid
+(
+)
 )
 {
 as_alu
@@ -1476,12 +1485,15 @@ MOZ_ASSERT
 (
 op2
 .
-getTag
+tag
 (
 )
 =
 =
 Operand
+:
+:
+Tag
 :
 :
 OP2
@@ -1880,6 +1892,8 @@ if
 imm8
 .
 invalid
+(
+)
 )
 {
 as_alu
@@ -1912,6 +1926,8 @@ if
 negImm8
 .
 invalid
+(
+)
 )
 {
 as_alu
@@ -3678,6 +3694,8 @@ MOZ_ASSERT
 negtag
 .
 invalid
+(
+)
 )
 ;
 as_cmn
@@ -3774,13 +3792,16 @@ switch
 (
 op
 .
-getTag
+tag
 (
 )
 )
 {
 case
 Operand
+:
+:
+Tag
 :
 :
 OP2
@@ -3800,6 +3821,9 @@ break
 ;
 case
 Operand
+:
+:
+Tag
 :
 :
 MEM
@@ -5664,6 +5688,8 @@ if
 sub_off
 .
 invalid
+(
+)
 )
 {
 as_sub
@@ -5712,6 +5738,8 @@ if
 sub_off
 .
 invalid
+(
+)
 &
 &
 bottom
@@ -5775,6 +5803,8 @@ if
 sub_off
 .
 invalid
+(
+)
 )
 {
 as_add
@@ -5820,6 +5850,8 @@ if
 sub_off
 .
 invalid
+(
+)
 &
 &
 bottom
@@ -5964,6 +5996,8 @@ if
 sub_off
 .
 invalid
+(
+)
 )
 {
 as_sub
@@ -6013,6 +6047,8 @@ if
 sub_off
 .
 invalid
+(
+)
 &
 &
 bottom
@@ -6077,6 +6113,8 @@ if
 sub_off
 .
 invalid
+(
+)
 )
 {
 as_add
@@ -6123,6 +6161,8 @@ if
 sub_off
 .
 invalid
+(
+)
 &
 &
 bottom
@@ -8217,6 +8257,8 @@ if
 sub_off
 .
 invalid
+(
+)
 )
 {
 as_sub
@@ -8263,6 +8305,8 @@ if
 sub_off
 .
 invalid
+(
+)
 &
 &
 bottom
@@ -8324,6 +8368,8 @@ if
 sub_off
 .
 invalid
+(
+)
 )
 {
 as_add
@@ -8367,6 +8413,8 @@ if
 sub_off
 .
 invalid
+(
+)
 &
 &
 bottom
