@@ -3007,6 +3007,9 @@ StyleClipPath
 nsCSSKeyword
 "
 "
+nsCSSPropertyID
+"
+"
 nsCSSShadowArray
 "
 "
