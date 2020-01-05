@@ -131,11 +131,20 @@ isatty
 try
 :
         
+req
+=
+urllib2
+.
+Request
+(
+src
+)
+        
 if
 start_byte
 :
             
-src
+req
 =
 urllib2
 .
@@ -170,7 +179,7 @@ urllib2
 .
 urlopen
 (
-src
+req
 )
         
 fsize
@@ -428,25 +437,24 @@ downloading
 Rust
 compiler
 :
-"
-+
-str
-(
-e
-.
-reason
-)
-+
-"
+%
+s
 .
 The
 failing
 URL
 was
 :
+%
+s
 "
-+
+%
+(
+e
+.
+reason
 src
+)
 )
         
 sys
