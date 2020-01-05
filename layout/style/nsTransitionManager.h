@@ -815,7 +815,7 @@ ComputedTiming
 AnimationPhase
 :
 :
-Null
+Idle
 )
 Before
 =
