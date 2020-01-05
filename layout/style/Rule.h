@@ -246,7 +246,7 @@ sheet
 sheet
 -
 >
-GetDocument
+GetAssociatedDocument
 (
 )
 :
