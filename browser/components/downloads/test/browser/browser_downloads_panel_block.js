@@ -544,7 +544,7 @@ return
 {
 state
 :
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_DIRTY
 hasBlockedData

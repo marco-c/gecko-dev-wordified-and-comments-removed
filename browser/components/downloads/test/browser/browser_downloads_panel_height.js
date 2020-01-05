@@ -18,7 +18,7 @@ task_addDownloads
 {
 state
 :
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_FINISHED
 }

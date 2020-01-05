@@ -286,13 +286,6 @@ jsm
 )
 ;
 const
-nsIDM
-=
-Ci
-.
-nsIDownloadManager
-;
-const
 DESTINATION_FILE_URI_ANNO
 =
 "
@@ -441,7 +434,7 @@ metaData
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_FINISHED
 ;
@@ -454,7 +447,7 @@ metaData
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_CANCELED
 |
@@ -464,7 +457,7 @@ metaData
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_PAUSED
 ;
@@ -483,7 +476,7 @@ metaData
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_FAILED
 )
@@ -512,7 +505,7 @@ metaData
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_BLOCKED_PARENTAL
 )
@@ -536,7 +529,7 @@ metaData
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_DIRTY
 )
