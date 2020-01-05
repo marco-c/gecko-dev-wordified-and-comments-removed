@@ -109,7 +109,7 @@ xhtml
 function
 SwatchCubicBezierTooltip
 (
-toolbox
+document
 )
 {
 let
@@ -140,7 +140,7 @@ SwatchBasedEditorTooltip
 call
 (
 this
-toolbox
+document
 stylesheet
 )
 ;

@@ -968,6 +968,8 @@ AutocompletePopup
 inspector
 .
 _toolbox
+.
+doc
 options
 )
 ;
