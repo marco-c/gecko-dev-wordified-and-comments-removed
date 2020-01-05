@@ -270,6 +270,13 @@ bindings
 .
 rs
 \
+-
+no
+-
+type
+-
+renaming
+\
 "
 DIST_INCLUDE
 /
@@ -279,3 +286,12 @@ ServoBindings
 .
 h
 "
+\
+-
+match
+"
+ServoBindings
+.
+h
+"
+\

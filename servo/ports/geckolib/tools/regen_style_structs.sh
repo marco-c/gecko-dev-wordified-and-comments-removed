@@ -278,12 +278,8 @@ printf
 "
 -
 isystem
-\
-"
 %
 s
-\
-"
 "
 0
 ;
