@@ -740,6 +740,13 @@ servo
 center
 ;
 }
+label
+{
+cursor
+:
+default
+;
+}
 input
 :
 not
