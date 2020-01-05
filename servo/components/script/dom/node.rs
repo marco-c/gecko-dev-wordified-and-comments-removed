@@ -678,9 +678,6 @@ properties
 ComputedValues
 ;
 use
-style
-;
-use
 js
 :
 :
