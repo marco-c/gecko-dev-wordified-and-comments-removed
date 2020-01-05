@@ -551,6 +551,11 @@ menupopup
 +
 id
 label
+type
+:
+"
+checkbox
+"
 }
 )
 )
