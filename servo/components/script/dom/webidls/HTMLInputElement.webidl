@@ -201,8 +201,6 @@ unsigned
 long
 height
 ;
-/
-/
 attribute
 boolean
 indeterminate
@@ -267,8 +265,6 @@ attribute
 DOMString
 placeholder
 ;
-/
-/
 attribute
 boolean
 readOnly

@@ -224,6 +224,14 @@ attribute
 EventHandler
 onload
 ;
+attribute
+EventHandler
+oninput
+;
+attribute
+EventHandler
+onchange
+;
 }
 ;
 [

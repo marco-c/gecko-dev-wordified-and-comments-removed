@@ -211,6 +211,7 @@ event
 :
 {
 Event
+EventHelpers
 Bubbles
 Cancelable
 }
@@ -1368,6 +1369,13 @@ Cancelable
 .
 root
 (
+)
+;
+event
+.
+set_trusted
+(
+true
 )
 ;
 let
@@ -3203,7 +3211,7 @@ Target
 }
 pub
 trait
-FormOwner
+FormControl
 <
 '
 a
@@ -3319,5 +3327,14 @@ JSRef
 a
 Element
 >
+;
+fn
+mutable
+(
+self
+)
+-
+>
+bool
 ;
 }

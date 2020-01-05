@@ -222,8 +222,6 @@ attribute
 boolean
 hidden
 ;
-/
-/
 void
 click
 (
