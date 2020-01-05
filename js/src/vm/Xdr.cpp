@@ -680,6 +680,8 @@ codeFunction
 (
 MutableHandleFunction
 funp
+HandleScriptSource
+sourceObject
 )
 {
 TraceLoggerThread
@@ -773,6 +775,13 @@ mode
 =
 XDR_DECODE
 )
+{
+MOZ_ASSERT
+(
+!
+sourceObject
+)
+;
 funp
 .
 set
@@ -780,6 +789,7 @@ set
 nullptr
 )
 ;
+}
 else
 if
 (
@@ -794,6 +804,12 @@ AutoXDRTree
 :
 noKey
 )
+{
+MOZ_ASSERT
+(
+sourceObject
+)
+;
 scope
 =
 funp
@@ -808,7 +824,15 @@ enclosingScope
 (
 )
 ;
+}
 else
+{
+MOZ_ASSERT
+(
+!
+sourceObject
+)
+;
 MOZ_ASSERT
 (
 funp
@@ -832,6 +856,7 @@ GlobalScope
 )
 )
 ;
+}
 if
 (
 !
@@ -859,7 +884,7 @@ XDRInterpretedFunction
 (
 this
 scope
-nullptr
+sourceObject
 funp
 )
 )
