@@ -15,6 +15,8 @@ g
 +
 LDFLAGS
 -
+pie
+-
 lGLESv2
 -
 lsupc
