@@ -2313,6 +2313,10 @@ CUBEB_ERROR_INVALID_PARAMETER
 }
 free
 (
+(
+void
+*
+)
 info
 -
 >
@@ -2321,6 +2325,10 @@ device_id
 ;
 free
 (
+(
+void
+*
+)
 info
 -
 >
@@ -2329,6 +2337,10 @@ friendly_name
 ;
 free
 (
+(
+void
+*
+)
 info
 -
 >
@@ -2337,6 +2349,10 @@ group_id
 ;
 free
 (
+(
+void
+*
+)
 info
 -
 >

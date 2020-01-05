@@ -5648,6 +5648,9 @@ i
 >
 devid
 =
+(
+cubeb_devid
+)
 context
 -
 >
@@ -5909,6 +5912,9 @@ i
 >
 devid
 =
+(
+cubeb_devid
+)
 context
 -
 >
