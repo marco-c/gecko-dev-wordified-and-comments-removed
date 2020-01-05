@@ -1559,6 +1559,10 @@ static
 bool
 sSelectionEventsEnabled
 ;
+static
+bool
+sSelectionEventsOnTextControlsEnabled
+;
 }
 ;
 #
