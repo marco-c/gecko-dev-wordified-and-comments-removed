@@ -2276,6 +2276,15 @@ MessageLoop
 aParentMessageLoop
 )
 :
+Runnable
+(
+"
+ChildImpl
+:
+:
+OpenMainProcessActorRunnable
+"
+)
 mActor
 (
 aChildActor
