@@ -223,8 +223,6 @@ attribute
 EventHandler
 onmessage
 ;
-/
-/
 attribute
 BinaryType
 binaryType
