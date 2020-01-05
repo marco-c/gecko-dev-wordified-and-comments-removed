@@ -2318,6 +2318,9 @@ stream
 InputStreamParams
 wrappedParams
 ;
+InputStreamHelper
+:
+:
 SerializeInputStream
 (
 stream
@@ -2457,6 +2460,9 @@ TInputStreamParams
 {
 stream
 =
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 wrappedParams

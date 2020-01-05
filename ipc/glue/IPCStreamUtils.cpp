@@ -1789,6 +1789,9 @@ fdSetActor
 ;
 }
 return
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 streamWithFds

@@ -2944,6 +2944,9 @@ index
 InputStreamParams
 childStreamParams
 ;
+InputStreamHelper
+:
+:
 SerializeInputStream
 (
 mStreams
@@ -3097,6 +3100,9 @@ nsIInputStream
 >
 stream
 =
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 streams
