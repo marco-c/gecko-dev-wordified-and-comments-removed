@@ -151,7 +151,7 @@ cx
 .
 tcx
 .
-map
+hir
 .
 local_def_id
 (
@@ -443,7 +443,7 @@ cx
 .
 tcx
 .
-map
+hir
 .
 expect_item
 (
@@ -541,7 +541,7 @@ cx
 .
 tcx
 .
-map
+hir
 .
 expect_item
 (
@@ -621,7 +621,7 @@ cx
 .
 tcx
 .
-map
+hir
 .
 expect_item
 (
