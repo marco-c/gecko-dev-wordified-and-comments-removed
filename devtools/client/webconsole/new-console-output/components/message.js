@@ -1097,6 +1097,8 @@ flex
 body
 "
 }
+"
+"
 dom
 .
 span
@@ -1116,9 +1118,17 @@ monospace
 messageBody
 learnMore
 )
+"
+"
 repeat
+"
+"
 location
 )
+"
+\
+n
+"
 attachment
 )
 )
