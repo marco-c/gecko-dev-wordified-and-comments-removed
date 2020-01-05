@@ -1,7 +1,3 @@
-quit
-(
-)
-;
 var
 importedArgs
 =
@@ -21,7 +17,7 @@ scriptdir
 .
 .
 /
-spec
+wast
 .
 js
 '

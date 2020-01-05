@@ -21,7 +21,7 @@ scriptdir
 .
 .
 /
-spec
+wast
 .
 js
 '
