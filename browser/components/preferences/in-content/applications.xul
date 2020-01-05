@@ -909,9 +909,6 @@ endif
 hbox
 >
 <
-hbox
->
-<
 radio
 id
 =
@@ -942,10 +939,6 @@ accesskey
 ;
 "
 /
->
-<
-/
-hbox
 >
 <
 /
