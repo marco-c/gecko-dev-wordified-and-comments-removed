@@ -115,6 +115,12 @@ nsDNSPrefetch
 nsIURI
 *
 aURI
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 nsIDNSListener
 *
 aListener
@@ -122,6 +128,10 @@ bool
 storeTiming
 )
 :
+mOriginAttributes
+(
+aOriginAttributes
+)
 mStoreTiming
 (
 storeTiming
@@ -208,7 +218,7 @@ return
 sDNSService
 -
 >
-AsyncResolve
+AsyncResolveNative
 (
 mHostname
 flags
@@ -219,6 +229,7 @@ nsIDNSService
 RESOLVE_SPECULATE
 this
 mainThread
+mOriginAttributes
 getter_AddRefs
 (
 tmpOutstanding

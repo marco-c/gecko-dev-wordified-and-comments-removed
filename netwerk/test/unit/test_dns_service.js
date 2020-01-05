@@ -119,6 +119,12 @@ NS_ERROR_NO_INTERFACE
 }
 }
 ;
+const
+defaultOriginAttributes
+=
+{
+}
+;
 function
 run_test
 (
@@ -166,6 +172,7 @@ localhost
 0
 listener
 mainThread
+defaultOriginAttributes
 )
 ;
 do_test_pending

@@ -228,6 +228,9 @@ mFD
 NetAddr
 mAddr
 ;
+OriginAttributes
+mOriginAttributes
+;
 nsCOMPtr
 <
 nsIUDPSocketListener
