@@ -589,11 +589,10 @@ observer
 =
 >
 {
-context
-.
-runSafe
-(
 fire
+.
+async
+(
 )
 ;
 }

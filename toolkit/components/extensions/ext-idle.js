@@ -467,11 +467,10 @@ data
 =
 >
 {
-context
-.
-runSafe
-(
 fire
+.
+sync
+(
 data
 )
 ;
