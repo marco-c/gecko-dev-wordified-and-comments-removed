@@ -1193,6 +1193,18 @@ xml
 '
         
 '
+media
+.
+gmp
+-
+manager
+.
+updateEnabled
+'
+:
+False
+        
+'
 extensions
 .
 systemAddon

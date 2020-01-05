@@ -166,6 +166,17 @@ manager
 xml
 "
 "
+media
+.
+gmp
+-
+manager
+.
+updateEnabled
+"
+:
+false
+"
 browser
 .
 aboutHomeSnippets

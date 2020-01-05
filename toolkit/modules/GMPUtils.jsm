@@ -599,6 +599,17 @@ manager
 .
 secondsBetweenChecks
 "
+KEY_UPDATE_ENABLED
+:
+"
+media
+.
+gmp
+-
+manager
+.
+updateEnabled
+"
 KEY_APP_DISTRIBUTION
 :
 "
