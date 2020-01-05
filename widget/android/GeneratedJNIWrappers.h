@@ -22899,6 +22899,7 @@ Object
 :
 Param
 int32_t
+bool
 >
 Args
 ;
@@ -22969,7 +22970,7 @@ util
 /
 GeckoBundle
 ;
-I
+IZ
 )
 V
 "
@@ -38203,7 +38204,7 @@ CURRENT
 }
 ;
 struct
-OnInputStatus_t
+OnInputExhausted_t
 {
 typedef
 NativeCallbacks
@@ -38226,8 +38227,6 @@ jni
 :
 Args
 <
-int64_t
-bool
 >
 Args
 ;
@@ -38239,7 +38238,7 @@ name
 ]
 =
 "
-onInputStatus
+onInputExhausted
 "
 ;
 static
@@ -38251,7 +38250,6 @@ signature
 =
 "
 (
-JZ
 )
 V
 "
