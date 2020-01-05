@@ -1947,15 +1947,6 @@ logging
 -
 enable
 -
-tree
--
-freetype
-'
-'
--
--
-enable
--
 ui
 -
 locale
