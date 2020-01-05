@@ -94,6 +94,13 @@ pth
 python
 /
 mozbuild
+mozversioncontrol
+.
+pth
+:
+python
+/
+mozversioncontrol
 mozlint
 .
 pth
