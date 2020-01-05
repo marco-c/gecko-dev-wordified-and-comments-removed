@@ -71,6 +71,9 @@ mozilla
 class
 EventChainPreVisitor
 ;
+struct
+URLExtraData
+;
 namespace
 dom
 {
@@ -1934,6 +1937,16 @@ already_AddRefed
 nsIURI
 >
 GetBaseURIForStyleAttr
+(
+)
+const
+;
+mozilla
+:
+:
+URLExtraData
+*
+GetURLDataForStyleAttr
 (
 )
 const
