@@ -1511,7 +1511,7 @@ is_none
 }
 pub
 trait
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 {
 fn
 synthesize_presentational_hints_for_legacy_attributes
@@ -1616,7 +1616,7 @@ Clone
 +
 ElementExt
 +
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 {
 type
 ConcreteNode

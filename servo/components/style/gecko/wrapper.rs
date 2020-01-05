@@ -55,7 +55,7 @@ dom
 :
 {
 OpaqueNode
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 }
 ;
 use
@@ -5428,7 +5428,7 @@ impl
 '
 le
 >
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 for
 GeckoElement
 <

@@ -382,7 +382,7 @@ dom
 :
 :
 {
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 TElement
 TNode
 UnsafeNode
@@ -2235,7 +2235,7 @@ impl
 '
 le
 >
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 for
 ServoLayoutElement
 <
@@ -7096,7 +7096,7 @@ impl
 '
 le
 >
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 for
 ServoThreadSafeLayoutElement
 <
