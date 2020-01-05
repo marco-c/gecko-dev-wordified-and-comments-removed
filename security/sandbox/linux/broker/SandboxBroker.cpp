@@ -2130,7 +2130,6 @@ aPath2
 )
 ;
 }
-else
 if
 (
 aOper

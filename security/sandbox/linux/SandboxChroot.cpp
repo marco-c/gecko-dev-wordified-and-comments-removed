@@ -245,8 +245,6 @@ return
 false
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 mCommand
@@ -321,7 +319,6 @@ mCommand
 NO_THREAD
 )
 ;
-}
 return
 true
 ;
