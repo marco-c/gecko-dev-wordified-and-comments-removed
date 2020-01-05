@@ -148,15 +148,13 @@ b
 uint64_t
 mult
 ;
-unsigned
+size_t
 i
 =
 0
 ;
-unsigned
+size_t
 j
-;
-int
 n
 ;
 n

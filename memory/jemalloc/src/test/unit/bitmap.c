@@ -500,7 +500,7 @@ i
 )
 ;
 {
-ssize_t
+size_t
 j
 ;
 bitmap_t
@@ -595,9 +595,8 @@ i
 1
 ;
 j
->
-=
-0
+<
+i
 ;
 j
 -

@@ -31,6 +31,14 @@ float
 h
 >
 #
+ifdef
+__PGI
+#
+undef
+INFINITY
+#
+endif
+#
 ifndef
 INFINITY
 #

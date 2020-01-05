@@ -161,11 +161,7 @@ http
 :
 /
 /
-www
-.
-canonware
-.
-com
-/
 jemalloc
+.
+net
 /

@@ -12,6 +12,17 @@ elif
 (
 defined
 (
+JEMALLOC_OS_UNFAIR_LOCK
+)
+)
+os_unfair_lock
+lock
+;
+#
+elif
+(
+defined
+(
 JEMALLOC_OSSPIN
 )
 )

@@ -113,6 +113,9 @@ arena_stats_s
 size_t
 mapped
 ;
+size_t
+retained
+;
 uint64_t
 npurge
 ;

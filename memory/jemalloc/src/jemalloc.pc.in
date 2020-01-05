@@ -41,13 +41,10 @@ http
 :
 /
 /
-www
-.
-canonware
-.
-com
-/
 jemalloc
+.
+net
+/
 Version
 :
 jemalloc_version

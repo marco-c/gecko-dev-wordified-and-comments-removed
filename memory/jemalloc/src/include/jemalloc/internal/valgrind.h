@@ -108,6 +108,7 @@ define
 JEMALLOC_VALGRIND_MALLOC
 (
 cond
+tsdn
 ptr
 usize
 zero
@@ -125,6 +126,7 @@ in_valgrind
 cond
 )
 )
+{
 \
 VALGRIND_MALLOCLIKE_BLOCK
 (
@@ -132,11 +134,15 @@ ptr
 usize
 p2rz
 (
+tsdn
 ptr
 )
+\
 zero
 )
 ;
+\
+}
 \
 }
 while
@@ -148,6 +154,7 @@ define
 JEMALLOC_VALGRIND_REALLOC
 (
 maybe_moved
+tsdn
 ptr
 usize
 \
@@ -176,6 +183,7 @@ rzsize
 =
 p2rz
 (
+tsdn
 ptr
 )
 ;
@@ -462,6 +470,7 @@ define
 JEMALLOC_VALGRIND_MALLOC
 (
 cond
+tsdn
 ptr
 usize
 zero
@@ -478,6 +487,7 @@ define
 JEMALLOC_VALGRIND_REALLOC
 (
 maybe_moved
+tsdn
 ptr
 usize
 \

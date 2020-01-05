@@ -1032,6 +1032,17 @@ result
 TEST_END
 TEST_BEGIN
 (
+test_nstime_monotonic
+)
+{
+nstime_monotonic
+(
+)
+;
+}
+TEST_END
+TEST_BEGIN
+(
 test_nstime_update
 )
 {
@@ -1155,6 +1166,7 @@ test_nstime_subtract
 test_nstime_imultiply
 test_nstime_idivide
 test_nstime_divide
+test_nstime_monotonic
 test_nstime_update
 )
 )

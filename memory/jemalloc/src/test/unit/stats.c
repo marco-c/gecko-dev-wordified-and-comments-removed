@@ -1566,7 +1566,7 @@ zero
 "
 )
 ;
-assert_zu_gt
+assert_u64_gt
 (
 nmalloc
 0
@@ -1580,7 +1580,7 @@ zero
 "
 )
 ;
-assert_zu_ge
+assert_u64_ge
 (
 nmalloc
 ndalloc
@@ -1597,7 +1597,7 @@ ndalloc
 "
 )
 ;
-assert_zu_gt
+assert_u64_gt
 (
 nrequests
 0
@@ -1857,7 +1857,7 @@ zero
 "
 )
 ;
-assert_zu_gt
+assert_u64_gt
 (
 nmalloc
 0
@@ -1871,7 +1871,7 @@ zero
 "
 )
 ;
-assert_zu_ge
+assert_u64_ge
 (
 nmalloc
 ndalloc
