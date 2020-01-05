@@ -153,9 +153,12 @@ insertRule
 (
 DOMString
 rule
+optional
 unsigned
 long
 index
+=
+0
 )
 ;
 [
