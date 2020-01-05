@@ -608,12 +608,6 @@ get
 build_type
 '
 )
-            
-'
-signed
-'
-:
-True
         
 }
         
