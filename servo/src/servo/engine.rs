@@ -21,10 +21,7 @@ gfx
 render_task
 :
 :
-{
-Renderer
 RenderTask
-}
 ;
 use
 task
@@ -188,7 +185,7 @@ compositor
 C
 render_task
 :
-Renderer
+RenderTask
 resource_task
 :
 ResourceTask
