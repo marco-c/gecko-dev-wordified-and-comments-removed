@@ -3,6 +3,12 @@ Tests
 for
 repeat
 behaviour
+skip
+-
+if
+(
+stylo
+)
 =
 =
 indefinite

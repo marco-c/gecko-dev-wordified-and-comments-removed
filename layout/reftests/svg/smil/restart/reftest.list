@@ -31,6 +31,12 @@ box
 ref
 .
 svg
+skip
+-
+if
+(
+stylo
+)
 =
 =
 reset
@@ -73,6 +79,12 @@ and
 has
 been
 removed
+skip
+-
+if
+(
+stylo
+)
 =
 =
 reset

@@ -2779,6 +2779,12 @@ svg
 pseudo
 -
 elements
+fails
+-
+if
+(
+stylo
+)
 =
 =
 pseudo
@@ -2797,6 +2803,12 @@ line
 ref
 .
 svg
+fails
+-
+if
+(
+stylo
+)
 =
 =
 pseudo
