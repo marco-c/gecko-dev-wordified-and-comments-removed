@@ -1718,6 +1718,10 @@ typePool
 &
 zStats
 .
+jitZone
+&
+zStats
+.
 baselineStubsOptimized
 &
 zStats
