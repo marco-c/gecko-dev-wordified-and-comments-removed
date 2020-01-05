@@ -1507,7 +1507,7 @@ aOldRightNode
 1
 ;
 nsresult
-result
+rv
 =
 SelAdjInsertNode
 (
@@ -1519,8 +1519,8 @@ offset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 for

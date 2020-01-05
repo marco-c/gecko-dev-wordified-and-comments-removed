@@ -5664,7 +5664,7 @@ newNode
 )
 ;
 nsresult
-result
+rv
 =
 aResult
 .
@@ -5696,13 +5696,13 @@ GetAsDOMNode
 (
 newNode
 )
-result
+rv
 )
 ;
 }
 aResult
 =
-result
+rv
 ;
 return
 newNode
@@ -5872,7 +5872,7 @@ AsDOMNode
 ;
 }
 nsresult
-result
+rv
 =
 NS_OK
 ;
@@ -5893,7 +5893,7 @@ if
 transaction
 )
 {
-result
+rv
 =
 DoTransaction
 (
@@ -5946,12 +5946,12 @@ parent
 AsDOMNode
 (
 )
-result
+rv
 )
 ;
 }
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP

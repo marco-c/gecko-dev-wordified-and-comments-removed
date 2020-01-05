@@ -574,11 +574,6 @@ nsIEditor
 aEditor
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsISelectionController
@@ -602,7 +597,8 @@ LOCK_DOC
 this
 )
 ;
-result
+nsresult
+rv
 =
 aEditor
 -
@@ -619,7 +615,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -629,7 +625,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -669,7 +665,7 @@ mSelCon
 selCon
 ;
 }
-result
+rv
 =
 aEditor
 -
@@ -686,7 +682,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -696,7 +692,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -735,7 +731,7 @@ mDOMDocument
 =
 doc
 ;
-result
+rv
 =
 CreateDocumentContentIterator
 (
@@ -749,7 +745,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -759,7 +755,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -769,7 +765,7 @@ nsTextServicesDocument
 :
 eIsDone
 ;
-result
+rv
 =
 FirstBlock
 (
@@ -779,7 +775,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -789,7 +785,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 }
@@ -800,7 +796,7 @@ do_GetWeakReference
 aEditor
 )
 ;
-result
+rv
 =
 aEditor
 -
@@ -816,7 +812,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -907,7 +903,7 @@ CloneRange
 )
 ;
 nsresult
-result
+rv
 =
 CreateContentIterator
 (
@@ -922,7 +918,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -932,7 +928,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -942,7 +938,7 @@ nsTextServicesDocument
 :
 eIsDone
 ;
-result
+rv
 =
 FirstBlock
 (
@@ -954,7 +950,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -1000,7 +996,7 @@ rngStartOffset
 rngEndOffset
 ;
 nsresult
-result
+rv
 =
 GetRangeEndPoints
 (
@@ -1021,8 +1017,8 @@ rngEndOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 nsCOMPtr
@@ -1031,7 +1027,7 @@ nsIContentIterator
 >
 iter
 ;
-result
+rv
 =
 CreateContentIterator
 (
@@ -1044,14 +1040,14 @@ iter
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 TSDIteratorStatus
 iterStatus
 ;
-result
+rv
 =
 FirstTextNode
 (
@@ -1062,8 +1058,8 @@ iterStatus
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
@@ -1098,7 +1094,7 @@ firstText
 NS_ERROR_FAILURE
 )
 ;
-result
+rv
 =
 LastTextNode
 (
@@ -1109,8 +1105,8 @@ iterStatus
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
@@ -1225,8 +1221,6 @@ lastTextNode
 nsAutoString
 str
 ;
-result
-=
 lastTextNode
 -
 >
@@ -1250,7 +1244,7 @@ nsIContentIterator
 >
 docIter
 ;
-result
+rv
 =
 CreateDocumentContentIterator
 (
@@ -1262,11 +1256,11 @@ docIter
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
-result
+rv
 =
 docIter
 -
@@ -1278,8 +1272,8 @@ firstText
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 iterStatus
@@ -1299,7 +1293,7 @@ offsetTable
 nsAutoString
 blockStr
 ;
-result
+rv
 =
 CreateOffsetTable
 (
@@ -1317,7 +1311,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -1328,7 +1322,7 @@ offsetTable
 )
 ;
 return
-result
+rv
 ;
 }
 nsCOMPtr
@@ -1342,7 +1336,7 @@ int32_t
 wordStartOffset
 wordEndOffset
 ;
-result
+rv
 =
 FindWordBounds
 (
@@ -1374,8 +1368,8 @@ offsetTable
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 rngStartNode
@@ -1386,7 +1380,7 @@ rngStartOffset
 =
 wordStartOffset
 ;
-result
+rv
 =
 docIter
 -
@@ -1398,8 +1392,8 @@ lastText
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 iterStatus
@@ -1409,7 +1403,7 @@ nsTextServicesDocument
 :
 eValid
 ;
-result
+rv
 =
 CreateOffsetTable
 (
@@ -1427,7 +1421,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -1438,10 +1432,10 @@ offsetTable
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 FindWordBounds
 (
@@ -1473,8 +1467,8 @@ offsetTable
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
@@ -1514,7 +1508,7 @@ rngEndOffset
 wordEndOffset
 ;
 }
-result
+rv
 =
 range
 -
@@ -1527,8 +1521,8 @@ rngEndOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 return
@@ -1572,9 +1566,6 @@ nsString
 aStr
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aStr
@@ -1599,7 +1590,8 @@ LOCK_DOC
 this
 )
 ;
-result
+nsresult
+rv
 =
 CreateOffsetTable
 (
@@ -1618,7 +1610,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -1641,7 +1633,7 @@ this
 )
 ;
 nsresult
-result
+rv
 =
 FirstTextNode
 (
@@ -1654,7 +1646,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -1664,7 +1656,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -1682,7 +1674,7 @@ mPrevTextBlock
 =
 nullptr
 ;
-result
+rv
 =
 GetFirstTextNodeInNextBlock
 (
@@ -1710,7 +1702,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -1730,11 +1722,6 @@ int32_t
 aSelLength
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 NS_ENSURE_TRUE
 (
 aSelStatus
@@ -1801,7 +1788,8 @@ nsISelection
 >
 domSelection
 ;
-result
+nsresult
+rv
 =
 mSelCon
 -
@@ -1822,7 +1810,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -1832,7 +1820,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 RefPtr
@@ -1910,7 +1898,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-result
+rv
 =
 range
 -
@@ -1927,7 +1915,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -1937,7 +1925,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -1955,7 +1943,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-result
+rv
 =
 range
 -
@@ -1970,7 +1958,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -1980,7 +1968,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -2018,7 +2006,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-result
+rv
 =
 mIterator
 -
@@ -2032,7 +2020,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2042,10 +2030,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 FirstTextNodeInCurrentBlock
 (
@@ -2056,7 +2044,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2066,7 +2054,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -2076,7 +2064,7 @@ nsTextServicesDocument
 :
 eValid
 ;
-result
+rv
 =
 CreateOffsetTable
 (
@@ -2093,7 +2081,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2103,10 +2091,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 GetSelection
 (
@@ -2119,7 +2107,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2129,7 +2117,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -2143,7 +2131,8 @@ nsITextServicesDocument
 :
 eBlockContains
 )
-result
+{
+rv
 =
 SetSelectionInternal
 (
@@ -2155,9 +2144,10 @@ false
 )
 ;
 }
+}
 else
 {
-result
+rv
 =
 CreateDocumentContentRootToNodeOffsetRange
 (
@@ -2174,7 +2164,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2184,10 +2174,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 range
 -
@@ -2202,7 +2192,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2212,7 +2202,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -2229,7 +2219,7 @@ return
 NS_OK
 ;
 }
-result
+rv
 =
 CreateContentIterator
 (
@@ -2244,7 +2234,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2254,7 +2244,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 iter
@@ -2331,7 +2321,7 @@ return
 NS_OK
 ;
 }
-result
+rv
 =
 mIterator
 -
@@ -2345,7 +2335,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2355,10 +2345,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 FirstTextNodeInCurrentBlock
 (
@@ -2369,7 +2359,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2379,7 +2369,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -2389,7 +2379,7 @@ nsTextServicesDocument
 :
 eValid
 ;
-result
+rv
 =
 CreateOffsetTable
 (
@@ -2406,7 +2396,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2416,10 +2406,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 GetSelection
 (
@@ -2432,7 +2422,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2442,7 +2432,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 }
@@ -2452,10 +2442,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 selection
 -
@@ -2470,7 +2460,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2480,7 +2470,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_ASSERTION
@@ -2554,10 +2544,10 @@ this
 )
 ;
 return
-result
+NS_OK
 ;
 }
-result
+rv
 =
 CreateContentIterator
 (
@@ -2572,7 +2562,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2582,7 +2572,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 iter
@@ -2642,7 +2632,7 @@ AsContent
 (
 )
 ;
-result
+rv
 =
 mIterator
 -
@@ -2656,7 +2646,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2666,10 +2656,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 FirstTextNodeInCurrentBlock
 (
@@ -2680,7 +2670,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2690,7 +2680,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -2700,7 +2690,7 @@ nsTextServicesDocument
 :
 eValid
 ;
-result
+rv
 =
 CreateOffsetTable
 (
@@ -2717,7 +2707,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2727,10 +2717,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 GetSelection
 (
@@ -2745,7 +2735,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 iter
@@ -2784,7 +2774,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-result
+rv
 =
 range
 -
@@ -2801,7 +2791,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2811,7 +2801,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -2829,7 +2819,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-result
+rv
 =
 range
 -
@@ -2844,7 +2834,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2854,10 +2844,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 CreateDocumentContentRootToNodeOffsetRange
 (
@@ -2874,7 +2864,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2884,10 +2874,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 range
 -
@@ -2902,7 +2892,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2912,7 +2902,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -2929,7 +2919,7 @@ return
 NS_OK
 ;
 }
-result
+rv
 =
 CreateContentIterator
 (
@@ -2944,7 +2934,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -2954,7 +2944,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 iter
@@ -3014,7 +3004,7 @@ AsContent
 (
 )
 ;
-result
+rv
 =
 mIterator
 -
@@ -3028,7 +3018,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3038,10 +3028,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 FirstTextNodeInCurrentBlock
 (
@@ -3052,7 +3042,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3062,7 +3052,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -3072,7 +3062,7 @@ nsTextServicesDocument
 :
 eValid
 ;
-result
+rv
 =
 CreateOffsetTable
 (
@@ -3089,7 +3079,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3099,10 +3089,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 GetSelection
 (
@@ -3117,7 +3107,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 iter
@@ -3145,11 +3135,6 @@ PrevBlock
 (
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 NS_ENSURE_TRUE
 (
 mIterator
@@ -3193,7 +3178,9 @@ nsTextServicesDocument
 :
 eNext
 :
-result
+{
+nsresult
+rv
 =
 FirstTextNodeInPrevBlock
 (
@@ -3204,7 +3191,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3221,7 +3208,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -3259,6 +3246,7 @@ eValid
 ;
 break
 ;
+}
 case
 nsTextServicesDocument
 :
@@ -3286,6 +3274,11 @@ eIsDone
 break
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 mIteratorStatus
@@ -3297,8 +3290,6 @@ nsTextServicesDocument
 eValid
 )
 {
-result
-=
 GetFirstTextNodeInPrevBlock
 (
 getter_AddRefs
@@ -3307,7 +3298,7 @@ mPrevTextBlock
 )
 )
 ;
-result
+rv
 =
 GetFirstTextNodeInNextBlock
 (
@@ -3335,7 +3326,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -3346,11 +3337,6 @@ NextBlock
 (
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 NS_ENSURE_TRUE
 (
 mIterator
@@ -3388,7 +3374,9 @@ nsTextServicesDocument
 :
 eValid
 :
-result
+{
+nsresult
+rv
 =
 FirstTextNodeInNextBlock
 (
@@ -3399,7 +3387,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3416,7 +3404,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -3454,6 +3442,7 @@ eValid
 ;
 break
 ;
+}
 case
 nsTextServicesDocument
 :
@@ -3487,6 +3476,11 @@ eIsDone
 break
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 mIteratorStatus
@@ -3498,8 +3492,6 @@ nsTextServicesDocument
 eValid
 )
 {
-result
-=
 GetFirstTextNodeInPrevBlock
 (
 getter_AddRefs
@@ -3508,7 +3500,7 @@ mPrevTextBlock
 )
 )
 ;
-result
+rv
 =
 GetFirstTextNodeInNextBlock
 (
@@ -3536,7 +3528,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -3610,9 +3602,6 @@ int32_t
 aLength
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 mSelCon
@@ -3636,7 +3625,8 @@ LOCK_DOC
 this
 )
 ;
-result
+nsresult
+rv
 =
 SetSelectionInternal
 (
@@ -3651,7 +3641,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -3662,9 +3652,6 @@ ScrollSelectionIntoView
 (
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 mSelCon
@@ -3676,7 +3663,8 @@ LOCK_DOC
 this
 )
 ;
-result
+nsresult
+rv
 =
 mSelCon
 -
@@ -3703,7 +3691,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -3714,11 +3702,6 @@ DeleteSelection
 (
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIEditor
@@ -3813,7 +3796,8 @@ if
 mExtent
 )
 {
-result
+nsresult
+rv
 =
 GetRangeEndPoints
 (
@@ -3836,7 +3820,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3846,7 +3830,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 }
@@ -3938,7 +3922,8 @@ entry
 mStrOffset
 )
 {
-result
+nsresult
+rv
 =
 SplitOffsetEntry
 (
@@ -3950,7 +3935,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -3960,7 +3945,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 +
@@ -4059,7 +4044,8 @@ entry
 mLength
 )
 {
-result
+nsresult
+rv
 =
 SplitOffsetEntry
 (
@@ -4076,7 +4062,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4086,7 +4072,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 newEntry
@@ -4167,7 +4153,8 @@ AdjustContentIterator
 (
 )
 ;
-result
+nsresult
+rv
 =
 editor
 -
@@ -4188,7 +4175,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4198,7 +4185,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -4224,7 +4211,7 @@ curEndOffset
 =
 0
 ;
-result
+rv
 =
 GetRangeEndPoints
 (
@@ -4247,7 +4234,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4257,7 +4244,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -4315,7 +4302,7 @@ AsContent
 nullptr
 ;
 }
-result
+rv
 =
 CreateContentIterator
 (
@@ -4330,7 +4317,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4340,7 +4327,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -4348,7 +4335,7 @@ if
 curContent
 )
 {
-result
+rv
 =
 mIterator
 -
@@ -4362,7 +4349,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4526,8 +4513,6 @@ if
 entry
 )
 {
-result
-=
 SetSelection
 (
 mSelStartOffset
@@ -4552,7 +4537,7 @@ mSelEndOffset
 1
 ;
 }
-result
+rv
 =
 RemoveInvalidOffsetEntries
 (
@@ -4564,7 +4549,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -4579,11 +4564,6 @@ nsString
 aText
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIEditor
@@ -4657,7 +4637,8 @@ if
 collapsedSelection
 )
 {
-result
+nsresult
+rv
 =
 SetSelection
 (
@@ -4667,8 +4648,8 @@ mSelStartOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 }
@@ -4677,7 +4658,8 @@ LOCK_DOC
 this
 )
 ;
-result
+nsresult
+rv
 =
 editor
 -
@@ -4690,7 +4672,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4700,7 +4682,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 nsCOMPtr
@@ -4713,7 +4695,7 @@ do_QueryInterface
 (
 editor
 &
-result
+rv
 )
 )
 ;
@@ -4722,7 +4704,7 @@ if
 textEditor
 )
 {
-result
+rv
 =
 textEditor
 -
@@ -4738,7 +4720,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -4755,7 +4737,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 int32_t
@@ -5116,7 +5098,7 @@ mSelEndIndex
 =
 i
 ;
-result
+rv
 =
 mSelCon
 -
@@ -5137,7 +5119,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -5154,10 +5136,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 selection
 -
@@ -5183,7 +5165,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -5200,7 +5182,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 }
@@ -5237,7 +5219,7 @@ entry
 mStrOffset
 )
 ;
-result
+rv
 =
 SplitOffsetEntry
 (
@@ -5249,7 +5231,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -5266,7 +5248,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 itEntry
@@ -5430,7 +5412,7 @@ if
 collapsedSelection
 )
 {
-result
+rv
 =
 SetSelection
 (
@@ -5442,7 +5424,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -5459,10 +5441,10 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
-result
+rv
 =
 DeleteSelection
 (
@@ -5472,7 +5454,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -5489,11 +5471,11 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 }
-result
+rv
 =
 editor
 -
@@ -5508,7 +5490,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 NS_IMETHODIMP
@@ -5578,7 +5560,7 @@ OffsetEntry
 entry
 ;
 nsresult
-result
+rv
 =
 NodeHasOffsetEntry
 (
@@ -5595,7 +5577,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -5605,7 +5587,7 @@ this
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -5795,9 +5777,7 @@ uint16_t
 type
 ;
 nsresult
-result
-;
-result
+rv
 =
 aLeftNode
 -
@@ -5810,7 +5790,7 @@ type
 ;
 NS_ENSURE_SUCCESS
 (
-result
+rv
 NS_OK
 )
 ;
@@ -5829,7 +5809,7 @@ return
 NS_OK
 ;
 }
-result
+rv
 =
 aRightNode
 -
@@ -5842,7 +5822,7 @@ type
 ;
 NS_ENSURE_SUCCESS
 (
-result
+rv
 NS_OK
 )
 ;
@@ -5881,7 +5861,7 @@ rightHasEntry
 =
 false
 ;
-result
+rv
 =
 NodeHasOffsetEntry
 (
@@ -5896,8 +5876,8 @@ leftIndex
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
@@ -5910,7 +5890,7 @@ return
 NS_OK
 ;
 }
-result
+rv
 =
 NodeHasOffsetEntry
 (
@@ -5925,8 +5905,8 @@ rightIndex
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
@@ -6000,8 +5980,6 @@ rightIndex
 nsAutoString
 str
 ;
-result
-=
 aLeftNode
 -
 >
@@ -6192,8 +6170,6 @@ GetCurrentNode
 leftContent
 )
 {
-result
-=
 mIterator
 -
 >
@@ -6254,7 +6230,7 @@ mTxtSvcFilter
 )
 ;
 nsresult
-result
+rv
 =
 filter
 -
@@ -6268,12 +6244,12 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
 return
-result
+rv
 ;
 }
 filter
@@ -6299,9 +6275,6 @@ nsIDOMNode
 aNode
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aNode
@@ -6341,7 +6314,8 @@ nsIDOMHTMLElement
 >
 bodyElement
 ;
-result
+nsresult
+rv
 =
 htmlDoc
 -
@@ -6356,8 +6330,8 @@ bodyElement
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -6382,7 +6356,8 @@ nsIDOMElement
 >
 docElement
 ;
-result
+nsresult
+rv
 =
 mDOMDocument
 -
@@ -6397,8 +6372,8 @@ docElement
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -6416,7 +6391,7 @@ aNode
 ;
 }
 return
-result
+NS_OK
 ;
 }
 nsresult
@@ -6712,9 +6687,6 @@ nsIContentIterator
 aIterator
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aIterator
@@ -6727,7 +6699,8 @@ nsRange
 >
 range
 ;
-result
+nsresult
+rv
 =
 CreateDocumentContentRange
 (
@@ -6739,20 +6712,16 @@ range
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
-result
-=
+return
 CreateContentIterator
 (
 range
 aIterator
 )
-;
-return
-result
 ;
 }
 nsresult
@@ -6763,11 +6732,6 @@ AdjustContentIterator
 (
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 NS_ENSURE_TRUE
 (
 mIterator
@@ -6970,7 +6934,8 @@ if
 content
 )
 {
-result
+nsresult
+rv
 =
 mIterator
 -
@@ -6984,7 +6949,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -7001,7 +6966,7 @@ eValid
 ;
 }
 return
-result
+rv
 ;
 }
 if
@@ -7009,7 +6974,8 @@ if
 mNextTextBlock
 )
 {
-result
+nsresult
+rv
 =
 mIterator
 -
@@ -7023,7 +6989,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -7032,7 +6998,7 @@ mIteratorStatus
 eIsDone
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -7046,7 +7012,8 @@ if
 mPrevTextBlock
 )
 {
-result
+nsresult
+rv
 =
 mIterator
 -
@@ -7060,7 +7027,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -7069,7 +7036,7 @@ mIteratorStatus
 eIsDone
 ;
 return
-result
+rv
 ;
 }
 mIteratorStatus
@@ -7569,11 +7536,6 @@ bool
 aDoUpdate
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 NS_ENSURE_TRUE
 (
 mSelCon
@@ -7860,7 +7822,8 @@ if
 aDoUpdate
 )
 {
-result
+nsresult
+rv
 =
 mSelCon
 -
@@ -7879,11 +7842,11 @@ selection
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
-result
+rv
 =
 selection
 -
@@ -7896,8 +7859,8 @@ sOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 }
@@ -8082,7 +8045,8 @@ aDoUpdate
 eNode
 )
 {
-result
+nsresult
+rv
 =
 selection
 -
@@ -8095,13 +8059,13 @@ eOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 }
 return
-result
+NS_OK
 ;
 }
 nsresult
@@ -8124,9 +8088,6 @@ int32_t
 aSelLength
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aSelStatus
@@ -8192,7 +8153,8 @@ selection
 bool
 isCollapsed
 ;
-result
+nsresult
+rv
 =
 mSelCon
 -
@@ -8211,8 +8173,8 @@ selection
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -8221,7 +8183,7 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-result
+rv
 =
 selection
 -
@@ -8234,8 +8196,8 @@ isCollapsed
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
@@ -8243,7 +8205,7 @@ if
 isCollapsed
 )
 {
-result
+rv
 =
 GetCollapsedSelection
 (
@@ -8255,7 +8217,7 @@ aSelLength
 }
 else
 {
-result
+rv
 =
 GetUncollapsedSelection
 (
@@ -8266,7 +8228,7 @@ aSelLength
 ;
 }
 return
-result
+rv
 ;
 }
 nsresult
@@ -8296,7 +8258,7 @@ nsISelection
 domSelection
 ;
 nsresult
-result
+rv
 =
 mSelCon
 -
@@ -8315,8 +8277,8 @@ domSelection
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -8457,7 +8419,7 @@ nsIDOMNode
 >
 domParent
 ;
-result
+rv
 =
 range
 -
@@ -8472,8 +8434,8 @@ domParent
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 nsCOMPtr
@@ -8495,7 +8457,7 @@ parent
 int32_t
 offset
 ;
-result
+rv
 =
 range
 -
@@ -8508,8 +8470,8 @@ offset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 int32_t
@@ -8686,7 +8648,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-result
+rv
 =
 CreateRange
 (
@@ -8708,8 +8670,8 @@ range
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 nsCOMPtr
@@ -8718,7 +8680,7 @@ nsIContentIterator
 >
 iter
 ;
-result
+rv
 =
 CreateContentIterator
 (
@@ -8731,8 +8693,8 @@ iter
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 nsIContent
@@ -8824,7 +8786,7 @@ content
 NS_ERROR_FAILURE
 )
 ;
-result
+rv
 =
 iter
 -
@@ -8836,8 +8798,8 @@ content
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 saveNode
@@ -8871,7 +8833,7 @@ AsContent
 (
 )
 ;
-result
+rv
 =
 iter
 -
@@ -8883,8 +8845,8 @@ content
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 saveNode
@@ -8975,7 +8937,7 @@ TextLength
 }
 else
 {
-result
+rv
 =
 iter
 -
@@ -8987,8 +8949,8 @@ saveNode
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 node
@@ -9166,8 +9128,7 @@ aSelLength
 =
 0
 ;
-result
-=
+return
 SetSelectionInternal
 (
 *
@@ -9176,9 +9137,6 @@ aSelOffset
 aSelLength
 true
 )
-;
-return
-result
 ;
 }
 }
@@ -9206,9 +9164,6 @@ int32_t
 aSelLength
 )
 {
-nsresult
-result
-;
 RefPtr
 <
 nsRange
@@ -9225,7 +9180,8 @@ nsISelection
 >
 domSelection
 ;
-result
+nsresult
+rv
 =
 mSelCon
 -
@@ -9244,8 +9200,8 @@ domSelection
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -9364,7 +9320,7 @@ eEnd
 >
 mLength
 ;
-result
+rv
 =
 selection
 -
@@ -9377,8 +9333,8 @@ rangeCount
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 for
@@ -9412,7 +9368,7 @@ NS_ENSURE_STATE
 range
 )
 ;
-result
+rv
 =
 GetRangeEndPoints
 (
@@ -9433,8 +9389,8 @@ endOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 e1s2
@@ -9709,7 +9665,7 @@ o2
 endOffset
 ;
 }
-result
+rv
 =
 CreateRange
 (
@@ -9725,8 +9681,8 @@ range
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 nsCOMPtr
@@ -9735,7 +9691,7 @@ nsIContentIterator
 >
 iter
 ;
-result
+rv
 =
 CreateContentIterator
 (
@@ -9748,8 +9704,8 @@ iter
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 bool
@@ -9918,7 +9874,7 @@ NS_ERROR_FAILURE
 nsString
 str
 ;
-result
+rv
 =
 p2
 -
@@ -9930,8 +9886,8 @@ str
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 o2
@@ -10193,7 +10149,7 @@ mLength
 }
 }
 return
-result
+NS_OK
 ;
 }
 bool
@@ -10261,9 +10217,6 @@ int32_t
 aEndOffset
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aRange
@@ -10282,7 +10235,8 @@ aEndOffset
 NS_ERROR_NULL_POINTER
 )
 ;
-result
+nsresult
+rv
 =
 aRange
 -
@@ -10294,8 +10248,8 @@ aStartParent
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -10304,7 +10258,7 @@ aStartParent
 NS_ERROR_FAILURE
 )
 ;
-result
+rv
 =
 aRange
 -
@@ -10316,11 +10270,11 @@ aStartOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
-result
+rv
 =
 aRange
 -
@@ -10332,8 +10286,8 @@ aEndParent
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -10342,8 +10296,7 @@ aEndParent
 NS_ERROR_FAILURE
 )
 ;
-result
-=
+return
 aRange
 -
 >
@@ -10351,9 +10304,6 @@ GetEndOffset
 (
 aEndOffset
 )
-;
-return
-result
 ;
 }
 nsresult
@@ -10746,16 +10696,14 @@ nsIContentIterator
 aIterator
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aIterator
 NS_ERROR_NULL_POINTER
 )
 ;
-result
+nsresult
+rv
 =
 FirstTextNodeInCurrentBlock
 (
@@ -10764,7 +10712,7 @@ aIterator
 ;
 NS_ENSURE_SUCCESS
 (
-result
+rv
 NS_ERROR_FAILURE
 )
 ;
@@ -10965,9 +10913,6 @@ nsIContent
 aContent
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aContent
@@ -10990,7 +10935,8 @@ GetCurrentNode
 (
 )
 ;
-result
+nsresult
+rv
 =
 FirstTextNodeInPrevBlock
 (
@@ -11001,7 +10947,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -11014,7 +10960,7 @@ node
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -11090,9 +11036,6 @@ nsIContent
 aContent
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 aContent
@@ -11115,7 +11058,8 @@ GetCurrentNode
 (
 )
 ;
-result
+nsresult
+rv
 =
 FirstTextNodeInNextBlock
 (
@@ -11126,7 +11070,7 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
 {
@@ -11139,7 +11083,7 @@ node
 )
 ;
 return
-result
+rv
 ;
 }
 if
@@ -11230,11 +11174,6 @@ nsString
 aStr
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIContent
@@ -11307,7 +11246,8 @@ if
 aIterRange
 )
 {
-result
+nsresult
+rv
 =
 GetRangeEndPoints
 (
@@ -11328,12 +11268,13 @@ rngEndOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 }
-result
+nsresult
+rv
 =
 FirstTextNodeInCurrentBlock
 (
@@ -11342,8 +11283,8 @@ aIterator
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 int32_t
@@ -11442,7 +11383,7 @@ node
 nsString
 str
 ;
-result
+rv
 =
 node
 -
@@ -11454,8 +11395,8 @@ str
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 OffsetEntry
@@ -11683,7 +11624,7 @@ eIsDone
 ;
 }
 return
-result
+NS_OK
 ;
 }
 nsresult
@@ -12231,7 +12172,7 @@ hasEntry
 false
 ;
 nsresult
-result
+rv
 =
 NodeHasOffsetEntry
 (
@@ -12245,8 +12186,8 @@ entryIndex
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE

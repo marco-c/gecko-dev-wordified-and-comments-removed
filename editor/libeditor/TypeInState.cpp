@@ -298,7 +298,7 @@ selOffset
 0
 ;
 nsresult
-result
+rv
 =
 EditorBase
 :
@@ -316,8 +316,8 @@ selOffset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 if
