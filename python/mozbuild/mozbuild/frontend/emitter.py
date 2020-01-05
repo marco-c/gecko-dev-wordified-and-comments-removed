@@ -465,21 +465,6 @@ test
     
 (
 '
-sdp_file_parser
-'
-'
-media
-/
-webrtc
-/
-signaling
-/
-fuzztest
-'
-)
-    
-(
-'
 signaling_unittests
 '
 '
