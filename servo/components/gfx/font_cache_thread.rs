@@ -46,7 +46,7 @@ net_traits
 AsyncResponseTarget
 LoadContext
 PendingAsyncLoad
-ResourceThread
+CoreResourceThread
 ResponseAction
 }
 ;
@@ -632,9 +632,9 @@ FontTemplates
 font_context
 :
 FontContextHandle
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 webrender_api
 :
 Option
@@ -1092,7 +1092,7 @@ LoadContext
 Font
 self
 .
-resource_thread
+core_resource_thread
 .
 clone
 (
@@ -2515,9 +2515,9 @@ pub
 fn
 new
 (
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 webrender_api
 :
 Option
@@ -2627,9 +2627,9 @@ FontContextHandle
 new
 (
 )
-resource_thread
+core_resource_thread
 :
-resource_thread
+core_resource_thread
 webrender_api
 :
 webrender_api

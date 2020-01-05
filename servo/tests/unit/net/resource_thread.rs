@@ -11,7 +11,7 @@ net
 resource_thread
 :
 :
-new_resource_thread
+new_core_resource_thread
 ;
 use
 net_traits
@@ -30,7 +30,7 @@ net_traits
 :
 :
 {
-ControlMsg
+CoreResourceMsg
 LoadData
 LoadConsumer
 LoadContext
@@ -143,7 +143,7 @@ unwrap
 let
 resource_thread
 =
-new_resource_thread
+new_core_resource_thread
 (
 "
 "
@@ -162,7 +162,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Exit
@@ -202,7 +202,7 @@ unwrap
 let
 resource_thread
 =
-new_resource_thread
+new_core_resource_thread
 (
 "
 "
@@ -259,7 +259,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Load
@@ -354,7 +354,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Exit
@@ -2402,7 +2402,7 @@ unwrap
 let
 resource_thread
 =
-new_resource_thread
+new_core_resource_thread
 (
 "
 "
@@ -2508,7 +2508,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Load
@@ -2562,7 +2562,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Cancel
@@ -2579,7 +2579,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Synchronize
@@ -2657,7 +2657,7 @@ resource_thread
 .
 send
 (
-ControlMsg
+CoreResourceMsg
 :
 :
 Exit

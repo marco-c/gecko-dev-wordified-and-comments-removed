@@ -145,7 +145,7 @@ use
 net_traits
 :
 :
-ResourceThread
+CoreResourceThread
 ;
 use
 profile_traits
@@ -677,14 +677,14 @@ devtools_chan
 }
 pub
 fn
-resource_thread
+core_resource_thread
 (
 &
 self
 )
 -
 >
-ResourceThread
+CoreResourceThread
 {
 match
 *
@@ -751,7 +751,7 @@ worker
 >
 worker
 .
-resource_thread
+core_resource_thread
 (
 )
 .

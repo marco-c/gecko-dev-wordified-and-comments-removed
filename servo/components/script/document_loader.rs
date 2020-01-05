@@ -40,7 +40,7 @@ net_traits
 :
 {
 PendingAsyncLoad
-ResourceThread
+CoreResourceThread
 LoadContext
 }
 ;
@@ -498,7 +498,7 @@ resource_thread
 :
 Arc
 <
-ResourceThread
+CoreResourceThread
 >
 pipeline
 :
@@ -556,7 +556,7 @@ resource_thread
 :
 Arc
 <
-ResourceThread
+CoreResourceThread
 >
 pipeline
 :

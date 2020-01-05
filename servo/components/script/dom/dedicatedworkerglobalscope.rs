@@ -1379,7 +1379,7 @@ Script
 &
 init
 .
-resource_thread
+core_resource_thread
 worker_url
 None
 )

@@ -160,6 +160,12 @@ use
 net_traits
 :
 :
+IpcSend
+;
+use
+net_traits
+:
+:
 storage_thread
 :
 :
@@ -351,7 +357,11 @@ as_window
 (
 )
 .
-storage_thread
+resource_threads
+(
+)
+.
+sender
 (
 )
 }

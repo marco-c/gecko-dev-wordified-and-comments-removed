@@ -111,7 +111,6 @@ PathBuf
 impl
 FileManager
 {
-pub
 fn
 new
 (
@@ -206,7 +205,6 @@ start
 ;
 chan
 }
-pub
 fn
 start
 (
