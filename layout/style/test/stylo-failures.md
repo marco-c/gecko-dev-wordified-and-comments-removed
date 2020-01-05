@@ -372,7 +372,7 @@ test_animations_async_tests
 .
 html
 [
-3
+2
 ]
 *
 test_animations_dynamic_changes
@@ -393,7 +393,7 @@ test_flexbox_flex_grow_and_shrink
 .
 html
 [
-16
+8
 ]
 *
 OMTA

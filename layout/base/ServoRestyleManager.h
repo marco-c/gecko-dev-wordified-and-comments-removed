@@ -341,7 +341,7 @@ mReentrantChanges
 private
 :
 void
-RecreateStyleContexts
+ProcessPostTraversal
 (
 Element
 *
@@ -358,7 +358,7 @@ aChangeList
 )
 ;
 void
-RecreateStyleContextsForText
+ProcessPostTraversalForText
 (
 nsIContent
 *
@@ -369,6 +369,9 @@ aParentContext
 ServoStyleSet
 *
 aStyleSet
+nsStyleChangeList
+&
+aChangeList
 )
 ;
 inline
