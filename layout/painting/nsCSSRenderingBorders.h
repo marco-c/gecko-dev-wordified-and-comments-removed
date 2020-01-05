@@ -1160,6 +1160,11 @@ stderr
 }
 static
 inline
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 void
 PrintAsFormatString
 (
@@ -1295,6 +1300,11 @@ nullptr
 }
 static
 inline
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 void
 PrintAsFormatString
 (
