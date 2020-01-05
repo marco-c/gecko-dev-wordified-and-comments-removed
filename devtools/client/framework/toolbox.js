@@ -752,7 +752,9 @@ getBoolPref
 "
 devtools
 .
-sourcemap
+source
+-
+map
 .
 locations
 .
