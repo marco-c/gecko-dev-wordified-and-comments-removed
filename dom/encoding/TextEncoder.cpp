@@ -337,6 +337,8 @@ Throw
 rv
 )
 ;
+return
+;
 }
 aRetval
 .

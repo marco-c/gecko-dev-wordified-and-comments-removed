@@ -11255,6 +11255,9 @@ Throw
 rv
 )
 ;
+return
+nullptr
+;
 }
 AddRemoveSelfReference
 (

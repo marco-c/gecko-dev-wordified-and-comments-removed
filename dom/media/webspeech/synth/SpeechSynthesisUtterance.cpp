@@ -272,6 +272,9 @@ Throw
 NS_ERROR_FAILURE
 )
 ;
+return
+nullptr
+;
 }
 MOZ_ASSERT
 (
