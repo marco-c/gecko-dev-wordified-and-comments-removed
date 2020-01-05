@@ -117,6 +117,14 @@ nullptr
 ;
 }
 virtual
+YUVColorSpace
+GetYUVColorSpace
+(
+)
+const
+override
+;
+virtual
 gfx
 :
 :
