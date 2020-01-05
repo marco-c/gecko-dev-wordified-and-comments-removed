@@ -5,10 +5,10 @@ dom
 bindings
 :
 :
-utils
+conversions
 :
 :
-delete_property_by_id
+is_dom_proxy
 ;
 use
 dom
@@ -20,7 +20,7 @@ bindings
 utils
 :
 :
-is_dom_proxy
+delete_property_by_id
 ;
 use
 js
