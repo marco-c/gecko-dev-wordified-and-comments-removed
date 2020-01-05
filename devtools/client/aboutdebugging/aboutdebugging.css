@@ -690,11 +690,12 @@ inline
 block
 ;
 margin
+-
+inline
+-
+end
 :
-0
-5px
-5px
-0
+1ch
 ;
 }
 .
