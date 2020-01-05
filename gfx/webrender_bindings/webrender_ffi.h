@@ -72,6 +72,7 @@ char
 procname
 )
 ;
+}
 #
 ifdef
 MOZ_BUILD_WEBRENDER
@@ -123,7 +124,6 @@ WR_FUNC
 #
 undef
 WR_DESTRUCTOR_SAFE_FUNC
-}
 struct
 WrGlyphArray
 {
