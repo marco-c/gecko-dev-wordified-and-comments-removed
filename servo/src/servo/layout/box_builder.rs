@@ -257,6 +257,11 @@ Node
 >
 CSSDisplay
 {
+/
+/
+FIXME
+/
+*
 let
 resolved
 =
@@ -298,6 +303,13 @@ v
 v
 }
 }
+;
+*
+/
+let
+resolved
+=
+DisplayInline
 ;
 if
 (
