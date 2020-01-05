@@ -94,6 +94,11 @@ pageActionFor
 :
 true
 "
+sidebarActionFor
+"
+:
+true
+"
 tabTracker
 "
 :
