@@ -42332,7 +42332,6 @@ PROMISE
 LT
 ReturnType
 GT
-Null
         
 "
 "
@@ -42361,7 +42360,10 @@ Promise
 "
 )
         
-type
+p
+[
+0
+]
 =
 IDLUnresolvedType
 (
@@ -42376,22 +42378,6 @@ promiseIdent
 p
 [
 3
-]
-)
-        
-p
-[
-0
-]
-=
-self
-.
-handleNullable
-(
-type
-p
-[
-5
 ]
 )
     
