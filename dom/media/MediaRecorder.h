@@ -480,6 +480,12 @@ Session
 >
 mSessions
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+mDocument
+;
 nsString
 mMimeType
 ;
