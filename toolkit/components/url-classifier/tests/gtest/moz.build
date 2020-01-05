@@ -107,11 +107,6 @@ Common
 cpp
 '
 '
-TestCachingV4
-.
-cpp
-'
-'
 TestChunkSet
 .
 cpp
