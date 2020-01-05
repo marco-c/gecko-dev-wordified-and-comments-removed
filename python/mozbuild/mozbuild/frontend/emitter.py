@@ -953,19 +953,6 @@ paths
         
 self
 .
-_external_paths
-.
-add
-(
-'
-security
-/
-nss
-'
-)
-        
-self
-.
 _emitter_time
 =
 0
