@@ -4422,7 +4422,6 @@ hyphenation
 10
 .
 html
-fails
 =
 =
 auto
@@ -4446,7 +4445,6 @@ xhtml
 #
 Bug
 1341714
-fails
 =
 =
 auto
@@ -4470,7 +4468,6 @@ xhtml
 #
 Bug
 1341714
-fails
 =
 =
 auto
@@ -4491,7 +4488,6 @@ xmllang
 1a
 .
 xhtml
-fails
 =
 =
 auto
@@ -4552,7 +4548,6 @@ xmllang
 4
 .
 xhtml
-fails
 =
 =
 auto
@@ -4573,7 +4568,6 @@ xmllang
 5
 .
 xhtml
-fails
 =
 =
 auto
@@ -4594,7 +4588,6 @@ xmllang
 6
 .
 xhtml
-fails
 =
 =
 auto
@@ -4675,7 +4668,6 @@ xmllang
 10
 .
 xhtml
-fails
 =
 =
 auto
@@ -4696,7 +4688,6 @@ xmllang
 11a
 .
 xhtml
-fails
 =
 =
 auto
@@ -4717,7 +4708,6 @@ xmllang
 11b
 .
 xhtml
-fails
 =
 =
 auto
@@ -4738,7 +4728,6 @@ xmllang
 12a
 .
 xhtml
-fails
 =
 =
 auto
@@ -4759,7 +4748,6 @@ xmllang
 12b
 .
 xhtml
-fails
 =
 =
 auto
@@ -4800,7 +4788,6 @@ xmllang
 13b
 .
 xhtml
-fails
 =
 =
 auto

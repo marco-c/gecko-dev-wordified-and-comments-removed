@@ -697,6 +697,14 @@ RawGeckoElementBorrowed
 element
 )
 ;
+nsIAtom
+*
+Gecko_GetXMLLangValue
+(
+RawGeckoElementBorrowed
+element
+)
+;
 #
 define
 SERVO_DECLARE_ELEMENT_ATTR_MATCHING_FUNCTIONS
