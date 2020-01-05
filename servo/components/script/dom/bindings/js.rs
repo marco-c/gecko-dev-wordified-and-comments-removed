@@ -1305,16 +1305,12 @@ self
 -
 >
 *
-mut
+const
 T
 {
 self
 .
 ptr
-as
-*
-mut
-T
 }
 /
 /
