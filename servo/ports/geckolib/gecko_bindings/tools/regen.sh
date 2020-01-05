@@ -76,10 +76,14 @@ o
 pipefail
 if
 [
+[
+{
 #
+}
 -
 eq
 0
+]
 ]
 ;
 then
@@ -87,7 +91,9 @@ echo
 "
 Usage
 :
+{
 0
+}
 /
 path
 /
@@ -117,12 +123,14 @@ rust
 bindgen
 if
 [
+[
 !
 -
 d
 rust
 -
 bindgen
+]
 ]
 ;
 then
@@ -153,6 +161,7 @@ usr
 include
 if
 [
+[
 !
 -
 d
@@ -160,6 +169,7 @@ d
 usr
 /
 include
+]
 ]
 ;
 then
@@ -196,6 +206,7 @@ exit
 fi
 if
 [
+[
 "
 (
 uname
@@ -206,6 +217,7 @@ uname
 "
 Linux
 "
+]
 ]
 ;
 then
@@ -223,15 +235,17 @@ llvm
 8
 /
 lib
-;
 else
 LIBCLANG_PATH
 =
+"
+(
 brew
 -
 -
 prefix
 llvm38
+)
 /
 lib
 /
@@ -242,7 +256,7 @@ llvm
 8
 /
 lib
-;
+"
 fi
 .
 /
@@ -254,4 +268,6 @@ py
 target
 all
 "
+{
+}
 "
