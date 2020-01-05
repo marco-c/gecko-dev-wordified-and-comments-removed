@@ -127,7 +127,6 @@ unwrap
 (
 )
 ;
-if
 opts
 :
 :
@@ -139,7 +138,7 @@ get_args
 (
 )
 )
-{
+;
 setup_logging
 (
 )
@@ -307,7 +306,6 @@ shutdown
 (
 )
 ;
-}
 }
 fn
 maybe_register_glutin_resize_handler

@@ -175,7 +175,6 @@ unwrap
 (
 )
 ;
-if
 opts
 :
 :
@@ -204,7 +203,7 @@ as_slice
 (
 )
 )
-{
+;
 resource_task
 :
 :
@@ -381,5 +380,4 @@ shutdown
 (
 )
 ;
-}
 }

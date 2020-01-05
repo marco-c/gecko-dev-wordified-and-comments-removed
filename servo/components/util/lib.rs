@@ -27,14 +27,6 @@ core_intrinsics
 [
 feature
 (
-exit_status
-)
-]
-#
-!
-[
-feature
-(
 fnbox
 )
 ]
