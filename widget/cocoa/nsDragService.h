@@ -13,6 +13,13 @@ h
 "
 #
 include
+"
+nsChildView
+.
+h
+"
+#
+include
 <
 Cocoa
 /
@@ -192,7 +199,7 @@ nsIArray
 >
 mDataItems
 ;
-NSView
+ChildView
 *
 mNativeDragView
 ;

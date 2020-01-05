@@ -306,6 +306,9 @@ mozAccessible
 endif
 mozView
 NSTextInputClient
+NSDraggingSource
+NSDraggingDestination
+NSPasteboardItemDataProvider
 >
 {
 private
