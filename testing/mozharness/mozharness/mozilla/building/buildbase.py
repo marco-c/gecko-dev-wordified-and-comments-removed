@@ -12248,24 +12248,6 @@ errors
 .
 "
 )
-        
-self
-.
-generate_build_props
-(
-console_output
-=
-True
-halt_on_failure
-=
-True
-)
-        
-self
-.
-_generate_build_stats
-(
-)
     
 def
 multi_l10n
@@ -12870,6 +12852,9 @@ def
 postflight_build
 (
 self
+console_output
+=
+True
 )
 :
         
@@ -12889,6 +12874,19 @@ s
 "
 "
 "
+        
+self
+.
+generate_build_props
+(
+console_output
+=
+console_output
+                                  
+halt_on_failure
+=
+True
+)
         
 if
 self
@@ -14172,7 +14170,7 @@ subtests
 }
     
 def
-_generate_build_stats
+generate_build_stats
 (
 self
 )
@@ -14226,17 +14224,6 @@ build
 "
 "
 "
-        
-self
-.
-info
-(
-'
-Collecting
-build
-metrics
-'
-)
         
 if
 self

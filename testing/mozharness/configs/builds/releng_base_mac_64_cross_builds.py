@@ -33,6 +33,14 @@ build
 '
         
 '
+generate
+-
+build
+-
+stats
+'
+        
+'
 update
 '
     
