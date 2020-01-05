@@ -5673,7 +5673,7 @@ ToInt32
 ;
 masm
 .
-storeCallResult
+storeCallWordResult
 (
 output
 )
@@ -6157,7 +6157,7 @@ ToInt32
 ;
 masm
 .
-storeCallResult
+storeCallWordResult
 (
 output
 )

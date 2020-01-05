@@ -8042,7 +8042,7 @@ dest
 ;
 }
 void
-storeCallResult
+storeCallWordResult
 (
 Register
 reg
@@ -8062,6 +8062,14 @@ reg
 )
 ;
 }
+inline
+void
+storeCallBoolResult
+(
+Register
+reg
+)
+;
 void
 storeCallFloatResult
 (

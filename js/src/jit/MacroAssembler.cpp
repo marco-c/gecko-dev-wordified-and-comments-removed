@@ -11153,7 +11153,7 @@ ToInt32
 )
 )
 ;
-storeCallResult
+storeCallWordResult
 (
 dest
 )
