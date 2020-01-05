@@ -118,9 +118,6 @@ class
 nsHtml5ElementName
 ;
 class
-nsHtml5HtmlAttributes
-;
-class
 nsHtml5UTF16Buffer
 ;
 class

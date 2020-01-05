@@ -118,9 +118,6 @@ class
 nsHtml5AttributeName
 ;
 class
-nsHtml5HtmlAttributes
-;
-class
 nsHtml5UTF16Buffer
 ;
 class
@@ -439,6 +436,11 @@ static
 nsHtml5ElementName
 *
 ELT_ANNOTATION_XML
+;
+static
+nsHtml5ElementName
+*
+ELT_ISINDEX
 ;
 static
 nsHtml5ElementName
@@ -1429,11 +1431,6 @@ static
 nsHtml5ElementName
 *
 ELT_FECONVOLVEMATRIX
-;
-static
-nsHtml5ElementName
-*
-ELT_ISINDEX
 ;
 static
 nsHtml5ElementName

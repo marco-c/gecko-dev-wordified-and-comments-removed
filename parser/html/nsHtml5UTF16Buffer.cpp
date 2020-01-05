@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsHtml5HtmlAttributes
-.
-h
-"
-#
-include
-"
 nsHtml5StackNode
 .
 h
