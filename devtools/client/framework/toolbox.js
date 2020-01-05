@@ -5002,6 +5002,9 @@ toggleMinimizeMode
 this
 .
 _toggleMinimizeMode
+toolbox
+:
+this
 }
 )
 ;
