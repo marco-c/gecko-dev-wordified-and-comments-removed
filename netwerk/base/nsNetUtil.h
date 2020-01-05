@@ -2668,6 +2668,13 @@ bool
 aPrivateBrowsing
 bool
 aAllowSTS
+const
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 bool
 &
 aShouldUpgrade

@@ -664,6 +664,15 @@ uri
 NS_ERROR_CONTENT_BLOCKED
 )
 ;
+OriginAttributes
+originAttributes
+;
+NS_GetOriginAttributes
+(
+httpChannel
+originAttributes
+)
+;
 bool
 hsts
 ;
@@ -680,6 +689,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 0
+originAttributes
 nullptr
 &
 hsts
@@ -958,6 +968,15 @@ rv
 rv
 )
 ;
+OriginAttributes
+originAttributes
+;
+NS_GetOriginAttributes
+(
+aRequestChannel
+originAttributes
+)
+;
 rv
 =
 sss
@@ -971,6 +990,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 0
+originAttributes
 &
 cached
 &
