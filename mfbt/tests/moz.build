@@ -214,6 +214,9 @@ TestSegmentedVector
 TestSHA1
 '
 '
+TestSmallPointerArray
+'
+'
 TestSplayTree
 '
 '
