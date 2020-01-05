@@ -378,15 +378,11 @@ attribute
 DOMImplementation
 implementation
 ;
-/
-/
 readonly
 attribute
 DOMString
 URL
 ;
-/
-/
 readonly
 attribute
 DOMString

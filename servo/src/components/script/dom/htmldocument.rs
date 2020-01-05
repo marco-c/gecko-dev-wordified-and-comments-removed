@@ -67,6 +67,15 @@ namespace
 Null
 ;
 use
+extra
+:
+:
+url
+:
+:
+Url
+;
+use
 js
 :
 :
@@ -103,6 +112,12 @@ window
 :
 mut
 Window
+url
+:
+Option
+<
+Url
+>
 )
 -
 >
@@ -118,6 +133,7 @@ Document
 new_inherited
 (
 window
+url
 HTML
 None
 )
@@ -131,6 +147,12 @@ window
 :
 mut
 Window
+url
+:
+Option
+<
+Url
+>
 )
 -
 >
@@ -145,6 +167,7 @@ HTMLDocument
 new_inherited
 (
 window
+url
 )
 ;
 Document

@@ -4621,6 +4621,14 @@ HTMLDocument
 new
 (
 window
+Some
+(
+url
+.
+clone
+(
+)
+)
 )
 ;
 let
