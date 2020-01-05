@@ -2583,16 +2583,6 @@ FillLogFont
 aLogFont
 weight
 aSize
-(
-mAntialiasOption
-=
-=
-kAntialiasSubpixel
-)
-?
-true
-:
-false
 )
 ;
 if

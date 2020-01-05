@@ -318,8 +318,6 @@ uint16_t
 aWeight
 gfxFloat
 aSize
-bool
-aUseCleartype
 )
 ;
 static
