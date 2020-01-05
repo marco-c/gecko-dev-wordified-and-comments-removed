@@ -177,6 +177,9 @@ global
 :
 &
 GlobalRef
+type_
+:
+BlobType
 bytes
 :
 Option
@@ -203,7 +206,7 @@ new
 )
 type_
 :
-BlobTypeId
+type_
 bytes
 :
 bytes
@@ -260,6 +263,7 @@ Blob
 new_inherited
 (
 global
+BlobTypeId
 bytes
 )
 *
