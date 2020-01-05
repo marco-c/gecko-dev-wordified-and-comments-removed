@@ -382,8 +382,11 @@ JSContext
 )
 -
 >
+Option
+<
 mut
 CacheableWrapper
+>
 {
 let
 page
@@ -395,6 +398,8 @@ cx
 ;
 unsafe
 {
+Some
+(
 (
 *
 page
@@ -410,6 +415,7 @@ window
 as
 mut
 CacheableWrapper
+)
 }
 }
 }

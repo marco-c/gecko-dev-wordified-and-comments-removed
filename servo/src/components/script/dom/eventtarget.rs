@@ -209,8 +209,11 @@ JSContext
 )
 -
 >
+Option
+<
 mut
 CacheableWrapper
+>
 {
 let
 page
@@ -242,6 +245,8 @@ subframes
 .
 unsafe
 {
+Some
+(
 (
 *
 page
@@ -257,6 +262,7 @@ window
 as
 mut
 CacheableWrapper
+)
 }
 }
 }

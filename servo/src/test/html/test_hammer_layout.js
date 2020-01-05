@@ -1,6 +1,8 @@
 var
 divs
 =
+window
+.
 document
 .
 getElementsByTagName

@@ -66,6 +66,8 @@ i
 var
 elem
 =
+window
+.
 document
 .
 documentElement

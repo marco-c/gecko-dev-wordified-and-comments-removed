@@ -236,10 +236,6 @@ conversions
 ;
 pub
 mod
-window
-;
-pub
-mod
 proxyhandler
 ;
 pub
@@ -305,6 +301,10 @@ RegisterBindings
 pub
 mod
 UIEventBinding
+;
+pub
+mod
+WindowBinding
 ;
 pub
 mod
