@@ -88,7 +88,7 @@ local_image_cache
 LocalImageCache
 ;
 use
-servo_util
+util
 :
 :
 geometry

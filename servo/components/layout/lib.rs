@@ -238,11 +238,7 @@ macro_use
 ]
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 #
 [
@@ -298,6 +294,10 @@ context
 ;
 pub
 mod
+data
+;
+pub
+mod
 display_list_builder
 ;
 pub
@@ -335,6 +335,10 @@ list_item
 pub
 mod
 model
+;
+pub
+mod
+opaque_node
 ;
 pub
 mod
@@ -379,10 +383,6 @@ text
 pub
 mod
 traversal
-;
-pub
-mod
-util
 ;
 pub
 mod

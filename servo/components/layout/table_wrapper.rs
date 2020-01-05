@@ -89,7 +89,7 @@ Rect
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry

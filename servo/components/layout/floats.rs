@@ -1,5 +1,5 @@
 use
-servo_util
+util
 :
 :
 geometry
@@ -8,7 +8,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -17,7 +17,7 @@ logical_geometry
 WritingMode
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -30,7 +30,7 @@ LogicalSize
 }
 ;
 use
-servo_util
+util
 :
 :
 persistent_list

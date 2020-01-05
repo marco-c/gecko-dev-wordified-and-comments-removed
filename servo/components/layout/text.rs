@@ -97,13 +97,13 @@ CompressionMode
 }
 ;
 use
-servo_util
+util
 :
 :
 dlist
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -112,7 +112,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -124,7 +124,7 @@ WritingMode
 }
 ;
 use
-servo_util
+util
 :
 :
 range
@@ -133,7 +133,7 @@ range
 Range
 ;
 use
-servo_util
+util
 :
 :
 smallvec

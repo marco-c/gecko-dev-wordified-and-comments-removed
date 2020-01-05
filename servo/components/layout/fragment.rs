@@ -93,7 +93,7 @@ use
 text
 ;
 use
-util
+opaque_node
 :
 :
 OpaqueNodeMethods
@@ -216,7 +216,7 @@ local_image_cache
 LocalImageCache
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -229,7 +229,7 @@ ZERO_POINT
 }
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -242,7 +242,7 @@ LogicalMargin
 }
 ;
 use
-servo_util
+util
 :
 :
 range
@@ -251,7 +251,7 @@ range
 *
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -260,7 +260,7 @@ smallvec
 SmallVec
 ;
 use
-servo_util
+util
 :
 :
 str
