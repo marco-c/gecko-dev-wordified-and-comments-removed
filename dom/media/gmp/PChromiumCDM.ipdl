@@ -221,6 +221,11 @@ aBuffer
 )
 ;
 async
+Drain
+(
+)
+;
+async
 Destroy
 (
 )
@@ -380,6 +385,11 @@ aStatus
 ;
 async
 ResetVideoDecoderComplete
+(
+)
+;
+async
+DrainComplete
 (
 )
 ;
