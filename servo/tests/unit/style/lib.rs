@@ -11,7 +11,6 @@ test
 [
 feature
 (
-core_intrinsics
 plugin
 test
 )

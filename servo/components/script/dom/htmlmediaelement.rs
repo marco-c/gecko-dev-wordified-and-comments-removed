@@ -2184,6 +2184,13 @@ base_url
 )
 ;
 }
+#
+[
+allow
+(
+unreachable_code
+)
+]
 fn
 resource_selection_algorithm_sync
 (

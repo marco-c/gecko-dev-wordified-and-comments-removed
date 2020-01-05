@@ -35,8 +35,6 @@ CoreResourceThread
 NetworkError
 fetch_async
 FetchResponseMsg
-FetchMetadata
-Metadata
 }
 ;
 use

@@ -33,14 +33,6 @@ plugin
 #
 !
 [
-feature
-(
-unicode
-)
-]
-#
-!
-[
 allow
 (
 non_camel_case_types
@@ -85,10 +77,6 @@ gleam
 extern
 crate
 glutin_app
-;
-extern
-crate
-rustc_unicode
 ;
 extern
 crate
