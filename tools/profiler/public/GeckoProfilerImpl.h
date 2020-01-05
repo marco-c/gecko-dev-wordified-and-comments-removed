@@ -140,14 +140,6 @@ GeckoSampler
 tlsTicker
 ;
 extern
-MOZ_THREAD_LOCAL
-(
-void
-*
-)
-tlsStackTop
-;
-extern
 bool
 stack_key_initialized
 ;
