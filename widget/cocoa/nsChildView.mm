@@ -7439,7 +7439,7 @@ on
 Event
 Listener
 object
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :

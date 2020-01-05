@@ -534,7 +534,8 @@ aPoint
 nullptr
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 WidgetGUIEvent

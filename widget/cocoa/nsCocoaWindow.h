@@ -1359,7 +1359,8 @@ LAYER_MANAGER_CURRENT
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

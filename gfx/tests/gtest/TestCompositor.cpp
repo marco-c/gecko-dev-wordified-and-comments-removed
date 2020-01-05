@@ -536,7 +536,8 @@ LayoutDeviceIntPoint
 )
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

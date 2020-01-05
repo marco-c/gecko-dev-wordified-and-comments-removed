@@ -321,7 +321,8 @@ nsEventStatus
 aApzResponse
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

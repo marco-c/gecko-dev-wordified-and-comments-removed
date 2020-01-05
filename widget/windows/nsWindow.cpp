@@ -15725,7 +15725,7 @@ messageTime
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

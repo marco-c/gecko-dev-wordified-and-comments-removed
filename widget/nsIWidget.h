@@ -2461,7 +2461,8 @@ aClientSize
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

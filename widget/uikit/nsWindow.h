@@ -326,7 +326,8 @@ aConfigurations
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

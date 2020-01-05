@@ -748,7 +748,8 @@ WidgetToScreenOffset
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

@@ -1497,7 +1497,7 @@ PR_Now
 1000
 ;
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :
