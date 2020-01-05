@@ -1342,6 +1342,13 @@ friend
 class
 PlaybackStreamListener
 ;
+class
+PlaybackTrackListener
+;
+friend
+class
+PlaybackTrackListener
+;
 void
 BlockPlaybackTrack
 (
@@ -1433,6 +1440,12 @@ RefPtr
 PlaybackStreamListener
 >
 mPlaybackListener
+;
+RefPtr
+<
+PlaybackTrackListener
+>
+mPlaybackTrackListener
 ;
 nsTArray
 <
