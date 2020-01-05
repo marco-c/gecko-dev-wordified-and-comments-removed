@@ -726,13 +726,11 @@ org
 multipage
 /
 #
-support
+javascript
 -
-the
+mime
 -
-scripting
--
-language
+type
 >
 .
 static
