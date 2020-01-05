@@ -130,6 +130,11 @@ DragPositionManager
 jsm
 '
 '
+PanelMultiView
+.
+jsm
+'
+'
 PanelWideWidgetTracker
 .
 jsm
