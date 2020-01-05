@@ -97,6 +97,10 @@ linux
 .
 yml
 -
+macosx
+.
+yml
+-
 windows
 .
 yml
