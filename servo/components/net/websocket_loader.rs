@@ -358,7 +358,6 @@ channel
 =
 establish_a_websocket_connection
 (
-&
 connect_data
 .
 resource_url
@@ -1198,7 +1197,6 @@ establish_a_websocket_connection
 (
 resource_url
 :
-&
 ServoUrl
 origin
 :
@@ -2028,7 +2026,6 @@ fetch
 (
 url
 :
-&
 ServoUrl
 origin
 :
@@ -2087,7 +2084,6 @@ main_fetch
 (
 url
 :
-&
 ServoUrl
 origin
 :
@@ -2118,6 +2114,7 @@ None
 if
 should_be_blocked_due_to_bad_port
 (
+&
 url
 )
 {
@@ -2165,6 +2162,7 @@ unwrap_or_else
 {
 basic_fetch
 (
+&
 url
 origin
 &
