@@ -1875,6 +1875,21 @@ self
 .
 restart
 (
+callback
+=
+lambda
+:
+about_window
+.
+deck
+.
+apply
+.
+button
+.
+click
+(
+)
 )
     
 def
@@ -2025,10 +2040,6 @@ about_window
 finally
 :
                 
-if
-about_window
-:
-                    
 self
 .
 updates
@@ -2046,6 +2057,27 @@ patch
 self
 .
 patch_info
+            
+self
+.
+restart
+(
+callback
+=
+lambda
+:
+about_window
+.
+deck
+.
+apply
+.
+button
+.
+click
+(
+)
+)
         
 else
 :
@@ -2076,12 +2108,6 @@ download_update
 (
 dialog
 )
-                
-dialog
-.
-close
-(
-)
             
 finally
 :
@@ -2103,11 +2129,24 @@ patch
 self
 .
 patch_info
-        
+            
 self
 .
 restart
 (
+callback
+=
+lambda
+:
+dialog
+.
+wizard
+.
+finish_button
+.
+click
+(
+)
 )
     
 def
