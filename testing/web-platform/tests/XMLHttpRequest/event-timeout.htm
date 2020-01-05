@@ -446,14 +446,15 @@ send
 null
 )
 ;
+setTimeout
+(
 test
 .
-step_timeout
+step_func
 (
+function
 (
 )
-=
->
 {
 assert_unreached
 (
@@ -466,6 +467,7 @@ called
 )
 ;
 }
+)
 10
 )
 ;

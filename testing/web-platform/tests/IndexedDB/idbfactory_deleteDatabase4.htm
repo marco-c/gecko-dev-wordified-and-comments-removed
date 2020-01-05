@@ -133,9 +133,6 @@ function
 )
 {
 var
-db
-;
-var
 openrq
 =
 indexedDB
@@ -238,7 +235,7 @@ abort
 "
 )
 ;
-step_timeout
+setTimeout
 (
 t
 .
@@ -374,7 +371,7 @@ async_test
 "
 Delete
 a
-nonexistent
+nonexistant
 database
 "
 )
@@ -394,7 +391,7 @@ indexedDB
 deleteDatabase
 (
 '
-nonexistent
+nonexistant
 '
 )
 ;

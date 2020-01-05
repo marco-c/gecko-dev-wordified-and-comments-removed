@@ -154,22 +154,10 @@ resp
     
 assert
 "
-value
-"
-in
-body
-    
-assert
-"
 width
 "
 in
 body
-[
-"
-value
-"
-]
     
 assert
 "
@@ -177,21 +165,11 @@ height
 "
 in
 body
-[
-"
-value
-"
-]
     
 assert
 isinstance
 (
 body
-[
-"
-value
-"
-]
 [
 "
 width
@@ -204,11 +182,6 @@ assert
 isinstance
 (
 body
-[
-"
-value
-"
-]
 [
 "
 height
@@ -564,22 +537,10 @@ resp
     
 assert
 "
-value
-"
-in
-body
-    
-assert
-"
 x
 "
 in
 body
-[
-"
-value
-"
-]
     
 assert
 "
@@ -587,21 +548,11 @@ y
 "
 in
 body
-[
-"
-value
-"
-]
     
 assert
 isinstance
 (
 body
-[
-"
-value
-"
-]
 [
 "
 x
@@ -614,11 +565,6 @@ assert
 isinstance
 (
 body
-[
-"
-value
-"
-]
 [
 "
 y

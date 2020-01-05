@@ -30431,7 +30431,7 @@ deferTest
 (
 )
 ;
-step_timeout
+setTimeout
 (
 function
 (
@@ -30477,7 +30477,7 @@ fillRect
 50
 )
 ;
-step_timeout
+setTimeout
 (
 t
 .
@@ -71411,7 +71411,7 @@ deferTest
 (
 )
 ;
-step_timeout
+setTimeout
 (
 t
 .
@@ -71512,7 +71512,7 @@ deferTest
 (
 )
 ;
-step_timeout
+setTimeout
 (
 t
 .

@@ -215,9 +215,7 @@ MediaConfigurationType
 file
 "
 "
-media
--
-source
+MediaSource
 "
 }
 ;
@@ -226,7 +224,7 @@ VideoConfiguration
 {
 required
 DOMString
-contentType
+type
 ;
 required
 unsigned
@@ -254,7 +252,7 @@ AudioConfiguration
 {
 required
 DOMString
-contentType
+type
 ;
 DOMString
 channels
@@ -300,9 +298,6 @@ partial
 interface
 Navigator
 {
-[
-SameObject
-]
 readonly
 attribute
 MediaCapabilities
@@ -321,9 +316,6 @@ partial
 interface
 WorkerNavigator
 {
-[
-SameObject
-]
 readonly
 attribute
 MediaCapabilities

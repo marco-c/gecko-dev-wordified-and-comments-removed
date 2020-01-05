@@ -1748,7 +1748,7 @@ all
 selections
 *
 *
-across
+accross
 all
 fields
 Be

@@ -348,10 +348,7 @@ p1
 promise_rejects
 (
 t
-new
-TypeError
-(
-)
+error1
 writer
 .
 write
@@ -365,8 +362,9 @@ write
 should
 reject
 with
-a
-TypeError
+the
+thrown
+error
 '
 )
 ;

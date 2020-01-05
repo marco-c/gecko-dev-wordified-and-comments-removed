@@ -14,15 +14,6 @@ from
 datetime
 import
 datetime
-timedelta
-CERT_EXPIRY_BUFFER
-=
-dict
-(
-hours
-=
-6
-)
 class
 OpenSSL
 (
@@ -460,9 +451,6 @@ iteritems
 )
 :
             
-try
-:
-                
 env
 [
 k
@@ -483,12 +471,6 @@ encode
 utf8
 "
 )
-            
-except
-UnicodeDecodeError
-:
-                
-pass
         
 if
 self
@@ -2049,25 +2031,14 @@ Z
 "
 )
             
-time_buffer
-=
-timedelta
-(
-*
-*
-CERT_EXPIRY_BUFFER
-)
-            
 if
 end_date
 <
 datetime
 .
-utcnow
+now
 (
 )
-+
-time_buffer
 :
                 
 return

@@ -76,7 +76,7 @@ wd_pattern
 .
 py
 "
-js_meta_re
+meta_re
 =
 re
 .
@@ -86,35 +86,6 @@ b
 "
 /
 /
-\
-s
-*
-META
-:
-\
-s
-*
-(
-\
-w
-*
-)
-=
-(
-.
-*
-)
-"
-)
-python_meta_re
-=
-re
-.
-compile
-(
-b
-"
-#
 \
 s
 *
@@ -232,7 +203,6 @@ def
 read_script_metadata
 (
 f
-regexp
 )
 :
     
@@ -260,24 +230,9 @@ as
 specified
 according
 to
-a
-supplied
-regexp
-.
-    
-regexp
--
-Regexp
-containing
-two
-groups
-containing
 the
-metadata
-name
-and
-               
-value
+meta_re
+regex
 .
     
 "
@@ -300,7 +255,7 @@ line
         
 m
 =
-regexp
+meta_re
 .
 match
 (
@@ -2032,30 +1987,15 @@ self
 :
         
 if
+not
 self
 .
 name_is_worker
-or
+and
+not
 self
 .
 name_is_multi_global
-:
-            
-regexp
-=
-js_meta_re
-        
-elif
-self
-.
-name_is_webdriver
-:
-            
-regexp
-=
-python_meta_re
-        
-else
 :
             
 return
@@ -2077,7 +2017,6 @@ list
 read_script_metadata
 (
 f
-regexp
 )
 )
     
@@ -3757,7 +3696,6 @@ any
 html
 "
 )
-                                
 timeout
 =
 self
@@ -3788,7 +3726,6 @@ worker
 html
 "
 )
-                                
 timeout
 =
 self
@@ -3861,12 +3798,6 @@ self
 self
 .
 url
-                                                                 
-timeout
-=
-self
-.
-timeout
 )
 ]
         

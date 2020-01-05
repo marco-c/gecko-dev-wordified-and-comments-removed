@@ -8,17 +8,8 @@ import
 StringIO
 import
 tempfile
-from
-six
-.
-moves
-.
-urllib
-.
-parse
 import
-parse_qsl
-urlsplit
+urlparse
 from
 .
 import
@@ -1053,6 +1044,38 @@ request
 attribute
 :
 :
+headers
+    
+List
+of
+request
+headers
+.
+    
+.
+.
+attribute
+:
+:
+raw_input
+    
+File
+-
+like
+object
+representing
+the
+body
+of
+the
+request
+.
+    
+.
+.
+attribute
+:
+:
 url_parts
     
 Parts
@@ -1108,23 +1131,6 @@ headers
 attribute
 :
 :
-raw_headers
-.
-    
-Dictionary
-of
-non
--
-normalized
-request
-headers
-.
-    
-.
-.
-attribute
-:
-:
 body
     
 Request
@@ -1132,25 +1138,6 @@ body
 as
 a
 string
-    
-.
-.
-attribute
-:
-:
-raw_input
-    
-File
--
-like
-object
-representing
-the
-body
-of
-the
-request
-.
     
 .
 .
@@ -1494,6 +1481,8 @@ self
 .
 url_parts
 =
+urlparse
+.
 urlsplit
 (
 self
@@ -1503,7 +1492,7 @@ url
         
 self
 .
-raw_headers
+_raw_headers
 =
 request_handler
 .
@@ -1636,6 +1625,8 @@ None
             
 params
 =
+urlparse
+.
 parse_qsl
 (
 self
@@ -1884,7 +1875,7 @@ RequestHeaders
 (
 self
 .
-raw_headers
+_raw_headers
 )
         
 return

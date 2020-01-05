@@ -1,15 +1,7 @@
 import
 unittest
-from
-six
-.
-moves
-.
-urllib
-.
-error
 import
-HTTPError
+urllib2
 import
 wptserve
 from
@@ -36,6 +28,8 @@ self
 .
 assertRaises
 (
+urllib2
+.
 HTTPError
 )
 as
@@ -253,6 +247,8 @@ self
 .
 assertRaises
 (
+urllib2
+.
 HTTPError
 )
 as

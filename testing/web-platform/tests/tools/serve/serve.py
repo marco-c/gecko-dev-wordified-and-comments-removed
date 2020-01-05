@@ -60,7 +60,6 @@ manifest
 sourcefile
 import
 read_script_metadata
-js_meta_re
 from
 wptserve
 import
@@ -446,7 +445,6 @@ in
 read_script_metadata
 (
 f
-js_meta_re
 )
 :
                 
@@ -796,7 +794,6 @@ in
 read_script_metadata
 (
 f
-js_meta_re
 )
 :
                 
@@ -1163,7 +1160,6 @@ in
 read_script_metadata
 (
 f
-js_meta_re
 )
 :
                 
@@ -2177,10 +2173,6 @@ bind_hostname
 external_config
 ssl_config
 )
-                            
-kwargs
-=
-kwargs
 )
         
 self

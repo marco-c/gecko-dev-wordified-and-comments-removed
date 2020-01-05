@@ -132,7 +132,7 @@ len
 (
 session
 .
-handles
+window_handles
 )
 >
 1
