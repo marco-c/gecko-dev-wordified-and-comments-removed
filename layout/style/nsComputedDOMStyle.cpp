@@ -31178,7 +31178,7 @@ mClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 |
 |
 firstLayer
@@ -31189,7 +31189,7 @@ mOrigin
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 |
 |
 firstLayer

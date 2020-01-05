@@ -2221,12 +2221,12 @@ kBackgroundLayerTable
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 :
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 ;
 if
 (
@@ -2249,7 +2249,7 @@ GetIntValue
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 |
 |
 static_cast

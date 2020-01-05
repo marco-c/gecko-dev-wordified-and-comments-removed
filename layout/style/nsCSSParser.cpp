@@ -52030,7 +52030,7 @@ SetEnumValue
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 ;
 aState
@@ -52149,7 +52149,7 @@ SetEnumValue
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 ;
 }
@@ -52167,7 +52167,7 @@ SetEnumValue
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 )
 ;
 }

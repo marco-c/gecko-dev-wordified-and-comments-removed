@@ -6943,8 +6943,8 @@ Vertical
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleGeometryBox
-Border
-View
+BorderBox
+ViewBox
 )
 #
 ifdef
@@ -33553,7 +33553,7 @@ mTransformBox
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 ;
 SetValue
@@ -38209,7 +38209,7 @@ mClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 parentBG
 -
 >
@@ -38311,7 +38311,7 @@ mOrigin
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 parentBG
 -
 >
@@ -51638,7 +51638,7 @@ mClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 parentSVGReset
 -
 >
@@ -51689,7 +51689,7 @@ mOrigin
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 parentSVGReset
 -
 >

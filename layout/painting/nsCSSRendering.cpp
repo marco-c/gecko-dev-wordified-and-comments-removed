@@ -9105,7 +9105,7 @@ aBox
 StyleGeometryBox
 :
 :
-Fill
+FillBox
 |
 |
 aBox
@@ -9114,7 +9114,7 @@ aBox
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 |
 |
 aBox
@@ -9123,7 +9123,7 @@ aBox
 StyleGeometryBox
 :
 :
-View
+ViewBox
 )
 ;
 }
@@ -9143,7 +9143,7 @@ aBox
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 |
 |
 aBox
@@ -9152,7 +9152,7 @@ aBox
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 |
 |
 aBox
@@ -9161,7 +9161,7 @@ aBox
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 |
 |
 aBox
@@ -9170,7 +9170,7 @@ aBox
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 )
 ;
 }
@@ -9212,7 +9212,7 @@ return
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 ;
 }
 }
@@ -9230,7 +9230,7 @@ return
 StyleGeometryBox
 :
 :
-Fill
+FillBox
 ;
 }
 }
@@ -9429,7 +9429,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 )
 ?
 clipArea
@@ -9443,7 +9443,7 @@ aForFrame
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 )
 ;
 nsRect
@@ -9644,7 +9644,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 {
 layerClip
@@ -9659,7 +9659,7 @@ MozAlmostPadding
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 ;
 }
 aClipState
@@ -9701,7 +9701,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 )
 {
 nsIScrollableFrame
@@ -9809,7 +9809,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 ;
 }
 MOZ_ASSERT
@@ -9820,12 +9820,12 @@ layerClip
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 "
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 rendering
 is
 not
@@ -9845,7 +9845,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 &
 &
 layerClip
@@ -9956,7 +9956,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 )
 {
 NS_ASSERTION
@@ -9967,7 +9967,7 @@ layerClip
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 "
 unexpected
 background
@@ -17069,7 +17069,7 @@ currentBackgroundClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 ;
 uint32_t
 count
@@ -17591,7 +17591,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 )
 {
 nsRect
@@ -17606,7 +17606,7 @@ aForFrame
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 )
 ;
 toStrokeBoxOffset
@@ -17759,7 +17759,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 {
 nsMargin
@@ -17813,7 +17813,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 )
 {
 nsMargin
@@ -17853,7 +17853,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 "
 unknown
 background
@@ -17945,12 +17945,12 @@ mOrigin
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 "
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 rendering
 is
 not
@@ -17970,7 +17970,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 &
 &
 geometryFrame
@@ -17994,7 +17994,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 )
 {
 border
@@ -18015,7 +18015,7 @@ layerOrigin
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 "
 unknown
 background

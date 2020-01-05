@@ -12785,7 +12785,7 @@ mClip
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 mAttachment
 (
@@ -12876,7 +12876,7 @@ mOrigin
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 ;
 }
 else
@@ -12903,7 +12903,7 @@ mOrigin
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 ;
 }
 }
@@ -14534,7 +14534,7 @@ mTransformBox
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 )
 mSpecifiedTransform
 (

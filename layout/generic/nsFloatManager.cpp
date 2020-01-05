@@ -4217,7 +4217,7 @@ case
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 :
 rect
 .
@@ -4239,7 +4239,7 @@ case
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 :
 rect
 .
@@ -4261,7 +4261,7 @@ case
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 :
 rect
 .
@@ -4283,7 +4283,7 @@ case
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 :
 break
 ;

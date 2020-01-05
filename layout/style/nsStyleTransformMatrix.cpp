@@ -209,7 +209,7 @@ mTransformBox
 StyleGeometryBox
 :
 :
-Fill
+FillBox
 )
 {
 nsRect
@@ -231,7 +231,7 @@ mFrame
 StyleGeometryBox
 :
 :
-Fill
+FillBox
 )
 ;
 mX
@@ -295,7 +295,7 @@ mTransformBox
 StyleGeometryBox
 :
 :
-View
+ViewBox
 |
 |
 mFrame
@@ -312,7 +312,7 @@ mTransformBox
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 "
 Unexpected
 value
