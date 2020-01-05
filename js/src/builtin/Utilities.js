@@ -6,6 +6,13 @@ SelfHostingDefines
 h
 "
 #
+include
+"
+TypedObjectConstants
+.
+h
+"
+#
 ifdef
 DEBUG
 #

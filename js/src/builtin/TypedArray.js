@@ -1,10 +1,3 @@
-#
-include
-"
-TypedObjectConstants
-.
-h
-"
 function
 ViewedArrayBufferIfReified
 (
@@ -5504,6 +5497,7 @@ JSMSG_TYPED_ARRAY_DETACHED
 ArrayBufferCopyData
 (
 new_
+0
 O
 first
 |
@@ -5805,6 +5799,7 @@ actualLen
 SharedArrayBufferCopyData
 (
 new_
+0
 O
 first
 |
