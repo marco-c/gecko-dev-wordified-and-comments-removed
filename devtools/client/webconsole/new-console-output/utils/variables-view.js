@@ -8,7 +8,7 @@ exports
 openVariablesView
 =
 (
-object
+objectActor
 )
 =
 >
@@ -21,8 +21,9 @@ openVariablesView
 (
 {
 objectActor
+autofocus
 :
-object
+true
 }
 )
 ;
