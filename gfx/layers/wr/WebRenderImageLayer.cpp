@@ -716,6 +716,16 @@ height
 Matrix4x4
 transform
 ;
+Maybe
+<
+WRImageMask
+>
+mask
+=
+buildMaskLayer
+(
+)
+;
 WRTextureFilter
 filter
 =
@@ -759,9 +769,7 @@ ToWRRect
 (
 overflow
 )
-Nothing
-(
-)
+mask
 transform
 FrameMetrics
 :

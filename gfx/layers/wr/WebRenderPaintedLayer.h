@@ -18,6 +18,17 @@ WebRenderLayerManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+WebRenderTypes
+.
+h
+"
 namespace
 mozilla
 {
