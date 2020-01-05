@@ -46165,6 +46165,17 @@ inheritFrame
 =
 aFrame
 ;
+if
+(
+!
+content
+-
+>
+IsNativeScrollbarContent
+(
+)
+)
+{
 while
 (
 inheritFrame
@@ -46189,6 +46200,7 @@ GetInFlowParent
 (
 )
 ;
+}
 }
 if
 (
