@@ -715,7 +715,7 @@ gfxRect
 static
 nsIFrame
 *
-GetNearestSVGParent
+GetNearestSVGViewport
 (
 nsIFrame
 *
