@@ -209,6 +209,12 @@ GenericOriginAttributes
 aAttrs
 )
 ;
+static
+bool
+IsFirstPartyEnabled
+(
+)
+;
 protected
 :
 OriginAttributes
@@ -231,11 +237,6 @@ aOther
 )
 {
 }
-bool
-IsFirstPartyEnabled
-(
-)
-;
 }
 ;
 class
