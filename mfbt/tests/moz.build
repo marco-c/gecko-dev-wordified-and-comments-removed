@@ -179,6 +179,9 @@ TestRange
 TestRefPtr
 '
 '
+TestResult
+'
+'
 TestRollingMean
 '
 '
