@@ -266,7 +266,7 @@ dom
 htmlheadingelement
 :
 :
-HeadingLevel
+HTMLHeadingElement
 ;
 use
 dom
@@ -275,7 +275,7 @@ dom
 htmlheadingelement
 :
 :
-HTMLHeadingElement
+HeadingLevel
 ;
 use
 dom

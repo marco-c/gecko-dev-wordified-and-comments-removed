@@ -62,10 +62,8 @@ fontconfig
 :
 :
 {
-FcPatternDestroy
-FcFontSetDestroy
-FcMatchPattern
-FcPatternCreate
+FcObjectSetAdd
+FcPatternGetInteger
 }
 ;
 use
@@ -90,8 +88,10 @@ fontconfig
 :
 :
 {
-FcObjectSetAdd
-FcPatternGetInteger
+FcPatternDestroy
+FcFontSetDestroy
+FcMatchPattern
+FcPatternCreate
 }
 ;
 use

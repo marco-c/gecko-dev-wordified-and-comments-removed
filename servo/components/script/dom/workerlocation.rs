@@ -38,10 +38,10 @@ dom
 bindings
 :
 :
-js
+global
 :
 :
-Root
+GlobalRef
 ;
 use
 dom
@@ -50,10 +50,10 @@ dom
 bindings
 :
 :
-global
+js
 :
 :
-GlobalRef
+Root
 ;
 use
 dom

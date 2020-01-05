@@ -8,10 +8,10 @@ bindings
 codegen
 :
 :
-InheritTypes
+Bindings
 :
 :
-XMLHttpRequestUploadDerived
+XMLHttpRequestUploadBinding
 ;
 use
 dom
@@ -23,10 +23,10 @@ bindings
 codegen
 :
 :
-Bindings
+InheritTypes
 :
 :
-XMLHttpRequestUploadBinding
+XMLHttpRequestUploadDerived
 ;
 use
 dom

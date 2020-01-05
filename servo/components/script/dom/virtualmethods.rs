@@ -53,7 +53,7 @@ codegen
 InheritTypes
 :
 :
-HTMLAreaElementCast
+HTMLAppletElementCast
 ;
 use
 dom
@@ -68,7 +68,7 @@ codegen
 InheritTypes
 :
 :
-HTMLAppletElementCast
+HTMLAreaElementCast
 ;
 use
 dom
@@ -368,7 +368,7 @@ codegen
 InheritTypes
 :
 :
-HTMLTableElementCast
+HTMLTableCellElementCast
 ;
 use
 dom
@@ -383,7 +383,7 @@ codegen
 InheritTypes
 :
 :
-HTMLTableCellElementCast
+HTMLTableElementCast
 ;
 use
 dom
@@ -488,12 +488,7 @@ dom
 node
 :
 :
-{
-ChildrenMutation
-CloneChildrenFlag
-Node
-NodeHelpers
-}
+NodeTypeId
 ;
 use
 dom
@@ -502,7 +497,12 @@ dom
 node
 :
 :
-NodeTypeId
+{
+ChildrenMutation
+CloneChildrenFlag
+Node
+NodeHelpers
+}
 ;
 use
 util

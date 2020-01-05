@@ -346,9 +346,8 @@ jsapi
 :
 :
 {
-JSContext
-RootedValue
-HandleValue
+JSAutoRequest
+JSAutoCompartment
 }
 ;
 use
@@ -359,8 +358,9 @@ jsapi
 :
 :
 {
-JSAutoRequest
-JSAutoCompartment
+JSContext
+RootedValue
+HandleValue
 }
 ;
 use

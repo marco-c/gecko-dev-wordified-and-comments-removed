@@ -117,8 +117,8 @@ InheritTypes
 :
 :
 {
-HTMLAnchorElementDerived
-HTMLImageElementDerived
+ElementCast
+HTMLElementCast
 }
 ;
 use
@@ -135,8 +135,8 @@ InheritTypes
 :
 :
 {
-ElementCast
-HTMLElementCast
+HTMLAnchorElementDerived
+HTMLImageElementDerived
 }
 ;
 use

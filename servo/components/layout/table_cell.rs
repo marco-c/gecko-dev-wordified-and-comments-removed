@@ -51,13 +51,13 @@ FragmentBorderBoxIterator
 }
 ;
 use
+layout_debug
+;
+use
 model
 :
 :
 MaybeAuto
-;
-use
-layout_debug
 ;
 use
 table

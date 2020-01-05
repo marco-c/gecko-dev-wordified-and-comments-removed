@@ -1,10 +1,4 @@
 use
-script_task
-:
-:
-MainThreadScriptMsg
-;
-use
 msg
 :
 :
@@ -19,6 +13,12 @@ use
 net_traits
 :
 :
+AsyncResponseTarget
+;
+use
+net_traits
+:
+:
 {
 Metadata
 load_whole_resource
@@ -27,10 +27,10 @@ PendingAsyncLoad
 }
 ;
 use
-net_traits
+script_task
 :
 :
-AsyncResponseTarget
+MainThreadScriptMsg
 ;
 use
 std

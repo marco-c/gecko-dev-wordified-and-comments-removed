@@ -139,6 +139,12 @@ use
 test
 :
 :
+run_tests_console
+;
+use
+test
+:
+:
 {
 AutoColor
 DynTestName
@@ -148,12 +154,6 @@ TestOpts
 TestDescAndFn
 ShouldPanic
 }
-;
-use
-test
-:
-:
-run_tests_console
 ;
 use
 url

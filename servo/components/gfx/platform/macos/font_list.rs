@@ -21,6 +21,9 @@ CFStringRef
 ;
 use
 core_text
+;
+use
+core_text
 :
 :
 font_descriptor
@@ -30,9 +33,6 @@ font_descriptor
 CTFontDescriptor
 CTFontDescriptorRef
 }
-;
-use
-core_text
 ;
 use
 std

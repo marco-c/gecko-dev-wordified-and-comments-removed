@@ -61,6 +61,12 @@ use
 layout_debug
 ;
 use
+model
+:
+:
+MaybeAuto
+;
+use
 table
 :
 :
@@ -79,12 +85,6 @@ table_cell
 CollapsedBordersForCell
 TableCellFlow
 }
-;
-use
-model
-:
-:
-MaybeAuto
 ;
 use
 cssparser
