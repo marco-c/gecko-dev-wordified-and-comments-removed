@@ -3609,6 +3609,15 @@ src
 /
 components
 /
+layout_traits
+make_dir
+{
+CFG_BUILD_DIR
+}
+src
+/
+components
+/
 script
 make_dir
 {
