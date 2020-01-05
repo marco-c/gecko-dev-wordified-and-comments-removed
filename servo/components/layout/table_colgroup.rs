@@ -201,10 +201,6 @@ bubble_inline_sizes
 &
 mut
 self
-_
-:
-&
-LayoutContext
 )
 {
 let

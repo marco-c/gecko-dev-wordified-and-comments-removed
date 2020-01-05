@@ -240,6 +240,7 @@ node
 :
 {
 TElement
+TElementAttributes
 TNode
 }
 ;
@@ -290,6 +291,18 @@ RGBA
 ;
 pub
 use
+legacy
+:
+:
+{
+IntegerAttribute
+LengthAttribute
+SizeIntegerAttribute
+WidthLengthAttribute
+}
+;
+pub
+use
 font_face
 :
 :
@@ -328,4 +341,7 @@ parsing_utils
 ;
 mod
 font_face
+;
+mod
+legacy
 ;

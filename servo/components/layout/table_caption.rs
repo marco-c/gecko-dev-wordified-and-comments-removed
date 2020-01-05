@@ -209,10 +209,6 @@ bubble_inline_sizes
 &
 mut
 self
-ctx
-:
-&
-LayoutContext
 )
 {
 self
@@ -221,7 +217,6 @@ block_flow
 .
 bubble_inline_sizes
 (
-ctx
 )
 ;
 }

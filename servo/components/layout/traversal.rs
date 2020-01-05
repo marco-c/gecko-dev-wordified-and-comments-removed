@@ -1235,9 +1235,6 @@ flow
 .
 bubble_inline_sizes
 (
-self
-.
-layout_context
 )
 ;
 true

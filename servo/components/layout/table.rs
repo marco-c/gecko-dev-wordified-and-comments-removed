@@ -796,10 +796,6 @@ bubble_inline_sizes
 &
 mut
 self
-layout_context
-:
-&
-LayoutContext
 )
 {
 let
@@ -1299,7 +1295,6 @@ fragment
 .
 intrinsic_inline_sizes
 (
-layout_context
 )
 ;
 self
