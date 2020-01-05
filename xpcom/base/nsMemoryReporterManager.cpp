@@ -251,6 +251,10 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+dom
+;
 #
 if
 defined
