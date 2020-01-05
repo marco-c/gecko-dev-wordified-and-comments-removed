@@ -24637,6 +24637,14 @@ aContainerFrame
 Combines3DTransformWithAncestors
 (
 )
+|
+|
+aContainerFrame
+-
+>
+HasAnimationOfTransform
+(
+)
 )
 {
 aOutgoingScale

@@ -4625,6 +4625,12 @@ IsTransformed
 const
 ;
 bool
+HasAnimationOfTransform
+(
+)
+const
+;
+bool
 HasOpacity
 (
 )
