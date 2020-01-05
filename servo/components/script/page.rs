@@ -688,6 +688,9 @@ JSPageInfo
 dom_static
 :
 GlobalStaticData
+:
+:
+new
 (
 )
 js_context
