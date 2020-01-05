@@ -335,6 +335,16 @@ nullptr
 ;
 MOZ_MUST_USE
 bool
+patchFarJumps
+(
+const
+TrapExitOffsetArray
+&
+trapExits
+)
+;
+MOZ_MUST_USE
+bool
 finishTask
 (
 IonCompileTask
