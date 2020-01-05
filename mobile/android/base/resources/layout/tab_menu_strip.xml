@@ -135,7 +135,7 @@ tabs_strip_indicator
 "
 android
 :
-paddingLeft
+paddingStart
 =
 "
 dimen
@@ -144,7 +144,7 @@ tabs_strip_button_padding
 "
 android
 :
-paddingRight
+paddingEnd
 =
 "
 dimen

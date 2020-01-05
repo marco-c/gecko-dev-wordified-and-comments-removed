@@ -147,6 +147,13 @@ paddingLeft
 "
 5dip
 "
+android
+:
+paddingStart
+=
+"
+5dip
+"
 style
 =
 "

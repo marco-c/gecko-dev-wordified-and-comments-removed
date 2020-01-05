@@ -244,6 +244,13 @@ true
 "
 android
 :
+supportsRtl
+=
+"
+true
+"
+android
+:
 allowBackup
 =
 "

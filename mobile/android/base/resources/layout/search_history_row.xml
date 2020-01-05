@@ -126,6 +126,15 @@ search_history
 "
 android
 :
+drawableStart
+=
+"
+drawable
+/
+search_history
+"
+android
+:
 drawablePadding
 =
 "
