@@ -191,7 +191,7 @@ RenderMsg
 dl
 :
 :
-display_list
+DisplayList
 )
 ExitMsg
 (
@@ -522,7 +522,7 @@ display_list
 dl
 :
 :
-display_list
+DisplayList
 )
 {
 for
@@ -547,12 +547,12 @@ item
 match
 item
 .
-item_type
+item
 {
 dl
 :
 :
-display_item_solid_color
+SolidColor
 (
 r
 g
@@ -571,7 +571,7 @@ b
 dl
 :
 :
-display_item_image
+Image
 (
 image
 )
@@ -581,13 +581,12 @@ draw_image
 (
 draw_target
 item
-*
 image
 )
 dl
 :
 :
-display_item_text
+Text
 (
 text_run
 )
@@ -602,7 +601,7 @@ text_run
 dl
 :
 :
-padding
+Padding
 (
 *
 )
@@ -716,7 +715,7 @@ item
 dl
 :
 :
-display_item
+DisplayItem
 r
 :
 u8
@@ -789,7 +788,7 @@ item
 dl
 :
 :
-display_item
+DisplayItem
 image
 :
 ARC
@@ -944,7 +943,7 @@ item
 dl
 :
 :
-display_item
+DisplayItem
 text_run
 :
 TextRun
@@ -1060,10 +1059,7 @@ let
 bounds
 =
 copy
-(
-*
 item
-)
 .
 bounds
 ;

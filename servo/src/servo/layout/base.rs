@@ -382,7 +382,6 @@ get_image
 >
 Option
 <
-~
 ARC
 <
 ~
@@ -907,7 +906,6 @@ get_image
 >
 Option
 <
-~
 ARC
 <
 ~
@@ -1281,7 +1279,6 @@ im_arc
 return
 Some
 (
-~
 im_arc
 )
 ;
