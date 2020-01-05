@@ -38,6 +38,7 @@ Moz2DRenderCallback
 const
 Range
 <
+const
 uint8_t
 >
 aBlob
@@ -53,6 +54,7 @@ SurfaceFormat
 aFormat
 Range
 <
+const
 uint8_t
 >
 output

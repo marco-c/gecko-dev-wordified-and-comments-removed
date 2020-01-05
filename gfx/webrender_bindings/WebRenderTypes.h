@@ -2383,6 +2383,7 @@ mozilla
 :
 Range
 <
+const
 uint8_t
 >
 ByteSliceToRange
@@ -2397,6 +2398,7 @@ mozilla
 :
 Range
 <
+const
 uint8_t
 >
 (

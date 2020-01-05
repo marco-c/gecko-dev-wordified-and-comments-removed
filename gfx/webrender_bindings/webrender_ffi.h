@@ -293,6 +293,7 @@ WR_DECL_FFI_2
 struct
 WrByteSlice
 {
+const
 uint8_t
 *
 buffer
