@@ -1112,7 +1112,7 @@ test_descriptor_storage
 .
 html
 [
-14
+7
 ]
 *
 test_font_face_parser
@@ -1122,7 +1122,7 @@ font
 -
 face
 [
-81
+51
 ]
 *
 namespace
