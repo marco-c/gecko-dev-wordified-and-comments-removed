@@ -433,7 +433,9 @@ async
 DeleteCompositorAnimations
 (
 uint64_t
-aId
+[
+]
+aIds
 )
 ;
 async
