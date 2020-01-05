@@ -128,12 +128,6 @@ MALLOC_H
 break
 fi
 done
-MOZ_CHECK_HEADERS
-(
-alloca
-.
-h
-)
 AC_CHECK_FUNCS
 (
 strndup

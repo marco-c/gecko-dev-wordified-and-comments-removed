@@ -156,6 +156,14 @@ malloc
 h
 '
 )
+check_header
+(
+'
+alloca
+.
+h
+'
+)
 add_old_configure_assignment
 (
 '
