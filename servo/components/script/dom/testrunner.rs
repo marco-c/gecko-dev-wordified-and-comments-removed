@@ -2,7 +2,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 dom
@@ -191,7 +191,7 @@ self
 >
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 {
 self
@@ -252,7 +252,7 @@ get_bluetooth_thread
 .
 send
 (
-BluetoothMethodMsg
+BluetoothRequest
 :
 :
 Test

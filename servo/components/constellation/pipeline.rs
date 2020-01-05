@@ -2,7 +2,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 compositing
@@ -509,7 +509,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 pub
 swmanager_thread
@@ -2302,7 +2302,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 swmanager_thread
 :

@@ -140,7 +140,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 devtools_traits
@@ -1778,7 +1778,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 pub
 image_cache_thread

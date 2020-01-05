@@ -8,7 +8,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 cssparser
@@ -1536,7 +1536,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 fragment_name
 :
@@ -2015,7 +2015,7 @@ self
 >
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 {
 self
@@ -12108,7 +12108,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 mem_profiler_chan
 :

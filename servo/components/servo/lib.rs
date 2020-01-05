@@ -249,7 +249,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 compositing
@@ -1259,7 +1259,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 =
 BluetoothThreadFactory

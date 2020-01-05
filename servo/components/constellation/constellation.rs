@@ -8,7 +8,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 canvas
@@ -614,7 +614,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 swmanager_chan
 :
@@ -803,7 +803,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 pub
 image_cache_thread
@@ -6501,7 +6501,7 @@ bluetooth_thread
 .
 send
 (
-BluetoothMethodMsg
+BluetoothRequest
 :
 :
 Exit

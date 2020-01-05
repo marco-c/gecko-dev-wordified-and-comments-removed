@@ -20294,6 +20294,14 @@ dependencies
 =
 [
 "
+bluetooth_traits
+0
+.
+0
+.
+1
+"
+"
 cookie
 0
 .
