@@ -93,6 +93,17 @@ mozilla
 /
 dom
 /
+BasicRenderingContext2D
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CanvasGradient
 .
 h
@@ -284,6 +295,8 @@ public
 nsICanvasRenderingContextInternal
 public
 nsWrapperCache
+public
+BasicRenderingContext2D
 {
 virtual
 ~
@@ -361,11 +374,13 @@ void
 Save
 (
 )
+override
 ;
 void
 Restore
 (
 )
+override
 ;
 void
 Scale
@@ -381,6 +396,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 Rotate
@@ -394,6 +410,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 Translate
@@ -409,6 +426,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 Transform
@@ -432,6 +450,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 SetTransform
@@ -455,6 +474,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 ResetTransform
@@ -466,11 +486,13 @@ ErrorResult
 &
 aError
 )
+override
 ;
 double
 GlobalAlpha
 (
 )
+override
 {
 return
 CurrentState
@@ -513,6 +535,7 @@ SetGlobalAlpha
 double
 aGlobalAlpha
 )
+override
 {
 if
 (
@@ -558,6 +581,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 SetGlobalCompositeOperation
@@ -573,6 +597,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 GetStrokeStyle
@@ -581,6 +606,7 @@ OwningStringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
+override
 {
 GetStyleAsUnion
 (
@@ -600,6 +626,7 @@ StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
+override
 {
 SetStyleFromUnion
 (
@@ -618,6 +645,7 @@ OwningStringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
+override
 {
 GetStyleAsUnion
 (
@@ -637,6 +665,7 @@ StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
+override
 {
 SetStyleFromUnion
 (
@@ -663,6 +692,7 @@ aX1
 double
 aY1
 )
+override
 ;
 already_AddRefed
 <
@@ -686,6 +716,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 already_AddRefed
 <
@@ -705,11 +736,13 @@ ErrorResult
 &
 aError
 )
+override
 ;
 double
 ShadowOffsetX
 (
 )
+override
 {
 return
 CurrentState
@@ -727,6 +760,7 @@ SetShadowOffsetX
 double
 aShadowOffsetX
 )
+override
 {
 CurrentState
 (
@@ -746,6 +780,7 @@ double
 ShadowOffsetY
 (
 )
+override
 {
 return
 CurrentState
@@ -763,6 +798,7 @@ SetShadowOffsetY
 double
 aShadowOffsetY
 )
+override
 {
 CurrentState
 (
@@ -782,6 +818,7 @@ double
 ShadowBlur
 (
 )
+override
 {
 return
 CurrentState
@@ -797,6 +834,7 @@ SetShadowBlur
 double
 aShadowBlur
 )
+override
 {
 if
 (
@@ -828,6 +866,7 @@ nsAString
 &
 aShadowColor
 )
+override
 {
 StyleColorToString
 (
@@ -865,6 +904,7 @@ nsAString
 &
 aShadowColor
 )
+override
 ;
 void
 SetFilter
@@ -893,6 +933,7 @@ aW
 double
 aH
 )
+override
 ;
 void
 FillRect
@@ -906,6 +947,7 @@ aW
 double
 aH
 )
+override
 ;
 void
 StrokeRect
@@ -919,6 +961,7 @@ aW
 double
 aH
 )
+override
 ;
 void
 BeginPath
@@ -1181,6 +1224,7 @@ ErrorResult
 &
 aError
 )
+override
 {
 DrawImage
 (
@@ -1232,6 +1276,7 @@ ErrorResult
 &
 aError
 )
+override
 {
 DrawImage
 (
@@ -1287,6 +1332,7 @@ ErrorResult
 &
 aError
 )
+override
 {
 DrawImage
 (
@@ -1418,6 +1464,7 @@ double
 LineWidth
 (
 )
+override
 {
 return
 CurrentState
@@ -1433,6 +1480,7 @@ SetLineWidth
 double
 aWidth
 )
+override
 {
 if
 (
@@ -1463,6 +1511,7 @@ nsAString
 &
 aLinecapStyle
 )
+override
 ;
 void
 SetLineCap
@@ -1472,6 +1521,7 @@ nsAString
 &
 aLinecapStyle
 )
+override
 ;
 void
 GetLineJoin
@@ -1486,6 +1536,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 SetLineJoin
@@ -1495,11 +1546,13 @@ nsAString
 &
 aLinejoinStyle
 )
+override
 ;
 double
 MiterLimit
 (
 )
+override
 {
 return
 CurrentState
@@ -1515,6 +1568,7 @@ SetMiterLimit
 double
 aMiter
 )
+override
 {
 if
 (
@@ -1606,6 +1660,7 @@ void
 ClosePath
 (
 )
+override
 {
 EnsureWritablePath
 (
@@ -1643,6 +1698,7 @@ aX
 double
 aY
 )
+override
 {
 EnsureWritablePath
 (
@@ -1724,6 +1780,7 @@ aX
 double
 aY
 )
+override
 {
 EnsureWritablePath
 (
@@ -1763,6 +1820,7 @@ aX
 double
 aY
 )
+override
 {
 EnsureWritablePath
 (
@@ -1902,6 +1960,7 @@ aX
 double
 aY
 )
+override
 {
 EnsureWritablePath
 (
@@ -1983,6 +2042,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 Rect
@@ -1996,6 +2056,7 @@ aW
 double
 aH
 )
+override
 ;
 void
 Arc
@@ -2019,6 +2080,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 Ellipse
@@ -2043,6 +2105,7 @@ ErrorResult
 &
 aError
 )
+override
 ;
 void
 GetMozCurrentTransform
@@ -2170,6 +2233,7 @@ ErrorResult
 &
 aRv
 )
+override
 ;
 void
 GetLineDash
@@ -2182,6 +2246,7 @@ double
 aSegments
 )
 const
+override
 ;
 void
 SetLineDashOffset
@@ -2189,12 +2254,14 @@ SetLineDashOffset
 double
 aOffset
 )
+override
 ;
 double
 LineDashOffset
 (
 )
 const
+override
 ;
 void
 GetMozTextStyle
@@ -2236,6 +2303,7 @@ bool
 ImageSmoothingEnabled
 (
 )
+override
 {
 return
 CurrentState
@@ -2251,6 +2319,7 @@ SetImageSmoothingEnabled
 bool
 aImageSmoothingEnabled
 )
+override
 {
 if
 (
