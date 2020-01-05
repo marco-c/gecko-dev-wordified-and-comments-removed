@@ -149,8 +149,6 @@ PCrashReporter
 {
 manager
 PContent
-or
-PPluginModule
 ;
 parent
 :
