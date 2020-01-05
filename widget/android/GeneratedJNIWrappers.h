@@ -11835,7 +11835,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+PROXY
 ;
 }
 ;
