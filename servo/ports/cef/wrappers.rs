@@ -1188,8 +1188,9 @@ transmute
 libc
 :
 :
-malloc
+calloc
 (
+1
 (
 (
 buffer
