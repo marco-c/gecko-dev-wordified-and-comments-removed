@@ -4965,7 +4965,6 @@ ErrorStatus
 :
 :
 InvalidSelector
-&
 format
 !
 (
