@@ -173,10 +173,6 @@ SubmitFrame
 VRLayerParent
 *
 aLayer
-const
-int32_t
-&
-aInputFrameID
 layers
 :
 :

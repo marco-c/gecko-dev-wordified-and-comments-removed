@@ -74,10 +74,6 @@ virtual
 bool
 RecvSubmitFrame
 (
-const
-int32_t
-&
-aInputFrameID
 PTextureParent
 *
 texture

@@ -130,8 +130,6 @@ parent
 async
 SubmitFrame
 (
-int32_t
-aInputFrameID
 PTexture
 aTexture
 )

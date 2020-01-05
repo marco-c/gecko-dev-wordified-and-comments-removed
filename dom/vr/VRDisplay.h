@@ -1572,16 +1572,6 @@ result
 void
 SubmitFrame
 (
-const
-Optional
-<
-NonNull
-<
-VRPose
->
->
-&
-aPose
 )
 ;
 int32_t

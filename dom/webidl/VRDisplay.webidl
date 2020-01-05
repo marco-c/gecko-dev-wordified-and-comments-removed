@@ -1973,9 +1973,6 @@ cleared
 void
 submitFrame
 (
-optional
-VRPose
-pose
 )
 ;
 }
