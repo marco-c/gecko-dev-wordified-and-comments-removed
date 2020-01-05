@@ -25,6 +25,7 @@ MPL
 [
 feature
 (
+default_type_params
 globs
 macro_rules
 struct_variant
