@@ -1256,6 +1256,17 @@ finish
 }
 )
 ;
+browser
+.
+tabs
+.
+reload
+(
+tab
+.
+id
+)
+;
 }
 )
 ;
