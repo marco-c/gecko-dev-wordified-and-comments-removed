@@ -8620,7 +8620,7 @@ document
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 doctype
 )
@@ -8645,7 +8645,7 @@ document
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 doc_fragment
 )
@@ -8709,7 +8709,7 @@ document
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 comment
 )
@@ -8798,7 +8798,7 @@ None
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 document
 )
@@ -8861,7 +8861,7 @@ document
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 element
 )
@@ -8925,7 +8925,7 @@ document
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 text
 )
@@ -8996,7 +8996,7 @@ document
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 pi
 )
@@ -11469,7 +11469,7 @@ Some
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 document
 .
