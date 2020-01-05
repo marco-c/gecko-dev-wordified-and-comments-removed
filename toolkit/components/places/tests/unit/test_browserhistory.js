@@ -386,10 +386,14 @@ visits
 let
 startDate
 =
+(
 Date
 .
 now
 (
+)
+-
+10000
 )
 *
 1000
@@ -432,6 +436,8 @@ visitDate
 startDate
 +
 i
+*
+1000
 }
 )
 ;
@@ -452,10 +458,10 @@ removePagesByTimeframe
 (
 startDate
 +
-1
+1000
 startDate
 +
-8
+8000
 )
 ;
 for
@@ -512,7 +518,7 @@ removePagesByTimeframe
 startDate
 startDate
 +
-9
+9000
 )
 ;
 do_check_eq

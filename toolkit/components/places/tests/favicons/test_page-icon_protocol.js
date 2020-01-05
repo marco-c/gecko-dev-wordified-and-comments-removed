@@ -219,6 +219,7 @@ setup
 (
 )
 {
+yield
 PlacesTestUtils
 .
 addVisits

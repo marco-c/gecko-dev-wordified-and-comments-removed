@@ -319,7 +319,7 @@ htm
 "
 lastVisit
 :
-tomorrow
+yesterday
 }
 {
 isInQuery
@@ -392,7 +392,7 @@ htm
 "
 lastVisit
 :
-tomorrow
+yesterday
 }
 ]
 ;
