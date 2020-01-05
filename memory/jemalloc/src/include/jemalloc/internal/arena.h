@@ -566,6 +566,10 @@ else
 endif
 ;
 extern
+bool
+opt_thp
+;
+extern
 purge_mode_t
 opt_purge
 ;

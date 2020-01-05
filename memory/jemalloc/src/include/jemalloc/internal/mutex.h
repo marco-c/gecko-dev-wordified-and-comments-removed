@@ -365,11 +365,6 @@ malloc_mutex_t
 mutex
 )
 {
-if
-(
-isthreaded
-)
-{
 witness_assert_not_owner
 (
 tsdn
@@ -380,6 +375,11 @@ mutex
 witness
 )
 ;
+if
+(
+isthreaded
+)
+{
 #
 ifdef
 _WIN32
@@ -458,6 +458,7 @@ lock
 ;
 #
 endif
+}
 witness_lock
 (
 tsdn
@@ -468,7 +469,6 @@ mutex
 witness
 )
 ;
-}
 }
 JEMALLOC_INLINE
 void
@@ -482,11 +482,6 @@ malloc_mutex_t
 mutex
 )
 {
-if
-(
-isthreaded
-)
-{
 witness_unlock
 (
 tsdn
@@ -497,6 +492,11 @@ mutex
 witness
 )
 ;
+if
+(
+isthreaded
+)
+{
 #
 ifdef
 _WIN32
@@ -589,10 +589,6 @@ malloc_mutex_t
 mutex
 )
 {
-if
-(
-isthreaded
-)
 witness_assert_owner
 (
 tsdn
@@ -616,10 +612,6 @@ malloc_mutex_t
 mutex
 )
 {
-if
-(
-isthreaded
-)
 witness_assert_not_owner
 (
 tsdn
