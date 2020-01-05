@@ -177,6 +177,15 @@ package
 system
 exists
 .
+DEPS_hubbub
++
+=
+\
+libparserutils
+\
+(
+NULL
+)
 DEPS_rust
 -
 azure
