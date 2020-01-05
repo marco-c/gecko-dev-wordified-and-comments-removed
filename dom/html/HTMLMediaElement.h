@@ -3018,6 +3018,13 @@ OpenUnsupportedMediaWithExtenalAppIfNeeded
 (
 )
 ;
+void
+MaybeNotifyMediaResumed
+(
+SuspendTypes
+aSuspend
+)
+;
 class
 nsAsyncEventRunner
 ;
