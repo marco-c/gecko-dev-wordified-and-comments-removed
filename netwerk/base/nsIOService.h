@@ -693,10 +693,6 @@ mNetworkNotifyChanged
 ;
 static
 bool
-sTelemetryEnabled
-;
-static
-bool
 sDataURIInheritSecurityContext
 ;
 mozilla
