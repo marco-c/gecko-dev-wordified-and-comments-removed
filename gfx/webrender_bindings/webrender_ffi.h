@@ -722,7 +722,7 @@ out_epoch
 WR_FUNC
 ;
 WR_INLINE
-bool
+void
 wr_renderer_delete
 (
 WrRenderer
