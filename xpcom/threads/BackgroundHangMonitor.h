@@ -99,6 +99,13 @@ kNoTimeout
 =
 0
 ;
+enum
+ThreadType
+{
+THREAD_SHARED
+THREAD_PRIVATE
+}
+;
 class
 ThreadHangStatsIterator
 :
@@ -173,6 +180,10 @@ uint32_t
 aTimeoutMs
 uint32_t
 aMaxTimeoutMs
+ThreadType
+aThreadType
+=
+THREAD_SHARED
 )
 ;
 BackgroundHangMonitor
