@@ -103,6 +103,7 @@ matching
 :
 :
 {
+MatchingReason
 StyleRelations
 matches_complex_selector
 }
@@ -1475,6 +1476,10 @@ pseudo
 &
 mut
 declarations
+MatchingReason
+:
+:
+ForStyling
 )
 ;
 let
@@ -1770,6 +1775,9 @@ applicable_declarations
 &
 mut
 V
+reason
+:
+MatchingReason
 )
 -
 >
@@ -1952,6 +1960,7 @@ applicable_declarations
 &
 mut
 relations
+reason
 Importance
 :
 :
@@ -2033,6 +2042,7 @@ applicable_declarations
 &
 mut
 relations
+reason
 Importance
 :
 :
@@ -2068,6 +2078,7 @@ applicable_declarations
 &
 mut
 relations
+reason
 Importance
 :
 :
@@ -2164,6 +2175,7 @@ applicable_declarations
 &
 mut
 relations
+reason
 Importance
 :
 :
@@ -2261,6 +2273,7 @@ applicable_declarations
 &
 mut
 relations
+reason
 Importance
 :
 :
@@ -2296,6 +2309,7 @@ applicable_declarations
 &
 mut
 relations
+reason
 Importance
 :
 :
@@ -2454,6 +2468,10 @@ StyleRelations
 empty
 (
 )
+MatchingReason
+:
+:
+Other
 )
 ;
 let
@@ -2475,6 +2493,10 @@ StyleRelations
 empty
 (
 )
+MatchingReason
+:
+:
+Other
 )
 ;
 if
@@ -2565,6 +2587,10 @@ StyleRelations
 empty
 (
 )
+MatchingReason
+:
+:
+Other
 )
 ;
 let
@@ -2586,6 +2612,10 @@ StyleRelations
 empty
 (
 )
+MatchingReason
+:
+:
+Other
 )
 ;
 if
@@ -3082,6 +3112,9 @@ relations
 &
 mut
 StyleRelations
+reason
+:
+MatchingReason
 importance
 :
 Importance
@@ -3146,6 +3179,7 @@ id_hash
 id
 matching_rules_list
 relations
+reason
 importance
 )
 }
@@ -3171,6 +3205,7 @@ class_hash
 class
 matching_rules_list
 relations
+reason
 importance
 )
 ;
@@ -3215,6 +3250,7 @@ get_local_name
 )
 matching_rules_list
 relations
+reason
 importance
 )
 ;
@@ -3231,6 +3267,7 @@ self
 other_rules
 matching_rules_list
 relations
+reason
 importance
 )
 ;
@@ -3417,6 +3454,9 @@ relations
 &
 mut
 StyleRelations
+reason
+:
+MatchingReason
 importance
 :
 Importance
@@ -3476,6 +3516,7 @@ parent_bf
 rules
 matching_rules
 relations
+reason
 importance
 )
 }
@@ -3514,6 +3555,9 @@ relations
 &
 mut
 StyleRelations
+reason
+:
+MatchingReason
 importance
 :
 Importance
@@ -3592,6 +3636,7 @@ selector
 element
 parent_bf
 relations
+reason
 )
 {
 matching_rules

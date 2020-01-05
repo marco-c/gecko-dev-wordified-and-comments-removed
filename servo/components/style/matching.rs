@@ -112,6 +112,7 @@ matching
 :
 :
 {
+MatchingReason
 StyleRelations
 AFFECTED_BY_PSEUDO_ELEMENTS
 }
@@ -3118,6 +3119,10 @@ mut
 applicable_declarations
 .
 normal
+MatchingReason
+:
+:
+ForStyling
 )
 ;
 applicable_declarations
@@ -3171,6 +3176,10 @@ vec
 [
 ]
 )
+MatchingReason
+:
+:
+ForStyling
 )
 ;
 }
