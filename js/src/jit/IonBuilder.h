@@ -3885,6 +3885,9 @@ JSValueType
 unboxedType
 bool
 writeHole
+bool
+*
+emitted
 )
 ;
 MOZ_MUST_USE
