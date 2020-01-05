@@ -202,7 +202,7 @@ as
 int32_t
 var
 :
-0
+0i32
 }
 ;
 vec
