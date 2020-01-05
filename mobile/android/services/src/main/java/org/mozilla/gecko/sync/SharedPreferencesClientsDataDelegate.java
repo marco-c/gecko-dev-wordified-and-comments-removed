@@ -297,6 +297,13 @@ resetDeviceRegistrationVersion
 (
 )
 ;
+fxAccount
+.
+setDeviceRegistrationTimestamp
+(
+0L
+)
+;
 }
 }
 Override
