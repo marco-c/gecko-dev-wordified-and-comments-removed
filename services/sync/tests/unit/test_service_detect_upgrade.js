@@ -897,6 +897,7 @@ serverKeys
 let
 serverResp
 ;
+async
 function
 retrieve_server_default
 (
@@ -925,6 +926,8 @@ keys
 ;
 serverResp
 =
+(
+await
 serverKeys
 .
 fetch
@@ -936,6 +939,7 @@ resource
 Service
 .
 cryptoKeysURL
+)
 )
 )
 .
@@ -998,6 +1002,7 @@ serverDecrypted
 default
 ;
 }
+async
 function
 retrieve_and_compare_default
 (
@@ -1007,6 +1012,7 @@ should_succeed
 let
 serverDefault
 =
+await
 retrieve_server_default
 (
 )
@@ -1094,6 +1100,7 @@ localDefault
 )
 ;
 }
+async
 function
 set_server_keys
 (
@@ -1123,6 +1130,7 @@ identity
 syncKeyBundle
 )
 ;
+await
 serverKeys
 .
 upload
@@ -1151,6 +1159,7 @@ keys
 "
 )
 ;
+await
 retrieve_and_compare_default
 (
 true
@@ -1167,6 +1176,7 @@ server
 "
 )
 ;
+await
 set_server_keys
 (
 [
@@ -1199,6 +1209,7 @@ keys
 "
 )
 ;
+await
 retrieve_and_compare_default
 (
 false
@@ -1230,8 +1241,11 @@ KaaaaaaaaaaaHAtfmuRY0XEJ7LXfFuqvF7opFdBD
 MY
 =
 "
+(
+await
 retrieve_server_default
 (
+)
 )
 [
 0
@@ -1362,6 +1376,7 @@ match
 "
 )
 ;
+await
 retrieve_and_compare_default
 (
 true
@@ -1759,6 +1774,7 @@ upgrade
 "
 )
 ;
+async
 function
 update_server_keys
 (
@@ -1812,11 +1828,14 @@ collWBO
 ;
 do_check_true
 (
+(
+await
 serverKeys
 .
 upload
 (
 res
+)
 )
 .
 success
@@ -1867,6 +1886,7 @@ STORAGE_VERSION
 1
 }
 ;
+await
 m
 .
 upload
@@ -1913,6 +1933,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaa
 "
 )
 ;
+await
 update_server_keys
 (
 badKeys
@@ -1926,6 +1947,7 @@ keys
 "
 )
 ;
+await
 update_server_keys
 (
 badKeys

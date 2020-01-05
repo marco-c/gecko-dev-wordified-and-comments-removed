@@ -734,6 +734,7 @@ encrypt
 newSyncKeyBundle
 )
 ;
+return
 keys
 .
 upload
@@ -775,6 +776,7 @@ generateAndUploadKeys
 (
 )
 }
+async
 generateAndUploadKeys
 (
 )
@@ -814,7 +816,10 @@ identity
 syncKeyBundle
 )
 ;
-return
+let
+response
+=
+await
 serverKeys
 .
 upload
@@ -828,6 +833,9 @@ Service
 cryptoKeysURL
 )
 )
+;
+return
+response
 .
 success
 ;

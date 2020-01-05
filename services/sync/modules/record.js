@@ -252,9 +252,7 @@ return
 0
 ;
 }
-fetch
-:
-function
+async
 fetch
 (
 resource
@@ -290,6 +288,7 @@ instance
 let
 r
 =
+await
 resource
 .
 get
@@ -321,9 +320,6 @@ return
 this
 ;
 }
-upload
-:
-function
 upload
 (
 resource
@@ -1308,10 +1304,8 @@ Sync
 .
 RecordManager
 "
+async
 import
-:
-function
-RecordMgr_import
 (
 url
 )
@@ -1354,6 +1348,7 @@ this
 .
 response
 =
+await
 this
 .
 service
@@ -1449,9 +1444,6 @@ null
 }
 }
 get
-:
-function
-RecordMgr_get
 (
 url
 )
@@ -1478,12 +1470,17 @@ this
 _records
 )
 return
+Promise
+.
+resolve
+(
 this
 .
 _records
 [
 spec
 ]
+)
 ;
 return
 this
@@ -3518,6 +3515,7 @@ _rebuildURL
 )
 ;
 }
+async
 getBatched
 (
 batchSize
@@ -3691,6 +3689,7 @@ offset
 ;
 resp
 =
+await
 this
 .
 get
@@ -4967,6 +4966,10 @@ numQueued
 let
 response
 =
+Async
+.
+promiseSpinningly
+(
 this
 .
 poster
@@ -4987,6 +4990,7 @@ batchID
 =
 =
 null
+)
 )
 )
 ;

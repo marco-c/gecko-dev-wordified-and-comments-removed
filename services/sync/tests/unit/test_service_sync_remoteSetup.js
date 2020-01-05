@@ -702,6 +702,8 @@ changed
 "
 )
 ;
+(
+await
 Service
 .
 recordManager
@@ -711,6 +713,7 @@ get
 Service
 .
 metaURL
+)
 )
 .
 payload

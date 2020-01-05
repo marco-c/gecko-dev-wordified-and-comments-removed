@@ -225,6 +225,7 @@ CollectionProblemData
 )
 ;
 }
+async
 getServerItems
 (
 engine
@@ -297,6 +298,7 @@ cleartext
 let
 resp
 =
+await
 collection
 .
 getBatched

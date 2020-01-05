@@ -123,6 +123,10 @@ thisPost
 )
 ;
 return
+Promise
+.
+resolve
+(
 responseGenerator
 .
 next
@@ -130,6 +134,7 @@ next
 )
 .
 value
+)
 ;
 }
 let

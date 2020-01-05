@@ -1022,6 +1022,10 @@ return
 let
 meta
 =
+Async
+.
+promiseSpinningly
+(
 this
 .
 service
@@ -1035,6 +1039,7 @@ this
 service
 .
 metaURL
+)
 )
 ;
 if
@@ -1911,6 +1916,10 @@ _updateEnabledEngines
 let
 meta
 =
+Async
+.
+promiseSpinningly
+(
 this
 .
 service
@@ -1924,6 +1933,7 @@ this
 service
 .
 metaURL
+)
 )
 ;
 let

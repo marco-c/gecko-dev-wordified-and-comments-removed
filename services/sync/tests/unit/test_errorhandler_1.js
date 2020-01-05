@@ -862,6 +862,7 @@ Service
 isLoggedIn
 )
 ;
+await
 EHTestsCommon
 .
 generateCredentialsChangedFailure
@@ -2109,6 +2110,7 @@ Service
 isLoggedIn
 )
 ;
+await
 EHTestsCommon
 .
 generateCredentialsChangedFailure
@@ -2356,6 +2358,7 @@ Service
 isLoggedIn
 )
 ;
+await
 EHTestsCommon
 .
 generateCredentialsChangedFailure
@@ -2958,6 +2961,7 @@ Service
 isLoggedIn
 )
 ;
+await
 EHTestsCommon
 .
 generateCredentialsChangedFailure
@@ -3392,6 +3396,7 @@ Service
 isLoggedIn
 )
 ;
+await
 EHTestsCommon
 .
 generateCredentialsChangedFailure

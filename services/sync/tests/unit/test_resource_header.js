@@ -330,8 +330,9 @@ PROXY_FUNCTION
 )
 ;
 }
-add_test
+add_task
 (
+async
 function
 test_headers_copied
 (
@@ -389,6 +390,7 @@ foofoo
 let
 result
 =
+await
 resource
 .
 get
@@ -429,11 +431,10 @@ foofoo
 "
 )
 ;
-httpServer
-.
-stop
+await
+promiseStopServer
 (
-run_next_test
+httpServer
 )
 ;
 }

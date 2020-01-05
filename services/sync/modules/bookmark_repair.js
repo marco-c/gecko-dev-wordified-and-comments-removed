@@ -3370,6 +3370,7 @@ ids
 let
 itemsResponse
 =
+await
 itemSource
 .
 get

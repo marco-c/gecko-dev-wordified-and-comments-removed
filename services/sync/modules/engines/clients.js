@@ -2695,9 +2695,7 @@ logRemoveError
 )
 ;
 }
-removeClientData
-:
-function
+async
 removeClientData
 (
 )
@@ -2724,6 +2722,7 @@ this
 localID
 )
 ;
+await
 res
 .
 delete
