@@ -677,7 +677,7 @@ T
 >
 ;
 friend
-struct
+class
 detail
 :
 :
