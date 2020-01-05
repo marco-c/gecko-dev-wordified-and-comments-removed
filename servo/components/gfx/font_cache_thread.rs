@@ -2794,7 +2794,7 @@ prefs
 get_pref
 (
 "
-net
+network
 .
 mime
 .

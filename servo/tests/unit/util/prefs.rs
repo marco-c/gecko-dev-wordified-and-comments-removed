@@ -45,7 +45,7 @@ true
 \
 \
 "
-net
+network
 .
 mime
 .
