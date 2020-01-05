@@ -2745,6 +2745,11 @@ second
 .
 mRejectFunction
 (
+pair
+.
+second
+.
+mPromise
 __func__
 )
 ;
