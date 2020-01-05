@@ -3417,6 +3417,9 @@ selectBackgroundColor
 data
 .
 selectColor
+data
+.
+selectTextShadow
 )
 ;
 this
