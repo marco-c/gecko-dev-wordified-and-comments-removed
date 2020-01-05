@@ -355,6 +355,7 @@ plugin
 background
 .
 html
+fails
 =
 =
 plugin
@@ -375,6 +376,10 @@ background
 step
 .
 html
+#
+bug
+1348723
+fails
 =
 =
 plugin
@@ -395,6 +400,10 @@ background
 step
 .
 html
+#
+bug
+1348723
+fails
 =
 =
 plugin
@@ -415,6 +424,10 @@ background
 step
 .
 html
+#
+bug
+1348723
+fails
 =
 =
 plugin
@@ -435,6 +448,9 @@ background
 step
 .
 html
+#
+bug
+1348723
 =
 =
 plugin
