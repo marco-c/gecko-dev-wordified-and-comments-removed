@@ -1091,10 +1091,6 @@ Extension_None
 GLContext
 :
 :
-NV_primitive_restart
-GLContext
-:
-:
 Extensions_End
 }
 }
