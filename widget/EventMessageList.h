@@ -285,6 +285,14 @@ eBlur
 )
 NS_EVENT_MESSAGE
 (
+eFocusIn
+)
+NS_EVENT_MESSAGE
+(
+eFocusOut
+)
+NS_EVENT_MESSAGE
+(
 eDragEnter
 )
 NS_EVENT_MESSAGE
