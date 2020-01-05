@@ -276,10 +276,7 @@ mAnimationValues
 Put
 (
 aProperty
-Move
-(
 aValue
-)
 )
 ;
 mStyleBits
