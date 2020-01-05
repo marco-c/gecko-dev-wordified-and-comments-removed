@@ -28,6 +28,12 @@ toml
 "
 python
 /
+mozlog
+"
+    
+"
+python
+/
 mozinfo
 "
     
@@ -35,6 +41,20 @@ mozinfo
 python
 /
 mozdebug
+"
+    
+"
+tests
+/
+wpt
+"
+    
+"
+tests
+/
+wpt
+/
+harness
 "
 ]
 MACH_MODULES
