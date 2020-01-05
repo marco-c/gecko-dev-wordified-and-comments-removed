@@ -353,8 +353,6 @@ r
 .
 set
 (
-unsafe
-{
 boxed
 :
 :
@@ -362,7 +360,6 @@ into_raw
 (
 context
 )
-}
 )
 ;
 }
