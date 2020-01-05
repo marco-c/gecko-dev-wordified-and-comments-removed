@@ -1244,7 +1244,7 @@ from
 )
 )
 ;
-RuleHashTableEntry
+auto
 *
 newEntry
 =
@@ -1484,7 +1484,7 @@ from
 )
 )
 ;
-RuleHashTagTableEntry
+auto
 *
 newEntry
 =
@@ -3882,7 +3882,7 @@ from
 )
 )
 ;
-AtomSelectorEntry
+auto
 *
 newEntry
 =
@@ -15932,7 +15932,7 @@ mWeight
 =
 weight
 ;
-PerWeightDataListItem
+auto
 *
 newItem
 =
