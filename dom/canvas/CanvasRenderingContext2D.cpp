@@ -6019,8 +6019,13 @@ aRenderingMode
 if
 (
 !
+(
 IsTargetValid
 (
+)
+|
+|
+mBufferProvider
 )
 |
 |
