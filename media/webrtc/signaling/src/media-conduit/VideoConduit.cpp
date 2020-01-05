@@ -5528,6 +5528,7 @@ kf_request_method
 use_fec
 &
 &
+(
 mRecvStreamConfig
 .
 rtp
@@ -5550,6 +5551,7 @@ red_payload_type
 !
 =
 red_payload_type
+)
 )
 )
 {
@@ -5723,7 +5725,7 @@ rtp
 .
 local_ssrc
 =
-1
+ssrc
 ;
 mRecvCodecList
 .
