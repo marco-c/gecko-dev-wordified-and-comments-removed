@@ -1201,6 +1201,13 @@ substring
 4
 )
 gethashUrl
+"
+test
+-
+phish
+-
+shavar
+"
 (
 new
 callback
