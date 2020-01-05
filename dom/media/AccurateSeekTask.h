@@ -164,8 +164,6 @@ aRejection
 )
 override
 ;
-private
-:
 ~
 AccurateSeekTask
 (

@@ -172,8 +172,6 @@ aRejection
 )
 override
 ;
-private
-:
 ~
 NextFrameSeekTask
 (
