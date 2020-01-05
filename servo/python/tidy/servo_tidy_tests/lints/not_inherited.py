@@ -1,0 +1,8 @@
+class
+Lint
+(
+object
+)
+:
+    
+pass
