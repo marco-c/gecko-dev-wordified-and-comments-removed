@@ -302,7 +302,9 @@ manifests
 /
 androidarm_4_3
 /
-releng
+mach
+-
+emulator
 .
 manifest
 '
@@ -369,7 +371,9 @@ manifests
 /
 androidarm_6_0
 /
-releng
+mach
+-
+emulator
 .
 manifest
 '
@@ -433,7 +437,9 @@ manifests
 /
 androidx86
 /
-releng
+mach
+-
+emulator
 .
 manifest
 '
