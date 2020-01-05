@@ -2043,6 +2043,15 @@ c99
 :
 uint32_t
 ;
+import
+azure
+:
+:
+freetype
+:
+:
+FT_Long
+;
 impl
 methods
 for
@@ -2160,6 +2169,8 @@ ft
 :
 FT_Long
 0
+as
+FT_Long
 ptr
 :
 :
