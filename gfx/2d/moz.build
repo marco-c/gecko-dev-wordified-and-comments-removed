@@ -565,6 +565,16 @@ UnscaledFontFreeType
 h
 '
 ]
+SOURCES
++
+=
+[
+'
+UnscaledFontFreeType
+.
+cpp
+'
+]
 if
 CONFIG
 [

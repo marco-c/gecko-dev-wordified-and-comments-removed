@@ -255,6 +255,7 @@ UnbalancedClipStack
 ProcessingError
 InvalidDrawTarget
 NativeFontResourceNotFound
+UnscaledFontNotFound
 MustBeLessThanThis
 =
 101

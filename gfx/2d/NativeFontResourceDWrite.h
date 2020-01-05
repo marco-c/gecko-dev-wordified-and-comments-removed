@@ -64,14 +64,12 @@ aNeedsCairo
 ;
 already_AddRefed
 <
-ScaledFont
+UnscaledFont
 >
-CreateScaledFont
+CreateUnscaledFont
 (
 uint32_t
 aIndex
-Float
-aGlyphSize
 const
 uint8_t
 *
