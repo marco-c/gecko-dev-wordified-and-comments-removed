@@ -1100,6 +1100,13 @@ h
 '
 ipc
 /
+CompositorVsyncScheduler
+.
+h
+'
+'
+ipc
+/
 CrossProcessCompositorBridgeParent
 .
 h
@@ -2201,6 +2208,13 @@ cpp
 ipc
 /
 CompositorThread
+.
+cpp
+'
+'
+ipc
+/
+CompositorVsyncScheduler
 .
 cpp
 '
