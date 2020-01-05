@@ -271,11 +271,6 @@ return
 created
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

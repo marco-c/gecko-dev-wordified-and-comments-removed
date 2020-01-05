@@ -1771,11 +1771,6 @@ errors
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 .
 then

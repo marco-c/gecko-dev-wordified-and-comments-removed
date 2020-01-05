@@ -6816,11 +6816,6 @@ return
 children
 ;
 }
-.
-bind
-(
-this
-)
 )
 )
 ;

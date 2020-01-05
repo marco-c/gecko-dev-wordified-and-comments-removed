@@ -7021,11 +7021,6 @@ flowId
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 ratingContainer

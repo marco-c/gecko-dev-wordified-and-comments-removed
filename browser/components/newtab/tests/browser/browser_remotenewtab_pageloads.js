@@ -312,11 +312,6 @@ return
 true
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -2772,11 +2772,6 @@ return
 entries
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

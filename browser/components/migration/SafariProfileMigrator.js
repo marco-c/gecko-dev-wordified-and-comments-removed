@@ -1904,11 +1904,6 @@ changes
 }
 }
 }
-.
-bind
-(
-this
-)
 aCallback
 )
 )

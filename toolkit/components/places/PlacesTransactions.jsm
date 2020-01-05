@@ -1525,11 +1525,6 @@ true
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 this

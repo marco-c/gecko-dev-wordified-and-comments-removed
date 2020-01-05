@@ -7697,11 +7697,6 @@ getMostRecentBrowserWindow
 )
 ;
 }
-.
-bind
-(
-this
-)
 Ci
 .
 nsIThread

@@ -507,11 +507,6 @@ trim
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 if

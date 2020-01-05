@@ -7941,11 +7941,6 @@ return
 item
 ;
 }
-.
-bind
-(
-this
-)
 ;
 const
 QUERY_STR
@@ -10419,11 +10414,6 @@ source
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 )
 ;
@@ -10633,11 +10623,6 @@ source
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 )
 ;

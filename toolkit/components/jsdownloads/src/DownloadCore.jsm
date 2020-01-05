@@ -5818,8 +5818,6 @@ bind
 copySaver
 )
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -5862,14 +5860,7 @@ NS_OK
 }
 }
 }
-.
-bind
-(
-copySaver
-)
 onDataAvailable
-:
-function
 (
 aRequest
 aContext
@@ -5890,11 +5881,6 @@ aCount
 )
 ;
 }
-.
-bind
-(
-copySaver
-)
 }
 )
 ;

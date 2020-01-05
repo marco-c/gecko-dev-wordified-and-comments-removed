@@ -19550,11 +19550,6 @@ aCallback
 ;
 }
 )
-.
-bind
-(
-this
-)
 ;
 xhr
 .

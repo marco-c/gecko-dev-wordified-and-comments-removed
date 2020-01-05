@@ -959,11 +959,6 @@ serializedPublicKey
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

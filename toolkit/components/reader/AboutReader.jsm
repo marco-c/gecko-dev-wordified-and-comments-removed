@@ -5578,11 +5578,6 @@ value
 )
 ;
 }
-.
-bind
-(
-this
-)
 true
 )
 ;
