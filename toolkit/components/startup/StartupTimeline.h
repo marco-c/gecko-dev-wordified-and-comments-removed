@@ -138,12 +138,17 @@ nscore
 h
 "
 #
+ifdef
+MOZILLA_INTERNAL_API
+#
 include
 "
 GeckoProfiler
 .
 h
 "
+#
+endif
 #
 ifdef
 MOZ_LINKER
@@ -248,6 +253,9 @@ ev
 ]
 ;
 }
+#
+ifdef
+MOZILLA_INTERNAL_API
 static
 void
 Record
@@ -333,6 +341,8 @@ ev
 )
 ;
 }
+#
+endif
 static
 bool
 HasRecord

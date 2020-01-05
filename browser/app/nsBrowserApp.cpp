@@ -112,13 +112,6 @@ nsIFile
 h
 "
 #
-include
-"
-nsStringGlue
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
@@ -182,7 +175,7 @@ include
 "
 mozilla
 /
-Telemetry
+StartupTimeline
 .
 h
 "

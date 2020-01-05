@@ -78,6 +78,18 @@ UniquePtrExtensions
 .
 h
 "
+#
+ifdef
+MOZILLA_INTERNAL_API
+#
+include
+"
+nsString
+.
+h
+"
+#
+endif
 namespace
 mozilla
 {
@@ -736,6 +748,9 @@ return
 result
 ;
 }
+#
+ifdef
+MOZILLA_INTERNAL_API
 static
 nsresult
 GetFile
@@ -866,6 +881,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 }
 ;
 }
