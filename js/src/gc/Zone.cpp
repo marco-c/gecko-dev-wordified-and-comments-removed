@@ -202,7 +202,7 @@ randomHashCodeScrambler
 (
 )
 )
-gcZoneGroupEdges_
+gcSweepGroupEdges_
 (
 group
 )
@@ -273,7 +273,7 @@ false
 #
 ifdef
 DEBUG
-gcLastZoneGroupIndex
+gcLastSweepGroupIndex
 (
 group
 0
@@ -511,7 +511,7 @@ init
 )
 &
 &
-gcZoneGroupEdges
+gcSweepGroupEdges
 (
 )
 .

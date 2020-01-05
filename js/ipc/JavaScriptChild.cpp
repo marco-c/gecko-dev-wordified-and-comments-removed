@@ -164,7 +164,7 @@ GetJSContext
 (
 )
 ;
-JS_RemoveWeakPointerZoneGroupCallback
+JS_RemoveWeakPointerZonesCallback
 (
 cx
 UpdateChildWeakPointersBeforeSweepingZoneGroup
@@ -226,7 +226,7 @@ GetJSContext
 (
 )
 ;
-JS_AddWeakPointerZoneGroupCallback
+JS_AddWeakPointerZonesCallback
 (
 cx
 UpdateChildWeakPointersBeforeSweepingZoneGroup

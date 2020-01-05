@@ -1855,7 +1855,7 @@ GCZonesIter
 GCCompartmentsIter
 ;
 class
-GCZoneGroupIter
+GCSweepGroupIter
 {
 private
 :
@@ -1869,7 +1869,7 @@ current
 public
 :
 explicit
-GCZoneGroupIter
+GCSweepGroupIter
 (
 JSRuntime
 *
@@ -1890,7 +1890,7 @@ rt
 >
 gc
 .
-getCurrentZoneGroup
+getCurrentSweepGroup
 (
 )
 ;
@@ -1990,7 +1990,7 @@ get
 typedef
 CompartmentsIterT
 <
-GCZoneGroupIter
+GCSweepGroupIter
 >
 GCCompartmentGroupIter
 ;

@@ -1159,12 +1159,12 @@ prepareForCompacting
 ifdef
 DEBUG
 unsigned
-lastZoneGroupIndex
+lastSweepGroupIndex
 (
 )
 {
 return
-gcLastZoneGroupIndex
+gcLastSweepGroupIndex
 ;
 }
 #
@@ -1678,7 +1678,7 @@ ZoneGroupData
 <
 ZoneSet
 >
-gcZoneGroupEdges_
+gcSweepGroupEdges_
 ;
 js
 :
@@ -1693,12 +1693,12 @@ public
 :
 ZoneSet
 &
-gcZoneGroupEdges
+gcSweepGroupEdges
 (
 )
 {
 return
-gcZoneGroupEdges_
+gcSweepGroupEdges_
 .
 ref
 (
@@ -2230,7 +2230,7 @@ ZoneGroupData
 <
 unsigned
 >
-gcLastZoneGroupIndex
+gcLastSweepGroupIndex
 ;
 #
 endif

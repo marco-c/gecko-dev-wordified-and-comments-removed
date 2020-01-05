@@ -3666,7 +3666,7 @@ void
 XPCJSContext
 :
 :
-WeakPointerZoneGroupCallback
+WeakPointerZonesCallback
 (
 JSContext
 *
@@ -6708,12 +6708,12 @@ Context
 FinalizeCallback
 )
 ;
-JS_RemoveWeakPointerZoneGroupCallback
+JS_RemoveWeakPointerZonesCallback
 (
 Context
 (
 )
-WeakPointerZoneGroupCallback
+WeakPointerZonesCallback
 )
 ;
 JS_RemoveWeakPointerCompartmentCallback
@@ -18132,10 +18132,10 @@ FinalizeCallback
 nullptr
 )
 ;
-JS_AddWeakPointerZoneGroupCallback
+JS_AddWeakPointerZonesCallback
 (
 cx
-WeakPointerZoneGroupCallback
+WeakPointerZonesCallback
 this
 )
 ;

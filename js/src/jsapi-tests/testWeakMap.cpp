@@ -531,7 +531,7 @@ zone
 )
 -
 >
-lastZoneGroupIndex
+lastSweepGroupIndex
 (
 )
 <
@@ -543,7 +543,7 @@ zone
 )
 -
 >
-lastZoneGroupIndex
+lastSweepGroupIndex
 (
 )
 )
@@ -678,7 +678,7 @@ zone
 )
 -
 >
-lastZoneGroupIndex
+lastSweepGroupIndex
 (
 )
 =
@@ -691,7 +691,7 @@ zone
 )
 -
 >
-lastZoneGroupIndex
+lastSweepGroupIndex
 (
 )
 )
