@@ -3046,6 +3046,12 @@ Layer
 :
 TYPE_PAINTED
 :
+case
+Layer
+:
+:
+TYPE_TEXT
+:
 return
 MakeUnique
 <

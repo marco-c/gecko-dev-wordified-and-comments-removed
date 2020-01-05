@@ -1044,6 +1044,16 @@ override
 virtual
 already_AddRefed
 <
+TextLayer
+>
+CreateTextLayer
+(
+)
+override
+;
+virtual
+already_AddRefed
+<
 CanvasLayer
 >
 CreateCanvasLayer

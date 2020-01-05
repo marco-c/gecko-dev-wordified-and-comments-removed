@@ -437,6 +437,14 @@ aRef
 )
 ;
 void
+CreatedTextLayer
+(
+ShadowableLayer
+*
+aRef
+)
+;
+void
 Mutated
 (
 ShadowableLayer
