@@ -296,6 +296,8 @@ WEBIDLS
 (
 PYTHON
 )
+-
+B
 (
 BINDINGS_SRC
 )
@@ -384,6 +386,8 @@ webidl
 (
 PYTHON
 )
+-
+B
 (
 BINDINGS_SRC
 )
