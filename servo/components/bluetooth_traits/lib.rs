@@ -1,11 +1,3 @@
-#
-!
-[
-feature
-(
-proc_macro
-)
-]
 extern
 crate
 ipc_channel

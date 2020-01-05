@@ -4,7 +4,6 @@
 feature
 (
 plugin
-proc_macro
 )
 ]
 #

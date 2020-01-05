@@ -56,14 +56,6 @@ plugin
 [
 feature
 (
-proc_macro
-)
-]
-#
-!
-[
-feature
-(
 range_contains
 )
 ]

@@ -35,14 +35,6 @@ plugin
 #
 !
 [
-feature
-(
-proc_macro
-)
-]
-#
-!
-[
 plugin
 (
 plugins

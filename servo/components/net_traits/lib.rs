@@ -11,14 +11,6 @@ box_syntax
 [
 feature
 (
-proc_macro
-)
-]
-#
-!
-[
-feature
-(
 slice_patterns
 )
 ]

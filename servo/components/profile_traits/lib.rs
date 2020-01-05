@@ -12,7 +12,6 @@ box_syntax
 feature
 (
 plugin
-proc_macro
 )
 ]
 #
