@@ -523,8 +523,6 @@ nsIDocShellTreeItem
 aContentShell
 bool
 aPrimary
-bool
-aTargetable
 const
 nsAString
 &
@@ -544,7 +542,6 @@ ContentShellAdded
 (
 aContentShell
 aPrimary
-aTargetable
 aID
 )
 ;
