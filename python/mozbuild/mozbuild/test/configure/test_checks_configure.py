@@ -55,8 +55,14 @@ topsrcdir
 from
 common
 import
+(
+    
 ConfigureTestSandbox
+    
 ensure_exe_extension
+    
+fake_short_path
+)
 class
 TestChecksConfigure
 (
@@ -1413,9 +1419,12 @@ config
 FOO
 '
 :
+fake_short_path
+(
 self
 .
 KNOWN_C
+)
 }
 )
         
@@ -1438,10 +1447,14 @@ s
 \
 n
 "
+                              
 %
+fake_short_path
+(
 self
 .
 KNOWN_C
+)
 )
         
 config
@@ -2312,9 +2325,12 @@ config
 FOO
 '
 :
+fake_short_path
+(
 self
 .
 KNOWN_C
+)
 }
 )
         
@@ -2337,10 +2353,14 @@ s
 \
 n
 "
+                              
 %
+fake_short_path
+(
 self
 .
 KNOWN_C
+)
 )
         
 config
