@@ -18558,6 +18558,16 @@ beforeNodeIndex
 if
 (
 beforeNode
+&
+&
+this
+.
+_target
+=
+=
+beforeNode
+.
+parentElement
 )
 {
 this
