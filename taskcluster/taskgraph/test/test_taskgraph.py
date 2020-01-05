@@ -47,7 +47,7 @@ docker
 import
 INDEX_PREFIX
 class
-TestTargetTasks
+TestTaskGraph
 (
 unittest
 .
@@ -246,24 +246,38 @@ docker
 image
 '
                                  
-label
+task
 =
+{
+                                     
+'
+label
+'
+:
 '
 b
 '
-                                 
+                                     
+'
 attributes
-=
+'
+:
 {
 }
-                                 
+                                     
+'
 task
-=
+'
+:
 task
+                                     
+'
+index_paths
+'
+:
+index_paths
                                  
-index_paths
-=
-index_paths
+}
 )
         
 }

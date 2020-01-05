@@ -609,6 +609,22 @@ False
 :
 bool
         
+Required
+(
+'
+docker
+-
+in
+-
+docker
+'
+default
+=
+False
+)
+:
+bool
+        
 Optional
 (
 '
@@ -1733,6 +1749,16 @@ Image
 '
     
 '
+I
+'
+:
+'
+Docker
+Image
+Builds
+'
+    
+'
 TL
 '
 :
@@ -2473,6 +2499,30 @@ chainOfTrust
 True
     
 if
+worker
+.
+get
+(
+'
+docker
+-
+in
+-
+docker
+'
+)
+:
+        
+features
+[
+'
+dind
+'
+]
+=
+True
+    
+if
 task
 .
 get
@@ -2671,17 +2721,6 @@ payload
 {
         
 '
-command
-'
-:
-worker
-[
-'
-command
-'
-]
-        
-'
 image
 '
 :
@@ -2699,6 +2738,28 @@ env
 ]
     
 }
+    
+if
+'
+command
+'
+in
+worker
+:
+        
+payload
+[
+'
+command
+'
+]
+=
+worker
+[
+'
+command
+'
+]
     
 if
 '
