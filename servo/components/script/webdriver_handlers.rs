@@ -441,6 +441,17 @@ get
 is_double
 (
 )
+|
+|
+val
+.
+get
+(
+)
+.
+is_int32
+(
+)
 {
 Ok
 (
