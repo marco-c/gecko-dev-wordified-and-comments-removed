@@ -72,6 +72,15 @@ extern
 crate
 style_traits
 ;
+#
+[
+foo
+=
+"
+bar
+baz
+"
+]
 impl
 test
 {
