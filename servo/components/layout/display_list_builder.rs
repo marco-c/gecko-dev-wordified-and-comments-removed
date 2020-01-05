@@ -6321,7 +6321,7 @@ rev
 {
 self
 .
-build_display_list_for_box_shadow_if_applicable
+build_display_list_for_background_if_applicable
 (
 &
 *
@@ -6339,7 +6339,7 @@ clip
 ;
 self
 .
-build_display_list_for_background_if_applicable
+build_display_list_for_box_shadow_if_applicable
 (
 &
 *
@@ -6437,7 +6437,7 @@ is_scanned_text_fragment
 {
 self
 .
-build_display_list_for_box_shadow_if_applicable
+build_display_list_for_background_if_applicable
 (
 &
 *
@@ -6455,7 +6455,7 @@ clip
 ;
 self
 .
-build_display_list_for_background_if_applicable
+build_display_list_for_box_shadow_if_applicable
 (
 &
 *
