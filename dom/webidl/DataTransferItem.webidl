@@ -140,6 +140,7 @@ type
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 getAsString
@@ -151,6 +152,7 @@ _callback
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 File
 ?
@@ -191,6 +193,7 @@ BinaryName
 getAsEntry
 "
 Throws
+NeedsSubjectPrincipal
 ]
 FileSystemEntry
 ?
