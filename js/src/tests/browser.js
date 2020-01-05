@@ -6,6 +6,11 @@ global
 parent
 )
 {
+"
+use
+strict
+"
+;
 var
 Error
 =
@@ -894,6 +899,11 @@ function
 global
 )
 {
+"
+use
+strict
+"
+;
 var
 ReflectApply
 =
