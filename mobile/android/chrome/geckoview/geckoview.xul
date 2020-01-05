@@ -170,13 +170,9 @@ true
 src
 =
 "
-https
+about
 :
-/
-/
-mozilla
-.
-com
+blank
 "
 flex
 =
