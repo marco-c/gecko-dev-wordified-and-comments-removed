@@ -202,14 +202,6 @@ base
 python
 import
 VirtualenvMixin
-from
-mozharness
-.
-base
-.
-python
-import
-InfluxRecordingMixin
 AUTOMATION_EXIT_CODES
 =
 EXIT_STATUS_DICT
@@ -4142,7 +4134,6 @@ SigningMixin
 VirtualenvMixin
 MercurialScript
                   
-InfluxRecordingMixin
 SecretsMixin
 )
 :
