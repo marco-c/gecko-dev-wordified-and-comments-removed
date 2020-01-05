@@ -194,8 +194,10 @@ SkWStream
 >
 mOStream
 ;
+sk_sp
+<
 SkCanvas
-*
+>
 mPageCanvas
 ;
 RefPtr
@@ -210,8 +212,10 @@ SkDocument
 >
 mRefPDFDoc
 ;
+sk_sp
+<
 SkCanvas
-*
+>
 mRefCanvas
 ;
 SkDynamicMemoryWStream
