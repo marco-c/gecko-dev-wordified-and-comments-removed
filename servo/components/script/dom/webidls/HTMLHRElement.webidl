@@ -168,8 +168,6 @@ attribute
 DOMString
 size
 ;
-/
-/
 attribute
 DOMString
 width
