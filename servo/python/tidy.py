@@ -240,18 +240,6 @@ ply
 "
     
 "
-components
-/
-style
-/
-properties
-/
-mod
-.
-rs
-"
-    
-"
 target
 /
 *
