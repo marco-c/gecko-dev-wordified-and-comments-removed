@@ -61,6 +61,8 @@ const
 Handle
 &
 aHandle
+OpenRights
+aRights
 )
 override
 {
@@ -70,7 +72,10 @@ mSharedMemory
 SetHandle
 (
 aHandle
-false
+aRights
+=
+=
+RightsReadOnly
 )
 ;
 }

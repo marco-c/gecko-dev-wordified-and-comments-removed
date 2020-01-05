@@ -110,6 +110,8 @@ const
 Handle
 &
 aHandle
+OpenRights
+aRights
 )
 override
 ;
@@ -220,6 +222,9 @@ mPort
 void
 *
 mMemory
+;
+OpenRights
+mOpenRights
 ;
 }
 ;

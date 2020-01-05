@@ -53,6 +53,8 @@ const
 Handle
 &
 aHandle
+OpenRights
+aRights
 )
 override
 ;
@@ -172,6 +174,9 @@ mShmFd
 void
 *
 mMemory
+;
+OpenRights
+mOpenRights
 ;
 }
 ;
