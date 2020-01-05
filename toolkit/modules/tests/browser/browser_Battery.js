@@ -4,7 +4,10 @@ strict
 "
 ;
 var
-imported
+{
+GetBattery
+Debugging
+}
 =
 Components
 .
@@ -25,7 +28,8 @@ Battery
 .
 jsm
 "
-this
+{
+}
 )
 ;
 Cu
@@ -59,8 +63,6 @@ waitForExplicitFinish
 ;
 is
 (
-imported
-.
 Debugging
 .
 fake
@@ -170,8 +172,6 @@ fail
 )
 ;
 }
-imported
-.
 Debugging
 .
 fake
@@ -316,8 +316,6 @@ setter
 "
 )
 ;
-imported
-.
 Debugging
 .
 fake

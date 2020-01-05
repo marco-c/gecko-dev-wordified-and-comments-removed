@@ -19,7 +19,10 @@ Cu
 Components
 ;
 var
-bsp
+{
+CrashStore
+CrashManager
+}
 =
 Cu
 .
@@ -38,7 +41,8 @@ CrashManager
 .
 jsm
 "
-this
+{
+}
 )
 ;
 Cu
@@ -3023,8 +3027,6 @@ Assert
 equal
 (
 count
-bsp
-.
 CrashStore
 .
 prototype

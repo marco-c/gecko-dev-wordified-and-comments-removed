@@ -24,7 +24,8 @@ ContentCrashHandlers
 .
 jsm
 "
-this
+{
+}
 )
 ;
 const
@@ -49,7 +50,8 @@ FileUtils
 .
 jsm
 "
-this
+{
+}
 )
 ;
 const
@@ -74,7 +76,8 @@ AppData
 .
 jsm
 "
-this
+{
+}
 )
 ;
 const
@@ -99,7 +102,8 @@ osfile
 .
 jsm
 "
-this
+{
+}
 )
 ;
 const
