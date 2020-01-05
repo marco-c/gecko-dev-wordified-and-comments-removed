@@ -676,6 +676,17 @@ i
 >
 <
 !
+ENTITY
+siteDataLearnMoreLink
+.
+label
+"
+Learn
+more
+"
+>
+<
+!
 -
 -
 LOCALIZATION
