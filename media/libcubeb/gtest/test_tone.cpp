@@ -565,10 +565,8 @@ n
 "
 )
 ;
-ASSERT_EQ
+FAIL
 (
-r
-CUBEB_OK
 )
 ;
 }
