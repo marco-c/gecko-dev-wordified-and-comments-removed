@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 values
@@ -23,7 +22,6 @@ html
 values
 .
 html
-fails
 =
 =
 values
@@ -36,7 +34,6 @@ values
 rtl
 .
 html
-fails
 =
 =
 margin
@@ -49,7 +46,6 @@ margin
 padding
 .
 html
-fails
 =
 =
 margin
@@ -83,7 +79,6 @@ pseudo
 element
 .
 html
-fails
 =
 =
 bar
@@ -104,7 +99,6 @@ element
 rtl
 .
 html
-fails
 =
 =
 indeterminate
@@ -124,7 +118,6 @@ html
 #
 vertical
 tests
-fails
 =
 =
 values
@@ -137,7 +130,6 @@ values
 vertical
 .
 html
-fails
 =
 =
 values
@@ -154,7 +146,6 @@ vertical
 rtl
 .
 html
-fails
 =
 =
 margin
@@ -171,7 +162,6 @@ padding
 vertical
 .
 html
-fails
 =
 =
 margin
@@ -192,7 +182,6 @@ vertical
 rtl
 .
 html
-fails
 =
 =
 bar
@@ -213,7 +202,6 @@ element
 vertical
 .
 html
-fails
 =
 =
 bar
@@ -238,7 +226,6 @@ vertical
 rtl
 .
 html
-fails
 =
 =
 indeterminate
@@ -295,7 +282,6 @@ manually
 check
 those
 .
-fails
 =
 =
 transformations
@@ -309,7 +295,6 @@ Tests
 for
 bugs
 :
-fails
 =
 =
 block
@@ -322,7 +307,6 @@ block
 invalidate
 .
 html
-fails
 =
 =
 in
