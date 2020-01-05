@@ -201,7 +201,6 @@ Binding
 "
 arg
 )
-;
 def
 stripTrailingWhitespace
 (
@@ -506,7 +505,6 @@ IDLType
 Tags
 .
 double
-    
 ]
 class
 CastableObjectUnwrapper
@@ -1756,6 +1754,7 @@ parent
             
 parentHooks
 =
+(
 "
 Some
 (
@@ -1781,12 +1780,14 @@ sBinding
 sNativePropertyHooks
 )
 "
+                           
 %
 parent
 .
 identifier
 .
 name
+)
         
 else
 :
@@ -2317,6 +2318,7 @@ location
 caseBody
 =
 [
+                
 CGArgumentConverter
 (
 possibleSignatures
@@ -2329,7 +2331,7 @@ possibleSignatures
 [
 i
 ]
-                                                  
+                                    
 i
 "
 args
@@ -2337,13 +2339,12 @@ args
 "
 argc
 "
-                                                  
 descriptor
 )
+                
 for
 i
 in
-                              
 range
 (
 0
@@ -2624,7 +2625,6 @@ loop
 )
 )
 )
-;
                     
 type
 =
@@ -2712,7 +2712,6 @@ testCode
 4
 )
 )
-;
                     
 caseBody
 .
@@ -2720,7 +2719,7 @@ append
 (
 CGIndenter
 (
-                            
+                        
 getPerSignatureCall
 (
 sig
@@ -5202,19 +5201,16 @@ templateBody
 =
 str
 (
+            
 CastableObjectUnwrapper
 (
-                
 descriptor
-                
 "
 {
 val
 }
 "
-                
 unwrapFailureCode
-                
 "
 value
 "
@@ -6119,12 +6115,13 @@ Values
 :
 strings
 "
-             
+                   
 "
 exceptionCode
 "
 :
 exceptionCode
+                   
 "
 handleInvalidEnumValueCode
 "
@@ -7294,7 +7291,6 @@ conversion
 =
 CGGeneric
 (
-            
 string
 .
 Template
@@ -7306,7 +7302,6 @@ substitute
 (
 replacements
 )
-            
 )
     
 if
@@ -7392,7 +7387,6 @@ CGGeneric
     
 return
 result
-;
 def
 convertConstIDLValueToJSVal
 (
@@ -9583,6 +9577,7 @@ signatures
 return
 min
 (
+        
 len
 (
 [
@@ -9603,6 +9598,7 @@ arg
 variadic
 ]
 )
+        
 for
 (
 _
@@ -9759,7 +9755,6 @@ flags
 JSPROP_ENUMERATE
 "
 }
-                        
 for
 m
 in
@@ -10115,6 +10110,7 @@ i32
 1
 )
 '
+                        
 %
 m
 [
@@ -10183,6 +10179,11 @@ name
 '
 JSFunctionSpec
 {
+\
+n
+'
+            
+'
 name
 :
 %
@@ -10198,6 +10199,11 @@ libc
 :
 :
 c_char
+\
+n
+'
+            
+'
 call
 :
 JSNativeWrapper
@@ -10211,26 +10217,51 @@ info
 %
 s
 }
+\
+n
+'
+            
+'
 nargs
 :
 %
 s
+\
+n
+'
+            
+'
 flags
 :
 %
 s
 as
 u16
+\
+n
+'
+            
+'
 selfHostedName
 :
 %
 s
+\
+n
+'
+            
+'
 }
 '
             
 '
 JSFunctionSpec
 {
+\
+n
+'
+            
+'
 name
 :
 0
@@ -10238,6 +10269,11 @@ as
 *
 const
 i8
+\
+n
+'
+            
+'
 call
 :
 JSNativeWrapper
@@ -10253,12 +10289,27 @@ as
 const
 JSJitInfo
 }
+\
+n
+'
+            
+'
 nargs
 :
 0
+\
+n
+'
+            
+'
 flags
 :
 0
+\
+n
+'
+            
+'
 selfHostedName
 :
 0
@@ -10266,6 +10317,11 @@ as
 *
 const
 i8
+\
+n
+'
+            
+'
 }
 '
             
@@ -10694,6 +10750,11 @@ name
 '
 JSPropertySpec
 {
+\
+n
+'
+            
+'
 name
 :
 %
@@ -10709,6 +10770,11 @@ libc
 :
 :
 c_char
+\
+n
+'
+            
+'
 flags
 :
 (
@@ -10721,20 +10787,40 @@ s
 )
 as
 u8
+\
+n
+'
+            
+'
 getter
 :
 %
 s
+\
+n
+'
+            
+'
 setter
 :
 %
 s
+\
+n
+'
+            
+'
 }
 '
             
 '
 JSPropertySpec
 {
+\
+n
+'
+            
+'
 name
 :
 0
@@ -10742,9 +10828,19 @@ as
 *
 const
 i8
+\
+n
+'
+            
+'
 flags
 :
 0
+\
+n
+'
+            
+'
 getter
 :
 JSNativeWrapper
@@ -10760,6 +10856,11 @@ as
 const
 JSJitInfo
 }
+\
+n
+'
+            
+'
 setter
 :
 JSNativeWrapper
@@ -10775,6 +10876,11 @@ as
 const
 JSJitInfo
 }
+\
+n
+'
+            
+'
 }
 '
             
@@ -12289,6 +12395,7 @@ JSCLASS_IMPLEMENTS_BARRIERS
 %
 s
 |
+               
 (
 (
 (
@@ -12300,6 +12407,7 @@ JSCLASS_RESERVED_SLOTS_MASK
 )
 <
 <
+                   
 JSCLASS_RESERVED_SLOTS_SHIFT
 )
 /
@@ -12569,26 +12677,26 @@ identifier
 .
 name
 )
-       
+         
 flags
 slots
 slots
-       
+         
 FINALIZE_HOOK_NAME
 traceHook
-       
+         
 self
 .
 descriptor
 .
 outerObjectHook
-       
+         
 self
 .
 descriptor
 .
 outerObjectHook
-       
+         
 CGGeneric
 (
 DOMClass
@@ -13135,7 +13243,7 @@ CGIfWrapper
 ifTrue
 condition
 )
-                 
+                
 CGWrapper
 (
 CGIndenter
@@ -13736,8 +13844,8 @@ t
 )
         
 if
-not
 name
+not
 in
 unionStructs
 :
@@ -14084,6 +14192,7 @@ args
 inline
 =
 False
+                 
 alwaysInline
 =
 False
@@ -14096,6 +14205,7 @@ False
 templateArgs
 =
 None
+                 
 unsafe
 =
 True
@@ -14156,7 +14266,6 @@ self
 pub
 =
 pub
-;
         
 self
 .
@@ -14469,7 +14578,7 @@ self
 _template
 (
 )
-                                          
+                                        
 self
 .
 _argstring
@@ -14719,6 +14828,7 @@ isGlobal
 create
 +
 =
+(
 "
 let
 obj
@@ -14728,10 +14838,30 @@ RootedObject
 :
 new
 (
+\
+n
+"
+                       
+"
 cx
+\
+n
+"
+                       
+"
 create_dom_global
 (
+\
+n
+"
+                       
+"
 cx
+\
+n
+"
+                       
+"
 &
 Class
 .
@@ -14750,12 +14880,22 @@ as
 *
 const
 JSClass
+\
+n
+"
+                       
+"
 Some
 (
 %
 s
 )
 )
+\
+n
+"
+                       
+"
 )
 ;
 \
@@ -14763,6 +14903,7 @@ n
 "
 %
 TRACE_HOOK_NAME
+)
         
 else
 :
@@ -14802,6 +14943,11 @@ n
 "
 JS_NewObjectWithGivenProto
 (
+\
+n
+"
+                       
+"
 cx
 &
 Class
@@ -16531,7 +16677,6 @@ ctor
 identifier
 .
 name
-;
             
 constructArgs
 =
@@ -17575,7 +17720,6 @@ _
 customDefineProperty
 customDelete
 TRACE_HOOK_NAME
-       
 FINALIZE_HOOK_NAME
 )
         
@@ -18110,10 +18254,10 @@ True
 )
         
 if
-not
 "
 cx
 "
+not
 in
 argsPre
 and
@@ -18780,9 +18924,9 @@ append
 (
 CGCallGenerator
 (
-                    
+            
 errorResult
-                    
+            
 self
 .
 getArguments
@@ -18792,13 +18936,13 @@ self
 .
 argsPre
 returnType
-                    
+            
 self
 .
 extendedAttributes
 descriptor
 nativeMethodName
-                    
+            
 static
 )
 )
@@ -18945,10 +19089,10 @@ self
 :
         
 return
-not
 '
 infallible
 '
+not
 in
 self
 .
@@ -19124,7 +19268,6 @@ post
 "
 )
 )
-;
         
 if
 default
@@ -19167,11 +19310,11 @@ post
 n
 }
 "
-                        
-)
                     
 )
                 
+)
+            
 )
         
 self
@@ -19335,7 +19478,6 @@ CGIndenter
 bodyList
 )
 )
-;
         
 self
 .
@@ -20299,7 +20441,7 @@ JSContext
 cx
 '
 )
-                 
+                
 Argument
 (
 '
@@ -20309,7 +20451,7 @@ HandleObject
 _obj
 '
 )
-                 
+                
 Argument
 (
 '
@@ -20326,7 +20468,7 @@ concreteType
 this
 '
 )
-                 
+                
 Argument
 (
 '
@@ -20708,7 +20850,7 @@ JSContext
 cx
 '
 )
-                 
+                
 Argument
 (
 '
@@ -20718,7 +20860,7 @@ HandleObject
 obj
 '
 )
-                 
+                
 Argument
 (
 '
@@ -20735,7 +20877,7 @@ concreteType
 this
 '
 )
-                 
+                
 Argument
 (
 '
@@ -21990,7 +22132,6 @@ member
 .
 readonly
 or
-                
 self
 .
 member
@@ -24216,6 +24357,7 @@ cx
 rval
 )
 "
+            
 %
 (
 self
@@ -24308,7 +24450,6 @@ join
 (
 enumValues
 )
-        
 self
 .
 type
@@ -25034,7 +25175,7 @@ name
 match
 =
 (
-                    
+                
 "
 match
 %
@@ -25052,7 +25193,7 @@ value
 \
 n
 "
-                    
+                
 "
 Err
 (
@@ -25069,7 +25210,7 @@ Err
 \
 n
 "
-                    
+                
 "
 Ok
 (
@@ -25097,7 +25238,7 @@ value
 \
 n
 "
-                    
+                
 "
 Ok
 (
@@ -25110,7 +25251,7 @@ None
 \
 n
 "
-                    
+                
 "
 }
 \
@@ -25217,6 +25358,11 @@ cx
 *
 mut
 JSContext
+\
+n
+"
+                
+"
 value
 :
 HandleValue
@@ -25993,7 +26139,7 @@ n
         
 else
 :
-           
+            
 body
 =
 '
@@ -26005,6 +26151,7 @@ string
 .
 Template
 (
+            
 "
 {
 decorators
@@ -26012,7 +26159,7 @@ decorators
 %
 s
 "
-                               
+            
 "
 {
 visibility
@@ -26045,7 +26192,7 @@ body
 s
 "
 %
-                               
+            
 (
 self
 .
@@ -26054,19 +26201,19 @@ self
 .
 breakAfterSelf
 )
-                               
+        
 )
 .
 substitute
 (
 {
-                
+            
 '
 templateClause
 '
 :
 templateClause
-                
+            
 '
 decorators
 '
@@ -26077,7 +26224,7 @@ getDecorators
 (
 True
 )
-                
+            
 '
 returnType
 '
@@ -26101,7 +26248,7 @@ returnType
 else
 "
 "
-                
+            
 '
 name
 '
@@ -26109,7 +26256,7 @@ name
 self
 .
 name
-                
+            
 '
 const
 '
@@ -26124,7 +26271,7 @@ const
 else
 '
 '
-                
+            
 '
 override
 '
@@ -26139,19 +26286,19 @@ override
 else
 '
 '
-                
+            
 '
 args
 '
 :
 args
-                
+            
 '
 body
 '
 :
 body
-                
+            
 '
 visibility
 '
@@ -26174,7 +26321,7 @@ priv
 else
 '
 '
-                
+        
 }
 )
     
@@ -26326,7 +26473,7 @@ baseClass
 self
 .
 baseClass
-                  
+                 
 '
 name
 '
@@ -26941,7 +27088,6 @@ getBody
 (
 cgClass
 )
-;
         
 body
 =
@@ -27042,7 +27188,7 @@ getDecorators
 (
 True
 )
-                  
+                 
 '
 className
 '
@@ -27052,13 +27198,13 @@ cgClass
 getNameString
 (
 )
-                  
+                 
 '
 args
 '
 :
 args
-                  
+                 
 '
 body
 '
@@ -27210,7 +27356,7 @@ getDecorators
 (
 False
 )
-                  
+                 
 '
 className
 '
@@ -27220,13 +27366,13 @@ cgClass
 getNameString
 (
 )
-                  
+                 
 '
 args
 '
 :
 args
-                  
+                 
 '
 initializationList
 '
@@ -27237,7 +27383,7 @@ getInitializationList
 (
 cgClass
 )
-                  
+                 
 '
 body
 '
@@ -27512,7 +27658,6 @@ self
 getBody
 (
 )
-;
             
 body
 =
@@ -27614,7 +27759,7 @@ getDecorators
 (
 True
 )
-                  
+                 
 '
 className
 '
@@ -27624,7 +27769,7 @@ cgClass
 getNameString
 (
 )
-                  
+                 
 '
 body
 '
@@ -27749,7 +27894,7 @@ getDecorators
 (
 False
 )
-                  
+                 
 '
 className
 '
@@ -27759,7 +27904,7 @@ cgClass
 getNameString
 (
 )
-                  
+                 
 '
 body
 '
@@ -27800,7 +27945,6 @@ self
 type
 =
 type
-;
         
 self
 .
@@ -27925,7 +28069,7 @@ cgClass
 getNameString
 (
 )
-                                      
+                                   
 self
 .
 name
@@ -28627,8 +28771,6 @@ s
 \
 n
 '
-\
-                     
 %
 '
 '
@@ -29398,7 +29540,7 @@ prepend
 (
 instantiateJSToNativeConversionTemplate
 (
-                  
+                
 template
 templateValues
 declType
@@ -29407,7 +29549,7 @@ argument
 identifier
 .
 name
-                  
+                
 needsRooting
 )
 )
@@ -30015,6 +30157,7 @@ descriptor
 "
 UnwrapProxy
 "
+                                  
 '
 *
 const
@@ -30285,6 +30428,7 @@ None
             
 fillDescriptor
 =
+(
 "
 desc
 .
@@ -30299,7 +30443,11 @@ result_root
 ptr
 ;
 \
-nfill_property_descriptor
+n
+"
+                              
+"
+fill_property_descriptor
 (
 &
 mut
@@ -30316,12 +30464,17 @@ s
 )
 ;
 \
-nreturn
+n
+"
+                              
+"
+return
 JSTrue
 ;
 "
 %
 readonly
+)
             
 templateValues
 =
@@ -30366,7 +30519,7 @@ UndefinedValue
 )
 ;
 '
-                
+            
 }
             
 get
@@ -30493,6 +30646,7 @@ None
             
 fillDescriptor
 =
+(
 "
 desc
 .
@@ -30507,7 +30661,11 @@ result_root
 ptr
 ;
 \
-nfill_property_descriptor
+n
+"
+                              
+"
+fill_property_descriptor
 (
 &
 mut
@@ -30524,12 +30682,17 @@ s
 )
 ;
 \
-nreturn
+n
+"
+                              
+"
+return
 JSTrue
 ;
 "
 %
 readonly
+)
             
 templateValues
 =
@@ -30574,7 +30737,7 @@ UndefinedValue
 )
 ;
 '
-                
+            
 }
             
 namedGet
@@ -33889,7 +34052,7 @@ CONSTRUCT_HOOK_NAME
 _
 "
 +
-                                            
+                                        
 self
 .
 _ctor
@@ -34259,7 +34422,7 @@ isStatic
 (
 )
 and
-                    
+                        
 (
 not
 m
@@ -34390,7 +34553,9 @@ True
 )
                     
 yield
+(
 name
+                           
 attribute_arguments
 (
 typeNeedsCx
@@ -34401,6 +34566,7 @@ type
 True
 )
 )
+                           
 return_type
 (
 descriptor
@@ -34408,6 +34574,7 @@ m
 .
 type
 infallible
+)
 )
                     
 if
@@ -34846,7 +35013,7 @@ isMethod
 (
 )
 and
-                
+                    
 (
 not
 m
@@ -35114,7 +35281,6 @@ isStatic
 (
 )
 and
-                    
 not
 descriptor
 .
@@ -35886,7 +36052,6 @@ self
 dictionary
 =
 dictionary
-;
         
 if
 all
@@ -36203,7 +36368,7 @@ makeClassName
 (
 d
 )
-                                    
+                                 
 "
 inheritance
 "
@@ -36393,7 +36558,11 @@ UndefinedValue
 )
 ;
 \
-nself
+n
+"
+                         
+"
+self
 .
 %
 s
@@ -36410,7 +36579,11 @@ handle_mut
 )
 ;
 \
-nset_dictionary_property
+n
+"
+                         
+"
+set_dictionary_property
 (
 cx
 obj
@@ -36437,6 +36610,7 @@ unwrap
 )
 ;
 "
+                         
 %
 (
 name
@@ -36922,7 +37096,7 @@ indentLevel
 define
 (
 )
-                
+            
 }
 )
     
@@ -37073,12 +37247,6 @@ default
 info
 .
 default
-        
-declType
-=
-info
-.
-declType
         
 replacements
 =
@@ -37363,7 +37531,6 @@ deps
 set
 (
 )
-;
         
 if
 dictionary
@@ -37632,6 +37799,7 @@ DefineProxyHandler
 )
 ;
 "
+                      
 %
 (
 desc
@@ -37732,6 +37900,7 @@ d
 ]
 ;
 "
+                      
 %
 (
 length
@@ -38216,7 +38385,6 @@ MutableHandleObject
 HandleObject
 HandleValue
 RootedObject
-RootedValue
 }
 '
             
@@ -38228,6 +38396,7 @@ jsapi
 :
 :
 {
+RootedValue
 JSNativeWrapper
 JSNative
 JSObject
@@ -39410,7 +39579,7 @@ type
 argument
 .
 optional
-            
+                           
 argument
 .
 defaultValue
@@ -39967,7 +40136,7 @@ new
 self
 .
 baseName
-                
+            
 ]
 )
 ]
@@ -40382,7 +40551,7 @@ self
 method
 .
 name
-                
+            
 }
 )
         
@@ -40462,7 +40631,7 @@ self
 method
 .
 name
-                
+            
 }
 )
         
@@ -41330,7 +41499,7 @@ self
 getCallSetup
 (
 )
-            
+        
 }
         
 if
@@ -41398,7 +41567,7 @@ _
 \
 n
 "
-                
+            
 )
 .
 substitute
@@ -41712,7 +41881,6 @@ argConversions
 reverse
 (
 )
-;
         
 argConversions
 =
@@ -41962,7 +42130,7 @@ n
 "
 }
 "
-                
+            
 )
 .
 substitute
@@ -42281,7 +42449,6 @@ self
 .
 argCountStr
 )
-;
     
 staticmethod
     
@@ -42531,7 +42698,7 @@ self
 getCallableDecl
 (
 )
-            
+        
 }
         
 if
@@ -42603,12 +42770,13 @@ string
 .
 Template
 (
+            
 "
 {
 getCallable
 }
 "
-                
+            
 "
 let
 ok
@@ -42618,7 +42786,7 @@ unsafe
 \
 n
 "
-                
+            
 "
 let
 rootedThis
@@ -42637,10 +42805,15 @@ thisObj
 \
 n
 "
-                
+            
 "
 JS_CallFunctionValue
 (
+\
+n
+"
+            
+"
 cx
 rootedThis
 .
@@ -42655,11 +42828,16 @@ handle
 \
 n
 "
-                
+            
 "
 &
 HandleValueArray
 {
+\
+n
+"
+            
+"
 length_
 :
 {
@@ -42672,11 +42850,21 @@ libc
 :
 :
 size_t
+\
+n
+"
+            
+"
 elements_
 :
 {
 argv
 }
+\
+n
+"
+            
+"
 }
 rval
 .
@@ -42687,14 +42875,14 @@ handle_mut
 \
 n
 "
-                
+            
 "
 }
 ;
 \
 n
 "
-                
+            
 "
 if
 ok
@@ -42705,7 +42893,7 @@ ok
 \
 n
 "
-                
+            
 "
 return
 Err
@@ -42716,7 +42904,7 @@ JSFailed
 \
 n
 "
-                
+            
 "
 }
 \
@@ -43352,7 +43540,6 @@ substitute
 (
 replacements
 )
-;
 class
 CallbackSetter
 (
@@ -43467,7 +43654,7 @@ handleAt
 0
 )
 "
-            
+        
 }
         
 return

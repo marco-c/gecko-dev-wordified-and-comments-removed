@@ -133,7 +133,6 @@ argv
 r
 "
 )
-;
 idlTemplate
 =
 idlFile
@@ -141,13 +140,11 @@ idlFile
 read
 (
 )
-;
 idlFile
 .
 close
 (
 )
-;
 print
 (
 "

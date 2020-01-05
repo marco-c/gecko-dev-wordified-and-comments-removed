@@ -30,12 +30,10 @@ import
 os
 import
 cPickle
-import
-WebIDL
 from
 Configuration
 import
-*
+Configuration
 from
 CodegenRust
 import
@@ -299,7 +297,6 @@ config
 outputPrefix
 webIDLFile
 )
-;
 if
 __name__
 =

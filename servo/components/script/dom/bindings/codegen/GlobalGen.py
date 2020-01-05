@@ -29,15 +29,13 @@ ply
 import
 os
 import
-cStringIO
-import
 WebIDL
 import
 cPickle
 from
 Configuration
 import
-*
+Configuration
 from
 CodegenRust
 import
