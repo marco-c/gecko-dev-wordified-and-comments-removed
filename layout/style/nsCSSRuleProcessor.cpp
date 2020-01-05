@@ -16403,7 +16403,7 @@ aSheet
 mInner
 )
 {
-CSSStyleSheet
+StyleSheet
 *
 child
 =
@@ -16423,6 +16423,11 @@ child
 CascadeSheet
 (
 child
+-
+>
+AsGecko
+(
+)
 aData
 )
 ;

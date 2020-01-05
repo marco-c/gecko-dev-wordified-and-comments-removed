@@ -175,9 +175,6 @@ nsXMLNameSpaceMap
 namespace
 mozilla
 {
-struct
-ChildSheetListBuilder
-;
 class
 CSSStyleSheet
 ;
@@ -302,7 +299,7 @@ mNameSpaceMap
 ;
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 mFirstChild
 ;
@@ -911,12 +908,6 @@ EnabledStateChangedInternal
 (
 )
 ;
-RefPtr
-<
-CSSStyleSheet
->
-mNext
-;
 css
 :
 :
@@ -977,13 +968,6 @@ mozilla
 :
 :
 StyleSheet
-;
-friend
-struct
-mozilla
-:
-:
-ChildSheetListBuilder
 ;
 }
 ;
