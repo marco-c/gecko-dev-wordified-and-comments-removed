@@ -4875,7 +4875,6 @@ LoadData
 )
 {
 let
-mut
 url
 =
 load_data
@@ -5298,7 +5297,7 @@ window
 let
 (
 parser_input
-base_url
+final_url
 )
 =
 if
@@ -5427,7 +5426,7 @@ tm
 )
 ;
 let
-base_url
+final_url
 =
 load_response
 .
@@ -5484,7 +5483,7 @@ mut_url
 Some
 (
 (
-base_url
+final_url
 .
 clone
 (
@@ -5499,7 +5498,7 @@ InputUrl
 (
 load_response
 )
-base_url
+final_url
 )
 }
 else
@@ -5570,19 +5569,8 @@ parse_html
 *
 document
 parser_input
-base_url
-)
-;
-url
-=
-page
-.
-get_url
-(
-)
-.
-clone
-(
+&
+final_url
 )
 ;
 document
@@ -5618,7 +5606,7 @@ of
 {
 }
 "
-url
+final_url
 )
 ;
 document
@@ -5664,7 +5652,7 @@ page_url
 Some
 (
 (
-url
+final_url
 .
 clone
 (
@@ -5899,7 +5887,7 @@ borrow_mut
 (
 )
 =
-url
+final_url
 .
 fragment
 ;

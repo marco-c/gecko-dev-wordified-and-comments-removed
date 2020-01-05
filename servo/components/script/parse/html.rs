@@ -1367,6 +1367,7 @@ input
 HTMLInput
 url
 :
+&
 Url
 )
 {
