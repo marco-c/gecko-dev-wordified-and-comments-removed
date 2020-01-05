@@ -248,6 +248,11 @@ Shmem
 aShmem
 )
 ;
+async
+PurgeShmems
+(
+)
+;
 parent
 :
 async

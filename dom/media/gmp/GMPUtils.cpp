@@ -1224,15 +1224,15 @@ nullptr
 ;
 }
 static
-int32_t
+size_t
 Align16
 (
-int32_t
+size_t
 aNumber
 )
 {
 const
-uint32_t
+size_t
 mask
 =
 15
@@ -1248,7 +1248,7 @@ mask
 mask
 ;
 }
-int32_t
+size_t
 I420FrameBufferSizePadded
 (
 int32_t
@@ -1285,7 +1285,7 @@ return
 0
 ;
 }
-int32_t
+size_t
 ySize
 =
 Align16

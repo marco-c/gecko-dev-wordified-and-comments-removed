@@ -305,7 +305,7 @@ GetGMPAbstractThread
 (
 )
 ;
-int32_t
+size_t
 I420FrameBufferSizePadded
 (
 int32_t
