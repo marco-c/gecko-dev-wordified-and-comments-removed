@@ -1241,13 +1241,6 @@ EnqueueFirstFrameLoadedEvent
 )
 ;
 void
-InitiateSeek
-(
-SeekJob
-aSeekJob
-)
-;
-void
 DispatchAudioDecodeTaskIfNeeded
 (
 )
