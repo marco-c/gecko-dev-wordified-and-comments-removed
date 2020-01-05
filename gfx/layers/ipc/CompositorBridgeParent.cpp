@@ -2956,6 +2956,10 @@ LayersBackend
 &
 &
 aBackendHints
+const
+uint64_t
+&
+aSeqNo
 bool
 *
 aResult
@@ -2973,6 +2977,7 @@ newIdentifier
 ResetCompositorTask
 (
 aBackendHints
+aSeqNo
 &
 newIdentifier
 )
@@ -8882,6 +8887,8 @@ LayersBackend
 >
 &
 aBackendHints
+uint64_t
+aSeqNo
 TextureFactoryIdentifier
 *
 aOutIdentifier
@@ -8916,6 +8923,7 @@ nsTArray
 LayersBackend
 >
 >
+uint64_t
 Maybe
 <
 TextureFactoryIdentifier
@@ -8930,6 +8938,7 @@ CompositorBridgeParent
 :
 ResetCompositorTask
 aBackendHints
+aSeqNo
 &
 newIdentifier
 )
@@ -8978,6 +8987,8 @@ LayersBackend
 >
 &
 aBackendHints
+uint64_t
+aSeqNo
 Maybe
 <
 TextureFactoryIdentifier
@@ -9076,6 +9087,7 @@ newIdentifier
 value
 (
 )
+aSeqNo
 )
 ;
 if

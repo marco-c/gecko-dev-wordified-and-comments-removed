@@ -122,6 +122,10 @@ LayersBackend
 &
 &
 aBackendHints
+const
+uint64_t
+&
+aSeqNo
 bool
 *
 aResult

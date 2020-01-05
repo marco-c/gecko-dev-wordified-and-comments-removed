@@ -575,6 +575,19 @@ must
 be
 propagated
 .
+The
+sequence
+number
+is
+a
+generation
+count
+for
+the
+/
+/
+compositor
+.
 async
 CompositorUpdated
 (
@@ -582,6 +595,8 @@ uint64_t
 layersId
 TextureFactoryIdentifier
 newIdentifier
+uint64_t
+seqNo
 )
 ;
 /
@@ -946,6 +961,8 @@ LayersBackend
 [
 ]
 aBackendHints
+uint64_t
+aSeqNo
 )
 returns
 (

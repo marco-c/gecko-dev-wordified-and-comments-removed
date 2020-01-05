@@ -2624,6 +2624,8 @@ EnsureTextEventDispatcher
 void
 OnRenderingDeviceReset
 (
+uint64_t
+aSeqNo
 )
 ;
 bool

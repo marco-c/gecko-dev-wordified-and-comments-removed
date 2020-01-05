@@ -1187,6 +1187,10 @@ LayersBackend
 &
 &
 aBackendHints
+const
+uint64_t
+&
+aSeqNo
 bool
 *
 aResult
@@ -1663,6 +1667,8 @@ LayersBackend
 >
 &
 aBackendHints
+uint64_t
+aSeqNo
 TextureFactoryIdentifier
 *
 aOutIdentifier
@@ -2323,6 +2329,8 @@ LayersBackend
 >
 &
 aBackendHints
+uint64_t
+aSeqNo
 Maybe
 <
 TextureFactoryIdentifier
