@@ -10650,6 +10650,14 @@ ifdef
 MOZ_ENABLE_WEBRENDER
 if
 (
+gfxPrefs
+:
+:
+WebRenderEnabled
+(
+)
+&
+&
 !
 gfxPrefs
 :
