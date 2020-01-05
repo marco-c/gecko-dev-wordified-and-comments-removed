@@ -823,8 +823,14 @@ DVec
 PendingEntry
 >
 }
-fn
+impl
 BoxConsumer
+{
+pub
+static
+pure
+fn
+new
 (
 flow
 :
@@ -833,6 +839,8 @@ FlowContext
 -
 >
 BoxConsumer
+{
+unsafe
 {
 debug
 !
@@ -855,6 +863,7 @@ debug_str
 )
 )
 ;
+}
 BoxConsumer
 {
 flow
@@ -867,9 +876,6 @@ DVec
 )
 }
 }
-impl
-BoxConsumer
-{
 pub
 fn
 push_box
