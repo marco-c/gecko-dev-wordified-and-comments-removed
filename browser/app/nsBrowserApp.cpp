@@ -1782,10 +1782,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-XPCOMGlueEnablePreload
-(
-)
-;
 rv
 =
 XPCOMGlueStartup

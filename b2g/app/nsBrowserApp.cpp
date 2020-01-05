@@ -950,10 +950,6 @@ DllBlocklist_Initialize
 ;
 #
 endif
-XPCOMGlueEnablePreload
-(
-)
-;
 rv
 =
 XPCOMGlueStartup

@@ -88,12 +88,6 @@ static
 XPCOMFunctions
 xpcomFunctions
 ;
-static
-bool
-do_preload
-=
-false
-;
 #
 if
 defined
@@ -502,13 +496,6 @@ ReadDependentCB
 (
 pathstr_t
 aDependentLib
-bool
-aDoPreload
-)
-{
-if
-(
-aDoPreload
 )
 {
 ReadAheadLib
@@ -516,7 +503,6 @@ ReadAheadLib
 aDependentLib
 )
 ;
-}
 LibHandleType
 libHandle
 =
@@ -551,8 +537,6 @@ const
 char
 *
 aDependentLib
-bool
-do_preload
 )
 {
 wchar_t
@@ -576,7 +560,6 @@ return
 ReadDependentCB
 (
 wideDependentLib
-do_preload
 )
 ;
 }
@@ -1252,7 +1235,6 @@ if
 ReadDependentCB
 (
 xpcomDir
-do_preload
 )
 )
 {
@@ -1381,16 +1363,6 @@ aSymbols
 }
 return
 rv
-;
-}
-void
-XPCOMGlueEnablePreload
-(
-)
-{
-do_preload
-=
-true
 ;
 }
 #
