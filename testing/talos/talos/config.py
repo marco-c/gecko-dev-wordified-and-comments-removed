@@ -1926,10 +1926,6 @@ rss
 '
     
 '
-mainthread
-'
-    
-'
 shutdown
 '
     
