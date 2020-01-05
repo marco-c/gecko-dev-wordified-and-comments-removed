@@ -27,14 +27,6 @@ dev
 "
     
 "
-latest_mar_dir
-"
-:
-'
-fake_kill_me
-'
-    
-"
 hg_l10n_base
 "
 :

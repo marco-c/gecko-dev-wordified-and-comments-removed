@@ -2882,20 +2882,6 @@ replace_dict
 replace_dict
 )
         
-upload_env
-[
-'
-LATEST_MAR_DIR
-'
-]
-=
-config
-[
-'
-latest_mar_dir
-'
-]
-        
 if
 '
 upload_env_extra

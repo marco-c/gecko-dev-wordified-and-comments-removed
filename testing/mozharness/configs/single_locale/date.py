@@ -57,25 +57,6 @@ date
 "
     
 "
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-firefox
-/
-nightly
-/
-latest
--
-date
--
-l10n
-'
-    
-"
 hg_l10n_base
 "
 :

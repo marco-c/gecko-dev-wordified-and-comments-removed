@@ -55,27 +55,6 @@ nightly
 "
     
 "
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-firefox
-/
-nightly
-/
-latest
--
-mozilla
--
-central
--
-l10n
-'
-    
-"
 update_gecko_source_to_enUS
 "
 :

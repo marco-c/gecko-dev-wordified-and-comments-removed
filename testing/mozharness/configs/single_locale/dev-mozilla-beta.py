@@ -51,14 +51,6 @@ beta
 "
     
 "
-latest_mar_dir
-"
-:
-"
-fake_kill_me
-"
-    
-"
 mozilla_dir
 "
 :
