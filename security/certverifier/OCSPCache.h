@@ -112,6 +112,10 @@ pkix
 CertID
 &
 aCertID
+const
+char
+*
+aFirstPartyDomain
 mozilla
 :
 :
@@ -151,6 +155,10 @@ pkix
 CertID
 &
 aCertID
+const
+char
+*
+aFirstPartyDomain
 mozilla
 :
 :
@@ -250,6 +258,10 @@ pkix
 CertID
 &
 aCertID
+const
+char
+*
+aFirstPartyDomain
 )
 ;
 mozilla
@@ -297,6 +309,10 @@ pkix
 CertID
 &
 aCertID
+const
+char
+*
+aFirstPartyDomain
 size_t
 &
 index
