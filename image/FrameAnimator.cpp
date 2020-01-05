@@ -54,6 +54,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 pixman
 .
 h
