@@ -11,7 +11,7 @@ rule_tree
 StrongRuleNode
 ;
 use
-selector_impl
+selector_parser
 :
 :
 PseudoElement

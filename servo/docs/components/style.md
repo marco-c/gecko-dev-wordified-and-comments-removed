@@ -1368,7 +1368,7 @@ org
 /
 style
 /
-selector_impl
+selector_parser
 /
 trait
 .
@@ -1395,7 +1395,7 @@ org
 /
 style
 /
-servo_selector_impl
+servo_selector_parser
 /
 struct
 .
@@ -1498,7 +1498,7 @@ org
 /
 style
 /
-selector_impl
+selector_parser
 /
 enum
 .
@@ -1525,7 +1525,7 @@ org
 /
 style
 /
-selector_impl
+selector_parser
 /
 enum
 .
@@ -1635,7 +1635,7 @@ org
 /
 style
 /
-selector_matching
+stylist
 /
 struct
 .
@@ -1712,7 +1712,7 @@ org
 /
 style
 /
-selector_matching
+stylist
 /
 struct
 .
@@ -1739,7 +1739,7 @@ org
 /
 style
 /
-selector_matching
+stylist
 /
 struct
 .

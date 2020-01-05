@@ -100,7 +100,7 @@ parse_property_declaration_list
 }
 ;
 use
-selector_impl
+selector_parser
 :
 :
 TheSelectorImpl

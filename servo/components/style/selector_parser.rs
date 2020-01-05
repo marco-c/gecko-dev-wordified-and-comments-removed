@@ -54,7 +54,7 @@ use
 servo
 :
 :
-selector_impl
+selector_parser
 :
 :
 *
@@ -75,7 +75,7 @@ use
 gecko
 :
 :
-selector_impl
+selector_parser
 :
 :
 *
@@ -96,7 +96,7 @@ use
 servo
 :
 :
-selector_impl
+selector_parser
 :
 :
 ServoSelectorImpl
@@ -119,7 +119,7 @@ use
 gecko
 :
 :
-selector_impl
+selector_parser
 :
 :
 GeckoSelectorImpl
@@ -142,7 +142,7 @@ use
 servo
 :
 :
-selector_impl
+selector_parser
 :
 :
 ServoElementSnapshot

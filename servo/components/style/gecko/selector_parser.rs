@@ -11,7 +11,7 @@ element_state
 ElementState
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {
@@ -20,7 +20,7 @@ attr_exists_selector_is_shareable
 }
 ;
 use
-selector_impl
+selector_parser
 :
 :
 PseudoElementCascadeType

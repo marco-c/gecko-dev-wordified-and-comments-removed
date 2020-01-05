@@ -40,7 +40,7 @@ GeckoArcURI
 }
 ;
 use
-selector_impl
+selector_parser
 :
 :
 TheSelectorImpl

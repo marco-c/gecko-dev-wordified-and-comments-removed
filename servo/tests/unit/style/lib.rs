@@ -107,13 +107,13 @@ mod
 properties
 ;
 mod
-selector_matching
-;
-mod
 str
 ;
 mod
 stylesheets
+;
+mod
+stylist
 ;
 mod
 value

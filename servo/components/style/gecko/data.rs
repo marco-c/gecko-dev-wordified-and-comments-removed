@@ -76,12 +76,6 @@ use
 rayon
 ;
 use
-selector_matching
-:
-:
-Stylist
-;
-use
 std
 :
 :
@@ -138,6 +132,12 @@ stylesheets
 :
 :
 Stylesheet
+;
+use
+stylist
+:
+:
+Stylist
 ;
 pub
 struct

@@ -78,7 +78,7 @@ RestyleHint
 }
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {
@@ -86,12 +86,6 @@ ElementExt
 PseudoElement
 RestyleDamage
 }
-;
-use
-selector_matching
-:
-:
-ApplicableDeclarationBlock
 ;
 use
 sink
@@ -125,6 +119,12 @@ sync
 :
 :
 Arc
+;
+use
+stylist
+:
+:
+ApplicableDeclarationBlock
 ;
 use
 traversal

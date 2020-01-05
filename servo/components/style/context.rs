@@ -41,12 +41,6 @@ parking_lot
 RwLock
 ;
 use
-selector_matching
-:
-:
-Stylist
-;
-use
 std
 :
 :
@@ -87,6 +81,12 @@ mpsc
 :
 :
 Sender
+;
+use
+stylist
+:
+:
+Stylist
 ;
 use
 timer
