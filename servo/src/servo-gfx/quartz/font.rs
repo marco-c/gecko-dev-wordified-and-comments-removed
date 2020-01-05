@@ -287,7 +287,6 @@ vec
 :
 as_imm_buf
 (
-*
 buf
 |
 cbuf
