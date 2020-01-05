@@ -38,6 +38,13 @@ WebAssembly
 Table
 ;
 const
+LinkError
+=
+WebAssembly
+.
+LinkError
+;
+const
 mem1Page
 =
 new
@@ -392,7 +399,7 @@ bar
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -479,7 +486,7 @@ baz
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -636,7 +643,7 @@ y
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -671,7 +678,7 @@ mem1Page
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -701,7 +708,7 @@ mem1PageMax1
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -731,7 +738,7 @@ mem4Page
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -761,7 +768,7 @@ mem4PageMax4
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -791,7 +798,7 @@ mem2Page
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -843,7 +850,7 @@ mem3Page
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -916,7 +923,7 @@ mem2PageMax4
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -1040,7 +1047,7 @@ bar
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -1120,7 +1127,7 @@ mem1Page
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -1167,7 +1174,7 @@ quux
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -1324,7 +1331,7 @@ quux
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -1419,7 +1426,7 @@ bar
 }
 }
 )
-TypeError
+LinkError
 /
 import
 object
@@ -1466,7 +1473,7 @@ mem1Page
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -1559,7 +1566,7 @@ mem1Page
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Memory
@@ -1682,7 +1689,7 @@ tab1Elem
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Table
@@ -1806,7 +1813,7 @@ tab1Elem
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Table
@@ -1836,7 +1843,7 @@ tab2Elem
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Table
@@ -1867,7 +1874,7 @@ tab3Elem
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Table
@@ -1898,7 +1905,7 @@ tab4Elem
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 Table
@@ -2175,7 +2182,7 @@ f2v
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 function
@@ -2211,7 +2218,7 @@ i2v
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 function
@@ -2319,7 +2326,7 @@ i2v
 }
 }
 )
-TypeError
+LinkError
 /
 imported
 function
@@ -2485,7 +2492,7 @@ Instance
 m1
 importObj
 )
-TypeError
+LinkError
 /
 import
 object
@@ -6658,7 +6665,7 @@ a
 }
 }
 )
-RangeError
+LinkError
 /
 data
 segment
@@ -6690,7 +6697,7 @@ a
 }
 }
 )
-RangeError
+LinkError
 /
 data
 segment
@@ -6746,7 +6753,7 @@ Instance
 (
 m
 )
-RangeError
+LinkError
 /
 data
 segment
@@ -7004,7 +7011,7 @@ tblOff
 }
 }
 )
-RangeError
+LinkError
 /
 elem
 segment
@@ -7072,7 +7079,7 @@ tblOff
 }
 }
 )
-RangeError
+LinkError
 /
 data
 segment

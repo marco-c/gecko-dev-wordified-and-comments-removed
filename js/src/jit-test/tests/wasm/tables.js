@@ -38,6 +38,13 @@ WebAssembly
 Memory
 ;
 const
+LinkError
+=
+WebAssembly
+.
+LinkError
+;
+const
 RuntimeError
 =
 WebAssembly
@@ -230,7 +237,7 @@ callee
 }
 )
 )
-RangeError
+LinkError
 /
 elem
 segment
@@ -275,7 +282,7 @@ callee
 }
 )
 )
-RangeError
+LinkError
 /
 elem
 segment
@@ -362,7 +369,7 @@ a
 }
 }
 )
-RangeError
+LinkError
 /
 elem
 segment
@@ -427,7 +434,7 @@ a
 }
 }
 )
-RangeError
+LinkError
 /
 elem
 segment
@@ -774,7 +781,7 @@ tbl
 }
 }
 )
-RangeError
+LinkError
 /
 elem
 segment

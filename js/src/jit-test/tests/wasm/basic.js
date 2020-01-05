@@ -9,6 +9,13 @@ js
 "
 )
 ;
+const
+LinkError
+=
+WebAssembly
+.
+LinkError
+;
 var
 o
 =
@@ -1571,7 +1578,7 @@ a
 }
 }
 )
-TypeError
+LinkError
 notFunction
 )
 ;
@@ -1594,7 +1601,7 @@ b
 }
 }
 )
-TypeError
+LinkError
 notFunction
 )
 ;
@@ -1810,7 +1817,7 @@ c
 }
 }
 )
-TypeError
+LinkError
 notFunction
 )
 ;

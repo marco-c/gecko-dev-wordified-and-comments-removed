@@ -182,6 +182,14 @@ JSProto_CompileError
 &
 JSProto_Error
 +
+JSEXN_WASMLINKERROR
+=
+=
+JSProto_LinkError
+&
+&
+JSProto_Error
++
 JSEXN_WASMRUNTIMEERROR
 =
 =

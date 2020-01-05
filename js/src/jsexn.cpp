@@ -330,6 +330,10 @@ CompileError
 )
 IMPLEMENT_ERROR_PROTO_CLASS
 (
+LinkError
+)
+IMPLEMENT_ERROR_PROTO_CLASS
+(
 RuntimeError
 )
 }
@@ -495,6 +499,10 @@ CompileError
 )
 IMPLEMENT_ERROR_PROPERTIES
 (
+LinkError
+)
+IMPLEMENT_ERROR_PROPERTIES
+(
 RuntimeError
 )
 }
@@ -651,6 +659,10 @@ CompileError
 )
 IMPLEMENT_NONGLOBAL_ERROR_SPEC
 (
+LinkError
+)
+IMPLEMENT_NONGLOBAL_ERROR_SPEC
+(
 RuntimeError
 )
 }
@@ -780,6 +792,10 @@ DebuggeeWouldRun
 IMPLEMENT_ERROR_CLASS
 (
 CompileError
+)
+IMPLEMENT_ERROR_CLASS
+(
+LinkError
 )
 IMPLEMENT_ERROR_CLASS
 (

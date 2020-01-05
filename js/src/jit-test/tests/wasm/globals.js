@@ -1314,7 +1314,9 @@ Instance
 m
 imp
 )
-TypeError
+WebAssembly
+.
+LinkError
 err
 )
 ;
@@ -1400,7 +1402,7 @@ imp
 /
 not
 a
-number
+Number
 /
 )
 ;
@@ -1427,7 +1429,7 @@ imp
 /
 not
 a
-number
+Number
 /
 )
 ;
@@ -1461,7 +1463,7 @@ imp
 /
 not
 a
-number
+Number
 /
 )
 ;
