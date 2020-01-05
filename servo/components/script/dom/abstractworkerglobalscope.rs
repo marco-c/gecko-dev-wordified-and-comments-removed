@@ -29,7 +29,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -82,7 +82,7 @@ SendableWorkerScriptChan
 <
 T
 :
-Reflectable
+DomObject
 >
 {
 pub
@@ -112,7 +112,7 @@ T
 :
 JSTraceable
 +
-Reflectable
+DomObject
 +
 '
 static
@@ -223,7 +223,7 @@ WorkerThreadWorkerChan
 <
 T
 :
-Reflectable
+DomObject
 >
 {
 pub
@@ -253,7 +253,7 @@ T
 :
 JSTraceable
 +
-Reflectable
+DomObject
 +
 '
 static
@@ -360,7 +360,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 ScriptPort
 for

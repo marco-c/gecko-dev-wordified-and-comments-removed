@@ -103,7 +103,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 }
 ;
@@ -2641,7 +2641,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 JSTraceable
 for
@@ -3853,7 +3853,7 @@ T
 :
 JSTraceable
 +
-Reflectable
+DomObject
 >
 RootedVec
 <

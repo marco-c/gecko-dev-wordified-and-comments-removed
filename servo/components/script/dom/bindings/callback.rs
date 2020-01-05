@@ -24,7 +24,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -628,7 +628,7 @@ wrap_call_this_object
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 cx

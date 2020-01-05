@@ -20,7 +20,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 heapsize
@@ -56,7 +56,7 @@ heap_size_of_self_and_children
 <
 T
 :
-Reflectable
+DomObject
 +
 HeapSizeOf
 >

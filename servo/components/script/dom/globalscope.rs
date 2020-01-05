@@ -102,7 +102,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -766,7 +766,7 @@ from_reflector
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 reflector

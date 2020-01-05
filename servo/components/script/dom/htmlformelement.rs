@@ -224,7 +224,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -6686,7 +6686,7 @@ DerivedFrom
 Element
 >
 +
-Reflectable
+DomObject
 {
 /
 /

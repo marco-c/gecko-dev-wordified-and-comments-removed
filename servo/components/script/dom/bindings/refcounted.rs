@@ -30,7 +30,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 }
 ;
@@ -256,7 +256,7 @@ new
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 ptr
@@ -590,7 +590,7 @@ Trusted
 <
 T
 :
-Reflectable
+DomObject
 >
 {
 refcount
@@ -619,7 +619,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Send
 for
@@ -633,7 +633,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Trusted
 <
@@ -836,7 +836,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Clone
 for
@@ -1050,7 +1050,7 @@ addref
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 &

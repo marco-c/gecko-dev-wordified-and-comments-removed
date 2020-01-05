@@ -29,7 +29,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -181,7 +181,7 @@ pub
 trait
 WeakReferenceable
 :
-Reflectable
+DomObject
 +
 Sized
 {

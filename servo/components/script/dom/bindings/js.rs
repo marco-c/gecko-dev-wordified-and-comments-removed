@@ -42,7 +42,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 }
 ;
@@ -302,7 +302,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 JS
 <
@@ -372,7 +372,7 @@ impl
 root
 T
 :
-Reflectable
+DomObject
 +
 '
 root
@@ -419,7 +419,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Deref
 for
@@ -475,7 +475,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 JSTraceable
 for
@@ -795,7 +795,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 LayoutJS
 <
@@ -1244,7 +1244,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 HeapGCValue
 for
@@ -1495,7 +1495,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 MutHeap
 <
@@ -1691,7 +1691,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 PartialEq
 for
@@ -1744,7 +1744,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 +
 PartialEq
 >
@@ -1827,7 +1827,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 MutNullableHeap
 <
@@ -2219,7 +2219,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 PartialEq
 for
@@ -2274,7 +2274,7 @@ impl
 a
 T
 :
-Reflectable
+DomObject
 >
 PartialEq
 <
@@ -2427,7 +2427,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 LayoutJS
 <
@@ -2544,7 +2544,7 @@ T
 :
 JSTraceable
 +
-Reflectable
+DomObject
 +
 '
 root
@@ -2613,7 +2613,7 @@ impl
 root
 T
 :
-Reflectable
+DomObject
 +
 '
 root
@@ -3112,7 +3112,7 @@ Root
 <
 T
 :
-Reflectable
+DomObject
 >
 {
 ptr
@@ -3249,7 +3249,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Root
 <
@@ -3392,7 +3392,7 @@ impl
 root
 T
 :
-Reflectable
+DomObject
 +
 '
 root
@@ -3438,7 +3438,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Deref
 for
@@ -3497,7 +3497,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 +
 HeapSizeOf
 >
@@ -3533,7 +3533,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 PartialEq
 for
@@ -3570,7 +3570,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Clone
 for
@@ -3607,7 +3607,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 Drop
 for

@@ -1749,7 +1749,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 JSTraceable
 for

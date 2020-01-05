@@ -85,7 +85,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 reflect_dom_object
 }
 ;

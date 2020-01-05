@@ -51,7 +51,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 std
@@ -65,7 +65,7 @@ Castable
 :
 IDLInterface
 +
-Reflectable
+DomObject
 +
 Sized
 {

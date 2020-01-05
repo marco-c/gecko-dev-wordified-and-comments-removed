@@ -108,7 +108,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 U
 :
 DerivedFrom
@@ -387,7 +387,7 @@ null_mut
 }
 pub
 trait
-Reflectable
+DomObject
 {
 fn
 reflector
@@ -428,9 +428,9 @@ self
 }
 pub
 trait
-MutReflectable
+MutDomObject
 :
-Reflectable
+DomObject
 {
 fn
 init_reflector

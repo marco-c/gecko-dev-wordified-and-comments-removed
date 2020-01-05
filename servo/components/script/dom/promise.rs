@@ -78,8 +78,8 @@ reflector
 :
 :
 {
-Reflectable
-MutReflectable
+DomObject
+MutDomObject
 Reflector
 }
 ;

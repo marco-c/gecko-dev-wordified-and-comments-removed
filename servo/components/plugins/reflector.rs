@@ -225,7 +225,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 for
 struct_name
 {
@@ -286,7 +286,7 @@ bindings
 reflector
 :
 :
-MutReflectable
+MutDomObject
 for
 struct_name
 {
@@ -399,7 +399,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 for
 struct_name
 {
@@ -463,7 +463,7 @@ bindings
 reflector
 :
 :
-MutReflectable
+MutDomObject
 for
 struct_name
 {
@@ -614,7 +614,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 :
 :
 reflector
