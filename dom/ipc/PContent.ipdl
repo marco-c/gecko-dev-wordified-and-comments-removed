@@ -1327,9 +1327,6 @@ PrefSetting
 ]
 prefs
 ;
-ContentDeviceData
-contentDeviceData
-;
 GfxInfoFeatureStatus
 [
 ]

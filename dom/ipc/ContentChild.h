@@ -414,10 +414,6 @@ aInitialData
 void
 InitGraphicsDeviceData
 (
-const
-ContentDeviceData
-&
-aData
 )
 ;
 static
