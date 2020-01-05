@@ -733,9 +733,6 @@ GetComputedTiming
 (
 )
 ;
-ComputedTiming
-:
-:
 AnimationPhase
 currentPhase
 =

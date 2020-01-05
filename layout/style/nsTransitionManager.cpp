@@ -281,16 +281,6 @@ mozilla
 :
 css
 ;
-typedef
-mozilla
-:
-:
-ComputedTiming
-:
-:
-AnimationPhase
-AnimationPhase
-;
 namespace
 {
 struct
