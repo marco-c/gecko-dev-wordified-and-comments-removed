@@ -62,11 +62,13 @@ with_tree_fields
 R
 >
 (
+&
 T
 f
 :
 fn
 (
+&
 Tree
 <
 T
@@ -94,11 +96,13 @@ with_tree_fields
 R
 >
 (
+&
 T
 f
 :
 fn
 (
+&
 Tree
 <
 T
@@ -156,7 +160,6 @@ ops
 .
 with_tree_fields
 (
-*
 node
 |
 f
@@ -203,7 +206,6 @@ ops
 .
 with_tree_fields
 (
-*
 c
 |
 f
@@ -288,6 +290,7 @@ ops
 .
 with_tree_fields
 (
+&
 child
 |
 child_tf
@@ -352,6 +355,7 @@ ops
 .
 with_tree_fields
 (
+&
 parent
 |
 parent_tf
@@ -393,6 +397,7 @@ ops
 .
 with_tree_fields
 (
+&
 lc
 |
 lc_tf
@@ -481,7 +486,6 @@ ops
 .
 with_tree_fields
 (
-*
 node
 |
 tf
@@ -537,11 +541,13 @@ R
 (
 d
 :
+&
 dummy
 f
 :
 fn
 (
+&
 Tree
 <
 dummy
@@ -557,6 +563,7 @@ R
 {
 f
 (
+&
 d
 .
 fields
@@ -579,11 +586,13 @@ R
 (
 d
 :
+&
 dummy
 f
 :
 fn
 (
+&
 Tree
 <
 dummy
@@ -599,6 +608,7 @@ R
 {
 f
 (
+&
 d
 .
 fields
