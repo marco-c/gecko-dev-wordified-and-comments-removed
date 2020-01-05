@@ -128,7 +128,7 @@ if
 mExternalImageId
 )
 {
-WRBridge
+WrBridge
 (
 )
 -
@@ -318,7 +318,7 @@ CompositableType
 :
 :
 IMAGE
-WRBridge
+WrBridge
 (
 )
 TextureFlags
@@ -352,7 +352,7 @@ mExternalImageId
 {
 mExternalImageId
 =
-WRBridge
+WrBridge
 (
 )
 -
@@ -552,7 +552,7 @@ mImageContainerForWR
 return
 ;
 }
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 scrollFrames
 (
 this
@@ -718,7 +718,7 @@ WrTextureFilter
 :
 Linear
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -750,7 +750,7 @@ NULL_SCROLL_ID
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -784,7 +784,7 @@ mExternalImageId
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -

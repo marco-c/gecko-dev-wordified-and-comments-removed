@@ -1720,7 +1720,7 @@ RefPtr
 <
 WebRenderBridgeParent
 >
-mWRBridge
+mWrBridge
 ;
 CrossProcessCompositorBridgeParent
 *
@@ -2357,7 +2357,7 @@ RefPtr
 <
 WebRenderBridgeParent
 >
-mWRBridge
+mWrBridge
 ;
 widget
 :

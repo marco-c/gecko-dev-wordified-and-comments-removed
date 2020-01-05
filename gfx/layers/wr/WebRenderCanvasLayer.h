@@ -98,7 +98,7 @@ Manager
 )
 -
 >
-WRBridge
+WrBridge
 (
 )
 ;

@@ -632,7 +632,7 @@ release_func
 }
 ;
 struct
-wrwindowstate
+WrWindowState
 ;
 #
 ifdef
@@ -767,7 +767,7 @@ WR_INLINE
 void
 wr_window_remove_pipeline
 (
-wrwindowstate
+WrWindowState
 *
 window
 WrState
@@ -897,7 +897,7 @@ WR_INLINE
 void
 wr_window_init_pipeline_epoch
 (
-wrwindowstate
+WrWindowState
 *
 window
 WrPipelineId
@@ -928,7 +928,7 @@ WR_INLINE
 WrFontKey
 wr_window_add_raw_font
 (
-wrwindowstate
+WrWindowState
 *
 window
 uint8_t
@@ -940,7 +940,7 @@ buffer_size
 WR_FUNC
 ;
 WR_INLINE
-wrwindowstate
+WrWindowState
 *
 wr_init_window
 (
@@ -987,7 +987,7 @@ WR_INLINE
 void
 wr_destroy
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 WrState
@@ -1000,7 +1000,7 @@ WR_INLINE
 WrImageKey
 wr_add_image
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 uint32_t
@@ -1023,7 +1023,7 @@ WR_INLINE
 WrImageKey
 wr_add_external_image_texture
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 uint32_t
@@ -1041,7 +1041,7 @@ WR_INLINE
 void
 wr_update_image
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 WrImageKey
@@ -1064,7 +1064,7 @@ WR_INLINE
 void
 wr_delete_image
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 WrImageKey
@@ -1122,7 +1122,7 @@ WR_INLINE
 void
 wr_window_dp_begin
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 WrState
@@ -1139,7 +1139,7 @@ WR_INLINE
 void
 wr_window_dp_end
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 WrState
@@ -1167,7 +1167,7 @@ WR_INLINE
 void
 wr_composite_window
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 )
@@ -1277,7 +1277,7 @@ WR_INLINE
 void
 wr_window_dp_push_iframe
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 WrState
@@ -1314,7 +1314,7 @@ uint8_t
 *
 wr_readback_into_buffer
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 uint32_t
@@ -1333,7 +1333,7 @@ WR_INLINE
 void
 wr_profiler_set_enabled
 (
-wrwindowstate
+WrWindowState
 *
 wrWindow
 bool

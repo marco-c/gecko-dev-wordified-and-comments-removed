@@ -395,7 +395,7 @@ Manager
 )
 -
 >
-WRBridge
+WrBridge
 (
 )
 )
@@ -521,7 +521,7 @@ mExternalImageId
 {
 mExternalImageId
 =
-WRBridge
+WrBridge
 (
 )
 -
@@ -574,7 +574,7 @@ IsEmpty
 return
 ;
 }
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 scrollFrames
 (
 this
@@ -716,7 +716,7 @@ height
 Matrix4x4
 transform
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -789,7 +789,7 @@ BufferRect
 y
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -872,7 +872,7 @@ c_str
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -

@@ -134,7 +134,7 @@ if
 mExternalImageId
 )
 {
-WRBridge
+WrBridge
 (
 )
 -

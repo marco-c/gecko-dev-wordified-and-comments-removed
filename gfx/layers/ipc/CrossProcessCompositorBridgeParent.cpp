@@ -1205,7 +1205,7 @@ sIndirectLayerTrees
 aPipelineId
 ]
 .
-mWRBridge
+mWrBridge
 =
 =
 nullptr
@@ -1236,7 +1236,7 @@ RootLayerTreeId
 )
 ]
 .
-mWRBridge
+mWrBridge
 .
 get
 (
@@ -1293,7 +1293,7 @@ sIndirectLayerTrees
 aPipelineId
 ]
 .
-mWRBridge
+mWrBridge
 =
 parent
 ;
@@ -1788,7 +1788,7 @@ sIndirectLayerTrees
 aId
 ]
 .
-mWRBridge
+mWrBridge
 )
 {
 Unused
