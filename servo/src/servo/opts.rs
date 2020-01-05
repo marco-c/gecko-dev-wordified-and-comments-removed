@@ -104,7 +104,7 @@ o
 ]
 ;
 let
-match
+opt_match
 =
 alt
 getopts
@@ -150,7 +150,7 @@ let
 urls
 =
 if
-match
+opt_match
 .
 free
 .
@@ -175,7 +175,7 @@ URLs
 else
 {
 copy
-match
+opt_match
 .
 free
 }
@@ -189,7 +189,7 @@ getopts
 :
 opt_maybe_str
 (
-match
+opt_match
 ~
 "
 o

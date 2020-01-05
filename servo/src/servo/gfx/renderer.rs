@@ -201,7 +201,7 @@ Compositor
 .
 "
 ]
-iface
+trait
 Sink
 {
 fn
