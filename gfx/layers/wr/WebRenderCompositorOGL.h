@@ -260,6 +260,7 @@ Rect
 &
 aVisibleRect
 )
+override
 {
 }
 virtual
@@ -304,6 +305,7 @@ Rect
 &
 aVisibleRect
 )
+override
 {
 }
 virtual
@@ -318,6 +320,7 @@ Rect
 &
 aRect
 )
+override
 {
 }
 virtual
