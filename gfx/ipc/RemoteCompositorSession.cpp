@@ -99,6 +99,11 @@ RegisterSession
 this
 )
 ;
+if
+(
+mAPZ
+)
+{
 mAPZ
 -
 >
@@ -107,6 +112,7 @@ SetCompositorSession
 this
 )
 ;
+}
 }
 RemoteCompositorSession
 :
@@ -246,6 +252,11 @@ mContentController
 =
 nullptr
 ;
+if
+(
+mAPZ
+)
+{
 mAPZ
 -
 >
@@ -254,6 +265,7 @@ SetCompositorSession
 nullptr
 )
 ;
+}
 mCompositorBridgeChild
 -
 >
