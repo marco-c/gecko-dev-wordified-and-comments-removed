@@ -513,6 +513,17 @@ KeyModifiers
 =
 ALT
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+window
+"
+)
+]
 const
 LINE_HEIGHT
 :
