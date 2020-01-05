@@ -2151,14 +2151,6 @@ aCallback
 =
 0
 ;
-already_AddRefed
-<
-nsIScreen
->
-GetWidgetScreen
-(
-)
-;
 virtual
 nsresult
 MakeFullScreen
