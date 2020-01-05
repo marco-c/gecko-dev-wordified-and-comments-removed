@@ -3043,10 +3043,6 @@ message
 {
 let
 m
-;
-if
-(
-m
 =
 /
 #
@@ -3064,6 +3060,10 @@ entry
 .
 message
 )
+;
+if
+(
+m
 )
 {
 let

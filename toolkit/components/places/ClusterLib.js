@@ -259,6 +259,8 @@ j
 }
 }
 }
+for
+(
 let
 next
 =
@@ -267,9 +269,7 @@ i
 =
 0
 ;
-for
 (
-;
 next
 =
 this
@@ -279,6 +279,7 @@ closestClusters
 clusters
 distances
 neighbors
+)
 )
 ;
 i

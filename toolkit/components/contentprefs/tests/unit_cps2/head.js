@@ -1883,12 +1883,14 @@ null
 ;
 while
 (
+(
 row
 =
 results
 .
 getNextRow
 (
+)
 )
 )
 {

@@ -976,6 +976,7 @@ AppConstants
 .
 platform
 =
+=
 "
 win
 "

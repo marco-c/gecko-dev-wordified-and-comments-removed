@@ -146,6 +146,17 @@ unix
 "
 no
 -
+cond
+-
+assign
+"
+:
+"
+error
+"
+"
+no
+-
 debugger
 "
 :
