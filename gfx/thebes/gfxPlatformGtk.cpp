@@ -2791,6 +2791,12 @@ GetPattern
 fcFont
 -
 >
+GetUnscaledFont
+(
+)
+fcFont
+-
+>
 GetAdjustedSize
 (
 )

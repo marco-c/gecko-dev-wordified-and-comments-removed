@@ -114,6 +114,15 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 typedef
 struct
 gr_face

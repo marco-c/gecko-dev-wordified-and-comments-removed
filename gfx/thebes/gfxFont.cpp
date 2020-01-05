@@ -4272,6 +4272,13 @@ gfxFont
 :
 gfxFont
 (
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 gfxFontEntry
 *
 aFontEntry
@@ -4327,6 +4334,10 @@ mFUnitsConvFactor
 mAntialiasOption
 (
 anAAOption
+)
+mUnscaledFont
+(
+aUnscaledFont
 )
 {
 #

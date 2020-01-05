@@ -41,6 +41,13 @@ ScaledFontCairo
 cairo_scaled_font_t
 *
 aScaledFont
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 )

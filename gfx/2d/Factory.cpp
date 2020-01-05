@@ -2200,6 +2200,13 @@ const
 NativeFont
 &
 aNativeFont
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 )
@@ -2237,6 +2244,7 @@ aNativeFont
 .
 mFont
 )
+aUnscaledFont
 aSize
 )
 ;
@@ -2276,6 +2284,7 @@ aNativeFont
 .
 mFont
 )
+aUnscaledFont
 aSize
 )
 ;
@@ -2309,6 +2318,7 @@ aNativeFont
 .
 mFont
 )
+aUnscaledFont
 aSize
 )
 ;
@@ -2350,6 +2360,7 @@ aNativeFont
 .
 mFont
 )
+aUnscaledFont
 aSize
 )
 ;
@@ -2675,6 +2686,13 @@ const
 NativeFont
 &
 aNativeFont
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 cairo_scaled_font_t
@@ -2694,6 +2712,7 @@ font
 CreateScaledFontForNativeFont
 (
 aNativeFont
+aUnscaledFont
 aSize
 )
 ;
@@ -2749,6 +2768,13 @@ aScaledFont
 FcPattern
 *
 aPattern
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 )
@@ -2761,6 +2787,7 @@ ScaledFontFontconfig
 (
 aScaledFont
 aPattern
+aUnscaledFont
 aSize
 )
 ;
@@ -3313,6 +3340,13 @@ const
 gfxFontStyle
 *
 aStyle
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 float
 aSize
 bool
@@ -3328,6 +3362,7 @@ ScaledFontDWrite
 >
 (
 aFontFace
+aUnscaledFont
 aSize
 aUseEmbeddedBitmap
 aForceGDIMode

@@ -456,6 +456,13 @@ ScaledFontDWrite
 IDWriteFontFace
 *
 aFontFace
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 bool
@@ -470,6 +477,7 @@ aStyle
 :
 ScaledFontBase
 (
+aUnscaledFont
 aSize
 )
 mFontFace
