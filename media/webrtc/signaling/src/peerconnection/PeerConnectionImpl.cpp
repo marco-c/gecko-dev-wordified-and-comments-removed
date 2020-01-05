@@ -18531,7 +18531,7 @@ candidateType
 RTCStatsType
 :
 :
-Localcandidate
+Local_candidate
 )
 {
 cand
@@ -18756,7 +18756,7 @@ Construct
 RTCStatsType
 :
 :
-Candidatepair
+Candidate_pair
 )
 ;
 s
@@ -18873,7 +18873,7 @@ candidates
 RTCStatsType
 :
 :
-Localcandidate
+Local_candidate
 componentId
 now
 report
@@ -18906,7 +18906,7 @@ candidates
 RTCStatsType
 :
 :
-Remotecandidate
+Remote_candidate
 componentId
 now
 report
@@ -19203,7 +19203,7 @@ Construct
 RTCStatsType
 :
 :
-Inboundrtp
+Inbound_rtp
 )
 ;
 if
@@ -19353,7 +19353,7 @@ Construct
 RTCStatsType
 :
 :
-Outboundrtp
+Outbound_rtp
 )
 ;
 if
@@ -19663,7 +19663,7 @@ Construct
 RTCStatsType
 :
 :
-Outboundrtp
+Outbound_rtp
 )
 ;
 if
@@ -19780,7 +19780,7 @@ Construct
 RTCStatsType
 :
 :
-Inboundrtp
+Inbound_rtp
 )
 ;
 if

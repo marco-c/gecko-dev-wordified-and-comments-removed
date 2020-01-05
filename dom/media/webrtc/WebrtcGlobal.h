@@ -373,7 +373,7 @@ dom
 RTCStatsType
 :
 :
-Inboundrtp
+Inbound_rtp
 mozilla
 :
 :
