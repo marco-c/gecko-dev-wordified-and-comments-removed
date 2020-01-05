@@ -1,5 +1,5 @@
 use
-dom
+servo_util
 :
 :
 namespace

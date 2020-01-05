@@ -79,7 +79,7 @@ js
 JSVAL_NULL
 ;
 use
-dom
+servo_util
 :
 :
 namespace

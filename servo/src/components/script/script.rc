@@ -628,10 +628,6 @@ mouseevent
 ;
 pub
 mod
-namespace
-;
-pub
-mod
 navigator
 ;
 pub
