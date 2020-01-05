@@ -12,6 +12,13 @@ SkOTTableTypes
 h
 "
 #
+include
+"
+SkSFNTHeader
+.
+h
+"
+#
 pragma
 pack
 (

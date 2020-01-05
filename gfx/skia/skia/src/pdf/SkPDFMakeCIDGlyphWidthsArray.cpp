@@ -151,12 +151,11 @@ scaled
 else
 {
 return
-SkScalarMulDiv
-(
 scaled
+*
 1000
+/
 emSize
-)
 ;
 }
 }

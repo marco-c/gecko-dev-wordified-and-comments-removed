@@ -39,6 +39,7 @@ kExpression_Kind
 kFor_Kind
 kIf_Kind
 kReturn_Kind
+kSwitch_Kind
 kVarDeclarations_Kind
 kWhile_Kind
 }

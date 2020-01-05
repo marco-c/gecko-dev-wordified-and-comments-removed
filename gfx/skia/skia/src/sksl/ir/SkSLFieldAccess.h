@@ -95,10 +95,7 @@ ownerKind
 {
 }
 virtual
-std
-:
-:
-string
+String
 description
 (
 )
@@ -132,7 +129,6 @@ fFieldIndex
 fName
 ;
 }
-const
 std
 :
 :

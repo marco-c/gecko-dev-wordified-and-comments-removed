@@ -25,6 +25,9 @@ SkRecord
 *
 )
 ;
+#
+ifndef
+SK_BUILD_FOR_ANDROID_FRAMEWORK
 void
 SkRecordNoopSaveLayerDrawRestores
 (
@@ -32,6 +35,8 @@ SkRecord
 *
 )
 ;
+#
+endif
 void
 SkRecordMergeSvgOpacityAndFilterLayers
 (

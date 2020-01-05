@@ -59,10 +59,7 @@ decl
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

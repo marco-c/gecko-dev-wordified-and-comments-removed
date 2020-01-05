@@ -1,4 +1,10 @@
 #
+ifndef
+SkTraceEventCommon_DEFINED
+#
+define
+SkTraceEventCommon_DEFINED
+#
 if
 defined
 (
@@ -3629,3 +3635,5 @@ TRACE_EVENT_SCOPE_NAME_THREAD
 t
 '
 )
+#
+endif

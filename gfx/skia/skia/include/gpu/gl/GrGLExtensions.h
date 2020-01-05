@@ -209,7 +209,10 @@ private
 bool
 fInitialized
 ;
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 SkTArray
 <

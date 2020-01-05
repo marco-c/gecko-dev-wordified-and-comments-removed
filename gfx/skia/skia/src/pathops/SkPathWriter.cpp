@@ -326,7 +326,7 @@ fPt
 )
 ;
 }
-void
+bool
 SkPathWriter
 :
 :
@@ -363,6 +363,7 @@ pt
 )
 {
 return
+true
 ;
 }
 if
@@ -380,11 +381,11 @@ fDefer
 )
 {
 return
+true
 ;
 }
-SkASSERT
+if
 (
-!
 this
 -
 >
@@ -393,7 +394,11 @@ matchedLast
 pt
 )
 )
+{
+return
+false
 ;
+}
 if
 (
 fDefer
@@ -435,6 +440,9 @@ fDefer
 ]
 =
 pt
+;
+return
+true
 ;
 }
 void
@@ -2218,7 +2226,7 @@ first
 fPathPtr
 -
 >
-reverseAddPath
+reversePathTo
 (
 contour
 )

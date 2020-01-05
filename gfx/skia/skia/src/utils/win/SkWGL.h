@@ -478,6 +478,10 @@ bool
 deepColor
 SkWGLContextRequest
 context
+HGLRC
+shareContext
+=
+nullptr
 )
 ;
 class
@@ -499,6 +503,8 @@ int
 msaaSampleCount
 SkWGLContextRequest
 contextType
+HGLRC
+shareContext
 )
 ;
 virtual

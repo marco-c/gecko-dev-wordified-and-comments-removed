@@ -69,10 +69,7 @@ test
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

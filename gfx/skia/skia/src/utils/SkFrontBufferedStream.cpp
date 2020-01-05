@@ -107,7 +107,10 @@ nullptr
 }
 private
 :
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 SkStream
 >

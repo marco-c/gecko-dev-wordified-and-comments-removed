@@ -1780,7 +1780,7 @@ resize
 (
 stream
 .
-getOffset
+bytesWritten
 (
 )
 )

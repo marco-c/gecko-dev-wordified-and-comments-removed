@@ -190,9 +190,14 @@ fTypesCount
 int
 fTypesIndex
 ;
-SkAutoTDeleteArray
+std
+:
+:
+unique_ptr
 <
 SkOTTableName
+[
+]
 >
 fNameTableData
 ;

@@ -8,6 +8,13 @@ h
 #
 include
 "
+SkMalloc
+.
+h
+"
+#
+include
+"
 SkRefCnt
 .
 h

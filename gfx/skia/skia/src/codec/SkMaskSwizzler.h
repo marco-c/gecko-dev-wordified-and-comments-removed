@@ -131,6 +131,16 @@ zeroInit
 )
 ;
 }
+int
+swizzleWidth
+(
+)
+const
+{
+return
+fDstWidth
+;
+}
 private
 :
 typedef

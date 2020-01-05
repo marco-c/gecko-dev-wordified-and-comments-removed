@@ -131,6 +131,9 @@ fSrcMgr
 skjpeg_error_mgr
 fErrorMgr
 ;
+jpeg_progress_mgr
+fProgressMgr
+;
 bool
 fInit
 ;

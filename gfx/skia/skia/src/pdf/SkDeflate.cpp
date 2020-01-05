@@ -22,6 +22,13 @@ h
 #
 include
 "
+SkMalloc
+.
+h
+"
+#
+include
+"
 zlib
 .
 h

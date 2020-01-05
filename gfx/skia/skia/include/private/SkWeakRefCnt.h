@@ -38,11 +38,11 @@ fWeakCnt
 )
 {
 }
-virtual
 ~
 SkWeakRefCnt
 (
 )
+override
 {
 #
 ifdef

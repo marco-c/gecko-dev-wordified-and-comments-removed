@@ -39,10 +39,7 @@ value
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

@@ -82,14 +82,6 @@ Allocator
 nullptr
 )
 ;
-static
-void
-PlatformConvolutionProcs
-(
-SkConvolutionProcs
-*
-)
-;
 }
 ;
 #

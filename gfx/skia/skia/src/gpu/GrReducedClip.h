@@ -29,7 +29,7 @@ class
 GrContext
 ;
 class
-GrDrawContext
+GrRenderTargetContext
 ;
 class
 SK_API
@@ -243,7 +243,7 @@ fInitialState
 bool
 drawAlphaClipMask
 (
-GrDrawContext
+GrRenderTargetContext
 *
 )
 const
@@ -253,12 +253,8 @@ drawStencilClipMask
 (
 GrContext
 *
-GrDrawContext
+GrRenderTargetContext
 *
-const
-SkIPoint
-&
-clipOrigin
 )
 const
 ;

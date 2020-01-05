@@ -55,10 +55,7 @@ value
 {
 }
 virtual
-std
-:
-:
-string
+String
 description
 (
 )

@@ -32,6 +32,9 @@ class
 GrTexture
 ;
 class
+GrTextureProxy
+;
+class
 GrYUVProvider
 {
 public
@@ -45,9 +48,9 @@ GrYUVProvider
 }
 sk_sp
 <
-GrTexture
+GrTextureProxy
 >
-refAsTexture
+refAsTextureProxy
 (
 GrContext
 *

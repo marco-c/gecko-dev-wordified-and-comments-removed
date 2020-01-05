@@ -112,6 +112,7 @@ GradientShaderBase4fContext
 template
 <
 DstType
+ApplyPremul
 TileMode
 >
 class
@@ -183,7 +184,7 @@ count
 const
 ;
 const
-Interval
+Sk4fGradientInterval
 *
 findInterval
 (
@@ -243,7 +244,7 @@ count
 ;
 mutable
 const
-Interval
+Sk4fGradientInterval
 *
 fCachedInterval
 ;

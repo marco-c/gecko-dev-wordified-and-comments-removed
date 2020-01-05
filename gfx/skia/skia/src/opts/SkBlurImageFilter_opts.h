@@ -14,7 +14,7 @@ h
 #
 include
 "
-SkTypes
+SkRect
 .
 h
 "
