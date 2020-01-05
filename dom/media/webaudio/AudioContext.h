@@ -458,13 +458,6 @@ GetOwner
 )
 ;
 }
-virtual
-void
-DisconnectFromOwner
-(
-)
-override
-;
 void
 Shutdown
 (
