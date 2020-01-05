@@ -5004,10 +5004,10 @@ UnionWith
 ocBounds
 )
 ;
-NS_MergeReflowStatusInto
-(
-&
 aStatus
+.
+MergeCompletionStatusFrom
+(
 ocStatus
 )
 ;

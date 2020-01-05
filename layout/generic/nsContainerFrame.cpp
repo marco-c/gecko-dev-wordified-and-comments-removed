@@ -6054,10 +6054,10 @@ frameStatus
 )
 ;
 }
-NS_MergeReflowStatusInto
-(
-&
 aStatus
+.
+MergeCompletionStatusFrom
+(
 frameStatus
 )
 ;

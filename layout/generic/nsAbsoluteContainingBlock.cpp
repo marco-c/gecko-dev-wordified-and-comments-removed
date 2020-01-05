@@ -713,10 +713,10 @@ nextFrame
 kidStatus
 )
 ;
-NS_MergeReflowStatusInto
-(
-&
 reflowStatus
+.
+MergeCompletionStatusFrom
+(
 kidStatus
 )
 ;
@@ -845,10 +845,10 @@ SetOverflowIncomplete
 (
 )
 ;
-NS_MergeReflowStatusInto
-(
-&
 aReflowStatus
+.
+MergeCompletionStatusFrom
+(
 reflowStatus
 )
 ;
