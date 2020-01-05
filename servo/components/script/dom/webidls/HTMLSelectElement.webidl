@@ -126,15 +126,11 @@ attribute
 HTMLOptionsCollection
 options
 ;
-/
-/
 attribute
 unsigned
 long
 length
 ;
-/
-/
 getter
 Element
 ?
