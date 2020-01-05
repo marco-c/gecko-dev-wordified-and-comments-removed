@@ -1852,12 +1852,13 @@ Keyframe
 const
 last
 =
-&
 aKeyframes
 .
-LastElement
+cend
 (
 )
+-
+1
 ;
 const
 RangedPtr
@@ -1868,7 +1869,7 @@ begin
 (
 aKeyframes
 .
-Elements
+begin
 (
 )
 aKeyframes

@@ -499,7 +499,8 @@ CSSStyleSheet
 aSheet
 )
 {
-auto
+Entry
+*
 last
 =
 std
