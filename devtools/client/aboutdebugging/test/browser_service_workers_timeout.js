@@ -436,6 +436,7 @@ yield
 unregisterServiceWorker
 (
 swTab
+serviceWorkersElement
 )
 ;
 ok
@@ -469,17 +470,6 @@ e
 )
 ;
 }
-yield
-waitForMutation
-(
-serviceWorkersElement
-{
-childList
-:
-true
-}
-)
-;
 assertHasTarget
 (
 false

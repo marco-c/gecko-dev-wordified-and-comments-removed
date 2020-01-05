@@ -224,6 +224,13 @@ resolved
 "
 )
 ;
+yield
+waitForServiceWorkerActivation
+(
+SERVICE_WORKER
+document
+)
+;
 let
 names
 =
@@ -492,6 +499,7 @@ yield
 unregisterServiceWorker
 (
 swTab
+serviceWorkersElement
 )
 ;
 ok
