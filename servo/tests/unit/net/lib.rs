@@ -168,3 +168,13 @@ test
 mod
 http_loader
 ;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+filemanager_thread
+;

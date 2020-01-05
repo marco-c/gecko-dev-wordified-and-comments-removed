@@ -328,6 +328,13 @@ delete_fileid
 (
 id
 )
+FileManagerThreadMsg
+:
+:
+Exit
+=
+>
+break
 }
 }
 }
