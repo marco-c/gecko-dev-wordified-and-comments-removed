@@ -6875,7 +6875,6 @@ node
 .
 set_dirty
 (
-true
 )
 ;
 }
@@ -6914,7 +6913,6 @@ node
 .
 set_dirty_descendants
 (
-true
 )
 ;
 }
@@ -7037,7 +7035,6 @@ node
 .
 set_dirty
 (
-true
 )
 ;
 }
