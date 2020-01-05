@@ -100,6 +100,12 @@ aResult
 const
 override
 ;
+static
+bool
+IsDialogEnabled
+(
+)
+;
 bool
 Open
 (
