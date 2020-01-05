@@ -264,6 +264,12 @@ GetCSSPropertyToAnimate
 )
 const
 ;
+bool
+MightNeedBaseStyle
+(
+)
+const
+;
 uint32_t
 GetFirstFuncToAffectSandwich
 (
