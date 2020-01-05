@@ -78,10 +78,6 @@ nsIInputStream
 h
 "
 #
-define
-gfxToolkitPlatform
-gfxAndroidPlatform
-#
 include
 "
 nsXULAppAPI
@@ -439,7 +435,7 @@ filename
 FT_Library
 ft
 =
-gfxToolkitPlatform
+gfxPlatform
 :
 :
 GetPlatform
@@ -449,6 +445,11 @@ GetPlatform
 >
 GetFTLibrary
 (
+)
+;
+MOZ_ASSERT
+(
+ft
 )
 ;
 if
@@ -1095,7 +1096,7 @@ error
 =
 FT_New_Memory_Face
 (
-gfxToolkitPlatform
+gfxPlatform
 :
 :
 GetPlatform
@@ -4484,7 +4485,7 @@ return
 FT_Library
 ftLibrary
 =
-gfxAndroidPlatform
+gfxPlatform
 :
 :
 GetPlatform
@@ -5404,7 +5405,7 @@ return
 FT_Library
 ftLibrary
 =
-gfxAndroidPlatform
+gfxPlatform
 :
 :
 GetPlatform
