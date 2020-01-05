@@ -1598,15 +1598,6 @@ CharIndex
 0
 )
 ;
-assert
-!
-(
-glyph_count
-<
-=
-char_max
-)
-;
 debug
 !
 (
