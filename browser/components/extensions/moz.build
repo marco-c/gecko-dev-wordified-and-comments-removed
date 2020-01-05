@@ -125,17 +125,6 @@ test
 browser
 /
 browser
--
-remote
-.
-ini
-'
-'
-test
-/
-browser
-/
-browser
 .
 ini
 '
