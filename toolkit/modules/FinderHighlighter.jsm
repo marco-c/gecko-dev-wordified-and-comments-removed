@@ -2829,6 +2829,14 @@ scrollY
 if
 (
 includeScroll
+&
+&
+window
+=
+=
+window
+.
+top
 )
 {
 dwu
