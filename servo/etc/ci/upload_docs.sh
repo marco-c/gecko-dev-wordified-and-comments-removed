@@ -102,9 +102,13 @@ components
 /
 style
 /
-list_properties
+properties
+/
+build
 .
 py
+servo
+html
 ghp
 -
 import
