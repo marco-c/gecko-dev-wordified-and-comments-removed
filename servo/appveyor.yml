@@ -12,13 +12,6 @@ environment
 RUST_BACKTRACE
 :
 1
-HOME
-:
-'
-%
-APPVEYOR_BUILD_FOLDER
-%
-'
 #
 The
 appveyor
@@ -1051,6 +1044,9 @@ bash
 -
 lc
 "
+cd
+APPVEYOR_BUILD_FOLDER
+;
 .
 /
 mach
