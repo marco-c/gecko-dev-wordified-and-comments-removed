@@ -193,12 +193,12 @@ pointerId
 long
 width
 =
-0
+1
 ;
 long
 height
 =
-0
+1
 ;
 float
 pressure

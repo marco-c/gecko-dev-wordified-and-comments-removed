@@ -1948,11 +1948,11 @@ WidgetPointerEvent
 :
 mWidth
 (
-0
+1
 )
 mHeight
 (
-0
+1
 )
 mIsPrimary
 (
@@ -1995,11 +1995,11 @@ eReal
 )
 mWidth
 (
-0
+1
 )
 mHeight
 (
-0
+1
 )
 mIsPrimary
 (
