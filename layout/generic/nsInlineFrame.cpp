@@ -3074,9 +3074,10 @@ aStatus
 reflowingFirstLetter
 &
 &
-NS_FRAME_IS_NOT_COMPLETE
-(
 aStatus
+.
+IsIncomplete
+(
 )
 )
 ;
@@ -3255,9 +3256,10 @@ aStatus
 reflowingFirstLetter
 &
 &
-NS_FRAME_IS_NOT_COMPLETE
-(
 aStatus
+.
+IsIncomplete
+(
 )
 )
 )

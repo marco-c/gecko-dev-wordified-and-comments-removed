@@ -4124,9 +4124,10 @@ wm
 ;
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 reflowStatus
+.
+IsIncomplete
+(
 )
 )
 floatMargin
@@ -4456,9 +4457,10 @@ ContainerSize
 ;
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 reflowStatus
+.
+IsIncomplete
+(
 )
 &
 &

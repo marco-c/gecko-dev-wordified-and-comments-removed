@@ -6036,9 +6036,10 @@ false
 ;
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 aStatus
+.
+IsIncomplete
+(
 )
 )
 {
@@ -6713,9 +6714,10 @@ NS_FRAME_NOT_COMPLETE
 }
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 aStatus
+.
+IsIncomplete
+(
 )
 &
 &
