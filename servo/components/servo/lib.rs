@@ -551,6 +551,13 @@ create
 opts
 .
 time_profiler_period
+opts
+.
+time_profiler_trace_path
+.
+clone
+(
+)
 )
 ;
 let
