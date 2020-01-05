@@ -187,6 +187,10 @@ opengles
 ;
 extern
 mod
+png
+;
+extern
+mod
 script
 ;
 extern

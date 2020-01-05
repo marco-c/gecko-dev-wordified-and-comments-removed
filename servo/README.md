@@ -81,11 +81,10 @@ brew
 install
 automake
 libtool
-brew
-install
 pkg
 -
 config
+libpng
 On
 OS
 X
@@ -137,6 +136,9 @@ libglib2
 dev
 \
 xorg
+-
+dev
+libpng
 -
 dev
 Servo
@@ -328,6 +330,10 @@ forwards
 in
 the
 history
+-
+Esc
+exits
+servo
 #
 #
 Developing
