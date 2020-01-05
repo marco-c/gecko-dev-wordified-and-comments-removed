@@ -8981,7 +8981,7 @@ DoHasPendingInputEvent
 pragma
 mark
 -
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :

@@ -834,7 +834,9 @@ GetScreenBounds
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 StartPluginIME
 (
 const
