@@ -232,6 +232,11 @@ mComposedInNativeAnonymousContent
 :
 1
 ;
+bool
+mIsSuppressedOrDelayed
+:
+1
+;
 inline
 bool
 InTargetPhase
