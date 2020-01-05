@@ -544,6 +544,14 @@ uint32_t
 timeStamp
 )
 ;
+#
+ifndef
+USE_WRAPPED_I420_BUFFER
+VideoFrame
+decoded_image_
+;
+#
+endif
 Vp9FrameBufferPool
 frame_buffer_pool_
 ;
