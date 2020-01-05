@@ -2267,7 +2267,7 @@ nsIWidget
 aChild
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aChild
@@ -2313,12 +2313,12 @@ aChild
 }
 else
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mLastChild
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mLastChild
