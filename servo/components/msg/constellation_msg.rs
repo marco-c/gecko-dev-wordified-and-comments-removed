@@ -481,6 +481,7 @@ Deserialize
 Serialize
 )
 ]
+pub
 flags
 KeyModifiers
 :

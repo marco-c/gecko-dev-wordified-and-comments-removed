@@ -80,6 +80,7 @@ Namespace
 bitflags
 !
 {
+pub
 flags
 RestyleHint
 :

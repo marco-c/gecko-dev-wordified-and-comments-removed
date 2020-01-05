@@ -2510,7 +2510,6 @@ Box
 FloatedBlockInfo
 >
 >
-pub
 flags
 :
 BlockFlowFlags

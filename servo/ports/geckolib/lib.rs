@@ -72,14 +72,6 @@ macro_use
 ]
 extern
 crate
-bitflags
-;
-#
-[
-macro_use
-]
-extern
-crate
 cssparser
 ;
 extern

@@ -639,6 +639,7 @@ FontKey
 bitflags
 !
 {
+pub
 flags
 ShapingFlags
 :

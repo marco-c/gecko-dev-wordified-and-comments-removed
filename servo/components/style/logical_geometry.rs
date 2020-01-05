@@ -82,6 +82,7 @@ HeapSizeOf
 RustcEncodable
 )
 ]
+pub
 flags
 WritingMode
 :

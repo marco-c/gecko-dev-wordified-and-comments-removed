@@ -16,6 +16,7 @@ initialize
 bitflags
 !
 {
+pub
 flags
 ThreadState
 :

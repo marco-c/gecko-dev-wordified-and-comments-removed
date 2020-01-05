@@ -3141,6 +3141,7 @@ ScannedTextFlags
 bitflags
 !
 {
+pub
 flags
 ScannedTextFlags
 :
@@ -17230,6 +17231,7 @@ point
 bitflags
 !
 {
+pub
 flags
 FragmentFlags
 :
