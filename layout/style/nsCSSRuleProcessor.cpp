@@ -9460,12 +9460,6 @@ case
 CSSPseudoClassType
 :
 :
-mozDir
-:
-case
-CSSPseudoClassType
-:
-:
 dir
 :
 {

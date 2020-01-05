@@ -25909,15 +25909,6 @@ aType
 CSSPseudoClassType
 :
 :
-mozDir
-|
-|
-aType
-=
-=
-CSSPseudoClassType
-:
-:
 dir
 )
 {
