@@ -22,8 +22,12 @@ dir
 correctly
 otherwise
 extra
-snapshots
 #
+copies
+of
+the
+Rust
+compiler
 may
 get
 downloaded
@@ -51,7 +55,6 @@ tools
 Where
 Rust
 compiler
-snapshots
 and
 other
 downloads

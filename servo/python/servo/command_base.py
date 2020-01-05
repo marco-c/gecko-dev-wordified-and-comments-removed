@@ -736,7 +736,7 @@ rust
 "
 self
 .
-rust_snapshot_path
+rust_path
 (
 )
 )
@@ -1040,7 +1040,7 @@ flame
 "
 )
     
-_rust_snapshot_path
+_rust_path
 =
 None
     
@@ -1049,7 +1049,7 @@ _cargo_build_id
 None
     
 def
-rust_snapshot_path
+rust_path
 (
 self
 )
@@ -1058,7 +1058,7 @@ self
 if
 self
 .
-_rust_snapshot_path
+_rust_path
 is
 None
 :
@@ -1077,9 +1077,9 @@ topdir
 "
 rust
 -
-snapshot
+nightly
 -
-hash
+date
 "
 )
             
@@ -1092,7 +1092,7 @@ as
 f
 :
                 
-snapshot_hash
+date
 =
 f
 .
@@ -1106,7 +1106,7 @@ strip
             
 self
 .
-_rust_snapshot_path
+_rust_path
 =
 (
 "
@@ -1121,9 +1121,8 @@ nightly
 s
 "
 %
-                                        
 (
-snapshot_hash
+date
 host_triple
 (
 )
@@ -1133,7 +1132,7 @@ host_triple
 return
 self
 .
-_rust_snapshot_path
+_rust_path
     
 def
 cargo_build_id
