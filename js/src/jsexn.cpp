@@ -121,6 +121,15 @@ h
 #
 include
 "
+js
+/
+CharacterEncoding
+.
+h
+"
+#
+include
+"
 vm
 /
 ErrorObject
@@ -2507,7 +2516,12 @@ PrintError
 (
 cx
 stderr
-nullptr
+JS
+:
+:
+ConstUTF8CharsZ
+(
+)
 reportp
 true
 )
@@ -4027,7 +4041,7 @@ str
 )
 utf8Message
 =
-bytesStorage
+toStringResultBytesStorage
 .
 encodeUtf8
 (
@@ -4077,7 +4091,7 @@ false
 }
 else
 {
-message_
+toStringResult_
 =
 JS
 :
@@ -4268,7 +4282,7 @@ return
 false
 ;
 }
-message_
+toStringResult_
 =
 ownedReport
 .

@@ -213,7 +213,7 @@ strcmp
 (
 report
 .
-message
+toStringResult
 (
 )
 .
@@ -245,7 +245,7 @@ strcmp
 (
 report
 .
-message
+toStringResult
 (
 )
 .
@@ -275,7 +275,7 @@ strcmp
 (
 report
 .
-message
+toStringResult
 (
 )
 .

@@ -2234,7 +2234,12 @@ worker
 ReportError
 (
 aCx
-nullptr
+JS
+:
+:
+ConstUTF8CharsZ
+(
+)
 aRep
 )
 ;
@@ -2552,7 +2557,7 @@ report
 )
 jsReport
 .
-message
+toStringResult
 (
 )
 .
@@ -2713,11 +2718,7 @@ cx
 )
 jsReport
 .
-message
-(
-)
-.
-c_str
+toStringResult
 (
 )
 jsReport
