@@ -758,7 +758,7 @@ in
 counter
 functions
 [
-12
+2
 ]
 *
 test_html_attribute_computed_values
