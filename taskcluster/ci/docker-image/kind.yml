@@ -185,14 +185,6 @@ I
 (
 db
 )
-tester
-:
-symbol
-:
-I
-(
-tst
-)
 lint
 :
 symbol
