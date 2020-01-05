@@ -141,6 +141,11 @@ ExtensionManagement
 jsm
 '
 '
+ExtensionPageChild
+.
+jsm
+'
+'
 ExtensionParent
 .
 jsm
