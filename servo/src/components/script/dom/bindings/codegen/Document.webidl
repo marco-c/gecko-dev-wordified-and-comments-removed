@@ -569,14 +569,10 @@ node
 ;
 *
 /
-/
-/
 [
 Creator
 Throws
 ]
-/
-/
 Event
 createEvent
 (

@@ -160,12 +160,8 @@ UserDataHandler
 /
 interface
 Node
-/
-*
 :
 EventTarget
-*
-/
 {
 const
 unsigned

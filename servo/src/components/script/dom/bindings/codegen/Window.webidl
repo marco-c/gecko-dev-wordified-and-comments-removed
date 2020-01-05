@@ -141,12 +141,8 @@ sealed
 /
 interface
 Window
-/
-*
 :
 EventTarget
-*
-/
 {
 /
 /
