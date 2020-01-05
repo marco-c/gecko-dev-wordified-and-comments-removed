@@ -711,6 +711,8 @@ mSegments
 ]
 .
 mFromValue
+.
+mGecko
 =
 Move
 (
@@ -4495,9 +4497,13 @@ mTimingFunction
 segment
 .
 mFromValue
+.
+mGecko
 segment
 .
 mToValue
+.
+mGecko
 }
 )
 )

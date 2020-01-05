@@ -2313,6 +2313,8 @@ segment
 .
 mFromValue
 .
+mGecko
+.
 GetScaleValue
 (
 aFrame
@@ -2344,6 +2346,8 @@ to
 segment
 .
 mToValue
+.
+mGecko
 .
 GetScaleValue
 (

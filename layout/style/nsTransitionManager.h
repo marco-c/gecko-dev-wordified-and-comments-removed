@@ -331,6 +331,8 @@ mSegments
 ]
 .
 mToValue
+.
+mGecko
 ;
 }
 StyleAnimationValue

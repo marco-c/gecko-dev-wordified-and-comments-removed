@@ -250,16 +250,9 @@ float
 mFromKey
 mToKey
 ;
-StyleAnimationValue
+AnimationValue
 mFromValue
 mToValue
-;
-RefPtr
-<
-RawServoAnimationValue
->
-mServoFromValue
-mServoToValue
 ;
 Maybe
 <
