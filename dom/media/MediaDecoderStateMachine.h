@@ -1288,11 +1288,6 @@ StepDecoding
 )
 ;
 void
-StepBuffering
-(
-)
-;
-void
 StepCompleted
 (
 )
