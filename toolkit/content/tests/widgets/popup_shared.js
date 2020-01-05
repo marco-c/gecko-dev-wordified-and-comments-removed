@@ -2141,7 +2141,7 @@ cornerY
 ;
 let
 [
-anchor
+position
 align
 ]
 =
@@ -2155,7 +2155,7 @@ split
 ;
 switch
 (
-anchor
+position
 )
 {
 case

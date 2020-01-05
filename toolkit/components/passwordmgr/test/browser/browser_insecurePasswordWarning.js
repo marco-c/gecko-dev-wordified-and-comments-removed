@@ -134,7 +134,7 @@ warningPatternHandler
 function
 messageHandler
 (
-msg
+msgObj
 )
 {
 function
@@ -176,7 +176,7 @@ warning
 =
 findWarningPattern
 (
-msg
+msgObj
 .
 message
 )
@@ -202,7 +202,7 @@ handler
 warningPatternHandler
 (
 warning
-msg
+msgObj
 .
 message
 )

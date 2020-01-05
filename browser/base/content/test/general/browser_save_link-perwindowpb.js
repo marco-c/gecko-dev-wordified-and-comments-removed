@@ -398,7 +398,7 @@ hidden
 function
 onTransferComplete
 (
-aWindow
+aWindow2
 downloadSuccess
 destDir
 )
@@ -416,7 +416,7 @@ successfully
 "
 )
 ;
-aWindow
+aWindow2
 .
 close
 (
@@ -531,7 +531,7 @@ obs
 addObserver
 (
 function
-observer
+obs
 (
 aSubject
 aTopic
@@ -578,7 +578,7 @@ obs
 .
 removeObserver
 (
-observer
+obs
 aTopic
 )
 ;
@@ -1165,12 +1165,12 @@ true
 }
 function
 (
-win
+win2
 )
 {
 triggerSave
 (
-win
+win2
 function
 (
 )
