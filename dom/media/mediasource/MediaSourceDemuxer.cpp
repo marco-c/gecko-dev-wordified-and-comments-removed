@@ -1107,7 +1107,7 @@ MediaSourceDemuxer
 :
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )
@@ -1486,10 +1486,7 @@ get
 aString
 +
 =
-NS_ConvertUTF8toUTF16
-(
 result
-)
 ;
 }
 MediaSourceTrackDemuxer

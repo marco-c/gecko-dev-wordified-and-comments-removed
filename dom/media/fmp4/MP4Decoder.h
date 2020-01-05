@@ -166,7 +166,7 @@ aParent
 void
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

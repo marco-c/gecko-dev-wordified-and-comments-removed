@@ -1326,7 +1326,7 @@ MP4Decoder
 :
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

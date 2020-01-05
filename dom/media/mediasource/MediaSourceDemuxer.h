@@ -210,7 +210,7 @@ mTaskQueue
 void
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

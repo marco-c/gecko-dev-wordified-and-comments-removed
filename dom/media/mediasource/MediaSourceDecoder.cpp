@@ -1235,7 +1235,7 @@ MediaSourceDecoder
 :
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

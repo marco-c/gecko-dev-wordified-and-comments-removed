@@ -14345,7 +14345,7 @@ MediaFormatReader
 :
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )
@@ -14889,10 +14889,7 @@ mLastStreamSourceID
 aString
 +
 =
-NS_ConvertUTF8toUTF16
-(
 result
-)
 ;
 }
 void

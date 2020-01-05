@@ -301,7 +301,7 @@ override
 void
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )
