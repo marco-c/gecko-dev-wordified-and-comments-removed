@@ -1073,6 +1073,16 @@ aDocument
 )
 ;
 void
+TransitionServiceWorkerRegistrationWorker
+(
+ServiceWorkerRegistrationInfo
+*
+aRegistration
+WhichServiceWorker
+aWhichOne
+)
+;
+void
 InvalidateServiceWorkerRegistrationWorker
 (
 ServiceWorkerRegistrationInfo

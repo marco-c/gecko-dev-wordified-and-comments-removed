@@ -141,6 +141,16 @@ aWhichOnes
 ;
 virtual
 void
+TransitionWorker
+(
+WhichServiceWorker
+aWhichOne
+)
+=
+0
+;
+virtual
+void
 RegistrationRemoved
 (
 )
