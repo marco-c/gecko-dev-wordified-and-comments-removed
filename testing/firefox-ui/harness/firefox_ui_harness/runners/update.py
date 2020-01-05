@@ -1,4 +1,6 @@
 import
+os
+import
 sys
 import
 mozfile
@@ -136,6 +138,19 @@ test_handlers
 [
 UpdateTestCase
 ]
+        
+os
+.
+environ
+[
+'
+MOZ_MARIONETTE
+'
+]
+=
+'
+1
+'
     
 def
 run_tests
