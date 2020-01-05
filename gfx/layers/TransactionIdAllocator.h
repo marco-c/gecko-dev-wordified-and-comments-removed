@@ -82,6 +82,14 @@ aTransactionId
 0
 ;
 virtual
+void
+ClearPendingTransactions
+(
+)
+=
+0
+;
+virtual
 mozilla
 :
 :
