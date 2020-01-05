@@ -27,6 +27,13 @@ MediaResource
 .
 h
 "
+#
+include
+"
+MediaResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -57,7 +64,7 @@ ContainerParser
 )
 ;
 virtual
-bool
+MediaResult
 IsInitSegmentPresent
 (
 MediaByteBuffer
@@ -66,7 +73,7 @@ aData
 )
 ;
 virtual
-bool
+MediaResult
 IsMediaSegmentPresent
 (
 MediaByteBuffer
