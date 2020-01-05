@@ -373,7 +373,6 @@ result
 return
 NS_OK
 ;
-else
 return
 MapGIOResult
 (
@@ -849,12 +848,9 @@ mMountErrorCode
 )
 ;
 }
-else
-{
 return
 NS_OK
 ;
-}
 }
 nsresult
 nsGIOInputStream
@@ -1679,7 +1675,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 mDirOpen
