@@ -53,6 +53,13 @@ properties
 ;
 dump
 (
+"
+DEVTOOLS_CSS_DB_DELIMITER
+"
+)
+;
+dump
+(
 JSON
 .
 stringify
@@ -75,8 +82,7 @@ pseudoElements
 dump
 (
 "
-\
-n
+DEVTOOLS_CSS_DB_DELIMITER
 "
 )
 ;
