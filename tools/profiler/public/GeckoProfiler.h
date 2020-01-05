@@ -817,6 +817,9 @@ h
 "
 #
 endif
+namespace
+mozilla
+{
 class
 MOZ_RAII
 GeckoProfilerInitRAII
@@ -935,9 +938,6 @@ mIssuedWake
 ;
 }
 ;
-namespace
-mozilla
-{
 class
 MOZ_RAII
 GeckoProfilerTracingRAII
