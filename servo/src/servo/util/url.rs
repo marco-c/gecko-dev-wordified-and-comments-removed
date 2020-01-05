@@ -338,10 +338,6 @@ current_url
 .
 host
 +
-"
-/
-"
-+
 path
 }
 }
