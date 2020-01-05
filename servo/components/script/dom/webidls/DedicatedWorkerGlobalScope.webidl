@@ -119,5 +119,10 @@ attribute
 EventHandler
 onmessage
 ;
+void
+close
+(
+)
+;
 }
 ;
