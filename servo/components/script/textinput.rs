@@ -3305,6 +3305,12 @@ current_line_length
 )
 )
 ;
+self
+.
+selection_begin
+=
+None
+;
 }
 pub
 fn
