@@ -3838,6 +3838,14 @@ getLastFileName
 )
 ;
 }
+if
+(
+updatePath
+!
+=
+null
+)
+{
 applyUpdate
 (
 new
@@ -3847,6 +3855,7 @@ updatePath
 )
 )
 ;
+}
 }
 private
 void
