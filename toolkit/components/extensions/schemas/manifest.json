@@ -949,6 +949,9 @@ alarms
 clipboardWrite
 "
 "
+geolocation
+"
+"
 idle
 "
 "
