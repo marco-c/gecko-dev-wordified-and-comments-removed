@@ -83,9 +83,7 @@ bindings
 js
 :
 :
-{
 Root
-}
 ;
 use
 dom

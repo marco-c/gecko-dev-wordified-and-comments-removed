@@ -69,9 +69,7 @@ use
 gfx_traits
 :
 :
-{
 LayerId
-}
 ;
 use
 layout_thread

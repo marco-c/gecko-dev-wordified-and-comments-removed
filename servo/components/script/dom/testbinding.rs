@@ -372,9 +372,7 @@ util
 prefs
 :
 :
-{
 get_pref
-}
 ;
 #
 [

@@ -185,9 +185,7 @@ use
 wrapper
 :
 :
-{
 ThreadSafeLayoutNode
-}
 ;
 #
 [

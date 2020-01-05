@@ -238,9 +238,7 @@ transition_timing_function
 computed_value
 :
 :
-{
 StartEnd
-}
 ;
 use
 properties
@@ -255,9 +253,7 @@ transition_timing_function
 computed_value
 :
 :
-{
 TransitionTimingFunction
-}
 ;
 use
 properties

@@ -86,10 +86,7 @@ style
 parallel
 :
 :
-{
-CHUNK_SIZE
-WorkQueueData
-}
+run_queue_with_custom_work_data_type
 ;
 use
 style
@@ -99,7 +96,8 @@ parallel
 :
 :
 {
-run_queue_with_custom_work_data_type
+CHUNK_SIZE
+WorkQueueData
 }
 ;
 use

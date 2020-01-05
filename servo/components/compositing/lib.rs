@@ -186,9 +186,7 @@ ipc_channel
 ipc
 :
 :
-{
 IpcSender
-}
 ;
 use
 layout_traits

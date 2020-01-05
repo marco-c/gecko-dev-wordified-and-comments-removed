@@ -137,6 +137,12 @@ use
 js
 :
 :
+JS_CALLEE
+;
+use
+js
+:
+:
 glue
 :
 :
@@ -350,14 +356,6 @@ rust
 {
 GCMethods
 ToString
-}
-;
-use
-js
-:
-:
-{
-JS_CALLEE
 }
 ;
 use

@@ -166,9 +166,7 @@ style
 context
 :
 :
-{
 ReflowGoal
-}
 ;
 use
 style

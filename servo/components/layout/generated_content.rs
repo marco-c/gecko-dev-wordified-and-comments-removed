@@ -8,9 +8,7 @@ use
 flow
 :
 :
-{
 InorderFlowTraversal
-}
 ;
 use
 flow

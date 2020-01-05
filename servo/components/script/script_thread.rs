@@ -441,9 +441,7 @@ use
 layout_interface
 :
 :
-{
 ReflowQueryType
-}
 ;
 use
 layout_interface

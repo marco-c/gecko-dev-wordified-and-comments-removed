@@ -396,9 +396,7 @@ webdriver
 httpapi
 :
 :
-{
 WebDriverExtensionRoute
-}
 ;
 use
 webdriver

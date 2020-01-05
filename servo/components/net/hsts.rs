@@ -11,9 +11,7 @@ rustc_serialize
 json
 :
 :
-{
 decode
-}
 ;
 use
 std
@@ -34,9 +32,7 @@ std
 str
 :
 :
-{
 from_utf8
-}
 ;
 use
 time

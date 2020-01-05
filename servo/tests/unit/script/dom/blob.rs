@@ -8,9 +8,7 @@ dom
 blob
 :
 :
-{
 DataSlice
-}
 ;
 use
 std

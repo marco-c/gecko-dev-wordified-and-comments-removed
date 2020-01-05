@@ -258,9 +258,7 @@ util
 geometry
 :
 :
-{
 ExpandToPixelBoundaries
-}
 ;
 use
 util

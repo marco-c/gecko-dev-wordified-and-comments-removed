@@ -112,9 +112,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-}
 ;
 use
 std

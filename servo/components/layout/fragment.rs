@@ -374,10 +374,7 @@ values
 computed
 :
 :
-{
-LengthOrPercentage
-LengthOrPercentageOrAuto
-}
+LengthOrPercentageOrNone
 ;
 use
 style
@@ -390,7 +387,8 @@ computed
 :
 :
 {
-LengthOrPercentageOrNone
+LengthOrPercentage
+LengthOrPercentageOrAuto
 }
 ;
 use

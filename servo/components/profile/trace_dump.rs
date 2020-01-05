@@ -12,11 +12,6 @@ TimerMetadata
 ;
 use
 serde_json
-:
-:
-{
-self
-}
 ;
 use
 std

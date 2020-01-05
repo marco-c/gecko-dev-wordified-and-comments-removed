@@ -29,9 +29,7 @@ use
 devtools_traits
 :
 :
-{
 DevtoolsControlMsg
-}
 ;
 use
 file_loader

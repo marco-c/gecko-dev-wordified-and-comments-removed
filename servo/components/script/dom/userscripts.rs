@@ -56,9 +56,7 @@ bindings
 js
 :
 :
-{
 RootedReference
-}
 ;
 use
 dom

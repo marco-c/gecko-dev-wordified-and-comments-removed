@@ -873,9 +873,7 @@ properties
 longhands
 :
 :
-{
 overflow_x
-}
 ;
 use
 style

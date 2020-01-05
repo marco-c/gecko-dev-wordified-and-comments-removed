@@ -57,9 +57,7 @@ Bindings
 DOMRectReadOnlyBinding
 :
 :
-{
 DOMRectInit
-}
 ;
 use
 dom

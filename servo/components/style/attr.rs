@@ -96,9 +96,7 @@ values
 specified
 :
 :
-{
 Length
-}
 ;
 const
 UNSIGNED_LONG_MAX
