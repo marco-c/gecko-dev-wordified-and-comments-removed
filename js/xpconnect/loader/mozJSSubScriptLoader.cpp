@@ -833,8 +833,6 @@ script
 )
 ;
 }
-else
-{
 AutoObjectVector
 envChain
 (
@@ -880,9 +878,6 @@ function
 )
 ;
 }
-}
-else
-{
 if
 (
 !
@@ -932,8 +927,6 @@ script
 )
 ;
 }
-else
-{
 AutoObjectVector
 envChain
 (
@@ -979,8 +972,6 @@ len
 function
 )
 ;
-}
-}
 }
 bool
 EvalScript

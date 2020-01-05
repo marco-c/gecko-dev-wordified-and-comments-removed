@@ -2605,7 +2605,6 @@ desc
 )
 ;
 }
-else
 if
 (
 IsTypedArrayKey
@@ -2729,8 +2728,6 @@ return
 true
 ;
 }
-else
-{
 JS_ReportErrorASCII
 (
 cx
@@ -2777,7 +2774,6 @@ cloneInto
 return
 false
 ;
-}
 }
 }
 else
@@ -2827,7 +2823,6 @@ return
 true
 ;
 }
-else
 if
 (
 id
@@ -4501,7 +4496,6 @@ return
 true
 ;
 }
-else
 if
 (
 IsTypedArrayKey
