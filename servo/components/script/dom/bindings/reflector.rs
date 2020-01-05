@@ -79,6 +79,7 @@ global
 U
 wrap_fn
 :
+unsafe
 fn
 (
 *
@@ -124,6 +125,8 @@ upcast
 (
 )
 ;
+unsafe
+{
 wrap_fn
 (
 global_scope
@@ -134,6 +137,7 @@ get_cx
 global_scope
 obj
 )
+}
 }
 #
 [

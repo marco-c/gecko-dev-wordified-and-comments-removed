@@ -530,6 +530,14 @@ clone
 )
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 PostMessage
 (

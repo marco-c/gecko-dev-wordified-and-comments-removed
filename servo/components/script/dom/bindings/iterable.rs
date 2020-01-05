@@ -466,6 +466,7 @@ type_
 IteratorType
 wrap
 :
+unsafe
 fn
 (
 *

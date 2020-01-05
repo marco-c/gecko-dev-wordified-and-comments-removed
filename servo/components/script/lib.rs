@@ -831,7 +831,6 @@ init
 (
 )
 ;
-}
 RegisterBindings
 :
 :
@@ -839,6 +838,7 @@ RegisterProxyHandlers
 (
 )
 ;
+}
 perform_platform_specific_initialization
 (
 )

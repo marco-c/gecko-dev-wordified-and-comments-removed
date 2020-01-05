@@ -5947,6 +5947,7 @@ the
 response
 -
 attribute
+unsafe
 fn
 Response
 (
@@ -5961,8 +5962,6 @@ JSContext
 -
 >
 JSVal
-{
-unsafe
 {
 rooted
 !
@@ -6240,7 +6239,6 @@ rval
 get
 (
 )
-}
 }
 /
 /

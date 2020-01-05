@@ -571,6 +571,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Data
 (
@@ -608,8 +609,6 @@ is_null
 )
 )
 ;
-unsafe
-{
 NonZero
 :
 :
@@ -623,6 +622,5 @@ get
 (
 )
 )
-}
 }
 }

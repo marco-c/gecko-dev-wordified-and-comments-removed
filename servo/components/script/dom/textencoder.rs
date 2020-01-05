@@ -292,6 +292,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Encode
 (
@@ -314,8 +315,6 @@ NonZero
 mut
 JSObject
 >
-{
-unsafe
 {
 let
 encoded
@@ -442,6 +441,5 @@ get
 (
 )
 )
-}
 }
 }

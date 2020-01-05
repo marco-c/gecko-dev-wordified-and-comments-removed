@@ -409,6 +409,14 @@ PopStateEventMethods
 for
 PopStateEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 State
 (

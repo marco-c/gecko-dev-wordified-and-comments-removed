@@ -573,6 +573,14 @@ MessageEventMethods
 for
 MessageEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 Data
 (

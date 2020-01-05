@@ -2524,6 +2524,7 @@ FileAPI
 dfn
 -
 result
+unsafe
 fn
 GetResult
 (
@@ -2595,8 +2596,6 @@ arr_buffer
 =
 >
 {
-unsafe
-{
 StringOrObject
 :
 :
@@ -2617,7 +2616,6 @@ to_object
 (
 )
 )
-}
 }
 }
 )

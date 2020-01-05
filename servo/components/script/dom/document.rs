@@ -19595,6 +19595,7 @@ document
 nameditem
 -
 filter
+unsafe
 fn
 NamedGetter
 (
@@ -20152,8 +20153,6 @@ Step
 3
 .
 return
-unsafe
-{
 Some
 (
 NonZero
@@ -20176,7 +20175,6 @@ get
 )
 )
 )
-}
 ;
 }
 }
@@ -20220,8 +20218,6 @@ box
 filter
 )
 ;
-unsafe
-{
 Some
 (
 NonZero
@@ -20244,7 +20240,6 @@ get
 )
 )
 )
-}
 }
 /
 /

@@ -798,6 +798,13 @@ None
 )
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 new
@@ -902,6 +909,8 @@ timer_event_port
 closing
 )
 ;
+unsafe
+{
 DedicatedWorkerGlobalScopeBinding
 :
 :
@@ -910,6 +919,7 @@ Wrap
 cx
 scope
 )
+}
 }
 #
 [
@@ -2618,6 +2628,14 @@ DedicatedWorkerGlobalScopeMethods
 for
 DedicatedWorkerGlobalScope
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 PostMessage
 (

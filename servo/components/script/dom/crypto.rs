@@ -303,6 +303,7 @@ Crypto
 method
 -
 getRandomValues
+unsafe
 fn
 GetRandomValues
 (
@@ -347,8 +348,6 @@ mut
 data
 =
 match
-unsafe
-{
 array_buffer_view_data
 :
 :
@@ -358,7 +357,6 @@ u8
 (
 input
 )
-}
 {
 Some
 (
@@ -453,8 +451,6 @@ data
 ;
 Ok
 (
-unsafe
-{
 NonZero
 :
 :
@@ -462,7 +458,6 @@ new
 (
 input
 )
-}
 )
 }
 }

@@ -498,6 +498,14 @@ ExtendableMessageEventMethods
 for
 ExtendableMessageEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 Data
 (

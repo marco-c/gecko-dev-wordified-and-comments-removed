@@ -420,6 +420,14 @@ SupportedPropertyNames
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 NamedGetter
 (
