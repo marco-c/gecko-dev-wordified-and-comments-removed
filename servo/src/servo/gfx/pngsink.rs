@@ -262,10 +262,11 @@ spawn_listener
 <
 Msg
 >
-{
+(
 |
 po
 |
+{
 let
 cairo_surf
 =
@@ -376,6 +377,7 @@ cairo_surf
 )
 ;
 }
+)
 }
 fn
 do_draw
@@ -404,7 +406,7 @@ cairo_surface_t
 )
 {
 listen
-{
+(
 |
 data_ch
 :
@@ -415,6 +417,7 @@ u8
 ]
 >
 |
+{
 crust
 fn
 write_fn
@@ -546,6 +549,8 @@ result
 )
 ;
 }
+)
+;
 sender
 .
 send
@@ -564,10 +569,11 @@ sanity_check
 )
 {
 listen
-{
+(
 |
 self_channel
 |
+{
 let
 sink
 =
@@ -601,10 +607,11 @@ dlist
 )
 ;
 listen
-{
+(
 |
 from_renderer
 |
+{
 renderer
 .
 send
@@ -625,6 +632,8 @@ recv
 )
 ;
 }
+)
+;
 sink
 .
 send
@@ -632,4 +641,5 @@ send
 Exit
 )
 }
+)
 }

@@ -428,7 +428,7 @@ R
 n
 .
 read
-{
+(
 |
 n
 |
@@ -438,7 +438,7 @@ n
 .
 tree
 )
-}
+)
 }
 }
 enum
@@ -645,10 +645,10 @@ range
 0u
 indent
 )
-{
 |
 _i
 |
+{
 s
 +
 =
@@ -688,10 +688,10 @@ each_child
 (
 self
 )
-{
 |
 kid
 |
+{
 kid
 .
 dump_indent
@@ -909,10 +909,10 @@ range
 0u
 indent
 )
-{
 |
 _i
 |
+{
 s
 +
 =
@@ -934,7 +934,6 @@ self
 .
 read
 (
-{
 |
 n
 |
@@ -942,7 +941,6 @@ copy
 n
 .
 kind
-}
 )
 )
 ;
@@ -963,10 +961,10 @@ each_child
 (
 self
 )
-{
 |
 kid
 |
+{
 kid
 .
 dump_indent
@@ -1179,10 +1177,10 @@ each_child
 BTree
 root
 )
-{
 |
 c
 |
+{
 r
 +
 =

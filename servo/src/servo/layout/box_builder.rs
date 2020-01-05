@@ -295,10 +295,10 @@ self
 .
 parent_node
 )
-{
 |
 kid
 |
+{
 /
 /
 Create
@@ -549,10 +549,10 @@ self
 .
 parent_node
 )
-{
 |
 kid
 |
+{
 /
 /
 Construct
@@ -899,7 +899,6 @@ self
 .
 read
 (
-{
 |
 n
 |
@@ -907,7 +906,6 @@ copy
 n
 .
 kind
-}
 )
 {
 ~

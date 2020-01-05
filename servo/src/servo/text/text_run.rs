@@ -157,12 +157,11 @@ glyphs
 foldl
 (
 pen_start
-)
-{
 |
 cur
 glyph
 |
+{
 Point2D
 (
 cur
@@ -217,6 +216,7 @@ y
 )
 )
 }
+)
 ;
 ret
 Size2D

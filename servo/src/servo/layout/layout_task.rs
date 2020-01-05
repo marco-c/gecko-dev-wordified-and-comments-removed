@@ -171,10 +171,11 @@ spawn_listener
 <
 Msg
 >
-{
+(
 |
 request
 |
+{
 loop
 {
 alt
@@ -304,4 +305,5 @@ dlist
 }
 }
 }
+)
 }

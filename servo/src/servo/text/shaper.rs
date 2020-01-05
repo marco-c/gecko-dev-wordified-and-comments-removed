@@ -210,11 +210,10 @@ font
 buf
 (
 )
-)
-{
 |
 buf
 |
+{
 hb_blob_create
 (
 reinterpret_cast
@@ -247,6 +246,7 @@ null
 )
 )
 }
+)
 ;
 let
 hbface
@@ -356,11 +356,10 @@ str
 as_c_str
 (
 text
-)
-{
 |
 ctext
 |
+{
 hb_buffer_add_utf8
 (
 buffer
@@ -385,6 +384,8 @@ c_int
 )
 ;
 }
+)
+;
 hb_shape
 (
 hbfont
@@ -473,10 +474,10 @@ info_len
 as
 uint
 )
-{
 |
 i
 |
+{
 let
 info_
 =
@@ -879,14 +880,14 @@ idxs
 glyphs
 .
 map
-{
+(
 |
 glyph
 |
 glyph
 .
 index
-}
+)
 ;
 assert
 idxs
@@ -957,7 +958,7 @@ actual
 glyphs
 .
 map
-{
+(
 |
 g
 |
@@ -968,7 +969,7 @@ pos
 advance
 .
 x
-}
+)
 ;
 let
 expected
@@ -988,7 +989,7 @@ expected
 ]
 .
 map
-{
+(
 |
 a
 |
@@ -996,7 +997,7 @@ px_to_au
 (
 a
 )
-}
+)
 ;
 assert
 expected

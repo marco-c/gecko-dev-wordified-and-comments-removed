@@ -190,10 +190,11 @@ should_get_glyph_indexes
 )
 {
 with_test_native_font
-{
+(
 |
 font
 |
+{
 let
 idx
 =
@@ -216,6 +217,7 @@ some
 )
 ;
 }
+)
 }
 #
 [
@@ -241,10 +243,11 @@ should_return_none_glyph_index_for_bad_codepoints
 )
 {
 with_test_native_font
-{
+(
 |
 font
 |
+{
 let
 idx
 =
@@ -264,6 +267,7 @@ idx
 none
 ;
 }
+)
 }
 #
 [
@@ -289,10 +293,11 @@ should_get_glyph_h_advance
 )
 {
 with_test_native_font
-{
+(
 |
 font
 |
+{
 let
 adv
 =
@@ -313,6 +318,7 @@ some
 )
 ;
 }
+)
 }
 #
 [
@@ -338,10 +344,11 @@ should_return_none_glyph_h_advance_for_bad_codepoints
 )
 {
 with_test_native_font
-{
+(
 |
 font
 |
+{
 let
 adv
 =
@@ -362,4 +369,5 @@ adv
 none
 ;
 }
+)
 }

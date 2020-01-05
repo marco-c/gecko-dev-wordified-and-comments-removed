@@ -178,11 +178,10 @@ scope
 read
 (
 node
-)
-{
 |
 node_contents
 |
+{
 alt
 *
 node_contents
@@ -364,6 +363,7 @@ node
 }
 }
 }
+)
 }
 fn
 build_element_kind
@@ -611,9 +611,10 @@ task
 :
 :
 spawn
+(
+|
+|
 {
-|
-|
 /
 /
 TODO
@@ -660,6 +661,8 @@ css_rules
 )
 ;
 }
+)
+;
 result_vec
 +
 =
@@ -689,12 +692,11 @@ result_vec
 foldl
 (
 css_rules
-)
-{
 |
 rules
 result_port
 |
+{
 let
 new_rules
 =
@@ -708,6 +710,7 @@ rules
 +
 new_rules
 }
+)
 ;
 to_parent
 .
@@ -866,10 +869,11 @@ task
 :
 :
 spawn_listener
-{
+(
 |
 child_port
 |
+{
 css_link_listener
 (
 child_chan
@@ -877,6 +881,7 @@ child_port
 )
 ;
 }
+)
 ;
 loop
 {
@@ -1062,11 +1067,10 @@ scope
 read
 (
 cur_node
-)
-{
 |
 n
 |
+{
 alt
 *
 n
@@ -1169,6 +1173,8 @@ _
 }
 }
 }
+)
+;
 cur_node
 =
 scope

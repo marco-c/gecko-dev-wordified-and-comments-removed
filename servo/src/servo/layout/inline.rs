@@ -190,10 +190,10 @@ each_child
 BTree
 self
 )
-{
 |
 kid
 |
+{
 kid
 .
 bounds

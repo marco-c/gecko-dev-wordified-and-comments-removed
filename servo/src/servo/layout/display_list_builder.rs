@@ -324,10 +324,10 @@ each_child
 (
 box
 )
-{
 |
 c
 |
+{
 #
 debug
 (

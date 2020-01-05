@@ -439,11 +439,10 @@ vec_as_buf
 (
 *
 buf
-)
-{
 |
 cbuf
 |
+{
 if
 FT_New_Memory_Face
 (
@@ -529,6 +528,7 @@ err
 )
 }
 }
+)
 }
 impl
 methods
@@ -580,10 +580,11 @@ result
 unwrap
 ;
 with_lib
-{
+(
 |
 lib
 |
+{
 let
 buf
 =
@@ -611,6 +612,7 @@ font
 )
 ;
 }
+)
 }
 fn
 with_lib
@@ -666,10 +668,11 @@ create_should_return_err_if_buf_is_bogus
 )
 {
 with_lib
-{
+(
 |
 lib
 |
+{
 let
 buf
 =
@@ -690,4 +693,5 @@ is_err
 )
 ;
 }
+)
 }

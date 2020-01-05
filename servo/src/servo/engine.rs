@@ -93,10 +93,11 @@ spawn_listener
 <
 Msg
 >
-{
+(
 |
 request
 |
+{
 /
 /
 The
@@ -218,10 +219,11 @@ ExitMsg
 )
 ;
 listen
-{
+(
 |
 response_channel
 |
+{
 renderer
 .
 send
@@ -242,6 +244,8 @@ recv
 )
 ;
 }
+)
+;
 sender
 .
 send
@@ -256,4 +260,5 @@ break
 }
 }
 }
+)
 }

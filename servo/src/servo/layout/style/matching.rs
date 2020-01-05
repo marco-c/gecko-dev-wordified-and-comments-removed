@@ -452,7 +452,7 @@ alt
 self
 .
 read
-{
+(
 |
 n
 |
@@ -461,7 +461,7 @@ copy
 n
 .
 kind
-}
+)
 {
 base
 :
@@ -630,7 +630,7 @@ alt
 self
 .
 read
-{
+(
 |
 n
 |
@@ -639,7 +639,7 @@ n
 tree
 .
 parent
-}
+)
 {
 some
 (
@@ -719,7 +719,7 @@ alt
 self
 .
 read
-{
+(
 |
 n
 |
@@ -728,7 +728,7 @@ n
 tree
 .
 parent
-}
+)
 {
 some
 (
@@ -765,7 +765,7 @@ alt
 cur_parent
 .
 read
-{
+(
 |
 n
 |
@@ -774,7 +774,7 @@ n
 tree
 .
 parent
-}
+)
 {
 some
 (
@@ -832,7 +832,7 @@ alt
 self
 .
 read
-{
+(
 |
 n
 |
@@ -841,7 +841,7 @@ n
 tree
 .
 prev_sibling
-}
+)
 {
 some
 (
@@ -874,7 +874,7 @@ alt
 cur_sib
 .
 read
-{
+(
 |
 n
 |
@@ -883,7 +883,7 @@ n
 tree
 .
 prev_sibling
-}
+)
 {
 some
 (
@@ -917,7 +917,7 @@ alt
 self
 .
 read
-{
+(
 |
 n
 |
@@ -926,7 +926,7 @@ n
 tree
 .
 next_sibling
-}
+)
 {
 some
 (
@@ -959,7 +959,7 @@ alt
 cur_sib
 .
 read
-{
+(
 |
 n
 |
@@ -968,7 +968,7 @@ n
 tree
 .
 next_sibling
-}
+)
 {
 some
 (
@@ -1036,11 +1036,10 @@ self
 .
 aux
 (
-)
-{
 |
 layout
 |
+{
 alt
 decl
 {
@@ -1092,6 +1091,7 @@ yet
 }
 }
 }
+)
 }
 }
 impl
@@ -1200,10 +1200,10 @@ for
 styles
 .
 each
-{
 |
 sty
 |
+{
 let
 (
 selectors
@@ -1218,10 +1218,10 @@ for
 selectors
 .
 each
-{
 |
 sel
 |
+{
 if
 self
 .
@@ -1234,10 +1234,10 @@ for
 decls
 .
 each
-{
 |
 decl
 |
+{
 self
 .
 update_style
@@ -1253,8 +1253,6 @@ self
 .
 aux
 (
-)
-{
 |
 a
 |
@@ -1276,8 +1274,8 @@ a
 .
 computed_style
 ]
+)
 ;
-}
 }
 }
 #

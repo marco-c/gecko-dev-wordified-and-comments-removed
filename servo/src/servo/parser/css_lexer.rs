@@ -1332,9 +1332,10 @@ task
 :
 :
 spawn
+(
+|
+|
 {
-|
-|
 assert
 (
 *
@@ -1522,6 +1523,7 @@ Eof
 ;
 }
 }
+)
 ;
 ret
 result_port

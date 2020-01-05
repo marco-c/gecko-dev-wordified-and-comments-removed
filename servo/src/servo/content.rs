@@ -238,10 +238,11 @@ is_reader_forked
 )
 {
 listen
-{
+(
 |
 response_from_layout
 |
+{
 layout
 .
 send
@@ -262,6 +263,8 @@ recv
 )
 ;
 }
+)
+;
 scope
 .
 reader_joined
@@ -294,10 +297,11 @@ spawn_listener
 <
 ControlMsg
 >
-{
+(
 |
 from_master
 |
+{
 let
 scope
 =
@@ -579,10 +583,11 @@ global_class
 )
 .
 chain
-{
+(
 |
 compartment
 |
+{
 compartment
 .
 define_functions
@@ -603,6 +608,7 @@ filename
 1u
 )
 }
+)
 ;
 }
 }
@@ -625,4 +631,5 @@ break
 }
 }
 }
+)
 }

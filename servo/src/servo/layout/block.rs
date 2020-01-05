@@ -198,10 +198,10 @@ each_child
 BTree
 self
 )
-{
 |
 c
 |
+{
 let
 mut
 blk_available_width
