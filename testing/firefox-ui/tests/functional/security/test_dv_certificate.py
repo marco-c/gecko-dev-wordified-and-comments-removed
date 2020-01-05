@@ -22,11 +22,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestDVCertificate
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -120,11 +123,14 @@ browser
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestDVCertificate
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

@@ -31,11 +31,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSecurityNotification
+self
+)
 .
 setUp
 (
-self
 )
         
 self

@@ -293,11 +293,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSafeBrowsingInitialDownload
+self
+)
 .
 setUp
 (
-self
 )
         
 enforce_prefs
@@ -381,11 +384,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSafeBrowsingInitialDownload
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

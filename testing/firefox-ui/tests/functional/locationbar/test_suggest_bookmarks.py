@@ -90,11 +90,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestStarInAutocomplete
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -260,11 +263,14 @@ PREF_SUGGEST_SEARCHES
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestStarInAutocomplete
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

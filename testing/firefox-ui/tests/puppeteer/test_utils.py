@@ -18,11 +18,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSanitize
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -152,20 +155,6 @@ self
 .
 urls
 load_urls
-)
-    
-def
-tearDown
-(
-self
-)
-:
-        
-FirefoxTestCase
-.
-tearDown
-(
-self
 )
     
 def

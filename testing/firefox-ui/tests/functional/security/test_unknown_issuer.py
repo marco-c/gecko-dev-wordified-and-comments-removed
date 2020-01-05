@@ -30,11 +30,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestUnknownIssuer
+self
+)
 .
 setUp
 (
-self
 )
         
 self

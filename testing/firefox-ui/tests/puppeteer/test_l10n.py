@@ -36,11 +36,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestL10n
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -52,20 +55,6 @@ L10n
 self
 .
 marionette
-)
-    
-def
-tearDown
-(
-self
-)
-:
-        
-FirefoxTestCase
-.
-tearDown
-(
-self
 )
     
 def

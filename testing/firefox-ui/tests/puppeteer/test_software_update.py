@@ -28,11 +28,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSoftwareUpdate
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -103,11 +106,14 @@ saved_mar_channels
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSoftwareUpdate
+self
+)
 .
 tearDown
 (
-self
 )
     
 def
@@ -507,11 +513,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestUpdateChannel
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -574,11 +583,14 @@ saved_channel
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestUpdateChannel
+self
+)
 .
 tearDown
 (
-self
 )
     
 def
@@ -675,11 +687,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestMARChannels
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -750,11 +765,14 @@ saved_mar_channels
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestMARChannels
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

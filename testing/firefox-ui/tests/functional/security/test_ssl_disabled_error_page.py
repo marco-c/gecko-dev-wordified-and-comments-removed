@@ -32,11 +32,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSSLDisabledErrorPage
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -161,11 +164,14 @@ max
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSSLDisabledErrorPage
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

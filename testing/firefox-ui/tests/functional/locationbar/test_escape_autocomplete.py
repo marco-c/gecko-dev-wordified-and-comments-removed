@@ -22,11 +22,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestEscapeAutocomplete
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -133,11 +136,14 @@ force
 True
 )
         
-FirefoxTestCase
+super
+(
+TestEscapeAutocomplete
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

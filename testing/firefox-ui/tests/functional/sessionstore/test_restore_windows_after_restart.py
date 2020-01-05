@@ -18,11 +18,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestRestoreWindowsAfterRestart
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -257,11 +260,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestRestoreWindowsAfterRestart
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

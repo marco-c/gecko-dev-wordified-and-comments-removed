@@ -26,11 +26,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSafeBrowsingWarningPages
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -257,11 +260,14 @@ enabled
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSafeBrowsingWarningPages
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

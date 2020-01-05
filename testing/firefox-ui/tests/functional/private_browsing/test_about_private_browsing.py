@@ -33,11 +33,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestAboutPrivateBrowsing
+self
+)
 .
 setUp
 (
-self
 )
         
 support_url
@@ -107,11 +110,14 @@ baseURL
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestAboutPrivateBrowsing
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

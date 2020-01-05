@@ -18,11 +18,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestMixedContentPage
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -95,11 +98,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestMixedContentPage
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

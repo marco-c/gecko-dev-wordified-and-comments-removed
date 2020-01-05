@@ -52,11 +52,14 @@ tabs
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestTabBar
+self
+)
 .
 tearDown
 (
-self
 )
     
 def
@@ -828,11 +831,14 @@ tabs
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestTab
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

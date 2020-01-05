@@ -39,11 +39,14 @@ browser
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestPageInfoWindow
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

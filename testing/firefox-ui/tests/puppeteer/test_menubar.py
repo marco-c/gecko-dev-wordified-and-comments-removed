@@ -24,11 +24,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestMenuBar
+self
+)
 .
 setUp
 (
-self
 )
     
 def

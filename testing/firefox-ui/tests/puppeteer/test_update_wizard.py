@@ -26,11 +26,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestUpdateWizard
+self
+)
 .
 setUp
 (
-self
 )
         
 def
@@ -152,11 +155,14 @@ browser
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestUpdateWizard
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

@@ -36,11 +36,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSubmitUnencryptedInfoWarning
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -121,11 +124,14 @@ warn_submit_insecure
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSubmitUnencryptedInfoWarning
+self
+)
 .
 tearDown
 (
-self
 )
     
 def
