@@ -360,7 +360,7 @@ PaintedLayerComposite
 :
 SetLayerManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )

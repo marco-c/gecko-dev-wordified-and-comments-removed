@@ -87,7 +87,7 @@ class
 Layer
 ;
 class
-LayerManagerComposite
+HostLayerManager
 ;
 class
 ShadowLayerParent
@@ -151,7 +151,7 @@ public
 :
 LayerTransactionParent
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 CompositorBridgeParentBase
@@ -175,7 +175,7 @@ Destroy
 (
 )
 ;
-LayerManagerComposite
+HostLayerManager
 *
 layer_manager
 (
@@ -958,7 +958,7 @@ private
 :
 RefPtr
 <
-LayerManagerComposite
+HostLayerManager
 >
 mLayerManager
 ;

@@ -173,7 +173,7 @@ virtual
 void
 SetLayerManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )
@@ -235,9 +235,9 @@ aEffect
 override
 ;
 virtual
-LayerComposite
+HostLayer
 *
-AsLayerComposite
+AsHostLayer
 (
 )
 override

@@ -474,7 +474,7 @@ AsyncCompositionManager
 :
 AsyncCompositionManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )
@@ -1020,7 +1020,7 @@ aTransform
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -1080,7 +1080,7 @@ clipRect
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -1107,7 +1107,7 @@ clipRect
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -1174,7 +1174,7 @@ mFixedClip
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -1273,7 +1273,7 @@ GetPostYScale
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -1335,7 +1335,7 @@ layerTransform
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -3311,14 +3311,14 @@ interpolatedValue
 layer
 )
 ;
-LayerComposite
+HostLayer
 *
-layerComposite
+layerCompositor
 =
 layer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 ;
@@ -3335,7 +3335,7 @@ case
 eCSSProperty_opacity
 :
 {
-layerComposite
+layerCompositor
 -
 >
 SetShadowOpacity
@@ -3347,7 +3347,7 @@ get_float
 )
 )
 ;
-layerComposite
+layerCompositor
 -
 >
 SetShadowOpacitySetByAnimation
@@ -3416,7 +3416,7 @@ GetInheritedYScale
 )
 ;
 }
-layerComposite
+layerCompositor
 -
 >
 SetShadowBaseTransform
@@ -3424,7 +3424,7 @@ SetShadowBaseTransform
 matrix
 )
 ;
-layerComposite
+layerCompositor
 -
 >
 SetShadowTransformSetByAnimation
@@ -3626,7 +3626,7 @@ shadowTransform
 layer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -3730,7 +3730,7 @@ shadowClipRect
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -3798,7 +3798,7 @@ rootClipRect
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -3860,7 +3860,7 @@ ScreenIsParentLayerForRoot
 aLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -4856,7 +4856,7 @@ clipChanged
 layer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 -
@@ -6061,14 +6061,14 @@ nextFrame
 )
 ;
 }
-LayerComposite
+HostLayer
 *
 rootComposite
 =
 root
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 ;
