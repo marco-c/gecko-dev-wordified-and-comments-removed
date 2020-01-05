@@ -7637,7 +7637,7 @@ bool
 nsCSSRendering
 :
 :
-CanPaintBoxShadowInner
+ShouldPaintBoxShadowInner
 (
 nsIFrame
 *
@@ -7912,7 +7912,7 @@ aFrameArea
 if
 (
 !
-CanPaintBoxShadowInner
+ShouldPaintBoxShadowInner
 (
 aForFrame
 )

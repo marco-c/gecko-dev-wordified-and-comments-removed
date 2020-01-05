@@ -340,7 +340,7 @@ aFrameArea
 ;
 static
 bool
-CanPaintBoxShadowInner
+ShouldPaintBoxShadowInner
 (
 nsIFrame
 *

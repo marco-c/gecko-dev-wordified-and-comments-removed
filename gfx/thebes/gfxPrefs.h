@@ -4051,7 +4051,7 @@ OverrideBase_WebRender
 )
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -4064,8 +4064,12 @@ displaybuttonborder
 layers
 "
 LayersAllowDisplayButtonBorder
-bool
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_GFX_PREF
