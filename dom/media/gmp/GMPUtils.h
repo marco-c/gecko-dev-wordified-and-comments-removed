@@ -305,6 +305,15 @@ GetGMPAbstractThread
 (
 )
 ;
+int32_t
+I420FrameBufferSizePadded
+(
+int32_t
+aWidth
+int32_t
+aHeight
+)
+;
 }
 #
 endif

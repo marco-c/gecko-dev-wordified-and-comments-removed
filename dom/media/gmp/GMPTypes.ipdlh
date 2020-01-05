@@ -368,9 +368,7 @@ mImageWidth
 int32_t
 mImageHeight
 ;
-uint8_t
-[
-]
+Shmem
 mData
 ;
 CDMVideoPlane
