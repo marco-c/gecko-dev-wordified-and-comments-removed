@@ -9915,14 +9915,6 @@ gUseStackWalk
 =
 false
 ;
-if
-(
-gIsActive
-)
-PlatformStop
-(
-)
-;
 {
 StaticMutexAutoLock
 lock
