@@ -8008,6 +8008,19 @@ fParent
 if
 (
 scrollable
+#
+ifdef
+MOZ_B2G
+&
+&
+scrollable
+-
+>
+WantAsyncScroll
+(
+)
+#
+endif
 )
 {
 return
@@ -14695,6 +14708,7 @@ data
 mClipChain
 =
 aClipChain
+;
 data
 .
 mAnimatedGeometryRootOffset
@@ -14775,6 +14789,7 @@ newLayerEntry
 mClipChain
 =
 aClipChain
+;
 mNewChildLayers
 .
 AppendElement
