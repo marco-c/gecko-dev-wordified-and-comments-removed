@@ -12617,6 +12617,7 @@ CreateAttribute
 (
 &
 self
+mut
 local_name
 :
 DOMString
@@ -12660,6 +12661,18 @@ Error
 :
 :
 InvalidCharacter
+)
+;
+}
+if
+self
+.
+is_html_document
+{
+local_name
+.
+make_ascii_lowercase
+(
 )
 ;
 }
