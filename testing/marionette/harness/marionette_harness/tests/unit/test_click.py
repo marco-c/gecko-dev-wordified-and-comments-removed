@@ -15,6 +15,7 @@ marionette_harness
 import
 MarionetteTestCase
 run_if_e10s
+skip
 def
 inline
 (
@@ -503,6 +504,23 @@ None
 )
 )
     
+skip
+(
+"
+Bug
+1357634
+-
+NoSuchElementException
+:
+Unable
+to
+locate
+element
+:
+username
+"
+)
+    
 def
 test_click_number_link
 (
@@ -640,6 +658,23 @@ child
 .
 click
 (
+)
+    
+skip
+(
+"
+Bug
+1357696
+-
+NoSuchElementException
+:
+Unable
+to
+locate
+element
+:
+username
+"
 )
     
 def
