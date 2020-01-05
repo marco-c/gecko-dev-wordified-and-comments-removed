@@ -390,6 +390,7 @@ clipboard
 const
 {
 LocalizationHelper
+localizeMarkup
 }
 =
 require
@@ -735,6 +736,13 @@ function
 (
 )
 {
+localizeMarkup
+(
+this
+.
+panelDoc
+)
+;
 this
 .
 _cssPropertiesLoaded
