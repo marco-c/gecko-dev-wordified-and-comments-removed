@@ -372,9 +372,15 @@ aState
 *
 returns
 A
-base64url
-encoded
 string
+to
+store
+request
+.
+Not
+null
+-
+terminated
 .
 *
 /
