@@ -2808,7 +2808,7 @@ ImageCacheTask
 )
 -
 >
-JS
+Temporary
 <
 Window
 >
