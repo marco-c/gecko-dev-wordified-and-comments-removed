@@ -178,6 +178,7 @@ mFlags
 ;
 }
 static
+MOZ_EXPORT
 void
 ThreadingCheck
 (
