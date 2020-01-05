@@ -8465,7 +8465,7 @@ SheetLoadData
 *
 loadingData
 ;
-NS_ASSERTION_STYLO_WARNING
+NS_ASSERTION
 (
 mSheets
 -
