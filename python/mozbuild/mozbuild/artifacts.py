@@ -2978,11 +2978,6 @@ public
 build
 /
 target
--
-(
-.
-*
-)
 \
 .
 common
