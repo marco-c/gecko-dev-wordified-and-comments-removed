@@ -1062,7 +1062,7 @@ RenderThread
 :
 GetRenderTexture
 (
-uint64_t
+WrExternalImageId
 aExternalImageId
 )
 {
@@ -1079,6 +1079,8 @@ mRenderTextures
 Get
 (
 aExternalImageId
+.
+mHandle
 )
 .
 get
@@ -1092,6 +1094,8 @@ mRenderTextures
 Get
 (
 aExternalImageId
+.
+mHandle
 )
 .
 get

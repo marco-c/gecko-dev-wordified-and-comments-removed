@@ -266,6 +266,11 @@ WR_DECL_FFI_1
 WrWindowId
 uint64_t
 )
+WR_DECL_FFI_1
+(
+WrExternalImageId
+uint64_t
+)
 WR_DECL_FFI_2
 (
 WrPipelineId
@@ -334,10 +339,6 @@ char
 *
 procname
 )
-;
-typedef
-uint64_t
-WrExternalImageId
 ;
 #
 ifdef

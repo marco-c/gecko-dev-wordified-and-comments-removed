@@ -730,7 +730,7 @@ RendererOGL
 :
 GetRenderTexture
 (
-uint64_t
+WrExternalImageId
 aExternalImageId
 )
 {
