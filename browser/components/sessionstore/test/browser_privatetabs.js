@@ -39,6 +39,7 @@ window
 add_task
 (
 function
+*
 (
 )
 {
@@ -375,6 +376,7 @@ tab2
 add_task
 (
 function
+*
 (
 )
 {
@@ -617,6 +619,7 @@ restore
 add_task
 (
 function
+*
 (
 )
 {

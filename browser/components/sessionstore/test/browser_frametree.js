@@ -28,6 +28,7 @@ html
 add_task
 (
 function
+*
 test_frametree
 (
 )
@@ -292,6 +293,7 @@ tab
 add_task
 (
 function
+*
 test_frametree_dynamic
 (
 )

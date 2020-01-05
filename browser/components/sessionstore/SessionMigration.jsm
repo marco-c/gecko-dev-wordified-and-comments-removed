@@ -338,6 +338,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -374,14 +375,8 @@ parse
 text
 )
 ;
-throw
-new
-Task
-.
-Result
-(
+return
 state
-)
 ;
 }
 )
@@ -451,6 +446,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

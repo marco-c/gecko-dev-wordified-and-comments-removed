@@ -347,6 +347,7 @@ FILE2
 add_task
 (
 function
+*
 test_form_data_restoration
 (
 )

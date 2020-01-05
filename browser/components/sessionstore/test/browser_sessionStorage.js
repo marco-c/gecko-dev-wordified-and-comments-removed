@@ -77,6 +77,7 @@ RAND
 add_task
 (
 function
+*
 session_storage
 (
 )
@@ -832,6 +833,7 @@ tab2
 add_task
 (
 function
+*
 purge_domain
 (
 )
@@ -967,6 +969,7 @@ tab
 add_task
 (
 function
+*
 respect_privacy_level
 (
 )

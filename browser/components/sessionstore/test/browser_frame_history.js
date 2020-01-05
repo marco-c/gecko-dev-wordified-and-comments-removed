@@ -1,6 +1,7 @@
 add_task
 (
 function
+*
 (
 )
 {
@@ -374,6 +375,7 @@ newTab
 add_task
 (
 function
+*
 (
 )
 {
@@ -778,6 +780,7 @@ newTab
 add_task
 (
 function
+*
 (
 )
 {

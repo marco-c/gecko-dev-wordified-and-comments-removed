@@ -577,6 +577,7 @@ true
 add_task
 (
 function
+*
 test_crash_page_not_in_history
 (
 )
@@ -721,6 +722,7 @@ newTab
 add_task
 (
 function
+*
 test_revived_history_from_remote
 (
 )
@@ -947,6 +949,7 @@ newTab
 add_task
 (
 function
+*
 test_revived_history_from_non_remote
 (
 )
@@ -1183,6 +1186,7 @@ newTab
 add_task
 (
 function
+*
 test_revive_tab_from_session_store
 (
 )
@@ -1456,6 +1460,7 @@ newTab2
 add_task
 (
 function
+*
 test_revive_all_tabs_from_session_store
 (
 )
@@ -1819,6 +1824,7 @@ newTab
 add_task
 (
 function
+*
 test_close_tab_after_crash
 (
 )

@@ -120,6 +120,7 @@ sessionrestore
 add_task
 (
 function
+*
 test_nested_about_sessionrestore
 (
 )

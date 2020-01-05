@@ -11,6 +11,7 @@ requestLongerTimeout
 add_task
 (
 function
+*
 test_formdata
 (
 )
@@ -74,16 +75,8 @@ random
 )
 ;
 function
+*
 createAndRemoveTab
-(
-)
-{
-return
-Task
-.
-spawn
-(
-function
 (
 )
 {
@@ -152,10 +145,8 @@ tab
 )
 ;
 }
-)
-;
-}
 yield
+*
 createAndRemoveTab
 (
 )
@@ -237,6 +228,7 @@ privacy_level
 )
 ;
 yield
+*
 createAndRemoveTab
 (
 )
@@ -313,6 +305,7 @@ privacy_level
 )
 ;
 yield
+*
 createAndRemoveTab
 (
 )
@@ -376,6 +369,7 @@ privacy_level
 add_task
 (
 function
+*
 test_url_check
 (
 )
@@ -581,6 +575,7 @@ tab
 add_task
 (
 function
+*
 test_nested
 (
 )
@@ -875,6 +870,7 @@ tab
 add_task
 (
 function
+*
 test_design_mode
 (
 )

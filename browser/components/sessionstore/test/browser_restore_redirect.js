@@ -41,6 +41,7 @@ html
 add_task
 (
 function
+*
 check_http_redirect
 (
 )
@@ -194,6 +195,7 @@ tab
 add_task
 (
 function
+*
 check_js_redirect
 (
 )

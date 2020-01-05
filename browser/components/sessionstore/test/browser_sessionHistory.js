@@ -11,6 +11,7 @@ requestLongerTimeout
 add_task
 (
 function
+*
 test_load_start
 (
 )
@@ -128,6 +129,7 @@ tab
 add_task
 (
 function
+*
 test_hashchange
 (
 )
@@ -316,6 +318,7 @@ tab
 add_task
 (
 function
+*
 test_pageshow
 (
 )
@@ -493,6 +496,7 @@ tab
 add_task
 (
 function
+*
 test_subframes
 (
 )
@@ -896,6 +900,7 @@ tab
 add_task
 (
 function
+*
 test_about_page_navigate
 (
 )
@@ -1078,6 +1083,7 @@ tab
 add_task
 (
 function
+*
 test_pushstate_replacestate
 (
 )
@@ -1411,6 +1417,7 @@ tab
 add_task
 (
 function
+*
 test_slow_subframe_load
 (
 )

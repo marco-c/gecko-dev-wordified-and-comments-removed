@@ -86,6 +86,7 @@ requestLongerTimeout
 add_task
 (
 function
+*
 test_scroll_background_about_reader_tabs
 (
 )

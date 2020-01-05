@@ -156,6 +156,7 @@ requestLongerTimeout
 add_task
 (
 function
+*
 test_scroll
 (
 )
@@ -403,6 +404,7 @@ tab2
 add_task
 (
 function
+*
 test_scroll_nested
 (
 )
@@ -759,6 +761,7 @@ tab2
 add_task
 (
 function
+*
 test_scroll_background_tabs
 (
 )

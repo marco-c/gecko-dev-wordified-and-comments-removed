@@ -69,6 +69,7 @@ restore_on_demand
 add_task
 (
 function
+*
 test_label_and_icon
 (
 )

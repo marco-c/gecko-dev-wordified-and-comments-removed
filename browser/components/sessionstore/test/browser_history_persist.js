@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 check_history_not_persisted
 (
 )
@@ -247,6 +248,7 @@ tab
 add_task
 (
 function
+*
 check_history_default_persisted
 (
 )

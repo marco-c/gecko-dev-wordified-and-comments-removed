@@ -35,6 +35,7 @@ processCount
 add_task
 (
 function
+*
 test
 (
 )

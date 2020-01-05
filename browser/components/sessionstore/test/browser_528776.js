@@ -99,6 +99,7 @@ getBrowserState
 add_task
 (
 function
+*
 (
 )
 {

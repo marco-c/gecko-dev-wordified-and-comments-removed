@@ -17,6 +17,7 @@ html
 add_task
 (
 function
+*
 test_check_urls_before_restoring
 (
 )

@@ -34,6 +34,7 @@ html
 add_task
 (
 function
+*
 page_style
 (
 )
@@ -269,6 +270,7 @@ tab2
 add_task
 (
 function
+*
 nested_page_style
 (
 )
