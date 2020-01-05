@@ -172,17 +172,6 @@ aPath
 const
 ;
 virtual
-bool
-ClonableToDifferentThreadOrProcess
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
 void
 Unlink
 (
