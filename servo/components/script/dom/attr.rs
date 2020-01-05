@@ -196,6 +196,13 @@ ops
 :
 Deref
 ;
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 enum
 AttrSettingType
@@ -210,6 +217,7 @@ derive
 JSTraceable
 PartialEq
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -680,6 +688,13 @@ value
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

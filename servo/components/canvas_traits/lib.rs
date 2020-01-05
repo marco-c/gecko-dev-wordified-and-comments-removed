@@ -54,6 +54,7 @@ plugin
 plugin
 (
 serde_macros
+plugins
 )
 ]
 extern
@@ -91,6 +92,10 @@ offscreen_gl_context
 extern
 crate
 serde
+;
+extern
+crate
+util
 ;
 use
 azure
@@ -265,6 +270,15 @@ nonzero
 :
 :
 NonZero
+;
+use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
 ;
 #
 [
@@ -1017,6 +1031,7 @@ Copy
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -1091,6 +1106,7 @@ derive
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -1113,6 +1129,7 @@ derive
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -1200,6 +1217,7 @@ derive
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -1852,6 +1870,7 @@ Clone
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -1989,6 +2008,7 @@ Clone
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -2229,6 +2249,7 @@ Clone
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -2693,6 +2714,7 @@ Clone
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -3269,6 +3291,7 @@ Clone
 PartialEq
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub

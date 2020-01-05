@@ -148,6 +148,13 @@ parse_color
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 CanvasGradient
@@ -174,6 +181,7 @@ derive
 (
 JSTraceable
 Clone
+HeapSizeOf
 )
 ]
 pub

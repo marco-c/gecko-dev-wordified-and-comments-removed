@@ -389,13 +389,12 @@ host_table
 .
 insert
 (
-token
-.
-to_owned
 (
+*
+token
 )
 .
-to_string
+to_owned
 (
 )
 address

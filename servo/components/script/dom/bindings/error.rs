@@ -53,6 +53,15 @@ use
 util
 :
 :
+mem
+:
+:
+HeapSizeOf
+;
+use
+util
+:
+:
 str
 :
 :
@@ -157,6 +166,7 @@ derive
 (
 Debug
 Clone
+HeapSizeOf
 )
 ]
 pub

@@ -34,6 +34,15 @@ sync
 :
 Arc
 ;
+use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
 #
 [
 derive
@@ -129,6 +138,7 @@ derive
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub

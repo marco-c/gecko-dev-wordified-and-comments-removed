@@ -237,6 +237,13 @@ Clone
 [
 must_root
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 enum
 FormDatum
@@ -256,6 +263,13 @@ File
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

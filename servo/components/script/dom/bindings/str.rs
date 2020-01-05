@@ -49,6 +49,15 @@ str
 :
 FromStr
 ;
+use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
 #
 [
 derive
@@ -57,6 +66,7 @@ JSTraceable
 Clone
 Eq
 PartialEq
+HeapSizeOf
 )
 ]
 pub

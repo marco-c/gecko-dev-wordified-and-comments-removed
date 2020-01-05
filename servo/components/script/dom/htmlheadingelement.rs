@@ -108,6 +108,7 @@ DOMString
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 pub
@@ -124,6 +125,13 @@ Heading6
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

@@ -837,6 +837,7 @@ Zombie
 derive
 (
 Debug
+HeapSizeOf
 )
 ]
 pub

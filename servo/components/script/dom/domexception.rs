@@ -121,6 +121,7 @@ JSTraceable
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -264,6 +265,13 @@ EncodingError
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

@@ -188,6 +188,10 @@ html5ever
 ;
 extern
 crate
+hyper
+;
+extern
+crate
 ipc_channel
 ;
 extern
@@ -219,6 +223,10 @@ rand
 extern
 crate
 rustc_serialize
+;
+extern
+crate
+selectors
 ;
 extern
 crate

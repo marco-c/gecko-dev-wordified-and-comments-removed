@@ -347,6 +347,7 @@ PartialEq
 Clone
 Copy
 JSTraceable
+HeapSizeOf
 )
 ]
 pub
@@ -370,6 +371,7 @@ FileReader
 derive
 (
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -438,6 +440,7 @@ PartialEq
 Clone
 Copy
 JSTraceable
+HeapSizeOf
 )
 ]
 pub
@@ -463,6 +466,7 @@ Clone
 Debug
 PartialEq
 JSTraceable
+HeapSizeOf
 )
 ]
 pub
@@ -491,6 +495,13 @@ DONE
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

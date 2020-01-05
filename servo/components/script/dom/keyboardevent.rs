@@ -227,6 +227,13 @@ Key
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 KeyboardEvent
@@ -7073,6 +7080,13 @@ _
 0
 }
 }
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 KeyEventProperties

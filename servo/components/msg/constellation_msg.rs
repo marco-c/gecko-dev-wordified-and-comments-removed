@@ -110,6 +110,15 @@ ViewportPx
 }
 ;
 use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
+use
 std
 :
 :
@@ -334,6 +343,7 @@ Copy
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub

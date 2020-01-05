@@ -183,6 +183,15 @@ url
 :
 Url
 ;
+use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
 #
 [
 derive
@@ -248,6 +257,7 @@ WorkerGlobalScope
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #

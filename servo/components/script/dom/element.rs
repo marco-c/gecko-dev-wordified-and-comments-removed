@@ -1046,6 +1046,13 @@ Arc
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 Element
@@ -1213,6 +1220,7 @@ Element
 derive
 (
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -4281,6 +4289,7 @@ PartialEq
 Eq
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub

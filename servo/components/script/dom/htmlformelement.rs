@@ -467,6 +467,13 @@ Cell
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 HTMLFormElement
@@ -1363,6 +1370,7 @@ derive
 (
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -1378,6 +1386,7 @@ derive
 (
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -3395,6 +3404,13 @@ TODO
 add
 file
 support
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 FormDatum
@@ -3418,6 +3434,7 @@ derive
 (
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -3434,6 +3451,7 @@ derive
 (
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -3450,6 +3468,7 @@ derive
 (
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub

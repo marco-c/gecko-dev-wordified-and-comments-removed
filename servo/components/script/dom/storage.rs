@@ -221,6 +221,13 @@ MainThreadRunnable
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 Storage
