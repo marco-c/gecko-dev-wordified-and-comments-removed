@@ -1079,6 +1079,11 @@ PBackgroundTest
 ipdl
 '
 '
+PChildToParentStream
+.
+ipdl
+'
+'
 PFileDescriptorSet
 .
 ipdl
@@ -1087,11 +1092,6 @@ ipdl
 ProtocolTypes
 .
 ipdlh
-'
-'
-PSendStream
-.
-ipdl
 '
 '
 URIParams

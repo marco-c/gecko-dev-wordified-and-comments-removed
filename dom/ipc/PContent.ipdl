@@ -204,7 +204,7 @@ PPrinting
 ;
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 protocol
@@ -1347,7 +1347,7 @@ manages
 PPrinting
 ;
 manages
-PSendStream
+PChildToParentStream
 ;
 manages
 PScreenManager
@@ -3669,7 +3669,7 @@ PPrinting
 )
 ;
 async
-PSendStream
+PChildToParentStream
 (
 )
 ;

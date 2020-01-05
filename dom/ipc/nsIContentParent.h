@@ -109,7 +109,7 @@ class
 PFileDescriptorSetParent
 ;
 class
-PSendStreamParent
+PChildToParentStreamParent
 ;
 }
 namespace
@@ -460,15 +460,15 @@ mozilla
 ipc
 :
 :
-PSendStreamParent
+PChildToParentStreamParent
 *
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 ;
 virtual
 bool
-DeallocPSendStreamParent
+DeallocPChildToParentStreamParent
 (
 mozilla
 :
@@ -476,7 +476,7 @@ mozilla
 ipc
 :
 :
-PSendStreamParent
+PChildToParentStreamParent
 *
 aActor
 )

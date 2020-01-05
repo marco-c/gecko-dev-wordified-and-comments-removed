@@ -58,7 +58,7 @@ MPL
 /
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 BlobTypes
@@ -130,7 +130,7 @@ IPCStream
 {
 InputStreamParamsWithFds
 ;
-PSendStream
+PChildToParentStream
 ;
 }
 ;

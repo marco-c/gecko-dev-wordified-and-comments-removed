@@ -191,7 +191,7 @@ PTransportProvider
 ;
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 protocol

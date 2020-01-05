@@ -146,7 +146,7 @@ bug
 792908
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 /
 /

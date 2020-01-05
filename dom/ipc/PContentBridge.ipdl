@@ -133,7 +133,7 @@ PFileDescriptorSet
 ;
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 DOMTypes
@@ -358,7 +358,7 @@ manages
 PJavaScript
 ;
 manages
-PSendStream
+PChildToParentStream
 ;
 parent
 :
@@ -390,7 +390,7 @@ PJavaScript
 )
 ;
 async
-PSendStream
+PChildToParentStream
 (
 )
 ;

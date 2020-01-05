@@ -84,7 +84,7 @@ PFileDescriptorSet
 ;
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 CacheTypes

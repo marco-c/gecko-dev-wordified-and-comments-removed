@@ -1253,12 +1253,12 @@ return
 true
 ;
 }
-PSendStreamParent
+PChildToParentStreamParent
 *
 nsIContentParent
 :
 :
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 {
@@ -1269,7 +1269,7 @@ mozilla
 ipc
 :
 :
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 ;
@@ -1278,9 +1278,9 @@ bool
 nsIContentParent
 :
 :
-DeallocPSendStreamParent
+DeallocPChildToParentStreamParent
 (
-PSendStreamParent
+PChildToParentStreamParent
 *
 aActor
 )

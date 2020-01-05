@@ -107,7 +107,7 @@ class
 PFileDescriptorSetChild
 ;
 class
-PSendStreamChild
+PChildToParentStreamChild
 ;
 class
 Shmem
@@ -268,9 +268,9 @@ mozilla
 ipc
 :
 :
-PSendStreamChild
+PChildToParentStreamChild
 *
-SendPSendStreamConstructor
+SendPChildToParentStreamConstructor
 (
 mozilla
 :
@@ -278,7 +278,7 @@ mozilla
 ipc
 :
 :
-PSendStreamChild
+PChildToParentStreamChild
 *
 )
 =
@@ -404,15 +404,15 @@ mozilla
 ipc
 :
 :
-PSendStreamChild
+PChildToParentStreamChild
 *
-AllocPSendStreamChild
+AllocPChildToParentStreamChild
 (
 )
 ;
 virtual
 bool
-DeallocPSendStreamChild
+DeallocPChildToParentStreamChild
 (
 mozilla
 :
@@ -420,7 +420,7 @@ mozilla
 ipc
 :
 :
-PSendStreamChild
+PChildToParentStreamChild
 *
 aActor
 )

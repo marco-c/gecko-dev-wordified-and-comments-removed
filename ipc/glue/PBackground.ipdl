@@ -122,7 +122,7 @@ PQuota
 ;
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 protocol
@@ -295,7 +295,7 @@ manages
 PQuota
 ;
 manages
-PSendStream
+PChildToParentStream
 ;
 manages
 PServiceWorkerManager
@@ -414,7 +414,7 @@ sequenceId
 )
 ;
 async
-PSendStream
+PChildToParentStream
 (
 )
 ;

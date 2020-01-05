@@ -75,7 +75,7 @@ namespace
 ipc
 {
 protocol
-PSendStream
+PChildToParentStream
 {
 manager
 PBackground

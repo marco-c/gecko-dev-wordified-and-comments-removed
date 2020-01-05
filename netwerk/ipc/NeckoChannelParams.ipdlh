@@ -128,7 +128,7 @@ PRtspChannel
 ;
 include
 protocol
-PSendStream
+PChildToParentStream
 ;
 include
 BlobTypes

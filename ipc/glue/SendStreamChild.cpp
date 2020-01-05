@@ -1301,7 +1301,7 @@ aInputStream
 aManager
 -
 >
-SendPSendStreamConstructor
+SendPChildToParentStreamConstructor
 (
 actor
 )
@@ -1411,7 +1411,7 @@ nullptr
 aManager
 -
 >
-SendPSendStreamConstructor
+SendPChildToParentStreamConstructor
 (
 actor
 )
@@ -1430,9 +1430,9 @@ SendStreamChild
 {
 }
 void
-DeallocPSendStreamChild
+DeallocPChildToParentStreamChild
 (
-PSendStreamChild
+PChildToParentStreamChild
 *
 aActor
 )

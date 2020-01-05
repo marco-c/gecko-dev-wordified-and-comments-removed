@@ -346,9 +346,9 @@ SendStreamParent
 )
 {
 }
-PSendStreamParent
+PChildToParentStreamParent
 *
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 {
@@ -408,9 +408,9 @@ writer
 ;
 }
 void
-DeallocPSendStreamParent
+DeallocPChildToParentStreamParent
 (
-PSendStreamParent
+PChildToParentStreamParent
 *
 aActor
 )
