@@ -185,6 +185,12 @@ URL
 ;
 readonly
 attribute
+Element
+?
+activeElement
+;
+readonly
+attribute
 DOMString
 documentURI
 ;
