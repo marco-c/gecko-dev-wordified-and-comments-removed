@@ -126,6 +126,7 @@ ExitNowMsg
 (
 PipelineExitType
 )
+TickAnimationsMsg
 }
 pub
 struct

@@ -272,6 +272,10 @@ f32
 >
 >
 pub
+running_animations
+:
+bool
+pub
 children
 :
 Vec
@@ -908,6 +912,9 @@ vec
 rect
 :
 rect
+running_animations
+:
+false
 }
 }
 pub

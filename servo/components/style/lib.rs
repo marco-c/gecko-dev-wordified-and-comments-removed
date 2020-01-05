@@ -226,6 +226,10 @@ pub
 mod
 legacy
 ;
+pub
+mod
+animation
+;
 macro_rules
 !
 reexport_computed_values

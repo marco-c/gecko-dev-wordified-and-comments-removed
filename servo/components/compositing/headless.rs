@@ -457,6 +457,15 @@ ChangePaintState
 Msg
 :
 :
+ChangeRunningAnimationsState
+(
+.
+.
+)
+|
+Msg
+:
+:
 ScrollFragmentPoint
 (
 .

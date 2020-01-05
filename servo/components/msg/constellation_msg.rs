@@ -489,6 +489,15 @@ PipelineId
 SubpageId
 MozBrowserEvent
 )
+ChangeRunningAnimationsState
+(
+PipelineId
+bool
+)
+TickAnimation
+(
+PipelineId
+)
 }
 pub
 enum
