@@ -16164,7 +16164,10 @@ true
 replaces
 =
 "
-mozilla_UniquePtr
+mozilla
+:
+:
+UniquePtr
 "
 >
 *
