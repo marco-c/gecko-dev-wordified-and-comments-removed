@@ -575,6 +575,7 @@ function
 let
 directory
 =
+yield
 utils
 .
 getPackagedDirectory
