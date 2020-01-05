@@ -392,13 +392,9 @@ cloneContents
 (
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 void
 insertNode
 (
