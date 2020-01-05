@@ -14271,8 +14271,8 @@ name
 representation
 "
 :
-str_to_const_array
-(
+'
+b
 "
 function
 %
@@ -14292,9 +14292,9 @@ code
 n
 }
 "
+'
 %
 name
-)
             
 "
 depth
@@ -14318,8 +14318,6 @@ InterfaceObjectClass
 :
 NonCallbackInterfaceObjectClass
 =
-unsafe
-{
     
 NonCallbackInterfaceObjectClass
 :
@@ -14357,7 +14355,6 @@ depth
 )
 s
 )
-}
 ;
 "
 "
