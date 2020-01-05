@@ -132,6 +132,13 @@ h
 #
 include
 "
+DecoderDoctorDiagnostics
+.
+h
+"
+#
+include
+"
 MediaDecoderOwner
 .
 h
@@ -1547,6 +1554,13 @@ aError
 )
 ;
 void
+OnDecoderDoctorEvent
+(
+DecoderDoctorEvent
+aEvent
+)
+;
+void
 OnMediaNotSeekable
 (
 )
@@ -1786,6 +1800,9 @@ mOnPlaybackEvent
 ;
 MediaEventListener
 mOnPlaybackErrorEvent
+;
+MediaEventListener
+mOnDecoderDoctorEvent
 ;
 MediaEventListener
 mOnMediaNotSeekable
