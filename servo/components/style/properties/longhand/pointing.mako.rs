@@ -539,10 +539,10 @@ gecko_ffi_name
 "
 mUserFocus
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_USER_FOCUS
+StyleUserFocus
 "
 animatable
 =
