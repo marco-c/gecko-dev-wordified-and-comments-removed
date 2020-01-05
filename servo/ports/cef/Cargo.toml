@@ -62,7 +62,7 @@ version
 .
 6
 .
-2
+4
 "
 features
 =
@@ -78,6 +78,8 @@ gleam
 0
 .
 2
+.
+8
 "
 libc
 =
@@ -96,7 +98,7 @@ version
 .
 5
 .
-5
+7
 "
 features
 =
@@ -467,6 +469,8 @@ cocoa
 0
 .
 2
+.
+5
 "
 core
 -
@@ -493,7 +497,7 @@ text
 "
 1
 .
-0
+1
 "
 cgl
 =
