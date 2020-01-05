@@ -57,12 +57,6 @@ getter_AddRefs
 (
 mPipeOut
 )
-mozilla
-:
-:
-net
-:
-:
 nsIOService
 :
 :

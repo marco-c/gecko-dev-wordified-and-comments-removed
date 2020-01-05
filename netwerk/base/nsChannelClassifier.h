@@ -7,13 +7,6 @@ nsChannelClassifier_h__
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIURIClassifier
 .
 h
