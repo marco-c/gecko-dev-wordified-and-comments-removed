@@ -28,7 +28,7 @@ VS_VCVARS
 IF
 NOT
 DEFINED
-VisualStudioVersion
+Platform
 (
 IF
 EXIST
