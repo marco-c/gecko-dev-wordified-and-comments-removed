@@ -1430,17 +1430,6 @@ EnsureFxAccountsWebChannel
 "
 ]
 "
-FxaMigrator
-.
-jsm
-"
-:
-[
-"
-fxaMigrator
-"
-]
-"
 gDevTools
 .
 jsm
