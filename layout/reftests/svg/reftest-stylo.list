@@ -6043,7 +6043,6 @@ test
 SVG
 behavior
 .
-fails
 =
 =
 text
@@ -7836,7 +7835,6 @@ change
 restyles
 .
 svg
-fails
 =
 =
 mask

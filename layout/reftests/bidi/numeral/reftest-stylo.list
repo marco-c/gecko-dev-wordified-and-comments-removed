@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 pref
 (
 bidi
@@ -34,7 +33,6 @@ arabic
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -54,7 +52,6 @@ arabic
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -74,7 +71,6 @@ arabic
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -94,7 +90,6 @@ arabic
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -114,7 +109,6 @@ arabic
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -134,7 +128,6 @@ arabic
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -154,7 +147,6 @@ arabic
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -174,7 +166,6 @@ arabic
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -194,7 +185,6 @@ arabic
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -214,7 +204,6 @@ arabic
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -234,7 +223,6 @@ arabic
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -254,7 +242,6 @@ arabic
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -274,7 +261,6 @@ arabic
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -294,7 +280,6 @@ arabic
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -314,7 +299,6 @@ arabic
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -334,7 +318,6 @@ arabic
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -354,7 +337,6 @@ arabic
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -374,7 +356,6 @@ arabic
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -394,7 +375,6 @@ arabic
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -414,7 +394,6 @@ arabic
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -434,7 +413,6 @@ arabic
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -454,7 +432,6 @@ arabic
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -474,7 +451,6 @@ arabic
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -494,7 +470,6 @@ arabic
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1638,7 +1613,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1658,7 +1632,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1678,7 +1651,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1698,7 +1670,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1718,7 +1689,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1738,7 +1708,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1758,7 +1727,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1778,7 +1746,6 @@ persian
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1798,7 +1765,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1818,7 +1784,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1838,7 +1803,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1858,7 +1822,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1878,7 +1841,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1898,7 +1860,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1918,7 +1879,6 @@ persian
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1938,7 +1898,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1958,7 +1917,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1978,7 +1936,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1998,7 +1955,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -2018,7 +1974,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -2038,7 +1993,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -2058,7 +2012,6 @@ persian
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -2078,7 +2031,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2098,7 +2050,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2118,7 +2069,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2138,7 +2088,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2158,7 +2107,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2178,7 +2126,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2198,7 +2145,6 @@ persian
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -2218,7 +2164,6 @@ persian
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -2238,7 +2183,6 @@ persian
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -2258,7 +2202,6 @@ persian
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -2278,7 +2221,6 @@ persian
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -2298,7 +2240,6 @@ persian
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -2318,7 +2259,6 @@ persian
 5
 .
 html
-fails
 pref
 (
 bidi
