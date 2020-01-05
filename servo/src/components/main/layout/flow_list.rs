@@ -173,6 +173,7 @@ mut_null
 )
 }
 }
+pub
 fn
 some
 (
@@ -247,6 +248,7 @@ me
 )
 }
 }
+pub
 fn
 resolve
 (
