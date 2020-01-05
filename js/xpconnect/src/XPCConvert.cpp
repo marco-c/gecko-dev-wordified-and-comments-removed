@@ -4170,9 +4170,6 @@ dest
 )
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 if
 (
 iid
@@ -4239,8 +4236,6 @@ dest
 ;
 }
 }
-#
-endif
 RootedObject
 cpow
 (
@@ -4766,9 +4761,6 @@ return
 false
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 if
 (
 iid
@@ -4841,8 +4833,6 @@ dest
 ;
 }
 }
-#
-endif
 }
 RefPtr
 <
