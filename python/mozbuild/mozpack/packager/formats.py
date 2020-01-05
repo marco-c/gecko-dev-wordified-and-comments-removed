@@ -55,6 +55,18 @@ FileRegistrySubtree
     
 Jarrer
 )
+STARTUP_CACHE_PATHS
+=
+[
+    
+'
+jsloader
+'
+    
+'
+jssubloader
+'
+]
 '
 '
 '
@@ -2331,3 +2343,10 @@ locale
 '
         
 ]
+or
+path
+[
+0
+]
+in
+STARTUP_CACHE_PATHS
