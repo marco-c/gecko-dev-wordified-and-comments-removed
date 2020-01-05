@@ -70,6 +70,10 @@ hyper
 ;
 extern
 crate
+immeta
+;
+extern
+crate
 ipc_channel
 ;
 #

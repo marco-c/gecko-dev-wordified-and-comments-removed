@@ -3241,6 +3241,14 @@ ImageResponse
 :
 :
 None
+|
+ImageResponse
+:
+:
+MetadataLoaded
+(
+_
+)
 =
 >
 {

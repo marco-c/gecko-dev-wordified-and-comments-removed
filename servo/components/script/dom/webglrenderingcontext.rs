@@ -9863,6 +9863,14 @@ ImageResponse
 :
 :
 None
+|
+ImageResponse
+:
+:
+MetadataLoaded
+(
+_
+)
 =
 >
 return
