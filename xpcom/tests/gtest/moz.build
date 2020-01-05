@@ -145,6 +145,11 @@ TestExpirationTracker
 cpp
 '
 '
+TestFile
+.
+cpp
+'
+'
 TestNSPRLogModulesParser
 .
 cpp
