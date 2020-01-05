@@ -9,11 +9,7 @@ include
 "
 jit
 /
-shared
-/
-Architecture
--
-shared
+JitSpewer
 .
 h
 "
@@ -22,7 +18,11 @@ include
 "
 jit
 /
-JitSpewer
+shared
+/
+Architecture
+-
+shared
 .
 h
 "
