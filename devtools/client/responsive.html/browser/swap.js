@@ -134,6 +134,12 @@ function
 (
 )
 {
+tab
+.
+isReponsiveDesignMode
+=
+true
+;
 freezeNavigationState
 (
 tab
@@ -413,6 +419,11 @@ frameLoader
 activateRemoteFrame
 (
 )
+;
+delete
+tab
+.
+isReponsiveDesignMode
 ;
 }
 }
