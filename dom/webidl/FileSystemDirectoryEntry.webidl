@@ -150,8 +150,7 @@ called
 /
 /
 with
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
-.
+SecurityError
 void
 removeRecursively
 (
