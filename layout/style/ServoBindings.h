@@ -594,8 +594,8 @@ mozilla
 ServoStyleSheet
 *
 parent
-RawServoImportRuleBorrowed
-import_rule
+RawServoStyleSheetBorrowed
+child_sheet
 RawGeckoURLExtraData
 *
 base_url_data

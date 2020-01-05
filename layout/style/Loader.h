@@ -831,9 +831,9 @@ ImportRule
 *
 aGeckoParentRule
 const
-RawServoImportRule
+RawServoStyleSheet
 *
-aServoParentRule
+aServoChildSheet
 LoaderReusableStyleSheets
 *
 aSavedSheets
@@ -1190,9 +1190,9 @@ ImportRule
 *
 aGeckoParentRule
 const
-RawServoImportRule
+RawServoStyleSheet
 *
-aServoParentRule
+aServoChildSheet
 )
 ;
 nsresult
