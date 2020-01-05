@@ -942,17 +942,6 @@ nsAString
 aID
 )
 {
-#
-if
-defined
-(
-XP_WIN
-)
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-else
 ProxyAccessible
 *
 proxy
@@ -996,8 +985,6 @@ id
 return
 NS_OK
 ;
-#
-endif
 }
 NS_IMETHODIMP
 xpcAccessible
