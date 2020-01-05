@@ -133,7 +133,7 @@ override
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 NS_IMETHOD
-GetPluginVersionForAPI
+HasPluginForAPI
 (
 const
 nsACString
@@ -147,10 +147,7 @@ nsCString
 aTags
 bool
 *
-aHasPlugin
-nsACString
-&
-aOutVersion
+aRetVal
 )
 override
 ;

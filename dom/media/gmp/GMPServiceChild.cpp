@@ -1110,7 +1110,7 @@ NS_IMETHODIMP
 GeckoMediaPluginServiceChild
 :
 :
-GetPluginVersionForAPI
+HasPluginForAPI
 (
 const
 nsACString
@@ -1125,9 +1125,6 @@ aTags
 bool
 *
 aHasPlugin
-nsACString
-&
-aOutVersion
 )
 {
 MOZ_ASSERT
@@ -1185,12 +1182,6 @@ aTags
 )
 )
 {
-aOutVersion
-=
-plugin
-.
-mVersion
-;
 *
 aHasPlugin
 =
