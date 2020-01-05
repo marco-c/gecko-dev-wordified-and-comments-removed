@@ -2010,6 +2010,14 @@ CFG_SUBMODULES
 \
 support
 /
+alert
+/
+rust
+-
+alert
+\
+support
+/
 azure
 /
 rust
