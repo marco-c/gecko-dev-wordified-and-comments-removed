@@ -23,11 +23,7 @@ version
 .
 VER
 =
-v0
-.
-8
-.
-0
+3a779097b7518efdc55293e7e4cbb713e882a1ca
 #
 Accept
 version
