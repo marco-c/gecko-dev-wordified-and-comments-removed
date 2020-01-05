@@ -201,6 +201,11 @@ Accounts
 jsm
 '
 '
+BrowserActions
+.
+jsm
+'
+'
 dbg
 -
 browser
