@@ -560,7 +560,11 @@ data
 :
 image
 /
-vndmicrosofticon
+vnd
+.
+microsoft
+.
+icon
 ;
 base64
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8
