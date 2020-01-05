@@ -3693,8 +3693,6 @@ _receiveMessage
 aMessage
 )
 ;
-break
-;
 }
 return
 undefined

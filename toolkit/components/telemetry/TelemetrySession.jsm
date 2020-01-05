@@ -2266,8 +2266,6 @@ _onSchedulerTick
 (
 )
 ;
-break
-;
 case
 "
 active
@@ -2286,8 +2284,6 @@ _onSchedulerTick
 (
 )
 ;
-break
-;
 case
 "
 wake_notification
@@ -2299,8 +2295,6 @@ this
 _onSchedulerTick
 (
 )
-;
-break
 ;
 }
 return

@@ -1328,8 +1328,6 @@ aOptions2
 .
 sortingAnnotation
 ;
-break
-;
 }
 return
 true

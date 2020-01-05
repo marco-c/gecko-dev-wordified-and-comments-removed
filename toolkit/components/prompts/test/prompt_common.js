@@ -957,8 +957,6 @@ method
 "
 )
 ;
-break
-;
 }
 }
 let

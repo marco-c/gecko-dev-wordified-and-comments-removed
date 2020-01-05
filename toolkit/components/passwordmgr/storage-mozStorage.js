@@ -1431,6 +1431,12 @@ e
 message
 )
 ;
+transaction
+.
+rollback
+(
+)
+;
 throw
 new
 Error
@@ -1447,12 +1453,6 @@ not
 removed
 .
 "
-)
-;
-transaction
-.
-rollback
-(
 )
 ;
 }

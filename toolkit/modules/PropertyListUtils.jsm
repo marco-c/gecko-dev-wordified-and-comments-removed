@@ -500,9 +500,6 @@ ex
 )
 ;
 }
-return
-null
-;
 }
 TYPE_PRIMITIVE
 :

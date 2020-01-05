@@ -381,8 +381,6 @@ system
 "
 )
 ;
-break
-;
 }
 }
 _buildImagePath

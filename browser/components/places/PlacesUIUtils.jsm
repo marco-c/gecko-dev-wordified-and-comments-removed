@@ -2277,8 +2277,6 @@ container
 index
 )
 ;
-break
-;
 case
 PlacesUtils
 .
@@ -2320,8 +2318,6 @@ container
 index
 )
 ;
-break
-;
 case
 PlacesUtils
 .
@@ -2351,8 +2347,6 @@ id
 container
 index
 )
-;
-break
 ;
 default
 :

@@ -1496,8 +1496,6 @@ data
 maxTotalProgress
 )
 ;
-break
-;
 }
 case
 "
@@ -1567,8 +1565,6 @@ data
 .
 status
 )
-;
-break
 ;
 }
 }

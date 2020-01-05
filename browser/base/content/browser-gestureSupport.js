@@ -3213,9 +3213,6 @@ return
 false
 ;
 }
-return
-true
-;
 }
 _navigateToHistoryIndex
 :

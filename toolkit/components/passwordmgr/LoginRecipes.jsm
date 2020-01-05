@@ -491,8 +491,6 @@ file
 result
 )
 ;
-return
-;
 }
 let
 count

@@ -5927,9 +5927,6 @@ return
 null
 ;
 }
-return
-null
-;
 }
 _updateSettings
 :
