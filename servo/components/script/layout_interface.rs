@@ -77,7 +77,6 @@ constellation_msg
 {
 ConstellationChan
 Failure
-PipelineExitType
 PipelineId
 }
 ;
@@ -301,9 +300,6 @@ Sender
 >
 )
 ExitNow
-(
-PipelineExitType
-)
 GetCurrentEpoch
 (
 IpcSender

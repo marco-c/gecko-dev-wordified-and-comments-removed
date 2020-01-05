@@ -180,7 +180,6 @@ constellation_msg
 :
 {
 MozBrowserEvent
-PipelineExitType
 PipelineNamespaceId
 }
 ;
@@ -308,9 +307,6 @@ enum
 LayoutControlMsg
 {
 ExitNow
-(
-PipelineExitType
-)
 GetCurrentEpoch
 (
 IpcSender
@@ -443,7 +439,6 @@ WindowSizeData
 ExitPipeline
 (
 PipelineId
-PipelineExitType
 )
 SendEvent
 (
