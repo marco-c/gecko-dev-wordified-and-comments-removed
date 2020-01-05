@@ -265,14 +265,14 @@ UNIFIED_SOURCES
 '
 android
 /
-AndroidAlarm
+AndroidSensor
 .
 cpp
 '
 '
-android
+fallback
 /
-AndroidSensor
+FallbackAlarm
 .
 cpp
 '

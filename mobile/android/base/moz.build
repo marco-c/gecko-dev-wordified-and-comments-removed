@@ -2195,11 +2195,6 @@ x
 in
 [
 '
-AlarmReceiver
-.
-java
-'
-'
 AndroidGamepadManager
 .
 java
