@@ -142,6 +142,7 @@ in
 these
 cases
 .
+fails
 =
 =
 webkit
@@ -154,7 +155,7 @@ flex
 -
 items
 -
-1
+1a
 .
 html
 webkit
@@ -167,9 +168,39 @@ flex
 -
 items
 -
-1
+1a
 .
 html
+fails
+=
+=
+webkit
+-
+box
+-
+anon
+-
+flex
+-
+items
+-
+1b
+.
+html
+webkit
+-
+box
+-
+anon
+-
+flex
+-
+items
+-
+1b
+.
+html
+fails
 =
 =
 webkit
@@ -198,6 +229,7 @@ items
 2
 .
 html
+fails
 =
 =
 webkit
@@ -248,6 +280,7 @@ as
 display
 values
 :
+fails
 =
 =
 webkit
@@ -286,6 +319,7 @@ axis
 alignment
 )
 :
+fails
 =
 =
 webkit
@@ -310,6 +344,7 @@ horiz
 1a
 .
 html
+fails
 =
 =
 webkit
@@ -334,6 +369,7 @@ horiz
 1b
 .
 html
+fails
 =
 =
 webkit
@@ -370,6 +406,7 @@ box
 direction
 "
 :
+fails
 =
 =
 webkit
@@ -390,6 +427,7 @@ direction
 1
 .
 html
+fails
 =
 =
 webkit
@@ -426,6 +464,7 @@ flexibility
 of
 items
 )
+fails
 =
 =
 webkit
@@ -459,6 +498,7 @@ ordinal
 -
 group
 "
+fails
 =
 =
 webkit
@@ -565,6 +605,7 @@ value
 being
 rejected
 .
+fails
 =
 =
 webkit
@@ -589,6 +630,7 @@ group
 2
 .
 html
+fails
 =
 =
 webkit
@@ -631,6 +673,7 @@ axis
 alignment
 )
 :
+fails
 =
 =
 webkit
@@ -655,6 +698,7 @@ horiz
 1a
 .
 html
+fails
 =
 =
 webkit
@@ -679,6 +723,7 @@ horiz
 1b
 .
 html
+fails
 =
 =
 webkit

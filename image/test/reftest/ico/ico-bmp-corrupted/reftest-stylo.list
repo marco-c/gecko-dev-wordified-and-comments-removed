@@ -37,7 +37,6 @@ decoding
 the
 header
 .
-skip
 =
 =
 wrapper
@@ -72,7 +71,6 @@ the
 image
 data
 .
-skip
 =
 =
 wrapper
@@ -111,7 +109,6 @@ the
 image
 data
 .
-skip
 =
 =
 wrapper
@@ -148,7 +145,6 @@ the
 image
 data
 .
-skip
 =
 =
 wrapper

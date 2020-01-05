@@ -17,14 +17,6 @@ testing
 #
 ICO
 tests
-#
-bmp
-tests
-cause
-lots
-of
-intermittents
-#
 include
 ico
 -
@@ -37,7 +29,6 @@ reftest
 stylo
 .
 list
-#
 include
 ico
 -
@@ -50,7 +41,6 @@ reftest
 stylo
 .
 list
-#
 include
 ico
 -
@@ -63,7 +53,6 @@ reftest
 stylo
 .
 list
-#
 include
 ico
 -
@@ -76,7 +65,6 @@ reftest
 stylo
 .
 list
-#
 include
 ico
 -
@@ -89,7 +77,6 @@ reftest
 stylo
 .
 list
-#
 include
 ico
 -

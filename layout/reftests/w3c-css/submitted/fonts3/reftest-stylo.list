@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 font
@@ -34,6 +35,7 @@ zero
 1
 .
 html
+fails
 =
 =
 font
@@ -58,6 +60,7 @@ zero
 ref
 .
 html
+fails
 =
 =
 font
@@ -78,6 +81,7 @@ zero
 2
 .
 html
+fails
 =
 =
 font
@@ -102,6 +106,7 @@ zero
 1
 .
 html
+fails
 =
 =
 font

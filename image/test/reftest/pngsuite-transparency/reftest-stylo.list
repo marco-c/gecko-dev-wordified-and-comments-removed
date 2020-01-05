@@ -25,7 +25,6 @@ transparent
 black
 background
 chunk
-skip
 =
 =
 wrapper
@@ -49,7 +48,6 @@ transparent
 blue
 background
 chunk
-skip
 =
 =
 wrapper
@@ -73,7 +71,6 @@ transparent
 black
 background
 chunk
-skip
 =
 =
 wrapper
@@ -97,7 +94,6 @@ transparent
 green
 background
 chunk
-skip
 =
 =
 wrapper
@@ -123,7 +119,6 @@ light
 gray
 background
 chunk
-skip
 =
 =
 wrapper
@@ -147,7 +142,6 @@ transparent
 red
 background
 chunk
-skip
 =
 =
 wrapper
@@ -171,7 +165,6 @@ transparent
 white
 background
 chunk
-skip
 =
 =
 wrapper
@@ -195,7 +188,6 @@ transparent
 white
 background
 chunk
-skip
 =
 =
 wrapper
@@ -219,7 +211,6 @@ transparent
 yellow
 background
 chunk
-skip
 =
 =
 wrapper
@@ -295,7 +286,6 @@ but
 no
 background
 chunk
-skip
 =
 =
 wrapper

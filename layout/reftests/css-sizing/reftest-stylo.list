@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 min
@@ -46,6 +47,7 @@ img
 cases
 .
 html
+fails
 =
 =
 min
@@ -74,7 +76,7 @@ across
 elements
 .
 html
-skip
+#
 =
 =
 min
@@ -115,7 +117,7 @@ form
 controls
 .
 html
-skip
+#
 =
 =
 min

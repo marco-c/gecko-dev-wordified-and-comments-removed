@@ -24,6 +24,7 @@ container
 being
 fragmented
 :
+fails
 =
 =
 flexbox
@@ -40,6 +41,7 @@ empty
 1a
 .
 html
+fails
 =
 =
 flexbox
@@ -56,6 +58,7 @@ empty
 1b
 .
 html
+fails
 =
 =
 flexbox
@@ -72,6 +75,7 @@ empty
 1c
 .
 html
+fails
 =
 =
 flexbox
@@ -107,6 +111,7 @@ block
 being
 fragmented
 :
+fails
 =
 =
 flexbox
@@ -123,6 +128,7 @@ empty
 1e
 .
 html
+fails
 =
 =
 flexbox
@@ -139,6 +145,7 @@ empty
 1f
 .
 html
+fails
 =
 =
 flexbox
@@ -155,6 +162,7 @@ empty
 1g
 .
 html
+fails
 =
 =
 flexbox
@@ -195,6 +203,7 @@ the
 available
 height
 :
+fails
 =
 =
 flexbox
@@ -211,6 +220,7 @@ empty
 2a
 .
 html
+fails
 =
 =
 flexbox
@@ -227,6 +237,7 @@ empty
 2b
 .
 html
+fails
 =
 =
 flexbox
@@ -243,6 +254,7 @@ empty
 2c
 .
 html
+fails
 =
 =
 flexbox
@@ -272,6 +284,7 @@ with
 one
 unbreakable
 child
+fails
 =
 =
 flexbox
@@ -292,6 +305,7 @@ child
 1a
 .
 html
+fails
 =
 =
 flexbox
@@ -316,6 +330,7 @@ child
 wrap
 .
 html
+fails
 =
 =
 flexbox
@@ -336,6 +351,7 @@ child
 1b
 .
 html
+fails
 =
 =
 flexbox
@@ -360,6 +376,7 @@ child
 wrap
 .
 html
+fails
 =
 =
 flexbox
@@ -380,6 +397,7 @@ child
 1c
 .
 html
+fails
 =
 =
 flexbox
@@ -404,6 +422,7 @@ child
 wrap
 .
 html
+fails
 =
 =
 flexbox
@@ -424,6 +443,7 @@ child
 1d
 .
 html
+fails
 =
 =
 flexbox
@@ -448,6 +468,7 @@ child
 wrap
 .
 html
+fails
 =
 =
 flexbox

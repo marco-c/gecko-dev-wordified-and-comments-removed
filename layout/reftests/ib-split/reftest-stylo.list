@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 remove
@@ -34,19 +35,9 @@ inline
 1
 .
 html
+fails
 =
 =
-remove
--
-from
--
-split
--
-inline
--
-1
-.
-html
 remove
 -
 from
@@ -58,8 +49,6 @@ inline
 1
 .
 html
-=
-=
 remove
 -
 from
@@ -69,10 +58,11 @@ split
 inline
 -
 1
--
-ref
 .
 html
+fails
+=
+=
 remove
 -
 from
@@ -86,6 +76,20 @@ inline
 ref
 .
 html
+remove
+-
+from
+-
+split
+-
+inline
+-
+1
+-
+ref
+.
+html
+fails
 =
 =
 remove
@@ -110,6 +114,7 @@ inline
 2
 .
 html
+fails
 =
 =
 remove
@@ -134,6 +139,7 @@ inline
 3
 .
 html
+fails
 =
 =
 remove
@@ -162,6 +168,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 remove
@@ -186,6 +193,7 @@ inline
 4
 .
 html
+fails
 =
 =
 remove
@@ -214,6 +222,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 remove
@@ -238,6 +247,7 @@ inline
 5
 .
 html
+fails
 =
 =
 remove
@@ -266,6 +276,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 remove
@@ -290,6 +301,7 @@ inline
 6
 .
 html
+fails
 =
 =
 remove
@@ -318,6 +330,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -342,6 +355,7 @@ inline
 1a
 .
 html
+fails
 =
 =
 insert
@@ -366,6 +380,7 @@ inline
 1b
 .
 html
+fails
 =
 =
 insert
@@ -390,6 +405,7 @@ inline
 1c
 .
 html
+fails
 =
 =
 insert
@@ -414,6 +430,7 @@ inline
 1d
 .
 html
+fails
 =
 =
 insert
@@ -438,6 +455,7 @@ inline
 1e
 .
 html
+fails
 =
 =
 insert
@@ -462,6 +480,7 @@ inline
 1f
 .
 html
+fails
 =
 =
 insert
@@ -486,6 +505,7 @@ inline
 1g
 .
 html
+fails
 =
 =
 insert
@@ -510,6 +530,7 @@ inline
 1h
 .
 html
+fails
 =
 =
 insert
@@ -534,6 +555,7 @@ inline
 1i
 .
 html
+fails
 =
 =
 insert
@@ -558,6 +580,7 @@ inline
 1j
 .
 html
+fails
 =
 =
 insert
@@ -582,6 +605,7 @@ inline
 1k
 .
 html
+fails
 =
 =
 insert
@@ -606,6 +630,7 @@ inline
 1l
 .
 html
+fails
 =
 =
 insert
@@ -634,6 +659,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -658,6 +684,7 @@ inline
 2a
 .
 html
+fails
 =
 =
 insert
@@ -682,6 +709,7 @@ inline
 2b
 .
 html
+fails
 =
 =
 insert
@@ -706,6 +734,7 @@ inline
 2c
 .
 html
+fails
 =
 =
 insert
@@ -730,6 +759,7 @@ inline
 2d
 .
 html
+fails
 =
 =
 insert
@@ -754,6 +784,7 @@ inline
 2e
 .
 html
+fails
 =
 =
 insert
@@ -778,6 +809,7 @@ inline
 2f
 .
 html
+fails
 =
 =
 insert
@@ -802,6 +834,7 @@ inline
 2g
 .
 html
+fails
 =
 =
 insert
@@ -826,6 +859,7 @@ inline
 2h
 .
 html
+fails
 =
 =
 insert
@@ -850,6 +884,7 @@ inline
 2i
 .
 html
+fails
 =
 =
 insert
@@ -878,6 +913,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -902,6 +938,7 @@ inline
 3
 .
 html
+fails
 =
 =
 insert
@@ -930,6 +967,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -954,6 +992,7 @@ inline
 4
 .
 html
+fails
 =
 =
 insert
@@ -982,6 +1021,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1006,6 +1046,7 @@ inline
 5
 .
 html
+fails
 =
 =
 insert
@@ -1034,6 +1075,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1058,6 +1100,7 @@ inline
 6
 .
 html
+fails
 =
 =
 insert
@@ -1086,6 +1129,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1110,6 +1154,7 @@ inline
 7
 .
 html
+fails
 =
 =
 insert
@@ -1138,6 +1183,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1162,6 +1208,7 @@ inline
 8a
 .
 html
+fails
 =
 =
 insert
@@ -1186,6 +1233,7 @@ inline
 8b
 .
 html
+fails
 =
 =
 insert
@@ -1210,6 +1258,7 @@ inline
 8c
 .
 html
+fails
 =
 =
 insert
@@ -1238,6 +1287,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1262,6 +1312,7 @@ inline
 9
 .
 html
+fails
 =
 =
 insert
@@ -1290,6 +1341,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1314,6 +1366,7 @@ inline
 10
 .
 html
+fails
 =
 =
 insert
@@ -1342,6 +1395,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1366,6 +1420,7 @@ inline
 11
 .
 html
+fails
 =
 =
 insert
@@ -1394,6 +1449,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1418,6 +1474,7 @@ inline
 12
 .
 html
+fails
 =
 =
 insert
@@ -1446,6 +1503,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1470,6 +1528,7 @@ inline
 13
 .
 html
+fails
 =
 =
 insert
@@ -1498,6 +1557,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1522,6 +1582,7 @@ inline
 14
 .
 html
+fails
 =
 =
 insert
@@ -1550,6 +1611,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1574,6 +1636,7 @@ inline
 15
 .
 html
+fails
 =
 =
 insert
@@ -1602,6 +1665,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 insert
@@ -1626,6 +1690,7 @@ inline
 16a
 .
 html
+fails
 =
 =
 insert
@@ -1650,6 +1715,7 @@ inline
 16b
 .
 html
+fails
 =
 =
 insert
@@ -1678,6 +1744,7 @@ inline
 ref
 .
 html
+fails
 =
 =
 float
@@ -1706,6 +1773,7 @@ blocks
 1
 .
 html
+fails
 =
 =
 table
@@ -1730,6 +1798,7 @@ part3
 1
 .
 html
+fails
 =
 =
 emptyspan
@@ -1742,7 +1811,7 @@ emptyspan
 1
 .
 html
-skip
+fails
 =
 =
 emptyspan
@@ -1755,6 +1824,7 @@ emptyspan
 2
 .
 html
+fails
 =
 =
 emptyspan
@@ -1767,6 +1837,7 @@ emptyspan
 3
 .
 html
+fails
 =
 =
 emptyspan
@@ -1779,6 +1850,7 @@ emptyspan
 4
 .
 html
+fails
 =
 =
 split
@@ -1799,6 +1871,7 @@ inline
 1
 .
 html
+fails
 =
 =
 split
@@ -1819,6 +1892,7 @@ inline
 2
 .
 html
+fails
 =
 =
 whitespace
@@ -1835,6 +1909,7 @@ present
 1a
 .
 html
+fails
 =
 =
 whitespace
@@ -1931,6 +2006,7 @@ margins
 2b
 .
 html
+fails
 =
 =
 trailing
@@ -1955,7 +2031,7 @@ continuations
 1
 .
 html
-skip
+fails
 =
 =
 append
@@ -1984,7 +2060,7 @@ inline
 1
 .
 html
-skip
+fails
 =
 =
 append
@@ -2013,7 +2089,7 @@ inline
 1
 .
 html
-skip
+fails
 =
 =
 append

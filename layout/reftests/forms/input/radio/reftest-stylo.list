@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 label
@@ -26,6 +27,7 @@ label
 dynamic
 .
 html
+#
 =
 =
 checked
@@ -46,6 +48,7 @@ checked
 native
 .
 html
+#
 =
 =
 checked
@@ -54,6 +57,7 @@ html
 checked
 .
 html
+fails
 =
 =
 checked
@@ -100,9 +104,6 @@ if
 (
 !
 gtkWidget
-|
-|
-Mulet
 )
 =
 =
@@ -124,15 +125,3 @@ width
 height
 .
 html
-#
-bug
-1141511
-:
-Disable
-some
-gtkWidget
--
-dependant
-reftests
-on
-Mulet

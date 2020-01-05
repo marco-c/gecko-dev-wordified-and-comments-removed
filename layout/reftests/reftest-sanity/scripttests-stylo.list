@@ -74,7 +74,7 @@ scripttest
 pass
 .
 html
-skip
+fails
 script
 scripttest
 -

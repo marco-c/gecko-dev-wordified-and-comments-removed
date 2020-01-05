@@ -420,12 +420,6 @@ rightA
 html
 ?
 border_parent
-random
--
-if
-(
-cocoaWidget
-)
 =
 =
 fromauto
@@ -454,9 +448,6 @@ rightA
 html
 ?
 border_parent
-#
-Bug
-688545
 =
 =
 fromauto

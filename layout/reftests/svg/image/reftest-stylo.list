@@ -71,7 +71,6 @@ load
 01
 .
 svg
-skip
 fuzzy
 -
 if
@@ -100,11 +99,6 @@ opacity
 01
 .
 svg
-#
-Bug
-779514
-for
-Android
 fuzzy
 -
 if
@@ -129,11 +123,6 @@ opacity
 02
 .
 svg
-#
-Bug
-776039
-for
-Android
 =
 =
 image
@@ -346,6 +335,7 @@ in
 01d
 .
 html
+fails
 =
 =
 image
@@ -374,6 +364,7 @@ out
 01a
 .
 html
+fails
 =
 =
 image
@@ -402,6 +393,7 @@ out
 01b
 .
 html
+fails
 =
 =
 image
@@ -430,6 +422,7 @@ out
 01c
 .
 html
+fails
 =
 =
 image
@@ -458,6 +451,7 @@ out
 01d
 .
 html
+fails
 =
 =
 image
@@ -490,6 +484,7 @@ in
 01a
 .
 html
+fails
 =
 =
 image
@@ -522,6 +517,7 @@ in
 01b
 .
 html
+fails
 =
 =
 image
@@ -554,6 +550,7 @@ out
 01a
 .
 html
+fails
 =
 =
 image

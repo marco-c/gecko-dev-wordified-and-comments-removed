@@ -420,12 +420,6 @@ rightA
 html
 ?
 margin_parent
-random
--
-if
-(
-cocoaWidget
-)
 =
 =
 fromauto
@@ -454,9 +448,6 @@ rightA
 html
 ?
 margin_parent
-#
-Bug
-688545
 =
 =
 fromauto
@@ -481,7 +472,6 @@ rightN
 html
 ?
 margin_parent
-skip
 =
 =
 fromauto

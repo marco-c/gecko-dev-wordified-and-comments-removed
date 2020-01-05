@@ -24,6 +24,7 @@ Images
 of
 various
 sizes
+fails
 =
 =
 ico
@@ -44,6 +45,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -64,6 +66,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -84,6 +87,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -104,7 +108,7 @@ size
 24bpp
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -125,6 +129,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -145,6 +150,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -165,6 +171,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -185,6 +192,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -205,6 +213,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -225,6 +234,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -245,6 +255,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -265,6 +276,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -306,6 +318,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -326,6 +339,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -346,6 +360,7 @@ size
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -366,6 +381,7 @@ transparent
 24bpp
 .
 ico
+fails
 =
 =
 ico
@@ -382,6 +398,7 @@ transparent
 24bpp
 .
 ico
+fails
 =
 =
 ico

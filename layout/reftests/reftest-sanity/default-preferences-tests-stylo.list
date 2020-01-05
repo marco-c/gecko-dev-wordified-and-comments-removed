@@ -45,7 +45,7 @@ x
 western
 24
 )
-skip
+#
 =
 =
 font
@@ -58,7 +58,7 @@ font
 default
 .
 html
-skip
+#
 =
 =
 font
@@ -80,7 +80,7 @@ preference
 can
 be
 overridden
-skip
+#
 pref
 (
 font
@@ -106,7 +106,7 @@ font
 default
 .
 html
-skip
+#
 pref
 (
 font
@@ -147,7 +147,7 @@ specific
 preferences
 are
 set
-skip
+#
 pref
 (
 font
@@ -173,7 +173,7 @@ font
 default
 .
 html
-skip
+#
 pref
 (
 font
@@ -249,7 +249,7 @@ x
 western
 24
 )
-skip
+#
 =
 =
 font
@@ -262,7 +262,7 @@ font
 default
 .
 html
-skip
+#
 =
 =
 font
@@ -275,6 +275,7 @@ font
 default
 .
 html
+fails
 =
 =
 font
@@ -303,6 +304,8 @@ apply
 to
 include
 commands
+#
+#
 include
 default
 -
@@ -320,7 +323,7 @@ preferences
 default
 -
 preferences
-skip
+#
 =
 =
 font

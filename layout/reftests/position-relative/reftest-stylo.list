@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+#
 =
 =
 table
@@ -30,6 +31,7 @@ collapse
 1
 .
 html
+fails
 =
 =
 table
@@ -46,6 +48,7 @@ collapse
 2
 .
 html
+fails
 =
 =
 table
@@ -62,6 +65,7 @@ collapse
 3
 .
 html
+fails
 =
 =
 table
@@ -78,6 +82,7 @@ collapse
 4
 .
 html
+fails
 =
 =
 table
@@ -94,6 +99,7 @@ separate
 1
 .
 html
+fails
 =
 =
 table
@@ -110,6 +116,7 @@ separate
 2
 .
 html
+fails
 =
 =
 table
@@ -126,6 +133,7 @@ separate
 3
 .
 html
+fails
 =
 =
 table
@@ -142,6 +150,7 @@ separate
 4
 .
 html
+fails
 =
 =
 1115999

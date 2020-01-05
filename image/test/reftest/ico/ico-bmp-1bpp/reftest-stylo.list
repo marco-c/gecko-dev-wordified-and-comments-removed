@@ -24,6 +24,7 @@ Images
 of
 various
 sizes
+fails
 =
 =
 ico
@@ -44,6 +45,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -64,6 +66,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -84,6 +87,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -104,6 +108,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -124,6 +129,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -144,6 +150,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -164,6 +171,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -184,6 +192,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -204,6 +213,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -224,6 +234,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -244,6 +255,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -264,6 +276,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -284,6 +297,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -304,6 +318,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -324,12 +339,7 @@ size
 1bpp
 .
 ico
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 ico
@@ -350,9 +360,7 @@ size
 1bpp
 .
 ico
-#
-bug
-773482
+fails
 =
 =
 ico
@@ -373,6 +381,7 @@ transparent
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -389,6 +398,7 @@ transparent
 1bpp
 .
 ico
+fails
 =
 =
 ico

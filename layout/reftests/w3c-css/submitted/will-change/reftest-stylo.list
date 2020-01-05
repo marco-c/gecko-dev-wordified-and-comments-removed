@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 will
@@ -46,6 +47,7 @@ path
 1
 .
 html
+fails
 =
 =
 will
@@ -102,6 +104,7 @@ height
 1
 .
 html
+fails
 =
 =
 will
@@ -130,6 +133,7 @@ isolation
 1
 .
 html
+fails
 =
 =
 will
@@ -158,6 +162,7 @@ mask
 1
 .
 html
+fails
 =
 =
 will
@@ -194,6 +199,7 @@ mode
 1
 .
 html
+fails
 =
 =
 will
@@ -222,6 +228,7 @@ opacity
 1
 .
 html
+fails
 =
 =
 will
@@ -250,6 +257,7 @@ perspective
 1
 .
 html
+fails
 =
 =
 will
@@ -278,6 +286,7 @@ position
 1
 .
 html
+fails
 =
 =
 will
@@ -306,6 +315,7 @@ transform
 1
 .
 html
+fails
 =
 =
 will
@@ -338,6 +348,7 @@ style
 1
 .
 html
+fails
 =
 =
 will
@@ -411,6 +422,7 @@ contain
 1
 .
 html
+fails
 =
 =
 will
@@ -467,6 +479,7 @@ height
 1
 .
 html
+fails
 =
 =
 will
@@ -495,6 +508,7 @@ perspective
 1
 .
 html
+fails
 =
 =
 will
@@ -523,6 +537,7 @@ position
 1
 .
 html
+fails
 =
 =
 will
@@ -551,6 +566,7 @@ transform
 1
 .
 html
+fails
 =
 =
 will

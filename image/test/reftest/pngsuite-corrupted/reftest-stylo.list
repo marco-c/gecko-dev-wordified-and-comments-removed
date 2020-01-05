@@ -42,7 +42,6 @@ empty
 0x0
 grayscale
 file
-skip
 =
 =
 wrapper
@@ -65,7 +64,6 @@ xcrn0g04
 added
 cr
 bytes
-skip
 =
 =
 wrapper
@@ -88,7 +86,6 @@ xlfn0g04
 added
 lf
 bytes
-skip
 =
 =
 wrapper

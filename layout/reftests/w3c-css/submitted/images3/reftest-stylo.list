@@ -54,6 +54,7 @@ with
 a
 PNG
 image
+fails
 =
 =
 object
@@ -103,6 +104,7 @@ png
 001e
 .
 html
+fails
 =
 =
 object
@@ -152,6 +154,7 @@ png
 001o
 .
 html
+fails
 =
 =
 object
@@ -176,6 +179,7 @@ png
 001p
 .
 html
+fails
 =
 =
 object
@@ -225,6 +229,7 @@ png
 002e
 .
 html
+fails
 =
 =
 object
@@ -274,6 +279,7 @@ png
 002o
 .
 html
+fails
 =
 =
 object
@@ -298,6 +304,7 @@ png
 002p
 .
 html
+fails
 =
 =
 object
@@ -347,6 +354,7 @@ png
 001e
 .
 html
+fails
 =
 =
 object
@@ -396,6 +404,7 @@ png
 001o
 .
 html
+fails
 =
 =
 object
@@ -420,6 +429,7 @@ png
 001p
 .
 html
+fails
 =
 =
 object
@@ -469,6 +479,7 @@ png
 002e
 .
 html
+fails
 =
 =
 object
@@ -518,6 +529,7 @@ png
 002o
 .
 html
+fails
 =
 =
 object
@@ -542,6 +554,7 @@ png
 002p
 .
 html
+fails
 =
 =
 object
@@ -591,6 +604,7 @@ png
 001e
 .
 html
+fails
 =
 =
 object
@@ -615,6 +629,7 @@ png
 001i
 .
 html
+fails
 =
 =
 object
@@ -639,6 +654,7 @@ png
 001o
 .
 html
+fails
 =
 =
 object
@@ -663,6 +679,7 @@ png
 001p
 .
 html
+fails
 =
 =
 object
@@ -712,6 +729,7 @@ png
 002e
 .
 html
+fails
 =
 =
 object
@@ -761,6 +779,7 @@ png
 002o
 .
 html
+fails
 =
 =
 object
@@ -785,7 +804,7 @@ png
 002p
 .
 html
-skip
+fails
 =
 =
 object
@@ -810,6 +829,7 @@ png
 001c
 .
 html
+fails
 =
 =
 object
@@ -834,6 +854,7 @@ png
 001e
 .
 html
+fails
 =
 =
 object
@@ -883,6 +904,7 @@ png
 001o
 .
 html
+fails
 =
 =
 object
@@ -907,6 +929,7 @@ png
 001p
 .
 html
+fails
 =
 =
 object
@@ -956,6 +979,7 @@ png
 002e
 .
 html
+fails
 =
 =
 object
@@ -1005,6 +1029,7 @@ png
 002o
 .
 html
+fails
 =
 =
 object
@@ -1029,6 +1054,7 @@ png
 002p
 .
 html
+fails
 =
 =
 object
@@ -1057,6 +1083,7 @@ png
 001c
 .
 html
+fails
 =
 =
 object
@@ -1085,6 +1112,7 @@ png
 001e
 .
 html
+fails
 =
 =
 object
@@ -1113,6 +1141,7 @@ png
 001i
 .
 html
+fails
 =
 =
 object
@@ -1141,6 +1170,7 @@ png
 001o
 .
 html
+fails
 =
 =
 object
@@ -1169,6 +1199,7 @@ png
 001p
 .
 html
+fails
 =
 =
 object
@@ -1226,6 +1257,7 @@ png
 002e
 .
 html
+fails
 =
 =
 object
@@ -1283,6 +1315,7 @@ png
 002o
 .
 html
+fails
 =
 =
 object
@@ -1354,6 +1387,7 @@ svg
 001e
 .
 html
+fails
 =
 =
 object
@@ -1378,6 +1412,7 @@ svg
 001i
 .
 html
+fails
 =
 =
 object
@@ -1402,6 +1437,7 @@ svg
 001o
 .
 html
+fails
 =
 =
 object
@@ -1451,6 +1487,7 @@ svg
 002e
 .
 html
+fails
 =
 =
 object
@@ -1500,6 +1537,7 @@ svg
 002o
 .
 html
+fails
 =
 =
 object
@@ -1549,6 +1587,7 @@ svg
 003e
 .
 html
+fails
 =
 =
 object
@@ -1598,6 +1637,7 @@ svg
 003o
 .
 html
+fails
 =
 =
 object
@@ -1647,6 +1687,7 @@ svg
 004e
 .
 html
+fails
 =
 =
 object
@@ -1671,6 +1712,7 @@ svg
 004i
 .
 html
+fails
 =
 =
 object
@@ -1695,6 +1737,7 @@ svg
 004o
 .
 html
+fails
 =
 =
 object
@@ -1719,6 +1762,7 @@ svg
 004p
 .
 html
+fails
 =
 =
 object
@@ -1743,9 +1787,7 @@ svg
 005e
 .
 html
-#
-bug
-1092436
+fails
 =
 =
 object
@@ -1770,9 +1812,7 @@ svg
 005i
 .
 html
-#
-bug
-1092436
+fails
 =
 =
 object
@@ -1797,9 +1837,7 @@ svg
 005o
 .
 html
-#
-bug
-1092436
+fails
 =
 =
 object
@@ -1824,9 +1862,6 @@ svg
 005p
 .
 html
-#
-bug
-1092436
 fails
 =
 =
@@ -1852,9 +1887,7 @@ svg
 006e
 .
 html
-#
-bug
-1092436
+fails
 =
 =
 object
@@ -1879,9 +1912,6 @@ svg
 006i
 .
 html
-#
-bug
-1092436
 fails
 =
 =
@@ -1907,9 +1937,7 @@ svg
 006o
 .
 html
-#
-bug
-1092436
+fails
 =
 =
 object
@@ -1934,16 +1962,7 @@ svg
 006p
 .
 html
-#
-bug
-1092436
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -1968,6 +1987,7 @@ svg
 001e
 .
 html
+fails
 =
 =
 object
@@ -1993,12 +2013,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -2023,6 +2037,7 @@ svg
 001o
 .
 html
+fails
 =
 =
 object
@@ -2047,12 +2062,7 @@ svg
 001p
 .
 html
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 object
@@ -2077,6 +2087,7 @@ svg
 002e
 .
 html
+fails
 =
 =
 object
@@ -2101,12 +2112,7 @@ svg
 002i
 .
 html
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 object
@@ -2131,6 +2137,7 @@ svg
 002o
 .
 html
+fails
 =
 =
 object
@@ -2180,6 +2187,7 @@ svg
 003e
 .
 html
+fails
 =
 =
 object
@@ -2229,6 +2237,7 @@ svg
 003o
 .
 html
+fails
 =
 =
 object
@@ -2253,6 +2262,7 @@ svg
 003p
 .
 html
+fails
 =
 =
 object
@@ -2277,6 +2287,7 @@ svg
 004e
 .
 html
+fails
 =
 =
 object
@@ -2301,6 +2312,7 @@ svg
 004i
 .
 html
+fails
 =
 =
 object
@@ -2325,6 +2337,7 @@ svg
 004o
 .
 html
+fails
 =
 =
 object
@@ -2374,6 +2387,7 @@ svg
 005e
 .
 html
+fails
 =
 =
 object
@@ -2398,6 +2412,7 @@ svg
 005i
 .
 html
+fails
 =
 =
 object
@@ -2422,6 +2437,7 @@ svg
 005o
 .
 html
+fails
 =
 =
 object
@@ -2471,6 +2487,7 @@ svg
 006e
 .
 html
+fails
 =
 =
 object
@@ -2520,6 +2537,7 @@ svg
 006o
 .
 html
+fails
 =
 =
 object
@@ -2544,6 +2562,7 @@ svg
 006p
 .
 html
+fails
 =
 =
 object
@@ -2568,6 +2587,7 @@ svg
 001e
 .
 html
+fails
 =
 =
 object
@@ -2592,6 +2612,7 @@ svg
 001i
 .
 html
+fails
 =
 =
 object
@@ -2616,6 +2637,7 @@ svg
 001o
 .
 html
+fails
 =
 =
 object
@@ -2640,12 +2662,7 @@ svg
 001p
 .
 html
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 object
@@ -2670,6 +2687,7 @@ svg
 002e
 .
 html
+fails
 =
 =
 object
@@ -2695,12 +2713,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -2725,6 +2737,7 @@ svg
 002o
 .
 html
+fails
 =
 =
 object
@@ -2750,12 +2763,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -2780,6 +2787,7 @@ svg
 003e
 .
 html
+fails
 =
 =
 object
@@ -2805,12 +2813,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -2835,6 +2837,7 @@ svg
 003o
 .
 html
+fails
 =
 =
 object
@@ -2860,12 +2863,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -2890,6 +2887,7 @@ svg
 004e
 .
 html
+fails
 =
 =
 object
@@ -2914,12 +2912,7 @@ svg
 004i
 .
 html
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 object
@@ -2944,6 +2937,7 @@ svg
 004o
 .
 html
+fails
 =
 =
 object
@@ -2968,12 +2962,7 @@ svg
 004p
 .
 html
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 object
@@ -2998,6 +2987,7 @@ svg
 005e
 .
 html
+fails
 =
 =
 object
@@ -3023,12 +3013,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3053,6 +3037,7 @@ svg
 005o
 .
 html
+fails
 =
 =
 object
@@ -3078,12 +3063,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3108,6 +3087,7 @@ svg
 006e
 .
 html
+fails
 =
 =
 object
@@ -3133,12 +3113,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3163,6 +3137,7 @@ svg
 006o
 .
 html
+fails
 =
 =
 object
@@ -3212,6 +3187,7 @@ svg
 001e
 .
 html
+fails
 =
 =
 object
@@ -3261,6 +3237,7 @@ svg
 001o
 .
 html
+fails
 =
 =
 object
@@ -3285,6 +3262,7 @@ svg
 001p
 .
 html
+fails
 =
 =
 object
@@ -3309,6 +3287,7 @@ svg
 002e
 .
 html
+fails
 =
 =
 object
@@ -3358,6 +3337,7 @@ svg
 002o
 .
 html
+fails
 =
 =
 object
@@ -3407,6 +3387,7 @@ svg
 003e
 .
 html
+fails
 =
 =
 object
@@ -3431,6 +3412,7 @@ svg
 003i
 .
 html
+fails
 =
 =
 object
@@ -3455,6 +3437,7 @@ svg
 003o
 .
 html
+fails
 =
 =
 object
@@ -3504,6 +3487,7 @@ svg
 004e
 .
 html
+fails
 =
 =
 object
@@ -3553,6 +3537,7 @@ svg
 004o
 .
 html
+fails
 =
 =
 object
@@ -3578,12 +3563,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3608,6 +3587,7 @@ svg
 005e
 .
 html
+fails
 =
 =
 object
@@ -3633,12 +3613,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3663,6 +3637,7 @@ svg
 005o
 .
 html
+fails
 =
 =
 object
@@ -3688,12 +3663,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3718,6 +3687,7 @@ svg
 006e
 .
 html
+fails
 =
 =
 object
@@ -3743,12 +3713,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3773,6 +3737,7 @@ svg
 006o
 .
 html
+fails
 =
 =
 object
@@ -3798,12 +3763,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3832,6 +3791,7 @@ svg
 001e
 .
 html
+fails
 =
 =
 object
@@ -3861,12 +3821,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -3895,6 +3849,7 @@ svg
 001o
 .
 html
+fails
 =
 =
 object
@@ -3923,12 +3878,7 @@ svg
 001p
 .
 html
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 object
@@ -3957,6 +3907,7 @@ svg
 002e
 .
 html
+fails
 =
 =
 object
@@ -3986,12 +3937,6 @@ svg
 .
 html
 fails
-skip
--
-if
-(
-B2G
-)
 =
 =
 object
@@ -4020,6 +3965,7 @@ svg
 002o
 .
 html
+fails
 =
 =
 object
@@ -4077,6 +4023,7 @@ svg
 003e
 .
 html
+fails
 =
 =
 object
@@ -4134,6 +4081,7 @@ svg
 003o
 .
 html
+fails
 =
 =
 object
@@ -4162,6 +4110,7 @@ svg
 003p
 .
 html
+fails
 =
 =
 object
@@ -4190,6 +4139,7 @@ svg
 004e
 .
 html
+fails
 =
 =
 object
@@ -4247,6 +4197,7 @@ svg
 004o
 .
 html
+fails
 =
 =
 object
@@ -4275,6 +4226,7 @@ svg
 004p
 .
 html
+fails
 =
 =
 object
@@ -4303,6 +4255,7 @@ svg
 005e
 .
 html
+fails
 =
 =
 object
@@ -4360,6 +4313,7 @@ svg
 005o
 .
 html
+fails
 =
 =
 object
@@ -4417,6 +4371,7 @@ svg
 006e
 .
 html
+fails
 =
 =
 object
@@ -4445,6 +4400,7 @@ svg
 006i
 .
 html
+fails
 =
 =
 object
@@ -4473,6 +4429,7 @@ svg
 006o
 .
 html
+fails
 =
 =
 object
@@ -4501,6 +4458,7 @@ svg
 006p
 .
 html
+fails
 =
 =
 object
@@ -4521,17 +4479,7 @@ png
 001c
 .
 html
-#
-bug
-1105150
-fuzzy
--
-if
-(
-Mulet
-2
-20
-)
+fails
 =
 =
 object
@@ -4552,9 +4500,7 @@ png
 001e
 .
 html
-#
-Bug
-1150536
+fails
 =
 =
 object
@@ -4576,14 +4522,6 @@ png
 .
 html
 fails
-fuzzy
--
-if
-(
-Mulet
-2
-20
-)
 =
 =
 object
@@ -4604,9 +4542,7 @@ png
 001o
 .
 html
-#
-Bug
-1150492
+fails
 =
 =
 object
@@ -4627,6 +4563,7 @@ png
 001p
 .
 html
+fails
 =
 =
 object
@@ -4647,9 +4584,7 @@ png
 002c
 .
 html
-#
-bug
-1105150
+fails
 =
 =
 object
@@ -4670,6 +4605,7 @@ png
 002e
 .
 html
+fails
 =
 =
 object
@@ -4711,6 +4647,7 @@ png
 002o
 .
 html
+fails
 =
 =
 object
@@ -4731,6 +4668,7 @@ png
 002p
 .
 html
+fails
 =
 =
 object
@@ -4751,9 +4689,7 @@ svg
 001e
 .
 html
-#
-bug
-1103286
+fails
 =
 =
 object
@@ -4795,9 +4731,7 @@ svg
 001o
 .
 html
-#
-bug
-1103286
+fails
 =
 =
 object
@@ -4839,9 +4773,7 @@ svg
 002e
 .
 html
-#
-bug
-1103286
+fails
 =
 =
 object
@@ -4862,6 +4794,7 @@ svg
 002i
 .
 html
+fails
 =
 =
 object
@@ -4882,9 +4815,7 @@ svg
 002o
 .
 html
-#
-bug
-1103286
+fails
 =
 =
 object

@@ -233,7 +233,7 @@ size
 4bpp
 .
 bmp
-skip
+fails
 =
 =
 bmp
@@ -427,6 +427,7 @@ sourceforge
 .
 net
 /
+fails
 =
 =
 rle4

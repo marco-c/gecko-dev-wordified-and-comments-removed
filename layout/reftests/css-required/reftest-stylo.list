@@ -24,7 +24,7 @@ elements
 support
 :
 required
-#
+fails
 =
 =
 css
@@ -57,6 +57,7 @@ required
 radio
 .
 html
+fails
 =
 =
 css
@@ -89,6 +90,7 @@ required
 checkbox
 .
 html
+fails
 =
 =
 css
@@ -105,6 +107,7 @@ required
 file
 .
 html
+fails
 =
 =
 css
@@ -121,6 +124,7 @@ required
 password
 .
 html
+fails
 =
 =
 css
@@ -137,6 +141,7 @@ required
 tel
 .
 html
+fails
 =
 =
 css
@@ -153,6 +158,7 @@ required
 search
 .
 html
+fails
 =
 =
 css
@@ -182,6 +188,7 @@ type
 text
 '
 >
+fails
 =
 =
 css
@@ -202,6 +209,7 @@ dyn
 1
 .
 html
+fails
 =
 =
 css
@@ -222,6 +230,7 @@ dyn
 2
 .
 html
+fails
 =
 =
 css
@@ -262,6 +271,7 @@ dyn
 4
 .
 html
+fails
 =
 =
 css
@@ -343,6 +353,7 @@ required
 button
 .
 html
+fails
 =
 =
 css
@@ -375,6 +386,7 @@ required
 image
 .
 html
+fails
 =
 =
 css

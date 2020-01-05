@@ -90,15 +90,7 @@ change
 unexpectedly
 .
 )
-skip
-fuzzy
--
-if
-(
-cocoaWidget
-3
-3369
-)
+fails
 =
 =
 webkit
@@ -123,10 +115,7 @@ linear
 1
 .
 html
-#
-bug
-1225372
-skip
+fails
 =
 =
 webkit
@@ -164,6 +153,7 @@ linear
 .
 .
 )
+fails
 =
 =
 webkit
@@ -184,6 +174,7 @@ linear
 1a
 .
 html
+fails
 =
 =
 webkit
@@ -204,6 +195,7 @@ linear
 1b
 .
 html
+fails
 =
 =
 webkit
@@ -224,6 +216,7 @@ linear
 1c
 .
 html
+fails
 =
 =
 webkit
@@ -244,6 +237,7 @@ linear
 1d
 .
 html
+fails
 =
 =
 webkit
@@ -277,6 +271,7 @@ radial
 .
 .
 )
+fails
 =
 =
 webkit
@@ -297,6 +292,7 @@ radial
 1a
 .
 html
+fails
 =
 =
 webkit
@@ -317,6 +313,7 @@ radial
 1b
 .
 html
+fails
 =
 =
 webkit

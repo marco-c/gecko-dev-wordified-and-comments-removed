@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 counter
@@ -34,6 +35,7 @@ case
 sensitive
 .
 html
+fails
 =
 =
 t1202
@@ -58,6 +60,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -82,6 +85,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -106,6 +110,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -130,6 +135,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -154,6 +160,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -178,6 +185,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -202,6 +210,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -226,7 +235,7 @@ b
 test
 .
 html
-skip
+fails
 =
 =
 t1202
@@ -251,6 +260,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -275,6 +285,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -299,6 +310,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -323,6 +335,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -347,6 +360,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -371,6 +385,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -395,6 +410,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -419,6 +435,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -443,6 +460,7 @@ f
 test
 .
 html
+fails
 =
 =
 t1202
@@ -467,6 +485,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -491,6 +510,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -515,6 +535,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -539,6 +560,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -563,6 +585,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -587,7 +610,7 @@ b
 test
 .
 html
-skip
+fails
 =
 =
 t1202
@@ -612,6 +635,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -636,6 +660,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -660,6 +685,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -684,6 +710,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -708,6 +735,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -732,6 +760,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -756,6 +785,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -780,6 +810,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -804,6 +835,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -828,6 +860,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1202
@@ -852,6 +885,7 @@ c
 test
 .
 html
+fails
 =
 =
 t1202
@@ -876,6 +910,7 @@ d
 test
 .
 html
+fails
 =
 =
 t1202
@@ -900,6 +935,7 @@ f
 test
 .
 html
+fails
 =
 =
 t1204
@@ -924,6 +960,7 @@ b
 test
 .
 html
+fails
 =
 =
 t1204
@@ -948,6 +985,7 @@ c
 test
 .
 html
+fails
 =
 =
 t1204
@@ -972,6 +1010,7 @@ d
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1000,6 +1039,7 @@ o
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1028,6 +1068,7 @@ o
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1056,6 +1097,7 @@ o
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1080,6 +1122,7 @@ c
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1104,6 +1147,7 @@ c
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1128,19 +1172,9 @@ c
 test
 .
 html
+fails
 =
 =
-t1204
--
-order
--
-01
--
-d
--
-test
-.
-html
 t1204
 -
 order
@@ -1152,6 +1186,18 @@ d
 test
 .
 html
+t1204
+-
+order
+-
+01
+-
+d
+-
+test
+.
+html
+fails
 =
 =
 t1204
@@ -1180,6 +1226,7 @@ o
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1208,6 +1255,7 @@ o
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1236,6 +1284,7 @@ o
 test
 .
 html
+fails
 =
 =
 t1204
@@ -1256,6 +1305,7 @@ e
 test
 .
 html
+fails
 =
 =
 t120401
@@ -1280,6 +1330,7 @@ b
 test
 .
 html
+fails
 =
 =
 t120401
@@ -1304,6 +1355,7 @@ c
 test
 .
 html
+fails
 =
 =
 t120401
@@ -1328,6 +1380,7 @@ c
 test
 .
 html
+fails
 =
 =
 t120401
@@ -1352,6 +1405,7 @@ c
 test
 .
 html
+fails
 =
 =
 t120401
@@ -1376,6 +1430,7 @@ d
 test
 .
 html
+fails
 =
 =
 t120403
@@ -1404,6 +1459,7 @@ c
 test
 .
 html
+fails
 =
 =
 t120403
@@ -1432,6 +1488,7 @@ c
 test
 .
 html
+fails
 =
 =
 t120403
@@ -1456,6 +1513,7 @@ c
 test
 .
 html
+fails
 =
 =
 text
@@ -1472,7 +1530,7 @@ boundaries
 subpixel
 .
 html
-skip
+fails
 =
 =
 counter
@@ -1489,6 +1547,7 @@ hebrew
 test
 .
 html
+fails
 =
 =
 counters
@@ -1506,20 +1565,6 @@ test
 .
 html
 fails
--
-if
-(
-xulRuntime
-.
-XPCOMABI
-.
-match
-(
-/
-arm
-/
-)
-)
 =
 =
 counter
@@ -1540,9 +1585,7 @@ integer
 range
 .
 html
-#
-bug
-989718
+fails
 =
 =
 counter
@@ -1563,6 +1606,7 @@ limits
 00
 .
 html
+fails
 =
 =
 counter
@@ -1584,20 +1628,6 @@ limits
 .
 html
 fails
--
-if
-(
-xulRuntime
-.
-XPCOMABI
-.
-match
-(
-/
-arm
-/
-)
-)
 =
 =
 counter
@@ -1618,9 +1648,7 @@ limits
 02
 .
 html
-#
-bug
-989718
+fails
 =
 =
 counter
@@ -1641,6 +1669,7 @@ limits
 03
 .
 html
+fails
 =
 =
 counter
@@ -1665,6 +1694,7 @@ list
 00
 .
 html
+fails
 =
 =
 counter
@@ -1689,6 +1719,7 @@ list
 01
 .
 html
+fails
 =
 =
 multiple
@@ -1705,6 +1736,7 @@ thai
 counters
 .
 html
+fails
 =
 =
 counter
@@ -1717,6 +1749,7 @@ counter
 suffix
 .
 html
+fails
 =
 =
 counter
@@ -1733,6 +1766,7 @@ cjk
 decimal
 .
 html
+fails
 =
 =
 counter
@@ -1749,6 +1783,7 @@ japanese
 informal
 .
 html
+fails
 =
 =
 counter
@@ -1765,6 +1800,7 @@ japanese
 formal
 .
 html
+fails
 =
 =
 counter
@@ -1785,6 +1821,7 @@ hangul
 formal
 .
 html
+fails
 =
 =
 counter
@@ -1805,6 +1842,7 @@ hanja
 informal
 .
 html
+fails
 =
 =
 counter
@@ -1825,6 +1863,7 @@ hanja
 formal
 .
 html
+fails
 =
 =
 counter
@@ -1845,6 +1884,7 @@ chinese
 informal
 .
 html
+fails
 =
 =
 counter
@@ -1865,6 +1905,7 @@ chinese
 formal
 .
 html
+fails
 =
 =
 counter
@@ -1885,6 +1926,7 @@ chinese
 informal
 .
 html
+fails
 =
 =
 counter
@@ -1905,6 +1947,7 @@ chinese
 formal
 .
 html
+fails
 =
 =
 counter

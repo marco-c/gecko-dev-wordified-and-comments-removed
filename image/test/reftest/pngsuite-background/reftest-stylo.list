@@ -77,7 +77,6 @@ no
 background
 chunk
 interlaced
-skip
 fuzzy
 -
 if
@@ -116,7 +115,6 @@ no
 background
 chunk
 interlaced
-skip
 fuzzy
 -
 if
@@ -155,7 +153,6 @@ alpha
 no
 background
 chunk
-skip
 fuzzy
 -
 if
@@ -194,7 +191,6 @@ alpha
 no
 background
 chunk
-skip
 fuzzy
 -
 if
@@ -232,7 +228,6 @@ alpha
 black
 background
 chunk
-skip
 fuzzy
 -
 if
@@ -270,7 +265,6 @@ alpha
 gray
 background
 chunk
-skip
 fuzzy
 -
 if
@@ -309,7 +303,6 @@ alpha
 white
 background
 chunk
-skip
 fuzzy
 -
 if
@@ -348,7 +341,6 @@ alpha
 yellow
 background
 chunk
-skip
 fuzzy
 -
 if

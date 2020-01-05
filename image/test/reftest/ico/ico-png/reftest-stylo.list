@@ -23,7 +23,7 @@ Images
 of
 various
 sizes
-skip
+fails
 =
 =
 ico
@@ -44,6 +44,7 @@ size
 png
 .
 ico
+fails
 =
 =
 ico
@@ -64,7 +65,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -85,7 +86,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -106,7 +107,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -127,7 +128,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -148,6 +149,7 @@ size
 png
 .
 ico
+fails
 =
 =
 ico
@@ -169,7 +171,6 @@ png
 .
 ico
 fails
-skip
 =
 =
 ico
@@ -190,7 +191,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -211,7 +212,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -232,7 +233,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -253,7 +254,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -274,7 +275,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -295,7 +296,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -316,7 +317,7 @@ size
 png
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -337,8 +338,7 @@ size
 png
 .
 ico
-#
-skip
+fails
 =
 =
 ico
@@ -375,7 +375,6 @@ empty
 0x0
 grayscale
 file
-skip
 =
 =
 wrapper
@@ -398,7 +397,6 @@ xcrn0g04
 added
 cr
 bytes
-skip
 =
 =
 wrapper
@@ -420,6 +418,7 @@ Test
 ICO
 PNG
 transparency
+fails
 =
 =
 transparent

@@ -26,6 +26,7 @@ bidi
 1
 .
 html
+fails
 =
 =
 bidi
@@ -38,6 +39,7 @@ bidi
 2
 .
 html
+fails
 =
 =
 box
@@ -54,6 +56,7 @@ generation
 1
 .
 html
+fails
 =
 =
 box
@@ -70,6 +73,7 @@ generation
 2
 .
 html
+fails
 =
 =
 box
@@ -86,6 +90,7 @@ generation
 3
 .
 html
+fails
 =
 =
 box
@@ -102,6 +107,7 @@ generation
 4
 .
 html
+fails
 =
 =
 box
@@ -118,6 +124,7 @@ generation
 5
 .
 html
+fails
 =
 =
 box
@@ -134,6 +141,7 @@ properties
 1
 .
 html
+fails
 =
 =
 box
@@ -150,6 +158,7 @@ properties
 2
 .
 html
+fails
 =
 =
 box
@@ -166,6 +175,7 @@ properties
 3
 .
 html
+fails
 =
 =
 box
@@ -182,6 +192,7 @@ properties
 4
 .
 html
+fails
 =
 =
 dynamic
@@ -198,6 +209,7 @@ insertion
 1
 .
 html
+fails
 =
 =
 dynamic
@@ -214,6 +226,7 @@ insertion
 2
 .
 html
+fails
 =
 =
 dynamic
@@ -230,6 +243,7 @@ insertion
 3
 .
 html
+fails
 =
 =
 dynamic
@@ -246,6 +260,7 @@ removal
 1
 .
 html
+fails
 =
 =
 dynamic
@@ -262,6 +277,7 @@ removal
 2
 .
 html
+fails
 =
 =
 dynamic
@@ -278,6 +294,7 @@ removal
 3
 .
 html
+fails
 =
 =
 float
@@ -359,6 +376,7 @@ ruby
 1
 .
 html
+fails
 =
 =
 intra
@@ -379,6 +397,7 @@ whitespace
 1
 .
 html
+fails
 =
 =
 intra
@@ -399,6 +418,7 @@ whitespace
 2
 .
 html
+fails
 =
 =
 intra
@@ -419,6 +439,7 @@ whitespace
 3
 .
 html
+fails
 =
 =
 intrinsic
@@ -435,6 +456,7 @@ isize
 1
 .
 html
+fails
 =
 =
 intrinsic
@@ -451,6 +473,7 @@ isize
 2
 .
 html
+fails
 =
 =
 justification
@@ -463,6 +486,7 @@ justification
 1
 .
 html
+fails
 =
 =
 justification
@@ -475,14 +499,7 @@ justification
 2
 .
 html
-fuzzy
--
-if
-(
-winWidget
-255
-792
-)
+fails
 =
 =
 lang
@@ -503,9 +520,7 @@ style
 1
 .
 html
-#
-bug
-1134947
+fails
 =
 =
 line
@@ -522,6 +537,7 @@ breaking
 1
 .
 html
+fails
 =
 =
 line
@@ -538,31 +554,7 @@ breaking
 2
 .
 html
-fuzzy
--
-if
-(
-/
-^
-Windows
-\
-x20NT
-\
-x2010
-\
-.
-0
-/
-.
-test
-(
-http
-.
-oscpu
-)
-3
-2
-)
+fails
 =
 =
 line
@@ -583,31 +575,7 @@ suppression
 1
 .
 html
-fuzzy
--
-if
-(
-/
-^
-Windows
-\
-x20NT
-\
-x2010
-\
-.
-0
-/
-.
-test
-(
-http
-.
-oscpu
-)
-3
-2
-)
+fails
 =
 =
 line
@@ -628,6 +596,7 @@ suppression
 2
 .
 html
+fails
 =
 =
 line
@@ -648,6 +617,7 @@ suppression
 3
 .
 html
+fails
 =
 =
 line
@@ -668,6 +638,7 @@ suppression
 4
 .
 html
+fails
 =
 =
 line
@@ -688,6 +659,7 @@ suppression
 5
 .
 html
+fails
 =
 =
 line
@@ -704,6 +676,7 @@ height
 1
 .
 html
+fails
 =
 =
 line
@@ -720,6 +693,7 @@ height
 2
 .
 html
+fails
 =
 =
 line
@@ -736,6 +710,7 @@ height
 3
 .
 html
+fails
 =
 =
 line
@@ -752,6 +727,7 @@ height
 4
 .
 html
+fails
 test
 -
 pref
@@ -794,6 +770,7 @@ ruby
 1
 .
 html
+fails
 =
 =
 no
@@ -806,6 +783,7 @@ no
 transform
 .
 html
+fails
 =
 =
 relative
@@ -822,6 +800,7 @@ positioning
 1
 .
 html
+fails
 =
 =
 relative
@@ -838,6 +817,7 @@ positioning
 2
 .
 html
+fails
 =
 =
 ruby
@@ -854,6 +834,7 @@ align
 1
 .
 html
+fails
 =
 =
 ruby
@@ -870,6 +851,7 @@ align
 1a
 .
 html
+fails
 =
 =
 ruby
@@ -886,6 +868,7 @@ align
 2
 .
 html
+fails
 =
 =
 ruby
@@ -902,6 +885,7 @@ align
 2a
 .
 html
+fails
 =
 =
 ruby
@@ -918,6 +902,7 @@ position
 horizontal
 .
 html
+fails
 =
 =
 ruby
@@ -938,6 +923,7 @@ vertical
 lr
 .
 html
+fails
 =
 =
 ruby
@@ -958,6 +944,7 @@ vertical
 rl
 .
 html
+fails
 =
 =
 ruby
@@ -978,31 +965,7 @@ reflow
 opaqueruby
 .
 html
-fuzzy
--
-if
-(
-/
-^
-Windows
-\
-x20NT
-\
-x2010
-\
-.
-0
-/
-.
-test
-(
-http
-.
-oscpu
-)
-13
-1
-)
+fails
 =
 =
 ruby
@@ -1023,6 +986,7 @@ reflow
 transparentruby
 .
 html
+fails
 =
 =
 ruby
@@ -1039,6 +1003,7 @@ span
 1
 .
 html
+fails
 =
 =
 ruby
@@ -1055,6 +1020,7 @@ whitespace
 1
 .
 html
+fails
 =
 =
 ruby
@@ -1071,6 +1037,7 @@ whitespace
 2
 .
 html
+#
 =
 =
 bug1181890
@@ -1079,6 +1046,7 @@ html
 bug1181890
 .
 html
+#
 =
 =
 bug1181890

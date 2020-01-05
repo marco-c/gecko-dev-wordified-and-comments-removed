@@ -24,6 +24,7 @@ Images
 of
 various
 sizes
+fails
 =
 =
 ico
@@ -44,6 +45,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -64,6 +66,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -84,6 +87,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -104,6 +108,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -124,7 +129,7 @@ size
 8bpp
 .
 ico
-skip
+fails
 =
 =
 ico
@@ -145,6 +150,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -165,6 +171,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -185,6 +192,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -205,6 +213,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -225,6 +234,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -245,6 +255,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -265,6 +276,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -285,6 +297,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -305,6 +318,7 @@ size
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -325,12 +339,7 @@ size
 8bpp
 .
 ico
-skip
--
-if
-(
-B2G
-)
+fails
 =
 =
 ico
@@ -351,9 +360,7 @@ size
 8bpp
 .
 ico
-#
-bug
-773482
+fails
 =
 =
 ico
@@ -374,6 +381,7 @@ transparent
 8bpp
 .
 ico
+fails
 =
 =
 ico
@@ -390,6 +398,7 @@ transparent
 8bpp
 .
 ico
+fails
 =
 =
 ico

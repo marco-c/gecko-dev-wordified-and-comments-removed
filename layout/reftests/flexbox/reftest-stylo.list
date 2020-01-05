@@ -182,6 +182,7 @@ align
 items
 properties
 )
+fails
 =
 =
 flexbox
@@ -210,12 +211,6 @@ horiz
 2
 .
 xhtml
-#
-bug
-793456
-and
-possibly
-others
 #
 This
 one
@@ -229,12 +224,16 @@ not
 Ru
 strangely
 )
+and
+GTK
 .
+#
 On
 Windows
 R
+and
+GTK
 the
-#
 single
 -
 line
@@ -246,6 +245,7 @@ item
 has
 a
 different
+#
 background
 size
 in
@@ -253,14 +253,6 @@ test
 vs
 .
 ref
-fuzzy
--
-if
-(
-B2G
-10
-3
-)
 fuzzy
 -
 if
@@ -274,6 +266,9 @@ random
 if
 (
 winWidget
+|
+|
+gtkWidget
 )
 =
 =
@@ -303,9 +298,7 @@ horiz
 3
 .
 xhtml
-#
-XXXdholbert
-investigate
+fails
 =
 =
 flexbox
@@ -347,6 +340,7 @@ and
 flex
 items
 .
+fails
 =
 =
 flexbox
@@ -379,6 +373,7 @@ horiz
 1
 .
 html
+fails
 =
 =
 flexbox
@@ -443,6 +438,7 @@ horiz
 1a
 .
 html
+fails
 =
 =
 flexbox
@@ -507,6 +503,7 @@ vert
 1a
 .
 html
+fails
 =
 =
 flexbox
@@ -632,6 +629,7 @@ changeFrameWidth
 4
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -652,6 +650,7 @@ changeOrder
 1a
 .
 html
+fails
 =
 =
 flexbox
@@ -749,6 +748,7 @@ existing
 content
 .
 )
+fails
 =
 =
 flexbox
@@ -769,6 +769,7 @@ insertAroundDiv
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -789,6 +790,7 @@ insertAroundDiv
 2
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -809,6 +811,7 @@ insertAroundDiv
 3
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -829,6 +832,7 @@ insertAroundSpan
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -849,6 +853,7 @@ insertAroundSpan
 2
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -869,6 +874,7 @@ insertAroundSpan
 3
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -889,6 +895,7 @@ insertAroundText
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -909,6 +916,7 @@ insertAroundText
 2
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -944,6 +952,7 @@ test
 an
 invalidation
 issue
+fails
 =
 =
 flexbox
@@ -975,6 +984,7 @@ no
 flex
 items
 )
+fails
 =
 =
 flexbox
@@ -991,6 +1001,7 @@ empty
 1a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1017,6 +1028,7 @@ elements
 inside
 a
 flexbox
+fails
 =
 =
 flexbox
@@ -1033,6 +1045,7 @@ float
 1a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1049,6 +1062,7 @@ float
 1b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1065,6 +1079,7 @@ float
 1c
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1081,6 +1096,7 @@ float
 1d
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1097,6 +1113,7 @@ float
 2a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1145,9 +1162,6 @@ ordering
 .
 html
 #
-bug
-874718
-#
 Tests
 for
 handling
@@ -1162,6 +1176,7 @@ positioned
 flex
 items
 .
+fails
 =
 =
 flexbox
@@ -1182,6 +1197,7 @@ absolute
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1202,6 +1218,7 @@ absolute
 2
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1242,6 +1259,7 @@ absolute
 4
 .
 xhtml
+#
 =
 =
 flexbox
@@ -1262,14 +1280,7 @@ fixed
 3
 .
 xhtml
-fuzzy
--
-if
-(
-Android
-16
-400
-)
+fails
 =
 =
 flexbox
@@ -1290,14 +1301,7 @@ fixed
 1
 .
 xhtml
-fuzzy
--
-if
-(
-Android
-16
-400
-)
+fails
 =
 =
 flexbox
@@ -1318,6 +1322,7 @@ fixed
 2
 .
 xhtml
+#
 =
 =
 flexbox
@@ -1373,6 +1378,7 @@ in
 an
 anonymous
 block
+fails
 =
 =
 flexbox
@@ -1393,16 +1399,7 @@ horiz
 1a
 .
 xhtml
-#
-reference
-case
-rendering
-is
-incorrect
-;
-bug
-858333
-skip
+fails
 =
 =
 flexbox
@@ -1423,15 +1420,7 @@ horiz
 1b
 .
 xhtml
-#
-reference
-case
-rendering
-is
-incorrect
-;
-bug
-858333
+fails
 =
 =
 flexbox
@@ -1452,6 +1441,7 @@ horiz
 2
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1472,6 +1462,7 @@ horiz
 3a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1492,6 +1483,7 @@ horiz
 3b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1512,6 +1504,7 @@ horiz
 3c
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1532,6 +1525,7 @@ horiz
 4
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1559,6 +1553,7 @@ intrinsic
 sizing
 of
 flexboxes
+fails
 =
 =
 flexbox
@@ -1583,6 +1578,7 @@ horiz
 1a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1607,6 +1603,7 @@ horiz
 1b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1631,6 +1628,7 @@ horiz
 2a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1662,6 +1660,7 @@ invalidation
 after
 dynamic
 modifications
+fails
 =
 =
 flexbox
@@ -1690,23 +1689,6 @@ gets
 resized
 .
 fails
-skip
--
-if
-(
-B2G
-|
-|
-Mulet
-)
-fuzzy
--
-if
-(
-skiaContent
-1
-5
-)
 =
 =
 flexbox
@@ -1723,17 +1705,6 @@ resizeviewport
 1
 .
 xhtml
-#
-Initial
-mulet
-triage
-:
-parity
-with
-B2G
-/
-B2G
-Desktop
 #
 Tests
 for
@@ -1778,14 +1749,7 @@ widgets
 as
 flex
 items
-fuzzy
--
-if
-(
-gtkWidget
-1
-66
-)
+fails
 =
 =
 flexbox
@@ -1810,14 +1774,7 @@ items
 1
 .
 html
-fuzzy
--
-if
-(
-gtkWidget
-1
-74
-)
+fails
 =
 =
 flexbox
@@ -1872,18 +1829,7 @@ items
 3
 .
 html
-#
-bug
-1260965
 fails
-fuzzy
--
-if
-(
-gtkWidget
-1
-31
-)
 =
 =
 flexbox

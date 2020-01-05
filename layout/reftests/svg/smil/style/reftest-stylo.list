@@ -1618,9 +1618,6 @@ clamp
 big
 .
 svg
-#
-bug
-501188
 fuzzy
 -
 if
@@ -1904,7 +1901,6 @@ accepts
 unitless
 values
 )
-skip
 =
 =
 anim
@@ -1941,7 +1937,6 @@ no
 no
 .
 svg
-skip
 =
 =
 anim
@@ -1978,7 +1973,6 @@ no
 px
 .
 svg
-skip
 =
 =
 anim

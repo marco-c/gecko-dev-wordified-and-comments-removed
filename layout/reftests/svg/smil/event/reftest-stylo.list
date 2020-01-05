@@ -535,7 +535,6 @@ surgery
 1
 .
 svg
-skip
 =
 =
 event
@@ -576,7 +575,7 @@ surgery
 3
 .
 svg
-skip
+fails
 =
 =
 event

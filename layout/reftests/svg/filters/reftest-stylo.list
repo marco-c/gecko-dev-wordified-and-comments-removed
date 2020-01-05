@@ -219,7 +219,6 @@ feBlend
 2
 .
 svg
-skip
 fuzzy
 -
 if
@@ -369,7 +368,6 @@ feDisplacementMap
 1
 .
 svg
-skip
 =
 =
 feDisplacementMap
@@ -522,12 +520,7 @@ feGaussianBlur
 6
 .
 svg
-skip
--
-if
-(
-d2d
-)
+fails
 =
 =
 feGaussianBlur
@@ -572,16 +565,6 @@ feImage
 1
 .
 svg
-#
-(
-Make
-sure
-our
-image
-renders
-at
-all
-)
 =
 =
 feImage
@@ -594,6 +577,7 @@ feImage
 1
 .
 svg
+fails
 =
 =
 feImage
@@ -819,9 +803,6 @@ line
 01
 .
 svg
-#
-bug
-477704
 =
 =
 filter

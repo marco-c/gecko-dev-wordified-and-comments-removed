@@ -86,7 +86,7 @@ filter
 -
 type
 1
-skip
+fails
 =
 =
 f01n2c08
@@ -200,7 +200,7 @@ filter
 -
 type
 4
-skip
+fails
 =
 =
 f04n2c08

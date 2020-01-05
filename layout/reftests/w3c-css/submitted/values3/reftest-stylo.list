@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 calc
@@ -38,6 +39,7 @@ gradient
 1
 .
 html
+fails
 =
 =
 calc
@@ -62,6 +64,7 @@ gradient
 1
 .
 html
+fails
 =
 =
 calc
@@ -82,6 +85,7 @@ position
 1
 .
 html
+fails
 =
 =
 calc
@@ -142,15 +146,7 @@ block
 1
 .
 html
-skip
--
-if
-(
-B2G
-|
-|
-Mulet
-)
+fails
 =
 =
 calc
@@ -171,17 +167,7 @@ table
 1
 .
 html
-#
-Initial
-mulet
-triage
-:
-parity
-with
-B2G
-/
-B2G
-Desktop
+fails
 =
 =
 calc
@@ -546,6 +532,7 @@ top
 1
 .
 html
+fails
 =
 =
 calc
@@ -566,6 +553,7 @@ block
 1
 .
 html
+fails
 =
 =
 calc
@@ -610,14 +598,7 @@ intrinsic
 1
 .
 html
-fuzzy
--
-if
-(
-skiaContent
-1
-11
-)
+fails
 =
 =
 calc
@@ -638,6 +619,7 @@ origin
 1
 .
 html
+fails
 =
 =
 calc
@@ -702,6 +684,7 @@ intrinsic
 1
 .
 html
+fails
 =
 =
 calc
@@ -726,6 +709,7 @@ auto
 1
 .
 html
+fails
 =
 =
 calc

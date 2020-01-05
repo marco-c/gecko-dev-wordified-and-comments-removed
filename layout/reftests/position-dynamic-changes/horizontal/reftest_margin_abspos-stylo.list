@@ -420,12 +420,6 @@ rightA
 html
 ?
 margin_abspos
-random
--
-if
-(
-cocoaWidget
-)
 =
 =
 fromauto
@@ -454,9 +448,6 @@ rightA
 html
 ?
 margin_abspos
-#
-Bug
-688545
 =
 =
 fromauto

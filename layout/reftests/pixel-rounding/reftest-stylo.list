@@ -418,7 +418,6 @@ height
 6
 .
 html
-skip
 =
 =
 background
@@ -539,7 +538,6 @@ top
 5
 .
 html
-skip
 =
 =
 background
@@ -2239,7 +2237,7 @@ left
 6
 .
 html
-skip
+fails
 pref
 (
 image
@@ -2613,7 +2611,6 @@ height
 4
 .
 html
-skip
 =
 =
 rounded
@@ -3098,7 +3095,6 @@ height
 6
 .
 html
-skip
 fuzzy
 -
 if
@@ -3279,7 +3275,6 @@ top
 5
 .
 html
-skip
 fuzzy
 -
 if
@@ -3424,16 +3419,6 @@ left
 6
 .
 html
-skip
-skip
--
-if
-(
-B2G
-|
-|
-Mulet
-)
 =
 =
 background
@@ -3450,20 +3435,7 @@ image
 tiling
 .
 html
-#
-bug
-773482
-#
-Initial
-mulet
-triage
-:
-parity
-with
-B2G
-/
-B2G
-Desktop
+fails
 =
 =
 border
@@ -3484,6 +3456,7 @@ width
 0
 .
 html
+fails
 =
 =
 border
@@ -3504,6 +3477,7 @@ width
 4
 .
 html
+fails
 =
 =
 border
@@ -3524,6 +3498,7 @@ width
 9
 .
 html
+#
 =
 =
 iframe
@@ -3536,6 +3511,7 @@ iframe
 1
 .
 html
+fails
 =
 =
 viewport

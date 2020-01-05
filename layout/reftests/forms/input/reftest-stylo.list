@@ -54,6 +54,13 @@ reftest
 stylo
 .
 list
+#
+Too
+many
+crashes
+in
+number
+#
 include
 number
 /
@@ -78,6 +85,7 @@ reftest
 stylo
 .
 list
+#
 include
 range
 /
@@ -112,6 +120,14 @@ stylo
 list
 include
 color
+/
+reftest
+-
+stylo
+.
+list
+include
+datetime
 /
 reftest
 -

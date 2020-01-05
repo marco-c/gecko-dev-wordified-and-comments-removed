@@ -18,7 +18,6 @@ testing
 Corrupted
 BMP
 tests
-skip
 =
 =
 wrapper
@@ -39,7 +38,6 @@ invalid
 signature
 .
 bmp
-skip
 =
 =
 wrapper
@@ -60,7 +58,6 @@ invalid
 bpp
 .
 bmp
-skip
 =
 =
 wrapper
@@ -92,7 +89,6 @@ an
 unsupported
 compression
 value
-skip
 =
 =
 wrapper
@@ -121,7 +117,6 @@ with
 an
 invalid
 BPP
-skip
 =
 =
 wrapper
@@ -154,7 +149,6 @@ with
 an
 invalid
 BPP
-skip
 =
 =
 wrapper
@@ -221,7 +215,6 @@ t
 accept
 .
 )
-skip
 =
 =
 wrapper
@@ -246,7 +239,6 @@ compression
 BITFIELDS
 .
 bmp
-skip
 =
 =
 wrapper

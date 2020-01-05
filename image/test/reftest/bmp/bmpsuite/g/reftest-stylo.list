@@ -243,6 +243,7 @@ RLE
 compression
 .
 "
+fails
 =
 =
 pal4rle
@@ -398,6 +399,7 @@ RLE
 compression
 .
 "
+fails
 =
 =
 pal8rle
@@ -887,7 +889,7 @@ not
 )
 .
 "
-fails
+#
 =
 =
 rgb16
@@ -990,6 +992,7 @@ not
 )
 .
 "
+#
 =
 =
 rgb16
@@ -1033,6 +1036,7 @@ a
 palette
 .
 "
+#
 =
 =
 rgb16
@@ -1208,7 +1212,7 @@ to
 0
 .
 "
-skip
+fails
 =
 =
 rgb32

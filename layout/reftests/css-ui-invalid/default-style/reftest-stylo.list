@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 input
@@ -22,6 +23,7 @@ html
 input
 .
 html
+fails
 =
 =
 button
@@ -30,6 +32,7 @@ html
 button
 .
 html
+fails
 =
 =
 textarea
@@ -38,6 +41,7 @@ html
 textarea
 .
 html
+fails
 =
 =
 select
@@ -46,6 +50,7 @@ html
 select
 .
 html
+#
 =
 =
 fieldset
@@ -54,6 +59,7 @@ html
 fieldset
 .
 html
+fails
 =
 =
 output
@@ -62,15 +68,7 @@ html
 output
 .
 html
-random
--
-if
-(
-winWidget
-)
-needs
--
-focus
+fails
 =
 =
 input
@@ -83,11 +81,7 @@ input
 focus
 .
 html
-#
-Intermittent
-failures
-bug
-660224
+fails
 needs
 -
 focus
@@ -103,6 +97,7 @@ button
 focus
 .
 html
+fails
 needs
 -
 focus
@@ -118,15 +113,7 @@ textarea
 focus
 .
 html
-random
--
-if
-(
-winWidget
-)
-needs
--
-focus
+fails
 =
 =
 select
@@ -139,8 +126,3 @@ select
 focus
 .
 html
-#
-Intermittent
-failures
-bug
-660224

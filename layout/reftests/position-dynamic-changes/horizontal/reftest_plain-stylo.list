@@ -352,12 +352,6 @@ widthA
 rightA
 .
 html
-random
--
-if
-(
-cocoaWidget
-)
 =
 =
 fromauto
@@ -382,9 +376,6 @@ rightA
 2
 .
 html
-#
-Bug
-688545
 =
 =
 fromauto

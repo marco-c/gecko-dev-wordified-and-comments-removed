@@ -46,7 +46,6 @@ simple
 underline
 .
 svg
-skip
 =
 =
 simple
@@ -119,6 +118,17 @@ anchor
 end
 .
 svg
+fuzzy
+-
+if
+(
+skiaContent
+&
+&
+dwrite
+103
+131
+)
 =
 =
 simple
@@ -2347,7 +2357,7 @@ fuzzy
 if
 (
 skiaContent
-1
+4
 100
 )
 =
@@ -2732,7 +2742,6 @@ text
 inside
 a
 link
-#
 =
 =
 link
@@ -2900,14 +2909,8 @@ non
 scaling
 -
 stroke
--
-ref
 .
 svg
-#
-Bug
-#
-Bug
 =
 =
 dynamic
@@ -2928,7 +2931,6 @@ svg
 text
 and
 masks
-skip
 fuzzy
 -
 if
@@ -2937,7 +2939,7 @@ skiaContent
 &
 &
 winWidget
-39
+50
 224
 )
 HTTP
@@ -2999,7 +3001,7 @@ skiaContent
 &
 &
 winWidget
-39
+50
 112
 )
 HTTP
@@ -3030,7 +3032,6 @@ svg
 text
 and
 clipPaths
-skip
 HTTP
 (
 .
@@ -3090,7 +3091,7 @@ skiaContent
 &
 &
 winWidget
-39
+50
 112
 )
 HTTP
@@ -3145,7 +3146,6 @@ svg
 text
 and
 filters
-skip
 fuzzy
 -
 if
@@ -3154,7 +3154,7 @@ skiaContent
 &
 &
 winWidget
-109
+122
 336
 )
 HTTP

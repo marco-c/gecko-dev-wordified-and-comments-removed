@@ -359,7 +359,7 @@ square
 8bpp
 .
 bmp
-random
+fails
 =
 =
 rle
@@ -409,7 +409,7 @@ size
 8bpp
 .
 bmp
-random
+fails
 =
 =
 rle
@@ -434,6 +434,7 @@ size
 8bpp
 .
 bmp
+fails
 =
 =
 top

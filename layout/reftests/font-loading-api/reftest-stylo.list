@@ -32,6 +32,7 @@ api
 enabled
 true
 )
+fails
 HTTP
 (
 .
@@ -75,6 +76,7 @@ remove
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -96,7 +98,7 @@ unit
 1
 .
 html
-skip
+fails
 =
 =
 multiple
@@ -113,6 +115,7 @@ sets
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -130,6 +133,7 @@ name
 collision
 .
 html
+fails
 HTTP
 (
 .
@@ -147,7 +151,7 @@ order
 1
 .
 html
-skip
+fails
 HTTP
 (
 .
@@ -169,6 +173,7 @@ list
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -190,6 +195,7 @@ list
 2
 .
 html
+fails
 HTTP
 (
 .

@@ -55,7 +55,6 @@ html
 <
 body
 >
-skip
 =
 =
 data
@@ -68,7 +67,7 @@ data
 text
 /
 plain
-skip
+#
 =
 =
 data

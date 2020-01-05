@@ -14,7 +14,7 @@ list
 for
 Stylo
 testing
-random
+fails
 =
 =
 view
@@ -31,12 +31,3 @@ source
 image
 .
 html
-#
-security
-checks
-prevent
-loading
-view
--
-source
-:

@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 css
@@ -46,6 +47,7 @@ supports
 002
 .
 xht
+fails
 =
 =
 css
@@ -62,6 +64,7 @@ supports
 003
 .
 xht
+fails
 =
 =
 css
@@ -94,6 +97,7 @@ supports
 005
 .
 xht
+fails
 =
 =
 css
@@ -110,6 +114,7 @@ supports
 006
 .
 xht
+fails
 =
 =
 css
@@ -126,6 +131,7 @@ supports
 007
 .
 xht
+fails
 =
 =
 css
@@ -174,6 +180,7 @@ supports
 010
 .
 xht
+fails
 =
 =
 css
@@ -190,6 +197,7 @@ supports
 011
 .
 xht
+fails
 =
 =
 css
@@ -238,6 +246,7 @@ supports
 014
 .
 xht
+fails
 =
 =
 css
@@ -254,6 +263,7 @@ supports
 015
 .
 xht
+fails
 =
 =
 css
@@ -286,6 +296,7 @@ supports
 017
 .
 xht
+fails
 =
 =
 css
@@ -334,6 +345,7 @@ supports
 020
 .
 xht
+fails
 =
 =
 css
@@ -350,6 +362,7 @@ supports
 021
 .
 xht
+fails
 =
 =
 css
@@ -366,6 +379,7 @@ supports
 022
 .
 xht
+fails
 =
 =
 css
@@ -382,6 +396,7 @@ supports
 023
 .
 xht
+fails
 =
 =
 css
@@ -398,6 +413,7 @@ supports
 024
 .
 xht
+fails
 =
 =
 css
@@ -414,6 +430,7 @@ supports
 025
 .
 xht
+fails
 =
 =
 css
@@ -430,6 +447,7 @@ supports
 026
 .
 xht
+fails
 =
 =
 css
@@ -446,6 +464,7 @@ supports
 027
 .
 xht
+fails
 =
 =
 css
@@ -494,6 +513,7 @@ supports
 030
 .
 xht
+fails
 =
 =
 css
@@ -510,6 +530,7 @@ supports
 031
 .
 xht
+fails
 =
 =
 css
@@ -526,6 +547,7 @@ supports
 032
 .
 xht
+fails
 =
 =
 css
@@ -542,6 +564,7 @@ supports
 033
 .
 xht
+fails
 =
 =
 css
@@ -574,6 +597,7 @@ supports
 035
 .
 xht
+fails
 =
 =
 css
@@ -638,6 +662,7 @@ supports
 039
 .
 xht
+fails
 =
 =
 css
@@ -654,6 +679,7 @@ supports
 040
 .
 xht
+fails
 =
 =
 css
@@ -670,6 +696,7 @@ supports
 041
 .
 xht
+fails
 =
 =
 css
@@ -686,7 +713,7 @@ supports
 042
 .
 xht
-skip
+fails
 =
 =
 css
@@ -703,6 +730,7 @@ supports
 043
 .
 xht
+fails
 =
 =
 css
@@ -719,6 +747,7 @@ supports
 044
 .
 xht
+fails
 =
 =
 css
@@ -735,6 +764,7 @@ supports
 045
 .
 xht
+fails
 =
 =
 css

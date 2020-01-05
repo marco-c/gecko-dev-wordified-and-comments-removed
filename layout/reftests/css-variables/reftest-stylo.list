@@ -28,7 +28,7 @@ variables
 enabled
 true
 )
-skip
+fails
 =
 =
 variables
@@ -49,7 +49,7 @@ cache
 01
 .
 html
-skip
+fails
 =
 =
 variables

@@ -108,6 +108,7 @@ size
 5x5
 .
 jpg
+fails
 =
 =
 jpg
@@ -360,9 +361,6 @@ decoding
 (
 bug
 #
-685516
-)
-#
 Sometimes
 the
 image
@@ -402,17 +400,7 @@ bit
 colour
 (
 bug
-#
-803299
-)
-.
 fails
-random
--
-if
-(
-Android
-)
 =
 =
 jpg
@@ -662,7 +650,7 @@ parts
 .
 "
 )
-skip
+fails
 HTTP
 =
 =

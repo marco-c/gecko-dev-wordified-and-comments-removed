@@ -372,7 +372,6 @@ rightN
 html
 ?
 padding_parent
-skip
 =
 =
 toauto
@@ -421,12 +420,6 @@ rightA
 html
 ?
 padding_parent
-random
--
-if
-(
-cocoaWidget
-)
 =
 =
 fromauto
@@ -455,9 +448,6 @@ rightA
 html
 ?
 padding_parent
-#
-Bug
-688545
 =
 =
 fromauto

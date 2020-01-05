@@ -18,12 +18,6 @@ skip
 -
 if
 (
-B2G
-|
-|
-Mulet
-|
-|
 winWidget
 )
 =

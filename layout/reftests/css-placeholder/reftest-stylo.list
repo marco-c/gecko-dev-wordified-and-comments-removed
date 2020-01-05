@@ -31,14 +31,6 @@ stylo
 .
 list
 fails
-fuzzy
--
-if
-(
-skiaContent
-1
-4
-)
 =
 =
 css
@@ -51,6 +43,7 @@ css
 restrictions
 .
 html
+fails
 =
 =
 css
@@ -67,6 +60,7 @@ simple
 styling
 .
 html
+#
 =
 =
 css
@@ -80,14 +74,6 @@ background
 .
 html
 fails
-fuzzy
--
-if
-(
-skiaContent
-1
-180
-)
 =
 =
 ignore

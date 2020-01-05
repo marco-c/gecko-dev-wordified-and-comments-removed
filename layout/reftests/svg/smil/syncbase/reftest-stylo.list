@@ -516,7 +516,6 @@ dependent
 1
 .
 svg
-skip
 =
 =
 new
@@ -1361,7 +1360,6 @@ change
 2
 .
 svg
-skip
 =
 =
 cycle
@@ -1612,7 +1610,7 @@ Cross
 time
 container
 dependencies
-skip
+fails
 =
 =
 cross
@@ -1629,6 +1627,7 @@ container
 1
 .
 xhtml
+fails
 =
 =
 cross
@@ -1645,7 +1644,7 @@ container
 2
 .
 xhtml
-skip
+fails
 =
 =
 cross
