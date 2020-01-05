@@ -224,6 +224,7 @@ function
 promiseWaitForCondition
 (
 aConditionFn
+retryTimes
 )
 {
 let
@@ -249,6 +250,7 @@ t
 pass
 .
 "
+retryTimes
 )
 ;
 return
