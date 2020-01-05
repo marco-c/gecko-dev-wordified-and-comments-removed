@@ -407,9 +407,9 @@ dependencies
 byteorder
 =
 "
-0
+1
 .
-5
+0
 "
 core
 -
