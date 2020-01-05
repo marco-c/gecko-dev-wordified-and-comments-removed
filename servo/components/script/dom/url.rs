@@ -353,14 +353,9 @@ String
 ]
 )
 {
-if
 let
-Some
-(
-ref
 mut
 url
-)
 =
 self
 .
@@ -369,12 +364,12 @@ url
 borrow_mut
 (
 )
+;
+url
 .
 as_mut_url
 (
 )
-{
-url
 .
 query_pairs_mut
 (
@@ -389,7 +384,6 @@ extend_pairs
 pairs
 )
 ;
-}
 }
 }
 impl
