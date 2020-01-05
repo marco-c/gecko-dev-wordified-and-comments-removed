@@ -135,6 +135,9 @@ mCharset
 nsCString
 mRawData
 ;
+nsCString
+mRawBuffer
+;
 nsString
 mBuffer
 ;
