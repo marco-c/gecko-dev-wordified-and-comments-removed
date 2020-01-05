@@ -968,7 +968,7 @@ worker
 '
         
 '
-macosx
+native
 -
 engine
 '
@@ -1095,6 +1095,18 @@ Required
 (
 '
 checkout
+'
+default
+=
+False
+)
+:
+bool
+    
+Optional
+(
+'
+reboot
 '
 default
 =
@@ -1786,6 +1798,16 @@ time
 )
         
 test
+.
+setdefault
+(
+'
+reboot
+'
+False
+)
+        
+test
 [
 '
 mozharness
@@ -2368,7 +2390,7 @@ implementation
 ]
 =
 '
-macosx
+native
 -
 engine
 '
@@ -6781,7 +6803,7 @@ mh_command
 worker_setup_function
 (
 "
-macosx
+native
 -
 engine
 "
@@ -6927,6 +6949,20 @@ test
 worker
 -
 implementation
+'
+]
+    
+worker
+[
+'
+reboot
+'
+]
+=
+test
+[
+'
+reboot
 '
 ]
     
@@ -7080,7 +7116,7 @@ installer_url
 worker
 [
 '
-link
+context
 '
 ]
 =

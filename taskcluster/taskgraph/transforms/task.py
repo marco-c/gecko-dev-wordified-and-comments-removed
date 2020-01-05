@@ -911,7 +911,7 @@ implementation
 '
 :
 '
-macosx
+native
 -
 engine
 '
@@ -919,11 +919,20 @@ engine
 Optional
 (
 '
-link
+context
 '
 )
 :
 basestring
+        
+Optional
+(
+'
+reboot
+'
+)
+:
+bool
         
 Required
 (
@@ -3369,7 +3378,7 @@ artifacts
 payload_builder
 (
 '
-macosx
+native
 -
 engine
 '
@@ -3464,13 +3473,13 @@ payload
 {
         
 '
-link
+context
 '
 :
 worker
 [
 '
-link
+context
 '
 ]
         
@@ -3493,6 +3502,17 @@ worker
 [
 '
 env
+'
+]
+        
+'
+reboot
+'
+:
+worker
+[
+'
+reboot
 '
 ]
         
@@ -3527,7 +3547,7 @@ sccache
 not
 supported
 in
-macosx
+native
 -
 engine
 '
