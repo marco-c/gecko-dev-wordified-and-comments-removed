@@ -39,6 +39,12 @@ GetLongIdlePeriod
 (
 )
 ;
+static
+float
+GetMinIdlePeriod
+(
+)
+;
 private
 :
 virtual
