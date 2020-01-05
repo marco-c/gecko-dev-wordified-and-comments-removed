@@ -3157,7 +3157,7 @@ rv
 NS_EscapeURL
 (
 aQuery
-esc_Query
+esc_OnlyNonASCII
 query
 fallible
 )
