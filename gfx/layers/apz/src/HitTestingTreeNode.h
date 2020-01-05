@@ -261,6 +261,12 @@ IsScrollbarNode
 )
 const
 ;
+bool
+IsScrollThumbNode
+(
+)
+const
+;
 FrameMetrics
 :
 :
