@@ -115,6 +115,9 @@ nsIAnnotationService
 "
 ]
 [
+"
+getObservers
+"
 ]
 ]
 [
