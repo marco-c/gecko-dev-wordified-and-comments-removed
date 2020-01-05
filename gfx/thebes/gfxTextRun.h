@@ -547,6 +547,7 @@ SetPotentialLineBreaks
 (
 Range
 aRange
+const
 uint8_t
 *
 aBreakBefore
