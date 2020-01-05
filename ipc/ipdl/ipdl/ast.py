@@ -2605,18 +2605,6 @@ self
 nullable
 =
 0
-        
-self
-.
-myChmod
-=
-None
-        
-self
-.
-otherChmod
-=
-None
     
 def
 basename
