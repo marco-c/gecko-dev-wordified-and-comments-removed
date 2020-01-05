@@ -2279,6 +2279,26 @@ rust_path
 (
 )
 )
+        
+if
+use_stable_rust
+:
+            
+self
+.
+config
+[
+"
+build
+"
+]
+[
+"
+incremental
+"
+]
+=
+False
     
 def
 use_stable_rust
