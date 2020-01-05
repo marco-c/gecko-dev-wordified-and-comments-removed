@@ -1357,6 +1357,10 @@ mWarningReporter
 (
 nullptr
 )
+mIsReadingFromCache
+(
+false
+)
 mDidReval
 (
 false
@@ -30040,6 +30044,15 @@ n
 )
 ;
 }
+mIsReadingFromCache
+=
+(
+request
+=
+=
+mCachePump
+)
+;
 if
 (
 mListener
