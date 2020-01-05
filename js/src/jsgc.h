@@ -4337,6 +4337,11 @@ always
 false
 )
 ;
+void
+DumpArenaInfo
+(
+)
+;
 #
 else
 static
