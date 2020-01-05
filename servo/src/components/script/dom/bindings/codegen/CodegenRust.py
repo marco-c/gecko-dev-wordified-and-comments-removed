@@ -9959,7 +9959,9 @@ self
 .
 descriptor
 .
-createGlobal
+isGlobal
+(
+)
 :
             
 flags
@@ -12594,7 +12596,9 @@ assert
 not
 descriptor
 .
-createGlobal
+isGlobal
+(
+)
         
 create
 +
@@ -12707,7 +12711,9 @@ else
 if
 descriptor
 .
-createGlobal
+isGlobal
+(
+)
 :
             
 create
@@ -12904,7 +12910,9 @@ if
 not
 descriptor
 .
-createGlobal
+isGlobal
+(
+)
 :
             
 args
@@ -13037,7 +13045,9 @@ self
 .
 descriptor
 .
-createGlobal
+isGlobal
+(
+)
 :
             
 return
