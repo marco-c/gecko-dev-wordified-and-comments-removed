@@ -598,7 +598,7 @@ match
 ScriptThread
 :
 :
-page_fetch_complete
+page_headers_available
 (
 &
 self
