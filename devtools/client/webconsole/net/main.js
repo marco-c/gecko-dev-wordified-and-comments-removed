@@ -40,8 +40,6 @@ baseURI
 :
 rootUrl
 window
-:
-this
 }
 )
 .

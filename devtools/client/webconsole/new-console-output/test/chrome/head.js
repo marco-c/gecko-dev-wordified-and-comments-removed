@@ -131,8 +131,6 @@ webconsole
 /
 "
 window
-:
-this
 }
 )
 ;

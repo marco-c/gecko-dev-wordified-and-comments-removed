@@ -89,8 +89,6 @@ dom
 /
 "
 window
-:
-this
 }
 )
 .

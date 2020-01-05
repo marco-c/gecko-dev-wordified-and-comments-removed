@@ -77,8 +77,6 @@ performance
 /
 "
 window
-:
-this
 }
 )
 ;

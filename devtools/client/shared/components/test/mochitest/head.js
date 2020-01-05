@@ -296,8 +296,6 @@ shared
 /
 "
 window
-:
-this
 }
 )
 ;

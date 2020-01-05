@@ -58,8 +58,6 @@ shared
 /
 "
 window
-:
-this
 }
 )
 ;

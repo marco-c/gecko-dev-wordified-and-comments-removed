@@ -74,8 +74,6 @@ memory
 /
 "
 window
-:
-this
 }
 )
 ;

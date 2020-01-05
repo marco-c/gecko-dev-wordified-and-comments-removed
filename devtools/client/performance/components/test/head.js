@@ -214,8 +214,6 @@ performance
 /
 "
 window
-:
-this
 }
 )
 ;

@@ -67,8 +67,6 @@ html
 /
 "
 window
-:
-this
 }
 )
 ;
