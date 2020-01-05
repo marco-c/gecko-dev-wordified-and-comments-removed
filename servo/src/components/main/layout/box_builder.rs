@@ -2996,6 +2996,7 @@ first_child
 .
 each
 |
+&
 first_flow
 |
 {
@@ -3107,7 +3108,6 @@ parent_flow
 .
 remove_child
 (
-*
 first_flow
 )
 ;
@@ -3135,6 +3135,7 @@ last_child
 .
 each
 |
+&
 last_flow
 |
 {
@@ -3247,7 +3248,6 @@ parent_flow
 .
 remove_child
 (
-*
 last_flow
 )
 ;

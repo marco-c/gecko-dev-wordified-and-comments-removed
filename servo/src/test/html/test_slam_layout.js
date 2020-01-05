@@ -117,3 +117,9 @@ layout
 "
 )
 ;
+window
+.
+close
+(
+)
+;

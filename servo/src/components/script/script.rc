@@ -349,6 +349,14 @@ hubbub_html_parser
 }
 pub
 mod
+compositor_interface
+;
+pub
+mod
+engine_interface
+;
+pub
+mod
 layout_interface
 ;
 pub
