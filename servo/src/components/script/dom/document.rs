@@ -1228,6 +1228,17 @@ is_in_doc
 }
 )
 ;
+assert
+!
+(
+!
+id
+.
+is_empty
+(
+)
+)
+;
 let
 mut
 idmap
