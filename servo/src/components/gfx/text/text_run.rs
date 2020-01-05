@@ -724,15 +724,6 @@ run
 }
 pub
 fn
-teardown
-(
-&
-self
-)
-{
-}
-pub
-fn
 break_and_shape
 (
 font
