@@ -160,7 +160,7 @@ const
 nsAString
 &
 aOptions
-uint16_t
+uint32_t
 &
 aBppOut
 bool
@@ -181,7 +181,7 @@ InitFileHeader
 void
 InitInfoHeader
 (
-uint16_t
+uint32_t
 aBPP
 uint8_t
 aWidth
