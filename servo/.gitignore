@@ -20,6 +20,12 @@ dll
 *
 .
 dummy
+*
+.
+pkl
+*
+.
+pyc
 servo
 -
 test
@@ -34,3 +40,6 @@ mk
 config
 .
 stamp
+parser
+.
+out

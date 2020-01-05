@@ -214,6 +214,10 @@ pub
 mod
 window
 ;
+pub
+mod
+ClientRectBinding
+;
 }
 pub
 mod
