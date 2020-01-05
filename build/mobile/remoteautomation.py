@@ -2177,6 +2177,10 @@ procName
 )
 :
                 
+hasOutput
+=
+False
+                
 if
 (
 not
@@ -2293,6 +2297,11 @@ status
                     
 break
                 
+if
+not
+hasOutput
+:
+                    
 top
 =
 self
