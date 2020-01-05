@@ -1893,15 +1893,19 @@ definition
 )
 :
         
+field
+=
+'
+expires_in_version
+'
+        
 expiration
 =
 definition
 .
 get
 (
-'
-expires_in_version
-'
+field
 )
         
 if
@@ -1910,6 +1914,50 @@ expiration
 :
             
 return
+        
+if
+expiration
+=
+=
+"
+default
+"
+and
+name
+not
+in
+whitelists
+[
+'
+expiry_default
+'
+]
+:
+            
+raise
+ValueError
+'
+New
+histogram
+"
+%
+s
+"
+cannot
+have
+"
+default
+"
+%
+s
+value
+.
+'
+%
+(
+name
+field
+)
         
 if
 re
@@ -1981,9 +2029,7 @@ a1
         
 definition
 [
-'
-expires_in_version
-'
+field
 ]
 =
 expiration
