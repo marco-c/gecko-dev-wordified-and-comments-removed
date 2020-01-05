@@ -1828,7 +1828,7 @@ GetCoordValue
 aPresContext
 -
 >
-TextZoom
+EffectiveTextZoom
 (
 )
 )

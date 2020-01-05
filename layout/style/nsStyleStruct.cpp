@@ -981,7 +981,7 @@ aSize
 aPresContext
 -
 >
-TextZoom
+EffectiveTextZoom
 (
 )
 )
@@ -1011,7 +1011,7 @@ aSize
 aPresContext
 -
 >
-TextZoom
+EffectiveTextZoom
 (
 )
 )

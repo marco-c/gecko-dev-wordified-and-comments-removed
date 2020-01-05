@@ -26589,7 +26589,7 @@ GetPresContext
 )
 -
 >
-TextZoom
+EffectiveTextZoom
 (
 )
 ;
