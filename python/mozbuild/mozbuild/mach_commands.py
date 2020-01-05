@@ -12441,6 +12441,9 @@ mozpath
 .
 join
 (
+self
+.
+topsrcdir
 '
 taskcluster
 '
@@ -12457,9 +12460,6 @@ mozpath
 .
 join
 (
-self
-.
-topsrcdir
 kind_path
 '
 kind
