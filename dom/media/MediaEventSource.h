@@ -457,6 +457,10 @@ Move
 (
 aTask
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }
