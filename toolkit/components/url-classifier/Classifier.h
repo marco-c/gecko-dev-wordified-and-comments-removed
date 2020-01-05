@@ -411,6 +411,17 @@ nsACString
 aTable
 )
 ;
+nsresult
+LoadMetadata
+(
+nsIFile
+*
+aDirectory
+nsACString
+&
+aResult
+)
+;
 nsCOMPtr
 <
 nsIFile
