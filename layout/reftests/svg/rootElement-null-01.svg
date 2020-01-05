@@ -133,14 +133,14 @@ removeChild
 (
 document
 .
-documentElement
+rootElement
 )
 ;
 if
 (
 document
 .
-documentElement
+rootElement
 =
 =
 null
