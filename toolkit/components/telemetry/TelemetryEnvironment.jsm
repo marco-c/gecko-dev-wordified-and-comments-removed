@@ -1094,9 +1094,6 @@ processCount
 what
 :
 RECORD_PREF_VALUE
-requiresRestart
-:
-true
 }
 ]
 [
@@ -6174,6 +6171,13 @@ Services
 appinfo
 .
 browserTabsRemoteAutostart
+e10sMultiProcesses
+:
+Services
+.
+appinfo
+.
+maxWebProcessCount
 e10sCohort
 :
 Preferences
