@@ -116,6 +116,11 @@ ISimpleDOM_p
 .
 c
 '
+'
+AccessibleMarshalThunk
+.
+c
+'
 ]
 DEFINES
 [
