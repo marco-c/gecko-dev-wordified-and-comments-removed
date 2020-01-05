@@ -61,6 +61,16 @@ DIRS
 components
 "
 ]
+JS_PREFERENCE_FILES
++
+=
+[
+"
+prefs
+.
+js
+"
+]
 JAR_MANIFESTS
 +
 =

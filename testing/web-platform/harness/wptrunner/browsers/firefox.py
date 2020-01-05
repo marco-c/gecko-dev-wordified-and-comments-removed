@@ -1011,8 +1011,6 @@ set_preferences
 "
 marionette
 .
-defaultPrefs
-.
 enabled
 "
 :
@@ -1020,8 +1018,6 @@ True
                                       
 "
 marionette
-.
-defaultPrefs
 .
 port
 "
