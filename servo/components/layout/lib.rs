@@ -71,6 +71,10 @@ log
 ;
 extern
 crate
+cssparser
+;
+extern
+crate
 geom
 ;
 extern
@@ -295,9 +299,6 @@ pub
 mod
 css
 {
-mod
-node_util
-;
 pub
 mod
 matching

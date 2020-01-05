@@ -143,6 +143,7 @@ Arc
 deriving
 (
 Encodable
+Show
 )
 ]
 pub

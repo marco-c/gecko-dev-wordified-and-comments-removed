@@ -59,6 +59,12 @@ Hasher
 }
 ;
 use
+cssparser
+:
+:
+RGBA
+;
+use
 geom
 :
 :
@@ -209,7 +215,9 @@ servo_util
 str
 :
 :
+{
 LengthOrPercentageOrAuto
+}
 ;
 use
 std
@@ -1213,6 +1221,11 @@ no_jsmanaged_fields
 !
 (
 LengthOrPercentageOrAuto
+)
+no_jsmanaged_fields
+!
+(
+RGBA
 )
 impl
 <

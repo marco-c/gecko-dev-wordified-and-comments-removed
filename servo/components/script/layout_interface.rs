@@ -121,6 +121,7 @@ LoadStylesheetMsg
 (
 Url
 )
+SetQuirksModeMsg
 ReflowMsg
 (
 Box
