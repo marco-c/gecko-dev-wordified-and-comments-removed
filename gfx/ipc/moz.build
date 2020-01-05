@@ -170,6 +170,11 @@ layers
 =
 [
 '
+CompositorOptions
+.
+h
+'
+'
 CompositorSession
 .
 h

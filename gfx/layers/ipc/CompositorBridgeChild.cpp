@@ -1105,8 +1105,10 @@ uint64_t
 aLayerTreeId
 CSSToLayoutDeviceScale
 aScale
-bool
-aUseAPZ
+const
+CompositorOptions
+&
+aOptions
 bool
 aUseExternalSurface
 const
@@ -1192,7 +1194,7 @@ InitSameProcess
 (
 aWidget
 aLayerTreeId
-aUseAPZ
+aOptions
 )
 ;
 return
