@@ -6356,6 +6356,15 @@ sEmptyMSG
 {
 }
 ;
+MSG
+NativeKey
+:
+:
+sLastKeyMSG
+=
+{
+}
+;
 LazyLogModule
 sNativeKeyLogger
 (
@@ -6647,6 +6656,10 @@ else
 mIsOverridingKeyboardLayout
 =
 false
+;
+sLastKeyMSG
+=
+aMessage
 ;
 }
 if
