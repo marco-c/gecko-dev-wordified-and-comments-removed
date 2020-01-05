@@ -1435,7 +1435,15 @@ interface
                 
 while
 iface
+.
+parent
 :
+                    
+iface
+=
+iface
+.
+parent
                     
 iface
 .
@@ -1446,12 +1454,6 @@ hasProxyDescendant
 '
 True
 )
-                    
-iface
-=
-iface
-.
-parent
         
 self
 .
