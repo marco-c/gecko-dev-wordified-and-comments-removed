@@ -2794,17 +2794,10 @@ appId
 .
 Trim
 (
-NS_LITERAL_CSTRING
-(
 "
 \
 "
 "
-)
-.
-get
-(
-)
 )
 ;
 SetTaskbarGroupId

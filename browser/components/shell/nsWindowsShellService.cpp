@@ -725,9 +725,11 @@ appId
 return
 NS_ERROR_UNEXPECTED
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+const
+char
+*
 prefName
+=
 "
 browser
 .
@@ -735,7 +737,6 @@ taskbar
 .
 lastgroupid
 "
-)
 ;
 nsCOMPtr
 <
@@ -770,10 +771,6 @@ prefs
 GetComplexValue
 (
 prefName
-.
-get
-(
-)
 NS_GET_IID
 (
 nsISupportsString
@@ -861,10 +858,6 @@ prefs
 SetComplexValue
 (
 prefName
-.
-get
-(
-)
 NS_GET_IID
 (
 nsISupportsString
