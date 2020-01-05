@@ -4264,9 +4264,6 @@ typeVal
 cx
 )
 ;
-nsAutoJSString
-typeStr
-;
 if
 (
 !
@@ -4278,16 +4275,6 @@ jsonObj
 type
 "
 &
-typeVal
-)
-|
-|
-!
-typeStr
-.
-init
-(
-cx
 typeVal
 )
 )
@@ -4304,7 +4291,7 @@ NS_ERROR_INVALID_ARG
 return
 Dispatch
 (
-typeStr
+typeVal
 jsonVal
 nullptr
 cx

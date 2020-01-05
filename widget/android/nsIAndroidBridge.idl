@@ -319,7 +319,7 @@ void
 dispatch
 (
 in
-AString
+jsval
 event
 [
 optional
