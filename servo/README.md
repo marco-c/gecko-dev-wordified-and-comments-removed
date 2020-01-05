@@ -875,7 +875,7 @@ the
 end
 is
 to
-downgrate
+downgrade
 GCC
 to
 5
