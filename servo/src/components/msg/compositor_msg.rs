@@ -444,14 +444,6 @@ uint
 )
 ;
 fn
-delete_layer_group
-(
-&
-self
-PipelineId
-)
-;
-fn
 paint
 (
 &

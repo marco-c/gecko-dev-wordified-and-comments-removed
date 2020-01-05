@@ -339,12 +339,6 @@ SetLayerClipRect
 .
 )
 |
-DeleteLayerGroup
-(
-.
-.
-)
-|
 Paint
 (
 .
