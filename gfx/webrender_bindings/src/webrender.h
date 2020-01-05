@@ -779,6 +779,10 @@ bounds
 WRRect
 overflow
 const
+WRImageMask
+*
+mask
+const
 float
 *
 matrix

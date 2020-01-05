@@ -1176,6 +1176,16 @@ op
 overflow
 (
 )
+op
+.
+mask
+(
+)
+.
+ptrOr
+(
+nullptr
+)
 &
 (
 op

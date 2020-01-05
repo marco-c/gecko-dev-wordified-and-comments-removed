@@ -262,6 +262,9 @@ bounds
 WRRect
 overflow
 ;
+MaybeImageMask
+mask
+;
 Matrix4x4
 matrix
 ;
