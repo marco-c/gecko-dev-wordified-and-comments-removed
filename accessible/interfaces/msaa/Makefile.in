@@ -257,4 +257,8 @@ include
 midl_exports_TARGET
 :
 =
+midl
 export
+:
+:
+midl

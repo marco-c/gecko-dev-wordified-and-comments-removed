@@ -457,7 +457,11 @@ include
 midl_TARGET
 :
 =
+midl
 export
+:
+:
+midl
 include
 (
 topsrcdir

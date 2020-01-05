@@ -156,8 +156,7 @@ h
 cpp
 targets
 here
-export
-:
+ipdl
 :
 (
 ALL_IPDLSRCS
@@ -214,4 +213,12 @@ I
 )
 \
 ^
+.
+PHONY
+:
+ipdl
+export
+:
+:
+ipdl
 endif
