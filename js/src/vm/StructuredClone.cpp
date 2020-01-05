@@ -4271,6 +4271,9 @@ SharedArrayBufferObject
 )
 )
 {
+if
+(
+!
 JS_ReportErrorFlagsAndNumberASCII
 (
 cx
@@ -4279,6 +4282,9 @@ GetErrorMessage
 nullptr
 JSMSG_SC_SAB_TRANSFER
 )
+)
+return
+false
 ;
 continue
 ;
