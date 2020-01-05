@@ -115,6 +115,14 @@ ExclusiveContext
 cx
 )
 ;
+bool
+HasSupport
+(
+ExclusiveContext
+*
+cx
+)
+;
 MOZ_MUST_USE
 bool
 Eval
