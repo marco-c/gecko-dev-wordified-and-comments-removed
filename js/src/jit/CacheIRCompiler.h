@@ -208,6 +208,11 @@ LoadTypedElementResult
 \
 _
 (
+LoadObjectResult
+)
+\
+_
+(
 MegamorphicLoadSlotByValueResult
 )
 \
