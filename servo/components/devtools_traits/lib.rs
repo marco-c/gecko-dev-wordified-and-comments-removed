@@ -27,6 +27,14 @@ int_uint
 #
 !
 [
+feature
+(
+net
+)
+]
+#
+!
+[
 allow
 (
 non_snake_case
@@ -91,7 +99,7 @@ use
 std
 :
 :
-old_io
+net
 :
 :
 TcpStream
