@@ -1430,7 +1430,7 @@ this
 complex
 system
 more
-accesssible
+accessible
 to
 those
 trying

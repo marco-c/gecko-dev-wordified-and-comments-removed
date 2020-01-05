@@ -170,7 +170,7 @@ object
 "
 Telemetry
 is
-accesible
+accessible
 "
 )
 ;
