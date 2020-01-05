@@ -1903,7 +1903,8 @@ if
 aFlushDirtyRegion
 )
 {
-profiler_tracing
+GeckoProfilerTracingRAII
+tracer
 (
 "
 Paint
@@ -1911,7 +1912,6 @@ Paint
 "
 DisplayList
 "
-TRACING_INTERVAL_START
 )
 ;
 nsAutoScriptBlocker
@@ -1986,17 +1986,6 @@ widget
 SetPainting
 (
 false
-)
-;
-profiler_tracing
-(
-"
-Paint
-"
-"
-DisplayList
-"
-TRACING_INTERVAL_END
 )
 ;
 }
