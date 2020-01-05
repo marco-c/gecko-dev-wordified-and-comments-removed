@@ -345,12 +345,9 @@ JSContext
 cx
 HandleObject
 obj
-MutableHandle
-<
-RegExpShared
+RegExpGuard
 *
->
-shared
+g
 )
 const
 {
@@ -362,7 +359,7 @@ regexp_toShared
 (
 cx
 obj
-shared
+g
 )
 ;
 }

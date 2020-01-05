@@ -658,7 +658,7 @@ MutableHandleValue
 rval
 )
 {
-RootedRegExpShared
+RegExpGuard
 shared
 (
 cx
@@ -968,7 +968,7 @@ sharedUse
 UseRegExpShared
 )
 {
-RootedRegExpShared
+RegExpGuard
 re
 (
 cx
@@ -1427,7 +1427,7 @@ RegExpFlag
 flags
 ;
 {
-RootedRegExpShared
+RegExpGuard
 g
 (
 cx
@@ -1849,7 +1849,7 @@ RegExpFlag
 flags
 ;
 {
-RootedRegExpShared
+RegExpGuard
 g
 (
 cx
@@ -2441,7 +2441,7 @@ RegExpFlag
 flags
 ;
 {
-RootedRegExpShared
+RegExpGuard
 g
 (
 cx
@@ -4456,7 +4456,7 @@ RegExpObject
 )
 )
 ;
-RootedRegExpShared
+RegExpGuard
 re
 (
 cx

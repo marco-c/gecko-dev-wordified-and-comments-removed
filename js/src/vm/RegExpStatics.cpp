@@ -296,8 +296,8 @@ size_t
 )
 )
 ;
-RootedRegExpShared
-shared
+RegExpGuard
+g
 (
 cx
 )
@@ -321,7 +321,7 @@ cx
 lazySource
 lazyFlags
 &
-shared
+g
 )
 )
 return
@@ -337,7 +337,7 @@ matchesInput
 RegExpRunStatus
 status
 =
-shared
+g
 -
 >
 execute
