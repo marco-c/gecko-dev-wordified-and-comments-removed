@@ -199,6 +199,15 @@ extensions
 /
 ext
 -
+proxy
+.
+js
+content
+/
+extensions
+/
+ext
+-
 runtime
 .
 js
