@@ -79,7 +79,6 @@ AWSY_PATH
 from
 awsy
 import
-TEST_SITES_TEMPLATES
 ITERATIONS
 PER_TAB_PAUSE
 SETTLE_WAIT_TIME
@@ -444,10 +443,6 @@ readlines
 (
 )
         
-if
-urls
-:
-            
 urls
 =
 map
@@ -471,13 +466,6 @@ localhost
 )
 urls
 )
-        
-else
-:
-            
-urls
-=
-TEST_SITES_TEMPLATES
         
 for
 url
