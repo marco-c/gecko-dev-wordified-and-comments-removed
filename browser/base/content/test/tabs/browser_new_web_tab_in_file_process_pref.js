@@ -203,7 +203,7 @@ httpTab
 linkedBrowser
 filePid
 (
-filePid
+expectedPid
 )
 =
 >
@@ -215,7 +215,7 @@ Services
 appinfo
 .
 processID
-filePid
+expectedPid
 "
 Check
 that
