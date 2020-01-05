@@ -1029,7 +1029,7 @@ CSSParsingEnvironment
 aCSSParseEnv
 )
 {
-CSSStyleSheet
+StyleSheet
 *
 sheet
 =

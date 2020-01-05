@@ -6611,7 +6611,7 @@ mOwnerRule
 {
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 sheet
 =
@@ -6640,6 +6640,11 @@ sheet
 windowID
 =
 sheet
+-
+>
+AsGecko
+(
+)
 -
 >
 FindOwningWindowInnerID

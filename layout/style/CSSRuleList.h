@@ -80,7 +80,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 CSSRuleList
 )
 virtual
-CSSStyleSheet
+StyleSheet
 *
 GetParentObject
 (

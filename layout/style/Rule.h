@@ -217,7 +217,7 @@ const
 =
 0
 ;
-CSSStyleSheet
+StyleSheet
 *
 GetStyleSheet
 (
@@ -235,7 +235,7 @@ GetDocument
 )
 const
 {
-CSSStyleSheet
+StyleSheet
 *
 sheet
 =
@@ -260,7 +260,7 @@ virtual
 void
 SetStyleSheet
 (
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -369,7 +369,7 @@ MOZ_MUST_OVERRIDE
 ;
 protected
 :
-CSSStyleSheet
+StyleSheet
 *
 mSheet
 ;

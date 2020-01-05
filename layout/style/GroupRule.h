@@ -59,7 +59,7 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+StyleSheet
 ;
 namespace
 css
@@ -131,7 +131,7 @@ virtual
 void
 SetStyleSheet
 (
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )
