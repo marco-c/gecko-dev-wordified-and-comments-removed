@@ -91,8 +91,7 @@ attribute
 USVString
 href
 ;
-/
-/
+readonly
 attribute
 USVString
 origin
