@@ -370,6 +370,10 @@ mHasCallInterpositions
 (
 false
 )
+mDocGroupValidation
+(
+false
+)
 mIsContentXBLScope
 (
 false
@@ -772,6 +776,10 @@ addonId
 )
 :
 false
+;
+mDocGroupValidation
+=
+true
 ;
 }
 }

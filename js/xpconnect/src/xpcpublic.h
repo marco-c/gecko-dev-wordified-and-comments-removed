@@ -1482,6 +1482,14 @@ nsIURI
 locationURI
 )
 ;
+void
+SetDocGroupValidation
+(
+JSObject
+*
+global
+)
+;
 class
 ZoneStatsExtras
 {

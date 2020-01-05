@@ -115,6 +115,11 @@ ChromeObjectWrapper
 cpp
 '
 '
+DocGroupValidationWrapper
+.
+cpp
+'
+'
 FilteringWrapper
 .
 cpp
