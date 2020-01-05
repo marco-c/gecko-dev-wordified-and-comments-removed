@@ -112,6 +112,11 @@ TestPerProviderDirectory
 cpp
 '
 '
+TestRiceDeltaDecoder
+.
+cpp
+'
+'
 TestSafebrowsingHash
 .
 cpp

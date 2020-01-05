@@ -208,6 +208,11 @@ ProtocolParser
 .
 cpp
 '
+'
+RiceDeltaDecoder
+.
+cpp
+'
 ]
 #
 define
