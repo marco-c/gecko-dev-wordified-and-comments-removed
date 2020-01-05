@@ -1421,7 +1421,7 @@ ReferencesValidResources
 ;
 }
 bool
-HasNoFilterOrHasValidFilter
+HasNoOrValidFilter
 (
 )
 {
@@ -1434,6 +1434,18 @@ mFilter
 -
 >
 ReferencesValidResources
+(
+)
+;
+}
+bool
+HasInvalidFilter
+(
+)
+{
+return
+!
+HasNoOrValidFilter
 (
 )
 ;

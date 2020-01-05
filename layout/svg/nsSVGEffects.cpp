@@ -2878,7 +2878,7 @@ HasNoOrValidMask
 )
 &
 &
-HasNoFilterOrHasValidFilter
+HasNoOrValidFilter
 (
 )
 ;

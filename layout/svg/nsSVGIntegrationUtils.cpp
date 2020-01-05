@@ -4453,10 +4453,9 @@ firstFrame
 ;
 if
 (
-!
 effectProperties
 .
-HasValidFilter
+HasInvalidFilter
 (
 )
 )
