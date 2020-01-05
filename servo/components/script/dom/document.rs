@@ -943,18 +943,6 @@ constellation_msg
 :
 :
 {
-AnimationState
-PipelineId
-}
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-{
 ConstellationChan
 Key
 KeyModifiers
@@ -970,6 +958,7 @@ constellation_msg
 :
 {
 MouseButton
+PipelineId
 SubpageId
 }
 ;
@@ -1023,6 +1012,7 @@ script_traits
 :
 :
 {
+AnimationState
 MouseEventType
 MozBrowserEvent
 }

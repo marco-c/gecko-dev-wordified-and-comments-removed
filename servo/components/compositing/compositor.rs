@@ -247,7 +247,6 @@ constellation_msg
 :
 :
 {
-AnimationState
 Image
 PixelFormat
 }
@@ -330,6 +329,7 @@ script_traits
 :
 :
 {
+AnimationState
 ConstellationControlMsg
 LayoutControlMsg
 }
