@@ -517,11 +517,10 @@ hal
 namespace
 hal_sandbox
 {
-prio
+nested
 (
-normal
 upto
-urgent
+inside_cpow
 )
 sync
 protocol
@@ -816,9 +815,9 @@ DisableScreenConfigurationNotifications
 (
 )
 ;
-prio
+nested
 (
-urgent
+inside_cpow
 )
 sync
 GetCurrentScreenConfiguration

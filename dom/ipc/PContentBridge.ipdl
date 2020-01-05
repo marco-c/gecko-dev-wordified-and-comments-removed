@@ -336,11 +336,10 @@ other
 .
 *
 /
-prio
+nested
 (
-normal
 upto
-urgent
+inside_cpow
 )
 sync
 protocol
