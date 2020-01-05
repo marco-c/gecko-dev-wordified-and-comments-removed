@@ -112,8 +112,6 @@ HTMLFieldSetElement
 :
 HTMLElement
 {
-/
-/
 attribute
 boolean
 disabled

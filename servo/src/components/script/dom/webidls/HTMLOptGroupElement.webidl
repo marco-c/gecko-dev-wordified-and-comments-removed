@@ -112,8 +112,6 @@ HTMLOptGroupElement
 :
 HTMLElement
 {
-/
-/
 attribute
 boolean
 disabled

@@ -118,8 +118,6 @@ attribute
 boolean
 autofocus
 ;
-/
-/
 attribute
 boolean
 disabled

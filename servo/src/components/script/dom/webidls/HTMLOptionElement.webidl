@@ -140,8 +140,6 @@ HTMLOptionElement
 :
 HTMLElement
 {
-/
-/
 attribute
 boolean
 disabled

@@ -137,8 +137,6 @@ attribute
 DOMString
 dirName
 ;
-/
-/
 attribute
 boolean
 disabled
