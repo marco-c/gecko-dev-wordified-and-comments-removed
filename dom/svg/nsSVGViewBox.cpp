@@ -1304,8 +1304,10 @@ mSVGElement
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGViewBox
 :
 :
@@ -1317,8 +1319,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILViewBox
+>
 (
 this
 aSVGElement

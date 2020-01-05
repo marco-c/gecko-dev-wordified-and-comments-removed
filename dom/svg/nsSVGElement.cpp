@@ -11313,8 +11313,10 @@ true
 ;
 }
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGElement
 :
 :
@@ -11370,8 +11372,10 @@ mozAnimateMotionDummyAttr
 )
 {
 return
-new
+MakeUnique
+<
 SVGMotionSMILAttr
+>
 (
 this
 )

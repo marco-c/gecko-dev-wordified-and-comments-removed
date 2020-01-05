@@ -832,8 +832,10 @@ mVal
 ;
 }
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGIntegerPair
 :
 :
@@ -845,8 +847,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILIntegerPair
+>
 (
 this
 aSVGElement

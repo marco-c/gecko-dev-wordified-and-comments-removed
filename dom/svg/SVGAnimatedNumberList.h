@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -164,8 +173,10 @@ return
 mAnimVal
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 ToSMILAttr
 (
 nsSVGElement

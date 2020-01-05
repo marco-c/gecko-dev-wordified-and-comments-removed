@@ -237,6 +237,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -803,8 +812,10 @@ aNotify
 )
 ;
 virtual
+UniquePtr
+<
 nsISMILAttr
-*
+>
 GetAnimatedAttr
 (
 int32_t

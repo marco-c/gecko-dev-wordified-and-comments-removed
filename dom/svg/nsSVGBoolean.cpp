@@ -467,8 +467,10 @@ mVal
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGBoolean
 :
 :
@@ -480,8 +482,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILBool
+>
 (
 this
 aSVGElement

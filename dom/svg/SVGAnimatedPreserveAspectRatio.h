@@ -48,6 +48,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 class
 nsSMILValue
 ;
@@ -309,8 +318,10 @@ nsSVGElement
 aSVGElement
 )
 ;
+UniquePtr
+<
 nsISMILAttr
-*
+>
 ToSMILAttr
 (
 nsSVGElement

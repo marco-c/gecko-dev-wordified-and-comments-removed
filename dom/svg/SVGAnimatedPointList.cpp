@@ -431,8 +431,10 @@ DidAnimatePointList
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 SVGAnimatedPointList
 :
 :
@@ -444,8 +446,10 @@ aElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILAnimatedPointList
+>
 (
 this
 aElement

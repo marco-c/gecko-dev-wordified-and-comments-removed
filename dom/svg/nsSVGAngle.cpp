@@ -1425,8 +1425,10 @@ mVal
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGAngle
 :
 :
@@ -1471,8 +1473,10 @@ aSVGElement
 )
 ;
 return
-new
+MakeUnique
+<
 SMILOrient
+>
 (
 marker
 -

@@ -428,8 +428,10 @@ DidAnimatePathSegList
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 SVGAnimatedPathSegList
 :
 :
@@ -441,8 +443,10 @@ aElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILAnimatedPathSegList
+>
 (
 this
 aElement

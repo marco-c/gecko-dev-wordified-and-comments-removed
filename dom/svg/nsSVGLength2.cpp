@@ -1939,8 +1939,10 @@ mVal
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGLength2
 :
 :
@@ -1952,8 +1954,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILLength
+>
 (
 this
 aSVGElement

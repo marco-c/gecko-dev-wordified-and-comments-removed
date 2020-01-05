@@ -351,8 +351,10 @@ aAttrEnum
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 SVGAnimatedNumberList
 :
 :
@@ -366,8 +368,10 @@ aAttrEnum
 )
 {
 return
-new
+MakeUnique
+<
 SMILAnimatedNumberList
+>
 (
 this
 aSVGElement
