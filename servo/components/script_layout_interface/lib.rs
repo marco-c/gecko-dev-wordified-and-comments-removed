@@ -241,6 +241,15 @@ use
 style
 :
 :
+dom
+:
+:
+TRestyleDamage
+;
+use
+style
+:
+:
 selector_impl
 :
 :
@@ -290,7 +299,7 @@ restyle_damage
 RestyleDamage
 :
 :
-empty
+rebuild_and_reflow
 (
 )
 parallel
