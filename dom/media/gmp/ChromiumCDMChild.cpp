@@ -2677,6 +2677,13 @@ kStreamTypeVideo
 )
 ;
 }
+Unused
+<
+<
+SendResetVideoDecoderComplete
+(
+)
+;
 return
 IPC_OK
 (

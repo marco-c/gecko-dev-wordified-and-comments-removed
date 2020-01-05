@@ -379,6 +379,11 @@ aStatus
 )
 ;
 async
+ResetVideoDecoderComplete
+(
+)
+;
+async
 Shutdown
 (
 )
