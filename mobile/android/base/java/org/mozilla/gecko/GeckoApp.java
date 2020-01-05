@@ -1706,6 +1706,10 @@ isAboutHomeWithoutHistory
 {
 if
 (
+!
+loadingExternalURL
+&
+&
 sessionTab
 .
 isSelected
