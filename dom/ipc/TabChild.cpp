@@ -7332,6 +7332,7 @@ nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_UNKNOWN
+0
 )
 ;
 return

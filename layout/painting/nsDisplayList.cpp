@@ -21560,7 +21560,7 @@ mOuterRect
 )
 ;
 return
-LAYER_INACTIVE
+LAYER_ACTIVE
 ;
 }
 already_AddRefed
@@ -23674,16 +23674,12 @@ aList
 AnimatedGeometryRoot
 *
 aExpectedAnimatedGeometryRootForChildren
-LayerState
-aDefaultState
-=
-LAYER_INACTIVE
 )
 {
 LayerState
 result
 =
-aDefaultState
+LAYER_INACTIVE
 ;
 for
 (
@@ -36538,7 +36534,6 @@ mList
 GetAnimatedGeometryRoot
 (
 )
-LAYER_SVG_EFFECTS
 )
 ;
 }
@@ -36598,6 +36593,11 @@ opacity
 1
 .
 0
+|
+|
+maskUsage
+.
+shouldApplyClipPath
 )
 {
 return

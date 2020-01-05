@@ -2984,6 +2984,8 @@ bool
 aIsWidgetEventSynthesized
 int32_t
 aButtons
+uint32_t
+aIdentifier
 uint8_t
 aOptionalArgCount
 bool
@@ -3003,6 +3005,14 @@ aModifiers
 aIgnoreRootScrollFrame
 aPressure
 aInputSourceArg
+aOptionalArgCount
+>
+=
+7
+?
+aIdentifier
+:
+DEFAULT_MOUSE_POINTER_ID
 false
 aPreventDefault
 aOptionalArgCount
@@ -3065,6 +3075,8 @@ bool
 aIsWidgetEventSynthesized
 int32_t
 aButtons
+uint32_t
+aIdentifier
 uint8_t
 aOptionalArgCount
 )
@@ -3101,6 +3113,14 @@ aModifiers
 aIgnoreRootScrollFrame
 aPressure
 aInputSourceArg
+aOptionalArgCount
+>
+=
+7
+?
+aIdentifier
+:
+DEFAULT_MOUSE_POINTER_ID
 true
 nullptr
 aOptionalArgCount
@@ -3157,6 +3177,8 @@ aPressure
 unsigned
 short
 aInputSourceArg
+uint32_t
+aPointerId
 bool
 aToWindow
 bool
@@ -3197,6 +3219,7 @@ aModifiers
 aIgnoreRootScrollFrame
 aPressure
 aInputSourceArg
+aPointerId
 aToWindow
 aPreventDefault
 aIsDOMEventSynthesized

@@ -202,11 +202,6 @@ CompositorTypes
 h
 '
 '
-CopyableCanvasLayer
-.
-h
-'
-'
 D3D9SurfaceImage
 .
 h
@@ -2476,6 +2471,11 @@ cpp
 '
 '
 RotatedBuffer
+.
+cpp
+'
+'
+ShareableCanvasLayer
 .
 cpp
 '
