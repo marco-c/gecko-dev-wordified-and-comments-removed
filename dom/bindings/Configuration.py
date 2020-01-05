@@ -823,7 +823,7 @@ True
 if
 t
 .
-isMozMap
+isRecord
 (
 )
 :

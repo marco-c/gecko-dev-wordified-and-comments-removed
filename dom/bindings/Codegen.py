@@ -476,7 +476,7 @@ flatMemberTypes
 elif
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -7584,7 +7584,7 @@ h
 elif
 unrolled
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -9048,7 +9048,7 @@ callback
 elif
 f
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -9543,7 +9543,7 @@ h
 elif
 f
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -33076,7 +33076,7 @@ holderArgs
 if
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -34603,7 +34603,7 @@ t
 :
 t
 .
-isMozMap
+isRecord
 (
 )
 memberTypes
@@ -43626,7 +43626,7 @@ isSequence
 or
 type
 .
-isMozMap
+isRecord
 (
 )
 )
@@ -44059,7 +44059,7 @@ False
 if
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -46558,7 +46558,7 @@ isSequence
 or
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -47432,7 +47432,7 @@ None
 if
 returnType
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -48306,7 +48306,7 @@ a
 .
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -49885,7 +49885,7 @@ wrapCode
 if
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -55095,7 +55095,7 @@ distinguishingType
 s
 )
 .
-isMozMap
+isRecord
 (
 )
 or
@@ -64761,7 +64761,7 @@ JSVAL_TYPE_OBJECT
 if
 t
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -66838,7 +66838,7 @@ isSequence
 or
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -69625,7 +69625,7 @@ name
 elif
 t
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -92493,7 +92493,7 @@ memberNullable
 elif
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -95582,7 +95582,7 @@ True
 elif
 t
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -99202,7 +99202,7 @@ returnCode
 if
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -99542,7 +99542,7 @@ aRetVal
 elif
 returnType
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -100262,7 +100262,7 @@ True
 if
 type
 .
-isMozMap
+isRecord
 (
 )
 :

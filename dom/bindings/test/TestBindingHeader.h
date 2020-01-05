@@ -626,7 +626,7 @@ const
 GlobalObject
 &
 const
-LongOrAnyMozMap
+LongOrStringAnyRecord
 &
 ErrorResult
 &
@@ -4976,7 +4976,7 @@ void
 PassUnion21
 (
 const
-LongMozMapOrLong
+StringLongRecordOrLong
 &
 )
 ;
@@ -4986,7 +4986,7 @@ PassUnion22
 JSContext
 *
 const
-ObjectMozMapOrLong
+StringObjectRecordOrLong
 &
 )
 ;
@@ -5059,7 +5059,7 @@ void
 PassUnionWithMozMap
 (
 const
-StringMozMapOrString
+StringStringRecordOrString
 &
 )
 ;
@@ -5067,7 +5067,7 @@ void
 PassUnionWithMozMapAndSequence
 (
 const
-StringMozMapOrStringSequence
+StringStringRecordOrStringSequence
 &
 )
 ;
@@ -5075,7 +5075,7 @@ void
 PassUnionWithSequenceAndMozMap
 (
 const
-StringSequenceOrStringMozMap
+StringSequenceOrStringStringRecord
 &
 )
 ;

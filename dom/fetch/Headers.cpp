@@ -83,7 +83,7 @@ aGlobal
 const
 Optional
 <
-HeadersOrByteStringSequenceSequenceOrByteStringMozMap
+HeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 >
 &
 aInit
@@ -213,7 +213,7 @@ Value
 (
 )
 .
-IsByteStringMozMap
+IsByteStringByteStringRecord
 (
 )
 )
@@ -229,7 +229,7 @@ Value
 (
 )
 .
-GetAsByteStringMozMap
+GetAsByteStringByteStringRecord
 (
 )
 aRv
@@ -271,7 +271,7 @@ GlobalObject
 &
 aGlobal
 const
-OwningHeadersOrByteStringSequenceSequenceOrByteStringMozMap
+OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 &
 aInit
 ErrorResult
@@ -316,7 +316,7 @@ nsIGlobalObject
 *
 aGlobal
 const
-OwningHeadersOrByteStringSequenceSequenceOrByteStringMozMap
+OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 &
 aInit
 ErrorResult
@@ -410,7 +410,7 @@ if
 (
 aInit
 .
-IsByteStringMozMap
+IsByteStringByteStringRecord
 (
 )
 )
@@ -422,7 +422,7 @@ Fill
 (
 aInit
 .
-GetAsByteStringMozMap
+GetAsByteStringByteStringRecord
 (
 )
 aRv

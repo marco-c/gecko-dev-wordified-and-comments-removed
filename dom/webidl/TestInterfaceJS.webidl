@@ -228,8 +228,9 @@ dictOrLong
 DOMString
 pingPongMap
 (
-MozMap
+record
 <
+DOMString
 any
 >
 map

@@ -356,8 +356,9 @@ started
 boolean
 install
 (
-MozMap
+record
 <
+DOMString
 (
 DOMString
 or

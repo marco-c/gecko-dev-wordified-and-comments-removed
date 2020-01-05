@@ -150,8 +150,9 @@ ByteString
 >
 >
 or
-MozMap
+record
 <
+ByteString
 ByteString
 >
 )
