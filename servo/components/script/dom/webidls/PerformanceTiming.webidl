@@ -279,8 +279,6 @@ long
 long
 domComplete
 ;
-/
-*
 readonly
 attribute
 unsigned
@@ -295,7 +293,5 @@ long
 long
 loadEventEnd
 ;
-*
-/
 }
 ;
