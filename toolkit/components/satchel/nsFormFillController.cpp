@@ -4728,7 +4728,7 @@ ShowPopup
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFormFillController
 :
 :
