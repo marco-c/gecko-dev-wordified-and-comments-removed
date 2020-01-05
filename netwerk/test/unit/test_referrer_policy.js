@@ -208,7 +208,7 @@ policy
 :
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 url
 :
 "
@@ -254,7 +254,7 @@ policy
 :
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 url
 :
 "
@@ -313,7 +313,7 @@ policy
 :
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 url
 :
 "

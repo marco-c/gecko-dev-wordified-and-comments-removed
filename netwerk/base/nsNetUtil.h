@@ -2672,6 +2672,11 @@ nsIChannel
 aChannel
 )
 ;
+uint32_t
+NS_GetDefaultReferrerPolicy
+(
+)
+;
 namespace
 mozilla
 {
