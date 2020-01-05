@@ -4,6 +4,7 @@ cocoa
 export
 QuartzNativeFont
 with_test_native_font
+create
 ;
 import
 libc
@@ -198,6 +199,7 @@ create
 (
 buf
 :
+&
 ~
 [
 u8
@@ -220,6 +222,7 @@ vec
 :
 as_buf
 (
+*
 buf
 |
 cbuf
@@ -321,6 +324,7 @@ res
 =
 create
 (
+&
 buf
 )
 ;

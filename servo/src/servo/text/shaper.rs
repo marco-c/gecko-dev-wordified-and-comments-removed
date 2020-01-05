@@ -656,7 +656,7 @@ match
 font
 )
 .
-glyph_idx
+glyph_index
 (
 unicode
 as

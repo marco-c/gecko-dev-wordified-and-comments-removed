@@ -1,6 +1,7 @@
 export
 FreeTypeNativeFont
 with_test_native_font
+create
 ;
 import
 vec_as_buf
