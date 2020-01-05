@@ -5,7 +5,6 @@ CNNIC_WHITELIST_HASH_LEN
 struct
 WhitelistedCNNICHash
 {
-const
 uint8_t
 hash
 [

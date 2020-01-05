@@ -5,14 +5,12 @@ HASH_LEN
 struct
 CertAuthorityHash
 {
-const
 uint8_t
 hash
 [
 HASH_LEN
 ]
 ;
-const
 int32_t
 binNumber
 ;
