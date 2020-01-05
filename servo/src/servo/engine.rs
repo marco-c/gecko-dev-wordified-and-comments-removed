@@ -209,10 +209,7 @@ copy
 url
 ;
 if
-(
-*
 url
-)
 .
 ends_with
 (

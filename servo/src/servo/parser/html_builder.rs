@@ -1145,7 +1145,6 @@ send
 (
 file
 (
-~
 copy
 filename
 )

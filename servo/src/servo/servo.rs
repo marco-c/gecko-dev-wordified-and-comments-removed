@@ -254,7 +254,6 @@ send
 (
 LoadURLMsg
 (
-~
 copy
 filename
 )
@@ -422,7 +421,6 @@ send
 (
 LoadURLMsg
 (
-~
 url
 )
 )

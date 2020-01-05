@@ -611,7 +611,6 @@ s
 to
 parse
 "
-*
 filename
 ]
 ;
@@ -734,14 +733,12 @@ s
 to
 execute
 "
-*
 filename
 ]
 ;
 alt
 read_whole_file
 (
-*
 filename
 )
 {
@@ -764,7 +761,6 @@ s
 %
 s
 "
-*
 filename
 msg
 ]
@@ -827,7 +823,6 @@ compartment
 .
 global_obj
 bytes
-*
 filename
 1u
 )

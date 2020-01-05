@@ -1344,7 +1344,6 @@ spawn
 {
 assert
 (
-*
 copy
 filename
 )
@@ -1365,7 +1364,6 @@ io
 :
 read_whole_file
 (
-*
 filename
 )
 ;
@@ -1433,7 +1431,6 @@ sheet
 %
 s
 "
-*
 copy
 filename
 ]
@@ -1515,7 +1512,6 @@ sheet
 %
 s
 "
-*
 copy
 filename
 ]

@@ -97,6 +97,9 @@ glut
 use
 layers
 ;
+use
+opengles
+;
 mod
 dom
 {

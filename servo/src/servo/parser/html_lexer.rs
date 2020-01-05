@@ -932,7 +932,6 @@ html_file
 assert
 (
 copy
-*
 filename
 )
 .
@@ -952,7 +951,6 @@ io
 :
 read_whole_file
 (
-*
 filename
 )
 .
