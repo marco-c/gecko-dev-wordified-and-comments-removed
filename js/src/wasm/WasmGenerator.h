@@ -313,12 +313,6 @@ uint32_t
 >
 numFinishedFuncDefs_
 ;
-MOZ_MUST_USE
-bool
-finishOutstandingTask
-(
-)
-;
 bool
 funcIsImport
 (
@@ -363,6 +357,12 @@ finishTask
 IonCompileTask
 *
 task
+)
+;
+MOZ_MUST_USE
+bool
+finishOutstandingTask
+(
 )
 ;
 MOZ_MUST_USE
