@@ -98,6 +98,16 @@ params
 )
 :
         
+if
+not
+params
+:
+            
+params
+=
+[
+]
+        
 return
 subprocess
 .
