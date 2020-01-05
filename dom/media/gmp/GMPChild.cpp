@@ -1698,6 +1698,12 @@ GMPLoader
 (
 )
 ;
+#
+if
+defined
+(
+MOZ_GMP_SANDBOX
+)
 if
 (
 !
@@ -1734,6 +1740,8 @@ this
 )
 ;
 }
+#
+endif
 bool
 isWidevine
 =
