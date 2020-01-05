@@ -659,7 +659,6 @@ due
 to
 bug
 604815
-fails
 =
 =
 weightmapping
@@ -672,7 +671,6 @@ weightmapping
 12
 .
 html
-fails
 HTTP
 (
 .
@@ -690,7 +688,6 @@ weightmapping
 25
 .
 html
-fails
 HTTP
 (
 .
@@ -708,7 +705,6 @@ weightmapping
 45
 .
 html
-fails
 HTTP
 (
 .
@@ -726,7 +722,6 @@ weightmapping
 458
 .
 html
-fails
 HTTP
 (
 .
@@ -744,7 +739,6 @@ weightmapping
 478
 .
 html
-fails
 HTTP
 (
 .
@@ -762,7 +756,6 @@ weightmapping
 7
 .
 html
-fails
 =
 =
 weightmapping
@@ -809,7 +802,6 @@ stretchmapping
 reverse
 .
 html
-fails
 =
 =
 stretchmapping
@@ -822,7 +814,6 @@ stretchmapping
 35
 .
 html
-fails
 =
 =
 stretchmapping
