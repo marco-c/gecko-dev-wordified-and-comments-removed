@@ -36,6 +36,7 @@ const
 {
 setupActions
 setupStore
+clonePacket
 }
 =
 require
@@ -330,6 +331,8 @@ test
 const
 packet
 =
+clonePacket
+(
 stubPackets
 .
 get
@@ -348,6 +351,15 @@ test
 )
 "
 )
+)
+;
+packet
+.
+message
+.
+timeStamp
+=
+1
 ;
 dispatch
 (
@@ -358,6 +370,14 @@ messageAdd
 packet
 )
 )
+;
+packet
+.
+message
+.
+timeStamp
+=
+2
 ;
 dispatch
 (
@@ -801,6 +821,8 @@ logLimit
 const
 packet
 =
+clonePacket
+(
 stubPackets
 .
 get
@@ -813,6 +835,7 @@ log
 undefined
 )
 "
+)
 )
 ;
 for
@@ -1606,6 +1629,8 @@ bar
 const
 packet
 =
+clonePacket
+(
 stubPackets
 .
 get
@@ -1618,6 +1643,7 @@ log
 undefined
 )
 "
+)
 )
 ;
 for

@@ -152,13 +152,6 @@ javascript
 "
 \
 "
-timeStamp
-\
-"
-:
-1476573167137
-\
-"
 type
 \
 "
@@ -1164,13 +1157,6 @@ source
 javascript
 \
 "
-\
-"
-timeStamp
-\
-"
-:
-1487992945524
 \
 "
 type
