@@ -12,6 +12,12 @@ import
 shutil
 import
 subprocess
+from
+mozbuild
+.
+util
+import
+ensureParentDir
 is_linux
 =
 platform
@@ -733,6 +739,11 @@ output_dmg
     
 else
 :
+        
+ensureParentDir
+(
+output_dmg
+)
         
 hfs
 =
