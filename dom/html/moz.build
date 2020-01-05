@@ -317,11 +317,6 @@ HTMLDetailsElement
 h
 '
 '
-HTMLDialogElement
-.
-h
-'
-'
 HTMLDivElement
 .
 h
@@ -698,11 +693,6 @@ cpp
 '
 '
 HTMLDetailsElement
-.
-cpp
-'
-'
-HTMLDialogElement
 .
 cpp
 '

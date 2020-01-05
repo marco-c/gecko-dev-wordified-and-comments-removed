@@ -2580,14 +2580,6 @@ GROUP_INLINE_ELEMENT
 )
 ELEM
 (
-dialog
-true
-true
-GROUP_BLOCK
-GROUP_FLOW_ELEMENT
-)
-ELEM
-(
 dir
 true
 false
