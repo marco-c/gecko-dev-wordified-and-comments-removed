@@ -2331,7 +2331,7 @@ Event
 {
 self
 .
-fire_simple_event_params
+fire_event
 (
 name
 EventBubbles
@@ -2347,7 +2347,7 @@ win
 }
 pub
 fn
-fire_simple_event_params
+fire_event
 (
 &
 self

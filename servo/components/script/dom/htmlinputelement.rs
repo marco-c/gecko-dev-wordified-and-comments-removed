@@ -7619,7 +7619,7 @@ EventTarget
 ;
 target
 .
-fire_simple_event_params
+fire_event
 (
 "
 input
@@ -7647,7 +7647,7 @@ r
 ;
 target
 .
-fire_simple_event_params
+fire_event
 (
 "
 change

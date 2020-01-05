@@ -3752,7 +3752,7 @@ upcast
 (
 )
 .
-fire_simple_event_params
+fire_event
 (
 "
 error
