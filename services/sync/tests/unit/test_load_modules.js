@@ -46,15 +46,6 @@ js
 "
 engines
 /
-extension
--
-storage
-.
-js
-"
-"
-engines
-/
 forms
 .
 js
