@@ -279,6 +279,11 @@ nsAString
 aInputValue
 )
 ;
+nsresult
+ShowPopup
+(
+)
+;
 inline
 nsIDocShell
 *
@@ -414,6 +419,9 @@ mMinResultsForPopup
 ;
 uint32_t
 mMaxRows
+;
+bool
+mContextMenuFiredBeforeFocus
 ;
 bool
 mDisableAutoComplete
