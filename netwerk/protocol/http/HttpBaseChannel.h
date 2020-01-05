@@ -1916,6 +1916,15 @@ aSecurityInfo
 ;
 public
 :
+int64_t
+GetAltDataLength
+(
+)
+{
+return
+mAltDataLength
+;
+}
 bool
 IsNavigation
 (
@@ -2637,6 +2646,9 @@ mPreferredCachedAltDataType
 ;
 nsCString
 mAvailableCachedAltDataType
+;
+int64_t
+mAltDataLength
 ;
 bool
 mForceMainDocumentChannel

@@ -532,6 +532,10 @@ const
 nsCString
 &
 altDataType
+const
+int64_t
+&
+altDataLen
 )
 override
 ;
@@ -1264,6 +1268,10 @@ const
 nsCString
 &
 altDataType
+const
+int64_t
+&
+altDataLen
 )
 ;
 void

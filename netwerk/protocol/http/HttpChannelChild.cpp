@@ -1384,6 +1384,10 @@ const
 nsCString
 &
 altDataType
+const
+int64_t
+&
+altDataLen
 )
 :
 mChild
@@ -1442,6 +1446,10 @@ mAltDataType
 (
 altDataType
 )
+mAltDataLen
+(
+altDataLen
+)
 {
 }
 void
@@ -1485,6 +1493,7 @@ mSelfAddr
 mPeerAddr
 mCacheKey
 mAltDataType
+mAltDataLen
 )
 ;
 }
@@ -1532,6 +1541,9 @@ mCacheKey
 ;
 nsCString
 mAltDataType
+;
+int64_t
+mAltDataLen
 ;
 }
 ;
@@ -1603,6 +1615,10 @@ const
 nsCString
 &
 altDataType
+const
+int64_t
+&
+altDataLen
 )
 {
 LOG
@@ -1682,6 +1698,7 @@ selfAddr
 peerAddr
 cacheKey
 altDataType
+altDataLen
 )
 )
 ;
@@ -1749,6 +1766,10 @@ const
 nsCString
 &
 altDataType
+const
+int64_t
+&
+altDataLen
 )
 {
 LOG
@@ -1882,6 +1903,10 @@ peerAddr
 mAvailableCachedAltDataType
 =
 altDataType
+;
+mAltDataLength
+=
+altDataLen
 ;
 mAfterOnStartRequestBegun
 =

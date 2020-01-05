@@ -766,6 +766,8 @@ uint32_t
 cacheKey
 nsCString
 altDataType
+int64_t
+altDataLength
 )
 ;
 /
