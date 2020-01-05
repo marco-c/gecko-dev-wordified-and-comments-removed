@@ -1899,7 +1899,7 @@ aContent
 ;
 static
 nsresult
-NameChanged
+QNameChanged
 (
 mozilla
 :
