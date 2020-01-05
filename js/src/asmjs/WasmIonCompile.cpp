@@ -7071,7 +7071,7 @@ loopHeader
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 mirGraph
 (
@@ -7257,7 +7257,7 @@ if
 loopEntry
 -
 >
-setBackedgeAsmJS
+setBackedgeWasm
 (
 backedge
 )
@@ -8320,7 +8320,7 @@ block
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 mirGraph
 (

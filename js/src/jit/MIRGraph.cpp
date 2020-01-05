@@ -1315,7 +1315,7 @@ split
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info
@@ -1667,7 +1667,7 @@ MBasicBlock
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 MIRGraph
 &
@@ -6271,7 +6271,7 @@ bool
 MBasicBlock
 :
 :
-setBackedgeAsmJS
+setBackedgeWasm
 (
 MBasicBlock
 *

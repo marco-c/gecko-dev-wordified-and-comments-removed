@@ -190,7 +190,7 @@ block
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info
@@ -225,7 +225,7 @@ block
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info
@@ -270,7 +270,7 @@ block
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info

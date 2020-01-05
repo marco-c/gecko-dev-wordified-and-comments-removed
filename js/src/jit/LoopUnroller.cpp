@@ -1151,7 +1151,7 @@ unrolledHeader
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info
@@ -1167,7 +1167,7 @@ unrolledBackedge
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info
@@ -1183,7 +1183,7 @@ newPreheader
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph
 info
