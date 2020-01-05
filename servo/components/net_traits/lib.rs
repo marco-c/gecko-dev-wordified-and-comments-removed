@@ -565,6 +565,10 @@ Option
 <
 PipelineId
 >
+pub
+credentials_flag
+:
+bool
 }
 impl
 LoadData
@@ -623,6 +627,9 @@ None
 pipeline_id
 :
 id
+credentials_flag
+:
+true
 }
 }
 }

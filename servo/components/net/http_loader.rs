@@ -3738,6 +3738,10 @@ RwLock
 CookieStorage
 >
 >
+load_data
+:
+&
+LoadData
 )
 {
 let
@@ -3796,6 +3800,11 @@ set_default_accept_encoding
 headers
 )
 ;
+if
+load_data
+.
+credentials_flag
+{
 set_request_cookies
 (
 doc_url
@@ -3807,6 +3816,7 @@ headers
 cookie_jar
 )
 ;
+}
 }
 pub
 fn
@@ -3844,6 +3854,10 @@ RwLock
 HSTSList
 >
 >
+load_data
+:
+&
+LoadData
 )
 {
 info
@@ -3904,6 +3918,11 @@ header
 ;
 }
 }
+if
+load_data
+.
+credentials_flag
+{
 set_cookies_from_response
 (
 doc_url
@@ -3915,6 +3934,7 @@ response
 cookie_jar
 )
 ;
+}
 update_sts_list_from_response
 (
 url
@@ -4335,6 +4355,8 @@ doc_url
 user_agent
 &
 cookie_jar
+&
+load_data
 )
 ;
 let
@@ -4731,6 +4753,8 @@ doc_url
 cookie_jar
 &
 hsts_list
+&
+load_data
 )
 ;
 if
