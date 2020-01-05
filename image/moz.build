@@ -412,11 +412,6 @@ imgRequest
 cpp
 '
 '
-imgRequestProxy
-.
-cpp
-'
-'
 imgTools
 .
 cpp
@@ -512,6 +507,11 @@ SOURCES
 +
 =
 [
+'
+imgRequestProxy
+.
+cpp
+'
 '
 ProgressTracker
 .

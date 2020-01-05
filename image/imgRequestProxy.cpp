@@ -2029,9 +2029,6 @@ currentPrincipal
 ;
 RefPtr
 <
-image
-:
-:
 Image
 >
 image
