@@ -1538,6 +1538,23 @@ bootstrapped
             
 return
         
+subprocess
+.
+check_call
+(
+[
+"
+git
+"
+"
+submodule
+"
+"
+sync
+"
+]
+)
+        
 submodules
 =
 subprocess
