@@ -88,7 +88,6 @@ Expression
 derive
 (
 Debug
-PartialEq
 )
 ]
 #
@@ -292,7 +291,6 @@ derive
 (
 Clone
 Debug
-PartialEq
 )
 ]
 #
