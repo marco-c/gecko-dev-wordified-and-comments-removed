@@ -492,11 +492,6 @@ CSSConditionRule
 webidl
 '
 '
-CSSFontFaceRule
-.
-webidl
-'
-'
 CSSGroupingRule
 .
 webidl
