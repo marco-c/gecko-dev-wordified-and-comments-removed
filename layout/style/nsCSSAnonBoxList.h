@@ -123,7 +123,7 @@ anonymous
 block
 "
 )
-CSS_ANON_BOX
+CSS_NON_INHERITING_ANON_BOX
 (
 horizontalFramesetBorder
 "
@@ -136,7 +136,7 @@ hframeset
 border
 "
 )
-CSS_ANON_BOX
+CSS_NON_INHERITING_ANON_BOX
 (
 verticalFramesetBorder
 "
@@ -214,7 +214,7 @@ fieldset
 content
 "
 )
-CSS_ANON_BOX
+CSS_NON_INHERITING_ANON_BOX
 (
 framesetBlank
 "
