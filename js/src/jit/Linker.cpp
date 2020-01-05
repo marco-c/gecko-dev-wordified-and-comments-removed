@@ -187,6 +187,7 @@ execAlloc
 .
 alloc
 (
+cx
 bytesNeeded
 &
 pool

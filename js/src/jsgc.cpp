@@ -30855,7 +30855,7 @@ next
 zone
 -
 >
-resetGCMallocBytes
+resetAllMallocBytes
 (
 )
 ;
