@@ -1438,8 +1438,9 @@ InternalHeaders
 Fill
 (
 const
-MozMap
+Record
 <
+nsCString
 nsCString
 >
 &

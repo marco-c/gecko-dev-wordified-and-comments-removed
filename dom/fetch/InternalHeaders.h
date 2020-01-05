@@ -52,10 +52,12 @@ dom
 template
 <
 typename
-T
+K
+typename
+V
 >
 class
-MozMap
+Record
 ;
 class
 HeadersEntry
@@ -455,8 +457,9 @@ void
 Fill
 (
 const
-MozMap
+Record
 <
+nsCString
 nsCString
 >
 &

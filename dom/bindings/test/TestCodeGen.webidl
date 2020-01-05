@@ -171,7 +171,7 @@ arg
 )
 ;
 void
-doMozMapLongArg
+doRecordLongArg
 (
 record
 <
@@ -266,7 +266,7 @@ record
 DOMString
 long
 >
-getMozMapOfLong
+getRecordOfLong
 (
 )
 ;
@@ -2843,10 +2843,10 @@ receiveSequenceOfSequencesOfSequences
 ;
 /
 /
-MozMap
+record
 types
 void
-passMozMap
+passRecord
 (
 record
 <
@@ -2857,7 +2857,7 @@ arg
 )
 ;
 void
-passNullableMozMap
+passNullableRecord
 (
 record
 <
@@ -2869,7 +2869,7 @@ arg
 )
 ;
 void
-passMozMapOfNullableInts
+passRecordOfNullableInts
 (
 record
 <
@@ -2881,7 +2881,7 @@ arg
 )
 ;
 void
-passOptionalMozMapOfNullableInts
+passOptionalRecordOfNullableInts
 (
 optional
 record
@@ -2894,7 +2894,7 @@ arg
 )
 ;
 void
-passOptionalNullableMozMapOfNullableInts
+passOptionalNullableRecordOfNullableInts
 (
 optional
 record
@@ -2908,7 +2908,7 @@ arg
 )
 ;
 void
-passCastableObjectMozMap
+passCastableObjectRecord
 (
 record
 <
@@ -2919,7 +2919,7 @@ arg
 )
 ;
 void
-passNullableCastableObjectMozMap
+passNullableCastableObjectRecord
 (
 record
 <
@@ -2931,7 +2931,7 @@ arg
 )
 ;
 void
-passCastableObjectNullableMozMap
+passCastableObjectNullableRecord
 (
 record
 <
@@ -2943,7 +2943,7 @@ arg
 )
 ;
 void
-passNullableCastableObjectNullableMozMap
+passNullableCastableObjectNullableRecord
 (
 record
 <
@@ -2956,7 +2956,7 @@ arg
 )
 ;
 void
-passOptionalMozMap
+passOptionalRecord
 (
 optional
 record
@@ -2968,7 +2968,7 @@ arg
 )
 ;
 void
-passOptionalNullableMozMap
+passOptionalNullableRecord
 (
 optional
 record
@@ -2981,7 +2981,7 @@ arg
 )
 ;
 void
-passOptionalNullableMozMapWithDefaultValue
+passOptionalNullableRecordWithDefaultValue
 (
 optional
 record
@@ -2996,7 +2996,7 @@ null
 )
 ;
 void
-passOptionalObjectMozMap
+passOptionalObjectRecord
 (
 optional
 record
@@ -3008,7 +3008,7 @@ arg
 )
 ;
 void
-passExternalInterfaceMozMap
+passExternalInterfaceRecord
 (
 record
 <
@@ -3019,7 +3019,7 @@ arg
 )
 ;
 void
-passNullableExternalInterfaceMozMap
+passNullableExternalInterfaceRecord
 (
 record
 <
@@ -3031,7 +3031,7 @@ arg
 )
 ;
 void
-passStringMozMap
+passStringRecord
 (
 record
 <
@@ -3042,7 +3042,7 @@ arg
 )
 ;
 void
-passByteStringMozMap
+passByteStringRecord
 (
 record
 <
@@ -3053,7 +3053,7 @@ arg
 )
 ;
 void
-passMozMapOfMozMaps
+passRecordOfRecords
 (
 record
 <
@@ -3072,7 +3072,7 @@ record
 DOMString
 long
 >
-receiveMozMap
+receiveRecord
 (
 )
 ;
@@ -3082,7 +3082,7 @@ DOMString
 long
 >
 ?
-receiveNullableMozMap
+receiveNullableRecord
 (
 )
 ;
@@ -3092,7 +3092,7 @@ DOMString
 long
 ?
 >
-receiveMozMapOfNullableInts
+receiveRecordOfNullableInts
 (
 )
 ;
@@ -3103,7 +3103,7 @@ long
 ?
 >
 ?
-receiveNullableMozMapOfNullableInts
+receiveNullableRecordOfNullableInts
 (
 )
 ;
@@ -3116,7 +3116,7 @@ DOMString
 long
 >
 >
-receiveMozMapOfMozMaps
+receiveRecordOfRecords
 (
 )
 ;
@@ -3125,7 +3125,7 @@ record
 DOMString
 any
 >
-receiveAnyMozMap
+receiveAnyRecord
 (
 )
 ;
@@ -3269,7 +3269,7 @@ arg
 )
 ;
 void
-passMozMapOfArrayBuffers
+passRecordOfArrayBuffers
 (
 record
 <
@@ -3280,7 +3280,7 @@ arg
 )
 ;
 void
-passMozMapOfNullableArrayBuffers
+passRecordOfNullableArrayBuffers
 (
 record
 <
@@ -3977,7 +3977,7 @@ arg
 )
 ;
 void
-passMozMapOfAny
+passRecordOfAny
 (
 record
 <
@@ -3988,7 +3988,7 @@ arg
 )
 ;
 void
-passNullableMozMapOfAny
+passNullableRecordOfAny
 (
 record
 <
@@ -4000,7 +4000,7 @@ arg
 )
 ;
 void
-passOptionalMozMapOfAny
+passOptionalRecordOfAny
 (
 optional
 record
@@ -4012,7 +4012,7 @@ arg
 )
 ;
 void
-passOptionalNullableMozMapOfAny
+passOptionalNullableRecordOfAny
 (
 optional
 record
@@ -4025,7 +4025,7 @@ arg
 )
 ;
 void
-passOptionalMozMapOfAnyWithDefaultValue
+passOptionalRecordOfAnyWithDefaultValue
 (
 optional
 record
@@ -4040,7 +4040,7 @@ null
 )
 ;
 void
-passMozMapOfMozMapOfAny
+passRecordOfRecordOfAny
 (
 record
 <
@@ -4055,7 +4055,7 @@ arg
 )
 ;
 void
-passMozMapOfNullableMozMapOfAny
+passRecordOfNullableRecordOfAny
 (
 record
 <
@@ -4071,7 +4071,7 @@ arg
 )
 ;
 void
-passNullableMozMapOfNullableMozMapOfAny
+passNullableRecordOfNullableRecordOfAny
 (
 record
 <
@@ -4088,7 +4088,7 @@ arg
 )
 ;
 void
-passOptionalNullableMozMapOfNullableMozMapOfAny
+passOptionalNullableRecordOfNullableRecordOfAny
 (
 optional
 record
@@ -4106,7 +4106,7 @@ arg
 )
 ;
 void
-passOptionalNullableMozMapOfNullableSequenceOfAny
+passOptionalNullableRecordOfNullableSequenceOfAny
 (
 optional
 record
@@ -4123,7 +4123,7 @@ arg
 )
 ;
 void
-passOptionalNullableSequenceOfNullableMozMapOfAny
+passOptionalNullableSequenceOfNullableRecordOfAny
 (
 optional
 sequence
@@ -4277,7 +4277,7 @@ arg
 )
 ;
 void
-passMozMapOfObject
+passRecordOfObject
 (
 record
 <
@@ -4748,7 +4748,7 @@ arg
 )
 ;
 void
-passUnionWithMozMap
+passUnionWithRecord
 (
 (
 record
@@ -4763,7 +4763,7 @@ arg
 )
 ;
 void
-passUnionWithMozMapAndSequence
+passUnionWithRecordAndSequence
 (
 (
 record
@@ -4781,7 +4781,7 @@ arg
 )
 ;
 void
-passUnionWithSequenceAndMozMap
+passUnionWithSequenceAndRecord
 (
 (
 sequence
@@ -5866,7 +5866,7 @@ arg
 )
 ;
 void
-passMozMapOfUnions
+passRecordOfUnions
 (
 record
 <
@@ -5892,7 +5892,7 @@ unions
 /
 /
 void
-passMozMapOfUnions2
+passRecordOfUnions2
 (
 record
 <
@@ -6049,7 +6049,7 @@ arg
 )
 ;
 void
-passDateMozMap
+passDateRecord
 (
 record
 <
@@ -6274,7 +6274,7 @@ x
 )
 ;
 void
-passMozMapOfDictionaries
+passRecordOfDictionaries
 (
 record
 <
@@ -8437,6 +8437,40 @@ nullableRecordWithDefault
 =
 null
 ;
+record
+<
+USVString
+long
+>
+usvStringRecord
+;
+record
+<
+USVString
+long
+>
+?
+nullableUSVStringRecordWithDefault
+=
+null
+;
+record
+<
+ByteString
+long
+>
+byteStringRecord
+;
+record
+<
+ByteString
+long
+>
+?
+nullableByteStringRecordWithDefault
+=
+null
+;
 required
 record
 <
@@ -8444,6 +8478,22 @@ DOMString
 TestInterface
 >
 requiredRecord
+;
+required
+record
+<
+USVString
+TestInterface
+>
+requiredUSVRecord
+;
+required
+record
+<
+ByteString
+TestInterface
+>
+requiredByteRecord
 ;
 }
 ;

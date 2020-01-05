@@ -245,11 +245,6 @@ JSSlots
 h
 '
 '
-MozMap
-.
-h
-'
-'
 NonRefcountedDOMObject
 .
 h
@@ -261,6 +256,11 @@ h
 '
 '
 PrimitiveConversions
+.
+h
+'
+'
+Record
 .
 h
 '
