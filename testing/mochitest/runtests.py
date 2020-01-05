@@ -10902,6 +10902,17 @@ info
 asan
 "
 ]
+and
+mozinfo
+.
+isLinux
+and
+mozinfo
+.
+bits
+=
+=
+64
 :
             
 lsanPath
@@ -13865,15 +13876,16 @@ asan
 "
 ]
 and
-(
 mozinfo
 .
 isLinux
-or
+and
 mozinfo
 .
-isMac
-)
+bits
+=
+=
+64
 :
                 
 lsanLeaks
