@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -108,6 +117,11 @@ fmt
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+2
+3
 )
 ;
 private
