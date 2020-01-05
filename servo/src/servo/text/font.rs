@@ -53,11 +53,9 @@ native_font
 :
 NativeFont
 ;
-#
-[
-doc
-=
-"
+/
+*
+*
 A
 font
 handle
@@ -80,8 +78,8 @@ to
 render
 text
 .
-"
-]
+*
+/
 struct
 Font
 {
@@ -395,6 +393,8 @@ glyph_idx
 Some
 (
 40u
+as
+GlyphIndex
 )
 ;
 }
@@ -432,6 +432,8 @@ font
 glyph_h_advance
 (
 40u
+as
+GlyphIndex
 )
 ;
 assert
@@ -519,6 +521,8 @@ font
 glyph_h_advance
 (
 40u
+as
+GlyphIndex
 )
 ;
 assert
