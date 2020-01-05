@@ -85,10 +85,12 @@ locale
 /
 AB_CD
 /
+webcompat
+.
+properties
 (
-en
--
-US
-/
-*
+%
+webcompat
+.
+properties
 )
