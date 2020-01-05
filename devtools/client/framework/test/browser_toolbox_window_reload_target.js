@@ -669,6 +669,14 @@ in
 description
 )
 ;
+toolbox
+.
+win
+.
+focus
+(
+)
+;
 synthesizeKeyShortcut
 (
 L10N

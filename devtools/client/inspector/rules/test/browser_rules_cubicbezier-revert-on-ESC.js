@@ -675,13 +675,8 @@ changed
 "
 )
 ;
-EventUtils
-.
-sendKey
+focusAndSendKey
 (
-"
-ESCAPE
-"
 widget
 .
 parent
@@ -689,6 +684,9 @@ parent
 ownerDocument
 .
 defaultView
+"
+ESCAPE
+"
 )
 ;
 yield

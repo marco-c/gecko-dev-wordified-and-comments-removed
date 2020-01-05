@@ -258,13 +258,8 @@ hidden
 "
 )
 ;
-EventUtils
-.
-sendKey
+focusAndSendKey
 (
-"
-RETURN
-"
 spectrum
 .
 element
@@ -272,6 +267,9 @@ element
 ownerDocument
 .
 defaultView
+"
+RETURN
+"
 )
 ;
 yield
