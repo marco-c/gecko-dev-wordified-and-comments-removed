@@ -401,13 +401,6 @@ list
 )
 SERVO_BINDING_FUNC
 (
-Servo_AnimationValue_DeepEqual
-bool
-RawServoAnimationValueBorrowed
-RawServoAnimationValueBorrowed
-)
-SERVO_BINDING_FUNC
-(
 Servo_ParseStyleAttribute
 RawServoDeclarationBlockStrong
 const
