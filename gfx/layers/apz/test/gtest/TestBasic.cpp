@@ -1819,7 +1819,10 @@ Pan
 apzc
 touchStart
 touchEnd
-true
+PanOptions
+:
+:
+KeepFingerDown
 )
 ;
 EXPECT_TRUE

@@ -1267,7 +1267,10 @@ Pan
 manager
 10
 40
-true
+PanOptions
+:
+:
+KeepFingerDown
 )
 ;
 EXPECT_FALSE
@@ -1464,7 +1467,10 @@ Pan
 manager
 60
 90
-true
+PanOptions
+:
+:
+KeepFingerDown
 )
 ;
 EXPECT_FALSE
@@ -1652,7 +1658,10 @@ Pan
 manager
 60
 90
-true
+PanOptions
+:
+:
+KeepFingerDown
 )
 ;
 EXPECT_FALSE
@@ -1792,7 +1801,10 @@ Pan
 manager
 60
 90
-true
+PanOptions
+:
+:
+KeepFingerDown
 )
 ;
 EXPECT_FALSE

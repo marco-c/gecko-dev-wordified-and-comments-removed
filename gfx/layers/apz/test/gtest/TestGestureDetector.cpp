@@ -1317,7 +1317,10 @@ Pan
 apzc
 touchStart
 touchEnd
-false
+PanOptions
+:
+:
+None
 nullptr
 nullptr
 &
