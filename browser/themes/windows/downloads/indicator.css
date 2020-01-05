@@ -1,3 +1,20 @@
+%
+include
+.
+.
+/
+.
+.
+/
+shared
+/
+downloads
+/
+indicator
+.
+inc
+.
+css
 #
 downloads
 -
@@ -64,7 +81,7 @@ downloads
 -
 indicator
 -
-icon
+image
 :
 -
 moz
@@ -101,7 +118,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 :
@@ -140,7 +157,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 inverted
 :
@@ -181,7 +198,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 -
@@ -242,7 +259,7 @@ downloads
 -
 indicator
 -
-icon
+image
 :
 -
 moz
@@ -280,7 +297,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 :
@@ -320,7 +337,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 inverted
 :
@@ -362,7 +379,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 -
@@ -419,7 +436,7 @@ downloads
 -
 indicator
 -
-icon
+image
 )
 center
 no
@@ -487,7 +504,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 inverted
 )
@@ -786,7 +803,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 )
@@ -834,7 +851,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 -
@@ -949,7 +966,7 @@ downloads
 -
 indicator
 -
-icon
+image
 )
 center
 no
@@ -1025,7 +1042,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 inverted
 )
@@ -1085,7 +1102,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 )
@@ -1149,7 +1166,7 @@ downloads
 -
 indicator
 -
-icon
+image
 -
 attention
 -

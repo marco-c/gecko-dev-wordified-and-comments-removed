@@ -706,6 +706,9 @@ ATTENTION_SEVERE
 "
 severe
 "
+arrowStyledIndicator
+:
+true
 get
 strings
 (
