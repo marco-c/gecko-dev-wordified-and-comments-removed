@@ -17792,8 +17792,7 @@ unknown
 >
 "
 ;
-char
-*
+UniqueChars
 buf
 =
 JS_smprintf
@@ -17835,11 +17834,10 @@ geckoProfiler
 markEvent
 (
 buf
-)
-;
-JS_smprintf_free
+.
+get
 (
-buf
+)
 )
 ;
 }
