@@ -662,11 +662,6 @@ name
 "
 "
 ;
-double
-started
-=
-0
-;
 }
 ;
 dictionary

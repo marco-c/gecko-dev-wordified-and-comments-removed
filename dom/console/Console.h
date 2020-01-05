@@ -1002,8 +1002,6 @@ const
 nsAString
 &
 aTimerLabel
-DOMHighResTimeStamp
-aTimerValue
 bool
 aTimerStatus
 )
