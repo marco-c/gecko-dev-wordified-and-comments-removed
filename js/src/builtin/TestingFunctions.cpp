@@ -3490,12 +3490,6 @@ cx
 bytes
 length
 buffer
-wasm
-:
-:
-ExperimentalTextFormatting
-(
-)
 )
 ;
 else

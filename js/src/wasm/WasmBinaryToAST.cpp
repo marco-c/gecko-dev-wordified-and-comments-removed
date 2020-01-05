@@ -11083,9 +11083,7 @@ return
 false
 ;
 }
-if
-(
-!
+return
 c
 .
 d
@@ -11098,12 +11096,6 @@ sectionSize
 code
 "
 )
-)
-return
-false
-;
-return
-true
 ;
 }
 static
@@ -11444,6 +11436,7 @@ bytes
 length
 &
 error
+true
 )
 ;
 AstDecodeContext
