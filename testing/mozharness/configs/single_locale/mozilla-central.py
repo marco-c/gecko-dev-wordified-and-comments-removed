@@ -1,3 +1,5 @@
+import
+os
 config
 =
 {
@@ -99,6 +101,17 @@ central
 mar_tools_url
 "
 :
+os
+.
+environ
+.
+get
+(
+        
+"
+MAR_TOOLS_URL
+"
+        
 "
 http
 :
@@ -136,6 +149,8 @@ platform
 )
 s
 "
+    
+)
     
 "
 mozilla_dir

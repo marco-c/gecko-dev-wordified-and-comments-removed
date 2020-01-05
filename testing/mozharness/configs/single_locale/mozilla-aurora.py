@@ -1,3 +1,5 @@
+import
+os
 config
 =
 {
@@ -112,6 +114,17 @@ aurora
 mar_tools_url
 "
 :
+os
+.
+environ
+.
+get
+(
+        
+"
+MAR_TOOLS_URL
+"
+        
 "
 http
 :
@@ -149,6 +162,8 @@ platform
 )
 s
 "
+    
+)
     
 "
 mozilla_dir
