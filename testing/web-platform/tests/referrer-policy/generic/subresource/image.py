@@ -4,7 +4,7 @@ sys
 array
 json
 math
-cStringIO
+StringIO
 sys
 .
 path
@@ -656,7 +656,7 @@ color_data
     
 f
 =
-cStringIO
+StringIO
 .
 StringIO
 (
