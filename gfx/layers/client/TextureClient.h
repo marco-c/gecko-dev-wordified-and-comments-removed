@@ -1832,7 +1832,7 @@ ReadUnlock
 (
 )
 ;
-void
+bool
 SerializeReadLock
 (
 ReadLockDescriptor

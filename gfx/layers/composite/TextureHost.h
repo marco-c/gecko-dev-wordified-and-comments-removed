@@ -1568,6 +1568,14 @@ ISurfaceAllocator
 aAllocator
 )
 ;
+void
+SetReadLock
+(
+TextureReadLock
+*
+aReadLock
+)
+;
 TextureReadLock
 *
 GetReadLock
