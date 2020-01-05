@@ -130,7 +130,7 @@ function
 )
 {
 let
-grip
+object
 =
 this
 .
@@ -141,7 +141,7 @@ object
 let
 value
 =
-grip
+object
 .
 preview
 .
@@ -171,6 +171,7 @@ objectLink
 -
 Attr
 "
+object
 }
 span
 (
@@ -189,7 +190,7 @@ this
 .
 getTitle
 (
-grip
+object
 )
 )
 span
