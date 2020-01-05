@@ -317,16 +317,6 @@ promiseObserverCalled
 "
 recording
 -
-device
--
-events
-"
-)
-promiseObserverCalled
-(
-"
-recording
--
 window
 -
 ended
