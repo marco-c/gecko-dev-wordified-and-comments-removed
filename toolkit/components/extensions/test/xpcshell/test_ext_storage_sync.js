@@ -1881,11 +1881,6 @@ extensionId
 "
 ;
 const
-collectionId
-=
-extensionId
-;
-const
 extension
 =
 {
@@ -1944,6 +1939,15 @@ token
 }
 }
 }
+;
+const
+collectionId
+=
+extensionIdToCollectionId
+(
+loggedInUser
+extensionId
+)
 ;
 function
 uuid
