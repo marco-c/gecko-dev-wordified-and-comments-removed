@@ -400,7 +400,7 @@ aNewIdentifier
 const
 uint64_t
 &
-aSeqNo
+aSequenceNumber
 )
 override
 ;
@@ -1012,6 +1012,16 @@ WillEndTransaction
 (
 )
 ;
+uint64_t
+DeviceResetSequenceNumber
+(
+)
+const
+{
+return
+mDeviceResetSequenceNumber
+;
+}
 private
 :
 virtual
@@ -1303,6 +1313,9 @@ mCanSend
 ;
 uint64_t
 mFwdTransactionId
+;
+uint64_t
+mDeviceResetSequenceNumber
 ;
 nsDataHashtable
 <

@@ -505,6 +505,8 @@ const
 TextureFactoryIdentifier
 &
 aNewIdentifier
+uint64_t
+aDeviceResetSeqNo
 )
 ;
 TextureFactoryIdentifier
@@ -1286,6 +1288,9 @@ mNeedsComposite
 ;
 uint32_t
 mPaintSequenceNumber
+;
+uint64_t
+mDeviceResetSequenceNumber
 ;
 APZTestData
 mApzTestData
