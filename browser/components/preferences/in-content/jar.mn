@@ -175,3 +175,16 @@ content
 sync
 .
 js
+content
+/
+browser
+/
+preferences
+/
+in
+-
+content
+/
+findInPage
+.
+js
