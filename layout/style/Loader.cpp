@@ -5271,16 +5271,11 @@ is
 ;
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 clonedSheet
 =
 sheet
--
->
-AsGecko
-(
-)
 -
 >
 Clone
