@@ -184,6 +184,13 @@ bool
 false
 )
 \
+_
+(
+UseWebRender
+bool
+false
+)
+\
 class
 gfxVars
 final
