@@ -4883,11 +4883,6 @@ Restrictions
 java
 '
 '
-ScreenManagerHelper
-.
-java
-'
-'
 ScreenshotObserver
 .
 java
