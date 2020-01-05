@@ -1687,7 +1687,7 @@ data
 |
 data
 .
-current_or_previous_styles
+styles
 (
 )
 .
@@ -1763,15 +1763,6 @@ self
 )
 ;
 let
-existing
-=
-self
-.
-get_styles_from_frame
-(
-)
-;
-let
 ptr
 =
 Box
@@ -1794,7 +1785,7 @@ ElementData
 :
 new
 (
-existing
+None
 )
 )
 )

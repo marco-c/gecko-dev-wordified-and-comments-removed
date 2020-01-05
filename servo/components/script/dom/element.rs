@@ -1047,15 +1047,6 @@ use
 style
 :
 :
-dom
-:
-:
-TRestyleDamage
-;
-use
-style
-:
-:
 element_state
 :
 :

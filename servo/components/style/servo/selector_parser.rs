@@ -85,6 +85,15 @@ std
 :
 fmt
 ;
+use
+std
+:
+:
+fmt
+:
+:
+Debug
+;
 #
 [
 derive
@@ -2297,6 +2306,8 @@ Impl
 =
 SelectorImpl
 >
++
+Debug
 >
 ElementExt
 for

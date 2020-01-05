@@ -98,6 +98,13 @@ bindings
 ServoElementSnapshotOwned
 )
 ;
+unsafe
+impl
+Sync
+for
+GeckoElementSnapshot
+{
+}
 impl
 Drop
 for
