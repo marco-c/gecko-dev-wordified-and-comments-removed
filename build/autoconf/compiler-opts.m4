@@ -850,6 +850,15 @@ MOZ_DEBUG
 "
 ;
 then
+if
+test
+-
+n
+"
+COMPILE_ENVIRONMENT
+"
+;
+then
 AC_MSG_CHECKING
 (
 [
@@ -931,6 +940,7 @@ fi
 CFLAGS
 =
 _SAVE_CFLAGS
+fi
 MOZ_DEBUG_DEFINES
 =
 "
