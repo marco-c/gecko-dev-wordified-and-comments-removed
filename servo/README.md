@@ -79,6 +79,11 @@ brew
 install
 automake
 libtool
+brew
+install
+pkg
+-
+config
 On
 OS
 X
