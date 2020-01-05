@@ -40,6 +40,9 @@ VALID_FIELDS
 :
 [
 "
+name
+"
+"
 given
 -
 name

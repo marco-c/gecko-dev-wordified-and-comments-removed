@@ -470,6 +470,16 @@ _isCJKName
 name
 )
 {
+if
+(
+!
+name
+)
+{
+return
+false
+;
+}
 let
 previousWasCJK
 =
