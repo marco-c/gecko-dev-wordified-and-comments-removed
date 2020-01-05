@@ -221,13 +221,6 @@ mSheet
 aSheet
 ;
 }
-nsMediaList
-*
-Media
-(
-)
-final
-;
 nsIDOMCSSRule
 *
 GetDOMOwnerRule
