@@ -6740,18 +6740,6 @@ uaBackgroundColor
 data
 .
 uaColor
-data
-.
-uaSelectBackgroundColor
-data
-.
-uaSelectColor
-data
-.
-selectBackgroundColor
-data
-.
-selectColor
 )
 ;
 this
@@ -8034,7 +8022,7 @@ hidePopup
 (
 )
 ;
-event
+aEvent
 .
 preventDefault
 (
