@@ -101,8 +101,6 @@ format
 }
 "
 v
-as
-uint
 )
 ;
 stderr

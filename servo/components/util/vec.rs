@@ -112,7 +112,7 @@ T
 >
 Option
 <
-uint
+usize
 >
 ;
 }
@@ -150,7 +150,7 @@ C
 >
 Option
 <
-uint
+usize
 >
 ;
 }
@@ -233,7 +233,7 @@ T
 >
 Option
 <
-uint
+usize
 >
 {
 self
@@ -290,7 +290,7 @@ C
 >
 Option
 <
-uint
+usize
 >
 {
 if
@@ -311,7 +311,7 @@ let
 mut
 low
 :
-int
+isize
 =
 0
 ;
@@ -319,7 +319,7 @@ let
 mut
 high
 :
-int
+isize
 =
 (
 self
@@ -328,7 +328,7 @@ len
 (
 )
 as
-int
+isize
 )
 -
 1
@@ -346,13 +346,13 @@ mid
 (
 low
 as
-uint
+usize
 )
 +
 (
 high
 as
-uint
+usize
 )
 )
 >
@@ -388,7 +388,7 @@ low
 (
 mid
 as
-int
+isize
 )
 +
 1
@@ -403,7 +403,7 @@ high
 (
 mid
 as
-int
+isize
 )
 -
 1

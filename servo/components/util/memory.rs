@@ -1210,7 +1210,7 @@ get_proc_self_statm_field
 (
 field
 :
-uint
+usize
 )
 -
 >

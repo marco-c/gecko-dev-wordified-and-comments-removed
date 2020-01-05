@@ -102,7 +102,7 @@ String
 pub
 paint_threads
 :
-uint
+usize
 pub
 gpu_painting
 :
@@ -110,7 +110,7 @@ bool
 pub
 tile_size
 :
-uint
+usize
 pub
 device_pixels_per_px
 :
@@ -144,7 +144,7 @@ bool
 pub
 layout_threads
 :
-uint
+usize
 pub
 nonincremental_layout
 :
@@ -209,7 +209,7 @@ initial_window_size
 TypedSize2D
 <
 ScreenPx
-uint
+u32
 >
 pub
 user_agent
@@ -1569,7 +1569,7 @@ clone
 let
 tile_size
 :
-uint
+usize
 =
 match
 opt_match
@@ -1641,7 +1641,7 @@ let
 mut
 paint_threads
 :
-uint
+usize
 =
 match
 opt_match
@@ -1776,7 +1776,7 @@ let
 mut
 layout_threads
 :
-uint
+usize
 =
 match
 opt_match
@@ -1942,7 +1942,7 @@ res
 :
 Vec
 <
-uint
+u32
 >
 =
 res_string

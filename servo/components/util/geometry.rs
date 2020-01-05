@@ -980,7 +980,7 @@ from_px
 (
 px
 :
-int
+isize
 )
 -
 >
@@ -1051,7 +1051,7 @@ self
 )
 -
 >
-int
+isize
 {
 let
 Au
@@ -1076,7 +1076,7 @@ round
 (
 )
 as
-int
+isize
 }
 #
 [
@@ -1408,7 +1408,7 @@ from_px
 (
 px
 :
-int
+isize
 )
 -
 >
@@ -1438,7 +1438,7 @@ Au
 )
 -
 >
-int
+isize
 {
 let
 Au
@@ -1454,7 +1454,7 @@ a
 60
 )
 as
-int
+isize
 }
 pub
 fn
@@ -1506,7 +1506,7 @@ pt
 96f64
 )
 as
-int
+isize
 )
 }
 pub

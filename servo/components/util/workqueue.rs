@@ -49,7 +49,7 @@ atomic
 :
 :
 {
-AtomicUint
+AtomicUsize
 Ordering
 }
 ;
@@ -138,7 +138,7 @@ WorkData
 >
 *
 mut
-AtomicUint
+AtomicUsize
 *
 const
 QueueData
@@ -183,7 +183,7 @@ static
 Finished
 ReturnDeque
 (
-uint
+usize
 Worker
 <
 WorkUnit
@@ -277,7 +277,7 @@ static
 {
 index
 :
-uint
+usize
 port
 :
 Receiver
@@ -513,7 +513,7 @@ next_u32
 (
 )
 as
-uint
+usize
 )
 %
 self
@@ -801,7 +801,7 @@ ref_count
 :
 *
 mut
-AtomicUint
+AtomicUsize
 queue_data
 :
 *
@@ -976,7 +976,7 @@ WorkData
 >
 work_count
 :
-uint
+usize
 pub
 data
 :
@@ -1015,7 +1015,7 @@ task_state
 TaskState
 thread_count
 :
-uint
+usize
 user_data
 :
 QueueData
@@ -1402,7 +1402,7 @@ let
 mut
 work_count
 =
-AtomicUint
+AtomicUsize
 :
 :
 new

@@ -372,7 +372,7 @@ cache
 :
 HashCache
 <
-uint
+usize
 Cell
 <
 &
@@ -509,7 +509,7 @@ V
 >
 cache_size
 :
-uint
+usize
 }
 impl
 <
@@ -534,7 +534,7 @@ new
 (
 size
 :
-uint
+usize
 )
 -
 >
@@ -570,7 +570,7 @@ mut
 self
 pos
 :
-uint
+usize
 )
 -
 >
@@ -958,7 +958,7 @@ new
 (
 cache_size
 :
-uint
+usize
 )
 -
 >
@@ -1023,11 +1023,11 @@ to_bucket
 self
 h
 :
-uint
+usize
 )
 -
 >
-uint
+usize
 {
 h
 %
@@ -1063,7 +1063,7 @@ Q
 )
 -
 >
-uint
+usize
 {
 let
 mut
@@ -1101,7 +1101,7 @@ finish
 (
 )
 as
-uint
+usize
 )
 }
 pub
