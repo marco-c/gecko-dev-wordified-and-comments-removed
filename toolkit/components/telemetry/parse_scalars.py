@@ -654,6 +654,12 @@ notification_emails
 '
 :
 list
+            
+'
+record_in_processes
+'
+:
+list
         
 }
         
@@ -678,12 +684,6 @@ keyed
 '
 :
 bool
-            
-'
-record_in_processes
-'
-:
-list
         
 }
         
@@ -1664,18 +1664,11 @@ return
 self
 .
 _definition
-.
-get
-(
+[
 '
 record_in_processes
 '
-[
-'
-main
-'
 ]
-)
     
 property
     
