@@ -3343,6 +3343,16 @@ mPaused
 return
 ;
 }
+if
+(
+gfxPrefs
+:
+:
+WebRenderOMTAEnabled
+(
+)
+)
+{
 nsTArray
 <
 WrOpacityProperty
@@ -3392,9 +3402,10 @@ ScheduleComposition
 (
 )
 ;
+return
+;
 }
-else
-{
+}
 mApi
 -
 >
@@ -3402,7 +3413,6 @@ GenerateFrame
 (
 )
 ;
-}
 }
 void
 WebRenderBridgeParent

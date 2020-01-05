@@ -71,6 +71,14 @@ WebRenderContainerLayer
 {
 if
 (
+gfxPrefs
+:
+:
+WebRenderOMTAEnabled
+(
+)
+&
+&
 GetAnimations
 (
 )
