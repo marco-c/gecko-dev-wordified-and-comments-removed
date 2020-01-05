@@ -98,16 +98,20 @@ span
 =
 view
 .
-document
+doc
 .
 querySelector
 (
 "
 .
+old
+-
 boxmodel
 -
 padding
 .
+old
+-
 boxmodel
 -
 bottom
@@ -125,7 +129,7 @@ span
 }
 view
 .
-document
+doc
 .
 defaultView
 )
@@ -135,7 +139,7 @@ editor
 =
 view
 .
-document
+doc
 .
 querySelector
 (
@@ -158,7 +162,7 @@ synthesizeKey
 }
 view
 .
-document
+doc
 .
 defaultView
 )
@@ -201,7 +205,7 @@ VK_RETURN
 }
 view
 .
-document
+doc
 .
 defaultView
 )
