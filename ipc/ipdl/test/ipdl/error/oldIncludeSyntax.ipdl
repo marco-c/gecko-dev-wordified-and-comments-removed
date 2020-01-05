@@ -9,5 +9,14 @@ ipdl
 protocol
 oldIncludeSyntax
 {
+child
+:
+async
+__delete__
+(
+X
+x
+)
+;
 }
 ;
