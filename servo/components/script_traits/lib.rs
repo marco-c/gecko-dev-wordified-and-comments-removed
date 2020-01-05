@@ -506,6 +506,15 @@ ScriptState
 >
 PipelineId
 )
+DispatchFrameLoadEvent
+{
+target
+:
+PipelineId
+parent
+:
+PipelineId
+}
 }
 #
 [
