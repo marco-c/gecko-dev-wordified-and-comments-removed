@@ -1890,10 +1890,9 @@ CustomOutOfMemoryCallback
 override
 ;
 void
-CustomLargeAllocationFailureCallback
+OnLargeAllocationFailure
 (
 )
-override
 ;
 static
 void

@@ -23251,9 +23251,6 @@ void
 LargeAllocationFailureCallback
 )
 (
-void
-*
-data
 )
 ;
 extern
@@ -23261,16 +23258,10 @@ JS_PUBLIC_API
 (
 void
 )
-SetLargeAllocationFailureCallback
+SetProcessLargeAllocationFailureCallback
 (
-JSContext
-*
-cx
 LargeAllocationFailureCallback
 afc
-void
-*
-data
 )
 ;
 typedef
