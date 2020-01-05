@@ -309,11 +309,6 @@ ApplyArray
 \
 _
 (
-ArraySplice
-)
-\
-_
-(
 Bail
 )
 \
