@@ -8,7 +8,7 @@ FinishedLoading
 }
 pub
 trait
-CompositorInterface
+ScriptListener
 :
 Clone
 {

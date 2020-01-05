@@ -7,7 +7,6 @@ comm
 :
 {
 Port
-SharedChan
 }
 ;
 use
@@ -30,6 +29,7 @@ script_task
 :
 :
 {
+ScriptChan
 ScriptMsg
 SendEventMsg
 }
@@ -41,10 +41,7 @@ ResizeRateLimiter
 priv
 script_chan
 :
-SharedChan
-<
-ScriptMsg
->
+ScriptChan
 /
 /
 /
@@ -101,10 +98,7 @@ ResizeRateLimiter
 (
 script_chan
 :
-SharedChan
-<
-ScriptMsg
->
+ScriptChan
 )
 -
 >

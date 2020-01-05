@@ -44,15 +44,6 @@ use
 core
 :
 :
-cell
-:
-:
-Cell
-;
-use
-core
-:
-:
 libc
 :
 :

@@ -32,7 +32,7 @@ script_task
 {
 ExitMsg
 FireTimerMsg
-ScriptMsg
+ScriptChan
 ScriptContext
 }
 ;
@@ -43,10 +43,7 @@ core
 comm
 :
 :
-{
 Chan
-SharedChan
-}
 ;
 use
 js
@@ -144,10 +141,7 @@ TimerControlMsg
 >
 script_chan
 :
-SharedChan
-<
-ScriptMsg
->
+ScriptChan
 script_context
 :
 *
@@ -472,10 +466,7 @@ new
 (
 script_chan
 :
-SharedChan
-<
-ScriptMsg
->
+ScriptChan
 script_context
 :
 *
@@ -488,7 +479,7 @@ mut
 Window
 {
 let
-script_chan_copy
+script_chan_clone
 =
 script_chan
 .
@@ -556,7 +547,9 @@ td
 )
 =
 >
-script_chan_copy
+script_chan_clone
+.
+chan
 .
 send
 (
@@ -568,7 +561,9 @@ td
 TimerMessage_TriggerExit
 =
 >
-script_chan_copy
+script_chan_clone
+.
+chan
 .
 send
 (

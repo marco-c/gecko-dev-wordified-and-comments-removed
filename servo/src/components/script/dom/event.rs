@@ -61,14 +61,6 @@ ResizeEvent
 (
 uint
 uint
-comm
-:
-:
-Chan
-<
-(
-)
->
 )
 ReflowEvent
 ClickEvent

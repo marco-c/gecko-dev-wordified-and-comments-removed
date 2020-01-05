@@ -84,7 +84,7 @@ RenderingRenderState
 }
 pub
 trait
-Compositor
+RenderListener
 {
 fn
 get_gl_context
