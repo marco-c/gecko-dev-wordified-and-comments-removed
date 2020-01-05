@@ -442,6 +442,14 @@ IsBoundToMediaElement
 )
 const
 ;
+void
+GetSessionsInfo
+(
+nsString
+&
+sessionsInfo
+)
+;
 private
 :
 already_AddRefed
