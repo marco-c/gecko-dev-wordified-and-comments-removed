@@ -489,10 +489,10 @@ filename
 String
 lineNumber
 :
-u32
+usize
 columnNumber
 :
-u32
+usize
 }
 #
 [
