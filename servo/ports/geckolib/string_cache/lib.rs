@@ -182,6 +182,13 @@ slice
 [
 macro_use
 ]
+#
+[
+allow
+(
+improper_ctypes
+)
+]
 pub
 mod
 atom_macro
