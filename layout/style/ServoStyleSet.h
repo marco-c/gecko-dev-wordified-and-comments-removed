@@ -945,6 +945,14 @@ aTask
 )
 ;
 }
+bool
+MightHaveAttributeDependency
+(
+nsIAtom
+*
+aAttribute
+)
+;
 private
 :
 class
