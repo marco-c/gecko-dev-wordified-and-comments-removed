@@ -95,6 +95,15 @@ BrowserTestUtils
 jsm
 '
 '
+content
+/
+content
+-
+task
+.
+js
+'
+'
 ContentTask
 .
 jsm
