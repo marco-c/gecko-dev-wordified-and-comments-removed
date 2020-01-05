@@ -46542,6 +46542,9 @@ eUserSheetFeatures
 eAgentSheetFeatures
 =
 2
+eSafeAgentSheetFeatures
+=
+3
 }
 #
 [
