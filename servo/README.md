@@ -37,9 +37,11 @@ is
 currently
 developed
 on
+64bit
 OS
 X
 and
+64bit
 Linux
 .
 #
