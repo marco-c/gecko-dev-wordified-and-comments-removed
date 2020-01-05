@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+TelemetryIPC
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CheckerboardReportService
@@ -736,7 +745,7 @@ IPCResult
 GPUChild
 :
 :
-RecvAccumulateChildHistogram
+RecvAccumulateChildHistograms
 (
 InfallibleTArray
 <
@@ -747,10 +756,10 @@ Accumulation
 aAccumulations
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
-AccumulateChild
+AccumulateChildHistograms
 (
 GeckoProcessType_GPU
 aAccumulations
@@ -772,7 +781,7 @@ IPCResult
 GPUChild
 :
 :
-RecvAccumulateChildKeyedHistogram
+RecvAccumulateChildKeyedHistograms
 (
 InfallibleTArray
 <
@@ -783,10 +792,10 @@ KeyedAccumulation
 aAccumulations
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
-AccumulateChildKeyed
+AccumulateChildKeyedHistograms
 (
 GeckoProcessType_GPU
 aAccumulations
@@ -819,7 +828,7 @@ ScalarAction
 aScalarActions
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
 UpdateChildScalars
@@ -855,7 +864,7 @@ KeyedScalarAction
 aScalarActions
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
 UpdateChildKeyedScalars

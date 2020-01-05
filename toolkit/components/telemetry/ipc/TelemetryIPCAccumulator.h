@@ -33,6 +33,9 @@ class
 nsCString
 ;
 namespace
+mozilla
+{
+namespace
 TelemetryIPCAccumulator
 {
 void
@@ -163,6 +166,7 @@ nsIRunnable
 aEvent
 )
 ;
+}
 }
 #
 endif

@@ -138,6 +138,8 @@ h
 #
 include
 "
+ipc
+/
 TelemetryIPCAccumulator
 .
 h
@@ -228,6 +230,14 @@ Common
 :
 :
 LogToBrowserConsole
+;
+namespace
+TelemetryIPCAccumulator
+=
+mozilla
+:
+:
+TelemetryIPCAccumulator
 ;
 #
 define
