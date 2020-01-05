@@ -62,11 +62,6 @@ flex
 -
 wrap
 "
-experimental
-=
-"
-True
-"
 >
 use
 properties
@@ -410,11 +405,6 @@ shrink
 flex
 -
 basis
-"
-experimental
-=
-"
-True
 "
 >
 use

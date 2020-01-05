@@ -453,9 +453,6 @@ column
 -
 reverse
 "
-experimental
-=
-True
 animatable
 =
 False
@@ -478,9 +475,6 @@ wrap
 -
 reverse
 "
-experimental
-=
-True
 animatable
 =
 False
@@ -559,9 +553,6 @@ space
 -
 around
 "
-experimental
-=
-True
 gecko_constant_prefix
 =
 "
@@ -628,9 +619,6 @@ end
 center
 baseline
 "
-experimental
-=
-True
 need_clone
 =
 True
@@ -675,9 +663,6 @@ space
 -
 around
 "
-experimental
-=
-True
 gecko_constant_prefix
 =
 "
@@ -719,9 +704,6 @@ Number
 "
 parse_non_negative
 "
-experimental
-=
-True
 animatable
 =
 True
@@ -748,9 +730,6 @@ Number
 "
 parse_non_negative
 "
-experimental
-=
-True
 animatable
 =
 True
@@ -778,9 +757,6 @@ end
 center
 baseline
 "
-experimental
-=
-True
 need_clone
 =
 True
