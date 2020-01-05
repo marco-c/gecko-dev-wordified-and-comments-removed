@@ -945,15 +945,6 @@ type
 boolean
 "
 }
-supportsHardwareH264
-:
-{
-type
-:
-"
-string
-"
-}
 currentAudioBackend
 :
 {
