@@ -1924,7 +1924,7 @@ APZCurveFunctionX1
 gfxPrefs
 :
 :
-APZCurveFunctionY2
+APZCurveFunctionY1
 (
 )
 gfxPrefs
