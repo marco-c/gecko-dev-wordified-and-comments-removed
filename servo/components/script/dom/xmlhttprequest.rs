@@ -8829,12 +8829,12 @@ return
 None
 ;
 }
+else
+{
 /
 /
 Step
 6
-else
-{
 temp_doc
 =
 self

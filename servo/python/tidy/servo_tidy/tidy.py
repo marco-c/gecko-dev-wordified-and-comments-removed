@@ -3836,6 +3836,29 @@ use
 '
 )
 )
+            
+(
+r
+"
+^
+\
+s
+*
+else
+{
+"
+"
+else
+braces
+should
+be
+on
+the
+same
+line
+"
+no_filter
+)
         
 ]
         
