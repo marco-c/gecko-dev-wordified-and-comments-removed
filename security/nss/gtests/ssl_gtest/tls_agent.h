@@ -791,6 +791,15 @@ blocksize
 )
 ;
 void
+SendBuffer
+(
+const
+DataBuffer
+&
+buf
+)
+;
+void
 SendDirect
 (
 const

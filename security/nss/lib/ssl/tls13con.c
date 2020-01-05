@@ -16698,6 +16698,9 @@ length
 finishedLen
 )
 {
+#
+ifndef
+UNSAFE_FUZZER_MODE
 FATAL_ERROR
 (
 ss
@@ -16715,6 +16718,8 @@ illegal_parameter
 return
 SECFailure
 ;
+#
+endif
 }
 if
 (
@@ -16729,6 +16734,9 @@ finishedLen
 0
 )
 {
+#
+ifndef
+UNSAFE_FUZZER_MODE
 FATAL_ERROR
 (
 ss
@@ -16739,6 +16747,8 @@ decrypt_error
 return
 SECFailure
 ;
+#
+endif
 }
 return
 SECSuccess
