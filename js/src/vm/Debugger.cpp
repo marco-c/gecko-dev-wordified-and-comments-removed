@@ -1396,7 +1396,7 @@ JSREPORT_WARNING
 JSREPORT_ERROR
 ;
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
 flags

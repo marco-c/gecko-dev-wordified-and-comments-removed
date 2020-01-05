@@ -1325,7 +1325,7 @@ u
 offset
 )
 ;
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR
@@ -1416,7 +1416,7 @@ v
 0x10000
 )
 ;
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR

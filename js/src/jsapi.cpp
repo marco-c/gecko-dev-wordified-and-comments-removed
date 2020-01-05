@@ -1075,15 +1075,17 @@ false
 ;
 JSAutoByteString
 propName
-(
-cx
-str
-)
 ;
 if
 (
 !
 propName
+.
+encodeUtf8
+(
+cx
+str
+)
 )
 return
 false
@@ -1097,7 +1099,7 @@ code_
 )
 {
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberUTF8
 (
 cx
 flags
@@ -1122,7 +1124,7 @@ ptr
 ;
 }
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberUTF8
 (
 cx
 flags
@@ -1138,7 +1140,7 @@ ptr
 ;
 }
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 flags
@@ -1208,7 +1210,7 @@ JSREPORT_STRICT
 )
 ;
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 flags

@@ -12122,7 +12122,7 @@ isJSContext
 &
 &
 !
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
 -
