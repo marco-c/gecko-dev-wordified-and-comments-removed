@@ -1178,6 +1178,16 @@ mKeysToDelete
 nsDataHashtable
 <
 nsUint64HashKey
+wr
+:
+:
+ImageKey
+>
+mActiveKeys
+;
+nsDataHashtable
+<
+nsUint64HashKey
 RefPtr
 <
 CompositableHost
