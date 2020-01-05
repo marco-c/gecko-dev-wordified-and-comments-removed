@@ -133,6 +133,7 @@ new
 "
 )
 None
+None
 SelectionDirection
 :
 :
@@ -181,6 +182,7 @@ Some
 (
 1
 )
+None
 SelectionDirection
 :
 :
@@ -269,6 +271,7 @@ Some
 (
 17
 )
+None
 SelectionDirection
 :
 :
@@ -391,6 +394,7 @@ Some
 (
 17
 )
+None
 SelectionDirection
 :
 :
@@ -487,6 +491,7 @@ Some
 (
 1
 )
+None
 SelectionDirection
 :
 :
@@ -561,6 +566,7 @@ Some
 (
 5
 )
+None
 SelectionDirection
 :
 :
@@ -635,6 +641,7 @@ Some
 (
 5
 )
+None
 SelectionDirection
 :
 :
@@ -738,6 +745,7 @@ Some
 (
 2
 )
+None
 SelectionDirection
 :
 :
@@ -848,6 +856,7 @@ Some
 (
 3
 )
+None
 SelectionDirection
 :
 :
@@ -1016,6 +1025,7 @@ Some
 (
 1
 )
+None
 SelectionDirection
 :
 :
@@ -1092,6 +1102,7 @@ Some
 (
 1
 )
+None
 SelectionDirection
 :
 :
@@ -2778,6 +2789,7 @@ new
 abc
 "
 )
+None
 None
 SelectionDirection
 :

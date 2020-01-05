@@ -187,8 +187,9 @@ attribute
 DOMString
 min
 ;
-/
-/
+[
+SetterThrows
+]
 attribute
 long
 minLength

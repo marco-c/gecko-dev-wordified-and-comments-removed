@@ -342,6 +342,13 @@ Option
 usize
 >
 pub
+min_length
+:
+Option
+<
+usize
+>
+pub
 selection_direction
 :
 SelectionDirection
@@ -642,6 +649,12 @@ Option
 <
 usize
 >
+min_length
+:
+Option
+<
+usize
+>
 selection_direction
 :
 SelectionDirection
@@ -691,6 +704,9 @@ clipboard_provider
 max_length
 :
 max_length
+min_length
+:
+min_length
 selection_direction
 :
 selection_direction
