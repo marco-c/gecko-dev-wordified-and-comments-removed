@@ -2145,8 +2145,10 @@ mLoadInfo
 mStorageAllowed
 ;
 }
-bool
-IsInPrivateBrowsing
+const
+PrincipalOriginAttributes
+&
+GetOriginAttributes
 (
 )
 const
@@ -2154,7 +2156,7 @@ const
 return
 mLoadInfo
 .
-mPrivateBrowsing
+mOriginAttributes
 ;
 }
 bool

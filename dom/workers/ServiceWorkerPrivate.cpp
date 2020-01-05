@@ -6824,9 +6824,14 @@ ePrivateBrowsing
 ;
 info
 .
-mPrivateBrowsing
+mOriginAttributes
 =
-false
+mInfo
+-
+>
+GetOriginAttributes
+(
+)
 ;
 nsCOMPtr
 <

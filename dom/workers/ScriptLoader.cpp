@@ -1334,12 +1334,12 @@ ServiceWorkerCacheName
 (
 )
 )
-mPrivateBrowsing
+mOriginAttributes
 (
 aWorkerPrivate
 -
 >
-IsInPrivateBrowsing
+GetOriginAttributes
 (
 )
 )
@@ -1543,8 +1543,8 @@ mLoaders
 nsString
 mCacheName
 ;
-bool
-mPrivateBrowsing
+PrincipalOriginAttributes
+mOriginAttributes
 ;
 }
 ;
@@ -6102,7 +6102,11 @@ if
 (
 NS_WARN_IF
 (
-mPrivateBrowsing
+mOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 )
 )
 {
@@ -6132,7 +6136,7 @@ cache
 CHROME_ONLY_NAMESPACE
 mSandboxGlobalObject
 aPrincipal
-mPrivateBrowsing
+false
 true
 error
 )
