@@ -35,15 +35,12 @@ DoctypeNodeTypeId
 pub
 struct
 DocumentType
-<
-View
->
 {
 node
 :
 Node
 <
-View
+ScriptView
 >
 name
 :
@@ -69,9 +66,6 @@ bool
 }
 impl
 DocumentType
-<
-ScriptView
->
 {
 pub
 fn
@@ -105,9 +99,6 @@ AbstractDocument
 -
 >
 DocumentType
-<
-ScriptView
->
 {
 DocumentType
 {

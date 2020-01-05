@@ -1871,9 +1871,6 @@ fn
 (
 &
 DocumentType
-<
-View
->
 )
 -
 >
@@ -1927,9 +1924,6 @@ fn
 &
 mut
 DocumentType
-<
-View
->
 )
 -
 >
