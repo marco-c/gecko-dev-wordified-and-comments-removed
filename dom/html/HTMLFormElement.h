@@ -1436,7 +1436,7 @@ mControls
 ;
 nsRefPtrHashtable
 <
-nsStringCaseInsensitiveHashKey
+nsStringHashKey
 HTMLInputElement
 >
 mSelectedRadioButtons
