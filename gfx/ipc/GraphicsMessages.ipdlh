@@ -212,9 +212,6 @@ isWARP
 bool
 textureSharingWorks
 ;
-bool
-alphaTextureSharingWorks
-;
 uint32_t
 featureLevel
 ;
