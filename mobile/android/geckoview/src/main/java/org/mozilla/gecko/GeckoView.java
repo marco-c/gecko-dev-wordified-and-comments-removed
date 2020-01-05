@@ -396,6 +396,7 @@ mEventDispatcher
 new
 EventDispatcher
 (
+mStateHolder
 )
 ;
 private
