@@ -773,7 +773,7 @@ getResultByIndex
 ;
 }
 )
-frecencyInDB
+fieldInDB
 :
 Task
 .
@@ -783,6 +783,7 @@ function
 *
 (
 aURI
+field
 )
 {
 let
@@ -827,7 +828,9 @@ db
 executeCached
 (
 SELECT
-frecency
+{
+field
+}
 FROM
 moz_places
 WHERE
