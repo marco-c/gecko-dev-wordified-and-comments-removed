@@ -108,9 +108,6 @@ nsIURI
 class
 nsIChannel
 ;
-class
-nsIContent
-;
 enum
 eParserCommands
 {
