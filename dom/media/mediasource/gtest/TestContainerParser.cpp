@@ -521,7 +521,9 @@ end
 =
 0
 ;
-EXPECT_FALSE
+EXPECT_TRUE
+(
+NS_FAILED
 (
 parser
 -
@@ -531,6 +533,7 @@ ParseStartAndEndTimestamps
 header
 start
 end
+)
 )
 )
 ;

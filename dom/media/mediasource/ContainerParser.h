@@ -82,7 +82,7 @@ aData
 )
 ;
 virtual
-bool
+MediaResult
 ParseStartAndEndTimestamps
 (
 MediaByteBuffer
