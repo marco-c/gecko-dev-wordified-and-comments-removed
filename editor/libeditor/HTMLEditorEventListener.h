@@ -48,9 +48,6 @@ HTMLEditorEventListener
 )
 {
 }
-#
-ifdef
-DEBUG
 virtual
 nsresult
 Connect
@@ -61,8 +58,6 @@ aEditorBase
 )
 override
 ;
-#
-endif
 protected
 :
 virtual
@@ -94,13 +89,6 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 override
-;
-inline
-HTMLEditor
-*
-GetHTMLEditor
-(
-)
 ;
 }
 ;
