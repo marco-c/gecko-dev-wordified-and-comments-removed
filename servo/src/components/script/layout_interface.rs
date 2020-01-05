@@ -16,7 +16,6 @@ script_task
 :
 :
 {
-ScriptMsg
 ScriptChan
 }
 ;
@@ -105,10 +104,6 @@ Reflow
 QueryMsg
 (
 LayoutQuery
-)
-RouteScriptMsg
-(
-ScriptMsg
 )
 ExitMsg
 }

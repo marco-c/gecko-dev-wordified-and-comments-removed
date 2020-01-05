@@ -31,7 +31,7 @@ script_task
 :
 :
 {
-task_from_context
+page_from_context
 }
 ;
 use
@@ -179,9 +179,9 @@ mut
 CacheableWrapper
 {
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 cx
 )
@@ -190,10 +190,10 @@ unsafe
 {
 (
 *
-script_context
+page
 )
 .
-root_frame
+frame
 .
 get_ref
 (

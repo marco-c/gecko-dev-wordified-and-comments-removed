@@ -292,7 +292,7 @@ constellation_msg
 :
 {
 ExitMsg
-LoadUrlMsg
+InitLoadUrlMsg
 }
 ;
 use
@@ -800,13 +800,15 @@ constellation_chan
 .
 send
 (
-LoadUrlMsg
+InitLoadUrlMsg
 (
 make_url
 (
-copy
-*
 filename
+.
+clone
+(
+)
 None
 )
 )

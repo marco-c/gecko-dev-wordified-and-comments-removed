@@ -35,6 +35,12 @@ size
 Size2D
 ;
 use
+constellation_msg
+:
+:
+PipelineId
+;
+use
 extra
 :
 :
@@ -165,7 +171,7 @@ paint
 self
 id
 :
-uint
+PipelineId
 layer_buffer_set
 :
 arc
