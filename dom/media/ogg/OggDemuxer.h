@@ -951,9 +951,6 @@ mTheoraSerial
 uint32_t
 mFlacSerial
 ;
-th_info
-mTheoraInfo
-;
 Maybe
 <
 int64_t
