@@ -3002,7 +3002,7 @@ async
 "
 :
 "
-sendResponse
+responseCallback
 "
 "
 parameters
