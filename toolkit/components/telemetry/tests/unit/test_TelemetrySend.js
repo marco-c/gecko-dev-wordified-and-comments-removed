@@ -1850,6 +1850,11 @@ type
 const
 OVERSIZED_PAYLOAD
 =
+{
+"
+data
+"
+:
 generateRandomString
 (
 2
@@ -1858,6 +1863,7 @@ generateRandomString
 *
 1024
 )
+}
 ;
 Telemetry
 .
