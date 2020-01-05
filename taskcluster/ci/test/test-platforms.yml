@@ -248,6 +248,8 @@ media
 tests
 -
 slow
+-
+awsy
 linux64
 /
 debug
@@ -381,6 +383,8 @@ screenshot
 capture
 -
 talos
+-
+awsy
 #
 TODO
 :
