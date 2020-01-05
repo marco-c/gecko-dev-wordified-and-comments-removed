@@ -1895,8 +1895,11 @@ __func__
 mPendingSeek
 .
 mTarget
-=
+.
+emplace
+(
 aTarget
+)
 ;
 return
 mPendingSeek
@@ -2026,8 +2029,8 @@ GetMediaTime
 mPendingSeek
 .
 mTarget
-=
-SeekTarget
+.
+emplace
 (
 t
 SeekTarget
@@ -3183,7 +3186,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )
@@ -3205,7 +3209,8 @@ UpdatePlaybackPositionInternal
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -3493,7 +3498,8 @@ MOZ_ASSERT
 aSeekJob
 .
 mTarget
-.
+-
+>
 IsAccurate
 (
 )
@@ -3502,7 +3508,8 @@ IsAccurate
 aSeekJob
 .
 mTarget
-.
+-
+>
 IsFast
 (
 )
@@ -3579,7 +3586,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )
@@ -3606,7 +3614,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsFast
 (
 )
@@ -3725,7 +3734,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsFast
 (
 )
@@ -3839,7 +3849,8 @@ AUDIO_DATA
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )
@@ -4014,7 +4025,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )
@@ -4129,7 +4141,8 @@ HasAudio
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )
@@ -4157,7 +4170,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )
@@ -4206,6 +4220,10 @@ Seek
 mSeekJob
 .
 mTarget
+.
+ref
+(
+)
 mMaster
 -
 >
@@ -4272,7 +4290,8 @@ seekTime
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -4286,7 +4305,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsAccurate
 (
 )
@@ -4301,7 +4321,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsFast
 (
 )
@@ -4625,7 +4646,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsFast
 (
 )
@@ -4634,7 +4656,8 @@ IsFast
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -4657,7 +4680,8 @@ ToMicroseconds
 mSeekJob
 .
 mTarget
-.
+-
+>
 SetType
 (
 SeekTarget
@@ -4684,7 +4708,8 @@ aAudio
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsAccurate
 (
 )
@@ -4739,7 +4764,8 @@ value
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -4763,7 +4789,8 @@ mTime
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -4811,7 +4838,8 @@ NS_ASSERTION
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -4843,7 +4871,8 @@ NS_ASSERTION
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -4880,7 +4909,8 @@ UsecsToFrames
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -5076,7 +5106,8 @@ mOffset
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -5204,7 +5235,8 @@ target
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -5541,7 +5573,8 @@ MOZ_ASSERT
 aSeekJob
 .
 mTarget
-.
+-
+>
 IsNextFrame
 (
 )
@@ -6386,7 +6419,8 @@ return
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -6711,7 +6745,8 @@ data
 mSeekJob
 .
 mTarget
-.
+-
+>
 SetTime
 (
 TimeUnit
@@ -6736,7 +6771,8 @@ mSeekedVideoData
 mSeekJob
 .
 mTarget
-.
+-
+>
 SetTime
 (
 TimeUnit
@@ -6770,7 +6806,8 @@ AtEndOfStream
 mSeekJob
 .
 mTarget
-.
+-
+>
 SetTime
 (
 mDuration
@@ -6818,7 +6855,8 @@ time
 mSeekJob
 .
 mTarget
-.
+-
+>
 GetTime
 (
 )
@@ -8069,7 +8107,10 @@ seekJob
 .
 mTarget
 =
+Some
+(
 aTarget
+)
 ;
 return
 SetSeekingState
@@ -8448,8 +8489,8 @@ PrevSyncPoint
 seekJob
 .
 mTarget
-=
-SeekTarget
+.
+emplace
 (
 mMaster
 -
@@ -8536,7 +8577,8 @@ if
 aSeekJob
 .
 mTarget
-.
+-
+>
 IsAccurate
 (
 )
@@ -8545,7 +8587,8 @@ IsAccurate
 aSeekJob
 .
 mTarget
-.
+-
+>
 IsFast
 (
 )
@@ -8570,7 +8613,8 @@ if
 aSeekJob
 .
 mTarget
-.
+-
+>
 IsNextFrame
 (
 )
@@ -9593,7 +9637,8 @@ if
 mSeekJob
 .
 mTarget
-.
+-
+>
 IsVideoOnly
 (
 )

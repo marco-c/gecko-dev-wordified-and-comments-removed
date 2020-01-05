@@ -43,6 +43,8 @@ SeekJob
 SeekJob
 (
 )
+=
+default
 ;
 SeekJob
 (
@@ -51,6 +53,8 @@ SeekJob
 &
 aOther
 )
+=
+default
 ;
 SeekJob
 &
@@ -61,6 +65,13 @@ SeekJob
 &
 &
 aOther
+)
+=
+default
+;
+~
+SeekJob
+(
 )
 ;
 bool
@@ -87,12 +98,10 @@ char
 aCallSite
 )
 ;
-~
-SeekJob
-(
-)
-;
+Maybe
+<
 SeekTarget
+>
 mTarget
 ;
 MozPromiseHolder
