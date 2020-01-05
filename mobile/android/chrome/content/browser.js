@@ -21042,7 +21042,7 @@ addObserver
 (
 this
 "
-AudioFocusChanged
+audioFocusChanged
 "
 false
 )
@@ -21827,7 +21827,7 @@ removeObserver
 (
 this
 "
-AudioFocusChanged
+audioFocusChanged
 "
 )
 ;
@@ -26173,7 +26173,7 @@ addObserver
 (
 this
 "
-MediaControl
+mediaControl
 "
 false
 )
@@ -26206,7 +26206,7 @@ removeObserver
 (
 this
 "
-MediaControl
+mediaControl
 "
 )
 ;
@@ -26597,12 +26597,12 @@ break
 ;
 case
 "
-AudioFocusChanged
+audioFocusChanged
 "
 :
 case
 "
-MediaControl
+mediaControl
 "
 :
 let
