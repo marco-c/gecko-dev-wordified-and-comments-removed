@@ -246,6 +246,11 @@ bool
 aIsRow
 )
 {
+MOZ_ASSERT
+(
+aLineInfo
+)
+;
 mLines
 .
 Clear
@@ -369,11 +374,6 @@ nsString
 >
 lineNames
 ;
-if
-(
-aLineInfo
-)
-{
 lineNames
 =
 aLineInfo
@@ -392,7 +392,6 @@ nsString
 )
 )
 ;
-}
 for
 (
 auto
