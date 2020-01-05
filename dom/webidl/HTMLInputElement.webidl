@@ -505,7 +505,7 @@ Pure
 TreatNullAs
 =
 EmptyString
-Throws
+SetterThrows
 ]
 attribute
 DOMString
