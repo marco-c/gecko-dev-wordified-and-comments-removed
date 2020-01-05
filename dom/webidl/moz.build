@@ -2047,16 +2047,6 @@ Request
 webidl
 '
 '
-ResourceStats
-.
-webidl
-'
-'
-ResourceStatsManager
-.
-webidl
-'
-'
 Response
 .
 webidl
