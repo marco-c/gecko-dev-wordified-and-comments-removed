@@ -505,6 +505,11 @@ mMayHaveTouchEventListener
 1
 ;
 uint16_t
+mMayHaveMouseMoveEventListener
+:
+1
+;
+uint16_t
 mMayHaveMouseEnterLeaveEventListener
 :
 1
@@ -1379,6 +1384,15 @@ MayHaveTouchEventListener
 {
 return
 mMayHaveTouchEventListener
+;
+}
+bool
+MayHaveMouseMoveEventListener
+(
+)
+{
+return
+mMayHaveMouseMoveEventListener
 ;
 }
 bool
