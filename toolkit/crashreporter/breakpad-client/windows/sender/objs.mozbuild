@@ -101,12 +101,8 @@ toolkit
 /
 crashreporter
 /
-google
--
 breakpad
-/
-src
-/
+-
 client
 /
 windows
