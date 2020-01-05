@@ -1012,6 +1012,10 @@ ID2D1Image
 >
 GetImageForLayerContent
 (
+bool
+aShouldPreserveContent
+=
+true
 )
 ;
 ID2D1Image
