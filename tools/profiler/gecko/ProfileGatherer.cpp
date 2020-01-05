@@ -985,16 +985,6 @@ AppendElement
 aProfile
 )
 ;
-if
-(
-mGathering
-)
-{
-GatheredOOPProfile
-(
-)
-;
-}
 }
 NS_IMETHODIMP
 ProfileGatherer
