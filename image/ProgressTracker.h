@@ -381,6 +381,10 @@ mProgress
 (
 NoProgress
 )
+mIsMultipart
+(
+false
+)
 {
 }
 bool
@@ -547,6 +551,16 @@ ResetImage
 (
 )
 ;
+void
+SetIsMultipart
+(
+)
+{
+mIsMultipart
+=
+true
+;
+}
 private
 :
 friend
@@ -614,6 +628,9 @@ mObservers
 ;
 Progress
 mProgress
+;
+bool
+mIsMultipart
 ;
 }
 ;

@@ -92,6 +92,8 @@ Progress
 aOldProgress
 Progress
 aNewProgress
+bool
+aIsMultipart
 )
 {
 if
@@ -118,6 +120,9 @@ FLAG_SIZE_AVAILABLE
 ;
 MOZ_ASSERT
 (
+aIsMultipart
+|
+|
 aNewProgress
 &
 (
@@ -152,6 +157,9 @@ FLAG_LOAD_COMPLETE
 {
 MOZ_ASSERT
 (
+aIsMultipart
+|
+|
 aNewProgress
 &
 (
@@ -186,6 +194,9 @@ FLAG_ONLOAD_BLOCKED
 ;
 MOZ_ASSERT
 (
+aIsMultipart
+|
+|
 aNewProgress
 &
 (
@@ -1724,6 +1735,7 @@ mProgress
 mProgress
 |
 progress
+mIsMultipart
 )
 ;
 if
