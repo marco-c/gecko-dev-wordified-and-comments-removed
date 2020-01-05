@@ -604,6 +604,12 @@ Types
 .
 h
 "
+            
+"
+nsINode
+.
+h
+"
         
 ]
         
@@ -666,6 +672,10 @@ ComputedTimingProperties
             
 "
 FastComputedTimingProperties
+"
+            
+"
+nsINode
 "
         
 ]
