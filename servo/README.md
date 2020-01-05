@@ -538,8 +538,6 @@ Linuxes
 sh
 sudo
 apt
--
-get
 install
 git
 curl
@@ -578,7 +576,9 @@ python
 -
 pip
 \
-libssl
+libssl1
+.
+0
 -
 dev
 libbz2
