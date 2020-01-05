@@ -966,8 +966,8 @@ Resolve
 (
 size_t
 aIndex
-const
 ResolveValueType
+&
 &
 aResolveValue
 )
@@ -988,7 +988,10 @@ aIndex
 .
 emplace
 (
+Move
+(
 aResolveValue
+)
 )
 ;
 if
@@ -1042,6 +1045,8 @@ resolveValues
 .
 AppendElement
 (
+Move
+(
 mResolveValues
 [
 i
@@ -1051,6 +1056,7 @@ ref
 (
 )
 )
+)
 ;
 }
 mPromise
@@ -1058,7 +1064,10 @@ mPromise
 >
 Resolve
 (
+Move
+(
 resolveValues
+)
 __func__
 )
 ;
@@ -1077,8 +1086,8 @@ Clear
 void
 Reject
 (
-const
 RejectValueType
+&
 &
 aRejectValue
 )
@@ -1097,7 +1106,10 @@ mPromise
 >
 Reject
 (
+Move
+(
 aRejectValue
+)
 __func__
 )
 ;
@@ -1235,7 +1247,10 @@ holder
 Resolve
 (
 i
+Move
+(
 aResolveValue
+)
 )
 ;
 }
@@ -1255,7 +1270,10 @@ holder
 >
 Reject
 (
+Move
+(
 aRejectValue
+)
 )
 ;
 }
