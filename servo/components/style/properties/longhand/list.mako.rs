@@ -442,14 +442,6 @@ Second
 None_
 )
 "
-boxed
-=
-product
-=
-=
-"
-gecko
-"
 initial_specified_value
 =
 "
