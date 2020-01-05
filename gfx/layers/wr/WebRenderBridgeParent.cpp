@@ -2231,6 +2231,9 @@ height
 map
 .
 mStride
+WrImageFormat
+:
+:
 RGBA8
 map
 .
