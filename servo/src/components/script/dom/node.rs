@@ -1349,11 +1349,6 @@ borrow_mut
 )
 }
 }
-pub
-trait
-TLayoutData
-{
-}
 #
 [
 deriving
