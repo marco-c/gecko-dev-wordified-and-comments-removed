@@ -774,7 +774,9 @@ is
 msgSender
 .
 id
-uuid
+extension
+.
+id
 "
 The
 sender
@@ -904,7 +906,9 @@ port
 sender
 .
 id
-uuid
+extension
+.
+id
 "
 The
 port

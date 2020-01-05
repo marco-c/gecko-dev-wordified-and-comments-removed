@@ -4731,11 +4731,6 @@ name
 onConnectExternal
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -5069,11 +5064,6 @@ name
 "
 onMessageExternal
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "

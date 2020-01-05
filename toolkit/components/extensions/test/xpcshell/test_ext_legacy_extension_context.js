@@ -653,9 +653,9 @@ equal
 msgSender
 .
 id
-extensionInfo
+extension
 .
-uuid
+id
 "
 The
 sender
@@ -868,9 +868,9 @@ port
 sender
 .
 id
-extensionInfo
+extension
 .
-uuid
+id
 "
 The
 port
