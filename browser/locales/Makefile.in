@@ -604,13 +604,13 @@ or
 (
 wildcard
 (
-call
-EN_US_OR_L10N_FILE
+srcdir
+)
+/
 searchplugins
 /
 (
 plugin
-)
 )
 )
 (
