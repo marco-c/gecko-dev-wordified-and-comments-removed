@@ -341,29 +341,6 @@ self
 gecko_enum_prefix
 :
             
-if
-value
-=
-=
-"
-none
-"
-:
-                
-return
-self
-.
-gecko_enum_prefix
-+
-"
-:
-:
-None_
-"
-            
-else
-:
-                
 parts
 =
 value
@@ -385,7 +362,7 @@ split
 -
 "
 )
-                
+            
 parts
 =
 [
@@ -399,7 +376,7 @@ p
 in
 parts
 ]
-                
+            
 return
 self
 .

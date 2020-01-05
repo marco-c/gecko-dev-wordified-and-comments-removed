@@ -33389,7 +33389,7 @@ pub
 enum
 StyleClear
 {
-None_
+None
 =
 0
 Left
@@ -33515,7 +33515,7 @@ pub
 enum
 StyleFloat
 {
-None_
+None
 =
 0
 Left
@@ -33623,7 +33623,7 @@ pub
 enum
 StyleShapeSourceType
 {
-None_
+None
 =
 0
 URL
@@ -33659,7 +33659,7 @@ pub
 enum
 StyleUserFocus
 {
-None_
+None
 =
 0
 Ignore
@@ -33707,7 +33707,7 @@ pub
 enum
 StyleUserSelect
 {
-None_
+None
 =
 0
 Text
@@ -33761,7 +33761,7 @@ pub
 enum
 StyleDisplay
 {
-None_
+None
 =
 0
 Block
