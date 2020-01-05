@@ -3646,24 +3646,6 @@ next_version
 1
 )
         
-if
-len
-(
-next_version
-)
->
-2
-:
-            
-next_version
-[
-2
-]
-=
-'
-0
-'
-        
 next_version
 =
 "
@@ -3673,6 +3655,16 @@ next_version
 join
 (
 next_version
+[
+:
+2
+]
++
+[
+'
+0
+'
+]
 )
         
 for
