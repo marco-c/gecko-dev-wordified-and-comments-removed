@@ -278,10 +278,6 @@ in_whitespace
 return
 (
 out_str
-.
-into_string
-(
-)
 out_whitespace
 )
 ;
