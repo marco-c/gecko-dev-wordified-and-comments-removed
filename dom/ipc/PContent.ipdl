@@ -1426,10 +1426,6 @@ parent
 spawns
 PPluginModule
 ;
-child
-opens
-PBackground
-;
 manages
 PBlob
 ;
@@ -2981,6 +2977,16 @@ capabilities
 ;
 parent
 :
+async
+InitBackground
+(
+Endpoint
+<
+PBackgroundParent
+>
+aEndpoint
+)
+;
 /
 *
 *
