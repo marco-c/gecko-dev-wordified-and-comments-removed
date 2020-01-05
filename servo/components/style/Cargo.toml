@@ -136,6 +136,10 @@ heap_size
 plugins
 "
 ]
+testing
+=
+[
+]
 [
 dependencies
 ]
