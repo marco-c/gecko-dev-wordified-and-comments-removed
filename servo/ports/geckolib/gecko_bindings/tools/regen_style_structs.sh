@@ -252,7 +252,7 @@ o
 .
 .
 /
-gecko_style_structs
+structs
 .
 rs
 \
@@ -913,7 +913,7 @@ rustc
 .
 .
 /
-gecko_style_structs
+structs
 .
 rs
 -

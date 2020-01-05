@@ -11,7 +11,10 @@ cssparser
 RGBA
 ;
 use
-gecko_style_structs
+gecko_bindings
+:
+:
+structs
 :
 :
 {

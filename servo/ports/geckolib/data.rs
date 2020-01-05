@@ -1,10 +1,4 @@
 use
-bindings
-:
-:
-RawServoStyleSet
-;
-use
 euclid
 :
 :
@@ -18,6 +12,15 @@ size
 :
 :
 TypedSize2D
+;
+use
+gecko_bindings
+:
+:
+bindings
+:
+:
+RawServoStyleSet
 ;
 use
 num_cpus

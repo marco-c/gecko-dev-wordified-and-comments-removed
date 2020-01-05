@@ -7,6 +7,9 @@ unsafe_code
 )
 ]
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -15,6 +18,9 @@ Gecko_ChildrenCount
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -25,6 +31,9 @@ Gecko_GetDocumentElement
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -34,6 +43,9 @@ Gecko_GetFirstChildElement
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -43,6 +55,9 @@ Gecko_GetLastChildElement
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -52,6 +67,9 @@ Gecko_GetNextSiblingElement
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -60,6 +78,9 @@ Gecko_GetNodeData
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -69,6 +90,9 @@ Gecko_GetParentNode
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -78,6 +102,9 @@ Gecko_GetPrevSiblingElement
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -89,6 +116,9 @@ Gecko_IsTextNode
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -105,6 +135,9 @@ unused_imports
 )
 ]
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -116,6 +149,9 @@ Gecko_SetNodeData
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :
@@ -126,6 +162,9 @@ RawGeckoNode
 }
 ;
 use
+gecko_bindings
+:
+:
 bindings
 :
 :

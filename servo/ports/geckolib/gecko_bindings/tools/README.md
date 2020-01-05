@@ -164,7 +164,7 @@ ports
 /
 geckolib
 /
-gecko_style_structs
+structs
 .
 rs
 .
