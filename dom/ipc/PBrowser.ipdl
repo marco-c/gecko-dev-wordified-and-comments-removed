@@ -3957,6 +3957,8 @@ TextureFactoryIdentifier
 textureFactoryIdentifier
 uint64_t
 layersId
+bool
+layersConnected
 nullable
 PRenderFrame
 renderFrame

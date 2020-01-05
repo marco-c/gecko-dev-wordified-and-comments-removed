@@ -2028,6 +2028,10 @@ mLayersId
 (
 0
 )
+mLayersConnected
+(
+true
+)
 mDidFakeShow
 (
 false
@@ -5857,6 +5861,10 @@ const
 uint64_t
 &
 aLayersId
+const
+bool
+&
+aLayersConnected
 PRenderFrameChild
 *
 aRenderFrame
@@ -5881,6 +5889,10 @@ mDidFakeShow
 aRenderFrame
 )
 )
+;
+mLayersConnected
+=
+aLayersConnected
 ;
 InitRenderingState
 (

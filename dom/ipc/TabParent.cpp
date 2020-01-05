@@ -3296,6 +3296,12 @@ SendInitRendering
 textureFactoryIdentifier
 layersId
 renderFrame
+-
+>
+IsLayersConnected
+(
+)
+renderFrame
 )
 ;
 }

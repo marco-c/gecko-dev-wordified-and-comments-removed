@@ -326,6 +326,17 @@ return
 mLayersId
 ;
 }
+inline
+bool
+IsLayersConnected
+(
+)
+const
+{
+return
+mLayersConnected
+;
+}
 void
 TakeFocusForClickFromTap
 (
@@ -377,6 +388,9 @@ aEvent
 ;
 uint64_t
 mLayersId
+;
+bool
+mLayersConnected
 ;
 RefPtr
 <
