@@ -3977,15 +3977,6 @@ info
 )
 ;
 async
-CacheFileDescriptor
-(
-nsString
-path
-FileDescriptor
-fd
-)
-;
-async
 UpdateDimensions
 (
 CSSRect
