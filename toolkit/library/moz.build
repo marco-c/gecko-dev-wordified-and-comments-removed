@@ -780,6 +780,9 @@ nspr
 nss
 '
 '
+psshparser
+'
+'
 sqlite
 '
 '
