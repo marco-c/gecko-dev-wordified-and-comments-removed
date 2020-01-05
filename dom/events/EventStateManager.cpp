@@ -1488,6 +1488,18 @@ LayoutDeviceIntPoint
 EventStateManager
 :
 :
+sPreLockPoint
+=
+LayoutDeviceIntPoint
+(
+0
+0
+)
+;
+LayoutDeviceIntPoint
+EventStateManager
+:
+:
 sLastRefPoint
 =
 kInvalidRefPoint
@@ -1622,11 +1634,6 @@ mLockCursor
 mLastFrameConsumedSetCursor
 (
 false
-)
-mPreLockPoint
-(
-0
-0
 )
 mCurrentTarget
 (
@@ -18443,7 +18450,7 @@ widget
 "
 )
 ;
-mPreLockPoint
+sPreLockPoint
 =
 sLastRefPoint
 ;
@@ -18488,7 +18495,7 @@ else
 {
 sLastRefPoint
 =
-mPreLockPoint
+sPreLockPoint
 ;
 sSynthCenteringPoint
 =
@@ -18504,7 +18511,7 @@ aWidget
 >
 SynthesizeNativeMouseMove
 (
-mPreLockPoint
+sPreLockPoint
 +
 aWidget
 -
