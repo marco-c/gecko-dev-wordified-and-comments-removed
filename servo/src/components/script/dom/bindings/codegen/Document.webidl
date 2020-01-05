@@ -893,12 +893,6 @@ HTMLElement
 ?
 body
 ;
-/
-/
-(
-HTML
-only
-)
 readonly
 attribute
 HTMLHeadElement
