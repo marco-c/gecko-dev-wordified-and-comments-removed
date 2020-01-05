@@ -1472,6 +1472,9 @@ InvalidateImagesCallback
 nsIFrame
 *
 aFrame
+FrameLayerBuilder
+:
+:
 DisplayItemData
 *
 aItem
