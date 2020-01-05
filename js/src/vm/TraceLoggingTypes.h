@@ -62,11 +62,6 @@ GCSweeping
 \
 _
 (
-Internal
-)
-\
-_
-(
 Interpreter
 )
 \
@@ -357,6 +352,7 @@ TraceLoggerTextId
 TraceLogger_Error
 =
 0
+TraceLogger_Internal
 #
 define
 DEFINE_TEXT_ID
@@ -407,6 +403,15 @@ failed
 to
 process
 text
+"
+;
+case
+TraceLogger_Internal
+:
+return
+"
+TraceLogger
+overhead
 "
 ;
 #
