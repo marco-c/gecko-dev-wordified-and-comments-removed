@@ -1762,7 +1762,7 @@ drawFlags
 imgIContainer
 :
 :
-FLAG_SYNC_DECODE
+FLAG_SYNC_DECODE_IF_FAST
 ;
 if
 (
