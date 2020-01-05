@@ -229,13 +229,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h
