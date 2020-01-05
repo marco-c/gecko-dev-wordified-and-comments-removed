@@ -220,6 +220,11 @@ EffectSet
 h
 '
 '
+Keyframe
+.
+h
+'
+'
 KeyframeEffectParams
 .
 h
