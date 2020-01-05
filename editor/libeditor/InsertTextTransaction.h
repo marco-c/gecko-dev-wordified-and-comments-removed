@@ -77,6 +77,9 @@ mozilla
 class
 EditorBase
 ;
+class
+RangeUpdater
+;
 namespace
 dom
 {
@@ -114,6 +117,9 @@ aString
 EditorBase
 &
 aEditorBase
+RangeUpdater
+*
+aRangeUpdater
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -177,6 +183,10 @@ mStringToInsert
 EditorBase
 &
 mEditorBase
+;
+RangeUpdater
+*
+mRangeUpdater
 ;
 }
 ;

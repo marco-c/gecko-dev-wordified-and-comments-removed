@@ -54,6 +54,9 @@ class
 EditorBase
 ;
 class
+RangeUpdater
+;
+class
 TextRangeArray
 ;
 namespace
@@ -98,6 +101,9 @@ aString
 EditorBase
 &
 aEditorBase
+RangeUpdater
+*
+aRangeUpdater
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -186,6 +192,10 @@ mStringToInsert
 EditorBase
 &
 mEditorBase
+;
+RangeUpdater
+*
+mRangeUpdater
 ;
 bool
 mFixed
