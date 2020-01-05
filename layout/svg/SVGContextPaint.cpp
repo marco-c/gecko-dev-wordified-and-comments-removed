@@ -189,7 +189,9 @@ style
 aFillOrStroke
 )
 .
-mType
+Type
+(
+)
 )
 {
 case
@@ -248,7 +250,9 @@ style
 aFillOrStroke
 )
 .
-mType
+Type
+(
+)
 )
 ;
 return
@@ -329,7 +333,9 @@ style
 >
 mFill
 .
-mType
+Type
+(
+)
 =
 =
 eStyleSVGPaintType_None
@@ -408,7 +414,9 @@ style
 >
 mStroke
 .
-mType
+Type
+(
+)
 =
 =
 eStyleSVGPaintType_None

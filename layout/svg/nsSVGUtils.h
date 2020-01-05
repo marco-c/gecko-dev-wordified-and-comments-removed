@@ -147,6 +147,9 @@ class
 nsStyleContext
 ;
 class
+nsStyleSVGPaint
+;
+class
 nsSVGDisplayContainerFrame
 ;
 class
@@ -169,9 +172,6 @@ nsTextFrame
 ;
 struct
 nsStyleSVG
-;
-struct
-nsStyleSVGPaint
 ;
 struct
 nsRect

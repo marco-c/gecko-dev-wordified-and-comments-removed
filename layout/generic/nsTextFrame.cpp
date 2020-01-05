@@ -19144,7 +19144,9 @@ style
 >
 mFill
 .
-mType
+Type
+(
+)
 )
 {
 case
@@ -32872,7 +32874,9 @@ style
 >
 mFill
 .
-mType
+Type
+(
+)
 !
 =
 eStyleSVGPaintType_None
@@ -32883,7 +32887,9 @@ style
 >
 mFill
 .
-mType
+Type
+(
+)
 !
 =
 eStyleSVGPaintType_Color
