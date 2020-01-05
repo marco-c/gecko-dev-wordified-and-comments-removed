@@ -318,7 +318,9 @@ function
 )
 {
 return
-promiseErrorPageLoaded
+BrowserTestUtils
+.
+waitForErrorPage
 (
 gBrowser
 .
