@@ -54763,18 +54763,6 @@ NotifyIntersectionObservers
 (
 )
 {
-nsTArray
-<
-RefPtr
-<
-DOMIntersectionObserver
->
->
-observers
-(
-mIntersectionObservers
-)
-;
 for
 (
 const
@@ -54782,7 +54770,7 @@ auto
 &
 observer
 :
-observers
+mIntersectionObservers
 )
 {
 observer
