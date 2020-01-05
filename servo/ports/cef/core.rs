@@ -343,6 +343,9 @@ TypedSize2D
 800
 600
 )
+user_agent
+:
+None
 }
 ;
 native

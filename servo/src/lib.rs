@@ -765,6 +765,13 @@ resource_task
 =
 new_resource_task
 (
+opts
+.
+user_agent
+.
+clone
+(
+)
 )
 ;
 /
