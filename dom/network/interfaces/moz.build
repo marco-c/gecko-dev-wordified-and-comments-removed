@@ -127,11 +127,6 @@ nsIEthernetManager
 .
 idl
 '
-'
-nsINetworkStatsServiceProxy
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

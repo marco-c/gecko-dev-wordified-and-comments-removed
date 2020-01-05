@@ -214,13 +214,6 @@ aIface
 )
 ;
 void
-SaveNetworkStats
-(
-bool
-aEnforce
-)
-;
-void
 CloseSocket
 (
 )
