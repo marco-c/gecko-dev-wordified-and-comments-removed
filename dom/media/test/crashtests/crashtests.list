@@ -103,17 +103,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-AndroidVersion
-=
-=
-'
-22
-'
-)
 HTTP
 load
 795892
@@ -121,9 +110,6 @@ load
 1
 .
 html
-#
-bug
-1358718
 load
 844563
 .
