@@ -1837,9 +1837,13 @@ FxA
 const
 collectionId
 =
+extensionIdToCollectionId
+(
+signedInUser
 extension
 .
 id
+)
 ;
 let
 syncResults
