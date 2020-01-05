@@ -2646,22 +2646,6 @@ toIDL
 )
 )
         
-suffix
-=
-"
-=
-delete
-"
-if
-m
-.
-deleted
-else
-"
-=
-0
-"
-        
 fd
 .
 write
@@ -2669,8 +2653,8 @@ write
 "
 %
 s
-%
-s
+=
+0
 ;
 \
 n
@@ -2678,12 +2662,9 @@ n
 n
 "
 %
-(
 methodAsNative
 (
 m
-)
-suffix
 )
 )
     
@@ -2726,22 +2707,6 @@ toIDL
 )
 )
         
-suffix
-=
-"
-=
-delete
-"
-if
-a
-.
-deleted
-else
-"
-=
-0
-"
-        
 fd
 .
 write
@@ -2749,20 +2714,17 @@ write
 "
 %
 s
-%
-s
+=
+0
 ;
 \
 n
 "
 %
-(
 attributeAsNative
 (
 a
 True
-)
-suffix
 )
 )
         
@@ -2857,20 +2819,17 @@ write
 "
 %
 s
-%
-s
+=
+0
 ;
 \
 n
 "
 %
-(
 attributeAsNative
 (
 a
 False
-)
-suffix
 )
 )
         
@@ -3377,20 +3336,6 @@ Attribute
 )
 :
                 
-suffix2
-=
-"
-=
-delete
-"
-if
-member
-.
-deleted
-else
-"
-"
-                
 if
 member
 .
@@ -3441,8 +3386,6 @@ n
 s
 %
 s
-%
-s
 ;
 "
 %
@@ -3454,7 +3397,6 @@ True
 declType
 )
 suffix
-suffix2
 )
 )
                 
@@ -3478,8 +3420,6 @@ n
 s
 %
 s
-%
-s
 ;
 "
 %
@@ -3491,7 +3431,6 @@ False
 declType
 )
 suffix
-suffix2
 )
 )
             
@@ -3504,20 +3443,6 @@ xpidl
 Method
 )
 :
-                
-suffix2
-=
-"
-=
-delete
-"
-if
-member
-.
-deleted
-else
-"
-"
                 
 fd
 .
@@ -3532,8 +3457,6 @@ n
 s
 %
 s
-%
-s
 ;
 "
 %
@@ -3544,7 +3467,6 @@ member
 declType
 )
 suffix
-suffix2
 )
 )
         
@@ -3643,11 +3565,8 @@ def
 emitTemplate
 (
 forward_infallible
-tmpl_normal
+tmpl
 tmpl_notxpcom
-=
-None
-tmpl_deleted
 =
 None
 )
@@ -3661,7 +3580,7 @@ None
             
 tmpl_notxpcom
 =
-tmpl_normal
+tmpl
         
 for
 member
@@ -3719,16 +3638,6 @@ True
 )
 )
 )
-                
-tmpl
-=
-tmpl_deleted
-if
-member
-.
-deleted
-else
-tmpl_normal
                 
 fd
 .
@@ -3822,16 +3731,6 @@ xpidl
 Method
 )
 :
-                
-tmpl
-=
-tmpl_deleted
-if
-member
-.
-deleted
-else
-tmpl_normal
                 
 if
 member
@@ -4004,24 +3903,6 @@ s
 ;
 }
 "
-                 
-None
-                 
-"
-\
-\
-\
-n
-%
-(
-asNative
-)
-s
-override
-=
-delete
-;
-"
 )
     
 fd
@@ -4085,22 +3966,6 @@ asNative
 )
 s
 override
-;
-"
-                 
-"
-\
-\
-\
-n
-%
-(
-asNative
-)
-s
-override
-=
-delete
 ;
 "
 )
