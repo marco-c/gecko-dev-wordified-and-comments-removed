@@ -90,11 +90,6 @@ test_history_collision
 js
 "
 "
-test_privbrw_formdata
-.
-js
-"
-"
 test_privbrw_passwords
 .
 js
