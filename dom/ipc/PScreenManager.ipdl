@@ -178,7 +178,7 @@ contentsScaleFactor
 nested
 (
 upto
-inside_sync
+inside_cpow
 )
 sync
 protocol
@@ -267,7 +267,7 @@ success
 ;
 nested
 (
-inside_sync
+inside_cpow
 )
 sync
 ScreenForBrowser

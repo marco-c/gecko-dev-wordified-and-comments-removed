@@ -1223,6 +1223,10 @@ root
 widget
 *
 /
+nested
+(
+inside_cpow
+)
 sync
 GetWidgetNativeData
 (
