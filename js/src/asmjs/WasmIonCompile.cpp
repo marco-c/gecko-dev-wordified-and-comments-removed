@@ -20627,7 +20627,7 @@ F64ConvertUI32
 return
 EmitConversion
 <
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 >
 (
 f

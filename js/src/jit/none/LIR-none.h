@@ -431,7 +431,7 @@ MOZ_CRASH
 }
 ;
 class
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 :
 public
 LInstructionHelper
@@ -443,7 +443,7 @@ LInstructionHelper
 {
 public
 :
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 (
 const
 LAllocation

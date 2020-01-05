@@ -32466,7 +32466,7 @@ true
 }
 MDefinition
 *
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 :
 :
 foldsTo

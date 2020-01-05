@@ -999,9 +999,9 @@ lir
 ;
 virtual
 void
-visitAsmJSUInt32ToDouble
+visitWasmUint32ToDouble
 (
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 *
 lir
 )

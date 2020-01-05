@@ -1536,9 +1536,9 @@ void
 CodeGeneratorX86
 :
 :
-visitAsmJSUInt32ToDouble
+visitWasmUint32ToDouble
 (
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 *
 lir
 )

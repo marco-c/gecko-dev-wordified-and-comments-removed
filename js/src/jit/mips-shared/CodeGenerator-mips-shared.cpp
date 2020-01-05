@@ -10812,9 +10812,9 @@ void
 CodeGeneratorMIPSShared
 :
 :
-visitAsmJSUInt32ToDouble
+visitWasmUint32ToDouble
 (
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 *
 lir
 )

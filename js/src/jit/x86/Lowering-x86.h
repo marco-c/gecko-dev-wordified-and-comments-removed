@@ -301,9 +301,9 @@ ins
 )
 ;
 void
-visitAsmJSUnsignedToDouble
+visitWasmUnsignedToDouble
 (
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 *
 ins
 )

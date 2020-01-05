@@ -278,7 +278,7 @@ type_
 }
 ;
 class
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 :
 public
 LInstructionHelper
@@ -292,9 +292,9 @@ public
 :
 LIR_HEADER
 (
-AsmJSUInt32ToDouble
+WasmUint32ToDouble
 )
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 (
 const
 LAllocation
