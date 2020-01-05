@@ -603,7 +603,6 @@ pub
 node
 :
 Node
-pub
 reflector_
 :
 Reflector
@@ -633,7 +632,6 @@ Element
 >
 >
 >
-pub
 implementation
 :
 Cell
@@ -646,7 +644,6 @@ DOMImplementation
 >
 >
 >
-pub
 content_type
 :
 DOMString
@@ -664,14 +661,12 @@ pub
 is_html_document
 :
 bool
-pub
 url
 :
 Untraceable
 <
 Url
 >
-pub
 quirks_mode
 :
 Untraceable

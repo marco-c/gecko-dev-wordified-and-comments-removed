@@ -500,13 +500,11 @@ pub
 struct
 CallSetup
 {
-pub
 cx
 :
 *
 mut
 JSContext
-pub
 handling
 :
 ExceptionHandling

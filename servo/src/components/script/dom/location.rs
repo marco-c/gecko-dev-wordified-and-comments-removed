@@ -103,11 +103,9 @@ pub
 struct
 Location
 {
-pub
 reflector_
 :
 Reflector
-pub
 page
 :
 Rc

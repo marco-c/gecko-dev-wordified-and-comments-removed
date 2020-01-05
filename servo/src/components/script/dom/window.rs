@@ -396,7 +396,6 @@ pub
 struct
 TimerHandle
 {
-pub
 handle
 :
 TimerId
@@ -404,7 +403,6 @@ pub
 data
 :
 TimerData
-pub
 cancel_chan
 :
 Untraceable
@@ -507,7 +505,6 @@ pub
 struct
 Window
 {
-pub
 eventtarget
 :
 EventTarget
@@ -515,7 +512,6 @@ pub
 script_chan
 :
 ScriptChan
-pub
 console
 :
 Cell
@@ -528,7 +524,6 @@ Console
 >
 >
 >
-pub
 location
 :
 Cell
@@ -541,7 +536,6 @@ Location
 >
 >
 >
-pub
 navigator
 :
 Cell
@@ -572,7 +566,6 @@ TimerHandle
 >
 >
 >
-pub
 next_timer_handle
 :
 Traceable
@@ -582,7 +575,6 @@ Cell
 i32
 >
 >
-pub
 compositor
 :
 Untraceable
@@ -612,7 +604,6 @@ Rc
 <
 Page
 >
-pub
 performance
 :
 Cell

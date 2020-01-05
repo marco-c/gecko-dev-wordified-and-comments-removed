@@ -207,14 +207,12 @@ pub
 struct
 DOMImplementation
 {
-pub
 owner
 :
 JS
 <
 Window
 >
-pub
 reflector_
 :
 Reflector

@@ -395,7 +395,6 @@ pub
 struct
 Attr
 {
-pub
 reflector_
 :
 Reflector
@@ -427,7 +426,6 @@ Option
 <
 DOMString
 >
-pub
 owner
 :
 Cell

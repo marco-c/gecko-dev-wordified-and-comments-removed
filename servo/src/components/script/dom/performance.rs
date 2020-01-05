@@ -86,11 +86,9 @@ pub
 struct
 Performance
 {
-pub
 reflector_
 :
 Reflector
-pub
 timing
 :
 JS
