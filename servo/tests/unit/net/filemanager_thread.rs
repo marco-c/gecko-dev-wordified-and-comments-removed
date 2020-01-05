@@ -320,7 +320,6 @@ clone
 )
 None
 )
-None
 TEST_PROVIDER
 )
 ;
@@ -434,7 +433,6 @@ clone
 (
 )
 )
-None
 TEST_PROVIDER
 )
 ;
@@ -638,7 +636,6 @@ clone
 )
 tx2
 )
-None
 TEST_PROVIDER
 )
 ;
@@ -718,7 +715,6 @@ clone
 (
 )
 )
-None
 TEST_PROVIDER
 )
 ;

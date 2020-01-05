@@ -11,14 +11,6 @@ box_syntax
 [
 feature
 (
-fnbox
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]
@@ -85,10 +77,6 @@ devtools_traits
 extern
 crate
 flate2
-;
-extern
-crate
-fnv
 ;
 extern
 crate
@@ -243,9 +231,6 @@ crate
 websocket
 ;
 mod
-about_loader
-;
-mod
 blob_loader
 ;
 mod
@@ -267,9 +252,6 @@ cookie_storage
 ;
 mod
 data_loader
-;
-mod
-file_loader
 ;
 pub
 mod
