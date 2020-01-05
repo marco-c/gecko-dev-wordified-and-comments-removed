@@ -1301,7 +1301,9 @@ inline
 bool
 JSVAL_IS_DOUBLE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1357,7 +1359,9 @@ inline
 bool
 JSVAL_IS_INT32_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1377,7 +1381,9 @@ inline
 int32_t
 JSVAL_TO_INT32_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1448,7 +1454,9 @@ inline
 bool
 JSVAL_IS_NUMBER_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1487,7 +1495,9 @@ inline
 bool
 JSVAL_IS_UNDEFINED_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1507,7 +1517,9 @@ inline
 bool
 JSVAL_IS_STRING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1573,7 +1585,9 @@ JSString
 *
 JSVAL_TO_STRING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1592,7 +1606,9 @@ inline
 bool
 JSVAL_IS_SYMBOL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1664,7 +1680,9 @@ Symbol
 *
 JSVAL_TO_SYMBOL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1683,7 +1701,9 @@ inline
 bool
 JSVAL_IS_BOOLEAN_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1703,7 +1723,9 @@ inline
 bool
 JSVAL_TO_BOOLEAN_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1762,7 +1784,9 @@ inline
 bool
 JSVAL_IS_MAGIC_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1782,7 +1806,9 @@ inline
 bool
 JSVAL_IS_OBJECT_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1802,7 +1828,9 @@ inline
 bool
 JSVAL_IS_PRIMITIVE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1827,7 +1855,9 @@ inline
 bool
 JSVAL_IS_OBJECT_OR_NULL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1872,7 +1902,9 @@ JSObject
 *
 JSVAL_TO_OBJECT_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -1945,7 +1977,9 @@ inline
 bool
 JSVAL_IS_NULL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2027,7 +2061,9 @@ void
 *
 JSVAL_TO_PRIVATE_PTR_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2205,7 +2241,9 @@ inline
 bool
 JSVAL_IS_PRIVATE_GCTHING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2225,7 +2263,9 @@ inline
 bool
 JSVAL_IS_GCTHING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2258,7 +2298,9 @@ Cell
 *
 JSVAL_TO_GCTHING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2277,7 +2319,9 @@ inline
 uint32_t
 JSVAL_TRACE_KIND_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2423,7 +2467,9 @@ inline
 bool
 JSVAL_IS_SPECIFIC_INT32_IMPL
 (
+const
 jsval_layout
+&
 l
 int32_t
 i32
@@ -2457,7 +2503,9 @@ inline
 bool
 JSVAL_IS_SPECIFIC_BOOLEAN_IMPL
 (
+const
 jsval_layout
+&
 l
 bool
 b
@@ -2566,9 +2614,13 @@ inline
 bool
 JSVAL_SAME_TYPE_IMPL
 (
+const
 jsval_layout
+&
 lhs
+const
 jsval_layout
+&
 rhs
 )
 {
@@ -2612,7 +2664,9 @@ inline
 JSValueType
 JSVAL_EXTRACT_NON_DOUBLE_TYPE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2685,7 +2739,9 @@ inline
 bool
 JSVAL_IS_DOUBLE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2743,7 +2799,9 @@ inline
 bool
 JSVAL_IS_INT32_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2769,7 +2827,9 @@ inline
 int32_t
 JSVAL_TO_INT32_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2813,7 +2873,9 @@ inline
 bool
 JSVAL_IS_NUMBER_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2830,7 +2892,9 @@ inline
 bool
 JSVAL_IS_UNDEFINED_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2848,7 +2912,9 @@ inline
 bool
 JSVAL_IS_STRING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2931,7 +2997,9 @@ JSString
 *
 JSVAL_TO_STRING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -2954,7 +3022,9 @@ inline
 bool
 JSVAL_IS_SYMBOL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3043,7 +3113,9 @@ Symbol
 *
 JSVAL_TO_SYMBOL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3069,7 +3141,9 @@ inline
 bool
 JSVAL_IS_BOOLEAN_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3095,7 +3169,9 @@ inline
 bool
 JSVAL_TO_BOOLEAN_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3149,7 +3225,9 @@ inline
 bool
 JSVAL_IS_MAGIC_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3172,7 +3250,9 @@ inline
 bool
 JSVAL_IS_PRIMITIVE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3189,7 +3269,9 @@ inline
 bool
 JSVAL_IS_OBJECT_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3222,7 +3304,9 @@ inline
 bool
 JSVAL_IS_OBJECT_OR_NULL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3256,7 +3340,9 @@ JSObject
 *
 JSVAL_TO_OBJECT_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3359,7 +3445,9 @@ inline
 bool
 JSVAL_IS_NULL_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3377,7 +3465,9 @@ inline
 bool
 JSVAL_IS_PRIVATE_GCTHING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3400,7 +3490,9 @@ inline
 bool
 JSVAL_IS_GCTHING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3425,7 +3517,9 @@ Cell
 *
 JSVAL_TO_GCTHING_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3472,7 +3566,9 @@ inline
 uint32_t
 JSVAL_TRACE_KIND_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3679,7 +3775,9 @@ void
 *
 JSVAL_TO_PRIVATE_PTR_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -3887,7 +3985,9 @@ inline
 bool
 JSVAL_IS_SPECIFIC_INT32_IMPL
 (
+const
 jsval_layout
+&
 l
 int32_t
 i32
@@ -3919,7 +4019,9 @@ inline
 bool
 JSVAL_IS_SPECIFIC_BOOLEAN_IMPL
 (
+const
 jsval_layout
+&
 l
 bool
 b
@@ -4012,9 +4114,13 @@ inline
 bool
 JSVAL_SAME_TYPE_IMPL
 (
+const
 jsval_layout
+&
 lhs
+const
 jsval_layout
+&
 rhs
 )
 {
@@ -4058,7 +4164,9 @@ inline
 JSValueType
 JSVAL_EXTRACT_NON_DOUBLE_TYPE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -4097,7 +4205,9 @@ inline
 bool
 JSVAL_IS_TRACEABLE_IMPL
 (
+const
 jsval_layout
+&
 l
 )
 {
@@ -4136,7 +4246,9 @@ JS
 Value
 IMPL_TO_JSVAL
 (
+const
 jsval_layout
+&
 l
 )
 ;
@@ -5596,7 +5708,9 @@ MOZ_IMPLICIT
 JS_VALUE_CONSTEXPR
 Value
 (
+const
 jsval_layout
+&
 layout
 )
 :
@@ -5678,7 +5792,9 @@ JS_VALUE_CONSTEXPR
 IMPL_TO_JSVAL
 )
 (
+const
 jsval_layout
+&
 l
 )
 ;
@@ -8708,7 +8824,9 @@ JS
 Value
 IMPL_TO_JSVAL
 (
+const
 jsval_layout
+&
 l
 )
 {
