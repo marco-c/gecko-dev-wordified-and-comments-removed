@@ -535,9 +535,6 @@ cookie
 DOM
 tree
 accessors
-[
-SetterThrows
-]
 attribute
 DOMString
 title
