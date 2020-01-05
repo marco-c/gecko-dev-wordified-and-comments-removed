@@ -2251,6 +2251,8 @@ self
 .
 element
 )
+as
+u16
 )
 }
 }

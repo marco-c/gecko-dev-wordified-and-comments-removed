@@ -497,6 +497,7 @@ Indeterminate
 ServoNonZeroBorder
 ReadWrite
 ReadOnly
+PlaceholderShown
 }
 impl
 NonTSPseudoClass
@@ -565,6 +566,10 @@ ReadWrite
 =
 >
 IN_READ_WRITE_STATE
+PlaceholderShown
+=
+>
+IN_PLACEHOLDER_SHOWN_STATE
 AnyLink
 |
 Link
@@ -727,6 +732,14 @@ only
 =
 >
 ReadOnly
+"
+placeholder
+-
+shown
+"
+=
+>
+PlaceholderShown
 "
 -
 servo
