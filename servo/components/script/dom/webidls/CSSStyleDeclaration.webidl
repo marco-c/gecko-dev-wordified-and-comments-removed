@@ -2414,6 +2414,8 @@ text
 -
 justify
 ;
+/
+/
 [
 SetterThrows
 TreatNullAs
@@ -2424,6 +2426,8 @@ attribute
 DOMString
 textOrientation
 ;
+/
+/
 [
 SetterThrows
 TreatNullAs

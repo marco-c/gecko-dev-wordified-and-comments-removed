@@ -981,9 +981,6 @@ direction
 get_inheritedbox
 .
 writing_mode
-get_inheritedbox
-.
-text_orientation
 get_text
 .
 text_decoration
