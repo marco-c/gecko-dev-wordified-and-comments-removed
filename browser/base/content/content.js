@@ -588,7 +588,7 @@ target
 ;
 InsecurePasswordUtils
 .
-checkForInsecurePasswords
+reportInsecurePasswords
 (
 formLike
 )
@@ -628,7 +628,7 @@ target
 ;
 InsecurePasswordUtils
 .
-checkForInsecurePasswords
+reportInsecurePasswords
 (
 formLike
 )
