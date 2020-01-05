@@ -43,8 +43,6 @@ EMEDecoderModule
 public
 PlatformDecoderModule
 {
-private
-:
 public
 :
 EMEDecoderModule
@@ -129,12 +127,6 @@ RefPtr
 PDMFactory
 >
 mPDM
-;
-RefPtr
-<
-TaskQueue
->
-mTaskQueue
 ;
 }
 ;

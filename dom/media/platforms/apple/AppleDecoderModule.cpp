@@ -289,9 +289,6 @@ aParams
 mTaskQueue
 aParams
 .
-mCallback
-aParams
-.
 mImageContainer
 )
 ;
@@ -335,9 +332,6 @@ AudioConfig
 aParams
 .
 mTaskQueue
-aParams
-.
-mCallback
 )
 ;
 return

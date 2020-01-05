@@ -56,9 +56,6 @@ aLib
 TaskQueue
 *
 aTaskQueue
-MediaDataDecoderCallback
-*
-aCallback
 const
 AudioInfo
 &
@@ -115,8 +112,11 @@ decoder
 }
 private
 :
-MediaResult
-DoDecode
+RefPtr
+<
+DecodePromise
+>
+ProcessDecode
 (
 MediaRawData
 *
@@ -124,7 +124,10 @@ aSample
 )
 override
 ;
-void
+RefPtr
+<
+DecodePromise
+>
 ProcessDrain
 (
 )

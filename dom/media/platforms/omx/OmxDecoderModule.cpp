@@ -51,9 +51,6 @@ aParams
 mConfig
 aParams
 .
-mCallback
-aParams
-.
 mImageContainer
 )
 ;
@@ -92,9 +89,6 @@ OmxDataDecoder
 aParams
 .
 mConfig
-aParams
-.
-mCallback
 nullptr
 )
 ;

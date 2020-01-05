@@ -134,9 +134,6 @@ MediaDataDecoderProxy
 >
 CreateDecoderWrapper
 (
-MediaDataDecoderCallback
-*
-aCallback
 )
 {
 RefPtr
@@ -207,7 +204,6 @@ thread
 forget
 (
 )
-aCallback
 )
 )
 ;
@@ -290,9 +286,6 @@ wrapper
 =
 CreateDecoderWrapper
 (
-aParams
-.
-mCallback
 )
 ;
 auto
@@ -301,11 +294,6 @@ params
 GMPVideoDecoderParams
 (
 aParams
-)
-.
-WithCallback
-(
-wrapper
 )
 ;
 wrapper
