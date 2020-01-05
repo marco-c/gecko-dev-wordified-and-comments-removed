@@ -11,14 +11,6 @@ box_syntax
 [
 feature
 (
-clone_from_slice
-)
-]
-#
-!
-[
-feature
-(
 custom_derive
 )
 ]

@@ -3,14 +3,6 @@
 [
 feature
 (
-clone_from_slice
-)
-]
-#
-!
-[
-feature
-(
 nonzero
 )
 ]
