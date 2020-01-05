@@ -295,6 +295,17 @@ matches
 "
 num
 -
+integer
+=
+"
+0
+.
+1
+.
+32
+"
+num
+-
 traits
 =
 "

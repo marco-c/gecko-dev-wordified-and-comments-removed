@@ -3011,6 +3011,17 @@ background_image
 :
 SpecifiedValue
 (
+vec
+!
+[
+background_image
+:
+:
+single_value
+:
+:
+SpecifiedValue
+(
 Some
 (
 specified
@@ -3030,6 +3041,8 @@ UrlExtraData
 }
 )
 )
+)
+]
 )
 )
 )
