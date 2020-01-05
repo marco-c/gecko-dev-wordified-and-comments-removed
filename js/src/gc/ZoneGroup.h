@@ -325,6 +325,15 @@ ref
 )
 ;
 }
+mozilla
+:
+:
+Atomic
+<
+size_t
+>
+numFinishedBuilders
+;
 private
 :
 typedef
