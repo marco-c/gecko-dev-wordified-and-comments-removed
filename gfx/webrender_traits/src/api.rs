@@ -134,6 +134,7 @@ Vec
 <
 u8
 >
+u32
 )
 AddNativeFont
 (
@@ -1339,6 +1340,9 @@ Vec
 <
 u8
 >
+index
+:
+u32
 )
 {
 let
@@ -1351,6 +1355,7 @@ AddRawFont
 (
 key
 bytes
+index
 )
 ;
 self

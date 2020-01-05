@@ -52,7 +52,7 @@ use
 util
 :
 :
-TransformedRect
+TransformedRectKind
 ;
 use
 webrender_traits
@@ -92,7 +92,10 @@ use
 webrender_traits
 :
 :
+{
+DeviceIntRect
 WorldPoint4D
+}
 ;
 #
 [
@@ -164,11 +167,14 @@ packed_layer_index
 :
 PackedLayerIndex
 pub
-xf_rect
+screen_bounding_rect
 :
 Option
 <
-TransformedRect
+(
+TransformedRectKind
+DeviceIntRect
+)
 >
 }
 impl
@@ -240,7 +246,7 @@ clip_sources
 packed_layer_index
 :
 packed_layer_index
-xf_rect
+screen_bounding_rect
 :
 None
 }

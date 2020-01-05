@@ -144,6 +144,12 @@ SubpixelPoint
 }
 ;
 use
+webrender_traits
+:
+:
+NativeFontHandle
+;
+use
 gamma_lut
 :
 :
@@ -701,6 +707,9 @@ bytes
 [
 u8
 ]
+index
+:
+u32
 )
 {
 if
@@ -715,6 +724,13 @@ font_key
 {
 return
 }
+assert_eq
+!
+(
+index
+0
+)
+;
 let
 data_provider
 =
@@ -785,7 +801,7 @@ font_key
 FontKey
 native_font_handle
 :
-CGFont
+NativeFontHandle
 )
 {
 if
@@ -815,6 +831,8 @@ clone
 (
 )
 native_font_handle
+.
+0
 )
 ;
 }

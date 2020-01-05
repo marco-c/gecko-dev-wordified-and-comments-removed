@@ -151,7 +151,7 @@ clip_alpha
 =
 texture
 (
-sMask
+sColor0
 source_uv
 )
 .

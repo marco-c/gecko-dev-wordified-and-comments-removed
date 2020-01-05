@@ -255,6 +255,7 @@ Vec
 u8
 >
 >
+u32
 )
 Native
 (
@@ -277,7 +278,6 @@ TextureSampler
 Color0
 Color1
 Color2
-Mask
 CacheA8
 CacheRGBA8
 Data16
@@ -1104,6 +1104,9 @@ DeviceUintRect
 id
 :
 ExternalImageId
+channel_index
+:
+u8
 stride
 :
 Option
@@ -1131,15 +1134,6 @@ RenderTargetMode
 }
 Free
 }
-pub
-type
-ExternalImageUpdateList
-=
-Vec
-<
-ExternalImageId
->
-;
 pub
 struct
 TextureUpdate
@@ -1322,7 +1316,6 @@ NewFrame
 (
 RendererFrame
 TextureUpdateList
-ExternalImageUpdateList
 BackendProfileCounters
 )
 }

@@ -233,7 +233,7 @@ vec2
 (
 textureSize
 (
-sMask
+sColor0
 0
 )
 )

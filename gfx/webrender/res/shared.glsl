@@ -697,10 +697,6 @@ uniform
 sampler2D
 sDither
 ;
-uniform
-sampler2D
-sMask
-;
 /
 /
 =

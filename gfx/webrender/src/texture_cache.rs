@@ -4477,6 +4477,11 @@ ExternalImageType
 :
 :
 TextureRectHandle
+|
+ExternalImageType
+:
+:
+TextureExternalHandle
 =
 >
 {
@@ -4535,6 +4540,11 @@ id
 ext_image
 .
 id
+channel_index
+:
+ext_image
+.
+channel_index
 stride
 :
 stride
@@ -4713,6 +4723,11 @@ ExternalImageType
 :
 :
 TextureRectHandle
+|
+ExternalImageType
+:
+:
+TextureExternalHandle
 =
 >
 {

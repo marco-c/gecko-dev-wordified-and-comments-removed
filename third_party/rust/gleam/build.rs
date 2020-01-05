@@ -228,6 +228,9 @@ GL_EXT_texture_format_BGRA8888
 "
 GL_OES_EGL_image
 "
+"
+GL_OES_EGL_image_external
+"
 ]
 ;
 let
