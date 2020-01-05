@@ -3104,7 +3104,7 @@ rv
 request
 -
 >
-SetHeaderNonThreadSafe
+SetHeader
 (
 nsHttp
 :
@@ -3135,7 +3135,7 @@ rv
 request
 -
 >
-SetHeaderNonThreadSafe
+SetHeader
 (
 nsHttp
 :
@@ -3194,7 +3194,7 @@ rv
 request
 -
 >
-SetHeaderNonThreadSafe
+SetHeader
 (
 nsHttp
 :
@@ -3229,7 +3229,7 @@ rv
 request
 -
 >
-SetHeaderNonThreadSafe
+SetHeader
 (
 nsHttp
 :
@@ -3251,7 +3251,7 @@ rv
 request
 -
 >
-SetHeaderNonThreadSafe
+SetHeader
 (
 nsHttp
 :
@@ -3289,7 +3289,7 @@ rv
 request
 -
 >
-SetHeaderNonThreadSafe
+SetHeader
 (
 nsHttp
 :
