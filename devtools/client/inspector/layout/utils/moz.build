@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 '
+editing
+-
+session
+.
+js
+'
+'
 l10n
 .
 js
