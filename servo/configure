@@ -1397,8 +1397,8 @@ CFG_LOCAL_RUST_ROOT
 with
 version
 :
-"
 LRV
+"
 CFG_RUSTC
 =
 {
