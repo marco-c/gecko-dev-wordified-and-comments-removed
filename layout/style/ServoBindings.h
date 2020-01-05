@@ -1237,6 +1237,8 @@ aList
 nsIAtom
 *
 aName
+bool
+aQuoted
 )
 ;
 void

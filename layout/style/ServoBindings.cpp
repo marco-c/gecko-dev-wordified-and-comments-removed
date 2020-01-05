@@ -3732,6 +3732,8 @@ aList
 nsIAtom
 *
 aName
+bool
+aQuoted
 )
 {
 FontFamilyName
@@ -3747,6 +3749,18 @@ family
 mName
 )
 ;
+if
+(
+aQuoted
+)
+{
+family
+.
+mType
+=
+eFamily_named_quoted
+;
+}
 aList
 -
 >
