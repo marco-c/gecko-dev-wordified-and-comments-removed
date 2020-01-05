@@ -1997,7 +1997,7 @@ See
 this
 [
 lldb
-turorial
+tutorial
 ]
 (
 http
@@ -2018,7 +2018,7 @@ and
 this
 [
 gdb
-turorial
+tutorial
 ]
 (
 http
