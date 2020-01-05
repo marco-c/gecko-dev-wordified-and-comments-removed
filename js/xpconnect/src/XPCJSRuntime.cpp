@@ -5139,6 +5139,14 @@ enabled
 ;
 #
 endif
+CycleCollectedJSRuntime
+:
+:
+Shutdown
+(
+cx
+)
+;
 }
 XPCJSRuntime
 :
