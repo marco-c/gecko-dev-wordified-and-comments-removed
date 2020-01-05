@@ -2337,7 +2337,6 @@ extant
 handler
 methods
 breakpoints
-watchpoints
 and
 so
 on
