@@ -4190,7 +4190,6 @@ uint64_t
 bytesSent
 )
 {
-{
 CSFLogVerbose
 (
 logTag
@@ -4305,10 +4304,6 @@ TimeInMilliseconds
 ;
 return
 true
-;
-}
-return
-false
 ;
 }
 MediaConduitErrorCode
