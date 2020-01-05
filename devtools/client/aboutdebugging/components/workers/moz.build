@@ -56,15 +56,6 @@ MPL
 DevToolsModules
 (
 '
-multi
--
-e10s
--
-warning
-.
-js
-'
-'
 panel
 .
 js

@@ -685,13 +685,6 @@ onClick
 this
 .
 push
-disabled
-:
-this
-.
-props
-.
-debugDisabled
 }
 Strings
 .
@@ -761,13 +754,6 @@ onClick
 this
 .
 start
-disabled
-:
-this
-.
-props
-.
-debugDisabled
 }
 Strings
 .
