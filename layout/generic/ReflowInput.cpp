@@ -2554,6 +2554,16 @@ nsIAtom
 aFrameType
 )
 {
+SetBResize
+(
+false
+)
+;
+SetIResize
+(
+false
+)
+;
 const
 WritingMode
 wm
