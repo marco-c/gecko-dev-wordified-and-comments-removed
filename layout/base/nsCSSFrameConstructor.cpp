@@ -6375,10 +6375,6 @@ mDocElementContainingBlock
 (
 nullptr
 )
-mGfxScrollFrame
-(
-nullptr
-)
 mPageSequenceFrame
 (
 nullptr
@@ -11989,10 +11985,6 @@ newFrame
 )
 ;
 parentFrame
-=
-newFrame
-;
-mGfxScrollFrame
 =
 newFrame
 ;
@@ -36567,10 +36559,6 @@ mDocElementContainingBlock
 nullptr
 ;
 mPageSequenceFrame
-=
-nullptr
-;
-mGfxScrollFrame
 =
 nullptr
 ;
