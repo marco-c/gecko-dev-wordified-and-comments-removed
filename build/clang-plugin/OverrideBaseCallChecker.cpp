@@ -500,9 +500,6 @@ std
 string
 QualName
 ;
-llvm
-:
-:
 raw_string_ostream
 OS
 (

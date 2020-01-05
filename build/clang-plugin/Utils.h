@@ -2200,6 +2200,17 @@ true
 {
 if
 (
+!
+s
+)
+{
+return
+nullptr
+;
+}
+else
+if
+(
 auto
 *
 ewc
