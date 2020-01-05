@@ -106,6 +106,15 @@ nsMixedContentBlocker
 )
 ;
 static
+bool
+IsPotentiallyTrustworthyLoopbackURL
+(
+nsIURI
+*
+aURL
+)
+;
+static
 nsresult
 ShouldLoad
 (

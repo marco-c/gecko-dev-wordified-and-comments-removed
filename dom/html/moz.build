@@ -199,6 +199,11 @@ nsIMenuBuilder
 .
 idl
 '
+'
+nsIPhonetic
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
@@ -1189,7 +1194,12 @@ input
 dom
 /
 media
+'
+'
 /
+dom
+/
+security
 '
 '
 /
