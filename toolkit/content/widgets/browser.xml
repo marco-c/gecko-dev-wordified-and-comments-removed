@@ -4366,16 +4366,6 @@ body
 [
 CDATA
 [
-if
-(
-this
-.
-_audioMuted
-)
-{
-return
-;
-}
 let
 event
 =
