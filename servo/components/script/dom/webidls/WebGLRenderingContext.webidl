@@ -2787,8 +2787,6 @@ object
 data
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
@@ -3288,8 +3286,6 @@ flush
 (
 )
 ;
-/
-/
 void
 framebufferRenderbuffer
 (
@@ -3297,19 +3293,13 @@ GLenum
 target
 GLenum
 attachment
-/
-/
 GLenum
 renderbuffertarget
-/
-/
 WebGLRenderbuffer
 ?
 renderbuffer
 )
 ;
-/
-/
 void
 framebufferTexture2D
 (
@@ -3319,8 +3309,6 @@ GLenum
 attachment
 GLenum
 textarget
-/
-/
 WebGLTexture
 ?
 texture
@@ -3723,8 +3711,6 @@ object
 pixels
 )
 ;
-/
-/
 void
 renderbufferStorage
 (
@@ -3732,8 +3718,6 @@ GLenum
 target
 GLenum
 internalformat
-/
-/
 GLsizei
 width
 GLsizei
