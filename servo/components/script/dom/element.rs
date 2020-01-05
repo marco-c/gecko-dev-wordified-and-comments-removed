@@ -1539,7 +1539,7 @@ for
 AdjacentPosition
 {
 type
-Err
+Error
 =
 Error
 ;
@@ -1561,7 +1561,7 @@ AdjacentPosition
 Self
 :
 :
-Err
+Error
 >
 {
 match_ignore_ascii_case
