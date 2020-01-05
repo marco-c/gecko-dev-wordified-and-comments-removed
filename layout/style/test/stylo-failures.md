@@ -4670,7 +4670,7 @@ box
 shadow
 '
 [
-6
+0
 ]
 *
 .
@@ -4692,7 +4692,7 @@ drop
 -
 shadow
 [
-6
+0
 ]
 *
 test_property_syntax_errors
