@@ -1050,8 +1050,10 @@ ui
 .
 setViewportSize
 (
+{
 width
 height
+}
 )
 ;
 yield
