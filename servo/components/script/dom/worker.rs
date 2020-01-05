@@ -567,7 +567,7 @@ worker_url
 match
 global
 .
-get_url
+api_base_url
 (
 )
 .
