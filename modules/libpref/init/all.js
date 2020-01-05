@@ -37647,7 +37647,7 @@ animated
 .
 discardable
 "
-false
+true
 )
 ;
 pref
