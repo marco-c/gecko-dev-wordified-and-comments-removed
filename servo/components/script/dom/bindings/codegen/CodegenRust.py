@@ -35260,7 +35260,10 @@ bindings
 codegen
 :
 :
-*
+{
+PrototypeList
+RegisterBindings
+}
 '
             
 '
