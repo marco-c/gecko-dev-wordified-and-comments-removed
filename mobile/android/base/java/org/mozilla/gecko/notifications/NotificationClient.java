@@ -744,11 +744,11 @@ setStyle
 new
 NotificationCompat
 .
-InboxStyle
+BigTextStyle
 (
 )
 .
-addLine
+bigText
 (
 alertText
 )
