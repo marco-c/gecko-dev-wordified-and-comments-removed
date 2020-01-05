@@ -5610,7 +5610,7 @@ flags
 infoObject
 -
 >
-GetFirstPartyDomainRaw
+GetOriginAttributes
 (
 )
 &
