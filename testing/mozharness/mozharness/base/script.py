@@ -3364,24 +3364,6 @@ to
 retry
 download
 methods
-        
-Split
-out
-so
-we
-can
-alter
-the
-retry
-logic
-in
-mozharness
-.
-mozilla
-.
-testing
-.
-gaia_test
 .
         
 This
