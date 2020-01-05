@@ -956,6 +956,16 @@ DOMMediaStream
 aStream
 )
 ;
+void
+NotifyOutputTrackStopped
+(
+DOMMediaStream
+*
+aOwningStream
+TrackID
+aDestinationTrackID
+)
+;
 virtual
 bool
 IsNodeOfType
