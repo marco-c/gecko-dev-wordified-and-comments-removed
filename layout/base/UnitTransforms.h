@@ -58,6 +58,7 @@ LayoutDeviceIsScreenForTabDims
 LayoutDeviceIsParentLayerForRCDRSF
 MultipleAsyncTransforms
 NoTransformOnLayer
+WebRenderHasUnitResolution
 }
 ;
 template
