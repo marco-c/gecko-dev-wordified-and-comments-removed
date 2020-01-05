@@ -1350,6 +1350,7 @@ highlighterSettings
 onShowGridCellHighlight
 (
 node
+color
 gridFragmentIndex
 rowNumber
 columnNumber
@@ -1377,6 +1378,12 @@ gridFragmentIndex
 rowNumber
 columnNumber
 }
+;
+highlighterSettings
+.
+color
+=
+color
 ;
 this
 .
