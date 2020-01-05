@@ -2758,6 +2758,7 @@ elem
 >
 NodeInfoChanged
 (
+oldDoc
 )
 ;
 }

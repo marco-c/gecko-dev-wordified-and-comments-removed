@@ -436,6 +436,16 @@ aFlags
 const
 override
 ;
+virtual
+void
+NodeInfoChanged
+(
+nsIDocument
+*
+aOldDoc
+)
+override
+;
 NS_IMETHOD
 WalkContentStyleRules
 (

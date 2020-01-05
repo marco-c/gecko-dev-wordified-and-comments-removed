@@ -2703,6 +2703,9 @@ HTMLImageElement
 :
 NodeInfoChanged
 (
+nsIDocument
+*
+aOldDoc
 )
 {
 mLastSelectedSource
