@@ -311,6 +311,15 @@ xul
 dll
 '
 ]
+RCINCLUDE
+=
+'
+plugin
+-
+container
+.
+rc
+'
 if
 CONFIG
 [
