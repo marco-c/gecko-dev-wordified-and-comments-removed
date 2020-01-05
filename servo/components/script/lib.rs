@@ -737,6 +737,10 @@ navigator
 ;
 pub
 mod
+navigatorinfo
+;
+pub
+mod
 node
 ;
 pub
@@ -782,6 +786,10 @@ treewalker
 pub
 mod
 uievent
+;
+pub
+mod
+urlhelper
 ;
 pub
 mod
