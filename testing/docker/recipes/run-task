@@ -1648,6 +1648,12 @@ group
 gr_name
 )
 )
+set_dir_permissions
+(
+path
+uid
+gid
+)
 for
 root
 dirs
