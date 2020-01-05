@@ -371,6 +371,9 @@ cpu
 in
 (
 '
+aarch64
+'
+'
 arm
 '
 '
