@@ -58668,7 +58668,10 @@ MDefinition
 obj
 )
 ;
+AbortReasonOr
+<
 bool
+>
 ElementAccessHasExtraIndexedProperty
 (
 IonBuilder
@@ -58840,7 +58843,10 @@ MIRType
 None
 )
 ;
+AbortReasonOr
+<
 bool
+>
 ArrayPrototypeHasIndexedProperty
 (
 IonBuilder
@@ -58851,7 +58857,10 @@ JSScript
 script
 )
 ;
+AbortReasonOr
+<
 bool
+>
 TypeCanHaveExtraIndexedProperties
 (
 IonBuilder
