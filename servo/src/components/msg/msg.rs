@@ -64,6 +64,14 @@ serialize
 ;
 extern
 crate
+servo_util
+=
+"
+util
+"
+;
+extern
+crate
 std
 ;
 extern
