@@ -474,7 +474,7 @@ let
 warningID
 =
 "
-CompositorAnimationWarningTransformWithGeometricProperties
+CompositorAnimationWarningTransformWithSyncGeometricAnimations
 "
 ;
 if
