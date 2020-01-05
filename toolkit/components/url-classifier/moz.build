@@ -233,6 +233,11 @@ RiceDeltaDecoder
 .
 cpp
 '
+'
+SBTelemetryUtils
+.
+cpp
+'
 ]
 #
 define
@@ -364,6 +369,11 @@ protobuf
 safebrowsing
 .
 pb
+.
+h
+'
+'
+SBTelemetryUtils
 .
 h
 '
