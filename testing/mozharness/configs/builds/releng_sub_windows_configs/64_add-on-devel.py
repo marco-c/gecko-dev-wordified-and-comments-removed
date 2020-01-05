@@ -122,6 +122,14 @@ shared
 '
         
 '
+MOZ_AUTOMATION
+'
+:
+'
+1
+'
+        
+'
 MOZ_CRASHREPORTER_NO_REPORT
 '
 :

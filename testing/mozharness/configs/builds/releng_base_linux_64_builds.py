@@ -819,6 +819,14 @@ mozbuild
 )
         
 '
+MOZ_AUTOMATION
+'
+:
+'
+1
+'
+        
+'
 DISPLAY
 '
 :
