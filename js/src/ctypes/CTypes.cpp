@@ -217,6 +217,15 @@ h
 #
 include
 "
+jit
+/
+AtomicOperations
+.
+h
+"
+#
+include
+"
 js
 /
 Vector

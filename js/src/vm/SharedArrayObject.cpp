@@ -80,9 +80,9 @@ endif
 #
 include
 "
-vm
+jit
 /
-SharedMem
+AtomicOperations
 .
 h
 "
@@ -91,7 +91,7 @@ include
 "
 vm
 /
-TypedArrayCommon
+SharedMem
 .
 h
 "

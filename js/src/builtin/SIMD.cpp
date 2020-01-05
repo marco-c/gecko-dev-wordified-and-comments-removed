@@ -76,6 +76,15 @@ include
 "
 jit
 /
+AtomicOperations
+.
+h
+"
+#
+include
+"
+jit
+/
 InlinableNatives
 .
 h
