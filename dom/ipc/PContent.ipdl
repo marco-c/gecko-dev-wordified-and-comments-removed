@@ -1451,10 +1451,6 @@ parent
 spawns
 PPluginModule
 ;
-parent
-opens
-PGMPService
-;
 child
 opens
 PBackground
@@ -1829,6 +1825,16 @@ aOuterWindowID
 ;
 child
 :
+async
+InitGMPService
+(
+Endpoint
+<
+PGMPServiceChild
+>
+service
+)
+;
 async
 InitProcessHangMonitor
 (
