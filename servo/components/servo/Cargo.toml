@@ -105,8 +105,6 @@ max_log_level
 =
 [
 "
-env_logger
-/
 log
 /
 release_max_level_info
@@ -695,6 +693,13 @@ gh
 pages
 "
 }
+log
+=
+"
+0
+.
+3
+"
 env_logger
 =
 "
