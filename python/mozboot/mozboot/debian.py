@@ -339,9 +339,7 @@ dev
 '
         
 '
-openjdk
--
-7
+default
 -
 jdk
 '
