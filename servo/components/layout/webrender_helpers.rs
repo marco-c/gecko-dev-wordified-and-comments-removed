@@ -3041,9 +3041,6 @@ bounds
 to_rectf
 (
 )
-stacking_context
-.
-z_index
 transform
 webrender_traits
 :
