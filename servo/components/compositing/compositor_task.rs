@@ -28,7 +28,11 @@ use
 gfx_traits
 :
 :
+{
+LayerId
+LayerProperties
 PaintListener
+}
 ;
 use
 headless
@@ -83,8 +87,6 @@ compositor_msg
 {
 Epoch
 FrameTreeId
-LayerId
-LayerProperties
 }
 ;
 use

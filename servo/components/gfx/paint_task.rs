@@ -92,10 +92,14 @@ gfx_traits
 :
 {
 color
+LayerId
+LayerKind
+LayerProperties
 PaintListener
 PaintMsg
 as
 ConstellationMsg
+ScrollPolicy
 }
 ;
 use
@@ -145,10 +149,6 @@ compositor_msg
 {
 Epoch
 FrameTreeId
-LayerId
-LayerKind
-LayerProperties
-ScrollPolicy
 }
 ;
 use

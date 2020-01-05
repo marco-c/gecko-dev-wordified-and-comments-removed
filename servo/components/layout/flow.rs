@@ -75,6 +75,12 @@ DisplayList
 }
 ;
 use
+gfx_traits
+:
+:
+LayerId
+;
+use
 incremental
 :
 :
@@ -109,10 +115,7 @@ msg
 compositor_msg
 :
 :
-{
-LayerId
 LayerType
-}
 ;
 use
 multicol

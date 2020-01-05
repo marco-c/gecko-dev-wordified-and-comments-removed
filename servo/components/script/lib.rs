@@ -252,6 +252,10 @@ fnv
 ;
 extern
 crate
+gfx_traits
+;
+extern
+crate
 html5ever
 ;
 extern

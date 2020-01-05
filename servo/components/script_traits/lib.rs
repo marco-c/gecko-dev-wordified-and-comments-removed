@@ -42,6 +42,10 @@ euclid
 ;
 extern
 crate
+gfx_traits
+;
+extern
+crate
 ipc_channel
 ;
 extern
@@ -133,6 +137,12 @@ rect
 Rect
 ;
 use
+gfx_traits
+:
+:
+LayerId
+;
+use
 ipc_channel
 :
 :
@@ -157,10 +167,7 @@ msg
 compositor_msg
 :
 :
-{
 Epoch
-LayerId
-}
 ;
 use
 msg

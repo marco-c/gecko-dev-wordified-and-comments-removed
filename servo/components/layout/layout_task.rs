@@ -179,7 +179,11 @@ use
 gfx_traits
 :
 :
+{
 color
+LayerId
+ScrollPolicy
+}
 ;
 use
 incremental
@@ -239,11 +243,7 @@ msg
 compositor_msg
 :
 :
-{
 Epoch
-LayerId
-ScrollPolicy
-}
 ;
 use
 msg
