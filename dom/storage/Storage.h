@@ -499,6 +499,8 @@ aIsPrivate
 Storage
 *
 aStorage
+bool
+aImmediateDispatch
 )
 ;
 void

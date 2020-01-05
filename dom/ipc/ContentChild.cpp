@@ -14639,6 +14639,7 @@ aNewValue
 aPrincipal
 aIsPrivate
 nullptr
+true
 )
 ;
 return
