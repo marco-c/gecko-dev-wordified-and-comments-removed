@@ -138,8 +138,6 @@ clientRect
 SetLayoutRect
 (
 mRequest
-.
-mRect
 )
 ;
 return
