@@ -26,9 +26,7 @@ enzyme
 )
 ;
 const
-{
 PageError
-}
 =
 require
 (

@@ -125,8 +125,6 @@ message
 body
 "
 )
-.
-GripMessageBody
 )
 ;
 const
@@ -1078,9 +1076,9 @@ items
 }
 ;
 }
-exports
+module
 .
-ConsoleTable
+exports
 =
 ConsoleTable
 ;

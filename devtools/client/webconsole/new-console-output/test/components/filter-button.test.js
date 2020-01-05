@@ -72,8 +72,6 @@ filter
 button
 "
 )
-.
-FilterButton
 )
 ;
 const

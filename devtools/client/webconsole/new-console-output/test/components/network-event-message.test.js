@@ -78,8 +78,6 @@ event
 message
 "
 )
-.
-NetworkEventMessage
 )
 ;
 const

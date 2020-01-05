@@ -78,8 +78,6 @@ api
 call
 "
 )
-.
-ConsoleApiCall
 )
 ;
 const

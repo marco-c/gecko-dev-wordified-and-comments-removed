@@ -125,8 +125,6 @@ children
 module
 .
 exports
-.
-VariablesViewLink
 =
 VariablesViewLink
 ;

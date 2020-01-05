@@ -76,8 +76,6 @@ evaluation
 result
 "
 )
-.
-EvaluationResult
 )
 ;
 const

@@ -221,8 +221,6 @@ filter
 button
 "
 )
-.
-FilterButton
 )
 ;
 const

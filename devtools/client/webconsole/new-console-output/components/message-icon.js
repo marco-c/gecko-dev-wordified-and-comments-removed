@@ -121,8 +121,6 @@ title
 module
 .
 exports
-.
-MessageIcon
 =
 MessageIcon
 ;

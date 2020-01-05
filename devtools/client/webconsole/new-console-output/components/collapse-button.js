@@ -153,8 +153,6 @@ messageToggleDetails
 module
 .
 exports
-.
-CollapseButton
 =
 CollapseButton
 ;

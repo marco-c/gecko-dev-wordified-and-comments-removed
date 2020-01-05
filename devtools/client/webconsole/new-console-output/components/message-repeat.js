@@ -99,9 +99,9 @@ repeat
 )
 ;
 }
-exports
+module
 .
-MessageRepeat
+exports
 =
 MessageRepeat
 ;

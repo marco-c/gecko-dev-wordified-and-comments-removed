@@ -139,6 +139,11 @@ repeat
 js
 '
 '
+message
+.
+js
+'
+'
 variables
 -
 view
