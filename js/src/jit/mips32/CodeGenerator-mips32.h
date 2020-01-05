@@ -266,6 +266,14 @@ ins
 )
 ;
 void
+visitNotI64
+(
+LNotI64
+*
+ins
+)
+;
+void
 visitOutOfLineBailout
 (
 OutOfLineBailout
