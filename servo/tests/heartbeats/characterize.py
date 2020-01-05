@@ -64,13 +64,6 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
     
 (
 "
-LayoutTextShaping
-"
-HEARTBEAT_DEFAULT_WINDOW_SIZE
-)
-    
-(
-"
 LayoutRestyleDamagePropagation
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
@@ -290,6 +283,10 @@ ENERGY_READER_BIN
 =
 "
 energymon
+-
+file
+-
+provider
 "
 ENERGY_READER_TEMP_OUTPUT
 =
@@ -1341,8 +1338,6 @@ html
 renderer
 =
 "
--
-c
 "
     
 output_dir
@@ -1470,12 +1465,12 @@ add_argument
 (
 "
 -
-g
+w
 "
 "
 -
 -
-gpu
+webrender
 "
                         
 action
@@ -1487,12 +1482,9 @@ store_true
 help
 =
 "
-Rendering
-with
-GPU
-instead
-of
-CPU
+Use
+webrender
+backend
 "
 )
     
@@ -1726,14 +1718,14 @@ debug
 if
 args
 .
-gpu
+webrender
 :
         
 renderer
 =
 "
 -
-g
+w
 "
     
 if
