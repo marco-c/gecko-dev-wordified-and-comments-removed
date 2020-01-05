@@ -989,11 +989,9 @@ mInstance
 =
 NULL
 ;
+static
 void
-Sampler
-:
-:
-Start
+PlatformStart
 (
 )
 {
@@ -1015,11 +1013,9 @@ StartSampler
 )
 ;
 }
+static
 void
-Sampler
-:
-:
-Stop
+PlatformStop
 (
 )
 {

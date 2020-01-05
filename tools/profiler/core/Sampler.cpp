@@ -957,7 +957,7 @@ if
 (
 gIsActive
 )
-Stop
+PlatformStop
 (
 )
 ;

@@ -1464,11 +1464,9 @@ return
 0
 ;
 }
+static
 void
-Sampler
-:
-:
-Start
+PlatformStart
 (
 )
 {
@@ -1708,11 +1706,9 @@ started
 )
 ;
 }
+static
 void
-Sampler
-:
-:
-Stop
+PlatformStop
 (
 )
 {
