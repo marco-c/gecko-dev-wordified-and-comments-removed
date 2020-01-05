@@ -96,8 +96,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 txStylesheet
 )
-txInstruction
-*
+nsresult
 findTemplate
 (
 const
@@ -114,6 +113,10 @@ aContext
 ImportFrame
 *
 aImportedBy
+txInstruction
+*
+*
+aTemplate
 ImportFrame
 *
 *
@@ -176,7 +179,7 @@ getKeyMap
 (
 )
 ;
-bool
+nsresult
 isStripSpaceAllowed
 (
 const
@@ -186,6 +189,9 @@ aNode
 txIMatchContext
 *
 aContext
+bool
+&
+aAllowed
 )
 ;
 nsresult
@@ -493,7 +499,7 @@ stripSpace
 )
 {
 }
-bool
+nsresult
 matches
 (
 const
@@ -503,6 +509,9 @@ aNode
 txIMatchContext
 *
 aContext
+bool
+&
+aMatched
 )
 {
 return
@@ -512,6 +521,7 @@ matches
 (
 aNode
 aContext
+aMatched
 )
 ;
 }

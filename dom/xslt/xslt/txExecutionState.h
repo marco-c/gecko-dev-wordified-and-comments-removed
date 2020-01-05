@@ -348,11 +348,6 @@ popEvalContext
 )
 ;
 void
-popAndDeleteEvalContext
-(
-)
-;
-void
 popAndDeleteEvalContextUntil
 (
 txIEvalContext
