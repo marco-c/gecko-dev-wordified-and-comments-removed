@@ -328,8 +328,10 @@ aName
 continue
 ;
 }
+nsCOMPtr
+<
 nsIPrincipal
-*
+>
 sinkPrincipal
 =
 sink
