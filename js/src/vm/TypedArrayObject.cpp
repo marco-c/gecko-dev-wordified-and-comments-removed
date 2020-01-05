@@ -14644,9 +14644,10 @@ IdToFunctionName
 (
 cx
 id
-"
-get
-"
+FunctionPrefixKind
+:
+:
+Get
 )
 )
 ;
