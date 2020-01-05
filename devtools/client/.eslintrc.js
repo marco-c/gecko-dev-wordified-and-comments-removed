@@ -9,6 +9,17 @@ exports
 =
 {
 "
+globals
+"
+:
+{
+"
+define
+"
+:
+true
+}
+"
 rules
 "
 :
