@@ -27784,8 +27784,18 @@ break
 case
 eCSSToken_Function
 :
+{
+bool
+isRGB
+;
+bool
+isHSL
+;
 if
 (
+(
+isRGB
+=
 mToken
 .
 mIdent
@@ -27795,6 +27805,7 @@ LowerCaseEqualsLiteral
 "
 rgb
 "
+)
 )
 |
 |
@@ -27861,6 +27872,10 @@ g
 b
 a
 )
+isRGB
+?
+eCSSUnit_RGBColor
+:
 eCSSUnit_RGBAColor
 )
 ;
@@ -27899,6 +27914,10 @@ r
 g
 b
 a
+isRGB
+?
+eCSSUnit_PercentageRGBColor
+:
 eCSSUnit_PercentageRGBAColor
 )
 ;
@@ -27927,6 +27946,9 @@ Error
 else
 if
 (
+(
+isHSL
+=
 mToken
 .
 mIdent
@@ -27936,6 +27958,7 @@ LowerCaseEqualsLiteral
 "
 hsl
 "
+)
 )
 |
 |
@@ -27976,6 +27999,10 @@ h
 s
 l
 a
+isHSL
+?
+eCSSUnit_HSLColor
+:
 eCSSUnit_HSLAColor
 )
 ;
@@ -28002,6 +28029,7 @@ Error
 }
 break
 ;
+}
 default
 :
 break
