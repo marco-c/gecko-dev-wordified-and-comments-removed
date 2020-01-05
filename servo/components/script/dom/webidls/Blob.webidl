@@ -151,6 +151,9 @@ Constructor
 (
 DOMString
 blobParts
+optional
+BlobPropertyBag
+options
 )
 ]
 interface
