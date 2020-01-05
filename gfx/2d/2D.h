@@ -4163,12 +4163,6 @@ bool
 aForceGDIMode
 )
 ;
-static
-void
-UpdateSystemTextQuality
-(
-)
-;
 private
 :
 static
