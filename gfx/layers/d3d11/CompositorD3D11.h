@@ -494,6 +494,13 @@ override
 ;
 virtual
 void
+CancelFrame
+(
+)
+override
+;
+virtual
+void
 PrepareViewport
 (
 const
