@@ -2631,6 +2631,7 @@ aPromiseID
 return
 ;
 }
+const
 double
 duration
 =
@@ -2645,6 +2646,7 @@ aIntensity
 :
 aDuration
 ;
+const
 uint32_t
 microSec
 =
