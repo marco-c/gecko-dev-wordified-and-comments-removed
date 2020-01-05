@@ -190,14 +190,6 @@ MaybeFinishSeek
 (
 )
 ;
-void
-AdjustFastSeekIfNeeded
-(
-MediaData
-*
-aSample
-)
-;
 const
 media
 :
