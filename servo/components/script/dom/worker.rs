@@ -560,6 +560,15 @@ resource_task
 )
 ;
 let
+constellation_chan
+=
+global
+.
+constellation_chan
+(
+)
+;
+let
 (
 sender
 receiver
@@ -737,6 +746,7 @@ devtools_chan
 )
 worker_ref
 resource_task
+constellation_chan
 global
 .
 script_chan

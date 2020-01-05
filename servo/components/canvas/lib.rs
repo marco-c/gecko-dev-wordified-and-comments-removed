@@ -56,6 +56,10 @@ gfx_traits
 ;
 extern
 crate
+ipc_channel
+;
+extern
+crate
 util
 ;
 extern
@@ -73,10 +77,6 @@ layers
 extern
 crate
 offscreen_gl_context
-;
-extern
-crate
-ipc_channel
 ;
 #
 [

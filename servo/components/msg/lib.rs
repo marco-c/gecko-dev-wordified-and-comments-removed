@@ -29,6 +29,10 @@ bitflags
 ;
 extern
 crate
+canvas_traits
+;
+extern
+crate
 euclid
 ;
 extern
@@ -42,6 +46,10 @@ ipc_channel
 extern
 crate
 layers
+;
+extern
+crate
+offscreen_gl_context
 ;
 extern
 crate
