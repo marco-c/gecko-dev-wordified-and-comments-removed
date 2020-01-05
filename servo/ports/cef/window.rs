@@ -26,7 +26,10 @@ cef_rect_t
 }
 ;
 use
-wrappers
+unicode
+:
+:
+str
 :
 :
 Utf16Encoder
