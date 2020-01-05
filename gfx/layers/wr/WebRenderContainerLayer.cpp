@@ -195,7 +195,6 @@ GetTransformIsPerspective
 }
 }
 }
-}
 void
 WebRenderContainerLayer
 :
