@@ -81,6 +81,11 @@ tasktracer
 define
 MSG_HEADER_SZ
 (
+IsStartLogging
+(
+)
+&
+&
 GetOrCreateTraceInfo
 (
 )
