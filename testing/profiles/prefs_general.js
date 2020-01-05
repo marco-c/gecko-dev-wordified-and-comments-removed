@@ -748,6 +748,17 @@ minTwips
 user_pref
 (
 "
+ui
+.
+caretBlinkTime
+"
+-
+1
+)
+;
+user_pref
+(
+"
 experiments
 .
 supported
