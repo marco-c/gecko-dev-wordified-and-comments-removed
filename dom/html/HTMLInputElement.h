@@ -2676,9 +2676,9 @@ aRv
 void
 SetSelectionRange
 (
-int32_t
+uint32_t
 aStart
-int32_t
+uint32_t
 aEnd
 const
 Optional
