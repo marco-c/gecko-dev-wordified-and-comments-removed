@@ -422,16 +422,6 @@ ComputeSourceNeededRect
 (
 )
 ;
-gfxMatrix
-GetFilterSpaceToDeviceSpaceTransform
-(
-)
-const
-{
-return
-mFilterSpaceToDeviceSpaceTransform
-;
-}
 struct
 SourceInfo
 {
@@ -602,9 +592,6 @@ mTargetBBox
 ;
 nsIntRect
 mTargetBBoxInFilterSpace
-;
-gfxMatrix
-mFilterSpaceToDeviceSpaceTransform
 ;
 gfxMatrix
 mFilterSpaceToFrameSpaceInCSSPxTransform
