@@ -74,9 +74,6 @@ multipage
 /
 #
 htmlformcontrolscollection
-[
-LegacyUnenumerableNamedProperties
-]
 interface
 HTMLFormControlsCollection
 :

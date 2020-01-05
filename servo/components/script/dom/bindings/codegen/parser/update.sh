@@ -43,17 +43,6 @@ patch
 debug
 .
 patch
-patch
-<
-legacy
--
-unenumerable
--
-named
--
-properties
-.
-patch
 wget
 https
 :
