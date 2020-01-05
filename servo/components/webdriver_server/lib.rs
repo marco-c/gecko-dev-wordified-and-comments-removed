@@ -3255,6 +3255,19 @@ img
 None
 ;
 let
+pipeline_id
+=
+try
+!
+(
+self
+.
+get_root_pipeline
+(
+)
+)
+;
+let
 interval
 =
 20
@@ -3303,6 +3316,7 @@ WebDriverCommandMsg
 :
 TakeScreenshot
 (
+pipeline_id
 sender
 )
 ;

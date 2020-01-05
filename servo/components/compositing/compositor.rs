@@ -6966,6 +6966,15 @@ ReadyToSaveImage
 =
 >
 {
+self
+.
+ready_to_save_state
+=
+ReadyState
+:
+:
+Unknown
+;
 true
 }
 }
