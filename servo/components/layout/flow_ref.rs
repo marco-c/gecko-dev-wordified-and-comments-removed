@@ -286,11 +286,10 @@ flow
 :
 base
 (
+&
+*
+*
 self
-.
-deref
-(
-)
 )
 .
 ref_count
