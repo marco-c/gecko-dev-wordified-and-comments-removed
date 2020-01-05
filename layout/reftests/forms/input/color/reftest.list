@@ -128,12 +128,6 @@ padding
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 block
@@ -152,12 +146,6 @@ invalidate
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 block

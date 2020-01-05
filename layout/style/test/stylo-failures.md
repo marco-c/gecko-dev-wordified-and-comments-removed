@@ -1979,6 +1979,16 @@ elements
 5
 ]
 *
+test_pseudoelement_state
+.
+html
+:
+Unknown
+failure
+[
+6516
+]
+*
 Unit
 should
 be

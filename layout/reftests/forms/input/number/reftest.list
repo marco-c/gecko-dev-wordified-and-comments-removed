@@ -866,12 +866,6 @@ appearance
 enabled
 true
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 number
