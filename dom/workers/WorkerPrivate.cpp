@@ -3355,7 +3355,7 @@ IsFrozen
 aWorkerPrivate
 -
 >
-IsSuspended
+IsParentWindowPaused
 (
 )
 )
@@ -4970,7 +4970,7 @@ IsFrozen
 aWorkerPrivate
 -
 >
-IsSuspended
+IsParentWindowPaused
 (
 )
 )
@@ -8846,7 +8846,7 @@ mParentFrozen
 (
 false
 )
-mParentSuspended
+mParentWindowPaused
 (
 false
 )
@@ -10782,7 +10782,7 @@ EnableDebugger
 if
 (
 !
-IsSuspended
+IsParentWindowPaused
 (
 )
 &
@@ -10899,7 +10899,7 @@ Derived
 >
 :
 :
-Suspend
+ParentWindowPaused
 (
 )
 {
@@ -10910,7 +10910,7 @@ AssertIsOnMainThread
 MOZ_ASSERT
 (
 !
-mParentSuspended
+mParentWindowPaused
 "
 Suspended
 more
@@ -10920,7 +10920,7 @@ once
 "
 )
 ;
-mParentSuspended
+mParentWindowPaused
 =
 true
 ;
@@ -10937,7 +10937,7 @@ Derived
 >
 :
 :
-Resume
+ParentWindowResumed
 (
 )
 {
@@ -10947,7 +10947,7 @@ AssertIsOnMainThread
 ;
 MOZ_ASSERT
 (
-mParentSuspended
+mParentWindowPaused
 "
 Resumed
 more
@@ -10957,7 +10957,7 @@ once
 "
 )
 ;
-mParentSuspended
+mParentWindowPaused
 =
 false
 ;

@@ -617,7 +617,7 @@ bool
 mParentFrozen
 ;
 bool
-mParentSuspended
+mParentWindowPaused
 ;
 bool
 mIsChromeWorker
@@ -958,12 +958,12 @@ aWindow
 )
 ;
 void
-Suspend
+ParentWindowPaused
 (
 )
 ;
 void
-Resume
+ParentWindowResumed
 (
 )
 ;
@@ -1271,7 +1271,7 @@ mParentFrozen
 ;
 }
 bool
-IsSuspended
+IsParentWindowPaused
 (
 )
 const
@@ -1281,7 +1281,7 @@ AssertIsOnParentThread
 )
 ;
 return
-mParentSuspended
+mParentWindowPaused
 ;
 }
 bool
