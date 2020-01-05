@@ -359,6 +359,7 @@ as_c_str
 (
 "
 setDelegate
+:
 "
 )
 {
