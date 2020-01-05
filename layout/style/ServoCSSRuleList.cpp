@@ -182,7 +182,7 @@ NAMESPACE_RULE
 :
 default
 :
-MOZ_CRASH
+NS_ERROR
 (
 "
 stylo
@@ -192,6 +192,9 @@ implemented
 yet
 "
 )
+;
+return
+nullptr
 ;
 }
 ruleObj
