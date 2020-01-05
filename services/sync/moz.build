@@ -187,13 +187,6 @@ js
 '
 modules
 /
-collection_repair
-.
-js
-'
-'
-modules
-/
 collection_validator
 .
 js
