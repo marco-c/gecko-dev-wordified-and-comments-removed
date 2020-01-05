@@ -32,13 +32,38 @@ parser
 xpidl
 '
 )
+xpidl_cachedir
+=
+mozpath
+.
+join
+(
+buildconfig
+.
+topobjdir
+'
+xpcom
+'
+'
+idl
+-
+parser
+'
+                              
+'
+xpidl
+'
+)
 sys
 .
 path
 .
-append
+extend
 (
+[
 xpidl_dir
+xpidl_cachedir
+]
 )
 import
 xpidl
@@ -2200,6 +2225,8 @@ gen_header_file
 (
 fd
 conf_file
+xpidllex
+xpidlyacc
 )
 :
     
@@ -2223,6 +2250,8 @@ gen_cpp_file
 (
 fd
 conf_file
+xpidllex
+xpidlyacc
 )
 :
     
