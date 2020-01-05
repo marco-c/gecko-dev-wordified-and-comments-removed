@@ -1795,6 +1795,10 @@ reportWarning
 JSContext
 *
 cx
+const
+char
+*
+message
 JSErrorReport
 *
 report
@@ -1855,16 +1859,7 @@ report
 -
 >
 lineno
-report
--
->
 message
-(
-)
-.
-c_str
-(
-)
 )
 ;
 }

@@ -1662,7 +1662,7 @@ aReport
 const
 char
 *
-aToStringResult
+aFallbackMessage
 bool
 aIsChrome
 uint64_t

@@ -222,7 +222,7 @@ AutoResolving
 namespace
 frontend
 {
-class
+struct
 CompileError
 ;
 }
@@ -2207,6 +2207,10 @@ userRef
 const
 unsigned
 errorNumber
+char
+*
+*
+message
 const
 char16_t
 *
@@ -2246,11 +2250,10 @@ cx
 FILE
 *
 file
-JS
-:
-:
-ConstUTF8CharsZ
-toStringResult
+const
+char
+*
+message
 JSErrorReport
 *
 report
@@ -2264,6 +2267,10 @@ CallWarningReporter
 JSContext
 *
 cx
+const
+char
+*
+message
 JSErrorReport
 *
 report

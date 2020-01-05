@@ -1237,6 +1237,10 @@ WarningOnlyErrorReporter
 JSContext
 *
 aCx
+const
+char
+*
+aMessage
 JSErrorReport
 *
 aRep
@@ -2184,6 +2188,10 @@ WarningOnlyErrorReporter
 JSContext
 *
 aCx
+const
+char
+*
+aMessage
 JSErrorReport
 *
 aRep
@@ -2234,12 +2242,7 @@ worker
 ReportError
 (
 aCx
-JS
-:
-:
-ConstUTF8CharsZ
-(
-)
+aMessage
 aRep
 )
 ;
@@ -2304,7 +2307,7 @@ xpcReport
 Init
 (
 aRep
-nullptr
+aMessage
 nsContentUtils
 :
 :
@@ -2557,11 +2560,7 @@ report
 )
 jsReport
 .
-toStringResult
-(
-)
-.
-c_str
+message
 (
 )
 nsContentUtils
@@ -2718,7 +2717,7 @@ cx
 )
 jsReport
 .
-toStringResult
+message
 (
 )
 jsReport

@@ -4497,11 +4497,7 @@ report
 )
 report
 .
-toStringResult
-(
-)
-.
-c_str
+message
 (
 )
 isChrome
@@ -11811,7 +11807,7 @@ report
 )
 report
 .
-toStringResult
+message
 (
 )
 isChrome
