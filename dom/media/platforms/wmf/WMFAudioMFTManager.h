@@ -11,6 +11,13 @@ WMFAudioOutputSource_h_
 #
 include
 "
+MFTDecoder
+.
+h
+"
+#
+include
+"
 WMF
 .
 h
@@ -18,7 +25,7 @@ h
 #
 include
 "
-MFTDecoder
+WMFMediaDataDecoder
 .
 h
 "
@@ -28,13 +35,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-WMFMediaDataDecoder
 .
 h
 "
@@ -162,6 +162,8 @@ mAudioTimeOffset
 ;
 int64_t
 mAudioFrameSum
+=
+0
 ;
 enum
 StreamType
@@ -190,6 +192,8 @@ GetMediaSubtypeGUID
 ;
 bool
 mMustRecaptureAudioPosition
+=
+true
 ;
 }
 ;
