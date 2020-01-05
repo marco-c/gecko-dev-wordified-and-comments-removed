@@ -7467,11 +7467,13 @@ nullptr
 }
 mConnection
 =
-new
 network
 :
 :
 Connection
+:
+:
+CreateForWindow
 (
 mWindow
 )

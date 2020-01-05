@@ -42,6 +42,9 @@ nightly
 :
 true
 }
+"
+connection
+"
 ]
 ;
 self
