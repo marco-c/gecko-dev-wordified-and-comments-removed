@@ -168,8 +168,6 @@ desktop
 -
 build
 -
-builder
--
 tester
 -
 lint
@@ -179,7 +177,3 @@ android
 gradle
 -
 build
--
-phone
--
-builder

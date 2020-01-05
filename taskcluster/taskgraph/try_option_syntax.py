@@ -91,12 +91,6 @@ analysis
 '
 spidermonkey
 '
-    
-'
-b2g
--
-device
-'
 ]
 )
 JOB_KINDS

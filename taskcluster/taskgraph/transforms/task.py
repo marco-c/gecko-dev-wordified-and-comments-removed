@@ -319,9 +319,6 @@ firefox
 '
 mobile
 '
-'
-b2g
-'
 )
         
 '
@@ -1127,18 +1124,6 @@ by
 TaskCluster
 with
 e10s
-'
-    
-'
-tc
--
-Sim
-'
-:
-'
-Mulet
-simulator
-runs
 '
     
 '
