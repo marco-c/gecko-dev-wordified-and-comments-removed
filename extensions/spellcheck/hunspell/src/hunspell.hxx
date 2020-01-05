@@ -56,7 +56,7 @@ MAXSHARPS
 #
 define
 MAXWORDLEN
-176
+100
 #
 if
 __GNUC__
