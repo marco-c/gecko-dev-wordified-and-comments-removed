@@ -653,6 +653,9 @@ mCharsetSource
 uint16_t
 mFlags
 ;
+uint32_t
+mBlocked
+;
 nsString
 mUnusedInput
 ;

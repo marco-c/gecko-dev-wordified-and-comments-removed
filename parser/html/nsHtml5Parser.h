@@ -601,7 +601,7 @@ mLastWasCR
 bool
 mDocWriteSpeculativeLastWasCR
 ;
-bool
+uint32_t
 mBlocked
 ;
 bool
