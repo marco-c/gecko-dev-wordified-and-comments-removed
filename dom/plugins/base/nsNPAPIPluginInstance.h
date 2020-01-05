@@ -1705,6 +1705,9 @@ nsIAudioChannelAgent
 >
 mAudioChannelAgent
 ;
+bool
+mMuted
+;
 }
 ;
 #
