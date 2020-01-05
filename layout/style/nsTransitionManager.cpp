@@ -2579,11 +2579,6 @@ RestyleManager
 )
 -
 >
-AsGecko
-(
-)
--
->
 GetAnimationGeneration
 (
 )
@@ -4477,11 +4472,6 @@ mPresContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsGecko
 (
 )
 -
