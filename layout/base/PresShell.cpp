@@ -5523,6 +5523,14 @@ Destroy
 (
 )
 {
+if
+(
+mHaveShutDown
+)
+{
+return
+;
+}
 NS_ASSERTION
 (
 !
@@ -5717,12 +5725,6 @@ nullptr
 }
 #
 endif
-if
-(
-mHaveShutDown
-)
-return
-;
 if
 (
 mZoomConstraintsClient
