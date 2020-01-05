@@ -1478,8 +1478,27 @@ _resultsDir
 checkpoint_file
 )
         
+checkpoint_path
+=
+checkpoint_path
+.
+replace
+(
+'
+\
+\
+'
+'
+\
+\
+\
+\
+'
+)
+        
 checkpoint_script
 =
+r
 "
 "
 "
