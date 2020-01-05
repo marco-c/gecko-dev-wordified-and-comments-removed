@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIUnicodeEncoder
+nsNCRFallbackEncoderWrapper
 .
 h
 "
@@ -478,9 +478,12 @@ char
 *
 mCharset
 ;
-nsCOMPtr
+mozilla
+:
+:
+UniquePtr
 <
-nsIUnicodeEncoder
+nsNCRFallbackEncoderWrapper
 >
 mEncoder
 ;
