@@ -354,6 +354,9 @@ const
 Rect
 &
 aRightEyeRect
+nsIEventTarget
+*
+aTarget
 )
 ;
 static
