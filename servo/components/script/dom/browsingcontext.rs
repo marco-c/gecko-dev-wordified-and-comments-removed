@@ -1870,8 +1870,6 @@ get
 ;
 fill_property_descriptor
 (
-&
-mut
 desc
 proxy
 .

@@ -35700,9 +35700,6 @@ PropertyDescriptor
 '
 desc
 '
-mutable
-=
-True
 )
 ]
         
@@ -35846,8 +35843,6 @@ n
 "
 fill_property_descriptor
 (
-&
-mut
 desc
 proxy
 .
@@ -36112,8 +36107,6 @@ n
 "
 fill_property_descriptor
 (
-&
-mut
 desc
 proxy
 .
