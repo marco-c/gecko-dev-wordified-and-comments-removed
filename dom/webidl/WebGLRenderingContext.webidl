@@ -4890,7 +4890,7 @@ COMPRESSED_RGBA_ATC_INTERPOLATED_ALPHA_WEBGL
 NoInterfaceObject
 ]
 interface
-WEBGL_compressed_texture_es3
+WEBGL_compressed_texture_etc
 {
 const
 GLenum
