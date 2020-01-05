@@ -176,9 +176,7 @@ attribute
 HTMLCollection
 tBodies
 ;
-/
-/
-HTMLElement
+HTMLTableSectionElement
 createTBody
 (
 )
