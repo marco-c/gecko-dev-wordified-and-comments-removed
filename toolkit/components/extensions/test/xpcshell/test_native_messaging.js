@@ -2047,7 +2047,7 @@ manifest
 ;
 }
 let
-context
+mockContext
 =
 new
 MockContext
@@ -2061,7 +2061,7 @@ app
 new
 NativeApp
 (
-context
+mockContext
 "
 wontdie
 "
@@ -2141,7 +2141,7 @@ NativeApp
 .
 encodeMessage
 (
-context
+mockContext
 MSG
 )
 ;

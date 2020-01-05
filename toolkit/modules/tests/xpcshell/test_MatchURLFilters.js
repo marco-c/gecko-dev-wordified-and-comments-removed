@@ -5126,9 +5126,7 @@ testCases
 {
 let
 {
-shouldThrow
 exceptionMessageContains
-shouldFail
 url
 filters
 }
@@ -5137,6 +5135,8 @@ currentTest
 ;
 if
 (
+currentTest
+.
 shouldThrow
 )
 {
@@ -5152,6 +5152,8 @@ exceptionMessageContains
 else
 if
 (
+currentTest
+.
 shouldFail
 )
 {

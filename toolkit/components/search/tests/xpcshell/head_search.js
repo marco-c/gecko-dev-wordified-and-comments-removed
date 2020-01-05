@@ -525,7 +525,7 @@ XREExtDL
 "
 ;
 const
-gProfD
+profD
 =
 do_get_profile
 (
@@ -541,7 +541,7 @@ nsILocalFile
 let
 dir
 =
-gProfD
+profD
 .
 clone
 (
@@ -811,7 +811,7 @@ XREAppDist
 "
 ;
 const
-gProfD
+profD
 =
 do_get_profile
 (
@@ -827,7 +827,7 @@ nsILocalFile
 let
 dir
 =
-gProfD
+profD
 .
 clone
 (

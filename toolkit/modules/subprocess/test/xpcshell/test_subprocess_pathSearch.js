@@ -4,7 +4,7 @@ strict
 "
 ;
 let
-env
+envService
 =
 Cc
 [
@@ -31,7 +31,7 @@ nsIEnvironment
 const
 PYTHON
 =
-env
+envService
 .
 get
 (

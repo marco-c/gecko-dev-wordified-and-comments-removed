@@ -1119,7 +1119,7 @@ expect
 )
 {
 let
-msg
+item
 =
 yield
 search
@@ -1131,7 +1131,7 @@ id
 ;
 equal
 (
-msg
+item
 .
 status
 "
@@ -1147,7 +1147,7 @@ succeeded
 ;
 equal
 (
-msg
+item
 .
 downloads
 .
@@ -1180,7 +1180,7 @@ field
 {
 equal
 (
-msg
+item
 .
 downloads
 [
@@ -1390,7 +1390,7 @@ exact
 )
 {
 let
-msg
+item
 =
 yield
 search
@@ -1400,7 +1400,7 @@ query
 ;
 equal
 (
-msg
+item
 .
 status
 "
@@ -1416,7 +1416,7 @@ succeeded
 ;
 equal
 (
-msg
+item
 .
 downloads
 .
@@ -1444,16 +1444,16 @@ downloads
 let
 receivedIds
 =
-msg
+item
 .
 downloads
 .
 map
 (
-item
+i
 =
 >
-item
+i
 .
 id
 )
@@ -2919,7 +2919,7 @@ description
 )
 {
 let
-msg
+item
 =
 yield
 search
@@ -2929,7 +2929,7 @@ query
 ;
 equal
 (
-msg
+item
 .
 status
 "
@@ -2949,7 +2949,7 @@ pattern
 .
 test
 (
-msg
+item
 .
 errmsg
 )
@@ -2963,7 +2963,7 @@ was
 correct
 (
 {
-msg
+item
 .
 errmsg
 }

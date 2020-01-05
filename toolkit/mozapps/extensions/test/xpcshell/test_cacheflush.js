@@ -449,7 +449,6 @@ onInstallStarted
 :
 function
 (
-aInstall
 )
 {
 gExpectedFile
@@ -499,7 +498,6 @@ onInstallEnded
 :
 function
 (
-aInstall
 )
 {
 do_check_eq

@@ -415,7 +415,7 @@ foo
 "
 function
 (
-rv
+rv2
 signature
 )
 {
@@ -426,7 +426,7 @@ DSA
 sign
 finished
 "
-rv
+rv2
 signature
 )
 ;
@@ -436,7 +436,7 @@ Components
 .
 isSuccessCode
 (
-rv
+rv2
 )
 )
 ;
@@ -559,7 +559,7 @@ foo
 "
 function
 (
-rv
+rv2
 signature
 )
 {
@@ -570,7 +570,7 @@ RSA
 sign
 finished
 "
-rv
+rv2
 signature
 )
 ;
@@ -580,7 +580,7 @@ Components
 .
 isSuccessCode
 (
-rv
+rv2
 )
 )
 ;
