@@ -183,15 +183,6 @@ use
 std
 :
 :
-borrow
-:
-:
-ToOwned
-;
-use
-std
-:
-:
 cell
 :
 :
@@ -703,8 +694,7 @@ blob_impl
 BlobImpl
 typeString
 :
-&
-str
+String
 )
 -
 >
@@ -745,8 +735,7 @@ blob_impl
 BlobImpl
 typeString
 :
-&
-str
+String
 )
 -
 >
@@ -768,10 +757,6 @@ blob_impl
 typeString
 :
 typeString
-.
-to_owned
-(
-)
 isClosed_
 :
 Cell
@@ -899,7 +884,6 @@ new_from_slice
 (
 slice
 )
-&
 blobPropertyBag
 .
 get_typestring
@@ -1522,8 +1506,11 @@ new_from_slice
 (
 slice
 )
-&
 relativeContentType
+.
+into
+(
+)
 )
 }
 fn
