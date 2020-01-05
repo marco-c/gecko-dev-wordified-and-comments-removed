@@ -948,6 +948,9 @@ False
 pause_on_unexpected
 =
 False
+restart_on_unexpected
+=
+True
 debug_info
 =
 None
@@ -1172,6 +1175,12 @@ self
 pause_on_unexpected
 =
 pause_on_unexpected
+        
+self
+.
+restart_on_unexpected
+=
+restart_on_unexpected
         
 self
 .
@@ -3235,9 +3244,18 @@ TIMEOUT
 )
 or
                                
+(
+(
 subtest_unexpected
 or
 is_unexpected
+)
+                                
+and
+self
+.
+restart_on_unexpected
+)
 )
         
 if
@@ -3611,6 +3629,10 @@ pause_on_unexpected
 =
 False
                  
+restart_on_unexpected
+=
+True
+                 
 debug_info
 =
 None
@@ -3693,6 +3715,12 @@ self
 pause_on_unexpected
 =
 pause_on_unexpected
+        
+self
+.
+restart_on_unexpected
+=
+restart_on_unexpected
         
 self
 .
@@ -3908,6 +3936,10 @@ pause_after_test
 self
 .
 pause_on_unexpected
+                                            
+self
+.
+restart_on_unexpected
                                             
 self
 .

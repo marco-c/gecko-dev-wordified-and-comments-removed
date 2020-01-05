@@ -2,6 +2,8 @@ import
 unittest
 import
 StringIO
+import
+pytest
 from
 .
 .
@@ -332,6 +334,12 @@ coalesce_expected
 (
 )
     
+pytest
+.
+mark
+.
+xfail
+    
 def
 test_update_0
 (
@@ -549,6 +557,12 @@ new_manifest
 .
 is_empty
 )
+    
+pytest
+.
+mark
+.
+xfail
     
 def
 test_update_1
@@ -771,6 +785,12 @@ expected
 FAIL
 "
 )
+    
+pytest
+.
+mark
+.
+xfail
     
 def
 test_new_subtest
@@ -1057,6 +1077,12 @@ expected
 FAIL
 "
 )
+    
+pytest
+.
+mark
+.
+xfail
     
 def
 test_update_multiple_0
@@ -1455,6 +1481,12 @@ linux
 TIMEOUT
 "
 )
+    
+pytest
+.
+mark
+.
+xfail
     
 def
 test_update_multiple_1
@@ -1896,6 +1928,12 @@ FAIL
 "
 )
     
+pytest
+.
+mark
+.
+xfail
+    
 def
 test_update_multiple_2
 (
@@ -2293,6 +2331,12 @@ osx
 TIMEOUT
 "
 )
+    
+pytest
+.
+mark
+.
+xfail
     
 def
 test_update_multiple_3
@@ -2708,6 +2752,12 @@ osx
 TIMEOUT
 "
 )
+    
+pytest
+.
+mark
+.
+xfail
     
 def
 test_update_ignore_existing

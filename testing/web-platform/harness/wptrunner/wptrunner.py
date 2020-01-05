@@ -1239,6 +1239,13 @@ pause_on_unexpected
 kwargs
 [
 "
+restart_on_unexpected
+"
+]
+                                      
+kwargs
+[
+"
 debug_info
 "
 ]

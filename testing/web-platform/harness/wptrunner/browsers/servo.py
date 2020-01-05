@@ -24,6 +24,7 @@ executorservo
 import
 ServoTestharnessExecutor
 ServoRefTestExecutor
+ServoWdspecExecutor
 here
 =
 os
@@ -90,6 +91,14 @@ reftest
 :
 "
 ServoRefTestExecutor
+"
+                              
+"
+wdspec
+"
+:
+"
+ServoWdspecExecutor
 "
 }
                  
@@ -428,7 +437,7 @@ None
 render_backend
 =
 "
-cpu
+webrender
 "
 )
 :

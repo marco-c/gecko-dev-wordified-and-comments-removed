@@ -1,3 +1,7 @@
+from
+__future__
+import
+unicode_literals
 import
 types
 from
@@ -188,19 +192,19 @@ object
 def
 decode
 (
-byte_str
+s
 )
 :
     
-return
-byte_str
-.
-decode
+assert
+isinstance
 (
-"
-utf8
-"
+s
+unicode
 )
+    
+return
+s
 def
 precedence
 (
@@ -358,15 +362,20 @@ reset
 (
 )
         
-if
-type
+assert
+not
+isinstance
 (
 stream
+unicode
 )
-in
-types
-.
-StringTypes
+        
+if
+isinstance
+(
+stream
+str
+)
 :
             
 stream
@@ -423,6 +432,13 @@ stream
 )
 :
             
+assert
+isinstance
+(
+line
+str
+)
+            
 self
 .
 state
@@ -470,8 +486,26 @@ line
 =
 line
 .
+decode
+(
+'
+utf
+-
+8
+'
+)
+.
 rstrip
 (
+)
+            
+assert
+isinstance
+(
+self
+.
+line
+unicode
 )
             
 while
@@ -3141,13 +3175,6 @@ return
 unichr
 (
 value
-)
-.
-encode
-(
-"
-utf8
-"
 )
     
 def

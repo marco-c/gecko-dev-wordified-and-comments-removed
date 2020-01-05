@@ -109,6 +109,11 @@ structured
 get_default_logger
 (
 )
+        
+assert
+self
+.
+logger
     
 def
 __call__
