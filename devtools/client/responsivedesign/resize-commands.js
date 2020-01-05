@@ -362,13 +362,6 @@ aTarget
 aChangeHandler
 )
 {
-if
-(
-aTarget
-.
-tab
-)
-{
 ResponsiveUIManager
 .
 off
@@ -389,7 +382,6 @@ off
 aChangeHandler
 )
 ;
-}
 }
 }
 exec
