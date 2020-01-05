@@ -1006,9 +1006,6 @@ self
 >
 DOMString
 {
-let
-type_
-=
 self
 .
 type_
@@ -1016,8 +1013,6 @@ type_
 borrow
 (
 )
-;
-type_
 .
 clone
 (
