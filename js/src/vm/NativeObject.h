@@ -1573,12 +1573,16 @@ uint32_t
 span
 )
 ;
+static
+MOZ_MUST_USE
 bool
 toDictionaryMode
 (
 JSContext
 *
 cx
+HandleNativeObject
+obj
 )
 ;
 private
