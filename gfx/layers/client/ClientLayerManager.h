@@ -498,6 +498,7 @@ CreateRefLayer
 )
 override
 ;
+virtual
 void
 UpdateTextureFactoryIdentifier
 (
@@ -506,11 +507,14 @@ TextureFactoryIdentifier
 &
 aNewIdentifier
 )
+override
 ;
+virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
+override
 {
 return
 AsShadowForwarder
