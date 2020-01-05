@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gClient
 gActorId
@@ -199,13 +204,13 @@ listTabs
 .
 then
 (
-aResponse
+response
 =
 >
 {
 gActorId
 =
-aResponse
+response
 .
 test
 ;
@@ -1025,9 +1030,6 @@ test_client_request_after_close_callback
 (
 )
 {
-let
-request
-=
 gClient
 .
 request

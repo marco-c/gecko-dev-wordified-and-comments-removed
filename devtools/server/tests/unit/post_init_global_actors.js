@@ -1,7 +1,12 @@
+"
+use
+strict
+"
+;
 function
 PostInitGlobalActor
 (
-aConnection
+connection
 )
 {
 }
@@ -16,11 +21,8 @@ actorPrefix
 postInitGlobal
 "
 onPing
-:
-function
-onPing
 (
-aRequest
+request
 )
 {
 return

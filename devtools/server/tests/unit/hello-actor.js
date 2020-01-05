@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 protocol
 =
@@ -51,8 +56,6 @@ function
 (
 )
 {
-return
-;
 }
 }
 )

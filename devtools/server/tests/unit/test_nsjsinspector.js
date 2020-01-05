@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gCount
 =
@@ -190,9 +195,6 @@ enterEventLoop
 0
 )
 ;
-let
-r
-=
 Object
 .
 create

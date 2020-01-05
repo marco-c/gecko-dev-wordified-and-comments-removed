@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -174,6 +179,9 @@ the
 same
 value
 passed
+"
++
+"
 to
 the
 then

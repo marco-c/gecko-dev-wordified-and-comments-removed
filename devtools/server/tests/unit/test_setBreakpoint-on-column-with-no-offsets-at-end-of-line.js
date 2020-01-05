@@ -211,7 +211,6 @@ column
 let
 [
 packet
-breakpointClient
 ]
 =
 yield

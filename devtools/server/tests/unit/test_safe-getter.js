@@ -29,7 +29,7 @@ addDebuggerToGlobal
 this
 )
 ;
-var
+let
 g
 =
 testGlobal
@@ -39,7 +39,7 @@ test
 "
 )
 ;
-var
+let
 dbg
 =
 new
@@ -47,7 +47,7 @@ Debugger
 (
 )
 ;
-var
+let
 gw
 =
 dbg

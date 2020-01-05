@@ -1,7 +1,12 @@
+"
+use
+strict
+"
+;
 function
 PreInitTabActor
 (
-aConnection
+connection
 )
 {
 }
@@ -16,11 +21,8 @@ actorPrefix
 preInitTab
 "
 onPing
-:
-function
-onPing
 (
-aRequest
+request
 )
 {
 return

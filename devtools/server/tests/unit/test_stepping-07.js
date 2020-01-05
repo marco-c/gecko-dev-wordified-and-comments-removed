@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gDebuggee
 ;
@@ -36,17 +41,17 @@ do_test_finished
 function
 run_test_with_server
 (
-aServer
-aCallback
+server
+callback
 )
 {
 gCallback
 =
-aCallback
+callback
 ;
 initTestDebuggerServer
 (
-aServer
+server
 )
 ;
 gDebuggee
@@ -58,7 +63,7 @@ test
 -
 stepping
 "
-aServer
+server
 )
 ;
 gClient
@@ -66,7 +71,7 @@ gClient
 new
 DebuggerClient
 (
-aServer
+server
 .
 connectPipe
 (
@@ -96,7 +101,6 @@ function
 const
 [
 attachResponse
-tabClient
 threadClient
 ]
 =

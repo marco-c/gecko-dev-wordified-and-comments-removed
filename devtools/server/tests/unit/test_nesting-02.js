@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gClient
 ;
@@ -13,9 +18,6 @@ initTestDebuggerServer
 (
 )
 ;
-let
-gDebuggee
-=
 addTestGlobal
 (
 "
@@ -59,14 +61,14 @@ nesting
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadActor
 =
-aThreadClient
+threadClient
 .
 _transport
 .
@@ -74,7 +76,7 @@ _serverConnection
 .
 getActor
 (
-aThreadClient
+threadClient
 .
 _actor
 )
@@ -107,7 +109,6 @@ gThreadActor
 const
 {
 resolve
-reject
 promise
 :
 p

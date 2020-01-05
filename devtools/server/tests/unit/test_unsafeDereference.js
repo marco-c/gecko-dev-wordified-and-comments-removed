@@ -34,7 +34,7 @@ getProperty
 =
 function
 (
-aName
+name
 )
 {
 let
@@ -44,7 +44,7 @@ this
 .
 getOwnPropertyDescriptor
 (
-aName
+name
 )
 ;
 if
@@ -52,9 +52,11 @@ if
 !
 desc
 )
+{
 return
 undefined
 ;
+}
 if
 (
 !
@@ -85,7 +87,7 @@ property
 :
 "
 +
-aName
+name
 )
 ;
 }
@@ -135,7 +137,7 @@ Sandbox
 this
 )
 ;
-var
+let
 mainObj
 =
 {
@@ -200,7 +202,7 @@ mainObj
 =
 mainObj
 ;
-var
+let
 contentObj
 =
 chromeBox
@@ -211,7 +213,7 @@ contentBox
 .
 contentObj
 ;
-var
+let
 chromeObj
 =
 contentBox
@@ -514,6 +516,8 @@ dbg
 =
 new
 Debugger
+(
+)
 ;
 let
 contentBoxDO

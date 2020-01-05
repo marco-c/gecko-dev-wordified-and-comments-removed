@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gDebuggee
 ;
@@ -80,14 +85,14 @@ grips
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadClient
 =
-aThreadClient
+threadClient
 ;
 test_longstring_grip
 (
@@ -124,8 +129,8 @@ paused
 "
 function
 (
-aEvent
-aPacket
+event
+packet
 )
 {
 try
@@ -171,7 +176,7 @@ substring
 28
 function
 (
-aResponse
+response
 )
 {
 try
@@ -180,7 +185,7 @@ do_check_true
 (
 !
 !
-aResponse
+response
 .
 error
 "

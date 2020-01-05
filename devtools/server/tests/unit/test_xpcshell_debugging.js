@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -34,9 +39,12 @@ path
 )
 =
 >
+{
 testResumed
 =
 true
+;
+}
 )
 ;
 let

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gDebuggee
 ;
@@ -61,14 +66,14 @@ stack
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadClient
 =
-aThreadClient
+threadClient
 ;
 testSameBreakpoint
 (
@@ -151,7 +156,6 @@ line
 ;
 let
 [
-firstResponse
 firstBpClient
 ]
 =
@@ -164,7 +168,6 @@ wholeLineLocation
 ;
 let
 [
-secondResponse
 secondBpClient
 ]
 =
@@ -210,7 +213,6 @@ column
 }
 ;
 [
-firstResponse
 firstBpClient
 ]
 =
@@ -222,7 +224,6 @@ columnLocation
 )
 ;
 [
-secondResponse
 secondBpClient
 ]
 =

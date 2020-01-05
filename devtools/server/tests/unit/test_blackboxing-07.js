@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gDebuggee
 ;
@@ -65,14 +70,14 @@ box
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadClient
 =
-aThreadClient
+threadClient
 ;
 testBlackBox
 (

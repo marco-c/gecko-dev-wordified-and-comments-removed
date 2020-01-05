@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gDebuggee
 ;
@@ -82,14 +87,14 @@ grips
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadClient
 =
-aThreadClient
+threadClient
 ;
 add_pause_listener
 (
@@ -120,8 +125,8 @@ paused
 "
 function
 (
-aEvent
-aPacket
+event
+packet
 )
 {
 const
@@ -130,7 +135,7 @@ funcGrip
 objGrip
 ]
 =
-aPacket
+packet
 .
 frame
 .

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function

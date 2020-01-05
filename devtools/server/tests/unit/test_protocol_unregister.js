@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 types
@@ -34,8 +39,6 @@ v
 )
 =
 >
-{
-return
 "
 successful
 read
@@ -43,8 +46,6 @@ read
 "
 +
 v
-;
-}
 write
 :
 (
@@ -52,8 +53,6 @@ v
 )
 =
 >
-{
-return
 "
 successful
 write
@@ -61,8 +60,6 @@ write
 "
 +
 v
-;
-}
 }
 )
 ;

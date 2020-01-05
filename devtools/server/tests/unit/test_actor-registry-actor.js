@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gClient
 ;
@@ -198,9 +203,11 @@ then
 actorFront
 =
 >
+(
 gActorFront
 =
 actorFront
+)
 )
 .
 then

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 protocol
 =
@@ -763,6 +768,9 @@ function
 )
 }
 )
+;
+void
+badActor
 ;
 }
 )

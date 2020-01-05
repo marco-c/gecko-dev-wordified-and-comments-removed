@@ -24,11 +24,11 @@ root
 function
 test_requestTypes_request
 (
-aClient
+client
 anActor
 )
 {
-aClient
+client
 .
 request
 (
@@ -46,10 +46,10 @@ requestTypes
 }
 function
 (
-aResponse
+response
 )
 {
-var
+let
 expectedRequestTypes
 =
 Object
@@ -69,7 +69,7 @@ Array
 .
 isArray
 (
-aResponse
+response
 .
 requestTypes
 )
@@ -81,7 +81,7 @@ JSON
 .
 stringify
 (
-aResponse
+response
 .
 requestTypes
 )
@@ -93,7 +93,7 @@ expectedRequestTypes
 )
 )
 ;
-aClient
+client
 .
 close
 (
@@ -134,7 +134,7 @@ addBrowserActors
 (
 )
 ;
-var
+let
 client
 =
 new

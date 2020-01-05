@@ -1,7 +1,12 @@
+"
+use
+strict
+"
+;
 function
 PostInitTabActor
 (
-aConnection
+connection
 )
 {
 }
@@ -16,11 +21,8 @@ actorPostfix
 postInitTab
 "
 onPing
-:
-function
-onPing
 (
-aRequest
+request
 )
 {
 return

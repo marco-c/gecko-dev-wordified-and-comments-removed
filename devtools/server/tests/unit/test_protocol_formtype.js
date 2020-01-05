@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 protocol
 =
@@ -14,8 +19,6 @@ protocol
 ;
 var
 {
-Arg
-Option
 RetVal
 }
 =

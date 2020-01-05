@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 gDebuggee
 ;
@@ -65,14 +70,14 @@ map
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadClient
 =
-aThreadClient
+threadClient
 ;
 test_source_maps
 (
@@ -103,8 +108,8 @@ newSource
 "
 function
 (
-aEvent
-aPacket
+event
+packet
 )
 {
 let
@@ -114,7 +119,7 @@ gThreadClient
 .
 source
 (
-aPacket
+packet
 .
 source
 )

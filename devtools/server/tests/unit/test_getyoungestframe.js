@@ -29,7 +29,7 @@ addDebuggerToGlobal
 this
 )
 ;
-var
+let
 xpcInspector
 =
 Cc
@@ -52,7 +52,7 @@ Ci
 nsIJSInspector
 )
 ;
-var
+let
 g
 =
 testGlobal
@@ -62,7 +62,7 @@ test1
 "
 )
 ;
-var
+let
 dbg
 =
 new
@@ -89,12 +89,12 @@ onDebuggerStatement
 =
 function
 (
-aFrame
+frame
 )
 {
 do_check_true
 (
-aFrame
+frame
 =
 =
 =
@@ -115,7 +115,7 @@ try
 {
 do_check_true
 (
-aFrame
+frame
 =
 =
 =

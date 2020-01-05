@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 protocol
 =
@@ -16,7 +21,6 @@ var
 {
 RetVal
 Arg
-Option
 }
 =
 protocol
