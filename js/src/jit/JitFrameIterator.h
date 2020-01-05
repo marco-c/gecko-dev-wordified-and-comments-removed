@@ -2801,6 +2801,12 @@ isFunctionFrame
 const
 ;
 bool
+isModuleFrame
+(
+)
+const
+;
+bool
 isConstructing
 (
 )
