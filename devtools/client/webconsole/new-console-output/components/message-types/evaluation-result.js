@@ -122,6 +122,7 @@ const
 source
 type
 level
+emitNewMessage
 }
 =
 message
@@ -186,6 +187,7 @@ scrollToMessage
 props
 .
 autoscroll
+emitNewMessage
 }
 ;
 return

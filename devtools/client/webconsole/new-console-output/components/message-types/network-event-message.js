@@ -119,6 +119,7 @@ const
 {
 message
 openNetworkPanel
+emitNewMessage
 }
 =
 props
@@ -268,6 +269,7 @@ type
 level
 topLevelClasses
 messageBody
+emitNewMessage
 }
 ;
 return

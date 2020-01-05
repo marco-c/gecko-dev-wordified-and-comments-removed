@@ -123,6 +123,7 @@ parentNode
 jsterm
 toolbox
 owner
+emitNewMessage
 )
 {
 console
@@ -145,6 +146,7 @@ parentNode
 jsterm
 toolbox
 owner
+emitNewMessage
 )
 ;
 }
