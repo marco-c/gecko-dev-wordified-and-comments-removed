@@ -58,6 +58,9 @@ packages
 =
 [
 "
+bitflags
+"
+"
 lazy_static
 "
 ]
