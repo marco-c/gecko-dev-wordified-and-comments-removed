@@ -141,8 +141,6 @@ MOZ_WINCONSOLE
 0
 endif
 endif
-ifdef
-COMPILE_ENVIRONMENT
 tools
 :
 :
@@ -467,6 +465,3 @@ updater
 BIN_SUFFIX
 )
 endif
-endif
-#
-COMPILE_ENVIRONMENT
