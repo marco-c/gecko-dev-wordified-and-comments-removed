@@ -114,6 +114,12 @@ ligatures
 causes
 a
 change
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
@@ -657,12 +663,6 @@ features
 noliga
 .
 html
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
