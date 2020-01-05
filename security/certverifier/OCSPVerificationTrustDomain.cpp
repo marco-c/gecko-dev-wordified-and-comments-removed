@@ -98,6 +98,9 @@ const
 DERArray
 &
 Time
+const
+CertPolicyId
+&
 )
 {
 return

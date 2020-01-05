@@ -1171,6 +1171,7 @@ IsChainValid
 (
 chain
 time
+requiredPolicy
 )
 ;
 }

@@ -614,6 +614,16 @@ pkix
 :
 Time
 time
+const
+mozilla
+:
+:
+pkix
+:
+:
+CertPolicyId
+&
+requiredPolicy
 )
 override
 ;
