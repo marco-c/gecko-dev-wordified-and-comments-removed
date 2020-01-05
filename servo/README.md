@@ -125,6 +125,11 @@ dev
 libfontconfig1
 -
 dev
+libgl1
+-
+mesa
+-
+dri
 libglib2
 .
 0
