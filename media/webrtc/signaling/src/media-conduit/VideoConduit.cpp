@@ -9604,9 +9604,9 @@ codecInfo
 mEncodingConstraints
 .
 maxBr
-)
 /
 1000
+)
 ;
 cinst
 .
