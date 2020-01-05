@@ -8284,7 +8284,14 @@ contentViewer
 )
 {
 return
+{
+permitUnload
+:
 true
+timedOut
+:
+false
+}
 ;
 }
 return

@@ -16303,6 +16303,7 @@ true
 let
 {
 permitUnload
+timedOut
 }
 =
 browser
@@ -16368,8 +16369,14 @@ aTab
 closing
 |
 |
+(
+!
+timedOut
+&
+&
 !
 permitUnload
+)
 )
 {
 /

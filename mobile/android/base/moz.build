@@ -4187,13 +4187,6 @@ java
 '
 media
 /
-CodecManager
-.
-java
-'
-'
-media
-/
 CodecProxy
 .
 java
@@ -4216,6 +4209,13 @@ java
 media
 /
 MediaControlService
+.
+java
+'
+'
+media
+/
+MediaManager
 .
 java
 '
@@ -8714,7 +8714,7 @@ java
 '
 media
 /
-ICodecManager
+IMediaManager
 .
 java
 '
