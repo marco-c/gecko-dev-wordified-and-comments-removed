@@ -206,6 +206,17 @@ content
 /
 test
 /
+permissions
+/
+browser
+.
+ini
+'
+'
+content
+/
+test
+/
 plugins
 /
 browser
