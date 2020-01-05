@@ -39,9 +39,6 @@ Rect
 struct
 LayerBuffer
 {
-cairo_surface
-:
-ImageSurface
 draw_target
 :
 DrawTarget
