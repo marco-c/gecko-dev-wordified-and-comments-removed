@@ -85,9 +85,8 @@ search
 <
 ShortName
 >
-Wikipedia
 (
-tr
+be
 )
 <
 /
@@ -229,7 +228,7 @@ https
 :
 /
 /
-tr
+be
 .
 wikipedia
 .
@@ -297,7 +296,7 @@ https
 :
 /
 /
-tr
+be
 .
 wikipedia
 .
@@ -305,9 +304,8 @@ org
 /
 wiki
 /
-zel
 :
-Ara
+Search
 "
 >
 <
@@ -381,7 +379,7 @@ https
 :
 /
 /
-tr
+be
 .
 m
 .
@@ -391,9 +389,8 @@ org
 /
 wiki
 /
-zel
 :
-Ara
+Search
 "
 >
 <
@@ -439,7 +436,7 @@ https
 :
 /
 /
-tr
+be
 .
 wikipedia
 .
@@ -447,9 +444,8 @@ org
 /
 wiki
 /
-zel
 :
-Ara
+Search
 <
 /
 SearchForm
