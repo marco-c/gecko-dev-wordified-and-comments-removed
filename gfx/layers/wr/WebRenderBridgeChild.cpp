@@ -944,6 +944,8 @@ wr_glyph_instances
 j
 ]
 .
+point
+.
 x
 =
 glyphs
@@ -963,6 +965,8 @@ wr_glyph_instances
 [
 j
 ]
+.
+point
 .
 y
 =
