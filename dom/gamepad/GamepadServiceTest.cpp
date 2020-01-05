@@ -421,6 +421,16 @@ aID
 )
 0
 aMapping
+static_cast
+<
+uint32_t
+>
+(
+GamepadHand
+:
+:
+_empty
+)
 GamepadServiceType
 :
 :
