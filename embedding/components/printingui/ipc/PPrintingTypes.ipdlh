@@ -541,6 +541,12 @@ widthScale
 float
 heightScale
 ;
+double
+adjustedPaperWidth
+;
+double
+adjustedPaperHeight
+;
 }
 ;
 }
