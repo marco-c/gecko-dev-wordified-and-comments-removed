@@ -706,6 +706,11 @@ MediaSegment
 h
 '
 '
+MediaShutdownManager
+.
+h
+'
+'
 MediaStatistics
 .
 h
