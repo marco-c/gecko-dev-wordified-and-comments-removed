@@ -831,7 +831,7 @@ your
 config
 "
 )
-            
+        
 if
 self
 .
@@ -842,7 +842,7 @@ artifact
 '
 )
 :
-                
+            
 self
 .
 info
@@ -857,7 +857,7 @@ syntax
 .
 '
 )
-                
+            
 self
 .
 _update_build_variant

@@ -445,6 +445,15 @@ msg
 =
 None
         
+buildbot_config
+=
+self
+.
+buildbot_config
+or
+{
+}
+        
 if
 "
 try_message
@@ -505,25 +514,29 @@ _is_try
 :
             
 if
-self
-.
+'
+sourcestamp
+'
+in
+buildbot_config
+and
 buildbot_config
 [
 '
 sourcestamp
 '
 ]
-[
+.
+get
+(
 '
 changes
 '
-]
+)
 :
                 
 msg
 =
-self
-.
 buildbot_config
 [
 '
@@ -539,11 +552,13 @@ changes
 -
 1
 ]
-[
+.
+get
+(
 '
 comments
 '
-]
+)
             
 if
 msg
@@ -561,14 +576,16 @@ msg
                 
 props
 =
-self
-.
 buildbot_config
-[
+.
+get
+(
 '
 properties
 '
-]
+{
+}
+)
                 
 repo_url
 =
@@ -785,20 +802,20 @@ and
 try_syntax
 '
 in
-self
-.
 buildbot_config
-[
+.
+get
+(
 '
 properties
 '
-]
+{
+}
+)
 :
                 
 msg
 =
-self
-.
 buildbot_config
 [
 '
