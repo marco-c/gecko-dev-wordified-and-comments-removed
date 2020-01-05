@@ -878,10 +878,6 @@ w
 '
 )
 )
-                    
-command
-=
-rustCommand
                 
 except
 (
@@ -893,6 +889,13 @@ CalledProcessError
 :
                     
 pass
+                
+else
+:
+                    
+command
+=
+rustCommand
             
 args
 =
