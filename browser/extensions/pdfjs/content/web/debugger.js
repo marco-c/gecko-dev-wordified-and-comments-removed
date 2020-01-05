@@ -1031,9 +1031,10 @@ font
 ;
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 if
 (
@@ -1048,11 +1049,6 @@ resetSelection
 ;
 }
 }
-.
-bind
-(
-this
-)
 2000
 )
 ;
