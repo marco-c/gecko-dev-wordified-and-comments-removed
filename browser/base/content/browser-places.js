@@ -759,6 +759,13 @@ delay
 10
 ;
 }
+clearTimeout
+(
+this
+.
+_autoCloseTimer
+)
+;
 this
 .
 _autoCloseTimer
