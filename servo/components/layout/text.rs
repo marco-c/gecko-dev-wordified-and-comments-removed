@@ -1610,7 +1610,7 @@ vertical
 sideways
 or
 horizontal
-upgright
+upright
 text
 /
 /

@@ -634,7 +634,7 @@ receiveWeakNullableSelf
 /
 /
 A
-verstion
+version
 to
 test
 for
@@ -826,7 +826,7 @@ receiveWeakNullableOther
 /
 /
 A
-verstion
+version
 to
 test
 for
@@ -942,7 +942,7 @@ receiveWeakNullableExternal
 /
 /
 A
-verstion
+version
 to
 test
 for
@@ -1058,7 +1058,7 @@ receiveWeakNullableCallbackInterface
 /
 /
 A
-verstion
+version
 to
 test
 for

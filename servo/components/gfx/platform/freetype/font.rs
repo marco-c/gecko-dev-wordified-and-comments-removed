@@ -1517,7 +1517,7 @@ reflected
 by
 the
 height
-attibute
+attribute
 in
 freetype
 .
@@ -1586,7 +1586,7 @@ implementation
 Convert
 using
 a
-formular
+formula
 similar
 to
 what
