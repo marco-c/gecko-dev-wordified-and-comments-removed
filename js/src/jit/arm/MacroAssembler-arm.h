@@ -662,6 +662,14 @@ Instruction
 i
 )
 ;
+Instruction
+*
+offsetToInstruction
+(
+CodeOffset
+offs
+)
+;
 void
 ma_mov
 (
