@@ -905,6 +905,15 @@ _loadAboutBlank
 (
 )
 {
+if
+(
+!
+docShell
+)
+{
+return
+;
+}
 this
 .
 _webNav
