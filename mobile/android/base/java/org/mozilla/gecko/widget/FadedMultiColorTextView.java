@@ -235,7 +235,7 @@ center
 getTextSize
 (
 )
-+
+/
 2
 ;
 final
@@ -247,7 +247,7 @@ center
 getTextSize
 (
 )
--
+/
 2
 ;
 canvas
