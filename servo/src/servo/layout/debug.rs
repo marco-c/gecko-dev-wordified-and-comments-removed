@@ -1,12 +1,14 @@
 trait
 BoxedDebugMethods
 {
+pure
 fn
 dump
 (
 self
 )
 ;
+pure
 fn
 dump_indent
 (
@@ -16,6 +18,7 @@ ident
 uint
 )
 ;
+pure
 fn
 debug_str
 (
@@ -30,6 +33,7 @@ str
 trait
 DebugMethods
 {
+pure
 fn
 dump
 (
@@ -37,6 +41,7 @@ dump
 self
 )
 ;
+pure
 fn
 dump_indent
 (
@@ -47,6 +52,7 @@ ident
 uint
 )
 ;
+pure
 fn
 debug_str
 (

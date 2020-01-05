@@ -1763,6 +1763,7 @@ FlowContext
 :
 BoxedDebugMethods
 {
+pure
 fn
 dump
 (
@@ -1791,6 +1792,7 @@ indentation
 .
 *
 /
+pure
 fn
 dump_indent
 (
@@ -1853,6 +1855,21 @@ s
 s
 )
 ;
+/
+/
+FIXME
+:
+this
+should
+have
+a
+pure
+/
+const
+version
+?
+unsafe
+{
 for
 FlowTree
 .
@@ -1874,6 +1891,8 @@ indent
 )
 }
 }
+}
+pure
 fn
 debug_str
 (
