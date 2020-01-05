@@ -353,6 +353,13 @@ HandleResponse
 (
 )
 ;
+void
+HandleResponse
+(
+bool
+aResponse
+)
+;
 virtual
 void
 ActorDestroy

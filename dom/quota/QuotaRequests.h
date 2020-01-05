@@ -25,6 +25,13 @@ nsIQuotaRequests
 .
 h
 "
+#
+include
+"
+nsIVariant
+.
+h
+"
 class
 nsIPrincipal
 ;
@@ -262,6 +269,12 @@ nsIQuotaCallback
 >
 mCallback
 ;
+nsCOMPtr
+<
+nsIVariant
+>
+mResult
+;
 public
 :
 Request
@@ -279,6 +292,9 @@ aPrincipal
 void
 SetResult
 (
+nsIVariant
+*
+aResult
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

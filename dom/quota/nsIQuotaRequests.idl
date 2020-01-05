@@ -127,6 +127,9 @@ nsIQuotaCallback
 interface
 nsIQuotaUsageCallback
 ;
+interface
+nsIVariant
+;
 [
 scriptable
 uuid
@@ -246,6 +249,14 @@ nsIQuotaRequest
 :
 nsIQuotaRequestBase
 {
+[
+must_use
+]
+readonly
+attribute
+nsIVariant
+result
+;
 attribute
 nsIQuotaCallback
 callback
