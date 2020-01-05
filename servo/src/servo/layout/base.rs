@@ -1047,6 +1047,7 @@ ret
 r
 +
 [
+copy
 root
 .
 bounds

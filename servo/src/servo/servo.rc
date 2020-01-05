@@ -169,6 +169,9 @@ lexer
 mod
 html_builder
 ;
+mod
+css_builder
+;
 }
 mod
 platform
