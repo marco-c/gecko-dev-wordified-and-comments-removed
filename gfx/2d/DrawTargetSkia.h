@@ -1159,10 +1159,8 @@ SkSurface
 >
 mSurface
 ;
-sk_sp
-<
 SkCanvas
->
+*
 mCanvas
 ;
 SourceSurfaceSkia
