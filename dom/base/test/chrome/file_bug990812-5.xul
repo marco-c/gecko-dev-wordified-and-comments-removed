@@ -556,8 +556,6 @@ type
 =
 "
 content
--
-targetable
 "
 src
 =
@@ -579,8 +577,6 @@ type
 =
 "
 content
--
-targetable
 "
 src
 =
@@ -602,8 +598,6 @@ type
 =
 "
 content
--
-targetable
 "
 src
 =
@@ -625,8 +619,6 @@ type
 =
 "
 content
--
-targetable
 "
 src
 =
