@@ -12049,7 +12049,7 @@ GeckoDriver
 .
 prototype
 .
-quitApplication
+quit
 =
 function
 *
@@ -13975,7 +13975,16 @@ GeckoDriver
 .
 prototype
 .
-quitApplication
+quit
+"
+quit
+"
+:
+GeckoDriver
+.
+prototype
+.
+quit
 "
 localization
 :
