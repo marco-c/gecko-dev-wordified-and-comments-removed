@@ -323,16 +323,6 @@ CairoStatus
 )
 ;
 static
-int32_t
-FormatStrideForWidth
-(
-gfxImageFormat
-format
-int32_t
-width
-)
-;
-static
 gfxContentType
 ContentFromFormat
 (
