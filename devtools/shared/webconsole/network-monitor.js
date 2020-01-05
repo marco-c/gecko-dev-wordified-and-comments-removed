@@ -1614,6 +1614,9 @@ gzip
 deflate
 "
 "
+br
+"
+"
 x
 -
 gzip

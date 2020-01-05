@@ -78,7 +78,7 @@ wait
 waitForNetworkEvents
 (
 monitor
-7
+8
 )
 ;
 yield
@@ -135,8 +135,6 @@ setup
 )
 {
 RequestsMenu
-.
-contextMenu
 .
 copyResponse
 (

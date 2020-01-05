@@ -239,7 +239,7 @@ all
 waitForNetworkEvents
 (
 monitor
-7
+8
 )
 monitor
 .
