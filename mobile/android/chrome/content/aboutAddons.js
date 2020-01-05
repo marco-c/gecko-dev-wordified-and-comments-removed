@@ -1608,9 +1608,12 @@ optionsURL
 ;
 switch
 (
+parseInt
+(
 aAddon
 .
 optionsType
+)
 )
 {
 case
