@@ -6012,6 +6012,14 @@ get
 )
 ;
 }
+status
+-
+>
+SetCertificateTransparencyInfo
+(
+certificateTransparencyInfo
+)
+;
 }
 if
 (
