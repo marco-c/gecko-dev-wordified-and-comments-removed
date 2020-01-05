@@ -80,6 +80,7 @@ printed_intro
 :
             
 print
+(
 "
 Finished
 test
@@ -90,6 +91,7 @@ s
 self
 .
 test
+)
     
 def
 maybe_print_intro
@@ -106,6 +108,7 @@ printed_intro
 :
             
 print
+(
 "
 Starting
 test
@@ -116,6 +119,7 @@ s
 self
 .
 test
+)
             
 self
 .
@@ -138,6 +142,7 @@ verbose
 :
             
 print
+(
 "
 TEST
 -
@@ -148,6 +153,7 @@ s
 "
 %
 msg
+)
     
 def
 test_fail
@@ -164,6 +170,7 @@ maybe_print_intro
 )
         
 print
+(
 "
 TEST
 -
@@ -176,6 +183,7 @@ s
 "
 %
 msg
+)
     
 def
 ok
@@ -242,6 +250,7 @@ msg
 )
             
 print
+(
 "
 \
 tGot
@@ -255,6 +264,7 @@ s
 (
 a
 b
+)
 )
 def
 run_tests
@@ -402,6 +412,7 @@ ex
 :
             
 print
+(
 "
 TEST
 -
@@ -423,6 +434,7 @@ s
 (
 testpath
 ex
+)
 )
             
 traceback
