@@ -557,12 +557,9 @@ return
 in
 platform
 .
-architecture
+machine
 (
 )
-[
-0
-]
 class
 ScriptMixin
 (
