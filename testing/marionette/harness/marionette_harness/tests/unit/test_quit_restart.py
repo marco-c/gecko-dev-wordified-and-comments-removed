@@ -75,6 +75,8 @@ flags
 try
 :
             
+resp
+=
 self
 .
 marionette
@@ -132,6 +134,16 @@ None
         
 self
 .
+assertIn
+(
+"
+cause
+"
+resp
+)
+        
+self
+.
 marionette
 .
 client
@@ -151,6 +163,14 @@ runner
 wait
 (
 )
+        
+return
+resp
+[
+"
+cause
+"
+]
     
 def
 test_types
@@ -241,10 +261,22 @@ self
 )
 :
         
+cause
+=
 self
 .
 quit
 (
+)
+        
+self
+.
+assertEqual
+(
+"
+shutdown
+"
+cause
 )
     
 def
@@ -254,12 +286,24 @@ self
 )
 :
         
+cause
+=
 self
 .
 quit
 (
 (
 )
+)
+        
+self
+.
+assertEqual
+(
+"
+shutdown
+"
+cause
 )
     
 def
@@ -301,6 +345,8 @@ self
 )
 :
         
+cause
+=
 self
 .
 quit
@@ -311,6 +357,16 @@ eAttemptQuit
 "
 )
 )
+        
+self
+.
+assertEqual
+(
+"
+shutdown
+"
+cause
+)
     
 def
 test_force_quit
@@ -319,6 +375,8 @@ self
 )
 :
         
+cause
+=
 self
 .
 quit
@@ -328,6 +386,16 @@ quit
 eForceQuit
 "
 )
+)
+        
+self
+.
+assertEqual
+(
+"
+shutdown
+"
+cause
 )
 class
 TestQuitRestart
