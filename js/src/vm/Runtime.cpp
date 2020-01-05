@@ -487,10 +487,6 @@ parentRuntime
 )
 #
 endif
-activeContext
-(
-nullptr
-)
 profilerSampleBufferGen_
 (
 0
@@ -906,10 +902,6 @@ EnsureHelperThreadsInitialized
 )
 return
 false
-;
-activeContext
-=
-cx
 ;
 singletonContext
 =

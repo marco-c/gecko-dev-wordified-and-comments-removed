@@ -1180,20 +1180,6 @@ mozilla
 :
 Atomic
 <
-JSContext
-*
-mozilla
-:
-:
-ReleaseAcquire
->
-activeContext
-;
-mozilla
-:
-:
-Atomic
-<
 uint32_t
 mozilla
 :
@@ -1352,7 +1338,7 @@ break
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSAccumulateTelemetryDataCallback
 >
@@ -1390,7 +1376,7 @@ public
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSGetIncumbentGlobalCallback
 >
@@ -1399,7 +1385,7 @@ getIncumbentGlobalCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSEnqueuePromiseJobCallback
 >
@@ -1408,7 +1394,7 @@ enqueuePromiseJobCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 void
 *
@@ -1418,7 +1404,7 @@ enqueuePromiseJobCallbackData
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSPromiseRejectionTrackerCallback
 >
@@ -1427,7 +1413,7 @@ promiseRejectionTrackerCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 void
 *
@@ -1437,7 +1423,7 @@ promiseRejectionTrackerCallbackData
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JS
 :
@@ -1540,7 +1526,7 @@ hadOutOfMemory
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 bool
 >
@@ -1549,7 +1535,7 @@ allowRelazificationForTesting
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSDestroyCompartmentCallback
 >
@@ -1558,7 +1544,7 @@ destroyCompartmentCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSSizeOfIncludingThisCompartmentCallback
 >
@@ -1567,7 +1553,7 @@ sizeOfIncludingThisCompartmentCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSZoneCallback
 >
@@ -1576,7 +1562,7 @@ destroyZoneCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSZoneCallback
 >
@@ -1585,7 +1571,7 @@ sweepZoneCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSCompartmentNameCallback
 >
@@ -1594,7 +1580,7 @@ compartmentNameCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSExternalStringSizeofCallback
 >
@@ -1603,7 +1589,7 @@ externalStringSizeofCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 mozilla
 :
@@ -1621,7 +1607,7 @@ sourceHook
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 const
 JSSecurityCallbacks
@@ -1632,7 +1618,7 @@ securityCallbacks
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 const
 js
@@ -1646,7 +1632,7 @@ DOMcallbacks
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSDestroyPrincipalsOp
 >
@@ -1655,7 +1641,7 @@ destroyPrincipals
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSReadPrincipalsOp
 >
@@ -1664,7 +1650,7 @@ readPrincipals
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JS
 :
@@ -1709,7 +1695,7 @@ ref
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 mozilla
 :
@@ -1833,7 +1819,7 @@ trustedPrincipals_
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 const
 JSWrapObjectCallbacks
@@ -1844,7 +1830,7 @@ wrapObjectCallbacks
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 js
 :
@@ -1856,7 +1842,7 @@ preserveWrapperCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 js
 :
@@ -1869,7 +1855,7 @@ scriptEnvironmentPreparer
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 js
 :
@@ -1883,7 +1869,7 @@ private
 js
 :
 :
-WriteOnceData
+UnprotectedData
 <
 const
 js
@@ -1933,7 +1919,7 @@ private
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSCList
 >
@@ -2056,7 +2042,7 @@ endif
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 size_t
 >
@@ -2065,7 +2051,7 @@ numCompartments
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 const
 JSLocaleCallbacks
@@ -2076,7 +2062,7 @@ localeCallbacks
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 char
 *
@@ -2086,7 +2072,7 @@ defaultLocale
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JSVersion
 >
@@ -2136,7 +2122,7 @@ private
 js
 :
 :
-ActiveThreadOrIonCompileData
+UnprotectedData
 <
 js
 :
@@ -3196,7 +3182,7 @@ wellKnownSymbols
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 js
 :
@@ -3462,7 +3448,7 @@ parallelParsingEnabled_
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 bool
 >
@@ -3545,7 +3531,7 @@ b
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JS
 :
@@ -3557,7 +3543,7 @@ largeAllocationFailureCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 void
 *
@@ -3567,7 +3553,7 @@ largeAllocationFailureCallbackData
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 JS
 :
@@ -3579,7 +3565,7 @@ oomCallback
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 void
 *
@@ -3786,7 +3772,7 @@ p
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 mozilla
 :
@@ -3809,7 +3795,7 @@ private
 js
 :
 :
-ActiveThreadData
+UnprotectedData
 <
 js
 :

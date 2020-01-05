@@ -294,13 +294,13 @@ friend
 class
 JitCompartment
 ;
-ActiveThreadData
+UnprotectedData
 <
 ExecutableAllocator
 >
 execAlloc_
 ;
-ActiveThreadData
+UnprotectedData
 <
 ExecutableAllocator
 >
@@ -490,7 +490,7 @@ bool
 >
 preventBackedgePatching_
 ;
-ActiveThreadData
+UnprotectedData
 <
 JitcodeGlobalTable
 *

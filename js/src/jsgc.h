@@ -2256,7 +2256,7 @@ i
 ]
 ;
 }
-ActiveThreadOrGCTaskData
+UnprotectedData
 <
 AllAllocKindArray
 <
@@ -3196,7 +3196,7 @@ js
 ConditionVariable
 done
 ;
-ActiveThreadOrGCTaskData
+UnprotectedData
 <
 State
 >
@@ -3439,7 +3439,7 @@ TaskState
 >
 state
 ;
-ActiveThreadOrGCTaskData
+UnprotectedData
 <
 mozilla
 :
