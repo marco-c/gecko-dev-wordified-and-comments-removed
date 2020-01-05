@@ -7594,7 +7594,7 @@ mOriginalVirtualKeyCode
 ;
 mKeyNameIndex
 =
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 ?
@@ -8371,7 +8371,7 @@ bool
 NativeKey
 :
 :
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 const
@@ -14289,7 +14289,7 @@ true
 }
 if
 (
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 )

@@ -1486,7 +1486,7 @@ aCharMsg2
 const
 ;
 bool
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 const
