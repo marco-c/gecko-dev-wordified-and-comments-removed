@@ -22773,7 +22773,7 @@ LAYER_ACTIVE
 ;
 }
 return
-LAYER_INACTIVE
+LAYER_NONE
 ;
 }
 already_AddRefed
