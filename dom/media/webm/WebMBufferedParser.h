@@ -285,7 +285,7 @@ mGotTimecodeScale
 true
 ;
 }
-void
+bool
 Append
 (
 const
