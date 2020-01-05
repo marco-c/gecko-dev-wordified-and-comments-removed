@@ -1402,12 +1402,7 @@ inline
 .
 elems
 .
-push
-(
-NodeRange
-:
-:
-new
+add_mapping
 (
 copy
 box
@@ -1419,7 +1414,6 @@ d
 node
 move
 new_range
-)
 )
 ;
 }
