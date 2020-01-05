@@ -183,6 +183,8 @@ aDocumentURI
 nsIPrincipal
 *
 aPrincipal
+bool
+aIsPrivate
 )
 ;
 JSObject
@@ -424,7 +426,11 @@ IsPrivate
 (
 )
 const
+{
+return
+mIsPrivate
 ;
+}
 bool
 IsSessionOnly
 (
@@ -511,6 +517,11 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+bool
+mIsPrivate
+:
+1
 ;
 bool
 mIsSessionOnly
