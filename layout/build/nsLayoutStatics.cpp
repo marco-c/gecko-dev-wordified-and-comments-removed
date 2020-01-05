@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsGenericHTMLFrameElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1590,6 +1597,13 @@ HTMLVideoElement
 :
 :
 Init
+(
+)
+;
+nsGenericHTMLFrameElement
+:
+:
+InitStatics
 (
 )
 ;

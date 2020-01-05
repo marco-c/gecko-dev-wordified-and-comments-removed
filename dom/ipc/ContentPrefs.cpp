@@ -278,6 +278,11 @@ max_script_run_time
 "
 dom
 .
+mozBrowserFramesEnabled
+"
+"
+dom
+.
 performance
 .
 enable_notify_performance_timing

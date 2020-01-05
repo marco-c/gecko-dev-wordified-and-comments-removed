@@ -386,6 +386,12 @@ aRv
 )
 ;
 static
+void
+InitStatics
+(
+)
+;
+static
 bool
 BrowserFramesEnabled
 (
