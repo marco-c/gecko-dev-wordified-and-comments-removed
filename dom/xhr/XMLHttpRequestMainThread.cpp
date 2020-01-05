@@ -14283,7 +14283,7 @@ mRedirectCallback
 nullptr
 ;
 return
-result
+NS_OK
 ;
 }
 NS_IMETHODIMP
