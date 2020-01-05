@@ -1008,6 +1008,15 @@ if
 flags
 &
 CERTDB_TRUSTED_CA
+&
+&
+endEntityOrCA
+=
+=
+EndEntityOrCA
+:
+:
+MustBeCA
 )
 {
 if

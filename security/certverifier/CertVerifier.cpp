@@ -1402,7 +1402,10 @@ builtChain
 )
 {
 return
-Success
+Result
+:
+:
+FATAL_ERROR_INVALID_ARGS
 ;
 }
 CERTCertificate
