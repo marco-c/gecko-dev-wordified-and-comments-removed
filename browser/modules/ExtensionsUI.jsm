@@ -608,6 +608,9 @@ icon
 addon
 .
 iconURL
+|
+|
+DEFAULT_EXTENSION_ICON
 type
 :
 "
