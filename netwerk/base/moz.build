@@ -1522,6 +1522,14 @@ protocol
 /
 http
 '
+'
+/
+security
+/
+pkix
+/
+include
+'
 ]
 if
 '
