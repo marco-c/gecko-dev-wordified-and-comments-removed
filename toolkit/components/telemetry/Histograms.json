@@ -93860,7 +93860,7 @@ out
 "
 }
 "
-IPC_READ_LATENCY_MS
+IPC_READ_MAIN_THREAD_LATENCY_MS
 "
 :
 {
@@ -93925,6 +93925,10 @@ milliseconds
 we
 spend
 waiting
+on
+the
+main
+thread
 for
 IPC
 messages
@@ -93962,7 +93966,7 @@ name
 "
 }
 "
-IPC_WRITE_LATENCY_MS
+IPC_WRITE_MAIN_THREAD_LATENCY_MS
 "
 :
 {
@@ -94027,6 +94031,10 @@ milliseconds
 we
 spend
 waiting
+on
+the
+main
+thread
 for
 IPC
 messages
