@@ -6,7 +6,7 @@ f
 var
 MAX_HEIGHT
 =
-64
+512
 ;
 var
 obj
