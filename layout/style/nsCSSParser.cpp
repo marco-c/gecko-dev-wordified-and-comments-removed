@@ -892,8 +892,6 @@ aLineNumber
 nsMediaList
 *
 aMediaList
-bool
-aHTMLMode
 )
 ;
 bool
@@ -923,8 +921,6 @@ nsCSSValue
 >
 &
 aValues
-bool
-aHTMLMode
 )
 ;
 void
@@ -5371,11 +5367,6 @@ mViewportUnitsEnabled
 1
 ;
 bool
-mHTMLMediaMode
-:
-1
-;
-bool
 mParsingCompoundProperty
 :
 1
@@ -5775,10 +5766,6 @@ mViewportUnitsEnabled
 (
 true
 )
-mHTMLMediaMode
-(
-false
-)
 mParsingCompoundProperty
 (
 false
@@ -6035,17 +6022,6 @@ nsIPrincipal
 aSheetPrincipal
 )
 {
-NS_PRECONDITION
-(
-!
-mHTMLMediaMode
-"
-Bad
-initial
-state
-"
-)
-;
 NS_PRECONDITION
 (
 !
@@ -8021,8 +7997,6 @@ aLineNumber
 nsMediaList
 *
 aMediaList
-bool
-aHTMLMode
 )
 {
 aMediaList
@@ -8059,10 +8033,6 @@ aURI
 aURI
 nullptr
 )
-;
-mHTMLMediaMode
-=
-aHTMLMode
 ;
 DebugOnly
 <
@@ -8104,10 +8074,6 @@ ReleaseScanner
 (
 )
 ;
-mHTMLMediaMode
-=
-false
-;
 }
 bool
 CSSParserImpl
@@ -8139,8 +8105,6 @@ nsCSSValue
 >
 &
 aValues
-bool
-aHTMLMode
 )
 {
 aQueries
@@ -8182,10 +8146,6 @@ aURI
 aURI
 nullptr
 )
-;
-mHTMLMediaMode
-=
-aHTMLMode
 ;
 bool
 hitEnd
@@ -8423,10 +8383,6 @@ CLEAR_ERROR
 ReleaseScanner
 (
 )
-;
-mHTMLMediaMode
-=
-false
 ;
 return
 !
@@ -77153,8 +77109,6 @@ aLineNumber
 nsMediaList
 *
 aMediaList
-bool
-aHTMLMode
 )
 {
 static_cast
@@ -77173,7 +77127,6 @@ aBuffer
 aURI
 aLineNumber
 aMediaList
-aHTMLMode
 )
 ;
 }
@@ -77207,8 +77160,6 @@ nsCSSValue
 >
 &
 aValues
-bool
-aHTMLMode
 )
 {
 return
@@ -77229,7 +77180,6 @@ aURI
 aLineNumber
 aQueries
 aValues
-aHTMLMode
 )
 ;
 }

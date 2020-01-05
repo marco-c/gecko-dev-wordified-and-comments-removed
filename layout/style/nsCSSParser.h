@@ -429,8 +429,6 @@ aLineNumber
 nsMediaList
 *
 aMediaList
-bool
-aHTMLMode
 )
 ;
 bool
@@ -460,8 +458,6 @@ nsCSSValue
 >
 &
 aValues
-bool
-aHTMLMode
 )
 ;
 bool
