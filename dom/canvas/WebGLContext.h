@@ -7314,6 +7314,12 @@ mImplMaxColorAttachments
 uint32_t
 mImplMaxDrawBuffers
 ;
+uint32_t
+mImplMaxViewportDims
+[
+2
+]
+;
 public
 :
 GLenum
