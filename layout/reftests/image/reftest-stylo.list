@@ -365,12 +365,6 @@ dyn
 .
 html
 fails
-skip
--
-if
-(
-stylo
-)
 =
 =
 image
@@ -399,9 +393,6 @@ background
 1
 .
 html
-#
-Bug
-1342188
 fails
 =
 =
