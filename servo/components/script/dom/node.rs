@@ -736,10 +736,7 @@ selectors
 matching
 :
 :
-{
-MatchingReason
 matches
-}
 ;
 use
 selectors
@@ -2224,10 +2221,6 @@ selectors
 &
 element
 None
-MatchingReason
-:
-:
-Other
 )
 {
 return
@@ -4280,10 +4273,6 @@ selectors
 0
 element
 None
-MatchingReason
-:
-:
-Other
 )
 }
 )
