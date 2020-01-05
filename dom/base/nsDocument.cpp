@@ -46782,10 +46782,8 @@ nsIDocument
 :
 BlockParsing
 (
-OwningNonNull
-<
 Promise
->
+&
 aPromise
 ErrorResult
 &
@@ -46804,8 +46802,7 @@ Promise
 Create
 (
 aPromise
--
->
+.
 GetParentObject
 (
 )
@@ -46839,8 +46836,7 @@ resultPromise
 )
 ;
 aPromise
--
->
+.
 AppendNativeHandler
 (
 promiseHandler
