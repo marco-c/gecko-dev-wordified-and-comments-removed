@@ -39,6 +39,8 @@ client
 /
 netmonitor
 /
+src
+/
 selectors
 /
 index
@@ -60,6 +62,8 @@ devtools
 client
 /
 netmonitor
+/
+src
 /
 actions
 /
@@ -115,6 +119,8 @@ devtools
 client
 /
 netmonitor
+/
+src
 /
 utils
 /

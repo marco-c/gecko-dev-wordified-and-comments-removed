@@ -251,6 +251,8 @@ client
 /
 netmonitor
 /
+src
+/
 actions
 /
 index
@@ -270,6 +272,8 @@ devtools
 client
 /
 netmonitor
+/
+src
 /
 selectors
 /

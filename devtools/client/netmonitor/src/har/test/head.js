@@ -60,6 +60,8 @@ client
 /
 netmonitor
 /
+src
+/
 har
 /
 test

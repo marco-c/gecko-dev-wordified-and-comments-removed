@@ -56,6 +56,8 @@ client
 /
 netmonitor
 /
+src
+/
 constants
 "
 )
