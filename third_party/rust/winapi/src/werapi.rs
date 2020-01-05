@@ -1,0 +1,15 @@
+ENUM
+!
+{
+enum
+WER_REGISTER_FILE_TYPE
+{
+WerRegFileTypeUserDocument
+=
+1
+WerRegFileTypeOther
+=
+2
+WerRegFileTypeMax
+}
+}
