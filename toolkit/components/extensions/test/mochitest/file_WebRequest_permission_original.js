@@ -1,0 +1,8 @@
+window
+.
+testScript
+=
+"
+original
+"
+;
