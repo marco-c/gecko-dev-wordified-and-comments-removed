@@ -48,6 +48,10 @@ parking_lot
 ;
 extern
 crate
+selectors
+;
+extern
+crate
 servo_url
 ;
 extern

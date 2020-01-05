@@ -18,10 +18,6 @@ extern
 crate
 geckoservo
 ;
-extern
-crate
-libc
-;
 #
 [
 macro_use
@@ -33,6 +29,10 @@ log
 extern
 crate
 parking_lot
+;
+extern
+crate
+selectors
 ;
 extern
 crate

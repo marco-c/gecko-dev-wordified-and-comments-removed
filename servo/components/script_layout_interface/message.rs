@@ -249,6 +249,7 @@ StackingContextScrollState
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
