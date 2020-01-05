@@ -321,6 +321,10 @@ pub
 quirks_mode
 :
 QuirksMode
+pub
+animation_only_restyle
+:
+bool
 }
 impl
 <
