@@ -889,12 +889,6 @@ __APPLE__
 |
 defined
 (
-__ANDROID__
-)
-|
-|
-defined
-(
 __OpenBSD__
 )
 #
