@@ -229,6 +229,16 @@ scroller
 "
 addonNotificationContainer
 :
+gPhotonStructure
+?
+"
+appMenu
+-
+addon
+-
+banners
+"
+:
 "
 PanelUI
 -
