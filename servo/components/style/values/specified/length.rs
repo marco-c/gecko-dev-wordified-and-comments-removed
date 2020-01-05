@@ -7232,6 +7232,10 @@ dest
 impl
 LengthOrPercentage
 {
+#
+[
+inline
+]
 pub
 fn
 zero

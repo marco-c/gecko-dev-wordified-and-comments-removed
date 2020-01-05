@@ -109,6 +109,15 @@ LengthOrPercentage
 LengthOrPercentageOrNone
 }
 ;
+use
+style
+:
+:
+values
+:
+:
+generics
+;
 #
 [
 derive
@@ -2279,6 +2288,9 @@ Au
 >
 {
 let
+generics
+:
+:
 BorderRadiusSize
 (
 size

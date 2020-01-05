@@ -6115,10 +6115,18 @@ style
 values
 :
 :
-specified
+generics
 :
 :
-Image
+position
+:
+:
+{
+HorizontalPosition
+Keyword
+PositionValue
+VerticalPosition
+}
 ;
 use
 style
@@ -6130,14 +6138,7 @@ values
 specified
 :
 :
-position
-:
-:
-{
-HorizontalPosition
-VerticalPosition
-Keyword
-}
+Image
 ;
 use
 super
@@ -6323,6 +6324,8 @@ single_vec_value_typedef
 (
 position_x
 HorizontalPosition
+(
+PositionValue
 {
 keyword
 :
@@ -6347,6 +6350,7 @@ from_px
 )
 }
 )
+)
 ;
 let
 position_y
@@ -6356,6 +6360,8 @@ single_vec_value_typedef
 (
 position_y
 VerticalPosition
+(
+PositionValue
 {
 keyword
 :
@@ -6385,6 +6391,7 @@ from_px
 )
 )
 }
+)
 )
 ;
 let
@@ -6741,6 +6748,8 @@ single_vec_value_typedef
 (
 position_x
 HorizontalPosition
+(
+PositionValue
 {
 keyword
 :
@@ -6765,6 +6774,7 @@ from_px
 )
 }
 )
+)
 ;
 let
 position_y
@@ -6774,6 +6784,8 @@ single_vec_value_typedef
 (
 position_y
 VerticalPosition
+(
+PositionValue
 {
 keyword
 :
@@ -6797,6 +6809,7 @@ from_px
 )
 )
 }
+)
 )
 ;
 let
