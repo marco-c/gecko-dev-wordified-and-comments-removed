@@ -2245,7 +2245,7 @@ presentation
 span
 >
 <
-div
+span
 anonid
 =
 "
@@ -2256,10 +2256,12 @@ class
 "
 positionDurationBox
 "
-role
+aria
+-
+hidden
 =
 "
-none
+true
 "
 >
 &
@@ -2269,7 +2271,7 @@ nameFormat
 ;
 <
 /
-div
+span
 >
 <
 div
