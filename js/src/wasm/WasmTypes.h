@@ -6126,7 +6126,7 @@ MemoryAccessVector
 struct
 Frame
 {
-uint8_t
+Frame
 *
 callerFP
 ;
