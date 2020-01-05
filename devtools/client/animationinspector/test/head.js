@@ -1519,7 +1519,7 @@ clickOnAnimation
 (
 panel
 index
-shouldClose
+shouldAlreadySelected
 )
 {
 let
@@ -1536,12 +1536,14 @@ timeline
 .
 once
 (
-shouldClose
+shouldAlreadySelected
 ?
 "
 animation
 -
-unselected
+already
+-
+selected
 "
 :
 "
@@ -1554,7 +1556,7 @@ selected
 let
 onReady
 =
-shouldClose
+shouldAlreadySelected
 ?
 Promise
 .
