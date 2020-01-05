@@ -148,7 +148,6 @@ Node
 TreatNullAs
 =
 EmptyString
-SetterThrows
 ]
 attribute
 DOMString
@@ -174,9 +173,6 @@ long
 count
 )
 ;
-[
-Throws
-]
 void
 appendData
 (
