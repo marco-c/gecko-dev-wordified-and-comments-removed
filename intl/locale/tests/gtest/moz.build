@@ -94,6 +94,11 @@ TestLocaleService
 .
 cpp
 '
+'
+TestLocaleServiceNegotiate
+.
+cpp
+'
 ]
 if
 CONFIG
