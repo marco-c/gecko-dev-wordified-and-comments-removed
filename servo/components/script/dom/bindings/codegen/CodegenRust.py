@@ -1953,7 +1953,7 @@ pickFirstSignature
 %
 s
 .
-isObject
+is_object
 (
 )
 &
@@ -1961,12 +1961,10 @@ isObject
 !
 IsPlatformObject
 (
-cx
-&
 %
 s
 .
-toObject
+to_object
 (
 )
 )
@@ -35191,6 +35189,19 @@ utils
 :
 :
 HasPropertyOnPrototype
+'
+            
+'
+dom
+:
+:
+bindings
+:
+:
+utils
+:
+:
+IsPlatformObject
 '
             
 '

@@ -275,7 +275,7 @@ dom
 window
 :
 :
-WindowHelpers
+ScriptHelpers
 ;
 use
 encoding
@@ -1647,7 +1647,7 @@ base_url
 ;
 window
 .
-evaluate_script_with_result
+evaluate_script_on_global_with_result
 (
 source
 .

@@ -592,8 +592,6 @@ any
 arguments
 )
 ;
-/
-/
 long
 setTimeout
 (
@@ -638,8 +636,6 @@ any
 arguments
 )
 ;
-/
-/
 long
 setInterval
 (
