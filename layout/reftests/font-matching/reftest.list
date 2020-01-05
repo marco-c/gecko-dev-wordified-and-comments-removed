@@ -588,16 +588,7 @@ fails
 -
 if
 (
-http
-.
-oscpu
-=
-=
-"
-Linux
-\
-u0020x86_64
-"
+gtkWidget
 )
 =
 =
@@ -616,6 +607,8 @@ html
 #
 bug
 1309425
+bug
+1328771
 #
 weight
 mapping
