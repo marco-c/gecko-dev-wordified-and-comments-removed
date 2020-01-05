@@ -355,6 +355,12 @@ dom
 /
 ipc
 '
+'
+/
+toolkit
+/
+crashreporter
+'
 ]
 include
 (
