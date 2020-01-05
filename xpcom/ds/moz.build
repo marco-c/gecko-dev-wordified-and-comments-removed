@@ -442,6 +442,11 @@ ArenaAllocator
 h
 '
 '
+ArenaAllocatorExtensions
+.
+h
+'
+'
 ArrayIterator
 .
 h
