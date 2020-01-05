@@ -88,6 +88,10 @@ MOZ_EXTERNAL_SIGNING_FORMAT
 :
 =
 sha2signcode
+MOZ_EXTERNAL_SIGNING_FORMAT_STUB
+:
+=
+sha2signcodestub
 SIGN_INCLUDES
 :
 =
