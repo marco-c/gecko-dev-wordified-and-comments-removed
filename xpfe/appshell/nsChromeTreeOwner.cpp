@@ -523,10 +523,6 @@ nsIDocShellTreeItem
 aContentShell
 bool
 aPrimary
-const
-nsAString
-&
-aID
 )
 {
 NS_ENSURE_STATE
@@ -542,7 +538,6 @@ ContentShellAdded
 (
 aContentShell
 aPrimary
-aID
 )
 ;
 }

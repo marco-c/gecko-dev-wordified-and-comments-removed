@@ -4357,7 +4357,6 @@ ContentShellAdded
 (
 aItem
 is_primary
-value
 )
 ;
 }
@@ -14698,7 +14697,6 @@ ContentShellAdded
 (
 mDocShell
 is_primary
-value
 )
 ;
 }
