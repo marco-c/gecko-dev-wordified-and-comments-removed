@@ -5,6 +5,11 @@ function
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 const
 dbg
 =

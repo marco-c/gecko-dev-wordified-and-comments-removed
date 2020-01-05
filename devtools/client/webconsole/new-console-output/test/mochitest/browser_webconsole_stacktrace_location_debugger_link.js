@@ -405,8 +405,6 @@ is
 dbg
 .
 _selectors
-(
-)
 .
 getSelectedSource
 (

@@ -66,17 +66,6 @@ LOAD_SOURCE_TEXT
 "
 )
 ;
-assertHighlightLocation
-(
-dbg
-"
-long
-.
-js
-"
-66
-)
-;
 yield
 selectSource
 (
