@@ -2552,6 +2552,7 @@ mozInnerScreenY
 [
 Replaceable
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
