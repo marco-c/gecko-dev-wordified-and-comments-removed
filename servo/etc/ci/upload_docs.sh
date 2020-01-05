@@ -229,6 +229,7 @@ git
 push
 -
 qf
+\
 "
 https
 :
@@ -254,3 +255,13 @@ git
 gh
 -
 pages
+\
+>
+/
+dev
+/
+null
+2
+>
+&
+1
