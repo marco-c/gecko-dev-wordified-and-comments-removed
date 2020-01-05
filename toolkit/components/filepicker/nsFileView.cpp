@@ -3016,8 +3016,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRId64
 fileSize
 )
 aCellText

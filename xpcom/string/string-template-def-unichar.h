@@ -28,6 +28,10 @@ nsTSubstring_CharT
 nsAString
 #
 define
+PrintfAppend_CharT
+PrintfAppend_nsAString
+#
+define
 nsTSubstringTuple_CharT
 nsSubstringTuple
 #

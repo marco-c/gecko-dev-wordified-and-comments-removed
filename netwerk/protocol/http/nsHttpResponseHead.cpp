@@ -848,8 +848,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRId64
 len
 )
 false

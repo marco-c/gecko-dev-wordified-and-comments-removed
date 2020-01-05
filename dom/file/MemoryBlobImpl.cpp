@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SHA1
 .
 h
@@ -658,7 +667,9 @@ file
 length
 =
 %
-llu
+"
+PRIu64
+"
 sha1
 =
 %
@@ -699,7 +710,9 @@ file
 of
 length
 %
-llu
+"
+PRIu64
+"
 bytes
 .
 The

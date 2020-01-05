@@ -1012,8 +1012,8 @@ AppendPrintf
 (
 "
 %
-i
 "
+PRIu64
 intToken
 .
 AsInteger

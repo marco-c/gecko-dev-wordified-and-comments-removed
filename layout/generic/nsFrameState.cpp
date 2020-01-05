@@ -353,9 +353,16 @@ AppendPrintf
 |
 0x
 %
-0llx
+0
 "
+PRIx64
+static_cast
+<
+uint64_t
+>
+(
 state
+)
 )
 ;
 }

@@ -762,7 +762,9 @@ AppendPrintf
 anonymized
 -
 %
-llu
+"
+PRIu64
+"
 >
 "
 aWindow
@@ -1220,7 +1222,9 @@ AppendPrintf
 id
 =
 %
-llu
+"
+PRIu64
+"
 )
 "
 top

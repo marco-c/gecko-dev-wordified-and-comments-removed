@@ -149,7 +149,9 @@ promise
 rejected
 0x
 %
-x
+"
+PRIx32
+"
 '
 %
 s
@@ -160,7 +162,13 @@ mName
 get
 (
 )
+static_cast
+<
+uint32_t
+>
+(
 aArg
+)
 PromiseFlatCString
 (
 aReason

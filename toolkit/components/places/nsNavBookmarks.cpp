@@ -8092,8 +8092,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRId64
 bookmark
 .
 dateAdded
@@ -8355,8 +8355,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRId64
 bookmark
 .
 lastModified

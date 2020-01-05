@@ -230,8 +230,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRId64
 PR_Now
 (
 )

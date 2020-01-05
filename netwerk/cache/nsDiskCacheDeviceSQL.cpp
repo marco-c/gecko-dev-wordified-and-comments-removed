@@ -10954,7 +10954,10 @@ nsPrintfCString
 "
 |
 %
-016lld
+016
+"
+PRId64
+"
 |
 %
 d

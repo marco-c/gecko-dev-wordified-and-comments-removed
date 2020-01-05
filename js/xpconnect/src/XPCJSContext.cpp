@@ -8787,7 +8787,9 @@ strings
 STRING_LENGTH
 "
 %
-d
+"
+PRIuSIZE
+"
 copies
 =
 %

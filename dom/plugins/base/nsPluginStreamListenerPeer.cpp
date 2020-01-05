@@ -4588,11 +4588,13 @@ nsPrintfCString
 "
 /
 %
-lu
+"
+PRIu32
+"
 .
 %
-lu
 "
+PRIu32
 major
 minor
 )
@@ -4631,7 +4633,9 @@ HTTP
 %
 s
 %
-lu
+"
+PRIu32
+"
 %
 s
 "

@@ -24,6 +24,9 @@ undef
 nsTSubstring_CharT
 #
 undef
+PrintfAppend_CharT
+#
+undef
 nsTSubstringTuple_CharT
 #
 undef

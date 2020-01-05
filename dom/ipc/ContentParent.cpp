@@ -2482,7 +2482,9 @@ p
 refcnt
 =
 %
-d
+"
+PRIuPTR
+"
 )
 "
 NS_ConvertUTF16toUTF8
