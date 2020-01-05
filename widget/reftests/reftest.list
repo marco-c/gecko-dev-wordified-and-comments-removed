@@ -105,6 +105,12 @@ if
 !
 cocoaWidget
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 meter
@@ -141,6 +147,12 @@ appearance
 .
 enabled
 true
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

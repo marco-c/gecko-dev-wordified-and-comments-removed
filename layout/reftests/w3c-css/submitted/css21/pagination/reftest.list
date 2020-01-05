@@ -508,6 +508,12 @@ avoid
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 moz
@@ -696,6 +702,12 @@ avoid
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 moz

@@ -109,6 +109,12 @@ if
 (
 cocoaWidget
 )
+skip
+-
+if
+(
+stylo
+)
 =
 =
 canvas
@@ -443,6 +449,12 @@ if
 skiaContent
 2
 106
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

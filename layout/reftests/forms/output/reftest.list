@@ -34,6 +34,12 @@ ref
 2
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 output

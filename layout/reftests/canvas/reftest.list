@@ -20,6 +20,12 @@ Android
 8
 1000
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 size
@@ -90,6 +96,12 @@ cocoaWidget
 0
 -
 2
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =
@@ -825,6 +837,10 @@ azureSkia
 &
 !
 azureSkiaGL
+&
+&
+!
+stylo
 )
 |
 |
@@ -883,6 +899,10 @@ azureSkia
 &
 !
 azureSkiaGL
+&
+&
+!
+stylo
 )
 |
 |

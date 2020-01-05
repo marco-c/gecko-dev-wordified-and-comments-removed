@@ -121,6 +121,12 @@ cocoaWidget
 |
 d2d
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 deferred
@@ -152,6 +158,12 @@ cocoaWidget
 &
 &
 layersGPUAccelerated
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

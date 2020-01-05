@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+stylo
+)
 =
 =
 scaled
@@ -20,6 +26,12 @@ position
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 color

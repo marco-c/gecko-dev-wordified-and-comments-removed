@@ -50,6 +50,12 @@ html
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 table

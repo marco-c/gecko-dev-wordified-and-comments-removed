@@ -9,6 +9,12 @@ if
 !
 haveTestPlugin
 )
+fails
+-
+if
+(
+stylo
+)
 !
 =
 plugin
@@ -25,6 +31,12 @@ if
 (
 !
 haveTestPlugin
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

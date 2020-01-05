@@ -378,6 +378,12 @@ Test
 ICO
 PNG
 transparency
+fails
+-
+if
+(
+stylo
+)
 =
 =
 transparent

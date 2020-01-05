@@ -125,6 +125,13 @@ asserts
 (
 1
 )
+asserts
+-
+if
+(
+stylo
+2
+)
 =
 =
 ol
@@ -258,6 +265,12 @@ isize
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 bullet
