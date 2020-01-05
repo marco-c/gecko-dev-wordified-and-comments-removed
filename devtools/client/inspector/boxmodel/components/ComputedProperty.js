@@ -103,15 +103,6 @@ property
 -
 view
 "
-"
-data
--
-property
--
-name
-"
-:
-name
 tabIndex
 :
 "
