@@ -130,6 +130,7 @@ repeat
 stacktrace
 frame
 exceptionDocURL
+timeStamp
 }
 =
 message
@@ -163,6 +164,7 @@ frame
 stacktrace
 serviceContainer
 exceptionDocURL
+timeStamp
 }
 ;
 return

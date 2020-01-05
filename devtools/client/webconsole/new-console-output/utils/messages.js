@@ -596,6 +596,11 @@ stacktrace
 :
 null
 frame
+timeStamp
+:
+message
+.
+timeStamp
 userProvidedStyles
 :
 message
@@ -648,6 +653,11 @@ to
 message
 .
 url
+timeStamp
+:
+message
+.
+timeStamp
 }
 )
 ;
@@ -805,6 +815,11 @@ exceptionDocURL
 pageError
 .
 exceptionDocURL
+timeStamp
+:
+pageError
+.
+timeStamp
 }
 )
 ;
@@ -847,6 +862,11 @@ response
 networkEvent
 .
 response
+timeStamp
+:
+networkEvent
+.
+timeStamp
 }
 )
 ;
@@ -869,6 +889,9 @@ frame
 result
 :
 parameters
+timestamp
+:
+timeStamp
 }
 =
 packet
@@ -906,6 +929,7 @@ messageText
 parameters
 exceptionDocURL
 frame
+timeStamp
 }
 )
 ;

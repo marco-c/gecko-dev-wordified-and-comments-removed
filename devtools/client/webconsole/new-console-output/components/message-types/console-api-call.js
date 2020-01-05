@@ -224,6 +224,7 @@ level
 repeat
 stacktrace
 frame
+timeStamp
 parameters
 messageText
 userProvidedStyles
@@ -497,6 +498,7 @@ attachment
 serviceContainer
 dispatch
 indent
+timeStamp
 }
 )
 ;

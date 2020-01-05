@@ -158,6 +158,7 @@ type
 level
 request
 isXHR
+timeStamp
 }
 =
 message
@@ -297,6 +298,7 @@ type
 level
 indent
 topLevelClasses
+timeStamp
 messageBody
 serviceContainer
 }

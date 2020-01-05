@@ -104,6 +104,9 @@ true
 source
 :
 null
+timeStamp
+:
+null
 type
 :
 null
@@ -179,6 +182,9 @@ type
 MESSAGE_TYPE
 .
 LOG
+timeStamp
+:
+null
 groupId
 :
 null
