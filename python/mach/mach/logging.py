@@ -524,6 +524,26 @@ self
 terminal
 =
 terminal
+        
+self
+.
+_sgr0
+=
+blessings
+.
+tigetstr
+(
+'
+sgr0
+'
+)
+if
+terminal
+and
+blessings
+else
+'
+'
     
 def
 format
@@ -583,6 +603,8 @@ return
 s
 %
 s
+%
+s
 '
 %
 (
@@ -593,6 +615,9 @@ _colorize
 (
 f
 )
+self
+.
+_sgr0
 )
     
 def
