@@ -254,6 +254,11 @@ enumValue
 bar
 "
 ;
+any
+anyValue
+=
+null
+;
 /
 /
 boolean
