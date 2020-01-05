@@ -1627,12 +1627,6 @@ case
 nsPluginHost
 :
 :
-eSpecialType_Silverlight
-:
-case
-nsPluginHost
-:
-:
 eSpecialType_Unity
 :
 case

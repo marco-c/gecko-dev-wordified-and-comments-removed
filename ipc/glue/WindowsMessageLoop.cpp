@@ -1890,16 +1890,6 @@ EqualsLiteral
 ShockwaveFlashFullScreen
 "
 )
-|
-|
-className
-.
-EqualsLiteral
-(
-"
-AGFullScreenWinClass
-"
-)
 )
 {
 SetPropW
