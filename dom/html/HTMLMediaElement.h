@@ -1734,7 +1734,7 @@ dom
 :
 EventHandlerNonNull
 *
-listener
+aCallback
 )
 ;
 mozilla
