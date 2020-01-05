@@ -539,6 +539,16 @@ getBoundingClientRect
 readonly
 attribute
 long
+scrollWidth
+;
+readonly
+attribute
+long
+scrollHeight
+;
+readonly
+attribute
+long
 clientTop
 ;
 readonly

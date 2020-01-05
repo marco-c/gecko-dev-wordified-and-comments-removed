@@ -342,6 +342,16 @@ self
 NodeGeometryResponse
 ;
 fn
+node_scroll_area
+(
+&
+self
+)
+-
+>
+NodeGeometryResponse
+;
+fn
 hit_test
 (
 &
@@ -642,6 +652,10 @@ f32
 bool
 )
 NodeGeometryQuery
+(
+TrustedNodeAddress
+)
+NodeScrollGeometryQuery
 (
 TrustedNodeAddress
 )
