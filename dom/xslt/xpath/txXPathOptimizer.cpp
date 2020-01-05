@@ -106,16 +106,13 @@ context
 )
 ;
 }
-nsresult
+bool
 isStripSpaceAllowed
 (
 const
 txXPathNode
 &
 aNode
-bool
-&
-aAllowed
 )
 {
 MOZ_CRASH

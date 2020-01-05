@@ -124,7 +124,7 @@ aResult
 )
 ;
 }
-nsresult
+bool
 txNodeSetContext
 :
 :
@@ -134,9 +134,6 @@ const
 txXPathNode
 &
 aNode
-bool
-&
-aAllowed
 )
 {
 NS_ASSERTION
@@ -159,7 +156,6 @@ mInner
 isStripSpaceAllowed
 (
 aNode
-aAllowed
 )
 ;
 }
