@@ -144,6 +144,7 @@ derive
 (
 PartialEq
 Clone
+Debug
 )
 ]
 #
