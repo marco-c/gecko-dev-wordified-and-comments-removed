@@ -656,7 +656,10 @@ GetRootNode
 PipelineId
 IpcSender
 <
+Option
+<
 NodeInfo
+>
 >
 )
 GetDocumentElement
@@ -664,7 +667,10 @@ GetDocumentElement
 PipelineId
 IpcSender
 <
+Option
+<
 NodeInfo
+>
 >
 )
 GetChildren
@@ -673,9 +679,12 @@ PipelineId
 String
 IpcSender
 <
+Option
+<
 Vec
 <
 NodeInfo
+>
 >
 >
 )
@@ -685,7 +694,10 @@ PipelineId
 String
 IpcSender
 <
+Option
+<
 ComputedNodeLayout
+>
 >
 )
 GetCachedMessages

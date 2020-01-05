@@ -361,6 +361,7 @@ WebDriverJSError
 {
 Timeout
 UnknownType
+BrowsingContextNotFound
 }
 pub
 type
