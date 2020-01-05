@@ -1818,10 +1818,6 @@ f32
 >
 >
 pub
-establishes_3d_context
-:
-bool
-pub
 scroll_policy
 :
 ScrollPolicy
@@ -1894,9 +1890,6 @@ Matrix4D
 f32
 >
 >
-establishes_3d_context
-:
-bool
 scroll_policy
 :
 ScrollPolicy
@@ -1939,9 +1932,6 @@ transform
 perspective
 :
 perspective
-establishes_3d_context
-:
-establishes_3d_context
 scroll_policy
 :
 scroll_policy
@@ -2018,7 +2008,6 @@ T
 normal
 None
 None
-true
 ScrollPolicy
 :
 :
