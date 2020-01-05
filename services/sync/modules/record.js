@@ -2973,9 +2973,12 @@ batch
 =
 "
 +
+encodeURIComponent
+(
 this
 .
 _batch
+)
 )
 ;
 if
@@ -3586,7 +3589,7 @@ max_batch_records
 {
 config
 .
-max_post_records
+max_batch_records
 =
 Infinity
 ;
@@ -3603,7 +3606,7 @@ max_post_bytes
 {
 config
 .
-max_post_records
+max_post_bytes
 =
 MAX_UPLOAD_BYTES
 ;
@@ -3620,7 +3623,7 @@ max_batch_bytes
 {
 config
 .
-max_post_records
+max_batch_bytes
 =
 Infinity
 ;
