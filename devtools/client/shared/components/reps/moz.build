@@ -144,6 +144,16 @@ grip
 js
 '
 '
+infinity
+.
+js
+'
+'
+nan
+.
+js
+'
+'
 null
 .
 js
