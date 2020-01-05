@@ -601,9 +601,8 @@ _ICO
 %
 s
 /
-dist
-/
-branding
+%
+s
 /
 %
 s
@@ -614,5 +613,11 @@ ico
 %
 (
 TOPOBJDIR
+CONFIG
+[
+'
+MOZ_BRANDING_DIRECTORY
+'
+]
 icon
 )
