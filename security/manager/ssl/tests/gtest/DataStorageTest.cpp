@@ -125,7 +125,7 @@ storage
 DataStorage
 :
 :
-Get
+GetFromRawFileName
 (
 testName
 )
