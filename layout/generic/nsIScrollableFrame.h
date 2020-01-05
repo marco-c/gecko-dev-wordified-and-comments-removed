@@ -606,6 +606,14 @@ LastScrollOrigin
 0
 ;
 virtual
+void
+AllowScrollOriginDowngrade
+(
+)
+=
+0
+;
+virtual
 nsIAtom
 *
 LastSmoothScrollOrigin
