@@ -213,9 +213,6 @@ aIndex
 bool
 &
 aFound
-ErrorResult
-&
-aRv
 )
 const
 ;

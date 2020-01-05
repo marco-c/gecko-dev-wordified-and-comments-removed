@@ -134,9 +134,6 @@ unsigned
 long
 length
 ;
-[
-Throws
-]
 getter
 DataTransferItem
 (
