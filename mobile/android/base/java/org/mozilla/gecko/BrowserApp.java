@@ -10771,9 +10771,8 @@ try
 {
 request
 .
-setDestinationInExternalFilesDir
+setDestinationInExternalPublicDir
 (
-this
 Environment
 .
 DIRECTORY_DOWNLOADS
