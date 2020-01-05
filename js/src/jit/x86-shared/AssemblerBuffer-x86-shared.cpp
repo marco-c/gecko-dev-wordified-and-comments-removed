@@ -31,6 +31,9 @@ jsopcode
 .
 h
 "
+#
+ifdef
+JS_JITSPEW
 void
 js
 :
@@ -117,3 +120,5 @@ buf
 ;
 }
 }
+#
+endif
