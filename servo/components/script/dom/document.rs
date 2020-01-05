@@ -5715,10 +5715,6 @@ string
 =
 >
 string
-.
-clone
-(
-)
 None
 =
 >
