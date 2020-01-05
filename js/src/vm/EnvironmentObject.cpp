@@ -166,6 +166,17 @@ include
 "
 vm
 /
+NativeObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl
