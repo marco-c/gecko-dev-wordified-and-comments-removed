@@ -87,11 +87,6 @@ JSMSG_PRECISION_RANGE
 "
 Precision_range
 "
-JSMSG_BAD_FORMAL
-:
-"
-Malformed_formal_parameter
-"
 JSMSG_STMT_AFTER_RETURN
 :
 "

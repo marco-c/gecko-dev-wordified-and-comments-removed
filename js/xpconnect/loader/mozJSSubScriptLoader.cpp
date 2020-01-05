@@ -700,6 +700,10 @@ options
 setFileAndLine
 (
 uriStr
+reuseGlobal
+?
+0
+:
 1
 )
 .

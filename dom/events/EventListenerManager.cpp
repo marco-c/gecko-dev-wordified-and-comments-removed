@@ -4681,11 +4681,6 @@ aListener
 =
 nullptr
 ;
-uint32_t
-lineNo
-=
-0
-;
 nsAutoCString
 url
 (
@@ -4744,10 +4739,6 @@ GetSpec
 (
 url
 )
-;
-lineNo
-=
-1
 ;
 }
 nsCOMPtr
@@ -5086,7 +5077,7 @@ url
 get
 (
 )
-lineNo
+0
 )
 .
 setVersion

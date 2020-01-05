@@ -958,17 +958,9 @@ input
 )
 ;
 }
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 testAll
 (
 testArgumentFunction
-)
-SyntaxError
 )
 ;
 function

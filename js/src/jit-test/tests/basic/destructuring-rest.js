@@ -1404,17 +1404,9 @@ input
 )
 ;
 }
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 testDeclaration
 (
 testArgumentFunction
-)
-SyntaxError
 )
 ;
 function
