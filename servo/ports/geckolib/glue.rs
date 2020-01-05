@@ -7296,11 +7296,6 @@ DeclaredValue
 :
 Value
 (
-Box
-:
-:
-new
-(
 specified
 :
 :
@@ -7316,7 +7311,6 @@ authored
 :
 None
 }
-)
 )
 )
 }

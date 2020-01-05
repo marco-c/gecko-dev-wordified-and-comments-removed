@@ -349,7 +349,10 @@ authored
 :
 Option
 <
-String
+Box
+<
+str
+>
 >
 }
 impl
@@ -415,6 +418,10 @@ Some
 s
 .
 into_owned
+(
+)
+.
+into_boxed_str
 (
 )
 )
@@ -576,7 +583,10 @@ authored
 :
 Option
 <
-String
+Box
+<
+str
+>
 >
 }
 no_viewport_percentage
