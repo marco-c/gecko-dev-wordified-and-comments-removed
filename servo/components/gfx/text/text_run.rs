@@ -195,6 +195,10 @@ pub
 bidi_level
 :
 u8
+pub
+extra_word_spacing
+:
+Au
 }
 impl
 Drop
@@ -1031,6 +1035,12 @@ glyphs
 bidi_level
 :
 bidi_level
+extra_word_spacing
+:
+Au
+(
+0
+)
 }
 }
 pub
@@ -1430,6 +1440,9 @@ advance_for_byte_range
 slice
 .
 range
+self
+.
+extra_word_spacing
 )
 }
 )
@@ -1507,6 +1520,9 @@ glyphs
 advance_for_byte_range
 (
 slice_range
+self
+.
+extra_word_spacing
 )
 self
 .
