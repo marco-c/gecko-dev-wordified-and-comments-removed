@@ -116,10 +116,7 @@ ipc_channel
 ipc
 :
 :
-{
-self
 IpcSender
-}
 ;
 use
 std
@@ -135,6 +132,9 @@ std
 :
 :
 cmp
+;
+use
+webrender_traits
 ;
 use
 webrender_traits
@@ -384,10 +384,13 @@ sender
 receiver
 )
 =
-ipc
+webrender_traits
 :
 :
 channel
+:
+:
+msg_channel
 (
 )
 .

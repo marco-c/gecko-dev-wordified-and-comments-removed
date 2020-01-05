@@ -616,6 +616,9 @@ features
 "
 serde_derive
 "
+"
+ipc
+"
 ]
 [
 target

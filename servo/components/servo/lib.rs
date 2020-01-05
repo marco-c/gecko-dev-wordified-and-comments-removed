@@ -849,9 +849,12 @@ RendererOptions
 device_pixel_ratio
 :
 device_pixel_ratio
-resource_path
+resource_override_path
 :
+Some
+(
 resource_path
+)
 enable_aa
 :
 opts
