@@ -729,11 +729,24 @@ test_unit
 (
 self
 test_name
+=
+None
 component
 =
 None
 )
 :
+        
+if
+test_name
+is
+None
+:
+            
+test_name
+=
+[
+]
         
 self
 .
