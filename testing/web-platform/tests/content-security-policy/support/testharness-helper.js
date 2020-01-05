@@ -5,7 +5,7 @@ test
 url
 )
 {
-document
+self
 .
 addEventListener
 (
@@ -104,7 +104,7 @@ reject
 =
 >
 {
-document
+self
 .
 addEventListener
 (

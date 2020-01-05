@@ -269,6 +269,7 @@ client
 .
 DONE
 )
+{
 /
 *
 Wait
@@ -278,15 +279,14 @@ error
 events
 *
 /
-setTimeout
-(
 this
 .
-step_func
+step_timeout
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -294,9 +294,9 @@ done
 (
 )
 }
-)
 10
 )
+}
 }
 )
 client
