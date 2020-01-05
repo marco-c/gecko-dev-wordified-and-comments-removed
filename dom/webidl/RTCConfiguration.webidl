@@ -175,9 +175,6 @@ enum
 RTCIceTransportPolicy
 {
 "
-none
-"
-"
 relay
 "
 "
