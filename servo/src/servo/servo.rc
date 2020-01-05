@@ -73,6 +73,9 @@ sdl
 use
 azure
 ;
+use
+js
+;
 mod
 dom
 {
