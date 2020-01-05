@@ -1516,6 +1516,11 @@ return
 mDataArrivedEvent
 ;
 }
+void
+NotifyCompositor
+(
+)
+;
 MediaEventSource
 <
 RefPtr
