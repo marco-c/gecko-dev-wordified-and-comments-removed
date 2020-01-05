@@ -49000,6 +49000,9 @@ break
 case
 eCSSUnit_Inherit
 :
+case
+eCSSUnit_Unset
+:
 svg
 -
 >
@@ -49045,9 +49048,6 @@ eCSSUnit_Initial
 :
 case
 eCSSUnit_None
-:
-case
-eCSSUnit_Unset
 :
 svg
 -
