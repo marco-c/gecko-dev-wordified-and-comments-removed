@@ -1500,11 +1500,6 @@ unsafe
 {
 new_rt_and_cx
 (
-parent_rt
-.
-rt
-(
-)
 )
 }
 ;
