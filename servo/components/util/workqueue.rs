@@ -1102,10 +1102,6 @@ WorkData
 work_count
 :
 usize
-pub
-data
-:
-QueueData
 }
 impl
 <
@@ -1141,9 +1137,6 @@ TaskState
 thread_count
 :
 usize
-user_data
-:
-QueueData
 )
 -
 >
@@ -1420,9 +1413,6 @@ supervisor_port
 work_count
 :
 0
-data
-:
-user_data
 }
 }
 #
@@ -1518,6 +1508,9 @@ run
 &
 mut
 self
+data
+:
+QueueData
 )
 {
 let
@@ -1571,8 +1564,6 @@ unwrap
 mut
 work_count
 &
-self
-.
 data
 )
 )
