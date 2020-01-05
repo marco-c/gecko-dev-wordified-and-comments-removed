@@ -981,6 +981,13 @@ h
 '
 composite
 /
+ImageComposite
+.
+h
+'
+'
+composite
+/
 ImageHost
 .
 h
@@ -2148,6 +2155,13 @@ cpp
 composite
 /
 GPUVideoTextureHost
+.
+cpp
+'
+'
+composite
+/
+ImageComposite
 .
 cpp
 '
