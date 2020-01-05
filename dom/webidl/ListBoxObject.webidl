@@ -105,6 +105,11 @@ getRowCount
 )
 ;
 long
+getRowHeight
+(
+)
+;
+long
 getNumberOfVisibleRows
 (
 )
