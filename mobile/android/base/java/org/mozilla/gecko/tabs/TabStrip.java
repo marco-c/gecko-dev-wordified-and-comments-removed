@@ -262,7 +262,7 @@ R
 .
 id
 .
-add_tab
+tablet_add_tab
 )
 ;
 addTabButton
