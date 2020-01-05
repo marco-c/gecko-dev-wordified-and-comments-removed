@@ -2108,6 +2108,14 @@ params
 ;
 if
 (
+NS_SUCCEEDED
+(
+DoPendingOpen
+(
+)
+)
+&
+&
 mFD
 )
 {
