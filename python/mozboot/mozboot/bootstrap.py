@@ -640,13 +640,11 @@ https
 :
 /
 /
-git
+github
 .
-mozilla
-.
-org
+com
 /
-integration
+mozilla
 /
 gecko
 -
