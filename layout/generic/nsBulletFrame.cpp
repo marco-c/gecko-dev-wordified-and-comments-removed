@@ -2836,11 +2836,13 @@ aParameters
 if
 (
 !
+ShouldUseAdvancedLayer
+(
+aManager
 gfxPrefs
 :
 :
 LayersAllowBulletLayers
-(
 )
 )
 {
