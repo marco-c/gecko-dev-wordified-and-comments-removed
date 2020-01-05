@@ -277,12 +277,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 boxshadow
@@ -936,11 +930,9 @@ if
 (
 !
 dwrite
-)
-fails
--
-if
-(
+&
+&
+!
 stylo
 )
 =

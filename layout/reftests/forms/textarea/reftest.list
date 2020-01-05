@@ -120,12 +120,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-)
 !
 =
 ltr
@@ -143,12 +137,6 @@ skip
 if
 (
 Android
-)
-fails
--
-if
-(
-stylo
 )
 !
 =

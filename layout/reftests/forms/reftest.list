@@ -105,12 +105,6 @@ oscpu
 88
 400
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 display
@@ -138,12 +132,6 @@ anti
 -
 aliasing
 issues
-fails
--
-if
-(
-stylo
-)
 =
 =
 display

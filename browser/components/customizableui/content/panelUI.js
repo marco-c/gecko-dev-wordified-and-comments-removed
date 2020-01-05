@@ -2476,6 +2476,7 @@ closest
 (
 "
 panelmultiview
+photonpanelmultiview
 "
 )
 ;
