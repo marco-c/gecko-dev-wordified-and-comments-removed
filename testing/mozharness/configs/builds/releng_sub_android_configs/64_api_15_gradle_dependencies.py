@@ -137,6 +137,10 @@ checkstyle
 '
          
 '
+findbugsAutomationDebug
+'
+         
+'
 geckoview
 :
 assembleWithoutGeckoBinaries
