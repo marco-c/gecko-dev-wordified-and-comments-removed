@@ -5885,7 +5885,7 @@ Firefox
 {
 throw
 new
-WebDriverError
+UnsupportedOperationError
 (
 "
 Unable
