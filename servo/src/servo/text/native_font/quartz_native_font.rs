@@ -168,8 +168,10 @@ option
 GlyphIndex
 >
 {
-fail
-;
+some
+(
+40u
+)
 }
 fn
 glyph_h_advance
@@ -185,8 +187,10 @@ option
 int
 >
 {
-fail
-;
+some
+(
+15
+)
 }
 }
 fn
