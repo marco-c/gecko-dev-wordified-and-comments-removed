@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+warnings
+)
+]
 extern
 crate
 webrender
