@@ -1468,6 +1468,11 @@ OverflowRegionRefreshInterval
 (
 )
 ;
+bool
+mIsComposingStyle
+=
+false
+;
 }
 ;
 }
