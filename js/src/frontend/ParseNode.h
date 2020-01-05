@@ -1870,12 +1870,6 @@ JSOP_LAMBDA_ARROW
 |
 isOp
 (
-JSOP_FUNWITHPROTO
-)
-|
-|
-isOp
-(
 JSOP_DEFFUN
 )
 |
@@ -1916,13 +1910,6 @@ JSOP_LAMBDA
 isOp
 (
 JSOP_LAMBDA_ARROW
-)
-&
-&
-!
-isOp
-(
-JSOP_FUNWITHPROTO
 )
 &
 &
