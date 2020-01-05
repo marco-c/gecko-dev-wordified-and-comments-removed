@@ -3,6 +3,7 @@ Msg
 Prefetch
 Decode
 GetImage
+WaitForImage
 Exit
 ;
 export
