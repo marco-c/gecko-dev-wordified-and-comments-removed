@@ -205,7 +205,6 @@ NavigationWindowEvent
 (
 WindowNavigateMsg
 )
-FinishedWindowEvent
 QuitWindowEvent
 KeyEvent
 (
@@ -398,17 +397,6 @@ write
 f
 "
 Navigation
-"
-)
-FinishedWindowEvent
-=
->
-write
-!
-(
-f
-"
-Finished
 "
 )
 QuitWindowEvent

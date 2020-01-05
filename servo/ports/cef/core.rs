@@ -316,9 +316,6 @@ layout_threads
 nonincremental_layout
 :
 false
-exit_after_load
-:
-false
 output_file
 :
 None

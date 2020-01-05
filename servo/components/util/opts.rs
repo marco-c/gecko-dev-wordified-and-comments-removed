@@ -162,10 +162,6 @@ nonincremental_layout
 :
 bool
 pub
-exit_after_load
-:
-bool
-pub
 output_file
 :
 Option
@@ -671,9 +667,6 @@ layout_threads
 :
 1
 nonincremental_layout
-:
-false
-exit_after_load
 :
 false
 output_file
@@ -2007,16 +2000,6 @@ layout_threads
 nonincremental_layout
 :
 nonincremental_layout
-exit_after_load
-:
-opt_match
-.
-opt_present
-(
-"
-x
-"
-)
 output_file
 :
 opt_match
