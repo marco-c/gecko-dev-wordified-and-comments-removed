@@ -137,7 +137,7 @@ mime_classifier
 :
 {
 ApacheBugFlag
-MIMEClassifier
+MimeClassifier
 NoSniffFlag
 }
 ;
@@ -689,7 +689,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 partial_body
 :
@@ -737,7 +737,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 partial_body
 :
@@ -3133,7 +3133,7 @@ mime_classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 devtools_chan
 :
@@ -3201,7 +3201,7 @@ Arc
 :
 new
 (
-MIMEClassifier
+MimeClassifier
 :
 :
 new
@@ -3446,7 +3446,7 @@ LoadData
 LoadConsumer
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 CancellationListener
 )
@@ -3461,7 +3461,7 @@ LoadData
 LoadConsumer
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 CancellationListener
 )

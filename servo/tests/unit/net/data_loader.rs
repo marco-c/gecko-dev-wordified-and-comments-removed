@@ -213,7 +213,7 @@ net
 mime_classifier
 :
 :
-MIMEClassifier
+MimeClassifier
 ;
 use
 net
@@ -258,7 +258,7 @@ Arc
 :
 new
 (
-MIMEClassifier
+MimeClassifier
 :
 :
 new

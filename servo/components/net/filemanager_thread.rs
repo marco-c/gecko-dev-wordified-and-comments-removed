@@ -18,7 +18,7 @@ use
 mime_classifier
 :
 :
-MIMEClassifier
+MimeClassifier
 ;
 use
 mime_guess
@@ -789,7 +789,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 blob_url_store
 :
@@ -864,7 +864,7 @@ Arc
 :
 new
 (
-MIMEClassifier
+MimeClassifier
 :
 :
 new
