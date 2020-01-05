@@ -202,11 +202,6 @@ global
 )
 }
 }
-pub
-trait
-BlobMethods
-{
-}
 impl
 Reflectable
 for
