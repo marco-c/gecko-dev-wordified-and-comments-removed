@@ -6299,12 +6299,9 @@ self
 .
 children
 .
-len
+is_empty
 (
 )
-=
-=
-0
 }
 fn
 child_count

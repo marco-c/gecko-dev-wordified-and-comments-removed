@@ -251,12 +251,9 @@ self
 if
 vec
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 false

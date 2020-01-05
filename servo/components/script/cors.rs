@@ -1345,12 +1345,9 @@ error
 if
 methods
 .
-len
+is_empty
 (
 )
-=
-=
-0
 |
 |
 preflight

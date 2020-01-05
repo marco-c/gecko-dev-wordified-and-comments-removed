@@ -13095,12 +13095,9 @@ node
 if
 value
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 None
 }

@@ -276,12 +276,9 @@ Image
 if
 buffer
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 None

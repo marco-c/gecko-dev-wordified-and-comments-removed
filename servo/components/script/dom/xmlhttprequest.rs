@@ -3948,12 +3948,9 @@ v
 if
 v
 .
-len
+is_empty
 (
 )
-=
-=
-0
 =
 >
 true

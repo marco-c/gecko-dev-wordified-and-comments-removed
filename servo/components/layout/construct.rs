@@ -4011,12 +4011,9 @@ text_content
 if
 text_content
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 }

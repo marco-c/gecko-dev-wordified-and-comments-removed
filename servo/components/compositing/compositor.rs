@@ -8012,12 +8012,9 @@ unused_buffers
 if
 layers_and_requests
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 false

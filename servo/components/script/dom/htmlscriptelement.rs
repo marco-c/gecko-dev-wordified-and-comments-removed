@@ -1698,12 +1698,9 @@ Text
 if
 text
 .
-len
+is_empty
 (
 )
-=
-=
-0
 &
 &
 !
