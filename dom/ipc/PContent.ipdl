@@ -1327,11 +1327,6 @@ PrefSetting
 ]
 prefs
 ;
-GfxVarUpdate
-[
-]
-gfxNonDefaultVarUpdates
-;
 ContentDeviceData
 contentDeviceData
 ;
