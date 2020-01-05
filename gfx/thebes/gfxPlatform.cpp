@@ -5257,7 +5257,7 @@ forget
 )
 ;
 }
-SourceSurfaceUserData
+auto
 *
 srcSurfUD
 =
@@ -5389,7 +5389,7 @@ return
 nullptr
 ;
 }
-DependentSourceSurfaceUserData
+auto
 *
 srcSurfUD
 =

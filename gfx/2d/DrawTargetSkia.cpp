@@ -6326,7 +6326,7 @@ mNumGlyphs
 )
 ;
 }
-CGRect
+auto
 *
 bboxes
 =

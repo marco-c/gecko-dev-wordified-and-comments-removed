@@ -2412,8 +2412,7 @@ GetBaseAddress
 (
 )
 ;
-unsigned
-char
+auto
 *
 dataCpy
 =
