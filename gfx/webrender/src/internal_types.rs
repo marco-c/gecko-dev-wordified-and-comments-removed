@@ -155,6 +155,7 @@ webrender_traits
 :
 :
 {
+ExternalImageId
 ScrollLayerId
 WebGLCommand
 }
@@ -203,6 +204,10 @@ CacheTextureId
 WebGL
 (
 u32
+)
+External
+(
+ExternalImageId
 )
 }
 pub
@@ -1014,6 +1019,7 @@ Data128
 Layers
 RenderTasks
 Geometry
+ResourceRects
 }
 impl
 TextureSampler
@@ -1618,9 +1624,12 @@ TextureFilter
 RenderTargetMode
 Option
 <
+Arc
+<
 Vec
 <
 u8
+>
 >
 >
 )
@@ -1630,9 +1639,12 @@ u32
 u32
 u32
 u32
+Arc
+<
 Vec
 <
 u8
+>
 >
 Option
 <

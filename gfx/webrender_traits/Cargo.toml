@@ -11,7 +11,7 @@ version
 "
 0
 .
-9
+10
 .
 0
 "
@@ -104,6 +104,15 @@ with
 syntex
 "
 ]
+ipc
+=
+[
+"
+ipc
+-
+channel
+"
+]
 [
 dependencies
 ]
@@ -193,6 +202,9 @@ ipc
 -
 channel
 =
+{
+version
+=
 "
 0
 .
@@ -200,6 +212,10 @@ channel
 .
 0
 "
+optional
+=
+true
+}
 [
 target
 .
