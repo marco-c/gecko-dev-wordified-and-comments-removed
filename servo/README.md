@@ -412,6 +412,7 @@ mesa
 cmake
 bzip2
 libxmu
+glu
 On
 Gentoo
 Linux
