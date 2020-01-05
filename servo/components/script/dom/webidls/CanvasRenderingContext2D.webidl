@@ -490,8 +490,9 @@ fillStyle
 default
 black
 )
-/
-/
+[
+Throws
+]
 CanvasGradient
 createLinearGradient
 (
@@ -505,8 +506,9 @@ double
 y1
 )
 ;
-/
-/
+[
+Throws
+]
 CanvasGradient
 createRadialGradient
 (

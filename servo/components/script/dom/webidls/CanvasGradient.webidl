@@ -105,8 +105,6 @@ should
 take
 a
 double
-/
-/
 void
 addColorStop
 (
