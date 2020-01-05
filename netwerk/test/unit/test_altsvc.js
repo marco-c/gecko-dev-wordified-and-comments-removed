@@ -1234,7 +1234,6 @@ addCert
 (
 der
 trustString
-null
 )
 ;
 }

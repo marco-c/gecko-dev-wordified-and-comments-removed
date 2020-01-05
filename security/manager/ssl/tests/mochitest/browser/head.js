@@ -208,9 +208,6 @@ addCertFromBase64
 (
 base64
 trustString
-"
-unused
-"
 )
 ;
 let

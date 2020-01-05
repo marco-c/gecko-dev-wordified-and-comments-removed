@@ -460,7 +460,6 @@ addCert
 (
 der
 trustString
-null
 )
 ;
 }
