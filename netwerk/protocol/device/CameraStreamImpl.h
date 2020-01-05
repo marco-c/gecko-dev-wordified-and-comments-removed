@@ -82,6 +82,7 @@ return
 mCallback
 ;
 }
+MOZ_MUST_USE
 bool
 Init
 (

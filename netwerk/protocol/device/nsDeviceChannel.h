@@ -24,6 +24,7 @@ nsDeviceChannel
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -32,6 +33,7 @@ nsIURI
 uri
 )
 ;
+MOZ_MUST_USE
 nsresult
 OpenContentStream
 (
