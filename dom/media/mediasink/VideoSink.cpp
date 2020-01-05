@@ -200,8 +200,7 @@ aFrameStats
 )
 mVideoFrameEndTime
 (
--
-1
+0
 )
 mHasVideo
 (
@@ -451,8 +450,7 @@ aType
 ;
 }
 return
--
-1
+0
 ;
 }
 int64_t
@@ -944,8 +942,7 @@ nullptr
 }
 mVideoFrameEndTime
 =
--
-1
+0
 ;
 }
 bool

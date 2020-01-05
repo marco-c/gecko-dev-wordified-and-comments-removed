@@ -241,8 +241,7 @@ GetEndTime
 ;
 }
 return
--
-1
+0
 ;
 }
 int64_t
