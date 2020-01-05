@@ -44,10 +44,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 #
 [
@@ -89,10 +89,10 @@ pub
 fn
 new
 (
-global
+window
 :
 &
-GlobalScope
+Window
 )
 -
 >
@@ -110,7 +110,7 @@ WebGLObject
 new_inherited
 (
 )
-global
+window
 WebGLObjectBinding
 :
 :

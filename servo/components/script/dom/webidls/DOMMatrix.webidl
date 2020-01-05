@@ -130,8 +130,6 @@ double
 >
 numberSequence
 )
-/
-/
 Exposed
 =
 (

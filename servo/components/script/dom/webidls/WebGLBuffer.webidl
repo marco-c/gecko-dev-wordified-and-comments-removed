@@ -99,6 +99,11 @@ latest
 4
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLBuffer
 :

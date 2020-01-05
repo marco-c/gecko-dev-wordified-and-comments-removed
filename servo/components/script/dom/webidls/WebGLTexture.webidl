@@ -95,6 +95,11 @@ latest
 9
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLTexture
 :

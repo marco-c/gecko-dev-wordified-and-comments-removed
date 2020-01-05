@@ -93,6 +93,9 @@ optional
 WebGLContextEventInit
 eventInit
 )
+Exposed
+=
+Window
 ]
 interface
 WebGLContextEvent

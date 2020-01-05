@@ -68,10 +68,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 use
 regex
@@ -3108,7 +3108,7 @@ CanonicalUUID
 _
 :
 &
-GlobalScope
+Window
 alias
 :
 u32
@@ -3129,7 +3129,7 @@ GetService
 _
 :
 &
-GlobalScope
+Window
 name
 :
 BluetoothServiceUUID
@@ -3156,7 +3156,7 @@ GetCharacteristic
 _
 :
 &
-GlobalScope
+Window
 name
 :
 BluetoothCharacteristicUUID
@@ -3183,7 +3183,7 @@ GetDescriptor
 _
 :
 &
-GlobalScope
+Window
 name
 :
 BluetoothDescriptorUUID

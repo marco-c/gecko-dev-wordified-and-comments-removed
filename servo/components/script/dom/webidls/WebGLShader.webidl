@@ -99,6 +99,11 @@ latest
 8
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLShader
 :

@@ -108,10 +108,10 @@ use
 dom
 :
 :
-globalscope
+serviceworkerglobalscope
 :
 :
-GlobalScope
+ServiceWorkerGlobalScope
 ;
 use
 js
@@ -177,10 +177,10 @@ pub
 fn
 new
 (
-global
+worker
 :
 &
-GlobalScope
+ServiceWorkerGlobalScope
 type_
 :
 Atom
@@ -210,7 +210,7 @@ ExtendableEvent
 new_inherited
 (
 )
-global
+worker
 ExtendableEventBinding
 :
 :
@@ -248,10 +248,10 @@ pub
 fn
 Constructor
 (
-global
+worker
 :
 &
-GlobalScope
+ServiceWorkerGlobalScope
 type_
 :
 DOMString
@@ -280,7 +280,7 @@ ExtendableEvent
 :
 new
 (
-global
+worker
 Atom
 :
 :

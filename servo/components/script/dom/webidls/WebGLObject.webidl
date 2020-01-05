@@ -99,6 +99,11 @@ latest
 3
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLObject
 {

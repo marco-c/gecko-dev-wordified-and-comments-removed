@@ -62,10 +62,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 #
 [
@@ -133,10 +133,10 @@ pub
 fn
 new
 (
-global
+window
 :
 &
-GlobalScope
+Window
 range_min
 :
 i32
@@ -166,7 +166,7 @@ range_min
 range_max
 precision
 )
-global
+window
 WebGLShaderPrecisionFormatBinding
 :
 :

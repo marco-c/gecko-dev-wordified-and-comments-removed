@@ -99,6 +99,11 @@ latest
 7
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLActiveInfo
 {

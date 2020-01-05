@@ -99,6 +99,11 @@ latest
 6
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLProgram
 :

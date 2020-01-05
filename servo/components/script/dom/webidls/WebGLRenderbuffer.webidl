@@ -99,6 +99,11 @@ latest
 5
 /
 /
+[
+Exposed
+=
+Window
+]
 interface
 WebGLRenderbuffer
 :

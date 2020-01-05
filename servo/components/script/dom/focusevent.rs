@@ -359,10 +359,10 @@ pub
 fn
 Constructor
 (
-global
+window
 :
 &
-GlobalScope
+Window
 type_
 :
 DOMString
@@ -426,11 +426,7 @@ FocusEvent
 :
 new
 (
-global
-.
-as_window
-(
-)
+window
 type_
 bubbles
 cancelable
