@@ -279,6 +279,7 @@ bluetooth_thread
 :
 BluetoothMethodMsg
 ;
+pub
 const
 MAXIMUM_ATTRIBUTE_LENGTH
 :
