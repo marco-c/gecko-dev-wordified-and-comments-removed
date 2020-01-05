@@ -516,12 +516,6 @@ value
 label
 :
 "
-This
-connection
-is
-not
-secure
-.
 Logins
 entered
 here
@@ -529,6 +523,8 @@ could
 be
 compromised
 .
+Learn
+More
 "
 style
 :
@@ -747,12 +743,6 @@ value
 label
 :
 "
-This
-connection
-is
-not
-secure
-.
 Logins
 entered
 here
@@ -760,6 +750,8 @@ could
 be
 compromised
 .
+Learn
+More
 "
 style
 :
@@ -1384,12 +1376,6 @@ value
 label
 :
 "
-This
-connection
-is
-not
-secure
-.
 Logins
 entered
 here
@@ -1397,6 +1383,8 @@ could
 be
 compromised
 .
+Learn
+More
 "
 style
 :
@@ -1615,12 +1603,6 @@ value
 label
 :
 "
-This
-connection
-is
-not
-secure
-.
 Logins
 entered
 here
@@ -1628,6 +1610,8 @@ could
 be
 compromised
 .
+Learn
+More
 "
 style
 :
