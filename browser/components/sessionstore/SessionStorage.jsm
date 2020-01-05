@@ -345,13 +345,13 @@ getOriginAttributes
 )
 ;
 let
-originURI
+dataPrincipal
 =
 Services
 .
-io
+scriptSecurityManager
 .
-newURI
+createCodebasePrincipalFromOrigin
 (
 origin
 )
@@ -364,7 +364,9 @@ scriptSecurityManager
 .
 createCodebasePrincipal
 (
-originURI
+dataPrincipal
+.
+URI
 attrs
 )
 ;
