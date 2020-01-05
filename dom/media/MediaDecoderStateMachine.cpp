@@ -2077,6 +2077,13 @@ aTarget
 )
 override
 ;
+void
+HandleVideoSuspendTimeout
+(
+)
+override
+{
+}
 private
 :
 void
