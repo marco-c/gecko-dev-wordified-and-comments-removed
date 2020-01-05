@@ -650,7 +650,7 @@ yield
 manualUpdatePromise
 ;
 let
-item
+list
 =
 win
 .
@@ -664,6 +664,15 @@ addon
 list
 "
 )
+;
+list
+.
+clientHeight
+;
+let
+item
+=
+list
 .
 children
 .
