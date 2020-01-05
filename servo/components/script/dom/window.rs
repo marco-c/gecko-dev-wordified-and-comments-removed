@@ -7428,7 +7428,6 @@ layout
 let
 reflow
 =
-box
 ScriptReflow
 {
 reflow_info

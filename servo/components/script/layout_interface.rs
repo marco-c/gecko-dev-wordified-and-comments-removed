@@ -255,10 +255,7 @@ ViewportRule
 SetQuirksMode
 Reflow
 (
-Box
-<
 ScriptReflow
->
 )
 GetRPC
 (

@@ -3020,7 +3020,6 @@ self
 handle_reflow
 (
 &
-*
 data
 possibly_locked_rw_data
 )
