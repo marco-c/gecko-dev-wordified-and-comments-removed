@@ -222,6 +222,8 @@ uint8_t
 >
 &
 aBuffer
+uint64_t
+aDurationUsecs
 )
 =
 0

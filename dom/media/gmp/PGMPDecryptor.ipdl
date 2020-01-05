@@ -247,6 +247,8 @@ uint8_t
 aBuffer
 GMPDecryptionData
 aMetadata
+uint64_t
+aDurationUsecs
 )
 ;
 async
