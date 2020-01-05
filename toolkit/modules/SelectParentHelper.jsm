@@ -293,12 +293,6 @@ rgba
 0
 )
 "
-&
-&
-selectBackgroundColor
-!
-=
-selectColor
 )
 {
 ruleBody
