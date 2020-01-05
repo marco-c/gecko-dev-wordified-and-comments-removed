@@ -1478,7 +1478,7 @@ image_rendering
 T
 :
 :
-CrispEdges
+crispedges
 =
 >
 webrender_traits
@@ -1494,7 +1494,7 @@ image_rendering
 T
 :
 :
-Auto
+auto
 =
 >
 webrender_traits
@@ -1510,7 +1510,7 @@ image_rendering
 T
 :
 :
-Pixelated
+pixelated
 =
 >
 webrender_traits

@@ -8314,7 +8314,7 @@ image_rendering
 T
 :
 :
-Auto
+auto
 }
 )
 }
