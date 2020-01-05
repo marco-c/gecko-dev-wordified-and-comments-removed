@@ -1326,8 +1326,6 @@ _GetCurrentProcess
 :
 null
 getCounters
-:
-function
 (
 )
 {
@@ -1370,8 +1368,6 @@ null
 ;
 }
 getCounters_Windows
-:
-function
 (
 )
 {
@@ -1639,8 +1635,6 @@ _isUserIdle
 :
 false
 init
-:
-function
 (
 )
 {
@@ -1743,8 +1737,6 @@ false
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -1861,8 +1853,6 @@ true
 ;
 }
 _clearTimeout
-:
-function
 (
 )
 {
@@ -1885,8 +1875,6 @@ _schedulerTimer
 }
 }
 _rescheduleTimeout
-:
-function
 (
 )
 {
@@ -2044,8 +2032,6 @@ timeout
 ;
 }
 _sentDailyPingToday
-:
-function
 (
 nowDate
 )
@@ -2076,8 +2062,6 @@ getTime
 ;
 }
 _isDailyPingDue
-:
-function
 (
 nowDate
 )
@@ -2174,8 +2158,6 @@ true
 ;
 }
 _saveAbortedPing
-:
-function
 (
 now
 competingPayload
@@ -2219,8 +2201,6 @@ e
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -2302,8 +2282,6 @@ undefined
 ;
 }
 _onSchedulerTick
-:
-function
 (
 )
 {
@@ -2423,8 +2401,6 @@ promise
 ;
 }
 _schedulerTickLogic
-:
-function
 (
 )
 {
@@ -2640,8 +2616,6 @@ resolve
 ;
 }
 reschedulePings
-:
-function
 (
 reason
 competingPayload
@@ -2792,13 +2766,9 @@ freeze
 (
 {
 PREF_PREVIOUS_BUILDID
-:
-PREF_PREVIOUS_BUILDID
 }
 )
 testPing
-:
-function
 (
 )
 {
@@ -2811,8 +2781,6 @@ testPing
 ;
 }
 getPayload
-:
-function
 (
 reason
 clearSubsession
@@ -2831,8 +2799,6 @@ clearSubsession
 ;
 }
 getChildThreadHangs
-:
-function
 (
 )
 {
@@ -2845,8 +2811,6 @@ getChildThreadHangs
 ;
 }
 testSavePendingPing
-:
-function
 (
 )
 {
@@ -2859,8 +2823,6 @@ testSavePendingPing
 ;
 }
 gatherStartup
-:
-function
 (
 )
 {
@@ -2873,8 +2835,6 @@ gatherStartup
 ;
 }
 setAddOns
-:
-function
 (
 aAddOns
 )
@@ -2889,8 +2849,6 @@ aAddOns
 ;
 }
 getMetadata
-:
-function
 (
 reason
 )
@@ -2905,8 +2863,6 @@ reason
 ;
 }
 testReset
-:
-function
 (
 )
 {
@@ -2976,8 +2932,6 @@ testUninstall
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -2990,8 +2944,6 @@ shutdownChromeProcess
 ;
 }
 setupContent
-:
-function
 (
 testing
 =
@@ -3008,8 +2960,6 @@ testing
 ;
 }
 testUninstall
-:
-function
 (
 )
 {
@@ -3030,8 +2980,6 @@ ex
 }
 }
 earlyInit
-:
-function
 (
 aTesting
 =
@@ -3048,8 +2996,6 @@ aTesting
 ;
 }
 delayedInit
-:
-function
 (
 )
 {
@@ -3062,8 +3008,6 @@ delayedInit
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -3883,8 +3827,6 @@ retgram
 ;
 }
 getDatasetType
-:
-function
 (
 )
 {
@@ -4208,8 +4150,6 @@ ret
 ;
 }
 getKeyedHistograms
-:
-function
 (
 subsession
 clearSubsession
@@ -4452,8 +4392,6 @@ ret
 ;
 }
 getScalars
-:
-function
 (
 subsession
 clearSubsession
@@ -4623,8 +4561,6 @@ ret
 ;
 }
 getEvents
-:
-function
 (
 isSubsession
 clearSubsession
@@ -4861,8 +4797,6 @@ ret
 =
 {
 reason
-:
-reason
 revision
 :
 AppConstants
@@ -4923,10 +4857,6 @@ this
 .
 _profileSubsessionCounter
 sessionStartDate
-:
-sessionStartDate
-subsessionStartDate
-:
 subsessionStartDate
 sessionLength
 :
@@ -5571,8 +5501,6 @@ startTime
 ;
 }
 handleMemoryReport
-:
-function
 (
 id
 units
@@ -5796,8 +5724,6 @@ payload
 ;
 }
 assemblePayloadWithMeasurements
-:
-function
 (
 simpleMeasurements
 info
@@ -5904,8 +5830,6 @@ payloadObj
 ver
 :
 PAYLOAD_VERSION
-simpleMeasurements
-:
 simpleMeasurements
 }
 ;
@@ -6546,8 +6470,6 @@ payloadObj
 ;
 }
 startNewSubsession
-:
-function
 (
 )
 {
@@ -7010,8 +6932,6 @@ e
 }
 }
 earlyInit
-:
-function
 (
 testing
 )
@@ -7295,8 +7215,6 @@ this
 ;
 }
 delayedInit
-:
-function
 (
 )
 {
@@ -7798,8 +7716,6 @@ push
 (
 {
 source
-:
-source
 payload
 :
 message
@@ -8259,8 +8175,6 @@ payload
 ;
 }
 saveShutdownPings
-:
-function
 (
 )
 {
@@ -8941,8 +8855,6 @@ REASON_TEST_PING
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -9321,8 +9233,6 @@ undefined
 ;
 }
 shutdownChromeProcess
-:
-function
 (
 )
 {
@@ -9478,8 +9388,6 @@ cleanup
 ;
 }
 _sendDailyPing
-:
-function
 (
 )
 {
@@ -9722,8 +9630,6 @@ data
 }
 )
 _getSessionDataObject
-:
-function
 (
 )
 {
@@ -9748,8 +9654,6 @@ _profileSubsessionCounter
 ;
 }
 _onEnvironmentChange
-:
-function
 (
 reason
 oldEnvironment
@@ -9878,8 +9782,6 @@ options
 ;
 }
 _isClassicReason
-:
-function
 (
 reason
 )
@@ -9903,8 +9805,6 @@ reason
 ;
 }
 _getState
-:
-function
 (
 )
 {
@@ -9931,8 +9831,6 @@ _delayedInitTask
 ;
 }
 _saveAbortedSessionPing
-:
-function
 (
 aProvidedPayload
 =

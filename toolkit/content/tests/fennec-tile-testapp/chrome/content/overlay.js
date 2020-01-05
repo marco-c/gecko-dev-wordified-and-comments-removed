@@ -3,8 +3,6 @@ tile
 =
 {
 onLoad
-:
-function
 (
 )
 {
@@ -31,8 +29,6 @@ strings
 ;
 }
 onMenuItemCommand
-:
-function
 (
 e
 )

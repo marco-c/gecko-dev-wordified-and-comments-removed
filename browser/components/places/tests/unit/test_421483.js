@@ -510,8 +510,6 @@ update
 (
 {
 guid
-:
-guid
 parentGuid
 :
 subfolder

@@ -232,8 +232,6 @@ PrefObserver
 =
 {
 init
-:
-function
 (
 )
 {
@@ -274,8 +272,6 @@ PREF_LOGGING_ENABLED
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -558,8 +554,6 @@ _lastError
 ;
 }
 _startTimer
-:
-function
 (
 )
 {
@@ -628,8 +622,6 @@ TYPE_ONE_SHOT
 ;
 }
 saveChanges
-:
-function
 (
 )
 {
@@ -727,8 +719,6 @@ promise
 ;
 }
 _deferredSave
-:
-function
 (
 )
 {
@@ -978,8 +968,6 @@ error
 ;
 }
 flush
-:
-function
 (
 )
 {

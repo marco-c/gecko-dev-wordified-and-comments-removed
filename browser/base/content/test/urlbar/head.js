@@ -252,8 +252,6 @@ progressListener
 =
 {
 onStateChange
-:
-function
 (
 webProgress
 req
@@ -1152,8 +1150,6 @@ null
 false
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -1193,8 +1189,6 @@ engine
 ;
 }
 onError
-:
-function
 (
 errCode
 )

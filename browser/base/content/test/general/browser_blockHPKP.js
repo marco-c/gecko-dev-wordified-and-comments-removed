@@ -280,8 +280,6 @@ successfulPinningPageListener
 =
 {
 handleEvent
-:
-function
 (
 )
 {

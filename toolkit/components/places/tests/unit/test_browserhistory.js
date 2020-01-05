@@ -159,8 +159,6 @@ uri
 (
 {
 uri
-:
-uri
 }
 )
 )
@@ -709,8 +707,6 @@ moz_historyvisits
 "
 {
 handleError
-:
-function
 (
 error
 )
@@ -722,16 +718,12 @@ error
 ;
 }
 handleResult
-:
-function
 (
 result
 )
 {
 }
 handleCompletion
-:
-function
 (
 result
 )

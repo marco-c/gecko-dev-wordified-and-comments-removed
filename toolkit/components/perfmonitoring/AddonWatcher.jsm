@@ -234,8 +234,6 @@ slow
 addon
 "
 init
-:
-function
 (
 )
 {
@@ -354,8 +352,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -460,8 +456,6 @@ _listener
 :
 null
 _getAlerts
-:
-function
 (
 addonId
 )
@@ -520,8 +514,6 @@ Map
 (
 )
 _onSlowAddons
-:
-function
 (
 addons
 )
@@ -1053,8 +1045,6 @@ stack
 }
 }
 ignoreAddonForSession
-:
-function
 (
 addonid
 )
@@ -1070,8 +1060,6 @@ addonid
 ;
 }
 ignoreAddonPermanently
-:
-function
 (
 addonid
 )

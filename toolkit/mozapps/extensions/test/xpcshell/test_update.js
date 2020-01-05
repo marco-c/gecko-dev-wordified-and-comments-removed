@@ -741,8 +741,6 @@ findUpdates
 (
 {
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -762,8 +760,6 @@ notification
 ;
 }
 onUpdateAvailable
-:
-function
 (
 addon
 install
@@ -873,8 +869,6 @@ findUpdates
 (
 {
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 )
 {
@@ -893,8 +887,6 @@ notification
 ;
 }
 onUpdateAvailable
-:
-function
 (
 newAddon
 newInstall
@@ -964,8 +956,6 @@ install
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 )
 {
@@ -994,8 +984,6 @@ UPDATE_WHEN_USER_REQUESTED
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1080,8 +1068,6 @@ findUpdates
 (
 {
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1101,8 +1087,6 @@ notification
 ;
 }
 onUpdateAvailable
-:
-function
 (
 )
 {
@@ -1125,8 +1109,6 @@ downloading
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1546,8 +1528,6 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1575,8 +1555,6 @@ isActive
 ;
 }
 onUpdateAvailable
-:
-function
 (
 addon
 install
@@ -1598,8 +1576,6 @@ update
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1787,8 +1763,6 @@ sawUpdate
 :
 false
 onCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1808,8 +1782,6 @@ information
 ;
 }
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1822,8 +1794,6 @@ true
 ;
 }
 onUpdateAvailable
-:
-function
 (
 addon
 install
@@ -1845,8 +1815,6 @@ update
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 addon
 )
@@ -1968,8 +1936,6 @@ sawUpdate
 :
 false
 onCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -2003,8 +1969,6 @@ true
 ;
 }
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -2024,8 +1988,6 @@ information
 ;
 }
 onUpdateAvailable
-:
-function
 (
 addon
 install
@@ -2047,8 +2009,6 @@ update
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 addon
 )
@@ -3560,8 +3520,6 @@ compatListener
 =
 {
 onUpdateFinished
-:
-function
 (
 addon
 error
@@ -3589,8 +3547,6 @@ updateListener
 =
 {
 onUpdateAvailable
-:
-function
 (
 addon
 update
@@ -3598,8 +3554,6 @@ update
 {
 }
 onUpdateFinished
-:
-function
 (
 addon
 error
@@ -3857,8 +3811,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 addon
 )
@@ -3922,8 +3874,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 addon
 )
@@ -4172,8 +4122,6 @@ sawUpdate
 :
 false
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 addon
 )
@@ -4192,8 +4140,6 @@ information
 ;
 }
 onUpdateAvailable
-:
-function
 (
 addon
 install
@@ -4215,8 +4161,6 @@ update
 ;
 }
 onUpdateFinished
-:
-function
 (
 addon
 )
@@ -4514,8 +4458,6 @@ addInstallListener
 (
 {
 onNewInstall
-:
-function
 (
 aInstall
 )
@@ -4569,8 +4511,6 @@ id
 ;
 }
 onDownloadStarted
-:
-function
 (
 aInstall
 )
@@ -4594,8 +4534,6 @@ org
 ;
 }
 onDownloadEnded
-:
-function
 (
 aInstall
 )
@@ -4619,8 +4557,6 @@ org
 ;
 }
 onDownloadFailed
-:
-function
 (
 aInstall
 )
@@ -4640,8 +4576,6 @@ event
 ;
 }
 onDownloadCancelled
-:
-function
 (
 aInstall
 )
@@ -4661,8 +4595,6 @@ event
 ;
 }
 onInstallStarted
-:
-function
 (
 aInstall
 )
@@ -4686,8 +4618,6 @@ org
 ;
 }
 onInstallEnded
-:
-function
 (
 aInstall
 )
@@ -4728,8 +4658,6 @@ check_test_14
 ;
 }
 onInstallFailed
-:
-function
 (
 aInstall
 )
@@ -4749,8 +4677,6 @@ event
 ;
 }
 onInstallCancelled
-:
-function
 (
 aInstall
 )
@@ -5081,8 +5007,6 @@ addInstallListener
 (
 {
 onNewInstall
-:
-function
 (
 aInstall
 )
@@ -5136,8 +5060,6 @@ id
 ;
 }
 onDownloadStarted
-:
-function
 (
 aInstall
 )
@@ -5161,8 +5083,6 @@ org
 ;
 }
 onDownloadEnded
-:
-function
 (
 aInstall
 )
@@ -5186,8 +5106,6 @@ org
 ;
 }
 onDownloadFailed
-:
-function
 (
 aInstall
 )
@@ -5207,8 +5125,6 @@ event
 ;
 }
 onDownloadCancelled
-:
-function
 (
 aInstall
 )
@@ -5228,8 +5144,6 @@ event
 ;
 }
 onInstallStarted
-:
-function
 (
 aInstall
 )
@@ -5253,8 +5167,6 @@ org
 ;
 }
 onInstallEnded
-:
-function
 (
 aInstall
 )
@@ -5283,8 +5195,6 @@ check_test_15
 ;
 }
 onInstallFailed
-:
-function
 (
 aInstall
 )
@@ -5304,8 +5214,6 @@ event
 ;
 }
 onInstallCancelled
-:
-function
 (
 aInstall
 )
@@ -5472,8 +5380,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 )
 {
@@ -5559,8 +5465,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 )
 {
@@ -5768,8 +5672,6 @@ addInstallListener
 (
 {
 onNewInstall
-:
-function
 (
 aInstall
 )
@@ -5817,8 +5719,6 @@ version
 ;
 }
 onDownloadFailed
-:
-function
 (
 aInstall
 )
@@ -6050,8 +5950,6 @@ findUpdates
 (
 {
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 )
 {
@@ -6069,8 +5967,6 @@ information
 ;
 }
 onUpdateAvailable
-:
-function
 (
 )
 {
@@ -6090,8 +5986,6 @@ update
 ;
 }
 onUpdateFinished
-:
-function
 (
 )
 {
@@ -6236,8 +6130,6 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
-:
-function
 (
 )
 {
@@ -6257,8 +6149,6 @@ information
 ;
 }
 onUpdateAvailable
-:
-function
 (
 )
 {
@@ -6278,8 +6168,6 @@ update
 ;
 }
 onUpdateFinished
-:
-function
 (
 )
 {
@@ -8277,8 +8165,6 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
-:
-function
 (
 )
 {
@@ -8298,8 +8184,6 @@ information
 ;
 }
 onUpdateAvailable
-:
-function
 (
 )
 {
@@ -8319,8 +8203,6 @@ update
 ;
 }
 onUpdateFinished
-:
-function
 (
 )
 {

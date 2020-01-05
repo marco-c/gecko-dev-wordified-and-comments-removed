@@ -189,10 +189,8 @@ about
 profile
 changes
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -270,8 +268,6 @@ withNewTab
 (
 {
 gBrowser
-:
-gBrowser
 url
 :
 TEST_BASE_URL
@@ -310,10 +306,8 @@ the
 fxAccounts
 object
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -454,8 +448,6 @@ helpers
 :
 {
 login
-:
-login
 }
 }
 )
@@ -469,8 +461,6 @@ BrowserTestUtils
 withNewTab
 (
 {
-gBrowser
-:
 gBrowser
 url
 :
@@ -507,10 +497,8 @@ messages
 should
 respond
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -678,8 +666,6 @@ withNewTab
 (
 {
 gBrowser
-:
-gBrowser
 url
 :
 properUrl
@@ -713,10 +699,8 @@ the
 fxAccounts
 object
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -781,8 +765,6 @@ helpers
 :
 {
 logout
-:
-logout
 }
 }
 )
@@ -796,8 +778,6 @@ BrowserTestUtils
 withNewTab
 (
 {
-gBrowser
-:
 gBrowser
 url
 :
@@ -837,10 +817,8 @@ the
 fxAccounts
 object
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -905,8 +883,6 @@ helpers
 :
 {
 logout
-:
-logout
 }
 }
 )
@@ -920,8 +896,6 @@ BrowserTestUtils
 withNewTab
 (
 {
-gBrowser
-:
 gBrowser
 url
 :

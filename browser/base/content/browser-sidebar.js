@@ -1050,8 +1050,6 @@ VisibilityChange
 "
 {
 commandID
-:
-commandID
 isOpen
 :
 true
@@ -1230,8 +1228,6 @@ Sidebar
 VisibilityChange
 "
 {
-commandID
-:
 commandID
 isOpen
 :

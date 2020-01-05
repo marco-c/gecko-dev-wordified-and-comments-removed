@@ -1283,8 +1283,6 @@ domain
 :
 aDomain
 idpParams
-:
-idpParams
 }
 ;
 log

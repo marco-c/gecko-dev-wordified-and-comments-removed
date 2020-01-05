@@ -701,8 +701,6 @@ nbRoot
 =
 {
 toString
-:
-function
 (
 )
 {

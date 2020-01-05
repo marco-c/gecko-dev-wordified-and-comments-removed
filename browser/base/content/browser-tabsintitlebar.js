@@ -3,8 +3,6 @@ TabsInTitlebar
 =
 {
 init
-:
-function
 (
 )
 {
@@ -190,8 +188,6 @@ _update
 }
 }
 allowedBy
-:
-function
 (
 condition
 allow
@@ -299,8 +295,6 @@ true
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -326,8 +320,6 @@ _readPref
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -362,8 +354,6 @@ true
 }
 }
 _onMenuMutate
-:
-function
 (
 aMutations
 )
@@ -433,8 +423,6 @@ _lastSizeMode
 :
 null
 _readPref
-:
-function
 (
 )
 {
@@ -459,8 +447,6 @@ _prefName
 ;
 }
 _update
-:
-function
 (
 aForce
 =
@@ -1178,8 +1164,6 @@ updateLWTStyling
 }
 }
 _sizePlaceholder
-:
-function
 (
 type
 width
@@ -1227,8 +1211,6 @@ width
 ;
 }
 uninit
-:
-function
 (
 )
 {

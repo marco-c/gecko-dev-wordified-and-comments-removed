@@ -3,8 +3,6 @@ CustomizationHandler
 =
 {
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -61,8 +59,6 @@ break
 }
 }
 isCustomizing
-:
-function
 (
 )
 {
@@ -80,8 +76,6 @@ customizing
 ;
 }
 _customizationStarting
-:
-function
 (
 )
 {
@@ -208,8 +202,6 @@ true
 }
 }
 _customizationChange
-:
-function
 (
 )
 {
@@ -221,8 +213,6 @@ customizeChange
 ;
 }
 _customizationEnding
-:
-function
 (
 aDetails
 )

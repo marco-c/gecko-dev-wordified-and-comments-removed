@@ -812,8 +812,6 @@ true
 ;
 }
 selectPanel
-:
-function
 (
 aChildID
 )
@@ -958,8 +956,6 @@ panel
 }
 }
 checkForUpdates
-:
-function
 (
 )
 {
@@ -1036,8 +1032,6 @@ true
 ;
 }
 buttonRestartAfterDownload
-:
-function
 (
 )
 {
@@ -1216,8 +1210,6 @@ updateCheckListener
 :
 {
 onCheckComplete
-:
-function
 (
 aRequest
 aUpdates
@@ -1365,8 +1357,6 @@ downloadAndInstall
 ;
 }
 onError
-:
-function
 (
 aRequest
 aUpdate
@@ -1389,8 +1379,6 @@ noUpdatesFound
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -1435,8 +1423,6 @@ this
 }
 }
 startDownload
-:
-function
 (
 )
 {
@@ -1537,8 +1523,6 @@ setupDownloadingUI
 ;
 }
 setupDownloadingUI
-:
-function
 (
 )
 {
@@ -1595,8 +1579,6 @@ this
 ;
 }
 removeDownloadListener
-:
-function
 (
 )
 {
@@ -1619,8 +1601,6 @@ this
 }
 }
 onStartRequest
-:
-function
 (
 aRequest
 aContext
@@ -1628,8 +1608,6 @@ aContext
 {
 }
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -1927,8 +1905,6 @@ break
 }
 }
 onStatus
-:
-function
 (
 aRequest
 aContext
@@ -1938,8 +1914,6 @@ aStatusArg
 {
 }
 onProgress
-:
-function
 (
 aRequest
 aContext
@@ -1963,8 +1937,6 @@ aProgressMax
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )

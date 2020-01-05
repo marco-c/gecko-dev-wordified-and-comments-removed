@@ -134,8 +134,6 @@ _rowCount
 ;
 }
 getCellText
-:
-function
 (
 aRow
 aColumn
@@ -190,8 +188,6 @@ return
 ;
 }
 isSeparator
-:
-function
 (
 aIndex
 )
@@ -201,8 +197,6 @@ false
 ;
 }
 isSorted
-:
-function
 (
 )
 {
@@ -211,8 +205,6 @@ false
 ;
 }
 isContainer
-:
-function
 (
 aIndex
 )
@@ -222,16 +214,12 @@ false
 ;
 }
 setTree
-:
-function
 (
 aTree
 )
 {
 }
 getImageSrc
-:
-function
 (
 aRow
 aColumn
@@ -239,8 +227,6 @@ aColumn
 {
 }
 getProgressMode
-:
-function
 (
 aRow
 aColumn
@@ -248,8 +234,6 @@ aColumn
 {
 }
 getCellValue
-:
-function
 (
 aRow
 aColumn
@@ -257,16 +241,12 @@ aColumn
 {
 }
 cycleHeader
-:
-function
 (
 column
 )
 {
 }
 getRowProperties
-:
-function
 (
 row
 )
@@ -277,8 +257,6 @@ return
 ;
 }
 getColumnProperties
-:
-function
 (
 column
 )
@@ -289,8 +267,6 @@ return
 ;
 }
 getCellProperties
-:
-function
 (
 row
 column
@@ -326,8 +302,6 @@ return
 }
 }
 _getCapabilityString
-:
-function
 (
 aCapability
 )
@@ -407,8 +381,6 @@ stringKey
 ;
 }
 addPermission
-:
-function
 (
 aCapability
 )
@@ -678,8 +650,6 @@ permissionParams
 =
 {
 principal
-:
-principal
 type
 :
 this
@@ -784,8 +754,6 @@ length
 ;
 }
 _removePermission
-:
-function
 (
 aPermission
 )
@@ -838,8 +806,6 @@ aPermission
 }
 }
 _handleCapabilityChange
-:
-function
 (
 )
 {
@@ -874,8 +840,6 @@ invalidate
 ;
 }
 _addPermission
-:
-function
 (
 aPermission
 )
@@ -921,8 +885,6 @@ _resortPermissions
 ;
 }
 _resortPermissions
-:
-function
 (
 )
 {
@@ -956,8 +918,6 @@ _lastPermissionSortAscending
 ;
 }
 onHostInput
-:
-function
 (
 aSiteField
 )
@@ -1012,8 +972,6 @@ value
 ;
 }
 onWindowKeyPress
-:
-function
 (
 aEvent
 )
@@ -1037,8 +995,6 @@ close
 ;
 }
 onHostKeyPress
-:
-function
 (
 aEvent
 )
@@ -1069,8 +1025,6 @@ click
 ;
 }
 onLoad
-:
-function
 (
 )
 {
@@ -1106,8 +1060,6 @@ params
 ;
 }
 init
-:
-function
 (
 aParams
 )
@@ -1464,8 +1416,6 @@ focus
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -1500,8 +1450,6 @@ true
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1667,8 +1615,6 @@ principal
 }
 }
 onPermissionSelected
-:
-function
 (
 )
 {
@@ -1734,8 +1680,6 @@ hasRows
 ;
 }
 onPermissionDeleted
-:
-function
 (
 )
 {
@@ -1844,8 +1788,6 @@ length
 ;
 }
 onAllPermissionsDeleted
-:
-function
 (
 )
 {
@@ -1944,8 +1886,6 @@ true
 ;
 }
 onPermissionKeyPress
-:
-function
 (
 aEvent
 )
@@ -2008,8 +1948,6 @@ _lastPermissionSortAscending
 :
 false
 _permissionsComparator
-:
-function
 (
 a
 b
@@ -2033,8 +1971,6 @@ toLowerCase
 ;
 }
 onPermissionSort
-:
-function
 (
 aColumn
 )
@@ -2076,8 +2012,6 @@ aColumn
 ;
 }
 onApplyChanges
-:
-function
 (
 )
 {
@@ -2156,8 +2090,6 @@ close
 ;
 }
 _loadPermissions
-:
-function
 (
 )
 {
@@ -2278,8 +2210,6 @@ length
 ;
 }
 _addPermissionToList
-:
-function
 (
 aPermission
 )
@@ -2360,8 +2290,6 @@ p
 }
 }
 _removePermissionFromList
-:
-function
 (
 aPrincipal
 )
@@ -2456,8 +2384,6 @@ break
 }
 }
 setOrigin
-:
-function
 (
 aOrigin
 )

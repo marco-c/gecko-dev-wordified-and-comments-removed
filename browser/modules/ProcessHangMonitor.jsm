@@ -123,8 +123,6 @@ Map
 (
 )
 init
-:
-function
 (
 )
 {
@@ -188,8 +186,6 @@ this
 ;
 }
 terminateScript
-:
-function
 (
 win
 )
@@ -211,8 +207,6 @@ terminateScript
 ;
 }
 debugScript
-:
-function
 (
 win
 )
@@ -295,8 +289,6 @@ callback
 ;
 }
 terminatePlugin
-:
-function
 (
 win
 )
@@ -318,8 +310,6 @@ terminatePlugin
 ;
 }
 stopIt
-:
-function
 (
 win
 )
@@ -385,8 +375,6 @@ break
 }
 }
 waitLonger
-:
-function
 (
 win
 )
@@ -528,8 +516,6 @@ updateWindows
 ;
 }
 handleUserInput
-:
-function
 (
 win
 func
@@ -574,8 +560,6 @@ report
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -762,8 +746,6 @@ break
 }
 }
 findActiveReport
-:
-function
 (
 browser
 )
@@ -812,8 +794,6 @@ null
 ;
 }
 findPausedReport
-:
-function
 (
 browser
 )
@@ -864,8 +844,6 @@ null
 ;
 }
 removeActiveReport
-:
-function
 (
 report
 )
@@ -887,8 +865,6 @@ updateWindows
 ;
 }
 removePausedReport
-:
-function
 (
 report
 )
@@ -928,8 +904,6 @@ report
 ;
 }
 updateWindows
-:
-function
 (
 )
 {
@@ -1004,8 +978,6 @@ win
 }
 }
 updateWindow
-:
-function
 (
 win
 )
@@ -1050,8 +1022,6 @@ win
 }
 }
 showNotification
-:
-function
 (
 win
 report
@@ -1140,8 +1110,6 @@ accessKey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -1184,8 +1152,6 @@ accessKey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -1251,8 +1217,6 @@ accessKey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -1310,8 +1274,6 @@ buttons
 ;
 }
 hideNotification
-:
-function
 (
 win
 )
@@ -1365,8 +1327,6 @@ notification
 }
 }
 trackWindow
-:
-function
 (
 win
 )
@@ -1403,8 +1363,6 @@ true
 ;
 }
 untrackWindow
-:
-function
 (
 win
 )
@@ -1441,8 +1399,6 @@ true
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -1488,8 +1444,6 @@ win
 }
 }
 reportHang
-:
-function
 (
 report
 )
@@ -1604,8 +1558,6 @@ updateWindows
 ;
 }
 clearHang
-:
-function
 (
 report
 )

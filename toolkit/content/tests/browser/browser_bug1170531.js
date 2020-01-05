@@ -200,8 +200,6 @@ withNewTab
 (
 {
 gBrowser
-:
-gBrowser
 url
 :
 "

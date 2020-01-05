@@ -133,8 +133,6 @@ openConnection
 (
 {
 path
-:
-path
 }
 )
 ;

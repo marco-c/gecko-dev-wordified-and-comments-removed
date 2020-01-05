@@ -536,8 +536,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -601,8 +599,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -725,8 +721,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -961,8 +955,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -1059,8 +1051,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -1291,8 +1281,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -1507,8 +1495,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -1596,8 +1582,6 @@ fieldname
 field5
 "
 value
-:
-value
 }
 )
 ;
@@ -1677,8 +1661,6 @@ previousResult
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )
@@ -1828,8 +1810,6 @@ null
 null
 {
 onSearchCompletion
-:
-function
 (
 aResults
 )

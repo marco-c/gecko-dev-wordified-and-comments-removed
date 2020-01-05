@@ -174,8 +174,6 @@ GMPUtils
 =
 {
 isPluginHidden
-:
-function
 (
 aPlugin
 )
@@ -252,8 +250,6 @@ false
 ;
 }
 _isPluginSupported
-:
-function
 (
 aPlugin
 )
@@ -346,8 +342,6 @@ true
 ;
 }
 _is32bitModeMacOS
-:
-function
 (
 )
 {
@@ -391,8 +385,6 @@ x86
 ;
 }
 _isPluginVisible
-:
-function
 (
 aPlugin
 )
@@ -413,8 +405,6 @@ id
 ;
 }
 _isPluginForceSupported
-:
-function
 (
 aPlugin
 )
@@ -691,8 +681,6 @@ log
 dump
 "
 get
-:
-function
 (
 aKey
 aDefaultValue
@@ -772,8 +760,6 @@ aDefaultValue
 ;
 }
 set
-:
-function
 (
 aKey
 aVal
@@ -796,8 +782,6 @@ aVal
 ;
 }
 isSet
-:
-function
 (
 aKey
 aPlugin
@@ -819,8 +803,6 @@ aPlugin
 ;
 }
 reset
-:
-function
 (
 aKey
 aPlugin
@@ -841,8 +823,6 @@ aPlugin
 ;
 }
 getPrefKey
-:
-function
 (
 aKey
 aPlugin

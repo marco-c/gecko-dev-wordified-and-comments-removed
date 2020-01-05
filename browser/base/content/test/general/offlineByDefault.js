@@ -33,8 +33,6 @@ Ci
 nsIPrefBranch
 )
 set
-:
-function
 (
 allow
 )
@@ -90,8 +88,6 @@ allow
 ;
 }
 reset
-:
-function
 (
 )
 {

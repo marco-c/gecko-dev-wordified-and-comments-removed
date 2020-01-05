@@ -970,8 +970,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 aRequest
 aContext
@@ -1028,8 +1026,6 @@ true
 ;
 }
 onStopRequest
-:
-function
 (
 )
 {
@@ -1046,8 +1042,6 @@ do_test_finished
 ;
 }
 onDataAvailable
-:
-function
 (
 aRequest
 aContext

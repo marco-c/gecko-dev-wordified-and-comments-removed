@@ -147,8 +147,6 @@ _provider
 =
 {
 getFile
-:
-function
 (
 prop
 persistent
@@ -209,8 +207,6 @@ null
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )

@@ -24,8 +24,6 @@ nsISupportsWeakReference
 ]
 )
 observe
-:
-function
 (
 subject
 topic
@@ -715,8 +713,6 @@ expectedData
 }
 {
 handleCompletion
-:
-function
 (
 reason
 )
@@ -731,8 +727,6 @@ next_test
 )
 }
 handleErrors
-:
-function
 (
 error
 )

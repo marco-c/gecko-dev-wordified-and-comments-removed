@@ -113,8 +113,6 @@ icon
 png
 "
 toString
-:
-function
 (
 )
 {

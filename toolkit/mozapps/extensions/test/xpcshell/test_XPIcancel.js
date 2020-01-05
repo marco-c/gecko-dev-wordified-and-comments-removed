@@ -50,8 +50,6 @@ isCancelled
 :
 false
 cancel
-:
-function
 (
 )
 {
@@ -158,8 +156,6 @@ isCancelled
 :
 false
 cancel
-:
-function
 (
 )
 {
@@ -227,8 +223,6 @@ isCancelled
 :
 false
 cancel
-:
-function
 (
 )
 {

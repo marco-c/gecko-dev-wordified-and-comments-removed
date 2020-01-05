@@ -46,8 +46,6 @@ TransientPrefs
 =
 {
 prefShouldBeVisible
-:
-function
 (
 prefName
 )

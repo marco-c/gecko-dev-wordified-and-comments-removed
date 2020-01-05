@@ -74,8 +74,6 @@ prototype
 =
 {
 init
-:
-function
 (
 aEditor
 )
@@ -122,8 +120,6 @@ null
 }
 }
 initFromRemote
-:
-function
 (
 aSpellInfo
 )
@@ -189,8 +185,6 @@ misspelling
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -289,8 +283,6 @@ null
 ;
 }
 initFromEvent
-:
-function
 (
 rangeParent
 rangeOffset
@@ -551,8 +543,6 @@ mOverMisspelling
 ;
 }
 addSuggestionsToMenu
-:
-function
 (
 menu
 insertBefore
@@ -808,8 +798,6 @@ length
 ;
 }
 clearSuggestionsFromMenu
-:
-function
 (
 )
 {
@@ -857,8 +845,6 @@ mSuggestionItems
 ;
 }
 sortDictionaryList
-:
-function
 (
 list
 )
@@ -965,8 +951,6 @@ sortedList
 ;
 }
 addDictionaryListToMenu
-:
-function
 (
 menu
 insertBefore
@@ -1356,8 +1340,6 @@ length
 ;
 }
 getDictionaryDisplayName
-:
-function
 (
 dictionaryName
 )
@@ -1814,8 +1796,6 @@ displayName
 ;
 }
 clearDictionaryListFromMenu
-:
-function
 (
 )
 {
@@ -1863,8 +1843,6 @@ mDictionaryItems
 ;
 }
 selectDictionary
-:
-function
 (
 index
 )
@@ -1944,8 +1922,6 @@ null
 ;
 }
 replaceMisspelling
-:
-function
 (
 index
 )
@@ -2024,8 +2000,6 @@ index
 ;
 }
 toggleEnabled
-:
-function
 (
 )
 {
@@ -2060,8 +2034,6 @@ enableRealTimeSpell
 ;
 }
 addToDictionary
-:
-function
 (
 )
 {
@@ -2125,8 +2097,6 @@ mMisspelling
 }
 }
 undoAddToDictionary
-:
-function
 (
 )
 {
@@ -2180,8 +2150,6 @@ word
 }
 }
 canUndo
-:
-function
 (
 )
 {
@@ -2198,8 +2166,6 @@ length
 ;
 }
 ignoreWord
-:
-function
 (
 )
 {

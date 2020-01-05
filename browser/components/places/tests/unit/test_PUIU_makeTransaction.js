@@ -14,8 +14,6 @@ addObserver
 (
 {
 validate
-:
-function
 (
 aMethodName
 aData

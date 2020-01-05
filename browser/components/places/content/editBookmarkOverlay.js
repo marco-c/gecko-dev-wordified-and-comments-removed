@@ -2041,8 +2041,6 @@ folderIds
 i
 ]
 lastUsed
-:
-lastUsed
 }
 )
 ;

@@ -13,8 +13,6 @@ CacheFlushObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -446,8 +444,6 @@ addListener
 (
 {
 onInstallStarted
-:
-function
 (
 )
 {
@@ -495,8 +491,6 @@ xpi
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {

@@ -139,8 +139,6 @@ ShortcutUtils
 =
 {
 prettifyShortcut
-:
-function
 (
 aElemKey
 aNoCloverLeaf
@@ -626,8 +624,6 @@ key
 ;
 }
 findShortcut
-:
-function
 (
 aElemCommand
 )

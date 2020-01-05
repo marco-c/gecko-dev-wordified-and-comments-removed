@@ -7,8 +7,6 @@ seenEvents
 [
 ]
 init
-:
-function
 (
 )
 {
@@ -85,8 +83,6 @@ this
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -99,8 +95,6 @@ this
 ;
 }
 expect
-:
-function
 (
 aEvents
 )
@@ -113,8 +107,6 @@ aEvents
 ;
 }
 checkExpected
-:
-function
 (
 )
 {

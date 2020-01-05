@@ -650,8 +650,6 @@ msg
 .
 data
 target
-:
-target
 }
 )
 ;

@@ -310,8 +310,6 @@ _defaultTargetLanguage
 ;
 }
 documentStateReceived
-:
-function
 (
 aBrowser
 aData
@@ -495,8 +493,6 @@ showTranslationInfoBar
 ;
 }
 openProviderAttribution
-:
-function
 (
 )
 {
@@ -726,8 +722,6 @@ aBrowser
 ;
 }
 translate
-:
-function
 (
 aFrom
 aTo
@@ -880,8 +874,6 @@ aTo
 ;
 }
 showURLBarIcon
-:
-function
 (
 )
 {
@@ -1148,8 +1140,6 @@ originalShown
 :
 true
 showOriginalContent
-:
-function
 (
 )
 {
@@ -1188,8 +1178,6 @@ recordShowOriginalContent
 ;
 }
 showTranslatedContent
-:
-function
 (
 )
 {
@@ -1244,8 +1232,6 @@ browser
 ;
 }
 showTranslationInfoBar
-:
-function
 (
 )
 {
@@ -1286,8 +1272,6 @@ notif
 ;
 }
 shouldShowInfoBar
-:
-function
 (
 aURI
 )
@@ -1391,8 +1375,6 @@ true
 ;
 }
 receiveMessage
-:
-function
 (
 msg
 )
@@ -1503,8 +1485,6 @@ break
 }
 }
 infobarClosed
-:
-function
 (
 )
 {
@@ -1534,8 +1514,6 @@ TranslationTelemetry
 =
 {
 init
-:
-function
 (
 )
 {
@@ -1732,8 +1710,6 @@ recordPreferences
 ;
 }
 recordTranslationOpportunity
-:
-function
 (
 language
 )
@@ -1749,8 +1725,6 @@ true
 ;
 }
 recordMissedTranslationOpportunity
-:
-function
 (
 language
 )
@@ -1766,8 +1740,6 @@ false
 ;
 }
 recordAutoRejectedTranslationOffer
-:
-function
 (
 )
 {
@@ -1794,8 +1766,6 @@ add
 ;
 }
 recordTranslation
-:
-function
 (
 langFrom
 langTo
@@ -1858,8 +1828,6 @@ numCharacters
 ;
 }
 recordDetectedLanguageChange
-:
-function
 (
 beforeFirstTranslation
 )
@@ -1888,8 +1856,6 @@ beforeFirstTranslation
 ;
 }
 recordTargetLanguageChange
-:
-function
 (
 )
 {
@@ -1916,8 +1882,6 @@ add
 ;
 }
 recordDeniedTranslationOffer
-:
-function
 (
 )
 {
@@ -1944,8 +1908,6 @@ add
 ;
 }
 recordShowOriginalContent
-:
-function
 (
 )
 {
@@ -1972,8 +1934,6 @@ add
 ;
 }
 recordPreferences
-:
-function
 (
 )
 {
@@ -2040,8 +2000,6 @@ add
 }
 }
 _recordOpportunity
-:
-function
 (
 language
 success
@@ -2085,8 +2043,6 @@ success
 ;
 }
 _canRecord
-:
-function
 (
 )
 {

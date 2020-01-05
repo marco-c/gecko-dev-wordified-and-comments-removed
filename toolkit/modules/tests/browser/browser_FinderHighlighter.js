@@ -1356,8 +1356,6 @@ removeCalls
 5
 ]
 extraTest
-:
-function
 (
 maskNode
 outlineNode

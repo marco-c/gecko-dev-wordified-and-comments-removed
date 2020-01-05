@@ -526,8 +526,6 @@ installCount
 :
 0
 onInstallEnded
-:
-function
 (
 )
 {
@@ -733,8 +731,6 @@ listener
 =
 {
 onUninstalled
-:
-function
 (
 aAddon
 )

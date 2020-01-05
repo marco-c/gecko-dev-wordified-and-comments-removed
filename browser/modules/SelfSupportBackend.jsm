@@ -340,8 +340,6 @@ freeze
 (
 {
 init
-:
-function
 (
 )
 {
@@ -353,8 +351,6 @@ init
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -388,8 +384,6 @@ _progressListener
 :
 null
 init
-:
-function
 (
 )
 {
@@ -546,8 +540,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -688,8 +680,6 @@ null
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -762,8 +752,6 @@ STARTUP_DELAY_MS
 }
 }
 _configureLogging
-:
-function
 (
 )
 {
@@ -905,8 +893,6 @@ null
 }
 }
 _makeHiddenBrowser
-:
-function
 (
 aURL
 )
@@ -1012,8 +998,6 @@ _browser
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1100,8 +1084,6 @@ uninit
 }
 }
 _pageSuccessCallback
-:
-function
 (
 )
 {
@@ -1163,8 +1145,6 @@ true
 ;
 }
 _pageLoadErrorCallback
-:
-function
 (
 )
 {
@@ -1197,8 +1177,6 @@ uninit
 ;
 }
 _loadSelfSupport
-:
-function
 (
 )
 {
@@ -1419,8 +1397,6 @@ prototype
 =
 {
 onLocationChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -1546,8 +1522,6 @@ _loadAttempts
 }
 }
 onStateChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -1601,8 +1575,6 @@ _loadSuccessCallback
 }
 }
 destroy
-:
-function
 (
 )
 {

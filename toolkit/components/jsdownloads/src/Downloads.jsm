@@ -351,8 +351,6 @@ ex
 }
 }
 fetch
-:
-function
 (
 aSource
 aTarget
@@ -419,8 +417,6 @@ start
 ;
 }
 getList
-:
-function
 (
 aType
 )
@@ -647,8 +643,6 @@ _lists
 {
 }
 getSummary
-:
-function
 (
 aType
 )

@@ -129,8 +129,6 @@ nsISupportsWeakReference
 ]
 )
 logConsoleMessage
-:
-function
 (
 message
 )
@@ -169,8 +167,6 @@ null
 ;
 }
 addSearchEngine
-:
-function
 (
 {
 target
@@ -500,8 +496,6 @@ true
 )
 }
 observe
-:
-function
 (
 subject
 topic

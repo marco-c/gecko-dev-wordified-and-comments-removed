@@ -4945,8 +4945,6 @@ error
 stack
 ]
 error
-:
-error
 }
 ;
 }

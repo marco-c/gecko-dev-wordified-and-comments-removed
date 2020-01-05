@@ -201,8 +201,6 @@ prototype
 =
 {
 addListener
-:
-function
 (
 listener
 )
@@ -218,8 +216,6 @@ listener
 ;
 }
 removeListener
-:
-function
 (
 listener
 )
@@ -255,8 +251,6 @@ listener
 }
 }
 listeners
-:
-function
 (
 )
 {
@@ -808,8 +802,6 @@ prototype
 =
 {
 addJankObserver
-:
-function
 (
 listener
 )
@@ -900,8 +892,6 @@ observer
 ;
 }
 removeJankObserver
-:
-function
 (
 listener
 )
@@ -1176,8 +1166,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 .
 .
@@ -1197,8 +1185,6 @@ args
 ;
 }
 dispose
-:
-function
 (
 )
 {
@@ -1382,8 +1368,6 @@ PerformanceWatcher
 =
 {
 addPerformanceListener
-:
-function
 (
 target
 listener
@@ -1426,8 +1410,6 @@ listener
 ;
 }
 removePerformanceListener
-:
-function
 (
 target
 listener

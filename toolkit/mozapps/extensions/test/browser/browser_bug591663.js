@@ -387,8 +387,6 @@ addTestListener
 (
 {
 onDownloadStarted
-:
-function
 (
 )
 {
@@ -399,8 +397,6 @@ null
 ;
 }
 onInstallStarted
-:
-function
 (
 )
 {
@@ -411,8 +407,6 @@ gItem
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {
@@ -532,8 +526,6 @@ addTestListener
 (
 {
 onDownloadStarted
-:
-function
 (
 )
 {
@@ -544,8 +536,6 @@ null
 ;
 }
 onInstallStarted
-:
-function
 (
 )
 {
@@ -556,8 +546,6 @@ null
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {

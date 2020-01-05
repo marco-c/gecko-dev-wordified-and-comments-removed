@@ -481,8 +481,6 @@ MaybeShowAutoMigrationUndoNotification
 "
 ]
 init
-:
-function
 (
 )
 {
@@ -530,8 +528,6 @@ this
 }
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -753,8 +749,6 @@ break
 }
 }
 sendAboutHomeData
-:
-function
 (
 target
 )

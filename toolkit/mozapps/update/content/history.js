@@ -33,8 +33,6 @@ _view
 :
 null
 onLoad
-:
-function
 (
 )
 {
@@ -303,8 +301,6 @@ focus
 ;
 }
 _formatDate
-:
-function
 (
 seconds
 )

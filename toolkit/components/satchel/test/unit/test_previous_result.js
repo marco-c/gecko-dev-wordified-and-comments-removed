@@ -3,8 +3,6 @@ aaaListener
 =
 {
 onSearchResult
-:
-function
 (
 search
 result
@@ -32,8 +30,6 @@ aaListener
 =
 {
 onSearchResult
-:
-function
 (
 search
 result

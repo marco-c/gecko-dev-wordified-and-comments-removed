@@ -116,8 +116,6 @@ autofillData
 :
 null
 onLoad
-:
-function
 (
 )
 {
@@ -199,8 +197,6 @@ reportError
 ;
 }
 onAccept
-:
-function
 (
 )
 {
@@ -378,8 +374,6 @@ section
 .
 name
 addressType
-:
-addressType
 contactType
 :
 field
@@ -420,8 +414,6 @@ result
 ;
 }
 onCancel
-:
-function
 (
 )
 {

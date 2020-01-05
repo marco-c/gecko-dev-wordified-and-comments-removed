@@ -160,8 +160,6 @@ _enabled
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -295,8 +293,6 @@ _simpleMeasureFunctions
 {
 }
 uptimeMillis
-:
-function
 (
 )
 {
@@ -319,8 +315,6 @@ process
 ;
 }
 addEvent
-:
-function
 (
 aAction
 aMethod
@@ -367,8 +361,6 @@ method
 :
 aMethod
 sessions
-:
-sessions
 timestamp
 :
 (
@@ -408,8 +400,6 @@ aEvent
 ;
 }
 startSession
-:
-function
 (
 aName
 aTimestamp
@@ -463,8 +453,6 @@ aTimestamp
 ;
 }
 stopSession
-:
-function
 (
 aName
 aReason
@@ -554,8 +542,6 @@ aEvent
 ;
 }
 _recordEvent
-:
-function
 (
 aEvent
 )
@@ -571,8 +557,6 @@ aEvent
 ;
 }
 getSimpleMeasures
-:
-function
 (
 )
 {
@@ -625,8 +609,6 @@ result
 ;
 }
 addSimpleMeasureFunction
-:
-function
 (
 aName
 aFunction
@@ -715,8 +697,6 @@ aFunction
 ;
 }
 removeSimpleMeasureFunction
-:
-function
 (
 aName
 )
@@ -731,8 +711,6 @@ aName
 ;
 }
 getUIMeasurements
-:
-function
 (
 aClear
 )

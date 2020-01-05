@@ -2781,8 +2781,6 @@ onDump
 :
 displayInfo
 onFinish
-:
-function
 (
 )
 {
@@ -3320,8 +3318,6 @@ data
 [
 ]
 onStartRequest
-:
-function
 (
 aR
 aC
@@ -3329,8 +3325,6 @@ aC
 {
 }
 onDataAvailable
-:
-function
 (
 aR
 aC
@@ -3364,8 +3358,6 @@ aCount
 ;
 }
 onStopRequest
-:
-function
 (
 aR
 aC
@@ -3669,8 +3661,6 @@ prototype
 =
 {
 assertCompatible
-:
-function
 (
 aKind
 aUnits
@@ -3706,8 +3696,6 @@ units
 ;
 }
 merge
-:
-function
 (
 aJr
 )
@@ -3741,8 +3729,6 @@ _nMerged
 ;
 }
 toJSON
-:
-function
 (
 aProcess
 aPath
@@ -5447,8 +5433,6 @@ prototype
 =
 {
 findKid
-:
-function
 (
 aUnsafeName
 )
@@ -5512,8 +5496,6 @@ undefined
 ;
 }
 maxAbsDescendant
-:
-function
 (
 )
 {
@@ -5614,8 +5596,6 @@ max
 ;
 }
 toString
-:
-function
 (
 )
 {

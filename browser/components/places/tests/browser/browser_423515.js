@@ -112,8 +112,6 @@ push
 (
 {
 populate
-:
-function
 (
 )
 {
@@ -135,8 +133,6 @@ IDX
 ;
 }
 validate
-:
-function
 (
 )
 {
@@ -190,8 +186,6 @@ push
 (
 {
 populate
-:
-function
 (
 )
 {
@@ -244,8 +238,6 @@ bar
 ;
 }
 validate
-:
-function
 (
 )
 {
@@ -407,8 +399,6 @@ push
 (
 {
 populate
-:
-function
 (
 )
 {
@@ -470,8 +460,6 @@ bar
 ;
 }
 validate
-:
-function
 (
 )
 {
@@ -598,8 +586,6 @@ shortcuts
 {
 }
 populate
-:
-function
 (
 )
 {
@@ -666,8 +652,6 @@ IDX
 }
 }
 validate
-:
-function
 (
 )
 {
@@ -939,8 +923,6 @@ push
 (
 {
 populate
-:
-function
 (
 )
 {
@@ -1002,8 +984,6 @@ bar
 ;
 }
 validate
-:
-function
 (
 )
 {

@@ -320,8 +320,6 @@ break
 }
 }
 shutdown
-:
-function
 (
 )
 {

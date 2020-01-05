@@ -100,8 +100,6 @@ spec
 =
 {
 id
-:
-id
 type
 :
 "
@@ -318,8 +316,6 @@ spec
 =
 {
 id
-:
-id
 type
 :
 "
@@ -665,8 +661,6 @@ let
 spec
 =
 {
-id
-:
 id
 type
 :
@@ -1022,8 +1016,6 @@ let
 spec
 =
 {
-id
-:
 id
 type
 :
@@ -1386,8 +1378,6 @@ spec
 =
 {
 id
-:
-id
 type
 :
 "
@@ -1465,8 +1455,6 @@ let
 spec
 =
 {
-id
-:
 id
 type
 :
@@ -1850,8 +1838,6 @@ spec
 =
 {
 id
-:
-id
 type
 :
 "
@@ -1872,8 +1858,6 @@ tooltiptext
 +
 i
 onCreated
-:
-function
 (
 node
 )
@@ -2263,8 +2247,6 @@ spec
 =
 {
 id
-:
-id
 type
 :
 "
@@ -2285,8 +2267,6 @@ tooltiptext
 +
 i
 onCreated
-:
-function
 (
 node
 )
@@ -2590,8 +2570,6 @@ spec
 =
 {
 id
-:
-id
 type
 :
 "
@@ -2612,8 +2590,6 @@ tooltiptext
 +
 i
 onCreated
-:
-function
 (
 node
 )

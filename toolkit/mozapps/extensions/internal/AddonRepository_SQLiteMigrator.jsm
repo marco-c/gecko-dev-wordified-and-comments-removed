@@ -235,8 +235,6 @@ AddonRepository_SQLiteMigrator
 =
 {
 migrate
-:
-function
 (
 aCallback
 )
@@ -351,8 +349,6 @@ true
 ;
 }
 _openConnection
-:
-function
 (
 )
 {
@@ -765,8 +761,6 @@ true
 ;
 }
 _closeConnection
-:
-function
 (
 )
 {
@@ -825,8 +819,6 @@ connection
 ;
 }
 _retrieveStoredData
-:
-function
 (
 aCallback
 )
@@ -913,8 +905,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1101,8 +1091,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1287,8 +1275,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1474,8 +1460,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1668,8 +1652,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1764,8 +1746,6 @@ asyncStatementsCache
 {
 }
 getAsyncStatement
-:
-function
 (
 aKey
 )
@@ -2017,8 +1997,6 @@ size
 "
 }
 _makeAddonFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2058,8 +2036,6 @@ addon
 ;
 }
 _makeDeveloperFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2099,8 +2075,6 @@ url
 ;
 }
 _makeScreenshotFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2206,8 +2180,6 @@ caption
 ;
 }
 _makeCompatOverrideFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2300,8 +2272,6 @@ appMaxVersion
 ;
 }
 _makeIconFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2333,17 +2303,11 @@ url
 return
 {
 size
-:
-size
-url
-:
 url
 }
 ;
 }
 logSQLError
-:
-function
 (
 aError
 aErrorString
@@ -2369,8 +2333,6 @@ aErrorString
 ;
 }
 asyncErrorLogger
-:
-function
 (
 aError
 )
@@ -2400,8 +2362,6 @@ message
 ;
 }
 _createTriggers
-:
-function
 (
 )
 {
@@ -2499,8 +2459,6 @@ END
 ;
 }
 _createIndices
-:
-function
 (
 )
 {

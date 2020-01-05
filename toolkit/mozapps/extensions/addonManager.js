@@ -323,8 +323,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -381,8 +379,6 @@ break
 }
 }
 mapURIToAddonID
-:
-function
 (
 uri
 id
@@ -408,8 +404,6 @@ value
 ;
 }
 isInstallEnabled
-:
-function
 (
 aMimetype
 aReferer
@@ -425,8 +419,6 @@ aMimetype
 ;
 }
 installAddonsFromWebpage
-:
-function
 (
 aMimetype
 aBrowser
@@ -586,8 +578,6 @@ addListener
 (
 {
 onDownloadCancelled
-:
-function
 (
 aInstall
 )
@@ -600,8 +590,6 @@ USER_CANCELLED
 ;
 }
 onDownloadFailed
-:
-function
 (
 aInstall
 )
@@ -632,8 +620,6 @@ DOWNLOAD_ERROR
 ;
 }
 onInstallFailed
-:
-function
 (
 aInstall
 )
@@ -646,8 +632,6 @@ EXECUTION_ERROR
 ;
 }
 onInstallEnded
-:
-function
 (
 aInstall
 aStatus
@@ -715,8 +699,6 @@ retval
 ;
 }
 notify
-:
-function
 (
 aTimer
 )
@@ -1002,8 +984,6 @@ target
 }
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -1068,8 +1048,6 @@ callback
 =
 {
 onInstallEnded
-:
-function
 (
 url
 status
@@ -1087,10 +1065,6 @@ payload
 .
 callbackID
 url
-:
-url
-status
-:
 status
 }
 )
@@ -1379,8 +1353,6 @@ _xpcom_factory
 :
 {
 createInstance
-:
-function
 (
 aOuter
 aIid

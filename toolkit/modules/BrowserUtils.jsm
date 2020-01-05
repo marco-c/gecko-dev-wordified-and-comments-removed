@@ -125,8 +125,6 @@ BrowserUtils
 =
 {
 dumpLn
-:
-function
 (
 .
 .
@@ -159,8 +157,6 @@ n
 ;
 }
 restartApplication
-:
-function
 (
 )
 {
@@ -298,8 +294,6 @@ undefined
 ;
 }
 urlSecurityCheck
-:
-function
 (
 aURL
 aPrincipal
@@ -508,8 +502,6 @@ principal
 ;
 }
 makeURI
-:
-function
 (
 aURL
 aOriginCharset
@@ -530,8 +522,6 @@ aBaseURI
 ;
 }
 makeFileURI
-:
-function
 (
 aFile
 )
@@ -548,8 +538,6 @@ aFile
 ;
 }
 makeURIFromCPOW
-:
-function
 (
 aCPOWURI
 )
@@ -572,8 +560,6 @@ null
 ;
 }
 getElementBoundingScreenRect
-:
-function
 (
 aElement
 )
@@ -589,8 +575,6 @@ true
 ;
 }
 getElementBoundingRect
-:
-function
 (
 aElement
 aInScreenCoords
@@ -784,8 +768,6 @@ rect
 ;
 }
 onBeforeLinkTraversal
-:
-function
 (
 originalTarget
 linkURI
@@ -898,8 +880,6 @@ _blank
 ;
 }
 makeNicePluginName
-:
-function
 (
 aName
 )
@@ -1010,8 +990,6 @@ newName
 ;
 }
 linkHasNoReferrer
-:
-function
 (
 linkNode
 )
@@ -1081,8 +1059,6 @@ noreferrer
 ;
 }
 mimeTypeIsTextBased
-:
-function
 (
 mimeType
 )
@@ -1167,8 +1143,6 @@ xul
 ;
 }
 shouldFastFind
-:
-function
 (
 elt
 win
@@ -1257,8 +1231,6 @@ true
 ;
 }
 canFastFind
-:
-function
 (
 win
 )
@@ -1543,8 +1515,6 @@ nsIDOMWindow
 ;
 }
 getSelectionDetails
-:
-function
 (
 topWindow
 aCharLen

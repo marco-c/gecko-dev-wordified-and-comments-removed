@@ -134,8 +134,6 @@ done
 :
 do_test_finished
 error
-:
-function
 (
 err
 )
@@ -199,8 +197,6 @@ err
 }
 }
 consoleError
-:
-function
 (
 scriptErr
 )
@@ -667,8 +663,6 @@ executeAsync
 (
 {
 handleCompletion
-:
-function
 (
 reason
 )
@@ -679,8 +673,6 @@ next
 ;
 }
 handleError
-:
-function
 (
 err
 )
@@ -801,8 +793,6 @@ executeAsync
 (
 {
 handleResult
-:
-function
 (
 results
 )
@@ -829,8 +819,6 @@ timestamp
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )
@@ -844,8 +832,6 @@ res
 ;
 }
 handleError
-:
-function
 (
 err
 )
@@ -1870,8 +1856,6 @@ stmt
 1
 {
 handleCompletion
-:
-function
 (
 reason
 )
@@ -1888,8 +1872,6 @@ next
 ;
 }
 handleResult
-:
-function
 (
 results
 )
@@ -1933,8 +1915,6 @@ c
 }
 }
 handleError
-:
-function
 (
 err
 )
@@ -1968,8 +1948,6 @@ args
 =
 {
 reset
-:
-function
 (
 )
 {

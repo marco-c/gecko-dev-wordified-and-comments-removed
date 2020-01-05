@@ -110,8 +110,6 @@ _selEnd
 ;
 }
 selectTextRange
-:
-function
 (
 aStart
 aEnd
@@ -144,8 +142,6 @@ length
 ;
 }
 getSearchAt
-:
-function
 (
 aIndex
 )
@@ -160,15 +156,11 @@ aIndex
 ;
 }
 onSearchBegin
-:
-function
 (
 )
 {
 }
 onSearchComplete
-:
-function
 (
 )
 {
@@ -277,8 +269,6 @@ length
 ;
 }
 getValueAt
-:
-function
 (
 aIndex
 )
@@ -293,8 +283,6 @@ aIndex
 ;
 }
 getLabelAt
-:
-function
 (
 aIndex
 )
@@ -309,8 +297,6 @@ aIndex
 ;
 }
 getCommentAt
-:
-function
 (
 aIndex
 )
@@ -325,8 +311,6 @@ aIndex
 ;
 }
 getStyleAt
-:
-function
 (
 aIndex
 )
@@ -341,8 +325,6 @@ aIndex
 ;
 }
 getImageAt
-:
-function
 (
 aIndex
 )
@@ -353,8 +335,6 @@ return
 ;
 }
 getFinalCompleteValueAt
-:
-function
 (
 aIndex
 )
@@ -377,8 +357,6 @@ aIndex
 ;
 }
 removeValueAt
-:
-function
 (
 aRowIndex
 aRemoveFromDb
@@ -430,8 +408,6 @@ _result
 :
 null
 startSearch
-:
-function
 (
 aSearchString
 aSearchParam
@@ -466,8 +442,6 @@ result
 ;
 }
 stopSearch
-:
-function
 (
 )
 {
@@ -488,8 +462,6 @@ nsIAutoCompleteSearch
 ]
 )
 createInstance
-:
-function
 (
 outer
 iid

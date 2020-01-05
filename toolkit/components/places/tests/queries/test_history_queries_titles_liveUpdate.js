@@ -343,8 +343,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 "
@@ -369,8 +367,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 title
 :
@@ -535,8 +531,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 "
@@ -571,8 +565,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 title
 :
@@ -751,8 +743,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 "
@@ -777,8 +767,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 title
 :
@@ -951,8 +939,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 "
@@ -987,8 +973,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 title
 :
@@ -1137,8 +1121,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 data
@@ -1172,8 +1154,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 title
 :
@@ -1324,8 +1304,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 data
@@ -1359,8 +1337,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 title
 :

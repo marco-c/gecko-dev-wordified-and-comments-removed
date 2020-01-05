@@ -80,8 +80,6 @@ wrapCallbackObject
 (
 {
 QueryInterface
-:
-function
 (
 iid
 )
@@ -137,8 +135,6 @@ this
 ;
 }
 observe
-:
-function
 (
 subject
 topic

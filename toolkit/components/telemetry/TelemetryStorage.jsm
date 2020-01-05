@@ -858,8 +858,6 @@ PING_FILE_MAXIMUM_SIZE_BYTES
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -872,8 +870,6 @@ shutdown
 ;
 }
 saveArchivedPing
-:
-function
 (
 ping
 )
@@ -888,8 +884,6 @@ ping
 ;
 }
 loadArchivedPing
-:
-function
 (
 id
 )
@@ -904,8 +898,6 @@ id
 ;
 }
 loadArchivedPingList
-:
-function
 (
 )
 {
@@ -918,8 +910,6 @@ loadArchivedPingList
 ;
 }
 runCleanPingArchiveTask
-:
-function
 (
 )
 {
@@ -932,8 +922,6 @@ runCleanPingArchiveTask
 ;
 }
 runEnforcePendingPingsQuotaTask
-:
-function
 (
 )
 {
@@ -946,8 +934,6 @@ runEnforcePendingPingsQuotaTask
 ;
 }
 runRemovePendingPingsTask
-:
-function
 (
 )
 {
@@ -960,8 +946,6 @@ runRemovePendingPingsTask
 ;
 }
 reset
-:
-function
 (
 )
 {
@@ -974,8 +958,6 @@ reset
 ;
 }
 testCleanupTaskPromise
-:
-function
 (
 )
 {
@@ -995,8 +977,6 @@ resolve
 ;
 }
 testPendingQuotaTaskPromise
-:
-function
 (
 )
 {
@@ -1016,8 +996,6 @@ resolve
 ;
 }
 savePendingPing
-:
-function
 (
 ping
 )
@@ -1032,8 +1010,6 @@ ping
 ;
 }
 saveSessionData
-:
-function
 (
 sessionData
 )
@@ -1048,8 +1024,6 @@ sessionData
 ;
 }
 loadSessionData
-:
-function
 (
 )
 {
@@ -1062,8 +1036,6 @@ loadSessionData
 ;
 }
 loadPendingPing
-:
-function
 (
 id
 )
@@ -1078,8 +1050,6 @@ id
 ;
 }
 removePendingPing
-:
-function
 (
 id
 )
@@ -1094,8 +1064,6 @@ id
 ;
 }
 loadPendingPingList
-:
-function
 (
 )
 {
@@ -1108,8 +1076,6 @@ loadPendingPingList
 ;
 }
 getPendingPingList
-:
-function
 (
 )
 {
@@ -1122,8 +1088,6 @@ getPendingPingList
 ;
 }
 saveAbortedSessionPing
-:
-function
 (
 ping
 )
@@ -1138,8 +1102,6 @@ ping
 ;
 }
 loadAbortedSessionPing
-:
-function
 (
 )
 {
@@ -1152,8 +1114,6 @@ loadAbortedSessionPing
 ;
 }
 saveDeletionPing
-:
-function
 (
 ping
 )
@@ -1168,8 +1128,6 @@ ping
 ;
 }
 removeDeletionPing
-:
-function
 (
 )
 {
@@ -1182,8 +1140,6 @@ removeDeletionPing
 ;
 }
 isDeletionPing
-:
-function
 (
 aPingId
 )
@@ -1198,8 +1154,6 @@ aPingId
 ;
 }
 removeAbortedSessionPing
-:
-function
 (
 )
 {
@@ -1212,8 +1166,6 @@ removeAbortedSessionPing
 ;
 }
 savePingToFile
-:
-function
 (
 ping
 file
@@ -1232,8 +1184,6 @@ overwrite
 ;
 }
 savePing
-:
-function
 (
 ping
 overwrite
@@ -1250,8 +1200,6 @@ overwrite
 ;
 }
 addPendingPing
-:
-function
 (
 pingData
 )
@@ -1266,8 +1214,6 @@ pingData
 ;
 }
 cleanupPingFile
-:
-function
 (
 ping
 )
@@ -1315,8 +1261,6 @@ aFilePath
 }
 )
 removeFHRDatabase
-:
-function
 (
 )
 {
@@ -1329,8 +1273,6 @@ removeFHRDatabase
 ;
 }
 _testGetArchivedPingPath
-:
-function
 (
 aPingId
 aDate
@@ -1347,8 +1289,6 @@ aType
 ;
 }
 _testGetArchivedPingDataFromFileName
-:
-function
 (
 aFileName
 )
@@ -1363,8 +1303,6 @@ aFileName
 ;
 }
 testClearPendingPings
-:
-function
 (
 )
 {
@@ -1417,8 +1355,6 @@ prototype
 =
 {
 enqueueTask
-:
-function
 (
 aFunction
 )
@@ -1473,8 +1409,6 @@ promise
 ;
 }
 flushTasks
-:
-function
 (
 )
 {
@@ -1506,8 +1440,6 @@ dummyTask
 ;
 }
 _popAndPerformQueuedOperation
-:
-function
 (
 )
 {
@@ -2092,8 +2024,6 @@ promisePendingPingSaves
 }
 )
 saveArchivedPing
-:
-function
 (
 ping
 )
@@ -2710,8 +2640,6 @@ false
 }
 )
 saveSessionData
-:
-function
 (
 sessionData
 )
@@ -2846,8 +2774,6 @@ add
 }
 )
 loadSessionData
-:
-function
 (
 )
 {
@@ -3158,8 +3084,6 @@ id
 }
 )
 runCleanPingArchiveTask
-:
-function
 (
 )
 {
@@ -4901,8 +4825,6 @@ startTimeStamp
 }
 )
 reset
-:
-function
 (
 )
 {
@@ -5608,8 +5530,6 @@ file
 }
 )
 addPendingPing
-:
-function
 (
 ping
 )
@@ -5624,8 +5544,6 @@ ping
 ;
 }
 cleanupPingFile
-:
-function
 (
 ping
 )
@@ -5645,8 +5563,6 @@ ping
 ;
 }
 savePendingPing
-:
-function
 (
 ping
 )
@@ -5680,8 +5596,6 @@ ping
 .
 id
 {
-path
-:
 path
 lastModificationDate
 :
@@ -6024,8 +5938,6 @@ ping
 }
 )
 removePendingPing
-:
-function
 (
 id
 )
@@ -6148,8 +6060,6 @@ ex
 ;
 }
 _trackPendingPingSaveTask
-:
-function
 (
 promise
 )
@@ -6189,8 +6099,6 @@ promise
 ;
 }
 promisePendingPingSaves
-:
-function
 (
 )
 {
@@ -6441,8 +6349,6 @@ close
 }
 )
 loadPendingPingList
-:
-function
 (
 )
 {
@@ -6546,8 +6452,6 @@ _scanPendingPingsTask
 ;
 }
 getPendingPingList
-:
-function
 (
 )
 {
@@ -6995,8 +6899,6 @@ _buildPingList
 }
 )
 _buildPingList
-:
-function
 (
 )
 {
@@ -7268,8 +7170,6 @@ ping
 }
 )
 _getArchivedPingDataFromFileName
-:
-function
 (
 fileName
 )
@@ -7506,13 +7406,9 @@ null
 return
 {
 timestamp
-:
-timestamp
 id
 :
 uuid
-type
-:
 type
 }
 ;
@@ -7666,8 +7562,6 @@ ping
 }
 )
 removeAbortedSessionPing
-:
-function
 (
 )
 {
@@ -7971,8 +7865,6 @@ this
 }
 )
 isDeletionPing
-:
-function
 (
 aPingId
 )

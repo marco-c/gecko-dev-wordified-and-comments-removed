@@ -309,8 +309,6 @@ prototype
 =
 {
 clearItem
-:
-function
 (
 aItemName
 )
@@ -332,8 +330,6 @@ prefDomain
 "
 "
 getNameFromPreference
-:
-function
 (
 aPreferenceName
 )
@@ -2478,8 +2474,6 @@ non
 private
 "
 _canCloseWindow
-:
-function
 (
 aWindow
 )
@@ -2508,8 +2502,6 @@ false
 ;
 }
 _resetAllWindowClosures
-:
-function
 (
 aWindowList
 )

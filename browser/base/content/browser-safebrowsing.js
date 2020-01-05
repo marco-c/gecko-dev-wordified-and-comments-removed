@@ -3,8 +3,6 @@ gSafeBrowsing
 =
 {
 setReportPhishingMenu
-:
-function
 (
 )
 {
@@ -152,8 +150,6 @@ true
 ;
 }
 getReportURL
-:
-function
 (
 name
 )

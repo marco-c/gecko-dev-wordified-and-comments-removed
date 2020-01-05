@@ -871,8 +871,6 @@ User32BeforeBlocklist
 "
 ]
 pendingDumps
-:
-function
 (
 )
 {
@@ -891,8 +889,6 @@ DUMP_REGEX
 ;
 }
 submittedDumps
-:
-function
 (
 )
 {
@@ -911,8 +907,6 @@ SUBMITTED_REGEX
 ;
 }
 aggregateEventsFiles
-:
-function
 (
 )
 {
@@ -1249,8 +1243,6 @@ this
 ;
 }
 pruneOldCrashes
-:
-function
 (
 date
 )
@@ -1299,8 +1291,6 @@ this
 ;
 }
 runMaintenanceTasks
-:
-function
 (
 )
 {
@@ -1358,8 +1348,6 @@ this
 ;
 }
 scheduleMaintenance
-:
-function
 (
 delay
 )
@@ -1407,8 +1395,6 @@ promise
 ;
 }
 addCrash
-:
-function
 (
 processType
 crashType
@@ -1830,8 +1816,6 @@ save
 }
 )
 _getUnprocessedEventsFiles
-:
-function
 (
 )
 {
@@ -1923,8 +1907,6 @@ this
 ;
 }
 _processEventFile
-:
-function
 (
 entry
 )
@@ -2140,8 +2122,6 @@ this
 ;
 }
 _filterAnnotations
-:
-function
 (
 annotations
 )
@@ -2189,8 +2169,6 @@ filteredAnnotations
 ;
 }
 _sendCrashPing
-:
-function
 (
 crashId
 type
@@ -2284,16 +2262,10 @@ slice
 10
 )
 sessionId
-:
-sessionId
-crashId
-:
 crashId
 processType
 :
 type
-stackTraces
-:
 stackTraces
 metadata
 :
@@ -2326,8 +2298,6 @@ crashEnvironment
 ;
 }
 _handleEventFilePayload
-:
-function
 (
 store
 entry
@@ -2586,8 +2556,6 @@ EVENT_FILE_SUCCESS
 ;
 }
 _getDirectoryEntries
-:
-function
 (
 path
 re
@@ -2813,8 +2781,6 @@ this
 ;
 }
 _getStore
-:
-function
 (
 )
 {
@@ -3036,8 +3002,6 @@ this
 ;
 }
 getCrashes
-:
-function
 (
 )
 {
@@ -3076,8 +3040,6 @@ this
 ;
 }
 getCrashCountsByDay
-:
-function
 (
 )
 {
@@ -3222,8 +3184,6 @@ Map
 ;
 }
 load
-:
-function
 (
 )
 {
@@ -3672,8 +3632,6 @@ this
 ;
 }
 save
-:
-function
 (
 )
 {
@@ -3950,8 +3908,6 @@ this
 ;
 }
 _normalize
-:
-function
 (
 o
 )
@@ -4021,8 +3977,6 @@ normalized
 ;
 }
 _denormalize
-:
-function
 (
 o
 )
@@ -4096,8 +4050,6 @@ n
 ;
 }
 pruneOldCrashes
-:
-function
 (
 date
 )
@@ -4224,8 +4176,6 @@ crashes
 ;
 }
 getCrash
-:
-function
 (
 id
 )
@@ -4260,8 +4210,6 @@ null
 ;
 }
 _ensureCountsForDay
-:
-function
 (
 day
 )
@@ -4295,8 +4243,6 @@ Map
 }
 }
 _ensureCrashRecord
-:
-function
 (
 processType
 crashType
@@ -4489,13 +4435,9 @@ set
 id
 {
 id
-:
-id
 remoteID
 :
 null
-type
-:
 type
 crashDate
 :
@@ -4510,8 +4452,6 @@ classifications
 :
 [
 ]
-metadata
-:
 metadata
 }
 )
@@ -4548,8 +4488,6 @@ crash
 ;
 }
 addCrash
-:
-function
 (
 processType
 crashType
@@ -4574,8 +4512,6 @@ metadata
 ;
 }
 setRemoteCrashID
-:
-function
 (
 crashID
 remoteID
@@ -4620,8 +4556,6 @@ true
 ;
 }
 getCrashesOfType
-:
-function
 (
 processType
 crashType
@@ -4668,8 +4602,6 @@ crashes
 ;
 }
 _ensureSubmissionRecord
-:
-function
 (
 crashID
 submissionID
@@ -4752,8 +4684,6 @@ crash
 ;
 }
 addSubmissionAttempt
-:
-function
 (
 crashID
 submissionID
@@ -4814,8 +4744,6 @@ true
 ;
 }
 addSubmissionResult
-:
-function
 (
 crashID
 submissionID
@@ -4914,8 +4842,6 @@ true
 ;
 }
 setCrashClassifications
-:
-function
 (
 crashID
 classifications
@@ -5059,8 +4985,6 @@ type
 ;
 }
 isOfType
-:
-function
 (
 processType
 crashType

@@ -1008,10 +1008,8 @@ TEST_CONDITIONS
 blank
 :
 {
-setup
-:
-function
 *
+setup
 (
 )
 {
@@ -1076,10 +1074,8 @@ null
 withAppSet
 :
 {
-setup
-:
-function
 *
+setup
 (
 )
 {
@@ -1152,10 +1148,8 @@ null
 withProfileSet
 :
 {
-setup
-:
-function
 *
+setup
 (
 )
 {
@@ -1228,10 +1222,8 @@ null
 withBothSets
 :
 {
-setup
-:
-function
 *
+setup
 (
 )
 {

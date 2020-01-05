@@ -711,8 +711,6 @@ PluginHost
 =
 {
 getPluginTags
-:
-function
 (
 countRef
 )
@@ -730,8 +728,6 @@ PLUGINS
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -774,8 +770,6 @@ WindowWatcher
 =
 {
 openWindow
-:
-function
 (
 parent
 url
@@ -833,8 +827,6 @@ gTestCheck
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )

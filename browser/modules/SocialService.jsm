@@ -395,8 +395,6 @@ manifestsGenerator
 ;
 }
 getManifestPrefname
-:
-function
 (
 origin
 )
@@ -538,8 +536,6 @@ replace
 ;
 }
 orderedProviders
-:
-function
 (
 aCallback
 )
@@ -688,8 +684,6 @@ executeAsync
 (
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -752,8 +746,6 @@ frecency
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -783,8 +775,6 @@ result
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1118,8 +1108,6 @@ _providers
 ;
 }
 has
-:
-function
 (
 origin
 )
@@ -1135,8 +1123,6 @@ _providers
 ;
 }
 add
-:
-function
 (
 origin
 )
@@ -1160,8 +1146,6 @@ arm
 ;
 }
 delete
-:
-function
 (
 origin
 )
@@ -1184,8 +1168,6 @@ arm
 ;
 }
 flush
-:
-function
 (
 )
 {
@@ -1235,8 +1217,6 @@ this
 ;
 }
 _persist
-:
-function
 (
 )
 {
@@ -2570,8 +2550,6 @@ this
 ;
 }
 getProviderList
-:
-function
 (
 onDone
 )
@@ -2594,8 +2572,6 @@ providerArray
 ;
 }
 getManifestByOrigin
-:
-function
 (
 origin
 )
@@ -2630,8 +2606,6 @@ null
 ;
 }
 getOrderedProviderList
-:
-function
 (
 onDone
 )
@@ -2645,8 +2619,6 @@ onDone
 ;
 }
 getOriginActivationType
-:
-function
 (
 origin
 )
@@ -2702,8 +2674,6 @@ listener
 ;
 }
 _notifyProviderListeners
-:
-function
 (
 topic
 origin
@@ -2761,8 +2731,6 @@ ex
 }
 }
 _manifestFromData
-:
-function
 (
 type
 data
@@ -3119,8 +3087,6 @@ data
 ;
 }
 _showInstallNotification
-:
-function
 (
 data
 aAddonInstaller
@@ -3298,8 +3264,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -3387,8 +3351,6 @@ options
 ;
 }
 installProvider
-:
-function
 (
 data
 installCallback
@@ -3634,8 +3596,6 @@ this
 ;
 }
 _installProvider
-:
-function
 (
 data
 options
@@ -3824,8 +3784,6 @@ installer
 ;
 }
 createWrapper
-:
-function
 (
 manifest
 )
@@ -3839,8 +3797,6 @@ manifest
 ;
 }
 updateProvider
-:
-function
 (
 aUpdateOrigin
 aManifest
@@ -4024,8 +3980,6 @@ providers
 }
 }
 uninstallProvider
-:
-function
 (
 origin
 aCallback
@@ -4297,8 +4251,6 @@ prototype
 =
 {
 reload
-:
-function
 (
 )
 {
@@ -4417,8 +4369,6 @@ origin
 ;
 }
 getPageSize
-:
-function
 (
 name
 )
@@ -4907,22 +4857,16 @@ SocialAddonProvider
 =
 {
 startup
-:
-function
 (
 )
 {
 }
 shutdown
-:
-function
 (
 )
 {
 }
 updateAddonAppDisabledStates
-:
-function
 (
 )
 {
@@ -5001,8 +4945,6 @@ e
 }
 }
 getAddonByID
-:
-function
 (
 aId
 aCallback
@@ -5051,8 +4993,6 @@ null
 ;
 }
 getAddonsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -5110,8 +5050,6 @@ a
 ;
 }
 removeAddon
-:
-function
 (
 aAddon
 aCallback
@@ -5329,8 +5267,6 @@ false
 ;
 }
 isCompatibleWith
-:
-function
 (
 appVersion
 platformVersion
@@ -5513,8 +5449,6 @@ permissions
 ;
 }
 findUpdates
-:
-function
 (
 listener
 reason
@@ -5929,8 +5863,6 @@ val
 ;
 }
 uninstall
-:
-function
 (
 aCallback
 )
@@ -6025,8 +5957,6 @@ aCallback
 }
 }
 cancelUninstall
-:
-function
 (
 )
 {

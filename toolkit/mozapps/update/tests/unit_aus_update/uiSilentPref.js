@@ -24,8 +24,6 @@ WindowWatcher
 =
 {
 openWindow
-:
-function
 (
 aParent
 aUrl
@@ -40,8 +38,6 @@ gCheckFunc
 ;
 }
 getNewPrompter
-:
-function
 (
 aParent
 )

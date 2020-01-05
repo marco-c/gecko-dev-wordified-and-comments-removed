@@ -132,8 +132,6 @@ nsIBlocklistService
 ]
 )
 init
-:
-function
 (
 )
 {
@@ -168,8 +166,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -204,8 +200,6 @@ false
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -235,8 +229,6 @@ break
 }
 }
 receiveMessage
-:
-function
 (
 aMsg
 )
@@ -313,8 +305,6 @@ name
 }
 }
 flattenObject
-:
-function
 (
 aTag
 )
@@ -367,8 +357,6 @@ dataWrapper
 ;
 }
 isAddonBlocklisted
-:
-function
 (
 aAddon
 aAppVersion
@@ -380,8 +368,6 @@ true
 ;
 }
 getAddonBlocklistState
-:
-function
 (
 aAddon
 aAppVersion
@@ -399,8 +385,6 @@ STATE_BLOCKED
 ;
 }
 getPluginBlocklistState
-:
-function
 (
 aPluginTag
 aAppVersion
@@ -442,8 +426,6 @@ aToolkitVersion
 ;
 }
 getAddonBlocklistURL
-:
-function
 (
 aAddon
 aAppVersion
@@ -459,8 +441,6 @@ kMissingAPIMessage
 ;
 }
 getPluginBlocklistURL
-:
-function
 (
 aPluginTag
 )
@@ -474,8 +454,6 @@ kMissingAPIMessage
 ;
 }
 getPluginInfoURL
-:
-function
 (
 aPluginTag
 )

@@ -757,13 +757,7 @@ visits
 [
 {
 transition
-:
-transition
 referrer
-:
-referrer
-date
-:
 date
 }
 ]

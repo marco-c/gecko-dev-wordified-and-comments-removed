@@ -113,8 +113,6 @@ key
 :
 index
 index
-:
-index
 size
 :
 1

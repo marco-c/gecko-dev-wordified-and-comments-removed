@@ -110,8 +110,6 @@ freeze
 (
 {
 makeURI
-:
-function
 (
 url
 )
@@ -130,8 +128,6 @@ null
 ;
 }
 makeInputStream
-:
-function
 (
 aString
 )
@@ -176,8 +172,6 @@ stream
 ;
 }
 hasRootDomain
-:
-function
 (
 url
 domain
@@ -286,8 +280,6 @@ prevChar
 ;
 }
 shallowCopy
-:
-function
 (
 obj
 )

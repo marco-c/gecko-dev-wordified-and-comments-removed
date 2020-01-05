@@ -3917,10 +3917,6 @@ push
 (
 {
 uri
-:
-uri
-title
-:
 title
 visited
 :

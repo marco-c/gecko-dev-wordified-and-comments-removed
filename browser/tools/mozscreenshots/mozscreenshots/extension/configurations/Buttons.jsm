@@ -397,8 +397,6 @@ spec
 =
 {
 id
-:
-id
 label
 :
 "

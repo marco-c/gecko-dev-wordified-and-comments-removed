@@ -340,8 +340,6 @@ nsIObserver
 ]
 )
 addCrash
-:
-function
 (
 processType
 crashType
@@ -559,8 +557,6 @@ metadata
 ;
 }
 observe
-:
-function
 (
 subject
 topic

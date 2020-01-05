@@ -247,8 +247,6 @@ URL
 :
 url
 toString
-:
-function
 (
 )
 {

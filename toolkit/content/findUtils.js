@@ -148,8 +148,6 @@ webBrowserFind
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -197,8 +195,6 @@ searchFrames
 true
 ;
 }
-window
-:
 window
 _root
 :

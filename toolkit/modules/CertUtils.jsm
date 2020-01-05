@@ -714,8 +714,6 @@ prototype
 =
 {
 asyncOnChannelRedirect
-:
-function
 (
 oldChannel
 newChannel
@@ -775,8 +773,6 @@ NS_OK
 ;
 }
 getInterface
-:
-function
 (
 iid
 )
@@ -791,8 +787,6 @@ iid
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )

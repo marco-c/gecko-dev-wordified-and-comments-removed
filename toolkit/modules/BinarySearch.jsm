@@ -23,8 +23,6 @@ freeze
 (
 {
 indexOf
-:
-function
 (
 comparator
 array
@@ -56,8 +54,6 @@ idx
 ;
 }
 insertionIndexOf
-:
-function
 (
 comparator
 array
@@ -79,8 +75,6 @@ target
 ;
 }
 search
-:
-function
 (
 comparator
 array

@@ -1255,8 +1255,6 @@ _cancelTimer
 }
 }
 _ensureTimer
-:
-function
 (
 interval
 )
@@ -1379,8 +1377,6 @@ now
 }
 }
 _cancelTimer
-:
-function
 (
 )
 {
@@ -1555,13 +1551,7 @@ id
 =
 {
 callback
-:
-callback
 interval
-:
-interval
-lastUpdateTime
-:
 lastUpdateTime
 }
 ;

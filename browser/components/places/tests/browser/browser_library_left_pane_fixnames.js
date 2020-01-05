@@ -322,8 +322,6 @@ name
 :
 queryName
 itemId
-:
-itemId
 correctTitle
 :
 PlacesUtils

@@ -77,8 +77,6 @@ RecommendedCallback
 =
 {
 searchSucceeded
-:
-function
 (
 addons
 length
@@ -178,8 +176,6 @@ do_test_finished
 ;
 }
 searchFailed
-:
-function
 (
 )
 {

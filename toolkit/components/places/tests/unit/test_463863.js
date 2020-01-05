@@ -195,8 +195,6 @@ org
 "
 )
 transition
-:
-transition
 }
 )
 ;

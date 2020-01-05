@@ -41,8 +41,6 @@ nsIPromptService
 ]
 )
 confirmEx
-:
-function
 (
 )
 {
@@ -66,8 +64,6 @@ nsIPrompt
 ]
 )
 alert
-:
-function
 (
 )
 {
@@ -171,8 +167,6 @@ searchCallback
 =
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -227,8 +221,6 @@ run_next_test
 ;
 }
 onError
-:
-function
 (
 errorCode
 )
@@ -282,8 +274,6 @@ searchCallback
 =
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -302,8 +292,6 @@ succeeded
 ;
 }
 onError
-:
-function
 (
 errorCode
 )
@@ -365,8 +353,6 @@ searchCallback
 =
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -385,8 +371,6 @@ succeeded
 ;
 }
 onError
-:
-function
 (
 errorCode
 )

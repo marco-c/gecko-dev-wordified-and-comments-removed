@@ -515,8 +515,6 @@ FocusChanged
 "
 {
 details
-:
-details
 }
 )
 ;

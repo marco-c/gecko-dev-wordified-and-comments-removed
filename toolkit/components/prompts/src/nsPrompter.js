@@ -138,8 +138,6 @@ nsIPromptService2
 ]
 )
 pickPrompter
-:
-function
 (
 domWin
 )
@@ -153,8 +151,6 @@ domWin
 ;
 }
 getPrompt
-:
-function
 (
 domWin
 iid
@@ -265,8 +261,6 @@ p
 ;
 }
 alert
-:
-function
 (
 domWin
 title
@@ -293,8 +287,6 @@ text
 ;
 }
 alertCheck
-:
-function
 (
 domWin
 title
@@ -325,8 +317,6 @@ checkValue
 ;
 }
 confirm
-:
-function
 (
 domWin
 title
@@ -354,8 +344,6 @@ text
 ;
 }
 confirmCheck
-:
-function
 (
 domWin
 title
@@ -387,8 +375,6 @@ checkValue
 ;
 }
 confirmEx
-:
-function
 (
 domWin
 title
@@ -428,8 +414,6 @@ checkValue
 ;
 }
 prompt
-:
-function
 (
 domWin
 title
@@ -463,8 +447,6 @@ checkValue
 ;
 }
 promptUsernameAndPassword
-:
-function
 (
 domWin
 title
@@ -500,8 +482,6 @@ checkValue
 ;
 }
 promptPassword
-:
-function
 (
 domWin
 title
@@ -535,8 +515,6 @@ checkValue
 ;
 }
 select
-:
-function
 (
 domWin
 title
@@ -570,8 +548,6 @@ selected
 ;
 }
 promptAuth
-:
-function
 (
 domWin
 channel
@@ -605,8 +581,6 @@ checkValue
 ;
 }
 asyncPromptAuth
-:
-function
 (
 domWin
 channel
@@ -653,8 +627,6 @@ __proto__
 :
 PromptUtils
 getLocalizedString
-:
-function
 (
 key
 formatArgs
@@ -690,8 +662,6 @@ key
 ;
 }
 confirmExHelper
-:
-function
 (
 flags
 button0
@@ -968,8 +938,6 @@ isDelayEnabled
 ;
 }
 getAuthInfo
-:
-function
 (
 authInfo
 )
@@ -1036,8 +1004,6 @@ password
 ;
 }
 setAuthInfo
-:
-function
 (
 authInfo
 username
@@ -1137,8 +1103,6 @@ password
 ;
 }
 getFormattedHostname
-:
-function
 (
 uri
 )
@@ -1160,8 +1124,6 @@ hostPort
 ;
 }
 getAuthTarget
-:
-function
 (
 aChannel
 aAuthInfo
@@ -1334,8 +1296,6 @@ realm
 ;
 }
 makeAuthMessage
-:
-function
 (
 channel
 authInfo
@@ -1562,8 +1522,6 @@ text
 ;
 }
 getTabModalPrompt
-:
-function
 (
 domWin
 )
@@ -2629,8 +2587,6 @@ nsIWritablePropertyBag2
 ]
 )
 openPrompt
-:
-function
 (
 args
 )
@@ -2873,8 +2829,6 @@ args
 ;
 }
 prompt
-:
-function
 (
 )
 {
@@ -2915,8 +2869,6 @@ arguments
 ;
 }
 promptUsernameAndPassword
-:
-function
 (
 )
 {
@@ -2957,8 +2909,6 @@ arguments
 ;
 }
 promptPassword
-:
-function
 (
 )
 {
@@ -2999,8 +2949,6 @@ arguments
 ;
 }
 alert
-:
-function
 (
 title
 text
@@ -3032,10 +2980,6 @@ promptType
 alert
 "
 title
-:
-title
-text
-:
 text
 }
 ;
@@ -3048,8 +2992,6 @@ args
 ;
 }
 alertCheck
-:
-function
 (
 title
 text
@@ -3083,13 +3025,7 @@ promptType
 alertCheck
 "
 title
-:
-title
 text
-:
-text
-checkLabel
-:
 checkLabel
 checked
 :
@@ -3115,8 +3051,6 @@ checked
 ;
 }
 confirm
-:
-function
 (
 title
 text
@@ -3148,10 +3082,6 @@ promptType
 confirm
 "
 title
-:
-title
-text
-:
 text
 ok
 :
@@ -3172,8 +3102,6 @@ ok
 ;
 }
 confirmCheck
-:
-function
 (
 title
 text
@@ -3207,13 +3135,7 @@ promptType
 confirmCheck
 "
 title
-:
-title
 text
-:
-text
-checkLabel
-:
 checkLabel
 checked
 :
@@ -3247,8 +3169,6 @@ ok
 ;
 }
 confirmEx
-:
-function
 (
 title
 text
@@ -3286,13 +3206,7 @@ promptType
 confirmEx
 "
 title
-:
-title
 text
-:
-text
-checkLabel
-:
 checkLabel
 checked
 :
@@ -3396,8 +3310,6 @@ buttonNumClicked
 ;
 }
 nsIPrompt_prompt
-:
-function
 (
 title
 text
@@ -3432,18 +3344,12 @@ promptType
 prompt
 "
 title
-:
-title
-text
-:
 text
 value
 :
 value
 .
 value
-checkLabel
-:
 checkLabel
 checked
 :
@@ -3496,8 +3402,6 @@ ok
 ;
 }
 nsIPrompt_promptUsernameAndPassword
-:
-function
 (
 title
 text
@@ -3533,10 +3437,6 @@ promptType
 promptUserAndPass
 "
 title
-:
-title
-text
-:
 text
 user
 :
@@ -3548,8 +3448,6 @@ pass
 pass
 .
 value
-checkLabel
-:
 checkLabel
 checked
 :
@@ -3610,8 +3508,6 @@ ok
 ;
 }
 nsIPrompt_promptPassword
-:
-function
 (
 title
 text
@@ -3646,18 +3542,12 @@ promptType
 promptPassword
 "
 title
-:
-title
-text
-:
 text
 pass
 :
 pass
 .
 value
-checkLabel
-:
 checkLabel
 checked
 :
@@ -3709,8 +3599,6 @@ ok
 ;
 }
 select
-:
-function
 (
 title
 text
@@ -3745,13 +3633,7 @@ promptType
 select
 "
 title
-:
-title
 text
-:
-text
-list
-:
 list
 selected
 :
@@ -3793,8 +3675,6 @@ ok
 ;
 }
 nsIAuthPrompt_prompt
-:
-function
 (
 title
 text
@@ -3829,8 +3709,6 @@ null
 ;
 }
 nsIAuthPrompt_promptUsernameAndPassword
-:
-function
 (
 title
 text
@@ -3856,8 +3734,6 @@ null
 ;
 }
 nsIAuthPrompt_promptPassword
-:
-function
 (
 title
 text
@@ -3881,8 +3757,6 @@ null
 ;
 }
 promptAuth
-:
-function
 (
 channel
 level
@@ -3998,8 +3872,6 @@ ok
 ;
 }
 asyncPromptAuth
-:
-function
 (
 channel
 callback
@@ -4017,8 +3889,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 setPropertyAsBool
-:
-function
 (
 name
 value
@@ -4092,8 +3962,6 @@ nsIAuthPromptAdapterFactory
 ]
 )
 createAdapter
-:
-function
 (
 oldPrompter
 )
@@ -4142,8 +4010,6 @@ oldPrompter
 :
 null
 promptAuth
-:
-function
 (
 channel
 level
@@ -4300,8 +4166,6 @@ ok
 ;
 }
 asyncPromptAuth
-:
-function
 (
 channel
 callback

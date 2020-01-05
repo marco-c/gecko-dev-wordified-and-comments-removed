@@ -89,8 +89,6 @@ ResetProfile
 =
 {
 resetSupported
-:
-function
 (
 )
 {
@@ -239,8 +237,6 @@ false
 ;
 }
 openConfirmationDialog
-:
-function
 (
 window
 )

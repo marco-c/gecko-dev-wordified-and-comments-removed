@@ -167,8 +167,6 @@ function
 return
 {
 toJSON
-:
-function
 (
 )
 {

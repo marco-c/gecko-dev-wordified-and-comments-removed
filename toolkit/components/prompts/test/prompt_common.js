@@ -301,10 +301,6 @@ handlePrompt
 "
 {
 action
-:
-action
-isTabModal
-:
 isTabModal
 }
 )

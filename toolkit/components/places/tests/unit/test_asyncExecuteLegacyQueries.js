@@ -44,10 +44,6 @@ addVisits
 (
 {
 uri
-:
-uri
-title
-:
 title
 }
 )
@@ -110,8 +106,6 @@ query
 options
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -181,8 +175,6 @@ data
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -212,8 +204,6 @@ message
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -332,8 +322,6 @@ query
 options
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -403,8 +391,6 @@ data
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -434,8 +420,6 @@ message
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )

@@ -501,8 +501,6 @@ _runUnload
 :
 true
 _submitTelemetry
-:
-function
 (
 aPageID
 )
@@ -516,8 +514,6 @@ aPageID
 ;
 }
 _setButton
-:
-function
 (
 button
 string
@@ -621,8 +617,6 @@ defaultAccesskey
 }
 }
 setButtons
-:
-function
 (
 extra1ButtonString
 extra2ButtonString
@@ -832,8 +826,6 @@ true
 ;
 }
 getAUSString
-:
-function
 (
 key
 strings
@@ -866,8 +858,6 @@ key
 ;
 }
 never
-:
-function
 (
 )
 {
@@ -947,8 +937,6 @@ _pages
 {
 }
 onWizardFinish
-:
-function
 (
 )
 {
@@ -1002,8 +990,6 @@ pageid
 ;
 }
 onWizardCancel
-:
-function
 (
 )
 {
@@ -1057,8 +1043,6 @@ pageid
 ;
 }
 onWizardNext
-:
-function
 (
 )
 {
@@ -1114,8 +1098,6 @@ sourceEvent
 :
 SRCEVT_FOREGROUND
 _cacheButtonStrings
-:
-function
 (
 buttonName
 )
@@ -1155,8 +1137,6 @@ accesskey
 ;
 }
 onLoad
-:
-function
 (
 )
 {
@@ -1366,8 +1346,6 @@ startPageID
 ;
 }
 onUnload
-:
-function
 (
 )
 {
@@ -1417,8 +1395,6 @@ onWizardCancel
 }
 }
 getStartPageID
-:
-function
 (
 aCallback
 )
@@ -1803,8 +1779,6 @@ updatesfoundbasic
 ;
 }
 setUpdate
-:
-function
 (
 update
 )
@@ -1843,8 +1817,6 @@ _checker
 :
 null
 onPageShow
-:
-function
 (
 )
 {
@@ -1991,8 +1963,6 @@ true
 ;
 }
 onWizardCancel
-:
-function
 (
 )
 {
@@ -2014,8 +1984,6 @@ updateListener
 :
 {
 onCheckComplete
-:
-function
 (
 request
 updates
@@ -2183,8 +2151,6 @@ noupdatesfound
 ;
 }
 onError
-:
-function
 (
 request
 update
@@ -2225,8 +2191,6 @@ errors
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -2271,8 +2235,6 @@ gNoUpdatesPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -2380,8 +2342,6 @@ gManualUpdatePage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -2460,8 +2420,6 @@ gUnsupportedPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -2546,8 +2504,6 @@ gUpdatesFoundBasicPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -2803,8 +2759,6 @@ updateTitle
 ;
 }
 onExtra1
-:
-function
 (
 )
 {
@@ -2818,8 +2772,6 @@ cancel
 ;
 }
 onExtra2
-:
-function
 (
 )
 {
@@ -2876,8 +2828,6 @@ _updateApplyingObserver
 :
 false
 onPageShow
-:
-function
 (
 )
 {
@@ -3224,8 +3174,6 @@ focus
 ;
 }
 _setStatus
-:
-function
 (
 status
 )
@@ -3282,8 +3230,6 @@ status
 ;
 }
 _updateDownloadStatus
-:
-function
 (
 aCurr
 aMax
@@ -3347,8 +3293,6 @@ status
 ;
 }
 _setUIState
-:
-function
 (
 paused
 )
@@ -3546,8 +3490,6 @@ _label_downloadStatus
 }
 }
 _setUpdateApplying
-:
-function
 (
 )
 {
@@ -3611,8 +3553,6 @@ true
 ;
 }
 cleanUp
-:
-function
 (
 )
 {
@@ -3680,8 +3620,6 @@ false
 }
 }
 onPause
-:
-function
 (
 )
 {
@@ -3787,8 +3725,6 @@ _paused
 ;
 }
 onWizardCancel
-:
-function
 (
 )
 {
@@ -3808,8 +3744,6 @@ cleanUp
 ;
 }
 onHide
-:
-function
 (
 )
 {
@@ -4030,8 +3964,6 @@ cancel
 ;
 }
 onStartRequest
-:
-function
 (
 request
 context
@@ -4079,8 +4011,6 @@ _label_downloadStatus
 ;
 }
 onProgress
-:
-function
 (
 request
 context
@@ -4249,8 +4179,6 @@ status
 ;
 }
 onStatus
-:
-function
 (
 request
 context
@@ -4267,8 +4195,6 @@ statusText
 ;
 }
 onStopRequest
-:
-function
 (
 request
 context
@@ -4539,8 +4465,6 @@ break
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -4646,8 +4570,6 @@ errors
 }
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -4713,8 +4635,6 @@ gErrorsPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -4837,8 +4757,6 @@ gErrorExtraPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -4952,8 +4870,6 @@ gErrorPatchingPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -4971,8 +4887,6 @@ true
 ;
 }
 onWizardNext
-:
-function
 (
 )
 {
@@ -5047,8 +4961,6 @@ gFinishedPage
 =
 {
 onPageShow
-:
-function
 (
 )
 {
@@ -5158,8 +5070,6 @@ focus
 ;
 }
 onPageShowBackground
-:
-function
 (
 )
 {
@@ -5441,8 +5351,6 @@ UPDATE_TEST_LOOP_INTERVAL
 }
 }
 onWizardFinish
-:
-function
 (
 )
 {
@@ -5704,8 +5612,6 @@ eRestart
 ;
 }
 onExtra1
-:
-function
 (
 )
 {

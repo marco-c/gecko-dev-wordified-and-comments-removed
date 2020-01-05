@@ -2157,8 +2157,6 @@ getLivemark
 (
 {
 id
-:
-id
 }
 )
 ;

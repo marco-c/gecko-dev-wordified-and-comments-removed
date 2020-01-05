@@ -371,8 +371,6 @@ prototype
 =
 {
 init
-:
-function
 (
 uri
 file
@@ -400,8 +398,6 @@ uri
 ;
 }
 start
-:
-function
 (
 observer
 ctxt
@@ -714,8 +710,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 cancel
-:
-function
 (
 aStatus
 )
@@ -727,8 +721,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 suspend
-:
-function
 (
 )
 {
@@ -739,8 +731,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 isPending
-:
-function
 (
 )
 {

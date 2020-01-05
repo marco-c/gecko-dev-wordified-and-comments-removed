@@ -208,8 +208,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 addon
 )

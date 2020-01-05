@@ -87,8 +87,6 @@ nsIShellService
 ]
 )
 isDefaultBrowser
-:
-function
 (
 aStartupCheck
 aForAllTypes
@@ -99,8 +97,6 @@ false
 ;
 }
 setDefaultBrowser
-:
-function
 (
 aClaimAllTypes
 aForAllUsers
@@ -133,8 +129,6 @@ BACKGROUND_FIT
 :
 5
 setDesktopBackground
-:
-function
 (
 aElement
 aPosition
@@ -148,8 +142,6 @@ APPLICATION_NEWS
 :
 1
 openApplication
-:
-function
 (
 aApplication
 )
@@ -159,8 +151,6 @@ desktopBackgroundColor
 :
 0
 openApplicationWithURI
-:
-function
 (
 aApplication
 aURI

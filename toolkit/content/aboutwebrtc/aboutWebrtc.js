@@ -387,8 +387,6 @@ stats
 .
 reports
 log
-:
-log
 }
 )
 )
@@ -401,8 +399,6 @@ error
 contentInit
 (
 {
-error
-:
 error
 }
 )
@@ -434,8 +430,6 @@ AboutWebRTC
 refresh
 (
 {
-log
-:
 log
 }
 )
@@ -516,8 +510,6 @@ ControlSet
 =
 {
 render
-:
-function
 (
 )
 {
@@ -612,8 +604,6 @@ controls
 ;
 }
 add
-:
-function
 (
 controlObj
 )
@@ -681,8 +671,6 @@ prototype
 =
 {
 render
-:
-function
 (
 )
 {
@@ -805,8 +793,6 @@ _messageVal
 ;
 }
 update
-:
-function
 (
 )
 {
@@ -873,8 +859,6 @@ null
 }
 }
 onClick
-:
-function
 (
 event
 )
@@ -1714,8 +1698,6 @@ _log
 [
 ]
 init
-:
-function
 (
 onClearStats
 onClearLog
@@ -1735,8 +1717,6 @@ onClearLog
 ;
 }
 render
-:
-function
 (
 parent
 data
@@ -1877,8 +1857,6 @@ _connectionLog
 ;
 }
 _setData
-:
-function
 (
 data
 )
@@ -1917,8 +1895,6 @@ log
 }
 }
 refresh
-:
-function
 (
 data
 )
@@ -1990,8 +1966,6 @@ log
 ;
 }
 renderPeerConnections
-:
-function
 (
 )
 {
@@ -2204,8 +2178,6 @@ connections
 ;
 }
 renderConnectionLog
-:
-function
 (
 )
 {
@@ -2502,8 +2474,6 @@ prototype
 =
 {
 render
-:
-function
 (
 )
 {
@@ -2678,8 +2648,6 @@ pc
 ;
 }
 renderHeading
-:
-function
 (
 )
 {
@@ -2768,8 +2736,6 @@ heading
 ;
 }
 renderDesc
-:
-function
 (
 )
 {
@@ -2872,8 +2838,6 @@ info
 ;
 }
 getPCInfo
-:
-function
 (
 report
 )
@@ -2953,8 +2917,6 @@ prototype
 =
 {
 render
-:
-function
 (
 )
 {
@@ -3146,8 +3108,6 @@ prototype
 =
 {
 render
-:
-function
 (
 )
 {
@@ -3227,8 +3187,6 @@ div
 ;
 }
 generateRTPStats
-:
-function
 (
 )
 {
@@ -3332,8 +3290,6 @@ rtpStats
 ;
 }
 renderAvStats
-:
-function
 (
 stats
 )
@@ -3421,8 +3377,6 @@ line
 ;
 }
 renderCoderStats
-:
-function
 (
 stats
 )
@@ -3675,8 +3629,6 @@ line
 ;
 }
 renderTransportStats
-:
-function
 (
 stats
 typeLabel
@@ -3922,8 +3874,6 @@ line
 ;
 }
 renderRTPStatSet
-:
-function
 (
 stats
 )
@@ -4080,8 +4030,6 @@ prototype
 =
 {
 render
-:
-function
 (
 )
 {
@@ -4297,8 +4245,6 @@ div
 ;
 }
 renderIceMetric
-:
-function
 (
 labelName
 value
@@ -4397,8 +4343,6 @@ info
 ;
 }
 generateICEStats
-:
-function
 (
 )
 {
@@ -4648,8 +4592,6 @@ priority
 ;
 }
 candidateToString
-:
-function
 (
 c
 )
@@ -4767,8 +4709,6 @@ prototype
 =
 {
 renderRow
-:
-function
 (
 list
 )
@@ -4824,8 +4764,6 @@ row
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -4999,8 +4937,6 @@ prototype
 =
 {
 render
-:
-function
 (
 )
 {
@@ -5084,8 +5020,6 @@ ctrl
 ;
 }
 onClick
-:
-function
 (
 )
 {
@@ -5128,8 +5062,6 @@ true
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -5174,8 +5106,6 @@ _hideMsg
 ;
 }
 close
-:
-function
 (
 )
 {

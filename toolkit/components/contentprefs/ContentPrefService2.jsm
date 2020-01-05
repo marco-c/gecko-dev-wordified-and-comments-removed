@@ -2220,8 +2220,6 @@ nsresult
 ;
 }
 _settingsAndGroupsCleanupStmts
-:
-function
 (
 )
 {

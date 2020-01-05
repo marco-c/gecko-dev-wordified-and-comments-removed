@@ -574,8 +574,6 @@ type
 Search
 "
 data
-:
-data
 expectedURL
 :
 submissionURL
@@ -694,8 +692,6 @@ type
 "
 Search
 "
-data
-:
 data
 expectedURL
 :
@@ -1821,8 +1817,6 @@ null
 false
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -1848,8 +1842,6 @@ engine
 ;
 }
 onError
-:
-function
 (
 errCode
 )

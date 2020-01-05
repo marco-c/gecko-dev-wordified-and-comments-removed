@@ -288,8 +288,6 @@ freeze
 (
 {
 fetch
-:
-function
 (
 guidOrURI
 )
@@ -307,8 +305,6 @@ implemented
 ;
 }
 insert
-:
-function
 (
 pageInfo
 )
@@ -374,8 +370,6 @@ info
 ;
 }
 insertMany
-:
-function
 (
 pageInfos
 onResult
@@ -549,8 +543,6 @@ onError
 ;
 }
 remove
-:
-function
 (
 pages
 onResult
@@ -668,10 +660,6 @@ normalizedPages
 =
 {
 guids
-:
-guids
-urls
-:
 urls
 }
 ;
@@ -728,8 +716,6 @@ onResult
 ;
 }
 removeVisitsByFilter
-:
-function
 (
 filter
 onResult
@@ -1056,8 +1042,6 @@ onResult
 ;
 }
 hasVisits
-:
-function
 (
 page
 onResult
@@ -3194,8 +3178,6 @@ onResultData
 push
 (
 {
-guid
-:
 guid
 title
 :

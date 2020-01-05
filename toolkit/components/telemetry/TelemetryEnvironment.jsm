@@ -472,8 +472,6 @@ currentEnvironment
 ;
 }
 onInitialized
-:
-function
 (
 )
 {
@@ -488,8 +486,6 @@ onInitialized
 ;
 }
 delayedInit
-:
-function
 (
 )
 {
@@ -504,8 +500,6 @@ delayedInit
 ;
 }
 registerChangeListener
-:
-function
 (
 name
 listener
@@ -524,8 +518,6 @@ listener
 ;
 }
 unregisterChangeListener
-:
-function
 (
 name
 )
@@ -542,8 +534,6 @@ name
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -564,8 +554,6 @@ RECORD_PREF_VALUE
 :
 2
 testWatchPreferences
-:
-function
 (
 prefMap
 )
@@ -582,8 +570,6 @@ prefMap
 ;
 }
 testReset
-:
-function
 (
 )
 {
@@ -598,8 +584,6 @@ reset
 ;
 }
 testCleanRestart
-:
-function
 (
 )
 {
@@ -2560,8 +2544,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -2666,8 +2648,6 @@ _pendingTask
 ;
 }
 watchForChanges
-:
-function
 (
 )
 {
@@ -2697,8 +2677,6 @@ false
 ;
 }
 onEnabled
-:
-function
 (
 )
 {
@@ -2710,8 +2688,6 @@ _onAddonChange
 ;
 }
 onDisabled
-:
-function
 (
 )
 {
@@ -2723,8 +2699,6 @@ _onAddonChange
 ;
 }
 onInstalled
-:
-function
 (
 )
 {
@@ -2736,8 +2710,6 @@ _onAddonChange
 ;
 }
 onUninstalling
-:
-function
 (
 )
 {
@@ -2749,8 +2721,6 @@ _onAddonChange
 ;
 }
 _onAddonChange
-:
-function
 (
 )
 {
@@ -2780,8 +2750,6 @@ changed
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -2818,8 +2786,6 @@ changed
 ;
 }
 _checkForChanges
-:
-function
 (
 changeReason
 )
@@ -2937,8 +2903,6 @@ err
 ;
 }
 _shutdownBlocker
-:
-function
 (
 )
 {
@@ -3642,8 +3606,6 @@ activeTheme
 }
 )
 _getActivePlugins
-:
-function
 (
 )
 {
@@ -3955,8 +3917,6 @@ activeGMPlugins
 }
 )
 _getActiveExperiment
-:
-function
 (
 )
 {
@@ -4182,8 +4142,6 @@ _addonBuilder
 =
 {
 watchForChanges
-:
-function
 (
 )
 {
@@ -4375,8 +4333,6 @@ myScope
 ;
 }
 onInitialized
-:
-function
 (
 )
 {
@@ -4405,8 +4361,6 @@ currentEnvironment
 ;
 }
 delayedInit
-:
-function
 (
 )
 {
@@ -4418,8 +4372,6 @@ true
 ;
 }
 registerChangeListener
-:
-function
 (
 name
 listener
@@ -4475,8 +4427,6 @@ listener
 ;
 }
 unregisterChangeListener
-:
-function
 (
 name
 )
@@ -4530,8 +4480,6 @@ name
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -4554,8 +4502,6 @@ true
 ;
 }
 _watchPreferences
-:
-function
 (
 aPreferences
 )
@@ -4586,8 +4532,6 @@ _startWatchingPrefs
 ;
 }
 _getPrefData
-:
-function
 (
 )
 {
@@ -4682,8 +4626,6 @@ prefData
 ;
 }
 _startWatchingPrefs
-:
-function
 (
 )
 {
@@ -4749,8 +4691,6 @@ this
 }
 }
 _onPrefChanged
-:
-function
 (
 )
 {
@@ -4798,8 +4738,6 @@ oldEnvironment
 ;
 }
 _stopWatchingPrefs
-:
-function
 (
 )
 {
@@ -4860,8 +4798,6 @@ this
 }
 }
 _addObservers
-:
-function
 (
 )
 {
@@ -4933,8 +4869,6 @@ false
 ;
 }
 _removeObservers
-:
-function
 (
 )
 {
@@ -5009,8 +4943,6 @@ SEARCH_SERVICE_TOPIC
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -5146,8 +5078,6 @@ break
 }
 }
 _getDefaultSearchEngine
-:
-function
 (
 )
 {
@@ -5236,8 +5166,6 @@ name
 ;
 }
 _updateSearchEngine
-:
-function
 (
 )
 {
@@ -5361,8 +5289,6 @@ PREF_SEARCH_COHORT
 ;
 }
 _onSearchEngineChange
-:
-function
 (
 )
 {
@@ -5412,8 +5338,6 @@ oldEnvironment
 ;
 }
 _onCompositorProcessAborted
-:
-function
 (
 )
 {
@@ -5463,8 +5387,6 @@ oldEnvironment
 ;
 }
 _updateGraphicsFeatures
-:
-function
 (
 )
 {
@@ -5543,8 +5465,6 @@ e
 }
 }
 _updatePartner
-:
-function
 (
 )
 {
@@ -5562,8 +5482,6 @@ _getPartner
 ;
 }
 _getBuild
-:
-function
 (
 )
 {
@@ -5732,8 +5650,6 @@ buildData
 ;
 }
 _isDefaultBrowser
-:
-function
 (
 )
 {
@@ -5968,8 +5884,6 @@ null
 }
 }
 _updateSettings
-:
-function
 (
 )
 {
@@ -6305,8 +6219,6 @@ MAX_ATTRIBUTION_STRING_LENGTH
 }
 )
 _getPartner
-:
-function
 (
 )
 {
@@ -6390,8 +6302,6 @@ partnerData
 ;
 }
 _getCpuData
-:
-function
 (
 )
 {
@@ -6573,8 +6483,6 @@ cpuData
 ;
 }
 _getDeviceData
-:
-function
 (
 )
 {
@@ -6644,8 +6552,6 @@ null
 ;
 }
 _getOSData
-:
-function
 (
 )
 {
@@ -6876,8 +6782,6 @@ data
 ;
 }
 _getHDDData
-:
-function
 (
 )
 {
@@ -6953,8 +6857,6 @@ null
 ;
 }
 _getGFXData
-:
-function
 (
 )
 {
@@ -7271,8 +7173,6 @@ gfxData
 ;
 }
 _getSystem
-:
-function
 (
 )
 {
@@ -7340,8 +7240,6 @@ let
 data
 =
 {
-memoryMB
-:
 memoryMB
 virtualMaxMB
 :
@@ -7438,8 +7336,6 @@ data
 ;
 }
 _onEnvironmentChange
-:
-function
 (
 what
 oldEnvironment
@@ -7552,8 +7448,6 @@ e
 }
 }
 reset
-:
-function
 (
 )
 {

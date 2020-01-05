@@ -242,8 +242,6 @@ newChannel
 (
 {
 uri
-:
-uri
 loadUsingSystemPrincipal
 :
 true
@@ -632,8 +630,6 @@ nsIDOMEventListener
 ]
 )
 destroy
-:
-function
 (
 )
 {
@@ -671,8 +667,6 @@ this
 ;
 }
 resetCanvasPreview
-:
-function
 (
 )
 {
@@ -694,8 +688,6 @@ height
 ;
 }
 resizeCanvasPreview
-:
-function
 (
 aRequestedWidth
 aRequestedHeight
@@ -783,8 +775,6 @@ getBoundingClientRect
 ;
 }
 cacheBrowserDims
-:
-function
 (
 )
 {
@@ -813,8 +803,6 @@ height
 ;
 }
 testCacheBrowserDims
-:
-function
 (
 )
 {
@@ -847,8 +835,6 @@ height
 ;
 }
 updateCanvasPreview
-:
-function
 (
 aFullScale
 aCallback
@@ -886,8 +872,6 @@ resetCacheTimer
 ;
 }
 updateTitleAndTooltip
-:
-function
 (
 )
 {
@@ -989,8 +973,6 @@ tabHeight
 ;
 }
 requestPreview
-:
-function
 (
 aTaskbarCallback
 )
@@ -1182,8 +1164,6 @@ false
 ;
 }
 requestThumbnail
-:
-function
 (
 aTaskbarCallback
 aRequestedWidth
@@ -1222,8 +1202,6 @@ false
 ;
 }
 onClose
-:
-function
 (
 )
 {
@@ -1242,8 +1220,6 @@ tab
 ;
 }
 onActivate
-:
-function
 (
 )
 {
@@ -1264,8 +1240,6 @@ true
 ;
 }
 handleEvent
-:
-function
 (
 evt
 )
@@ -1541,8 +1515,6 @@ resize
 "
 ]
 destroy
-:
-function
 (
 )
 {
@@ -1729,8 +1701,6 @@ innerHeight
 ;
 }
 cacheDims
-:
-function
 (
 )
 {
@@ -1752,8 +1722,6 @@ height
 ;
 }
 testCacheDims
-:
-function
 (
 )
 {
@@ -1779,8 +1747,6 @@ height
 ;
 }
 newTab
-:
-function
 (
 tab
 )
@@ -1824,8 +1790,6 @@ updateTitleAndTooltip
 ;
 }
 createTabPreview
-:
-function
 (
 controller
 )
@@ -1920,8 +1884,6 @@ preview
 ;
 }
 removeTab
-:
-function
 (
 tab
 )
@@ -2039,8 +2001,6 @@ updateTabOrdering
 ;
 }
 previewFromTab
-:
-function
 (
 tab
 )
@@ -2057,8 +2017,6 @@ tab
 ;
 }
 updateTabOrdering
-:
-function
 (
 )
 {
@@ -2158,8 +2116,6 @@ null
 }
 }
 handleEvent
-:
-function
 (
 evt
 )
@@ -2274,8 +2230,6 @@ break
 }
 }
 setInvalidationTimer
-:
-function
 (
 )
 {
@@ -2388,8 +2342,6 @@ TYPE_ONE_SHOT
 ;
 }
 onResize
-:
-function
 (
 )
 {
@@ -2419,8 +2371,6 @@ setInvalidationTimer
 ;
 }
 invalidateTabPreview
-:
-function
 (
 aBrowser
 )
@@ -2460,16 +2410,12 @@ break
 }
 }
 onLocationChange
-:
-function
 (
 aBrowser
 )
 {
 }
 onStateChange
-:
-function
 (
 aBrowser
 aWebProgress
@@ -2528,8 +2474,6 @@ about
 ]
 )
 onLinkIconAvailable
-:
-function
 (
 aBrowser
 aIconURL
@@ -2743,8 +2687,6 @@ cacheLifespan
 :
 20
 initialize
-:
-function
 (
 )
 {
@@ -3149,8 +3091,6 @@ gTaskbarTabGroup
 }
 }
 addPreview
-:
-function
 (
 preview
 )
@@ -3172,8 +3112,6 @@ checkPreviewCount
 ;
 }
 removePreview
-:
-function
 (
 preview
 )
@@ -3208,8 +3146,6 @@ checkPreviewCount
 ;
 }
 checkPreviewCount
-:
-function
 (
 )
 {
@@ -3241,8 +3177,6 @@ maxpreviews
 ;
 }
 onOpenWindow
-:
-function
 (
 win
 )
@@ -3274,8 +3208,6 @@ win
 ;
 }
 onCloseWindow
-:
-function
 (
 win
 )
@@ -3327,8 +3259,6 @@ destroy
 ;
 }
 resetCacheTimer
-:
-function
 (
 )
 {
@@ -3361,8 +3291,6 @@ TYPE_ONE_SHOT
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic

@@ -106,8 +106,6 @@ PanelWideWidgetTracker
 =
 {
 onWidgetAdded
-:
-function
 (
 aWidgetId
 aArea
@@ -153,8 +151,6 @@ moveForward
 }
 }
 onWidgetMoved
-:
-function
 (
 aWidgetId
 aArea
@@ -201,8 +197,6 @@ moveForward
 }
 }
 onWidgetRemoved
-:
-function
 (
 aWidgetId
 aPrevArea
@@ -236,8 +230,6 @@ false
 }
 }
 onWidgetReset
-:
-function
 (
 aWidgetId
 )
@@ -253,8 +245,6 @@ gPanel
 ;
 }
 onWidgetAfterDOMChange
-:
-function
 (
 aNode
 aNextNode
@@ -310,8 +300,6 @@ id
 }
 }
 onWidgetDestroyed
-:
-function
 (
 aWidgetId
 )
@@ -332,8 +320,6 @@ aWidgetId
 ;
 }
 shouldMoveForward
-:
-function
 (
 aWidgetId
 aPosition
@@ -465,8 +451,6 @@ rv
 ;
 }
 adjustWidgets
-:
-function
 (
 aWidgetId
 aMoveForwards
@@ -589,8 +573,6 @@ false
 ;
 }
 adjustPosition
-:
-function
 (
 aWidgetId
 aMoveForwards
@@ -789,8 +771,6 @@ desiredPos
 }
 }
 checkWidgetStatus
-:
-function
 (
 aWidgetId
 )
@@ -877,8 +857,6 @@ real
 ;
 }
 init
-:
-function
 (
 )
 {

@@ -30,8 +30,6 @@ browser
 :
 null
 destroy
-:
-function
 (
 )
 {
@@ -46,8 +44,6 @@ this
 ;
 }
 onLocationChange
-:
-function
 (
 webProgress
 request

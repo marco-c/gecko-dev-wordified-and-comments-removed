@@ -979,8 +979,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 request
 context
@@ -988,8 +986,6 @@ context
 {
 }
 onDataAvailable
-:
-function
 (
 request
 context
@@ -1124,8 +1120,6 @@ this
 }
 }
 onStopRequest
-:
-function
 (
 request
 context

@@ -1845,8 +1845,6 @@ aIID
 ;
 }
 onRedirect
-:
-function
 (
 aChannel
 aNewChannel
@@ -1854,8 +1852,6 @@ aNewChannel
 {
 }
 onProgress
-:
-function
 (
 aRequest
 aContext
@@ -1865,8 +1861,6 @@ aProgressMax
 {
 }
 onStatus
-:
-function
 (
 aRequest
 aContext
@@ -6739,8 +6733,6 @@ newChannel
 (
 {
 uri
-:
-uri
 loadUsingSystemPrincipal
 :
 true
@@ -7097,8 +7089,6 @@ NetUtil
 newChannel
 (
 {
-uri
-:
 uri
 loadUsingSystemPrincipal
 :
@@ -8308,8 +8298,6 @@ NetUtil
 newChannel
 (
 {
-uri
-:
 uri
 loadUsingSystemPrincipal
 :
@@ -12087,8 +12075,6 @@ return
 ;
 }
 getURLParsingInfo
-:
-function
 (
 )
 {
@@ -12213,8 +12199,6 @@ filePath
 toLowerCase
 (
 )
-termsParameterName
-:
 termsParameterName
 }
 ;
@@ -15286,8 +15270,6 @@ done
 }
 )
 _asyncReInit
-:
-function
 (
 )
 {
@@ -17738,8 +17720,6 @@ engines
 }
 )
 _convertChannelToFile
-:
-function
 (
 chan
 )
@@ -21916,8 +21896,6 @@ result
 ;
 }
 _recordEngineTelemetry
-:
-function
 (
 )
 {
@@ -22149,8 +22127,6 @@ mapValueForEngine
 =
 {
 engine
-:
-engine
 termsParameterName
 :
 urlParsingInfo
@@ -22345,8 +22321,6 @@ true
 }
 }
 hasEngineWithURL
-:
-function
 (
 method
 template

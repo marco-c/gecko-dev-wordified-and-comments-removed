@@ -126,8 +126,6 @@ pageListener
 :
 null
 init
-:
-function
 (
 )
 {
@@ -168,8 +166,6 @@ this
 ;
 }
 customize
-:
-function
 (
 message
 )
@@ -200,8 +196,6 @@ enhanced
 ;
 }
 uninit
-:
-function
 (
 )
 {

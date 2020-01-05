@@ -271,8 +271,6 @@ nsISecurityReporter
 ]
 )
 reportTLSError
-:
-function
 (
 transportSecurityInfo
 hostname
@@ -430,10 +428,6 @@ report
 =
 {
 hostname
-:
-hostname
-port
-:
 port
 timestamp
 :

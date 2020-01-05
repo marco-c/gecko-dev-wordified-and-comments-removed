@@ -409,8 +409,6 @@ freeze
 (
 {
 onUserNotifyComplete
-:
-function
 (
 )
 {
@@ -423,8 +421,6 @@ _userNotified
 ;
 }
 onUserNotifyFailed
-:
-function
 (
 error
 )
@@ -456,8 +452,6 @@ DEFAULT_DATAREPORTING_POLICY_VERSION
 :
 1
 setup
-:
-function
 (
 )
 {
@@ -470,8 +464,6 @@ setup
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -484,8 +476,6 @@ shutdown
 ;
 }
 canUpload
-:
-function
 (
 )
 {
@@ -498,8 +488,6 @@ canUpload
 ;
 }
 reset
-:
-function
 (
 )
 {
@@ -512,8 +500,6 @@ reset
 ;
 }
 testIsUserNotified
-:
-function
 (
 )
 {
@@ -524,8 +510,6 @@ isUserNotifiedOfCurrentPolicy
 ;
 }
 testInfobarShown
-:
-function
 (
 )
 {
@@ -993,8 +977,6 @@ true
 ;
 }
 reset
-:
-function
 (
 )
 {
@@ -1013,8 +995,6 @@ setup
 ;
 }
 setup
-:
-function
 (
 )
 {
@@ -1054,8 +1034,6 @@ false
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -1087,8 +1065,6 @@ _startupNotificationTimerId
 ;
 }
 _detachObservers
-:
-function
 (
 )
 {
@@ -1110,8 +1086,6 @@ restored
 ;
 }
 canUpload
-:
-function
 (
 )
 {
@@ -1148,8 +1122,6 @@ bypassNotification
 ;
 }
 _migratePreferences
-:
-function
 (
 )
 {
@@ -1171,8 +1143,6 @@ pref
 }
 }
 _showInfobar
-:
-function
 (
 )
 {
@@ -1363,8 +1333,6 @@ notifyCanUpload
 ;
 }
 _recordNotificationData
-:
-function
 (
 )
 {
@@ -1729,8 +1697,6 @@ true
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic

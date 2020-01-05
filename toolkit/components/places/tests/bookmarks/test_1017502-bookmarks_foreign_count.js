@@ -433,8 +433,6 @@ executeAsync
 (
 {
 handleCompletion
-:
-function
 (
 )
 {
