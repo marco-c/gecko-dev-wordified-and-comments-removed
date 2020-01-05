@@ -591,7 +591,6 @@ Fetch
 function
 names
 for
-hang
 stacks
 "
 >
@@ -604,9 +603,8 @@ hideSymbols
 "
 Show
 raw
+stack
 data
-from
-hangs
 "
 >
 <
