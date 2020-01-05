@@ -1,4 +1,10 @@
 use
+bluetooth_traits
+:
+:
+BluetoothMethodMsg
+;
+use
 devtools
 ;
 use
@@ -639,15 +645,6 @@ IpcSend
 Metadata
 ResourceThreads
 }
-;
-use
-net_traits
-:
-:
-bluetooth_thread
-:
-:
-BluetoothMethodMsg
 ;
 use
 net_traits

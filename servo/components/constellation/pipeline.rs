@@ -1,4 +1,10 @@
 use
+bluetooth_traits
+:
+:
+BluetoothMethodMsg
+;
+use
 compositing
 :
 :
@@ -130,15 +136,6 @@ net_traits
 IpcSend
 ResourceThreads
 }
-;
-use
-net_traits
-:
-:
-bluetooth_thread
-:
-:
-BluetoothMethodMsg
 ;
 use
 net_traits

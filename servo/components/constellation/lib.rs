@@ -52,6 +52,10 @@ backtrace
 ;
 extern
 crate
+bluetooth_traits
+;
+extern
+crate
 canvas
 ;
 extern

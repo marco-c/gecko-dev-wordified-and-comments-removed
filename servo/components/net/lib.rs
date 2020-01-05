@@ -80,10 +80,6 @@ cookie_rs
 ;
 extern
 crate
-device
-;
-extern
-crate
 devtools_traits
 ;
 extern
@@ -168,10 +164,6 @@ profile_traits
 ;
 extern
 crate
-rand
-;
-extern
-crate
 rustc_serialize
 ;
 #
@@ -249,10 +241,6 @@ about_loader
 pub
 mod
 blob_loader
-;
-pub
-mod
-bluetooth_thread
 ;
 pub
 mod
