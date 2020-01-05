@@ -134,6 +134,8 @@ font_variant_east_asian
                            
 font_variant_numeric
 font_language_override
+                           
+font_feature_settings
 "
 "
 "
