@@ -502,7 +502,7 @@ test_supports_rules
 .
 html
 [
-1
+6
 ]
 *
 test_bug357614
@@ -2693,7 +2693,7 @@ also
 \
 supports
 [
-7
+11
 ]
 *
 getComputedStyle
