@@ -15106,7 +15106,7 @@ get
 ;
 MOZ_ASSERT
 (
-true
+false
 )
 ;
 return
