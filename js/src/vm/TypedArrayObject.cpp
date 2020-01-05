@@ -6911,7 +6911,7 @@ every
 "
 TypedArrayEvery
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
@@ -6933,7 +6933,7 @@ filter
 "
 TypedArrayFilter
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
@@ -6944,7 +6944,7 @@ find
 "
 TypedArrayFind
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
@@ -6955,7 +6955,7 @@ findIndex
 "
 TypedArrayFindIndex
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
@@ -6966,7 +6966,7 @@ forEach
 "
 TypedArrayForEach
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
@@ -7010,7 +7010,7 @@ map
 "
 TypedArrayMap
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
@@ -7065,7 +7065,7 @@ some
 "
 TypedArraySome
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
