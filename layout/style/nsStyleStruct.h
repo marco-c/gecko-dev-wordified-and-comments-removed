@@ -10910,8 +10910,6 @@ mOriginalDisplay
 uint8_t
 mContain
 ;
-private
-:
 friend
 class
 nsComputedDOMStyle
@@ -12531,7 +12529,7 @@ mString
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 GetCounters
 (
@@ -12723,7 +12721,7 @@ aType
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 aCounters
 )
@@ -12910,7 +12908,7 @@ mImage
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 mCounters
 ;
