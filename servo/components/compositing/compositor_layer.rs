@@ -225,7 +225,7 @@ wants_scroll_events
 WantsScrollEventsFlag
 tile_size
 :
-uint
+usize
 )
 -
 >

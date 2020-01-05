@@ -1,4 +1,10 @@
 use
+script_traits
+:
+:
+MouseButton
+;
+use
 std
 :
 :
@@ -1100,7 +1106,10 @@ MouseWindowEvent
 :
 MouseDown
 (
-0
+MouseButton
+:
+:
+Left
 click_pt
 )
 )
@@ -1128,7 +1137,10 @@ MouseWindowEvent
 :
 MouseUp
 (
-0
+MouseButton
+:
+:
+Left
 click_pt
 )
 )
@@ -1156,7 +1168,10 @@ MouseWindowEvent
 :
 Click
 (
-0
+MouseButton
+:
+:
+Left
 click_pt
 )
 )

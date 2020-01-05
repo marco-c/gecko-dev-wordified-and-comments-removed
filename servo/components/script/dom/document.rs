@@ -830,7 +830,10 @@ use
 script_traits
 :
 :
+{
+MouseButton
 UntrustedNodeAddress
+}
 ;
 use
 util
@@ -1829,9 +1832,9 @@ js_runtime
 *
 mut
 JSRuntime
-_button
+button
 :
-uint
+MouseButton
 point
 :
 Point2D
@@ -3531,7 +3534,7 @@ mut
 JSRuntime
 _button
 :
-uint
+MouseButton
 point
 :
 Point2D

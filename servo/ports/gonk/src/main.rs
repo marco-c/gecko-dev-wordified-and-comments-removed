@@ -69,6 +69,10 @@ compositing
 ;
 extern
 crate
+script_traits
+;
+extern
+crate
 geom
 ;
 extern

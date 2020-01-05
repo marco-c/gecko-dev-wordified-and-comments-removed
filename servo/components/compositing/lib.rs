@@ -19,14 +19,6 @@ core
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
 io
 )
 ]
