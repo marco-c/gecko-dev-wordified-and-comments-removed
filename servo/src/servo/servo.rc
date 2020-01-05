@@ -343,6 +343,9 @@ resource
 mod
 resource_task
 ;
+mod
+file_loader
+;
 }
 import
 servo_text
