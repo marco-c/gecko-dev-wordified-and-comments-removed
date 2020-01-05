@@ -5778,7 +5778,7 @@ ReleaseContentController
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -5814,7 +5814,6 @@ GetDesktopToDeviceScale
 (
 )
 ;
-return
 Move
 (
 aX
@@ -5832,7 +5831,6 @@ y
 }
 else
 {
-return
 Move
 (
 aX
@@ -5849,7 +5847,7 @@ y
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -5936,7 +5934,6 @@ GetDesktopToDeviceScale
 (
 )
 ;
-return
 Resize
 (
 aWidth
@@ -5955,7 +5952,6 @@ aRepaint
 }
 else
 {
-return
 Resize
 (
 mBounds
@@ -5985,7 +5981,7 @@ aRepaint
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -6095,7 +6091,6 @@ Size
 /
 scale
 ;
-return
 Resize
 (
 aX
@@ -6124,7 +6119,6 @@ aRepaint
 }
 else
 {
-return
 Resize
 (
 aX

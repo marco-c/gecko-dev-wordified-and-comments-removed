@@ -1574,7 +1574,8 @@ aY
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 MoveClient
 (
 double
@@ -1615,7 +1616,8 @@ aRepaint
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 ResizeClient
 (
 double
@@ -1628,7 +1630,8 @@ aRepaint
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 ResizeClient
 (
 double

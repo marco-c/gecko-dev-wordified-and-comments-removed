@@ -1075,7 +1075,8 @@ aY
 override
 {
 }
-NS_IMETHOD
+virtual
+void
 MoveClient
 (
 double
@@ -1085,7 +1086,8 @@ aY
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 ResizeClient
 (
 double
@@ -1097,7 +1099,8 @@ aRepaint
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 ResizeClient
 (
 double
