@@ -265,7 +265,7 @@ Constant
 ]
 readonly
 attribute
-AttrList
+NamedNodeMap
 attributes
 ;
 DOMString

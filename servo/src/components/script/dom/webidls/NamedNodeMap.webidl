@@ -56,11 +56,8 @@ MPL
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
-AttrList
+NamedNodeMap
 {
 readonly
 attribute
