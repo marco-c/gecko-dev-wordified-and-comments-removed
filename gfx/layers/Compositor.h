@@ -1399,6 +1399,7 @@ IsValid
 (
 )
 const
+override
 ;
 CompositorBridgeParent
 *

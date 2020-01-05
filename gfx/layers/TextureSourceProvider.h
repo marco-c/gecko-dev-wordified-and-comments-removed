@@ -242,6 +242,15 @@ const
 =
 0
 ;
+virtual
+bool
+IsValid
+(
+)
+const
+=
+0
+;
 protected
 :
 void

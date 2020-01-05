@@ -354,7 +354,7 @@ mImageHost
 mImageHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 mCompositor
 )
@@ -473,7 +473,7 @@ clipRect
 mImageHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 mCompositor
 )
