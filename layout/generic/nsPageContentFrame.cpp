@@ -113,8 +113,10 @@ aStatus
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 if
 (
@@ -431,8 +433,6 @@ list
 }
 nsReflowStatus
 fixedStatus
-=
-NS_FRAME_COMPLETE
 ;
 ReflowAbsoluteFrames
 (

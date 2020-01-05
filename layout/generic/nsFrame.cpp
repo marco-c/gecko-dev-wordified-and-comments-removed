@@ -27119,8 +27119,10 @@ ClearSize
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 NS_FRAME_SET_TRUNCATION
 (
@@ -46449,8 +46451,6 @@ NS_FRAME_IN_REFLOW
 ;
 nsReflowStatus
 reflowStatus
-=
-NS_FRAME_COMPLETE
 ;
 ReflowAbsoluteFrames
 (
@@ -46589,8 +46589,6 @@ BoxMetrics
 ;
 nsReflowStatus
 status
-=
-NS_FRAME_COMPLETE
 ;
 WritingMode
 wm

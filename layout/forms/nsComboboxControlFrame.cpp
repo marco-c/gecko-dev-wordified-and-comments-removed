@@ -3994,8 +3994,10 @@ IsFullyComplete
 )
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 }
@@ -5598,8 +5600,10 @@ aStatus
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 void

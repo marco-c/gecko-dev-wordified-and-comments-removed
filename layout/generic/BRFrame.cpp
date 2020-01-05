@@ -637,8 +637,10 @@ true
 else
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 aMetrics

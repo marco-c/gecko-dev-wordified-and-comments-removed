@@ -497,8 +497,6 @@ aOverflowAreas
 {
 nsReflowStatus
 reflowStatus
-=
-NS_FRAME_COMPLETE
 ;
 const
 bool
@@ -611,8 +609,6 @@ HasPendingInterrupt
 {
 nsReflowStatus
 kidStatus
-=
-NS_FRAME_COMPLETE
 ;
 const
 nsRect

@@ -1452,8 +1452,10 @@ reflow
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 const
 WritingMode

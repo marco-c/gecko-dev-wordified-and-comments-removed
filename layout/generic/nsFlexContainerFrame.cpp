@@ -15526,8 +15526,10 @@ aAxisTracker
 )
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 LinkedList
 <

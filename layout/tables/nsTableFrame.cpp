@@ -8548,8 +8548,10 @@ GetWritingMode
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 if
 (
@@ -9411,8 +9413,6 @@ DUMMY_PARENT_REFLOW_STATE
 ;
 nsReflowStatus
 reflowStatus
-=
-NS_FRAME_COMPLETE
 ;
 nsFrame
 *
@@ -14137,8 +14137,10 @@ aOverflowAreas
 )
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 aLastChildReflowed
 =

@@ -926,8 +926,10 @@ n
 #
 endif
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 nsBoxLayoutState
 state

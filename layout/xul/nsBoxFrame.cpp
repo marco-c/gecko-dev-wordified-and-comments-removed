@@ -2747,8 +2747,10 @@ n
 #
 endif
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 nsBoxLayoutState
 state
@@ -3954,8 +3956,6 @@ NS_FRAME_IN_REFLOW
 ;
 nsReflowStatus
 reflowStatus
-=
-NS_FRAME_COMPLETE
 ;
 ReflowAbsoluteFrames
 (

@@ -102,10 +102,6 @@ mLastBalanceBSize
 (
 NS_INTRINSICSIZE
 )
-mLastFrameStatus
-(
-NS_FRAME_COMPLETE
-)
 {
 }
 nsIAtom
@@ -4716,8 +4712,10 @@ aStatus
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 if
 (
@@ -4841,8 +4839,6 @@ ocBounds
 ;
 nsReflowStatus
 ocStatus
-=
-NS_FRAME_COMPLETE
 ;
 if
 (
@@ -4974,8 +4970,10 @@ NS_UNCONSTRAINEDSIZE
 )
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 NS_ASSERTION

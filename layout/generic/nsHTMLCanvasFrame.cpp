@@ -1054,8 +1054,10 @@ reflow
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 WritingMode
 wm

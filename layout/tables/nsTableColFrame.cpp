@@ -542,8 +542,10 @@ true
 ;
 }
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 NS_FRAME_SET_TRUNCATION
 (

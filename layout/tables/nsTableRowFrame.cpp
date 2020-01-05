@@ -3693,8 +3693,10 @@ aStatus
 )
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 const
 bool
