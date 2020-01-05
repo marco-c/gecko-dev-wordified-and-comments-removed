@@ -381,6 +381,7 @@ NodeTypeId
 WebSocket
 Window
 Worker
+FileReader
 WorkerGlobalScope
 (
 WorkerGlobalScopeTypeId
