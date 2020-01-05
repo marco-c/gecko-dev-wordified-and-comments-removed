@@ -516,6 +516,11 @@ parent
 :
 PipelineId
 }
+FramedContentChanged
+(
+PipelineId
+SubpageId
+)
 ReportCSSError
 (
 PipelineId
