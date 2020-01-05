@@ -6813,10 +6813,6 @@ UnsafeLayoutNode
 -
 >
 LayoutNode
-<
-'
-static
->
 {
 let
 (
