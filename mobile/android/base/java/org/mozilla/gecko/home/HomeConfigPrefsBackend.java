@@ -197,6 +197,15 @@ android
 .
 support
 .
+annotation
+.
+VisibleForTesting
+;
+import
+android
+.
+support
+.
 v4
 .
 content
@@ -233,7 +242,7 @@ LOGTAG
 GeckoHomeConfigBackend
 "
 ;
-private
+VisibleForTesting
 static
 final
 int
