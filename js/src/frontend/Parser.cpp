@@ -1787,7 +1787,7 @@ UINT32_MAX
 {
 tokenStream_
 .
-reportError
+reportErrorNoOffset
 (
 JSMSG_NEED_DIET
 js_script_str

@@ -516,7 +516,7 @@ pc
 >
 tokenStream_
 .
-reportError
+reportErrorNoOffset
 (
 JSMSG_NEED_DIET
 js_script_str
@@ -1033,7 +1033,7 @@ SharedContext
 *
 sc_
 ;
-TokenStream
+TokenStreamBase
 &
 tokenStream_
 ;
