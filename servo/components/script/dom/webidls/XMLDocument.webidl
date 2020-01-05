@@ -160,9 +160,6 @@ org
 interface
 -
 document
-[
-Constructor
-]
 interface
 XMLDocument
 :
