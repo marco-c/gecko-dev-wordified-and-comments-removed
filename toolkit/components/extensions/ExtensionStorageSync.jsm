@@ -1935,8 +1935,6 @@ stringify
 extIds
 )
 }
-\
-n
 )
 ;
 if
