@@ -514,6 +514,11 @@ SizePrintfMacros
 h
 '
 '
+SmallPointerArray
+.
+h
+'
+'
 Span
 .
 h
