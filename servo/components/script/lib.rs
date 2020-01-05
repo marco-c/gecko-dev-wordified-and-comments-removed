@@ -75,6 +75,14 @@ fnbox
 [
 feature
 (
+iter_arith
+)
+]
+#
+!
+[
+feature
+(
 mpsc_select
 )
 ]
