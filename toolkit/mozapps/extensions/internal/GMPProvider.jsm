@@ -2147,10 +2147,10 @@ _updateTask
 =
 null
 ;
+}
 return
 true
 ;
-}
 }
 .
 bind

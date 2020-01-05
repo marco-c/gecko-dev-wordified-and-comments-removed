@@ -4373,10 +4373,10 @@ src
 =
 url
 ;
+}
 return
 img
 ;
-}
 }
 _scaleSnapshot
 :

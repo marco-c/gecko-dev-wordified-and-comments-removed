@@ -6732,9 +6732,9 @@ add
 (
 )
 ;
+}
 continue
 ;
-}
 }
 let
 id
