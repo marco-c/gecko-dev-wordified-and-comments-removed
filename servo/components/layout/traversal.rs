@@ -115,6 +115,15 @@ style
 traversal
 :
 :
+RestyleResult
+;
+use
+style
+:
+:
+traversal
+:
+:
 {
 DomTraversalContext
 remove_from_bloom_filter
@@ -274,6 +283,9 @@ node
 :
 N
 )
+-
+>
+RestyleResult
 {
 node
 .
@@ -292,7 +304,6 @@ self
 root
 node
 )
-;
 }
 fn
 process_postorder

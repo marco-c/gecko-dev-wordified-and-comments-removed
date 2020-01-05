@@ -352,6 +352,7 @@ selector_impl
 {
 ElementSnapshot
 NonTSPseudoClass
+PseudoElement
 ServoSelectorImpl
 }
 ;
@@ -1542,6 +1543,13 @@ Arc
 <
 ComputedValues
 >
+>
+_pseudo_element
+:
+Option
+<
+&
+PseudoElement
 >
 )
 -
