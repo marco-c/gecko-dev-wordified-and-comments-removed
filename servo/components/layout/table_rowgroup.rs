@@ -922,7 +922,7 @@ a
 &
 mut
 self
-layout_context
+_
 :
 &
 '
@@ -953,7 +953,6 @@ block_flow
 .
 assign_block_size_for_table_like_flow
 (
-layout_context
 self
 .
 spacing
