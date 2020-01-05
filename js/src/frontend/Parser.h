@@ -4638,8 +4638,6 @@ checkAndMarkAsIncOperand
 (
 Node
 kid
-AssignmentFlavor
-flavor
 )
 ;
 bool
