@@ -1029,9 +1029,6 @@ dispatchEvent
 event
 )
 ;
-let
-recurseTimer
-=
 setTimeout
 (
 (
