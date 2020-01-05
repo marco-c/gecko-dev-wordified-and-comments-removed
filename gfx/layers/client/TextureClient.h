@@ -1641,8 +1641,6 @@ InitIPDLActor
 TextureForwarder
 *
 aForwarder
-LayersBackend
-aBackendType
 )
 ;
 PTextureChild

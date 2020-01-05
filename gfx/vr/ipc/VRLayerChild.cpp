@@ -321,12 +321,6 @@ mFront
 InitIPDLActor
 (
 vrmc
-vrmc
--
->
-GetBackendType
-(
-)
 )
 )
 ;
