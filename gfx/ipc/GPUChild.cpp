@@ -1086,8 +1086,8 @@ XRE_ChildProcessTypeToString
 (
 GeckoProcessType_GPU
 )
-1
 )
+1
 )
 ;
 if
