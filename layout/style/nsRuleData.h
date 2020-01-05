@@ -857,16 +857,6 @@ SetTextDecorationColorOverride
 (
 )
 ;
-nsRuleData
-*
-AsRuleData
-(
-)
-{
-return
-this
-;
-}
 private
 :
 inline

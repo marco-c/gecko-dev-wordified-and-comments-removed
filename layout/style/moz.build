@@ -613,6 +613,11 @@ ServoPropPrefList
 h
 '
 '
+ServoSpecifiedValues
+.
+h
+'
+'
 ServoStyleRule
 .
 h
@@ -1288,6 +1293,11 @@ cpp
 '
 '
 nsLayoutStylesheetCache
+.
+cpp
+'
+'
+ServoSpecifiedValues
 .
 cpp
 '
