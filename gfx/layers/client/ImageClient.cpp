@@ -1623,6 +1623,16 @@ GetAsyncContainerHandle
 (
 )
 ;
+if
+(
+!
+mAsyncContainerHandle
+)
+{
+return
+true
+;
+}
 static_cast
 <
 ShadowLayerForwarder

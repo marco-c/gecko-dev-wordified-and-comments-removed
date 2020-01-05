@@ -1649,8 +1649,6 @@ EnsureActiveImage
 void
 EnsureImageClient
 (
-bool
-aCreate
 )
 ;
 ReentrantMonitor
@@ -1697,6 +1695,9 @@ RefPtr
 ImageClient
 >
 mImageClient
+;
+bool
+mIsAsync
 ;
 CompositableHandle
 mAsyncContainerHandle
