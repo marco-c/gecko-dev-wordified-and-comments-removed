@@ -286,9 +286,14 @@ StringValue
 String
 )
 ActorValue
-(
+{
+class
+:
 String
-)
+uuid
+:
+String
+}
 }
 #
 [
