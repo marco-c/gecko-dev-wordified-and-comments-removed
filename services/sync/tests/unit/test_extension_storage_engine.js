@@ -310,14 +310,14 @@ extension
 let
 oldSync
 =
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 ;
 let
 syncMock
 =
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 =
@@ -347,7 +347,7 @@ context
 )
 {
 yield
-ExtensionStorageSync
+extensionStorageSync
 .
 set
 (
@@ -377,7 +377,7 @@ _sync
 }
 finally
 {
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 =

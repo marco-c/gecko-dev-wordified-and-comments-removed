@@ -47,7 +47,7 @@ defineLazyModuleGetter
 (
 this
 "
-ExtensionStorageSync
+extensionStorageSync
 "
 "
 resource
@@ -302,7 +302,7 @@ id
 )
 ;
 return
-ExtensionStorageSync
+extensionStorageSync
 .
 get
 (
@@ -327,7 +327,7 @@ id
 )
 ;
 return
-ExtensionStorageSync
+extensionStorageSync
 .
 set
 (
@@ -352,7 +352,7 @@ id
 )
 ;
 return
-ExtensionStorageSync
+extensionStorageSync
 .
 remove
 (
@@ -376,7 +376,7 @@ id
 )
 ;
 return
-ExtensionStorageSync
+extensionStorageSync
 .
 clear
 (
@@ -449,7 +449,7 @@ id
 listenerLocal
 )
 ;
-ExtensionStorageSync
+extensionStorageSync
 .
 addOnChangedListener
 (
@@ -474,7 +474,7 @@ id
 listenerLocal
 )
 ;
-ExtensionStorageSync
+extensionStorageSync
 .
 removeOnChangedListener
 (

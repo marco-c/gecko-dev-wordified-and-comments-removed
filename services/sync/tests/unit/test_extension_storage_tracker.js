@@ -212,7 +212,7 @@ context
 )
 {
 yield
-ExtensionStorageSync
+extensionStorageSync
 .
 set
 (
@@ -257,7 +257,7 @@ context
 )
 {
 yield
-ExtensionStorageSync
+extensionStorageSync
 .
 remove
 (
