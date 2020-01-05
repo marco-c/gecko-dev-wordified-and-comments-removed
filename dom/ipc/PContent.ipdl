@@ -285,6 +285,9 @@ include
 JavaScriptTypes
 ;
 include
+IPCBlob
+;
+include
 IPCStream
 ;
 include
@@ -1138,7 +1141,7 @@ isTablet
 struct
 GetFilesResponseSuccess
 {
-PBlob
+IPCBlob
 [
 ]
 blobs
@@ -1165,7 +1168,7 @@ GetFilesResponseFailure
 struct
 FileCreationSuccessResult
 {
-PBlob
+IPCBlob
 blob
 ;
 }
@@ -1193,7 +1196,7 @@ BlobURLRegistrationData
 nsCString
 url
 ;
-PBlob
+IPCBlob
 blob
 ;
 Principal
@@ -2984,7 +2987,7 @@ BlobURLRegistration
 (
 nsCString
 aURI
-PBlob
+IPCBlob
 aBlob
 Principal
 aPrincipal
@@ -5730,7 +5733,7 @@ StoreAndBroadcastBlobURLRegistration
 (
 nsCString
 url
-PBlob
+IPCBlob
 blob
 Principal
 principal
