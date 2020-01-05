@@ -138,13 +138,6 @@ h
 '
 public
 /
-GeckoProfilerTypes
-.
-h
-'
-'
-public
-/
 ProfilerBacktrace
 .
 h
@@ -989,6 +982,13 @@ EXPORTS
 public
 /
 GeckoProfiler
+.
+h
+'
+'
+public
+/
+GeckoProfilerTypes
 .
 h
 '
