@@ -80,6 +80,15 @@ etc
 /
 ci
 /
+check_no_unwrap
+.
+sh
+-
+bash
+etc
+/
+ci
+/
 lockfile_changed
 .
 sh
