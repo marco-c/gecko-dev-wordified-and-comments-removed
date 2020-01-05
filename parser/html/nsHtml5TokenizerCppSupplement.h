@@ -263,7 +263,10 @@ StartPlainText
 {
 stateSave
 =
-NS_HTML5TOKENIZER_PLAINTEXT
+nsHtml5Tokenizer
+:
+:
+PLAINTEXT
 ;
 }
 void

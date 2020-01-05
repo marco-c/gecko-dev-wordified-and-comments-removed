@@ -236,6 +236,7 @@ return
 flags
 ;
 }
+Inline
 public
 int
 getGroup
@@ -245,9 +246,12 @@ getGroup
 return
 flags
 &
+ElementName
+.
 GROUP_MASK
 ;
 }
+Inline
 public
 boolean
 isInterned
@@ -258,6 +262,8 @@ return
 (
 flags
 &
+ElementName
+.
 NOT_INTERNED
 )
 =
@@ -265,6 +271,7 @@ NOT_INTERNED
 0
 ;
 }
+Inline
 static
 ElementName
 elementNameByBuffer
@@ -634,6 +641,7 @@ destructor
 )
 {
 }
+Inline
 public
 void
 setNameForNonInterned
@@ -661,13 +669,9 @@ this
 flags
 =
 =
-(
-TreeBuilder
+ElementName
 .
-OTHER
-|
 NOT_INTERNED
-)
 ;
 }
 public

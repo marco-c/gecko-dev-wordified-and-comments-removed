@@ -106,6 +106,12 @@ class
 nsHtml5StreamParser
 ;
 class
+nsHtml5AttributeName
+;
+class
+nsHtml5ElementName
+;
+class
 nsHtml5Tokenizer
 ;
 class
@@ -113,12 +119,6 @@ nsHtml5TreeBuilder
 ;
 class
 nsHtml5MetaScanner
-;
-class
-nsHtml5AttributeName
-;
-class
-nsHtml5ElementName
 ;
 class
 nsHtml5UTF16Buffer

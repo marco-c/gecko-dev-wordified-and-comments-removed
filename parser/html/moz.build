@@ -230,6 +230,11 @@ nsHtml5PlainTextUtils
 h
 '
 '
+nsHtml5Portability
+.
+h
+'
+'
 nsHtml5RefPtr
 .
 h

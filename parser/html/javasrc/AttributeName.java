@@ -835,6 +835,7 @@ return
 arr
 ;
 }
+Inline
 static
 AttributeName
 nameByBuffer
@@ -906,9 +907,7 @@ attributeName
 .
 getLocal
 (
-AttributeName
-.
-HTML
+0
 )
 ;
 if
