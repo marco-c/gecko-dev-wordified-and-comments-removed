@@ -4179,6 +4179,12 @@ timeoutHandle
 bool
 needsScheduling
 =
+!
+IsSuspended
+(
+)
+&
+&
 mIdleRequestCallbacks
 .
 isEmpty
