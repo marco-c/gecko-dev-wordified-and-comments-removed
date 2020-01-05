@@ -271,7 +271,7 @@ members
 /
 HTMLAnchorElement
 implements
-URLUtils
+HTMLHyperlinkElementUtils
 ;
 /
 /

@@ -595,7 +595,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hash
 fn
@@ -640,7 +640,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hash
 fn
@@ -688,7 +688,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 host
 fn
@@ -733,7 +733,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 host
 fn
@@ -781,7 +781,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hostname
 fn
@@ -826,7 +826,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hostname
 fn
@@ -874,7 +874,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 href
 fn
@@ -919,7 +919,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 href
 fn
