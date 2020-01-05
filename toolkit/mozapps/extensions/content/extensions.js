@@ -17436,13 +17436,6 @@ true
 LOADING_MSG_DELAY
 )
 ;
-var
-view
-=
-gViewController
-.
-currentViewId
-;
 AddonManager
 .
 getAddonByID
