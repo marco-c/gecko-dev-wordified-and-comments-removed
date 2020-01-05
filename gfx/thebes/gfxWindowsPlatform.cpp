@@ -1751,10 +1751,6 @@ Init
 (
 )
 ;
-UpdateCanUseHardwareVideoDecoding
-(
-)
-;
 InitializeConfig
 (
 )
@@ -9646,7 +9642,7 @@ FEATURE_FAILURE_D2D_D3D11_COMP
 ;
 }
 }
-UpdateCanUseHardwareVideoDecoding
+UpdateCanUseHardareVideoDecoding
 (
 )
 ;
