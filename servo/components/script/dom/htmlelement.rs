@@ -587,10 +587,6 @@ root
 ;
 win
 .
-deref
-(
-)
-.
 GetOnload
 (
 )
@@ -632,10 +628,6 @@ root
 )
 ;
 win
-.
-deref
-(
-)
 .
 SetOnload
 (

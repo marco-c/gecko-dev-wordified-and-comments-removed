@@ -836,10 +836,6 @@ namespace
 {
 elem
 .
-deref
-(
-)
-.
 namespace
 =
 =
@@ -856,10 +852,6 @@ ns_match
 &
 &
 elem
-.
-deref
-(
-)
 .
 local_name
 =
@@ -1208,10 +1200,6 @@ root
 ;
 root
 .
-deref
-(
-)
-.
 traverse_preorder
 (
 )
@@ -1370,10 +1358,6 @@ root
 )
 ;
 root
-.
-deref
-(
-)
 .
 traverse_preorder
 (
@@ -1623,10 +1607,6 @@ root
 )
 ;
 root
-.
-deref
-(
-)
 .
 traverse_preorder
 (

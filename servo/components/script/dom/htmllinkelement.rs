@@ -394,10 +394,6 @@ e
 |
 e
 .
-deref
-(
-)
-.
 value
 (
 )
@@ -846,10 +842,6 @@ base_url
 &
 window
 .
-deref
-(
-)
-.
 page
 (
 )
@@ -879,10 +871,6 @@ layout_chan
 )
 =
 window
-.
-deref
-(
-)
 .
 page
 (

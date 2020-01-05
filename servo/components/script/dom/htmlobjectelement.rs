@@ -859,10 +859,6 @@ process_data_url
 (
 window
 .
-deref
-(
-)
-.
 image_cache_task
 .
 clone

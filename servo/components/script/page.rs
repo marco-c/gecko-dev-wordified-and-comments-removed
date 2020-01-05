@@ -2266,10 +2266,6 @@ root
 =
 document
 .
-deref
-(
-)
-.
 GetDocumentElement
 (
 )
@@ -2431,10 +2427,6 @@ let
 root
 =
 document
-.
-deref
-(
-)
 .
 GetDocumentElement
 (

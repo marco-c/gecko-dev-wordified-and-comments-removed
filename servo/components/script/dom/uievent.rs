@@ -378,10 +378,6 @@ root
 ;
 ev
 .
-deref
-(
-)
-.
 InitUIEvent
 (
 type_

@@ -42493,10 +42493,6 @@ Self
 match
 base
 .
-deref
-(
-)
-.
 {
 checkFn
 }
@@ -42582,10 +42578,6 @@ Self
     
 match
 base
-.
-deref
-(
-)
 .
 {
 checkFn

@@ -524,10 +524,6 @@ tag_name
 =
 elem
 .
-deref
-(
-)
-.
 local_name
 .
 as_slice

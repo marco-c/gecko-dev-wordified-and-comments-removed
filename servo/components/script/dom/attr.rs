@@ -779,10 +779,6 @@ value
 =
 owner
 .
-deref
-(
-)
-.
 parse_attribute
 (
 &

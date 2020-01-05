@@ -464,10 +464,6 @@ bytes
 &
 template
 .
-deref
-(
-)
-.
 bytes
 ;
 let

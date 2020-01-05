@@ -1393,10 +1393,6 @@ page
 =
 self
 .
-deref
-(
-)
-.
 page
 .
 clone

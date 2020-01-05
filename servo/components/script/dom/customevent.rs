@@ -335,10 +335,6 @@ root
 ;
 ev
 .
-deref
-(
-)
-.
 InitCustomEvent
 (
 global

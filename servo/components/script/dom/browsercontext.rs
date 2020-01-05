@@ -241,10 +241,6 @@ new
 (
 doc
 .
-deref
-(
-)
-.
 window
 .
 clone
@@ -307,10 +303,6 @@ page
 =
 win
 .
-deref
-(
-)
-.
 page
 (
 )
@@ -359,10 +351,6 @@ parent
 =
 win
 .
-deref
-(
-)
-.
 reflector
 (
 )
@@ -385,10 +373,6 @@ unwrap
 )
 .
 js_context
-.
-deref
-(
-)
 .
 ptr
 ;

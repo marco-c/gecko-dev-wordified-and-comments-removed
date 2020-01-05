@@ -5302,10 +5302,6 @@ new
 (
 cx
 .
-deref
-(
-)
-.
 ptr
 page
 .
@@ -5433,10 +5429,6 @@ root
 )
 ;
 window
-.
-deref
-(
-)
 .
 init_browser_context
 (
@@ -5754,10 +5746,6 @@ url
 )
 ;
 document
-.
-deref
-(
-)
 .
 content_changed
 (
@@ -6923,10 +6911,6 @@ self
 .
 js_runtime
 .
-deref
-(
-)
-.
 ptr
 node_address
 )
@@ -7259,10 +7243,6 @@ root
 ;
 node
 .
-deref
-(
-)
-.
 set_hover_state
 (
 false
@@ -7296,10 +7276,6 @@ from_untrusted_node_address
 self
 .
 js_runtime
-.
-deref
-(
-)
 .
 ptr
 *

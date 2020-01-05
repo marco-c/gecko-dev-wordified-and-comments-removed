@@ -397,10 +397,6 @@ root
 ;
 win
 .
-deref
-(
-)
-.
 GetOnunload
 (
 )
@@ -430,10 +426,6 @@ root
 )
 ;
 win
-.
-deref
-(
-)
 .
 SetOnunload
 (

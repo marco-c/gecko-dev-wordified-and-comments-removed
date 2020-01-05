@@ -781,10 +781,6 @@ bool
 if
 event
 .
-deref
-(
-)
-.
 dispatching
 .
 get
@@ -794,10 +790,6 @@ get
 |
 !
 event
-.
-deref
-(
-)
 .
 initialized
 .

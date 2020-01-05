@@ -4241,10 +4241,6 @@ root
 ;
 win
 .
-deref
-(
-)
-.
 browser_context
 .
 borrow
