@@ -420,6 +420,12 @@ MIRType
 :
 :
 Int32
+add
+-
+>
+truncateKind
+(
+)
 )
 ;
 add
