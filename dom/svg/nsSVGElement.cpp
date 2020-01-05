@@ -4421,6 +4421,14 @@ nsIDocument
 aOldDoc
 )
 {
+nsSVGElementBase
+:
+:
+NodeInfoChanged
+(
+aOldDoc
+)
+;
 aOldDoc
 -
 >

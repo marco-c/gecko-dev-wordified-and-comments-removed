@@ -444,7 +444,7 @@ nsIDocument
 *
 aOldDoc
 )
-override
+final
 ;
 NS_IMETHOD
 WalkContentStyleRules

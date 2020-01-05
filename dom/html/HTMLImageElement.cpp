@@ -2709,6 +2709,14 @@ nsIDocument
 aOldDoc
 )
 {
+nsGenericHTMLElement
+:
+:
+NodeInfoChanged
+(
+aOldDoc
+)
+;
 mLastSelectedSource
 =
 nullptr
