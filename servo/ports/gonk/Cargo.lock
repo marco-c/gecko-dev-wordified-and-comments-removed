@@ -801,7 +801,7 @@ version
 .
 4
 .
-7
+9
 "
 source
 =
@@ -8622,7 +8622,7 @@ version
 .
 2
 .
-5
+6
 "
 source
 =
@@ -8656,7 +8656,7 @@ html5ever_macros
 .
 2
 .
-3
+4
 (
 registry
 +
@@ -8989,7 +8989,7 @@ version
 .
 2
 .
-3
+4
 "
 source
 =
@@ -15638,7 +15638,7 @@ tenacious
 .
 0
 .
-10
+11
 (
 git
 +
@@ -16463,7 +16463,7 @@ version
 .
 3
 .
-2
+3
 "
 source
 =
@@ -16497,7 +16497,7 @@ aster
 .
 4
 .
-7
+9
 (
 registry
 +
@@ -16572,7 +16572,7 @@ quasi_codegen
 .
 3
 .
-2
+3
 (
 registry
 +
@@ -17430,7 +17430,7 @@ html5ever
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -18756,7 +18756,7 @@ aster
 .
 4
 .
-7
+9
 (
 registry
 +
@@ -21487,7 +21487,7 @@ version
 .
 0
 .
-10
+11
 "
 source
 =
@@ -21508,7 +21508,7 @@ rust
 -
 tenacious
 #
-f02b78715ac10ddad67116448ea9697b5a03dfaa
+f9916c35fd76fdbe984659ab3ce30d752739f114
 "
 [
 [
@@ -22605,7 +22605,7 @@ html5ever
 .
 2
 .
-5
+6
 (
 registry
 +
