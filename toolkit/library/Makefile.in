@@ -138,6 +138,6 @@ library
 gtest
 /
 target
-LINK_GTEST
+LINK_GTEST_DURING_COMPILE
 =
 1

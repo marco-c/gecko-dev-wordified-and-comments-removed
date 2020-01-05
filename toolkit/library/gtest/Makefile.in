@@ -84,12 +84,12 @@ MAKECMDGOALS
 )
 )
 )
-LINK_GTEST
+LINK_GTEST_DURING_COMPILE
 =
 1
 endif
 ifndef
-LINK_GTEST
+LINK_GTEST_DURING_COMPILE
 #
 Force
 to
@@ -99,9 +99,9 @@ backend
 .
 mk
 unless
-LINK_GTEST
+LINK_GTEST_DURING_COMPILE
 is
-defined
+set
 .
 #
 Not
