@@ -1415,6 +1415,10 @@ pub
 establishes_3d_context
 :
 bool
+pub
+scrolls_overflow_area
+:
+bool
 }
 impl
 StackingContext
@@ -1477,6 +1481,9 @@ Matrix4
 establishes_3d_context
 :
 bool
+scrolls_overflow_area
+:
+bool
 )
 -
 >
@@ -1516,6 +1523,9 @@ perspective
 establishes_3d_context
 :
 establishes_3d_context
+scrolls_overflow_area
+:
+scrolls_overflow_area
 }
 }
 pub

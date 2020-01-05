@@ -322,6 +322,7 @@ Eq
 Copy
 Deserialize
 Serialize
+Debug
 )
 ]
 pub
@@ -379,6 +380,10 @@ perspective
 Matrix4
 pub
 establishes_3d_context
+:
+bool
+pub
+scrolls_overflow_area
 :
 bool
 }
