@@ -374,6 +374,12 @@ userCancel
 override
 ;
 NS_IMETHOD
+CloseStickyConnection
+(
+)
+override
+;
+NS_IMETHOD
 GetLoadFlags
 (
 nsLoadFlags
