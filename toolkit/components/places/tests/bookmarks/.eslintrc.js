@@ -40,5 +40,16 @@ eslintrc
 js
 "
 ]
+"
+parserOptions
+"
+:
+{
+"
+ecmaVersion
+"
+:
+8
+}
 }
 ;
