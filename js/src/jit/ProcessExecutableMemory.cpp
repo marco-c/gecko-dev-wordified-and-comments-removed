@@ -2566,7 +2566,7 @@ const
 size_t
 BufferSize
 =
-16
+8
 *
 1024
 *
