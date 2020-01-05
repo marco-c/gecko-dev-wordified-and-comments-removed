@@ -2267,6 +2267,11 @@ MetadataTags
 >
 mTags
 ;
+bool
+mHasStartTime
+=
+false
+;
 }
 ;
 }

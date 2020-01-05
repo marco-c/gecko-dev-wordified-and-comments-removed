@@ -802,6 +802,12 @@ MediaDecoderReader
 )
 ;
 virtual
+void
+UpdateBuffered
+(
+)
+;
+virtual
 media
 :
 :
@@ -959,12 +965,6 @@ MOZ_CRASH
 )
 ;
 }
-virtual
-void
-UpdateBuffered
-(
-)
-;
 virtual
 void
 VisibilityChanged
