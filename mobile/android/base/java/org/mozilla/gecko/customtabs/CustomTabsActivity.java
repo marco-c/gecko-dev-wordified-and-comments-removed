@@ -1958,10 +1958,14 @@ getSelectedTab
 ;
 tabs
 .
-closeTab
+closeTabNoActivitySwitch
 (
 tab
 )
+;
+mCheckTabSelectionOnResume
+=
+true
 ;
 }
 }
