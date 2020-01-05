@@ -593,6 +593,11 @@ mDurations
 nsString
 mDrmStubId
 ;
+bool
+mIsCodecSupportAdaptivePlayback
+=
+false
+;
 }
 ;
 }

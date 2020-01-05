@@ -149,6 +149,11 @@ String
 drmStubId
 )
 ;
+boolean
+isAdaptivePlaybackSupported
+(
+)
+;
 oneway
 void
 start

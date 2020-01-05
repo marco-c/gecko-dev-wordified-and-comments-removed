@@ -607,7 +607,7 @@ const
 override
 {
 return
-true
+mIsCodecSupportAdaptivePlayback
 ;
 }
 protected
@@ -1731,8 +1731,10 @@ NS_ERROR_FAILURE
 if
 (
 aSurface
-&
-&
+)
+{
+mIsCodecSupportAdaptivePlayback
+=
 java
 :
 :
@@ -1750,6 +1752,10 @@ mMimeType
 )
 )
 )
+;
+if
+(
+mIsCodecSupportAdaptivePlayback
 )
 {
 mFormat
@@ -1776,6 +1782,7 @@ KEY_MAX_HEIGHT
 1080
 )
 ;
+}
 }
 MediaCrypto
 :
