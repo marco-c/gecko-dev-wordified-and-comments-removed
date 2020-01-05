@@ -4817,6 +4817,12 @@ defined
 (
 CLANG_CXX
 )
+|
+|
+defined
+(
+CLANG_CL
+)
 #
 if
 defined
@@ -4834,6 +4840,7 @@ BINPATH
 llvm
 -
 symbolizer
+BIN_SUFFIX
 #
 endif
 #
