@@ -14359,8 +14359,10 @@ forget
 )
 ;
 }
+already_AddRefed
+<
 ServiceWorkerRegistrationInfo
-*
+>
 ServiceWorkerManager
 :
 :
@@ -14432,8 +14434,10 @@ tmp
 ;
 #
 endif
+RefPtr
+<
 ServiceWorkerRegistrationInfo
-*
+>
 registration
 =
 new
@@ -14452,6 +14456,10 @@ registration
 ;
 return
 registration
+.
+forget
+(
+)
 ;
 }
 void
