@@ -95,8 +95,15 @@ attribute
 DOMString
 name
 ;
+[
+SameObject
+PutForwards
+=
+value
+]
+readonly
 attribute
-DOMString
+DOMTokenList
 sandbox
 ;
 /
