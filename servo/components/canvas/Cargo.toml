@@ -75,13 +75,6 @@ rust
 -
 azure
 "
-features
-=
-[
-"
-plugins
-"
-]
 }
 canvas_traits
 =
