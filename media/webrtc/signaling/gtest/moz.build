@@ -199,6 +199,16 @@ SOURCES
 =
 [
 '
+jsep_session_unittest
+.
+cpp
+'
+'
+jsep_track_unittest
+.
+cpp
+'
+'
 sdp_unittests
 .
 cpp
