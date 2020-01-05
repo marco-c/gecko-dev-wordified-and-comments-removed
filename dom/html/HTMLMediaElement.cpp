@@ -3352,9 +3352,6 @@ MOZ_ASSERT
 mAudioChannelAgent
 )
 ;
-AutoNoJSAPI
-nojsapi
-;
 if
 (
 aPlaying
