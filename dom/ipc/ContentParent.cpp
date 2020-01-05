@@ -17909,6 +17909,7 @@ IsSecureURI
 type
 ourURI
 flags
+nullptr
 isSecureURI
 )
 ;
@@ -17933,6 +17934,10 @@ const
 bool
 &
 aActive
+const
+bool
+&
+aHSTSPriming
 )
 {
 nsCOMPtr
@@ -17963,6 +17968,7 @@ AccumulateMixedContentHSTS
 (
 ourURI
 aActive
+aHSTSPriming
 )
 ;
 return

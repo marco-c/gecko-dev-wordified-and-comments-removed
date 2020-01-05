@@ -4744,10 +4744,6 @@ Clear
 (
 )
 ;
-mEncrypted
-=
-true
-;
 }
 {
 MonitorAutoLock

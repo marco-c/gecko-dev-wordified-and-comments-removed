@@ -28054,6 +28054,15 @@ copyX
 *
 4
 ;
+uint8_t
+alphaMask
+=
+mOpaque
+?
+255
+:
+0
+;
 #
 if
 0
@@ -28266,6 +28275,8 @@ dst
 +
 =
 a
+|
+alphaMask
 ;
 #
 else
@@ -28275,6 +28286,8 @@ dst
 +
 =
 a
+|
+alphaMask
 ;
 *
 dst
