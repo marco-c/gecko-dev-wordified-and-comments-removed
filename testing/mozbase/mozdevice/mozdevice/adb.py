@@ -4095,6 +4095,11 @@ bin
 /
 ls
 /
+data
+/
+local
+/
+tmp
 "
 timeout
 =
@@ -4128,6 +4133,11 @@ xbin
 /
 ls
 /
+data
+/
+local
+/
+tmp
 "
 timeout
 =
@@ -4178,6 +4188,11 @@ s
 -
 1A
 /
+data
+/
+local
+/
+tmp
 "
 %
 self
