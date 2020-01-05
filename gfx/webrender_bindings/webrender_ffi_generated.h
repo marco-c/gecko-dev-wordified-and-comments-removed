@@ -2080,7 +2080,7 @@ WrAPI
 *
 api
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 void
@@ -2802,7 +2802,7 @@ WrState
 *
 state
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 WrState
