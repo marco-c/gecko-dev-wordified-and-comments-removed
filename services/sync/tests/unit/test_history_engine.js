@@ -900,6 +900,7 @@ MAX_HISTORY_DOWNLOAD
 ;
 for
 (
+let
 i
 =
 0

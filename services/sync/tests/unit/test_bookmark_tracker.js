@@ -6011,7 +6011,7 @@ favicons
 .
 FAVICON_LOAD_NON_PRIVATE
 (
-uri
+iconURI
 dataLen
 data
 mimeType

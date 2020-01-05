@@ -1973,7 +1973,7 @@ ignored
 )
 ;
 let
-extensionPrefs
+prefs
 =
 new
 Preferences
@@ -2063,7 +2063,7 @@ dummy
 )
 )
 ;
-extensionPrefs
+prefs
 .
 set
 (
@@ -2158,7 +2158,7 @@ uninstallAddon
 addon
 )
 ;
-extensionPrefs
+prefs
 .
 reset
 (

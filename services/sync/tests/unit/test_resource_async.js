@@ -1925,7 +1925,7 @@ content
 )
 ;
 let
-resLogger
+logger
 =
 res
 .
@@ -1934,7 +1934,7 @@ _log
 let
 dbg
 =
-resLogger
+logger
 .
 debug
 ;
@@ -1944,7 +1944,7 @@ debugMessages
 [
 ]
 ;
-resLogger
+logger
 .
 debug
 =
@@ -2033,7 +2033,7 @@ exists
 "
 )
 ;
-resLogger
+logger
 .
 debug
 =
