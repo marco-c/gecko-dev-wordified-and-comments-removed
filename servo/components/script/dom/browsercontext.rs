@@ -185,7 +185,7 @@ new
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -361,7 +361,11 @@ handler
 =
 js_info
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -405,7 +409,11 @@ cx
 =
 js_info
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .

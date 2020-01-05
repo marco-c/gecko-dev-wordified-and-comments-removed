@@ -2370,7 +2370,7 @@ inline_end
 in
 inline_end
 .
-move_iter
+into_iter
 (
 )
 {
@@ -3570,7 +3570,7 @@ vec
 ]
 )
 .
-move_iter
+into_iter
 (
 )
 ;
@@ -3690,7 +3690,11 @@ last
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -3909,7 +3913,7 @@ fragments
 .
 fragments
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -4841,7 +4845,7 @@ fragments
 .
 fragments
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -4996,7 +5000,7 @@ fragments
 .
 fragments
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -5110,7 +5114,7 @@ fragments
 .
 fragments
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -5183,7 +5187,7 @@ self
 .
 lines
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -5681,7 +5685,7 @@ fragments
 .
 fragments
 .
-mut_iter
+iter_mut
 (
 )
 {

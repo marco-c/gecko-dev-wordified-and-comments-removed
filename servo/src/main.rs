@@ -39,11 +39,11 @@ native
 ;
 extern
 crate
-servo_util
-=
 "
 util
 "
+as
+servo_util
 ;
 #
 [

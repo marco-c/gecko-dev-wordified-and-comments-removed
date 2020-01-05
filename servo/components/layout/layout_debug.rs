@@ -402,7 +402,7 @@ state
 .
 scope_stack
 .
-mut_last
+last_mut
 (
 )
 .

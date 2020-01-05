@@ -40,11 +40,11 @@ MPL
 ]
 extern
 crate
-servo_msg
-=
 "
 msg
 "
+as
+servo_msg
 ;
 use
 servo_msg

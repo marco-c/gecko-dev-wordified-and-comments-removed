@@ -1181,7 +1181,7 @@ epoch
 in
 requests
 .
-move_iter
+into_iter
 (
 )
 {
@@ -1286,7 +1286,7 @@ buffer
 in
 unused_buffers
 .
-move_iter
+into_iter
 (
 )
 .

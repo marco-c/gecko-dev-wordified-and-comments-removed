@@ -1826,7 +1826,7 @@ self
 .
 entries
 .
-mut_iter
+iter_mut
 (
 )
 {

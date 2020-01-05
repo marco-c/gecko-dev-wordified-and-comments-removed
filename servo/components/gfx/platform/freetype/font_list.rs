@@ -3,7 +3,7 @@
 [
 allow
 (
-uppercase_variables
+non_snake_case
 )
 ]
 extern
@@ -197,7 +197,7 @@ FcChar8
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -505,7 +505,7 @@ FcChar8
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -714,7 +714,7 @@ FcConfigSubstitute
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 pattern
@@ -740,7 +740,7 @@ FcFontMatch
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 pattern
@@ -769,7 +769,7 @@ FcChar8
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

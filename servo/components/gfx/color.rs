@@ -5,8 +5,6 @@ azure
 AzFloat
 ;
 use
-AzColor
-=
 azure
 :
 :
@@ -14,6 +12,8 @@ azure_hl
 :
 :
 Color
+as
+AzColor
 ;
 pub
 type

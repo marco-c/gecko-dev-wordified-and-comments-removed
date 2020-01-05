@@ -476,7 +476,7 @@ parse_declaration_list
 (
 block
 .
-move_iter
+into_iter
 (
 )
 )

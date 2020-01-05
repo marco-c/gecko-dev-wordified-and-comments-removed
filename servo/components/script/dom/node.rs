@@ -4468,7 +4468,11 @@ get
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -5993,7 +5997,11 @@ self
 .
 current
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -8410,7 +8418,7 @@ node
 in
 nodes
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -11087,7 +11095,11 @@ get
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -14491,6 +14503,8 @@ document_from_node
 T
 :
 NodeBase
++
+Reflectable
 >
 (
 derived
@@ -14536,6 +14550,8 @@ window_from_node
 T
 :
 NodeBase
++
+Reflectable
 >
 (
 derived

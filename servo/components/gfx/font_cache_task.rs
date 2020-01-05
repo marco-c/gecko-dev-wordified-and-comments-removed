@@ -163,7 +163,7 @@ self
 .
 templates
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -197,7 +197,7 @@ self
 .
 templates
 .
-mut_iter
+iter_mut
 (
 )
 {

@@ -126,13 +126,6 @@ string
 -
 cache
 "
-branch
-=
-"
-pre
--
-rustup
-"
 [
 dependencies
 .

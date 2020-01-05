@@ -869,7 +869,7 @@ null
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -1024,7 +1024,7 @@ data
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -1058,7 +1058,7 @@ null
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )

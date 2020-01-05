@@ -2938,7 +2938,7 @@ iter
 mut
 content
 .
-move_iter
+into_iter
 (
 )
 .
@@ -3981,7 +3981,7 @@ iter
 mut
 arguments
 .
-move_iter
+into_iter
 (
 )
 .

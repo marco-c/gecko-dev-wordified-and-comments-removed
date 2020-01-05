@@ -623,7 +623,7 @@ options
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -792,7 +792,7 @@ item
 in
 list
 .
-move_iter
+into_iter
 (
 )
 {
@@ -913,7 +913,7 @@ stacking_context
 .
 positioned_descendants
 .
-mut_iter
+iter_mut
 (
 )
 .
@@ -1168,7 +1168,7 @@ list
 in
 positioned_descendants
 .
-move_iter
+into_iter
 (
 )
 {
@@ -1177,7 +1177,7 @@ self
 .
 positioned_descendants
 .
-mut_iter
+iter_mut
 (
 )
 .
@@ -1898,7 +1898,7 @@ list
 in
 positioned_descendants
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -2017,7 +2017,7 @@ list
 in
 positioned_descendants
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -2103,7 +2103,7 @@ self
 .
 list
 .
-mut_iter
+iter_mut
 (
 )
 {

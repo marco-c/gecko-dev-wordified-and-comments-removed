@@ -1263,7 +1263,7 @@ cx
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 name
@@ -1714,7 +1714,7 @@ entry
 in
 entry
 .
-mut_iter
+iter_mut
 (
 )
 {

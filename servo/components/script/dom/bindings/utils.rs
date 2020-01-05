@@ -916,7 +916,7 @@ obj
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -2517,6 +2517,7 @@ nor
 Constructor
 .
 pub
+unsafe
 extern
 fn
 ThrowingConstructor
@@ -3052,7 +3053,7 @@ new
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -3930,7 +3931,7 @@ found
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -4042,7 +4043,7 @@ class
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -4058,7 +4059,7 @@ return
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -4098,6 +4099,7 @@ when
 wrapping
 .
 pub
+unsafe
 extern
 fn
 wrap_for_same_compartment
@@ -4119,14 +4121,11 @@ JSObject
 mut
 JSObject
 {
-unsafe
-{
 JS_ObjectToOuterObject
 (
 cx
 obj
 )
-}
 }
 /
 /
@@ -4139,6 +4138,7 @@ before
 wrapping
 .
 pub
+unsafe
 extern
 fn
 pre_wrap
@@ -4168,14 +4168,11 @@ c_uint
 mut
 JSObject
 {
-unsafe
-{
 JS_ObjectToOuterObject
 (
 cx
 obj
 )
-}
 }
 /
 /
@@ -4293,7 +4290,11 @@ borrow
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -4391,7 +4392,7 @@ from_jsval
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ObjectOrNullValue
@@ -4431,7 +4432,7 @@ from_jsval
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ObjectOrNullValue

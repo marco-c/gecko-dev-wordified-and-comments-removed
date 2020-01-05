@@ -84,6 +84,9 @@ flow_ref
 mut
 Flow
 =
+&
+mut
+*
 flow
 ;
 let
@@ -303,7 +306,7 @@ vtable
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 data
@@ -311,7 +314,7 @@ data
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 }
@@ -360,7 +363,7 @@ vtable
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -373,7 +376,7 @@ data
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

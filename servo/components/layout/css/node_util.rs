@@ -287,7 +287,11 @@ borrow_layout_data
 ;
 layout_data_ref
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -347,7 +351,11 @@ borrow_layout_data
 ;
 layout_data_ref
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .

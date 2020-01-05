@@ -9,8 +9,6 @@ GlyphStore
 ;
 pub
 use
-Shaper
-=
 text
 :
 :

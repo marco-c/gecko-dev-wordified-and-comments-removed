@@ -4473,7 +4473,11 @@ get
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -6461,10 +6465,10 @@ name
 .
 splitn
 (
+1
 '
 :
 '
-1
 )
 ;
 (

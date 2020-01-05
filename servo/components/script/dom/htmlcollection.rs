@@ -227,6 +227,9 @@ for
 Box
 <
 CollectionFilter
++
+'
+static
 >
 {
 fn
@@ -290,6 +293,9 @@ Node
 Box
 <
 CollectionFilter
++
+'
+static
 >
 )
 }
@@ -412,6 +418,9 @@ filter
 Box
 <
 CollectionFilter
++
+'
+static
 >
 )
 -

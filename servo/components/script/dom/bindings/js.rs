@@ -1151,6 +1151,8 @@ impl
 '
 a
 T
+:
+Reflectable
 >
 Assignable
 <

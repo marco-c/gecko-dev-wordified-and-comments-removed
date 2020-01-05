@@ -619,7 +619,7 @@ FT_Face
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

@@ -2140,7 +2140,11 @@ self
 .
 inline_context
 .
-get_mut_ref
+as_mut
+(
+)
+.
+unwrap
 (
 )
 .

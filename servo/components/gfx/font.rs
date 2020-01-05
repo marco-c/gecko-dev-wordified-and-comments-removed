@@ -751,7 +751,11 @@ is_whitespace
 ;
 shaper
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -863,7 +867,11 @@ self
 .
 shaper
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 }

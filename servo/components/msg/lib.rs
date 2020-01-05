@@ -25,15 +25,11 @@ serialize
 ;
 extern
 crate
-servo_util
-=
 "
 util
 "
-;
-extern
-crate
-std
+as
+servo_util
 ;
 extern
 crate

@@ -449,6 +449,7 @@ as
 i16
 }
 ;
+unsafe
 extern
 fn
 get_error_message
@@ -532,7 +533,7 @@ get_error_message
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 0

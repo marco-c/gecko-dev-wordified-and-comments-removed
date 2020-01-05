@@ -507,7 +507,7 @@ quicksort_by
 (
 matching_rules_list
 .
-vec_mut_slice_from
+vec_slice_from_mut
 (
 init_len
 )
@@ -5632,7 +5632,7 @@ unwrap
 (
 )
 .
-move_iter
+into_iter
 (
 )
 .

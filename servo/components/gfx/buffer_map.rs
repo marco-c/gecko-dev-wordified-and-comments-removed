@@ -657,7 +657,11 @@ pop
 (
 )
 .
-take_unwrap
+take
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -803,7 +807,11 @@ pop
 (
 )
 .
-take_unwrap
+take
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -901,7 +909,7 @@ value
 in
 map
 .
-move_iter
+into_iter
 (
 )
 {
@@ -912,7 +920,7 @@ value
 .
 buffers
 .
-move_iter
+into_iter
 (
 )
 {

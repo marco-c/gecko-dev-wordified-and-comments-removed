@@ -333,6 +333,9 @@ self
 Box
 <
 ScriptListener
++
+'
+static
 >
 {
 box
@@ -345,6 +348,9 @@ as
 Box
 <
 ScriptListener
++
+'
+static
 >
 }
 }

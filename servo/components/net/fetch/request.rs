@@ -234,6 +234,9 @@ Option
 Box
 <
 CORSCache
++
+'
+static
 >
 >
 }

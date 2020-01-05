@@ -1506,7 +1506,11 @@ new
 (
 run
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .

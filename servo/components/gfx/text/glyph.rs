@@ -609,7 +609,7 @@ Au
 bool
 {
 let
-unsignedAu
+unsigned_au
 =
 advance
 .
@@ -622,7 +622,7 @@ unwrap
 )
 ;
 (
-unsignedAu
+unsigned_au
 &
 (
 GLYPH_ADVANCE_MASK
@@ -635,7 +635,7 @@ uint
 )
 =
 =
-unsignedAu
+unsigned_au
 }
 type
 DetailedGlyphCount
@@ -3579,7 +3579,11 @@ self
 .
 glyph_range
 .
-get_mut_ref
+as_mut
+(
+)
+.
+unwrap
 (
 )
 .

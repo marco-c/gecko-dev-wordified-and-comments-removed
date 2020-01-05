@@ -589,7 +589,13 @@ WorkerProxy
 '
 a
 QueueData
+:
+'
+a
 WorkData
+:
+'
+a
 >
 {
 worker
@@ -622,6 +628,9 @@ impl
 '
 a
 QueueData
+:
+'
+static
 WorkData
 :
 Send
@@ -997,7 +1006,7 @@ thread
 in
 threads
 .
-move_iter
+into_iter
 (
 )
 {
@@ -1198,7 +1207,7 @@ self
 .
 workers
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -1214,7 +1223,11 @@ worker
 .
 deque
 .
-take_unwrap
+take
+(
+)
+.
+unwrap
 (
 )
 &

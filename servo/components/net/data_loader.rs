@@ -219,9 +219,9 @@ as_slice
 .
 splitn
 (
-'
-'
 1
+'
+'
 )
 .
 collect
@@ -369,7 +369,7 @@ bytes
 =
 bytes
 .
-move_iter
+into_iter
 (
 )
 .

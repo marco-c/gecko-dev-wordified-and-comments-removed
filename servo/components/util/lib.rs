@@ -106,11 +106,11 @@ task_info
 ;
 extern
 crate
-std_time
-=
 "
 time
 "
+as
+std_time
 ;
 extern
 crate

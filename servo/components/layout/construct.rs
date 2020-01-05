@@ -599,7 +599,7 @@ fragments
 .
 fragments
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -1581,7 +1581,7 @@ split
 in
 splits
 .
-move_iter
+into_iter
 (
 )
 {
@@ -2907,7 +2907,7 @@ split
 in
 splits
 .
-move_iter
+into_iter
 (
 )
 {
@@ -3904,7 +3904,7 @@ kid_flow
 in
 child_flows
 .
-move_iter
+into_iter
 (
 )
 {

@@ -950,6 +950,9 @@ compositor
 Box
 <
 ScriptListener
++
+'
+static
 >
 devtools_chan
 :
@@ -1329,6 +1332,9 @@ C
 ScriptListener
 +
 Send
++
+'
+static
 >
 (
 _phantom
@@ -1533,6 +1539,9 @@ compositor
 Box
 <
 ScriptListener
++
+'
+static
 >
 layout_chan
 :
@@ -2087,7 +2096,11 @@ borrow
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 )
@@ -2339,7 +2352,7 @@ size
 in
 resizes
 .
-move_iter
+into_iter
 (
 )
 {
@@ -2876,7 +2889,7 @@ msg
 in
 sequential
 .
-move_iter
+into_iter
 (
 )
 {
@@ -4173,7 +4186,11 @@ borrow
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -4293,7 +4310,11 @@ window
 =
 frame
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -4506,6 +4527,8 @@ control_chan
 clone
 (
 )
+&
+*
 self
 .
 compositor
@@ -5285,6 +5308,8 @@ control_chan
 clone
 (
 )
+&
+*
 self
 .
 compositor
@@ -5353,7 +5378,11 @@ cx
 =
 cx
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -5478,7 +5507,11 @@ Some
 (
 doc_url
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -6573,6 +6606,8 @@ control_chan
 clone
 (
 )
+&
+*
 self
 .
 compositor
@@ -6945,6 +6980,8 @@ control_chan
 clone
 (
 )
+&
+*
 self
 .
 compositor
@@ -7330,7 +7367,7 @@ node
 in
 mouse_over_targets
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -7567,6 +7604,8 @@ control_chan
 clone
 (
 )
+&
+*
 self
 .
 compositor

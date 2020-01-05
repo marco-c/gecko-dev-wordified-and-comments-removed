@@ -39,7 +39,7 @@ C
 fn
 cef_browser_host_create_browser
 (
-_windowInfo
+_window_info
 :
 *
 const
@@ -83,7 +83,7 @@ C
 fn
 cef_browser_host_create_browser_sync
 (
-_windowInfo
+_window_info
 :
 *
 const
