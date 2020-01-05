@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -125,6 +130,7 @@ run_test_number
 num
 )
 {
+var
 testPath
 =
 testPathBase
@@ -154,6 +160,7 @@ setupChannel
 testPath
 )
 ;
+var
 flags
 =
 test_flags
