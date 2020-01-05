@@ -4474,6 +4474,8 @@ cookie_jar
 push
 (
 cookie
+&
+url
 CookieSource
 :
 :
@@ -4750,6 +4752,8 @@ cookie_jar
 push
 (
 cookie
+&
+url
 CookieSource
 :
 :
@@ -8059,6 +8063,8 @@ cookie_jar
 push
 (
 cookie_x
+&
+url_x
 CookieSource
 :
 :
@@ -8110,6 +8116,8 @@ cookie_jar
 push
 (
 cookie_y
+&
+url_y
 CookieSource
 :
 :
@@ -9613,6 +9621,8 @@ cookie_jar
 push
 (
 cookie
+&
+url
 CookieSource
 :
 :
