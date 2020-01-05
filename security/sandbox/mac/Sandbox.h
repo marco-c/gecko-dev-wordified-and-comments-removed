@@ -110,6 +110,10 @@ level
 (
 0
 )
+hasFilePrivileges
+(
+false
+)
 shouldLog
 (
 true
@@ -136,6 +140,12 @@ level
 other
 .
 level
+)
+hasFilePrivileges
+(
+other
+.
+hasFilePrivileges
 )
 hasSandboxedProfile
 (
@@ -192,6 +202,9 @@ type
 ;
 int32_t
 level
+;
+bool
+hasFilePrivileges
 ;
 bool
 hasSandboxedProfile
