@@ -111,7 +111,7 @@ Attr
 getNamedItem
 (
 DOMString
-name
+qualifiedName
 )
 ;
 [
@@ -157,7 +157,7 @@ Attr
 removeNamedItem
 (
 DOMString
-name
+qualifiedName
 )
 ;
 [
@@ -170,7 +170,7 @@ DOMString
 ?
 namespace
 DOMString
-name
+localName
 )
 ;
 }
