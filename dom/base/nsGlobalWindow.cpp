@@ -58062,6 +58062,13 @@ true
 bool
 defaultActionEnabled
 ;
+display
+-
+>
+StartHandlingVRNavigationEvent
+(
+)
+;
 Unused
 <
 <
@@ -58070,6 +58077,13 @@ DispatchEvent
 event
 &
 defaultActionEnabled
+)
+;
+display
+-
+>
+StopHandlingVRNavigationEvent
+(
 )
 ;
 return
