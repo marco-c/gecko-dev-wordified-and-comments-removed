@@ -8593,6 +8593,7 @@ YUVColorSpace
 aYUVColorSpace
 )
 {
+const
 float
 *
 yuvToRgb
@@ -8600,7 +8601,7 @@ yuvToRgb
 gfxUtils
 :
 :
-Get3x3YuvColorMatrix
+YuvToRgbMatrix3x3ColumnMajor
 (
 aYUVColorSpace
 )
