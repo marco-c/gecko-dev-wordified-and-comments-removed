@@ -568,6 +568,11 @@ LayerAnimationInfo
 h
 '
 '
+PostTraversalTask
+.
+h
+'
+'
 PreloadedStyleSheet
 .
 h
@@ -1172,6 +1177,11 @@ cpp
 '
 '
 nsTransitionManager
+.
+cpp
+'
+'
+PostTraversalTask
 .
 cpp
 '
