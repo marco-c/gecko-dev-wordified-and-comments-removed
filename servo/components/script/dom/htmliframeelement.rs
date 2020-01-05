@@ -1830,11 +1830,15 @@ EventTarget
 (
 )
 .
-fire_simple_event
+fire_event
+(
+atom
+!
 (
 "
 load
 "
+)
 )
 ;
 let
