@@ -1630,6 +1630,13 @@ Init
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsresult
 rv
 ;
