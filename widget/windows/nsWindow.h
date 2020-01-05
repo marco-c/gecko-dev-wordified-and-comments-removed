@@ -1643,11 +1643,7 @@ SynchronouslyRepaintOnResize
 (
 )
 override
-{
-return
-false
 ;
-}
 protected
 :
 virtual
