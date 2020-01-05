@@ -22,6 +22,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
