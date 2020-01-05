@@ -108331,7 +108331,12 @@ buffer
 get
 (
 )
-kFileCopyBufferSize
+snappyOutputStream
+-
+>
+BlockSize
+(
+)
 )
 ;
 }
