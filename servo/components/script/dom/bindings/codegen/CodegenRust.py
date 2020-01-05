@@ -8514,6 +8514,19 @@ descriptor
 name
 )
         
+if
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+or
+static
+:
+            
 methods
 =
 [
@@ -8527,7 +8540,7 @@ interface
 .
 members
 if
-                   
+                       
 m
 .
 isMethod
@@ -8543,13 +8556,21 @@ isStatic
 =
 static
 and
-                   
+                       
 not
 m
 .
 isIdentifierLess
 (
 )
+]
+        
+else
+:
+            
+methods
+=
+[
 ]
         
 self
@@ -15051,16 +15072,6 @@ properties
 )
 :
         
-assert
-not
-descriptor
-.
-interface
-.
-isCallback
-(
-)
-        
 args
 =
 [
@@ -15238,6 +15249,37 @@ self
 .
 descriptor
 .
+interface
+.
+isCallback
+(
+)
+:
+            
+protoClass
+=
+"
+None
+"
+        
+else
+:
+            
+protoClass
+=
+"
+Some
+(
+&
+PrototypeClass
+)
+"
+        
+if
+self
+.
+descriptor
+.
 concrete
 :
             
@@ -15397,8 +15439,8 @@ global
 receiver
 parent_proto
                                    
-&
-PrototypeClass
+%
+s
 %
 s
                                    
@@ -15414,6 +15456,7 @@ sNativeProperties
 "
 %
 (
+protoClass
 constructor
 domClass
 )
@@ -16711,24 +16754,36 @@ self
 )
 :
         
-return
-CGGeneric
-(
-"
-"
-"
-\
-assert
-!
-(
-!
-global
+if
+self
 .
-is_null
+descriptor
+.
+interface
+.
+isCallback
 (
 )
+:
+            
+code
+=
+"
+CreateInterfaceObjects
+(
+cx
+global
+global
 )
 ;
+"
+        
+else
+:
+            
+code
+=
+"
 assert
 !
 (
@@ -16746,8 +16801,27 @@ is_null
 )
 ;
 "
+        
+return
+CGGeneric
+(
 "
+assert
+!
+(
+!
+global
+.
+is_null
+(
+)
+)
+;
+\
+n
 "
++
+code
 )
 def
 needCx
@@ -33127,6 +33201,11 @@ assert
 not
 descriptor
 .
+concrete
+or
+not
+descriptor
+.
 interface
 .
 isCallback
@@ -33138,6 +33217,17 @@ cgThings
 [
 ]
         
+if
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+:
+            
 cgThings
 .
 append
@@ -33245,7 +33335,15 @@ m
 )
 )
                 
-else
+elif
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
 :
                     
 cgThings
@@ -33347,7 +33445,15 @@ m
 )
 )
                 
-else
+elif
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
 :
                     
 cgThings
@@ -33415,7 +33521,15 @@ m
 )
 )
                     
-else
+elif
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
 :
                         
 cgThings
@@ -33449,11 +33563,23 @@ hasSetter
 True
                 
 if
+(
 not
 m
 .
 isStatic
 (
+)
+and
+                    
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
 )
 :
                     
@@ -33600,6 +33726,17 @@ descriptor
 )
 )
         
+if
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+:
+            
 cgThings
 .
 append
@@ -33903,6 +34040,17 @@ descriptor
 )
 )
         
+if
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+:
+            
 cgThings
 .
 append
@@ -33912,7 +34060,7 @@ CGIDLInterface
 descriptor
 )
 )
-        
+            
 cgThings
 .
 append
@@ -35813,9 +35961,31 @@ webIDLFile
 =
 webIDLFile
                                             
+hasInterfaceObject
+=
+True
+)
+        
+descriptors
+.
+extend
+(
+config
+.
+getDescriptors
+(
+webIDLFile
+=
+webIDLFile
+                                                 
+hasInterfaceObject
+=
+False
+                                                 
 isCallback
 =
 False
+)
 )
         
 dictionaries
