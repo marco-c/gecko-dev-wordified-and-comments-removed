@@ -1772,7 +1772,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -1846,7 +1846,6 @@ windows
 )
 {
 return
-NS_OK
 ;
 }
 gDrawRequest
@@ -1859,9 +1858,6 @@ mozilla
 NotifyEvent
 (
 )
-;
-return
-NS_OK
 ;
 }
 LayoutDeviceIntPoint

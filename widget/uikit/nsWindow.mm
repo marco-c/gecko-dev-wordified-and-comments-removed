@@ -4245,7 +4245,7 @@ aMode
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4267,7 +4267,6 @@ mNativeView
 mVisible
 )
 return
-NS_OK
 ;
 MOZ_RELEASE_ASSERT
 (
@@ -4317,9 +4316,6 @@ BackingScaleFactor
 )
 )
 ]
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

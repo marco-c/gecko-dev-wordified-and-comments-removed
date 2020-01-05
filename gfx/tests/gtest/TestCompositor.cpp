@@ -495,7 +495,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+virtual
+void
 Invalidate
 (
 const
@@ -505,9 +506,6 @@ aRect
 )
 override
 {
-return
-NS_OK
-;
 }
 NS_IMETHOD
 SetTitle

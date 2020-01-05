@@ -12179,7 +12179,7 @@ exStyle
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -12200,7 +12200,6 @@ mWnd
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -12273,11 +12272,8 @@ flags
 )
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -12371,9 +12367,6 @@ FALSE
 )
 ;
 }
-return
-NS_OK
-;
 }
 static
 LRESULT

@@ -7120,7 +7120,7 @@ component
 s
 visible
 area
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -7132,7 +7132,7 @@ LayoutDeviceIntRect
 aRect
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -7144,7 +7144,6 @@ mView
 mVisible
 )
 return
-NS_OK
 ;
 NS_ASSERTION
 (
@@ -7239,10 +7238,7 @@ aRect
 ]
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 bool
