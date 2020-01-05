@@ -308,7 +308,7 @@ sampler
 GLenum
 pname
 GLint
-paramInt
+param
 )
 {
 const
@@ -346,7 +346,10 @@ SamplerParameter
 (
 funcName
 pname
-paramInt
+FloatOrInt
+(
+param
+)
 )
 ;
 }
@@ -362,7 +365,7 @@ sampler
 GLenum
 pname
 GLfloat
-paramFloat
+param
 )
 {
 const
@@ -400,13 +403,9 @@ SamplerParameter
 (
 funcName
 pname
-WebGLIntOrFloat
+FloatOrInt
 (
-paramFloat
-)
-.
-AsInt
-(
+param
 )
 )
 ;
