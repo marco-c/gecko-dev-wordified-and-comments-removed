@@ -4241,7 +4241,7 @@ or
 show
 this
 component
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -4251,7 +4251,7 @@ bool
 aState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4321,10 +4321,7 @@ mVisible
 aState
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /

@@ -375,7 +375,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+virtual
+void
 Show
 (
 bool
@@ -383,9 +384,6 @@ aState
 )
 override
 {
-return
-NS_OK
-;
 }
 virtual
 bool

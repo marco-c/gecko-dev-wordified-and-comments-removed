@@ -4683,7 +4683,7 @@ or
 show
 this
 window
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -4693,7 +4693,7 @@ bool
 bState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4701,7 +4701,6 @@ if
 mWindow
 )
 return
-NS_OK
 ;
 /
 /
@@ -4741,7 +4740,6 @@ isVisible
 ]
 )
 return
-NS_OK
 ;
 /
 /
@@ -4762,7 +4760,6 @@ isBeingShown
 ]
 )
 return
-NS_OK
 ;
 [
 mWindow
@@ -4872,7 +4869,6 @@ isMiniaturized
 )
 {
 return
-NS_OK
 ;
 }
 }
@@ -4940,7 +4936,6 @@ nativeParentWindow
 piParentWidget
 )
 return
-NS_ERROR_FAILURE
 ;
 NSWindow
 *
@@ -6569,10 +6564,7 @@ setBeingShown
 NO
 ]
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 struct
@@ -8575,8 +8567,6 @@ mIsAnimationSuppressed
 =
 true
 ;
-rv
-=
 Show
 (
 true
@@ -8585,11 +8575,6 @@ true
 mIsAnimationSuppressed
 =
 wasAnimationSuppressed
-;
-NS_ENSURE_SUCCESS_VOID
-(
-rv
-)
 ;
 }
 NS_OBJC_END_TRY_ABORT_BLOCK

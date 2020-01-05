@@ -4511,7 +4511,7 @@ hints
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4529,7 +4529,6 @@ aState
 mIsShown
 )
 return
-NS_OK
 ;
 if
 (
@@ -4631,7 +4630,6 @@ mNeedsShow
 true
 ;
 return
-NS_OK
 ;
 }
 if
@@ -4668,9 +4666,6 @@ NativeShow
 (
 aState
 )
-;
-return
-NS_OK
 ;
 }
 void

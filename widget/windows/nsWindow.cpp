@@ -5429,7 +5429,7 @@ surface
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5948,9 +5948,6 @@ mWnd
 }
 #
 endif
-return
-NS_OK
-;
 }
 bool
 nsWindow

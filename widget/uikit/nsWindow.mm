@@ -3752,7 +3752,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -3823,9 +3823,6 @@ mVisible
 aState
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsWindow

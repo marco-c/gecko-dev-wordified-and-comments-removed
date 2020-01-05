@@ -1486,7 +1486,8 @@ mPrevSibling
 aSibling
 ;
 }
-NS_IMETHOD
+virtual
+void
 Show
 (
 bool
