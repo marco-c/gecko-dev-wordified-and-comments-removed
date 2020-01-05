@@ -23,6 +23,18 @@ redux
 "
 )
 ;
+const
+filters
+=
+require
+(
+"
+.
+/
+filters
+"
+)
+;
 module
 .
 exports
@@ -30,6 +42,7 @@ exports
 combineReducers
 (
 {
+filters
 }
 )
 ;

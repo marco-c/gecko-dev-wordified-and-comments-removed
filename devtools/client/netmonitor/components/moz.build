@@ -64,12 +64,9 @@ MPL
 DevToolsModules
 (
 '
-filters
-.
-js
-'
-'
-index
+filter
+-
+buttons
 .
 js
 '
