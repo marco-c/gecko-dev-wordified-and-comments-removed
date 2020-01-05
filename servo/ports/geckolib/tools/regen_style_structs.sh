@@ -543,6 +543,11 @@ DMOZ_STYLO_BINDINGS
 1
 \
 -
+DJS_DEBUG
+=
+1
+\
+-
 DDEBUG
 =
 1
@@ -1055,7 +1060,7 @@ e
 \
 e
 [
-91warning
+91mwarning
 :
 \
 e
