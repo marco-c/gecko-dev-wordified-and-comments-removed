@@ -294,6 +294,14 @@ BoundsForStackingContext
 (
 )
 ;
+Maybe
+<
+LayerRect
+>
+ClipRect
+(
+)
+;
 gfx
 :
 :
