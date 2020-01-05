@@ -224,7 +224,7 @@ nsString
 &
 aKeyUsages
 PRTime
-expires
+aExpires
 )
 :
 GenerateAsymmetricKeyTask
@@ -237,7 +237,7 @@ aKeyUsages
 )
 mExpires
 (
-expires
+aExpires
 )
 mAuthType
 (
@@ -1107,9 +1107,9 @@ value
 {
 aRv
 .
-Throw
+NoteJSContextException
 (
-NS_ERROR_DOM_SYNTAX_ERR
+aCx
 )
 ;
 return
