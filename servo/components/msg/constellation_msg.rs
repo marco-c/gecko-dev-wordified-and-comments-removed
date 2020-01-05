@@ -277,6 +277,8 @@ PartialEq
 Eq
 Copy
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -296,6 +298,8 @@ PartialEq
 Eq
 Copy
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -426,6 +430,14 @@ Menu
 bitflags
 !
 {
+#
+[
+derive
+(
+Deserialize
+Serialize
+)
+]
 flags
 KeyModifiers
 :
@@ -1117,6 +1129,8 @@ Eq
 Copy
 Hash
 Debug
+Deserialize
+Serialize
 )
 ]
 pub
@@ -1137,6 +1151,8 @@ Eq
 Copy
 Hash
 Debug
+Deserialize
+Serialize
 )
 ]
 pub
@@ -1154,6 +1170,8 @@ derive
 Copy
 Clone
 Debug
+Deserialize
+Serialize
 )
 ]
 pub

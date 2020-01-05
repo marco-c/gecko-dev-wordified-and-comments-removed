@@ -244,3 +244,13 @@ euclid
 .
 1
 "
+serde
+=
+"
+*
+"
+serde_macros
+=
+"
+*
+"

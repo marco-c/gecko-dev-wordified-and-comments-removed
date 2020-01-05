@@ -26,6 +26,15 @@ rect
 Rect
 ;
 use
+ipc_channel
+:
+:
+ipc
+:
+:
+IpcSender
+;
+use
 libc
 :
 :
@@ -249,7 +258,7 @@ PipelineExitType
 )
 GetCurrentEpoch
 (
-Sender
+IpcSender
 <
 Epoch
 >

@@ -2113,13 +2113,7 @@ compositor
 :
 &
 mut
-Box
-<
 ScriptListener
-+
-'
-static
->
 )
 ;
 fn
@@ -5291,13 +5285,7 @@ compositor
 :
 &
 mut
-Box
-<
 ScriptListener
-+
-'
-static
->
 )
 {
 let

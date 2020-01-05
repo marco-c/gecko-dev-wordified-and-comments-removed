@@ -1933,13 +1933,7 @@ JSTracer
 impl
 JSTraceable
 for
-Box
-<
 ScriptListener
-+
-'
-static
->
 {
 #
 [
