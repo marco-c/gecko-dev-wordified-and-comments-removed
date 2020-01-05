@@ -1058,7 +1058,10 @@ style
 :
 Option
 <
+Arc
+<
 ComputedValues
+>
 >
 restyle_damage
 :
