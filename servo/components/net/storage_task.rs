@@ -2,6 +2,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 comm
 :
 :
@@ -168,6 +177,10 @@ spawn_named
 "
 StorageManager
 "
+.
+to_owned
+(
+)
 proc
 (
 )

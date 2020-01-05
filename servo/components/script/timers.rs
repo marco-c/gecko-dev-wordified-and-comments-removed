@@ -117,6 +117,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -689,6 +698,10 @@ Worker
 SetTimeout
 "
 }
+.
+to_owned
+(
+)
 ;
 spawn_named
 (

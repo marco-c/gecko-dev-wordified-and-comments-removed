@@ -278,6 +278,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -1936,6 +1945,10 @@ spawn_named
 "
 Constellation
 "
+.
+to_owned
+(
+)
 proc
 (
 )

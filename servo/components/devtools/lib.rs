@@ -169,6 +169,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -343,6 +352,10 @@ spawn_named
 "
 Devtools
 "
+.
+to_owned
+(
+)
 proc
 (
 )
@@ -1305,6 +1318,10 @@ spawn_named
 "
 DevtoolsClientHandler
 "
+.
+to_owned
+(
+)
 proc
 (
 )

@@ -56,6 +56,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 collections
 :
 :
@@ -1467,6 +1476,10 @@ spawn_named
 "
 FontCacheTask
 "
+.
+to_owned
+(
+)
 proc
 (
 )

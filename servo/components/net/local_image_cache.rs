@@ -12,6 +12,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 comm
 :
 :
@@ -785,6 +794,10 @@ spawn_named
 "
 LocalImageCache
 "
+.
+to_owned
+(
+)
 proc
 (
 )
