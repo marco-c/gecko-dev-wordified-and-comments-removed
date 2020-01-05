@@ -69,12 +69,12 @@ jar
 resource
 formautofill
 %
-content
+res
 /
-content
+res
 /
 (
-content
-/
 *
+.
+jsm
 )
