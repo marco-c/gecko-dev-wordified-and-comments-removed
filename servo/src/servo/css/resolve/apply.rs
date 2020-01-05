@@ -31,7 +31,7 @@ use
 layout
 :
 :
-base
+box
 :
 :
 {
