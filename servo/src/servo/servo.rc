@@ -204,9 +204,6 @@ mod
 box_builder
 ;
 mod
-display_list
-;
-mod
 display_list_builder
 ;
 mod
@@ -239,6 +236,9 @@ compositor
 ;
 mod
 png_compositor
+;
+mod
+display_list
 ;
 }
 mod

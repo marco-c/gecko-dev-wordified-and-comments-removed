@@ -28,9 +28,6 @@ Image
 use
 dl
 =
-layout
-:
-:
 display_list
 ;
 use

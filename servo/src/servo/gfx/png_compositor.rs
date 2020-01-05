@@ -188,9 +188,6 @@ dvec
 DVec
 ;
 use
-layout
-:
-:
 display_list
 :
 :
