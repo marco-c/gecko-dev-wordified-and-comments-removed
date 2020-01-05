@@ -27,6 +27,17 @@ compiler
 /
 translator
 /
+LoopInfo
+.
+h
+"
+#
+include
+"
+compiler
+/
+translator
+/
 ParseContext
 .
 h
@@ -487,6 +498,9 @@ set
 int
 >
 mDeclaredStructs
+;
+TLoopStack
+mLoopUnrollStack
 ;
 ShArrayIndexClampingStrategy
 mClampingStrategy
