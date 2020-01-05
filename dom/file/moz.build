@@ -157,6 +157,11 @@ FileReader
 h
 '
 '
+MultipartBlobImpl
+.
+h
+'
+'
 MutableBlobStorage
 .
 h

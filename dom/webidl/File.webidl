@@ -213,7 +213,7 @@ lastModifiedDate
 BinaryName
 =
 "
-path
+relativePath
 "
 Func
 =
