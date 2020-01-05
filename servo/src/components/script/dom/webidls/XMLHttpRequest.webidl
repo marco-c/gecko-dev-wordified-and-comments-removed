@@ -371,6 +371,9 @@ ByteString
 value
 )
 ;
+[
+SetterThrows
+]
 attribute
 unsigned
 long
@@ -422,8 +425,6 @@ data
 null
 )
 ;
-/
-/
 void
 abort
 (

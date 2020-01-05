@@ -120,6 +120,8 @@ NamespaceError
 InvalidAccess
 Security
 Network
+Abort
+Timeout
 }
 pub
 type
