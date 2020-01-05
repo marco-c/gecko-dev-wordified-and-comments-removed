@@ -617,10 +617,12 @@ mBufferProvider
 >
 SetForwarder
 (
-mCanvasClient
+ClientManager
+(
+)
 -
 >
-GetForwarder
+AsShadowForwarder
 (
 )
 )

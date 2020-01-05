@@ -40,7 +40,7 @@ mozilla
 /
 layers
 /
-TextureForwarder
+ShadowLayers
 .
 h
 "
@@ -207,7 +207,7 @@ virtual
 bool
 SetForwarder
 (
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 )
@@ -423,7 +423,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 )
@@ -536,7 +536,7 @@ virtual
 bool
 SetForwarder
 (
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 )
@@ -568,7 +568,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 RefPtr
@@ -631,7 +631,7 @@ mFormat
 ;
 RefPtr
 <
-KnowsCompositor
+ShadowLayerForwarder
 >
 mFwd
 ;
