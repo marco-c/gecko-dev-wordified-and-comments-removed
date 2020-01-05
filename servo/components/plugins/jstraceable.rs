@@ -180,7 +180,7 @@ cx
 [
 derive
 (
-DomObject
+DenyPublicFields
 )
 ]
 )
@@ -198,7 +198,10 @@ quote_attr
 cx
 #
 [
-_dom_struct_marker
+derive
+(
+DomObject
+)
 ]
 )
 )
