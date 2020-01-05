@@ -2783,6 +2783,24 @@ lines
 :
         
 if
+idx
+=
+=
+0
+and
+"
+[
+workspace
+]
+"
+in
+line
+:
+            
+raise
+StopIteration
+        
+if
 line
 .
 find
