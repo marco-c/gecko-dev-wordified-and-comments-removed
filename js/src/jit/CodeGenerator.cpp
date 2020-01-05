@@ -22692,6 +22692,11 @@ safepointOffset
 call
 )
 ;
+emitTracelogStartEvent
+(
+TraceLogger_Call
+)
+;
 masm
 .
 setupUnalignedABICall
@@ -22735,6 +22740,11 @@ native
 (
 )
 )
+)
+;
+emitTracelogStopEvent
+(
+TraceLogger_Call
 )
 ;
 masm
