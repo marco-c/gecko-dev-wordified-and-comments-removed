@@ -1114,8 +1114,8 @@ selectedTab
 expectedFlips
 :
 [
-true
 false
+true
 false
 ]
 expectedRemoteness
@@ -1176,9 +1176,9 @@ selectedTab
 expectedFlips
 :
 [
+false
+false
 true
-false
-false
 ]
 expectedRemoteness
 :
