@@ -43,6 +43,12 @@ bitflags
 ;
 extern
 crate
+cookie
+as
+cookie_rs
+;
+extern
+crate
 euclid
 ;
 extern

@@ -2778,10 +2778,6 @@ bar
 [
 test
 ]
-#
-[
-should_panic
-]
 fn
 test_attribute0004
 (
@@ -2858,10 +2854,6 @@ r
 #
 [
 test
-]
-#
-[
-should_panic
 ]
 fn
 test_attribute0005
@@ -3021,10 +3013,6 @@ bar
 [
 test
 ]
-#
-[
-should_panic
-]
 fn
 test_attribute0007
 (
@@ -3102,10 +3090,6 @@ r
 #
 [
 test
-]
-#
-[
-should_panic
 ]
 fn
 test_attribute0008

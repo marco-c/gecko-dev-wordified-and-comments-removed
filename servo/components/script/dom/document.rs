@@ -9680,6 +9680,7 @@ target
 )
 ;
 }
+pub
 fn
 is_cookie_averse
 (

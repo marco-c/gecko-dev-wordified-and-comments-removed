@@ -136,22 +136,6 @@ FAILING_TESTS
 [
     
 "
-attribute0004
-"
-    
-"
-attribute0005
-"
-    
-"
-attribute0007
-"
-    
-"
-attribute0008
-"
-    
-"
 0003
 "
     
