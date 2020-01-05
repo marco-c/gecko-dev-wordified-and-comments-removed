@@ -376,6 +376,10 @@ HTMLTextAreaElementBinding
 ;
 pub
 mod
+HTMLUListElementBinding
+;
+pub
+mod
 MouseEventBinding
 ;
 pub
@@ -515,6 +519,10 @@ htmltablesectionelement
 pub
 mod
 htmltextareaelement
+;
+pub
+mod
+htmlulistelement
 ;
 pub
 mod

@@ -37833,6 +37833,16 @@ HTMLTextAreaElement
 dom
 :
 :
+htmlulistelement
+:
+:
+HTMLUListElement
+'
+                          
+'
+dom
+:
+:
 bindings
 :
 :

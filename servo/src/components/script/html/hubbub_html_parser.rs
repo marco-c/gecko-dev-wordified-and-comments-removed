@@ -64,7 +64,6 @@ HTMLSmallElement
 HTMLSpanElement
 HTMLTableCellElement
 HTMLTitleElement
-HTMLUListElement
 }
 ;
 use
@@ -209,6 +208,15 @@ htmltextareaelement
 :
 :
 HTMLTextAreaElement
+;
+use
+dom
+:
+:
+htmlulistelement
+:
+:
+HTMLUListElement
 ;
 use
 dom
