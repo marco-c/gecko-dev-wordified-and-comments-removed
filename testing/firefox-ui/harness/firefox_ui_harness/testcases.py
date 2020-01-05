@@ -1612,9 +1612,11 @@ selected_panel
 finally
 :
                 
-prefs
+self
 .
-restore_pref
+marionette
+.
+clear_pref
 (
 self
 .
