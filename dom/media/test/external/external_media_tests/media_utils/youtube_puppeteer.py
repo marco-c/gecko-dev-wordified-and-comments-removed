@@ -2531,7 +2531,7 @@ duration
 played
 .
 length
-timeRanges
+playedRanges
 ]
 '
                 
@@ -2695,7 +2695,7 @@ current_time
 duration
 '
 '
-raw_time_ranges
+raw_played_ranges
 '
                       
 '
