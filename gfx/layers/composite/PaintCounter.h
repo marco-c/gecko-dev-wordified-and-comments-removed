@@ -40,17 +40,6 @@ SkCanvas
 .
 h
 "
-#
-include
-"
-mozilla
-/
-gfx
-/
-HelpersSkia
-.
-h
-"
 namespace
 mozilla
 {
@@ -123,7 +112,7 @@ PaintCounter
 SurfaceFormat
 mFormat
 ;
-RefPtrSkia
+sk_sp
 <
 SkCanvas
 >

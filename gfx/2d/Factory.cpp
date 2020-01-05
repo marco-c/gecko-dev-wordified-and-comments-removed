@@ -1801,6 +1801,8 @@ DrawTargetSkia
 (
 )
 ;
+if
+(
 newTarget
 -
 >
@@ -1812,11 +1814,13 @@ aStride
 aFormat
 aUninitialized
 )
-;
+)
+{
 retVal
 =
 newTarget
 ;
+}
 break
 ;
 }
