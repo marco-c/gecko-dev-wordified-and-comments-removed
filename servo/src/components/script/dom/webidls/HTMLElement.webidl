@@ -370,3 +370,13 @@ offsetHeight
 ;
 }
 ;
+HTMLElement
+implements
+GlobalEventHandlers
+;
+/
+/
+HTMLElement
+implements
+OnErrorEventHandlerForNodes
+;

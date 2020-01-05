@@ -68,7 +68,7 @@ UnionTypes
 :
 {
 HTMLElementOrLong
-StringOrFormData
+EventOrString
 }
 ;
 use
@@ -1781,7 +1781,7 @@ PassUnion2
 self
 _
 :
-StringOrFormData
+EventOrString
 )
 {
 }
@@ -2023,7 +2023,7 @@ _
 :
 Option
 <
-StringOrFormData
+EventOrString
 >
 )
 {
@@ -2283,7 +2283,7 @@ _
 :
 Option
 <
-StringOrFormData
+EventOrString
 >
 )
 {
@@ -2576,7 +2576,7 @@ Option
 <
 Option
 <
-StringOrFormData
+EventOrString
 >
 >
 )
@@ -2925,7 +2925,7 @@ _
 :
 Option
 <
-StringOrFormData
+EventOrString
 >
 )
 {

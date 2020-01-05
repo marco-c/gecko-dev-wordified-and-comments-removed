@@ -464,3 +464,7 @@ Document
 implements
 ParentNode
 ;
+Document
+implements
+GlobalEventHandlers
+;

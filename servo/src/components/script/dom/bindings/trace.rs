@@ -785,6 +785,14 @@ derived
 trace
 hooks
 .
+#
+[
+deriving
+(
+Eq
+Clone
+)
+]
 pub
 struct
 Traceable
