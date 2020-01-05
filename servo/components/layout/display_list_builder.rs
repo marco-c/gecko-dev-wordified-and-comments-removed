@@ -4024,7 +4024,15 @@ iter_mut
 )
 {
 if
+flow
+:
+:
+base
+(
 kid
+)
+.
+flags
 .
 is_absolutely_positioned
 (

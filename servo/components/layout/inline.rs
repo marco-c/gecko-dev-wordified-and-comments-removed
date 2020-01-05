@@ -85,12 +85,6 @@ use
 text
 ;
 use
-wrapper
-:
-:
-ThreadSafeLayoutNode
-;
-use
 collections
 :
 :
@@ -166,6 +160,7 @@ logical_geometry
 {
 LogicalRect
 LogicalSize
+WritingMode
 }
 ;
 use
@@ -3468,12 +3463,12 @@ pub
 fn
 from_fragments
 (
-node
-:
-ThreadSafeLayoutNode
 fragments
 :
 InlineFragments
+writing_mode
+:
+WritingMode
 )
 -
 >
@@ -3488,7 +3483,8 @@ BaseFlow
 :
 new
 (
-node
+None
+writing_mode
 )
 fragments
 :
