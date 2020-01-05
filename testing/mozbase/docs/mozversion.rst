@@ -135,6 +135,9 @@ but
 it
 requires
 the
+:
+mod
+:
 mozdevice
 dependency
 in

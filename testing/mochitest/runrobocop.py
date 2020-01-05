@@ -715,11 +715,24 @@ android_version
 androidVersion
         
 if
+(
+self
+.
+options
+.
+dm_trans
+=
+=
+'
+adb
+'
+and
 self
 .
 options
 .
 robocopApk
+)
 :
             
 self

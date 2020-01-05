@@ -213,6 +213,14 @@ m
 "
     
 "
+device_manager
+"
+:
+"
+adb
+"
+    
+"
 exes
 "
 :
@@ -473,6 +481,14 @@ options
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 xre
 -
 path
@@ -621,6 +637,14 @@ options
 "
 :
 [
+                
+"
+-
+-
+dm_trans
+=
+adb
+"
                 
 "
 -
