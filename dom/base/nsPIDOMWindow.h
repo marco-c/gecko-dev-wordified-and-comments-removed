@@ -229,6 +229,9 @@ mozilla
 namespace
 dom
 {
+class
+Location
+;
 enum
 class
 LargeAllocStatus
@@ -1285,9 +1288,15 @@ GetNavigator
 0
 ;
 virtual
-nsIDOMLocation
+mozilla
+:
+:
+dom
+:
+:
+Location
 *
-GetLocation
+Location
 (
 )
 =

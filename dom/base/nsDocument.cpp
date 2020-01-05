@@ -30263,9 +30263,6 @@ Cast
 w
 )
 ;
-ErrorResult
-dummy
-;
 RefPtr
 <
 Location
@@ -30275,14 +30272,7 @@ loc
 window
 -
 >
-GetLocation
-(
-dummy
-)
-;
-dummy
-.
-SuppressException
+Location
 (
 )
 ;

@@ -105,9 +105,6 @@ interface
 nsIDOMBlob
 ;
 interface
-nsIDOMLocation
-;
-interface
 nsIDOMOfflineResourceList
 ;
 interface

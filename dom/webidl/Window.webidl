@@ -503,7 +503,6 @@ PutForwards
 =
 href
 Unforgeable
-Throws
 CrossOriginReadable
 CrossOriginWritable
 ]

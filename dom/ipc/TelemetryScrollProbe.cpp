@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMLocation
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
