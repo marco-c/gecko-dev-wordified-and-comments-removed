@@ -888,12 +888,6 @@ attribute
 DOMString
 dir
 ;
-/
-/
-(
-HTML
-only
-)
 attribute
 HTMLElement
 ?
