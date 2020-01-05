@@ -1645,12 +1645,6 @@ resumeMedia
 "
 )
 ;
-AudioFocusAgent
-.
-notifyStartedPlaying
-(
-)
-;
 }
 Override
 public
@@ -1691,12 +1685,6 @@ MediaControl
 "
 mediaControlPaused
 "
-)
-;
-AudioFocusAgent
-.
-notifyStoppedPlaying
-(
 )
 ;
 }
