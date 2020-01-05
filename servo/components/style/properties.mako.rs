@@ -31297,6 +31297,14 @@ luminosity
 "
 )
 }
+{
+switch_to_style_struct
+(
+"
+InheritedBox
+"
+)
+}
 <
 %
 self
