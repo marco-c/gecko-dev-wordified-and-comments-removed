@@ -1655,9 +1655,6 @@ nsISupports
 aWrappedJS
 )
 {
-#
-ifdef
-DEBUG
 nsCOMPtr
 <
 nsIXPConnectWrappedJSUnmarkGray
@@ -1690,8 +1687,6 @@ successfully
 "
 )
 ;
-#
-endif
 }
 template
 <
