@@ -13707,7 +13707,7 @@ aWindow
 aWindow
 -
 >
-SuspendTimeouts
+NewFreeze
 (
 )
 ;

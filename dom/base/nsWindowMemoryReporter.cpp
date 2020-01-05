@@ -1251,7 +1251,7 @@ windowPath
 aWindow
 -
 >
-IsFrozen
+NewIsFrozen
 (
 )
 ?

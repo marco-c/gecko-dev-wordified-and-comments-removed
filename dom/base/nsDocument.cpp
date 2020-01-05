@@ -36517,7 +36517,16 @@ win
 win
 -
 >
-TimeoutSuspendCount
+NewIsSuspended
+(
+)
+&
+&
+!
+win
+-
+>
+NewIsFrozen
 (
 )
 )
