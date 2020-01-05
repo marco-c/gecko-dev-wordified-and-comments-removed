@@ -183,7 +183,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -534,7 +534,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -1129,7 +1129,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -1204,7 +1204,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -1300,7 +1300,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -1563,7 +1563,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -1978,7 +1978,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -2080,7 +2080,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -2209,7 +2209,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -2752,7 +2752,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -3506,7 +3506,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -3650,7 +3650,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -3821,7 +3821,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -3988,7 +3988,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -4512,7 +4512,7 @@ harfbuzz
 .
 0
 (
-git
+registry
 +
 https
 :
@@ -4522,11 +4522,15 @@ github
 .
 com
 /
-servo
-/
 rust
 -
-harfbuzz
+lang
+/
+crates
+.
+io
+-
+index
 )
 "
 "
@@ -4560,7 +4564,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -4957,7 +4961,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -5250,7 +5254,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -5410,7 +5414,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -5456,7 +5460,7 @@ version
 source
 =
 "
-git
+registry
 +
 https
 :
@@ -5466,13 +5470,15 @@ github
 .
 com
 /
-servo
-/
 rust
 -
-harfbuzz
-#
-33b6fd019fc04e46dd5fe15a5faf8efb1a9a0128
+lang
+/
+crates
+.
+io
+-
+index
 "
 dependencies
 =
@@ -5483,7 +5489,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -6450,7 +6456,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -6523,7 +6529,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -7000,7 +7006,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -7364,7 +7370,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -7796,7 +7802,7 @@ version
 .
 1
 .
-6
+8
 "
 source
 =
@@ -7955,7 +7961,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -8260,7 +8266,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -9330,7 +9336,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -9557,7 +9563,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -9748,7 +9754,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -9885,7 +9891,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -10582,7 +10588,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -10703,7 +10709,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -10983,7 +10989,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -11417,7 +11423,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -11871,7 +11877,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -12292,7 +12298,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -12648,7 +12654,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -13638,7 +13644,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -14113,7 +14119,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -15297,7 +15303,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -15372,7 +15378,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
@@ -15505,7 +15511,7 @@ libc
 .
 1
 .
-6
+8
 (
 registry
 +
