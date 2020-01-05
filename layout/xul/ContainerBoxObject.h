@@ -15,6 +15,13 @@ BoxObject
 .
 h
 "
+#
+include
+"
+nsIDocShell
+.
+h
+"
 namespace
 mozilla
 {

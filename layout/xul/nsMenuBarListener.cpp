@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsPIWindowRoot
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
