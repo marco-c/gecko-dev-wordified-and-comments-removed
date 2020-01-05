@@ -441,6 +441,9 @@ JSProto_Promise
 case
 JSProto_ArrayBuffer
 :
+case
+JSProto_SharedArrayBuffer
+:
 return
 true
 ;
