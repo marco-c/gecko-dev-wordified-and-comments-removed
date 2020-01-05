@@ -548,7 +548,7 @@ PseudoStack
 tlsPseudoStack
 ;
 class
-ProfilerState
+PS
 {
 public
 :
@@ -590,7 +590,7 @@ ThreadInfo
 >
 ThreadVector
 ;
-ProfilerState
+PS
 (
 )
 :
@@ -1168,10 +1168,6 @@ mLatestRecordedFrameNumber
 ;
 }
 ;
-typedef
-ProfilerState
-PS
-;
 uint32_t
 PS
 :
@@ -1188,6 +1184,7 @@ sNextActivityGeneration
 =
 1
 ;
+static
 PS
 *
 gPS
@@ -8180,14 +8177,14 @@ Gecko
 Profiler
 '
 s
-ProfilerState
-object
+global
+state
 (
 excluding
-"
-"
 memory
 used
+"
+"
 by
 LUL
 )
