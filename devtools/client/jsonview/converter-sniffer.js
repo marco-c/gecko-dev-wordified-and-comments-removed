@@ -100,7 +100,7 @@ json
 ]
 ;
 const
-CONTRACT_ID
+JSON_SNIFFER_CONTRACT_ID
 =
 "
 mozilla
@@ -117,7 +117,7 @@ sniffer
 "
 ;
 const
-CLASS_ID
+JSON_SNIFFER_CLASS_ID
 =
 components
 .
@@ -139,7 +139,7 @@ a621
 )
 ;
 const
-CLASS_DESCRIPTION
+JSON_SNIFFER_CLASS_DESCRIPTION
 =
 "
 JSONView
@@ -223,12 +223,12 @@ false
 ;
 }
 function
-Sniffer
+JsonSniffer
 (
 )
 {
 }
-Sniffer
+JsonSniffer
 .
 prototype
 =
@@ -339,7 +339,7 @@ return
 }
 ;
 const
-Factory
+JsonSnifferFactory
 =
 {
 createInstance
@@ -363,7 +363,7 @@ NS_ERROR_NO_AGGREGATION
 }
 return
 new
-Sniffer
+JsonSniffer
 (
 )
 ;
@@ -382,7 +382,7 @@ registrar
 .
 isCIDRegistered
 (
-CLASS_ID
+JSON_SNIFFER_CLASS_ID
 )
 )
 {
@@ -390,10 +390,10 @@ registrar
 .
 registerFactory
 (
-CLASS_ID
-CLASS_DESCRIPTION
-CONTRACT_ID
-Factory
+JSON_SNIFFER_CLASS_ID
+JSON_SNIFFER_CLASS_DESCRIPTION
+JSON_SNIFFER_CONTRACT_ID
+JsonSnifferFactory
 )
 ;
 categoryManager
@@ -402,7 +402,7 @@ addCategoryEntry
 (
 CONTENT_SNIFFER_CATEGORY
 JSON_VIEW_TYPE
-CONTRACT_ID
+JSON_SNIFFER_CONTRACT_ID
 false
 false
 )
@@ -426,7 +426,7 @@ registrar
 .
 isCIDRegistered
 (
-CLASS_ID
+JSON_SNIFFER_CLASS_ID
 )
 )
 {
@@ -434,8 +434,8 @@ registrar
 .
 unregisterFactory
 (
-CLASS_ID
-Factory
+JSON_SNIFFER_CLASS_ID
+JsonSnifferFactory
 )
 ;
 categoryManager
