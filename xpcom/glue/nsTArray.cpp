@@ -98,7 +98,7 @@ CAPACITY
 =
 512
 ;
-char
+auto
 *
 buffer
 =

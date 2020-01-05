@@ -348,7 +348,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsSupportsDependentCString
+auto
 *
 str
 =
@@ -579,7 +579,7 @@ CategoryLeaf
 aTable
 )
 {
-EntryEnumerator
+auto
 *
 enumObj
 =
@@ -1182,7 +1182,7 @@ CategoryNode
 aTable
 )
 {
-CategoryEnumerator
+auto
 *
 enumObj
 =

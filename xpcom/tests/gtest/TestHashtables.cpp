@@ -982,7 +982,7 @@ IFoo
 result
 )
 {
-IFoo
+auto
 *
 foop
 =
@@ -1320,7 +1320,7 @@ entity
 gEntities
 )
 {
-TestUniChar
+auto
 *
 temp
 =

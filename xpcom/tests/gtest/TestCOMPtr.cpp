@@ -318,7 +318,7 @@ void
 result
 )
 {
-IFoo
+auto
 *
 foop
 =
@@ -626,7 +626,7 @@ void
 result
 )
 {
-IBar
+auto
 *
 barp
 =
@@ -1251,7 +1251,7 @@ DontAddRef
 )
 {
 {
-IFoo
+auto
 *
 raw_foo1p
 =
@@ -1265,7 +1265,7 @@ AddRef
 (
 )
 ;
-IFoo
+auto
 *
 raw_foo2p
 =

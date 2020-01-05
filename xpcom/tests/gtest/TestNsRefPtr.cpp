@@ -452,7 +452,7 @@ void
 result
 )
 {
-Foo
+auto
 *
 foop
 =
@@ -1299,7 +1299,7 @@ total_addrefs_
 0
 ;
 {
-Foo
+auto
 *
 raw_foo1p
 =
@@ -1313,7 +1313,7 @@ AddRef
 (
 )
 ;
-Foo
+auto
 *
 raw_foo2p
 =

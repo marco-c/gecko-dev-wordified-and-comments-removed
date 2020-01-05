@@ -3518,7 +3518,7 @@ get
 ;
 #
 endif
-nsLocalFile
+auto
 *
 newFile
 =
@@ -4252,7 +4252,7 @@ if
 aRecursive
 )
 {
-nsDirEnumeratorUnix
+auto
 *
 dir
 =
