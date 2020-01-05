@@ -876,6 +876,15 @@ file
 of
 the
 crash
+together
+with
+the
+SHA256
+hash
+of
+the
+minidump
+file
 .
 Once
 this

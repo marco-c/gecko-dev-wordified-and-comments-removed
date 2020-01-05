@@ -552,6 +552,13 @@ SendCrashPing
 StringTable
 &
 strings
+const
+std
+:
+:
+string
+&
+hash
 std
 :
 :
@@ -734,6 +741,10 @@ std
 string
 &
 filename
+bool
+binary
+=
+false
 )
 ;
 std

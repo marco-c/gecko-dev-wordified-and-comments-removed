@@ -188,6 +188,9 @@ USE_LIBS
 '
 google_breakpad_libxul_s
 '
+'
+nss
+'
 ]
 OS_LIBS
 +
@@ -275,6 +278,9 @@ breakpad_common_s
 '
 '
 breakpad_mac_common_s
+'
+'
+nss
 '
 ]
 elif
