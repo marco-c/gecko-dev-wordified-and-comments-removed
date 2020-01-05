@@ -9457,11 +9457,6 @@ mAllowScriptsToClose
 :
 1
 ;
-bool
-mTopLevelOuterContentWindow
-:
-1
-;
 nsCOMPtr
 <
 nsIScriptContext
