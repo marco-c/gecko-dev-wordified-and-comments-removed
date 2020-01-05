@@ -239,6 +239,15 @@ as
 ConstellationMsg
 ;
 use
+net_traits
+:
+:
+image_cache_task
+:
+:
+UsePlaceholder
+;
+use
 png
 :
 :
@@ -2420,6 +2429,10 @@ image_url
 clone
 (
 )
+UsePlaceholder
+:
+:
+No
 )
 ;
 if

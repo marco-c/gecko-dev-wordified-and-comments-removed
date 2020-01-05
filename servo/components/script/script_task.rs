@@ -4849,7 +4849,7 @@ respond
 (
 msg
 .
-image
+image_response
 )
 ;
 }
