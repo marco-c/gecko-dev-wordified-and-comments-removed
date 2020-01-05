@@ -661,6 +661,10 @@ i32
 impl
 StackingLevel
 {
+#
+[
+inline
+]
 pub
 fn
 from_background_and_border_level
@@ -1070,6 +1074,10 @@ next
 impl
 DisplayList
 {
+#
+[
+inline
+]
 pub
 fn
 new
@@ -1091,6 +1099,10 @@ new
 )
 }
 }
+#
+[
+inline
+]
 pub
 fn
 push
@@ -1250,6 +1262,10 @@ list
 )
 ;
 }
+#
+[
+inline
+]
 pub
 fn
 iter
@@ -1604,6 +1620,13 @@ Au
 impl
 BaseDisplayItem
 {
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 new
