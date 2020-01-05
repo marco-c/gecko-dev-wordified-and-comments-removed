@@ -61,6 +61,17 @@ lib
 wmcodecdspuuid
 "
 )
+#
+pragma
+comment
+(
+lib
+"
+mfplat
+.
+lib
+"
+)
 void
 LOG
 (
