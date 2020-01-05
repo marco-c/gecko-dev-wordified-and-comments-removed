@@ -317,6 +317,7 @@ create_tasks
 (
 optimized_graph
 label_to_taskid
+decision_params
 )
 def
 get_action_parameters
