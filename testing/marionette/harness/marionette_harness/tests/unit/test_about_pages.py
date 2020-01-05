@@ -14,6 +14,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip_if_mobile
 WindowManagerMixin
 class
 TestAboutPages
@@ -128,6 +129,8 @@ tearDown
 (
 )
     
+skip_if_mobile
+    
 def
 test_back_forward
 (
@@ -241,6 +244,8 @@ self
 start_tab
 )
     
+skip_if_mobile
+    
 def
 test_navigate_non_remote_about_pages
 (
@@ -350,6 +355,8 @@ self
 .
 start_tab
 )
+    
+skip_if_mobile
     
 def
 test_navigate_shortcut_key
@@ -469,6 +476,8 @@ self
 .
 start_tab
 )
+    
+skip_if_mobile
     
 def
 test_type_to_non_remote_tab
@@ -609,6 +618,8 @@ self
 start_tab
 )
     
+skip_if_mobile
+    
 def
 test_type_to_remote_tab
 (
@@ -689,6 +700,8 @@ self
 .
 remote_uri
 )
+    
+skip_if_mobile
     
 def
 test_hang
