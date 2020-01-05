@@ -183,9 +183,6 @@ write_clip_tile_vertex
 local_rect
 layer
 area
-cci
-.
-segment_index
 )
 ;
 vLocalRect
@@ -229,13 +226,10 @@ zw
 vec2
 texture_size
 =
-vec2
-(
 textureSize
 (
 sMask
 0
-)
 )
 ;
 vClipMaskUvRect

@@ -100,6 +100,7 @@ prim
 =
 load_primitive
 (
+gl_InstanceID
 )
 ;
 VertexInfo
@@ -113,9 +114,6 @@ local_rect
 prim
 .
 local_clip_rect
-prim
-.
-z
 prim
 .
 layer

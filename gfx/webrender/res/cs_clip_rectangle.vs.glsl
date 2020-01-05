@@ -361,9 +361,6 @@ write_clip_tile_vertex
 local_rect
 layer
 area
-cci
-.
-segment_index
 )
 ;
 vLocalRect
