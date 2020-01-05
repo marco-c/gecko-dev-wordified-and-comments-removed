@@ -1213,7 +1213,7 @@ LayoutData
 >
 >
 }
-untraceable
+no_jsmanaged_fields
 !
 (
 LayoutDataRef

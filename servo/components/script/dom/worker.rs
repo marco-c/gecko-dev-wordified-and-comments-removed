@@ -277,7 +277,7 @@ const
 c_void
 )
 ;
-untraceable
+no_jsmanaged_fields
 !
 (
 TrustedWorkerAddress
