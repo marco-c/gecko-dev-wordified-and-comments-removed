@@ -419,7 +419,7 @@ view
 -
 box
 ;
-tansform
+transform
 -
 origin
 :
@@ -497,7 +497,7 @@ fill
 -
 box
 ;
-tansform
+transform
 -
 origin
 :
@@ -573,7 +573,7 @@ border
 -
 box
 ;
-tansform
+transform
 -
 origin
 :
@@ -608,7 +608,7 @@ height
 !
 -
 -
-2nd
+3rd
 row
 :
 transform
@@ -670,7 +670,7 @@ fill
 -
 box
 ;
-tansform
+transform
 -
 origin
 :
@@ -842,7 +842,7 @@ border
 -
 box
 ;
-tansform
+transform
 -
 origin
 :
