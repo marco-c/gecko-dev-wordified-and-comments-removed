@@ -1578,10 +1578,7 @@ details
 .
 html
 fuzzy
--
-if
 (
-gtkWidget
 1
 1
 )
