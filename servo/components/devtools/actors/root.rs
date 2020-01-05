@@ -98,7 +98,7 @@ from
 String
 selected
 :
-uint
+u32
 tabs
 :
 Vec

@@ -21,14 +21,6 @@ rlib
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
 net
 )
 ]
@@ -315,7 +307,7 @@ String
 pub
 nodeType
 :
-uint
+u16
 pub
 namespaceURI
 :
@@ -327,7 +319,7 @@ String
 pub
 numChildren
 :
-uint
+usize
 pub
 name
 :
@@ -545,7 +537,7 @@ read_struct
 "
 Modification
 "
-2u
+2
 |
 d
 |
@@ -565,7 +557,7 @@ read_struct_field
 "
 attributeName
 "
-0u
+0
 |
 d
 |
@@ -588,7 +580,7 @@ read_struct_field
 "
 newValue
 "
-1u
+1
 |
 d
 |

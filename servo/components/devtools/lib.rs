@@ -21,7 +21,6 @@ rlib
 [
 feature
 (
-int_uint
 box_syntax
 core
 rustc_private

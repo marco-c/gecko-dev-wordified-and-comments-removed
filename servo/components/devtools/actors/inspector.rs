@@ -697,7 +697,7 @@ parent
 String
 nodeType
 :
-uint
+u16
 namespaceURI
 :
 String
@@ -706,7 +706,7 @@ nodeName
 String
 numChildren
 :
-uint
+usize
 name
 :
 String
@@ -1599,7 +1599,7 @@ computed
 :
 Vec
 <
-uint
+u32
 >
 /
 /
@@ -1652,7 +1652,7 @@ actor
 String
 __type__
 :
-uint
+u32
 href
 :
 String
@@ -1661,10 +1661,10 @@ cssText
 String
 line
 :
-uint
+u32
 column
 :
-uint
+u32
 parentStyleSheet
 :
 String
@@ -1699,10 +1699,10 @@ system
 bool
 styleSheetIndex
 :
-int
+isize
 ruleCount
 :
-uint
+usize
 }
 #
 [
@@ -1716,10 +1716,10 @@ GetLayoutReply
 {
 width
 :
-int
+i32
 height
 :
-int
+i32
 autoMargins
 :
 Json
@@ -2135,7 +2135,7 @@ round
 (
 )
 as
-int
+i32
 height
 :
 height
@@ -2144,7 +2144,7 @@ round
 (
 )
 as
-int
+i32
 autoMargins
 :
 if
