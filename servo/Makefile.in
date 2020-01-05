@@ -2734,7 +2734,6 @@ BINDINGS_SRC
 BindingGen
 .
 py
-rs
 \
 (
 BINDINGS_SRC

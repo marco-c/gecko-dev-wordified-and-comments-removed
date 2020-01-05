@@ -50,9 +50,17 @@ generate_file
 (
 config
 name
-action
 )
 :
+    
+filename
+=
+name
++
+'
+.
+rs
+'
     
 root
 =
@@ -65,23 +73,6 @@ name
 config
 )
     
-if
-action
-is
-'
-declare
-'
-:
-        
-filename
-=
-name
-+
-'
-.
-rs
-'
-        
 code
 =
 root
@@ -90,34 +81,6 @@ declare
 (
 )
     
-elif
-action
-=
-=
-'
-declare
-+
-define
-'
-:
-        
-filename
-=
-name
-+
-'
-.
-rs
-'
-        
-code
-=
-root
-.
-declare
-(
-)
-        
 root2
 =
 getattr
@@ -128,38 +91,11 @@ name
 (
 config
 )
-        
+    
 code
 +
 =
 root2
-.
-define
-(
-)
-    
-else
-:
-        
-assert
-action
-is
-'
-define
-'
-        
-filename
-=
-name
-+
-'
-.
-rs
-'
-        
-code
-=
-root
 .
 define
 (
@@ -484,11 +420,6 @@ config
 '
 PrototypeList
 '
-'
-declare
-+
-define
-'
 )
     
 generate_file
@@ -496,11 +427,6 @@ generate_file
 config
 '
 RegisterBindings
-'
-'
-declare
-+
-define
 '
 )
     
@@ -510,11 +436,6 @@ config
 '
 InterfaceTypes
 '
-'
-declare
-+
-define
-'
 )
     
 generate_file
@@ -522,11 +443,6 @@ generate_file
 config
 '
 InheritTypes
-'
-'
-declare
-+
-define
 '
 )
     
@@ -536,11 +452,6 @@ config
 '
 BindingDeclarations
 '
-'
-declare
-+
-define
-'
 )
     
 generate_file
@@ -549,11 +460,6 @@ config
 '
 UnionTypes
 '
-'
-declare
-+
-define
-'
 )
     
 generate_file
@@ -561,11 +467,6 @@ generate_file
 config
 '
 UnionConversions
-'
-'
-declare
-+
-define
 '
 )
 if
