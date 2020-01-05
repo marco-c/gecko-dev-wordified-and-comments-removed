@@ -192,13 +192,6 @@ js
 '
 content
 -
-globals
-.
-js
-'
-'
-content
--
 server
 .
 jsm
