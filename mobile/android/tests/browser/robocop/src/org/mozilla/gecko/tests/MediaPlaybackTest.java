@@ -156,6 +156,14 @@ mPrevIcon
 =
 0
 ;
+private
+static
+final
+int
+UI_CHANGED_WAIT_MS
+=
+6000
+;
 protected
 final
 void
@@ -399,7 +407,7 @@ false
 ;
 }
 }
-MAX_WAIT_MS
+UI_CHANGED_WAIT_MS
 )
 ;
 }
