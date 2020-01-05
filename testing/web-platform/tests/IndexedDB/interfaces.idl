@@ -303,11 +303,9 @@ newVersion
 ;
 }
 ;
-[
-NoInterfaceObject
-]
+partial
 interface
-IDBEnvironment
+WindowOrWorkerGlobalScope
 {
 readonly
 attribute

@@ -315,10 +315,6 @@ GlobalCrypto
 ;
 WorkerGlobalScope
 implements
-IDBEnvironment
-;
-WorkerGlobalScope
-implements
 WindowOrWorkerGlobalScope
 ;
 /
