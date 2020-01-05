@@ -168,15 +168,6 @@ aDuration
 0
 ;
 virtual
-bool
-NeedToResetMDSM
-(
-)
-const
-=
-0
-;
-virtual
 int64_t
 CalculateNewCurrentTime
 (
