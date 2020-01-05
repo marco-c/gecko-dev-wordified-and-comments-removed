@@ -655,13 +655,6 @@ UrlCopyListener
 )
 )
 ;
-actionBar
-.
-setDisplayHomeAsUpEnabled
-(
-true
-)
-;
 Tabs
 .
 registerOnTabsChangedListener
