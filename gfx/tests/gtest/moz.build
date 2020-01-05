@@ -95,6 +95,11 @@ gfxSurfaceRefCountTest
 cpp
 '
 '
+PolygonTestUtils
+.
+cpp
+'
+'
 TestArena
 .
 cpp
@@ -146,6 +151,11 @@ cpp
 '
 '
 TestMoz2D
+.
+cpp
+'
+'
+TestPolygon
 .
 cpp
 '
