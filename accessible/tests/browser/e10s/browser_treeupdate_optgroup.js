@@ -85,7 +85,7 @@ content
 document
 ;
 let
-select
+contentSelect
 =
 doc
 .
@@ -162,7 +162,7 @@ opt
 )
 ;
 }
-select
+contentSelect
 .
 add
 (
@@ -198,7 +198,7 @@ option
 '
 )
 ;
-select
+contentSelect
 .
 add
 (
@@ -207,7 +207,7 @@ null
 )
 ;
 }
-select
+contentSelect
 .
 firstChild
 .
@@ -347,7 +347,7 @@ browser
 >
 {
 let
-select
+contentSelect
 =
 content
 .
@@ -360,11 +360,11 @@ select
 '
 )
 ;
-select
+contentSelect
 .
 removeChild
 (
-select
+contentSelect
 .
 firstChild
 )
@@ -452,7 +452,7 @@ browser
 >
 {
 let
-select
+contentSelect
 =
 content
 .
@@ -467,12 +467,12 @@ select
 ;
 while
 (
-select
+contentSelect
 .
 length
 )
 {
-select
+contentSelect
 .
 remove
 (

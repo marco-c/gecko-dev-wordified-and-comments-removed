@@ -70,6 +70,7 @@ browser
 )
 =
 >
+{
 content
 .
 document
@@ -88,6 +89,8 @@ display
 '
 block
 '
+;
+}
 )
 ;
 yield

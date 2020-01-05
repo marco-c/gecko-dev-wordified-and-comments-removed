@@ -1147,7 +1147,7 @@ assign
 "
 :
 "
-warn
+error
 "
 "
 no
@@ -1187,7 +1187,7 @@ shadow
 "
 :
 "
-warn
+error
 "
 "
 no

@@ -773,7 +773,7 @@ spawn
 (
 browser
 id
-id
+contentId
 =
 >
 {
@@ -913,7 +913,7 @@ document
 .
 getElementById
 (
-id
+contentId
 )
 .
 appendChild
