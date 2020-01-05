@@ -117,6 +117,10 @@ nsISeekableStream
 *
 mWeakSeekableInputStream
 ;
+nsIAsyncInputStream
+*
+mWeakAsyncInputStream
+;
 uint64_t
 mStart
 ;
