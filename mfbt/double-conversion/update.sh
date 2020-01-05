@@ -487,3 +487,14 @@ show
 GIT
 -
 INFO
+#
+Delete
+the
+tmpdir
+.
+rm
+-
+rf
+"
+TMPDIR
+"
