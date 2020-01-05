@@ -5335,6 +5335,11 @@ SVGZoomAndPanValues
 webidl
 '
 '
+SVGZoomEvent
+.
+webidl
+'
+'
 TCPServerSocket
 .
 webidl

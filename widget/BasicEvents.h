@@ -813,6 +813,9 @@ eTransitionEventClass
 case
 eAnimationEventClass
 :
+case
+eSVGZoomEventClass
+:
 mFlags
 .
 mCancelable
