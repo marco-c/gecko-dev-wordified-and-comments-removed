@@ -189,6 +189,16 @@ dom
 UserSpaceMetrics
 UserSpaceMetrics
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 public
 :
 static
@@ -227,7 +237,7 @@ aOutAdditionalImages
 )
 ;
 static
-nsresult
+DrawResult
 PaintFilteredFrame
 (
 nsIFrame
@@ -360,7 +370,7 @@ return
 mInitialized
 ;
 }
-nsresult
+DrawResult
 Render
 (
 DrawTarget
@@ -439,7 +449,7 @@ mSurfaceRect
 ;
 }
 ;
-nsresult
+DrawResult
 BuildSourcePaint
 (
 SourceInfo
@@ -450,7 +460,7 @@ DrawTarget
 aTargetDT
 )
 ;
-nsresult
+DrawResult
 BuildSourcePaints
 (
 DrawTarget
@@ -458,7 +468,7 @@ DrawTarget
 aTargetDT
 )
 ;
-nsresult
+DrawResult
 BuildSourceImage
 (
 DrawTarget
