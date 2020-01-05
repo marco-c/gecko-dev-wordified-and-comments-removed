@@ -313,7 +313,7 @@ core_foundation
 git
 =
 "
-http
+https
 :
 /
 /
@@ -337,7 +337,7 @@ core_graphics
 git
 =
 "
-http
+https
 :
 /
 /
@@ -361,7 +361,7 @@ core_text
 git
 =
 "
-http
+https
 :
 /
 /

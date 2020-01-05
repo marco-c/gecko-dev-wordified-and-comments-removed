@@ -61,7 +61,7 @@ azure
 git
 =
 "
-http
+https
 :
 /
 /
@@ -83,7 +83,7 @@ geom
 git
 =
 "
-http
+https
 :
 /
 /
@@ -105,7 +105,7 @@ layers
 git
 =
 "
-http
+https
 :
 /
 /
@@ -127,7 +127,7 @@ core_foundation
 git
 =
 "
-http
+https
 :
 /
 /
@@ -151,7 +151,7 @@ io_surface
 git
 =
 "
-http
+https
 :
 /
 /
@@ -175,7 +175,7 @@ url
 git
 =
 "
-http
+https
 :
 /
 /
