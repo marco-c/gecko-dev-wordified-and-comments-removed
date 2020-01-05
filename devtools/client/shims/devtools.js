@@ -14,6 +14,17 @@ navigator
 :
 browser
 "
+getToolbox
+:
+function
+(
+)
+{
+return
+{
+}
+;
+}
 }
 ;
 exports
