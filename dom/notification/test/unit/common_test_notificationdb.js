@@ -83,7 +83,7 @@ return
 origin
 :
 "
-app
+https
 :
 /
 /
@@ -97,9 +97,6 @@ gaiamobile
 .
 org
 /
-manifest
-.
-webapp
 "
 id
 :
