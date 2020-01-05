@@ -587,9 +587,6 @@ WebGLUniformLocation
 {
 }
 ;
-[
-NoInterfaceObject
-]
 interface
 WebGLVertexArrayObjectOES
 {
@@ -5600,9 +5597,6 @@ MAX_EXT
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
 WebGLQuery
 {
