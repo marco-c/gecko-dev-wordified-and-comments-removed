@@ -206,6 +206,17 @@ NoteDirtyDescendantsForServo
 (
 )
 {
+if
+(
+!
+HasServoData
+(
+)
+)
+{
+return
+;
+}
 Element
 *
 curr
