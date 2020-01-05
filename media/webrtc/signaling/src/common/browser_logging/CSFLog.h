@@ -297,13 +297,6 @@ GetSignalingLogInfo
 (
 )
 ;
-struct
-PRLogModuleInfo
-*
-GetWebRTCLogInfo
-(
-)
-;
 #
 ifdef
 __cplusplus
