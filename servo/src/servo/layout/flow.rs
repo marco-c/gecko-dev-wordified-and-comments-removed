@@ -841,6 +841,7 @@ FlowContext
 fn
 bubble_widths
 (
+self
 ctx
 :
 &
@@ -910,6 +911,7 @@ self
 fn
 assign_widths
 (
+self
 ctx
 :
 &
@@ -979,6 +981,7 @@ self
 fn
 assign_height
 (
+self
 ctx
 :
 &
@@ -1048,6 +1051,7 @@ self
 fn
 build_display_list_recurse
 (
+self
 builder
 :
 &

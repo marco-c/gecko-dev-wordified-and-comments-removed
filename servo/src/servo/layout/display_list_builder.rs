@@ -254,6 +254,7 @@ FlowDisplayListBuilderMethods
 fn
 build_display_list
 (
+self
 a
 :
 &
@@ -277,6 +278,7 @@ DisplayList
 fn
 build_display_list_for_child
 (
+self
 a
 :
 &
@@ -316,6 +318,7 @@ FlowDisplayListBuilderMethods
 fn
 build_display_list
 (
+self
 builder
 :
 &
@@ -361,6 +364,7 @@ list
 fn
 build_display_list_for_child
 (
+self
 builder
 :
 &

@@ -130,6 +130,7 @@ bool
 fn
 bubble_widths_root
 (
+self
 ctx
 :
 &
@@ -139,6 +140,7 @@ LayoutContext
 fn
 assign_widths_root
 (
+self
 ctx
 :
 &
@@ -148,6 +150,7 @@ LayoutContext
 fn
 assign_height_root
 (
+self
 ctx
 :
 &
@@ -157,6 +160,7 @@ LayoutContext
 fn
 build_display_list_root
 (
+self
 a
 :
 &
@@ -221,6 +225,7 @@ false
 fn
 bubble_widths_root
 (
+self
 ctx
 :
 &
@@ -244,6 +249,7 @@ ctx
 fn
 assign_widths_root
 (
+self
 ctx
 :
 &
@@ -280,6 +286,7 @@ ctx
 fn
 assign_height_root
 (
+self
 ctx
 :
 &
@@ -304,6 +311,7 @@ ctx
 fn
 build_display_list_root
 (
+self
 builder
 :
 &
