@@ -293,6 +293,16 @@ True
 "
 marionette
 .
+defaultPrefs
+.
+enabled
+"
+:
+True
+        
+"
+marionette
+.
 prefs
 .
 recommended
