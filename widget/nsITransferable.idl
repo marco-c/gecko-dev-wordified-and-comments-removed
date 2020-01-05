@@ -92,14 +92,14 @@ MPL
 #
 include
 "
-nsISupports
+nsIArray
 .
 idl
 "
 #
 include
 "
-nsISupportsArray
+nsISupports
 .
 idl
 "
@@ -1056,7 +1056,7 @@ transferable
 .
 *
 /
-nsISupportsArray
+nsIArray
 flavorsTransferableCanExport
 (
 )
@@ -1357,7 +1357,7 @@ transferable
 .
 *
 /
-nsISupportsArray
+nsIArray
 flavorsTransferableCanImport
 (
 )

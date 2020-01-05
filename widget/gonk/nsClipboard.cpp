@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsArrayUtils
+.
+h
+"
+#
+include
+"
 nsClipboardProxy
 .
 h
@@ -351,7 +358,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 flavorList
 ;
@@ -393,7 +400,7 @@ flavorCount
 flavorList
 -
 >
-Count
+GetLength
 (
 &
 flavorCount
@@ -1052,7 +1059,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 flavorList
 ;
@@ -1092,7 +1099,7 @@ flavorCount
 flavorList
 -
 >
-Count
+GetLength
 (
 &
 flavorCount

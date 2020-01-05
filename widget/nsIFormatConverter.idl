@@ -103,7 +103,7 @@ idl
 #
 include
 "
-nsISupportsArray
+nsIArray
 .
 idl
 "
@@ -172,7 +172,7 @@ converter
 .
 *
 /
-nsISupportsArray
+nsIArray
 getInputDataFlavors
 (
 )
@@ -231,7 +231,7 @@ supported
 flavors
 *
 /
-nsISupportsArray
+nsIArray
 getOutputDataFlavors
 (
 )

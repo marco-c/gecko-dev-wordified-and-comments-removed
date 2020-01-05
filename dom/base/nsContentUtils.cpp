@@ -533,6 +533,13 @@ h
 #
 include
 "
+nsArrayUtils
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
@@ -35032,7 +35039,7 @@ aTransferable
 {
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 flavorList
 ;
@@ -35060,7 +35067,7 @@ flavorCount
 flavorList
 -
 >
-Count
+GetLength
 (
 &
 flavorCount

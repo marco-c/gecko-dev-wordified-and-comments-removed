@@ -54,6 +54,9 @@ nsIPrincipal
 h
 "
 class
+nsIMutableArray
+;
+class
 nsString
 ;
 struct
@@ -233,13 +236,12 @@ nsTransferable
 (
 )
 ;
-nsresult
+already_AddRefed
+<
+nsIMutableArray
+>
 GetTransferDataFlavors
 (
-nsISupportsArray
-*
-*
-aDataFlavorList
 )
 ;
 nsTArray
