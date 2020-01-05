@@ -91,12 +91,13 @@ exists
 (
 )
 )
+{
 return
 file
 .
 lastModifiedTime
 ;
-else
+}
 return
 -
 1

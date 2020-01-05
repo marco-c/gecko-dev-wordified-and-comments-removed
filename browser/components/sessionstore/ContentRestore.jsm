@@ -925,7 +925,10 @@ true
 catch
 (
 ex
+)
+{
 if
+(
 ex
 instanceof
 Ci
@@ -937,6 +940,10 @@ return
 false
 ;
 }
+}
+return
+null
+;
 }
 restoreTabContentStarted
 (

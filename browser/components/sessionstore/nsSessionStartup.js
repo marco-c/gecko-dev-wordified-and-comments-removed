@@ -806,7 +806,6 @@ complete
 ;
 }
 else
-{
 if
 (
 noFilesFound
@@ -862,7 +861,6 @@ state
 STATE_RUNNING_STR
 )
 ;
-}
 }
 Services
 .

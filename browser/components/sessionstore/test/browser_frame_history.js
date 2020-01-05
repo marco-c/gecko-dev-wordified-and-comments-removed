@@ -1176,7 +1176,6 @@ state
 "
 )
 ;
-;
 gBrowser
 .
 removeTab

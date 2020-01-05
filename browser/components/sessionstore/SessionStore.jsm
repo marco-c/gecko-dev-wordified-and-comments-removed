@@ -7063,7 +7063,6 @@ current
 +
 ;
 }
-;
 var
 activeWindow
 =
@@ -12236,6 +12235,9 @@ tabState
 entries
 }
 }
+return
+null
+;
 }
 _prepWindowToRestoreInto
 :
@@ -15450,14 +15452,9 @@ history
 {
 entries
 :
-[
-.
-.
-.
 tabData
 .
 entries
-]
 index
 :
 tabData
