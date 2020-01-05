@@ -168,6 +168,7 @@ constellation_msg
 {
 MozBrowserEvent
 PipelineExitType
+PipelineNamespaceId
 }
 ;
 use
@@ -684,6 +685,10 @@ Option
 <
 WindowSizeData
 >
+pub
+pipeline_namespace_id
+:
+PipelineNamespaceId
 }
 pub
 trait

@@ -2781,8 +2781,10 @@ actor_requests
 &
 actor_workers
 PipelineId
+:
+:
+fake_root_pipeline_id
 (
-0
 )
 request_id
 network_event
