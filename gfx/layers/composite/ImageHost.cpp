@@ -827,13 +827,6 @@ img
 mImages
 )
 {
-if
-(
-GetCompositor
-(
-)
-)
-{
 img
 .
 mTextureHost
@@ -841,12 +834,9 @@ mTextureHost
 >
 SetCompositor
 (
-GetCompositor
-(
-)
+aCompositor
 )
 ;
-}
 img
 .
 mTextureHost
