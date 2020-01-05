@@ -23635,9 +23635,6 @@ AddPageBreakItem
 nsIContent
 *
 aContent
-nsStyleContext
-*
-aMainStyleContext
 FrameConstructionItemList
 &
 aItems
@@ -23657,18 +23654,12 @@ StyleSet
 )
 -
 >
-ResolveInheritingAnonymousBoxStyle
+ResolveNonInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
 :
 pageBreak
-aMainStyleContext
--
->
-GetParent
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -25237,7 +25228,6 @@ mBreakBefore
 AddPageBreakItem
 (
 aContent
-aStyleContext
 aItems
 )
 ;
@@ -25594,7 +25584,6 @@ mBreakAfter
 AddPageBreakItem
 (
 aContent
-aStyleContext
 aItems
 )
 ;
@@ -25814,7 +25803,6 @@ mBreakAfter
 AddPageBreakItem
 (
 aContent
-aStyleContext
 aItems
 )
 ;
