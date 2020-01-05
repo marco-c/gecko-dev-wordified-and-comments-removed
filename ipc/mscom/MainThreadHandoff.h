@@ -359,6 +359,14 @@ ArrayData
 aArrayData
 )
 ;
+HRESULT
+FixIServiceProvider
+(
+ICallFrame
+*
+aFrame
+)
+;
 private
 :
 ULONG
