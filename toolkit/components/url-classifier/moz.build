@@ -225,6 +225,11 @@ nsUrlClassifierStreamUpdater
 .
 cpp
 '
+'
+VariableLengthPrefixSet
+.
+cpp
+'
 ]
 #
 contains
@@ -324,6 +329,11 @@ protobuf
 safebrowsing
 .
 pb
+.
+h
+'
+'
+VariableLengthPrefixSet
 .
 h
 '
