@@ -69,6 +69,9 @@ speed
 int
 threads
 ;
+int
+aqmode
+;
 void
 *
 internal

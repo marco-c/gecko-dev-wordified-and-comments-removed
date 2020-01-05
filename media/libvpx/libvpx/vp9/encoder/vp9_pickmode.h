@@ -79,9 +79,6 @@ cpi
 MACROBLOCK
 *
 x
-TileDataEnc
-*
-tile_data
 int
 mi_row
 int

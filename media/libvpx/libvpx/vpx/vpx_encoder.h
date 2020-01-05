@@ -317,7 +317,7 @@ lost
 Note
 that
 intra
-predicition
+prediction
 is
 still
 done

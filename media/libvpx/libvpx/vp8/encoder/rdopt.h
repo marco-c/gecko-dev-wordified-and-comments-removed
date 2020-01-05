@@ -5,6 +5,15 @@ VP8_ENCODER_RDOPT_H_
 define
 VP8_ENCODER_RDOPT_H_
 #
+include
+"
+.
+/
+vpx_config
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -50,6 +59,7 @@ D
 )
 )
 static
+INLINE
 void
 insertsortmv
 (
@@ -160,6 +170,7 @@ temp
 }
 }
 static
+INLINE
 void
 insertsortsad
 (
@@ -358,6 +369,7 @@ rate
 )
 ;
 static
+INLINE
 void
 get_plane_pointers
 (
@@ -418,6 +430,7 @@ recon_uvoffset
 ;
 }
 static
+INLINE
 void
 get_predictor_pointers
 (
@@ -547,6 +560,7 @@ recon_uvoffset
 ;
 }
 static
+INLINE
 void
 get_reference_search_order
 (

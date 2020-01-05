@@ -120,6 +120,17 @@ vp8
 /
 common
 /
+reconintra
+.
+h
+"
+#
+include
+"
+vp8
+/
+common
+/
 reconintra4x4
 .
 h
@@ -156,6 +167,10 @@ h
 #
 include
 "
+vp8
+/
+encoder
+/
 quantize
 .
 h
@@ -163,9 +178,7 @@ h
 #
 include
 "
-vp8
-/
-common
+vpx_dsp
 /
 variance
 .
@@ -2331,7 +2344,7 @@ mv_col
 7
 )
 {
-vp8_sub_pixel_variance8x8
+vpx_sub_pixel_variance8x8
 (
 uptr
 pre_stride
@@ -2347,7 +2360,7 @@ uv_stride
 sse2
 )
 ;
-vp8_sub_pixel_variance8x8
+vpx_sub_pixel_variance8x8
 (
 vptr
 pre_stride
@@ -10918,6 +10931,9 @@ prob_skip_false
 prob_skip_cost
 -
 =
+(
+int
+)
 vp8_cost_bit
 (
 cpi
@@ -14161,6 +14177,7 @@ lf_info
 mb_row
 mb_col
 block_index
+0
 )
 ;
 if

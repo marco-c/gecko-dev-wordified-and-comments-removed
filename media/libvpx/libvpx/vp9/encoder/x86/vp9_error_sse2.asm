@@ -84,6 +84,10 @@ tree
 .
 ;
 %
+define
+private_prefix
+vp9
+%
 include
 "
 third_party

@@ -7,11 +7,9 @@ VP9_DECODER_VP9_DSUBEXP_H_
 #
 include
 "
-vp9
+vpx_dsp
 /
-decoder
-/
-vp9_reader
+bitreader
 .
 h
 "
@@ -28,10 +26,10 @@ endif
 void
 vp9_diff_update_prob
 (
-vp9_reader
+vpx_reader
 *
 r
-vp9_prob
+vpx_prob
 *
 p
 )

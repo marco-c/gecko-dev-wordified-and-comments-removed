@@ -36,7 +36,17 @@ q2Add
 ;
 int32x2_t
 d2s32
+=
+vdup_n_s32
+(
+0
+)
 d4s32
+=
+vdup_n_s32
+(
+0
+)
 ;
 uint8x8_t
 d2u8

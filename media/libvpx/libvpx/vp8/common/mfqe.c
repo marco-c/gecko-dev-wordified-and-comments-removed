@@ -30,9 +30,7 @@ h
 #
 include
 "
-vp8
-/
-common
+vpx_dsp
 /
 variance
 .

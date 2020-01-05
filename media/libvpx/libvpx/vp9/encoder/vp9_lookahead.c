@@ -75,13 +75,11 @@ struct
 lookahead_ctx
 *
 ctx
-unsigned
 int
 *
 idx
 )
 {
-unsigned
 int
 index
 =
@@ -161,7 +159,6 @@ ctx
 buf
 )
 {
-unsigned
 int
 i
 ;
@@ -182,7 +179,7 @@ i
 +
 +
 )
-vp9_free_frame_buffer
+vpx_free_frame_buffer
 (
 &
 ctx
@@ -341,7 +338,7 @@ i
 )
 if
 (
-vp9_alloc_frame_buffer
+vpx_alloc_frame_buffer
 (
 &
 ctx
@@ -816,7 +813,7 @@ new_img
 ;
 if
 (
-vp9_alloc_frame_buffer
+vpx_alloc_frame_buffer
 (
 &
 new_img
@@ -837,7 +834,7 @@ VP9_ENC_BORDER_IN_PIXELS
 return
 1
 ;
-vp9_free_frame_buffer
+vpx_free_frame_buffer
 (
 &
 buf
@@ -1080,9 +1077,6 @@ if
 (
 index
 <
-(
-int
-)
 ctx
 -
 >
@@ -1102,9 +1096,6 @@ if
 index
 >
 =
-(
-int
-)
 ctx
 -
 >

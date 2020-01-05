@@ -7,6 +7,8 @@ VP8_COMMON_INVTRANS_H_
 #
 include
 "
+.
+/
 vpx_config
 .
 h
@@ -124,6 +126,7 @@ diff
 }
 }
 static
+INLINE
 void
 vp8_inverse_transform_mby
 (

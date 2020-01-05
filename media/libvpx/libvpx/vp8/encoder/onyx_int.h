@@ -57,9 +57,7 @@ h
 #
 include
 "
-vp8
-/
-common
+vpx_dsp
 /
 variance
 .
@@ -75,6 +73,10 @@ h
 #
 include
 "
+vp8
+/
+encoder
+/
 quantize
 .
 h
@@ -1171,7 +1173,6 @@ key_frame_rate_correction_factor
 double
 gf_rate_correction_factor
 ;
-unsigned
 int
 frames_since_golden
 ;
@@ -1538,6 +1539,13 @@ force_maxqp
 #
 if
 CONFIG_MULTITHREAD
+pthread_mutex_t
+*
+pmutex
+;
+pthread_mutex_t
+mt_mutex
+;
 int
 *
 mt_current_mb_col
@@ -1550,9 +1558,6 @@ b_multi_threaded
 ;
 int
 encoding_thread_count
-;
-int
-b_lpf_running
 ;
 pthread_t
 *
@@ -2091,6 +2096,12 @@ rd_costs
 ;
 }
 VP8_COMP
+;
+void
+vp8_initialize_enc
+(
+void
+)
 ;
 void
 vp8_alloc_compressor_data

@@ -39,7 +39,7 @@ VP9_COMMON
 cm
 int
 usehp
-vp9_writer
+vpx_writer
 *
 w
 nmv_context_counts
@@ -54,7 +54,7 @@ vp9_encode_mv
 VP9_COMP
 *
 cpi
-vp9_writer
+vpx_writer
 *
 w
 const

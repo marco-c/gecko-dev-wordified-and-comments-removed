@@ -239,7 +239,7 @@ define
 vp8_yv12_extend_frame_borders
 vp8_yv12_extend_frame_borders_c
 void
-vp9_extend_frame_borders_c
+vpx_extend_frame_borders_c
 (
 struct
 yv12_buffer_config
@@ -249,10 +249,10 @@ ybf
 ;
 #
 define
-vp9_extend_frame_borders
-vp9_extend_frame_borders_c
+vpx_extend_frame_borders
+vpx_extend_frame_borders_c
 void
-vp9_extend_frame_inner_borders_c
+vpx_extend_frame_inner_borders_c
 (
 struct
 yv12_buffer_config
@@ -262,8 +262,8 @@ ybf
 ;
 #
 define
-vp9_extend_frame_inner_borders
-vp9_extend_frame_inner_borders_c
+vpx_extend_frame_inner_borders
+vpx_extend_frame_inner_borders_c
 void
 vpx_yv12_copy_y_c
 (

@@ -66,16 +66,6 @@ int
 mb_rows
 int
 mb_cols
-int
-mi_stride
-)
-;
-void
-vp8_conceal_corrupt_mb
-(
-MACROBLOCKD
-*
-xd
 )
 ;
 #

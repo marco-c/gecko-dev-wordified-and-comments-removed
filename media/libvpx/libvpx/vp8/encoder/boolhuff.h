@@ -233,7 +233,6 @@ br
 lowvalue
 ;
 register
-unsigned
 int
 shift
 ;

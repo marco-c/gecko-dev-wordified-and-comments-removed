@@ -48,8 +48,6 @@ MACROBLOCKD
 *
 xd
 int
-block_idx
-int
 bwl_in
 TX_SIZE
 tx_size

@@ -726,6 +726,7 @@ dst_stride
 )
 ;
 }
+static
 void
 copy_mem64x64
 (
@@ -1299,8 +1300,6 @@ mv_len_square
 mi
 -
 >
-mbmi
-.
 mv
 [
 0
@@ -1313,8 +1312,6 @@ row
 mi
 -
 >
-mbmi
-.
 mv
 [
 0
@@ -1327,8 +1324,6 @@ row
 mi
 -
 >
-mbmi
-.
 mv
 [
 0
@@ -1341,8 +1336,6 @@ col
 mi
 -
 >
-mbmi
-.
 mv
 [
 0
@@ -1362,8 +1355,6 @@ return
 mi
 -
 >
-mbmi
-.
 mode
 >
 =
@@ -1437,8 +1428,6 @@ cur_bs
 mi
 -
 >
-mbmi
-.
 sb_type
 ;
 const

@@ -158,6 +158,8 @@ BLOCK_SIZE
 bsize
 int
 plane
+int
+enable_optimize_b
 )
 ;
 #

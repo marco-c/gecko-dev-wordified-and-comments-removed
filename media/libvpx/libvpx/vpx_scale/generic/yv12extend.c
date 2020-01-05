@@ -61,9 +61,6 @@ h
 "
 #
 if
-CONFIG_VP9
-&
-&
 CONFIG_VP9_HIGHBITDEPTH
 #
 include
@@ -303,9 +300,6 @@ src_stride
 }
 #
 if
-CONFIG_VP9
-&
-&
 CONFIG_VP9_HIGHBITDEPTH
 static
 void
@@ -647,9 +641,6 @@ y_crop_width
 ;
 #
 if
-CONFIG_VP9
-&
-&
 CONFIG_VP9_HIGHBITDEPTH
 if
 (
@@ -1308,7 +1299,7 @@ c_er
 ;
 }
 void
-vp9_extend_frame_borders_c
+vpx_extend_frame_borders_c
 (
 YV12_BUFFER_CONFIG
 *
@@ -1326,7 +1317,7 @@ border
 ;
 }
 void
-vp9_extend_frame_inner_borders_c
+vpx_extend_frame_inner_borders_c
 (
 YV12_BUFFER_CONFIG
 *
@@ -1363,6 +1354,7 @@ inner_bw
 #
 if
 CONFIG_VP9_HIGHBITDEPTH
+static
 void
 memcpy_short_addr
 (
@@ -1481,9 +1473,6 @@ y_height
 endif
 #
 if
-CONFIG_VP9
-&
-&
 CONFIG_VP9_HIGHBITDEPTH
 if
 (
@@ -1899,9 +1888,6 @@ y_buffer
 ;
 #
 if
-CONFIG_VP9
-&
-&
 CONFIG_VP9_HIGHBITDEPTH
 if
 (

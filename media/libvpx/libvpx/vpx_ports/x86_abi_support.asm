@@ -1007,10 +1007,6 @@ __OUTPUT_FORMAT__
 elf32
 %
 define
-GET_GOT_SAVE_ARG
-1
-%
-define
 WRT_PLT
 wrt
 .
@@ -1097,10 +1093,6 @@ endmacro
 elifidn
 __OUTPUT_FORMAT__
 macho32
-%
-define
-GET_GOT_SAVE_ARG
-1
 %
 macro
 GET_GOT

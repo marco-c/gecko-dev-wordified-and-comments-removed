@@ -7,6 +7,15 @@ VP8_DECODER_TREEREADER_H_
 #
 include
 "
+.
+/
+vpx_config
+.
+h
+"
+#
+include
+"
 vp8
 /
 common
@@ -56,6 +65,7 @@ R
 vp8_prob_half
 )
 static
+INLINE
 int
 vp8_treed_read
 (

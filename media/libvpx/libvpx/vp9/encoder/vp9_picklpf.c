@@ -186,6 +186,13 @@ common
 int64_t
 filt_err
 ;
+vp9_build_mask_frame
+(
+cm
+filt_level
+partial_frame
+)
+;
 if
 (
 cpi
@@ -395,7 +402,7 @@ clamp
 lf
 -
 >
-filter_level
+last_filt_level
 min_filter_level
 max_filter_level
 )
@@ -476,7 +483,7 @@ const
 int
 filt_high
 =
-MIN
+VPXMIN
 (
 filt_mid
 +
@@ -488,7 +495,7 @@ const
 int
 filt_low
 =
-MAX
+VPXMAX
 (
 filt_mid
 -

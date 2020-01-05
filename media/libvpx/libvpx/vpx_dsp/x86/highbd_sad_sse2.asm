@@ -84,10 +84,6 @@ tree
 .
 ;
 %
-define
-program_name
-vpx
-%
 include
 "
 third_party

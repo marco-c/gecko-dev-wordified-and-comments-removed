@@ -123,7 +123,16 @@ ifdef
 UNUSED
 #
 elif
+defined
+(
 __GNUC__
+)
+|
+|
+defined
+(
+__clang__
+)
 #
 define
 UNUSED

@@ -41,6 +41,15 @@ cm
 )
 ;
 int
+vp9_alloc_loop_filter
+(
+struct
+VP9Common
+*
+cm
+)
+;
+int
 vp9_alloc_context_buffers
 (
 struct

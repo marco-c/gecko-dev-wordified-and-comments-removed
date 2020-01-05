@@ -29,6 +29,15 @@ h
 #
 include
 "
+vpx_dsp
+/
+vpx_dsp_common
+.
+h
+"
+#
+include
+"
 vpx_mem
 /
 vpx_mem
@@ -1015,7 +1024,7 @@ i
 }
 mmvx
 =
-MAX
+VPXMAX
 (
 abs
 (
@@ -1051,7 +1060,7 @@ row
 ;
 mmvy
 =
-MAX
+VPXMAX
 (
 abs
 (
@@ -1087,7 +1096,7 @@ col
 ;
 dissim
 =
-MAX
+VPXMAX
 (
 mmvx
 mmvy

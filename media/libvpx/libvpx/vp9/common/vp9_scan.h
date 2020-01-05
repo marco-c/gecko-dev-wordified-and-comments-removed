@@ -185,11 +185,7 @@ if
 (
 is_inter_block
 (
-&
 mi
--
->
-mbmi
 )
 |
 |

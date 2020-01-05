@@ -90,6 +90,15 @@ common
 h
 "
 #
+include
+"
+vpx_dsp
+/
+vpx_dsp_common
+.
+h
+"
+#
 ifdef
 VP8_ENTROPY_STATS
 static
@@ -1538,7 +1547,7 @@ thismse
 int
 minc
 =
-MAX
+VPXMAX
 (
 x
 -
@@ -1573,7 +1582,7 @@ mvlong_width
 int
 maxc
 =
-MIN
+VPXMIN
 (
 x
 -
@@ -1608,7 +1617,7 @@ mvlong_width
 int
 minr
 =
-MAX
+VPXMAX
 (
 x
 -
@@ -1643,7 +1652,7 @@ mvlong_width
 int
 maxr
 =
-MIN
+VPXMIN
 (
 x
 -

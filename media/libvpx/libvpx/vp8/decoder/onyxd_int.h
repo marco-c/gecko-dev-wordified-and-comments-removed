@@ -188,7 +188,6 @@ fragments
 #
 if
 CONFIG_MULTITHREAD
-volatile
 int
 b_multithreaded_rd
 ;
@@ -217,6 +216,13 @@ sync_range
 int
 *
 mt_current_mb_col
+;
+pthread_mutex_t
+*
+pmutex
+;
+pthread_mutex_t
+mt_mutex
 ;
 unsigned
 char
