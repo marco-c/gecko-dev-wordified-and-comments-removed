@@ -382,15 +382,8 @@ color
 ;
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLFontElement
 {
 fn
@@ -421,7 +414,7 @@ htmlelement
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )

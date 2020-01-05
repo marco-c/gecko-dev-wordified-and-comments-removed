@@ -12769,15 +12769,8 @@ None
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 Element
 {
 fn
@@ -12806,13 +12799,12 @@ let
 node
 :
 &
-&
 Node
 =
 NodeCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -12866,7 +12858,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -12903,7 +12894,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13010,7 +13000,6 @@ document
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13072,7 +13061,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13109,7 +13097,6 @@ r
 .
 register_named_element
 (
-*
 self
 value
 )
@@ -13159,7 +13146,6 @@ document
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13223,7 +13209,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -13278,7 +13263,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13340,7 +13324,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13377,7 +13360,6 @@ r
 .
 unregister_named_element
 (
-*
 self
 value
 )
@@ -13432,7 +13414,6 @@ document
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13480,7 +13461,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13650,7 +13630,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13695,7 +13674,6 @@ r
 .
 register_named_element
 (
-*
 self
 value
 )
@@ -13776,7 +13754,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -13821,7 +13798,6 @@ r
 .
 unregister_named_element
 (
-*
 self
 value
 )
@@ -15124,9 +15100,6 @@ a
 fn
 as_maybe_activatable
 (
-&
-'
-a
 self
 )
 -
@@ -15213,9 +15186,6 @@ Element
 fn
 as_maybe_activatable
 (
-&
-'
-a
 self
 )
 -
@@ -15241,7 +15211,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -15280,7 +15249,7 @@ element
 HTMLInputElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 self
 )
@@ -15329,7 +15298,7 @@ element
 HTMLAnchorElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 self
 )

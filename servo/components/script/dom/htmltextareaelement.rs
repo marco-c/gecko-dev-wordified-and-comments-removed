@@ -1953,15 +1953,8 @@ r
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLTextAreaElement
 {
 fn
@@ -1990,13 +1983,12 @@ let
 htmlelement
 :
 &
-&
 HTMLElement
 =
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -2068,7 +2060,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2261,7 +2252,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2375,7 +2365,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2502,7 +2491,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2676,7 +2664,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -2693,7 +2680,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -2797,7 +2783,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 ;
@@ -2832,7 +2817,6 @@ window
 get_cx
 (
 )
-*
 self
 chan
 .

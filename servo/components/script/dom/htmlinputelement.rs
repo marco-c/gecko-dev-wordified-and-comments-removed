@@ -3664,15 +3664,8 @@ force_relayout
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLInputElement
 {
 fn
@@ -3701,13 +3694,12 @@ let
 htmlelement
 :
 &
-&
 HTMLElement
 =
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -3779,7 +3771,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -4308,7 +4299,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -4443,7 +4433,6 @@ InputRadio
 {
 broadcast_radio_checked
 (
-*
 self
 self
 .
@@ -4697,7 +4686,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -4748,7 +4736,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -4924,7 +4911,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -4941,7 +4927,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -5181,15 +5166,8 @@ self
 }
 }
 impl
-<
-'
-a
->
 Activatable
 for
-&
-'
-a
 HTMLInputElement
 {
 fn
@@ -5216,7 +5194,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 }
@@ -5768,7 +5745,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -6892,7 +6868,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 ;
@@ -6940,7 +6915,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6999,7 +6973,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7074,7 +7047,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;
@@ -7130,7 +7102,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;

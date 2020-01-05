@@ -4415,15 +4415,8 @@ Element
 ;
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLFormElement
 {
 fn
@@ -4453,7 +4446,7 @@ Some
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
