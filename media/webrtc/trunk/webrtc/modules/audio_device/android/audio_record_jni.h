@@ -212,6 +212,11 @@ AudioRecordJni
 (
 )
 ;
+void
+EnsureRecordObject
+(
+)
+;
 int32_t
 Init
 (
