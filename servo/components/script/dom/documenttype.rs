@@ -107,6 +107,15 @@ str
 :
 DOMString
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -222,7 +231,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -235,7 +244,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )

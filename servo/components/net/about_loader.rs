@@ -50,6 +50,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 io
 :
 :
@@ -178,7 +187,7 @@ RawStatus
 OK
 "
 .
-into_string
+to_owned
 (
 )
 )

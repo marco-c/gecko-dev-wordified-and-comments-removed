@@ -10,6 +10,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 hash
 :
 :
@@ -752,7 +761,7 @@ new
 (
 s
 .
-into_string
+to_owned
 (
 )
 .

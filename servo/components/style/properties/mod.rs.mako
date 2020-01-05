@@ -89,6 +89,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 fmt
 ;
 use
@@ -7782,6 +7791,15 @@ computed_as_specified
 as
 to_computed_value
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 mod
 computed_value
@@ -8029,7 +8047,7 @@ FamilyName
 serif
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -19699,7 +19717,7 @@ Some
 inherit
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -19821,7 +19839,7 @@ name
 }
 "
 .
-into_string
+to_owned
 (
 )
 %
@@ -19834,7 +19852,7 @@ _
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -24618,7 +24636,7 @@ name
 }
 "
 .
-into_string
+to_owned
 (
 )
 %

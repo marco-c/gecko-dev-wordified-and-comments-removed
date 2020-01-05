@@ -198,6 +198,15 @@ ascii
 OwnedAsciiExt
 ;
 use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
+use
 servo_util
 :
 :
@@ -605,7 +614,7 @@ _
 submit
 "
 .
-into_string
+to_owned
 (
 )
 }

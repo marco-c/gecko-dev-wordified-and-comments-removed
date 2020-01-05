@@ -233,6 +233,15 @@ string_cache
 :
 Atom
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -603,7 +612,7 @@ select
 multiple
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -615,7 +624,7 @@ select
 one
 "
 .
-into_string
+to_owned
 (
 )
 }

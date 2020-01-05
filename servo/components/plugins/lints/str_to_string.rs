@@ -50,7 +50,7 @@ a
 String
 could
 use
-into_string
+to_owned
 (
 )
 instead
@@ -159,7 +159,7 @@ span
 "
 str
 .
-into_string
+to_owned
 (
 )
 is

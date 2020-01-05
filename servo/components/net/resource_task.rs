@@ -89,6 +89,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 comm
 :
 :
@@ -308,7 +317,7 @@ RawStatus
 OK
 "
 .
-into_string
+to_owned
 (
 )
 )

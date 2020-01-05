@@ -179,6 +179,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -304,7 +313,7 @@ new
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -318,7 +327,7 @@ new
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -621,7 +630,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -644,7 +653,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 Some

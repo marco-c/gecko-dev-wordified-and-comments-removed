@@ -320,6 +320,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -629,7 +638,7 @@ Multiple
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1287,7 +1296,7 @@ DOMString
 textarea
 "
 .
-into_string
+to_owned
 (
 )
 }

@@ -28,6 +28,15 @@ CTFont
 use
 core_text
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 struct
 FontTemplateData
@@ -183,7 +192,7 @@ identifier
 :
 identifier
 .
-into_string
+to_owned
 (
 )
 }

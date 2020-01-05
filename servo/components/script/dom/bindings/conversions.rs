@@ -238,6 +238,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 default
 ;
 use
@@ -1888,7 +1897,7 @@ Ok
 "
 "
 .
-into_string
+to_owned
 (
 )
 )

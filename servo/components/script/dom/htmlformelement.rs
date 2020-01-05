@@ -343,6 +343,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -1527,7 +1536,7 @@ r
 submit
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles
@@ -1812,7 +1821,7 @@ _
 "
 "
 .
-into_string
+to_owned
 (
 )
 /
@@ -2149,7 +2158,7 @@ buf
 "
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -2656,7 +2665,7 @@ value
 on
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -3052,7 +3061,7 @@ r
 reset
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles
@@ -4248,7 +4257,7 @@ map_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 |

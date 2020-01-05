@@ -10,6 +10,15 @@ any
 :
 Any
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 cfg
@@ -429,7 +438,7 @@ None
 unknown
 "
 .
-into_string
+to_owned
 (
 )
 }

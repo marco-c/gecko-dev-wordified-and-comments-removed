@@ -105,6 +105,15 @@ Url
 UrlParser
 }
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 fn
 factory
@@ -634,7 +643,7 @@ Accept
 Encoding
 "
 .
-into_string
+to_owned
 (
 )
 vec

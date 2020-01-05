@@ -194,6 +194,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 collections
 :
 :
@@ -1024,7 +1033,7 @@ unwrap_or
 blob
 "
 .
-into_string
+to_owned
 (
 )
 )

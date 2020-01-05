@@ -13,6 +13,15 @@ servo_util
 :
 opts
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 fn
 Product
@@ -26,7 +35,7 @@ DOMString
 Gecko
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -54,7 +63,7 @@ DOMString
 Netscape
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -71,7 +80,7 @@ DOMString
 Mozilla
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -87,7 +96,7 @@ DOMString
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -128,7 +137,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 }

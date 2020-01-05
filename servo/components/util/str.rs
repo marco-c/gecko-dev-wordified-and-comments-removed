@@ -27,6 +27,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 iter
 :
 :
@@ -132,7 +141,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 }

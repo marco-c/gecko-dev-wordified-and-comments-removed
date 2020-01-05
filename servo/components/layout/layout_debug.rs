@@ -22,6 +22,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -572,7 +581,7 @@ new
 root
 "
 .
-into_string
+to_owned
 (
 )
 flow_trace

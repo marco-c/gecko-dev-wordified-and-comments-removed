@@ -186,6 +186,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -946,7 +955,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -969,7 +978,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -1145,7 +1154,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -1191,7 +1200,7 @@ Some
 (
 url
 .
-into_string
+to_owned
 (
 )
 )
@@ -1548,7 +1557,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 name

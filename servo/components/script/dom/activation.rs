@@ -104,6 +104,15 @@ node
 :
 window_from_node
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 trait
 Activatable
@@ -279,7 +288,7 @@ r
 click
 "
 .
-into_string
+to_owned
 (
 )
 false

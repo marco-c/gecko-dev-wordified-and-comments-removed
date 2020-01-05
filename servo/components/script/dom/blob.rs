@@ -116,6 +116,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cmp
 :
 :
@@ -269,7 +278,7 @@ typeString
 :
 typeString
 .
-into_string
+to_owned
 (
 )
 global
@@ -706,7 +715,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 Some
@@ -733,7 +742,7 @@ to_ascii_lower
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -742,7 +751,7 @@ else
 "
 "
 .
-into_string
+to_owned
 (
 )
 }

@@ -12,6 +12,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 mem
 ;
 use
@@ -1036,7 +1045,7 @@ text
 :
 text
 .
-into_string
+to_owned
 (
 )
 options

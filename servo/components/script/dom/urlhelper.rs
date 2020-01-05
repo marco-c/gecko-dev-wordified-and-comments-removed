@@ -13,6 +13,15 @@ url
 :
 Url
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 struct
 UrlHelper
@@ -63,7 +72,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 Some
@@ -86,7 +95,7 @@ as_slice
 "
 "
 .
-into_string
+to_owned
 (
 )
 Some
@@ -132,7 +141,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 Some
@@ -155,7 +164,7 @@ as_slice
 "
 "
 .
-into_string
+to_owned
 (
 )
 Some

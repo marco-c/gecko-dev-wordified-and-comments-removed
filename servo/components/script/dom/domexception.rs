@@ -112,6 +112,15 @@ str
 :
 DOMString
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 repr
@@ -1084,7 +1093,7 @@ failed
 ;
 message
 .
-into_string
+to_owned
 (
 )
 }

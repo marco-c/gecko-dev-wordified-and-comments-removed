@@ -110,6 +110,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 rc
 :
 :
@@ -874,7 +883,7 @@ name
 (
 )
 .
-into_string
+to_owned
 (
 )
 desc
@@ -948,7 +957,7 @@ name
 (
 )
 .
-into_string
+to_owned
 (
 )
 font
@@ -992,7 +1001,7 @@ name
 (
 )
 .
-into_string
+to_owned
 (
 )
 font
