@@ -150,7 +150,7 @@ _bit
 )
 {
 \
-PR_LogPrint
+printf_stderr
 _args
 ;
 \

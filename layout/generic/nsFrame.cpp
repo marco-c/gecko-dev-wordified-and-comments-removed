@@ -50367,7 +50367,7 @@ tagbuf
 tagbuf
 )
 ;
-PR_LogPrint
+printf_stderr
 (
 "
 %
@@ -50435,7 +50435,7 @@ tagbuf
 tagbuf
 )
 ;
-PR_LogPrint
+printf_stderr
 (
 "
 %
@@ -50562,7 +50562,7 @@ tagbuf
 tagbuf
 )
 ;
-PR_LogPrint
+printf_stderr
 (
 "
 %

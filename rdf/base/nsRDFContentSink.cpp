@@ -1736,7 +1736,13 @@ ToNewCString
 tagStr
 )
 ;
-PR_LogPrint
+MOZ_LOG
+(
+gLog
+LogLevel
+:
+:
+Warning
 (
 "
 rdfxml
@@ -1755,6 +1761,7 @@ d
 "
 tagCStr
 0
+)
 )
 ;
 free
