@@ -4683,6 +4683,11 @@ stroke_line
 (
 start
 end
+PatternRef
+:
+:
+Color
+(
 &
 ColorPattern
 :
@@ -4690,6 +4695,7 @@ ColorPattern
 new
 (
 color
+)
 )
 &
 stroke_opts
