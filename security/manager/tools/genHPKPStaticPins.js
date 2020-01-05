@@ -2685,7 +2685,7 @@ expirationMillis
 return
 "
 static
-const
+constexpr
 PRTime
 kPreloadPKPinsExpirationTime
 =
@@ -2795,10 +2795,10 @@ writeString
 (
 "
 static
+constexpr
 const
 char
 *
-const
 "
 +
 varPrefix
@@ -2935,7 +2935,7 @@ writeString
 (
 "
 static
-const
+constexpr
 StaticFingerprints
 "
 +
@@ -3251,7 +3251,7 @@ writeString
 (
 "
 static
-const
+constexpr
 TransportSecurityPreload
 "
 +
@@ -3450,7 +3450,7 @@ writeString
 "
 \
 nstatic
-const
+constexpr
 int32_t
 kUnknownId
 =
@@ -3615,7 +3615,7 @@ writeString
 (
 "
 static
-const
+constexpr
 char
 "
 +

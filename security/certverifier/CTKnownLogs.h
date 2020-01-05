@@ -78,7 +78,7 @@ id
 ;
 }
 ;
-const
+constexpr
 CTLogInfo
 kCTLogList
 [
@@ -3515,7 +3515,7 @@ x51
 }
 }
 ;
-const
+constexpr
 CTLogOperatorInfo
 kCTLogOperatorList
 [

@@ -15,7 +15,7 @@ CNNIC_WHITELIST_HASH_LEN
 }
 ;
 static
-const
+constexpr
 struct
 WhitelistedCNNICHash
 WhitelistedCNNICHashes

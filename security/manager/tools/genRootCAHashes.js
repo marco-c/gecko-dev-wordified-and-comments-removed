@@ -815,7 +815,7 @@ n
 +
 "
 static
-const
+constexpr
 struct
 CertAuthorityHash
 ROOT_TABLE
