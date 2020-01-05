@@ -291,10 +291,10 @@ USECS_PER_S
 ;
 #
 undef
-DECODER_LOG
+LOG
 #
 undef
-DUMP_LOG
+DUMP
 LazyLogModule
 gMediaDecoderLog
 (
@@ -305,7 +305,7 @@ MediaDecoder
 ;
 #
 define
-DECODER_LOG
+LOG
 (
 x
 .
@@ -336,7 +336,7 @@ __VA_ARGS__
 )
 #
 define
-DUMP_LOG
+DUMP
 (
 x
 .
@@ -3193,7 +3193,7 @@ NS_IsMainThread
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 SetMinimizePrerollUntilPlaybackStarts
@@ -3815,7 +3815,7 @@ IsShutdown
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 MetadataLoaded
@@ -4109,7 +4109,7 @@ codec
 codecs
 )
 {
-DECODER_LOG
+LOG
 (
 "
 Telemetry
@@ -4202,7 +4202,7 @@ IsShutdown
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 FirstFrameLoaded
@@ -4574,7 +4574,7 @@ mPlayState
 PLAY_STATE_LOADING
 )
 {
-DECODER_LOG
+LOG
 (
 "
 MediaDecoder
@@ -4608,7 +4608,7 @@ mPlayState
 return
 ;
 }
-DECODER_LOG
+LOG
 (
 "
 MediaDecoder
@@ -5016,7 +5016,7 @@ IsShutdown
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 "
 NotifyDownloadEnded
@@ -5362,7 +5362,7 @@ mNextState
 PLAY_STATE_PAUSED
 ;
 }
-DECODER_LOG
+LOG
 (
 "
 ChangeState
@@ -5630,7 +5630,7 @@ mDuration
 return
 ;
 }
-DECODER_LOG
+LOG
 (
 "
 Duration
@@ -8035,7 +8035,7 @@ GetStateMachine
 )
 )
 {
-DUMP_LOG
+DUMP
 (
 "
 %
@@ -8094,7 +8094,7 @@ nsACString
 aString
 )
 {
-DUMP_LOG
+DUMP
 (
 "
 %
@@ -8107,7 +8107,7 @@ get
 )
 )
 ;
-DUMP_LOG
+DUMP
 (
 "
 %
@@ -8129,7 +8129,7 @@ str
 (
 )
 {
-DUMP_LOG
+DUMP
 (
 "
 %
@@ -8340,7 +8340,10 @@ this
 }
 #
 undef
-DECODER_LOG
+DUMP
+#
+undef
+LOG
 #
 undef
 NS_DispatchToMainThread
