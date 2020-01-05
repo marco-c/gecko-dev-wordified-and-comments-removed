@@ -797,6 +797,15 @@ f32
 >
 u32
 )
+BufferSubData
+(
+u32
+isize
+Vec
+<
+f32
+>
+)
 Clear
 (
 u32
