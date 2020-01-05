@@ -4336,6 +4336,11 @@ panic
 (
 )
 ;
+GlobalScope
+entryGlobal
+(
+)
+;
 }
 ;
 callback
