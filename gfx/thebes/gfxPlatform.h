@@ -626,7 +626,7 @@ aFormat
 =
 0
 ;
-virtual
+static
 already_AddRefed
 <
 DrawTarget
