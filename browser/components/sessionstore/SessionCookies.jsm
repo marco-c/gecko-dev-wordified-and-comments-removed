@@ -447,6 +447,13 @@ cookies
 cookieExists
 (
 cookieObj
+cookie
+.
+originAttributes
+|
+|
+{
+}
 )
 )
 {
