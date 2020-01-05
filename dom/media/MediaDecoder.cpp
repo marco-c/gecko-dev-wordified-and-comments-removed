@@ -2355,6 +2355,15 @@ Close
 )
 ;
 }
+GetOwner
+(
+)
+-
+>
+RemoveMediaTracks
+(
+)
+;
 ChangeState
 (
 PLAY_STATE_SHUTDOWN
