@@ -2325,6 +2325,13 @@ PrefixMatch
 :
 eMatchV4Prefix
 ;
+result
+-
+>
+mProtocolV2
+=
+false
+;
 }
 else
 {
@@ -2335,6 +2342,13 @@ PrefixMatch
 :
 :
 eMatchV2Prefix
+;
+result
+-
+>
+mProtocolV2
+=
+true
 ;
 }
 }

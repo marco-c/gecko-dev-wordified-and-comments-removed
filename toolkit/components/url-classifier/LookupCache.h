@@ -117,6 +117,10 @@ mConfirmed
 (
 false
 )
+mProtocolV2
+(
+true
+)
 {
 }
 union
@@ -269,6 +273,9 @@ mPartialHashLength
 ;
 bool
 mConfirmed
+;
+bool
+mProtocolV2
 ;
 }
 ;
