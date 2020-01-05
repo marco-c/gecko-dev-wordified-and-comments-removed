@@ -57,7 +57,10 @@ comm
 :
 chan
 <
-osmain_msg
+osmain
+:
+:
+msg
 >
 )
 -
@@ -94,7 +97,10 @@ comm
 send
 (
 osmain_ch
-om_get_draw_target
+osmain
+:
+:
+get_draw_target
 (
 comm
 :
@@ -516,7 +522,10 @@ comm
 send
 (
 osmain_ch
-om_draw
+osmain
+:
+:
+draw
 (
 comm
 :
