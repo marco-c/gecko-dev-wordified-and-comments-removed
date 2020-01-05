@@ -64,6 +64,12 @@ SIMD
 '
 undefined
 '
+|
+|
+!
+isAsmJSCompilationAvailable
+(
+)
 )
 {
 DEBUG

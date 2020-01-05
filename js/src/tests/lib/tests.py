@@ -255,6 +255,13 @@ asmjs
 -
 no
 -
+wasm
+'
+'
+-
+-
+no
+-
 native
 -
 regexp

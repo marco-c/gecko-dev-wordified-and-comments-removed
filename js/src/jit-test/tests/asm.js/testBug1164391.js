@@ -4,6 +4,12 @@ if
 this
 .
 SharedArrayBuffer
+|
+|
+!
+isAsmJSCompilationAvailable
+(
+)
 )
 quit
 (

@@ -10,6 +10,12 @@ SharedArrayBuffer
 this
 .
 Atomics
+|
+|
+!
+isAsmJSCompilationAvailable
+(
+)
 )
 quit
 (
