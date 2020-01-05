@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-include
-protocol
-PBlob
-;
 namespace
 mozilla
 {
