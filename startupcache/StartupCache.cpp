@@ -2473,7 +2473,7 @@ aStream
 #
 ifdef
 DEBUG
-StartupCacheDebugOutputStream
+auto
 *
 stream
 =
