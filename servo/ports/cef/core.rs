@@ -714,9 +714,11 @@ slice
 ffi
 :
 :
-c_str_to_bytes
+CStr
+:
+:
+from_ptr
 (
-&
 message
 )
 ;
@@ -733,6 +735,10 @@ str
 from_utf8
 (
 slice
+.
+to_bytes
+(
+)
 )
 .
 unwrap
