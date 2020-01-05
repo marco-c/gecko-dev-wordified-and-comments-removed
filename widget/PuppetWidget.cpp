@@ -937,6 +937,10 @@ wasVisible
 mVisible
 )
 {
+mPreviouslyAttachedWidgetListener
+=
+nullptr
+;
 Resize
 (
 mBounds
