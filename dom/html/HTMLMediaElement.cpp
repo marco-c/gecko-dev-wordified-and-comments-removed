@@ -6386,6 +6386,14 @@ UpdateAudioChannelPlayingState
 (
 )
 ;
+RejectPromises
+(
+TakePendingPlayPromises
+(
+)
+NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR
+)
+;
 }
 typedef
 void
