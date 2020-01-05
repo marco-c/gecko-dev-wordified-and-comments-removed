@@ -758,7 +758,7 @@ name_
 GET_AND_SET
 (
 TimeStamp
-StartTime
+ProcessStartTime
 )
 GET_AND_SET
 (
@@ -1033,7 +1033,7 @@ mozilla
 :
 :
 TimeStamp
-mStartTime
+mProcessStartTime
 ;
 int
 mEntries
@@ -4583,7 +4583,7 @@ mTimeStamp
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 aLock
 )
@@ -5314,7 +5314,7 @@ GetLoggedData
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 aLock
 )
@@ -5697,7 +5697,7 @@ Now
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 aLock
 )
@@ -6476,7 +6476,7 @@ aWriter
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 aLock
 )
@@ -6557,7 +6557,7 @@ aWriter
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 aLock
 )
@@ -6796,7 +6796,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -6847,7 +6847,7 @@ mPayload
 StreamPayload
 (
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -7571,7 +7571,7 @@ ThreadId
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 lock
 )
@@ -9087,7 +9087,7 @@ ignore
 gPS
 -
 >
-SetStartTime
+SetProcessStartTime
 (
 lock
 mozilla
@@ -10574,27 +10574,6 @@ gPS
 IsActive
 (
 aLock
-)
-)
-;
-bool
-ignore
-;
-gPS
--
->
-SetStartTime
-(
-aLock
-mozilla
-:
-:
-TimeStamp
-:
-:
-ProcessCreation
-(
-ignore
 )
 )
 ;
@@ -12784,7 +12763,7 @@ Now
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 lock
 )
@@ -13431,7 +13410,7 @@ origin
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 aLock
 )
@@ -13848,7 +13827,7 @@ lock
 gPS
 -
 >
-StartTime
+ProcessStartTime
 (
 lock
 )
