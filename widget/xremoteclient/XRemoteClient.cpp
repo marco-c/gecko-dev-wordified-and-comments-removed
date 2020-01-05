@@ -1475,7 +1475,7 @@ True
 ;
 while
 (
-1
+true
 )
 {
 XEvent
