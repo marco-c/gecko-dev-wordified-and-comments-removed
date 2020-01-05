@@ -440,12 +440,13 @@ B
 ENTITY
 loaddevice
 .
-title
+title2
 "
 Load
 PKCS
 #
 11
 Device
+Driver
 "
 >
