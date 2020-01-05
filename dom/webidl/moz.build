@@ -6130,11 +6130,6 @@ DeviceProximityEvent
 webidl
 '
 '
-DeviceStorageAreaChangedEvent
-.
-webidl
-'
-'
 DeviceStorageChangeEvent
 .
 webidl

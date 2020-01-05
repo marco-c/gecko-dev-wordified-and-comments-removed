@@ -571,16 +571,6 @@ DeviceProximityEvent
 name
 :
 "
-DeviceStorageAreaChangedEvent
-"
-desktop
-:
-false
-}
-{
-name
-:
-"
 DeviceStorageAreaListener
 "
 desktop
