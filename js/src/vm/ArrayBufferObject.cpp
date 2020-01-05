@@ -8478,7 +8478,7 @@ ArrayBufferObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -8517,7 +8517,7 @@ isPlain
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -8539,7 +8539,7 @@ isDetached
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
