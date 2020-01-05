@@ -285,7 +285,7 @@ error
 .
 name
 '
-InvalidAccessError
+TypeError
 '
 )
 ;

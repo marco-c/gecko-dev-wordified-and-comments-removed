@@ -222,7 +222,7 @@ error
 .
 name
 '
-InvalidAccessError
+TypeError
 '
 )
 ;
