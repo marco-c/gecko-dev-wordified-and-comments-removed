@@ -5,3 +5,10 @@ alert
 ClientRect
 )
 ;
+window
+.
+alert
+(
+ClientRectList
+)
+;

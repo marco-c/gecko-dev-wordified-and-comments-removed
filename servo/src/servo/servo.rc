@@ -212,6 +212,10 @@ utils
 ;
 pub
 mod
+conversions
+;
+pub
+mod
 window
 ;
 pub
@@ -220,7 +224,15 @@ clientrect
 ;
 pub
 mod
+clientrectlist
+;
+pub
+mod
 ClientRectBinding
+;
+pub
+mod
+ClientRectListBinding
 ;
 }
 pub

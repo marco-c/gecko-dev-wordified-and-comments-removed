@@ -8,6 +8,13 @@ h
 #
 include
 "
+ClientRectListBinding
+.
+h
+"
+#
+include
+"
 nsScriptNameSpaceManager
 .
 h
@@ -57,6 +64,12 @@ _pref_check
 REGISTER_PROTO
 (
 ClientRect
+nullptr
+)
+;
+REGISTER_PROTO
+(
+ClientRectList
 nullptr
 )
 ;
