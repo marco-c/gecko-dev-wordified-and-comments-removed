@@ -2574,6 +2574,12 @@ typeMonitorResult
 ;
 trackAttached
 (
+handleMissing
+?
+"
+MegamorphicMissingNativeSlot
+"
+:
 "
 MegamorphicNativeSlot
 "
