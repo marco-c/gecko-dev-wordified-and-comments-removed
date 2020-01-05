@@ -3015,6 +3015,11 @@ IsAllowedToPlay
 (
 )
 ;
+bool
+IsAllowedToPlayByAudioChannel
+(
+)
+;
 void
 MaybeDoLoad
 (
