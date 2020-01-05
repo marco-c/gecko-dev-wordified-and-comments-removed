@@ -53,7 +53,7 @@ config
 /
 mozconfigs
 /
-linux64
+linux32
 /
 l10n
 -
