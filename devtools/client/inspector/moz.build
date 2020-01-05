@@ -93,13 +93,6 @@ js
 '
 inspector
 -
-panel
-.
-js
-'
-'
-inspector
--
 search
 .
 js
@@ -108,6 +101,11 @@ js
 inspector
 .
 xhtml
+'
+'
+panel
+.
+js
 '
 '
 toolsidebar
