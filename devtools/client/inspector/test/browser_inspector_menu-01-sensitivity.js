@@ -119,6 +119,13 @@ node
 -
 menu
 -
+copycsspath
+"
+"
+node
+-
+menu
+-
 copyimagedatauri
 "
 "

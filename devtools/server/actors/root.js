@@ -281,6 +281,9 @@ true
 getUniqueSelector
 :
 true
+getCssPath
+:
+true
 directorScripts
 :
 true
