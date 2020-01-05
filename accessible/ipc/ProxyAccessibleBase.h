@@ -409,6 +409,15 @@ SetChildDoc
 (
 DocAccessibleParent
 *
+aChildDoc
+)
+;
+void
+ClearChildDoc
+(
+DocAccessibleParent
+*
+aChildDoc
 )
 ;
 void
