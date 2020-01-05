@@ -3058,6 +3058,11 @@ nsTextEditorState
 :
 :
 eSetValue_ByContent
+|
+nsTextEditorState
+:
+:
+eSetValue_Notify
 )
 ;
 }
