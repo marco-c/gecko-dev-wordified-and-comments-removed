@@ -413,7 +413,7 @@ JSTracer
 const
 barrierTracer_
 ;
-bool
+uint32_t
 needsIncrementalBarrier_
 ;
 GCState
@@ -439,7 +439,7 @@ barrierTracerArg
 )
 needsIncrementalBarrier_
 (
-false
+0
 )
 gcState_
 (

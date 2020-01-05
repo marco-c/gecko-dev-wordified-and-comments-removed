@@ -387,15 +387,6 @@ return
 state_
 ;
 }
-void
-togglePreBarriers
-(
-bool
-enabled
-ReprotectCode
-reprotect
-)
-;
 CacheKind
 kind
 (

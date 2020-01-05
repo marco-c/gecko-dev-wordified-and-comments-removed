@@ -1073,7 +1073,7 @@ lr
 ;
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 addr
 type

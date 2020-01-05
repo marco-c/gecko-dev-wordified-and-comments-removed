@@ -1149,10 +1149,6 @@ zone
 setNeedsIncrementalBarrier
 (
 true
-Zone
-:
-:
-UpdateJit
 )
 ;
 zone
@@ -1655,10 +1651,6 @@ zone
 setNeedsIncrementalBarrier
 (
 false
-Zone
-:
-:
-UpdateJit
 )
 ;
 }

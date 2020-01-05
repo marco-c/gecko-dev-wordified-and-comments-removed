@@ -1203,7 +1203,7 @@ ra
 ;
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 addr
 type

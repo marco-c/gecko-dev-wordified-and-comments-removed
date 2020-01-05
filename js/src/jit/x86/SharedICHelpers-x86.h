@@ -1070,7 +1070,7 @@ type
 {
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 addr
 type

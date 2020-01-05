@@ -1485,17 +1485,6 @@ MOZ_CRASH
 ;
 }
 void
-writePrebarrierOffset
-(
-CodeOffset
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-void
 finish
 (
 )

@@ -22788,10 +22788,6 @@ zone
 setNeedsIncrementalBarrier
 (
 false
-Zone
-:
-:
-UpdateJit
 )
 ;
 zone
@@ -29405,10 +29401,6 @@ zone
 setNeedsIncrementalBarrier
 (
 false
-Zone
-:
-:
-UpdateJit
 )
 ;
 zone
@@ -29931,10 +29923,6 @@ zone
 setNeedsIncrementalBarrier
 (
 false
-Zone
-:
-:
-DontUpdateJit
 )
 ;
 }
@@ -30001,10 +29989,6 @@ zone
 setNeedsIncrementalBarrier
 (
 true
-Zone
-:
-:
-UpdateJit
 )
 ;
 zone
@@ -30025,10 +30009,6 @@ zone
 setNeedsIncrementalBarrier
 (
 false
-Zone
-:
-:
-UpdateJit
 )
 ;
 }
