@@ -311,6 +311,7 @@ StreamRecyclerAdapter
 (
 )
 ;
+final
 RecyclerView
 rv
 =
