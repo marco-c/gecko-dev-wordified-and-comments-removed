@@ -235,7 +235,6 @@ nudge
 ;
 if
 (
-(
 distance_from_ref
 <
 outer_radius
@@ -244,7 +243,6 @@ outer_radius
 distance_from_ref
 >
 inner_radius
-)
 )
 {
 return
@@ -291,6 +289,8 @@ out
 to
 transparent
 .
+/
+/
 distance_from_border
 -
 =

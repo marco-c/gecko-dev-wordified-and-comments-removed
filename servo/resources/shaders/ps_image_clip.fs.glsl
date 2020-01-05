@@ -114,11 +114,11 @@ of
 repeat
 .
 vec2
-pos_for_texture
+relative_pos_in_rect
 =
 clamp
 (
-pos
+local_pos
 vLocalRect
 .
 xy

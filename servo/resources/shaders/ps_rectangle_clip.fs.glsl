@@ -62,9 +62,6 @@ main
 void
 )
 {
-#
-ifdef
-WR_FEATURE_TRANSFORM
 float
 alpha
 =
@@ -72,6 +69,9 @@ alpha
 .
 f
 ;
+#
+ifdef
+WR_FEATURE_TRANSFORM
 vec2
 local_pos
 =
@@ -84,13 +84,6 @@ alpha
 ;
 #
 else
-float
-alpha
-=
-1
-.
-f
-;
 vec2
 local_pos
 =
