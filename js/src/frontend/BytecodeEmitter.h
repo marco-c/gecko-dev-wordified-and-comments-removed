@@ -1189,7 +1189,7 @@ cx
 ;
 inline
 TokenStream
-*
+&
 tokenStream
 (
 )

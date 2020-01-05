@@ -4006,6 +4006,16 @@ ParseNode
 pn
 )
 {
+AutoTraceLog
+traceLog
+(
+TraceLoggerForCurrentThread
+(
+cx
+)
+TraceLogger_BytecodeNameFunctions
+)
+;
 NameResolver
 nr
 (
