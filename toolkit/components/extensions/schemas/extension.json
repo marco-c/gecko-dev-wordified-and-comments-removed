@@ -56,6 +56,9 @@ allowedContexts
 "
 content
 "
+"
+devtools
+"
 ]
 "
 description
@@ -146,6 +149,9 @@ allowedContexts
 [
 "
 content
+"
+"
+devtools
 "
 ]
 "
@@ -262,6 +268,9 @@ allowedContexts
 "
 content
 "
+"
+devtools
+"
 ]
 "
 description
@@ -377,6 +386,9 @@ allowedContexts
 [
 "
 content
+"
+"
+devtools
 "
 ]
 "

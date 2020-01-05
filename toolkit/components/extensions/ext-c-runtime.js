@@ -602,3 +602,16 @@ content_child
 runtimeApiFactory
 )
 ;
+extensions
+.
+registerSchemaAPI
+(
+"
+runtime
+"
+"
+devtools_child
+"
+runtimeApiFactory
+)
+;

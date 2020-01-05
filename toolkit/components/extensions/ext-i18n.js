@@ -169,3 +169,16 @@ content_child
 i18nApiFactory
 )
 ;
+extensions
+.
+registerSchemaAPI
+(
+"
+i18n
+"
+"
+devtools_child
+"
+i18nApiFactory
+)
+;

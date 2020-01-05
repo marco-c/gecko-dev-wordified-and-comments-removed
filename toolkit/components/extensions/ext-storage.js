@@ -391,3 +391,16 @@ content_parent
 storageApiFactory
 )
 ;
+extensions
+.
+registerSchemaAPI
+(
+"
+storage
+"
+"
+devtools_parent
+"
+storageApiFactory
+)
+;
