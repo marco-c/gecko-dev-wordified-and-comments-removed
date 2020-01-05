@@ -105,6 +105,9 @@ serde
 serde_derive
 "
 "
+heapsize
+"
+"
 heapsize_derive
 "
 "
@@ -227,6 +230,9 @@ fnv
 "
 heapsize
 =
+{
+version
+=
 "
 0
 .
@@ -234,6 +240,10 @@ heapsize
 .
 0
 "
+optional
+=
+true
+}
 heapsize_derive
 =
 {
