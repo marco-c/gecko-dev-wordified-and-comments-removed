@@ -153,8 +153,9 @@ private
 nsUnixSystemProxySettings
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIGConfService

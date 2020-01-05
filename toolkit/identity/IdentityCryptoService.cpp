@@ -669,8 +669,9 @@ NS_DECL_NSIIDENTITYCRYPTOSERVICE
 IdentityCryptoService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Init
 (
@@ -716,8 +717,9 @@ private
 IdentityCryptoService
 (
 )
-{
-}
+=
+default
+;
 IdentityCryptoService
 (
 const
