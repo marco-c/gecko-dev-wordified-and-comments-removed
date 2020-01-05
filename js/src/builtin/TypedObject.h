@@ -79,15 +79,12 @@ T
 (
 )
 )
-{
 return
 T
 (
 d
 )
 ;
-}
-else
 if
 (
 TypeIsUnsigned
@@ -116,8 +113,6 @@ n
 )
 ;
 }
-else
-{
 int32_t
 n
 =
@@ -135,7 +130,6 @@ T
 n
 )
 ;
-}
 }
 namespace
 type
