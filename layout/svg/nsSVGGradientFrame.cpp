@@ -102,6 +102,10 @@ nsSVGPaintServerFrame
 aContext
 aType
 )
+mSource
+(
+nullptr
+)
 mLoopFlag
 (
 false
