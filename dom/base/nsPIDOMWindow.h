@@ -2108,6 +2108,12 @@ return
 mInnerObjectsFreed
 ;
 }
+bool
+IsSecureContext
+(
+)
+const
+;
 protected
 :
 void
