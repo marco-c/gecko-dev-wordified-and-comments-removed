@@ -387,7 +387,7 @@ undef
 SLOG
 #
 undef
-SWARN
+SLOGW
 #
 define
 FMT
@@ -547,7 +547,7 @@ __VA_ARGS__
 )
 #
 define
-SWARN
+SLOGW
 (
 x
 .
@@ -1895,7 +1895,7 @@ Complete
 (
 )
 ;
-SWARN
+SLOGW
 (
 "
 Decode
@@ -5444,7 +5444,7 @@ ToMicroseconds
 )
 )
 {
-SWARN
+SLOGW
 (
 "
 Audio
@@ -5604,7 +5604,7 @@ aAudio
 mFrames
 )
 {
-SWARN
+SLOGW
 (
 "
 Can
@@ -17972,6 +17972,9 @@ LOGV
 #
 undef
 LOGW
+#
+undef
+SLOGW
 #
 undef
 NS_DispatchToMainThread
