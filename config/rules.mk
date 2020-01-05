@@ -3307,6 +3307,9 @@ RUST_LIBRARY_FILE
 (
 RUST_PROGRAMS
 )
+syms
+:
+:
 include
 (
 MOZILLA_DIR
