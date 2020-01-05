@@ -130,11 +130,6 @@ ExtensionStorage
 jsm
 '
 '
-ExtensionStorageSync
-.
-jsm
-'
-'
 ExtensionUtils
 .
 jsm
