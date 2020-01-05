@@ -169,7 +169,9 @@ _moz_user_select
 :
 parse
 "
-tri_state
+tri
+-
+state
 "
 )
 ;
