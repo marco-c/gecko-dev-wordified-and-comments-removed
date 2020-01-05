@@ -404,8 +404,6 @@ which
 we
 use
 see
-.
-/
 rust
 -
 snapshot

@@ -256,7 +256,7 @@ use
 smallvec
 :
 :
-SmallVec1
+SmallVec
 ;
 use
 msg
@@ -1308,9 +1308,13 @@ static
 >
 JSTraceable
 for
-SmallVec1
+SmallVec
 <
+[
 T
+;
+1
+]
 >
 {
 #

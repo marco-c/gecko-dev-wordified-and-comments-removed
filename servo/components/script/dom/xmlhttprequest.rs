@@ -7525,8 +7525,14 @@ r
 (
 )
 type_
-false
-false
+EventBubbles
+:
+:
+DoesNotBubble
+EventCancelable
+:
+:
+NotCancelable
 total
 .
 is_some
