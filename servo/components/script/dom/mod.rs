@@ -553,6 +553,10 @@ virtualmethods
 ;
 pub
 mod
+webglrenderingcontext
+;
+pub
+mod
 websocket
 ;
 pub

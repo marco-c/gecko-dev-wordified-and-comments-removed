@@ -52,3 +52,15 @@ libs
 /
 armeabi
 /
+-
+L
+GONKDIR
+/
+backup
+-
+flame
+/
+system
+/
+lib
+/
