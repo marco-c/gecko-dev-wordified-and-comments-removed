@@ -226,8 +226,11 @@ ReadMetadata
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+ReadMetadata
+"
 getter_AddRefs
 (
 thread
