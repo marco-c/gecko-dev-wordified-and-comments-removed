@@ -523,7 +523,6 @@ return
 INT64_MAX
 ;
 }
-else
 if
 (
 result
