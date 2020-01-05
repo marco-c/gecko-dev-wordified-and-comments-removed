@@ -686,6 +686,9 @@ logger
 buffering
 =
 True
+structured
+=
+True
 )
 :
         
@@ -694,6 +697,20 @@ self
 logger
 =
 logger
+        
+self
+.
+structured
+=
+structured
+        
+self
+.
+gecko_id
+=
+'
+GECKO
+'
         
 self
 .
@@ -722,7 +739,7 @@ errors
 ]
     
 def
-valid_message
+validate
 (
 self
 obj
@@ -732,8 +749,8 @@ obj
 "
 "
 "
-True
-if
+Tests
+whether
 the
 given
 object
@@ -754,7 +771,9 @@ validation
 "
 "
         
-return
+if
+not
+(
 isinstance
 (
 obj
@@ -769,7 +788,7 @@ obj
 and
 obj
 [
-            
+                
 '
 action
 '
@@ -778,6 +797,11 @@ in
 MessageLogger
 .
 VALID_ACTIONS
+)
+:
+            
+raise
+ValueError
     
 def
 _fix_test_name
@@ -1038,70 +1062,70 @@ loads
 fragment
 )
                 
-if
-not
 self
 .
-valid_message
+validate
 (
 message
-)
-:
-                    
-message
-=
-dict
-(
-                        
-action
-=
-'
-log
-'
-                        
-level
-=
-'
-info
-'
-                        
-message
-=
-fragment
-                        
-unstructured
-=
-True
 )
             
 except
 ValueError
 :
                 
+if
+self
+.
+structured
+:
+                    
 message
 =
 dict
 (
+                        
+action
+=
+'
+process_output
+'
+                        
+process
+=
+self
+.
+gecko_id
+                        
+data
+=
+fragment
                     
+)
+                
+else
+:
+                    
+message
+=
+dict
+(
+                        
 action
 =
 '
 log
 '
-                    
+                        
 level
 =
 '
 info
 '
-                    
+                        
 message
 =
 fragment
                     
-unstructured
-=
-True
 )
             
 self
@@ -1199,31 +1223,6 @@ buffering
 False
             
 return
-        
-unstructured
-=
-False
-        
-if
-'
-unstructured
-'
-in
-message
-:
-            
-unstructured
-=
-True
-            
-message
-.
-pop
-(
-'
-unstructured
-'
-)
         
 if
 (
@@ -1384,36 +1383,31 @@ message
 )
         
 elif
-any
-(
-[
-not
 self
 .
 buffering
-                  
-unstructured
-                  
+and
+self
+.
+structured
+and
 message
 [
 '
 action
 '
 ]
-not
 in
 self
 .
 BUFFERED_ACTIONS
-]
-)
 :
             
 self
 .
-logger
+buffered_messages
 .
-log_raw
+append
 (
 message
 )
@@ -1423,9 +1417,9 @@ else
             
 self
 .
-buffered_messages
+logger
 .
-append
+log_raw
 (
 message
 )
@@ -4987,6 +4981,7 @@ def
 __init__
 (
 self
+flavor
 logger_options
 quiet
 =
@@ -4999,6 +4994,12 @@ self
 update_mozinfo
 (
 )
+        
+self
+.
+flavor
+=
+flavor
         
 self
 .
@@ -5141,12 +5142,27 @@ self
 .
 log
         
+structured
+=
+not
+self
+.
+flavor
+.
+startswith
+(
+'
+jetpack
+'
+)
+        
 self
 .
 message_logger
 =
 MessageLogger
 (
+                
 logger
 =
 self
@@ -5155,6 +5171,9 @@ log
 buffering
 =
 quiet
+structured
+=
+structured
 )
         
 self
@@ -14104,18 +14123,36 @@ proc
 pid
 )
             
+gecko_id
+=
+"
+GECKO
+(
+%
+d
+)
+"
+%
+proc
+.
+pid
+            
 self
 .
 log
 .
 process_start
 (
-"
-Main
-app
-process
-"
+gecko_id
 )
+            
+self
+.
+message_logger
+.
+gecko_id
+=
+gecko_id
             
 marionette_args
 =
@@ -18218,6 +18255,9 @@ runner
 =
 MochitestDesktop
 (
+options
+.
+flavor
 logger_options
 quiet
 =

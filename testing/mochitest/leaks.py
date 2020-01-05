@@ -120,18 +120,26 @@ message
 )
 :
         
-if
+action
+=
 message
 [
 '
 action
 '
 ]
-=
-=
+        
+if
+action
+in
+(
 '
 log
 '
+'
+process_output
+'
+)
 :
             
 line
@@ -140,6 +148,20 @@ message
 [
 '
 message
+'
+]
+if
+action
+=
+=
+'
+log
+'
+else
+message
+[
+'
+data
 '
 ]
             
@@ -225,12 +247,7 @@ pid
 )
         
 elif
-message
-[
-'
 action
-'
-]
 =
 =
 '
@@ -294,12 +311,7 @@ set
 }
         
 elif
-message
-[
-'
 action
-'
-]
 =
 =
 '

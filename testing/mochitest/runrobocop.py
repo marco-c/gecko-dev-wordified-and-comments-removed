@@ -196,6 +196,9 @@ __init__
 (
 self
 options
+.
+flavor
+options
 )
         
 self
