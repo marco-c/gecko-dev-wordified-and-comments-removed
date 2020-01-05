@@ -100,11 +100,6 @@ nsIEventTarget
 idl
 '
 '
-nsIIdlePeriod
-.
-idl
-'
-'
 nsIProcess
 .
 idl
@@ -165,11 +160,6 @@ nsICancelableRunnable
 h
 '
 '
-nsIIncrementalRunnable
-.
-h
-'
-'
 nsMemoryPressure
 .
 h
@@ -213,11 +203,6 @@ h
 '
 '
 LazyIdleThread
-.
-h
-'
-'
-MainThreadIdlePeriod
 .
 h
 '
@@ -283,11 +268,6 @@ cpp
 '
 '
 LazyIdleThread
-.
-cpp
-'
-'
-MainThreadIdlePeriod
 .
 cpp
 '
