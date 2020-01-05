@@ -1824,7 +1824,7 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
 WrColor
 color
@@ -1840,7 +1840,7 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
 WrColor
 color
@@ -1866,7 +1866,7 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
 WrBorderSide
 top
@@ -1890,7 +1890,7 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
 WrPoint
 startPoint
@@ -1916,7 +1916,7 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
 WrPoint
 startCenter
@@ -1946,12 +1946,8 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
-const
-WrImageMask
-*
-mask
 WrImageRendering
 filter
 WrImageKey
@@ -1968,7 +1964,7 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
+WrClipRegion
 clip
 WrPipelineId
 layers_id
@@ -2002,7 +1998,7 @@ WrState
 wrState
 WrRect
 rect
-WrRect
+WrClipRegion
 clip
 WrRect
 box_bounds

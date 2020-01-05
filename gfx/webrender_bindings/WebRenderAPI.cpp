@@ -1805,7 +1805,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -1834,7 +1834,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -1891,7 +1891,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -1954,13 +1954,9 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
-const
-WrImageMask
-*
-aMask
 wr
 :
 :
@@ -1978,7 +1974,6 @@ wr_dp_push_image
 mWrState
 aBounds
 aClip
-aMask
 aFilter
 aImage
 )
@@ -1995,7 +1990,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 PipelineId
@@ -2022,7 +2017,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -2071,7 +2066,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -2131,7 +2126,7 @@ WrRect
 &
 aRect
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
