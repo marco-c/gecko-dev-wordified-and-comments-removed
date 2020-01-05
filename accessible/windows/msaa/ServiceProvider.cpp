@@ -66,9 +66,9 @@ h
 #
 include
 "
-ISimpleDOMNode_i
+ISimpleDOM
 .
-c
+h
 "
 namespace
 mozilla

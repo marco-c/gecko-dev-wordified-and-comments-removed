@@ -8,9 +8,9 @@ h
 #
 include
 "
-ISimpleDOMText_i
+ISimpleDOM
 .
-c
+h
 "
 #
 include

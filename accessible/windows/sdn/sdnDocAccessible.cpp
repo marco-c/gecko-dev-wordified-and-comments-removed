@@ -8,9 +8,9 @@ h
 #
 include
 "
-ISimpleDOMDocument_i
+ISimpleDOM
 .
-c
+h
 "
 #
 include

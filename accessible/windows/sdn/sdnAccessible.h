@@ -7,7 +7,7 @@ mozilla_a11y_sdnAccessible_h_
 #
 include
 "
-ISimpleDOMNode
+ISimpleDOM
 .
 h
 "

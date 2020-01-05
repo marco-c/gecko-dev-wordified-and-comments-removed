@@ -58,6 +58,6 @@ MPL
 /
 1
 typelib
-ISimpleDOMNode
+ISimpleDOM
 .
 tlb
