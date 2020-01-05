@@ -1582,7 +1582,7 @@ windowObject
 ;
 private
 boolean
-isExternalURL
+loadingExternalURL
 ;
 private
 int
@@ -1614,7 +1614,7 @@ tabs
 JSONObject
 windowObject
 boolean
-isExternalURL
+loadingExternalURL
 )
 {
 this
@@ -1631,9 +1631,9 @@ windowObject
 ;
 this
 .
-isExternalURL
+loadingExternalURL
 =
-isExternalURL
+loadingExternalURL
 ;
 tabIdMap
 =
@@ -1765,7 +1765,7 @@ flags
 =
 (
 (
-isExternalURL
+loadingExternalURL
 |
 |
 !
