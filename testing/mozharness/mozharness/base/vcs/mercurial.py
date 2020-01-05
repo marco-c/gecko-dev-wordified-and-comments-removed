@@ -2988,28 +2988,6 @@ self
 log_obj
 )
         
-env
-=
-dict
-(
-os
-.
-environ
-)
-        
-env
-[
-b
-'
-PYTHONUNBUFFERED
-'
-]
-=
-b
-'
-1
-'
-        
 if
 self
 .
@@ -3019,9 +2997,6 @@ args
 output_parser
 =
 parser
-env
-=
-env
 )
 :
             
