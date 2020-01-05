@@ -74,6 +74,15 @@ renderer
 Renderer
 ;
 import
+resource
+:
+:
+image_cache_task
+:
+:
+ImageCacheTask
+;
+import
 task
 :
 :
@@ -122,6 +131,9 @@ Layout
 renderer
 :
 Renderer
+image_cache_task
+:
+ImageCacheTask
 )
 -
 >
