@@ -2283,6 +2283,13 @@ aSuspend
 )
 const
 ;
+void
+MaybeNotifyMediaResumedFromBlock
+(
+SuspendTypes
+aSuspend
+)
+;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
