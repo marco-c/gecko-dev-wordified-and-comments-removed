@@ -3650,6 +3650,7 @@ def
 wrapObjectTemplate
 (
 templateBody
+nullValue
 isDefinitelyObject
 type
                            
@@ -3735,11 +3736,14 @@ n
 "
                     
 "
-None
+%
+s
 \
 n
 "
 )
+%
+nullValue
             
 templateBody
 +
@@ -4062,9 +4066,13 @@ s
 "
 %
 template
+"
+None
+"
+                                              
 isDefinitelyObject
 type
-                                               
+                                              
 failureCode
 )
             
@@ -4329,8 +4337,11 @@ templateBody
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
+"
+None
+"
                                           
+isDefinitelyObject
 type
 failureCode
 )
@@ -5477,6 +5488,10 @@ wrapObjectTemplate
                 
 template
                 
+"
+None
+"
+                
 isDefinitelyObject
                 
 type
@@ -5648,18 +5663,69 @@ isObject
 )
 :
         
-raise
-TypeError
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
+declType
+=
+CGGeneric
 (
 "
-Can
-'
-t
-handle
-object
-arguments
-yet
+*
+mut
+JSObject
 "
+)
+        
+templateBody
+=
+wrapObjectTemplate
+(
+"
+{
+val
+}
+.
+to_object
+(
+)
+"
+                                          
+"
+ptr
+:
+:
+null_mut
+(
+)
+"
+                                          
+isDefinitelyObject
+type
+failureCode
+)
+        
+return
+handleOptional
+(
+templateBody
+declType
+                              
+handleDefaultNull
+(
+"
+ptr
+:
+:
+null_mut
+(
+)
+"
+)
 )
     
 if
