@@ -329,6 +329,7 @@ LayoutJS
 RootedReference
 Temporary
 Root
+Unrooted
 }
 ;
 use
@@ -5792,9 +5793,9 @@ object
 Temporary
 :
 :
-new
+from_unrooted
 (
-JS
+Unrooted
 :
 :
 from_raw

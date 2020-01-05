@@ -10,8 +10,8 @@ js
 :
 {
 Temporary
-JS
 JSRef
+Unrooted
 }
 ;
 use
@@ -440,9 +440,9 @@ unsafe
 Temporary
 :
 :
-new
+from_unrooted
 (
-JS
+Unrooted
 :
 :
 from_raw

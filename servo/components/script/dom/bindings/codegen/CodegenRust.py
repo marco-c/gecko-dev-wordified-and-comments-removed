@@ -11905,7 +11905,7 @@ bindings
 js
 :
 :
-JS
+Unrooted
 '
         
 '
@@ -12792,13 +12792,13 @@ let
 mut
 raw
 :
-JS
+Unrooted
 <
 %
 s
 >
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -13379,7 +13379,7 @@ obj
 Temporary
 :
 :
-new
+from_unrooted
 (
 raw
 )
@@ -13464,7 +13464,7 @@ obj
 Temporary
 :
 :
-new
+from_unrooted
 (
 raw
 )
@@ -18006,7 +18006,7 @@ n
 let
 this
 :
-JS
+Unrooted
 <
 %
 s
@@ -18564,7 +18564,7 @@ pre
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -19102,7 +19102,7 @@ pre
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -19766,7 +19766,7 @@ pre
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -27586,7 +27586,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -28078,7 +28078,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -28537,7 +28537,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -28777,7 +28777,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -28892,7 +28892,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -29204,7 +29204,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -29474,7 +29474,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -29636,7 +29636,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -30125,7 +30125,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -30316,7 +30316,7 @@ n
 let
 this
 =
-JS
+Unrooted
 :
 :
 from_raw
@@ -35372,6 +35372,7 @@ JSRef
 Root
 RootedReference
 Temporary
+Unrooted
 }
 '
             
