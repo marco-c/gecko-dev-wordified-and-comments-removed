@@ -26,7 +26,6 @@ output
 valid
 .
 html
-fails
 =
 =
 output
@@ -39,9 +38,6 @@ output
 invalid
 .
 html
-#
-Bug
-1341739
 =
 =
 output

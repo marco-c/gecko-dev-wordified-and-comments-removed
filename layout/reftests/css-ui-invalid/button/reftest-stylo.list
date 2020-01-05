@@ -26,7 +26,6 @@ button
 valid
 .
 html
-fails
 =
 =
 button
@@ -67,7 +66,6 @@ dyn
 disabled
 .
 html
-fails
 =
 =
 button
@@ -112,7 +110,6 @@ button
 reset
 .
 html
-fails
 =
 =
 button
@@ -185,7 +182,6 @@ fieldset
 2
 .
 html
-fails
 =
 =
 button

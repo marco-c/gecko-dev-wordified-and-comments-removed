@@ -338,7 +338,6 @@ with
 writing
 -
 mode
-fails
 =
 =
 meter
@@ -355,7 +354,6 @@ orient
 vertical
 .
 html
-fails
 =
 =
 meter
@@ -372,7 +370,6 @@ orient
 horizontal
 .
 html
-fails
 =
 =
 meter
@@ -389,7 +386,6 @@ orient
 block
 .
 html
-fails
 =
 =
 meter
@@ -406,7 +402,6 @@ orient
 inline
 .
 html
-fails
 =
 =
 meter
@@ -419,7 +414,6 @@ meter
 vlr
 .
 html
-fails
 =
 =
 meter
@@ -440,7 +434,6 @@ orient
 block
 .
 html
-fails
 =
 =
 meter
@@ -461,7 +454,6 @@ orient
 inline
 .
 html
-fails
 =
 =
 meter
@@ -482,7 +474,6 @@ orient
 horizontal
 .
 html
-fails
 =
 =
 meter
@@ -503,7 +494,6 @@ orient
 vertical
 .
 html
-fails
 =
 =
 meter
@@ -516,7 +506,6 @@ meter
 vrl
 .
 html
-fails
 =
 =
 meter
@@ -537,7 +526,6 @@ orient
 block
 .
 html
-fails
 =
 =
 meter
@@ -558,7 +546,6 @@ orient
 inline
 .
 html
-fails
 =
 =
 meter
@@ -579,7 +566,6 @@ orient
 horizontal
 .
 html
-fails
 =
 =
 meter

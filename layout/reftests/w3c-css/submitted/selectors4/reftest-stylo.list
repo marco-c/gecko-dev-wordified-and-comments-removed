@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 needs
 -
 focus
@@ -53,7 +52,6 @@ within
 2
 .
 html
-fails
 needs
 -
 focus
