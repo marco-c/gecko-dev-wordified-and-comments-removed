@@ -205,13 +205,10 @@ ImageContainer
 >
 mImageContainer
 ;
-Maybe
-<
 wr
 :
 :
-ExternalImageId
->
+MaybeExternalImageId
 mExternalImageId
 ;
 Maybe

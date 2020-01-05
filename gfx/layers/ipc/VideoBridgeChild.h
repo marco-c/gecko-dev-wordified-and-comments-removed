@@ -202,6 +202,12 @@ TextureFlags
 aFlags
 uint64_t
 aSerial
+wr
+:
+:
+MaybeExternalImageId
+&
+aExternalImageId
 )
 override
 ;

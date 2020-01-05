@@ -9660,6 +9660,13 @@ const
 uint64_t
 &
 aSerial
+const
+wr
+:
+:
+MaybeExternalImageId
+&
+aExternalImageId
 )
 {
 return
@@ -9673,6 +9680,7 @@ aSharedData
 aLayersBackend
 aFlags
 aSerial
+aExternalImageId
 )
 ;
 }

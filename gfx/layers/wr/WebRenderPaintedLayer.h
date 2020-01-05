@@ -167,13 +167,10 @@ mManager
 )
 ;
 }
-Maybe
-<
 wr
 :
 :
-ExternalImageId
->
+MaybeExternalImageId
 mExternalImageId
 ;
 public

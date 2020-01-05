@@ -54,6 +54,12 @@ aFlags
 TextureHost
 *
 aTexture
+wr
+:
+:
+ExternalImageId
+&
+aExternalImageId
 )
 ;
 virtual
@@ -244,10 +250,6 @@ mExternalImageId
 ;
 bool
 mIsWrappingNativeHandle
-;
-static
-uint64_t
-sSerialCounter
 ;
 }
 ;

@@ -138,13 +138,10 @@ GetImageClientType
 (
 )
 ;
-Maybe
-<
 wr
 :
 :
-ExternalImageId
->
+MaybeExternalImageId
 mExternalImageId
 ;
 Maybe
