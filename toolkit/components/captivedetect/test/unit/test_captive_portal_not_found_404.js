@@ -181,7 +181,7 @@ step
 2
 )
 ;
-do_check_true
+do_check_false
 (
 success
 )
