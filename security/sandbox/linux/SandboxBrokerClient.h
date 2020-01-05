@@ -16,6 +16,15 @@ h
 #
 include
 "
+broker
+/
+SandboxBrokerUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -78,8 +87,7 @@ const
 char
 *
 aPath
-struct
-stat
+statstruct
 *
 aStat
 )
@@ -91,8 +99,7 @@ const
 char
 *
 aPath
-struct
-stat
+statstruct
 *
 aStat
 )

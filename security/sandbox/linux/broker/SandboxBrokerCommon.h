@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SandboxBrokerTypes_h
+mozilla_SandboxBrokerCommon_h
 #
 define
-mozilla_SandboxBrokerTypes_h
+mozilla_SandboxBrokerCommon_h
 #
 include
 <
