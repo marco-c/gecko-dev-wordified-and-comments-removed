@@ -27,16 +27,7 @@ HTML_TAG
 (
 _tag
 _classname
-)
-eHTMLTag_
-#
-#
-_tag
-#
-define
-HTML_HTMLELEMENT_TAG
-(
-_tag
+_interfacename
 )
 eHTMLTag_
 #
@@ -71,9 +62,6 @@ eHTMLTag_userdefined
 #
 undef
 HTML_TAG
-#
-undef
-HTML_HTMLELEMENT_TAG
 #
 undef
 HTML_OTHER
