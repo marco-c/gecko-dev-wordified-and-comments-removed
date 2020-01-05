@@ -8259,6 +8259,10 @@ lineStart
 =
 firstNewline
 ;
+lineStart
++
++
+;
 }
 }
 const
