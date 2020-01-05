@@ -1330,7 +1330,7 @@ type
 {
 LOG
 (
-LS_VERBOSE
+LS_INFO
 )
 <
 <
