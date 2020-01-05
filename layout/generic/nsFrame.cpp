@@ -49295,13 +49295,9 @@ ap
 aFormatString
 )
 ;
-PR_vsnprintf
+VsprintfLiteral
 (
 argbuf
-sizeof
-(
-argbuf
-)
 aFormatString
 ap
 )
