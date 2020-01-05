@@ -1098,7 +1098,7 @@ self
 &
 '
 a
-str
+Atom
 ;
 fn
 get_namespace
@@ -1206,8 +1206,9 @@ self
 &
 '
 a
-str
+Atom
 {
+&
 self
 .
 deref
@@ -1215,10 +1216,6 @@ deref
 )
 .
 local_name
-.
-as_slice
-(
-)
 }
 fn
 get_namespace
@@ -7092,7 +7089,7 @@ self
 &
 '
 a
-str
+Atom
 {
 (
 self

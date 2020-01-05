@@ -58,6 +58,15 @@ use
 servo_util
 :
 :
+atom
+:
+:
+Atom
+;
+use
+servo_util
+:
+:
 cache
 :
 :
@@ -903,7 +912,7 @@ ComputedValues
 pub
 local_name
 :
-DOMString
+Atom
 pub
 class
 :
@@ -1213,7 +1222,7 @@ get_local_name
 (
 )
 .
-to_str
+clone
 (
 )
 class
@@ -1258,6 +1267,7 @@ LayoutElement
 bool
 {
 if
+*
 element
 .
 get_local_name
@@ -1268,10 +1278,6 @@ get_local_name
 self
 .
 local_name
-.
-as_slice
-(
-)
 {
 return
 false
