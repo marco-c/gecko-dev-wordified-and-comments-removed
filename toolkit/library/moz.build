@@ -2102,9 +2102,6 @@ OS_LIBS
 '
 GL
 '
-'
-EGL
-'
 ]
 elif
 CONFIG
