@@ -88,6 +88,9 @@ class
 nsCOMPtr
 ;
 class
+nsIContent
+;
+class
 nsIDocument
 ;
 class
@@ -345,6 +348,15 @@ GetWidget
 )
 const
 ;
+already_AddRefed
+<
+nsIContent
+>
+GetTouchRollup
+(
+)
+const
+;
 private
 :
 nsWeakPtr
@@ -376,6 +388,9 @@ mTouchEndCancelled
 ;
 int32_t
 mLastTouchIdentifier
+;
+nsWeakPtr
+mTouchRollup
 ;
 }
 ;

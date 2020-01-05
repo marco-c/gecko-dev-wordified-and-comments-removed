@@ -46,6 +46,14 @@ nsAutoRollup
 (
 )
 ;
+explicit
+nsAutoRollup
+(
+nsIContent
+*
+aRollup
+)
+;
 static
 void
 SetLastRollup
