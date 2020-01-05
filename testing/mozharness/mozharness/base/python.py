@@ -5259,6 +5259,12 @@ cpu_total
 100
 .
 0
+if
+cpu_total
+else
+0
+.
+0
             
 if
 percent
