@@ -310,6 +310,15 @@ wasm
 /
 spec
 /
+br_table
+.
+wast
+.
+js
+wasm
+/
+spec
+/
 f32
 .
 wast
