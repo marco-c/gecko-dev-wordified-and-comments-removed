@@ -110,11 +110,6 @@ OggDemuxer
 h
 '
 '
-OggReader
-.
-h
-'
-'
 OggWriter
 .
 h
@@ -146,11 +141,6 @@ cpp
 '
 '
 OggDemuxer
-.
-cpp
-'
-'
-OggReader
 .
 cpp
 '
