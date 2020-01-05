@@ -159,7 +159,10 @@ net_traits
 filemanager_thread
 :
 :
+{
 FileManagerThreadMsg
+SelectedFileId
+}
 ;
 use
 num_traits
@@ -214,12 +217,6 @@ sync
 :
 :
 Arc
-;
-use
-uuid
-:
-:
-Uuid
 ;
 #
 [
@@ -570,7 +567,7 @@ BlobImpl
 {
 File
 (
-Uuid
+SelectedFileId
 DOMRefCell
 <
 Option
@@ -613,7 +610,7 @@ new_from_file
 (
 file_id
 :
-Uuid
+SelectedFileId
 )
 -
 >
@@ -1078,7 +1075,7 @@ global
 GlobalRef
 id
 :
-Uuid
+SelectedFileId
 )
 -
 >
