@@ -97,6 +97,12 @@ gfxDWriteFont
 (
 )
 ;
+static
+void
+UpdateClearTypeUsage
+(
+)
+;
 virtual
 gfxFont
 *
@@ -391,6 +397,10 @@ mAllowManualShowGlyphs
 ;
 bool
 mAzureScaledFontIsCairo
+;
+static
+bool
+mUseClearType
 ;
 }
 ;

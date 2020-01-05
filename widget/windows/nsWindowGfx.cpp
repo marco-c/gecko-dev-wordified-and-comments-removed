@@ -88,6 +88,13 @@ h
 #
 include
 "
+gfxDWriteFonts
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -829,6 +836,13 @@ return
 false
 ;
 }
+gfxDWriteFont
+:
+:
+UpdateClearTypeUsage
+(
+)
+;
 if
 (
 IsPlugin
