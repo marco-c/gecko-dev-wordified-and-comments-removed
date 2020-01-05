@@ -495,17 +495,6 @@ xtension
 .
 "
 "
-permissions
-"
-:
-[
-"
-manifest
-:
-commands
-"
-]
-"
 types
 "
 :
