@@ -2533,6 +2533,12 @@ nsIEventTarget
 >
 mMainThreadEventTarget
 ;
+RefPtr
+<
+WorkerControlEventTarget
+>
+mWorkerControlEventTarget
+;
 struct
 SyncLoopInfo
 {
