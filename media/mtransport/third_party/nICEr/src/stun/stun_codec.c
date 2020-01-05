@@ -6272,6 +6272,15 @@ TRANSPORT
 nr_stun_attr_codec_UCHAR
 0
 )
+NR_ADD_STUN_ATTRIBUTE
+(
+NR_STUN_ATTR_BANDWIDTH
+"
+BANDWIDTH
+"
+nr_stun_attr_codec_UINT4
+0
+)
 #
 endif
 NR_ADD_STUN_ATTRIBUTE
