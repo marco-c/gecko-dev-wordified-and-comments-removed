@@ -238,12 +238,10 @@ log
 (
 dmax
 )
-;
     
 bucket_index
 =
 2
-;
     
 ret_array
 =
@@ -385,7 +383,6 @@ bug_numbers
 whitelists
 =
 None
-;
 try
 :
     
@@ -3531,7 +3528,6 @@ iterkeys
 )
 )
 )
-;
     
 if
 use_counter_indices

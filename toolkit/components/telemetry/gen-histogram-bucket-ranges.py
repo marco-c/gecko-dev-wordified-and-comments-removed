@@ -230,7 +230,6 @@ name
 parameters
 }
 )
-;
     
 print
 json

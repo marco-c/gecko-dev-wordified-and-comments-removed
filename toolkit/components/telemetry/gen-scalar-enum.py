@@ -152,7 +152,6 @@ file
 =
 output
 )
-;
     
 for
 s

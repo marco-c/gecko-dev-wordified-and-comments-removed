@@ -211,7 +211,6 @@ file
 =
 output
 )
-;
     
 for
 category
