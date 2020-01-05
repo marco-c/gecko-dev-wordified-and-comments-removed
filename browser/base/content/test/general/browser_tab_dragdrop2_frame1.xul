@@ -839,6 +839,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 border
 :
 0
@@ -861,6 +865,10 @@ style
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none

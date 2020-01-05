@@ -1422,7 +1422,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 ;
 if
 (
@@ -6289,7 +6291,7 @@ GetPseudo
 aOldStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 !
@@ -6297,7 +6299,7 @@ GetParent
 nextStyle
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 "

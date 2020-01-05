@@ -1194,7 +1194,9 @@ if
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 {
 nsITheme
@@ -1223,7 +1225,9 @@ this
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 )
 {
@@ -1249,7 +1253,9 @@ this
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 nsGkAtoms
 :
 :

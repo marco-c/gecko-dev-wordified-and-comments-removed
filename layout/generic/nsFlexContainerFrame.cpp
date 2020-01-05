@@ -4721,7 +4721,9 @@ aChildFrame
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 &
 widgetMinSize
 &
@@ -8066,10 +8068,12 @@ nsStyleContext
 *
 parentStyleContext
 =
-mStyleContext
+GetParent
+(
+)
 -
 >
-GetParent
+StyleContext
 (
 )
 ;

@@ -93,6 +93,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 background
 -
 color
@@ -110,6 +114,10 @@ bar
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none

@@ -7195,7 +7195,7 @@ ComputedJustifyItems
 aParent
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 )
@@ -7264,7 +7264,7 @@ ComputedJustifyItems
 aParent
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 )
@@ -14580,9 +14580,13 @@ mContain
 (
 NS_STYLE_CONTAIN_NONE
 )
-mAppearance
+mMozAppearance
 (
 NS_THEME_NONE
+)
+mAppearance
+(
+NS_THEME_AUTO
 )
 mPosition
 (
@@ -14878,6 +14882,12 @@ mContain
 aSource
 .
 mContain
+)
+mMozAppearance
+(
+aSource
+.
+mMozAppearance
 )
 mAppearance
 (
@@ -15428,7 +15438,7 @@ nsChangeHint_ReconstructFrame
 if
 (
 (
-mAppearance
+mMozAppearance
 =
 =
 NS_THEME_TEXTFIELD
@@ -15436,7 +15446,7 @@ NS_THEME_TEXTFIELD
 &
 aNewData
 .
-mAppearance
+mMozAppearance
 !
 =
 NS_THEME_TEXTFIELD
@@ -15444,7 +15454,7 @@ NS_THEME_TEXTFIELD
 |
 |
 (
-mAppearance
+mMozAppearance
 !
 =
 NS_THEME_TEXTFIELD
@@ -15452,7 +15462,7 @@ NS_THEME_TEXTFIELD
 &
 aNewData
 .
-mAppearance
+mMozAppearance
 =
 =
 NS_THEME_TEXTFIELD
@@ -15534,6 +15544,14 @@ mBreakAfter
 aNewData
 .
 mBreakAfter
+|
+|
+mMozAppearance
+!
+=
+aNewData
+.
+mMozAppearance
 |
 |
 mAppearance

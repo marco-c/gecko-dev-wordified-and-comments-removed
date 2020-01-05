@@ -1,3 +1,16 @@
+pref
+(
+layout
+.
+css
+.
+moz
+-
+appearance
+.
+enabled
+true
+)
 load
 540078
 -
