@@ -186,11 +186,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIPrintingPrompt
-.
-idl
-'
-'
 nsIPrintingPromptService
 .
 idl
