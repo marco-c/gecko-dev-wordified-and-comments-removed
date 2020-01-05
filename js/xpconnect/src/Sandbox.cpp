@@ -7147,7 +7147,7 @@ isBoolean
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -7239,7 +7239,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -7334,7 +7334,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -7429,7 +7429,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -7549,7 +7549,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "
@@ -7725,7 +7725,7 @@ prop
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mCx
 "

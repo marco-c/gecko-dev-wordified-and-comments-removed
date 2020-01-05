@@ -1611,7 +1611,7 @@ void
 js
 :
 :
-ReportUsageError
+ReportUsageErrorASCII
 (
 JSContext
 *
@@ -1756,7 +1756,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

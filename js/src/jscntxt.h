@@ -2225,7 +2225,7 @@ ap
 ;
 extern
 void
-ReportUsageError
+ReportUsageErrorASCII
 (
 JSContext
 *

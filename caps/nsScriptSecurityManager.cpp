@@ -722,7 +722,7 @@ aOrigin
 }
 inline
 void
-SetPendingException
+SetPendingExceptionASCII
 (
 JSContext
 *
@@ -733,7 +733,7 @@ char
 aMsg
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -757,7 +757,7 @@ char16_t
 aMsg
 )
 {
-JS_ReportError
+JS_ReportErrorLatin1
 (
 cx
 "
@@ -2534,7 +2534,7 @@ denied
 "
 )
 ;
-SetPendingException
+SetPendingExceptionASCII
 (
 cx
 msg
@@ -5490,7 +5490,7 @@ Append
 cidStr
 )
 ;
-SetPendingException
+SetPendingExceptionASCII
 (
 cx
 errorMsg
@@ -5568,7 +5568,7 @@ Append
 cidStr
 )
 ;
-SetPendingException
+SetPendingExceptionASCII
 (
 cx
 errorMsg

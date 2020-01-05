@@ -4347,7 +4347,7 @@ in
 JS
 "
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 str

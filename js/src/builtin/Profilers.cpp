@@ -703,7 +703,7 @@ length
 argi
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -732,7 +732,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
