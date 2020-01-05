@@ -138,7 +138,7 @@ aType
 0
 ;
 virtual
-int64_t
+TimeUnit
 GetEndTime
 (
 TrackType
@@ -149,7 +149,7 @@ const
 0
 ;
 virtual
-int64_t
+TimeUnit
 GetPosition
 (
 TimeStamp
@@ -226,7 +226,9 @@ virtual
 void
 Start
 (
-int64_t
+const
+TimeUnit
+&
 aStartTime
 const
 MediaInfo
