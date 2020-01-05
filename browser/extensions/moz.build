@@ -93,11 +93,6 @@ DIRS
 aushelper
 '
 '
-deployment
--
-checker
-'
-'
 e10srollout
 '
 '
