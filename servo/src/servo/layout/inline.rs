@@ -2906,6 +2906,10 @@ uint
 i
 |
 {
+let
+box_data
+=
+&
 boxes
 [
 i
@@ -2914,6 +2918,8 @@ i
 d
 (
 )
+;
+box_data
 .
 position
 .
@@ -2926,14 +2932,7 @@ offset_x
 offset_x
 +
 =
-boxes
-[
-i
-]
-.
-d
-(
-)
+box_data
 .
 position
 .
