@@ -4320,7 +4320,6 @@ rv
 StartLoad
 (
 childRequest
-false
 )
 ;
 if
@@ -5062,8 +5061,6 @@ StartLoad
 nsScriptLoadRequest
 *
 aRequest
-bool
-aScriptFromHead
 )
 {
 MOZ_ASSERT
@@ -5416,7 +5413,10 @@ cos
 {
 if
 (
-aScriptFromHead
+aRequest
+-
+>
+mScriptFromHead
 &
 &
 !
@@ -6823,7 +6823,6 @@ rv
 StartLoad
 (
 request
-false
 )
 ;
 if
@@ -13013,13 +13012,19 @@ mReferrerPolicy
 =
 aReferrerPolicy
 ;
+request
+-
+>
+mScriptFromHead
+=
+aScriptFromHead
+;
 nsresult
 rv
 =
 StartLoad
 (
 request
-aScriptFromHead
 )
 ;
 if

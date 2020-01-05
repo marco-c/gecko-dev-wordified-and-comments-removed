@@ -267,6 +267,10 @@ mElement
 (
 aElement
 )
+mScriptFromHead
+(
+false
+)
 mProgress
 (
 Progress
@@ -585,6 +589,9 @@ nsCOMPtr
 nsIScriptElement
 >
 mElement
+;
+bool
+mScriptFromHead
 ;
 Progress
 mProgress
@@ -1404,8 +1411,6 @@ StartLoad
 nsScriptLoadRequest
 *
 aRequest
-bool
-aScriptFromHead
 )
 ;
 virtual
