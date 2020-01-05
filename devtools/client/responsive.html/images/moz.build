@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-close
-.
-svg
-'
-'
 grippers
 .
 svg
