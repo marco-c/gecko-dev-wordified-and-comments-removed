@@ -657,9 +657,10 @@ GetNextInFlow
 if
 (
 !
-NS_FRAME_IS_FULLY_COMPLETE
-(
 kidStatus
+.
+IsFullyComplete
+(
 )
 &
 &

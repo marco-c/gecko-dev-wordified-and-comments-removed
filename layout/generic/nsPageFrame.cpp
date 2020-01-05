@@ -753,9 +753,10 @@ yc
 NS_ASSERTION
 (
 !
-NS_FRAME_IS_FULLY_COMPLETE
-(
 aStatus
+.
+IsFullyComplete
+(
 )
 |
 |

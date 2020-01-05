@@ -14884,9 +14884,10 @@ isPaginated
 &
 &
 !
-NS_FRAME_IS_FULLY_COMPLETE
-(
 aStatus
+.
+IsFullyComplete
+(
 )
 &
 &

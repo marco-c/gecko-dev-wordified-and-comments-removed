@@ -1382,9 +1382,10 @@ GetNextInFlow
 ;
 if
 (
-NS_FRAME_IS_FULLY_COMPLETE
-(
 status
+.
+IsFullyComplete
+(
 )
 )
 {

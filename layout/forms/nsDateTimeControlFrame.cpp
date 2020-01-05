@@ -980,9 +980,10 @@ childStatus
 ;
 MOZ_ASSERT
 (
-NS_FRAME_IS_FULLY_COMPLETE
-(
 childStatus
+.
+IsFullyComplete
+(
 )
 "
 We

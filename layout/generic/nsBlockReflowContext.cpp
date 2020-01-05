@@ -1693,9 +1693,10 @@ NS_FRAME_OUT_OF_FLOW
 {
 if
 (
-NS_FRAME_IS_FULLY_COMPLETE
-(
 aFrameReflowStatus
+.
+IsFullyComplete
+(
 )
 )
 {
