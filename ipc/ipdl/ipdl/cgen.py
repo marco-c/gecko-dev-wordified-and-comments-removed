@@ -7,17 +7,6 @@ ipdl
 ast
 import
 Visitor
-from
-ipdl
-.
-ast
-import
-IN
-OUT
-INOUT
-ASYNC
-SYNC
-INTR
 class
 CodePrinter
 :
