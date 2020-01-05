@@ -453,10 +453,10 @@ while
 gIsActive
 )
 {
-gSampler
+gBuffer
 -
 >
-DeleteExpiredMarkers
+deleteExpiredStoredMarkers
 (
 )
 ;
