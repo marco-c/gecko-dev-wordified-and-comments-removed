@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsIDOMCSSRule
+nsISupports
 .
 idl
 "
@@ -116,7 +116,7 @@ fb35
 interface
 nsIDOMCSSUnknownRule
 :
-nsIDOMCSSRule
+nsISupports
 {
 }
 ;

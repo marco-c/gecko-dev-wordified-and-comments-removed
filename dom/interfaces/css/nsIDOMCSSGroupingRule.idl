@@ -94,10 +94,13 @@ MPL
 #
 include
 "
-nsIDOMCSSRule
+nsISupports
 .
 idl
 "
+interface
+nsIDOMCSSRuleList
+;
 /
 *
 *
@@ -136,7 +139,7 @@ f911
 interface
 nsIDOMCSSGroupingRule
 :
-nsIDOMCSSRule
+nsISupports
 {
 readonly
 attribute

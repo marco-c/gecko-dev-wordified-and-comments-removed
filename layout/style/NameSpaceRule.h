@@ -74,8 +74,6 @@ final
 :
 public
 Rule
-public
-nsIDOMCSSRule
 {
 public
 :
