@@ -2171,6 +2171,7 @@ bool
 aNeedsSyntheticBold
 )
 ;
+virtual
 void
 FindAllFontsForStyle
 (
