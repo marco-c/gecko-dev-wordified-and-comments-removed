@@ -180,6 +180,11 @@ PresentationConnection
 aConnection
 )
 ;
+void
+NotifyPromiseSettled
+(
+)
+;
 private
 :
 PresentationRequest
