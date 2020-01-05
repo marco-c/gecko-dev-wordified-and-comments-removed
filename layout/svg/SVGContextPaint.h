@@ -80,6 +80,12 @@ mozilla
 {
 class
 SVGContextPaint
+:
+public
+RefCounted
+<
+SVGContextPaint
+>
 {
 protected
 :
@@ -100,6 +106,10 @@ SVGContextPaint
 }
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+SVGContextPaint
+)
 virtual
 ~
 SVGContextPaint

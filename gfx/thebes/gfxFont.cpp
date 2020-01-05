@@ -10973,7 +10973,7 @@ mat
 )
 ;
 }
-UniquePtr
+RefPtr
 <
 SVGContextPaint
 >
@@ -11039,9 +11039,7 @@ GetPattern
 )
 ;
 contextPaint
-.
-reset
-(
+=
 new
 SimpleTextContextPaint
 (
@@ -11054,7 +11052,6 @@ context
 >
 CurrentMatrix
 (
-)
 )
 )
 ;
