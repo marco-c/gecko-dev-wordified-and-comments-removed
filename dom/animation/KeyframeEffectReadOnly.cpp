@@ -6078,12 +6078,12 @@ animation
 )
 ;
 TimeStamp
-animationRuleRefreshTime
+lastSyncTime
 =
 effectSet
 -
 >
-AnimationRuleRefreshTime
+LastTransformSyncTime
 (
 mAnimation
 -
@@ -6096,7 +6096,7 @@ CascadeLevel
 if
 (
 !
-animationRuleRefreshTime
+lastSyncTime
 .
 IsNull
 (
@@ -6106,7 +6106,7 @@ IsNull
 (
 now
 -
-animationRuleRefreshTime
+lastSyncTime
 )
 <
 OverflowRegionRefreshInterval

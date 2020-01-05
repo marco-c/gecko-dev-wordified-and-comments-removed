@@ -734,7 +734,7 @@ aCascadeLevel
 const
 TimeStamp
 &
-AnimationRuleRefreshTime
+LastTransformSyncTime
 (
 EffectCompositor
 :
@@ -745,14 +745,14 @@ aCascadeLevel
 const
 {
 return
-mAnimationRuleRefreshTime
+mLastTransformSyncTime
 [
 aCascadeLevel
 ]
 ;
 }
 void
-UpdateAnimationRuleRefreshTime
+UpdateLastTransformSyncTime
 (
 EffectCompositor
 :
@@ -765,7 +765,7 @@ TimeStamp
 aRefreshTime
 )
 {
-mAnimationRuleRefreshTime
+mLastTransformSyncTime
 [
 aCascadeLevel
 ]
@@ -904,7 +904,7 @@ kCascadeLevelCount
 )
 TimeStamp
 >
-mAnimationRuleRefreshTime
+mLastTransformSyncTime
 ;
 bool
 mCascadeNeedsUpdate
