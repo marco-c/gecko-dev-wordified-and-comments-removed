@@ -6225,11 +6225,6 @@ ScrollViewChangeEvent
 webidl
 '
 '
-ServiceWorkerMessageEvent
-.
-webidl
-'
-'
 StyleRuleChangeEvent
 .
 webidl
