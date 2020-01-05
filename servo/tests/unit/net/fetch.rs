@@ -1369,6 +1369,16 @@ path
 resources_dir_path
 (
 )
+.
+expect
+(
+"
+Cannot
+find
+resource
+dir
+"
+)
 ;
 path
 .
