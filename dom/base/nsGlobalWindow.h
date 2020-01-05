@@ -6706,7 +6706,7 @@ mozilla
 dom
 :
 :
-CallerType
+SystemCallerGuarantee
 aCallerType
 mozilla
 :
