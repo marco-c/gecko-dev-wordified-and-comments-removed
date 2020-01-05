@@ -9119,7 +9119,6 @@ I
 (
 &
 self
-mut
 slice_iterator
 :
 I

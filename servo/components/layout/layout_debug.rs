@@ -56,9 +56,9 @@ atomic
 :
 :
 {
-AtomicUint
+AtomicUsize
 Ordering
-ATOMIC_UINT_INIT
+ATOMIC_USIZE_INIT
 }
 ;
 thread_local
@@ -88,9 +88,9 @@ static
 mut
 DEBUG_ID_COUNTER
 :
-AtomicUint
+AtomicUsize
 =
-ATOMIC_UINT_INIT
+ATOMIC_USIZE_INIT
 ;
 pub
 struct

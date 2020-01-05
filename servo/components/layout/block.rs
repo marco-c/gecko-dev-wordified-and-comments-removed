@@ -321,7 +321,7 @@ Arc
 derive
 (
 Clone
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -3873,7 +3873,6 @@ start
 b
 ;
 let
-mut
 descendant_offset_iter
 =
 mut_base
