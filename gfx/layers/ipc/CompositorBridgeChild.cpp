@@ -772,9 +772,6 @@ Destroy
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_WEBRENDER
 AutoTArray
 <
 PWebRenderBridgeChild
@@ -793,7 +790,7 @@ for
 int
 i
 =
-transactions
+wRBridges
 .
 Length
 (
@@ -837,8 +834,6 @@ Destroy
 )
 ;
 }
-#
-endif
 const
 ManagedContainer
 <
