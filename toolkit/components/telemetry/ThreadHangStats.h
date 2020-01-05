@@ -1159,9 +1159,6 @@ HangHistogram
 >
 mHangs
 ;
-uint32_t
-mNativeStackCnt
-;
 explicit
 ThreadHangStats
 (
