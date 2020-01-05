@@ -94,7 +94,6 @@ specified
 Angle
 BorderStyle
 Time
-UrlExtraData
 UrlOrNone
 }
 ;

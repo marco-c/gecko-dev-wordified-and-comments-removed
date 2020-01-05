@@ -144,10 +144,6 @@ extern
 crate
 serde_derive
 ;
-extern
-crate
-url
-;
 pub
 type
 UnsafeNode
