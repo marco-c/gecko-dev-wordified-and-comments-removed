@@ -121,7 +121,7 @@ DetailedPromise
 {
 MaybeReportTelemetry
 (
-Failed
+kFailed
 )
 ;
 }
@@ -194,7 +194,7 @@ get
 ;
 MaybeReportTelemetry
 (
-Failed
+kFailed
 )
 ;
 LogToBrowserConsole
@@ -388,7 +388,7 @@ DetailedPromise
 :
 MaybeReportTelemetry
 (
-Status
+eStatus
 aStatus
 )
 {
@@ -467,7 +467,7 @@ get
 aStatus
 =
 =
-Succeeded
+kSucceeded
 )
 ?
 "
@@ -491,7 +491,7 @@ tid
 aStatus
 =
 =
-Succeeded
+kSucceeded
 )
 ?
 mSuccessLatencyProbe
