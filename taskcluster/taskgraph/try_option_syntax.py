@@ -102,7 +102,7 @@ set
 '
 source
 -
-check
+test
 '
     
 '
