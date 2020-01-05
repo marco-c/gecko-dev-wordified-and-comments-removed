@@ -2849,7 +2849,7 @@ None
 is_sdk
 =
 False
-            
+                 
 soname
 =
 None
@@ -3042,8 +3042,9 @@ self
 lib_name
         
 if
-not
 symbols_file
+is
+False
 :
             
 self
@@ -3053,6 +3054,12 @@ symbols_file
 None
         
 elif
+symbols_file
+is
+True
+:
+            
+if
 context
 .
 config
@@ -3069,7 +3076,7 @@ OS_TARGET
 WINNT
 '
 :
-            
+                
 self
 .
 symbols_file
@@ -3084,10 +3091,10 @@ def
 self
 .
 lib_name
-        
+            
 else
 :
-            
+                
 self
 .
 symbols_file
@@ -3102,6 +3109,15 @@ symbols
 self
 .
 lib_name
+        
+else
+:
+            
+self
+.
+symbols_file
+=
+symbols_file
 class
 ExternalLibrary
 (
