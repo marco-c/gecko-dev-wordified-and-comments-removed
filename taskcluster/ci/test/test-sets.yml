@@ -361,6 +361,10 @@ mochitest
 -
 a11y
 -
+mochitest
+-
+gpu
+-
 reftest
 -
 reftest
