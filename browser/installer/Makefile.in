@@ -303,6 +303,8 @@ ifdef
 MOZ_NO_DEBUG_RTL
 ifdef
 WIN32_REDIST_DIR
+ifndef
+MOZ_ARTIFACT_BUILDS
 DEFINES
 +
 =
@@ -338,6 +340,7 @@ DEFINES
 DMOZ_PACKAGE_WIN_UCRT_DLLS
 =
 1
+endif
 endif
 endif
 ifneq
