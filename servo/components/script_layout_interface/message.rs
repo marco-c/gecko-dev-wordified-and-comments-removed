@@ -320,6 +320,17 @@ TrustedNodeAddress
 i32
 i32
 )
+NodesFromPoint
+(
+Point2D
+<
+f32
+>
+Point2D
+<
+f32
+>
+)
 }
 pub
 struct
