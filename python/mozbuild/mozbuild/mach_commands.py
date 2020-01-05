@@ -11775,6 +11775,13 @@ unpack_file
         
 )
         
+from
+requests
+.
+adapters
+import
+HTTPAdapter
+        
 import
 redo
         
@@ -11958,11 +11965,27 @@ strip
 (
 )
             
-cache
-.
-_download_manager
-.
-session
+class
+TooltoolAuthenticator
+(
+HTTPAdapter
+)
+:
+                
+def
+send
+(
+self
+request
+*
+args
+*
+*
+kwargs
+)
+:
+                    
+request
 .
 headers
 [
@@ -11972,7 +11995,7 @@ Authorization
 ]
 =
 \
-                
+                        
 '
 Bearer
 {
@@ -11982,6 +12005,39 @@ Bearer
 format
 (
 token
+)
+                    
+return
+super
+(
+TooltoolAuthenticator
+self
+)
+.
+send
+(
+                        
+request
+*
+args
+*
+*
+kwargs
+)
+            
+cache
+.
+_download_manager
+.
+session
+.
+mount
+(
+                
+tooltool_url
+TooltoolAuthenticator
+(
+)
 )
         
 manifest
