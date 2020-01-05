@@ -6965,6 +6965,16 @@ PacketOutAsMediaRawData
 ;
 if
 (
+!
+data
+)
+{
+return
+nullptr
+;
+}
+if
+(
 mType
 =
 =
