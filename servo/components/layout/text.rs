@@ -205,10 +205,7 @@ style
 properties
 :
 :
-style_structs
-:
-:
-ServoFont
+ServoComputedValues
 ;
 use
 style
@@ -217,10 +214,7 @@ style
 properties
 :
 :
-{
-ComputedValues
-ServoComputedValues
-}
+style_structs
 ;
 use
 unicode_bidi
@@ -2412,7 +2406,10 @@ font_style
 :
 Arc
 <
-ServoFont
+style_structs
+:
+:
+Font
 >
 )
 -

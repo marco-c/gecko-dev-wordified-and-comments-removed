@@ -222,9 +222,6 @@ properties
 :
 :
 style_structs
-:
-:
-ServoFont
 ;
 use
 webrender_traits
@@ -775,7 +772,10 @@ style
 :
 Arc
 <
-ServoFont
+style_structs
+:
+:
+Font
 >
 )
 -
@@ -1609,7 +1609,10 @@ pointer
 :
 Arc
 <
-ServoFont
+style_structs
+:
+:
+Font
 >
 size
 :

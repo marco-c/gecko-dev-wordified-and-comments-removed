@@ -245,15 +245,6 @@ style
 properties
 :
 :
-ComputedValues
-;
-use
-style
-:
-:
-properties
-:
-:
 longhands
 :
 :
@@ -284,7 +275,7 @@ use
 style
 :
 :
-servo
+selector_matching
 :
 :
 Stylist
@@ -2279,7 +2270,7 @@ let
 style_structs
 :
 :
-ServoBorder
+Border
 {
 border_top_width
 :
@@ -2439,7 +2430,7 @@ let
 style_structs
 :
 :
-ServoBorder
+Border
 {
 border_top_width
 :

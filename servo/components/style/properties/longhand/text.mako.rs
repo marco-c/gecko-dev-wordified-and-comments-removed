@@ -805,11 +805,6 @@ servo
 :
 fn
 cascade_property_custom
-<
-C
-:
-ComputedValues
->
 (
 _declaration
 :
@@ -818,7 +813,7 @@ PropertyDeclaration
 _inherited_style
 :
 &
-C
+ComputedValues
 context
 :
 &
@@ -827,9 +822,6 @@ computed
 :
 :
 Context
-<
-C
->
 _seen
 :
 &

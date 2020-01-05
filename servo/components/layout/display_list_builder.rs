@@ -433,9 +433,6 @@ properties
 :
 :
 style_structs
-:
-:
-ServoBorder
 ;
 use
 style
@@ -446,7 +443,6 @@ properties
 :
 {
 self
-ComputedValues
 ServoComputedValues
 }
 ;
@@ -1556,7 +1552,10 @@ Au
 border_style
 :
 &
-ServoBorder
+style_structs
+:
+:
+Border
 )
 -
 >

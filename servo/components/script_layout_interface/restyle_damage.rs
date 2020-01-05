@@ -38,10 +38,7 @@ style
 properties
 :
 :
-{
-ComputedValues
 ServoComputedValues
-}
 ;
 bitflags
 !
@@ -339,11 +336,6 @@ TRestyleDamage
 for
 RestyleDamage
 {
-type
-ConcreteComputedValues
-=
-ServoComputedValues
-;
 fn
 compute
 (

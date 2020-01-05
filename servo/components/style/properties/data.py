@@ -890,16 +890,6 @@ None
         
 self
 .
-servo_struct_name
-=
-"
-Servo
-"
-+
-name
-        
-self
-.
 gecko_struct_name
 =
 "
@@ -910,13 +900,13 @@ name
         
 self
 .
-trait_name
+name
 =
 name
         
 self
 .
-trait_name_lower
+name_lower
 =
 name
 .
@@ -932,7 +922,7 @@ to_rust_ident
 (
 self
 .
-trait_name_lower
+name_lower
 )
         
 self
