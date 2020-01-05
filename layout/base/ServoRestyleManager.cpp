@@ -796,7 +796,7 @@ aElement
 newContext
 -
 >
-EnsureStructsForServo
+EnsureSameStructsCached
 (
 oldStyleContext
 )
