@@ -3231,7 +3231,7 @@ JSContext
 *
 cx
 uint32_t
-funcDefIndex
+funcIndex
 CallArgs
 args
 )
@@ -3281,7 +3281,7 @@ return
 false
 ;
 const
-FuncDefExport
+FuncExport
 &
 func
 =
@@ -3289,9 +3289,9 @@ metadata
 (
 )
 .
-lookupFuncDefExport
+lookupFuncExport
 (
-funcDefIndex
+funcIndex
 )
 ;
 Vector

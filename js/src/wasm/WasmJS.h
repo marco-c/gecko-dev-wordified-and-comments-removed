@@ -193,7 +193,7 @@ fun
 ;
 extern
 uint32_t
-ExportedFunctionToDefinitionIndex
+ExportedFunctionToFuncIndex
 (
 JSFunction
 *

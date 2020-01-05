@@ -6654,7 +6654,7 @@ wasm
 -
 function
 [
-0
+1
 ]
 "
 )
@@ -6671,7 +6671,7 @@ wasm
 -
 function
 [
-2
+3
 ]
 "
 )

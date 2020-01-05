@@ -1999,12 +1999,6 @@ Expr
 :
 Call
 :
-case
-Expr
-:
-:
-OldCallImport
-:
 return
 ExprKind
 :

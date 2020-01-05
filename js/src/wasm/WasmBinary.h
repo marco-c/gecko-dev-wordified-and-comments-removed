@@ -1000,7 +1000,6 @@ F64Log
 F64Pow
 F64Atan2
 OldCallIndirect
-OldCallImport
 I32AtomicsCompareExchange
 I32AtomicsExchange
 I32AtomicsLoad

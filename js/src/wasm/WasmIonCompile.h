@@ -70,7 +70,7 @@ Bytes
 bytes_
 ;
 uint32_t
-defIndex_
+index_
 ;
 const
 SigWithId
@@ -92,7 +92,7 @@ Bytes
 &
 bytes
 uint32_t
-defIndex
+index
 const
 SigWithId
 &
@@ -112,9 +112,9 @@ Move
 bytes
 )
 )
-defIndex_
+index_
 (
-defIndex
+index
 )
 sig_
 (
@@ -156,13 +156,13 @@ bytes_
 ;
 }
 uint32_t
-defIndex
+index
 (
 )
 const
 {
 return
-defIndex_
+index_
 ;
 }
 const

@@ -7995,7 +7995,7 @@ wasm
 CalleeDesc
 :
 :
-Definition
+Func
 :
 masm
 .
@@ -8004,7 +8004,7 @@ call
 desc
 callee
 .
-funcDefIndex
+funcIndex
 (
 )
 )
