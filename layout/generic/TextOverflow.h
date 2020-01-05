@@ -428,7 +428,7 @@ mBlockSize
 )
 ;
 }
-void
+LogicalRect
 ExamineLineFrames
 (
 nsLineBox
@@ -529,6 +529,10 @@ const
 LogicalRect
 &
 aInsideMarkersArea
+const
+LogicalRect
+&
+aContentArea
 )
 ;
 LogicalRect
