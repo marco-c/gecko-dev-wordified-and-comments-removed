@@ -1624,13 +1624,6 @@ Some
 ref
 root_pipeline
 )
-if
-root_pipeline
-.
-id
-=
-=
-id
 =
 >
 {
