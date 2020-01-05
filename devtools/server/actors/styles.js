@@ -82,7 +82,7 @@ editor
 ;
 const
 {
-parseDeclarations
+parseNamedDeclarations
 }
 =
 require
@@ -4841,7 +4841,7 @@ cssText
 let
 declarations
 =
-parseDeclarations
+parseNamedDeclarations
 (
 isCssPropertyKnown
 form

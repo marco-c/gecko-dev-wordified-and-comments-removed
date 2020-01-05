@@ -95,7 +95,7 @@ utils
 ;
 const
 {
-parseDeclarations
+parseNamedDeclarations
 }
 =
 require
@@ -1074,7 +1074,7 @@ for
 let
 cssProp
 of
-parseDeclarations
+parseNamedDeclarations
 (
 this
 .
@@ -1779,7 +1779,7 @@ length
 {
 props
 =
-parseDeclarations
+parseNamedDeclarations
 (
 this
 .
@@ -1810,15 +1810,6 @@ prop
 .
 name
 ;
-if
-(
-!
-name
-)
-{
-continue
-;
-}
 let
 invisible
 =

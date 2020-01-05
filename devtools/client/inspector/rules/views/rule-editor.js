@@ -133,7 +133,7 @@ utils
 ;
 const
 {
-parseDeclarations
+parseNamedDeclarations
 parsePseudoClassesAndAttributes
 SELECTOR_ATTRIBUTE
 SELECTOR_ELEMENT
@@ -2513,7 +2513,7 @@ this
 .
 multipleAddedProperties
 =
-parseDeclarations
+parseNamedDeclarations
 (
 this
 .
@@ -2524,16 +2524,6 @@ cssProperties
 isKnown
 value
 true
-)
-.
-filter
-(
-d
-=
->
-d
-.
-name
 )
 ;
 this
