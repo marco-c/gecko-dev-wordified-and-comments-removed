@@ -372,6 +372,7 @@ pkg
 config
 python
 cmake
+yasm
 pip
 install
 virtualenv
@@ -394,6 +395,7 @@ py27
 -
 virtualenv
 cmake
+yasm
 #
 #
 #
