@@ -3589,9 +3589,12 @@ ScriptThread
 let
 runtime
 =
+unsafe
+{
 new_rt_and_cx
 (
 )
+}
 ;
 unsafe
 {

@@ -493,6 +493,7 @@ unsafe_code
 )
 ]
 pub
+unsafe
 fn
 new_rt_and_cx
 (
@@ -518,8 +519,6 @@ new
 (
 )
 ;
-unsafe
-{
 JS_AddExtraGCRootsTracer
 (
 runtime
@@ -558,15 +557,12 @@ null_mut
 )
 )
 ;
-}
 if
 cfg
 !
 (
 debug_assertions
 )
-{
-unsafe
 {
 JS_SetGCCallback
 (
@@ -588,7 +584,6 @@ null_mut
 )
 ;
 }
-}
 if
 opts
 :
@@ -598,8 +593,6 @@ get
 )
 .
 gc_profile
-{
-unsafe
 {
 SetGCSliceCallback
 (
@@ -615,9 +608,6 @@ gc_slice_callback
 )
 ;
 }
-}
-unsafe
-{
 unsafe
 extern
 "
@@ -676,12 +666,9 @@ rt
 )
 )
 ;
-}
 let
 rt_opts
 =
-unsafe
-{
 &
 mut
 *
@@ -693,7 +680,6 @@ rt
 (
 )
 )
-}
 ;
 if
 let
@@ -867,8 +853,6 @@ as_boolean
 (
 )
 {
-unsafe
-{
 JS_SetParallelParsingEnabled
 (
 runtime
@@ -879,7 +863,6 @@ rt
 val
 )
 ;
-}
 }
 if
 let
@@ -901,8 +884,6 @@ as_boolean
 (
 )
 {
-unsafe
-{
 JS_SetOffthreadIonCompilationEnabled
 (
 runtime
@@ -913,7 +894,6 @@ rt
 val
 )
 ;
-}
 }
 if
 let
@@ -955,8 +935,6 @@ else
 1
 }
 ;
-unsafe
-{
 JS_SetGlobalJitCompilerOption
 (
 runtime
@@ -973,7 +951,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1015,8 +992,6 @@ else
 1
 }
 ;
-unsafe
-{
 JS_SetGlobalJitCompilerOption
 (
 runtime
@@ -1033,7 +1008,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1087,8 +1061,6 @@ as_i64
 (
 )
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1109,7 +1081,6 @@ u32
 1024
 )
 ;
-}
 }
 if
 let
@@ -1160,8 +1131,6 @@ val
 1024
 }
 ;
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1178,7 +1147,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1270,8 +1238,6 @@ JSGCMode
 JSGC_MODE_GLOBAL
 }
 ;
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1288,7 +1254,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1327,8 +1292,6 @@ val
 <
 100000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1345,7 +1308,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1374,8 +1336,6 @@ as_boolean
 (
 )
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1392,7 +1352,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1429,8 +1388,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1447,7 +1404,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1476,8 +1432,6 @@ as_boolean
 (
 )
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1494,7 +1448,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1522,8 +1475,6 @@ as_boolean
 (
 )
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1540,7 +1491,6 @@ as
 u32
 )
 ;
-}
 }
 if
 let
@@ -1577,8 +1527,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1595,7 +1543,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1633,8 +1580,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1651,7 +1596,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1689,8 +1633,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1707,7 +1649,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1745,8 +1686,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1763,7 +1702,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1801,8 +1739,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1819,7 +1755,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1857,8 +1792,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1875,7 +1808,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1913,8 +1845,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1931,7 +1861,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -1969,8 +1898,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -1987,7 +1914,6 @@ as
 u32
 )
 ;
-}
 }
 }
 if
@@ -2025,8 +1951,6 @@ val
 <
 10000
 {
-unsafe
-{
 JS_SetGCParameter
 (
 runtime
@@ -2043,7 +1967,6 @@ as
 u32
 )
 ;
-}
 }
 }
 runtime
