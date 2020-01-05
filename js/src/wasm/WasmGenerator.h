@@ -504,12 +504,6 @@ numFuncDefs
 )
 const
 ;
-uint32_t
-numFuncs
-(
-)
-const
-;
 MOZ_MUST_USE
 bool
 startFuncDefs
