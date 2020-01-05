@@ -1367,14 +1367,6 @@ Disconnect
 =
 0
 ;
-virtual
-void
-AssertIsDead
-(
-)
-=
-0
-;
 protected
 :
 Request
@@ -1600,7 +1592,6 @@ void
 AssertIsDead
 (
 )
-override
 {
 PROMISE_ASSERT
 (
