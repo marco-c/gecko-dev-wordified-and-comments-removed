@@ -691,6 +691,13 @@ CONFIG
 CLANG_CXX
 '
 ]
+or
+CONFIG
+[
+'
+CLANG_CL
+'
+]
 :
 gyp_vars
 [
