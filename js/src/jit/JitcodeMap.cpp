@@ -130,6 +130,17 @@ include
 "
 vm
 /
+GeckoProfiler
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 TypeInference
 -
 inl

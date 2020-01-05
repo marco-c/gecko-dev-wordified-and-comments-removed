@@ -299,13 +299,14 @@ addressOfActiveJSContext
 )
 {
 return
-&
 runtime
 (
 )
 -
 >
-activeContext
+addressOfActiveContext
+(
+)
 ;
 }
 #

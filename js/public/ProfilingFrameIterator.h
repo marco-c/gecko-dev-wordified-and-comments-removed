@@ -107,9 +107,9 @@ JS_PUBLIC_API
 ProfilingFrameIterator
 )
 {
-JSRuntime
+JSContext
 *
-rt_
+cx_
 ;
 uint32_t
 sampleBufferGen_

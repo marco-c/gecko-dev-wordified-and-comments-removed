@@ -305,6 +305,17 @@ include
 "
 vm
 /
+GeckoProfiler
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 -
 inl
