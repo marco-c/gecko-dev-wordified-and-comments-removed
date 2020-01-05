@@ -1901,6 +1901,28 @@ log
 '
 )
         
+html_report_file
+=
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_blob_upload_dir
+'
+]
+                                        
+'
+report
+.
+html
+'
+)
+        
 config_fmt_args
 =
 {
@@ -2052,6 +2074,12 @@ error_summary_file
 '
 :
 error_summary_file
+            
+'
+html_report_file
+'
+:
+html_report_file
             
 '
 gecko_log

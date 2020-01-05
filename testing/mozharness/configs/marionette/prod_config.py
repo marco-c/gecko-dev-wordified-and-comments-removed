@@ -1,14 +1,3 @@
-#
-This
-is
-a
-template
-config
-file
-for
-marionette
-production
-.
 import
 os
 HG_SHARE_BASE_DIR
@@ -24,10 +13,6 @@ shared
 config
 =
 {
-    
-#
-marionette
-options
     
 "
 marionette_address
@@ -342,6 +327,20 @@ errorsummary
 %
 (
 error_summary_file
+)
+s
+"
+                
+"
+-
+-
+log
+-
+html
+=
+%
+(
+html_report_file
 )
 s
 "
