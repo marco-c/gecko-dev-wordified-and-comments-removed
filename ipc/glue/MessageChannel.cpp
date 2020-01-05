@@ -8999,10 +8999,13 @@ aMsg
 type
 (
 )
+StringFromIPCMessageType
+(
 aMsg
 .
-name
+type
 (
+)
 )
 errorMsg
 )

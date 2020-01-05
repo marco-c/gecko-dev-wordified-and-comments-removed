@@ -1173,10 +1173,8 @@ const
 char
 *
 aContextDescription
-const
-char
-*
-aMessageDescription
+uint32_t
+aMessageId
 MessageDirection
 aDirection
 )
@@ -1241,7 +1239,10 @@ eReceiving
 aOtherPid
 aTopLevelProtocol
 aContextDescription
-aMessageDescription
+StringFromIPCMessageType
+(
+aMessageId
+)
 )
 ;
 #
