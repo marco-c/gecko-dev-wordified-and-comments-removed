@@ -19,15 +19,15 @@ magic3
 0x6d
 ;
 const
-experimentalVersion
+encodingVersion
 =
-0xd
+0x1
 ;
 const
 ver0
 =
 (
-experimentalVersion
+encodingVersion
 >
 >
 >
@@ -40,7 +40,7 @@ const
 ver1
 =
 (
-experimentalVersion
+encodingVersion
 >
 >
 >
@@ -53,7 +53,7 @@ const
 ver2
 =
 (
-experimentalVersion
+encodingVersion
 >
 >
 >
@@ -66,7 +66,7 @@ const
 ver3
 =
 (
-experimentalVersion
+encodingVersion
 >
 >
 >

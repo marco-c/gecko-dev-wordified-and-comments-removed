@@ -31,6 +31,13 @@ const
 uint32_t
 EncodingVersion
 =
+0x01
+;
+static
+const
+uint32_t
+PrevEncodingVersion
+=
 0x0d
 ;
 static
