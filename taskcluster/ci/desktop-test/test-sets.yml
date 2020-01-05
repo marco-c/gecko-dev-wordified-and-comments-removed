@@ -445,6 +445,8 @@ tests
 -
 mochitest
 -
+mochitest
+-
 browser
 -
 chrome
