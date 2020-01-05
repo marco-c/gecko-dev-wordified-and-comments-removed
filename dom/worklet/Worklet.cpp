@@ -1084,6 +1084,12 @@ error
 ;
 error
 .
+MightThrowJSException
+(
+)
+;
+error
+.
 StealExceptionFromJSContext
 (
 cx
