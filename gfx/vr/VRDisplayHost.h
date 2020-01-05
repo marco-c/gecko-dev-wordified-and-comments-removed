@@ -207,7 +207,7 @@ VRLayerParent
 *
 aLayer
 const
-uint32_t
+int32_t
 &
 aInputFrameID
 mozilla
@@ -327,7 +327,7 @@ mLastSensorState
 kMaxLatencyFrames
 ]
 ;
-uint32_t
+int32_t
 mInputFrameID
 ;
 private

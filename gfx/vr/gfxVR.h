@@ -790,7 +790,7 @@ VRHMDSensorState
 double
 timestamp
 ;
-uint32_t
+int32_t
 inputFrameID
 ;
 VRDisplayCapabilityFlags

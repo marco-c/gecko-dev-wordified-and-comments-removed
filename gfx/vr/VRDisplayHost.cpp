@@ -308,7 +308,7 @@ VRLayerParent
 *
 aLayer
 const
-uint32_t
+int32_t
 &
 aInputFrameID
 PTextureParent
@@ -330,7 +330,7 @@ Rect
 aRightEyeRect
 )
 {
-uint32_t
+int32_t
 inputFrameID
 =
 aInputFrameID
@@ -346,6 +346,18 @@ inputFrameID
 inputFrameID
 =
 mInputFrameID
+;
+}
+if
+(
+inputFrameID
+<
+0
+)
+{
+inputFrameID
+=
+0
 ;
 }
 VRHMDSensorState
@@ -507,7 +519,7 @@ VRLayerParent
 *
 aLayer
 const
-uint32_t
+int32_t
 &
 aInputFrameID
 PTextureParent
