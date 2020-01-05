@@ -455,11 +455,6 @@ attribute
 WorkerLocation
 location
 ;
-void
-close
-(
-)
-;
 attribute
 OnErrorEventHandler
 onerror
@@ -510,6 +505,11 @@ sequence
 Transferable
 >
 transfer
+)
+;
+void
+close
+(
 )
 ;
 attribute
