@@ -102,6 +102,12 @@ use
 servo_util
 :
 :
+opts
+;
+use
+servo_util
+:
+:
 time
 :
 :
@@ -1861,9 +1867,12 @@ UnsafeFlow
 )
 {
 if
-shared_layout_context
-.
 opts
+:
+:
+get
+(
+)
 .
 bubble_inline_sizes_separately
 {

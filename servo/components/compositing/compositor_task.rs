@@ -137,15 +137,6 @@ use
 servo_util
 :
 :
-opts
-:
-:
-Opts
-;
-use
-servo_util
-:
-:
 time
 :
 :
@@ -937,9 +928,6 @@ Rc
 Window
 >
 >
-opts
-:
-Opts
 port
 :
 Receiver
@@ -976,7 +964,6 @@ IOCompositor
 create
 (
 window
-opts
 port
 constellation_chan
 .

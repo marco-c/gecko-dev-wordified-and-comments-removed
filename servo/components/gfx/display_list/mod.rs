@@ -83,6 +83,12 @@ use
 servo_util
 :
 :
+opts
+;
+use
+servo_util
+:
+:
 range
 :
 :
@@ -2238,9 +2244,12 @@ baseline_origin
 text
 .
 text_color
-render_context
-.
 opts
+:
+:
+get
+(
+)
 .
 enable_text_antialiasing
 )

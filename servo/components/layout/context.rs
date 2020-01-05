@@ -89,15 +89,6 @@ geometry
 Au
 ;
 use
-servo_util
-:
-:
-opts
-:
-:
-Opts
-;
-use
 sync
 :
 :
@@ -309,10 +300,6 @@ pub
 url
 :
 Url
-pub
-opts
-:
-Opts
 pub
 dirty
 :
