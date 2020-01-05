@@ -9585,5 +9585,12 @@ IChildProcess
 .
 java
 '
+'
+process
+/
+IProcessManager
+.
+java
+'
 ]
 ]

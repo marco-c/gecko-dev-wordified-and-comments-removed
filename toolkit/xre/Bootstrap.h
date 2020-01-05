@@ -390,6 +390,9 @@ virtual
 void
 XRE_SetAndroidChildFds
 (
+JNIEnv
+*
+aEnv
 int
 aCrashFd
 int

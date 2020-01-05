@@ -11,6 +11,9 @@ nsWeakReference
 .
 h
 "
+struct
+nsIMEUpdatePreference
+;
 namespace
 mozilla
 {
@@ -66,6 +69,16 @@ const
 IMENotification
 &
 aNotification
+)
+=
+0
+;
+NS_IMETHOD_
+(
+nsIMEUpdatePreference
+)
+GetIMEUpdatePreference
+(
 )
 =
 0

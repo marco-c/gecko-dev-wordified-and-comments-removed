@@ -1220,13 +1220,6 @@ override
 #
 endif
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
-(
-)
-override
-;
-virtual
 nsresult
 SetNonClientMargins
 (

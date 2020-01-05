@@ -1439,14 +1439,16 @@ return
 dispatcher
 ;
 }
+NS_IMETHODIMP_
+(
 nsIMEUpdatePreference
+)
 IMContextWrapper
 :
 :
 GetIMEUpdatePreference
 (
 )
-const
 {
 if
 (

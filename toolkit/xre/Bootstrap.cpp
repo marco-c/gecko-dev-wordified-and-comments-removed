@@ -312,6 +312,9 @@ virtual
 void
 XRE_SetAndroidChildFds
 (
+JNIEnv
+*
+aEnv
 int
 aCrashFd
 int
@@ -323,6 +326,7 @@ override
 :
 XRE_SetAndroidChildFds
 (
+aEnv
 aCrashFd
 aIPCFd
 )

@@ -2262,6 +2262,7 @@ gBootstrap
 >
 XRE_SetAndroidChildFds
 (
+jenv
 crashFd
 ipcFd
 )

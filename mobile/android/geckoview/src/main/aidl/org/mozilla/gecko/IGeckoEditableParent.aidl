@@ -66,6 +66,13 @@ gecko
 import
 android
 .
+os
+.
+IBinder
+;
+import
+android
+.
 view
 .
 KeyEvent
@@ -108,6 +115,8 @@ GeckoEditableListener
 void
 notifyIME
 (
+IGeckoEditableChild
+child
 int
 type
 )
@@ -148,6 +157,8 @@ selection
 void
 onSelectionChange
 (
+IBinder
+token
 int
 start
 int
@@ -166,6 +177,8 @@ text
 void
 onTextChange
 (
+IBinder
+token
 in
 CharSequence
 text
@@ -190,6 +203,8 @@ event
 void
 onDefaultKeyEvent
 (
+IBinder
+token
 in
 KeyEvent
 event
@@ -208,6 +223,8 @@ composition
 void
 updateCompositionRects
 (
+IBinder
+token
 in
 RectF
 [
