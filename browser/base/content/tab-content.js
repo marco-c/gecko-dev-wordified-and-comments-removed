@@ -666,9 +666,9 @@ chromeGlobal
 .
 addEventListener
 (
-"
+'
 AboutHomeLoad
-"
+'
 this
 false
 true
@@ -3555,6 +3555,7 @@ shouldLoadURI
 aDocShell
 aURI
 aReferrer
+aTriggeringPrincipal
 )
 {
 if
@@ -3577,6 +3578,8 @@ redirectLoad
 aDocShell
 aURI
 aReferrer
+aTriggeringPrincipal
+false
 )
 ;
 return
@@ -3606,6 +3609,7 @@ reloadInFreshProcess
 aDocShell
 aURI
 aReferrer
+aTriggeringPrincipal
 )
 {
 E10SUtils
@@ -3615,6 +3619,7 @@ redirectLoad
 aDocShell
 aURI
 aReferrer
+aTriggeringPrincipal
 true
 )
 ;
