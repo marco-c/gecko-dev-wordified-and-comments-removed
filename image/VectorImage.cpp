@@ -2995,6 +2995,15 @@ aFlags
 )
 opacity
 (
+aSVGContext
+?
+aSVGContext
+-
+>
+GetGlobalOpacity
+(
+)
+:
 aOpacity
 )
 {
