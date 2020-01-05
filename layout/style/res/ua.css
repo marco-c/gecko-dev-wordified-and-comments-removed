@@ -1304,6 +1304,14 @@ shadow
 #
 202020
 ;
+box
+-
+decoration
+-
+break
+:
+clone
+;
 margin
 :
 0
