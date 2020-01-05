@@ -828,9 +828,6 @@ azureSkiaGL
 )
 |
 |
-azureQuartz
-|
-|
 (
 azureSkiaGL
 &
@@ -887,9 +884,6 @@ azureSkia
 !
 azureSkiaGL
 )
-|
-|
-azureQuartz
 |
 |
 (
@@ -1254,14 +1248,6 @@ space
 and
 device
 space
-fuzzy
--
-if
-(
-azureQuartz
-2
-128
-)
 fuzzy
 -
 if

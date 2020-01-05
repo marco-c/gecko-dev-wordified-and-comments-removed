@@ -3729,17 +3729,6 @@ cairo
 ;
 sandbox
 .
-azureQuartz
-=
-canvasBackend
-=
-=
-"
-quartz
-"
-;
-sandbox
-.
 azureSkia
 =
 canvasBackend
