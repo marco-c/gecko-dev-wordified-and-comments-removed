@@ -2240,7 +2240,7 @@ stylo_talos
 '
 )
 def
-target_tasks_stylo
+target_stylo_talos
 (
 full_task_graph
 parameters
