@@ -63,15 +63,6 @@ activity_stream_main_recyclerview
 "
 android
 :
-background
-=
-"
-color
-/
-about_page_header_grey
-"
-android
-:
 layout_width
 =
 "

@@ -202,6 +202,8 @@ extractLabel
 (
 String
 url
+boolean
+usePath
 )
 {
 if
@@ -230,6 +232,11 @@ parse
 url
 )
 ;
+if
+(
+usePath
+)
+{
 final
 String
 segment
@@ -334,6 +341,7 @@ hasUndesiredPrefix
 return
 segment
 ;
+}
 }
 }
 final
