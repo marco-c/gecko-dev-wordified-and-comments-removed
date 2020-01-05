@@ -5415,10 +5415,9 @@ principal
 )
 ;
 }
-static
 const
 JSClassOps
-ExpandoObjectClassOps
+XrayExpandoObjectClassOps
 =
 {
 nullptr
@@ -5446,7 +5445,7 @@ JSSLOT_EXPANDO_COUNT
 |
 JSCLASS_FOREGROUND_FINALIZE
 &
-ExpandoObjectClassOps
+XrayExpandoObjectClassOps
 }
 ;
 bool

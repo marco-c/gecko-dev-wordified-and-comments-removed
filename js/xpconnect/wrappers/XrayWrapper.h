@@ -3765,6 +3765,11 @@ JSSLOT_EXPANDO_PROTOTYPE
 JSSLOT_EXPANDO_COUNT
 }
 ;
+extern
+const
+JSClassOps
+XrayExpandoObjectClassOps
+;
 }
 #
 endif
