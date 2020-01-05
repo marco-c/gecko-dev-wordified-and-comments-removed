@@ -53,7 +53,7 @@ PropTypes
 object
 .
 isRequired
-onCauseBadgeClick
+onCauseBadgeMouseDown
 :
 PropTypes
 .
@@ -95,7 +95,7 @@ item
 {
 cause
 }
-onCauseBadgeClick
+onCauseBadgeMouseDown
 }
 =
 this
@@ -196,9 +196,9 @@ cause
 -
 stack
 "
-onClick
+onMouseDown
 :
-onCauseBadgeClick
+onCauseBadgeMouseDown
 }
 "
 JS

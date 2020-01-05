@@ -498,7 +498,7 @@ fromCache
 PropTypes
 .
 bool
-onCauseBadgeClick
+onCauseBadgeMouseDown
 :
 PropTypes
 .
@@ -524,7 +524,14 @@ PropTypes
 func
 .
 isRequired
-onSecurityIconClick
+onSecurityIconMouseDown
+:
+PropTypes
+.
+func
+.
+isRequired
+onThumbnailMouseDown
 :
 PropTypes
 .
@@ -674,8 +681,9 @@ firstRequestStartedMillis
 fromCache
 onContextMenu
 onMouseDown
-onCauseBadgeClick
-onSecurityIconClick
+onCauseBadgeMouseDown
+onSecurityIconMouseDown
+onThumbnailMouseDown
 }
 =
 this
@@ -810,6 +818,7 @@ RequestListColumnFile
 (
 {
 item
+onThumbnailMouseDown
 }
 )
 columns
@@ -858,7 +867,7 @@ RequestListColumnDomain
 (
 {
 item
-onSecurityIconClick
+onSecurityIconMouseDown
 }
 )
 columns
@@ -891,7 +900,7 @@ RequestListColumnCause
 (
 {
 item
-onCauseBadgeClick
+onCauseBadgeMouseDown
 }
 )
 columns
