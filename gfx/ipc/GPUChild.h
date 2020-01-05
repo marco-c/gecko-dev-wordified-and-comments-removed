@@ -170,6 +170,10 @@ Shmem
 &
 &
 shmem
+const
+NativeThreadId
+&
+aThreadId
 )
 override
 ;

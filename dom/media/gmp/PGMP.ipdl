@@ -147,6 +147,8 @@ InitCrashReporter
 (
 Shmem
 shmem
+NativeThreadId
+threadId
 )
 ;
 async

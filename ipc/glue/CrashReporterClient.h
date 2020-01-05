@@ -42,6 +42,9 @@ Shmem
 .
 h
 "
+#
+ifdef
+MOZ_CRASHREPORTER
 namespace
 mozilla
 {
@@ -128,6 +131,12 @@ aToplevelProtocol
 SendInitCrashReporter
 (
 shmem
+CrashReporter
+:
+:
+CurrentThreadId
+(
+)
 )
 ;
 return
@@ -222,5 +231,7 @@ mMetadata
 ;
 }
 }
+#
+endif
 #
 endif
