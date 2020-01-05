@@ -3170,6 +3170,11 @@ xDiff
 ;
 if
 (
+aTopCornerRadiusY
+>
+0
+&
+&
 aBandYMost
 >
 =
@@ -3215,6 +3220,11 @@ xIntercept
 else
 if
 (
+aBottomCornerRadiusY
+>
+0
+&
+&
 aBandY
 >
 =
