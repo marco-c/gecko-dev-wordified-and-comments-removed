@@ -1498,7 +1498,7 @@ insaneSacrificialGoat
 new
 ServerSocket
 (
-0
+666
 Ci
 .
 nsIServerSocket
