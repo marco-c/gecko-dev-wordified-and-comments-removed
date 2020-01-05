@@ -11312,6 +11312,10 @@ waiting
 :
 %
 d
+wfk
+:
+%
+d
 sid
 :
 %
@@ -11416,6 +11420,9 @@ Length
 mAudio
 .
 mWaitingForData
+mAudio
+.
+mWaitingForKey
 mAudio
 .
 mLastStreamSourceID
@@ -11560,6 +11567,10 @@ waiting
 :
 %
 d
+wfk
+:
+%
+d
 sid
 :
 %
@@ -11664,6 +11675,9 @@ Length
 mVideo
 .
 mWaitingForData
+mVideo
+.
+mWaitingForKey
 mVideo
 .
 mLastStreamSourceID
