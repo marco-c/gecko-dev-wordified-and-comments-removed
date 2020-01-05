@@ -1479,13 +1479,9 @@ values
 .
 textContent
 "
-\
-"
 Hello
 JSON
 !
-\
-"
 "
 "
 The
