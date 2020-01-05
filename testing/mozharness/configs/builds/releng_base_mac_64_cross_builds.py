@@ -246,12 +246,6 @@ secrets
 ]
     
 '
-enable_ccache
-'
-:
-True
-    
-'
 enable_check_test
 '
 :
