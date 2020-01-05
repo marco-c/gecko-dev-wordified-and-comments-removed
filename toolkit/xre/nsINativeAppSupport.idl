@@ -807,9 +807,6 @@ flushed
 interface
 nsIXULWindow
 ;
-interface
-nsICmdLineService
-;
 [
 scriptable
 uuid

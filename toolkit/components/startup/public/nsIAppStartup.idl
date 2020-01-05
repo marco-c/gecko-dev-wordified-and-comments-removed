@@ -99,9 +99,6 @@ nsISupports
 idl
 "
 interface
-nsICmdLineService
-;
-interface
 nsIToolkitProfile
 ;
 [
