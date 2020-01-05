@@ -1919,6 +1919,7 @@ GetOriginAttributes
 &
 originAttributes
 )
+;
 CreatePushHashKey
 (
 nsDependentCString
