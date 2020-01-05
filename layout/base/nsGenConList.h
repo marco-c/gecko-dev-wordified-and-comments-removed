@@ -265,10 +265,6 @@ nsGenConList
 (
 )
 :
-mLastInserted
-(
-nullptr
-)
 mSize
 (
 0
@@ -484,10 +480,6 @@ nsGenConNode
 *
 >
 mNodes
-;
-nsGenConNode
-*
-mLastInserted
 ;
 }
 ;
