@@ -547,11 +547,12 @@ load
 1
 .
 html
-skip
+asserts
 -
 if
 (
 stylo
+2
 )
 load
 601437
@@ -561,7 +562,7 @@ load
 html
 #
 bug
-1323706
+1324634
 load
 601439
 -
