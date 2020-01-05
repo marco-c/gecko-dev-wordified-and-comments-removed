@@ -113,10 +113,6 @@ include
 protocol
 PGMPDecryptor
 ;
-include
-protocol
-PGMPAudioDecoder
-;
 namespace
 mozilla
 {
@@ -132,9 +128,6 @@ PGMPService
 PGMP
 ;
 manages
-PGMPAudioDecoder
-;
-manages
 PGMPDecryptor
 ;
 manages
@@ -145,11 +138,6 @@ PGMPVideoEncoder
 ;
 child
 :
-async
-PGMPAudioDecoder
-(
-)
-;
 async
 PGMPDecryptor
 (
