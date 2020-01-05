@@ -28,7 +28,6 @@ grid
 enabled
 true
 )
-fails
 =
 =
 grid
@@ -49,7 +48,6 @@ handling
 1a
 .
 xhtml
-fails
 =
 =
 grid
