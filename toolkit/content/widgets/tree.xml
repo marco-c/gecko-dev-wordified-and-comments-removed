@@ -6659,6 +6659,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByOffset
 (
 -
@@ -6706,6 +6708,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByOffset
 (
 1
@@ -6759,6 +6763,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByOffsetShift
 (
 -
@@ -6807,6 +6813,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByOffsetShift
 (
 1
@@ -6859,6 +6867,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByPage
 (
 -
@@ -6906,6 +6916,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByPage
 (
 1
@@ -6959,6 +6971,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByPageShift
 (
 -
@@ -7007,6 +7021,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveByPageShift
 (
 1
@@ -7059,6 +7075,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveToEdge
 (
 0
@@ -7104,6 +7122,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveToEdge
 (
 this
@@ -7156,6 +7176,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveToEdgeShift
 (
 0
@@ -7202,6 +7224,8 @@ _editingColumn
 )
 return
 ;
+this
+.
 _moveToEdgeShift
 (
 this

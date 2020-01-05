@@ -6,6 +6,8 @@ deployDir
 .
 /
 "
+;
+var
 exportedSymbol
 =
 '

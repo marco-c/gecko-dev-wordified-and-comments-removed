@@ -410,6 +410,8 @@ this
 .
 toolbarset
 =
+this
+.
 toolbarset
 .
 nextSibling
@@ -438,6 +440,8 @@ index
 ;
 while
 (
+this
+.
 toolbarset
 .
 hasAttribute
@@ -457,6 +461,8 @@ index
 var
 toolbarInfo
 =
+this
+.
 toolbarset
 .
 getAttribute

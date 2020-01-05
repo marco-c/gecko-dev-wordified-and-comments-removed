@@ -142,6 +142,7 @@ Ci
 nsIFile
 )
 ;
+let
 tmpf
 =
 tmpd
@@ -477,6 +478,7 @@ rootDir
 ;
 for
 (
+let
 f
 in
 files

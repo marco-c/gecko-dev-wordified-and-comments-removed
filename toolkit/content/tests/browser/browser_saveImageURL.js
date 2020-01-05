@@ -49,6 +49,13 @@ from
 browser
 "
 ;
+var
+MockFilePicker
+=
+SpecialPowers
+.
+MockFilePicker
+;
 MockFilePicker
 .
 init

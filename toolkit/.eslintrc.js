@@ -897,6 +897,11 @@ dump
 :
 true
 "
+InternalError
+"
+:
+true
+"
 KeyEvent
 "
 :
@@ -908,6 +913,11 @@ openDialog
 false
 "
 MenuBoxObject
+"
+:
+false
+"
+SimpleGestureEvent
 "
 :
 false

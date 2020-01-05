@@ -165,7 +165,7 @@ onplay
 {
 ok
 (
-needToReceiveOnPlay
+false
 "
 Should
 not
