@@ -4105,6 +4105,17 @@ storageServerForUsers
 "
 ]
 "
+stringbundle
+.
+js
+"
+:
+[
+"
+StringBundle
+"
+]
+"
 strings
 .
 js
