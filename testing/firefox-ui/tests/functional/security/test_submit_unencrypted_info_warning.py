@@ -87,9 +87,7 @@ mozilla
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (

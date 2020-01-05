@@ -17,14 +17,6 @@ firefox_puppeteer
 .
 api
 .
-prefs
-import
-Preferences
-from
-firefox_puppeteer
-.
-api
-.
 software_update
 import
 SoftwareUpdate
@@ -1218,16 +1210,9 @@ UpdateWizardDialog
 "
 "
             
-prefs
-=
-Preferences
-(
 self
 .
 marionette
-)
-            
-prefs
 .
 set_pref
 (

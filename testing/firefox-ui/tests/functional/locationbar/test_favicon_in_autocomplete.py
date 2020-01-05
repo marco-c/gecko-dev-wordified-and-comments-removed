@@ -61,9 +61,7 @@ setUp
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (
@@ -75,9 +73,7 @@ False
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (

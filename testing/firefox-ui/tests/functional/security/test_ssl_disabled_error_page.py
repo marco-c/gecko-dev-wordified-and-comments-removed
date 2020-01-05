@@ -82,9 +82,7 @@ True
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (
@@ -102,9 +100,7 @@ min
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (

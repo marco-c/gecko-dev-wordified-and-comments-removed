@@ -544,9 +544,6 @@ api
 places
 api
 /
-prefs
-api
-/
 security
 api
 /

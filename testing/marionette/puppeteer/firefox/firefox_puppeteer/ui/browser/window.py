@@ -330,7 +330,7 @@ locale
 return
 self
 .
-_prefs
+marionette
 .
 get_pref
 (
@@ -341,7 +341,8 @@ startup
 .
 homepage
 '
-interface
+                                        
+value_type
 =
 '
 nsIPrefLocalizedString
