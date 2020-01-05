@@ -574,8 +574,9 @@ RawServoDeclarationBlockBorrowed
 declarations
 nsCSSPropertyID
 property
-nsIAtom
-*
+const
+nsAString
+&
 value
 )
 SERVO_BINDING_FUNC
