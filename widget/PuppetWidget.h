@@ -513,6 +513,12 @@ GetChromeDimensions
 )
 ;
 }
+int32_t
+RoundsWidgetCoordinatesTo
+(
+)
+override
+;
 void
 InitEvent
 (
@@ -787,6 +793,8 @@ UpdateBackingScaleCache
 (
 float
 aDpi
+int32_t
+aRounding
 double
 aScale
 )
@@ -794,6 +802,10 @@ aScale
 mDPI
 =
 aDpi
+;
+mRounding
+=
+aRounding
 ;
 mDefaultScale
 =
@@ -1368,6 +1380,9 @@ mContentCache
 ;
 float
 mDPI
+;
+int32_t
+mRounding
 ;
 double
 mDefaultScale
