@@ -19873,6 +19873,12 @@ active
 true
 ;
 addon
+.
+userDisabled
+=
+false
+;
+addon
 =
 XPIDatabase
 .

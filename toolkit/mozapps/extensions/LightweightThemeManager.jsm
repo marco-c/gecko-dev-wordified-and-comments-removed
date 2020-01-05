@@ -2019,6 +2019,13 @@ getUsedTheme
 id
 )
 ;
+if
+(
+!
+theme
+)
+return
+;
 _themeIDBeingEnabled
 =
 id
