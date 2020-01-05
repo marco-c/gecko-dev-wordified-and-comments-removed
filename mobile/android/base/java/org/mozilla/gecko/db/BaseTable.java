@@ -44,6 +44,13 @@ util
 .
 Log
 ;
+import
+java
+.
+util
+.
+Arrays
+;
 public
 abstract
 class
@@ -175,7 +182,12 @@ log
 query
 "
 +
+Arrays
+.
+toString
+(
 columns
+)
 +
 "
 in
