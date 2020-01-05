@@ -3708,6 +3708,17 @@ mPendingPlayPromisesRunners
 ;
 }
 ;
+bool
+HasDebuggerPrivilege
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
 }
 }
 #
