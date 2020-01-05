@@ -1525,6 +1525,12 @@ if
 (
 !
 aGeometry
+|
+|
+!
+SupportsLayerGeometry
+(
+)
 )
 {
 DrawQuad

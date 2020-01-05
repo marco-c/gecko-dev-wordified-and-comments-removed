@@ -843,6 +843,17 @@ platform
 )
 ;
 }
+virtual
+bool
+SupportsLayerGeometry
+(
+)
+const
+{
+return
+false
+;
+}
 void
 SlowDrawRect
 (

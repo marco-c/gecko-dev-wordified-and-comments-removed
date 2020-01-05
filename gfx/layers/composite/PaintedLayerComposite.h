@@ -180,6 +180,16 @@ gfx
 IntRect
 &
 aClipRect
+const
+Maybe
+<
+gfx
+:
+:
+Polygon
+>
+&
+aGeometry
 )
 override
 ;

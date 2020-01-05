@@ -724,6 +724,14 @@ aVisibleRect
 override
 ;
 virtual
+bool
+SupportsLayerGeometry
+(
+)
+const
+override
+;
+virtual
 void
 EndFrame
 (
