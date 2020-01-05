@@ -243,6 +243,11 @@ each
 -
 in_loops_are_deprecated
 "
+JSMSG_STRICT_NON_SIMPLE_PARAMS
+:
+"
+Strict_Non_Simple_Params
+"
 }
 ;
 const
