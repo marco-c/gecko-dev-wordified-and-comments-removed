@@ -15,6 +15,13 @@ h
 #
 include
 "
+DOMParserBinding
+.
+h
+"
+#
+include
+"
 HTMLCollectionBinding
 .
 h
@@ -77,6 +84,12 @@ nullptr
 REGISTER_PROTO
 (
 ClientRectList
+nullptr
+)
+;
+REGISTER_PROTO
+(
+DOMParser
 nullptr
 )
 ;
