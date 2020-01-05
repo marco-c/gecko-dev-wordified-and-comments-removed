@@ -12006,6 +12006,7 @@ GetPropIRGenerator
 gen
 (
 cx
+script
 pc
 CacheKind
 :
