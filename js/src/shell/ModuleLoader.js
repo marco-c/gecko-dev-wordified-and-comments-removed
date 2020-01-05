@@ -332,9 +332,14 @@ path
 )
 ;
 }
+#
+endif
 const
 pathsep
 =
+#
+ifdef
+XP_WIN
 "
 \
 \
@@ -342,9 +347,6 @@ pathsep
 ;
 #
 else
-const
-pathsep
-=
 "
 /
 "
