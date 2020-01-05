@@ -338,11 +338,11 @@ compositing
 ;
 pub
 mod
-content
+scripting
 {
 pub
 mod
-content_task
+script_task
 ;
 }
 pub

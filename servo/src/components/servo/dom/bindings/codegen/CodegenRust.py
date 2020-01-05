@@ -19161,7 +19161,7 @@ get_wrappercache
 ;
   
 let
-content
+script_context
 =
 task_from_context
 (
@@ -19174,7 +19174,7 @@ handler
 =
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -20500,7 +20500,7 @@ CGGeneric
 (
 "
 let
-content
+script_context
 =
 task_from_context
 (
@@ -20522,7 +20522,7 @@ s_ids_mut
 =
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -22190,7 +22190,7 @@ body
 =
 "
 let
-content
+script_context
 =
 task_from_context
 (
@@ -22449,7 +22449,7 @@ null
   
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -22503,7 +22503,7 @@ body
 "
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -26329,7 +26329,7 @@ setup
 =
 "
 let
-content
+script_context
 =
 task_from_context
 (
@@ -26394,7 +26394,7 @@ method_ids
 =
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -26491,7 +26491,7 @@ attr_ids
 =
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -26588,7 +26588,7 @@ const_ids
 =
 (
 *
-content
+script_context
 )
 .
 dom_static
@@ -28991,7 +28991,7 @@ now
 .
   
 let
-content
+script_context
 =
 task_from_context
 (
@@ -29004,7 +29004,7 @@ global
 =
 (
 *
-content
+script_context
 )
 .
 window
@@ -32873,10 +32873,10 @@ eventtarget
 '
                           
 '
-content
+scripting
 :
 :
-content_task
+script_task
 :
 :
 task_from_context

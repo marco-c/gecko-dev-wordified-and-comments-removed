@@ -177,7 +177,8 @@ warn
 "
 osmain
 :
-content
+script
+task
 can
 '
 t

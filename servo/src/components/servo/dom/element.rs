@@ -854,7 +854,7 @@ is_element
 )
 ;
 let
-content
+script_context
 =
 unsafe
 {
@@ -863,11 +863,11 @@ mut
 *
 win
 .
-content_task
+script_context
 }
 ;
 match
-content
+script_context
 .
 query_layout
 (
@@ -1116,7 +1116,7 @@ is_element
 )
 ;
 let
-content
+script_context
 =
 unsafe
 {
@@ -1125,11 +1125,11 @@ mut
 *
 win
 .
-content_task
+script_context
 }
 ;
 match
-content
+script_context
 .
 query_layout
 (

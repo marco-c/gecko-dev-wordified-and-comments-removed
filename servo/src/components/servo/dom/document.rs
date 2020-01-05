@@ -1,13 +1,4 @@
 use
-content
-:
-:
-content_task
-:
-:
-global_content
-;
-use
 dom
 :
 :
@@ -66,6 +57,15 @@ window
 :
 :
 Window
+;
+use
+scripting
+:
+:
+script_task
+:
+:
+global_script_context
 ;
 use
 js
@@ -157,7 +157,7 @@ window
 let
 compartment
 =
-global_content
+global_script_context
 (
 )
 .
@@ -243,7 +243,7 @@ self
 let
 compartment
 =
-global_content
+global_script_context
 (
 )
 .
