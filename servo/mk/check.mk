@@ -57,10 +57,10 @@ src
 1
 )
 check
-DEPS_CLEAN
+DEPS_CHECK
 +
 =
-clean
+check
 -
 (
 1
@@ -166,7 +166,7 @@ DEPS_CHECK
 check
 :
 (
-CHECK_DEPS
+DEPS_CHECK
 )
 check
 -
