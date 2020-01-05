@@ -176,6 +176,11 @@ mscom
 =
 [
 '
+ActivationContext
+.
+h
+'
+'
 DispatchForwarder
 .
 h
@@ -235,6 +240,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ActivationContext
+.
+cpp
+'
 '
 DispatchForwarder
 .
