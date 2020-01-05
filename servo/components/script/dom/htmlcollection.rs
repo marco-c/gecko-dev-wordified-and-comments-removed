@@ -390,6 +390,9 @@ HTMLCollection
 new
 (
 window
+CollectionTypeId
+:
+:
 Live
 (
 JS
@@ -1259,6 +1262,9 @@ self
 .
 collection
 {
+CollectionTypeId
+:
+:
 Static
 (
 ref
@@ -1273,6 +1279,9 @@ len
 )
 as
 u32
+CollectionTypeId
+:
+:
 Live
 (
 ref
@@ -1368,6 +1377,9 @@ self
 .
 collection
 {
+CollectionTypeId
+:
+:
 Static
 (
 ref
@@ -1405,6 +1417,9 @@ clone
 )
 )
 )
+CollectionTypeId
+:
+:
 Live
 (
 ref
@@ -1534,6 +1549,9 @@ self
 .
 collection
 {
+CollectionTypeId
+:
+:
 Static
 (
 ref
@@ -1616,6 +1634,9 @@ from_rooted
 maybe_elem
 )
 )
+CollectionTypeId
+:
+:
 Live
 (
 ref

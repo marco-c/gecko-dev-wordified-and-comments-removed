@@ -13,7 +13,7 @@ block
 {
 BlockFlow
 ISizeAndMarginsComputer
-MarginsMayNotCollapse
+MarginsMayCollapseFlag
 }
 ;
 use
@@ -33,9 +33,8 @@ flow
 :
 :
 {
-Flow
 FlowClass
-TableRowGroupFlowClass
+Flow
 }
 ;
 use
@@ -284,6 +283,9 @@ block_flow
 assign_block_size_block_base
 (
 layout_context
+MarginsMayCollapseFlag
+:
+:
 MarginsMayNotCollapse
 )
 }
@@ -303,7 +305,10 @@ self
 >
 FlowClass
 {
-TableRowGroupFlowClass
+FlowClass
+:
+:
+TableRowGroup
 }
 fn
 as_table_rowgroup

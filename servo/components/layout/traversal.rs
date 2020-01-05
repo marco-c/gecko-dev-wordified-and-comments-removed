@@ -16,9 +16,8 @@ matching
 :
 {
 ApplicableDeclarations
-CannotShare
 MatchMethods
-StyleWasShared
+StyleSharingResult
 }
 ;
 use
@@ -695,6 +694,9 @@ clone
 match
 sharing_result
 {
+StyleSharingResult
+:
+:
 CannotShare
 (
 mut
@@ -806,6 +808,9 @@ node
 ;
 }
 }
+StyleSharingResult
+:
+:
 StyleWasShared
 (
 index

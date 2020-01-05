@@ -565,6 +565,13 @@ int
 {
 #
 [
+allow
+(
+exceeding_bitshifts
+)
+]
+#
+[
 inline
 ]
 fn
@@ -598,6 +605,13 @@ BloomHash
 for
 uint
 {
+#
+[
+allow
+(
+exceeding_bitshifts
+)
+]
 #
 [
 inline

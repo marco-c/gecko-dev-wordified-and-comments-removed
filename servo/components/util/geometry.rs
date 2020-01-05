@@ -66,6 +66,7 @@ num
 :
 :
 {
+Float
 NumCast
 Zero
 }

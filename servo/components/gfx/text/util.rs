@@ -1,4 +1,13 @@
 use
+self
+:
+:
+CompressionMode
+:
+:
+*
+;
+use
 text
 :
 :

@@ -28,7 +28,6 @@ feature
 default_type_params
 globs
 macro_rules
-struct_variant
 phase
 unsafe_destructor
 )

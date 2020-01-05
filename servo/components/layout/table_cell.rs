@@ -12,8 +12,8 @@ block
 :
 {
 BlockFlow
-MarginsMayNotCollapse
 ISizeAndMarginsComputer
+MarginsMayCollapseFlag
 }
 ;
 use
@@ -27,7 +27,6 @@ flow
 :
 :
 {
-TableCellFlowClass
 FlowClass
 Flow
 }
@@ -84,7 +83,7 @@ style
 :
 :
 {
-ColSpanUnsignedIntegerAttribute
+UnsignedIntegerAttribute
 ComputedValues
 }
 ;
@@ -151,6 +150,9 @@ node
 .
 get_unsigned_integer_attribute
 (
+UnsignedIntegerAttribute
+:
+:
 ColSpanUnsignedIntegerAttribute
 )
 .
@@ -254,6 +256,9 @@ block_flow
 assign_block_size_block_base
 (
 layout_context
+MarginsMayCollapseFlag
+:
+:
 MarginsMayNotCollapse
 )
 }
@@ -273,7 +278,10 @@ self
 >
 FlowClass
 {
-TableCellFlowClass
+FlowClass
+:
+:
+TableCell
 }
 fn
 as_table_cell

@@ -1197,6 +1197,9 @@ kind
 "
 =
 >
+ReftestKind
+:
+:
 Same
 "
 !
@@ -1204,6 +1207,9 @@ Same
 "
 =
 >
+ReftestKind
+:
+:
 Different
 part
 =
@@ -2366,6 +2372,9 @@ is_flaky
 )
 {
 (
+ReftestKind
+:
+:
 Same
 true
 )
@@ -2387,6 +2396,9 @@ difference
 output_str
 )
 (
+ReftestKind
+:
+:
 Same
 false
 )
@@ -2405,6 +2417,9 @@ difference
 output_str
 )
 (
+ReftestKind
+:
+:
 Different
 _
 )
@@ -2429,6 +2444,9 @@ reftest
 kind
 =
 =
+ReftestKind
+:
+:
 Same
 )
 ;

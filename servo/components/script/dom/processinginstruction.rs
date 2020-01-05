@@ -103,7 +103,7 @@ eventtarget
 :
 {
 EventTarget
-NodeTargetTypeId
+EventTargetTypeId
 }
 ;
 use
@@ -115,7 +115,7 @@ node
 :
 {
 Node
-ProcessingInstructionNodeTypeId
+NodeTypeId
 }
 ;
 use
@@ -165,9 +165,15 @@ type_id
 )
 =
 =
-NodeTargetTypeId
+EventTargetTypeId
+:
+:
+Node
 (
-ProcessingInstructionNodeTypeId
+NodeTypeId
+:
+:
+ProcessingInstruction
 )
 }
 }
@@ -203,7 +209,10 @@ CharacterData
 :
 new_inherited
 (
-ProcessingInstructionNodeTypeId
+NodeTypeId
+:
+:
+ProcessingInstruction
 data
 document
 )

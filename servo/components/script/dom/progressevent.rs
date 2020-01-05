@@ -131,7 +131,7 @@ event
 :
 {
 Event
-ProgressEventTypeId
+EventTypeId
 }
 ;
 use
@@ -187,7 +187,10 @@ type_id
 )
 =
 =
-ProgressEventTypeId
+EventTypeId
+:
+:
+ProgressEvent
 }
 }
 impl
@@ -219,7 +222,10 @@ Event
 :
 new_inherited
 (
-ProgressEventTypeId
+EventTypeId
+:
+:
+ProgressEvent
 )
 length_computable
 :

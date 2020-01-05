@@ -127,7 +127,7 @@ eventtarget
 :
 {
 EventTarget
-NodeTargetTypeId
+EventTargetTypeId
 }
 ;
 use
@@ -139,7 +139,7 @@ node
 :
 {
 Node
-TextNodeTypeId
+NodeTypeId
 }
 ;
 use
@@ -186,9 +186,15 @@ type_id
 )
 =
 =
-NodeTargetTypeId
+EventTargetTypeId
+:
+:
+Node
 (
-TextNodeTypeId
+NodeTypeId
+:
+:
+Text
 )
 }
 }
@@ -221,7 +227,10 @@ CharacterData
 :
 new_inherited
 (
-TextNodeTypeId
+NodeTypeId
+:
+:
+Text
 text
 document
 )

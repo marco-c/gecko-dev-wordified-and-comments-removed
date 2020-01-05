@@ -19,6 +19,9 @@ bindings
 :
 :
 conversions
+:
+:
+FromJSValConvertible
 ;
 use
 dom
@@ -30,7 +33,7 @@ bindings
 conversions
 :
 :
-FromJSValConvertible
+StringificationBehavior
 ;
 use
 dom
@@ -367,7 +370,7 @@ from_jsval
 (
 cx
 rval
-conversions
+StringificationBehavior
 :
 :
 Default

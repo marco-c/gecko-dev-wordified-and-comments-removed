@@ -428,6 +428,9 @@ ReadyState
 let
 msg
 =
+Msg
+:
+:
 ChangeReadyState
 (
 pipeline_id
@@ -466,6 +469,9 @@ self
 .
 send
 (
+Msg
+:
+:
 ScrollFragmentPoint
 (
 pipeline_id
@@ -497,6 +503,9 @@ self
 .
 send
 (
+Msg
+:
+:
 Exit
 (
 chan
@@ -563,6 +572,9 @@ self
 .
 send
 (
+Msg
+:
+:
 ChangePageTitle
 (
 pipeline_id
@@ -597,6 +609,9 @@ self
 .
 send
 (
+Msg
+:
+:
 KeyEvent
 (
 key
@@ -796,6 +811,9 @@ self
 .
 send
 (
+Msg
+:
+:
 GetGraphicsMetadata
 (
 chan
@@ -838,6 +856,9 @@ self
 .
 send
 (
+Msg
+:
+:
 Paint
 (
 pipeline_id
@@ -957,6 +978,9 @@ self
 .
 send
 (
+Msg
+:
+:
 CreateOrUpdateRootLayer
 (
 layer_properties
@@ -973,6 +997,9 @@ self
 .
 send
 (
+Msg
+:
+:
 CreateOrUpdateDescendantLayer
 (
 layer_properties
@@ -994,6 +1021,9 @@ self
 .
 send
 (
+Msg
+:
+:
 PaintMsgDiscarded
 )
 ;
@@ -1016,6 +1046,9 @@ self
 .
 send
 (
+Msg
+:
+:
 ChangePaintState
 (
 pipeline_id
@@ -1471,7 +1504,7 @@ the
 frame
 tree
 .
-FrameTreeUpdateMsg
+FrameTreeUpdate
 (
 FrameTreeDiff
 Sender
@@ -1575,6 +1608,9 @@ match
 *
 self
 {
+Msg
+:
+:
 Exit
 (
 .
@@ -1590,6 +1626,9 @@ f
 Exit
 "
 )
+Msg
+:
+:
 ShutdownComplete
 (
 .
@@ -1605,6 +1644,9 @@ f
 ShutdownComplete
 "
 )
+Msg
+:
+:
 GetGraphicsMetadata
 (
 .
@@ -1620,6 +1662,9 @@ f
 GetGraphicsMetadata
 "
 )
+Msg
+:
+:
 CreateOrUpdateRootLayer
 (
 .
@@ -1635,6 +1680,9 @@ f
 CreateOrUpdateRootLayer
 "
 )
+Msg
+:
+:
 CreateOrUpdateDescendantLayer
 (
 .
@@ -1650,6 +1698,9 @@ f
 CreateOrUpdateDescendantLayer
 "
 )
+Msg
+:
+:
 SetLayerOrigin
 (
 .
@@ -1665,6 +1716,9 @@ f
 SetLayerOrigin
 "
 )
+Msg
+:
+:
 ScrollFragmentPoint
 (
 .
@@ -1680,6 +1734,9 @@ f
 ScrollFragmentPoint
 "
 )
+Msg
+:
+:
 Paint
 (
 .
@@ -1695,6 +1752,9 @@ f
 Paint
 "
 )
+Msg
+:
+:
 ChangeReadyState
 (
 .
@@ -1710,6 +1770,9 @@ f
 ChangeReadyState
 "
 )
+Msg
+:
+:
 ChangePaintState
 (
 .
@@ -1725,6 +1788,9 @@ f
 ChangePaintState
 "
 )
+Msg
+:
+:
 ChangePageTitle
 (
 .
@@ -1740,6 +1806,9 @@ f
 ChangePageTitle
 "
 )
+Msg
+:
+:
 ChangePageLoadData
 (
 .
@@ -1755,6 +1824,9 @@ f
 ChangePageLoadData
 "
 )
+Msg
+:
+:
 PaintMsgDiscarded
 (
 .
@@ -1770,6 +1842,9 @@ f
 PaintMsgDiscarded
 "
 )
+Msg
+:
+:
 SetIds
 (
 .
@@ -1785,7 +1860,10 @@ f
 SetIds
 "
 )
-FrameTreeUpdateMsg
+Msg
+:
+:
+FrameTreeUpdate
 (
 .
 .
@@ -1800,6 +1878,9 @@ f
 FrameTreeUpdateMsg
 "
 )
+Msg
+:
+:
 LoadComplete
 =
 >
@@ -1811,6 +1892,9 @@ f
 LoadComplete
 "
 )
+Msg
+:
+:
 ScrollTimeout
 (
 .
@@ -1826,6 +1910,9 @@ f
 ScrollTimeout
 "
 )
+Msg
+:
+:
 KeyEvent
 (
 .

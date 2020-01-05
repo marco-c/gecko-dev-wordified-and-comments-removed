@@ -133,7 +133,7 @@ url
 :
 :
 {
-RelativeSchemeData
+SchemeData
 Url
 }
 ;
@@ -185,8 +185,8 @@ pub
 enum
 RequestMode
 {
-CORSMode
-ForcedPreflightMode
+CORS
+ForcedPreflight
 }
 impl
 CORSRequest
@@ -320,7 +320,10 @@ method
 mode
 =
 =
-ForcedPreflightMode
+RequestMode
+:
+:
+ForcedPreflight
 ;
 if
 req
@@ -397,7 +400,10 @@ referer
 .
 scheme_data
 {
-RelativeSchemeData
+SchemeData
+:
+:
+Relative
 (
 ref
 mut
@@ -557,7 +563,10 @@ self
 mode
 =
 =
-ForcedPreflightMode
+RequestMode
+:
+:
+ForcedPreflight
 {
 return
 self
@@ -974,7 +983,10 @@ preflight
 mode
 =
 =
-ForcedPreflightMode
+RequestMode
+:
+:
+ForcedPreflight
 {
 methods
 =
@@ -1169,6 +1181,9 @@ clone
 )
 max_age
 false
+HeaderOrMethod
+:
+:
 MethodData
 (
 m
@@ -1238,6 +1253,9 @@ clone
 )
 max_age
 false
+HeaderOrMethod
+:
+:
 HeaderData
 (
 h
@@ -1375,6 +1393,9 @@ match
 *
 self
 {
+HeaderOrMethod
+:
+:
 HeaderData
 (
 ref
@@ -1416,6 +1437,9 @@ match
 *
 self
 {
+HeaderOrMethod
+:
+:
 MethodData
 (
 ref
@@ -2968,6 +2992,9 @@ s
 {
 Some
 (
+AccessControlAllowOrigin
+:
+:
 AllowStar
 )
 }
@@ -2990,6 +3017,9 @@ map
 |
 url
 |
+AccessControlAllowOrigin
+:
+:
 AllowOrigin
 (
 url
@@ -3035,6 +3065,9 @@ match
 *
 self
 {
+AccessControlAllowOrigin
+:
+:
 AllowStar
 =
 >
@@ -3046,6 +3079,9 @@ fmt
 (
 f
 )
+AccessControlAllowOrigin
+:
+:
 AllowOrigin
 (
 ref
@@ -3217,6 +3253,9 @@ get
 Some
 (
 &
+AccessControlAllowOrigin
+:
+:
 AllowStar
 )
 =
@@ -3225,6 +3264,9 @@ true
 Some
 (
 &
+AccessControlAllowOrigin
+:
+:
 AllowOrigin
 (
 ref

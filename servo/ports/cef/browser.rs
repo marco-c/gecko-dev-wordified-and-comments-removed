@@ -13,8 +13,7 @@ core
 :
 {
 mod
-OffScreenGlobals
-OnScreenGlobals
+ServoCefGlobals
 globals
 }
 ;
@@ -90,7 +89,7 @@ windowing
 {
 Back
 Forward
-NavigationWindowEvent
+WindowEvent
 }
 ;
 use
@@ -168,7 +167,10 @@ core
 :
 send_window_event
 (
-NavigationWindowEvent
+WindowEvent
+:
+:
+Navigation
 (
 Back
 )
@@ -191,7 +193,10 @@ core
 :
 send_window_event
 (
-NavigationWindowEvent
+WindowEvent
+:
+:
+Navigation
 (
 Forward
 )
@@ -340,6 +345,9 @@ replace
 (
 Some
 (
+ServoCefGlobals
+:
+:
 OnScreenGlobals
 (
 RefCell
@@ -484,6 +492,9 @@ replace
 (
 Some
 (
+ServoCefGlobals
+:
+:
 OffScreenGlobals
 (
 RefCell

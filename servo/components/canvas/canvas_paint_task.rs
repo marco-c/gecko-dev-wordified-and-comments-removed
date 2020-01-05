@@ -264,6 +264,9 @@ recv
 (
 )
 {
+CanvasMsg
+:
+:
 FillRect
 (
 ref
@@ -277,6 +280,9 @@ fill_rect
 (
 rect
 )
+CanvasMsg
+:
+:
 StrokeRect
 (
 ref
@@ -290,6 +296,9 @@ stroke_rect
 (
 rect
 )
+CanvasMsg
+:
+:
 ClearRect
 (
 ref
@@ -303,6 +312,9 @@ clear_rect
 (
 rect
 )
+CanvasMsg
+:
+:
 Recreate
 (
 size
@@ -315,6 +327,9 @@ recreate
 (
 size
 )
+CanvasMsg
+:
+:
 Close
 =
 >

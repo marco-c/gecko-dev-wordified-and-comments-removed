@@ -29,7 +29,6 @@ flow
 :
 :
 {
-TableCaptionFlowClass
 FlowClass
 Flow
 }
@@ -133,7 +132,10 @@ self
 >
 FlowClass
 {
-TableCaptionFlowClass
+FlowClass
+:
+:
+TableCaption
 }
 fn
 as_table_caption

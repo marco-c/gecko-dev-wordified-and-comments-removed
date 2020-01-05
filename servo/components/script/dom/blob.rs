@@ -131,10 +131,10 @@ jstraceable
 ]
 pub
 enum
-BlobType
-{
 BlobTypeId
-FileTypeId
+{
+Blob
+File
 }
 #
 [
@@ -149,7 +149,7 @@ reflector_
 Reflector
 type_
 :
-BlobType
+BlobTypeId
 bytes
 :
 Option
@@ -179,7 +179,7 @@ global
 GlobalRef
 type_
 :
-BlobType
+BlobTypeId
 bytes
 :
 Option
@@ -264,6 +264,9 @@ new_inherited
 (
 global
 BlobTypeId
+:
+:
+Blob
 bytes
 )
 *
@@ -799,7 +802,10 @@ self
 .
 type_
 {
-FileTypeId
+BlobTypeId
+:
+:
+File
 =
 >
 true

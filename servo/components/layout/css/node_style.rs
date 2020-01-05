@@ -3,9 +3,7 @@ wrapper
 :
 :
 {
-After
-Before
-Normal
+PseudoElementType
 ThreadSafeLayoutNode
 }
 ;
@@ -127,6 +125,9 @@ get_pseudo_element_type
 (
 )
 {
+PseudoElementType
+:
+:
 Before
 (
 _
@@ -162,6 +163,9 @@ unwrap
 )
 )
 }
+PseudoElementType
+:
+:
 After
 (
 _
@@ -197,6 +201,9 @@ unwrap
 )
 )
 }
+PseudoElementType
+:
+:
 Normal
 =
 >
@@ -313,6 +320,9 @@ get_pseudo_element_type
 (
 )
 {
+PseudoElementType
+:
+:
 Before
 (
 _
@@ -326,6 +336,9 @@ layout_data
 data
 .
 before_style
+PseudoElementType
+:
+:
 After
 (
 _
@@ -339,6 +352,9 @@ layout_data
 data
 .
 after_style
+PseudoElementType
+:
+:
 Normal
 =
 >

@@ -83,8 +83,7 @@ blob
 :
 {
 Blob
-BlobType
-FileTypeId
+BlobTypeId
 }
 ;
 use
@@ -123,7 +122,7 @@ global
 GlobalRef
 type_
 :
-BlobType
+BlobTypeId
 _file_bits
 :
 JSRef
@@ -190,7 +189,10 @@ File
 new_inherited
 (
 global
-FileTypeId
+BlobTypeId
+:
+:
+File
 file_bits
 name
 )

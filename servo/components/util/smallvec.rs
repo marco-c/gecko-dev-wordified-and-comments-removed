@@ -2656,16 +2656,12 @@ impl
 <
 T
 >
-Extendable
-<
-T
->
-for
 name
 <
 T
 >
 {
+pub
 fn
 extend
 <

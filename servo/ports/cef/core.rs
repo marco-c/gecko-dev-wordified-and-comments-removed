@@ -29,10 +29,7 @@ compositing
 windowing
 :
 :
-{
-IdleWindowEvent
 WindowEvent
-}
 ;
 use
 geom
@@ -801,6 +798,9 @@ match
 *
 the_globals
 {
+ServoCefGlobals
+:
+:
 OnScreenGlobals
 (
 ref
@@ -833,6 +833,9 @@ wait_events
 {
 }
 }
+ServoCefGlobals
+:
+:
 OffScreenGlobals
 (
 ref
@@ -883,7 +886,10 @@ cef_do_message_loop_work
 {
 send_window_event
 (
-IdleWindowEvent
+WindowEvent
+:
+:
+Idle
 )
 }
 #
@@ -1008,6 +1014,9 @@ match
 *
 the_globals
 {
+ServoCefGlobals
+:
+:
 OnScreenGlobals
 (
 _
@@ -1088,6 +1097,9 @@ event
 }
 }
 }
+ServoCefGlobals
+:
+:
 OffScreenGlobals
 (
 _
@@ -1259,6 +1271,9 @@ match
 *
 the_globals
 {
+ServoCefGlobals
+:
+:
 OnScreenGlobals
 (
 _
@@ -1276,6 +1291,9 @@ borrow_mut
 method
 (
 )
+ServoCefGlobals
+:
+:
 OffScreenGlobals
 (
 _

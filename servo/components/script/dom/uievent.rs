@@ -144,7 +144,6 @@ event
 {
 Event
 EventTypeId
-UIEventTypeId
 }
 ;
 use
@@ -230,7 +229,10 @@ type_id
 )
 =
 =
-UIEventTypeId
+EventTypeId
+:
+:
+UIEvent
 }
 }
 impl
@@ -304,7 +306,10 @@ UIEvent
 :
 new_inherited
 (
-UIEventTypeId
+EventTypeId
+:
+:
+UIEvent
 )
 global
 :

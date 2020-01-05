@@ -863,6 +863,9 @@ Err
 url
 :
 :
+ParseError
+:
+:
 RelativeUrlWithoutBase
 )
 =

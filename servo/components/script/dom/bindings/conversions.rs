@@ -262,9 +262,6 @@ PrototypeList
 :
 :
 id
-:
-:
-ID
 ;
 fn
 get_prototype_depth
@@ -1555,6 +1552,9 @@ default
 >
 StringificationBehavior
 {
+StringificationBehavior
+:
+:
 Default
 }
 }
@@ -1765,6 +1765,9 @@ if
 nullBehavior
 =
 =
+StringificationBehavior
+:
+:
 Empty
 &
 &
