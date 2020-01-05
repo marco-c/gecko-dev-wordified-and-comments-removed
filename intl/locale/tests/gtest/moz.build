@@ -108,6 +108,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestDateTimeFormat
+.
+cpp
+'
+'
 TestOSPreferences
 .
 cpp
