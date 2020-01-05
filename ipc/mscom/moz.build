@@ -226,6 +226,11 @@ Registration
 h
 '
 '
+SpinEvent
+.
+h
+'
+'
 StructStream
 .
 h
@@ -247,6 +252,11 @@ cpp
 '
 '
 Registration
+.
+cpp
+'
+'
+SpinEvent
 .
 cpp
 '
