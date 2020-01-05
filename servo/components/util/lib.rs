@@ -99,14 +99,6 @@ plugin
 [
 feature
 (
-rustc_private
-)
-]
-#
-!
-[
-feature
-(
 slice_splits
 )
 ]
