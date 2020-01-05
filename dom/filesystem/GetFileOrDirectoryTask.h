@@ -45,6 +45,9 @@ class
 BlobImpl
 ;
 class
+FileSystemGetFileOrDirectoryParams
+;
+class
 GetFileOrDirectoryTaskChild
 final
 :

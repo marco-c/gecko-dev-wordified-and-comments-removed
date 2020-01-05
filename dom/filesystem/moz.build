@@ -174,16 +174,6 @@ UNIFIED_SOURCES
 =
 [
 '
-CreateDirectoryTask
-.
-cpp
-'
-'
-CreateFileTask
-.
-cpp
-'
-'
 DeviceStorageFileSystem
 .
 cpp
