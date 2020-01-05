@@ -7799,11 +7799,13 @@ allow
 unsafe_code
 )
 ]
+unsafe
 impl
 JSTraceable
 for
 WeakRangeVec
 {
+unsafe
 fn
 trace
 (
@@ -7815,8 +7817,6 @@ _
 mut
 JSTracer
 )
-{
-unsafe
 {
 (
 *
@@ -7832,6 +7832,5 @@ get
 retain_alive
 (
 )
-}
 }
 }

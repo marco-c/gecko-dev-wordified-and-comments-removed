@@ -1198,9 +1198,11 @@ tracing
 :
 rust
 pub
+unsafe
 trait
 JSTraceable
 {
+unsafe
 fn
 trace
 (
@@ -1756,6 +1758,7 @@ JS
 T
 >
 {
+unsafe
 fn
 trace
 (

@@ -174,16 +174,12 @@ usize
 =
 6
 ;
-no_jsmanaged_fields
+jsmanaged_array
 !
 (
-[
-ImageInfo
-;
 MAX_LEVEL_COUNT
 *
 MAX_FACE_COUNT
-]
 )
 ;
 #

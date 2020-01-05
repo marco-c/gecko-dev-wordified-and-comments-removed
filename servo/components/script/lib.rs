@@ -35,7 +35,7 @@ core_intrinsics
 [
 feature
 (
-fnbox
+field_init_shorthand
 )
 ]
 #

@@ -190,7 +190,7 @@ cell
 :
 Cell
 ;
-no_jsmanaged_fields
+unsafe_no_jsmanaged_fields
 !
 (
 Key

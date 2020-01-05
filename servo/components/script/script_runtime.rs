@@ -82,7 +82,10 @@ bindings
 trace
 :
 :
+{
+JSTraceable
 trace_traceables
+}
 ;
 use
 dom
@@ -373,6 +376,8 @@ Send
 pub
 trait
 ScriptChan
+:
+JSTraceable
 {
 fn
 send

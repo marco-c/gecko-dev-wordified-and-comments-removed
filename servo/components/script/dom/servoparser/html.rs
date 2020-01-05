@@ -671,6 +671,14 @@ set_plaintext_state
 ;
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 impl
 JSTraceable
 for
@@ -686,6 +694,7 @@ Sink
 >
 >
 {
+unsafe
 fn
 trace
 (
@@ -748,6 +757,8 @@ Node
 >
 )
 {
+unsafe
+{
 node
 .
 trace
@@ -757,6 +768,7 @@ self
 0
 )
 ;
+}
 }
 }
 let

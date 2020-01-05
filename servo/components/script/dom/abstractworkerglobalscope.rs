@@ -32,6 +32,18 @@ reflector
 Reflectable
 ;
 use
+dom
+:
+:
+bindings
+:
+:
+trace
+:
+:
+JSTraceable
+;
+use
 script_runtime
 :
 :
@@ -98,6 +110,8 @@ impl
 <
 T
 :
+JSTraceable
++
 Reflectable
 +
 '
@@ -237,6 +251,8 @@ impl
 <
 T
 :
+JSTraceable
++
 Reflectable
 +
 '
