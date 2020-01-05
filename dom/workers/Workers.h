@@ -898,7 +898,7 @@ WorkerLoadInfo
 aOther
 )
 ;
-nsresult
+void
 SetPrincipalOnMainThread
 (
 nsIPrincipal

@@ -5259,8 +5259,6 @@ InitChannelInfo
 aChannelInfo
 )
 ;
-rv
-=
 mWorkerPrivate
 -
 >
@@ -5268,14 +5266,6 @@ SetPrincipalOnMainThread
 (
 responsePrincipal
 loadGroup
-)
-;
-MOZ_DIAGNOSTIC_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
-)
 )
 ;
 }
