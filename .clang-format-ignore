@@ -252,6 +252,15 @@ skia
 ^
 gfx
 /
+vr
+/
+openvr
+/
+.
+*
+^
+gfx
+/
 webrender
 .
 *
