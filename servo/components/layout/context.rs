@@ -532,10 +532,6 @@ Mutex
 FontCacheThread
 >
 pub
-url
-:
-Url
-pub
 visible_rects
 :
 Arc
