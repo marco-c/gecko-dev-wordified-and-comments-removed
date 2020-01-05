@@ -937,6 +937,9 @@ counter_reset
 get_counters
 .
 counter_increment
+get_inheritedbox
+.
+_servo_under_display_none
 get_list
 .
 quotes

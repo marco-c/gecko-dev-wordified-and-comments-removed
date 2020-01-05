@@ -320,9 +320,6 @@ node
 &
 ConcreteThreadSafeLayoutNode
 )
--
->
-bool
 ;
 }
 #

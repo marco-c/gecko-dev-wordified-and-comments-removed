@@ -614,6 +614,17 @@ derive_from_display
 context
 )
 ;
+longhands
+:
+:
+_servo_under_display_none
+:
+:
+derive_from_display
+(
+context
+)
+;
 }
 %
 endif
