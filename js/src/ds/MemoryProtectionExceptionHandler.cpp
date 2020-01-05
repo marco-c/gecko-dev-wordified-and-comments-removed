@@ -567,12 +567,6 @@ bytesWritten
 nullptr
 )
 ;
-:
-:
-__debugbreak
-(
-)
-;
 #
 elif
 defined
