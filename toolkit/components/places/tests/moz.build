@@ -143,13 +143,6 @@ xpcshell
 ini
 '
 '
-network
-/
-xpcshell
-.
-ini
-'
-'
 queries
 /
 xpcshell
