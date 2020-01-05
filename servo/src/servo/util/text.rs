@@ -1005,6 +1005,9 @@ foobarbaz
 ]
 ;
 assert
+core
+:
+:
 vec
 :
 :
@@ -1178,6 +1181,9 @@ n
 ]
 ;
 assert
+core
+:
+:
 vec
 :
 :
@@ -1343,6 +1349,9 @@ foobarbaz
 ]
 ;
 assert
+core
+:
+:
 vec
 :
 :
