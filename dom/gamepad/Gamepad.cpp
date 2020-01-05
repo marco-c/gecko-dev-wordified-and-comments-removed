@@ -137,6 +137,8 @@ uint32_t
 aIndex
 GamepadMappingType
 aMapping
+GamepadHand
+aHand
 uint32_t
 aNumButtons
 uint32_t
@@ -158,6 +160,10 @@ aIndex
 mMapping
 (
 aMapping
+)
+mHand
+(
+aHand
 )
 mConnected
 (
@@ -637,6 +643,15 @@ GetPoseState
 )
 )
 ;
+mHand
+=
+aOther
+-
+>
+Hand
+(
+)
+;
 }
 UpdateTimestamp
 (
@@ -670,6 +685,7 @@ aParent
 mID
 mIndex
 mMapping
+mHand
 mButtons
 .
 Length
