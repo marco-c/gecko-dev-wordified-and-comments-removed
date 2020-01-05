@@ -190,6 +190,9 @@ srvScope
 async
 :
 true
+wantReturnValue
+:
+true
 }
 )
 ;
