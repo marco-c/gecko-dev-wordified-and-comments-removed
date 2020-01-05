@@ -670,6 +670,7 @@ addEventListener
 click
 "
 this
+true
 )
 ;
 pageListenerTarget
@@ -831,6 +832,7 @@ removeEventListener
 click
 "
 this
+true
 )
 ;
 pageListenerTarget
