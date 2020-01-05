@@ -1861,6 +1861,19 @@ ContinueInterruptedParsingAsync
 (
 )
 {
+MOZ_ASSERT
+(
+mSink
+)
+;
+if
+(
+MOZ_LIKELY
+(
+mSink
+)
+)
+{
 mSink
 -
 >
@@ -1868,6 +1881,7 @@ ContinueInterruptedParsingAsync
 (
 )
 ;
+}
 }
 NS_IMETHODIMP_
 (
