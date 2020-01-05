@@ -10952,6 +10952,16 @@ max_resumed_crashes
 pref
 (
 "
+pdfium
+.
+enabled
+"
+false
+)
+;
+pref
+(
+"
 pdfjs
 .
 disabled
