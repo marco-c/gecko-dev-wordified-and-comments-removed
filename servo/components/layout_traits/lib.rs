@@ -185,14 +185,6 @@ LayoutThreadFactory
 fn
 create
 (
-_phantom
-:
-Option
-<
-&
-mut
-Self
->
 id
 :
 PipelineId
