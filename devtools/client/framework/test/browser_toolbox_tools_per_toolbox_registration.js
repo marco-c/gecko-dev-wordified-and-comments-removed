@@ -764,14 +764,6 @@ toolbox
 destroy
 (
 )
-.
-then
-(
-(
-)
-=
->
-{
 ;
 toolbox
 =
@@ -785,9 +777,6 @@ removeCurrentTab
 ;
 finish
 (
-)
-;
-}
 )
 ;
 }

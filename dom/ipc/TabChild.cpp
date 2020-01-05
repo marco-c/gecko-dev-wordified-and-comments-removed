@@ -385,13 +385,6 @@ h
 #
 include
 "
-mozIApplication
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -777,13 +770,6 @@ h
 include
 "
 nsPresShell
-.
-h
-"
-#
-include
-"
-nsIAppsService
 .
 h
 "
