@@ -1,6 +1,0 @@
-HandlerServiceTest
-.
-destroy
-(
-)
-;
