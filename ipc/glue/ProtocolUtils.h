@@ -620,6 +620,9 @@ Endpoint
 ;
 class
 IToplevelProtocol
+:
+public
+IProtocol
 {
 template
 <
