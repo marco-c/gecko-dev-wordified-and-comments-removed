@@ -22,7 +22,6 @@ _attachEventListeners
 )
 ;
 }
-;
 {
 const
 debug
@@ -431,8 +430,6 @@ hour
 )
 ;
 }
-else
-{
 const
 hourIn12
 =
@@ -456,7 +453,6 @@ numberFormat
 hourIn12
 )
 ;
-}
 }
 }
 this
