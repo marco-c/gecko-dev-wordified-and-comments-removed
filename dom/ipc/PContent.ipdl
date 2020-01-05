@@ -319,10 +319,6 @@ PStorage
 ;
 include
 protocol
-PTelephony
-;
-include
-protocol
 PTestShell
 ;
 include
@@ -1471,9 +1467,6 @@ PSpeechSynthesis
 ;
 manages
 PStorage
-;
-manages
-PTelephony
 ;
 manages
 PTestShell
@@ -4062,11 +4055,6 @@ inside_cpow
 )
 async
 PStorage
-(
-)
-;
-async
-PTelephony
 (
 )
 ;
