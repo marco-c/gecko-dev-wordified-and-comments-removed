@@ -611,13 +611,6 @@ font
 ;
 }
 }
-#
-[
-cfg
-(
-test
-)
-]
 fn
 with_lib
 (
