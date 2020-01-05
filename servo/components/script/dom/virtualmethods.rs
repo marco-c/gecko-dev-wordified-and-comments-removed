@@ -665,12 +665,12 @@ fn
 super_type
 <
 '
-a
+b
 >
 (
 &
 '
-a
+b
 self
 )
 -
@@ -679,7 +679,7 @@ Option
 <
 &
 '
-a
+b
 VirtualMethods
 >
 ;
