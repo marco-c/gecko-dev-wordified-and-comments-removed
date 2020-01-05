@@ -3402,9 +3402,6 @@ JS
 :
 AutoAssertGCCallback
 inCallback
-(
-obj
-)
 ;
 MOZ_ASSERT
 (
