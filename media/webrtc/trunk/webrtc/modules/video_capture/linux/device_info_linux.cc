@@ -960,6 +960,9 @@ deviceUniqueIdUTF8Length
 char
 *
 uint32_t
+pid_t
+*
+pid
 )
 {
 WEBRTC_TRACE
