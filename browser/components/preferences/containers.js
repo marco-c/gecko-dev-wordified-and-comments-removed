@@ -894,11 +894,6 @@ name
 .
 value
 ;
-let
-userContextId
-=
-false
-;
 if
 (
 this
