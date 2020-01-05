@@ -260,6 +260,10 @@ extern
 crate
 url
 ;
+extern
+crate
+uuid
+;
 use
 std
 :

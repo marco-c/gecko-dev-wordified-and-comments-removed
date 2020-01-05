@@ -589,6 +589,12 @@ DOMString
 LengthOrPercentageOrAuto
 }
 ;
+use
+uuid
+:
+:
+Uuid
+;
 pub
 trait
 JSTraceable
@@ -1583,6 +1589,7 @@ f64
 String
 Url
 AtomicBool
+Uuid
 )
 ;
 no_jsmanaged_fields

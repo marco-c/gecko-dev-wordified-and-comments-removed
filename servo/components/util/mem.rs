@@ -320,6 +320,12 @@ Namespace
 use
 url
 ;
+use
+uuid
+:
+:
+Uuid
+;
 extern
 {
 fn
@@ -2328,5 +2334,12 @@ ElementState
 Combinator
 PseudoElement
 str
+)
+;
+known_heap_size
+!
+(
+0
+Uuid
 )
 ;
