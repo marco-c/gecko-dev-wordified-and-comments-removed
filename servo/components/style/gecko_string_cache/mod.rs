@@ -156,6 +156,7 @@ macro_use
 allow
 (
 improper_ctypes
+safe_extern_statics
 )
 ]
 pub
