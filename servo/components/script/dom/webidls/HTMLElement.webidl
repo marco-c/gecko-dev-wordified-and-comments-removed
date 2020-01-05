@@ -136,6 +136,8 @@ attribute
 DOMString
 dir
 ;
+/
+/
 readonly
 attribute
 DOMStringMap
