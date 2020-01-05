@@ -794,6 +794,12 @@ mUserSpaceOffset
 nsPoint
 mFrameOffsetToReferenceFrame
 ;
+nsTArray
+<
+nsRect
+>
+mDestRects
+;
 }
 ;
 class
