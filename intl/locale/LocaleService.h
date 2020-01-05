@@ -172,11 +172,6 @@ nsCString
 aRetVal
 )
 ;
-bool
-IsAppLocaleRTL
-(
-)
-;
 private
 :
 class
