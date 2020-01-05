@@ -98,6 +98,12 @@ AnimationData
 TimeStamp
 mStart
 ;
+TimeStamp
+mLastFrameTime
+;
+TimeDuration
+mLongestFrame
+;
 uint32_t
 mFrameCount
 ;
@@ -141,7 +147,12 @@ Telemetry
 :
 :
 HistogramID
-aHistogram
+aThroughputHistogram
+Telemetry
+:
+:
+HistogramID
+aMaxDropsHistogram
 )
 ;
 TimeStamp
