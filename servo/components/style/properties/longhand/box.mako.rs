@@ -85,7 +85,7 @@ need_clone
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -752,7 +752,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -797,7 +797,7 @@ extra_gecko_values
 "
 sticky
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -886,7 +886,7 @@ needs_conversion
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1233,7 +1233,7 @@ needs_conversion
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1539,7 +1539,7 @@ hypothetical
 -
 box
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1672,10 +1672,10 @@ vertical
 -
 align
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -2608,7 +2608,7 @@ products
 "
 servo
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2686,7 +2686,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2779,7 +2779,7 @@ clip
 need_clone
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -2848,7 +2848,7 @@ need_clone
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -3193,7 +3193,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -3395,7 +3395,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -5694,7 +5694,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -5896,7 +5896,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -6023,7 +6023,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -6583,7 +6583,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -6717,7 +6717,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -6866,7 +6866,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -7318,7 +7318,7 @@ reverse
 need_index
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -7425,7 +7425,7 @@ True
 need_index
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -7491,7 +7491,7 @@ both
 need_index
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -7558,7 +7558,7 @@ need_index
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -7694,7 +7694,7 @@ points
 -
 y
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -8391,7 +8391,7 @@ points
 -
 x
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -8549,10 +8549,10 @@ snap
 destination
 )
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 )
 }
@@ -8622,10 +8622,10 @@ snap
 destination
 )
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 allow_empty
 =
@@ -8650,10 +8650,10 @@ extra_prefixes
 "
 webkit
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 flags
 =
@@ -16917,7 +16917,7 @@ scroll
 -
 behavior
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -16987,7 +16987,7 @@ type
 x
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17015,7 +17015,7 @@ type
 -
 y
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17167,7 +17167,7 @@ flags
 "
 CREATES_STACKING_CONTEXT
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17236,7 +17236,7 @@ break
 -
 after
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17294,7 +17294,7 @@ break
 -
 before
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17359,7 +17359,7 @@ break
 -
 inside
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17462,7 +17462,7 @@ propdef
 -
 resize
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -17529,10 +17529,10 @@ flags
 CREATES_STACKING_CONTEXT
 FIXPOS_CB
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 )
 }
@@ -17553,10 +17553,10 @@ boxed
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 extra_prefixes
 =
@@ -18112,7 +18112,7 @@ extra_prefixes
 moz
 webkit
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -18172,7 +18172,7 @@ transform
 -
 box
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -18257,7 +18257,7 @@ flags
 CREATES_STACKING_CONTEXT
 FIXPOS_CB
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -18276,10 +18276,10 @@ transform
 -
 origin
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 extra_prefixes
 =
@@ -19263,7 +19263,7 @@ name
 "
 contain
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -19904,7 +19904,7 @@ webkit
 -
 appearance
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -20291,7 +20291,7 @@ moz
 appearance
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -20326,7 +20326,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -20437,7 +20437,7 @@ moz
 orient
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -20461,7 +20461,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -20940,7 +20940,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none

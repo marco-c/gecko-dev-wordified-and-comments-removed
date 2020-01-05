@@ -89,7 +89,7 @@ text
 -
 overflow
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -689,7 +689,7 @@ isolate
 override
 plaintext
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -758,7 +758,7 @@ servo
 '
 }
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1593,7 +1593,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1673,10 +1673,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 spec
 =
@@ -1720,7 +1720,7 @@ initial
 -
 letter
 "
-animation_type
+animation_value_type
 =
 "
 none

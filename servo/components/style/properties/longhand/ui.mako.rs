@@ -138,7 +138,7 @@ gecko_ffi_name
 "
 mIMEMode
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -234,7 +234,7 @@ gecko_enum_prefix
 "
 StyleUserSelect
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -302,7 +302,7 @@ gecko_enum_prefix
 "
 StyleWindowDragging
 "
-animation_type
+animation_value_type
 =
 "
 none

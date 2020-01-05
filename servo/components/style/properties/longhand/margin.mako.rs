@@ -170,10 +170,10 @@ margin
 s
 "
 )
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 logical
 =

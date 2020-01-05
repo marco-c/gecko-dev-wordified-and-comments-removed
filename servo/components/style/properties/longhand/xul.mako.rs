@@ -92,7 +92,7 @@ StyleBoxAlign
 gecko_inexhaustive
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -171,7 +171,7 @@ gecko_enum_prefix
 "
 StyleBoxDirection
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -252,7 +252,7 @@ gecko_ffi_name
 "
 mBoxFlex
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -345,7 +345,7 @@ gecko_enum_prefix
 "
 StyleBoxOrient
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -426,7 +426,7 @@ gecko_enum_prefix
 "
 StyleBoxPack
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -509,7 +509,7 @@ gecko_constant_prefix
 "
 NS_STYLE_STACK_SIZING
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -597,7 +597,7 @@ gecko_ffi_name
 "
 mBoxOrdinal
 "
-animation_type
+animation_value_type
 =
 "
 none

@@ -53,7 +53,7 @@ boxed
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1964,7 +1964,7 @@ counter
 -
 increment
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2884,7 +2884,7 @@ counter
 -
 reset
 "
-animation_type
+animation_value_type
 =
 "
 none

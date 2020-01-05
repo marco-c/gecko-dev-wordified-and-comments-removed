@@ -56,10 +56,10 @@ need_clone
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateRGBA
 "
 spec
 =

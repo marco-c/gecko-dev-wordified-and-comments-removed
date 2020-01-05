@@ -102,10 +102,10 @@ background
 -
 color
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 complex_color
 =
@@ -124,7 +124,7 @@ background
 -
 image
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -705,10 +705,10 @@ position
 -
 x
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -1044,10 +1044,10 @@ position
 -
 y
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -1385,7 +1385,7 @@ background
 -
 repeat
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2258,7 +2258,7 @@ background
 -
 attachment
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2323,7 +2323,7 @@ background
 -
 clip
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2383,7 +2383,7 @@ background
 -
 origin
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2402,10 +2402,10 @@ background
 -
 size
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 extra_prefixes
 =
@@ -3883,7 +3883,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none

@@ -49,7 +49,7 @@ position
 outside
 inside
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -389,7 +389,7 @@ needs_conversion
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -457,7 +457,7 @@ Second
 None_
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -500,7 +500,7 @@ name
 "
 quotes
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1101,7 +1101,7 @@ auto
 (
 )
 "
-animation_type
+animation_value_type
 =
 "
 none

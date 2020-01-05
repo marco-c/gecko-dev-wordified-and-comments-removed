@@ -56,10 +56,10 @@ Opacity
 .
 0
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 flags
 =
@@ -105,10 +105,10 @@ allow_empty
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateBoxShadowList
 "
 extra_prefixes
 =
@@ -632,10 +632,10 @@ auto
 (
 )
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 boxed
 =
@@ -685,7 +685,7 @@ name
 "
 filter
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -4418,7 +4418,7 @@ gecko_constant_prefix
 "
 NS_STYLE_BLEND
 "
-animation_type
+animation_value_type
 =
 "
 none

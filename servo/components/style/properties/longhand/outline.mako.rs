@@ -97,10 +97,10 @@ currentcolor
 (
 )
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 complex_color
 =
@@ -151,7 +151,7 @@ need_clone
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -456,10 +456,10 @@ outline
 -
 width
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -891,7 +891,7 @@ gecko
 boxed
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -958,10 +958,10 @@ products
 servo
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =

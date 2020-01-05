@@ -57,7 +57,7 @@ gecko_constant_prefix
 "
 NS_STYLE_BORDER
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -107,7 +107,7 @@ gecko_constant_prefix
 "
 NS_STYLE_TABLE_EMPTY_CELLS
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -169,7 +169,7 @@ needs_conversion
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -212,7 +212,7 @@ border
 -
 spacing
 "
-animation_type
+animation_value_type
 =
 "
 none

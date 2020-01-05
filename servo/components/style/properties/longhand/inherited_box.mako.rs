@@ -71,10 +71,10 @@ gecko_ffi_name
 "
 mVisible
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -205,7 +205,7 @@ True
 need_clone
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -253,7 +253,7 @@ rtl
 need_clone
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -319,7 +319,7 @@ gecko
 need_clone
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -394,7 +394,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -536,7 +536,7 @@ edges
 custom_consts
 =
 image_rendering_custom_consts
-animation_type
+animation_value_type
 =
 "
 none
@@ -588,7 +588,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1668,7 +1668,7 @@ products
 "
 servo
 "
-animation_type
+animation_value_type
 =
 "
 none
