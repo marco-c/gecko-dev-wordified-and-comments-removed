@@ -65,7 +65,7 @@ export
 '
 )
 ;
-o
+o2
 =
 initWasm
 (
