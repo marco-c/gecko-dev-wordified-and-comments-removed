@@ -936,7 +936,9 @@ this
 .
 client
 .
-listTabs
+mainRoot
+.
+getRoot
 (
 response
 =
