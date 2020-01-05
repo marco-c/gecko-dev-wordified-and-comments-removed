@@ -325,6 +325,15 @@ aElement
 ;
 static
 void
+ClearRestyleStateFromSubtree
+(
+Element
+*
+aElement
+)
+;
+static
+void
 PostRestyleEventForAnimations
 (
 dom

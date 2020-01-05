@@ -441,8 +441,10 @@ UnsetHasDirtyDescendantsForServo
 )
 ;
 }
-static
 void
+ServoRestyleManager
+:
+:
 ClearRestyleStateFromSubtree
 (
 Element
