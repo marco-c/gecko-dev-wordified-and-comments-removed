@@ -5150,12 +5150,6 @@ start_desktop
 js
 '
 )
-        
-self
-.
-disable_leak_checking
-=
-False
     
 def
 update_mozinfo
@@ -10392,13 +10386,6 @@ e
 return
 None
         
-if
-not
-self
-.
-disable_leak_checking
-:
-            
 browserEnv
 [
 "
@@ -13228,11 +13215,6 @@ blank
             
 if
 detectShutdownLeaks
-and
-not
-self
-.
-disable_leak_checking
 :
                 
 shutdownLeaks
@@ -13270,13 +13252,6 @@ mozinfo
 .
 isMac
 )
-\
-                    
-and
-not
-self
-.
-disable_leak_checking
 :
                 
 lsanLeaks
@@ -14795,62 +14770,6 @@ s
 %
 d
 )
-            
-skip_leak_conditions
-=
-[
-]
-            
-for
-condition
-reason
-in
-skip_leak_conditions
-:
-                
-if
-condition
-:
-                    
-self
-.
-log
-.
-warning
-(
-'
-WARNING
-|
-disabling
-leakcheck
-due
-to
-{
-}
-'
-.
-format
-(
-reason
-)
-)
-                    
-self
-.
-disable_leak_checking
-=
-True
-                    
-break
-            
-else
-:
-                
-self
-.
-disable_leak_checking
-=
-False
             
 tests_in_dir
 =
