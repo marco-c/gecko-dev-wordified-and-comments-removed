@@ -237,11 +237,6 @@ offlineAppCache
 jsm
 '
 '
-PanelFrame
-.
-jsm
-'
-'
 PermissionUI
 .
 jsm
