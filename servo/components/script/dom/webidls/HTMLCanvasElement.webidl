@@ -82,14 +82,6 @@ WebGLRenderingContext
 )
 RenderingContext
 ;
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLCanvasElement
 :

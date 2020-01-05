@@ -74,14 +74,6 @@ multipage
 /
 #
 canvasgradient
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 CanvasGradient
 {
