@@ -96,3 +96,13 @@ test
 mod
 str
 ;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+opts
+;
