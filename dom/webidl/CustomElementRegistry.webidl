@@ -90,6 +90,7 @@ interface
 CustomElementRegistry
 {
 [
+CEReactions
 Throws
 ]
 void
