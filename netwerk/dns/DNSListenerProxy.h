@@ -113,15 +113,6 @@ nsresult
 aStatus
 )
 :
-Runnable
-(
-"
-DNSListenerProxy
-:
-:
-OnLookupCompleteRunnable
-"
-)
 mListener
 (
 aListener

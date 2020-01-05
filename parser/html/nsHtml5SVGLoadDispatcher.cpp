@@ -58,12 +58,6 @@ nsIContent
 aElement
 )
 :
-Runnable
-(
-"
-nsHtml5SVGLoadDispatcher
-"
-)
 mElement
 (
 aElement

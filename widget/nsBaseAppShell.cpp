@@ -900,9 +900,6 @@ mozilla
 :
 Runnable
 (
-"
-DummyEvent
-"
 )
 ;
 return
