@@ -1225,6 +1225,12 @@ from_str
 "
 url
 origin
+Default
+:
+:
+default
+(
+)
 Box
 :
 :
@@ -1444,6 +1450,12 @@ from_str
 input
 url
 origin
+Default
+:
+:
+default
+(
+)
 Box
 :
 :
