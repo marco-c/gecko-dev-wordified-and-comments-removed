@@ -52,15 +52,6 @@ int
 aThreadId
 bool
 aIsMainThread
-mozilla
-:
-:
-NotNull
-<
-PseudoStack
-*
->
-aPseudoStack
 void
 *
 aStackTop
