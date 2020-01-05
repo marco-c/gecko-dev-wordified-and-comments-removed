@@ -192,14 +192,6 @@ aStr
 )
 override
 ;
-void
-SetURI
-(
-nsIURI
-*
-aURI
-)
-;
 static
 void
 InitializeStatics
