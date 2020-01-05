@@ -775,6 +775,12 @@ vscode
 ?
 !
 extensions
+\
+.
+json
+|
+tasks
+\
 .
 json
 )
