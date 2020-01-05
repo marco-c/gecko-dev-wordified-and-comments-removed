@@ -2271,6 +2271,12 @@ layout_context
 LayoutContext
 )
 {
+fragment
+.
+reset_text_range_and_inline_size
+(
+)
+;
 let
 fragment_is_line_break_opportunity
 =
