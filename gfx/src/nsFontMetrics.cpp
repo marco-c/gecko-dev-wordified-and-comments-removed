@@ -702,6 +702,14 @@ AddFontFeaturesToStyle
 style
 )
 ;
+aFont
+.
+AddFontVariationsToStyle
+(
+&
+style
+)
+;
 gfxFloat
 devToCssSize
 =
