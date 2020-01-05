@@ -237,7 +237,7 @@ function
 try
 {
 let
-prefsObj
+prefs
 =
 {
 enabled
@@ -254,7 +254,7 @@ injectData
 "
 prefs
 "
-prefsObj
+prefs
 )
 ;
 }

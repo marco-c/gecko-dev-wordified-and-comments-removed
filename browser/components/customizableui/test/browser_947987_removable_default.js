@@ -419,7 +419,7 @@ node
 )
 {
 let
-expectedParentInOtherWin
+expectedParent
 =
 CustomizableUI
 .
@@ -436,7 +436,7 @@ singleWrapper
 node
 .
 parentNode
-expectedParentInOtherWin
+expectedParent
 "
 Widget
 should

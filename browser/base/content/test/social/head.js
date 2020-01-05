@@ -88,9 +88,9 @@ addObserver
 function
 onNotification
 (
-subject
-topic
-data
+aSubject
+aTopic
+aData
 )
 {
 dump
@@ -100,7 +100,7 @@ notification
 promised
 "
 +
-topic
+aTopic
 )
 ;
 Services
@@ -110,7 +110,7 @@ obs
 removeObserver
 (
 onNotification
-topic
+aTopic
 )
 ;
 TestUtils
@@ -125,7 +125,11 @@ resolve
 (
 {
 subject
+:
+aSubject
 data
+:
+aData
 }
 )
 )
@@ -578,7 +582,7 @@ m
 )
 {
 let
-finishCb
+callback
 =
 cleanup
 ?
@@ -683,7 +687,7 @@ removeProvider
 m
 .
 origin
-finishCb
+callback
 )
 ;
 }
@@ -1485,7 +1489,7 @@ type
 function
 toggleOfflineStatus
 (
-goOfflineState
+goOffline
 )
 {
 return
@@ -1499,7 +1503,7 @@ resolve
 if
 (
 !
-goOfflineState
+goOffline
 )
 {
 Services
@@ -1521,7 +1525,7 @@ origProxyType
 }
 if
 (
-goOfflineState
+goOffline
 !
 =
 Services
@@ -1658,7 +1662,7 @@ resolve
 }
 if
 (
-goOfflineState
+goOffline
 )
 {
 Services

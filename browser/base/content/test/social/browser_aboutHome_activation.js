@@ -756,14 +756,14 @@ function
 for
 (
 let
-testCase
+test
 of
 gTests
 )
 {
 info
 (
-testCase
+test
 .
 desc
 )
@@ -792,7 +792,7 @@ snippetsPromise
 promiseSetupSnippetsMap
 (
 tab
-testCase
+test
 .
 snippet
 )
@@ -888,7 +888,7 @@ resolve
 activateProvider
 (
 tab
-testCase
+test
 .
 panel
 )

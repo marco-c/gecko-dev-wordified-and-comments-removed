@@ -657,7 +657,7 @@ currentEngine
 originalEngine
 ;
 let
-mozSearchEngine
+engine
 =
 Services
 .
@@ -672,7 +672,7 @@ MozSearch
 ;
 if
 (
-mozSearchEngine
+engine
 )
 {
 Services
@@ -681,7 +681,7 @@ search
 .
 removeEngine
 (
-mozSearchEngine
+engine
 )
 ;
 }

@@ -386,7 +386,7 @@ obs
 addObserver
 (
 function
-obs
+observer
 (
 )
 {
@@ -406,7 +406,7 @@ obs
 .
 removeObserver
 (
-obs
+observer
 topic
 )
 ;

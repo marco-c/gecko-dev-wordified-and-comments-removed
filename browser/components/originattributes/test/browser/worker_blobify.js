@@ -7,7 +7,7 @@ message
 "
 function
 (
-message
+e
 )
 {
 try
@@ -23,7 +23,7 @@ new
 Blob
 (
 [
-message
+e
 .
 data
 ]

@@ -940,10 +940,10 @@ pages
 .
 find
 (
-p
+page
 =
 >
-p
+page
 .
 applies
 (

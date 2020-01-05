@@ -830,7 +830,7 @@ resolve
 >
 {
 let
-callback
+originalCallback
 =
 notification
 .
@@ -849,7 +849,7 @@ function
 eventName
 )
 {
-callback
+originalCallback
 (
 eventName
 )

@@ -253,7 +253,7 @@ by
 )
 ;
 let
-fooEngine
+engine
 =
 Services
 .
@@ -272,7 +272,7 @@ search
 .
 removeEngine
 (
-fooEngine
+engine
 )
 ;
 }

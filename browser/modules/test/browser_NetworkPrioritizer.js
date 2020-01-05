@@ -160,7 +160,7 @@ aPriority
 function
 *
 (
-contentPriority
+aPriority
 )
 {
 docShell
@@ -194,7 +194,7 @@ nsISupportsPriority
 .
 priority
 =
-contentPriority
+aPriority
 ;
 }
 )

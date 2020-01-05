@@ -215,9 +215,9 @@ addObserver
 function
 PTO_observe
 (
-obsSubject
-obsTopic
-obsData
+subject
+topic
+data
 )
 {
 Services
@@ -227,7 +227,7 @@ obs
 removeObserver
 (
 PTO_observe
-obsTopic
+topic
 )
 ;
 deferred
@@ -235,8 +235,8 @@ deferred
 resolve
 (
 [
-obsSubject
-obsData
+subject
+data
 ]
 )
 ;

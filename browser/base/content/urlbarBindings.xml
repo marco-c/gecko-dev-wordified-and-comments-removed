@@ -13602,10 +13602,10 @@ types
 .
 find
 (
-t
+type
 =
 >
-t
+type
 !
 =
 "
@@ -13613,7 +13613,7 @@ action
 "
 &
 &
-t
+type
 !
 =
 "
@@ -20219,7 +20219,7 @@ true
 )
 ;
 let
-menuItemActiveEvent
+event
 =
 document
 .
@@ -20230,7 +20230,7 @@ Events
 "
 )
 ;
-menuItemActiveEvent
+event
 .
 initEvent
 (
@@ -20245,7 +20245,7 @@ this
 .
 dispatchEvent
 (
-menuItemActiveEvent
+event
 )
 ;
 if

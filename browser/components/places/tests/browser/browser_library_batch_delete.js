@@ -571,7 +571,7 @@ length
 )
 {
 var
-testCase
+test
 =
 gTests
 .
@@ -588,12 +588,12 @@ test
 :
 "
 +
-testCase
+test
 .
 desc
 )
 ;
-testCase
+test
 .
 run
 (

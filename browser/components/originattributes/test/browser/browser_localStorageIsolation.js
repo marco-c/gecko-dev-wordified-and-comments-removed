@@ -62,7 +62,7 @@ aBrowser
 key
 function
 (
-contentKey
+key
 )
 {
 let
@@ -74,7 +74,7 @@ localStorage
 .
 getItem
 (
-contentKey
+key
 )
 ;
 if
@@ -104,7 +104,7 @@ localStorage
 .
 setItem
 (
-contentKey
+key
 value
 )
 ;

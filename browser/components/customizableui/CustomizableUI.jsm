@@ -6983,7 +6983,7 @@ palette
 )
 {
 let
-element
+node
 =
 toolbox
 .
@@ -7002,13 +7002,13 @@ aId
 ;
 if
 (
-element
+node
 )
 {
 if
 (
 !
-element
+node
 .
 hasAttribute
 (
@@ -7018,7 +7018,7 @@ removable
 )
 )
 {
-element
+node
 .
 setAttribute
 (
@@ -7030,7 +7030,7 @@ true
 ;
 }
 return
-element
+node
 ;
 }
 }

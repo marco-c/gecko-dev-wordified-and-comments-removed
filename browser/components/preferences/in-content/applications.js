@@ -5766,7 +5766,7 @@ internalMenuItem
 ;
 }
 let
-menuseparator
+menuItem
 =
 document
 .
@@ -5781,7 +5781,7 @@ menuPopup
 .
 appendChild
 (
-menuseparator
+menuItem
 )
 ;
 if
@@ -7580,7 +7580,7 @@ fp
 file
 ;
 let
-handler
+handlerInfo
 =
 this
 .
@@ -7595,7 +7595,7 @@ selectedItem
 type
 ]
 ;
-handler
+handlerInfo
 .
 addPossibleApplicationHandler
 (

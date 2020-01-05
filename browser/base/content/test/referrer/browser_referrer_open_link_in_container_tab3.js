@@ -5,7 +5,7 @@ aTestNumber
 )
 {
 let
-testCase
+test
 =
 _referrerTests
 [
@@ -14,10 +14,10 @@ aTestNumber
 ;
 if
 (
-testCase
+test
 )
 {
-testCase
+test
 .
 result
 =
@@ -26,7 +26,7 @@ result
 ;
 }
 return
-testCase
+test
 ;
 }
 function

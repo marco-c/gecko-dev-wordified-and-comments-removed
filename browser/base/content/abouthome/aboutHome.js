@@ -658,6 +658,7 @@ onerror
 =
 function
 (
+event
 )
 {
 invokeCallbacks
@@ -671,10 +672,10 @@ onversionchange
 =
 function
 (
-versionChangeEvent
+event
 )
 {
-versionChangeEvent
+event
 .
 target
 .
@@ -744,6 +745,7 @@ onerror
 =
 function
 (
+event
 )
 {
 invokeCallbacks
@@ -757,13 +759,13 @@ onsuccess
 =
 function
 (
-cursorRequestEvent
+event
 )
 {
 let
 cursor
 =
-cursorRequestEvent
+event
 .
 target
 .
@@ -1305,6 +1307,7 @@ onloadend
 =
 function
 (
+event
 )
 {
 if

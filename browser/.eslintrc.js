@@ -75,15 +75,6 @@ none
 "
 }
 ]
-"
-no
--
-shadow
-"
-:
-"
-error
-"
 }
 }
 ;

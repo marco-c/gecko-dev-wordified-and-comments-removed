@@ -2344,7 +2344,7 @@ windowObserver
 )
 ;
 let
-observerWindow
+win
 =
 aSubject
 .
@@ -2370,7 +2370,7 @@ function
 {
 ok
 (
-observerWindow
+win
 .
 gEditItemOverlay
 .
@@ -2386,7 +2386,7 @@ gCurrentTest
 .
 window
 =
-observerWindow
+win
 ;
 try
 {
@@ -2425,7 +2425,7 @@ message
 )
 ;
 }
-observerWindow
+win
 )
 ;
 }

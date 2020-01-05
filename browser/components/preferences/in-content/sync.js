@@ -1055,7 +1055,7 @@ _getEntryPoint
 .
 then
 (
-accountsManageURI
+url
 =
 >
 {
@@ -1073,7 +1073,7 @@ setAttribute
 "
 href
 "
-accountsManageURI
+url
 )
 ;
 }

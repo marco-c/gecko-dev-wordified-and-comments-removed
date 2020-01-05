@@ -267,7 +267,7 @@ createFile
 (
 fileName
 extension
-lastAccessedDate
+accessDate
 contents
 )
 =
@@ -322,7 +322,7 @@ setDates
 file
 .
 path
-lastAccessedDate
+accessDate
 )
 ]
 ;

@@ -1767,7 +1767,7 @@ aValidator
 )
 {
 var
-placesToolbarItems
+toolbar
 =
 document
 .
@@ -1950,7 +1950,7 @@ null
 return
 findNode
 (
-placesToolbarItems
+toolbar
 )
 ;
 }

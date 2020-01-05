@@ -518,6 +518,7 @@ add_task
 (
 function
 *
+typedValue
 (
 )
 {
