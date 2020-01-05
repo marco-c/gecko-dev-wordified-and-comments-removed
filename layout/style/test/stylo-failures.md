@@ -2716,7 +2716,7 @@ border
 radius
 :
 [
-64
+0
 ]
 *
 test_shorthand_property_getters
