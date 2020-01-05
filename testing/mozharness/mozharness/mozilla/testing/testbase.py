@@ -1337,7 +1337,7 @@ timeout
                 
 self
 .
-exception
+warning
 (
 "
 Can
@@ -1357,9 +1357,6 @@ s
 self
 .
 installer_url
-level
-=
-WARNING
 )
         
 if
