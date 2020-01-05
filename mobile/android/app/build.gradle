@@ -155,6 +155,11 @@ buildDir
 \
 "
 "
+vectorDrawables
+.
+useSupportLibrary
+=
+true
 }
 compileOptions
 {
