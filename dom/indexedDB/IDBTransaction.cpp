@@ -2859,10 +2859,6 @@ mReadyState
 =
 =
 INITIAL
-&
-&
-!
-isInvalidated
 ;
 mAbortCode
 =
