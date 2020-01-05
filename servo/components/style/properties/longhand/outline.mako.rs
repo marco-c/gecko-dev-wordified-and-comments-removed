@@ -601,6 +601,11 @@ Au
 0
 )
 "
+products
+=
+"
+servo
+"
 animatable
 =
 True

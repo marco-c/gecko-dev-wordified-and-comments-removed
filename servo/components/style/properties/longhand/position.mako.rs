@@ -824,6 +824,11 @@ name
 "
 order
 "
+products
+=
+"
+servo
+"
 animatable
 =
 "
