@@ -100,6 +100,9 @@ layers
 use
 opengles
 ;
+use
+http_client
+;
 mod
 dom
 {
