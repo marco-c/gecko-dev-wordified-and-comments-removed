@@ -682,11 +682,6 @@ DOMTokenList
 webidl
 '
 '
-Downloads
-.
-webidl
-'
-'
 DragEvent
 .
 webidl
@@ -3435,11 +3430,6 @@ webidl
 '
 '
 DeviceStorageChangeEvent
-.
-webidl
-'
-'
-DownloadEvent
 .
 webidl
 '
