@@ -16453,11 +16453,11 @@ valueOf
 '
                     
 "
-nativeName
+selfHostedName
 "
 :
 "
-UnforgeableValueOf
+Object_valueOf
 "
                     
 "
@@ -16477,7 +16477,7 @@ flags
 "
 :
 "
-JSPROP_ENUMERATE
+0
 "
                     
 "
@@ -24304,31 +24304,6 @@ JS
 UndefinedHandleValue
                                        
 JSPROP_READONLY
-|
-JSPROP_PERMANENT
-)
-|
-|
-                
-!
-JS_DefineProperty
-(
-aCx
-{
-holderName
-}
-"
-toJSON
-"
-                                   
-JS
-:
-:
-UndefinedHandleValue
-                                   
-JSPROP_READONLY
-|
-JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
 )
