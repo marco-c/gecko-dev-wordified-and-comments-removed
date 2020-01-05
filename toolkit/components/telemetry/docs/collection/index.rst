@@ -209,6 +209,13 @@ collecting
 ordered
 event
 entries
+up
+to
+a
+limit
+of
+1000
+entries
 (
 note
 :
