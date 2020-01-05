@@ -449,6 +449,31 @@ level
 )
 ]
         
+zstd_level
+=
+'
+3
+'
+if
+int
+(
+config
+.
+params
+[
+'
+level
+'
+]
+)
+=
+=
+1
+else
+'
+10
+'
+        
 taskdesc
 =
 {
@@ -787,6 +812,12 @@ IMAGE_NAME
 '
 :
 image_name
+                    
+'
+DOCKER_IMAGE_ZSTD_LEVEL
+'
+:
+zstd_level
                     
 '
 GECKO_BASE_REPOSITORY
