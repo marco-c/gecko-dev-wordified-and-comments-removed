@@ -104,6 +104,9 @@ attr
 in
 [
 '
+_set_baseurl
+'
+'
 run_test_set
 '
 '
@@ -3033,11 +3036,9 @@ None
 assert
 mock_runner
 .
-fixture_servers
-=
-=
-{
-}
+httpd
+is
+None
 def
 test_reset_test_stats
 (
