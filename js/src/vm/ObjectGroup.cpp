@@ -6198,7 +6198,7 @@ return
 HashNumber
 )
 (
-JSID_BITS
+HashId
 (
 lookup
 .
