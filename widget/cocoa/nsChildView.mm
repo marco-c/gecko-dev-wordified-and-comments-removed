@@ -16996,6 +16996,7 @@ class
 {
 mWindow
 =
+[
 (
 ToolbarWindow
 *
@@ -17003,6 +17004,8 @@ ToolbarWindow
 [
 aView
 window
+]
+retain
 ]
 ;
 [
@@ -17034,6 +17037,11 @@ mWindow
 restoreBackgroundColor
 ]
 ;
+[
+mWindow
+release
+]
+;
 }
 }
 private
@@ -17042,6 +17050,9 @@ ToolbarWindow
 *
 mWindow
 ;
+/
+/
+strong
 }
 ;
 void
