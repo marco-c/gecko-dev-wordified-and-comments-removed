@@ -124,7 +124,7 @@ ptr
 [
 derive
 (
-Show
+Debug
 Clone
 )
 ]

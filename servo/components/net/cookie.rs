@@ -49,7 +49,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 net
@@ -74,7 +74,7 @@ Duration
 derive
 (
 Clone
-Show
+Debug
 )
 ]
 pub
@@ -793,7 +793,7 @@ IpAddr
 (
 )
 .
-is_none
+is_err
 (
 )
 {

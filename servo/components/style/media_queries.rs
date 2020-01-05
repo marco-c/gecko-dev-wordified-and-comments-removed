@@ -57,7 +57,7 @@ specified
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -79,7 +79,7 @@ derive
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -170,7 +170,7 @@ derive
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -192,7 +192,7 @@ derive
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -206,7 +206,7 @@ Not
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -278,7 +278,7 @@ derive
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -298,7 +298,7 @@ derive
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -320,7 +320,7 @@ missing_copy_implementations
 [
 derive
 (
-Show
+Debug
 )
 ]
 pub

@@ -2,13 +2,15 @@ use
 std
 :
 :
+old_io
+as
 io
 ;
 use
 std
 :
 :
-io
+old_io
 :
 :
 Writer

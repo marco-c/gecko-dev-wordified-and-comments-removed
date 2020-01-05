@@ -7,6 +7,7 @@ unsafe_destructor
 plugin
 box_syntax
 int_uint
+core
 )
 ]
 #
@@ -65,6 +66,14 @@ extern
 crate
 log
 ;
+#
+[
+macro_use
+]
+extern
+crate
+bitflags
+;
 extern
 crate
 core
@@ -121,7 +130,7 @@ rustc
 serialize
 "
 as
-rustc_serialize
+serialize
 ;
 extern
 crate

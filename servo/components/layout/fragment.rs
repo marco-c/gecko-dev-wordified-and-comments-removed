@@ -1476,6 +1476,10 @@ from_str
 (
 string
 )
+.
+ok
+(
+)
 ;
 n
 }
@@ -2859,7 +2863,7 @@ content_size
 [
 derive
 (
-Show
+Debug
 Clone
 )
 ]
@@ -3183,6 +3187,10 @@ FromStr
 from_str
 (
 string
+)
+.
+ok
+(
 )
 ;
 n
@@ -13401,7 +13409,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Fragment
 {
@@ -13678,7 +13686,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 )
 ]
 pub

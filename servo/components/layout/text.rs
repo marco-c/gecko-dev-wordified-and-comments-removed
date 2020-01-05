@@ -336,6 +336,8 @@ clump
 .
 append
 (
+&
+mut
 dlist
 :
 :
@@ -387,6 +389,8 @@ clump
 .
 append
 (
+&
+mut
 dlist
 :
 :

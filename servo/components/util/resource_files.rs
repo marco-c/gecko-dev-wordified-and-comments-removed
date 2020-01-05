@@ -2,7 +2,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 {
@@ -14,7 +14,7 @@ use
 std
 :
 :
-path
+old_path
 :
 :
 Path
@@ -54,7 +54,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 fs

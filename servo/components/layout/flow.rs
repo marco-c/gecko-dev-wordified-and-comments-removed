@@ -303,7 +303,7 @@ Flow
 fmt
 :
 :
-Show
+Debug
 +
 Sync
 {
@@ -2032,7 +2032,7 @@ derive
 (
 RustcEncodable
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -3587,7 +3587,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 BaseFlow
 {

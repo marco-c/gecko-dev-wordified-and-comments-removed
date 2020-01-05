@@ -38,7 +38,7 @@ fmt
 :
 :
 {
-Show
+Debug
 Formatter
 Error
 }
@@ -227,7 +227,7 @@ FLAG_SIDEWAYS_LEFT
 }
 }
 impl
-Show
+Debug
 for
 WritingMode
 {
@@ -572,7 +572,7 @@ mode
 }
 }
 impl
-Show
+Debug
 for
 DebugWritingMode
 {
@@ -686,9 +686,9 @@ impl
 <
 T
 :
-Show
+Debug
 >
-Show
+Debug
 for
 LogicalSize
 <
@@ -1456,9 +1456,9 @@ impl
 <
 T
 :
-Show
+Debug
 >
-Show
+Debug
 for
 LogicalPoint
 <
@@ -2627,9 +2627,9 @@ impl
 <
 T
 :
-Show
+Debug
 >
-Show
+Debug
 for
 LogicalMargin
 <
@@ -4362,9 +4362,9 @@ impl
 <
 T
 :
-Show
+Debug
 >
-Show
+Debug
 for
 LogicalRect
 <

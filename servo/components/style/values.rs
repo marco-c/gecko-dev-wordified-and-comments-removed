@@ -172,7 +172,7 @@ std
 fmt
 :
 :
-Show
+Debug
 for
 name
 {
@@ -337,7 +337,7 @@ fmt
 :
 {
 Formatter
-Show
+Debug
 }
 ;
 use
@@ -526,7 +526,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 CSSColor
 {
@@ -660,7 +660,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 CSSRGBA
 {
@@ -786,7 +786,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 CSSImage
 {
@@ -929,7 +929,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Length
 {
@@ -1630,7 +1630,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LengthOrPercentage
 {
@@ -2008,7 +2008,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LengthOrPercentageOrAuto
 {
@@ -2422,7 +2422,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LengthOrPercentageOrNone
 {
@@ -3198,7 +3198,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Angle
 {
@@ -3526,7 +3526,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Image
 {
@@ -3924,7 +3924,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LinearGradient
 {
@@ -4102,7 +4102,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 AngleOrCorner
 {
@@ -4284,7 +4284,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 ColorStop
 {
@@ -5567,7 +5567,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LengthOrPercentage
 {
@@ -5744,7 +5744,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LengthOrPercentageOrAuto
 {
@@ -5949,7 +5949,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LengthOrPercentageOrNone
 {
@@ -6152,7 +6152,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Image
 {
@@ -6267,7 +6267,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 LinearGradient
 {
@@ -6374,7 +6374,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 ColorStop
 {

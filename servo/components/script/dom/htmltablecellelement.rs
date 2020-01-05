@@ -134,7 +134,7 @@ derive
 (
 Copy
 PartialEq
-Show
+Debug
 )
 ]
 #

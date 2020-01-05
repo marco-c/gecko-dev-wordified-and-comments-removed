@@ -920,7 +920,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableCellFlow
 {

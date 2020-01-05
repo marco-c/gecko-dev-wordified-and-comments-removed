@@ -46,7 +46,7 @@ Int
 fmt
 :
 :
-Show
+Debug
 {
 type
 Index
@@ -161,7 +161,7 @@ PartialEq
 PartialOrd
 Eq
 Ord
-Show
+Debug
 Copy
 )
 ]
@@ -1237,7 +1237,7 @@ RangeIndex
 fmt
 :
 :
-Show
+Debug
 for
 Range
 <

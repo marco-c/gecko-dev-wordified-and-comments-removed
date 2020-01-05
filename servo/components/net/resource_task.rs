@@ -47,9 +47,6 @@ hyper
 header
 :
 :
-common
-:
-:
 UserAgent
 ;
 use
@@ -108,7 +105,10 @@ std
 borrow
 :
 :
+{
 ToOwned
+IntoCow
+}
 ;
 use
 std
@@ -148,7 +148,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 {
@@ -179,7 +179,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 {
@@ -199,7 +199,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 net
@@ -494,7 +494,7 @@ Url
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -579,7 +579,7 @@ RawStatus
 OK
 "
 .
-to_owned
+into_cow
 (
 )
 )
@@ -746,7 +746,7 @@ LoadResponse
 derive
 (
 PartialEq
-Show
+Debug
 )
 ]
 pub

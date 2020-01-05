@@ -324,7 +324,7 @@ f64
 derive
 (
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]
@@ -3861,7 +3861,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 InlineFragments
 {
@@ -8780,7 +8780,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 InlineFlow
 {

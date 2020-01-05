@@ -886,7 +886,7 @@ derive
 (
 Copy
 PartialEq
-Show
+Debug
 )
 ]
 #
@@ -11800,6 +11800,7 @@ F
 >
 (
 self
+mut
 callback
 :
 F
@@ -11807,7 +11808,7 @@ F
 where
 F
 :
-Fn
+FnMut
 (
 &
 Atom

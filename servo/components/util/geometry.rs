@@ -106,7 +106,7 @@ Encodable
 [
 derive
 (
-Show
+Debug
 Copy
 )
 ]
@@ -120,7 +120,7 @@ ScreenPx
 derive
 (
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]
@@ -134,7 +134,7 @@ ViewportPx
 derive
 (
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]
@@ -410,7 +410,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Au
 {

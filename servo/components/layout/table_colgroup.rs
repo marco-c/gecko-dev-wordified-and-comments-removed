@@ -514,7 +514,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableColGroupFlow
 {

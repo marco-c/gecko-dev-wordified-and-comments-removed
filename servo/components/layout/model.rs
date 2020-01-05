@@ -1233,7 +1233,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 IntrinsicISizes
 {
@@ -1496,7 +1496,7 @@ derive
 (
 Copy
 PartialEq
-Show
+Debug
 )
 ]
 pub

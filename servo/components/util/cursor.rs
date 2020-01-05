@@ -52,7 +52,7 @@ Copy
 PartialEq
 Eq
 FromPrimitive
-Show
+Debug
 )
 ]
 #

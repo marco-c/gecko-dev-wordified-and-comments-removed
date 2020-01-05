@@ -133,7 +133,7 @@ Arc
 [
 derive
 (
-Show
+Debug
 )
 ]
 pub

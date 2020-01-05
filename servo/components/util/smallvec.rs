@@ -2109,8 +2109,11 @@ self
 for
 _
 in
-*
 self
+.
+by_ref
+(
+)
 {
 }
 match
@@ -2759,12 +2762,12 @@ T
 fmt
 :
 :
-Show
+Debug
 >
 fmt
 :
 :
-Show
+Debug
 for
 name
 <

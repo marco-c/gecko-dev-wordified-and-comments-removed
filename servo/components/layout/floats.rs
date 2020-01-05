@@ -77,7 +77,7 @@ derive
 (
 Clone
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]
@@ -204,7 +204,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Float
 {
@@ -330,7 +330,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 FloatList
 {
@@ -412,7 +412,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 PlacementInfo
 {
@@ -547,7 +547,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Floats
 {

@@ -215,7 +215,7 @@ fmt
 {
 Error
 Formatter
-Show
+Debug
 }
 ;
 use
@@ -1107,7 +1107,7 @@ PipelineId
 )
 }
 impl
-Show
+Debug
 for
 Msg
 {

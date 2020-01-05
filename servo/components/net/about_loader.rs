@@ -53,13 +53,13 @@ std
 borrow
 :
 :
-ToOwned
+IntoCow
 ;
 use
 std
 :
 :
-io
+old_io
 :
 :
 fs
@@ -199,7 +199,7 @@ RawStatus
 OK
 "
 .
-to_owned
+into_cow
 (
 )
 )

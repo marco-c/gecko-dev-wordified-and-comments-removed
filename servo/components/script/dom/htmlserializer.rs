@@ -211,7 +211,6 @@ depth
 for
 node
 in
-*
 iterator
 {
 while

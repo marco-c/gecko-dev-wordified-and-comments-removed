@@ -227,3 +227,8 @@ mod_path
 .
 1
 "
+bitflags
+=
+"
+*
+"

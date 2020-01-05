@@ -286,7 +286,7 @@ UntrustedNodeAddress
 derive
 (
 PartialEq
-Show
+Debug
 )
 ]
 pub

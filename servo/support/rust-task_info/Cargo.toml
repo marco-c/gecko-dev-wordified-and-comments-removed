@@ -28,10 +28,7 @@ Developers
 build
 =
 "
-make
--
-f
-makefile
+build
 .
-cargo
+rs
 "

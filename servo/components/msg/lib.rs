@@ -26,6 +26,14 @@ extern
 crate
 azure
 ;
+#
+[
+macro_use
+]
+extern
+crate
+bitflags
+;
 extern
 crate
 geom

@@ -17,6 +17,14 @@ unstable
 ]
 #
 [
+macro_use
+]
+extern
+crate
+bitflags
+;
+#
+[
 cfg
 (
 target_os

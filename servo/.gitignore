@@ -18,6 +18,12 @@ target
 /
 ports
 /
+gonk
+/
+target
+/
+ports
+/
 cef
 /
 target

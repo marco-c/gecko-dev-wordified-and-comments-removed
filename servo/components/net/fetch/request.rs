@@ -44,9 +44,6 @@ hyper
 header
 :
 :
-common
-:
-:
 ContentType
 ;
 use

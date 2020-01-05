@@ -24,7 +24,7 @@ _
 std
 :
 :
-io
+old_io
 :
 :
 stderr

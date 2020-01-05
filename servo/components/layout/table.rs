@@ -1980,7 +1980,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableFlow
 {
@@ -2128,7 +2128,7 @@ derive
 (
 Clone
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]

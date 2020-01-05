@@ -133,7 +133,7 @@ uint
 derive
 (
 Copy
-Show
+Debug
 )
 ]
 #

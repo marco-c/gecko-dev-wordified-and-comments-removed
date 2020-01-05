@@ -109,7 +109,7 @@ fmt
 {
 Error
 Formatter
-Show
+Debug
 }
 ;
 use
@@ -246,7 +246,7 @@ KeyModifiers
 )
 }
 impl
-Show
+Debug
 for
 WindowEvent
 {

@@ -29,15 +29,6 @@ use
 std
 :
 :
-hash
-:
-:
-Hash
-;
-use
-std
-:
-:
 sync
 :
 :
@@ -2645,7 +2636,7 @@ them
 derive
 (
 Clone
-Show
+Debug
 )
 ]
 pub

@@ -32,7 +32,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 timer
@@ -254,12 +254,13 @@ len
 >
 30
 {
+&
 url
+[
 .
-slice_to
-(
+.
 30
-)
+]
 }
 else
 {

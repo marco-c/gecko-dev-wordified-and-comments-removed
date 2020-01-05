@@ -34,7 +34,7 @@ std
 fmt
 :
 :
-Show
+Debug
 ;
 use
 std
@@ -3713,7 +3713,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 T
 {
@@ -4405,7 +4405,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 T
 {
@@ -8195,7 +8195,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 T
 {
@@ -11510,7 +11510,7 @@ Clone
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -12419,7 +12419,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 BoxShadow
 {
@@ -13137,7 +13137,7 @@ Clone
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -13182,7 +13182,7 @@ ClipRect
 derive
 (
 Clone
-Show
+Debug
 PartialEq
 Copy
 )
@@ -13986,7 +13986,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -14307,7 +14307,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -18629,7 +18629,7 @@ skipped
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -19024,6 +19024,13 @@ range
 >
 {
 let
+pos
+=
+range
+.
+start
+;
+let
 message
 =
 format
@@ -19054,9 +19061,7 @@ log_css_error
 iter
 .
 input
-range
-.
-start
+pos
 &
 *
 message
@@ -19257,7 +19262,7 @@ derive
 Copy
 PartialEq
 Eq
-Show
+Debug
 )
 ]
 pub
@@ -19357,7 +19362,7 @@ Clone
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -20251,7 +20256,7 @@ UnknownProperty
 }
 }
 impl
-Show
+Debug
 for
 PropertyDeclaration
 {

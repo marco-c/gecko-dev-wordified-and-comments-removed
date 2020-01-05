@@ -416,10 +416,6 @@ new_s
 =
 s
 .
-get
-(
-)
-.
 chars
 (
 )

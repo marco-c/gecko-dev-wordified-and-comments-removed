@@ -71,9 +71,6 @@ iter
 repeat
 ;
 use
-std
-:
-:
 rand
 ;
 use

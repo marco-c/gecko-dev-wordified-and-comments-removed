@@ -25,7 +25,7 @@ std
 fmt
 :
 :
-Show
+Debug
 ;
 pub
 trait
@@ -560,7 +560,7 @@ Eq
 +
 Ord
 +
-Show
+Debug
 >
 (
 arr
