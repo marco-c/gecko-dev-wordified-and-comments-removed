@@ -1864,6 +1864,13 @@ FrameBuilder
 :
 new
 (
+self
+.
+frame_builder
+.
+take
+(
+)
 window_size
 background_color
 self

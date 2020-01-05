@@ -5472,6 +5472,13 @@ generate_mipmap
 target
 )
 }
+if
+cfg
+!
+(
+debug_assertions
+)
+{
 let
 error
 =
@@ -5514,6 +5521,7 @@ error
 error
 )
 ;
+}
 }
 fn
 read_pixels

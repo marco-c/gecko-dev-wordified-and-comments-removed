@@ -880,7 +880,7 @@ WriteParam
 aMsg
 aParam
 .
-serialization_start_time
+builder_start_time
 )
 ;
 WriteParam
@@ -888,7 +888,7 @@ WriteParam
 aMsg
 aParam
 .
-serialization_end_time
+builder_finish_time
 )
 ;
 }
@@ -929,7 +929,7 @@ aIter
 aResult
 -
 >
-serialization_start_time
+builder_start_time
 )
 &
 &
@@ -941,7 +941,7 @@ aIter
 aResult
 -
 >
-serialization_end_time
+builder_finish_time
 )
 ;
 }

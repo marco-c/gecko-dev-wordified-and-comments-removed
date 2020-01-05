@@ -3203,11 +3203,14 @@ self
 command
 :
 VRCompositorCommand
-texture_id
+texture
 :
 Option
 <
+(
 u32
+DeviceIntSize
+)
 >
 )
 ;

@@ -1113,6 +1113,9 @@ Option
 <
 u32
 >
+offset
+:
+u32
 }
 Grow
 {

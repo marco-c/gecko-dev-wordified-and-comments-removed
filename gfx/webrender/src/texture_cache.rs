@@ -4548,6 +4548,11 @@ channel_index
 stride
 :
 stride
+offset
+:
+descriptor
+.
+offset
 }
 }
 ;
