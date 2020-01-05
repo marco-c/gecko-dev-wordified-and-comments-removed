@@ -24509,6 +24509,13 @@ AddCookiesToRequest
 (
 )
 ;
+HttpBaseChannel
+:
+:
+SetDocshellUserAgentOverride
+(
+)
+;
 if
 (
 !
@@ -24528,13 +24535,6 @@ this
 )
 ;
 }
-HttpBaseChannel
-:
-:
-SetDocshellUserAgentOverride
-(
-)
-;
 mIsPending
 =
 true
