@@ -16,13 +16,11 @@ HuffmanIncomingTable
 struct
 HuffmanIncomingEntry
 {
-const
 uint16_t
 mValue
 :
 9
 ;
-const
 uint16_t
 mPrefixLen
 :

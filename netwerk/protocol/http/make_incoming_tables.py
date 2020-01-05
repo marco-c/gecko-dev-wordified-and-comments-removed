@@ -1109,7 +1109,6 @@ struct
 HuffmanIncomingEntry
 {
   
-const
 uint16_t
 mValue
 :
@@ -1128,7 +1127,6 @@ hold
 .
 256
   
-const
 uint16_t
 mPrefixLen
 :
