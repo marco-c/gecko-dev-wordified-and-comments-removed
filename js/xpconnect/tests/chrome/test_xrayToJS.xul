@@ -1884,7 +1884,7 @@ a1
 )
 ;
 var
-isReleaseBuild
+isReleaseOrBeta
 =
 !
 version
