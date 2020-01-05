@@ -1403,9 +1403,6 @@ StateObject
 >
 mStateObj
 ;
-TimeStamp
-mBufferingStart
-;
 media
 :
 :
