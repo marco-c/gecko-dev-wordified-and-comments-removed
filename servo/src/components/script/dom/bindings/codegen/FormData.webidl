@@ -112,8 +112,6 @@ whatwg
 org
 *
 /
-/
-*
 [
 Constructor
 (
@@ -122,8 +120,6 @@ HTMLFormElement
 form
 )
 ]
-*
-/
 interface
 FormData
 {
