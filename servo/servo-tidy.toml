@@ -63,6 +63,9 @@ bitflags
 "
 lazy_static
 "
+"
+semver
+"
 ]
 #
 Files
