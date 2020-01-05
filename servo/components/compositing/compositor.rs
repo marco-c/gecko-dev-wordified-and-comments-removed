@@ -2443,7 +2443,8 @@ FinishedShuttingDown
 )
 =
 >
-panic
+{
+error
 !
 (
 "
@@ -2459,6 +2460,10 @@ shutting
 down
 "
 )
+;
+return
+false
+}
 (
 Msg
 :
@@ -4282,7 +4287,8 @@ as_ref
 None
 =
 >
-panic
+{
+warn
 !
 (
 "
@@ -4302,6 +4308,9 @@ pipeline
 "
 pipeline_id
 )
+;
+None
+}
 }
 }
 fn
@@ -4943,7 +4952,7 @@ contains_key
 pipeline_id
 )
 {
-panic
+warn
 !
 (
 "
@@ -4958,6 +4967,10 @@ unknown
 pipeline
 "
 )
+;
+return
+None
+;
 }
 self
 .
@@ -6321,7 +6334,8 @@ point
 )
 )
 {
-panic
+return
+warn
 !
 (
 "
