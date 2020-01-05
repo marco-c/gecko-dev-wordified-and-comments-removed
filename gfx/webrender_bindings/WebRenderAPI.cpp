@@ -244,6 +244,7 @@ this
 -
 >
 mEnableProfiler
+nullptr
 mWrApi
 &
 wrRenderer
