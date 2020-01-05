@@ -127,8 +127,6 @@ querySelector
 (
 "
 .
-old
--
 boxmodel
 -
 size
@@ -341,8 +339,6 @@ querySelector
 (
 "
 .
-old
--
 boxmodel
 -
 size

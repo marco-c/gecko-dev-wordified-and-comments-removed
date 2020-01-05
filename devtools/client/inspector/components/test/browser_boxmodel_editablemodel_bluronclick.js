@@ -145,14 +145,10 @@ querySelector
 (
 "
 .
-old
--
 boxmodel
 -
 margin
 .
-old
--
 boxmodel
 -
 top
@@ -348,14 +344,10 @@ querySelector
 (
 "
 .
-old
--
 boxmodel
 -
 margin
 .
-old
--
 boxmodel
 -
 top
@@ -392,8 +384,6 @@ that
 clicking
 below
 the
-old
--
 boxmodel
 -
 container
@@ -470,8 +460,6 @@ querySelector
 (
 "
 #
-old
--
 boxmodel
 -
 container
