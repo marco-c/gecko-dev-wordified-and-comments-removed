@@ -1664,6 +1664,11 @@ e
 }
 }
 }
+if
+(
+callback
+)
+{
 callback
 .
 call
@@ -1671,6 +1676,10 @@ call
 that
 json
 )
+;
+}
+return
+json
 ;
 }
 )
