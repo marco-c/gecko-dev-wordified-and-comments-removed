@@ -3401,9 +3401,6 @@ schema
 schema
 .
 id
-|
-|
-undefined
 enumeration
 schema
 .
