@@ -66,6 +66,16 @@ details
 height
 "
 ]
+statistics
+:
+[
+"
+Bool
+"
+"
+statistics
+"
+]
 filters
 :
 [

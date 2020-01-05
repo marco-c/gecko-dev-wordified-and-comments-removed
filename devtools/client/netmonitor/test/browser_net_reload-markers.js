@@ -18,7 +18,7 @@ monitor
 yield
 initNetMonitor
 (
-SIMPLE_URL
+SINGLE_GET_URL
 )
 ;
 info
@@ -105,7 +105,7 @@ yield
 waitForNetworkEvents
 (
 monitor
-1
+2
 )
 ;
 yield

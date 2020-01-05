@@ -18,7 +18,7 @@ monitor
 yield
 initNetMonitor
 (
-SIMPLE_URL
+SINGLE_GET_URL
 )
 ;
 info
@@ -55,7 +55,7 @@ wait
 waitForNetworkEvents
 (
 monitor
-1
+2
 )
 ;
 let
@@ -93,15 +93,15 @@ is
 RequestsMenu
 .
 itemCount
-1
+2
 "
 The
 request
 menu
 should
 have
-one
-item
+two
+items
 after
 reloading
 "

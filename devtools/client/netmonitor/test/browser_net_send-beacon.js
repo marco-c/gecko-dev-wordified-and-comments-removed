@@ -124,6 +124,8 @@ is
 (
 request
 .
+attachment
+.
 method
 "
 POST
@@ -140,6 +142,8 @@ correct
 ok
 (
 request
+.
+attachment
 .
 url
 .
@@ -161,6 +165,8 @@ correct
 is
 (
 request
+.
+attachment
 .
 status
 "

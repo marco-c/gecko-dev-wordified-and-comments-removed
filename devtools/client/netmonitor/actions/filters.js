@@ -53,7 +53,7 @@ filter
 function
 setFilterText
 (
-text
+url
 )
 {
 return
@@ -61,7 +61,7 @@ return
 type
 :
 SET_FILTER_TEXT
-text
+url
 }
 ;
 }

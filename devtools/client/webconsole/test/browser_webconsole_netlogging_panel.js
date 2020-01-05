@@ -159,6 +159,8 @@ is
 (
 selected
 .
+attachment
+.
 method
 request
 .
@@ -177,6 +179,8 @@ selected
 is
 (
 selected
+.
+attachment
 .
 url
 request
