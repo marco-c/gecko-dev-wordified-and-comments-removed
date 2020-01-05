@@ -174,7 +174,7 @@ version
 "
 0
 .
-6
+7
 "
 features
 =
@@ -300,5 +300,5 @@ serde_macros
 "
 0
 .
-6
+7
 "

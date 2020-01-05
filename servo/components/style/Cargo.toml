@@ -211,6 +211,8 @@ log
 0
 .
 3
+.
+5
 "
 matches
 =
@@ -266,7 +268,7 @@ version
 "
 0
 .
-6
+7
 "
 features
 =
@@ -281,7 +283,7 @@ serde_macros
 "
 0
 .
-6
+7
 "
 smallvec
 =
