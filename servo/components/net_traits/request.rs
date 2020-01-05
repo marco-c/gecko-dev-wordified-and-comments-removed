@@ -290,7 +290,7 @@ local_urls_only
 :
 bool
 pub
-sanboxed_storage_area_urls
+sandboxed_storage_area_urls
 :
 bool
 pub
@@ -493,7 +493,7 @@ Get
 local_urls_only
 :
 false
-sanboxed_storage_area_urls
+sandboxed_storage_area_urls
 :
 false
 headers
@@ -759,7 +759,7 @@ Get
 local_urls_only
 :
 false
-sanboxed_storage_area_urls
+sandboxed_storage_area_urls
 :
 false
 headers
