@@ -229,3 +229,11 @@ rust
 -
 egl
 "
+[
+dependencies
+]
+libc
+=
+"
+*
+"
