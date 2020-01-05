@@ -2835,6 +2835,12 @@ node
 NS_ERROR_FAILURE
 )
 ;
+FindBetterInsertionPoint
+(
+node
+offset
+)
+;
 if
 (
 IsTextNode
