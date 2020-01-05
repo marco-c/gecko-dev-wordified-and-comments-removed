@@ -56,12 +56,6 @@ bailout
 (
 )
 ;
-assertRecoveredOnBailout
-(
-iter
-true
-)
-;
 }
 function
 iterator
