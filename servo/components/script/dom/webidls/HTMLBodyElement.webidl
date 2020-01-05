@@ -256,8 +256,6 @@ attribute
 DOMString
 bgColor
 ;
-/
-/
 attribute
 DOMString
 background
