@@ -119,10 +119,13 @@ self
 >
 DOMString
 {
-copy
 self
 .
 data
+.
+clone
+(
+)
 }
 pub
 fn

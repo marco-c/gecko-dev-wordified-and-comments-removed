@@ -45,9 +45,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :
@@ -60,7 +57,7 @@ extra
 arc
 :
 :
-ARC
+Arc
 ;
 pub
 struct
@@ -73,7 +70,7 @@ image
 :
 Option
 <
-ARC
+Arc
 <
 ~
 Image
@@ -429,7 +426,7 @@ self
 >
 Option
 <
-ARC
+Arc
 <
 ~
 Image

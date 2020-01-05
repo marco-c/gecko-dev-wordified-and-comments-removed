@@ -119,10 +119,6 @@ geom
 ;
 extern
 mod
-http_client
-;
-extern
-mod
 stb_image
 ;
 extern
@@ -317,7 +313,6 @@ servo_gfx_font_list
 =
 font_list
 ;
-priv
 mod
 render_context
 ;

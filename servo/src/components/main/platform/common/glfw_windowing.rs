@@ -172,7 +172,6 @@ ApplicationMethods
 for
 Application
 {
-pub
 fn
 new
 (

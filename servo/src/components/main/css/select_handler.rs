@@ -598,6 +598,8 @@ ret
 false
 ;
 for
+s
+in
 existing_classes
 .
 split_iter
@@ -605,11 +607,6 @@ split_iter
 '
 '
 )
-.
-advance
-|
-s
-|
 {
 if
 s

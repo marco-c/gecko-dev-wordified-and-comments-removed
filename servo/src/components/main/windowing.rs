@@ -125,7 +125,6 @@ WindowMethods
 A
 >
 {
-pub
 fn
 new
 (
@@ -139,7 +138,6 @@ A
 mut
 Self
 ;
-pub
 fn
 size
 (
@@ -153,7 +151,6 @@ Size2D
 f32
 >
 ;
-pub
 fn
 present
 (
@@ -162,7 +159,6 @@ mut
 self
 )
 ;
-pub
 fn
 recv
 (
@@ -173,7 +169,6 @@ self
 >
 WindowEvent
 ;
-pub
 fn
 set_ready_state
 (
@@ -184,7 +179,6 @@ ready_state
 ReadyState
 )
 ;
-pub
 fn
 set_render_state
 (
@@ -195,7 +189,6 @@ render_state
 RenderState
 )
 ;
-pub
 fn
 hidpi_factor
 (

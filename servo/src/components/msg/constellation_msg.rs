@@ -14,9 +14,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :

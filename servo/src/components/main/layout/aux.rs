@@ -47,7 +47,7 @@ servo_util
 tree
 :
 :
-TreeUtils
+TreeNodeRef
 ;
 pub
 struct
@@ -112,7 +112,6 @@ self
 mut
 LayoutData
 ;
-pub
 fn
 has_layout_data
 (
@@ -169,7 +168,6 @@ AbstractNode
 LayoutView
 >
 {
-pub
 fn
 layout_data
 (
@@ -189,7 +187,6 @@ unsafe_layout_data
 )
 }
 }
-pub
 fn
 has_layout_data
 (
@@ -208,7 +205,6 @@ unsafe_has_layout_data
 )
 }
 }
-pub
 fn
 set_layout_data
 (
@@ -343,12 +339,13 @@ let
 _
 =
 for
+n
+in
 self
 .
 traverse_preorder
-|
-n
-|
+(
+)
 {
 match
 n

@@ -93,8 +93,11 @@ ImageSurface
 {
 size
 :
-copy
 size
+.
+clone
+(
+)
 format
 :
 format

@@ -80,9 +80,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :
@@ -207,6 +204,7 @@ ReflowDocumentDamage
 impl
 DocumentDamageLevel
 {
+pub
 fn
 add
 (
