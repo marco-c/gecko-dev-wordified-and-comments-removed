@@ -3539,8 +3539,6 @@ WebGLRenderbuffer
 renderbuffer
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
@@ -3552,8 +3550,6 @@ WebGLShader
 shader
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
