@@ -89,7 +89,10 @@ dom
 htmlcollection
 :
 :
+{
 HTMLCollection
+Static
+}
 ;
 use
 dom
@@ -653,9 +656,12 @@ new
 doc
 .
 window
+Static
+(
 ~
 [
 ]
+)
 )
 }
 pub
