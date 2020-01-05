@@ -374,6 +374,11 @@ aThis
 )
 ;
 void
+MarkWrapperLive
+(
+)
+;
+void
 SetPreservingWrapper
 (
 bool
