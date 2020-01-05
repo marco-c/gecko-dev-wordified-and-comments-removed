@@ -43,6 +43,7 @@ ipdl
 parser
 import
 Parser
+ParseError
 from
 ipdl
 .
@@ -155,6 +156,9 @@ type
 protocol
 '
     
+try
+:
+        
 return
 Parser
 (
@@ -176,6 +180,21 @@ filename
 includedirs
 errout
 )
+    
+except
+ParseError
+as
+p
+:
+        
+print
+>
+>
+errout
+p
+        
+return
+None
 def
 typecheck
 (
