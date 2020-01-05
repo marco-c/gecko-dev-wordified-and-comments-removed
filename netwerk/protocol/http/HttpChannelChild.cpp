@@ -3676,11 +3676,15 @@ timing
 .
 responseEnd
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
 mAsyncOpenTime
+<
 =
 timing
 .
 fetchStart
+)
 ;
 mRedirectStartTimeStamp
 =
