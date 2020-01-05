@@ -120,6 +120,11 @@ TestCOMArray
 cpp
 '
 '
+TestCOMPtrEq
+.
+cpp
+'
+'
 TestCRT
 .
 cpp
