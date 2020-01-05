@@ -386,6 +386,17 @@ ClonableToDifferentThreadOrProcess
 )
 const
 ;
+nsIFile
+*
+GetInternalNsIFile
+(
+)
+const
+{
+return
+mFile
+;
+}
 private
 :
 Directory
