@@ -581,6 +581,7 @@ addSyntheticLine
 (
 line
 linePos
+addDisableLine
 )
 {
 lineMap
@@ -604,6 +605,23 @@ scriptLines
 push
 (
 line
++
+(
+addDisableLine
+?
+"
+"
+:
+"
+/
+/
+eslint
+-
+disable
+-
+line
+"
+)
 )
 ;
 }
@@ -1083,6 +1101,7 @@ addSyntheticLine
 /
 *
 0
+true
 )
 ;
 for
@@ -1111,6 +1130,7 @@ trim
 )
 }
 0
+true
 )
 ;
 }
@@ -1119,6 +1139,7 @@ addSyntheticLine
 *
 /
 0
+true
 )
 ;
 }
