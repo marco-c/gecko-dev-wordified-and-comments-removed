@@ -432,6 +432,10 @@ KeyModifiers
 u8
 {
 const
+NONE
+=
+0x00
+const
 SHIFT
 =
 0x01
