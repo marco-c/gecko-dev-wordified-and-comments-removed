@@ -436,6 +436,16 @@ opt
 '
     
 '
+linux64
+-
+add
+-
+on
+-
+devel
+'
+    
+'
 macosx64
 -
 clang
