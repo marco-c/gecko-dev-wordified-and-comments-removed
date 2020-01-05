@@ -958,6 +958,16 @@ return
 mInputQueue
 ;
 }
+void
+ClearContentController
+(
+)
+{
+mcc
+=
+nullptr
+;
+}
 protected
 :
 AsyncPanZoomController

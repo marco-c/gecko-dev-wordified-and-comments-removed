@@ -203,6 +203,13 @@ ClearTree
 (
 )
 ;
+tm
+-
+>
+ClearContentController
+(
+)
+;
 }
 void
 MakeApzcWaitForMainThread

@@ -106,6 +106,13 @@ ClearTree
 (
 )
 ;
+manager
+-
+>
+ClearContentController
+(
+)
+;
 }
 void
 SampleAnimationsOnce
