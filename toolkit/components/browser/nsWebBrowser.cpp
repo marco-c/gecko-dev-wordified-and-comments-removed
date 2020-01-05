@@ -2580,6 +2580,9 @@ aPostDataStream
 nsIInputStream
 *
 aExtraHeaderStream
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 {
 NS_ENSURE_STATE
@@ -2598,6 +2601,7 @@ aLoadFlags
 aReferringURI
 aPostDataStream
 aExtraHeaderStream
+aTriggeringPrincipal
 )
 ;
 }

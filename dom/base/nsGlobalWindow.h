@@ -6439,6 +6439,9 @@ aError
 void
 HomeOuter
 (
+nsIPrincipal
+&
+aSubjectPrincipal
 mozilla
 :
 :
@@ -6450,6 +6453,9 @@ aError
 void
 Home
 (
+nsIPrincipal
+&
+aSubjectPrincipal
 mozilla
 :
 :

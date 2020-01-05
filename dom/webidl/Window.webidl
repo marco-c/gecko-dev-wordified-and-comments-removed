@@ -2490,6 +2490,7 @@ forward
 Throws
 ChromeOnly
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 void
 home
