@@ -531,9 +531,15 @@ proxy
 js
 :
 :
-RegExpGuard
+MutableHandle
+<
+js
+:
+:
+RegExpShared
 *
-g
+>
+shared
 )
 ;
 nsresult

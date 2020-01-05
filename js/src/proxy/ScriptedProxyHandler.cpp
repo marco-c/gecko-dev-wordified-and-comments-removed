@@ -5776,9 +5776,8 @@ JSContext
 cx
 HandleObject
 proxy
-RegExpGuard
-*
-g
+MutableHandleRegExpShared
+shared
 )
 const
 {
