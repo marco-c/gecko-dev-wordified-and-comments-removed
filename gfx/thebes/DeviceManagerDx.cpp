@@ -2534,7 +2534,7 @@ resetReason
 if
 (
 !
-GetAnyDeviceRemovedReason
+HasDeviceReset
 (
 &
 resetReason
@@ -2545,6 +2545,17 @@ return
 false
 ;
 }
+if
+(
+resetReason
+!
+=
+DeviceResetReason
+:
+:
+FORCED_RESET
+)
+{
 Telemetry
 :
 :
@@ -2560,6 +2571,7 @@ resetReason
 )
 )
 ;
+}
 bool
 createCompositorDevice
 =
