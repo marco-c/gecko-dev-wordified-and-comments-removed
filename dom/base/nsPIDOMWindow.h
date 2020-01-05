@@ -2186,6 +2186,12 @@ IsSecureContext
 )
 const
 ;
+bool
+IsSecureContextIfOpenerIgnored
+(
+)
+const
+;
 void
 Suspend
 (

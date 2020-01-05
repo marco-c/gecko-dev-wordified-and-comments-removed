@@ -428,7 +428,7 @@ ownerDocument
 .
 defaultView
 .
-isSecureContext
+isSecureContextIfOpenerIgnored
 ;
 let
 {
