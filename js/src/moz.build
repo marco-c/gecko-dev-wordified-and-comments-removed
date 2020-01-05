@@ -1553,6 +1553,13 @@ cpp
 '
 irregexp
 /
+RegExpCharacters
+.
+cpp
+'
+'
+irregexp
+/
 RegExpEngine
 .
 cpp
