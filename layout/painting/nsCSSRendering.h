@@ -125,6 +125,9 @@ WebRenderDisplayItemLayer
 class
 WebRenderParentCommand
 ;
+class
+LayerManager
+;
 }
 namespace
 wr
@@ -292,6 +295,16 @@ gfx
 :
 RectCornerRadii
 RectCornerRadii
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+LayerManager
+LayerManager
 ;
 typedef
 mozilla
@@ -1304,6 +1317,9 @@ static
 bool
 CanBuildWebRenderDisplayItemsForStyleImageLayer
 (
+LayerManager
+*
+aManager
 nsPresContext
 &
 aPresCtx
