@@ -770,6 +770,11 @@ addTab
 url
 {
 userContextId
+preferredRemoteType
+:
+options
+.
+preferredRemoteType
 }
 )
 ;
