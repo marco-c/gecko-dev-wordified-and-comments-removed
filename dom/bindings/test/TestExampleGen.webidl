@@ -6570,14 +6570,6 @@ long
 ix
 )
 ;
-deleter
-void
-(
-unsigned
-long
-ix
-)
-;
 setter
 creator
 void
