@@ -3596,7 +3596,7 @@ const
 uint32_t
 MinJITStackSize
 =
-2
+1
 ;
 }
 }
