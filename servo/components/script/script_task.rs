@@ -210,6 +210,8 @@ event
 {
 Event
 EventHelpers
+EventBubbles
+EventCancelable
 }
 ;
 use
@@ -8679,8 +8681,14 @@ resize
 to_owned
 (
 )
-false
-false
+EventBubbles
+:
+:
+DoesNotBubble
+EventCancelable
+:
+:
+NotCancelable
 Some
 (
 window
