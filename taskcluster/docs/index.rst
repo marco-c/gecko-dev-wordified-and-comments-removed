@@ -209,9 +209,6 @@ docker
 images
 cron
 actions
-action
--
-spec
 how
 -
 tos
