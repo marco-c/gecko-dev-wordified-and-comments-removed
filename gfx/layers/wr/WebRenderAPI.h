@@ -283,6 +283,9 @@ const
 WRImageMask
 *
 aMask
+const
+WRTextureFilter
+aFilter
 WRImageKey
 aImage
 )

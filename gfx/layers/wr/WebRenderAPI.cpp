@@ -813,6 +813,9 @@ const
 WRImageMask
 *
 aMask
+const
+WRTextureFilter
+aFilter
 WRImageKey
 aImage
 )
@@ -823,6 +826,7 @@ mWRState
 aBounds
 aClip
 aMask
+aFilter
 aImage
 )
 ;

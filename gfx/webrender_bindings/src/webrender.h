@@ -551,6 +551,15 @@ repeat
 }
 }
 ;
+enum
+class
+WRTextureFilter
+{
+Linear
+Point
+Sentinel
+}
+;
 typedef
 uint64_t
 WRImageIdType
@@ -1231,6 +1240,8 @@ const
 WRImageMask
 *
 mask
+WRTextureFilter
+filter
 WRImageKey
 key
 )
