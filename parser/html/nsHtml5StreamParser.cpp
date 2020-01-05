@@ -4570,14 +4570,6 @@ rv
 )
 )
 {
-if
-(
-!
-XRE_IsContentProcess
-(
-)
-)
-{
 NS_WARNING
 (
 "
@@ -4595,7 +4587,6 @@ thread
 "
 )
 ;
-}
 }
 if
 (
