@@ -14066,14 +14066,6 @@ kAudioTrack
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-HasAudio
-(
-)
-)
-;
 return
 -
 1
