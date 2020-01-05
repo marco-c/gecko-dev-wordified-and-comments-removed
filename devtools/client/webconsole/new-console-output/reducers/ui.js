@@ -44,7 +44,7 @@ immutable
 )
 ;
 const
-Ui
+UiState
 =
 Immutable
 .
@@ -66,7 +66,7 @@ ui
 state
 =
 new
-Ui
+UiState
 (
 )
 action
@@ -103,9 +103,12 @@ return
 state
 ;
 }
-exports
+module
 .
-ui
+exports
 =
+{
+UiState
 ui
+}
 ;

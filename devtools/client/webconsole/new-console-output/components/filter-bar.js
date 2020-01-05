@@ -514,6 +514,11 @@ className
 devtools
 -
 toolbar
+webconsole
+-
+filterbar
+-
+secondary
 "
 }
 FilterButton
@@ -663,7 +668,7 @@ active
 :
 filter
 .
-network
+net
 label
 :
 "
@@ -672,7 +677,7 @@ Requests
 filterKey
 :
 "
-network
+net
 "
 dispatch
 }
