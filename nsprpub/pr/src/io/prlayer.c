@@ -3300,6 +3300,16 @@ length
 )
 )
 {
+if
+(
+identity_cache
+.
+length
+!
+=
+0
+)
+{
 memcpy
 (
 names
@@ -3317,6 +3327,7 @@ char
 )
 )
 ;
+}
 old
 =
 identity_cache
