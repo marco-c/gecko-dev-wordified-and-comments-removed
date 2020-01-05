@@ -297,7 +297,7 @@ rust
 -
 azure
 #
-b357751c04a89a87e6ef1f0cebe5f20957dd112d
+e151fa23f5cb3c1ef62b4d41bad9abdd1f4f3471
 "
 dependencies
 =
@@ -656,7 +656,7 @@ rust
 -
 azure
 #
-b357751c04a89a87e6ef1f0cebe5f20957dd112d
+e151fa23f5cb3c1ef62b4d41bad9abdd1f4f3471
 )
 "
 "
@@ -800,7 +800,7 @@ rust
 -
 azure
 #
-b357751c04a89a87e6ef1f0cebe5f20957dd112d
+e151fa23f5cb3c1ef62b4d41bad9abdd1f4f3471
 )
 "
 "
@@ -1878,7 +1878,7 @@ rust
 -
 azure
 #
-b357751c04a89a87e6ef1f0cebe5f20957dd112d
+e151fa23f5cb3c1ef62b4d41bad9abdd1f4f3471
 )
 "
 "
@@ -3654,7 +3654,7 @@ rust
 -
 azure
 #
-b357751c04a89a87e6ef1f0cebe5f20957dd112d
+e151fa23f5cb3c1ef62b4d41bad9abdd1f4f3471
 )
 "
 "

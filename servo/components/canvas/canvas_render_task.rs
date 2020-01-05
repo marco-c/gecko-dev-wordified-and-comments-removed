@@ -21,7 +21,10 @@ azure
 azure_hl
 :
 :
+{
 ColorPattern
+ColorPatternRef
+}
 ;
 use
 geom
@@ -374,10 +377,13 @@ drawtarget
 fill_rect
 (
 rect
+ColorPatternRef
+(
 &
 self
 .
 fill_color
+)
 Some
 (
 &
