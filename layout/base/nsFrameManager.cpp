@@ -3296,6 +3296,15 @@ if
 (
 *
 entry
+&
+&
+!
+ServoStyleSet
+:
+:
+IsInServoTraversal
+(
+)
 )
 {
 mLastLookup
