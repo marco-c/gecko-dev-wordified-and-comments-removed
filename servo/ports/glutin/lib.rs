@@ -21,13 +21,9 @@ macro_rules
 deny
 (
 unused_imports
-unused_variable
+unused_variables
 )
 ]
-extern
-crate
-alert
-;
 #
 [
 cfg

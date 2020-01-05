@@ -34,10 +34,6 @@ unused_variables
 ]
 extern
 crate
-alert
-;
-extern
-crate
 compositing
 ;
 extern

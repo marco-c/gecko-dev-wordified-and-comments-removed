@@ -24,10 +24,6 @@ unused_imports
 unused_variables
 )
 ]
-extern
-crate
-alert
-;
 #
 [
 cfg
