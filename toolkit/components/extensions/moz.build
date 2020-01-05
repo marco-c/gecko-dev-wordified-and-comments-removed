@@ -185,7 +185,7 @@ Schemas
 jsm
 '
 ]
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
 +
 =
 [
