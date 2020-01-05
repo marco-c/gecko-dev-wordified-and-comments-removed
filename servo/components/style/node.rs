@@ -198,7 +198,7 @@ Namespace
 attr
 :
 &
-str
+Atom
 )
 -
 >
@@ -217,7 +217,7 @@ self
 attr
 :
 &
-str
+Atom
 )
 -
 >
@@ -314,7 +314,7 @@ self
 name
 :
 &
-str
+Atom
 )
 -
 >

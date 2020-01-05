@@ -42319,6 +42319,11 @@ baseName
 }
 {
   
+#
+[
+inline
+]
+  
 fn
 {
 fname

@@ -511,9 +511,14 @@ elem
 .
 get_string_attribute
 (
+&
+atom
+!
+(
 "
 type
 "
+)
 )
 .
 into_ascii_lower
