@@ -109,8 +109,6 @@ close
 (
 )
 ;
-/
-/
 attribute
 OnErrorEventHandler
 onerror
