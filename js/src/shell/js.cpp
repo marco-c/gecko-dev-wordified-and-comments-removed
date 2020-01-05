@@ -3849,7 +3849,7 @@ task
 ;
 }
 static
-bool
+void
 DrainJobQueue
 (
 JSContext
@@ -3880,7 +3880,6 @@ sc
 drainingJobQueue
 )
 return
-true
 ;
 while
 (
@@ -4170,9 +4169,6 @@ break
 ;
 }
 }
-return
-true
-;
 }
 static
 bool
@@ -4197,16 +4193,10 @@ argc
 vp
 )
 ;
-if
-(
-!
 DrainJobQueue
 (
 cx
 )
-)
-return
-false
 ;
 args
 .
@@ -44112,11 +44102,6 @@ return
 false
 ;
 }
-DrainJobQueue
-(
-cx
-)
-;
 if
 (
 op
@@ -46946,6 +46931,11 @@ result
 EXITCODE_RUNTIME_ERROR
 ;
 }
+DrainJobQueue
+(
+cx
+)
+;
 if
 (
 sc
