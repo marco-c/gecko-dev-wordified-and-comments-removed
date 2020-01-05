@@ -1723,6 +1723,7 @@ mCompositor
 EndFrame
 (
 )
+;
 mCompositor
 -
 >
