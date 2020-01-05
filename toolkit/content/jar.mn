@@ -464,15 +464,6 @@ content
 /
 global
 /
-select
--
-child
-.
-js
-content
-/
-global
-/
 TopLevelVideoDocument
 .
 js
