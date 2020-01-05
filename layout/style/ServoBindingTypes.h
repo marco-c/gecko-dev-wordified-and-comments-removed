@@ -368,6 +368,10 @@ DECL_BORROWED_MUT_REF_TYPE_FOR
 (
 nsCSSValue
 )
+DECL_OWNED_REF_TYPE_FOR
+(
+RawGeckoPresContext
+)
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawGeckoPresContext

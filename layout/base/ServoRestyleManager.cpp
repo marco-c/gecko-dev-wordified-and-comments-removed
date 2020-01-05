@@ -331,8 +331,8 @@ ServoRestyleManager
 :
 :
 RebuildAllStyleData
-not
-implemented
+is
+incomplete
 "
 )
 ;
@@ -341,7 +341,7 @@ StyleSet
 )
 -
 >
-RecomputeDefaultComputedStyles
+RebuildData
 (
 )
 ;

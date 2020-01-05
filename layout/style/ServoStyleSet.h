@@ -550,7 +550,7 @@ AssertTreeIsClean
 #
 endif
 void
-RecomputeDefaultComputedStyles
+RebuildData
 (
 )
 ;
