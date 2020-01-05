@@ -110,6 +110,8 @@ unwrap
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub

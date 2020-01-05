@@ -309,18 +309,6 @@ util
 :
 :
 task
-:
-:
-spawn_named
-;
-use
-util
-:
-:
-task
-:
-:
-spawn_named_with_send_on_failure
 ;
 use
 util
@@ -1308,7 +1296,7 @@ mem
 ProfilerChan
 shutdown_chan
 :
-Sender
+IpcSender
 <
 (
 )
@@ -1327,6 +1315,9 @@ clone
 (
 )
 ;
+task
+:
+:
 spawn_named_with_send_on_failure
 (
 format
@@ -3049,6 +3040,9 @@ clone
 (
 )
 ;
+task
+:
+:
 spawn_named
 (
 "

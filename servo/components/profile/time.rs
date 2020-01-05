@@ -747,6 +747,17 @@ Event
 ProfilerCategory
 :
 :
+ScriptStylesheetLoad
+=
+>
+"
+Script
+Stylesheet
+Load
+"
+ProfilerCategory
+:
+:
 ScriptWebSocketEvent
 =
 >

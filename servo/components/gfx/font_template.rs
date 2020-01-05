@@ -69,6 +69,8 @@ Clone
 Copy
 Eq
 Hash
+Deserialize
+Serialize
 )
 ]
 pub
