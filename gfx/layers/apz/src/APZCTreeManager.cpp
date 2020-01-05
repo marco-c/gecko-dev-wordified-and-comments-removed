@@ -368,6 +368,7 @@ CompositorBridgeParent
 :
 LayerTreeState
 *
+const
 aLayerTreeState
 bool
 aIsFirstPaint
@@ -405,6 +406,7 @@ CompositorBridgeParent
 :
 LayerTreeState
 *
+const
 mLayerTreeState
 ;
 const
