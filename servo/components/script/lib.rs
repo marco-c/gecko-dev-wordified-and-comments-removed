@@ -43,14 +43,6 @@ custom_attribute
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
 old_io
 )
 ]

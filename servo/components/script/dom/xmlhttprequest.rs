@@ -792,7 +792,7 @@ pub
 struct
 GenerationId
 (
-uint
+u32
 )
 ;
 #
@@ -1023,7 +1023,7 @@ request_body_len
 :
 Cell
 <
-uint
+usize
 >
 sync
 :

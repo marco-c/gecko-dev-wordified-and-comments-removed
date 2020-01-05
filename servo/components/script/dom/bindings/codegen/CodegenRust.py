@@ -7048,7 +7048,7 @@ offset
 (
 variadicArg
 as
-int
+isize
 )
 )
 "

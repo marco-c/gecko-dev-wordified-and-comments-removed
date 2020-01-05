@@ -2831,16 +2831,12 @@ minus
 "
 let
 n
-:
-uint
 =
 node
 .
 NodeType
 (
 )
-as
-uint
 -
 1
 ;

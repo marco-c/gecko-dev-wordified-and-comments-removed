@@ -1806,7 +1806,7 @@ set
 [
 type_
 as
-uint
+usize
 ]
 .
 remove
@@ -1888,7 +1888,7 @@ set
 [
 type_
 as
-uint
+usize
 ]
 .
 insert
@@ -2010,7 +2010,7 @@ CollectionType
 :
 DOMObjects
 as
-uint
+usize
 ]
 as
 *
@@ -2087,7 +2087,7 @@ CollectionType
 :
 JSVals
 as
-uint
+usize
 ]
 )
 ;
@@ -2111,7 +2111,7 @@ CollectionType
 :
 JSObjects
 as
-uint
+usize
 ]
 )
 ;

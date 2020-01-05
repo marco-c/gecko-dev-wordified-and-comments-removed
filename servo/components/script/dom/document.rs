@@ -2577,9 +2577,9 @@ let
 mut
 head
 :
-uint
+usize
 =
-0u
+0
 ;
 let
 root
