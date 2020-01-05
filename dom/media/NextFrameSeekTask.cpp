@@ -220,15 +220,7 @@ AssertOwnerThread
 )
 ;
 return
-mTarget
-.
-GetTime
-(
-)
-.
-ToMicroseconds
-(
-)
+0
 ;
 }
 void
