@@ -139,6 +139,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 CanvasRenderingContext2D

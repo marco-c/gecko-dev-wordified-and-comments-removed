@@ -254,6 +254,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 DOMImplementation
@@ -330,6 +334,8 @@ window
 document
 .
 window
+(
+)
 .
 root
 (
@@ -609,6 +615,8 @@ win
 doc
 .
 window
+(
+)
 .
 root
 (
@@ -908,6 +916,8 @@ win
 document
 .
 window
+(
+)
 .
 root
 (

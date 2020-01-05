@@ -107,6 +107,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 NamedNodeMap
@@ -240,8 +244,6 @@ root
 )
 .
 attrs
-.
-borrow
 (
 )
 .
@@ -278,8 +280,6 @@ root
 )
 .
 attrs
-.
-borrow
 (
 )
 .

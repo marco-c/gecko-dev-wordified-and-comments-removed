@@ -95,6 +95,10 @@ raw_pointer_deriving
 [
 jstraceable
 ]
+#
+[
+privatize
+]
 pub
 struct
 BrowserContext
@@ -242,6 +246,8 @@ new
 doc
 .
 window
+(
+)
 .
 clone
 (
@@ -421,6 +427,10 @@ jstraceable
 #
 [
 must_root
+]
+#
+[
+privatize
 ]
 pub
 struct

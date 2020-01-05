@@ -375,9 +375,7 @@ get
 (
 )
 .
-layout_data
-.
-borrow_unchecked
+layout_data_unchecked
 (
 )
 )
@@ -427,8 +425,6 @@ get
 )
 .
 layout_data
-.
-borrow
 (
 )
 )
@@ -478,9 +474,7 @@ get
 (
 )
 .
-layout_data
-.
-borrow_mut
+layout_data_mut
 (
 )
 )

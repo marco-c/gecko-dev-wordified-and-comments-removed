@@ -466,10 +466,11 @@ window
 )
 =
 >
-&
 window
 .
 script_chan
+(
+)
 Worker
 (
 ref

@@ -778,6 +778,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 XMLHttpRequest
@@ -5312,9 +5316,12 @@ self
 bool
 {
 match
+*
 self
 .
 type_id
+(
+)
 {
 XMLHttpRequestTargetTypeId
 (

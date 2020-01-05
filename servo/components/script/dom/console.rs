@@ -91,11 +91,14 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 Console
 {
-pub
 reflector_
 :
 Reflector

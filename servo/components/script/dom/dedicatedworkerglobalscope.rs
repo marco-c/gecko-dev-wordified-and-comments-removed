@@ -325,6 +325,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 DedicatedWorkerGlobalScope
@@ -1236,9 +1240,12 @@ self
 bool
 {
 match
+*
 self
 .
 type_id
+(
+)
 {
 WorkerGlobalScopeTypeId
 (

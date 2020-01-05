@@ -4322,10 +4322,10 @@ push_str
 text
 .
 characterdata
+(
+)
 .
 data
-.
-borrow
 (
 )
 .

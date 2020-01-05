@@ -106,11 +106,14 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 Navigator
 {
-pub
 reflector_
 :
 Reflector
