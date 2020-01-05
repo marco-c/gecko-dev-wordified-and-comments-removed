@@ -1,0 +1,7 @@
+JSON
+.
+stringify
+(
+this
+)
+;
