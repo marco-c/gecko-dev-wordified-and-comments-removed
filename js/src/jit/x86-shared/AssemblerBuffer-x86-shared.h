@@ -954,7 +954,7 @@ PageProtectingVector
 unsigned
 char
 256
-SystemAllocPolicy
+ProtectedReallocPolicy
 false
 false
 true
