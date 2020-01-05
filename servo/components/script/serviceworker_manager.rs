@@ -569,6 +569,8 @@ NewGlobal
 (
 scope_things
 .
+init
+.
 pipeline_id
 Some
 (

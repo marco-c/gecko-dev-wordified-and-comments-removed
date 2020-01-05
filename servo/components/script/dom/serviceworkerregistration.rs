@@ -419,13 +419,6 @@ ScopeThings
 script_url
 :
 script_url
-pipeline_id
-:
-global
-.
-pipeline_id
-(
-)
 init
 :
 init

@@ -507,10 +507,6 @@ script_url
 :
 Url
 pub
-pipeline_id
-:
-PipelineId
-pub
 worker_load_origin
 :
 WorkerScriptLoadOrigin
