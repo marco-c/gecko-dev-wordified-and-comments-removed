@@ -107,10 +107,6 @@ syntex
 "
 )
 ]
-#
-[
-macro_use
-]
 extern
 crate
 syntex_syntax

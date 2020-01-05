@@ -200,14 +200,14 @@ prim
 .
 local_rect
 .
-xy
+p0
 )
 /
 prim
 .
 local_rect
 .
-zw
+size
 ;
 vUv
 .

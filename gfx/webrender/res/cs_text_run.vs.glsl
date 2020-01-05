@@ -233,7 +233,7 @@ pg
 .
 local_rect
 .
-xy
+p0
 )
 ;
 vec4

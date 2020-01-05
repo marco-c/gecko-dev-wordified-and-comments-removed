@@ -4,6 +4,8 @@ package
 name
 =
 "
+servo
+-
 dwrote
 "
 description
@@ -26,7 +28,7 @@ github
 .
 com
 /
-vvuk
+servo
 /
 dwrote
 -
@@ -46,9 +48,9 @@ version
 "
 0
 .
-1
+2
 .
-7
+0
 "
 authors
 =
@@ -159,7 +161,7 @@ serde
 "
 0
 .
-8
+9
 "
 serde_derive
 =
@@ -169,7 +171,7 @@ version
 "
 0
 .
-8
+9
 "
 optional
 =
@@ -187,7 +189,7 @@ version
 "
 0
 .
-8
+9
 "
 default_features
 =

@@ -82,7 +82,7 @@ prim
 prim_index
 )
 ;
-vec4
+RectWithSize
 segment_rect
 =
 fetch_instance_geometry
@@ -197,7 +197,7 @@ prim
 .
 local_rect
 .
-xy
+p0
 )
 /
 patch_size
@@ -212,7 +212,7 @@ prim
 .
 local_rect
 .
-zw
+size
 /
 patch_size
 ;

@@ -34,6 +34,12 @@ mod
 batch_builder
 ;
 mod
+clip_scroll_node
+;
+mod
+clip_scroll_tree
+;
+mod
 debug_colors
 ;
 mod
@@ -64,9 +70,6 @@ mod
 internal_types
 ;
 mod
-layer
-;
-mod
 mask_cache
 ;
 mod
@@ -89,9 +92,6 @@ resource_cache
 ;
 mod
 scene
-;
-mod
-scroll_tree
 ;
 mod
 spring

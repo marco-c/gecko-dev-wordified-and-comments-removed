@@ -104,10 +104,10 @@ user_data
 x
 )
 ;
-vec4
+RectWithSize
 local_rect
 =
-vec4
+RectWithSize
 (
 glyph
 .
@@ -184,12 +184,12 @@ z
 -
 local_rect
 .
-xy
+p0
 )
 /
 local_rect
 .
-zw
+size
 ;
 #
 else

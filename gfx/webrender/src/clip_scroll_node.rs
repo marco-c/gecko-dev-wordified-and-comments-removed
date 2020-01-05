@@ -109,7 +109,7 @@ Clone
 ]
 pub
 struct
-Layer
+ClipScrollNode
 {
 pub
 scrolling
@@ -152,7 +152,7 @@ ScrollLayerId
 >
 }
 impl
-Layer
+ClipScrollNode
 {
 pub
 fn
@@ -175,9 +175,9 @@ PipelineId
 )
 -
 >
-Layer
+ClipScrollNode
 {
-Layer
+ClipScrollNode
 {
 scrolling
 :
@@ -1422,7 +1422,7 @@ false
 }
 pub
 fn
-ray_intersects_layer
+ray_intersects_node
 (
 &
 self

@@ -2,13 +2,10 @@ use
 bincode
 :
 :
-serde
-:
-:
+{
+SizeLimit
 serialize
-;
-use
-bincode
+}
 ;
 use
 std
@@ -355,9 +352,6 @@ buf
 serialize
 (
 msg
-bincode
-:
-:
 SizeLimit
 :
 :
