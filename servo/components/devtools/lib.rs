@@ -2631,7 +2631,7 @@ FromScript
 ScriptToDevtoolsControlMsg
 :
 :
-SendConsoleMessage
+ConsoleAPI
 (
 id
 console_message

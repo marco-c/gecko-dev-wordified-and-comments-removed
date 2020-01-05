@@ -249,7 +249,7 @@ DevtoolScriptControlMsg
 >
 DevtoolsPageInfo
 )
-SendConsoleMessage
+ConsoleAPI
 (
 PipelineId
 ConsoleMessage
