@@ -418,6 +418,13 @@ StyleAnimationValue
 mFromValue
 mToValue
 ;
+RefPtr
+<
+RawServoAnimationValue
+>
+mServoFromValue
+mServoToValue
+;
 Maybe
 <
 ComputedTimingFunction
