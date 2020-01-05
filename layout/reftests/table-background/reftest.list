@@ -1053,6 +1053,13 @@ cell
 ref
 .
 html
+fails
+-
+if
+(
+!
+stylo
+)
 =
 =
 border
@@ -1086,6 +1093,13 @@ html
 #
 bug
 424274
+fails
+-
+if
+(
+!
+stylo
+)
 =
 =
 border
