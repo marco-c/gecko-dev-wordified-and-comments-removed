@@ -2675,7 +2675,7 @@ expandoId
 =
 writer
 .
-guardDOMExpandoGeneration
+loadDOMExpandoValueGuardGeneration
 (
 objId
 expandoAndGeneration
@@ -2763,7 +2763,7 @@ id
 ;
 writer
 .
-guardDOMExpandoObject
+guardDOMExpandoMissingOrGuardShape
 (
 expandoId
 expandoObj
