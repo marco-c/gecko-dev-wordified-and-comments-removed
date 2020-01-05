@@ -56,5 +56,13 @@ subscribe
 {
 }
 }
+openLink
+:
+(
+)
+=
+>
+{
+}
 }
 ;

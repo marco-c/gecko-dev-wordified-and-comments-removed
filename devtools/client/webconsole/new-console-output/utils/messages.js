@@ -759,6 +759,11 @@ stacktrace
 :
 null
 frame
+exceptionDocURL
+:
+pageError
+.
+exceptionDocURL
 }
 )
 ;
@@ -818,6 +823,7 @@ let
 exceptionMessage
 :
 messageText
+exceptionDocURL
 result
 :
 parameters
@@ -856,6 +862,7 @@ RESULT
 level
 messageText
 parameters
+exceptionDocURL
 }
 )
 ;

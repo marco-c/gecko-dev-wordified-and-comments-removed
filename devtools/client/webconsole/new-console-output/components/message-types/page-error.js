@@ -129,6 +129,7 @@ messageBody
 repeat
 stacktrace
 frame
+exceptionDocURL
 }
 =
 message
@@ -161,6 +162,7 @@ repeat
 frame
 stacktrace
 serviceContainer
+exceptionDocURL
 }
 ;
 return
