@@ -139,14 +139,6 @@ slice_chars
 [
 feature
 (
-slice_position_elem
-)
-]
-#
-!
-[
-feature
-(
 str_utf16
 )
 ]
