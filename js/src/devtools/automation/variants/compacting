@@ -10,11 +10,6 @@ args
 -
 enable
 -
-optimize
--
--
-enable
--
 debug
 -
 -
@@ -29,6 +24,11 @@ enable
 -
 ctypes
 "
+"
+optimize
+"
+:
+true
 "
 env
 "

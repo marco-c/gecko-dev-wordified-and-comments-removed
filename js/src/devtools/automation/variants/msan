@@ -15,11 +15,6 @@ debug
 -
 enable
 -
-optimize
--
--
-enable
--
 debug
 -
 symbols
@@ -45,6 +40,11 @@ memory
 -
 sanitizer
 "
+"
+optimize
+"
+:
+true
 "
 compiler
 "

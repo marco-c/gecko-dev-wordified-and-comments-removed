@@ -10,11 +10,6 @@ args
 -
 enable
 -
-optimize
--
--
-enable
--
 debug
 -
 -
@@ -29,4 +24,9 @@ debug
 -
 symbols
 "
+"
+optimize
+"
+:
+true
 }

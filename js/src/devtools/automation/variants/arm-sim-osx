@@ -10,11 +10,6 @@ args
 -
 enable
 -
-optimize
--
--
-enable
--
 debug
 -
 -
@@ -57,6 +52,11 @@ darwin10
 .
 0
 "
+"
+optimize
+"
+:
+true
 "
 bits
 "

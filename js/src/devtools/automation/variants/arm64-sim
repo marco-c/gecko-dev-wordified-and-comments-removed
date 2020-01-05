@@ -10,11 +10,6 @@ args
 -
 enable
 -
-optimize
--
--
-enable
--
 debug
 -
 -
@@ -31,6 +26,11 @@ simulator
 =
 arm64
 "
+"
+optimize
+"
+:
+true
 "
 env
 "

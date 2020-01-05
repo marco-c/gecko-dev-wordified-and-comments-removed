@@ -10,11 +10,6 @@ args
 -
 enable
 -
-optimize
--
--
-enable
--
 debug
 -
 -
@@ -49,6 +44,11 @@ pc
 -
 linux
 "
+"
+optimize
+"
+:
+true
 "
 bits
 "
