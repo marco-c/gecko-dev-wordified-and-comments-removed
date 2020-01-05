@@ -4926,6 +4926,7 @@ shutdown
 "
 )
 ;
+return
 this
 .
 broadcast
@@ -4959,6 +4960,13 @@ false
 )
 ;
 }
+)
+.
+catch
+(
+Cu
+.
+reportError
 )
 ;
 }
@@ -5119,6 +5127,7 @@ this
 uuid
 )
 ;
+return
 this
 .
 cleanupGeneratedFile

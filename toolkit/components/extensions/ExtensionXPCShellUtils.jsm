@@ -1503,6 +1503,7 @@ error
 )
 ;
 }
+async
 unload
 (
 )
@@ -1539,6 +1540,7 @@ state
 unloading
 "
 ;
+await
 this
 .
 extension
@@ -1554,13 +1556,6 @@ state
 "
 unloaded
 "
-;
-return
-Promise
-.
-resolve
-(
-)
 ;
 }
 markUnloaded

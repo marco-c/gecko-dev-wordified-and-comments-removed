@@ -141,7 +141,6 @@ add_task
 (
 function
 *
-test_contentscript
 (
 )
 {
