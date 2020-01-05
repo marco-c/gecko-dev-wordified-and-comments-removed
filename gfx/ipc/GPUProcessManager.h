@@ -303,7 +303,7 @@ LaunchGPUProcess
 (
 )
 ;
-void
+bool
 EnsureGPUReady
 (
 )
