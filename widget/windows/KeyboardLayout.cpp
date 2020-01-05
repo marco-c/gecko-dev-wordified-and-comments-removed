@@ -11984,6 +11984,12 @@ mOriginalVirtualKeyCode
 =
 =
 VK_PROCESSKEY
+&
+&
+!
+IsFollowedByPrintableCharOrSysCharMessage
+(
+)
 )
 {
 MOZ_LOG
