@@ -1264,7 +1264,7 @@ DECL_WEBGL_EXTENSION_GOOP
 }
 ;
 class
-WebGLExtensionMOZDebug
+WebGLExtensionDebugGet
 final
 :
 public
@@ -1273,7 +1273,7 @@ WebGLExtensionBase
 public
 :
 explicit
-WebGLExtensionMOZDebug
+WebGLExtensionDebugGet
 (
 WebGLContext
 *
@@ -1282,7 +1282,7 @@ webgl
 ;
 virtual
 ~
-WebGLExtensionMOZDebug
+WebGLExtensionDebugGet
 (
 )
 ;

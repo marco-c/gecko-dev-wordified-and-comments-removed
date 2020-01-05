@@ -6101,7 +6101,7 @@ pname
 NoInterfaceObject
 ]
 interface
-MOZ_debug
+MOZ_debug_get
 {
 const
 GLenum
