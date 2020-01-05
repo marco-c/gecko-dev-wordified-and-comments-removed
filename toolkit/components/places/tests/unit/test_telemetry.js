@@ -135,6 +135,7 @@ do_check_true
 (
 val
 >
+=
 0
 )
 PLACES_IDLE_MAINTENANCE_TIME_MS
