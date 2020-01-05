@@ -32,6 +32,8 @@ require
 .
 .
 /
+utils
+/
 request
 -
 utils

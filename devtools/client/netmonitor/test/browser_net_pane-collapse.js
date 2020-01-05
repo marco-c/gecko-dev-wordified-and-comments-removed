@@ -57,6 +57,8 @@ client
 /
 netmonitor
 /
+utils
+/
 prefs
 "
 )

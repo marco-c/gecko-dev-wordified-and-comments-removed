@@ -78,6 +78,8 @@ require
 .
 .
 /
+utils
+/
 filter
 -
 predicates
@@ -97,6 +99,8 @@ require
 /
 .
 .
+/
+utils
 /
 l10n
 "

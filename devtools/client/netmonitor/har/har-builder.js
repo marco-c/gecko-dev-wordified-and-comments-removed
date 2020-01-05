@@ -70,6 +70,8 @@ client
 /
 netmonitor
 /
+utils
+/
 request
 -
 utils

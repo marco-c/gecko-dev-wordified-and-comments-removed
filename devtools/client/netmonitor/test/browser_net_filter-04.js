@@ -316,6 +316,8 @@ client
 /
 netmonitor
 /
+utils
+/
 prefs
 "
 )

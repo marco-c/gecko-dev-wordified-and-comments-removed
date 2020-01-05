@@ -24,6 +24,8 @@ client
 /
 netmonitor
 /
+utils
+/
 l10n
 "
 )

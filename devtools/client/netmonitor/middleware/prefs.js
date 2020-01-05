@@ -30,6 +30,8 @@ require
 .
 .
 /
+utils
+/
 prefs
 "
 )
