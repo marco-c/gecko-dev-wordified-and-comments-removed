@@ -1091,8 +1091,21 @@ test_wpt
 (
 self
 params
+=
+None
 )
 :
+        
+if
+params
+is
+None
+:
+            
+params
+=
+[
+]
         
 return
 subprocess
