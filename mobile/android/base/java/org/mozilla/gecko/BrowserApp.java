@@ -10740,7 +10740,7 @@ mediaManagerClass
 getMethod
 (
 "
-newInstance
+getInstance
 "
 (
 Class
