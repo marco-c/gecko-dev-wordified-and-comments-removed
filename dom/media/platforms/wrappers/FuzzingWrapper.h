@@ -263,16 +263,6 @@ aFailureReason
 const
 override
 ;
-void
-ConfigurationChanged
-(
-const
-TrackInfo
-&
-aConfig
-)
-override
-;
 const
 char
 *

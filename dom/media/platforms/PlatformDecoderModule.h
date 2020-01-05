@@ -763,17 +763,6 @@ false
 ;
 }
 virtual
-void
-ConfigurationChanged
-(
-const
-TrackInfo
-&
-aConfig
-)
-{
-}
-virtual
 const
 char
 *

@@ -197,9 +197,6 @@ PlatformDecoderModule
 mPDM
 ;
 VideoInfo
-mOriginalConfig
-;
-VideoInfo
 mCurrentConfig
 ;
 layers
