@@ -1278,6 +1278,25 @@ file_patterns
 )
 :
     
+if
+params
+.
+get
+(
+'
+pushlog_id
+'
+)
+=
+=
+-
+1
+:
+        
+return
+True
+None
+    
 changed
 =
 files_changed
