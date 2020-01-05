@@ -44,10 +44,6 @@ core
 ;
 extern
 crate
-cssparser
-;
-extern
-crate
 euclid
 ;
 extern

@@ -160,10 +160,6 @@ extern
 crate
 layout_traits
 ;
-extern
-crate
-libc
-;
 #
 [
 macro_use

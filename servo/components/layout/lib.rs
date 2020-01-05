@@ -140,10 +140,6 @@ cssparser
 ;
 extern
 crate
-encoding
-;
-extern
-crate
 euclid
 ;
 extern
@@ -258,10 +254,6 @@ string_cache
 extern
 crate
 style
-;
-extern
-crate
-style_traits
 ;
 extern
 crate

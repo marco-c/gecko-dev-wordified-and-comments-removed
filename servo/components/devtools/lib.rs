@@ -110,10 +110,6 @@ time
 ;
 extern
 crate
-url
-;
-extern
-crate
 util
 ;
 use

@@ -325,10 +325,6 @@ rustc_serialize
 ;
 extern
 crate
-script_traits
-;
-extern
-crate
 serde
 ;
 #

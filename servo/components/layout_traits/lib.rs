@@ -17,10 +17,6 @@ serde_macros
 ]
 extern
 crate
-euclid
-;
-extern
-crate
 gfx
 ;
 extern

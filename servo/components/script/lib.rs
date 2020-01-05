@@ -145,14 +145,6 @@ str_utf16
 #
 !
 [
-feature
-(
-unicode
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code
@@ -316,10 +308,6 @@ rustc_serialize
 ;
 extern
 crate
-rustc_unicode
-;
-extern
-crate
 script_traits
 ;
 #
@@ -360,10 +348,6 @@ macro_use
 extern
 crate
 style
-;
-extern
-crate
-style_traits
 ;
 extern
 crate

@@ -66,10 +66,6 @@ layers
 ;
 extern
 crate
-libc
-;
-extern
-crate
 msg
 ;
 extern
@@ -90,10 +86,6 @@ window
 extern
 crate
 script_traits
-;
-extern
-crate
-time
 ;
 extern
 crate
