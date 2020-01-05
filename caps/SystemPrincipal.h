@@ -214,15 +214,6 @@ aAddonId
 )
 override
 ;
-nsresult
-GetOriginNoSuffixInternal
-(
-nsACString
-&
-aOrigin
-)
-override
-;
 virtual
 nsresult
 GetScriptLocation

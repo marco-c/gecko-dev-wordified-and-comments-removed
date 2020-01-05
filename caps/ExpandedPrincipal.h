@@ -208,15 +208,6 @@ aStr
 )
 override
 ;
-nsresult
-GetOriginNoSuffixInternal
-(
-nsACString
-&
-aOrigin
-)
-override
-;
 protected
 :
 explicit
