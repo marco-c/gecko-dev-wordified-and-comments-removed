@@ -278,7 +278,7 @@ GMPRecord
 *
 record
 ;
-WriteRecordClient
+auto
 *
 client
 =
@@ -565,7 +565,7 @@ GMPRecord
 *
 record
 ;
-ReadRecordClient
+auto
 *
 client
 =

@@ -9201,7 +9201,7 @@ data
 )
 )
 {
-nsMessageManagerScriptHolder
+auto
 *
 holder
 =
@@ -10819,7 +10819,7 @@ MessageManagerReporter
 )
 ;
 }
-nsFrameMessageManager
+auto
 *
 mm
 =

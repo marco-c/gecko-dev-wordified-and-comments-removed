@@ -1895,7 +1895,7 @@ TestStorage
 (
 )
 {
-TestManager
+auto
 *
 testManager
 =

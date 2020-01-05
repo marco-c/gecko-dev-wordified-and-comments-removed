@@ -45081,7 +45081,7 @@ dbInfo
 )
 ;
 }
-TransactionInfo
+auto
 *
 transactionInfo
 =

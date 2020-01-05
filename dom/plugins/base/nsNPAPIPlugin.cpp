@@ -3427,7 +3427,7 @@ stream
 )
 )
 {
-nsNPAPIStreamWrapper
+auto
 *
 wrapper
 =

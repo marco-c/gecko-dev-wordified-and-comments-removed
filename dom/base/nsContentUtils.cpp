@@ -28630,7 +28630,7 @@ ParseAtomArray
 aClasses
 )
 ;
-ClassMatchingInfo
+auto
 *
 info
 =
@@ -41718,7 +41718,7 @@ moz
 continue
 ;
 }
-nsAutoString
+auto
 *
 attValue
 =

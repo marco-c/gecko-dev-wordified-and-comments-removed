@@ -9609,7 +9609,7 @@ rv
 rv
 )
 ;
-nsQueryContentEventResult
+auto
 *
 result
 =
