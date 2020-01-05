@@ -2276,9 +2276,12 @@ specified_border_radius
 radius
 :
 BorderRadiusSize
-containing_length
+containing_size
 :
+Size2D
+<
 Au
+>
 )
 -
 >
@@ -2306,7 +2309,9 @@ specified
 size
 .
 width
-containing_length
+containing_size
+.
+width
 )
 ;
 let
@@ -2317,7 +2322,9 @@ specified
 size
 .
 height
-containing_length
+containing_size
+.
+height
 )
 ;
 Size2D
