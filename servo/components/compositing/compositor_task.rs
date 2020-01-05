@@ -1374,10 +1374,6 @@ window
 sender
 receiver
 constellation_chan
-.
-clone
-(
-)
 time_profiler_chan
 mem_profiler_chan
 )
@@ -1402,10 +1398,6 @@ create
 (
 receiver
 constellation_chan
-.
-clone
-(
-)
 time_profiler_chan
 mem_profiler_chan
 )
