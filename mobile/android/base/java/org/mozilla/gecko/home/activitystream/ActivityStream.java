@@ -333,6 +333,16 @@ setHasFixedSize
 true
 )
 ;
+rv
+.
+setItemAnimator
+(
+new
+StreamItemAnimator
+(
+)
+)
+;
 RecyclerViewClickSupport
 .
 addTo

@@ -3809,6 +3809,15 @@ home
 /
 activitystream
 /
+StreamItemAnimator
+.
+java
+'
+'
+home
+/
+activitystream
+/
 StreamRecyclerAdapter
 .
 java
