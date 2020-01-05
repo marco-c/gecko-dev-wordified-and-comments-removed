@@ -4089,7 +4089,16 @@ set_config
 '
 MOZ_GPSD
 '
+depends_if
+(
 system_gpsd
+)
+(
+lambda
+_
+:
+True
+)
 )
 #
 Miscellaneous
