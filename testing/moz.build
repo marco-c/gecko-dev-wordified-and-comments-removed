@@ -703,8 +703,8 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Breakpad
-Integration
+Crash
+Reporting
 "
 )
 with
@@ -777,8 +777,8 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Breakpad
-Integration
+Crash
+Reporting
 "
 )
 with
@@ -801,8 +801,8 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Breakpad
-Integration
+Crash
+Reporting
 "
 )
 with

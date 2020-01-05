@@ -557,8 +557,8 @@ BUG_COMPONENT
 Toolkit
 '
 '
-Breakpad
-Integration
+Crash
+Reporting
 '
 )
 with
