@@ -10,11 +10,6 @@ args
 -
 enable
 -
-debug
--
--
-enable
--
 stdcxx
 -
 compat
@@ -54,6 +49,11 @@ darwin10
 "
 "
 optimize
+"
+:
+true
+"
+debug
 "
 :
 true

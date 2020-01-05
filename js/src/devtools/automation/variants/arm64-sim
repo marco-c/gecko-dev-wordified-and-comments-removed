@@ -10,11 +10,6 @@ args
 -
 enable
 -
-debug
--
--
-enable
--
 stdcxx
 -
 compat
@@ -28,6 +23,11 @@ arm64
 "
 "
 optimize
+"
+:
+true
+"
+debug
 "
 :
 true

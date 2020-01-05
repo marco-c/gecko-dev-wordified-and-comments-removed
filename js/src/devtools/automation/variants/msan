@@ -8,11 +8,6 @@ args
 "
 -
 -
-disable
--
-debug
--
--
 enable
 -
 debug
@@ -45,6 +40,11 @@ optimize
 "
 :
 true
+"
+debug
+"
+:
+false
 "
 compiler
 "

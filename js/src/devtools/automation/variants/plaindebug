@@ -6,12 +6,12 @@ args
 "
 :
 "
--
--
-enable
--
+"
+"
 debug
 "
+:
+true
 "
 env
 "

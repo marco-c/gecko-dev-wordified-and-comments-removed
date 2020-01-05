@@ -10,11 +10,6 @@ args
 -
 enable
 -
-debug
--
--
-enable
--
 stdcxx
 -
 compat
@@ -46,6 +41,11 @@ linux
 "
 "
 optimize
+"
+:
+true
+"
+debug
 "
 :
 true
