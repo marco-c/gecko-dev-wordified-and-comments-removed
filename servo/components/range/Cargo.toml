@@ -82,15 +82,6 @@ traits
 .
 32
 "
-rustc
--
-serialize
-=
-"
-0
-.
-3
-"
 serde
 =
 "
