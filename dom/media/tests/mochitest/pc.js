@@ -4763,7 +4763,7 @@ getAudioTracks
 (
 )
 .
-map
+forEach
 (
 track
 =
@@ -4811,7 +4811,7 @@ getVideoTracks
 (
 )
 .
-map
+forEach
 (
 track
 =
