@@ -4191,6 +4191,11 @@ listNode
 bool
 *
 isSpread
+PossibleError
+*
+possibleError
+=
+nullptr
 )
 ;
 Node
