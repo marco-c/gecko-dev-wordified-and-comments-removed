@@ -215,6 +215,11 @@ isModalOpen
 PropTypes
 .
 bool
+modalOpenedFromViewport
+:
+PropTypes
+.
+number
 listState
 :
 PropTypes
@@ -287,6 +292,11 @@ PropTypes
 .
 number
 device
+:
+PropTypes
+.
+string
+deviceType
 :
 PropTypes
 .

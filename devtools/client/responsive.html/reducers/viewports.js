@@ -49,6 +49,10 @@ device
 :
 "
 "
+deviceType
+:
+"
+"
 width
 :
 320
@@ -115,6 +119,7 @@ viewports
 {
 id
 device
+deviceType
 }
 )
 {
@@ -152,6 +157,7 @@ assign
 viewport
 {
 device
+deviceType
 }
 )
 ;
@@ -261,6 +267,10 @@ assign
 viewport
 {
 device
+:
+"
+"
+deviceType
 :
 "
 "

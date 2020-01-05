@@ -11,7 +11,7 @@ LOAD_DEVICE_LIST_START
 LOAD_DEVICE_LIST_ERROR
 LOAD_DEVICE_LIST_END
 UPDATE_DEVICE_DISPLAYED
-UPDATE_DEVICE_MODAL_OPEN
+UPDATE_DEVICE_MODAL
 }
 =
 require
@@ -50,6 +50,9 @@ types
 isModalOpen
 :
 false
+modalOpenedFromViewport
+:
+null
 listState
 :
 Types
@@ -291,12 +294,13 @@ LOADED
 ;
 }
 [
-UPDATE_DEVICE_MODAL_OPEN
+UPDATE_DEVICE_MODAL
 ]
 (
 devices
 {
 isOpen
+modalOpenedFromViewport
 }
 )
 {
@@ -312,6 +316,7 @@ devices
 isModalOpen
 :
 isOpen
+modalOpenedFromViewport
 }
 )
 ;

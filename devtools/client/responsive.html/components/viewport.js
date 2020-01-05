@@ -182,7 +182,7 @@ PropTypes
 func
 .
 isRequired
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 :
 PropTypes
 .
@@ -193,6 +193,7 @@ isRequired
 onChangeDevice
 (
 device
+deviceType
 )
 {
 let
@@ -211,6 +212,7 @@ viewport
 .
 id
 device
+deviceType
 )
 ;
 }
@@ -297,7 +299,7 @@ swapAfterMount
 viewport
 onBrowserMounted
 onContentResize
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 =
 this
@@ -348,7 +350,7 @@ onContentResize
 onRemoveDevice
 onResizeViewport
 onRotateViewport
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 )
 )
