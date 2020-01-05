@@ -76,6 +76,7 @@ makotemplates
 org
 /
 #
+!
 [
 allow
 (
@@ -83,7 +84,6 @@ non_camel_case_types
 uppercase_variables
 )
 ]
-;
 pub
 use
 std
