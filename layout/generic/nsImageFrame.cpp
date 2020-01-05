@@ -3755,14 +3755,10 @@ appHeight
 }
 }
 return
-nsLayoutUtils
-:
-:
 ComputeSizeWithIntrinsicDimensions
 (
-aWM
 aRenderingContext
-this
+aWM
 intrinsicSize
 mIntrinsicRatio
 aCBSize

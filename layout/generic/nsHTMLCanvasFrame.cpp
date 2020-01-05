@@ -953,14 +953,10 @@ GetIntrinsicRatio
 )
 ;
 return
-nsLayoutUtils
-:
-:
 ComputeSizeWithIntrinsicDimensions
 (
-aWM
 aRenderingContext
-this
+aWM
 intrinsicSize
 intrinsicRatio
 aCBSize

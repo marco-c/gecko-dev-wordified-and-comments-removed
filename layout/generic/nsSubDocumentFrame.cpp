@@ -3148,14 +3148,10 @@ subDocRoot
 )
 {
 return
-nsLayoutUtils
-:
-:
 ComputeSizeWithIntrinsicDimensions
 (
-aWM
 aRenderingContext
-this
+aWM
 subDocRoot
 -
 >
