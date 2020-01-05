@@ -681,7 +681,7 @@ context
 -
 fill
 :
-fails
+skip
 -
 if
 (
@@ -701,7 +701,7 @@ blue100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -736,7 +736,7 @@ lime100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -760,7 +760,7 @@ border
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -799,7 +799,7 @@ border
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -850,7 +850,7 @@ are
 off
 by
 one
-fails
+skip
 -
 if
 (
@@ -895,7 +895,7 @@ lime100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -938,7 +938,7 @@ stroke
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -973,7 +973,7 @@ lime100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1012,7 +1012,7 @@ fill
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1056,7 +1056,7 @@ context
 -
 stroke
 :
-fails
+skip
 -
 if
 (
@@ -1076,7 +1076,7 @@ blue100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1111,7 +1111,7 @@ lime100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1135,7 +1135,7 @@ border
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1174,7 +1174,7 @@ border
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1225,7 +1225,7 @@ are
 off
 by
 one
-fails
+skip
 -
 if
 (
@@ -1270,7 +1270,7 @@ lime100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1313,7 +1313,7 @@ stroke
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1348,7 +1348,7 @@ lime100x100
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -1387,7 +1387,7 @@ stroke
 ref
 .
 html
-fails
+skip
 -
 if
 (
