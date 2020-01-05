@@ -2004,7 +2004,7 @@ break
 ;
 }
 case
-kRtpExtensionRtpStreamId
+kRtpExtensionRID
 :
 {
 char
