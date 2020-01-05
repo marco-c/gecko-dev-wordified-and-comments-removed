@@ -380,7 +380,6 @@ DOMProxyShadowsResult
 HandleId
 HandleObject
 RootedValue
-SetDOMProxyInformation
 }
 ;
 use
@@ -4091,6 +4090,7 @@ IN_GC
 )
 }
 }
+pub
 unsafe
 extern
 "
@@ -4795,21 +4795,6 @@ bool
 {
 true
 }
-SetDOMProxyInformation
-(
-ptr
-:
-:
-null
-(
-)
-0
-Some
-(
-shadow_check_callback
-)
-)
-;
 SetDOMCallbacks
 (
 runtime
