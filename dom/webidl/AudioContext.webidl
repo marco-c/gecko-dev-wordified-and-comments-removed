@@ -318,15 +318,6 @@ createBufferSource
 NewObject
 Throws
 ]
-ConstantSourceNode
-createConstantSource
-(
-)
-;
-[
-NewObject
-Throws
-]
 MediaStreamAudioDestinationNode
 createMediaStreamDestination
 (
