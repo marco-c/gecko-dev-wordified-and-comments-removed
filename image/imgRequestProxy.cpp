@@ -78,8 +78,9 @@ virtual
 ProxyBehaviour
 (
 )
-{
-}
+=
+default
+;
 virtual
 already_AddRefed
 <

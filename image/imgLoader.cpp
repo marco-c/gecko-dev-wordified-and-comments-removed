@@ -343,8 +343,9 @@ nsIMemoryReporter
 imgMemoryReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
