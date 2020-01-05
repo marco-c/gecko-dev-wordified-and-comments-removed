@@ -4871,16 +4871,6 @@ IsTextAlignUnsafeValueEnabled
 ;
 static
 bool
-CSSVariablesEnabled
-(
-)
-{
-return
-sCSSVariablesEnabled
-;
-}
-static
-bool
 InterruptibleReflowEnabled
 (
 )
@@ -5929,10 +5919,6 @@ sZoomMinPercent
 static
 bool
 sInvalidationDebuggingIsEnabled
-;
-static
-bool
-sCSSVariablesEnabled
 ;
 static
 bool
