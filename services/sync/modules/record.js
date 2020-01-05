@@ -3212,6 +3212,8 @@ batch
 )
 {
 return
+this
+.
 _batch
 ;
 }
@@ -3240,6 +3242,8 @@ commit
 )
 {
 return
+this
+.
 _commit
 ;
 }
