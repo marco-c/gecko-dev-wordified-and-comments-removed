@@ -1804,14 +1804,12 @@ cell
 table
 -
 caption
-none
-"
->
-/
-/
 list
 -
 item
+none
+"
+>
 pub
 fn
 to_computed_value

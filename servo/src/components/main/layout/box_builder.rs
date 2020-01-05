@@ -2782,6 +2782,11 @@ display
 :
 :
 table_caption
+|
+display
+:
+:
+list_item
 =
 >
 display
