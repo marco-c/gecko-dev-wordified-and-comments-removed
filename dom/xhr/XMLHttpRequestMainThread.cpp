@@ -11237,15 +11237,6 @@ SetIncludeCookiesSecFlag
 ;
 }
 }
-AddLoadFlags
-(
-mChannel
-nsIRequest
-:
-:
-INHIBIT_PIPELINE
-)
-;
 nsCOMPtr
 <
 nsIClassOfService
