@@ -194,6 +194,7 @@ blob_loader
 mod
 chrome_loader
 ;
+pub
 mod
 connector
 ;

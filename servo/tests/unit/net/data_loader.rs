@@ -148,6 +148,7 @@ origin
 )
 ;
 let
+mut
 request
 =
 Request
@@ -169,6 +170,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )

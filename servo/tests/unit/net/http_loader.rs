@@ -447,12 +447,10 @@ assert_cookie_for_domain
 (
 cookie_jar
 :
-Arc
-<
+&
 RwLock
 <
 CookieStorage
->
 >
 domain
 :
@@ -1151,6 +1149,7 @@ clone
 )
 ;
 let
+mut
 request
 =
 Request
@@ -1208,6 +1207,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -1305,6 +1306,7 @@ post_headers
 )
 ;
 let
+mut
 request
 =
 Request
@@ -1362,6 +1364,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -1454,6 +1458,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -1514,6 +1519,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -1658,6 +1665,7 @@ None
 )
 ;
 let
+mut
 request
 =
 Request
@@ -1734,6 +1742,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 Some
 (
@@ -2369,6 +2379,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -2436,6 +2447,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 Some
 (
@@ -2639,6 +2652,7 @@ pre_handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -2706,6 +2720,8 @@ channel
 ;
 fetch
 (
+&
+mut
 request
 Some
 (
@@ -3023,6 +3039,7 @@ pre_handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -3080,6 +3097,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -3243,6 +3262,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -3303,6 +3323,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -3485,6 +3507,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -3545,6 +3568,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -3793,6 +3818,7 @@ pre_handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -3866,6 +3892,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -3979,6 +4007,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -4047,6 +4076,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -4198,15 +4229,12 @@ None
 ;
 assert_cookie_for_domain
 (
+&
 context
 .
 state
 .
 cookie_jar
-.
-clone
-(
-)
 url
 .
 as_str
@@ -4216,6 +4244,7 @@ None
 )
 ;
 let
+mut
 request
 =
 Request
@@ -4282,6 +4311,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -4314,15 +4345,12 @@ is_success
 ;
 assert_cookie_for_domain
 (
+&
 context
 .
 state
 .
 cookie_jar
-.
-clone
-(
-)
 url
 .
 as_str
@@ -4509,6 +4537,7 @@ HTTP
 ;
 }
 let
+mut
 request
 =
 Request
@@ -4575,6 +4604,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -4776,6 +4807,7 @@ HTTP
 ;
 }
 let
+mut
 request
 =
 Request
@@ -4842,6 +4874,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -4968,15 +5002,12 @@ None
 ;
 assert_cookie_for_domain
 (
+&
 context
 .
 state
 .
 cookie_jar
-.
-clone
-(
-)
 url
 .
 as_str
@@ -4986,6 +5017,7 @@ None
 )
 ;
 let
+mut
 request
 =
 Request
@@ -5052,6 +5084,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -5084,15 +5118,12 @@ is_success
 ;
 assert_cookie_for_domain
 (
+&
 context
 .
 state
 .
 cookie_jar
-.
-clone
-(
-)
 url
 .
 as_str
@@ -5242,15 +5273,12 @@ None
 ;
 assert_cookie_for_domain
 (
+&
 context
 .
 state
 .
 cookie_jar
-.
-clone
-(
-)
 url
 .
 as_str
@@ -5260,6 +5288,7 @@ None
 )
 ;
 let
+mut
 request
 =
 Request
@@ -5326,6 +5355,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -5358,15 +5389,12 @@ is_success
 ;
 assert_cookie_for_domain
 (
+&
 context
 .
 state
 .
 cookie_jar
-.
-clone
-(
-)
 url
 .
 as_str
@@ -5472,6 +5500,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -5539,6 +5568,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -5699,6 +5730,7 @@ accept
 )
 ;
 let
+mut
 request
 =
 Request
@@ -5759,6 +5791,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -5966,6 +6000,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -6023,6 +6058,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -6172,6 +6209,7 @@ accept_encoding
 )
 ;
 let
+mut
 request
 =
 Request
@@ -6232,6 +6270,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -6372,6 +6412,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -6429,6 +6470,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -6687,6 +6730,7 @@ clone
 )
 ;
 let
+mut
 request
 =
 Request
@@ -6744,6 +6788,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -7066,6 +7112,7 @@ clone
 )
 ;
 let
+mut
 request
 =
 Request
@@ -7123,6 +7170,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -7157,14 +7206,9 @@ to_actual
 assert_eq
 !
 (
-*
 response
 .
 url_list
-.
-borrow
-(
-)
 [
 url_a
 .
@@ -7364,6 +7408,7 @@ pre_handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -7421,6 +7466,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -8111,6 +8158,7 @@ HTTP
 ;
 }
 let
+mut
 request
 =
 Request
@@ -8174,6 +8222,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -8519,6 +8569,7 @@ unwrap
 )
 ;
 let
+mut
 request
 =
 Request
@@ -8582,6 +8633,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -8751,6 +8804,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -8884,6 +8938,8 @@ response
 =
 fetch_with_context
 (
+&
+mut
 request
 &
 context
@@ -8978,6 +9034,7 @@ handler
 )
 ;
 let
+mut
 request
 =
 Request
@@ -9044,6 +9101,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -9276,6 +9335,7 @@ clone
 )
 ;
 let
+mut
 request
 =
 Request
@@ -9324,6 +9384,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -9396,6 +9458,7 @@ port
 )
 ;
 let
+mut
 request
 =
 Request
@@ -9470,6 +9533,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
@@ -9491,6 +9556,7 @@ is_success
 )
 ;
 let
+mut
 request
 =
 Request
@@ -9552,6 +9618,8 @@ response
 =
 fetch
 (
+&
+mut
 request
 None
 )
