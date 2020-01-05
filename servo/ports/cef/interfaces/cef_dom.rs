@@ -91,7 +91,7 @@ cef_domdocument_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -1085,7 +1085,7 @@ cef_string_userfree_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -3334,7 +3334,7 @@ cef_string_userfree_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

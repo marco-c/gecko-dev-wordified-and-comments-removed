@@ -111,7 +111,7 @@ cef_quota_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -784,7 +784,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -1927,7 +1927,7 @@ cef_termination_status_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

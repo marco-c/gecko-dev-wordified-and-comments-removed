@@ -535,7 +535,7 @@ bool
 >
 id
 :
-int
+isize
 servo_browser
 :
 RefCell

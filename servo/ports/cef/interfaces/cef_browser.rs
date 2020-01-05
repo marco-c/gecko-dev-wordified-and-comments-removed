@@ -613,7 +613,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -2646,7 +2646,7 @@ cef_string_list_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -4529,7 +4529,7 @@ cef_browser_host_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

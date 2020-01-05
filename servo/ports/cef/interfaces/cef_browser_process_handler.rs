@@ -169,7 +169,7 @@ cef_print_handler_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

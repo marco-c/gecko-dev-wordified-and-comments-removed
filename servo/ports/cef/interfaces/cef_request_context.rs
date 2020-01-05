@@ -143,7 +143,7 @@ cef_request_context_handler_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

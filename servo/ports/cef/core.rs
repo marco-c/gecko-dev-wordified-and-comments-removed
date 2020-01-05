@@ -62,7 +62,7 @@ browser
 const
 MAX_RENDERING_THREADS
 :
-uint
+usize
 =
 128
 ;
@@ -402,7 +402,7 @@ settings
 .
 rendering_threads
 as
-uint
+usize
 )
 <
 1
@@ -418,7 +418,7 @@ settings
 .
 rendering_threads
 as
-uint
+usize
 >
 MAX_RENDERING_THREADS
 {
@@ -433,7 +433,7 @@ settings
 .
 rendering_threads
 as
-uint
+usize
 }
 }
 ;

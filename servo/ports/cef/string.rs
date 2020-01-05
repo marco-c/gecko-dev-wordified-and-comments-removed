@@ -580,7 +580,7 @@ str
 src
 src_len
 as
-uint
+usize
 )
 ;
 (
@@ -741,7 +741,7 @@ a
 .
 length
 as
-uint
+usize
 )
 ;
 let
@@ -760,7 +760,7 @@ b
 .
 length
 as
-uint
+usize
 )
 ;
 match
@@ -831,7 +831,7 @@ slice_to_str
 src
 src_len
 as
-uint
+usize
 |
 result
 |
@@ -922,7 +922,7 @@ from_raw_parts
 src
 src_len
 as
-uint
+usize
 )
 ;
 match
@@ -1247,7 +1247,7 @@ str
 src
 src_len
 as
-uint
+usize
 )
 ;
 (
@@ -1413,7 +1413,7 @@ a
 .
 length
 as
-uint
+usize
 )
 ;
 let
@@ -1437,7 +1437,7 @@ b
 .
 length
 as
-uint
+usize
 )
 ;
 match
@@ -1741,7 +1741,7 @@ str
 src
 src_len
 as
-uint
+usize
 )
 ;
 (
@@ -1902,7 +1902,7 @@ a
 .
 length
 as
-uint
+usize
 )
 ;
 let
@@ -1921,7 +1921,7 @@ b
 .
 length
 as
-uint
+usize
 )
 ;
 match
@@ -2031,7 +2031,7 @@ slice_to_str
 src
 src_len
 as
-uint
+usize
 |
 result
 |
@@ -2173,7 +2173,7 @@ from_raw_parts
 src
 src_len
 as
-uint
+usize
 )
 ;
 let
@@ -2280,7 +2280,7 @@ slice_to_str
 src
 src_len
 as
-uint
+usize
 |
 result
 |
@@ -2369,7 +2369,7 @@ from_raw_parts
 src
 src_len
 as
-uint
+usize
 )
 ;
 let

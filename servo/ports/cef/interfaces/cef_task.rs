@@ -83,7 +83,7 @@ cef_task_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -803,7 +803,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

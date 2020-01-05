@@ -185,7 +185,7 @@ cef_list_value_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

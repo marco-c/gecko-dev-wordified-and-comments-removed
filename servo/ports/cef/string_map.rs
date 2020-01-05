@@ -274,7 +274,7 @@ key
 .
 length
 as
-uint
+usize
 |
 result
 |
@@ -407,7 +407,7 @@ key
 .
 length
 as
-uint
+usize
 |
 result
 |
@@ -531,7 +531,7 @@ sm
 if
 index
 as
-uint
+usize
 >
 (
 *
@@ -573,7 +573,7 @@ i
 =
 index
 as
-uint
+usize
 {
 cef_string_utf16_set
 (
@@ -668,7 +668,7 @@ sm
 if
 index
 as
-uint
+usize
 >
 (
 *
@@ -710,7 +710,7 @@ i
 =
 index
 as
-uint
+usize
 {
 cef_string_utf16_set
 (

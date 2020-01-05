@@ -3,7 +3,7 @@
 [
 feature
 (
-int_uint
+alloc
 )
 ]
 #

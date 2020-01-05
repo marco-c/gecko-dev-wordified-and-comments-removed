@@ -613,7 +613,7 @@ cef_browser_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

@@ -113,7 +113,7 @@ cef_print_dialog_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -780,7 +780,7 @@ cef_print_job_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -1491,7 +1491,7 @@ cef_print_handler_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

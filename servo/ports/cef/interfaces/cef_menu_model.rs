@@ -1803,7 +1803,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

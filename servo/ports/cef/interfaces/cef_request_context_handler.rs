@@ -87,7 +87,7 @@ cef_cookie_manager_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

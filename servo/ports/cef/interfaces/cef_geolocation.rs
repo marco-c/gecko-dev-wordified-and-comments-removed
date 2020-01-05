@@ -91,7 +91,7 @@ cef_geoposition_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

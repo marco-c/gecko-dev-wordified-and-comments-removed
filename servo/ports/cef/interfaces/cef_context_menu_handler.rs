@@ -213,7 +213,7 @@ cef_frame_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -1517,7 +1517,7 @@ cef_context_menu_edit_state_flags_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

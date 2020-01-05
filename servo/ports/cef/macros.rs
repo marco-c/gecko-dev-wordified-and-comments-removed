@@ -215,7 +215,7 @@ offset
 :
 *
 const
-uint
+usize
 =
 &
 (

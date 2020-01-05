@@ -111,7 +111,7 @@ cef_file_dialog_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -824,7 +824,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

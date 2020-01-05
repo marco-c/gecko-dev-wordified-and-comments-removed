@@ -695,7 +695,7 @@ cef_duplex_mode_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

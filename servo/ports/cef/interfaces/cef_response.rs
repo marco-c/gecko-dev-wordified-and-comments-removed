@@ -333,7 +333,7 @@ cef_string_multimap_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

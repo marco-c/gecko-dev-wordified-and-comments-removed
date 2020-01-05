@@ -207,7 +207,7 @@ cef_render_process_handler_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

@@ -97,7 +97,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -712,7 +712,7 @@ cef_download_item_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -1379,7 +1379,7 @@ cef_download_item_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

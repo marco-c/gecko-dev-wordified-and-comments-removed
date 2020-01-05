@@ -653,7 +653,7 @@ cef_string_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

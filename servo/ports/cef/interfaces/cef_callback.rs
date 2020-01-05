@@ -105,7 +105,7 @@ cef_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -759,7 +759,7 @@ cef_completion_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

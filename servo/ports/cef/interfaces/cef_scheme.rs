@@ -111,7 +111,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -790,7 +790,7 @@ cef_resource_handler_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

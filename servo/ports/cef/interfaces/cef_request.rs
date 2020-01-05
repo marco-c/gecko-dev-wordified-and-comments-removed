@@ -511,7 +511,7 @@ cef_transition_type_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -2419,7 +2419,7 @@ cef_post_data_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -3623,7 +3623,7 @@ size_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

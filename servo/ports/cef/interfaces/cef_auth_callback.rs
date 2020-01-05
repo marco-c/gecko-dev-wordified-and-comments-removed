@@ -121,7 +121,7 @@ cef_auth_callback_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :

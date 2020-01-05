@@ -317,7 +317,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -1636,7 +1636,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -2399,7 +2399,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -3335,7 +3335,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -5616,7 +5616,7 @@ cef_v8value_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -9931,7 +9931,7 @@ cef_v8stack_frame_t
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
@@ -10882,7 +10882,7 @@ c_int
 pub
 ref_count
 :
-uint
+usize
 pub
 extra
 :
