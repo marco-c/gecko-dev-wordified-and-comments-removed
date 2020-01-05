@@ -1872,12 +1872,6 @@ mHintsHandledByAncestors
 nsChangeHint
 mHintsHandledBySelf
 ;
-nsChangeHint
-mParentFrameHintsNotHandledForDescendants
-;
-nsChangeHint
-mHintsNotHandledForDescendants
-;
 RestyleTracker
 &
 mRestyleTracker

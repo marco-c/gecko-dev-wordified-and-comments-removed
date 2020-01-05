@@ -36505,7 +36505,6 @@ StyleContext
 CalcStyleDifference
 (
 newContext
-nsChangeHint_Hints_NotHandledForDescendants
 &
 equalStructs
 &

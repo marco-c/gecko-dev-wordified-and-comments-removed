@@ -1257,11 +1257,6 @@ MOZ_ASSERT
 aComputedValues
 )
 ;
-nsChangeHint
-forDescendants
-=
-nsChangeHint_Hints_NotHandledForDescendants
-;
 uint32_t
 equalStructs
 samePointerStructs
@@ -1275,7 +1270,6 @@ aOldStyleContext
 CalcStyleDifference
 (
 aComputedValues
-forDescendants
 &
 equalStructs
 &

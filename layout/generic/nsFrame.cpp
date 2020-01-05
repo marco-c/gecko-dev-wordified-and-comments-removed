@@ -48737,10 +48737,6 @@ StyleContext
 CalcStyleDifference
 (
 newContext
-NS_HintsNotHandledForDescendantsIn
-(
-aHintForThisFrame
-)
 &
 equalStructs
 &

@@ -1198,8 +1198,6 @@ CalcStyleDifference
 nsStyleContext
 *
 aNewContext
-nsChangeHint
-aParentHintsNotHandledForDescendants
 uint32_t
 *
 aEqualStructs
@@ -1215,8 +1213,6 @@ const
 ServoComputedValues
 *
 aNewComputedValues
-nsChangeHint
-aParentHintsNotHandledForDescendants
 uint32_t
 *
 aEqualStructs
@@ -1238,8 +1234,6 @@ CalcStyleDifferenceInternal
 StyleContextLike
 *
 aNewContext
-nsChangeHint
-aParentHintsNotHandledForDescendants
 uint32_t
 *
 aEqualStructs
@@ -1342,12 +1336,6 @@ bool
 aListDescendants
 =
 true
-)
-;
-static
-void
-AssertStyleStructMaxDifferenceValid
-(
 )
 ;
 static
