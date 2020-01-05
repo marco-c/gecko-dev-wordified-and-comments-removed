@@ -52,6 +52,10 @@ CreateResetProfile
 nsIToolkitProfileService
 *
 aProfileSvc
+const
+nsACString
+&
+aOldProfileName
 nsIToolkitProfile
 *
 *
