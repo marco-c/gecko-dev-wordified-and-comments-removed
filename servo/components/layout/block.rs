@@ -3428,6 +3428,14 @@ _
 SpecificFragmentInfo
 :
 :
+Svg
+(
+_
+)
+|
+SpecificFragmentInfo
+:
+:
 Image
 (
 _

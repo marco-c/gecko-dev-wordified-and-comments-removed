@@ -7701,6 +7701,14 @@ InlineAbsolute
 (
 _
 )
+|
+SpecificFragmentInfo
+:
+:
+Svg
+(
+_
+)
 =
 >
 {
