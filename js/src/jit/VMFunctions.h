@@ -4660,8 +4660,8 @@ ThrowReadOnlyError
 JSContext
 *
 cx
-HandleObject
-obj
+int32_t
+index
 )
 ;
 MOZ_MUST_USE
