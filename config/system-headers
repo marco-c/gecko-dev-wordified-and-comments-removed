@@ -4130,6 +4130,11 @@ sysinfo
 h
 sys
 /
+sysmacros
+.
+h
+sys
+/
 sysmp
 .
 h
