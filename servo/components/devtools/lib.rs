@@ -153,10 +153,8 @@ devtools_traits
 :
 :
 {
-ServerExitMsg
+ConsoleMessage
 DevtoolsControlMsg
-NewGlobal
-DevtoolScriptControlMsg
 }
 ;
 use
@@ -165,8 +163,7 @@ devtools_traits
 :
 {
 DevtoolsPageInfo
-SendConsoleMessage
-ConsoleMessage
+DevtoolScriptControlMsg
 }
 ;
 use
@@ -1561,6 +1558,9 @@ try_recv
 {
 Ok
 (
+DevtoolsControlMsg
+:
+:
 ServerExitMsg
 )
 |
@@ -1573,6 +1573,9 @@ Disconnected
 break
 Ok
 (
+DevtoolsControlMsg
+:
+:
 NewGlobal
 (
 id
@@ -1598,6 +1601,9 @@ pageinfo
 )
 Ok
 (
+DevtoolsControlMsg
+:
+:
 SendConsoleMessage
 (
 id

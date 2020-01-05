@@ -1,8 +1,5 @@
 use
 devtools_traits
-;
-use
-devtools_traits
 :
 :
 {
@@ -316,7 +313,7 @@ is_undefined
 (
 )
 {
-devtools_traits
+EvaluateJSReply
 :
 :
 VoidValue
@@ -329,7 +326,7 @@ is_boolean
 (
 )
 {
-devtools_traits
+EvaluateJSReply
 :
 :
 BooleanValue
@@ -349,7 +346,7 @@ is_double
 (
 )
 {
-devtools_traits
+EvaluateJSReply
 :
 :
 NumberValue
@@ -378,7 +375,7 @@ is_string
 (
 )
 {
-devtools_traits
+EvaluateJSReply
 :
 :
 StringValue
@@ -409,7 +406,7 @@ is_null
 (
 )
 {
-devtools_traits
+EvaluateJSReply
 :
 :
 NullValue

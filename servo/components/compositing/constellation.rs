@@ -23,12 +23,12 @@ CompositorMsg
 ;
 use
 devtools_traits
-;
-use
-devtools_traits
 :
 :
+{
 DevtoolsControlChan
+DevtoolsControlMsg
+}
 ;
 use
 geom
@@ -2966,7 +2966,7 @@ chan
 .
 send
 (
-devtools_traits
+DevtoolsControlMsg
 :
 :
 ServerExitMsg

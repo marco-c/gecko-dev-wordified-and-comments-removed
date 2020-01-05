@@ -81,7 +81,7 @@ devtools_traits
 :
 :
 {
-SendConsoleMessage
+DevtoolsControlMsg
 ConsoleMessage
 }
 ;
@@ -457,6 +457,9 @@ chan
 .
 send
 (
+DevtoolsControlMsg
+:
+:
 SendConsoleMessage
 (
 pipelineId
