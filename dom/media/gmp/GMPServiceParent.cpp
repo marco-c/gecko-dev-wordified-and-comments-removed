@@ -4683,7 +4683,7 @@ dir
 )
 -
 >
-ThenPromise
+Then
 (
 AbstractThread
 :
@@ -5875,7 +5875,7 @@ directory
 )
 -
 >
-ThenPromise
+Then
 (
 thread
 __func__

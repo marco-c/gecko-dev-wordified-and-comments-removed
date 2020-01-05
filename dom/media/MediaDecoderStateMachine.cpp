@@ -7302,7 +7302,7 @@ Shutdown
 )
 -
 >
-ThenPromise
+Then
 (
 OwnerThread
 (

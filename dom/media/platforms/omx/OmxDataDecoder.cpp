@@ -1140,7 +1140,7 @@ nullptr
 )
 -
 >
-ThenPromise
+Then
 (
 mOmxTaskQueue
 __func__
@@ -1201,7 +1201,7 @@ Shutdown
 )
 -
 >
-ThenPromise
+Then
 (
 mOmxTaskQueue
 __func__
@@ -4004,7 +4004,7 @@ nullptr
 )
 -
 >
-ThenPromise
+Then
 (
 mOmxTaskQueue
 __func__

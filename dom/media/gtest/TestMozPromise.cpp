@@ -803,7 +803,7 @@ __func__
 )
 -
 >
-ThenPromise
+Then
 (
 queue
 __func__
@@ -837,7 +837,7 @@ DO_FAIL
 )
 -
 >
-ThenPromise
+Then
 (
 queue
 __func__
@@ -860,7 +860,7 @@ DO_FAIL
 )
 -
 >
-ThenPromise
+Then
 (
 queue
 __func__
@@ -945,7 +945,7 @@ DO_FAIL
 )
 -
 >
-ThenPromise
+Then
 (
 queue
 __func__
@@ -1425,7 +1425,7 @@ p
 p
 -
 >
-ThenPromise
+Then
 (
 queue
 __func__
