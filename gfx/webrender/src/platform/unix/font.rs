@@ -10,6 +10,7 @@ webrender_traits
 :
 {
 FontKey
+ColorU
 FontRenderMode
 GlyphDimensions
 NativeFontHandle
@@ -786,6 +787,9 @@ FontKey
 size
 :
 Au
+color
+:
+ColorU
 character
 :
 u32
@@ -860,16 +864,17 @@ FT_Render_Mode
 FT_RENDER_MODE_LCD
 }
 ;
-unsafe
-{
 let
 result
 =
+unsafe
+{
 FT_Render_Glyph
 (
 slot
 render_mode
 )
+}
 ;
 if
 result
@@ -881,6 +886,8 @@ succeeded
 let
 bitmap
 =
+unsafe
+{
 &
 (
 *
@@ -888,10 +895,13 @@ slot
 )
 .
 bitmap
+}
 ;
 let
 metrics
 =
+unsafe
+{
 &
 (
 *
@@ -899,6 +909,7 @@ slot
 )
 .
 metrics
+}
 ;
 let
 mut
@@ -965,6 +976,8 @@ u8
 let
 offset_x
 =
+unsafe
+{
 (
 metrics
 .
@@ -982,10 +995,13 @@ slot
 )
 .
 bitmap_left
+}
 ;
 let
 offset_y
 =
+unsafe
+{
 (
 metrics
 .
@@ -1003,6 +1019,7 @@ slot
 )
 .
 bitmap_top
+}
 ;
 for
 iy
@@ -1092,6 +1109,8 @@ x
 3
 )
 ;
+unsafe
+{
 let
 bit_index
 =
@@ -1141,6 +1160,7 @@ else
 0
 }
 }
+}
 else
 {
 0
@@ -1179,6 +1199,8 @@ u8
 let
 buffer
 =
+unsafe
+{
 slice
 :
 :
@@ -1199,6 +1221,7 @@ rows
 as
 usize
 )
+}
 ;
 for
 &
@@ -1289,6 +1312,8 @@ i32
 3
 )
 ;
+unsafe
+{
 let
 ptr
 =
@@ -1351,6 +1376,7 @@ b
 }
 }
 }
+}
 else
 {
 panic
@@ -1393,7 +1419,6 @@ final_buffer
 }
 )
 ;
-}
 }
 }
 glyph
