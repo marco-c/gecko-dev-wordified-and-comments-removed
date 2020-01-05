@@ -798,7 +798,7 @@ DirectionalityUtils
 h
 '
 '
-Dispatcher
+DispatcherTrait
 .
 h
 '
@@ -1148,7 +1148,7 @@ DirectionalityUtils
 cpp
 '
 '
-Dispatcher
+DispatcherTrait
 .
 cpp
 '

@@ -1082,11 +1082,6 @@ return
 array
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-TabGroup
-nsISupports
-)
 TabGroup
 :
 :
@@ -1291,7 +1286,7 @@ AbstractThread
 TabGroup
 :
 :
-AbstractMainThreadFor
+AbstractMainThreadForImpl
 (
 TaskCategory
 aCategory

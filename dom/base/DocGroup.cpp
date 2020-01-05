@@ -167,11 +167,6 @@ mKey
 )
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-DocGroup
-nsISupports
-)
 nsresult
 DocGroup
 :
@@ -235,7 +230,7 @@ AbstractThread
 DocGroup
 :
 :
-AbstractMainThreadFor
+AbstractMainThreadForImpl
 (
 TaskCategory
 aCategory

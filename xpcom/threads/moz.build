@@ -237,6 +237,11 @@ DeadlockDetector
 h
 '
 '
+Dispatcher
+.
+h
+'
+'
 HangAnnotations
 .
 h
@@ -338,6 +343,11 @@ cpp
 '
 '
 BlockingResourceBase
+.
+cpp
+'
+'
+Dispatcher
 .
 cpp
 '
