@@ -348,7 +348,7 @@ FocusIFrame
 PipelineId
 SubpageId
 )
-WebDriverCommand
+WebDriverScriptCommand
 (
 PipelineId
 WebDriverScriptCommand
