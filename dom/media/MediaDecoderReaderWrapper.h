@@ -55,9 +55,6 @@ h
 namespace
 mozilla
 {
-class
-StartTimeRendezvous
-;
 typedef
 MozPromise
 <
@@ -689,12 +686,6 @@ bool
 mShutdown
 =
 false
-;
-RefPtr
-<
-StartTimeRendezvous
->
-mStartTimeRendezvous
 ;
 Maybe
 <
