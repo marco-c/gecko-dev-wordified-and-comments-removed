@@ -101,7 +101,6 @@ constellation_msg
 :
 :
 {
-ConstellationChan
 PanicMsg
 PipelineId
 PipelineNamespaceId
@@ -214,13 +213,13 @@ LayoutControlMsg
 >
 constellation_chan
 :
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
 panic_chan
 :
-ConstellationChan
+IpcSender
 <
 PanicMsg
 >

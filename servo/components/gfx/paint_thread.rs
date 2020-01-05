@@ -148,7 +148,6 @@ constellation_msg
 :
 :
 {
-ConstellationChan
 PanicMsg
 PipelineId
 }
@@ -1946,7 +1945,7 @@ compositor
 C
 panic_chan
 :
-ConstellationChan
+IpcSender
 <
 PanicMsg
 >
@@ -1974,18 +1973,6 @@ IpcSender
 >
 )
 {
-let
-ConstellationChan
-(
-c
-)
-=
-panic_chan
-.
-clone
-(
-)
-;
 thread
 :
 :
@@ -2185,7 +2172,7 @@ Some
 (
 id
 )
-c
+panic_chan
 )
 ;
 }

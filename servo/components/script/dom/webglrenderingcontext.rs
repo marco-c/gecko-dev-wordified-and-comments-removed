@@ -747,8 +747,6 @@ constellation_chan
 ;
 constellation_chan
 .
-0
-.
 send
 (
 ConstellationMsg

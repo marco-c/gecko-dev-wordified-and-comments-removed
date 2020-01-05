@@ -137,7 +137,6 @@ constellation_msg
 :
 :
 {
-ConstellationChan
 PanicMsg
 PipelineId
 }
@@ -537,7 +536,7 @@ self
 -
 >
 &
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >

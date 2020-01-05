@@ -254,13 +254,13 @@ virtualmethods
 VirtualMethods
 ;
 use
-msg
+ipc_channel
 :
 :
-constellation_msg
+ipc
 :
 :
-ConstellationChan
+IpcSender
 ;
 use
 script_traits
@@ -349,7 +349,7 @@ DOMRefCell
 <
 TextInput
 <
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
