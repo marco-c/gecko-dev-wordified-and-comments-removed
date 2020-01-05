@@ -3751,7 +3751,7 @@ thingSize
 ;
 extern
 void
-IterateZonesCompartmentsArenasCells
+IterateHeapUnbarriered
 (
 JSContext
 *
@@ -3771,7 +3771,7 @@ cellCallback
 ;
 extern
 void
-IterateZoneCompartmentsArenasCells
+IterateHeapUnbarrieredForZone
 (
 JSContext
 *

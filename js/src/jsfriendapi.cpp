@@ -6867,7 +6867,7 @@ prefix
 >
 "
 ;
-IterateZonesCompartmentsArenasCells
+IterateHeapUnbarriered
 (
 cx
 &

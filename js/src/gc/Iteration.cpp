@@ -75,7 +75,7 @@ gc
 ;
 static
 void
-IterateCompartmentsArenasCells
+IterateCompartmentsArenasCellsUnbarriered
 (
 JSContext
 *
@@ -209,7 +209,7 @@ thingSize
 ;
 for
 (
-ArenaCellIter
+ArenaCellIterUnbarriered
 iter
 (
 arena
@@ -256,7 +256,7 @@ void
 js
 :
 :
-IterateZonesCompartmentsArenasCells
+IterateHeapUnbarriered
 (
 JSContext
 *
@@ -324,7 +324,7 @@ data
 zone
 )
 ;
-IterateCompartmentsArenasCells
+IterateCompartmentsArenasCellsUnbarriered
 (
 cx
 zone
@@ -340,7 +340,7 @@ void
 js
 :
 :
-IterateZoneCompartmentsArenasCells
+IterateHeapUnbarrieredForZone
 (
 JSContext
 *
@@ -383,7 +383,7 @@ data
 zone
 )
 ;
-IterateCompartmentsArenasCells
+IterateCompartmentsArenasCellsUnbarriered
 (
 cx
 zone
