@@ -90,6 +90,13 @@ pref_initPhase
 phase
 )
 ;
+void
+pref_SetWatchingPref
+(
+bool
+watching
+)
+;
 #
 endif
 int
