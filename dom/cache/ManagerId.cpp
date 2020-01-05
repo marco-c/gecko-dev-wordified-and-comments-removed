@@ -113,7 +113,6 @@ nullptr
 nullptr
 &
 quotaOrigin
-nullptr
 )
 ;
 if

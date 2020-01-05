@@ -966,9 +966,6 @@ mGroup
 mQuotaInfo
 .
 mOrigin
-mQuotaInfo
-.
-mIsApp
 quota
 :
 :
@@ -1259,10 +1256,6 @@ mGroup
 mQuotaInfo
 .
 mOrigin
-&
-mQuotaInfo
-.
-mIsApp
 )
 ;
 if
@@ -1474,9 +1467,6 @@ mGroup
 mQuotaInfo
 .
 mOrigin
-mQuotaInfo
-.
-mIsApp
 getter_AddRefs
 (
 mQuotaInfo

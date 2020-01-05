@@ -1612,10 +1612,6 @@ JS
 :
 AsmJSCache_InternalError
 )
-mIsApp
-(
-false
-)
 mEnforcingQuota
 (
 true
@@ -2251,9 +2247,6 @@ AsmJSCacheResult
 mResult
 ;
 bool
-mIsApp
-;
-bool
 mEnforcingQuota
 ;
 bool
@@ -2350,8 +2343,6 @@ mSuffix
 mGroup
 &
 mOrigin
-&
-mIsApp
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2371,8 +2362,6 @@ quota
 :
 :
 PERSISTENCE_TYPE_TEMPORARY
-mOrigin
-mIsApp
 )
 ;
 return
@@ -2435,7 +2424,6 @@ quota
 PERSISTENCE_TYPE_TEMPORARY
 mGroup
 mOrigin
-mIsApp
 quota
 :
 :
@@ -2510,7 +2498,6 @@ PERSISTENCE_TYPE_TEMPORARY
 mSuffix
 mGroup
 mOrigin
-mIsApp
 getter_AddRefs
 (
 mDirectory

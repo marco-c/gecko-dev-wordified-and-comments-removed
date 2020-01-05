@@ -222,8 +222,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 )
 :
 mOrigin
@@ -234,10 +232,6 @@ mPersistenceType
 (
 aPersistenceType
 )
-mIsApp
-(
-aIsApp
-)
 {
 }
 nsCString
@@ -245,9 +239,6 @@ mOrigin
 ;
 PersistenceType
 mPersistenceType
-;
-bool
-mIsApp
 ;
 }
 ;
@@ -407,8 +398,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 uint64_t
 aUsageBytes
 int64_t
@@ -575,9 +564,6 @@ aGroup
 nsACString
 &
 aOrigin
-bool
-*
-aIsApp
 )
 ;
 nsresult
@@ -600,9 +586,6 @@ aGroup
 nsACString
 &
 aOrigin
-bool
-*
-aIsApp
 )
 ;
 nsresult
@@ -642,8 +625,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 Client
 :
 :
@@ -725,8 +706,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 nsIFile
 *
 *
@@ -742,8 +721,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 )
 ;
 void
@@ -975,9 +952,6 @@ aGroup
 nsACString
 *
 aOrigin
-bool
-*
-aIsApp
 )
 ;
 static
@@ -996,9 +970,6 @@ aGroup
 nsACString
 *
 aOrigin
-bool
-*
-aIsApp
 )
 ;
 static
@@ -1014,9 +985,6 @@ aGroup
 nsACString
 *
 aOrigin
-bool
-*
-aIsApp
 )
 ;
 static
@@ -1039,8 +1007,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 )
 ;
 static
@@ -1049,12 +1015,6 @@ IsQuotaEnforced
 (
 PersistenceType
 aPersistenceType
-const
-nsACString
-&
-aOrigin
-bool
-aIsApp
 )
 ;
 static
@@ -1116,13 +1076,6 @@ aOriginScope
 const
 Nullable
 <
-bool
->
-&
-aIsApp
-const
-Nullable
-<
 Client
 :
 :
@@ -1155,8 +1108,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 )
 ;
 void
@@ -1270,8 +1221,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 int64_t
 aAccessTime
 nsIFile

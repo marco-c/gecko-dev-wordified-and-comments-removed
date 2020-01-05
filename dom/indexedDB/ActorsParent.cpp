@@ -29098,9 +29098,6 @@ State
 mState
 ;
 bool
-mIsApp
-;
-bool
 mEnforcingQuota
 ;
 const
@@ -67089,8 +67086,6 @@ const
 nsACString
 &
 aOrigin
-bool
-aIsApp
 const
 nsAString
 &
@@ -67118,10 +67113,6 @@ aDatabaseName
 mLastFileId
 (
 0
-)
-mIsApp
-(
-aIsApp
 )
 mEnforcingQuota
 (
@@ -73888,9 +73879,6 @@ dummyTimeStamp
 nsCString
 dummySuffix
 ;
-bool
-dummyIsApp
-;
 if
 (
 NS_WARN_IF
@@ -73908,8 +73896,6 @@ dummyTimeStamp
 dummySuffix
 group
 origin
-&
-dummyIsApp
 )
 )
 )
@@ -77294,7 +77280,6 @@ EmptyCString
 EmptyCString
 (
 )
-false
 EmptyString
 (
 )
@@ -82946,10 +82931,6 @@ State
 :
 Initial
 )
-mIsApp
-(
-false
-)
 mEnforcingQuota
 (
 true
@@ -84501,8 +84482,6 @@ mSuffix
 mGroup
 &
 mOrigin
-&
-mIsApp
 )
 ;
 MOZ_ASSERT
@@ -84515,7 +84494,6 @@ IsFirstPromptRequired
 (
 persistenceType
 mOrigin
-mIsApp
 )
 )
 ;
@@ -84527,8 +84505,6 @@ QuotaManager
 IsQuotaEnforced
 (
 persistenceType
-mOrigin
-mIsApp
 )
 ;
 }
@@ -84599,9 +84575,6 @@ group
 nsCString
 origin
 ;
-bool
-isApp
-;
 rv
 =
 QuotaManager
@@ -84616,8 +84589,6 @@ suffix
 group
 &
 origin
-&
-isApp
 )
 ;
 if
@@ -84654,10 +84625,6 @@ IsOriginWhitelistedForPersistentStorage
 (
 origin
 )
-&
-&
-!
-isApp
 )
 {
 return
@@ -84681,7 +84648,6 @@ IsFirstPromptRequired
 (
 persistenceType
 origin
-isApp
 )
 )
 {
@@ -84755,10 +84721,6 @@ mOrigin
 =
 origin
 ;
-mIsApp
-=
-isApp
-;
 mEnforcingQuota
 =
 QuotaManager
@@ -84767,8 +84729,6 @@ QuotaManager
 IsQuotaEnforced
 (
 persistenceType
-mOrigin
-mIsApp
 )
 ;
 }
@@ -85484,7 +85444,6 @@ OpenDirectory
 persistenceType
 mGroup
 mOrigin
-mIsApp
 Client
 :
 :
@@ -86457,7 +86416,6 @@ persistenceType
 mSuffix
 mGroup
 mOrigin
-mIsApp
 getter_AddRefs
 (
 dbDirectory
@@ -87018,7 +86976,6 @@ FileManager
 persistenceType
 mGroup
 mOrigin
-mIsApp
 databaseName
 mEnforcingQuota
 )
