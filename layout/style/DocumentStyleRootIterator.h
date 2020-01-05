@@ -20,6 +20,13 @@ nsIDocument
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Element
+;
+}
 class
 DocumentStyleRootIterator
 {
@@ -44,6 +51,9 @@ DocumentStyleRootIterator
 )
 ;
 }
+dom
+:
+:
 Element
 *
 GetNextStyleRoot

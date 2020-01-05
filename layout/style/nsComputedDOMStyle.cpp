@@ -413,6 +413,9 @@ nsStyleImageLayers
 &
 aLayers
 const
+nsCSSProps
+:
+:
 KTableEntry
 aTable
 [
