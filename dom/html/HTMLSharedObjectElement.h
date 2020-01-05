@@ -956,14 +956,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
+nsRuleData
 *
-aGenericData
-)
-;
-bool
-BlockEmbedContentLoading
-(
+aData
 )
 ;
 }
