@@ -638,17 +638,6 @@ node
 .
 initialize_layout_data
 (
-self
-.
-layout_context
-.
-shared
-.
-layout_chan
-.
-clone
-(
-)
 )
 ;
 let
