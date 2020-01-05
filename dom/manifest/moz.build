@@ -95,7 +95,17 @@ ImageObjectProcessor
 jsm
 '
 '
+Manifest
+.
+jsm
+'
+'
 ManifestFinder
+.
+jsm
+'
+'
+ManifestIcons
 .
 jsm
 '
