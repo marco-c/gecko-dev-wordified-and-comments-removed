@@ -8524,12 +8524,13 @@ id
 &
 &
 !
-obj
--
->
+JSObject
+:
+:
 setHadElementsAccess
 (
 cx
+obj
 )
 )
 return

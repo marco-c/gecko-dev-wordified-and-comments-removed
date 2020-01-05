@@ -17493,12 +17493,13 @@ false
 if
 (
 !
-env
--
->
+JSObject
+:
+:
 setQualifiedVarObj
 (
 cx
+env
 )
 )
 return
