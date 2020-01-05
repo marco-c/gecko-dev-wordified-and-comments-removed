@@ -180,8 +180,6 @@ navigator
 ;
 }
 ;
-/
-/
 WorkerGlobalScope
 implements
 WindowTimers
