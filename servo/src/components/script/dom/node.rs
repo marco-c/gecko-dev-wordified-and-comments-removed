@@ -686,7 +686,6 @@ pub
 type_id
 :
 NodeTypeId
-pub
 parent_node
 :
 Cell
@@ -699,7 +698,6 @@ Node
 >
 >
 >
-pub
 first_child
 :
 Cell
@@ -712,7 +710,6 @@ Node
 >
 >
 >
-pub
 last_child
 :
 Cell
@@ -725,7 +722,6 @@ Node
 >
 >
 >
-pub
 next_sibling
 :
 Cell
@@ -738,7 +734,6 @@ Node
 >
 >
 >
-pub
 prev_sibling
 :
 Cell
@@ -763,7 +758,6 @@ Document
 >
 >
 >
-pub
 child_list
 :
 Cell
