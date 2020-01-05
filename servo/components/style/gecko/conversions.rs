@@ -43,7 +43,6 @@ bindings
 :
 {
 RawServoStyleSheet
-RawServoDeclarationBlock
 RawServoStyleRule
 RawServoImportRule
 }
@@ -71,6 +70,15 @@ structs
 nsStyleCoord_CalcValue
 nsStyleImage
 }
+;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
+RawServoDeclarationBlock
 ;
 use
 gecko_bindings
