@@ -729,6 +729,9 @@ mod
 text_overflow
 ;
 mod
+transition_duration
+;
+mod
 transition_property
 ;
 mod
