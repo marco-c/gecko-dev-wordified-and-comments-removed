@@ -64,7 +64,6 @@ display_list_builder
 :
 {
 DisplayListBuilder
-FlowDisplayListBuilderMethods
 }
 ;
 use
@@ -1612,7 +1611,15 @@ what
 needs
 painting
 .
+for
 layout_root
+.
+traverse_preorder
+|
+flow
+|
+{
+flow
 .
 build_display_list
 (
@@ -1627,6 +1634,7 @@ position
 display_list
 )
 ;
+}
 let
 root_size
 =
