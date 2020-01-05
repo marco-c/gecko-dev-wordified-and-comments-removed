@@ -1171,6 +1171,17 @@ ErrorResult
 aRv
 )
 ;
+nsTArray
+<
+AnimationProperty
+>
+BuildProperties
+(
+nsStyleContext
+*
+aStyleContext
+)
+;
 void
 UpdateTargetRegistration
 (
