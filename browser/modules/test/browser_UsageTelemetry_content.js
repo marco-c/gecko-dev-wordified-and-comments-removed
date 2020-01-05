@@ -238,13 +238,6 @@ removeEngine
 engineOneOff
 )
 ;
-yield
-PlacesTestUtils
-.
-clearHistory
-(
-)
-;
 }
 )
 ;

@@ -43733,11 +43733,12 @@ bar
 popup
 .
 See
-BrowserUsageTelemetry
+nsBrowserGlue
 .
-jsm
+js
 :
-URLBAR_SELECTED_RESULT_TYPES
+:
+_handleURLBarTelemetry
 for
 the
 result
