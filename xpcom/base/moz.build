@@ -565,6 +565,11 @@ nsMemoryInfoDumper
 h
 '
 '
+NSPRLogModulesParser
+.
+h
+'
+'
 OwningNonNull
 .
 h
