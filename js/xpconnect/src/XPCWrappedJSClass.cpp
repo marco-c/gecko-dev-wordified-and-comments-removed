@@ -4350,10 +4350,6 @@ JS
 JS_ReportErrorASCII
 (
 cx
-"
-%
-s
-"
 str
 )
 ;

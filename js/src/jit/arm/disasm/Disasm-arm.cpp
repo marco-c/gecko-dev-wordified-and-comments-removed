@@ -63,11 +63,6 @@ disasm
 {
 static
 int
-MOZ_FORMAT_PRINTF
-(
-2
-3
-)
 SNPrintF
 (
 V8Vector

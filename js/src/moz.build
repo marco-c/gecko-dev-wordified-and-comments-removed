@@ -6009,12 +6009,6 @@ Wno
 -
 shadow
 '
-'
--
-Werror
-=
-format
-'
 ]
 #
 Suppress

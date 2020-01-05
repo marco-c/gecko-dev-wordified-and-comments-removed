@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 jit
 /
 BitSet
@@ -146,9 +137,7 @@ safepoint
 (
 position
 %
-"
-PRIuSIZE
-"
+d
 )
 :
 "

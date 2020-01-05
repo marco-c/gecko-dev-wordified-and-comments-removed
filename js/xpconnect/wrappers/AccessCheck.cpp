@@ -1350,10 +1350,6 @@ wrapper
 JS_ReportErrorASCII
 (
 cx
-"
-%
-s
-"
 msg
 )
 ;

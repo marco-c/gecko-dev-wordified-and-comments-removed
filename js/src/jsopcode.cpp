@@ -758,9 +758,7 @@ jsprintf
 IonScript
 [
 %
-"
-PRIuSIZE
-"
+lu
 blocks
 ]
 :
@@ -855,9 +853,7 @@ jsprintf
 BB
 #
 %
-"
-PRIu32
-"
+lu
 [
 %
 05u
@@ -954,8 +950,8 @@ jsprintf
 >
 #
 %
+lu
 "
-PRIu32
 block
 .
 successor
@@ -980,9 +976,7 @@ jsprintf
 :
 :
 %
-"
-PRIu64
-"
+llu
 hits
 \
 n

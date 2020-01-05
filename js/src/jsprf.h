@@ -52,11 +52,6 @@ fmt
 .
 .
 )
-MOZ_FORMAT_PRINTF
-(
-1
-2
-)
 ;
 extern
 JS_PUBLIC_API
@@ -88,11 +83,6 @@ fmt
 .
 .
 .
-)
-MOZ_FORMAT_PRINTF
-(
-2
-3
 )
 ;
 extern

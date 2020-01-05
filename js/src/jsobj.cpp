@@ -21421,9 +21421,7 @@ printf
 "
 #
 %
-"
-PRIuSIZE
-"
+d
 %
 14p
 %
@@ -21463,9 +21461,7 @@ printf
 %
 p
 %
-"
-PRIuSIZE
-"
+d
 )
 \
 n

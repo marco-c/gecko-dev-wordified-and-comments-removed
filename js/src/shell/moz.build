@@ -388,12 +388,6 @@ Wno
 -
 shadow
 '
-'
--
-Werror
-=
-format
-'
 ]
 #
 This

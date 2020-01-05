@@ -12,15 +12,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 stdarg
 .
@@ -617,8 +608,8 @@ name
 s
 :
 %
+d
 "
-PRIuSIZE
 script
 -
 >
@@ -675,10 +666,6 @@ stringProperty
 (
 "
 name
-"
-"
-%
-s
 "
 pass
 )

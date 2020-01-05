@@ -8602,10 +8602,6 @@ has_failed
 JS_ReportErrorASCII
 (
 cx
-"
-%
-s
-"
 analysis
 .
 errorMessage
