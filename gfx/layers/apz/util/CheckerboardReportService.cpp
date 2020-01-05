@@ -784,8 +784,9 @@ return
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCtx
 )
 |
 |
