@@ -432,9 +432,13 @@ tab
 .
 linkedBrowser
 true
+{
+remoteType
+:
 contentBrowser
 .
 remoteType
+}
 )
 ;
 dispatchDevToolsBrowserSwap
