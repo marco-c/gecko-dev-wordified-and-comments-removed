@@ -862,7 +862,7 @@ IntegerRange
 <
 IntType
 >
-MakeRange
+IntegerRange
 (
 IntType
 aEnd
@@ -937,7 +937,7 @@ IntegerRange
 <
 IntType2
 >
-MakeRange
+IntegerRange
 (
 IntType1
 aBegin

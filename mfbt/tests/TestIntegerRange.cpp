@@ -27,13 +27,13 @@ using
 mozilla
 :
 :
-IsSame
+IntegerRange
 ;
 using
 mozilla
 :
 :
-MakeRange
+IsSame
 ;
 using
 mozilla
@@ -111,7 +111,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 aN
 )
@@ -258,7 +258,7 @@ i
 :
 Reversed
 (
-MakeRange
+IntegerRange
 (
 aN
 )
@@ -470,7 +470,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 aBegin
 aEnd
@@ -641,7 +641,7 @@ i
 :
 Reversed
 (
-MakeRange
+IntegerRange
 (
 aBegin
 aEnd

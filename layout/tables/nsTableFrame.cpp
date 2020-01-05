@@ -27880,7 +27880,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBStartIStart
+eBStartIStart
 *
 iter
 .
@@ -28162,7 +28162,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBStartIStart
+eBStartIStart
 *
 iter
 .
@@ -28403,7 +28403,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBStartIEnd
+eBStartIEnd
 *
 iter
 .
@@ -28459,7 +28459,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBEndIEnd
+eBEndIEnd
 *
 iter
 .
@@ -28935,7 +28935,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBStartIEnd
+eBStartIEnd
 *
 iter
 .
@@ -28992,7 +28992,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBEndIEnd
+eBEndIEnd
 *
 iter
 .
@@ -29219,7 +29219,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBEndIStart
+eBEndIStart
 *
 iter
 .
@@ -29283,7 +29283,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBEndIEnd
+eBEndIEnd
 *
 iter
 .
@@ -29718,7 +29718,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBEndIStart
+eBEndIStart
 *
 iter
 .
@@ -29789,7 +29789,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eLogicalCornerBEndIStart
+eBEndIStart
 *
 iter
 .
@@ -35449,7 +35449,7 @@ for
 auto
 xIndex
 :
-MakeRange
+IntegerRange
 (
 mDamageArea
 .

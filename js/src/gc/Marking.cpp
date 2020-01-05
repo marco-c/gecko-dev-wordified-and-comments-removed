@@ -288,6 +288,12 @@ using
 mozilla
 :
 :
+IntegerRange
+;
+using
+mozilla
+:
+:
 IsBaseOf
 ;
 using
@@ -295,12 +301,6 @@ mozilla
 :
 :
 IsSame
-;
-using
-mozilla
-:
-:
-MakeRange
 ;
 using
 mozilla
@@ -2555,7 +2555,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 len
 )
@@ -2648,7 +2648,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 len
 )
@@ -5305,7 +5305,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 numClosedOverBindings
 (
@@ -5350,7 +5350,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 numInnerFunctions
 (
@@ -5491,7 +5491,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 thing
 -
@@ -5542,7 +5542,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 thing
 -

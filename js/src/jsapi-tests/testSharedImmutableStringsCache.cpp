@@ -335,7 +335,7 @@ i
 mozilla
 :
 :
-MakeRange
+IntegerRange
 (
 NUM_THREADS
 )

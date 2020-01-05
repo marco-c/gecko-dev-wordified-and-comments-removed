@@ -455,7 +455,7 @@ i
 mozilla
 :
 :
-MakeRange
+IntegerRange
 (
 N
 )

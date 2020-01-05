@@ -147,7 +147,7 @@ i
 mozilla
 :
 :
-MakeRange
+IntegerRange
 (
 NumThreads
 )
@@ -345,7 +345,7 @@ i
 mozilla
 :
 :
-MakeRange
+IntegerRange
 (
 NumThreads
 )
