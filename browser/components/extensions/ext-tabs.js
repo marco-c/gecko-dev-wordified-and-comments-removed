@@ -1272,6 +1272,12 @@ else
 {
 this
 .
+initTabReady
+(
+)
+;
+this
+.
 tabReadyPromises
 .
 set
