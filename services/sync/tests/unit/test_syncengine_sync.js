@@ -193,6 +193,7 @@ Service
 function
 clean
 (
+engine
 )
 {
 Svc
@@ -233,16 +234,26 @@ clearCache
 (
 )
 ;
+engine
+.
+_tracker
+.
+clearChangedIDs
+(
+)
+;
 }
 async
 function
 cleanAndGo
 (
+engine
 server
 )
 {
 clean
 (
+engine
 )
 ;
 await
@@ -256,11 +267,13 @@ async
 function
 promiseClean
 (
+engine
 server
 )
 {
 clean
 (
+engine
 )
 ;
 await
@@ -796,6 +809,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -937,6 +951,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -1143,6 +1158,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -1256,6 +1272,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -1689,6 +1706,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -2360,6 +2378,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -2638,6 +2657,7 @@ DUPE_INCOMING
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -2799,6 +2819,7 @@ items
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3068,6 +3089,7 @@ deleted
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3362,6 +3384,7 @@ denomination
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3644,6 +3667,7 @@ denomination
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3927,6 +3951,7 @@ denomination
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -4507,6 +4532,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -4924,6 +4950,7 @@ finally
 await
 promiseClean
 (
+engine
 server
 )
 ;
@@ -5465,6 +5492,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -5833,6 +5861,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -6140,6 +6169,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -6719,6 +6749,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -7439,6 +7470,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -8349,6 +8381,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -8963,6 +8996,7 @@ finally
 await
 promiseClean
 (
+engine
 server
 )
 ;
@@ -9371,6 +9405,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -9670,8 +9705,10 @@ undefined
 }
 finally
 {
+await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -10069,6 +10106,7 @@ finally
 await
 promiseClean
 (
+engine
 server
 )
 ;
@@ -10419,6 +10457,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -10654,6 +10693,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -11010,6 +11050,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -11407,6 +11448,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -11836,6 +11878,7 @@ finally
 await
 promiseClean
 (
+engine
 server
 )
 ;
@@ -12002,6 +12045,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -12156,6 +12200,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -12457,6 +12502,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
