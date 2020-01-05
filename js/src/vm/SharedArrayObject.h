@@ -302,6 +302,11 @@ Class
 class_
 ;
 static
+const
+Class
+protoClass_
+;
+static
 bool
 byteLengthGetter
 (
