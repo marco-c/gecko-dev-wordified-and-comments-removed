@@ -77775,9 +77775,9 @@ f32
 pub
 mImage
 :
-nsCOMPtr
+RefPtr
 <
-imgIRequest
+nsStyleImageRequest
 >
 }
 #

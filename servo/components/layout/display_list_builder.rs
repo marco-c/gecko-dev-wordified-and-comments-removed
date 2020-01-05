@@ -14387,7 +14387,7 @@ auto
 cursor
 :
 :
-T
+Keyword
 :
 :
 AutoCursor
@@ -14409,7 +14409,7 @@ auto
 cursor
 :
 :
-T
+Keyword
 :
 :
 SpecifiedCursor
