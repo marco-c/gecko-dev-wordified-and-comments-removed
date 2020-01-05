@@ -1509,6 +1509,13 @@ IpcSender
 >
 )
 Exit
+(
+IpcSender
+<
+(
+)
+>
+)
 }
 pub
 struct
