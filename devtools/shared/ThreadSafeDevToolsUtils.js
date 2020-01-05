@@ -966,9 +966,6 @@ resolutionValues
 )
 ;
 return
-deferred
-.
-promise
 ;
 }
 function

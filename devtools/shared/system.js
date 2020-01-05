@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -838,7 +837,7 @@ Ci
 nsIToolkitProfileService
 )
 ;
-var
+let
 profiles
 =
 profservice
@@ -885,8 +884,6 @@ path
 )
 {
 return
-profile
-=
 profile
 .
 name
@@ -1533,9 +1530,6 @@ e
 )
 ;
 }
-let
-req
-=
 settingsService
 .
 createLock
@@ -1549,7 +1543,7 @@ name
 handle
 :
 (
-name
+_
 value
 )
 =
