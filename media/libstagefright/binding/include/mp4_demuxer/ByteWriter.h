@@ -63,13 +63,15 @@ ByteWriter
 )
 {
 }
-void
+MOZ_MUST_USE
+bool
 WriteU8
 (
 uint8_t
 aByte
 )
 {
+return
 Write
 (
 &
@@ -78,7 +80,8 @@ aByte
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 WriteU16
 (
 uint16_t
@@ -107,6 +110,7 @@ c
 aShort
 )
 ;
+return
 Write
 (
 &
@@ -118,7 +122,8 @@ c
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 WriteU32
 (
 uint32_t
@@ -147,6 +152,7 @@ c
 aLong
 )
 ;
+return
 Write
 (
 &
@@ -158,7 +164,8 @@ c
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 Write32
 (
 int32_t
@@ -187,6 +194,7 @@ c
 aLong
 )
 ;
+return
 Write
 (
 &
@@ -198,7 +206,8 @@ c
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 WriteU64
 (
 uint64_t
@@ -227,6 +236,7 @@ c
 aLongLong
 )
 ;
+return
 Write
 (
 &
@@ -238,7 +248,8 @@ c
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 Write64
 (
 int64_t
@@ -267,6 +278,7 @@ c
 aLongLong
 )
 ;
+return
 Write
 (
 &
@@ -278,7 +290,8 @@ c
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 Write
 (
 const
@@ -289,15 +302,13 @@ size_t
 aCount
 )
 {
-MOZ_RELEASE_ASSERT
-(
+return
 mPtr
 .
 append
 (
 aSrc
 aCount
-)
 )
 ;
 }
