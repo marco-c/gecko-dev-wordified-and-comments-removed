@@ -73,7 +73,7 @@ byteorder
 :
 {
 ReadBytesExt
-NativeEndian
+BigEndian
 }
 ;
 use
@@ -154,7 +154,7 @@ read_u32
 :
 :
 <
-NativeEndian
+BigEndian
 >
 (
 )
@@ -172,7 +172,7 @@ read_u32
 :
 :
 <
-NativeEndian
+BigEndian
 >
 (
 )
