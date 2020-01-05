@@ -317,7 +317,7 @@ properties
 style_struct_traits
 :
 :
-TBox
+Box
 ;
 use
 properties

@@ -11060,7 +11060,7 @@ properties
 style_struct_traits
 :
 :
-TFont
+Font
 ;
 use
 std
