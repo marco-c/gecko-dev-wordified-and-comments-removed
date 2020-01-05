@@ -40653,6 +40653,13 @@ resetAddonSet
 (
 )
 {
+if
+(
+this
+.
+_addonSet
+)
+{
 logger
 .
 info
@@ -40684,13 +40691,6 @@ addons
 }
 )
 ;
-if
-(
-this
-.
-_addonSet
-)
-{
 for
 (
 let
