@@ -219,8 +219,6 @@ reason
 /
 /
 messaging
-/
-/
 attribute
 EventHandler
 onmessage
