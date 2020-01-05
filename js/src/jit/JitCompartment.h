@@ -2846,13 +2846,6 @@ code
 }
 }
 ;
-static
-const
-bool
-EnableIonCacheIR
-=
-true
-;
 }
 }
 #
