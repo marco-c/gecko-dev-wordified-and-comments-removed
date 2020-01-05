@@ -733,6 +733,10 @@ eTransitionEnd
 )
 NS_EVENT_MESSAGE
 (
+eTransitionCancel
+)
+NS_EVENT_MESSAGE
+(
 eAnimationStart
 )
 NS_EVENT_MESSAGE
