@@ -2573,7 +2573,7 @@ tn
 >
 stackDepth
 -
-1
+2
 )
 return
 true
