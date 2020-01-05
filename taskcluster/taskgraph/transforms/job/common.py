@@ -681,6 +681,23 @@ params
 head_rev
 '
 ]
+        
+'
+HG_STORE_PATH
+'
+:
+'
+/
+home
+/
+worker
+/
+checkouts
+/
+hg
+-
+store
+'
     
 }
 )

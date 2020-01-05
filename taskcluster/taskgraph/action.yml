@@ -325,6 +325,18 @@ head_rev
 }
 }
 '
+HG_STORE_PATH
+:
+/
+home
+/
+worker
+/
+checkouts
+/
+hg
+-
+store
 cache
 :
 level
@@ -385,7 +397,7 @@ decision
 .
 1
 .
-6
+7
 '
 #
 Virtually
