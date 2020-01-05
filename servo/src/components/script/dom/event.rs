@@ -69,7 +69,7 @@ bindings
 trace
 :
 :
-Untraceable
+Traceable
 ;
 use
 dom
@@ -303,7 +303,7 @@ EventTarget
 >
 type_
 :
-Untraceable
+Traceable
 <
 RefCell
 <
@@ -313,7 +313,7 @@ DOMString
 pub
 phase
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -323,7 +323,7 @@ EventPhase
 pub
 canceled
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -333,7 +333,7 @@ bool
 pub
 stop_propagation
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -343,7 +343,7 @@ bool
 pub
 stop_immediate
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -353,7 +353,7 @@ bool
 pub
 cancelable
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -363,7 +363,7 @@ bool
 pub
 bubbles
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -373,7 +373,7 @@ bool
 pub
 trusted
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -383,7 +383,7 @@ bool
 pub
 dispatching
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -393,7 +393,7 @@ bool
 pub
 initialized
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -453,7 +453,7 @@ None
 )
 phase
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -468,7 +468,7 @@ PhaseNone
 )
 type_
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -488,7 +488,7 @@ to_string
 )
 canceled
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -503,7 +503,7 @@ false
 )
 cancelable
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -518,7 +518,7 @@ true
 )
 bubbles
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -533,7 +533,7 @@ false
 )
 trusted
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -548,7 +548,7 @@ false
 )
 dispatching
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -563,7 +563,7 @@ false
 )
 stop_propagation
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -578,7 +578,7 @@ false
 )
 stop_immediate
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -593,7 +593,7 @@ false
 )
 initialized
 :
-Untraceable
+Traceable
 :
 :
 new

@@ -188,7 +188,7 @@ bindings
 trace
 :
 :
-Untraceable
+Traceable
 ;
 use
 dom
@@ -619,7 +619,7 @@ NodeList
 >
 flags
 :
-Untraceable
+Traceable
 <
 RefCell
 <
@@ -6873,7 +6873,7 @@ None
 )
 flags
 :
-Untraceable
+Traceable
 :
 :
 new

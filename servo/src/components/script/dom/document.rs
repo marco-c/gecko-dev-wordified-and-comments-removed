@@ -650,7 +650,7 @@ DOMString
 pub
 encoding_name
 :
-Untraceable
+Traceable
 <
 RefCell
 <
@@ -1785,7 +1785,7 @@ NoQuirks
 )
 encoding_name
 :
-Untraceable
+Traceable
 :
 :
 new
