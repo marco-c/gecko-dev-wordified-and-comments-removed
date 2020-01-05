@@ -242,6 +242,15 @@ c99
 uint32_t
 ;
 use
+msg
+:
+:
+compositor_msg
+:
+:
+LayerKind
+;
+use
 net_traits
 :
 :
@@ -392,6 +401,10 @@ Option
 <
 ClippingRegion
 >
+pub
+layer_kind
+:
+LayerKind
 }
 #
 [
