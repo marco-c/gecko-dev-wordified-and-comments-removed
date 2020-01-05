@@ -844,6 +844,14 @@ attribute
 EventHandler
 ontransitionend
 ;
+attribute
+EventHandler
+ontransitionrun
+;
+attribute
+EventHandler
+ontransitionstart
+;
 /
 /
 CSS
