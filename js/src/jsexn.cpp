@@ -854,7 +854,7 @@ linebufSize
 copy
 -
 >
-initLinebuf
+initBorrowedLinebuf
 (
 linebufCopy
 report
