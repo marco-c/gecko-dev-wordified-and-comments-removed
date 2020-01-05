@@ -374,7 +374,7 @@ return
 when
 and
 compile_environment
-depends_when
+depends
 (
 pkg_config
 pkg_config_version
@@ -489,7 +489,7 @@ newer
 "
 min_version
 )
-depends_when
+depends
 (
 pkg_config
 package_desc
@@ -669,7 +669,7 @@ exit
 (
 1
 )
-depends_when
+depends
 (
 pkg_config
 package_desc
@@ -726,7 +726,7 @@ split
 (
 )
 )
-depends_when
+depends
 (
 pkg_config
 package_desc
@@ -810,7 +810,7 @@ split
 (
 )
 )
-depends_when
+depends
 (
 pkg_cflags
 pkg_libs

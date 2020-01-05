@@ -480,7 +480,7 @@ v
 ]
 ]
 )
-depends_when
+depends
 (
 try_compile
 (

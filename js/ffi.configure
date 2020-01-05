@@ -270,7 +270,7 @@ configure
 .
 ac
 .
-depends_when
+depends
 (
 target
 when

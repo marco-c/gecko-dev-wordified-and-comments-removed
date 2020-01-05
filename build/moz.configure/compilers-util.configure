@@ -374,7 +374,7 @@ fn
 :
 return
 fn
-depends_when
+depends
 (
 self
 dependable
