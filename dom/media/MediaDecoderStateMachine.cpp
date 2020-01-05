@@ -5472,13 +5472,6 @@ SeekTarget
 aTarget
 )
 {
-mPendingSeek
-.
-RejectIfExists
-(
-__func__
-)
-;
 SeekJob
 seekJob
 ;
