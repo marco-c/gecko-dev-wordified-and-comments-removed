@@ -919,6 +919,9 @@ STLPORT_CPPFLAGS
 "
 -
 I
+cxx_include
+-
+I
 android_ndk
 /
 sources
@@ -928,9 +931,6 @@ android
 support
 /
 include
--
-I
-cxx_include
 -
 I
 cxxabi_include
