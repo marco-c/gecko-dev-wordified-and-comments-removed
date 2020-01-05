@@ -1515,15 +1515,6 @@ next
 )
 ;
 void
-finalize
-(
-FreeOp
-*
-fop
-)
-{
-}
-void
 fixupAfterMovingGC
 (
 )
