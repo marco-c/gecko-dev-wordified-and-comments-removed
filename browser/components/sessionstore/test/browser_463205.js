@@ -163,6 +163,9 @@ entries
 url
 :
 URL
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 }
 ]
 formdata
