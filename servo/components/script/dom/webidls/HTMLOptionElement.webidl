@@ -160,14 +160,10 @@ attribute
 DOMString
 label
 ;
-/
-/
 attribute
 boolean
 defaultSelected
 ;
-/
-/
 attribute
 boolean
 selected
