@@ -13651,10 +13651,16 @@ restricted
 nsContentUtils
 :
 :
-IsSystemPrincipal
+PrincipalHasPermission
 (
 &
 aSubjectPrincipal
+NS_LITERAL_STRING
+(
+"
+clipboardRead
+"
+)
 )
 )
 {

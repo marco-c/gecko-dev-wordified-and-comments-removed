@@ -1489,12 +1489,6 @@ mNegotiatedMaxBitrate
 int
 mMinBitrateEstimate
 ;
-bool
-mRtpStreamIdEnabled
-;
-uint8_t
-mRtpStreamIdExtId
-;
 static
 const
 unsigned
