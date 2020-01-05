@@ -1451,6 +1451,7 @@ this
 .
 [
 Throws
+NeedsCallerType
 ]
 boolean
 javaEnabled
