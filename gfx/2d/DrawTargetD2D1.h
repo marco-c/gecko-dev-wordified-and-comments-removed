@@ -806,6 +806,10 @@ IntRect
 aSourceRect
 =
 nullptr
+bool
+aUserSpace
+=
+true
 )
 ;
 already_AddRefed
