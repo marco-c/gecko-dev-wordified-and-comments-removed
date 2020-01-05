@@ -81,6 +81,13 @@ bug867946
 js
 basic
 /
+destructuring
+-
+iterator
+.
+js
+basic
+/
 testAtomize
 .
 js
