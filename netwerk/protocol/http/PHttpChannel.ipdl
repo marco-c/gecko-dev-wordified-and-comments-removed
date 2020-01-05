@@ -1165,7 +1165,7 @@ FinishInterceptedRedirect
 async
 SetPriority
 (
-uint16_t
+int16_t
 priority
 )
 ;

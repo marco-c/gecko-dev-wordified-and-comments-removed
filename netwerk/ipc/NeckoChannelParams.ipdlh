@@ -770,7 +770,7 @@ uploadStream
 bool
 uploadStreamHasHeaders
 ;
-uint16_t
+int16_t
 priority
 ;
 uint32_t
