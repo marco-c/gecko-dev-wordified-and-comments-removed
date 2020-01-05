@@ -536,7 +536,7 @@ windows2012
 -
 64
 /
-opt
+pgo
 symbol
 :
 tc
