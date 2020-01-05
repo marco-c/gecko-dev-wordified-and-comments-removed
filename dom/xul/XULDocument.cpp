@@ -13536,7 +13536,7 @@ once
 ;
 rv
 =
-nsScriptLoader
+ScriptLoader
 :
 :
 ConvertToUTF16

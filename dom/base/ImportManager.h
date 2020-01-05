@@ -49,14 +49,18 @@ h
 #
 include
 "
-nsScriptLoader
+nsURIHashKey
 .
 h
 "
 #
 include
 "
-nsURIHashKey
+mozilla
+/
+dom
+/
+ScriptLoader
 .
 h
 "
@@ -393,7 +397,7 @@ mMainReferrer
 void
 AddBlockedScriptLoader
 (
-nsScriptLoader
+ScriptLoader
 *
 aScriptLoader
 )
@@ -401,7 +405,7 @@ aScriptLoader
 bool
 RemoveBlockedScriptLoader
 (
-nsScriptLoader
+ScriptLoader
 *
 aScriptLoader
 )
@@ -520,7 +524,7 @@ nsTArray
 <
 RefPtr
 <
-nsScriptLoader
+ScriptLoader
 >
 >
 mBlockedScriptLoaders

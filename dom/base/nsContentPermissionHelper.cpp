@@ -225,13 +225,6 @@ nsWeakPtr
 .
 h
 "
-#
-include
-"
-ScriptSettings
-.
-h
-"
 using
 mozilla
 :
