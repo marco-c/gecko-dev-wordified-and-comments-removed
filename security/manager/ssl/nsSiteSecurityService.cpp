@@ -1156,7 +1156,7 @@ NS_IsMainThread
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsSiteSecurityService
@@ -6826,7 +6826,6 @@ Observe
 (
 nsISupports
 *
-subject
 const
 char
 *
@@ -6834,7 +6833,6 @@ topic
 const
 char16_t
 *
-data
 )
 {
 if
@@ -6845,7 +6843,7 @@ NS_IsMainThread
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Preferences

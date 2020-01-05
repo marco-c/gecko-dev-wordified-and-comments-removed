@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ClearOnShutdown
 .
 h
@@ -431,7 +440,7 @@ NS_IsMainThread
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 DataStorage
@@ -3550,7 +3559,7 @@ NS_IsMainThread
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 DataStorage
@@ -3729,7 +3738,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -3737,7 +3745,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 if
@@ -3748,7 +3755,7 @@ NS_IsMainThread
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 DataStorage
