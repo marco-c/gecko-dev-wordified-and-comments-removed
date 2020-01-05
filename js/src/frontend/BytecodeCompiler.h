@@ -209,6 +209,7 @@ JS
 SourceBufferHolder
 &
 srcBuf
+const
 mozilla
 :
 :
@@ -216,6 +217,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 HandleScope
 enclosingScope
@@ -242,6 +244,7 @@ JS
 SourceBufferHolder
 &
 srcBuf
+const
 mozilla
 :
 :
@@ -249,6 +252,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 )
 ;
@@ -271,6 +275,7 @@ JS
 SourceBufferHolder
 &
 srcBuf
+const
 mozilla
 :
 :
@@ -278,6 +283,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 )
 ;
@@ -318,6 +324,7 @@ const
 ReadOnlyCompileOptions
 &
 options
+const
 mozilla
 :
 :
@@ -325,6 +332,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 =
 mozilla

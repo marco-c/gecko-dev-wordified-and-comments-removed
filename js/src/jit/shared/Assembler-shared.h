@@ -2532,6 +2532,7 @@ uint32_t
 align
 uint32_t
 offset
+const
 mozilla
 :
 :
@@ -2539,6 +2540,7 @@ Maybe
 <
 TrapOffset
 >
+&
 trapOffset
 unsigned
 numSimdElems

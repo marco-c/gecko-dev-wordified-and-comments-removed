@@ -1163,6 +1163,7 @@ JSContext
 cx
 uint32_t
 initialSize
+const
 mozilla
 :
 :
@@ -1170,6 +1171,7 @@ Maybe
 <
 uint32_t
 >
+&
 maxSize
 )
 ;

@@ -1357,6 +1357,7 @@ const
 ReadOnlyCompileOptions
 &
 options
+const
 mozilla
 :
 :
@@ -1364,6 +1365,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 =
 mozilla

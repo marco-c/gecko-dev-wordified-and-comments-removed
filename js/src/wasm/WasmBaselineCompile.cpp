@@ -15788,7 +15788,7 @@ bool
 load
 (
 MemoryAccessDesc
-&
+*
 access
 RegI32
 ptr
@@ -15806,7 +15806,6 @@ tmp3
 {
 checkOffset
 (
-&
 access
 ptr
 )
@@ -15858,7 +15857,8 @@ HeapReg
 ptr
 TimesOne
 access
-.
+-
+>
 offset
 (
 )
@@ -15880,6 +15880,7 @@ masm
 .
 wasmLoadI64
 (
+*
 access
 srcAddr
 dest
@@ -15894,6 +15895,7 @@ masm
 .
 wasmLoad
 (
+*
 access
 srcAddr
 dest
@@ -15914,7 +15916,8 @@ srcAddr
 (
 ptr
 access
-.
+-
+>
 offset
 (
 )
@@ -15949,6 +15952,7 @@ masm
 .
 wasmLoadI64
 (
+*
 access
 srcAddr
 dest
@@ -15965,7 +15969,8 @@ bool
 byteRegConflict
 =
 access
-.
+-
+>
 byteSize
 (
 )
@@ -16006,6 +16011,7 @@ masm
 .
 wasmLoad
 (
+*
 access
 srcAddr
 out
@@ -16038,6 +16044,7 @@ if
 (
 IsUnaligned
 (
+*
 access
 )
 )
@@ -16059,6 +16066,7 @@ masm
 .
 wasmUnalignedLoadI64
 (
+*
 access
 ptr
 ptr
@@ -16082,6 +16090,7 @@ masm
 .
 wasmUnalignedLoadFP
 (
+*
 access
 ptr
 ptr
@@ -16112,6 +16121,7 @@ masm
 .
 wasmUnalignedLoadFP
 (
+*
 access
 ptr
 ptr
@@ -16133,6 +16143,7 @@ masm
 .
 wasmUnalignedLoad
 (
+*
 access
 ptr
 ptr
@@ -16166,6 +16177,7 @@ masm
 .
 wasmLoadI64
 (
+*
 access
 ptr
 ptr
@@ -16181,6 +16193,7 @@ masm
 .
 wasmLoad
 (
+*
 access
 ptr
 ptr
@@ -16231,6 +16244,7 @@ MOZ_MUST_USE
 size_t
 storeTemps
 (
+const
 MemoryAccessDesc
 &
 access
@@ -16274,6 +16288,7 @@ bool
 store
 (
 MemoryAccessDesc
+*
 access
 RegI32
 ptr
@@ -16287,7 +16302,6 @@ tmp
 {
 checkOffset
 (
-&
 access
 ptr
 )
@@ -16349,7 +16363,8 @@ HeapReg
 ptr
 TimesOne
 access
-.
+-
+>
 offset
 (
 )
@@ -16359,6 +16374,7 @@ masm
 .
 wasmStore
 (
+*
 access
 src
 .
@@ -16392,7 +16408,8 @@ dstAddr
 (
 ptr
 access
-.
+-
+>
 offset
 (
 )
@@ -16401,7 +16418,8 @@ offset
 if
 (
 access
-.
+-
+>
 type
 (
 )
@@ -16417,6 +16435,7 @@ masm
 .
 wasmStoreI64
 (
+*
 access
 src
 .
@@ -16448,7 +16467,8 @@ I64
 if
 (
 access
-.
+-
+>
 byteSize
 (
 )
@@ -16515,7 +16535,8 @@ else
 if
 (
 access
-.
+-
+>
 byteSize
 (
 )
@@ -16572,6 +16593,7 @@ masm
 .
 wasmStore
 (
+*
 access
 value
 dstAddr
@@ -16588,6 +16610,7 @@ if
 (
 IsUnaligned
 (
+*
 access
 )
 )
@@ -16609,6 +16632,7 @@ masm
 .
 wasmUnalignedStoreI64
 (
+*
 access
 src
 .
@@ -16632,6 +16656,7 @@ masm
 .
 wasmUnalignedStoreFP
 (
+*
 access
 src
 .
@@ -16655,6 +16680,7 @@ masm
 .
 wasmUnalignedStoreFP
 (
+*
 access
 src
 .
@@ -16687,6 +16713,7 @@ masm
 .
 wasmUnalignedStore
 (
+*
 access
 src
 .
@@ -16719,7 +16746,8 @@ Invalid
 if
 (
 access
-.
+-
+>
 type
 (
 )
@@ -16734,6 +16762,7 @@ masm
 .
 wasmStoreI64
 (
+*
 access
 src
 .
@@ -16761,6 +16790,7 @@ masm
 .
 wasmStore
 (
+*
 access
 AnyRegister
 (
@@ -16781,6 +16811,7 @@ masm
 .
 wasmStore
 (
+*
 access
 src
 .
@@ -29261,6 +29292,7 @@ if
 !
 load
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29356,6 +29388,7 @@ if
 !
 load
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29414,6 +29447,7 @@ if
 !
 load
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29472,6 +29506,7 @@ if
 !
 load
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29699,6 +29734,7 @@ if
 !
 store
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29755,6 +29791,7 @@ if
 !
 store
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29811,6 +29848,7 @@ if
 !
 store
 (
+&
 access
 rp
 omitBoundsCheck
@@ -29867,6 +29905,7 @@ if
 !
 store
 (
+&
 access
 rp
 omitBoundsCheck

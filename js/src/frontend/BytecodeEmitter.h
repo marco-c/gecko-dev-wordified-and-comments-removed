@@ -2807,6 +2807,7 @@ MOZ_MUST_USE
 bool
 emitIteratorClose
 (
+const
 mozilla
 :
 :
@@ -2814,6 +2815,7 @@ Maybe
 <
 JumpTarget
 >
+&
 yieldStarTryStart
 =
 mozilla

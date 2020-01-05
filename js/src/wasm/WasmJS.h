@@ -1107,10 +1107,12 @@ create
 JSContext
 *
 cx
+const
 wasm
 :
 :
 Limits
+&
 limits
 )
 ;

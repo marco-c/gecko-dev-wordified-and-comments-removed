@@ -9192,7 +9192,9 @@ RenderResizableMemory
 WasmRenderContext
 &
 c
+const
 Limits
+&
 memory
 )
 {
@@ -9214,9 +9216,14 @@ memory
 return
 false
 ;
+Limits
+resizedMemory
+=
+memory
+;
 MOZ_ASSERT
 (
-memory
+resizedMemory
 .
 initial
 %
@@ -9226,7 +9233,7 @@ PageSize
 0
 )
 ;
-memory
+resizedMemory
 .
 initial
 /
@@ -9235,7 +9242,7 @@ PageSize
 ;
 if
 (
-memory
+resizedMemory
 .
 maximum
 )
@@ -9243,7 +9250,7 @@ maximum
 MOZ_ASSERT
 (
 *
-memory
+resizedMemory
 .
 maximum
 %
@@ -9254,7 +9261,7 @@ PageSize
 )
 ;
 *
-memory
+resizedMemory
 .
 maximum
 /
@@ -9268,7 +9275,7 @@ if
 RenderLimits
 (
 c
-memory
+resizedMemory
 )
 )
 return
