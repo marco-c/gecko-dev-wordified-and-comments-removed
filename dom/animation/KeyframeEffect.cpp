@@ -565,6 +565,10 @@ mKeyframes
 )
 ;
 }
+mRecordedContentTooLarge
+=
+false
+;
 }
 void
 KeyframeEffect

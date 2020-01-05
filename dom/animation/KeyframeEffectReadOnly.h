@@ -1478,6 +1478,11 @@ StyleAnimationValue
 >
 mBaseStyleValues
 ;
+bool
+mRecordedContentTooLarge
+=
+false
+;
 private
 :
 nsChangeHint
