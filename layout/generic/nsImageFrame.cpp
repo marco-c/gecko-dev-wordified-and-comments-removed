@@ -7142,6 +7142,17 @@ ContainerLayerParameters
 aParameters
 )
 {
+if
+(
+!
+nsDisplayItem
+:
+:
+ForceActiveLayers
+(
+)
+)
+{
 bool
 animated
 =
@@ -7369,6 +7380,7 @@ height
 return
 LAYER_NONE
 ;
+}
 }
 }
 uint32_t

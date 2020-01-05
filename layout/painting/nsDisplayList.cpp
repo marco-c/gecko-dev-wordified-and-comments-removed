@@ -15422,6 +15422,17 @@ LayerManager
 aManager
 )
 {
+if
+(
+ForceActiveLayers
+(
+)
+)
+{
+return
+WHENEVER_POSSIBLE
+;
+}
 nsIFrame
 *
 backgroundStyleFrame
