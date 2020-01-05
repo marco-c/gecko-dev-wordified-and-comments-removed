@@ -135,6 +135,18 @@ mLastError
 (
 NS_OK
 )
+mType
+(
+aParams
+.
+mType
+)
+mOnWaitingForKeyEvent
+(
+aParams
+.
+mOnWaitingForKeyEvent
+)
 {
 CreateDecoder
 (
@@ -829,6 +841,8 @@ aDiagnostics
 mImageContainer
 mKnowsCompositor
 mGMPCrashHelper
+mType
+mOnWaitingForKeyEvent
 }
 )
 ;
