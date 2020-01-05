@@ -571,7 +571,7 @@ code
 =
 masm
 .
-acquireData
+data
 (
 )
 ;
@@ -582,12 +582,6 @@ TraceDataRelocations
 trc
 code
 reader
-)
-;
-masm
-.
-releaseData
-(
 )
 ;
 }
@@ -1236,7 +1230,7 @@ code
 =
 masm
 .
-acquireData
+data
 (
 )
 ;
@@ -1252,12 +1246,6 @@ code
 +
 end
 heapAccess
-)
-;
-masm
-.
-releaseData
-(
 )
 ;
 #

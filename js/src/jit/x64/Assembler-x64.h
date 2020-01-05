@@ -2025,7 +2025,7 @@ code
 =
 masm
 .
-acquireData
+data
 (
 )
 ;
@@ -2042,12 +2042,6 @@ offset
 (
 )
 n
-)
-;
-masm
-.
-releaseData
-(
 )
 ;
 }
