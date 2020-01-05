@@ -473,7 +473,7 @@ void
 >
 testPromiseWithThrowingContentPromiseInit
 (
-PromiseInit
+Function
 func
 )
 ;
