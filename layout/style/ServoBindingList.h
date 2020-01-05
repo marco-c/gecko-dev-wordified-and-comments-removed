@@ -559,6 +559,13 @@ RawServoAnimationValueBorrowed
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationValue_Uncompute
+RawServoDeclarationBlockStrong
+RawServoAnimationValueBorrowed
+value
+)
+SERVO_BINDING_FUNC
+(
 Servo_ParseStyleAttribute
 RawServoDeclarationBlockStrong
 const
