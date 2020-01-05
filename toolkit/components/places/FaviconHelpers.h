@@ -519,6 +519,10 @@ const
 nsACString
 &
 aPageSpec
+const
+nsACString
+&
+aPageHost
 uint16_t
 aPreferredWidth
 nsIFaviconDataCallback
@@ -539,6 +543,9 @@ mCallback
 ;
 nsCString
 mPageSpec
+;
+nsCString
+mPageHost
 ;
 }
 ;
@@ -558,6 +565,10 @@ const
 nsACString
 &
 aPageSpec
+const
+nsACString
+&
+aPageHost
 uint16_t
 aPreferredWidth
 nsIFaviconDataCallback
@@ -578,6 +589,9 @@ mCallback
 ;
 nsCString
 mPageSpec
+;
+nsCString
+mPageHost
 ;
 }
 ;
