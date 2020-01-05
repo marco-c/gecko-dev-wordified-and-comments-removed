@@ -120,8 +120,6 @@ attribute
 DOMString
 title
 ;
-/
-/
 attribute
 DOMString
 lang
