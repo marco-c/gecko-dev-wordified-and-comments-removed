@@ -145,7 +145,7 @@ f
 }
 pub
 struct
-FreeTypeNativeFont
+FreeTypeFontHandle
 {
 /
 /
@@ -209,7 +209,7 @@ failed
 }
 pub
 impl
-FreeTypeNativeFont
+FreeTypeFontHandle
 {
 static
 pub
@@ -234,7 +234,7 @@ float
 >
 Result
 <
-FreeTypeNativeFont
+FreeTypeFontHandle
 (
 )
 >
@@ -366,7 +366,7 @@ size
 }
 Ok
 (
-FreeTypeNativeFont
+FreeTypeFontHandle
 {
 face
 :

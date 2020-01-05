@@ -64,6 +64,12 @@ range
 :
 Range
 ;
+use
+native
+:
+:
+FontHandle
+;
 /
 /
 Used
@@ -321,9 +327,9 @@ fontbuf
 u8
 ]
 priv
-native_font
+handle
 :
-NativeFont
+FontHandle
 priv
 mut
 azure_font
@@ -401,9 +407,9 @@ fontbuf
 [
 u8
 ]
-native_font
+handle
 :
-NativeFont
+FontHandle
 style
 :
 FontStyle
@@ -415,7 +421,7 @@ Font
 let
 metrics
 =
-native_font
+handle
 .
 get_metrics
 (
@@ -426,10 +432,10 @@ Font
 fontbuf
 :
 fontbuf
-native_font
+handle
 :
 move
-native_font
+handle
 azure_font
 :
 None
@@ -804,7 +810,7 @@ ftface
 =
 font
 .
-native_font
+handle
 .
 face
 ;
@@ -870,7 +876,7 @@ cgfont
 =
 font
 .
-native_font
+handle
 .
 cgfont
 ;
@@ -1903,7 +1909,7 @@ GlyphIndex
 {
 self
 .
-native_font
+handle
 .
 glyph_index
 (
@@ -1924,7 +1930,7 @@ FractionalPixel
 match
 self
 .
-native_font
+handle
 .
 glyph_h_advance
 (

@@ -177,7 +177,7 @@ kCTFontDefaultOrientation
 ;
 pub
 struct
-QuartzNativeFont
+QuartzFontHandle
 {
 fontprov
 :
@@ -244,7 +244,7 @@ fontprov
 }
 pub
 impl
-QuartzNativeFont
+QuartzFontHandle
 {
 static
 pub
@@ -269,7 +269,7 @@ float
 >
 Result
 <
-QuartzNativeFont
+QuartzFontHandle
 (
 )
 >
@@ -376,7 +376,7 @@ Err
 }
 Ok
 (
-QuartzNativeFont
+QuartzFontHandle
 {
 fontprov
 :
