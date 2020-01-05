@@ -382,6 +382,10 @@ GfxVarUpdate
 vars
 DevicePrefs
 devicePrefs
+LayerTreeIdMapping
+[
+]
+mapping
 )
 ;
 async
@@ -548,8 +552,6 @@ sync
 AddLayerTreeIdMapping
 (
 LayerTreeIdMapping
-[
-]
 mapping
 )
 ;
