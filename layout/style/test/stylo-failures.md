@@ -648,16 +648,6 @@ html
 2
 ]
 *
-test_property_syntax_errors
-.
-html
-radial
--
-gradient
-[
-30
-]
-*
 test_computed_style
 .
 html
@@ -1958,7 +1948,7 @@ linear
 -
 gradient
 [
-10
+5
 ]
 *
 .
@@ -1973,7 +1963,7 @@ linear
 -
 gradient
 [
-5
+0
 ]
 *
 moz
