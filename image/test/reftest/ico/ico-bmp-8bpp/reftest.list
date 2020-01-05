@@ -348,12 +348,6 @@ transparent
 8bpp
 .
 png
-fails
--
-if
-(
-stylo
-)
 =
 =
 ico
