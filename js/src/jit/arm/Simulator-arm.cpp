@@ -6595,14 +6595,6 @@ void
 page
 )
 {
-MOZ_ASSERT
-(
-Simulator
-:
-:
-ICacheCheckingEnabled
-)
-;
 Simulator
 :
 :
