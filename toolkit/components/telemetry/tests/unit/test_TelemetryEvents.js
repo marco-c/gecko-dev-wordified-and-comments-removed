@@ -547,7 +547,7 @@ telemetry
 test
 "
 "
-test_optout
+optout
 "
 "
 object1
@@ -1227,7 +1227,7 @@ telemetry
 test
 "
 "
-test_expired_version
+expired_version
 "
 "
 object1
@@ -1275,7 +1275,7 @@ telemetry
 test
 "
 "
-test_expired_date
+expired_date
 "
 "
 object1
@@ -1322,7 +1322,7 @@ telemetry
 test
 "
 "
-test_not_expired_optout
+not_expired_optout
 "
 "
 object1
@@ -1632,7 +1632,7 @@ clearEvents
 let
 LIMIT
 =
-10000
+1000
 ;
 let
 COUNT
@@ -1769,7 +1769,7 @@ clearEvents
 let
 LIMIT
 =
-100
+80
 ;
 let
 expected
@@ -2020,7 +2020,7 @@ event
 substr
 (
 0
-100
+LIMIT
 )
 ;
 }
@@ -2049,7 +2049,7 @@ key1
 substr
 (
 0
-100
+LIMIT
 )
 ;
 }
