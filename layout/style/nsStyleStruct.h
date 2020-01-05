@@ -10917,6 +10917,13 @@ struct
 MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleDisplay
 {
+typedef
+mozilla
+:
+:
+StyleGeometryBox
+StyleGeometryBox
+;
 explicit
 nsStyleDisplay
 (
@@ -11211,7 +11218,7 @@ mBackfaceVisibility
 uint8_t
 mTransformStyle
 ;
-uint8_t
+StyleGeometryBox
 mTransformBox
 ;
 RefPtr
