@@ -987,6 +987,9 @@ return
 kCpuHasDSPR2
 ;
 }
+return
+0
+;
 }
 while
 (
@@ -1099,6 +1102,9 @@ return
 kCpuHasDSPR2
 ;
 }
+return
+0
+;
 }
 }
 }
