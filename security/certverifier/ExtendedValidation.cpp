@@ -6682,7 +6682,7 @@ CertPolicyId
 policy
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 cert
 )

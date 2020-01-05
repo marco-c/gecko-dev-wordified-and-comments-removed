@@ -1549,7 +1549,7 @@ if
 stapledOCSPResponse
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 endEntityOrCA
 =
@@ -1944,7 +1944,7 @@ response
 )
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 (
 !
@@ -2862,7 +2862,7 @@ ResponseWasStapled
 expired
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 rv
 !
@@ -5331,7 +5331,7 @@ char
 modNameUTF8
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 modNameUTF8
 )
