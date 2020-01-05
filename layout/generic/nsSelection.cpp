@@ -17033,7 +17033,7 @@ idx
 0
 )
 return
-NS_ERROR_INVALID_ARG
+NS_ERROR_DOM_NOT_FOUND_ERR
 ;
 mRanges
 .
