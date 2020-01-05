@@ -399,6 +399,10 @@ bezier
 ;
 pub
 mod
+bloom
+;
+pub
+mod
 cache
 ;
 pub

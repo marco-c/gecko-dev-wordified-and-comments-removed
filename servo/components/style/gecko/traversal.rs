@@ -65,6 +65,7 @@ traversal
 :
 {
 DomTraversalContext
+PerLevelTraversalData
 recalc_style_at
 }
 ;
@@ -195,6 +196,11 @@ GeckoNode
 '
 ln
 >
+data
+:
+&
+mut
+PerLevelTraversalData
 )
 {
 if
@@ -256,9 +262,7 @@ Self
 self
 .
 context
-self
-.
-root
+data
 el
 )
 ;
