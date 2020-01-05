@@ -461,6 +461,13 @@ IpcSender
 PanicMsg
 >
 pub
+layout_to_constellation_chan
+:
+IpcSender
+<
+LayoutMsg
+>
+pub
 layout_shutdown_chan
 :
 IpcSender
@@ -1013,13 +1020,6 @@ constellation_chan
 IpcSender
 <
 ScriptMsg
->
-pub
-layout_to_constellation_chan
-:
-IpcSender
-<
-LayoutMsg
 >
 pub
 panic_chan
