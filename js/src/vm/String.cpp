@@ -263,6 +263,9 @@ runtimeFromMainThread
 externalStringSizeofCallback
 )
 {
+JS
+:
+:
 AutoSuppressGCAnalysis
 nogc
 ;
