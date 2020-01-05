@@ -194,6 +194,13 @@ actor
 ;
 actor_name
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 fn
 on_refresh_driver_tick
