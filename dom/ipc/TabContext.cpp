@@ -118,9 +118,6 @@ mContainingAppId
 (
 NO_APP_ID
 )
-mOriginAttributes
-(
-)
 mShowAccelerators
 (
 UIStateChangeType_NoChange
