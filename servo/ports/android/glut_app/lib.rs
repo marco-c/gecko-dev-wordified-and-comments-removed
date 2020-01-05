@@ -35,6 +35,10 @@ compositing
 ;
 extern
 crate
+egl
+;
+extern
+crate
 geom
 ;
 extern
