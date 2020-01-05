@@ -542,6 +542,10 @@ None
 depend_on_viewport_size
 =
 False
+                 
+allowed_in_keyframe_block
+=
+True
 )
 :
         
@@ -663,6 +667,21 @@ split
 (
 )
         
+self
+.
+allowed_in_keyframe_block
+=
+allowed_in_keyframe_block
+\
+            
+and
+allowed_in_keyframe_block
+!
+=
+"
+False
+"
+        
 if
 animatable
 is
@@ -758,6 +777,10 @@ False
 internal
 =
 False
+                 
+allowed_in_keyframe_block
+=
+True
 )
 :
         
@@ -825,6 +848,21 @@ self
 internal
 =
 internal
+        
+self
+.
+allowed_in_keyframe_block
+=
+allowed_in_keyframe_block
+\
+            
+and
+allowed_in_keyframe_block
+!
+=
+"
+False
+"
 class
 Method
 (
@@ -1284,7 +1322,7 @@ products
             
 return
         
-longand
+longhand
 =
 Longhand
 (
@@ -1305,7 +1343,7 @@ longhands
 .
 append
 (
-longand
+longhand
 )
         
 self
@@ -1314,7 +1352,7 @@ longhands
 .
 append
 (
-longand
+longhand
 )
         
 self
@@ -1324,12 +1362,12 @@ longhands_by_name
 name
 ]
 =
-longand
+longhand
         
 for
 name
 in
-longand
+longhand
 .
 derived_from
 :
@@ -1347,11 +1385,11 @@ name
 .
 append
 (
-longand
+longhand
 )
         
 return
-longand
+longhand
     
 def
 declare_shorthand

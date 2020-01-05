@@ -1134,6 +1134,11 @@ play
 -
 state
 "
+allowed_in_keyframe_block
+=
+"
+False
+"
 >
 use
 properties

@@ -1658,9 +1658,9 @@ servo
 .
 org
 /
-selectors
+style
 /
-matching
+selector_matching
 /
 struct
 .
@@ -1683,9 +1683,9 @@ servo
 .
 org
 /
-selectors
+style
 /
-matching
+selector_matching
 /
 struct
 .

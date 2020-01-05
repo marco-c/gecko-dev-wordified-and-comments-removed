@@ -30,7 +30,6 @@ properties
 :
 {
 ComputedValues
-PropertyDeclaration
 PropertyDeclarationBlock
 }
 ;
@@ -64,10 +63,7 @@ PseudoElement
 }
 ;
 use
-selectors
-:
-:
-matching
+selector_matching
 :
 :
 DeclarationBlock
@@ -994,12 +990,6 @@ V
 Push
 <
 DeclarationBlock
-<
-Vec
-<
-PropertyDeclaration
->
->
 >
 ;
 }
@@ -1008,6 +998,8 @@ trait
 TElement
 :
 PartialEq
++
+Debug
 +
 Sized
 +
