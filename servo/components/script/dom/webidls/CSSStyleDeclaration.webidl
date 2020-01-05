@@ -241,6 +241,7 @@ interface
 CSSStyleDeclaration
 {
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -250,6 +251,7 @@ DOMString
 background
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -259,6 +261,7 @@ DOMString
 backgroundColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -268,6 +271,7 @@ DOMString
 backgroundPosition
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -277,6 +281,7 @@ DOMString
 backgroundRepeat
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -286,6 +291,7 @@ DOMString
 backgroundImage
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -295,6 +301,7 @@ DOMString
 backgroundAttachment
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -304,6 +311,7 @@ DOMString
 backgroundSize
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -313,6 +321,7 @@ DOMString
 backgroundOrigin
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -322,6 +331,7 @@ DOMString
 backgroundClip
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -331,6 +341,7 @@ DOMString
 border
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -340,6 +351,7 @@ DOMString
 borderColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -349,6 +361,7 @@ DOMString
 borderRadius
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -358,6 +371,7 @@ DOMString
 borderSpacing
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -367,6 +381,7 @@ DOMString
 borderStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -376,6 +391,7 @@ DOMString
 borderWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -385,6 +401,7 @@ DOMString
 borderBottom
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -394,6 +411,7 @@ DOMString
 borderBottomColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -403,6 +421,7 @@ DOMString
 borderBottomLeftRadius
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -412,6 +431,7 @@ DOMString
 borderBottomRightRadius
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -421,6 +441,7 @@ DOMString
 borderBottomStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -430,6 +451,7 @@ DOMString
 borderBottomWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -439,6 +461,7 @@ DOMString
 borderLeft
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -448,6 +471,7 @@ DOMString
 borderLeftColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -457,6 +481,7 @@ DOMString
 borderLeftStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -466,6 +491,7 @@ DOMString
 borderLeftWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -475,6 +501,7 @@ DOMString
 borderRight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -484,6 +511,7 @@ DOMString
 borderRightColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -493,6 +521,7 @@ DOMString
 borderRightStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -502,6 +531,7 @@ DOMString
 borderRightWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -511,6 +541,7 @@ DOMString
 borderTop
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -520,6 +551,7 @@ DOMString
 borderTopColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -529,6 +561,7 @@ DOMString
 borderTopLeftRadius
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -538,6 +571,7 @@ DOMString
 borderTopRightRadius
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -547,6 +581,7 @@ DOMString
 borderTopStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -556,6 +591,7 @@ DOMString
 borderTopWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -565,6 +601,7 @@ DOMString
 content
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -574,6 +611,7 @@ DOMString
 color
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -583,6 +621,7 @@ DOMString
 display
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -592,6 +631,7 @@ DOMString
 opacity
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -601,6 +641,7 @@ DOMString
 visibility
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -610,6 +651,7 @@ DOMString
 cursor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -619,6 +661,7 @@ DOMString
 boxSizing
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -628,6 +671,7 @@ DOMString
 boxShadow
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -637,6 +681,7 @@ DOMString
 textShadow
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -646,6 +691,7 @@ DOMString
 _float
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -655,6 +701,7 @@ DOMString
 clear
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -664,6 +711,7 @@ DOMString
 clip
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -673,6 +721,7 @@ DOMString
 transform
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -682,6 +731,7 @@ DOMString
 transformOrigin
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -691,6 +741,7 @@ DOMString
 perspective
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -700,6 +751,7 @@ DOMString
 perspectiveOrigin
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -709,6 +761,7 @@ DOMString
 transformStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -718,6 +771,7 @@ DOMString
 backfaceVisibility
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -727,6 +781,7 @@ DOMString
 direction
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -736,6 +791,7 @@ DOMString
 unicodeBidi
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -745,6 +801,7 @@ DOMString
 filter
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -754,6 +811,7 @@ DOMString
 lineHeight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -763,6 +821,7 @@ DOMString
 mixBlendMode
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -772,6 +831,7 @@ DOMString
 verticalAlign
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -781,6 +841,7 @@ DOMString
 listStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -790,6 +851,7 @@ DOMString
 listStylePosition
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -799,6 +861,7 @@ DOMString
 listStyleType
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -808,6 +871,7 @@ DOMString
 listStyleImage
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -817,6 +881,7 @@ DOMString
 quotes
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -826,6 +891,7 @@ DOMString
 counterIncrement
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -835,6 +901,7 @@ DOMString
 counterReset
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -844,6 +911,7 @@ DOMString
 overflow
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -853,6 +921,7 @@ DOMString
 overflowX
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -862,6 +931,7 @@ DOMString
 overflowY
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -871,6 +941,7 @@ DOMString
 overflowWrap
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -880,6 +951,7 @@ DOMString
 tableLayout
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -889,6 +961,7 @@ DOMString
 borderCollapse
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -898,6 +971,7 @@ DOMString
 emptyCells
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -907,6 +981,7 @@ DOMString
 captionSide
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -916,6 +991,7 @@ DOMString
 whiteSpace
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -925,6 +1001,7 @@ DOMString
 writingMode
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -934,6 +1011,7 @@ DOMString
 letterSpacing
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -943,6 +1021,7 @@ DOMString
 wordBreak
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -952,6 +1031,7 @@ DOMString
 wordSpacing
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -961,6 +1041,7 @@ DOMString
 wordWrap
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -970,6 +1051,7 @@ DOMString
 textOverflow
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -979,6 +1061,7 @@ DOMString
 textAlign
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -988,6 +1071,7 @@ DOMString
 textDecoration
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -997,6 +1081,7 @@ DOMString
 textIndent
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1006,6 +1091,7 @@ DOMString
 textJustify
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1015,6 +1101,7 @@ DOMString
 textOrientation
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1024,6 +1111,7 @@ DOMString
 textRendering
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1033,6 +1121,7 @@ DOMString
 textTransform
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1042,6 +1131,7 @@ DOMString
 font
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1051,6 +1141,7 @@ DOMString
 fontFamily
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1060,6 +1151,7 @@ DOMString
 fontSize
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1069,6 +1161,7 @@ DOMString
 fontStretch
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1078,6 +1171,7 @@ DOMString
 fontStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1087,6 +1181,7 @@ DOMString
 fontVariant
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1096,6 +1191,7 @@ DOMString
 fontWeight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1105,6 +1201,7 @@ DOMString
 margin
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1114,6 +1211,7 @@ DOMString
 marginBottom
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1123,6 +1221,7 @@ DOMString
 marginLeft
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1132,6 +1231,7 @@ DOMString
 marginRight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1141,6 +1241,7 @@ DOMString
 marginTop
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1150,6 +1251,7 @@ DOMString
 padding
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1159,6 +1261,7 @@ DOMString
 paddingBottom
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1168,6 +1271,7 @@ DOMString
 paddingLeft
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1177,6 +1281,7 @@ DOMString
 paddingRight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1186,6 +1291,7 @@ DOMString
 paddingTop
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1195,6 +1301,7 @@ DOMString
 outline
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1204,6 +1311,7 @@ DOMString
 outlineColor
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1213,6 +1321,7 @@ DOMString
 outlineStyle
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1222,6 +1331,7 @@ DOMString
 outlineWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1231,6 +1341,7 @@ DOMString
 outlineOffset
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1240,6 +1351,7 @@ DOMString
 position
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1249,6 +1361,7 @@ DOMString
 pointerEvents
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1258,6 +1371,7 @@ DOMString
 top
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1267,6 +1381,7 @@ DOMString
 right
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1276,6 +1391,7 @@ DOMString
 left
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1285,6 +1401,7 @@ DOMString
 bottom
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1294,6 +1411,7 @@ DOMString
 height
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1303,6 +1421,7 @@ DOMString
 minHeight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1312,6 +1431,7 @@ DOMString
 maxHeight
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1321,6 +1441,7 @@ DOMString
 width
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1330,6 +1451,7 @@ DOMString
 minWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1339,6 +1461,7 @@ DOMString
 maxWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1348,6 +1471,7 @@ DOMString
 zIndex
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1357,6 +1481,7 @@ DOMString
 imageRendering
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1366,6 +1491,7 @@ DOMString
 columnCount
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1375,6 +1501,7 @@ DOMString
 columnWidth
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1384,6 +1511,7 @@ DOMString
 columns
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1393,6 +1521,7 @@ DOMString
 columnGap
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1402,6 +1531,7 @@ DOMString
 transition
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1411,6 +1541,7 @@ DOMString
 transitionDuration
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1420,6 +1551,7 @@ DOMString
 transitionTimingFunction
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1429,6 +1561,7 @@ DOMString
 transitionProperty
 ;
 [
+SetterThrows
 TreatNullAs
 =
 EmptyString
