@@ -1087,6 +1087,12 @@ availTop
 }
 ;
 yield
+awaitBrowserLoaded
+(
+browser
+)
+;
+yield
 new
 Promise
 (
