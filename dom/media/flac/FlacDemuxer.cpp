@@ -268,6 +268,8 @@ br
 (
 aPacket
 FLAC_MAX_FRAME_HEADER_SIZE
+*
+8
 )
 ;
 if
