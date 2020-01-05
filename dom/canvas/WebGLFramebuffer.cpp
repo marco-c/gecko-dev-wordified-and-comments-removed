@@ -8531,6 +8531,13 @@ MakeCurrent
 (
 )
 ;
+webgl
+-
+>
+OnBeforeReadCall
+(
+)
+;
 WebGLContext
 :
 :

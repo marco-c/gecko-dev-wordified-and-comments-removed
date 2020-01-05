@@ -6482,7 +6482,7 @@ DeviceId
 ;
 workarounds
 .
-callClearTwiceOnSmallTarget
+callClearTwice
 =
 IsIntel
 (

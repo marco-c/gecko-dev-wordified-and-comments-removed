@@ -9528,6 +9528,11 @@ ScopedDrawCallWrapper
 }
 ;
 void
+OnBeforeReadCall
+(
+)
+;
+void
 LoseOldestWebGLContextIfLimitExceeded
 (
 )

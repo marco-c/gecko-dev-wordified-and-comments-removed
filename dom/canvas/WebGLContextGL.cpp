@@ -6476,6 +6476,10 @@ small
 return
 ;
 }
+OnBeforeReadCall
+(
+)
+;
 uint32_t
 readX
 readY
