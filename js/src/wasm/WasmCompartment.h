@@ -175,17 +175,6 @@ pc
 )
 const
 ;
-Instance
-*
-lookupInstanceDeprecated
-(
-const
-void
-*
-pc
-)
-const
-;
 void
 setInterrupted
 (
