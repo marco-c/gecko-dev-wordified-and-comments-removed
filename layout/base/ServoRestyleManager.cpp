@@ -198,12 +198,6 @@ aRestyleHint
 &
 !
 aMinChangeHint
-&
-&
-!
-HasPendingRestyles
-(
-)
 )
 {
 return
