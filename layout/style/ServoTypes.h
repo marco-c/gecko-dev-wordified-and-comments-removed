@@ -150,6 +150,14 @@ CascadeResults
 3
 }
 ;
+enum
+class
+LengthParsingMode
+{
+Default
+SVG
+}
+;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 (
 UpdateAnimationsTasks
