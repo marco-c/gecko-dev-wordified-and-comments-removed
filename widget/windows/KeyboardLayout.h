@@ -1118,9 +1118,10 @@ mKeyboardLayout
 MSG
 mMsg
 ;
-nsTArray
+AutoTArray
 <
 MSG
+5
 >
 mFollowingCharMsgs
 ;
