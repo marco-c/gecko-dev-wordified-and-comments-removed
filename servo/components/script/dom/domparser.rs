@@ -157,7 +157,10 @@ dom
 window
 :
 :
+{
 Window
+WindowHelpers
+}
 ;
 use
 parse

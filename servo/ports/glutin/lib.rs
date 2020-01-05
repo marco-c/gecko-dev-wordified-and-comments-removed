@@ -101,6 +101,10 @@ extern
 crate
 egl
 ;
+extern
+crate
+url
+;
 use
 compositing
 :

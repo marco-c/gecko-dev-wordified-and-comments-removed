@@ -136,7 +136,6 @@ constellation_msg
 :
 {
 ConstellationChan
-LoadData
 PipelineId
 }
 ;
@@ -152,6 +151,12 @@ Key
 KeyState
 KeyModifiers
 }
+;
+use
+url
+:
+:
+Url
 ;
 use
 util
@@ -1042,10 +1047,10 @@ Option
 String
 >
 )
-ChangePageLoadData
+ChangePageUrl
 (
 FrameId
-LoadData
+Url
 )
 PaintMsgDiscarded
 SetFrameTree
@@ -1336,7 +1341,7 @@ ChangePageTitle
 Msg
 :
 :
-ChangePageLoadData
+ChangePageUrl
 (
 .
 .
@@ -1348,7 +1353,7 @@ write
 (
 f
 "
-ChangePageLoadData
+ChangePageUrl
 "
 )
 Msg
