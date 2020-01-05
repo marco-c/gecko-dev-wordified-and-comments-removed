@@ -211,6 +211,9 @@ gtest_gtest
 gtest
 '
 '
+mozglue
+'
+'
 nspr
 '
 ]
