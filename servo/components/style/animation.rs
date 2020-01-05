@@ -2746,6 +2746,8 @@ b
 }
 trait
 Interpolate
+:
+Sized
 {
 fn
 interpolate

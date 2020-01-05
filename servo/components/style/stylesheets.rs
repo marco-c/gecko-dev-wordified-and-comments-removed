@@ -1474,6 +1474,8 @@ Item
 a
 CSSRule
 >
++
+Sized
 {
 fn
 font_face

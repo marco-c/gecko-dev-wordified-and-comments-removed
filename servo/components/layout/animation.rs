@@ -676,7 +676,7 @@ mut
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut

@@ -2042,15 +2042,6 @@ test_replace_hosts
 (
 )
 {
-use
-std
-:
-:
-net
-:
-:
-TcpListener
-;
 let
 mut
 host_table_box

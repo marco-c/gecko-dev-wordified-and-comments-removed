@@ -5353,7 +5353,7 @@ run
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -5369,7 +5369,7 @@ glyph_runs
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -5430,7 +5430,7 @@ glyph_store
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut

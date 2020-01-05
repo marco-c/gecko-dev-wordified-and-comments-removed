@@ -1042,7 +1042,7 @@ clone
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -3556,7 +3556,7 @@ bool
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -3584,7 +3584,7 @@ context
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -16516,7 +16516,7 @@ bool
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -42954,7 +42954,7 @@ mut
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -43796,7 +43796,7 @@ clone
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -43876,7 +43876,7 @@ name
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -43996,7 +43996,7 @@ mut
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -45621,7 +45621,7 @@ border
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -45717,7 +45717,7 @@ box_
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -45769,7 +45769,7 @@ outline
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -45836,7 +45836,7 @@ mut
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46086,7 +46086,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -46094,7 +46094,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46122,7 +46122,7 @@ inline
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46196,7 +46196,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -46204,7 +46204,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46329,7 +46329,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -46340,7 +46340,7 @@ margin
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46536,7 +46536,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -46547,7 +46547,7 @@ border
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46587,7 +46587,7 @@ none
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46615,7 +46615,7 @@ Au
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46668,7 +46668,7 @@ none
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46696,7 +46696,7 @@ Au
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46749,7 +46749,7 @@ none
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46777,7 +46777,7 @@ Au
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46830,7 +46830,7 @@ none
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46858,7 +46858,7 @@ Au
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -46982,7 +46982,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -46993,7 +46993,7 @@ box_style
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -47072,7 +47072,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -47083,7 +47083,7 @@ box_style
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -47235,7 +47235,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -47247,7 +47247,7 @@ position_offsets
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -47377,7 +47377,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -47388,7 +47388,7 @@ margin_style
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -47530,7 +47530,7 @@ style
 Arc
 :
 :
-make_unique
+make_mut
 (
 style
 )
@@ -47541,7 +47541,7 @@ effects_style
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut

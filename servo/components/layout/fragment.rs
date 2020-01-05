@@ -3279,7 +3279,7 @@ text
 :
 text
 .
-into_boxed_slice
+into_boxed_str
 (
 )
 }
@@ -11275,7 +11275,7 @@ text
 =
 new_text_string
 .
-into_boxed_slice
+into_boxed_str
 (
 )
 ;
@@ -11735,7 +11735,7 @@ text
 =
 text
 .
-into_boxed_slice
+into_boxed_str
 (
 )
 ;
