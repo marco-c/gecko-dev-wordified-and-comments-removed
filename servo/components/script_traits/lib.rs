@@ -31,6 +31,10 @@ unused_variable
 ]
 extern
 crate
+devtools_traits
+;
+extern
+crate
 geom
 ;
 extern
@@ -60,6 +64,12 @@ std
 extern
 crate
 serialize
+;
+use
+devtools_traits
+:
+:
+DevtoolsControlChan
 ;
 use
 servo_msg
@@ -389,6 +399,12 @@ ResourceTask
 image_cache_task
 :
 ImageCacheTask
+devtools_chan
+:
+Option
+<
+DevtoolsControlChan
+>
 window_size
 :
 WindowSizeData
