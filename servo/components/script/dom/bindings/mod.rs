@@ -60,6 +60,10 @@ utils
 ;
 pub
 mod
+weakref
+;
+pub
+mod
 xmlname
 ;
 #

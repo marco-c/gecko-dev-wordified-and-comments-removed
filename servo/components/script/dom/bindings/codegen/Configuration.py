@@ -1090,6 +1090,20 @@ False
         
 self
 .
+weakReferenceable
+=
+desc
+.
+get
+(
+'
+weakReferenceable
+'
+False
+)
+        
+self
+.
 concrete
 =
 (

@@ -619,6 +619,11 @@ Blob
 interfaceAttributeNullable
 ;
 attribute
+URL
+?
+interfaceAttributeWeak
+;
+attribute
 object
 ?
 objectAttributeNullable

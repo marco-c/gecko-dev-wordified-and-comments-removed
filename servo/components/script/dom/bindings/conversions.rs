@@ -1906,6 +1906,7 @@ Err
 )
 }
 }
+pub
 fn
 native_from_object
 <
