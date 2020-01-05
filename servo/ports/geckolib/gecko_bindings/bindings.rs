@@ -2568,7 +2568,7 @@ const
 u8
 length
 :
-u8
+u32
 cache
 :
 *
