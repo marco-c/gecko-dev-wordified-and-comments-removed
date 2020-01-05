@@ -336,10 +336,7 @@ ptr
 =
 :
 :
-std
-:
-:
-rt
+alloc
 :
 :
 heap

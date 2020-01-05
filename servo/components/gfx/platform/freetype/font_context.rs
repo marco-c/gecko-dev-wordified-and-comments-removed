@@ -1,4 +1,10 @@
 use
+alloc
+:
+:
+heap
+;
+use
 freetype
 :
 :
@@ -84,15 +90,6 @@ rc
 :
 :
 Rc
-;
-use
-std
-:
-:
-rt
-:
-:
-heap
 ;
 use
 util

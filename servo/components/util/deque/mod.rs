@@ -39,10 +39,7 @@ std
 ptr
 ;
 use
-std
-:
-:
-rt
+alloc
 :
 :
 heap

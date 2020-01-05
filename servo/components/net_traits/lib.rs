@@ -19,14 +19,6 @@ custom_derive
 [
 feature
 (
-box_raw
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
