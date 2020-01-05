@@ -398,7 +398,9 @@ function
 error
 )
 {
-do_throw
+throw
+new
+Error
 (
 "
 Error
@@ -5331,7 +5333,9 @@ function
 error
 )
 {
-do_throw
+throw
+new
+Error
 (
 "
 Error
@@ -5405,7 +5409,9 @@ function
 error
 )
 {
-do_throw
+throw
+new
+Error
 (
 "
 Error

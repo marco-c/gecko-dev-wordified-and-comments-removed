@@ -4015,6 +4015,7 @@ aLivemark
 =
 >
 {
+let
 urlsToOpen
 =
 [
