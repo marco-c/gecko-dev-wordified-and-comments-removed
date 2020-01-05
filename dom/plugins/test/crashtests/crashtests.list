@@ -131,13 +131,6 @@ load
 598862
 .
 html
-asserts
--
-if
-(
-stylo
-20
-)
 skip
 -
 if
@@ -150,9 +143,6 @@ load
 1
 .
 html
-#
-bug
-1324663
 #
 bug
 908363
