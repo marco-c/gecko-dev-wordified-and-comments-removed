@@ -1035,7 +1035,7 @@ aWM
 }
 ;
 class
-BoxShapeInfo
+RoundedBoxShapeInfo
 final
 :
 public
@@ -1043,12 +1043,12 @@ ShapeInfo
 {
 public
 :
-BoxShapeInfo
+RoundedBoxShapeInfo
 (
 const
 nsRect
 &
-aShapeBoxRect
+aRect
 mozilla
 :
 :
@@ -1061,9 +1061,9 @@ nscoord
 aRadii
 )
 :
-mShapeBoxRect
+mRect
 (
-aShapeBoxRect
+aRect
 )
 mRadii
 (
@@ -1118,7 +1118,7 @@ const
 override
 {
 return
-mShapeBoxRect
+mRect
 .
 y
 ;
@@ -1131,7 +1131,7 @@ const
 override
 {
 return
-mShapeBoxRect
+mRect
 .
 YMost
 (
@@ -1146,7 +1146,7 @@ const
 override
 {
 return
-mShapeBoxRect
+mRect
 .
 IsEmpty
 (
@@ -1164,7 +1164,7 @@ aBlockStart
 )
 override
 {
-mShapeBoxRect
+mRect
 .
 MoveBy
 (
@@ -1176,7 +1176,7 @@ aBlockStart
 private
 :
 nsRect
-mShapeBoxRect
+mRect
 ;
 mozilla
 :
