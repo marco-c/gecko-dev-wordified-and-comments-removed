@@ -1,3 +1,8 @@
+addIntlExtras
+(
+Intl
+)
+;
 class
 MyPluralRules
 extends
