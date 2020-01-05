@@ -1150,6 +1150,12 @@ genipdl
 ast
 codedir
 )
+ipdl
+.
+checkFixedSyncMessages
+(
+parser
+)
 for
 f
 in
