@@ -87,6 +87,10 @@ protocol
 PChildToParentStream
 ;
 include
+protocol
+PParentToChildStream
+;
+include
 CacheTypes
 ;
 namespace

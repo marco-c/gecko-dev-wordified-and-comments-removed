@@ -32,7 +32,7 @@ class
 nsIContentChild
 ;
 class
-PContentParent
+nsIContentParent
 ;
 }
 namespace
@@ -119,7 +119,7 @@ AutoIPCStream
 (
 )
 ;
-void
+bool
 Serialize
 (
 nsIInputStream
@@ -133,7 +133,7 @@ nsIContentChild
 aManager
 )
 ;
-void
+bool
 Serialize
 (
 nsIInputStream
@@ -144,7 +144,8 @@ PBackgroundChild
 aManager
 )
 ;
-void
+MOZ_MUST_USE
+bool
 Serialize
 (
 nsIInputStream
@@ -153,12 +154,13 @@ aStream
 dom
 :
 :
-PContentParent
+nsIContentParent
 *
 aManager
 )
 ;
-void
+MOZ_MUST_USE
+bool
 Serialize
 (
 nsIInputStream

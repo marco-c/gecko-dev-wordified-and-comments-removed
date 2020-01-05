@@ -61,6 +61,10 @@ protocol
 PChildToParentStream
 ;
 include
+protocol
+PParentToChildStream
+;
+include
 BlobTypes
 ;
 include
@@ -131,6 +135,8 @@ IPCStream
 InputStreamParamsWithFds
 ;
 PChildToParentStream
+;
+PParentToChildStream
 ;
 }
 ;

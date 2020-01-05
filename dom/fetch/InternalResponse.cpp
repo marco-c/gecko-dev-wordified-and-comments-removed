@@ -453,13 +453,13 @@ InternalResponse
 :
 ToIPC
 <
-PContentParent
+nsIContentParent
 >
 (
 IPCInternalResponse
 *
 aIPCResponse
-PContentParent
+nsIContentParent
 *
 aManager
 UniquePtr
@@ -774,6 +774,9 @@ body
 )
 )
 ;
+bool
+ok
+=
 aAutoStream
 -
 >
@@ -781,6 +784,11 @@ Serialize
 (
 body
 aManager
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+ok
 )
 ;
 }

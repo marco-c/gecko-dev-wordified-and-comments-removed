@@ -136,6 +136,10 @@ protocol
 PChildToParentStream
 ;
 include
+protocol
+PParentToChildStream
+;
+include
 DOMTypes
 ;
 include
@@ -359,6 +363,16 @@ PJavaScript
 ;
 manages
 PChildToParentStream
+;
+manages
+PParentToChildStream
+;
+child
+:
+async
+PParentToChildStream
+(
+)
 ;
 parent
 :

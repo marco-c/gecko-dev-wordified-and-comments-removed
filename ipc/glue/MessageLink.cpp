@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

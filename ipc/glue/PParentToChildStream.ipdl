@@ -83,7 +83,7 @@ is
 the
 opposite
 of
-PParentToChildStream
+PChildToParentStream
 .
 Please
 keep
@@ -95,7 +95,7 @@ in
 sync
 .
 protocol
-PChildToParentStream
+PParentToChildStream
 {
 manager
 PBackground
@@ -104,7 +104,7 @@ PContent
 or
 PContentBridge
 ;
-parent
+child
 :
 async
 Buffer
@@ -120,7 +120,7 @@ nsresult
 aRv
 )
 ;
-child
+parent
 :
 /
 /

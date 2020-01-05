@@ -123,6 +123,10 @@ protocol
 PChildToParentStream
 ;
 include
+protocol
+PParentToChildStream
+;
+include
 IPCStream
 ;
 include

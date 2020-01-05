@@ -126,6 +126,10 @@ PChildToParentStream
 ;
 include
 protocol
+PParentToChildStream
+;
+include
+protocol
 PServiceWorkerManager
 ;
 include
@@ -296,6 +300,9 @@ PQuota
 ;
 manages
 PChildToParentStream
+;
+manages
+PParentToChildStream
 ;
 manages
 PServiceWorkerManager
@@ -471,6 +478,11 @@ PCache
 ;
 async
 PCacheStreamControl
+(
+)
+;
+async
+PParentToChildStream
 (
 )
 ;

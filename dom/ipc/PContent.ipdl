@@ -208,6 +208,10 @@ PChildToParentStream
 ;
 include
 protocol
+PParentToChildStream
+;
+include
+protocol
 POfflineCacheUpdate
 ;
 include
@@ -1348,6 +1352,9 @@ PPrinting
 ;
 manages
 PChildToParentStream
+;
+manages
+PParentToChildStream
 ;
 manages
 PScreenManager
@@ -2922,6 +2929,11 @@ PBrowser
 aTab
 bool
 aActivated
+)
+;
+async
+PParentToChildStream
+(
 )
 ;
 parent

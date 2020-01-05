@@ -137,17 +137,6 @@ h
 #
 include
 "
-mozilla
-/
-ipc
-/
-SendStream
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
