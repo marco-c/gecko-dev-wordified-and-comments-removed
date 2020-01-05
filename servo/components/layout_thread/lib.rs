@@ -2096,7 +2096,7 @@ new
 (
 )
 .
-set_num_threads
+num_threads
 (
 layout_threads
 )

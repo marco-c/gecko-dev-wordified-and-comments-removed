@@ -172,7 +172,7 @@ new
 (
 )
 .
-set_num_threads
+num_threads
 (
 num_threads
 )
