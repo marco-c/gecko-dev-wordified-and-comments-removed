@@ -218,7 +218,6 @@ align
 items
 properties
 )
-fails
 =
 =
 flexbox
@@ -247,7 +246,6 @@ horiz
 001a
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -388,7 +386,6 @@ horiz
 005
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -417,7 +414,6 @@ horiz
 006
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -2972,6 +2968,7 @@ auto
 002a
 .
 html
+fails
 =
 =
 flexbox
@@ -2993,9 +2990,14 @@ height
 -
 auto
 -
-002b
+002
+-
+ref
 .
 html
+#
+bug
+1055354
 =
 =
 flexbox
