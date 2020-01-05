@@ -329,6 +329,11 @@ output_frames
 )
 )
 ;
+*
+input_frames_count
+=
+output_frames
+;
 }
 return
 rv
@@ -822,6 +827,11 @@ input_processor
 output
 (
 resampled_frame_count
+(
+size_t
+*
+)
+input_frames_count
 )
 ;
 long
@@ -947,6 +957,11 @@ input_processor
 output
 (
 output_frames_before_processing
+(
+size_t
+*
+)
+input_frames_count
 )
 ;
 }
