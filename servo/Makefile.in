@@ -2004,16 +2004,6 @@ src
 /
 components
 /
-gfx
--
-L
-(
-B
-)
-src
-/
-components
-/
 msg
 WEBIDL_script
 =
@@ -2116,9 +2106,6 @@ DONE_style
 )
 (
 DONE_net
-)
-(
-DONE_gfx
 )
 (
 DONE_msg

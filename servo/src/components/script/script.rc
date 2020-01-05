@@ -148,17 +148,6 @@ geom
 ;
 extern
 mod
-gfx
-(
-name
-=
-"
-gfx
-"
-)
-;
-extern
-mod
 hubbub
 ;
 extern
