@@ -8851,11 +8851,3 @@ needsCallerTypeAttr
 ;
 }
 ;
-[
-HTMLConstructor
-]
-interface
-TestHTMLConstructorInterface
-{
-}
-;
