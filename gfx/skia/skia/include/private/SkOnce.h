@@ -103,6 +103,10 @@ std
 :
 :
 memory_order_relaxed
+std
+:
+:
+memory_order_relaxed
 )
 )
 {
