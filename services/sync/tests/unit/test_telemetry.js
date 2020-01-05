@@ -369,6 +369,9 @@ __proto__
 Tracker
 .
 prototype
+persistChangedIDs
+:
+false
 }
 ;
 function

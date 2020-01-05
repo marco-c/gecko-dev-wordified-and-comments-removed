@@ -3079,6 +3079,14 @@ finalize
 (
 )
 {
+this
+.
+_tracker
+.
+_saveChangedIDs
+(
+)
+;
 Async
 .
 promiseSpinningly
