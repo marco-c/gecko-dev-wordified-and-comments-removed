@@ -108,11 +108,6 @@ CamerasParent
 h
 '
 '
-CamerasTypes
-.
-h
-'
-'
 LoadManager
 .
 h
@@ -462,6 +457,11 @@ media
 +
 =
 [
+'
+CamerasTypes
+.
+h
+'
 '
 DeviceChangeCallback
 .

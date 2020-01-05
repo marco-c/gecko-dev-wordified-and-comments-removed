@@ -74,6 +74,10 @@ camera
 CaptureEngine
 from
 "
+mozilla
+/
+media
+/
 CamerasTypes
 .
 h
