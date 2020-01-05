@@ -37,6 +37,9 @@ InvalidFileID
 InvalidOrigin
 InvalidEntry
 External
+(
+String
+)
 }
 #
 [
@@ -49,8 +52,15 @@ Deserialize
 ]
 pub
 struct
-BlobURLStoreEntry
+BlobBuf
 {
+pub
+filename
+:
+Option
+<
+String
+>
 pub
 type_string
 :

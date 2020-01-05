@@ -399,6 +399,12 @@ new_from_file
 selected
 .
 id
+selected
+.
+filename
+selected
+.
+size
 )
 name
 Some

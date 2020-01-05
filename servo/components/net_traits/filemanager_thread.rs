@@ -3,7 +3,7 @@ blob_url_store
 :
 :
 {
-BlobURLStoreEntry
+BlobBuf
 BlobURLStoreError
 }
 ;
@@ -111,10 +111,7 @@ start
 0
 end
 :
-Some
-(
-0
-)
+None
 }
 }
 pub
@@ -457,6 +454,10 @@ modified
 :
 u64
 pub
+size
+:
+u64
+pub
 type_string
 :
 String
@@ -557,7 +558,7 @@ LoadConsumer
 )
 PromoteMemory
 (
-BlobURLStoreEntry
+BlobBuf
 IpcSender
 <
 Result
@@ -659,6 +660,12 @@ FileManagerThreadError
 {
 InvalidSelection
 UserCancelled
-FileInfoProcessingError
-ReadFileError
+FileSystemError
+(
+String
+)
+BlobURLStoreError
+(
+BlobURLStoreError
+)
 }
