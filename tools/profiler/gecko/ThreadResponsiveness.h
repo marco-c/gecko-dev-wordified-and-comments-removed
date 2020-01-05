@@ -50,11 +50,6 @@ ThreadResponsiveness
 void
 Update
 (
-bool
-aIsMainThread
-nsIThread
-*
-aThread
 )
 ;
 mozilla
