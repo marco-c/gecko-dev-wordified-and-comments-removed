@@ -423,13 +423,6 @@ nsILoadInfo
 h
 "
 #
-include
-"
-nsXPCOMStrings
-.
-h
-"
-#
 define
 WEBAPPS_PERM_NAME
 "

@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 AndroidBridge
 .
 h

@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

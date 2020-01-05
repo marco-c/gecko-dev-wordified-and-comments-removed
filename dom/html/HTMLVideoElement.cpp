@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 prlock
 .
 h

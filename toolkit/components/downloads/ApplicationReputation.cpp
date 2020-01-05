@@ -300,13 +300,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h

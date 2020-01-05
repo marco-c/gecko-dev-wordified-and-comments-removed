@@ -224,11 +224,6 @@ nsUTF8Utils
 h
 '
 '
-nsXPCOMStrings
-.
-h
-'
-'
 nsXPIDLString
 .
 h

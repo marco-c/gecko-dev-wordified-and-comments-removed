@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h
