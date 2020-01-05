@@ -327,7 +327,7 @@ AUDIOFOCUS_LOSS
 notifyObservers
 (
 "
-audioFocusChanged
+AudioFocusChanged
 "
 "
 lostAudioFocus
@@ -366,7 +366,7 @@ AUDIOFOCUS_LOSS_TRANSIENT
 notifyObservers
 (
 "
-audioFocusChanged
+AudioFocusChanged
 "
 "
 lostAudioFocusTransiently
@@ -478,7 +478,7 @@ AUDIOFOCUS_GAIN
 notifyObservers
 (
 "
-audioFocusChanged
+AudioFocusChanged
 "
 "
 gainAudioFocus
