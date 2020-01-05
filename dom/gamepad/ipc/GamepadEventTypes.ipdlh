@@ -207,11 +207,14 @@ service_type
 uint32_t
 button
 ;
+double
+value
+;
 bool
 pressed
 ;
-double
-value
+bool
+touched
 ;
 }
 ;
