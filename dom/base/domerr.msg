@@ -1897,6 +1897,17 @@ exists
 "
 NS_ERROR_DOM_PUSH_MISMATCHED_KEY_ERR
 )
+DOM4_MSG_DEF
+(
+InvalidStateError
+"
+GCM
+service
+disabled
+.
+"
+NS_ERROR_DOM_PUSH_GCM_DISABLED
+)
 /
 *
 Media
