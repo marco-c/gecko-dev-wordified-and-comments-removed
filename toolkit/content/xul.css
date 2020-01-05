@@ -187,9 +187,6 @@ important
 }
 script
 data
-xbl
-|
-children
 commands
 commandset
 command
@@ -218,6 +215,17 @@ treecell
 display
 :
 none
+;
+}
+xbl
+|
+children
+{
+display
+:
+none
+!
+important
 ;
 }
 button
