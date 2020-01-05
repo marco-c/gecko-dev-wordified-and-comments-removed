@@ -1903,6 +1903,15 @@ res
 =
 0
 ;
+virtual
+JSCompartment
+*
+maybeCompartment
+(
+)
+=
+0
+;
 }
 ;
 class
