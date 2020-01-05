@@ -9507,6 +9507,9 @@ asWasm
 state
 )
 ;
+AutoNoteSingleThreadedRegion
+anstr
+;
 savedPrevJitTop_
 =
 activation_

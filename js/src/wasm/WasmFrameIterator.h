@@ -235,6 +235,7 @@ uint32_t
 None
 ImportJit
 ImportInterp
+ImportNative
 Trap
 DebugTrap
 }
