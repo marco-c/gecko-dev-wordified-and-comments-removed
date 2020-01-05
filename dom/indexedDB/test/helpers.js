@@ -397,16 +397,6 @@ true
 ]
 [
 "
-dom
-.
-workers
-.
-latestJSVersion
-"
-true
-]
-[
-"
 javascript
 .
 options

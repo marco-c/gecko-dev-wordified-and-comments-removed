@@ -238,17 +238,6 @@ NETWORKINFORMATION_ENABLED
 WORKER_PREF
 (
 "
-dom
-.
-workers
-.
-latestJSVersion
-"
-JSVersionChanged
-)
-WORKER_PREF
-(
-"
 intl
 .
 accept_languages
