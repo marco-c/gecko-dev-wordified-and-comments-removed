@@ -3856,7 +3856,7 @@ if
 formControl
 -
 >
-GetType
+ControlType
 (
 )
 =

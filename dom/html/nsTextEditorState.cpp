@@ -7789,7 +7789,7 @@ return
 input
 -
 >
-GetType
+ControlType
 (
 )
 =

@@ -1566,7 +1566,7 @@ aContent
 )
 -
 >
-GetType
+ControlType
 (
 )
 =

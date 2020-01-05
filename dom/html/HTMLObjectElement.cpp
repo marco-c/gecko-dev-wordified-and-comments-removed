@@ -183,6 +183,7 @@ aFromParser
 nsGenericHTMLFormElement
 (
 aNodeInfo
+NS_FORM_OBJECT
 )
 mIsDoneAddingChildren
 (

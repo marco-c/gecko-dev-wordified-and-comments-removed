@@ -541,7 +541,7 @@ if
 fctrl
 -
 >
-GetType
+ControlType
 (
 )
 =

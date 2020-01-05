@@ -93,6 +93,7 @@ aNodeInfo
 nsGenericHTMLFormElement
 (
 aNodeInfo
+NS_FORM_FIELDSET
 )
 mElements
 (
