@@ -1703,6 +1703,7 @@ is_exhausted
 (
 )
 {
+return
 Default
 :
 :
@@ -1710,8 +1711,6 @@ default
 (
 )
 }
-else
-{
 let
 mut
 media_queries
@@ -1783,7 +1782,8 @@ Comma
 )
 =
 >
-continue
+{
+}
 Ok
 (
 _
@@ -1809,7 +1809,6 @@ MediaList
 media_queries
 :
 media_queries
-}
 }
 }
 impl
