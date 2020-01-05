@@ -2740,17 +2740,6 @@ IPC_OK
 )
 ;
 }
-if
-(
-MOZ_USE_RENDER_THREAD
-)
-{
-return
-IPC_OK
-(
-)
-;
-}
 RefPtr
 <
 TextureHost
