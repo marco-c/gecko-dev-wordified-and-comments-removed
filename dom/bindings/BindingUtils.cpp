@@ -5819,6 +5819,7 @@ UnwrapArg
 nsISupports
 >
 (
+cx
 obj
 getter_AddRefs
 (
@@ -5903,6 +5904,7 @@ UnwrapArg
 nsIJSID
 >
 (
+cx
 obj
 getter_AddRefs
 (
@@ -16034,6 +16036,9 @@ objPrin
 nsresult
 UnwrapArgImpl
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -16111,8 +16116,9 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+cx
 )
 )
 {
@@ -16172,6 +16178,9 @@ ppArg
 nsresult
 UnwrapWindowProxyImpl
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -16201,6 +16210,7 @@ UnwrapArg
 nsPIDOMWindowInner
 >
 (
+cx
 src
 getter_AddRefs
 (
