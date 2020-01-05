@@ -4691,7 +4691,15 @@ if
 mSelection
 )
 {
+RefPtr
+<
+Selection
+>
+selection
+=
 mSelection
+;
+selection
 -
 >
 NotifySelectionListeners
