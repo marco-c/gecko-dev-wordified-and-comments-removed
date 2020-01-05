@@ -675,6 +675,9 @@ filename
 .
 AppendInt
 (
+(
+uint32_t
+)
 getpid
 (
 )
