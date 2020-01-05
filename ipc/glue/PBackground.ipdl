@@ -110,6 +110,10 @@ PGamepadTestChannel
 ;
 include
 protocol
+PMemoryStream
+;
+include
+protocol
 PMessagePort
 ;
 include
@@ -290,6 +294,9 @@ manages
 PGamepadTestChannel
 ;
 manages
+PMemoryStream
+;
+manages
 PMessagePort
 ;
 manages
@@ -467,6 +474,13 @@ PGamepadEventChannel
 async
 PGamepadTestChannel
 (
+)
+;
+async
+PMemoryStream
+(
+uint64_t
+aSize
 )
 ;
 child

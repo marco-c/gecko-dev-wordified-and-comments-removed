@@ -180,6 +180,10 @@ PMedia
 ;
 include
 protocol
+PMemoryStream
+;
+include
+protocol
 PNecko
 ;
 include
@@ -1336,6 +1340,9 @@ PHeapSnapshotTempFileHelper
 ;
 manages
 PMedia
+;
+manages
+PMemoryStream
 ;
 manages
 PNecko
@@ -3324,6 +3331,13 @@ PJavaScript
 async
 PRemoteSpellcheckEngine
 (
+)
+;
+async
+PMemoryStream
+(
+uint64_t
+aSize
 )
 ;
 async
