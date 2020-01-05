@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -259,11 +264,12 @@ i
 let
 acceptedLanguage
 qualityValue
+unused
 ;
 try
 {
 [
-_
+unused
 acceptedLanguage
 qualityValue
 ]
