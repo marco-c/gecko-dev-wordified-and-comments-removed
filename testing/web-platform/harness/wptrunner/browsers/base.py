@@ -526,6 +526,9 @@ def
 stop
 (
 self
+force
+=
+False
 )
 :
         
@@ -841,6 +844,9 @@ def
 stop
 (
 self
+force
+=
+False
 )
 :
         

@@ -789,6 +789,9 @@ def
 stop
 (
 self
+force
+=
+False
 )
 :
         

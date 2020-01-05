@@ -499,8 +499,22 @@ self
 .
 marionette
 .
+_request_in_app_shutdown
+(
+)
+            
+self
+.
+marionette
+.
 delete_session
 (
+send_request
+=
+False
+reset_session_id
+=
+True
 )
         
 except
@@ -509,6 +523,15 @@ Exception
             
 pass
         
+if
+self
+.
+marionette
+is
+not
+None
+:
+            
 del
 self
 .
@@ -569,9 +592,16 @@ self
 .
 load_runner
 (
+self
+.
+executor
+.
+last_environment
+[
 "
-http
+protocol
 "
+]
 )
     
 def
