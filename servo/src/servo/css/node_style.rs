@@ -172,6 +172,13 @@ NodeStyle
 &
 self
 {
+assert
+self
+.
+is_element
+(
+)
+;
 NodeStyle
 :
 :

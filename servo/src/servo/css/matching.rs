@@ -109,6 +109,13 @@ select_ctx
 )
 ;
 }
+if
+self
+.
+is_element
+(
+)
+{
 let
 select_handler
 =
@@ -140,5 +147,6 @@ move
 style
 )
 ;
+}
 }
 }
