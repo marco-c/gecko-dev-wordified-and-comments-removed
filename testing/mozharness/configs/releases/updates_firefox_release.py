@@ -513,6 +513,15 @@ firefox
 -
 release
 "
+"
+firefox
+-
+release
+-
+nowebsense
+-
+bypass
+"
 ]
         
 }
