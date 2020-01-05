@@ -41,12 +41,7 @@ h
 extern
 const
 GUID
-CLSID_WebmMfVp8Dec
-;
-extern
-const
-GUID
-CLSID_WebmMfVp9Dec
+CLSID_WebmMfVpxDec
 ;
 namespace
 mozilla
