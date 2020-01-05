@@ -89,6 +89,17 @@ last
 error
 "
 "
+func
+-
+call
+-
+spacing
+"
+:
+"
+error
+"
+"
 keyword
 -
 spacing
