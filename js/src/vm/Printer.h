@@ -34,6 +34,13 @@ stdio
 .
 h
 >
+#
+include
+<
+string
+.
+h
+>
 class
 JSString
 ;
