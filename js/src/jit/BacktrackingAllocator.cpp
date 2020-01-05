@@ -7457,9 +7457,17 @@ true
 ;
 if
 (
+(
 attempt
 <
 MAX_ATTEMPTS
+|
+|
+minimalBundle
+(
+bundle
+)
+)
 &
 &
 !
