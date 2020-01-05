@@ -350,5 +350,16 @@ platform
 =
 platform
             
+post_task
+[
+'
+build
+-
+task
+'
+]
+=
+task
+            
 yield
 post_task
