@@ -255,12 +255,6 @@ __delete__
 (
 )
 ;
-state
-DESTROYING
-:
-recv
-__delete__
-;
 }
 ;
 }

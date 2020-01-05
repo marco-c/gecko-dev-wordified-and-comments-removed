@@ -471,6 +471,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -511,6 +513,8 @@ FAILED
 send
 __delete__
 ;
+*
+/
 }
 ;
 }
