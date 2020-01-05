@@ -101,9 +101,6 @@ thirdplugin
 '
 flashplugin
 '
-'
-silverlightplugin
-'
 ]
 SharedLibrary
 (
