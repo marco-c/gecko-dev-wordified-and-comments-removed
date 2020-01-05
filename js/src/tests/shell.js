@@ -4209,6 +4209,7 @@ optionsClear
 ;
 for
 (
+var
 optionName
 in
 optionsframe
