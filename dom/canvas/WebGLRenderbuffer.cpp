@@ -971,7 +971,7 @@ maxSamples
 mContext
 -
 >
-ErrorInvalidValue
+ErrorInvalidOperation
 (
 "
 %
