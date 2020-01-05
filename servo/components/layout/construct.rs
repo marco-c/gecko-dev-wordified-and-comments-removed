@@ -4880,9 +4880,8 @@ fragment_accumulator
 InlineFragmentsAccumulator
 :
 :
-from_inline_node
+new
 (
-node
 )
 ;
 fragment_accumulator
