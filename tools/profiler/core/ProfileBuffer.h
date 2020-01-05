@@ -121,6 +121,13 @@ DuplicateLastSample
 (
 int
 aThreadId
+const
+mozilla
+:
+:
+TimeStamp
+&
+aStartTime
 )
 ;
 void

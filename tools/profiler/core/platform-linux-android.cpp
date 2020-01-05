@@ -1080,6 +1080,7 @@ info
 >
 DuplicateLastSample
 (
+gStartTime
 )
 ;
 continue

@@ -375,13 +375,6 @@ define
 PROFILE_JAVA
 #
 endif
-extern
-mozilla
-:
-:
-TimeStamp
-gStartTime
-;
 typedef
 uint8_t
 *

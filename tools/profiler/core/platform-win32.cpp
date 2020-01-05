@@ -522,6 +522,7 @@ info
 >
 DuplicateLastSample
 (
+gStartTime
 )
 ;
 continue

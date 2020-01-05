@@ -616,6 +616,7 @@ false
 bool
 stack_key_initialized
 ;
+static
 mozilla
 :
 :
