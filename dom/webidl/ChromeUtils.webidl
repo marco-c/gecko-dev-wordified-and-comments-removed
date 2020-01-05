@@ -542,12 +542,6 @@ addonId
 "
 "
 ;
-DOMString
-signedPkg
-=
-"
-"
-;
 unsigned
 long
 privateBrowsingId
@@ -578,9 +572,6 @@ inIsolatedMozBrowser
 ;
 DOMString
 addonId
-;
-DOMString
-signedPkg
 ;
 unsigned
 long
