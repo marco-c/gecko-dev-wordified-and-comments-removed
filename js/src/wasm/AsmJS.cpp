@@ -42312,6 +42312,15 @@ handler
 .
 newFunctionStatement
 (
+m
+.
+parser
+(
+)
+.
+pos
+(
+)
 )
 ;
 if
