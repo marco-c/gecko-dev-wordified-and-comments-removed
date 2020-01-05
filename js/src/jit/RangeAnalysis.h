@@ -86,9 +86,13 @@ header
 MTest
 *
 test
+const
 LinearSum
+&
 boundSum
+const
 LinearSum
+&
 currentSum
 )
 :
@@ -135,7 +139,9 @@ SymbolicBound
 LoopIterationBound
 *
 loop
+const
 LinearSum
+&
 sum
 )
 :
@@ -166,7 +172,9 @@ alloc
 LoopIterationBound
 *
 loop
+const
 LinearSum
+&
 sum
 )
 {
