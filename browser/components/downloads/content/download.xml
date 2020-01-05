@@ -517,6 +517,9 @@ progressmode
 value
 =
 progress
+paused
+=
+progresspaused
 "
 /
 >
