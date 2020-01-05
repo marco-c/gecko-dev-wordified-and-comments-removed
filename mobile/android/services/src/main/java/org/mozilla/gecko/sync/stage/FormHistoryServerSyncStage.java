@@ -146,7 +146,15 @@ private
 static
 final
 long
-FORM_HISTORY_REQUEST_LIMIT
+FORM_HISTORY_BATCH_LIMIT
+=
+5000
+;
+private
+static
+final
+long
+FORM_HISTORY_TOTAL_LIMIT
 =
 5000
 ;
@@ -232,7 +240,8 @@ session
 config
 .
 infoConfiguration
-FORM_HISTORY_REQUEST_LIMIT
+FORM_HISTORY_BATCH_LIMIT
+FORM_HISTORY_TOTAL_LIMIT
 FORM_HISTORY_SORT
 )
 ;

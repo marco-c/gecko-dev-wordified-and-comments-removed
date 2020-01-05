@@ -174,7 +174,9 @@ infoCollections
 InfoConfiguration
 infoConfiguration
 long
-limit
+batchLimit
+long
+totalLimit
 String
 sort
 JSONRecordFetcher
@@ -190,7 +192,8 @@ storageURL
 authHeaderProvider
 infoCollections
 infoConfiguration
-limit
+batchLimit
+totalLimit
 sort
 )
 ;
@@ -244,7 +247,7 @@ CountCheckingServer11RepositorySession
 this
 this
 .
-getDefaultFetchLimit
+getDefaultBatchLimit
 (
 )
 )

@@ -744,7 +744,7 @@ response
 res
 ;
 }
-private
+protected
 String
 getNonMissingHeader
 (

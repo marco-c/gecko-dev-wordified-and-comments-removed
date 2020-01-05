@@ -141,7 +141,15 @@ private
 static
 final
 long
-HISTORY_REQUEST_LIMIT
+HISTORY_BATCH_LIMIT
+=
+250
+;
+private
+static
+final
+long
+HISTORY_TOTAL_LIMIT
 =
 250
 ;
@@ -241,7 +249,8 @@ session
 config
 .
 infoConfiguration
-HISTORY_REQUEST_LIMIT
+HISTORY_BATCH_LIMIT
+HISTORY_TOTAL_LIMIT
 HISTORY_SORT
 )
 ;

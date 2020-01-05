@@ -237,6 +237,7 @@ true
 1
 null
 null
+null
 )
 )
 ;
@@ -257,6 +258,7 @@ false
 1230000L
 -
 1
+null
 null
 null
 )
@@ -282,6 +284,7 @@ collectionURI
 false
 5000000L
 10
+null
 null
 null
 )
@@ -315,6 +318,7 @@ true
 index
 "
 null
+null
 )
 )
 ;
@@ -344,6 +348,7 @@ null
 123
 abc
 "
+null
 )
 )
 ;
