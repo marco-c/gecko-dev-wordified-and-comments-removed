@@ -6,14 +6,6 @@ allow
 unsafe_code
 )
 ]
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 arc_ptr_eq
 ;
@@ -2236,7 +2228,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 self
 .
@@ -2408,7 +2400,7 @@ load
 Ordering
 :
 :
-SeqCst
+Acquire
 )
 ;
 RuleChildrenListIter
@@ -2622,7 +2614,7 @@ load
 Ordering
 :
 :
-SeqCst
+Acquire
 )
 ;
 if
@@ -2856,7 +2848,7 @@ new_ptr
 Ordering
 :
 :
-SeqCst
+AcqRel
 )
 ;
 if
@@ -3016,7 +3008,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 >
 0
@@ -3122,6 +3114,39 @@ self
 )
 }
 }
+pub
+unsafe
+fn
+has_children_for_testing
+(
+&
+self
+)
+-
+>
+bool
+{
+!
+self
+.
+get
+(
+)
+.
+first_child
+.
+load
+(
+Ordering
+:
+:
+Relaxed
+)
+.
+is_null
+(
+)
+}
 unsafe
 fn
 pop_from_free_list
@@ -3222,7 +3247,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 if
@@ -3307,7 +3332,7 @@ null_mut
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 debug_assert
@@ -3345,7 +3370,7 @@ next
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 debug
@@ -3478,7 +3503,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 assert
@@ -3611,7 +3636,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 =
 =
@@ -3684,7 +3709,7 @@ store
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 debug_assert
@@ -3699,7 +3724,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 =
 =
@@ -3757,7 +3782,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 >
 RULE_TREE_GC_INTERVAL
@@ -3967,7 +3992,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 )
 ;
@@ -3987,7 +4012,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 >
 0
@@ -4007,7 +4032,7 @@ fetch_add
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 StrongRuleNode
@@ -4074,7 +4099,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 )
 ;
@@ -4161,7 +4186,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 >
 0
@@ -4177,7 +4202,7 @@ fetch_sub
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 =
 =
@@ -4202,7 +4227,7 @@ load
 Ordering
 :
 :
-SeqCst
+Acquire
 )
 ptr
 :
@@ -4304,7 +4329,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 !
 =
@@ -4329,7 +4354,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 loop
@@ -4349,7 +4374,7 @@ null_mut
 Ordering
 :
 :
-SeqCst
+Acquire
 Ordering
 :
 :
@@ -4400,7 +4425,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 !
 =
@@ -4419,7 +4444,7 @@ old_head
 Ordering
 :
 :
-SeqCst
+Release
 )
 ;
 return
@@ -4435,7 +4460,7 @@ old_head
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 free_list
@@ -4450,7 +4475,7 @@ ptr
 Ordering
 :
 :
-SeqCst
+Release
 )
 ;
 }
@@ -4551,7 +4576,7 @@ fetch_add
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 StrongRuleNode
