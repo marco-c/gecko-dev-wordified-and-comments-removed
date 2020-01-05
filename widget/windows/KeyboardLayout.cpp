@@ -18959,14 +18959,10 @@ GetModifiers
 ;
 if
 (
-mVirtualKeys
-[
-virtualKeyIndex
-]
-.
 IsDeadKey
 (
-shiftState
+virtualKey
+aModKeyState
 )
 )
 {
