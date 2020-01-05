@@ -327,6 +327,9 @@ ContainerLayerParameters
 class
 WritingMode
 ;
+class
+DisplayItemClip
+;
 namespace
 dom
 {
@@ -5361,6 +5364,13 @@ Matrix4x4
 >
 *
 aMatrixCache
+const
+mozilla
+:
+:
+DisplayItemClip
+*
+aClip
 )
 ;
 static
