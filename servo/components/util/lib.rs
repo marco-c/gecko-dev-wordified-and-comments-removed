@@ -173,6 +173,10 @@ range
 ;
 pub
 mod
+resource_files
+;
+pub
+mod
 smallvec
 ;
 pub
