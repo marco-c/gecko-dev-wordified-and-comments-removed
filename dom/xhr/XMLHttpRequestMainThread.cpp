@@ -9874,6 +9874,10 @@ mFlagSyncLooping
 =
 false
 ;
+mRequestSentTime
+=
+0
+;
 MatchCharsetAndDecoderToResponseDocument
 (
 )
