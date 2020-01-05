@@ -18195,7 +18195,7 @@ warnAboutClosingWindow
 )
 ;
 return
-null
+false
 ;
 }
 newTab
