@@ -21,14 +21,6 @@ rlib
 [
 feature
 (
-core
-)
-]
-#
-!
-[
-feature
-(
 custom_derive
 )
 ]
