@@ -147,8 +147,6 @@ work
 interface
 DOMImplementation
 {
-/
-*
 boolean
 hasFeature
 (
@@ -163,8 +161,6 @@ DOMString
 version
 )
 ;
-*
-/
 [
 Throws
 ]
