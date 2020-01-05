@@ -455,6 +455,12 @@ friend
 class
 DispatchChangeEventCallback
 ;
+friend
+class
+:
+:
+InputType
+;
 public
 :
 using

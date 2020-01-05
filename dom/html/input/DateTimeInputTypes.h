@@ -28,6 +28,13 @@ DateTimeInputTypeBase
 override
 {
 }
+bool
+IsValueMissing
+(
+)
+const
+override
+;
 protected
 :
 explicit
@@ -50,6 +57,13 @@ aInputElement
 )
 {
 }
+bool
+IsMutable
+(
+)
+const
+override
+;
 }
 ;
 class

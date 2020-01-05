@@ -90,6 +90,13 @@ aInputElement
 )
 ;
 }
+bool
+IsValueMissing
+(
+)
+const
+override
+;
 private
 :
 explicit
@@ -112,6 +119,13 @@ aInputElement
 )
 {
 }
+bool
+IsMutable
+(
+)
+const
+override
+;
 }
 ;
 class
