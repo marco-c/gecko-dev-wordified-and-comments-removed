@@ -958,11 +958,6 @@ Location
 h
 '
 '
-MutableBlobStorage
-.
-h
-'
-'
 NameSpaceConstants
 .
 h
@@ -1254,11 +1249,6 @@ cpp
 '
 '
 MultipartBlobImpl
-.
-cpp
-'
-'
-MutableBlobStorage
 .
 cpp
 '

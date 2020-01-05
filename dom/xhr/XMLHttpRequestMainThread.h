@@ -286,10 +286,10 @@ class
 Blob
 ;
 class
-FormData
+BlobSet
 ;
 class
-MutableBlobStorage
+FormData
 ;
 class
 URLSearchParams
@@ -2250,9 +2250,9 @@ mDOMBlob
 ;
 nsAutoPtr
 <
-MutableBlobStorage
+BlobSet
 >
-mBlobStorage
+mBlobSet
 ;
 nsString
 mOverrideMimeType
