@@ -1,8 +1,5 @@
 use
-servo_text
-:
-:
-text_run
+gfx
 :
 :
 TextRun

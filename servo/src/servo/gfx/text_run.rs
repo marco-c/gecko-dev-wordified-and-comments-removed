@@ -235,12 +235,6 @@ str
 >
 TextRun
 {
-use
-shaper
-:
-:
-Shaper
-;
 let
 glyph_store
 =

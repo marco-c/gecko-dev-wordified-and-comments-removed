@@ -248,16 +248,7 @@ text
 TextBoxData
 ;
 use
-servo_text
-:
-:
-text_run
-;
-use
-servo_text
-:
-:
-text_run
+gfx
 :
 :
 TextRun

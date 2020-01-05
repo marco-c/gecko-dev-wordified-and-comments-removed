@@ -148,15 +148,6 @@ text
 TextBoxData
 ;
 use
-servo_text
-:
-:
-text_run
-:
-:
-TextRun
-;
-use
 util
 :
 :
