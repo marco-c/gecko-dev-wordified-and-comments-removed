@@ -549,7 +549,12 @@ DecodeVideoFrame
 bool
 &
 aKeyframeSkip
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aTimeThreshold
 )
 {
@@ -1346,6 +1351,10 @@ GetEndTime
 )
 <
 aTimeThreshold
+.
+ToMicroseconds
+(
+)
 )
 {
 mLastVideoFrame
