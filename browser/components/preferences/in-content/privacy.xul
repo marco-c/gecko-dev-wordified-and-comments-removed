@@ -891,6 +891,7 @@ trackingProtectionLearnMore
 class
 =
 "
+learnMore
 text
 -
 link
@@ -1194,6 +1195,7 @@ trackingProtectionPBMLearnMore
 class
 =
 "
+learnMore
 text
 -
 link
@@ -2773,6 +2775,7 @@ browserContainersLearnMore
 class
 =
 "
+learnMore
 text
 -
 link
