@@ -389,6 +389,12 @@ IsLinkUp
 (
 )
 ;
+static
+bool
+IsInheritSecurityContextForDataURIEnabled
+(
+)
+;
 nsresult
 RecheckCaptivePortal
 (
@@ -688,6 +694,10 @@ mNetworkNotifyChanged
 static
 bool
 sTelemetryEnabled
+;
+static
+bool
+sDataURIInheritSecurityContext
 ;
 mozilla
 :
