@@ -338,17 +338,6 @@ serde_macros
 .
 7
 "
-servo
--
-skia
-=
-"
-0
-.
-20130412
-.
-0
-"
 smallvec
 =
 "

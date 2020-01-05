@@ -388,10 +388,6 @@ simd
 ;
 extern
 crate
-skia
-;
-extern
-crate
 smallvec
 ;
 #
