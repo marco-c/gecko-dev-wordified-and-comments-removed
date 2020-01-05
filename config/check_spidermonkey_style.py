@@ -1655,7 +1655,7 @@ actual_output
 fromfile
 =
 '
-check_spider_monkey_style
+check_spidermonkey_style
 .
 py
 expected
@@ -1665,7 +1665,7 @@ output
 tofile
 =
 '
-check_spider_monkey_style
+check_spidermonkey_style
 .
 py
 actual
