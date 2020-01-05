@@ -284,6 +284,16 @@ lower
 int
 rv
 ;
+PORT_Assert
+(
+buf
+&
+&
+len
+>
+0
+)
+;
 rv
 =
 lower

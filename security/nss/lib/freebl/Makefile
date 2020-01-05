@@ -4661,9 +4661,6 @@ c
 win_rand
 .
 c
-os2_rand
-.
-c
 (
 OBJDIR
 )
