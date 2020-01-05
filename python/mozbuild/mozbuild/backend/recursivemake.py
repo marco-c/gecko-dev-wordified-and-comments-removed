@@ -3152,6 +3152,11 @@ inc
 .
 py
 '
+                
+'
+.
+rs
+'
             
 )
             
@@ -8697,6 +8702,38 @@ libdef
 backend_file
 )
 :
+        
+lib_var
+=
+'
+RUST_LIBRARY_FILE
+'
+        
+feature_var
+=
+'
+RUST_LIBRARY_FEATURES
+'
+        
+if
+isinstance
+(
+libdef
+HostRustLibrary
+)
+:
+            
+lib_var
+=
+'
+HOST_RUST_LIBRARY_FILE
+'
+            
+feature_var
+=
+'
+HOST_RUST_LIBRARY_FEATURES
+'
         
 backend_file
 .
