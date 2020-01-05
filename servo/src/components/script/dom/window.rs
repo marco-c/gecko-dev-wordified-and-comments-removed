@@ -2222,6 +2222,10 @@ url
 parse_url
 (
 href
+.
+as_slice
+(
+)
 base_url
 )
 ;
@@ -2238,6 +2242,10 @@ script_chan
 ;
 if
 href
+.
+as_slice
+(
+)
 .
 starts_with
 (

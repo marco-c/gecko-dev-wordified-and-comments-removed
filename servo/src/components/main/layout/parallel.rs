@@ -100,6 +100,7 @@ util
 :
 {
 LayoutDataAccess
+LayoutDataWrapper
 OpaqueNodeMethods
 }
 ;
@@ -172,7 +173,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -370,7 +371,7 @@ UnsafeFlow
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -397,7 +398,7 @@ UnsafeFlow
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -423,7 +424,7 @@ UnsafeFlow
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -449,7 +450,7 @@ UnsafeFlow
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -818,7 +819,7 @@ flow
 mut
 FlowRef
 =
-cast
+mem
 :
 :
 transmute
@@ -992,7 +993,7 @@ parent
 mut
 FlowRef
 =
-cast
+mem
 :
 :
 transmute
@@ -1190,7 +1191,7 @@ flow
 mut
 FlowRef
 =
-cast
+mem
 :
 :
 transmute
@@ -1403,7 +1404,7 @@ layout_context
 mut
 LayoutContext
 =
-cast
+mem
 :
 :
 transmute
@@ -1620,7 +1621,7 @@ stylist
 &
 Stylist
 =
-cast
+mem
 :
 :
 transmute
@@ -2017,7 +2018,7 @@ LayoutContext
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -2046,7 +2047,7 @@ LayoutNode
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -2327,11 +2328,15 @@ parent_layout_data
 {
 let
 parent_layout_data
+:
+&
+mut
+LayoutDataWrapper
 =
-cast
+mem
 :
 :
-transmute_mut
+transmute
 (
 parent_layout_data
 )
@@ -2470,7 +2475,7 @@ LayoutContext
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -2535,7 +2540,7 @@ LayoutContext
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -2613,7 +2618,7 @@ flow
 mut
 FlowRef
 =
-cast
+mem
 :
 :
 transmute
@@ -2932,7 +2937,7 @@ LayoutContext
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -2964,7 +2969,7 @@ flow
 mut
 FlowRef
 =
-cast
+mem
 :
 :
 transmute
@@ -3173,7 +3178,7 @@ parent
 mut
 FlowRef
 =
-cast
+mem
 :
 :
 transmute
@@ -3263,7 +3268,7 @@ queue
 .
 data
 =
-cast
+mem
 :
 :
 transmute
@@ -3342,7 +3347,7 @@ queue
 .
 data
 =
-cast
+mem
 :
 :
 transmute
@@ -3440,7 +3445,7 @@ queue
 .
 data
 =
-cast
+mem
 :
 :
 transmute

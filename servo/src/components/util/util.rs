@@ -76,6 +76,14 @@ log
 ;
 extern
 crate
+debug
+;
+extern
+crate
+alloc
+;
+extern
+crate
 azure
 ;
 extern
@@ -128,7 +136,7 @@ cache
 ;
 pub
 mod
-debug
+debug_utils
 ;
 pub
 mod

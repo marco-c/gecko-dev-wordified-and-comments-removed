@@ -127,8 +127,6 @@ write
 !
 (
 f
-.
-buf
 "
 Au
 (

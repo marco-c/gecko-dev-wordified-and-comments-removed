@@ -348,6 +348,10 @@ cur_target
 get_listeners_for
 (
 type_
+.
+as_slice
+(
+)
 Capturing
 )
 {
@@ -491,6 +495,10 @@ deref
 get_listeners
 (
 type_
+.
+as_slice
+(
+)
 )
 ;
 for
@@ -589,6 +597,10 @@ deref
 get_listeners_for
 (
 type_
+.
+as_slice
+(
+)
 Bubbling
 )
 {

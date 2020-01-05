@@ -493,8 +493,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 self
 .
@@ -512,8 +511,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 self
 .
@@ -1390,8 +1388,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 self
 .

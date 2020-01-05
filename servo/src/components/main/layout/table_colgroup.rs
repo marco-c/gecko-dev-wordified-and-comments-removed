@@ -407,8 +407,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableColGroupFlow
 :
@@ -424,8 +422,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableColGroupFlow
 "

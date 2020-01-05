@@ -221,7 +221,7 @@ DOMString
 Gecko
 "
 .
-to_owned
+to_string
 (
 )
 }
@@ -251,7 +251,7 @@ DOMString
 Netscape
 "
 .
-to_owned
+to_string
 (
 )
 /
@@ -275,7 +275,7 @@ DOMString
 Mozilla
 "
 .
-to_owned
+to_string
 (
 )
 }
@@ -292,7 +292,7 @@ DOMString
 "
 "
 .
-to_owned
+to_string
 (
 )
 }

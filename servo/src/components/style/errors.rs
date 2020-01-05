@@ -120,6 +120,10 @@ error
 .
 reason
 )
+.
+as_slice
+(
+)
 )
 None
 =

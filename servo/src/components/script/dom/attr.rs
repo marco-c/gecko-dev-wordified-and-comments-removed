@@ -752,7 +752,7 @@ Some
 (
 url
 .
-to_owned
+to_string
 (
 )
 )

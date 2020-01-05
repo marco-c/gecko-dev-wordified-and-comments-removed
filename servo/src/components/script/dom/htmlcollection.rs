@@ -708,8 +708,11 @@ elem
 .
 has_class
 (
-*
 class
+.
+as_slice
+(
+)
 )
 )
 }
@@ -724,6 +727,10 @@ classes
 split_html_space_chars
 (
 classes
+.
+as_slice
+(
+)
 )
 .
 map

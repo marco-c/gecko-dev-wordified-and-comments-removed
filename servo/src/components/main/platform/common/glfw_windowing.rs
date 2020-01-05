@@ -2113,6 +2113,10 @@ if
 =
 =
 value
+.
+as_slice
+(
+)
 {
 self
 .
@@ -2137,7 +2141,7 @@ com
 /
 "
 .
-to_owned
+to_string
 (
 )
 )

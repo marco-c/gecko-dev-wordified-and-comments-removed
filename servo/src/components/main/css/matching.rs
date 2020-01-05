@@ -100,7 +100,6 @@ smallvec
 :
 {
 SmallVec
-SmallVec0
 SmallVec16
 }
 ;
@@ -117,7 +116,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -175,14 +174,14 @@ MatchedProperty
 pub
 before
 :
-SmallVec0
+Vec
 <
 MatchedProperty
 >
 pub
 after
 :
-SmallVec0
+Vec
 <
 MatchedProperty
 >
@@ -215,7 +214,7 @@ new
 )
 before
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -223,7 +222,7 @@ new
 )
 after
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -258,7 +257,7 @@ self
 .
 before
 =
-SmallVec0
+Vec
 :
 :
 new
@@ -269,7 +268,7 @@ self
 .
 after
 =
-SmallVec0
+Vec
 :
 :
 new
@@ -298,7 +297,7 @@ ApplicableDeclarationsCacheEntry
 pub
 declarations
 :
-SmallVec16
+Vec
 <
 MatchedProperty
 >
@@ -324,7 +323,7 @@ let
 mut
 entry_declarations
 =
-SmallVec16
+Vec
 :
 :
 new
@@ -541,7 +540,7 @@ a
 :
 uint
 =
-cast
+mem
 :
 :
 transmute_copy
@@ -554,7 +553,7 @@ b
 :
 uint
 =
-cast
+mem
 :
 :
 transmute_copy
@@ -712,7 +711,7 @@ uint
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -1284,6 +1283,10 @@ get_local_name
 self
 .
 local_name
+.
+as_slice
+(
+)
 {
 return
 false
@@ -1343,8 +1346,11 @@ if
 element_class
 !
 =
-*
 this_class
+.
+as_slice
+(
+)
 =
 >
 {
@@ -2002,7 +2008,7 @@ LayoutDataWrapper
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute

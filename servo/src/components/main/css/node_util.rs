@@ -47,7 +47,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 style
@@ -181,10 +181,10 @@ BeforeBlock
 =
 >
 {
-cast
+mem
 :
 :
-transmute_lifetime
+transmute
 (
 layout_data_ref
 .
@@ -215,10 +215,10 @@ AfterBlock
 =
 >
 {
-cast
+mem
 :
 :
-transmute_lifetime
+transmute
 (
 layout_data_ref
 .
@@ -247,10 +247,10 @@ Normal
 =
 >
 {
-cast
+mem
 :
 :
-transmute_lifetime
+transmute
 (
 layout_data_ref
 .

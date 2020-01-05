@@ -47,8 +47,7 @@ prefix_map
 :
 HashMap
 <
-~
-str
+String
 Namespace
 >
 }
@@ -147,8 +146,7 @@ prefix
 :
 Option
 <
-~
-str
+String
 >
 =
 None

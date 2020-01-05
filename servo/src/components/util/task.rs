@@ -161,7 +161,7 @@ as_slice
 (
 )
 .
-to_owned
+to_string
 (
 )
 ;

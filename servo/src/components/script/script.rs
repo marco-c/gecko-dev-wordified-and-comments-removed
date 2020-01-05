@@ -101,6 +101,10 @@ log
 ;
 extern
 crate
+debug
+;
+extern
+crate
 collections
 ;
 extern
@@ -244,6 +248,10 @@ codegen
 {
 pub
 mod
+Bindings
+;
+pub
+mod
 InterfaceTypes
 ;
 pub
@@ -257,10 +265,6 @@ PrototypeList
 pub
 mod
 RegisterBindings
-;
-pub
-mod
-Bindings
 ;
 pub
 mod

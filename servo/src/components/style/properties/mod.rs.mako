@@ -1733,7 +1733,7 @@ value
 match
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -2858,7 +2858,7 @@ value
 if
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -3388,7 +3388,7 @@ value
 match
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -3753,8 +3753,7 @@ Content
 {
 StringContent
 (
-~
-str
+String
 )
 }
 #
@@ -3901,7 +3900,7 @@ keyword
 match
 keyword
 .
-to_owned
+as_slice
 (
 )
 .
@@ -3983,7 +3982,7 @@ StringContent
 (
 value
 .
-to_owned
+clone
 (
 )
 )
@@ -4247,7 +4246,7 @@ value
 if
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -4950,8 +4949,7 @@ FontFamily
 {
 FamilyName
 (
-~
-str
+String
 )
 /
 /
@@ -5016,7 +5014,7 @@ FamilyName
 serif
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -5214,7 +5212,7 @@ FamilyName
 (
 value
 .
-to_owned
+clone
 (
 )
 )
@@ -5237,7 +5235,7 @@ value
 match
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -5596,7 +5594,7 @@ value
 match
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -8795,7 +8793,7 @@ ident
 if
 ident
 .
-to_owned
+as_slice
 (
 )
 .
@@ -9284,7 +9282,7 @@ unsafe
 mem
 :
 :
-init
+zeroed
 (
 )
 }
@@ -9764,6 +9762,10 @@ rule
 .
 name
 )
+.
+as_slice
+(
+)
 )
 Declaration
 (
@@ -9839,7 +9841,7 @@ parse
 (
 n
 .
-to_owned
+as_slice
 (
 )
 v
@@ -9882,6 +9884,10 @@ to_css
 (
 )
 )
+.
+as_slice
+(
+)
 )
 InvalidValue
 =
@@ -9912,6 +9918,10 @@ iter
 to_css
 (
 )
+)
+.
+as_slice
+(
 )
 )
 ValidOrIgnoredDeclaration
@@ -10177,7 +10187,7 @@ name_lower
 =
 name
 .
-to_owned
+as_slice
 (
 )
 .

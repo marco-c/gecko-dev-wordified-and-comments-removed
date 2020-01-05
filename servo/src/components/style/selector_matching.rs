@@ -62,7 +62,7 @@ servo_util
 smallvec
 :
 :
-SmallVec
+VecLike
 ;
 use
 servo_util
@@ -241,8 +241,11 @@ this
 .
 eq_ignore_ascii_case
 (
-*
 other
+.
+as_slice
+(
+)
 )
 }
 }
@@ -350,7 +353,7 @@ to_ascii_nocheck
 (
 )
 .
-to_lower
+to_lowercase
 (
 )
 .
@@ -842,7 +845,7 @@ E
 >
 V
 :
-SmallVec
+VecLike
 <
 MatchedProperty
 >
@@ -900,7 +903,7 @@ init_len
 =
 matching_rules_list
 .
-len
+vec_len
 (
 )
 ;
@@ -1095,7 +1098,7 @@ quicksort
 (
 matching_rules_list
 .
-mut_slice_from
+vec_mut_slice_from
 (
 init_len
 )
@@ -1116,7 +1119,7 @@ E
 >
 V
 :
-SmallVec
+VecLike
 <
 MatchedProperty
 >
@@ -1205,7 +1208,7 @@ E
 >
 V
 :
-SmallVec
+VecLike
 <
 MatchedProperty
 >
@@ -1312,7 +1315,7 @@ E
 >
 V
 :
-SmallVec
+VecLike
 <
 MatchedProperty
 >
@@ -1375,7 +1378,7 @@ inefficient
 ?
 matching_rules
 .
-push
+vec_push
 (
 rule
 .
@@ -1688,8 +1691,7 @@ Rule
 >
 Option
 <
-~
-str
+String
 >
 {
 let
@@ -1789,8 +1791,7 @@ Rule
 >
 Option
 <
-~
-str
+String
 >
 {
 let
@@ -1892,8 +1893,7 @@ Rule
 >
 Option
 <
-~
-str
+String
 >
 {
 let
@@ -1955,6 +1955,10 @@ return
 Some
 (
 name
+.
+as_slice
+(
+)
 .
 to_ascii_lower
 (
@@ -2445,7 +2449,7 @@ E
 >
 V
 :
-SmallVec
+VecLike
 <
 MatchedProperty
 >
@@ -2635,7 +2639,7 @@ false
 ;
 applicable_declarations
 .
-push
+vec_push
 (
 MatchedProperty
 :
@@ -2705,7 +2709,7 @@ false
 ;
 applicable_declarations
 .
-push
+vec_push
 (
 MatchedProperty
 :
@@ -4350,8 +4354,11 @@ attr
 attr
 =
 =
-*
 id
+.
+as_slice
+(
+)
 }
 )
 }

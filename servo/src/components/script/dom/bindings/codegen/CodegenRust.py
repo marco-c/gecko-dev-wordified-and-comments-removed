@@ -4177,7 +4177,7 @@ unwrap
 (
 )
 .
-to_owned
+to_string
 (
 )
 "
@@ -4600,7 +4600,7 @@ n
 "
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -15580,7 +15580,7 @@ CreateProxyHandler
 (
 &
 traps
-cast
+mem
 :
 :
 transmute
@@ -20111,7 +20111,7 @@ as
 uint
 ]
 .
-to_owned
+to_string
 (
 )
 .
@@ -29943,7 +29943,7 @@ Box
 s
 >
 =
-cast
+mem
 :
 :
 transmute
@@ -34137,7 +34137,7 @@ DOMString
 std
 :
 :
-cast
+mem
 '
             
 '

@@ -50,17 +50,9 @@ generate_file
 (
 config
 name
+filename
 )
 :
-    
-filename
-=
-name
-+
-'
-.
-rs
-'
     
 root
 =
@@ -400,6 +392,11 @@ config
 '
 PrototypeList
 '
+'
+PrototypeList
+.
+rs
+'
 )
     
 generate_file
@@ -407,6 +404,11 @@ generate_file
 config
 '
 RegisterBindings
+'
+'
+RegisterBindings
+.
+rs
 '
 )
     
@@ -416,6 +418,11 @@ config
 '
 InterfaceTypes
 '
+'
+InterfaceTypes
+.
+rs
+'
 )
     
 generate_file
@@ -423,6 +430,11 @@ generate_file
 config
 '
 InheritTypes
+'
+'
+InheritTypes
+.
+rs
 '
 )
     
@@ -432,6 +444,13 @@ config
 '
 Bindings
 '
+'
+Bindings
+/
+mod
+.
+rs
+'
 )
     
 generate_file
@@ -439,6 +458,11 @@ generate_file
 config
 '
 UnionTypes
+'
+'
+UnionTypes
+.
+rs
 '
 )
 if

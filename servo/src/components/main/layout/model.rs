@@ -1557,8 +1557,6 @@ write
 !
 (
 f
-.
-buf
 "
 min
 =

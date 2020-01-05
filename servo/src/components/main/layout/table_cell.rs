@@ -674,8 +674,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableCellFlow
 :

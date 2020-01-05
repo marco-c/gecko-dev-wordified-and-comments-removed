@@ -296,10 +296,7 @@ use
 std
 :
 :
-cast
-:
-:
-transmute
+mem
 ;
 use
 std
@@ -3211,6 +3208,9 @@ len
 as
 c_uint
 HB_MEMORY_MODE_READONLY
+mem
+:
+:
 transmute
 (
 skinny_font_table_ptr

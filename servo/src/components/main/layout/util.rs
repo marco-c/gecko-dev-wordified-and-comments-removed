@@ -112,7 +112,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -358,7 +358,7 @@ Option
 LayoutDataWrapper
 >
 {
-cast
+mem
 :
 :
 transmute
@@ -409,7 +409,7 @@ LayoutDataWrapper
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -461,7 +461,7 @@ LayoutDataWrapper
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -675,7 +675,7 @@ ptr
 :
 uintptr_t
 =
-cast
+mem
 :
 :
 transmute
@@ -723,7 +723,7 @@ addr
 :
 UntrustedNodeAddress
 =
-cast
+mem
 :
 :
 transmute

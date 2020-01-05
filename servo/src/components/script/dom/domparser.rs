@@ -356,7 +356,7 @@ text
 html
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -390,7 +390,7 @@ text
 xml
 "
 .
-to_owned
+to_string
 (
 )
 )

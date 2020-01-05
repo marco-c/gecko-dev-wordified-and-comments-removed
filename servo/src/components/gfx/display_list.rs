@@ -3524,7 +3524,7 @@ let
 mut
 indent
 =
-StrBuf
+String
 :
 :
 new
@@ -3617,8 +3617,6 @@ write
 !
 (
 f
-.
-buf
 "
 {
 }

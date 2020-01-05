@@ -1232,8 +1232,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableRowFlow
 :

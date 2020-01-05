@@ -124,7 +124,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 #
 [
@@ -611,7 +611,7 @@ clone
 ;
 FONT_CONTEXT
 =
-cast
+mem
 :
 :
 transmute
@@ -619,7 +619,7 @@ transmute
 context
 )
 }
-cast
+mem
 :
 :
 transmute
@@ -748,7 +748,7 @@ new
 ;
 APPLICABLE_DECLARATIONS_CACHE
 =
-cast
+mem
 :
 :
 transmute
@@ -756,7 +756,7 @@ transmute
 cache
 )
 }
-cast
+mem
 :
 :
 transmute
@@ -885,7 +885,7 @@ new
 ;
 STYLE_SHARING_CANDIDATE_CACHE
 =
-cast
+mem
 :
 :
 transmute
@@ -893,7 +893,7 @@ transmute
 cache
 )
 }
-cast
+mem
 :
 :
 transmute
@@ -1031,7 +1031,7 @@ c
 >
 context
 =
-cast
+mem
 :
 :
 transmute
@@ -1044,7 +1044,7 @@ None
 {
 context
 =
-cast
+mem
 :
 :
 transmute
@@ -1076,7 +1076,7 @@ context
 )
 )
 ;
-cast
+mem
 :
 :
 transmute
@@ -1133,7 +1133,7 @@ c
 >
 cache
 =
-cast
+mem
 :
 :
 transmute
@@ -1146,7 +1146,7 @@ None
 {
 cache
 =
-cast
+mem
 :
 :
 transmute
@@ -1172,7 +1172,7 @@ cache
 )
 )
 ;
-cast
+mem
 :
 :
 transmute
@@ -1229,7 +1229,7 @@ c
 >
 cache
 =
-cast
+mem
 :
 :
 transmute
@@ -1242,7 +1242,7 @@ None
 {
 cache
 =
-cast
+mem
 :
 :
 transmute
@@ -1268,7 +1268,7 @@ cache
 )
 )
 ;
-cast
+mem
 :
 :
 transmute

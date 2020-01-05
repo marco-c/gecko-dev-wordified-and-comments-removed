@@ -361,8 +361,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableCaptionFlow
 :

@@ -576,6 +576,10 @@ STATE_BODY
 parse_nested_at_rule
 (
 lower_name
+.
+as_slice
+(
+)
 rule
 &
 mut
@@ -729,6 +733,10 @@ selector
 "
 serialized
 )
+.
+as_slice
+(
+)
 )
 }
 }
@@ -799,6 +807,10 @@ s
 }
 "
 lower_name
+)
+.
+as_slice
+(
 )
 )
 }

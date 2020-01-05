@@ -315,7 +315,7 @@ s
 std
 :
 :
-cast
+mem
 :
 :
 transmute
@@ -406,14 +406,13 @@ static
 ref
 OWNED_STRING
 :
-~
-str
+String
 =
 "
 hello
 "
 .
-to_owned
+to_string
 (
 )
 ;
@@ -515,7 +514,7 @@ OWNED_STRING
 hello
 "
 .
-to_owned
+to_string
 (
 )
 )

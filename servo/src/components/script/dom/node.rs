@@ -412,21 +412,6 @@ use
 std
 :
 :
-cast
-:
-:
-transmute
-;
-use
-std
-:
-:
-cast
-;
-use
-std
-:
-:
 cell
 :
 :
@@ -888,7 +873,7 @@ new
 (
 Some
 (
-cast
+mem
 :
 :
 transmute
@@ -1082,7 +1067,7 @@ Option
 LayoutData
 >
 {
-cast
+mem
 :
 :
 transmute
@@ -2597,8 +2582,7 @@ self
 )
 -
 >
-~
-str
+String
 ;
 fn
 traverse_preorder
@@ -2775,7 +2759,7 @@ let
 mut
 s
 =
-StrBuf
+String
 :
 :
 new
@@ -2807,6 +2791,10 @@ push_str
 self
 .
 debug_str
+(
+)
+.
+as_slice
 (
 )
 )
@@ -2872,8 +2860,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 format
 !
@@ -4171,7 +4158,7 @@ candidate
 :
 uintptr_t
 =
-cast
+mem
 :
 :
 transmute
@@ -9899,7 +9886,7 @@ TextNodeTypeId
 text
 "
 .
-to_owned
+to_string
 (
 )
 ProcessingInstructionNodeTypeId
@@ -9941,7 +9928,7 @@ CommentNodeTypeId
 comment
 "
 .
-to_owned
+to_string
 (
 )
 DoctypeNodeTypeId
@@ -9991,7 +9978,7 @@ document
 fragment
 "
 .
-to_owned
+to_string
 (
 )
 DocumentNodeTypeId
@@ -10002,7 +9989,7 @@ DocumentNodeTypeId
 document
 "
 .
-to_owned
+to_string
 (
 )
 }
@@ -10619,7 +10606,7 @@ let
 mut
 content
 =
-StrBuf
+String
 :
 :
 new

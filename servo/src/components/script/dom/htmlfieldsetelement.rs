@@ -458,6 +458,10 @@ deref
 )
 .
 local_name
+.
+as_slice
+(
+)
 )
 }
 }

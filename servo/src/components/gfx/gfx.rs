@@ -78,6 +78,10 @@ log
 ;
 extern
 crate
+debug
+;
+extern
+crate
 azure
 ;
 extern
@@ -337,6 +341,13 @@ use
 servo_gfx_font_list
 =
 font_list
+;
+pub
+use
+render_context
+:
+:
+RenderContext
 ;
 /
 /

@@ -2798,8 +2798,7 @@ mut
 self
 url_string
 :
-~
-str
+String
 )
 {
 debug
@@ -2879,6 +2878,10 @@ url
 parse_url
 (
 url_string
+.
+as_slice
+(
+)
 None
 )
 )
@@ -3877,7 +3880,6 @@ from_str
 Path
 >
 (
-*
 self
 .
 opts
@@ -3885,6 +3887,10 @@ opts
 output_file
 .
 get_ref
+(
+)
+.
+as_slice
 (
 )
 )

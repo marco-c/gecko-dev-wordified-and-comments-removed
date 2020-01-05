@@ -36,12 +36,6 @@ use
 std
 :
 :
-cast
-;
-use
-std
-:
-:
 mem
 ;
 use
@@ -106,7 +100,7 @@ LocalImageCache
 >
 >
 =
-cast
+mem
 :
 :
 transmute
@@ -153,7 +147,7 @@ unsafe
 let
 handle
 =
-cast
+mem
 :
 :
 transmute
@@ -234,7 +228,7 @@ LocalImageCacheHandle
 {
 data
 :
-cast
+mem
 :
 :
 transmute
@@ -275,7 +269,7 @@ LocalImageCache
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute

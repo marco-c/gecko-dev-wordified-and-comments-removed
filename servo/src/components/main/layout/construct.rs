@@ -2434,7 +2434,7 @@ from_text
 "
 "
 .
-to_owned
+to_string
 (
 )
 )

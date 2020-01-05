@@ -112,8 +112,7 @@ url
 Url
 err
 :
-~
-str
+String
 start_chan
 :
 Sender
@@ -269,7 +268,7 @@ many
 redirects
 "
 .
-to_owned
+to_string
 (
 )
 start_chan
@@ -295,7 +294,7 @@ redirect
 loop
 "
 .
-to_owned
+to_string
 (
 )
 start_chan
@@ -324,6 +323,10 @@ http
 url
 .
 scheme
+.
+as_slice
+(
+)
 {
 let
 s
@@ -434,7 +437,7 @@ e
 .
 desc
 .
-to_owned
+to_string
 (
 )
 start_chan
@@ -552,7 +555,7 @@ e
 .
 desc
 .
-to_owned
+to_string
 (
 )
 start_chan
@@ -609,7 +612,7 @@ e
 .
 desc
 .
-to_owned
+to_string
 (
 )
 start_chan

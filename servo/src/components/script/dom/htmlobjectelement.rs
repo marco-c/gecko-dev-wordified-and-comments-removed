@@ -516,6 +516,10 @@ if
 is_image_data
 (
 uri
+.
+as_slice
+(
+)
 )
 {
 let
@@ -524,6 +528,10 @@ data_url
 parse_url
 (
 uri
+.
+as_slice
+(
+)
 url
 )
 ;
@@ -743,6 +751,10 @@ data
 =
 =
 name
+.
+as_slice
+(
+)
 {
 let
 window

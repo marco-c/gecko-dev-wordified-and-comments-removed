@@ -1685,8 +1685,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableFlow
 :

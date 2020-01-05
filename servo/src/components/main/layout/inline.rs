@@ -725,8 +725,6 @@ write
 !
 (
 f
-.
-buf
 "
 {
 }
@@ -6564,8 +6562,6 @@ write
 !
 (
 f
-.
-buf
 "
 InlineFlow
 "
@@ -6606,8 +6602,6 @@ write
 !
 (
 f
-.
-buf
 "
 :
 {
@@ -6626,8 +6620,6 @@ write
 !
 (
 f
-.
-buf
 "
 {
 }

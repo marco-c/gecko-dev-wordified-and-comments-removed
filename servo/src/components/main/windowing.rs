@@ -86,8 +86,7 @@ uint
 )
 LoadUrlWindowEvent
 (
-~
-str
+String
 )
 MouseWindowEventClass
 (

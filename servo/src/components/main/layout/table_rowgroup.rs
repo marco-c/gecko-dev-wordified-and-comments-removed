@@ -1152,8 +1152,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableRowGroupFlow
 :

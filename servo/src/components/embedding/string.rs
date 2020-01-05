@@ -48,10 +48,7 @@ use
 std
 :
 :
-cast
-:
-:
-transmute
+mem
 ;
 use
 std
@@ -284,6 +281,9 @@ if
 !
 fptr_is_null
 (
+mem
+:
+:
 transmute
 (
 (
@@ -345,6 +345,9 @@ cs
 .
 dtor
 =
+mem
+:
+:
 transmute
 (
 0
@@ -531,6 +534,9 @@ output
 .
 str
 =
+mem
+:
+:
 transmute
 (
 src
@@ -552,6 +558,9 @@ output
 .
 dtor
 =
+mem
+:
+:
 transmute
 (
 0
@@ -591,6 +600,9 @@ if
 !
 fptr_is_null
 (
+mem
+:
+:
 transmute
 (
 (
@@ -652,6 +664,9 @@ cs
 .
 dtor
 =
+mem
+:
+:
 transmute
 (
 0
@@ -838,6 +853,9 @@ output
 .
 str
 =
+mem
+:
+:
 transmute
 (
 src
@@ -859,6 +877,9 @@ output
 .
 dtor
 =
+mem
+:
+:
 transmute
 (
 0
@@ -898,6 +919,9 @@ if
 !
 fptr_is_null
 (
+mem
+:
+:
 transmute
 (
 (
@@ -959,6 +983,9 @@ cs
 .
 dtor
 =
+mem
+:
+:
 transmute
 (
 0
@@ -1145,6 +1172,9 @@ output
 .
 str
 =
+mem
+:
+:
 transmute
 (
 src
@@ -1166,6 +1196,9 @@ output
 .
 dtor
 =
+mem
+:
+:
 transmute
 (
 0

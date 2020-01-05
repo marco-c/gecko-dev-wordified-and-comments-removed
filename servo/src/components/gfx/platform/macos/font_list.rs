@@ -87,7 +87,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 pub
 struct
@@ -177,7 +177,7 @@ CFStringRef
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -238,6 +238,10 @@ FontFamily
 new
 (
 family_name
+.
+as_slice
+(
+)
 )
 ;
 family_map
@@ -298,6 +302,10 @@ create_for_family
 family
 .
 family_name
+.
+as_slice
+(
+)
 )
 ;
 let
@@ -325,7 +333,7 @@ CTFontDescriptorRef
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -439,8 +447,7 @@ get_last_resort_font_families
 >
 Vec
 <
-~
-str
+String
 >
 {
 vec
@@ -452,14 +459,14 @@ Unicode
 MS
 "
 .
-to_owned
+to_string
 (
 )
 "
 Arial
 "
 .
-to_owned
+to_string
 (
 )
 )

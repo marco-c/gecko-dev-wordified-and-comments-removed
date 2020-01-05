@@ -514,6 +514,10 @@ match
 xml_name_type
 (
 qname
+.
+as_slice
+(
+)
 )
 {
 /
@@ -1031,7 +1035,7 @@ new
 html
 "
 .
-to_owned
+to_string
 (
 )
 None
@@ -1097,7 +1101,7 @@ new
 html
 "
 .
-to_owned
+to_string
 (
 )
 &
@@ -1162,7 +1166,7 @@ new
 head
 "
 .
-to_owned
+to_string
 (
 )
 &
@@ -1248,7 +1252,7 @@ new
 title
 "
 .
-to_owned
+to_string
 (
 )
 &
@@ -1370,7 +1374,7 @@ new
 body
 "
 .
-to_owned
+to_string
 (
 )
 &

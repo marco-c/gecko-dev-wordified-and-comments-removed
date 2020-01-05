@@ -35,7 +35,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 impl
 NativeSurfaceAzureMethods
@@ -62,7 +62,7 @@ IOSurface
 {
 obj
 :
-cast
+mem
 :
 :
 transmute
