@@ -195,6 +195,9 @@ String
 profilerActor
 :
 String
+performanceActor
+:
+String
 }
 pub
 struct
@@ -226,6 +229,10 @@ timeline
 String
 pub
 profiler
+:
+String
+pub
+performance
 :
 String
 }
@@ -653,6 +660,15 @@ profilerActor
 self
 .
 profiler
+.
+clone
+(
+)
+performanceActor
+:
+self
+.
+performance
 .
 clone
 (
