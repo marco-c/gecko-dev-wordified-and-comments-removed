@@ -810,6 +810,11 @@ a
 preferredAlternativeType
 (
 )
+a
+.
+topLevelOuterContentWindowId
+(
+)
 )
 ;
 }
@@ -1651,6 +1656,10 @@ const
 nsCString
 &
 aPreferredAlternativeType
+const
+uint64_t
+&
+aTopLevelOuterContentWindowId
 )
 {
 nsCOMPtr
@@ -1933,6 +1942,14 @@ mChannel
 SetTopLevelContentWindowId
 (
 aContentWindowId
+)
+;
+mChannel
+-
+>
+SetTopLevelOuterContentWindowId
+(
+aTopLevelOuterContentWindowId
 )
 ;
 mChannel

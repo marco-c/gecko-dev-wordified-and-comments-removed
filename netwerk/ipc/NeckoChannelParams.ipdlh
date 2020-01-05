@@ -848,6 +848,9 @@ contentWindowId
 nsCString
 preferredAlternativeType
 ;
+uint64_t
+topLevelOuterContentWindowId
+;
 }
 ;
 struct

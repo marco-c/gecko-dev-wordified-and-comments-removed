@@ -192,6 +192,8 @@ callbacks
 nsITransportEventSink
 *
 eventsink
+uint64_t
+topLevelOuterContentWindowId
 nsIAsyncInputStream
 *
 *
@@ -672,6 +674,15 @@ aAlpnChanged
 )
 override
 ;
+uint64_t
+TopLevelOuterContentWindowId
+(
+)
+{
+return
+mTopLevelOuterContentWindowId
+;
+}
 private
 :
 friend
@@ -1185,6 +1196,9 @@ mResponseHeadTaken
 ;
 TimeStamp
 mPendingTime
+;
+uint64_t
+mTopLevelOuterContentWindowId
 ;
 public
 :

@@ -494,6 +494,10 @@ const
 nsCString
 &
 aPreferredAlternativeType
+const
+uint64_t
+&
+aTopLevelOuterContentWindowId
 )
 ;
 virtual
