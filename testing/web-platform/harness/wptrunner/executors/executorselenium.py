@@ -1123,20 +1123,44 @@ is_alive
 )
     
 def
-on_protocol_change
+on_environment_change
 (
 self
-new_protocol
+new_environment
 )
 :
         
+if
+new_environment
+[
+"
+protocol
+"
+]
+!
+=
+self
+.
+last_environment
+[
+"
+protocol
+"
+]
+:
+            
 self
 .
 protocol
 .
 load_runner
 (
-new_protocol
+new_environment
+[
+"
+protocol
+"
+]
 )
     
 def
