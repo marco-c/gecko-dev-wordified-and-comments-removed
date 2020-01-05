@@ -66,11 +66,11 @@ vUv1
 ;
 flat
 varying
-ivec2
-vInfo
+vec4
+vUv1Rect
 ;
 flat
 varying
-float
-vAmount
+int
+vOp
 ;

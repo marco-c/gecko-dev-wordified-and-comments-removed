@@ -60,7 +60,13 @@ varying
 vec2
 vUv
 ;
+flat
 varying
-vec2
-vBrightnessOpacity
+float
+vAmount
+;
+flat
+varying
+int
+vOp
 ;
