@@ -114,7 +114,7 @@ interface
 nsIContent
 ;
 interface
-nsISupportsArray
+nsIArray
 ;
 interface
 nsISelection
@@ -3288,7 +3288,7 @@ nodes
 found
 *
 /
-nsISupportsArray
+nsIArray
 getLinkedObjects
 (
 )
