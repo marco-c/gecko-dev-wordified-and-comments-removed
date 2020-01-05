@@ -8856,9 +8856,14 @@ node
 :
 ?
 }
+{
+:
+?
+}
 "
 display
 float
+positioning
 node
 .
 type_id
