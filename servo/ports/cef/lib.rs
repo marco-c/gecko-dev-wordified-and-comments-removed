@@ -21,16 +21,6 @@ unstable
 )
 ]
 #
-!
-[
-deny
-(
-unused_imports
-unused_variables
-unused_mut
-)
-]
-#
 [
 macro_use
 ]

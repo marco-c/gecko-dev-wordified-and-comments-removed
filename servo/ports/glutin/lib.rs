@@ -10,15 +10,6 @@ int_uint
 #
 !
 [
-deny
-(
-unused_imports
-unused_variables
-)
-]
-#
-!
-[
 allow
 (
 unstable
