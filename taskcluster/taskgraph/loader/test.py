@@ -166,6 +166,9 @@ tests
 .
 yml
 '
+enforce_order
+=
+True
 )
     
 for
