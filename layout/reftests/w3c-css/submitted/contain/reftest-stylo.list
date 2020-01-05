@@ -28,7 +28,6 @@ contain
 enabled
 true
 )
-fails
 =
 =
 contain
@@ -49,7 +48,6 @@ clip
 001
 .
 html
-fails
 =
 =
 contain
@@ -70,7 +68,12 @@ clip
 002
 .
 html
-fails
+asserts
+(
+0
+-
+2
+)
 =
 =
 contain
@@ -91,7 +94,12 @@ clip
 003
 .
 html
-fails
+asserts
+(
+0
+-
+2
+)
 =
 =
 contain
@@ -112,7 +120,12 @@ clip
 004
 .
 html
-fails
+asserts
+(
+0
+-
+2
+)
 =
 =
 contain
@@ -133,7 +146,6 @@ clip
 005
 .
 html
-fails
 =
 =
 contain
@@ -162,7 +174,6 @@ absolute
 001
 .
 html
-fails
 =
 =
 contain
@@ -191,7 +202,6 @@ fixed
 001
 .
 html
-fails
 =
 =
 contain
@@ -220,7 +230,6 @@ float
 001
 .
 html
-fails
 =
 =
 contain
