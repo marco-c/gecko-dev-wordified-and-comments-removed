@@ -89,10 +89,7 @@ GetTransform
 (
 )
 ;
-gfx
-:
-:
-Rect
+LayerRect
 relBounds
 =
 GetWrRelBounds

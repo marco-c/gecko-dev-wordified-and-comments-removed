@@ -326,10 +326,7 @@ PreScale
 )
 ;
 }
-gfx
-:
-:
-Rect
+LayerRect
 relBounds
 =
 GetWrRelBounds

@@ -2094,7 +2094,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-Rect
+LayoutDeviceRect
 destRect
 =
 LayoutDeviceRect
@@ -2105,12 +2105,8 @@ FromAppUnits
 mDest
 appUnitsPerDevPixel
 )
-.
-ToUnknownRect
-(
-)
 ;
-Rect
+LayerRect
 destRectTransformed
 =
 aLayer
@@ -2121,7 +2117,7 @@ RelativeToParent
 destRect
 )
 ;
-IntRect
+LayerIntRect
 dest
 =
 RoundedToInt
@@ -2350,7 +2346,7 @@ AppUnitsPerDevPixel
 bool
 dummy
 ;
-Rect
+LayoutDeviceRect
 destRect
 =
 LayoutDeviceRect
@@ -2369,11 +2365,10 @@ dummy
 )
 appUnitsPerDevPixel
 )
-.
-ToUnknownRect
-(
-)
 ;
+gfx
+:
+:
 Rect
 destRectTransformed
 =
@@ -2383,6 +2378,10 @@ aLayer
 RelativeToParent
 (
 destRect
+)
+.
+ToUnknownRect
+(
 )
 ;
 layer

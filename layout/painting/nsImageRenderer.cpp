@@ -3048,7 +3048,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-Rect
+LayoutDeviceRect
 destRect
 =
 LayoutDeviceRect
@@ -3059,12 +3059,8 @@ FromAppUnits
 aDest
 appUnitsPerDevPixel
 )
-.
-ToUnknownRect
-(
-)
 ;
-Rect
+LayerRect
 dest
 =
 aLayer
@@ -3075,7 +3071,7 @@ RelativeToParent
 destRect
 )
 ;
-Rect
+LayoutDeviceRect
 fillRect
 =
 LayoutDeviceRect
@@ -3086,12 +3082,8 @@ FromAppUnits
 aFill
 appUnitsPerDevPixel
 )
-.
-ToUnknownRect
-(
-)
 ;
-Rect
+LayerRect
 fill
 =
 aLayer
@@ -3102,7 +3094,7 @@ RelativeToParent
 fillRect
 )
 ;
-Rect
+LayerRect
 clip
 =
 fill
