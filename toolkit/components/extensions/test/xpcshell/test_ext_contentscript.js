@@ -46,6 +46,12 @@ primaryPort
 /
 data
 ;
+ExtensionTestUtils
+.
+mockAppInfo
+(
+)
+;
 add_task
 (
 function
