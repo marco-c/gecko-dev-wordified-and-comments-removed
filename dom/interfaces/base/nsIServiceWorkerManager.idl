@@ -289,11 +289,6 @@ attribute
 nsIWorkerDebugger
 debugger
 ;
-readonly
-attribute
-bool
-handlesFetchEvents
-;
 void
 attachDebugger
 (

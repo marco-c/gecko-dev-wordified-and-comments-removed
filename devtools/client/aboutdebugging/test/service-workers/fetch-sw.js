@@ -1,8 +1,0 @@
-onfetch
-=
-function
-(
-event
-)
-{
-}
