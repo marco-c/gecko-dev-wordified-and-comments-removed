@@ -20909,7 +20909,7 @@ browser
 addEventListener
 (
 "
-DOMWindowFocus
+DOMServiceWorkerFocusClient
 "
 this
 true
@@ -21714,7 +21714,7 @@ browser
 removeEventListener
 (
 "
-DOMWindowFocus
+DOMServiceWorkerFocusClient
 "
 this
 true
@@ -24560,7 +24560,7 @@ break
 }
 case
 "
-DOMWindowFocus
+DOMServiceWorkerFocusClient
 "
 :
 {
