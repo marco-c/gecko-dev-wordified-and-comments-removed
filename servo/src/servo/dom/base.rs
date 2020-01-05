@@ -245,10 +245,15 @@ es_unknown
 es_div
 es_img
 (
+{
+mut
+size
+:
 size
 <
 au
 >
+}
 )
 es_head
 }

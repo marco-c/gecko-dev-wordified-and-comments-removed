@@ -907,12 +907,13 @@ bk_block
 }
 es_img
 (
+{
 size
+}
 )
 {
 bk_intrinsic
 (
-copy
 size
 )
 }

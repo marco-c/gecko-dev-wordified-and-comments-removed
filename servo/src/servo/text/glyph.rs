@@ -61,7 +61,6 @@ self
 advance
 =
 {
-mut
 x
 :
 px_to_au
@@ -72,7 +71,6 @@ x_advance
 as
 int
 )
-mut
 y
 :
 px_to_au
@@ -90,7 +88,6 @@ self
 offset
 =
 {
-mut
 x
 :
 px_to_au
@@ -101,7 +98,6 @@ x_offset
 as
 int
 )
-mut
 y
 :
 px_to_au

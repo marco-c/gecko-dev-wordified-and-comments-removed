@@ -38,6 +38,9 @@ import
 js
 :
 :
+rust
+:
+:
 methods
 ;
 enum
@@ -180,6 +183,9 @@ let
 rt
 =
 js
+:
+:
+rust
 :
 :
 rt
@@ -426,7 +432,10 @@ cx
 .
 new_compartment
 (
-jsglobal
+js
+:
+:
+global
 :
 :
 global_class
@@ -441,10 +450,13 @@ comp
 .
 define_functions
 (
-jsglobal
+js
 :
 :
-global_fns
+global
+:
+:
+debug_fns
 )
 ;
 cx

@@ -187,14 +187,12 @@ bounds
 origin
 =
 {
-mut
 x
 :
 au
 (
 x
 )
-mut
 y
 :
 y
@@ -260,11 +258,9 @@ bounds
 size
 =
 {
-mut
 width
 :
 available_width
-mut
 height
 :
 au
