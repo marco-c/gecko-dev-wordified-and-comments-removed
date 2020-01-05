@@ -259,10 +259,7 @@ Rule
 {
 selector
 :
-(
-*
 selector
-)
 .
 clone
 (
@@ -517,6 +514,7 @@ T
 E
 >
 (
+&
 rule
 .
 selector
