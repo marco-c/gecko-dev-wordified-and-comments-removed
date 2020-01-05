@@ -778,7 +778,7 @@ rel
 AttrValue
 :
 :
-from_tokenlist
+from_serialized_tokenlist
 (
 value
 )

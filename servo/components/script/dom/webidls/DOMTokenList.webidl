@@ -136,8 +136,9 @@ DOMString
 token
 )
 ;
-/
-/
+[
+Throws
+]
 void
 add
 (
@@ -148,8 +149,9 @@ DOMString
 tokens
 )
 ;
-/
-/
+[
+Throws
+]
 void
 remove
 (
@@ -160,8 +162,9 @@ DOMString
 tokens
 )
 ;
-/
-/
+[
+Throws
+]
 boolean
 toggle
 (
