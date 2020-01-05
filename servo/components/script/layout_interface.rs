@@ -142,6 +142,10 @@ AddStylesheetMsg
 (
 Stylesheet
 )
+LoadStylesheetMsg
+(
+Url
+)
 ReflowMsg
 (
 Box

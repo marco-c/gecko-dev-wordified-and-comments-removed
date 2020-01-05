@@ -410,6 +410,10 @@ clone
 (
 )
 resource_task
+.
+clone
+(
+)
 image_cache_task
 .
 clone
@@ -584,6 +588,7 @@ render_chan
 clone
 (
 )
+resource_task
 image_cache_task
 font_cache_task
 opts

@@ -110,6 +110,15 @@ image_cache_task
 ImageCacheTask
 ;
 use
+servo_net
+:
+:
+resource_task
+:
+:
+ResourceTask
+;
+use
 servo_util
 :
 :
@@ -201,6 +210,9 @@ ScriptControlChan
 render_chan
 :
 RenderChan
+resource_task
+:
+ResourceTask
 img_cache_task
 :
 ImageCacheTask
