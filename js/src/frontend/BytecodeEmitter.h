@@ -2526,6 +2526,15 @@ iter
 ;
 MOZ_MUST_USE
 bool
+emitAwait
+(
+ParseNode
+*
+pn
+)
+;
+MOZ_MUST_USE
+bool
 emitPropLHS
 (
 ParseNode

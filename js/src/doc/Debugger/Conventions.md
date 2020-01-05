@@ -904,8 +904,6 @@ frame
 is
 a
 generator
-or
-async
 function
 then
 <
