@@ -20,6 +20,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip_if_mobile
 WindowManagerMixin
 class
 TestKeyActions
@@ -603,6 +604,20 @@ self
 .
 key_reporter_value
 "
+"
+)
+    
+skip_if_mobile
+(
+"
+Interacting
+with
+chrome
+windows
+not
+available
+for
+Fennec
 "
 )
     
