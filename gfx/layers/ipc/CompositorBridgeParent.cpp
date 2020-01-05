@@ -5795,6 +5795,14 @@ layersId
 mRootLayerTreeID
 ;
 }
+RefPtr
+<
+CompositorBridgeParent
+>
+self
+=
+this
+;
 APZThreadUtils
 :
 :
@@ -5808,6 +5816,9 @@ NS_NewRunnableFunction
 (
 )
 {
+self
+-
+>
 mApzcTreeManager
 -
 >
