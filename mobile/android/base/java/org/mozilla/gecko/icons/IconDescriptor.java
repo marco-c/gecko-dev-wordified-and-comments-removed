@@ -23,6 +23,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 Nullable
 ;
 import
@@ -108,6 +117,7 @@ static
 IconDescriptor
 createGenericIcon
 (
+NonNull
 String
 url
 )
@@ -128,6 +138,7 @@ static
 IconDescriptor
 createFavicon
 (
+NonNull
 String
 url
 int
@@ -152,6 +163,7 @@ static
 IconDescriptor
 createTouchicon
 (
+NonNull
 String
 url
 int
@@ -176,6 +188,7 @@ static
 IconDescriptor
 createLookupIcon
 (
+NonNull
 String
 url
 )
@@ -197,6 +210,7 @@ IconDescriptor
 IconType
 int
 type
+NonNull
 String
 url
 int

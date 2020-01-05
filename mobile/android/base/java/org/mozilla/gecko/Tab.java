@@ -288,6 +288,15 @@ Bundle
 import
 android
 .
+support
+.
+annotation
+.
+NonNull
+;
+import
+android
+.
 text
 .
 TextUtils
@@ -1836,6 +1845,7 @@ synchronized
 void
 addFavicon
 (
+NonNull
 String
 faviconURL
 int
@@ -1868,6 +1878,7 @@ synchronized
 void
 addTouchicon
 (
+NonNull
 String
 iconUrl
 int

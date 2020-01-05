@@ -23,6 +23,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 VisibleForTesting
 ;
 import
@@ -120,6 +129,7 @@ public
 void
 rememberFailure
 (
+NonNull
 String
 iconUrl
 )
@@ -141,6 +151,7 @@ public
 boolean
 isKnownFailure
 (
+NonNull
 String
 iconUrl
 )
