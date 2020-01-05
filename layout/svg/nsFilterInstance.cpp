@@ -1853,6 +1853,14 @@ TopLeft
 GeneralPattern
 pattern
 ;
+DrawResult
+result
+=
+DrawResult
+:
+:
+SUCCESS
+;
 if
 (
 aSource
@@ -1862,6 +1870,8 @@ aSource
 mFillPaint
 )
 {
+result
+=
 nsSVGUtils
 :
 :
@@ -1884,6 +1894,8 @@ aSource
 mStrokePaint
 )
 {
+result
+=
 nsSVGUtils
 :
 :
@@ -1944,10 +1956,7 @@ mSurfaceRect
 neededRect
 ;
 return
-DrawResult
-:
-:
-SUCCESS
+result
 ;
 }
 DrawResult
