@@ -190,8 +190,7 @@ button
 ;
 ok
 (
-!
-isVisible
+isDisabled
 (
 button
 )
@@ -199,7 +198,7 @@ button
 The
 button
 is
-hidden
+disabled
 in
 the
 color
@@ -228,5 +227,17 @@ length
 =
 =
 0
+;
+}
+function
+isDisabled
+(
+button
+)
+{
+return
+button
+.
+disabled
 ;
 }
