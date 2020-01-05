@@ -1893,10 +1893,7 @@ if
 let
 Some
 (
-(
 x
-true
-)
 )
 =
 receiver

@@ -1090,9 +1090,6 @@ PipelineId
 new_pipeline_id
 :
 PipelineId
-document_ready
-:
-bool
 replace
 :
 bool
@@ -7738,9 +7735,6 @@ pipeline_id
 new_pipeline_id
 :
 new_pipeline_id
-document_ready
-:
-false
 replace
 :
 false
@@ -7984,9 +7978,6 @@ None
 new_pipeline_id
 :
 root_pipeline_id
-document_ready
-:
-false
 replace
 :
 false
@@ -8594,9 +8585,6 @@ load_info
 info
 .
 new_pipeline_id
-document_ready
-:
-false
 replace
 :
 load_info
@@ -8797,9 +8785,6 @@ None
 new_pipeline_id
 :
 new_pipeline_id
-document_ready
-:
-false
 replace
 :
 replace
@@ -9642,9 +9627,6 @@ source_id
 new_pipeline_id
 :
 new_pipeline_id
-document_ready
-:
-false
 replace
 :
 replace
@@ -10740,10 +10722,7 @@ IpcSender
 <
 Option
 <
-(
 PipelineId
-bool
-)
 >
 >
 )
@@ -10795,10 +10774,7 @@ map
 |
 id
 |
-(
 id
-true
-)
 )
 ;
 let
@@ -10834,14 +10810,9 @@ map
 |
 x
 |
-(
 x
 .
 new_pipeline_id
-x
-.
-document_ready
-)
 )
 .
 or
