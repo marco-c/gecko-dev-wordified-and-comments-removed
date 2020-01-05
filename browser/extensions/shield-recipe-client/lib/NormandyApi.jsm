@@ -94,6 +94,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+fetch
+"
+]
+)
+;
 this
 .
 EXPORTED_SYMBOLS
