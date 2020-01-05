@@ -210,6 +210,8 @@ const
 OrientationType
 GetType
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

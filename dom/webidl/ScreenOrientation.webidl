@@ -232,6 +232,7 @@ unlock
 ;
 [
 Throws
+NeedsCallerType
 ]
 readonly
 attribute

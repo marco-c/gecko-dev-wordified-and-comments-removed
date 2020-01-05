@@ -1767,6 +1767,8 @@ ScreenOrientation
 :
 GetType
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1775,8 +1777,12 @@ const
 {
 if
 (
-ShouldResistFingerprinting
+nsContentUtils
+:
+:
+ResistFingerprinting
 (
+aCallerType
 )
 )
 {
