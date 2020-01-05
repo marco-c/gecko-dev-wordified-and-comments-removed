@@ -292,6 +292,9 @@ to_azure_rect
 )
 &
 ColorPattern
+:
+:
+new
 (
 color
 )
@@ -794,6 +797,9 @@ let
 draw_surface_options
 =
 DrawSurfaceOptions
+:
+:
+new
 (
 Linear
 true
@@ -803,6 +809,9 @@ let
 draw_options
 =
 DrawOptions
+:
+:
+new
 (
 1
 .
@@ -836,8 +845,14 @@ let
 pattern
 =
 ColorPattern
+:
+:
+new
 (
 Color
+:
+:
+new
 (
 0
 .
@@ -908,6 +923,9 @@ mut
 draw_options
 =
 DrawOptions
+:
+:
+new
 (
 1
 .
@@ -1455,6 +1473,9 @@ let
 draw_opts
 =
 DrawOptions
+:
+:
+new
 (
 1
 .
@@ -1716,6 +1737,9 @@ fill
 path
 &
 ColorPattern
+:
+:
+new
 (
 color
 )
@@ -1766,6 +1790,9 @@ let
 draw_opts
 =
 DrawOptions
+:
+:
+new
 (
 1
 as
@@ -1780,6 +1807,9 @@ mut
 stroke_opts
 =
 StrokeOptions
+:
+:
+new
 (
 0
 as
@@ -2181,6 +2211,9 @@ start
 end
 &
 ColorPattern
+:
+:
+new
 (
 color
 )
@@ -2391,6 +2424,9 @@ Color
 {
 return
 Color
+:
+:
+new
 (
 color
 .
