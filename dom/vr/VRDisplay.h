@@ -1378,12 +1378,8 @@ static
 bool
 RefreshVRDisplays
 (
-dom
-:
-:
-Navigator
-*
-aNavigator
+uint64_t
+aWindowId
 )
 ;
 static

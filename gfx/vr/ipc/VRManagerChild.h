@@ -201,12 +201,8 @@ aDisplays
 bool
 RefreshVRDisplaysWithCallback
 (
-dom
-:
-:
-Navigator
-*
-aNavigator
+uint64_t
+aWindowId
 )
 ;
 static
@@ -793,11 +789,7 @@ mDisplaysInitialized
 ;
 nsTArray
 <
-dom
-:
-:
-Navigator
-*
+uint64_t
 >
 mNavigatorCallbacks
 ;

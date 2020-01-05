@@ -7151,7 +7151,12 @@ VRDisplay
 :
 RefreshVRDisplays
 (
-this
+win
+-
+>
+WindowID
+(
+)
 )
 )
 {
