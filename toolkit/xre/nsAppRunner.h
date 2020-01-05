@@ -109,7 +109,10 @@ gDirServiceProvider
 ;
 extern
 const
-nsXREAppData
+mozilla
+:
+:
+XREAppData
 *
 gAppData
 ;
