@@ -208,6 +208,8 @@ const
 nsRect
 &
 aCurrentFrameOverflowArea
+bool
+aInReflow
 )
 :
 mFirstContinuation
@@ -221,6 +223,10 @@ aCurrentFrame
 mCurrentFrameOverflowArea
 (
 aCurrentFrameOverflowArea
+)
+mInReflow
+(
+aInReflow
 )
 {
 NS_ASSERTION
@@ -268,6 +274,7 @@ mCurrentFrameOverflowArea
 GetPreEffectsVisualOverflowRect
 (
 aFrame
+mInReflow
 )
 ;
 mResult
@@ -306,6 +313,8 @@ GetPreEffectsVisualOverflowRect
 nsIFrame
 *
 aFrame
+bool
+aInReflow
 )
 {
 nsRect
@@ -351,6 +360,10 @@ UsingEffectsForFrame
 (
 aFrame
 )
+&
+&
+!
+aInReflow
 )
 {
 nsOverflowAreas
@@ -423,6 +436,9 @@ mCurrentFrameOverflowArea
 nsRect
 mResult
 ;
+bool
+mInReflow
+;
 }
 ;
 static
@@ -443,6 +459,8 @@ const
 nsPoint
 &
 aFirstContinuationToUserSpace
+bool
+aInReflow
 )
 {
 NS_ASSERTION
@@ -468,6 +486,7 @@ collector
 aFirstContinuation
 aCurrentFrame
 aCurrentFramePreEffectsOverflow
+aInReflow
 )
 ;
 nsLayoutUtils
@@ -874,6 +893,7 @@ GetOffsetToBoundingBox
 (
 firstFrame
 )
+false
 )
 ;
 return
@@ -1000,6 +1020,7 @@ firstFrame
 aFrame
 aPreEffectsOverflowRect
 firstFrameToBoundingBox
+true
 )
 aFrame
 -
