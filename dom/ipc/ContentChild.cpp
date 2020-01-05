@@ -14487,7 +14487,6 @@ nsHostObjectProtocolHandler
 RemoveDataEntry
 (
 aURI
-false
 )
 ;
 return
