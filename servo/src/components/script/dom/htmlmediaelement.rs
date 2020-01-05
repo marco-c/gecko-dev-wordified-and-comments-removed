@@ -205,11 +205,6 @@ document
 }
 }
 }
-pub
-trait
-HTMLMediaElementMethods
-{
-}
 impl
 Reflectable
 for

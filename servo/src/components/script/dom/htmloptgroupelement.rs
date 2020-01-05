@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLOptGroupElementMethods
-{
-}
 impl
 Reflectable
 for

@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLOListElementMethods
-{
-}
 impl
 Reflectable
 for

@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLTableCaptionElementMethods
-{
-}
 impl
 Reflectable
 for

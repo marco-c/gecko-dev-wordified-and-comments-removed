@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLDirectoryElementMethods
-{
-}
 impl
 Reflectable
 for

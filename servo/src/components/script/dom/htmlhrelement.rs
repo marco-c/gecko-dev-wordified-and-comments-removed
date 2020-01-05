@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLHRElementMethods
-{
-}
 impl
 Reflectable
 for

@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLTableHeaderCellElementMethods
-{
-}
 impl
 Reflectable
 for

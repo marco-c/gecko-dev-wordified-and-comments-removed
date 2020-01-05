@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLProgressElementMethods
-{
-}
 impl
 Reflectable
 for

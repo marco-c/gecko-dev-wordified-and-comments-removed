@@ -232,8 +232,3 @@ XMLHttpRequestUploadTypeId
 )
 }
 }
-pub
-trait
-XMLHttpRequestUploadMethods
-{
-}

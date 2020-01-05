@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLFontElementMethods
-{
-}
 impl
 Reflectable
 for

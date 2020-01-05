@@ -203,11 +203,6 @@ document
 }
 }
 }
-pub
-trait
-HTMLTableCellElementMethods
-{
-}
 impl
 Reflectable
 for

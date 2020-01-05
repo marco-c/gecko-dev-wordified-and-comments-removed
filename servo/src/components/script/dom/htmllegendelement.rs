@@ -249,11 +249,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLLegendElementMethods
-{
-}
 impl
 Reflectable
 for
