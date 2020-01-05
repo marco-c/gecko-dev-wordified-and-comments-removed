@@ -1134,16 +1134,8 @@ self
 .
 related_target
 .
-get
+get_rooted
 (
-)
-.
-map
-(
-Root
-:
-:
-from_rooted
 )
 }
 /
