@@ -160,13 +160,10 @@ i32
 >
 IpcSender
 <
-(
 IpcSender
 <
 CanvasMsg
 >
-usize
-)
 >
 )
 CreateWebGLPaintThread
@@ -180,13 +177,10 @@ IpcSender
 <
 Result
 <
-(
 IpcSender
 <
 CanvasMsg
 >
-usize
-)
 String
 >
 >
