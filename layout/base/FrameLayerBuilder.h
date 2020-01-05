@@ -111,6 +111,9 @@ gfxContext
 class
 nsDisplayItemGeometry
 ;
+class
+nsDisplayMask
+;
 namespace
 mozilla
 {
