@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+missing_doc
+)
+]
 use
 dom
 :
