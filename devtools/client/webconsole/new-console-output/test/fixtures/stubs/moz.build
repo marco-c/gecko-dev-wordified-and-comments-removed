@@ -61,6 +61,11 @@ consoleApi
 js
 '
 '
+cssMessage
+.
+js
+'
+'
 evaluationResult
 .
 js
