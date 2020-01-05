@@ -15445,7 +15445,6 @@ def
 _argstring
 (
 self
-declare
 )
 :
         
@@ -15675,9 +15674,6 @@ def
 define
 (
 self
-fromDeclare
-=
-False
 )
 :
         
@@ -15686,7 +15682,6 @@ self
 .
 definition_prologue
 (
-fromDeclare
 )
 +
 "
@@ -15710,7 +15705,6 @@ def
 definition_prologue
 (
 self
-fromDeclare
 )
 :
         
@@ -15752,7 +15746,6 @@ self
 .
 _argstring
 (
-fromDeclare
 )
 self
 .
