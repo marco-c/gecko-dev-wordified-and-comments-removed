@@ -162,6 +162,7 @@ curl
 freeglut3
 -
 dev
+autoconf
 \
 libfreetype6
 -
