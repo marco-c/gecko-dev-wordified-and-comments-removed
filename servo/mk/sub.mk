@@ -205,6 +205,8 @@ glfw
 \
 skia
 \
+rust
+\
 (
 NULL
 )
@@ -215,6 +217,8 @@ rs
 =
 \
 glfw
+\
+rust
 \
 (
 NULL
@@ -233,6 +237,8 @@ rust
 -
 opengles
 \
+rust
+\
 (
 NULL
 )
@@ -248,6 +254,8 @@ rust
 -
 opengles
 \
+rust
+\
 (
 NULL
 )
@@ -258,6 +266,8 @@ hubbub
 =
 \
 libhubbub
+\
+rust
 \
 (
 NULL
@@ -274,6 +284,8 @@ rust
 -
 wapcaplet
 \
+rust
+\
 (
 NULL
 )
@@ -284,6 +296,8 @@ wapcaplet
 =
 \
 libwapcaplet
+\
+rust
 \
 (
 NULL
@@ -324,6 +338,8 @@ rust
 -
 wapcaplet
 \
+rust
+\
 (
 NULL
 )
@@ -334,6 +350,8 @@ mozjs
 =
 \
 mozjs
+\
+rust
 \
 (
 NULL
@@ -413,6 +431,8 @@ rust
 -
 cocoa
 \
+rust
+\
 (
 NULL
 )
@@ -429,6 +449,8 @@ rust
 core
 -
 foundation
+\
+rust
 \
 (
 NULL
@@ -449,6 +471,8 @@ rust
 -
 cocoa
 \
+rust
+\
 (
 NULL
 )
@@ -468,6 +492,8 @@ io
 -
 surface
 \
+rust
+\
 (
 NULL
 )
@@ -484,6 +510,8 @@ rust
 core
 -
 foundation
+\
+rust
 \
 (
 NULL
@@ -507,6 +535,8 @@ rust
 core
 -
 graphics
+\
+rust
 \
 (
 NULL
@@ -539,10 +569,21 @@ rust
 -
 cocoa
 \
+rust
+\
 (
 NULL
 )
 endif
+DEPS_nss
++
+=
+\
+nspr
+\
+(
+NULL
+)
 ifeq
 (
 (
@@ -572,6 +613,8 @@ rust
 -
 xlib
 \
+rust
+\
 (
 NULL
 )
@@ -599,6 +642,8 @@ fontconfig
 rust
 -
 xlib
+\
+rust
 \
 (
 NULL
@@ -633,6 +678,8 @@ libfreetype2
 \
 libexpat
 \
+rust
+\
 (
 NULL
 )
@@ -657,6 +704,8 @@ rust
 -
 fontconfig
 \
+rust
+\
 (
 NULL
 )
@@ -672,6 +721,8 @@ rust
 -
 freetype
 \
+rust
+\
 (
 NULL
 )
@@ -682,6 +733,8 @@ freetype
 =
 \
 libfreetype2
+\
+rust
 \
 (
 NULL

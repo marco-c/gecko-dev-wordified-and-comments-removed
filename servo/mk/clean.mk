@@ -217,6 +217,10 @@ dylib
 libutil
 *
 .
+dSYM
+libutil
+*
+.
 so
 (
 DONE_util
@@ -256,6 +260,10 @@ libmsg
 *
 .
 dylib
+libmsg
+*
+.
+dSYM
 libmsg
 *
 .
@@ -301,6 +309,10 @@ dylib
 libnet
 *
 .
+dSYM
+libnet
+*
+.
 so
 (
 DONE_net
@@ -343,6 +355,10 @@ dylib
 libgfx
 *
 .
+dSYM
+libgfx
+*
+.
 so
 (
 DONE_gfx
@@ -382,6 +398,10 @@ libscript
 *
 .
 dylib
+libscript
+*
+.
+dSYM
 libscript
 *
 .

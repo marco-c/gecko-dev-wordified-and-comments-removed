@@ -3329,6 +3329,11 @@ rust
 RUST_CONFIGURE_ARGS
 =
 "
+-
+-
+enable
+-
+debug
 "
 if
 [
