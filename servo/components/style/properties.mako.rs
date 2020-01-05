@@ -3070,7 +3070,7 @@ computed_value
 :
 :
 T
-declaration
+_declaration
 :
 &
 PropertyDeclaration
@@ -3079,7 +3079,7 @@ style
 &
 mut
 ComputedValues
-inherited_style
+_inherited_style
 :
 &
 ComputedValues
@@ -3090,12 +3090,12 @@ computed
 :
 :
 Context
-seen
+_seen
 :
 &
 mut
 PropertyBitField
-cacheable
+_cacheable
 :
 &
 mut
@@ -15258,7 +15258,7 @@ computed_value
 :
 :
 T
-declaration
+_declaration
 :
 &
 PropertyDeclaration
@@ -15267,7 +15267,7 @@ style
 &
 mut
 ComputedValues
-inherited_style
+_inherited_style
 :
 &
 ComputedValues
@@ -15278,12 +15278,12 @@ computed
 :
 :
 Context
-seen
+_seen
 :
 &
 mut
 PropertyBitField
-cacheable
+_cacheable
 :
 &
 mut
