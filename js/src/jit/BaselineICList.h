@@ -189,11 +189,6 @@ _
 GetElem_TypedArray
 )
 \
-_
-(
-GetElem_Arguments
-)
-\
 \
 _
 (
