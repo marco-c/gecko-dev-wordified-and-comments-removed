@@ -357,7 +357,6 @@ Throws
 ]
 static
 DOMString
-?
 createObjectURL
 (
 Blob
@@ -372,7 +371,6 @@ Throws
 ]
 static
 DOMString
-?
 createObjectURL
 (
 MediaStream
