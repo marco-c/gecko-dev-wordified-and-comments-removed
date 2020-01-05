@@ -34147,42 +34147,6 @@ second
 element
 is
 a
-default
-value
-that
-can
-be
-used
-on
-error
-returns
-.
-        
-For
-cases
-whose
-behavior
-depends
-on
-isMember
-the
-second
-element
-will
-be
-        
-None
-if
-isMember
-is
-true
-.
-        
-The
-third
-element
-is
-a
 template
 for
 actually
@@ -34255,11 +34219,8 @@ isVoid
 :
             
 typeDecl
-errorDefault
 template
 =
-"
-"
 "
 "
 "
@@ -34295,12 +34256,6 @@ tag
 ]
 )
             
-defaultReturnArg
-=
-"
-0
-"
-            
 if
 type
 .
@@ -34318,43 +34273,15 @@ Nullable
 "
 result
 )
-                
-defaultReturnArg
-=
-"
-"
             
 typeDecl
-errorDefault
 template
 =
-\
-                
-(
 result
 .
 define
 (
 )
-                 
-"
-%
-s
-(
-%
-s
-)
-"
-%
-(
-result
-.
-define
-(
-)
-defaultReturnArg
-)
-                 
 "
 return
 {
@@ -34362,7 +34289,6 @@ declName
 }
 ;
 "
-)
         
 elif
 type
@@ -34377,26 +34303,21 @@ isMember
 :
                 
 typeDecl
-errorDefault
 template
 =
 "
 nsString
 "
 None
-None
             
 else
 :
                 
 typeDecl
-errorDefault
 template
 =
 "
 void
-"
-"
 "
 "
 retval
@@ -34420,23 +34341,18 @@ isMember
 :
                 
 typeDecl
-errorDefault
 template
 =
 "
 nsCString
 "
 None
-None
             
 typeDecl
-errorDefault
 template
 =
 "
 void
-"
-"
 "
 "
 retval
@@ -34494,39 +34410,11 @@ enumName
 define
 (
 )
-                
-defaultValue
-=
-"
-%
-s
-(
-)
-"
-%
-enumName
-            
-else
-:
-                
-defaultValue
-=
-"
-%
-s
-(
-0
-)
-"
-%
-enumName
             
 typeDecl
-errorDefault
 template
 =
 enumName
-defaultValue
 "
 return
 {
@@ -34646,19 +34534,13 @@ post
 )
             
 typeDecl
-errorDefault
 template
 =
-\
-                
 result
 .
 define
 (
 )
-"
-nullptr
-"
 "
 return
 {
@@ -34680,7 +34562,6 @@ isCallback
 :
             
 typeDecl
-errorDefault
 template
 =
 \
@@ -34705,9 +34586,6 @@ identifier
 name
                  
 "
-nullptr
-"
-"
 return
 {
 declName
@@ -34729,24 +34607,13 @@ isAny
 :
             
 typeDecl
-errorDefault
 template
 =
-\
-                
 "
 JS
 :
 :
 Value
-"
-"
-JS
-:
-:
-UndefinedValue
-(
-)
 "
 "
 return
@@ -34765,17 +34632,11 @@ isObject
 :
             
 typeDecl
-errorDefault
 template
 =
-\
-                
 "
 JSObject
 *
-"
-"
-nullptr
 "
 "
 return
@@ -34847,15 +34708,11 @@ Obj
 "
             
 typeDecl
-errorDefault
 template
 =
 "
 JSObject
 *
-"
-"
-nullptr
 "
 returnCode
         
@@ -34962,13 +34819,10 @@ declName
 "
             
 typeDecl
-errorDefault
 template
 =
 "
 void
-"
-"
 "
 returnCode
         
@@ -35008,24 +34862,8 @@ result
 )
             
 typeDecl
-errorDefault
 template
 =
-\
-                
-(
-result
-.
-define
-(
-)
-"
-%
-s
-(
-)
-"
-%
 result
 .
 define
@@ -35038,7 +34876,6 @@ declName
 }
 ;
 "
-)
         
 else
 :
@@ -35102,20 +34939,6 @@ ErrorResult
             
 if
 not
-errorDefault
-:
-                
-errorDefault
-=
-"
-Err
-(
-FailureUnknown
-)
-"
-            
-if
-not
 template
 :
                 
@@ -35133,7 +34956,6 @@ Ok
         
 return
 typeDecl
-errorDefault
 template
     
 def
@@ -36955,9 +36777,10 @@ n
                      
 "
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 ;
 \
 n
@@ -37025,9 +36848,10 @@ n
             
 "
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 ;
 \
 n
@@ -37056,16 +36880,6 @@ callArgs
 substitute
 (
 {
-                
-"
-errorReturn
-"
-:
-method
-.
-getDefaultRetval
-(
-)
                 
 "
 callArgs
@@ -37130,16 +36944,6 @@ callArgs
 substitute
 (
 {
-                
-"
-errorReturn
-"
-:
-method
-.
-getDefaultRetval
-(
-)
                 
 "
 callArgs
@@ -37964,16 +37768,6 @@ getRvalDecl
 )
             
 "
-errorReturn
-"
-:
-self
-.
-getDefaultRetval
-(
-)
-            
-"
 returnResult
 "
 :
@@ -38317,7 +38111,7 @@ retvalType
 False
 )
 [
-2
+1
 ]
 )
 .
@@ -38838,48 +38632,6 @@ return
 conversion
     
 def
-getDefaultRetval
-(
-self
-)
-:
-        
-default
-=
-self
-.
-getRetvalInfo
-(
-self
-.
-retvalType
-False
-)
-[
-1
-]
-        
-if
-len
-(
-default
-)
-!
-=
-0
-:
-            
-default
-=
-"
-"
-+
-default
-        
-return
-default
-    
-def
 getArgs
 (
 self
@@ -39086,9 +38838,10 @@ n
             
 "
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 ;
 \
 n
@@ -39110,17 +38863,7 @@ callSetup
 "
 :
 callSetup
-                
-"
-errorReturn
-"
-:
-self
-.
-getDefaultRetval
-(
-)
-                
+            
 }
 )
     
@@ -39376,16 +39119,6 @@ replacements
 {
             
 "
-errorReturn
-"
-:
-self
-.
-getDefaultRetval
-(
-)
-            
-"
 thisObj
 "
 :
@@ -39533,9 +39266,10 @@ n
                 
 "
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 ;
 \
 n
@@ -39753,23 +39487,13 @@ replacements
 {
             
 "
-errorReturn
-"
-:
-self
-.
-getDefaultRetval
-(
-)
-            
-"
 methodName
 "
 :
 self
 .
 methodName
-            
+        
 }
         
 getCallableFromProp
@@ -39807,9 +39531,10 @@ _
 =
 >
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 \
 n
 '
@@ -40143,23 +39868,13 @@ replacements
 {
             
 "
-errorReturn
-"
-:
-self
-.
-getDefaultRetval
-(
-)
-            
-"
 attrName
 "
 :
 self
 .
 attrName
-            
+        
 }
         
 return
@@ -40191,22 +39906,11 @@ n
 '
             
 '
-aRv
-.
-Throw
-(
-NS_ERROR_UNEXPECTED
-)
-;
-\
-n
-'
-            
-'
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 ;
 \
 n
@@ -40329,16 +40033,6 @@ replacements
 {
             
 "
-errorReturn
-"
-:
-self
-.
-getDefaultRetval
-(
-)
-            
-"
 attrName
 "
 :
@@ -40408,22 +40102,11 @@ n
 '
             
 '
-aRv
-.
-Throw
-(
-NS_ERROR_UNEXPECTED
-)
-;
-\
-n
-'
-            
-'
 return
-{
-errorReturn
-}
+Err
+(
+FailureUnknown
+)
 ;
 \
 n
