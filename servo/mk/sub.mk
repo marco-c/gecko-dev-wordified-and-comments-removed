@@ -71,6 +71,17 @@ netsurfcss
 =
 \
 libcss
+\
+rust
+-
+wapcaplet
+DEPS_rust
+-
+wapcaplet
++
+=
+\
+libwapcaplet
 CFLAGS_mozjs
 +
 =

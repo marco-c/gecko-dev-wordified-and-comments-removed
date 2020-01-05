@@ -1628,6 +1628,9 @@ CFG_SUBMODULES
 libwapcaplet
 rust
 -
+wapcaplet
+rust
+-
 harfbuzz
 rust
 -
