@@ -2180,6 +2180,17 @@ clone
 (
 )
 ;
+self
+.
+flags
+.
+set_text_decoration_override
+(
+parent
+.
+flags
+)
+;
 return
 ;
 }
