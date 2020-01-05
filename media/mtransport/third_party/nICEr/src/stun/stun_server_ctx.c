@@ -1685,6 +1685,14 @@ skip_response
 ;
 if
 (
+!
+res
+)
+goto
+skip_response
+;
+if
+(
 _status
 !
 =
