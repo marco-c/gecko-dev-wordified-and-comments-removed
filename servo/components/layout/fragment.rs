@@ -4987,10 +4987,7 @@ style
 )
 ;
 let
-(
-min_inline_size
 specified
-)
 =
 if
 flags
@@ -5000,6 +4997,10 @@ contains
 INTRINSIC_INLINE_SIZE_INCLUDES_SPECIFIED
 )
 {
+Au
+:
+:
+max
 (
 model
 :
@@ -5039,15 +5040,9 @@ specified_or_zero
 }
 else
 {
-(
 Au
 (
 0
-)
-Au
-(
-0
-)
 )
 }
 ;
@@ -5090,7 +5085,7 @@ IntrinsicISizes
 {
 minimum_inline_size
 :
-min_inline_size
+specified
 preferred_inline_size
 :
 specified
