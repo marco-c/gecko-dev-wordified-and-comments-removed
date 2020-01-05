@@ -3970,6 +3970,8 @@ nullptr
 XPCNativeMember
 *
 member
+=
+nullptr
 ;
 RefPtr
 <
@@ -3979,6 +3981,8 @@ iface
 ;
 bool
 IsLocal
+=
+false
 ;
 if
 (

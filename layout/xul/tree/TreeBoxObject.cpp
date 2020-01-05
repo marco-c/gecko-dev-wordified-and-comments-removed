@@ -426,6 +426,8 @@ aFlushLayout
 nsIFrame
 *
 frame
+=
+nullptr
 ;
 if
 (

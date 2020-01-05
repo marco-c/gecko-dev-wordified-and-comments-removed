@@ -6295,7 +6295,11 @@ focusNode
 ;
 int32_t
 anchorOffset
+=
+0
 focusOffset
+=
+0
 ;
 if
 (
@@ -8727,6 +8731,8 @@ lastCharRect
 nsIFrame
 *
 lastFrame
+=
+nullptr
 ;
 while
 (

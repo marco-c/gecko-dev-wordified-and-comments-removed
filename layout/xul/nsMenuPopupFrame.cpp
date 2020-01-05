@@ -5830,6 +5830,8 @@ anchorRect
 ;
 int32_t
 parentWidth
+=
+0
 ;
 bool
 anchored

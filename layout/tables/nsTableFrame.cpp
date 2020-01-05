@@ -11327,6 +11327,8 @@ GetContent
 nsIContent
 *
 content
+=
+nullptr
 ;
 aPrevFrame
 =
@@ -11407,6 +11409,8 @@ kidFrame
 nsTableColGroupFrame
 *
 lastColGroup
+=
+nullptr
 ;
 if
 (
