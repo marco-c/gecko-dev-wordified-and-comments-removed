@@ -169,6 +169,16 @@ aIgnoreTabindex
 const
 override
 ;
+virtual
+void
+AsyncEventRunning
+(
+AsyncEventDispatcher
+*
+aEvent
+)
+override
+;
 NS_DECL_NSIDOMHTMLOBJECTELEMENT
 virtual
 nsresult

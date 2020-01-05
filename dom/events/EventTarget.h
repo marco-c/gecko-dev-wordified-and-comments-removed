@@ -35,6 +35,9 @@ namespace
 mozilla
 {
 class
+AsyncEventDispatcher
+;
+class
 ErrorResult
 ;
 class
@@ -285,6 +288,16 @@ const
 =
 0
 ;
+virtual
+void
+AsyncEventRunning
+(
+AsyncEventDispatcher
+*
+aEvent
+)
+{
+}
 virtual
 bool
 IsApzAware

@@ -166,6 +166,16 @@ aIgnoreTabindex
 const
 override
 ;
+virtual
+void
+AsyncEventRunning
+(
+AsyncEventDispatcher
+*
+aEvent
+)
+override
+;
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (

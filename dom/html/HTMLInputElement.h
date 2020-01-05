@@ -462,6 +462,16 @@ aIgnoreTabindex
 const
 override
 ;
+virtual
+void
+AsyncEventRunning
+(
+AsyncEventDispatcher
+*
+aEvent
+)
+override
+;
 NS_DECL_NSIDOMHTMLINPUTELEMENT
 NS_DECL_NSIPHONETIC
 NS_IMETHOD

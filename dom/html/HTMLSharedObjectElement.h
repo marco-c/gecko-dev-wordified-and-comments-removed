@@ -132,6 +132,16 @@ override
 #
 endif
 NS_DECL_NSIDOMHTMLAPPLETELEMENT
+virtual
+void
+AsyncEventRunning
+(
+AsyncEventDispatcher
+*
+aEvent
+)
+override
+;
 NS_IMETHOD
 GetSrc
 (
