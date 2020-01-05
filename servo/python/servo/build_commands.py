@@ -71,7 +71,7 @@ elapsed
 if
 elapsed
 <
-300
+30
 :
         
 return
