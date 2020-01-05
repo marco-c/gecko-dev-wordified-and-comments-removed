@@ -421,6 +421,11 @@ selectionInfo
 text
 :
 undefined
+windowId
+:
+this
+.
+frameOuterWindowID
 }
 ;
 subject
