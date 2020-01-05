@@ -207,12 +207,6 @@ change
 use_notice
 :
 true
-branches
-:
-only
-:
--
-master
 env
 :
 -
