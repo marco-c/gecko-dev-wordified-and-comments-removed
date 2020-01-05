@@ -317,7 +317,7 @@ e
 .
 submit
 (
-_create_task
+create_task
 session
 task_id
                                    
@@ -355,7 +355,7 @@ e
 .
 submit
 (
-_create_task
+create_task
 session
 slugid
 (
@@ -389,7 +389,7 @@ result
 (
 )
 def
-_create_task
+create_task
 (
 session
 task_id
