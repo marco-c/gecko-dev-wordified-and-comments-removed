@@ -71,7 +71,9 @@ require
 "
 .
 /
-PropertiesView
+properties
+-
+view
 "
 )
 )

@@ -190,7 +190,11 @@ require
 "
 .
 /
-NetworkDetailsPanel
+network
+-
+details
+-
+panel
 "
 )
 )
@@ -205,7 +209,9 @@ require
 "
 .
 /
-RequestList
+request
+-
+list
 "
 )
 )
@@ -220,7 +226,7 @@ require
 "
 .
 /
-Toolbar
+toolbar
 "
 )
 )
