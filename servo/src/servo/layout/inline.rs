@@ -74,7 +74,7 @@ style
 style
 :
 :
-style_methods
+*
 ;
 import
 util
