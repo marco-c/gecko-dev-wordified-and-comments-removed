@@ -131,7 +131,7 @@ Layout
 renderer
 :
 Renderer
-image_cache_task
+_image_cache_task
 :
 ImageCacheTask
 )

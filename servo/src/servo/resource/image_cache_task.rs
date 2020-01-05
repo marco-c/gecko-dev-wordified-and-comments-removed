@@ -404,6 +404,13 @@ ImageResponseMsg
 ]
 ;
 }
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 impl
 ImageCache
 {
@@ -491,6 +498,7 @@ image_map
 .
 contains_key
 (
+copy
 url
 )
 {
@@ -512,6 +520,7 @@ future_image_map
 .
 contains_key
 (
+copy
 url
 )
 {
@@ -534,6 +543,7 @@ prefetch_map
 .
 contains_key
 (
+copy
 url
 )
 {
@@ -567,6 +577,7 @@ resource_task
 :
 Load
 (
+copy
 url
 response_port
 .
@@ -597,6 +608,7 @@ prefetch_map
 .
 insert
 (
+copy
 url
 prefetch_data
 )
@@ -628,6 +640,7 @@ image_map
 .
 find
 (
+copy
 url
 )
 {
@@ -666,6 +679,7 @@ future_image_map
 .
 find
 (
+copy
 url
 )
 {
@@ -729,6 +743,7 @@ prefetch_map
 .
 find
 (
+copy
 url
 )
 {
@@ -847,6 +862,10 @@ chan
 ;
 do
 spawn
+|
+copy
+url
+|
 {
 let
 image
@@ -889,6 +908,7 @@ send
 (
 StoreImage
 (
+copy
 url
 clone_arc
 (
@@ -917,6 +937,7 @@ prefetch_map
 .
 remove
 (
+copy
 url
 )
 ;
@@ -926,6 +947,7 @@ future_image_map
 .
 insert
 (
+copy
 url
 future_data
 )
@@ -971,6 +993,7 @@ prefetch_map
 .
 remove
 (
+copy
 url
 )
 ;
@@ -1037,6 +1060,7 @@ future_image_map
 .
 find
 (
+copy
 url
 )
 {
@@ -1108,6 +1132,7 @@ image_map
 .
 insert
 (
+copy
 url
 clone_arc
 (
@@ -1121,6 +1146,7 @@ future_image_map
 .
 remove
 (
+copy
 url
 )
 ;
@@ -1215,7 +1241,7 @@ mock_resource_task
 )
 ;
 let
-url
+_url
 =
 make_url
 (
@@ -1263,7 +1289,7 @@ mock_resource_task
 do
 spawn_listener
 |
-from_client
+_from_client
 |
 {
 }
@@ -1573,6 +1599,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )
@@ -1704,6 +1731,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )
@@ -1910,6 +1938,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )
@@ -2148,6 +2177,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )
@@ -2196,6 +2226,7 @@ send
 (
 GetImage
 (
+copy
 url
 response_port
 .
@@ -2422,6 +2453,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )
@@ -2461,6 +2493,7 @@ send
 (
 GetImage
 (
+copy
 url
 response_port
 .
@@ -2496,6 +2529,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )
@@ -2739,6 +2773,7 @@ send
 (
 Prefetch
 (
+copy
 url
 )
 )

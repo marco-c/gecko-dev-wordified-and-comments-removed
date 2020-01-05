@@ -400,7 +400,7 @@ FontLibrary
 )
 ;
 let
-font
+_font
 =
 lib
 .

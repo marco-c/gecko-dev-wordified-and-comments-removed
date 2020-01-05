@@ -191,6 +191,7 @@ LoaderTaskFactory
 fn
 ~
 (
++
 url
 :
 url
@@ -394,6 +395,7 @@ self
 .
 load
 (
+copy
 url
 progress_chan
 )
@@ -410,6 +412,7 @@ break
 fn
 load
 (
++
 url
 :
 url
@@ -706,6 +709,7 @@ loader_factory
 fn
 ~
 (
++
 _url
 :
 url
@@ -715,6 +719,8 @@ chan
 <
 ProgressMsg
 >
+copy
+payload
 )
 {
 progress_chan

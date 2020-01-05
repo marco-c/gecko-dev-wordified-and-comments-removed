@@ -594,6 +594,10 @@ task
 :
 spawn
 |
+copy
+top_down
+copy
+bottom_up
 |
 {
 /
