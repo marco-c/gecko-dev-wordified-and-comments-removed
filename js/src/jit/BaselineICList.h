@@ -255,16 +255,6 @@ _
 SetProp_NativeAdd
 )
 \
-_
-(
-SetProp_CallScripted
-)
-\
-_
-(
-SetProp_CallNative
-)
-\
 \
 _
 (
