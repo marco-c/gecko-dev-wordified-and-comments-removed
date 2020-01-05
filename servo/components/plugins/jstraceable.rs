@@ -493,6 +493,9 @@ combine_substructure
 box
 jstraceable_substructure
 )
+unify_fieldless_variants
+:
+true
 }
 ]
 associated_types
