@@ -1204,8 +1204,6 @@ double
 y
 )
 ;
-/
-/
 void
 quadraticCurveTo
 (
