@@ -2112,6 +2112,7 @@ mSurfaceProvider
 ;
 #
 endif
+unsigned
 int
 mPendingConfigures
 ;
