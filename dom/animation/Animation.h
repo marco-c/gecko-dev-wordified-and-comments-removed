@@ -946,9 +946,10 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
+const
 nsCSSPropertyIDSet
 &
-aSetProperties
+aPropertiesToSkip
 )
 ;
 void

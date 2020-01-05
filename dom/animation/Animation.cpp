@@ -3243,9 +3243,10 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
+const
 nsCSSPropertyIDSet
 &
-aSetProperties
+aPropertiesToSkip
 )
 {
 if
@@ -3416,7 +3417,7 @@ keyframeEffect
 ComposeStyle
 (
 aStyleRule
-aSetProperties
+aPropertiesToSkip
 )
 ;
 }
