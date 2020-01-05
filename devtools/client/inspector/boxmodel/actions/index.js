@@ -25,6 +25,9 @@ createEnum
 (
 [
 "
+UPDATE_GEOMETRY_EDITOR_ENABLED
+"
+"
 UPDATE_LAYOUT
 "
 ]

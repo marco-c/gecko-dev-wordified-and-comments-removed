@@ -28,6 +28,11 @@ exports
 boxModel
 =
 {
+geometryEditorEnabled
+:
+PropTypes
+.
+boolean
 layout
 :
 PropTypes

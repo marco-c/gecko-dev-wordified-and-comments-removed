@@ -193,6 +193,13 @@ PropTypes
 func
 .
 isRequired
+onToggleGeometryEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 mixins
 :
