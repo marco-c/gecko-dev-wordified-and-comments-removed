@@ -125,14 +125,11 @@ mUrl
 VisibilityState
 mVisibilityState
 ;
-FrameType
-mFrameType
-;
-TimeStamp
-mLastFocusTime
-;
 bool
 mFocused
+;
+FrameType
+mFrameType
 ;
 }
 ;
