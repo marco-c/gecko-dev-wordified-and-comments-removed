@@ -1283,7 +1283,7 @@ get_attr_for_layout
 ElementCast
 :
 :
-from_actual
+from_ref
 (
 &
 *
@@ -1365,7 +1365,7 @@ get_attr_for_layout
 ElementCast
 :
 :
-from_actual
+from_ref
 (
 &
 *
