@@ -45,7 +45,7 @@ s
 )
 ;
 }
-o
+o1
 =
 initWasm
 (
