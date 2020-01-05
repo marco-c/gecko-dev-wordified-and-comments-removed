@@ -38,12 +38,6 @@ standards
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 cell

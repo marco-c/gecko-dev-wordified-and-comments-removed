@@ -262,12 +262,6 @@ dimensions
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 573322
@@ -282,12 +276,6 @@ quirks
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 573322
