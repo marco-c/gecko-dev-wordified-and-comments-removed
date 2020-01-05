@@ -176,6 +176,9 @@ const
 StyleAnimationValue
 &
 aEndValue
+nsStyleContext
+*
+aStyleContext
 double
 &
 aDistance

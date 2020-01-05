@@ -1209,6 +1209,7 @@ mEffectOptions
 .
 mPacedProperty
 computedValues
+aStyleContext
 )
 ;
 }

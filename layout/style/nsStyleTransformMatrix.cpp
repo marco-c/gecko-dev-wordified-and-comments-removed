@@ -717,6 +717,15 @@ percent
 &
 &
 aRefBox
+&
+&
+!
+aRefBox
+-
+>
+IsEmpty
+(
+)
 )
 {
 translation

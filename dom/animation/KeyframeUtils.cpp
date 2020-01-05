@@ -1485,6 +1485,9 @@ ComputedKeyframeValues
 aValues
 nsCSSPropertyID
 aProperty
+nsStyleContext
+*
+aStyleContext
 )
 ;
 nsTArray
@@ -1717,6 +1720,9 @@ ComputedKeyframeValues
 >
 &
 aComputedValues
+nsStyleContext
+*
+aStyleContext
 )
 {
 if
@@ -1769,6 +1775,7 @@ GetCumulativeDistances
 (
 aComputedValues
 aProperty
+aStyleContext
 )
 ;
 for
@@ -2275,6 +2282,7 @@ SpacingMode
 distribute
 eCSSProperty_UNKNOWN
 emptyArray
+nullptr
 )
 ;
 }
@@ -6410,6 +6418,9 @@ ComputedKeyframeValues
 aValues
 nsCSSPropertyID
 aPacedProperty
+nsStyleContext
+*
+aStyleContext
 )
 {
 size_t
@@ -6704,6 +6715,7 @@ propIdx
 ]
 .
 mValue
+aStyleContext
 componentDistance
 )
 )
@@ -6748,6 +6760,7 @@ pacedValues
 ]
 .
 mValue
+aStyleContext
 dist
 )
 ;

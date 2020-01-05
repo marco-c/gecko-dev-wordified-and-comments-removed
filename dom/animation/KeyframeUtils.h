@@ -158,6 +158,9 @@ ComputedKeyframeValues
 >
 &
 aComputedValues
+nsStyleContext
+*
+aStyleContext
 )
 ;
 static
