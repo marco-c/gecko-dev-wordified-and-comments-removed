@@ -5334,7 +5334,7 @@ style
 =
 ClaimStyleContext
 (
-MOZ_GTK_TEXT_VIEW_TEXT
+MOZ_GTK_TEXT_VIEW
 )
 ;
 gtk_style_context_get_background_color
