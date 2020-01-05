@@ -20,16 +20,6 @@ dom
 .
 vr
 .
-enabled
-"
-true
-]
-[
-"
-dom
-.
-vr
-.
 puppet
 .
 enabled
