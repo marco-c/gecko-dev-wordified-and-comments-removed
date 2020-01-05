@@ -8023,6 +8023,14 @@ DocumentFlashClassification
 =
 0
 ;
+virtual
+bool
+IsThirdParty
+(
+)
+=
+0
+;
 protected
 :
 bool
