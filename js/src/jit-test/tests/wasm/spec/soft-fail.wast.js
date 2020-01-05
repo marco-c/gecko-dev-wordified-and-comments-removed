@@ -1,11 +1,15 @@
+quit
+(
+)
+;
 var
 importedArgs
 =
 [
 '
-grow
+soft
 -
-memory
+fail
 .
 wast
 '

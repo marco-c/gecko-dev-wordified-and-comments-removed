@@ -3,9 +3,7 @@ importedArgs
 =
 [
 '
-nan
--
-propagation
+unwind
 .
 wast
 '

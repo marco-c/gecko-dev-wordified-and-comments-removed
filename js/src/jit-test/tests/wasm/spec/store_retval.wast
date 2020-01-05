@@ -1,7 +1,4 @@
 (
-module
-)
-(
 assert_invalid
 (
 module
