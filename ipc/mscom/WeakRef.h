@@ -223,8 +223,10 @@ mRefCnt
 ;
 nsTArray
 <
+RefPtr
+<
 WeakRef
-*
+>
 >
 mWeakRefs
 ;

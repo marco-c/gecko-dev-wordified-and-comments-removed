@@ -375,11 +375,8 @@ index
 entry
 .
 mInterceptor
--
->
-Release
-(
-)
+=
+nullptr
 ;
 entry
 .
@@ -996,13 +993,6 @@ mInterceptor
 }
 else
 {
-unkInterceptor
--
->
-AddRef
-(
-)
-;
 IUnknown
 *
 rawTargetInterface
