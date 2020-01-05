@@ -131,6 +131,7 @@ uint16_t
 Oculus
 OpenVR
 OSVR
+Puppet
 NumVRDeviceTypes
 }
 ;
