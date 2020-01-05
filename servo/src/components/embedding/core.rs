@@ -66,7 +66,7 @@ args
 :
 *
 cef_main_args_t
-settings
+_settings
 :
 *
 mut
@@ -76,7 +76,7 @@ application
 *
 mut
 cef_app_t
-windows_sandbox_info
+_windows_sandbox_info
 :
 *
 c_void
@@ -383,16 +383,16 @@ C
 fn
 cef_execute_process
 (
-args
+_args
 :
 *
 cef_main_args_t
-app
+_app
 :
 *
 mut
 cef_app_t
-windows_sandbox_info
+_windows_sandbox_info
 :
 *
 mut

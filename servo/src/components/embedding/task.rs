@@ -22,7 +22,7 @@ C
 fn
 cef_currently_on
 (
-tid
+_tid
 :
 cef_thread_id_t
 )
