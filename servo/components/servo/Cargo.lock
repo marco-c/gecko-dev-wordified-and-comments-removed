@@ -8811,7 +8811,7 @@ rust
 -
 mozjs
 #
-f59c04795c84b82e00fdbd694bed90c56fa6567a
+9509978ed1e767c6cbf3da1886ab618f3fa58585
 "
 dependencies
 =
@@ -11072,7 +11072,7 @@ servo
 /
 mozjs
 #
-2c918d1fb803673f5e5aca230034f77e85455448
+065c9a4268ae51288e946b9dbf1c233f1dcf5ca3
 "
 [
 [
@@ -15905,6 +15905,14 @@ msg
 "
 "
 net_traits
+0
+.
+0
+.
+1
+"
+"
+profile_traits
 0
 .
 0

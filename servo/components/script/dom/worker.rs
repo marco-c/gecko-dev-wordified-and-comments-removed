@@ -727,6 +727,11 @@ pipeline
 )
 global
 .
+mem_profiler_chan
+(
+)
+global
+.
 devtools_chan
 (
 )
