@@ -58,6 +58,13 @@ DVec
 Attr
 >
 }
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 impl
 ElementData
 {
