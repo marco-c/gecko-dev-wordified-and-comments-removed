@@ -141,7 +141,12 @@ Send
 Sync
 >
 {
-box
+Box
+:
+:
+new
+(
 StdoutErrorReporter
+)
 }
 }

@@ -119,6 +119,9 @@ features
 "
 plugins
 "
+"
+unstable
+"
 ]
 }
 fnv

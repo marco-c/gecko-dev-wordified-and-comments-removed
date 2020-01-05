@@ -242,6 +242,9 @@ features
 "
 heap_size
 "
+"
+serde
+"
 ]
 }
 util
@@ -255,6 +258,13 @@ path
 /
 util
 "
+features
+=
+[
+"
+servo
+"
+]
 }
 webrender_traits
 =

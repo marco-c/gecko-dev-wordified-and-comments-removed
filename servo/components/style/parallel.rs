@@ -75,12 +75,7 @@ _
 :
 UnsafeNodeList
 =
-:
-:
-std
-:
-:
-intrinsics
+mem
 :
 :
 transmute
@@ -271,7 +266,11 @@ C
 data
 :
 (
-box
+Box
+:
+:
+new
+(
 vec
 !
 [
@@ -281,6 +280,7 @@ to_unsafe
 (
 )
 ]
+)
 root
 .
 opaque
@@ -509,7 +509,11 @@ C
 data
 :
 (
-box
+Box
+:
+:
+new
+(
 chunk
 .
 iter
@@ -522,6 +526,7 @@ cloned
 .
 collect
 (
+)
 )
 unsafe_nodes
 .
