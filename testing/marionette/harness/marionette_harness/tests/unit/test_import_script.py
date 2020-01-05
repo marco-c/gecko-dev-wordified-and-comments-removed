@@ -15,9 +15,16 @@ JavascriptException
 from
 marionette_harness
 import
+(
+    
 MarionetteTestCase
-WindowManagerMixin
+    
 skip_if_chrome
+    
+skip_if_mobile
+    
+WindowManagerMixin
+)
 class
 TestImportScriptContent
 (
@@ -735,6 +742,8 @@ testAnotherFunc
 )
     
 skip_if_chrome
+    
+skip_if_mobile
     
 def
 test_imports_apply_globally
