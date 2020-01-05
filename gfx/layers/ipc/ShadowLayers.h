@@ -445,14 +445,6 @@ aRef
 )
 ;
 void
-CreatedBorderLayer
-(
-ShadowableLayer
-*
-aRef
-)
-;
-void
 Mutated
 (
 ShadowableLayer
