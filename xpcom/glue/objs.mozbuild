@@ -89,6 +89,11 @@ xpcom_glue_src_lcppsrcs
 =
 [
 '
+AppData
+.
+cpp
+'
+'
 FileUtils
 .
 cpp
@@ -205,11 +210,6 @@ cpp
 '
 '
 PLDHashTable
-.
-cpp
-'
-'
-XREAppData
 .
 cpp
 '
