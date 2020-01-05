@@ -234,15 +234,6 @@ static
 void
 Initialize
 (
-const
-nsTArray
-<
-GfxVarUpdate
->
-*
-aInitUpdates
-=
-nullptr
 )
 ;
 static
