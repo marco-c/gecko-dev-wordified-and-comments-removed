@@ -1010,6 +1010,8 @@ mochitest
 chrome
 -
 robocop
+-
+geckoview
 android
 -
 x86
