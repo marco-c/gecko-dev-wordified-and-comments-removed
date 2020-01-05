@@ -59,14 +59,6 @@ html
 )
 ;
 yield
-togglePauseOnExceptions
-(
-dbg
-false
-false
-)
-;
-yield
 uncaughtException
 (
 )
