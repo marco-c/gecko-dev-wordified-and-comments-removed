@@ -225,17 +225,6 @@ if
 (
 AppConstants
 .
-MOZ_ANDROID_ACTIVITY_STREAM
-)
-{
-return
-true
-;
-}
-if
-(
-AppConstants
-.
 NIGHTLY_BUILD
 &
 &
