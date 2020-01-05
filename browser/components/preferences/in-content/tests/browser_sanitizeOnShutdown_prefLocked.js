@@ -199,6 +199,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 panePrivacy
 "
+undefined
 {
 leaveOpen
 :
@@ -242,6 +243,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 panePrivacy
 "
+undefined
 {
 leaveOpen
 :

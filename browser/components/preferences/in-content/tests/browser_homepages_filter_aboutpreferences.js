@@ -47,6 +47,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneGeneral
 "
+null
 {
 leaveOpen
 :

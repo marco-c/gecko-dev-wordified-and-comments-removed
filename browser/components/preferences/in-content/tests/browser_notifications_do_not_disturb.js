@@ -42,8 +42,9 @@ yield
 openPreferencesViaOpenPreferencesAPI
 (
 "
-panePrivacy
+paneContent
 "
+undefined
 {
 leaveOpen
 :
@@ -57,10 +58,10 @@ prefs
 .
 selectedPane
 "
-panePrivacy
+paneContent
 "
 "
-Privacy
+Content
 pane
 was
 selected
