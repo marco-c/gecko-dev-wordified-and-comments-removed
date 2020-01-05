@@ -4552,6 +4552,13 @@ BINPATH
 DLL_PREFIX
 mozsandbox
 DLL_SUFFIX
+RESPATH
+/
+components
+/
+sandbox
+.
+xpt
 #
 endif
 #
