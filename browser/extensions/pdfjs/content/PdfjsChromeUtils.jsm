@@ -202,6 +202,11 @@ renderInteractiveForms
 "
 :
 false
+"
+disablePageLabels
+"
+:
+false
 }
 var
 PdfjsChromeUtils

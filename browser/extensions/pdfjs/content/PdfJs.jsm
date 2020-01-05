@@ -466,6 +466,11 @@ renderInteractiveForms
 "
 :
 false
+"
+disablePageLabels
+"
+:
+false
 }
 var
 defaultBranch

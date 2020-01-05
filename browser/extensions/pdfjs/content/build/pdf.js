@@ -103,14 +103,14 @@ pdfjsVersion
 .
 6
 .
-274
+304
 '
 ;
 var
 pdfjsBuild
 =
 '
-1c3fb17
+b4100ba
 '
 ;
 var
