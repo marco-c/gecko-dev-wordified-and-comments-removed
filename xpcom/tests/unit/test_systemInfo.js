@@ -11,9 +11,6 @@ PROPERTIES
 name
 "
 "
-host
-"
-"
 arch
 "
 "
