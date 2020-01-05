@@ -47,6 +47,7 @@ derive
 Clone
 PartialEq
 Copy
+Debug
 )
 ]
 pub
@@ -201,7 +202,10 @@ Headers
 pub
 body
 :
+RefCell
+<
 ResponseBody
+>
 pub
 cache_state
 :
@@ -272,10 +276,16 @@ new
 )
 body
 :
+RefCell
+:
+:
+new
+(
 ResponseBody
 :
 :
 Empty
+)
 cache_state
 :
 CacheState
