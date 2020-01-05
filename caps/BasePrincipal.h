@@ -1202,6 +1202,14 @@ nsIPrincipal
 aOther
 )
 ;
+bool
+FastSubsumes
+(
+nsIPrincipal
+*
+aOther
+)
+;
 protected
 :
 virtual
@@ -1285,6 +1293,9 @@ mOriginAttributes
 ;
 PrincipalKind
 mKind
+;
+bool
+mDomainSet
 ;
 }
 ;

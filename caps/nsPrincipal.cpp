@@ -1431,6 +1431,10 @@ URIIsImmutable
 mDomain
 )
 ;
+mDomainSet
+=
+true
+;
 AutoSafeJSContext
 cx
 ;
