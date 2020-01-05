@@ -124,13 +124,6 @@ EXPORTS
 '
 public
 /
-GeckoProfilerImpl
-.
-h
-'
-'
-public
-/
 ProfilerBacktrace
 .
 h
