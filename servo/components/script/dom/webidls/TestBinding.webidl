@@ -160,6 +160,9 @@ anyValue
 object
 objectValue
 ;
+TestDictionaryDefaults
+dict
+;
 }
 ;
 dictionary
