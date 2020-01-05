@@ -589,9 +589,10 @@ BlobData
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 self
 .
 get_file_or_blob
@@ -1116,9 +1117,10 @@ BlobData
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 b
 )
 )

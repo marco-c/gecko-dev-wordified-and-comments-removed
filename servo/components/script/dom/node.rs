@@ -9035,9 +9035,10 @@ kid
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 kid
 )
 )
@@ -9324,9 +9325,10 @@ child
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 child
 )
 )
@@ -12855,9 +12857,10 @@ node
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 node
 )
 )

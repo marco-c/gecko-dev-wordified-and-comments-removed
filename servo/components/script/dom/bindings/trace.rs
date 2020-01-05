@@ -3175,9 +3175,10 @@ item
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 item
 )
 )

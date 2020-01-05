@@ -1247,8 +1247,11 @@ _
 JS
 :
 :
-from_rooted
+from_ref
 (
+&
+*
+*
 node
 )
 )
