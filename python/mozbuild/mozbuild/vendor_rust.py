@@ -1053,6 +1053,12 @@ add_remove_files
 vendor_dir
 )
         
+FILESIZE_LIMIT
+=
+100
+*
+1024
+        
 large_files
 =
 set
