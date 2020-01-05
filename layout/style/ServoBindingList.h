@@ -157,6 +157,13 @@ RawServoDeclarationBlockStrong
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_Clone
+RawServoDeclarationBlockStrong
+RawServoDeclarationBlockBorrowed
+declarations
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_AddRef
 void
 RawServoDeclarationBlockBorrowed

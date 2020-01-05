@@ -107,6 +107,16 @@ Release
 (
 )
 ;
+inline
+already_AddRefed
+<
+DeclarationBlock
+>
+Clone
+(
+)
+const
+;
 bool
 IsMutable
 (
