@@ -1280,6 +1280,7 @@ isSome
 )
 &
 &
+(
 mError
 .
 ref
@@ -1288,6 +1289,12 @@ ref
 !
 =
 NS_ERROR_DOM_MEDIA_DECODE_ERR
+|
+|
+mNumOfConsecutiveError
+>
+mMaxConsecutiveError
+)
 ;
 }
 Maybe
