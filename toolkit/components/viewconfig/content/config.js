@@ -187,7 +187,7 @@ PREF_IS_DEFAULT_VALUE
 0
 ;
 const
-PREF_IS_USER_SET
+PREF_IS_MODIFIED
 =
 1
 ;
@@ -1629,7 +1629,7 @@ pref
 .
 lockCol
 =
-PREF_IS_USER_SET
+PREF_IS_MODIFIED
 ;
 try
 {
@@ -1820,7 +1820,7 @@ default
 ;
 gLockStrs
 [
-PREF_IS_USER_SET
+PREF_IS_MODIFIED
 ]
 =
 gConfigBundle
@@ -1828,7 +1828,7 @@ gConfigBundle
 getString
 (
 "
-user
+modified
 "
 )
 ;
@@ -3023,7 +3023,7 @@ disabled
 lockCol
 !
 =
-PREF_IS_USER_SET
+PREF_IS_MODIFIED
 )
 ;
 var
