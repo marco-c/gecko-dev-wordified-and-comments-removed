@@ -89,6 +89,11 @@ mfbt_src_lcppsrcs
 =
 [
 '
+Assertions
+.
+cpp
+'
+'
 ChaosMode
 .
 cpp
