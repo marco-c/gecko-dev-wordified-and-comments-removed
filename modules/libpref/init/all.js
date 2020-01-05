@@ -39581,8 +39581,18 @@ true
 )
 ;
 #
-ifdef
+if
+defined
+(
+XP_WIN
+)
+|
+|
+!
+defined
+(
 RELEASE_OR_BETA
+)
 pref
 (
 "
@@ -39592,7 +39602,7 @@ vr
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -39606,7 +39616,7 @@ vr
 .
 enabled
 "
-true
+false
 )
 ;
 #
