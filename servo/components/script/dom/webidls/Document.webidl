@@ -201,6 +201,11 @@ characterSet
 readonly
 attribute
 DOMString
+inputEncoding
+;
+readonly
+attribute
+DOMString
 contentType
 ;
 readonly
