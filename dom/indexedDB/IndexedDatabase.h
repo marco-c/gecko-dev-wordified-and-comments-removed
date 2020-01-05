@@ -102,9 +102,6 @@ mFileInfo
 FileType
 mType
 ;
-bool
-mValid
-;
 inline
 StructuredCloneFile
 (
