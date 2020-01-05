@@ -2653,11 +2653,6 @@ name
 onCreated
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -2726,11 +2721,6 @@ name
 "
 onRemoved
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
@@ -2866,11 +2856,6 @@ name
 onChanged
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -2993,11 +2978,6 @@ name
 "
 onMoved
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
