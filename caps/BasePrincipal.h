@@ -1194,6 +1194,14 @@ aExplicit
 false
 )
 ;
+bool
+FastEquals
+(
+nsIPrincipal
+*
+aOther
+)
+;
 protected
 :
 virtual
