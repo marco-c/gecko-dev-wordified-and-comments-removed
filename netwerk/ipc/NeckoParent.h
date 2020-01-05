@@ -1056,11 +1056,6 @@ mObserver
 ;
 }
 ;
-extern
-PNeckoParent
-*
-gNeckoParent
-;
 }
 }
 #
