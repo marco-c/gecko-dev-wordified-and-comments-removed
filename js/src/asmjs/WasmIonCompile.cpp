@@ -6064,11 +6064,11 @@ inDeadCode
 )
 return
 ;
-MAsmJSReturn
+MWasmReturn
 *
 ins
 =
-MAsmJSReturn
+MWasmReturn
 :
 :
 New
@@ -6106,11 +6106,11 @@ inDeadCode
 )
 return
 ;
-MAsmJSVoidReturn
+MWasmReturnVoid
 *
 ins
 =
-MAsmJSVoidReturn
+MWasmReturnVoid
 :
 :
 New

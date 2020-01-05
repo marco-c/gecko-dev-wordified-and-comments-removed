@@ -57782,7 +57782,7 @@ abi_
 }
 ;
 class
-MAsmJSReturn
+MWasmReturn
 :
 public
 MAryControlInstruction
@@ -57797,7 +57797,7 @@ NoTypePolicy
 Data
 {
 explicit
-MAsmJSReturn
+MWasmReturn
 (
 MDefinition
 *
@@ -57824,13 +57824,13 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSReturn
+WasmReturn
 )
 TRIVIAL_NEW_WRAPPERS
 }
 ;
 class
-MAsmJSVoidReturn
+MWasmReturnVoid
 :
 public
 MAryControlInstruction
@@ -57845,7 +57845,7 @@ NoTypePolicy
 Data
 {
 explicit
-MAsmJSVoidReturn
+MWasmReturnVoid
 (
 MDefinition
 *
@@ -57863,7 +57863,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSVoidReturn
+WasmReturnVoid
 )
 TRIVIAL_NEW_WRAPPERS
 }

@@ -27652,9 +27652,9 @@ void
 LIRGenerator
 :
 :
-visitAsmJSReturn
+visitWasmReturn
 (
-MAsmJSReturn
+MWasmReturn
 *
 ins
 )
@@ -27687,7 +27687,7 @@ MIRType
 Int64
 )
 {
-LAsmJSReturnI64
+LWasmReturnI64
 *
 lir
 =
@@ -27697,7 +27697,7 @@ alloc
 (
 )
 )
-LAsmJSReturnI64
+LWasmReturnI64
 (
 useInt64Fixed
 (
@@ -27739,7 +27739,7 @@ lir
 return
 ;
 }
-LAsmJSReturn
+LWasmReturn
 *
 lir
 =
@@ -27749,7 +27749,7 @@ alloc
 (
 )
 )
-LAsmJSReturn
+LWasmReturn
 ;
 if
 (
@@ -27911,9 +27911,9 @@ void
 LIRGenerator
 :
 :
-visitAsmJSVoidReturn
+visitWasmReturnVoid
 (
-MAsmJSVoidReturn
+MWasmReturnVoid
 *
 ins
 )
@@ -27928,7 +27928,7 @@ alloc
 (
 )
 )
-LAsmJSVoidReturn
+LWasmReturnVoid
 ;
 MDefinition
 *
