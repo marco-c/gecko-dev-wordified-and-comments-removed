@@ -2167,14 +2167,6 @@ lir
 )
 ;
 void
-visitToAsyncIter
-(
-LToAsyncIter
-*
-lir
-)
-;
-void
 visitToIdV
 (
 LToIdV

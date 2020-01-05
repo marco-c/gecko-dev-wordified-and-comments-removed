@@ -1793,11 +1793,6 @@ ToAsyncGen
 \
 _
 (
-ToAsyncIter
-)
-\
-_
-(
 ToIdV
 )
 \
