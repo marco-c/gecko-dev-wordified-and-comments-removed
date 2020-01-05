@@ -208,6 +208,17 @@ identfiers
 ;
 }
 ;
+struct
+BlobDataStream
+{
+IPCStream
+stream
+;
+uint64_t
+length
+;
+}
+;
 union
 BlobData
 {
@@ -227,7 +238,7 @@ memory
 backed
 blobs
 .
-IPCStream
+BlobDataStream
 ;
 /
 /
