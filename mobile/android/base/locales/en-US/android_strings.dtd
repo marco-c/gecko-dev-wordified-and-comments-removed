@@ -7727,10 +7727,10 @@ retry
 <
 !
 ENTITY
-updater_apply_title2
+updater_apply_title3
 "
 Update
-available
+downloaded
 for
 &
 brandShortName
@@ -7740,11 +7740,11 @@ brandShortName
 <
 !
 ENTITY
-updater_apply_select2
+updater_apply_select3
 "
 Touch
 to
-update
+install
 "
 >
 <
