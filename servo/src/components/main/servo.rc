@@ -1076,11 +1076,8 @@ InitLoadUrlMsg
 (
 parse_url
 (
+*
 filename
-.
-clone
-(
-)
 None
 )
 )
