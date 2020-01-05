@@ -1140,8 +1140,6 @@ default
 miter
 "
 )
-/
-/
 attribute
 unrestricted
 double
