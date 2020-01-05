@@ -113,10 +113,10 @@ nsISupports
 idl
 "
 interface
-nsIURI
+nsIPreloadedStyleSheet
 ;
 interface
-nsIDOMStyleSheet
+nsIURI
 ;
 /
 *
@@ -421,7 +421,7 @@ addSheet
 .
 *
 /
-nsIDOMStyleSheet
+nsIPreloadedStyleSheet
 preloadSheet
 (
 in

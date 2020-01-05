@@ -197,6 +197,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIPreloadedStyleSheet
+.
+idl
+'
+'
 nsIStyleSheetService
 .
 idl

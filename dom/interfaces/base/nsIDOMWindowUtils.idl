@@ -268,7 +268,7 @@ interface
 nsIDOMEvent
 ;
 interface
-nsIDOMStyleSheet
+nsIPreloadedStyleSheet
 ;
 interface
 nsITransferable
@@ -11791,7 +11791,7 @@ void
 addSheet
 (
 in
-nsIDOMStyleSheet
+nsIPreloadedStyleSheet
 sheet
 in
 unsigned
