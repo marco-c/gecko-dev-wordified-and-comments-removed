@@ -927,6 +927,14 @@ Key
 (
 )
 ;
+MOZ_ASSERT
+(
+*
+aLength
+>
+4
+)
+;
 return
 NS_OK
 ;
