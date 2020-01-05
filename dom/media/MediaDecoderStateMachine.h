@@ -1667,6 +1667,11 @@ mMediaSeekable
 =
 true
 ;
+bool
+mMediaSeekableOnlyInBufferedRanges
+=
+false
+;
 DelayedScheduler
 mVideoDecodeSuspendTimer
 ;
@@ -1870,12 +1875,6 @@ Mirror
 int64_t
 >
 mDecoderPosition
-;
-Mirror
-<
-bool
->
-mMediaSeekableOnlyInBufferedRanges
 ;
 Mirror
 <
