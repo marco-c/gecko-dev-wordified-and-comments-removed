@@ -19742,22 +19742,17 @@ descriptor
 proxy
 :
         
+assert
+not
+descriptor
+.
+createGlobal
+        
 handler
 =
 "
 "
 "
-/
-/
-let
-reflector
-=
-aObject
-.
-mut_reflector
-(
-)
-;
   
 let
 page
@@ -20122,47 +20117,39 @@ return
 "
 "
 "
-let
-mut
-parent
-=
-aObject
-.
-GetParentObject
-(
-aCx
-)
-;
   
-let
-parent
-=
-WrapNativeParent
+assert
+!
 (
-aCx
 aScope
-parent
-)
-;
-  
-if
-parent
 .
-is_null
+is_not_null
 (
 )
-{
-    
-return
-ptr
-:
-:
-null
-(
 )
 ;
   
-}
+assert
+!
+(
+(
+(
+*
+JS_GetClass
+(
+aScope
+)
+)
+.
+flags
+&
+JSCLASS_IS_GLOBAL
+)
+!
+=
+0
+)
+;
   
 /
 /
@@ -20170,17 +20157,7 @@ JSAutoCompartment
 ac
 (
 aCx
-parent
-)
-;
-  
-let
-global
-=
-JS_GetGlobalForObject
-(
-aCx
-parent
+aScope
 )
 ;
   
@@ -20190,8 +20167,8 @@ proto
 GetProtoObject
 (
 aCx
-global
-global
+aScope
+aScope
 )
 ;
   
@@ -20213,16 +20190,6 @@ null
 ;
   
 }
-  
-let
-reflector
-=
-aObject
-.
-mut_reflector
-(
-)
-;
 %
 s
   
@@ -20234,9 +20201,10 @@ aObject
 )
 ;
   
+aObject
+.
+mut_reflector
 (
-*
-reflector
 )
 .
 set_jsobject
@@ -20259,7 +20227,7 @@ self
 .
 descriptor
 "
-parent
+aScope
 "
 )
 )
@@ -20271,13 +20239,15 @@ return
 "
 "
 "
-let
-reflector
-=
-aObject
-.
-mut_reflector
+  
+assert
+!
 (
+aScope
+.
+is_null
+(
+)
 )
 ;
 %
@@ -20302,9 +20272,10 @@ proto
 )
 ;
   
+aObject
+.
+mut_reflector
 (
-*
-reflector
 )
 .
 set_jsobject
