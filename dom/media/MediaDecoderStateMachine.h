@@ -1130,11 +1130,6 @@ FinishDecodeFirstFrame
 (
 )
 ;
-bool
-CheckIfDecodeComplete
-(
-)
-;
 void
 RunStateMachine
 (
