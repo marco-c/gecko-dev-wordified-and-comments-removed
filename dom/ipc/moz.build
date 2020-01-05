@@ -869,9 +869,6 @@ android
 '
 gtk2
 '
-'
-gonk
-'
 )
 :
 DEFINES

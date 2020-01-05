@@ -279,9 +279,6 @@ cocoa
 android
 '
 '
-gonk
-'
-'
 uikit
 '
 )
@@ -301,9 +298,6 @@ android
 '
 '
 cocoa
-'
-'
-gonk
 '
 '
 gtk2
@@ -1382,9 +1376,6 @@ windows
 '
 '
 android
-'
-'
-gonk
 '
 '
 uikit
