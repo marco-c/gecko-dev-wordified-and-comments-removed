@@ -744,6 +744,15 @@ GetKey
 (
 )
 ;
+if
+(
+mVRDisplays
+.
+Count
+(
+)
+)
+{
 Unused
 <
 <
@@ -754,6 +763,7 @@ SendNotifyVSync
 (
 )
 ;
+}
 bHaveEventListener
 |
 =
