@@ -337,6 +337,7 @@ a
 )
 )
 '
+TypeError
 /
 exported
 function
@@ -367,6 +368,7 @@ a
 )
 )
 '
+TypeError
 /
 exported
 function
@@ -730,7 +732,13 @@ b
 1
 )
 ;
-wasmFailValidateText
+assertErrorMessage
+(
+(
+)
+=
+>
+wasmEvalText
 (
 '
 (
@@ -754,13 +762,21 @@ a
 )
 )
 '
+)
+TypeError
 /
 duplicate
 export
 /
 )
 ;
-wasmFailValidateText
+assertErrorMessage
+(
+(
+)
+=
+>
+wasmEvalText
 (
 '
 (
@@ -787,6 +803,8 @@ a
 )
 )
 '
+)
+TypeError
 /
 duplicate
 export
@@ -807,6 +825,7 @@ i32
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -835,6 +854,7 @@ nop
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -1435,18 +1455,6 @@ mode
 0
 )
 ;
-const
-noImportObj
-=
-"
-second
-argument
-must
-be
-an
-object
-"
-;
 assertErrorMessage
 (
 (
@@ -1471,8 +1479,17 @@ b
 '
 1
 )
-TypeError
-noImportObj
+Error
+/
+second
+argument
+if
+present
+must
+be
+an
+object
+/
 )
 ;
 assertErrorMessage
@@ -1499,9 +1516,28 @@ b
 '
 null
 )
-TypeError
-noImportObj
+Error
+/
+second
+argument
+if
+present
+must
+be
+an
+object
+/
 )
+;
+const
+noImportObj
+=
+/
+no
+import
+object
+given
+/
 ;
 const
 notObject
@@ -2082,6 +2118,7 @@ memory
 )
 )
 '
+TypeError
 /
 initial
 memory
@@ -2664,6 +2701,7 @@ memory
 )
 )
 '
+TypeError
 /
 data
 segment
@@ -2698,6 +2736,7 @@ memory
 )
 )
 '
+TypeError
 /
 data
 segment
@@ -2902,6 +2941,7 @@ get_local
 )
 )
 '
+TypeError
 /
 get_local
 index
@@ -3011,6 +3051,7 @@ get_local
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3044,6 +3085,7 @@ get_local
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3173,6 +3215,7 @@ get_local
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3210,6 +3253,7 @@ get_local
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3241,6 +3285,7 @@ const
 )
 )
 '
+TypeError
 /
 set_local
 index
@@ -3300,6 +3345,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3332,6 +3378,7 @@ nop
 )
 )
 '
+TypeError
 /
 popping
 value
@@ -3367,6 +3414,7 @@ get_local
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3404,6 +3452,7 @@ get_local
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3760,6 +3809,7 @@ block
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3791,6 +3841,7 @@ block
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -3823,6 +3874,7 @@ block
 )
 )
 '
+TypeError
 /
 popping
 value
@@ -3984,6 +4036,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -4087,6 +4140,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -4176,6 +4230,7 @@ const
 )
 )
 '
+TypeError
 /
 unused
 values
@@ -4213,6 +4268,7 @@ call
 )
 )
 '
+TypeError
 /
 peeking
 at
@@ -4253,6 +4309,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -4284,6 +4341,7 @@ call
 )
 )
 '
+TypeError
 /
 callee
 index
@@ -4551,6 +4609,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -4590,6 +4649,7 @@ const
 )
 )
 '
+TypeError
 /
 unused
 values
@@ -4629,6 +4689,7 @@ call_import
 )
 )
 '
+TypeError
 /
 peeking
 at
@@ -4671,6 +4732,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -4712,7 +4774,12 @@ call_import
 '
 )
 TypeError
-noImportObj
+/
+no
+import
+object
+given
+/
 )
 ;
 wasmEvalText
@@ -6330,6 +6397,7 @@ const
 )
 )
 )
+TypeError
 /
 can
 '
@@ -7225,6 +7293,7 @@ const
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -7273,6 +7342,7 @@ export
 )
 )
 '
+TypeError
 /
 select
 operand
@@ -7316,6 +7386,7 @@ export
 )
 )
 '
+TypeError
 /
 popping
 value
@@ -7485,6 +7556,7 @@ export
 )
 )
 '
+TypeError
 mismatchError
 (
 "
@@ -7532,6 +7604,7 @@ export
 )
 )
 '
+TypeError
 /
 popping
 value

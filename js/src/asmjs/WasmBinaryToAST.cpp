@@ -12696,7 +12696,7 @@ c
 cx
 GetErrorMessage
 nullptr
-JSMSG_WASM_COMPILE_ERROR
+JSMSG_WASM_DECODE_FAIL
 error
 .
 get

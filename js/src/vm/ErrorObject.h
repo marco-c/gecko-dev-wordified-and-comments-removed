@@ -168,7 +168,7 @@ subErrorClassSpec_
 static
 const
 ClassSpec
-nonGlobalErrorClassSpec_
+debuggeeWouldRunClassSpec_
 ;
 protected
 :

@@ -118,6 +118,7 @@ function
 wasmFailValidateText
 (
 str
+errorType
 pattern
 )
 {
@@ -153,9 +154,7 @@ Module
 (
 binary
 )
-WebAssembly
-.
-CompileError
+errorType
 pattern
 )
 ;
