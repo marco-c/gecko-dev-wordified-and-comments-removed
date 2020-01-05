@@ -242,7 +242,14 @@ Promise
 .
 resolve
 (
+{
+usedFallback
+:
+true
+gmpAddons
+:
 gMockAddons
+}
 )
 installAddon
 :

@@ -302,6 +302,12 @@ Promise
 .
 resolve
 (
+{
+usedFallback
+:
+true
+gmpAddons
+:
 [
 .
 .
@@ -312,6 +318,7 @@ values
 (
 )
 ]
+}
 )
 installAddon
 :

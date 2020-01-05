@@ -1971,7 +1971,7 @@ GMPInstallManager
 )
 ;
 let
-gmpAddons
+res
 =
 yield
 installManager
@@ -1983,6 +1983,8 @@ checkForAddons
 let
 update
 =
+res
+.
 gmpAddons
 .
 find
