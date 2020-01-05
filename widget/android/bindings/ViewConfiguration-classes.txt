@@ -1,5 +1,11 @@
+[
 android
 .
 view
 .
 ViewConfiguration
+=
+exceptionMode
+:
+nsresult
+]
