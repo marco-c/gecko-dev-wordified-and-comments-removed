@@ -101,6 +101,7 @@ B
 (
 CFG_BUILD_DIR
 )
+#
 VPATH
 :
 =
@@ -1130,7 +1131,7 @@ rust
 azure
 cp
 (
-VPATH
+S
 )
 /
 Info
