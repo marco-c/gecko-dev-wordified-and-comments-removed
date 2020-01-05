@@ -1269,8 +1269,7 @@ split
 /
 '
             
-dmg_path
-+
+time
 =
 datetime
 .
@@ -1289,9 +1288,25 @@ isoformat
 (
 )
             
+time
+=
+time
+.
+replace
+(
+'
+:
+'
+'
+-
+'
+)
+            
 dmg_path
 +
 =
+time
++
 "
 -
 servo
@@ -1794,8 +1809,7 @@ split
 /
 '
             
-tar_path
-+
+time
 =
 datetime
 .
@@ -1814,9 +1828,25 @@ isoformat
 (
 )
             
+time
+=
+time
+.
+replace
+(
+'
+:
+'
+"
+-
+"
+)
+            
 tar_path
 +
 =
+time
++
 "
 -
 servo
