@@ -26329,6 +26329,9 @@ loadInBackground
 forceNotRemote
 :
 aForceNotRemote
+forceBrowserInsertion
+:
+true
 opener
 :
 aOpener
