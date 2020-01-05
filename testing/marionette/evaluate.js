@@ -281,6 +281,10 @@ out
 ;
 unloadHandler
 =
+sandbox
+.
+cloneInto
+(
 (
 )
 =
@@ -298,6 +302,8 @@ during
 execution
 "
 )
+)
+sb
 )
 ;
 if
@@ -486,13 +492,7 @@ window
 .
 onunload
 =
-sandbox
-.
-cloneInto
-(
 unloadHandler
-sb
-)
 ;
 let
 res
