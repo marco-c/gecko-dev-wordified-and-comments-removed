@@ -292,6 +292,12 @@ BOOL
 )
 transparent
 ;
+-
+(
+void
+)
+viewDidChangeBackingProperties
+;
 end
 interface
 ChildView
