@@ -23890,6 +23890,10 @@ docshell
 "
 )
 ;
+AssertOriginAttributesMatchPrivateBrowsing
+(
+)
+;
 if
 (
 !
@@ -56153,6 +56157,10 @@ mPrivateBrowsingId
 SetPrivateBrowsing
 (
 isPrivate
+)
+;
+AssertOriginAttributesMatchPrivateBrowsing
+(
 )
 ;
 return
