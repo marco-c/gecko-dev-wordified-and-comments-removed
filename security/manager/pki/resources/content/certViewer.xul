@@ -283,7 +283,7 @@ pippki
 /
 content
 /
-viewCertDetails
+certViewer
 .
 js
 "
