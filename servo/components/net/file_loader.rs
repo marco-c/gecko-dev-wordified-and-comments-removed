@@ -384,6 +384,10 @@ Done
 res
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 Err
@@ -411,6 +415,10 @@ to_string
 )
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 }
@@ -437,6 +445,10 @@ to_string
 )
 )
 )
+)
+.
+unwrap
+(
 )
 ;
 }

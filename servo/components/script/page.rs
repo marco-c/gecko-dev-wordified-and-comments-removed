@@ -738,6 +738,10 @@ GetRPC
 rpc_send
 )
 )
+.
+unwrap
+(
+)
 ;
 rpc_recv
 .
@@ -1927,6 +1931,10 @@ join_port
 recv
 (
 )
+.
+unwrap
+(
+)
 ;
 }
 Ok
@@ -2309,6 +2317,10 @@ Reflow
 (
 reflow
 )
+)
+.
+unwrap
+(
 )
 ;
 debug

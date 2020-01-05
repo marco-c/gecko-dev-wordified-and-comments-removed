@@ -5831,6 +5831,10 @@ SendPixelContents
 sender
 )
 )
+.
+unwrap
+(
+)
 ;
 receiver
 .
@@ -6153,6 +6157,10 @@ iframe_fragment
 subpage_id
 iframe_rect
 )
+)
+.
+unwrap
+(
 )
 ;
 }

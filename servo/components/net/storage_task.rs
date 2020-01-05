@@ -477,6 +477,10 @@ len
 as
 u32
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -555,6 +559,10 @@ clone
 (
 )
 )
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -706,6 +714,10 @@ send
 (
 updated
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -780,6 +792,10 @@ to_string
 )
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -844,6 +860,10 @@ is_some
 (
 )
 )
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -917,6 +937,10 @@ false
 }
 }
 )
+)
+.
+unwrap
+(
 )
 ;
 }
