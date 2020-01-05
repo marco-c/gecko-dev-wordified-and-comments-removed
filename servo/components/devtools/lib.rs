@@ -1464,12 +1464,12 @@ ConsoleMessage
 :
 :
 LogMessage
-(
+{
 message
 filename
 lineNumber
 columnNumber
-)
+}
 =
 >
 {
