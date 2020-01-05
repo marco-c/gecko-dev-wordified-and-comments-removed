@@ -477,7 +477,8 @@ override
 ;
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 SetTitle
 (
 const

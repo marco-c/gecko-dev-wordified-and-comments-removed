@@ -13811,7 +13811,7 @@ break
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

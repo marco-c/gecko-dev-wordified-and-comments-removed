@@ -269,7 +269,8 @@ uintptr_t
 aVal
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetTitle
 (
 const

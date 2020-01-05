@@ -2417,7 +2417,8 @@ aDataType
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetTitle
 (
 const

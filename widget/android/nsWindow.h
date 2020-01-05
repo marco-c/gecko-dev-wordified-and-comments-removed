@@ -872,7 +872,8 @@ aVal
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetTitle
 (
 const

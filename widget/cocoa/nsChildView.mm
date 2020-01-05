@@ -8716,7 +8716,7 @@ LayoutDeviceIntPoint
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
