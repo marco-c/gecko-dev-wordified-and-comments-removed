@@ -13,6 +13,16 @@ in
 the
 same
 file
+/
+/
+error
+:
+only
+one
+protocol
+definition
+per
+file
 protocol
 p1
 {

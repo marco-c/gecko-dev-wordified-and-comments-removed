@@ -9,6 +9,17 @@ to
 return
 values
 .
+/
+/
+error
+:
+asynchronous
+message
+Msg
+'
+declares
+return
+values
 protocol
 AsyncReturn
 {
