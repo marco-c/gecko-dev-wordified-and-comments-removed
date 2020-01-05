@@ -1,8 +1,0 @@
-window
-.
-testScript
-=
-"
-redirected
-"
-;
