@@ -205,9 +205,6 @@ include
 URIParams
 ;
 include
-InputStreamParams
-;
-include
 NeckoChannelParams
 ;
 include

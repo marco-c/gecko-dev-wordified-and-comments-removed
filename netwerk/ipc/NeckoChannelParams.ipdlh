@@ -140,9 +140,6 @@ include
 IPCStream
 ;
 include
-InputStreamParams
-;
-include
 PBackgroundSharedTypes
 ;
 using
@@ -1065,7 +1062,7 @@ startPos
 nsCString
 entityID
 ;
-OptionalInputStreamParams
+OptionalIPCStream
 uploadStream
 ;
 OptionalLoadInfoArgs

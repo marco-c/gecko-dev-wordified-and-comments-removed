@@ -119,9 +119,6 @@ protocol
 PNecko
 ;
 include
-InputStreamParams
-;
-include
 URIParams
 ;
 /
