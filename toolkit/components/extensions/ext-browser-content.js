@@ -277,6 +277,12 @@ allowScriptsToClose
 )
 ;
 }
+docShell
+.
+isAppTab
+=
+true
+;
 addEventListener
 (
 "
