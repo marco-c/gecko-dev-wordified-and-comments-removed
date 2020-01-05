@@ -3068,11 +3068,8 @@ setUndefined
 return
 ;
 }
-Shape
-*
-shape
-=
-nullptr
+PropertyResult
+prop
 ;
 JSObject
 *
@@ -3103,7 +3100,7 @@ scope
 &
 pobj
 &
-shape
+prop
 )
 )
 {
@@ -3112,7 +3109,7 @@ if
 FetchNameNoGC
 (
 pobj
-shape
+prop
 MutableHandleValue
 :
 :

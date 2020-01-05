@@ -148,6 +148,9 @@ class
 ObjectOpResult
 ;
 class
+PropertyResult
+;
+class
 Symbol
 ;
 enum
@@ -675,6 +678,12 @@ JS
 :
 :
 ObjectOpResult
+;
+using
+JS
+:
+:
+PropertyResult
 ;
 using
 JS

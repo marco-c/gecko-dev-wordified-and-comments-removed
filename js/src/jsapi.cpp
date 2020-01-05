@@ -14327,7 +14327,10 @@ NativeObject
 )
 )
 ;
-RootedShape
+Rooted
+<
+PropertyResult
+>
 prop
 (
 cx
@@ -14345,9 +14348,11 @@ prop
 *
 foundp
 =
-!
-!
 prop
+.
+isFound
+(
+)
 ;
 return
 true

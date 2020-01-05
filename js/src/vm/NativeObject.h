@@ -6199,8 +6199,7 @@ id
 typename
 MaybeRooted
 <
-Shape
-*
+PropertyResult
 allowGC
 >
 :

@@ -4042,7 +4042,10 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 ;
@@ -4060,7 +4063,10 @@ PropertyName
 name
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 {
@@ -4788,7 +4794,10 @@ MutableHandleObject
 objp
 MutableHandleObject
 pobjp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 ;
@@ -4813,8 +4822,7 @@ JSObject
 *
 *
 pobjp
-Shape
-*
+PropertyResult
 *
 propp
 )
@@ -4882,8 +4890,7 @@ JSObject
 *
 *
 objp
-Shape
-*
+PropertyResult
 *
 propp
 )
@@ -4899,8 +4906,7 @@ JSObject
 obj
 jsid
 id
-Shape
-*
+PropertyResult
 *
 propp
 bool

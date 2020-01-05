@@ -2715,8 +2715,11 @@ HandleObject
 holderBase
 HandleNativeObject
 holder
-HandleShape
-shape
+Handle
+<
+PropertyResult
+>
+prop
 )
 ;
 MOZ_MUST_USE
@@ -2909,9 +2912,8 @@ obj
 JSObject
 *
 holder
-Shape
-*
-shape
+PropertyResult
+prop
 )
 ;
 bool
