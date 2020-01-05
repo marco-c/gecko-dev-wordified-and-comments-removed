@@ -2605,6 +2605,10 @@ derive
 JSTraceable
 )
 ]
+#
+[
+allow_unrooted_interior
+]
 pub
 struct
 RootedVec

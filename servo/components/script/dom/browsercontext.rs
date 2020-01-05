@@ -279,6 +279,10 @@ allow
 raw_pointer_derive
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 BrowsingContext
