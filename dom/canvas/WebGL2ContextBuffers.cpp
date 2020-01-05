@@ -343,6 +343,7 @@ readOffset
 +
 size
 <
+=
 writeOffset
 |
 |
@@ -350,6 +351,7 @@ writeOffset
 +
 size
 <
+=
 readOffset
 )
 ;
