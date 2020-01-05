@@ -72,9 +72,6 @@ LayoutData
 }
 ;
 use
-util
-:
-:
 color
 :
 :
@@ -84,9 +81,6 @@ rgb
 }
 ;
 use
-util
-:
-:
 color
 :
 :

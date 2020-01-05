@@ -240,6 +240,10 @@ mod
 matching
 ;
 }
+pub
+mod
+color
+;
 }
 pub
 mod
@@ -502,10 +506,6 @@ util
 pub
 mod
 tree
-;
-pub
-mod
-color
 ;
 pub
 mod

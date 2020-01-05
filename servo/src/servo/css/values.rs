@@ -1,9 +1,6 @@
 use
 SharedColor
 =
-util
-:
-:
 color
 :
 :

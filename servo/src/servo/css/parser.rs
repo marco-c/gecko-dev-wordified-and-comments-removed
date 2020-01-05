@@ -54,9 +54,6 @@ parser_util
 *
 ;
 use
-util
-:
-:
 color
 :
 :
