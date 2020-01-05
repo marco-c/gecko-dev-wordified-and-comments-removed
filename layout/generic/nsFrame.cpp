@@ -49820,7 +49820,7 @@ rect
 aFrame
 -
 >
-GetVisualOverflowRect
+GetVisualOverflowRectRelativeToSelf
 (
 )
 ;
