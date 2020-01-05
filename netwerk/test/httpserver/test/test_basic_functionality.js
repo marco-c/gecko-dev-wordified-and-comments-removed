@@ -276,7 +276,9 @@ connection
 "
 )
 "
-close
+keep
+-
+alive
 "
 )
 ;
