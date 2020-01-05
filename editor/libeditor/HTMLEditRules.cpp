@@ -37493,6 +37493,11 @@ skipList
 NoIndex
 )
 {
+if
+(
+parent
+)
+{
 skipList
 [
 idx
@@ -37500,6 +37505,7 @@ idx
 =
 parent
 ;
+}
 }
 else
 {
@@ -37736,6 +37742,9 @@ if
 (
 !
 bIsEmptyNode
+&
+&
+parent
 )
 {
 skipList
