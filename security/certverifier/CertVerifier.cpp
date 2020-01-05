@@ -2942,7 +2942,6 @@ if
 sha1ModeResult
 &
 &
-(
 mSHA1Mode
 =
 =
@@ -2950,16 +2949,6 @@ SHA1Mode
 :
 :
 ImportedRoot
-|
-|
-mSHA1Mode
-=
-=
-SHA1Mode
-:
-:
-ImportedRootOrBefore2016
-)
 )
 {
 *
