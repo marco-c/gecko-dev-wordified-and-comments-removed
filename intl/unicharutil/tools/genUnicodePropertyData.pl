@@ -343,7 +343,7 @@ UTR50
 currently
 revision
 -
-15
+16
 :
 #
 http
@@ -362,11 +362,11 @@ vertical
 /
 revision
 -
-15
+16
 /
 VerticalOrientation
 -
-15
+16
 .
 txt
 #
@@ -5360,7 +5360,7 @@ FH
 read
 VerticalOrientation
 -
-15
+16
 .
 txt
 open
@@ -5373,7 +5373,7 @@ vertical
 /
 VerticalOrientation
 -
-15
+16
 .
 txt
 "
@@ -5389,7 +5389,7 @@ data
 file
 VerticalOrientation
 -
-15
+16
 .
 txt
 \
