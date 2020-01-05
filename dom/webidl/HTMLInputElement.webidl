@@ -1511,3 +1511,16 @@ aIsFocused
 ;
 }
 ;
+partial
+interface
+HTMLInputElement
+{
+[
+ChromeOnly
+]
+attribute
+DOMString
+previewValue
+;
+}
+;

@@ -610,3 +610,16 @@ input
 ;
 }
 ;
+partial
+interface
+HTMLTextAreaElement
+{
+[
+ChromeOnly
+]
+attribute
+DOMString
+previewValue
+;
+}
+;
