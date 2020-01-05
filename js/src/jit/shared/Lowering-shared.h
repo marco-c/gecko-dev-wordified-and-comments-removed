@@ -1419,6 +1419,7 @@ MWasmFloatConstant
 *
 ins
 )
+override
 ;
 static
 bool
