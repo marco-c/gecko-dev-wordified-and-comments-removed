@@ -4386,6 +4386,16 @@ A
 <
 !
 ENTITY
+moreMenu
+.
+label
+"
+More
+"
+>
+<
+!
+ENTITY
 openCmd
 .
 commandkey
