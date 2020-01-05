@@ -911,6 +911,15 @@ Type
 :
 Frames
 :
+nsStyleUtil
+:
+:
+AppendFramesTimingFunction
+(
+mStepsOrFrames
+aResult
+)
+;
 break
 ;
 default

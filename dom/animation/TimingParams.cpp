@@ -641,6 +641,9 @@ case
 eCSSUnit_Cubic_Bezier
 :
 case
+eCSSUnit_Function
+:
+case
 eCSSUnit_Steps
 :
 {
