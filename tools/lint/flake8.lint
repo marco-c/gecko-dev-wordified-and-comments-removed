@@ -1180,6 +1180,13 @@ tools
 /
 lint
 '
+'
+toolkit
+/
+components
+/
+telemetry
+'
 ]
 '
 exclude
