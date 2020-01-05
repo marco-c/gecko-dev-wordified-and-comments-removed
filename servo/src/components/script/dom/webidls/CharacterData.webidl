@@ -229,8 +229,6 @@ data
 ;
 }
 ;
-/
-/
 CharacterData
 implements
 ChildNode

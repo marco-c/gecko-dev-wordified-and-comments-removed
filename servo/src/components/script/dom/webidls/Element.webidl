@@ -480,8 +480,6 @@ outerHTML
 ;
 }
 ;
-/
-/
 Element
 implements
 ChildNode
