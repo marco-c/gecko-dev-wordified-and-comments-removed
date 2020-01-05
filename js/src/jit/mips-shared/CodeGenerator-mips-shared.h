@@ -829,6 +829,15 @@ ins
 ;
 virtual
 void
+visitRotateI64
+(
+LRotateI64
+*
+lir
+)
+;
+virtual
+void
 visitUrshD
 (
 LUrshD
