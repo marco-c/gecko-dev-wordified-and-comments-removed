@@ -658,10 +658,8 @@ _pnode
 \
 if
 (
+!
 _node
-=
-=
-NULL
 )
 \
 goto
@@ -763,11 +761,9 @@ _node
 \
 if
 (
+!
 *
 _pnode
-=
-=
-NULL
 )
 \
 {
@@ -1084,12 +1080,10 @@ _try_done
 0
 &
 &
-(
 list_changed
 !
 =
 NULL
-)
 )
 \
 *

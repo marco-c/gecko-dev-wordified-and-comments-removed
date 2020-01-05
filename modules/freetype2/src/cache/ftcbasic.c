@@ -765,8 +765,8 @@ FTC_BasicFamilyRec
 )
 ftc_basic_family_compare
 ftc_basic_family_init
-0
-0
+NULL
+NULL
 }
 ftc_basic_family_load_glyph
 }
@@ -1330,8 +1330,8 @@ FTC_BasicFamilyRec
 )
 ftc_basic_family_compare
 ftc_basic_family_init
-0
-0
+NULL
+NULL
 }
 ftc_basic_family_get_count
 ftc_basic_family_load_bitmap

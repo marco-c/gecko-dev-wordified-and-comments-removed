@@ -890,13 +890,11 @@ MAX_WBITS
 Z_OK
 |
 |
+!
 zstream
 -
 >
 next_in
-=
-=
-NULL
 )
 error
 =

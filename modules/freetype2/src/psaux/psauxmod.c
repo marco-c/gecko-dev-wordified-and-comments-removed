@@ -192,14 +192,14 @@ psaux_interface
 (
 FT_Module_Constructor
 )
-0
+NULL
 (
 FT_Module_Destructor
 )
-0
+NULL
 (
 FT_Module_Requester
 )
-0
+NULL
 }
 ;

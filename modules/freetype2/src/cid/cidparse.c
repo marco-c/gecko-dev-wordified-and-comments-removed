@@ -107,14 +107,9 @@ arg1
 *
 arg2
 ;
-FT_MEM_ZERO
+FT_ZERO
 (
 parser
-sizeof
-(
-*
-parser
-)
 )
 ;
 psaux
@@ -376,6 +371,8 @@ buffer
 )
 +
 STARTDATA_LEN
++
+1
 ;
 goto
 Found
@@ -423,6 +420,8 @@ buffer
 )
 +
 SFNTS_LEN
++
+1
 ;
 goto
 Found

@@ -40,6 +40,10 @@ CFF_SERVICES_GET
 cff_services
 #
 define
+CFF_SERVICE_MULTI_MASTERS_GET
+cff_service_multi_masters
+#
+define
 CFF_CMAP_ENCODING_CLASS_REC_GET
 cff_cmap_encoding_class_rec
 #

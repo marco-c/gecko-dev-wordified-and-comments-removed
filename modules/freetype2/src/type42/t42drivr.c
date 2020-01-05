@@ -447,7 +447,7 @@ type42
 "
 0x10000L
 0x20000L
-0
+NULL
 T42_Driver_Init
 T42_Driver_Done
 T42_Get_Interface
@@ -471,9 +471,9 @@ T42_Size_Done
 T42_GlyphSlot_Init
 T42_GlyphSlot_Done
 T42_GlyphSlot_Load
-0
-0
-0
+NULL
+NULL
+NULL
 T42_Size_Request
 T42_Size_Select
 }

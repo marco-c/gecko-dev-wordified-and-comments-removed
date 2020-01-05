@@ -4106,6 +4106,7 @@ len
 FT_Bool
 have_literal
 =
+FT_BOOL
 (
 *
 cur
@@ -5489,14 +5490,9 @@ FT_UNUSED
 face
 )
 ;
-FT_MEM_ZERO
+FT_ZERO
 (
 loader
-sizeof
-(
-*
-loader
-)
 )
 ;
 loader

@@ -49,9 +49,6 @@ sizeItem
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 arrstack
@@ -132,9 +129,6 @@ memory
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 arrstack
@@ -180,9 +174,6 @@ numElements
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 {
@@ -326,9 +317,6 @@ numElements
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 if
@@ -374,9 +362,6 @@ arrstack
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 arrstack
@@ -401,9 +386,6 @@ arrstack
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 return
@@ -428,9 +410,6 @@ arrstack
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 return
@@ -461,9 +440,6 @@ newPtr
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 if
@@ -530,9 +506,6 @@ ptr
 FT_ASSERT
 (
 arrstack
-!
-=
-NULL
 )
 ;
 if
@@ -574,9 +547,6 @@ return
 FT_ASSERT
 (
 ptr
-!
-=
-NULL
 )
 ;
 {

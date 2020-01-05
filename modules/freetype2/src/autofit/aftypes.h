@@ -457,7 +457,7 @@ metrics
 )
 ;
 typedef
-void
+FT_Error
 (
 *
 AF_WritingSystem_ApplyHintsFunc

@@ -432,7 +432,7 @@ t1cid
 "
 0x10000L
 0x20000L
-0
+NULL
 cid_driver_init
 cid_driver_done
 cid_get_interface
@@ -456,10 +456,10 @@ cid_size_done
 cid_slot_init
 cid_slot_done
 cid_slot_load_glyph
-0
-0
-0
+NULL
+NULL
+NULL
 cid_size_request
-0
+NULL
 }
 ;

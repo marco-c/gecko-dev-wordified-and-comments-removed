@@ -715,9 +715,6 @@ kp
 if
 (
 oldcharmap
-!
-=
-NULL
 )
 error
 =
@@ -1264,9 +1261,6 @@ Exit
 if
 (
 fi
-!
-=
-NULL
 )
 T1_Done_Metrics
 (

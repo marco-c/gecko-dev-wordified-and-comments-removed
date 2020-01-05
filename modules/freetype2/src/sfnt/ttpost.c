@@ -1506,6 +1506,11 @@ numGlyphs
 num_glyphs
 >
 258
+|
+|
+num_glyphs
+<
+1
 )
 {
 error

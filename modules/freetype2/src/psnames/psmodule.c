@@ -22,6 +22,9 @@ psmodule
 h
 "
 #
+define
+DEFINE_PS_TABLES
+#
 include
 "
 pstables

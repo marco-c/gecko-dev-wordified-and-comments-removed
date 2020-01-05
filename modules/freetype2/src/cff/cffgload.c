@@ -617,14 +617,9 @@ extra
 .
 data
 ;
-FT_MEM_ZERO
+FT_ZERO
 (
 decoder
-sizeof
-(
-*
-decoder
-)
 )
 ;
 cff_builder_init
@@ -3214,7 +3209,7 @@ FT_TRACE4
 "
 %
 .
-2f
+5f
 "
 val
 /
@@ -8520,6 +8515,7 @@ cff_op_and
 FT_Fixed
 cond
 =
+(
 args
 [
 0
@@ -8530,6 +8526,7 @@ args
 [
 1
 ]
+)
 ;
 FT_TRACE4
 (
@@ -8567,6 +8564,7 @@ cff_op_or
 FT_Fixed
 cond
 =
+(
 args
 [
 0
@@ -8577,6 +8575,7 @@ args
 [
 1
 ]
+)
 ;
 FT_TRACE4
 (
@@ -8656,6 +8655,7 @@ cff_op_eq
 FT_Fixed
 cond
 =
+(
 args
 [
 0
@@ -8666,6 +8666,7 @@ args
 [
 1
 ]
+)
 ;
 FT_TRACE4
 (

@@ -1485,12 +1485,12 @@ stack_top
 0
 )
 {
--
--
 state
 -
 >
 stack_top
+-
+-
 ;
 if
 (

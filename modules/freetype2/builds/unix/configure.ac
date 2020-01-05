@@ -104,6 +104,8 @@ FreeType
 2
 .
 7
+.
+1
 ]
 [
 freetype
@@ -140,11 +142,11 @@ TXT
 version_info
 =
 '
-18
+19
 :
-6
+0
 :
-12
+13
 '
 AC_SUBST
 (
@@ -649,6 +651,7 @@ AC_CHECK_SIZEOF
 long
 ]
 )
+AC_TYPE_LONG_LONG_INT
 #
 check
 whether

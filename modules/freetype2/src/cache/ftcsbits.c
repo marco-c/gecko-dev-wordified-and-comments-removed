@@ -1354,13 +1354,11 @@ gindex
 ;
 if
 (
+!
 sbit
 -
 >
 buffer
-=
-=
-NULL
 &
 &
 sbit

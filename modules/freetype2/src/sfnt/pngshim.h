@@ -47,6 +47,8 @@ FT_UInt
 png_len
 FT_Bool
 populate_map_and_metrics
+FT_Bool
+metrics_only
 )
 ;
 #

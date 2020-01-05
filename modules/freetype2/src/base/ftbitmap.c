@@ -176,13 +176,11 @@ pitch
 ;
 if
 (
+!
 source
 -
 >
 buffer
-=
-=
-NULL
 )
 {
 *

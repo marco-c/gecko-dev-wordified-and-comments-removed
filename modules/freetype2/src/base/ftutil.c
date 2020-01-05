@@ -123,10 +123,8 @@ size
 ;
 if
 (
+!
 block
-=
-=
-NULL
 )
 error
 =
@@ -347,10 +345,8 @@ cur_count
 {
 FT_ASSERT
 (
+!
 block
-=
-=
-NULL
 )
 ;
 block
@@ -400,10 +396,8 @@ block
 ;
 if
 (
+!
 block2
-=
-=
-NULL
 )
 error
 =

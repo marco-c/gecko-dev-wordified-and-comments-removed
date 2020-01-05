@@ -257,6 +257,10 @@ FT_Set_MM_Blend_Func
 )
 T1_Set_MM_Blend
 (
+FT_Get_MM_Blend_Func
+)
+T1_Get_MM_Blend
+(
 FT_Get_MM_Var_Func
 )
 T1_Get_MM_Var
@@ -264,6 +268,18 @@ T1_Get_MM_Var
 FT_Set_Var_Design_Func
 )
 T1_Set_Var_Design
+(
+FT_Get_Var_Design_Func
+)
+T1_Get_Var_Design
+(
+FT_Get_Var_Blend_Func
+)
+NULL
+(
+FT_Done_Blend_Func
+)
+T1_Done_Blend
 }
 ;
 #
@@ -3209,7 +3225,7 @@ type1
 "
 0x10000L
 0x20000L
-0
+NULL
 T1_Driver_Init
 T1_Driver_Done
 Get_Interface
@@ -3236,8 +3252,8 @@ T1_Load_Glyph
 #
 ifdef
 T1_CONFIG_OPTION_NO_AFM
-0
-0
+NULL
+NULL
 #
 else
 Get_Kerning
@@ -3246,6 +3262,6 @@ T1_Read_Metrics
 endif
 T1_Get_Advances
 T1_Size_Request
-0
+NULL
 }
 ;

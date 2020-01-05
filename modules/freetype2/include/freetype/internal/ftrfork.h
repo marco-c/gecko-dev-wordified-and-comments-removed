@@ -23,7 +23,7 @@ typedef
 struct
 FT_RFork_Ref_
 {
-FT_UShort
+FT_Short
 res_id
 ;
 FT_Long

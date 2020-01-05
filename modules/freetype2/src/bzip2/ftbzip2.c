@@ -464,13 +464,11 @@ bzstream
 BZ_OK
 |
 |
+!
 bzstream
 -
 >
 next_in
-=
-=
-NULL
 )
 error
 =

@@ -887,7 +887,7 @@ FTC_FaceNodeRec
 )
 ftc_face_node_compare
 ftc_face_node_init
-0
+NULL
 ftc_face_node_done
 }
 ;
@@ -1688,10 +1688,8 @@ manager
 max_weight
 |
 |
+!
 first
-=
-=
-NULL
 )
 return
 ;
@@ -1994,10 +1992,8 @@ result
 ;
 if
 (
+!
 first
-=
-=
-NULL
 )
 return
 0

@@ -1313,6 +1313,8 @@ const
 char
 *
 service_id
+FT_Bool
+global
 )
 ;
 #
@@ -1905,7 +1907,7 @@ lcd_extra
 FT_Byte
 lcd_weights
 [
-7
+5
 ]
 ;
 FT_Bitmap_LcdFilterFunc

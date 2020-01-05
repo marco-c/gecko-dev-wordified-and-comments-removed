@@ -2970,10 +2970,8 @@ format
 ;
 if
 (
+!
 func
-=
-=
-NULL
 )
 FT_INVALID_FORMAT
 ;
@@ -3467,10 +3465,9 @@ classID
 FT_UShort
 i
 ;
-ft_memset
+FT_MEM_ZERO
 (
 nGlyphInClass
-0
 256
 )
 ;
@@ -4243,9 +4240,6 @@ break
 }
 if
 (
-NULL
-!
-=
 gxvalid
 -
 >
@@ -4580,9 +4574,6 @@ gxvalid
 statetable
 .
 optdata_load_func
-!
-=
-NULL
 )
 gxvalid
 -
@@ -4604,9 +4595,6 @@ gxvalid
 statetable
 .
 subtable_setup_func
-!
-=
-NULL
 )
 setup_func
 =
@@ -5600,9 +5588,6 @@ Exit
 }
 if
 (
-NULL
-!
-=
 gxvalid
 -
 >
@@ -5861,9 +5846,6 @@ gxvalid
 xstatetable
 .
 optdata_load_func
-!
-=
-NULL
 )
 gxvalid
 -
@@ -5885,9 +5867,6 @@ gxvalid
 xstatetable
 .
 subtable_setup_func
-!
-=
-NULL
 )
 setup_func
 =

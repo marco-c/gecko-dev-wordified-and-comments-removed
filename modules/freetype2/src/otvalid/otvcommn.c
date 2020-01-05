@@ -130,9 +130,9 @@ i
 <
 GlyphCount
 ;
-+
-+
 i
++
++
 )
 {
 FT_UInt

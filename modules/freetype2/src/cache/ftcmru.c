@@ -191,9 +191,6 @@ plist
 FT_ASSERT
 (
 first
-!
-=
-NULL
 )
 ;
 if
@@ -365,9 +362,6 @@ next
 FT_ASSERT
 (
 first
-!
-=
-NULL
 )
 ;
 #
@@ -1010,10 +1004,8 @@ key
 ;
 if
 (
+!
 node
-=
-=
-NULL
 )
 return
 FTC_MruList_New
@@ -1134,10 +1126,8 @@ first
 &
 &
 (
+!
 selection
-=
-=
-NULL
 |
 |
 selection
