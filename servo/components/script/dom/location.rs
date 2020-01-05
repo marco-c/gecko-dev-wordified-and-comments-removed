@@ -313,7 +313,7 @@ get_url
 )
 }
 fn
-Stringify
+Stringifier
 (
 self
 )
