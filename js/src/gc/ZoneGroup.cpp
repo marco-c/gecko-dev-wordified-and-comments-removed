@@ -102,16 +102,6 @@ debuggerList_
 (
 this
 )
-profilingScripts
-(
-this
-false
-)
-scriptAndCountsVector
-(
-this
-nullptr
-)
 {
 }
 bool

@@ -76,6 +76,11 @@ hadOutOfMemory
 (
 )
 ;
+bool
+profilingScripts
+(
+)
+;
 const
 JSAtomState
 &
@@ -249,11 +254,6 @@ nurseryExists
 ;
 void
 setMinorGCShouldCancelIonCompilations
-(
-)
-;
-bool
-profilingScripts
 (
 )
 ;

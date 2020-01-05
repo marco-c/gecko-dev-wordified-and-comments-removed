@@ -666,6 +666,14 @@ defaultVersion_
 (
 JSVERSION_DEFAULT
 )
+profilingScripts
+(
+false
+)
+scriptAndCountsVector
+(
+nullptr
+)
 lcovOutput_
 (
 )
@@ -1399,11 +1407,6 @@ beingDestroyed_
 =
 true
 ;
-zoneGroupFromMainThread
-(
-)
--
->
 profilingScripts
 =
 false
