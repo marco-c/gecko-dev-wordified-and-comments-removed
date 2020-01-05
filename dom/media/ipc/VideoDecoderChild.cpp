@@ -250,6 +250,11 @@ IntRect
 )
 )
 ;
+if
+(
+mCallback
+)
+{
 mCallback
 -
 >
@@ -258,6 +263,7 @@ Output
 video
 )
 ;
+}
 return
 true
 ;
@@ -274,6 +280,11 @@ AssertOnManagerThread
 (
 )
 ;
+if
+(
+mCallback
+)
+{
 mCallback
 -
 >
@@ -281,6 +292,7 @@ InputExhausted
 (
 )
 ;
+}
 return
 true
 ;
@@ -297,6 +309,11 @@ AssertOnManagerThread
 (
 )
 ;
+if
+(
+mCallback
+)
+{
 mCallback
 -
 >
@@ -304,6 +321,7 @@ DrainComplete
 (
 )
 ;
+}
 return
 true
 ;
@@ -324,6 +342,11 @@ AssertOnManagerThread
 (
 )
 ;
+if
+(
+mCallback
+)
+{
 mCallback
 -
 >
@@ -332,6 +355,7 @@ Error
 aError
 )
 ;
+}
 return
 true
 ;
@@ -458,6 +482,12 @@ ref
 -
 >
 mInitialized
+&
+&
+ref
+-
+>
+mCallback
 )
 {
 ref
@@ -857,6 +887,14 @@ Shutdown
 {
 AssertOnManagerThread
 (
+)
+;
+mInitPromise
+.
+RejectIfExists
+(
+NS_ERROR_DOM_MEDIA_CANCELED
+__func__
 )
 ;
 if
