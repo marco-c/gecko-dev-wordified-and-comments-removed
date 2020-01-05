@@ -65,13 +65,6 @@ getBoundingClientRect
 (
 )
 ;
-window
-.
-alert
-(
-i
-)
-;
 }
 var
 stop
