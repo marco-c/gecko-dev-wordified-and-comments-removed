@@ -217,6 +217,10 @@ apply
 mod
 matching
 ;
+priv
+mod
+select_handler
+;
 }
 pub
 mod
