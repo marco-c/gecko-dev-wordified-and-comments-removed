@@ -1003,12 +1003,6 @@ workers
 nativeTypeDefault
 =
 "
-mozilla
-:
-:
-dom
-:
-:
 workers
 :
 :
@@ -1021,15 +1015,6 @@ else
                 
 nativeTypeDefault
 =
-"
-mozilla
-:
-:
-dom
-:
-:
-"
-+
 ifaceName
         
 self
@@ -1058,7 +1043,7 @@ get
 pointerType
 '
 '
-~
+mut
 '
 )
         
