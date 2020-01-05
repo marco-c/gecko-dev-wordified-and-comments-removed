@@ -61,6 +61,13 @@ editor
 js
 '
 '
+params
+-
+panel
+.
+js
+'
+'
 preview
 -
 panel
