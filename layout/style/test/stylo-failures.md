@@ -655,13 +655,6 @@ attribute
 not
 supported
 *
-test_bug363146
-.
-html
-[
-2
-]
-*
 test_html_attribute_computed_values
 .
 html

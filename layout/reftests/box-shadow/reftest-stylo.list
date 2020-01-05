@@ -110,7 +110,6 @@ boxshadow
 spread
 .
 html
-fails
 =
 =
 tableboxshadow
@@ -123,7 +122,6 @@ tableboxshadow
 basic
 .
 html
-fails
 =
 =
 tableboxshadow
@@ -136,7 +134,6 @@ tableboxshadow
 trshadow
 .
 html
-fails
 =
 =
 tableboxshadow

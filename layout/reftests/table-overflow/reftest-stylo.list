@@ -40,7 +40,6 @@ bug785684
 y
 .
 html
-fails
 =
 =
 table
@@ -57,7 +56,6 @@ row
 pagination
 .
 html
-fails
 =
 =
 963441

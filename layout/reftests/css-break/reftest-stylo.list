@@ -32,7 +32,6 @@ break
 enabled
 true
 )
-fails
 =
 =
 box
@@ -53,7 +52,6 @@ break
 1
 .
 html
-fails
 =
 =
 box
@@ -90,7 +88,6 @@ shadow
 1
 .
 html
-fails
 =
 =
 box

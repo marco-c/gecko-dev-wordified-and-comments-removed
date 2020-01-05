@@ -1085,6 +1085,13 @@ RawGeckoElementBorrowed
 element
 )
 ;
+RawServoDeclarationBlockStrongBorrowedOrNull
+Gecko_GetExtraContentStyleDeclarations
+(
+RawGeckoElementBorrowed
+element
+)
+;
 bool
 Gecko_GetAnimationRule
 (

@@ -675,6 +675,13 @@ aAttribute
 const
 override
 ;
+nsMappedAttributes
+*
+GetMappedAttributesInheritedFromTable
+(
+)
+const
+;
 virtual
 nsresult
 Clone

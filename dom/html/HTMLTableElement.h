@@ -48,16 +48,6 @@ mozilla
 namespace
 dom
 {
-#
-define
-TABLE_ATTRS_DIRTY
-(
-(
-nsMappedAttributes
-*
-)
-0x1
-)
 class
 TableRowsCollection
 ;

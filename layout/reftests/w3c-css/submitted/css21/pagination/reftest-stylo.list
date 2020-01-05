@@ -374,7 +374,6 @@ avoid
 10
 .
 html
-fails
 =
 =
 moz
@@ -737,7 +736,6 @@ avoid
 5
 .
 html
-fails
 =
 =
 moz
@@ -774,7 +772,6 @@ avoid
 6
 .
 html
-fails
 =
 =
 moz
@@ -811,7 +808,6 @@ avoid
 7
 .
 html
-fails
 =
 =
 moz

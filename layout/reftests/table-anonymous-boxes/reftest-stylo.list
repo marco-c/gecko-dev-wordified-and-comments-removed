@@ -410,7 +410,6 @@ html
 1
 .
 html
-fails
 =
 =
 443616
@@ -423,7 +422,6 @@ xhtml
 1a
 .
 xhtml
-fails
 =
 =
 443616
@@ -689,7 +687,6 @@ infer
 table
 .
 html
-fails
 =
 =
 3
@@ -706,10 +703,6 @@ tables
 ref
 .
 html
-#
-Bug
-1341775
-fails
 =
 =
 3
@@ -726,9 +719,6 @@ tables
 ref
 .
 html
-#
-Bug
-1341775
 =
 =
 blocks

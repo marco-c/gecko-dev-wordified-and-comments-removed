@@ -1283,7 +1283,6 @@ always
 1
 .
 html
-fails
 =
 =
 table
@@ -1304,7 +1303,6 @@ thead
 1
 .
 html
-fails
 =
 =
 table
@@ -1325,7 +1323,6 @@ splitrowgroup
 1
 .
 html
-fails
 =
 =
 table
@@ -1346,7 +1343,6 @@ splitaftercaption
 1
 .
 html
-fails
 =
 =
 table
@@ -1367,7 +1363,6 @@ splitaftercaption
 2
 .
 html
-fails
 =
 =
 table
@@ -1388,7 +1383,6 @@ splitaftercaption
 3
 .
 html
-fails
 =
 =
 table
@@ -1409,7 +1403,6 @@ splitaftercaption
 4
 .
 html
-fails
 =
 =
 table
@@ -1430,7 +1423,6 @@ splitaftercaption
 5
 .
 html
-fails
 =
 =
 table
@@ -1451,7 +1443,6 @@ splitaftercaption
 6
 .
 html
-fails
 =
 =
 table
@@ -1472,7 +1463,6 @@ splitaftercaption
 7
 .
 html
-fails
 =
 =
 table
@@ -1496,7 +1486,6 @@ html
 #
 Bug
 1341648
-fails
 =
 =
 table
@@ -1520,7 +1509,6 @@ html
 #
 Bug
 1341648
-fails
 =
 =
 table
@@ -1544,7 +1532,6 @@ html
 #
 Bug
 1341648
-fails
 =
 =
 table
