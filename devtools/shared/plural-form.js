@@ -21,9 +21,9 @@ new
 LocalizationHelper
 (
 "
-toolkit
+global
 /
-locales
+locale
 /
 intl
 .

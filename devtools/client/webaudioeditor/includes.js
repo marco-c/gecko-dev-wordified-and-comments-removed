@@ -220,9 +220,7 @@ STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 webaudioeditor
 .

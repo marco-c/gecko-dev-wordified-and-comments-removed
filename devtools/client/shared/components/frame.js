@@ -75,9 +75,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 components
 .
@@ -94,9 +92,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 webconsole
 .

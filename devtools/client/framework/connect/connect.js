@@ -159,9 +159,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 connection
 -

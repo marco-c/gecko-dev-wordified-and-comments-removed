@@ -73,9 +73,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 webconsole
 .

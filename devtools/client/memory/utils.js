@@ -34,9 +34,7 @@ STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 memory
 .

@@ -100,9 +100,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 netmonitor
 .

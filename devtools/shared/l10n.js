@@ -58,10 +58,10 @@ context
 raw
 !
 devtools
-/
+-
 shared
 /
-locales
+locale
 /
 "
 true
@@ -87,9 +87,7 @@ raw
 !
 devtools
 /
-client
-/
-locales
+locale
 /
 "
 true
@@ -113,9 +111,9 @@ context
 "
 raw
 !
-toolkit
+global
 /
-locales
+locale
 /
 "
 true
@@ -177,7 +175,7 @@ if
 (
 /
 ^
-toolkit
+global
 /
 .
 test
@@ -197,8 +195,7 @@ if
 /
 ^
 devtools
-\
-/
+-
 shared
 /
 .
@@ -700,10 +697,10 @@ LocalizationHelper
 (
 "
 devtools
-/
+-
 shared
 /
-locales
+locale
 /
 shared
 .
