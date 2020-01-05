@@ -977,7 +977,6 @@ if
 !
 in_derive_expn
 (
-cx
 span
 )
 {
