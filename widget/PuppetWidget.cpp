@@ -418,11 +418,6 @@ mNativeKeyCommandsValid
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-PuppetWidget
-)
-;
 mSingleLineCommands
 .
 SetCapacity
@@ -464,11 +459,6 @@ PuppetWidget
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-PuppetWidget
-)
-;
 Destroy
 (
 )
