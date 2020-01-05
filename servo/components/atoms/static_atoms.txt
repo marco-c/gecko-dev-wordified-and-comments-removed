@@ -89,3 +89,6 @@ invalid
 change
 open
 toggle
+statechange
+controllerchange
+fetch

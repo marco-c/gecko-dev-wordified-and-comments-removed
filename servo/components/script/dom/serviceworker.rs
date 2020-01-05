@@ -195,12 +195,6 @@ DOMMessage
 }
 ;
 use
-servo_atoms
-:
-:
-Atom
-;
-use
 std
 :
 :
@@ -443,10 +437,8 @@ EventTarget
 .
 fire_event
 (
-Atom
-:
-:
-from
+atom
+!
 (
 "
 statechange
