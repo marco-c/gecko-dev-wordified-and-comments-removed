@@ -1,4 +1,6 @@
-README
+setup
+.
+cfg
 setup
 .
 py
@@ -48,6 +50,15 @@ info
 entry_points
 .
 txt
+redo
+.
+egg
+-
+info
+/
+pbr
+.
+json
 redo
 .
 egg
