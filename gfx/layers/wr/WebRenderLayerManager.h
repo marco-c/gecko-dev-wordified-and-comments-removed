@@ -43,6 +43,12 @@ namespace
 layers
 {
 class
+CompositorBridgeChild
+;
+class
+PCompositorBridgeChild
+;
+class
 WebRenderBridgeChild
 ;
 template
