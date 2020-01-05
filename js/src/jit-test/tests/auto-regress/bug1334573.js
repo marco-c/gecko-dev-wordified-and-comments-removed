@@ -16,3 +16,12 @@ Intl
 )
 ;
 }
+else
+{
+throw
+new
+Error
+(
+)
+;
+}
