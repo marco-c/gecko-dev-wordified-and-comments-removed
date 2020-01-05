@@ -5648,6 +5648,9 @@ dasharray
 types
 :
 [
+'
+dasharray
+'
 ]
 }
 '
@@ -5750,6 +5753,9 @@ miterlimit
 types
 :
 [
+'
+positiveNumber
+'
 ]
 }
 '
@@ -5762,6 +5768,9 @@ opacity
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
