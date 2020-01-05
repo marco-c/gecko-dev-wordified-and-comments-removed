@@ -40,6 +40,11 @@ noautofocus
 "
 true
 "
+followanchor
+=
+"
+false
+"
 role
 =
 "

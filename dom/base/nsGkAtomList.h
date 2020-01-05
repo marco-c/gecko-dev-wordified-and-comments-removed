@@ -2699,6 +2699,13 @@ focused
 )
 GK_ATOM
 (
+followanchor
+"
+followanchor
+"
+)
+GK_ATOM
+(
 following
 "
 following
@@ -15177,13 +15184,6 @@ GK_ATOM
 paintRequestTime
 "
 PaintRequestTime
-"
-)
-GK_ATOM
-(
-pseudoProperty
-"
-PseudoProperty
 "
 )
 GK_ATOM
