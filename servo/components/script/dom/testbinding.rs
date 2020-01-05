@@ -239,10 +239,7 @@ bindings
 utils
 :
 :
-{
 Reflector
-Reflectable
-}
 ;
 use
 dom
@@ -309,7 +306,7 @@ pub
 struct
 TestBinding
 {
-reflector
+reflector_
 :
 Reflector
 global
