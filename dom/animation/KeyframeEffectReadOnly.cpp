@@ -2189,6 +2189,16 @@ aInvalidPacedProperty
 aRv
 )
 ;
+if
+(
+AnimationUtils
+:
+:
+IsCoreAPIEnabled
+(
+)
+)
+{
 result
 .
 mIterationComposite
@@ -2197,6 +2207,7 @@ options
 .
 mIterationComposite
 ;
+}
 }
 return
 result
