@@ -1099,7 +1099,7 @@ MakePair
 DrawResult
 :
 :
-SUCCESS
+BAD_ARGS
 RefPtr
 <
 SourceSurface
@@ -1268,7 +1268,7 @@ MakePair
 DrawResult
 :
 :
-SUCCESS
+BAD_ARGS
 RefPtr
 <
 SourceSurface
@@ -1308,7 +1308,7 @@ MakePair
 DrawResult
 :
 :
-SUCCESS
+BAD_ARGS
 RefPtr
 <
 SourceSurface

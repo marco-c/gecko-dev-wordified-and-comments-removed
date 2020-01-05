@@ -1796,7 +1796,7 @@ MakePair
 DrawResult
 :
 :
-SUCCESS
+TEMPORARY_ERROR
 RefPtr
 <
 SourceSurface
