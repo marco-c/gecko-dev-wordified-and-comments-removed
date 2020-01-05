@@ -106667,13 +106667,23 @@ holdMethod
 ClassMethod
 (
 "
-HoldJSObjectsIfMoreThanOneOwner
+FinishSlowJSInitIfMoreThanOneOwner
 "
 "
 void
 "
                                  
 [
+Argument
+(
+"
+JSContext
+*
+"
+"
+aCx
+"
+)
 ]
                                  
 inline
@@ -106699,8 +106709,9 @@ body
 s
 :
 :
-HoldJSObjectsIfMoreThanOneOwner
+FinishSlowJSInitIfMoreThanOneOwner
 (
+aCx
 )
 ;
 \

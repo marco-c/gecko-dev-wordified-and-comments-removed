@@ -697,8 +697,11 @@ aTracer
 )
 ;
 void
-HoldJSObjectsIfMoreThanOneOwner
+FinishSlowJSInitIfMoreThanOneOwner
 (
+JSContext
+*
+aCx
 )
 ;
 struct
@@ -1957,8 +1960,9 @@ get
 )
 -
 >
-HoldJSObjectsIfMoreThanOneOwner
+FinishSlowJSInitIfMoreThanOneOwner
 (
+mCx
 )
 ;
 }
