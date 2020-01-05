@@ -1159,7 +1159,7 @@ mLastParsedEndTime
 ;
 Maybe
 <
-size_t
+uint32_t
 >
 mNextInsertionIndex
 ;
@@ -1385,7 +1385,7 @@ TimeUnit
 aHighestTime
 )
 ;
-size_t
+uint32_t
 RemoveFrames
 (
 const
@@ -1446,7 +1446,7 @@ TrackInfo
 :
 TrackType
 aTrack
-size_t
+uint32_t
 aIndex
 const
 media
