@@ -380,6 +380,12 @@ false
 ;
 SET_DEFAULT
 (
+disableInlineBacktracking
+true
+)
+;
+SET_DEFAULT
+(
 disableAma
 false
 )
