@@ -271,7 +271,7 @@ WebkitBlinkDirectoryPickerEnabled
 ]
 readonly
 attribute
-DOMString
+USVString
 webkitRelativePath
 ;
 [

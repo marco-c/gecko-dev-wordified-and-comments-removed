@@ -104,7 +104,8 @@ createReader
 void
 getFile
 (
-DOMString
+optional
+USVString
 ?
 path
 optional
@@ -121,7 +122,8 @@ errorCallback
 void
 getDirectory
 (
-DOMString
+optional
+USVString
 ?
 path
 optional

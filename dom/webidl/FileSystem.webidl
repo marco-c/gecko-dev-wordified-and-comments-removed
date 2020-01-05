@@ -165,7 +165,7 @@ FileSystem
 {
 readonly
 attribute
-DOMString
+USVString
 name
 ;
 readonly
