@@ -27,7 +27,7 @@ sh
 cd
 servo
 /
-test
+tests
 /
 power
 sudo
@@ -72,15 +72,17 @@ the
 benchmark
 for
 example
-"
+'
 -
 B
+"
 perf
 -
 rainbow
 .
 html
 "
+'
 -
 -
 c
@@ -175,6 +177,7 @@ c
 cpu
 -
 b
+"
 /
 Desktop
 /
@@ -191,6 +194,7 @@ about
 mozilla
 .
 html
+"
 -
 o
 /
