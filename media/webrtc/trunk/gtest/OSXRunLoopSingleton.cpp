@@ -1,0 +1,12 @@
+extern
+"
+C
+"
+{
+void
+mozilla_set_coreaudio_notification_runloop_if_needed
+(
+)
+{
+}
+}
