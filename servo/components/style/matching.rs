@@ -2264,6 +2264,10 @@ style
 &
 mut
 this_style
+&
+shared_context
+.
+timer
 )
 ;
 }

@@ -207,6 +207,10 @@ Send
 >
 )
 TickAnimations
+AdvanceClockMs
+(
+i32
+)
 ReflowWithNewlyLoadedWebFont
 SetVisibleRects
 (

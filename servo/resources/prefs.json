@@ -483,6 +483,17 @@ frequency
 "
 layout
 .
+animations
+.
+test
+.
+enabled
+"
+:
+false
+"
+layout
+.
 columns
 .
 enabled

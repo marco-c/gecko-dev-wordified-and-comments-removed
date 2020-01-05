@@ -86,6 +86,12 @@ Mutex
 RwLock
 }
 ;
+use
+timer
+:
+:
+Timer
+;
 pub
 struct
 LocalStyleContextCreationInfo
@@ -203,6 +209,10 @@ Mutex
 <
 LocalStyleContextCreationInfo
 >
+pub
+timer
+:
+Timer
 }
 pub
 struct
