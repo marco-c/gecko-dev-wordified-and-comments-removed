@@ -1231,6 +1231,7 @@ mSocketInputStream
 0
 0
 false
+nullptr
 )
 ;
 if
