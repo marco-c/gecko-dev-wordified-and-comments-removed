@@ -1005,6 +1005,11 @@ HasSuspendTaint
 )
 const
 ;
+void
+UpdateVideoDecodeMode
+(
+)
+;
 virtual
 void
 ChangeState
