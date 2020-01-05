@@ -2754,6 +2754,17 @@ mUpdateStatus
 NS_ERROR_UC_UPDATE_UNKNOWN
 ;
 }
+if
+(
+!
+provider
+.
+Equals
+(
+TESTING_TABLE_PROVIDER_NAME
+)
+)
+{
 Telemetry
 :
 :
@@ -2770,6 +2781,7 @@ updateStatus
 )
 )
 ;
+}
 mMissCache
 .
 Clear
@@ -4351,7 +4363,6 @@ NS_LITERAL_CSTRING
 (
 "
 test
--
 "
 )
 )
