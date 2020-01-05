@@ -1,9 +1,9 @@
 import
+hashlib
+import
 json
 import
 os
-import
-sys
 import
 urlparse
 from
@@ -186,6 +186,7 @@ def
 __call__
 (
 self
+manifest
 )
 :
         
@@ -204,11 +205,25 @@ in
 manifest
 :
             
-if
-hash
+h
+=
+int
+(
+hashlib
+.
+md5
 (
 test_path
 )
+.
+hexdigest
+(
+)
+16
+)
+            
+if
+h
 %
 self
 .
