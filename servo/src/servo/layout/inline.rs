@@ -1278,8 +1278,6 @@ run
 =
 TextRun
 (
-&
-*
 ctx
 .
 font_cache
@@ -1849,8 +1847,6 @@ run
 =
 TextRun
 (
-&
-*
 ctx
 .
 font_cache
