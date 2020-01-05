@@ -4550,9 +4550,6 @@ newDocShell
 ;
 if
 (
-aCalledFromJS
-&
-&
 parentDocShell
 &
 &
