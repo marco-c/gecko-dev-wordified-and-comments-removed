@@ -630,7 +630,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 &
 aGeometry
@@ -675,7 +675,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 &
 aGeometry
@@ -844,6 +844,17 @@ platform
 !
 "
 )
+;
+}
+virtual
+bool
+SupportsLayerGeometry
+(
+)
+const
+{
+return
+false
 ;
 }
 void
