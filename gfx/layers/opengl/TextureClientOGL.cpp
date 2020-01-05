@@ -340,6 +340,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aContinuous
 gl
 :
 :
@@ -386,6 +388,7 @@ AndroidSurfaceTextureData
 (
 aHandle
 aSize
+aContinuous
 )
 aFlags
 aAllocator
@@ -404,6 +407,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aContinuous
 )
 :
 mHandle
@@ -413,6 +418,10 @@ aHandle
 mSize
 (
 aSize
+)
+mContinuous
+(
+aContinuous
 )
 {
 MOZ_ASSERT
@@ -505,6 +514,7 @@ SurfaceTextureDescriptor
 (
 mHandle
 mSize
+mContinuous
 )
 ;
 return

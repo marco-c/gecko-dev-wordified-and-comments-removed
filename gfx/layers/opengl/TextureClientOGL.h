@@ -247,6 +247,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aContinuous
 gl
 :
 :
@@ -329,6 +331,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aContinuous
 )
 ;
 const
@@ -341,6 +345,10 @@ gfx
 :
 IntSize
 mSize
+;
+const
+bool
+mContinuous
 ;
 }
 ;
