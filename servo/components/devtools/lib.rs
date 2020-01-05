@@ -1854,7 +1854,7 @@ eventActor
 :
 actor
 .
-get_event_actor
+event_actor
 (
 )
 }
@@ -1949,7 +1949,7 @@ response
 :
 actor
 .
-get_response_start
+response_start
 (
 )
 }

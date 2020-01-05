@@ -910,7 +910,7 @@ native_graphics_context
 =
 compositor
 .
-get_graphics_metadata
+graphics_metadata
 (
 )
 .
@@ -939,7 +939,7 @@ spawn
 (
 compositor
 .
-get_graphics_metadata
+graphics_metadata
 (
 )
 font_cache_task

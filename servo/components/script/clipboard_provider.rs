@@ -44,7 +44,7 @@ trait
 ClipboardProvider
 {
 fn
-get_clipboard_contents
+clipboard_contents
 (
 &
 mut
@@ -71,7 +71,7 @@ for
 ConstellationChan
 {
 fn
-get_clipboard_contents
+clipboard_contents
 (
 &
 mut
@@ -186,7 +186,7 @@ for
 DummyClipboardContext
 {
 fn
-get_clipboard_contents
+clipboard_contents
 (
 &
 mut

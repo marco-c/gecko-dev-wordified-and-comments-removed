@@ -622,7 +622,7 @@ clone
 }
 pub
 fn
-get_start_stamp
+start_stamp
 (
 &
 self

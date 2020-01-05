@@ -207,7 +207,7 @@ Self
 >
 ;
 fn
-get_template
+template
 (
 &
 self
@@ -318,7 +318,7 @@ GlyphId
 FractionalPixel
 ;
 fn
-get_metrics
+metrics
 (
 &
 self

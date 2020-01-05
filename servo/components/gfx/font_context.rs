@@ -636,7 +636,7 @@ metrics
 =
 handle
 .
-get_metrics
+metrics
 (
 )
 ;

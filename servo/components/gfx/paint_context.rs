@@ -439,7 +439,7 @@ a
 {
 pub
 fn
-get_draw_target
+draw_target
 (
 &
 self
@@ -4386,7 +4386,7 @@ color
 ;
 }
 fn
-get_scaled_bounds
+compute_scaled_bounds
 (
 &
 self
@@ -4666,7 +4666,7 @@ inner_scaled_bounds
 =
 self
 .
-get_scaled_bounds
+compute_scaled_bounds
 (
 bounds
 border
@@ -4750,7 +4750,7 @@ original_bounds
 =
 self
 .
-get_scaled_bounds
+compute_scaled_bounds
 (
 bounds
 border
@@ -4764,7 +4764,7 @@ inner_scaled_bounds
 =
 self
 .
-get_scaled_bounds
+compute_scaled_bounds
 (
 bounds
 border
@@ -5154,7 +5154,7 @@ original_bounds
 =
 self
 .
-get_scaled_bounds
+compute_scaled_bounds
 (
 bounds
 border

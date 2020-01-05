@@ -4552,7 +4552,7 @@ LoadUrl
 (
 layer
 .
-get_pipeline_id
+pipeline_id
 (
 )
 LoadData
@@ -6161,7 +6161,7 @@ pipeline_id
 =
 layer
 .
-get_pipeline_id
+pipeline_id
 (
 )
 ;
@@ -6367,7 +6367,7 @@ get_pipeline
 (
 layer
 .
-get_pipeline_id
+pipeline_id
 (
 )
 )
@@ -6471,7 +6471,7 @@ get_pipeline
 (
 layer
 .
-get_pipeline_id
+pipeline_id
 (
 )
 )

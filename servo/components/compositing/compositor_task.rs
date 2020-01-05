@@ -539,7 +539,7 @@ Send
 >
 {
 fn
-get_graphics_metadata
+graphics_metadata
 (
 &
 mut

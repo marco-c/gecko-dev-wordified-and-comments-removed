@@ -565,7 +565,7 @@ self
 WantsScrollEventsFlag
 ;
 fn
-get_pipeline_id
+pipeline_id
 (
 &
 self
@@ -1036,7 +1036,7 @@ get_pipeline
 (
 self
 .
-get_pipeline_id
+pipeline_id
 (
 )
 )
@@ -1124,7 +1124,7 @@ get_pipeline
 (
 self
 .
-get_pipeline_id
+pipeline_id
 (
 )
 )
@@ -1860,7 +1860,7 @@ get_pipeline
 (
 self
 .
-get_pipeline_id
+pipeline_id
 (
 )
 )
@@ -1949,7 +1949,7 @@ get_pipeline
 (
 self
 .
-get_pipeline_id
+pipeline_id
 (
 )
 )
@@ -2150,7 +2150,7 @@ borrow
 wants_scroll_events
 }
 fn
-get_pipeline_id
+pipeline_id
 (
 &
 self

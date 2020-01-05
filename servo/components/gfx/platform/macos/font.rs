@@ -401,7 +401,7 @@ Err
 }
 }
 fn
-get_template
+template
 (
 &
 self
@@ -1043,7 +1043,7 @@ FractionalPixel
 )
 }
 fn
-get_metrics
+metrics
 (
 &
 self
