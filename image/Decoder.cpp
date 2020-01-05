@@ -262,6 +262,10 @@ mShouldReportError
 (
 false
 )
+mFinalizeFrames
+(
+true
+)
 {
 }
 Decoder
@@ -1788,6 +1792,7 @@ aDisposalMethod
 aTimeout
 aBlendMethod
 aBlendRect
+mFinalizeFrames
 )
 ;
 mProgress
