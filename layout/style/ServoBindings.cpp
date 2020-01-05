@@ -3944,11 +3944,13 @@ aElementAlign
 ;
 }
 void
-Gecko_ClearStyleContents
+Gecko_ClearAndResizeStyleContents
 (
 nsStyleContent
 *
 aContent
+uint32_t
+aHowMany
 )
 {
 aContent
@@ -3956,7 +3958,7 @@ aContent
 >
 AllocateContents
 (
-0
+aHowMany
 )
 ;
 }
