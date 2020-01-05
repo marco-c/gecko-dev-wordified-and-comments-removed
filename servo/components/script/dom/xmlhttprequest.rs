@@ -3667,6 +3667,10 @@ extracted
 =
 data
 .
+as_ref
+(
+)
+.
 map
 (
 |
