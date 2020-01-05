@@ -456,11 +456,6 @@ const
 ;
 private
 :
-bool
-IsInPrivateBrowsing
-(
-)
-;
 already_AddRefed
 <
 DetailedPromise
