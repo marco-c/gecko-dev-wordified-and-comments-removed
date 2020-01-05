@@ -13846,6 +13846,9 @@ of
 "
 loop
 "
+"
+iterclose
+"
 }
 ;
 static
@@ -13948,7 +13951,7 @@ TryNoteNames
 )
 )
 ;
-uint8_t
+uint32_t
 startOff
 =
 script
@@ -13980,7 +13983,7 @@ jsprintf
 "
 %
 -
-7s
+9s
 %
 6u
 %

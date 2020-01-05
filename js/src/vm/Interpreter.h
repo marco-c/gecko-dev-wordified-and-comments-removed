@@ -2102,6 +2102,7 @@ CheckIsObjectKind
 uint8_t
 {
 IteratorNext
+IteratorReturn
 GetIterator
 }
 ;
