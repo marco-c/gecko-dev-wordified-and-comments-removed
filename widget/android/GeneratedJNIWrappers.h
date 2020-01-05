@@ -13936,7 +13936,7 @@ Param
 void
 ;
 struct
-ShowAlertNotification_t
+ShowNotification_t
 {
 typedef
 GeckoAppShell
@@ -14040,7 +14040,7 @@ name
 ]
 =
 "
-showAlertNotification
+showNotification
 "
 ;
 static
@@ -14175,7 +14175,7 @@ CURRENT
 ;
 static
 auto
-ShowAlertNotification
+ShowNotification
 (
 mozilla
 :

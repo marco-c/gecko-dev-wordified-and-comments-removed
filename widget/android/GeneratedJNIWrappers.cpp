@@ -5748,7 +5748,7 @@ char
 GeckoAppShell
 :
 :
-ShowAlertNotification_t
+ShowNotification_t
 :
 :
 name
@@ -5760,7 +5760,7 @@ char
 GeckoAppShell
 :
 :
-ShowAlertNotification_t
+ShowNotification_t
 :
 :
 signature
@@ -5771,7 +5771,7 @@ auto
 GeckoAppShell
 :
 :
-ShowAlertNotification
+ShowNotification
 (
 mozilla
 :
@@ -5864,7 +5864,7 @@ jni
 :
 Method
 <
-ShowAlertNotification_t
+ShowNotification_t
 >
 :
 :
