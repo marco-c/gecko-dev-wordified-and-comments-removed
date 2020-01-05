@@ -1084,6 +1084,12 @@ NODE_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 ;
 }
 inline
+bool
+ShouldTraverseForServo
+(
+)
+;
+inline
 void
 NoteDirtyDescendantsForServo
 (
