@@ -113,7 +113,7 @@ test_custom_retention
 rememberForms
 "
 "
-custom
+remember
 "
 )
 test_custom_retention
@@ -131,7 +131,7 @@ test_historymode_retention
 remember
 "
 "
-custom
+remember
 "
 )
 ]
