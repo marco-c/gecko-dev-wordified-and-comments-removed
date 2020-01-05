@@ -5,6 +5,16 @@ mozilla
 /
 css
 /
+canvas_over_area
+.
+html
+/
+_mozilla
+/
+mozilla
+/
+css
+/
 iframe
 /
 hide_layers2
