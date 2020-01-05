@@ -1337,14 +1337,6 @@ content
 "
 >
 <
-vbox
-flex
-=
-"
-1
-"
->
-<
 html
 :
 div
@@ -1377,10 +1369,6 @@ tabpanel
 hook
 "
 /
->
-<
-/
-vbox
 >
 <
 /

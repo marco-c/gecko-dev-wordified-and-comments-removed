@@ -570,6 +570,9 @@ div
 className
 :
 "
+panel
+-
+container
 response
 -
 image
@@ -850,6 +853,13 @@ return
 div
 (
 {
+className
+:
+"
+panel
+-
+container
+"
 }
 error
 &
