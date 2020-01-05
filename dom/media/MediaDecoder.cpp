@@ -743,6 +743,11 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+mDecoder
+)
+{
 mDecoder
 =
 nullptr
@@ -758,6 +763,7 @@ mTimer
 =
 nullptr
 ;
+}
 }
 MediaDecoderOwner
 *
@@ -1362,7 +1368,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -1467,7 +1473,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -1675,7 +1681,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -2214,7 +2220,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -2427,6 +2433,20 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+IsShutdown
+(
+)
+)
+;
+mResourceCallback
+-
+>
+Disconnect
+(
+)
+;
 MediaMemoryTracker
 :
 :
@@ -2609,7 +2629,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -3265,7 +3285,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -3757,7 +3777,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4170,7 +4190,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4304,7 +4324,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4339,7 +4359,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4414,7 +4434,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4616,7 +4636,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4937,7 +4957,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -4985,7 +5005,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5022,7 +5042,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5103,7 +5123,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5155,7 +5175,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5215,7 +5235,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5300,7 +5320,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5428,7 +5448,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -5519,7 +5539,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -6713,7 +6733,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -6764,7 +6784,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -7437,7 +7457,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -7650,7 +7670,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -7818,7 +7838,7 @@ DumpDebugInfo
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -7974,7 +7994,7 @@ NotifyAudibleStateChanged
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
