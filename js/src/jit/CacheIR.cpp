@@ -1653,9 +1653,6 @@ writer
 JSObject
 *
 obj
-Shape
-*
-shape
 ObjOperandId
 objId
 Maybe
@@ -1836,9 +1833,6 @@ obj
 JSObject
 *
 holder
-Shape
-*
-shape
 ObjOperandId
 objId
 Maybe
@@ -1859,7 +1853,6 @@ TestMatchingReceiver
 (
 writer
 obj
-shape
 objId
 &
 expandoId
@@ -2065,7 +2058,6 @@ EmitReadSlotGuard
 writer
 obj
 holder
-shape
 objId
 &
 holderId
@@ -2409,7 +2401,6 @@ TestMatchingReceiver
 (
 writer
 obj
-shape
 objId
 &
 expandoId
@@ -10625,11 +10616,6 @@ EmitReadSlotGuard
 writer
 obj
 holder
-prop
-.
-shape
-(
-)
 objId
 &
 holderId
@@ -10704,7 +10690,6 @@ EmitReadSlotGuard
 (
 writer
 obj
-nullptr
 nullptr
 objId
 &
@@ -11289,7 +11274,6 @@ TestMatchingReceiver
 (
 writer
 obj
-nullptr
 objId
 &
 expandoId
@@ -11403,7 +11387,6 @@ TestMatchingReceiver
 (
 writer
 obj
-nullptr
 objId
 &
 expandoId
@@ -14471,7 +14454,6 @@ TestMatchingReceiver
 (
 writer
 obj
-propShape
 objId
 &
 expandoId
