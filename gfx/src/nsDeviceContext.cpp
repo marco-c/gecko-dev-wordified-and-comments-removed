@@ -2128,6 +2128,8 @@ BeginPrinting
 (
 aTitle
 aPrintToFileName
+aStartPage
+aEndPage
 )
 ;
 if
