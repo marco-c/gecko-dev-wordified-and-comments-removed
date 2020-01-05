@@ -172,7 +172,7 @@ EXT_disjoint_timer_query
 )
 WEBGL_EXTENSION_IDENTIFIER
 (
-MOZ_debug_get
+MOZ_debug
 )
 WEBGL_EXTENSION_IDENTIFIER
 (
@@ -348,7 +348,7 @@ case
 WebGLExtensionID
 :
 :
-MOZ_debug_get
+MOZ_debug
 :
 return
 true
@@ -1688,12 +1688,12 @@ case
 WebGLExtensionID
 :
 :
-MOZ_debug_get
+MOZ_debug
 :
 obj
 =
 new
-WebGLExtensionDebugGet
+WebGLExtensionMOZDebug
 (
 this
 )
