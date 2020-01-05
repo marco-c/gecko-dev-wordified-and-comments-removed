@@ -16122,6 +16122,15 @@ intl_ComputeDisplayNames
 JS_FN
 (
 "
+intl_isUpperCaseFirst
+"
+intl_isUpperCaseFirst
+1
+0
+)
+JS_FN
+(
+"
 intl_IsValidTimeZoneName
 "
 intl_IsValidTimeZoneName
