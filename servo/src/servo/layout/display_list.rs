@@ -25,6 +25,15 @@ base
 :
 image
 ;
+import
+servo_text
+:
+:
+text_run
+:
+:
+text_run
+;
 enum
 item_type
 {
@@ -38,6 +47,10 @@ display_item_image
 (
 ~
 image
+)
+display_item_text
+(
+text_run
 )
 padding
 (
