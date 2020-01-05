@@ -2382,7 +2382,6 @@ None
 :
         
 status
-lastTestSeen
 =
 self
 .
@@ -2392,35 +2391,35 @@ runApp
 (
 None
 env
-                                                      
+                                        
 binary
-                                                      
+                                        
 profile
 .
 profile
-                                                      
+                                        
 cmdargs
-                                                      
+                                        
 utilityPath
 =
 options
 .
 utilityPath
-                                                      
+                                        
 xrePath
 =
 options
 .
 xrePath
-                                                      
+                                        
 debuggerInfo
 =
 debuggerInfo
-                                                      
+                                        
 symbolsPath
 =
 symbolsPath
-                                                      
+                                        
 timeout
 =
 timeout
@@ -2428,7 +2427,7 @@ timeout
         
 return
 status
-lastTestSeen
+None
     
 def
 cleanup
