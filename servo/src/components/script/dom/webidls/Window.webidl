@@ -522,6 +522,8 @@ handler
 optional
 long
 timeout
+=
+0
 any
 .
 .
@@ -548,6 +550,8 @@ handler
 optional
 long
 timeout
+=
+0
 /
 *
 any
@@ -562,8 +566,11 @@ arguments
 void
 clearTimeout
 (
+optional
 long
 handle
+=
+0
 )
 ;
 /
@@ -576,6 +583,8 @@ handler
 optional
 long
 timeout
+=
+0
 any
 .
 .
@@ -591,6 +600,8 @@ handler
 optional
 long
 timeout
+=
+0
 any
 .
 .
@@ -606,6 +617,8 @@ handler
 optional
 long
 timeout
+=
+0
 any
 .
 .
@@ -616,8 +629,11 @@ arguments
 void
 clearInterval
 (
+optional
 long
 handle
+=
+0
 )
 ;
 *
