@@ -51,10 +51,6 @@ extern
 crate
 selectors
 ;
-#
-[
-macro_use
-]
 extern
 crate
 servo_atoms

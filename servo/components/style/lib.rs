@@ -426,6 +426,10 @@ context
 ;
 pub
 mod
+counter_style
+;
+pub
+mod
 custom_properties
 ;
 pub

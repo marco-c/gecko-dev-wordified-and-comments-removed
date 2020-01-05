@@ -2597,12 +2597,9 @@ animation_name_at
 .
 0
 .
-len
+is_some
 (
 )
-!
-=
-0
 ;
 let
 has_animations

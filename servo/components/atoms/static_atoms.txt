@@ -8,6 +8,7 @@ monospace
 left
 center
 right
+none
 hidden
 submit
 button

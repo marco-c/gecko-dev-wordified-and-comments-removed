@@ -1657,10 +1657,13 @@ animations
 .
 get
 (
-&
 keyframes_rule
 .
 name
+.
+as_atom
+(
+)
 )
 .
 map_or
@@ -1729,6 +1732,10 @@ insert
 keyframes_rule
 .
 name
+.
+as_atom
+(
+)
 .
 clone
 (
