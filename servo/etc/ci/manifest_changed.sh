@@ -1,8 +1,11 @@
 #
 !
 /
+usr
+/
 bin
 /
+env
 bash
 set
 -
@@ -137,6 +140,7 @@ dev
 null
 diff
 =
+"
 (
 git
 diff
@@ -150,6 +154,7 @@ MANIFEST
 .
 json
 )
+"
 echo
 "
 diff

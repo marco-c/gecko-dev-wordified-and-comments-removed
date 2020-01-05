@@ -1,8 +1,11 @@
 #
 !
 /
+usr
+/
 bin
 /
+env
 bash
 #
 #
@@ -29,6 +32,7 @@ set
 o
 pipefail
 cd
+"
 (
 git
 rev
@@ -40,6 +44,7 @@ show
 -
 toplevel
 )
+"
 #
 cd
 into

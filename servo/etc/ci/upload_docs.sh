@@ -1,8 +1,11 @@
 #
 !
 /
+usr
+/
 bin
 /
+env
 bash
 #
 #
@@ -40,7 +43,16 @@ var
 TOKEN
 set
 -
-e
+o
+errexit
+set
+-
+o
+nounset
+set
+-
+o
+pipefail
 cd
 "
 (
@@ -121,6 +133,7 @@ git
 push
 -
 qf
+"
 https
 :
 /
@@ -141,6 +154,7 @@ servo
 org
 .
 git
+"
 gh
 -
 pages
