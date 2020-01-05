@@ -56,11 +56,6 @@ exceptions
 .
 html
 "
-"
-exceptions
-.
-js
-"
 )
 ;
 yield

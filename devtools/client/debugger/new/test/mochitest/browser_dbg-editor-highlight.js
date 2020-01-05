@@ -156,17 +156,6 @@ highlighted
 "
 )
 ;
-yield
-waitForSources
-(
-dbg
-"
-simple1
-.
-js
-"
-)
-;
 selectSource
 (
 dbg
