@@ -37127,6 +37127,12 @@ if
 ins
 -
 >
+getOperand
+(
+i
+)
+-
+>
 emptyResultTypeSet
 (
 )
@@ -37157,6 +37163,7 @@ if
 (
 types
 )
+{
 ins
 -
 >
@@ -37165,6 +37172,9 @@ setResultTypeSet
 types
 )
 ;
+return
+;
+}
 }
 }
 static
