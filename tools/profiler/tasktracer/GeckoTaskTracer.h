@@ -28,9 +28,6 @@ nsTArrayForwardDeclare
 h
 "
 class
-Task
-;
-class
 nsIRunnable
 ;
 class
@@ -140,15 +137,6 @@ const
 PRTime
 GetStartTime
 (
-)
-;
-Task
-*
-CreateTracedTask
-(
-Task
-*
-aTask
 )
 ;
 already_AddRefed
