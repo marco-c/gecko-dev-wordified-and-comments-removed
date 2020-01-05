@@ -1191,7 +1191,6 @@ specified
 self
 CSSColor
 CSSRGBA
-LengthOrPercentage
 }
 ;
 use
