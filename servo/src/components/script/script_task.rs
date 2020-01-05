@@ -817,7 +817,6 @@ Option
 <
 SubpageId
 >
-pub
 last_reflow_id
 :
 Traceable
@@ -847,7 +846,6 @@ Untraceable
 <
 LayoutChan
 >
-pub
 layout_join_port
 :
 Untraceable
@@ -864,7 +862,6 @@ Receiver
 >
 >
 >
-pub
 damage
 :
 Traceable
@@ -877,7 +874,6 @@ DocumentDamage
 >
 >
 >
-pub
 window_size
 :
 Untraceable
@@ -890,7 +886,6 @@ uint
 >
 >
 >
-pub
 js_info
 :
 Traceable
@@ -903,7 +898,6 @@ JSPageInfo
 >
 >
 >
-pub
 url
 :
 Untraceable
@@ -919,7 +913,6 @@ bool
 >
 >
 >
-pub
 next_subpage_id
 :
 Untraceable
@@ -929,7 +922,6 @@ Cell
 SubpageId
 >
 >
-pub
 resize_event
 :
 Untraceable
@@ -945,7 +937,6 @@ uint
 >
 >
 >
-pub
 fragment_node
 :
 Traceable
@@ -1428,20 +1419,6 @@ vec
 )
 }
 }
-fn
-id
-(
-&
-self
-)
--
->
-PipelineId
-{
-self
-.
-id
-}
 pub
 fn
 remove
@@ -1514,8 +1491,6 @@ page_tree
 page_tree
 .
 id
-(
-)
 =
 =
 id
@@ -3428,7 +3403,6 @@ pertaining
 to
 page
 layout
-pub
 page
 :
 RefCell
@@ -3449,7 +3423,6 @@ image
 cache
 task
 .
-pub
 image_cache_task
 :
 ImageCacheTask
@@ -3463,7 +3436,6 @@ the
 resource
 task
 .
-pub
 resource_task
 :
 ResourceTask
@@ -3486,7 +3458,6 @@ exit
 etc
 .
 )
-pub
 port
 :
 Receiver
@@ -3522,7 +3493,6 @@ the
 script
 task
 .
-pub
 chan
 :
 ScriptChan
@@ -3537,7 +3507,6 @@ messages
 to
 the
 constellation
-pub
 constellation_chan
 :
 ConstellationChan
@@ -3555,7 +3524,6 @@ ready
 state
 messages
 .
-pub
 compositor
 :
 Box
@@ -3569,7 +3537,6 @@ The
 JavaScript
 runtime
 .
-pub
 js_runtime
 :
 js
@@ -3585,7 +3552,6 @@ rt
 The
 JSContext
 .
-pub
 js_context
 :
 RefCell
@@ -3598,7 +3564,6 @@ Cx
 >
 >
 >
-pub
 mouse_over_targets
 :
 RefCell
