@@ -226,6 +226,17 @@ newChannelFromURIWithLoadInfo
 realURL
 loadInfo
 )
+channel
+.
+loadFlags
+|
+=
+Ci
+.
+nsIChannel
+.
+LOAD_REPLACE
+;
 return
 channel
 ;

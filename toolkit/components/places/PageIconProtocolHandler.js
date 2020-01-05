@@ -135,12 +135,6 @@ originalURI
 =
 uri
 ;
-loadInfo
-.
-resultPrincipalURI
-=
-uri
-;
 return
 channel
 ;

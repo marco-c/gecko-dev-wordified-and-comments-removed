@@ -658,12 +658,6 @@ originalURI
 =
 aURI
 ;
-aLoadInfo
-.
-resultPrincipalURI
-=
-aURI
-;
 let
 ssm
 =

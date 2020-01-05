@@ -3959,14 +3959,6 @@ SetOriginalURI
 uri
 )
 ;
-aLoadInfo
--
->
-SetResultPrincipalURI
-(
-uri
-)
-;
 channel
 -
 >
