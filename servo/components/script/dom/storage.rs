@@ -1014,9 +1014,6 @@ org
 /
 multipage
 /
-webstorage
-.
-html
 #
 send
 -

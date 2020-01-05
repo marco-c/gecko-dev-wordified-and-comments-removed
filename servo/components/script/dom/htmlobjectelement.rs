@@ -792,11 +792,6 @@ org
 /
 multipage
 /
-embedded
--
-content
-.
-html
 #
 dom
 -
@@ -825,11 +820,6 @@ org
 /
 multipage
 /
-embedded
--
-content
-.
-html
 #
 dom
 -

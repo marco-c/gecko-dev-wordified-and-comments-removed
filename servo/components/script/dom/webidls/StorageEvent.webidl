@@ -114,9 +114,6 @@ org
 /
 multipage
 /
-webstorage
-.
-html
 #
 the
 -

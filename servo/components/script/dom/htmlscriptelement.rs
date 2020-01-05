@@ -1117,9 +1117,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 prepare
 -

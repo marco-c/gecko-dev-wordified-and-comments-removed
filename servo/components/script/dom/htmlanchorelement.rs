@@ -850,9 +850,6 @@ org
 /
 multipage
 /
-semantics
-.
-html
 #
 the
 -
@@ -885,9 +882,6 @@ org
 /
 multipage
 /
-semantics
-.
-html
 #
 the
 -
@@ -910,9 +904,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 run
 -
@@ -945,9 +936,6 @@ org
 /
 multipage
 /
-semantics
-.
-html
 #
 the
 -

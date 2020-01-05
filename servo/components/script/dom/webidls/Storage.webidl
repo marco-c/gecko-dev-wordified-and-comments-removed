@@ -113,9 +113,6 @@ org
 /
 multipage
 /
-webstorage
-.
-html
 #
 webstorage
 *

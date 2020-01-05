@@ -1061,9 +1061,6 @@ org
 /
 multipage
 /
-webstorage
-.
-html
 #
 dom
 -
@@ -1101,9 +1098,6 @@ org
 /
 multipage
 /
-webstorage
-.
-html
 #
 dom
 -
