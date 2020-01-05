@@ -42,8 +42,13 @@ OS
 X
 64bit
 Linux
-and
 Android
+and
+Gonk
+(
+Firefox
+OS
+)
 .
 Servo
 welcomes
