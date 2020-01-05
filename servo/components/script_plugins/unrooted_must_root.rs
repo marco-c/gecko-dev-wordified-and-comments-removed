@@ -623,7 +623,7 @@ cx
 .
 tcx
 .
-item_type
+type_of
 (
 def_id
 )
@@ -791,7 +791,7 @@ cx
 .
 tcx
 .
-item_type
+type_of
 (
 def_id
 )
@@ -1001,7 +1001,7 @@ cx
 .
 tcx
 .
-item_type
+type_of
 (
 def_id
 )
