@@ -3791,7 +3791,7 @@ get
 (
 )
 ;
-ASSERT
+MOZ_ASSERT
 (
 stack
 !

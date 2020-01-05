@@ -257,7 +257,7 @@ Sampler
 sampler
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 SamplerRegistry
@@ -581,7 +581,7 @@ SetThreadName
 (
 )
 ;
-ASSERT
+MOZ_ASSERT
 (
 thread
 -
@@ -623,7 +623,7 @@ ThreadEntry
 this
 )
 ;
-ASSERT
+MOZ_ASSERT
 (
 mThread
 !
@@ -1384,7 +1384,7 @@ Start
 (
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 IsActive
@@ -1414,7 +1414,7 @@ Stop
 (
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 IsActive
 (

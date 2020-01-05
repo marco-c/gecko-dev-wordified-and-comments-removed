@@ -425,7 +425,7 @@ Start
 }
 else
 {
-ASSERT
+MOZ_ASSERT
 (
 mInstance
 -
@@ -1106,7 +1106,7 @@ Start
 (
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 IsActive
@@ -1136,7 +1136,7 @@ Stop
 (
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 IsActive
 (

@@ -568,7 +568,7 @@ Sampler
 sampler
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 SamplerRegistry

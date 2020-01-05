@@ -1741,7 +1741,7 @@ IsPendingDelete
 )
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 false
 )
