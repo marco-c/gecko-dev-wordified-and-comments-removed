@@ -22781,10 +22781,6 @@ AtomicRefCounted
 WasmModule
 >
 {
-MOZ_DECLARE_REFCOUNTED_TYPENAME
-(
-WasmModule
-)
 virtual
 ~
 WasmModule
