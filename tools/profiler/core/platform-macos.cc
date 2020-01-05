@@ -910,12 +910,7 @@ continue
 info
 -
 >
-GetThreadResponsiveness
-(
-)
--
->
-Update
+UpdateThreadResponsiveness
 (
 )
 ;
