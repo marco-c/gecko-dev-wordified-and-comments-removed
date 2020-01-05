@@ -147,19 +147,19 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mNumChildActors
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mLocked
@@ -182,7 +182,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -192,7 +192,7 @@ mListener
 =
 aListener
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -211,7 +211,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -279,7 +279,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mNumChildActors
@@ -343,7 +343,7 @@ DestroyInternal
 this
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -393,7 +393,7 @@ DestroyInternal
 this
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -514,7 +514,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mLocked
@@ -538,7 +538,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mLocked
 )

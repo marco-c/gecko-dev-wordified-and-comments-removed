@@ -89,7 +89,7 @@ mActor
 aActor
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )

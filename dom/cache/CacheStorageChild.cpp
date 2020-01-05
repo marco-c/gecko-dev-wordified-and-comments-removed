@@ -114,7 +114,7 @@ cache
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -146,7 +146,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -166,7 +166,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -234,7 +234,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mNumChildActors
@@ -295,7 +295,7 @@ DestroyInternal
 this
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -345,7 +345,7 @@ DestroyInternal
 this
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -416,7 +416,7 @@ NoteDeletedActor
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mNumChildActors
 )

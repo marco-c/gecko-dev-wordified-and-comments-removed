@@ -184,7 +184,7 @@ cache
 CacheStorageParent
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aManagingActor
 )
@@ -201,7 +201,7 @@ aManagingActor
 aPrincipalInfo
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mVerifier
 )
@@ -223,7 +223,7 @@ cache
 CacheStorageParent
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mVerifier
@@ -421,7 +421,7 @@ if
 mVerifier
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mManagerId
@@ -485,7 +485,7 @@ IPC_OK
 )
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mManagerId
 )
@@ -559,18 +559,18 @@ ManagerId
 aManagerId
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mVerifier
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mManagerId
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_SUCCEEDED
 (

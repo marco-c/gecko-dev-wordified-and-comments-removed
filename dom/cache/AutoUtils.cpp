@@ -302,7 +302,7 @@ mSent
 false
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mTypeUtils
 )
@@ -354,7 +354,7 @@ aEntryCount
 }
 else
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aEntryCount
 =
@@ -727,7 +727,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -796,7 +796,7 @@ get_CacheMatchAllArgs
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 args
 .
@@ -903,7 +903,7 @@ get_CacheKeysArgs
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 args
 .
@@ -1028,7 +1028,7 @@ CacheRequestResponse
 aPutList
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aRequest
 )
@@ -1297,7 +1297,7 @@ header
 token
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 header
@@ -1361,7 +1361,7 @@ SuppressException
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 value
 .
@@ -1402,7 +1402,7 @@ SuppressException
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 cachedValue
 .
@@ -1464,7 +1464,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -1707,7 +1707,7 @@ SendAsOpArgs
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -1780,7 +1780,7 @@ mSent
 false
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mManager
 )
@@ -1870,7 +1870,7 @@ aEntryCount
 }
 else
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aEntryCount
 =
@@ -2010,7 +2010,7 @@ Manager
 aManager
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mOpResult
 .
@@ -2025,7 +2025,7 @@ CacheOpResult
 TStorageOpenResult
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mOpResult
 .
@@ -2080,7 +2080,7 @@ StreamList
 aStreamList
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -2112,7 +2112,7 @@ get_CacheMatchResult
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 result
 .
@@ -2249,7 +2249,7 @@ get_StorageMatchResult
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 result
 .
@@ -2331,7 +2331,7 @@ StreamList
 aStreamList
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -2494,7 +2494,7 @@ SendAsOpResult
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -2546,7 +2546,7 @@ CacheResponse
 aResponseOut
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aResponseOut
 )
@@ -2622,17 +2622,17 @@ CacheReadStream
 aReadStreamOut
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aStreamList
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadStreamOut
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSent
@@ -2652,7 +2652,7 @@ Extract
 aId
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 stream
 )
@@ -2744,7 +2744,7 @@ mStreamCleanupList
 rv
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 rv

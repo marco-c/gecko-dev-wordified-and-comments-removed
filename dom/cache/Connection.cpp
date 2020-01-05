@@ -81,7 +81,7 @@ mClosed
 false
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mBase
 )

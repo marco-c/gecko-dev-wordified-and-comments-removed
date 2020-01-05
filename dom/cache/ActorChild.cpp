@@ -56,7 +56,7 @@ if
 mWorkerHolder
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWorkerHolder
 =
@@ -173,7 +173,7 @@ ActorChild
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mWorkerHolder

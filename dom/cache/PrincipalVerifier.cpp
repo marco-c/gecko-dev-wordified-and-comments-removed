@@ -220,7 +220,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aListener
 )
@@ -259,7 +259,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aListener
 )
@@ -321,12 +321,12 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mInitiatingThread
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aListener
 )
@@ -347,7 +347,7 @@ PrincipalVerifier
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListenerList
 .
@@ -356,7 +356,7 @@ IsEmpty
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mActor
@@ -745,7 +745,7 @@ mManagerId
 )
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListenerList
 .
