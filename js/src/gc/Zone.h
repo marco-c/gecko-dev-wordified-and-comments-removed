@@ -922,6 +922,16 @@ needsIncrementalBarrier
 )
 ;
 }
+GCState
+gcState
+(
+)
+const
+{
+return
+gcState_
+;
+}
 bool
 wasGCStarted
 (
