@@ -771,6 +771,9 @@ features
 =
 [
 "
+nightly
+"
+"
 serde_macros
 "
 ]
