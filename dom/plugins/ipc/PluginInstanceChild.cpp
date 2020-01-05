@@ -18311,6 +18311,16 @@ nullptr
 ;
 if
 (
+IsUsingDirectDrawing
+(
+)
+)
+{
+return
+;
+}
+if
+(
 mAccumulatedInvalidRect
 .
 IsEmpty
