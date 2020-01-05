@@ -477,17 +477,6 @@ deref_mut
 root
 )
 ;
-let
-layout_context
-=
-LayoutContext
-:
-:
-new
-(
-shared_layout_context
-)
-;
 flow_root
 .
 traverse_preorder
@@ -497,8 +486,7 @@ ComputeAbsolutePositions
 {
 layout_context
 :
-&
-layout_context
+shared_layout_context
 }
 )
 ;
@@ -543,8 +531,7 @@ DisplayListBuildState
 :
 new
 (
-&
-layout_context
+shared_layout_context
 flow
 :
 :

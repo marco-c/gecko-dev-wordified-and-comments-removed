@@ -22,7 +22,10 @@ use
 context
 :
 :
+{
 LayoutContext
+SharedLayoutContext
+}
 ;
 use
 display_list_builder
@@ -7658,7 +7661,7 @@ self
 _
 :
 &
-LayoutContext
+SharedLayoutContext
 )
 {
 let

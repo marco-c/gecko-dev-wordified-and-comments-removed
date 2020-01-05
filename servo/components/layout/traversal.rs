@@ -918,11 +918,7 @@ layout_context
 &
 '
 a
-LayoutContext
-<
-'
-a
->
+SharedLayoutContext
 }
 impl
 <

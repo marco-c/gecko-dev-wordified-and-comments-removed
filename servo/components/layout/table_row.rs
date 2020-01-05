@@ -25,7 +25,10 @@ use
 context
 :
 :
+{
 LayoutContext
+SharedLayoutContext
+}
 ;
 use
 cssparser
@@ -1930,7 +1933,7 @@ self
 layout_context
 :
 &
-LayoutContext
+SharedLayoutContext
 )
 {
 self

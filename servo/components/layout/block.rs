@@ -19,7 +19,10 @@ use
 context
 :
 :
+{
 LayoutContext
+SharedLayoutContext
+}
 ;
 use
 display_list_builder
@@ -12815,7 +12818,7 @@ self
 layout_context
 :
 &
-LayoutContext
+SharedLayoutContext
 )
 {
 if
@@ -13863,8 +13866,6 @@ visible_rect
 match
 layout_context
 .
-shared
-.
 visible_rects
 .
 get
@@ -13901,9 +13902,7 @@ zero
 )
 layout_context
 .
-shared_context
-(
-)
+style_context
 .
 viewport_size
 )
@@ -13914,9 +13913,7 @@ viewport_size
 =
 layout_context
 .
-shared_context
-(
-)
+style_context
 .
 viewport_size
 ;
