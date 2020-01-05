@@ -242,8 +242,6 @@ attribute
 DOMString
 rel
 ;
-/
-/
 readonly
 attribute
 DOMTokenList
