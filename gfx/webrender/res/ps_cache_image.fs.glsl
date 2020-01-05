@@ -66,7 +66,7 @@ oFragColor
 =
 texture
 (
-sCache
+sCacheRGBA8
 vUv
 )
 ;

@@ -1023,10 +1023,6 @@ scroll_policy
 :
 ScrollPolicy
 pub
-bounds
-:
-LayoutRect
-pub
 z_index
 :
 i32
@@ -1473,9 +1469,6 @@ new
 scroll_policy
 :
 ScrollPolicy
-bounds
-:
-LayoutRect
 z_index
 :
 i32
@@ -1518,9 +1511,6 @@ StackingContext
 scroll_policy
 :
 scroll_policy
-bounds
-:
-bounds
 z_index
 :
 z_index

@@ -110,6 +110,8 @@ do_clip
 ;
 oFragColor
 =
+dither
+(
 vColor
 *
 vec4
@@ -124,6 +126,7 @@ vec4
 .
 0
 alpha
+)
 )
 ;
 }

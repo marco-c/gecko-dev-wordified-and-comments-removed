@@ -11,7 +11,7 @@ version
 "
 0
 .
-25
+26
 .
 0
 "
@@ -71,6 +71,9 @@ freetype
 -
 lib
 "
+"
+webgl
+"
 ]
 freetype
 -
@@ -94,6 +97,18 @@ profiler
 thread_profiler
 /
 thread_profiler
+"
+]
+webgl
+=
+[
+"
+offscreen_gl_context
+"
+"
+webrender_traits
+/
+webgl
 "
 ]
 [
@@ -203,6 +218,9 @@ serde
 osmesa
 "
 ]
+optional
+=
+true
 }
 time
 =

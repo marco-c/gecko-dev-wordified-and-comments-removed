@@ -182,7 +182,7 @@ cache_sample
 =
 texture
 (
-sCache
+sCacheRGBA8
 vUv
 )
 ;
@@ -265,7 +265,7 @@ color0
 =
 texture
 (
-sCache
+sCacheRGBA8
 vec3
 (
 st0
@@ -298,7 +298,7 @@ color1
 =
 texture
 (
-sCache
+sCacheRGBA8
 vec3
 (
 st1
@@ -391,6 +391,9 @@ a
 ;
 oFragColor
 =
+dither
+(
 color
+)
 ;
 }

@@ -996,7 +996,7 @@ Cs
 =
 texture
 (
-sCache
+sCacheRGBA8
 vUv
 )
 ;

@@ -213,7 +213,7 @@ vec2
 (
 textureSize
 (
-sCache
+sCacheRGBA8
 0
 )
 .

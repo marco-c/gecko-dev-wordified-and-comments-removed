@@ -1224,7 +1224,7 @@ Cb
 =
 texture
 (
-sCache
+sCacheRGBA8
 vUv0
 )
 ;
@@ -1233,7 +1233,7 @@ Cs
 =
 texture
 (
-sCache
+sCacheRGBA8
 vUv1
 )
 ;

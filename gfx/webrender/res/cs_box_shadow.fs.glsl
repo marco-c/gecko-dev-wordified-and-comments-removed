@@ -1680,6 +1680,8 @@ value
 ;
 oFragColor
 =
+dither
+(
 vec4
 (
 1
@@ -1705,6 +1707,7 @@ vInverted
 value
 :
 value
+)
 )
 ;
 }
