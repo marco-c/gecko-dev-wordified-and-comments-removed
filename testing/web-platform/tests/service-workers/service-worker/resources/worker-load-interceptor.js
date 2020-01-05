@@ -1,6 +1,9 @@
 importScripts
 (
 '
+/
+common
+/
 get
 -
 host

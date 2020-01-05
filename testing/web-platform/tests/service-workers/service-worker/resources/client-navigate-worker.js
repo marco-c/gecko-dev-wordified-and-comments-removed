@@ -25,6 +25,9 @@ js
 importScripts
 (
 "
+/
+common
+/
 get
 -
 host

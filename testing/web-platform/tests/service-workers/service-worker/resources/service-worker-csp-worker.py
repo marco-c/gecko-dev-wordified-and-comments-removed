@@ -30,10 +30,8 @@ js
 importScripts
 (
 '
-.
-.
 /
-resources
+common
 /
 get
 -
@@ -401,10 +399,8 @@ js
 importScripts
 (
 '
-.
-.
 /
-resources
+common
 /
 get
 -
@@ -774,10 +770,8 @@ js
 importScripts
 (
 '
-.
-.
 /
-resources
+common
 /
 get
 -

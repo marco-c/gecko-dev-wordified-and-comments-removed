@@ -1,10 +1,8 @@
 importScripts
 (
 '
-.
-.
 /
-resources
+common
 /
 get
 -
