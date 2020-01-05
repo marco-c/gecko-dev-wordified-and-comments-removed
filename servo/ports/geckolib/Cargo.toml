@@ -73,6 +73,15 @@ style
 use_bindgen
 "
 ]
+testing
+=
+[
+"
+style
+/
+testing
+"
+]
 [
 dependencies
 ]
