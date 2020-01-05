@@ -267,6 +267,7 @@ htmlformelement
 :
 :
 {
+FormDatumValue
 FormControl
 FormDatum
 FormSubmitter
@@ -5551,10 +5552,16 @@ name
 name
 value
 :
+FormDatumValue
+:
+:
+String
+(
 self
 .
 Value
 (
+)
 )
 }
 )

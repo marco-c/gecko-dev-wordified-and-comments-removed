@@ -13415,8 +13415,6 @@ navigate_or_reload_child_browsing_context
 Some
 (
 load_data
-.
-url
 )
 )
 ;

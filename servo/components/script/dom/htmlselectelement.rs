@@ -162,6 +162,7 @@ htmlformelement
 :
 :
 {
+FormDatumValue
 FormControl
 FormDatum
 HTMLFormElement
@@ -718,10 +719,16 @@ Name
 )
 value
 :
+FormDatumValue
+:
+:
+String
+(
 opt
 .
 Value
 (
+)
 )
 }
 )
