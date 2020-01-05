@@ -618,16 +618,6 @@ StyleSheet
 h
 '
 '
-StyleSheetHandle
-.
-h
-'
-'
-StyleSheetHandleInlines
-.
-h
-'
-'
 StyleSheetInfo
 .
 h
