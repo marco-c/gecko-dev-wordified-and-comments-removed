@@ -5898,16 +5898,6 @@ mExpatParser
 this
 )
 ;
-aParserContext
-.
-mScanner
--
->
-OverrideReplacementCharacter
-(
-0xffff
-)
-;
 return
 mInternalState
 ;

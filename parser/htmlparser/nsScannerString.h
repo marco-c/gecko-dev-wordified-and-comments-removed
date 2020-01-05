@@ -930,16 +930,6 @@ nsScannerIterator
 aCurrentPosition
 )
 ;
-void
-ReplaceCharacter
-(
-nsScannerIterator
-&
-aPosition
-char16_t
-aChar
-)
-;
 }
 ;
 class
