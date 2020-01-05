@@ -532,6 +532,7 @@ kCodecBitrateBps
 480
 30
 1
+1
 1000
 )
 ;
