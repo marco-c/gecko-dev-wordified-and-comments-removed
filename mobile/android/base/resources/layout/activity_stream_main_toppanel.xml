@@ -126,6 +126,15 @@ topsites_pager
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+activity_stream_topsites
+"
+android
+:
 layout_alignParentTop
 =
 "

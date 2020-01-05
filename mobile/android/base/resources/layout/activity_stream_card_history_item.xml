@@ -378,6 +378,15 @@ padding
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+menu
+"
+android
+:
 layout_marginLeft
 =
 "
