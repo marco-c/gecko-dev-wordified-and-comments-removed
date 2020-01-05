@@ -2352,12 +2352,14 @@ aEvent
 .
 DOM_VK_F6
 )
+{
 FullScreen
 .
 showNavToolbox
 (
 )
 ;
+}
 }
 _isPopupOpen
 :

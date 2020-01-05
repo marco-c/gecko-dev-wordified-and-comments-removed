@@ -5005,6 +5005,8 @@ this
 lineScrollAmount
 ;
 }
+else
+{
 /
 /
 We
@@ -5099,8 +5101,6 @@ the
 dominant
 axis
 .
-else
-{
 let
 isVertical
 =
