@@ -120,12 +120,4 @@ mtransport
 /
 build
 '
-'
-/
-media
-/
-mtransport
-/
-testlib
-'
 ]
