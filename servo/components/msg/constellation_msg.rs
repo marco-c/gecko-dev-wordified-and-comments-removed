@@ -59,6 +59,15 @@ use
 servo_util
 :
 :
+cursor
+:
+:
+Cursor
+;
+use
+servo_util
+:
+:
 geometry
 :
 :
@@ -437,6 +446,10 @@ KeyModifiers
 GetPipelineTitleMsg
 (
 PipelineId
+)
+SetCursorMsg
+(
+Cursor
 )
 }
 #
