@@ -4710,6 +4710,9 @@ aWorkerPrivate
 void
 Shutdown
 (
+JSContext
+*
+cx
 )
 override
 {

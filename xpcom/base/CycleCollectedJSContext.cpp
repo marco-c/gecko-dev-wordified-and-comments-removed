@@ -400,6 +400,7 @@ mRuntime
 >
 Shutdown
 (
+mJSContext
 )
 ;
 ProcessMetastableStateQueue

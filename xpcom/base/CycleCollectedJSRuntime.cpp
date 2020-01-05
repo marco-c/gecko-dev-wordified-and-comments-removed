@@ -2346,6 +2346,9 @@ CycleCollectedJSRuntime
 :
 Shutdown
 (
+JSContext
+*
+cx
 )
 {
 }
@@ -5742,9 +5745,7 @@ js
 :
 DumpHeap
 (
-MainContext
-(
-)
+mJSContext
 aFile
 js
 :
@@ -6677,9 +6678,7 @@ JS
 :
 PrepareForFullGC
 (
-MainContext
-(
-)
+mJSContext
 )
 ;
 }
