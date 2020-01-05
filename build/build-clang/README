@@ -494,16 +494,3 @@ cross
 compile
 builds
 .
-*
-LIBCXX_INCLUDE_PATH
-:
-Path
-to
-the
-cross
-compiler
-libc
-+
-+
-headers
-.
