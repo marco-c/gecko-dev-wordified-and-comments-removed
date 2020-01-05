@@ -125,6 +125,16 @@ apt_packages
 =
 (
 '
+libxml2
+-
+utils
+'
+)
+apt_packages
++
+=
+(
+'
 ninja
 -
 build

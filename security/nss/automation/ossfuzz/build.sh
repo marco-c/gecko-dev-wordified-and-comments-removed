@@ -194,6 +194,13 @@ client
 ]
 =
 1
+[
+tls
+-
+server
+]
+=
+1
 )
 #
 Helper

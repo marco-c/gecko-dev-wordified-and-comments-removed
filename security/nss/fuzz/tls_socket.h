@@ -1,9 +1,9 @@
 #
 ifndef
-tls_client_socket_h__
+tls_socket_h__
 #
 define
-tls_client_socket_h__
+tls_socket_h__
 #
 include
 "

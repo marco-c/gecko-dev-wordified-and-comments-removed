@@ -25079,6 +25079,9 @@ algorithm
 case
 SEC_OID_PKCS1_RSA_ENCRYPTION
 :
+case
+SEC_OID_PKCS1_RSA_PSS_SIGNATURE
+:
 keyTemplate
 =
 nsslowkey_RSAPrivateKeyTemplate

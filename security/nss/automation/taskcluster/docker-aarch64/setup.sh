@@ -191,6 +191,16 @@ apt_packages
 =
 (
 '
+libxml2
+-
+utils
+'
+)
+apt_packages
++
+=
+(
+'
 zlib1g
 -
 dev
