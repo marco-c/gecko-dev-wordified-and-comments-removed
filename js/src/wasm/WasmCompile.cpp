@@ -619,6 +619,9 @@ nullptr
 ;
 ModuleGenerator
 mg
+(
+error
+)
 ;
 if
 (

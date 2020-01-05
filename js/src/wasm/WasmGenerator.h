@@ -747,6 +747,10 @@ TrapExitOffsetArray
 bool
 alwaysBaseline_
 ;
+UniqueChars
+*
+error_
+;
 Assumptions
 assumptions_
 ;
@@ -986,6 +990,9 @@ public
 explicit
 ModuleGenerator
 (
+UniqueChars
+*
+error
 )
 ;
 ~
