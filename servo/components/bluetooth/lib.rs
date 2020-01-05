@@ -2871,7 +2871,11 @@ insert
 READ
 )
 "
-write_without_response
+write
+-
+without
+-
+response
 "
 =
 >
@@ -2915,7 +2919,11 @@ insert
 INDICATE
 )
 "
-authenticated_signed_writes
+authenticated
+-
+signed
+-
+writes
 "
 =
 >
@@ -2926,7 +2934,9 @@ insert
 AUTHENTICATED_SIGNED_WRITES
 )
 "
-reliable_write
+reliable
+-
+write
 "
 =
 >
@@ -2937,7 +2947,9 @@ insert
 RELIABLE_WRITE
 )
 "
-writable_auxiliaries
+writable
+-
+auxiliaries
 "
 =
 >
