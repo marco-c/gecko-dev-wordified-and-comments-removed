@@ -500,7 +500,6 @@ kid
 .
 place_float_if_applicable
 (
-layout_context
 )
 ;
 if
