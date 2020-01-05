@@ -1564,6 +1564,12 @@ AssertAllocatedExecutableBytesIsZero
 (
 )
 ;
+extern
+bool
+CanLikelyAllocateMoreExecutableMemory
+(
+)
+;
 }
 }
 #
