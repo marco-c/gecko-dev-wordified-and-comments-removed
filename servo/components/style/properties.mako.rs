@@ -3440,6 +3440,10 @@ enabled
 "
 )
 .
+as_boolean
+(
+)
+.
 unwrap_or
 (
 false
@@ -3518,6 +3522,11 @@ value
 .
 enabled
 "
+)
+.
+as_boolean
+(
+)
 .
 unwrap_or
 (
@@ -43069,6 +43078,10 @@ experimental
 "
 )
 .
+as_boolean
+(
+)
+.
 unwrap_or
 (
 false
@@ -43202,6 +43215,10 @@ shorthand
 experimental
 }
 "
+)
+.
+as_boolean
+(
 )
 .
 unwrap_or

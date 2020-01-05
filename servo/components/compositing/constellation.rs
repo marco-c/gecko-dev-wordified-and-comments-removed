@@ -5014,6 +5014,10 @@ enabled
 "
 )
 .
+as_boolean
+(
+)
+.
 unwrap_or
 (
 false
@@ -7491,6 +7495,10 @@ mozbrowser
 .
 enabled
 "
+)
+.
+as_boolean
+(
 )
 .
 unwrap_or
