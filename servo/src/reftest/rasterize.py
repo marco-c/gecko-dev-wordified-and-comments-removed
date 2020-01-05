@@ -67,7 +67,7 @@ driver
 set_window_size
 (
 800
-700
+1000
 )
 driver
 .
