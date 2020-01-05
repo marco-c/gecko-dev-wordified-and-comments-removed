@@ -2114,6 +2114,16 @@ char
 aElementName
 )
 ;
+MOZ_NEVER_INLINE
+void
+SentinelReadError
+(
+const
+char
+*
+aElementName
+)
+;
 struct
 PrivateIPDLInterface
 {
