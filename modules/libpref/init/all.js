@@ -10480,7 +10480,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -13909,6 +13909,8 @@ u0338
 \
 u0589
 \
+u058A
+\
 u05C3
 \
 u05F4
@@ -13964,6 +13966,8 @@ u200E
 u200F
 \
 u2010
+\
+u2019
 \
 u2024
 \
@@ -14072,6 +14076,8 @@ u3014
 u3015
 \
 u3033
+\
+u30A0
 \
 u3164
 \
@@ -43942,6 +43948,18 @@ mixed_content
 hsts_priming_cache_timeout
 "
 10080
+)
+;
+pref
+(
+"
+security
+.
+mixed_content
+.
+hsts_priming_request_timeout
+"
+3000
 )
 ;
 #

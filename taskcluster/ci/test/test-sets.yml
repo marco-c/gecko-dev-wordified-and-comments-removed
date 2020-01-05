@@ -786,6 +786,14 @@ mochitest
 -
 webgl
 -
+reftest
+-
+reftest
+-
+no
+-
+accel
+-
 web
 -
 platform
