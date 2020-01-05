@@ -1904,6 +1904,11 @@ if
 AppConstants
 .
 NIGHTLY_BUILD
+|
+|
+AppConstants
+.
+MOZ_DEV_EDITION
 )
 {
 let
