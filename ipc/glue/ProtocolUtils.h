@@ -142,15 +142,6 @@ include
 "
 mozilla
 /
-MozPromise
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Mutex
 .
 h
