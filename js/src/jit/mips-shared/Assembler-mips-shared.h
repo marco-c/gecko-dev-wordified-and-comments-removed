@@ -6255,7 +6255,7 @@ SupportsUnalignedAccesses
 )
 {
 return
-false
+true
 ;
 }
 static
