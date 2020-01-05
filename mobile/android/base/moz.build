@@ -3377,11 +3377,6 @@ GeckoView
 java
 '
 '
-GeckoViewChrome
-.
-java
-'
-'
 GeckoViewFragment
 .
 java
