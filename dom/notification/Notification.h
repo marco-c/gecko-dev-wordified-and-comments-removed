@@ -209,14 +209,6 @@ RecordPermissions
 (
 )
 ;
-nsresult
-RecordSender
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 private
 :
 virtual
@@ -238,12 +230,6 @@ aCapability
 ;
 bool
 mDNDRecorded
-;
-nsTHashtable
-<
-nsStringHashKey
->
-mOrigins
 ;
 }
 ;
