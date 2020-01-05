@@ -125,8 +125,6 @@ attribute
 DOMString
 face
 ;
-/
-/
 attribute
 DOMString
 size
