@@ -189,6 +189,7 @@ PaintingPerTile
 PaintingPrepBuff
 Painting
 ImageDecoding
+ImageSaving
 ScriptAttachLayout
 ScriptConstellationMsg
 ScriptDevtoolsMsg

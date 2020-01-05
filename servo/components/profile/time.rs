@@ -683,6 +683,16 @@ Decoding
 ProfilerCategory
 :
 :
+ImageSaving
+=
+>
+"
+Image
+Saving
+"
+ProfilerCategory
+:
+:
 ScriptAttachLayout
 =
 >
