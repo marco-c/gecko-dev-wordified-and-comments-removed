@@ -112,8 +112,6 @@ HTMLFontElement
 :
 HTMLElement
 {
-/
-/
 [
 TreatNullAs
 =
