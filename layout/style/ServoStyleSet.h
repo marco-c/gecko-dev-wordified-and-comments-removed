@@ -961,6 +961,9 @@ mBatching
 bool
 mAllowResolveStaleStyles
 ;
+bool
+mAuthorStyleDisabled
+;
 EnumeratedArray
 <
 nsCSSAnonBoxes
