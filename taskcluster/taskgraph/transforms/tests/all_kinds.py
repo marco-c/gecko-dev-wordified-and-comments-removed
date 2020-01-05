@@ -331,6 +331,33 @@ tier
 =
 1
             
+elif
+test
+[
+'
+test
+-
+platform
+'
+]
+.
+startswith
+(
+'
+win
+'
+)
+:
+                
+test
+[
+'
+tier
+'
+]
+=
+3
+            
 else
 :
                 
@@ -691,6 +718,10 @@ run
 on
 -
 projects
+'
+        
+'
+tier
 '
     
 ]

@@ -461,7 +461,6 @@ gtest
 #
 -
 jittest
-#
 -
 jsreftest
 #
@@ -477,14 +476,12 @@ mochitest
 browser
 -
 chrome
-#
 -
 mochitest
 -
 devtools
 -
 chrome
-#
 -
 mochitest
 -
@@ -501,7 +498,6 @@ web
 platform
 -
 tests
-#
 -
 web
 -
