@@ -7377,10 +7377,6 @@ type
 param
 .
 typespec
-                                            
-chmodallowed
-=
-1
 )
             
 return
@@ -7902,9 +7898,6 @@ _canonicalType
 self
 itype
 typespec
-chmodallowed
-=
-0
 )
 :
         
