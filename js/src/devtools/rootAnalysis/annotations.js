@@ -278,11 +278,6 @@ PRIOMethods
 :
 true
 "
-XPCOMFunctions
-"
-:
-true
-"
 _MD_IOVector
 "
 :
