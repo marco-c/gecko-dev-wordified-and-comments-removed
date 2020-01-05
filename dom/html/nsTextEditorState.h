@@ -307,7 +307,7 @@ eSetValue_Notify
 <
 <
 2
-eSetValue_MoveCursorToEnd
+eSetValue_MoveCursorToEndIfValueChanged
 =
 1
 <

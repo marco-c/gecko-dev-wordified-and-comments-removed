@@ -1511,7 +1511,7 @@ eSetValue_Notify
 nsTextEditorState
 :
 :
-eSetValue_MoveCursorToEnd
+eSetValue_MoveCursorToEndIfValueChanged
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1570,7 +1570,7 @@ eSetValue_Notify
 nsTextEditorState
 :
 :
-eSetValue_MoveCursorToEnd
+eSetValue_MoveCursorToEndIfValueChanged
 )
 ;
 }
