@@ -55,7 +55,4 @@ Version
 54
 "
 }
-zoneStrings
-{
-}
 }
