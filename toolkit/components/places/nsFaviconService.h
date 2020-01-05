@@ -326,9 +326,10 @@ aIcon
 nsresult
 GetFaviconDataAsync
 (
-nsIURI
-*
-aFaviconURI
+const
+nsCString
+&
+aFaviconSpec
 mozIStorageStatementCallback
 *
 aCallback
