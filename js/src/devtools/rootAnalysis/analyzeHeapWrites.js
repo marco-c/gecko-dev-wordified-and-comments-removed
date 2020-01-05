@@ -1896,6 +1896,9 @@ Gecko_AppendMozBorderColors
 "
 Gecko_CopyMozBorderColors
 "
+"
+Gecko_SetJemallocThreadLocalArena
+"
 /
 UndisplayedMap
 :
