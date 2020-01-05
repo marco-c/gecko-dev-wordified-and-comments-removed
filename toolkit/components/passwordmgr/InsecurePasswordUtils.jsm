@@ -504,7 +504,7 @@ domDoc
 .
 defaultView
 .
-isSecureContext
+isSecureContextIfOpenerIgnored
 ;
 let
 {
