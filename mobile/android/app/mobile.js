@@ -888,7 +888,7 @@ sessionstore
 .
 max_resumed_crashes
 "
-1
+2
 )
 ;
 pref
