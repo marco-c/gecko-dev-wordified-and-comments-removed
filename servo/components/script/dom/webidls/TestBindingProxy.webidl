@@ -179,7 +179,6 @@ item_name
 )
 ;
 setter
-creator
 void
 setNamedItem
 (
@@ -199,7 +198,6 @@ index
 )
 ;
 setter
-creator
 void
 setItem
 (

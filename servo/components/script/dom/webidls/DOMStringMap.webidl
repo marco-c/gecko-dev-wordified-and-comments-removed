@@ -128,7 +128,6 @@ name
 Throws
 ]
 setter
-creator
 void
 (
 DOMString

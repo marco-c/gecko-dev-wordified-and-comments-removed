@@ -117,7 +117,11 @@ org
 multipage
 /
 #
-webstorage
+the
+-
+storage
+-
+interface
 *
 *
 /
@@ -149,7 +153,6 @@ name
 )
 ;
 setter
-creator
 void
 setItem
 (
