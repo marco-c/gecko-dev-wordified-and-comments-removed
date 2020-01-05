@@ -1681,13 +1681,13 @@ Keyboard
 Shortcuts
 -
 Ctrl
--
++
 -
 zooms
 out
 -
 Ctrl
--
++
 =
 zooms
 in
