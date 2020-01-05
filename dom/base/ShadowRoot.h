@@ -660,15 +660,13 @@ return
 mShadowRoot
 ;
 }
-virtual
 uint32_t
 Length
 (
 )
 override
 ;
-virtual
-CSSStyleSheet
+StyleSheet
 *
 IndexedGetter
 (

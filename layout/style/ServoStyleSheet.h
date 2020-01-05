@@ -92,7 +92,6 @@ SRIMetadata
 aIntegrity
 )
 ;
-NS_DECL_ISUPPORTS
 bool
 HasRules
 (
@@ -211,6 +210,7 @@ DidDirty
 }
 protected
 :
+virtual
 ~
 ServoStyleSheet
 (
