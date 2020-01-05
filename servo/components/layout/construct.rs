@@ -1388,6 +1388,7 @@ me
 .
 ImageFragment
 (
+box
 ImageFragmentInfo
 :
 :
@@ -1522,6 +1523,7 @@ HTMLIFrameElementTypeId
 {
 IframeFragment
 (
+box
 IframeFragmentInfo
 :
 :

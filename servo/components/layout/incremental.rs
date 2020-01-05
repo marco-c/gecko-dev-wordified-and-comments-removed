@@ -42,7 +42,7 @@ restyling
 flags
 RestyleDamage
 :
-int
+u8
 {
 #
 [
