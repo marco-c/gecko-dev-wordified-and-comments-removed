@@ -68,10 +68,7 @@ geometry
 Au
 ;
 use
-newcss
-:
-:
-stylesheet
+style
 :
 :
 Stylesheet

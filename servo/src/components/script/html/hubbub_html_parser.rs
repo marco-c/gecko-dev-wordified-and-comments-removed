@@ -106,10 +106,7 @@ jsapi
 JSContext
 ;
 use
-newcss
-:
-:
-stylesheet
+style
 :
 :
 Stylesheet

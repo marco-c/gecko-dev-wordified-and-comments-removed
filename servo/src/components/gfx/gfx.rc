@@ -168,6 +168,10 @@ util
 ;
 extern
 mod
+style
+;
+extern
+mod
 servo_msg
 (
 name
