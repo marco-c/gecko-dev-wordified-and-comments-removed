@@ -26,10 +26,7 @@ geometry
 Au
 ;
 use
-gfx
-:
-:
-resource
+servo_net
 :
 :
 local_image_cache

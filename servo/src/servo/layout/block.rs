@@ -799,16 +799,6 @@ width
 )
 ;
 let
-mut
-_right_used
-=
-Au
-(
-0
-)
-;
-let
-mut
 left_used
 =
 Au
