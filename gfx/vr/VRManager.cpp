@@ -373,6 +373,11 @@ mgr
 endif
 if
 (
+XRE_IsParentProcess
+(
+)
+&
+&
 gfxPrefs
 :
 :
