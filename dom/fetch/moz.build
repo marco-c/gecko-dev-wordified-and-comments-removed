@@ -143,6 +143,11 @@ FetchIPCTypes
 h
 '
 '
+FetchObserver
+.
+h
+'
+'
 FetchSignal
 .
 h
@@ -209,6 +214,11 @@ cpp
 '
 '
 FetchDriver
+.
+cpp
+'
+'
+FetchObserver
 .
 cpp
 '

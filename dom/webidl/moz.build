@@ -3425,6 +3425,11 @@ FetchEvent
 webidl
 '
 '
+FetchObserver
+.
+webidl
+'
+'
 FetchSignal
 .
 webidl
