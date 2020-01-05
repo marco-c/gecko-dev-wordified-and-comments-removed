@@ -323,10 +323,6 @@ domrect
 ;
 pub
 mod
-domrectlist
-;
-pub
-mod
 domrectreadonly
 ;
 pub
