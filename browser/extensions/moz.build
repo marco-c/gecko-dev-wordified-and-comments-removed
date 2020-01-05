@@ -127,14 +127,11 @@ Aurora
 or
 Nightly
 if
-'
-a
-'
-in
+not
 CONFIG
 [
 '
-GRE_MILESTONE
+RELEASE_OR_BETA
 '
 ]
 :

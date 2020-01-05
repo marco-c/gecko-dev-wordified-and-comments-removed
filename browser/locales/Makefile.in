@@ -921,6 +921,8 @@ XPI_NAME
 locale
 -
 *
+ifndef
+RELEASE_OR_BETA
 (
 MAKE
 )
@@ -942,6 +944,7 @@ XPI_NAME
 locale
 -
 *
+endif
 (
 MAKE
 )
