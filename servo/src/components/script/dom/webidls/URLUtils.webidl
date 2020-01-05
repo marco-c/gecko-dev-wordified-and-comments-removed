@@ -197,5 +197,10 @@ attribute
 ScalarValueString
 hash
 ;
+readonly
+attribute
+DOMString
+hash
+;
 }
 ;
