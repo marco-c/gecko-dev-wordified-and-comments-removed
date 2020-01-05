@@ -43,6 +43,7 @@ properties
 :
 {
 self
+CascadeFlags
 ComputedValues
 Importance
 }
@@ -1792,7 +1793,6 @@ viewport_size
 [
 declaration_block
 ]
-false
 Some
 (
 previous_style
@@ -1804,6 +1804,12 @@ context
 error_reporter
 .
 clone
+(
+)
+CascadeFlags
+:
+:
+empty
 (
 )
 )

@@ -222,7 +222,7 @@ block_flow
 BlockFlow
 :
 :
-from_fragment
+from_fragment_and_float_kind
 (
 fragment
 float_kind
@@ -261,7 +261,6 @@ BlockFlow
 from_fragment
 (
 fragment
-None
 )
 }
 }

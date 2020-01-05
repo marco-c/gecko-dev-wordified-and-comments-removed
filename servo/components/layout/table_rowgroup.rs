@@ -303,7 +303,6 @@ BlockFlow
 from_fragment
 (
 fragment
-None
 )
 column_intrinsic_inline_sizes
 :
