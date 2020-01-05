@@ -821,6 +821,12 @@ name
 "
 transition
 "
+extra_prefixes
+=
+"
+moz
+webkit
+"
 sub_properties
 =
 "
@@ -1446,6 +1452,12 @@ name
 =
 "
 animation
+"
+extra_prefixes
+=
+"
+moz
+webkit
 "
 sub_properties
 =

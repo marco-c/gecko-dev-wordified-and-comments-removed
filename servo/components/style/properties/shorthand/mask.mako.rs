@@ -33,6 +33,11 @@ products
 "
 gecko
 "
+extra_prefixes
+=
+"
+webkit
+"
 sub_properties
 =
 "

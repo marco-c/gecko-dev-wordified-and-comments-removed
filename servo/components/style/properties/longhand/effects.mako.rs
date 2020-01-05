@@ -103,6 +103,11 @@ animatable
 "
 True
 "
+extra_prefixes
+=
+"
+webkit
+"
 spec
 =
 "
@@ -2286,6 +2291,11 @@ animatable
 =
 "
 False
+"
+extra_prefixes
+=
+"
+webkit
 "
 spec
 =

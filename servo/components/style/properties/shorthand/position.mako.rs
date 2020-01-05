@@ -40,6 +40,11 @@ flex
 -
 wrap
 "
+extra_prefixes
+=
+"
+webkit
+"
 spec
 =
 "
@@ -387,6 +392,11 @@ shrink
 flex
 -
 basis
+"
+extra_prefixes
+=
+"
+webkit
 "
 spec
 =

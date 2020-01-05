@@ -1511,6 +1511,11 @@ box
 vector
 =
 True
+extra_prefixes
+=
+"
+webkit
+"
 spec
 =
 "
@@ -1564,6 +1569,11 @@ box
 vector
 =
 True
+extra_prefixes
+=
+"
+webkit
+"
 spec
 =
 "
@@ -1609,6 +1619,11 @@ animatable
 =
 "
 True
+"
+extra_prefixes
+=
+"
+webkit
 "
 spec
 =
