@@ -1,5 +1,5 @@
 export
-font
+Font
 create_test_font
 test_font_bin
 ;
@@ -105,7 +105,7 @@ no_non_implicitly_copyable_typarams
 )
 ]
 class
-font
+Font
 /
 &
 {
@@ -1458,9 +1458,9 @@ create_test_font
 )
 -
 >
-font
+Font
 {
-font
+Font
 (
 test_font_bin
 (

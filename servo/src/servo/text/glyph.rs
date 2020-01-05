@@ -33,7 +33,7 @@ screen
 "
 ]
 class
-glyph_pos
+GlyphPos
 {
 let
 advance
@@ -93,7 +93,7 @@ glyph
 "
 ]
 class
-glyph
+Glyph
 {
 let
 codepoint
@@ -103,7 +103,7 @@ uint
 let
 pos
 :
-glyph_pos
+GlyphPos
 ;
 new
 (
@@ -112,7 +112,7 @@ codepoint
 uint
 pos
 :
-glyph_pos
+GlyphPos
 )
 {
 self

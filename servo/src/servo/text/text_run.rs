@@ -41,7 +41,7 @@ font
 :
 :
 {
-font
+Font
 create_test_font
 }
 ;
@@ -49,7 +49,7 @@ import
 glyph
 :
 :
-glyph
+Glyph
 ;
 import
 shaper
@@ -72,13 +72,13 @@ text
 "
 ]
 class
-text_run
+TextRun
 {
 let
 glyphs
 :
 [
-glyph
+Glyph
 ]
 ;
 new
@@ -86,7 +86,7 @@ new
 font
 :
 &
-font
+Font
 text
 :
 str
@@ -261,7 +261,7 @@ create_test_font
 let
 run
 =
-text_run
+TextRun
 (
 &
 font

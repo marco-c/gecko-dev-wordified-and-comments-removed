@@ -61,7 +61,7 @@ text
 text_run
 :
 :
-text_run
+TextRun
 ;
 enum
 Msg
@@ -907,7 +907,7 @@ dl
 display_item
 text_run
 :
-text_run
+TextRun
 )
 {
 import
@@ -963,7 +963,7 @@ font
 :
 :
 {
-font
+Font
 create_test_font
 }
 ;

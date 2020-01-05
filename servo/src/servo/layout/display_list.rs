@@ -32,7 +32,7 @@ servo_text
 text_run
 :
 :
-text_run
+TextRun
 ;
 enum
 item_type
@@ -50,7 +50,7 @@ image
 )
 display_item_text
 (
-text_run
+TextRun
 )
 padding
 (

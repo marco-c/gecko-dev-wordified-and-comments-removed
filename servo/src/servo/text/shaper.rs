@@ -33,15 +33,15 @@ import
 font
 :
 :
-font
+Font
 ;
 import
 glyph
 :
 :
 {
-glyph
-glyph_pos
+Glyph
+GlyphPos
 }
 ;
 import
@@ -167,7 +167,7 @@ shape_text
 font
 :
 &
-font
+Font
 text
 :
 str
@@ -175,7 +175,7 @@ str
 -
 >
 [
-glyph
+Glyph
 ]
 unsafe
 {
@@ -569,7 +569,7 @@ glyphs
 +
 =
 [
-glyph
+Glyph
 (
 codepoint
 pos
@@ -643,7 +643,7 @@ let
 font
 :
 *
-font
+Font
 =
 reinterpret_cast
 (
@@ -723,7 +723,7 @@ let
 font
 :
 *
-font
+Font
 =
 reinterpret_cast
 (
@@ -785,9 +785,9 @@ hb_glyph_position_t
 )
 -
 >
-glyph_pos
+GlyphPos
 {
-glyph_pos
+GlyphPos
 (
 Point2D
 (

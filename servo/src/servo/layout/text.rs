@@ -57,7 +57,7 @@ servo_text
 text_run
 :
 :
-text_run
+TextRun
 ;
 import
 servo_text
@@ -82,7 +82,7 @@ run
 :
 option
 <
-text_run
+TextRun
 >
 ;
 new
@@ -178,7 +178,7 @@ create_test_font
 let
 run
 =
-text_run
+TextRun
 (
 &
 font
