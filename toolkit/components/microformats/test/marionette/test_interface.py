@@ -64,8 +64,8 @@ self
 set_server_prefix
 (
 "
-.
-.
+/
+test
 /
 interface
 -

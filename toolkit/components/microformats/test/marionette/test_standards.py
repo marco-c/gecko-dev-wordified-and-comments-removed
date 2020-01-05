@@ -12,6 +12,12 @@ os
 .
 path
 .
+normpath
+(
+os
+.
+path
+.
 join
 (
 os
@@ -29,6 +35,7 @@ __file__
 '
 marionette
 '
+)
 )
 )
 from
@@ -64,8 +71,8 @@ self
 set_server_prefix
 (
 "
-.
-.
+/
+test
 /
 standards
 -
