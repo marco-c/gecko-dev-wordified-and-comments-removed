@@ -150,6 +150,10 @@ gleam
 ;
 extern
 crate
+image
+;
+extern
+crate
 ipc_channel
 ;
 extern
@@ -175,10 +179,6 @@ num
 extern
 crate
 offscreen_gl_context
-;
-extern
-crate
-png
 ;
 extern
 crate

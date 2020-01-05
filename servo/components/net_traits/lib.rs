@@ -101,11 +101,13 @@ ipc_channel
 ;
 extern
 crate
-msg
+image
+as
+piston_image
 ;
 extern
 crate
-png
+msg
 ;
 extern
 crate

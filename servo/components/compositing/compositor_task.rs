@@ -99,13 +99,11 @@ constellation_msg
 :
 :
 {
+Image
 Key
 KeyModifiers
 KeyState
 }
-;
-use
-png
 ;
 use
 profile_traits
@@ -941,9 +939,6 @@ IpcSender
 <
 Option
 <
-png
-:
-:
 Image
 >
 >
