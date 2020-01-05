@@ -507,6 +507,13 @@ macos
 .
 dependencies
 ]
+byteorder
+=
+"
+0
+.
+5
+"
 core
 -
 foundation
