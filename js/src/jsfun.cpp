@@ -6855,12 +6855,13 @@ functionNonDelazifying
 if
 (
 !
-lazy
--
->
+LazyScript
+:
+:
 functionDelazifying
 (
 cx
+lazy
 )
 )
 return
