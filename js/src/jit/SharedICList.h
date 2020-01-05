@@ -96,6 +96,11 @@ Compare_String
 \
 _
 (
+Compare_Symbol
+)
+\
+_
+(
 Compare_Boolean
 )
 \
