@@ -805,6 +805,11 @@ sessionId
 :
 {
 "
+unsupported
+"
+:
+true
+"
 type
 "
 :
