@@ -4428,7 +4428,7 @@ a
 scope
 with
 an
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 The
 second

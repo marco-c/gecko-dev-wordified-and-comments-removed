@@ -62,7 +62,7 @@ class
 nsIURI
 ;
 class
-nsExpandedPrincipal
+ExpandedPrincipal
 ;
 namespace
 mozilla
@@ -1309,7 +1309,7 @@ friend
 class
 :
 :
-nsExpandedPrincipal
+ExpandedPrincipal
 ;
 void
 FinishInit

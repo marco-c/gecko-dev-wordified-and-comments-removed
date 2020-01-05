@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 h
 "
@@ -1310,11 +1310,11 @@ principal
 ;
 RefPtr
 <
-nsExpandedPrincipal
+ExpandedPrincipal
 >
 ep
 =
-nsExpandedPrincipal
+ExpandedPrincipal
 :
 :
 Create

@@ -55,7 +55,7 @@ h
 #
 include
 "
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 h
 "
@@ -668,11 +668,11 @@ wlPrincipal
 }
 RefPtr
 <
-nsExpandedPrincipal
+ExpandedPrincipal
 >
 expandedPrincipal
 =
-nsExpandedPrincipal
+ExpandedPrincipal
 :
 :
 Create

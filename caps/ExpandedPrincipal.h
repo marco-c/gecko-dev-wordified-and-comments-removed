@@ -1,9 +1,9 @@
 #
 ifndef
-nsExpandedPrincipal_h
+ExpandedPrincipal_h
 #
 define
-nsExpandedPrincipal_h
+ExpandedPrincipal_h
 #
 include
 "
@@ -42,7 +42,7 @@ BasePrincipal
 h
 "
 class
-nsExpandedPrincipal
+ExpandedPrincipal
 :
 public
 nsIExpandedPrincipal
@@ -52,7 +52,7 @@ mozilla
 :
 BasePrincipal
 {
-nsExpandedPrincipal
+ExpandedPrincipal
 (
 nsTArray
 <
@@ -77,7 +77,7 @@ public
 static
 already_AddRefed
 <
-nsExpandedPrincipal
+ExpandedPrincipal
 >
 Create
 (
@@ -241,7 +241,7 @@ protected
 :
 virtual
 ~
-nsExpandedPrincipal
+ExpandedPrincipal
 (
 )
 ;

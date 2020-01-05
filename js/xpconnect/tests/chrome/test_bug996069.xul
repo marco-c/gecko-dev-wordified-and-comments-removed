@@ -348,7 +348,7 @@ ok
 (
 true
 "
-nsExpandedPrincipal
+ExpandedPrincipal
 should
 not
 be
@@ -430,7 +430,7 @@ from
 a
 scope
 with
-nsExpandedPrincipal
+ExpandedPrincipal
 "
 )
 ;
@@ -465,7 +465,7 @@ from
 a
 scope
 with
-nsExpandedPrincipal
+ExpandedPrincipal
 "
 )
 ;

@@ -2527,7 +2527,7 @@ more
 than
 one
 origin
-nsExpandedPrincipals
+ExpandedPrincipals
 letting
 us
 define
@@ -2543,7 +2543,7 @@ So
 script
 with
 an
-nsExpandedPrincipals
+ExpandedPrincipals
 will
 gain
 *
@@ -2565,7 +2565,7 @@ sameorigin
 acccess
 .
 An
-nsExpandedPrincipal
+ExpandedPrincipal
 will
 be
 subsumed
@@ -2577,7 +2577,7 @@ principal
 and
 by
 another
-nsExpandedPrincipal
+ExpandedPrincipal
 that
 has
 all
