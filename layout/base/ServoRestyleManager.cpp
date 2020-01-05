@@ -1801,7 +1801,7 @@ implemented
 )
 ;
 }
-nsresult
+void
 ServoRestyleManager
 :
 :
@@ -1826,7 +1826,6 @@ IsElement
 )
 {
 return
-NS_OK
 ;
 }
 Element
@@ -1898,9 +1897,6 @@ changeHint
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 ServoRestyleManager

@@ -158,7 +158,7 @@ destruction
 }
 public
 :
-nsresult
+void
 ContentStateChanged
 (
 nsIContent

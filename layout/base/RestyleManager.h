@@ -547,7 +547,7 @@ ProcessPendingRestyles
 )
 ;
 inline
-nsresult
+void
 ContentStateChanged
 (
 nsIContent

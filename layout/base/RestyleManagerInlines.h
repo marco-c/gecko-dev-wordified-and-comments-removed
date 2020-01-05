@@ -129,7 +129,7 @@ ProcessPendingRestyles
 )
 ;
 }
-nsresult
+void
 RestyleManager
 :
 :
