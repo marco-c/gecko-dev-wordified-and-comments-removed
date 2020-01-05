@@ -967,6 +967,16 @@ transformed_family_name
 ;
 }
 }
+if
+fonts
+.
+len
+(
+)
+=
+=
+0
+{
 let
 last_resort
 =
@@ -1085,6 +1095,7 @@ push
 font
 )
 ;
+}
 }
 }
 }
