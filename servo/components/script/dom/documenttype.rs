@@ -118,7 +118,6 @@ node
 :
 {
 Node
-NodeHelpers
 NodeTypeId
 }
 ;

@@ -216,7 +216,6 @@ document
 {
 Document
 IsHTMLDocument
-DocumentHelpers
 DocumentProgressHandler
 }
 ;
@@ -240,10 +239,7 @@ dom
 element
 :
 :
-{
 Element
-AttributeHandlers
-}
 ;
 use
 dom
@@ -253,19 +249,9 @@ event
 :
 :
 {
-EventHelpers
 EventBubbles
 EventCancelable
 }
-;
-use
-dom
-:
-:
-htmliframeelement
-:
-:
-HTMLIFrameElementHelpers
 ;
 use
 dom
@@ -276,7 +262,6 @@ node
 :
 {
 Node
-NodeHelpers
 NodeDamage
 window_from_node
 }
@@ -311,7 +296,6 @@ window
 :
 {
 Window
-WindowHelpers
 ScriptHelpers
 ReflowReason
 }

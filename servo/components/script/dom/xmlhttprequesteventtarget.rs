@@ -73,7 +73,6 @@ eventtarget
 :
 {
 EventTarget
-EventTargetHelpers
 EventTargetTypeId
 }
 ;

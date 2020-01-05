@@ -98,10 +98,7 @@ dom
 element
 :
 :
-{
-AttributeHandlers
 ElementTypeId
-}
 ;
 use
 dom

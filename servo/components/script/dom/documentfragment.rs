@@ -184,7 +184,6 @@ node
 :
 {
 Node
-NodeHelpers
 NodeTypeId
 window_from_node
 }

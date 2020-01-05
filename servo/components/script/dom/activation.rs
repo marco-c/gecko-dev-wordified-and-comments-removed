@@ -41,10 +41,7 @@ dom
 element
 :
 :
-{
 Element
-ActivationElementHelpers
-}
 ;
 use
 dom
@@ -55,7 +52,6 @@ event
 :
 {
 Event
-EventHelpers
 EventBubbles
 EventCancelable
 }

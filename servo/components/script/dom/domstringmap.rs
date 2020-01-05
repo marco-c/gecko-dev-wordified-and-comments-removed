@@ -92,10 +92,7 @@ dom
 htmlelement
 :
 :
-{
 HTMLElement
-HTMLElementCustomAttributeHelpers
-}
 ;
 use
 dom

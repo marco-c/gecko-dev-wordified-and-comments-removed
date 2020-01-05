@@ -84,15 +84,6 @@ reflect_dom_object
 }
 ;
 use
-dom
-:
-:
-window
-:
-:
-WindowHelpers
-;
-use
 util
 :
 :

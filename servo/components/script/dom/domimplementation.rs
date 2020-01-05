@@ -172,7 +172,6 @@ document
 :
 {
 Document
-DocumentHelpers
 IsHTMLDocument
 }
 ;

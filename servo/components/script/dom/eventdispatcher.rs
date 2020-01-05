@@ -104,10 +104,7 @@ dom
 node
 :
 :
-{
 Node
-NodeHelpers
-}
 ;
 use
 dom

@@ -5,10 +5,7 @@ dom
 attr
 :
 :
-{
 Attr
-AttrHelpers
-}
 ;
 use
 dom
@@ -89,10 +86,7 @@ dom
 document
 :
 :
-{
 Document
-DocumentHelpers
-}
 ;
 use
 dom
@@ -101,10 +95,7 @@ dom
 element
 :
 :
-{
 ElementTypeId
-AttributeHandlers
-}
 ;
 use
 dom

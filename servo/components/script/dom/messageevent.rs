@@ -124,7 +124,6 @@ event
 :
 {
 Event
-EventHelpers
 EventTypeId
 }
 ;
