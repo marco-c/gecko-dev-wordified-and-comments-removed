@@ -5041,7 +5041,6 @@ fn
 send
 (
 &
-mut
 self
 msg
 :
