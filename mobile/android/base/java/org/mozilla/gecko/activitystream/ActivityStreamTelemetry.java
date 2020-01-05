@@ -658,6 +658,11 @@ public
 Builder
 forTopSiteType
 (
+BrowserContract
+.
+TopSites
+.
+TopSiteType
 int
 type
 )
@@ -730,6 +735,13 @@ SUBTYPE_TOP
 ;
 break
 ;
+case
+BrowserContract
+.
+TopSites
+.
+TYPE_BLANK
+:
 default
 :
 throw
