@@ -234,6 +234,17 @@ DumpDebugInfo
 (
 )
 ;
+RefPtr
+<
+MediaDecoder
+:
+:
+DebugInfoPromise
+>
+RequestDebugInfo
+(
+)
+;
 void
 AddOutputStream
 (
