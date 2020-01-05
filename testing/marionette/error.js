@@ -308,7 +308,7 @@ err
 }
 return
 new
-WebDriverError
+UnknownError
 (
 err
 )
