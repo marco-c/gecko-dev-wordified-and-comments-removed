@@ -760,7 +760,7 @@ aLineBreakType
 )
 ;
 nsresult
-GetFlatTextLengthBefore
+GetStartOffset
 (
 nsRange
 *
