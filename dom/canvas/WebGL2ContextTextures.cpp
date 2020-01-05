@@ -212,7 +212,6 @@ dom
 :
 :
 ArrayBufferView
->
 *
 srcView
 GLuint
@@ -304,7 +303,7 @@ depth
 border
 unpackFormat
 unpackType
-view
+srcView
 srcElemOffset
 )
 ;
@@ -730,7 +729,7 @@ width
 height
 depth
 border
-view
+srcView
 srcElemOffset
 )
 ;
@@ -827,7 +826,7 @@ width
 height
 depth
 sizedUnpackFormat
-view
+srcView
 srcElemOffset
 )
 ;
@@ -919,7 +918,7 @@ height
 ;
 }
 void
-WebGL2Context
+WebGLContext
 :
 :
 TexImage2D
@@ -1042,7 +1041,7 @@ offset
 ;
 }
 void
-WebGL2Context
+WebGLContext
 :
 :
 TexSubImage2D
