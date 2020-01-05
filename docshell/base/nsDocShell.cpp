@@ -48855,7 +48855,7 @@ rv
 =
 CreateAboutBlankContentViewer
 (
-triggeringPrincipal
+principalToInherit
 nullptr
 aEntry
 !
