@@ -225,8 +225,7 @@ pri
 void
 SetFastOpen
 (
-PRFileDesc
-*
+bool
 aFastOpen
 )
 {
@@ -1211,8 +1210,7 @@ mResponseThrottled
 bool
 mResumeRecvOnUnthrottle
 ;
-PRFileDesc
-*
+bool
 mFastOpen
 ;
 uint8_t
