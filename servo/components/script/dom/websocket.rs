@@ -3410,11 +3410,6 @@ fire_simple_event
 "
 open
 "
-global
-.
-r
-(
-)
 )
 ;
 }
@@ -3711,11 +3706,6 @@ EventCancelable
 :
 :
 Cancelable
-global
-.
-r
-(
-)
 )
 ;
 }
