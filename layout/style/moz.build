@@ -1001,6 +1001,11 @@ nsMediaFeatures
 cpp
 '
 '
+nsMediaList
+.
+cpp
+'
+'
 nsNthIndexCache
 .
 cpp
