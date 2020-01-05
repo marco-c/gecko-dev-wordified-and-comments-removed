@@ -2220,14 +2220,6 @@ return
 false
 ;
 }
-if
-(
-!
-IsOutOfProcess
-(
-)
-)
-{
 struct
 sigaction
 sa
@@ -2356,7 +2348,6 @@ PROT_READ
 ;
 #
 endif
-}
 try
 {
 #
