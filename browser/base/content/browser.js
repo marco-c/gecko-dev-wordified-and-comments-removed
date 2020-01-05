@@ -6475,7 +6475,7 @@ uriToLoad
 instanceof
 Ci
 .
-nsISupportsArray
+nsIArray
 )
 {
 let
@@ -6483,9 +6483,7 @@ count
 =
 uriToLoad
 .
-Count
-(
-)
+length
 ;
 let
 specs
@@ -6514,13 +6512,9 @@ urisstring
 =
 uriToLoad
 .
-GetElementAt
+queryElementAt
 (
 i
-)
-.
-QueryInterface
-(
 Ci
 .
 nsISupportsString
