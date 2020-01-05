@@ -1311,13 +1311,6 @@ class
 PlaybackStreamListener
 ;
 void
-CreateAndAddPlaybackStreamListener
-(
-MediaStream
-*
-)
-;
-void
 BlockPlaybackTrack
 (
 TrackPort

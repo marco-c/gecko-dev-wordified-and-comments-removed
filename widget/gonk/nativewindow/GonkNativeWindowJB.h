@@ -43,13 +43,6 @@ h
 #
 include
 "
-CameraCommon
-.
-h
-"
-#
-include
-"
 GonkConsumerBaseJB
 .
 h

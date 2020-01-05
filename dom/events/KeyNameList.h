@@ -59,13 +59,6 @@ HomeScreen
 MozHomeScreen
 "
 )
-DEFINE_KEYNAME_INTERNAL
-(
-CameraFocusAdjust
-"
-MozCameraFocusAdjust
-"
-)
 #
 endif
 DEFINE_KEYNAME_WITH_SAME_NAME

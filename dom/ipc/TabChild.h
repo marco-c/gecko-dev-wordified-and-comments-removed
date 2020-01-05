@@ -2860,16 +2860,6 @@ aInstalled
 )
 override
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
-void
-MaybeRequestPreinitCamera
-(
-)
-;
-#
-endif
 private
 :
 void
