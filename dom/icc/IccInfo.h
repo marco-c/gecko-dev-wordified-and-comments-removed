@@ -395,6 +395,7 @@ CdmaIccInfo
 nsString
 mPhoneNumber
 ;
+MOZ_INIT_OUTSIDE_CTOR
 int32_t
 mPrlVersion
 ;
