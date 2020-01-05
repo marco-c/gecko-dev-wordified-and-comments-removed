@@ -5729,7 +5729,7 @@ srcRect
 SkMatrix
 :
 :
-kStart_ScaleToFit
+kFill_ScaleToFit
 )
 ;
 texMatrix
