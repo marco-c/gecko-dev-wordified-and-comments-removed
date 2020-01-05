@@ -46,12 +46,6 @@ letter
 noref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 max
@@ -405,12 +399,6 @@ fails
 if
 (
 Android
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

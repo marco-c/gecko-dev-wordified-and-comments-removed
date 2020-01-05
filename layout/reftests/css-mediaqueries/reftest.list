@@ -97,12 +97,6 @@ Android
 8
 454
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 mq_print_orientation

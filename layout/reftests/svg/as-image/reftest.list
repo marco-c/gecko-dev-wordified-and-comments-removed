@@ -802,12 +802,6 @@ content
 enabled
 true
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 context
@@ -1122,12 +1116,6 @@ content
 .
 enabled
 true
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

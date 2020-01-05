@@ -607,12 +607,6 @@ haveTestPlugin
 1
 160000
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 plugin
@@ -1012,12 +1006,6 @@ if
 (
 !
 haveTestPlugin
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

@@ -2583,12 +2583,6 @@ color
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 fixed

@@ -2654,12 +2654,6 @@ select
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 1133392
