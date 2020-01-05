@@ -1845,16 +1845,6 @@ FunctionSyntaxKind
 kind
 )
 ;
-void
-resetForAbortedSyntaxParse
-(
-ParseContext
-*
-enclosing
-FunctionSyntaxKind
-kind
-)
-;
 ObjectBox
 *
 toObjectBox
