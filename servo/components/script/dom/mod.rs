@@ -297,6 +297,10 @@ htmlfontelement
 ;
 pub
 mod
+htmlformcontrolscollection
+;
+pub
+mod
 htmlformelement
 ;
 pub

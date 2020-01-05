@@ -155,8 +155,6 @@ attribute
 DOMString
 target
 ;
-/
-/
 [
 SameObject
 ]
