@@ -20,7 +20,7 @@ h
 "
 #
 define
-AV_DYNARRAY_ADD
+FF_DYNARRAY_ADD
 (
 av_size_max
 av_elt_size

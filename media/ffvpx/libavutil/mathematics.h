@@ -279,6 +279,7 @@ int64_t
 c
 enum
 AVRounding
+rnd
 )
 av_const
 ;
@@ -305,6 +306,7 @@ AVRational
 cq
 enum
 AVRounding
+rnd
 )
 av_const
 ;

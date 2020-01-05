@@ -195,6 +195,12 @@ pix_abs
 4
 ]
 ;
+me_cmp_func
+median_sad
+[
+2
+]
+;
 }
 MECmpContext
 ;

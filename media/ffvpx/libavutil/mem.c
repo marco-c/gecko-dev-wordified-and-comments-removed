@@ -618,9 +618,6 @@ if
 (
 !
 r
-&
-&
-size
 )
 av_free
 (
@@ -1222,7 +1219,7 @@ tab
 )
 )
 ;
-AV_DYNARRAY_ADD
+FF_DYNARRAY_ADD
 (
 INT_MAX
 sizeof
@@ -1298,7 +1295,7 @@ tab
 )
 )
 ;
-AV_DYNARRAY_ADD
+FF_DYNARRAY_ADD
 (
 INT_MAX
 sizeof
@@ -1370,7 +1367,7 @@ tab_elem_data
 =
 NULL
 ;
-AV_DYNARRAY_ADD
+FF_DYNARRAY_ADD
 (
 INT_MAX
 elem_size

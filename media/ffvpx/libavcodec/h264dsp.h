@@ -11,6 +11,13 @@ stdint
 .
 h
 >
+#
+include
+<
+stddef
+.
+h
+>
 typedef
 void
 (
@@ -21,7 +28,7 @@ h264_weight_func
 uint8_t
 *
 block
-int
+ptrdiff_t
 stride
 int
 height
@@ -46,7 +53,7 @@ dst
 uint8_t
 *
 src
-int
+ptrdiff_t
 stride
 int
 height

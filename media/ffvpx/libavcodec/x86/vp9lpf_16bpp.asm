@@ -575,7 +575,7 @@ endif
 %
 endmacro
 ;
-calulate
+calculate
 p
 or
 q

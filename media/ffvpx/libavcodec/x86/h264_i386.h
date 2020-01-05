@@ -384,7 +384,7 @@ add
 %
 %
 "
-REG_c
+FF_REG_c
 "
 \
 n
@@ -426,7 +426,7 @@ t
 "
 add
 "
-OPSIZE
+FF_OPSIZE
 "
 4
 %
@@ -503,7 +503,7 @@ add
 %
 %
 "
-REG_c
+FF_REG_c
 "
 \
 n
@@ -662,7 +662,7 @@ TABLES_ARG
 "
 %
 "
-REG_c
+FF_REG_c
 "
 memory
 "
@@ -1112,7 +1112,7 @@ t
 "
 add
 "
-OPSIZE
+FF_OPSIZE
 "
 4
 %
@@ -1341,7 +1341,7 @@ TABLES_ARG
 "
 %
 "
-REG_c
+FF_REG_c
 "
 memory
 "
