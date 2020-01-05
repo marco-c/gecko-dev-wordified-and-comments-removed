@@ -2950,7 +2950,12 @@ path
 .
 normpath
 (
+self
+.
+FixFilenameCase
+(
 a
+)
 )
 for
 a
@@ -5404,7 +5409,7 @@ None
                                                     
 3
                                                     
-0
+0x02000000
                                                     
 None
 )
