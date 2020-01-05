@@ -4046,17 +4046,10 @@ load
 1233191
 .
 html
-asserts
-(
-3
-)
 load
 1271765
 .
 html
-#
-bug
-1319318
 asserts
 (
 2
