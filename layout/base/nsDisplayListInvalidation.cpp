@@ -506,10 +506,10 @@ aOffset
 )
 ;
 }
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 :
 :
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 (
 nsDisplaySVGEffects
 *
@@ -559,7 +559,7 @@ ToReferenceFrame
 {
 }
 void
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 :
 :
 MoveBy
