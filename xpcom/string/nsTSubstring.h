@@ -2764,6 +2764,7 @@ const
 char_type
 aChar
 )
+const
 ;
 void
 NS_FASTCALL

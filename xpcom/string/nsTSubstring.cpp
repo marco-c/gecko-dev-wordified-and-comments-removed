@@ -4472,6 +4472,7 @@ nsTSubstring_CharT
 char_type
 aChar
 )
+const
 {
 return
 nsTSubstringSplitter_CharT
