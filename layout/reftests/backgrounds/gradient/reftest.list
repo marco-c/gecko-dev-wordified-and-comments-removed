@@ -26,12 +26,6 @@ position
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 color
