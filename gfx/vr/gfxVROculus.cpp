@@ -6949,14 +6949,6 @@ VRControllerOculus
 hand
 )
 ;
-oculusController
--
->
-SetIndex
-(
-mControllerCount
-)
-;
 mOculusController
 .
 AppendElement
