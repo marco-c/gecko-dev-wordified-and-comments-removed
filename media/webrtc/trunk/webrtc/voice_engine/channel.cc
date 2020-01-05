@@ -14724,6 +14724,8 @@ cumulativeLost
 =
 stats
 .
+rtcp
+.
 cumulative_lost
 ;
 }
