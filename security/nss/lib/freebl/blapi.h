@@ -3408,13 +3408,6 @@ len
 )
 ;
 extern
-SECStatus
-RNG_ResetForFuzzing
-(
-void
-)
-;
-extern
 void
 RNG_RNGShutdown
 (

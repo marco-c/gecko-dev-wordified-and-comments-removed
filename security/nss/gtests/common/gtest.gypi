@@ -180,7 +180,7 @@ lstdc
 ]
 [
 '
-fuzz_tls
+fuzz
 =
 =
 1

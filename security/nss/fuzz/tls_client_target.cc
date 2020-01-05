@@ -445,8 +445,10 @@ ifdef
 UNSAFE_FUZZER_MODE
 assert
 (
-RNG_ResetForFuzzing
+RNG_RandomUpdate
 (
+NULL
+0
 )
 =
 =

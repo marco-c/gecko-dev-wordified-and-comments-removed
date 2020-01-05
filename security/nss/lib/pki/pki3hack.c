@@ -3795,6 +3795,11 @@ object
 .
 trustDomain
 ;
+CERT_LockCertTempPerm
+(
+cc
+)
+;
 cc
 -
 >
@@ -3808,6 +3813,11 @@ cc
 isperm
 =
 PR_TRUE
+;
+CERT_UnlockCertTempPerm
+(
+cc
+)
 ;
 cc
 -

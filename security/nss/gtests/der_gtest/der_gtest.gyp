@@ -119,6 +119,11 @@ der_private_key_import_unittest
 cc
 '
 '
+der_quickder_unittest
+.
+cc
+'
+'
 <
 (
 DEPTH

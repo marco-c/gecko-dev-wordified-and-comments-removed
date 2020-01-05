@@ -992,8 +992,10 @@ SetPacketFilter
 replacer
 )
 ;
-ConnectExpectFail
+ConnectExpectAlert
 (
+client_
+kTlsAlertIllegalParameter
 )
 ;
 client_
