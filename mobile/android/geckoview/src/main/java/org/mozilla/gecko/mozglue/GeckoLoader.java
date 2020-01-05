@@ -1154,13 +1154,6 @@ MOZ_LINKER_ONDEMAND
 ;
 }
 }
-if
-(
-AppConstants
-.
-MOZ_LINKER_EXTRACT
-)
-{
 putenv
 (
 "
@@ -1212,7 +1205,6 @@ true
 false
 )
 ;
-}
 }
 }
 RobocopTarget
