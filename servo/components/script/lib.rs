@@ -105,10 +105,6 @@ msg
 ;
 extern
 crate
-native
-;
-extern
-crate
 net
 ;
 extern

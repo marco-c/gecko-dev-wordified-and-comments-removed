@@ -358,6 +358,9 @@ pixels
 png
 :
 :
+PixelsByColorType
+:
+:
 RGB8
 (
 ref
@@ -375,6 +378,9 @@ as_mut_slice
 )
 )
 png
+:
+:
+PixelsByColorType
 :
 :
 RGBA8
@@ -438,6 +444,9 @@ true
 stb_image
 :
 :
+LoadResult
+:
+:
 ImageU8
 (
 mut
@@ -494,6 +503,9 @@ pixels
 png
 :
 :
+PixelsByColorType
+:
+:
 RGBA8
 (
 image
@@ -504,6 +516,9 @@ data
 )
 }
 stb_image
+:
+:
+LoadResult
 :
 :
 ImageF32
@@ -527,6 +542,9 @@ implemented
 None
 }
 stb_image
+:
+:
+LoadResult
 :
 :
 Error

@@ -129,7 +129,7 @@ jsapi
 JSObject
 JSTracer
 JS_CallTracer
-JSTRACE_OBJECT
+JSGCTraceKind
 }
 ;
 use
@@ -610,6 +610,9 @@ libc
 :
 :
 c_void
+JSGCTraceKind
+:
+:
 JSTRACE_OBJECT
 )
 ;

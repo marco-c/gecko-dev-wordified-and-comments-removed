@@ -2477,6 +2477,7 @@ false
 let
 glyph
 =
+&
 [
 DetailedGlyph
 :

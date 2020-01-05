@@ -20,10 +20,6 @@ servo
 ;
 extern
 crate
-native
-;
-extern
-crate
 time
 ;
 extern

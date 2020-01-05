@@ -145,10 +145,12 @@ for
 '
 a
 mut
+(
 Actor
 +
 '
 a
+)
 {
 fn
 downcast_mut
@@ -228,10 +230,12 @@ for
 &
 '
 a
+(
 Actor
 +
 '
 a
+)
 {
 fn
 is

@@ -196,8 +196,7 @@ resource_task
 :
 :
 {
-Payload
-Done
+ProgressMsg
 LoadResponse
 }
 ;
@@ -1636,6 +1635,9 @@ iter
 match
 msg
 {
+ProgressMsg
+:
+:
 Payload
 (
 data
@@ -1673,6 +1675,9 @@ data
 )
 ;
 }
+ProgressMsg
+:
+:
 Done
 (
 Err
@@ -1708,6 +1713,9 @@ err
 )
 ;
 }
+ProgressMsg
+:
+:
 Done
 (
 Ok

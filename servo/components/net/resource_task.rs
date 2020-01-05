@@ -65,10 +65,7 @@ hyper
 method
 :
 :
-{
 Method
-Get
-}
 ;
 use
 hyper
@@ -79,7 +76,7 @@ mime
 :
 {
 Mime
-Charset
+Attr
 }
 ;
 use
@@ -195,6 +192,9 @@ url
 :
 url
 method
+:
+Method
+:
 :
 Get
 headers
@@ -400,6 +400,9 @@ iter
 {
 if
 &
+Attr
+:
+:
 Charset
 =
 =

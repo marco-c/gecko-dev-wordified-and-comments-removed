@@ -80,7 +80,9 @@ gfx
 paint_task
 :
 :
-UnusedBufferMsg
+Msg
+as
+PaintMsg
 ;
 use
 layers
@@ -133,7 +135,6 @@ ClickEvent
 MouseDownEvent
 MouseMoveEvent
 MouseUpEvent
-SendEventMsg
 }
 ;
 use
@@ -142,6 +143,7 @@ script_traits
 :
 {
 ScriptControlChan
+ConstellationControlMsg
 }
 ;
 use
@@ -920,7 +922,10 @@ id
 let
 msg
 =
-UnusedBufferMsg
+PaintMsg
+:
+:
+UnusedBuffer
 (
 new_buffers
 .
@@ -995,7 +1000,10 @@ is_empty
 let
 msg
 =
-UnusedBufferMsg
+PaintMsg
+:
+:
+UnusedBuffer
 (
 unused_buffers
 )
@@ -1083,7 +1091,10 @@ paint_chan
 .
 send_opt
 (
-UnusedBufferMsg
+PaintMsg
+:
+:
+UnusedBuffer
 (
 buffers
 )
@@ -1652,7 +1663,10 @@ chan
 .
 send_opt
 (
-SendEventMsg
+ConstellationControlMsg
+:
+:
+SendEvent
 (
 pipeline
 .
@@ -1724,7 +1738,10 @@ chan
 .
 send_opt
 (
-SendEventMsg
+ConstellationControlMsg
+:
+:
+SendEvent
 (
 pipeline
 .

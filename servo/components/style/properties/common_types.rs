@@ -156,6 +156,9 @@ cssparser
 ast
 :
 :
+ComponentValue
+:
+:
 Ident
 (
 ref
@@ -392,7 +395,6 @@ cssparser
 :
 {
 mod
-ast
 ToCss
 CssStringWriter
 }
@@ -402,6 +404,18 @@ cssparser
 :
 :
 ast
+:
+:
+*
+;
+use
+cssparser
+:
+:
+ast
+:
+:
+ComponentValue
 :
 :
 *
@@ -1823,9 +1837,6 @@ LengthOrPercentage
 Length
 )
 &
-ast
-:
-:
 Percentage
 (
 ref
@@ -2197,9 +2208,6 @@ LengthOrPercentageOrAuto
 Length
 )
 &
-ast
-:
-:
 Percentage
 (
 ref
@@ -2592,9 +2600,6 @@ LengthOrPercentageOrNone
 Length
 )
 &
-ast
-:
-:
 Percentage
 (
 ref
@@ -2853,9 +2858,6 @@ PositionComponent
 Length
 )
 &
-ast
-:
-:
 Percentage
 (
 ref
@@ -3650,9 +3652,6 @@ match
 component_value
 {
 &
-ast
-:
-:
 URL
 (
 ref
@@ -3689,9 +3688,6 @@ image_url
 )
 }
 &
-ast
-:
-:
 Function
 (
 ref

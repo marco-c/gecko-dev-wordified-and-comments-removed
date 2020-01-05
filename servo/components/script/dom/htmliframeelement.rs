@@ -236,6 +236,7 @@ constellation_msg
 {
 PipelineId
 SubpageId
+ConstellationChan
 }
 ;
 use
@@ -243,6 +244,9 @@ servo_msg
 :
 :
 constellation_msg
+:
+:
+IFrameSandboxState
 :
 :
 {
@@ -257,10 +261,9 @@ servo_msg
 constellation_msg
 :
 :
-{
-ConstellationChan
-ScriptLoadedURLInIFrameMsg
-}
+Msg
+as
+ConstellationMsg
 ;
 use
 servo_util
@@ -827,7 +830,10 @@ chan
 .
 send
 (
-ScriptLoadedURLInIFrameMsg
+ConstellationMsg
+:
+:
+ScriptLoadedURLInIFrame
 (
 url
 page
