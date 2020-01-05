@@ -6036,10 +6036,6 @@ mScanner
 =
 nullptr
 ;
-mIsSVGMode
-=
-false
-;
 mReporter
 =
 nullptr
