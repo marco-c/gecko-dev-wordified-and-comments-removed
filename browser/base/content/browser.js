@@ -25671,6 +25671,7 @@ aBrowser
 }
 )
 ;
+}
 webrtcUI
 .
 forgetStreamsFromBrowser
@@ -25678,7 +25679,6 @@ forgetStreamsFromBrowser
 aBrowser
 )
 ;
-}
 gBrowser
 .
 getNotificationBox
@@ -38536,6 +38536,15 @@ webrtc
 StopSharing
 "
 windowId
+)
+;
+webrtcUI
+.
+forgetActivePermissionsFromBrowser
+(
+gBrowser
+.
+selectedBrowser
 )
 ;
 }
