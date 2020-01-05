@@ -10094,7 +10094,7 @@ tab
 )
 {
 let
-lastEntry
+entry
 =
 tab
 .
@@ -10102,9 +10102,7 @@ entries
 [
 tab
 .
-entries
-.
-length
+index
 -
 1
 ]
@@ -10113,12 +10111,12 @@ return
 {
 url
 :
-lastEntry
+entry
 .
 url
 title
 :
-lastEntry
+entry
 .
 title
 |
