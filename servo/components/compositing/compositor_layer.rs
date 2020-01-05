@@ -1972,7 +1972,7 @@ pipeline
 =
 compositor
 .
-get_pipeline
+pipeline
 (
 self
 .
@@ -2052,7 +2052,7 @@ pipeline
 =
 compositor
 .
-get_pipeline
+pipeline
 (
 self
 .

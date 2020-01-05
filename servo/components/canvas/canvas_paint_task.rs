@@ -1369,7 +1369,7 @@ chan
 >
 painter
 .
-get_image_data
+image_data
 (
 dest_rect
 canvas_size
@@ -3977,7 +3977,7 @@ unimplemented
 )
 }
 fn
-get_image_data
+image_data
 (
 &
 self

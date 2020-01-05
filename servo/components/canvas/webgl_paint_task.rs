@@ -287,7 +287,7 @@ sender
 >
 self
 .
-get_context_attributes
+context_attributes
 (
 sender
 )
@@ -767,7 +767,7 @@ chan
 >
 self
 .
-get_attrib_location
+attrib_location
 (
 program_id
 name
@@ -786,7 +786,7 @@ chan
 >
 self
 .
-get_shader_parameter
+shader_parameter
 (
 shader_id
 param_id
@@ -805,7 +805,7 @@ chan
 >
 self
 .
-get_uniform_location
+uniform_location
 (
 program_id
 name
@@ -1600,7 +1600,7 @@ in_process_chan
 inline
 ]
 fn
-get_context_attributes
+context_attributes
 (
 &
 self
@@ -2237,7 +2237,7 @@ shader_id
 ;
 }
 fn
-get_attrib_location
+attrib_location
 (
 &
 self
@@ -2304,7 +2304,7 @@ unwrap
 ;
 }
 fn
-get_shader_parameter
+shader_parameter
 (
 &
 self
@@ -2404,7 +2404,7 @@ unwrap
 ;
 }
 fn
-get_uniform_location
+uniform_location
 (
 &
 self

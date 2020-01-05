@@ -344,7 +344,7 @@ name
 {
 self
 .
-get_item
+request_item
 (
 sender
 url
@@ -530,7 +530,7 @@ origin
 =
 self
 .
-get_origin_as_string
+origin_as_string
 (
 url
 )
@@ -606,7 +606,7 @@ origin
 =
 self
 .
-get_origin_as_string
+origin_as_string
 (
 url
 )
@@ -707,7 +707,7 @@ origin
 =
 self
 .
-get_origin_as_string
+origin_as_string
 (
 url
 )
@@ -836,7 +836,7 @@ unwrap
 ;
 }
 fn
-get_item
+request_item
 (
 &
 self
@@ -865,7 +865,7 @@ origin
 =
 self
 .
-get_origin_as_string
+origin_as_string
 (
 url
 )
@@ -955,7 +955,7 @@ origin
 =
 self
 .
-get_origin_as_string
+origin_as_string
 (
 url
 )
@@ -1034,7 +1034,7 @@ origin
 =
 self
 .
-get_origin_as_string
+origin_as_string
 (
 url
 )
@@ -1098,7 +1098,7 @@ unwrap
 ;
 }
 fn
-get_origin_as_string
+origin_as_string
 (
 &
 self

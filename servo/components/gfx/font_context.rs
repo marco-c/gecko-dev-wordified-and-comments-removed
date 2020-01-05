@@ -696,7 +696,7 @@ new
 }
 pub
 fn
-get_layout_font_group_for_style
+layout_font_group_for_style
 (
 &
 mut
@@ -1010,7 +1010,7 @@ self
 .
 font_cache_task
 .
-get_font_template
+find_font_template
 (
 family
 .
@@ -1265,7 +1265,7 @@ self
 .
 font_cache_task
 .
-get_last_resort_font_template
+last_resort_font_template
 (
 desc
 .
@@ -1405,7 +1405,7 @@ font_group
 }
 pub
 fn
-get_paint_font_from_template
+paint_font_from_template
 (
 &
 mut

@@ -807,7 +807,7 @@ pinch_zoom_level
 }
 pub
 fn
-get_title_for_main_frame
+request_title_for_main_frame
 (
 &
 self
@@ -817,7 +817,7 @@ self
 .
 compositor
 .
-get_title_for_main_frame
+title_for_main_frame
 (
 )
 }

@@ -289,7 +289,7 @@ Invalid
 }
 pub
 fn
-get_title_for_main_frame
+request_title_for_main_frame
 (
 &
 self
@@ -311,7 +311,7 @@ browser
 >
 browser
 .
-get_title_for_main_frame
+request_title_for_main_frame
 (
 )
 ServoBrowser
@@ -326,7 +326,7 @@ browser
 >
 browser
 .
-get_title_for_main_frame
+request_title_for_main_frame
 (
 )
 ServoBrowser
@@ -1039,7 +1039,7 @@ WindowEvent
 )
 ;
 fn
-get_title_for_main_frame
+request_title_for_main_frame
 (
 &
 self
@@ -1322,7 +1322,7 @@ break
 }
 }
 fn
-get_title_for_main_frame
+request_title_for_main_frame
 (
 &
 self
@@ -1340,7 +1340,7 @@ borrow
 (
 )
 .
-get_title_for_main_frame
+request_title_for_main_frame
 (
 )
 }

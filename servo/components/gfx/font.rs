@@ -321,7 +321,7 @@ self
 FontMetrics
 ;
 fn
-get_table_for_tag
+table_for_tag
 (
 &
 self
@@ -992,7 +992,7 @@ unwrap
 }
 pub
 fn
-get_table_for_tag
+table_for_tag
 (
 &
 self
@@ -1017,7 +1017,7 @@ self
 .
 handle
 .
-get_table_for_tag
+table_for_tag
 (
 tag
 )

@@ -670,7 +670,7 @@ count
 }
 pub
 fn
-get_entry_for_glyph
+entry_for_glyph
 (
 &
 self
@@ -1063,7 +1063,7 @@ hb_face_t
 =
 RUST_hb_face_create_for_tables
 (
-get_font_table_func
+font_table_func
 (
 &
 mut
@@ -2545,7 +2545,7 @@ shape
 =
 glyph_data
 .
-get_entry_for_glyph
+entry_for_glyph
 (
 glyph_span
 .
@@ -2631,7 +2631,7 @@ shape
 =
 glyph_data
 .
-get_entry_for_glyph
+entry_for_glyph
 (
 glyph_i
 &
@@ -3339,7 +3339,7 @@ advance
 }
 extern
 fn
-get_font_table_func
+font_table_func
 (
 _
 :
@@ -3414,7 +3414,7 @@ font_and_shaping_options
 font
 )
 .
-get_table_for_tag
+table_for_tag
 (
 tag
 as

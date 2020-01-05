@@ -448,7 +448,7 @@ shareable
 }
 pub
 fn
-get_shareable
+shareable
 (
 &
 self

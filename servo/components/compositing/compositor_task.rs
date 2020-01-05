@@ -1751,7 +1751,7 @@ self
 f32
 ;
 fn
-get_title_for_main_frame
+title_for_main_frame
 (
 &
 self

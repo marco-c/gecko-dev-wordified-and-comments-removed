@@ -131,7 +131,7 @@ from_cmdline_args
 (
 &
 *
-get_args
+args
 (
 )
 )
@@ -550,7 +550,7 @@ android
 )
 ]
 fn
-get_args
+args
 (
 )
 -
@@ -606,7 +606,7 @@ android
 )
 ]
 fn
-get_args
+args
 (
 )
 -

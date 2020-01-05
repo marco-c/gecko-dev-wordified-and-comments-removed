@@ -975,7 +975,7 @@ false
 ;
 }
 fn
-get_detailed_glyphs_for_entry
+detailed_glyphs_for_entry
 (
 &
 '
@@ -1150,7 +1150,7 @@ usize
 ]
 }
 fn
-get_detailed_glyph_with_index
+detailed_glyph_with_index
 (
 &
 '
@@ -1588,7 +1588,7 @@ store
 .
 detail_store
 .
-get_detailed_glyph_with_index
+detailed_glyph_with_index
 (
 entry_i
 detail_j
@@ -1658,7 +1658,7 @@ store
 .
 detail_store
 .
-get_detailed_glyph_with_index
+detailed_glyph_with_index
 (
 entry_i
 detail_j
@@ -1716,7 +1716,7 @@ store
 .
 detail_store
 .
-get_detailed_glyph_with_index
+detailed_glyph_with_index
 (
 entry_i
 detail_j
@@ -3455,7 +3455,7 @@ store
 .
 detail_store
 .
-get_detailed_glyphs_for_entry
+detailed_glyphs_for_entry
 (
 i
 entry
