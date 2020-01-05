@@ -4069,6 +4069,15 @@ GetInstance
 (
 )
 ;
+if
+(
+!
+swm
+)
+{
+return
+;
+}
 nsString
 message
 ;

@@ -21,6 +21,9 @@ namespace
 workers
 {
 class
+ServiceWorkerManager
+;
+class
 ServiceWorkerUpdateJob
 :
 public
@@ -173,6 +176,9 @@ aScriptEvaluationResult
 void
 Install
 (
+ServiceWorkerManager
+*
+aSWM
 )
 ;
 void

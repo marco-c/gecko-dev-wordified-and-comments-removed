@@ -392,6 +392,15 @@ if
 (
 !
 swm
+)
+{
+return
+;
+}
+if
+(
+!
+swm
 -
 >
 HasBackgroundActor
