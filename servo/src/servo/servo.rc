@@ -127,6 +127,9 @@ mod
 base
 ;
 mod
+block
+;
+mod
 box_builder
 ;
 mod
