@@ -421,7 +421,7 @@ servo_util
 url
 :
 :
-make_url
+parse_url
 ;
 #
 [
@@ -1074,7 +1074,7 @@ send
 (
 InitLoadUrlMsg
 (
-make_url
+parse_url
 (
 filename
 .

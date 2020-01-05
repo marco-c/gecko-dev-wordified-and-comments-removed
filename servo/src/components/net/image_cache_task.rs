@@ -2915,7 +2915,7 @@ servo_util
 url
 :
 :
-make_url
+parse_url
 ;
 fn
 mock_resource_task
@@ -2988,7 +2988,7 @@ Metadata
 :
 default
 (
-make_url
+parse_url
 (
 ~
 "
@@ -3059,7 +3059,7 @@ clone
 let
 _url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -3126,7 +3126,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -3241,7 +3241,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -3358,7 +3358,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -3532,7 +3532,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -3700,7 +3700,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -3904,7 +3904,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -4144,7 +4144,7 @@ Metadata
 :
 default
 (
-make_url
+parse_url
 (
 ~
 "
@@ -4238,7 +4238,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -4447,7 +4447,7 @@ Metadata
 :
 default
 (
-make_url
+parse_url
 (
 ~
 "
@@ -4541,7 +4541,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -4761,7 +4761,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -4967,7 +4967,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -5234,7 +5234,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -5440,7 +5440,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -5664,7 +5664,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -5865,7 +5865,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "
@@ -6043,7 +6043,7 @@ clone
 let
 url
 =
-make_url
+parse_url
 (
 ~
 "

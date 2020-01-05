@@ -113,7 +113,7 @@ servo_util
 url
 :
 :
-make_url
+parse_url
 ;
 use
 servo_util
@@ -327,7 +327,7 @@ src
 let
 img_url
 =
-make_url
+parse_url
 (
 src
 url

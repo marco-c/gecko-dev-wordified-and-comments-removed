@@ -168,7 +168,7 @@ servo_util
 url
 :
 :
-make_url
+parse_url
 ;
 use
 servo_util
@@ -2603,7 +2603,7 @@ value_ref
 let
 url
 =
-make_url
+parse_url
 (
 href
 .
@@ -2726,7 +2726,7 @@ iter
 let
 iframe_url
 =
-make_url
+parse_url
 (
 src
 .
@@ -3346,7 +3346,7 @@ Value
 let
 new_url
 =
-make_url
+parse_url
 (
 src
 .
