@@ -126,12 +126,6 @@ flow_list
 FlowList
 ;
 use
-flow_ref
-:
-:
-FlowRef
-;
-use
 fragment
 :
 :
@@ -4411,7 +4405,10 @@ MarginsMayCollapseFlag
 >
 Option
 <
-FlowRef
+Arc
+<
+Flow
+>
 >
 {
 let
@@ -6981,7 +6978,7 @@ child_remaining
 {
 children
 .
-push_front
+push_front_arc
 (
 child
 )
@@ -7002,7 +6999,10 @@ children
 )
 )
 as
-FlowRef
+Arc
+<
+Flow
+>
 )
 }
 }
@@ -13443,7 +13443,10 @@ FragmentationContext
 >
 Option
 <
-FlowRef
+Arc
+<
+Flow
+>
 >
 {
 if

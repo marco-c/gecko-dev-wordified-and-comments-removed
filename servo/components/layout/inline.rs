@@ -86,6 +86,9 @@ OpaqueFlow
 ;
 use
 flow_ref
+:
+:
+FlowRef
 ;
 use
 fragment
@@ -7301,7 +7304,7 @@ info
 let
 block
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -7349,7 +7352,7 @@ info
 let
 block
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -7815,7 +7818,7 @@ info
 let
 flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -7928,7 +7931,7 @@ info
 let
 flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8002,7 +8005,7 @@ info
 let
 flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut

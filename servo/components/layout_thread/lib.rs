@@ -361,10 +361,7 @@ layout
 flow_ref
 :
 :
-{
-self
 FlowRef
-}
 ;
 use
 layout
@@ -3180,7 +3177,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -4742,7 +4739,7 @@ return
 None
 }
 ;
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -6805,7 +6802,7 @@ LayoutThread
 :
 reflow_all_nodes
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -7261,7 +7258,7 @@ return
 let
 root_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8074,7 +8071,7 @@ recalc_style_for_animations
 (
 &
 layout_context
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8391,7 +8388,7 @@ traversals
 let
 damage
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8423,7 +8420,7 @@ contains
 REFLOW_ENTIRE_DOCUMENT
 )
 {
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8497,7 +8494,7 @@ sequential
 :
 resolve_generated_content
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8545,7 +8542,7 @@ sequential
 :
 guess_float_placement
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8651,7 +8648,7 @@ LayoutThread
 :
 solve_constraints
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8684,7 +8681,7 @@ LayoutThread
 solve_constraints_parallel
 (
 parallel
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8756,7 +8753,7 @@ store_overflow
 (
 &
 layout_context
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -8861,7 +8858,7 @@ compute_abs_pos_and_build_display_list
 data
 query_type
 document
-flow_ref
+FlowRef
 :
 :
 deref_mut
