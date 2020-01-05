@@ -1,4 +1,9 @@
 use
+CompositorMsg
+as
+ConstellationMsg
+;
+use
 compositor_task
 :
 :
@@ -42,17 +47,6 @@ constellation_msg
 :
 :
 AnimationState
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-CompositorMsg
-as
-ConstellationMsg
 ;
 use
 msg

@@ -1,4 +1,9 @@
 use
+CompositorMsg
+as
+ConstellationMsg
+;
+use
 compositor
 ;
 use
@@ -88,17 +93,6 @@ compositor_msg
 PaintListener
 ScriptToCompositorMsg
 }
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-CompositorMsg
-as
-ConstellationMsg
 ;
 use
 msg

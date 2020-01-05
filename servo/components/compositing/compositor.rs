@@ -1,4 +1,9 @@
 use
+CompositorMsg
+as
+ConstellationMsg
+;
+use
 app_units
 :
 :
@@ -252,17 +257,6 @@ compositor_msg
 LayerProperties
 ScrollPolicy
 }
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-CompositorMsg
-as
-ConstellationMsg
 ;
 use
 msg

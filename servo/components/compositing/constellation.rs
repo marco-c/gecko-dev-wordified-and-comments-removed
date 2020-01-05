@@ -1,4 +1,9 @@
 use
+CompositorMsg
+as
+FromCompositorMsg
+;
+use
 canvas
 :
 :
@@ -145,17 +150,6 @@ constellation_msg
 :
 :
 AnimationState
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-CompositorMsg
-as
-FromCompositorMsg
 ;
 use
 msg
