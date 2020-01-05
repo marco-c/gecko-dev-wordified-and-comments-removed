@@ -34,7 +34,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -146,7 +146,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -276,7 +276,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -425,7 +425,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -567,7 +567,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -728,7 +728,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -934,7 +934,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1039,7 +1039,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1147,7 +1147,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1315,7 +1315,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1524,7 +1524,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1874,7 +1874,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1944,7 +1944,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable

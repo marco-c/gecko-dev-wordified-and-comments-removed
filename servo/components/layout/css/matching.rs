@@ -40,10 +40,7 @@ dom
 bindings
 :
 :
-codegen
-:
-:
-InheritTypes
+inheritance
 :
 :
 {

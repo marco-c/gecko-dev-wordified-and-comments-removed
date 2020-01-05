@@ -101,7 +101,6 @@ conversions
 :
 :
 {
-Castable
 FromJSValConvertible
 jsstring_to_str
 }
@@ -117,6 +116,18 @@ global
 :
 :
 GlobalRef
+;
+use
+dom
+:
+:
+bindings
+:
+:
+inheritance
+:
+:
+Castable
 ;
 use
 dom

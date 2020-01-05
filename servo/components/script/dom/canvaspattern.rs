@@ -54,7 +54,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 {

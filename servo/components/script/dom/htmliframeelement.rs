@@ -73,7 +73,6 @@ conversions
 :
 :
 {
-Castable
 ToJSValConvertible
 }
 ;
@@ -112,6 +111,18 @@ dom
 bindings
 :
 :
+inheritance
+:
+:
+Castable
+;
+use
+dom
+:
+:
+bindings
+:
+:
 js
 :
 :
@@ -127,7 +138,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 Reflectable

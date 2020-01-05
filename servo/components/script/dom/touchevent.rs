@@ -56,10 +56,10 @@ dom
 bindings
 :
 :
-conversions
+global
 :
 :
-Castable
+GlobalRef
 ;
 use
 dom
@@ -68,10 +68,10 @@ dom
 bindings
 :
 :
-global
+inheritance
 :
 :
-GlobalRef
+Castable
 ;
 use
 dom
@@ -96,7 +96,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 reflect_dom_object

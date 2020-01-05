@@ -69,7 +69,6 @@ conversions
 :
 :
 {
-Castable
 FromJSValConvertible
 StringificationBehavior
 }
@@ -85,6 +84,18 @@ global
 :
 :
 GlobalRef
+;
+use
+dom
+:
+:
+bindings
+:
+:
+inheritance
+:
+:
+Castable
 ;
 use
 dom
