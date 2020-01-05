@@ -1144,16 +1144,6 @@ double
 screenY
 )
 ;
-/
-/
-FIXME
-(
-#
-8159
-)
-:
-/
-/
 TouchList
 createTouchList
 (
