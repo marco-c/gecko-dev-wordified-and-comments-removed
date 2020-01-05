@@ -217,6 +217,8 @@ filterNames
 nsString
 displayDirectory
 nsString
+displaySpecialDirectory
+nsString
 okButtonLabel
 )
 ;
