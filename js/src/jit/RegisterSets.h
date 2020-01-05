@@ -6048,7 +6048,9 @@ inline
 LiveGeneralRegisterSet
 SavedNonVolatileRegisters
 (
+const
 AllocatableGeneralRegisterSet
+&
 unused
 )
 {

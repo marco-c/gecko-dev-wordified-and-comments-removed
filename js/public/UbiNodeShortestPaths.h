@@ -428,6 +428,7 @@ operator
 Traversal
 &
 traversal
+const
 JS
 :
 :
@@ -435,6 +436,7 @@ ubi
 :
 :
 Node
+&
 origin
 JS
 :
