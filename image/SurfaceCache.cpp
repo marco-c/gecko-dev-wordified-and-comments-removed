@@ -1711,6 +1711,10 @@ ISurfaceProvider
 aProvider
 bool
 aSetAvailable
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 LookupResult
@@ -1730,6 +1734,7 @@ aProvider
 GetSurfaceKey
 (
 )
+aAutoLock
 false
 )
 ;
@@ -1777,6 +1782,7 @@ aProvider
 GetSurfaceKey
 (
 )
+aAutoLock
 )
 ;
 }
@@ -1892,6 +1898,7 @@ LastElement
 Surface
 (
 )
+aAutoLock
 )
 ;
 }
@@ -2044,6 +2051,7 @@ surface
 StartTracking
 (
 surface
+aAutoLock
 )
 ;
 return
@@ -2062,6 +2070,10 @@ CachedSurface
 *
 >
 aSurface
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 ImageKey
@@ -2139,6 +2151,7 @@ GetSurfaceKey
 StopTracking
 (
 aSurface
+aAutoLock
 )
 ;
 cache
@@ -2186,6 +2199,10 @@ CachedSurface
 *
 >
 aSurface
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 CostEntry
@@ -2280,9 +2297,10 @@ costEntry
 ;
 mExpirationTracker
 .
-AddObject
+AddObjectLocked
 (
 aSurface
+aAutoLock
 )
 ;
 }
@@ -2296,6 +2314,10 @@ CachedSurface
 *
 >
 aSurface
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 CostEntry
@@ -2393,9 +2415,10 @@ IsTracked
 {
 mExpirationTracker
 .
-RemoveObject
+RemoveObjectLocked
 (
 aSurface
+aAutoLock
 )
 ;
 }
@@ -2487,6 +2510,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+const
+StaticMutexAutoLock
+&
+aAutoLock
 bool
 aMarkUsed
 =
@@ -2592,6 +2619,7 @@ WrapNotNull
 (
 surface
 )
+aAutoLock
 )
 ;
 return
@@ -2619,6 +2647,7 @@ WrapNotNull
 (
 cache
 )
+aAutoLock
 )
 ;
 }
@@ -2670,6 +2699,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 RefPtr
@@ -2771,6 +2804,7 @@ WrapNotNull
 (
 surface
 )
+aAutoLock
 )
 ;
 }
@@ -2890,6 +2924,7 @@ WrapNotNull
 (
 cache
 )
+aAutoLock
 )
 ;
 }
@@ -2942,6 +2977,10 @@ ISurfaceProvider
 *
 >
 aProvider
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 if
@@ -2978,6 +3017,7 @@ Insert
 (
 aProvider
 true
+aAutoLock
 )
 ;
 }
@@ -3035,6 +3075,10 @@ UnlockImage
 const
 ImageKey
 aImageKey
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 RefPtr
@@ -3081,6 +3125,7 @@ WrapNotNull
 cache
 )
 false
+aAutoLock
 )
 ;
 }
@@ -3090,6 +3135,10 @@ UnlockEntries
 const
 ImageKey
 aImageKey
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 RefPtr
@@ -3134,6 +3183,7 @@ gfxPrefs
 ImageMemAnimatedDiscardable
 (
 )
+aAutoLock
 )
 ;
 }
@@ -3143,6 +3193,10 @@ RemoveImage
 const
 ImageKey
 aImageKey
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 RefPtr
@@ -3201,6 +3255,7 @@ UserData
 (
 )
 )
+aAutoLock
 )
 ;
 }
@@ -3215,6 +3270,10 @@ aImageKey
 void
 DiscardAll
 (
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 while
@@ -3238,6 +3297,7 @@ LastElement
 Surface
 (
 )
+aAutoLock
 )
 ;
 }
@@ -3245,6 +3305,10 @@ Surface
 void
 DiscardForMemoryPressure
 (
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 const
@@ -3313,6 +3377,7 @@ discard
 ;
 DiscardAll
 (
+aAutoLock
 )
 ;
 return
@@ -3354,6 +3419,7 @@ LastElement
 Surface
 (
 )
+aAutoLock
 )
 ;
 }
@@ -3367,6 +3433,10 @@ CachedSurface
 *
 >
 aSurface
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 if
@@ -3393,6 +3463,7 @@ return
 StopTracking
 (
 aSurface
+aAutoLock
 )
 ;
 aSurface
@@ -3406,6 +3477,7 @@ true
 StartTracking
 (
 aSurface
+aAutoLock
 )
 ;
 }
@@ -3701,6 +3773,10 @@ ImageSurfaceCache
 *
 >
 aCache
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 if
@@ -3716,6 +3792,7 @@ IsLocked
 LockSurface
 (
 aSurface
+aAutoLock
 )
 ;
 }
@@ -3723,9 +3800,10 @@ else
 {
 mExpirationTracker
 .
-MarkUsed
+MarkUsedLocked
 (
 aSurface
+aAutoLock
 )
 ;
 }
@@ -3741,6 +3819,10 @@ ImageSurfaceCache
 aCache
 bool
 aStaticOnly
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 for
@@ -3836,6 +3918,7 @@ continue
 StopTracking
 (
 surface
+aAutoLock
 )
 ;
 surface
@@ -3849,6 +3932,7 @@ false
 StartTracking
 (
 surface
+aAutoLock
 )
 ;
 }
@@ -3863,6 +3947,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 {
 RefPtr
@@ -3914,6 +4002,7 @@ WrapNotNull
 (
 surface
 )
+aAutoLock
 )
 ;
 }
@@ -3921,10 +4010,12 @@ struct
 SurfaceTracker
 :
 public
-nsExpirationTracker
+ExpirationTrackerImpl
 <
 CachedSurface
 2
+StaticMutex
+StaticMutexAutoLock
 >
 {
 explicit
@@ -3934,10 +4025,12 @@ uint32_t
 aSurfaceCacheExpirationTimeMS
 )
 :
-nsExpirationTracker
+ExpirationTrackerImpl
 <
 CachedSurface
 2
+StaticMutex
+StaticMutexAutoLock
 >
 (
 aSurfaceCacheExpirationTimeMS
@@ -3949,26 +4042,18 @@ SurfaceTracker
 }
 protected
 :
-virtual
 void
-NotifyExpired
+NotifyExpiredLocked
 (
 CachedSurface
 *
 aSurface
+const
+StaticMutexAutoLock
+&
+aAutoLock
 )
 override
-{
-StaticMutexAutoLock
-lock
-(
-sInstanceMutex
-)
-;
-if
-(
-sInstance
-)
 {
 sInstance
 -
@@ -3979,9 +4064,20 @@ WrapNotNull
 (
 aSurface
 )
+aAutoLock
 )
 ;
 }
+StaticMutex
+&
+GetMutex
+(
+)
+override
+{
+return
+sInstanceMutex
+;
 }
 }
 ;
@@ -4037,6 +4133,7 @@ sInstance
 >
 DiscardForMemoryPressure
 (
+lock
 )
 ;
 }
@@ -4360,6 +4457,7 @@ Lookup
 (
 aImageKey
 aSurfaceKey
+lock
 )
 ;
 }
@@ -4408,6 +4506,7 @@ LookupBestMatch
 (
 aImageKey
 aSurfaceKey
+lock
 )
 ;
 }
@@ -4452,6 +4551,7 @@ Insert
 (
 aProvider
 false
+lock
 )
 ;
 }
@@ -4575,6 +4675,7 @@ sInstance
 SurfaceAvailable
 (
 aProvider
+lock
 )
 ;
 }
@@ -4640,6 +4741,7 @@ sInstance
 UnlockImage
 (
 aImageKey
+lock
 )
 ;
 }
@@ -4673,6 +4775,7 @@ sInstance
 UnlockEntries
 (
 aImageKey
+lock
 )
 ;
 }
@@ -4705,6 +4808,7 @@ sInstance
 RemoveImage
 (
 aImageKey
+lock
 )
 ;
 }
@@ -4733,6 +4837,7 @@ sInstance
 >
 DiscardAll
 (
+lock
 )
 ;
 }
