@@ -415,8 +415,6 @@ sjs
 relatedBrowser
 :
 originalBrowser
-.
-linkedBrowser
 }
 )
 ;
