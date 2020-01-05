@@ -300,8 +300,6 @@ ioService
 newURI
 (
 uriSpecToSend
-null
-null
 )
 ;
 if

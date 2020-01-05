@@ -541,8 +541,6 @@ this
 parameters
 .
 content_uri
-null
-null
 )
 ;
 }

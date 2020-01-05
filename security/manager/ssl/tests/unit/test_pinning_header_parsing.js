@@ -167,8 +167,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 throws
@@ -262,8 +260,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 let

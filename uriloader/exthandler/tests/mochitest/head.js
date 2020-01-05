@@ -377,8 +377,6 @@ mozilla
 org
 /
 "
-null
-null
 )
 suggestedFileName
 :

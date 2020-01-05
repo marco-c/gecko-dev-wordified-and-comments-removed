@@ -54,8 +54,6 @@ index
 .
 html
 "
-null
-null
 )
 ;
 var

@@ -50,8 +50,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 uri
@@ -95,8 +93,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 uri
@@ -140,8 +136,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 uri
@@ -185,8 +179,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 uri
@@ -229,8 +221,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 uri

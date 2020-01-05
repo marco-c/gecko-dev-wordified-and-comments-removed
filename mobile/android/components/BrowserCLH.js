@@ -130,8 +130,6 @@ aboutHome
 .
 xhtml
 "
-null
-null
 )
 )
 .
@@ -192,8 +190,6 @@ io
 newURI
 (
 url
-null
-null
 )
 )
 ;

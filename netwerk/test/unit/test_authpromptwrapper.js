@@ -545,7 +545,6 @@ http
 host
 "
 "
-null
 )
 var
 chan
@@ -1088,7 +1087,6 @@ ftp
 host
 "
 "
-null
 )
 ;
 var

@@ -565,8 +565,6 @@ ioService
 newURI
 (
 kTestURI
-null
-null
 )
 ;
 do_check_eq

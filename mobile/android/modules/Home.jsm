@@ -176,8 +176,6 @@ io
 newURI
 (
 aURI
-null
-null
 )
 )
 .
@@ -233,8 +231,6 @@ io
 newURI
 (
 aURI
-null
-null
 )
 )
 ;

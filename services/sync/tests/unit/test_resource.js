@@ -3526,8 +3526,6 @@ newURI
 :
 :
 "
-null
-null
 )
 ;
 }

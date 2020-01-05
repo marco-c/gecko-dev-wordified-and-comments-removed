@@ -686,8 +686,6 @@ gIoService
 newURI
 (
 gImgPath
-null
-null
 )
 ;
 var

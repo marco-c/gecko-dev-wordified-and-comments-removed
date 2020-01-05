@@ -126,7 +126,6 @@ test
 url
 "
 "
-null
 )
 var
 chan
@@ -157,7 +156,6 @@ test
 referrer
 "
 "
-null
 )
 ;
 chan

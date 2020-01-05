@@ -864,16 +864,12 @@ ioService
 newURI
 (
 manifestURL
-null
-null
 )
 ioService
 .
 newURI
 (
 pageURL
-null
-null
 )
 pinned
 )

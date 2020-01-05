@@ -55,8 +55,6 @@ nsIIOService
 newURI
 (
 str
-null
-null
 )
 ;
 }

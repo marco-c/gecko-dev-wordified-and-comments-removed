@@ -466,8 +466,6 @@ a
 /
 path
 "
-null
-null
 )
 ;
 let
@@ -494,8 +492,6 @@ some
 /
 path
 "
-null
-null
 )
 ;
 let
@@ -517,8 +513,6 @@ com
 9091
 /
 "
-null
-null
 )
 ;
 let
@@ -540,8 +534,6 @@ org
 9091
 /
 "
-null
-null
 )
 ;
 let
@@ -567,8 +559,6 @@ com
 9091
 /
 "
-null
-null
 )
 ;
 let
@@ -593,8 +583,6 @@ a
 /
 path
 "
-null
-null
 )
 ;
 let
@@ -615,8 +603,6 @@ google
 .
 com
 "
-null
-null
 )
 ;
 let
@@ -636,8 +622,6 @@ google
 com
 /
 "
-null
-null
 )
 ;
 let
@@ -656,8 +640,6 @@ file
 /
 path
 "
-null
-null
 )
 ;
 let
@@ -678,8 +660,6 @@ path
 /
 deeper
 "
-null
-null
 )
 ;
 let
@@ -698,8 +678,6 @@ file
 /
 otherpath
 "
-null
-null
 )
 ;
 {

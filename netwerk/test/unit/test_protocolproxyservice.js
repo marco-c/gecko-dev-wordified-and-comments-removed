@@ -1493,8 +1493,6 @@ mozilla
 org
 /
 "
-null
-null
 )
 ;
 pps
@@ -1582,8 +1580,6 @@ mozilla
 org
 /
 "
-null
-null
 )
 ;
 pps
@@ -1674,8 +1670,6 @@ mozilla
 org
 /
 "
-null
-null
 )
 ;
 pps
@@ -1766,8 +1760,6 @@ mozilla
 org
 /
 "
-null
-null
 )
 ;
 pps

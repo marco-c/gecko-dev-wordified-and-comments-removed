@@ -253,8 +253,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 var

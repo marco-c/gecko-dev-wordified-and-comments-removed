@@ -245,8 +245,6 @@ ioService
 newURI
 (
 uri
-null
-null
 )
 )
 ;

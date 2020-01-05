@@ -972,8 +972,6 @@ valid_URIs
 [
 i
 ]
-null
-null
 )
 ;
 }
@@ -1030,8 +1028,6 @@ invalid_URIs
 [
 i
 ]
-null
-null
 )
 ;
 do_throw

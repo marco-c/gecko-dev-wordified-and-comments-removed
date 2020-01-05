@@ -249,8 +249,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 gSSService

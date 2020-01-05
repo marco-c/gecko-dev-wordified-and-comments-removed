@@ -51,8 +51,6 @@ example
 org
 /
 "
-null
-null
 )
 ;
 const

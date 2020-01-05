@@ -170,8 +170,6 @@ io
 newURI
 (
 url
-null
-null
 )
 )
 type

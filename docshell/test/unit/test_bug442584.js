@@ -127,8 +127,6 @@ localhost
 "
 +
 i
-null
-null
 )
 ;
 prefetch
@@ -221,8 +219,6 @@ localhost
 "
 +
 i
-null
-null
 )
 ;
 prefetch

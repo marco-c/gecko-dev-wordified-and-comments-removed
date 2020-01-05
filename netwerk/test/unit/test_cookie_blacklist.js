@@ -70,8 +70,6 @@ test_cookie_blacklist
 .
 js
 "
-null
-null
 )
 ;
 var

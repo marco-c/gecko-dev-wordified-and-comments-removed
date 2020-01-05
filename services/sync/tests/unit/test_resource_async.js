@@ -4817,8 +4817,6 @@ newURI
 :
 :
 "
-null
-null
 )
 ;
 }

@@ -4680,8 +4680,6 @@ gIOService
 newURI
 (
 aFileURL
-null
-null
 )
 ;
 if
@@ -7722,8 +7720,6 @@ gHttpServerPort
 path
 +
 dirPath
-null
-null
 )
 ;
 Services

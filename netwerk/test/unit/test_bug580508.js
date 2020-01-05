@@ -66,8 +66,6 @@ gre
 modules
 /
 "
-null
-null
 )
 ;
 resProt
@@ -152,8 +150,6 @@ NetUtil
 .
 jsm
 "
-null
-null
 )
 ;
 let
@@ -178,8 +174,6 @@ NetUtil
 .
 jsm
 "
-null
-null
 )
 ;
 do_check_eq

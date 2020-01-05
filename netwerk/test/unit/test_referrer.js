@@ -53,7 +53,6 @@ newURI
 server_uri
 "
 "
-null
 )
 let
 referrer
@@ -63,8 +62,6 @@ NetUtil
 newURI
 (
 referer_uri
-null
-null
 )
 ;
 let

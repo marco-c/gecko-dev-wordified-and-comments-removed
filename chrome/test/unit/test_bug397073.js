@@ -198,8 +198,6 @@ test
 .
 xul
 "
-null
-null
 )
 ;
 try
@@ -265,8 +263,6 @@ test
 .
 xul
 "
-null
-null
 )
 ;
 try

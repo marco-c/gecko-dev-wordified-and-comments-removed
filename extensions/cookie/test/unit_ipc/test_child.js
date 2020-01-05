@@ -115,8 +115,6 @@ gIoService
 newURI
 (
 aURI
-null
-null
 )
 ;
 var

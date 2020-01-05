@@ -23,8 +23,6 @@ test
 :
 8888
 "
-null
-null
 )
 ;
 const

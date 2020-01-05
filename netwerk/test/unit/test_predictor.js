@@ -936,8 +936,6 @@ io
 newURI
 (
 s
-null
-null
 )
 ;
 }

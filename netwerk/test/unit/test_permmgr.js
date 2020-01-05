@@ -421,8 +421,6 @@ i
 [
 0
 ]
-null
-null
 )
 ;
 let
@@ -491,8 +489,6 @@ i
 [
 0
 ]
-null
-null
 )
 ;
 let
@@ -705,8 +701,6 @@ i
 [
 0
 ]
-null
-null
 )
 true
 )
@@ -823,8 +817,6 @@ http
 "
 +
 utf8
-null
-null
 )
 ;
 pm
@@ -930,8 +922,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 pm

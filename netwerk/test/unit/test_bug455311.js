@@ -132,8 +132,6 @@ mozilla
 org
 /
 "
-null
-null
 )
 ;
 function

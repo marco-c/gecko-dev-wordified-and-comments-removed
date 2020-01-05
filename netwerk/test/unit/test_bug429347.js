@@ -48,8 +48,6 @@ com
 #
 bar
 "
-null
-null
 )
 ;
 var
@@ -71,8 +69,6 @@ com
 #
 bar
 "
-null
-null
 )
 ;
 do_check_true

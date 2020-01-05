@@ -83,8 +83,6 @@ com
 "
 +
 port
-null
-null
 )
 ;
 }
@@ -177,8 +175,6 @@ foo
 .
 com
 "
-null
-null
 )
 ;
 try

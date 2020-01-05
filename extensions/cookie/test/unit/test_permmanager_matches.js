@@ -316,8 +316,6 @@ foo
 #
 hashtag
 "
-null
-null
 )
 ;
 let
@@ -340,8 +338,6 @@ com
 /
 subdir
 "
-null
-null
 )
 ;
 let
@@ -361,8 +357,6 @@ google
 org
 /
 "
-null
-null
 )
 ;
 let
@@ -387,8 +381,6 @@ random
 /
 subdirectory
 "
-null
-null
 )
 ;
 let
@@ -414,8 +406,6 @@ com
 /
 hangout
 "
-null
-null
 )
 ;
 let
@@ -437,8 +427,6 @@ com
 8096
 /
 "
-null
-null
 )
 ;
 let

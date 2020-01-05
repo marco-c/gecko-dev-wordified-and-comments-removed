@@ -3706,8 +3706,6 @@ contentWindow
 document
 .
 documentURI
-null
-null
 )
 ;
 let
@@ -5054,8 +5052,6 @@ newURI
 detail
 .
 uri
-null
-null
 )
 detail
 .
@@ -5094,8 +5090,6 @@ newURI
 detail
 .
 uri
-null
-null
 )
 detail
 .
@@ -5129,8 +5123,6 @@ newURI
 detail
 .
 uri
-null
-null
 )
 detail
 .

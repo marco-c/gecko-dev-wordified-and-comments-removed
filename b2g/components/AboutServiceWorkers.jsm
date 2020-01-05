@@ -759,8 +759,6 @@ message
 principal
 .
 origin
-null
-null
 )
 message
 .

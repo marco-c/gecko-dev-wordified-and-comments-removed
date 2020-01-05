@@ -313,8 +313,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 var
@@ -345,8 +343,6 @@ NetUtil
 newURI
 (
 spec
-null
-null
 )
 ;
 var
@@ -364,8 +360,6 @@ NetUtil
 newURI
 (
 spec
-null
-null
 )
 loadingPrincipal
 :
@@ -716,8 +710,6 @@ resource
 /
 /
 "
-null
-null
 )
 )
 ;
@@ -742,8 +734,6 @@ resource
 gre
 /
 "
-null
-null
 )
 )
 ;

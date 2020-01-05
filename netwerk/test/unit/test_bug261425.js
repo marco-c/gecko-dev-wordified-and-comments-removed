@@ -46,8 +46,6 @@ foo
 .
 com
 "
-null
-null
 )
 ;
 var

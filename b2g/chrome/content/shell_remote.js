@@ -87,8 +87,6 @@ newURI
 this
 .
 systemAppManifestURL
-null
-null
 )
 ;
 let

@@ -283,8 +283,6 @@ img
 .
 png
 "
-null
-null
 )
 ;
 gSSService
@@ -436,8 +434,6 @@ http
 /
 localhost
 "
-null
-null
 )
 ;
 gSSService

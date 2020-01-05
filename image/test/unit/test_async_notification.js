@@ -54,8 +54,6 @@ ioService
 newURI
 (
 pngspec
-null
-null
 )
 ;
 load

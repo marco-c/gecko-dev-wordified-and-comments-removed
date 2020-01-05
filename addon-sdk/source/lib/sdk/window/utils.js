@@ -973,8 +973,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 .
 scheme

@@ -58,8 +58,6 @@ ios
 newURI
 (
 url
-null
-null
 )
 ;
 do_check_eq

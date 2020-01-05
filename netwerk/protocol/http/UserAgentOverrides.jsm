@@ -692,8 +692,6 @@ aMessage
 data
 .
 uri
-null
-null
 )
 ;
 return

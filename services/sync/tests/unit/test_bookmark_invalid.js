@@ -204,8 +204,6 @@ example
 com
 /
 "
-null
-null
 )
 PlacesUtils
 .
@@ -357,8 +355,6 @@ example
 com
 /
 "
-null
-null
 )
 PlacesUtils
 .

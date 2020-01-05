@@ -58,8 +58,6 @@ newURI
 obj
 .
 uri
-null
-null
 )
 ;
 if

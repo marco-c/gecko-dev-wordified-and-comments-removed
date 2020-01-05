@@ -107,8 +107,6 @@ io
 newURI
 (
 CHROME_URI
-null
-null
 )
 ;
 let

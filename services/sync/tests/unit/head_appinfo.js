@@ -373,8 +373,6 @@ s
 "
 /
 "
-null
-null
 )
 ;
 resProt

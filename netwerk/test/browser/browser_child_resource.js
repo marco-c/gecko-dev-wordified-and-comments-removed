@@ -443,8 +443,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 ;
 try
@@ -659,8 +657,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 ;
 try
@@ -1116,8 +1112,6 @@ global
 /
 content
 "
-null
-null
 )
 )
 ;
@@ -1237,8 +1231,6 @@ global
 /
 skin
 "
-null
-null
 )
 )
 ;
@@ -1462,8 +1454,6 @@ global
 /
 content
 "
-null
-null
 )
 )
 ;
@@ -1673,8 +1663,6 @@ global
 /
 skin
 "
-null
-null
 )
 )
 ;
@@ -1908,8 +1896,6 @@ global
 /
 content
 "
-null
-null
 )
 )
 ;
@@ -1933,8 +1919,6 @@ resource
 /
 testing
 "
-null
-null
 )
 )
 ;

@@ -1763,7 +1763,6 @@ aDataURL
 "
 UTF8
 "
-null
 )
 ;
 if

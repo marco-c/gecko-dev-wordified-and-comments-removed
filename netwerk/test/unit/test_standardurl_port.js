@@ -58,7 +58,6 @@ newURI
 (
 aURLSpec
 aCharset
-null
 )
 ;
 }

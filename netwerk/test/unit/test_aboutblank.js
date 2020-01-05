@@ -40,8 +40,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 var
@@ -56,8 +54,6 @@ about
 :
 blank
 "
-null
-null
 )
 ;
 var

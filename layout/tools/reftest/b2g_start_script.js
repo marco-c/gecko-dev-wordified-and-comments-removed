@@ -117,8 +117,6 @@ serverAddr
 "
 +
 serverPort
-null
-null
 )
 ;
 perms

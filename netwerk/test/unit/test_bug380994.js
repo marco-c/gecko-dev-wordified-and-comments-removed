@@ -158,8 +158,6 @@ ios
 newURI
 (
 spec
-null
-null
 )
 ;
 if

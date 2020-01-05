@@ -327,8 +327,6 @@ XPCOMUtils
 .
 jsm
 "
-null
-null
 )
 ;
 dump

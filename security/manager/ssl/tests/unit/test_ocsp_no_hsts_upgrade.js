@@ -229,8 +229,6 @@ http
 /
 localhost
 "
-null
-null
 )
 ;
 let

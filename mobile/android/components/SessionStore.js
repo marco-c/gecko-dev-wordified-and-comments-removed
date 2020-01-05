@@ -7637,8 +7637,6 @@ newURI
 aEntry
 .
 url
-null
-null
 )
 )
 ;
@@ -7722,8 +7720,6 @@ newURI
 aEntry
 .
 referrer
-null
-null
 )
 ;
 }
@@ -7747,8 +7743,6 @@ newURI
 aEntry
 .
 originalURI
-null
-null
 )
 ;
 }

@@ -163,8 +163,6 @@ global
 location
 .
 href
-null
-null
 )
 ;
 exports
@@ -1644,8 +1642,6 @@ ios
 newURI
 (
 base
-null
-null
 )
 ;
 var

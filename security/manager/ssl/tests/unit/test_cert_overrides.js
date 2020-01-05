@@ -1781,8 +1781,6 @@ xn
 -
 jxalpdlp
 "
-null
-null
 )
 ;
 let

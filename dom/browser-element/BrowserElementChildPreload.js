@@ -5526,8 +5526,6 @@ io
 newURI
 (
 expectedUrl
-null
-null
 )
 ;
 }

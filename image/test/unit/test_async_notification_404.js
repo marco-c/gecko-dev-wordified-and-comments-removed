@@ -94,8 +94,6 @@ here
 .
 jpg
 "
-null
-null
 )
 ;
 }

@@ -90,8 +90,6 @@ test_crlf
 content
 /
 "
-null
-null
 )
 ;
 let

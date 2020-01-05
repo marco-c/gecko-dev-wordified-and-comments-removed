@@ -379,8 +379,6 @@ about
 :
 blank
 "
-null
-null
 )
 ;
 let

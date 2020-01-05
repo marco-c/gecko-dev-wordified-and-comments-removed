@@ -276,8 +276,6 @@ i
 [
 0
 ]
-null
-null
 )
 ;
 do_check_eq

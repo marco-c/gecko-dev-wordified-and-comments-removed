@@ -280,8 +280,6 @@ localhost
 /
 1
 "
-null
-null
 )
 ;
 prefetch
@@ -443,8 +441,6 @@ localhost
 /
 1
 "
-null
-null
 )
 ;
 prefetch
@@ -571,8 +567,6 @@ localhost
 /
 1
 "
-null
-null
 )
 ;
 prefetch
@@ -721,8 +715,6 @@ localhost
 /
 1
 "
-null
-null
 )
 ;
 var
@@ -741,8 +733,6 @@ localhost
 /
 2
 "
-null
-null
 )
 ;
 prefetch

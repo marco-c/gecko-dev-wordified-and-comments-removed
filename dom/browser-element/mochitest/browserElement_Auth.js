@@ -1137,8 +1137,6 @@ file_http_401_response
 .
 sjs
 "
-null
-null
 )
 ;
 var
@@ -1550,8 +1548,6 @@ file_http_401_response
 .
 sjs
 "
-null
-null
 )
 ;
 var

@@ -2555,8 +2555,6 @@ io
 newURI
 (
 aURI
-null
-null
 )
 )
 .
@@ -2612,8 +2610,6 @@ io
 newURI
 (
 aURI
-null
-null
 )
 )
 ;
@@ -9563,8 +9559,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 ;
 for
@@ -11262,8 +11256,6 @@ browser
 currentURI
 .
 hostPort
-null
-null
 )
 ;
 if
@@ -17386,8 +17378,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 }
@@ -19223,8 +19213,6 @@ io
 newURI
 (
 location
-null
-null
 )
 ;
 }
@@ -20134,8 +20122,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 .
 spec
@@ -24942,8 +24928,6 @@ io
 newURI
 (
 appOrigin
-null
-null
 )
 .
 host
@@ -26428,8 +26412,6 @@ newURI
 aElement
 .
 href
-null
-null
 )
 ;
 }
@@ -27140,8 +27122,6 @@ errorDoc
 location
 .
 href
-null
-null
 )
 ;
 let
@@ -34976,7 +34956,6 @@ ownerDocument
 .
 URL
 charset
-null
 )
 ;
 let
@@ -35055,7 +35034,6 @@ ownerDocument
 .
 URL
 charset
-null
 )
 ;
 let
@@ -38463,8 +38441,6 @@ io
 newURI
 (
 aData
-null
-null
 )
 ;
 if

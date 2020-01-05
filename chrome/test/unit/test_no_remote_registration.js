@@ -1042,8 +1042,6 @@ ios
 newURI
 (
 sourceURI
-null
-null
 )
 ;
 let

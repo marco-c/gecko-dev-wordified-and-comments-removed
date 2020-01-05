@@ -370,8 +370,6 @@ io
 newURI
 (
 url
-null
-null
 )
 options
 )

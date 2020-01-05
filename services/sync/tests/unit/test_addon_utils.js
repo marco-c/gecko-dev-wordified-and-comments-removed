@@ -571,8 +571,6 @@ ioService
 newURI
 (
 s
-null
-null
 )
 ;
 let
@@ -633,8 +631,6 @@ ioService
 newURI
 (
 s
-null
-null
 )
 ;
 let

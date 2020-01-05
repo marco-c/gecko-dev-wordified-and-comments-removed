@@ -327,8 +327,6 @@ newURI
 shell
 .
 homeURL
-null
-null
 )
 .
 resolve

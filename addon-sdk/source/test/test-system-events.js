@@ -1277,8 +1277,6 @@ foo
 .
 com
 "
-null
-null
 )
 ;
 let
@@ -1747,8 +1745,6 @@ foo
 .
 com
 "
-null
-null
 )
 ;
 let

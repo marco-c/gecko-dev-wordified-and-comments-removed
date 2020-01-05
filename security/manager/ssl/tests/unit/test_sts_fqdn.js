@@ -115,8 +115,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 let
@@ -247,8 +245,6 @@ example
 com
 .
 "
-null
-null
 )
 ;
 ok
@@ -286,8 +282,6 @@ com
 .
 .
 "
-null
-null
 )
 ;
 ok
@@ -403,8 +397,6 @@ https
 /
 foo
 "
-null
-null
 )
 ;
 equal

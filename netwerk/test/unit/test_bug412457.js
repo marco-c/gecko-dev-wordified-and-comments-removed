@@ -48,8 +48,6 @@ u5341
 2ecom
 /
 "
-null
-null
 )
 ;
 do_check_eq

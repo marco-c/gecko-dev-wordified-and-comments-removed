@@ -811,8 +811,6 @@ io
 newURI
 (
 TEST_PACKAGE
-null
-null
 )
 )
 ;
