@@ -406,6 +406,12 @@ IsEmpty
 )
 &
 &
+blurDataSize
+>
+=
+8192
+&
+&
 backend
 =
 =
