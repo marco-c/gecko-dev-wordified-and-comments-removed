@@ -3333,7 +3333,7 @@ IsGecko
 )
 )
 {
-RestyleManager
+RestyleManagerBase
 :
 :
 AnimationsWithDestroyedFrame
