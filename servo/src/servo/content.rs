@@ -22,8 +22,16 @@ tasks
 ]
 export
 Content
+;
+export
 ControlMsg
+ExecuteMsg
+ParseMsg
+ExitMsg
+;
+export
 PingMsg
+PongMsg
 ;
 import
 comm

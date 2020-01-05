@@ -40,6 +40,7 @@ format
 export
 PngSink
 Msg
+Exit
 ;
 import
 libc
