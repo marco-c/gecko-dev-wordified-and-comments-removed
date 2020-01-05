@@ -330,7 +330,7 @@ aWidget
 )
 ;
 static
-void
+bool
 SendSetTargetAPZCNotification
 (
 nsIWidget

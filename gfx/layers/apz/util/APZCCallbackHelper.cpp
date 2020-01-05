@@ -3346,7 +3346,7 @@ n
 ;
 }
 }
-void
+bool
 APZCCallbackHelper
 :
 :
@@ -3381,6 +3381,7 @@ aDocument
 )
 {
 return
+false
 ;
 }
 if
@@ -3413,6 +3414,7 @@ aInputBlockId
 )
 ;
 return
+false
 ;
 }
 sLastTargetAPZCNotificationInputBlock
@@ -3611,8 +3613,14 @@ waitForRefresh
 )
 ;
 }
+return
+waitForRefresh
+;
 }
 }
+return
+false
+;
 }
 void
 APZCCallbackHelper
