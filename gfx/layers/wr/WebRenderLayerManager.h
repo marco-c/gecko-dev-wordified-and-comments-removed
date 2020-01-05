@@ -545,6 +545,16 @@ CreateBorderLayer
 override
 ;
 virtual
+already_AddRefed
+<
+DisplayItemLayer
+>
+CreateDisplayItemLayer
+(
+)
+override
+;
+virtual
 bool
 NeedsWidgetInvalidation
 (

@@ -2620,6 +2620,13 @@ cpp
 '
 wr
 /
+WebRenderDisplayItemLayer
+.
+cpp
+'
+'
+wr
+/
 WebRenderImageHost
 .
 cpp
