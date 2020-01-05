@@ -885,8 +885,6 @@ DOMString
 arg
 )
 ;
-/
-/
 void
 passOptionalEnum
 (
@@ -903,8 +901,6 @@ Blob
 arg
 )
 ;
-/
-/
 void
 passOptionalUnion
 (
@@ -1049,8 +1045,6 @@ TestEnum
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableInterface
 (
@@ -1060,8 +1054,6 @@ Blob
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableUnion
 (
