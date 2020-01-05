@@ -187,8 +187,6 @@ attribute
 USVString
 ping
 ;
-/
-/
 attribute
 DOMString
 rel
