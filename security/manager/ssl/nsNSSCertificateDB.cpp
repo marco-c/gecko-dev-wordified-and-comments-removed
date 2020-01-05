@@ -6745,7 +6745,9 @@ aHostname
 resultChain
 false
 aFlags
-nullptr
+NeckoOriginAttributes
+(
+)
 &
 evOidPolicy
 )
@@ -6773,7 +6775,9 @@ resultChain
 aFlags
 nullptr
 nullptr
-nullptr
+NeckoOriginAttributes
+(
+)
 &
 evOidPolicy
 )

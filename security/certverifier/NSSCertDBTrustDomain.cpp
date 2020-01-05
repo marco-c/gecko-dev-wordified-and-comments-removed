@@ -285,9 +285,9 @@ sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
 const
-char
-*
-firstPartyDomain
+NeckoOriginAttributes
+&
+originAttributes
 UniqueCERTCertList
 &
 builtChain
@@ -344,9 +344,9 @@ mNetscapeStepUpPolicy
 (
 netscapeStepUpPolicy
 )
-mFirstPartyDomain
+mOriginAttributes
 (
-firstPartyDomain
+originAttributes
 )
 mBuiltChain
 (
@@ -1754,7 +1754,7 @@ mOCSPCache
 Get
 (
 certID
-mFirstPartyDomain
+mOriginAttributes
 cachedResponseResult
 cachedResponseValidThrough
 )
@@ -2348,7 +2348,7 @@ DoOCSPRequest
 (
 arena
 url
-mFirstPartyDomain
+mOriginAttributes
 &
 ocspRequestItem
 OCSPFetchingTypeToTimeoutTime
@@ -2491,7 +2491,7 @@ mOCSPCache
 Put
 (
 certID
-mFirstPartyDomain
+mOriginAttributes
 error
 time
 timeout
@@ -2986,7 +2986,7 @@ mOCSPCache
 Put
 (
 certID
-mFirstPartyDomain
+mOriginAttributes
 rv
 thisUpdate
 validThrough
