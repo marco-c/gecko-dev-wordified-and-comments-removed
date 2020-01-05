@@ -188,6 +188,9 @@ height
 ;
 }
 ;
+[
+ProbablyShortLivingWrapper
+]
 interface
 DOMRectReadOnly
 {
