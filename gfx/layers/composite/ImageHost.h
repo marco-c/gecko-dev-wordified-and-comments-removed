@@ -196,6 +196,9 @@ struct
 EffectChain
 ;
 class
+HostLayerManager
+;
+class
 ImageHost
 :
 public

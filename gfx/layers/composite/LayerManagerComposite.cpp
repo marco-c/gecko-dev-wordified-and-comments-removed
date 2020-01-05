@@ -1906,9 +1906,6 @@ manager
 return
 ;
 }
-mCompositor
--
->
 SetCompositionTime
 (
 aTimeStamp

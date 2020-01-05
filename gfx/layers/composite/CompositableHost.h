@@ -1001,6 +1001,15 @@ BindTextureSource
 }
 protected
 :
+HostLayerManager
+*
+GetLayerManager
+(
+)
+const
+;
+protected
+:
 TextureInfo
 mTextureInfo
 ;

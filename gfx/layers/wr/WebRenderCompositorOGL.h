@@ -549,15 +549,6 @@ return
 true
 ;
 }
-virtual
-void
-CompositeUntil
-(
-TimeStamp
-aTimeStamp
-)
-override
-;
 GLContext
 *
 gl
