@@ -436,10 +436,6 @@ onUpdateCurrentBrowser
 *
 gBrowser
 .
-_recordTabAccess
-*
-gBrowser
-.
 updateTitlebar
 *
 gBrowser
