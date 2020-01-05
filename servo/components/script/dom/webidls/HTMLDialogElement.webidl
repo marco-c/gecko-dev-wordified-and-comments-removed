@@ -112,14 +112,10 @@ HTMLDialogElement
 :
 HTMLElement
 {
-/
-/
 attribute
 boolean
 open
 ;
-/
-/
 attribute
 DOMString
 returnValue
