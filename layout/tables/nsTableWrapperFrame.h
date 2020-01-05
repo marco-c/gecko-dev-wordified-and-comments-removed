@@ -633,6 +633,15 @@ aColIdx
 )
 ;
 }
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
+(
+GridItemCBSizeProperty
+mozilla
+:
+:
+LogicalSize
+)
+;
 protected
 :
 explicit
