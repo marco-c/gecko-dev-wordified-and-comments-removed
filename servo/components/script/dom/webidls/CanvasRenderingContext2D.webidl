@@ -278,8 +278,6 @@ double
 y
 )
 ;
-/
-/
 void
 rotate
 (
