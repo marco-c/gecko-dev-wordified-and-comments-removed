@@ -1457,6 +1457,14 @@ startup
 )
 ;
 yield
+SimpleTest
+.
+promiseFocus
+(
+window
+)
+;
+yield
 testInputEvents
 (
 )

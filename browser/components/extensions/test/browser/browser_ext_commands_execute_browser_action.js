@@ -453,6 +453,14 @@ startup
 (
 )
 ;
+yield
+SimpleTest
+.
+promiseFocus
+(
+window
+)
+;
 if
 (
 options

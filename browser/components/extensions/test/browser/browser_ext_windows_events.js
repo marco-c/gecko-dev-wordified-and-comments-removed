@@ -774,6 +774,12 @@ closeWindow
 win1
 )
 ;
+currentWindow
+.
+focus
+(
+)
+;
 winId
 =
 yield
