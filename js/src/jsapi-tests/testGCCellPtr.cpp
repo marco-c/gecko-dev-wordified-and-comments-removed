@@ -440,11 +440,11 @@ gc
 detail
 :
 :
-GetGCThingRuntime
+GetCellRuntime
 (
 scriptcell
 .
-unsafeAsUIntPtr
+asCell
 (
 )
 )
