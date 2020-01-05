@@ -833,7 +833,7 @@ if
 !
 GeckoThread
 .
-initWithProfile
+initMainProcessWithProfile
 (
 profileName
 profileDir

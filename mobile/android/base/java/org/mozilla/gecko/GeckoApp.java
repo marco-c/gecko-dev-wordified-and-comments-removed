@@ -6361,11 +6361,10 @@ true
 ;
 GeckoThread
 .
-init
+initMainProcess
 (
 null
 args
-action
 ACTION_DEBUG
 .
 equals
