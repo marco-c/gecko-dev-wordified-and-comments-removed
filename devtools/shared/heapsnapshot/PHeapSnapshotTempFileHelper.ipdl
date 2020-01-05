@@ -124,6 +124,9 @@ OpenedFile
 nsString
 path
 ;
+nsString
+snapshotId
+;
 FileDescriptor
 descriptor
 ;
