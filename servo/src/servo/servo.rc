@@ -125,6 +125,17 @@ extern
 mod
 std
 ;
+extern
+mod
+newcss
+(
+name
+=
+"
+css
+"
+)
+;
 pub
 mod
 engine
