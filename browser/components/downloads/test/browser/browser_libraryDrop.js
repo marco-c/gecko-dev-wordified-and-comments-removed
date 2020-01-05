@@ -209,8 +209,6 @@ view
 =
 {
 onDownloadAdded
-:
-function
 (
 download
 )
@@ -228,8 +226,6 @@ url
 ;
 }
 onDownloadChanged
-:
-function
 (
 download
 )

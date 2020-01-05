@@ -382,16 +382,6 @@ _summary
 =
 summary
 ;
-return
-this
-.
-_summary
-.
-addView
-(
-this
-)
-;
 }
 )
 .

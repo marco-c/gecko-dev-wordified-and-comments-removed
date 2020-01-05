@@ -594,7 +594,6 @@ this
 aData
 ]
 ;
-return
 this
 [
 aData
@@ -1074,12 +1073,9 @@ return
 PrivateDownloadsData
 ;
 }
-else
-{
 return
 DownloadsData
 ;
-}
 }
 initializeAllDataLinks
 (
@@ -1117,12 +1113,9 @@ return
 PrivateDownloadsIndicatorData
 ;
 }
-else
-{
 return
 DownloadsIndicatorData
 ;
-}
 }
 getSummary
 (
@@ -1166,8 +1159,6 @@ aNumToExclude
 )
 ;
 }
-else
-{
 if
 (
 this
@@ -1193,7 +1184,6 @@ false
 aNumToExclude
 )
 ;
-}
 }
 _summary
 :

@@ -1169,7 +1169,6 @@ url
 let
 [
 displayHost
-fullHost
 ]
 =
 DownloadUtils
@@ -1195,7 +1194,6 @@ endTime
 let
 [
 displayDate
-fullDate
 ]
 =
 DownloadUtils
@@ -1388,12 +1386,6 @@ error
 reputationCheckVerdict
 )
 ;
-return
-[
-null
-null
-]
-;
 }
 confirmUnblock
 (
@@ -1486,6 +1478,13 @@ confirmBlock
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 )
 .

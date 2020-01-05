@@ -393,7 +393,6 @@ resolve
 }
 }
 else
-{
 if
 (
 iBackoff
@@ -455,7 +454,6 @@ showPanel
 (
 )
 ;
-}
 }
 }
 100
@@ -636,8 +634,6 @@ setTimeout
 resolve
 1000
 )
-;
-return
 ;
 }
 }
