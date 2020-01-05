@@ -79,7 +79,10 @@ text
 text_run
 :
 :
+{
+TextRange
 SendableTextRun
+}
 ;
 pub
 use
@@ -209,8 +212,7 @@ TextData
 (
 ~
 SendableTextRun
-uint
-uint
+TextRange
 )
 ImageData
 (
@@ -299,8 +301,7 @@ data
 TextData
 (
 run
-offset
-len
+range
 )
 =
 >
@@ -327,8 +328,7 @@ self
 .
 bounds
 new_run
-offset
-len
+range
 )
 }
 _
@@ -544,12 +544,9 @@ run
 :
 ~
 SendableTextRun
-offset
+range
 :
-uint
-length
-:
-uint
+TextRange
 )
 -
 >
@@ -576,8 +573,7 @@ data
 TextData
 (
 run
-offset
-length
+range
 )
 }
 }

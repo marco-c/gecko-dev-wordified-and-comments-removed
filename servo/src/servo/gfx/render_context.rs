@@ -26,7 +26,10 @@ text
 text_run
 :
 :
+{
 TextRun
+TextRange
+}
 ;
 use
 text
@@ -599,12 +602,9 @@ run
 :
 &
 TextRun
-offset
+range
 :
-uint
-length
-:
-uint
+TextRange
 )
 {
 use
@@ -866,7 +866,11 @@ azglyphs
 .
 reserve
 (
+range
+.
 length
+(
+)
 )
 ;
 do
@@ -876,8 +880,7 @@ glyphs
 .
 iter_glyphs_for_range
 (
-offset
-length
+range
 )
 |
 _i
