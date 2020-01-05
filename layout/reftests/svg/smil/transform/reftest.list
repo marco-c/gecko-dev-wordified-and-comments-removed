@@ -73,7 +73,15 @@ if
 (
 winWidget
 15
-4
+30
+)
+fuzzy
+-
+if
+(
+gtkWidget
+1
+30
 )
 =
 =
@@ -92,6 +100,8 @@ svg
 #
 bug
 981640
+Bug
+1293550
 fuzzy
 -
 if
