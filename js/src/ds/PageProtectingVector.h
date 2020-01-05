@@ -125,6 +125,9 @@ unprotectedBytes
 =
 offsetToPage
 ;
+#
+ifndef
+RELEASE_OR_BETA
 protectionEnabled
 =
 vector
@@ -148,6 +151,8 @@ pageSize
 +
 offsetToPage
 ;
+#
+endif
 }
 void
 protect
