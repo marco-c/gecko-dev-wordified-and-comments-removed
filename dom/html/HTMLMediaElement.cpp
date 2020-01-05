@@ -19895,7 +19895,7 @@ nsIStreamListener
 aListener
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+NS_ASSERTION
 (
 mLoadingSrc
 "
@@ -19907,10 +19907,12 @@ set
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+NS_ASSERTION
 (
-!
 mDecoder
+=
+=
+nullptr
 "
 Shouldn
 '
