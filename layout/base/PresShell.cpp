@@ -20120,7 +20120,7 @@ layerManager
 layerManager
 -
 >
-AsClientLayerManager
+AsKnowsCompositor
 (
 )
 |
