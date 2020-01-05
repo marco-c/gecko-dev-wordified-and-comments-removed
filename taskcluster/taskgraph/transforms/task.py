@@ -695,7 +695,7 @@ command
 '
 :
 [
-basestring
+taskref_or_string
 ]
         
 Optional
@@ -757,6 +757,23 @@ time
 '
 :
 int
+        
+Optional
+(
+'
+os
+-
+groups
+'
+default
+=
+[
+]
+)
+:
+[
+basestring
+]
     
 }
 {
@@ -2220,11 +2237,15 @@ env
 '
 :
 worker
-[
+.
+get
+(
 '
 env
 '
-]
+{
+}
+)
         
 '
 maxRunTime
@@ -2240,6 +2261,23 @@ run
 time
 '
 ]
+        
+'
+osGroups
+'
+:
+worker
+.
+get
+(
+'
+os
+-
+groups
+'
+[
+]
+)
     
 }
     
