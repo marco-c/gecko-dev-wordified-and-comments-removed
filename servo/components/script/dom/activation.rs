@@ -133,6 +133,16 @@ Element
 >
 ;
 fn
+is_instance_activatable
+(
+&
+self
+)
+-
+>
+bool
+;
+fn
 pre_click_activation
 (
 &
