@@ -173,6 +173,12 @@ push
 push_all
 }
 ;
+import
+future
+:
+:
+future
+;
 enum
 BoxKind
 {
@@ -199,7 +205,11 @@ background_image
 :
 option
 <
+future
+<
+~
 image
+>
 >
 ;
 let
