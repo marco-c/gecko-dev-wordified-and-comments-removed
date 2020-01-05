@@ -2,6 +2,12 @@ use
 cssparser
 ;
 use
+media_queries
+:
+:
+CSSErrorReporterTest
+;
+use
 selectors
 :
 :
@@ -173,6 +179,13 @@ Origin
 :
 :
 UserAgent
+Box
+:
+:
+new
+(
+CSSErrorReporterTest
+)
 )
 ;
 assert_eq
