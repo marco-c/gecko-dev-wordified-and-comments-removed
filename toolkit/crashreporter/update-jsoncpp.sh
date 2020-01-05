@@ -170,7 +170,7 @@ prefix
 =
 toolkit
 /
-crashreporter
+components
 /
 jsoncpp
 /

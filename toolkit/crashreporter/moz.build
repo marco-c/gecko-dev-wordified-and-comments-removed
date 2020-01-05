@@ -348,13 +348,6 @@ DIRS
 client
 '
 '
-jsoncpp
-/
-src
-/
-lib_json
-'
-'
 minidump
 -
 analyzer
