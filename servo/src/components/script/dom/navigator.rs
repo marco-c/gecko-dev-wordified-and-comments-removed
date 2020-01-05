@@ -114,7 +114,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 )
 -
 >

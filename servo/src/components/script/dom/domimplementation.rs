@@ -270,10 +270,6 @@ clone
 )
 )
 owner
-.
-get
-(
-)
 DOMImplementationBinding
 :
 :

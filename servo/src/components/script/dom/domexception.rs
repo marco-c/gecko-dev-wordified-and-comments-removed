@@ -191,7 +191,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 code
 :
 DOMErrorName

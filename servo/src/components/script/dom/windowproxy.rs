@@ -71,6 +71,7 @@ new
 (
 owner
 :
+&
 JS
 <
 Window
@@ -103,10 +104,6 @@ reflect_dom_object
 (
 proxy
 owner
-.
-get
-(
-)
 WindowProxyBinding
 :
 :

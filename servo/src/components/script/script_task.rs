@@ -7301,13 +7301,10 @@ WindowProxy
 :
 new
 (
+&
 frame
 .
 window
-.
-clone
-(
-)
 )
 ;
 let

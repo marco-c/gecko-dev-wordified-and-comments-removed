@@ -228,10 +228,6 @@ new_inherited
 UIEventTypeId
 )
 window
-.
-get
-(
-)
 UIEventBinding
 :
 :

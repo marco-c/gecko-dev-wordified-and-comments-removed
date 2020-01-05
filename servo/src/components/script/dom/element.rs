@@ -1185,13 +1185,10 @@ Attr
 :
 new_ns
 (
+&
 doc
 .
 window
-.
-get
-(
-)
 local_name
 .
 clone

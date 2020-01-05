@@ -4920,8 +4920,11 @@ fn
 (
 *
 JSContext
-*
-JSObject
+&
+JS
+<
+Window
+>
 ~
 N
 )
@@ -4961,6 +4964,7 @@ node
 reflect_dom_object
 (
 node
+&
 document
 .
 get
@@ -4968,10 +4972,6 @@ get
 )
 .
 window
-.
-get
-(
-)
 wrap_fn
 )
 ;

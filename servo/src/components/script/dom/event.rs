@@ -330,10 +330,6 @@ new_inherited
 HTMLEventTypeId
 )
 window
-.
-get
-(
-)
 EventBinding
 :
 :

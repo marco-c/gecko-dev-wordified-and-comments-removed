@@ -283,10 +283,6 @@ new_inherited
 (
 )
 window
-.
-get
-(
-)
 MouseEventBinding
 :
 :

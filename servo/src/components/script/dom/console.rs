@@ -102,7 +102,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 )
 -
 >

@@ -221,7 +221,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 local_name
 :
 DOMString
@@ -265,7 +268,10 @@ new_ns
 window
 :
 &
+JS
+<
 Window
+>
 local_name
 :
 DOMString
@@ -311,7 +317,10 @@ new_helper
 window
 :
 &
+JS
+<
 Window
+>
 local_name
 :
 DOMString

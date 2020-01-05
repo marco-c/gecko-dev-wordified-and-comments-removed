@@ -156,10 +156,6 @@ clone
 )
 )
 window
-.
-get
-(
-)
 BlobBinding
 :
 :
