@@ -6186,6 +6186,15 @@ enableStrictMode
 )
 ;
 }
+GeckoLoader
+.
+loadMozGlue
+(
+getApplicationContext
+(
+)
+)
+;
 if
 (
 !
