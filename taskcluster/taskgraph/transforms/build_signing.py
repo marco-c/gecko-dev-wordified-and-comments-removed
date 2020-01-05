@@ -328,16 +328,6 @@ tar
 .
 bz2
 '
-                                  
-'
-public
-/
-build
-/
-target
-.
-checksums
-'
 ]
                     
 '
