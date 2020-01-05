@@ -192,6 +192,9 @@ dev
 libglfw
 -
 dev
+libbz2
+-
+dev
 On
 Fedora
 :
@@ -255,6 +258,7 @@ glfw
 -
 devel
 cmake
+bzip2
 pushd
 .
 cd
@@ -338,6 +342,7 @@ ttf
 -
 font
 cmake
+bzip2
 Cross
 -
 compilation

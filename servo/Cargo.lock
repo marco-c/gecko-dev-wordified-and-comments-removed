@@ -300,7 +300,7 @@ rust
 -
 azure
 #
-612ffc4fbf80c1bd5faae4b86dfc539dda06fb0c
+64853170e435d9320f3fd828b9e7d16bc4c260a3
 "
 dependencies
 =
@@ -2131,7 +2131,7 @@ servo
 /
 libfreetype2
 #
-5b6499164106f094937565595c7b96d07de55521
+03522d7401669f220ad3fca5aa887577b0cf314e
 "
 [
 [
@@ -5886,7 +5886,7 @@ servo
 /
 skia
 #
-d92603043a9b7dd0b25c0b3b562099a0cc32ac6c
+63e40419e2570646a8d83fefb8914d6e1b786cfb
 "
 dependencies
 =
