@@ -1792,15 +1792,7 @@ self
 )
 -
 >
-Box
-<
-TaskSource
-<
-DOMManipulationTask
->
-+
-Send
->
+DOMManipulationTaskSource
 {
 self
 .

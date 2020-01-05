@@ -170,6 +170,12 @@ use
 task_source
 :
 :
+TaskSource
+;
+use
+task_source
+:
+:
 dom_manipulation
 :
 :

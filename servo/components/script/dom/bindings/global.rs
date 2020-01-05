@@ -214,7 +214,10 @@ task_source
 dom_manipulation
 :
 :
+{
 DOMManipulationTask
+DOMManipulationTaskSource
+}
 ;
 use
 timers
@@ -1150,15 +1153,7 @@ self
 )
 -
 >
-Box
-<
-TaskSource
-<
-DOMManipulationTask
->
-+
-Send
->
+DOMManipulationTaskSource
 {
 match
 *
