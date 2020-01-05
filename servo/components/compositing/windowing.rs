@@ -268,6 +268,7 @@ TypedPoint2D
 DevicePixel
 i32
 >
+TouchEventType
 )
 Zoom
 (

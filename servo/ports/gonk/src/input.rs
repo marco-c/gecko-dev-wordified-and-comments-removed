@@ -39,7 +39,10 @@ use
 script_traits
 :
 :
+{
 MouseButton
+TouchEventType
+}
 ;
 use
 std
@@ -1293,6 +1296,10 @@ slotA
 .
 y
 )
+TouchEventType
+:
+:
+Move
 )
 )
 .

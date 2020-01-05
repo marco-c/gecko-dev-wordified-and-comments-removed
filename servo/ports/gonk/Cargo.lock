@@ -24445,7 +24445,7 @@ version
 .
 4
 .
-9
+10
 "
 source
 =
@@ -25493,7 +25493,7 @@ glutin
 .
 4
 .
-9
+10
 (
 registry
 +
@@ -30407,7 +30407,7 @@ servo
 /
 webrender
 #
-38031eed57b2df8a57e4cff576e2b5b6f2cd8316
+9309d52279a73ea15f955424899fed9b9ab70c95
 "
 dependencies
 =
@@ -30847,7 +30847,7 @@ servo
 /
 webrender_traits
 #
-94f16f55e65d735a9c1dc38733937cb2774322e1
+a4d2e91915512c3d6b08d0d391221bb240d972d5
 "
 dependencies
 =
