@@ -17,6 +17,7 @@ x86
 branch
 )
 s
+build
 '
     
 '
@@ -87,5 +88,15 @@ x86
 releng
 .
 manifest
+'
+    
+'
+artifact_flag_build_variant_in_try
+'
+:
+'
+x86
+-
+artifact
 '
 }

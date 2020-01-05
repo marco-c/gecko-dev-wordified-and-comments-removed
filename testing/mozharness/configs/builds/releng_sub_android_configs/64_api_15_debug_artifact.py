@@ -18,6 +18,8 @@ branch
 )
 s
 debug
+Artifact
+build
 '
     
 '
@@ -44,6 +46,8 @@ api
 15
 -
 debug
+-
+artifact
 '
     
 '
@@ -66,6 +70,8 @@ api
 15
 /
 debug
+-
+artifact
 '
     
 '
@@ -103,18 +109,4 @@ debug_build
 '
 :
 True
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-'
-api
--
-15
--
-debug
--
-artifact
-'
 }

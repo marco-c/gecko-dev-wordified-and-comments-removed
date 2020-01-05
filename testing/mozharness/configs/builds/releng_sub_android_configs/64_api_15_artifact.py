@@ -17,7 +17,8 @@ API
 branch
 )
 s
-debug
+Artifact
+build
 '
     
 '
@@ -30,8 +31,6 @@ android
 api
 -
 15
--
-debug
 '
     
 '
@@ -43,7 +42,9 @@ api
 -
 15
 -
-debug
+opt
+-
+artifact
 '
     
 '
@@ -65,7 +66,9 @@ api
 -
 15
 /
-debug
+nightly
+-
+artifact
 '
     
 '
@@ -96,25 +99,5 @@ multi_locale_config_platform
 :
 '
 android
-'
-    
-'
-debug_build
-'
-:
-True
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-'
-api
--
-15
--
-debug
--
-artifact
 '
 }

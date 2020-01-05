@@ -17,7 +17,9 @@ API
 branch
 )
 s
-debug
+Gradle
+Artifact
+build
 '
     
 '
@@ -31,7 +33,7 @@ api
 -
 15
 -
-debug
+gradle
 '
     
 '
@@ -43,7 +45,9 @@ api
 -
 15
 -
-debug
+gradle
+-
+artifact
 '
     
 '
@@ -64,8 +68,12 @@ android
 api
 -
 15
+-
+gradle
 /
-debug
+nightly
+-
+artifact
 '
     
 '
@@ -99,22 +107,33 @@ android
 '
     
 '
-debug_build
+postflight_build_mach_commands
 '
 :
-True
+[
+        
+[
+'
+gradle
+'
+         
+'
+geckoview
+:
+assembleWithGeckoBinaries
+'
+         
+'
+geckoview_example
+:
+assembleWithGeckoBinaries
+'
+         
+'
+uploadArchives
+'
+        
+]
     
-'
-artifact_flag_build_variant_in_try
-'
-:
-'
-api
--
-15
--
-debug
--
-artifact
-'
+]
 }
