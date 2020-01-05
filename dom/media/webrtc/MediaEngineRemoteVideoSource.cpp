@@ -996,6 +996,10 @@ lock
 mMonitor
 )
 ;
+mImage
+=
+nullptr
+;
 size_t
 i
 =
@@ -1087,10 +1091,6 @@ NS_ERROR_FAILURE
 mState
 =
 kStopped
-;
-mImage
-=
-nullptr
 ;
 }
 mozilla
