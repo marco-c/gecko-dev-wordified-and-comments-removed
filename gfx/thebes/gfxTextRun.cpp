@@ -9125,6 +9125,13 @@ gfxFontGroup
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 }
 void
 gfxFontGroup

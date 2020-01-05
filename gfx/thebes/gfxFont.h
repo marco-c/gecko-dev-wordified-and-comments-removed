@@ -138,6 +138,13 @@ h
 "
 #
 include
+"
+MainThreadUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1550,7 +1557,7 @@ current
 class
 gfxTextRunFactory
 {
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 gfxTextRunFactory
 )
@@ -1678,8 +1685,7 @@ virtual
 gfxTextRunFactory
 (
 )
-{
-}
+;
 }
 ;
 class

@@ -449,6 +449,11 @@ UpdateFontList
 (
 )
 ;
+void
+InitLangService
+(
+)
+;
 virtual
 void
 ClearLangGroupPrefFonts

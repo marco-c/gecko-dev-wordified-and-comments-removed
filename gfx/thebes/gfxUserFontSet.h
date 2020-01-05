@@ -510,8 +510,7 @@ virtual
 gfxUserFontFamily
 (
 )
-{
-}
+;
 void
 AddFontEntry
 (

@@ -274,6 +274,11 @@ gfxPlatform
 h
 '
 '
+gfxPlatformFontList
+.
+h
+'
+'
 gfxPoint
 .
 h

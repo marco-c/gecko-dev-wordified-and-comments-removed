@@ -186,6 +186,11 @@ nsIWidget
 aWidget
 )
 ;
+void
+InitFontCache
+(
+)
+;
 nsresult
 InitForPrinting
 (

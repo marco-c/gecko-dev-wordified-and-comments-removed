@@ -74,6 +74,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsUnicodeScriptCodes
 .
 h
@@ -418,7 +425,7 @@ unicode
 Script
 Script
 ;
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 gfxFontEntry
 )
@@ -1943,7 +1950,7 @@ gfxFontFamily
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 gfxFontFamily
 )
@@ -2462,8 +2469,7 @@ virtual
 gfxFontFamily
 (
 )
-{
-}
+;
 bool
 ReadOtherFamilyNamesForFace
 (
