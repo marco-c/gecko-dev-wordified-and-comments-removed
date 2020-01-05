@@ -690,6 +690,7 @@ _dummy_repo
 [
 ]
 False
+False
 )
     
 assert
@@ -761,6 +762,7 @@ broken_ignored
 html
 "
 ]
+False
 False
 )
             
@@ -855,6 +857,7 @@ _dummy_repo
 name
 ]
 False
+False
 )
             
 assert
@@ -938,6 +941,7 @@ okay
 html
 "
 ]
+False
 False
 )
             
@@ -1026,6 +1030,7 @@ broken
 html
 "
 ]
+False
 False
 )
             
@@ -1130,6 +1135,7 @@ okay
 html
 "
 ]
+False
 False
 )
             

@@ -21,6 +21,8 @@ json
 #
 *
 _certs
+.
+virtualenv
 config
 .
 json

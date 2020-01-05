@@ -51,11 +51,6 @@ attribute
 DOMString
 type
 ;
-readonly
-attribute
-boolean
-isClosed
-;
 /
 /
 slice
@@ -85,11 +80,6 @@ end
 optional
 DOMString
 contentType
-)
-;
-void
-close
-(
 )
 ;
 }
@@ -300,7 +290,7 @@ result
 ;
 readonly
 attribute
-DOMError
+DOMException
 ?
 error
 ;
@@ -399,14 +389,6 @@ URL
 static
 DOMString
 createObjectURL
-(
-Blob
-blob
-)
-;
-static
-DOMString
-createFor
 (
 Blob
 blob

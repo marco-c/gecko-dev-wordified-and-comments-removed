@@ -398,9 +398,6 @@ fieldset
 input
 '
 '
-keygen
-'
-'
 object
 '
 '
