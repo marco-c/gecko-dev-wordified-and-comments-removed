@@ -537,6 +537,14 @@ public
 enum
 Session
 {
+ACTIVITY_STREAM
+(
+"
+activitystream
+.
+1
+"
+)
 AWESOMESCREEN
 (
 "
