@@ -1081,7 +1081,7 @@ case
 UnsizedFormat
 :
 :
-DS
+DEPTH_STENCIL
 :
 MOZ_ASSERT
 (
@@ -2519,7 +2519,7 @@ DEPTH24_STENCIL8
 UnsizedFormat
 :
 :
-DS
+DEPTH_STENCIL
 false
 ComponentType
 :
@@ -2543,7 +2543,7 @@ DEPTH32F_STENCIL8
 UnsizedFormat
 :
 :
-DS
+DEPTH_STENCIL
 false
 ComponentType
 :

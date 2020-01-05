@@ -2235,7 +2235,7 @@ webgl
 UnsizedFormat
 :
 :
-DS
+DEPTH_STENCIL
 )
 ;
 MOZ_ASSERT

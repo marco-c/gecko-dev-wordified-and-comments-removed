@@ -150,7 +150,7 @@ L
 A
 D
 S
-DS
+DEPTH_STENCIL
 }
 ;
 enum
