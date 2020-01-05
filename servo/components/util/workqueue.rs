@@ -14,8 +14,8 @@ deque
 :
 :
 {
+self
 Abort
-BufferPool
 Data
 Empty
 Stealer
@@ -94,6 +94,8 @@ WorkUnit
 <
 QueueData
 WorkData
+:
+Send
 >
 {
 pub
@@ -130,6 +132,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 {
 Start
@@ -172,6 +176,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 Send
 for
@@ -193,6 +199,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 {
 Finished
@@ -224,6 +232,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 Send
 for
@@ -245,6 +255,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 {
 chan
@@ -292,6 +304,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 {
 index
@@ -345,6 +359,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 Send
 for
@@ -963,6 +979,8 @@ WorkData
 :
 '
 a
++
+Send
 >
 {
 worker
@@ -1123,6 +1141,8 @@ WorkData
 :
 '
 static
++
+Send
 >
 {
 workers
@@ -1240,24 +1260,15 @@ channel
 )
 ;
 let
-pool
-=
-BufferPool
-:
-:
-new
-(
-)
-;
-let
 (
 worker
 thief
 )
 =
-pool
-.
 deque
+:
+:
+new
 (
 )
 ;
