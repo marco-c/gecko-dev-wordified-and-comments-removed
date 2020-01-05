@@ -488,6 +488,18 @@ string
 "
 )
 ;
+if
+(
+mozinfo
+.
+os
+=
+=
+"
+win
+"
+)
+{
 ok
 (
 endHangs
@@ -559,6 +571,7 @@ length
 )
 )
 ;
+}
 check_histogram
 (
 endHangs
