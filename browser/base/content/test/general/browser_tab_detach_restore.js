@@ -231,7 +231,10 @@ win
 .
 gBrowser
 .
-tabContainer
+tabs
+[
+0
+]
 "
 SSTabRestored
 "
