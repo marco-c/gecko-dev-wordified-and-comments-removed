@@ -1,8 +1,9 @@
-skip
+asserts
 -
 if
 (
 stylo
+5
 )
 load
 785753
@@ -12,7 +13,7 @@ load
 html
 #
 bug
-1323665
+1324634
 asserts
 -
 if
