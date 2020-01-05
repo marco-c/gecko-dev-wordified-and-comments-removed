@@ -106,7 +106,7 @@ sources
 :
 [
 '
-cert_target
+nssfuzz
 .
 cc
 '
@@ -116,12 +116,7 @@ pkcs8_target
 cc
 '
 '
-spki_target
-.
-cc
-'
-'
-nssfuzz
+quickder_targets
 .
 cc
 '

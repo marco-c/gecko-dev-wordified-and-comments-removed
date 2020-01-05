@@ -365,7 +365,10 @@ __attribute__
 constructor
 )
 )
-RegisterFuzzingTarget
+Register_
+#
+#
+func
 (
 )
 {

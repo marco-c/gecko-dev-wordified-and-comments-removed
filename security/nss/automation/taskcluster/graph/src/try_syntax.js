@@ -322,6 +322,9 @@ mpi
 "
 scert
 "
+"
+spki
+"
 ]
 ;
 let

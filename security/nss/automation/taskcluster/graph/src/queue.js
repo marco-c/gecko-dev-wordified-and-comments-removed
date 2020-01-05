@@ -92,7 +92,6 @@ taskcluster
 queue
 /
 v1
-/
 "
 }
 )
