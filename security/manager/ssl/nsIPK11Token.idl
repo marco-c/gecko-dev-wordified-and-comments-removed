@@ -457,10 +457,5 @@ needsLogin
 (
 )
 ;
-boolean
-isFriendly
-(
-)
-;
 }
 ;
