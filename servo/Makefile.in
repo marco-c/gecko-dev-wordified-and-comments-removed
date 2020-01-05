@@ -1648,7 +1648,7 @@ util
 /
 util
 .
-rc
+rs
 DONE_util
 =
 (
@@ -1736,7 +1736,7 @@ net
 /
 net
 .
-rc
+rs
 DONE_net
 =
 (
@@ -1817,7 +1817,7 @@ msg
 /
 msg
 .
-rc
+rs
 DONE_msg
 =
 (
@@ -1935,7 +1935,7 @@ gfx
 /
 gfx
 .
-rc
+rs
 DONE_gfx
 =
 (
@@ -2146,7 +2146,7 @@ script
 /
 script
 .
-rc
+rs
 DONE_script
 =
 (
@@ -2290,7 +2290,7 @@ style
 /
 style
 .
-rc
+rs
 DONE_style
 =
 (
@@ -2431,7 +2431,7 @@ main
 /
 servo
 .
-rc
+rs
 DEPS_servo
 =
 (
