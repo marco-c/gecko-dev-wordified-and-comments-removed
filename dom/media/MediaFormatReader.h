@@ -2056,6 +2056,14 @@ SeekTarget
 aTarget
 )
 ;
+media
+:
+:
+TimeUnit
+DemuxStartTime
+(
+)
+;
 bool
 IsSeeking
 (
