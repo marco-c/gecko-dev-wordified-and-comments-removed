@@ -492,7 +492,6 @@ ImageCacheTask
 pub
 active_timers
 :
-~
 HashMap
 <
 TimerId
@@ -2510,7 +2509,6 @@ image_cache_task
 image_cache_task
 active_timers
 :
-~
 HashMap
 :
 :
