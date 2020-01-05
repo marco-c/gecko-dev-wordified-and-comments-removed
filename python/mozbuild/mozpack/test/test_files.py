@@ -1660,7 +1660,9 @@ self
 assertEqual
 (
 link
-source
+'
+test_path
+'
 )
         
 else
@@ -1815,7 +1817,9 @@ self
 assertEqual
 (
 link
-source
+'
+test_path
+'
 )
         
 else
@@ -1982,7 +1986,9 @@ self
 assertEqual
 (
 link
+'
 source
+'
 )
     
 def
@@ -2043,7 +2049,9 @@ os
 .
 symlink
 (
+'
 source
+'
 dest
 )
         
@@ -2061,7 +2069,9 @@ self
 assertEqual
 (
 link
+'
 source
+'
 )
         
 s
@@ -2097,7 +2107,9 @@ self
 assertEqual
 (
 link
+'
 source
+'
 )
 class
 TestPreprocessedFile
