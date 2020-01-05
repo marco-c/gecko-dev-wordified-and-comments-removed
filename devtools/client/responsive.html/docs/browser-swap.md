@@ -282,6 +282,9 @@ browser
 R
 )
 *
+Emit
+EndSwapDocShells
+*
 gBrowser
 .
 mTabProgressListener
