@@ -306,6 +306,8 @@ package
 =
 target
 /
+release
+/
 msi
 /
 *
