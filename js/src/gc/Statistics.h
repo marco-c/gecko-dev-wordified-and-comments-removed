@@ -1212,6 +1212,12 @@ counts
 size_t
 preBytes
 ;
+uint64_t
+startingMinorGCNumber
+;
+uint64_t
+startingMajorGCNumber
+;
 mutable
 TimeDuration
 maxPauseInInterval
