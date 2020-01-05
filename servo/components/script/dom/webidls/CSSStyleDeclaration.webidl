@@ -3101,6 +3101,16 @@ EmptyString
 attribute
 DOMString
 animation
+;
+[
+SetterThrows
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
+animation
 -
 name
 ;
