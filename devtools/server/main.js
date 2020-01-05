@@ -3069,6 +3069,7 @@ connectToContent
 (
 connection
 mm
+onDestroy
 )
 {
 let
@@ -3304,6 +3305,17 @@ e
 )
 {
 }
+}
+if
+(
+onDestroy
+)
+{
+onDestroy
+(
+mm
+)
+;
 }
 }
 let
