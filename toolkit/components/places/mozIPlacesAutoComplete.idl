@@ -899,7 +899,7 @@ aUserContextId
 Populate
 list
 of
-Prefill
+Preloaded
 Sites
 from
 JSON
@@ -922,7 +922,7 @@ from
 *
 /
 void
-populatePrefillSiteStorage
+populatePreloadedSiteStorage
 (
 in
 jsval

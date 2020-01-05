@@ -362,7 +362,7 @@ maxCharsForSearchSuggestions
 ]
 ;
 const
-PREF_PREFILL_SITES_ENABLED
+PREF_PRELOADED_SITES_ENABLED
 =
 [
 "
@@ -374,7 +374,7 @@ true
 ]
 ;
 const
-PREF_PREFILL_SITES_EXPIRE_DAYS
+PREF_PRELOADED_SITES_EXPIRE_DAYS
 =
 [
 "
@@ -3045,7 +3045,7 @@ PREF_MAX_CHARS_FOR_SUGGEST
 ;
 store
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 =
 prefs
 .
@@ -3054,12 +3054,12 @@ get
 .
 .
 .
-PREF_PREFILL_SITES_ENABLED
+PREF_PRELOADED_SITES_ENABLED
 )
 ;
 store
 .
-prefillSitesExpireDays
+preloadedSitesExpireDays
 =
 prefs
 .
@@ -3068,7 +3068,7 @@ get
 .
 .
 .
-PREF_PREFILL_SITES_EXPIRE_DAYS
+PREF_PRELOADED_SITES_EXPIRE_DAYS
 )
 ;
 store
@@ -3448,7 +3448,7 @@ store
 )
 ;
 function
-PrefillSite
+PreloadedSite
 (
 url
 title
@@ -3531,7 +3531,7 @@ defineLazyGetter
 (
 this
 "
-PrefillSiteStorage
+PreloadedSiteStorage
 "
 (
 )
@@ -3556,7 +3556,7 @@ let
 site
 =
 new
-PrefillSite
+PreloadedSite
 (
 url
 title
@@ -5055,7 +5055,7 @@ _searchQuery
 yield
 this
 .
-_checkPrefillSitesExpiry
+_checkPreloadedSitesExpiry
 (
 )
 ;
@@ -5359,7 +5359,7 @@ handleInputCancelled
 }
 this
 .
-_matchPrefillSites
+_matchPreloadedSites
 (
 )
 ;
@@ -5376,7 +5376,7 @@ _remoteMatchesPromises
 }
 )
 *
-_checkPrefillSitesExpiry
+_checkPreloadedSitesExpiry
 (
 )
 {
@@ -5385,7 +5385,7 @@ if
 !
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 return
 ;
@@ -5416,7 +5416,7 @@ daysSinceProfileCreation
 >
 Prefs
 .
-prefillSitesExpireDays
+preloadedSitesExpireDays
 )
 Services
 .
@@ -5437,7 +5437,7 @@ false
 )
 ;
 }
-_matchPrefillSites
+_matchPreloadedSites
 (
 )
 {
@@ -5446,7 +5446,7 @@ if
 !
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 return
 ;
@@ -5514,7 +5514,7 @@ for
 let
 site
 of
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 sites
 )
@@ -5559,7 +5559,9 @@ title
 style
 :
 "
-prefill
+preloaded
+-
+top
 -
 site
 "
@@ -5664,7 +5666,7 @@ this
 )
 ;
 }
-_matchPrefillSiteForAutofill
+_matchPreloadedSiteForAutofill
 (
 )
 {
@@ -5673,7 +5675,7 @@ if
 !
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 return
 false
@@ -5797,7 +5799,7 @@ this
 let
 site
 =
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 sites
 .
@@ -5832,6 +5834,11 @@ style
 :
 "
 autofill
+preloaded
+-
+top
+-
+site
 "
 finalCompleteValue
 :
@@ -5893,7 +5900,7 @@ this
 }
 site
 =
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 sites
 .
@@ -5931,6 +5938,11 @@ style
 :
 "
 autofill
+preloaded
+-
+top
+-
+site
 "
 finalCompleteValue
 :
@@ -6169,7 +6181,7 @@ matched
 =
 this
 .
-_matchPrefillSiteForAutofill
+_matchPreloadedSiteForAutofill
 (
 )
 ;
@@ -10246,7 +10258,7 @@ if
 (
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 {
 ProfileAgeCreatedPromise
@@ -10289,7 +10301,7 @@ then
 sites
 =
 >
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 populate
 (
@@ -10533,12 +10545,12 @@ userContextId
 )
 ;
 }
-populatePrefillSiteStorage
+populatePreloadedSiteStorage
 (
 json
 )
 {
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 populate
 (
