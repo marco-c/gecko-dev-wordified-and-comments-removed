@@ -1398,9 +1398,6 @@ pub
 transform
 :
 Matrix4
-<
-AzFloat
->
 }
 impl
 StackingContext
@@ -1440,9 +1437,6 @@ transform
 :
 &
 Matrix4
-<
-AzFloat
->
 filters
 :
 filter
@@ -1522,9 +1516,6 @@ transform
 :
 &
 Matrix4
-<
-AzFloat
->
 clip_rect
 :
 Option
