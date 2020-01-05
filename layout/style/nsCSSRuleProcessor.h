@@ -251,6 +251,12 @@ Startup
 ;
 static
 void
+InitSystemMetrics
+(
+)
+;
+static
+void
 Shutdown
 (
 )
@@ -413,8 +419,6 @@ mozilla
 :
 EventStates
 aStateMask
-bool
-aIsGecko
 bool
 *
 aSetSlowSelectorFlag
