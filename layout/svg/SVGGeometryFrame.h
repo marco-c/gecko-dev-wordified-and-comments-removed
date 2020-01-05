@@ -452,7 +452,7 @@ uint32_t
 aFlags
 )
 ;
-void
+DrawResult
 PaintMarkers
 (
 gfxContext
@@ -462,6 +462,8 @@ const
 gfxMatrix
 &
 aMatrix
+uint32_t
+aFlags
 )
 ;
 struct
