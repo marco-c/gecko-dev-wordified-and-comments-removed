@@ -190,11 +190,6 @@ properties
 readonly
 attribute
 DOMString
-keySystem
-;
-readonly
-attribute
-DOMString
 sessionId
 ;
 readonly
