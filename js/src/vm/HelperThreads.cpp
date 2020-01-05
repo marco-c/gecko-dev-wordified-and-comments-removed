@@ -2101,7 +2101,6 @@ ScopeKind
 Global
 options
 srcBuf
-nullptr
 &
 sourceObject
 )
