@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
 nsIDOMGeoGeolocation
 .
 h
@@ -324,11 +317,6 @@ SetDisconnectTimer
 )
 ;
 void
-StopDisconnectTimer
-(
-)
-;
-void
 UpdateAccuracy
 (
 bool
@@ -398,8 +386,6 @@ public
 nsIGeolocationUpdate
 public
 nsWrapperCache
-public
-nsIDOMEventListener
 {
 public
 :
@@ -411,7 +397,6 @@ nsIDOMGeoGeolocation
 )
 NS_DECL_NSIGEOLOCATIONUPDATE
 NS_DECL_NSIDOMGEOGEOLOCATION
-NS_DECL_NSIDOMEVENTLISTENER
 Geolocation
 (
 )
@@ -496,14 +481,6 @@ HasActiveCallbacks
 ;
 void
 NotifyAllowedRequest
-(
-nsGeolocationRequest
-*
-aRequest
-)
-;
-bool
-ContainsRequest
 (
 nsGeolocationRequest
 *
