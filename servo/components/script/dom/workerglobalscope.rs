@@ -76,6 +76,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -886,7 +889,7 @@ Console
 :
 new
 (
-global
+GlobalRef
 :
 :
 Worker

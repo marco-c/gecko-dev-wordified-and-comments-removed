@@ -39,6 +39,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -208,7 +211,7 @@ window
 navigation_start
 navigation_start_precise
 )
-global
+GlobalRef
 :
 :
 Window

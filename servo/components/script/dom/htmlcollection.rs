@@ -57,6 +57,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -334,7 +337,7 @@ new_inherited
 (
 collection
 )
-global
+GlobalRef
 :
 :
 Window

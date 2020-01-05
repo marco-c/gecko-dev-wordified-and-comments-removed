@@ -119,15 +119,6 @@ dom
 bindings
 :
 :
-global
-;
-use
-dom
-:
-:
-bindings
-:
-:
 js
 :
 :
@@ -289,7 +280,7 @@ new_inherited
 (
 window
 )
-global
+GlobalRef
 :
 :
 Window

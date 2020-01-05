@@ -39,6 +39,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -233,7 +236,7 @@ new_inherited
 window
 rects
 )
-global
+GlobalRef
 :
 :
 Window

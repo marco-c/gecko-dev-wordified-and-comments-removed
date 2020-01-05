@@ -191,7 +191,7 @@ bindings
 global
 :
 :
-Window
+GlobalRef
 ;
 use
 dom
@@ -6412,6 +6412,9 @@ Event
 :
 new
 (
+GlobalRef
+:
+:
 Window
 (
 *
@@ -6482,6 +6485,9 @@ Event
 :
 new
 (
+GlobalRef
+:
+:
 Window
 (
 *

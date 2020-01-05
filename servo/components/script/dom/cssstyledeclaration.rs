@@ -57,6 +57,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -428,7 +431,7 @@ new_inherited
 (
 owner
 )
-global
+GlobalRef
 :
 :
 Window

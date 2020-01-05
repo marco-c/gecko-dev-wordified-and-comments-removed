@@ -92,7 +92,7 @@ bindings
 global
 :
 :
-Window
+GlobalRef
 ;
 use
 dom
@@ -680,6 +680,9 @@ CanvasRenderingContext2D
 new
 (
 &
+GlobalRef
+:
+:
 Window
 (
 *

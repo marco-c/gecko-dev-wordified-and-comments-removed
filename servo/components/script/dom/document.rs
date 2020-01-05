@@ -365,15 +365,6 @@ dom
 bindings
 :
 :
-global
-;
-use
-dom
-:
-:
-bindings
-:
-:
 js
 :
 :
@@ -751,7 +742,7 @@ layout_interface
 :
 {
 LayoutChan
-SetQuirksModeMsg
+Msg
 }
 ;
 use
@@ -1758,7 +1749,10 @@ layout_chan
 .
 send
 (
-SetQuirksModeMsg
+Msg
+:
+:
+SetQuirksMode
 )
 ;
 }
@@ -2543,7 +2537,7 @@ Event
 :
 new
 (
-global
+GlobalRef
 :
 :
 Window
@@ -3241,7 +3235,7 @@ doctype
 content_type
 source
 )
-global
+GlobalRef
 :
 :
 Window
@@ -5613,7 +5607,7 @@ CustomEvent
 :
 new_uninitialized
 (
-global
+GlobalRef
 :
 :
 Window
@@ -5644,7 +5638,7 @@ Event
 :
 new_uninitialized
 (
-global
+GlobalRef
 :
 :
 Window
@@ -5697,7 +5691,7 @@ MessageEvent
 :
 new_uninitialized
 (
-global
+GlobalRef
 :
 :
 Window

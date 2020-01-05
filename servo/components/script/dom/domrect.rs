@@ -39,6 +39,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -236,7 +239,7 @@ bottom
 left
 right
 )
-global
+GlobalRef
 :
 :
 Window

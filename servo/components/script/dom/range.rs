@@ -71,10 +71,7 @@ bindings
 global
 :
 :
-{
 GlobalRef
-Window
-}
 ;
 use
 dom
@@ -194,6 +191,9 @@ Range
 new_inherited
 (
 )
+GlobalRef
+:
+:
 Window
 (
 *
