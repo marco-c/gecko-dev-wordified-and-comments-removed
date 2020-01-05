@@ -624,7 +624,7 @@ style
 (
 )
 .
-get_font
+get_font_arc
 (
 )
 ;
@@ -1271,8 +1271,10 @@ mut
 FontContext
 font_style
 :
-&
+Arc
+<
 FontStyle
+>
 )
 -
 >
