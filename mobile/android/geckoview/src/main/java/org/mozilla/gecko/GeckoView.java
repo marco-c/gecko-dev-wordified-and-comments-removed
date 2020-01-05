@@ -5180,6 +5180,15 @@ String
 title
 )
 ;
+void
+onFullScreen
+(
+GeckoView
+view
+boolean
+fullScreen
+)
+;
 }
 public
 interface
