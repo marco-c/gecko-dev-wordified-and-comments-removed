@@ -87,6 +87,15 @@ android
 .
 media
 .
+MediaCodec
+.
+CryptoInfo
+;
+import
+android
+.
+media
+.
 MediaFormat
 ;
 import
@@ -611,6 +620,8 @@ byte
 bytes
 BufferInfo
 info
+CryptoInfo
+cryptoInfo
 )
 {
 if
@@ -669,7 +680,7 @@ wrap
 bytes
 )
 info
-null
+cryptoInfo
 )
 ;
 try

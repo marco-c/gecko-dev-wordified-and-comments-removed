@@ -13,4 +13,10 @@ android
 .
 media
 .
+MediaCodec
+CryptoInfo
+android
+.
+media
+.
 MediaFormat

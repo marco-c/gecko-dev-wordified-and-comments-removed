@@ -1701,6 +1701,17 @@ Object
 :
 Param
 a1
+mozilla
+:
+:
+jni
+:
+:
+Object
+:
+:
+Param
+a2
 )
 const
 -
@@ -1729,6 +1740,7 @@ mCtx
 nullptr
 a0
 a1
+a2
 )
 ;
 }
