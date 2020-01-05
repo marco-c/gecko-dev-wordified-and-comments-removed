@@ -77,7 +77,7 @@ signOut
 ;
 gFxAccounts
 .
-updateAppMenuItem
+updateUI
 (
 )
 ;
@@ -204,7 +204,7 @@ now
 ;
 gFxAccounts
 .
-updateAppMenuItem
+updateUI
 (
 )
 ;
