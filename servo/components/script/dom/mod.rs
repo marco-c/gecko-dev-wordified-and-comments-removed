@@ -353,10 +353,6 @@ htmlselectelement
 ;
 pub
 mod
-htmlserializer
-;
-pub
-mod
 htmlspanelement
 ;
 pub
