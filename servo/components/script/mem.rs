@@ -168,13 +168,13 @@ EventTarget
 usize
 {
 match
+*
 target
 .
 type_id
 (
 )
 {
-&
 EventTargetTypeId
 :
 :
@@ -195,7 +195,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -225,7 +224,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -252,7 +250,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -285,7 +282,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -324,7 +320,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -363,7 +358,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -402,7 +396,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -441,7 +434,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -480,7 +472,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -519,7 +510,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -558,7 +548,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -597,7 +586,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -636,7 +624,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -675,7 +662,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -714,7 +700,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -753,7 +738,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -792,7 +776,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -831,7 +814,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -870,7 +852,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -909,7 +890,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -948,7 +928,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -987,7 +966,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1026,7 +1004,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1065,7 +1042,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1104,7 +1080,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1143,7 +1118,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1182,7 +1156,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1221,7 +1194,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1260,7 +1232,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1299,7 +1270,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1338,7 +1308,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1377,7 +1346,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1416,7 +1384,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1455,7 +1422,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1494,7 +1460,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1533,7 +1498,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1572,7 +1536,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1614,7 +1577,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1656,7 +1618,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1695,7 +1656,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1734,7 +1694,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1773,7 +1732,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1812,7 +1770,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1851,7 +1808,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1890,7 +1846,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1929,7 +1884,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -1968,7 +1922,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2007,7 +1960,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2046,7 +1998,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2085,7 +2036,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2124,7 +2074,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2163,7 +2112,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2202,7 +2150,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2241,7 +2188,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2280,7 +2226,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2319,7 +2264,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2358,7 +2302,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2397,7 +2340,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2436,7 +2378,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2478,7 +2419,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2520,7 +2460,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2559,7 +2498,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2598,7 +2536,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2637,7 +2574,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2676,7 +2612,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2715,7 +2650,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2754,7 +2688,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2793,7 +2726,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2832,7 +2764,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2871,7 +2802,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2910,7 +2840,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :
@@ -2918,7 +2847,6 @@ WebSocket
 =
 >
 0
-&
 EventTargetTypeId
 :
 :
@@ -2926,7 +2854,6 @@ Worker
 =
 >
 0
-&
 EventTargetTypeId
 :
 :
@@ -2934,7 +2861,6 @@ FileReader
 =
 >
 0
-&
 EventTargetTypeId
 :
 :
@@ -2945,7 +2871,6 @@ _
 =
 >
 0
-&
 EventTargetTypeId
 :
 :
@@ -2956,7 +2881,6 @@ _
 =
 >
 0
-&
 EventTargetTypeId
 :
 :
@@ -2983,7 +2907,6 @@ unwrap
 (
 )
 )
-&
 EventTargetTypeId
 :
 :

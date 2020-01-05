@@ -969,8 +969,6 @@ return
 false
 ;
 }
-return
 true
-;
 }
 }
