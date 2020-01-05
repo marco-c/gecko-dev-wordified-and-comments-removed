@@ -1061,11 +1061,7 @@ GetError
 (
 )
 const
-{
-return
-mError
 ;
-}
 void
 SetSrc
 (
@@ -2154,6 +2150,9 @@ class
 ChannelLoader
 ;
 class
+ErrorSink
+;
+class
 MediaLoadListener
 ;
 class
@@ -3171,12 +3170,6 @@ ChannelLoader
 >
 mChannelLoader
 ;
-RefPtr
-<
-MediaError
->
-mError
-;
 uint32_t
 mCurrentLoadID
 ;
@@ -3700,6 +3693,12 @@ mAudible
 ;
 Visibility
 mVisibilityState
+;
+UniquePtr
+<
+ErrorSink
+>
+mErrorSink
 ;
 }
 ;
