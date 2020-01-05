@@ -9105,10 +9105,6 @@ RemoveElementFromTable
 (
 this
 nameVal
-HTMLFormElement
-:
-:
-ElementRemoved
 )
 ;
 }
@@ -9129,10 +9125,6 @@ RemoveElementFromTable
 (
 this
 idVal
-HTMLFormElement
-:
-:
-ElementRemoved
 )
 ;
 }
@@ -9621,10 +9613,6 @@ RemoveElementFromTable
 (
 this
 tmp
-HTMLFormElement
-:
-:
-AttributeUpdated
 )
 ;
 }
@@ -9670,10 +9658,6 @@ RemoveElementFromTable
 (
 this
 tmp
-HTMLFormElement
-:
-:
-AttributeUpdated
 )
 ;
 }
@@ -9704,10 +9688,6 @@ RemoveElementFromTable
 (
 this
 tmp
-HTMLFormElement
-:
-:
-AttributeUpdated
 )
 ;
 }
