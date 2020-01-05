@@ -24,8 +24,6 @@ base
 :
 {
 CFIndex
-CFRelease
-CFTypeOps
 CFTypeRef
 }
 ;
@@ -374,7 +372,10 @@ cbuf
 len
 |
 {
-CGDataProvider
+cg
+:
+:
+data_provider
 :
 :
 new_from_buffer
@@ -390,9 +391,10 @@ cgfont
 =
 CGFontCreateWithDataProvider
 (
+*
 fontprov
 .
-get_ref
+borrow_ref
 (
 )
 )
@@ -415,7 +417,10 @@ Err
 let
 ctfont
 =
-CTFont
+ct
+:
+:
+font
 :
 :
 new_from_CGFont
