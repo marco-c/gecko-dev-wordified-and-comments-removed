@@ -528,13 +528,6 @@ html
 *
 media
 *
-test_condition_text_assignment
-.
-html
-[
-1
-]
-*
 test_css_eof_handling
 .
 html
@@ -4582,7 +4575,7 @@ test_rule_insertion
 .
 html
 [
-8
+7
 ]
 *
 -
