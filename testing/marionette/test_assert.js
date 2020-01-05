@@ -134,12 +134,6 @@ firefox
 assert
 .
 fennec
-assert
-.
-b2g
-assert
-.
-mobile
 ]
 )
 {
