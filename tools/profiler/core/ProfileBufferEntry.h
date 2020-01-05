@@ -40,13 +40,6 @@ h
 #
 include
 "
-PseudoStack
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -140,6 +133,9 @@ UniquePtr
 .
 h
 "
+class
+ProfilerMarker
+;
 #
 define
 PROFILE_BUFFER_ENTRY_KIND_LIST

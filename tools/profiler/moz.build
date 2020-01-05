@@ -144,6 +144,13 @@ libraries
 .
 h
 '
+'
+public
+/
+StoreSequencer
+.
+h
+'
 ]
 EXTRA_JS_MODULES
 +

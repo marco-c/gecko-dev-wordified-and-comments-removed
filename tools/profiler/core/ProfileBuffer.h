@@ -7,6 +7,13 @@ MOZ_PROFILE_BUFFER_H
 #
 include
 "
+platform
+.
+h
+"
+#
+include
+"
 ProfileBufferEntry
 .
 h
@@ -14,7 +21,7 @@ h
 #
 include
 "
-platform
+ProfilerMarker
 .
 h
 "
