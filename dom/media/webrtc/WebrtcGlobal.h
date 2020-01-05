@@ -2331,7 +2331,7 @@ WriteParam
 aMsg
 aParam
 .
-mMozRtt
+mRoundTripTime
 )
 ;
 WriteParam
@@ -2466,7 +2466,7 @@ aIter
 aResult
 -
 >
-mMozRtt
+mRoundTripTime
 )
 )
 |

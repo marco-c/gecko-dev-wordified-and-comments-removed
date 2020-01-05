@@ -312,7 +312,7 @@ long
 mozJitterBufferDelay
 ;
 long
-mozRtt
+roundTripTime
 ;
 /
 /

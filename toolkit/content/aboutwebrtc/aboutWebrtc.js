@@ -3774,7 +3774,7 @@ if
 (
 stats
 .
-mozRtt
+roundTripTime
 )
 {
 statsString
@@ -3785,7 +3785,7 @@ RTT
 {
 stats
 .
-mozRtt
+roundTripTime
 }
 ms
 ;
