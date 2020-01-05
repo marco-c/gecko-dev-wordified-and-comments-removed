@@ -4718,6 +4718,10 @@ self
 .
 pending_frames
 .
+iter
+(
+)
+.
 rposition
 |
 frame_change
