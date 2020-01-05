@@ -129,6 +129,13 @@ nullptr
 cache
 -
 >
+mLength
+=
+0
+;
+cache
+-
+>
 mString
 =
 nullptr
@@ -240,6 +247,13 @@ cache
 mBuffer
 =
 nullptr
+;
+cache
+-
+>
+mLength
+=
+0
 ;
 cache
 -
