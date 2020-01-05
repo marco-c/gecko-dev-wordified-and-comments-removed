@@ -92,6 +92,10 @@ skia
 \
 glfw
 \
+fontconfig
+\
+libpng
+\
 (
 NULL
 )
