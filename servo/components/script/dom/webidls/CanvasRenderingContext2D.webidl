@@ -755,8 +755,6 @@ resetClip
 (
 )
 ;
-/
-/
 boolean
 isPointInPath
 (
@@ -766,8 +764,6 @@ x
 unrestricted
 double
 y
-/
-/
 optional
 CanvasFillRule
 fillRule
@@ -788,10 +784,10 @@ unrestricted
 double
 x
 unrestricted
-/
-/
 double
 y
+/
+/
 optional
 CanvasFillRule
 fillRule
@@ -824,8 +820,6 @@ path
 unrestricted
 double
 x
-/
-/
 unrestricted
 double
 y
