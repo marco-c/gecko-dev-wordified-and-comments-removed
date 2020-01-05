@@ -2223,7 +2223,7 @@ enabled
 "
 VRPosePredictionEnabled
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
