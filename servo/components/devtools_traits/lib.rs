@@ -78,7 +78,10 @@ msg
 constellation_msg
 :
 :
+{
 PipelineId
+WorkerId
+}
 ;
 use
 util
@@ -214,7 +217,13 @@ TcpStream
 )
 NewGlobal
 (
+(
 PipelineId
+Option
+<
+WorkerId
+>
+)
 Sender
 <
 DevtoolScriptControlMsg
