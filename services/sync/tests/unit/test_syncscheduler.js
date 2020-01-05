@@ -5745,7 +5745,7 @@ com
 ;
 Service
 .
-serverURL
+clusterURL
 =
 "
 http
@@ -5757,14 +5757,6 @@ localhost
 1234
 /
 "
-;
-Service
-.
-clusterURL
-=
-Service
-.
-serverURL
 ;
 Status
 .
@@ -6054,7 +6046,7 @@ Unauthorized
 ;
 Service
 .
-serverURL
+clusterURL
 =
 server
 .
@@ -6063,14 +6055,6 @@ baseURI
 "
 /
 "
-;
-Service
-.
-clusterURL
-=
-Service
-.
-serverURL
 ;
 Status
 .
