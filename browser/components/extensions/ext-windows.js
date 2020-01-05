@@ -659,8 +659,6 @@ mozilla
 .
 org
 /
-supports
--
 array
 ;
 1
@@ -671,7 +669,7 @@ createInstance
 (
 Ci
 .
-nsISupportsArray
+nsIMutableArray
 )
 ;
 if
@@ -824,9 +822,10 @@ incognito
 ;
 args
 .
-AppendElement
+appendElement
 (
 tab
+false
 )
 ;
 }
@@ -902,9 +901,10 @@ url
 }
 args
 .
-AppendElement
+appendElement
 (
 array
+false
 )
 ;
 }
@@ -912,7 +912,7 @@ else
 {
 args
 .
-AppendElement
+appendElement
 (
 mkstr
 (
@@ -920,6 +920,7 @@ createData
 .
 url
 )
+false
 )
 ;
 }
@@ -928,7 +929,7 @@ else
 {
 args
 .
-AppendElement
+appendElement
 (
 mkstr
 (
@@ -936,6 +937,7 @@ aboutNewTabService
 .
 newTabURL
 )
+false
 )
 ;
 }

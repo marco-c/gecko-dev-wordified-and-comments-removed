@@ -3894,8 +3894,6 @@ mozilla
 .
 org
 /
-supports
--
 array
 ;
 1
@@ -3906,14 +3904,15 @@ createInstance
 (
 Ci
 .
-nsISupportsArray
+nsIMutableArray
 )
 ;
 args
 .
-AppendElement
+appendElement
 (
 uriList
+false
 )
 ;
 browserWindow

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsArray
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h
@@ -61,13 +68,6 @@ h
 include
 "
 nsIServiceManager
-.
-h
-"
-#
-include
-"
-nsISupportsArray
 .
 h
 "
@@ -1128,24 +1128,15 @@ NS_WINDOWWATCHER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 argsArray
-;
-rv
 =
-NS_NewISupportsArray
+nsArray
+:
+:
+Create
 (
-getter_AddRefs
-(
-argsArray
-)
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsCOMPtr
@@ -1182,6 +1173,7 @@ argsArray
 AppendElement
 (
 scriptableImageUrl
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1224,6 +1216,7 @@ argsArray
 AppendElement
 (
 scriptableAlertTitle
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1266,6 +1259,7 @@ argsArray
 AppendElement
 (
 scriptableAlertText
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1308,6 +1302,7 @@ argsArray
 AppendElement
 (
 scriptableIsClickable
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1350,6 +1345,7 @@ argsArray
 AppendElement
 (
 scriptableAlertCookie
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1406,6 +1402,7 @@ argsArray
 AppendElement
 (
 scriptableOrigin
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1448,6 +1445,7 @@ argsArray
 AppendElement
 (
 scriptableBidi
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1490,6 +1488,7 @@ argsArray
 AppendElement
 (
 scriptableLang
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1532,6 +1531,7 @@ argsArray
 AppendElement
 (
 scriptableRequireInteraction
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1598,6 +1598,7 @@ argsArray
 AppendElement
 (
 replacedWindow
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1690,6 +1691,7 @@ argsArray
 AppendElement
 (
 ifptr
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1732,6 +1734,7 @@ argsArray
 AppendElement
 (
 scriptableAlertSource
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1799,6 +1802,7 @@ argsArray
 AppendElement
 (
 scriptableIconURL
+false
 )
 ;
 NS_ENSURE_SUCCESS
