@@ -3000,6 +3000,9 @@ this
 _selected
 )
 {
+let
+container
+=
 this
 .
 markup
@@ -3012,6 +3015,13 @@ markup
 .
 _rootNode
 )
+;
+if
+(
+container
+)
+{
+container
 .
 elt
 .
@@ -3027,6 +3037,7 @@ this
 id
 )
 ;
+}
 this
 .
 tagLine
