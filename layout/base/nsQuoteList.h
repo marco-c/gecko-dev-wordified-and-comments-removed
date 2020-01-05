@@ -238,7 +238,11 @@ nsQuoteNode
 *
 >
 (
-mFirstNode
+mList
+.
+getFirst
+(
+)
 )
 ;
 }

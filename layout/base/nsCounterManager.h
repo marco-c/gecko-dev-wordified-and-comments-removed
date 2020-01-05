@@ -555,7 +555,11 @@ nsCounterNode
 *
 >
 (
-mFirstNode
+mList
+.
+getFirst
+(
+)
 )
 ;
 }
