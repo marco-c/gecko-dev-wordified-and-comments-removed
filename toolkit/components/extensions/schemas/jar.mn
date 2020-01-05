@@ -256,6 +256,15 @@ extensions
 /
 schemas
 /
+theme
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 top_sites
 .
 json
