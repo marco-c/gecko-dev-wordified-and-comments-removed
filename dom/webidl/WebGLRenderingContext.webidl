@@ -5604,7 +5604,7 @@ MAX_EXT
 NoInterfaceObject
 ]
 interface
-WebGLTimerQueryEXT
+WebGLQuery
 {
 }
 ;
@@ -5656,7 +5656,7 @@ GPU_DISJOINT_EXT
 =
 0x8FBB
 ;
-WebGLTimerQueryEXT
+WebGLQuery
 ?
 createQueryEXT
 (
@@ -5665,7 +5665,7 @@ createQueryEXT
 void
 deleteQueryEXT
 (
-WebGLTimerQueryEXT
+WebGLQuery
 ?
 query
 )
@@ -5676,7 +5676,7 @@ WebGLHandlesContextLoss
 boolean
 isQueryEXT
 (
-WebGLTimerQueryEXT
+WebGLQuery
 ?
 query
 )
@@ -5686,7 +5686,7 @@ beginQueryEXT
 (
 GLenum
 target
-WebGLTimerQueryEXT
+WebGLQuery
 ?
 query
 )
@@ -5701,7 +5701,7 @@ target
 void
 queryCounterEXT
 (
-WebGLTimerQueryEXT
+WebGLQuery
 ?
 query
 GLenum
@@ -5720,7 +5720,7 @@ pname
 any
 getQueryObjectEXT
 (
-WebGLTimerQueryEXT
+WebGLQuery
 ?
 query
 GLenum
