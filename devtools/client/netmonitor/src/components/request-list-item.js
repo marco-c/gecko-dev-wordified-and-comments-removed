@@ -268,6 +268,8 @@ fromCache
 PropTypes
 .
 bool
+.
+isRequired
 onCauseBadgeClick
 :
 PropTypes
