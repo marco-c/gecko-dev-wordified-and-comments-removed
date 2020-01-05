@@ -3330,6 +3330,14 @@ if
 Versions
 .
 preN
+&
+&
+keyCode
+=
+=
+KeyEvent
+.
+KEYCODE_BACK
 )
 {
 ThreadUtils
