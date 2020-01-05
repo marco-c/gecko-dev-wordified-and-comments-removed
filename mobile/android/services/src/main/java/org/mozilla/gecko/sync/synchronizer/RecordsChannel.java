@@ -1023,6 +1023,14 @@ is
 storeEnd
 )
 ;
+this
+.
+source
+.
+performCleanup
+(
+)
+;
 delegate
 .
 onFlowCompleted
