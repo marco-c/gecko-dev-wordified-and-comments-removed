@@ -55,10 +55,6 @@ Atom
 from_slice
 (
 s
-.
-as_slice
-(
-)
 )
 )
 }

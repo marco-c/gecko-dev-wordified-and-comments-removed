@@ -452,11 +452,8 @@ token
 :
 intern_and_get_ident
 (
+&
 new_s
-.
-as_slice
-(
-)
 )
 )
 )
@@ -478,6 +475,7 @@ cx
 span_err
 (
 sp
+&
 format
 !
 (
@@ -492,10 +490,6 @@ found
 rest
 +
 1
-)
-.
-as_slice
-(
 )
 )
 ;

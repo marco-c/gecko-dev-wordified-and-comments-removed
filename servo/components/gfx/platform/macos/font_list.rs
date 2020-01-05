@@ -191,10 +191,6 @@ font_collection
 create_for_family
 (
 family_name
-.
-as_slice
-(
-)
 )
 ;
 match

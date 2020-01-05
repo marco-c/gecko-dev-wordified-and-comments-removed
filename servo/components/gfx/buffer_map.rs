@@ -146,10 +146,6 @@ self
 ;
 bytes
 .
-as_slice
-(
-)
-.
 hash
 (
 state

@@ -1577,11 +1577,8 @@ ChildInlineSizeInfo
 {
 column_computed_inline_sizes
 :
+&
 assigned_column_inline_sizes
-.
-as_slice
-(
-)
 spacing
 :
 self

@@ -51,8 +51,6 @@ pub
 trait
 BinarySearchMethods
 <
-'
-a
 T
 :
 Ord
@@ -77,8 +75,6 @@ T
 Option
 <
 &
-'
-a
 T
 >
 ;
@@ -140,8 +136,6 @@ usize
 }
 impl
 <
-'
-a
 T
 :
 Ord
@@ -152,14 +146,9 @@ PartialEq
 >
 BinarySearchMethods
 <
-'
-a
 T
 >
 for
-&
-'
-a
 [
 T
 ]
@@ -179,8 +168,6 @@ T
 Option
 <
 &
-'
-a
 T
 >
 {
@@ -231,8 +218,6 @@ DefaultComparator
 }
 impl
 <
-'
-a
 T
 >
 FullBinarySearchMethods
@@ -240,9 +225,6 @@ FullBinarySearchMethods
 T
 >
 for
-&
-'
-a
 [
 T
 ]
