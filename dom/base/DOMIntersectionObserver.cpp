@@ -930,6 +930,11 @@ GetExtantDoc
 (
 )
 ;
+if
+(
+document
+)
+{
 document
 -
 >
@@ -938,6 +943,7 @@ RemoveIntersectionObserver
 this
 )
 ;
+}
 }
 }
 void
