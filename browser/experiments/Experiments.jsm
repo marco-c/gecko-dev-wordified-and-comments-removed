@@ -2878,13 +2878,7 @@ this
 .
 _toggleExperimentsEnabled
 (
-gPrefs
-.
-get
-(
-PREF_ENABLED
-false
-)
+gExperimentsEnabled
 )
 ;
 }
