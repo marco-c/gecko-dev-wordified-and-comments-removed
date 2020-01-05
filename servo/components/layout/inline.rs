@@ -7280,7 +7280,7 @@ to_usize
 if
 fragment
 .
-needs_layer
+needs_layered_stacking_context
 (
 )
 &
