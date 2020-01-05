@@ -3087,6 +3087,16 @@ _wipeClient
 )
 ;
 }
+getValidator
+:
+function
+(
+)
+{
+return
+null
+;
+}
 }
 ;
 this
@@ -4237,7 +4247,7 @@ _delete
 }
 ;
 }
-_itemSource
+itemSource
 :
 function
 (
@@ -4324,7 +4334,7 @@ newitems
 =
 this
 .
-_itemSource
+itemSource
 (
 )
 ;
