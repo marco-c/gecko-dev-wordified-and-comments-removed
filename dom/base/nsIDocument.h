@@ -7,7 +7,9 @@ nsIDocument_h___
 #
 include
 "
-mozFlushType
+mozilla
+/
+FlushType
 .
 h
 "

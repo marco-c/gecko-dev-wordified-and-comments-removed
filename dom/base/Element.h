@@ -89,7 +89,9 @@ h
 #
 include
 "
-mozFlushType
+mozilla
+/
+FlushType
 .
 h
 "

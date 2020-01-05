@@ -263,11 +263,6 @@ mozAutoDocUpdate
 h
 '
 '
-mozFlushType
-.
-h
-'
-'
 nsAtomListUtils
 .
 h
@@ -714,6 +709,11 @@ h
 '
 '
 FeedWriterEnabled
+.
+h
+'
+'
+FlushType
 .
 h
 '
