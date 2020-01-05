@@ -43,8 +43,6 @@ CodegenRust
 import
 GlobalGenRoots
 replaceFileIfChanged
-import
-Codegen
 def
 generate_file
 (
