@@ -57,6 +57,9 @@ mRate
 bool
 mFECEnabled
 ;
+bool
+mDtmfEnabled
+;
 int
 mMaxPlaybackRate
 ;
@@ -109,6 +112,10 @@ rate
 mFECEnabled
 (
 FECEnabled
+)
+mDtmfEnabled
+(
+false
 )
 mMaxPlaybackRate
 (
