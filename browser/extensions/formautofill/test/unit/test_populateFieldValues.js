@@ -466,8 +466,6 @@ target
 :
 {
 sendAsyncMessage
-:
-function
 (
 name
 data

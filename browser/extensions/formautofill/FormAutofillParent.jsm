@@ -103,8 +103,6 @@ _profileStore
 :
 null
 init
-:
-function
 (
 )
 {
@@ -194,8 +192,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 {
 name
@@ -246,8 +242,6 @@ break
 }
 }
 getProfileStore
-:
-function
 (
 )
 {
@@ -258,8 +252,6 @@ _profileStore
 ;
 }
 _uninit
-:
-function
 (
 )
 {
