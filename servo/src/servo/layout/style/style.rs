@@ -75,13 +75,9 @@ rcu
 reader_methods
 ;
 import
-/
-*
 layout
 :
 :
-*
-/
 base
 :
 :

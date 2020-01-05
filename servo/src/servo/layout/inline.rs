@@ -51,13 +51,9 @@ geometry
 au
 ;
 import
-/
-*
 layout
 :
 :
-*
-/
 base
 :
 :
@@ -79,13 +75,9 @@ resolve
 bug
 .
 import
-/
-*
 layout
 :
 :
-*
-/
 style
 :
 :

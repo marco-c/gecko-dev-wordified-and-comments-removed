@@ -58,6 +58,9 @@ gfx
 geometry
 ;
 import
+layout
+:
+:
 base
 :
 :
@@ -69,6 +72,9 @@ bk_intrinsic
 }
 ;
 import
+layout
+:
+:
 base
 :
 :
@@ -82,6 +88,9 @@ ntree
 }
 ;
 import
+layout
+:
+:
 base
 :
 :
@@ -91,6 +100,9 @@ wr_tree_ops
 }
 ;
 import
+layout
+:
+:
 style
 :
 :
@@ -102,6 +114,9 @@ style_methods
 }
 ;
 import
+layout
+:
+:
 text
 :
 :
