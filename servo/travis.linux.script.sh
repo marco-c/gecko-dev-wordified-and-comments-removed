@@ -145,9 +145,13 @@ github
 .
 com
 /
-{
-TRAVIS_REPO_SLUG
-}
+servo
+/
+doc
+.
+servo
+.
+org
 .
 git
 gh
