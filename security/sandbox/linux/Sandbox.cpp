@@ -402,6 +402,7 @@ args
 }
 #
 endif
+MOZ_EXPORT
 int
 gSeccompTsyncBroadcastSignum
 =

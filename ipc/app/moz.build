@@ -411,6 +411,9 @@ USE_LIBS
 '
 mozsandbox
 '
+'
+mozsandbox_interpose
+'
 ]
 #
 gcc
