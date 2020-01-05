@@ -3117,6 +3117,11 @@ sweepVarNames
 )
 ;
 void
+sweepWatchpoints
+(
+)
+;
+void
 purge
 (
 )
