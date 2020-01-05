@@ -342,6 +342,16 @@ aValue
 ;
 inline
 void
+SetNumberValue
+(
+nsCSSPropertyID
+aId
+float
+aValue
+)
+;
+inline
+void
 SetPercentValue
 (
 nsCSSPropertyID
