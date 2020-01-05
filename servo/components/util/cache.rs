@@ -1,8 +1,3 @@
-#
-!
-[
-old_impl_check
-]
 use
 std
 :
