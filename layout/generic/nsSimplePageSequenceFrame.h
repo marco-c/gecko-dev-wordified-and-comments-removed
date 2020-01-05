@@ -34,9 +34,6 @@ nsIPrintSettings
 .
 h
 "
-class
-nsIDateTimeFormat
-;
 namespace
 mozilla
 {
@@ -454,12 +451,6 @@ GetCurrentPageFrame
 ;
 nsMargin
 mMargin
-;
-nsCOMPtr
-<
-nsIDateTimeFormat
->
-mDateFormatter
 ;
 nsSize
 mSize

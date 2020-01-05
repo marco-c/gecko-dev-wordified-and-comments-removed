@@ -24,6 +24,13 @@ h
 #
 include
 "
+DateTimeFormat
+.
+h
+"
+#
+include
+"
 nsAttrValue
 .
 h
@@ -2136,6 +2143,13 @@ Shutdown
 )
 ;
 nsDOMMutationObserver
+:
+:
+Shutdown
+(
+)
+;
+DateTimeFormat
 :
 :
 Shutdown
