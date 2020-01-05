@@ -3087,6 +3087,7 @@ extraArguments
 [
 Replaceable
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
@@ -3097,6 +3098,7 @@ content
 [
 ChromeOnly
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
