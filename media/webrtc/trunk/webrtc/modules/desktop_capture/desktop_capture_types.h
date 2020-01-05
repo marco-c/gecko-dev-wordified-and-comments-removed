@@ -74,6 +74,15 @@ DesktopProcessId
 =
 0
 ;
+#
+ifdef
+XP_WIN
+typedef
+int
+pid_t
+;
+#
+endif
 }
 #
 endif

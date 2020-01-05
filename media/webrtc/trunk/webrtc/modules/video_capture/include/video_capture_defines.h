@@ -51,6 +51,15 @@ NULL
 0
 #
 endif
+#
+ifdef
+XP_WIN
+typedef
+int
+pid_t
+;
+#
+endif
 enum
 {
 kVideoCaptureUniqueNameLength

@@ -726,6 +726,7 @@ GetDeviceInfo
 0
 0
 0
+0
 )
 ;
 }
@@ -752,6 +753,9 @@ char
 productUniqueIdUTF8
 uint32_t
 productUniqueIdUTF8Length
+pid_t
+*
+pid
 )
 {
 ReadLockScoped
@@ -773,6 +777,7 @@ deviceUniqueIdUTF8
 deviceUniqueIdUTF8Length
 productUniqueIdUTF8
 productUniqueIdUTF8Length
+pid
 )
 ;
 return
@@ -812,6 +817,9 @@ char
 productUniqueIdUTF8
 uint32_t
 productUniqueIdUTF8Length
+pid_t
+*
+pid
 )
 {
 IEnumMoniker
