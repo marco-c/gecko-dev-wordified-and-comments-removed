@@ -100,7 +100,7 @@ t
 :
     
 if
-isinstance
+issubclass
 (
 t
 basestring
