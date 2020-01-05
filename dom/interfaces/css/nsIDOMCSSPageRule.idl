@@ -94,10 +94,13 @@ MPL
 #
 include
 "
-nsIDOMCSSRule
+nsISupports
 .
 idl
 "
+interface
+nsIDOMCSSStyleDeclaration
+;
 [
 scriptable
 uuid
@@ -116,7 +119,7 @@ e2d6b606c32a
 interface
 nsIDOMCSSPageRule
 :
-nsIDOMCSSRule
+nsISupports
 {
 /
 /
