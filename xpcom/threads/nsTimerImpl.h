@@ -195,6 +195,11 @@ Now
 )
 )
 ;
+bool
+CancelCheckIfFiring
+(
+)
+;
 void
 Fire
 (
