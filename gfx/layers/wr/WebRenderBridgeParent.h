@@ -102,10 +102,6 @@ CompositorVsyncSchedulerOwner
 public
 CompositableParentManager
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-WebRenderBridgeParent
-)
 public
 :
 WebRenderBridgeParent
