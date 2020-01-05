@@ -2337,16 +2337,7 @@ isMarkingTracer
 (
 )
 )
-{
-if
-(
-trc
--
->
-traceWeakEdges
-(
-)
-)
+return
 DispatchToTracer
 (
 trc
@@ -2362,9 +2353,6 @@ unsafeUnbarrieredForTracing
 name
 )
 ;
-return
-;
-}
 NoteWeakEdge
 (
 GCMarker

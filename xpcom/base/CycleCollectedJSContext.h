@@ -1212,12 +1212,6 @@ FixWeakMappingGrayBits
 )
 const
 ;
-void
-CheckGrayBits
-(
-)
-const
-;
 bool
 AreGCGrayBitsValid
 (
