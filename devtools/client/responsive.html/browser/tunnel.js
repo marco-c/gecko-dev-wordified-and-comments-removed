@@ -1233,6 +1233,10 @@ PageInfo
 :
 "
 "
+Printing
+:
+"
+"
 Social
 :
 "
@@ -1266,6 +1270,10 @@ Finder
 "
 "
 PageInfo
+:
+"
+"
+Printing
 :
 "
 "
