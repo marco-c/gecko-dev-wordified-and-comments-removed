@@ -5552,7 +5552,7 @@ wasmTruncateDoubleToInt64
 (
 FloatRegister
 input
-Register
+Register64
 output
 Label
 *
@@ -5569,7 +5569,7 @@ wasmTruncateDoubleToUInt64
 (
 FloatRegister
 input
-Register
+Register64
 output
 Label
 *
@@ -5586,7 +5586,7 @@ wasmTruncateFloat32ToInt64
 (
 FloatRegister
 input
-Register
+Register64
 output
 Label
 *
@@ -5603,7 +5603,7 @@ wasmTruncateFloat32ToUInt64
 (
 FloatRegister
 input
-Register
+Register64
 output
 Label
 *
