@@ -114,6 +114,10 @@ PVsyncBridge
 ;
 include
 protocol
+PUiCompositorController
+;
+include
+protocol
 PVideoDecoderManager
 ;
 using
@@ -364,6 +368,16 @@ InitVRManager
 Endpoint
 <
 PVRManagerParent
+>
+endpoint
+)
+;
+async
+InitUiCompositorController
+(
+Endpoint
+<
+PUiCompositorControllerParent
 >
 endpoint
 )
