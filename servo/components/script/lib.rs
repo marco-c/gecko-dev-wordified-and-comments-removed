@@ -452,6 +452,9 @@ extern
 crate
 xml5ever
 ;
+mod
+blob_url_store
+;
 pub
 mod
 bluetooth_blacklist
