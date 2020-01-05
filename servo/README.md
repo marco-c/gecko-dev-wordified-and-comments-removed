@@ -152,6 +152,9 @@ virtualenv
 libssl
 -
 dev
+libbz2
+-
+dev
 On
 Fedora
 :
@@ -212,6 +215,7 @@ openssl
 -
 devel
 cmake
+bzip2
 pushd
 .
 cd
@@ -294,6 +298,7 @@ ttf
 -
 font
 cmake
+bzip2
 Cross
 -
 compilation
