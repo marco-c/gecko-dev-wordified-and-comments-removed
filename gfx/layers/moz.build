@@ -1326,6 +1326,13 @@ h
 '
 wr
 /
+TextureHostWebRenderOGL
+.
+h
+'
+'
+wr
+/
 WebRenderBridgeChild
 .
 h
@@ -2502,6 +2509,13 @@ cpp
 '
 '
 TextureWrapperImage
+.
+cpp
+'
+'
+wr
+/
+TextureHostWebRenderOGL
 .
 cpp
 '
