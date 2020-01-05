@@ -10924,7 +10924,7 @@ JSOP_GETBOUNDNAME
 )
 {
 RootedObject
-env
+obj
 (
 cx
 &
@@ -10948,10 +10948,10 @@ name
 if
 (
 !
-GetNameBoundInEnvironment
+GetPropertyForNameLookup
 (
 cx
-env
+obj
 id
 res
 )
