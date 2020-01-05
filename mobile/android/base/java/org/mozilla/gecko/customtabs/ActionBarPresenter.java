@@ -857,17 +857,6 @@ listener
 )
 ;
 }
-ColorInt
-public
-int
-getTextPrimaryColor
-(
-)
-{
-return
-mTextPrimaryColor
-;
-}
 private
 void
 initIndicator
