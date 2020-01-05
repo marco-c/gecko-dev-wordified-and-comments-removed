@@ -8,6 +8,14 @@ Flow
 }
 ;
 use
+flow
+:
+:
+{
+IS_ABSOLUTELY_POSITIONED
+}
+;
+use
 std
 :
 :
@@ -962,8 +970,9 @@ self
 .
 flags
 .
-is_absolutely_positioned
+contains
 (
+IS_ABSOLUTELY_POSITIONED
 )
 ;
 {
@@ -1002,8 +1011,9 @@ kid
 .
 flags
 .
-is_absolutely_positioned
+contains
 (
+IS_ABSOLUTELY_POSITIONED
 )
 ;
 flow
