@@ -1995,8 +1995,13 @@ self
 )
 -
 >
+Option
+<
 String
+>
 {
+Some
+(
 self
 .
 info
@@ -2005,6 +2010,7 @@ face_name
 .
 clone
 (
+)
 )
 }
 fn
