@@ -2944,6 +2944,9 @@ ResourceTask
 {
 spawn_listener
 (
+"
+mock_resource_task
+"
 proc
 (
 port
@@ -4093,6 +4096,13 @@ mock_resource_task
 =
 spawn_listener
 (
+"
+should_not
+.
+.
+.
+already_available
+"
 proc
 (
 port
@@ -4389,6 +4399,13 @@ mock_resource_task
 =
 spawn_listener
 (
+"
+should_not
+.
+.
+.
+already_failed
+"
 proc
 (
 port
