@@ -855,6 +855,17 @@ tests
 '
 )
         
+excluded_tests_dirs
+=
+[
+'
+wpt
+'
+'
+jquery
+'
+]
+        
 tests_dirs
 =
 filter
@@ -863,11 +874,9 @@ lambda
 dir
 :
 dir
-!
-=
-'
-wpt
-'
+not
+in
+excluded_tests_dirs
 tests_dirs
 )
         
@@ -945,6 +954,7 @@ subprocess
 .
 call
 (
+            
 [
 "
 git
@@ -967,6 +977,21 @@ params
 ]
 +
 grep_paths
++
+[
+'
+:
+(
+exclude
+)
+*
+.
+min
+.
+js
+'
+]
+            
 env
 =
 self
