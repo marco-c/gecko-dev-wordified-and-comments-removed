@@ -1402,11 +1402,6 @@ InputEvent
 webidl
 '
 '
-InputMethod
-.
-webidl
-'
-'
 InspectorUtils
 .
 webidl
