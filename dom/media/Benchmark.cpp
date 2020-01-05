@@ -156,7 +156,7 @@ NS_IsMainThread
 ifdef
 MOZ_WIDGET_ANDROID
 return
-true
+false
 ;
 #
 else
