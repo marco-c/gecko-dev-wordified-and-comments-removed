@@ -27080,7 +27080,7 @@ continue
 #
 ifdef
 MOZ_DUMP_PAINTING
-PROFILER_LABEL_PRINTF
+PROFILER_LABEL_DYNAMIC
 (
 "
 DisplayList
@@ -27098,10 +27098,6 @@ Category
 :
 :
 GRAPHICS
-"
-%
-s
-"
 cdi
 -
 >

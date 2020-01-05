@@ -773,6 +773,7 @@ aCategory
 nullptr
 false
 line
+nullptr
 )
 ;
 }
@@ -798,6 +799,10 @@ bool
 aCopy
 uint32_t
 line
+const
+char
+*
+aDynamicString
 )
 {
 if
@@ -850,6 +855,13 @@ entry
 setLabel
 (
 aName
+)
+;
+entry
+.
+setDynamicString
+(
+aDynamicString
 )
 ;
 MOZ_ASSERT

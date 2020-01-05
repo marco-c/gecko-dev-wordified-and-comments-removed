@@ -586,7 +586,7 @@ GetSpecOrDefault
 ;
 }
 }
-PROFILER_LABEL_PRINTF
+PROFILER_LABEL_DYNAMIC
 (
 "
 RestyleTracker
@@ -604,12 +604,6 @@ Category
 :
 :
 CSS
-"
-(
-%
-s
-)
-"
 docURL
 .
 get
