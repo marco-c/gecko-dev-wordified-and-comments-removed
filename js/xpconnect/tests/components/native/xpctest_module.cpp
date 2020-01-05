@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+ModuleUtils
+.
+h
+"
+#
+include
+"
 xpctest_private
 .
 h
@@ -271,6 +280,7 @@ nullptr
 }
 }
 ;
+static
 const
 mozilla
 :
@@ -289,4 +299,12 @@ kVersion
 kXPCTestCIDs
 kXPCTestContracts
 }
+;
+NSMODULE_DEFN
+(
+xpconnect_test
+)
+=
+&
+kXPCTestModule
 ;
