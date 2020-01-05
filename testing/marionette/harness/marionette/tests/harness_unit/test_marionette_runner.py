@@ -913,9 +913,6 @@ basic_args
 =
 [
 '
-timeout
-'
-'
 socket_timeout
 '
 '
