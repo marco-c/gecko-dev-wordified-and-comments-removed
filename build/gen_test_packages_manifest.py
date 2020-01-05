@@ -47,6 +47,10 @@ talos
 '
     
 '
+awsy
+'
+    
+'
 gtest
 '
 ]
@@ -78,6 +82,10 @@ platform
     
 '
 talos
+'
+    
+'
+awsy
 '
 ]
 OPTIONAL_PACKAGES

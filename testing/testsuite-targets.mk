@@ -1120,6 +1120,8 @@ reftest
 \
 talos
 \
+awsy
+\
 web
 -
 platform

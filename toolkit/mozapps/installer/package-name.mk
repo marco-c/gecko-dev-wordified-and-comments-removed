@@ -558,6 +558,17 @@ talos
 tests
 .
 zip
+AWSY_PACKAGE
+=
+(
+PKG_BASENAME
+)
+.
+awsy
+.
+tests
+.
+zip
 GTEST_PACKAGE
 =
 (
