@@ -5,7 +5,7 @@ addons
 :
 {
 "
-update
+update2
 tests
 .
 mozilla
@@ -90,7 +90,7 @@ advisory_max_version
 ]
 }
 "
-update_icon
+update_icon2
 tests
 .
 mozilla
