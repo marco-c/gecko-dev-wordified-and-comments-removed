@@ -824,7 +824,7 @@ addEventListener
 "
 click
 "
-this
+RecentlyClosedTabsAndWindowsMenuUtils
 .
 _undoCloseMiddleClick
 false
