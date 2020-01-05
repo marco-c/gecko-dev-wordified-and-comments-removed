@@ -270,6 +270,14 @@ NS_ERROR_NULL_POINTER
 ErrorResult
 error
 ;
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mRefNode
+;
 mParent
 -
 >
@@ -277,7 +285,7 @@ InsertBefore
 (
 *
 mNode
-mRefNode
+refNode
 error
 )
 ;

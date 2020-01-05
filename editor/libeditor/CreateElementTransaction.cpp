@@ -339,6 +339,14 @@ GetChildAt
 mOffsetInParent
 )
 ;
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mRefNode
+;
 mParent
 -
 >
@@ -346,7 +354,7 @@ InsertBefore
 (
 *
 mNewNode
-mRefNode
+refNode
 rv
 )
 ;
@@ -497,6 +505,14 @@ mParent
 ErrorResult
 rv
 ;
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mRefNode
+;
 mParent
 -
 >
@@ -504,7 +520,7 @@ InsertBefore
 (
 *
 mNewNode
-mRefNode
+refNode
 rv
 )
 ;

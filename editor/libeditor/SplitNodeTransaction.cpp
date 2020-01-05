@@ -492,6 +492,14 @@ nextSibling
 ;
 }
 }
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mExistingRightNode
+;
 mParent
 -
 >
@@ -499,7 +507,7 @@ InsertBefore
 (
 *
 mNewLeftNode
-mExistingRightNode
+refNode
 rv
 )
 ;
