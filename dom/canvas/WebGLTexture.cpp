@@ -4745,8 +4745,11 @@ maybeIntParam
 :
 GLint
 (
+roundf
+(
 *
 maybeFloatParam
+)
 )
 ;
 GLfloat
