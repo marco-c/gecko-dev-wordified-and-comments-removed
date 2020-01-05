@@ -926,6 +926,15 @@ aEvent
 )
 ;
 nsEventStatus
+OnSecondTap
+(
+const
+TapGestureInput
+&
+aEvent
+)
+;
+nsEventStatus
 OnCancelTap
 (
 const

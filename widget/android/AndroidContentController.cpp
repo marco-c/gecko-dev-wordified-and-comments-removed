@@ -440,6 +440,7 @@ NS_IsMainThread
 )
 &
 &
+(
 aType
 =
 =
@@ -447,6 +448,16 @@ TapType
 :
 :
 eSingleTap
+|
+|
+aType
+=
+=
+TapType
+:
+:
+eSecondTap
+)
 )
 {
 DispatchSingleTapToObservers

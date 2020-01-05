@@ -239,6 +239,12 @@ CreateMaxTapTimeoutTask
 (
 )
 ;
+Maybe
+<
+bool
+>
+mSingleTapSent
+;
 }
 ;
 }

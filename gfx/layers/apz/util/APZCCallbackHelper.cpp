@@ -2047,6 +2047,8 @@ LayoutDevicePoint
 aRefPoint
 Modifiers
 aModifiers
+int32_t
+aClickCount
 nsIWidget
 *
 aWidget
@@ -2153,7 +2155,7 @@ event
 .
 mClickCount
 =
-1
+aClickCount
 ;
 }
 event
@@ -2266,6 +2268,8 @@ LayoutDevicePoint
 aPoint
 Modifiers
 aModifiers
+int32_t
+aClickCount
 nsIWidget
 *
 aWidget
@@ -2320,6 +2324,7 @@ eMouseMove
 time
 aPoint
 aModifiers
+aClickCount
 aWidget
 )
 ;
@@ -2329,6 +2334,7 @@ eMouseDown
 time
 aPoint
 aModifiers
+aClickCount
 aWidget
 )
 ;
@@ -2338,6 +2344,7 @@ eMouseUp
 time
 aPoint
 aModifiers
+aClickCount
 aWidget
 )
 ;

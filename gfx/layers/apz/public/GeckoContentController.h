@@ -86,6 +86,7 @@ TapType
 {
 eSingleTap
 eDoubleTap
+eSecondTap
 eLongTap
 eLongTapUp
 eSentinel
