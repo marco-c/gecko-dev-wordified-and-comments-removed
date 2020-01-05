@@ -15348,11 +15348,7 @@ gecko_filter
 )
 DropShadow
 (
-offset_x
-offset_y
-blur_radius
-ref
-color
+shadow
 )
 =
 >
@@ -15440,6 +15436,8 @@ mArray
 .
 mXOffset
 =
+shadow
+.
 offset_x
 .
 0
@@ -15453,6 +15451,8 @@ mArray
 .
 mYOffset
 =
+shadow
+.
 offset_y
 .
 0
@@ -15466,6 +15466,8 @@ mArray
 .
 mRadius
 =
+shadow
+.
 blur_radius
 .
 0
@@ -15514,7 +15516,8 @@ mArray
 mColor
 =
 match
-*
+shadow
+.
 color
 {
 Color
