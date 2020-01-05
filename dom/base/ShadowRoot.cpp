@@ -961,10 +961,7 @@ mIdentifierMap
 .
 PutEntry
 (
-nsDependentAtomString
-(
 aId
-)
 )
 ;
 if
@@ -1004,10 +1001,7 @@ mIdentifierMap
 .
 GetEntry
 (
-nsDependentAtomString
-(
 aId
-)
 )
 ;
 if
