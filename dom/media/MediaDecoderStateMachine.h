@@ -1501,9 +1501,6 @@ PLAY_STATE_PLAYING
 SeekJob
 mQueuedSeek
 ;
-SeekJob
-mCurrentSeek
-;
 int64_t
 mFragmentEndTime
 ;
