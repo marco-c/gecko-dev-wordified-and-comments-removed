@@ -2594,14 +2594,6 @@ nsCString
 )
 ;
 void
-DealWithFailedElement
-(
-nsIContent
-*
-aSourceElement
-)
-;
-void
 LoadFromSourceChildren
 (
 )
