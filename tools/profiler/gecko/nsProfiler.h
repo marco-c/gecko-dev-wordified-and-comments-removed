@@ -108,6 +108,10 @@ WillGatherOOPProfile
 void
 GatheredOOPProfile
 (
+const
+nsACString
+&
+aProfile
 )
 ;
 void

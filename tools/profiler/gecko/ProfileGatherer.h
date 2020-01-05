@@ -49,6 +49,10 @@ WillGatherOOPProfile
 void
 GatheredOOPProfile
 (
+const
+nsACString
+&
+aProfile
 )
 ;
 void
@@ -115,6 +119,12 @@ Start2
 double
 aSinceTime
 )
+;
+nsTArray
+<
+nsCString
+>
+mResponseProfiles
 ;
 nsTArray
 <
