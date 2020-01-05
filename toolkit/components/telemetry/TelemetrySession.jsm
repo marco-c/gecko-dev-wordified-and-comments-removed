@@ -4675,7 +4675,7 @@ toLocalTimeISOString
 (
 Utils
 .
-truncateToDays
+truncateToHours
 (
 this
 .
@@ -4692,7 +4692,7 @@ toLocalTimeISOString
 (
 Utils
 .
-truncateToDays
+truncateToHours
 (
 this
 .

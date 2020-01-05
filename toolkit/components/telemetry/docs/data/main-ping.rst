@@ -542,8 +542,13 @@ date
 >
 /
 /
-daily
+hourly
 precision
+ISO
+date
+in
+local
+time
 subsessionStartDate
 :
 <
@@ -552,7 +557,7 @@ date
 >
 /
 /
-daily
+hourly
 precision
 ISO
 date
