@@ -3478,7 +3478,7 @@ formControl
 >
 IsSingleLineTextControl
 (
-true
+false
 )
 )
 return
