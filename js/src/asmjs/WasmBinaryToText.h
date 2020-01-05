@@ -14,6 +14,15 @@ h
 #
 include
 "
+asmjs
+/
+WasmGeneratedSourceMap
+.
+h
+"
+#
+include
+"
 gc
 /
 Rooting
@@ -54,6 +63,11 @@ length
 StringBuffer
 &
 buffer
+GeneratedSourceMap
+*
+sourceMap
+=
+nullptr
 )
 ;
 }
