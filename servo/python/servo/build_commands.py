@@ -784,13 +784,6 @@ self
 build_env
 (
 )
-cwd
-=
-self
-.
-servo_crate
-(
-)
 )
         
 elapsed
