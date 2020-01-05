@@ -2725,9 +2725,6 @@ mGLName
 target
 level
 usage
-0
-0
-0
 width
 height
 depth
