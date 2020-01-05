@@ -792,14 +792,6 @@ isChained
 =
 mIsChained
 ;
-RefPtr
-<
-OggDemuxer
->
-self
-=
-this
-;
 nsCOMPtr
 <
 nsIRunnable
@@ -809,9 +801,7 @@ task
 NS_NewRunnableFunction
 (
 [
-this
-self
-isChained
+=
 ]
 (
 )
