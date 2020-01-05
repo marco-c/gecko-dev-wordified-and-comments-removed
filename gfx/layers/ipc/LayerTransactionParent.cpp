@@ -4987,9 +4987,9 @@ return
 false
 ;
 }
-TextureSourceProvider
+Compositor
 *
-provider
+compositor
 =
 static_cast
 <
@@ -5006,7 +5006,7 @@ Manager
 )
 -
 >
-GetTextureSourceProvider
+GetCompositor
 (
 )
 ;
@@ -5032,7 +5032,7 @@ aCompositable
 Attach
 (
 aLayer
-provider
+compositor
 aIsAsync
 ?
 CompositableHost

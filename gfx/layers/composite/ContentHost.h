@@ -462,9 +462,6 @@ virtual
 void
 Composite
 (
-Compositor
-*
-aCompositor
 LayerComposite
 *
 aLayer
@@ -518,12 +515,13 @@ override
 ;
 virtual
 void
-SetTextureSourceProvider
+SetCompositor
 (
-TextureSourceProvider
+Compositor
 *
-aProvider
+aCompositor
 )
+override
 ;
 virtual
 already_AddRefed
