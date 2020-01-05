@@ -157,6 +157,16 @@ alias
 of
 .
 value
+attribute
+DOMString
+nodeValue
+;
+/
+/
+alias
+of
+.
+value
 readonly
 attribute
 Element
