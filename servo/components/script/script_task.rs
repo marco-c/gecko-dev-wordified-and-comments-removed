@@ -2817,11 +2817,10 @@ is
 running
 .
 if
-!
 cfg
 !
 (
-ndebug
+debug_assertions
 )
 {
 unsafe

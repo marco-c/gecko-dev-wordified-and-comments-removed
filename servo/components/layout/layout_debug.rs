@@ -127,10 +127,7 @@ if
 cfg
 !
 (
-not
-(
-ndebug
-)
+debug_assertions
 )
 {
 layout_debug
@@ -364,10 +361,7 @@ Scope
 [
 cfg
 (
-not
-(
-ndebug
-)
+debug_assertions
 )
 ]
 impl
