@@ -237,9 +237,6 @@ GeckoCppUnitTests
 (
 [
 '
-TestID
-'
-'
 TestNsRefPtr
 '
 '
