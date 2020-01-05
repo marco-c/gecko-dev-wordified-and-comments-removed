@@ -504,9 +504,7 @@ android
 layout_height
 =
 "
-dimen
-/
-activity_stream_contextmenu_max_menu_height
+wrap_content
 "
 >
 <
