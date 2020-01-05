@@ -16,7 +16,9 @@ NET_STRINGS_URI
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 netmonitor
 .

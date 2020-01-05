@@ -124,10 +124,10 @@ STYLE_INSPECTOR_PROPERTIES
 =
 "
 devtools
--
+/
 shared
 /
-locale
+locales
 /
 styleinspector
 .

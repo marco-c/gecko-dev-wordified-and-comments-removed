@@ -57,7 +57,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 device
 .

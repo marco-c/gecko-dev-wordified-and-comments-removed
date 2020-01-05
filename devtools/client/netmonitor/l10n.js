@@ -25,7 +25,9 @@ NET_STRINGS_URI
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 netmonitor
 .
@@ -38,7 +40,9 @@ WEBCONSOLE_STRINGS_URI
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 webconsole
 .

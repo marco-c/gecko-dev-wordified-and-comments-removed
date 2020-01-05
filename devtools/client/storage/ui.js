@@ -208,7 +208,9 @@ STORAGE_STRINGS
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 storage
 .
