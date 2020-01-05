@@ -22,9 +22,6 @@ nsIFile
 .
 h
 "
-class
-Sampler
-;
 namespace
 mozilla
 {
@@ -42,9 +39,6 @@ NS_DECL_NSIOBSERVER
 explicit
 ProfileGatherer
 (
-Sampler
-*
-aSampler
 )
 ;
 void
@@ -151,9 +145,8 @@ nsIFile
 >
 mFile
 ;
-Sampler
-*
-mSampler
+bool
+mIsCancelled
 ;
 double
 mSinceTime
