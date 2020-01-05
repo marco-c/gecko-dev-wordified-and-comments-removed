@@ -872,6 +872,7 @@ CounterStyleManager
 CounterStyleManager
 (
 )
+const
 {
 return
 mCounterStyleManager
@@ -1651,6 +1652,7 @@ nsDeviceContext
 DeviceContext
 (
 )
+const
 {
 return
 mDeviceContext
@@ -1693,6 +1695,7 @@ float
 TextZoom
 (
 )
+const
 {
 return
 mTextZoom
