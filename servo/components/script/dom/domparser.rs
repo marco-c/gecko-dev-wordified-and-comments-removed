@@ -523,7 +523,6 @@ parse_html_document
 document
 s
 url
-None
 )
 ;
 document
@@ -606,7 +605,6 @@ parse_xml_document
 document
 s
 url
-None
 )
 ;
 Ok
