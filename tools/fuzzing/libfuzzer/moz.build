@@ -117,11 +117,6 @@ FuzzerCrossOver
 cpp
 '
 '
-FuzzerCustomMain
-.
-cpp
-'
-'
 FuzzerDriver
 .
 cpp

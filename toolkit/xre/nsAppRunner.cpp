@@ -1483,10 +1483,10 @@ libFuzzerRunner
 ;
 }
 void
-XRE_LibFuzzerSetMain
+XRE_LibFuzzerSetDriver
 (
-LibFuzzerMain
-main
+LibFuzzerDriver
+aDriver
 )
 {
 mozilla
@@ -1497,7 +1497,7 @@ libFuzzerRunner
 >
 setParams
 (
-main
+aDriver
 )
 ;
 }
@@ -16383,7 +16383,9 @@ libFuzzerRunner
 >
 Run
 (
+&
 gArgc
+&
 gArgv
 )
 ;

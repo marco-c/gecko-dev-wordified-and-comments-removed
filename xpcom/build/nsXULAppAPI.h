@@ -815,9 +815,9 @@ h
 XRE_API
 (
 void
-XRE_LibFuzzerSetMain
+XRE_LibFuzzerSetDriver
 (
-LibFuzzerMain
+LibFuzzerDriver
 )
 )
 XRE_API

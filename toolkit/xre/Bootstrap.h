@@ -377,10 +377,10 @@ ifdef
 LIBFUZZER
 virtual
 void
-XRE_LibFuzzerSetMain
+XRE_LibFuzzerSetDriver
 (
-LibFuzzerMain
-aMain
+LibFuzzerDriver
+aDriver
 )
 =
 0

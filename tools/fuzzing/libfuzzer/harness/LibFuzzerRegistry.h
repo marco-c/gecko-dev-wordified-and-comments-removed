@@ -74,14 +74,15 @@ typedef
 int
 (
 *
-LibFuzzerMain
+LibFuzzerDriver
 )
 (
 int
+*
 char
 *
 *
-LibFuzzerInitFunc
+*
 LibFuzzerTestingFunc
 )
 ;
