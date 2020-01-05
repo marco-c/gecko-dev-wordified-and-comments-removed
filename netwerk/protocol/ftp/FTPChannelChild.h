@@ -101,6 +101,9 @@ h
 namespace
 mozilla
 {
+class
+Dispatcher
+;
 namespace
 net
 {
@@ -561,6 +564,17 @@ mFlushedForDiversion
 ;
 bool
 mSuspendSent
+;
+RefPtr
+<
+Dispatcher
+>
+mDispatcher
+;
+void
+EnsureDispatcher
+(
+)
 ;
 }
 ;
