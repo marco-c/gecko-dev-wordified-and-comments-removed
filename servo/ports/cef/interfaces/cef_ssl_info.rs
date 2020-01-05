@@ -202,6 +202,7 @@ mut
 cef_sslcert_principal_t
 addresses
 :
+&
 types
 :
 :
@@ -230,6 +231,7 @@ mut
 cef_sslcert_principal_t
 names
 :
+&
 types
 :
 :
@@ -258,6 +260,7 @@ mut
 cef_sslcert_principal_t
 names
 :
+&
 types
 :
 :
@@ -286,6 +289,7 @@ mut
 cef_sslcert_principal_t
 components
 :
+&
 types
 :
 :
@@ -1101,6 +1105,7 @@ get_street_addresses
 self
 addresses
 :
+&
 Vec
 <
 String
@@ -1192,6 +1197,7 @@ get_organization_names
 self
 names
 :
+&
 Vec
 <
 String
@@ -1283,6 +1289,7 @@ get_organization_unit_names
 self
 names
 :
+&
 Vec
 <
 String
@@ -1374,6 +1381,7 @@ get_domain_components
 self
 components
 :
+&
 Vec
 <
 String

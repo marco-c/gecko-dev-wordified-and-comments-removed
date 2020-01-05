@@ -246,6 +246,7 @@ mut
 cef_command_line_t
 argv
 :
+&
 types
 :
 :
@@ -560,6 +561,7 @@ mut
 cef_command_line_t
 arguments
 :
+&
 types
 :
 :
@@ -1562,6 +1564,7 @@ get_argv
 self
 argv
 :
+&
 Vec
 <
 String
@@ -2528,6 +2531,7 @@ get_arguments
 self
 arguments
 :
+&
 Vec
 <
 String

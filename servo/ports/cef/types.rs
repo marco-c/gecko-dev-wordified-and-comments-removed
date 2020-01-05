@@ -91,10 +91,14 @@ cef_string_multimap_t
 {
 }
 pub
-enum
+type
 cef_string_list_t
-{
-}
+=
+Vec
+<
+String
+>
+;
 pub
 enum
 cef_text_input_context_t

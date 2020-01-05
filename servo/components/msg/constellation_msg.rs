@@ -614,6 +614,11 @@ RemoveIFrame
 PipelineId
 SubpageId
 )
+NewFavicon
+(
+Url
+)
+HeadParsed
 }
 #
 [

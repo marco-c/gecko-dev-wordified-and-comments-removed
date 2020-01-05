@@ -5921,6 +5921,7 @@ mut
 cef_v8value_t
 keys
 :
+&
 types
 :
 :
@@ -9566,6 +9567,7 @@ get_keys
 self
 keys
 :
+&
 Vec
 <
 String
