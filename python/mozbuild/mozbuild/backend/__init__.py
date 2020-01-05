@@ -83,6 +83,18 @@ recursivemake
 '
     
 '
+TestManifest
+'
+:
+'
+mozbuild
+.
+backend
+.
+test_manifest
+'
+    
+'
 Tup
 '
 :
