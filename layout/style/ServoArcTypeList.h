@@ -23,3 +23,8 @@ SERVO_ARC_TYPE
 StyleRule
 RawServoStyleRule
 )
+SERVO_ARC_TYPE
+(
+ImportRule
+RawServoImportRule
+)

@@ -818,7 +818,10 @@ nsMediaList
 aMedia
 ImportRule
 *
-aRule
+aGeckoParentRule
+RawServoImportRule
+*
+aServoParentRule
 LoaderReusableStyleSheets
 *
 aSavedSheets
@@ -1152,7 +1155,10 @@ StyleSheet
 aParentSheet
 ImportRule
 *
-aParentRule
+aGeckoParentRule
+RawServoImportRule
+*
+aServoParentRule
 )
 ;
 nsresult
