@@ -497,7 +497,10 @@ sync
 atomic
 :
 :
+{
 AtomicBool
+AtomicUsize
+}
 ;
 use
 std
@@ -1670,6 +1673,7 @@ f64
 String
 Url
 AtomicBool
+AtomicUsize
 Uuid
 )
 ;
