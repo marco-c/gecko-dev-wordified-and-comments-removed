@@ -944,6 +944,15 @@ err
 }
 if
 (
+kind
+!
+=
+"
+Phish
+"
+&
+&
+(
 !
 info
 .
@@ -954,6 +963,7 @@ list
 info
 .
 uri
+)
 )
 {
 return
