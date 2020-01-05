@@ -1265,7 +1265,7 @@ startIndx
 {
 mFirst
 =
-GetNextSibling
+NextNode
 (
 startNode
 )
@@ -1274,7 +1274,7 @@ NS_WARNING_ASSERTION
 (
 mFirst
 "
-GetNextSibling
+NextNode
 returned
 null
 "
@@ -1490,7 +1490,7 @@ endIndx
 {
 mLast
 =
-GetPrevSibling
+PrevNode
 (
 endNode
 )
@@ -1499,7 +1499,7 @@ NS_WARNING_ASSERTION
 (
 mLast
 "
-GetPrevSibling
+PrevNode
 returned
 null
 "
