@@ -3349,6 +3349,16 @@ DontReprotect
 false
 }
 ;
+enum
+class
+RoundingMode
+{
+Down
+Up
+NearestTiesToEven
+TowardsZero
+}
+;
 }
 }
 #
