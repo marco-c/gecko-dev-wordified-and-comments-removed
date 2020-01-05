@@ -10310,13 +10310,7 @@ return
 NS_OK
 ;
 }
-nsTArray
-<
-OwningNonNull
-<
-nsIDocumentStateListener
->
->
+AutoDocumentStateListenerArray
 listeners
 (
 mDocStateListeners
