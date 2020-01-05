@@ -185,6 +185,7 @@ getFormDataSections
 formDataURI
 writeHeaderText
 getKeyWithEvent
+getUriHostPort
 }
 =
 require
@@ -7021,11 +7022,7 @@ cipherSuite
 let
 domain
 =
-NetMonitorView
-.
-RequestsMenu
-.
-_getUriHostPort
+getUriHostPort
 (
 url
 )

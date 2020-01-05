@@ -114,6 +114,13 @@ view
 .
 js
 '
+'
+sort
+-
+predicates
+.
+js
+'
 )
 BROWSER_CHROME_MANIFESTS
 +
