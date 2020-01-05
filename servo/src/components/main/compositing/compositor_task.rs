@@ -524,6 +524,9 @@ metadata
 .
 id
 size
+metadata
+.
+background_color
 )
 )
 ;
@@ -821,6 +824,7 @@ Size2D
 <
 f32
 >
+Color
 )
 CreateDescendantCompositorLayerIfNecessary
 (
