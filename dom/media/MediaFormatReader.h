@@ -214,15 +214,6 @@ GetBuffered
 )
 override
 ;
-RefPtr
-<
-BufferedUpdatePromise
->
-UpdateBufferedWithPromise
-(
-)
-override
-;
 bool
 ForceZeroStartTime
 (

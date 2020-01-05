@@ -1639,15 +1639,6 @@ mozilla
 MediaMetadataManager
 mMetadataManager
 ;
-MozPromiseRequestHolder
-<
-MediaDecoderReader
-:
-:
-BufferedUpdatePromise
->
-mBufferedUpdateRequest
-;
 bool
 mSentLoadedMetadataEvent
 ;
