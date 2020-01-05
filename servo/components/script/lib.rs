@@ -129,14 +129,6 @@ slice_patterns
 #
 !
 [
-feature
-(
-str_utf16
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code

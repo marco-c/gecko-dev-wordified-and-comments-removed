@@ -6526,7 +6526,7 @@ u16
 =
 code
 .
-utf16_units
+encode_utf16
 (
 )
 .

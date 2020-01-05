@@ -563,7 +563,7 @@ new_length
 =
 data
 .
-utf16_units
+encode_utf16
 (
 )
 .
@@ -637,7 +637,7 @@ borrow
 (
 )
 .
-utf16_units
+encode_utf16
 (
 )
 .
@@ -1035,7 +1035,7 @@ offset
 count
 arg
 .
-utf16_units
+encode_utf16
 (
 )
 .

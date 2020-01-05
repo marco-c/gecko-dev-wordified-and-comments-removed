@@ -67,14 +67,6 @@ plugin
 [
 feature
 (
-str_utf16
-)
-]
-#
-!
-[
-feature
-(
 unicode
 )
 ]
