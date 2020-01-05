@@ -50,6 +50,8 @@ Content
 ContentRefDeserializer
 ContentDeserializer
 TaggedContentVisitor
+TagOrContentField
+TagOrContentFieldVisitor
 InternallyTaggedUnitVisitor
 UntaggedUnitVisitor
 }

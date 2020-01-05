@@ -299,7 +299,6 @@ fn
 pow
 (
 self
-mut
 exp
 :
 u32

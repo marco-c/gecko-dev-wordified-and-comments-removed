@@ -494,7 +494,6 @@ lo
 hi
 )
 |
-{
 if
 c
 <
@@ -513,7 +512,6 @@ Less
 else
 {
 Equal
-}
 }
 )
 .

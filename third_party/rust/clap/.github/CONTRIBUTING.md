@@ -680,6 +680,9 @@ examples
 /
 ]
 (
+.
+.
+/
 examples
 )
 directory

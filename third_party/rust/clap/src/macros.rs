@@ -2897,6 +2897,8 @@ modes
 tt
 !
 ident
+:
+ident
 (
 tail
 :
