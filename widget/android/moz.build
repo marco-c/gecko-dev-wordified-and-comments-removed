@@ -153,6 +153,11 @@ widget
 =
 [
 '
+AndroidColors
+.
+h
+'
+'
 AndroidCompositorWidget
 .
 h
