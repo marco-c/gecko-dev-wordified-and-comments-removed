@@ -837,6 +837,12 @@ Some
 render_layer
 )
 ;
+self
+.
+last_paint_msg
+=
+None
+;
 }
 ReRenderMsg
 (
