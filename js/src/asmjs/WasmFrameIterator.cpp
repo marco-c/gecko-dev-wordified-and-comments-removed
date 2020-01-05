@@ -3672,7 +3672,7 @@ kind
 CallSite
 :
 :
-Relative
+FuncDef
 )
 return
 ;

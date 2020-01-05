@@ -5147,7 +5147,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Relative
+FuncDef
 )
 ;
 MIRType
@@ -5519,7 +5519,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Dynamic
 )
 ;
 auto
@@ -5636,7 +5636,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Dynamic
 )
 ;
 auto
@@ -5746,7 +5746,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Symbolic
 )
 ;
 auto
@@ -5857,7 +5857,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Symbolic
 )
 ;
 auto

@@ -9795,7 +9795,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Relative
+FuncDef
 )
 ;
 masm
@@ -9830,7 +9830,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Symbolic
 )
 ;
 masm
@@ -10033,7 +10033,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Dynamic
 )
 ;
 masm
@@ -10084,7 +10084,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Dynamic
 )
 ;
 CalleeDesc
@@ -10168,7 +10168,7 @@ lineOrBytecode_
 CallSiteDesc
 :
 :
-Register
+Symbolic
 )
 ;
 masm
