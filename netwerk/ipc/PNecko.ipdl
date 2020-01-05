@@ -510,8 +510,8 @@ OptionalURIParams
 sourceURI
 uint32_t
 reason
-SerializedLoadContext
-loadContext
+OriginAttributes
+originAttributes
 bool
 hasVerifier
 )
@@ -525,8 +525,8 @@ OptionalURIParams
 sourceURI
 uint32_t
 reason
-SerializedLoadContext
-loadContext
+OriginAttributes
+originAttributes
 )
 ;
 async
