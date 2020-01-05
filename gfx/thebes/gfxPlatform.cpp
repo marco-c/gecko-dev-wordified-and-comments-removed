@@ -7692,6 +7692,14 @@ SetContentBackend
 mContentBackend
 )
 ;
+gfxVars
+:
+:
+SetSoftwareBackend
+(
+mSoftwareBackend
+)
+;
 }
 }
 BackendType
