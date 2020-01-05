@@ -966,6 +966,12 @@ type
 string
 "
 "
+default
+"
+:
+"
+"
+"
 optional
 "
 :
