@@ -33585,7 +33585,7 @@ int
 eSideTop
 =
 =
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 "
 Check
 for
@@ -33602,7 +33602,7 @@ int
 eSideRight
 =
 =
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 "
 Check
 for
@@ -33619,7 +33619,7 @@ int
 eSideBottom
 =
 =
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 "
 Check
 for
@@ -33636,7 +33636,7 @@ int
 eSideLeft
 =
 =
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 "
 Check
 for
@@ -33655,7 +33655,7 @@ eSideTop
 =
 (
 (
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 -
 1
 )
@@ -33680,7 +33680,7 @@ eSideRight
 =
 (
 (
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 -
 1
 )
@@ -33705,7 +33705,7 @@ eSideBottom
 =
 (
 (
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 -
 1
 )
@@ -33730,7 +33730,7 @@ eSideLeft
 =
 (
 (
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 -
 1
 )
@@ -33787,7 +33787,7 @@ NS_CORNER_TOP_LEFT_X
 2
 =
 =
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 "
 Check
 for
@@ -33805,7 +33805,7 @@ NS_CORNER_TOP_LEFT_Y
 2
 =
 =
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 "
 Check
 for
@@ -33823,7 +33823,7 @@ NS_CORNER_TOP_RIGHT_X
 2
 =
 =
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 "
 Check
 for
@@ -33841,7 +33841,7 @@ NS_CORNER_TOP_RIGHT_Y
 2
 =
 =
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 "
 Check
 for
@@ -33859,7 +33859,7 @@ NS_CORNER_BOTTOM_RIGHT_X
 2
 =
 =
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 "
 Check
 for
@@ -33877,7 +33877,7 @@ NS_CORNER_BOTTOM_RIGHT_Y
 2
 =
 =
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 "
 Check
 for
@@ -33895,7 +33895,7 @@ NS_CORNER_BOTTOM_LEFT_X
 2
 =
 =
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 "
 Check
 for
@@ -33913,7 +33913,7 @@ NS_CORNER_BOTTOM_LEFT_Y
 2
 =
 =
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 "
 Check
 for

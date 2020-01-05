@@ -1546,10 +1546,7 @@ presShell
 >
 FlushPendingNotifications
 (
-FlushType
-:
-:
-Style
+Flush_Style
 )
 ;
 return
@@ -2464,15 +2461,9 @@ FlushPendingNotifications
 (
 aNeedsLayoutFlush
 ?
-FlushType
+Flush_Layout
 :
-:
-Layout
-:
-FlushType
-:
-:
-Style
+Flush_Style
 )
 ;
 #
@@ -15078,7 +15069,7 @@ StyleBorder
 -
 >
 mBorderRadius
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 )
 ;
 }
@@ -15102,7 +15093,7 @@ StyleBorder
 -
 >
 mBorderRadius
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 )
 ;
 }
@@ -15126,7 +15117,7 @@ StyleBorder
 -
 >
 mBorderRadius
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 )
 ;
 }
@@ -15150,7 +15141,7 @@ StyleBorder
 -
 >
 mBorderRadius
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 )
 ;
 }
@@ -16187,7 +16178,7 @@ StyleOutline
 -
 >
 mOutlineRadius
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 )
 ;
 }
@@ -16211,7 +16202,7 @@ StyleOutline
 -
 >
 mOutlineRadius
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 )
 ;
 }
@@ -16235,7 +16226,7 @@ StyleOutline
 -
 >
 mOutlineRadius
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 )
 ;
 }
@@ -16259,7 +16250,7 @@ StyleOutline
 -
 >
 mOutlineRadius
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 )
 ;
 }
