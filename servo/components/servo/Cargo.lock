@@ -2231,7 +2231,7 @@ version
 .
 1
 .
-6
+7
 "
 source
 =
@@ -6275,7 +6275,7 @@ servo
 /
 devices
 #
-cac0952154f65b416acef273a6d1099421ce113e
+3c39846a019eeed939eb7090096631254e6b5efc
 "
 dependencies
 =
@@ -6286,7 +6286,7 @@ blurz
 .
 1
 .
-6
+7
 (
 registry
 +
