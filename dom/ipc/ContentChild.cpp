@@ -6813,7 +6813,6 @@ Create
 aTabId
 )
 ;
-return
 CompositorBridgeChild
 :
 :
@@ -6827,6 +6826,9 @@ SendPAPZConstructor
 apz
 aLayersId
 )
+;
+return
+true
 ;
 }
 bool
