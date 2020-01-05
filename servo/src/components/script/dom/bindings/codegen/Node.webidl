@@ -324,8 +324,6 @@ hasChildNodes
 (
 )
 ;
-/
-*
 [
 Constant
 ]
@@ -334,8 +332,6 @@ attribute
 NodeList
 childNodes
 ;
-*
-/
 [
 Pure
 ]
