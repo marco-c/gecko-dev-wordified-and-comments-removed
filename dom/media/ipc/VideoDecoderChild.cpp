@@ -468,7 +468,7 @@ mCallback
 >
 Error
 (
-NS_ERROR_DOM_MEDIA_NEED_NEW_DECODER
+NS_ERROR_DOM_MEDIA_DECODE_ERR
 )
 ;
 }
@@ -481,7 +481,7 @@ mInitPromise
 .
 RejectIfExists
 (
-NS_ERROR_DOM_MEDIA_NEED_NEW_DECODER
+NS_ERROR_DOM_MEDIA_DECODE_ERR
 __func__
 )
 ;
