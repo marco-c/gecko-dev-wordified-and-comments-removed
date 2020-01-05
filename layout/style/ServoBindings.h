@@ -1278,6 +1278,13 @@ uint32_t
 flags
 )
 ;
+void
+Gecko_SetOwnerDocumentNeedsStyleFlush
+(
+RawGeckoElementBorrowed
+element
+)
+;
 nsStyleContext
 *
 Gecko_GetStyleContext
