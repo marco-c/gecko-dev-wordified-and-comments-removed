@@ -614,6 +614,10 @@ URIParams
 &
 aURI
 const
+Principal
+&
+aPrincipal
+const
 bool
 &
 aAnonymous

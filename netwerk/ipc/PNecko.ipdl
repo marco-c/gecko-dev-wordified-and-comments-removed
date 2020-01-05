@@ -539,6 +539,8 @@ SpeculativeConnect
 (
 URIParams
 uri
+Principal
+principal
 bool
 anonymous
 )
