@@ -484,9 +484,6 @@ ShutdownPromise
 >
 mShutdownPromise
 ;
-bool
-mIsFlushing
-;
 class
 Runner
 :
