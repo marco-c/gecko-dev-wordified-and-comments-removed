@@ -412,11 +412,6 @@ ChromeNodeList
 webidl
 '
 '
-ChromeNotifications
-.
-webidl
-'
-'
 ChromeUtils
 .
 webidl

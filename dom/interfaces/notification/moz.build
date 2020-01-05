@@ -90,11 +90,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMDesktopNotification
-.
-idl
-'
-'
 nsINotificationStorage
 .
 idl

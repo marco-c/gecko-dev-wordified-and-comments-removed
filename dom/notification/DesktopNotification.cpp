@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsIDOMDesktopNotification
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
