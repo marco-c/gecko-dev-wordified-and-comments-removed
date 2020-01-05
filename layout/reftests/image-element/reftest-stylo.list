@@ -123,12 +123,6 @@ invalidate
 01
 .
 html
-skip
--
-if
-(
-stylo
-)
 =
 =
 canvas
@@ -153,9 +147,6 @@ invalidate
 02
 .
 html
-#
-Bug
-1341761
 #
 fails
 with
