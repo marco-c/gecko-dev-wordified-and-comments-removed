@@ -128,12 +128,6 @@ gtkWidget
 2
 289
 )
-fails
--
-if
-(
-webrender
-)
 HTTP
 (
 .

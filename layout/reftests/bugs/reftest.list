@@ -26236,12 +26236,6 @@ skiaContent
 1
 40000
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 625409
@@ -26486,12 +26480,6 @@ if
 skiaContent
 1
 500
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

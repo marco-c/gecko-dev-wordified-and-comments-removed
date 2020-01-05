@@ -473,12 +473,6 @@ fuzzy
 2
 30150
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 opacity
