@@ -4787,6 +4787,8 @@ enum
 Error
 {
 FailureUnknown
+NotFound
+HierarchyRequest
 }
 pub
 type
