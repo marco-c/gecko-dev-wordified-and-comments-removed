@@ -1910,9 +1910,7 @@ if
 b
 -
 >
-len
->
-0
+buf
 )
 {
 PORT_Free
