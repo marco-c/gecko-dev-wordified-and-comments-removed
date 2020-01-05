@@ -1963,6 +1963,8 @@ FINISHED
 break
 ;
 case
+STATE
+.
 NOT_REPAIRING
 :
 log
@@ -3515,7 +3517,6 @@ id
 }
 }
 else
-{
 if
 (
 syncable
@@ -3637,7 +3638,6 @@ upload
 ignoring
 )
 ;
-}
 }
 }
 return
