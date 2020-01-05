@@ -172,8 +172,6 @@ a
 )
 '
 )
-.
-exports
 ;
 assertEq
 (
@@ -349,8 +347,6 @@ a
 )
 '
 )
-.
-exports
 ;
 assertEq
 (

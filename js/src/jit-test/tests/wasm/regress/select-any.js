@@ -56,12 +56,6 @@ export
 )
 )
 )
-.
-exports
-[
-"
-"
-]
 ;
 try
 {
@@ -145,12 +139,6 @@ export
 )
 )
 )
-.
-exports
-[
-"
-"
-]
 ;
 try
 {

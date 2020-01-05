@@ -21,7 +21,7 @@ WebAssembly
 .
 Module
 (
-wasmTextToBinary
+textToBinary
 (
 (
 module
