@@ -182,11 +182,6 @@ SetElem_Fallback
 \
 _
 (
-SetElem_DenseOrUnboxedArray
-)
-\
-_
-(
 SetElem_DenseOrUnboxedArrayAdd
 )
 \
