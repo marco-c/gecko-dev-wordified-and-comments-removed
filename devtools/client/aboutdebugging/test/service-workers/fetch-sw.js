@@ -1,0 +1,8 @@
+onfetch
+=
+function
+(
+event
+)
+{
+}
