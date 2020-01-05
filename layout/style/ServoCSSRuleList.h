@@ -81,7 +81,10 @@ return
 mStyleSheet
 ;
 }
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 IndexedGetter
 (
