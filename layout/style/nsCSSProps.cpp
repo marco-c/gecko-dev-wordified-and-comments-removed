@@ -6848,10 +6848,6 @@ eCSSKeyword_baseline
 NS_STYLE_ALIGN_BASELINE
 }
 {
-eCSSKeyword_last_baseline
-NS_STYLE_ALIGN_LAST_BASELINE
-}
-{
 eCSSKeyword_stretch
 NS_STYLE_ALIGN_STRETCH
 }
@@ -7049,10 +7045,6 @@ eCSSKeyword_baseline
 NS_STYLE_ALIGN_BASELINE
 }
 {
-eCSSKeyword_last_baseline
-NS_STYLE_ALIGN_LAST_BASELINE
-}
-{
 eCSSKeyword_UNKNOWN
 -
 1
@@ -7082,10 +7074,6 @@ eCSSKeyword_baseline
 NS_STYLE_ALIGN_BASELINE
 }
 {
-eCSSKeyword_last_baseline
-NS_STYLE_ALIGN_LAST_BASELINE
-}
-{
 eCSSKeyword_UNKNOWN
 -
 1
@@ -7109,10 +7097,6 @@ NS_STYLE_ALIGN_NORMAL
 {
 eCSSKeyword_baseline
 NS_STYLE_ALIGN_BASELINE
-}
-{
-eCSSKeyword_last_baseline
-NS_STYLE_ALIGN_LAST_BASELINE
 }
 {
 eCSSKeyword_UNKNOWN
