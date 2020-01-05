@@ -4158,7 +4158,7 @@ isSamplingCurrentThread
 |
 jsIter
 .
-isAsmJS
+isWasm
 (
 )
 )
@@ -4627,7 +4627,7 @@ JS
 ProfilingFrameIterator
 :
 :
-Frame_AsmJS
+Frame_Wasm
 )
 {
 addDynamicTag

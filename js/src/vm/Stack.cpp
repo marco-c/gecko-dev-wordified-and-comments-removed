@@ -9190,7 +9190,7 @@ isWasm
 {
 +
 +
-asmJSIter
+wasmIter
 (
 )
 ;
@@ -9577,7 +9577,7 @@ isWasm
 )
 )
 {
-asmJSIter
+wasmIter
 (
 )
 .
@@ -9660,7 +9660,7 @@ isWasm
 )
 )
 return
-asmJSIter
+wasmIter
 (
 )
 .
@@ -9727,7 +9727,7 @@ isWasm
 )
 )
 return
-asmJSIter
+wasmIter
 (
 )
 .
@@ -9782,7 +9782,7 @@ stackAddress
 ;
 if
 (
-isAsmJS
+isWasm
 (
 )
 )
@@ -9794,7 +9794,7 @@ frame
 .
 kind
 =
-Frame_AsmJS
+Frame_Wasm
 ;
 frame
 .
@@ -10062,7 +10062,7 @@ return
 ;
 if
 (
-isAsmJS
+isWasm
 (
 )
 )
@@ -10093,7 +10093,7 @@ label
 =
 DuplicateString
 (
-asmJSIter
+wasmIter
 (
 )
 .
@@ -10275,7 +10275,7 @@ JS
 ProfilingFrameIterator
 :
 :
-isAsmJS
+isWasm
 (
 )
 const

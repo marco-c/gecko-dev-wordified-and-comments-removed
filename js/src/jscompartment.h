@@ -2308,7 +2308,7 @@ DebuggerObservesAllExecution
 <
 <
 1
-DebuggerObservesAsmJS
+DebuggerObservesWasm
 =
 1
 <
@@ -2346,7 +2346,7 @@ DebuggerObservesAllExecution
 |
 DebuggerObservesCoverage
 |
-DebuggerObservesAsmJS
+DebuggerObservesWasm
 ;
 void
 updateDebuggerObservesFlag
@@ -3125,7 +3125,7 @@ DebuggerObservesAllExecution
 ;
 }
 bool
-debuggerObservesAsmJS
+debuggerObservesWasm
 (
 )
 const
@@ -3137,7 +3137,7 @@ Mask
 =
 IsDebuggee
 |
-DebuggerObservesAsmJS
+DebuggerObservesWasm
 ;
 return
 (
@@ -3151,13 +3151,13 @@ Mask
 ;
 }
 void
-updateDebuggerObservesAsmJS
+updateDebuggerObservesWasm
 (
 )
 {
 updateDebuggerObservesFlag
 (
-DebuggerObservesAsmJS
+DebuggerObservesWasm
 )
 ;
 }

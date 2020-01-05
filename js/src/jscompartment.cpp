@@ -5347,7 +5347,7 @@ DebuggerObservesCoverage
 flag
 =
 =
-DebuggerObservesAsmJS
+DebuggerObservesWasm
 )
 ;
 GlobalObject

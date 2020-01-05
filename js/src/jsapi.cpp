@@ -19360,7 +19360,7 @@ compartment
 )
 -
 >
-debuggerObservesAsmJS
+debuggerObservesWasm
 (
 )
 )
