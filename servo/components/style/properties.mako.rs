@@ -19325,10 +19325,7 @@ use
 cssparser
 :
 :
-{
-self
 ToCss
-}
 ;
 use
 text_writer
