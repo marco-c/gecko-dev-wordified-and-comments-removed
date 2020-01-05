@@ -14330,6 +14330,12 @@ is_null
 )
 )
 ;
+let
+mut
+property_index
+=
+0
+;
 for
 property
 in
@@ -14520,16 +14526,9 @@ None
 )
 ;
 for
-(
-i
 anim
-)
 in
 anim_iter
-.
-enumerate
-(
-)
 {
 if
 !
@@ -14550,7 +14549,7 @@ animation_values
 set_len
 (
 (
-i
+property_index
 +
 1
 )
@@ -14571,7 +14570,7 @@ anim
 ;
 animation_values
 [
-i
+property_index
 ]
 .
 mProperty
@@ -14589,7 +14588,7 @@ into
 ;
 animation_values
 [
-i
+property_index
 ]
 .
 mValue
@@ -14608,7 +14607,7 @@ zeroed
 ;
 animation_values
 [
-i
+property_index
 ]
 .
 mValue
@@ -14627,6 +14626,11 @@ anim
 1
 )
 )
+;
+property_index
++
+=
+1
 ;
 }
 }
