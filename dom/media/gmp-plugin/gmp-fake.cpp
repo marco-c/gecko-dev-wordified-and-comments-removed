@@ -169,7 +169,6 @@ defined
 GMP_FAKE_SUPPORT_DECRYPT
 )
 }
-else
 if
 (
 !

@@ -932,12 +932,6 @@ LinuxSandboxStarter
 )
 ;
 }
-else
-{
-return
-nullptr
-;
-}
 return
 nullptr
 ;

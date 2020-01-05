@@ -1940,7 +1940,6 @@ return
 GMPNoErr
 ;
 }
-else
 if
 (
 !
@@ -1977,7 +1976,6 @@ defined
 GMP_FAKE_SUPPORT_DECRYPT
 )
 }
-else
 if
 (
 !
