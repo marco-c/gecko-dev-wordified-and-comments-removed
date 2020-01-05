@@ -141,10 +141,7 @@ XPC_MAP_WANT_CALL
 #
 define
 XPC_MAP_FLAGS
-nsIXPCScriptable
-:
-:
-WANT_CALL
+0
 #
 include
 "

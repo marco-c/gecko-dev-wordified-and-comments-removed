@@ -15291,6 +15291,10 @@ nsXPCComponents
 define
 XPC_MAP_WANT_PRECREATE
 #
+define
+XPC_MAP_FLAGS
+0
+#
 include
 "
 xpc_map_end
