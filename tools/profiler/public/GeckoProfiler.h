@@ -2574,7 +2574,7 @@ mHandle
 inline
 PseudoStack
 *
-mozilla_get_pseudo_stack
+profiler_get_pseudo_stack
 (
 void
 )

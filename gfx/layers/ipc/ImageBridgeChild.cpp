@@ -447,7 +447,7 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 mPseudoStackHack
 =
-mozilla_get_pseudo_stack
+profiler_get_pseudo_stack
 (
 )
 ;

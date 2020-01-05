@@ -501,7 +501,7 @@ ifdef
 MOZ_THREADSTACKHELPER_PSEUDO
 mPseudoStack
 (
-mozilla_get_pseudo_stack
+profiler_get_pseudo_stack
 (
 )
 )
