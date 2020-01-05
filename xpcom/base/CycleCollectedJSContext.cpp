@@ -6008,6 +6008,9 @@ GC
 "
 )
 ;
+#
+ifndef
+ANDROID
 MOZ_ASSERT
 (
 js
@@ -6030,6 +6033,8 @@ mJSContext
 )
 )
 ;
+#
+endif
 }
 bool
 CycleCollectedJSContext

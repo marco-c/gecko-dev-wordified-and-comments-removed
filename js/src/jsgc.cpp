@@ -39750,14 +39750,6 @@ wasGCStarted
 return
 false
 ;
-#
-ifdef
-ANDROID
-return
-true
-;
-#
-else
 Zone
 *
 sourceZone
@@ -39792,8 +39784,6 @@ true
 return
 false
 ;
-#
-endif
 }
 #
 endif
