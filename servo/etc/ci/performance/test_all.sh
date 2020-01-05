@@ -102,6 +102,7 @@ engine
 -
 -
 engine
+=
 servo
 "
 ;
@@ -116,6 +117,7 @@ engine
 -
 -
 engine
+=
 gecko
 "
 ;
@@ -277,13 +279,9 @@ perf
 -
 (
 date
--
--
-iso
--
-8601
-=
-seconds
++
+%
+s
 )
 .
 json
