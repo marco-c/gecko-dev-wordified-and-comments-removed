@@ -957,6 +957,12 @@ nsIChannel
 aChannel
 )
 ;
+bool
+PrincipalIsValid
+(
+)
+const
+;
 #
 endif
 bool
