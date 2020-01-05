@@ -175,3 +175,17 @@ windows
 .
 sh
 '
+-
+'
+taskcluster
+/
+taskgraph
+/
+transforms
+/
+job
+/
+toolchain
+.
+py
+'
