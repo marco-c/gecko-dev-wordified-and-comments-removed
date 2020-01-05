@@ -878,6 +878,7 @@ user_agent
 )
 }
 }
+pub
 enum
 ReadResult
 {
@@ -890,6 +891,7 @@ u8
 )
 EOF
 }
+pub
 fn
 read_block
 <
