@@ -48,7 +48,7 @@ Url
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -188,6 +188,10 @@ holder
 local_image_cache
 .
 lock
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -432,6 +436,10 @@ local_image_cache
 lock
 (
 )
+.
+unwrap
+(
+)
 ;
 let
 mut
@@ -455,6 +463,10 @@ match
 port
 .
 recv
+(
+)
+.
+unwrap
 (
 )
 {

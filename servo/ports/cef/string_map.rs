@@ -19,7 +19,7 @@ std
 collections
 :
 :
-TreeMap
+BTreeMap
 ;
 use
 std
@@ -75,7 +75,7 @@ cef_string_map_t
 >
 *
 mut
-TreeMap
+BTreeMap
 <
 String
 *
@@ -87,7 +87,7 @@ sm
 as
 *
 mut
-TreeMap
+BTreeMap
 <
 String
 *
@@ -121,7 +121,7 @@ sm
 :
 Box
 <
-TreeMap
+BTreeMap
 <
 String
 *
@@ -131,7 +131,7 @@ cef_string_t
 >
 =
 box
-TreeMap
+BTreeMap
 :
 :
 new
@@ -849,7 +849,7 @@ _v
 :
 Box
 <
-TreeMap
+BTreeMap
 <
 String
 *

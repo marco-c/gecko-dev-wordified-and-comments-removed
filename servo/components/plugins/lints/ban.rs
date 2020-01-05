@@ -36,6 +36,7 @@ type
 combinations
 "
 )
+;
 pub
 struct
 BanPass

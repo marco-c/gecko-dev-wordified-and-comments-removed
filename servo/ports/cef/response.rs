@@ -16,5 +16,4 @@ cef_response_create
 *
 mut
 cef_response_t
-;
 }

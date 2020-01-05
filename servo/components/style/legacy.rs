@@ -85,7 +85,7 @@ LengthOrPercentageOrAuto
 ;
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -100,7 +100,7 @@ Width
 }
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -117,7 +117,7 @@ Rows
 }
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -133,7 +133,7 @@ ColSpan
 }
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq

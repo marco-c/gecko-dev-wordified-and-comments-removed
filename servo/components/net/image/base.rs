@@ -37,7 +37,7 @@ static
 u8
 ]
 =
-include_bin
+include_bytes
 !
 (
 "

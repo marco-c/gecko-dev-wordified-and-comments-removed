@@ -139,6 +139,21 @@ rc
 :
 Rc
 ;
+use
+std
+:
+:
+sync
+:
+:
+mpsc
+:
+:
+{
+Receiver
+channel
+}
+;
 pub
 struct
 Pipeline
@@ -196,7 +211,7 @@ String
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -543,6 +558,10 @@ AttachLayout
 new_layout_info
 )
 )
+.
+unwrap
+(
+)
 ;
 spipe
 .
@@ -753,6 +772,10 @@ clone
 )
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 pub
@@ -770,7 +793,7 @@ self
 .
 paint_chan
 .
-send_opt
+send
 (
 PaintMsg
 :
@@ -807,7 +830,7 @@ self
 .
 paint_chan
 .
-send_opt
+send
 (
 PaintMsg
 :
@@ -833,6 +856,8 @@ debug
 "
 pipeline
 {
+:
+?
 }
 exiting
 "
@@ -855,7 +880,7 @@ script_chan
 if
 chan
 .
-send_opt
+send
 (
 ConstellationControlMsg
 :
@@ -880,7 +905,7 @@ self
 .
 paint_shutdown_port
 .
-recv_opt
+recv
 (
 )
 ;
@@ -891,7 +916,7 @@ self
 .
 layout_shutdown_port
 .
-recv_opt
+recv
 (
 )
 ;
@@ -921,7 +946,7 @@ _
 =
 script_channel
 .
-send_opt
+send
 (
 ConstellationControlMsg
 :
@@ -937,6 +962,10 @@ PipelineExitType
 PipelineOnly
 )
 )
+.
+unwrap
+(
+)
 ;
 let
 _
@@ -945,7 +974,7 @@ self
 .
 paint_chan
 .
-send_opt
+send
 (
 PaintMsg
 :
@@ -976,7 +1005,7 @@ _
 =
 layout_channel
 .
-send_opt
+send
 (
 LayoutControlMsg
 :
@@ -988,6 +1017,10 @@ PipelineExitType
 :
 PipelineOnly
 )
+)
+.
+unwrap
+(
 )
 ;
 }

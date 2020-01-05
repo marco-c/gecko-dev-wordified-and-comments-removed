@@ -63,7 +63,7 @@ FontHandleMethods
 ;
 #
 [
-deriving
+derive
 (
 Clone
 Copy

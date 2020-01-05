@@ -620,6 +620,7 @@ make_bool_getter
 (
 Disabled
 )
+;
 /
 /
 http
@@ -949,6 +950,7 @@ SetValue
 value
 "
 )
+;
 /
 /
 https
@@ -1068,6 +1070,7 @@ SetLabel
 label
 "
 )
+;
 }
 impl
 <

@@ -3,7 +3,6 @@
 [
 feature
 (
-globs
 macro_rules
 phase
 thread_local
@@ -27,11 +26,7 @@ unused_variables
 ]
 #
 [
-phase
-(
-plugin
-link
-)
+macro_use
 ]
 extern
 crate
@@ -63,11 +58,7 @@ servo_msg
 ;
 #
 [
-phase
-(
-plugin
-link
-)
+macro_use
 ]
 extern
 crate

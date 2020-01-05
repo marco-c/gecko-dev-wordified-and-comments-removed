@@ -106,9 +106,9 @@ Arc
 ;
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -861,6 +861,8 @@ f
 TableRowGroupFlow
 :
 {
+:
+?
 }
 "
 self

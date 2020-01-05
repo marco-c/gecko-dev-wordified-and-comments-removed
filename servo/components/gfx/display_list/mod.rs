@@ -203,7 +203,7 @@ std
 slice
 :
 :
-Items
+Iter
 ;
 use
 std
@@ -259,7 +259,7 @@ i32
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -1637,6 +1637,8 @@ I
 :
 Iterator
 <
+Item
+=
 &
 '
 a
@@ -2177,7 +2179,7 @@ None
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2238,7 +2240,7 @@ BoxShadowDisplayItem
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2310,7 +2312,7 @@ clip
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -2338,7 +2340,7 @@ ComplexClippingRegion
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -2824,7 +2826,7 @@ collect
 }
 #
 [
-deriving
+derive
 (
 Clone
 Copy
@@ -2963,7 +2965,7 @@ cursor
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2983,7 +2985,7 @@ Color
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3031,7 +3033,7 @@ TextOrientation
 }
 #
 [
-deriving
+derive
 (
 Clone
 Eq
@@ -3048,7 +3050,7 @@ SidewaysRight
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3081,7 +3083,7 @@ Au
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3118,7 +3120,7 @@ GradientStop
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3165,7 +3167,7 @@ Au
 }
 #
 [
-deriving
+derive
 (
 Clone
 Default
@@ -3268,7 +3270,7 @@ zero
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3295,7 +3297,7 @@ T
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3353,7 +3355,7 @@ Parent
 dlist
 :
 :
-Items
+Iter
 <
 '
 a
@@ -3367,12 +3369,6 @@ impl
 a
 >
 Iterator
-<
-&
-'
-a
-DisplayItem
->
 for
 DisplayItemIterator
 <
@@ -3380,6 +3376,14 @@ DisplayItemIterator
 a
 >
 {
+type
+Item
+=
+&
+'
+a
+DisplayItem
+;
 #
 [
 inline
@@ -3550,6 +3554,8 @@ Drawing
 text
 at
 {
+:
+?
 }
 .
 "
@@ -3590,6 +3596,8 @@ Drawing
 image
 at
 {
+:
+?
 }
 .
 "
@@ -4208,6 +4216,8 @@ println
 }
 +
 {
+:
+?
 }
 "
 indent
@@ -4253,6 +4263,8 @@ f
 {
 }
 {
+:
+?
 }
 (
 {

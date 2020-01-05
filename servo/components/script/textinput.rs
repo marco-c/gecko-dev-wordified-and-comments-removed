@@ -87,7 +87,7 @@ SignedInt
 ;
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -105,7 +105,7 @@ jstraceable
 ]
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -181,7 +181,7 @@ index
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -195,7 +195,7 @@ Multiple
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )

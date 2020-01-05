@@ -30,7 +30,7 @@ ParserContext
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )

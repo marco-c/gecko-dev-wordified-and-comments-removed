@@ -218,6 +218,9 @@ collections
 hash_map
 :
 :
+Entry
+:
+:
 {
 Occupied
 Vacant
@@ -225,7 +228,7 @@ Vacant
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -559,7 +562,7 @@ entry
 {
 entry
 .
-set
+insert
 (
 vec
 !
@@ -634,7 +637,7 @@ entry
 {
 entry
 .
-set
+insert
 (
 vec
 !

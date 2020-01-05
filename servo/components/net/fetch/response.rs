@@ -35,14 +35,17 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 Receiver
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -61,7 +64,7 @@ Opaque
 }
 #
 [
-deriving
+derive
 (
 Clone
 Copy
@@ -98,7 +101,7 @@ be
 ]
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -195,7 +198,7 @@ ResponseMsg
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -502,7 +505,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -578,7 +581,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .

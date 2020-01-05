@@ -35,7 +35,6 @@ size_t
 *
 mut
 cef_binary_value_t
-;
 fn
 cef_dictionary_value_create
 (
@@ -45,7 +44,6 @@ cef_dictionary_value_create
 *
 mut
 cef_dictionary_value_t
-;
 fn
 cef_list_value_create
 (
@@ -55,5 +53,4 @@ cef_list_value_create
 *
 mut
 cef_list_value_t
-;
 }

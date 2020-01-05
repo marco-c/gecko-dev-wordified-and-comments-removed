@@ -45,7 +45,7 @@ expr
 {
 #
 [
-deriving
+derive
 (
 Clone
 Copy
@@ -98,7 +98,6 @@ match_ignore_ascii_case
 !
 {
 keyword
-:
 (
 concat
 !

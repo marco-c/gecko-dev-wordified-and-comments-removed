@@ -2711,7 +2711,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -3356,7 +3356,7 @@ CSSFloat
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -3447,6 +3447,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 length
@@ -3743,7 +3745,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Copy
@@ -3827,6 +3829,8 @@ write
 f
 "
 {
+:
+?
 }
 %
 "
@@ -4077,7 +4081,7 @@ non_camel_case_types
 ]
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -4188,6 +4192,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 lop
@@ -4291,7 +4297,6 @@ expect_ident
 (
 )
 )
-:
 %
 for
 keyword
@@ -4415,7 +4420,7 @@ non_camel_case_types
 ]
 #
 [
-deriving
+derive
 (
 PartialEq
 Copy
@@ -4527,6 +4532,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 length
@@ -4875,7 +4882,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -4960,7 +4967,7 @@ non_camel_case_types
 ]
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -5073,6 +5080,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 c
@@ -5987,7 +5996,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Copy
@@ -6042,8 +6051,12 @@ write
 f
 "
 {
+:
+?
 }
 {
+:
+?
 }
 "
 self
@@ -6058,7 +6071,7 @@ vertical
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -6119,8 +6132,12 @@ write
 f
 "
 {
+:
+?
 }
 {
+:
+?
 }
 "
 self
@@ -6975,7 +6992,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -7359,7 +7376,6 @@ match_ignore_ascii_case
 !
 {
 first_ident
-:
 /
 /
 "
@@ -7553,7 +7569,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -7757,7 +7773,6 @@ expect_ident
 (
 )
 )
-:
 "
 bold
 "
@@ -7950,7 +7965,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -8770,7 +8785,6 @@ expect_ident
 (
 )
 )
-:
 "
 xx
 -
@@ -9635,7 +9649,7 @@ fmt
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -10003,7 +10017,6 @@ expect_ident
 (
 )
 )
-:
 "
 underline
 "
@@ -10202,7 +10215,7 @@ to_computed_value
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -10955,7 +10968,7 @@ Cursor
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -11357,7 +11370,7 @@ SpecifiedBoxShadow
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -11466,12 +11479,20 @@ write
 f
 "
 {
+:
+?
 }
 {
+:
+?
 }
 {
+:
+?
 }
 {
+:
+?
 }
 "
 self
@@ -11509,6 +11530,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 color
@@ -11558,7 +11581,7 @@ BoxShadow
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -11653,14 +11676,24 @@ write
 f
 "
 {
+:
+?
 }
 {
+:
+?
 }
 {
+:
+?
 }
 {
+:
+?
 }
 {
+:
+?
 }
 "
 self
@@ -11974,8 +12007,7 @@ Au
 0
 )
 )
-.
-.
+;
 4
 ]
 ;
@@ -12289,7 +12321,7 @@ Au
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -12337,7 +12369,7 @@ ClipRect
 }
 #
 [
-deriving
+derive
 (
 Clone
 Show
@@ -12857,7 +12889,7 @@ drop
 shadow
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -12903,7 +12935,7 @@ CSSFloat
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -13214,7 +13246,6 @@ match_ignore_ascii_case
 !
 {
 function_name
-:
 "
 brightness
 "
@@ -15139,8 +15170,7 @@ Result
 <
 [
 LengthOrPercentage
-.
-.
+;
 4
 ]
 (
@@ -15174,8 +15204,7 @@ Au
 )
 )
 )
-.
-.
+;
 4
 ]
 ;
@@ -16778,8 +16807,7 @@ storage
 :
 [
 uint
-.
-.
+;
 (
 {
 len
@@ -17035,7 +17063,7 @@ skipped
 .
 #
 [
-deriving
+derive
 (
 Show
 PartialEq
@@ -17599,7 +17627,7 @@ deduplicated
 }
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -17649,7 +17677,6 @@ expect_ident
 (
 )
 )
-:
 "
 initial
 "
@@ -17699,7 +17726,7 @@ Err
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -17801,6 +17828,8 @@ format
 (
 "
 {
+:
+?
 }
 "
 inner
@@ -17836,7 +17865,7 @@ to_owned
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -17878,7 +17907,7 @@ endfor
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -18019,6 +18048,8 @@ format
 (
 "
 {
+:
+?
 }
 "
 longhands
@@ -18052,6 +18083,8 @@ property
 declaration
 :
 {
+:
+?
 }
 "
 decl
@@ -18086,7 +18119,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -18183,7 +18216,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 %
 for
 property
@@ -18706,7 +18738,7 @@ missing_copy_implementations
 ]
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -18757,7 +18789,7 @@ endfor
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -20952,6 +20984,7 @@ clone
 }
 ;
 )
+;
 /
 /
 Initialize
@@ -22379,18 +22412,18 @@ macro_export
 macro_rules
 !
 css_properties_accessors
+{
 (
-(
-macro
+macro_name
 :
 ident
 )
 =
 >
-(
-macro
+{
+macro_name
 !
-(
+{
 %
 for
 property
@@ -22499,9 +22532,9 @@ endif
 endif
 %
 endfor
-)
-)
-)
+}
+}
+}
 pub
 fn
 longhands_from_shorthand

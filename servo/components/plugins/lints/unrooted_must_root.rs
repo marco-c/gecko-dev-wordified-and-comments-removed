@@ -88,6 +88,7 @@ jsmanaged
 objects
 "
 )
+;
 #
 [
 allow
@@ -664,7 +665,10 @@ style
 ast
 :
 :
-UnsafeFn
+Unsafety
+:
+:
+Unsafe
 =
 >
 return

@@ -553,6 +553,8 @@ f
 TableColGroupFlow
 :
 {
+:
+?
 }
 "
 rb

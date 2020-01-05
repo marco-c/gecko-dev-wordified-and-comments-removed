@@ -462,6 +462,7 @@ make_bool_getter
 (
 Disabled
 )
+;
 /
 /
 http
@@ -490,6 +491,7 @@ SetDisabled
 disabled
 "
 )
+;
 /
 /
 https
@@ -557,7 +559,7 @@ type
 )
 )
 .
-into_ascii_lower
+into_ascii_lowercase
 (
 )
 ;
@@ -652,6 +654,7 @@ SetType
 type
 "
 )
+;
 }
 impl
 <

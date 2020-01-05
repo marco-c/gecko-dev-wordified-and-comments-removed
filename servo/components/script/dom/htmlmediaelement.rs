@@ -241,7 +241,7 @@ htmlelement
 }
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq

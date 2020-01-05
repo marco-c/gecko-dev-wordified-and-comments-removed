@@ -116,6 +116,15 @@ use
 std
 :
 :
+ascii
+:
+:
+AsciiExt
+;
+use
+std
+:
+:
 borrow
 :
 :
@@ -137,10 +146,10 @@ use
 std
 :
 :
-ascii
+num
 :
 :
-AsciiExt
+ToPrimitive
 ;
 #
 [
@@ -473,7 +482,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -738,7 +747,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .

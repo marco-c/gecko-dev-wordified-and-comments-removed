@@ -48,7 +48,6 @@ cef_v8context_get_current_context
 *
 mut
 cef_v8context_t
-;
 fn
 cef_v8context_get_entered_context
 (
@@ -58,7 +57,6 @@ cef_v8context_get_entered_context
 *
 mut
 cef_v8context_t
-;
 fn
 cef_v8context_in_context
 (
@@ -69,7 +67,6 @@ libc
 :
 :
 c_int
-;
 fn
 cef_v8value_create_undefined
 (
@@ -79,7 +76,6 @@ cef_v8value_create_undefined
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_null
 (
@@ -89,7 +85,6 @@ cef_v8value_create_null
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_bool
 (
@@ -102,7 +97,6 @@ c_int
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_int
 (
@@ -115,7 +109,6 @@ i32
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_uint
 (
@@ -128,7 +121,6 @@ u32
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_double
 (
@@ -141,7 +133,6 @@ c_double
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_date
 (
@@ -156,7 +147,6 @@ cef_time_t
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_string
 (
@@ -171,7 +161,6 @@ cef_string_t
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_object
 (
@@ -186,7 +175,6 @@ cef_v8accessor_t
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_array
 (
@@ -202,7 +190,6 @@ c_int
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8value_create_function
 (
@@ -222,7 +209,6 @@ cef_v8handler_t
 *
 mut
 cef_v8value_t
-;
 fn
 cef_v8stack_trace_get_current
 (
@@ -238,5 +224,4 @@ c_int
 *
 mut
 cef_v8stack_trace_t
-;
 }

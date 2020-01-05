@@ -879,7 +879,7 @@ C
 ]
 #
 [
-deriving
+derive
 (
 Copy
 )

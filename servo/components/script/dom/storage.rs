@@ -119,7 +119,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 channel
@@ -382,6 +385,10 @@ receiver
 recv
 (
 )
+.
+unwrap
+(
+)
 }
 fn
 Key
@@ -436,6 +443,10 @@ receiver
 recv
 (
 )
+.
+unwrap
+(
+)
 }
 fn
 GetItem
@@ -488,6 +499,10 @@ name
 receiver
 .
 recv
+(
+)
+.
+unwrap
 (
 )
 }
@@ -584,6 +599,10 @@ receiver
 recv
 (
 )
+.
+unwrap
+(
+)
 {
 }
 }
@@ -677,6 +696,10 @@ receiver
 recv
 (
 )
+.
+unwrap
+(
+)
 {
 }
 }
@@ -739,6 +762,10 @@ if
 receiver
 .
 recv
+(
+)
+.
+unwrap
 (
 )
 {

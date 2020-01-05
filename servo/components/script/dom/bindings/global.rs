@@ -147,7 +147,7 @@ ptr
 ;
 #
 [
-deriving
+derive
 (
 Copy
 )

@@ -60,6 +60,7 @@ to_string
 )
 "
 )
+;
 pub
 struct
 StrToStringPass

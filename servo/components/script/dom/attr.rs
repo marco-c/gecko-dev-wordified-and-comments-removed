@@ -215,7 +215,7 @@ ReplacedAttr
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -434,13 +434,10 @@ result
 :
 u32
 =
-from_str
-(
 string
 .
-as_slice
+parse
 (
-)
 )
 .
 unwrap_or

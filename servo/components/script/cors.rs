@@ -61,7 +61,7 @@ hyper
 header
 :
 :
-common
+shared
 :
 :
 util
@@ -137,7 +137,7 @@ Url
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -173,7 +173,7 @@ bool
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Copy
@@ -687,7 +687,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 )
@@ -1339,7 +1339,7 @@ new
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -1356,7 +1356,7 @@ CORSCacheEntry
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -1462,7 +1462,7 @@ false
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2202,7 +2202,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -2356,7 +2356,7 @@ false
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2484,7 +2484,7 @@ f
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2621,7 +2621,7 @@ as_slice
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2758,7 +2758,7 @@ as_slice
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2895,7 +2895,7 @@ as_slice
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2985,6 +2985,10 @@ raw
 as_slice
 (
 )
+)
+.
+ok
+(
 )
 .
 and_then
@@ -3111,7 +3115,7 @@ f
 }
 #
 [
-deriving
+derive
 (
 Clone
 )

@@ -19,7 +19,6 @@ cef_request_context_get_global_context
 *
 mut
 cef_request_context_t
-;
 fn
 cef_request_context_create_context
 (
@@ -34,5 +33,4 @@ cef_request_context_handler_t
 *
 mut
 cef_request_context_t
-;
 }

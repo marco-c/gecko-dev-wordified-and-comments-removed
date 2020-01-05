@@ -50,7 +50,6 @@ cef_task_runner_get_for_current_thread
 *
 mut
 cef_task_runner_t
-;
 fn
 cef_task_runner_get_for_thread
 (
@@ -63,5 +62,4 @@ cef_thread_id_t
 *
 mut
 cef_task_runner_t
-;
 }

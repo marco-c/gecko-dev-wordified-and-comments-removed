@@ -82,7 +82,7 @@ PipelineId
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -99,7 +99,7 @@ Painting
 }
 #
 [
-deriving
+derive
 (
 Eq
 Ord
@@ -121,7 +121,7 @@ FinishedLoading
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -170,7 +170,7 @@ u
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -260,7 +260,7 @@ LayerId
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -277,7 +277,7 @@ FixedPosition
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -309,9 +309,6 @@ ScrollPolicy
 pub
 trait
 PaintListener
-for
-Sized
-?
 {
 fn
 get_graphics_metadata

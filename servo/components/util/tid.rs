@@ -10,7 +10,7 @@ atomic
 :
 {
 AtomicUint
-INIT_ATOMIC_UINT
+ATOMIC_UINT_INIT
 Ordering
 }
 ;
@@ -38,7 +38,7 @@ next_tid
 :
 AtomicUint
 =
-INIT_ATOMIC_UINT
+ATOMIC_UINT_INIT
 ;
 thread_local
 !
@@ -71,6 +71,7 @@ None
 )
 )
 )
+;
 pub
 fn
 tid

@@ -69,7 +69,7 @@ Response
 ;
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -114,7 +114,7 @@ XSLT
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -141,7 +141,7 @@ Url
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -157,7 +157,7 @@ ForcedPreflightMode
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -172,7 +172,7 @@ Include
 }
 #
 [
-deriving
+derive
 (
 Copy
 )

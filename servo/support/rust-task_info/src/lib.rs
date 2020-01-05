@@ -16,14 +16,6 @@ crate_type
 rlib
 "
 ]
-#
-!
-[
-feature
-(
-globs
-)
-]
 extern
 crate
 libc

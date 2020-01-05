@@ -59,6 +59,7 @@ to
 work
 "
 )
+;
 pub
 struct
 InheritancePass

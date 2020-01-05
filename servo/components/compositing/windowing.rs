@@ -123,7 +123,7 @@ Rc
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -162,7 +162,7 @@ f32
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -176,7 +176,7 @@ Back
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -193,7 +193,7 @@ Resize
 TypedSize2D
 <
 DevicePixel
-uint
+u32
 >
 )
 LoadUrl
@@ -510,7 +510,7 @@ self
 TypedSize2D
 <
 DevicePixel
-uint
+u32
 >
 ;
 fn

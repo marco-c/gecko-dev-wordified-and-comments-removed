@@ -77,7 +77,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 {
@@ -94,7 +97,7 @@ Url
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -149,7 +152,7 @@ chan
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -165,7 +168,7 @@ IFrameUnsandboxed
 }
 #
 [
-deriving
+derive
 (
 Clone
 Copy
@@ -189,7 +192,7 @@ SubpageId
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -226,7 +229,7 @@ f32
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -244,7 +247,7 @@ Repeated
 }
 #
 [
-deriving
+derive
 (
 Show
 PartialEq
@@ -381,13 +384,6 @@ Menu
 bitflags
 !
 {
-#
-[
-deriving
-(
-Copy
-)
-]
 flags
 KeyModifiers
 :
@@ -479,7 +475,7 @@ Cursor
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -553,7 +549,7 @@ None
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -572,7 +568,7 @@ Navigate
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -591,7 +587,7 @@ Back
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -611,7 +607,7 @@ uint
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -631,7 +627,7 @@ uint
 ;
 #
 [
-deriving
+derive
 (
 Copy
 )

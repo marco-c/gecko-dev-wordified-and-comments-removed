@@ -130,7 +130,7 @@ Cell
 ;
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq

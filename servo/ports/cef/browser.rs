@@ -152,6 +152,7 @@ new
 0
 )
 )
+;
 thread_local
 !
 (
@@ -178,6 +179,7 @@ vec
 )
 )
 )
+;
 pub
 enum
 ServoBrowser
@@ -404,6 +406,7 @@ this
 mut
 cef_browser_host_t
 {
+{
 this
 .
 downcast
@@ -416,6 +419,7 @@ clone
 (
 )
 }
+}
 fn
 go_back
 (
@@ -426,6 +430,7 @@ this
 >
 (
 )
+{
 {
 this
 .
@@ -444,6 +449,7 @@ Back
 )
 ;
 }
+}
 fn
 go_forward
 (
@@ -454,6 +460,7 @@ this
 >
 (
 )
+{
 {
 this
 .
@@ -471,6 +478,7 @@ Forward
 )
 )
 ;
+}
 }
 /
 /
@@ -500,6 +508,7 @@ this
 mut
 cef_frame_t
 {
+{
 this
 .
 downcast
@@ -511,6 +520,7 @@ frame
 clone
 (
 )
+}
 }
 }
 }
@@ -1428,6 +1438,7 @@ cef_request_context_t
 >
 c_int
 {
+{
 let
 client
 :
@@ -1469,6 +1480,7 @@ false
 ;
 1i32
 }
+}
 fn
 cef_browser_host_create_browser_sync
 (
@@ -1503,6 +1515,7 @@ cef_request_context_t
 *
 mut
 cef_browser_t
+{
 {
 let
 client
@@ -1542,5 +1555,6 @@ window_info
 client
 true
 )
+}
 }
 }

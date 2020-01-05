@@ -24,5 +24,4 @@ cef_stream_reader_t
 *
 mut
 cef_zip_reader_t
-;
 }

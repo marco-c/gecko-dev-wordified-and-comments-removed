@@ -64,6 +64,7 @@ being
 transmuted
 "
 )
+;
 pub
 struct
 TransmutePass

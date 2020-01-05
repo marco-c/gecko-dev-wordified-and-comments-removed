@@ -3785,6 +3785,8 @@ char
 code
 for
 {
+:
+?
 }
 "
 key

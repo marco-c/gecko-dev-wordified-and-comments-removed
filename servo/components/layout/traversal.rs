@@ -171,6 +171,7 @@ new
 None
 )
 )
+;
 fn
 take_task_local_bloom_filter
 (
@@ -347,9 +348,7 @@ tid
 )
 old_node
 .
-val0
-(
-)
+0
 )
 ;
 bloom_filter
@@ -612,7 +611,7 @@ ancestors
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -981,9 +980,7 @@ tid
 )
 unsafe_layout_node
 .
-val0
-(
-)
+0
 )
 ;
 node
@@ -1010,7 +1007,7 @@ layout_context
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -1326,9 +1323,7 @@ tid
 )
 unsafe_layout_node
 .
-val0
-(
-)
+0
 )
 ;
 }
@@ -1592,7 +1587,7 @@ BUBBLE_ISIZES
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -1695,7 +1690,7 @@ REFLOW
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -1824,7 +1819,7 @@ REFLOW
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -1888,7 +1883,7 @@ compute_absolute_position
 }
 #
 [
-deriving
+derive
 (
 Copy
 )

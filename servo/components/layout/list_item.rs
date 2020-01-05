@@ -113,7 +113,7 @@ Arc
 ;
 #
 [
-deriving
+derive
 (
 Show
 )

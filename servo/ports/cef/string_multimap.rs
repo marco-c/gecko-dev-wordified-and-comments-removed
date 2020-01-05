@@ -19,7 +19,7 @@ std
 collections
 :
 :
-TreeMap
+BTreeMap
 ;
 use
 std
@@ -84,7 +84,7 @@ cef_string_multimap_t
 >
 *
 mut
-TreeMap
+BTreeMap
 <
 String
 Vec
@@ -99,7 +99,7 @@ smm
 as
 *
 mut
-TreeMap
+BTreeMap
 <
 String
 Vec
@@ -136,7 +136,7 @@ smm
 :
 Box
 <
-TreeMap
+BTreeMap
 <
 String
 Vec
@@ -149,7 +149,7 @@ cef_string_t
 >
 =
 box
-TreeMap
+BTreeMap
 :
 :
 new
@@ -1130,7 +1130,7 @@ v
 :
 Box
 <
-TreeMap
+BTreeMap
 <
 String
 Vec

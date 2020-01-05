@@ -16,5 +16,4 @@ cef_print_settings_create
 *
 mut
 cef_print_settings_t
-;
 }

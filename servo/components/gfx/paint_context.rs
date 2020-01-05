@@ -280,10 +280,7 @@ std
 num
 :
 :
-{
 Float
-FloatMath
-}
 ;
 use
 std
@@ -385,7 +382,7 @@ ClippingRegion
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -400,7 +397,7 @@ Bottom
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -3897,8 +3894,7 @@ dash
 :
 [
 AzFloat
-.
-.
+;
 2
 ]
 =

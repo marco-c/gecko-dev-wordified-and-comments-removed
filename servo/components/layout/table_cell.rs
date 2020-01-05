@@ -107,9 +107,9 @@ Arc
 ;
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -914,6 +914,8 @@ f
 TableCellFlow
 :
 {
+:
+?
 }
 "
 self

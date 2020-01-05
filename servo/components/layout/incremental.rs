@@ -65,13 +65,6 @@ restyling
 .
 "
 ]
-#
-[
-deriving
-(
-Copy
-)
-]
 flags
 RestyleDamage
 :
@@ -675,6 +668,7 @@ effect
 }
 )
 )
+;
 pub
 fn
 compute_damage

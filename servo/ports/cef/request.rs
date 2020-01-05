@@ -20,7 +20,6 @@ cef_request_create
 *
 mut
 cef_request_t
-;
 fn
 cef_post_data_create
 (
@@ -30,7 +29,6 @@ cef_post_data_create
 *
 mut
 cef_post_data_t
-;
 fn
 cef_post_data_element_create
 (
@@ -40,5 +38,4 @@ cef_post_data_element_create
 *
 mut
 cef_post_data_element_t
-;
 }

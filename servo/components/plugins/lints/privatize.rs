@@ -63,6 +63,7 @@ struct
 definitions
 "
 )
+;
 pub
 struct
 PrivatizePass

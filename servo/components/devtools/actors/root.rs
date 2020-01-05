@@ -42,9 +42,9 @@ TcpStream
 ;
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 struct
@@ -65,9 +65,9 @@ String
 }
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 struct
@@ -85,9 +85,9 @@ String
 }
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 struct
@@ -108,9 +108,9 @@ TabActorMsg
 }
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 struct

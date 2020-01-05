@@ -20,7 +20,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 {
@@ -49,7 +52,7 @@ Url
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -155,7 +158,7 @@ false
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -376,7 +379,7 @@ CORSCacheEntry
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -1283,7 +1286,7 @@ _
 =
 rx
 .
-recv_opt
+recv
 (
 )
 ;
@@ -1324,7 +1327,7 @@ _
 =
 rx
 .
-recv_opt
+recv
 (
 )
 ;
@@ -1378,7 +1381,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -1440,7 +1443,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -1493,7 +1496,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -1550,7 +1553,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -1599,7 +1602,7 @@ _
 =
 rx
 .
-recv_opt
+recv
 (
 )
 ;
@@ -1699,6 +1702,10 @@ self
 receiver
 .
 recv
+(
+)
+.
+unwrap
 (
 )
 {

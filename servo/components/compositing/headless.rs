@@ -234,6 +234,10 @@ ScaleFactor
 }
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 compositor
@@ -308,6 +312,10 @@ ConstellationMsg
 :
 Exit
 )
+.
+unwrap
+(
+)
 ;
 chan
 .
@@ -315,6 +323,10 @@ send
 (
 (
 )
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -354,6 +366,10 @@ send
 (
 None
 )
+.
+unwrap
+(
+)
 ;
 }
 Msg
@@ -374,6 +390,10 @@ send
 (
 (
 )
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -396,6 +416,10 @@ send
 (
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 Msg
@@ -417,6 +441,10 @@ send
 (
 (
 )
+)
+.
+unwrap
+(
 )
 ;
 }

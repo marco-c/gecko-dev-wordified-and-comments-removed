@@ -136,9 +136,9 @@ Arc
 ;
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -166,9 +166,9 @@ ColumnComputedInlineSize
 }
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 Copy
 )
 ]
@@ -1648,6 +1648,8 @@ f
 TableRowFlow
 :
 {
+:
+?
 }
 "
 self

@@ -53,8 +53,7 @@ counters
 :
 [
 u8
-.
-.
+;
 ARRAY_SIZE
 ]
 }
@@ -109,8 +108,7 @@ counters
 :
 [
 0
-.
-.
+;
 ARRAY_SIZE
 ]
 }
@@ -264,8 +262,7 @@ counters
 =
 [
 0
-.
-.
+;
 ARRAY_SIZE
 ]
 }
@@ -882,6 +879,7 @@ false_positives
 <
 10
 )
+;
 for
 i
 in
@@ -1007,7 +1005,10 @@ std
 hash
 :
 :
+{
 hash
+SipHasher
+}
 ;
 use
 std
@@ -1440,6 +1441,12 @@ test
 black_box
 (
 hash
+:
+:
+<
+uint
+SipHasher
+>
 (
 &
 i

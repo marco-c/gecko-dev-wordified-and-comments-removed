@@ -236,7 +236,7 @@ use
 std
 :
 :
-str
+string
 :
 :
 CowString

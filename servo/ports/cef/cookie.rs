@@ -28,7 +28,6 @@ cef_cookie_manager_get_global_manager
 *
 mut
 cef_cookie_manager_t
-;
 fn
 cef_cookie_manager_create_manager
 (
@@ -46,5 +45,4 @@ c_int
 *
 mut
 cef_cookie_manager_t
-;
 }

@@ -357,12 +357,6 @@ a
 T
 >
 Iterator
-<
-&
-'
-a
-T
->
 for
 PersistentListIterator
 <
@@ -377,6 +371,14 @@ Send
 +
 Sync
 {
+type
+Item
+=
+&
+'
+a
+T
+;
 #
 [
 inline

@@ -174,9 +174,9 @@ Arc
 ;
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -1993,6 +1993,8 @@ f
 TableFlow
 :
 {
+:
+?
 }
 "
 self
@@ -2102,10 +2104,10 @@ Au
 }
 #
 [
-deriving
+derive
 (
 Clone
-Encodable
+RustcEncodable
 Show
 Copy
 )
@@ -2234,9 +2236,9 @@ percentage
 }
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 Copy
 )
 ]

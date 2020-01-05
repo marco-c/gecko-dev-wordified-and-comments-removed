@@ -1,6 +1,6 @@
 #
 [
-deriving
+derive
 (
 Clone
 )

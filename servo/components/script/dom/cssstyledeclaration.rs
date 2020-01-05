@@ -243,7 +243,7 @@ bool
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -330,6 +330,7 @@ unwrap
 )
 ;
 )
+;
 fn
 serialize_list
 (
@@ -908,6 +909,8 @@ format
 (
 "
 {
+:
+?
 }
 !
 important
@@ -939,6 +942,8 @@ format
 (
 "
 {
+:
+?
 }
 "
 decl
@@ -1012,7 +1017,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -1249,7 +1254,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -1460,7 +1465,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -1529,7 +1534,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -1893,7 +1898,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -1933,7 +1938,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -2272,7 +2277,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 ;
@@ -2539,4 +2544,5 @@ css_properties_accessors
 (
 css_properties
 )
+;
 }

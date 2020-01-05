@@ -1189,6 +1189,8 @@ after
 compression
 ;
 {
+:
+?
 }
 "
 old_fragment
@@ -1207,6 +1209,7 @@ size
 ;
 let
 &
+mut
 NewLinePositions
 (
 ref

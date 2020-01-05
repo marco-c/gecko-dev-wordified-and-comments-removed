@@ -27,5 +27,4 @@ cef_string_t
 *
 mut
 cef_process_message_t
-;
 }
