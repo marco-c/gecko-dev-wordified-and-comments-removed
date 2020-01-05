@@ -9236,6 +9236,14 @@ getenv
 MOZ_DEBUG_CHILD_PROCESS
 "
 )
+|
+|
+getenv
+(
+"
+MOZ_DEBUG_CHILD_PAUSE
+"
+)
 ?
 DEBUGGING
 :
