@@ -66,6 +66,15 @@ Logging
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 using
 namespace
 Elf
@@ -343,7 +352,7 @@ s
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 (
 "
@@ -354,7 +363,7 @@ filesz
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 "
 "
@@ -364,7 +373,7 @@ memsz
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 "
 "
@@ -374,7 +383,7 @@ offset
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 "
 "
@@ -1078,7 +1087,7 @@ address
 %
 08
 "
-PRIxAddr
+PRIxPTR
 elf
 -
 >
@@ -2900,7 +2909,7 @@ s
 %
 08
 "
-PRIxAddr
+PRIxPTR
 type
 dyn
 -
@@ -3760,7 +3769,7 @@ flags
 #
 %
 "
-PRIxAddr
+PRIxPTR
 "
 not
 handled
@@ -3826,7 +3835,7 @@ type
 #
 %
 "
-PRIxAddr
+PRIxPTR
 "
 not
 handled
@@ -4209,7 +4218,7 @@ NULL
 %
 08
 "
-PRIxAddr
+PRIxPTR
 GetPath
 (
 )
@@ -4289,7 +4298,7 @@ type
 0x
 %
 "
-PRIxAddr
+PRIxPTR
 GetPath
 (
 )
@@ -4481,7 +4490,7 @@ NULL
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 for
 symbol
@@ -4525,7 +4534,7 @@ NULL
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 for
 symbol

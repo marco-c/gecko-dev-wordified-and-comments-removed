@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -967,7 +976,7 @@ s
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 DT_HASH
 "
@@ -1054,7 +1063,7 @@ s
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 DT_STRTAB
 "
@@ -1095,7 +1104,7 @@ s
 %
 08
 "
-PRIxAddr
+PRIxPTR
 "
 DT_SYMTAB
 "
