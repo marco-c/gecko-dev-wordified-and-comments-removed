@@ -2559,6 +2559,8 @@ d
 buf
 =
 %
+.
+*
 s
 return
 (
@@ -2577,6 +2579,7 @@ n
 this
 npp
 streamPosition
+numtowrite
 numtowrite
 ptrStreamBuffer
 writeCount
