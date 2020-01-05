@@ -714,7 +714,7 @@ a
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -729,7 +729,7 @@ continueRepairs
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -753,7 +753,7 @@ continueRepairs
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -1033,7 +1033,7 @@ a
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -1317,7 +1317,7 @@ late
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -1471,7 +1471,7 @@ a
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -1509,7 +1509,7 @@ continueRepairs
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -1896,7 +1896,7 @@ a
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -1958,7 +1958,7 @@ response
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .
@@ -2686,7 +2686,7 @@ a
 ;
 checkState
 (
-requestor
+BookmarkRepairRequestor
 .
 STATE
 .

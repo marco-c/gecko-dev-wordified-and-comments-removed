@@ -2217,9 +2217,14 @@ uploaded
 continue
 ;
 }
-clientRecord
+this
 .
-commands
+_store
+.
+_remoteClients
+[
+id
+]
 =
 this
 .
