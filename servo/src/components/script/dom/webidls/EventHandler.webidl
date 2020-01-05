@@ -218,6 +218,10 @@ GlobalEventHandlers
 {
 attribute
 EventHandler
+onclick
+;
+attribute
+EventHandler
 onload
 ;
 }
