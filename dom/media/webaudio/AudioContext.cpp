@@ -529,6 +529,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mListener
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mPromiseGripArray
+)
 if
 (
 !
@@ -566,6 +570,10 @@ mDestination
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mListener
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mPromiseGripArray
 )
 if
 (
