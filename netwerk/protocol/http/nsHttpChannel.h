@@ -2156,6 +2156,11 @@ mStronglyFramed
 :
 1
 ;
+uint32_t
+mUsedNetwork
+:
+1
+;
 nsTArray
 <
 nsContinueRedirectionFunc

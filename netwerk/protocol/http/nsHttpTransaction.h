@@ -1073,7 +1073,11 @@ mContentLength
 int64_t
 mContentRead
 ;
+Atomic
+<
 int64_t
+ReleaseAcquire
+>
 mTransferSize
 ;
 uint32_t
