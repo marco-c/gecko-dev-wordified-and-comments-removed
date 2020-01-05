@@ -257,6 +257,10 @@ attribute
 EventHandler
 onunload
 ;
+attribute
+EventHandler
+onstorage
+;
 }
 ;
 /
