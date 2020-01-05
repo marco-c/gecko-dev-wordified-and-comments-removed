@@ -210,6 +210,11 @@ nsIRDFContentSink
 h
 '
 '
+nsRDFResource
+.
+h
+'
+'
 rdf
 .
 h
@@ -256,6 +261,11 @@ cpp
 '
 '
 nsRDFContentSink
+.
+cpp
+'
+'
+nsRDFResource
 .
 cpp
 '
