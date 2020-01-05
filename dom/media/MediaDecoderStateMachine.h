@@ -1019,16 +1019,6 @@ EnqueueFirstFrameLoadedEvent
 )
 ;
 void
-EnsureAudioDecodeTaskQueued
-(
-)
-;
-void
-EnsureVideoDecodeTaskQueued
-(
-)
-;
-void
 RequestAudioData
 (
 )
