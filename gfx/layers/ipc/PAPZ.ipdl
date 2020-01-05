@@ -469,13 +469,6 @@ PCompositorBridge
 parent
 :
 async
-UpdateHitRegion
-(
-nsRegion
-aRegion
-)
-;
-async
 __delete__
 (
 )
