@@ -3732,10 +3732,10 @@ FontFamily
 font_family
 :
 :
-computed_value
+SpecifiedValue
 :
 :
-T
+Values
 (
 vec
 !
