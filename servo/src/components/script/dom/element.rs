@@ -530,7 +530,6 @@ name
 map
 (
 |
-&
 value
 |
 {
@@ -1523,6 +1522,10 @@ y
 to_f32
 (
 )
+.
+unwrap
+(
+)
 (
 r
 .
@@ -1540,6 +1543,10 @@ height
 to_f32
 (
 )
+.
+unwrap
+(
+)
 r
 .
 origin
@@ -1547,6 +1554,10 @@ origin
 x
 .
 to_f32
+(
+)
+.
+unwrap
 (
 )
 (
@@ -1564,6 +1575,10 @@ width
 )
 .
 to_f32
+(
+)
+.
+unwrap
 (
 )
 cx
@@ -1710,6 +1725,10 @@ y
 to_f32
 (
 )
+.
+unwrap
+(
+)
 (
 rect
 .
@@ -1727,6 +1746,10 @@ height
 to_f32
 (
 )
+.
+unwrap
+(
+)
 rect
 .
 origin
@@ -1734,6 +1757,10 @@ origin
 x
 .
 to_f32
+(
+)
+.
+unwrap
 (
 )
 (
@@ -1751,6 +1778,10 @@ width
 )
 .
 to_f32
+(
+)
+.
+unwrap
 (
 )
 cx

@@ -131,6 +131,15 @@ lib
 "
 ]
 ;
+#
+[
+feature
+(
+globs
+macro_rules
+)
+]
+;
 extern
 mod
 extra

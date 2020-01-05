@@ -171,13 +171,10 @@ use
 std
 :
 :
-rt
+path
 :
 :
-rtio
-:
-:
-RtioTimer
+Path
 ;
 use
 std
@@ -314,7 +311,7 @@ extra
 future
 :
 :
-from_value
+Future
 ;
 use
 extra
@@ -1494,7 +1491,7 @@ let
 mut
 zoom_time
 =
-0f
+0f64
 ;
 /
 /
@@ -2586,6 +2583,9 @@ to_str
 )
 None
 )
+Future
+:
+:
 from_value
 (
 window_size
@@ -3231,7 +3231,12 @@ uint
 let
 path
 =
+from_str
+:
+:
+<
 Path
+>
 (
 *
 self
@@ -3243,6 +3248,10 @@ output_file
 get_ref
 (
 )
+)
+.
+unwrap
+(
 )
 ;
 let

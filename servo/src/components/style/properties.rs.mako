@@ -89,7 +89,7 @@ use
 std
 :
 :
-iterator
+iter
 ;
 pub
 use
@@ -577,7 +577,7 @@ parse
 input
 )
 .
-map_move
+map
 (
 super
 :
@@ -662,7 +662,7 @@ one_component_value
 input
 )
 .
-chain
+and_then
 (
 from_component_value
 )
@@ -834,7 +834,7 @@ get_ident_lower
 v
 )
 .
-chain
+and_then
 |
 keyword
 |
@@ -1581,7 +1581,7 @@ one_component_value
 input
 )
 .
-chain
+and_then
 (
 parse_border_width
 )
@@ -2015,7 +2015,7 @@ as_slice
 )
 )
 .
-map_move
+map
 (
 SpecifiedLength
 )
@@ -2356,7 +2356,7 @@ parse_non_negative
 input
 )
 .
-map_move
+map
 (
 SpecifiedLengthOrPercentage
 )
@@ -2752,7 +2752,7 @@ one_component_value
 input
 )
 .
-chain
+and_then
 (
 Color
 :
@@ -4010,7 +4010,7 @@ parse_non_negative
 input
 )
 .
-map_move
+map
 |
 value
 |
@@ -4767,7 +4767,7 @@ next
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 None
 )
@@ -4781,7 +4781,7 @@ next
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 top
 )
@@ -4795,7 +4795,7 @@ next
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 top
 )
@@ -4809,7 +4809,7 @@ next
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 right
 )
@@ -4942,7 +4942,7 @@ one_component_value
 input
 )
 .
-chain
+and_then
 (
 specified
 :
@@ -4953,7 +4953,7 @@ CSSColor
 parse
 )
 .
-map_move
+map
 |
 color
 |
@@ -5197,7 +5197,7 @@ any
 =
 true
 ;
-loop
+continue
 }
 None
 =
@@ -5240,7 +5240,7 @@ any
 =
 true
 ;
-loop
+continue
 }
 None
 =
@@ -5280,7 +5280,7 @@ any
 =
 true
 ;
-loop
+continue
 }
 None
 =
@@ -5389,7 +5389,7 @@ parse_border
 input
 )
 .
-map_move
+map
 |
 (
 color
@@ -5521,7 +5521,7 @@ parse_border
 input
 )
 .
-map_move
+map
 |
 (
 color
@@ -5759,7 +5759,7 @@ nb_normals
 =
 1
 ;
-loop
+continue
 ;
 }
 if
@@ -5792,7 +5792,7 @@ Some
 s
 )
 ;
-loop
+continue
 }
 None
 =
@@ -5831,7 +5831,7 @@ Some
 w
 )
 ;
-loop
+continue
 }
 None
 =
@@ -5870,7 +5870,7 @@ Some
 v
 )
 ;
-loop
+continue
 }
 None
 =
@@ -6374,12 +6374,12 @@ one_component_value
 input
 )
 .
-chain
+and_then
 (
 get_ident_lower
 )
 .
-chain
+and_then
 |
 keyword
 |

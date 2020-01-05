@@ -225,6 +225,8 @@ blue
 self
 .
 alpha
+as
+f64
 )
 }
 }

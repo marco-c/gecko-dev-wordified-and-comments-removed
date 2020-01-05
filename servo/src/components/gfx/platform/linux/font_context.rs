@@ -78,6 +78,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {
@@ -254,7 +255,7 @@ name
 style
 )
 .
-chain
+and_then
 |
 file_name
 |
@@ -279,6 +280,10 @@ new_from_file
 (
 self
 file_name
+.
+to_owned
+(
+)
 &
 style
 )

@@ -131,6 +131,16 @@ lib
 "
 ]
 ;
+#
+[
+feature
+(
+globs
+macro_rules
+struct_variant
+)
+]
+;
 extern
 mod
 geom

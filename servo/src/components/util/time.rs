@@ -14,7 +14,7 @@ use
 std
 :
 :
-iterator
+iter
 :
 :
 AdditiveIterator
@@ -124,7 +124,7 @@ ProfilerMsg
 TimeMsg
 (
 ProfilerCategory
-float
+f64
 )
 PrintMsg
 }
@@ -403,7 +403,7 @@ TreeMap
 ProfilerCategory
 ~
 [
-float
+f64
 ]
 >
 ;
@@ -461,7 +461,7 @@ period
 :
 Option
 <
-float
+f64
 >
 )
 {
@@ -481,7 +481,7 @@ period
 (
 period
 *
-1000f
+1000f64
 )
 as
 u64
@@ -927,7 +927,7 @@ sum
 (
 data_len
 as
-float
+f64
 )
 data
 [
@@ -1073,9 +1073,9 @@ end_time
 start_time
 )
 as
-float
+f64
 /
-1000000f
+1000000f64
 )
 ;
 profiler_chan
@@ -1149,16 +1149,16 @@ end_time
 start_time
 )
 as
-float
+f64
 /
-1000000f
+1000000f64
 )
 ;
 if
 ms
 >
 =
-5f
+5f64
 {
 debug
 !

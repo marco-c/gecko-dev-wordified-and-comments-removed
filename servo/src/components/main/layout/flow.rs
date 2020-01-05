@@ -2781,6 +2781,10 @@ block
 .
 box
 .
+as_ref
+(
+)
+.
 map_default
 (
 seed
@@ -2978,6 +2982,10 @@ block
 block
 .
 box
+.
+as_ref
+(
+)
 .
 map_default
 (

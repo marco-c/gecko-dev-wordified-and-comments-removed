@@ -881,6 +881,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {

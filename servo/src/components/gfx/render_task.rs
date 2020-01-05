@@ -524,6 +524,7 @@ msg
 )
 }
 }
+pub
 struct
 RenderTask
 <

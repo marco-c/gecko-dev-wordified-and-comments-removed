@@ -928,7 +928,7 @@ DrawOptions
 (
 1
 .
-0f
+0f64
 as
 AzFloat
 0
@@ -1331,7 +1331,7 @@ self
 )
 -
 >
-float
+f64
 ;
 }
 impl
@@ -1347,16 +1347,16 @@ self
 )
 -
 >
-float
+f64
 {
 (
 *
 self
 as
-float
+f64
 )
 /
-255f
+255f64
 }
 }
 trait

@@ -236,7 +236,7 @@ float_to_fixed_ft
 (
 f
 :
-float
+f64
 )
 -
 >
@@ -257,7 +257,7 @@ i32
 )
 -
 >
-float
+f64
 {
 fixed_to_float
 (
@@ -374,6 +374,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {
@@ -608,7 +609,7 @@ cbuflen
 uint
 pt_size
 :
-float
+f64
 )
 -
 >
@@ -1440,7 +1441,7 @@ face
 .
 underline_thickness
 as
-float
+f64
 )
 ;
 let
@@ -1454,7 +1455,7 @@ face
 .
 underline_position
 as
-float
+f64
 )
 ;
 let
@@ -1468,7 +1469,7 @@ face
 .
 units_per_EM
 as
-float
+f64
 )
 ;
 let
@@ -1482,7 +1483,7 @@ face
 .
 ascender
 as
-float
+f64
 )
 ;
 let
@@ -1496,7 +1497,7 @@ face
 .
 descender
 as
-float
+f64
 )
 ;
 let
@@ -1510,7 +1511,7 @@ face
 .
 max_advance_width
 as
-float
+f64
 )
 ;
 let
@@ -1605,7 +1606,7 @@ os2
 .
 yStrikeoutSize
 as
-float
+f64
 )
 ;
 strikeout_offset
@@ -1621,7 +1622,7 @@ os2
 .
 yStrikeoutPosition
 as
-float
+f64
 )
 ;
 x_height
@@ -1637,7 +1638,7 @@ os2
 .
 sxHeight
 as
-float
+f64
 )
 ;
 }
@@ -1724,7 +1725,7 @@ face
 FT_Face
 pt_size
 :
-float
+f64
 )
 -
 >
@@ -2143,7 +2144,7 @@ font_units_to_au
 self
 value
 :
-float
+f64
 )
 -
 >
@@ -2202,7 +2203,7 @@ face
 .
 units_per_EM
 as
-float
+f64
 ;
 let
 x_scale
@@ -2212,12 +2213,12 @@ metrics
 .
 x_ppem
 as
-float
+f64
 )
 /
 em_size
 as
-float
+f64
 ;
 assert
 !

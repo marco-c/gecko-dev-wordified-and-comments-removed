@@ -2275,7 +2275,6 @@ None
 |
 range
 :
-&
 Range
 |
 {
@@ -2294,7 +2293,6 @@ base
 text_box
 .
 run
-*
 range
 )
 ;
@@ -3250,7 +3248,7 @@ get_size
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 Size2D
 (
@@ -3404,7 +3402,7 @@ get_size
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 Size2D
 (
@@ -5875,6 +5873,8 @@ length
 =
 >
 length
+as
+f64
 /
 /
 todo
@@ -5906,13 +5906,17 @@ length
 )
 =
 >
+(
 length
+as
+f64
+)
 *
-16f
+16f64
 _
 =
 >
-16f
+16f64
 /
 /
 px

@@ -74,7 +74,7 @@ use
 std
 :
 :
-iterator
+iter
 ;
 use
 geom
@@ -615,11 +615,13 @@ unsignedAu
 =
 advance
 .
-to_int
+to_u32
 (
 )
-as
-u32
+.
+unwrap
+(
+)
 ;
 (
 unsignedAu
@@ -675,6 +677,10 @@ GLYPH_ADVANCE_MASK
 >
 >
 GLYPH_ADVANCE_SHIFT
+)
+.
+unwrap
+(
 )
 }
 fn
@@ -3876,7 +3882,7 @@ uint
 priv
 char_range
 :
-iterator
+iter
 :
 :
 Range
@@ -3888,7 +3894,7 @@ glyph_range
 :
 Option
 <
-iterator
+iter
 :
 :
 Range

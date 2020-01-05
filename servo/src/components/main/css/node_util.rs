@@ -311,7 +311,6 @@ restyle_damage
 map
 (
 |
-&
 x
 |
 RestyleDamage
@@ -323,7 +322,7 @@ x
 )
 )
 .
-unwrap_or_default
+unwrap_or
 (
 default
 )

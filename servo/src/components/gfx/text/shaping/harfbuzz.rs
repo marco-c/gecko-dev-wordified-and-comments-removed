@@ -913,6 +913,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {
@@ -1221,7 +1222,7 @@ float_to_fixed
 (
 f
 :
-float
+f64
 )
 -
 >
@@ -1242,7 +1243,7 @@ hb_position_t
 )
 -
 >
-float
+f64
 {
 fixed_to_float
 (
@@ -2425,7 +2426,7 @@ length
 =
 0
 {
-loop
+continue
 ;
 }
 debug

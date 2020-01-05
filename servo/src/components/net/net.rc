@@ -109,6 +109,14 @@ lib
 "
 ]
 ;
+#
+[
+feature
+(
+globs
+)
+]
+;
 extern
 mod
 geom

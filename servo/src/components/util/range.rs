@@ -14,7 +14,7 @@ use
 std
 :
 :
-iterator
+iter
 ;
 enum
 RangeRelation
@@ -161,7 +161,7 @@ self
 )
 -
 >
-iterator
+iter
 :
 :
 Range

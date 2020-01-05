@@ -1,3 +1,5 @@
+NULL
+=
 #
 Tests
 for
@@ -804,7 +806,6 @@ include
 (
 NULL
 )
-endif
 DEPS_skia
 +
 =
@@ -849,3 +850,4 @@ fontconfig
 (
 NULL
 )
+endif

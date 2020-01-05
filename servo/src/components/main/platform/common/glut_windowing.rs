@@ -1309,7 +1309,7 @@ density
 let
 max_pixel_dist
 =
-10f
+10f64
 ;
 let
 event

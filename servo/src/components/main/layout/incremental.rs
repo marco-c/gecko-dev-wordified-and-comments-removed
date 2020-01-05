@@ -404,6 +404,15 @@ macro_rules
 add_if_not_equal
 (
 (
+old
+:
+ident
+new
+:
+ident
+damage
+:
+ident
 [
 (
 effect
@@ -520,6 +529,9 @@ none
 add_if_not_equal
 !
 (
+old
+new
+damage
 [
 Repaint
 ]
@@ -536,6 +548,9 @@ border_left_color
 add_if_not_equal
 !
 (
+old
+new
+damage
 [
 Repaint
 BubbleWidths

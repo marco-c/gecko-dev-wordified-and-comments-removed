@@ -411,10 +411,7 @@ extra
 future
 :
 :
-{
-from_value
 Future
-}
 ;
 pub
 enum
@@ -1162,7 +1159,6 @@ id
 map
 (
 |
-&
 (
 idx
 _
@@ -3971,6 +3967,9 @@ page
 .
 window_size
 =
+Future
+:
+:
 from_value
 (
 new_size
@@ -5191,6 +5190,9 @@ page
 .
 window_size
 =
+Future
+:
+:
 from_value
 (
 Size2D
@@ -5640,6 +5642,10 @@ page
 .
 url
 .
+as_ref
+(
+)
+.
 map
 |
 &
@@ -5697,6 +5703,9 @@ page
 .
 id
 url
+Future
+:
+:
 from_value
 (
 page

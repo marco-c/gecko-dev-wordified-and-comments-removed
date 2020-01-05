@@ -109,6 +109,14 @@ lib
 "
 ]
 ;
+#
+[
+feature
+(
+macro_rules
+)
+]
+;
 extern
 mod
 extra

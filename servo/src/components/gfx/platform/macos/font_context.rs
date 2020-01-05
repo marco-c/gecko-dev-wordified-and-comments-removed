@@ -121,7 +121,7 @@ pt_size
 do
 ctfont_result
 .
-chain
+and_then
 |
 ctfont
 |

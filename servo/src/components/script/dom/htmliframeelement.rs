@@ -231,7 +231,7 @@ None
 do
 future_chan
 .
-map_move
+map
 |
 future_chan
 |
