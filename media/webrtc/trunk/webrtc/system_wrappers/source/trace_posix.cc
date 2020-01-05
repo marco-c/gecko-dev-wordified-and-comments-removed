@@ -159,10 +159,17 @@ system_time
 =
 localtime_r
 (
+(
+const
+time_t
+*
+)
+(
 &
 system_time_high_res
 .
 tv_sec
+)
 &
 buffer
 )

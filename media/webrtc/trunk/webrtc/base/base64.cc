@@ -483,6 +483,7 @@ p
 strchr
 (
 Base64Table
+&
 ch
 )
 ;

@@ -2045,10 +2045,10 @@ nsresult
 SendRtpPacket
 (
 const
-void
+uint8_t
 *
 data
-int
+size_t
 len
 )
 {
@@ -2092,10 +2092,10 @@ nsresult
 SendRtcpPacket
 (
 const
-void
+uint8_t
 *
 data
-int
+size_t
 len
 )
 {

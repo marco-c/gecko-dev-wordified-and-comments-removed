@@ -195,6 +195,8 @@ VCMPacketizationCallback
 public
 VCMSendStatisticsCallback
 public
+CPULoadStateObserver
+public
 VideoCaptureCallback
 {
 public
@@ -267,6 +269,14 @@ Owner
 (
 )
 const
+;
+void
+onLoadStateChanged
+(
+CPULoadState
+state
+)
+override
 ;
 void
 Pause

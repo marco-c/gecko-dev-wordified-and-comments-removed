@@ -63,7 +63,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -76,7 +76,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .

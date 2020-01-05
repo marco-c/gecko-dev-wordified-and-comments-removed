@@ -64,11 +64,11 @@ os
 Build
 ;
 import
-org
+android
 .
-webrtc
+util
 .
-Logging
+Log
 ;
 import
 java
@@ -77,6 +77,18 @@ lang
 .
 Math
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WebRTCJNITarget
+;
+WebRTCJNITarget
 public
 class
 WebRtcAudioManager
@@ -252,7 +264,7 @@ long
 nativeAudioManager
 )
 {
-Logging
+Log
 .
 d
 (
@@ -331,7 +343,7 @@ init
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -356,7 +368,7 @@ return
 true
 ;
 }
-Logging
+Log
 .
 d
 (
@@ -392,7 +404,7 @@ dispose
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -463,7 +475,7 @@ if
 blacklisted
 )
 {
-Logging
+Log
 .
 e
 (
@@ -632,7 +644,7 @@ runningOnEmulator
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -663,7 +675,7 @@ isDefaultSampleRateOverridden
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -727,7 +739,7 @@ getDefaultSampleRateHz
 )
 ;
 }
-Logging
+Log
 .
 d
 (

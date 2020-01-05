@@ -82,7 +82,7 @@ name
 int
 instance_index
 int
-process_rate
+count
 int
 sample_rate
 rtc_WavWriter
@@ -149,7 +149,7 @@ wav
 "
 name
 instance_index
-process_rate
+count
 )
 ;
 RTC_DCHECK_GE
@@ -193,6 +193,8 @@ char
 name
 int
 instance_index
+int
+counter
 FILE
 *
 *
@@ -220,7 +222,10 @@ filename
 )
 "
 %
-s_
+s
+%
+d
+-
 %
 d
 .
@@ -228,6 +233,7 @@ dat
 "
 name
 instance_index
+counter
 )
 ;
 RTC_DCHECK_GE

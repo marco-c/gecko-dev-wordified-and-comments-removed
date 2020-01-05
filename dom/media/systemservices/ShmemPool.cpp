@@ -175,7 +175,7 @@ mShmem
 .
 Size
 <
-char
+uint8_t
 >
 (
 )
@@ -325,7 +325,7 @@ poolUse
 0
 )
 {
-LOG
+LOG_VERBOSE
 (
 (
 "

@@ -442,6 +442,15 @@ sent_packet
 0
 ;
 virtual
+VoiceEngine
+*
+voice_engine
+(
+)
+=
+0
+;
+virtual
 ~
 Call
 (

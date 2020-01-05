@@ -86,9 +86,8 @@ virtual
 AudioDecoder
 (
 )
-=
-default
-;
+{
+}
 int
 Decode
 (

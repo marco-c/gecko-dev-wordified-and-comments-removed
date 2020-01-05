@@ -26,7 +26,7 @@ CODEC_H264
 }
 ;
 static
-VideoEncoder
+WebrtcVideoEncoder
 *
 CreateEncoder
 (
@@ -35,7 +35,7 @@ aCodecType
 )
 ;
 static
-VideoDecoder
+WebrtcVideoDecoder
 *
 CreateDecoder
 (

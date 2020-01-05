@@ -87,6 +87,9 @@ kBufferIncStepSizeBytes
 kMaxJBFrameSizeBytes
 =
 4000000
+kBufferSafetyMargin
+=
+100
 }
 ;
 enum

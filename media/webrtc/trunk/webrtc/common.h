@@ -39,6 +39,7 @@ kExperimentalAgc
 kExperimentalNs
 kBeamforming
 kIntelligibility
+kCaptureDeviceInfo
 }
 ;
 class

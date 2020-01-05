@@ -60,6 +60,10 @@ uint8_t
 imgBufP
 =
 prev_frame_
+.
+get
+(
+)
 +
 border_
 *

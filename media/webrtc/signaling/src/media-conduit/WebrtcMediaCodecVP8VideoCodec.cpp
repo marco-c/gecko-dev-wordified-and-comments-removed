@@ -123,6 +123,21 @@ h
 "
 #
 include
+"
+webrtc
+/
+modules
+/
+video_coding
+/
+include
+/
+video_error_codes
+.
+h
+"
+#
+include
 <
 webrtc
 /
@@ -1115,7 +1130,7 @@ decoded
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 *
 videoFrame
 int
@@ -2576,7 +2591,7 @@ mDecoderCallback
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 mVideoFrame
 ;
 jobjectArray
@@ -2623,7 +2638,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 &
 inputImage
 )
@@ -3022,7 +3037,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 &
 inputImage
 const
@@ -3041,7 +3056,7 @@ vector
 webrtc
 :
 :
-VideoFrameType
+FrameType
 >
 *
 frame_types
@@ -4008,7 +4023,7 @@ _frameType
 webrtc
 :
 :
-kKeyFrame
+kVideoFrameKey
 ;
 }
 else
@@ -4020,7 +4035,7 @@ _frameType
 webrtc
 :
 :
-kDeltaFrame
+kVideoFrameDelta
 ;
 }
 mEncodedImage
@@ -4649,7 +4664,7 @@ _frameType
 webrtc
 :
 :
-kKeyFrame
+kVideoFrameKey
 )
 {
 CSFLogDebug

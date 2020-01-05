@@ -3902,7 +3902,7 @@ type
 sample
 *
 audio10ms
-int
+size_t
 length
 int
 samplingFreq

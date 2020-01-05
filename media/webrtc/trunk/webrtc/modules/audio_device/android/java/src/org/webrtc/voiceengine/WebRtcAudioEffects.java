@@ -67,11 +67,11 @@ os
 Build
 ;
 import
-org
+android
 .
-webrtc
+util
 .
-Logging
+Log
 ;
 import
 java
@@ -336,7 +336,7 @@ if
 isBlacklisted
 )
 {
-Logging
+Log
 .
 w
 (
@@ -397,7 +397,7 @@ if
 isBlacklisted
 )
 {
-Logging
+Log
 .
 w
 (
@@ -458,7 +458,7 @@ if
 isBlacklisted
 )
 {
-Logging
+Log
 .
 w
 (
@@ -696,7 +696,7 @@ isAcousticEchoCancelerExcludedByUUID
 )
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -759,7 +759,7 @@ isAutomaticGainControlExcludedByUUID
 )
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -822,7 +822,7 @@ isNoiseSuppressorExcludedByUUID
 )
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -856,7 +856,7 @@ runningOnJellyBeanOrHigher
 )
 )
 {
-Logging
+Log
 .
 w
 (
@@ -889,7 +889,7 @@ WebRtcAudioEffects
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -914,7 +914,7 @@ boolean
 enable
 )
 {
-Logging
+Log
 .
 d
 (
@@ -939,7 +939,7 @@ canUseAcousticEchoCanceler
 )
 )
 {
-Logging
+Log
 .
 w
 (
@@ -977,7 +977,7 @@ shouldEnableAec
 )
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1016,7 +1016,7 @@ boolean
 enable
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1041,7 +1041,7 @@ canUseAutomaticGainControl
 )
 )
 {
-Logging
+Log
 .
 w
 (
@@ -1079,7 +1079,7 @@ shouldEnableAgc
 )
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1118,7 +1118,7 @@ boolean
 enable
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1143,7 +1143,7 @@ canUseNoiseSuppressor
 )
 )
 {
-Logging
+Log
 .
 w
 (
@@ -1181,7 +1181,7 @@ shouldEnableNs
 )
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1220,7 +1220,7 @@ int
 audioSession
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1288,7 +1288,7 @@ type
 DEBUG
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1399,7 +1399,7 @@ AudioEffect
 SUCCESS
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1415,7 +1415,7 @@ state
 )
 ;
 }
-Logging
+Log
 .
 d
 (
@@ -1471,7 +1471,7 @@ disabled
 }
 else
 {
-Logging
+Log
 .
 e
 (
@@ -1546,7 +1546,7 @@ AudioEffect
 SUCCESS
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1562,7 +1562,7 @@ state
 )
 ;
 }
-Logging
+Log
 .
 d
 (
@@ -1618,7 +1618,7 @@ disabled
 }
 else
 {
-Logging
+Log
 .
 e
 (
@@ -1693,7 +1693,7 @@ AudioEffect
 SUCCESS
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1709,7 +1709,7 @@ state
 )
 ;
 }
-Logging
+Log
 .
 d
 (
@@ -1765,7 +1765,7 @@ disabled
 }
 else
 {
-Logging
+Log
 .
 e
 (
@@ -1789,7 +1789,7 @@ release
 (
 )
 {
-Logging
+Log
 .
 d
 (

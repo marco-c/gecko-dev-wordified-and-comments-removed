@@ -289,6 +289,16 @@ frame
 ;
 VCMFrameBuffer
 *
+FindFrame
+(
+uint16_t
+seq_num
+uint32_t
+timestamp
+)
+;
+VCMFrameBuffer
+*
 PopFrame
 (
 uint32_t

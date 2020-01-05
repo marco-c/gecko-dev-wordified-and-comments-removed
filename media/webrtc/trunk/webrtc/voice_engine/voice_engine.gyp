@@ -323,6 +323,15 @@ audio_coding_module
 '
 ]
 '
+defines
+'
+:
+[
+'
+WEBRTC_EXTERNAL_TRANSPORT
+'
+]
+'
 sources
 '
 :

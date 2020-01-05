@@ -196,6 +196,9 @@ AdaptiveThresholdExperimentIsEnabled
 (
 )
 {
+#
+ifdef
+CONVERT_TO_MOZILLA_ABOUT_CONFIG
 std
 :
 :
@@ -238,6 +241,13 @@ kEnabledPrefixLength
 =
 kEnabledPrefix
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 bool
 ReadExperimentConstants
@@ -250,6 +260,9 @@ double
 k_down
 )
 {
+#
+ifdef
+CONVERT_TO_MOZILLA_ABOUT_CONFIG
 std
 :
 :
@@ -295,6 +308,13 @@ k_down
 =
 2
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 OveruseDetector
 :

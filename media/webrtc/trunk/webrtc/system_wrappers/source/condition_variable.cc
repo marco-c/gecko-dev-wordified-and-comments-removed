@@ -62,6 +62,12 @@ defined
 (
 WEBRTC_MAC
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 #
 include
 <
@@ -141,6 +147,12 @@ WEBRTC_LINUX
 defined
 (
 WEBRTC_MAC
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 return
 ConditionVariablePosix

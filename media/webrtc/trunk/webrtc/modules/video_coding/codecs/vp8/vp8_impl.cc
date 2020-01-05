@@ -2426,6 +2426,8 @@ codec_
 .
 height
 )
++
+100
 ;
 encoded_images_
 [
@@ -3980,10 +3982,6 @@ frame
 ;
 if
 (
-quality_scaler_enabled_
-&
-&
-(
 input_image
 .
 width
@@ -4006,7 +4004,6 @@ height
 codec_
 .
 height
-)
 )
 {
 int

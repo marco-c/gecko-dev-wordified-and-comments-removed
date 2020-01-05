@@ -481,6 +481,15 @@ Input
 0
 ;
 virtual
+CPULoadStateObserver
+*
+LoadStateObserver
+(
+)
+=
+0
+;
+virtual
 bool
 ReconfigureVideoEncoder
 (

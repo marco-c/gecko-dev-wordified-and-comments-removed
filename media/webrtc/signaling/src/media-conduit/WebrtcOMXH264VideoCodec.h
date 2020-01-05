@@ -137,7 +137,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 &
 aInputImage
 const
@@ -156,7 +156,7 @@ vector
 webrtc
 :
 :
-VideoFrameType
+FrameType
 >
 *
 aFrameTypes

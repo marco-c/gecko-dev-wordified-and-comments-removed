@@ -7535,6 +7535,8 @@ android_app_version_code
 sas_dll_exists
 '
 :
+0
+#
 '
 <
 !
@@ -7563,6 +7565,8 @@ sas_dll_path
 wix_exists
 '
 :
+0
+#
 '
 <
 !
@@ -7603,6 +7607,7 @@ platformsdk_win8
 /
 files
 '
+#
 '
 directx_sdk_default_path
 '
@@ -7620,10 +7625,22 @@ directxsdk
 files
 '
 '
+windows_sdk_path
+%
+'
+:
+'
+<
+(
+windows_sdk_default_path
+)
+'
+'
 conditions
 '
 :
 [
+#
 [
 '
 "
@@ -7657,6 +7674,7 @@ True
 "
 '
 {
+#
 '
 windows_sdk_path
 %
@@ -7668,8 +7686,10 @@ windows_sdk_path
 windows_sdk_default_path
 )
 '
+#
 }
 {
+#
 '
 windows_sdk_path
 %
@@ -7692,8 +7712,10 @@ Kits
 .
 0
 '
+#
 }
 ]
+#
 [
 '
 OS
@@ -7734,6 +7756,7 @@ True
 "
 '
 {
+#
 '
 directx_sdk_path
 %
@@ -7745,8 +7768,10 @@ directx_sdk_path
 directx_sdk_default_path
 )
 '
+#
 }
 {
+#
 '
 directx_sdk_path
 %
@@ -7757,6 +7782,7 @@ directx_sdk_path
 DXSDK_DIR
 )
 '
+#
 }
 ]
 #
@@ -8716,7 +8742,7 @@ target_arch
 =
 =
 "
-aarch64
+arm64
 "
 '
 {
@@ -25907,6 +25933,7 @@ Include
 /
 winrt
 '
+#
 '
 <
 (
@@ -26129,6 +26156,7 @@ AdditionalLibraryDirectories
 '
 :
 [
+#
 '
 <
 (
@@ -26394,6 +26422,7 @@ AdditionalLibraryDirectories
 '
 :
 [
+#
 '
 <
 (
@@ -26404,6 +26433,7 @@ Lib
 /
 x86
 '
+XXXX
 '
 <
 (

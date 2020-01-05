@@ -81,9 +81,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 video_codec_interface
 .
@@ -389,7 +387,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 &
 aInputImage
 const
@@ -408,7 +406,7 @@ vector
 webrtc
 :
 :
-VideoFrameType
+FrameType
 >
 *
 aFrameTypes
@@ -720,7 +718,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 *
 aInputImage
 const
@@ -739,7 +737,7 @@ vector
 webrtc
 :
 :
-VideoFrameType
+FrameType
 >
 *
 aFrameTypes
@@ -1061,7 +1059,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 &
 aInputImage
 const
@@ -1080,7 +1078,7 @@ vector
 webrtc
 :
 :
-VideoFrameType
+FrameType
 >
 *
 aFrameTypes

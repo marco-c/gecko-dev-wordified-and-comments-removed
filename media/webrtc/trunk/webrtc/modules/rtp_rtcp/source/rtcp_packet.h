@@ -528,6 +528,7 @@ BlockLength
 (
 )
 const
+override
 {
 const
 size_t
@@ -669,6 +670,7 @@ BlockLength
 (
 )
 const
+override
 ;
 std
 :
@@ -812,6 +814,7 @@ BlockLength
 (
 )
 const
+override
 {
 size_t
 fci_length
@@ -968,6 +971,7 @@ BlockLength
 (
 )
 const
+override
 {
 const
 size_t
@@ -1113,6 +1117,7 @@ BlockLength
 (
 )
 const
+override
 {
 return
 (
@@ -1282,6 +1287,7 @@ BlockLength
 (
 )
 const
+override
 {
 const
 size_t

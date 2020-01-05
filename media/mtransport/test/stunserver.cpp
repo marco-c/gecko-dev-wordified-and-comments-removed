@@ -30,6 +30,14 @@ databuffer
 .
 h
 "
+#
+ifdef
+UNIMPLEMENTED
+#
+undef
+UNIMPLEMENTED
+#
+endif
 extern
 "
 C

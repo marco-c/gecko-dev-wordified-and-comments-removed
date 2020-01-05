@@ -20,6 +20,13 @@ audio_device_template
 h
 "
 #
+if
+!
+defined
+(
+WEBRTC_GONK
+)
+#
 include
 "
 webrtc
@@ -49,6 +56,8 @@ audio_track_jni
 .
 h
 "
+#
+endif
 #
 include
 "

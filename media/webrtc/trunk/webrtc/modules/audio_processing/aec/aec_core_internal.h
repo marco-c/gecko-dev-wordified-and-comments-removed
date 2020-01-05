@@ -486,6 +486,9 @@ FILE
 *
 e_fft_file
 ;
+uint32_t
+debugWritten
+;
 #
 endif
 }

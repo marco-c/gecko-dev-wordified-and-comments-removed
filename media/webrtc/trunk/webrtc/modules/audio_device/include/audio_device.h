@@ -78,6 +78,9 @@ kAndroidJavaAudio
 kAndroidJavaInputAndOpenSLESOutputAudio
 =
 6
+kSndioAudio
+=
+7
 kDummyAudio
 =
 8

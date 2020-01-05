@@ -19,6 +19,7 @@ CriticalSection
 {
 public
 :
+explicit
 CriticalSection
 (
 const
@@ -111,6 +112,7 @@ CriticalSectionAutoEnter
 {
 public
 :
+explicit
 CriticalSectionAutoEnter
 (
 mozilla

@@ -331,6 +331,11 @@ NumOfChannels
 )
 const
 ;
+const
+Config
+&
+config_
+;
 RtcEventLog
 *
 GetEventLog
@@ -372,11 +377,6 @@ vector
 ChannelOwner
 >
 channels_
-;
-const
-Config
-&
-config_
 ;
 rtc
 :

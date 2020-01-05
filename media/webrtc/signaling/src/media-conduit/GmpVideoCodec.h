@@ -20,14 +20,14 @@ GmpVideoCodec
 public
 :
 static
-VideoEncoder
+WebrtcVideoEncoder
 *
 CreateEncoder
 (
 )
 ;
 static
-VideoDecoder
+WebrtcVideoDecoder
 *
 CreateDecoder
 (

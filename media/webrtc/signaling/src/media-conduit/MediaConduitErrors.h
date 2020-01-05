@@ -43,6 +43,7 @@ kMediaConduitNACKStatusError
 kMediaConduitTMMBRStatusError
 kMediaConduitFECStatusError
 kMediaConduitHybridNACKFECStatusError
+kMediaConduitVideoSendStreamError
 }
 ;
 }
