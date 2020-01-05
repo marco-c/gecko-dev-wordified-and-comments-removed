@@ -37,6 +37,7 @@ values
 :
 :
 {
+Auto
 CSSFloat
 Either
 None_
@@ -3039,6 +3040,16 @@ Either
 <
 Length
 None_
+>
+;
+pub
+type
+LengthOrAuto
+=
+Either
+<
+Length
+Auto
 >
 ;
 pub

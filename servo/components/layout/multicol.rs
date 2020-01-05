@@ -161,6 +161,15 @@ style
 values
 :
 :
+Either
+;
+use
+style
+:
+:
+values
+:
+:
 computed
 :
 :
@@ -532,7 +541,10 @@ column_count
 ;
 if
 let
-Some
+Either
+:
+:
+First
 (
 column_width
 )
@@ -540,8 +552,6 @@ column_width
 column_style
 .
 column_width
-.
-0
 {
 column_count
 =
