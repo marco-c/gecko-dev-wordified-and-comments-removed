@@ -246,6 +246,15 @@ VideoCodec
 inst
 )
 ;
+int
+UpdateCodecFrameSize
+(
+const
+I420VideoFrame
+&
+input_image
+)
+;
 void
 PopulateCodecSpecific
 (
@@ -378,6 +387,9 @@ num_temporal_layers_
 ;
 uint8_t
 num_spatial_layers_
+;
+uint8_t
+num_cores_
 ;
 bool
 is_flexible_mode_
