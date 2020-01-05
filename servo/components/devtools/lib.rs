@@ -2094,10 +2094,7 @@ NetworkEvent
 :
 HttpRequest
 (
-url
-method
-headers
-body
+httprequest
 )
 =
 >
@@ -2115,10 +2112,7 @@ actor
 .
 add_request
 (
-url
-method
-headers
-body
+httprequest
 )
 ;
 /
@@ -2178,9 +2172,7 @@ NetworkEvent
 :
 HttpResponse
 (
-headers
-status
-body
+httpresponse
 )
 =
 >
@@ -2198,9 +2190,7 @@ actor
 .
 add_response
 (
-headers
-status
-body
+httpresponse
 )
 ;
 /
