@@ -377,6 +377,7 @@ anim
 StackingContextHelper
 sc
 (
+aSc
 aBuilder
 this
 animationsId

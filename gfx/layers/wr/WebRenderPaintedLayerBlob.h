@@ -227,7 +227,7 @@ aBuilder
 const
 StackingContextHelper
 &
-aHelper
+aSc
 )
 override
 ;

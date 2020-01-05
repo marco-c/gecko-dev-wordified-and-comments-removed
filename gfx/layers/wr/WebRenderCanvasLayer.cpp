@@ -350,6 +350,7 @@ PreScale
 StackingContextHelper
 sc
 (
+aSc
 aBuilder
 this
 transform

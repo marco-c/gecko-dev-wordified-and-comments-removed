@@ -461,11 +461,16 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 {
 StackingContextHelper
 sc
 (
+aSc
 aBuilder
 this
 )
@@ -770,6 +775,7 @@ IsEmpty
 CreateWebRenderDisplayList
 (
 aBuilder
+aSc
 )
 ;
 }

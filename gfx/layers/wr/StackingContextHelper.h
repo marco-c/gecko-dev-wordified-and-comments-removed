@@ -70,6 +70,10 @@ public
 :
 StackingContextHelper
 (
+const
+StackingContextHelper
+&
+aParentSC
 wr
 :
 :
@@ -97,6 +101,10 @@ Nothing
 ;
 StackingContextHelper
 (
+const
+StackingContextHelper
+&
+aParentSC
 wr
 :
 :
