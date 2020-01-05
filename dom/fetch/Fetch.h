@@ -121,6 +121,9 @@ class
 ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 ;
 class
+BlobImpl
+;
+class
 InternalRequest
 ;
 class
@@ -345,6 +348,14 @@ aLength
 uint8_t
 *
 aResult
+)
+;
+void
+ContinueConsumeBlobBody
+(
+BlobImpl
+*
+aBlobImpl
 )
 ;
 void

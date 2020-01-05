@@ -968,6 +968,11 @@ MutableBlobStorage
 h
 '
 '
+MutableBlobStreamListener
+.
+h
+'
+'
 NameSpaceConstants
 .
 h
@@ -1269,6 +1274,11 @@ cpp
 '
 '
 MutableBlobStorage
+.
+cpp
+'
+'
+MutableBlobStreamListener
 .
 cpp
 '
