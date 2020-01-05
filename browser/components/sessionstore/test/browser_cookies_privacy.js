@@ -124,8 +124,6 @@ value
 r
 }
 secure
-:
-secure
 }
 ;
 return
