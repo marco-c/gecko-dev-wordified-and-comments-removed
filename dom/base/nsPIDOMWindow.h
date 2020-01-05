@@ -1367,6 +1367,8 @@ aOptions
 nsIDocShellLoadInfo
 *
 aLoadInfo
+bool
+aForceNoOpener
 nsPIDOMWindowOuter
 *
 *

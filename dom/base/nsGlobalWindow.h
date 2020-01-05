@@ -4149,6 +4149,8 @@ aOptions
 nsIDocShellLoadInfo
 *
 aLoadInfo
+bool
+aForceNoOpener
 nsPIDOMWindowOuter
 *
 *
@@ -7775,6 +7777,8 @@ aExtraArgument
 nsIDocShellLoadInfo
 *
 aLoadInfo
+bool
+aForceNoOpener
 nsPIDOMWindowOuter
 *
 *
