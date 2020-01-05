@@ -1817,7 +1817,7 @@ fail
 (
 "
 Both
-rendering
+renderings
 are
 empty
 "
