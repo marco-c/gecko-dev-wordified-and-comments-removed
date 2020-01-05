@@ -585,4 +585,16 @@ r
 )
 )
 }
+fn
+CookieEnabled
+(
+&
+self
+)
+-
+>
+bool
+{
+true
+}
 }
