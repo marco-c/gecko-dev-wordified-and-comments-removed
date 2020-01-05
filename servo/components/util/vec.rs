@@ -53,7 +53,7 @@ PartialEq
 >
 {
 fn
-binary_search
+binary_search_
 (
 &
 self
@@ -155,7 +155,7 @@ T
 ]
 {
 fn
-binary_search
+binary_search_
 (
 &
 self
@@ -496,7 +496,7 @@ i
 ]
 arr
 .
-binary_search
+binary_search_
 (
 &
 arr
@@ -569,7 +569,7 @@ res
 =
 arr
 .
-binary_search
+binary_search_
 (
 &
 misses
@@ -614,7 +614,7 @@ i
 ]
 arr
 .
-binary_search
+binary_search_
 (
 &
 misses

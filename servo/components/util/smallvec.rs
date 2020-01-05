@@ -3105,7 +3105,8 @@ v
 as_slice
 (
 )
-&
+vec
+!
 [
 "
 hello
@@ -3122,6 +3123,10 @@ to_string
 (
 )
 ]
+.
+as_slice
+(
+)
 )
 ;
 }
@@ -3206,7 +3211,8 @@ v
 as_slice
 (
 )
-&
+vec
+!
 [
 "
 hello
@@ -3237,6 +3243,10 @@ to_string
 (
 )
 ]
+.
+as_slice
+(
+)
 )
 ;
 }
@@ -3373,7 +3383,8 @@ v
 as_slice
 (
 )
-&
+vec
+!
 [
 "
 hello
@@ -3432,6 +3443,10 @@ to_string
 (
 )
 ]
+.
+as_slice
+(
+)
 )
 ;
 }
