@@ -5007,6 +5007,7 @@ PERSIST_TABS_AFTER_MILLISECONDS
 )
 ;
 }
+RobocopTarget
 public
 Tab
 getFirstTabForUrl
