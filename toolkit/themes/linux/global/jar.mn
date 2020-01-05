@@ -164,6 +164,7 @@ global
 findBar
 .
 css
+*
 skin
 /
 classic
