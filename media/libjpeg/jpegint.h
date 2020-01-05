@@ -631,13 +631,13 @@ last_iMCU_col
 JDIMENSION
 first_MCU_col
 [
-MAX_COMPS_IN_SCAN
+MAX_COMPONENTS
 ]
 ;
 JDIMENSION
 last_MCU_col
 [
-MAX_COMPS_IN_SCAN
+MAX_COMPONENTS
 ]
 ;
 boolean

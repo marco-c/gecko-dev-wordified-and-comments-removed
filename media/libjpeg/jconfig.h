@@ -7,9 +7,9 @@ define
 LIBJPEG_TURBO_VERSION
 1
 .
-4
+5
 .
-0
+1
 #
 define
 BITS_IN_JSAMPLE
