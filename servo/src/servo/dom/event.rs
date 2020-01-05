@@ -5,6 +5,14 @@ ResizeEvent
 (
 uint
 uint
+pipes
+:
+:
+Chan
+<
+(
+)
+>
 )
 ReflowEvent
 }

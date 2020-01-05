@@ -355,6 +355,10 @@ pub
 mod
 osmain
 ;
+priv
+mod
+resize_rate_limiter
+;
 }
 pub
 mod
