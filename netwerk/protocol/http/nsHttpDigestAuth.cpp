@@ -2595,7 +2595,7 @@ p
 =
 challenge
 +
-7
+6
 ;
 *
 stale
