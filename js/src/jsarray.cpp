@@ -1194,7 +1194,7 @@ id
 }
 static
 bool
-GetElement
+HasAndGetElement
 (
 JSContext
 *
@@ -1377,7 +1377,7 @@ true
 static
 inline
 bool
-GetElement
+HasAndGetElement
 (
 JSContext
 *
@@ -1394,7 +1394,7 @@ vp
 )
 {
 return
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -1624,7 +1624,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -4776,7 +4776,7 @@ cx
 |
 |
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -7173,7 +7173,7 @@ cx
 |
 |
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -7186,7 +7186,7 @@ lowval
 |
 |
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -9724,7 +9724,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -11232,7 +11232,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -11643,7 +11643,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -11924,7 +11924,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -12516,7 +12516,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -12824,7 +12824,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -13619,7 +13619,7 @@ cx
 |
 |
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -13762,7 +13762,7 @@ hole
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
@@ -14440,7 +14440,7 @@ kNotPresent
 if
 (
 !
-GetElement
+HasAndGetElement
 (
 cx
 obj
