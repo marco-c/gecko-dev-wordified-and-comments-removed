@@ -596,11 +596,6 @@ Trusted
 :
 new
 (
-global
-.
-get_cx
-(
-)
 worker
 .
 r
@@ -1206,7 +1201,6 @@ Trusted
 :
 new
 (
-cx
 self
 self
 .
@@ -1221,10 +1215,6 @@ r
 )
 .
 dom_manipulation_task_source
-(
-)
-.
-clone
 (
 )
 )

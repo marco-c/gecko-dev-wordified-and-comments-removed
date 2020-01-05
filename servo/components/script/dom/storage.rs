@@ -1434,17 +1434,8 @@ Trusted
 :
 new
 (
-global_ref
-.
-get_cx
-(
-)
 self
 script_chan
-.
-clone
-(
-)
 )
 ;
 main_script_chan

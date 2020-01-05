@@ -2591,11 +2591,6 @@ Trusted
 :
 new
 (
-global
-.
-get_cx
-(
-)
 self
 global
 .

@@ -53,10 +53,7 @@ js
 jsapi
 :
 :
-{
-JSContext
 JSTracer
-}
 ;
 use
 libc
@@ -310,11 +307,6 @@ pub
 fn
 new
 (
-_cx
-:
-*
-mut
-JSContext
 ptr
 :
 &

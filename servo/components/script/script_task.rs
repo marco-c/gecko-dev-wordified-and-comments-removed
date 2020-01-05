@@ -9055,11 +9055,6 @@ Trusted
 :
 new
 (
-self
-.
-get_cx
-(
-)
 doc
 self
 .

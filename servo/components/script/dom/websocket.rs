@@ -1312,11 +1312,6 @@ Trusted
 :
 new
 (
-global
-.
-get_cx
-(
-)
 ws
 .
 r
@@ -1783,15 +1778,6 @@ Trusted
 :
 new
 (
-global
-.
-r
-(
-)
-.
-get_cx
-(
-)
 self
 chan
 .
