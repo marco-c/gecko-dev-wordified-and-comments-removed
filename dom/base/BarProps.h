@@ -163,6 +163,8 @@ bool
 aVisible
 uint32_t
 aChromeFlag
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
