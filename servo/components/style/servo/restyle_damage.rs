@@ -1032,7 +1032,7 @@ get_inheritedbox
 writing_mode
 get_text
 .
-text_decoration
+text_decoration_line
 get_text
 .
 unicode_bidi
