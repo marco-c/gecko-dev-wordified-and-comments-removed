@@ -442,7 +442,7 @@ permissions
 history
 "
 ]
-origins
+hosts
 :
 [
 "
@@ -503,7 +503,7 @@ permissions
 :
 [
 ]
-origins
+hosts
 :
 [
 ]
@@ -555,7 +555,7 @@ permissions
 :
 [
 ]
-origins
+hosts
 :
 [
 "
@@ -612,7 +612,7 @@ permissions
 :
 [
 ]
-origins
+hosts
 :
 [
 "

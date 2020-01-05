@@ -1319,7 +1319,7 @@ permissions
 |
 |
 {
-origins
+hosts
 :
 [
 ]
@@ -1349,7 +1349,7 @@ permission
 of
 perms
 .
-origins
+hosts
 )
 {
 if
