@@ -166,6 +166,17 @@ error
 "
 no
 -
+delete
+-
+var
+"
+:
+"
+error
+"
+"
+no
+-
 dupe
 -
 args
