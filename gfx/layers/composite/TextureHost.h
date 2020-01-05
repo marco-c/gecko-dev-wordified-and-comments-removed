@@ -1660,6 +1660,7 @@ Region
 )
 {
 }
+virtual
 void
 NotifyNotUsed
 (
