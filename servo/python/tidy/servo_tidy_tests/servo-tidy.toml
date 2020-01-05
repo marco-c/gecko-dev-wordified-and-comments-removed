@@ -27,6 +27,11 @@ key
 =
 false
 [
+blocked
+-
+packages
+]
+[
 wrong
 ]
 wrong
