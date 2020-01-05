@@ -62,6 +62,9 @@ StickyTimeDuration
 mActiveDuration
 ;
 StickyTimeDuration
+mActiveTime
+;
+StickyTimeDuration
 mEndTime
 ;
 Nullable

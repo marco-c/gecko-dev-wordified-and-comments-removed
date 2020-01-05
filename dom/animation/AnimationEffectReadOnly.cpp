@@ -535,9 +535,6 @@ Value
 )
 ;
 StickyTimeDuration
-activeTime
-;
-StickyTimeDuration
 beforeActiveBoundary
 =
 std
@@ -640,7 +637,9 @@ return
 result
 ;
 }
-activeTime
+result
+.
+mActiveTime
 =
 std
 :
@@ -715,7 +714,9 @@ return
 result
 ;
 }
-activeTime
+result
+.
+mActiveTime
 =
 std
 :
@@ -774,7 +775,9 @@ AnimationPhase
 :
 Active
 ;
-activeTime
+result
+.
+mActiveTime
 =
 localTime
 -
@@ -824,7 +827,9 @@ else
 {
 overallProgress
 =
-activeTime
+result
+.
+mActiveTime
 /
 result
 .
@@ -943,7 +948,9 @@ mIterations
 &
 &
 (
-activeTime
+result
+.
+mActiveTime
 !
 =
 zeroDuration
