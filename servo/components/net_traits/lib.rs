@@ -126,10 +126,6 @@ extern
 crate
 webrender_traits
 ;
-extern
-crate
-websocket
-;
 use
 cookie_rs
 :
@@ -247,12 +243,6 @@ storage_thread
 :
 :
 StorageThreadMsg
-;
-use
-websocket
-:
-:
-header
 ;
 pub
 mod
