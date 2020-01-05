@@ -26741,10 +26741,7 @@ nsChildWindow
 =
 default
 ;
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -26782,10 +26779,7 @@ aAction
 )
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsWindow
 :
 :
@@ -26870,11 +26864,8 @@ GetIMEUpdatePreference
 )
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsWindow
 :
 :
@@ -26974,10 +26965,7 @@ aCallbackData
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsWindow
 :
 :

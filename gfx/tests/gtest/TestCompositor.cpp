@@ -556,10 +556,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD_
-(
+virtual
 void
-)
 SetInputContext
 (
 const
@@ -574,10 +572,8 @@ aAction
 override
 {
 }
-NS_IMETHOD_
-(
+virtual
 InputContext
-)
 GetInputContext
 (
 )

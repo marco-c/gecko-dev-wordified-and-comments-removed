@@ -9229,10 +9229,7 @@ mPluginFocused
 aFocused
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsChildView
 :
 :
@@ -9429,10 +9426,7 @@ implemented
 ;
 }
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsChildView
 :
 :
@@ -9526,11 +9520,8 @@ return
 mInputContext
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsChildView
 :
 :
@@ -9750,10 +9741,7 @@ aCallbackData
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsChildView
 :
 :

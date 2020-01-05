@@ -363,10 +363,8 @@ return
 false
 ;
 }
-NS_IMETHOD_
-(
+virtual
 void
-)
 SetInputContext
 (
 const
@@ -379,10 +377,8 @@ InputContextAction
 aAction
 )
 ;
-NS_IMETHOD_
-(
+virtual
 InputContext
-)
 GetInputContext
 (
 )

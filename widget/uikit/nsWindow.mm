@@ -4706,10 +4706,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -4737,8 +4734,6 @@ mInputContext
 aContext
 ;
 }
-NS_IMETHODIMP_
-(
 mozilla
 :
 :
@@ -4746,7 +4741,6 @@ widget
 :
 :
 InputContext
-)
 nsWindow
 :
 :

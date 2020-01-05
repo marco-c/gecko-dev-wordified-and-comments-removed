@@ -28510,10 +28510,7 @@ ResetLayout
 )
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -28549,10 +28546,7 @@ mInputContext
 newInputContext
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsWindow
 :
 :
@@ -28638,11 +28632,8 @@ GetUpdatePreference
 )
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsWindow
 :
 :

@@ -13621,10 +13621,7 @@ NO
 ;
 }
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsCocoaWindow
 :
 :
@@ -13649,10 +13646,7 @@ aContext
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsCocoaWindow
 :
 :
