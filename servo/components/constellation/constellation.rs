@@ -10934,6 +10934,14 @@ start
 *
 size
 webrender_api
+opts
+:
+:
+get
+(
+)
+.
+enable_canvas_antialiasing
 )
 ;
 if
