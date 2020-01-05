@@ -38,8 +38,6 @@ sourceUrl
 EXAMPLE_URL
 +
 "
-code
--
 long
 .
 js
