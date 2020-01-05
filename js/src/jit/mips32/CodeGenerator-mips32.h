@@ -274,6 +274,14 @@ ins
 )
 ;
 void
+visitWasmTruncateToInt64
+(
+LWasmTruncateToInt64
+*
+ins
+)
+;
+void
 visitOutOfLineBailout
 (
 OutOfLineBailout
