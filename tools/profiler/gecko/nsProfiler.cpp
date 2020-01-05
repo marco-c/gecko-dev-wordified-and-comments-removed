@@ -392,7 +392,7 @@ mLockedForPrivateBrowsing
 =
 true
 ;
-profiler_lock
+profiler_stop
 (
 )
 ;
@@ -422,10 +422,6 @@ exited
 mLockedForPrivateBrowsing
 =
 false
-;
-profiler_unlock
-(
-)
 ;
 }
 return
