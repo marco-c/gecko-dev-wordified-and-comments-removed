@@ -430,10 +430,8 @@ mut
 self
 object
 :
-Box
-<
+&
 Any
->
 )
 {
 if
@@ -804,6 +802,8 @@ msg
 .
 add_panic_object
 (
+&
+*
 err
 )
 ;
