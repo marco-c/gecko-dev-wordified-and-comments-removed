@@ -235,7 +235,7 @@ EventRegionsOverride
 :
 NoOverride
 ;
-mScrollbarDirection
+mScrollThumbData
 =
 aLayer
 -
@@ -243,8 +243,6 @@ aLayer
 GetScrollThumbData
 (
 )
-.
-mDirection
 ;
 mScrollbarTargetContainerId
 =

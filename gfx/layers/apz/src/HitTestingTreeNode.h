@@ -237,8 +237,10 @@ FrameMetrics
 :
 ViewID
 aScrollViewId
-ScrollDirection
-aDir
+const
+ScrollThumbData
+&
+aThumbData
 bool
 aIsScrollContainer
 )
@@ -375,8 +377,8 @@ FrameMetrics
 ViewID
 mScrollViewId
 ;
-ScrollDirection
-mScrollDir
+ScrollThumbData
+mScrollThumbData
 ;
 bool
 mIsScrollbarContainer
