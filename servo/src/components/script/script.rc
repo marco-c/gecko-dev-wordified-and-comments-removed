@@ -216,10 +216,6 @@ bindings
 {
 pub
 mod
-document
-;
-pub
-mod
 element
 ;
 pub
@@ -265,6 +261,10 @@ ClientRectBinding
 pub
 mod
 ClientRectListBinding
+;
+pub
+mod
+DocumentBinding
 ;
 pub
 mod

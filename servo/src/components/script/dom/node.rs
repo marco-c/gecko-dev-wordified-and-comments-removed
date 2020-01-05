@@ -3134,17 +3134,6 @@ compartment
 bindings
 :
 :
-document
-:
-:
-init
-(
-compartment
-)
-;
-bindings
-:
-:
 node
 :
 :

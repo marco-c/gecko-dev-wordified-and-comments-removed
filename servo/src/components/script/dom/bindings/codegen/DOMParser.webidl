@@ -97,9 +97,6 @@ InputStream
 ;
 *
 /
-interface
-Document
-;
 enum
 SupportedType
 {
