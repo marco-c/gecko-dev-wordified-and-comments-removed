@@ -214,8 +214,15 @@ mFD
 int32_t
 mBehaviorFlags
 ;
-bool
-mDeferredOpen
+enum
+{
+eUnitialized
+eDeferredOpen
+eOpened
+eClosed
+eError
+}
+mState
 ;
 struct
 OpenParams
@@ -236,6 +243,9 @@ perm
 ;
 OpenParams
 mOpenParams
+;
+nsresult
+mErrorValue
 ;
 nsresult
 MaybeOpen
