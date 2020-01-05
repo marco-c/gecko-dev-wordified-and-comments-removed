@@ -59,16 +59,10 @@ uint32_t
 aFlags
 )
 :
-mData
+nsTStringRepr_CharT
 (
 aData
-)
-mLength
-(
 aLength
-)
-mFlags
-(
 aFlags
 )
 {
