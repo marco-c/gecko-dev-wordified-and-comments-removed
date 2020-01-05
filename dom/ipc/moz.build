@@ -498,6 +498,11 @@ PURLClassifier
 ipdl
 '
 '
+PURLClassifierInfo
+.
+ipdlh
+'
+'
 ServiceWorkerConfiguration
 .
 ipdlh
