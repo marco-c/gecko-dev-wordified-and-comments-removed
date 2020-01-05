@@ -4802,7 +4802,7 @@ files
 class
 ObjdirFiles
 (
-ContextDerived
+FinalTargetFiles
 )
 :
     
@@ -4825,37 +4825,6 @@ HierarchicalStringList
 "
 "
     
-__slots__
-=
-(
-'
-files
-'
-)
-    
-def
-__init__
-(
-self
-sandbox
-files
-)
-:
-        
-ContextDerived
-.
-__init__
-(
-self
-sandbox
-)
-        
-self
-.
-files
-=
-files
-    
 property
     
 def
@@ -4871,7 +4840,7 @@ return
 class
 ObjdirPreprocessedFiles
 (
-ContextDerived
+FinalTargetPreprocessedFiles
 )
 :
     
@@ -4893,37 +4862,6 @@ HierarchicalStringList
 "
 "
 "
-    
-__slots__
-=
-(
-'
-files
-'
-)
-    
-def
-__init__
-(
-self
-sandbox
-files
-)
-:
-        
-ContextDerived
-.
-__init__
-(
-self
-sandbox
-)
-        
-self
-.
-files
-=
-files
     
 property
     
