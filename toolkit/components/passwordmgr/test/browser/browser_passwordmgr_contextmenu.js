@@ -54,7 +54,7 @@ https
 :
 /
 /
-developer
+support
 .
 mozilla
 .
