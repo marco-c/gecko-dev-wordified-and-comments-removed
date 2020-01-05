@@ -5911,6 +5911,9 @@ eMouseEnterIntoWidget
 case
 eMouseExitFromWidget
 :
+case
+eMouseTouchDrag
+:
 return
 true
 ;
