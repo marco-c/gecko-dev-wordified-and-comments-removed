@@ -459,6 +459,7 @@ EntirelyAfter
 deriving
 (
 Clone
+Encodable
 )
 ]
 pub

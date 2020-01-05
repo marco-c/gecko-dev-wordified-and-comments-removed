@@ -87,6 +87,10 @@ extern
 crate
 png
 ;
+extern
+crate
+serialize
+;
 #
 [
 phase

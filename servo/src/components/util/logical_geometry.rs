@@ -46,6 +46,13 @@ Zero
 bitflags
 !
 (
+#
+[
+deriving
+(
+Encodable
+)
+]
 flags
 WritingMode
 :
@@ -367,6 +374,7 @@ ndebug
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -389,6 +397,7 @@ ndebug
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -632,6 +641,7 @@ formatter
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -1429,6 +1439,7 @@ block
 deriving
 (
 PartialEq
+Encodable
 Eq
 Clone
 )
@@ -2593,6 +2604,7 @@ block
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -4289,6 +4301,7 @@ inline_start
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone

@@ -321,6 +321,9 @@ false
 enable_text_antialiasing
 :
 true
+trace_layout
+:
+false
 }
 ;
 native

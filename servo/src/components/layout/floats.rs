@@ -65,6 +65,7 @@ Arc
 deriving
 (
 Clone
+Encodable
 )
 ]
 pub
