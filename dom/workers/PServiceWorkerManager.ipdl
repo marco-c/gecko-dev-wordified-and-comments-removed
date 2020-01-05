@@ -61,10 +61,6 @@ protocol
 PBackground
 ;
 include
-protocol
-PServiceWorkerUpdater
-;
-include
 PBackgroundSharedTypes
 ;
 include
@@ -97,9 +93,6 @@ PServiceWorkerManager
 {
 manager
 PBackground
-;
-manages
-PServiceWorkerUpdater
 ;
 parent
 :
@@ -152,15 +145,6 @@ PropagateRemoveAll
 async
 Shutdown
 (
-)
-;
-async
-PServiceWorkerUpdater
-(
-OriginAttributes
-originAttributes
-nsCString
-scope
 )
 ;
 child
