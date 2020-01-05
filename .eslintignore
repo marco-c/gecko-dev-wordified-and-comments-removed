@@ -640,17 +640,6 @@ client
 /
 shared
 /
-developer
--
-toolbar
-.
-js
-devtools
-/
-client
-/
-shared
-/
 components
 /
 test
