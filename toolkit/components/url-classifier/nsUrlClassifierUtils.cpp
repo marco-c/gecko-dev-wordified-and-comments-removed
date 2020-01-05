@@ -1977,14 +1977,6 @@ seconds
 )
 *
 1000
-+
-aDuration
-.
-nanos
-(
-)
-/
-1000
 ;
 }
 NS_IMETHODIMP

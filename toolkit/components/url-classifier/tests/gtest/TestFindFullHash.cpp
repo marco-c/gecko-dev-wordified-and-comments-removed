@@ -954,12 +954,6 @@ aExpected
 mSecs
 *
 1000
-+
-aExpected
-.
-mNanos
-/
-1000
 )
 )
 ;
