@@ -977,6 +977,9 @@ mKeyPressHandled
 bool
 mCausedOtherKeyEvents
 ;
+bool
+mCompositionDispatched
+;
 KeyEventState
 (
 )
@@ -1112,6 +1115,10 @@ mCausedOtherKeyEvents
 =
 false
 ;
+mCompositionDispatched
+=
+false
+;
 }
 bool
 IsDefaultPrevented
@@ -1127,6 +1134,9 @@ mKeyPressHandled
 |
 |
 mCausedOtherKeyEvents
+|
+|
+mCompositionDispatched
 ;
 }
 bool
