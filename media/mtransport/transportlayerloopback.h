@@ -232,7 +232,6 @@ combinePackets_
 combine
 ;
 }
-virtual
 TransportResult
 SendPacket
 (
@@ -244,6 +243,7 @@ data
 size_t
 len
 )
+override
 ;
 void
 DeliverPackets

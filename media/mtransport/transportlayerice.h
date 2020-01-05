@@ -130,7 +130,6 @@ RestoreOldStream
 (
 )
 ;
-virtual
 TransportResult
 SendPacket
 (
@@ -142,6 +141,7 @@ data
 size_t
 len
 )
+override
 ;
 void
 IceCandidate

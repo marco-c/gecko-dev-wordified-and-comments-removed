@@ -41,7 +41,6 @@ TransportLayerLogging
 )
 {
 }
-virtual
 TransportResult
 SendPacket
 (
@@ -53,6 +52,7 @@ data
 size_t
 len
 )
+override
 ;
 void
 StateChange
@@ -87,11 +87,11 @@ log
 )
 protected
 :
-virtual
 void
 WasInserted
 (
 )
+override
 ;
 private
 :

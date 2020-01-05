@@ -281,11 +281,11 @@ destroyed_
 true
 ;
 }
-virtual
 nsresult
 InitInternal
 (
 )
+override
 {
 return
 allow_init_
@@ -295,7 +295,6 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-virtual
 TransportResult
 SendPacket
 (
@@ -307,6 +306,7 @@ data
 size_t
 len
 )
+override
 {
 MOZ_CRASH
 (
@@ -397,7 +397,6 @@ TransportLayerLossy
 )
 {
 }
-virtual
 TransportResult
 SendPacket
 (
@@ -409,6 +408,7 @@ data
 size_t
 len
 )
+override
 {
 MOZ_MTLOG
 (
@@ -581,11 +581,11 @@ lossy
 )
 protected
 :
-virtual
 void
 WasInserted
 (
 )
+override
 {
 downward_
 -

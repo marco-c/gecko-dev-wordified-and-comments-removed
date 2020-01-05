@@ -102,11 +102,11 @@ Detach
 )
 ;
 }
-virtual
 nsresult
 InitInternal
 (
 )
+override
 ;
 void
 Import
@@ -132,7 +132,6 @@ Detach
 )
 ;
 }
-virtual
 TransportResult
 SendPacket
 (
@@ -144,6 +143,7 @@ data
 size_t
 len
 )
+override
 ;
 TRANSPORT_LAYER_ID
 (
