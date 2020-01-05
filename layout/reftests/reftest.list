@@ -1681,6 +1681,14 @@ unicode
 reftest
 .
 list
+#
+usercss
+include
+usercss
+/
+reftest
+.
+list
 include
 view
 -
