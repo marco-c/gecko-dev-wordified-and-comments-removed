@@ -141,6 +141,7 @@ dev
 libpng
 -
 dev
+msttcorefonts
 Servo
 builds
 its
