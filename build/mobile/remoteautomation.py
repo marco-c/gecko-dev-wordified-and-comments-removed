@@ -31,6 +31,10 @@ from
 mozlog
 import
 get_default_logger
+from
+mozscreenshot
+import
+dump_screen
 import
 mozcrash
 fennecLogcatFilters
@@ -487,6 +491,12 @@ test
 "
 "
 "
+        
+proc
+.
+utilityPath
+=
+utilityPath
         
 status
 =
@@ -1641,6 +1651,12 @@ messageLogger
 =
 messageLogger
             
+self
+.
+utilityPath
+=
+None
+            
 if
 (
 self
@@ -2305,6 +2321,22 @@ stagedShutdown
 False
 )
 :
+            
+if
+self
+.
+utilityPath
+:
+                
+dump_screen
+(
+self
+.
+utilityPath
+get_default_logger
+(
+)
+)
             
 if
 stagedShutdown
