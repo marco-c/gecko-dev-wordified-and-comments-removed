@@ -1012,6 +1012,11 @@ InitWithAppCommand
 (
 )
 ;
+void
+InitWithKeyChar
+(
+)
+;
 bool
 IsRepeat
 (

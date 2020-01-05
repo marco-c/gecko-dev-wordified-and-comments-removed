@@ -29,6 +29,9 @@ windows
 .
 h
 >
+class
+nsCString
+;
 namespace
 mozilla
 {
@@ -176,6 +179,16 @@ aMouseEvent
 const
 ;
 }
+;
+const
+nsCString
+ToString
+(
+const
+ModifierKeyState
+&
+aModifierKeyState
+)
 ;
 }
 }
