@@ -1212,9 +1212,7 @@ Actions
 .
 selectDetailsPanelTab
 (
-"
-security
-"
+5
 )
 )
 ;

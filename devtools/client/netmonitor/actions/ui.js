@@ -69,7 +69,7 @@ width
 function
 selectDetailsPanelTab
 (
-id
+index
 )
 {
 return
@@ -77,7 +77,7 @@ return
 type
 :
 SELECT_DETAILS_PANEL_TAB
-id
+index
 }
 ;
 }
