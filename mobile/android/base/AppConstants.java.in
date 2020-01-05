@@ -1452,7 +1452,7 @@ MOZ_CRASHREPORTER
 /
 /
 #
-if
+ifdef
 MOZ_CRASHREPORTER
 true
 ;
