@@ -18,6 +18,9 @@ MAX_LABEL_LENGTH
 MAX_LABEL_COUNT
 =
 100
+MIN_CATEGORICAL_BUCKET_COUNT
+=
+50
 try
 :
     
@@ -1650,6 +1653,9 @@ always_allowed_keys
 '
 labels
 '
+'
+n_values
+'
 ]
             
 '
@@ -3015,6 +3021,8 @@ definition
         
 n_values
 =
+max
+(
 len
 (
 definition
@@ -3023,6 +3031,19 @@ definition
 labels
 '
 ]
+)
+                       
+definition
+.
+get
+(
+'
+n_values
+'
+0
+)
+                       
+MIN_CATEGORICAL_BUCKET_COUNT
 )
         
 return
