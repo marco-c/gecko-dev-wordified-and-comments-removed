@@ -19114,6 +19114,16 @@ false
 pref
 (
 "
+security
+.
+allow_chrome_frames_inside_content
+"
+false
+)
+;
+pref
+(
+"
 services
 .
 settings
