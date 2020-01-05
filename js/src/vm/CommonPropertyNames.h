@@ -210,6 +210,15 @@ Bool64x2
 \
 macro
 (
+boundWithSpace
+boundWithSpace
+"
+bound
+"
+)
+\
+macro
+(
 breakdown
 breakdown
 "
