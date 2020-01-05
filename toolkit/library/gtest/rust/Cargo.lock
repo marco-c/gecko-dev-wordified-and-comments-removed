@@ -121,9 +121,9 @@ dependencies
 mp4parse_capi
 0
 .
-5
+6
 .
-1
+0
 "
 "
 nsstring
@@ -378,9 +378,9 @@ version
 "
 0
 .
-5
+6
 .
-1
+0
 "
 dependencies
 =
@@ -451,9 +451,9 @@ version
 "
 0
 .
-5
+6
 .
-1
+0
 "
 dependencies
 =
@@ -462,9 +462,9 @@ dependencies
 mp4parse
 0
 .
-5
+6
 .
-1
+0
 "
 ]
 [
