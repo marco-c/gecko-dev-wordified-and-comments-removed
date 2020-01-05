@@ -148,7 +148,6 @@ exclude_list
 =
 "
 examples
-stress
 tools_common
 "
 #
