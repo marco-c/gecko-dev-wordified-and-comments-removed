@@ -110,6 +110,12 @@ EventEmitter
 (
 )
 ;
+exports
+.
+eventEmitter
+=
+eventEmitter
+;
 const
 gcli
 =
