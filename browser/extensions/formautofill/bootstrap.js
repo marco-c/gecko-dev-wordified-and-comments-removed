@@ -99,7 +99,7 @@ browser
 .
 formautofill
 .
-enabled
+experimental
 "
 )
 )

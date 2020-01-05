@@ -424,7 +424,7 @@ browser
 .
 formautofill
 .
-enabled
+experimental
 "
 true
 )
@@ -469,7 +469,7 @@ browser
 .
 formautofill
 .
-enabled
+experimental
 "
 )
 ;
