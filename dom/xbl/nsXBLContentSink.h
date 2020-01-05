@@ -112,7 +112,6 @@ nsXBLContentSink
 (
 )
 ;
-NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 nsresult
 Init
 (
