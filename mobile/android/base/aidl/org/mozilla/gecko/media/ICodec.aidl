@@ -144,6 +144,9 @@ Surface
 surface
 int
 flags
+in
+String
+drmStubId
 )
 ;
 oneway

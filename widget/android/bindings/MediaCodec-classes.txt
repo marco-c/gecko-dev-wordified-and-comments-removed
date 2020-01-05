@@ -19,6 +19,11 @@ android
 .
 media
 .
+MediaCrypto
+android
+.
+media
+.
 MediaDrm
 KeyStatus
 android

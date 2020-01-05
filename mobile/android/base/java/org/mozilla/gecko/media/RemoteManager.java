@@ -632,6 +632,8 @@ CodecProxy
 .
 Callbacks
 callbacks
+String
+drmStubId
 )
 {
 if
@@ -686,6 +688,7 @@ createCodecProxy
 format
 surface
 callbacks
+drmStubId
 )
 ;
 if
