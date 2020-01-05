@@ -19301,7 +19301,7 @@ s
 int32_t
 imgDimension
 =
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 (
 s
 )
@@ -19317,7 +19317,7 @@ height
 nscoord
 borderDimension
 =
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 (
 s
 )

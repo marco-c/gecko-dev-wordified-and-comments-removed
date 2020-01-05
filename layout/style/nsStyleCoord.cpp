@@ -1448,7 +1448,7 @@ result
 \
 static_assert
 (
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 (
 side
 )
@@ -1457,7 +1457,7 @@ side
 result
 \
 "
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 is
 wrong
 "
