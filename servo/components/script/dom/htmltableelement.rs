@@ -1034,7 +1034,7 @@ dom
 table
 -
 width
-make_dimension_setter
+make_nonzero_dimension_setter
 !
 (
 SetWidth
@@ -1584,7 +1584,7 @@ width
 AttrValue
 :
 :
-from_dimension
+from_nonzero_dimension
 (
 value
 )

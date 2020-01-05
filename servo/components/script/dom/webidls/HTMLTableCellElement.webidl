@@ -196,8 +196,6 @@ attribute
 DOMString
 height
 ;
-/
-/
 attribute
 DOMString
 width
