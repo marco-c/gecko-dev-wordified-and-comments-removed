@@ -107,15 +107,6 @@ gl
 :
 SkiaGLGlue
 ;
-using
-mozilla
-:
-:
-gfx
-:
-:
-DrawTarget
-;
 template
 <
 typename
