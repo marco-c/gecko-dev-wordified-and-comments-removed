@@ -3290,6 +3290,14 @@ block
 ;
 #
 endif
+block
+-
+>
+RemoveStateBits
+(
+NS_BLOCK_NEEDS_BIDI_RESOLUTION
+)
+;
 nsBlockInFlowLineIterator
 it
 (
