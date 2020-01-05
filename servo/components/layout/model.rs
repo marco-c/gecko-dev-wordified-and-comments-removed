@@ -1333,6 +1333,7 @@ preferred_inline_size
 deriving
 (
 PartialEq
+Show
 )
 ]
 pub
