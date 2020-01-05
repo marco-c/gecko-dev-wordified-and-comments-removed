@@ -30675,12 +30675,8 @@ true
 ;
 }
 #
-if
-not
-defined
-(
+ifndef
 __AFL_HAVE_MANUAL_CONTROL
-)
 #
 define
 __AFL_LOOP
