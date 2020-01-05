@@ -411,7 +411,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -542,7 +542,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -811,7 +811,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -1687,7 +1687,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -2488,7 +2488,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -11642,7 +11642,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+PROXY
 ;
 }
 ;
@@ -28858,7 +28858,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -29263,7 +29263,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -29394,7 +29394,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
@@ -30389,7 +30389,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
