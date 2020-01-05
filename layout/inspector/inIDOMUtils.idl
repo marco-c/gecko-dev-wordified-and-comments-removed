@@ -67,7 +67,7 @@ interface
 nsIArray
 ;
 interface
-nsISupportsArray
+nsIArrayExtensions
 ;
 interface
 nsIDOMCharacterData
@@ -149,7 +149,7 @@ nsISupports
 aSheets
 )
 ;
-nsISupportsArray
+nsIArrayExtensions
 getCSSStyleRules
 (
 in
