@@ -657,9 +657,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmJSUnsignedToFloat32
+visitWasmUnsignedToFloat32
 (
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 *
 ins
 )

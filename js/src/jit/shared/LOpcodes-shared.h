@@ -2058,7 +2058,7 @@ WasmUint32ToDouble
 \
 _
 (
-AsmJSUInt32ToFloat32
+WasmUint32ToFloat32
 )
 \
 _

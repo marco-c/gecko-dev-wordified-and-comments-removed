@@ -19873,7 +19873,7 @@ F32ConvertUI32
 return
 EmitConversion
 <
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 >
 (
 f

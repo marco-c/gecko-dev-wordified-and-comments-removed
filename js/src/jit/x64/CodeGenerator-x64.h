@@ -479,9 +479,9 @@ lir
 )
 ;
 void
-visitAsmJSUInt32ToFloat32
+visitWasmUint32ToFloat32
 (
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 *
 lir
 )

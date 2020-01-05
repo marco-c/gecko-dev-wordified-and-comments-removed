@@ -45,7 +45,7 @@ input
 }
 ;
 class
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 :
 public
 LInstructionHelper
@@ -59,9 +59,9 @@ public
 :
 LIR_HEADER
 (
-AsmJSUInt32ToFloat32
+WasmUint32ToFloat32
 )
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 (
 const
 LAllocation

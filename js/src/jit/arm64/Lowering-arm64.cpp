@@ -982,9 +982,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmJSUnsignedToFloat32
+visitWasmUnsignedToFloat32
 (
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 *
 ins
 )
@@ -992,7 +992,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSUnsignedToFloat32
+visitWasmUnsignedToFloat32
 "
 )
 ;

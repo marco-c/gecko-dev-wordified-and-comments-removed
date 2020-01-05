@@ -185,14 +185,14 @@ InputValue
 }
 ;
 class
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 :
 public
 LInstruction
 {
 public
 :
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 (
 const
 LAllocation

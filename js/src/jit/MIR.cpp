@@ -32537,7 +32537,7 @@ this
 }
 MDefinition
 *
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 :
 :
 foldsTo

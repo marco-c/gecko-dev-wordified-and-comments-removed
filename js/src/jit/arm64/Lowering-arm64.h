@@ -641,9 +641,9 @@ ins
 )
 ;
 void
-visitAsmJSUnsignedToFloat32
+visitWasmUnsignedToFloat32
 (
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 *
 ins
 )

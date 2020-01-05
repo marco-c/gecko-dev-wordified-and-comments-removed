@@ -3118,9 +3118,9 @@ void
 LIRGeneratorMIPSShared
 :
 :
-visitAsmJSUnsignedToFloat32
+visitWasmUnsignedToFloat32
 (
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 *
 ins
 )
@@ -3146,7 +3146,7 @@ MIRType
 Int32
 )
 ;
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 *
 lir
 =
@@ -3156,7 +3156,7 @@ alloc
 (
 )
 )
-LAsmJSUInt32ToFloat32
+LWasmUint32ToFloat32
 (
 useRegisterAtStart
 (
