@@ -331,9 +331,6 @@ aFromParser
 nsGenericHTMLFormElementWithState
 (
 aNodeInfo
-)
-mType
-(
 kButtonDefaultType
 -
 >
