@@ -7,7 +7,7 @@ log_name
 "
 :
 "
-bump_esr38
+bump_esr52
 "
     
 "
@@ -27,6 +27,22 @@ browser
 config
 /
 version
+.
+txt
+"
+}
+        
+{
+"
+file
+"
+:
+"
+browser
+/
+config
+/
+version_display
 .
 txt
 "
@@ -73,7 +89,7 @@ releases
 /
 mozilla
 -
-esr38
+esr52
 "
         
 "
@@ -91,7 +107,7 @@ dest
 "
 mozilla
 -
-esr38
+esr52
 "
         
 "
@@ -136,7 +152,7 @@ releases
 /
 mozilla
 -
-esr38
+esr52
 "
     
 "
@@ -164,5 +180,31 @@ ssh_key
 ssh
 /
 ffxbld_rsa
+"
+    
+"
+ship_it_root
+"
+:
+"
+https
+:
+/
+/
+ship
+-
+it
+.
+mozilla
+.
+org
+"
+    
+"
+ship_it_username
+"
+:
+"
+ffxbld
 "
 }

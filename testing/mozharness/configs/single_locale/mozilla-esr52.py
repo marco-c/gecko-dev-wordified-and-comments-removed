@@ -15,7 +15,7 @@ branch
 "
 mozilla
 -
-esr45
+esr52
 "
     
 "
@@ -23,11 +23,11 @@ en_us_binary_url
 "
 :
 "
-http
+https
 :
 /
 /
-ftp
+archive
 .
 mozilla
 .
@@ -47,7 +47,7 @@ latest
 -
 mozilla
 -
-esr45
+esr52
 /
 "
     
@@ -58,31 +58,6 @@ update_channel
 "
 esr
 "
-    
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-nightly
-/
-latest
--
-mozilla
--
-esr45
--
-l10n
-'
     
 "
 hg_l10n_base
@@ -115,7 +90,7 @@ mozilla_dir
 "
 mozilla
 -
-esr45
+esr52
 "
     
 "
@@ -199,7 +174,7 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 "
         
 "
@@ -221,7 +196,7 @@ dest
 "
 mozilla
 -
-esr45
+esr52
 "
     
 }

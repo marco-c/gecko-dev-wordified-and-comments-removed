@@ -34,7 +34,7 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 "
 OLD_ESR_REPO
 =
@@ -53,12 +53,12 @@ releases
 /
 mozilla
 -
-esr38
+esr45
 "
 OLD_ESR_CHANGESET
 =
 "
-16351963d75c
+d2d75f526882
 "
 config
 =
@@ -218,7 +218,7 @@ mozconfig
 .
 common
 "
-          
+         
 "
 #
 Enable
@@ -234,7 +234,7 @@ the
 trusted
 root
 "
-          
+         
 "
 #
 Disable
@@ -260,7 +260,7 @@ mozconfig
 .
 common
 "
-          
+         
 "
 MOZ_ADDON_SIGNING
 =
@@ -270,7 +270,7 @@ MOZ_ADDON_SIGNING
 1
 }
 "
-          
+         
 "
 MOZ_ADDON_SIGNING
 =
@@ -290,7 +290,7 @@ mozconfig
 .
 common
 "
-           
+         
 "
 #
 Enable
@@ -306,7 +306,7 @@ the
 trusted
 root
 "
-           
+         
 "
 #
 Disable
@@ -332,7 +332,7 @@ mozconfig
 .
 common
 "
-          
+         
 "
 MOZ_REQUIRE_SIGNING
 =
@@ -342,7 +342,7 @@ MOZ_REQUIRE_SIGNING
 1
 }
 "
-          
+         
 "
 MOZ_REQUIRE_SIGNING
 =

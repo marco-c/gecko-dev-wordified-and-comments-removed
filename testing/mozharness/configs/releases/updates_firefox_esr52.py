@@ -7,7 +7,7 @@ log_name
 "
 :
 "
-updates_esr45
+updates_esr52
 "
     
 "
@@ -118,7 +118,7 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 /
 raw
 -
@@ -281,7 +281,7 @@ patcher_config
 "
 :
 "
-mozEsr45
+mozEsr52
 -
 branch
 -
@@ -333,12 +333,12 @@ rules_to_update
 :
 [
 "
-esr45
+esr52
 -
 cdntest
 "
 "
-esr45
+esr52
 -
 localtest
 "
@@ -350,7 +350,7 @@ publish_rules
 :
 [
 "
-esr45
+esr52
 "
 ]
         
