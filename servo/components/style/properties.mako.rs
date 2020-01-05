@@ -7632,7 +7632,7 @@ u
 }
 "
 .
-to_string
+to_owned
 (
 )
 "
@@ -7643,7 +7643,7 @@ u
 }
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -7656,7 +7656,7 @@ u
 }
 "
 .
-to_string
+to_owned
 (
 )
 "
@@ -7667,7 +7667,7 @@ u
 }
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -20766,6 +20766,7 @@ derive
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -20816,6 +20817,7 @@ derive
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -26176,6 +26178,7 @@ Copy
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub

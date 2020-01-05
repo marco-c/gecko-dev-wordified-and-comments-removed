@@ -91,6 +91,7 @@ Copy
 Hash
 RustcEncodable
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -326,6 +327,7 @@ Ord
 Copy
 RustcEncodable
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -4386,6 +4388,7 @@ PartialEq
 PartialOrd
 Copy
 Debug
+HeapSizeOf
 )
 ]
 pub
