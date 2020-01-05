@@ -493,6 +493,17 @@ bool
 enable
 int
 id
+std
+:
+:
+vector
+<
+std
+:
+:
+string
+>
+rids
 )
 ;
 int

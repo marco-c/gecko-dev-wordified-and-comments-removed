@@ -968,6 +968,17 @@ it
 )
 ;
 }
+if
+(
+rid_
+)
+{
+delete
+[
+]
+rid_
+;
+}
 }
 void
 RTPSender
