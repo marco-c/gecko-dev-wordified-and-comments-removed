@@ -394,6 +394,15 @@ util
 :
 prefs
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 pub
 struct
 WindowProxyHandler
@@ -903,10 +912,13 @@ str
 >
 Result
 <
+(
 Option
 <
 usize
 >
+DOMString
+)
 (
 )
 >
@@ -946,6 +958,7 @@ jsstr
 ;
 Ok
 (
+(
 values
 .
 iter
@@ -962,6 +975,8 @@ search
 =
 *
 value
+)
+search
 )
 )
 }
