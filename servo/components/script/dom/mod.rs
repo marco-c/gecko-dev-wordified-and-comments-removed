@@ -778,6 +778,14 @@ testbinding
 ;
 pub
 mod
+testbindingiterable
+;
+pub
+mod
+testbindingpairiterable
+;
+pub
+mod
 testbindingproxy
 ;
 pub
