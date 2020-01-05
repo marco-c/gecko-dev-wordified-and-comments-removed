@@ -559,10 +559,6 @@ inline
 ;
 pub
 mod
-root
-;
-pub
-mod
 text
 ;
 mod
