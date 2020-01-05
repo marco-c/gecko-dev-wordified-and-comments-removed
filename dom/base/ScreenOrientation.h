@@ -202,6 +202,8 @@ const
 uint16_t
 DeviceAngle
 (
+CallerType
+aCallerType
 )
 const
 ;
