@@ -321,6 +321,9 @@ timer_handle
 int
 request_ct
 ;
+UINT2
+retransmit_ct
+;
 UINT4
 rto_ms
 ;
