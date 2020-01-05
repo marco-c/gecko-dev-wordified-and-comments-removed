@@ -135,6 +135,24 @@ assembleAutomationDebugAndroidTest
 '
 checkstyle
 '
+         
+'
+geckoview
+:
+assembleWithoutGeckoBinaries
+'
+         
+'
+geckoview_example
+:
+assembleWithoutGeckoBinaries
+'
+         
+'
+geckoview_example
+:
+assembleWithoutGeckoBinariesAndroidTest
+'
         
 ]
     
