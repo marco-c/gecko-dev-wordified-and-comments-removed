@@ -8003,9 +8003,7 @@ nullptr
 ;
 #
 endif
-mt
-.
-AfterInsertion
+CreateSubtree
 (
 iter
 .
@@ -8014,7 +8012,9 @@ Child
 )
 )
 ;
-CreateSubtree
+mt
+.
+AfterInsertion
 (
 iter
 .
@@ -8250,6 +8250,11 @@ Prev
 return
 ;
 }
+CreateSubtree
+(
+child
+)
+;
 mt
 .
 AfterInsertion
@@ -8261,11 +8266,6 @@ mt
 .
 Done
 (
-)
-;
-CreateSubtree
-(
-child
 )
 ;
 FireEventsOnInsertion
