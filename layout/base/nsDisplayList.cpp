@@ -15305,6 +15305,9 @@ image
 ;
 if
 (
+imgreq
+&
+&
 NS_SUCCEEDED
 (
 imgreq
