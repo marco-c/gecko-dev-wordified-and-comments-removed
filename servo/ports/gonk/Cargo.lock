@@ -841,7 +841,7 @@ version
 "
 0
 .
-7
+8
 .
 0
 "
@@ -18648,7 +18648,7 @@ tenacious
 .
 0
 .
-13
+14
 (
 git
 +
@@ -19358,7 +19358,7 @@ version
 .
 3
 .
-7
+8
 "
 source
 =
@@ -19400,7 +19400,7 @@ version
 .
 3
 .
-7
+8
 "
 source
 =
@@ -19432,7 +19432,7 @@ dependencies
 aster
 0
 .
-7
+8
 .
 0
 (
@@ -19475,7 +19475,7 @@ version
 .
 3
 .
-7
+8
 "
 source
 =
@@ -19509,7 +19509,7 @@ quasi_codegen
 .
 3
 .
-7
+8
 (
 registry
 +
@@ -21650,7 +21650,7 @@ version
 .
 6
 .
-3
+4
 "
 source
 =
@@ -21682,7 +21682,7 @@ dependencies
 aster
 0
 .
-7
+8
 .
 0
 (
@@ -21713,7 +21713,7 @@ quasi
 .
 3
 .
-7
+8
 (
 registry
 +
@@ -21742,7 +21742,7 @@ quasi_macros
 .
 3
 .
-7
+8
 (
 registry
 +
@@ -21921,7 +21921,7 @@ serde_codegen
 .
 6
 .
-3
+4
 (
 registry
 +
@@ -22680,7 +22680,7 @@ huonw
 /
 simd
 #
-be4242121e081206d8769cc60a7d2fa8e23cdc68
+c4403387adb9a25188ff00ddc82582c2e1017030
 "
 [
 [
@@ -24616,7 +24616,7 @@ version
 .
 0
 .
-13
+14
 "
 source
 =
@@ -24637,7 +24637,7 @@ rust
 -
 tenacious
 #
-44c943182fb93a1c4b2e6d0b2d8ebb35d8c07775
+7e1729efe79ac8427dac322bfc936dbdb1f36d10
 "
 [
 [

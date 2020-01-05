@@ -168,7 +168,7 @@ fold_expr
 (
 parser
 .
-parse_expr_nopanic
+parse_expr
 (
 )
 .

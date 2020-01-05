@@ -37,10 +37,15 @@ use
 rustc_front
 :
 :
-{
 hir
+;
+use
+rustc_front
+:
+:
+intravisit
+as
 visit
-}
 ;
 use
 syntax

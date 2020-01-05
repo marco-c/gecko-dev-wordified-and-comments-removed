@@ -539,7 +539,10 @@ node
 hir
 :
 :
-MethodImplItem
+ImplItemKind
+:
+:
+Method
 (
 ref
 sig
