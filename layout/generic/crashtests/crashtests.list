@@ -4204,13 +4204,3 @@ load
 1316649
 .
 html
-skip
--
-if
-(
-Android
-)
-load
-1271765
-.
-html
