@@ -150,6 +150,11 @@ TestMediaEventSource
 cpp
 '
 '
+TestMediaMIMETypes
+.
+cpp
+'
+'
 TestMozPromise
 .
 cpp
