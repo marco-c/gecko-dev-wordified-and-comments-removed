@@ -32,16 +32,6 @@ CSSFloat
 f64
 ;
 pub
-static
-DEFAULT_LINE_HEIGHT
-:
-CSSFloat
-=
-1
-.
-14
-;
-pub
 mod
 specified
 {
