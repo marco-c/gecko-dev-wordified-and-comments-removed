@@ -17532,17 +17532,6 @@ EnsureTarget
 ;
 if
 (
-!
-IsTargetValid
-(
-)
-)
-{
-return
-;
-}
-if
-(
 mDSPathBuilder
 )
 {
