@@ -4511,9 +4511,10 @@ return
 mSpeculativeService
 -
 >
-SpeculativeConnect
+SpeculativeConnect2
 (
 targetURI
+nullptr
 nullptr
 )
 ;
@@ -6472,9 +6473,10 @@ totalPreconnects
 mSpeculativeService
 -
 >
-SpeculativeConnect
+SpeculativeConnect2
 (
 uri
+nullptr
 this
 )
 ;
