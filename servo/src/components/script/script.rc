@@ -158,6 +158,10 @@ hubbub
 ;
 extern
 mod
+encoding
+;
+extern
+mod
 js
 ;
 extern

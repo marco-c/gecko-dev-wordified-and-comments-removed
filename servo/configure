@@ -2738,6 +2738,14 @@ cssparser
 \
 support
 /
+encoding
+/
+rust
+-
+encoding
+\
+support
+/
 harfbuzz
 /
 rust

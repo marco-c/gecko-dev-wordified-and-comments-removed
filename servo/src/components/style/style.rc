@@ -151,6 +151,10 @@ cssparser
 ;
 extern
 mod
+encoding
+;
+extern
+mod
 servo_util
 (
 name
@@ -240,14 +244,4 @@ media_queries
 ;
 mod
 parsing_utils
-;
-#
-[
-cfg
-(
-test
-)
-]
-mod
-tests
 ;
