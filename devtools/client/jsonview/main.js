@@ -192,11 +192,6 @@ file
 =
 >
 {
-if
-(
-file
-)
-{
 JsonViewUtils
 .
 saveToFile
@@ -208,6 +203,11 @@ data
 )
 ;
 }
+(
+)
+=
+>
+{
 }
 )
 ;
