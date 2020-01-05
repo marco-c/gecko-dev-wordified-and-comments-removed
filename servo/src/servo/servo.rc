@@ -79,6 +79,9 @@ js
 use
 stb_image
 ;
+use
+geom
+;
 mod
 dom
 {
@@ -96,7 +99,7 @@ mod
 gfx
 {
 mod
-geom
+geometry
 ;
 mod
 surface

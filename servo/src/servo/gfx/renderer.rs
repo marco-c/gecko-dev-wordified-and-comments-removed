@@ -5,7 +5,7 @@ platform
 osmain
 ;
 import
-geom
+geometry
 :
 :
 *

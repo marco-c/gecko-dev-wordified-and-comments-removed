@@ -55,7 +55,7 @@ import
 gfx
 :
 :
-geom
+geometry
 ;
 import
 base
@@ -228,7 +228,7 @@ n
 mut
 bounds
 :
-geom
+geometry
 :
 :
 zero_rect_au
