@@ -44,7 +44,7 @@ rusturl
 url
 )
 ;
-int32_t
+nsresult
 rusturl_get_spec
 (
 const
@@ -56,7 +56,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_scheme
 (
 const
@@ -68,7 +68,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_username
 (
 const
@@ -80,7 +80,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_password
 (
 const
@@ -92,7 +92,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_host
 (
 const
@@ -104,16 +104,19 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_port
 (
 const
 rusturl
 *
 url
+int32_t
+*
+port
 )
 ;
-int32_t
+nsresult
 rusturl_get_path
 (
 const
@@ -125,7 +128,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_query
 (
 const
@@ -137,7 +140,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_get_fragment
 (
 const
@@ -149,16 +152,19 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_has_fragment
 (
 const
 rusturl
 *
 url
+bool
+*
+has_fragment
 )
 ;
-int32_t
+nsresult
 rusturl_set_scheme
 (
 rusturl
@@ -170,7 +176,7 @@ nsACString
 scheme
 )
 ;
-int32_t
+nsresult
 rusturl_set_username
 (
 rusturl
@@ -182,7 +188,7 @@ nsACString
 user
 )
 ;
-int32_t
+nsresult
 rusturl_set_password
 (
 rusturl
@@ -194,7 +200,7 @@ nsACString
 password
 )
 ;
-int32_t
+nsresult
 rusturl_set_host_port
 (
 rusturl
@@ -206,7 +212,7 @@ nsACString
 hostport
 )
 ;
-int32_t
+nsresult
 rusturl_set_host_and_port
 (
 rusturl
@@ -218,7 +224,7 @@ nsACString
 hostport
 )
 ;
-int32_t
+nsresult
 rusturl_set_host
 (
 rusturl
@@ -230,7 +236,7 @@ nsACString
 host
 )
 ;
-int32_t
+nsresult
 rusturl_set_port
 (
 rusturl
@@ -242,7 +248,7 @@ nsACString
 port
 )
 ;
-int32_t
+nsresult
 rusturl_set_port_no
 (
 rusturl
@@ -253,7 +259,7 @@ int32_t
 port
 )
 ;
-int32_t
+nsresult
 rusturl_set_path
 (
 rusturl
@@ -265,7 +271,7 @@ nsACString
 path
 )
 ;
-int32_t
+nsresult
 rusturl_set_query
 (
 rusturl
@@ -277,7 +283,7 @@ nsACString
 query
 )
 ;
-int32_t
+nsresult
 rusturl_set_fragment
 (
 rusturl
@@ -289,7 +295,7 @@ nsACString
 fragment
 )
 ;
-int32_t
+nsresult
 rusturl_resolve
 (
 const
@@ -305,7 +311,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_common_base_spec
 (
 const
@@ -321,7 +327,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_relative_spec
 (
 const
@@ -337,7 +343,7 @@ nsACString
 cont
 )
 ;
-int32_t
+nsresult
 rusturl_parse_ipv6addr
 (
 const
