@@ -5198,6 +5198,8 @@ size_t
 i
 =
 oldLength
+-
+1
 ;
 i
 >
