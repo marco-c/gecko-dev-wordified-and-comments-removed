@@ -594,7 +594,6 @@ GetNextMenuItem
 this
 nullptr
 false
-false
 )
 ;
 if

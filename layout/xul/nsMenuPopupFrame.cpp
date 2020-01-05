@@ -8297,7 +8297,6 @@ GetNextMenuItem
 this
 nullptr
 true
-false
 )
 ;
 if
@@ -9210,7 +9209,6 @@ GetNextMenuItem
 immediateParent
 nullptr
 true
-false
 )
 ;
 nsIFrame
@@ -9467,7 +9465,6 @@ GetNextMenuItem
 (
 immediateParent
 menu
-true
 true
 )
 ;
