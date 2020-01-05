@@ -55,7 +55,7 @@ dom
 style
 :
 :
-stylesheet
+Stylesheet
 ;
 import
 gfx
@@ -140,7 +140,7 @@ Msg
 BuildMsg
 (
 Node
-stylesheet
+Stylesheet
 )
 PingMsg
 (

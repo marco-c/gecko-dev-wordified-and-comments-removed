@@ -70,7 +70,7 @@ Attr
 style
 :
 :
-attr
+Attr
 )
 Description
 (
@@ -537,7 +537,7 @@ Attr
 style
 :
 :
-includes
+Includes
 (
 "
 class
@@ -565,7 +565,7 @@ Attr
 style
 :
 :
-includes
+Includes
 (
 "
 id
@@ -646,7 +646,7 @@ Attr
 style
 :
 :
-exists
+Exists
 (
 attr_name
 )
@@ -694,7 +694,7 @@ Attr
 style
 :
 :
-exact
+Exact
 (
 attr_name
 attr_val
@@ -756,7 +756,7 @@ Attr
 style
 :
 :
-includes
+Includes
 (
 attr_name
 attr_val
@@ -818,7 +818,7 @@ Attr
 style
 :
 :
-starts_with
+StartsWith
 (
 attr_name
 attr_val

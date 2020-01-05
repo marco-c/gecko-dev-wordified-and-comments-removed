@@ -32,11 +32,11 @@ style
 :
 :
 {
-display_type
-di_block
-di_inline
-di_none
-stylesheet
+DisplayType
+DisBlock
+DisInline
+DisNone
+Stylesheet
 }
 ;
 import
@@ -132,7 +132,7 @@ computed_style
 mut
 display
 :
-display_type
+DisplayType
 mut
 back_color
 :
@@ -179,7 +179,7 @@ Text
 mut
 display
 :
-di_inline
+DisInline
 mut
 back_color
 :
@@ -243,7 +243,7 @@ HTMLDivElement
 mut
 display
 :
-di_block
+DisBlock
 mut
 back_color
 :
@@ -256,7 +256,7 @@ HTMLHeadElement
 mut
 display
 :
-di_none
+DisNone
 mut
 back_color
 :
@@ -272,7 +272,7 @@ HTMLImageElement
 mut
 display
 :
-di_inline
+DisInline
 mut
 back_color
 :
@@ -285,7 +285,7 @@ UnknownElement
 mut
 display
 :
-di_inline
+DisInline
 mut
 back_color
 :
@@ -603,7 +603,7 @@ styles
 :
 arc
 <
-stylesheet
+Stylesheet
 >
 )
 {

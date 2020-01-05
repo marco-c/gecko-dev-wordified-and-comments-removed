@@ -36,10 +36,10 @@ style
 :
 :
 {
-display_type
-di_block
-di_inline
-di_none
+DisplayType
+DisBlock
+DisInline
+DisNone
 }
 ;
 import
@@ -345,7 +345,7 @@ if
 disp
 !
 =
-di_inline
+DisInline
 {
 self
 .
@@ -382,7 +382,7 @@ get_computed_style
 .
 display
 {
-di_block
+DisBlock
 {
 BTree
 .
@@ -395,7 +395,7 @@ kid_box
 )
 ;
 }
-di_inline
+DisInline
 {
 let
 anon_box
@@ -494,7 +494,7 @@ kid_box
 )
 ;
 }
-di_none
+DisNone
 {
 /
 /
@@ -599,7 +599,7 @@ if
 disp
 !
 =
-di_inline
+DisInline
 {
 /
 /
@@ -628,7 +628,7 @@ get_computed_style
 .
 display
 {
-di_block
+DisBlock
 {
 /
 /
@@ -661,7 +661,7 @@ kid_box
 )
 ;
 }
-di_inline
+DisInline
 {
 BTree
 .
@@ -674,7 +674,7 @@ kid_box
 )
 ;
 }
-di_none
+DisNone
 {
 /
 /
@@ -736,7 +736,7 @@ get_computed_style
 .
 display
 {
-di_block
+DisBlock
 {
 self
 .
@@ -745,7 +745,7 @@ construct_boxes_for_block_children
 )
 ;
 }
-di_inline
+DisInline
 {
 self
 .
@@ -754,7 +754,7 @@ construct_boxes_for_inline_children
 )
 ;
 }
-di_none
+DisNone
 {
 /
 *

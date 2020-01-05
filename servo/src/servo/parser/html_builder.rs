@@ -112,7 +112,7 @@ dom
 style
 :
 :
-stylesheet
+Stylesheet
 ;
 import
 dvec
@@ -549,7 +549,7 @@ to_parent
 :
 chan
 <
-stylesheet
+Stylesheet
 >
 from_parent
 :
@@ -743,7 +743,7 @@ Token
 Node
 port
 <
-stylesheet
+Stylesheet
 >
 )
 {
