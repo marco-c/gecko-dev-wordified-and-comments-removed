@@ -1548,6 +1548,8 @@ aCallback
 GMPCrashHelper
 *
 aHelper
+uint32_t
+aDecryptorId
 )
 :
 mCallback
@@ -1560,6 +1562,10 @@ aCallback
 mHelper
 (
 aHelper
+)
+mDecryptorId
+(
+aDecryptorId
 )
 {
 }
@@ -1598,6 +1604,7 @@ GetGMPVideoDecoder
 (
 &
 gmpVDP
+mDecryptorId
 )
 )
 )
@@ -1645,13 +1652,17 @@ GMPCrashHelper
 >
 mHelper
 ;
+const
+uint32_t
+mDecryptorId
+;
 }
 ;
 NS_IMETHODIMP
 GeckoMediaPluginService
 :
 :
-GetGMPVideoDecoder
+GetDecryptingGMPVideoDecoder
 (
 GMPCrashHelper
 *
@@ -1673,6 +1684,8 @@ GetGMPVideoDecoderCallback
 &
 &
 aCallback
+uint32_t
+aDecryptorId
 )
 {
 MOZ_ASSERT
@@ -1728,6 +1741,7 @@ Move
 aCallback
 )
 aHelper
+aDecryptorId
 )
 )
 ;
