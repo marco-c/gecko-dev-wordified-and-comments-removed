@@ -1053,8 +1053,11 @@ AUTOCLOBBER
 =
 1
 endif
+ifdef
+MOZ_PGO
 export
 MOZ_PGO
+endif
 ifdef
 MOZ_PARALLEL_BUILD
 MOZ_MAKE_FLAGS
