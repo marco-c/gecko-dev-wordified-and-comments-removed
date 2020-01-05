@@ -926,8 +926,6 @@ partial
 interface
 Document
 {
-/
-/
 [
 TreatNullAs
 =
