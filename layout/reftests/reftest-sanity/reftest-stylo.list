@@ -28,7 +28,6 @@ data
 text
 /
 plain
-fails
 =
 =
 data
@@ -845,7 +844,6 @@ html
 #
 Bug
 632636
-fails
 =
 =
 data
