@@ -507,6 +507,11 @@ GMPCrashHelper
 cpp
 '
 '
+GMPCrashHelperHolder
+.
+cpp
+'
+'
 GMPDecryptorChild
 .
 cpp
