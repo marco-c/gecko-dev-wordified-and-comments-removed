@@ -1,6 +1,6 @@
 intr
 protocol
-rpcParentToChild
+intrParentToChild
 {
 /
 /
@@ -8,7 +8,7 @@ can
 '
 t
 declare
-rpc
+interrupt
 parent
 -
 to
@@ -17,7 +17,7 @@ child
 messages
 child
 :
-rpc
+intr
 Msg
 (
 )

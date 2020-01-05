@@ -1,5 +1,6 @@
+sync
 protocol
-tooWeakRPCAsync
+tooWeakIntrSync
 {
 /
 /
@@ -10,12 +11,12 @@ an
 error
 to
 declare
-an
-async
+a
+sync
 protocol
 with
 an
-intr
+interrupt
 message
 parent
 :
