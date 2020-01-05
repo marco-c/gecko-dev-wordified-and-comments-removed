@@ -41,8 +41,6 @@ servo
 rust
 -
 azure
-#
-8e9b6b1fdbbe0386655d61b0f58e1a9910497311
 )
 "
 "
@@ -70,8 +68,6 @@ rust
 core
 -
 graphics
-#
-6a9919f8a912cc67571b891ba198d5325964a104
 )
 "
 "
@@ -99,8 +95,6 @@ rust
 core
 -
 text
-#
-967a97fa7e9ae47f96aee5e48f5fb0be1345d89e
 )
 "
 "
@@ -134,8 +128,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -173,8 +165,6 @@ rs
 ref
 =
 servo
-#
-cec2861dd75eb721694b3176f94a276d77018bde
 )
 "
 "
@@ -208,8 +198,6 @@ servo
 rust
 -
 mozjs
-#
-1ec216a2577c03738fa11a78958bb2a0fd3f7fbd
 )
 "
 "
@@ -235,8 +223,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -286,8 +272,6 @@ servo
 rust
 -
 png
-#
-74418ffbf20e94b0d3bed4a9d004062a13342c79
 )
 "
 "
@@ -331,8 +315,6 @@ rust
 stb
 -
 image
-#
-f5022de4ad6bb474a03493d1f274dde9b0f1af0c
 )
 "
 "
@@ -418,8 +400,6 @@ servo
 rust
 -
 cocoa
-#
-acb9b4efc70c3f285057c2aee774f38f81a1b98d
 )
 "
 "
@@ -447,8 +427,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 ]
@@ -520,8 +498,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 "
@@ -549,8 +525,6 @@ rust
 core
 -
 graphics
-#
-6a9919f8a912cc67571b891ba198d5325964a104
 )
 "
 "
@@ -578,8 +552,6 @@ rust
 core
 -
 text
-#
-967a97fa7e9ae47f96aee5e48f5fb0be1345d89e
 )
 "
 "
@@ -605,8 +577,6 @@ servo
 rust
 -
 egl
-#
-88f2a13812ddbce2bf2317221663a61c31b3e220
 )
 "
 "
@@ -632,8 +602,6 @@ servo
 rust
 -
 freetype
-#
-0b03da276e4bdeae2300596dabc4ccb16733ad70
 )
 "
 "
@@ -659,8 +627,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -686,8 +652,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -713,8 +677,6 @@ com
 servo
 /
 skia
-#
-6d696712962fd0d41120b7a414a48417da8e6a92
 )
 "
 "
@@ -740,8 +702,6 @@ servo
 rust
 -
 xlib
-#
-581d4faddec5188d3c3ae5307dbea28aab90644c
 )
 "
 ]
@@ -790,8 +750,6 @@ servo
 rust
 -
 azure
-#
-8e9b6b1fdbbe0386655d61b0f58e1a9910497311
 )
 "
 "
@@ -817,8 +775,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -894,8 +850,6 @@ com
 servo
 /
 gleam
-#
-5ebe1656d63087c68512c93c6528f9300abcd199
 )
 "
 ]
@@ -984,8 +938,6 @@ servo
 rust
 -
 alert
-#
-fdc24f13be8d8a2d15214ec228d166b3221b809e
 )
 "
 "
@@ -1011,8 +963,6 @@ servo
 rust
 -
 azure
-#
-8e9b6b1fdbbe0386655d61b0f58e1a9910497311
 )
 "
 "
@@ -1040,8 +990,6 @@ rust
 core
 -
 graphics
-#
-6a9919f8a912cc67571b891ba198d5325964a104
 )
 "
 "
@@ -1069,8 +1017,6 @@ rust
 core
 -
 text
-#
-967a97fa7e9ae47f96aee5e48f5fb0be1345d89e
 )
 "
 "
@@ -1112,8 +1058,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -1145,8 +1089,6 @@ com
 servo
 /
 gleam
-#
-5ebe1656d63087c68512c93c6528f9300abcd199
 )
 "
 "
@@ -1172,8 +1114,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -1223,8 +1163,6 @@ servo
 rust
 -
 png
-#
-74418ffbf20e94b0d3bed4a9d004062a13342c79
 )
 "
 "
@@ -1258,8 +1196,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -1383,8 +1319,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 ]
@@ -1458,8 +1392,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 "
@@ -1487,8 +1419,6 @@ rust
 core
 -
 graphics
-#
-6a9919f8a912cc67571b891ba198d5325964a104
 )
 "
 ]
@@ -1558,8 +1488,6 @@ lifthrasiir
 rust
 -
 encoding
-#
-28eafb604a92c7786685b46c0fc02682ba3ab265
 )
 "
 ]
@@ -1827,8 +1755,6 @@ com
 servo
 /
 libfontconfig
-#
-fcc324d2c8175d2e8e8c0aab032c03a404809f6d
 )
 "
 ]
@@ -1898,8 +1824,6 @@ com
 servo
 /
 libexpat
-#
-da2ddaf78cbef836b8790807bb76b357c58df3a1
 )
 "
 "
@@ -1925,8 +1849,6 @@ com
 servo
 /
 libfreetype2
-#
-5b6499164106f094937565595c7b96d07de55521
 )
 "
 ]
@@ -2095,8 +2017,6 @@ servo
 rust
 -
 azure
-#
-8e9b6b1fdbbe0386655d61b0f58e1a9910497311
 )
 "
 "
@@ -2124,8 +2044,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 "
@@ -2153,8 +2071,6 @@ rust
 core
 -
 graphics
-#
-6a9919f8a912cc67571b891ba198d5325964a104
 )
 "
 "
@@ -2182,8 +2098,6 @@ rust
 core
 -
 text
-#
-967a97fa7e9ae47f96aee5e48f5fb0be1345d89e
 )
 "
 "
@@ -2209,8 +2123,6 @@ servo
 rust
 -
 fontconfig
-#
-b16c1e12ecb74b1e4e9a9b23c2b98580a34cf201
 )
 "
 "
@@ -2236,8 +2148,6 @@ servo
 rust
 -
 freetype
-#
-0b03da276e4bdeae2300596dabc4ccb16733ad70
 )
 "
 "
@@ -2263,8 +2173,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -2290,8 +2198,6 @@ servo
 rust
 -
 harfbuzz
-#
-ad520942cc17232e1a40cdd8a99c2905623d35f6
 )
 "
 "
@@ -2317,8 +2223,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -2368,8 +2272,6 @@ servo
 rust
 -
 png
-#
-74418ffbf20e94b0d3bed4a9d004062a13342c79
 )
 "
 "
@@ -2397,8 +2299,6 @@ rust
 stb
 -
 image
-#
-f5022de4ad6bb474a03493d1f274dde9b0f1af0c
 )
 "
 "
@@ -2432,8 +2332,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -2515,8 +2413,6 @@ gl
 rs
 .
 git
-#
-2857ad712bd443196983ea7c0bd4b6bdcf653e7c
 )
 "
 "
@@ -2544,8 +2440,6 @@ netvl
 rust
 -
 xml
-#
-fdc021b2bfec7855866b964f459559903c6b7808
 )
 "
 ]
@@ -2615,8 +2509,6 @@ gl
 rs
 .
 git
-#
-2857ad712bd443196983ea7c0bd4b6bdcf653e7c
 )
 "
 ]
@@ -2700,8 +2592,6 @@ cargo
 0
 .
 4
-#
-aa8e0d26cccdb4145f34c5a1724d7e48e0399674
 )
 "
 "
@@ -2727,8 +2617,6 @@ rust
 lang
 /
 semver
-#
-d04583a173395b76c1eaa15cc630a5f6f8f0ae10
 )
 "
 ]
@@ -2827,8 +2715,6 @@ servo
 rust
 -
 alert
-#
-fdc24f13be8d8a2d15214ec228d166b3221b809e
 )
 "
 "
@@ -2854,8 +2740,6 @@ servo
 rust
 -
 cgl
-#
-698c6c5409c1049ba5a7e0f7bdddf97f91dc4cf5
 )
 "
 "
@@ -2889,8 +2773,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -2920,8 +2802,6 @@ rs
 ref
 =
 servo
-#
-cec2861dd75eb721694b3176f94a276d77018bde
 )
 "
 "
@@ -2947,8 +2827,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -3036,8 +2914,6 @@ gl
 rs
 .
 git
-#
-2857ad712bd443196983ea7c0bd4b6bdcf653e7c
 )
 "
 ]
@@ -3151,8 +3027,6 @@ html5ever
 ref
 =
 servo
-#
-0bdd6087dc8df6a92c96e1859bbb4ebbb0be7c1f
 )
 "
 "
@@ -3178,8 +3052,6 @@ sfackler
 rust
 -
 phf
-#
-06254fdde7708630a6397c41c6c17ef81a4b66a0
 )
 "
 "
@@ -3205,8 +3077,6 @@ sfackler
 rust
 -
 phf
-#
-06254fdde7708630a6397c41c6c17ef81a4b66a0
 )
 "
 "
@@ -3232,8 +3102,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -3259,8 +3127,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 ]
@@ -3380,8 +3246,6 @@ rust
 openssl
 .
 git
-#
-a495465b75ffb18ff2303c5a11a103e00a15a13d
 )
 "
 "
@@ -3407,8 +3271,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 ]
@@ -3480,8 +3342,6 @@ servo
 rust
 -
 cgl
-#
-698c6c5409c1049ba5a7e0f7bdddf97f91dc4cf5
 )
 "
 "
@@ -3509,8 +3369,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 "
@@ -3536,8 +3394,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -3561,8 +3417,6 @@ com
 servo
 /
 gleam
-#
-5ebe1656d63087c68512c93c6528f9300abcd199
 )
 "
 ]
@@ -3632,8 +3486,6 @@ com
 servo
 /
 mozjs
-#
-47cd6a4e60c75642ba182f0df9a42b71ec7c2c88
 )
 "
 ]
@@ -3745,8 +3597,6 @@ servo
 rust
 -
 cgl
-#
-698c6c5409c1049ba5a7e0f7bdddf97f91dc4cf5
 )
 "
 "
@@ -3774,8 +3624,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 "
@@ -3801,8 +3649,6 @@ servo
 rust
 -
 egl
-#
-88f2a13812ddbce2bf2317221663a61c31b3e220
 )
 "
 "
@@ -3828,8 +3674,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -3853,8 +3697,6 @@ com
 servo
 /
 gleam
-#
-5ebe1656d63087c68512c93c6528f9300abcd199
 )
 "
 "
@@ -3880,8 +3722,6 @@ servo
 rust
 -
 glx
-#
-e2ce3d297260ccd23fcb4627f6ed218b68e1095f
 )
 "
 "
@@ -3909,8 +3749,6 @@ rust
 io
 -
 surface
-#
-3f8220ab2e94651ced69b04068c5126b1adadf1f
 )
 "
 "
@@ -3936,8 +3774,6 @@ servo
 rust
 -
 xlib
-#
-581d4faddec5188d3c3ae5307dbea28aab90644c
 )
 "
 ]
@@ -3986,8 +3822,6 @@ lifthrasiir
 rust
 -
 encoding
-#
-28eafb604a92c7786685b46c0fc02682ba3ab265
 )
 "
 "
@@ -4013,8 +3847,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -4088,8 +3920,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -4115,8 +3945,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -4150,8 +3978,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -4353,8 +4179,6 @@ servo
 rust
 -
 azure
-#
-8e9b6b1fdbbe0386655d61b0f58e1a9910497311
 )
 "
 "
@@ -4382,8 +4206,6 @@ rust
 core
 -
 foundation
-#
-5c3b85b079ab2fe4a046497a84e55386db7598e8
 )
 "
 "
@@ -4409,8 +4231,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -4442,8 +4262,6 @@ http
 ref
 =
 servo
-#
-5e9b063b36028a5b40a417c661ee5c628b594be9
 )
 "
 "
@@ -4471,8 +4289,6 @@ rust
 io
 -
 surface
-#
-3f8220ab2e94651ced69b04068c5126b1adadf1f
 )
 "
 "
@@ -4498,8 +4314,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -4525,8 +4339,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -4583,8 +4395,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -4616,8 +4426,6 @@ http
 ref
 =
 servo
-#
-5e9b063b36028a5b40a417c661ee5c628b594be9
 )
 "
 "
@@ -4643,8 +4451,6 @@ servo
 rust
 -
 png
-#
-74418ffbf20e94b0d3bed4a9d004062a13342c79
 )
 "
 "
@@ -4672,8 +4478,6 @@ rust
 stb
 -
 image
-#
-f5022de4ad6bb474a03493d1f274dde9b0f1af0c
 )
 "
 "
@@ -4699,8 +4503,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -4923,8 +4725,6 @@ libpng
 ref
 =
 servo
-#
-d01f32b4eb86904695efe7fc02b574f902e21a98
 )
 "
 ]
@@ -5067,8 +4867,6 @@ servo
 rust
 -
 cssparser
-#
-7b0549a5d122135848b8813ec401112ab588063c
 )
 "
 "
@@ -5102,8 +4900,6 @@ lifthrasiir
 rust
 -
 encoding
-#
-28eafb604a92c7786685b46c0fc02682ba3ab265
 )
 "
 "
@@ -5129,8 +4925,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -5166,8 +4960,6 @@ html5ever
 ref
 =
 servo
-#
-0bdd6087dc8df6a92c96e1859bbb4ebbb0be7c1f
 )
 "
 "
@@ -5199,8 +4991,6 @@ http
 ref
 =
 servo
-#
-5e9b063b36028a5b40a417c661ee5c628b594be9
 )
 "
 "
@@ -5226,8 +5016,6 @@ servo
 rust
 -
 mozjs
-#
-1ec216a2577c03738fa11a78958bb2a0fd3f7fbd
 )
 "
 "
@@ -5285,8 +5073,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -5312,8 +5098,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -5347,8 +5131,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -5382,8 +5164,6 @@ rust
 lang
 /
 uuid
-#
-c3041068f413a5e46d795d21a346072794593839
 )
 "
 ]
@@ -5440,8 +5220,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -5483,8 +5261,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -5637,8 +5413,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -5716,8 +5490,6 @@ com
 servo
 /
 libexpat
-#
-da2ddaf78cbef836b8790807bb76b357c58df3a1
 )
 "
 "
@@ -5743,8 +5515,6 @@ com
 servo
 /
 libfreetype2
-#
-5b6499164106f094937565595c7b96d07de55521
 )
 "
 ]
@@ -5856,8 +5626,6 @@ sfackler
 rust
 -
 phf
-#
-06254fdde7708630a6397c41c6c17ef81a4b66a0
 )
 "
 "
@@ -5883,8 +5651,6 @@ sfackler
 rust
 -
 phf
-#
-06254fdde7708630a6397c41c6c17ef81a4b66a0
 )
 "
 "
@@ -5910,8 +5676,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 ]
@@ -5983,8 +5747,6 @@ lazy
 static
 .
 rs
-#
-e62a65372f1dd9019e37eb9381d819edff80e360
 )
 "
 ]
@@ -6033,8 +5795,6 @@ servo
 rust
 -
 cssparser
-#
-7b0549a5d122135848b8813ec401112ab588063c
 )
 "
 "
@@ -6060,8 +5820,6 @@ lifthrasiir
 rust
 -
 encoding
-#
-28eafb604a92c7786685b46c0fc02682ba3ab265
 )
 "
 "
@@ -6087,8 +5845,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -6116,8 +5872,6 @@ lazy
 static
 .
 rs
-#
-e62a65372f1dd9019e37eb9381d819edff80e360
 )
 "
 "
@@ -6151,8 +5905,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -6178,8 +5930,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -6205,8 +5955,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 "
@@ -6303,8 +6051,6 @@ lifthrasiir
 rust
 -
 encoding
-#
-28eafb604a92c7786685b46c0fc02682ba3ab265
 )
 "
 ]
@@ -6353,8 +6099,6 @@ servo
 rust
 -
 geom
-#
-b001a76e907befaae1d0d6dd259418a22092da86
 )
 "
 "
@@ -6380,8 +6124,6 @@ servo
 rust
 -
 layers
-#
-3737b00270644594a95896a2cd37ffca36d5bc5f
 )
 "
 "
@@ -6407,8 +6149,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -6434,8 +6174,6 @@ servo
 string
 -
 cache
-#
-97754929f38d93f6728d1f0acce8107648420e98
 )
 "
 "
@@ -6469,8 +6207,6 @@ servo
 rust
 -
 url
-#
-29f70a47230c2aa736e263977247c786e0b2c243
 )
 "
 ]
