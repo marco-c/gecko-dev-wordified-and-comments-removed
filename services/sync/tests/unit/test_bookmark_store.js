@@ -3208,6 +3208,13 @@ wipe
 (
 )
 ;
+yield
+PlacesTestUtils
+.
+markBookmarksAsSynced
+(
+)
+;
 try
 {
 _
