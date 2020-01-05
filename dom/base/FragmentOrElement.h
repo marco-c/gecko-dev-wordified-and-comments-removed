@@ -219,9 +219,6 @@ class
 ShadowRoot
 ;
 class
-UndoManager
-;
-class
 FragmentOrElement
 :
 public
@@ -943,12 +940,6 @@ mStyle
 nsDOMStringMap
 *
 mDataset
-;
-RefPtr
-<
-UndoManager
->
-mUndoManager
 ;
 nsCOMPtr
 <

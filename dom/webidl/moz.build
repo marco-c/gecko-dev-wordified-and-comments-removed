@@ -722,11 +722,6 @@ DOMTokenList
 webidl
 '
 '
-DOMTransaction
-.
-webidl
-'
-'
 Downloads
 .
 webidl
@@ -2937,11 +2932,6 @@ UIEvent
 webidl
 '
 '
-UndoManager
-.
-webidl
-'
-'
 URL
 .
 webidl
@@ -3399,11 +3389,6 @@ DeviceStorageChangeEvent
 webidl
 '
 '
-DOMTransactionEvent
-.
-webidl
-'
-'
 HashChangeEvent
 .
 webidl
@@ -3841,11 +3826,6 @@ webidl
 '
 '
 DeviceStorageChangeEvent
-.
-webidl
-'
-'
-DOMTransactionEvent
 .
 webidl
 '

@@ -416,10 +416,6 @@ TreeWalker
 implements
 LegacyQueryInterface
 ;
-UndoManager
-implements
-LegacyQueryInterface
-;
 ValidityState
 implements
 LegacyQueryInterface
