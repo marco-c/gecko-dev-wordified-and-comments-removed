@@ -8343,6 +8343,14 @@ thread
 "
 )
 ;
+if
+(
+mClosed
+)
+{
+return
+;
+}
 {
 MediaCache
 :
