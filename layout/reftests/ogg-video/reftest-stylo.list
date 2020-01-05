@@ -291,6 +291,7 @@ when
 this
 is
 ran
+fails
 =
 =
 object
@@ -311,6 +312,7 @@ ratio
 1a
 .
 xhtml
+fails
 =
 =
 object

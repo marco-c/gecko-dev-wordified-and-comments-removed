@@ -60,7 +60,6 @@ deferred
 anchor2
 .
 xhtml
-fails
 HTTP
 =
 =
@@ -91,7 +90,6 @@ table
 1
 .
 html
-fails
 HTTP
 =
 =
@@ -109,7 +107,6 @@ opacity
 1
 .
 html
-fails
 HTTP
 =
 =
@@ -127,7 +124,6 @@ opacity
 2
 .
 html
-fails
 =
 =
 fixed
@@ -451,7 +447,6 @@ behavior
 textarea
 .
 html
-fails
 HTTP
 =
 =

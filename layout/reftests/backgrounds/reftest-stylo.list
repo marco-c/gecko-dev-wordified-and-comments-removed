@@ -163,7 +163,6 @@ color
 1
 .
 html
-fails
 =
 =
 viewport
@@ -184,7 +183,6 @@ color
 2
 .
 html
-fails
 =
 =
 viewport
@@ -261,7 +259,6 @@ color
 1
 .
 html
-fails
 =
 =
 translucent
@@ -342,7 +339,6 @@ none
 1
 .
 html
-fails
 =
 =
 continuous
@@ -359,7 +355,6 @@ inline
 1a
 .
 html
-fails
 =
 =
 continuous
@@ -376,7 +371,6 @@ inline
 1b
 .
 html
-fails
 =
 =
 continuous
@@ -393,7 +387,6 @@ inline
 1c
 .
 html
-fails
 =
 =
 continuous
@@ -410,7 +403,6 @@ inline
 1d
 .
 html
-fails
 =
 =
 continuous
@@ -427,7 +419,6 @@ inline
 2a
 .
 html
-fails
 =
 =
 continuous
@@ -444,7 +435,6 @@ inline
 2b
 .
 html
-fails
 =
 =
 continuous
@@ -461,7 +451,6 @@ inline
 3
 .
 html
-fails
 =
 =
 continuous
@@ -478,7 +467,6 @@ inline
 4a
 .
 html
-fails
 =
 =
 continuous
@@ -495,7 +483,6 @@ inline
 4b
 .
 html
-fails
 =
 =
 continuous
@@ -512,7 +499,6 @@ inline
 5a
 .
 html
-fails
 =
 =
 continuous
@@ -2357,7 +2343,23 @@ border
 radius
 .
 html
-fails
+HTTP
+=
+=
+root
+-
+background
+-
+1
+.
+html
+root
+-
+background
+-
+1
+.
+html
 HTTP
 =
 =
@@ -2376,23 +2378,6 @@ background
 .
 html
 fails
-HTTP
-=
-=
-root
--
-background
--
-1
-.
-html
-root
--
-background
--
-1
-.
-html
 =
 =
 really

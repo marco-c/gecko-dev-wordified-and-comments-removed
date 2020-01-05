@@ -313,7 +313,6 @@ DECODE
 :
 #
 #
-fails
 =
 =
 downscale
@@ -330,7 +329,6 @@ svg
 1a
 .
 html
-fails
 =
 =
 downscale
@@ -347,7 +345,6 @@ svg
 1b
 .
 html
-fails
 =
 =
 downscale
@@ -364,7 +361,6 @@ svg
 1c
 .
 html
-fails
 =
 =
 downscale
@@ -381,7 +377,6 @@ svg
 1d
 .
 html
-fails
 =
 =
 downscale
@@ -398,7 +393,6 @@ svg
 1e
 .
 html
-fails
 =
 =
 downscale
