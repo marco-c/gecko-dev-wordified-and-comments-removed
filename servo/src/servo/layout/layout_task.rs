@@ -203,6 +203,17 @@ PongMsg
 }
 ExitMsg
 {
+#
+debug
+(
+"
+layout
+:
+ExitMsg
+received
+"
+)
+;
 break
 ;
 }

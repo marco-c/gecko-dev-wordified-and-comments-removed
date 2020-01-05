@@ -405,6 +405,9 @@ Layout
 let
 from_master
 :
+comm
+:
+:
 port
 <
 ControlMsg
@@ -412,6 +415,9 @@ ControlMsg
 ;
 let
 event_port
+:
+comm
+:
 :
 port
 <
