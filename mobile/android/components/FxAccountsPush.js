@@ -907,7 +907,6 @@ cryptokey
 )
 )
 {
-let
 headers
 =
 {
