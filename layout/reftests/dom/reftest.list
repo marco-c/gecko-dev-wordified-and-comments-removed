@@ -354,12 +354,6 @@ multipleappendwithxul
 ref
 .
 xhtml
-fails
--
-if
-(
-stylo
-)
 =
 =
 multipleappendwithinput

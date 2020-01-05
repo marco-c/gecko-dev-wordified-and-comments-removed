@@ -1,9 +1,3 @@
-fails
--
-if
-(
-stylo
-)
 =
 =
 input
@@ -14,12 +8,6 @@ input
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 button
@@ -46,12 +34,6 @@ textarea
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 select

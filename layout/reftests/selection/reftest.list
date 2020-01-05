@@ -659,12 +659,6 @@ cocoaWidget
 needs
 -
 focus
-fails
--
-if
-(
-stylo
-)
 =
 =
 themed

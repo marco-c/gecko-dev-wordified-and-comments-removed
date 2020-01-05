@@ -58,3 +58,8 @@ SERVO_ARC_TYPE
 SupportsRule
 RawServoSupportsRule
 )
+SERVO_ARC_TYPE
+(
+RuleNode
+RawServoRuleNode
+)

@@ -447,14 +447,8 @@ fuzzy
 if
 (
 skiaContent
-2
+3
 106
-)
-fails
--
-if
-(
-stylo
 )
 =
 =
