@@ -10487,7 +10487,7 @@ AssertIsOnMainThread
 bool
 allFrozen
 =
-false
+true
 ;
 for
 (
@@ -10923,6 +10923,10 @@ IsEmpty
 )
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 MOZ_ASSERT
 (
 IsDedicatedWorker
@@ -11120,6 +11124,10 @@ IsEmpty
 )
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 MOZ_ASSERT
 (
 IsDedicatedWorker
