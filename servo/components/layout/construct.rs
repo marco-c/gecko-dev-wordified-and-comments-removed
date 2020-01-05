@@ -2119,6 +2119,8 @@ new
 .
 scan_for_runs
 (
+&
+mut
 self
 .
 layout_context
@@ -2258,6 +2260,8 @@ inline_flow
 .
 compute_minimum_ascent_and_descent
 (
+&
+mut
 self
 .
 layout_context
@@ -7196,6 +7200,8 @@ new
 .
 scan_for_runs
 (
+&
+mut
 self
 .
 layout_context
