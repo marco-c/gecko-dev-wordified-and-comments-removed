@@ -1691,7 +1691,7 @@ as
 "
 relative
 -
-timestamp
+datestamp
 "
 :
 "

@@ -334,7 +334,7 @@ created
 '
 relative
 -
-timestamp
+datestamp
 '
 :
 '
