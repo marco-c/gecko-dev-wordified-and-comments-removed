@@ -8908,15 +8908,7 @@ StyleColor
 )
 -
 >
-CalcComplexColor
-(
-StyleUserInterface
-(
-)
--
->
-mCaretColor
-)
+mColor
 ;
 }
 bool
