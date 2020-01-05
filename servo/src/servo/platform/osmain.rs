@@ -1724,7 +1724,7 @@ main
 routine
 in
 a
-crust
+foreign
 function
 (
 *
@@ -1762,7 +1762,7 @@ NSObject
 |
 s
 |
-ojc
+objc
 :
 :
 objc_getClass
