@@ -245,6 +245,13 @@ Point2D
 f32
 >
 )
+Rect
+(
+Rect
+<
+f32
+>
+)
 RestoreContext
 SaveContext
 StrokeRect
