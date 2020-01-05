@@ -295,10 +295,7 @@ css
 match
 read_resource_file
 (
-&
-[
 filename
-]
 )
 {
 Ok
@@ -466,8 +463,6 @@ ServoSelectorImpl
 match
 read_resource_file
 (
-&
-[
 "
 quirks
 -
@@ -475,7 +470,6 @@ mode
 .
 css
 "
-]
 )
 {
 Ok
