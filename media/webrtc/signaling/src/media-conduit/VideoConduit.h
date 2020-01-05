@@ -247,6 +247,8 @@ CODEC_PLNAME_SIZE
 void
 AddLocalRTPExtensions
 (
+bool
+aIsSend
 const
 std
 :
@@ -275,6 +277,8 @@ RtpExtension
 >
 GetLocalRTPExtensions
 (
+bool
+aIsSend
 )
 const
 override
@@ -1484,6 +1488,12 @@ mNegotiatedMaxBitrate
 ;
 int
 mMinBitrateEstimate
+;
+bool
+mRtpStreamIdEnabled
+;
+uint8_t
+mRtpStreamIdExtId
 ;
 static
 const
