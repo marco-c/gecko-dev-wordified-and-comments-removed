@@ -52,9 +52,9 @@ extern
 void
 InterruptRunningJitCode
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 namespace
@@ -64,9 +64,9 @@ MOZ_MUST_USE
 bool
 EnsureSignalHandlers
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 bool
@@ -139,9 +139,9 @@ installed_
 bool
 install
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 }
