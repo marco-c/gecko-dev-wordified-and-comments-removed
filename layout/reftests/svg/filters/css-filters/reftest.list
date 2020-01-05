@@ -1164,3 +1164,17 @@ content
 ref
 .
 html
+=
+=
+filter
+-
+on
+-
+outer
+-
+svg
+.
+html
+pass
+.
+svg
