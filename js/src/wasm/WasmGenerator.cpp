@@ -3439,6 +3439,14 @@ false
 ;
 linkData_
 .
+unalignedAccessOffset
+=
+unalignedAccessExit
+.
+begin
+;
+linkData_
+.
 outOfBoundsOffset
 =
 outOfBoundsExit
