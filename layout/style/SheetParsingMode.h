@@ -18,7 +18,6 @@ eAuthorSheetFeatures
 0
 eUserSheetFeatures
 eAgentSheetFeatures
-eSafeAgentSheetFeatures
 }
 ;
 }

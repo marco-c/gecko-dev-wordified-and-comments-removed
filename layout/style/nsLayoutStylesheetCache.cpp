@@ -422,7 +422,7 @@ css
 "
 &
 mScrollbarsSheet
-eSafeAgentSheetFeatures
+eAuthorSheetFeatures
 eCrash
 )
 ;
