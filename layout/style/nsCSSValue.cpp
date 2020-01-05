@@ -13872,6 +13872,11 @@ nsCSSValueSharedList
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsCSSValueSharedList
+)
+;
 if
 (
 mHead
@@ -17265,6 +17270,11 @@ SheetType
 Count
 )
 {
+MOZ_COUNT_CTOR
+(
+nsCSSValueTokenStream
+)
+;
 }
 nsCSSValueTokenStream
 :
@@ -17274,6 +17284,11 @@ nsCSSValueTokenStream
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsCSSValueTokenStream
+)
+;
 }
 size_t
 nsCSSValueTokenStream

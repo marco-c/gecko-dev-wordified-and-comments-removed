@@ -142,6 +142,11 @@ mIsSMILOverride
 aIsSMILOverride
 )
 {
+MOZ_COUNT_CTOR
+(
+nsDOMCSSAttributeDeclaration
+)
+;
 NS_ASSERTION
 (
 aElement
@@ -165,6 +170,11 @@ nsDOMCSSAttributeDeclaration
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsDOMCSSAttributeDeclaration
+)
+;
 }
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (

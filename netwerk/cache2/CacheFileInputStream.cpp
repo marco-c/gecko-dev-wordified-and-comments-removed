@@ -240,6 +240,11 @@ this
 )
 )
 ;
+MOZ_COUNT_CTOR
+(
+CacheFileInputStream
+)
+;
 if
 (
 mAlternativeData
@@ -282,6 +287,11 @@ p
 "
 this
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+CacheFileInputStream
 )
 ;
 MOZ_ASSERT

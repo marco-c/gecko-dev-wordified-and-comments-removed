@@ -90,6 +90,11 @@ false
 )
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5StringParser
+)
+;
 mTokenizer
 -
 >
@@ -108,6 +113,11 @@ nsHtml5StringParser
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsHtml5StringParser
+)
+;
 }
 nsresult
 nsHtml5StringParser

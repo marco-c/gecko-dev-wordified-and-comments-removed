@@ -1552,6 +1552,11 @@ mAnonymize
 aAnonymize
 )
 {
+MOZ_COUNT_CTOR
+(
+MemoryReportRequestChild
+)
+;
 if
 (
 aDMDFile
@@ -1585,6 +1590,11 @@ MemoryReportRequestChild
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+MemoryReportRequestChild
+)
+;
 }
 class
 CycleCollectWithLogsChild

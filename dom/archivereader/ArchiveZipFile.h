@@ -108,6 +108,11 @@ MOZ_ASSERT
 mBlobImpl
 )
 ;
+MOZ_COUNT_CTOR
+(
+ArchiveZipBlobImpl
+)
+;
 }
 ArchiveZipBlobImpl
 (
@@ -155,6 +160,11 @@ MOZ_ASSERT
 mBlobImpl
 )
 ;
+MOZ_COUNT_CTOR
+(
+ArchiveZipBlobImpl
+)
+;
 }
 virtual
 void
@@ -178,6 +188,11 @@ ArchiveZipBlobImpl
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveZipBlobImpl
+)
+;
 }
 virtual
 already_AddRefed

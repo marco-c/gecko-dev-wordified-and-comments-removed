@@ -3108,6 +3108,11 @@ mShadowRoot
 aShadowRoot
 )
 {
+MOZ_COUNT_CTOR
+(
+ShadowRootStyleSheetList
+)
+;
 }
 ShadowRootStyleSheetList
 :
@@ -3117,6 +3122,11 @@ ShadowRootStyleSheetList
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ShadowRootStyleSheetList
+)
+;
 }
 StyleSheet
 *

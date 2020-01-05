@@ -109,6 +109,11 @@ mStatus
 NotStarted
 )
 {
+MOZ_COUNT_CTOR
+(
+ArchiveInputStream
+)
+;
 memset
 (
 &
@@ -144,6 +149,11 @@ ArchiveInputStream
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveInputStream
+)
+;
 Close
 (
 )

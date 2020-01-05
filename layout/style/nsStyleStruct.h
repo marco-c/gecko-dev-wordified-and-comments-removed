@@ -4082,6 +4082,11 @@ mLength
 aArrayLen
 )
 {
+MOZ_COUNT_CTOR
+(
+nsCSSShadowArray
+)
+;
 for
 (
 uint32_t
@@ -4119,6 +4124,11 @@ nsCSSShadowArray
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsCSSShadowArray
+)
+;
 for
 (
 uint32_t

@@ -4280,6 +4280,11 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_COUNT_CTOR
+(
+ProcessHangMonitor
+)
+;
 if
 (
 XRE_IsContentProcess
@@ -4364,6 +4369,11 @@ MOZ_RELEASE_ASSERT
 NS_IsMainThread
 (
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+ProcessHangMonitor
 )
 ;
 MOZ_ASSERT

@@ -991,6 +991,11 @@ mSts
 =
 gSocketTransportService
 ;
+MOZ_COUNT_CTOR
+(
+nsUDPSocket
+)
+;
 }
 nsUDPSocket
 :
@@ -1002,6 +1007,11 @@ nsUDPSocket
 {
 CloseSocket
 (
+)
+;
+MOZ_COUNT_DTOR
+(
+nsUDPSocket
 )
 ;
 }

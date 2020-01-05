@@ -206,6 +206,11 @@ mStopped
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+MediaStreamTrackSource
+)
+;
 }
 virtual
 void
@@ -430,6 +435,11 @@ MediaStreamTrackSource
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+MediaStreamTrackSource
+)
+;
 }
 void
 PrincipalChanged

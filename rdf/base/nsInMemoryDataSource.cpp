@@ -2571,6 +2571,11 @@ mPropagateChanges
 =
 true
 ;
+MOZ_COUNT_CTOR
+(
+InMemoryDataSource
+)
+;
 }
 InMemoryDataSource
 :
@@ -2730,6 +2735,11 @@ destroyed
 "
 this
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+InMemoryDataSource
 )
 ;
 }

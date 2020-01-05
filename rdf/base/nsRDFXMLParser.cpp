@@ -149,6 +149,11 @@ nsRDFXMLParser
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsRDFXMLParser
+)
+;
 }
 nsRDFXMLParser
 :
@@ -158,6 +163,11 @@ nsRDFXMLParser
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsRDFXMLParser
+)
+;
 }
 NS_IMETHODIMP
 nsRDFXMLParser

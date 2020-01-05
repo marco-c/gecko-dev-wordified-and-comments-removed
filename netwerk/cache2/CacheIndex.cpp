@@ -1307,6 +1307,11 @@ this
 )
 )
 ;
+MOZ_COUNT_CTOR
+(
+CacheIndex
+)
+;
 MOZ_ASSERT
 (
 !
@@ -1352,6 +1357,11 @@ p
 "
 this
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+CacheIndex
 )
 ;
 ReleaseBuffer
