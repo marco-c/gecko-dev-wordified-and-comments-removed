@@ -32,6 +32,9 @@ toPrimitive
 "
 unscopables
 "
+"
+asyncIterator
+"
 ]
 ;
 for
