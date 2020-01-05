@@ -6,7 +6,7 @@ stdint
 h
 >
 static
-constexpr
+const
 char
 kAddTrust_External_RootFingerprint
 [
@@ -20,7 +20,7 @@ lCppFqbkrlJ3EcVFAkeip0
 "
 ;
 static
-constexpr
+const
 char
 kAddTrust_Low_Value_Services_RootFingerprint
 [
@@ -32,7 +32,7 @@ BStocQfshOhzA4JFLsKidFF0XXSFpX1vRk4Np6G2ryo
 "
 ;
 static
-constexpr
+const
 char
 kAddTrust_Public_Services_RootFingerprint
 [
@@ -46,7 +46,7 @@ b8LrdwSxp0G0vZM6g3b14ZFcppg
 "
 ;
 static
-constexpr
+const
 char
 kAddTrust_Qualified_Certificates_RootFingerprint
 [
@@ -60,7 +60,7 @@ Bink
 "
 ;
 static
-constexpr
+const
 char
 kAffirmTrust_CommercialFingerprint
 [
@@ -74,7 +74,7 @@ bEZLmlsjOl6HTadlwm8EUBDS3c
 "
 ;
 static
-constexpr
+const
 char
 kAffirmTrust_NetworkingFingerprint
 [
@@ -88,7 +88,7 @@ WPcPkwmOWl9sBMlscQvYSdgxhJGa6Q64kK5AA
 "
 ;
 static
-constexpr
+const
 char
 kAffirmTrust_PremiumFingerprint
 [
@@ -102,7 +102,7 @@ Q7TPW3FWgpT4IrU3YmBfbd0Vyt7Oc56eLDy6YenWc
 "
 ;
 static
-constexpr
+const
 char
 kAffirmTrust_Premium_ECCFingerprint
 [
@@ -122,7 +122,7 @@ oDfk8
 "
 ;
 static
-constexpr
+const
 char
 kBaltimore_CyberTrust_RootFingerprint
 [
@@ -136,7 +136,7 @@ woKcVxrYxu80o
 "
 ;
 static
-constexpr
+const
 char
 kCOMODO_Certification_AuthorityFingerprint
 [
@@ -148,7 +148,7 @@ AG1751Vd2CAmRCxPGieoDomhmJy4ezREjtIZTBgZbV4
 "
 ;
 static
-constexpr
+const
 char
 kCOMODO_ECC_Certification_AuthorityFingerprint
 [
@@ -162,7 +162,7 @@ uxh4gFezqAcERupSkRYBlBAvfcw7mEjGPLnNU
 "
 ;
 static
-constexpr
+const
 char
 kCOMODO_RSA_Certification_AuthorityFingerprint
 [
@@ -174,7 +174,7 @@ grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME
 "
 ;
 static
-constexpr
+const
 char
 kComodo_AAA_Services_rootFingerprint
 [
@@ -190,7 +190,7 @@ jGPdW7L1vM
 "
 ;
 static
-constexpr
+const
 char
 kComodo_Secure_Services_rootFingerprint
 [
@@ -204,7 +204,7 @@ ehKa2BS3b4VK7DCFq4lqG5XR4E9vA8UfzOFcL4
 "
 ;
 static
-constexpr
+const
 char
 kComodo_Trusted_Services_rootFingerprint
 [
@@ -218,7 +218,7 @@ ayklvXrg
 "
 ;
 static
-constexpr
+const
 char
 kCybertrust_Global_RootFingerprint
 [
@@ -230,7 +230,7 @@ foeCwVDOOVL4AuY2AjpdPpW7XWjjPoWtsroXgSXOvxU
 "
 ;
 static
-constexpr
+const
 char
 kDST_Root_CA_X3Fingerprint
 [
@@ -246,7 +246,7 @@ eWys
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Assured_ID_Root_CAFingerprint
 [
@@ -264,7 +264,7 @@ o
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Assured_ID_Root_G2Fingerprint
 [
@@ -278,7 +278,7 @@ WAbEIAZOFZEik
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Assured_ID_Root_G3Fingerprint
 [
@@ -296,7 +296,7 @@ sYfTbKwGvWJ58U7Ncrkw
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Global_Root_CAFingerprint
 [
@@ -316,7 +316,7 @@ cwxzOMo1bk4TyHIlByibiA5E
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Global_Root_G2Fingerprint
 [
@@ -332,7 +332,7 @@ CY
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Global_Root_G3Fingerprint
 [
@@ -346,7 +346,7 @@ kYFpkiVkOaezL0WYEZ3anJc
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_High_Assurance_EV_Root_CAFingerprint
 [
@@ -358,7 +358,7 @@ WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18
 "
 ;
 static
-constexpr
+const
 char
 kDigiCert_Trusted_Root_G4Fingerprint
 [
@@ -372,7 +372,7 @@ qfTwq3ylFNd3IpaqLHZbh2ZNCLluVzmeNkcpw
 "
 ;
 static
-constexpr
+const
 char
 kEnd_Entity_Test_CertFingerprint
 [
@@ -384,7 +384,7 @@ VCIlmPM9NkgFQtrs4Oa5TeFcDu6MWRTKSNdePEhOgD8
 "
 ;
 static
-constexpr
+const
 char
 kEntrust_Root_Certification_AuthorityFingerprint
 [
@@ -400,7 +400,7 @@ j7R95lkXrwDg3d9C286sIMF8AnXuIJU
 "
 ;
 static
-constexpr
+const
 char
 kEntrust_Root_Certification_Authority___EC1Fingerprint
 [
@@ -413,7 +413,7 @@ qK31kX7pz11PB7Jp4cMQOH3sMVh6Se5hb9xGGbjbyI
 "
 ;
 static
-constexpr
+const
 char
 kEntrust_Root_Certification_Authority___G2Fingerprint
 [
@@ -427,7 +427,7 @@ U
 "
 ;
 static
-constexpr
+const
 char
 kEntrust_net_Premium_2048_Secure_Server_CAFingerprint
 [
@@ -439,7 +439,7 @@ HqPF5D7WbC2imDpCpKebHpBnhs6fG1hiFBmgBGOofTg
 "
 ;
 static
-constexpr
+const
 char
 kFacebookBackupFingerprint
 [
@@ -455,7 +455,7 @@ BSXVXQWB8XWQ
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_COMODORSADomainValidationSecureServerCAFingerprint
 [
@@ -469,7 +469,7 @@ klO23nT2ehFDXCfx3eHTDRESMz3asj1muO
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_DigiCertECCSecureServerCAFingerprint
 [
@@ -483,7 +483,7 @@ PZXN3lRAy
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_Entrust_SSLFingerprint
 [
@@ -497,7 +497,7 @@ LRqp1Oa8fnw
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_GTECyberTrustGlobalRootFingerprint
 [
@@ -514,7 +514,7 @@ rnCHU
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_GoDaddySecureFingerprint
 [
@@ -528,7 +528,7 @@ ZUzmbuIdHMdlYc
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_GoogleG2Fingerprint
 [
@@ -540,7 +540,7 @@ kGOOGLE_PIN_GoogleG2Fingerprint
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_RapidSSLFingerprint
 [
@@ -554,7 +554,7 @@ u7ajfCrg4qDM
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_SymantecClass3EVG3Fingerprint
 [
@@ -570,7 +570,7 @@ L9lE5E
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_ThawtePremiumServerFingerprint
 [
@@ -584,7 +584,7 @@ IQcKWavtkHlADZ9pVQaQA
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_UTNDATACorpSGCFingerprint
 [
@@ -596,7 +596,7 @@ QAL80xHQczFWfnG82XHkYEjI3OjRZZcRdTs9qiommvo
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass1Fingerprint
 [
@@ -612,7 +612,7 @@ Y
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass2_G2Fingerprint
 [
@@ -628,7 +628,7 @@ q8
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass3_G2Fingerprint
 [
@@ -642,7 +642,7 @@ pQtPBUEhwfTXZu1uH9PVExb8bxWQ68vo
 "
 ;
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass4_G3Fingerprint
 [
@@ -654,7 +654,7 @@ VnuCEf0g09KD7gzXzgZyy52ZvFtIeljJ1U7Gf3fUqPU
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Global_CAFingerprint
 [
@@ -668,7 +668,7 @@ z8v3zbgkRHpq6L29Esgfzhj89C1SyUCOQmqU
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Global_CA_2Fingerprint
 [
@@ -682,7 +682,7 @@ QAxYi55YKyLxfq4xoVkNEYU
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Primary_Certification_AuthorityFingerprint
 [
@@ -696,7 +696,7 @@ kqxcvWWE96HhfydlLVqFr4lQTqI5qqo
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 [
@@ -708,7 +708,7 @@ vPtEqrmtAhAVcGtBIep2HIHJ6IlnWQ9vlK50TciLePs
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Primary_Certification_Authority___G3Fingerprint
 [
@@ -720,7 +720,7 @@ q5hJUnat8eyv8o81xTBIeB5cFxjaucjmelBPT2pRMo8
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Universal_CAFingerprint
 [
@@ -734,7 +734,7 @@ qWqPKC7Us2JM8I7XCdEOCA
 "
 ;
 static
-constexpr
+const
 char
 kGeoTrust_Universal_CA_2Fingerprint
 [
@@ -751,7 +751,7 @@ iQAFMP4NlbbVDqrkE
 "
 ;
 static
-constexpr
+const
 char
 kGlobalSign_ECC_Root_CA___R4Fingerprint
 [
@@ -765,7 +765,7 @@ OXvSPjw5UOYbAf9GKOxImEp9hhku9W90fHMk
 "
 ;
 static
-constexpr
+const
 char
 kGlobalSign_ECC_Root_CA___R5Fingerprint
 [
@@ -777,7 +777,7 @@ fg6tdrtoGdwvVFEahDVPboswe53YIFjqbABPAdndpd8
 "
 ;
 static
-constexpr
+const
 char
 kGlobalSign_Root_CAFingerprint
 [
@@ -791,7 +791,7 @@ K87oWBWM9UZfyddvDfoxL
 "
 ;
 static
-constexpr
+const
 char
 kGlobalSign_Root_CA___R2Fingerprint
 [
@@ -808,7 +808,7 @@ zduCB3uj0
 "
 ;
 static
-constexpr
+const
 char
 kGlobalSign_Root_CA___R3Fingerprint
 [
@@ -822,7 +822,7 @@ cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP
 "
 ;
 static
-constexpr
+const
 char
 kGo_Daddy_Class_2_CAFingerprint
 [
@@ -838,7 +838,7 @@ PJnd6lL8JVNBCGQBZynFLdZSTIqcO0SJ8
 "
 ;
 static
-constexpr
+const
 char
 kGo_Daddy_Root_Certificate_Authority___G2Fingerprint
 [
@@ -850,7 +850,7 @@ Ko8tivDrEjiY90yGasP6ZpBU4jwXvHqVvQI0GS3GNdA
 "
 ;
 static
-constexpr
+const
 char
 kGoogleBackup2048Fingerprint
 [
@@ -866,7 +866,7 @@ vJvhJsA
 "
 ;
 static
-constexpr
+const
 char
 kLet_s_Encrypt_Authority_X3Fingerprint
 [
@@ -880,7 +880,7 @@ uEtLMkBgFF2Fuihg
 "
 ;
 static
-constexpr
+const
 char
 kLet_s_Encrypt_Authority_X4Fingerprint
 [
@@ -896,7 +896,7 @@ gTfNvuAybgLPNis
 "
 ;
 static
-constexpr
+const
 char
 kSpiderOak2Fingerprint
 [
@@ -908,7 +908,7 @@ kSpiderOak2Fingerprint
 "
 ;
 static
-constexpr
+const
 char
 kSpiderOak3Fingerprint
 [
@@ -922,7 +922,7 @@ lDAG1AP9xmdtwvV2A
 "
 ;
 static
-constexpr
+const
 char
 kStarfield_Class_2_CAFingerprint
 [
@@ -936,7 +936,7 @@ Ne4POK6FgYPwhBDqgqxLQ
 "
 ;
 static
-constexpr
+const
 char
 kStarfield_Root_Certificate_Authority___G2Fingerprint
 [
@@ -955,7 +955,7 @@ THQ
 "
 ;
 static
-constexpr
+const
 char
 kSwehackFingerprint
 [
@@ -969,7 +969,7 @@ XJwD07Uajb2G6YwSAEw
 "
 ;
 static
-constexpr
+const
 char
 kSwehackBackupFingerprint
 [
@@ -981,7 +981,7 @@ z6cuswA6E1vgFkCjUsbEYo0Lf3aP8M8YOvwkoiGzDCo
 "
 ;
 static
-constexpr
+const
 char
 kTestSPKIFingerprint
 [
@@ -993,7 +993,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "
 ;
 static
-constexpr
+const
 char
 kTor1Fingerprint
 [
@@ -1007,7 +1007,7 @@ lBQso5vI0N1f0Rx4go4nLo
 "
 ;
 static
-constexpr
+const
 char
 kTor2Fingerprint
 [
@@ -1019,7 +1019,7 @@ xXCxhTdn7uxXneJSbQCqoAvuW3ZtQl2pDVTf2sewS8w
 "
 ;
 static
-constexpr
+const
 char
 kTor3Fingerprint
 [
@@ -1033,7 +1033,7 @@ KfNs96EusbfSOfo
 "
 ;
 static
-constexpr
+const
 char
 kTwitter1Fingerprint
 [
@@ -1047,7 +1047,7 @@ CF34wE5PPf4nBwRyosy06X21J0ap8yS5s
 "
 ;
 static
-constexpr
+const
 char
 kUSERTrust_ECC_Certification_AuthorityFingerprint
 [
@@ -1061,7 +1061,7 @@ HXPLQTkFPEFPoDyjvH7ohhQpjzs
 "
 ;
 static
-constexpr
+const
 char
 kUSERTrust_RSA_Certification_AuthorityFingerprint
 [
@@ -1079,7 +1079,7 @@ Td4
 "
 ;
 static
-constexpr
+const
 char
 kUTN_USERFirst_Email_Root_CAFingerprint
 [
@@ -1093,7 +1093,7 @@ nQKNxMf7tXscUsc8KwVyovWZotM
 "
 ;
 static
-constexpr
+const
 char
 kUTN_USERFirst_Hardware_Root_CAFingerprint
 [
@@ -1111,7 +1111,7 @@ YoWI
 "
 ;
 static
-constexpr
+const
 char
 kUTN_USERFirst_Object_Root_CAFingerprint
 [
@@ -1125,7 +1125,7 @@ FMJksXu28NZT56cOs2Pb9UvhWAOe3a5cJXEd9IwQM
 "
 ;
 static
-constexpr
+const
 char
 kVeriSign_Class_3_Public_Primary_Certification_Authority___G4Fingerprint
 [
@@ -1139,7 +1139,7 @@ UZJDjsNp1
 "
 ;
 static
-constexpr
+const
 char
 kVeriSign_Class_3_Public_Primary_Certification_Authority___G5Fingerprint
 [
@@ -1151,7 +1151,7 @@ JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg
 "
 ;
 static
-constexpr
+const
 char
 kVeriSign_Universal_Root_Certification_AuthorityFingerprint
 [
@@ -1169,7 +1169,7 @@ ZZbYpCWhGloaHI
 "
 ;
 static
-constexpr
+const
 char
 kVerisign_Class_1_Public_Primary_Certification_Authority___G3Fingerprint
 [
@@ -1186,7 +1186,7 @@ hEeJEwM
 "
 ;
 static
-constexpr
+const
 char
 kVerisign_Class_2_Public_Primary_Certification_Authority___G3Fingerprint
 [
@@ -1198,7 +1198,7 @@ cAajgxHlj7GTSEIzIYIQxmEloOSoJq7VOaxWHfv72QM
 "
 ;
 static
-constexpr
+const
 char
 kVerisign_Class_3_Public_Primary_Certification_Authority___G3Fingerprint
 [
@@ -1212,7 +1212,7 @@ es4
 "
 ;
 static
-constexpr
+const
 char
 kYahooBackup1Fingerprint
 [
@@ -1228,7 +1228,7 @@ GLJuNAzCqY
 "
 ;
 static
-constexpr
+const
 char
 kYahooBackup2Fingerprint
 [
@@ -1244,7 +1244,7 @@ QNb6VSSX2XHA3E7A
 "
 ;
 static
-constexpr
+const
 char
 kthawte_Primary_Root_CAFingerprint
 [
@@ -1258,7 +1258,7 @@ bPbwcKOKw6DkfsTWYHbxbqTY
 "
 ;
 static
-constexpr
+const
 char
 kthawte_Primary_Root_CA___G2Fingerprint
 [
@@ -1274,7 +1274,7 @@ nA8OHCyJM
 "
 ;
 static
-constexpr
+const
 char
 kthawte_Primary_Root_CA___G3Fingerprint
 [
@@ -1304,10 +1304,10 @@ data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_google_root_pems_Data
 [
 ]
@@ -1370,7 +1370,7 @@ kAddTrust_Qualified_Certificates_RootFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_google_root_pems
 =
@@ -1390,10 +1390,10 @@ kPinset_google_root_pems_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_mozilla_services_Data
 [
 ]
@@ -1406,7 +1406,7 @@ kLet_s_Encrypt_Authority_X4Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_mozilla_services
 =
@@ -1426,10 +1426,10 @@ kPinset_mozilla_services_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_mozilla_test_Data
 [
 ]
@@ -1439,7 +1439,7 @@ kEnd_Entity_Test_CertFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_mozilla_test
 =
@@ -1459,10 +1459,10 @@ kPinset_mozilla_test_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_test_Data
 [
 ]
@@ -1472,7 +1472,7 @@ kTestSPKIFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_test
 =
@@ -1492,10 +1492,10 @@ kPinset_test_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_google_Data
 [
 ]
@@ -1508,7 +1508,7 @@ kGlobalSign_Root_CA___R2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_google
 =
@@ -1528,10 +1528,10 @@ kPinset_google_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_tor_Data
 [
 ]
@@ -1547,7 +1547,7 @@ kTor2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_tor
 =
@@ -1567,10 +1567,10 @@ kPinset_tor_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_twitterCom_Data
 [
 ]
@@ -1600,7 +1600,7 @@ kTwitter1Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_twitterCom
 =
@@ -1620,10 +1620,10 @@ kPinset_twitterCom_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_twitterCDN_Data
 [
 ]
@@ -1674,7 +1674,7 @@ kAddTrust_Qualified_Certificates_RootFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_twitterCDN
 =
@@ -1694,10 +1694,10 @@ kPinset_twitterCDN_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_dropbox_Data
 [
 ]
@@ -1724,7 +1724,7 @@ kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_dropbox
 =
@@ -1744,10 +1744,10 @@ kPinset_dropbox_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_facebook_Data
 [
 ]
@@ -1760,7 +1760,7 @@ kFacebookBackupFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_facebook
 =
@@ -1780,10 +1780,10 @@ kPinset_facebook_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_spideroak_Data
 [
 ]
@@ -1796,7 +1796,7 @@ kGeoTrust_Global_CAFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_spideroak
 =
@@ -1816,10 +1816,10 @@ kPinset_spideroak_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_yahoo_Data
 [
 ]
@@ -1843,7 +1843,7 @@ kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_yahoo
 =
@@ -1863,10 +1863,10 @@ kPinset_yahoo_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_swehackCom_Data
 [
 ]
@@ -1881,7 +1881,7 @@ kSwehackBackupFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_swehackCom
 =
@@ -1901,10 +1901,10 @@ kPinset_swehackCom_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_nightx_Data
 [
 ]
@@ -1923,7 +1923,7 @@ kLet_s_Encrypt_Authority_X4Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_nightx
 =
@@ -1974,7 +1974,7 @@ pinset
 }
 ;
 static
-constexpr
+const
 TransportSecurityPreload
 kPublicKeyPinningPreloadList
 [
@@ -9508,7 +9508,7 @@ kPinset_yahoo
 }
 ;
 static
-constexpr
+const
 int32_t
 kUnknownId
 =
@@ -9516,12 +9516,12 @@ kUnknownId
 1
 ;
 static
-constexpr
+const
 PRTime
 kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1494432863955000
+1494342699463000
 )
 ;
