@@ -133,3 +133,9 @@ type
 f
 -
 delete
+rm
+-
+rf
+(
+VENV
+)
