@@ -6,8 +6,8 @@ strict
 const
 {
 getAbbreviatedMimeType
-getUriNameWithQuery
-getUriHostPort
+getUrlBaseNameWithQuery
+getUrlHost
 loadCauseString
 }
 =
@@ -127,7 +127,7 @@ second
 let
 firstUrl
 =
-getUriNameWithQuery
+getUrlBaseNameWithQuery
 (
 first
 .
@@ -141,7 +141,7 @@ toLowerCase
 let
 secondUrl
 =
-getUriNameWithQuery
+getUrlBaseNameWithQuery
 (
 second
 .
@@ -191,7 +191,7 @@ second
 let
 firstDomain
 =
-getUriHostPort
+getUrlHost
 (
 first
 .
@@ -205,7 +205,7 @@ toLowerCase
 let
 secondDomain
 =
-getUriHostPort
+getUrlHost
 (
 second
 .
