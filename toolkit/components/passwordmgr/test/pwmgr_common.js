@@ -916,6 +916,14 @@ registerRunTests
 (
 )
 {
+return
+new
+Promise
+(
+resolve
+=
+>
+{
 window
 .
 addEventListener
@@ -1100,6 +1108,10 @@ dispatchEvent
 runTestEvent
 )
 ;
+resolve
+(
+)
+;
 }
 )
 ;
@@ -1128,6 +1140,9 @@ body
 appendChild
 (
 form
+)
+;
+}
 )
 ;
 }
