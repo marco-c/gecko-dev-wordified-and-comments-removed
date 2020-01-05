@@ -304,6 +304,11 @@ mediasource_test
 mp4
 '
 '
+negative_duration
+.
+mp4
+'
+'
 noise
 .
 mp3
