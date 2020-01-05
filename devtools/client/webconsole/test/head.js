@@ -243,7 +243,6 @@ function
 loadTab
 (
 url
-preferredRemoteType
 )
 {
 let
@@ -267,9 +266,6 @@ gBrowser
 addTab
 (
 url
-{
-preferredRemoteType
-}
 )
 ;
 let
