@@ -406,9 +406,6 @@ gfx
 IntSize
 &
 aSize
-bool
-*
-aOutSuccess
 )
 override
 ;
