@@ -1260,14 +1260,15 @@ expression
 |
 {
 match
+*
 expression
 {
-&
 Expression
 :
 :
 Width
 (
+ref
 value
 )
 =

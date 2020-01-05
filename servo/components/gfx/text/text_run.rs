@@ -836,9 +836,6 @@ text
 options
 )
 ;
-let
-run
-=
 TextRun
 {
 text
@@ -886,10 +883,6 @@ bidi_level
 :
 bidi_level
 }
-;
-return
-run
-;
 }
 pub
 fn

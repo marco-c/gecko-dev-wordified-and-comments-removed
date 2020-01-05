@@ -231,7 +231,6 @@ DOMString
 >
 bool
 {
-return
 string
 .
 chars

@@ -1257,9 +1257,7 @@ found
 as
 u8
 ;
-return
 JSTrue
-;
 }
 #
 [

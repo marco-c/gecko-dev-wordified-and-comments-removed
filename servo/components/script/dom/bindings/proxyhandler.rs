@@ -580,9 +580,7 @@ JSMSG_CANT_PREVENT_EXTENSIONS
 as
 u32
 ;
-return
 JSTrue
-;
 }
 pub
 unsafe
@@ -613,9 +611,7 @@ succeeded
 =
 JSTrue
 ;
-return
 JSTrue
-;
 }
 pub
 fn
@@ -780,9 +776,7 @@ expando
 )
 ;
 }
-return
 expando
-;
 }
 }
 pub

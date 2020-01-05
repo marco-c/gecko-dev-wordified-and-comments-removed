@@ -7618,9 +7618,9 @@ let
 matrix
 =
 match
+*
 operation
 {
-&
 transform
 :
 :
@@ -7669,7 +7669,6 @@ az
 theta
 )
 }
-&
 transform
 :
 :
@@ -7695,7 +7694,6 @@ to_f32_px
 )
 )
 }
-&
 transform
 :
 :
@@ -7721,7 +7719,6 @@ sy
 sz
 )
 }
-&
 transform
 :
 :
@@ -7796,7 +7793,6 @@ ty
 tz
 )
 }
-&
 transform
 :
 :
@@ -7816,7 +7812,6 @@ to_gfx_matrix
 (
 )
 }
-&
 transform
 :
 :

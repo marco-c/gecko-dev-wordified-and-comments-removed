@@ -468,7 +468,6 @@ Result
 )
 >
 {
-return
 self
 .
 sender
@@ -495,7 +494,6 @@ _
 (
 )
 )
-;
 }
 fn
 clone
@@ -585,7 +583,6 @@ Result
 )
 >
 {
-return
 self
 .
 sender
@@ -618,7 +615,6 @@ _
 (
 )
 )
-;
 }
 fn
 clone

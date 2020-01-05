@@ -1088,9 +1088,7 @@ constellation_msg
 SUPER
 ;
 }
-return
 result
-;
 }
 }
 /

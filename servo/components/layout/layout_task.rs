@@ -8338,14 +8338,8 @@ rw_data
 pub
 fn
 tick_animations
-<
-'
-a
->
 (
 &
-'
-a
 self
 rw_data
 :

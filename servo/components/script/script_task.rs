@@ -1810,7 +1810,6 @@ chan
 *
 self
 ;
-return
 chan
 .
 send
@@ -1832,7 +1831,6 @@ _
 (
 )
 )
-;
 }
 fn
 clone

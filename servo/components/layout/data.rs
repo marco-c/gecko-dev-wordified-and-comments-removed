@@ -278,9 +278,9 @@ construction_item
 >
 {
 match
+*
 construction_item
 {
-&
 ConstructionItem
 :
 :
@@ -315,7 +315,6 @@ clone
 ;
 }
 }
-&
 ConstructionItem
 :
 :
@@ -328,7 +327,6 @@ Whitespace
 >
 {
 }
-&
 ConstructionItem
 :
 :

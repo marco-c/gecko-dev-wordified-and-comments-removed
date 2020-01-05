@@ -270,8 +270,6 @@ r
 |
 {
 match
-&
-mut
 *
 r
 .
@@ -279,8 +277,6 @@ borrow_mut
 (
 )
 {
-&
-mut
 Some
 (
 ref
@@ -343,8 +339,6 @@ data
 )
 ;
 }
-&
-mut
 None
 =
 >
@@ -387,8 +381,6 @@ r
 |
 {
 match
-&
-mut
 *
 r
 .
@@ -396,8 +388,6 @@ borrow_mut
 (
 )
 {
-&
-mut
 Some
 (
 ref
@@ -475,8 +465,6 @@ current_scope
 )
 ;
 }
-&
-mut
 None
 =
 >

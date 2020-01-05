@@ -3419,6 +3419,7 @@ fmt
 Write
 {
 match
+*
 self
 {
 %
@@ -3427,7 +3428,6 @@ value
 in
 values
 :
-&
 T
 :
 :
@@ -4211,9 +4211,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 T
 :
 :
@@ -4228,7 +4228,6 @@ write_str
 auto
 "
 )
-&
 T
 :
 :
@@ -4715,9 +4714,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 SpecifiedValue
 :
 :
@@ -4732,7 +4731,6 @@ write_str
 normal
 "
 )
-&
 SpecifiedValue
 :
 :
@@ -4748,7 +4746,6 @@ to_css
 (
 dest
 )
-&
 SpecifiedValue
 :
 :
@@ -4768,7 +4765,6 @@ dest
 "
 number
 )
-&
 SpecifiedValue
 :
 :
@@ -5084,9 +5080,9 @@ fmt
 Result
 {
 match
+*
 self
 {
-&
 T
 :
 :
@@ -5101,7 +5097,6 @@ f
 normal
 "
 )
-&
 T
 :
 :
@@ -5124,7 +5119,6 @@ f
 "
 length
 )
-&
 T
 :
 :
@@ -5571,6 +5565,7 @@ fmt
 Write
 {
 match
+*
 self
 {
 %
@@ -5579,7 +5574,6 @@ keyword
 in
 vertical_align_keywords
 :
-&
 SpecifiedValue
 :
 :
@@ -5603,7 +5597,6 @@ keyword
 )
 %
 endfor
-&
 SpecifiedValue
 :
 :
@@ -5916,6 +5909,7 @@ fmt
 Result
 {
 match
+*
 self
 {
 %
@@ -5924,7 +5918,6 @@ keyword
 in
 vertical_align_keywords
 :
-&
 T
 :
 :
@@ -5948,7 +5941,6 @@ keyword
 )
 %
 endfor
-&
 T
 :
 :
@@ -5970,7 +5962,6 @@ f
 "
 length
 )
-&
 T
 :
 :
@@ -5991,7 +5982,6 @@ f
 "
 number
 )
-&
 T
 :
 :
@@ -6827,13 +6817,7 @@ input
 .
 map
 (
-|
-value
-|
 SpecifiedValue
-(
-value
-)
 )
 }
 <
@@ -7132,9 +7116,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 ContentItem
 :
 :
@@ -7158,7 +7142,6 @@ s
 dest
 )
 }
-&
 ContentItem
 :
 :
@@ -7234,7 +7217,6 @@ write_str
 "
 )
 }
-&
 ContentItem
 :
 :
@@ -7340,7 +7322,6 @@ write_str
 "
 )
 }
-&
 ContentItem
 :
 :
@@ -7357,7 +7338,6 @@ open
 quote
 "
 )
-&
 ContentItem
 :
 :
@@ -7374,7 +7354,6 @@ close
 quote
 "
 )
-&
 ContentItem
 :
 :
@@ -7393,7 +7372,6 @@ open
 quote
 "
 )
-&
 ContentItem
 :
 :
@@ -7480,9 +7458,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 T
 :
 :
@@ -7497,7 +7475,6 @@ write_str
 normal
 "
 )
-&
 T
 :
 :
@@ -7512,7 +7489,6 @@ write_str
 none
 "
 )
-&
 T
 :
 :
@@ -12670,9 +12646,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 FontFamily
 :
 :
@@ -13290,9 +13266,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 SpecifiedValue
 :
 :
@@ -13307,7 +13283,6 @@ write_str
 bolder
 "
 )
-&
 SpecifiedValue
 :
 :
@@ -13333,7 +13308,6 @@ range
 100
 )
 :
-&
 SpecifiedValue
 :
 :
@@ -13689,6 +13663,7 @@ fmt
 Result
 {
 match
+*
 self
 {
 %
@@ -13702,7 +13677,6 @@ range
 100
 )
 :
-&
 T
 :
 :
@@ -23730,15 +23704,7 @@ parse_one_text_shadow
 .
 map
 (
-|
-shadows
-|
-{
 SpecifiedValue
-(
-shadows
-)
-}
 )
 }
 }
@@ -25979,9 +25945,9 @@ value
 |
 {
 match
+*
 value
 {
-&
 SpecifiedFilter
 :
 :
@@ -26006,7 +25972,6 @@ to_computed_value
 context
 )
 )
-&
 SpecifiedFilter
 :
 :
@@ -26026,7 +25991,6 @@ Brightness
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -26046,7 +26010,6 @@ Contrast
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -26066,7 +26029,6 @@ Grayscale
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -26086,7 +26048,6 @@ HueRotate
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -26106,7 +26067,6 @@ Invert
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -26126,7 +26086,6 @@ Opacity
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -26146,7 +26105,6 @@ Saturate
 (
 factor
 )
-&
 SpecifiedFilter
 :
 :
@@ -41391,9 +41349,9 @@ self
 String
 {
 match
+*
 self
 {
-&
 DeclaredValue
 :
 :
@@ -41409,7 +41367,6 @@ inner
 to_css_string
 (
 )
-&
 DeclaredValue
 :
 :
@@ -41427,7 +41384,6 @@ css
 clone
 (
 )
-&
 DeclaredValue
 :
 :
@@ -41441,7 +41397,6 @@ initial
 to_owned
 (
 )
-&
 DeclaredValue
 :
 :
@@ -41555,6 +41510,7 @@ static
 str
 {
 match
+*
 self
 {
 %
@@ -41571,7 +41527,6 @@ derived_from
 is
 None
 :
-&
 PropertyDeclaration
 :
 :
@@ -41616,6 +41571,7 @@ self
 String
 {
 match
+*
 self
 {
 %
@@ -41632,7 +41588,6 @@ derived_from
 is
 None
 :
-&
 PropertyDeclaration
 :
 :
@@ -41656,6 +41611,7 @@ specified_value
 endif
 %
 endfor
+ref
 decl
 =
 >
