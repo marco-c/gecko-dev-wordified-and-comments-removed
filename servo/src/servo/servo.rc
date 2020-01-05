@@ -332,13 +332,6 @@ content
 {
 }
 mod
-net
-{
-mod
-uri
-;
-}
-mod
 opts
 ;
 mod
