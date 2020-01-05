@@ -152,6 +152,13 @@ bool
 false
 )
 \
+_
+(
+CanUseHardwareVideoDecoding
+bool
+false
+)
+\
 class
 gfxVars
 final

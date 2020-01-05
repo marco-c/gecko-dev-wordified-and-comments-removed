@@ -1350,9 +1350,8 @@ OffMainThreadCompositingEnabled
 (
 )
 ;
-virtual
-bool
-CanUseHardwareVideoDecoding
+void
+UpdateCanUseHardareVideoDecoding
 (
 )
 ;
@@ -2137,6 +2136,12 @@ aTarget
 gfxFont
 *
 aFont
+)
+;
+virtual
+bool
+CanUseHardwareVideoDecoding
+(
 )
 ;
 int8_t
