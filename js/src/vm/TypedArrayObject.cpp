@@ -7456,7 +7456,7 @@ lastIndexOf
 "
 TypedArrayLastIndexOf
 "
-2
+1
 0
 )
 JS_SELF_HOSTED_FN
