@@ -683,13 +683,6 @@ Objects
 NonHeap
 objectsNonHeapCodeWasm
 )
-\
-macro
-(
-Objects
-Ignore
-wasmGuardPages
-)
 ClassInfo
 (
 )
@@ -698,8 +691,9 @@ FOR_EACH_SIZE
 (
 ZERO_SIZE
 )
-dummy
+wasmGuardPages
 (
+0
 )
 {
 }
@@ -825,8 +819,8 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
-int
-dummy
+size_t
+wasmGuardPages
 ;
 #
 undef
