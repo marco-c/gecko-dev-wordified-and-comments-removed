@@ -461,9 +461,6 @@ FFFFFFFF00000000FFFFFFFFFFFFFFFFBCE6FAADA7179E84F3B9CAC2FC632550
 16
 )
 ;
-#
-ifdef
-CT_VERIF
 mp_taint
 (
 &
@@ -476,8 +473,6 @@ mp_taint
 c
 )
 ;
-#
-endif
 uint32_t
 runs
 =

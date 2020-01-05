@@ -299,9 +299,6 @@ fips
 gtest
 "
 "
-interop
-"
-"
 lowhash
 "
 "

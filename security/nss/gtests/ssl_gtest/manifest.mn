@@ -148,10 +148,6 @@ ssl_fuzz_unittest
 .
 cc
 \
-ssl_gather_unittest
-.
-cc
-\
 ssl_gtest
 .
 cc

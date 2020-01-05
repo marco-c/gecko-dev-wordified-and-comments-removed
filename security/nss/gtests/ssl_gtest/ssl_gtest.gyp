@@ -184,11 +184,6 @@ ssl_fragment_unittest
 cc
 '
 '
-ssl_gather_unittest
-.
-cc
-'
-'
 ssl_gtest
 .
 cc
