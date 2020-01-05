@@ -198,12 +198,14 @@ this
 .
 [
 Throws
+NeedsSubjectPrincipal
 ]
 stringifier
 ;
 [
 Throws
 CrossOriginWritable
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -211,6 +213,7 @@ href
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 readonly
 attribute
@@ -219,6 +222,7 @@ origin
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -226,6 +230,7 @@ protocol
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -233,6 +238,7 @@ host
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -240,6 +246,7 @@ hostname
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -247,6 +254,7 @@ port
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -254,6 +262,7 @@ pathname
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -261,6 +270,7 @@ search
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
@@ -269,6 +279,7 @@ hash
 [
 Throws
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 void
 assign
@@ -281,6 +292,7 @@ url
 Throws
 CrossOriginCallable
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 void
 replace
@@ -308,6 +320,7 @@ bug
 [
 Throws
 UnsafeInPrerendering
+NeedsSubjectPrincipal
 ]
 void
 reload
