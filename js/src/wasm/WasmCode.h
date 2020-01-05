@@ -90,16 +90,6 @@ uint8_t
 *
 unalignedAccessCode_
 ;
-public
-:
-#
-ifdef
-MOZ_VTUNE
-unsigned
-vtune_method_id_
-;
-#
-endif
 protected
 :
 CodeSegment
