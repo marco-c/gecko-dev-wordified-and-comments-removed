@@ -62,6 +62,9 @@ master
 autoconf213
 .
 rb
+brew
+install
+automake
 On
 OS
 X
