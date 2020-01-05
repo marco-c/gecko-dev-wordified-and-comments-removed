@@ -25178,7 +25178,7 @@ self
 .
 member
 .
-slotIndex
+slotIndices
 is
 not
 None
