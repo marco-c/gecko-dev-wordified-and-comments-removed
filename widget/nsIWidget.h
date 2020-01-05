@@ -1408,12 +1408,6 @@ GetDefaultScale
 )
 ;
 static
-void
-ScaleOverrideChanged
-(
-)
-;
-static
 double
 DefaultScaleOverride
 (
