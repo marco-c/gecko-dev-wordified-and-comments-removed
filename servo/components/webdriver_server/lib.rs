@@ -811,14 +811,6 @@ parameters
 script
 ;
 let
-args
-=
-&
-parameters
-.
-args
-;
-let
 args_string
 =
 "
