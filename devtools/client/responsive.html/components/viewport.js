@@ -332,8 +332,10 @@ ViewportDimension
 (
 {
 viewport
-onRemoveDeviceAssociation
+onChangeSize
+:
 onResizeViewport
+onRemoveDeviceAssociation
 }
 )
 ResizableViewport
