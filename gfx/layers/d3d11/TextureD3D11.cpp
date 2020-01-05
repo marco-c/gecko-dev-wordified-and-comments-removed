@@ -4098,6 +4098,10 @@ GetD3D11Device
 )
 )
 {
+mProvider
+=
+nullptr
+;
 mTextureSources
 [
 0
@@ -4122,6 +4126,10 @@ nullptr
 return
 ;
 }
+mProvider
+=
+aProvider
+;
 if
 (
 mTextureSources
