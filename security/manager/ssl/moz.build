@@ -556,11 +556,6 @@ nsNSSCertificateDB
 cpp
 '
 '
-nsNSSCertificateFakeTransport
-.
-cpp
-'
-'
 nsNSSCertTrust
 .
 cpp
