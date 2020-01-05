@@ -141,6 +141,12 @@ EventCancelable
 }
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -227,7 +233,7 @@ global
 GlobalRef
 type_
 :
-DOMString
+Atom
 bubbles
 :
 EventBubbles
@@ -282,7 +288,7 @@ Event
 ;
 parent
 .
-InitEvent
+init_event
 (
 type_
 bubbles
@@ -417,7 +423,15 @@ WebGLContextEvent
 new
 (
 global
+Atom
+:
+:
+from
+(
+&
+*
 type_
+)
 bubbles
 cancelable
 status_message

@@ -123,6 +123,12 @@ EventCancelable
 }
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -202,7 +208,7 @@ global
 GlobalRef
 type_
 :
-DOMString
+Atom
 can_bubble
 :
 EventBubbles
@@ -265,7 +271,7 @@ Event
 ;
 event
 .
-InitEvent
+init_event
 (
 type_
 can_bubble
@@ -370,7 +376,15 @@ ProgressEvent
 new
 (
 global
+Atom
+:
+:
+from
+(
+&
+*
 type_
+)
 bubbles
 cancelable
 init

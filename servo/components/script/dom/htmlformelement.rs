@@ -1362,10 +1362,8 @@ r
 (
 )
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 submit
@@ -2625,10 +2623,8 @@ r
 (
 )
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 reset

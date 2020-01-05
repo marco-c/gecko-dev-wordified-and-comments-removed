@@ -7338,10 +7338,8 @@ r
 (
 )
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 input
@@ -7383,10 +7381,8 @@ r
 (
 )
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 change

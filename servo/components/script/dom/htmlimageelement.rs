@@ -541,10 +541,8 @@ r
 (
 )
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 load

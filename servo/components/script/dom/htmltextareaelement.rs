@@ -1974,10 +1974,8 @@ Window
 (
 window
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 input

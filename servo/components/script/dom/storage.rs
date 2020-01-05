@@ -1650,10 +1650,8 @@ StorageEvent
 new
 (
 global_ref
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 storage
