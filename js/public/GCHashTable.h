@@ -539,6 +539,7 @@ Key
 Value
 HashPolicy
 AllocPolicy
+MapSweepPolicy
 >
 ;
 public
