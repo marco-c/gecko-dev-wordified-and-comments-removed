@@ -811,6 +811,12 @@ MOZ_CRASHREPORTER_URL
 SERVER_URL
 )
 ;
+UnsubmittedCrashHandler
+.
+uninit
+(
+)
+;
 yield
 SpecialPowers
 .
@@ -834,6 +840,12 @@ true
 ]
 ]
 }
+)
+;
+UnsubmittedCrashHandler
+.
+init
+(
 )
 ;
 registerCleanupFunction
