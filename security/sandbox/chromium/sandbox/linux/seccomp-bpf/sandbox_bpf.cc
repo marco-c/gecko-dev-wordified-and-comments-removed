@@ -95,17 +95,6 @@ include
 "
 base
 /
-memory
-/
-scoped_ptr
-.
-h
-"
-#
-include
-"
-base
-/
 posix
 /
 eintr_wrapper

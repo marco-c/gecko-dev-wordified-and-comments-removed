@@ -74,6 +74,12 @@ IsBinaryInstrumented
 (
 )
 ;
+BASE_EXPORT
+bool
+IsProfilingSupported
+(
+)
+;
 typedef
 uintptr_t
 (

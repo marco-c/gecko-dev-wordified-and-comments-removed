@@ -35,9 +35,7 @@ include
 "
 base
 /
-containers
-/
-hash_tables
+hash
 .
 h
 "
@@ -183,7 +181,7 @@ return
 base
 :
 :
-HashPair
+HashInts
 (
 reinterpret_cast
 <
@@ -311,7 +309,7 @@ define
 FROM_HERE
 FROM_HERE_WITH_EXPLICIT_FUNCTION
 (
-__FUNCTION__
+__func__
 )
 #
 define

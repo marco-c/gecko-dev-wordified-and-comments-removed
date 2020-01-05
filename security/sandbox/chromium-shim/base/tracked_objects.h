@@ -4,6 +4,15 @@ _SECURITY_SANDBOX_TRACKED_OBJECTS_H_
 #
 define
 _SECURITY_SANDBOX_TRACKED_OBJECTS_H_
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 tracked_objects
 {
@@ -25,6 +34,10 @@ string
 name
 )
 {
+MOZ_CRASH
+(
+)
+;
 }
 }
 ;
