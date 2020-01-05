@@ -150,6 +150,11 @@ TestFile
 cpp
 '
 '
+TestID
+.
+cpp
+'
+'
 TestNSPRLogModulesParser
 .
 cpp
