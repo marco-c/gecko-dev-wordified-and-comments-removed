@@ -3223,7 +3223,7 @@ uint32_t
 *
 stackAdjust
 bool
-callFromAsmJS
+callFromWasm
 )
 {
 MOZ_ASSERT

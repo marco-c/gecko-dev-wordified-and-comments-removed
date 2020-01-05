@@ -10749,7 +10749,7 @@ Address
 GlobalReg
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 dest
 )
@@ -10808,7 +10808,7 @@ ma_add
 (
 Imm32
 (
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 GlobalReg
 scratch

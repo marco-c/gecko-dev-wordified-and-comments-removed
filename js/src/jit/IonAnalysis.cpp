@@ -1210,9 +1210,9 @@ compilingWasm
 (
 )
 "
-AsmJS
+wasm
 compilation
-have
+has
 no
 code
 coverage

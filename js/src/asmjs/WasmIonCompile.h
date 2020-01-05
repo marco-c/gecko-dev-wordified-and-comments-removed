@@ -270,7 +270,7 @@ jit
 MacroAssembler
 :
 :
-AsmJSToken
+WasmToken
 (
 )
 alloc_

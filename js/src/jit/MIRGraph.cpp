@@ -183,7 +183,7 @@ safeForMinorGC_
 (
 true
 )
-minAsmJSHeapLength_
+minWasmHeapLength_
 (
 0
 )

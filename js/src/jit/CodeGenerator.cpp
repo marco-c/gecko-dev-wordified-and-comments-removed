@@ -906,7 +906,7 @@ compilingWasm
 )
 masm
 .
-numAsmJSAbsoluteAddresses
+numWasmSymbolicAccesses
 (
 )
 =
@@ -57822,9 +57822,7 @@ JitSpew_Codegen
 "
 #
 Emitting
-asm
-.
-js
+wasm
 code
 "
 )

@@ -6671,7 +6671,7 @@ Address
 GlobalReg
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 dest
 )
@@ -6721,7 +6721,7 @@ ma_addu
 GlobalReg
 Imm32
 (
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 )
 ;

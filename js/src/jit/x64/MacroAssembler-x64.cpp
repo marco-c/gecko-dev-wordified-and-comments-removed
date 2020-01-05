@@ -2288,7 +2288,7 @@ uint32_t
 *
 stackAdjust
 bool
-callFromAsmJS
+callFromWasm
 )
 {
 MOZ_ASSERT
@@ -2331,7 +2331,10 @@ static_assert
 (
 sizeof
 (
-AsmJSFrame
+wasm
+:
+:
+Frame
 )
 %
 ABIStackAlignment
@@ -2339,7 +2342,10 @@ ABIStackAlignment
 =
 0
 "
-AsmJSFrame
+wasm
+:
+:
+Frame
 should
 be
 part

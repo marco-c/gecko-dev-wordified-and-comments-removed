@@ -4286,7 +4286,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 MOZ_ASSERT
 (
@@ -4378,7 +4378,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 MOZ_ASSERT
 (

@@ -70,7 +70,7 @@ fp
 return
 reinterpret_cast
 <
-AsmJSFrame
+Frame
 *
 >
 (
@@ -94,7 +94,7 @@ fp
 return
 reinterpret_cast
 <
-AsmJSFrame
+Frame
 *
 >
 (
@@ -1926,7 +1926,7 @@ Imm32
 (
 framePushed
 +
-AsmJSFrameBytesAfterReturnAddress
+FrameBytesAfterReturnAddress
 )
 )
 ;
@@ -2011,7 +2011,7 @@ Imm32
 (
 framePushed
 +
-AsmJSFrameBytesAfterReturnAddress
+FrameBytesAfterReturnAddress
 )
 )
 ;

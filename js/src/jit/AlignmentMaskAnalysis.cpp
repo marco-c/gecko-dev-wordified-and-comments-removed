@@ -68,7 +68,7 @@ graph
 {
 MOZ_ASSERT
 (
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )

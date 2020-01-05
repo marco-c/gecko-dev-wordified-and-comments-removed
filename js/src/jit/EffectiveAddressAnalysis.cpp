@@ -1295,7 +1295,7 @@ end
 mir_
 -
 >
-minAsmJSHeapLength
+minWasmHeapLength
 (
 )
 )

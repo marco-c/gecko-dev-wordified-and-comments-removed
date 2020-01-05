@@ -1132,14 +1132,14 @@ nullptr
 )
 ;
 struct
-AsmJSToken
+WasmToken
 {
 }
 ;
 explicit
 MacroAssembler
 (
-AsmJSToken
+WasmToken
 TempAllocator
 &
 alloc
@@ -1940,7 +1940,7 @@ uint32_t
 *
 stackAdjust
 bool
-callFromAsmJS
+callFromWasm
 =
 false
 )

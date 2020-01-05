@@ -27868,9 +27868,7 @@ MOZ_CRASH
 (
 "
 Unexpected
-asm
-.
-js
+wasm
 return
 type
 "

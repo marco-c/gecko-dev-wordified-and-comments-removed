@@ -49,7 +49,7 @@ MOZ_ASSERT
 (
 masm
 .
-numAsmJSAbsoluteAddresses
+numWasmSymbolicAccesses
 (
 )
 =

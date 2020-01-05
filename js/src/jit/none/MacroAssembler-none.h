@@ -356,7 +356,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegCallee
+WasmIonExitRegCallee
 =
 {
 Registers
@@ -368,7 +368,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegE0
+WasmIonExitRegE0
 =
 {
 Registers
@@ -380,7 +380,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegE1
+WasmIonExitRegE1
 =
 {
 Registers
@@ -392,7 +392,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegReturnData
+WasmIonExitRegReturnData
 =
 {
 Registers
@@ -404,7 +404,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegReturnType
+WasmIonExitRegReturnType
 =
 {
 Registers
@@ -416,7 +416,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegD0
+WasmIonExitRegD0
 =
 {
 Registers
@@ -428,7 +428,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegD1
+WasmIonExitRegD1
 =
 {
 Registers
@@ -440,7 +440,7 @@ invalid_reg
 static
 constexpr
 Register
-AsmJSIonExitRegD2
+WasmIonExitRegD2
 =
 {
 Registers

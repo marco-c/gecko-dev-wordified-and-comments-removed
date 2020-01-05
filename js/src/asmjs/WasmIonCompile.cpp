@@ -5020,7 +5020,7 @@ call
 -
 >
 maxChildStackBytes_
-AsmJSStackAlignment
+WasmStackAlignment
 )
 ;
 for
@@ -22895,13 +22895,13 @@ get
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 )
 )
 ;
 mir
 .
-initMinAsmJSHeapLength
+initMinWasmHeapLength
 (
 task
 -

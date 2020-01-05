@@ -173,7 +173,7 @@ void
 OptimizationInfo
 :
 :
-initAsmjsOptimizationInfo
+initWasmOptimizationInfo
 (
 )
 {
@@ -186,7 +186,7 @@ level_
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 ;
 ama_
 =
@@ -455,10 +455,10 @@ infos_
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 ]
 .
-initAsmjsOptimizationInfo
+initWasmOptimizationInfo
 (
 )
 ;
@@ -558,7 +558,7 @@ case
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 :
 case
 OptimizationLevel

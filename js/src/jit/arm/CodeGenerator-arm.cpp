@@ -14557,7 +14557,7 @@ Address
 GlobalReg
 nanOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 output
 scratch
@@ -20098,7 +20098,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 ScratchRegisterScope
 scratch
@@ -20268,7 +20268,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 MOZ_ASSERT
 (
@@ -20391,7 +20391,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 if
 (
@@ -20540,7 +20540,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 MOZ_ASSERT
 (

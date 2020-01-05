@@ -1495,13 +1495,13 @@ FrameArgument
 <
 <
 6
-AsmJSGlobalVar
+WasmGlobalVar
 =
 1
 <
 <
 7
-AsmJSHeap
+WasmHeap
 =
 1
 <
@@ -55910,7 +55910,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 return
@@ -55922,7 +55922,7 @@ Load
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -56026,7 +56026,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -56323,7 +56323,7 @@ Load
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -56445,7 +56445,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -56610,7 +56610,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -56757,7 +56757,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -56923,7 +56923,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -57054,7 +57054,7 @@ Load
 AliasSet
 :
 :
-AsmJSGlobalVar
+WasmGlobalVar
 )
 ;
 }
@@ -57151,7 +57151,7 @@ Store
 AliasSet
 :
 :
-AsmJSGlobalVar
+WasmGlobalVar
 )
 ;
 }

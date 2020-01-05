@@ -58,7 +58,7 @@ OptimizationLevel
 uint8_t
 {
 Normal
-AsmJS
+Wasm
 Count
 DontCompile
 }
@@ -107,11 +107,11 @@ case
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 :
 return
 "
-Optimization_AsmJS
+Optimization_Wasm
 "
 ;
 case
@@ -250,7 +250,7 @@ initNormalOptimizationInfo
 )
 ;
 void
-initAsmjsOptimizationInfo
+initWasmOptimizationInfo
 (
 )
 ;

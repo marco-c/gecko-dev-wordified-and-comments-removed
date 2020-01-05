@@ -2418,7 +2418,7 @@ case
 :
 return
 "
-AsmJSGlobalVar
+WasmGlobalVar
 "
 ;
 case
@@ -2426,7 +2426,7 @@ case
 :
 return
 "
-AsmJSHeap
+WasmHeap
 "
 ;
 case
@@ -6455,7 +6455,7 @@ const
 MOZ_ASSERT
 (
 !
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )

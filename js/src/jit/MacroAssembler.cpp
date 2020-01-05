@@ -9143,7 +9143,7 @@ DEBUG
 if
 (
 !
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )
@@ -15375,7 +15375,10 @@ alreadyPushed
 =
 sizeof
 (
-AsmJSFrame
+wasm
+:
+:
+Frame
 )
 +
 framePushed
