@@ -2444,9 +2444,7 @@ mMask
 style
 -
 >
-mMask
-.
-HasLayerWithImage
+HasMask
 (
 )
 ?
