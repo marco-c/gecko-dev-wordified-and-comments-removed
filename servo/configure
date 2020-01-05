@@ -2597,6 +2597,14 @@ harfbuzz
 \
 support
 /
+http
+/
+rust
+-
+http
+\
+support
+/
 hubbub
 /
 libhubbub

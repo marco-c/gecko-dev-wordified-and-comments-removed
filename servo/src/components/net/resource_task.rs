@@ -2,6 +2,9 @@ use
 file_loader
 ;
 use
+http_loader
+;
+use
 std
 :
 :
@@ -203,8 +206,6 @@ file_loader
 :
 factory
 ;
-/
-/
 let
 http_loader_factory
 :
@@ -227,8 +228,6 @@ file
 "
 file_loader_factory
 )
-/
-/
 (
 ~
 "

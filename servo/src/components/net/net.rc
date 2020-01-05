@@ -113,11 +113,9 @@ extern
 mod
 geom
 ;
-/
-/
 extern
 mod
-http_client
+http
 ;
 extern
 mod
@@ -219,8 +217,6 @@ pub
 mod
 file_loader
 ;
-/
-/
 pub
 mod
 http_loader
