@@ -400,6 +400,13 @@ ForceNoSpdy
 override
 ;
 NS_IMETHOD
+ConnectionRestartable
+(
+bool
+)
+override
+;
+NS_IMETHOD
 GetLoadFlags
 (
 nsLoadFlags
@@ -2301,6 +2308,11 @@ mStronglyFramed
 ;
 uint32_t
 mUsedNetwork
+:
+1
+;
+uint32_t
+mAuthConnectionRestartable
 :
 1
 ;
