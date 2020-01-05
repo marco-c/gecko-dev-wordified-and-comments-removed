@@ -23536,6 +23536,8 @@ nsGlobalWindow
 :
 GetScreenXY
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23553,9 +23555,9 @@ if
 nsContentUtils
 :
 :
-ShouldResistFingerprinting
+ResistFingerprinting
 (
-mDocShell
+aCallerType
 )
 )
 {
@@ -23772,6 +23774,8 @@ nsGlobalWindow
 :
 GetScreenXOuter
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23787,6 +23791,7 @@ IsOuterWindow
 return
 GetScreenXY
 (
+aCallerType
 aError
 )
 .
@@ -23810,6 +23815,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetScreenXOuter
 (
+aCallerType
 aError
 )
 aError
@@ -24737,6 +24743,8 @@ nsGlobalWindow
 :
 GetScreenYOuter
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -24752,6 +24760,7 @@ IsOuterWindow
 return
 GetScreenXY
 (
+aCallerType
 aError
 )
 .
@@ -24775,6 +24784,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetScreenYOuter
 (
+aCallerType
 aError
 )
 aError
