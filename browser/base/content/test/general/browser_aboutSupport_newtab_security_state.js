@@ -50,6 +50,15 @@ true
 allowMixedContent
 :
 false
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

@@ -36,6 +36,17 @@ about
 :
 blank
 "
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 ok
