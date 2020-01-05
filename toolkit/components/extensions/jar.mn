@@ -219,6 +219,17 @@ ext
 -
 c
 -
+backgroundPage
+.
+js
+content
+/
+extensions
+/
+ext
+-
+c
+-
 extension
 .
 js
