@@ -421,7 +421,7 @@ media_queries
 :
 :
 {
-MediaQueryList
+MediaList
 parse_media_query_list
 }
 ;
@@ -2293,7 +2293,7 @@ media
 :
 Option
 <
-MediaQueryList
+MediaList
 >
 /
 /

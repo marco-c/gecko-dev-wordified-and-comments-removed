@@ -90,7 +90,7 @@ HeapSizeOf
 ]
 pub
 struct
-MediaQueryList
+MediaList
 {
 pub
 media_queries
@@ -103,7 +103,7 @@ MediaQuery
 impl
 ToCss
 for
-MediaQueryList
+MediaList
 {
 fn
 to_css
@@ -1663,7 +1663,7 @@ Parser
 )
 -
 >
-MediaQueryList
+MediaList
 {
 let
 queries
@@ -1792,7 +1792,7 @@ break
 media_queries
 }
 ;
-MediaQueryList
+MediaList
 {
 media_queries
 :
@@ -1800,7 +1800,7 @@ queries
 }
 }
 impl
-MediaQueryList
+MediaList
 {
 pub
 fn

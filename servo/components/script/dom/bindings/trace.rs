@@ -650,7 +650,7 @@ style
 media_queries
 :
 :
-MediaQueryList
+MediaList
 ;
 use
 style
@@ -2324,7 +2324,7 @@ WebGLTextureId
 no_jsmanaged_fields
 !
 (
-MediaQueryList
+MediaList
 )
 ;
 impl

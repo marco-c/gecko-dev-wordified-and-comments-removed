@@ -62,7 +62,7 @@ media_queries
 :
 {
 Device
-MediaQueryList
+MediaList
 parse_media_query_list
 }
 ;
@@ -196,7 +196,7 @@ media
 :
 Option
 <
-MediaQueryList
+MediaList
 >
 pub
 origin
@@ -328,7 +328,7 @@ CSSRule
 Option
 <
 &
-MediaQueryList
+MediaList
 >
 )
 -
@@ -522,7 +522,7 @@ Arc
 <
 RwLock
 <
-MediaQueryList
+MediaList
 >
 >
 pub
@@ -973,7 +973,7 @@ media
 :
 Option
 <
-MediaQueryList
+MediaList
 >
 )
 {
@@ -1482,7 +1482,7 @@ Arc
 <
 RwLock
 <
-MediaQueryList
+MediaList
 >
 >
 )
