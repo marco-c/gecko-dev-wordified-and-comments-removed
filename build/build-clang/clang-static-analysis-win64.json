@@ -161,12 +161,9 @@ cl
 exe
 "
 "
-ml
+patches
 "
 :
-"
-ml64
-.
-exe
-"
+{
+}
 }

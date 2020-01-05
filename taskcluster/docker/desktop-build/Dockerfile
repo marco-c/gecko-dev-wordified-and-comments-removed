@@ -676,16 +676,6 @@ y
 bison
 screen
 #
-Install
-libtool
-.
-RUN
-yum
-install
--
-y
-libtool
-#
 Set
 a
 default
