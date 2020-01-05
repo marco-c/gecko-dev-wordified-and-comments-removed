@@ -112,7 +112,7 @@ self
 >
 Color
 {
-compute
+resolve
 (
 self
 rgba
@@ -144,7 +144,7 @@ self
 >
 CSSBorderWidth
 {
-compute
+resolve
 (
 self
 BdrWidthLength
@@ -176,7 +176,7 @@ self
 >
 CSSBorderWidth
 {
-compute
+resolve
 (
 self
 BdrWidthLength
@@ -208,7 +208,7 @@ self
 >
 CSSBorderWidth
 {
-compute
+resolve
 (
 self
 BdrWidthLength
@@ -240,7 +240,7 @@ self
 >
 CSSBorderWidth
 {
-compute
+resolve
 (
 self
 BdrWidthLength
@@ -264,7 +264,7 @@ border_left_width
 }
 }
 fn
-compute
+resolve
 <
 T
 >
