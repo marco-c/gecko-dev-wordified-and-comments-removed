@@ -2567,7 +2567,7 @@ inline_flow
 =
 inline_flow_ref
 .
-as_inline
+as_mut_inline
 (
 )
 ;
@@ -4647,7 +4647,6 @@ ConstructionResult
 :
 Flow
 (
-mut
 flow
 kid_abs_descendants
 )
@@ -6117,7 +6116,6 @@ ConstructionResult
 :
 Flow
 (
-mut
 kid_flow
 _
 )

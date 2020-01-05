@@ -2221,7 +2221,7 @@ block
 =
 flow
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -4688,7 +4688,7 @@ kid_block
 =
 kid
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -8997,7 +8997,7 @@ kid_block
 =
 kid
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -9157,7 +9157,7 @@ is_inline_flow
 {
 kid
 .
-as_inline
+as_mut_inline
 (
 )
 .
@@ -9939,7 +9939,7 @@ FlowClass
 Block
 }
 fn
-as_block
+as_mut_block
 <
 '
 a
@@ -9962,7 +9962,7 @@ BlockFlow
 self
 }
 fn
-as_immutable_block
+as_block
 <
 '
 a

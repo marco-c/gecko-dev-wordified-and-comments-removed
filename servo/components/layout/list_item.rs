@@ -333,7 +333,7 @@ FlowClass
 ListItem
 }
 fn
-as_block
+as_mut_block
 <
 '
 a
@@ -360,7 +360,7 @@ self
 block_flow
 }
 fn
-as_immutable_block
+as_block
 <
 '
 a

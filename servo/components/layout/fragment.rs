@@ -8164,7 +8164,7 @@ info
 .
 flow_ref
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -8219,7 +8219,7 @@ info
 .
 flow_ref
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -8295,7 +8295,7 @@ info
 .
 flow_ref
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -9208,7 +9208,7 @@ info
 .
 flow_ref
 .
-as_immutable_block
+as_block
 (
 )
 ;

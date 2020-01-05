@@ -236,7 +236,7 @@ FlowClass
 TableColGroup
 }
 fn
-as_table_colgroup
+as_mut_table_colgroup
 <
 '
 a

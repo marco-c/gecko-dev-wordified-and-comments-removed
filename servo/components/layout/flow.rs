@@ -339,7 +339,7 @@ self
 FlowClass
 ;
 fn
-as_immutable_block
+as_block
 <
 '
 a
@@ -362,7 +362,7 @@ panic
 (
 "
 called
-as_immutable_block
+as_block
 (
 )
 on
@@ -375,7 +375,7 @@ flow
 )
 }
 fn
-as_block
+as_mut_block
 <
 '
 a
@@ -400,7 +400,7 @@ debug
 (
 "
 called
-as_block
+as_mut_block
 (
 )
 on
@@ -425,7 +425,7 @@ panic
 (
 "
 called
-as_block
+as_mut_block
 (
 )
 on
@@ -438,7 +438,7 @@ flow
 )
 }
 fn
-as_immutable_inline
+as_inline
 <
 '
 a
@@ -461,7 +461,7 @@ panic
 (
 "
 called
-as_immutable_inline
+as_inline
 (
 )
 on
@@ -474,7 +474,7 @@ flow
 )
 }
 fn
-as_inline
+as_mut_inline
 <
 '
 a
@@ -499,7 +499,7 @@ panic
 (
 "
 called
-as_inline
+as_mut_inline
 (
 )
 on
@@ -512,7 +512,7 @@ flow
 )
 }
 fn
-as_table_wrapper
+as_mut_table_wrapper
 <
 '
 a
@@ -537,7 +537,7 @@ panic
 (
 "
 called
-as_table_wrapper
+as_mut_table_wrapper
 (
 )
 on
@@ -550,7 +550,7 @@ flow
 )
 }
 fn
-as_immutable_table_wrapper
+as_table_wrapper
 <
 '
 a
@@ -573,7 +573,7 @@ panic
 (
 "
 called
-as_immutable_table_wrapper
+as_table_wrapper
 (
 )
 on
@@ -586,7 +586,7 @@ flow
 )
 }
 fn
-as_table
+as_mut_table
 <
 '
 a
@@ -611,7 +611,7 @@ panic
 (
 "
 called
-as_table
+as_mut_table
 (
 )
 on
@@ -624,7 +624,7 @@ flow
 )
 }
 fn
-as_immutable_table
+as_table
 <
 '
 a
@@ -660,7 +660,7 @@ flow
 )
 }
 fn
-as_table_colgroup
+as_mut_table_colgroup
 <
 '
 a
@@ -685,7 +685,7 @@ panic
 (
 "
 called
-as_table_colgroup
+as_mut_table_colgroup
 (
 )
 on
@@ -698,7 +698,7 @@ flow
 )
 }
 fn
-as_table_rowgroup
+as_mut_table_rowgroup
 <
 '
 a
@@ -723,7 +723,7 @@ panic
 (
 "
 called
-as_table_rowgroup
+as_mut_table_rowgroup
 (
 )
 on
@@ -736,7 +736,7 @@ flow
 )
 }
 fn
-as_immutable_table_rowgroup
+as_table_rowgroup
 <
 '
 a
@@ -772,7 +772,7 @@ flow
 )
 }
 fn
-as_table_row
+as_mut_table_row
 <
 '
 a
@@ -797,7 +797,7 @@ panic
 (
 "
 called
-as_table_row
+as_mut_table_row
 (
 )
 on
@@ -810,7 +810,7 @@ flow
 )
 }
 fn
-as_immutable_table_row
+as_table_row
 <
 '
 a
@@ -846,7 +846,7 @@ flow
 )
 }
 fn
-as_table_caption
+as_mut_table_caption
 <
 '
 a
@@ -871,7 +871,7 @@ panic
 (
 "
 called
-as_table_caption
+as_mut_table_caption
 (
 )
 on
@@ -884,7 +884,7 @@ flow
 )
 }
 fn
-as_table_cell
+as_mut_table_cell
 <
 '
 a
@@ -909,7 +909,7 @@ panic
 (
 "
 called
-as_table_cell
+as_mut_table_cell
 (
 )
 on
@@ -922,7 +922,7 @@ flow
 )
 }
 fn
-as_multicol
+as_mut_multicol
 <
 '
 a
@@ -947,7 +947,7 @@ panic
 (
 "
 called
-as_multicol
+as_mut_multicol
 (
 )
 on
@@ -960,7 +960,7 @@ flow
 )
 }
 fn
-as_immutable_table_cell
+as_table_cell
 <
 '
 a
@@ -4527,7 +4527,7 @@ Block
 >
 c
 .
-as_immutable_block
+as_block
 (
 )
 .
@@ -4543,7 +4543,7 @@ Inline
 >
 c
 .
-as_immutable_inline
+as_inline
 (
 )
 .
@@ -4559,7 +4559,7 @@ Table
 >
 c
 .
-as_immutable_table
+as_table
 (
 )
 .
@@ -4573,10 +4573,9 @@ FlowClass
 TableWrapper
 =
 >
-{
 c
 .
-as_immutable_table_wrapper
+as_table_wrapper
 (
 )
 .
@@ -4584,17 +4583,15 @@ encode
 (
 e
 )
-}
 FlowClass
 :
 :
 TableRowGroup
 =
 >
-{
 c
 .
-as_immutable_table_rowgroup
+as_table_rowgroup
 (
 )
 .
@@ -4602,17 +4599,15 @@ encode
 (
 e
 )
-}
 FlowClass
 :
 :
 TableRow
 =
 >
-{
 c
 .
-as_immutable_table_row
+as_table_row
 (
 )
 .
@@ -4620,17 +4615,15 @@ encode
 (
 e
 )
-}
 FlowClass
 :
 :
 TableCell
 =
 >
-{
 c
 .
-as_immutable_table_cell
+as_table_cell
 (
 )
 .
@@ -4638,7 +4631,6 @@ encode
 (
 e
 )
-}
 _
 =
 >
@@ -7106,7 +7098,7 @@ is_block_like
 {
 flow
 .
-as_immutable_block
+as_block
 (
 )
 .
@@ -7127,7 +7119,7 @@ Some
 (
 flow
 .
-as_immutable_inline
+as_inline
 (
 )
 .

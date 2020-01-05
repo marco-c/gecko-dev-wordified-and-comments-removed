@@ -6401,7 +6401,7 @@ FlowClass
 Inline
 }
 fn
-as_immutable_inline
+as_inline
 <
 '
 a
@@ -6422,7 +6422,7 @@ InlineFlow
 self
 }
 fn
-as_inline
+as_mut_inline
 <
 '
 a
@@ -8068,7 +8068,7 @@ info
 .
 flow_ref
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -8182,7 +8182,7 @@ info
 .
 flow_ref
 .
-as_block
+as_mut_block
 (
 )
 ;
@@ -8257,7 +8257,7 @@ info
 .
 flow_ref
 .
-as_block
+as_mut_block
 (
 )
 ;

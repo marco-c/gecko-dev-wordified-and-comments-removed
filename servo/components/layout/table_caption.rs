@@ -148,7 +148,7 @@ FlowClass
 TableCaption
 }
 fn
-as_table_caption
+as_mut_table_caption
 <
 '
 a
@@ -171,7 +171,7 @@ TableCaptionFlow
 self
 }
 fn
-as_block
+as_mut_block
 <
 '
 a
@@ -198,7 +198,7 @@ self
 block_flow
 }
 fn
-as_immutable_block
+as_block
 (
 &
 self
