@@ -5699,6 +5699,8 @@ js
 jsm
 |
 java
+|
+webidl
 )
 (
 ?
