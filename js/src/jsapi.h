@@ -18892,8 +18892,12 @@ mBytes
 void
 initBytes
 (
-char
-*
+JS
+:
+:
+UniqueChars
+&
+&
 bytes
 )
 {
@@ -18906,6 +18910,10 @@ mBytes
 mBytes
 =
 bytes
+.
+release
+(
+)
 ;
 }
 char

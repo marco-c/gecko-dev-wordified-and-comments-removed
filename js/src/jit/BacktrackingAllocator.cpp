@@ -13901,8 +13901,7 @@ const
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
-char
-*
+UniqueChars
 buf
 =
 JS_smprintf
@@ -13971,7 +13970,10 @@ buf
 =
 JS_sprintf_append
 (
+Move
+(
 buf
+)
 "
 %
 s
@@ -14007,7 +14009,10 @@ buf
 =
 JS_sprintf_append
 (
+Move
+(
 buf
+)
 "
 (
 def
@@ -14037,7 +14042,10 @@ buf
 =
 JS_sprintf_append
 (
+Move
+(
 buf
+)
 "
 %
 s
@@ -14089,10 +14097,7 @@ toString
 )
 ;
 return
-UniqueChars
-(
 buf
-)
 ;
 }
 UniqueChars
@@ -14107,8 +14112,7 @@ const
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
-char
-*
+UniqueChars
 buf
 =
 JS_smprintf
@@ -14147,7 +14151,10 @@ buf
 =
 JS_sprintf_append
 (
+Move
+(
 buf
+)
 "
 %
 s
@@ -14210,10 +14217,7 @@ toString
 )
 ;
 return
-UniqueChars
-(
 buf
-)
 ;
 }
 #

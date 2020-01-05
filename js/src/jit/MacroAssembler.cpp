@@ -9823,8 +9823,10 @@ value
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
-char
-*
+js
+:
+:
+UniqueChars
 line
 =
 JS_sprintf_append
@@ -9860,11 +9862,10 @@ stderr
 s
 "
 line
-)
-;
-js_free
+.
+get
 (
-line
+)
 )
 ;
 }

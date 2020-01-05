@@ -450,6 +450,10 @@ unsigned
 result
 name
 )
+.
+release
+(
+)
 ;
 else
 sz
@@ -468,6 +472,10 @@ format
 unsigned
 )
 result
+)
+.
+release
+(
 )
 ;
 NS_ENSURE_TRUE_VOID
@@ -569,6 +577,10 @@ d
 "
 format
 paramNum
+)
+.
+release
+(
 )
 ;
 NS_ENSURE_TRUE_VOID
@@ -734,6 +746,10 @@ GetNameString
 (
 )
 name
+)
+.
+release
+(
 )
 ;
 }

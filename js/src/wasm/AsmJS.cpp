@@ -11607,14 +11607,11 @@ errorOffset_
 offset
 ;
 errorString_
-.
-reset
-(
+=
 JS_vsmprintf
 (
 fmt
 ap
-)
 )
 ;
 return
@@ -51119,8 +51116,6 @@ PRMJ_USEC_PER_MSEC
 *
 compilationTimeReport
 =
-UniqueChars
-(
 JS_smprintf
 (
 "
@@ -51132,7 +51127,6 @@ in
 dms
 "
 ms
-)
 )
 ;
 if
@@ -51730,8 +51724,6 @@ break
 ;
 }
 return
-UniqueChars
-(
 JS_smprintf
 (
 "
@@ -51746,7 +51738,6 @@ s
 "
 time
 cacheString
-)
 )
 ;
 #

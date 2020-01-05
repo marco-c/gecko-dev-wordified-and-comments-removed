@@ -1107,8 +1107,7 @@ s
 ]
 "
 ;
-char
-*
+UniqueChars
 temp
 ;
 char
@@ -1302,11 +1301,10 @@ aResult
 Assign
 (
 temp
-)
-;
-JS_smprintf_free
+.
+get
 (
-temp
+)
 )
 ;
 return
