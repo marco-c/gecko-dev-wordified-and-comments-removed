@@ -96,6 +96,7 @@ constellation_msg
 ConstellationChan
 NavigationType
 PipelineId
+SubpageId
 }
 ;
 use
@@ -183,6 +184,12 @@ Pipeline
 id
 :
 PipelineId
+subpage_id
+:
+Option
+<
+SubpageId
+>
 script_chan
 :
 ScriptChan
@@ -215,6 +222,12 @@ with_script
 id
 :
 PipelineId
+subpage_id
+:
+Option
+<
+SubpageId
+>
 constellation_chan
 :
 ConstellationChan
@@ -370,6 +383,7 @@ Pipeline
 new
 (
 id
+subpage_id
 script_pipeline
 .
 script_chan
@@ -388,6 +402,12 @@ create
 id
 :
 PipelineId
+subpage_id
+:
+Option
+<
+SubpageId
+>
 constellation_chan
 :
 ConstellationChan
@@ -543,6 +563,7 @@ Pipeline
 new
 (
 id
+subpage_id
 script_chan
 layout_chan
 render_chan
@@ -555,6 +576,12 @@ new
 id
 :
 PipelineId
+subpage_id
+:
+Option
+<
+SubpageId
+>
 script_chan
 :
 ScriptChan
@@ -574,6 +601,9 @@ Pipeline
 id
 :
 id
+subpage_id
+:
+subpage_id
 script_chan
 :
 script_chan
