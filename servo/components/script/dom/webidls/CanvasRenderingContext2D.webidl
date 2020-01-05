@@ -489,8 +489,6 @@ repetition
 /
 /
 shadows
-/
-/
 attribute
 unrestricted
 double
@@ -502,8 +500,6 @@ shadowOffsetX
 default
 0
 )
-/
-/
 attribute
 unrestricted
 double
@@ -515,8 +511,6 @@ shadowOffsetY
 default
 0
 )
-/
-/
 attribute
 unrestricted
 double
@@ -528,8 +522,6 @@ shadowBlur
 default
 0
 )
-/
-/
 attribute
 DOMString
 shadowColor
