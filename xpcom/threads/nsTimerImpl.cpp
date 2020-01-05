@@ -1171,16 +1171,13 @@ gThread
 RemoveTimer
 (
 this
+true
 )
 ;
 }
 +
 +
 mGeneration
-;
-mEventTarget
-=
-nullptr
 ;
 }
 NS_IMETHODIMP
