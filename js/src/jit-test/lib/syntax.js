@@ -10269,6 +10269,10 @@ yield
 "
 )
 ;
+enableForEach
+(
+)
+;
 test
 (
 "
@@ -10450,6 +10454,10 @@ in
 y
 )
 "
+)
+;
+disableForEach
+(
 )
 ;
 test
