@@ -1766,11 +1766,7 @@ if
 aForceAboutBlankViewerInCurrent
 )
 {
-w
-.
-gBrowser
-.
-selectedBrowser
+aCurrentBrowser
 .
 createAboutBlankContentViewer
 (
