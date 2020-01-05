@@ -5666,7 +5666,13 @@ device_pixels_per_px
 )
 =
 >
+ScaleFactor
+:
+:
+new
+(
 device_pixels_per_px
+)
 None
 =
 >
