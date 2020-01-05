@@ -202,7 +202,7 @@ global
 {
 GlobalField
 GlobalRef
-WorkerField
+WorkerRoot
 }
 ;
 use
@@ -5246,8 +5246,12 @@ match
 self
 .
 global
+.
+root
+(
+)
 {
-WorkerField
+WorkerRoot
 (
 _
 )
