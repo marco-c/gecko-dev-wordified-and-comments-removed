@@ -2509,7 +2509,7 @@ isSystemPrincipal
 *
 *
 If
-nsSystemPrincipal
+SystemPrincipal
 is
 too
 risky

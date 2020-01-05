@@ -1,9 +1,9 @@
 #
 ifndef
-nsSystemPrincipal_h__
+SystemPrincipal_h
 #
 define
-nsSystemPrincipal_h__
+SystemPrincipal_h
 #
 include
 "
@@ -60,7 +60,7 @@ systemprincipal
 1
 "
 class
-nsSystemPrincipal
+SystemPrincipal
 final
 :
 public
@@ -69,7 +69,7 @@ mozilla
 :
 BasePrincipal
 {
-nsSystemPrincipal
+SystemPrincipal
 (
 )
 :
@@ -84,7 +84,7 @@ public
 static
 already_AddRefed
 <
-nsSystemPrincipal
+SystemPrincipal
 >
 Create
 (
@@ -237,7 +237,7 @@ protected
 :
 virtual
 ~
-nsSystemPrincipal
+SystemPrincipal
 (
 void
 )

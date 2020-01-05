@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsSystemPrincipal
+SystemPrincipal
 .
 h
 "
@@ -5580,11 +5580,11 @@ rv
 ;
 RefPtr
 <
-nsSystemPrincipal
+SystemPrincipal
 >
 system
 =
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 Create
@@ -5813,7 +5813,7 @@ gScriptSecMan
 ssManager
 ;
 }
-nsSystemPrincipal
+SystemPrincipal
 *
 nsScriptSecurityManager
 :
@@ -5845,7 +5845,7 @@ mSystemPrincipal
 return
 static_cast
 <
-nsSystemPrincipal
+SystemPrincipal
 *
 >
 (

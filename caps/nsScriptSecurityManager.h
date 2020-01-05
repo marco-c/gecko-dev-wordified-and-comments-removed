@@ -95,7 +95,7 @@ class
 nsIStringBundle
 ;
 class
-nsSystemPrincipal
+SystemPrincipal
 ;
 namespace
 mozilla
@@ -162,7 +162,7 @@ InitStatics
 )
 ;
 static
-nsSystemPrincipal
+SystemPrincipal
 *
 SystemPrincipalSingletonConstructor
 (
