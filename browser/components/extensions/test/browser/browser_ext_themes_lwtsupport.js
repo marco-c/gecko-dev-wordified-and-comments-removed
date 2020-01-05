@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-kBackground
+BACKGROUND
 =
 "
 data
@@ -25,7 +25,7 @@ w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg
 "
 ;
 const
-kAccentColor
+ACCENT_COLOR
 =
 "
 #
@@ -33,7 +33,7 @@ a14040
 "
 ;
 const
-kTextColor
+TEXT_COLOR
 =
 "
 #
@@ -137,7 +137,7 @@ add_task
 (
 function
 *
-testSupportLWTProperties
+test_support_LWT_properties
 (
 )
 {
@@ -166,7 +166,7 @@ images
 headerURL
 "
 :
-kBackground
+BACKGROUND
 }
 "
 colors
@@ -177,12 +177,12 @@ colors
 accentcolor
 "
 :
-kAccentColor
+ACCENT_COLOR
 "
 textcolor
 "
 :
-kTextColor
+TEXT_COLOR
 }
 }
 }
@@ -275,7 +275,7 @@ url
 "
 '
 +
-kBackground
+BACKGROUND
 .
 replace
 (
@@ -315,7 +315,7 @@ rgb
 +
 hexToRGB
 (
-kAccentColor
+ACCENT_COLOR
 )
 .
 join
@@ -349,7 +349,7 @@ rgb
 +
 hexToRGB
 (
-kTextColor
+TEXT_COLOR
 )
 .
 join
@@ -406,7 +406,7 @@ add_task
 (
 function
 *
-testLWTRequiresAllPropertiesDefinedImageOnly
+test_LWT_requires_all_properties_defined_image_only
 (
 )
 {
@@ -435,7 +435,7 @@ images
 headerURL
 "
 :
-kBackground
+BACKGROUND
 }
 }
 }
@@ -518,7 +518,7 @@ add_task
 (
 function
 *
-testLWTRequiresAllPropertiesDefinedColorsOnly
+test_LWT_requires_all_properties_defined_colors_only
 (
 )
 {
@@ -547,12 +547,12 @@ colors
 accentcolor
 "
 :
-kAccentColor
+ACCENT_COLOR
 "
 textcolor
 "
 :
-kTextColor
+TEXT_COLOR
 }
 }
 }
