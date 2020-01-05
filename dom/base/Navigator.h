@@ -655,6 +655,11 @@ HardwareConcurrency
 )
 ;
 bool
+CpuHasSSE2
+(
+)
+;
+bool
 TaintEnabled
 (
 )
