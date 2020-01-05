@@ -711,7 +711,6 @@ str
 :
 {
 DOMString
-null_str_as_empty_ref
 split_html_space_chars
 }
 ;
@@ -3753,11 +3752,7 @@ Namespace
 :
 from_str
 (
-null_str_as_empty_ref
-(
-&
 namespace
-)
 )
 ;
 match
