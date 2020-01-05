@@ -1322,7 +1322,9 @@ gRefreshTimers
 datasetId
 ]
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
