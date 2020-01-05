@@ -663,6 +663,14 @@ mWindows
 {
 if
 (
+outerWindow
+-
+>
+GetDocShell
+(
+)
+&
+&
 !
 outerWindow
 -
