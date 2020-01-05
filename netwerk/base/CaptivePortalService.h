@@ -101,6 +101,13 @@ Stop
 (
 )
 ;
+void
+SetStateInChild
+(
+int32_t
+aState
+)
+;
 private
 :
 virtual

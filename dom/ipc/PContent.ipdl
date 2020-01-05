@@ -2190,6 +2190,13 @@ connectivity
 )
 ;
 async
+SetCaptivePortalState
+(
+int32_t
+aState
+)
+;
+async
 NotifyVisited
 (
 URIParams
@@ -3238,6 +3245,8 @@ bool
 isOffline
 bool
 isConnected
+int32_t
+captivePortalState
 bool
 isLangRTL
 bool
