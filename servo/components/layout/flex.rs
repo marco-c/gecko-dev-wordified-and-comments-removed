@@ -185,10 +185,7 @@ style
 context
 :
 :
-{
 SharedStyleContext
-StyleContext
-}
 ;
 use
 style
