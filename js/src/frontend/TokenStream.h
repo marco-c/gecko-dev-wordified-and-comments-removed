@@ -1227,8 +1227,8 @@ errorNumber
 .
 )
 ;
-bool
-reportWarning
+void
+error
 (
 unsigned
 errorNumber
@@ -1237,8 +1237,9 @@ errorNumber
 .
 )
 ;
-void
-error
+MOZ_MUST_USE
+bool
+warning
 (
 unsigned
 errorNumber

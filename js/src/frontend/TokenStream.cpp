@@ -3449,7 +3449,7 @@ bool
 TokenStream
 :
 :
-reportWarning
+warning
 (
 unsigned
 errorNumber
@@ -4266,10 +4266,12 @@ directive
 if
 (
 shouldWarnDeprecated
-&
-&
+)
+{
+if
+(
 !
-reportWarning
+warning
 (
 JSMSG_DEPRECATED_PRAGMA
 errorMsgPragma
@@ -4278,6 +4280,7 @@ errorMsgPragma
 return
 false
 ;
+}
 skipChars
 (
 directiveLength
@@ -6899,7 +6902,7 @@ c
 if
 (
 !
-reportWarning
+warning
 (
 JSMSG_BAD_OCTAL
 c
@@ -6918,11 +6921,9 @@ c
 "
 )
 )
-{
 goto
 error
 ;
-}
 goto
 decimal
 ;
