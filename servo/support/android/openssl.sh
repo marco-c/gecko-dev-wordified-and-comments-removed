@@ -448,9 +448,7 @@ android
 _ANDROID_API
 =
 "
-android
--
-18
+ANDROID_PLATFORM
 "
 #
 _ANDROID_API

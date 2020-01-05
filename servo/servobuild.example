@@ -408,6 +408,7 @@ of
 ANDROID_SDK
 ANDROID_NDK
 ANDROID_TOOLCHAIN
+ANDROID_PLATFORM
 respectively
 #
 sdk
@@ -441,6 +442,14 @@ opt
 android
 -
 toolchain
+"
+#
+platform
+=
+"
+android
+-
+18
 "
 #
 Gonk
