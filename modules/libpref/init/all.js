@@ -26364,7 +26364,6 @@ DejaVu
 Serif
 DejaVu
 Sans
-Symbol
 Times
 New
 Roman
