@@ -112,9 +112,6 @@ nsIAtom
 *
 GetLocaleLanguage
 (
-nsresult
-*
-aError
 )
 override
 ;
