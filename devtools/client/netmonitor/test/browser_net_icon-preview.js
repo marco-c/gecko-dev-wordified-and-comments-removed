@@ -72,12 +72,6 @@ RequestsMenu
 =
 NetMonitorView
 ;
-RequestsMenu
-.
-lazyUpdate
-=
-false
-;
 let
 wait
 =
