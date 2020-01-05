@@ -518,6 +518,8 @@ debugging
 fn
 dump
 (
+&
+self
 )
 {
 self
@@ -544,6 +546,8 @@ indentation
 fn
 dump_indent
 (
+&
+self
 indent
 :
 uint
@@ -602,6 +606,7 @@ NodeTree
 .
 each_child
 (
+*
 self
 )
 |
@@ -621,6 +626,8 @@ indent
 fn
 debug_str
 (
+&
+self
 )
 -
 >

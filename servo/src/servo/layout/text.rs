@@ -163,11 +163,10 @@ d
 =
 match
 self
-.
-kind
 {
 TextBox
 (
+_
 d
 )
 =
@@ -451,7 +450,9 @@ current
 ;
 self
 .
-data
+d
+(
+)
 .
 position
 .
