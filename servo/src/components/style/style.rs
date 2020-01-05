@@ -139,6 +139,7 @@ stylesheets
 Stylesheet
 CSSRule
 StyleRule
+CSSFontFaceRule
 }
 ;
 pub
@@ -288,6 +289,19 @@ MediaType
 MediaQueryType
 }
 ;
+pub
+use
+font_face
+:
+:
+{
+FontFaceFormat
+FontFaceRule
+FontFaceSource
+FontFaceSourceLine
+TtfFormat
+}
+;
 mod
 stylesheets
 ;
@@ -314,4 +328,7 @@ media_queries
 ;
 mod
 parsing_utils
+;
+mod
+font_face
 ;
