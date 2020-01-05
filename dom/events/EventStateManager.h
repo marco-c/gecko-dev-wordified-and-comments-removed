@@ -1967,9 +1967,8 @@ mLockCursor
 bool
 mLastFrameConsumedSetCursor
 ;
-static
 LayoutDeviceIntPoint
-sPreLockPoint
+mPreLockPoint
 ;
 static
 LayoutDeviceIntPoint
@@ -2194,7 +2193,6 @@ FireContextClick
 (
 )
 ;
-static
 void
 SetPointerLock
 (
