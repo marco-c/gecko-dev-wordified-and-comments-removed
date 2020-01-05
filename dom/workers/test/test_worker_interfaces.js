@@ -224,6 +224,9 @@ DOMStringList
 Event
 "
 "
+EventSource
+"
+"
 EventTarget
 "
 "
