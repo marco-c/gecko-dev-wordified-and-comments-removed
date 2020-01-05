@@ -217,13 +217,6 @@ virtualenv_config_options
 "
 -
 -
-venv
--
-path
-"
-"
--
--
 virtualenv
 -
 path
