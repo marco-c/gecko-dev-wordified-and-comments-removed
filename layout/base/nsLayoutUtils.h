@@ -2644,6 +2644,9 @@ BAIL_IF_REFLOW_NEEDED
 MIN_INTRINSIC_ISIZE
 =
 0x04
+ADD_PERCENTS
+=
+0x08
 }
 ;
 static
@@ -2714,8 +2717,6 @@ static
 nscoord
 AddPercents
 (
-IntrinsicISizeType
-aType
 nscoord
 aCurrent
 float
@@ -2729,15 +2730,6 @@ aPercent
 0
 .
 0f
-&
-&
-aType
-=
-=
-nsLayoutUtils
-:
-:
-PREF_ISIZE
 )
 {
 return
