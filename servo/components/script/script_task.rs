@@ -7055,9 +7055,6 @@ id
 =
 >
 {
-let
-_
-=
 self
 .
 script_task
@@ -7069,6 +7066,10 @@ root_page
 remove
 (
 id
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -9927,6 +9928,10 @@ sender
 send
 (
 marker
+)
+.
+unwrap
+(
 )
 ;
 }

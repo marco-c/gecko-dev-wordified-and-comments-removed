@@ -102,7 +102,6 @@ mpsc
 channel
 Sender
 Receiver
-TryRecvError
 }
 ;
 use
@@ -900,7 +899,7 @@ marker
 }
 Err
 (
-TryRecvError
+_
 )
 =
 >
@@ -1088,6 +1087,10 @@ clone
 )
 tx
 )
+)
+.
+unwrap
+(
 )
 ;
 *
@@ -1351,6 +1354,10 @@ clone
 (
 )
 )
+)
+.
+unwrap
+(
 )
 ;
 if
