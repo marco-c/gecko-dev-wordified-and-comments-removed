@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-CSSStyleSheet
+StyleSheetInlines
 .
 h
 "
@@ -19,15 +19,6 @@ include
 mozilla
 /
 ServoStyleSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoStyleSheet
 .
 h
 "
