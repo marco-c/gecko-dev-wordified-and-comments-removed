@@ -8332,13 +8332,6 @@ clone
 None
 =
 >
-format
-!
-(
-"
-{
-}
-"
 time
 :
 :
@@ -8371,6 +8364,9 @@ S
 unwrap
 (
 )
+.
+to_string
+(
 )
 }
 }

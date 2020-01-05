@@ -1440,14 +1440,10 @@ f
 {
 args_fail
 (
-format
-!
-(
-"
-{
-}
-"
 f
+.
+to_string
+(
 )
 .
 as_slice
