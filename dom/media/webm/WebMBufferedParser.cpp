@@ -2390,7 +2390,7 @@ bytes
 aResource
 -
 >
-MediaReadAt
+CachedReadAt
 (
 offset
 block
