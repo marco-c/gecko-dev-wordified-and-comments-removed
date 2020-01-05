@@ -427,7 +427,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -913,9 +913,9 @@ version
 "
 0
 .
-13
+14
 .
-1
+0
 "
 source
 =
@@ -1582,6 +1582,48 @@ version
 3
 .
 3
+"
+source
+=
+"
+registry
++
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+crates
+.
+io
+-
+index
+"
+[
+[
+package
+]
+]
+name
+=
+"
+bitflags
+"
+version
+=
+"
+0
+.
+4
+.
+0
 "
 source
 =
@@ -2716,7 +2758,7 @@ rust
 -
 clipboard
 #
-241deb1b5b800f91f4e0cd59789b9353ffda2d51
+241c3f0fc5843db861bc0b44d682bf501e651e9b
 "
 dependencies
 =
@@ -2986,7 +3028,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -4021,7 +4063,7 @@ openssl
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -5763,7 +5805,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -6831,7 +6873,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -7548,7 +7590,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -7712,7 +7754,7 @@ servo
 /
 gaol
 #
-f1da35779bd3f9d4c0da7dad9c24c22dbf600c48
+5cfbd4d148210d22f945f8809ac45c6795e14aaf
 "
 dependencies
 =
@@ -7887,7 +7929,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -7964,7 +8006,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -11160,7 +11202,7 @@ openssl
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -12750,7 +12792,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -13844,7 +13886,7 @@ selectors
 .
 5
 .
-1
+2
 (
 registry
 +
@@ -14702,7 +14744,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -15481,7 +15523,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -16634,7 +16676,7 @@ openssl
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -17015,7 +17057,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -17651,7 +17693,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -18346,7 +18388,7 @@ version
 .
 7
 .
-6
+8
 "
 source
 =
@@ -18378,9 +18420,9 @@ dependencies
 bitflags
 0
 .
-3
+4
 .
-3
+0
 (
 registry
 +
@@ -18498,7 +18540,7 @@ sys
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -18531,7 +18573,7 @@ extras
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -18574,7 +18616,7 @@ version
 .
 7
 .
-6
+8
 "
 source
 =
@@ -18779,7 +18821,7 @@ version
 .
 7
 .
-6
+8
 "
 source
 =
@@ -18873,7 +18915,7 @@ sys
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -19504,7 +19546,7 @@ tenacious
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -20216,7 +20258,7 @@ version
 "
 0
 .
-7
+8
 .
 0
 "
@@ -20258,7 +20300,7 @@ version
 "
 0
 .
-7
+8
 .
 0
 "
@@ -20292,9 +20334,9 @@ dependencies
 aster
 0
 .
-13
+14
 .
-1
+0
 (
 registry
 +
@@ -20333,7 +20375,7 @@ version
 "
 0
 .
-7
+8
 .
 0
 "
@@ -20367,7 +20409,7 @@ dependencies
 quasi_codegen
 0
 .
-7
+8
 .
 0
 (
@@ -20608,7 +20650,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -22302,7 +22344,7 @@ selectors
 .
 5
 .
-1
+2
 (
 registry
 +
@@ -23026,7 +23068,7 @@ version
 .
 5
 .
-1
+2
 "
 source
 =
@@ -23417,7 +23459,7 @@ version
 .
 7
 .
-0
+1
 "
 source
 =
@@ -23449,9 +23491,9 @@ dependencies
 aster
 0
 .
-13
+14
 .
-1
+0
 (
 registry
 +
@@ -23478,7 +23520,7 @@ index
 quasi
 0
 .
-7
+8
 .
 0
 (
@@ -23507,7 +23549,7 @@ index
 quasi_macros
 0
 .
-7
+8
 .
 0
 (
@@ -23688,7 +23730,7 @@ serde_codegen
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -25313,7 +25355,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -25935,7 +25977,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -26838,7 +26880,7 @@ selectors
 .
 5
 .
-1
+2
 (
 registry
 +
@@ -27322,7 +27364,7 @@ selectors
 .
 5
 .
-1
+2
 (
 registry
 +
@@ -27708,7 +27750,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -27749,7 +27791,7 @@ version
 .
 1
 .
-0
+1
 "
 source
 =
@@ -28091,7 +28133,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -28882,7 +28924,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -29585,7 +29627,7 @@ selectors
 .
 5
 .
-1
+2
 (
 registry
 +
@@ -31555,7 +31597,7 @@ openssl
 .
 7
 .
-6
+8
 (
 registry
 +
@@ -31714,7 +31756,7 @@ version
 .
 2
 .
-5
+6
 "
 source
 =
@@ -31836,7 +31878,7 @@ winapi
 .
 2
 .
-5
+6
 (
 registry
 +
