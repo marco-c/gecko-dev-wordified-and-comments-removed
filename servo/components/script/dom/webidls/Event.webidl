@@ -264,6 +264,9 @@ attribute
 boolean
 defaultPrevented
 ;
+[
+Unforgeable
+]
 readonly
 attribute
 boolean
