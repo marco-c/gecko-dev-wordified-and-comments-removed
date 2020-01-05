@@ -15604,17 +15604,6 @@ matrix
 ;
 if
 (
-gradientPattern
--
->
-CairoStatus
-(
-)
-)
-return
-;
-if
-(
 stopDelta
 =
 =

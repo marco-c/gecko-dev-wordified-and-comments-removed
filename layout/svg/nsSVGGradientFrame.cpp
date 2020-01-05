@@ -1190,14 +1190,6 @@ if
 (
 !
 gradient
-|
-|
-gradient
--
->
-CairoStatus
-(
-)
 )
 return
 nullptr
