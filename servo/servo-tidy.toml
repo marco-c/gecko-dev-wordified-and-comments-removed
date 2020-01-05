@@ -86,9 +86,6 @@ lazy_static
 semver
 "
 "
-rayon
-"
-"
 libloading
 "
 ]
