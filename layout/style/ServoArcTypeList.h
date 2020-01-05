@@ -43,3 +43,8 @@ SERVO_ARC_TYPE
 MediaRule
 RawServoMediaRule
 )
+SERVO_ARC_TYPE
+(
+NamespaceRule
+RawServoNamespaceRule
+)
