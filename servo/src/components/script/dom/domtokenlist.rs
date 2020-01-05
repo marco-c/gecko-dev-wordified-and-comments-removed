@@ -167,10 +167,6 @@ JS
 from_rooted
 (
 element
-.
-clone
-(
-)
 )
 local_name
 :

@@ -129,10 +129,12 @@ Cell
 :
 new
 (
-window
-.
-unrooted
+JS
+:
+:
+from_rooted
 (
+window
 )
 )
 state

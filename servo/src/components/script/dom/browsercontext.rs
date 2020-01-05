@@ -519,10 +519,12 @@ SessionHistoryEntry
 {
 document
 :
-document
-.
-unrooted
+JS
+:
+:
+from_rooted
 (
+document
 )
 children
 :

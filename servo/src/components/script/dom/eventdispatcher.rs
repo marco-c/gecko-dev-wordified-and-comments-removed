@@ -40,6 +40,7 @@ js
 :
 :
 {
+JS
 JSRef
 OptionalSettable
 OptionalRootable
@@ -285,10 +286,12 @@ from_ref
 ancestor
 )
 ;
-ancestor_target
-.
-unrooted
+JS
+:
+:
+from_rooted
 (
+ancestor_target
 )
 .
 root
