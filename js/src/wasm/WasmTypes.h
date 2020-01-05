@@ -4192,6 +4192,7 @@ Symbolic
 TrapExit
 EnterFrame
 LeaveFrame
+Breakpoint
 }
 ;
 CallSiteDesc
