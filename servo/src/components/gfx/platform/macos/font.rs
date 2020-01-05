@@ -908,7 +908,6 @@ fn
 glyph_h_advance
 (
 &
-mut
 self
 glyph
 :
