@@ -903,6 +903,10 @@ attribute
 EventHandler
 oniceconnectionstatechange
 ;
+attribute
+EventHandler
+onicegatheringstatechange
+;
 Promise
 <
 RTCStatsReport
