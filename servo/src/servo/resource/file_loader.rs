@@ -55,7 +55,6 @@ pub
 fn
 factory
 (
-+
 url
 :
 Url

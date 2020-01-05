@@ -47,15 +47,12 @@ Stylesheet
 fn
 Document
 (
-+
 root
 :
 Node
-+
 scope
 :
 NodeScope
-+
 css_rules
 :
 Stylesheet

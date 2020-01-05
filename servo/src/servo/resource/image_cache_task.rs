@@ -554,7 +554,6 @@ ImageCacheTask_
 resource_task
 :
 ResourceTask
-+
 decoder_factory
 :
 DecoderFactory
@@ -1207,7 +1206,6 @@ priv
 fn
 get_state
 (
-+
 url
 :
 Url
@@ -1243,7 +1241,6 @@ priv
 fn
 set_state
 (
-+
 url
 :
 Url
@@ -1267,7 +1264,6 @@ priv
 fn
 prefetch
 (
-+
 url
 :
 Url
@@ -1477,7 +1473,6 @@ priv
 fn
 store_prefetched_image_data
 (
-+
 url
 :
 Url
@@ -1632,7 +1627,6 @@ priv
 fn
 decode
 (
-+
 url
 :
 Url
@@ -1913,7 +1907,6 @@ priv
 fn
 store_image
 (
-+
 url
 :
 Url
@@ -2050,7 +2043,6 @@ priv
 fn
 purge_waiters
 (
-+
 url
 :
 Url
@@ -2121,7 +2113,6 @@ priv
 fn
 get_image
 (
-+
 url
 :
 Url
@@ -2239,7 +2230,6 @@ priv
 fn
 wait_for_image
 (
-+
 url
 :
 Url
@@ -2450,7 +2440,6 @@ recv
 fn
 load_image_data
 (
-+
 url
 :
 Url
@@ -2632,7 +2621,6 @@ test
 fn
 mock_resource_task
 (
-+
 on_load
 :
 ~

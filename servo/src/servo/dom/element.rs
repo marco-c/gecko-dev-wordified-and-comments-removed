@@ -134,7 +134,6 @@ name
 :
 &
 str
-+
 value
 :
 ~
@@ -200,12 +199,10 @@ None
 fn
 ElementData
 (
-+
 tag_name
 :
 ~
 str
-+
 kind
 :
 ~
@@ -245,12 +242,10 @@ str
 fn
 Attr
 (
-+
 name
 :
 ~
 str
-+
 value
 :
 ~

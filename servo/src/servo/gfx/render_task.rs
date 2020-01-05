@@ -275,7 +275,6 @@ Compositor
 Send
 >
 (
-+
 compositor
 :
 C
@@ -770,7 +769,6 @@ Rect
 <
 au
 >
-+
 image
 :
 ARC

@@ -299,7 +299,6 @@ po
 fn
 mainloop
 (
-+
 mode
 :
 Mode
@@ -1037,7 +1036,6 @@ Compositor
 fn
 begin_drawing
 (
-+
 next_dt
 :
 pipes
@@ -1062,7 +1060,6 @@ next_dt
 fn
 draw
 (
-+
 next_dt
 :
 pipes
@@ -1072,7 +1069,6 @@ Chan
 <
 DrawTarget
 >
-+
 draw_me
 :
 DrawTarget
@@ -1134,7 +1130,6 @@ surfaces
 :
 &
 SurfaceSet
-+
 receiver
 :
 pipes
@@ -1268,7 +1263,6 @@ surfaces
 :
 &
 SurfaceSet
-+
 draw_target
 :
 DrawTarget
@@ -1453,13 +1447,11 @@ T
 Send
 >
 (
-+
 f
 :
 fn
 ~
 (
-+
 po
 :
 comm

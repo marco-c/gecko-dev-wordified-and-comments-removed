@@ -451,7 +451,6 @@ Exit
 fn
 run_pipeline_png
 (
-+
 url
 :
 ~

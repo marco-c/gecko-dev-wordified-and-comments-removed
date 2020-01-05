@@ -716,12 +716,10 @@ bool
 fn
 DoctypeData
 (
-+
 name
 :
 ~
 str
-+
 public_id
 :
 Option
@@ -729,7 +727,6 @@ Option
 ~
 str
 >
-+
 system_id
 :
 Option
@@ -911,7 +908,6 @@ NodeScopeExtensions
 fn
 new_node
 (
-+
 k
 :
 NodeKind
@@ -1088,11 +1084,9 @@ Node
 fn
 add_child
 (
-+
 node
 :
 Node
-+
 child
 :
 Node

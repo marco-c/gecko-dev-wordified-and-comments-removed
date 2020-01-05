@@ -1355,13 +1355,12 @@ new_node_from_attr
 (
 scope
 :
+&
 NodeScope
-+
 name
 :
 ~
 str
-+
 val
 :
 ~
@@ -1442,6 +1441,7 @@ node
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1511,6 +1511,7 @@ node
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1578,6 +1579,7 @@ node
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1646,6 +1648,7 @@ node
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1715,6 +1718,7 @@ node
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1811,6 +1815,7 @@ node1
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1829,6 +1834,7 @@ node2
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1907,6 +1913,7 @@ root
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1923,6 +1930,7 @@ child1
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1939,6 +1947,7 @@ child2
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1955,6 +1964,7 @@ gchild
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1971,6 +1981,7 @@ ggchild
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "
@@ -1987,6 +1998,7 @@ gggchild
 =
 new_node_from_attr
 (
+&
 scope
 ~
 "

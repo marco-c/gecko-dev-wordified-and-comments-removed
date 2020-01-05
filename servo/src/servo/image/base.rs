@@ -62,7 +62,6 @@ uint
 depth
 :
 uint
-+
 data
 :
 ~

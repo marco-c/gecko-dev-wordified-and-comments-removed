@@ -120,12 +120,10 @@ non_implicitly_copyable_typarams
 fn
 make_url
 (
-+
 str_url
 :
 ~
 str
-+
 current_url
 :
 Option

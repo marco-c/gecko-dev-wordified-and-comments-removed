@@ -195,7 +195,6 @@ pure
 fn
 from_int
 (
-+
 n
 :
 int
@@ -431,19 +430,15 @@ Copy
 Num
 >
 (
-+
 x
 :
 A
-+
 y
 :
 A
-+
 w
 :
 A
-+
 h
 :
 A

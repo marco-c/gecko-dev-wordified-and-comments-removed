@@ -371,7 +371,6 @@ Copy
 layout_task
 :
 LayoutTask
-+
 compositor
 :
 S
@@ -728,7 +727,6 @@ on
 fn
 handle_msg
 (
-+
 msg
 :
 Either
@@ -776,7 +774,6 @@ event
 fn
 handle_control_msg
 (
-+
 control_msg
 :
 ControlMsg
