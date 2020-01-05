@@ -2700,8 +2700,15 @@ deduplicated
 Vec
 :
 :
-new
+with_capacity
 (
+block
+.
+declarations
+.
+len
+(
+)
 )
 ;
 let
