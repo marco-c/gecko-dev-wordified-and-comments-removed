@@ -172,8 +172,6 @@ terminate
 (
 )
 ;
-/
-/
 void
 postMessage
 (
@@ -189,13 +187,6 @@ Transferable
 transfer
 *
 /
-)
-;
-void
-postMessage
-(
-DOMString
-message
 )
 ;
 attribute
