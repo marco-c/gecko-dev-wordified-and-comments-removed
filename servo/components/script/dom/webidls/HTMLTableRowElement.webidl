@@ -114,8 +114,6 @@ HTMLTableRowElement
 :
 HTMLElement
 {
-/
-/
 readonly
 attribute
 long
