@@ -48,6 +48,12 @@ bindgen
 :
 *
 ;
+import
+libc
+:
+:
+size_t
+;
 enum
 msg
 {
@@ -1161,6 +1167,8 @@ fontbin
 len
 (
 )
+as
+size_t
 ptr
 :
 :
