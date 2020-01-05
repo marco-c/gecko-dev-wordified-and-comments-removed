@@ -417,7 +417,7 @@ tile_size_str
 )
 =
 >
-from_str
+uint
 :
 :
 from_str
@@ -460,7 +460,7 @@ n_render_threads_str
 )
 =
 >
-from_str
+uint
 :
 :
 from_str

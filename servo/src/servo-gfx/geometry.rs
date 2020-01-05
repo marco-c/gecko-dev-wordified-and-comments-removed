@@ -29,10 +29,7 @@ use
 num
 :
 :
-{
 Num
-from_int
-}
 ;
 pub
 enum
@@ -549,6 +546,9 @@ int
 >
 Au
 {
+Num
+:
+:
 from_int
 (
 i
@@ -933,6 +933,9 @@ int
 >
 Au
 {
+Num
+:
+:
 from_int
 (
 i

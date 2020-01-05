@@ -3,6 +3,9 @@ mod
 freetype
 ;
 use
+freetype_impl
+:
+:
 font_context
 :
 :
@@ -53,6 +56,9 @@ fixed_to_float
 }
 ;
 use
+self
+:
+:
 freetype
 :
 :
@@ -76,6 +82,9 @@ FT_Size_Metrics
 }
 ;
 use
+self
+:
+:
 freetype
 :
 :

@@ -2,7 +2,7 @@ export
 factory
 ;
 use
-comm
+oldcomm
 :
 :
 Chan

@@ -95,7 +95,7 @@ ResourceTask
 )
 -
 >
-comm
+oldcomm
 :
 :
 Port
@@ -106,7 +106,7 @@ Stylesheet
 let
 result_port
 =
-comm
+oldcomm
 :
 :
 Port
@@ -116,7 +116,7 @@ Port
 let
 result_chan
 =
-comm
+oldcomm
 :
 :
 Chan
@@ -293,7 +293,7 @@ resource_port_to_data_stream
 (
 input_port
 :
-comm
+oldcomm
 :
 :
 Port

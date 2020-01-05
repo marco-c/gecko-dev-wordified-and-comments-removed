@@ -3,6 +3,9 @@ mod
 freetype
 ;
 use
+self
+:
+:
 freetype
 :
 :
@@ -16,6 +19,9 @@ FT_Library
 }
 ;
 use
+self
+:
+:
 freetype
 :
 :
@@ -40,7 +46,7 @@ UsedFontStyle
 }
 ;
 use
-gfx_font_context
+font_context
 :
 :
 FontContextHandleMethods

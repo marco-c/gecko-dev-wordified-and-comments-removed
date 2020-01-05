@@ -113,10 +113,19 @@ time
 time
 ;
 use
+util
+:
+:
+task
+:
+:
+spawn_listener
+;
+use
 core
 :
 :
-comm
+oldcomm
 :
 :
 *
@@ -310,7 +319,7 @@ pub
 type
 LayoutTask
 =
-comm
+oldcomm
 :
 :
 Chan
@@ -364,7 +373,7 @@ BuildData
 QueryMsg
 (
 LayoutQuery
-comm
+oldcomm
 :
 :
 Chan
@@ -588,7 +597,7 @@ local_image_cache
 LocalImageCache
 from_content
 :
-comm
+oldcomm
 :
 :
 Port
@@ -633,7 +642,7 @@ image_cache_task
 ImageCacheTask
 from_content
 :
-comm
+oldcomm
 :
 :
 Port
@@ -1472,7 +1481,7 @@ query
 LayoutQuery
 reply_chan
 :
-comm
+oldcomm
 :
 :
 Chan

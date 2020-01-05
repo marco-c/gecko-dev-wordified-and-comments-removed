@@ -71,10 +71,16 @@ core
 task
 :
 :
-{
 spawn
+;
+use
+resource
+:
+:
+util
+:
+:
 spawn_listener
-}
 ;
 use
 core
@@ -2717,7 +2723,7 @@ u8
 let
 response_port
 =
-comm
+oldcomm
 :
 :
 Port
@@ -2888,7 +2894,7 @@ fn
 (
 resource
 :
-comm
+oldcomm
 :
 :
 Chan
@@ -2909,7 +2915,7 @@ spawn_listener
 |
 port
 :
-comm
+oldcomm
 :
 :
 Port
@@ -3105,7 +3111,7 @@ should_request_url_from_resource_task_on_prefetch
 let
 url_requested
 =
-comm
+oldcomm
 :
 :
 Port

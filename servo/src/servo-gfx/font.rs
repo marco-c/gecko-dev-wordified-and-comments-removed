@@ -143,7 +143,7 @@ FontHandle
 /
 &
 =
-freetype
+freetype_impl
 :
 :
 font
@@ -435,7 +435,7 @@ FontHandle
 )
 >
 {
-freetype
+freetype_impl
 :
 :
 font
@@ -613,7 +613,7 @@ FontTable
 /
 &
 =
-freetype
+freetype_impl
 :
 :
 font

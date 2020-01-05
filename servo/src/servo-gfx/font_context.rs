@@ -37,6 +37,9 @@ util
 :
 :
 cache
+:
+:
+Cache
 ;
 use
 util
@@ -250,7 +253,7 @@ FontContextHandle
 /
 &
 =
-freetype
+freetype_impl
 :
 :
 font_context
@@ -381,7 +384,7 @@ new
 >
 FontContextHandle
 {
-freetype
+freetype_impl
 :
 :
 font_context
@@ -400,9 +403,6 @@ struct
 FontContext
 {
 instance_cache
-:
-cache
-:
 :
 MonoCache
 <
@@ -607,7 +607,7 @@ correctly
 .
 instance_cache
 :
-cache
+Cache
 :
 :
 new
