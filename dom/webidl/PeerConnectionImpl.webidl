@@ -677,7 +677,7 @@ unsigned
 short
 type
 boolean
-outOfOrderAllowed
+ordered
 unsigned
 short
 maxTime

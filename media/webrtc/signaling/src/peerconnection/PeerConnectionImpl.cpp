@@ -6605,7 +6605,7 @@ aProtocol
 uint16_t
 aType
 bool
-outOfOrderAllowed
+ordered
 uint16_t
 aMaxTime
 uint16_t
@@ -6639,7 +6639,7 @@ CreateDataChannel
 aLabel
 aProtocol
 aType
-outOfOrderAllowed
+ordered
 aMaxTime
 aMaxNum
 aExternalNegotiated
@@ -6682,7 +6682,7 @@ aProtocol
 uint16_t
 aType
 bool
-outOfOrderAllowed
+ordered
 uint16_t
 aMaxTime
 uint16_t
@@ -6773,8 +6773,7 @@ NS_ConvertUTF16toUTF8
 aProtocol
 )
 theType
-!
-outOfOrderAllowed
+ordered
 aType
 =
 =
