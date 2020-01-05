@@ -8,7 +8,7 @@ const
 ADD_VIEWPORT
 CHANGE_DEVICE
 CHANGE_PIXEL_RATIO
-REMOVE_DEVICE
+REMOVE_DEVICE_ASSOCIATION
 RESIZE_VIEWPORT
 ROTATE_VIEWPORT
 }
@@ -75,7 +75,7 @@ pixelRatio
 }
 ;
 }
-removeDevice
+removeDeviceAssociation
 (
 id
 )
@@ -84,7 +84,7 @@ return
 {
 type
 :
-REMOVE_DEVICE
+REMOVE_DEVICE_ASSOCIATION
 id
 }
 ;

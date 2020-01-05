@@ -124,7 +124,7 @@ const
 {
 changeDevice
 changePixelRatio
-removeDevice
+removeDeviceAssociation
 resizeViewport
 rotateViewport
 }
@@ -587,7 +587,7 @@ exit
 )
 ;
 }
-onRemoveDevice
+onRemoveDeviceAssociation
 (
 id
 )
@@ -603,6 +603,8 @@ type
 remove
 -
 device
+-
+association
 "
 }
 "
@@ -616,7 +618,7 @@ props
 .
 dispatch
 (
-removeDevice
+removeDeviceAssociation
 (
 id
 )
@@ -775,7 +777,7 @@ onChangeTouchSimulation
 onContentResize
 onDeviceListUpdate
 onExit
-onRemoveDevice
+onRemoveDeviceAssociation
 onResizeViewport
 onRotateViewport
 onScreenshot
@@ -892,7 +894,7 @@ viewports
 onBrowserMounted
 onChangeDevice
 onContentResize
-onRemoveDevice
+onRemoveDeviceAssociation
 onRotateViewport
 onResizeViewport
 onUpdateDeviceModal

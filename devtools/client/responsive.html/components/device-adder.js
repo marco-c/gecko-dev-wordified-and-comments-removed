@@ -468,7 +468,7 @@ normalizedViewport
 .
 height
 }
-onRemoveDevice
+onRemoveDeviceAssociation
 :
 (
 )
