@@ -332,6 +332,9 @@ features
 dind
 :
 true
+chainOfTrust
+:
+true
 image
 :
 '

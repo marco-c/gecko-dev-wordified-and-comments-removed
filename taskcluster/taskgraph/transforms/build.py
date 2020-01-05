@@ -158,6 +158,20 @@ build
 '
 }
 )
+            
+job
+[
+'
+worker
+'
+]
+[
+'
+chainOfTrust
+'
+]
+=
+True
         
 yield
 job
