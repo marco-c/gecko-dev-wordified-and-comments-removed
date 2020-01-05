@@ -12968,7 +12968,7 @@ rc
 devCtx
 -
 >
-CreateRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

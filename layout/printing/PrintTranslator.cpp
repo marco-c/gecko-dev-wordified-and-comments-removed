@@ -87,7 +87,7 @@ context
 mDeviceContext
 -
 >
-CreateRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

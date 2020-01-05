@@ -2880,7 +2880,7 @@ renderingContext
 dc
 -
 >
-CreateRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;
