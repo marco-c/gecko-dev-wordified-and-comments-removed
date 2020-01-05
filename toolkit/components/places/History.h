@@ -203,6 +203,10 @@ InsertPlace
 VisitData
 &
 aVisitData
+bool
+aShouldNotifyFrecencyChanged
+=
+true
 )
 ;
 nsresult

@@ -3870,6 +3870,7 @@ updatePlaces
 (
 places
 options
+true
 )
 ;
 }
