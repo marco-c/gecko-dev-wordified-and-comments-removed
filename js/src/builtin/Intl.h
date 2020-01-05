@@ -133,7 +133,7 @@ hash
 explicit
 Lookup
 (
-JSLinearString
+JSFlatString
 *
 timeZone
 )
