@@ -91,13 +91,13 @@ opened
 )
 ;
 const
-outputWrapper
+outputScroller
 =
 hud
 .
 ui
 .
-outputWrapper
+outputScroller
 ;
 yield
 waitFor
@@ -122,7 +122,7 @@ length
 let
 currentPosition
 =
-outputWrapper
+outputScroller
 .
 scrollTop
 ;
@@ -162,7 +162,7 @@ VK_PAGE_UP
 ;
 isnot
 (
-outputWrapper
+outputScroller
 .
 scrollTop
 currentPosition
@@ -178,7 +178,7 @@ up
 ;
 currentPosition
 =
-outputWrapper
+outputScroller
 .
 scrollTop
 ;
@@ -195,7 +195,7 @@ VK_PAGE_DOWN
 ;
 ok
 (
-outputWrapper
+outputScroller
 .
 scrollTop
 >
@@ -222,7 +222,7 @@ VK_HOME
 ;
 is
 (
-outputWrapper
+outputScroller
 .
 scrollTop
 0
@@ -249,7 +249,7 @@ VK_END
 let
 scrollTop
 =
-outputWrapper
+outputScroller
 .
 scrollTop
 ;
@@ -455,7 +455,7 @@ hud
 ui
 .
 filterBox
-outputWrapper
+outputScroller
 .
 ownerDocument
 .

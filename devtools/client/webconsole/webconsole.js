@@ -2032,6 +2032,14 @@ node
 ;
 this
 .
+outputScroller
+=
+this
+.
+outputWrapper
+;
+this
+.
 _updateCharSize
 (
 )
