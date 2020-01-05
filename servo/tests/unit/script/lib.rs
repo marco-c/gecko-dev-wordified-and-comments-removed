@@ -16,6 +16,10 @@ plugins
 ]
 extern
 crate
+euclid
+;
+extern
+crate
 msg
 ;
 extern
@@ -73,4 +77,14 @@ test
 ]
 mod
 headers
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+htmlareaelement
 ;
