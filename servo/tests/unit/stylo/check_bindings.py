@@ -39,7 +39,10 @@ components
 style
 "
 "
-gecko_bindings
+gecko
+"
+"
+generated
 "
 "
 bindings

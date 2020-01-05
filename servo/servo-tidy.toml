@@ -219,7 +219,9 @@ components
 /
 style
 /
-gecko_bindings
+gecko
+/
+generated
 /
 bindings
 .
@@ -232,7 +234,9 @@ components
 /
 style
 /
-gecko_bindings
+gecko
+/
+generated
 /
 structs_debug
 .
@@ -245,7 +249,9 @@ components
 /
 style
 /
-gecko_bindings
+gecko
+/
+generated
 /
 structs_release
 .
@@ -258,7 +264,9 @@ components
 /
 style
 /
-gecko_string_cache
+gecko
+/
+generated
 /
 atom_macro
 .

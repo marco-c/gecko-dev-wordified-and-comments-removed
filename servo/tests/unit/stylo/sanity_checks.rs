@@ -193,7 +193,7 @@ gecko
 /
 generated
 /
-gecko_pseudo_element_helper
+pseudo_element_helper
 .
 rs
 "
