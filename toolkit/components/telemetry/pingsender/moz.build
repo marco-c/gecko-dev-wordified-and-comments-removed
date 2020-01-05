@@ -131,6 +131,14 @@ breakpad
 src
 '
 ]
+USE_LIBS
++
+=
+[
+'
+zlib
+'
+]
 if
 CONFIG
 [
