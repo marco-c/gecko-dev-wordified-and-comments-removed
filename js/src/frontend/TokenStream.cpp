@@ -1443,7 +1443,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 bool
-TokenStream
+TokenStreamBase
 :
 :
 SourceCoords
@@ -1452,7 +1452,7 @@ SourceCoords
 fill
 (
 const
-TokenStream
+TokenStreamBase
 :
 :
 SourceCoords
@@ -1578,7 +1578,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 uint32_t
-TokenStream
+TokenStreamBase
 :
 :
 SourceCoords
@@ -1777,7 +1777,7 @@ iMin
 ;
 }
 uint32_t
-TokenStream
+TokenStreamBase
 :
 :
 SourceCoords
@@ -1806,7 +1806,7 @@ lineIndex
 ;
 }
 uint32_t
-TokenStream
+TokenStreamBase
 :
 :
 SourceCoords
@@ -1850,7 +1850,7 @@ lineStartOffset
 ;
 }
 void
-TokenStream
+TokenStreamBase
 :
 :
 SourceCoords
@@ -2033,7 +2033,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-char16_t
+CharT
 *
 base
 size_t
@@ -2128,7 +2128,7 @@ pop
 #
 endif
 bool
-TokenStream
+TokenStreamBase
 :
 :
 checkOptions
@@ -2745,7 +2745,7 @@ max
 )
 {
 const
-char16_t
+CharT
 *
 p
 =
@@ -2819,7 +2819,7 @@ position
 )
 {
 const
-char16_t
+CharT
 *
 end
 =
@@ -3279,7 +3279,7 @@ nullptr
 ;
 }
 void
-TokenStream
+TokenStreamBase
 :
 :
 computeErrorMetadataNoOffset
@@ -3657,7 +3657,7 @@ true
 ;
 }
 void
-TokenStream
+TokenStreamBase
 :
 :
 compileError
@@ -3838,7 +3838,7 @@ cx
 ;
 }
 bool
-TokenStream
+TokenStreamBase
 :
 :
 compileWarning
@@ -4167,7 +4167,7 @@ args
 ;
 }
 void
-TokenStream
+TokenStreamBase
 :
 :
 reportErrorNoOffset
@@ -4493,7 +4493,7 @@ return
 0
 ;
 }
-char16_t
+CharT
 cp
 [
 3
@@ -4688,7 +4688,7 @@ getCharIgnoreEOL
 )
 ;
 }
-char16_t
+CharT
 cp
 [
 6
@@ -4934,12 +4934,17 @@ return
 false
 ;
 }
+template
+<
+typename
+CharT
+>
 static
 bool
 CharsMatch
 (
 const
-char16_t
+CharT
 *
 p
 const
@@ -5647,7 +5652,7 @@ uint32_t
 qc
 ;
 const
-char16_t
+CharT
 *
 tmp
 =
@@ -6157,7 +6162,7 @@ FirstCharKind
 c1kind
 ;
 const
-char16_t
+CharT
 *
 numStart
 ;
@@ -6168,7 +6173,7 @@ DecimalPoint
 decimalPoint
 ;
 const
-char16_t
+CharT
 *
 identStart
 ;
@@ -6677,7 +6682,7 @@ c
 )
 ;
 const
-char16_t
+CharT
 *
 chars
 ;
@@ -7113,7 +7118,7 @@ error
 else
 {
 const
-char16_t
+CharT
 *
 dummy
 ;
@@ -9930,7 +9935,7 @@ code
 break
 ;
 }
-char16_t
+CharT
 cp
 [
 4
@@ -10089,7 +10094,7 @@ x
 '
 :
 {
-char16_t
+CharT
 cp
 [
 2
