@@ -354,8 +354,6 @@ attribute
 Window
 parent
 ;
-/
-/
 readonly
 attribute
 Element
