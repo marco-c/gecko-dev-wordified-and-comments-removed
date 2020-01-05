@@ -1504,6 +1504,12 @@ self
 )
 :
         
+self
+.
+ensure_bootstrapped
+(
+)
+        
 return
 not
 subprocess
@@ -1657,6 +1663,12 @@ params
 None
 )
 :
+        
+self
+.
+ensure_bootstrapped
+(
+)
         
 if
 params
