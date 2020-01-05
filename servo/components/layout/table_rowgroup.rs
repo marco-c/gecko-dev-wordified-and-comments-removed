@@ -800,11 +800,6 @@ content_inline_size
 containing_block_inline_size
 ;
 let
-inline_size_computer
-=
-InternalTable
-;
-let
 border_collapse
 =
 self
@@ -821,6 +816,16 @@ get_inheritedtable
 .
 border_collapse
 ;
+let
+inline_size_computer
+=
+InternalTable
+{
+border_collapse
+:
+border_collapse
+}
+;
 inline_size_computer
 .
 compute_used_inline_size
@@ -832,7 +837,6 @@ self
 block_flow
 layout_context
 containing_block_inline_size
-border_collapse
 )
 ;
 let
