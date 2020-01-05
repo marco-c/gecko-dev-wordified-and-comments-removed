@@ -1857,7 +1857,6 @@ CreateChromeWindow2
 (
 aParentChrome
 aChromeFlags
-0
 aOpeningTabParent
 aOpener
 &

@@ -2345,7 +2345,6 @@ CreateChromeWindow2
 (
 aParent
 aChromeFlags
-0
 nullptr
 nullptr
 &
@@ -2407,8 +2406,6 @@ nsIWebBrowserChrome
 aParent
 uint32_t
 aChromeFlags
-uint32_t
-aContextFlags
 nsITabParent
 *
 aOpeningTab
@@ -2602,14 +2599,6 @@ if
 newWindow
 )
 {
-newWindow
--
->
-SetContextFlags
-(
-aContextFlags
-)
-;
 nsCOMPtr
 <
 nsIInterfaceRequestor
