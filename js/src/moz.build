@@ -2275,6 +2275,13 @@ cpp
 '
 vm
 /
+AsyncIteration
+.
+cpp
+'
+'
+vm
+/
 Caches
 .
 cpp
@@ -5743,6 +5750,13 @@ js
 builtin
 /
 Array
+.
+js
+'
+'
+builtin
+/
+AsyncIteration
 .
 js
 '
