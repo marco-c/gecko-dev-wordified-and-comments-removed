@@ -1917,11 +1917,8 @@ bool
 >
 {
 let
-mut
 return_after_buffer
 =
-false
-;
 match
 self
 .
@@ -1954,8 +1951,7 @@ WebSocketRequestState
 Open
 =
 >
-(
-)
+false
 WebSocketRequestState
 :
 :
@@ -1967,13 +1963,9 @@ WebSocketRequestState
 Closed
 =
 >
-{
-return_after_buffer
-=
 true
+}
 ;
-}
-}
 let
 global
 =
@@ -2095,8 +2087,6 @@ false
 )
 ;
 }
-else
-{
 self
 .
 buffered_amount
@@ -2108,7 +2098,6 @@ as
 u32
 )
 ;
-}
 if
 return_after_buffer
 {
