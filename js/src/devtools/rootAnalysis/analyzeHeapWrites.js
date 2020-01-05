@@ -3490,9 +3490,7 @@ Location
 +
 entry
 .
-readable
-(
-)
+name
 +
 (
 location
