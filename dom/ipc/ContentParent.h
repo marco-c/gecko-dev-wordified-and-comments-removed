@@ -4188,7 +4188,7 @@ aKeyword
 nsString
 *
 aProviderName
-OptionalInputStreamParams
+OptionalIPCStream
 *
 aPostData
 OptionalURIParams

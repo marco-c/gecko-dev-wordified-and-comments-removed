@@ -273,7 +273,7 @@ include
 JavaScriptTypes
 ;
 include
-InputStreamParams
+IPCStream
 ;
 include
 PTabContext
@@ -4208,7 +4208,7 @@ returns
 (
 nsString
 providerName
-OptionalInputStreamParams
+OptionalIPCStream
 postData
 OptionalURIParams
 uri
