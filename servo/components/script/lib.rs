@@ -288,10 +288,6 @@ js
 ;
 extern
 crate
-layout_traits
-;
-extern
-crate
 libc
 ;
 extern
