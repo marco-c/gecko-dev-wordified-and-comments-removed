@@ -928,6 +928,17 @@ aWindowId
 ;
 wr_renderer_readback
 (
+aRenderThread
+.
+GetRenderer
+(
+aWindowId
+)
+-
+>
+GetWrRenderer
+(
+)
 mSize
 .
 width
