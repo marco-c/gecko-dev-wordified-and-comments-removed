@@ -368,7 +368,7 @@ self
 .
 logger
 .
-error
+warning
 (
                 
 "
@@ -423,7 +423,7 @@ self
 .
 logger
 .
-error
+warning
 (
                     
 "
@@ -531,7 +531,7 @@ self
 .
 logger
 .
-error
+warning
 (
 "
 TEST
@@ -552,12 +552,12 @@ s
 )
 until
 "
-                                  
+                                    
 "
 shutdown
 "
 %
-                                  
+                                    
 (
 test
 [
@@ -705,7 +705,7 @@ self
 .
 logger
 .
-error
+warning
 (
                 
 "
@@ -866,7 +866,7 @@ self
 .
 logger
 .
-error
+warning
 (
                 
 "
@@ -1833,7 +1833,7 @@ self
 .
 logger
 .
-error
+warning
 (
 "
 TEST
@@ -1846,7 +1846,7 @@ LeakSanitizer
 |
 LeakSanitizer
 "
-                              
+                                
 "
 has
 encountered
@@ -1942,7 +1942,7 @@ self
 .
 logger
 .
-error
+warning
 (
                 
 "
