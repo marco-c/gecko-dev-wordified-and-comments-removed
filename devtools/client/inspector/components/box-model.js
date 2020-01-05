@@ -100,9 +100,7 @@ STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 shared
 .
@@ -114,10 +112,10 @@ STRINGS_INSPECTOR
 =
 "
 devtools
-/
+-
 shared
 /
-locales
+locale
 /
 styleinspector
 .
