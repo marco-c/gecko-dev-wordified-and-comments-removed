@@ -188,6 +188,9 @@ media
 :
 TimeUnit
 ;
+#
+undef
+LOG
 mozilla
 :
 :
@@ -201,7 +204,7 @@ MediaResource
 ;
 #
 define
-CMLOG
+LOG
 (
 msg
 .
@@ -1473,7 +1476,7 @@ rv
 )
 ;
 }
-CMLOG
+LOG
 (
 "
 Received
@@ -1771,7 +1774,7 @@ NotifyDataArrived
 (
 )
 ;
-CMLOG
+LOG
 (
 "
 CopySegmentToCache
@@ -3899,7 +3902,7 @@ thread
 "
 )
 ;
-CMLOG
+LOG
 (
 "
 CacheClientSeek
@@ -7021,3 +7024,6 @@ NS_OK
 ;
 }
 }
+#
+undef
+LOG
