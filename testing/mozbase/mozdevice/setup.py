@@ -198,14 +198,6 @@ dmcli
 :
 cli
       
-sutini
-=
-mozdevice
-.
-sutini
-:
-main
-      
 "
 "
 "
