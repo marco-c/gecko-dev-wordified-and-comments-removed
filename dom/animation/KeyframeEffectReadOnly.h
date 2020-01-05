@@ -869,8 +869,10 @@ nsStyleContext
 aStyleContext
 )
 ;
-bool
-HasAnimationOfProperty
+const
+AnimationProperty
+*
+GetAnimationOfProperty
 (
 nsCSSPropertyID
 aProperty
@@ -878,7 +880,7 @@ aProperty
 const
 ;
 bool
-HasEffectiveAnimationOfProperty
+HasAnimationOfProperty
 (
 nsCSSPropertyID
 aProperty
@@ -886,7 +888,7 @@ aProperty
 const
 {
 return
-GetEffectiveAnimationOfProperty
+GetAnimationOfProperty
 (
 aProperty
 )
@@ -895,16 +897,6 @@ aProperty
 nullptr
 ;
 }
-const
-AnimationProperty
-*
-GetEffectiveAnimationOfProperty
-(
-nsCSSPropertyID
-aProperty
-)
-const
-;
 const
 InfallibleTArray
 <

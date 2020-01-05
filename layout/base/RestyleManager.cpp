@@ -6364,7 +6364,7 @@ layer
 nsLayoutUtils
 :
 :
-HasEffectiveAnimation
+HasRelevantAnimationOfProperty
 (
 mFrame
 layerInfo
