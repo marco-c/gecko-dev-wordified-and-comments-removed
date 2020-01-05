@@ -159,6 +159,9 @@ MOZ_MUST_USE
 bool
 MakeMRegExpHoistable
 (
+MIRGenerator
+*
+mir
 MIRGraph
 &
 graph
