@@ -198,6 +198,7 @@ return
 False
             
 func
+glob
 =
 self
 .
@@ -245,6 +246,30 @@ STORE_GLOBAL
 '
 )
 :
+                    
+if
+arg
+=
+=
+'
+os
+'
+and
+glob
+.
+get
+(
+'
+os
+'
+)
+is
+self
+.
+OS
+:
+                        
+continue
                     
 return
 True
@@ -439,6 +464,7 @@ wrapped
 ]
 =
 func
+glob
         
 return
 wrapped
