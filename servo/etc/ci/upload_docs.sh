@@ -129,6 +129,8 @@ pwd
 target
 /
 doc
+/
+servo
 "
 make
 -
@@ -142,6 +144,17 @@ components
 /
 script
 dom_docs
+rm
+-
+rf
+target
+/
+doc
+/
+servo
+/
+.
+cache
 ghp
 -
 import
