@@ -2900,6 +2900,15 @@ nsString
 aKeyword
 )
 ;
+void
+FirePageHideNotificationInternal
+(
+bool
+aIsUnload
+bool
+aSkipCheckingDynEntries
+)
+;
 #
 ifdef
 DEBUG
