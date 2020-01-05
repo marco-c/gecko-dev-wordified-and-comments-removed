@@ -8208,7 +8208,7 @@ frecency
 .
 permRedirectVisitBonus
 "
-0
+50
 )
 ;
 pref
@@ -8220,7 +8220,7 @@ frecency
 .
 tempRedirectVisitBonus
 "
-0
+40
 )
 ;
 pref
