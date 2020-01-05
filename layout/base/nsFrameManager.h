@@ -206,7 +206,7 @@ nsIFrame
 aFrame
 )
 ;
-nsresult
+void
 RegisterPlaceholderFrame
 (
 nsPlaceholderFrame
