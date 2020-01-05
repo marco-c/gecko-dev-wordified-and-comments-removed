@@ -180,6 +180,12 @@ dfn
 )
 HTML_TAG
 (
+dialog
+Dialog
+Dialog
+)
+HTML_TAG
+(
 dir
 Shared
 Directory
