@@ -857,6 +857,8 @@ if
 notes
 )
 {
+notesNodes
+=
 notes
 .
 map
