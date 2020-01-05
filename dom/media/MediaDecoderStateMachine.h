@@ -161,8 +161,6 @@ SeekStarted
 Invalidate
 EnterVideoSuspend
 ExitVideoSuspend
-StartVideoSuspendTimer
-CancelVideoSuspendTimer
 }
 ;
 class
@@ -1011,11 +1009,6 @@ VisibilityChanged
 )
 ;
 void
-SuspendTaintChanged
-(
-)
-;
-void
 StopPlayback
 (
 )
@@ -1500,7 +1493,7 @@ OnSuspendTimerResolved
 )
 ;
 void
-CancelSuspendTimer
+OnSuspendTimerRejected
 (
 )
 ;
@@ -1767,12 +1760,6 @@ Mirror
 bool
 >
 mIsVisible
-;
-Mirror
-<
-bool
->
-mHasSuspendTaint
 ;
 Canonical
 <
