@@ -253,12 +253,6 @@ aDragMetrics
 )
 const
 ;
-LayerIntCoord
-GetScrollThumbLength
-(
-)
-const
-;
 bool
 IsScrollbarNode
 (
