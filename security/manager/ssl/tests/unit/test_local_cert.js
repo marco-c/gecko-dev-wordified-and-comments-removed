@@ -217,7 +217,7 @@ equal
 (
 certA
 .
-nickname
+displayName
 gNickname
 )
 ;
@@ -234,7 +234,7 @@ equal
 (
 certB
 .
-nickname
+displayName
 gNickname
 )
 ;

@@ -316,7 +316,7 @@ clientAuthNickAndSerial
 [
 cert
 .
-nickname
+displayName
 cert
 .
 serialNumber
