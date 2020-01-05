@@ -27645,7 +27645,7 @@ entryResumePoint
 Register
 temp
 =
-AllocatableGeneralRegisterSet
+GeneralRegisterSet
 (
 EntryTempMask
 )
