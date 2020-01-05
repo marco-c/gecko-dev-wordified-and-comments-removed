@@ -494,7 +494,7 @@ let
 register
 =
 (
-callback
+fire
 urlFilters
 )
 =
@@ -629,11 +629,10 @@ data
 data2
 )
 ;
-context
+fire
 .
-runSafe
+async
 (
-callback
 data2
 )
 ;

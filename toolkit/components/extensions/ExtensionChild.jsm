@@ -1385,7 +1385,7 @@ this
 .
 context
 name
-callback
+fire
 =
 >
 {
@@ -1537,7 +1537,9 @@ cloneScope
 let
 result
 =
-callback
+fire
+.
+raw
 (
 message
 sender
@@ -1842,7 +1844,7 @@ this
 .
 context
 name
-callback
+fire
 =
 >
 {
@@ -1967,13 +1969,10 @@ sender
 recipient
 )
 ;
-this
+fire
 .
-context
-.
-runSafeWithoutClone
+asyncWithoutClone
 (
-callback
 port
 .
 api
