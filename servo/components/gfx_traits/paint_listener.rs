@@ -2,6 +2,9 @@ use
 Epoch
 ;
 use
+FrameTreeId
+;
+use
 LayerId
 ;
 use
@@ -30,15 +33,6 @@ surface
 :
 :
 NativeDisplay
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-FrameTreeId
 ;
 use
 msg

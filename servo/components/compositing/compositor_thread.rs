@@ -30,6 +30,7 @@ gfx_traits
 :
 {
 Epoch
+FrameTreeId
 LayerId
 LayerProperties
 PaintListener
@@ -77,15 +78,6 @@ surface
 NativeDisplay
 NativeSurface
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-FrameTreeId
 ;
 use
 msg
