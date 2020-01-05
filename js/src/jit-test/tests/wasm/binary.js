@@ -1906,7 +1906,7 @@ push
 .
 varU32
 (
-DefaultFlag
+0x0
 )
 )
 ;
@@ -1966,7 +1966,7 @@ push
 .
 varU32
 (
-DefaultFlag
+0x0
 )
 )
 ;
