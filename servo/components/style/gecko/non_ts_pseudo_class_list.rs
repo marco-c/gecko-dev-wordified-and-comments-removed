@@ -1,4 +1,16 @@
-pseudo_class_list
+macro_rules
+!
+apply_non_ts_list
+{
+(
+apply_macro
+:
+ident
+)
+=
+>
+{
+apply_macro
 !
 {
 (
@@ -154,4 +166,6 @@ mozTableBorderNonzero
 _
 PSEUDO_CLASS_INTERNAL
 )
+}
+}
 }
