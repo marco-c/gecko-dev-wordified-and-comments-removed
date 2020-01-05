@@ -295,7 +295,7 @@ test_media_queries_dynamic
 .
 html
 [
-11
+7
 ]
 *
 test_media_queries_dynamic_xbl
