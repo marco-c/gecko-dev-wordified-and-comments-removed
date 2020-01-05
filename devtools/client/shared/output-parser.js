@@ -1380,15 +1380,6 @@ inline
 grid
 "
 )
-&
-&
-text
-=
-=
-=
-token
-.
-text
 ;
 }
 _appendCubicBezier
