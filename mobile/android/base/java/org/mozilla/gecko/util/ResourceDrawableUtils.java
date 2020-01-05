@@ -646,14 +646,15 @@ final
 Drawable
 d
 =
-context
+AppCompatDrawableManager
 .
-getResources
+get
 (
 )
 .
 getDrawable
 (
+context
 id
 )
 ;
