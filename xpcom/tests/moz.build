@@ -146,6 +146,14 @@ TestUnicodeArguments
 '
 ]
 )
+USE_LIBS
++
+=
+[
+'
+mozglue
+'
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
