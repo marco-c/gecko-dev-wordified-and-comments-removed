@@ -4108,6 +4108,8 @@ standaloneLazyFunction
 (
 HandleFunction
 fun
+uint32_t
+toStringStart
 bool
 strict
 GeneratorKind
