@@ -122,9 +122,11 @@ U2F_V2
 "
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+const
+char
+*
 kAttestCertSubjectName
+=
 "
 CN
 =
@@ -133,7 +135,6 @@ U2F
 Soft
 Token
 "
-)
 ;
 const
 uint32_t
@@ -1014,10 +1015,6 @@ subjectName
 CERT_AsciiToName
 (
 kAttestCertSubjectName
-.
-get
-(
-)
 )
 )
 ;
