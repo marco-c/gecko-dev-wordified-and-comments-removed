@@ -19,13 +19,13 @@ nsSHTransaction
 (
 )
 :
-mPersist
-(
-true
-)
 mPrev
 (
 nullptr
+)
+mPersist
+(
+true
 )
 {
 }

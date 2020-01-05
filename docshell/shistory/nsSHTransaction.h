@@ -45,9 +45,6 @@ nsSHTransaction
 ;
 protected
 :
-bool
-mPersist
-;
 nsISHTransaction
 *
 mPrev
@@ -63,6 +60,9 @@ nsCOMPtr
 nsISHEntry
 >
 mSHEntry
+;
+bool
+mPersist
 ;
 }
 ;
