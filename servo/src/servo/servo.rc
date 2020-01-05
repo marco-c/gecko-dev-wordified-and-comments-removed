@@ -73,6 +73,14 @@ lib
 "
 ]
 ;
+#
+[
+warn
+(
+no_oldvecs
+)
+]
+;
 use
 std
 ;
