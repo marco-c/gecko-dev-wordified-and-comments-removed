@@ -1961,6 +1961,7 @@ elem
 .
 get_attr
 (
+None
 "
 name
 "
@@ -1977,6 +1978,7 @@ elem
 .
 get_attr
 (
+None
 "
 name
 "
@@ -2508,6 +2510,7 @@ element
 .
 get_attr
 (
+None
 "
 id
 "

@@ -2636,6 +2636,7 @@ element
 .
 get_attr
 (
+None
 "
 rel
 "
@@ -2644,6 +2645,7 @@ element
 .
 get_attr
 (
+None
 "
 href
 "
@@ -2796,6 +2798,7 @@ elem
 .
 get_attr
 (
+None
 "
 src
 "
@@ -3435,6 +3438,7 @@ script
 .
 get_attr
 (
+None
 "
 src
 "

@@ -1900,6 +1900,13 @@ get_attr
 (
 &
 self
+ns_url
+:
+Option
+<
+~
+str
+>
 name
 :
 &
