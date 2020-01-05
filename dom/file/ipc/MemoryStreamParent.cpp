@@ -84,7 +84,6 @@ mSize
 (
 mCurSize
 +
-=
 dataLength
 )
 )

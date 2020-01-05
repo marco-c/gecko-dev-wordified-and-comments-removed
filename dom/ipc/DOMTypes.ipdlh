@@ -120,14 +120,7 @@ PBlob
 ;
 include
 protocol
-PChildToParentStream
-;
-include
-protocol
-PParentToChildStream
-;
-include
-IPCStream
+PMemoryStream
 ;
 include
 ProtocolTypes
@@ -295,7 +288,7 @@ identfiers
 struct
 BlobDataStream
 {
-IPCStream
+PMemoryStream
 stream
 ;
 uint64_t
