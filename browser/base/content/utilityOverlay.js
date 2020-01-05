@@ -1575,6 +1575,9 @@ if
 params
 .
 frameOuterWindowID
+!
+=
+undefined
 &
 &
 sourceWindow
@@ -2102,6 +2105,9 @@ if
 params
 .
 frameOuterWindowID
+!
+=
+undefined
 &
 &
 w
