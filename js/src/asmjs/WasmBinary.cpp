@@ -108,6 +108,11 @@ UniqueChars
 msg
 )
 {
+MOZ_ASSERT
+(
+error_
+)
+;
 UniqueChars
 strWithOffset
 (
