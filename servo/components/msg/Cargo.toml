@@ -94,14 +94,12 @@ heapsize
 .
 0
 "
-heapsize_plugin
+heapsize_derive
 =
 "
 0
 .
 1
-.
-2
 "
 plugins
 =

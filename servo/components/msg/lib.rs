@@ -16,7 +16,6 @@ structural_match
 [
 plugin
 (
-heapsize_plugin
 plugins
 )
 ]
@@ -46,6 +45,14 @@ bitflags
 extern
 crate
 heapsize
+;
+#
+[
+macro_use
+]
+extern
+crate
+heapsize_derive
 ;
 extern
 crate

@@ -15,7 +15,6 @@ structural_match
 [
 plugin
 (
-heapsize_plugin
 plugins
 )
 ]
@@ -48,6 +47,14 @@ unsafe_code
 extern
 crate
 heapsize
+;
+#
+[
+macro_use
+]
+extern
+crate
+heapsize_derive
 ;
 #
 [

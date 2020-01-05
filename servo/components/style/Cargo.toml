@@ -87,7 +87,7 @@ serde
 serde_derive
 "
 "
-heapsize_plugin
+heapsize_derive
 "
 "
 style_traits
@@ -208,7 +208,7 @@ heapsize
 .
 0
 "
-heapsize_plugin
+heapsize_derive
 =
 {
 version
@@ -217,8 +217,6 @@ version
 0
 .
 1
-.
-2
 "
 optional
 =
