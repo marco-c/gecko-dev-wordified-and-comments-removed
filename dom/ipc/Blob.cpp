@@ -8011,12 +8011,6 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
-(
-!
-mIsSlice
-)
-;
 mActor
 =
 aActor
@@ -9915,6 +9909,10 @@ mContentType
 )
 )
 ;
+BlobChild
+*
+actor
+;
 if
 (
 nsIContentChild
@@ -9929,7 +9927,7 @@ GetContentManager
 )
 )
 {
-mActor
+actor
 =
 SendSliceConstructor
 (
@@ -9941,7 +9939,7 @@ params
 }
 else
 {
-mActor
+actor
 =
 SendSliceConstructor
 (
@@ -9956,6 +9954,11 @@ params
 )
 ;
 }
+CommonInit
+(
+actor
+)
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (
