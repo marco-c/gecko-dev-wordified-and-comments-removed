@@ -2546,9 +2546,6 @@ skip
 if
 (
 Android
-|
-|
-B2G
 )
 asserts
 (
@@ -2577,10 +2574,6 @@ for
 android
 bug
 760271
-for
-b2g
-bug
-833371
 asserts
 (
 0
