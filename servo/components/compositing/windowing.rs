@@ -111,6 +111,12 @@ cursor
 :
 Cursor
 ;
+use
+webrender_traits
+:
+:
+ScrollLocation
+;
 #
 [
 derive
@@ -237,11 +243,7 @@ DevicePixel
 )
 Scroll
 (
-TypedPoint2D
-<
-f32
-DevicePixel
->
+ScrollLocation
 TypedPoint2D
 <
 i32

@@ -104,6 +104,10 @@ msg
 ;
 extern
 crate
+webrender_traits
+;
+extern
+crate
 libc
 ;
 #
