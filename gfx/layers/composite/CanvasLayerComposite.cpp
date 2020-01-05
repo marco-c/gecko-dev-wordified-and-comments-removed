@@ -403,6 +403,7 @@ mCompositableHost
 >
 Composite
 (
+mCompositor
 this
 effectChain
 GetEffectiveOpacity

@@ -513,6 +513,9 @@ WebRenderImageHost
 :
 Composite
 (
+Compositor
+*
+aCompositor
 LayerComposite
 *
 aLayer
