@@ -1695,6 +1695,8 @@ size
 .
 width
 }
+as
+isize
 )
 }
 pub
@@ -1757,6 +1759,8 @@ size
 .
 height
 }
+as
+isize
 )
 }
 pub

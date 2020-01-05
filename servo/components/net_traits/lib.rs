@@ -27,14 +27,6 @@ core
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
 rustc_private
 )
 ]
