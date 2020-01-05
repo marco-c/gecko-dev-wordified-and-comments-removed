@@ -187,7 +187,7 @@ pt_size
 :
 Option
 <
-f64
+Au
 >
 )
 -
@@ -556,11 +556,11 @@ FontTemplateDescriptor
 pub
 requested_pt_size
 :
-f64
+Au
 pub
 actual_pt_size
 :
-f64
+Au
 pub
 shaper
 :

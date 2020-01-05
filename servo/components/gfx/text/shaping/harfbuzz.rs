@@ -969,6 +969,10 @@ pt_size
 font
 .
 actual_pt_size
+.
+to_subpx
+(
+)
 ;
 hb_font_set_ppem
 (

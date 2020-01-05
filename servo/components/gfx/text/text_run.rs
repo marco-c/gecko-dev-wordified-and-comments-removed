@@ -108,7 +108,7 @@ FontTemplateData
 pub
 actual_pt_size
 :
-f64
+Au
 pub
 font_metrics
 :
