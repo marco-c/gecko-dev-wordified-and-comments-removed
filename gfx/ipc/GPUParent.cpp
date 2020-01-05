@@ -1686,11 +1686,6 @@ DestroySingleton
 ;
 #
 endif
-NS_ShutdownXPCOM
-(
-nullptr
-)
-;
 XRE_ShutdownChildProcess
 (
 )
