@@ -4525,6 +4525,9 @@ aCompositable
 InitIPDLActor
 (
 actor
+CompositableHandle
+(
+)
 )
 ;
 }
@@ -4580,8 +4583,10 @@ ShadowLayerForwarder
 :
 AttachAsyncCompositable
 (
-uint64_t
-aCompositableID
+const
+CompositableHandle
+&
+aHandle
 ShadowableLayer
 *
 aLayer
@@ -4594,10 +4599,7 @@ aLayer
 ;
 MOZ_ASSERT
 (
-aCompositableID
-!
-=
-0
+aHandle
 )
 ;
 mTxn
@@ -4611,7 +4613,11 @@ Shadow
 (
 aLayer
 )
-aCompositableID
+aHandle
+.
+Value
+(
+)
 )
 )
 ;

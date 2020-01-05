@@ -787,8 +787,10 @@ override
 void
 ForgetImageContainer
 (
-uint64_t
-aAsyncContainerID
+const
+CompositableHandle
+&
+aHandle
 )
 ;
 void
