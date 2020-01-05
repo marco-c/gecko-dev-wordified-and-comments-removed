@@ -7,6 +7,13 @@ nsStartupCacheUtils_h_
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsIStorageStream
 .
 h
@@ -34,13 +41,15 @@ UniquePtr
 .
 h
 "
+class
+nsIURI
+;
 namespace
 mozilla
 {
 namespace
 scache
 {
-NS_EXPORT
 nsresult
 NewObjectInputStreamFromBuffer
 (
@@ -59,7 +68,6 @@ nsIObjectInputStream
 stream
 )
 ;
-NS_EXPORT
 nsresult
 NewObjectOutputWrappedStorageStream
 (
@@ -75,7 +83,6 @@ bool
 wantDebugStream
 )
 ;
-NS_EXPORT
 nsresult
 NewBufferFromStorageStream
 (
@@ -95,7 +102,6 @@ uint32_t
 len
 )
 ;
-NS_EXPORT
 nsresult
 PathifyURI
 (

@@ -94,7 +94,6 @@ mozilla
 namespace
 scache
 {
-NS_EXPORT
 nsresult
 NewObjectInputStreamFromBuffer
 (
@@ -201,7 +200,6 @@ return
 NS_OK
 ;
 }
-NS_EXPORT
 nsresult
 NewObjectOutputWrappedStorageStream
 (
@@ -363,7 +361,6 @@ return
 NS_OK
 ;
 }
-NS_EXPORT
 nsresult
 NewBufferFromStorageStream
 (
@@ -785,7 +782,6 @@ return
 true
 ;
 }
-NS_EXPORT
 nsresult
 PathifyURI
 (
