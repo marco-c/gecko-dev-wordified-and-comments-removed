@@ -741,10 +741,8 @@ mkdir
 rust_dir
 )
         
-snapshot_hash
+filename
 =
-open
-(
 path
 .
 join
@@ -762,6 +760,12 @@ snapshot
 hash
 "
 )
+        
+snapshot_hash
+=
+open
+(
+filename
 )
 .
 read
@@ -1287,6 +1291,7 @@ subprocess
 .
 check_output
 (
+                            
 [
 "
 git
@@ -1324,6 +1329,7 @@ is
 not
 clean
 "
+                                  
 %
 module_path
 )
@@ -1349,6 +1355,7 @@ subprocess
 .
 check_call
 (
+            
 [
 "
 git
@@ -1376,6 +1383,7 @@ subprocess
 .
 check_call
 (
+            
 [
 "
 git

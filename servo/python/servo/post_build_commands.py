@@ -4,35 +4,13 @@ import
 print_function
 unicode_literals
 import
-json
-import
-os
-import
 os
 .
 path
 as
 path
 import
-shutil
-import
 subprocess
-import
-sys
-import
-tarfile
-from
-time
-import
-time
-import
-urllib
-from
-mach
-.
-registrar
-import
-Registrar
 from
 mach
 .
@@ -88,6 +66,7 @@ True
     
 CommandArgument
 (
+        
 '
 params
 '
@@ -101,7 +80,7 @@ nargs
 .
 .
 '
-                     
+        
 help
 =
 "
@@ -183,6 +162,7 @@ True
     
 CommandArgument
 (
+        
 '
 params
 '
@@ -196,7 +176,7 @@ nargs
 .
 .
 '
-                     
+        
 help
 =
 "

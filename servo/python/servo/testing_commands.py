@@ -4,8 +4,6 @@ import
 print_function
 unicode_literals
 import
-json
-import
 os
 import
 os
@@ -14,19 +12,11 @@ path
 as
 path
 import
-shutil
-import
 subprocess
-import
-sys
-import
-tarfile
 from
 time
 import
 time
-import
-urllib
 from
 mach
 .
@@ -113,6 +103,7 @@ context
 .
 built_tests
 :
+            
 return
         
 Registrar
@@ -150,6 +141,7 @@ prefix
 candidates
 =
 [
+            
 f
 for
 f
@@ -172,7 +164,7 @@ target
 "
 )
 )
-                      
+            
 if
 f
 .
@@ -414,6 +406,7 @@ pattern
     
 CommandArgument
 (
+        
 '
 params
 '
@@ -427,7 +420,7 @@ nargs
 .
 .
 "
-                     
+        
 help
 =
 "
@@ -591,6 +584,7 @@ pattern
     
 CommandArgument
 (
+        
 '
 servo_params
 '
@@ -604,7 +598,7 @@ nargs
 .
 .
 "
-                     
+        
 help
 =
 "
@@ -806,6 +800,7 @@ elapsed
 if
 error
 :
+            
 return
 1
     
@@ -1052,6 +1047,7 @@ True
     
 CommandArgument
 (
+        
 '
 params
 '
@@ -1065,7 +1061,7 @@ nargs
 .
 .
 '
-                     
+        
 help
 =
 "
@@ -1112,6 +1108,7 @@ subprocess
 .
 call
 (
+            
 [
 "
 bash
@@ -1135,7 +1132,7 @@ sh
 ]
 +
 params
-                               
+            
 env
 =
 self
