@@ -595,7 +595,6 @@ fn
 fetch_async_background
 (
 &
-mut
 self
 request
 :
