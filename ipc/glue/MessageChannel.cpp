@@ -3042,7 +3042,7 @@ MOZ_RELEASE_ASSERT
 aMsg
 -
 >
-nested_level
+priority
 (
 )
 !
@@ -3053,7 +3053,7 @@ IPC
 Message
 :
 :
-NESTED_INSIDE_SYNC
+PRIORITY_HIGH
 )
 ;
 CxxStackFrame
