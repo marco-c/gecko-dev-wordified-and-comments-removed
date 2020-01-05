@@ -174,6 +174,15 @@ Async
 \
 macro
 (
+async
+async
+"
+async
+"
+)
+\
+macro
+(
 await
 await
 "
