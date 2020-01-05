@@ -33,6 +33,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip_if_e10s
 WindowManagerMixin
 class
 BaseAlertTestCase
@@ -1612,6 +1613,14 @@ get_url
 about
 :
 blank
+"
+)
+    
+skip_if_e10s
+(
+"
+Bug
+1325044
 "
 )
     
