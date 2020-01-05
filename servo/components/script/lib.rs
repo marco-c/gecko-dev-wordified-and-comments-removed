@@ -137,6 +137,14 @@ question_mark
 #
 !
 [
+feature
+(
+try_from
+)
+]
+#
+!
+[
 deny
 (
 unsafe_code
