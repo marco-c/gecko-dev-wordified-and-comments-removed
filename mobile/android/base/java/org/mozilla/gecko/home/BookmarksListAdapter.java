@@ -308,6 +308,11 @@ String
 title
 ;
 public
+final
+int
+position
+;
+public
 FolderInfo
 (
 int
@@ -319,6 +324,7 @@ this
 id
 "
 "
+0
 )
 ;
 }
@@ -341,6 +347,11 @@ in
 readString
 (
 )
+in
+.
+readInt
+(
+)
 )
 ;
 }
@@ -351,6 +362,8 @@ int
 id
 String
 title
+int
+position
 )
 {
 this
@@ -364,6 +377,12 @@ this
 title
 =
 title
+;
+this
+.
+position
+=
+position
 ;
 }
 Override
@@ -400,6 +419,13 @@ dest
 writeString
 (
 title
+)
+;
+dest
+.
+writeInt
+(
+position
 )
 ;
 }
@@ -472,6 +498,8 @@ FolderInfo
 folderInfo
 RefreshType
 refreshType
+int
+targetPosition
 )
 ;
 }
@@ -642,6 +670,17 @@ mListener
 null
 )
 {
+int
+targetPosition
+=
+mParentStack
+.
+peek
+(
+)
+.
+position
+;
 mListener
 .
 onRefreshFolder
@@ -655,6 +694,7 @@ get
 RefreshType
 .
 PARENT
+targetPosition
 )
 ;
 }
@@ -670,6 +710,8 @@ int
 folderId
 String
 folderTitle
+int
+position
 )
 {
 FolderInfo
@@ -680,6 +722,7 @@ FolderInfo
 (
 folderId
 folderTitle
+position
 )
 ;
 if
@@ -698,6 +741,7 @@ folderInfo
 RefreshType
 .
 CHILD
+0
 )
 ;
 }
