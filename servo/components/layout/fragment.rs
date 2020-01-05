@@ -459,6 +459,12 @@ text
 :
 TextRunScanner
 ;
+use
+wrapper
+:
+:
+ThreadSafeLayoutNodeHelpers
+;
 static
 FONT_SUBSCRIPT_OFFSET_RATIO
 :
