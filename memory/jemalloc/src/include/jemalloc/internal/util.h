@@ -150,6 +150,9 @@ define
 MALLOC_PRINTF_BUFSIZE
 4096
 #
+ifndef
+JEMALLOC_ALLOC_JUNK
+#
 define
 JEMALLOC_ALLOC_JUNK
 (
@@ -159,6 +162,11 @@ uint8_t
 0xa5
 )
 #
+endif
+#
+ifndef
+JEMALLOC_FREE_JUNK
+#
 define
 JEMALLOC_FREE_JUNK
 (
@@ -167,6 +175,8 @@ uint8_t
 )
 0x5a
 )
+#
+endif
 #
 define
 JEMALLOC_ARG_CONCAT

@@ -101,6 +101,10 @@ opt
 .
 narenas
 "
+(
+void
+*
+)
 &
 narenas
 &
@@ -245,6 +249,10 @@ stats
 .
 active
 "
+(
+void
+*
+)
 &
 allocated1
 &
@@ -713,6 +721,10 @@ stats
 .
 active
 "
+(
+void
+*
+)
 &
 allocated2
 &

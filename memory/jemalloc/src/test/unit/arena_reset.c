@@ -54,6 +54,10 @@ assert_d_eq
 mallctl
 (
 cmd
+(
+void
+*
+)
 &
 ret
 &
@@ -232,6 +236,10 @@ mallctlbymib
 (
 mib
 miblen
+(
+void
+*
+)
 &
 ret
 &
@@ -427,6 +435,10 @@ arenas
 .
 extend
 "
+(
+void
+*
+)
 &
 arena_ind
 &

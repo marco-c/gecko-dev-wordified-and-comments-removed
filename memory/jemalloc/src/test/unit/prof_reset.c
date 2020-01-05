@@ -96,6 +96,10 @@ active
 "
 NULL
 NULL
+(
+void
+*
+)
 &
 active
 sizeof
@@ -139,6 +143,10 @@ prof
 .
 lg_sample
 "
+(
+void
+*
+)
 &
 lg_prof_sample
 &
@@ -184,6 +192,10 @@ reset
 "
 NULL
 NULL
+(
+void
+*
+)
 &
 lg_prof_sample
 sizeof
@@ -257,6 +269,10 @@ opt
 .
 lg_prof_sample
 "
+(
+void
+*
+)
 &
 lg_prof_sample_orig
 &

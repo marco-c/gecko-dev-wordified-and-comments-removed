@@ -19,12 +19,12 @@ size_t
 )
 <
 <
-25
+22
 )
 #
 define
 NITER
-4
+3
 TEST_BEGIN
 (
 test_basic

@@ -327,6 +327,10 @@ active
 "
 NULL
 NULL
+(
+void
+*
+)
 &
 active
 sizeof

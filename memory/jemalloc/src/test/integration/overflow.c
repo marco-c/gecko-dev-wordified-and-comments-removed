@@ -46,6 +46,10 @@ arenas
 .
 nhchunks
 "
+(
+void
+*
+)
 &
 nhchunks
 &
@@ -124,6 +128,10 @@ mallctlbymib
 (
 mib
 miblen
+(
+void
+*
+)
 &
 max_size_class
 &

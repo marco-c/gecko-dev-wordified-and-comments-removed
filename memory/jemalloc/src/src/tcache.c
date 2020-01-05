@@ -2785,7 +2785,10 @@ opt_lg_tcache_max
 |
 |
 (
-1U
+ZU
+(
+1
+)
 <
 <
 opt_lg_tcache_max
@@ -2801,7 +2804,10 @@ else
 if
 (
 (
-1U
+ZU
+(
+1
+)
 <
 <
 opt_lg_tcache_max
@@ -2817,7 +2823,10 @@ else
 tcache_maxclass
 =
 (
-1U
+ZU
+(
+1
+)
 <
 <
 opt_lg_tcache_max

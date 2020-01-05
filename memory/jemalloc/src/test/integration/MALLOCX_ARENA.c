@@ -71,6 +71,10 @@ arenas
 .
 extend
 "
+(
+void
+*
+)
 &
 arena_ind
 &

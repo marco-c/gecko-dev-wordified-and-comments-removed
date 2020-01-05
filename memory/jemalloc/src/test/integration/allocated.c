@@ -77,6 +77,10 @@ thread
 .
 allocated
 "
+(
+void
+*
+)
 &
 a0
 &
@@ -141,6 +145,10 @@ thread
 .
 allocatedp
 "
+(
+void
+*
+)
 &
 ap0
 &
@@ -230,6 +238,10 @@ thread
 .
 deallocated
 "
+(
+void
+*
+)
 &
 d0
 &
@@ -294,6 +306,10 @@ thread
 .
 deallocatedp
 "
+(
+void
+*
+)
 &
 dp0
 &
@@ -397,6 +413,10 @@ thread
 .
 allocated
 "
+(
+void
+*
+)
 &
 a1
 &
@@ -419,6 +439,10 @@ thread
 .
 allocatedp
 "
+(
+void
+*
+)
 &
 ap1
 &
@@ -528,6 +552,10 @@ thread
 .
 deallocated
 "
+(
+void
+*
+)
 &
 d1
 &
@@ -550,6 +578,10 @@ thread
 .
 deallocatedp
 "
+(
+void
+*
+)
 &
 dp1
 &

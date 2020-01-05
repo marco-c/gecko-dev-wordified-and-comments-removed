@@ -551,6 +551,10 @@ arena
 chunk_hooks
 cpad
 cpad_size
+arena_extent_sn_next
+(
+arena
+)
 false
 true
 )
