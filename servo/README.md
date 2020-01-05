@@ -356,7 +356,12 @@ The
 Rust
 compiler
 Servo
-uses
+'
+s
+build
+system
+automatically
+downloads
 a
 snapshot
 Rust
