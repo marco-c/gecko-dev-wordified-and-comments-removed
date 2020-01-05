@@ -400,6 +400,33 @@ warning
 error
 )
         
+except
+ValueError
+as
+error
+:
+            
+logger
+.
+warning
+(
+"
+Invalid
+JSON
+possible
+server
+error
+:
+{
+}
+"
+.
+format
+(
+error
+)
+)
+        
 return
 low_value_tasks
     
