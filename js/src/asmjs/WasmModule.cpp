@@ -1904,12 +1904,9 @@ info
 size
 )
 ;
-MOZ_ALWAYS_TRUE
-(
 PR_CloseFileMap
 (
 map
-)
 )
 ;
 return
