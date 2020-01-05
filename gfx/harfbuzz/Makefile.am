@@ -34,10 +34,6 @@ harfbuzz
 .
 doap
 \
-Android
-.
-mk
-\
 README
 .
 python

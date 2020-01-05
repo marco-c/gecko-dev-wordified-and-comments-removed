@@ -1529,7 +1529,7 @@ hb_shape_plan_t
 *
 shape_plan
 =
-hb_shape_plan_create_cached
+hb_shape_plan_create_cached2
 (
 font
 -
@@ -1542,6 +1542,14 @@ buffer
 props
 features
 num_features
+font
+-
+>
+coords
+font
+-
+>
+num_coords
 shaper_list
 )
 ;

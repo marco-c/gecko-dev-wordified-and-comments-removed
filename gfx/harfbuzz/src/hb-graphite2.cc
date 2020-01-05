@@ -648,6 +648,15 @@ unsigned
 int
 num_user_features
 HB_UNUSED
+const
+int
+*
+coords
+HB_UNUSED
+unsigned
+int
+num_coords
+HB_UNUSED
 )
 {
 return
