@@ -2132,14 +2132,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMarkerOffset
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetQuotes
 (
 )

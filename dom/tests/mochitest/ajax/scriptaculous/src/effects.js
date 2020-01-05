@@ -8790,7 +8790,6 @@ marginBottom
 marginLeft
 marginRight
 marginTop
-markerOffset
 maxHeight
 '
 +

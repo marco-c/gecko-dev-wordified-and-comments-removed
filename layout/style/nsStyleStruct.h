@@ -13254,9 +13254,6 @@ mValue
 aValue
 ;
 }
-nsStyleCoord
-mMarkerOffset
-;
 protected
 :
 nsTArray

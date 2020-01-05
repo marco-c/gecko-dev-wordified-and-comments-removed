@@ -620,11 +620,6 @@ MarginTopWidth
 )
 COMPUTED_STYLE_PROP
 (
-marker_offset
-MarkerOffset
-)
-COMPUTED_STYLE_PROP
-(
 max_height
 MaxHeight
 )
