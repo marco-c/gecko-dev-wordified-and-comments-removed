@@ -318,6 +318,19 @@ self
 _device_pixel_ratio
 =
 None
+        
+self
+.
+marionette
+.
+navigate
+(
+"
+about
+:
+blank
+"
+)
     
 property
     
