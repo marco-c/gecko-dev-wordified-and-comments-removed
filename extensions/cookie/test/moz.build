@@ -96,13 +96,6 @@ xpcshell
 .
 ini
 '
-'
-unit_ipc
-/
-xpcshell
-.
-ini
-'
 ]
 MOCHITEST_MANIFESTS
 +
