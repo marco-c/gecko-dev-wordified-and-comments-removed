@@ -305,6 +305,8 @@ derive
 Copy
 Clone
 PartialEq
+Hash
+Eq
 Deserialize
 Serialize
 )

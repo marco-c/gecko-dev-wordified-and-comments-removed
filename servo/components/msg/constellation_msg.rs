@@ -611,6 +611,7 @@ u32
 [
 derive
 (
+Clone
 Deserialize
 Serialize
 HeapSizeOf
