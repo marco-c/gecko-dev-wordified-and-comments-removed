@@ -619,13 +619,6 @@ asserts
 (
 8
 )
-asserts
--
-if
-(
-stylo
-4
-)
 load
 420654
 -
