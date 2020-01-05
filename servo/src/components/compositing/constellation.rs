@@ -455,13 +455,6 @@ f32
 >
 >
 }
-#
-[
-deriving
-(
-Clone
-)
-]
 pub
 struct
 SendableFrameTree
@@ -478,13 +471,6 @@ Vec
 SendableChildFrameTree
 >
 }
-#
-[
-deriving
-(
-Clone
-)
-]
 pub
 struct
 SendableChildFrameTree

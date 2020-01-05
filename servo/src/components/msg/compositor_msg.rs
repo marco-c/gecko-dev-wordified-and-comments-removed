@@ -83,9 +83,6 @@ PipelineId
 [
 deriving
 (
-Eq
-Ord
-PartialOrd
 PartialEq
 Clone
 )
@@ -94,16 +91,13 @@ pub
 enum
 RenderState
 {
-RenderingRenderState
 IdleRenderState
+RenderingRenderState
 }
 #
 [
 deriving
 (
-Eq
-Ord
-PartialOrd
 PartialEq
 Clone
 )
@@ -122,7 +116,6 @@ FinishedLoading
 deriving
 (
 PartialEq
-PartialOrd
 )
 ]
 pub
@@ -378,9 +371,6 @@ self
 render_state
 :
 RenderState
-pipeline_id
-:
-PipelineId
 )
 ;
 }
@@ -395,9 +385,6 @@ set_ready_state
 (
 &
 self
-pipeline_id
-:
-PipelineId
 ReadyState
 )
 ;
