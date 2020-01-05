@@ -128,10 +128,6 @@ MediaSink
 :
 PlaybackParams
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-AudioSink
-)
 public
 :
 AudioSink
@@ -156,6 +152,11 @@ dom
 :
 AudioChannel
 aChannel
+)
+;
+~
+AudioSink
+(
 )
 ;
 RefPtr
@@ -234,12 +235,6 @@ mAudibleEvent
 }
 private
 :
-virtual
-~
-AudioSink
-(
-)
-;
 nsresult
 InitializeAudioStream
 (

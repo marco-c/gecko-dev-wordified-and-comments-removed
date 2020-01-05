@@ -706,12 +706,15 @@ HasAudio
 )
 {
 mAudioSink
-=
+.
+reset
+(
 mCreator
 -
 >
 Create
 (
+)
 )
 ;
 mEndPromise

@@ -383,7 +383,7 @@ Creator
 >
 mCreator
 ;
-RefPtr
+UniquePtr
 <
 AudioSink
 >
