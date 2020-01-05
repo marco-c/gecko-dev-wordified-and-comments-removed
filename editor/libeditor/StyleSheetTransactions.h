@@ -94,9 +94,11 @@ override
 NS_DECL_EDITTRANSACTIONBASE
 protected
 :
+RefPtr
+<
 EditorBase
-&
-mEditor
+>
+mEditorBase
 ;
 RefPtr
 <
@@ -148,9 +150,11 @@ override
 NS_DECL_EDITTRANSACTIONBASE
 protected
 :
+RefPtr
+<
 EditorBase
-&
-mEditor
+>
+mEditorBase
 ;
 RefPtr
 <

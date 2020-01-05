@@ -112,8 +112,10 @@ CreateElementTransaction
 (
 )
 ;
+RefPtr
+<
 EditorBase
-*
+>
 mEditorBase
 ;
 nsCOMPtr

@@ -101,8 +101,10 @@ SplitNodeTransaction
 (
 )
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 nsCOMPtr

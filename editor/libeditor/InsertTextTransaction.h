@@ -180,8 +180,10 @@ mOffset
 nsString
 mStringToInsert
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 RangeUpdater

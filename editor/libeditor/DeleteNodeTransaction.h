@@ -113,8 +113,10 @@ DeleteNodeTransaction
 (
 )
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 nsCOMPtr

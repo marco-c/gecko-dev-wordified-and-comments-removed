@@ -189,8 +189,10 @@ mRanges
 nsString
 mStringToInsert
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 RangeUpdater

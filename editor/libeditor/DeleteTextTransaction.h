@@ -134,8 +134,10 @@ mNumCharsToDelete
 }
 protected
 :
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 RefPtr

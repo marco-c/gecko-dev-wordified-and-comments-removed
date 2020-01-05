@@ -164,8 +164,10 @@ EDirection
 aAction
 )
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 RefPtr

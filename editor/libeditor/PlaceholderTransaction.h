@@ -204,8 +204,10 @@ mStartSel
 SelectionState
 mEndSel
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 }

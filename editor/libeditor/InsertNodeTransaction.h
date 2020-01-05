@@ -101,8 +101,10 @@ mParent
 int32_t
 mOffset
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 }
