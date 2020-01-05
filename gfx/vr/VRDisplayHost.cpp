@@ -106,7 +106,7 @@ mDisplayInfo
 .
 mDisplayID
 =
-VRDisplayManager
+VRSystemManager
 :
 :
 AllocateDisplayID
@@ -608,7 +608,7 @@ mControllerInfo
 .
 mControllerID
 =
-VRDisplayManager
+VRSystemManager
 :
 :
 AllocateDisplayID
