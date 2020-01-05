@@ -4668,6 +4668,17 @@ sharing
 [
 1
 ]
+*
+test_selectors
+.
+html
+this_better_be_unvisited
+:
+visited
+handling
+[
+2
+]
 #
 #
 Assertions
