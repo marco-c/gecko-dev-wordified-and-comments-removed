@@ -1410,6 +1410,17 @@ addremove
 {
 tzdata_dir
 }
+/
+source
+"
+"
+{
+tzdata_dir
+}
+/
+SVN
+-
+INFO
 "
 "
 {
