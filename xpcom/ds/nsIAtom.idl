@@ -366,6 +366,7 @@ nsAString
 &
 aBuf
 )
+const
 {
 /
 /
@@ -883,6 +884,7 @@ public
 explicit
 nsAtomString
 (
+const
 nsIAtom
 *
 aAtom
@@ -939,6 +941,7 @@ public
 explicit
 nsDependentAtomString
 (
+const
 nsIAtom
 *
 aAtom
