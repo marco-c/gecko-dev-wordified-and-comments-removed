@@ -30395,7 +30395,7 @@ ms
 "
 }
 "
-URLCLASSIFIER_LOOKUP_TIME
+URLCLASSIFIER_LOOKUP_TIME_2
 "
 :
 {
@@ -30431,12 +30431,12 @@ exponential
 high
 "
 :
-500
+5000
 "
 n_buckets
 "
 :
-10
+30
 "
 description
 "
