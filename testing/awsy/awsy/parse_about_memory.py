@@ -378,10 +378,6 @@ Main
 "
 "
     
-data
-=
-None
-    
 try
 :
         

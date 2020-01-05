@@ -11,6 +11,8 @@ virtualenv
 "
 "
 import
+json
+import
 os
 import
 sys
@@ -337,9 +339,7 @@ tests
 =
 None
         
-self
-.
-workdir
+abs_work_dir
 =
 self
 .
@@ -362,9 +362,7 @@ path
 .
 join
 (
-self
-.
-workdir
+abs_work_dir
 '
 tests
 '
@@ -380,14 +378,12 @@ path
 .
 join
 (
-            
 self
 .
 testdir
 '
 awsy
 '
-        
 )
         
 self
@@ -410,7 +406,7 @@ awsy
         
 self
 .
-awsy_testdir
+webroot_dir
 =
 os
 .
@@ -422,7 +418,25 @@ self
 .
 awsy_path
 '
-page_load_test
+html
+'
+)
+        
+self
+.
+results_dir
+=
+os
+.
+path
+.
+join
+(
+self
+.
+awsy_path
+'
+results
 '
 )
         
@@ -689,6 +703,22 @@ manifest
 '
 )
         
+page_load_test_dir
+=
+os
+.
+path
+.
+join
+(
+self
+.
+webroot_dir
+'
+page_load_test
+'
+)
+        
 if
 not
 os
@@ -697,9 +727,7 @@ path
 .
 isdir
 (
-self
-.
-awsy_testdir
+page_load_test_dir
 )
 :
             
@@ -707,9 +735,7 @@ self
 .
 mkdir_p
 (
-self
-.
-awsy_testdir
+page_load_test_dir
 )
         
 self
@@ -721,9 +747,7 @@ manifest_file
             
 output_dir
 =
-self
-.
-awsy_testdir
+page_load_test_dir
             
 cache
 =
@@ -748,9 +772,7 @@ path
 .
 join
 (
-self
-.
-awsy_testdir
+page_load_test_dir
 '
 tp5n
 .
@@ -786,9 +808,7 @@ archive
 -
 d
 '
-self
-.
-awsy_testdir
+page_load_test_dir
 ]
         
 self
@@ -811,9 +831,7 @@ ls
 s
 "
 %
-self
-.
-awsy_testdir
+page_load_test_dir
 )
     
 def
@@ -875,6 +893,77 @@ marionette_errorsummary
 .
 log
 '
+)
+        
+runtime_testvars
+=
+{
+'
+webRootDir
+'
+:
+self
+.
+webroot_dir
+                            
+'
+resultsDir
+'
+:
+self
+.
+results_dir
+}
+        
+runtime_testvars_path
+=
+os
+.
+path
+.
+join
+(
+self
+.
+awsy_path
+'
+runtime
+-
+testvars
+.
+json
+'
+)
+        
+runtime_testvars_file
+=
+open
+(
+runtime_testvars_path
+'
+wb
+'
+)
+        
+runtime_testvars_file
+.
+write
+(
+json
+.
+dumps
+(
+runtime_testvars
+indent
+=
+2
+)
+)
+        
+runtime_testvars_file
+.
+close
+(
 )
         
 cmd
@@ -949,6 +1038,22 @@ testvars
 json
 "
 )
+)
+        
+cmd
+.
+append
+(
+"
+-
+-
+testvars
+=
+%
+s
+"
+%
+runtime_testvars_path
 )
         
 cmd
@@ -1190,6 +1295,10 @@ log_obj
 self
 .
 log_obj
+                                        
+strict
+=
+False
 )
         
 return_code
