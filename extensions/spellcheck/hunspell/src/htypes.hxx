@@ -1,9 +1,9 @@
 #
 ifndef
-HTYPES_HXX_
+_HTYPES_HXX_
 #
 define
-HTYPES_HXX_
+_HTYPES_HXX_
 #
 define
 ROTATE_LEN

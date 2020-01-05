@@ -1,9 +1,9 @@
 #
 ifndef
-LANGNUM_HXX_
+_LANGNUM_HXX_
 #
 define
-LANGNUM_HXX_
+_LANGNUM_HXX_
 enum
 {
 LANG_ar

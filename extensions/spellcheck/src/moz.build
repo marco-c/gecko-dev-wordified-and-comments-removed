@@ -100,7 +100,7 @@ config
 mozbuild
 '
 )
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
