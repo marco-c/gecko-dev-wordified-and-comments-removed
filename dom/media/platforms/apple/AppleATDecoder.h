@@ -229,7 +229,7 @@ MediaRawData
 aSample
 )
 ;
-nsresult
+MediaResult
 DecodeSample
 (
 MediaRawData
@@ -237,7 +237,7 @@ MediaRawData
 aSample
 )
 ;
-nsresult
+MediaResult
 GetInputAudioDescription
 (
 AudioStreamBasicDescription
@@ -252,7 +252,7 @@ uint8_t
 aExtraData
 )
 ;
-nsresult
+MediaResult
 SetupDecoder
 (
 MediaRawData
