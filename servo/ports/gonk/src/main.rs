@@ -81,10 +81,6 @@ net_traits
 ;
 extern
 crate
-script_traits
-;
-extern
-crate
 servo
 ;
 extern

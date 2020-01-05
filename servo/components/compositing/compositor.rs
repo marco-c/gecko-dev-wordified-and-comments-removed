@@ -289,6 +289,7 @@ Key
 KeyModifiers
 KeyState
 LoadData
+MouseButton
 }
 ;
 use
@@ -356,7 +357,6 @@ script_traits
 {
 ConstellationControlMsg
 LayoutControlMsg
-MouseButton
 }
 ;
 use
