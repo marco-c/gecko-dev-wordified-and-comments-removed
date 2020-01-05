@@ -403,8 +403,10 @@ bool
 Timeout
 :
 :
-HasRefCntOne
+HasRefCnt
 (
+uint32_t
+aCount
 )
 const
 {
@@ -416,7 +418,7 @@ get
 )
 =
 =
-1
+aCount
 ;
 }
 #

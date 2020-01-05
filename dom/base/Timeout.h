@@ -113,8 +113,10 @@ eIdleCallbackTimeout
 ifdef
 DEBUG
 bool
-HasRefCntOne
+HasRefCnt
 (
+uint32_t
+aCount
 )
 const
 ;
