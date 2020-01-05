@@ -499,6 +499,11 @@ nsPrintSettingsWin
 cpp
 '
 '
+PDFiumEngineShim
+.
+cpp
+'
+'
 WindowsEMF
 .
 cpp
