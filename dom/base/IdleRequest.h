@@ -140,6 +140,12 @@ isSome
 ;
 }
 uint32_t
+GetTimeoutHandle
+(
+)
+const
+;
+uint32_t
 Handle
 (
 )
