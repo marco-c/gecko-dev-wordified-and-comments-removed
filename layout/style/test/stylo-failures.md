@@ -1030,7 +1030,7 @@ html
 bug
 1355715
 [
-17
+16
 ]
 *
 test_dont_use_document_colors
@@ -2896,7 +2896,7 @@ this_better_be_unvisited
 visited
 handling
 [
-2
+1
 ]
 *
 test_selectors
