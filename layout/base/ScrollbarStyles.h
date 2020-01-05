@@ -189,11 +189,6 @@ nsStyleDisplay
 aDisplay
 )
 ;
-ScrollbarStyles
-(
-)
-{
-}
 bool
 operator
 =
