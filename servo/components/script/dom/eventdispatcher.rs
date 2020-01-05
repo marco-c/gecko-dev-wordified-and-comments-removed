@@ -125,7 +125,7 @@ eventtarget
 :
 :
 {
-EventListenerType
+CompiledEventListener
 EventTarget
 ListenerPhase
 }
@@ -271,7 +271,7 @@ Window
 listener
 :
 &
-EventListenerType
+CompiledEventListener
 current_target
 :
 &
