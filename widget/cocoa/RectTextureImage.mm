@@ -302,6 +302,16 @@ mBufferSize
 height
 )
 ;
+if
+(
+!
+mIOSurface
+)
+{
+return
+nullptr
+;
+}
 }
 mInUpdate
 =
