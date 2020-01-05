@@ -343,7 +343,15 @@ size
 +
 =
 new_actual_size
+;
+(
+*
+user
+)
+.
+size
 -
+=
 old_actual_size
 ;
 new_ptr
