@@ -226,14 +226,6 @@ _onShortcut
 )
 ;
 }
-module
-.
-exports
-.
-CssDocsTooltip
-=
-CssDocsTooltip
-;
 CssDocsTooltip
 .
 prototype
@@ -464,4 +456,10 @@ destroy
 ;
 }
 }
+;
+module
+.
+exports
+=
+CssDocsTooltip
 ;

@@ -132,9 +132,7 @@ emitter
 )
 ;
 const
-{
 Tooltip
-}
 =
 require
 (

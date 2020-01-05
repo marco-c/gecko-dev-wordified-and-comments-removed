@@ -945,9 +945,7 @@ debugger
 )
 ;
 var
-{
 Tooltip
-}
 =
 require
 (
