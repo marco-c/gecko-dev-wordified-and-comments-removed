@@ -34674,7 +34674,9 @@ mStylePosition
 >
 UsedJustifySelf
 (
-nullptr
+StyleContext
+(
+)
 )
 :
 aChildRI
@@ -34684,7 +34686,9 @@ mStylePosition
 >
 UsedAlignSelf
 (
-nullptr
+StyleContext
+(
+)
 )
 ;
 alignment
@@ -34695,12 +34699,6 @@ NS_STYLE_ALIGN_FLAG_BITS
 ;
 if
 (
-alignment
-=
-=
-NS_STYLE_ALIGN_AUTO
-|
-|
 alignment
 =
 =
