@@ -4223,10 +4223,15 @@ CrossCompartmentWrapperObject
 i
 =
 =
-1
+CrossCompartmentWrapperObject
+:
+:
+GrayLinkReservedSlot
 )
+{
 continue
 ;
+}
 TraceEdge
 (
 trc
