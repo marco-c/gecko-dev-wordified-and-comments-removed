@@ -368,6 +368,17 @@ surf
 .
 sdl_surf
 ;
+cairo_surface_flush
+(
+surfaces
+.
+s1
+.
+surf
+.
+cairo_surf
+)
+;
 sdl
 :
 :
