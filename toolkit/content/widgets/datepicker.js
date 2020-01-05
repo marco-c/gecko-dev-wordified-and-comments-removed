@@ -106,6 +106,7 @@ weekends
 monthStrings
 weekdayStrings
 locale
+dir
 }
 =
 this
@@ -131,6 +132,12 @@ calViewSize
 CAL_VIEW_SIZE
 }
 )
+;
+document
+.
+dir
+=
+dir
 ;
 this
 .
@@ -859,7 +866,7 @@ this
 .
 context
 .
-buttonLeft
+buttonPrev
 )
 {
 event
@@ -906,7 +913,7 @@ this
 .
 context
 .
-buttonRight
+buttonNext
 )
 {
 event
@@ -960,7 +967,7 @@ this
 .
 context
 .
-buttonLeft
+buttonPrev
 |
 |
 event
@@ -972,7 +979,7 @@ this
 .
 context
 .
-buttonRight
+buttonNext
 )
 {
 event
