@@ -680,6 +680,7 @@ bool
 derive
 (
 Clone
+Debug
 Deserialize
 Serialize
 )
