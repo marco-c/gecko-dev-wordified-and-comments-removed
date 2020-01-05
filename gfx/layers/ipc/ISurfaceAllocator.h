@@ -300,6 +300,17 @@ return
 false
 ;
 }
+virtual
+bool
+UsesWebRenderBridge
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 void

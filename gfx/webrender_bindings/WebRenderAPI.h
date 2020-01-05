@@ -74,6 +74,9 @@ layers
 class
 CompositorBridgeParentBase
 ;
+class
+WebRenderBridgeParent
+;
 }
 namespace
 wr
@@ -409,6 +412,11 @@ WebRenderAPI
 (
 )
 ;
+void
+WaitFlushed
+(
+)
+;
 WrAPI
 *
 mWrApi
@@ -428,6 +436,13 @@ mUseANGLE
 friend
 class
 DisplayListBuilder
+;
+friend
+class
+layers
+:
+:
+WebRenderBridgeParent
 ;
 }
 ;

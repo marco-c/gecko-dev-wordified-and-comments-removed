@@ -1839,7 +1839,7 @@ SKIA
 TextureFlags
 :
 :
-DEFAULT
+SNAPSHOT
 )
 ;
 if

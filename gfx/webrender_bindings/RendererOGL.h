@@ -72,6 +72,9 @@ namespace
 wr
 {
 class
+RenderTextureHost
+;
+class
 RendererOGL
 {
 friend
@@ -208,6 +211,14 @@ WrRenderedEpochs
 *
 FlushRenderedEpochs
 (
+)
+;
+RenderTextureHost
+*
+GetRenderTexture
+(
+uint64_t
+aExternalImageId
 )
 ;
 protected

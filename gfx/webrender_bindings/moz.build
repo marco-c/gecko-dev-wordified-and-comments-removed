@@ -120,6 +120,11 @@ RendererOGL
 h
 '
 '
+RenderTextureHost
+.
+h
+'
+'
 RenderThread
 .
 h
@@ -146,6 +151,11 @@ UNIFIED_SOURCES
 [
 '
 RendererOGL
+.
+cpp
+'
+'
+RenderTextureHost
 .
 cpp
 '

@@ -50,6 +50,8 @@ aDesc
 ISurfaceAllocator
 *
 aDeallocator
+LayersBackend
+aBackend
 TextureFlags
 aFlags
 )
@@ -101,6 +103,7 @@ CreateBackendIndependentTextureHost
 (
 aDesc
 aDeallocator
+aBackend
 aFlags
 )
 ;

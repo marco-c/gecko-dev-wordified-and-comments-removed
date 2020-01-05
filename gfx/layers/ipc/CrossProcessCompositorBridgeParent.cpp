@@ -1313,10 +1313,8 @@ WebRenderCompositableHolder
 >
 holder
 =
-root
--
->
-CompositableHolder
+new
+WebRenderCompositableHolder
 (
 )
 ;

@@ -939,6 +939,10 @@ CreateBackendIndependentTextureHost
 (
 descriptor
 nullptr
+LayersBackend
+:
+:
+LAYERS_NONE
 texture
 -
 >
@@ -1208,6 +1212,10 @@ CreateBackendIndependentTextureHost
 (
 descriptor
 nullptr
+LayersBackend
+:
+:
+LAYERS_NONE
 client
 -
 >
