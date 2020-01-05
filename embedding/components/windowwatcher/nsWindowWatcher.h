@@ -256,6 +256,8 @@ aNavigate
 nsIArray
 *
 aArgv
+bool
+aIsPopupSpam
 mozIDOMWindowProxy
 *
 *
