@@ -95,11 +95,6 @@ Helpers
 cpp
 '
 '
-TestArray
-.
-cpp
-'
-'
 TestAtoms
 .
 cpp

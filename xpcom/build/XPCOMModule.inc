@@ -95,14 +95,6 @@ Create
 )
 COMPONENT
 (
-SUPPORTSARRAY
-nsSupportsArray
-:
-:
-Create
-)
-COMPONENT
-(
 ARRAY
 nsArrayBase
 :
