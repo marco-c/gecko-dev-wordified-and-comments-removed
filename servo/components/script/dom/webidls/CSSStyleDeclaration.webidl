@@ -810,6 +810,15 @@ EmptyString
 ]
 attribute
 DOMString
+textOverflow
+;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 textAlign
 ;
 [
