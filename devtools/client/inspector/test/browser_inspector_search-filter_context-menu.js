@@ -96,7 +96,7 @@ searchContextMenu
 =
 toolbox
 .
-textboxContextMenuPopup
+textBoxContextMenuPopup
 ;
 ok
 (

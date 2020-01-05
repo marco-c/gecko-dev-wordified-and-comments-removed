@@ -2176,6 +2176,13 @@ e
 ;
 }
 }
+contextMenu
+:
+this
+.
+inspector
+.
+onTextBoxContextMenu
 cssProperties
 :
 this

@@ -42,7 +42,7 @@ textboxContextMenu
 =
 toolbox
 .
-textboxContextMenuPopup
+textBoxContextMenuPopup
 ;
 emptyClipboard
 (
