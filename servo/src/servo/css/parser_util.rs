@@ -663,7 +663,7 @@ Fail
 fn
 parse_font_size
 (
-str
+_str
 :
 ~
 str
@@ -929,7 +929,7 @@ input
 )
 ;
 let
-actual_rule
+_actual_rule
 =
 build_stylesheet
 (
@@ -937,7 +937,7 @@ token_port
 )
 ;
 let
-expected_rule
+_expected_rule
 :
 Stylesheet
 =
@@ -1094,7 +1094,7 @@ input
 )
 ;
 let
-actual_rule
+_actual_rule
 =
 build_stylesheet
 (
@@ -1102,7 +1102,7 @@ token_port
 )
 ;
 let
-expected_rule
+_expected_rule
 :
 Stylesheet
 =

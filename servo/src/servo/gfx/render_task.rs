@@ -1000,15 +1000,6 @@ bindgen
 :
 cairo_scaled_font_destroy
 ;
-let
-draw_target
-=
-ctx
-.
-canvas
-.
-azure_draw_target
-;
 /
 /
 FIXME

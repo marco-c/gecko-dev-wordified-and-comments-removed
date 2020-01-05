@@ -719,7 +719,7 @@ substrings
 fn
 iter_indivisible_slices
 (
-font
+_font
 :
 &
 Font

@@ -536,7 +536,7 @@ kind
 fn
 bubble_widths_inline
 (
-ctx
+_ctx
 :
 &
 LayoutContext
@@ -674,7 +674,7 @@ context
 fn
 assign_widths_inline
 (
-ctx
+_ctx
 :
 &
 LayoutContext
@@ -888,7 +888,7 @@ cur_y
 fn
 assign_height_inline
 (
-ctx
+_ctx
 :
 &
 LayoutContext
