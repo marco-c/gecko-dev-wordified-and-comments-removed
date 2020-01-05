@@ -172,6 +172,11 @@ XPIDL_SOURCES
 =
 [
 '
+mozILocaleService
+.
+idl
+'
+'
 nsICollation
 .
 idl
