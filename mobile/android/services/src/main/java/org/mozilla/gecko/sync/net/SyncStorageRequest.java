@@ -133,6 +133,7 @@ Resource
 {
 public
 static
+final
 HashMap
 <
 String

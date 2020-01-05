@@ -187,6 +187,7 @@ GeckoLogger
 ;
 public
 static
+final
 boolean
 LOG_PERSONAL_INFORMATION
 =

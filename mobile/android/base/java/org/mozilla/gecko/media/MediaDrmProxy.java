@@ -238,6 +238,7 @@ opus
 ;
 public
 static
+final
 ArrayList
 <
 MediaDrmProxy

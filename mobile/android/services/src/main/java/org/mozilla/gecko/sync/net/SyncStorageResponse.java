@@ -75,6 +75,7 @@ RESPONSE_CLIENT_UPGRADE_REQUIRED
 ;
 public
 static
+final
 HashMap
 <
 String

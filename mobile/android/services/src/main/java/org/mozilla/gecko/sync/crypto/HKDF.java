@@ -63,6 +63,7 @@ HKDF
 {
 public
 static
+final
 String
 HMAC_ALGORITHM
 =

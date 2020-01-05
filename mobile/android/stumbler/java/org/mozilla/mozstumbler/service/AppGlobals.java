@@ -113,6 +113,7 @@ PASSIVE_MODE_MAX_SCANS_PER_GPS
 ;
 public
 static
+final
 String
 appVersionName
 =
@@ -126,6 +127,7 @@ appVersionName
 ;
 public
 static
+final
 int
 appVersionCode
 =
@@ -133,6 +135,7 @@ appVersionCode
 ;
 public
 static
+final
 String
 appName
 =

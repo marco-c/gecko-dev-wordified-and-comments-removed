@@ -881,6 +881,7 @@ trackingProtectionPromptShown
 ;
 public
 static
+final
 String
 PREFS_HEALTHREPORT_UPLOAD_ENABLED
 =
