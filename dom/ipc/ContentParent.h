@@ -582,6 +582,14 @@ ContentParent
 aArray
 )
 ;
+const
+nsAString
+&
+GetRemoteType
+(
+)
+const
+;
 enum
 CPIteratorPolicy
 {
