@@ -282,6 +282,12 @@ mMonitor
 ;
 protected
 :
+nsCOMPtr
+<
+nsIFile
+>
+mProfileDir
+;
 nsTArray
 <
 ServiceWorkerRegistrationData
@@ -300,12 +306,6 @@ mShutdownCompleteFlag
 ;
 uint32_t
 mRunnableCounter
-;
-nsCOMPtr
-<
-nsIFile
->
-mProfileDir
 ;
 }
 ;
