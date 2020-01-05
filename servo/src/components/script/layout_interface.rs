@@ -116,12 +116,7 @@ ScriptView
 >
 Chan
 <
-Result
-<
 ContentBoxResponse
-(
-)
->
 >
 )
 ContentBoxesQuery
@@ -132,12 +127,7 @@ ScriptView
 >
 Chan
 <
-Result
-<
 ContentBoxesResponse
-(
-)
->
 >
 )
 HitTestQuery
