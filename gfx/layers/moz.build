@@ -2526,6 +2526,13 @@ WebRenderPaintedLayer
 .
 cpp
 '
+'
+wr
+/
+WebRenderTextLayer
+.
+cpp
+'
 ]
 SOURCES
 +
