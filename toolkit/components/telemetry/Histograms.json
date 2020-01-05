@@ -7774,7 +7774,7 @@ isVisible
 "
 }
 "
-GPU_PROCESS_LAUNCH_TIME_MS
+GPU_PROCESS_LAUNCH_TIME_MS_2
 "
 :
 {
@@ -7809,6 +7809,7 @@ bug_numbers
 :
 [
 1297790
+1317796
 ]
 "
 kind
@@ -7821,12 +7822,12 @@ exponential
 high
 "
 :
-1000
+64000
 "
 n_buckets
 "
 :
-50
+100
 "
 releaseChannelCollection
 "

@@ -389,7 +389,7 @@ AccumulateTimeDelta
 Telemetry
 :
 :
-GPU_PROCESS_LAUNCH_TIME_MS
+GPU_PROCESS_LAUNCH_TIME_MS_2
 mHost
 -
 >
@@ -453,7 +453,7 @@ AccumulateTimeDelta
 Telemetry
 :
 :
-GPU_PROCESS_LAUNCH_TIME_MS
+GPU_PROCESS_LAUNCH_TIME_MS_2
 mHost
 -
 >
