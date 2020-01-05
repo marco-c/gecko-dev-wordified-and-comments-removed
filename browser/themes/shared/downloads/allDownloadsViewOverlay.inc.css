@@ -244,6 +244,16 @@ calc
 ;
 }
 .
+downloadDetailsNormal
+.
+downloadDetailsHover
+{
+display
+:
+none
+;
+}
+.
 downloadButton
 {
 -
