@@ -176,8 +176,6 @@ attribute
 DOMString
 value
 ;
-/
-/
 attribute
 DOMString
 text
