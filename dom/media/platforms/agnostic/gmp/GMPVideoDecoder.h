@@ -187,6 +187,13 @@ const
 override
 {
 return
+mConvertToAnnexB
+?
+ConversionRequired
+:
+:
+kNeedAnnexB
+:
 ConversionRequired
 :
 :
@@ -438,6 +445,11 @@ mFlushPromise
 ;
 DecodedData
 mDecodedData
+;
+bool
+mConvertToAnnexB
+=
+false
 ;
 }
 ;
