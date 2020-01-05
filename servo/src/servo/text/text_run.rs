@@ -88,7 +88,6 @@ new
 (
 font
 :
-&
 Font
 text
 :
@@ -101,6 +100,7 @@ glyphs
 =
 shape_text
 (
+&
 font
 text
 )
@@ -275,6 +275,7 @@ run
 =
 TextRun
 (
+*
 font
 "
 firecracker

@@ -683,6 +683,8 @@ drop
 unsafe
 {
 for
+self
+.
 d
 .
 free_list
@@ -1594,6 +1596,8 @@ bool
 {
 self
 .
+d
+.
 layout_active
 }
 fn
@@ -1605,10 +1609,14 @@ assert
 !
 self
 .
+d
+.
 layout_active
 ;
 assert
 self
+.
+d
 .
 first_dirty
 .
@@ -1617,6 +1625,8 @@ is_null
 )
 ;
 self
+.
+d
 .
 layout_active
 =
@@ -1632,10 +1642,14 @@ unsafe
 assert
 self
 .
+d
+.
 layout_active
 ;
 if
 self
+.
+d
 .
 first_dirty
 .
@@ -1648,6 +1662,8 @@ mut
 handle
 =
 self
+.
+d
 .
 first_dirty
 ;
@@ -1712,6 +1728,8 @@ next_handle
 }
 self
 .
+d
+.
 first_dirty
 =
 null_handle
@@ -1722,6 +1740,8 @@ null_handle
 assert
 self
 .
+d
+.
 first_dirty
 .
 is_null
@@ -1729,6 +1749,8 @@ is_null
 )
 ;
 self
+.
+d
 .
 layout_active
 =
@@ -1822,6 +1844,8 @@ unsafe
 if
 self
 .
+d
+.
 layout_active
 &
 &
@@ -1880,10 +1904,14 @@ set_next_dirty
 (
 self
 .
+d
+.
 first_dirty
 )
 ;
 self
+.
+d
 .
 first_dirty
 =
@@ -2037,6 +2065,8 @@ d
 )
 ;
 self
+.
+d
 .
 free_list
 +

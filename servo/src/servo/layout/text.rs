@@ -201,6 +201,7 @@ run
 =
 TextRun
 (
+*
 font
 subbox
 .
