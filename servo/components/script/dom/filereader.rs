@@ -314,7 +314,7 @@ js
 typedarray
 :
 :
-Uint8Array
+ArrayBuffer
 ;
 use
 rustc_serialize
@@ -1907,7 +1907,7 @@ null_mut
 assert
 !
 (
-Uint8Array
+ArrayBuffer
 :
 :
 create
