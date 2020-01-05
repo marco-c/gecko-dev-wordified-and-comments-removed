@@ -155,9 +155,6 @@ change
 use_notice
 :
 true
-email
-:
-false
 branches
 :
 only
