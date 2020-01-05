@@ -1582,6 +1582,11 @@ nsILoadContextInfo
 aInfo
 )
 {
+MOZ_ASSERT
+(
+aInfo
+)
+;
 if
 (
 !
