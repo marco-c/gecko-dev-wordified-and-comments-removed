@@ -48,6 +48,8 @@ parser
 out
 src
 /
+components
+/
 servo
 /
 dom
@@ -61,6 +63,8 @@ codegen
 rs
 src
 /
+components
+/
 servo
 /
 dom
@@ -72,6 +76,8 @@ codegen
 _cache
 /
 src
+/
+components
 /
 servo
 /
@@ -88,6 +94,8 @@ test
 rs
 src
 /
+components
+/
 servo
 /
 dom
@@ -101,6 +109,8 @@ PrototypeList
 h
 src
 /
+components
+/
 servo
 /
 dom
@@ -113,6 +123,8 @@ UnionTypes
 .
 h
 src
+/
+components
 /
 servo
 /

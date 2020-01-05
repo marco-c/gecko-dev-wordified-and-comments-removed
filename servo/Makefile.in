@@ -865,12 +865,6 @@ submodule
 )
 )
 )
-(
-info
-(
-DEPS_SUBMODULES
-)
-)
 #
 include
 submodule
