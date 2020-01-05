@@ -7401,10 +7401,15 @@ GetReferrerPolicy
 )
 )
 ;
-NS_ENSURE_SUCCESS
+Unused
+<
+<
+NS_WARN_IF
+(
+NS_FAILED
 (
 rv
-rv
+)
 )
 ;
 }
