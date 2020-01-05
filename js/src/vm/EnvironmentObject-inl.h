@@ -16,6 +16,15 @@ h
 #
 include
 "
+frontend
+/
+SharedContext
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
