@@ -3736,6 +3736,7 @@ NS_LITERAL_CSTRING
 global
 "
 )
+false
 utf8DictName
 )
 ;

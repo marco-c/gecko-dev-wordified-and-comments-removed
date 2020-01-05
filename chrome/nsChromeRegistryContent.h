@@ -134,6 +134,8 @@ const
 nsACString
 &
 aPackage
+bool
+aAsBCP47
 nsACString
 &
 aLocale

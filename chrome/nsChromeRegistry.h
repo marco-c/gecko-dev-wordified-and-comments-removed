@@ -389,6 +389,14 @@ nsACString
 aLocale
 )
 ;
+void
+SanitizeForBCP47
+(
+nsACString
+&
+aLocale
+)
+;
 public
 :
 static

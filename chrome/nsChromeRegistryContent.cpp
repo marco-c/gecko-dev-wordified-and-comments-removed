@@ -1018,6 +1018,8 @@ const
 nsACString
 &
 aPackage
+bool
+aAsBCP47
 nsACString
 &
 aLocale
@@ -1062,6 +1064,17 @@ aLocale
 =
 mLocale
 ;
+if
+(
+aAsBCP47
+)
+{
+SanitizeForBCP47
+(
+aLocale
+)
+;
+}
 return
 NS_OK
 ;

@@ -2187,6 +2187,7 @@ chromeReg
 GetSelectedLocale
 (
 package
+false
 locale
 )
 ;
