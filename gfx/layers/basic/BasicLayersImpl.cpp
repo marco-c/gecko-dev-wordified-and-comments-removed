@@ -920,6 +920,11 @@ size
 )
 )
 ;
+delete
+[
+]
+buffer
+;
 translator
 -
 >
