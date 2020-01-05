@@ -320,10 +320,16 @@ initEvent
 (
 DOMString
 type
+optional
 boolean
 bubbles
+=
+false
+optional
 boolean
 cancelable
+=
+false
 )
 ;
 attribute

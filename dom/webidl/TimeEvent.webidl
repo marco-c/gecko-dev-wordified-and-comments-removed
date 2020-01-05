@@ -176,11 +176,17 @@ initTimeEvent
 (
 DOMString
 aType
+optional
 Window
 ?
 aView
+=
+null
+optional
 long
 aDetail
+=
+0
 )
 ;
 }
