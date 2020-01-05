@@ -280,6 +280,17 @@ Shutdown
 (
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 bool
 GetAuthorStyleDisabled
 (
