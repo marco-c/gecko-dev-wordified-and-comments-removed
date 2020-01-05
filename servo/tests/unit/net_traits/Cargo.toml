@@ -45,9 +45,10 @@ doctest
 false
 [
 dependencies
-.
-net_traits
 ]
+net_traits
+=
+{
 path
 =
 "
@@ -64,3 +65,4 @@ components
 /
 net_traits
 "
+}

@@ -45,9 +45,10 @@ doctest
 false
 [
 dependencies
-.
-profile
 ]
+profile
+=
+{
 path
 =
 "
@@ -64,11 +65,10 @@ components
 /
 profile
 "
-[
-dependencies
-.
+}
 profile_traits
-]
+=
+{
 path
 =
 "
@@ -85,3 +85,4 @@ components
 /
 profile_traits
 "
+}

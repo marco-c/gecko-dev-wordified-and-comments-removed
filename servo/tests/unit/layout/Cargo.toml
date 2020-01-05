@@ -45,9 +45,10 @@ doctest
 false
 [
 dependencies
-.
-layout
 ]
+layout
+=
+{
 path
 =
 "
@@ -64,3 +65,4 @@ components
 /
 layout
 "
+}
