@@ -436,7 +436,7 @@ mFullZoom
 ;
 }
 bool
-IsPrinterSurface
+IsPrinterContext
 (
 )
 ;

@@ -676,7 +676,7 @@ systemFont
 mDeviceContext
 -
 >
-IsPrinterSurface
+IsPrinterContext
 (
 )
 aFont
