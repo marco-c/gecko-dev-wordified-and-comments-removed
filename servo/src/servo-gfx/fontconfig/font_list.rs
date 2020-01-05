@@ -148,7 +148,6 @@ pub
 impl
 FontconfigFontListHandle
 {
-static
 pub
 fn
 new

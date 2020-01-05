@@ -8,7 +8,6 @@ base
 {
 Image
 load_from_memory
-test_image_bin
 }
 ;
 use
@@ -34,7 +33,6 @@ url
 :
 :
 {
-make_url
 UrlMap
 url_map
 }
@@ -72,15 +70,6 @@ task
 :
 :
 spawn
-;
-use
-resource
-:
-:
-util
-:
-:
-spawn_listener
 ;
 use
 core
@@ -379,7 +368,6 @@ ImageFailed
 impl
 ImageResponseMsg
 {
-pure
 fn
 clone
 (
@@ -427,7 +415,6 @@ Eq
 for
 ImageResponseMsg
 {
-pure
 fn
 eq
 (
@@ -519,7 +506,6 @@ _
 false
 }
 }
-pure
 fn
 ne
 (
@@ -1225,7 +1211,7 @@ response
 =
 >
 {
-fail_unless
+assert
 !
 (
 self
@@ -1406,6 +1392,7 @@ state
 )
 =
 >
+*
 state
 None
 =
@@ -1908,7 +1895,7 @@ data_cell
 =
 >
 {
-fail_unless
+assert
 !
 (
 !
@@ -2014,12 +2001,10 @@ Some
 ARC
 (
 ~
-option
-:
-:
+image
+.
 unwrap
 (
-image
 )
 )
 )
@@ -2273,8 +2258,6 @@ waiters
 let
 waiters
 =
-&
-mut
 *
 waiters
 ;
@@ -2567,8 +2550,6 @@ vec
 :
 push
 (
-&
-mut
 *
 waiters
 response
@@ -3507,7 +3488,7 @@ resource_task
 Exit
 )
 ;
-fail_unless
+assert
 !
 (
 !
@@ -3672,7 +3653,7 @@ response_chan
 )
 )
 ;
-fail_unless
+assert
 !
 (
 response_port
@@ -4447,7 +4428,7 @@ it
 s
 already
 cached
-fail_unless
+assert
 !
 (
 !
@@ -4741,7 +4722,7 @@ it
 s
 already
 cached
-fail_unless
+assert
 !
 (
 !

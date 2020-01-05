@@ -9,7 +9,6 @@ content_task
 ContentTask
 ExecuteMsg
 ParseMsg
-ExitMsg
 }
 ;
 use

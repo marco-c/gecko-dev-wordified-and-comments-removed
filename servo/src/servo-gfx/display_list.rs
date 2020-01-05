@@ -44,15 +44,6 @@ range
 Range
 ;
 use
-azure
-:
-:
-azure_hl
-:
-:
-DrawTarget
-;
-use
 clone_arc
 =
 std
@@ -105,11 +96,10 @@ this
 use
 ?
 }
+pub
 impl
 DisplayItemData
 {
-static
-pure
 fn
 new
 (
@@ -216,10 +206,10 @@ Au
 Color
 )
 }
+pub
 impl
 DisplayItem
 {
-pure
 fn
 d
 (
@@ -229,8 +219,8 @@ self
 -
 >
 &
+'
 self
-/
 DisplayItemData
 {
 match
@@ -526,8 +516,6 @@ rgb
 )
 ;
 }
-static
-pure
 fn
 new_SolidColor
 (
@@ -558,8 +546,6 @@ bounds
 color
 )
 }
-static
-pure
 fn
 new_Border
 (
@@ -594,8 +580,6 @@ width
 color
 )
 }
-static
-pure
 fn
 new_Text
 (
@@ -648,8 +632,6 @@ Images
 are
 not
 sendable
-static
-pure
 fn
 new_Image
 (
@@ -709,7 +691,6 @@ pub
 impl
 DisplayList
 {
-static
 fn
 new
 (

@@ -1,3 +1,7 @@
+extern
+mod
+netsurfcss
+;
 use
 dom
 :
@@ -12,10 +16,6 @@ core
 :
 :
 cast
-;
-extern
-mod
-netsurfcss
 ;
 use
 css
@@ -37,7 +37,6 @@ VoidPtrLike
 for
 AbstractNode
 {
-static
 fn
 from_void_ptr
 (
@@ -53,7 +52,7 @@ c_void
 >
 AbstractNode
 {
-fail_unless
+assert
 !
 (
 node

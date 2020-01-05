@@ -55,6 +55,8 @@ ClientRect
 fn
 Top
 (
+&
+self
 )
 -
 >
@@ -63,6 +65,8 @@ f32
 fn
 Bottom
 (
+&
+self
 )
 -
 >
@@ -71,6 +75,8 @@ f32
 fn
 Left
 (
+&
+self
 )
 -
 >
@@ -79,6 +85,8 @@ f32
 fn
 Right
 (
+&
+self
 )
 -
 >
@@ -87,6 +95,8 @@ f32
 fn
 Width
 (
+&
+self
 )
 -
 >
@@ -95,6 +105,8 @@ f32
 fn
 Height
 (
+&
+self
 )
 -
 >
@@ -129,6 +141,8 @@ ClientRectImpl
 fn
 Top
 (
+&
+self
 )
 -
 >
@@ -141,6 +155,8 @@ top
 fn
 Bottom
 (
+&
+self
 )
 -
 >
@@ -153,6 +169,8 @@ bottom
 fn
 Left
 (
+&
+self
 )
 -
 >
@@ -165,6 +183,8 @@ left
 fn
 Right
 (
+&
+self
 )
 -
 >
@@ -177,6 +197,8 @@ right
 fn
 Width
 (
+&
+self
 )
 -
 >
@@ -199,6 +221,8 @@ left
 fn
 Height
 (
+&
+self
 )
 -
 >
@@ -338,11 +362,11 @@ fn
 wrap_object_shared
 (
 self
-cx
+_cx
 :
 *
 JSContext
-scope
+_scope
 :
 *
 JSObject

@@ -39,7 +39,6 @@ self
 >
 JSVal
 ;
-static
 fn
 from_jsval
 (
@@ -81,7 +80,6 @@ as
 i32
 )
 }
-static
 fn
 from_jsval
 (

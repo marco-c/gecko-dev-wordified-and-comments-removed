@@ -75,12 +75,13 @@ depth
 data
 )
 }
-const
+static
 TEST_IMAGE
 :
 [
 u8
-*
+.
+.
 4962
 ]
 =
@@ -159,7 +160,7 @@ s
 what
 cairo
 wants
-const
+static
 FORCE_DEPTH
 :
 uint
@@ -187,7 +188,7 @@ image
 =
 >
 {
-fail_unless
+assert
 !
 (
 image
@@ -299,7 +300,7 @@ fail
 }
 }
 ;
-fail_unless
+assert
 !
 (
 image

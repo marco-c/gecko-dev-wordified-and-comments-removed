@@ -28,7 +28,7 @@ surface
 ImageSurface
 )
 {
-fail_unless
+assert
 !
 (
 surface

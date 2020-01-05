@@ -9,7 +9,10 @@ Size2D
 ;
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 enum
@@ -62,7 +65,6 @@ u8
 impl
 ImageSurface
 {
-static
 pub
 fn
 new

@@ -314,7 +314,6 @@ pub
 impl
 FreeTypeFontHandle
 {
-static
 priv
 fn
 set_char_size
@@ -400,7 +399,6 @@ Err
 )
 }
 }
-static
 pub
 fn
 new_from_file
@@ -557,7 +555,6 @@ Err
 )
 }
 }
-static
 pub
 fn
 new_from_file_unstyled
@@ -685,7 +682,6 @@ face
 }
 )
 }
-static
 pub
 fn
 new_from_buffer
@@ -984,7 +980,6 @@ recreate
 this
 FontHandle
 .
-pure
 fn
 face_identifier
 (
@@ -1041,7 +1036,6 @@ family_name
 )
 }
 }
-pure
 fn
 family_name
 (
@@ -1074,7 +1068,6 @@ family_name
 )
 }
 }
-pure
 fn
 face_name
 (
@@ -1105,7 +1098,6 @@ face
 )
 }
 }
-pure
 fn
 is_italic
 (
@@ -1133,7 +1125,6 @@ FT_STYLE_FLAG_ITALIC
 0
 }
 }
-pure
 fn
 boldness
 (
@@ -1829,8 +1820,8 @@ self
 -
 >
 &
+'
 self
-/
 FT_FaceRec
 {
 unsafe

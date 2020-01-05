@@ -30,10 +30,7 @@ js
 jsapi
 :
 :
-{
 JSVal
-JSObject
-}
 ;
 use
 util

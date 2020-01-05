@@ -5,7 +5,6 @@ font
 {
 CSSFontWeight
 SpecifiedFontStyle
-UsedFontStyle
 }
 ;
 use
@@ -33,7 +32,7 @@ core
 hashmap
 :
 :
-linear
+HashMap
 ;
 #
 [
@@ -88,8 +87,6 @@ macos
 ]
 type
 FontListHandle
-/
-&
 =
 quartz
 :
@@ -112,8 +109,6 @@ linux
 ]
 type
 FontListHandle
-/
-&
 =
 fontconfig
 :
@@ -138,7 +133,6 @@ macos
 "
 )
 ]
-static
 pub
 fn
 new
@@ -188,7 +182,6 @@ linux
 "
 )
 ]
-static
 pub
 fn
 new
@@ -232,10 +225,7 @@ pub
 type
 FontFamilyMap
 =
-linear
-:
-:
-LinearMap
+HashMap
 <
 ~
 str
@@ -250,7 +240,6 @@ fn
 get_available_families
 (
 &
-const
 self
 fctx
 :
@@ -268,7 +257,6 @@ fn
 load_variations_for_family
 (
 &
-const
 self
 family
 :
@@ -292,7 +280,6 @@ pub
 impl
 FontList
 {
-static
 fn
 new
 (
@@ -336,10 +323,7 @@ handle
 handle
 family_map
 :
-linear
-:
-:
-LinearMap
+HashMap
 :
 :
 new
@@ -689,7 +673,6 @@ decision
 family_name
 )
 ;
-return
 family
 .
 map
@@ -701,7 +684,6 @@ f
 *
 f
 )
-;
 }
 }
 pub
@@ -723,7 +705,6 @@ pub
 impl
 FontFamily
 {
-static
 fn
 new
 (
@@ -769,8 +750,17 @@ native
 FontListHandle
 )
 {
-if
+let
+this
+:
+&
+mut
+FontFamily
+=
 self
+;
+if
+this
 .
 entries
 .
@@ -790,10 +780,10 @@ load_variations_for_family
 self
 )
 ;
-fail_unless
+assert
 !
 (
-self
+this
 .
 entries
 .
@@ -836,8 +826,17 @@ load_family_variations
 list
 )
 ;
-for
+let
+this
+:
+&
+mut
+FontFamily
+=
 self
+;
+for
+this
 .
 entries
 .
@@ -920,7 +919,6 @@ pub
 impl
 FontEntry
 {
-static
 fn
 new
 (
@@ -967,7 +965,6 @@ handle
 handle
 }
 }
-pure
 fn
 is_bold
 (
@@ -986,7 +983,6 @@ is_bold
 (
 )
 }
-pure
 fn
 is_italic
 (

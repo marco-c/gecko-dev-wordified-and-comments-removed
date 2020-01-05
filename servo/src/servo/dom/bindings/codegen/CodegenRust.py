@@ -13737,14 +13737,15 @@ arrays
 (
 (
 "
-const
+static
 %
 s
 :
 [
 %
 s
-*
+.
+.
 %
 i
 ]
@@ -13800,13 +13801,14 @@ arrays
 =
 (
 "
-const
+static
 %
 s_ids
 :
 [
 jsid
-*
+.
+.
 %
 i
 ]
@@ -14405,13 +14407,14 @@ m
             
 return
 "
-const
+static
 %
 s_name
 :
 [
 u8
-*
+.
+.
 %
 i
 ]
@@ -14918,13 +14921,14 @@ name
             
 return
 "
-const
+static
 %
 s_name
 :
 [
 u8
-*
+.
+.
 %
 i
 ]
@@ -15244,13 +15248,14 @@ name
             
 return
 "
-const
+static
 %
 s_name
 :
 [
 u8
-*
+.
+.
 %
 i
 ]
@@ -15516,7 +15521,7 @@ return
 "
 "
 "
-const
+static
 NativeHooks
 :
 NativePropertyHooks
@@ -16147,6 +16152,17 @@ imports
             
 return
 '
+#
+[
+allow
+(
+unused_imports
+)
+]
+;
+'
++
+'
 '
 .
 join
@@ -16181,13 +16197,13 @@ __init__
 self
 child
                            
-definePre
+declarePre
 =
 _useString
 (
 sorted
 (
-defineImports
+declareImports
 )
 )
 )
@@ -16604,12 +16620,13 @@ return
 "
 "
 "
-const
+static
 Class_name
 :
 [
 u8
-*
+.
+.
 %
 i
 ]
@@ -16617,7 +16634,7 @@ i
 %
 s
 ;
-const
+static
 Class
 :
 DOMJSClass
@@ -17286,12 +17303,13 @@ return
 "
 "
 "
-const
+static
 PrototypeClassName__
 :
 [
 u8
-*
+.
+.
 %
 s
 ]
@@ -17299,7 +17317,7 @@ s
 %
 s
 ;
-const
+static
 PrototypeClass
 :
 JSClass
@@ -17926,7 +17944,7 @@ return
 "
 "
 "
-const
+static
 InterfaceObjectClass
 :
 JSClass
@@ -24798,8 +24816,6 @@ Argument
 JSHandleObject
 '
 '
-+
-+
 obj
 '
 )
@@ -25240,8 +25256,6 @@ Argument
 JSHandleObject
 '
 '
-+
-+
 obj
 '
 )
@@ -25654,7 +25668,7 @@ n
 "
                 
 "
-const
+static
 %
 s
 :
@@ -29355,7 +29369,7 @@ return
 "
 "
 "
-const
+static
 Class
 :
 DOMClass
@@ -30221,9 +30235,6 @@ descriptors
 dictionaries
                          
 [
-]
-                         
-[
 '
 js
 :
@@ -30388,6 +30399,9 @@ content_task
 task_from_context
 '
                          
+]
+                         
+[
 ]
                          
 curr

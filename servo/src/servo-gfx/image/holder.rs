@@ -15,17 +15,10 @@ image_cache_task
 :
 :
 {
-ImageCacheTask
 ImageReady
 ImageNotReady
 ImageFailed
 }
-;
-use
-resource
-:
-:
-image_cache_task
 ;
 use
 resource
@@ -111,7 +104,6 @@ pub
 impl
 ImageHolder
 {
-static
 pub
 fn
 new
@@ -316,7 +308,6 @@ layout
 .
 *
 /
-pure
 fn
 size
 (

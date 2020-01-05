@@ -2,7 +2,6 @@ pub
 trait
 BoxedMutDebugMethods
 {
-pure
 fn
 dump
 (
@@ -10,7 +9,6 @@ mut
 self
 )
 ;
-pure
 fn
 dump_indent
 (
@@ -21,7 +19,6 @@ ident
 uint
 )
 ;
-pure
 fn
 debug_str
 (
@@ -38,14 +35,12 @@ pub
 trait
 BoxedDebugMethods
 {
-pure
 fn
 dump
 (
 self
 )
 ;
-pure
 fn
 dump_indent
 (
@@ -55,7 +50,6 @@ ident
 uint
 )
 ;
-pure
 fn
 debug_str
 (
@@ -71,7 +65,6 @@ pub
 trait
 DebugMethods
 {
-pure
 fn
 dump
 (
@@ -79,7 +72,6 @@ dump
 self
 )
 ;
-pure
 fn
 dump_indent
 (
@@ -90,7 +82,6 @@ ident
 uint
 )
 ;
-pure
 fn
 debug_str
 (

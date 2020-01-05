@@ -104,7 +104,7 @@ None
 =
 >
 {
-fail_unless
+assert
 !
 (
 self
@@ -232,7 +232,7 @@ height
 =
 >
 {
-fail_unless
+assert
 !
 (
 self

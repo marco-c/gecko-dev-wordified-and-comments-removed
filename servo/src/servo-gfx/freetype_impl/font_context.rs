@@ -125,7 +125,6 @@ pub
 impl
 FreeTypeFontContextHandle
 {
-static
 pub
 fn
 new
@@ -194,12 +193,10 @@ FontContextHandleMethods
 for
 FreeTypeFontContextHandle
 {
-pure
 fn
 clone
 (
 &
-const
 self
 )
 -

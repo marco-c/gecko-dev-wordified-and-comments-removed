@@ -72,7 +72,10 @@ Attr
 }
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 enum
@@ -398,7 +401,6 @@ pub
 impl
 Element
 {
-static
 pub
 fn
 new
@@ -454,8 +456,8 @@ str
 Option
 <
 &
+'
 self
-/
 str
 >
 {
@@ -662,7 +664,6 @@ str
 impl
 Attr
 {
-static
 pub
 fn
 new

@@ -50,7 +50,6 @@ Au
 for
 Au
 {
-pure
 fn
 add
 (
@@ -86,7 +85,6 @@ Au
 for
 Au
 {
-pure
 fn
 sub
 (
@@ -122,7 +120,6 @@ Au
 for
 Au
 {
-pure
 fn
 mul
 (
@@ -158,7 +155,6 @@ Au
 for
 Au
 {
-pure
 fn
 div
 (
@@ -194,7 +190,6 @@ Au
 for
 Au
 {
-pure
 fn
 modulo
 (
@@ -229,7 +224,6 @@ Au
 for
 Au
 {
-pure
 fn
 neg
 (
@@ -257,7 +251,6 @@ Ord
 for
 Au
 {
-pure
 fn
 lt
 (
@@ -280,7 +273,6 @@ self
 *
 other
 }
-pure
 fn
 le
 (
@@ -304,7 +296,6 @@ self
 *
 other
 }
-pure
 fn
 ge
 (
@@ -328,7 +319,6 @@ self
 *
 other
 }
-pure
 fn
 gt
 (
@@ -360,7 +350,6 @@ Eq
 for
 Au
 {
-pure
 fn
 eq
 (
@@ -384,7 +373,6 @@ self
 *
 other
 }
-pure
 fn
 ne
 (
@@ -410,7 +398,6 @@ other
 }
 }
 pub
-pure
 fn
 min
 (
@@ -438,7 +425,6 @@ y
 }
 }
 pub
-pure
 fn
 max
 (
@@ -470,8 +456,6 @@ NumCast
 for
 Au
 {
-static
-pure
 fn
 from
 <
@@ -497,7 +481,6 @@ to_i32
 )
 )
 }
-pure
 fn
 to_u8
 (
@@ -518,7 +501,6 @@ to_u8
 (
 )
 }
-pure
 fn
 to_u16
 (
@@ -539,7 +521,6 @@ to_u16
 (
 )
 }
-pure
 fn
 to_u32
 (
@@ -560,7 +541,6 @@ to_u32
 (
 )
 }
-pure
 fn
 to_u64
 (
@@ -581,7 +561,6 @@ to_u64
 (
 )
 }
-pure
 fn
 to_uint
 (
@@ -602,7 +581,6 @@ to_uint
 (
 )
 }
-pure
 fn
 to_i8
 (
@@ -623,7 +601,6 @@ to_i8
 (
 )
 }
-pure
 fn
 to_i16
 (
@@ -644,7 +621,6 @@ to_i16
 (
 )
 }
-pure
 fn
 to_i32
 (
@@ -665,7 +641,6 @@ to_i32
 (
 )
 }
-pure
 fn
 to_i64
 (
@@ -686,7 +661,6 @@ to_i64
 (
 )
 }
-pure
 fn
 to_int
 (
@@ -707,7 +681,6 @@ to_int
 (
 )
 }
-pure
 fn
 to_f32
 (
@@ -728,7 +701,6 @@ to_f32
 (
 )
 }
-pure
 fn
 to_f64
 (
@@ -749,7 +721,6 @@ to_f64
 (
 )
 }
-pure
 fn
 to_float
 (
@@ -833,7 +804,6 @@ impl
 Au
 {
 pub
-pure
 fn
 scale_by
 (
@@ -862,9 +832,7 @@ as
 i32
 )
 }
-static
 pub
-pure
 fn
 from_px
 (
@@ -887,12 +855,10 @@ i
 )
 }
 pub
-pure
 fn
 to_px
 (
 &
-const
 self
 )
 -
@@ -910,12 +876,10 @@ as
 int
 }
 pub
-pure
 fn
 to_snapped
 (
 &
-const
 self
 )
 -
@@ -964,9 +928,7 @@ res
 }
 ;
 }
-static
 pub
-pure
 fn
 zero_point
 (
@@ -990,9 +952,7 @@ Au
 )
 )
 }
-static
 pub
-pure
 fn
 zero_rect
 (
@@ -1026,9 +986,7 @@ z
 )
 )
 }
-static
 pub
-pure
 fn
 from_pt
 (
@@ -1053,9 +1011,7 @@ as
 int
 )
 }
-static
 pub
-pure
 fn
 from_frac_px
 (
@@ -1078,9 +1034,7 @@ as
 i32
 )
 }
-static
 pub
-pure
 fn
 min
 (
@@ -1109,9 +1063,7 @@ else
 y
 }
 }
-static
 pub
-pure
 fn
 max
 (
@@ -1142,7 +1094,6 @@ y
 }
 }
 pub
-pure
 fn
 zero_rect
 (
@@ -1177,7 +1128,6 @@ z
 )
 }
 pub
-pure
 fn
 zero_point
 (
@@ -1202,7 +1152,6 @@ Au
 )
 }
 pub
-pure
 fn
 zero_size
 (
@@ -1227,7 +1176,6 @@ Au
 )
 }
 pub
-pure
 fn
 from_frac_px
 (
@@ -1251,7 +1199,6 @@ i32
 )
 }
 pub
-pure
 fn
 from_px
 (
@@ -1274,7 +1221,6 @@ i
 )
 }
 pub
-pure
 fn
 to_px
 (
@@ -1296,7 +1242,6 @@ as
 int
 }
 pub
-pure
 fn
 to_frac_px
 (
@@ -1318,7 +1263,6 @@ float
 60f
 }
 pub
-pure
 fn
 from_pt
 (
