@@ -2877,6 +2877,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetColumnSpan
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetColumnWidth
 (
 )

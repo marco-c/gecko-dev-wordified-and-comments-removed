@@ -310,6 +310,11 @@ ColumnRuleWidth
 )
 COMPUTED_STYLE_PROP
 (
+column_span
+ColumnSpan
+)
+COMPUTED_STYLE_PROP
+(
 column_width
 ColumnWidth
 )

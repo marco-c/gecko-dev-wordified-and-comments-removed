@@ -14557,6 +14557,9 @@ mColumnRuleStyle
 uint8_t
 mColumnFill
 ;
+uint8_t
+mColumnSpan
+;
 void
 SetColumnRuleWidth
 (
