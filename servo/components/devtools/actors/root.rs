@@ -158,7 +158,7 @@ String
 root
 "
 .
-to_string
+to_owned
 (
 )
 }
@@ -219,7 +219,7 @@ from
 root
 "
 .
-to_string
+to_owned
 (
 )
 error
@@ -228,7 +228,7 @@ error
 noAddons
 "
 .
-to_string
+to_owned
 (
 )
 message
@@ -244,7 +244,7 @@ addons
 .
 "
 .
-to_string
+to_owned
 (
 )
 }
@@ -279,7 +279,7 @@ from
 root
 "
 .
-to_string
+to_owned
 (
 )
 selected
@@ -370,7 +370,7 @@ from
 root
 "
 .
-to_string
+to_owned
 (
 )
 applicationType
@@ -379,7 +379,7 @@ applicationType
 browser
 "
 .
-to_string
+to_owned
 (
 )
 traits
@@ -401,7 +401,7 @@ vec
 BoxModelHighlighter
 "
 .
-to_string
+to_owned
 (
 )
 )

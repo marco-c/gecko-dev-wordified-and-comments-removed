@@ -351,7 +351,7 @@ __type__
 tabAttached
 "
 .
-to_string
+to_owned
 (
 )
 threadActor
@@ -467,7 +467,7 @@ __type__
 detached
 "
 .
-to_string
+to_owned
 (
 )
 }

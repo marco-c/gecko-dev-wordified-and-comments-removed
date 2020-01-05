@@ -329,7 +329,7 @@ Raw
 headers
 "
 .
-to_string
+to_owned
 (
 )
 }
@@ -680,7 +680,7 @@ startedDateTime
 545Z
 "
 .
-to_string
+to_owned
 (
 )
 isXHR
@@ -714,7 +714,7 @@ HTTP
 1
 "
 .
-to_string
+to_owned
 (
 )
 remoteAddress
@@ -729,7 +729,7 @@ remoteAddress
 43
 "
 .
-to_string
+to_owned
 (
 )
 remotePort
@@ -741,7 +741,7 @@ status
 200
 "
 .
-to_string
+to_owned
 (
 )
 statusText
@@ -750,7 +750,7 @@ statusText
 OK
 "
 .
-to_string
+to_owned
 (
 )
 headersSize

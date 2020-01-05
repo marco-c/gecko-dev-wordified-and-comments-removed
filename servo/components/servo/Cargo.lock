@@ -4264,6 +4264,14 @@ msg
 1
 "
 "
+plugins
+0
+.
+0
+.
+1
+"
+"
 rustc
 -
 serialize

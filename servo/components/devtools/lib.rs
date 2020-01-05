@@ -51,6 +51,14 @@ serde_macros
 #
 !
 [
+plugin
+(
+plugins
+)
+]
+#
+!
+[
 allow
 (
 non_snake_case
@@ -1648,7 +1656,7 @@ __type__
 consoleAPICall
 "
 .
-to_string
+to_owned
 (
 )
 message
@@ -1706,7 +1714,7 @@ log
 "
 }
 .
-to_string
+to_owned
 (
 )
 timeStamp
@@ -2136,7 +2144,7 @@ __type__
 networkEvent
 "
 .
-to_string
+to_owned
 (
 )
 eventActor
@@ -2220,7 +2228,7 @@ __type__
 networkEventUpdate
 "
 .
-to_string
+to_owned
 (
 )
 updateType
@@ -2229,7 +2237,7 @@ updateType
 responseStart
 "
 .
-to_string
+to_owned
 (
 )
 response
