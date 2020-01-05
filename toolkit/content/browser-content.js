@@ -8907,7 +8907,7 @@ aElement
 return
 BrowserUtils
 .
-getElementBoundingScreenRect
+getElementBoundingRect
 (
 aElement
 )
