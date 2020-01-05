@@ -207,15 +207,6 @@ browser
 /
 schemas
 /
-theme
-.
-json
-content
-/
-browser
-/
-schemas
-/
 url_overrides
 .
 json
