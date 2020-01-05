@@ -302,6 +302,12 @@ Option
 String
 >
 )
+UpdateSubpageId
+(
+PipelineId
+SubpageId
+SubpageId
+)
 }
 unsafe
 impl
