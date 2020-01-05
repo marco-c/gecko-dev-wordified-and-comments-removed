@@ -426,6 +426,11 @@ not
 (
 test
 )
+target_os
+=
+"
+android
+"
 )
 ]
 use
