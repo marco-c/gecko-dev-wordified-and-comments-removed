@@ -193,6 +193,11 @@ layers
 struct
 OpPushDLBuilder
 {
+}
+;
+struct
+OpPopDLBuilder
+{
 WRRect
 bounds
 ;
@@ -205,11 +210,6 @@ matrix
 uint64_t
 scrollid
 ;
-}
-;
-struct
-OpPopDLBuilder
-{
 }
 ;
 struct

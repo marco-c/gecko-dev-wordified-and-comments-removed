@@ -324,12 +324,6 @@ uint64_t
 aImageId
 uint64_t
 aAsyncContainerId
-uint32_t
-aWidth
-uint32_t
-aHeight
-WRImageFormat
-aFormat
 )
 ;
 async
@@ -339,12 +333,6 @@ uint64_t
 aImageId
 PCompositable
 aCompositable
-uint32_t
-aWidth
-uint32_t
-aHeight
-WRImageFormat
-aFormat
 )
 ;
 async

@@ -487,16 +487,8 @@ CleanupResources
 override
 ;
 virtual
-TextureSource
-*
-BindTextureSource
-(
-)
-override
-;
-virtual
 void
-UnbindTextureSource
+BindTextureSource
 (
 )
 override
