@@ -395,7 +395,6 @@ devtools_traits
 :
 :
 {
-DevtoolsControlPort
 DevtoolsPageInfo
 DevtoolScriptControlMsg
 }
@@ -1791,7 +1790,10 @@ ScriptToDevtoolsControlMsg
 >
 devtools_port
 :
-DevtoolsControlPort
+Receiver
+<
+DevtoolScriptControlMsg
+>
 devtools_sender
 :
 IpcSender

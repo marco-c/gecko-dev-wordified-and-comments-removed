@@ -37,7 +37,6 @@ devtools_traits
 :
 :
 {
-DevtoolsControlChan
 DevtoolsControlMsg
 ScriptToDevtoolsControlMsg
 }
@@ -419,7 +418,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+Sender
+<
+DevtoolsControlMsg
+>
 >
 image_cache_task
 :

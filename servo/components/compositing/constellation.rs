@@ -51,7 +51,6 @@ devtools_traits
 :
 {
 ChromeToDevtoolsControlMsg
-DevtoolsControlChan
 DevtoolsControlMsg
 }
 ;
@@ -466,7 +465,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+Sender
+<
+DevtoolsControlMsg
+>
 >
 storage_task
 :
@@ -984,7 +986,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+Sender
+<
+DevtoolsControlMsg
+>
 >
 storage_task
 :
