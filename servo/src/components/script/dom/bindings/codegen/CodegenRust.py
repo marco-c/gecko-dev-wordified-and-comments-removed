@@ -7016,6 +7016,13 @@ type
 isCallback
 (
 )
+and
+not
+type
+.
+isCallbackInterface
+(
+)
 def
 memberIsCreator
 (
