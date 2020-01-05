@@ -1767,15 +1767,7 @@ aSample
 -
 >
 mTime
-.
-ToMicroseconds
-(
-)
 duration
-.
-ToMicroseconds
-(
-)
 numFrames
 data
 .

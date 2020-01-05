@@ -1493,15 +1493,7 @@ AudioData
 (
 aStreamOffset
 timestamp
-.
-ToMicroseconds
-(
-)
 duration
-.
-ToMicroseconds
-(
-)
 numFrames
 Move
 (

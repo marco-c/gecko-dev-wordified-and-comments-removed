@@ -1196,15 +1196,7 @@ AudioData
 (
 samplePosition
 pts
-.
-ToMicroseconds
-(
-)
 duration
-.
-ToMicroseconds
-(
-)
 mFrame
 -
 >

@@ -213,6 +213,14 @@ base
 offset
 (
 )
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aData
 .
 base
@@ -221,6 +229,7 @@ base
 .
 time
 (
+)
 )
 media
 :
@@ -250,6 +259,14 @@ base
 keyframe
 (
 )
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aData
 .
 base
@@ -258,6 +275,7 @@ base
 .
 timecode
 (
+)
 )
 )
 ;

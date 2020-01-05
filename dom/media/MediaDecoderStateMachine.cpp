@@ -5855,15 +5855,7 @@ mTarget
 GetTime
 (
 )
-.
-ToMicroseconds
-(
-)
 duration
-.
-ToMicroseconds
-(
-)
 frames
 Move
 (
