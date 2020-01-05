@@ -4306,7 +4306,7 @@ ref
 =
 servo
 #
-9c70c58e65ec80446fdb6e338f1060589b562f8c
+4a2c82c75013f8ee55d2017876319b48d656dcb3
 "
 dependencies
 =
@@ -5917,7 +5917,7 @@ rust
 -
 openssl
 #
-19d9b53a86d602e16ab2274813a517cfaa4a2512
+aed5df1036d6f4b5f7b8be6457d10f8a0379b39f
 "
 dependencies
 =
@@ -6023,7 +6023,7 @@ rust
 -
 openssl
 #
-19d9b53a86d602e16ab2274813a517cfaa4a2512
+aed5df1036d6f4b5f7b8be6457d10f8a0379b39f
 "
 dependencies
 =
