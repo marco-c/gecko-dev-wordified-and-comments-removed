@@ -51,6 +51,15 @@ geometry
 ViewportPx
 ;
 use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
+use
 values
 :
 :
@@ -61,6 +70,7 @@ specified
 derive
 (
 Debug
+HeapSizeOf
 PartialEq
 )
 ]
@@ -85,6 +95,7 @@ Eq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -337,6 +348,7 @@ PartialEq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -363,6 +375,7 @@ Eq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -377,6 +390,7 @@ Not
 derive
 (
 Debug
+HeapSizeOf
 PartialEq
 )
 ]
@@ -453,6 +467,7 @@ Eq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -474,6 +489,7 @@ Eq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -489,6 +505,7 @@ Unknown
 derive
 (
 Debug
+HeapSizeOf
 )
 ]
 pub

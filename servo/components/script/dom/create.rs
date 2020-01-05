@@ -1877,6 +1877,7 @@ make
 !
 (
 HTMLLinkElement
+creator
 )
 atom
 !
