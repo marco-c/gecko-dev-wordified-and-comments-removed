@@ -508,6 +508,7 @@ getSettings
 ;
 [
 Throws
+NeedsCallerType
 ]
 Promise
 <

@@ -161,6 +161,8 @@ dom
 MediaTrackConstraints
 &
 aConstraints
+CallerType
+aCallerType
 )
 -
 >
@@ -1035,6 +1037,8 @@ const
 MediaTrackConstraints
 &
 aConstraints
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1167,6 +1171,7 @@ ApplyConstraints
 (
 window
 aConstraints
+aCallerType
 )
 ;
 p

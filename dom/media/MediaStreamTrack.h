@@ -154,6 +154,12 @@ VideoStreamTrack
 class
 MediaStreamError
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 class
 MediaStreamTrackSource
 :
@@ -319,6 +325,8 @@ dom
 MediaTrackConstraints
 &
 aConstraints
+CallerType
+aCallerType
 )
 ;
 virtual
@@ -830,6 +838,8 @@ dom
 MediaTrackConstraints
 &
 aConstraints
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
