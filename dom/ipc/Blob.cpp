@@ -894,7 +894,11 @@ NS_IsMainThread
 bool
 current
 ;
-MOZ_ALWAYS_SUCCEEDS
+if
+(
+NS_WARN_IF
+(
+NS_FAILED
 (
 aEventTarget
 -
@@ -905,7 +909,13 @@ IsOnCurrentThread
 current
 )
 )
+)
+)
+{
+return
+true
 ;
+}
 return
 current
 ;
