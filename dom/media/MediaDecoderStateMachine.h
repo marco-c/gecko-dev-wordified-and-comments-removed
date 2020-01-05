@@ -1662,6 +1662,11 @@ mSentFirstFrameLoadedEvent
 bool
 mVideoDecodeSuspended
 ;
+bool
+mMediaSeekable
+=
+true
+;
 DelayedScheduler
 mVideoDecodeSuspendTimer
 ;
@@ -1698,6 +1703,9 @@ mVideoQueueListener
 ;
 MediaEventListener
 mAudibleListener
+;
+MediaEventListener
+mOnMediaNotSeekable
 ;
 MediaEventProducerExc
 <
@@ -1862,12 +1870,6 @@ Mirror
 int64_t
 >
 mDecoderPosition
-;
-Mirror
-<
-bool
->
-mMediaSeekable
 ;
 Mirror
 <
