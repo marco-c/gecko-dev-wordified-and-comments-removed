@@ -27880,7 +27880,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBStartIStart
+eLogicalCornerBStartIStart
 *
 iter
 .
@@ -28162,7 +28162,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBStartIStart
+eLogicalCornerBStartIStart
 *
 iter
 .
@@ -28403,7 +28403,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBStartIEnd
+eLogicalCornerBStartIEnd
 *
 iter
 .
@@ -28459,7 +28459,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBEndIEnd
+eLogicalCornerBEndIEnd
 *
 iter
 .
@@ -28935,7 +28935,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBStartIEnd
+eLogicalCornerBStartIEnd
 *
 iter
 .
@@ -28992,7 +28992,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBEndIEnd
+eLogicalCornerBEndIEnd
 *
 iter
 .
@@ -29219,7 +29219,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBEndIStart
+eLogicalCornerBEndIStart
 *
 iter
 .
@@ -29283,7 +29283,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBEndIEnd
+eLogicalCornerBEndIEnd
 *
 iter
 .
@@ -29718,7 +29718,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBEndIStart
+eLogicalCornerBEndIStart
 *
 iter
 .
@@ -29789,7 +29789,7 @@ tableCellMap
 >
 SetBCBorderCorner
 (
-eBEndIStart
+eLogicalCornerBEndIStart
 *
 iter
 .

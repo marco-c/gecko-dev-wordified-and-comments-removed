@@ -5247,7 +5247,7 @@ nsTableCellMap
 :
 SetBCBorderCorner
 (
-Corner
+LogicalCorner
 aCorner
 nsCellMap
 &
@@ -5316,7 +5316,7 @@ aCellMapStart
 ;
 if
 (
-eBStartIEnd
+eLogicalCornerBStartIEnd
 =
 =
 aCorner
@@ -5330,7 +5330,7 @@ xPos
 else
 if
 (
-eBEndIEnd
+eLogicalCornerBEndIEnd
 =
 =
 aCorner
@@ -5352,7 +5352,7 @@ yPos
 else
 if
 (
-eBEndIStart
+eLogicalCornerBEndIStart
 =
 =
 aCorner
