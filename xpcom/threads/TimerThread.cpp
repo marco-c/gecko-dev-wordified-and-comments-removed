@@ -1438,7 +1438,7 @@ Run
 (
 )
 {
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 Timer

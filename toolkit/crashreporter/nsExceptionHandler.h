@@ -775,6 +775,15 @@ file_offset
 ;
 #
 endif
+void
+SetCurrentThreadName
+(
+const
+char
+*
+aName
+)
+;
 }
 #
 endif

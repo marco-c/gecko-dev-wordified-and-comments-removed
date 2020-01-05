@@ -1645,7 +1645,7 @@ void
 aClosure
 )
 {
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 Cache2

@@ -206,6 +206,13 @@ h
 #
 include
 "
+ThreadAnnotation
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Omnijar
@@ -2455,6 +2462,12 @@ platform
 "
 #
 endif
+CrashReporter
+:
+:
+InitThreadAnnotationRAII
+annotation
+;
 #
 endif
 gArgv

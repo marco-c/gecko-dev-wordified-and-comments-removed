@@ -489,6 +489,16 @@ NS_GetCurrentThread
 (
 )
 ;
+extern
+void
+NS_SetCurrentThreadName
+(
+const
+char
+*
+aName
+)
+;
 #
 endif
 #
