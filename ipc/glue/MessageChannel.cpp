@@ -9619,8 +9619,8 @@ return
 }
 if
 (
-ChannelConnected
-!
+ChannelClosed
+=
 =
 mChannelState
 )
@@ -9640,6 +9640,14 @@ channel
 )
 ;
 }
+if
+(
+ChannelConnected
+=
+=
+mChannelState
+)
+{
 mLink
 -
 >
@@ -9651,6 +9659,7 @@ GoodbyeMessage
 )
 )
 ;
+}
 SynchronouslyClose
 (
 )
