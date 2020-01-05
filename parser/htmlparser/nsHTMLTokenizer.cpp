@@ -61,6 +61,6 @@ aFlushTokens
 )
 {
 return
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 ;
 }

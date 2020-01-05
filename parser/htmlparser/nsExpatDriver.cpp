@@ -5523,7 +5523,7 @@ NS_SUCCEEDED
 mInternalState
 )
 ?
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 :
 NS_OK
 ;
