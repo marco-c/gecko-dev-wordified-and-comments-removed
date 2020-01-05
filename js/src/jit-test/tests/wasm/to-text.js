@@ -2327,12 +2327,8 @@ f32
 )
 (
 table
-anyfunc
-(
-elem
 func1
 func2
-)
 )
 (
 func
