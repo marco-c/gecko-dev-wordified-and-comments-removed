@@ -630,6 +630,15 @@ nsSVGUtils
 GetBBox
 (
 aSource
+nsSVGUtils
+:
+:
+eUseFrameBoundsForOuterSVG
+|
+nsSVGUtils
+:
+:
+eBBoxIncludeFillGeometry
 )
 ;
 bboxMatrix
