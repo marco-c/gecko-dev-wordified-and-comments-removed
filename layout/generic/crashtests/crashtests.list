@@ -206,6 +206,13 @@ if
 stylo
 0
 )
+asserts
+-
+if
+(
+winWidget
+1
+)
 load
 323386
 -
