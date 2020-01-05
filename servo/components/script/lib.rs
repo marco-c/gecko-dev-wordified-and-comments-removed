@@ -99,7 +99,7 @@ geom
 ;
 extern
 crate
-hubbub
+html5ever
 ;
 extern
 crate
@@ -808,6 +808,10 @@ screen
 ;
 pub
 mod
+servohtmlparser
+;
+pub
+mod
 text
 ;
 pub
@@ -873,11 +877,11 @@ testbinding
 }
 pub
 mod
-html
+parse
 {
 pub
 mod
-hubbub_html_parser
+html
 ;
 }
 pub

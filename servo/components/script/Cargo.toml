@@ -214,7 +214,7 @@ geom
 [
 dependencies
 .
-hubbub
+html5ever
 ]
 git
 =
@@ -229,9 +229,12 @@ com
 /
 servo
 /
-rust
--
-hubbub
+html5ever
+"
+branch
+=
+"
+servo
 "
 [
 dependencies
