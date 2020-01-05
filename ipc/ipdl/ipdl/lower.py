@@ -26918,11 +26918,6 @@ capitalize
             
 StmtExpr
 (
-registerexpr
-)
-            
-StmtExpr
-(
 ExprCall
 (
 ExprSelect
@@ -26944,6 +26939,11 @@ ExprVar
 THIS
 ]
 )
+)
+            
+StmtExpr
+(
+registerexpr
 )
             
 StmtExpr
