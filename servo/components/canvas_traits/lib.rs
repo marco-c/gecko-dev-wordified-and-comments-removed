@@ -385,6 +385,16 @@ Deserialize
 Serialize
 )
 ]
+#
+[
+serde
+(
+bound
+=
+"
+"
+)
+]
 pub
 enum
 Canvas2dMsg

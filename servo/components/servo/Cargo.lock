@@ -1035,7 +1035,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -1178,7 +1178,7 @@ version
 "
 0
 .
-19
+22
 .
 0
 "
@@ -1488,7 +1488,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -1517,7 +1517,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -2172,7 +2172,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -3121,7 +3121,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -3150,7 +3150,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -4157,7 +4157,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -4186,7 +4186,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -4674,7 +4674,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -4703,7 +4703,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -5041,7 +5041,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -5425,7 +5425,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -5797,7 +5797,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -5826,7 +5826,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -6422,7 +6422,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -6480,7 +6480,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -6720,7 +6720,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -6749,7 +6749,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -8561,7 +8561,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -10157,7 +10157,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -10186,7 +10186,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -10783,7 +10783,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -10812,7 +10812,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -12466,7 +12466,7 @@ phf
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -12495,7 +12495,7 @@ phf_codegen
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -12997,7 +12997,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -14217,7 +14217,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -15750,7 +15750,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -16372,7 +16372,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -17820,7 +17820,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -17924,7 +17924,7 @@ phf
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -17953,7 +17953,7 @@ phf_codegen
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -18422,7 +18422,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -18451,7 +18451,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -20143,7 +20143,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -20172,7 +20172,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -21559,7 +21559,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -22422,7 +22422,7 @@ version
 .
 7
 .
-15
+16
 "
 source
 =
@@ -22456,7 +22456,7 @@ phf_shared
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -22497,7 +22497,7 @@ version
 .
 7
 .
-15
+16
 "
 source
 =
@@ -22531,7 +22531,7 @@ phf_generator
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -22560,7 +22560,7 @@ phf_shared
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -22601,7 +22601,7 @@ version
 .
 7
 .
-15
+16
 "
 source
 =
@@ -22635,7 +22635,7 @@ phf_shared
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -22705,7 +22705,7 @@ version
 .
 7
 .
-15
+16
 "
 source
 =
@@ -22739,7 +22739,7 @@ phf_generator
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -22768,7 +22768,7 @@ phf_shared
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -22809,7 +22809,7 @@ version
 .
 7
 .
-15
+16
 "
 source
 =
@@ -23471,7 +23471,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -23529,7 +23529,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -23785,7 +23785,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -23814,7 +23814,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -23882,7 +23882,7 @@ version
 "
 0
 .
-13
+16
 .
 0
 "
@@ -23924,7 +23924,7 @@ version
 "
 0
 .
-13
+16
 .
 0
 "
@@ -23958,7 +23958,7 @@ dependencies
 aster
 0
 .
-19
+22
 .
 0
 (
@@ -23999,7 +23999,7 @@ version
 "
 0
 .
-13
+16
 .
 0
 "
@@ -24033,7 +24033,7 @@ dependencies
 quasi_codegen
 0
 .
-13
+16
 .
 0
 (
@@ -24388,7 +24388,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -24417,7 +24417,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -25833,7 +25833,7 @@ phf
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -25862,7 +25862,7 @@ phf_macros
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -26107,7 +26107,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -27291,7 +27291,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -27320,7 +27320,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -27784,7 +27784,7 @@ version
 .
 7
 .
-11
+15
 "
 source
 =
@@ -27826,7 +27826,7 @@ version
 .
 7
 .
-11
+15
 "
 source
 =
@@ -27858,7 +27858,7 @@ dependencies
 aster
 0
 .
-19
+22
 .
 0
 (
@@ -27887,7 +27887,7 @@ index
 quasi
 0
 .
-13
+16
 .
 0
 (
@@ -27916,7 +27916,7 @@ index
 quasi_macros
 0
 .
-13
+16
 .
 0
 (
@@ -27942,10 +27942,10 @@ index
 )
 "
 "
-serde_item
+serde_codegen_internals
 0
 .
-2
+4
 .
 0
 (
@@ -27979,14 +27979,14 @@ package
 name
 =
 "
-serde_item
+serde_codegen_internals
 "
 version
 =
 "
 0
 .
-2
+4
 .
 0
 "
@@ -28095,7 +28095,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -28136,7 +28136,7 @@ version
 .
 7
 .
-11
+15
 "
 source
 =
@@ -28170,7 +28170,7 @@ serde_codegen
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -30332,7 +30332,7 @@ phf_generator
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -30361,7 +30361,7 @@ phf_shared
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -30390,7 +30390,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -30978,7 +30978,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -31007,7 +31007,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -31619,7 +31619,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -31648,7 +31648,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -33352,7 +33352,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -33931,7 +33931,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -33960,7 +33960,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -34153,7 +34153,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -36416,7 +36416,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -36445,7 +36445,7 @@ serde_macros
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -37456,7 +37456,7 @@ phf
 .
 7
 .
-15
+16
 (
 registry
 +
@@ -37485,7 +37485,7 @@ phf_codegen
 .
 7
 .
-15
+16
 (
 registry
 +

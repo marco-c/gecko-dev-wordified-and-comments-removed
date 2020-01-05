@@ -3962,6 +3962,16 @@ HeapSizeOf
 Serialize
 )
 ]
+#
+[
+serde
+(
+bound
+=
+"
+"
+)
+]
 pub
 enum
 DisplayItem

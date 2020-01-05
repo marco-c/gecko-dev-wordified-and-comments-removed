@@ -560,7 +560,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -1772,7 +1772,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +
@@ -3348,7 +3348,7 @@ version
 .
 7
 .
-11
+15
 "
 source
 =
@@ -3540,7 +3540,7 @@ serde
 .
 7
 .
-11
+15
 (
 registry
 +

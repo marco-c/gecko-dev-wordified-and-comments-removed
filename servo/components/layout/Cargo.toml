@@ -351,7 +351,7 @@ serde_macros
 .
 7
 .
-11
+15
 "
 smallvec
 =
