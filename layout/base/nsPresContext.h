@@ -2529,6 +2529,13 @@ RecordInteractionTime
 (
 InteractionType
 aType
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTimeStamp
 )
 ;
 void
@@ -4072,7 +4079,7 @@ mozilla
 :
 :
 TimeStamp
-mFirstPaintTime
+mFirstNonBlankPaintTime
 ;
 mozilla
 :
