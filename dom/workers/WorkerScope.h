@@ -519,6 +519,15 @@ aHandle
 )
 ;
 void
+GetOrigin
+(
+nsAString
+&
+aOrigin
+)
+const
+;
+void
 Atob
 (
 const

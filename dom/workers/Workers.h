@@ -837,6 +837,9 @@ nsCString
 mDomain
 ;
 nsString
+mOrigin
+;
+nsString
 mServiceWorkerCacheName
 ;
 ChannelInfo

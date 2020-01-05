@@ -8043,6 +8043,14 @@ Worker
 interface
 WindowOrWorkerGlobalScope
 {
+[
+Replaceable
+]
+readonly
+attribute
+USVString
+origin
+;
 /
 /
 base64
