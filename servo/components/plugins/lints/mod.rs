@@ -12,10 +12,6 @@ privatize
 ;
 pub
 mod
-str_to_string
-;
-pub
-mod
 transmute_type
 ;
 pub
