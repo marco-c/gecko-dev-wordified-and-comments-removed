@@ -150,6 +150,15 @@ aPacket
 }
 }
 ;
+using
+OggPacketPtr
+=
+UniquePtr
+<
+ogg_packet
+OggPacketDeletePolicy
+>
+;
 class
 OggPacketDeallocator
 :
