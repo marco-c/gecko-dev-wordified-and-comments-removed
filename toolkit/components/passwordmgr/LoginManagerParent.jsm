@@ -1167,7 +1167,6 @@ previousResult
 rect
 requestId
 isSecure
-isPasswordField
 remote
 }
 target
@@ -1309,15 +1308,6 @@ fullMatch
 .
 username
 ;
-if
-(
-isPasswordField
-)
-{
-return
-true
-;
-}
 return
 match
 &
