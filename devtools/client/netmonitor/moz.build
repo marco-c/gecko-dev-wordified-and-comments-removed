@@ -64,11 +64,6 @@ src
 DevToolsModules
 (
 '
-netmonitor
-.
-js
-'
-'
 panel
 .
 js
