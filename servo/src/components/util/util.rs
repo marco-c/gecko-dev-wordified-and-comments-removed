@@ -71,6 +71,10 @@ getopts
 ;
 extern
 crate
+layers
+;
+extern
+crate
 libc
 ;
 extern
