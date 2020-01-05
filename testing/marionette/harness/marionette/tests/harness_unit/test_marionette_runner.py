@@ -1983,12 +1983,6 @@ expected
 '
 pass
 '
-                   
-'
-test_container
-'
-:
-False
 }
 for
 i
@@ -2191,11 +2185,6 @@ expected
 '
 pass
 '
-'
-test_container
-'
-:
-None
 }
         
 assert

@@ -3114,20 +3114,6 @@ testvars
 None
 )
         
-self
-.
-test_container
-=
-kwargs
-.
-pop
-(
-'
-test_container
-'
-None
-)
-        
 CommonTestCase
 .
 __init__
@@ -3619,20 +3605,6 @@ self
 marionette
 =
 None
-        
-self
-.
-test_container
-=
-kwargs
-.
-pop
-(
-'
-test_container
-'
-None
-)
         
 CommonTestCase
 .

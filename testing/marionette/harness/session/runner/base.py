@@ -5071,9 +5071,6 @@ expected
 '
 pass
 '
-test_container
-=
-None
 )
 :
         
@@ -5442,10 +5439,6 @@ path
 1
 ]
                 
-test_container
-=
-None
-                
 self
 .
 add_test
@@ -5462,7 +5455,6 @@ i
 expected
 "
 ]
-test_container
 )
             
 return
@@ -5484,11 +5476,6 @@ expected
 '
 :
 expected
-'
-test_container
-'
-:
-test_container
 }
 )
     
@@ -5498,7 +5485,6 @@ run_test
 self
 filepath
 expected
-test_container
 )
 :
         
@@ -5554,17 +5540,6 @@ base_url
 self
 .
 base_url
-        
-self
-.
-test_kwargs
-[
-'
-test_container
-'
-]
-=
-test_container
         
 mod_name
 =
@@ -5671,16 +5646,6 @@ binary
 self
 .
 bin
-)
-            
-if
-test_container
-:
-                
-self
-.
-launch_test_container
-(
 )
             
 results
@@ -5963,12 +5928,6 @@ test
 [
 '
 expected
-'
-]
-test
-[
-'
-test_container
 '
 ]
 )
