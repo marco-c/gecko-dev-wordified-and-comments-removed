@@ -2117,6 +2117,14 @@ videoCodec
 >
 EnableFec
 (
+red
+-
+>
+mDefaultPt
+ulpfec
+-
+>
+mDefaultPt
 )
 ;
 }
