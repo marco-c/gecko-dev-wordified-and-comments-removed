@@ -15,6 +15,7 @@ adb
 import
 ADBDevice
 ADBError
+ADBRootError
 class
 ADBAndroid
 (
@@ -575,8 +576,33 @@ True
 )
         
 except
+(
 ADBError
+ADBRootError
+)
+e
 :
+            
+self
+.
+_logger
+.
+warning
+(
+'
+Unable
+to
+set
+SELinux
+Permissive
+due
+to
+%
+s
+.
+'
+e
+)
             
 self
 .
