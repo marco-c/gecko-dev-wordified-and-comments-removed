@@ -731,13 +731,6 @@ RESPATH
 /
 components
 /
-dom_file
-.
-xpt
-RESPATH
-/
-components
-/
 dom_system
 .
 xpt
