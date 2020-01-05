@@ -974,7 +974,10 @@ PTestDataStructuresSubChild
 *
 >
 (
+uintptr_t
+(
 0xdeadbeef
+)
 )
 ;
 return
