@@ -797,3 +797,7 @@ Element
 implements
 ParentNode
 ;
+Element
+implements
+ActivatableElement
+;
