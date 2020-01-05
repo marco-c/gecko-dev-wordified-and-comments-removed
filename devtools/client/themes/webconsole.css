@@ -4261,6 +4261,11 @@ startGroup
 message
 -
 body
+>
+.
+objectBox
+-
+string
 .
 message
 .
@@ -4269,6 +4274,11 @@ startGroupCollapsed
 message
 -
 body
+>
+.
+objectBox
+-
+string
 {
 color
 :
