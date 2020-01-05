@@ -257,6 +257,10 @@ attribute
 EventHandler
 ontoggle
 ;
+attribute
+EventHandler
+onresize
+;
 }
 ;
 [
