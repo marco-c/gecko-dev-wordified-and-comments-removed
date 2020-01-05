@@ -629,13 +629,6 @@ Exit
 [
 test
 ]
-#
-[
-allow
-(
-non_implicitly_copyable_typarams
-)
-]
 fn
 test_bad_scheme
 (
@@ -727,13 +720,6 @@ Exit
 #
 [
 test
-]
-#
-[
-allow
-(
-non_implicitly_copyable_typarams
-)
 ]
 fn
 should_delegate_to_scheme_loader
