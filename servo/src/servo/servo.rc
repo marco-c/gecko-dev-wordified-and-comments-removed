@@ -316,10 +316,6 @@ compositor
 ;
 pub
 mod
-png_compositor
-;
-pub
-mod
 display_list
 ;
 pub
