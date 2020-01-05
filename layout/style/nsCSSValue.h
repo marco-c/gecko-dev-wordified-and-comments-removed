@@ -859,16 +859,11 @@ mRequests
 ;
 private
 :
-#
-ifdef
-DEBUG
 bool
-mInitialized
+mLoadedImage
 =
 false
 ;
-#
-endif
 }
 ;
 struct
