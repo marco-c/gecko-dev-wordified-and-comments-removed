@@ -4183,7 +4183,7 @@ nullptr
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4248,7 +4248,6 @@ this
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -4268,9 +4267,6 @@ nullptr
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsWindow

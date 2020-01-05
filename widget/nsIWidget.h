@@ -1343,7 +1343,8 @@ return
 mOnDestroyCalled
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetParent
 (
 nsIWidget

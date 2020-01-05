@@ -3371,7 +3371,7 @@ GetDPIScale
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -3404,7 +3404,6 @@ illegally
 )
 ;
 return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 nsCOMPtr
@@ -3463,7 +3462,6 @@ widget
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -3513,9 +3511,6 @@ oldContainer
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 nsWindow

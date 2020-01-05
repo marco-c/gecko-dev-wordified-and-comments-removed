@@ -905,7 +905,8 @@ IsVisible
 const
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetParent
 (
 nsIWidget
