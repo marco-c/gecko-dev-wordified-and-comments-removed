@@ -608,16 +608,6 @@ gfxFcPlatformFontList
 cpp
 '
 '
-gfxFontconfigFonts
-.
-cpp
-'
-'
-gfxFontconfigUtils
-.
-cpp
-'
-'
 gfxFT2FontBase
 .
 cpp

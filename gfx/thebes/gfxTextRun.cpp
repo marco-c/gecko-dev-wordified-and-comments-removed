@@ -9105,10 +9105,6 @@ mSkipDrawing
 (
 false
 )
-mSkipUpdateUserFonts
-(
-false
-)
 {
 mCurrGeneration
 =
@@ -12898,10 +12894,6 @@ state
 ;
 if
 (
-!
-mSkipUpdateUserFonts
-&
-&
 mUserFontSet
 &
 &

@@ -3275,9 +3275,6 @@ mLastPrefFirstFont
 bool
 mSkipDrawing
 ;
-bool
-mSkipUpdateUserFonts
-;
 already_AddRefed
 <
 gfxTextRun
