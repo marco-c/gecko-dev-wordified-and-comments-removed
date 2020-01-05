@@ -54,7 +54,6 @@ __RPC_FAR
 aURL
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -129,7 +128,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnDocAccessible
@@ -143,7 +141,6 @@ __RPC_FAR
 aTitle
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -207,7 +204,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnDocAccessible
@@ -221,7 +217,6 @@ __RPC_FAR
 aMimeType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -296,7 +291,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnDocAccessible
@@ -310,7 +304,6 @@ __RPC_FAR
 aDocType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -385,7 +378,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnDocAccessible
@@ -401,7 +393,6 @@ __RPC_FAR
 aNameSpaceURI
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -501,7 +492,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnDocAccessible
@@ -515,7 +505,6 @@ __RPC_FAR
 aCommaSeparatedMediaTypes
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -541,5 +530,4 @@ CO_E_OBJNOTCONNECTED
 :
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }

@@ -117,7 +117,6 @@ __RPC_FAR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -209,7 +208,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnTextAccessible
@@ -241,7 +239,6 @@ __RPC_FAR
 aHeight
 )
 {
-A11Y_TRYBLOCK_BEGIN
 nscoord
 x
 =
@@ -377,7 +374,6 @@ height
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnTextAccessible
@@ -409,7 +405,6 @@ __RPC_FAR
 aHeight
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -690,7 +685,6 @@ height
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnTextAccessible
@@ -706,7 +700,6 @@ int
 aEndIndex
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 mAccessible
@@ -807,7 +800,6 @@ GetHRESULT
 rv
 )
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnTextAccessible
@@ -821,7 +813,6 @@ __RPC_FAR
 aFontFamily
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -943,7 +934,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 nsIFrame
 *

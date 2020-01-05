@@ -58,7 +58,6 @@ IAccessibleEx
 aAccEx
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -84,7 +83,6 @@ CO_E_OBJNOTCONNECTED
 :
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -103,7 +101,6 @@ long
 aIdChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -162,7 +159,6 @@ aAcc
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -177,7 +173,6 @@ SAFEARRAY
 aRuntimeIds
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -275,7 +270,6 @@ i
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -294,7 +288,6 @@ IAccessibleEx
 aAccEx
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -353,7 +346,6 @@ instancePtr
 return
 hr
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -368,7 +360,6 @@ ProviderOptions
 aOptions
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -385,7 +376,6 @@ ProviderOptions_ServerSideProvider
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -402,7 +392,6 @@ IUnknown
 aPatternProvider
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -419,7 +408,6 @@ nullptr
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -435,7 +423,6 @@ VARIANT
 aPropertyValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -788,7 +775,6 @@ break
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 uiaRawElmProvider
@@ -803,7 +789,6 @@ IRawElementProviderSimple
 aRawElmProvider
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -820,5 +805,4 @@ nullptr
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

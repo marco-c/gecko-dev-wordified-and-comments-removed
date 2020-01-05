@@ -44,7 +44,6 @@ long
 aHyperlinkCount
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -105,7 +104,6 @@ LinkCount
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleHypertext
@@ -121,7 +119,6 @@ IAccessibleHyperlink
 aHyperlink
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -225,7 +222,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleHypertext
@@ -240,7 +236,6 @@ long
 aHyperlinkIndex
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -302,5 +297,4 @@ aCharIndex
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

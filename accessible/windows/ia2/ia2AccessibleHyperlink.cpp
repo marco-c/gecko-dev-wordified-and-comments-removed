@@ -186,7 +186,6 @@ VARIANT
 aAnchor
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -355,7 +354,6 @@ VT_UNKNOWN
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleHyperlink
@@ -370,7 +368,6 @@ VARIANT
 aAnchorTarget
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -567,7 +564,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleHyperlink
@@ -580,7 +576,6 @@ long
 aIndex
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -654,7 +649,6 @@ StartOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleHyperlink
@@ -667,7 +661,6 @@ long
 aIndex
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -741,7 +734,6 @@ EndOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleHyperlink
@@ -754,7 +746,6 @@ boolean
 aValid
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -828,5 +819,4 @@ IsLinkValid
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

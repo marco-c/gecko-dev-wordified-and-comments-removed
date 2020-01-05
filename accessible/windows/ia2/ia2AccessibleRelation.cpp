@@ -101,7 +101,6 @@ BSTR
 aRelationType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -167,7 +166,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleRelation
@@ -180,7 +178,6 @@ BSTR
 aLocalizedRelationType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -197,7 +194,6 @@ nullptr
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleRelation
@@ -210,7 +206,6 @@ long
 aNTargets
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -231,7 +226,6 @@ Length
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleRelation
@@ -247,7 +241,6 @@ IUnknown
 aTarget
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 aTargetIndex
@@ -319,7 +312,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleRelation
@@ -338,7 +330,6 @@ long
 aNTargets
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -406,5 +397,4 @@ maxTargets
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

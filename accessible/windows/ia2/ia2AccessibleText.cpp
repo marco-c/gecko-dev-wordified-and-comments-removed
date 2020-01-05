@@ -112,7 +112,6 @@ long
 aEndOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -161,7 +160,6 @@ S_OK
 :
 E_INVALIDARG
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -182,7 +180,6 @@ BSTR
 aTextAttributes
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -314,7 +311,6 @@ endOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -327,7 +323,6 @@ long
 aOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -400,7 +395,6 @@ S_OK
 :
 S_FALSE
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -427,7 +421,6 @@ long
 aHeight
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -561,7 +554,6 @@ height
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -574,7 +566,6 @@ long
 aNSelections
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -637,7 +628,6 @@ SelectionCount
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -657,7 +647,6 @@ long
 aOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -752,7 +741,6 @@ S_FALSE
 :
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -770,7 +758,6 @@ long
 aEndOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -868,7 +855,6 @@ endOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -885,7 +871,6 @@ BSTR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1003,7 +988,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1027,7 +1011,6 @@ BSTR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1223,7 +1206,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1247,7 +1229,6 @@ BSTR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1445,7 +1426,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1469,7 +1449,6 @@ BSTR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1665,7 +1644,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1677,7 +1655,6 @@ long
 aSelectionIndex
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -1725,7 +1702,6 @@ S_OK
 :
 E_INVALIDARG
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1737,7 +1713,6 @@ long
 aOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -1797,7 +1772,6 @@ aOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1813,7 +1787,6 @@ long
 aEndOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -1863,7 +1836,6 @@ S_OK
 :
 E_INVALIDARG
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1876,7 +1848,6 @@ long
 aNCharacters
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1937,7 +1908,6 @@ CharacterCount
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -1954,7 +1924,6 @@ IA2ScrollType
 aScrollType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -2017,7 +1986,6 @@ aScrollType
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -2038,7 +2006,6 @@ long
 aY
 )
 {
-A11Y_TRYBLOCK_BEGIN
 uint32_t
 geckoCoordType
 =
@@ -2123,7 +2090,6 @@ aY
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -2136,7 +2102,6 @@ IA2TextSegment
 aNewText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 return
 GetModifiedText
 (
@@ -2144,7 +2109,6 @@ true
 aNewText
 )
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleText
@@ -2157,7 +2121,6 @@ IA2TextSegment
 aOldText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 return
 GetModifiedText
 (
@@ -2165,7 +2128,6 @@ false
 aOldText
 )
 ;
-A11Y_TRYBLOCK_END
 }
 HRESULT
 ia2AccessibleText

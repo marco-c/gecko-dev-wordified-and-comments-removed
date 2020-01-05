@@ -159,7 +159,6 @@ IUnknown
 aTable
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -243,7 +242,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -256,7 +254,6 @@ long
 aSpan
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -291,7 +288,6 @@ ColExtent
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -309,7 +305,6 @@ long
 aNColumnHeaderCells
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -473,7 +468,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -486,7 +480,6 @@ long
 aColIdx
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -522,7 +515,6 @@ ColIdx
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -535,7 +527,6 @@ long
 aSpan
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -570,7 +561,6 @@ RowExtent
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -588,7 +578,6 @@ long
 aNRowHeaderCells
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -752,7 +741,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -765,7 +753,6 @@ long
 aRowIdx
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -801,7 +788,6 @@ RowIdx
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -826,7 +812,6 @@ boolean
 aIsSelected
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -931,7 +916,6 @@ Selected
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleTableCell
@@ -944,7 +928,6 @@ boolean
 aIsSelected
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -979,5 +962,4 @@ Selected
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

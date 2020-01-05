@@ -250,7 +250,6 @@ BSTR
 aName
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -319,7 +318,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ApplicationAccessibleWrap
@@ -332,7 +330,6 @@ BSTR
 aVersion
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -401,7 +398,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ApplicationAccessibleWrap
@@ -414,7 +410,6 @@ BSTR
 aName
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -478,7 +473,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ApplicationAccessibleWrap
@@ -491,7 +485,6 @@ BSTR
 aVersion
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -560,5 +553,4 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }

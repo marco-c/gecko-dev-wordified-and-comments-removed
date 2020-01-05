@@ -46,7 +46,6 @@ FAR
 aCountFetched
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -189,7 +188,6 @@ S_FALSE
 :
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ChildrenEnumVariant
@@ -201,7 +199,6 @@ ULONG
 aCount
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 mAnchorAcc
@@ -248,7 +245,6 @@ S_OK
 :
 S_FALSE
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ChildrenEnumVariant
@@ -258,7 +254,6 @@ Reset
 (
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 mAnchorAcc
@@ -288,7 +283,6 @@ GetChildAt
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ChildrenEnumVariant
@@ -302,7 +296,6 @@ IEnumVARIANT
 aEnumVariant
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -334,5 +327,4 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

@@ -133,7 +133,6 @@ long
 aY
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -282,7 +281,6 @@ y
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleComponent
@@ -295,7 +293,6 @@ IA2Color
 aForeground
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -365,7 +362,6 @@ mColor
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleComponent
@@ -378,7 +374,6 @@ IA2Color
 aBackground
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -453,5 +448,4 @@ frame
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
