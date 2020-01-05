@@ -56,6 +56,13 @@ nsIMozBrowserFrame
 .
 h
 "
+#
+include
+"
+nsPlaceholderFrame
+.
+h
+"
 using
 namespace
 mozilla
