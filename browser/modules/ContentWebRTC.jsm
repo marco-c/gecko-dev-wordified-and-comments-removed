@@ -566,6 +566,8 @@ mozilla
 .
 org
 /
+supports
+-
 array
 ;
 1
@@ -576,7 +578,7 @@ createInstance
 (
 Ci
 .
-nsIMutableArray
+nsISupportsArray
 )
 ;
 for
@@ -592,13 +594,12 @@ devices
 )
 allowedDevices
 .
-appendElement
+AppendElement
 (
 devices
 [
 deviceIndex
 ]
-false
 )
 ;
 Services
