@@ -86,8 +86,9 @@ private
 nsSimpleArrayEnumerator
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsCOMPtr

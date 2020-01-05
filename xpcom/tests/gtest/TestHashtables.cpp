@@ -96,8 +96,9 @@ aWord
 TestUniChar
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 GetChar
 (
@@ -302,8 +303,9 @@ mNode
 EntityToUnicodeEntry
 (
 )
-{
-}
+=
+default
+;
 bool
 KeyEquals
 (

@@ -1715,8 +1715,9 @@ private
 ObjectForConstPtr
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_MUTABLE_REFCOUNTING
