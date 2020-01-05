@@ -3280,3 +3280,16 @@ load
 1
 .
 html
+asserts
+(
+0
+-
+1
+)
+load
+1343606
+.
+html
+#
+bug
+1343948
