@@ -1651,8 +1651,6 @@ kwargs
 :
         
 from
-mochitest
-.
 mochitest_options
 import
 ALL_FLAVORS
