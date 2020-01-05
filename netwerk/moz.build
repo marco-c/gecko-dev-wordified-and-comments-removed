@@ -141,9 +141,6 @@ system
 '
 ipc
 '
-'
-standalone
-'
 ]
 if
 CONFIG
