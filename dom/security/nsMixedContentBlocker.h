@@ -193,10 +193,6 @@ static
 bool
 sSendHSTSPriming
 ;
-static
-uint32_t
-sHSTSPrimingCacheTimeout
-;
 }
 ;
 #

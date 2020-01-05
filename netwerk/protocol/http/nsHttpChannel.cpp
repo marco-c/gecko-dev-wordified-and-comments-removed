@@ -34023,10 +34023,11 @@ sss
 CacheNegativeHSTSResult
 (
 mURI
-nsMixedContentBlocker
-:
-:
-sHSTSPrimingCacheTimeout
+24
+*
+60
+*
+60
 )
 ;
 if
