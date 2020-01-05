@@ -615,10 +615,12 @@ aRv
 void
 AppendDataCompletedWithSuccess
 (
+const
 SourceBufferTask
 :
 :
 AppendBufferResult
+&
 aResult
 )
 ;

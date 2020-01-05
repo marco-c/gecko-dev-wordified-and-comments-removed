@@ -146,10 +146,12 @@ TestPromise
 Private
 *
 aPromise
+const
 TestPromise
 :
 :
 ResolveOrRejectValue
+&
 aValue
 int
 aIterations
