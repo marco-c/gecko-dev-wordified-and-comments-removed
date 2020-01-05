@@ -7679,14 +7679,11 @@ break
 ;
 default
 :
-return
-Fail
+MOZ_CRASH
 (
-c
 "
-unexpected
-expression
-kind
+Bad
+AstExprKind
 "
 )
 ;

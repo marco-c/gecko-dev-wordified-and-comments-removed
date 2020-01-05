@@ -132,9 +132,6 @@ Func
 BlockVoid
 =
 0x40
-Max
-=
-0x7f
 Limit
 =
 0x80
@@ -143,8 +140,6 @@ Limit
 enum
 class
 ValType
-:
-uint32_t
 {
 I32
 =
@@ -298,8 +293,6 @@ Default
 enum
 class
 Expr
-:
-uint32_t
 {
 Unreachable
 =

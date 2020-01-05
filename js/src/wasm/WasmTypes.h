@@ -1302,8 +1302,6 @@ type
 enum
 class
 ExprType
-:
-uint32_t
 {
 Void
 =
