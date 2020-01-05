@@ -136,11 +136,6 @@ AppsServiceChild
 jsm
 '
 '
-MessageBroadcaster
-.
-jsm
-'
-'
 PermissionsInstaller
 .
 jsm
