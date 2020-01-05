@@ -124,8 +124,8 @@ RTCSessionDescriptionCallback
 =
 void
 (
-RTCSessionDescriptionInit
-description
+RTCSessionDescription
+sdp
 )
 ;
 callback
@@ -466,7 +466,7 @@ getIdentityAssertion
 ;
 Promise
 <
-RTCSessionDescriptionInit
+RTCSessionDescription
 >
 createOffer
 (
@@ -477,7 +477,7 @@ options
 ;
 Promise
 <
-RTCSessionDescriptionInit
+RTCSessionDescription
 >
 createAnswer
 (
@@ -492,7 +492,7 @@ void
 >
 setLocalDescription
 (
-RTCSessionDescriptionInit
+RTCSessionDescription
 description
 )
 ;
@@ -502,7 +502,7 @@ void
 >
 setRemoteDescription
 (
-RTCSessionDescriptionInit
+RTCSessionDescription
 description
 )
 ;
@@ -529,12 +529,7 @@ void
 >
 addIceCandidate
 (
-(
-RTCIceCandidateInit
-or
 RTCIceCandidate
-)
-?
 candidate
 )
 ;
@@ -889,7 +884,7 @@ void
 >
 setLocalDescription
 (
-RTCSessionDescriptionInit
+RTCSessionDescription
 description
 VoidFunction
 successCallback
@@ -903,7 +898,7 @@ void
 >
 setRemoteDescription
 (
-RTCSessionDescriptionInit
+RTCSessionDescription
 description
 VoidFunction
 successCallback

@@ -194,6 +194,9 @@ pc
 .
 setLocalDescription
 (
+new
+RTCSessionDescription
+(
 {
 sdp
 :
@@ -207,6 +210,7 @@ type
 offer
 "
 }
+)
 )
 .
 then
@@ -254,6 +258,9 @@ pc
 .
 setRemoteDescription
 (
+new
+RTCSessionDescription
+(
 {
 sdp
 :
@@ -267,6 +274,7 @@ type
 offer
 "
 }
+)
 )
 .
 then
