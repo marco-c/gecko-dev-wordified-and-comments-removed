@@ -876,7 +876,7 @@ RELEASE_OR_BETA
 readonly
 attribute
 boolean
-isReleaseBuild
+isReleaseOrBeta
 ;
 /
 *

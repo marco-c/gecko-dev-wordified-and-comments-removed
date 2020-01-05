@@ -4097,7 +4097,7 @@ NS_IMETHODIMP
 nsXULAppInfo
 :
 :
-GetIsReleaseBuild
+GetIsReleaseOrBeta
 (
 bool
 *
