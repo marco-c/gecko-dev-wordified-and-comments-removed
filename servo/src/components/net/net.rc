@@ -223,6 +223,10 @@ http_loader
 ;
 pub
 mod
+data_loader
+;
+pub
+mod
 image_cache_task
 ;
 pub

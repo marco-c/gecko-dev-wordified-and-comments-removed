@@ -1182,16 +1182,6 @@ val
 }
 #
 [
-cfg
-(
-test
-)
-]
-mod
-test
-{
-#
-[
 test
 ]
 fn
@@ -1224,5 +1214,4 @@ as
 uint
 )
 ;
-}
 }
