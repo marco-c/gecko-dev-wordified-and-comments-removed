@@ -1200,6 +1200,17 @@ gBrowser
 loadTabs
 (
 uris
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 }

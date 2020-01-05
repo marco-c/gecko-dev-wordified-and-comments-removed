@@ -10231,6 +10231,9 @@ body
 CDATA
 [
 let
+aTriggeringPrincipal
+;
+let
 aAllowThirdPartyFixup
 ;
 let
@@ -10338,6 +10341,12 @@ aUserContextId
 params
 .
 userContextId
+;
+aTriggeringPrincipal
+=
+params
+.
+triggeringPrincipal
 ;
 }
 if
@@ -10620,6 +10629,9 @@ aPostDatas
 [
 0
 ]
+triggeringPrincipal
+:
+aTriggeringPrincipal
 }
 )
 ;
@@ -10683,6 +10695,9 @@ aPostDatas
 userContextId
 :
 aUserContextId
+triggeringPrincipal
+:
+aTriggeringPrincipal
 }
 )
 ;
@@ -10762,6 +10777,9 @@ i
 userContextId
 :
 aUserContextId
+triggeringPrincipal
+:
+aTriggeringPrincipal
 }
 )
 ;
