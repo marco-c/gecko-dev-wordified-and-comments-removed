@@ -620,7 +620,7 @@ ReflowGoal
 }
 unsafe
 impl
-Send
+Sync
 for
 SharedLayoutContext
 {

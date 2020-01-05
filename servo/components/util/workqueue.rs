@@ -432,7 +432,7 @@ impl
 <
 QueueData
 :
-Send
+Sync
 WorkData
 :
 Send
@@ -1092,7 +1092,7 @@ impl
 <
 QueueData
 :
-Send
+Sync
 WorkData
 :
 Send
