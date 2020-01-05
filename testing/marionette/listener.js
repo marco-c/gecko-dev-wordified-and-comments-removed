@@ -4150,6 +4150,7 @@ atouch
 ;
 }
 function
+*
 performActions
 (
 msg
@@ -4169,6 +4170,7 @@ msg
 actions
 )
 ;
+yield
 action
 .
 dispatch
@@ -4180,10 +4182,12 @@ curContainer
 ;
 }
 function
+*
 releaseActions
 (
 )
 {
+yield
 action
 .
 dispatchTickActions
