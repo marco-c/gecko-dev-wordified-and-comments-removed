@@ -45,6 +45,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 appinfo
 .
 ID
@@ -61,6 +63,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 appinfo
 .
@@ -79,6 +83,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 appinfo
 .
 vendor
@@ -95,6 +101,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 appinfo
 .
@@ -113,6 +121,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 appinfo
 .
 platformVersion
@@ -130,6 +140,8 @@ assertIsNotNone
 (
 self
 .
+puppeteer
+.
 appinfo
 .
 locale
@@ -141,6 +153,8 @@ assertIsNotNone
 (
 self
 .
+puppeteer
+.
 appinfo
 .
 user_agent
@@ -151,6 +165,8 @@ self
 assertIsNotNone
 (
 self
+.
+puppeteer
 .
 appinfo
 .
@@ -174,6 +190,8 @@ AttributeError
 :
             
 self
+.
+puppeteer
 .
 appinfo
 .

@@ -195,6 +195,8 @@ isinstance
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -215,6 +217,8 @@ assertTrue
 isinstance
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -237,6 +241,8 @@ isinstance
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -256,6 +262,8 @@ assertIsNone
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -270,6 +278,8 @@ orig_value
 =
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -280,6 +290,8 @@ int_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -297,6 +309,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -313,6 +327,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -348,6 +364,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -368,6 +386,8 @@ value
 =
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -379,7 +399,7 @@ startup
 .
 homepage
 '
-                                    
+                                              
 interface
 =
 '
@@ -404,6 +424,8 @@ self
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -420,6 +442,8 @@ self
 assertFalse
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -443,6 +467,8 @@ bool_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -462,6 +488,8 @@ assertTrue
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -484,6 +512,8 @@ bool_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -501,6 +531,8 @@ assertFalse
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -523,6 +555,8 @@ bool_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -540,6 +574,8 @@ assertTrue
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -563,6 +599,8 @@ bool_pref
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -578,6 +616,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -603,6 +643,8 @@ int_pref
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -618,6 +660,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -643,6 +687,8 @@ int_pref
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -658,6 +704,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -698,6 +746,8 @@ AssertionError
                           
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -716,6 +766,8 @@ self
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -731,6 +783,8 @@ self
 assertTrue
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -754,6 +808,8 @@ new_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -771,6 +827,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -794,6 +852,8 @@ new_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -812,6 +872,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -846,6 +908,8 @@ self
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -861,6 +925,8 @@ self
 assertTrue
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -884,6 +950,8 @@ bool_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -901,6 +969,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 prefs
 .
 get_pref
@@ -924,6 +994,8 @@ int_pref
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -942,6 +1014,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 prefs
 .

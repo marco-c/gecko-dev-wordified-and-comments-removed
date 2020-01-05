@@ -50,7 +50,7 @@ def
 __init__
 (
 self
-marionette_getter
+marionette
 window
 element
 )
@@ -75,7 +75,7 @@ BaseLib
 __init__
 (
 self
-marionette_getter
+marionette
 )
         
 self

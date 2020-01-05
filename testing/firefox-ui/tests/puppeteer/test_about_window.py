@@ -59,6 +59,8 @@ try
             
 self
 .
+puppeteer
+.
 windows
 .
 close_all
@@ -450,6 +452,8 @@ assertEquals
 (
 about_window
 self
+.
+puppeteer
 .
 windows
 .

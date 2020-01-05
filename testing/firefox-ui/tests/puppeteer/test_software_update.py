@@ -41,8 +41,6 @@ software_update
 =
 SoftwareUpdate
 (
-lambda
-:
 self
 .
 marionette
@@ -522,8 +520,6 @@ software_update
 =
 SoftwareUpdate
 (
-lambda
-:
 self
 .
 marionette
@@ -692,8 +688,6 @@ software_update
 =
 SoftwareUpdate
 (
-lambda
-:
 self
 .
 marionette

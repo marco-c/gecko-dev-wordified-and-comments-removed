@@ -40,6 +40,8 @@ try
             
 self
 .
+puppeteer
+.
 windows
 .
 close_all

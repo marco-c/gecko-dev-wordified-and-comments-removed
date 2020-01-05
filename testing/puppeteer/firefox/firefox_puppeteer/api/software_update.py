@@ -574,7 +574,7 @@ def
 __init__
 (
 self
-marionette_getter
+marionette
 )
 :
         
@@ -583,7 +583,7 @@ BaseLib
 __init__
 (
 self
-marionette_getter
+marionette
 )
         
 self
@@ -1318,7 +1318,7 @@ def
 __init__
 (
 self
-marionette_getter
+marionette
 )
 :
         
@@ -1327,7 +1327,7 @@ BaseLib
 __init__
 (
 self
-marionette_getter
+marionette
 )
         
 self
@@ -1336,7 +1336,7 @@ app_info
 =
 AppInfo
 (
-marionette_getter
+marionette
 )
         
 self
@@ -1345,7 +1345,7 @@ prefs
 =
 Preferences
 (
-marionette_getter
+marionette
 )
         
 self
@@ -1354,7 +1354,7 @@ _update_channel
 =
 UpdateChannel
 (
-marionette_getter
+marionette
 )
         
 self
@@ -1363,7 +1363,7 @@ _mar_channels
 =
 MARChannels
 (
-marionette_getter
+marionette
 )
         
 self
@@ -1372,7 +1372,7 @@ _active_update
 =
 ActiveUpdate
 (
-marionette_getter
+marionette
 )
     
 property
@@ -2833,7 +2833,7 @@ def
 __init__
 (
 self
-marionette_getter
+marionette
 )
 :
         
@@ -2842,7 +2842,7 @@ BaseLib
 __init__
 (
 self
-marionette_getter
+marionette
 )
         
 self
@@ -2851,7 +2851,7 @@ prefs
 =
 Preferences
 (
-marionette_getter
+marionette
 )
         
 self

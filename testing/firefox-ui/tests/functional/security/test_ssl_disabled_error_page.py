@@ -59,6 +59,8 @@ com
         
 self
 .
+puppeteer
+.
 utils
 .
 sanitize
@@ -73,6 +75,8 @@ True
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -91,6 +95,8 @@ min
 )
         
 self
+.
+puppeteer
 .
 prefs
 .

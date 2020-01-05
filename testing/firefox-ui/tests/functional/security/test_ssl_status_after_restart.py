@@ -162,6 +162,8 @@ secure
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -209,6 +211,8 @@ try
 :
             
 self
+.
+puppeteer
 .
 windows
 .
@@ -653,6 +657,8 @@ self
 assertIn
 (
 self
+.
+puppeteer
 .
 security
 .

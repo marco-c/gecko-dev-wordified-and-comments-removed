@@ -139,8 +139,6 @@ panel_id
 Panel
 )
 (
-lambda
-:
 self
 .
 marionette

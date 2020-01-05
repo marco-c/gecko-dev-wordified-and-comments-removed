@@ -200,8 +200,6 @@ mainDeck
 return
 Deck
 (
-lambda
-:
 self
 .
 marionette

@@ -31,6 +31,8 @@ self
         
 self
 .
+puppeteer
+.
 places
 .
 remove_all_history
@@ -183,6 +185,8 @@ url
         
 self
 .
+puppeteer
+.
 places
 .
 wait_for_visited
@@ -257,6 +261,8 @@ send_keys
 (
 self
 .
+puppeteer
+.
 keys
 .
 ESCAPE
@@ -305,6 +311,8 @@ urlbar
 send_keys
 (
 self
+.
+puppeteer
 .
 keys
 .

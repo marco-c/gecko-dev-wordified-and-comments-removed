@@ -164,6 +164,8 @@ input
 if
 self
 .
+puppeteer
+.
 platform
 =
 =

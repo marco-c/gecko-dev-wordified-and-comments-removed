@@ -27,6 +27,8 @@ self
         
 self
 .
+puppeteer
+.
 places
 .
 remove_all_history
@@ -140,6 +142,8 @@ url
         
 self
 .
+puppeteer
+.
 places
 .
 wait_for_visited
@@ -187,6 +191,8 @@ assertEqual
 (
 self
 .
+puppeteer
+.
 places
 .
 get_all_urls_in_history
@@ -198,6 +204,8 @@ urls
 )
         
 self
+.
+puppeteer
 .
 utils
 .
@@ -219,6 +227,8 @@ self
 assertEqual
 (
 self
+.
+puppeteer
 .
 places
 .
@@ -263,6 +273,8 @@ litmus_1
 )
         
 self
+.
+puppeteer
 .
 utils
 .

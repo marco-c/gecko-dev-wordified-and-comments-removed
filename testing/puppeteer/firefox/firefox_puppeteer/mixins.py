@@ -1,7 +1,7 @@
-import
-unittest
 from
 firefox_puppeteer
+.
+puppeteer
 import
 Puppeteer
 from
@@ -15,55 +15,33 @@ window
 import
 BrowserWindow
 class
-BaseFirefoxTestCase
+PuppeteerMixin
 (
-unittest
-.
-TestCase
-Puppeteer
+object
 )
 :
     
 "
 "
 "
-Base
-TestCase
+Mix
+-
+in
 class
 for
-Firefox
-Desktop
-tests
-.
-    
-This
-is
-designed
-to
-enhance
-MarionetteTestCase
-by
-inserting
-the
-Puppeteer
-    
-mixin
-class
-(
-so
 Firefox
 specific
 API
 modules
-are
 exposed
 to
 test
 scope
-)
-and
+.
     
-providing
+It
+also
+provides
 common
 set
 -
@@ -79,6 +57,8 @@ tests
 .
     
 Child
+test
+case
 classes
 are
 expected
@@ -87,31 +67,36 @@ also
 subclass
 MarionetteTestCase
 such
-that
     
-MarionetteTestCase
+that
+PuppeteerMixin
 is
-inserted
+followed
+by
+MarionetteTestCase
+.
+This
+will
+insert
+the
+    
+Puppeteer
+mixin
+before
+the
+MarionetteTestCase
 into
 the
 MRO
-after
-FirefoxTestCase
-but
-before
-    
-unittest
-.
-TestCase
 .
     
 example
 :
     
 class
-AwesomeTestCase
+MyTestCase
 (
-FirefoxTestCase
+PuppeteerMixin
 MarionetteTestCase
 )
     
@@ -129,7 +114,9 @@ marionette
 appropriately
     
 in
-__init__
+setUp
+(
+)
 .
 Any
 TestCase
@@ -182,33 +169,6 @@ class
 "
 "
 "
-    
-def
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-super
-(
-BaseFirefoxTestCase
-self
-)
-.
-__init__
-(
-*
-args
-*
-*
-kwargs
-)
     
 def
 _check_and_fix_leaked_handles
@@ -389,10 +349,13 @@ browser
 =
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
 (
+                    
 lambda
 win
 :
@@ -405,6 +368,8 @@ BrowserWindow
 )
             
 self
+.
+puppeteer
 .
 windows
 .
@@ -526,6 +491,8 @@ browser
 =
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
@@ -555,7 +522,7 @@ kwargs
         
 super
 (
-BaseFirefoxTestCase
+PuppeteerMixin
 self
 )
 .
@@ -604,9 +571,22 @@ chrome
         
 self
 .
+puppeteer
+=
+Puppeteer
+(
+self
+.
+marionette
+)
+        
+self
+.
 browser
 =
 self
+.
+puppeteer
 .
 windows
 .
@@ -642,6 +622,8 @@ marionette
 navigate
 (
 self
+.
+puppeteer
 .
 prefs
 .
@@ -694,7 +676,7 @@ finally
             
 super
 (
-BaseFirefoxTestCase
+PuppeteerMixin
 self
 )
 .

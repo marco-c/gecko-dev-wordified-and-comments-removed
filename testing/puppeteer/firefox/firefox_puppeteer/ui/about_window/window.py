@@ -169,8 +169,6 @@ updateDeck
 return
 Deck
 (
-lambda
-:
 self
 .
 marionette

@@ -28,10 +28,8 @@ import
 SkipTest
 from
 firefox_puppeteer
-.
-testcases
 import
-BaseFirefoxTestCase
+PuppeteerMixin
 from
 external_media_tests
 .
@@ -57,7 +55,7 @@ VideoPuppeteer
 class
 MediaTestCase
 (
-BaseFirefoxTestCase
+PuppeteerMixin
 MarionetteTestCase
 )
 :

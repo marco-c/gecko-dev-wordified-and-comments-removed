@@ -104,6 +104,8 @@ True
             
 self
 .
+puppeteer
+.
 windows
 .
 close_all

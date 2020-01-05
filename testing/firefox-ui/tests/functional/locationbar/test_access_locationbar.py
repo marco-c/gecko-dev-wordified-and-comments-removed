@@ -31,6 +31,8 @@ self
         
 self
 .
+puppeteer
+.
 places
 .
 remove_all_history
@@ -168,6 +170,8 @@ url
         
 self
 .
+puppeteer
+.
 places
 .
 wait_for_visited
@@ -250,6 +254,8 @@ send_keys
 (
 self
 .
+puppeteer
+.
 keys
 .
 ARROW_DOWN
@@ -306,6 +312,8 @@ send_keys
 (
 self
 .
+puppeteer
+.
 keys
 .
 ARROW_DOWN
@@ -356,6 +364,8 @@ urlbar
 send_keys
 (
 self
+.
+puppeteer
 .
 keys
 .

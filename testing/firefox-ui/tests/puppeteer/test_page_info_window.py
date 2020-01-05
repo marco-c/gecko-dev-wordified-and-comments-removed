@@ -23,6 +23,8 @@ try
             
 self
 .
+puppeteer
+.
 windows
 .
 close_all
@@ -512,6 +514,8 @@ shortcut
 and
 self
 .
+puppeteer
+.
 platform
 =
 =
@@ -557,6 +561,8 @@ assertEquals
 (
 page_info
 self
+.
+puppeteer
 .
 windows
 .
@@ -644,6 +650,8 @@ menu
 '
 and
 self
+.
+puppeteer
 .
 platform
 !

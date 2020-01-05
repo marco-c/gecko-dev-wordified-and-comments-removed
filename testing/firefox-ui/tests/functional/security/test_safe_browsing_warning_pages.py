@@ -105,6 +105,8 @@ html
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -122,6 +124,8 @@ True
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -167,6 +171,8 @@ try
 :
             
 self
+.
+puppeteer
 .
 utils
 .
@@ -707,6 +713,8 @@ unsafe_page
 )
         
 self
+.
+puppeteer
 .
 utils
 .
