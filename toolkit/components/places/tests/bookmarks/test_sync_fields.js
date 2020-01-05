@@ -833,10 +833,9 @@ let
 insertSyncedBookmark
 =
 async
-function
-(
 uri
-)
+=
+>
 {
 return
 await
@@ -868,11 +867,6 @@ name
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 await
 insertSyncedBookmark

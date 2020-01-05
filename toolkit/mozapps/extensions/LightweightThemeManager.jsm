@@ -1618,9 +1618,10 @@ purge
 _persistImages
 (
 aData
-function
 (
 )
+=
+>
 {
 _notifyWindows
 (
@@ -1630,11 +1631,6 @@ currentThemeForDisplay
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

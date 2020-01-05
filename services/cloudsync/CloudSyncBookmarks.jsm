@@ -4156,10 +4156,9 @@ getGuidForRootFolder
 .
 then
 (
-function
-(
 guid
-)
+=
+>
 {
 rootGuid
 =
@@ -4173,11 +4172,6 @@ this
 )
 ;
 }
-.
-bind
-(
-this
-)
 deferred
 .
 reject

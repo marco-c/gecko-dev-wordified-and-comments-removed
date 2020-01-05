@@ -2679,12 +2679,11 @@ this
 _getPagesStats
 (
 (
-function
-onPagesCount
-(
 aPagesCount
 aStatsCount
 )
+=
+>
 {
 let
 overLimitPages
@@ -2766,12 +2765,6 @@ limit
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -1759,10 +1759,10 @@ Utils
 .
 nextTick
 (
-function
-onNextTick
 (
 )
+=
+>
 {
 this
 .
@@ -1821,11 +1821,6 @@ ready
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

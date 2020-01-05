@@ -406,9 +406,10 @@ factory
 }
 (
 this
-function
 (
 )
+=
+>
 {
 "
 use
@@ -3951,11 +3952,6 @@ url
 }
 ;
 }
-.
-bind
-(
-this
-)
 )
 )
 ;

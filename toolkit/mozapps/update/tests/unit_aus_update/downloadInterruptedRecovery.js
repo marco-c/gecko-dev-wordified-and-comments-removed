@@ -432,9 +432,10 @@ tm
 .
 dispatchToMainThread
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -632,11 +633,6 @@ status
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -588,9 +588,10 @@ false
 let
 parseNode
 =
-function
 (
 )
+=
+>
 {
 let
 node
@@ -663,11 +664,6 @@ LINKIFY_TIMEOUT
 ;
 }
 }
-.
-bind
-(
-this
-)
 ;
 this
 .

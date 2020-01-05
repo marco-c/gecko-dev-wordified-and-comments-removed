@@ -147,10 +147,9 @@ input
 .
 then
 (
-function
-(
 response
-)
+=
+>
 {
 var
 output
@@ -425,11 +424,6 @@ name
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

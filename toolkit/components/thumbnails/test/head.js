@@ -271,9 +271,10 @@ promiseInitialized
 .
 then
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -305,11 +306,6 @@ finish
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

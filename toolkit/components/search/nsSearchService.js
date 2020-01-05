@@ -16153,10 +16153,10 @@ _batchTask
 let
 task
 =
-function
-taskCallback
 (
 )
+=
+>
 {
 LOG
 (
@@ -16176,11 +16176,6 @@ _buildCache
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 this
 .

@@ -1048,10 +1048,9 @@ iterator
 .
 forEach
 (
-function
-(
 aEntry
-)
+=
+>
 {
 if
 (
@@ -1142,11 +1141,6 @@ return
 undefined
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 iterator

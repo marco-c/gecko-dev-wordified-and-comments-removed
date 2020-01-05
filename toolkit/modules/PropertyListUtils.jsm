@@ -191,9 +191,10 @@ tm
 .
 dispatchToMainThread
 (
-function
 (
 )
+=
+>
 {
 let
 self
@@ -390,11 +391,6 @@ ex
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

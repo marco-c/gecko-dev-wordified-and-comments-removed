@@ -7923,11 +7923,9 @@ this
 .
 forEach
 (
-(
-function
-(
 key
-)
+=
+>
 {
 if
 (
@@ -7976,12 +7974,6 @@ key
 ;
 }
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 clone

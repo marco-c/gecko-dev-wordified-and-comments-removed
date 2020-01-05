@@ -1126,12 +1126,12 @@ editBookmarkOverlay
 xul
 "
 (
-function
-(
 aSubject
 aTopic
 aData
 )
+=
+>
 {
 let
 header
@@ -1197,12 +1197,6 @@ aPosition
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -10997,10 +10997,9 @@ addEventListener
 "
 click
 "
-function
-(
 event
-)
+=
+>
 {
 event
 .
@@ -11018,11 +11017,6 @@ index
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 ttBtn

@@ -5200,10 +5200,9 @@ this
 .
 _chooseClientApp
 (
-function
-(
 aResult
-)
+=
+>
 {
 if
 (
@@ -5227,11 +5226,6 @@ subscribeCallback
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

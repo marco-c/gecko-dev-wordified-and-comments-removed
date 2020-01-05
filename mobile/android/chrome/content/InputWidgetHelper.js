@@ -201,11 +201,9 @@ max
 .
 show
 (
-(
-function
-(
 data
-)
+=
+>
 {
 let
 changed
@@ -315,12 +313,6 @@ aElement
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

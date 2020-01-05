@@ -658,9 +658,10 @@ started
 =
 (
 async
-function
 (
 )
+=
+>
 {
 await
 OS
@@ -761,11 +762,6 @@ manifestObjs
 }
 ;
 }
-)
-.
-bind
-(
-this
 )
 (
 )

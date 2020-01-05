@@ -1365,10 +1365,9 @@ notifications
 .
 forEach
 (
-function
-(
 notification
-)
+=
+>
 {
 this
 .
@@ -1443,11 +1442,6 @@ notification
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 this

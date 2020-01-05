@@ -5107,9 +5107,10 @@ _win
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 if
 (
@@ -5185,11 +5186,6 @@ block
 "
 ;
 }
-.
-bind
-(
-this
-)
 300
 )
 ;

@@ -1483,7 +1483,6 @@ this
 .
 _uncaughtErrorObserver
 =
-function
 (
 {
 message
@@ -1493,6 +1492,8 @@ stack
 lineNumber
 }
 )
+=
+>
 {
 let
 error
@@ -1611,11 +1612,6 @@ stack
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 }
 Tester
@@ -4227,9 +4223,9 @@ this
 waitForWindowsState
 (
 (
-function
-(
 )
+=
+>
 {
 if
 (
@@ -4672,12 +4668,6 @@ execTest
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

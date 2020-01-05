@@ -1487,10 +1487,9 @@ _generateCloudSyncTabList
 let
 updateTabList
 =
-function
-(
 remoteTabs
-)
+=
+>
 {
 let
 list
@@ -1601,11 +1600,6 @@ tabEnt
 }
 }
 }
-.
-bind
-(
-this
-)
 ;
 return
 CloudSync

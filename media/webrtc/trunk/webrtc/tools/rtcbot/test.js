@@ -717,10 +717,9 @@ test
 reports
 /
 "
-function
-(
 exists
-)
+=
+>
 {
 if
 (
@@ -760,11 +759,6 @@ this
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 function

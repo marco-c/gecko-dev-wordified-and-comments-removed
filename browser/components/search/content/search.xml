@@ -695,12 +695,9 @@ search
 .
 init
 (
-(
-function
-search_init_cb
-(
 aStatus
-)
+=
+>
 {
 /
 /
@@ -778,12 +775,6 @@ aStatus
 ;
 }
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 /

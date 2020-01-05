@@ -701,9 +701,10 @@ addEventListener
 "
 click
 "
-function
 (
 )
+=
+>
 {
 if
 (
@@ -748,11 +749,6 @@ rule
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 let

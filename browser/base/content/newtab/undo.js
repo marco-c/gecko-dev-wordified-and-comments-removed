@@ -456,9 +456,10 @@ NewTabUtils
 .
 undoAll
 (
-function
 (
 )
+=
+>
 {
 gUpdater
 .
@@ -473,11 +474,6 @@ hide
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

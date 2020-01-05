@@ -772,11 +772,9 @@ this
 .
 root
 )
-function
-writeAsync
-(
 err
-)
+=
+>
 {
 if
 (
@@ -815,11 +813,6 @@ this
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

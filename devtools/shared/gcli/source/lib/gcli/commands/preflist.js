@@ -927,9 +927,10 @@ reject
 {
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 var
 prefsData
@@ -962,11 +963,6 @@ prefsData
 )
 ;
 }
-.
-bind
-(
-this
-)
 10
 )
 ;

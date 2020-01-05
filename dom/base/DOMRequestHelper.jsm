@@ -1115,11 +1115,12 @@ this
 .
 createPromise
 (
-function
 (
 aResolve
 aReject
 )
+=
+>
 {
 let
 resolverId
@@ -1144,11 +1145,6 @@ resolverId
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

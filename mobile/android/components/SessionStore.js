@@ -1193,12 +1193,12 @@ let
 restoreCleanup
 =
 (
-function
-(
 aSubject
 aTopic
 aData
 )
+=
+>
 {
 Services
 .
@@ -1269,12 +1269,6 @@ notification
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 ;
 Services
 .

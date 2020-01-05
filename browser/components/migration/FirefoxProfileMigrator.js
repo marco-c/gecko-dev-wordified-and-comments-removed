@@ -647,11 +647,12 @@ currentProfileDir
 let
 getFileResource
 =
-function
 (
 aMigrationType
 aFileNames
 )
+=
+>
 {
 let
 files
@@ -739,11 +740,6 @@ true
 }
 ;
 }
-.
-bind
-(
-this
-)
 ;
 let
 types

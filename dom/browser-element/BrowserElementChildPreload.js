@@ -4043,9 +4043,10 @@ this
 .
 _addMozAfterPaintHandler
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -4061,11 +4062,6 @@ nextpaint
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -1463,11 +1463,9 @@ getFileAsync
 aLauncher
 .
 source
-function
-LastDirCallback
-(
 lastDir
-)
+=
+>
 {
 if
 (
@@ -1653,11 +1651,6 @@ result
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

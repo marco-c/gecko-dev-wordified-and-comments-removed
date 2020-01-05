@@ -7635,9 +7635,10 @@ _abortedSessionSerializer
 enqueueTask
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -7718,11 +7719,6 @@ ex
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -7811,9 +7807,10 @@ _deletionPingSerializer
 enqueueTask
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -7894,11 +7891,6 @@ ex
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

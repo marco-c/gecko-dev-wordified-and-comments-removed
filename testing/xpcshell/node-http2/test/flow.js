@@ -2051,9 +2051,10 @@ BLOCKED
 {
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -2089,11 +2090,6 @@ _received
 0
 ;
 }
-.
-bind
-(
-this
-)
 20
 )
 ;

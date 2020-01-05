@@ -3462,10 +3462,9 @@ context
 .
 then
 (
-function
-(
 value
-)
+=
+>
 {
 if
 (
@@ -3510,11 +3509,6 @@ return
 index
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

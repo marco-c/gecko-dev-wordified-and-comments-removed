@@ -3047,10 +3047,10 @@ promise
 .
 then
 (
-function
-onTimeout
 (
 )
+=
+>
 {
 let
 state
@@ -3236,11 +3236,6 @@ lineNumber
 )
 ;
 }
-.
-bind
-(
-this
-)
 function
 onSatisfied
 (

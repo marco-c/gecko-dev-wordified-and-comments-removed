@@ -849,9 +849,10 @@ promises
 .
 then
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -864,11 +865,6 @@ resumeFire
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -1033,9 +1029,10 @@ promises
 .
 then
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -1048,11 +1045,6 @@ resumeFire
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

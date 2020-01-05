@@ -309,9 +309,10 @@ e
 let
 onReady
 =
-function
 (
 )
+=
+>
 {
 Services
 .
@@ -346,11 +347,6 @@ _init
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 Services
 .

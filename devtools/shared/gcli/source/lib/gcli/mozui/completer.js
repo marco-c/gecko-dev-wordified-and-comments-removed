@@ -744,10 +744,9 @@ _getCompleterTemplateData
 .
 then
 (
-function
-(
 data
-)
+=
+>
 {
 if
 (
@@ -822,11 +821,6 @@ firstChild
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

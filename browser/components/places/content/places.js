@@ -2610,11 +2610,9 @@ nsIFilePicker
 let
 fpCallback
 =
-function
-fpCallback_done
-(
 aResult
-)
+=
+>
 {
 if
 (
@@ -2641,11 +2639,6 @@ path
 ;
 }
 }
-.
-bind
-(
-this
-)
 ;
 fp
 .

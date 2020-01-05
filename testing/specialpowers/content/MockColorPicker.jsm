@@ -538,9 +538,10 @@ window
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 let
 result
@@ -688,11 +689,6 @@ result
 ;
 }
 }
-.
-bind
-(
-this
-)
 0
 )
 ;

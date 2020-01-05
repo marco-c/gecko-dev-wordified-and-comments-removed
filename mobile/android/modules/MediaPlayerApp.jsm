@@ -362,9 +362,9 @@ tm
 dispatchToMainThread
 (
 (
-function
-(
 )
+=
+>
 {
 this
 .
@@ -376,12 +376,6 @@ this
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

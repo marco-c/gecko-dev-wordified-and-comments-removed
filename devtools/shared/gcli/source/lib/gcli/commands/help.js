@@ -295,10 +295,9 @@ input
 .
 then
 (
-function
-(
 defaultDescr
-)
+=
+>
 {
 return
 '
@@ -328,11 +327,6 @@ defaultDescr
 '
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

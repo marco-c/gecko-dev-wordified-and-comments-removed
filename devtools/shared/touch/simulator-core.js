@@ -1072,10 +1072,9 @@ content
 setTimeout
 (
 (
-function
-contextMenu
-(
 )
+=
+>
 {
 target
 .
@@ -1091,12 +1090,6 @@ cancelClick
 true
 ;
 }
-)
-.
-bind
-(
-this
-)
 delay
 )
 ;

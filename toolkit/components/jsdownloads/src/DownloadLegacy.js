@@ -827,11 +827,9 @@ launcherPath
 .
 then
 (
-function
-DLT_I_onDownload
-(
 aDownload
-)
+=
+>
 {
 if
 (
@@ -894,11 +892,6 @@ aDownload
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 .
 then
