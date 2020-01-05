@@ -129,6 +129,16 @@ aWhy
 )
 override
 ;
+bool
+RecvGraphicsError
+(
+const
+nsCString
+&
+aError
+)
+override
+;
 static
 void
 Destroy
