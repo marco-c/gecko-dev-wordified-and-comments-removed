@@ -2062,6 +2062,7 @@ Input
 (
 nullptr
 bufferInfo
+nullptr
 )
 ;
 }
@@ -2292,6 +2293,10 @@ Input
 (
 bytes
 bufferInfo
+GetCryptoInfoFromSample
+(
+aSample
+)
 )
 ;
 }
