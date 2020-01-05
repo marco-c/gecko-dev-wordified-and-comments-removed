@@ -197,7 +197,7 @@ kGTCTickLeapTolerance
 ;
 static
 LONGLONG
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 ;
 static
 const
@@ -469,7 +469,7 @@ sFrequencyPerSec
 /
 10000LL
 ;
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 =
 LONGLONG
 (
@@ -810,7 +810,7 @@ if
 diff
 <
 =
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 )
 {
 return
@@ -833,7 +833,7 @@ overflow
 =
 diff
 -
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 ;
 LOG
 (
