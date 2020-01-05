@@ -70,7 +70,7 @@ sigId
 )
 ;
 extern
-ProfilingOffsets
+CallableOffsets
 GenerateImportInterpExit
 (
 jit
@@ -94,7 +94,7 @@ throwLabel
 )
 ;
 extern
-ProfilingOffsets
+CallableOffsets
 GenerateImportJitExit
 (
 jit
@@ -116,7 +116,7 @@ throwLabel
 )
 ;
 extern
-ProfilingOffsets
+CallableOffsets
 GenerateTrapExit
 (
 jit

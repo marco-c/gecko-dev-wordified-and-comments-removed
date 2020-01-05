@@ -3306,9 +3306,6 @@ currentOffset
 (
 )
 )
-framePushed
-(
-)
 )
 ;
 MOZ_ASSERT_IF

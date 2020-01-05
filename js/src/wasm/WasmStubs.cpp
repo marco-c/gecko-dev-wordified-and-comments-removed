@@ -2844,7 +2844,7 @@ return
 offsets
 ;
 }
-ProfilingOffsets
+CallableOffsets
 wasm
 :
 :
@@ -2970,7 +2970,7 @@ argOffset
 argBytes
 )
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue
@@ -3708,7 +3708,7 @@ void
 *
 )
 ;
-ProfilingOffsets
+CallableOffsets
 wasm
 :
 :
@@ -3808,7 +3808,7 @@ totalJitFrameBytes
 -
 sizeOfRetAddr
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue
@@ -5105,7 +5105,7 @@ return
 offsets
 ;
 }
-ProfilingOffsets
+CallableOffsets
 wasm
 :
 :
@@ -5161,7 +5161,7 @@ ABIStackAlignment
 args
 )
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue
@@ -6642,7 +6642,7 @@ setFramePushed
 0
 )
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue

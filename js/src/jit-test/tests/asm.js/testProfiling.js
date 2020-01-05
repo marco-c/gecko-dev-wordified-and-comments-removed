@@ -621,6 +621,10 @@ assertStackContainsSeq
 (
 stacks
 "
+<
+g
+f
+>
 "
 )
 ;

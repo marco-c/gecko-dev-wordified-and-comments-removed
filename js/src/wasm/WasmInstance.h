@@ -648,17 +648,6 @@ onMovingGrowTable
 (
 )
 ;
-MOZ_MUST_USE
-bool
-ensureProfilingState
-(
-JSContext
-*
-cx
-bool
-enabled
-)
-;
 bool
 debugEnabled
 (
