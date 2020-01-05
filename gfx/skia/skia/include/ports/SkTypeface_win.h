@@ -82,12 +82,8 @@ aFactory
 IDWriteFontFace
 *
 aFontFace
-IDWriteFont
-*
-aFont
-IDWriteFontFamily
-*
-aFontFamily
+SkFontStyle
+aStyle
 )
 ;
 SK_API
