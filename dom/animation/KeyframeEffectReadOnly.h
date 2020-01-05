@@ -1365,6 +1365,15 @@ nsCSSPropertyID
 aProperty
 )
 ;
+void
+EnsureBaseStylesForCompositor
+(
+const
+nsCSSPropertyIDSet
+&
+aPropertiesToSkip
+)
+;
 Maybe
 <
 OwningAnimationTarget

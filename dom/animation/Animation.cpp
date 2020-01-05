@@ -3526,17 +3526,6 @@ mEffect
 return
 ;
 }
-if
-(
-!
-IsInEffect
-(
-)
-)
-{
-return
-;
-}
 AnimationPlayState
 playState
 =
