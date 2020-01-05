@@ -47,12 +47,14 @@ DocAccessibleChildBase
 {
 public
 :
-explicit
 DocAccessibleChild
 (
 DocAccessible
 *
 aDoc
+IProtocol
+*
+aManager
 )
 :
 DocAccessibleChildBase
@@ -64,6 +66,11 @@ MOZ_COUNT_CTOR_INHERITED
 (
 DocAccessibleChild
 DocAccessibleChildBase
+)
+;
+SetManager
+(
+aManager
 )
 ;
 }

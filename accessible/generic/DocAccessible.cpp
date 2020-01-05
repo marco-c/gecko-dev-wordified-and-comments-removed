@@ -6461,6 +6461,7 @@ new
 DocAccessibleChild
 (
 this
+tabChild
 )
 ;
 SetIPCDoc

@@ -62,12 +62,14 @@ DocAccessibleChildBase
 {
 public
 :
-explicit
 DocAccessibleChild
 (
 DocAccessible
 *
 aDoc
+IProtocol
+*
+aManager
 )
 ;
 ~
