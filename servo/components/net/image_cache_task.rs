@@ -2289,7 +2289,7 @@ push
 "
 rippy
 .
-jpg
+png
 "
 )
 ;
