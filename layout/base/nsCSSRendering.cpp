@@ -28478,6 +28478,7 @@ mAlphaBoxBlur
 .
 Init
 (
+aDestinationCtx
 rect
 spreadRadius
 blurRadius
@@ -28496,6 +28497,7 @@ mAlphaBoxBlur
 .
 Init
 (
+aDestinationCtx
 rect
 spreadRadius
 blurRadius
