@@ -7170,6 +7170,12 @@ get
 )
 ;
 }
+case
+NS_NATIVE_OPENGL_CONTEXT
+:
+return
+nullptr
+;
 #
 ifdef
 MOZ_X11
