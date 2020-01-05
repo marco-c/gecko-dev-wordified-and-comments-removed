@@ -100,6 +100,10 @@ getopts
 ;
 extern
 crate
+libc
+;
+extern
+crate
 native
 ;
 extern
