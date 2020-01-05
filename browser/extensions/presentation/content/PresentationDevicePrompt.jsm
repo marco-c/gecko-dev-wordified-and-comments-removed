@@ -290,9 +290,6 @@ popupOptions
 {
 return
 {
-hideNotNow
-:
-true
 removeOnDismissal
 :
 true

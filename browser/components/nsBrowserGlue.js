@@ -17121,9 +17121,6 @@ true
 persistWhileVisible
 :
 true
-hideNotNow
-:
-true
 }
 ;
 notification

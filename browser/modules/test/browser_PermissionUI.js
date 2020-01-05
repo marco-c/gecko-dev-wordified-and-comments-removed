@@ -176,7 +176,6 @@ removePromise
 function
 clickSecondaryAction
 (
-index
 )
 {
 let
@@ -201,17 +200,9 @@ getPopupNotificationNode
 (
 )
 ;
-let
-menuitems
-=
 popupNotification
 .
-children
-;
-menuitems
-[
-index
-]
+secondaryButton
 .
 click
 (
@@ -1170,7 +1161,6 @@ action
 yield
 clickSecondaryAction
 (
-0
 )
 ;
 curPerm
@@ -2024,7 +2014,6 @@ action
 yield
 clickSecondaryAction
 (
-0
 )
 ;
 Assert
