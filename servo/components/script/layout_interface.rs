@@ -300,6 +300,10 @@ CreateLayoutTask
 (
 NewLayoutTaskInfo
 )
+SetFinalUrl
+(
+Url
+)
 }
 pub
 trait
