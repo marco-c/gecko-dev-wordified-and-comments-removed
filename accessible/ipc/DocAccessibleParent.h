@@ -459,7 +459,10 @@ return
 mParentDoc
 ;
 }
-bool
+ipc
+:
+:
+IPCResult
 AddChildDoc
 (
 DocAccessibleParent
