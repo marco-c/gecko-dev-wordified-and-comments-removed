@@ -901,15 +901,9 @@ mIsMediaSource
 ;
 Maybe
 <
-uint32_t
+nsIntSize
 >
-mLastSeenFrameWidth
-;
-Maybe
-<
-uint32_t
->
-mLastSeenFrameHeight
+mLastSeenFrameSize
 ;
 RefPtr
 <
