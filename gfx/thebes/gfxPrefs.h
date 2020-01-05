@@ -3934,7 +3934,7 @@ LayersAllowBorderLayers
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -3949,8 +3949,12 @@ inset
 layers
 "
 LayersAllowInsetBoxShadow
-bool
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_OVERRIDE_PREF
