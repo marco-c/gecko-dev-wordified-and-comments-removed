@@ -83,10 +83,7 @@ bindings
 js
 :
 :
-{
-MutHeapJSVal
 Root
-}
 ;
 use
 dom
@@ -156,6 +153,7 @@ jsapi
 :
 :
 {
+Heap
 HandleValue
 JSContext
 }
@@ -200,7 +198,10 @@ mozjs
 ]
 state
 :
-MutHeapJSVal
+Heap
+<
+JSVal
+>
 }
 impl
 PopStateEvent
@@ -225,10 +226,10 @@ new_inherited
 )
 state
 :
-MutHeapJSVal
+Heap
 :
 :
-new
+default
 (
 )
 }

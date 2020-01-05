@@ -27,7 +27,6 @@ js
 {
 JS
 Root
-MutHeapJSVal
 }
 ;
 use
@@ -239,7 +238,10 @@ JSObject
 >
 permanent_js_root
 :
-MutHeapJSVal
+Heap
+<
+JSVal
+>
 incumbent
 :
 Option
@@ -308,10 +310,10 @@ default
 )
 permanent_js_root
 :
-MutHeapJSVal
+Heap
 :
 :
-new
+default
 (
 )
 incumbent
