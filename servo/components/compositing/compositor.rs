@@ -484,7 +484,7 @@ ScrollRootId
 impl
 ConvertScrollRootIdFromWebRender
 for
-usize
+u64
 {
 fn
 from_webrender
@@ -500,6 +500,8 @@ ScrollRootId
 (
 *
 self
+as
+usize
 )
 }
 }
@@ -4060,6 +4062,8 @@ new
 scroll_root_id
 .
 0
+as
+u64
 pipeline_id
 .
 to_webrender
