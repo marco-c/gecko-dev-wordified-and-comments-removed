@@ -7787,6 +7787,15 @@ Au
 >
 )
 {
+use
+style
+:
+:
+values
+:
+:
+Either
+;
 /
 /
 Account
@@ -7830,8 +7839,6 @@ get_effects
 )
 .
 clip
-.
-0
 )
 {
 (
@@ -7842,7 +7849,10 @@ T
 :
 :
 absolute
-Some
+Either
+:
+:
+First
 (
 style_clip_rect
 )

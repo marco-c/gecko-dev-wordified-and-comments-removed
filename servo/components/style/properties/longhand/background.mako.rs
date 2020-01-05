@@ -747,6 +747,11 @@ position
 -
 x
 "
+delegate_animate
+=
+"
+True
+"
 >
 use
 std
@@ -1080,6 +1085,11 @@ background
 position
 -
 y
+"
+delegate_animate
+=
+"
+True
 "
 >
 use
