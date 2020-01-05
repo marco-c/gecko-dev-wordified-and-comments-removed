@@ -570,6 +570,7 @@ DispatchTyped
 (
 F
 f
+const
 TaggedProto
 &
 proto

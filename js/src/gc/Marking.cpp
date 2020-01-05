@@ -1376,7 +1376,9 @@ trc
 JSObject
 *
 src
+const
 Value
+&
 val
 )
 {
@@ -1841,7 +1843,9 @@ DoMarking
 GCMarker
 *
 gcmarker
+const
 T
+&
 thing
 )
 ;
@@ -4257,7 +4261,9 @@ DoMarking
 GCMarker
 *
 gcmarker
+const
 T
+&
 thing
 )
 {
@@ -5107,7 +5113,9 @@ traverseEdge
 (
 S
 source
+const
 T
+&
 thing
 )
 {
