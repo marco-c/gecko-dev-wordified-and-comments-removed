@@ -181,6 +181,11 @@ nsComboboxControlFrame
 cpp
 '
 '
+nsDateTimeControlFrame
+.
+cpp
+'
+'
 nsFieldSetFrame
 .
 cpp

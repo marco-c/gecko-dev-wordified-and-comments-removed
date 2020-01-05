@@ -153,6 +153,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDateTimeInputArea
+.
+idl
+'
+'
 nsIFormSubmitObserver
 .
 idl
