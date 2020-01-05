@@ -78,16 +78,6 @@ exes
 :
 {
         
-'
-python2
-.
-7
-'
-:
-sys
-.
-executable
-        
 "
 buildbot
 "
@@ -127,12 +117,6 @@ ini
     
 '
 enable_signing
-'
-:
-True
-    
-'
-enable_ccache
 '
 :
 True
