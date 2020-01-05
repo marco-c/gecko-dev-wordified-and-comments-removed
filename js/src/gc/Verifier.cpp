@@ -1977,7 +1977,7 @@ init
 (
 )
 ;
-bool
+void
 check
 (
 AutoLockForExclusiveAccess
@@ -2392,7 +2392,7 @@ oom
 true
 ;
 }
-bool
+void
 CheckHeapTracer
 :
 :
@@ -2500,7 +2500,6 @@ if
 oom
 )
 return
-false
 ;
 if
 (
@@ -2548,9 +2547,6 @@ failures
 0
 )
 ;
-return
-true
-;
 }
 void
 js
@@ -2593,9 +2589,7 @@ tracer
 init
 (
 )
-|
-|
-!
+)
 tracer
 .
 check
@@ -2603,18 +2597,6 @@ check
 session
 .
 lock
-)
-)
-fprintf
-(
-stderr
-"
-OOM
-checking
-heap
-\
-n
-"
 )
 ;
 }
