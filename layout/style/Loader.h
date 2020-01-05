@@ -1128,7 +1128,7 @@ Element
 *
 aScopeElement
 bool
-isAlternate
+aIsAlternate
 )
 ;
 nsresult

@@ -5621,7 +5621,7 @@ Element
 *
 aScopeElement
 bool
-isAlternate
+aIsAlternate
 )
 {
 NS_PRECONDITION
@@ -5758,7 +5758,7 @@ sheet
 SetEnabled
 (
 !
-isAlternate
+aIsAlternate
 )
 ;
 sheet
