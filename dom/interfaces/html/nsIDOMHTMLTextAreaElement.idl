@@ -420,10 +420,6 @@ DOMString
 direction
 )
 ;
-attribute
-DOMString
-selectionDirection
-;
 /
 /
 Mozilla
