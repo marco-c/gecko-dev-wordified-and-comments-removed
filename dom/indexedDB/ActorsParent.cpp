@@ -30972,14 +30972,6 @@ ObjectStoreAddOrPutRequestOp
 StoredFileInfo
 final
 {
-enum
-Type
-{
-eBlob
-eMutableFile
-eStructuredClone
-}
-;
 RefPtr
 <
 DatabaseFile
@@ -30998,7 +30990,10 @@ nsIInputStream
 >
 mInputStream
 ;
-Type
+StructuredCloneFile
+:
+:
+FileType
 mType
 ;
 bool
@@ -31010,6 +31005,9 @@ StoredFileInfo
 :
 mType
 (
+StructuredCloneFile
+:
+:
 eBlob
 )
 mCopiedSuccessfully
@@ -31078,6 +31076,9 @@ mType
 )
 {
 case
+StructuredCloneFile
+:
+:
 eBlob
 :
 aText
@@ -31090,6 +31091,9 @@ id
 break
 ;
 case
+StructuredCloneFile
+:
+:
 eMutableFile
 :
 aText
@@ -31103,6 +31107,9 @@ id
 break
 ;
 case
+StructuredCloneFile
+:
+:
 eStructuredClone
 :
 aText
@@ -34786,7 +34793,7 @@ id
 StructuredCloneFile
 :
 :
-Type
+FileType
 type
 ;
 bool
@@ -104753,7 +104760,7 @@ storedFileInfo
 >
 mType
 =
-StoredFileInfo
+StructuredCloneFile
 :
 :
 eBlob
@@ -104814,7 +104821,7 @@ storedFileInfo
 >
 mType
 =
-StoredFileInfo
+StructuredCloneFile
 :
 :
 eMutableFile
@@ -104929,7 +104936,7 @@ storedFileInfo
 >
 mType
 =
-StoredFileInfo
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -106504,7 +106511,7 @@ storedFileInfo
 mType
 =
 =
-StoredFileInfo
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -107170,7 +107177,7 @@ storedFileInfo
 mType
 =
 =
-StoredFileInfo
+StructuredCloneFile
 :
 :
 eMutableFile
