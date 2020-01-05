@@ -41,7 +41,7 @@ import
 comm
 :
 :
-port
+Port
 ;
 import
 resource
@@ -85,7 +85,7 @@ u8
 ]
 input_port
 :
-port
+Port
 <
 ProgressMsg
 >

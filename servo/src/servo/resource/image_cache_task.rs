@@ -61,6 +61,8 @@ comm
 :
 :
 {
+Chan
+Port
 chan
 port
 }
@@ -208,7 +210,7 @@ URL
 GetImage
 (
 url
-chan
+Chan
 <
 ImageResponseMsg
 >
@@ -280,7 +282,7 @@ the
 ResourceTask
 Exit
 (
-chan
+Chan
 <
 (
 )
@@ -303,7 +305,7 @@ ImageNotReady
 type
 ImageCacheTask
 =
-chan
+Chan
 <
 Msg
 >
@@ -385,7 +387,7 @@ client
 requests
 from_client
 :
-port
+Port
 <
 Msg
 >
@@ -414,7 +416,7 @@ need_exit
 :
 option
 <
-chan
+Chan
 <
 (
 )
@@ -459,7 +461,7 @@ waiters
 :
 ~
 [
-chan
+Chan
 <
 ImageResponseMsg
 >
@@ -1181,7 +1183,7 @@ url
 url
 response
 :
-chan
+Chan
 <
 ImageResponseMsg
 >
@@ -1819,7 +1821,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -2005,7 +2007,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -2169,7 +2171,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -2348,7 +2350,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -2546,7 +2548,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -2813,7 +2815,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -3123,7 +3125,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -3522,7 +3524,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -3816,7 +3818,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :
@@ -4085,7 +4087,7 @@ me
 let
 from_client
 :
-port
+Port
 <
 resource_task
 :

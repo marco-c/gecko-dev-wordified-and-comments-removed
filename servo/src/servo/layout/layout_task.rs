@@ -121,7 +121,7 @@ comm
 type
 Layout
 =
-chan
+Chan
 <
 Msg
 >
@@ -140,7 +140,7 @@ url
 )
 PingMsg
 (
-chan
+Chan
 <
 content
 :

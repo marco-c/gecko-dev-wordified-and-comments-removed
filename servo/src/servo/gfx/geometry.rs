@@ -184,6 +184,7 @@ int
 *
 self
 }
+static
 pure
 fn
 from_int

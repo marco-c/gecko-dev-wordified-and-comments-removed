@@ -18,6 +18,8 @@ comm
 :
 :
 {
+Chan
+Port
 chan
 port
 }
@@ -79,7 +81,7 @@ URL
 Load
 (
 url
-chan
+Chan
 <
 ProgressMsg
 >
@@ -152,7 +154,7 @@ task
 type
 ResourceTask
 =
-chan
+Chan
 <
 ControlMsg
 >
@@ -195,7 +197,7 @@ fn
 url
 :
 url
-chan
+Chan
 <
 ProgressMsg
 >
@@ -308,7 +310,7 @@ ResourceManager
 let
 from_client
 :
-port
+Port
 <
 ControlMsg
 >
@@ -337,7 +339,7 @@ new
 (
 from_client
 :
-port
+Port
 <
 ControlMsg
 >
@@ -418,7 +420,7 @@ url
 url
 progress_chan
 :
-chan
+Chan
 <
 ProgressMsg
 >
@@ -715,7 +717,7 @@ _url
 url
 progress_chan
 :
-chan
+Chan
 <
 ProgressMsg
 >

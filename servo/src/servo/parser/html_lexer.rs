@@ -3,6 +3,8 @@ comm
 :
 :
 {
+Port
+Chan
 port
 chan
 }
@@ -933,7 +935,7 @@ lexer
 +
 input_port
 :
-port
+Port
 <
 resource_task
 :
@@ -998,7 +1000,7 @@ ResourceTask
 )
 -
 >
-port
+Port
 <
 Token
 >

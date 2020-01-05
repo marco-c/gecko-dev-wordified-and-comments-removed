@@ -5,7 +5,7 @@ import
 comm
 :
 :
-chan
+Chan
 ;
 import
 task
@@ -67,7 +67,7 @@ url
 url
 progress_chan
 :
-chan
+Chan
 <
 ProgressMsg
 >

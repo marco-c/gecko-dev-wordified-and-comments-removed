@@ -151,6 +151,8 @@ comm
 :
 :
 {
+Chan
+Port
 chan
 port
 }
@@ -205,7 +207,7 @@ display_list
 type
 PngSink
 =
-chan
+Chan
 <
 Msg
 >
@@ -237,7 +239,7 @@ AzDrawTargetRef
 Exit
 }
 impl
-chan
+Chan
 <
 Msg
 >
@@ -303,7 +305,7 @@ add_event_listener
 (
 _listener
 :
-chan
+Chan
 <
 Event
 >
@@ -324,7 +326,7 @@ PngSink
 (
 output
 :
-chan
+Chan
 <
 ~
 [
@@ -341,7 +343,7 @@ spawn_listener
 |
 po
 :
-port
+Port
 <
 Msg
 >
@@ -453,7 +455,7 @@ dt
 AzDrawTargetRef
 output
 :
-chan
+Chan
 <
 ~
 [
