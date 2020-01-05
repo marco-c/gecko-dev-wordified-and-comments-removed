@@ -16158,6 +16158,7 @@ allow
 (
 unused_imports
 unused_variable
+unused_unsafe
 )
 ]
 ;

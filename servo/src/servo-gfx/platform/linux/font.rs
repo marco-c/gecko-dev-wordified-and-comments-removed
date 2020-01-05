@@ -877,8 +877,6 @@ else
 let
 os2
 =
-unsafe
-{
 FT_Get_Sfnt_Table
 (
 self
@@ -889,7 +887,6 @@ ft_sfnt_os2
 as
 *
 TT_OS2
-}
 ;
 let
 valid
@@ -1975,18 +1972,13 @@ metrics
 &
 FT_Size_Metrics
 =
-unsafe
-{
 &
-(
 (
 *
 size
 )
 .
 metrics
-)
-}
 ;
 let
 em_size

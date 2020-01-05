@@ -1874,8 +1874,6 @@ a
 pure
 version
 ?
-unsafe
-{
 for
 self
 .
@@ -1896,7 +1894,6 @@ indent
 )
 }
 }
-}
 fn
 debug_str
 (
@@ -1907,20 +1904,6 @@ self
 >
 ~
 str
-{
-/
-/
-Unsafe
-due
-to
-the
-call
-to
-type_id
-(
-)
-.
-unsafe
 {
 fmt
 !
@@ -1935,7 +1918,6 @@ type_id
 (
 )
 )
-}
 }
 }
 impl

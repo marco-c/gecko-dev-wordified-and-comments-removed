@@ -391,13 +391,10 @@ img
 >
 ImageReady
 (
-unsafe
-{
 clone_arc
 (
 img
 )
-}
 )
 ImageNotReady
 =

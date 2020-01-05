@@ -391,8 +391,6 @@ FlowContext
 >
 BoxGenerator
 {
-unsafe
-{
 debug
 !
 (
@@ -413,7 +411,6 @@ debug_str
 )
 )
 ;
-}
 BoxGenerator
 {
 flow
@@ -1521,8 +1518,6 @@ BoxGenerator
 >
 BuilderContext
 {
-unsafe
-{
 debug
 !
 (
@@ -1545,7 +1540,6 @@ debug_str
 )
 )
 ;
-}
 BuilderContext
 {
 default_collector

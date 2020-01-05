@@ -1669,8 +1669,6 @@ clone
 (
 )
 ;
-unsafe
-{
 /
 /
 Build
@@ -2585,14 +2583,11 @@ _
 {
 }
 }
-unsafe
-{
 node
 .
 to_hubbub_node
 (
 )
-}
 }
 create_text
 :
@@ -2788,8 +2783,6 @@ node
 "
 )
 ;
-unsafe
-{
 if
 deep
 {
@@ -2816,7 +2809,6 @@ node
 unimplemented
 "
 )
-}
 }
 reparent_children
 :
@@ -3223,5 +3215,4 @@ js_port
 js_port
 }
 ;
-}
 }
