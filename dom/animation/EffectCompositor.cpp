@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -1110,7 +1117,7 @@ false
 mPresContext
 -
 >
-Document
+PresShell
 (
 )
 -

@@ -5600,11 +5600,6 @@ mInXBLUpdate
 1
 ;
 bool
-mInFlush
-:
-1
-;
-bool
 mParserAborted
 :
 1

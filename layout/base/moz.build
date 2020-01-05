@@ -325,6 +325,11 @@ nsIPresShell
 h
 '
 '
+nsIPresShellInlines
+.
+h
+'
+'
 nsIReflowCallback
 .
 h
