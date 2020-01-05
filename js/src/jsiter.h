@@ -764,14 +764,6 @@ HandleObject
 obj
 )
 ;
-enum
-class
-IteratorKind
-{
-Sync
-Async
-}
-;
 }
 #
 endif
