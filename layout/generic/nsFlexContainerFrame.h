@@ -236,16 +236,6 @@ nscoord
 aPackingSpaceRemaining
 )
 ;
-static
-bool
-IsLegacyBox
-(
-const
-nsIFrame
-*
-aFrame
-)
-;
 protected
 :
 explicit
