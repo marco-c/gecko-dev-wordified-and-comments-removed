@@ -22,6 +22,9 @@ wasm
 class
 CompileTask
 ;
+class
+FuncCompileUnit
+;
 MOZ_MUST_USE
 bool
 IonCompileFunction
@@ -29,6 +32,9 @@ IonCompileFunction
 CompileTask
 *
 task
+FuncCompileUnit
+*
+unit
 )
 ;
 }

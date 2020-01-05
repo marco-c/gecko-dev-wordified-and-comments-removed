@@ -16,6 +16,9 @@ FunctionGenerator
 class
 CompileTask
 ;
+class
+FuncCompileUnit
+;
 bool
 BaselineCanCompile
 (
@@ -31,6 +34,9 @@ BaselineCompileFunction
 CompileTask
 *
 task
+FuncCompileUnit
+*
+unit
 )
 ;
 }

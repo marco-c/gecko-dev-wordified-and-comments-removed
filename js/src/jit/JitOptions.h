@@ -287,6 +287,12 @@ branchPruningEffectfulInstFactor
 uint32_t
 branchPruningThreshold
 ;
+uint32_t
+wasmBatchThreshold
+;
+uint32_t
+wasmBatchIonScaleFactor
+;
 mozilla
 :
 :
