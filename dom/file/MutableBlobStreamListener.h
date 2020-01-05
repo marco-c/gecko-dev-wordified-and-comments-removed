@@ -22,6 +22,9 @@ MutableBlobStorage
 .
 h
 "
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {
@@ -57,6 +60,11 @@ aContentType
 MutableBlobStorageCallback
 *
 aCallback
+nsIEventTarget
+*
+aEventTarget
+=
+nullptr
 )
 ;
 private
@@ -115,6 +123,12 @@ mStorageType
 ;
 nsCString
 mContentType
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mEventTarget
 ;
 }
 ;
