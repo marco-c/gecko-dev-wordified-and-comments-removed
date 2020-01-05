@@ -2929,7 +2929,7 @@ vp
 =
 window_size
 .
-visible_viewport
+initial_viewport
 ;
 let
 window_size_response
@@ -3158,7 +3158,7 @@ vp
 =
 window_size
 .
-visible_viewport
+initial_viewport
 ;
 let
 window_size_response

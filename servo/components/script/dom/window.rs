@@ -5972,7 +5972,7 @@ e
 |
 e
 .
-visible_viewport
+initial_viewport
 .
 height
 .
@@ -6038,7 +6038,7 @@ e
 |
 e
 .
-visible_viewport
+initial_viewport
 .
 width
 .

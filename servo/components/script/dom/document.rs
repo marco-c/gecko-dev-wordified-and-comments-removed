@@ -22301,7 +22301,7 @@ unwrap
 (
 )
 .
-visible_viewport
+initial_viewport
 ;
 if
 self
@@ -22573,7 +22573,7 @@ unwrap
 (
 )
 .
-visible_viewport
+initial_viewport
 ;
 if
 self

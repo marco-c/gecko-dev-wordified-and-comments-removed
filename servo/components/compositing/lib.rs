@@ -140,7 +140,7 @@ use
 style_traits
 :
 :
-PagePx
+CSSPixel
 ;
 mod
 compositor
@@ -175,7 +175,7 @@ Option
 TypedSize2D
 <
 f32
-PagePx
+CSSPixel
 >
 >
 pub

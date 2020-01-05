@@ -36,15 +36,6 @@ use
 euclid
 :
 :
-scale_factor
-:
-:
-ScaleFactor
-;
-use
-euclid
-:
-:
 size
 :
 :
@@ -111,7 +102,10 @@ use
 style_traits
 :
 :
+{
+PinchZoomFactor
 ToCss
+}
 ;
 use
 style_traits
@@ -5151,7 +5145,7 @@ to_f32_px
 )
 initial_zoom
 :
-ScaleFactor
+PinchZoomFactor
 :
 :
 new
@@ -5170,7 +5164,7 @@ min_zoom
 .
 map
 (
-ScaleFactor
+PinchZoomFactor
 :
 :
 new
@@ -5181,7 +5175,7 @@ max_zoom
 .
 map
 (
-ScaleFactor
+PinchZoomFactor
 :
 :
 new

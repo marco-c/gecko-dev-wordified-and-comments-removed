@@ -42,8 +42,8 @@ style_traits
 :
 :
 {
+CSSPixel
 ToCss
-ViewportPx
 }
 ;
 use
@@ -93,7 +93,7 @@ viewport_size
 TypedSize2D
 <
 f32
-ViewportPx
+CSSPixel
 >
 }
 impl
@@ -111,7 +111,7 @@ viewport_size
 TypedSize2D
 <
 f32
-ViewportPx
+CSSPixel
 >
 )
 -
@@ -210,7 +210,7 @@ self
 TypedSize2D
 <
 f32
-ViewportPx
+CSSPixel
 >
 {
 self

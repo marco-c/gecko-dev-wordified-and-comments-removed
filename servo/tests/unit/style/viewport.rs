@@ -8,15 +8,6 @@ use
 euclid
 :
 :
-scale_factor
-:
-:
-ScaleFactor
-;
-use
-euclid
-:
-:
 size
 :
 :
@@ -150,6 +141,12 @@ viewport
 :
 :
 *
+;
+use
+style_traits
+:
+:
+PinchZoomFactor
 ;
 use
 style_traits
@@ -2944,7 +2941,7 @@ size
 initial_viewport
 initial_zoom
 :
-ScaleFactor
+PinchZoomFactor
 :
 :
 new
@@ -3004,7 +3001,7 @@ size
 initial_viewport
 initial_zoom
 :
-ScaleFactor
+PinchZoomFactor
 :
 :
 new
@@ -3085,7 +3082,7 @@ size
 initial_viewport
 initial_zoom
 :
-ScaleFactor
+PinchZoomFactor
 :
 :
 new
@@ -3183,7 +3180,7 @@ new
 )
 initial_zoom
 :
-ScaleFactor
+PinchZoomFactor
 :
 :
 new

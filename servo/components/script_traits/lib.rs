@@ -386,9 +386,8 @@ style_traits
 :
 :
 {
-PagePx
+CSSPixel
 UnsafeNode
-ViewportPx
 }
 ;
 use
@@ -2482,15 +2481,7 @@ initial_viewport
 TypedSize2D
 <
 f32
-ViewportPx
->
-pub
-visible_viewport
-:
-TypedSize2D
-<
-f32
-PagePx
+CSSPixel
 >
 pub
 device_pixel_ratio
@@ -2498,7 +2489,7 @@ device_pixel_ratio
 ScaleFactor
 <
 f32
-ViewportPx
+CSSPixel
 DevicePixel
 >
 }
