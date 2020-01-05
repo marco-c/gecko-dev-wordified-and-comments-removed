@@ -576,6 +576,8 @@ const
 IterationCompositeOperation
 &
 aIterationComposite
+CallerType
+aCallerType
 )
 {
 if
@@ -586,6 +588,7 @@ AnimationUtils
 :
 IsCoreAPIEnabledForCaller
 (
+aCallerType
 )
 )
 {
@@ -658,6 +661,8 @@ const
 nsAString
 &
 aSpacing
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -688,6 +693,7 @@ aSpacing
 spacingMode
 pacedProperty
 invalidPacedProperty
+aCallerType
 aRv
 )
 ;

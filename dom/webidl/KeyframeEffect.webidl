@@ -470,6 +470,9 @@ CSSPseudoElement
 ?
 target
 ;
+[
+NeedsCallerType
+]
 inherit
 attribute
 IterationCompositeOperation
@@ -492,6 +495,7 @@ composite
 ;
 [
 SetterThrows
+NeedsCallerType
 ]
 inherit
 attribute
