@@ -1211,12 +1211,6 @@ for
 !
 layersGPUAccelerated
 failures
-fails
--
-if
-(
-webrender
-)
 !
 =
 1157984
@@ -1525,12 +1519,6 @@ intermittently
 fuzzy
 on
 Mac
-fails
--
-if
-(
-webrender
-)
 =
 =
 animate

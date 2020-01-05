@@ -122,12 +122,6 @@ transition
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 stacking
@@ -154,12 +148,6 @@ transition
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 stacking
