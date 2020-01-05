@@ -217,12 +217,6 @@ image
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 !
 =
 repeat
@@ -641,7 +635,7 @@ width
 ref
 .
 html
-fails
+skip
 -
 if
 (
