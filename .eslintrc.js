@@ -154,6 +154,17 @@ negation
 "
 error
 "
+"
+no
+-
+implied
+-
+eval
+"
+:
+"
+error
+"
 }
 "
 env
