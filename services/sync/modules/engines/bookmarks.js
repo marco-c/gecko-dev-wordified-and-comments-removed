@@ -495,6 +495,11 @@ case
 bookmark
 "
 :
+case
+"
+microsummary
+"
+:
 return
 Bookmark
 ;
@@ -2134,6 +2139,11 @@ break
 case
 "
 bookmark
+"
+:
+case
+"
+microsummary
 "
 :
 key
