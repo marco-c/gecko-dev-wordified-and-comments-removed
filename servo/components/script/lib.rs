@@ -155,14 +155,6 @@ rc_unique
 [
 feature
 (
-slice_chars
-)
-]
-#
-!
-[
-feature
-(
 str_utf16
 )
 ]

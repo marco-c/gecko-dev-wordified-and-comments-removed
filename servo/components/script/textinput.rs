@@ -50,7 +50,10 @@ util
 str
 :
 :
+{
 DOMString
+slice_chars
+}
 ;
 use
 std
@@ -992,6 +995,9 @@ s
 .
 push_str
 (
+slice_chars
+(
+&
 self
 .
 lines
@@ -1000,9 +1006,6 @@ begin
 .
 line
 ]
-.
-slice_chars
-(
 begin
 .
 index
@@ -1094,6 +1097,9 @@ s
 .
 push_str
 (
+slice_chars
+(
+&
 self
 .
 lines
@@ -1102,9 +1108,6 @@ end
 .
 line
 ]
-.
-slice_chars
-(
 0
 end
 .
@@ -1116,6 +1119,9 @@ s
 }
 else
 {
+slice_chars
+(
+&
 self
 .
 lines
@@ -1124,9 +1130,6 @@ begin
 .
 line
 ]
-.
-slice_chars
-(
 begin
 .
 index
@@ -1183,6 +1186,9 @@ new_lines
 let
 prefix
 =
+slice_chars
+(
+&
 self
 .
 lines
@@ -1191,9 +1197,6 @@ begin
 .
 line
 ]
-.
-slice_chars
-(
 0
 begin
 .
@@ -1203,6 +1206,9 @@ index
 let
 suffix
 =
+slice_chars
+(
+&
 self
 .
 lines
@@ -1211,9 +1217,6 @@ end
 .
 line
 ]
-.
-slice_chars
-(
 end
 .
 index
