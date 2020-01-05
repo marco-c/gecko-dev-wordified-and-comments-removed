@@ -5216,15 +5216,6 @@ listener
 .
 refresh
 (
-{
-pageTimeout
-:
-this
-.
-timeouts
-.
-pageLoad
-}
 )
 ;
 }
