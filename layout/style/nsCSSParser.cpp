@@ -25006,6 +25006,15 @@ PseudoType
 ;
 if
 (
+type
+>
+=
+CSSPseudoElementType
+:
+:
+Count
+|
+|
 !
 nsCSSPseudoElements
 :
