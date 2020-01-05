@@ -462,7 +462,6 @@ app
 new
 NativeApp
 (
-extension
 context
 application
 )
@@ -487,7 +486,6 @@ app
 new
 NativeApp
 (
-extension
 context
 application
 )

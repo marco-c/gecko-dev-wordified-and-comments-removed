@@ -1061,7 +1061,6 @@ EventEmitter
 {
 constructor
 (
-extension
 context
 application
 )
@@ -1171,6 +1170,8 @@ allowed_extensions
 .
 includes
 (
+context
+.
 extension
 .
 id
