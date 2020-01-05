@@ -48656,7 +48656,7 @@ if
 !
 event
 .
-hasPayload
+hasTextId
 (
 )
 )
@@ -48674,11 +48674,6 @@ tracelogStartId
 loggerReg
 event
 .
-payload
-(
-)
--
->
 textId
 (
 )
@@ -48693,11 +48688,6 @@ tracelogStopId
 loggerReg
 event
 .
-payload
-(
-)
--
->
 textId
 (
 )
@@ -61721,7 +61711,7 @@ if
 !
 event
 .
-hasPayload
+hasTextId
 (
 )
 |
@@ -61768,11 +61758,6 @@ uintptr_t
 (
 event
 .
-payload
-(
-)
--
->
 textId
 (
 )
@@ -61824,7 +61809,7 @@ if
 !
 event
 .
-hasPayload
+hasTextId
 (
 )
 |
@@ -61853,11 +61838,6 @@ textId
 =
 event
 .
-payload
-(
-)
--
->
 textId
 (
 )

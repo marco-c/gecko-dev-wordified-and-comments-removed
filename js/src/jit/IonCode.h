@@ -1607,7 +1607,7 @@ MOZ_ASSERT
 (
 event
 .
-hasPayload
+hasTextId
 (
 )
 )
