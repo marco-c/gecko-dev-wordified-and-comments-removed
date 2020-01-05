@@ -181,6 +181,7 @@ apt
 -
 get
 install
+git
 curl
 freeglut3
 -
