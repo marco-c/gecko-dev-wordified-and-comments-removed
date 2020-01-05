@@ -181,6 +181,15 @@ string_cache
 Atom
 ;
 use
+style
+:
+:
+attr
+:
+:
+parse_unsigned_integer
+;
+use
 util
 :
 :
@@ -188,7 +197,6 @@ str
 :
 :
 {
-self
 DOMString
 LengthOrPercentageOrAuto
 }
@@ -1429,9 +1437,6 @@ map
 value
 |
 {
-str
-:
-:
 parse_unsigned_integer
 (
 value
@@ -1479,9 +1484,6 @@ and_then
 value
 |
 {
-str
-:
-:
 parse_unsigned_integer
 (
 value
