@@ -1355,6 +1355,11 @@ ContinueOnStartRequest3
 nsresult
 )
 ;
+void
+OnClassOfServiceUpdated
+(
+)
+;
 bool
 InitLocalBlockList
 (

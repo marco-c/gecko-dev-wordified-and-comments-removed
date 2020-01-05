@@ -22775,5 +22775,16 @@ return
 false
 ;
 }
+void
+Http2Session
+:
+:
+ThrottleResponse
+(
+bool
+aThrottle
+)
+{
+}
 }
 }

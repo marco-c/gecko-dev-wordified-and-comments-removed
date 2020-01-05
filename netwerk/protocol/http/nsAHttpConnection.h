@@ -321,6 +321,16 @@ Version
 =
 0
 ;
+virtual
+void
+ThrottleResponse
+(
+bool
+aThrottle
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

@@ -191,6 +191,14 @@ port
 )
 override
 ;
+void
+ThrottleResponse
+(
+bool
+aThrottle
+)
+override
+;
 uint32_t
 ReadTimeoutTick
 (

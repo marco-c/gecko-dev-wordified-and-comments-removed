@@ -1122,6 +1122,9 @@ ReleaseAcquire
 mResponseIsComplete
 ;
 bool
+mThrottleResponse
+;
+bool
 mClosed
 ;
 bool
@@ -1224,6 +1227,13 @@ CancelPacing
 (
 nsresult
 reason
+)
+;
+void
+ThrottleResponse
+(
+bool
+aThrottle
 )
 ;
 private

@@ -758,6 +758,13 @@ int32_t
 port
 )
 ;
+void
+ThrottleResponse
+(
+bool
+aThrottle
+)
+;
 private
 :
 enum
@@ -1164,6 +1171,12 @@ mEarlyNegotiatedALPN
 ;
 bool
 mDid0RTTSpdy
+;
+bool
+mResponseThrottled
+;
+bool
+mResumeRecvOnUnthrottle
 ;
 }
 ;
