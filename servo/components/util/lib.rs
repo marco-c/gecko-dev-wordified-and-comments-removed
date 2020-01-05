@@ -152,6 +152,10 @@ log
 ;
 extern
 crate
+azure
+;
+extern
+crate
 alloc
 ;
 #
