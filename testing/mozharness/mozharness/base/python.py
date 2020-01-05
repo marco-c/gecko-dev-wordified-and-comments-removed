@@ -1959,6 +1959,15 @@ hostname
 )
         
 if
+(
+install_method
+!
+=
+'
+easy_install
+'
+and
+                    
 self
 .
 pip_version
@@ -1975,6 +1984,7 @@ LooseVersion
 .
 0
 '
+)
 )
 :
             
