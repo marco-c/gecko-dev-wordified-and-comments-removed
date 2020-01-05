@@ -140,6 +140,13 @@ highlighterSettings
 )
 .
 isRequired
+setSelectedNode
+:
+PropTypes
+.
+func
+.
+isRequired
 onHideBoxModelHighlighter
 :
 PropTypes
@@ -199,6 +206,7 @@ let
 getSwatchColorPickerTooltip
 grids
 highlighterSettings
+setSelectedNode
 onHideBoxModelHighlighter
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode
@@ -236,6 +244,7 @@ GridList
 {
 getSwatchColorPickerTooltip
 grids
+setSelectedNode
 onHideBoxModelHighlighter
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode

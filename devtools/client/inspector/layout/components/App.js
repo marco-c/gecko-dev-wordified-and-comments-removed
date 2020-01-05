@@ -236,6 +236,13 @@ highlighterSettings
 )
 .
 isRequired
+setSelectedNode
+:
+PropTypes
+.
+func
+.
+isRequired
 showBoxModelProperties
 :
 PropTypes
