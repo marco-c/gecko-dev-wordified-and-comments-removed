@@ -151,6 +151,14 @@ webaudio
 .
 enabled
 "
+Constructor
+(
+AudioContext
+context
+optional
+AudioNodeOptions
+options
+)
 ]
 interface
 MediaStreamAudioDestinationNode
