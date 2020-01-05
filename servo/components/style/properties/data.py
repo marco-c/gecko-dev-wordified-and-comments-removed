@@ -1418,6 +1418,12 @@ self
 animatable
 =
 False
+            
+self
+.
+animation_type
+=
+None
         
 self
 .
