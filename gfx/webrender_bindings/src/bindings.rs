@@ -845,6 +845,14 @@ is_in_render_thread
 >
 bool
 ;
+fn
+is_in_main_thread
+(
+)
+-
+>
+bool
+;
 }
 #
 [
@@ -1944,7 +1952,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -2007,7 +2015,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -2052,7 +2060,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -2190,7 +2198,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -3164,7 +3172,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -3408,7 +3416,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -3577,7 +3585,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -4085,7 +4093,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -4187,7 +4195,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -4301,7 +4309,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -4471,7 +4479,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -4607,7 +4615,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -4725,7 +4733,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -5331,7 +5339,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
@@ -5578,7 +5586,7 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+is_in_main_thread
 (
 )
 }
