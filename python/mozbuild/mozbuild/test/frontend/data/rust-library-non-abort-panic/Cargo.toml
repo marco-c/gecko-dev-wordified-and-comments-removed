@@ -39,7 +39,7 @@ type
 =
 [
 "
-dylib
+rlib
 "
 ]
 [
@@ -50,15 +50,10 @@ dev
 panic
 =
 "
-abort
+unwind
 "
 [
 profile
 .
 release
 ]
-panic
-=
-"
-abort
-"
