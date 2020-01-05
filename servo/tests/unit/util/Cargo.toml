@@ -91,7 +91,9 @@ dependencies
 libc
 =
 "
-*
+0
+.
+1
 "
 euclid
 =

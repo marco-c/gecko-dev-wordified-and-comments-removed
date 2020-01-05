@@ -530,7 +530,9 @@ dependencies
 env_logger
 =
 "
-*
+0
+.
+3
 "
 url
 =
@@ -553,10 +555,14 @@ time
 bitflags
 =
 "
-*
+0
+.
+3
 "
 libc
 =
 "
-*
+0
+.
+1
 "

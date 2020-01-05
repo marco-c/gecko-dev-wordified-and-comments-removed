@@ -310,7 +310,9 @@ dependencies
 log
 =
 "
-*
+0
+.
+3
 "
 num
 =
@@ -342,7 +344,9 @@ time
 libc
 =
 "
-*
+0
+.
+1
 "
 gleam
 =
@@ -374,7 +378,9 @@ core
 graphics
 =
 "
-*
+0
+.
+1
 "
 [
 target

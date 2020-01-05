@@ -148,7 +148,9 @@ dependencies
 log
 =
 "
-*
+0
+.
+3
 "
 url
 =
@@ -169,10 +171,14 @@ euclid
 serde
 =
 "
-*
+0
+.
+4
 "
 serde_macros
 =
 "
-*
+0
+.
+4
 "

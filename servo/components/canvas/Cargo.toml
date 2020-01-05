@@ -162,7 +162,9 @@ dependencies
 log
 =
 "
-*
+0
+.
+3
 "
 cssparser
 =

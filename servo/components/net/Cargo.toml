@@ -137,7 +137,9 @@ dependencies
 log
 =
 "
-*
+0
+.
+3
 "
 url
 =
@@ -178,7 +180,9 @@ serialize
 cookie
 =
 "
-*
+0
+.
+1
 "
 regex
 =

@@ -93,7 +93,9 @@ dependencies
 time
 =
 "
-*
+0
+.
+1
 "
 rustc
 -
@@ -114,5 +116,7 @@ url
 bitflags
 =
 "
-*
+0
+.
+3
 "
