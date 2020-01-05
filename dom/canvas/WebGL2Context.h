@@ -218,6 +218,12 @@ rv
 )
 override
 ;
+using
+WebGLContext
+:
+:
+GetFramebufferAttachmentParameter
+;
 void
 InvalidateFramebuffer
 (
@@ -1721,6 +1727,12 @@ ErrorResult
 rv
 )
 override
+;
+using
+WebGLContext
+:
+:
+GetParameter
 ;
 void
 GetIndexedParameter
