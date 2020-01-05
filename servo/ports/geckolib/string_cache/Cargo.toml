@@ -82,6 +82,17 @@ heap_size
 [
 dependencies
 ]
+cfg
+-
+if
+=
+"
+0
+.
+1
+.
+0
+"
 gecko_bindings
 =
 {
