@@ -20,6 +20,7 @@ msg
 str
 callback
 :
+&
 fn
 (
 )

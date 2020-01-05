@@ -99,15 +99,6 @@ mutable
 Mut
 ;
 use
-core
-:
-:
-dvec
-:
-:
-DVec
-;
-use
 geom
 :
 :
@@ -1531,6 +1522,7 @@ mut
 FlowContext
 f
 :
+&
 fn
 (
 box
@@ -1588,6 +1580,7 @@ mut
 FlowContext
 f
 :
+&
 fn
 (
 &
@@ -1634,6 +1627,7 @@ FlowTree
 fn
 add_child
 (
+self
 parent
 :
 mut
@@ -1714,6 +1708,7 @@ mut
 FlowContext
 f
 :
+&
 fn
 (
 &

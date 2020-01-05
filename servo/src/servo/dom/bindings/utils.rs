@@ -131,12 +131,11 @@ str
 null_string
 }
 pub
-type
+struct
 rust_box
 <
 T
 >
-=
 {
 rc
 :
@@ -162,7 +161,6 @@ payload
 :
 T
 }
-;
 pub
 unsafe
 fn
@@ -537,7 +535,9 @@ code
 "
 )
 ;
-assert
+fail_unless
+!
+(
 cx
 =
 =
@@ -546,6 +546,7 @@ compartment
 cx
 .
 ptr
+)
 ;
 compartment
 }

@@ -53,11 +53,14 @@ c_void
 >
 AbstractNode
 {
-assert
+fail_unless
+!
+(
 node
 .
 is_not_null
 (
+)
 )
 ;
 unsafe

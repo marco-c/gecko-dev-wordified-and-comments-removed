@@ -234,6 +234,8 @@ rust
 -
 opengles
 \
+skia
+\
 (
 NULL
 )

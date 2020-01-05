@@ -521,13 +521,16 @@ clone
 (
 )
 ;
-assert
+fail_unless
+!
+(
 self
 .
 on_image_available
 .
 is_some
 (
+)
 )
 ;
 let

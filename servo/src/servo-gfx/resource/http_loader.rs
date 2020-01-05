@@ -84,7 +84,9 @@ url
 progress_chan
 |
 {
-assert
+fail_unless
+!
+(
 url
 .
 scheme
@@ -94,6 +96,7 @@ scheme
 "
 http
 "
+)
 ;
 let
 progress_chan

@@ -766,7 +766,9 @@ test_true_type_tag
 (
 )
 {
-assert
+fail_unless
+!
+(
 true_type_tag
 (
 '
@@ -785,6 +787,7 @@ p
 =
 =
 0x_63_6D_61_70_u32
+)
 ;
 }
 #
@@ -875,7 +878,9 @@ len
 i
 |
 {
-assert
+fail_unless
+!
+(
 transform_text
 (
 test_strs
@@ -890,6 +895,7 @@ test_strs
 [
 i
 ]
+)
 ;
 }
 }
@@ -1008,7 +1014,9 @@ foobarbaz
 "
 ]
 ;
-assert
+fail_unless
+!
+(
 test_strs
 .
 len
@@ -1020,6 +1028,7 @@ oracle_strs
 .
 len
 (
+)
 )
 ;
 let
@@ -1044,7 +1053,9 @@ len
 i
 |
 {
-assert
+fail_unless
+!
+(
 transform_text
 (
 test_strs
@@ -1059,6 +1070,7 @@ oracle_strs
 [
 i
 ]
+)
 ;
 }
 }
@@ -1185,7 +1197,9 @@ n
 "
 ]
 ;
-assert
+fail_unless
+!
+(
 test_strs
 .
 len
@@ -1197,6 +1211,7 @@ oracle_strs
 .
 len
 (
+)
 )
 ;
 let
@@ -1221,7 +1236,9 @@ len
 i
 |
 {
-assert
+fail_unless
+!
+(
 transform_text
 (
 test_strs
@@ -1236,6 +1253,7 @@ oracle_strs
 [
 i
 ]
+)
 ;
 }
 }
@@ -1354,7 +1372,9 @@ foobarbaz
 "
 ]
 ;
-assert
+fail_unless
+!
+(
 test_strs
 .
 len
@@ -1366,6 +1386,7 @@ oracle_strs
 .
 len
 (
+)
 )
 ;
 let
@@ -1390,7 +1411,9 @@ len
 i
 |
 {
-assert
+fail_unless
+!
+(
 transform_text
 (
 test_strs
@@ -1405,6 +1428,7 @@ oracle_strs
 [
 i
 ]
+)
 ;
 }
 }

@@ -79,15 +79,6 @@ use
 core
 :
 :
-dvec
-:
-:
-DVec
-;
-use
-core
-:
-:
 libc
 :
 :

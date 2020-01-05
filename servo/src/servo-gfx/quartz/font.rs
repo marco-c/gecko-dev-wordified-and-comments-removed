@@ -977,7 +977,9 @@ return
 None
 ;
 }
-assert
+fail_unless
+!
+(
 glyphs
 [
 0
@@ -985,6 +987,7 @@ glyphs
 !
 =
 0
+)
 ;
 /
 /

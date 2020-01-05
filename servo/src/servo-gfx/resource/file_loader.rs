@@ -80,7 +80,9 @@ url
 progress_chan
 |
 {
-assert
+fail_unless
+!
+(
 url
 .
 scheme
@@ -90,6 +92,7 @@ scheme
 "
 file
 "
+)
 ;
 do
 spawn

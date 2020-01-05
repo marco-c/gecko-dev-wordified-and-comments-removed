@@ -184,15 +184,6 @@ use
 core
 :
 :
-dvec
-:
-:
-DVec
-;
-use
-core
-:
-:
 managed
 ;
 use
@@ -659,6 +650,7 @@ pure
 fn
 is_replaced
 (
+self
 )
 -
 >
@@ -759,7 +751,9 @@ RenderBox
 >
 bool
 {
-assert
+fail_unless
+!
+(
 !
 managed
 :
@@ -768,6 +762,7 @@ mut_ptr_eq
 (
 self
 other
+)
 )
 ;
 match
@@ -2039,6 +2034,8 @@ width
 fn
 get_used_width
 (
+&
+self
 )
 -
 >
@@ -2115,6 +2112,8 @@ width
 fn
 get_used_height
 (
+&
+self
 )
 -
 >

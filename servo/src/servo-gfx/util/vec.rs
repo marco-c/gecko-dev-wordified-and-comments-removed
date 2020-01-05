@@ -343,7 +343,9 @@ len
 (
 )
 {
-assert
+fail_unless
+!
+(
 test_match
 (
 &
@@ -360,6 +362,7 @@ arr
 [
 i
 ]
+)
 )
 )
 ;
@@ -442,7 +445,9 @@ i
 res
 )
 ;
-assert
+fail_unless
+!
+(
 !
 test_match
 (
@@ -460,6 +465,7 @@ misses
 [
 i
 ]
+)
 )
 )
 ;

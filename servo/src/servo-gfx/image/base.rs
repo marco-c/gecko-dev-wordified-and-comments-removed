@@ -187,13 +187,16 @@ image
 =
 >
 {
-assert
+fail_unless
+!
+(
 image
 .
 depth
 =
 =
 4
+)
 ;
 /
 /
@@ -296,7 +299,9 @@ fail
 }
 }
 ;
-assert
+fail_unless
+!
+(
 image
 .
 data
@@ -310,6 +315,7 @@ data
 .
 len
 (
+)
 )
 ;
 Some

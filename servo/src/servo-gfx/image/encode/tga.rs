@@ -28,7 +28,9 @@ surface
 ImageSurface
 )
 {
-assert
+fail_unless
+!
+(
 surface
 .
 format
@@ -38,6 +40,7 @@ surface
 :
 :
 fo_rgba_8888
+)
 ;
 writer
 .

@@ -583,7 +583,9 @@ outfile
 =
 >
 {
-assert
+fail_unless
+!
+(
 !
 opts
 .
@@ -591,6 +593,7 @@ urls
 .
 is_empty
 (
+)
 )
 ;
 if

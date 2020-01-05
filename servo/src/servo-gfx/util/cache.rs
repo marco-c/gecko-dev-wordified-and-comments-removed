@@ -408,7 +408,9 @@ insert
 one
 )
 ;
-assert
+fail_unless
+!
+(
 cache
 .
 find
@@ -420,8 +422,11 @@ find
 is_some
 (
 )
+)
 ;
-assert
+fail_unless
+!
+(
 cache
 .
 find
@@ -432,6 +437,7 @@ find
 .
 is_none
 (
+)
 )
 ;
 cache
@@ -448,7 +454,9 @@ two
 }
 )
 ;
-assert
+fail_unless
+!
+(
 cache
 .
 find
@@ -460,8 +468,11 @@ find
 is_some
 (
 )
+)
 ;
-assert
+fail_unless
+!
+(
 cache
 .
 find
@@ -472,6 +483,7 @@ find
 .
 is_none
 (
+)
 )
 ;
 }

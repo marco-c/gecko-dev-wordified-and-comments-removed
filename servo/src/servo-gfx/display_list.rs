@@ -53,15 +53,6 @@ azure_hl
 DrawTarget
 ;
 use
-core
-:
-:
-dvec
-:
-:
-DVec
-;
-use
 clone_arc
 =
 std
