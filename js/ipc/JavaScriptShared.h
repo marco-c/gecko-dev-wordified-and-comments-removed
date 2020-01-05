@@ -810,7 +810,9 @@ fromSymbolVariant
 JSContext
 *
 cx
+const
 SymbolVariant
+&
 symVar
 )
 ;
@@ -880,7 +882,9 @@ fromObjectOrNullVariant
 JSContext
 *
 cx
+const
 ObjectOrNullVariant
+&
 objVar
 )
 ;
@@ -942,7 +946,9 @@ fromObjectVariant
 JSContext
 *
 cx
+const
 ObjectVariant
+&
 objVar
 )
 =

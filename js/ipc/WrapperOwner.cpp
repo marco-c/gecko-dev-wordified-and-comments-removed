@@ -5800,7 +5800,9 @@ fromObjectVariant
 JSContext
 *
 cx
+const
 ObjectVariant
+&
 objVar
 )
 {
@@ -5856,7 +5858,9 @@ fromRemoteObjectVariant
 JSContext
 *
 cx
+const
 RemoteObject
+&
 objVar
 )
 {
@@ -6058,7 +6062,9 @@ fromLocalObjectVariant
 JSContext
 *
 cx
+const
 LocalObject
+&
 objVar
 )
 {
