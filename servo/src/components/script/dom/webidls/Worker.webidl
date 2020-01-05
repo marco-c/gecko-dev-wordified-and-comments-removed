@@ -198,8 +198,6 @@ DOMString
 message
 )
 ;
-/
-/
 attribute
 EventHandler
 onmessage
