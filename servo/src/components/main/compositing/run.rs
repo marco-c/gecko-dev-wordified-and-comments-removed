@@ -1505,7 +1505,7 @@ error
 "
 Compositor
 :
-Recieved
+Received
 resize
 event
 without
@@ -1651,7 +1651,7 @@ error
 "
 Compositor
 :
-Recieved
+Received
 loadurl
 event
 without
@@ -2132,7 +2132,7 @@ error
 "
 Compositor
 :
-Recieved
+Received
 navigation
 event
 without
