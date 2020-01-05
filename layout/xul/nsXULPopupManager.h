@@ -1516,6 +1516,13 @@ aTopVisibleMenuItem
 )
 ;
 nsresult
+UpdateIgnoreKeys
+(
+bool
+aIgnoreKeys
+)
+;
+nsresult
 KeyUp
 (
 nsIDOMKeyEvent
