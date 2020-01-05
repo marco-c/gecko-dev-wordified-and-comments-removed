@@ -2198,6 +2198,17 @@ frame_rect
 *
 root_layer
 .
+masks_to_bounds
+.
+borrow_mut
+(
+)
+=
+true
+;
+*
+root_layer
+.
 bounds
 .
 borrow_mut
