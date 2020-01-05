@@ -492,11 +492,6 @@ CSSLexer
 webidl
 '
 '
-CSSNamespaceRule
-.
-webidl
-'
-'
 CSSPrimitiveValue
 .
 webidl
