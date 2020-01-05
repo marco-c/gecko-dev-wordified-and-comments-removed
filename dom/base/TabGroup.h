@@ -269,6 +269,7 @@ nsPIDOMWindowOuter
 GetTopLevelWindows
 (
 )
+const
 ;
 const
 nsTArray
@@ -291,6 +292,13 @@ EventTargetFor
 (
 TaskCategory
 aCategory
+)
+const
+override
+;
+bool
+IsBackground
+(
 )
 const
 override

@@ -4462,6 +4462,14 @@ aMsg
 )
 return
 ;
+mListener
+-
+>
+OnChannelReceivedMessage
+(
+aMsg
+)
+;
 if
 (
 aMsg
