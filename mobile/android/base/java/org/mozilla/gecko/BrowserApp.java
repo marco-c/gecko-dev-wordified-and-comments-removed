@@ -1806,7 +1806,7 @@ BROWSER_SEARCH_TAG
 browser_search
 "
 ;
-private
+public
 static
 final
 int

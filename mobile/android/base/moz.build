@@ -4425,6 +4425,13 @@ URLMetadata
 java
 '
 '
+deeplink
+/
+DeepLinkContract
+.
+java
+'
+'
 delegates
 /
 BookmarkStateChangeDelegate
