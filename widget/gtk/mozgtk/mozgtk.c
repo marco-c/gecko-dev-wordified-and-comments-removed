@@ -2344,6 +2344,10 @@ gtk_widget_path_free
 )
 STUB
 (
+gtk_widget_path_iter_add_class
+)
+STUB
+(
 gtk_widget_path_new
 )
 STUB
