@@ -411,12 +411,6 @@ self
 OpaqueNode
 ;
 fn
-initialize_data
-(
-self
-)
-;
-fn
 layout_parent_node
 (
 self

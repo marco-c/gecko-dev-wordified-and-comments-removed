@@ -498,6 +498,12 @@ ln
 >
 )
 {
+node
+.
+initialize_data
+(
+)
+;
 recalc_style_at
 (
 &

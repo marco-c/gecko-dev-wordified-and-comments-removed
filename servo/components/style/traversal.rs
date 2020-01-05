@@ -667,12 +667,6 @@ ConcreteComputedValues
 '
 a
 {
-node
-.
-initialize_data
-(
-)
-;
 let
 parent_opt
 =
