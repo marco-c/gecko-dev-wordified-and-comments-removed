@@ -75,9 +75,9 @@ override
 ;
 NS_IMETHOD_
 (
-nsIMEUpdatePreference
+IMENotificationRequests
 )
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 override

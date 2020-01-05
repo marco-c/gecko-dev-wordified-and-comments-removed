@@ -1373,11 +1373,11 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 }
-nsIMEUpdatePreference
+IMENotificationRequests
 IMEHandler
 :
 :
-GetUpdatePreference
+GetIMENotificationRequests
 (
 )
 {
@@ -1387,7 +1387,7 @@ sPluginHasFocus
 )
 {
 return
-nsIMEUpdatePreference
+IMENotificationRequests
 (
 )
 ;
@@ -1412,7 +1412,7 @@ return
 TSFTextStore
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 ;
@@ -1421,14 +1421,14 @@ return
 IMMHandler
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 |
 TSFTextStore
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 ;
@@ -1439,7 +1439,7 @@ return
 IMMHandler
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 ;

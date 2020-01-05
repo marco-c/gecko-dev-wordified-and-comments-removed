@@ -11,9 +11,6 @@ nsWeakReference
 .
 h
 "
-struct
-nsIMEUpdatePreference
-;
 namespace
 mozilla
 {
@@ -25,6 +22,9 @@ TextEventDispatcher
 ;
 struct
 IMENotification
+;
+struct
+IMENotificationRequests
 ;
 #
 define
@@ -75,9 +75,9 @@ aNotification
 ;
 NS_IMETHOD_
 (
-nsIMEUpdatePreference
+IMENotificationRequests
 )
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 =

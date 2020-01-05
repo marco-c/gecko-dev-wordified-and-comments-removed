@@ -17421,12 +17421,12 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-nsIMEUpdatePreference
+IMENotificationRequests
 )
 IMEInputHandler
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 {
@@ -17464,7 +17464,7 @@ is
 moved
 ?
 return
-nsIMEUpdatePreference
+IMENotificationRequests
 (
 )
 ;

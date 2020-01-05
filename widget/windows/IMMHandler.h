@@ -527,8 +527,8 @@ aIsIMMActive
 )
 ;
 static
-nsIMEUpdatePreference
-GetIMEUpdatePreference
+IMENotificationRequests
+GetIMENotificationRequests
 (
 )
 ;

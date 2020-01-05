@@ -148,8 +148,8 @@ aIMENotification
 )
 ;
 static
-nsIMEUpdatePreference
-GetUpdatePreference
+IMENotificationRequests
+GetIMENotificationRequests
 (
 )
 ;

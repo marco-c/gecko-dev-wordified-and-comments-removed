@@ -185,6 +185,13 @@ typedef
 widget
 :
 :
+IMENotificationRequests
+IMENotificationRequests
+;
+typedef
+widget
+:
+:
 IMEMessage
 IMEMessage
 ;
@@ -319,7 +326,7 @@ KeepAliveDuringDeactive
 const
 {
 return
-mUpdatePreference
+mIMENotificationRequests
 .
 WantDuringDeactive
 (
@@ -977,8 +984,8 @@ EventStateManager
 *
 mESM
 ;
-nsIMEUpdatePreference
-mUpdatePreference
+IMENotificationRequests
+mIMENotificationRequests
 ;
 uint32_t
 mPreAttrChangeLength

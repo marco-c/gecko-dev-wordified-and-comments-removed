@@ -720,8 +720,8 @@ GetNativeIMEContext
 override
 ;
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
+IMENotificationRequests
+GetIMENotificationRequests
 (
 )
 override
@@ -1407,8 +1407,8 @@ DrawTarget
 >
 mDrawTarget
 ;
-nsIMEUpdatePreference
-mIMEPreferenceOfParent
+IMENotificationRequests
+mIMENotificationRequestsOfParent
 ;
 InputContext
 mInputContext
