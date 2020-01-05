@@ -24129,6 +24129,10 @@ aCtx
 nsDisplayListBuilder
 *
 aBuilder
+bool
+aIsRecording
+=
+false
 )
 ;
 bool
@@ -25074,6 +25078,7 @@ RenderToContext
 (
 captureCtx
 aBuilder
+true
 )
 ;
 GlyphArray
@@ -25487,6 +25492,8 @@ aCtx
 nsDisplayListBuilder
 *
 aBuilder
+bool
+aIsRecording
 )
 {
 nsTextFrame
@@ -25590,6 +25597,10 @@ aBuilder
 IsForPaintingSelectionBG
 (
 )
+&
+&
+!
+aIsRecording
 )
 {
 aCtx
