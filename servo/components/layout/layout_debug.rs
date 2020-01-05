@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-unsafe_code
-)
-]
 use
 flow
 ;
