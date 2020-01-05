@@ -225,8 +225,6 @@ bitmap
 /
 /
 state
-/
-/
 void
 save
 (
@@ -239,8 +237,6 @@ state
 on
 state
 stack
-/
-/
 void
 restore
 (
