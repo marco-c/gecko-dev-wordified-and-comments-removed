@@ -10,16 +10,6 @@ checkDefaultBrowser
 "
 #
 define
-PREF_SKIPDEFAULTBROWSERCHECK
-"
-browser
-.
-shell
-.
-skipDefaultBrowserCheck
-"
-#
-define
 PREF_DEFAULTBROWSERCHECKCOUNT
 "
 browser
