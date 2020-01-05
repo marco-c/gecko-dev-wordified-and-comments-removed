@@ -8920,7 +8920,7 @@ in
 manager
 /
 manages
-heirarchy
+hierarchy
 :
 %
 s
