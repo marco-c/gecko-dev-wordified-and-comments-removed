@@ -1299,7 +1299,7 @@ stubSpace
 )
 ;
 void
-copyYieldEntries
+copyYieldAndAwaitEntries
 (
 JSScript
 *
@@ -1309,7 +1309,7 @@ Vector
 uint32_t
 >
 &
-yieldOffsets
+yieldAndAwaitOffsets
 )
 ;
 PCMappingIndexEntry

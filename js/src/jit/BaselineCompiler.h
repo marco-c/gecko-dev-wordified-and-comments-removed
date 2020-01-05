@@ -1057,6 +1057,11 @@ JSOP_YIELD
 \
 _
 (
+JSOP_AWAIT
+)
+\
+_
+(
 JSOP_DEBUGAFTERYIELD
 )
 \
@@ -1230,7 +1235,7 @@ Vector
 <
 uint32_t
 >
-yieldOffsets_
+yieldAndAwaitOffsets_
 ;
 bool
 modifiesArguments_
@@ -1645,7 +1650,7 @@ addIndexEntry
 ;
 MOZ_MUST_USE
 bool
-addYieldOffset
+addYieldAndAwaitOffset
 (
 )
 ;

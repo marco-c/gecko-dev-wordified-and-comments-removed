@@ -474,7 +474,7 @@ prologueLength
 }
 ;
 struct
-CGYieldOffsetList
+CGYieldAndAwaitOffsetList
 {
 Vector
 <
@@ -483,7 +483,7 @@ uint32_t
 list
 ;
 explicit
-CGYieldOffsetList
+CGYieldAndAwaitOffsetList
 (
 JSContext
 *
@@ -530,7 +530,7 @@ length
 void
 finish
 (
-YieldOffsetArray
+YieldAndAwaitOffsetArray
 &
 array
 uint32_t
@@ -780,8 +780,8 @@ tryNoteList
 CGScopeNoteList
 scopeNoteList
 ;
-CGYieldOffsetList
-yieldOffsetList
+CGYieldAndAwaitOffsetList
+yieldAndAwaitOffsetList
 ;
 uint16_t
 typesetCount

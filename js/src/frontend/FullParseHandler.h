@@ -2556,7 +2556,7 @@ BinaryNode
 >
 (
 PNK_AWAIT
-JSOP_YIELD
+JSOP_AWAIT
 pos
 value
 gen
