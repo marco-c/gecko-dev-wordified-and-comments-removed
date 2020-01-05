@@ -29,15 +29,6 @@ ParseNode
 .
 h
 "
-#
-include
-"
-frontend
-/
-TokenStream
-.
-h
-"
 namespace
 js
 {
@@ -208,9 +199,6 @@ cx
 LifoAlloc
 &
 alloc
-TokenStreamBase
-&
-tokenStream
 Parser
 <
 SyntaxParseHandler

@@ -4042,7 +4042,6 @@ handler
 (
 cx
 alloc
-tokenStream
 syntaxParser
 lazyOuterFunction
 )
