@@ -167,9 +167,6 @@ nsISupports
 interface
 Variant
 ;
-[
-HTMLConstructor
-]
 interface
 HTMLCanvasElement
 :

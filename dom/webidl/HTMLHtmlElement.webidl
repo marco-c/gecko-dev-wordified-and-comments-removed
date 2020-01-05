@@ -221,9 +221,6 @@ the
 html
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLHtmlElement
 :

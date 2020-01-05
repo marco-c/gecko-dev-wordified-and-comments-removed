@@ -189,9 +189,6 @@ the
 button
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLButtonElement
 :

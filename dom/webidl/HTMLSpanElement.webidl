@@ -190,9 +190,6 @@ the
 span
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLSpanElement
 :

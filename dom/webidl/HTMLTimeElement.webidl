@@ -136,9 +136,6 @@ time
 element
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLTimeElement
 :

@@ -221,9 +221,6 @@ the
 area
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLAreaElement
 :

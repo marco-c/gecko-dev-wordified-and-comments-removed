@@ -224,9 +224,6 @@ the
 menu
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLMenuElement
 :

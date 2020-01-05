@@ -220,9 +220,6 @@ the
 p
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLParagraphElement
 :

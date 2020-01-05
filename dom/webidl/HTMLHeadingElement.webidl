@@ -244,9 +244,6 @@ and
 h6
 -
 elements
-[
-HTMLConstructor
-]
 interface
 HTMLHeadingElement
 :

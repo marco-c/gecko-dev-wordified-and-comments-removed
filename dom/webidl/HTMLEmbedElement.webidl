@@ -216,7 +216,6 @@ embed
 -
 element
 [
-HTMLConstructor
 NeedResolve
 ]
 interface

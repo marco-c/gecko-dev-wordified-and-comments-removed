@@ -159,9 +159,6 @@ document
 .
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLDetailsElement
 :

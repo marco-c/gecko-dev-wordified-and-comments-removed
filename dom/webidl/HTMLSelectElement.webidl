@@ -119,9 +119,6 @@ select
 element
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLSelectElement
 :

@@ -190,9 +190,6 @@ the
 base
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLBaseElement
 :

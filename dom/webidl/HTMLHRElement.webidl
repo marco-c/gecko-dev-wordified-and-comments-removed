@@ -220,9 +220,6 @@ the
 hr
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLHRElement
 :

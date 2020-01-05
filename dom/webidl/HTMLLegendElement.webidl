@@ -221,9 +221,6 @@ the
 legend
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLLegendElement
 :

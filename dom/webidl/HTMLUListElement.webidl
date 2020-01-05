@@ -221,9 +221,6 @@ the
 ul
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLUListElement
 :

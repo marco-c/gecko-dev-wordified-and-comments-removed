@@ -221,9 +221,6 @@ the
 li
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLLIElement
 :

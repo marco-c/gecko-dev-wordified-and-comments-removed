@@ -221,9 +221,6 @@ the
 br
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLBRElement
 :

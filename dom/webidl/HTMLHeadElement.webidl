@@ -190,9 +190,6 @@ the
 head
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLHeadElement
 :

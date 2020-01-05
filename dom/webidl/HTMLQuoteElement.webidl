@@ -190,9 +190,6 @@ the
 blockquote
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLQuoteElement
 :

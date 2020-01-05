@@ -220,9 +220,6 @@ the
 meta
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLMetaElement
 :

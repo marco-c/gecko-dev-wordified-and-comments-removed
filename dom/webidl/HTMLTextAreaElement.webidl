@@ -198,9 +198,6 @@ nsIEditor
 interface
 MozControllers
 ;
-[
-HTMLConstructor
-]
 interface
 HTMLTextAreaElement
 :

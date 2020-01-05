@@ -158,9 +158,6 @@ and
 apis
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLScriptElement
 :

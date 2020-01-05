@@ -190,9 +190,6 @@ the
 menuitem
 -
 element
-[
-HTMLConstructor
-]
 interface
 HTMLMenuItemElement
 :

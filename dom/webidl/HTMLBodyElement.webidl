@@ -156,9 +156,6 @@ document
 .
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLBodyElement
 :

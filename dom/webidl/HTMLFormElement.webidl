@@ -161,7 +161,6 @@ document
 [
 OverrideBuiltins
 LegacyUnenumerableNamedProperties
-HTMLConstructor
 ]
 interface
 HTMLFormElement

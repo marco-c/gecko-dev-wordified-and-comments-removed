@@ -127,9 +127,6 @@ title
 element
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLTitleElement
 :

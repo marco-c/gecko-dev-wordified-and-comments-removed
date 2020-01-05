@@ -117,9 +117,6 @@ apply
 .
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLTemplateElement
 :

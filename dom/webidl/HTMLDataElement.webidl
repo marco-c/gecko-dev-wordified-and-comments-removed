@@ -136,9 +136,6 @@ data
 element
 *
 /
-[
-HTMLConstructor
-]
 interface
 HTMLDataElement
 :

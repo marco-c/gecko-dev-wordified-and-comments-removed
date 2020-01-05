@@ -201,7 +201,6 @@ interface
 nsIStreamListener
 ;
 [
-HTMLConstructor
 NamedConstructor
 =
 Image
