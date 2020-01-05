@@ -2316,7 +2316,7 @@ WebKit
 .
 pub
 fn
-get_applicable_declarations
+push_applicable_declarations
 <
 E
 :
