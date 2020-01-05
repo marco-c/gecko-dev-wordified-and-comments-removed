@@ -379,8 +379,7 @@ ActorDestroyReason
 aWhy
 )
 override
-{
-}
+;
 bool
 IsPendingComposite
 (
@@ -445,6 +444,11 @@ commands
 ;
 void
 ScheduleComposition
+(
+)
+;
+void
+ClearResources
 (
 )
 ;
