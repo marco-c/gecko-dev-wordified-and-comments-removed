@@ -1453,7 +1453,7 @@ httperror
 Indicates
 that
 we
-recieved
+received
 an
 HTTP
 error
@@ -1672,7 +1672,7 @@ sqlerror
 Indicates
 that
 we
-recieved
+received
 a
 mozIStorageError
 from
