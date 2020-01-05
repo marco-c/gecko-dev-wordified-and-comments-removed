@@ -1699,6 +1699,11 @@ ImageFragmentInfo
 pub
 fn
 new
+<
+N
+:
+ThreadSafeLayoutNode
+>
 (
 url
 :
@@ -1706,6 +1711,10 @@ Option
 <
 ServoUrl
 >
+node
+:
+&
+N
 layout_context
 :
 &
@@ -1730,6 +1739,11 @@ layout_context
 .
 get_or_request_image_or_meta
 (
+node
+.
+opaque
+(
+)
 url
 UsePlaceholder
 :

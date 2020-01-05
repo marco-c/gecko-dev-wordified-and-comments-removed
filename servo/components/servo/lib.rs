@@ -1485,11 +1485,6 @@ image_cache_thread
 =
 new_image_cache_thread
 (
-public_resource_threads
-.
-sender
-(
-)
 webrender_api_sender
 .
 create_api

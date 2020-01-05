@@ -363,8 +363,8 @@ image_cache_thread
 :
 :
 {
-ImageCacheChan
 ImageCacheThread
+PendingImageId
 }
 ;
 use
@@ -2089,8 +2089,8 @@ unsafe_no_jsmanaged_fields
 (
 Image
 ImageMetadata
-ImageCacheChan
 ImageCacheThread
+PendingImageId
 )
 ;
 unsafe_no_jsmanaged_fields

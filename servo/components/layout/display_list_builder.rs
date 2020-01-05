@@ -4274,6 +4274,9 @@ layout_context
 .
 get_webrender_image_for_url
 (
+self
+.
+node
 image_url
 .
 clone
