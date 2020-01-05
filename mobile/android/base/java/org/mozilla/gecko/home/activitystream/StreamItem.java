@@ -777,6 +777,11 @@ v
 getContext
 (
 )
+ActivityStreamContextMenu
+.
+MenuMode
+.
+HIGHLIGHT
 title
 url
 onUrlOpenListener
