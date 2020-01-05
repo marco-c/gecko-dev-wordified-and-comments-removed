@@ -42,13 +42,6 @@ h
 #
 include
 "
-OrientationObserver
-.
-h
-"
-#
-include
-"
 ProcessOrientation
 .
 h

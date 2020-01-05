@@ -170,11 +170,6 @@ GonkPermission
 .
 h
 '
-'
-OrientationObserver
-.
-h
-'
 ]
 DIRS
 +
@@ -400,11 +395,6 @@ cpp
 '
 '
 nsWindow
-.
-cpp
-'
-'
-OrientationObserver
 .
 cpp
 '
