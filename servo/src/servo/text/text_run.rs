@@ -1005,8 +1005,6 @@ clump_start
 clump_end
 -
 clump_start
-+
-1
 )
 {
 break
@@ -1014,8 +1012,6 @@ break
 clump_start
 =
 clump_end
-+
-1
 ;
 /
 /
@@ -1045,7 +1041,7 @@ last
 piece
 containing
 only
-spaces
+whitespace
 if
 clump_start
 <
@@ -1117,8 +1113,6 @@ clump_start
 clump_end
 -
 clump_start
-+
-1
 )
 {
 break
@@ -1126,8 +1120,6 @@ break
 clump_start
 =
 clump_end
-+
-1
 ;
 /
 /
@@ -1157,7 +1149,9 @@ last
 piece
 containing
 only
-spaces
+non
+-
+whitespaces
 if
 clump_start
 <
