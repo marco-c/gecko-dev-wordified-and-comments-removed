@@ -44054,6 +44054,15 @@ mFlags
 .
 mIsSynthesizedForTests
 ;
+keyEvent
+-
+>
+mFlags
+.
+mIsSuppressedOrDelayed
+=
+true
+;
 mEvent
 =
 keyEvent
