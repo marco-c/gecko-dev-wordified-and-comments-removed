@@ -43,6 +43,13 @@ common_types
 :
 computed
 ;
+#
+[
+deriving
+(
+Clone
+)
+]
 pub
 struct
 BoxModel
@@ -82,6 +89,10 @@ Au
 impl
 MaybeAuto
 {
+#
+[
+inline
+]
 pub
 fn
 from_style
@@ -143,6 +154,10 @@ length
 )
 }
 }
+#
+[
+inline
+]
 pub
 fn
 specified_or_default
@@ -174,6 +189,10 @@ value
 value
 }
 }
+#
+[
+inline
+]
 pub
 fn
 specified_or_zero
@@ -190,6 +209,9 @@ self
 specified_or_default
 (
 Au
+:
+:
+new
 (
 0
 )

@@ -1818,7 +1818,7 @@ fctx
 FontContextHandle
 file
 :
-~
+&
 str
 style
 :
@@ -1951,6 +1951,10 @@ source
 FontSourceFile
 (
 file
+.
+to_str
+(
+)
 )
 face
 :

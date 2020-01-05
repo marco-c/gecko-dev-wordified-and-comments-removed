@@ -231,6 +231,13 @@ windowing
 MouseWindowEvent
 MouseWindowClickEvent
 MouseWindowMouseDownEvent
+}
+;
+use
+windowing
+:
+:
+{
 MouseWindowMouseUpEvent
 }
 ;
@@ -2846,7 +2853,6 @@ be
 vertically
 flipped
 .
-and
 #
 [
 cfg
