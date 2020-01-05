@@ -3444,8 +3444,8 @@ ToMicroseconds
 ;
 }
 }
-uint32_t
-AudioPrerollUsecs
+TimeUnit
+AudioPrerollThreshold
 (
 )
 const
@@ -3455,10 +3455,6 @@ mMaster
 -
 >
 mAmpleAudioThreshold
-.
-ToMicroseconds
-(
-)
 /
 2
 ;
@@ -3503,7 +3499,11 @@ GetDecodedAudioDuration
 )
 >
 =
-AudioPrerollUsecs
+AudioPrerollThreshold
+(
+)
+.
+ToMicroseconds
 (
 )
 *
