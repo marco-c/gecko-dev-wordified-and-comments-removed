@@ -253,6 +253,13 @@ mp4parse_parser
 parser
 )
 ;
+void
+mp4parse_log
+(
+bool
+enable
+)
+;
 mp4parse_error
 mp4parse_read
 (
