@@ -559,17 +559,6 @@ nsIAtom
 aPseudoTagOrNull
 )
 ;
-bool
-PreTraverseInSubtree
-(
-dom
-:
-:
-Element
-*
-aElement
-)
-;
 private
 :
 ~
