@@ -3441,8 +3441,6 @@ DOMString
 name
 )
 ;
-/
-/
 any
 getVertexAttrib
 (
