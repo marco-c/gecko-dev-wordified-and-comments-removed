@@ -687,6 +687,7 @@ mActor
 StreamNeeded
 (
 this
+aEventTarget
 )
 ;
 return

@@ -447,6 +447,9 @@ StreamNeeded
 IPCBlobInputStream
 *
 aStream
+nsIEventTarget
+*
+aEventTarget
 )
 {
 MutexAutoLock
@@ -485,8 +488,12 @@ aStream
 opt
 -
 >
-mThread
+mEventTarget
 =
+aEventTarget
+?
+aEventTarget
+:
 NS_GetCurrentThread
 (
 )
@@ -592,7 +599,7 @@ mPendingOperations
 0
 ]
 .
-mThread
+mEventTarget
 -
 >
 Dispatch
