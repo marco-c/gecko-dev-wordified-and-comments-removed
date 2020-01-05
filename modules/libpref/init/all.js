@@ -1440,7 +1440,7 @@ media
 .
 cache_resume_threshold
 "
-999999
+30
 )
 ;
 pref
@@ -1450,7 +1450,7 @@ media
 .
 cache_readahead_limit
 "
-999999
+60
 )
 ;
 pref
@@ -11908,18 +11908,6 @@ referer
 XOriginPolicy
 "
 0
-)
-;
-pref
-(
-"
-network
-.
-http
-.
-enablePerElementReferrer
-"
-true
 )
 ;
 pref
