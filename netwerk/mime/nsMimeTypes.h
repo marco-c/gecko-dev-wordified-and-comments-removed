@@ -694,14 +694,6 @@ matroska
 "
 #
 define
-AUDIO_FLAC
-"
-audio
-/
-flac
-"
-#
-define
 BINARY_OCTET_STREAM
 "
 binary
