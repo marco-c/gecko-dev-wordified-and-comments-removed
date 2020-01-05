@@ -981,6 +981,7 @@ AutoSetRestoreSVGContextPaint
 :
 AutoSetRestoreSVGContextPaint
 (
+const
 SVGContextPaint
 *
 aContextPaint
@@ -1062,7 +1063,14 @@ nsGkAtoms
 :
 :
 svgContextPaint
+const_cast
+<
+SVGContextPaint
+*
+>
+(
 aContextPaint
+)
 )
 ;
 NS_WARNING_ASSERTION

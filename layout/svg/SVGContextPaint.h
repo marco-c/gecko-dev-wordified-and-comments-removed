@@ -308,6 +308,7 @@ public
 :
 AutoSetRestoreSVGContextPaint
 (
+const
 SVGContextPaint
 *
 aContextPaint
