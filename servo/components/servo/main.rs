@@ -20,6 +20,10 @@ net
 ;
 extern
 crate
+net_traits
+;
+extern
+crate
 util
 ;
 extern
@@ -71,10 +75,10 @@ util
 opts
 ;
 use
-net
+net_traits
 :
 :
-resource_task
+hosts
 ;
 use
 servo
@@ -143,7 +147,7 @@ setup_logging
 (
 )
 ;
-resource_task
+hosts
 :
 :
 global_init
