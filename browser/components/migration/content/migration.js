@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 Cc
 =
@@ -1603,7 +1608,6 @@ onImportItemCommand
 :
 function
 (
-aEvent
 )
 {
 var
@@ -1717,9 +1721,13 @@ brandBundle
 "
 )
 ;
+var
+pageTitle
+pageDesc
+mainStr
+;
 try
 {
-var
 pageTitle
 =
 brandBundle
@@ -1731,7 +1739,6 @@ homePageMigrationPageTitle
 "
 )
 ;
-var
 pageDesc
 =
 brandBundle
@@ -1743,7 +1750,6 @@ homePageMigrationDescription
 "
 )
 ;
-var
 mainStr
 =
 brandBundle
@@ -2196,6 +2202,7 @@ items
 exp
 +
 +
+;
 }
 }
 }
@@ -2231,18 +2238,6 @@ removeChild
 items
 .
 firstChild
-)
-;
-var
-brandBundle
-=
-document
-.
-getElementById
-(
-"
-brandBundle
-"
 )
 ;
 var

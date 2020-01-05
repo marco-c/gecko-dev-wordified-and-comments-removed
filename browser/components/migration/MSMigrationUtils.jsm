@@ -149,9 +149,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 FileReader
-'
+"
 ]
 )
 ;
@@ -377,6 +377,7 @@ ctypes
 .
 uint16_t
 }
+;
 function
 CtypesKernelHelpers
 (
@@ -1271,6 +1272,7 @@ null
 ;
 }
 }
+;
 function
 hostIsIPAddress
 (
@@ -1642,7 +1644,7 @@ isReadable
 (
 )
 )
-return
+{
 this
 .
 __favoritesFolder
@@ -1650,6 +1652,8 @@ __favoritesFolder
 favoritesFolder
 ;
 }
+}
+else
 if
 (
 this
@@ -1704,7 +1708,6 @@ isDirectory
 )
 )
 {
-return
 this
 .
 __favoritesFolder
@@ -2575,7 +2578,6 @@ folder
 }
 }
 }
-return
 this
 .
 __cookiesFolders
@@ -2587,6 +2589,11 @@ length
 folders
 :
 null
+;
+return
+this
+.
+__cookiesFolders
 ;
 }
 migrate
@@ -3532,8 +3539,8 @@ slice
 .
 join
 (
-'
-'
+"
+"
 )
 16
 )
@@ -3553,8 +3560,8 @@ slice
 .
 join
 (
-'
-'
+"
+"
 )
 16
 )
@@ -3821,20 +3828,14 @@ GUID
 WEB_CREDENTIALS_VAULT_ID
 )
 ;
-let
-vaultCount
-=
-new
-wintypes
-.
-DWORD
-;
 error
 =
 new
 wintypes
 .
 DWORD
+(
+)
 ;
 vault
 =
@@ -3842,6 +3843,8 @@ new
 wintypes
 .
 VOIDP
+(
+)
 ;
 error
 =
@@ -3903,6 +3906,8 @@ _structs
 VAULT_ELEMENT
 .
 ptr
+(
+)
 ;
 let
 itemCount
@@ -3911,6 +3916,8 @@ new
 wintypes
 .
 DWORD
+(
+)
 ;
 error
 =
@@ -4109,6 +4116,8 @@ _structs
 VAULT_ELEMENT
 .
 ptr
+(
+)
 ;
 error
 =

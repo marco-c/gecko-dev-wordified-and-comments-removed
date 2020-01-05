@@ -2379,10 +2379,6 @@ rowContents
 }
 while
 (
-0
-=
-=
-=
 ESE
 .
 ManualMove
@@ -2394,6 +2390,10 @@ tableId
 1
 0
 )
+=
+=
+=
+0
 )
 ;
 }
@@ -2740,12 +2740,12 @@ return
 buffer
 ?
 (
-255
-=
-=
 buffer
 .
 value
+=
+=
+255
 )
 :
 false

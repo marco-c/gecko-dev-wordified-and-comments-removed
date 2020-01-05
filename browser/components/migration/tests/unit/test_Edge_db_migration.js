@@ -399,12 +399,16 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Unknown
 column
 type
 !
 "
+)
 ;
 }
 wrapper
@@ -1816,9 +1820,6 @@ increment
 )
 ;
 }
-let
-rv
-=
 ESE
 .
 ManualMove
@@ -2978,6 +2979,7 @@ onItemMoved
 {
 }
 }
+;
 PlacesUtils
 .
 bookmarks
@@ -3604,7 +3606,7 @@ itemsInDB
 .
 find
 (
-dbItem
+someItem
 =
 >
 bookmark
@@ -3612,7 +3614,7 @@ bookmark
 title
 =
 =
-dbItem
+someItem
 .
 Title
 )

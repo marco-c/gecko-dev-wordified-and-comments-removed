@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -81,11 +86,6 @@ OSCrypto
 jsm
 "
 )
-;
-const
-CRYPT_PROTECT_UI_FORBIDDEN
-=
-1
 ;
 const
 IE7_FORM_PASSWORDS_MIGRATOR_NAME

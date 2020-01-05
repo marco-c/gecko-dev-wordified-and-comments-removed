@@ -606,7 +606,6 @@ _getResourcesInternal
 (
 sourceProfileDir
 currentProfileDir
-aProfile
 )
 ;
 }
@@ -645,7 +644,6 @@ function
 (
 sourceProfileDir
 currentProfileDir
-aProfile
 )
 {
 let
@@ -1262,7 +1260,7 @@ haveStateFile
 false
 ;
 let
-subdir
+dataReportingDir
 =
 this
 .
@@ -1276,10 +1274,10 @@ datareporting
 ;
 if
 (
-subdir
+dataReportingDir
 &
 &
-subdir
+dataReportingDir
 .
 isDirectory
 (
@@ -1317,7 +1315,7 @@ datareporting
 let
 enumerator
 =
-subdir
+dataReportingDir
 .
 directoryEntries
 ;
@@ -1409,7 +1407,7 @@ haveStateFile
 )
 {
 let
-subdir
+healthReportDir
 =
 this
 .
@@ -1423,10 +1421,10 @@ healthreport
 ;
 if
 (
-subdir
+healthReportDir
 &
 &
-subdir
+healthReportDir
 .
 isDirectory
 (
@@ -1440,7 +1438,7 @@ this
 .
 _getFileObject
 (
-subdir
+healthReportDir
 "
 state
 .
@@ -1482,6 +1480,7 @@ true
 ;
 }
 }
+;
 return
 [
 places

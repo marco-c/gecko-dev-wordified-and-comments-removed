@@ -854,8 +854,6 @@ isReadable
 ;
 }
 migrate
-:
-function
 (
 aCallback
 )
@@ -1049,6 +1047,8 @@ id
 )
 10
 )
+;
+let
 parent_id
 =
 parseInt
@@ -1063,6 +1063,8 @@ parent_id
 )
 10
 )
+;
+let
 is_folder
 =
 parseInt
@@ -1077,6 +1079,8 @@ is_folder
 )
 10
 )
+;
+let
 title
 =
 row
@@ -1087,6 +1091,8 @@ getResultByName
 title
 "
 )
+;
+let
 url
 =
 row
@@ -1453,7 +1459,7 @@ this
 .
 _usersDir
 )
-return
+{
 this
 .
 __sourceProfiles
@@ -1461,6 +1467,12 @@ __sourceProfiles
 [
 ]
 ;
+return
+this
+.
+__sourceProfiles
+;
+}
 let
 profiles
 =
@@ -1780,7 +1792,6 @@ Default
 )
 ;
 }
-return
 this
 .
 __sourceProfiles
@@ -1815,6 +1826,11 @@ length
 ;
 }
 )
+;
+return
+this
+.
+__sourceProfiles
 ;
 }
 }
@@ -2008,7 +2024,8 @@ path
 .
 catch
 (
-_
+(
+)
 =
 >
 null

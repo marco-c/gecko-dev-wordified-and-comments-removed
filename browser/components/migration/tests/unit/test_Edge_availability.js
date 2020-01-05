@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 EDGE_AVAILABLE_MIGRATIONS
 =
