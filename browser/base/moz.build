@@ -355,17 +355,6 @@ browser
 .
 ini
 '
-'
-content
-/
-test
-/
-windows
-/
-browser
-.
-ini
-'
 ]
 if
 CONFIG
