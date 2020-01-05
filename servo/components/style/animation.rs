@@ -1157,6 +1157,21 @@ transition_index
 )
 ;
 if
+let
+TransitionProperty
+:
+:
+Unsupported
+(
+_
+)
+=
+transition_property
+{
+return
+result
+}
+if
 transition_property
 .
 is_shorthand
@@ -1185,7 +1200,6 @@ PropertyAnimation
 :
 from_transition_property
 (
-*
 transition_property
 timing_function
 duration
@@ -1221,6 +1235,7 @@ PropertyAnimation
 :
 from_transition_property
 (
+&
 transition_property
 timing_function
 duration
@@ -1259,6 +1274,7 @@ PropertyAnimation
 :
 from_transition_property
 (
+&
 transition_property
 timing_function
 duration
@@ -1283,6 +1299,7 @@ from_transition_property
 (
 transition_property
 :
+&
 TransitionProperty
 timing_function
 :
@@ -1320,6 +1337,7 @@ is_shorthand
 transition_property
 !
 =
+&
 TransitionProperty
 :
 :
@@ -1334,7 +1352,6 @@ AnimatedProperty
 :
 from_transition_property
 (
-&
 transition_property
 old_style
 new_style
@@ -3524,7 +3541,6 @@ PropertyAnimation
 :
 from_transition_property
 (
-*
 transition_property
 timing_function
 Time

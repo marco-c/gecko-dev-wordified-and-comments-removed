@@ -4863,6 +4863,7 @@ property_check_helper
 |
 property
 :
+&
 TransitionProperty
 |
 -
@@ -4904,6 +4905,10 @@ set
 insert
 (
 property
+.
+clone
+(
+)
 )
 ;
 }
@@ -4997,7 +5002,6 @@ iter
 any
 (
 |
-&
 p
 |
 property_check_helper
@@ -5025,6 +5029,7 @@ property
 &
 property_check_helper
 (
+&
 property
 .
 into
@@ -5077,6 +5082,7 @@ needs_transitions_update_per_property
 self
 property
 :
+&
 TransitionProperty
 combined_duration
 :
@@ -5136,7 +5142,6 @@ existing_transitions
 .
 contains_key
 (
-&
 property
 )
 {
@@ -5153,7 +5158,6 @@ AnimationValue
 :
 from_computed_values
 (
-&
 property
 after_change_style
 )
@@ -5164,7 +5168,6 @@ existing_transitions
 .
 get
 (
-&
 property
 )
 .
@@ -5189,7 +5192,6 @@ AnimatedProperty
 :
 from_transition_property
 (
-&
 property
 before_change_style
 after_change_style

@@ -14318,9 +14318,12 @@ i
 .
 mProperty
 =
+(
+&
 anim
 .
 0
+)
 .
 into
 (
@@ -14780,10 +14783,6 @@ mProperty
 =
 property
 .
-clone
-(
-)
-.
 into
 (
 )
@@ -14992,7 +14991,10 @@ index
 .
 mProperty
 =
+(
+&
 property
+)
 .
 into
 (

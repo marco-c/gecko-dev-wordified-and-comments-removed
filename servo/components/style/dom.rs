@@ -2494,6 +2494,7 @@ needs_transitions_update_per_property
 self
 property
 :
+&
 TransitionProperty
 combined_duration
 :

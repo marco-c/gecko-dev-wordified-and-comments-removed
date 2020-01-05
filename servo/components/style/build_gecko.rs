@@ -4622,6 +4622,9 @@ StyleBasicShapeType
 StyleShapeSource
 "
 "
+StyleTransition
+"
+"
 nsCSSFontFaceRule
 "
 "
