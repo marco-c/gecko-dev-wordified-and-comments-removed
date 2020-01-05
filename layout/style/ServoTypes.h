@@ -169,6 +169,12 @@ AllowUnitlessLength
 <
 <
 0
+AllowAllNumericValues
+=
+1
+<
+<
+1
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
