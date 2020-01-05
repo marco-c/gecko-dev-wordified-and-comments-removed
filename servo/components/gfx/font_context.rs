@@ -191,12 +191,6 @@ use
 azure
 :
 :
-AzFloat
-;
-use
-azure
-:
-:
 azure_hl
 :
 :
