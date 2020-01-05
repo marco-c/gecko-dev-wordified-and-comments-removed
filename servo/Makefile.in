@@ -1500,12 +1500,6 @@ PHONY
 (
 1
 )
-.
-NOTPARALLEL
-:
-(
-1
-)
 endef
 (
 foreach
