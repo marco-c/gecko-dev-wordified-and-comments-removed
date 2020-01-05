@@ -186,7 +186,7 @@ virtualenv
 libssl
 -
 dev
-libglfw3
+libglfw
 -
 dev
 On
