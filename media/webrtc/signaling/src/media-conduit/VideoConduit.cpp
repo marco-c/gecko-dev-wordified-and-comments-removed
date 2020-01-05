@@ -2839,6 +2839,15 @@ max_framerate
 )
 )
 ;
+mNegotiatedMaxBitrate
+=
+codecConfig
+-
+>
+mTias
+/
+1000
+;
 for
 (
 size_t
