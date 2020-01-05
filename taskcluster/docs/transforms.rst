@@ -1257,12 +1257,17 @@ run
 using
 are
 available
+*
 hazard
+*
 mach
+*
 mozharness
+*
 run
 -
 task
+*
 spidermonkey
 or
 spidermonkey
@@ -1274,6 +1279,7 @@ spidermonkey
 mozjs
 -
 crate
+*
 toolchain
 -
 script
