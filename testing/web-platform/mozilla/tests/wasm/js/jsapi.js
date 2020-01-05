@@ -6858,7 +6858,7 @@ importingModuleBinary
 {
 }
 ]
-LinkError
+TypeError
 )
 ;
 assertInstantiateError
@@ -6903,7 +6903,7 @@ f
 }
 }
 ]
-LinkError
+TypeError
 )
 ;
 assertInstantiateError
@@ -6931,7 +6931,7 @@ complexImportingModuleBinary
 {
 }
 ]
-LinkError
+TypeError
 )
 ;
 assertInstantiateError
@@ -6952,7 +6952,7 @@ scratch_memory
 }
 }
 ]
-LinkError
+TypeError
 )
 ;
 function
