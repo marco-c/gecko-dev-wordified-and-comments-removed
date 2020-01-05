@@ -1715,6 +1715,12 @@ FinalizeFrame
 )
 ;
 virtual
+bool
+IsSyncObjectValid
+(
+)
+;
+virtual
 SyncType
 GetSyncType
 (
@@ -1746,6 +1752,12 @@ private
 :
 SyncHandle
 mSyncHandle
+;
+RefPtr
+<
+ID3D11Device
+>
+mD3D11Device
 ;
 RefPtr
 <
