@@ -529,7 +529,9 @@ releng
 :
 beetmover
 :
-nightly
+bucket
+:
+release
 '
     
 '
@@ -547,6 +549,8 @@ releng
 :
 beetmover
 :
+bucket
+:
 nightly
 '
     
@@ -561,7 +565,9 @@ releng
 :
 beetmover
 :
-nightly
+bucket
+:
+dep
 '
 }
 "
