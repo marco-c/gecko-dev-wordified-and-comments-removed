@@ -46,11 +46,6 @@ features
 window
 =
 [
-"
-glutin
-/
-window
-"
 ]
 headless
 =
