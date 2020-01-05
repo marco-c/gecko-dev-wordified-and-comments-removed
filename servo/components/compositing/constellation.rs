@@ -288,7 +288,10 @@ use
 offscreen_gl_context
 :
 :
+{
 GLContextAttributes
+GLLimits
+}
 ;
 use
 pipeline
@@ -8382,10 +8385,13 @@ IpcSender
 <
 Result
 <
+(
 IpcSender
 <
 CanvasMsg
 >
+GLLimits
+)
 String
 >
 >
@@ -8403,7 +8409,7 @@ clone
 )
 ;
 let
-sender
+response
 =
 WebGLPaintThread
 :
@@ -8420,7 +8426,7 @@ response_sender
 .
 send
 (
-sender
+response
 )
 .
 unwrap_or_else
