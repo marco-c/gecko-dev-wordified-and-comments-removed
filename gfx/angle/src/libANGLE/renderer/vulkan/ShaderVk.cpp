@@ -52,7 +52,7 @@ ShaderVk
 )
 {
 }
-ShCompileOptions
+int
 ShaderVk
 :
 :

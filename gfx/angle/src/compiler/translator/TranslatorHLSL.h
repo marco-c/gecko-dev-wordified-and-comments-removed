@@ -101,7 +101,7 @@ translate
 TIntermNode
 *
 root
-ShCompileOptions
+int
 compileOptions
 )
 override
@@ -115,7 +115,7 @@ override
 bool
 shouldCollectVariables
 (
-ShCompileOptions
+int
 compileOptions
 )
 override

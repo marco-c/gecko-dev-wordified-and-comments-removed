@@ -67,7 +67,7 @@ ShaderD3D
 (
 )
 ;
-ShCompileOptions
+int
 prepareSourceAndReturnOptions
 (
 std
@@ -356,7 +356,7 @@ int
 >
 mInterfaceBlockRegisterMap
 ;
-ShCompileOptions
+int
 mAdditionalOptions
 ;
 }
