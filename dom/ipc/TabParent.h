@@ -2508,13 +2508,6 @@ return
 mInitedByParent
 ;
 }
-static
-TabParent
-*
-GetNextTabParent
-(
-)
-;
 bool
 SendLoadRemoteScript
 (
@@ -3080,11 +3073,6 @@ mFrameLoader
 ;
 TabId
 mTabId
-;
-static
-TabParent
-*
-sNextTabParent
 ;
 bool
 mCreatingWindow
