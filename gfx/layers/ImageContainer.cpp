@@ -2841,8 +2841,9 @@ NVImage
 NVImage
 (
 )
-{
-}
+=
+default
+;
 IntSize
 NVImage
 :
@@ -3659,8 +3660,9 @@ SourceSurfaceImage
 SourceSurfaceImage
 (
 )
-{
-}
+=
+default
+;
 TextureClient
 *
 SourceSurfaceImage

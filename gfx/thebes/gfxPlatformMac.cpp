@@ -2305,8 +2305,9 @@ virtual
 OSXVsyncSource
 (
 )
-{
-}
+=
+default
+;
 OSXDisplay
 mGlobalDisplay
 ;

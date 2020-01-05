@@ -74,8 +74,9 @@ MacIOSurfaceTextureData
 MacIOSurfaceTextureData
 (
 )
-{
-}
+=
+default
+;
 MacIOSurfaceTextureData
 *
 MacIOSurfaceTextureData

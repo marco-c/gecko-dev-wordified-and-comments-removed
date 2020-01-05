@@ -2064,8 +2064,9 @@ nsIMemoryReporter
 SurfaceMemoryReporter
 (
 )
-{
-}
+=
+default
+;
 static
 Atomic
 <
