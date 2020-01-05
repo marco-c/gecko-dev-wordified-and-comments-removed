@@ -17,6 +17,8 @@ set
 "
 privacy
 .
+usercontext
+.
 about_newtab_segregation
 .
 enabled
