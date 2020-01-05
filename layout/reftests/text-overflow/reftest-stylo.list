@@ -54,6 +54,7 @@ marker
 basic
 .
 html
+fails
 HTTP
 (
 .
@@ -518,6 +519,8 @@ after
 bug
 1138384
 lands
+fails
+fails
 =
 =
 vertical
@@ -534,6 +537,8 @@ decorations
 1
 .
 html
+fails
+fails
 =
 =
 vertical
@@ -550,6 +555,8 @@ decorations
 2
 .
 html
+fails
+fails
 =
 =
 vertical
@@ -566,6 +573,8 @@ decorations
 1
 .
 html
+fails
+fails
 =
 =
 vertical

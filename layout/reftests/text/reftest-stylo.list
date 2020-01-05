@@ -244,6 +244,7 @@ adjust
 03
 .
 html
+fails
 =
 =
 justification
@@ -599,6 +600,7 @@ space
 1
 .
 html
+fails
 =
 =
 pre
@@ -2296,6 +2298,7 @@ wordbreak
 9
 .
 html
+fails
 =
 =
 wordbreak
