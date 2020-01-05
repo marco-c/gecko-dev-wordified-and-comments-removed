@@ -68,3 +68,7 @@ unset
 CC
 unset
 CXX
+unset
+RUSTC
+unset
+CARGO

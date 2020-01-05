@@ -50,6 +50,10 @@ unset
 CC
 unset
 CXX
+unset
+RUSTC
+unset
+CARGO
 ac_add_options
 -
 -
