@@ -59,6 +59,10 @@ lastIndex
 lengthS
 )
 {
+if
+(
+globalOrSticky
+)
 rx
 .
 lastIndex
@@ -96,6 +100,10 @@ result
 null
 )
 {
+if
+(
+globalOrSticky
+)
 rx
 .
 lastIndex

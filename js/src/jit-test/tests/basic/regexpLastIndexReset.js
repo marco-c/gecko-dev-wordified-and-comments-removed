@@ -44,7 +44,7 @@ assertEq
 pattern
 .
 lastIndex
-0
+3
 )
 ;
 }
@@ -101,7 +101,7 @@ assertEq
 pattern
 .
 lastIndex
-0
+3
 )
 ;
 }

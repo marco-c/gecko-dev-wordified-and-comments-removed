@@ -670,7 +670,7 @@ lastIndex
 reportCompare
 (
 "
-xxx0
+xxx1
 "
 "
 xxx
