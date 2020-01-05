@@ -251,6 +251,11 @@ testFreshGlobalEvalRedefinition
 cpp
 '
 '
+testFunctionBinding
+.
+cpp
+'
+'
 testFunctionProperties
 .
 cpp

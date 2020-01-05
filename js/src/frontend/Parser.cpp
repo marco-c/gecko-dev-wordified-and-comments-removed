@@ -10782,6 +10782,8 @@ ParseHandler
 :
 finishFunctionScopes
 (
+bool
+isStandaloneFunction
 )
 {
 FunctionBox
@@ -10833,6 +10835,10 @@ function
 isNamedLambda
 (
 )
+&
+&
+!
+isStandaloneFunction
 )
 {
 if
@@ -10868,6 +10874,8 @@ FullParseHandler
 :
 finishFunction
 (
+bool
+isStandaloneFunction
 )
 {
 if
@@ -10875,6 +10883,7 @@ if
 !
 finishFunctionScopes
 (
+isStandaloneFunction
 )
 )
 return
@@ -11003,6 +11012,10 @@ function
 isNamedLambda
 (
 )
+&
+&
+!
+isStandaloneFunction
 )
 {
 Maybe
@@ -11063,6 +11076,8 @@ SyntaxParseHandler
 :
 finishFunction
 (
+bool
+isStandaloneFunction
 )
 {
 if
@@ -11070,6 +11085,7 @@ if
 !
 finishFunctionScopes
 (
+isStandaloneFunction
 )
 )
 return
@@ -11563,6 +11579,7 @@ yieldHandling
 fn
 Statement
 parameterListEnd
+true
 )
 )
 {
@@ -16224,6 +16241,8 @@ Maybe
 uint32_t
 >
 parameterListEnd
+bool
+isStandaloneFunction
 )
 {
 FunctionBox
@@ -16793,6 +16812,7 @@ if
 !
 finishFunction
 (
+isStandaloneFunction
 )
 )
 return
