@@ -134,7 +134,7 @@ new
 "
 url
 .
-to_str
+serialize
 (
 )
 )
@@ -257,7 +257,7 @@ self
 .
 url
 .
-to_str
+serialize
 (
 )
 )
@@ -336,7 +336,7 @@ self
 .
 url
 .
-to_str
+serialize
 (
 )
 )
@@ -384,7 +384,7 @@ self
 .
 url
 .
-to_str
+serialize
 (
 )
 )
@@ -475,7 +475,7 @@ self
 .
 url
 .
-to_str
+serialize
 (
 )
 )
@@ -502,7 +502,7 @@ self
 .
 url
 .
-to_str
+serialize
 (
 )
 )

@@ -1146,7 +1146,7 @@ url
 =
 url
 .
-to_str
+serialize
 (
 )
 .

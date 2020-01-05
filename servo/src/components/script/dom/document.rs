@@ -574,10 +574,7 @@ use
 url
 :
 :
-{
 Url
-from_str
-}
 ;
 #
 [
@@ -1494,7 +1491,10 @@ unwrap_or_else
 (
 |
 |
-from_str
+Url
+:
+:
+parse
 (
 "
 about
@@ -2926,7 +2926,7 @@ url
 (
 )
 .
-to_str
+serialize
 (
 )
 }

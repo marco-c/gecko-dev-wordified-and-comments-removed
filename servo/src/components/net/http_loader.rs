@@ -394,7 +394,7 @@ s
 "
 url
 .
-to_str
+serialize
 (
 )
 )
@@ -815,7 +815,7 @@ s
 "
 new_url
 .
-to_str
+serialize
 (
 )
 )
