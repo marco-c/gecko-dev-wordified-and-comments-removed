@@ -1756,6 +1756,13 @@ ComputedStyle
 inherit_mode
 :
 InheritMode
+pseudo
+:
+Option
+<
+&
+PseudoElement
+>
 )
 -
 >
@@ -2117,6 +2124,7 @@ stylist
 .
 device
 rule_node
+pseudo
 &
 shared_context
 .
@@ -2169,6 +2177,13 @@ primary_style
 :
 &
 ComputedStyle
+pseudo
+:
+Option
+<
+&
+PseudoElement
+>
 eager_pseudo_style
 :
 Option
@@ -2236,6 +2251,7 @@ font_metrics_provider
 rule_node
 primary_style
 inherit_mode
+pseudo
 )
 }
 fn
@@ -2510,6 +2526,7 @@ cascade_internal
 context
 primary_style
 None
+None
 )
 }
 }
@@ -2523,6 +2540,7 @@ cascade_internal
 (
 context
 primary_style
+pseudo
 pseudo_style
 .
 as_ref
@@ -2685,6 +2703,13 @@ primary_style
 :
 &
 ComputedStyle
+pseudo
+:
+Option
+<
+&
+PseudoElement
+>
 )
 -
 >
@@ -2753,6 +2778,7 @@ InheritMode
 :
 :
 FromParentElement
+pseudo
 )
 )
 }
@@ -3080,6 +3106,7 @@ get_after_change_style
 (
 context
 primary_style
+None
 )
 }
 else
@@ -6258,6 +6285,13 @@ primary_style
 :
 &
 ComputedStyle
+pseudo
+:
+Option
+<
+&
+PseudoElement
+>
 pseudo_style
 :
 Option
@@ -6343,6 +6377,7 @@ InheritMode
 :
 :
 FromParentElement
+pseudo
 )
 }
 }

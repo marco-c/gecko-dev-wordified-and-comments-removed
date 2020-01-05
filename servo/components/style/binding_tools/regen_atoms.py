@@ -1485,8 +1485,8 @@ have_to_use_pseudo_elements
  
 *
 macro_rules
-pseudo_element
 !
+pseudo_element
 {
  
 *
