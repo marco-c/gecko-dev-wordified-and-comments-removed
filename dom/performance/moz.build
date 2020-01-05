@@ -134,6 +134,11 @@ PerformanceResourceTiming
 h
 '
 '
+PerformanceService
+.
+h
+'
+'
 PerformanceTiming
 .
 h
@@ -185,6 +190,11 @@ cpp
 '
 '
 PerformanceResourceTiming
+.
+cpp
+'
+'
+PerformanceService
 .
 cpp
 '

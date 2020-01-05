@@ -172,6 +172,14 @@ now
 (
 )
 ;
+[
+Constant
+]
+readonly
+attribute
+DOMHighResTimeStamp
+timeOrigin
+;
 }
 ;
 [

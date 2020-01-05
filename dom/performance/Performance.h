@@ -61,6 +61,9 @@ class
 PerformanceObserver
 ;
 class
+PerformanceService
+;
+class
 PerformanceTiming
 ;
 namespace
@@ -247,6 +250,11 @@ Now
 const
 =
 0
+;
+DOMHighResTimeStamp
+TimeOrigin
+(
+)
 ;
 void
 Mark
@@ -643,6 +651,12 @@ kDefaultResourceTimingBufferSize
 ;
 bool
 mPendingNotificationObserversTask
+;
+RefPtr
+<
+PerformanceService
+>
+mPerformanceService
 ;
 }
 ;
