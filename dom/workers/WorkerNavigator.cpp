@@ -286,6 +286,8 @@ GetAppName
 nsString
 &
 aAppName
+CallerType
+aCallerType
 )
 const
 {
@@ -349,6 +351,11 @@ GetAppVersion
 nsString
 &
 aAppVersion
+CallerType
+aCallerType
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -412,6 +419,11 @@ GetPlatform
 nsString
 &
 aPlatform
+CallerType
+aCallerType
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -666,6 +678,8 @@ GetUserAgent
 nsString
 &
 aUserAgent
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

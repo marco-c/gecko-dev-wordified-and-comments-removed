@@ -463,6 +463,7 @@ Mozilla
 [
 Constant
 Cached
+NeedsCallerType
 ]
 readonly
 attribute
@@ -472,6 +473,8 @@ appName
 [
 Constant
 Cached
+Throws
+NeedsCallerType
 ]
 readonly
 attribute
@@ -481,6 +484,8 @@ appVersion
 [
 Constant
 Cached
+Throws
+NeedsCallerType
 ]
 readonly
 attribute
@@ -491,6 +496,7 @@ platform
 Pure
 Cached
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
@@ -1295,6 +1301,7 @@ Navigator
 Throws
 Constant
 Cached
+NeedsCallerType
 ]
 readonly
 attribute
@@ -1390,6 +1397,7 @@ cookieEnabled
 Throws
 Constant
 Cached
+NeedsCallerType
 ]
 readonly
 attribute
