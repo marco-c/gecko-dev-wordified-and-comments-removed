@@ -6197,7 +6197,15 @@ True
 if
 self
 .
-e10s
+appinfo
+.
+get
+(
+'
+browserTabsRemoteAutostart
+'
+False
+)
 :
             
 self
