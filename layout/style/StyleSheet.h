@@ -70,7 +70,7 @@ CSSStyleSheet
 class
 ServoStyleSheet
 ;
-class
+struct
 StyleSheetInfo
 ;
 namespace
