@@ -458,6 +458,11 @@ onReady
 )
 {
 let
+result
+=
+false
+;
+let
 reads
 =
 this
@@ -497,6 +502,10 @@ if
 buffer
 )
 {
+result
+=
+true
+;
 this
 .
 shiftPending
@@ -532,6 +541,9 @@ updatePollFds
 )
 ;
 }
+return
+result
+;
 }
 }
 class
@@ -2175,6 +2187,11 @@ i
 ;
 try
 {
+let
+success
+=
+false
+;
 if
 (
 pollfd
@@ -2186,6 +2203,8 @@ handler
 pollEvents
 )
 {
+success
+=
 handler
 .
 onReady
@@ -2194,6 +2213,11 @@ onReady
 ;
 }
 if
+(
+!
+success
+&
+&
 (
 pollfd
 .
@@ -2211,6 +2235,7 @@ POLLHUP
 LIBC
 .
 POLLNVAL
+)
 )
 )
 {
