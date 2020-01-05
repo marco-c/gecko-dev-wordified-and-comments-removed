@@ -854,6 +854,15 @@ transport
 =
 IPPROTO_TCP
 ;
+if
+(
+has_addr_
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 server
 -
 >
