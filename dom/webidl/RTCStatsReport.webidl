@@ -821,6 +821,14 @@ remoteSdp
 DOMHighResTimeStamp
 timestamp
 ;
+unsigned
+long
+iceRestarts
+;
+unsigned
+long
+iceRollbacks
+;
 boolean
 closed
 ;
