@@ -134,11 +134,6 @@ bar
 )
 #
 endif
-typedef
-struct
-SprintfStateStr
-SprintfState
-;
 struct
 SprintfStateStr
 {
@@ -148,7 +143,7 @@ int
 stuff
 )
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -287,7 +282,7 @@ static
 int
 fill2
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -484,7 +479,7 @@ static
 int
 fill_n
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -945,7 +940,7 @@ static
 int
 cvt_l
 (
-SprintfState
+SprintfStateStr
 *
 aState
 long
@@ -1111,7 +1106,7 @@ static
 int
 cvt_ll
 (
-SprintfState
+SprintfStateStr
 *
 aState
 int64_t
@@ -1261,7 +1256,7 @@ static
 int
 cvt_f
 (
-SprintfState
+SprintfStateStr
 *
 aState
 double
@@ -2233,7 +2228,7 @@ static
 int
 cvt_S
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -2318,7 +2313,7 @@ static
 int
 cvt_s
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -3651,7 +3646,7 @@ static
 int
 dosprintf
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -5529,7 +5524,7 @@ static
 int
 StringStuff
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -5626,7 +5621,7 @@ static
 int
 GrowStuff
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -5945,7 +5940,7 @@ va_list
 aAp
 )
 {
-SprintfState
+SprintfStateStr
 ss
 ;
 ss
@@ -6021,7 +6016,7 @@ va_list
 aAp
 )
 {
-SprintfState
+SprintfStateStr
 ss
 ;
 int
@@ -6097,7 +6092,7 @@ static
 int
 LimitStuff
 (
-SprintfState
+SprintfStateStr
 *
 aState
 const
@@ -6265,7 +6260,7 @@ va_list
 aAp
 )
 {
-SprintfState
+SprintfStateStr
 ss
 ;
 uint32_t
