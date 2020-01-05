@@ -717,9 +717,9 @@ PaintGradient
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
-aRenderingContext
+aContext
 nsStyleGradient
 *
 aGradient
