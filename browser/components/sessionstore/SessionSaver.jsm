@@ -456,8 +456,6 @@ freeze
 (
 {
 run
-:
-function
 (
 )
 {
@@ -470,8 +468,6 @@ run
 ;
 }
 runDelayed
-:
-function
 (
 )
 {
@@ -483,8 +479,6 @@ runDelayed
 ;
 }
 updateLastSaveTime
-:
-function
 (
 )
 {
@@ -496,8 +490,6 @@ updateLastSaveTime
 ;
 }
 cancel
-:
-function
 (
 )
 {
@@ -522,8 +514,6 @@ _lastSaveTime
 :
 0
 run
-:
-function
 (
 )
 {
@@ -537,8 +527,6 @@ true
 ;
 }
 runDelayed
-:
-function
 (
 delay
 =
@@ -596,8 +584,6 @@ delay
 ;
 }
 updateLastSaveTime
-:
-function
 (
 )
 {
@@ -613,8 +599,6 @@ now
 ;
 }
 cancel
-:
-function
 (
 )
 {
@@ -633,8 +617,6 @@ null
 ;
 }
 _saveState
-:
-function
 (
 forceUpdateAllWindows
 =
@@ -963,8 +945,6 @@ state
 ;
 }
 _saveStateAsync
-:
-function
 (
 )
 {
@@ -982,8 +962,6 @@ _saveState
 ;
 }
 _writeState
-:
-function
 (
 state
 )

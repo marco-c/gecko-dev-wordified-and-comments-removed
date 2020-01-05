@@ -1752,8 +1752,6 @@ _callback
 :
 null
 setCallback
-:
-function
 (
 aCallback
 )
@@ -1784,8 +1782,6 @@ aCallback
 ;
 }
 unsetCallback
-:
-function
 (
 )
 {
@@ -1814,8 +1810,6 @@ this
 }
 }
 onStateChange
-:
-function
 (
 aBrowser
 aWebProgress
@@ -1887,8 +1881,6 @@ _callback
 :
 null
 setCallback
-:
-function
 (
 callback
 )
@@ -1920,8 +1912,6 @@ callback
 ;
 }
 unsetCallback
-:
-function
 (
 )
 {
@@ -1959,8 +1949,6 @@ restored
 }
 }
 observe
-:
-function
 (
 browser
 topic
@@ -1976,8 +1964,6 @@ browser
 ;
 }
 onRestored
-:
-function
 (
 browser
 )
@@ -2021,8 +2007,6 @@ args
 }
 }
 _countTabs
-:
-function
 (
 )
 {

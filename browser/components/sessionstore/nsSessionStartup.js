@@ -536,8 +536,6 @@ string
 ;
 }
 _onSessionFileRead
-:
-function
 (
 {
 source
@@ -1309,8 +1307,6 @@ _willRestore
 ;
 }
 isAutomaticRestoreEnabled
-:
-function
 (
 )
 {
@@ -1351,8 +1347,6 @@ BROWSER_STARTUP_RESUME_SESSION
 ;
 }
 _willRestore
-:
-function
 (
 )
 {

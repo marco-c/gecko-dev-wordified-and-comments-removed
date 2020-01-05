@@ -1772,8 +1772,6 @@ length
 ;
 }
 setTree
-:
-function
 (
 treeBox
 )
@@ -1786,8 +1784,6 @@ treeBox
 ;
 }
 getCellText
-:
-function
 (
 idx
 column
@@ -1803,8 +1799,6 @@ label
 ;
 }
 isContainer
-:
-function
 (
 idx
 )
@@ -1821,8 +1815,6 @@ idx
 ;
 }
 getCellValue
-:
-function
 (
 idx
 column
@@ -1838,8 +1830,6 @@ checked
 ;
 }
 isContainerOpen
-:
-function
 (
 idx
 )
@@ -1854,8 +1844,6 @@ open
 ;
 }
 isContainerEmpty
-:
-function
 (
 idx
 )
@@ -1865,8 +1853,6 @@ false
 ;
 }
 isSeparator
-:
-function
 (
 idx
 )
@@ -1876,8 +1862,6 @@ false
 ;
 }
 isSorted
-:
-function
 (
 )
 {
@@ -1886,8 +1870,6 @@ false
 ;
 }
 isEditable
-:
-function
 (
 idx
 column
@@ -1898,8 +1880,6 @@ false
 ;
 }
 canDrop
-:
-function
 (
 idx
 orientation
@@ -1911,8 +1891,6 @@ false
 ;
 }
 getLevel
-:
-function
 (
 idx
 )
@@ -1931,8 +1909,6 @@ idx
 ;
 }
 getParentIndex
-:
-function
 (
 idx
 )
@@ -1983,8 +1959,6 @@ return
 ;
 }
 hasNextSibling
-:
-function
 (
 idx
 after
@@ -2047,8 +2021,6 @@ false
 ;
 }
 toggleOpenState
-:
-function
 (
 idx
 )
@@ -2233,8 +2205,6 @@ idx
 ;
 }
 getCellProperties
-:
-function
 (
 idx
 column
@@ -2310,8 +2280,6 @@ return
 ;
 }
 getRowProperties
-:
-function
 (
 idx
 )
@@ -2354,8 +2322,6 @@ return
 ;
 }
 getImageSrc
-:
-function
 (
 idx
 column
@@ -2388,8 +2354,6 @@ null
 ;
 }
 getProgressMode
-:
-function
 (
 idx
 column
@@ -2397,16 +2361,12 @@ column
 {
 }
 cycleHeader
-:
-function
 (
 column
 )
 {
 }
 cycleCell
-:
-function
 (
 idx
 column
@@ -2414,23 +2374,17 @@ column
 {
 }
 selectionChanged
-:
-function
 (
 )
 {
 }
 performAction
-:
-function
 (
 action
 )
 {
 }
 performActionOnCell
-:
-function
 (
 action
 index
@@ -2439,8 +2393,6 @@ column
 {
 }
 getColumnProperties
-:
-function
 (
 column
 )

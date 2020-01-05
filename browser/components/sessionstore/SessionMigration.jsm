@@ -152,8 +152,6 @@ SessionMigrationInternal
 =
 {
 convertState
-:
-function
 (
 aStateObj
 )
@@ -366,8 +364,6 @@ formdata
 ;
 }
 readState
-:
-function
 (
 aPath
 )
@@ -423,8 +419,6 @@ state
 ;
 }
 writeState
-:
-function
 (
 aPath
 aState
@@ -473,8 +467,6 @@ SessionMigration
 =
 {
 migrate
-:
-function
 (
 aFromPath
 aToPath

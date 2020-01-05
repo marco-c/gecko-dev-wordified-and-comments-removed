@@ -1151,8 +1151,6 @@ getInputValue
 "
 {
 id
-:
-id
 }
 )
 ;

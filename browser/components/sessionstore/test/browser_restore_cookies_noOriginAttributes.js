@@ -120,8 +120,6 @@ browser_1267910_page
 html
 "
 triggeringPrincipal_base64
-:
-triggeringPrincipal_base64
 charset
 :
 "
@@ -375,8 +373,6 @@ browser_1267910_page
 .
 html
 "
-triggeringPrincipal_base64
-:
 triggeringPrincipal_base64
 charset
 :

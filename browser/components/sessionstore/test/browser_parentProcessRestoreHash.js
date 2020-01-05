@@ -83,8 +83,6 @@ nsIAboutModule
 ]
 )
 getURIFlags
-:
-function
 (
 aURI
 )
@@ -110,8 +108,6 @@ HIDE_FROM_ABOUTABOUT
 ;
 }
 newChannel
-:
-function
 (
 aURI
 aLoadInfo
@@ -153,8 +149,6 @@ channel
 ;
 }
 createInstance
-:
-function
 (
 outer
 iid
@@ -184,8 +178,6 @@ iid
 ;
 }
 register
-:
-function
 (
 )
 {
@@ -235,8 +227,6 @@ this
 ;
 }
 unregister
-:
-function
 (
 )
 {

@@ -108,8 +108,6 @@ prototype
 =
 {
 getState
-:
-function
 (
 )
 {
@@ -120,8 +118,6 @@ state
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -134,8 +130,6 @@ state
 ;
 }
 get
-:
-function
 (
 aKey
 )
@@ -154,8 +148,6 @@ aKey
 ;
 }
 set
-:
-function
 (
 aKey
 aStringValue
@@ -172,8 +164,6 @@ aStringValue
 ;
 }
 delete
-:
-function
 (
 aKey
 )
@@ -188,8 +178,6 @@ aKey
 ;
 }
 setFromState
-:
-function
 (
 aState
 )

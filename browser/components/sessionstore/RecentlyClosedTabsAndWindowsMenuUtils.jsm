@@ -197,8 +197,6 @@ RecentlyClosedTabsAndWindowsMenuUtils
 =
 {
 getTabsFragment
-:
-function
 (
 aWindow
 aTagName
@@ -310,8 +308,6 @@ fragment
 ;
 }
 getWindowsFragment
-:
-function
 (
 aWindow
 aTagName
@@ -514,8 +510,6 @@ fragment
 ;
 }
 _undoCloseMiddleClick
-:
-function
 (
 aEvent
 )

@@ -23,8 +23,6 @@ freeze
 (
 {
 get
-:
-function
 (
 browserOrTab
 )
@@ -39,8 +37,6 @@ browserOrTab
 ;
 }
 update
-:
-function
 (
 browserOrTab
 newData
@@ -69,8 +65,6 @@ WeakMap
 (
 )
 get
-:
-function
 (
 browserOrTab
 )
@@ -89,8 +83,6 @@ permanentKey
 ;
 }
 updatePartialStorageChange
-:
-function
 (
 data
 change
@@ -231,8 +223,6 @@ value
 }
 }
 updatePartialHistoryChange
-:
-function
 (
 data
 change
@@ -410,8 +400,6 @@ key
 }
 }
 update
-:
-function
 (
 browserOrTab
 newData

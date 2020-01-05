@@ -1756,8 +1756,6 @@ restoreLastSession
 ;
 }
 getCurrentState
-:
-function
 (
 aUpdateAll
 )
@@ -1927,8 +1925,6 @@ FORMAT_VERSION
 ;
 }
 keepOnlyWorthSavingTabs
-:
-function
 (
 aState
 )
@@ -2455,8 +2451,6 @@ tab
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -2534,8 +2528,6 @@ true
 ;
 }
 initSession
-:
-function
 (
 )
 {
@@ -2980,8 +2972,6 @@ state
 ;
 }
 _initPrefs
-:
-function
 (
 )
 {
@@ -4284,8 +4274,6 @@ break
 }
 }
 recordTelemetry
-:
-function
 (
 telemetry
 )
@@ -5580,8 +5568,6 @@ false
 }
 }
 onBeforeBrowserWindowShown
-:
-function
 (
 aWindow
 )
@@ -8675,8 +8661,6 @@ aWindow
 ;
 }
 onBrowserCrashed
-:
-function
 (
 aBrowser
 )
@@ -8765,8 +8749,6 @@ tab
 }
 }
 onIdleDaily
-:
-function
 (
 )
 {
@@ -8841,8 +8823,6 @@ _notifyOfClosedObjectsChange
 ;
 }
 _cleanupOldData
-:
-function
 (
 targets
 )
@@ -12629,8 +12609,6 @@ sidebar
 ;
 }
 getCurrentState
-:
-function
 (
 aUpdateAll
 )
@@ -13088,8 +13066,6 @@ _closedWindows
 :
 lastClosedWindowsCopy
 session
-:
-session
 global
 :
 this
@@ -13258,8 +13234,6 @@ windows
 ;
 return
 {
-windows
-:
 windows
 }
 ;
@@ -15551,10 +15525,6 @@ restoreHistory
 "
 {
 tabData
-:
-tabData
-epoch
-:
 epoch
 loadArguments
 }
@@ -15618,8 +15588,6 @@ window
 ;
 }
 restoreTabContent
-:
-function
 (
 aTab
 aLoadArguments
@@ -15783,8 +15751,6 @@ freshProcess
 :
 aReloadInFreshProcess
 newFrameloader
-:
-newFrameloader
 }
 )
 ;
@@ -15816,10 +15782,6 @@ restoreHistory
 "
 {
 tabData
-:
-tabData
-epoch
-:
 epoch
 loadArguments
 :
@@ -16733,8 +16695,6 @@ focus
 }
 }
 saveStateDelayed
-:
-function
 (
 aWindow
 =
@@ -17740,8 +17700,6 @@ SIX_HOURS_IN_MS
 ;
 }
 _hasSingleTabWithURL
-:
-function
 (
 aWinData
 aURL
@@ -19179,8 +19137,6 @@ _tabsRestoringCount
 ;
 }
 _resetLocalTabRestoringState
-:
-function
 (
 aTab
 )
@@ -19278,8 +19234,6 @@ aTab
 }
 }
 _resetTabRestoringState
-:
-function
 (
 tab
 )
@@ -19407,8 +19361,6 @@ permanentKey
 ;
 }
 isCurrentEpoch
-:
-function
 (
 browser
 epoch
@@ -19670,8 +19622,6 @@ definition
 =
 {
 value
-:
-value
 configurable
 :
 true
@@ -19749,8 +19699,6 @@ let
 definition
 =
 {
-value
-:
 value
 configurable
 :
@@ -19830,8 +19778,6 @@ definition
 =
 {
 value
-:
-value
 configurable
 :
 true
@@ -19882,8 +19828,6 @@ updateValue
 }
 }
 reset
-:
-function
 (
 )
 {
@@ -19908,8 +19852,6 @@ hidden
 ;
 }
 add
-:
-function
 (
 tab
 )
@@ -19968,8 +19910,6 @@ tab
 }
 }
 remove
-:
-function
 (
 tab
 )
@@ -20048,8 +19988,6 @@ index
 }
 }
 shift
-:
-function
 (
 )
 {
@@ -20155,8 +20093,6 @@ shift
 ;
 }
 hiddenToVisible
-:
-function
 (
 tab
 )
@@ -20207,8 +20143,6 @@ tab
 }
 }
 visibleToHidden
-:
-function
 (
 tab
 )
@@ -20259,8 +20193,6 @@ tab
 }
 }
 willRestoreSoon
-:
-function
 (
 tab
 )
@@ -20390,8 +20322,6 @@ WeakMap
 (
 )
 has
-:
-function
 (
 window
 )
@@ -20408,8 +20338,6 @@ window
 ;
 }
 get
-:
-function
 (
 window
 )
@@ -20426,8 +20354,6 @@ window
 ;
 }
 set
-:
-function
 (
 window
 data
@@ -20445,8 +20371,6 @@ data
 ;
 }
 remove
-:
-function
 (
 window
 )
@@ -20474,8 +20398,6 @@ WeakMap
 (
 )
 has
-:
-function
 (
 window
 )
@@ -20492,8 +20414,6 @@ window
 ;
 }
 add
-:
-function
 (
 window
 )
@@ -20511,8 +20431,6 @@ true
 ;
 }
 remove
-:
-function
 (
 window
 )
@@ -20528,8 +20446,6 @@ window
 ;
 }
 clear
-:
-function
 (
 window
 )
@@ -20567,8 +20483,6 @@ _state
 ;
 }
 getState
-:
-function
 (
 )
 {
@@ -20579,8 +20493,6 @@ _state
 ;
 }
 setState
-:
-function
 (
 state
 )
@@ -20593,8 +20505,6 @@ state
 ;
 }
 clear
-:
-function
 (
 )
 {

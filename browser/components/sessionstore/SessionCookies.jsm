@@ -138,8 +138,6 @@ freeze
 (
 {
 update
-:
-function
 (
 windows
 )
@@ -153,8 +151,6 @@ windows
 ;
 }
 getHostsForWindow
-:
-function
 (
 window
 checkPrivacy
@@ -196,8 +192,6 @@ _initialized
 :
 false
 update
-:
-function
 (
 windows
 )
@@ -280,8 +274,6 @@ cookie
 .
 secure
 isPinned
-:
-isPinned
 }
 )
 )
@@ -329,8 +321,6 @@ cookies
 }
 }
 getHostsForWindow
-:
-function
 (
 window
 checkPrivacy
@@ -510,8 +500,6 @@ originAttributes
 }
 }
 observe
-:
-function
 (
 subject
 topic
@@ -623,8 +611,6 @@ notification
 }
 }
 _ensureInitialized
-:
-function
 (
 )
 {
@@ -666,8 +652,6 @@ false
 }
 }
 _extractHostsFromEntry
-:
-function
 (
 entry
 hosts
@@ -775,8 +759,6 @@ isPinned
 }
 }
 _extractHostsFromHostScheme
-:
-function
 (
 host
 scheme
@@ -824,8 +806,6 @@ scheme
 https
 "
 isPinned
-:
-isPinned
 }
 )
 )
@@ -860,8 +840,6 @@ true
 }
 }
 _updateCookie
-:
-function
 (
 cookie
 )
@@ -902,8 +880,6 @@ cookie
 }
 }
 _removeCookie
-:
-function
 (
 cookie
 )
@@ -934,8 +910,6 @@ cookie
 }
 }
 _removeCookies
-:
-function
 (
 cookies
 )
@@ -976,8 +950,6 @@ nsICookie2
 }
 }
 _reloadCookies
-:
-function
 (
 )
 {
@@ -1088,8 +1060,6 @@ Map
 (
 )
 getCookiesForHost
-:
-function
 (
 host
 )
@@ -1199,8 +1169,6 @@ cookies
 ;
 }
 set
-:
-function
 (
 cookie
 )
@@ -1332,8 +1300,6 @@ jscookie
 ;
 }
 delete
-:
-function
 (
 cookie
 )
@@ -1354,8 +1320,6 @@ name
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -1369,8 +1333,6 @@ clear
 ;
 }
 _ensureMap
-:
-function
 (
 cookie
 )

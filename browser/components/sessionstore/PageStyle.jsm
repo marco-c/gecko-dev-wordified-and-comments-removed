@@ -30,8 +30,6 @@ freeze
 (
 {
 collect
-:
-function
 (
 docShell
 frameTree
@@ -48,8 +46,6 @@ frameTree
 ;
 }
 restoreTree
-:
-function
 (
 docShell
 data
@@ -79,8 +75,6 @@ PageStyleInternal
 =
 {
 collect
-:
-function
 (
 docShell
 frameTree
@@ -185,8 +179,6 @@ null
 ;
 }
 restoreTree
-:
-function
 (
 docShell
 data

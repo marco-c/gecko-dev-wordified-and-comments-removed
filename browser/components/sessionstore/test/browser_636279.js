@@ -444,8 +444,6 @@ TabsProgressListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -470,8 +468,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -501,8 +497,6 @@ unsetCallback
 ;
 }
 setCallback
-:
-function
 (
 callback
 )
@@ -515,8 +509,6 @@ callback
 ;
 }
 unsetCallback
-:
-function
 (
 )
 {
@@ -527,8 +519,6 @@ callback
 ;
 }
 observe
-:
-function
 (
 browser
 topic
@@ -544,8 +534,6 @@ browser
 ;
 }
 onRestored
-:
-function
 (
 browser
 )

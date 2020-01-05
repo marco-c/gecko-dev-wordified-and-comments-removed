@@ -287,8 +287,6 @@ checkNoWindowsGenerator
 1
 )
 checkOSX
-:
-function
 (
 aPreviousState
 aCurState

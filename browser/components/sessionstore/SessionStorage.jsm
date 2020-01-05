@@ -131,8 +131,6 @@ freeze
 (
 {
 collect
-:
-function
 (
 docShell
 frameTree
@@ -149,8 +147,6 @@ frameTree
 ;
 }
 restore
-:
-function
 (
 aDocShell
 aStorageData
@@ -173,8 +169,6 @@ SessionStorageInternal
 =
 {
 collect
-:
-function
 (
 docShell
 frameTree
@@ -310,8 +304,6 @@ null
 ;
 }
 restore
-:
-function
 (
 aDocShell
 aStorageData
@@ -483,8 +475,6 @@ e
 }
 }
 _readEntry
-:
-function
 (
 aPrincipal
 aDocShell

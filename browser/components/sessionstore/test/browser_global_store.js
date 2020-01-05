@@ -113,8 +113,6 @@ triggeringPrincipal_base64
 }
 ]
 global
-:
-global
 }
 ;
 function

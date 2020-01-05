@@ -421,8 +421,6 @@ SessionFile
 =
 {
 read
-:
-function
 (
 )
 {
@@ -435,8 +433,6 @@ read
 ;
 }
 write
-:
-function
 (
 aData
 )
@@ -451,8 +447,6 @@ aData
 ;
 }
 wipe
-:
-function
 (
 )
 {
@@ -923,10 +917,6 @@ origin
 :
 key
 source
-:
-source
-parsed
-:
 parsed
 }
 ;
@@ -1281,8 +1271,6 @@ args
 }
 )
 write
-:
-function
 (
 aData
 )
@@ -1556,8 +1544,6 @@ complete
 ;
 }
 wipe
-:
-function
 (
 )
 {
@@ -1573,8 +1559,6 @@ wipe
 ;
 }
 _recordTelemetry
-:
-function
 (
 telemetry
 )

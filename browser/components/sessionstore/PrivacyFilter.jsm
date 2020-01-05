@@ -75,8 +75,6 @@ freeze
 (
 {
 filterSessionStorageData
-:
-function
 (
 data
 )
@@ -138,8 +136,6 @@ null
 ;
 }
 filterFormData
-:
-function
 (
 data
 )
@@ -280,8 +276,6 @@ null
 ;
 }
 filterPrivateWindowsAndTabs
-:
-function
 (
 browserState
 )
@@ -403,8 +397,6 @@ win
 ;
 }
 filterPrivateTabs
-:
-function
 (
 winState
 )

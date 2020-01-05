@@ -147,8 +147,6 @@ freeze
 (
 {
 update
-:
-function
 (
 browser
 data
@@ -164,8 +162,6 @@ data
 ;
 }
 collect
-:
-function
 (
 tab
 )
@@ -180,8 +176,6 @@ tab
 ;
 }
 clone
-:
-function
 (
 tab
 )
@@ -220,8 +214,6 @@ TabStateInternal
 =
 {
 update
-:
-function
 (
 browser
 {
@@ -239,8 +231,6 @@ data
 ;
 }
 collect
-:
-function
 (
 tab
 )
@@ -255,8 +245,6 @@ tab
 ;
 }
 clone
-:
-function
 (
 tab
 )
@@ -276,8 +264,6 @@ true
 ;
 }
 _collectBaseTabData
-:
-function
 (
 tab
 options
@@ -622,14 +608,9 @@ tabData
 .
 entries
 =
-[
-.
-.
-.
 value
 .
 entries
-]
 ;
 if
 (

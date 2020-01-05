@@ -352,8 +352,6 @@ true
 ;
 }
 write
-:
-function
 (
 state
 options
@@ -1021,14 +1019,10 @@ upgradeBackup
 upgradeBackupComplete
 }
 telemetry
-:
-telemetry
 }
 ;
 }
 wipe
-:
-function
 (
 )
 {
@@ -1177,8 +1171,6 @@ true
 ;
 }
 _wipeFromDir
-:
-function
 (
 path
 prefix
