@@ -1114,9 +1114,7 @@ unused_buffers
 )
 ;
 }
-return
 true
-;
 }
 fn
 clear
