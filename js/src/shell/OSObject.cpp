@@ -405,6 +405,14 @@ scriptFilename
 ;
 if
 (
+resolveMode
+=
+=
+ScriptRelative
+)
+{
+if
+(
 !
 DescribeScriptedCaller
 (
@@ -466,6 +474,7 @@ resolveMode
 =
 RootRelative
 ;
+}
 static
 char
 buffer
