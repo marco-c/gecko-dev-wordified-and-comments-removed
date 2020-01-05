@@ -823,6 +823,11 @@ DirectionalityUtils
 h
 '
 '
+DocGroup
+.
+h
+'
+'
 DocumentFragment
 .
 h
@@ -1144,6 +1149,11 @@ cpp
 '
 '
 DirectionalityUtils
+.
+cpp
+'
+'
+DocGroup
 .
 cpp
 '
