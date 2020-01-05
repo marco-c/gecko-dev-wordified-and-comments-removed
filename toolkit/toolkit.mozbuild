@@ -993,12 +993,6 @@ profiles
 /
 testing
 /
-mozbase
-'
-'
-/
-testing
-/
 modules
 '
 '

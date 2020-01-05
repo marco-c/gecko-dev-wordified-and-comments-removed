@@ -167,6 +167,11 @@ python
 '
 taskcluster
 '
+'
+testing
+/
+mozbase
+'
 ]
 if
 not
