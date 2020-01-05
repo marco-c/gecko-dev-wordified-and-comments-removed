@@ -255,6 +255,12 @@ DrawTarget
 >
 mRefDT
 ;
+RefPtr
+<
+DrawTarget
+>
+mRecordingRefDT
+;
 IntSize
 mSize
 ;
@@ -266,6 +272,10 @@ ifdef
 DEBUG
 bool
 mHasActivePage
+;
+DrawEventRecorder
+*
+mRecorder
 ;
 #
 endif
