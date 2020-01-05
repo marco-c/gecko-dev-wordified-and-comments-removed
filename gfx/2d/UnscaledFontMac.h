@@ -155,10 +155,7 @@ aFont
 uint32_t
 aVariationCount
 const
-ScaledFont
-:
-:
-VariationSetting
+FontVariation
 *
 aVariations
 )
