@@ -4214,6 +4214,16 @@ sAnimationsAPIElementAnimateEnabled
 }
 static
 bool
+GetBoxQuadsEnabled
+(
+)
+{
+return
+sGetBoxQuadsEnabled
+;
+}
+static
+bool
 IsControlledByServiceWorker
 (
 nsIDocument
@@ -6080,6 +6090,10 @@ sAnimationsAPICoreEnabled
 static
 bool
 sAnimationsAPIElementAnimateEnabled
+;
+static
+bool
+sGetBoxQuadsEnabled
 ;
 static
 uint32_t
