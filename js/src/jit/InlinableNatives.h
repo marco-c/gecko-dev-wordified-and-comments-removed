@@ -105,6 +105,11 @@ AtomicsIsLockFree
 \
 _
 (
+IntlIsCollator
+)
+\
+_
+(
 IntlIsPluralRules
 )
 \
