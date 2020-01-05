@@ -75,9 +75,11 @@ text
 TextUtils
 ;
 import
-com
+org
 .
-keepsafe
+mozilla
+.
+gecko
 .
 switchboard
 .

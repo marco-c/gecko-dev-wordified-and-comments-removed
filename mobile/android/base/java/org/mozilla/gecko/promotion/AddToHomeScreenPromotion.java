@@ -52,9 +52,11 @@ util
 Log
 ;
 import
-com
+org
 .
-keepsafe
+mozilla
+.
+gecko
 .
 switchboard
 .

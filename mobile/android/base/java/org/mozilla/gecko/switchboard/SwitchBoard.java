@@ -1,7 +1,9 @@
 package
-com
+org
 .
-keepsafe
+mozilla
+.
+gecko
 .
 switchboard
 ;
@@ -60,13 +62,6 @@ java
 util
 .
 ArrayList
-;
-import
-java
-.
-util
-.
-Iterator
 ;
 import
 java
