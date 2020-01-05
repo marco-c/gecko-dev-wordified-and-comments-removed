@@ -2588,7 +2588,7 @@ reject
 {
 this
 .
-on
+once
 (
 "
 message
@@ -2610,7 +2610,7 @@ msg
 ;
 this
 .
-on
+once
 (
 "
 disconnect
