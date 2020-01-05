@@ -21427,9 +21427,7 @@ uint8_t
 aBorderStyle
 nscolor
 aBorderColor
-const
-nsStyleBackground
-*
+nscolor
 aBGColor
 const
 nsRect
@@ -21971,9 +21969,6 @@ MakeBevelColor
 ridgeGrooveSide
 ridgeGroove
 aBGColor
--
->
-mBackgroundColor
 aBorderColor
 )
 ;
@@ -22169,9 +22164,6 @@ MakeBevelColor
 ridgeGrooveSide
 ridgeGroove
 aBGColor
--
->
-mBackgroundColor
 aBorderColor
 )
 ;
