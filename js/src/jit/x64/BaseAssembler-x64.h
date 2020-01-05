@@ -3784,6 +3784,7 @@ GPReg64Name
 dst
 )
 )
+;
 m_formatter
 .
 oneByteOp64
