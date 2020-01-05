@@ -593,7 +593,7 @@ dispatch
 (
 Actions
 .
-enableFilterOnly
+enableFilterTypeOnly
 (
 item
 .
