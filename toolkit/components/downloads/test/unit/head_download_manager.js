@@ -187,8 +187,6 @@ ios
 newURI
 (
 aObj
-null
-null
 )
 ;
 }

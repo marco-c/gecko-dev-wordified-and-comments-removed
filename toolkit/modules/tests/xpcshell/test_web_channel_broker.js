@@ -78,8 +78,6 @@ io
 newURI
 (
 URL_STRING
-null
-null
 )
 ;
 function

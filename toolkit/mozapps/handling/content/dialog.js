@@ -617,8 +617,6 @@ newURI
 app
 .
 uriTemplate
-null
-null
 )
 ;
 if

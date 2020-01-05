@@ -1752,8 +1752,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 ;
 url
@@ -1800,8 +1798,6 @@ io
 newURI
 (
 referrer
-null
-null
 )
 ;
 if
@@ -1839,8 +1835,6 @@ io
 newURI
 (
 baseURI
-null
-null
 )
 ;
 this

@@ -355,8 +355,6 @@ aForm
 rootElement
 .
 baseURI
-null
-null
 )
 ;
 let

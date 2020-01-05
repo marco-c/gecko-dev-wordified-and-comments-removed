@@ -773,8 +773,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 .
 QueryInterface

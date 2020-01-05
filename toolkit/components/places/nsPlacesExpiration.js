@@ -2851,8 +2851,6 @@ getResultByName
 url
 "
 )
-null
-null
 )
 ;
 let

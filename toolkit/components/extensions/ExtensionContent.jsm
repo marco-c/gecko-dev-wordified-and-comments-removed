@@ -4220,8 +4220,6 @@ newURI
 data
 .
 baseURL
-null
-null
 )
 ;
 this
@@ -4254,8 +4252,6 @@ newURI
 data
 .
 resourceURL
-null
-null
 )
 ;
 if

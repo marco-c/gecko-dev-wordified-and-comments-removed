@@ -340,8 +340,6 @@ io
 newURI
 (
 endpoint
-null
-null
 )
 ;
 if

@@ -198,8 +198,6 @@ http
 "
 +
 origin
-null
-null
 )
 ;
 let
@@ -219,8 +217,6 @@ https
 "
 +
 origin
-null
-null
 )
 ;
 principals

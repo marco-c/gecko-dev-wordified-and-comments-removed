@@ -402,8 +402,6 @@ thereIsNoFileHere
 .
 xhtml
 "
-null
-null
 )
 }
 ]
@@ -978,8 +976,6 @@ releaseNotes
 .
 xhtml
 "
-null
-null
 )
 info
 (
@@ -1737,8 +1733,6 @@ thereIsNoFileHere
 .
 xhtml
 "
-null
-null
 )
 }
 ]

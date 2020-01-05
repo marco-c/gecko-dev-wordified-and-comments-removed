@@ -124,7 +124,6 @@ newURI
 uri
 "
 "
-null
 )
 function
 (

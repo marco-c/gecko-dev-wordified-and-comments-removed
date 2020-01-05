@@ -642,8 +642,6 @@ service
 newURI
 (
 s
-null
-null
 )
 ;
 }

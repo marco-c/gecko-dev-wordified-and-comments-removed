@@ -186,8 +186,6 @@ about
 :
 newtab
 "
-null
-null
 )
 ;
 return
@@ -5119,8 +5117,6 @@ io
 newURI
 (
 url
-null
-null
 )
 .
 asciiHost

@@ -345,8 +345,6 @@ _ioSvc
 newURI
 (
 spec
-null
-null
 )
 ;
 }

@@ -1475,8 +1475,6 @@ http
 "
 +
 fragment
-null
-null
 )
 {
 }
@@ -1550,8 +1548,6 @@ http
 "
 +
 url
-null
-null
 )
 {
 }

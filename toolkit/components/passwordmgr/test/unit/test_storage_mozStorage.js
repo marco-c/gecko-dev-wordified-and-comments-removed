@@ -398,8 +398,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 if

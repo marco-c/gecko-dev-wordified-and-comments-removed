@@ -1765,8 +1765,6 @@ spec
 !
 /
 "
-null
-null
 )
 ;
 if

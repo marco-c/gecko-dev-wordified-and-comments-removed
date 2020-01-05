@@ -665,8 +665,6 @@ newURI
 requestPrincipal
 .
 originNoSuffix
-null
-null
 )
 ;
 if

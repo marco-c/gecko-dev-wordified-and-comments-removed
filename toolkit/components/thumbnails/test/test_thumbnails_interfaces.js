@@ -134,8 +134,6 @@ org
 %
 2F
 "
-null
-null
 )
 ;
 ok
@@ -221,8 +219,6 @@ org
 %
 2F
 "
-null
-null
 )
 ;
 Assert

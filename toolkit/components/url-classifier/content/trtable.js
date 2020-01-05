@@ -487,8 +487,6 @@ ioService_
 newURI
 (
 canonicalized
-null
-null
 )
 ;
 var

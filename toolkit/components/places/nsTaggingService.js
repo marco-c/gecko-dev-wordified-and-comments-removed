@@ -1289,8 +1289,6 @@ stmt
 row
 .
 url
-null
-null
 )
 )
 ;

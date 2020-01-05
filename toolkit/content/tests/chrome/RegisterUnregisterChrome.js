@@ -236,8 +236,6 @@ ioSvc
 newURI
 (
 directory
-null
-null
 )
 .
 QueryInterface
@@ -537,8 +535,6 @@ nsIIOService
 newURI
 (
 chromeURI
-null
-null
 )
 ;
 return

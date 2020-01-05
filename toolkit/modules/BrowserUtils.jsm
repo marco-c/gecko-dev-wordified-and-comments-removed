@@ -555,7 +555,6 @@ spec
 aCPOWURI
 .
 originCharset
-null
 )
 ;
 }

@@ -120,8 +120,6 @@ io
 newURI
 (
 dataUrl
-null
-null
 )
 )
 ;

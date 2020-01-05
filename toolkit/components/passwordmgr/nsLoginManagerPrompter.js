@@ -2595,8 +2595,6 @@ io
 newURI
 (
 aRealmString
-null
-null
 )
 ;
 var
@@ -7404,8 +7402,6 @@ io
 newURI
 (
 aURI
-null
-null
 )
 ;
 }
@@ -7501,8 +7497,6 @@ io
 newURI
 (
 aURIString
-null
-null
 )
 ;
 var

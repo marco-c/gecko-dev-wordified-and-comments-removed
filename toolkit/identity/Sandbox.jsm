@@ -132,8 +132,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 .
 spec

@@ -5337,8 +5337,6 @@ io
 newURI
 (
 uriString
-null
-null
 )
 ;
 if

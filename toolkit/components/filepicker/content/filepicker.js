@@ -1104,8 +1104,6 @@ newURI
 textInput
 .
 value
-null
-null
 )
 ;
 let

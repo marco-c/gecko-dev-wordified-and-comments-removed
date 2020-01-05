@@ -90,8 +90,6 @@ releaseNotes
 .
 xhtml
 "
-null
-null
 )
 }
 {

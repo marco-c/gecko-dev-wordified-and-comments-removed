@@ -614,8 +614,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 do_check_eq
@@ -700,8 +698,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 do_check_eq
@@ -741,8 +737,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 do_check_eq
@@ -782,8 +776,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 do_check_eq

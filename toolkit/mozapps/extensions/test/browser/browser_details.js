@@ -476,8 +476,6 @@ com
 /
 foo
 "
-null
-null
 )
 averageRating
 :
@@ -702,8 +700,6 @@ com
 /
 foo
 "
-null
-null
 )
 updateDate
 :
@@ -12528,8 +12524,6 @@ com
 /
 foo
 "
-null
-null
 )
 averageRating
 :
