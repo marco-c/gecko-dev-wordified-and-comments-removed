@@ -2586,8 +2586,8 @@ getSupportedExtensions
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 let
