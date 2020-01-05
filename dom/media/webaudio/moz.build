@@ -335,6 +335,11 @@ AudioProcessingEvent
 h
 '
 '
+AudioScheduledSourceNode
+.
+h
+'
+'
 BiquadFilterNode
 .
 h
@@ -496,6 +501,11 @@ cpp
 '
 '
 AudioProcessingEvent
+.
+cpp
+'
+'
+AudioScheduledSourceNode
 .
 cpp
 '

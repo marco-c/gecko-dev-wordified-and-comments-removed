@@ -247,6 +247,11 @@ AudioProcessingEvent
 webidl
 '
 '
+AudioScheduledSourceNode
+.
+webidl
+'
+'
 AudioStreamTrack
 .
 webidl
