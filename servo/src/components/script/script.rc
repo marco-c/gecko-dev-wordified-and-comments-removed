@@ -360,6 +360,10 @@ HTMLTableElementBinding
 ;
 pub
 mod
+HTMLTableSectionElementBinding
+;
+pub
+mod
 MouseEventBinding
 ;
 pub
@@ -483,6 +487,10 @@ htmlstyleelement
 pub
 mod
 htmltableelement
+;
+pub
+mod
+htmltablesectionelement
 ;
 pub
 mod
