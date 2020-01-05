@@ -656,11 +656,14 @@ MSG_DEFINEPROPERTY_ON_GSP
 (
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 rv
 .
 MaybeSetPendingException
 (
 aCx
+)
 )
 ;
 return

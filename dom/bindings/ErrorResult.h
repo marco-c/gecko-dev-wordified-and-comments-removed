@@ -660,6 +660,7 @@ return
 rv
 ;
 }
+MOZ_MUST_USE
 bool
 MaybeSetPendingException
 (

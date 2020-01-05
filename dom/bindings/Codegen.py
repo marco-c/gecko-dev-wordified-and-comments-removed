@@ -37480,11 +37480,14 @@ NS_ERROR_UNEXPECTED
 )
 ;
                 
+MOZ_ALWAYS_TRUE
+(
 promiseRv
 .
 MaybeSetPendingException
 (
 cx
+)
 )
 ;
                 

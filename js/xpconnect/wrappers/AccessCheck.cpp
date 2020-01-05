@@ -1568,11 +1568,14 @@ NS_ERROR_DOM_SECURITY_ERR
 message
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 rv
 .
 MaybeSetPendingException
 (
 cx
+)
 )
 ;
 }
