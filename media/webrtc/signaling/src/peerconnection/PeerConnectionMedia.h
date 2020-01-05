@@ -782,7 +782,6 @@ dom
 MediaStreamTrackSource
 (
 aPrincipal
-true
 aLabel
 )
 {

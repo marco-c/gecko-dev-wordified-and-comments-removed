@@ -4983,7 +4983,6 @@ aPeerIdentity
 MediaStreamTrackSource
 (
 aPrincipal
-false
 aLabel
 )
 mListener
@@ -8893,7 +8892,8 @@ mNonE10sParent
 {
 mNonE10sParent
 =
-new
+MakeUnique
+<
 media
 :
 :
@@ -8904,12 +8904,18 @@ media
 :
 NonE10s
 >
+>
 (
+true
 )
 ;
 }
 return
 mNonE10sParent
+.
+get
+(
+)
 ;
 }
 void

@@ -9630,7 +9630,6 @@ aCapturedTrackSource
 GetPrincipal
 (
 )
-true
 nsString
 (
 )
@@ -9903,7 +9902,6 @@ GetCurrentPrincipal
 get
 (
 )
-true
 nsString
 (
 )
