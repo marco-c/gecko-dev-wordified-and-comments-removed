@@ -3576,6 +3576,14 @@ None
 layer_kind
 :
 layer_kind
+subpixel_offset
+:
+Point2D
+:
+:
+zero
+(
+)
 }
 ;
 /
