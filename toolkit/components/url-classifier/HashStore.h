@@ -557,7 +557,7 @@ TableUpdate
 public
 :
 struct
-PrefixString
+PrefixStdString
 {
 private
 :
@@ -573,7 +573,7 @@ mString
 public
 :
 explicit
-PrefixString
+PrefixStdString
 (
 std
 :
@@ -627,9 +627,9 @@ typedef
 nsClassHashtable
 <
 nsUint32HashKey
-PrefixString
+PrefixStdString
 >
-PrefixesStringMap
+PrefixStdStringMap
 ;
 typedef
 nsTArray
@@ -691,7 +691,7 @@ return
 mFullUpdate
 ;
 }
-PrefixesStringMap
+PrefixStdStringMap
 &
 Prefixes
 (
@@ -771,7 +771,7 @@ TAG
 bool
 mFullUpdate
 ;
-PrefixesStringMap
+PrefixStdStringMap
 mPrefixesMap
 ;
 RemovalIndiceArray
