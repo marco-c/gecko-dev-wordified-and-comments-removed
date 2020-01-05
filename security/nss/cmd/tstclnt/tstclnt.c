@@ -5080,6 +5080,14 @@ rv
 SECFailure
 ;
 }
+else
+{
+PORT_SetError
+(
+error
+)
+;
+}
 return
 rv
 ;

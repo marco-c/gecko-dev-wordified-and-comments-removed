@@ -3612,6 +3612,8 @@ release
 +
 global
 :
+CERT_CompareAVA
+;
 PK11_HasAttributeSet
 ;
 ;

@@ -308,5 +308,13 @@ SEC_PKCS12Baggage
 baggage
 )
 ;
+extern
+PRBool
+sec_pkcs12_is_pkcs12_pbe_algorithm
+(
+SECOidTag
+algorithm
+)
+;
 #
 endif

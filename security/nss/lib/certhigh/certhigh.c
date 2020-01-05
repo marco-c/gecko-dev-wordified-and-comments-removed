@@ -942,12 +942,8 @@ loser
 if
 (
 !
-CERT_LIST_END
+CERT_LIST_EMPTY
 (
-CERT_LIST_HEAD
-(
-certList
-)
 certList
 )
 )
