@@ -223,15 +223,6 @@ aDocumentIsEmpty
 override
 ;
 NS_IMETHOD
-GetIsDocumentEditable
-(
-bool
-*
-aIsDocumentEditable
-)
-override
-;
-NS_IMETHOD
 DeleteSelection
 (
 EDirection
@@ -696,11 +687,6 @@ aIsCollapsed
 nsAString
 &
 aResult
-)
-;
-bool
-IsModifiable
-(
 )
 ;
 enum

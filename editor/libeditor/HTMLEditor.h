@@ -386,15 +386,6 @@ aState
 override
 ;
 NS_IMETHOD
-GetIsDocumentEditable
-(
-bool
-*
-aIsDocumentEditable
-)
-override
-;
-NS_IMETHOD
 BeginningOfDocument
 (
 )
@@ -2346,11 +2337,6 @@ insertParentNode
 int32_t
 *
 insertOffset
-)
-;
-bool
-IsModifiable
-(
 )
 ;
 nsresult
