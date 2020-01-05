@@ -92,8 +92,11 @@ mDataMonitor
 nsresult
 res
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+FileBlockCache
+"
 getter_AddRefs
 (
 mThread

@@ -91,8 +91,11 @@ thread
 ;
 do_check_success
 (
-NS_NewThread
+NS_NewNamedThread
 (
+"
+StorageService
+"
 getter_AddRefs
 (
 thread

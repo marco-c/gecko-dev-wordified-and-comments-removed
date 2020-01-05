@@ -12239,10 +12239,14 @@ mInternalIOThread
 )
 {
 nsresult
-res
+rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+DataChannel
+IO
+"
 getter_AddRefs
 (
 mInternalIOThread
@@ -12253,7 +12257,7 @@ if
 (
 NS_FAILED
 (
-res
+rv
 )
 )
 {
