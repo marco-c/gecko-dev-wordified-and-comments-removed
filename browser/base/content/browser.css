@@ -2339,6 +2339,7 @@ webextension
 toolbar
 -
 image
+inherit
 )
 ;
 }
@@ -2390,6 +2391,7 @@ webextension
 menupanel
 -
 image
+inherit
 )
 ;
 }
@@ -2415,6 +2417,7 @@ webextension
 urlbar
 -
 image
+inherit
 )
 ;
 }
@@ -2438,6 +2441,7 @@ webextension
 menuitem
 -
 image
+inherit
 )
 ;
 }
@@ -2477,6 +2481,7 @@ toolbar
 image
 -
 2x
+inherit
 )
 ;
 }
@@ -2530,6 +2535,7 @@ menupanel
 image
 -
 2x
+inherit
 )
 ;
 }
@@ -2557,6 +2563,7 @@ urlbar
 image
 -
 2x
+inherit
 )
 ;
 }
@@ -2582,6 +2589,7 @@ menuitem
 image
 -
 2x
+inherit
 )
 ;
 }
@@ -7235,24 +7243,11 @@ customizing
 true
 ]
 .
-addon
+PanelUI
 -
-banner
+notification
 -
-item
-#
-main
--
-window
-[
-customizing
-=
-true
-]
-.
-panel
--
-banner
+menu
 -
 item
 {

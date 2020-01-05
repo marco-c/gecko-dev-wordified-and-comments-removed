@@ -555,6 +555,7 @@ onMessage
 "
 nextTest
 "
+async
 (
 expecting
 testsRemaining
@@ -584,6 +585,11 @@ page
 action
 ;
 }
+await
+promiseAnimationFrame
+(
+)
+;
 checkDetails
 (
 expecting

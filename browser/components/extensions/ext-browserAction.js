@@ -1918,6 +1918,17 @@ name
 ;
 node
 .
+ownerGlobal
+.
+requestAnimationFrame
+(
+(
+)
+=
+>
+{
+node
+.
 setAttribute
 (
 "
@@ -2146,6 +2157,9 @@ setAttribute
 style
 "
 style
+)
+;
+}
 )
 ;
 }

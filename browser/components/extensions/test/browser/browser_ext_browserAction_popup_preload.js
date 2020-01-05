@@ -837,6 +837,11 @@ disabled
 "
 )
 ;
+yield
+promiseAnimationFrame
+(
+)
+;
 const
 {
 GlobalManager
