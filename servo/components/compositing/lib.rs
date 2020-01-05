@@ -182,13 +182,13 @@ mod
 compositor_layer
 ;
 mod
-scrolling
-;
-mod
 compositor
 ;
 mod
 headless
+;
+mod
+scrolling
 ;
 pub
 mod
