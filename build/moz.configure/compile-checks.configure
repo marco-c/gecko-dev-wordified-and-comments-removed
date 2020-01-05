@@ -265,6 +265,11 @@ None
 when
 =
 None
+onerror
+=
+lambda
+:
+None
 )
 :
 compiler
@@ -298,6 +303,9 @@ check_msg
 when
 =
 when
+onerror
+=
+onerror
 )
 #
 Checks
