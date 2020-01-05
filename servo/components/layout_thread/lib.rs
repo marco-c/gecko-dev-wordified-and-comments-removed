@@ -287,6 +287,7 @@ gfx_traits
 Epoch
 FragmentType
 ScrollPolicy
+ScrollRootId
 StackingContextId
 color
 }
@@ -7905,17 +7906,17 @@ insert
 (
 new_scroll_state
 .
-stacking_context_id
+scroll_root_id
 offset
 )
 ;
 if
 new_scroll_state
 .
-stacking_context_id
+scroll_root_id
 =
 =
-StackingContextId
+ScrollRootId
 :
 :
 root
@@ -7943,7 +7944,7 @@ if
 !
 new_scroll_state
 .
-stacking_context_id
+scroll_root_id
 .
 is_special
 (
@@ -7952,7 +7953,7 @@ is_special
 &
 new_scroll_state
 .
-stacking_context_id
+scroll_root_id
 .
 fragment_type
 (
@@ -7969,7 +7970,7 @@ id
 =
 new_scroll_state
 .
-stacking_context_id
+scroll_root_id
 .
 id
 (

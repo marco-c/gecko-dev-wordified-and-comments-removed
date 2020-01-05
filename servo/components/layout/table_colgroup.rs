@@ -63,6 +63,12 @@ display_list
 StackingContext
 ;
 use
+gfx_traits
+:
+:
+ScrollRootId
+;
+use
 layout_debug
 ;
 use
@@ -460,6 +466,9 @@ _parent
 &
 mut
 StackingContext
+_parent_scroll_root_id
+:
+ScrollRootId
 )
 {
 }

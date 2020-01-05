@@ -205,7 +205,7 @@ use
 gfx_traits
 :
 :
-StackingContextId
+ScrollRootId
 ;
 use
 heapsize
@@ -2295,9 +2295,9 @@ struct
 StackingContextScrollState
 {
 pub
-stacking_context_id
+scroll_root_id
 :
-StackingContextId
+ScrollRootId
 pub
 scroll_offset
 :

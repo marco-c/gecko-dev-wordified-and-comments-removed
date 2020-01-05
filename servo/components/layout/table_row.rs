@@ -97,6 +97,12 @@ use
 gfx_traits
 :
 :
+ScrollRootId
+;
+use
+gfx_traits
+:
+:
 print_tree
 :
 :
@@ -2165,6 +2171,9 @@ parent
 &
 mut
 StackingContext
+parent_scroll_root_id
+:
+ScrollRootId
 )
 {
 self
@@ -2174,6 +2183,7 @@ block_flow
 collect_stacking_contexts
 (
 parent
+parent_scroll_root_id
 )
 ;
 }
