@@ -349,11 +349,6 @@ SurfaceTypes
 .
 h
 '
-'
-TextureGarbageBin
-.
-h
-'
 ]
 if
 CONFIG
@@ -838,11 +833,6 @@ cpp
 '
 '
 SurfaceTypes
-.
-cpp
-'
-'
-TextureGarbageBin
 .
 cpp
 '
