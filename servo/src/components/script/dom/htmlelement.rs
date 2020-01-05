@@ -122,7 +122,7 @@ element
 Element
 :
 :
-new
+new_inherited
 (
 type_id
 tag_name

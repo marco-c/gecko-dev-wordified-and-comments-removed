@@ -100,7 +100,7 @@ element
 CharacterData
 :
 :
-new
+new_inherited
 (
 CommentNodeTypeId
 text

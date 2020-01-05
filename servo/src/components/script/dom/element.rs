@@ -650,7 +650,7 @@ Element
 {
 pub
 fn
-new
+new_inherited
 (
 type_id
 :
@@ -677,7 +677,7 @@ node
 Node
 :
 :
-new
+new_inherited
 (
 ElementNodeTypeId
 (
