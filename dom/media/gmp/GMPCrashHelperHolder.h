@@ -38,12 +38,12 @@ ProtocolUtils
 .
 h
 "
-class
-GMPCrashHelper
-;
 namespace
 mozilla
 {
+class
+GMPCrashHelper
+;
 class
 GMPCrashHelperHolder
 {

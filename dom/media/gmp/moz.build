@@ -388,6 +388,11 @@ GMPContentParent
 h
 '
 '
+GMPCrashHelper
+.
+h
+'
+'
 GMPCrashHelperHolder
 .
 h
@@ -643,6 +648,11 @@ cpp
 '
 '
 GMPContentParent
+.
+cpp
+'
+'
+GMPCrashHelper
 .
 cpp
 '

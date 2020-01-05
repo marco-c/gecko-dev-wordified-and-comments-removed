@@ -150,9 +150,13 @@ GMPVideoEncoderProxy
 class
 GMPVideoHost
 ;
+namespace
+mozilla
+{
 class
 GMPCrashHelper
 ;
+}
 template
 <
 class
@@ -413,6 +417,9 @@ GetNodeIdCallback
 native
 GMPCrashHelperPtr
 (
+mozilla
+:
+:
 GMPCrashHelper
 *
 )
