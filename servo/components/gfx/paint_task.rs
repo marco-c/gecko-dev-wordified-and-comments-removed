@@ -3581,6 +3581,9 @@ let
 matrix
 :
 Matrix4
+<
+AzFloat
+>
 =
 identity
 (

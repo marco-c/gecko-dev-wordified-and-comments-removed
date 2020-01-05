@@ -861,6 +861,10 @@ SideOffsets2D
 <
 T
 >
+Matrix4
+<
+T
+>
 )
 ;
 known_heap_size
@@ -870,7 +874,6 @@ known_heap_size
 Au
 Color
 Cursor
-Matrix4
 )
 ;
 known_heap_size
