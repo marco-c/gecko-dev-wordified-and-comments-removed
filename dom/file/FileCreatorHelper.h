@@ -210,8 +210,6 @@ aWindow
 FileCreatorHelper
 (
 )
-=
-default
 ;
 void
 SendRequest
