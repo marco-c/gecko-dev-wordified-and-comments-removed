@@ -6773,6 +6773,9 @@ AS
 -
 o
 (
+DEFINES
+)
+(
 ASFLAGS
 )
 (
