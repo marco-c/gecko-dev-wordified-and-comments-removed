@@ -13037,7 +13037,7 @@ mDisplay
 StyleDisplay
 :
 :
-Popup
+MozPopup
 )
 {
 newFocus

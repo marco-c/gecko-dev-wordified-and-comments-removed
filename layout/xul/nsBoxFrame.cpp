@@ -5287,7 +5287,7 @@ mozilla
 StyleDisplay
 :
 :
-Popup
+MozPopup
 )
 {
 parent

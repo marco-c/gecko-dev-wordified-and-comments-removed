@@ -11502,7 +11502,7 @@ mozilla
 StyleDisplay
 :
 :
-InlineBox
+MozInlineBox
 =
 =
 aDisplay
@@ -11550,7 +11550,7 @@ mozilla
 StyleDisplay
 :
 :
-InlineXulGrid
+MozInlineGrid
 =
 =
 aDisplay
@@ -11562,7 +11562,7 @@ mozilla
 StyleDisplay
 :
 :
-InlineStack
+MozInlineStack
 =
 =
 aDisplay

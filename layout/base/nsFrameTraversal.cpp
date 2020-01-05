@@ -2030,7 +2030,7 @@ mDisplay
 StyleDisplay
 :
 :
-Popup
+MozPopup
 )
 ;
 }
