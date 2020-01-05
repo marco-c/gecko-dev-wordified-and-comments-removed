@@ -56,7 +56,11 @@ height
 480
 pixelRatio
 :
+{
+value
+:
 0
+}
 }
 ;
 let
@@ -199,6 +203,12 @@ assign
 viewport
 {
 pixelRatio
+:
+{
+value
+:
+pixelRatio
+}
 }
 )
 ;
