@@ -182,10 +182,13 @@ type
 MESSAGE_TYPE
 .
 LOG
+groupId
+:
+null
 timeStamp
 :
 null
-groupId
+totalTime
 :
 null
 }
