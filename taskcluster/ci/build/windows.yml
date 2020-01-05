@@ -586,7 +586,9 @@ taskcluster_firefox_windows_64_opt
 py
 win32
 -
-clang
+st
+-
+an
 /
 debug
 :
@@ -614,7 +616,9 @@ name
 :
 win32
 -
-clang
+st
+-
+an
 -
 debug
 treeherder
@@ -692,7 +696,9 @@ taskcluster_firefox_win32_clang_debug
 py
 win32
 -
-clang
+st
+-
+an
 /
 opt
 :
@@ -720,7 +726,9 @@ name
 :
 win32
 -
-clang
+st
+-
+an
 -
 opt
 treeherder
@@ -798,7 +806,9 @@ taskcluster_firefox_win32_clang
 py
 win64
 -
-clang
+st
+-
+an
 /
 debug
 :
@@ -826,7 +836,9 @@ name
 :
 win64
 -
-clang
+st
+-
+an
 -
 debug
 treeherder
@@ -904,7 +916,9 @@ taskcluster_firefox_win64_clang_debug
 py
 win64
 -
-clang
+st
+-
+an
 /
 opt
 :
@@ -932,7 +946,9 @@ name
 :
 win64
 -
-clang
+st
+-
+an
 -
 opt
 treeherder
