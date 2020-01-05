@@ -1087,6 +1087,17 @@ aHandled
 )
 ;
 nsresult
+MakeBasicBlock
+(
+Selection
+&
+aSelection
+nsIAtom
+&
+aBlockType
+)
+;
+nsresult
 DidMakeBasicBlock
 (
 Selection
