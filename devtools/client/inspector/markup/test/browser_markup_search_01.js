@@ -42,6 +42,7 @@ getContainerForSelector
 em
 "
 inspector
+true
 )
 ;
 ok
