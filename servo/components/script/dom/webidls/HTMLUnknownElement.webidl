@@ -138,14 +138,6 @@ document
 .
 *
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLUnknownElement
 :

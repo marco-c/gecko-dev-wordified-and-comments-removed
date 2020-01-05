@@ -74,14 +74,6 @@ multipage
 /
 #
 htmltimeelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLTimeElement
 :

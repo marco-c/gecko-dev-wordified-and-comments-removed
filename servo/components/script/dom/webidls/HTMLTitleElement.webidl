@@ -74,14 +74,6 @@ multipage
 /
 #
 htmltitleelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLTitleElement
 :

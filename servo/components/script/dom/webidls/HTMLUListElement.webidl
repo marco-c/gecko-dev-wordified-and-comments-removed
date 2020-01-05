@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlulistelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLUListElement
 :

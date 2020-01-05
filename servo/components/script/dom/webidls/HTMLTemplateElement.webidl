@@ -74,14 +74,6 @@ multipage
 /
 #
 htmltemplateelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLTemplateElement
 :
