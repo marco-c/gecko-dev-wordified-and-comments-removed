@@ -10859,7 +10859,9 @@ MediaFormatReader
 :
 Seek
 (
+const
 SeekTarget
+&
 aTarget
 int64_t
 aUnused
@@ -11023,10 +11025,7 @@ __func__
 }
 SetSeekTarget
 (
-Move
-(
 aTarget
-)
 )
 ;
 RefPtr

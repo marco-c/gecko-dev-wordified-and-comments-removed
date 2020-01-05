@@ -120,7 +120,9 @@ SeekPromise
 >
 Seek
 (
+const
 SeekTarget
+&
 aTarget
 int64_t
 aEndTime
