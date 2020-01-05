@@ -4403,6 +4403,11 @@ aParentID
 #
 ifdef
 XP_WIN
+if
+(
+added
+)
+{
 a11y
 :
 :
@@ -4417,6 +4422,7 @@ SetID
 aMsaaID
 )
 ;
+}
 #
 endif
 return
