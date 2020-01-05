@@ -400,10 +400,6 @@ PBackgroundParent
 *
 mBackgroundManager
 ;
-PNeckoParent
-*
-mNeckoManager
-;
 bool
 mIPCOpen
 ;

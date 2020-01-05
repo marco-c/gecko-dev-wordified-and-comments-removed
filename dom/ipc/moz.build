@@ -237,11 +237,6 @@ mozilla
 =
 [
 '
-AppProcessChecker
-.
-h
-'
-'
 ProcessHangMonitor
 .
 h
@@ -261,11 +256,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-AppProcessChecker
-.
-cpp
-'
 '
 ColorPickerParent
 .
