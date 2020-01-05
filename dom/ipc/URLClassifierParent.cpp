@@ -59,6 +59,11 @@ bool
 aSuccess
 )
 {
+*
+aSuccess
+=
+false
+;
 nsresult
 rv
 =
@@ -112,6 +117,11 @@ rv
 aSuccess
 )
 {
+*
+aSuccess
+=
+false
+;
 ClassificationFailed
 (
 )
