@@ -3304,7 +3304,7 @@ if
 virtual
 else
 "
-NS_METHOD
+nsresult
 "
         
 suffix

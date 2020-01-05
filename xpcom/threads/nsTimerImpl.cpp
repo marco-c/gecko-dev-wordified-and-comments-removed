@@ -881,7 +881,7 @@ aType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -918,7 +918,7 @@ name
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -956,7 +956,7 @@ name
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -992,7 +992,7 @@ name
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1052,7 +1052,7 @@ aType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1112,7 +1112,7 @@ aType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1170,7 +1170,7 @@ true
 mGeneration
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1277,7 +1277,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1297,7 +1297,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1318,7 +1318,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1338,7 +1338,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1359,7 +1359,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1405,7 +1405,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :
@@ -1429,7 +1429,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTimerImpl
 :
 :

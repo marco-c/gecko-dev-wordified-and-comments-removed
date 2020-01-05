@@ -71,8 +71,9 @@ struct
 ClassInfoData
 {
 typedef
-NS_CALLBACK
+NS_CALLBACK_
 (
+nsresult
 GetInterfacesProc
 )
 (
