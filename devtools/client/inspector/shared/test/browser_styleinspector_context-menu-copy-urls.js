@@ -491,7 +491,6 @@ property
 =
 getBackgroundImageProperty
 (
-inspector
 view
 selector
 )
@@ -755,7 +754,6 @@ menu
 function
 getBackgroundImageProperty
 (
-inspector
 view
 selector
 )
@@ -764,14 +762,8 @@ let
 isRuleView
 =
 view
-=
-=
-=
-inspector
-.
-ruleview
-.
-view
+instanceof
+CssRuleView
 ;
 if
 (
