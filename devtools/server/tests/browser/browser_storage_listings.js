@@ -2700,7 +2700,7 @@ if
 (
 item
 .
-db
+uniqueKey
 =
 =
 toMatch
@@ -2723,7 +2723,7 @@ db
 +
 item
 .
-db
+uniqueKey
 +
 "
 in
@@ -2773,7 +2773,7 @@ toMatch
 objectStores
 "
 The
-numebr
+number
 of
 object
 stores
@@ -2796,7 +2796,7 @@ db
 +
 item
 .
-name
+uniqueKey
 +
 "
 should
