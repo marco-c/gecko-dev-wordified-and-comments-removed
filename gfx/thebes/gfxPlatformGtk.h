@@ -413,16 +413,6 @@ UseXRender
 }
 #
 endif
-static
-bool
-UseFcFontList
-(
-)
-{
-return
-sUseFcFontList
-;
-}
 bool
 UseImageOffscreenSurfaces
 (
@@ -551,10 +541,6 @@ mCompositorDisplay
 ;
 #
 endif
-static
-bool
-sUseFcFontList
-;
 }
 ;
 #
