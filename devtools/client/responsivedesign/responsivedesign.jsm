@@ -664,6 +664,13 @@ html
 enabled
 "
 )
+&
+&
+Services
+.
+appinfo
+.
+browserTabsRemoteAutostart
 )
 {
 let
