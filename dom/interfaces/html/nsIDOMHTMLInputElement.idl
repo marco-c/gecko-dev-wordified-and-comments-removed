@@ -366,10 +366,6 @@ attribute
 DOMString
 defaultValue
 ;
-attribute
-DOMString
-value
-;
 /
 /
 valustAsDate
@@ -545,11 +541,6 @@ readonly
 attribute
 nsIControllers
 controllers
-;
-readonly
-attribute
-long
-textLength
 ;
 /
 *
