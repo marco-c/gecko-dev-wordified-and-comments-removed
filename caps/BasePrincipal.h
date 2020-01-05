@@ -1238,6 +1238,14 @@ aPrivateBrowsingId
 )
 final
 ;
+bool
+EqualsIgnoringAddonId
+(
+nsIPrincipal
+*
+aOther
+)
+;
 virtual
 bool
 AddonHasPermission
