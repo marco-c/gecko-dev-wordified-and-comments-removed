@@ -8582,6 +8582,10 @@ script
 method
 outputs
 inputs
+                                
+flags
+.
+flags
 )
     
 def
