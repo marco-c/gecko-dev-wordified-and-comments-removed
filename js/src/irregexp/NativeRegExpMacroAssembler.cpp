@@ -108,6 +108,7 @@ registers_to_save
 :
 RegExpMacroAssembler
 (
+cx
 *
 alloc
 shared

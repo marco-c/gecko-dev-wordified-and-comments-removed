@@ -352,6 +352,9 @@ InterpretedRegExpMacroAssembler
 :
 InterpretedRegExpMacroAssembler
 (
+JSContext
+*
+cx
 LifoAlloc
 *
 alloc
@@ -364,6 +367,7 @@ numSavedRegisters
 :
 RegExpMacroAssembler
 (
+cx
 *
 alloc
 shared
