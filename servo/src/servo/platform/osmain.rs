@@ -1,13 +1,3 @@
-export
-OSMain
-;
-export
-Msg
-BeginDrawing
-Draw
-AddKeyHandler
-Exit
-;
 use
 mod
 azure
@@ -128,6 +118,7 @@ pipes
 :
 Chan
 ;
+pub
 type
 OSMain
 =
