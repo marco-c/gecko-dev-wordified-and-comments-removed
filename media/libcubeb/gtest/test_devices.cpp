@@ -598,6 +598,7 @@ Cubeb
 audio
 test
 "
+NULL
 )
 ;
 if

@@ -360,6 +360,7 @@ Cubeb
 record
 example
 "
+NULL
 )
 ;
 if

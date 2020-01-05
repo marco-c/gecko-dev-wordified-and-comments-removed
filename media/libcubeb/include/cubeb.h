@@ -553,6 +553,10 @@ char
 const
 *
 context_name
+char
+const
+*
+backend_name
 )
 ;
 CUBEB_EXPORT

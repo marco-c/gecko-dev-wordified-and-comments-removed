@@ -61,6 +61,7 @@ Cubeb
 audio
 test
 "
+NULL
 )
 ;
 ASSERT_EQ

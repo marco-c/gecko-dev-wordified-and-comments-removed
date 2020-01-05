@@ -109,6 +109,11 @@ cubeb
 c
 '
 '
+cubeb_log
+.
+cpp
+'
+'
 cubeb_mixer
 .
 cpp
