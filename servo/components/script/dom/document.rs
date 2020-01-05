@@ -2601,15 +2601,12 @@ self
 .
 has_browsing_context
 {
-Some
-(
 self
 .
 window
 .
-browsing_context
+maybe_browsing_context
 (
-)
 )
 }
 else
