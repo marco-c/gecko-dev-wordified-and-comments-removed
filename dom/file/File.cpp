@@ -391,7 +391,7 @@ aStream
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mSeekableStream
 "
@@ -485,7 +485,7 @@ _retval
 nsresult
 rv
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aDataOwner
 "
@@ -3113,7 +3113,7 @@ aName
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "
@@ -3143,7 +3143,7 @@ aPath
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "
@@ -3173,7 +3173,7 @@ nsAString
 aPath
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "
@@ -3206,7 +3206,7 @@ aRv
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "
@@ -3348,7 +3348,7 @@ ErrorResult
 aRv
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "
@@ -3738,7 +3738,7 @@ aRv
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "
@@ -3783,7 +3783,7 @@ IsSizeUnknown
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mWholeFile
 "
@@ -3980,7 +3980,7 @@ IsVoid
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mWholeFile
 "
@@ -4157,7 +4157,7 @@ ErrorResult
 aRv
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIsFile
 "

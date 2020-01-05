@@ -1199,7 +1199,7 @@ Length
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mResult
 .
@@ -1273,7 +1273,7 @@ aCount
 bytesRead
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 bytesRead
 =
@@ -1382,7 +1382,7 @@ aCount
 bytesRead
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 bytesRead
 =

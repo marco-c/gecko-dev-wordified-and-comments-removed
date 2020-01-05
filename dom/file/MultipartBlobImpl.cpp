@@ -1612,7 +1612,7 @@ ErrorResult
 aRv
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mImmutable
@@ -1749,7 +1749,7 @@ ErrorResult
 aRv
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mImmutable
