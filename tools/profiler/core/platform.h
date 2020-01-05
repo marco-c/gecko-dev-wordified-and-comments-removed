@@ -1323,6 +1323,17 @@ uint32_t
 aGeneration
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 void
