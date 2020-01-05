@@ -1299,6 +1299,10 @@ get
 (
 )
 parentComputedValues
+InheritTarget
+:
+:
+Text
 )
 .
 Consume
@@ -1370,6 +1374,10 @@ get
 (
 )
 parent
+InheritTarget
+:
+:
+FirstLetterContinuation
 )
 .
 Consume
@@ -1466,6 +1474,10 @@ get
 (
 )
 nullptr
+InheritTarget
+:
+:
+PlaceholderFrame
 )
 .
 Consume

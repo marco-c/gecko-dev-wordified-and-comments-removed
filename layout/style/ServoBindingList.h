@@ -1134,6 +1134,11 @@ RawServoStyleSetBorrowed
 set
 ServoComputedValuesBorrowedOrNull
 parent_style
+mozilla
+:
+:
+InheritTarget
+target
 )
 SERVO_BINDING_FUNC
 (
