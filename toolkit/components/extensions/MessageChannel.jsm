@@ -1051,6 +1051,12 @@ messageManager
 =
 target
 ;
+deferred
+.
+channelId
+=
+channelId
+;
 this
 .
 _addPendingResponse
@@ -1509,6 +1515,11 @@ sender
 messageManager
 :
 target
+channelId
+:
+data
+.
+channelId
 }
 ;
 deferred
