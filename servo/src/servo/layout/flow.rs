@@ -1525,7 +1525,7 @@ bool
 core
 :
 :
-box
+managed
 :
 :
 ptr_eq

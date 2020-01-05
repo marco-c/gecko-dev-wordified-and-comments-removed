@@ -49,6 +49,8 @@ pure
 fn
 add
 (
+&
+self
 other
 :
 &
@@ -60,6 +62,7 @@ Au
 {
 Au
 (
+*
 *
 self
 +
@@ -72,6 +75,8 @@ pure
 fn
 sub
 (
+&
+self
 other
 :
 &
@@ -83,6 +88,7 @@ Au
 {
 Au
 (
+*
 *
 self
 -
@@ -95,6 +101,8 @@ pure
 fn
 mul
 (
+&
+self
 other
 :
 &
@@ -106,6 +114,7 @@ Au
 {
 Au
 (
+*
 *
 self
 *
@@ -118,6 +127,8 @@ pure
 fn
 div
 (
+&
+self
 other
 :
 &
@@ -129,6 +140,7 @@ Au
 {
 Au
 (
+*
 *
 self
 /
@@ -141,6 +153,8 @@ pure
 fn
 modulo
 (
+&
+self
 other
 :
 &
@@ -153,6 +167,7 @@ Au
 Au
 (
 *
+*
 self
 %
 *
@@ -164,6 +179,8 @@ pure
 fn
 neg
 (
+&
+self
 )
 -
 >
@@ -173,6 +190,7 @@ Au
 (
 -
 *
+*
 self
 )
 }
@@ -180,11 +198,14 @@ pure
 fn
 to_int
 (
+&
+self
 )
 -
 >
 int
 {
+*
 *
 self
 as

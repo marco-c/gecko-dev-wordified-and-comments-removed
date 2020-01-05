@@ -1006,7 +1006,7 @@ assert
 core
 :
 :
-box
+managed
 :
 :
 ptr_eq
@@ -1061,11 +1061,10 @@ d2
 )
 =
 >
-{
 core
 :
 :
-box
+managed
 :
 :
 ptr_eq
@@ -1077,7 +1076,6 @@ d2
 .
 run
 )
-}
 (
 _
 _
