@@ -141,6 +141,15 @@ GetImageClientType
 uint64_t
 mExternalImageId
 ;
+Maybe
+<
+wr
+:
+:
+ImageKey
+>
+mKey
+;
 RefPtr
 <
 ImageClient
