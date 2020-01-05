@@ -4421,6 +4421,12 @@ Write
 cx
 response
 transferable
+JS
+:
+:
+CloneDataPolicy
+(
+)
 rv
 )
 ;

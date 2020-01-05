@@ -289,6 +289,11 @@ JS
 Value
 >
 aTransfer
+JS
+:
+:
+CloneDataPolicy
+cloneDataPolicy
 )
 ;
 bool
@@ -482,6 +487,11 @@ JS
 Value
 >
 aTransfer
+JS
+:
+:
+CloneDataPolicy
+cloneDataPolicy
 ErrorResult
 &
 aRv

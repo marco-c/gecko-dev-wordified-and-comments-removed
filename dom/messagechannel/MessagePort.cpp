@@ -2001,6 +2001,16 @@ Write
 aCx
 aMessage
 transferable
+JS
+:
+:
+CloneDataPolicy
+(
+)
+.
+denySharedArrayBuffer
+(
+)
 aRv
 )
 ;
