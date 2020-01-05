@@ -79,10 +79,9 @@ pure
 fn
 eq
 (
-&
-&
 other
 :
+&
 Color
 )
 -
@@ -134,10 +133,9 @@ pure
 fn
 ne
 (
-&
-&
 other
 :
+&
 Color
 )
 -

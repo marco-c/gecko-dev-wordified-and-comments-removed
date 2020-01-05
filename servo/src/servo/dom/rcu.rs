@@ -683,6 +683,7 @@ h
 {
 free_handle
 (
+*
 h
 )
 ;
@@ -1274,7 +1275,7 @@ n
 mut
 T
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1369,7 +1370,7 @@ v
 }
 ;
 return
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1400,7 +1401,7 @@ _x
 <
 -
 *
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1423,7 +1424,7 @@ libc
 :
 free
 (
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1470,7 +1471,7 @@ write_ptr
 )
 !
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1485,7 +1486,7 @@ read_ptr
 {
 free
 (
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1700,7 +1701,7 @@ handle
 .
 set_read_ptr
 (
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1915,7 +1916,7 @@ h
 .
 set_write_ptr
 (
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1997,7 +1998,7 @@ T
 A
 >
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -2055,7 +2056,7 @@ d
 .
 write_ptr
 =
-unsafe
+cast
 :
 :
 reinterpret_cast

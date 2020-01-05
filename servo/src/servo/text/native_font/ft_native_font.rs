@@ -21,7 +21,7 @@ null
 }
 ;
 use
-unsafe
+cast
 :
 :
 reinterpret_cast

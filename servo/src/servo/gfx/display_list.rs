@@ -573,6 +573,7 @@ drawing
 %
 ?
 "
+*
 item
 )
 ;
@@ -580,6 +581,7 @@ item
 .
 draw
 (
+*
 item
 ctx
 )

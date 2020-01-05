@@ -24,10 +24,9 @@ pure
 fn
 eq
 (
-&
-&
 other
 :
+&
 format
 )
 -
@@ -37,6 +36,7 @@ bool
 match
 (
 self
+*
 other
 )
 {
@@ -53,10 +53,9 @@ pure
 fn
 ne
 (
-&
-&
 other
 :
+&
 format
 )
 -

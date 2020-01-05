@@ -380,7 +380,7 @@ img
 >
 ImageReady
 (
-unchecked
+unsafe
 {
 clone_arc
 (
@@ -412,10 +412,9 @@ pure
 fn
 eq
 (
-&
-&
 other
 :
+&
 ImageResponseMsg
 )
 -
@@ -500,10 +499,9 @@ pure
 fn
 ne
 (
-&
-&
 other
 :
+&
 ImageResponseMsg
 )
 -
@@ -957,7 +955,10 @@ each
 handler
 |
 {
+(
+*
 handler
+)
 (
 &
 msg

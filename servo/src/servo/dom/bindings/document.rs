@@ -261,7 +261,7 @@ doc
 *
 Document
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -422,7 +422,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -537,7 +537,7 @@ obj
 0
 )
 ;
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -589,7 +589,7 @@ _doc
 :
 Document
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -791,7 +791,7 @@ libc
 :
 c_void
 =
-unsafe
+cast
 :
 :
 reinterpret_cast

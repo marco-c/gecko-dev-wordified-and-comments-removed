@@ -573,7 +573,7 @@ obj
 0
 )
 ;
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -624,7 +624,7 @@ _
 :
 Window
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -834,7 +834,7 @@ libc
 :
 c_void
 =
-unsafe
+cast
 :
 :
 reinterpret_cast

@@ -163,7 +163,7 @@ str
 from_slice
 ;
 use
-unsafe
+cast
 :
 :
 reinterpret_cast

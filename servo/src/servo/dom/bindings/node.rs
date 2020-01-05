@@ -547,7 +547,7 @@ obj
 0
 )
 ;
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -588,7 +588,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -731,7 +731,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -874,7 +874,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast

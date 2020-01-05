@@ -89,7 +89,7 @@ font_cache
 FontCache
 ;
 use
-unsafe
+cast
 :
 :
 reinterpret_cast

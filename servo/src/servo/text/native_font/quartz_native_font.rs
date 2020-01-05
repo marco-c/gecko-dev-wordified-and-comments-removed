@@ -61,7 +61,7 @@ CGFontRelease
 }
 ;
 use
-unsafe
+cast
 :
 :
 transmute

@@ -77,10 +77,9 @@ pure
 fn
 eq
 (
-&
-&
 other
 :
+&
 CharOrEof
 )
 -
@@ -90,6 +89,7 @@ bool
 match
 (
 self
+*
 other
 )
 {
@@ -140,10 +140,9 @@ pure
 fn
 ne
 (
-&
-&
 other
 :
+&
 CharOrEof
 )
 -

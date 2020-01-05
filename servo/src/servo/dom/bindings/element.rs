@@ -217,7 +217,7 @@ _node
 ~
 NodeBundle
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -613,7 +613,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -795,7 +795,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -886,7 +886,7 @@ offset
 JS_ARGV
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -985,7 +985,7 @@ obj
 JS_THIS_OBJECT
 (
 cx
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -1303,7 +1303,7 @@ libc
 :
 c_void
 =
-unsafe
+cast
 :
 :
 reinterpret_cast

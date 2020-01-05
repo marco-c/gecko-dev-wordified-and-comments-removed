@@ -1266,6 +1266,7 @@ decls
 =
 copy
 *
+*
 sty
 ;
 for
@@ -1281,6 +1282,7 @@ self
 .
 matches_selector
 (
+*
 sel
 )
 {
@@ -1296,6 +1298,7 @@ self
 .
 update_style
 (
+*
 decl
 )
 ;
