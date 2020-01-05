@@ -9425,6 +9425,9 @@ parentNode
 ;
 return
 temp
+&
+&
+temp
 .
 nodeType
 =
