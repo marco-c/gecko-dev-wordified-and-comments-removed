@@ -105,6 +105,10 @@ include
 protocol
 PGMPDecryptor
 ;
+include
+protocol
+PChromiumCDM
+;
 namespace
 mozilla
 {
@@ -124,6 +128,9 @@ PGMPVideoDecoder
 manages
 PGMPVideoEncoder
 ;
+manages
+PChromiumCDM
+;
 child
 :
 async
@@ -140,6 +147,11 @@ aDecryptorId
 ;
 async
 PGMPVideoEncoder
+(
+)
+;
+async
+PChromiumCDM
 (
 )
 ;

@@ -106,6 +106,13 @@ SystemGroup
 .
 h
 "
+#
+include
+"
+GMPCrashHelper
+.
+h
+"
 namespace
 mozilla
 {
