@@ -77,17 +77,6 @@ theme
 dark
 {
 "
-firebug
-:
-"
-:
-root
-.
-theme
--
-firebug
-{
-"
 }
 ;
 function
