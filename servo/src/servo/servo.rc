@@ -77,9 +77,6 @@ use
 std
 ;
 use
-sdl
-;
-use
 azure
 ;
 use
