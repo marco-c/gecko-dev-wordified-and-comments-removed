@@ -6476,7 +6476,6 @@ module
 >
 fixEnvironmentsAfterCompartmentMerge
 (
-cx
 )
 ;
 if
