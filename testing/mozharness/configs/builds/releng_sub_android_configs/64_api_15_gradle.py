@@ -122,6 +122,10 @@ geckoview_example
 :
 assembleWithGeckoBinaries
 '
+         
+'
+uploadArchives
+'
         
 ]
     
