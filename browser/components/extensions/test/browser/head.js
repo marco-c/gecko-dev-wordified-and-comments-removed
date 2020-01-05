@@ -1457,6 +1457,10 @@ function
 closeExtensionContextMenu
 (
 itemToSelect
+modifiers
+=
+{
+}
 )
 {
 let
@@ -1489,8 +1493,7 @@ EventUtils
 synthesizeMouseAtCenter
 (
 itemToSelect
-{
-}
+modifiers
 )
 ;
 yield
