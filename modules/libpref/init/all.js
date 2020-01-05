@@ -704,16 +704,6 @@ pref
 "
 dom
 .
-enable_user_timing
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 performance
 .
 enable_user_timing_logging
