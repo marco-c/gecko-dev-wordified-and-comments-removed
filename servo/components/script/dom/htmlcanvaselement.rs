@@ -1481,15 +1481,8 @@ get
 }
 }
 impl
-<
-'
-a
->
 HTMLCanvasElementMethods
 for
-&
-'
-a
 HTMLCanvasElement
 {
 /
@@ -1517,6 +1510,7 @@ width
 fn
 Width
 (
+&
 self
 )
 -
@@ -1556,6 +1550,7 @@ width
 fn
 SetWidth
 (
+&
 self
 width
 :
@@ -1613,6 +1608,7 @@ height
 fn
 Height
 (
+&
 self
 )
 -
@@ -1652,6 +1648,7 @@ height
 fn
 SetHeight
 (
+&
 self
 height
 :
@@ -1709,6 +1706,7 @@ getcontext
 fn
 GetContext
 (
+&
 self
 cx
 :

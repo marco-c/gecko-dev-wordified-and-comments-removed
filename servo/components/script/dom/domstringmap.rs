@@ -219,20 +219,14 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 DOMStringMapMethods
 for
-&
-'
-a
 DOMStringMap
 {
 fn
 NamedCreator
 (
+&
 self
 name
 :
@@ -256,6 +250,7 @@ value
 fn
 NamedDeleter
 (
+&
 self
 name
 :
@@ -287,6 +282,7 @@ name
 fn
 NamedSetter
 (
+&
 self
 name
 :
@@ -325,6 +321,7 @@ value
 fn
 NamedGetter
 (
+&
 self
 name
 :
@@ -401,6 +398,7 @@ new
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -

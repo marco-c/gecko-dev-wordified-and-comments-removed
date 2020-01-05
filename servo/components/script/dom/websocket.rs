@@ -1726,15 +1726,8 @@ ws
 }
 }
 impl
-<
-'
-a
->
 WebSocketMethods
 for
-&
-'
-a
 WebSocket
 {
 event_handler
@@ -1794,6 +1787,7 @@ url
 fn
 Url
 (
+&
 self
 )
 -
@@ -1833,6 +1827,7 @@ readystate
 fn
 ReadyState
 (
+&
 self
 )
 -
@@ -1874,6 +1869,7 @@ binarytype
 fn
 BinaryType
 (
+&
 self
 )
 -
@@ -1913,6 +1909,7 @@ binarytype
 fn
 SetBinaryType
 (
+&
 self
 btype
 :
@@ -1953,6 +1950,7 @@ send
 fn
 Send
 (
+&
 self
 data
 :
@@ -2220,6 +2218,7 @@ close
 fn
 Close
 (
+&
 self
 code
 :

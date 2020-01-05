@@ -466,15 +466,8 @@ filter
 }
 }
 impl
-<
-'
-a
->
 NodeIteratorMethods
 for
-&
-'
-a
 NodeIterator
 {
 /
@@ -500,6 +493,7 @@ root
 fn
 Root
 (
+&
 self
 )
 -
@@ -540,6 +534,7 @@ whattoshow
 fn
 WhatToShow
 (
+&
 self
 )
 -
@@ -573,6 +568,7 @@ filter
 fn
 GetFilter
 (
+&
 self
 )
 -
@@ -646,6 +642,7 @@ NodeFilter
 fn
 ReferenceNode
 (
+&
 self
 )
 -
@@ -670,6 +667,7 @@ root
 fn
 PointerBeforeReferenceNode
 (
+&
 self
 )
 -
@@ -687,6 +685,7 @@ get
 fn
 NextNode
 (
+&
 self
 )
 -
@@ -900,6 +899,7 @@ None
 fn
 PreviousNode
 (
+&
 self
 )
 -
@@ -1114,6 +1114,7 @@ None
 fn
 Detach
 (
+&
 self
 )
 {

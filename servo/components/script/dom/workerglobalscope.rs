@@ -962,20 +962,14 @@ worker_id
 }
 }
 impl
-<
-'
-a
->
 WorkerGlobalScopeMethods
 for
-&
-'
-a
 WorkerGlobalScope
 {
 fn
 Self_
 (
+&
 self
 )
 -
@@ -996,6 +990,7 @@ self
 fn
 Location
 (
+&
 self
 )
 -
@@ -1034,6 +1029,7 @@ clone
 fn
 ImportScripts
 (
+&
 self
 url_strings
 :
@@ -1248,6 +1244,7 @@ Ok
 fn
 Navigator
 (
+&
 self
 )
 -
@@ -1277,6 +1274,7 @@ self
 fn
 Console
 (
+&
 self
 )
 -
@@ -1312,6 +1310,7 @@ self
 fn
 Crypto
 (
+&
 self
 )
 -
@@ -1347,6 +1346,7 @@ self
 fn
 Btoa
 (
+&
 self
 btoa
 :
@@ -1367,6 +1367,7 @@ btoa
 fn
 Atob
 (
+&
 self
 atob
 :
@@ -1387,6 +1388,7 @@ atob
 fn
 SetTimeout
 (
+&
 self
 _cx
 :
@@ -1446,6 +1448,7 @@ script_chan
 fn
 SetTimeout_
 (
+&
 self
 _cx
 :
@@ -1502,6 +1505,7 @@ script_chan
 fn
 ClearTimeout
 (
+&
 self
 handle
 :
@@ -1521,6 +1525,7 @@ handle
 fn
 SetInterval
 (
+&
 self
 _cx
 :
@@ -1580,6 +1585,7 @@ script_chan
 fn
 SetInterval_
 (
+&
 self
 _cx
 :
@@ -1636,6 +1642,7 @@ script_chan
 fn
 ClearInterval
 (
+&
 self
 handle
 :

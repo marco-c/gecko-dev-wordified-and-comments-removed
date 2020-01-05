@@ -987,15 +987,8 @@ elements
 }
 }
 impl
-<
-'
-a
->
 HTMLElementMethods
 for
-&
-'
-a
 HTMLElement
 {
 /
@@ -1023,6 +1016,7 @@ attribute
 fn
 Style
 (
+&
 self
 )
 -
@@ -1169,6 +1163,7 @@ dataset
 fn
 Dataset
 (
+&
 self
 )
 -
@@ -1218,6 +1213,7 @@ onload
 fn
 GetOnload
 (
+&
 self
 )
 -
@@ -1301,6 +1297,7 @@ onload
 fn
 SetOnload
 (
+&
 self
 listener
 :
@@ -1386,6 +1383,7 @@ click
 fn
 Click
 (
+&
 self
 )
 {
@@ -1507,6 +1505,7 @@ focus
 fn
 Focus
 (
+&
 self
 )
 {
@@ -1622,6 +1621,7 @@ blur
 fn
 Blur
 (
+&
 self
 )
 {
@@ -1752,6 +1752,7 @@ interface
 fn
 GetOffsetParent
 (
+&
 self
 )
 -
@@ -1849,6 +1850,7 @@ interface
 fn
 OffsetTop
 (
+&
 self
 )
 -
@@ -1941,6 +1943,7 @@ interface
 fn
 OffsetLeft
 (
+&
 self
 )
 -
@@ -2033,6 +2036,7 @@ interface
 fn
 OffsetWidth
 (
+&
 self
 )
 -
@@ -2114,6 +2118,7 @@ interface
 fn
 OffsetHeight
 (
+&
 self
 )
 -

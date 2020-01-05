@@ -414,15 +414,8 @@ htmlelement
 }
 }
 impl
-<
-'
-a
->
 HTMLTableCellElementMethods
 for
-&
-'
-a
 HTMLTableCellElement
 {
 make_uint_getter

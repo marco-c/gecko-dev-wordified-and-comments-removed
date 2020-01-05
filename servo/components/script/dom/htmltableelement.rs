@@ -479,15 +479,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLTableElementMethods
 for
-&
-'
-a
 HTMLTableElement
 {
 /
@@ -515,6 +508,7 @@ caption
 fn
 GetCaption
 (
+&
 self
 )
 -
@@ -601,6 +595,7 @@ caption
 fn
 SetCaption
 (
+&
 self
 new_caption
 :
@@ -731,6 +726,7 @@ createcaption
 fn
 CreateCaption
 (
+&
 self
 )
 -
@@ -838,6 +834,7 @@ deletecaption
 fn
 DeleteCaption
 (
+&
 self
 )
 {
@@ -897,6 +894,7 @@ createtbody
 fn
 CreateTBody
 (
+&
 self
 )
 -

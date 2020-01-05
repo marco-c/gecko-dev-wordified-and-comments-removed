@@ -186,20 +186,14 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 WebGLActiveInfoMethods
 for
-&
-'
-a
 WebGLActiveInfo
 {
 fn
 Size
 (
+&
 self
 )
 -
@@ -213,6 +207,7 @@ size
 fn
 Type
 (
+&
 self
 )
 -
@@ -226,6 +221,7 @@ ty
 fn
 Name
 (
+&
 self
 )
 -

@@ -374,20 +374,14 @@ query
 }
 }
 impl
-<
-'
-a
->
 URLSearchParamsMethods
 for
-&
-'
-a
 URLSearchParams
 {
 fn
 Append
 (
+&
 self
 name
 :
@@ -423,6 +417,7 @@ update_steps
 fn
 Delete
 (
+&
 self
 name
 :
@@ -464,6 +459,7 @@ update_steps
 fn
 Get
 (
+&
 self
 name
 :
@@ -535,6 +531,7 @@ next
 fn
 Has
 (
+&
 self
 name
 :
@@ -586,6 +583,7 @@ is_some
 fn
 Set
 (
+&
 self
 name
 :
@@ -716,6 +714,7 @@ update_steps
 fn
 Stringifier
 (
+&
 self
 )
 -

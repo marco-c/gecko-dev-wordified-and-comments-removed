@@ -1666,15 +1666,8 @@ NotSupported
 }
 }
 impl
-<
-'
-a
->
 HTMLIFrameElementMethods
 for
-&
-'
-a
 HTMLIFrameElement
 {
 /
@@ -1702,6 +1695,7 @@ src
 fn
 Src
 (
+&
 self
 )
 -
@@ -1758,6 +1752,7 @@ src
 fn
 SetSrc
 (
+&
 self
 src
 :
@@ -1815,6 +1810,7 @@ sandbox
 fn
 Sandbox
 (
+&
 self
 )
 -
@@ -1871,6 +1867,7 @@ sandbox
 fn
 SetSandbox
 (
+&
 self
 sandbox
 :
@@ -1929,6 +1926,7 @@ contentwindow
 fn
 GetContentWindow
 (
+&
 self
 )
 -
@@ -2065,6 +2063,7 @@ contentdocument
 fn
 GetContentDocument
 (
+&
 self
 )
 -
@@ -2278,6 +2277,7 @@ mozbrowser
 fn
 Mozbrowser
 (
+&
 self
 )
 -
@@ -2356,6 +2356,7 @@ mozbrowser
 fn
 SetMozbrowser
 (
+&
 self
 value
 :
@@ -2436,6 +2437,7 @@ goBack
 fn
 GoBack
 (
+&
 self
 )
 -
@@ -2483,6 +2485,7 @@ goForward
 fn
 GoForward
 (
+&
 self
 )
 -
@@ -2530,6 +2533,7 @@ reload
 fn
 Reload
 (
+&
 self
 _hardReload
 :
@@ -2576,6 +2580,7 @@ stop
 fn
 Stop
 (
+&
 self
 )
 -

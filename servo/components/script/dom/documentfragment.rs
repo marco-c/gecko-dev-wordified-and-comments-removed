@@ -369,20 +369,14 @@ r
 }
 }
 impl
-<
-'
-a
->
 DocumentFragmentMethods
 for
-&
-'
-a
 DocumentFragment
 {
 fn
 Children
 (
+&
 self
 )
 -
@@ -422,6 +416,7 @@ self
 fn
 GetFirstElementChild
 (
+&
 self
 )
 -
@@ -453,6 +448,7 @@ next
 fn
 GetLastElementChild
 (
+&
 self
 )
 -
@@ -492,6 +488,7 @@ next
 fn
 ChildElementCount
 (
+&
 self
 )
 -
@@ -519,6 +516,7 @@ u32
 fn
 Prepend
 (
+&
 self
 nodes
 :
@@ -547,6 +545,7 @@ nodes
 fn
 Append
 (
+&
 self
 nodes
 :
@@ -575,6 +574,7 @@ nodes
 fn
 QuerySelector
 (
+&
 self
 selectors
 :
@@ -614,6 +614,7 @@ selectors
 fn
 QuerySelectorAll
 (
+&
 self
 selectors
 :

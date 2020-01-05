@@ -971,15 +971,8 @@ prefix
 }
 }
 impl
-<
-'
-a
->
 AttrMethods
 for
-&
-'
-a
 Attr
 {
 /
@@ -1005,6 +998,7 @@ localname
 fn
 LocalName
 (
+&
 self
 )
 -
@@ -1048,6 +1042,7 @@ value
 fn
 Value
 (
+&
 self
 )
 -
@@ -1091,6 +1086,7 @@ value
 fn
 SetValue
 (
+&
 self
 value
 :
@@ -1195,6 +1191,7 @@ textcontent
 fn
 TextContent
 (
+&
 self
 )
 -
@@ -1230,6 +1227,7 @@ textcontent
 fn
 SetTextContent
 (
+&
 self
 value
 :
@@ -1266,6 +1264,7 @@ nodevalue
 fn
 NodeValue
 (
+&
 self
 )
 -
@@ -1301,6 +1300,7 @@ nodevalue
 fn
 SetNodeValue
 (
+&
 self
 value
 :
@@ -1337,6 +1337,7 @@ name
 fn
 Name
 (
+&
 self
 )
 -
@@ -1377,6 +1378,7 @@ namespaceuri
 fn
 GetNamespaceURI
 (
+&
 self
 )
 -
@@ -1444,6 +1446,7 @@ prefix
 fn
 GetPrefix
 (
+&
 self
 )
 -
@@ -1502,6 +1505,7 @@ ownerelement
 fn
 GetOwnerElement
 (
+&
 self
 )
 -
@@ -1543,6 +1547,7 @@ specified
 fn
 Specified
 (
+&
 self
 )
 -

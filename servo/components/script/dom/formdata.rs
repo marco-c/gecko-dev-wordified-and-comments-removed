@@ -450,15 +450,8 @@ global
 }
 }
 impl
-<
-'
-a
->
 FormDataMethods
 for
-&
-'
-a
 FormData
 {
 #
@@ -491,6 +484,7 @@ append
 fn
 Append
 (
+&
 self
 name
 :
@@ -611,6 +605,7 @@ append
 fn
 Append_
 (
+&
 self
 name
 :
@@ -712,6 +707,7 @@ delete
 fn
 Delete
 (
+&
 self
 name
 :
@@ -763,6 +759,7 @@ get
 fn
 Get
 (
+&
 self
 name
 :
@@ -905,6 +902,7 @@ has
 fn
 Has
 (
+&
 self
 name
 :
@@ -951,6 +949,7 @@ set
 fn
 Set_
 (
+&
 self
 name
 :
@@ -1015,6 +1014,7 @@ set
 fn
 Set
 (
+&
 self
 name
 :

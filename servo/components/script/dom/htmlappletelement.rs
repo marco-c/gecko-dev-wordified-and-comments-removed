@@ -323,15 +323,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLAppletElementMethods
 for
-&
-'
-a
 HTMLAppletElement
 {
 /

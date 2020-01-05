@@ -457,15 +457,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLButtonElementMethods
 for
-&
-'
-a
 HTMLButtonElement
 {
 /
@@ -493,6 +486,7 @@ validity
 fn
 Validity
 (
+&
 self
 )
 -
@@ -602,6 +596,7 @@ type
 fn
 Type
 (
+&
 self
 )
 -

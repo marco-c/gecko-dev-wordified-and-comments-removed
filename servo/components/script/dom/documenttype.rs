@@ -426,20 +426,14 @@ system_id
 }
 }
 impl
-<
-'
-a
->
 DocumentTypeMethods
 for
-&
-'
-a
 DocumentType
 {
 fn
 Name
 (
+&
 self
 )
 -
@@ -457,6 +451,7 @@ clone
 fn
 PublicId
 (
+&
 self
 )
 -
@@ -474,6 +469,7 @@ clone
 fn
 SystemId
 (
+&
 self
 )
 -
@@ -491,6 +487,7 @@ clone
 fn
 Before
 (
+&
 self
 nodes
 :
@@ -519,6 +516,7 @@ nodes
 fn
 After
 (
+&
 self
 nodes
 :
@@ -547,6 +545,7 @@ nodes
 fn
 ReplaceWith
 (
+&
 self
 nodes
 :
@@ -575,6 +574,7 @@ nodes
 fn
 Remove
 (
+&
 self
 )
 {

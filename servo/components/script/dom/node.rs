@@ -11641,20 +11641,14 @@ prefix
 }
 }
 impl
-<
-'
-a
->
 NodeMethods
 for
-&
-'
-a
 Node
 {
 fn
 NodeType
 (
+&
 self
 )
 -
@@ -11762,6 +11756,7 @@ ELEMENT_NODE
 fn
 NodeName
 (
+&
 self
 )
 -
@@ -11955,6 +11950,7 @@ to_owned
 fn
 BaseURI
 (
+&
 self
 )
 -
@@ -11974,6 +11970,7 @@ URL
 fn
 GetOwnerDocument
 (
+&
 self
 )
 -
@@ -12040,6 +12037,7 @@ None
 fn
 GetParentNode
 (
+&
 self
 )
 -
@@ -12071,6 +12069,7 @@ from_rooted
 fn
 GetParentElement
 (
+&
 self
 )
 -
@@ -12100,6 +12099,7 @@ to_root
 fn
 HasChildNodes
 (
+&
 self
 )
 -
@@ -12121,6 +12121,7 @@ is_some
 fn
 ChildNodes
 (
+&
 self
 )
 -
@@ -12179,6 +12180,7 @@ self
 fn
 GetFirstChild
 (
+&
 self
 )
 -
@@ -12210,6 +12212,7 @@ from_rooted
 fn
 GetLastChild
 (
+&
 self
 )
 -
@@ -12241,6 +12244,7 @@ from_rooted
 fn
 GetPreviousSibling
 (
+&
 self
 )
 -
@@ -12272,6 +12276,7 @@ from_rooted
 fn
 GetNextSibling
 (
+&
 self
 )
 -
@@ -12303,6 +12308,7 @@ from_rooted
 fn
 GetNodeValue
 (
+&
 self
 )
 -
@@ -12335,6 +12341,7 @@ Data
 fn
 SetNodeValue
 (
+&
 self
 val
 :
@@ -12370,6 +12377,7 @@ val
 fn
 GetTextContent
 (
+&
 self
 )
 -
@@ -12477,6 +12485,7 @@ None
 fn
 SetTextContent
 (
+&
 self
 value
 :
@@ -12659,6 +12668,7 @@ Document
 fn
 InsertBefore
 (
+&
 self
 node
 :
@@ -12695,6 +12705,7 @@ child
 fn
 AppendChild
 (
+&
 self
 node
 :
@@ -12724,6 +12735,7 @@ None
 fn
 ReplaceChild
 (
+&
 self
 node
 :
@@ -13430,6 +13442,7 @@ child
 fn
 RemoveChild
 (
+&
 self
 node
 :
@@ -13458,6 +13471,7 @@ self
 fn
 Normalize
 (
+&
 self
 )
 {
@@ -13645,6 +13659,7 @@ None
 fn
 CloneNode
 (
+&
 self
 deep
 :
@@ -13684,6 +13699,7 @@ DoNotCloneChildren
 fn
 IsEqualNode
 (
+&
 self
 maybe_node
 :
@@ -14544,6 +14560,7 @@ node
 fn
 CompareDocumentPosition
 (
+&
 self
 other
 :
@@ -14781,6 +14798,7 @@ unreachable
 fn
 Contains
 (
+&
 self
 maybe_other
 :
@@ -14818,6 +14836,7 @@ other
 fn
 LookupPrefix
 (
+&
 self
 namespace
 :
@@ -14977,6 +14996,7 @@ namespace
 fn
 LookupNamespaceURI
 (
+&
 self
 prefix
 :
@@ -15036,6 +15056,7 @@ prefix
 fn
 IsDefaultNamespace
 (
+&
 self
 namespace
 :

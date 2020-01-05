@@ -169,20 +169,14 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 WorkerNavigatorMethods
 for
-&
-'
-a
 WorkerNavigator
 {
 fn
 Product
 (
+&
 self
 )
 -
@@ -199,6 +193,7 @@ Product
 fn
 TaintEnabled
 (
+&
 self
 )
 -
@@ -215,6 +210,7 @@ TaintEnabled
 fn
 AppName
 (
+&
 self
 )
 -
@@ -231,6 +227,7 @@ AppName
 fn
 AppCodeName
 (
+&
 self
 )
 -
@@ -247,6 +244,7 @@ AppCodeName
 fn
 Platform
 (
+&
 self
 )
 -
@@ -263,6 +261,7 @@ Platform
 fn
 UserAgent
 (
+&
 self
 )
 -
@@ -279,6 +278,7 @@ UserAgent
 fn
 AppVersion
 (
+&
 self
 )
 -

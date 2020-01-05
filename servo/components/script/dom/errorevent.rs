@@ -743,20 +743,14 @@ event
 }
 }
 impl
-<
-'
-a
->
 ErrorEventMethods
 for
-&
-'
-a
 ErrorEvent
 {
 fn
 Lineno
 (
+&
 self
 )
 -
@@ -774,6 +768,7 @@ get
 fn
 Colno
 (
+&
 self
 )
 -
@@ -791,6 +786,7 @@ get
 fn
 Message
 (
+&
 self
 )
 -
@@ -812,6 +808,7 @@ clone
 fn
 Filename
 (
+&
 self
 )
 -
@@ -833,6 +830,7 @@ clone
 fn
 Error
 (
+&
 self
 _cx
 :

@@ -3599,15 +3599,8 @@ to
 idl
 .
 impl
-<
-'
-a
->
 CanvasRenderingContext2DMethods
 for
-&
-'
-a
 CanvasRenderingContext2D
 {
 /
@@ -3637,6 +3630,7 @@ canvas
 fn
 Canvas
 (
+&
 self
 )
 -
@@ -3681,6 +3675,7 @@ save
 fn
 Save
 (
+&
 self
 )
 {
@@ -3757,6 +3752,7 @@ restore
 fn
 Restore
 (
+&
 self
 )
 {
@@ -3850,6 +3846,7 @@ scale
 fn
 Scale
 (
+&
 self
 x
 :
@@ -3947,6 +3944,7 @@ rotate
 fn
 Rotate
 (
+&
 self
 angle
 :
@@ -4079,6 +4077,7 @@ translate
 fn
 Translate
 (
+&
 self
 x
 :
@@ -4176,6 +4175,7 @@ transform
 fn
 Transform
 (
+&
 self
 a
 :
@@ -4332,6 +4332,7 @@ settransform
 fn
 SetTransform
 (
+&
 self
 a
 :
@@ -4469,6 +4470,7 @@ resettransform
 fn
 ResetTransform
 (
+&
 self
 )
 {
@@ -4522,6 +4524,7 @@ globalalpha
 fn
 GlobalAlpha
 (
+&
 self
 )
 -
@@ -4570,6 +4573,7 @@ globalalpha
 fn
 SetGlobalAlpha
 (
+&
 self
 alpha
 :
@@ -4667,6 +4671,7 @@ globalcompositeoperation
 fn
 GlobalCompositeOperation
 (
+&
 self
 )
 -
@@ -4754,6 +4759,7 @@ globalcompositeoperation
 fn
 SetGlobalCompositeOperation
 (
+&
 self
 op_str
 :
@@ -4841,6 +4847,7 @@ fillrect
 fn
 FillRect
 (
+&
 self
 x
 :
@@ -4933,6 +4940,7 @@ clearrect
 fn
 ClearRect
 (
+&
 self
 x
 :
@@ -5025,6 +5033,7 @@ strokerect
 fn
 StrokeRect
 (
+&
 self
 x
 :
@@ -5117,6 +5126,7 @@ beginpath
 fn
 BeginPath
 (
+&
 self
 )
 {
@@ -5170,6 +5180,7 @@ closepath
 fn
 ClosePath
 (
+&
 self
 )
 {
@@ -5223,6 +5234,7 @@ fill
 fn
 Fill
 (
+&
 self
 _
 :
@@ -5292,6 +5304,7 @@ stroke
 fn
 Stroke
 (
+&
 self
 )
 {
@@ -5351,6 +5364,7 @@ clip
 fn
 Clip
 (
+&
 self
 _
 :
@@ -5414,6 +5428,7 @@ drawimage
 fn
 DrawImage
 (
+&
 self
 image
 :
@@ -5500,6 +5515,7 @@ drawimage
 fn
 DrawImage_
 (
+&
 self
 image
 :
@@ -5612,6 +5628,7 @@ drawimage
 fn
 DrawImage__
 (
+&
 self
 image
 :
@@ -5770,6 +5787,7 @@ moveto
 fn
 MoveTo
 (
+&
 self
 x
 :
@@ -5868,6 +5886,7 @@ lineto
 fn
 LineTo
 (
+&
 self
 x
 :
@@ -5966,6 +5985,7 @@ rect
 fn
 Rect
 (
+&
 self
 x
 :
@@ -6098,6 +6118,7 @@ quadraticcurveto
 fn
 QuadraticCurveTo
 (
+&
 self
 cpx
 :
@@ -6228,6 +6249,7 @@ beziercurveto
 fn
 BezierCurveTo
 (
+&
 self
 cp1x
 :
@@ -6390,6 +6412,7 @@ arc
 fn
 Arc
 (
+&
 self
 x
 :
@@ -6552,6 +6575,7 @@ arcto
 fn
 ArcTo
 (
+&
 self
 cp1x
 :
@@ -6714,6 +6738,7 @@ imagesmoothingenabled
 fn
 ImageSmoothingEnabled
 (
+&
 self
 )
 -
@@ -6760,6 +6785,7 @@ imagesmoothingenabled
 fn
 SetImageSmoothingEnabled
 (
+&
 self
 value
 :
@@ -6810,6 +6836,7 @@ strokestyle
 fn
 StrokeStyle
 (
+&
 self
 )
 -
@@ -6920,6 +6947,7 @@ strokestyle
 fn
 SetStrokeStyle
 (
+&
 self
 value
 :
@@ -7121,6 +7149,7 @@ strokestyle
 fn
 FillStyle
 (
+&
 self
 )
 -
@@ -7231,6 +7260,7 @@ strokestyle
 fn
 SetFillStyle
 (
+&
 self
 value
 :
@@ -7460,6 +7490,7 @@ createimagedata
 fn
 CreateImageData
 (
+&
 self
 sw
 :
@@ -7607,6 +7638,7 @@ createimagedata
 fn
 CreateImageData_
 (
+&
 self
 imagedata
 :
@@ -7682,6 +7714,7 @@ getimagedata
 fn
 GetImageData
 (
+&
 self
 sx
 :
@@ -8167,6 +8200,7 @@ putimagedata
 fn
 PutImageData
 (
+&
 self
 imagedata
 :
@@ -8262,6 +8296,7 @@ putimagedata
 fn
 PutImageData_
 (
+&
 self
 imagedata
 :
@@ -8461,6 +8496,7 @@ createlineargradient
 fn
 CreateLinearGradient
 (
+&
 self
 x0
 :
@@ -8565,6 +8601,7 @@ createradialgradient
 fn
 CreateRadialGradient
 (
+&
 self
 x0
 :
@@ -8712,6 +8749,7 @@ createpattern
 fn
 CreatePattern
 (
+&
 self
 image
 :
@@ -9125,6 +9163,7 @@ linewidth
 fn
 LineWidth
 (
+&
 self
 )
 -
@@ -9173,6 +9212,7 @@ linewidth
 fn
 SetLineWidth
 (
+&
 self
 width
 :
@@ -9264,6 +9304,7 @@ linecap
 fn
 LineCap
 (
+&
 self
 )
 -
@@ -9354,6 +9395,7 @@ linecap
 fn
 SetLineCap
 (
+&
 self
 cap_str
 :
@@ -9441,6 +9483,7 @@ linejoin
 fn
 LineJoin
 (
+&
 self
 )
 -
@@ -9531,6 +9574,7 @@ linejoin
 fn
 SetLineJoin
 (
+&
 self
 join_str
 :
@@ -9618,6 +9662,7 @@ miterlimit
 fn
 MiterLimit
 (
+&
 self
 )
 -
@@ -9666,6 +9711,7 @@ miterlimit
 fn
 SetMiterLimit
 (
+&
 self
 limit
 :
@@ -9757,6 +9803,7 @@ shadowoffsetx
 fn
 ShadowOffsetX
 (
+&
 self
 )
 -
@@ -9800,6 +9847,7 @@ shadowoffsetx
 fn
 SetShadowOffsetX
 (
+&
 self
 value
 :
@@ -9895,6 +9943,7 @@ shadowoffsety
 fn
 ShadowOffsetY
 (
+&
 self
 )
 -
@@ -9938,6 +9987,7 @@ shadowoffsety
 fn
 SetShadowOffsetY
 (
+&
 self
 value
 :
@@ -10033,6 +10083,7 @@ shadowblur
 fn
 ShadowBlur
 (
+&
 self
 )
 -
@@ -10076,6 +10127,7 @@ shadowblur
 fn
 SetShadowBlur
 (
+&
 self
 value
 :
@@ -10176,6 +10228,7 @@ shadowcolor
 fn
 ShadowColor
 (
+&
 self
 )
 -
@@ -10243,6 +10296,7 @@ shadowcolor
 fn
 SetShadowColor
 (
+&
 self
 value
 :

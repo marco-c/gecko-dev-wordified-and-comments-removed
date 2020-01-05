@@ -538,20 +538,14 @@ to_owned
 }
 }
 impl
-<
-'
-a
->
 URLMethods
 for
-&
-'
-a
 URL
 {
 fn
 Hash
 (
+&
 self
 )
 -
@@ -572,6 +566,7 @@ url
 fn
 Host
 (
+&
 self
 )
 -
@@ -592,6 +587,7 @@ url
 fn
 Hostname
 (
+&
 self
 )
 -
@@ -612,6 +608,7 @@ url
 fn
 Href
 (
+&
 self
 )
 -
@@ -632,6 +629,7 @@ url
 fn
 Password
 (
+&
 self
 )
 -
@@ -652,6 +650,7 @@ url
 fn
 Pathname
 (
+&
 self
 )
 -
@@ -672,6 +671,7 @@ url
 fn
 Port
 (
+&
 self
 )
 -
@@ -692,6 +692,7 @@ url
 fn
 Protocol
 (
+&
 self
 )
 -
@@ -712,6 +713,7 @@ url
 fn
 Search
 (
+&
 self
 )
 -
@@ -732,6 +734,7 @@ url
 fn
 Stringifier
 (
+&
 self
 )
 -
@@ -749,6 +752,7 @@ Href
 fn
 Username
 (
+&
 self
 )
 -

@@ -197,20 +197,14 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 FileListMethods
 for
-&
-'
-a
 FileList
 {
 fn
 Length
 (
+&
 self
 )
 -
@@ -230,6 +224,7 @@ u32
 fn
 Item
 (
+&
 self
 index
 :
@@ -264,6 +259,7 @@ root
 fn
 IndexedGetter
 (
+&
 self
 index
 :

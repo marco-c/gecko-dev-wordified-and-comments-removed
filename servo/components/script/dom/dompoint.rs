@@ -239,20 +239,14 @@ w
 }
 }
 impl
-<
-'
-a
->
 DOMPointMethods
 for
-&
-'
-a
 DOMPoint
 {
 fn
 X
 (
+&
 self
 )
 -
@@ -270,6 +264,7 @@ X
 fn
 SetX
 (
+&
 self
 value
 :
@@ -289,6 +284,7 @@ value
 fn
 Y
 (
+&
 self
 )
 -
@@ -306,6 +302,7 @@ Y
 fn
 SetY
 (
+&
 self
 value
 :
@@ -325,6 +322,7 @@ value
 fn
 Z
 (
+&
 self
 )
 -
@@ -342,6 +340,7 @@ Z
 fn
 SetZ
 (
+&
 self
 value
 :
@@ -361,6 +360,7 @@ value
 fn
 W
 (
+&
 self
 )
 -
@@ -378,6 +378,7 @@ W
 fn
 SetW
 (
+&
 self
 value
 :

@@ -50,20 +50,14 @@ reflector_
 Reflector
 }
 impl
-<
-'
-a
->
 TestBindingProxyMethods
 for
-&
-'
-a
 TestBindingProxy
 {
 fn
 Length
 (
+&
 self
 )
 -
@@ -75,6 +69,7 @@ u32
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -
@@ -92,6 +87,7 @@ vec
 fn
 GetNamedItem
 (
+&
 self
 _
 :
@@ -111,6 +107,7 @@ to_owned
 fn
 SetNamedItem
 (
+&
 self
 _
 :
@@ -128,6 +125,7 @@ DOMString
 fn
 GetItem
 (
+&
 self
 _
 :
@@ -147,6 +145,7 @@ to_owned
 fn
 SetItem
 (
+&
 self
 _
 :
@@ -164,6 +163,7 @@ DOMString
 fn
 RemoveItem
 (
+&
 self
 _
 :
@@ -178,6 +178,7 @@ DOMString
 fn
 Stringifier
 (
+&
 self
 )
 -
@@ -194,6 +195,7 @@ to_owned
 fn
 NamedCreator
 (
+&
 self
 _
 :
@@ -211,6 +213,7 @@ DOMString
 fn
 IndexedGetter
 (
+&
 self
 _
 :
@@ -235,6 +238,7 @@ to_owned
 fn
 NamedDeleter
 (
+&
 self
 _
 :
@@ -249,6 +253,7 @@ DOMString
 fn
 IndexedSetter
 (
+&
 self
 _
 :
@@ -266,6 +271,7 @@ DOMString
 fn
 NamedSetter
 (
+&
 self
 _
 :
@@ -283,6 +289,7 @@ DOMString
 fn
 IndexedCreator
 (
+&
 self
 _
 :
@@ -300,6 +307,7 @@ DOMString
 fn
 NamedGetter
 (
+&
 self
 _
 :

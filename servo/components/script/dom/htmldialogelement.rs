@@ -325,15 +325,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLDialogElementMethods
 for
-&
-'
-a
 HTMLDialogElement
 {
 /
@@ -398,6 +391,7 @@ open
 fn
 ReturnValue
 (
+&
 self
 )
 -
@@ -424,6 +418,7 @@ clone
 fn
 SetReturnValue
 (
+&
 self
 return_value
 :

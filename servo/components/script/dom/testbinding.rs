@@ -321,20 +321,14 @@ global
 GlobalField
 }
 impl
-<
-'
-a
->
 TestBindingMethods
 for
-&
-'
-a
 TestBinding
 {
 fn
 BooleanAttribute
 (
+&
 self
 )
 -
@@ -346,6 +340,7 @@ false
 fn
 SetBooleanAttribute
 (
+&
 self
 _
 :
@@ -356,6 +351,7 @@ bool
 fn
 ByteAttribute
 (
+&
 self
 )
 -
@@ -367,6 +363,7 @@ i8
 fn
 SetByteAttribute
 (
+&
 self
 _
 :
@@ -377,6 +374,7 @@ i8
 fn
 OctetAttribute
 (
+&
 self
 )
 -
@@ -388,6 +386,7 @@ u8
 fn
 SetOctetAttribute
 (
+&
 self
 _
 :
@@ -398,6 +397,7 @@ u8
 fn
 ShortAttribute
 (
+&
 self
 )
 -
@@ -409,6 +409,7 @@ i16
 fn
 SetShortAttribute
 (
+&
 self
 _
 :
@@ -419,6 +420,7 @@ i16
 fn
 UnsignedShortAttribute
 (
+&
 self
 )
 -
@@ -430,6 +432,7 @@ u16
 fn
 SetUnsignedShortAttribute
 (
+&
 self
 _
 :
@@ -440,6 +443,7 @@ u16
 fn
 LongAttribute
 (
+&
 self
 )
 -
@@ -451,6 +455,7 @@ i32
 fn
 SetLongAttribute
 (
+&
 self
 _
 :
@@ -461,6 +466,7 @@ i32
 fn
 UnsignedLongAttribute
 (
+&
 self
 )
 -
@@ -472,6 +478,7 @@ u32
 fn
 SetUnsignedLongAttribute
 (
+&
 self
 _
 :
@@ -482,6 +489,7 @@ u32
 fn
 LongLongAttribute
 (
+&
 self
 )
 -
@@ -493,6 +501,7 @@ i64
 fn
 SetLongLongAttribute
 (
+&
 self
 _
 :
@@ -503,6 +512,7 @@ i64
 fn
 UnsignedLongLongAttribute
 (
+&
 self
 )
 -
@@ -514,6 +524,7 @@ u64
 fn
 SetUnsignedLongLongAttribute
 (
+&
 self
 _
 :
@@ -524,6 +535,7 @@ u64
 fn
 UnrestrictedFloatAttribute
 (
+&
 self
 )
 -
@@ -536,6 +548,7 @@ f32
 fn
 SetUnrestrictedFloatAttribute
 (
+&
 self
 _
 :
@@ -546,6 +559,7 @@ f32
 fn
 FloatAttribute
 (
+&
 self
 )
 -
@@ -567,6 +581,7 @@ wrap
 fn
 SetFloatAttribute
 (
+&
 self
 _
 :
@@ -580,6 +595,7 @@ f32
 fn
 UnrestrictedDoubleAttribute
 (
+&
 self
 )
 -
@@ -592,6 +608,7 @@ f64
 fn
 SetUnrestrictedDoubleAttribute
 (
+&
 self
 _
 :
@@ -602,6 +619,7 @@ f64
 fn
 DoubleAttribute
 (
+&
 self
 )
 -
@@ -623,6 +641,7 @@ wrap
 fn
 SetDoubleAttribute
 (
+&
 self
 _
 :
@@ -636,6 +655,7 @@ f64
 fn
 StringAttribute
 (
+&
 self
 )
 -
@@ -652,6 +672,7 @@ to_owned
 fn
 SetStringAttribute
 (
+&
 self
 _
 :
@@ -662,6 +683,7 @@ DOMString
 fn
 UsvstringAttribute
 (
+&
 self
 )
 -
@@ -681,6 +703,7 @@ to_owned
 fn
 SetUsvstringAttribute
 (
+&
 self
 _
 :
@@ -691,6 +714,7 @@ USVString
 fn
 ByteStringAttribute
 (
+&
 self
 )
 -
@@ -711,6 +735,7 @@ vec
 fn
 SetByteStringAttribute
 (
+&
 self
 _
 :
@@ -721,6 +746,7 @@ ByteString
 fn
 EnumAttribute
 (
+&
 self
 )
 -
@@ -732,6 +758,7 @@ _empty
 fn
 SetEnumAttribute
 (
+&
 self
 _
 :
@@ -742,6 +769,7 @@ TestEnum
 fn
 InterfaceAttribute
 (
+&
 self
 )
 -
@@ -780,6 +808,7 @@ None
 fn
 SetInterfaceAttribute
 (
+&
 self
 _
 :
@@ -791,6 +820,7 @@ Blob
 fn
 UnionAttribute
 (
+&
 self
 )
 -
@@ -805,6 +835,7 @@ eLong
 fn
 SetUnionAttribute
 (
+&
 self
 _
 :
@@ -815,6 +846,7 @@ HTMLElementOrLong
 fn
 Union2Attribute
 (
+&
 self
 )
 -
@@ -834,6 +866,7 @@ to_owned
 fn
 SetUnion2Attribute
 (
+&
 self
 _
 :
@@ -844,6 +877,7 @@ EventOrString
 fn
 ArrayAttribute
 (
+&
 self
 _
 :
@@ -868,6 +902,7 @@ to_object_or_null
 fn
 AnyAttribute
 (
+&
 self
 _
 :
@@ -886,6 +921,7 @@ NullValue
 fn
 SetAnyAttribute
 (
+&
 self
 _
 :
@@ -901,6 +937,7 @@ HandleValue
 fn
 ObjectAttribute
 (
+&
 self
 _
 :
@@ -922,6 +959,7 @@ panic
 fn
 SetObjectAttribute
 (
+&
 self
 _
 :
@@ -939,6 +977,7 @@ JSObject
 fn
 GetBooleanAttributeNullable
 (
+&
 self
 )
 -
@@ -956,6 +995,7 @@ false
 fn
 SetBooleanAttributeNullable
 (
+&
 self
 _
 :
@@ -969,6 +1009,7 @@ bool
 fn
 GetByteAttributeNullable
 (
+&
 self
 )
 -
@@ -986,6 +1027,7 @@ Some
 fn
 SetByteAttributeNullable
 (
+&
 self
 _
 :
@@ -999,6 +1041,7 @@ i8
 fn
 GetOctetAttributeNullable
 (
+&
 self
 )
 -
@@ -1016,6 +1059,7 @@ Some
 fn
 SetOctetAttributeNullable
 (
+&
 self
 _
 :
@@ -1029,6 +1073,7 @@ u8
 fn
 GetShortAttributeNullable
 (
+&
 self
 )
 -
@@ -1046,6 +1091,7 @@ Some
 fn
 SetShortAttributeNullable
 (
+&
 self
 _
 :
@@ -1059,6 +1105,7 @@ i16
 fn
 GetUnsignedShortAttributeNullable
 (
+&
 self
 )
 -
@@ -1076,6 +1123,7 @@ Some
 fn
 SetUnsignedShortAttributeNullable
 (
+&
 self
 _
 :
@@ -1089,6 +1137,7 @@ u16
 fn
 GetLongAttributeNullable
 (
+&
 self
 )
 -
@@ -1106,6 +1155,7 @@ Some
 fn
 SetLongAttributeNullable
 (
+&
 self
 _
 :
@@ -1119,6 +1169,7 @@ i32
 fn
 GetUnsignedLongAttributeNullable
 (
+&
 self
 )
 -
@@ -1136,6 +1187,7 @@ Some
 fn
 SetUnsignedLongAttributeNullable
 (
+&
 self
 _
 :
@@ -1149,6 +1201,7 @@ u32
 fn
 GetLongLongAttributeNullable
 (
+&
 self
 )
 -
@@ -1166,6 +1219,7 @@ Some
 fn
 SetLongLongAttributeNullable
 (
+&
 self
 _
 :
@@ -1179,6 +1233,7 @@ i64
 fn
 GetUnsignedLongLongAttributeNullable
 (
+&
 self
 )
 -
@@ -1196,6 +1251,7 @@ Some
 fn
 SetUnsignedLongLongAttributeNullable
 (
+&
 self
 _
 :
@@ -1209,6 +1265,7 @@ u64
 fn
 GetUnrestrictedFloatAttributeNullable
 (
+&
 self
 )
 -
@@ -1227,6 +1284,7 @@ Some
 fn
 SetUnrestrictedFloatAttributeNullable
 (
+&
 self
 _
 :
@@ -1240,6 +1298,7 @@ f32
 fn
 GetFloatAttributeNullable
 (
+&
 self
 )
 -
@@ -1267,6 +1326,7 @@ wrap
 fn
 SetFloatAttributeNullable
 (
+&
 self
 _
 :
@@ -1283,6 +1343,7 @@ f32
 fn
 GetUnrestrictedDoubleAttributeNullable
 (
+&
 self
 )
 -
@@ -1301,6 +1362,7 @@ Some
 fn
 SetUnrestrictedDoubleAttributeNullable
 (
+&
 self
 _
 :
@@ -1314,6 +1376,7 @@ f64
 fn
 GetDoubleAttributeNullable
 (
+&
 self
 )
 -
@@ -1341,6 +1404,7 @@ wrap
 fn
 SetDoubleAttributeNullable
 (
+&
 self
 _
 :
@@ -1357,6 +1421,7 @@ f64
 fn
 GetByteStringAttributeNullable
 (
+&
 self
 )
 -
@@ -1383,6 +1448,7 @@ vec
 fn
 SetByteStringAttributeNullable
 (
+&
 self
 _
 :
@@ -1396,6 +1462,7 @@ ByteString
 fn
 GetStringAttributeNullable
 (
+&
 self
 )
 -
@@ -1418,6 +1485,7 @@ to_owned
 fn
 SetStringAttributeNullable
 (
+&
 self
 _
 :
@@ -1431,6 +1499,7 @@ DOMString
 fn
 GetUsvstringAttributeNullable
 (
+&
 self
 )
 -
@@ -1456,6 +1525,7 @@ to_owned
 fn
 SetUsvstringAttributeNullable
 (
+&
 self
 _
 :
@@ -1469,6 +1539,7 @@ USVString
 fn
 SetBinaryRenamedAttribute
 (
+&
 self
 _
 :
@@ -1479,6 +1550,7 @@ DOMString
 fn
 ForwardedAttribute
 (
+&
 self
 )
 -
@@ -1499,6 +1571,7 @@ self
 fn
 BinaryRenamedAttribute
 (
+&
 self
 )
 -
@@ -1515,6 +1588,7 @@ to_owned
 fn
 GetEnumAttributeNullable
 (
+&
 self
 )
 -
@@ -1532,6 +1606,7 @@ _empty
 fn
 GetInterfaceAttributeNullable
 (
+&
 self
 )
 -
@@ -1576,6 +1651,7 @@ None
 fn
 SetInterfaceAttributeNullable
 (
+&
 self
 _
 :
@@ -1590,6 +1666,7 @@ Blob
 fn
 GetObjectAttributeNullable
 (
+&
 self
 _
 :
@@ -1613,6 +1690,7 @@ null_mut
 fn
 SetObjectAttributeNullable
 (
+&
 self
 _
 :
@@ -1630,6 +1708,7 @@ JSObject
 fn
 GetUnionAttributeNullable
 (
+&
 self
 )
 -
@@ -1650,6 +1729,7 @@ eLong
 fn
 SetUnionAttributeNullable
 (
+&
 self
 _
 :
@@ -1663,6 +1743,7 @@ HTMLElementOrLong
 fn
 GetUnion2AttributeNullable
 (
+&
 self
 )
 -
@@ -1688,6 +1769,7 @@ to_owned
 fn
 SetUnion2AttributeNullable
 (
+&
 self
 _
 :
@@ -1701,6 +1783,7 @@ EventOrString
 fn
 BinaryRenamedMethod
 (
+&
 self
 )
 -
@@ -1712,6 +1795,7 @@ self
 fn
 ReceiveVoid
 (
+&
 self
 )
 -
@@ -1723,6 +1807,7 @@ self
 fn
 ReceiveBoolean
 (
+&
 self
 )
 -
@@ -1734,6 +1819,7 @@ false
 fn
 ReceiveByte
 (
+&
 self
 )
 -
@@ -1745,6 +1831,7 @@ i8
 fn
 ReceiveOctet
 (
+&
 self
 )
 -
@@ -1756,6 +1843,7 @@ u8
 fn
 ReceiveShort
 (
+&
 self
 )
 -
@@ -1767,6 +1855,7 @@ i16
 fn
 ReceiveUnsignedShort
 (
+&
 self
 )
 -
@@ -1778,6 +1867,7 @@ u16
 fn
 ReceiveLong
 (
+&
 self
 )
 -
@@ -1789,6 +1879,7 @@ i32
 fn
 ReceiveUnsignedLong
 (
+&
 self
 )
 -
@@ -1800,6 +1891,7 @@ u32
 fn
 ReceiveLongLong
 (
+&
 self
 )
 -
@@ -1811,6 +1903,7 @@ i64
 fn
 ReceiveUnsignedLongLong
 (
+&
 self
 )
 -
@@ -1822,6 +1915,7 @@ u64
 fn
 ReceiveUnrestrictedFloat
 (
+&
 self
 )
 -
@@ -1834,6 +1928,7 @@ f32
 fn
 ReceiveFloat
 (
+&
 self
 )
 -
@@ -1855,6 +1950,7 @@ wrap
 fn
 ReceiveUnrestrictedDouble
 (
+&
 self
 )
 -
@@ -1867,6 +1963,7 @@ f64
 fn
 ReceiveDouble
 (
+&
 self
 )
 -
@@ -1888,6 +1985,7 @@ wrap
 fn
 ReceiveString
 (
+&
 self
 )
 -
@@ -1904,6 +2002,7 @@ to_owned
 fn
 ReceiveUsvstring
 (
+&
 self
 )
 -
@@ -1923,6 +2022,7 @@ to_owned
 fn
 ReceiveByteString
 (
+&
 self
 )
 -
@@ -1943,6 +2043,7 @@ vec
 fn
 ReceiveEnum
 (
+&
 self
 )
 -
@@ -1954,6 +2055,7 @@ _empty
 fn
 ReceiveInterface
 (
+&
 self
 )
 -
@@ -1992,6 +2094,7 @@ None
 fn
 ReceiveAny
 (
+&
 self
 _
 :
@@ -2010,6 +2113,7 @@ NullValue
 fn
 ReceiveObject
 (
+&
 self
 _
 :
@@ -2031,6 +2135,7 @@ panic
 fn
 ReceiveUnion
 (
+&
 self
 )
 -
@@ -2045,6 +2150,7 @@ eLong
 fn
 ReceiveUnion2
 (
+&
 self
 )
 -
@@ -2064,6 +2170,7 @@ to_owned
 fn
 ReceiveNullableBoolean
 (
+&
 self
 )
 -
@@ -2081,6 +2188,7 @@ false
 fn
 ReceiveNullableByte
 (
+&
 self
 )
 -
@@ -2098,6 +2206,7 @@ Some
 fn
 ReceiveNullableOctet
 (
+&
 self
 )
 -
@@ -2115,6 +2224,7 @@ Some
 fn
 ReceiveNullableShort
 (
+&
 self
 )
 -
@@ -2132,6 +2242,7 @@ Some
 fn
 ReceiveNullableUnsignedShort
 (
+&
 self
 )
 -
@@ -2149,6 +2260,7 @@ Some
 fn
 ReceiveNullableLong
 (
+&
 self
 )
 -
@@ -2166,6 +2278,7 @@ Some
 fn
 ReceiveNullableUnsignedLong
 (
+&
 self
 )
 -
@@ -2183,6 +2296,7 @@ Some
 fn
 ReceiveNullableLongLong
 (
+&
 self
 )
 -
@@ -2200,6 +2314,7 @@ Some
 fn
 ReceiveNullableUnsignedLongLong
 (
+&
 self
 )
 -
@@ -2217,6 +2332,7 @@ Some
 fn
 ReceiveNullableUnrestrictedFloat
 (
+&
 self
 )
 -
@@ -2235,6 +2351,7 @@ Some
 fn
 ReceiveNullableFloat
 (
+&
 self
 )
 -
@@ -2262,6 +2379,7 @@ wrap
 fn
 ReceiveNullableUnrestrictedDouble
 (
+&
 self
 )
 -
@@ -2280,6 +2398,7 @@ Some
 fn
 ReceiveNullableDouble
 (
+&
 self
 )
 -
@@ -2307,6 +2426,7 @@ wrap
 fn
 ReceiveNullableString
 (
+&
 self
 )
 -
@@ -2329,6 +2449,7 @@ to_owned
 fn
 ReceiveNullableUsvstring
 (
+&
 self
 )
 -
@@ -2354,6 +2475,7 @@ to_owned
 fn
 ReceiveNullableByteString
 (
+&
 self
 )
 -
@@ -2380,6 +2502,7 @@ vec
 fn
 ReceiveNullableEnum
 (
+&
 self
 )
 -
@@ -2397,6 +2520,7 @@ _empty
 fn
 ReceiveNullableInterface
 (
+&
 self
 )
 -
@@ -2441,6 +2565,7 @@ None
 fn
 ReceiveNullableObject
 (
+&
 self
 _
 :
@@ -2464,6 +2589,7 @@ null_mut
 fn
 ReceiveNullableUnion
 (
+&
 self
 )
 -
@@ -2484,6 +2610,7 @@ eLong
 fn
 ReceiveNullableUnion2
 (
+&
 self
 )
 -
@@ -2509,6 +2636,7 @@ to_owned
 fn
 PassBoolean
 (
+&
 self
 _
 :
@@ -2519,6 +2647,7 @@ bool
 fn
 PassByte
 (
+&
 self
 _
 :
@@ -2529,6 +2658,7 @@ i8
 fn
 PassOctet
 (
+&
 self
 _
 :
@@ -2539,6 +2669,7 @@ u8
 fn
 PassShort
 (
+&
 self
 _
 :
@@ -2549,6 +2680,7 @@ i16
 fn
 PassUnsignedShort
 (
+&
 self
 _
 :
@@ -2559,6 +2691,7 @@ u16
 fn
 PassLong
 (
+&
 self
 _
 :
@@ -2569,6 +2702,7 @@ i32
 fn
 PassUnsignedLong
 (
+&
 self
 _
 :
@@ -2579,6 +2713,7 @@ u32
 fn
 PassLongLong
 (
+&
 self
 _
 :
@@ -2589,6 +2724,7 @@ i64
 fn
 PassUnsignedLongLong
 (
+&
 self
 _
 :
@@ -2599,6 +2735,7 @@ u64
 fn
 PassUnrestrictedFloat
 (
+&
 self
 _
 :
@@ -2609,6 +2746,7 @@ f32
 fn
 PassFloat
 (
+&
 self
 _
 :
@@ -2622,6 +2760,7 @@ f32
 fn
 PassUnrestrictedDouble
 (
+&
 self
 _
 :
@@ -2632,6 +2771,7 @@ f64
 fn
 PassDouble
 (
+&
 self
 _
 :
@@ -2645,6 +2785,7 @@ f64
 fn
 PassString
 (
+&
 self
 _
 :
@@ -2655,6 +2796,7 @@ DOMString
 fn
 PassUsvstring
 (
+&
 self
 _
 :
@@ -2665,6 +2807,7 @@ USVString
 fn
 PassByteString
 (
+&
 self
 _
 :
@@ -2675,6 +2818,7 @@ ByteString
 fn
 PassEnum
 (
+&
 self
 _
 :
@@ -2685,6 +2829,7 @@ TestEnum
 fn
 PassInterface
 (
+&
 self
 _
 :
@@ -2696,6 +2841,7 @@ Blob
 fn
 PassUnion
 (
+&
 self
 _
 :
@@ -2706,6 +2852,7 @@ HTMLElementOrLong
 fn
 PassUnion2
 (
+&
 self
 _
 :
@@ -2716,6 +2863,7 @@ EventOrString
 fn
 PassUnion3
 (
+&
 self
 _
 :
@@ -2726,6 +2874,7 @@ BlobOrString
 fn
 PassAny
 (
+&
 self
 _
 :
@@ -2741,6 +2890,7 @@ HandleValue
 fn
 PassObject
 (
+&
 self
 _
 :
@@ -2758,6 +2908,7 @@ JSObject
 fn
 PassCallbackFunction
 (
+&
 self
 _
 :
@@ -2771,6 +2922,7 @@ Function
 fn
 PassCallbackInterface
 (
+&
 self
 _
 :
@@ -2784,6 +2936,7 @@ EventListener
 fn
 PassNullableBoolean
 (
+&
 self
 _
 :
@@ -2797,6 +2950,7 @@ bool
 fn
 PassNullableByte
 (
+&
 self
 _
 :
@@ -2810,6 +2964,7 @@ i8
 fn
 PassNullableOctet
 (
+&
 self
 _
 :
@@ -2823,6 +2978,7 @@ u8
 fn
 PassNullableShort
 (
+&
 self
 _
 :
@@ -2836,6 +2992,7 @@ i16
 fn
 PassNullableUnsignedShort
 (
+&
 self
 _
 :
@@ -2849,6 +3006,7 @@ u16
 fn
 PassNullableLong
 (
+&
 self
 _
 :
@@ -2862,6 +3020,7 @@ i32
 fn
 PassNullableUnsignedLong
 (
+&
 self
 _
 :
@@ -2875,6 +3034,7 @@ u32
 fn
 PassNullableLongLong
 (
+&
 self
 _
 :
@@ -2888,6 +3048,7 @@ i64
 fn
 PassNullableUnsignedLongLong
 (
+&
 self
 _
 :
@@ -2901,6 +3062,7 @@ u64
 fn
 PassNullableUnrestrictedFloat
 (
+&
 self
 _
 :
@@ -2914,6 +3076,7 @@ f32
 fn
 PassNullableFloat
 (
+&
 self
 _
 :
@@ -2930,6 +3093,7 @@ f32
 fn
 PassNullableUnrestrictedDouble
 (
+&
 self
 _
 :
@@ -2943,6 +3107,7 @@ f64
 fn
 PassNullableDouble
 (
+&
 self
 _
 :
@@ -2959,6 +3124,7 @@ f64
 fn
 PassNullableString
 (
+&
 self
 _
 :
@@ -2972,6 +3138,7 @@ DOMString
 fn
 PassNullableUsvstring
 (
+&
 self
 _
 :
@@ -2985,6 +3152,7 @@ USVString
 fn
 PassNullableByteString
 (
+&
 self
 _
 :
@@ -2998,6 +3166,7 @@ ByteString
 fn
 PassNullableInterface
 (
+&
 self
 _
 :
@@ -3012,6 +3181,7 @@ Blob
 fn
 PassNullableObject
 (
+&
 self
 _
 :
@@ -3029,6 +3199,7 @@ JSObject
 fn
 PassNullableUnion
 (
+&
 self
 _
 :
@@ -3042,6 +3213,7 @@ HTMLElementOrLong
 fn
 PassNullableUnion2
 (
+&
 self
 _
 :
@@ -3055,6 +3227,7 @@ EventOrString
 fn
 PassNullableCallbackFunction
 (
+&
 self
 _
 :
@@ -3071,6 +3244,7 @@ Function
 fn
 PassNullableCallbackInterface
 (
+&
 self
 _
 :
@@ -3087,6 +3261,7 @@ EventListener
 fn
 PassOptionalBoolean
 (
+&
 self
 _
 :
@@ -3100,6 +3275,7 @@ bool
 fn
 PassOptionalByte
 (
+&
 self
 _
 :
@@ -3113,6 +3289,7 @@ i8
 fn
 PassOptionalOctet
 (
+&
 self
 _
 :
@@ -3126,6 +3303,7 @@ u8
 fn
 PassOptionalShort
 (
+&
 self
 _
 :
@@ -3139,6 +3317,7 @@ i16
 fn
 PassOptionalUnsignedShort
 (
+&
 self
 _
 :
@@ -3152,6 +3331,7 @@ u16
 fn
 PassOptionalLong
 (
+&
 self
 _
 :
@@ -3165,6 +3345,7 @@ i32
 fn
 PassOptionalUnsignedLong
 (
+&
 self
 _
 :
@@ -3178,6 +3359,7 @@ u32
 fn
 PassOptionalLongLong
 (
+&
 self
 _
 :
@@ -3191,6 +3373,7 @@ i64
 fn
 PassOptionalUnsignedLongLong
 (
+&
 self
 _
 :
@@ -3204,6 +3387,7 @@ u64
 fn
 PassOptionalUnrestrictedFloat
 (
+&
 self
 _
 :
@@ -3217,6 +3401,7 @@ f32
 fn
 PassOptionalFloat
 (
+&
 self
 _
 :
@@ -3233,6 +3418,7 @@ f32
 fn
 PassOptionalUnrestrictedDouble
 (
+&
 self
 _
 :
@@ -3246,6 +3432,7 @@ f64
 fn
 PassOptionalDouble
 (
+&
 self
 _
 :
@@ -3262,6 +3449,7 @@ f64
 fn
 PassOptionalString
 (
+&
 self
 _
 :
@@ -3275,6 +3463,7 @@ DOMString
 fn
 PassOptionalUsvstring
 (
+&
 self
 _
 :
@@ -3288,6 +3477,7 @@ USVString
 fn
 PassOptionalByteString
 (
+&
 self
 _
 :
@@ -3301,6 +3491,7 @@ ByteString
 fn
 PassOptionalEnum
 (
+&
 self
 _
 :
@@ -3314,6 +3505,7 @@ TestEnum
 fn
 PassOptionalInterface
 (
+&
 self
 _
 :
@@ -3328,6 +3520,7 @@ Blob
 fn
 PassOptionalUnion
 (
+&
 self
 _
 :
@@ -3341,6 +3534,7 @@ HTMLElementOrLong
 fn
 PassOptionalUnion2
 (
+&
 self
 _
 :
@@ -3354,6 +3548,7 @@ EventOrString
 fn
 PassOptionalAny
 (
+&
 self
 _
 :
@@ -3369,6 +3564,7 @@ HandleValue
 fn
 PassOptionalObject
 (
+&
 self
 _
 :
@@ -3389,6 +3585,7 @@ JSObject
 fn
 PassOptionalCallbackFunction
 (
+&
 self
 _
 :
@@ -3405,6 +3602,7 @@ Function
 fn
 PassOptionalCallbackInterface
 (
+&
 self
 _
 :
@@ -3421,6 +3619,7 @@ EventListener
 fn
 PassOptionalNullableBoolean
 (
+&
 self
 _
 :
@@ -3437,6 +3636,7 @@ bool
 fn
 PassOptionalNullableByte
 (
+&
 self
 _
 :
@@ -3453,6 +3653,7 @@ i8
 fn
 PassOptionalNullableOctet
 (
+&
 self
 _
 :
@@ -3469,6 +3670,7 @@ u8
 fn
 PassOptionalNullableShort
 (
+&
 self
 _
 :
@@ -3485,6 +3687,7 @@ i16
 fn
 PassOptionalNullableUnsignedShort
 (
+&
 self
 _
 :
@@ -3501,6 +3704,7 @@ u16
 fn
 PassOptionalNullableLong
 (
+&
 self
 _
 :
@@ -3517,6 +3721,7 @@ i32
 fn
 PassOptionalNullableUnsignedLong
 (
+&
 self
 _
 :
@@ -3533,6 +3738,7 @@ u32
 fn
 PassOptionalNullableLongLong
 (
+&
 self
 _
 :
@@ -3549,6 +3755,7 @@ i64
 fn
 PassOptionalNullableUnsignedLongLong
 (
+&
 self
 _
 :
@@ -3565,6 +3772,7 @@ u64
 fn
 PassOptionalNullableUnrestrictedFloat
 (
+&
 self
 _
 :
@@ -3581,6 +3789,7 @@ f32
 fn
 PassOptionalNullableFloat
 (
+&
 self
 _
 :
@@ -3600,6 +3809,7 @@ f32
 fn
 PassOptionalNullableUnrestrictedDouble
 (
+&
 self
 _
 :
@@ -3616,6 +3826,7 @@ f64
 fn
 PassOptionalNullableDouble
 (
+&
 self
 _
 :
@@ -3635,6 +3846,7 @@ f64
 fn
 PassOptionalNullableString
 (
+&
 self
 _
 :
@@ -3651,6 +3863,7 @@ DOMString
 fn
 PassOptionalNullableUsvstring
 (
+&
 self
 _
 :
@@ -3667,6 +3880,7 @@ USVString
 fn
 PassOptionalNullableByteString
 (
+&
 self
 _
 :
@@ -3683,6 +3897,7 @@ ByteString
 fn
 PassOptionalNullableInterface
 (
+&
 self
 _
 :
@@ -3700,6 +3915,7 @@ Blob
 fn
 PassOptionalNullableObject
 (
+&
 self
 _
 :
@@ -3720,6 +3936,7 @@ JSObject
 fn
 PassOptionalNullableUnion
 (
+&
 self
 _
 :
@@ -3736,6 +3953,7 @@ HTMLElementOrLong
 fn
 PassOptionalNullableUnion2
 (
+&
 self
 _
 :
@@ -3752,6 +3970,7 @@ EventOrString
 fn
 PassOptionalNullableCallbackFunction
 (
+&
 self
 _
 :
@@ -3771,6 +3990,7 @@ Function
 fn
 PassOptionalNullableCallbackInterface
 (
+&
 self
 _
 :
@@ -3790,6 +4010,7 @@ EventListener
 fn
 PassOptionalBooleanWithDefault
 (
+&
 self
 _
 :
@@ -3800,6 +4021,7 @@ bool
 fn
 PassOptionalByteWithDefault
 (
+&
 self
 _
 :
@@ -3810,6 +4032,7 @@ i8
 fn
 PassOptionalOctetWithDefault
 (
+&
 self
 _
 :
@@ -3820,6 +4043,7 @@ u8
 fn
 PassOptionalShortWithDefault
 (
+&
 self
 _
 :
@@ -3830,6 +4054,7 @@ i16
 fn
 PassOptionalUnsignedShortWithDefault
 (
+&
 self
 _
 :
@@ -3840,6 +4065,7 @@ u16
 fn
 PassOptionalLongWithDefault
 (
+&
 self
 _
 :
@@ -3850,6 +4076,7 @@ i32
 fn
 PassOptionalUnsignedLongWithDefault
 (
+&
 self
 _
 :
@@ -3860,6 +4087,7 @@ u32
 fn
 PassOptionalLongLongWithDefault
 (
+&
 self
 _
 :
@@ -3870,6 +4098,7 @@ i64
 fn
 PassOptionalUnsignedLongLongWithDefault
 (
+&
 self
 _
 :
@@ -3880,6 +4109,7 @@ u64
 fn
 PassOptionalStringWithDefault
 (
+&
 self
 _
 :
@@ -3890,6 +4120,7 @@ DOMString
 fn
 PassOptionalUsvstringWithDefault
 (
+&
 self
 _
 :
@@ -3900,6 +4131,7 @@ USVString
 fn
 PassOptionalEnumWithDefault
 (
+&
 self
 _
 :
@@ -3910,6 +4142,7 @@ TestEnum
 fn
 PassOptionalNullableBooleanWithDefault
 (
+&
 self
 _
 :
@@ -3923,6 +4156,7 @@ bool
 fn
 PassOptionalNullableByteWithDefault
 (
+&
 self
 _
 :
@@ -3936,6 +4170,7 @@ i8
 fn
 PassOptionalNullableOctetWithDefault
 (
+&
 self
 _
 :
@@ -3949,6 +4184,7 @@ u8
 fn
 PassOptionalNullableShortWithDefault
 (
+&
 self
 _
 :
@@ -3962,6 +4198,7 @@ i16
 fn
 PassOptionalNullableUnsignedShortWithDefault
 (
+&
 self
 _
 :
@@ -3975,6 +4212,7 @@ u16
 fn
 PassOptionalNullableLongWithDefault
 (
+&
 self
 _
 :
@@ -3988,6 +4226,7 @@ i32
 fn
 PassOptionalNullableUnsignedLongWithDefault
 (
+&
 self
 _
 :
@@ -4001,6 +4240,7 @@ u32
 fn
 PassOptionalNullableLongLongWithDefault
 (
+&
 self
 _
 :
@@ -4014,6 +4254,7 @@ i64
 fn
 PassOptionalNullableUnsignedLongLongWithDefault
 (
+&
 self
 _
 :
@@ -4027,6 +4268,7 @@ u64
 fn
 PassOptionalNullableStringWithDefault
 (
+&
 self
 _
 :
@@ -4040,6 +4282,7 @@ DOMString
 fn
 PassOptionalNullableUsvstringWithDefault
 (
+&
 self
 _
 :
@@ -4053,6 +4296,7 @@ USVString
 fn
 PassOptionalNullableByteStringWithDefault
 (
+&
 self
 _
 :
@@ -4066,6 +4310,7 @@ ByteString
 fn
 PassOptionalNullableInterfaceWithDefault
 (
+&
 self
 _
 :
@@ -4080,6 +4325,7 @@ Blob
 fn
 PassOptionalNullableObjectWithDefault
 (
+&
 self
 _
 :
@@ -4097,6 +4343,7 @@ JSObject
 fn
 PassOptionalNullableUnionWithDefault
 (
+&
 self
 _
 :
@@ -4110,6 +4357,7 @@ HTMLElementOrLong
 fn
 PassOptionalNullableUnion2WithDefault
 (
+&
 self
 _
 :
@@ -4123,6 +4371,7 @@ EventOrString
 fn
 PassOptionalNullableCallbackInterfaceWithDefault
 (
+&
 self
 _
 :
@@ -4139,6 +4388,7 @@ EventListener
 fn
 PassOptionalAnyWithDefault
 (
+&
 self
 _
 :
@@ -4154,6 +4404,7 @@ HandleValue
 fn
 PassOptionalNullableBooleanWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4167,6 +4418,7 @@ bool
 fn
 PassOptionalNullableByteWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4180,6 +4432,7 @@ i8
 fn
 PassOptionalNullableOctetWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4193,6 +4446,7 @@ u8
 fn
 PassOptionalNullableShortWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4206,6 +4460,7 @@ i16
 fn
 PassOptionalNullableUnsignedShortWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4219,6 +4474,7 @@ u16
 fn
 PassOptionalNullableLongWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4232,6 +4488,7 @@ i32
 fn
 PassOptionalNullableUnsignedLongWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4245,6 +4502,7 @@ u32
 fn
 PassOptionalNullableLongLongWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4258,6 +4516,7 @@ i64
 fn
 PassOptionalNullableUnsignedLongLongWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4271,6 +4530,7 @@ u64
 fn
 PassOptionalNullableStringWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4284,6 +4544,7 @@ DOMString
 fn
 PassOptionalNullableUsvstringWithNonNullDefault
 (
+&
 self
 _
 :
@@ -4297,6 +4558,7 @@ USVString
 fn
 PassVariadicBoolean
 (
+&
 self
 _
 :
@@ -4310,6 +4572,7 @@ bool
 fn
 PassVariadicByte
 (
+&
 self
 _
 :
@@ -4323,6 +4586,7 @@ i8
 fn
 PassVariadicOctet
 (
+&
 self
 _
 :
@@ -4336,6 +4600,7 @@ u8
 fn
 PassVariadicShort
 (
+&
 self
 _
 :
@@ -4349,6 +4614,7 @@ i16
 fn
 PassVariadicUnsignedShort
 (
+&
 self
 _
 :
@@ -4362,6 +4628,7 @@ u16
 fn
 PassVariadicLong
 (
+&
 self
 _
 :
@@ -4375,6 +4642,7 @@ i32
 fn
 PassVariadicUnsignedLong
 (
+&
 self
 _
 :
@@ -4388,6 +4656,7 @@ u32
 fn
 PassVariadicLongLong
 (
+&
 self
 _
 :
@@ -4401,6 +4670,7 @@ i64
 fn
 PassVariadicUnsignedLongLong
 (
+&
 self
 _
 :
@@ -4414,6 +4684,7 @@ u64
 fn
 PassVariadicUnrestrictedFloat
 (
+&
 self
 _
 :
@@ -4427,6 +4698,7 @@ f32
 fn
 PassVariadicFloat
 (
+&
 self
 _
 :
@@ -4443,6 +4715,7 @@ f32
 fn
 PassVariadicUnrestrictedDouble
 (
+&
 self
 _
 :
@@ -4456,6 +4729,7 @@ f64
 fn
 PassVariadicDouble
 (
+&
 self
 _
 :
@@ -4472,6 +4746,7 @@ f64
 fn
 PassVariadicString
 (
+&
 self
 _
 :
@@ -4485,6 +4760,7 @@ DOMString
 fn
 PassVariadicUsvstring
 (
+&
 self
 _
 :
@@ -4498,6 +4774,7 @@ USVString
 fn
 PassVariadicByteString
 (
+&
 self
 _
 :
@@ -4511,6 +4788,7 @@ ByteString
 fn
 PassVariadicEnum
 (
+&
 self
 _
 :
@@ -4524,6 +4802,7 @@ TestEnum
 fn
 PassVariadicUnion
 (
+&
 self
 _
 :
@@ -4537,6 +4816,7 @@ HTMLElementOrLong
 fn
 PassVariadicUnion2
 (
+&
 self
 _
 :
@@ -4550,6 +4830,7 @@ EventOrString
 fn
 PassVariadicUnion3
 (
+&
 self
 _
 :
@@ -4563,6 +4844,7 @@ BlobOrString
 fn
 PassVariadicAny
 (
+&
 self
 _
 :
@@ -4581,6 +4863,7 @@ HandleValue
 fn
 PassVariadicObject
 (
+&
 self
 _
 :

@@ -7716,15 +7716,8 @@ false
 }
 }
 impl
-<
-'
-a
->
 DocumentMethods
 for
-&
-'
-a
 Document
 {
 /
@@ -7750,6 +7743,7 @@ implementation
 fn
 Implementation
 (
+&
 self
 )
 -
@@ -7799,6 +7793,7 @@ url
 fn
 URL
 (
+&
 self
 )
 -
@@ -7840,6 +7835,7 @@ activeelement
 fn
 GetActiveElement
 (
+&
 self
 )
 -
@@ -7949,6 +7945,7 @@ hasfocus
 fn
 HasFocus
 (
+&
 self
 )
 -
@@ -8092,6 +8089,7 @@ documenturi
 fn
 DocumentURI
 (
+&
 self
 )
 -
@@ -8127,6 +8125,7 @@ compatmode
 fn
 CompatMode
 (
+&
 self
 )
 -
@@ -8189,6 +8188,7 @@ characterset
 fn
 CharacterSet
 (
+&
 self
 )
 -
@@ -8230,6 +8230,7 @@ inputencoding
 fn
 InputEncoding
 (
+&
 self
 )
 -
@@ -8271,6 +8272,7 @@ content_type
 fn
 ContentType
 (
+&
 self
 )
 -
@@ -8308,6 +8310,7 @@ doctype
 fn
 GetDoctype
 (
+&
 self
 )
 -
@@ -8390,6 +8393,7 @@ documentelement
 fn
 GetDocumentElement
 (
+&
 self
 )
 -
@@ -8446,6 +8450,7 @@ getelementsbytagname
 fn
 GetElementsByTagName
 (
+&
 self
 tag_name
 :
@@ -8512,6 +8517,7 @@ getelementsbytagnamens
 fn
 GetElementsByTagNameNS
 (
+&
 self
 maybe_ns
 :
@@ -8585,6 +8591,7 @@ getelementsbyclassname
 fn
 GetElementsByClassName
 (
+&
 self
 classes
 :
@@ -8651,6 +8658,7 @@ getelementbyid
 fn
 GetElementById
 (
+&
 self
 id
 :
@@ -8734,6 +8742,7 @@ createelement
 fn
 CreateElement
 (
+&
 self
 mut
 local_name
@@ -8855,6 +8864,7 @@ createelementns
 fn
 CreateElementNS
 (
+&
 self
 namespace
 :
@@ -8946,6 +8956,7 @@ createattribute
 fn
 CreateAttribute
 (
+&
 self
 local_name
 :
@@ -9106,6 +9117,7 @@ createattributens
 fn
 CreateAttributeNS
 (
+&
 self
 namespace
 :
@@ -9228,6 +9240,7 @@ createdocumentfragment
 fn
 CreateDocumentFragment
 (
+&
 self
 )
 -
@@ -9268,6 +9281,7 @@ createtextnode
 fn
 CreateTextNode
 (
+&
 self
 data
 :
@@ -9312,6 +9326,7 @@ createcomment
 fn
 CreateComment
 (
+&
 self
 data
 :
@@ -9356,6 +9371,7 @@ createprocessinginstruction
 fn
 CreateProcessingInstruction
 (
+&
 self
 target
 :
@@ -9460,6 +9476,7 @@ importnode
 fn
 ImportNode
 (
+&
 self
 node
 :
@@ -9564,6 +9581,7 @@ adoptnode
 fn
 AdoptNode
 (
+&
 self
 node
 :
@@ -9652,6 +9670,7 @@ createevent
 fn
 CreateEvent
 (
+&
 self
 interface
 :
@@ -9901,6 +9920,7 @@ lastmodified
 fn
 LastModified
 (
+&
 self
 )
 -
@@ -9988,6 +10008,7 @@ createrange
 fn
 CreateRange
 (
+&
 self
 )
 -
@@ -10032,6 +10053,7 @@ filter
 fn
 CreateNodeIterator
 (
+&
 self
 root
 :
@@ -10091,6 +10113,7 @@ createtreewalker
 fn
 CreateTreeWalker
 (
+&
 self
 root
 :
@@ -10148,6 +10171,7 @@ title
 fn
 Title
 (
+&
 self
 )
 -
@@ -10420,6 +10444,7 @@ title
 fn
 SetTitle
 (
+&
 self
 title
 :
@@ -10854,6 +10879,7 @@ head
 fn
 GetHead
 (
+&
 self
 )
 -
@@ -10954,6 +10980,7 @@ currentscript
 fn
 GetCurrentScript
 (
+&
 self
 )
 -
@@ -11005,6 +11032,7 @@ body
 fn
 GetBody
 (
+&
 self
 )
 -
@@ -11166,6 +11194,7 @@ body
 fn
 SetBody
 (
+&
 self
 new_body
 :
@@ -11512,6 +11541,7 @@ getelementsbyname
 fn
 GetElementsByName
 (
+&
 self
 name
 :
@@ -11650,6 +11680,7 @@ images
 fn
 Images
 (
+&
 self
 )
 -
@@ -11735,6 +11766,7 @@ embeds
 fn
 Embeds
 (
+&
 self
 )
 -
@@ -11820,6 +11852,7 @@ plugins
 fn
 Plugins
 (
+&
 self
 )
 -
@@ -11858,6 +11891,7 @@ links
 fn
 Links
 (
+&
 self
 )
 -
@@ -11943,6 +11977,7 @@ forms
 fn
 Forms
 (
+&
 self
 )
 -
@@ -12028,6 +12063,7 @@ scripts
 fn
 Scripts
 (
+&
 self
 )
 -
@@ -12113,6 +12149,7 @@ anchors
 fn
 Anchors
 (
+&
 self
 )
 -
@@ -12198,6 +12235,7 @@ applets
 fn
 Applets
 (
+&
 self
 )
 -
@@ -12296,6 +12334,7 @@ location
 fn
 Location
 (
+&
 self
 )
 -
@@ -12365,6 +12404,7 @@ children
 fn
 Children
 (
+&
 self
 )
 -
@@ -12427,6 +12467,7 @@ firstelementchild
 fn
 GetFirstElementChild
 (
+&
 self
 )
 -
@@ -12478,6 +12519,7 @@ lastelementchild
 fn
 GetLastElementChild
 (
+&
 self
 )
 -
@@ -12537,6 +12579,7 @@ childelementcount
 fn
 ChildElementCount
 (
+&
 self
 )
 -
@@ -12584,6 +12627,7 @@ prepend
 fn
 Prepend
 (
+&
 self
 nodes
 :
@@ -12632,6 +12676,7 @@ append
 fn
 Append
 (
+&
 self
 nodes
 :
@@ -12680,6 +12725,7 @@ queryselector
 fn
 QuerySelector
 (
+&
 self
 selectors
 :
@@ -12739,6 +12785,7 @@ queryselectorall
 fn
 QuerySelectorAll
 (
+&
 self
 selectors
 :
@@ -12797,6 +12844,7 @@ readystate
 fn
 ReadyState
 (
+&
 self
 )
 -
@@ -12836,6 +12884,7 @@ defaultview
 fn
 DefaultView
 (
+&
 self
 )
 -
@@ -12878,6 +12927,7 @@ cookie
 fn
 GetCookie
 (
+&
 self
 )
 -
@@ -13027,6 +13077,7 @@ cookie
 fn
 SetCookie
 (
+&
 self
 cookie
 :
@@ -13135,6 +13186,7 @@ bgcolor
 fn
 BgColor
 (
+&
 self
 )
 -
@@ -13180,6 +13232,7 @@ bgcolor
 fn
 SetBgColor
 (
+&
 self
 value
 :
@@ -13234,6 +13287,7 @@ filter
 fn
 NamedGetter
 (
+&
 self
 _cx
 :
@@ -13954,6 +14008,7 @@ document
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -
@@ -14015,6 +14070,7 @@ clear
 fn
 Clear
 (
+&
 self
 )
 {
@@ -14051,6 +14107,7 @@ captureevents
 fn
 CaptureEvents
 (
+&
 self
 )
 {
@@ -14085,6 +14142,7 @@ releaseevents
 fn
 ReleaseEvents
 (
+&
 self
 )
 {

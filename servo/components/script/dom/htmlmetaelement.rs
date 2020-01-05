@@ -284,15 +284,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLMetaElementMethods
 for
-&
-'
-a
 HTMLMetaElement
 {
 /

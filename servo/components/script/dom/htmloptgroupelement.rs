@@ -323,15 +323,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLOptGroupElementMethods
 for
-&
-'
-a
 HTMLOptGroupElement
 {
 /

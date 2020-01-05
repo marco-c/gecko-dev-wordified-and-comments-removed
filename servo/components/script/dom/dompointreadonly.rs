@@ -278,20 +278,14 @@ w
 }
 }
 impl
-<
-'
-a
->
 DOMPointReadOnlyMethods
 for
-&
-'
-a
 DOMPointReadOnly
 {
 fn
 X
 (
+&
 self
 )
 -
@@ -309,6 +303,7 @@ get
 fn
 Y
 (
+&
 self
 )
 -
@@ -326,6 +321,7 @@ get
 fn
 Z
 (
+&
 self
 )
 -
@@ -343,6 +339,7 @@ get
 fn
 W
 (
+&
 self
 )
 -
@@ -365,6 +362,7 @@ DOMPointWriteMethods
 fn
 SetX
 (
+&
 self
 value
 :
@@ -374,6 +372,7 @@ f64
 fn
 SetY
 (
+&
 self
 value
 :
@@ -383,6 +382,7 @@ f64
 fn
 SetZ
 (
+&
 self
 value
 :
@@ -392,6 +392,7 @@ f64
 fn
 SetW
 (
+&
 self
 value
 :
@@ -400,20 +401,14 @@ f64
 ;
 }
 impl
-<
-'
-a
->
 DOMPointWriteMethods
 for
-&
-'
-a
 DOMPointReadOnly
 {
 fn
 SetX
 (
+&
 self
 value
 :
@@ -433,6 +428,7 @@ value
 fn
 SetY
 (
+&
 self
 value
 :
@@ -452,6 +448,7 @@ value
 fn
 SetZ
 (
+&
 self
 value
 :
@@ -471,6 +468,7 @@ value
 fn
 SetW
 (
+&
 self
 value
 :

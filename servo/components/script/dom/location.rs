@@ -216,20 +216,14 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 LocationMethods
 for
-&
-'
-a
 Location
 {
 fn
 Assign
 (
+&
 self
 url
 :
@@ -294,6 +288,7 @@ url
 fn
 Hash
 (
+&
 self
 )
 -
@@ -316,6 +311,7 @@ get_url
 fn
 Href
 (
+&
 self
 )
 -
@@ -338,6 +334,7 @@ get_url
 fn
 Host
 (
+&
 self
 )
 -
@@ -360,6 +357,7 @@ get_url
 fn
 Hostname
 (
+&
 self
 )
 -
@@ -382,6 +380,7 @@ get_url
 fn
 Password
 (
+&
 self
 )
 -
@@ -404,6 +403,7 @@ get_url
 fn
 Pathname
 (
+&
 self
 )
 -
@@ -426,6 +426,7 @@ get_url
 fn
 Port
 (
+&
 self
 )
 -
@@ -448,6 +449,7 @@ get_url
 fn
 Protocol
 (
+&
 self
 )
 -
@@ -470,6 +472,7 @@ get_url
 fn
 Stringifier
 (
+&
 self
 )
 -
@@ -487,6 +490,7 @@ Href
 fn
 Search
 (
+&
 self
 )
 -
@@ -509,6 +513,7 @@ get_url
 fn
 Username
 (
+&
 self
 )
 -

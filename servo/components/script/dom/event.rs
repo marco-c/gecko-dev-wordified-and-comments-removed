@@ -986,20 +986,14 @@ get
 }
 }
 impl
-<
-'
-a
->
 EventMethods
 for
-&
-'
-a
 Event
 {
 fn
 EventPhase
 (
+&
 self
 )
 -
@@ -1019,6 +1013,7 @@ u16
 fn
 Type
 (
+&
 self
 )
 -
@@ -1040,6 +1035,7 @@ clone
 fn
 GetTarget
 (
+&
 self
 )
 -
@@ -1071,6 +1067,7 @@ from_rooted
 fn
 GetCurrentTarget
 (
+&
 self
 )
 -
@@ -1102,6 +1099,7 @@ from_rooted
 fn
 DefaultPrevented
 (
+&
 self
 )
 -
@@ -1119,6 +1117,7 @@ get
 fn
 PreventDefault
 (
+&
 self
 )
 {
@@ -1144,6 +1143,7 @@ true
 fn
 StopPropagation
 (
+&
 self
 )
 {
@@ -1160,6 +1160,7 @@ true
 fn
 StopImmediatePropagation
 (
+&
 self
 )
 {
@@ -1185,6 +1186,7 @@ true
 fn
 Bubbles
 (
+&
 self
 )
 -
@@ -1202,6 +1204,7 @@ get
 fn
 Cancelable
 (
+&
 self
 )
 -
@@ -1219,6 +1222,7 @@ get
 fn
 TimeStamp
 (
+&
 self
 )
 -
@@ -1232,6 +1236,7 @@ timestamp
 fn
 InitEvent
 (
+&
 self
 type_
 :
@@ -1343,6 +1348,7 @@ cancelable
 fn
 IsTrusted
 (
+&
 self
 )
 -

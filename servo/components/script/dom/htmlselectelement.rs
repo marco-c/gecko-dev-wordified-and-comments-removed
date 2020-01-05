@@ -388,15 +388,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLSelectElementMethods
 for
-&
-'
-a
 HTMLSelectElement
 {
 /
@@ -424,6 +417,7 @@ validity
 fn
 Validity
 (
+&
 self
 )
 -
@@ -492,6 +486,7 @@ add
 fn
 Add
 (
+&
 self
 _element
 :
@@ -767,6 +762,7 @@ type
 fn
 Type
 (
+&
 self
 )
 -

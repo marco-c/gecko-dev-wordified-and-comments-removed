@@ -371,15 +371,8 @@ org
 #
 domimplementation
 impl
-<
-'
-a
->
 DOMImplementationMethods
 for
-&
-'
-a
 DOMImplementation
 {
 /
@@ -405,6 +398,7 @@ createdocumenttype
 fn
 CreateDocumentType
 (
+&
 self
 qualified_name
 :
@@ -494,6 +488,7 @@ createdocument
 fn
 CreateDocument
 (
+&
 self
 namespace
 :
@@ -828,6 +823,7 @@ createhtmldocument
 fn
 CreateHTMLDocument
 (
+&
 self
 title
 :
@@ -1318,6 +1314,7 @@ doc
 fn
 HasFeature
 (
+&
 self
 )
 -

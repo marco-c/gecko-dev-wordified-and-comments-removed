@@ -442,15 +442,8 @@ filter
 }
 }
 impl
-<
-'
-a
->
 TreeWalkerMethods
 for
-&
-'
-a
 TreeWalker
 {
 /
@@ -476,6 +469,7 @@ root
 fn
 Root
 (
+&
 self
 )
 -
@@ -516,6 +510,7 @@ whattoshow
 fn
 WhatToShow
 (
+&
 self
 )
 -
@@ -549,6 +544,7 @@ filter
 fn
 GetFilter
 (
+&
 self
 )
 -
@@ -639,6 +635,7 @@ currentnode
 fn
 CurrentNode
 (
+&
 self
 )
 -
@@ -683,6 +680,7 @@ currentnode
 fn
 SetCurrentNode
 (
+&
 self
 node
 :
@@ -729,6 +727,7 @@ parentnode
 fn
 ParentNode
 (
+&
 self
 )
 -
@@ -959,6 +958,7 @@ firstchild
 fn
 FirstChild
 (
+&
 self
 )
 -
@@ -1035,6 +1035,7 @@ lastchild
 fn
 LastChild
 (
+&
 self
 )
 -
@@ -1111,6 +1112,7 @@ previoussibling
 fn
 PreviousSibling
 (
+&
 self
 )
 -
@@ -1187,6 +1189,7 @@ nextsibling
 fn
 NextSibling
 (
+&
 self
 )
 -
@@ -1263,6 +1266,7 @@ previousnode
 fn
 PreviousNode
 (
+&
 self
 )
 -
@@ -1829,6 +1833,7 @@ nextnode
 fn
 NextNode
 (
+&
 self
 )
 -

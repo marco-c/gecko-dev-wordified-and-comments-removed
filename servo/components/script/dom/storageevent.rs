@@ -607,20 +607,14 @@ event
 }
 }
 impl
-<
-'
-a
->
 StorageEventMethods
 for
-&
-'
-a
 StorageEvent
 {
 fn
 GetKey
 (
+&
 self
 )
 -
@@ -645,6 +639,7 @@ clone
 fn
 GetOldValue
 (
+&
 self
 )
 -
@@ -669,6 +664,7 @@ clone
 fn
 GetNewValue
 (
+&
 self
 )
 -
@@ -693,6 +689,7 @@ clone
 fn
 Url
 (
+&
 self
 )
 -
@@ -714,6 +711,7 @@ clone
 fn
 GetStorageArea
 (
+&
 self
 )
 -

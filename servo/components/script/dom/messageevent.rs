@@ -595,20 +595,14 @@ target
 }
 }
 impl
-<
-'
-a
->
 MessageEventMethods
 for
-&
-'
-a
 MessageEvent
 {
 fn
 Data
 (
+&
 self
 _cx
 :
@@ -631,6 +625,7 @@ get
 fn
 Origin
 (
+&
 self
 )
 -
@@ -648,6 +643,7 @@ clone
 fn
 LastEventId
 (
+&
 self
 )
 -

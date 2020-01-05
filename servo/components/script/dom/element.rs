@@ -8617,15 +8617,8 @@ value
 }
 }
 impl
-<
-'
-a
->
 ElementMethods
 for
-&
-'
-a
 Element
 {
 /
@@ -8651,6 +8644,7 @@ namespaceuri
 fn
 GetNamespaceURI
 (
+&
 self
 )
 -
@@ -8697,6 +8691,7 @@ localname
 fn
 LocalName
 (
+&
 self
 )
 -
@@ -8737,6 +8732,7 @@ prefix
 fn
 GetPrefix
 (
+&
 self
 )
 -
@@ -8777,6 +8773,7 @@ tagname
 fn
 TagName
 (
+&
 self
 )
 -
@@ -8887,6 +8884,7 @@ id
 fn
 Id
 (
+&
 self
 )
 -
@@ -8930,6 +8928,7 @@ id
 fn
 SetId
 (
+&
 self
 id
 :
@@ -8975,6 +8974,7 @@ classname
 fn
 ClassName
 (
+&
 self
 )
 -
@@ -9018,6 +9018,7 @@ classname
 fn
 SetClassName
 (
+&
 self
 class
 :
@@ -9063,6 +9064,7 @@ classlist
 fn
 ClassList
 (
+&
 self
 )
 -
@@ -9120,6 +9122,7 @@ attributes
 fn
 Attributes
 (
+&
 self
 )
 -
@@ -9211,6 +9214,7 @@ getattribute
 fn
 GetAttribute
 (
+&
 self
 name
 :
@@ -9269,6 +9273,7 @@ getattributens
 fn
 GetAttributeNS
 (
+&
 self
 namespace
 :
@@ -9351,6 +9356,7 @@ setattribute
 fn
 SetAttribute
 (
+&
 self
 name
 :
@@ -9493,6 +9499,7 @@ setattributens
 fn
 SetAttributeNS
 (
+&
 self
 namespace
 :
@@ -9628,6 +9635,7 @@ removeattribute
 fn
 RemoveAttribute
 (
+&
 self
 name
 :
@@ -9676,6 +9684,7 @@ removeattributens
 fn
 RemoveAttributeNS
 (
+&
 self
 namespace
 :
@@ -9742,6 +9751,7 @@ hasattribute
 fn
 HasAttribute
 (
+&
 self
 name
 :
@@ -9785,6 +9795,7 @@ hasattributens
 fn
 HasAttributeNS
 (
+&
 self
 namespace
 :
@@ -9835,6 +9846,7 @@ getelementsbytagname
 fn
 GetElementsByTagName
 (
+&
 self
 localname
 :
@@ -9898,6 +9910,7 @@ getelementsbytagnamens
 fn
 GetElementsByTagNameNS
 (
+&
 self
 maybe_ns
 :
@@ -9968,6 +9981,7 @@ getelementsbyclassname
 fn
 GetElementsByClassName
 (
+&
 self
 classes
 :
@@ -10033,6 +10047,7 @@ getclientrects
 fn
 GetClientRects
 (
+&
 self
 )
 -
@@ -10169,6 +10184,7 @@ getboundingclientrect
 fn
 GetBoundingClientRect
 (
+&
 self
 )
 -
@@ -10275,6 +10291,7 @@ clienttop
 fn
 ClientTop
 (
+&
 self
 )
 -
@@ -10327,6 +10344,7 @@ clientleft
 fn
 ClientLeft
 (
+&
 self
 )
 -
@@ -10379,6 +10397,7 @@ clientwidth
 fn
 ClientWidth
 (
+&
 self
 )
 -
@@ -10431,6 +10450,7 @@ clientheight
 fn
 ClientHeight
 (
+&
 self
 )
 -
@@ -10492,6 +10512,7 @@ innerHTML
 fn
 GetInnerHTML
 (
+&
 self
 )
 -
@@ -10549,6 +10570,7 @@ innerHTML
 fn
 SetInnerHTML
 (
+&
 self
 value
 :
@@ -10659,6 +10681,7 @@ outerHTML
 fn
 GetOuterHTML
 (
+&
 self
 )
 -
@@ -10709,6 +10732,7 @@ outerHTML
 fn
 SetOuterHTML
 (
+&
 self
 value
 :
@@ -10965,6 +10989,7 @@ previouselementsibling
 fn
 GetPreviousElementSibling
 (
+&
 self
 )
 -
@@ -11024,6 +11049,7 @@ nextelementsibling
 fn
 GetNextElementSibling
 (
+&
 self
 )
 -
@@ -11083,6 +11109,7 @@ children
 fn
 Children
 (
+&
 self
 )
 -
@@ -11142,6 +11169,7 @@ firstelementchild
 fn
 GetFirstElementChild
 (
+&
 self
 )
 -
@@ -11193,6 +11221,7 @@ lastelementchild
 fn
 GetLastElementChild
 (
+&
 self
 )
 -
@@ -11252,6 +11281,7 @@ childelementcount
 fn
 ChildElementCount
 (
+&
 self
 )
 -
@@ -11299,6 +11329,7 @@ prepend
 fn
 Prepend
 (
+&
 self
 nodes
 :
@@ -11347,6 +11378,7 @@ append
 fn
 Append
 (
+&
 self
 nodes
 :
@@ -11395,6 +11427,7 @@ queryselector
 fn
 QuerySelector
 (
+&
 self
 selectors
 :
@@ -11454,6 +11487,7 @@ queryselectorall
 fn
 QuerySelectorAll
 (
+&
 self
 selectors
 :
@@ -11510,6 +11544,7 @@ before
 fn
 Before
 (
+&
 self
 nodes
 :
@@ -11558,6 +11593,7 @@ after
 fn
 After
 (
+&
 self
 nodes
 :
@@ -11606,6 +11642,7 @@ replacewith
 fn
 ReplaceWith
 (
+&
 self
 nodes
 :
@@ -11654,6 +11691,7 @@ remove
 fn
 Remove
 (
+&
 self
 )
 {
@@ -11698,6 +11736,7 @@ matches
 fn
 Matches
 (
+&
 self
 selectors
 :
@@ -11778,6 +11817,7 @@ closest
 fn
 Closest
 (
+&
 self
 selectors
 :
