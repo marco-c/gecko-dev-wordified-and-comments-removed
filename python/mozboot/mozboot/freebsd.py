@@ -73,6 +73,10 @@ autoconf213
 '
             
 '
+cargo
+'
+            
+'
 gmake
 '
             
@@ -86,6 +90,10 @@ mercurial
             
 '
 pkgconf
+'
+            
+'
+rust
 '
             
 '

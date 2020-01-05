@@ -51,11 +51,19 @@ autoconf
 '
             
 '
+cargo
+'
+            
+'
 gmake
 '
             
 '
 gtar
+'
+            
+'
+rust
 '
             
 '
