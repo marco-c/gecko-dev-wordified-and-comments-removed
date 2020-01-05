@@ -159,9 +159,6 @@ GeckoSimplePrograms
 (
 [
 '
-TestINIParser
-'
-'
 TestRegistrationOrder
 '
 '
