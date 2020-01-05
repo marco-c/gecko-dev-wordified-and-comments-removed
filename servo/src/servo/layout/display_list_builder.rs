@@ -108,7 +108,6 @@ box
 :
 {
 RenderBox
-RenderBoxTree
 TextBox
 }
 ;

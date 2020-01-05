@@ -96,7 +96,6 @@ box
 :
 {
 RenderBox
-RenderBoxTree
 ImageBox
 TextBox
 GenericBox
