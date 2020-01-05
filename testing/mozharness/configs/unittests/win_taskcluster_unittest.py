@@ -275,28 +275,17 @@ dll
 )
     
 "
+proxxy
+"
+:
+{
+}
+    
+"
 find_links
 "
 :
 [
-        
-"
-http
-:
-/
-/
-pypi
-.
-pvt
-.
-build
-.
-mozilla
-.
-org
-/
-pub
-"
         
 "
 http
