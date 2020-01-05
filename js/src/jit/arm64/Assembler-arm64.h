@@ -85,7 +85,6 @@ static
 constexpr
 Register
 ScratchReg
-=
 {
 Registers
 :
@@ -107,7 +106,6 @@ static
 constexpr
 Register
 ScratchReg2
-=
 {
 Registers
 :
@@ -193,7 +191,6 @@ static
 constexpr
 Register
 InvalidReg
-=
 {
 Registers
 :
@@ -221,7 +218,6 @@ static
 constexpr
 Register
 OsrFrameReg
-=
 {
 Registers
 :
@@ -233,7 +229,6 @@ static
 constexpr
 Register
 ArgumentsRectifierReg
-=
 {
 Registers
 :
@@ -245,7 +240,6 @@ static
 constexpr
 Register
 CallTempReg0
-=
 {
 Registers
 :
@@ -257,7 +251,6 @@ static
 constexpr
 Register
 CallTempReg1
-=
 {
 Registers
 :
@@ -269,7 +262,6 @@ static
 constexpr
 Register
 CallTempReg2
-=
 {
 Registers
 :
@@ -281,7 +273,6 @@ static
 constexpr
 Register
 CallTempReg3
-=
 {
 Registers
 :
@@ -293,7 +284,6 @@ static
 constexpr
 Register
 CallTempReg4
-=
 {
 Registers
 :
@@ -305,7 +295,6 @@ static
 constexpr
 Register
 CallTempReg5
-=
 {
 Registers
 :
@@ -317,7 +306,6 @@ static
 constexpr
 Register
 PreBarrierReg
-=
 {
 Registers
 :
@@ -329,7 +317,6 @@ static
 constexpr
 Register
 ReturnReg
-=
 {
 Registers
 :
@@ -349,7 +336,6 @@ static
 constexpr
 Register
 JSReturnReg
-=
 {
 Registers
 :
@@ -361,7 +347,6 @@ static
 constexpr
 Register
 FramePointer
-=
 {
 Registers
 :
@@ -373,7 +358,6 @@ static
 constexpr
 Register
 ZeroRegister
-=
 {
 Registers
 :
@@ -425,7 +409,6 @@ static
 constexpr
 Register
 RealStackPointer
-=
 {
 Registers
 :
@@ -437,7 +420,6 @@ static
 constexpr
 Register
 PseudoStackPointer
-=
 {
 Registers
 :
@@ -482,7 +464,6 @@ static
 constexpr
 Register
 IntArgReg0
-=
 {
 Registers
 :
@@ -494,7 +475,6 @@ static
 constexpr
 Register
 IntArgReg1
-=
 {
 Registers
 :
@@ -506,7 +486,6 @@ static
 constexpr
 Register
 IntArgReg2
-=
 {
 Registers
 :
@@ -518,7 +497,6 @@ static
 constexpr
 Register
 IntArgReg3
-=
 {
 Registers
 :
@@ -530,7 +508,6 @@ static
 constexpr
 Register
 IntArgReg4
-=
 {
 Registers
 :
@@ -542,7 +519,6 @@ static
 constexpr
 Register
 IntArgReg5
-=
 {
 Registers
 :
@@ -554,7 +530,6 @@ static
 constexpr
 Register
 IntArgReg6
-=
 {
 Registers
 :
@@ -566,7 +541,6 @@ static
 constexpr
 Register
 IntArgReg7
-=
 {
 Registers
 :
@@ -578,7 +552,6 @@ static
 constexpr
 Register
 HeapReg
-=
 {
 Registers
 :
@@ -590,7 +563,6 @@ static
 constexpr
 Register
 HeapLenReg
-=
 {
 Registers
 :
@@ -612,7 +584,6 @@ r
 #
 #
 N
-=
 {
 Registers
 :
@@ -634,7 +605,6 @@ static
 constexpr
 Register
 ip0
-=
 {
 Registers
 :
@@ -646,7 +616,6 @@ static
 constexpr
 Register
 ip1
-=
 {
 Registers
 :
@@ -658,7 +627,6 @@ static
 constexpr
 Register
 fp
-=
 {
 Registers
 :
@@ -670,7 +638,6 @@ static
 constexpr
 Register
 lr
-=
 {
 Registers
 :
@@ -682,7 +649,6 @@ static
 constexpr
 Register
 rzr
-=
 {
 Registers
 :
@@ -2518,7 +2484,6 @@ static
 constexpr
 Register
 WasmTlsReg
-=
 {
 Registers
 :

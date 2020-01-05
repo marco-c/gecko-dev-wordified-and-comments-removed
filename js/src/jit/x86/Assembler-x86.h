@@ -80,7 +80,6 @@ static
 constexpr
 Register
 eax
-=
 {
 X86Encoding
 :
@@ -92,7 +91,6 @@ static
 constexpr
 Register
 ecx
-=
 {
 X86Encoding
 :
@@ -104,7 +102,6 @@ static
 constexpr
 Register
 edx
-=
 {
 X86Encoding
 :
@@ -116,7 +113,6 @@ static
 constexpr
 Register
 ebx
-=
 {
 X86Encoding
 :
@@ -128,7 +124,6 @@ static
 constexpr
 Register
 esp
-=
 {
 X86Encoding
 :
@@ -140,7 +135,6 @@ static
 constexpr
 Register
 ebp
-=
 {
 X86Encoding
 :
@@ -152,7 +146,6 @@ static
 constexpr
 Register
 esi
-=
 {
 X86Encoding
 :
@@ -164,7 +157,6 @@ static
 constexpr
 Register
 edi
-=
 {
 X86Encoding
 :
@@ -312,7 +304,6 @@ static
 constexpr
 Register
 InvalidReg
-=
 {
 X86Encoding
 :

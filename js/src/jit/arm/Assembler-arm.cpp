@@ -8947,7 +8947,6 @@ static
 constexpr
 Register
 NoAddend
-=
 {
 Registers
 :

@@ -54,7 +54,6 @@ static
 constexpr
 Register
 rax
-=
 {
 X86Encoding
 :
@@ -66,7 +65,6 @@ static
 constexpr
 Register
 rbx
-=
 {
 X86Encoding
 :
@@ -78,7 +76,6 @@ static
 constexpr
 Register
 rcx
-=
 {
 X86Encoding
 :
@@ -90,7 +87,6 @@ static
 constexpr
 Register
 rdx
-=
 {
 X86Encoding
 :
@@ -102,7 +98,6 @@ static
 constexpr
 Register
 rsi
-=
 {
 X86Encoding
 :
@@ -114,7 +109,6 @@ static
 constexpr
 Register
 rdi
-=
 {
 X86Encoding
 :
@@ -126,7 +120,6 @@ static
 constexpr
 Register
 rbp
-=
 {
 X86Encoding
 :
@@ -138,7 +131,6 @@ static
 constexpr
 Register
 r8
-=
 {
 X86Encoding
 :
@@ -150,7 +142,6 @@ static
 constexpr
 Register
 r9
-=
 {
 X86Encoding
 :
@@ -162,7 +153,6 @@ static
 constexpr
 Register
 r10
-=
 {
 X86Encoding
 :
@@ -174,7 +164,6 @@ static
 constexpr
 Register
 r11
-=
 {
 X86Encoding
 :
@@ -186,7 +175,6 @@ static
 constexpr
 Register
 r12
-=
 {
 X86Encoding
 :
@@ -198,7 +186,6 @@ static
 constexpr
 Register
 r13
-=
 {
 X86Encoding
 :
@@ -210,7 +197,6 @@ static
 constexpr
 Register
 r14
-=
 {
 X86Encoding
 :
@@ -222,7 +208,6 @@ static
 constexpr
 Register
 r15
-=
 {
 X86Encoding
 :
@@ -234,7 +219,6 @@ static
 constexpr
 Register
 rsp
-=
 {
 X86Encoding
 :
@@ -574,7 +558,6 @@ static
 constexpr
 Register
 InvalidReg
-=
 {
 X86Encoding
 :
