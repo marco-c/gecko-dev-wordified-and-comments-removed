@@ -258,6 +258,25 @@ path
 -
 =
 items
+                        
+if
+len
+(
+paths
+[
+path
+]
+)
+=
+=
+0
+:
+                            
+del
+paths
+[
+path
+]
             
 yield
 item_type
@@ -304,10 +323,6 @@ None
             
 return
         
-is_reference
-=
-False
-        
 if
 isinstance
 (
@@ -340,16 +355,8 @@ url
 ]
 =
 item
-            
-is_reference
-=
-item
-.
-is_reference
         
-if
-not
-is_reference
+else
 :
             
 self
@@ -1628,6 +1635,12 @@ source_files
 source_files
 )
         
+self
+.
+update_reftests
+(
+)
+        
 return
 self
 class
@@ -1719,10 +1732,6 @@ None
             
 return
         
-is_reference
-=
-False
-        
 if
 isinstance
 (
@@ -1755,16 +1764,8 @@ url
 ]
 =
 item
-            
-is_reference
-=
-item
-.
-is_reference
         
-if
-not
-is_reference
+else
 :
             
 self

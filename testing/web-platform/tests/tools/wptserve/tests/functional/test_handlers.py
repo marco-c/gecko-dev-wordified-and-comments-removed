@@ -3,6 +3,8 @@ json
 import
 os
 import
+pytest
+import
 unittest
 import
 urllib2
@@ -11,6 +13,7 @@ uuid
 import
 wptserve
 from
+.
 base
 import
 TestUsingServer
@@ -45,7 +48,7 @@ txt
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -57,7 +60,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 text
@@ -80,7 +83,7 @@ Type
         
 self
 .
-assertEquals
+assertEqual
 (
 open
 (
@@ -97,6 +100,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -132,7 +138,7 @@ txt
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -144,7 +150,30 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
+(
+"
+text
+/
+html
+"
+resp
+.
+info
+(
+)
+[
+"
+Content
+-
+Type
+"
+]
+)
+        
+self
+.
+assertEqual
 (
 "
 PASS
@@ -183,7 +212,7 @@ Header
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -211,6 +240,28 @@ Another
 Header
 "
 ]
+)
+        
+self
+.
+assertEqual
+(
+resp
+.
+info
+(
+)
+[
+"
+Double
+-
+Header
+"
+]
+"
+PA
+SS
+"
 )
     
 def
@@ -251,7 +302,7 @@ bytes
         
 self
 .
-assertEquals
+assertEqual
 (
 206
 resp
@@ -286,6 +337,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -294,7 +348,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 10
 len
@@ -305,7 +359,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 bytes
@@ -337,7 +391,7 @@ Range
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 10
@@ -358,7 +412,7 @@ Length
         
 self
 .
-assertEquals
+assertEqual
 (
 expected
 [
@@ -406,7 +460,7 @@ bytes
         
 self
 .
-assertEquals
+assertEqual
 (
 206
 resp
@@ -441,6 +495,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -449,7 +506,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -465,7 +522,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 bytes
@@ -506,7 +563,7 @@ Range
         
 self
 .
-assertEquals
+assertEqual
 (
 expected
 [
@@ -553,7 +610,7 @@ bytes
         
 self
 .
-assertEquals
+assertEqual
 (
 206
 resp
@@ -588,6 +645,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -596,7 +656,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 10
 len
@@ -607,7 +667,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 bytes
@@ -628,19 +688,18 @@ expected
 )
 -
 10
-                                              
 len
 (
 expected
 )
 -
 1
-                                              
 len
 (
 expected
 )
 )
+                         
 resp
 .
 info
@@ -657,7 +716,7 @@ Range
         
 self
 .
-assertEquals
+assertEqual
 (
 expected
 [
@@ -712,7 +771,7 @@ bytes
         
 self
 .
-assertEquals
+assertEqual
 (
 206
 resp
@@ -747,6 +806,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -825,7 +887,7 @@ boundary
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 \
@@ -841,7 +903,7 @@ parts
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -958,7 +1020,7 @@ strip
             
 self
 .
-assertEquals
+assertEqual
 (
 headers
 [
@@ -977,7 +1039,7 @@ plain
             
 self
 .
-assertEquals
+assertEqual
 (
 headers
 [
@@ -1010,7 +1072,7 @@ expected
             
 self
 .
-assertEquals
+assertEqual
 (
 expected_part
 [
@@ -1075,7 +1137,7 @@ bytes
         
 self
 .
-assertEquals
+assertEqual
 (
 cm
 .
@@ -1102,6 +1164,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -1165,7 +1230,7 @@ expected
         
 self
 .
-assertEquals
+assertEqual
 (
 cm
 .
@@ -1174,6 +1239,167 @@ exception
 code
 416
 )
+    
+def
+test_sub_config
+(
+self
+)
+:
+        
+resp
+=
+self
+.
+request
+(
+"
+/
+sub
+.
+sub
+.
+txt
+"
+)
+        
+expected
+=
+b
+"
+localhost
+localhost
+%
+i
+"
+%
+self
+.
+server
+.
+port
+        
+assert
+resp
+.
+read
+(
+)
+.
+rstrip
+(
+)
+=
+=
+expected
+    
+def
+test_sub_headers
+(
+self
+)
+:
+        
+resp
+=
+self
+.
+request
+(
+"
+/
+sub_headers
+.
+sub
+.
+txt
+"
+headers
+=
+{
+"
+X
+-
+Test
+"
+:
+"
+PASS
+"
+}
+)
+        
+expected
+=
+b
+"
+PASS
+"
+        
+assert
+resp
+.
+read
+(
+)
+.
+rstrip
+(
+)
+=
+=
+expected
+    
+def
+test_sub_params
+(
+self
+)
+:
+        
+resp
+=
+self
+.
+request
+(
+"
+/
+sub_params
+.
+sub
+.
+txt
+"
+query
+=
+"
+test
+=
+PASS
+"
+)
+        
+expected
+=
+b
+"
+PASS
+"
+        
+assert
+resp
+.
+read
+(
+)
+.
+rstrip
+(
+)
+=
+=
+expected
 class
 TestFunctionHandler
 (
@@ -1249,7 +1475,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -1261,7 +1487,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 9
@@ -1282,7 +1508,7 @@ Length
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1294,6 +1520,91 @@ read
 (
 )
 )
+    
+def
+test_tuple_1_rv
+(
+self
+)
+:
+        
+wptserve
+.
+handlers
+.
+handler
+        
+def
+handler
+(
+request
+response
+)
+:
+            
+return
+(
+)
+        
+route
+=
+(
+"
+GET
+"
+"
+/
+test
+/
+test_tuple_1_rv
+"
+handler
+)
+        
+self
+.
+server
+.
+router
+.
+register
+(
+*
+route
+)
+        
+with
+pytest
+.
+raises
+(
+urllib2
+.
+HTTPError
+)
+as
+cm
+:
+            
+self
+.
+request
+(
+route
+[
+1
+]
+)
+        
+assert
+cm
+.
+value
+.
+code
+=
+=
+500
     
 def
 test_tuple_2_rv
@@ -1385,7 +1696,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -1397,7 +1708,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 4
@@ -1418,7 +1729,7 @@ Length
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1441,7 +1752,7 @@ header
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1536,7 +1847,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 202
 resp
@@ -1548,7 +1859,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1571,7 +1882,7 @@ header
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1673,7 +1984,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 202
 resp
@@ -1685,7 +1996,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 Some
@@ -1698,7 +2009,7 @@ msg
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1721,7 +2032,7 @@ header
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1733,6 +2044,210 @@ read
 (
 )
 )
+    
+def
+test_tuple_4_rv
+(
+self
+)
+:
+        
+wptserve
+.
+handlers
+.
+handler
+        
+def
+handler
+(
+request
+response
+)
+:
+            
+return
+202
+[
+(
+"
+test
+-
+header
+"
+"
+test
+-
+value
+"
+)
+]
+"
+test
+data
+"
+"
+garbage
+"
+        
+route
+=
+(
+"
+GET
+"
+"
+/
+test
+/
+test_tuple_1_rv
+"
+handler
+)
+        
+self
+.
+server
+.
+router
+.
+register
+(
+*
+route
+)
+        
+with
+pytest
+.
+raises
+(
+urllib2
+.
+HTTPError
+)
+as
+cm
+:
+            
+self
+.
+request
+(
+route
+[
+1
+]
+)
+        
+assert
+cm
+.
+value
+.
+code
+=
+=
+500
+    
+def
+test_none_rv
+(
+self
+)
+:
+        
+wptserve
+.
+handlers
+.
+handler
+        
+def
+handler
+(
+request
+response
+)
+:
+            
+return
+None
+        
+route
+=
+(
+"
+GET
+"
+"
+/
+test
+/
+test_none_rv
+"
+handler
+)
+        
+self
+.
+server
+.
+router
+.
+register
+(
+*
+route
+)
+        
+resp
+=
+self
+.
+request
+(
+route
+[
+1
+]
+)
+        
+assert
+resp
+.
+getcode
+(
+)
+=
+=
+200
+        
+assert
+"
+Content
+-
+Length
+"
+not
+in
+resp
+.
+info
+(
+)
+        
+assert
+resp
+.
+read
+(
+)
+=
+=
+b
+"
+"
 class
 TestJSONHandler
 (
@@ -1814,7 +2329,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -1826,7 +2341,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 {
 "
@@ -1934,7 +2449,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -1946,7 +2461,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -1969,7 +2484,7 @@ header
         
 self
 .
-assertEquals
+assertEqual
 (
 {
 "
@@ -2083,7 +2598,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 202
 resp
@@ -2095,7 +2610,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 Giraffe
@@ -2107,7 +2622,7 @@ msg
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 test
@@ -2130,7 +2645,7 @@ header
         
 self
 .
-assertEquals
+assertEqual
 (
 {
 "
@@ -2179,7 +2694,7 @@ py
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -2191,7 +2706,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 text
@@ -2214,7 +2729,7 @@ Type
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 PASS
@@ -2249,7 +2764,7 @@ py
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -2261,7 +2776,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 text
@@ -2284,7 +2799,7 @@ Type
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 PASS
@@ -2305,7 +2820,7 @@ Test
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 PASS
@@ -2340,7 +2855,7 @@ py
         
 self
 .
-assertEquals
+assertEqual
 (
 202
 resp
@@ -2352,7 +2867,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 Giraffe
@@ -2364,7 +2879,7 @@ msg
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 text
@@ -2387,7 +2902,7 @@ Type
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 PASS
@@ -2408,7 +2923,7 @@ Test
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 PASS
@@ -2419,6 +2934,132 @@ read
 (
 )
 )
+    
+def
+test_no_main
+(
+self
+)
+:
+        
+with
+pytest
+.
+raises
+(
+urllib2
+.
+HTTPError
+)
+as
+cm
+:
+            
+self
+.
+request
+(
+"
+/
+no_main
+.
+py
+"
+)
+        
+assert
+cm
+.
+value
+.
+code
+=
+=
+500
+    
+def
+test_invalid
+(
+self
+)
+:
+        
+with
+pytest
+.
+raises
+(
+urllib2
+.
+HTTPError
+)
+as
+cm
+:
+            
+self
+.
+request
+(
+"
+/
+invalid
+.
+py
+"
+)
+        
+assert
+cm
+.
+value
+.
+code
+=
+=
+500
+    
+def
+test_missing
+(
+self
+)
+:
+        
+with
+pytest
+.
+raises
+(
+urllib2
+.
+HTTPError
+)
+as
+cm
+:
+            
+self
+.
+request
+(
+"
+/
+missing
+.
+py
+"
+)
+        
+assert
+cm
+.
+value
+.
+code
+=
+=
+404
 class
 TestDirectoryHandler
 (
@@ -2446,7 +3087,7 @@ request
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -2458,7 +3099,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 text
@@ -2478,6 +3119,97 @@ Type
 "
 ]
 )
+    
+def
+test_subdirectory_trailing_slash
+(
+self
+)
+:
+        
+resp
+=
+self
+.
+request
+(
+"
+/
+subdir
+/
+"
+)
+        
+assert
+resp
+.
+getcode
+(
+)
+=
+=
+200
+        
+assert
+resp
+.
+info
+(
+)
+[
+"
+Content
+-
+Type
+"
+]
+=
+=
+"
+text
+/
+html
+"
+    
+def
+test_subdirectory_no_trailing_slash
+(
+self
+)
+:
+        
+with
+pytest
+.
+raises
+(
+urllib2
+.
+HTTPError
+)
+as
+cm
+:
+            
+self
+.
+request
+(
+"
+/
+subdir
+"
+)
+        
+assert
+cm
+.
+value
+.
+code
+=
+=
+404
 class
 TestAsIsHandler
 (
@@ -2508,7 +3240,7 @@ asis
         
 self
 .
-assertEquals
+assertEqual
 (
 202
 resp
@@ -2520,7 +3252,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 Giraffe
@@ -2532,7 +3264,7 @@ msg
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 PASS
@@ -2553,7 +3285,7 @@ Test
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 Content

@@ -2174,14 +2174,6 @@ name
 properties
 )
 ;
-test
-.
-step
-(
-function
-(
-)
-{
 if
 (
 !
@@ -2201,9 +2193,6 @@ resolve
 )
 ;
 }
-}
-)
-;
 tests
 .
 promise_tests

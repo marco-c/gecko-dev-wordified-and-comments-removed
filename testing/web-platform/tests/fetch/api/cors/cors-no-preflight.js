@@ -50,10 +50,8 @@ js
 importScripts
 (
 "
-.
-.
 /
-resources
+common
 /
 get
 -

@@ -41,7 +41,7 @@ assertionType
 "
 :
 "
-may
+should
 "
 "
 expectedResult
@@ -72,10 +72,8 @@ not
 found
 .
 Annotation
-may
+should
 have
-zero
-or
 exactly
 one
 created

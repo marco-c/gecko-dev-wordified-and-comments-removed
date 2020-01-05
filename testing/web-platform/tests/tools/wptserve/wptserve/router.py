@@ -5,6 +5,7 @@ re
 import
 types
 from
+.
 logger
 import
 get_logger
@@ -530,7 +531,8 @@ route_pattern
     
 assert
 unmatched
-is
+=
+=
 "
 "
 unmatched

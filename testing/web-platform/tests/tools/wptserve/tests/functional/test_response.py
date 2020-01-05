@@ -1,13 +1,5 @@
 import
-os
-import
 unittest
-import
-urllib2
-import
-json
-import
-time
 from
 types
 import
@@ -15,10 +7,10 @@ MethodType
 import
 wptserve
 from
+.
 base
 import
 TestUsingServer
-doc_root
 def
 send_body_as_header
 (
@@ -173,7 +165,7 @@ HEAD
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 6
@@ -194,7 +186,7 @@ Length
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 TEST
@@ -215,7 +207,7 @@ Test
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 "
@@ -348,7 +340,7 @@ HEAD
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 6
@@ -369,7 +361,7 @@ Length
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 TEST
@@ -390,7 +382,7 @@ Test
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 body

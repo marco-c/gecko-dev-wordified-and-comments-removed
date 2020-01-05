@@ -49,8 +49,9 @@ Event
 from
 .
 .
-import
 localpaths
+import
+repo_root
 import
 sslutils
 from
@@ -76,11 +77,6 @@ import
 standalone
 as
 pywebsocket
-repo_root
-=
-localpaths
-.
-repo_root
 def
 replace_end
 (

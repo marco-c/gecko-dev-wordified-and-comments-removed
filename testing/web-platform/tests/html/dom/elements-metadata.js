@@ -173,11 +173,6 @@ type
 "
 string
 "
-scoped
-:
-"
-boolean
-"
 }
 }
 ;

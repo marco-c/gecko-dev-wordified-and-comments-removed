@@ -1,18 +1,14 @@
 import
-os
-import
 unittest
 import
 urllib2
 import
-json
-import
 wptserve
 from
+.
 base
 import
 TestUsingServer
-doc_root
 class
 TestFileHandler
 (
@@ -54,7 +50,7 @@ not_existing
         
 self
 .
-assertEquals
+assertEqual
 (
 cm
 .
@@ -162,7 +158,7 @@ original
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -174,7 +170,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 /
@@ -275,7 +271,7 @@ raises
         
 self
 .
-assertEquals
+assertEqual
 (
 cm
 .

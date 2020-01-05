@@ -5,11 +5,6 @@ tabularElements
 table
 :
 {
-sortable
-:
-"
-boolean
-"
 align
 :
 "

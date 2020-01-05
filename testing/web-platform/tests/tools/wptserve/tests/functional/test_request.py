@@ -1,20 +1,12 @@
 import
-os
-import
 unittest
-import
-urllib2
-import
-json
-import
-time
 import
 wptserve
 from
+.
 base
 import
 TestUsingServer
-doc_root
 class
 TestInputFile
 (
@@ -242,7 +234,7 @@ ncdef
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -254,7 +246,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "
@@ -277,7 +269,7 @@ cdef
 "
 12
 "
-                           
+                          
 "
 12345ab
 \
@@ -292,7 +284,7 @@ n
 cdef
 "
 ]
-                          
+                         
 resp
 .
 read
@@ -403,7 +395,7 @@ nzyxwv
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -415,7 +407,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "
@@ -541,7 +533,7 @@ ncdef
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 12345ab
@@ -645,7 +637,7 @@ some_route
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 some
@@ -756,7 +748,7 @@ PASS
         
 self
 .
-assertEquals
+assertEqual
 (
 200
 resp
@@ -768,7 +760,7 @@ getcode
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "

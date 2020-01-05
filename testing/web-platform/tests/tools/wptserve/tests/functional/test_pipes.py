@@ -3,14 +3,9 @@ os
 import
 unittest
 import
-urllib2
-import
-json
-import
 time
-import
-wptserve
 from
+.
 base
 import
 TestUsingServer
@@ -55,7 +50,7 @@ status
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -107,7 +102,7 @@ PASS
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -164,7 +159,7 @@ html
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -231,7 +226,7 @@ html
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -252,7 +247,7 @@ PASS
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -319,7 +314,7 @@ html
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -385,7 +380,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -460,6 +455,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -468,7 +466,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -531,6 +529,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -539,7 +540,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -602,6 +603,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -610,7 +614,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -665,8 +669,6 @@ localhost
 localhost
 %
 i
-\
-n
 "
 %
 self
@@ -677,11 +679,15 @@ port
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
 read
+(
+)
+.
+rstrip
 (
 )
 expected
@@ -732,17 +738,19 @@ expected
 =
 "
 PASS
-\
-n
 "
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
 read
+(
+)
+.
+rstrip
 (
 )
 expected
@@ -784,17 +792,19 @@ expected
 =
 "
 PASS
-\
-n
 "
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
 read
+(
+)
+.
+rstrip
 (
 )
 expected
@@ -878,6 +888,9 @@ document
 txt
 "
 )
+'
+rb
+'
 )
 .
 read
@@ -886,7 +899,7 @@ read
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .

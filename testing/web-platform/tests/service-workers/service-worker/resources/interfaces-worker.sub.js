@@ -59,11 +59,6 @@ clients
 '
 object
 '
-close
-:
-'
-function
-'
 registration
 :
 '

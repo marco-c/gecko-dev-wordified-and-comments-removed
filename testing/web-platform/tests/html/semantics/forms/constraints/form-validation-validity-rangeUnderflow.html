@@ -204,6 +204,8 @@ types
 [
 "
 datetime
+-
+local
 "
 ]
 testData
@@ -228,7 +230,7 @@ value
 :
 00
 :
-00Z
+00
 "
 }
 expected
@@ -263,7 +265,7 @@ min
 :
 00
 :
-00Z
+00
 "
 value
 :
@@ -301,7 +303,7 @@ min
 :
 00
 :
-00Z
+00
 "
 value
 :
@@ -314,7 +316,7 @@ value
 :
 00
 :
-00Z
+00
 "
 }
 expected
@@ -332,7 +334,7 @@ attribute
 is
 an
 invalid
-global
+local
 date
 time
 string
@@ -353,7 +355,7 @@ min
 :
 00
 :
-00Z
+00
 "
 value
 :
@@ -366,7 +368,7 @@ value
 :
 00
 :
-00Z
+00
 "
 }
 expected
@@ -404,7 +406,7 @@ min
 :
 59
 :
-59Z
+59
 "
 value
 :
@@ -417,7 +419,7 @@ value
 :
 00
 :
-00Z
+00
 "
 }
 expected
@@ -434,7 +436,9 @@ value
 is
 an
 invalid
-datetime
+local
+date
+time
 string
 (
 hour
@@ -458,7 +462,7 @@ min
 -
 01T12
 :
-00Z
+00
 "
 value
 :
@@ -469,7 +473,7 @@ value
 -
 01T12
 :
-00Z
+00
 "
 }
 expected
@@ -486,6 +490,7 @@ value
 is
 an
 invalid
+local
 date
 time
 string
@@ -512,7 +517,7 @@ min
 :
 00
 :
-00Z
+00
 "
 value
 :
@@ -525,7 +530,7 @@ value
 :
 00
 :
-00Z
+00
 "
 }
 expected
@@ -562,7 +567,7 @@ min
 :
 00
 .
-2Z
+2
 "
 value
 :
@@ -577,7 +582,7 @@ value
 :
 00
 .
-1Z
+1
 "
 }
 expected
@@ -621,7 +626,7 @@ min
 :
 00
 .
-02Z
+02
 "
 value
 :
@@ -636,7 +641,7 @@ value
 :
 00
 .
-01Z
+01
 "
 }
 expected
@@ -680,7 +685,7 @@ min
 :
 00
 .
-002Z
+002
 "
 value
 :
@@ -695,7 +700,7 @@ value
 :
 00
 .
-001Z
+001
 "
 }
 expected
@@ -737,7 +742,7 @@ min
 :
 00
 :
-00Z
+00
 "
 value
 :
@@ -750,7 +755,7 @@ value
 :
 00
 :
-00Z
+00
 "
 }
 expected
@@ -782,7 +787,7 @@ valid
 conditions
 :
 {
-min
+max
 :
 "
 8593
@@ -790,10 +795,6 @@ min
 01
 -
 01T02
-:
-09
-+
-02
 :
 09
 "
@@ -807,15 +808,11 @@ value
 01T02
 :
 09
-+
-02
-:
-09
 "
 }
 expected
 :
-true
+false
 name
 :
 "
@@ -828,10 +825,6 @@ is
 greater
 than
 max
-(
-with
-timezone
-)
 "
 }
 ]

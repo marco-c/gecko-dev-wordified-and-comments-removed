@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 base64
 import
@@ -18,6 +22,18 @@ logging
 .
 basicConfig
 (
+)
+wptserve
+.
+logger
+.
+set_logger
+(
+logging
+.
+getLogger
+(
+)
 )
 here
 =
@@ -128,7 +144,9 @@ data
 )
         
 print
+(
 data
+)
         
 self
 .
@@ -386,7 +404,7 @@ s
 %
 base64
 .
-encodestring
+b64encode
 (
 '
 %

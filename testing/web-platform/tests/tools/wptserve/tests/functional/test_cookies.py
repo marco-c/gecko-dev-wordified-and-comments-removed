@@ -1,18 +1,12 @@
 import
-os
-import
 unittest
-import
-urllib2
-import
-json
 import
 wptserve
 from
+.
 base
 import
 TestUsingServer
-doc_root
 class
 TestResponseSetCookie
 (
@@ -99,7 +93,7 @@ route
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
@@ -343,7 +337,7 @@ item
         
 self
 .
-assertEquals
+assertEqual
 (
 parts
 [
@@ -357,7 +351,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 parts
 [
@@ -463,13 +457,14 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 resp
 .
 read
 (
 )
+b
 "
 value
 "
