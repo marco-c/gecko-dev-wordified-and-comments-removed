@@ -3145,7 +3145,7 @@ binding_danger
 AssertAndSuppressCleanupPolicy
 "
 "
-RawServoAnimationValueBorrowedListBorrowed
+RawServoAnimationValueMapBorrowed
 "
 ]
 ;
@@ -3877,6 +3877,9 @@ RawGeckoAnimationValueList
 RawServoAnimationValue
 "
 "
+RawServoAnimationValueMap
+"
+"
 RawServoDeclarationBlock
 "
 "
@@ -4112,9 +4115,6 @@ ServoStyleSheet
 "
 "
 EffectCompositor_CascadeLevel
-"
-"
-RawServoAnimationValueBorrowedListBorrowed
 "
 ]
 ;
