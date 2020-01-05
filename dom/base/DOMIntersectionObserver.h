@@ -319,6 +319,10 @@ DOMIntersectionObserver
 (
 )
 {
+Disconnect
+(
+)
+;
 }
 public
 :
@@ -539,6 +543,14 @@ aTarget
 ;
 void
 Unobserve
+(
+Element
+&
+aTarget
+)
+;
+bool
+UnlinkTarget
 (
 Element
 &
