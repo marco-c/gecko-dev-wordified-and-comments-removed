@@ -23,7 +23,7 @@ GlyphStore
 }
 ;
 use
-servo_gfx_font
+font
 :
 :
 {
@@ -59,6 +59,7 @@ GlyphStore
 }
 /
 /
+/
 This
 is
 a
@@ -69,8 +70,6 @@ are
 normally
 sendable
 or
-/
-/
 we
 instead
 use
