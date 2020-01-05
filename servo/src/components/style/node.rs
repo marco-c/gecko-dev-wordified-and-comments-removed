@@ -218,4 +218,17 @@ self
 >
 bool
 ;
+fn
+get_id
+(
+&
+self
+)
+-
+>
+Option
+<
+Atom
+>
+;
 }
