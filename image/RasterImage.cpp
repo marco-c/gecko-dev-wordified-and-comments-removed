@@ -6247,9 +6247,8 @@ mAnimationState
 mAnimationState
 -
 >
-SetDoneDecoding
+NotifyDecodeComplete
 (
-true
 )
 ;
 }
