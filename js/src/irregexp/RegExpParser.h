@@ -746,6 +746,12 @@ ReportError
 (
 unsigned
 errorNumber
+const
+char
+*
+param
+=
+nullptr
 )
 ;
 void

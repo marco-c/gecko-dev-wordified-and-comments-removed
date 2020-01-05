@@ -1027,6 +1027,10 @@ ReportError
 (
 unsigned
 errorNumber
+const
+char
+*
+param
 )
 {
 gc
@@ -1047,6 +1051,7 @@ ts
 reportError
 (
 errorNumber
+param
 )
 ;
 return
@@ -1590,6 +1595,10 @@ NonBMPMax
 ReportError
 (
 JSMSG_UNICODE_OVERFLOW
+"
+regular
+expression
+"
 )
 ;
 return
