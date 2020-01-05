@@ -13122,7 +13122,7 @@ TaskCluster
         
 return
 '
-TASKCLUSTER_INSTANCE_TYPE
+TASKCLUSTER_WORKER_TYPE
 '
 in
 os
