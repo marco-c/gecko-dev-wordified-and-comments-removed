@@ -213,7 +213,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 )
 -

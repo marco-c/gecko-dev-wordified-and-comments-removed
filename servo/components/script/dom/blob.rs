@@ -227,7 +227,6 @@ new_inherited
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -280,6 +279,7 @@ GlobalField
 :
 from_rooted
 (
+&
 global
 )
 }
@@ -290,7 +290,6 @@ new
 (
 global
 :
-&
 GlobalRef
 bytes
 :
@@ -329,7 +328,6 @@ Blob
 bytes
 typeString
 )
-*
 global
 BlobBinding
 :
@@ -343,7 +341,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -376,7 +373,6 @@ Constructor_
 (
 global
 :
-&
 GlobalRef
 blobParts
 :
@@ -790,7 +786,6 @@ Blob
 :
 new
 (
-&
 global
 .
 r
@@ -875,7 +870,6 @@ Blob
 :
 new
 (
-&
 global
 .
 r

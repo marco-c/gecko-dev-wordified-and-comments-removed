@@ -333,7 +333,6 @@ new_inherited
 (
 global
 :
-&
 GlobalRef
 sender
 :
@@ -379,6 +378,7 @@ GlobalField
 :
 from_rooted
 (
+&
 global
 )
 sender
@@ -392,7 +392,6 @@ new
 (
 global
 :
-&
 GlobalRef
 sender
 :
@@ -422,7 +421,6 @@ new_inherited
 global
 sender
 )
-*
 global
 WorkerBinding
 :
@@ -436,7 +434,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 scriptURL
 :

@@ -287,7 +287,6 @@ new
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -317,7 +316,6 @@ CustomEvent
 :
 new_uninitialized
 (
-*
 global
 )
 .
@@ -362,7 +360,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 type_
 :

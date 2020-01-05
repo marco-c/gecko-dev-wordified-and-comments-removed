@@ -446,7 +446,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -477,7 +476,6 @@ MessageEvent
 :
 new
 (
-*
 global
 type_
 init

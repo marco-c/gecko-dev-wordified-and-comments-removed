@@ -178,7 +178,6 @@ new_inherited
 (
 global
 :
-&
 GlobalRef
 canvas
 :
@@ -214,6 +213,7 @@ GlobalField
 :
 from_rooted
 (
+&
 global
 )
 renderer
@@ -242,7 +242,6 @@ new
 (
 global
 :
-&
 GlobalRef
 canvas
 :
@@ -276,7 +275,6 @@ global
 canvas
 size
 )
-*
 global
 CanvasRenderingContext2DBinding
 :

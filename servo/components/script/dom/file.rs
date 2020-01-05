@@ -114,7 +114,6 @@ new_inherited
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -159,7 +158,6 @@ new
 (
 global
 :
-&
 GlobalRef
 file_bits
 :
@@ -194,7 +192,6 @@ File
 file_bits
 name
 )
-*
 global
 FileBinding
 :

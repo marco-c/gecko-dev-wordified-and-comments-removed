@@ -675,7 +675,6 @@ CanvasRenderingContext2D
 :
 new
 (
-&
 GlobalRef
 :
 :

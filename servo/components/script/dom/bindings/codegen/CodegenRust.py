@@ -30994,7 +30994,6 @@ CGMethodCall
 (
 [
 "
-&
 global
 .
 r

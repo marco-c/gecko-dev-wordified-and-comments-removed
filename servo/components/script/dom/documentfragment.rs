@@ -302,7 +302,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 )
 -
