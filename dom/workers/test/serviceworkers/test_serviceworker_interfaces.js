@@ -392,6 +392,9 @@ StorageManager
 nightly
 :
 true
+android
+:
+false
 }
 "
 SubtleCrypto

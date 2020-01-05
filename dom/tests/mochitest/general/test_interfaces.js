@@ -1786,6 +1786,9 @@ true
 isSecureContext
 :
 true
+android
+:
+false
 }
 "
 StyleSheet

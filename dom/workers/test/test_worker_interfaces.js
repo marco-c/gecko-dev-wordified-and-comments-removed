@@ -381,6 +381,9 @@ true
 isSecureContext
 :
 true
+android
+:
+false
 }
 "
 SubtleCrypto
