@@ -27,8 +27,6 @@ kVar_Kind
 kFunction_Kind
 kInterfaceBlock_Kind
 kExtension_Kind
-kPrecision_Kind
-kModifiers_Kind
 }
 ;
 ASTDeclaration

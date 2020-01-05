@@ -31,14 +31,9 @@ canvas
 )
 ;
 static
-std
-:
-:
-unique_ptr
-<
 SkCanvas
->
-MakeFromCanvasState
+*
+CreateFromCanvasState
 (
 const
 SkCanvasState

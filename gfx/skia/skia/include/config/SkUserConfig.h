@@ -52,6 +52,10 @@ define
 SK_DISABLE_SLOW_DEBUG_VALIDATION
 1
 #
+define
+MOZ_SKIA
+1
+#
 ifndef
 MOZ_IMPLICIT
 #
@@ -80,8 +84,5 @@ MOZ_IMPLICIT
 endif
 #
 endif
-#
-define
-MOZ_SKIA
 #
 endif

@@ -518,7 +518,6 @@ flags
 SkBinaryWriteBuffer
 (
 )
-override
 ;
 bool
 isCrossProcess
@@ -886,10 +885,8 @@ SkRefCntSet
 void
 setPixelSerializer
 (
-sk_sp
-<
 SkPixelSerializer
->
+*
 )
 ;
 SkPixelSerializer
@@ -901,10 +898,6 @@ const
 {
 return
 fPixelSerializer
-.
-get
-(
-)
 ;
 }
 private
@@ -924,7 +917,7 @@ SkRefCntSet
 *
 fTFSet
 ;
-sk_sp
+SkAutoTUnref
 <
 SkPixelSerializer
 >

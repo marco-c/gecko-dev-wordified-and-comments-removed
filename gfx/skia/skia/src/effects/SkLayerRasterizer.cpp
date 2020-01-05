@@ -87,6 +87,13 @@ h
 "
 #
 include
+"
+SkXfermode
+.
+h
+"
+#
+include
 <
 new
 >

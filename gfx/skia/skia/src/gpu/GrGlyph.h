@@ -7,7 +7,7 @@ GrGlyph_DEFINED
 #
 include
 "
-GrDrawOpAtlas
+GrBatchAtlas
 .
 h
 "
@@ -63,7 +63,7 @@ typedef
 uint32_t
 PackedID
 ;
-GrDrawOpAtlas
+GrBatchAtlas
 :
 :
 AtlasID
@@ -106,7 +106,7 @@ format
 {
 fID
 =
-GrDrawOpAtlas
+GrBatchAtlas
 :
 :
 kInvalidAtlasID
@@ -140,7 +140,7 @@ set
 ;
 fTooLargeForAtlas
 =
-GrDrawOpAtlas
+GrBatchAtlas
 :
 :
 GlyphTooLargeForAtlas

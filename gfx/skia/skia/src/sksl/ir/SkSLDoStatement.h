@@ -76,7 +76,10 @@ test
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )
@@ -123,6 +126,7 @@ Statement
 >
 fStatement
 ;
+const
 std
 :
 :

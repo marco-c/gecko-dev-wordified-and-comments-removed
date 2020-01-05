@@ -33,11 +33,11 @@ SkCodec
 *
 )
 ;
+virtual
 ~
 SkSampledCodec
 (
 )
-override
 {
 }
 protected

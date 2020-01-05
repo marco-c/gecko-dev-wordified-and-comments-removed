@@ -25,10 +25,8 @@ SkTypeface_win
 .
 h
 "
-sk_sp
-<
 SkFontMgr
->
+*
 SkFontMgr
 :
 :

@@ -460,11 +460,11 @@ SkPDFArray
 (
 )
 ;
+virtual
 ~
 SkPDFArray
 (
 )
-override
 ;
 void
 emitObject
@@ -629,11 +629,11 @@ type
 nullptr
 )
 ;
+virtual
 ~
 SkPDFDict
 (
 )
-override
 ;
 void
 emitObject
@@ -947,7 +947,6 @@ data
 SkPDFSharedStream
 (
 )
-override
 ;
 SkPDFDict
 *
@@ -1039,11 +1038,11 @@ SkStreamAsset
 stream
 )
 ;
+virtual
 ~
 SkPDFStream
 (
 )
-override
 ;
 SkPDFDict
 *

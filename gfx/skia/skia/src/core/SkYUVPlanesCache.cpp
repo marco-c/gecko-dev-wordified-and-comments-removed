@@ -172,7 +172,6 @@ attachToCacheAndRef
 YUVPlanesRec
 (
 )
-override
 {
 fValue
 .

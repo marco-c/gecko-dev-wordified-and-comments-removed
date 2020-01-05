@@ -128,7 +128,6 @@ virtual
 void
 onUpdateMenu
 (
-const
 SkOSMenu
 *
 )

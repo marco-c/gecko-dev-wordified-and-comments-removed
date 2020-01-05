@@ -25,7 +25,6 @@ sk_path_t
 *
 sk_path_new
 (
-void
 )
 ;
 SK_API

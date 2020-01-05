@@ -54,6 +54,13 @@ SkTypeface
 .
 h
 "
+#
+include
+"
+SkXfermode
+.
+h
+"
 SkTypefacePlayback
 :
 :

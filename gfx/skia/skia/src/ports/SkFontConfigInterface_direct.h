@@ -64,6 +64,15 @@ FontIdentity
 )
 override
 ;
+sk_sp
+<
+SkDataTable
+>
+getFamilyNames
+(
+)
+override
+;
 protected
 :
 virtual

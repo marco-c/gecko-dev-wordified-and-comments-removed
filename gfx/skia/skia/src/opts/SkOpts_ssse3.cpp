@@ -19,6 +19,13 @@ h
 #
 include
 "
+SkColorCubeFilter_opts
+.
+h
+"
+#
+include
+"
 SkSwizzler_opts
 .
 h
@@ -51,6 +58,13 @@ ssse3
 :
 :
 blit_mask_d32_a8
+;
+color_cube_filter_span
+=
+ssse3
+:
+:
+color_cube_filter_span
 ;
 RGBA_to_BGRA
 =

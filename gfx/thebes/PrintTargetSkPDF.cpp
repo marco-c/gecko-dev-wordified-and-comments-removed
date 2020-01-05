@@ -254,6 +254,8 @@ BeginPage
 {
 mPageCanvas
 =
+sk_ref_sp
+(
 mPDFDoc
 -
 >
@@ -265,6 +267,7 @@ width
 mSize
 .
 height
+)
 )
 ;
 return
@@ -429,6 +432,10 @@ Factory
 CreateDrawTargetWithSkCanvas
 (
 mPageCanvas
+.
+get
+(
+)
 )
 ;
 if
@@ -505,6 +512,8 @@ nullptr
 }
 mRefCanvas
 =
+sk_ref_sp
+(
 mRefPDFDoc
 -
 >
@@ -516,6 +525,7 @@ width
 mSize
 .
 height
+)
 )
 ;
 if
@@ -540,6 +550,10 @@ Factory
 CreateDrawTargetWithSkCanvas
 (
 mRefCanvas
+.
+get
+(
+)
 )
 ;
 if

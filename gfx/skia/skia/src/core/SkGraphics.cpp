@@ -147,6 +147,13 @@ h
 "
 #
 include
+"
+SkXfermode
+.
+h
+"
+#
+include
 <
 stdlib
 .

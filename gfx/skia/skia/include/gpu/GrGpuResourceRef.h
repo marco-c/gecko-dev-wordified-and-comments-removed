@@ -65,16 +65,6 @@ return
 fPendingIO
 ;
 }
-GrIOType
-ioType
-(
-)
-const
-{
-return
-fIOType
-;
-}
 void
 reset
 (
@@ -123,7 +113,7 @@ const
 ;
 friend
 class
-GrResourceIOProcessor
+GrProgramElement
 ;
 GrGpuResource
 *

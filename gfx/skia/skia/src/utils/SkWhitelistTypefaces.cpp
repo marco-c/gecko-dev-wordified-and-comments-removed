@@ -194,7 +194,7 @@ tf
 SkString
 fontNameStr
 ;
-sk_sp
+SkAutoTUnref
 <
 SkTypeface
 :
@@ -280,7 +280,7 @@ i
 #
 if
 WHITELIST_DEBUG
-sk_sp
+SkAutoTUnref
 <
 SkTypeface
 :

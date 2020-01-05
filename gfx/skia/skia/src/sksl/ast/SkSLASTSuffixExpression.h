@@ -77,7 +77,10 @@ suffix
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )

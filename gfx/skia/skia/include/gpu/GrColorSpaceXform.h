@@ -51,11 +51,9 @@ GrColorSpaceXform
 >
 Make
 (
-const
 SkColorSpace
 *
 src
-const
 SkColorSpace
 *
 dst
@@ -77,7 +75,6 @@ static
 uint32_t
 XformKey
 (
-const
 GrColorSpaceXform
 *
 xform

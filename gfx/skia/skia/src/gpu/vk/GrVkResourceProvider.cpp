@@ -8,7 +8,7 @@ h
 #
 include
 "
-GrSamplerParams
+GrTextureParams
 .
 h
 "
@@ -23,6 +23,13 @@ h
 include
 "
 GrVkCopyPipeline
+.
+h
+"
+#
+include
+"
+GrVkGLSLSampler
 .
 h
 "
@@ -286,10 +293,6 @@ GrPipeline
 &
 pipeline
 const
-GrStencilSettings
-&
-stencil
-const
 GrPrimitiveProcessor
 &
 primProc
@@ -316,7 +319,6 @@ Create
 (
 fGpu
 pipeline
-stencil
 primProc
 shaderStageInfo
 shaderStageCount
@@ -869,7 +871,7 @@ GrVkResourceProvider
 findOrCreateCompatibleSampler
 (
 const
-GrSamplerParams
+GrTextureParams
 &
 params
 uint32_t
@@ -1769,8 +1771,6 @@ GrVkResourceProvider
 :
 destroyResources
 (
-bool
-deviceLost
 )
 {
 for
@@ -1795,9 +1795,6 @@ i
 {
 SkASSERT
 (
-deviceLost
-|
-|
 fActiveCommandBuffers
 [
 i
@@ -1874,9 +1871,6 @@ i
 {
 SkASSERT
 (
-deviceLost
-|
-|
 fAvailableCommandBuffers
 [
 i

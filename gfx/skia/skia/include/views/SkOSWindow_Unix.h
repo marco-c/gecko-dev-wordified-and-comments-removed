@@ -71,7 +71,6 @@ void
 SkOSWindow
 (
 )
-override
 ;
 void
 *

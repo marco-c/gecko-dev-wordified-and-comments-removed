@@ -3787,11 +3787,14 @@ return
 ;
 }
 fCompressedData
-=
+.
+reset
+(
 compressedData
 .
 detachAsStream
 (
+)
 )
 ;
 fDict

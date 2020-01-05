@@ -21,7 +21,7 @@ h
 #
 include
 "
-SkEncodedImageFormat
+SkEncodedFormat
 .
 h
 "
@@ -88,13 +88,6 @@ SkColorType
 colorType
 bool
 requireUnpremul
-sk_sp
-<
-SkColorSpace
->
-prefColorSpace
-=
-nullptr
 )
 =
 0
@@ -110,7 +103,7 @@ colorType
 0
 ;
 virtual
-SkEncodedImageFormat
+SkEncodedFormat
 getEncodedFormat
 (
 )

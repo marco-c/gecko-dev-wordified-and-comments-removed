@@ -13,13 +13,6 @@ SkDiscardableMemory
 h
 "
 #
-include
-"
-SkMalloc
-.
-h
-"
-#
 ifdef
 TRACK_CACHEDDATA_LIFETIME
 static

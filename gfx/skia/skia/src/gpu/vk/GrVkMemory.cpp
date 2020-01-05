@@ -3061,10 +3061,7 @@ return
 false
 ;
 }
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 GrVkSubHeap
 >
@@ -3372,10 +3369,7 @@ return
 false
 ;
 }
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 GrVkSubHeap
 >

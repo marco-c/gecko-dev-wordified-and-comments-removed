@@ -5,13 +5,6 @@ SkGradientBitmapCache
 .
 h
 "
-#
-include
-"
-SkMalloc
-.
-h
-"
 struct
 SkGradientBitmapCache
 :

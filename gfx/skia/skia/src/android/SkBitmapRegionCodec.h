@@ -1,10 +1,4 @@
 #
-ifndef
-SkBitmapRegionCodec_DEFINED
-#
-define
-SkBitmapRegionCodec_DEFINED
-#
 include
 "
 SkBitmap
@@ -59,11 +53,6 @@ SkColorType
 colorType
 bool
 requireUnpremul
-sk_sp
-<
-SkColorSpace
->
-prefColorSpace
 )
 override
 ;
@@ -75,7 +64,7 @@ colorType
 )
 override
 ;
-SkEncodedImageFormat
+SkEncodedFormat
 getEncodedFormat
 (
 )
@@ -92,10 +81,7 @@ getEncodedFormat
 }
 private
 :
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 SkAndroidCodec
 >
@@ -107,5 +93,3 @@ INHERITED
 ;
 }
 ;
-#
-endif
