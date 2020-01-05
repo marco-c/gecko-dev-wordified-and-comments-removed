@@ -45,7 +45,7 @@ rect
 :
 Rect
 <
-uint
+f32
 >
 screen_pos
 :
