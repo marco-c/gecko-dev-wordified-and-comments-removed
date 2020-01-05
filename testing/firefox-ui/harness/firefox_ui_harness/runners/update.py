@@ -59,11 +59,14 @@ kwargs
 )
 :
         
-FirefoxUITestRunner
+super
+(
+UpdateTestRunner
+self
+)
 .
 __init__
 (
-self
 *
 *
 kwargs
@@ -244,11 +247,14 @@ test_tags
 =
 tags
                 
-FirefoxUITestRunner
+super
+(
+UpdateTestRunner
+self
+)
 .
 run_tests
 (
-self
 tests
 )
             

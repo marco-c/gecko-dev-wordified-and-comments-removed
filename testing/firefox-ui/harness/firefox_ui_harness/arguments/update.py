@@ -471,11 +471,14 @@ kwargs
 )
 :
         
-FirefoxUIArguments
+super
+(
+UpdateArguments
+self
+)
 .
 __init__
 (
-self
 *
 *
 kwargs
