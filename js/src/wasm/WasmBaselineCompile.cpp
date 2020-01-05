@@ -7674,7 +7674,7 @@ bool
 popConstI32
 (
 int32_t
-&
+*
 c
 )
 {
@@ -7705,6 +7705,7 @@ ConstI32
 return
 false
 ;
+*
 c
 =
 v
@@ -7728,7 +7729,7 @@ bool
 popConstI64
 (
 int64_t
-&
+*
 c
 )
 {
@@ -7759,6 +7760,7 @@ ConstI64
 return
 false
 ;
+*
 c
 =
 v
@@ -7880,10 +7882,10 @@ bool
 popConstPositivePowerOfTwoI32
 (
 int32_t
-&
+*
 c
 uint_fast8_t
-&
+*
 power
 int32_t
 cutoff
@@ -7916,6 +7918,7 @@ ConstI32
 return
 false
 ;
+*
 c
 =
 v
@@ -7926,6 +7929,7 @@ i32val
 ;
 if
 (
+*
 c
 <
 =
@@ -7940,6 +7944,7 @@ static_cast
 uint32_t
 >
 (
+*
 c
 )
 )
@@ -7947,10 +7952,12 @@ c
 return
 false
 ;
+*
 power
 =
 FloorLog2
 (
+*
 c
 )
 ;
@@ -7969,10 +7976,10 @@ bool
 popConstPositivePowerOfTwoI64
 (
 int64_t
-&
+*
 c
 uint_fast8_t
-&
+*
 power
 int64_t
 cutoff
@@ -8005,6 +8012,7 @@ ConstI64
 return
 false
 ;
+*
 c
 =
 v
@@ -8015,6 +8023,7 @@ i64val
 ;
 if
 (
+*
 c
 <
 =
@@ -8029,6 +8038,7 @@ static_cast
 uint64_t
 >
 (
+*
 c
 )
 )
@@ -8036,10 +8046,12 @@ c
 return
 false
 ;
+*
 power
 =
 FloorLog2
 (
+*
 c
 )
 ;
@@ -19044,6 +19056,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -19121,6 +19134,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -19276,6 +19290,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -19353,6 +19368,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -19766,7 +19782,9 @@ if
 (
 popConstPositivePowerOfTwoI32
 (
+&
 c
+&
 power
 0
 )
@@ -19964,7 +19982,9 @@ if
 (
 popConstPositivePowerOfTwoI32
 (
+&
 c
+&
 power
 0
 )
@@ -20100,7 +20120,9 @@ if
 (
 popConstPositivePowerOfTwoI32
 (
+&
 c
+&
 power
 1
 )
@@ -20328,7 +20350,9 @@ if
 (
 popConstPositivePowerOfTwoI32
 (
+&
 c
+&
 power
 1
 )
@@ -20461,7 +20485,9 @@ if
 (
 popConstPositivePowerOfTwoI64
 (
+&
 c
+&
 power
 0
 )
@@ -20629,7 +20655,9 @@ if
 (
 popConstPositivePowerOfTwoI64
 (
+&
 c
+&
 power
 0
 )
@@ -20753,7 +20781,9 @@ if
 (
 popConstPositivePowerOfTwoI64
 (
+&
 c
+&
 power
 1
 )
@@ -20951,7 +20981,9 @@ if
 (
 popConstPositivePowerOfTwoI64
 (
+&
 c
+&
 power
 1
 )
@@ -21652,6 +21684,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -21729,6 +21762,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -21806,6 +21840,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -21883,6 +21918,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -21960,6 +21996,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -22037,6 +22074,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -22114,6 +22152,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -22198,6 +22237,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -22280,6 +22320,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -22364,6 +22405,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -22446,6 +22488,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -22530,6 +22573,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -22612,6 +22656,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -22693,6 +22738,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -22814,6 +22860,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
@@ -22895,6 +22942,7 @@ if
 (
 popConstI64
 (
+&
 c
 )
 )
@@ -24898,6 +24946,7 @@ if
 (
 popConstI32
 (
+&
 b
 -
 >
@@ -29432,6 +29481,7 @@ if
 (
 popConstI32
 (
+&
 addrTmp
 )
 )
@@ -30857,6 +30907,7 @@ if
 (
 popConstI32
 (
+&
 c
 )
 )
