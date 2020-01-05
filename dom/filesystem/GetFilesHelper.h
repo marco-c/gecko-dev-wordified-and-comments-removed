@@ -196,7 +196,7 @@ mTargetPathArray
 ;
 nsTHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 >
 mExploredDirectories
 ;
