@@ -865,6 +865,7 @@ root
 let
 mobileRootId
 =
+yield
 PlacesUtils
 .
 promiseItemId
