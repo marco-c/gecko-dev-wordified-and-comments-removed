@@ -1216,11 +1216,11 @@ remove
 (
 )
 ;
-goNext
-(
+}
 )
 ;
-}
+goNext
+(
 )
 ;
 }
