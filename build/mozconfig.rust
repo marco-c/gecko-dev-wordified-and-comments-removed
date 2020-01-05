@@ -7,6 +7,14 @@ in
 automation
 builds
 .
+TOOLTOOL_DIR
+=
+{
+TOOLTOOL_DIR
+:
+-
+topsrcdir
+}
 #
 Tell
 configure
@@ -19,7 +27,7 @@ rustc
 RUSTC
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 rustc
 /
@@ -30,7 +38,7 @@ rustc
 CARGO
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 rustc
 /
