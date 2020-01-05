@@ -124,6 +124,7 @@ jsm
 var
 {
 SingletonEventManager
+runSafeSync
 }
 =
 ExtensionUtils
@@ -362,10 +363,9 @@ opt
 }
 }
 return
-context
-.
-runSafe
+runSafeSync
 (
+context
 callback
 data2
 )
