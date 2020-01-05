@@ -23,8 +23,8 @@ Element
 ElementKind
 HTMLDivElement
 HTMLImageElement
-node_data
-node_kind
+Node
+NodeData
 }
 ;
 import
@@ -35,7 +35,7 @@ base
 :
 :
 {
-Node
+NodeKind
 }
 ;
 import
@@ -778,7 +778,7 @@ dump_indent
 /
 Debugging
 impl
-node_methods_priv
+PrivateNodeMethods
 for
 Node
 {
@@ -892,7 +892,7 @@ indent
 }
 }
 impl
-node_methods
+NodeMethods
 for
 Node
 {
@@ -945,12 +945,12 @@ base
 :
 :
 {
+Element
 ElementData
 HTMLDivElement
 HTMLImageElement
-methods
-Element
-node_data
+Node
+NodeKind
 }
 ;
 import
@@ -961,8 +961,7 @@ base
 :
 :
 {
-Node
-node_kind
+NodeScope
 wr_tree_ops
 }
 ;

@@ -37,6 +37,15 @@ import
 dom
 :
 :
+base
+:
+:
+NodeScope
+;
+import
+dom
+:
+:
 rcu
 :
 :
@@ -114,10 +123,7 @@ join_layout
 (
 scope
 :
-dom
-:
-:
-node_scope
+NodeScope
 to_layout
 :
 chan
@@ -211,7 +217,7 @@ scope
 dom
 :
 :
-node_scope
+NodeScope
 (
 )
 ;

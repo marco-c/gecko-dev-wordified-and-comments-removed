@@ -42,7 +42,7 @@ HTMLDivElement
 HTMLHeadElement
 HTMLImageElement
 Node
-Text
+NodeKind
 }
 ;
 import
@@ -52,7 +52,9 @@ dom
 base
 :
 :
-node_kind
+{
+Text
+}
 ;
 import
 dom
@@ -149,7 +151,7 @@ default_style_for_node_kind
 (
 kind
 :
-node_kind
+NodeKind
 )
 -
 >

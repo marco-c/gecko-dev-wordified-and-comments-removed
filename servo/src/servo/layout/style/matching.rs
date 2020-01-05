@@ -1322,11 +1322,10 @@ base
 :
 :
 {
-node_scope
-methods
+Attr
 Element
-attr
 HTMLDivElement
+HTMLHeadElement
 HTMLImageElement
 }
 ;
@@ -1338,8 +1337,8 @@ base
 :
 :
 {
+NodeScope
 UnknownElement
-HTMLHeadElement
 wr_tree_ops
 }
 ;
@@ -1363,7 +1362,7 @@ new_node_from_attr
 (
 scope
 :
-node_scope
+NodeScope
 -
 name
 :
@@ -1393,7 +1392,7 @@ let
 attr
 =
 ~
-attr
+Attr
 (
 name
 val
@@ -1432,7 +1431,7 @@ test_match_pipe1
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
@@ -1495,7 +1494,7 @@ test_match_pipe2
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
@@ -1556,7 +1555,7 @@ test_not_match_pipe
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
@@ -1618,7 +1617,7 @@ test_match_includes
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
@@ -1681,7 +1680,7 @@ test_match_exists
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
@@ -1769,7 +1768,7 @@ test_match_exact
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
@@ -1857,7 +1856,7 @@ match_tree
 let
 scope
 =
-node_scope
+NodeScope
 (
 )
 ;
