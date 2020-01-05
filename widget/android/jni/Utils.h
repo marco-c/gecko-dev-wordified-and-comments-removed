@@ -104,6 +104,7 @@ DispatchTarget
 CURRENT
 PROXY
 GECKO
+GECKO_PRIORITY
 }
 ;
 extern
@@ -504,7 +505,7 @@ operator
 }
 ;
 void
-DispatchToGeckoThread
+DispatchToGeckoPriorityQueue
 (
 UniquePtr
 <

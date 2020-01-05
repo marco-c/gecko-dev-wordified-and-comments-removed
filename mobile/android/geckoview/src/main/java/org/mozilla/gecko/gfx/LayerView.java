@@ -387,7 +387,7 @@ any
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 native
