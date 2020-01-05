@@ -1,4 +1,16 @@
 use
+cssparser
+:
+:
+Parser
+;
+use
+media_queries
+:
+:
+CSSErrorReporterTest
+;
+use
 parsing
 :
 :
@@ -11,7 +23,19 @@ style
 parser
 :
 :
+{
 Parse
+ParserContext
+}
+;
+use
+style
+:
+:
+stylesheets
+:
+:
+Origin
 ;
 use
 style
@@ -43,7 +67,7 @@ test_position
 (
 )
 {
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -59,7 +83,7 @@ center
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -76,7 +100,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -93,7 +117,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -110,7 +134,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -127,7 +151,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -144,7 +168,7 @@ bottom
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -161,7 +185,7 @@ bottom
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -178,7 +202,7 @@ center
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -195,7 +219,7 @@ center
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -212,7 +236,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -229,7 +253,7 @@ bottom
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -246,7 +270,7 @@ center
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -265,7 +289,7 @@ center
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -326,7 +350,7 @@ is_err
 )
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -347,7 +371,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -368,7 +392,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -391,7 +415,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -414,7 +438,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -433,7 +457,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -452,7 +476,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -471,7 +495,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -490,7 +514,7 @@ top
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -509,7 +533,7 @@ bottom
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -528,7 +552,7 @@ bottom
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position
@@ -547,7 +571,7 @@ center
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 Position

@@ -17,7 +17,10 @@ use
 parser
 :
 :
+{
 Parse
+ParserContext
+}
 ;
 use
 properties
@@ -568,6 +571,10 @@ SpecifiedValue
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &

@@ -8,6 +8,12 @@ ToCss
 }
 ;
 use
+media_queries
+:
+:
+CSSErrorReporterTest
+;
+use
 selectors
 :
 :
@@ -15,6 +21,15 @@ parser
 :
 :
 SelectorList
+;
+use
+style
+:
+:
+parser
+:
+:
+ParserContext
 ;
 use
 style
@@ -43,6 +58,10 @@ Namespaces
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -128,7 +147,7 @@ test_selectors
 (
 )
 {
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 parse
@@ -137,7 +156,7 @@ div
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 parse
@@ -148,7 +167,7 @@ circle
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 parse
@@ -165,7 +184,7 @@ before
 "
 )
 ;
-assert_roundtrip
+assert_roundtrip_with_context
 !
 (
 parse

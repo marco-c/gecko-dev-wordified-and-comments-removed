@@ -166,6 +166,9 @@ BorderStyle
 :
 none
 "
+needs_context
+=
+False
 need_clone
 =
 True
@@ -270,7 +273,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -294,6 +297,7 @@ BorderWidth
 :
 parse
 (
+context
 input
 )
 }
@@ -3959,6 +3963,10 @@ SingleSpecifiedValue
 fn
 parse
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -4025,6 +4033,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 )
@@ -4073,7 +4082,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -4124,6 +4133,7 @@ SingleSpecifiedValue
 :
 parse
 (
+context
 input
 )
 )
@@ -5531,6 +5541,10 @@ PercentageOrNumber
 fn
 parse
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -5565,6 +5579,7 @@ Percentage
 :
 parse
 (
+context
 input
 )
 )
@@ -5613,7 +5628,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -5689,6 +5704,7 @@ PercentageOrNumber
 :
 parse
 (
+context
 input
 )
 )

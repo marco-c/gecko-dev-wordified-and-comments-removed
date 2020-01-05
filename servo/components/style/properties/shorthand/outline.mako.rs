@@ -135,6 +135,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -142,6 +145,10 @@ CSSColor
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 color

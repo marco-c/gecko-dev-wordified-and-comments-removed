@@ -271,9 +271,6 @@ T
 :
 None
 "
-needs_context
-=
-True
 animatable
 =
 "

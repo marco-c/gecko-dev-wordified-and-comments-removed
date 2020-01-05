@@ -1263,7 +1263,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -1286,6 +1286,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -1293,6 +1296,10 @@ LengthOrPercentage
 :
 :
 parse
+(
+context
+i
+)
 )
 .
 map
@@ -2493,7 +2500,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -2523,10 +2530,17 @@ input
 .
 parse_comma_separated
 (
+|
+i
+|
 Time
 :
 :
 parse
+(
+context
+i
+)
 )
 )
 )
@@ -2950,7 +2964,10 @@ use
 parser
 :
 :
+{
 Parse
+ParserContext
+}
 ;
 use
 std
@@ -3042,6 +3059,10 @@ TransitionTimingFunction
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -4090,7 +4111,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -4120,10 +4141,19 @@ input
 .
 parse_comma_separated
 (
+|
+i
+|
+{
 TransitionTimingFunction
 :
 :
 parse
+(
+context
+i
+)
+}
 )
 )
 )
@@ -4427,7 +4457,7 @@ pub
 fn
 parse
 (
-_
+_context
 :
 &
 ParserContext
@@ -4621,7 +4651,10 @@ use
 parser
 :
 :
+{
 Parse
+ParserContext
+}
 ;
 use
 std
@@ -4734,6 +4767,10 @@ AnimationName
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -5063,7 +5100,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -5102,10 +5139,17 @@ input
 .
 parse_comma_separated
 (
+|
+i
+|
 SingleSpecifiedValue
 :
 :
 parse
+(
+context
+i
+)
 )
 )
 )
@@ -5337,7 +5381,10 @@ use
 parser
 :
 :
+{
 Parse
+ParserContext
+}
 ;
 use
 std
@@ -5402,6 +5449,10 @@ AnimationIterationCount
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -5777,7 +5828,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -5807,10 +5858,19 @@ input
 .
 parse_comma_separated
 (
+|
+i
+|
+{
 AnimationIterationCount
 :
 :
 parse
+(
+context
+i
+)
+}
 )
 )
 )
@@ -7202,6 +7262,10 @@ SpecifiedMatrix
 fn
 parse_two_lengths_or_percentages
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -7240,6 +7304,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 )
@@ -7273,6 +7338,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 }
@@ -7382,6 +7448,10 @@ second
 fn
 parse_two_angles
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -7420,6 +7490,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -7453,6 +7524,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 }
@@ -8346,7 +8418,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -8820,6 +8892,7 @@ try
 (
 parse_two_lengths_or_percentages
 (
+context
 input
 )
 )
@@ -8895,6 +8968,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 )
@@ -8978,6 +9052,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 )
@@ -9061,6 +9136,7 @@ Length
 :
 parse
 (
+context
 input
 )
 )
@@ -9140,6 +9216,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 )
@@ -9168,6 +9245,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 )
@@ -9196,6 +9274,7 @@ Length
 :
 parse
 (
+context
 input
 )
 )
@@ -9603,6 +9682,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -9669,6 +9749,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -9735,6 +9816,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -9801,6 +9883,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -9942,6 +10025,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -10014,6 +10098,7 @@ try
 (
 parse_two_angles
 (
+context
 input
 )
 )
@@ -10072,6 +10157,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -10138,6 +10224,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 )
@@ -10204,6 +10291,7 @@ Length
 :
 parse
 (
+context
 input
 )
 )
@@ -11722,9 +11810,6 @@ T
 :
 None
 "
-needs_context
-=
-True
 products
 =
 "

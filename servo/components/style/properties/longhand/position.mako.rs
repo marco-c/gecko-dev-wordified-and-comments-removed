@@ -712,6 +712,9 @@ Number
 "
 parse_non_negative
 "
+needs_context
+=
+False
 animatable
 =
 True
@@ -738,6 +741,9 @@ Number
 "
 parse_non_negative
 "
+needs_context
+=
+False
 animatable
 =
 True
@@ -986,6 +992,9 @@ Auto
 "
 parse_non_negative
 "
+needs_context
+=
+False
 animatable
 =
 True
@@ -1046,6 +1055,9 @@ Au
 "
 parse_non_negative
 "
+needs_context
+=
+False
 animatable
 =
 True
@@ -1100,6 +1112,9 @@ None
 "
 parse_non_negative
 "
+needs_context
+=
+False
 animatable
 =
 True
