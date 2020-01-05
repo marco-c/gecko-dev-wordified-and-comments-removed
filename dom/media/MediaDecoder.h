@@ -675,6 +675,17 @@ IsEnded
 )
 const
 ;
+virtual
+bool
+IsMSE
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 OwnerHasError
 (

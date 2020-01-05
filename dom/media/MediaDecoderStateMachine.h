@@ -1657,6 +1657,10 @@ CDMProxyPromise
 >
 mCDMProxyPromise
 ;
+const
+bool
+mIsMSE
+;
 private
 :
 Mirror

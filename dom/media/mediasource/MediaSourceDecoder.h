@@ -271,6 +271,17 @@ WaitingForKeyEvent
 )
 override
 ;
+bool
+IsMSE
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 void
