@@ -3990,8 +3990,6 @@ aURLs
 pop
 (
 )
-null
-null
 )
 ;
 let
@@ -4054,8 +4052,6 @@ io
 newURI
 (
 aPath
-null
-null
 )
 )
 .

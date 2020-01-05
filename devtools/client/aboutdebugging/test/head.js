@@ -400,8 +400,6 @@ newURI
 CHROME_URL_ROOT
 +
 path
-null
-null
 )
 ;
 let

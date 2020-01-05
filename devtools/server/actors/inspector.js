@@ -11173,8 +11173,6 @@ document
 location
 .
 href
-null
-null
 )
 ;
 return

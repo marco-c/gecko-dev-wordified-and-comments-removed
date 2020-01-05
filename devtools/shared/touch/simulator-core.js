@@ -79,8 +79,6 @@ b2g
 system_manifest_url
 "
 )
-null
-null
 )
 .
 prePath

@@ -1215,8 +1215,6 @@ newURI
 uridescriptor
 .
 value
-null
-null
 )
 ;
 }

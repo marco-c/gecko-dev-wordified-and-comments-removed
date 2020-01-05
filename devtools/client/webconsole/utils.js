@@ -636,8 +636,6 @@ io
 newURI
 (
 request
-null
-null
 )
 ;
 let
@@ -650,8 +648,6 @@ io
 newURI
 (
 location
-null
-null
 )
 ;
 return

@@ -650,8 +650,6 @@ newURI
 detail
 .
 url
-null
-null
 )
 ;
 browserWindow

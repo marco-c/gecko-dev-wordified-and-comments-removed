@@ -68,8 +68,6 @@ nsIIOService
 newURI
 (
 TEST_URI_XUL
-null
-null
 )
 ;
 var

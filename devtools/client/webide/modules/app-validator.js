@@ -721,8 +721,6 @@ io
 newURI
 (
 manifestURL
-null
-null
 )
 .
 prePath
@@ -1071,8 +1069,6 @@ io
 newURI
 (
 manifestURL
-null
-null
 )
 ;
 }
@@ -1301,8 +1297,6 @@ newURI
 this
 .
 manifestURL
-null
-null
 )
 ;
 return
@@ -1345,8 +1339,6 @@ newURI
 this
 .
 location
-null
-null
 )
 .
 prePath
@@ -1521,8 +1513,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 )
 .

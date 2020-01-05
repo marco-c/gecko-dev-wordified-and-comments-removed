@@ -1168,8 +1168,6 @@ newURI
 source
 .
 url
-null
-null
 )
 ;
 let

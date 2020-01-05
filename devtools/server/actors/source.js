@@ -557,8 +557,6 @@ io
 newURI
 (
 resolved
-null
-null
 )
 ;
 return
@@ -1193,8 +1191,6 @@ split
 pop
 (
 )
-null
-null
 )
 ;
 }

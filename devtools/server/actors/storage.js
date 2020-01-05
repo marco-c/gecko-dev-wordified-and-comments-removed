@@ -5440,8 +5440,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 if
@@ -5630,8 +5628,6 @@ io
 newURI
 (
 host
-null
-null
 )
 ;
 let
@@ -6200,8 +6196,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 return
