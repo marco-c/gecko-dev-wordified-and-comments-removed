@@ -23105,6 +23105,16 @@ if
 mIsLoadingFromSourceChildren
 )
 {
+if
+(
+mDecoder
+)
+{
+ShutdownDecoder
+(
+)
+;
+}
 mErrorSink
 -
 >
