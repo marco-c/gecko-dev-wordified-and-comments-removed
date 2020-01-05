@@ -452,7 +452,7 @@ self
 cycle
 symbolicator
 missing_symbols_zip
-                          
+                            
 profile_path
 )
 :
@@ -904,9 +904,9 @@ _save_gecko_profile
 (
 cycle
 symbolicator
-                                       
+                                         
 missing_symbols_zip
-                                       
+                                         
 profile_path
 )
                 
