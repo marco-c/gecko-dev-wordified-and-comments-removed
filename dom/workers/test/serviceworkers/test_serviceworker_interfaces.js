@@ -304,6 +304,16 @@ MessageEvent
 "
 MessagePort
 "
+{
+name
+:
+"
+NetworkInformation
+"
+android
+:
+true
+}
 "
 Notification
 "
