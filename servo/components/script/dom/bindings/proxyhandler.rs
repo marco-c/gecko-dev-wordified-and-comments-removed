@@ -974,8 +974,6 @@ JSPROXYSLOT_EXPANDO
 &
 ObjectValue
 (
-&
-*
 expando
 )
 )

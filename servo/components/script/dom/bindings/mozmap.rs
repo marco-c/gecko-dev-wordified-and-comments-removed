@@ -734,8 +734,6 @@ set
 (
 ObjectValue
 (
-&
-*
 js_object
 .
 handle

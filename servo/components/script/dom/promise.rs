@@ -321,8 +321,6 @@ set
 (
 ObjectValue
 (
-&
-*
 *
 obj
 )
@@ -1982,8 +1980,6 @@ SLOT_NATIVEHANDLER
 &
 ObjectValue
 (
-&
-*
 *
 holder
 )
