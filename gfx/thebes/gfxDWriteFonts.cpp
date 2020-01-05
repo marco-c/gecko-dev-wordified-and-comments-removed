@@ -405,13 +405,9 @@ GetDefaultFont
 (
 )
 ;
-NS_WARNING
+MOZ_ASSERT
 (
-"
-Using
-default
-font
-"
+mFont
 )
 ;
 }
