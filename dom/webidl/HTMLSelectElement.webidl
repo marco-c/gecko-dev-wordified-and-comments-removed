@@ -384,6 +384,11 @@ remove
 ;
 }
 ;
+/
+/
+Chrome
+only
+interface
 partial
 interface
 HTMLSelectElement
@@ -394,6 +399,14 @@ ChromeOnly
 attribute
 boolean
 openInParentProcess
+;
+[
+ChromeOnly
+]
+AutocompleteInfo
+getAutocompleteInfo
+(
+)
 ;
 }
 ;
