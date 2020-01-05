@@ -13130,6 +13130,13 @@ new
 inherited
 styles
 .
+#
+[
+allow
+(
+unused_mut
+)
+]
 fn
 cascade_with_cached_declarations
 (
