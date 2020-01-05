@@ -44327,9 +44327,13 @@ MBinaryInstruction
 public
 MixPolicy
 <
-ObjectPolicy
+BoxExceptPolicy
 <
 0
+MIRType
+:
+:
+Object
 >
 CacheIdPolicy
 <
@@ -44408,7 +44412,7 @@ NAMED_OPERANDS
 (
 (
 0
-object
+value
 )
 (
 1

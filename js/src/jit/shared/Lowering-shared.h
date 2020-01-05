@@ -977,6 +977,15 @@ useConstant
 )
 ;
 inline
+LBoxAllocation
+useBoxOrTyped
+(
+MDefinition
+*
+mir
+)
+;
+inline
 LInt64Allocation
 useInt64
 (

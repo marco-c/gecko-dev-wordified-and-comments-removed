@@ -2001,10 +2001,9 @@ initInputLocation
 ic
 -
 >
-object
+value
 (
 )
-JSVAL_TYPE_OBJECT
 )
 ;
 if
