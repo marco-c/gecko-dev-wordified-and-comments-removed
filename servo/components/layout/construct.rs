@@ -3891,10 +3891,7 @@ display
 :
 :
 inline
-float
-:
-:
-none
+_
 _
 )
 =
