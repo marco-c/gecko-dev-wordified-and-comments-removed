@@ -13,7 +13,7 @@ outputs
 the
 corresponding
    
-XULAppData
+StaticXREAppData
 structure
 as
 a
@@ -365,27 +365,22 @@ write
 #
 include
 "
-nsXREAppData
+mozilla
+/
+XREAppData
 .
 h
 "
              
 static
 const
-nsXREAppData
+mozilla
+:
+:
+StaticXREAppData
 sAppData
 =
 {
-                 
-sizeof
-(
-nsXREAppData
-)
-                 
-NULL
-/
-/
-directory
                  
 "
 %
@@ -457,11 +452,6 @@ copyright
 flags
 )
 s
-                 
-NULL
-/
-/
-xreDirectory
                  
 "
 %

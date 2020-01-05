@@ -105,11 +105,6 @@ nsXPCOMCIDInternal
 h
 '
 '
-nsXREAppData
-.
-h
-'
-'
 nsXULAppAPI
 .
 h
@@ -173,6 +168,11 @@ h
 '
 '
 XPCOM
+.
+h
+'
+'
+XREAppData
 .
 h
 '

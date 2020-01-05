@@ -103,6 +103,10 @@ ANDROID_LOG_INFO
 MOZ_APP_NAME
 args
 )
+using
+namespace
+mozilla
+;
 extern
 "
 C
@@ -121,9 +125,9 @@ argv
 int
 argc
 const
-nsXREAppData
-*
-appData
+StaticXREAppData
+&
+aAppData
 )
 {
 mozilla
@@ -211,6 +215,13 @@ n
 return
 ;
 }
+XREAppData
+appData
+;
+appData
+=
+aAppData
+;
 int
 result
 =

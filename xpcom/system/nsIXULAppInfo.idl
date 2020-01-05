@@ -115,7 +115,7 @@ nsIPlatformInfo
 *
 *
 see
-nsXREAppData
+XREAppData
 .
 vendor
 *
@@ -124,7 +124,7 @@ an
 empty
 string
 if
-nsXREAppData
+XREAppData
 .
 vendor
 is
@@ -143,7 +143,7 @@ vendor
 *
 *
 see
-nsXREAppData
+XREAppData
 .
 name
 *
@@ -158,7 +158,7 @@ name
 *
 *
 see
-nsXREAppData
+XREAppData
 .
 ID
 *
@@ -167,7 +167,7 @@ an
 empty
 string
 if
-nsXREAppData
+XREAppData
 .
 ID
 is
@@ -215,7 +215,7 @@ want
 *
 *
 see
-nsXREAppData
+XREAppData
 .
 version
 *
@@ -224,7 +224,7 @@ an
 empty
 string
 if
-nsXREAppData
+XREAppData
 .
 version
 is
@@ -288,7 +288,7 @@ appBuildID
 *
 *
 see
-nsXREAppData
+XREAppData
 .
 UAName
 *
@@ -297,7 +297,7 @@ an
 empty
 string
 if
-nsXREAppData
+XREAppData
 .
 UAName
 is

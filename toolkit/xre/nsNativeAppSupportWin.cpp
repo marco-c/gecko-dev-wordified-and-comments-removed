@@ -2414,6 +2414,11 @@ mInstance
 char
 *
 )
+(
+const
+char
+*
+)
 gAppData
 -
 >
