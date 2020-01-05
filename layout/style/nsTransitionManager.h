@@ -131,7 +131,7 @@ const
 TimingParams
 &
 aTiming
-StyleAnimationValue
+AnimationValue
 aStartForReversingTest
 double
 aReversePortion
@@ -270,7 +270,7 @@ mPropertyValues
 mProperty
 ;
 }
-StyleAnimationValue
+AnimationValue
 ToValue
 (
 )
@@ -314,7 +314,7 @@ values
 )
 ;
 return
-StyleAnimationValue
+AnimationValue
 (
 )
 ;
@@ -331,11 +331,9 @@ mSegments
 ]
 .
 mToValue
-.
-mGecko
 ;
 }
-StyleAnimationValue
+AnimationValue
 mStartForReversingTest
 ;
 double
@@ -370,7 +368,7 @@ ComputedTimingFunction
 >
 mTimingFunction
 ;
-StyleAnimationValue
+AnimationValue
 mFromValue
 mToValue
 ;
@@ -585,7 +583,7 @@ TransitionProperty
 )
 const
 ;
-StyleAnimationValue
+AnimationValue
 ToValue
 (
 )
@@ -855,7 +853,7 @@ mNeedsNewAnimationIndexWhenRun
 nsCSSPropertyID
 mTransitionProperty
 ;
-StyleAnimationValue
+AnimationValue
 mTransitionToValue
 ;
 }
