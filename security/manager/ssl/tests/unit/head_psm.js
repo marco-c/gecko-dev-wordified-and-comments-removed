@@ -958,9 +958,6 @@ certdb
 constructX509
 (
 certBytes
-certBytes
-.
-length
 )
 ;
 }

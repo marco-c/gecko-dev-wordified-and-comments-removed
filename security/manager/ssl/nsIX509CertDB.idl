@@ -511,7 +511,7 @@ nsIX509Cert
 findCertByDBKey
 (
 in
-string
+ACString
 aDBkey
 )
 ;
@@ -560,7 +560,7 @@ nsIX509Cert
 findCertByEmailAddress
 (
 in
-string
+ACString
 aEmailAddress
 )
 ;
@@ -1371,16 +1371,6 @@ raw
 DER
 .
 *
-param
-length
-The
-length
-of
-the
-DER
-string
-.
-*
 return
 The
 new
@@ -1393,12 +1383,8 @@ nsIX509Cert
 constructX509
 (
 in
-string
+ACString
 certDER
-in
-unsigned
-long
-length
 )
 ;
 /
@@ -2266,7 +2252,7 @@ in
 uint32_t
 aFlags
 in
-string
+ACString
 aHostname
 in
 uint64_t
@@ -2302,7 +2288,7 @@ in
 uint32_t
 aFlags
 in
-string
+ACString
 aHostname
 out
 nsIX509CertList
@@ -2357,7 +2343,7 @@ in
 uint32_t
 aFlags
 in
-string
+ACString
 aHostname
 in
 uint64_t

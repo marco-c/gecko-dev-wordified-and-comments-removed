@@ -8831,10 +8831,6 @@ certdb
 FindCertByDBKey
 (
 rememberedDBKey
-.
-get
-(
-)
 getter_AddRefs
 (
 foundCert
