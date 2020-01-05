@@ -1238,7 +1238,7 @@ get_image
 fn
 get_min_width
 (
-ctx
+_ctx
 :
 &
 LayoutContext
@@ -1390,7 +1390,6 @@ run
 .
 min_width_for_range
 (
-ctx
 d
 .
 offset
