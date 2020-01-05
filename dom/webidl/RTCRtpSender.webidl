@@ -351,5 +351,11 @@ MediaStreamTrack
 track
 )
 ;
+readonly
+attribute
+RTCDTMFSender
+?
+dtmf
+;
 }
 ;
