@@ -547,7 +547,7 @@ GetRows
 ;
 }
 void
-UpdatePlaceholderVisibility
+UpdateOverlayTextVisibility
 (
 bool
 aNotify
@@ -588,6 +588,15 @@ nsAString
 aValue
 )
 ;
+bool
+GetPreviewVisibility
+(
+)
+{
+return
+mPreviewVisibility
+;
+}
 bool
 GetMaxLength
 (
@@ -1360,6 +1369,9 @@ mSelectionRestoreEagerInit
 ;
 bool
 mPlaceholderVisibility
+;
+bool
+mPreviewVisibility
 ;
 bool
 mIsCommittingComposition

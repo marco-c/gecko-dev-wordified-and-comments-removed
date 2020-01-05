@@ -414,7 +414,7 @@ NS_IMETHOD_
 (
 void
 )
-UpdatePlaceholderVisibility
+UpdateOverlayTextVisibility
 (
 bool
 aNotify
@@ -427,6 +427,16 @@ NS_IMETHOD_
 bool
 )
 GetPlaceholderVisibility
+(
+)
+=
+0
+;
+NS_IMETHOD_
+(
+bool
+)
+GetPreviewVisibility
 (
 )
 =
