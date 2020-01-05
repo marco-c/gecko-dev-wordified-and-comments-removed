@@ -353,7 +353,10 @@ selector
 }
 selector
 =
+cssEscape
+(
 tagName
+)
 +
 selector
 ;
@@ -477,7 +480,10 @@ parentNode
 >
 "
 +
+cssEscape
+(
 tagName
+)
 +
 "
 :
