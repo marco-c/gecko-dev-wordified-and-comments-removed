@@ -127,11 +127,6 @@ GetProp_StringLength
 \
 _
 (
-GetProp_CallNative
-)
-\
-_
-(
 GetProp_CallNativeGlobal
 )
 \

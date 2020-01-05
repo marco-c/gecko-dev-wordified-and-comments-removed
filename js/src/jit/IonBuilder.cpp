@@ -62611,6 +62611,8 @@ name
 TemporaryTypeSet
 *
 types
+bool
+innerized
 )
 {
 MOZ_ASSERT
@@ -62682,6 +62684,7 @@ inspector
 commonGetPropFunction
 (
 pc
+innerized
 &
 foundProto
 &
@@ -65054,16 +65057,19 @@ emitted
 inner
 name
 types
+true
 )
 |
 |
 *
 emitted
 )
+{
 return
 *
 emitted
 ;
+}
 }
 BarrierKind
 barrier

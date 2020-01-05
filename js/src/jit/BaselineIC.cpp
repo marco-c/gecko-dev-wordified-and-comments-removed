@@ -20592,7 +20592,6 @@ pcToOffset
 (
 pc
 )
-nullptr
 true
 )
 ;

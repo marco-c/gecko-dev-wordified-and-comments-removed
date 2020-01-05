@@ -626,6 +626,8 @@ commonGetPropFunction
 jsbytecode
 *
 pc
+bool
+innerized
 JSObject
 *
 *
