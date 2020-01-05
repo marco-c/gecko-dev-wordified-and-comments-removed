@@ -2930,6 +2930,12 @@ mWebIDLCallerPrincipal
 (
 nullptr
 )
+mCallerOverride
+(
+cx
+(
+)
+)
 {
 MOZ_ASSERT
 (

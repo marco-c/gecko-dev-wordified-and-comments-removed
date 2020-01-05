@@ -815,6 +815,12 @@ DocshellEntryMonitor
 >
 mDocShellEntryMonitor
 ;
+JS
+:
+:
+AutoHideScriptedCaller
+mCallerOverride
+;
 }
 ;
 class
