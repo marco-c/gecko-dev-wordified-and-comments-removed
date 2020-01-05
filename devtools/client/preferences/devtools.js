@@ -599,7 +599,7 @@ mdnDocsTooltip
 .
 enabled
 "
-false
+true
 )
 ;
 pref
