@@ -377,3 +377,16 @@ core
 -
 text
 "
+[
+dependencies
+.
+script_traits
+]
+path
+=
+"
+.
+.
+/
+script_traits
+"
