@@ -100,6 +100,9 @@ app_units
 plugins
 "
 "
+string_cache
+"
+"
 cssparser
 /
 heap_size
@@ -110,14 +113,6 @@ cssparser
 serde
 -
 serialization
-"
-"
-selectors
-/
-unstable
-"
-"
-string_cache
 "
 "
 url
@@ -363,7 +358,7 @@ selectors
 "
 0
 .
-13
+14
 "
 serde
 =
