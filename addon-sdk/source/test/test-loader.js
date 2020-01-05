@@ -9,7 +9,6 @@ Loader
 main
 unload
 parseStack
-generateMap
 resolve
 join
 Require
