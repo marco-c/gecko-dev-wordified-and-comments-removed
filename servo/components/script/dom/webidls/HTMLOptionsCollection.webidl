@@ -158,8 +158,6 @@ long
 index
 )
 ;
-/
-/
 attribute
 long
 selectedIndex
