@@ -283,8 +283,7 @@ virtual
 MediaDevices
 (
 )
-{
-}
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
