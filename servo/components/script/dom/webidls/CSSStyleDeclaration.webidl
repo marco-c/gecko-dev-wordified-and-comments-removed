@@ -307,6 +307,15 @@ EmptyString
 ]
 attribute
 DOMString
+backgroundOrigin
+;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 border
 ;
 [

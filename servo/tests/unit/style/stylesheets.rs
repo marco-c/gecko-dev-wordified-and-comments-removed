@@ -776,6 +776,16 @@ vec
 PropertyDeclaration
 :
 :
+BackgroundOrigin
+(
+DeclaredValue
+:
+:
+Initial
+)
+PropertyDeclaration
+:
+:
 BackgroundSize
 (
 DeclaredValue
