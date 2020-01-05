@@ -438,7 +438,7 @@ constexpr
 Register
 HeapReg
 =
-r11
+r10
 ;
 static
 constexpr
@@ -684,7 +684,7 @@ constexpr
 Register
 FramePointer
 =
-InvalidReg
+r11
 ;
 static
 constexpr
