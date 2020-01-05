@@ -1341,7 +1341,7 @@ EventReader
 in
 src
 /
-analyzer
+analyze
 .
 rs
 which
