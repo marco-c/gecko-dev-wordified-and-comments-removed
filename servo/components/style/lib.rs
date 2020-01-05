@@ -229,6 +229,17 @@ extern
 crate
 lazy_static
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 extern
 crate
 libc
