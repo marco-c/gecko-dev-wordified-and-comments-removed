@@ -238,6 +238,10 @@ mAudioSink
 GetEndTime
 (
 )
+.
+ToMicroseconds
+(
+)
 ;
 }
 return
@@ -350,6 +354,10 @@ mAudioSink
 -
 >
 GetPosition
+(
+)
+.
+ToMicroseconds
 (
 )
 ;

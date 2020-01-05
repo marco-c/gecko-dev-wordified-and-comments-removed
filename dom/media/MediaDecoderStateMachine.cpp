@@ -12034,11 +12034,17 @@ self
 -
 >
 mAudioQueue
+TimeUnit
+:
+:
+FromMicroseconds
+(
 self
 -
 >
 GetMediaTime
 (
+)
 )
 self
 -

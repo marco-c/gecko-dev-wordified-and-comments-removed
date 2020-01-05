@@ -141,7 +141,7 @@ AudioData
 >
 &
 aAudioQueue
-int64_t
+TimeUnit
 aStartTime
 const
 AudioInfo
@@ -171,12 +171,12 @@ PlaybackParams
 aParams
 )
 ;
-int64_t
+TimeUnit
 GetPosition
 (
 )
 ;
-int64_t
+TimeUnit
 GetEndTime
 (
 )
@@ -287,10 +287,10 @@ AudioStream
 mAudioStream
 ;
 const
-int64_t
+TimeUnit
 mStartTime
 ;
-int64_t
+TimeUnit
 mLastGoodPosition
 ;
 const
@@ -451,7 +451,7 @@ AudioData
 >
 mLastProcessedPacket
 ;
-int64_t
+TimeUnit
 mLastEndTime
 ;
 uint32_t
