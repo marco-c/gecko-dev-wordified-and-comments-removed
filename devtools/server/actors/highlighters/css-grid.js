@@ -914,12 +914,6 @@ destroy
 (
 )
 ;
-this
-.
-_clearCache
-(
-)
-;
 AutoRefreshHighlighter
 .
 prototype
@@ -1260,6 +1254,12 @@ false
 this
 .
 _clearCache
+(
+)
+;
+this
+.
+_hide
 (
 )
 ;
