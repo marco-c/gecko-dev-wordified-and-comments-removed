@@ -565,9 +565,6 @@ char
 >
 buf
 =
-mSampler
--
->
 ToJSON
 (
 mSinceTime
