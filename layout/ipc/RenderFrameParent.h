@@ -322,6 +322,7 @@ uint64_t
 GetLayersId
 (
 )
+const
 {
 return
 mLayersId
@@ -375,12 +376,6 @@ InputEvent
 &
 aEvent
 )
-;
-uint64_t
-GetLayerTreeId
-(
-)
-const
 ;
 uint64_t
 mLayersId
