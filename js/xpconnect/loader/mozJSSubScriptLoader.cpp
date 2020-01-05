@@ -497,11 +497,6 @@ mozJSSubScriptLoader
 mozJSSubScriptLoader
 (
 )
-:
-mSystemPrincipal
-(
-nullptr
-)
 {
 }
 mozJSSubScriptLoader
