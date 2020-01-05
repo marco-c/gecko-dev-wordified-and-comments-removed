@@ -758,12 +758,20 @@ Commit
 state
 .
 local_tree
+                                        
+state
+.
+local_tree
+.
+rev_from_hg
+(
 items
 [
 "
 local
 "
 ]
+)
 )
         
 state
@@ -2537,7 +2545,14 @@ state
 .
 local_tree
 .
+rev_to_hg
+(
+state
+.
+local_tree
+.
 rev
+)
                 
 "
 upstream
