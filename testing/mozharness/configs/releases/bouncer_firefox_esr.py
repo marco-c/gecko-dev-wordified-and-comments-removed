@@ -746,7 +746,17 @@ sha1
 check_uptake
 "
 :
-False
+True
+            
+"
+alias
+"
+:
+"
+firefox
+-
+sha1
+"
             
 "
 ssl
