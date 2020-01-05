@@ -790,7 +790,11 @@ screen_size_changed
 false
 generation
 :
-0
+per_doc_data
+.
+next_generation
+(
+)
 goal
 :
 ReflowGoal
