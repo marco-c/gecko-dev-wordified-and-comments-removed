@@ -923,6 +923,12 @@ url
 {
 url
 }
+&
+src
+=
+mobile
+-
+reporter
 ;
 if
 (
