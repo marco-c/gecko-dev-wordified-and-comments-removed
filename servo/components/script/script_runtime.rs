@@ -687,7 +687,7 @@ set_gc_zeal_options
 (
 runtime
 .
-cx
+rt
 (
 )
 )
@@ -2949,11 +2949,11 @@ unsafe
 fn
 set_gc_zeal_options
 (
-cx
+rt
 :
 *
 mut
-JSContext
+JSRuntime
 )
 {
 use
@@ -3060,7 +3060,7 @@ JS_DEFAULT_ZEAL_FREQ
 ;
 JS_SetGCZeal
 (
-cx
+rt
 level
 frequency
 )
@@ -3095,7 +3095,7 @@ _
 :
 *
 mut
-JSContext
+JSRuntime
 )
 {
 }
