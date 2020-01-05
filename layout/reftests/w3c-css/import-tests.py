@@ -801,13 +801,13 @@ support_dir
 :
         
 for
-fn
+srcname
 in
 filenames
 :
             
 if
-fn
+srcname
 =
 =
 "
@@ -817,7 +817,7 @@ LOCK
                 
 continue
             
-full_fn
+full_srcname
 =
 os
 .
@@ -826,7 +826,7 @@ path
 join
 (
 dirpath
-fn
+srcname
 )
             
 destname
@@ -839,7 +839,7 @@ path
 .
 relpath
 (
-full_fn
+full_srcname
 gSrcPath
 )
 )
@@ -847,21 +847,21 @@ gSrcPath
 copy_file
 (
 test
-full_fn
+full_srcname
 destname
 True
 )
 def
 map_file
 (
-fn
+srcname
 )
 :
     
 global
 gSrcPath
     
-fn
+srcname
 =
 to_unix_path_sep
 (
@@ -871,12 +871,12 @@ path
 .
 normpath
 (
-fn
+srcname
 )
 )
     
 if
-fn
+srcname
 in
 filemap
 :
@@ -884,7 +884,7 @@ filemap
 return
 filemap
 [
-fn
+srcname
 ]
     
 destname
@@ -897,7 +897,7 @@ path
 .
 relpath
 (
-fn
+srcname
 gSrcPath
 )
 )
@@ -915,21 +915,21 @@ destname
     
 filemap
 [
-fn
+srcname
 ]
 =
 destname
     
 load_flags_for
 (
-fn
+srcname
 destname
 )
     
 copy_file
 (
 destname
-fn
+srcname
 destname
 False
 )
@@ -943,7 +943,7 @@ path
 .
 dirname
 (
-fn
+srcname
 )
 )
     
@@ -952,7 +952,7 @@ destname
 def
 load_flags_for
 (
-fn
+srcname
 destname
 )
 :
@@ -973,12 +973,12 @@ not
 (
 is_html
 (
-fn
+srcname
 )
 or
 is_xml
 (
-fn
+srcname
 )
 )
 :
@@ -989,7 +989,7 @@ document
 =
 get_document_for
 (
-fn
+srcname
 )
     
 for
@@ -1119,7 +1119,7 @@ svg
 def
 get_document_for
 (
-fn
+srcname
 )
 :
     
@@ -1130,7 +1130,7 @@ None
 if
 is_html
 (
-fn
+srcname
 )
 :
         
@@ -1138,7 +1138,7 @@ f
 =
 open
 (
-fn
+srcname
 "
 rb
 "
@@ -1192,7 +1192,7 @@ minidom
 .
 parse
 (
-fn
+srcname
 )
     
 return
@@ -1200,7 +1200,7 @@ document
 def
 add_test_items
 (
-fn
+srcname
 )
 :
     
@@ -1209,19 +1209,19 @@ not
 (
 is_html
 (
-fn
+srcname
 )
 or
 is_xml
 (
-fn
+srcname
 )
 )
 :
         
 map_file
 (
-fn
+srcname
 )
         
 return
@@ -1231,7 +1231,7 @@ document
 =
 get_document_for
 (
-fn
+srcname
 )
     
 refs
@@ -1333,7 +1333,7 @@ path
 .
 dirname
 (
-fn
+srcname
 )
 str
 (
@@ -1366,7 +1366,7 @@ empty
 in
 "
 +
-fn
+srcname
 +
 "
 \
@@ -1420,7 +1420,7 @@ append
 "
 map_file
 (
-fn
+srcname
 )
 map_file
 (
@@ -1446,7 +1446,7 @@ append
 "
 map_file
 (
-fn
+srcname
 )
 map_file
 (
