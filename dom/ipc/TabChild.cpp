@@ -8368,7 +8368,6 @@ RequestNativeKeyBindings
 AutoCacheNativeKeyCommands
 *
 aAutoCache
-const
 WidgetKeyboardEvent
 *
 aEvent
@@ -11069,6 +11068,18 @@ SchedulePaint
 )
 ;
 }
+Telemetry
+:
+:
+AutoTimer
+<
+Telemetry
+:
+:
+TABCHILD_PAINT_TIME
+>
+timer
+;
 APZCCallbackHelper
 :
 :
