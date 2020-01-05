@@ -1307,6 +1307,10 @@ self
 impl
 AbstractNode
 {
+#
+[
+inline
+]
 pub
 fn
 node
@@ -1358,6 +1362,10 @@ box_
 data
 }
 }
+#
+[
+inline
+]
 pub
 fn
 mut_node
@@ -1411,6 +1419,10 @@ box_
 data
 }
 }
+#
+[
+inline
+]
 pub
 fn
 parent_node
@@ -1433,6 +1445,10 @@ node
 .
 parent_node
 }
+#
+[
+inline
+]
 pub
 fn
 first_child
@@ -1455,6 +1471,10 @@ node
 .
 first_child
 }
+#
+[
+inline
+]
 pub
 fn
 last_child
@@ -1979,6 +1999,10 @@ is
 borrowed
 mutably
 .
+#
+[
+inline
+]
 pub
 fn
 type_id

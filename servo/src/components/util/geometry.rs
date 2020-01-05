@@ -668,6 +668,10 @@ NumCast
 for
 Au
 {
+#
+[
+inline
+]
 fn
 from
 <
@@ -709,6 +713,10 @@ ToPrimitive
 for
 Au
 {
+#
+[
+inline
+]
 fn
 to_i64
 (
@@ -731,6 +739,10 @@ as
 i64
 )
 }
+#
+[
+inline
+]
 fn
 to_u64
 (
@@ -753,6 +765,10 @@ as
 u64
 )
 }
+#
+[
+inline
+]
 fn
 to_f32
 (
@@ -776,6 +792,10 @@ to_f32
 (
 )
 }
+#
+[
+inline
+]
 fn
 to_f64
 (
