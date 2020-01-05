@@ -19918,6 +19918,16 @@ dealloc
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 [
+super
+setBackgroundColor
+:
+[
+NSColor
+whiteColor
+]
+]
+;
+[
 mColor
 release
 ]
