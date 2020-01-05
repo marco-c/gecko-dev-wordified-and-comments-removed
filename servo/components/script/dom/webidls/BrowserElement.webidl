@@ -420,6 +420,9 @@ description
 DOMString
 report
 ;
+DOMString
+version
+;
 }
 ;
 dictionary
