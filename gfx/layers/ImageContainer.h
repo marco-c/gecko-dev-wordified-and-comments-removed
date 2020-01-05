@@ -1640,12 +1640,6 @@ mFrameIDsNotYetComposited
 ProducerID
 mCurrentProducerID
 ;
-RefPtr
-<
-ImageContainerChild
->
-mIPDLChild
-;
 static
 mozilla
 :

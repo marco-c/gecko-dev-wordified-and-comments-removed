@@ -102,10 +102,6 @@ PCompositable
 ;
 include
 protocol
-PImageContainer
-;
-include
-protocol
 PTexture
 ;
 include
@@ -237,9 +233,6 @@ PTexture
 ;
 manages
 PMediaSystemResourceManager
-;
-manages
-PImageContainer
 ;
 child
 :
@@ -431,11 +424,6 @@ aSerial
 ;
 async
 PMediaSystemResourceManager
-(
-)
-;
-async
-PImageContainer
 (
 )
 ;

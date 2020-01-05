@@ -135,10 +135,6 @@ PCompositorWidget
 ;
 include
 protocol
-PImageContainer
-;
-include
-protocol
 PLayerTransaction
 ;
 include

@@ -57,17 +57,6 @@ mozilla
 /
 layers
 /
-ImageContainerParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayersSurfaces
 .
 h

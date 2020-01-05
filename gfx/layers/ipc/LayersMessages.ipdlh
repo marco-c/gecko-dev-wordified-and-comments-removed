@@ -117,10 +117,6 @@ PCompositorBridge
 ;
 include
 protocol
-PImageContainer
-;
-include
-protocol
 PRenderFrame
 ;
 include
