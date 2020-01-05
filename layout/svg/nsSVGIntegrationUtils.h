@@ -339,6 +339,16 @@ PaintFramesParams
 aParams
 )
 ;
+static
+DrawResult
+PaintMask
+(
+const
+PaintFramesParams
+&
+aParams
+)
+;
 struct
 MaskUsage
 {
