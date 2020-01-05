@@ -152,10 +152,8 @@ destination
 '
 <
 (
-nss_dist_dir
+nss_public_dist_dir
 )
-/
-public
 /
 <
 (
@@ -187,10 +185,8 @@ destination
 '
 <
 (
-nss_dist_dir
+nss_private_dist_dir
 )
-/
-private
 /
 <
 (

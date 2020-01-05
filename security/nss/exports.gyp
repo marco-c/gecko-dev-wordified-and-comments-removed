@@ -100,10 +100,8 @@ include_dirs
 '
 <
 (
-nss_dist_dir
+nss_public_dist_dir
 )
-/
-public
 /
 nss
 '
@@ -601,10 +599,8 @@ include_dirs
 '
 <
 (
-nss_dist_dir
+nss_public_dist_dir
 )
-/
-public
 /
 dbm
 '

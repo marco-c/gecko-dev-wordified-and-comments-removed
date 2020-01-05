@@ -164,13 +164,10 @@ include_dirs
 :
 [
 '
-.
-.
-/
-.
-.
-/
-nss
+<
+(
+DEPTH
+)
 /
 lib
 /

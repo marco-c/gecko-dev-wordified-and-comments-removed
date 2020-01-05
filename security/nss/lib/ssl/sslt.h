@@ -800,6 +800,12 @@ ssl_tls13_supported_versions_xtn
 ssl_tls13_cookie_xtn
 =
 44
+ssl_tls13_psk_key_exchange_modes_xtn
+=
+45
+ssl_tls13_ticket_early_data_info_xtn
+=
+46
 ssl_next_proto_nego_xtn
 =
 13172
@@ -809,15 +815,6 @@ ssl_renegotiation_info_xtn
 }
 SSLExtensionType
 ;
-typedef
-enum
-{
-ssl_tls13_ticket_early_data_info_xtn
-=
-1
-}
-TLS13TicketExtensionType
-;
 #
 define
 ssl_elliptic_curves_xtn
@@ -825,7 +822,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-17
+18
 typedef
 enum
 {

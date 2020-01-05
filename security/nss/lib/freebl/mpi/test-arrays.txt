@@ -325,17 +325,6 @@ of
 -
 two
 exponentiation
-square
--
-root
-:
-test_sqrt
-:
-test
-integer
-square
-root
-function
 modulo
 -
 digit

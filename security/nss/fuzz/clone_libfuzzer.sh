@@ -45,6 +45,7 @@ tmp
 .
 git
 libFuzzer
+/
 rm
 -
 fr

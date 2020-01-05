@@ -120,10 +120,8 @@ destination
 '
 <
 (
-nss_dist_dir
+nss_public_dist_dir
 )
-/
-public
 /
 <
 (

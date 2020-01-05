@@ -82,6 +82,14 @@ fd
 )
 ;
 void
+SSLInt_PrintTls13CipherSpecs
+(
+PRFileDesc
+*
+fd
+)
+;
+void
 SSLInt_ForceTimerExpiry
 (
 PRFileDesc

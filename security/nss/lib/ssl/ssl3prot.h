@@ -15,7 +15,7 @@ SSL3ProtocolVersion
 #
 define
 TLS_1_3_DRAFT_VERSION
-16
+18
 typedef
 PRUint16
 ssl3CipherSuite
@@ -678,6 +678,9 @@ flags
 PRUint32
 ticket_age_add
 ;
+PRUint32
+max_early_data_size
+;
 SECItem
 ticket
 ;
@@ -695,18 +698,6 @@ tls13_psk_dh_ke
 1
 }
 TLS13PskKEModes
-;
-typedef
-enum
-{
-tls13_psk_auth
-=
-0
-tls13_psk_sign_auth
-=
-1
-}
-TLS13PskAuthModes
 ;
 typedef
 enum

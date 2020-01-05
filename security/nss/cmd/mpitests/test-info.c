@@ -2,7 +2,7 @@ const
 int
 g_count
 =
-42
+41
 ;
 const
 char
@@ -92,11 +92,6 @@ expt
 expt
 -
 2
-"
-"
-square
--
-root
 "
 "
 modulo
@@ -311,12 +306,6 @@ void
 )
 ;
 int
-test_sqrt
-(
-void
-)
-;
-int
 test_mod_d
 (
 void
@@ -469,7 +458,6 @@ test_div
 test_expt_d
 test_expt
 test_2expt
-test_sqrt
 test_mod_d
 test_mod
 test_addmod
@@ -644,13 +632,6 @@ of
 -
 two
 exponentiation
-"
-"
-test
-integer
-square
-root
-function
 "
 "
 test

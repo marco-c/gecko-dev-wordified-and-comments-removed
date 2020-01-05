@@ -80,10 +80,3 @@ coreconf
 lib
 cmd
 gtests
-ifdef
-FUZZ
-DIRS
-+
-=
-fuzz
-endif

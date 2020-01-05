@@ -113,7 +113,6 @@ len
 )
 ;
 }
-explicit
 DataBuffer
 (
 const

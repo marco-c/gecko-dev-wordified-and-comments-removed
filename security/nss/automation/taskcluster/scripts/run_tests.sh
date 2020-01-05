@@ -85,6 +85,6 @@ tests
 &
 .
 /
-run
+all
 .
 sh

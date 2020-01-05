@@ -904,6 +904,12 @@ if
 spki
 )
 {
+PORT_FreeArena
+(
+arena
+PR_FALSE
+)
+;
 SECU_PrintError
 (
 progName

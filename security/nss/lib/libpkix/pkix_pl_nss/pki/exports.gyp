@@ -203,10 +203,8 @@ destination
 '
 <
 (
-nss_dist_dir
+nss_private_dist_dir
 )
-/
-private
 /
 <
 (

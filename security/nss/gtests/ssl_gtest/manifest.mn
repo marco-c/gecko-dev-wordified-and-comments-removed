@@ -132,6 +132,10 @@ ssl_ems_unittest
 .
 cc
 \
+ssl_exporter_unittest
+.
+cc
+\
 ssl_extension_unittest
 .
 cc

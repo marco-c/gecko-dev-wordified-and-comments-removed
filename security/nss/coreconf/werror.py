@@ -36,6 +36,9 @@ wb
 '
 )
     
+try
+:
+        
 cc_is_clang
 =
 '
@@ -58,6 +61,12 @@ stderr
 =
 sink
 )
+    
+except
+OSError
+:
+        
+return
     
 def
 warning_supported
