@@ -78,6 +78,17 @@ shared
 quantum_render
 "
 ]
+cubeb_pulse_rust
+=
+[
+"
+gkrust
+-
+shared
+/
+cubeb_pulse_rust
+"
+]
 [
 dependencies
 ]
