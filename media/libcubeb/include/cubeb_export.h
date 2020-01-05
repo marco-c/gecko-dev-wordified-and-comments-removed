@@ -1,0 +1,3 @@
+#
+define
+CUBEB_EXPORT
