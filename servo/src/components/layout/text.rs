@@ -456,7 +456,6 @@ fragments
 new_fragments
 ;
 }
-pub
 fn
 flush_clump_to_list
 (

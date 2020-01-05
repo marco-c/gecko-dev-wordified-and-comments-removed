@@ -3231,7 +3231,6 @@ pseudo
 Normal
 }
 }
-pub
 fn
 with_pseudo
 (
