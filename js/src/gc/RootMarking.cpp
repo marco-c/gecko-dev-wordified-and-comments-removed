@@ -2058,6 +2058,14 @@ trc
 rt
 -
 >
+traceSharedIntlData
+(
+trc
+)
+;
+rt
+-
+>
 contextFromMainThread
 (
 )
