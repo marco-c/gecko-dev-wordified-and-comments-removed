@@ -292,6 +292,10 @@ HTMLAnchorElementBinding
 ;
 pub
 mod
+HTMLBodyElementBinding
+;
+pub
+mod
 HTMLCollectionBinding
 ;
 pub
@@ -411,6 +415,10 @@ formdata
 pub
 mod
 htmlanchorelement
+;
+pub
+mod
+htmlbodyelement
 ;
 pub
 mod

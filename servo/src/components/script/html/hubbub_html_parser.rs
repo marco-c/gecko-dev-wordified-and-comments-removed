@@ -52,7 +52,6 @@ element
 {
 HTMLAsideElement
 HTMLBRElement
-HTMLBodyElement
 HTMLBoldElement
 HTMLDivElement
 HTMLFontElement
@@ -107,6 +106,15 @@ htmlanchorelement
 :
 :
 HTMLAnchorElement
+;
+use
+dom
+:
+:
+htmlbodyelement
+:
+:
+HTMLBodyElement
 ;
 use
 dom

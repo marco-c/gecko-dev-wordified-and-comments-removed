@@ -37683,6 +37683,16 @@ HTMLAnchorElement
 dom
 :
 :
+htmlbodyelement
+:
+:
+HTMLBodyElement
+'
+                          
+'
+dom
+:
+:
 htmlelement
 :
 :
