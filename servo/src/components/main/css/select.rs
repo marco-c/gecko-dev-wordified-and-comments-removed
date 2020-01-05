@@ -10,6 +10,12 @@ with_errors_silenced
 }
 ;
 use
+style
+:
+:
+PseudoElement
+;
+use
 extra
 :
 :
@@ -19,6 +25,12 @@ pub
 fn
 new_stylist
 (
+pseudo_element
+:
+Option
+<
+PseudoElement
+>
 )
 -
 >
@@ -33,6 +45,7 @@ Stylist
 :
 new
 (
+pseudo_element
 )
 ;
 let
@@ -89,6 +102,7 @@ stylist
 .
 add_stylesheet
 (
+&
 ua_stylesheet
 UserAgentOrigin
 )

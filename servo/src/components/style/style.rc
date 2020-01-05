@@ -231,6 +231,17 @@ TElement
 TNode
 }
 ;
+pub
+use
+selectors
+:
+:
+{
+PseudoElement
+Before
+After
+}
+;
 mod
 stylesheets
 ;
