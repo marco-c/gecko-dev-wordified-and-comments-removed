@@ -6372,10 +6372,6 @@ energymon
 rust
 .
 git
-?
-rev
-=
-eba1d8a
 #
 637e537934cdfc2142011a910490a408ea135af2
 "
@@ -19460,10 +19456,6 @@ energymon
 rust
 .
 git
-?
-rev
-=
-eba1d8a
 )
 "
 "

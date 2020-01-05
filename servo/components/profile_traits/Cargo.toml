@@ -105,11 +105,6 @@ rust
 .
 git
 "
-rev
-=
-"
-eba1d8a
-"
 optional
 =
 true
