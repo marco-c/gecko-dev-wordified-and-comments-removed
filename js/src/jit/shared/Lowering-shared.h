@@ -1412,6 +1412,14 @@ ins
 )
 override
 ;
+void
+visitWasmFloatConstant
+(
+MWasmFloatConstant
+*
+ins
+)
+;
 static
 bool
 allowTypedElementHoleCheck
