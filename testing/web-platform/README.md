@@ -1535,7 +1535,7 @@ g
 .
 to
 disable
-them
+then
 all
 or
 to
