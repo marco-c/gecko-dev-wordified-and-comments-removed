@@ -219,6 +219,11 @@ nsPosixLocale
 h
 '
 '
+nsUConvPropertySearch
+.
+h
+'
+'
 nsWin32Locale
 .
 h
