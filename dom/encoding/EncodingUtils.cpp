@@ -53,7 +53,7 @@ namespace
 dom
 {
 static
-const
+constexpr
 nsUConvProp
 labelsEncodings
 [
@@ -72,7 +72,7 @@ h
 }
 ;
 static
-const
+constexpr
 nsUConvProp
 encodingsGroups
 [

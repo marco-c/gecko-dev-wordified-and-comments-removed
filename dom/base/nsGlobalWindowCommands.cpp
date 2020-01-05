@@ -1304,7 +1304,7 @@ caretOn
 ;
 }
 static
-const
+constexpr
 struct
 BrowseCommand
 {
