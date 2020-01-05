@@ -9647,6 +9647,7 @@ change
 click
 dblclick
 mouseup
+pointerup
 notificationclick
 reset
 submit
