@@ -346,6 +346,13 @@ reason
 "
 update
 "
+previousVersion
+:
+extension
+.
+addonData
+.
+oldVersion
 }
 )
 ;
