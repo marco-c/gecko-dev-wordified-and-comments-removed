@@ -929,6 +929,7 @@ function
 window
 name
 charIndex
+charLength
 )
 {
 let
@@ -945,6 +946,7 @@ args
 {
 name
 charIndex
+charLength
 }
 }
 ;
