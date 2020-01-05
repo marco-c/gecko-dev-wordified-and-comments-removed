@@ -106,7 +106,10 @@ servo_msg
 constellation_msg
 :
 :
+{
+LoadData
 SubpageId
+}
 ;
 use
 servo_msg
@@ -152,12 +155,6 @@ any
 :
 :
 Any
-;
-use
-url
-:
-:
-Url
 ;
 use
 geom
@@ -218,7 +215,7 @@ ConstellationControlMsg
 LoadMsg
 (
 PipelineId
-Url
+LoadData
 )
 AttachLayoutMsg
 (
