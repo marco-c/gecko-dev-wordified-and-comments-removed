@@ -2700,6 +2700,13 @@ obj
 }
 #
 [
+allow
+(
+raw_pointer_deriving
+)
+]
+#
+[
 deriving
 (
 Eq
@@ -2709,7 +2716,6 @@ pub
 struct
 Reflector
 {
-pub
 object
 :
 *
