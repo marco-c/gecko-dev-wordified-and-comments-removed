@@ -1462,12 +1462,12 @@ mRustTestMode
 info
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1481,7 +1481,7 @@ info
 mId
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1495,7 +1495,7 @@ info
 mKind
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1509,7 +1509,7 @@ info
 mLabel
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1523,7 +1523,7 @@ info
 mLanguage
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1537,7 +1537,7 @@ info
 mEnabled
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1551,7 +1551,7 @@ info
 mTrackId
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1565,7 +1565,7 @@ info
 mMimeType
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1579,7 +1579,7 @@ info
 mDuration
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 infoRust
 -
@@ -1628,7 +1628,7 @@ GetAsAudioInfo
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 audioRust
 -
@@ -1642,7 +1642,7 @@ audio
 mRate
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 audioRust
 -
@@ -1656,7 +1656,7 @@ audio
 mChannels
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 audioRust
 -
@@ -1703,7 +1703,7 @@ GetAsVideoInfo
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 videoRust
 -
@@ -1717,7 +1717,7 @@ video
 mDisplay
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 videoRust
 -
