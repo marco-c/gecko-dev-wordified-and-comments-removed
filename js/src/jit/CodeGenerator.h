@@ -3372,6 +3372,8 @@ value
 bool
 strict
 bool
+needsPostBarrier
+bool
 needsTypeBarrier
 bool
 guardHoles
