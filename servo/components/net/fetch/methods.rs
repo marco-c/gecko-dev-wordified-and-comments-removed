@@ -147,7 +147,6 @@ request
 :
 :
 {
-RedirectMode
 Referrer
 Request
 RequestMode
@@ -1679,18 +1678,6 @@ ResponseTainting
 :
 :
 CorsTainting
-)
-;
-request
-.
-redirect_mode
-.
-set
-(
-RedirectMode
-:
-:
-Error
 )
 ;
 let
