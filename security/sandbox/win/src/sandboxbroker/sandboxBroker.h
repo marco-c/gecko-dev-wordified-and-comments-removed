@@ -107,6 +107,13 @@ aPrivs
 ;
 #
 endif
+void
+SetSecurityLevelForGPUProcess
+(
+int32_t
+aSandboxLevel
+)
+;
 bool
 SetSecurityLevelForPluginProcess
 (
