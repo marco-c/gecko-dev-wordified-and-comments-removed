@@ -90,6 +90,12 @@ Receiver
 }
 ;
 use
+webdriver_traits
+:
+:
+WebDriverScriptCommand
+;
+use
 url
 :
 :
@@ -533,6 +539,11 @@ Sender
 <
 String
 >
+)
+WebDriverCommandMsg
+(
+PipelineId
+WebDriverScriptCommand
 )
 }
 pub

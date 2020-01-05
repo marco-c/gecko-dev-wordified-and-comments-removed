@@ -30,6 +30,10 @@ extern
 crate
 url
 ;
+extern
+crate
+webdriver_traits
+;
 #
 [
 cfg

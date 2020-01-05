@@ -116,7 +116,7 @@ gleam
 ;
 extern
 crate
-webdriver_server
+webdriver_traits
 ;
 extern
 crate

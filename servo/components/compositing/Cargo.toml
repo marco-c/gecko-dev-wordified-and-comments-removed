@@ -147,7 +147,7 @@ util
 [
 dependencies
 .
-webdriver_server
+webdriver_traits
 ]
 path
 =
@@ -155,7 +155,7 @@ path
 .
 .
 /
-webdriver_server
+webdriver_traits
 "
 [
 dependencies

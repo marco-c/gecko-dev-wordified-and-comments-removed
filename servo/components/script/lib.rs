@@ -264,6 +264,10 @@ extern
 crate
 string_cache
 ;
+extern
+crate
+webdriver_traits
+;
 pub
 mod
 cors
@@ -304,4 +308,7 @@ textinput
 ;
 mod
 devtools
+;
+mod
+webdriver_handlers
 ;

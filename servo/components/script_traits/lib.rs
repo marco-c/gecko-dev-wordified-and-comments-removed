@@ -26,6 +26,10 @@ extern
 crate
 url
 ;
+extern
+crate
+webdriver_traits
+;
 use
 devtools_traits
 :
@@ -135,6 +139,12 @@ mpsc
 Sender
 Receiver
 }
+;
+use
+webdriver_traits
+:
+:
+WebDriverScriptCommand
 ;
 use
 geom
@@ -291,6 +301,11 @@ FocusIFrameMsg
 (
 PipelineId
 SubpageId
+)
+WebDriverCommandMsg
+(
+PipelineId
+WebDriverScriptCommand
 )
 }
 #
