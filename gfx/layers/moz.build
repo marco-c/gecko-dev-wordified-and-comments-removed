@@ -1065,13 +1065,6 @@ h
 '
 ipc
 /
-AsyncTransactionTracker
-.
-h
-'
-'
-ipc
-/
 CompositableForwarder
 .
 h
@@ -2173,13 +2166,6 @@ cpp
 ipc
 /
 APZCTreeManagerParent
-.
-cpp
-'
-'
-ipc
-/
-AsyncTransactionTracker
 .
 cpp
 '

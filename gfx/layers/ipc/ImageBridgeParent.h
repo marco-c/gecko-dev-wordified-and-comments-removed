@@ -509,17 +509,6 @@ IsSameProcess
 const
 override
 ;
-virtual
-void
-ReplyRemoveTexture
-(
-const
-OpReplyRemoveTexture
-&
-aReply
-)
-override
-;
 void
 SendFenceHandleToNonRecycle
 (

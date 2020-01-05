@@ -38,17 +38,6 @@ mozilla
 /
 layers
 /
-AsyncTransactionTracker
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 PLayerTransactionChild
 .
 h
