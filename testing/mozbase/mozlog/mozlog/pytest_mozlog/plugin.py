@@ -553,6 +553,9 @@ else
 ERROR
 '
             
+try
+:
+                
 crash
 =
 report
@@ -560,7 +563,7 @@ report
 longrepr
 .
 reprcrash
-            
+                
 message
 =
 "
@@ -584,7 +587,7 @@ crash
 .
 lineno
 )
-            
+                
 stack
 =
 report
@@ -592,6 +595,18 @@ report
 longrepr
 .
 reprtraceback
+            
+except
+AttributeError
+:
+                
+message
+=
+stack
+=
+report
+.
+longrepr
         
 elif
 report
