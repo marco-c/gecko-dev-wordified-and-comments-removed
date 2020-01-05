@@ -807,6 +807,10 @@ workerglobalscope
 ;
 pub
 mod
+workernavigator
+;
+pub
+mod
 xmlhttprequest
 ;
 pub

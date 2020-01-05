@@ -127,12 +127,6 @@ attribute
 EventHandler
 ononline
 ;
-/
-/
-also
-has
-obsolete
-members
 }
 ;
 /
@@ -166,6 +160,10 @@ WorkerGlobalScope
 {
 /
 /
+not
+obsolete
+/
+/
 void
 importScripts
 (
@@ -176,8 +174,6 @@ DOMString
 urls
 )
 ;
-/
-/
 readonly
 attribute
 WorkerNavigator
