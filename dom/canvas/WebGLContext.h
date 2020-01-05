@@ -931,7 +931,7 @@ dom
 :
 ArrayBufferView
 >
-&
+*
 maybeView
 ErrorResult
 *
@@ -941,7 +941,8 @@ if
 (
 !
 maybeView
-.
+-
+>
 IsNull
 (
 )
@@ -952,7 +953,8 @@ mView
 &
 (
 maybeView
-.
+-
+>
 Value
 (
 )
@@ -967,7 +969,7 @@ dom
 :
 :
 ArrayBufferView
-&
+*
 view
 ErrorResult
 *
@@ -975,7 +977,6 @@ ErrorResult
 {
 mView
 =
-&
 view
 ;
 }
@@ -986,7 +987,7 @@ dom
 :
 :
 ArrayBufferView
-&
+*
 view
 GLuint
 viewElemOffset
@@ -998,7 +999,6 @@ viewElemLengthOverride
 {
 mView
 =
-&
 view
 ;
 mViewElemOffset
@@ -1012,7 +1012,9 @@ viewElemLengthOverride
 }
 TexImageSourceAdapter
 (
+const
 WebGLsizeiptr
+*
 pboOffset
 GLuint
 ignored1
@@ -1024,13 +1026,14 @@ ignored2
 {
 mPboOffset
 =
-&
 pboOffset
 ;
 }
 TexImageSourceAdapter
 (
+const
 WebGLsizeiptr
+*
 pboOffset
 ErrorResult
 *
@@ -1039,7 +1042,6 @@ ignored
 {
 mPboOffset
 =
-&
 pboOffset
 ;
 }
@@ -1050,7 +1052,7 @@ dom
 :
 :
 ImageData
-&
+*
 imageData
 ErrorResult
 *
@@ -1058,7 +1060,6 @@ ErrorResult
 {
 mImageData
 =
-&
 imageData
 ;
 }
@@ -1069,7 +1070,7 @@ dom
 :
 :
 Element
-&
+*
 domElem
 ErrorResult
 *
@@ -1079,7 +1080,6 @@ out_error
 {
 mDomElem
 =
-&
 domElem
 ;
 mOut_error
@@ -5266,6 +5266,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 viewElemOffset
 viewElemLengthOverride
@@ -5354,6 +5355,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 viewElemOffset
 viewElemLengthOverride
@@ -5703,6 +5705,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 &
 out_error
@@ -5758,6 +5761,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 view
 viewElemOffset
 )
@@ -5914,6 +5918,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 &
 out_error
@@ -5969,6 +5974,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 view
 viewElemOffset
 )
