@@ -785,11 +785,13 @@ GetRemoteRenderer
 (
 )
 ;
+virtual
 CompositorBridgeChild
 *
 GetCompositorBridgeChild
 (
 )
+override
 ;
 virtual
 bool

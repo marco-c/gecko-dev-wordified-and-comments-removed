@@ -331,11 +331,13 @@ return
 this
 ;
 }
+virtual
 CompositorBridgeChild
 *
 GetCompositorBridgeChild
 (
 )
+override
 ;
 virtual
 int32_t
