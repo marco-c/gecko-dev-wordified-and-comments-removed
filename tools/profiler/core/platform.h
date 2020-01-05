@@ -236,7 +236,7 @@ MOZ_ASSERT
 a
 )
 bool
-moz_profiler_verbose
+profiler_verbose
 (
 )
 ;
@@ -274,7 +274,7 @@ do
 {
 if
 (
-moz_profiler_verbose
+profiler_verbose
 (
 )
 )
@@ -308,7 +308,7 @@ do
 {
 if
 (
-moz_profiler_verbose
+profiler_verbose
 (
 )
 )
@@ -343,7 +343,7 @@ do
 {
 if
 (
-moz_profiler_verbose
+profiler_verbose
 (
 )
 )
@@ -381,7 +381,7 @@ do
 {
 if
 (
-moz_profiler_verbose
+profiler_verbose
 (
 )
 )
@@ -393,11 +393,11 @@ Profiler
 :
 "
 format
-\
 "
 \
 n
 "
+\
 __VA_ARGS__
 )
 ;

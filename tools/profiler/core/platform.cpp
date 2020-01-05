@@ -1208,7 +1208,7 @@ ProfilerVerbosity
 UNCHECKED
 ;
 bool
-moz_profiler_verbose
+profiler_verbose
 (
 )
 {
@@ -1262,7 +1262,7 @@ VERBOSE
 ;
 }
 void
-moz_profiler_set_verbosity
+profiler_set_verbosity
 (
 ProfilerVerbosity
 pv
@@ -1569,7 +1569,7 @@ PROFILER_HELP
 )
 )
 {
-moz_profiler_set_verbosity
+profiler_set_verbosity
 (
 ProfilerVerbosity
 :
@@ -1581,7 +1581,7 @@ profiler_usage
 (
 )
 ;
-moz_profiler_set_verbosity
+profiler_set_verbosity
 (
 ProfilerVerbosity
 :
