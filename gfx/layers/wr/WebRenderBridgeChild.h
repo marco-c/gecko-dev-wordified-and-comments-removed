@@ -255,6 +255,10 @@ bool
 aIsSync
 uint64_t
 aTransactionId
+const
+WebRenderScrollData
+&
+aScrollData
 )
 ;
 CompositorBridgeChild

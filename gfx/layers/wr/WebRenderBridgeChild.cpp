@@ -358,6 +358,10 @@ bool
 aIsSync
 uint64_t
 aTransactionId
+const
+WebRenderScrollData
+&
+aScrollData
 )
 {
 MOZ_ASSERT
@@ -430,6 +434,7 @@ auxData
 dl
 .
 aux_desc
+aScrollData
 )
 ;
 }
@@ -455,6 +460,7 @@ auxData
 dl
 .
 aux_desc
+aScrollData
 )
 ;
 }

@@ -1368,6 +1368,10 @@ const
 WrAuxiliaryListsDescriptor
 &
 auxDesc
+const
+WebRenderScrollData
+&
+aScrollData
 )
 {
 UpdateFwdTransactionId
@@ -1498,6 +1502,10 @@ const
 WrAuxiliaryListsDescriptor
 &
 auxDesc
+const
+WebRenderScrollData
+&
+aScrollData
 )
 {
 HandleDPEnd
@@ -1517,6 +1525,7 @@ dl
 dlDesc
 aux
 auxDesc
+aScrollData
 )
 ;
 return
@@ -1582,6 +1591,10 @@ const
 WrAuxiliaryListsDescriptor
 &
 auxDesc
+const
+WebRenderScrollData
+&
+aScrollData
 )
 {
 HandleDPEnd
@@ -1601,6 +1614,7 @@ dl
 dlDesc
 aux
 auxDesc
+aScrollData
 )
 ;
 return

@@ -1375,6 +1375,13 @@ h
 '
 wr
 /
+WebRenderScrollData
+.
+h
+'
+'
+wr
+/
 WebRenderTextureHost
 .
 h
@@ -2627,6 +2634,13 @@ cpp
 wr
 /
 WebRenderPaintedLayer
+.
+cpp
+'
+'
+wr
+/
+WebRenderScrollData
 .
 cpp
 '
