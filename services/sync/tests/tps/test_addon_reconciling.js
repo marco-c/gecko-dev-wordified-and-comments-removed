@@ -153,6 +153,11 @@ id
 ]
 STATE_DISABLED
 ]
+[
+Addons
+.
+skipValidation
+]
 ]
 )
 ;

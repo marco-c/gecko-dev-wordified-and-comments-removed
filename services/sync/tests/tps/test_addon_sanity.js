@@ -84,6 +84,9 @@ id
 ]
 STATE_ENABLED
 ]
+[
+Sync
+]
 ]
 )
 ;

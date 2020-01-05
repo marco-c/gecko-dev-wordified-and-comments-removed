@@ -148,6 +148,9 @@ id2
 ]
 STATE_ENABLED
 ]
+[
+Sync
+]
 ]
 )
 ;
