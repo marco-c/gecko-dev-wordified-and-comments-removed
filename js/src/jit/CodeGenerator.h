@@ -1361,6 +1361,14 @@ lir
 )
 ;
 void
+visitNewArrayIterator
+(
+LNewArrayIterator
+*
+lir
+)
+;
+void
 visitNewTypedArray
 (
 LNewTypedArray

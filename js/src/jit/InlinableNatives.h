@@ -558,6 +558,12 @@ IntrinsicGetNextSetEntryForIterator
 \
 _
 (
+IntrinsicNewArrayIterator
+)
+\
+\
+_
+(
 IntrinsicArrayBufferByteLength
 )
 \

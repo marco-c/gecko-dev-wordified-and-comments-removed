@@ -308,6 +308,11 @@ NewArrayDynamicLength
 \
 _
 (
+NewArrayIterator
+)
+\
+_
+(
 NewTypedArray
 )
 \

@@ -410,6 +410,14 @@ ins
 )
 ;
 void
+visitNewArrayIterator
+(
+MNewArrayIterator
+*
+ins
+)
+;
+void
 visitNewTypedArray
 (
 MNewTypedArray
