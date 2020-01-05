@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsIDOMDocument
+nsIDOMXMLDocument
 .
 h
 "
@@ -1731,7 +1731,7 @@ nsDocument
 public
 nsIDocument
 public
-nsIDOMDocument
+nsIDOMXMLDocument
 public
 nsIDOMDocumentXBL
 public
@@ -3168,6 +3168,7 @@ public
 :
 NS_FORWARD_NSIDOMNODE_TO_NSINODE_OVERRIDABLE
 NS_DECL_NSIDOMDOCUMENT
+NS_DECL_NSIDOMXMLDOCUMENT
 NS_DECL_NSIDOMDOCUMENTXBL
 virtual
 nsresult
