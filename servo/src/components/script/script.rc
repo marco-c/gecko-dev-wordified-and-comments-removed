@@ -324,6 +324,10 @@ HTMLHtmlElementBinding
 ;
 pub
 mod
+HTMLIFrameElementBinding
+;
+pub
+mod
 HTMLImageElementBinding
 ;
 pub
@@ -435,6 +439,10 @@ htmlelement
 pub
 mod
 htmlhrelement
+;
+pub
+mod
+htmliframeelement
 ;
 pub
 mod

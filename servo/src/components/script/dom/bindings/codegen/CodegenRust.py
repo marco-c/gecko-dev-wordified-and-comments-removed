@@ -37723,6 +37723,16 @@ HTMLHRElement
 dom
 :
 :
+htmliframeelement
+:
+:
+HTMLIFrameElement
+'
+                          
+'
+dom
+:
+:
 htmlimageelement
 :
 :

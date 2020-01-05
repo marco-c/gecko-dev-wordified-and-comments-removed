@@ -60,7 +60,6 @@ HTMLHeadElement
 HTMLHeadingElement
 HTMLHtmlElement
 HTMLInputElement
-HTMLIframeElement
 HTMLItalicElement
 HTMLLinkElement
 HTMLListItemElement
@@ -124,6 +123,15 @@ htmlhrelement
 :
 :
 HTMLHRElement
+;
+use
+dom
+:
+:
+htmliframeelement
+:
+:
+HTMLIFrameElement
 ;
 use
 dom
@@ -1639,7 +1647,7 @@ tag
 iframe
 "
 HTMLIframeElementTypeId
-HTMLIframeElement
+HTMLIFrameElement
 [
 (
 frame

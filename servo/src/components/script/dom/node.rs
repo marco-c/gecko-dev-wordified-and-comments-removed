@@ -88,7 +88,6 @@ Element
 ElementTypeId
 HTMLImageElementTypeId
 HTMLIframeElementTypeId
-HTMLIframeElement
 }
 ;
 use
@@ -110,6 +109,15 @@ htmlimageelement
 :
 :
 HTMLImageElement
+;
+use
+dom
+:
+:
+htmliframeelement
+:
+:
+HTMLIFrameElement
 ;
 use
 dom
@@ -2659,7 +2667,7 @@ f
 fn
 (
 &
-HTMLIframeElement
+HTMLIFrameElement
 )
 -
 >
@@ -2714,7 +2722,7 @@ fn
 (
 &
 mut
-HTMLIframeElement
+HTMLIFrameElement
 )
 -
 >
