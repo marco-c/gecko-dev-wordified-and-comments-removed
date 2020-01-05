@@ -1677,11 +1677,6 @@ mPlaybackRate
 1
 ;
 }
-bool
-mIsPrerolling
-=
-false
-;
 MediaEventListener
 mAudioCallback
 ;
