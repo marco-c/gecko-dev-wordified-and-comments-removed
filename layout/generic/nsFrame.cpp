@@ -5785,14 +5785,8 @@ false
 ;
 }
 return
-StyleDisplay
+IsTransformed
 (
-)
--
->
-HasTransform
-(
-this
 )
 |
 |
