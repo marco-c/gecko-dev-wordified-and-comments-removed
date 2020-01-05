@@ -44,11 +44,6 @@ StatisticsType
 aType
 =
 ALL_STATS
-FILE
-*
-aOut
-=
-0
 )
 ;
 static
