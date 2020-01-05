@@ -768,6 +768,11 @@ SandboxLogging
 cpp
 '
 '
+SandboxReporterClient
+.
+cpp
+'
+'
 SandboxUtil
 .
 cpp
@@ -1129,6 +1134,9 @@ broker
 '
 '
 glue
+'
+'
+reporter
 '
 ]
 TEST_DIRS
