@@ -2807,6 +2807,9 @@ FragmentOrURL
 FrameRequestCallback
 "
 "
+GeckoParserExtraData
+"
+"
 gfxAlternateValue
 "
 "
@@ -3837,6 +3840,9 @@ RawGeckoPresContext
 "
 "
 RawGeckoPresContextOwned
+"
+"
+GeckoParserExtraData
 "
 "
 RefPtr
