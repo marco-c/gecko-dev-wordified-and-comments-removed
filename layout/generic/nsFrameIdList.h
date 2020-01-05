@@ -604,7 +604,7 @@ nsSVGPaintServerFrame
 )
 FRAME_ID
 (
-nsSVGPathGeometryFrame
+SVGGeometryFrame
 )
 FRAME_ID
 (

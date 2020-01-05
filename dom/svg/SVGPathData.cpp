@@ -84,13 +84,6 @@ h
 "
 #
 include
-"
-nsSVGPathGeometryElement
-.
-h
-"
-#
-include
 <
 stdarg
 .
@@ -107,6 +100,13 @@ h
 include
 "
 SVGContentUtils
+.
+h
+"
+#
+include
+"
+SVGGeometryElement
 .
 h
 "
