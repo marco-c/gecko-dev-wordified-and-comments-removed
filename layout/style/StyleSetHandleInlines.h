@@ -482,8 +482,6 @@ aPseudoTag
 nsStyleContext
 *
 aParentContext
-uint32_t
-aFlags
 )
 {
 FORWARD
@@ -492,7 +490,6 @@ ResolveInheritingAnonymousBoxStyle
 (
 aPseudoTag
 aParentContext
-aFlags
 )
 )
 ;

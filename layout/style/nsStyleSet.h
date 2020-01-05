@@ -870,10 +870,6 @@ aPseudoTag
 nsStyleContext
 *
 aParentContext
-uint32_t
-aFlags
-=
-eNoFlags
 )
 ;
 already_AddRefed

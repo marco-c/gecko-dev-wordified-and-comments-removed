@@ -571,10 +571,6 @@ aPseudoTag
 nsStyleContext
 *
 aParentContext
-uint32_t
-aFlags
-=
-0
 )
 ;
 inline

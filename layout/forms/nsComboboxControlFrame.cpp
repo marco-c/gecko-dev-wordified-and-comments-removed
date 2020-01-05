@@ -5766,10 +5766,6 @@ nsCSSAnonBoxes
 :
 mozDisplayComboboxControlFrame
 mStyleContext
-nsStyleSet
-:
-:
-eSkipParentDisplayBasedStyleFixup
 )
 ;
 RefPtr
