@@ -984,7 +984,7 @@ R
 .
 id
 .
-menu
+tabs_menu
 )
 ;
 mMenuButton
