@@ -3149,7 +3149,7 @@ tooltiptext
 "
 window
 .
-gSyncUI
+gSync
 .
 formatLastSyncDate
 (

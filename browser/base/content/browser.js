@@ -8581,13 +8581,7 @@ init
 (
 )
 ;
-gSyncUI
-.
-init
-(
-)
-;
-gFxAccounts
+gSync
 .
 init
 (
@@ -8772,7 +8766,7 @@ ex
 )
 ;
 }
-requestIdleCallback
+setTimeout
 (
 (
 )
@@ -8808,13 +8802,9 @@ null
 )
 ;
 }
-{
-timeout
-:
 1000
 *
 60
-}
 )
 ;
 setTimeout
@@ -9297,7 +9287,7 @@ uninit
 (
 )
 ;
-gFxAccounts
+gSync
 .
 uninit
 (
@@ -10210,7 +10200,7 @@ init
 (
 )
 ;
-gSyncUI
+gSync
 .
 init
 (
@@ -34699,7 +34689,7 @@ BrowserOpenSyncTabs
 (
 )
 {
-gSyncUI
+gSync
 .
 openSyncedTabsPanel
 (
@@ -41887,7 +41877,7 @@ popuphiding
 this
 )
 ;
-gFxAccounts
+gSync
 .
 updateTabContextMenu
 (
