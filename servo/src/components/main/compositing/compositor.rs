@@ -1547,7 +1547,7 @@ create_root_compositor_layer_if_necessary
 &
 mut
 self
-_
+id
 :
 PipelineId
 layer_id
@@ -1577,6 +1577,15 @@ Some
 ref
 compositor_layer
 )
+if
+compositor_layer
+.
+pipeline
+.
+id
+=
+=
+id
 =
 >
 {
@@ -1595,7 +1604,7 @@ id_of_first_child
 )
 )
 }
-None
+_
 =
 >
 {
