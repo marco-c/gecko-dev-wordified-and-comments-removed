@@ -1,18 +1,3 @@
-#
-[
-cfg
-(
-feature
-=
-"
-servo
-"
-)
-]
-extern
-crate
-geckoservo
-;
 extern
 crate
 mp4parse_capi
@@ -38,5 +23,5 @@ quantum_render
 ]
 extern
 crate
-webrender_bindings
+webrender
 ;
