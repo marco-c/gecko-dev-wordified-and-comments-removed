@@ -1399,6 +1399,26 @@ src_dir
 ]
 ;
     
+if
+is_windows
+(
+)
+:
+        
+cmake_args
+.
+insert
+(
+-
+1
+"
+-
+DLLVM_EXPORT_SYMBOLS_FOR_PLUGINS
+=
+ON
+"
+)
+    
 build_package
 (
 build_dir
