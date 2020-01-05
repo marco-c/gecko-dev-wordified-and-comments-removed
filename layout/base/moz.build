@@ -467,6 +467,11 @@ ServoRestyleManagerInlines
 h
 '
 '
+ShapeUtils
+.
+h
+'
+'
 StaticPresData
 .
 h
@@ -623,6 +628,11 @@ cpp
 '
 '
 ServoRestyleManager
+.
+cpp
+'
+'
+ShapeUtils
 .
 cpp
 '
