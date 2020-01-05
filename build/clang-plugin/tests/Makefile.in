@@ -116,6 +116,12 @@ limit
 std
 =
 c11
+-
+Wno
+-
+invalid
+-
+noreturn
 OS_CXXFLAGS
 :
 =
@@ -144,6 +150,12 @@ ferror
 limit
 =
 0
+-
+Wno
+-
+invalid
+-
+noreturn
 include
 (
 topsrcdir
