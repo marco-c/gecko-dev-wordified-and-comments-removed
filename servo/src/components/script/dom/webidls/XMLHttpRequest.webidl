@@ -310,8 +310,9 @@ DOMString
 url
 )
 ;
-/
-/
+[
+Throws
+]
 void
 open
 (
@@ -454,8 +455,6 @@ ByteString
 name
 )
 ;
-/
-/
 ByteString
 getAllResponseHeaders
 (
