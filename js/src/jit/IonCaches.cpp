@@ -17591,10 +17591,7 @@ if
 !
 FetchName
 <
-GetNameMode
-:
-:
-TypeOf
+true
 >
 (
 cx
@@ -17616,10 +17613,7 @@ if
 !
 FetchName
 <
-GetNameMode
-:
-:
-Normal
+false
 >
 (
 cx
