@@ -878,7 +878,6 @@ yield
 promiseAddonByID
 (
 IGNORE_ID
-NORMAL_ID
 )
 ;
 do_check_neq

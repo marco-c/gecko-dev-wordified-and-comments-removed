@@ -61,13 +61,6 @@ jsm
 )
 ;
 const
-{
-promiseAddonByID
-}
-=
-AddonTestUtils
-;
-const
 id
 =
 "
@@ -371,7 +364,9 @@ let
 addon
 =
 yield
-promiseAddonByID
+AddonManager
+.
+getAddonByID
 (
 id
 )
@@ -511,7 +506,9 @@ let
 addon
 =
 yield
-promiseAddonByID
+AddonManager
+.
+getAddonByID
 (
 id
 )
@@ -761,7 +758,9 @@ let
 addon
 =
 yield
-promiseAddonByID
+AddonManager
+.
+getAddonByID
 (
 id
 )
@@ -803,7 +802,9 @@ rejected
 addon
 =
 yield
-promiseAddonByID
+AddonManager
+.
+getAddonByID
 (
 id
 )
