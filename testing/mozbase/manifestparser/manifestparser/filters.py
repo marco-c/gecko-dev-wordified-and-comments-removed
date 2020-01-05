@@ -869,25 +869,6 @@ subsuite
 '
 )
             
-subsuite
-=
-subsuite
-.
-split
-(
-'
-#
-'
-1
-)
-[
-0
-]
-.
-strip
-(
-)
-            
 if
 '
 '
@@ -962,18 +943,6 @@ subsuite
 =
 '
 '
-            
-else
-:
-                
-test
-[
-'
-subsuite
-'
-]
-=
-subsuite
             
 if
 self
