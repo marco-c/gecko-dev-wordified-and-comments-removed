@@ -13697,7 +13697,7 @@ mPresShell
 fieldsetContentStyle
 nsFrameState
 (
-0
+NS_FRAME_OWNS_ANON_BOXES
 )
 )
 ;
@@ -16696,7 +16696,7 @@ mPresShell
 outerSC
 nsFrameState
 (
-0
+NS_FRAME_OWNS_ANON_BOXES
 )
 )
 ;
@@ -50925,7 +50925,7 @@ mPresShell
 aStyleContext
 nsFrameState
 (
-0
+NS_FRAME_OWNS_ANON_BOXES
 )
 )
 ;
