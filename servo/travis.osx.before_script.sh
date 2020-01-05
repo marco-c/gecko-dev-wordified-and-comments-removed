@@ -1,5 +1,0 @@
-#
-Placeholder
-for
-OS
-X
