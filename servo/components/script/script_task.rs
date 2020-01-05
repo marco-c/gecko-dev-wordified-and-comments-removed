@@ -3250,6 +3250,7 @@ compositor
 .
 set_ready_state
 (
+pipeline_id
 FinishedLoading
 )
 ;
@@ -4217,6 +4218,7 @@ compositor
 .
 set_ready_state
 (
+pipeline_id
 Loading
 )
 ;

@@ -98,7 +98,10 @@ RenderingRenderState
 [
 deriving
 (
+Eq
+Ord
 PartialEq
+PartialOrd
 Clone
 )
 ]
@@ -356,8 +359,7 @@ set_render_state
 (
 &
 self
-render_state
-:
+PipelineId
 RenderState
 )
 ;
@@ -373,6 +375,7 @@ set_ready_state
 (
 &
 self
+PipelineId
 ReadyState
 )
 ;
