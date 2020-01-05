@@ -550,17 +550,6 @@ as
 FT_Error
 }
 }
-#
-[
-cfg
-(
-target_os
-=
-"
-linux
-"
-)
-]
 fn
 with_test_native_font
 (
