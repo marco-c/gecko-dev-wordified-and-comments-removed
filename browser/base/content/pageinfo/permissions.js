@@ -1287,6 +1287,14 @@ initIndexedDBRow
 (
 )
 {
+if
+(
+gPermPrincipal
+.
+isNullPrincipal
+)
+return
+;
 let
 row
 =
