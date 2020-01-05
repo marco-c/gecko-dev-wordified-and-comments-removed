@@ -110,6 +110,7 @@ subclass
 enum
 element_subclass
 {
+es_unknown
 es_div
 es_img
 (

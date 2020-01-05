@@ -275,16 +275,11 @@ debug
 [
 "
 reflow_inline
-root
-=
-%
-?
 size
 =
 %
 ?
 "
-self
 self
 .
 bounds
