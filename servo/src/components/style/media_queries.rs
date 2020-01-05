@@ -14,9 +14,6 @@ cssparser
 *
 ;
 use
-style
-:
-:
 errors
 :
 :
@@ -26,9 +23,6 @@ log_css_error
 }
 ;
 use
-style
-:
-:
 stylesheets
 :
 :
@@ -40,9 +34,6 @@ parse_nested_at_rule
 }
 ;
 use
-style
-:
-:
 namespaces
 :
 :

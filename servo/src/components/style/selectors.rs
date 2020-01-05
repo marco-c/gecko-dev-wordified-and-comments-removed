@@ -23,9 +23,6 @@ cssparser
 *
 ;
 use
-style
-:
-:
 namespaces
 :
 :

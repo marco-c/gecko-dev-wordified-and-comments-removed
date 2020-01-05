@@ -14,9 +14,6 @@ cssparser
 *
 ;
 use
-style
-:
-:
 errors
 :
 :
