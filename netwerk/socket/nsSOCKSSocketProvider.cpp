@@ -40,12 +40,6 @@ nsError
 .
 h
 "
-using
-mozilla
-:
-:
-NeckoOriginAttributes
-;
 NS_IMPL_ISUPPORTS
 (
 nsSOCKSSocketProvider
@@ -183,9 +177,9 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+nsACString
 &
-originAttributes
+firstPartyDomain
 uint32_t
 flags
 PRFileDesc
@@ -310,9 +304,9 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+nsACString
 &
-originAttributes
+firstPartyDomain
 uint32_t
 flags
 PRFileDesc

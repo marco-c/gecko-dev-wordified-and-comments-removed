@@ -1017,8 +1017,8 @@ mHttpsProxy
 uint32_t
 mConnectionFlags
 ;
-NeckoOriginAttributes
-mOriginAttributes
+nsCString
+mFirstPartyDomain
 ;
 uint16_t
 SocketPort
