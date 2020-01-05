@@ -2329,7 +2329,10 @@ declarations
 :
 Option
 <
+Arc
+<
 PropertyDeclarationBlock
+>
 >
 pub
 cache
@@ -2425,6 +2428,14 @@ GeckoElement
 parse_style_attribute
 (
 value
+)
+.
+map
+(
+Arc
+:
+:
+new
 )
 cache
 :
