@@ -885,9 +885,6 @@ eIntrinsicMinSizing
 eMinOrMaxContentMinSizing
 |
 eAutoMinSizing
-eIndefinitePercentMinSizing
-=
-0x8
 eAutoMaxSizing
 =
 0x10
@@ -1180,11 +1177,6 @@ aPercentageBasis
 minSizeUnit
 =
 eStyleUnit_Auto
-;
-mState
-|
-=
-eIndefinitePercentMinSizing
 ;
 }
 if
