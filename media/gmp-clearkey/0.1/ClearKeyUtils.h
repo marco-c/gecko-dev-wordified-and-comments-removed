@@ -153,6 +153,13 @@ Key
 static
 const
 uint32_t
+kMaxSessionResponseLength
+=
+65536
+;
+static
+const
+uint32_t
 kMaxWebmInitDataSize
 =
 65536
