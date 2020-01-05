@@ -17,10 +17,6 @@ job
 -
 name
 :
-gecko
--
-v2
-:
 win32
 -
 debug
@@ -115,10 +111,6 @@ firefox
 job
 -
 name
-:
-gecko
--
-v2
 :
 win32
 -
@@ -215,10 +207,6 @@ firefox
 job
 -
 name
-:
-gecko
--
-v2
 :
 win32
 -
@@ -322,10 +310,6 @@ job
 -
 name
 :
-gecko
--
-v2
-:
 win64
 -
 debug
@@ -420,10 +404,6 @@ firefox
 job
 -
 name
-:
-gecko
--
-v2
 :
 win64
 -
@@ -520,10 +500,6 @@ firefox
 job
 -
 name
-:
-gecko
--
-v2
 :
 win64
 -
