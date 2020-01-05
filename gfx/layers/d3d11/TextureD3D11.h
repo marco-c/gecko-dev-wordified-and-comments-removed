@@ -1701,6 +1701,7 @@ SyncObject
 {
 public
 :
+explicit
 SyncObjectD3D11
 (
 SyncHandle

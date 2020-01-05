@@ -253,6 +253,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GlyphRenderingOptionsDWrite
 )
+explicit
 GlyphRenderingOptionsDWrite
 (
 IDWriteRenderingParams

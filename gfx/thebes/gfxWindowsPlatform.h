@@ -217,6 +217,7 @@ final
 {
 public
 :
+explicit
 DCFromDrawTarget
 (
 mozilla

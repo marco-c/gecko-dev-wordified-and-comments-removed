@@ -313,6 +313,7 @@ friend
 class
 DeviceManagerD3D9
 ;
+explicit
 SwapChainD3D9
 (
 DeviceManagerD3D9

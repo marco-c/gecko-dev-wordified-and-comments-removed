@@ -640,6 +640,7 @@ IDWriteTextRenderer
 {
 public
 :
+explicit
 DWriteFontFallbackRenderer
 (
 IDWriteFactory

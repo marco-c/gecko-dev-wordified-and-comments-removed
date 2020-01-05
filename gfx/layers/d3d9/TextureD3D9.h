@@ -1183,6 +1183,7 @@ true
 }
 protected
 :
+explicit
 TextureHostD3D9
 (
 TextureFlags

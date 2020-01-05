@@ -98,6 +98,7 @@ ReadbackResultWriterD3D11
 NS_DECL_THREADSAFE_ISUPPORTS
 public
 :
+explicit
 ReadbackResultWriterD3D11
 (
 ReadbackTask

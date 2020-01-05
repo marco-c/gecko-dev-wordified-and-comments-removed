@@ -409,6 +409,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeConvolveD2D1
 override
 )
+explicit
 FilterNodeConvolveD2D1
 (
 ID2D1DeviceContext

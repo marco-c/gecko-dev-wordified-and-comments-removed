@@ -306,6 +306,7 @@ gfxUserFontData
 {
 public
 :
+explicit
 WinUserFontData
 (
 HANDLE
@@ -3767,6 +3768,7 @@ aLength
 struct
 FontDataDeleter
 {
+explicit
 FontDataDeleter
 (
 const

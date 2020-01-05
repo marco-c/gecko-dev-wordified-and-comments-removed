@@ -10,6 +10,7 @@ StackArray
 {
 public
 :
+explicit
 StackArray
 (
 size_t
