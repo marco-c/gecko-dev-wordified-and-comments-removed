@@ -49,6 +49,7 @@ flow
 BaseFlow
 FlowClass
 Flow
+ForceNonfloated
 InlineFlowClass
 MutableFlowUtils
 }
@@ -3507,6 +3508,7 @@ new
 (
 None
 writing_mode
+ForceNonfloated
 )
 fragments
 :
@@ -5389,7 +5391,15 @@ IS_ABSOLUTELY_POSITIONED
 )
 |
 |
+flow
+:
+:
+base
+(
 kid
+)
+.
+flags
 .
 is_float
 (
