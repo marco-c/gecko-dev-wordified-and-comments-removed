@@ -53,9 +53,6 @@ mCreationTimeStamp
 PRTime
 mLastUpdateTime
 ;
-uint64_t
-mLastUpdateCheckTime
-;
 nsLoadFlags
 mLoadFlags
 ;
