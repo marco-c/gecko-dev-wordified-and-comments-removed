@@ -294,6 +294,7 @@ HTMLElementTypeId
 HTMLAnchorElementTypeId
 HTMLAppletElementTypeId
 HTMLAreaElementTypeId
+HTMLAudioElementTypeId
 HTMLBaseElementTypeId
 HTMLBRElementTypeId
 HTMLBodyElementTypeId
@@ -317,9 +318,12 @@ HTMLHtmlElementTypeId
 HTMLIframeElementTypeId
 HTMLImageElementTypeId
 HTMLInputElementTypeId
+HTMLLabelElementTypeId
+HTMLLegendElementTypeId
 HTMLLinkElementTypeId
 HTMLLIElementTypeId
 HTMLMapElementTypeId
+HTMLMediaElementTypeId
 HTMLMetaElementTypeId
 HTMLMeterElementTypeId
 HTMLModElementTypeId
@@ -330,6 +334,7 @@ HTMLOptionElementTypeId
 HTMLOutputElementTypeId
 HTMLParagraphElementTypeId
 HTMLParamElementTypeId
+HTMLPreElementTypeId
 HTMLProgressElementTypeId
 HTMLQuoteElementTypeId
 HTMLScriptElementTypeId
@@ -343,10 +348,13 @@ HTMLTableCellElementTypeId
 HTMLTableColElementTypeId
 HTMLTableRowElementTypeId
 HTMLTableSectionElementTypeId
+HTMLTemplateElementTypeId
 HTMLTextAreaElementTypeId
 HTMLTimeElementTypeId
 HTMLTitleElementTypeId
+HTMLTrackElementTypeId
 HTMLUListElementTypeId
+HTMLVideoElementTypeId
 HTMLUnknownElementTypeId
 }
 /
