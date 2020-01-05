@@ -854,11 +854,11 @@ PropertyAnimation
 pub
 start_time
 :
-f32
+f64
 pub
 end_time
 :
-f32
+f64
 }
 impl
 Animation
@@ -876,7 +876,7 @@ self
 )
 -
 >
-f32
+f64
 {
 self
 .

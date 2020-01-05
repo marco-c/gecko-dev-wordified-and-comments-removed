@@ -202,8 +202,6 @@ clock_ticks
 precise_time_s
 (
 )
-as
-f32
 ;
 let
 animation_style
@@ -219,6 +217,7 @@ start_time
 =
 now
 +
+(
 animation_style
 .
 transition_delay
@@ -232,6 +231,9 @@ i
 .
 seconds
 (
+)
+as
+f64
 )
 ;
 new_animations_sender
@@ -257,6 +259,7 @@ end_time
 :
 start_time
 +
+(
 animation_style
 .
 transition_duration
@@ -270,6 +273,9 @@ i
 .
 seconds
 (
+)
+as
+f64
 )
 }
 )
@@ -433,7 +439,7 @@ precise_time_s
 (
 )
 as
-f32
+f64
 ;
 let
 mut
@@ -626,7 +632,7 @@ precise_time_s
 (
 )
 as
-f32
+f64
 ;
 for
 running_animation
