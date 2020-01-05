@@ -2630,6 +2630,13 @@ View
 >
 >
 {
+let
+node
+=
+self
+.
+current_node
+;
 self
 .
 current_node
@@ -2656,9 +2663,7 @@ next_sibling
 )
 }
 ;
-self
-.
-current_node
+node
 }
 }
 impl
