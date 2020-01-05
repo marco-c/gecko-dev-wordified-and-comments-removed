@@ -680,6 +680,7 @@ next
 ;
 }
 function
+*
 nextTest
 (
 )
@@ -2108,8 +2109,6 @@ SimpleTest
 finish
 (
 )
-yield
-;
 }
 function
 setScale

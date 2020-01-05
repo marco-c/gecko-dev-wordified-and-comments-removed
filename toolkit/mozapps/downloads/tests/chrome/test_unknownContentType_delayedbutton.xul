@@ -567,6 +567,7 @@ Task
 spawn
 (
 function
+*
 test_aboutCrashed
 (
 )

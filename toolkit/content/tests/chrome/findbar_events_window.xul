@@ -553,6 +553,7 @@ testFind
 )
 ;
 yield
+*
 testFindAgain
 (
 )
@@ -955,6 +956,7 @@ checkSelection
 ;
 }
 function
+*
 testFindAgain
 (
 )
