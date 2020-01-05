@@ -137,11 +137,9 @@ info
 ;
 vLocalRect
 =
-image
+vi
 .
-info
-.
-local_rect
+clipped_local_rect
 ;
 vLocalPos
 =

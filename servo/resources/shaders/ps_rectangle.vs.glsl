@@ -120,11 +120,9 @@ info
 ;
 vLocalRect
 =
-rect
+vi
 .
-info
-.
-local_rect
+clipped_local_rect
 ;
 vLocalPos
 =
