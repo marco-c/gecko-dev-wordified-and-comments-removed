@@ -173,6 +173,8 @@ run
 "
 suite
 :
+reftest
+/
 crashtest
 treeherder
 -
@@ -788,8 +790,6 @@ suite
 :
 mochitest
 /
-plain
--
 clipboard
 treeherder
 -
@@ -881,8 +881,6 @@ suite
 :
 mochitest
 /
-plain
--
 gpu
 treeherder
 -
