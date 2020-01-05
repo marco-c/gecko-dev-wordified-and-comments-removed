@@ -131,7 +131,6 @@ aInput
 )
 originAttribs
 (
-0
 false
 )
 isAnonymous
