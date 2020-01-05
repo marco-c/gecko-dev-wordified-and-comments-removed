@@ -272,6 +272,14 @@ opt
 '
 linux64
 -
+clang
+-
+tidy
+'
+    
+'
+linux64
+-
 debug
 '
     
@@ -353,6 +361,14 @@ opt
 linux
 -
 pgo
+'
+    
+'
+macosx64
+-
+clang
+-
+tidy
 '
     
 '
@@ -542,6 +558,14 @@ opt
 '
 win32
 -
+clang
+-
+tidy
+'
+    
+'
+win32
+-
 debug
 '
     
@@ -575,6 +599,14 @@ st
 an
 -
 opt
+'
+    
+'
+win64
+-
+clang
+-
+tidy
 '
     
 '

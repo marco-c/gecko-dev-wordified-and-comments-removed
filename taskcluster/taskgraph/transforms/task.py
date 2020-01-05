@@ -319,6 +319,11 @@ firefox
 '
 mobile
 '
+'
+static
+-
+analysis
+'
 )
         
 '
