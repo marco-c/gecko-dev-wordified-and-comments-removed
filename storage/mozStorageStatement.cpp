@@ -2836,13 +2836,6 @@ VALUE_TYPE_NULL
 {
 _value
 .
-Truncate
-(
-0
-)
-;
-_value
-.
 SetIsVoid
 (
 true
@@ -2934,13 +2927,6 @@ mozIStorageStatement
 VALUE_TYPE_NULL
 )
 {
-_value
-.
-Truncate
-(
-0
-)
-;
 _value
 .
 SetIsVoid

@@ -1321,13 +1321,6 @@ _str
 {
 _str
 .
-Truncate
-(
-0
-)
-;
-_str
-.
 SetIsVoid
 (
 true
@@ -1345,13 +1338,6 @@ nsAString
 _str
 )
 {
-_str
-.
-Truncate
-(
-0
-)
-;
 _str
 .
 SetIsVoid

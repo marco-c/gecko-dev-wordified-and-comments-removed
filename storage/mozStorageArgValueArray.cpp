@@ -329,13 +329,6 @@ SQLITE_NULL
 {
 _value
 .
-Truncate
-(
-0
-)
-;
-_value
-.
 SetIsVoid
 (
 true
@@ -416,13 +409,6 @@ aIndex
 SQLITE_NULL
 )
 {
-_value
-.
-Truncate
-(
-0
-)
-;
 _value
 .
 SetIsVoid

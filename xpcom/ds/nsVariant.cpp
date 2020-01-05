@@ -3781,12 +3781,6 @@ VTYPE_EMPTY
 :
 aOutString
 .
-Truncate
-(
-)
-;
-aOutString
-.
 SetIsVoid
 (
 true
