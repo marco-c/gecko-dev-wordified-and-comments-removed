@@ -83,6 +83,10 @@ png
 ;
 extern
 crate
+script_traits
+;
+extern
+crate
 serialize
 ;
 extern
