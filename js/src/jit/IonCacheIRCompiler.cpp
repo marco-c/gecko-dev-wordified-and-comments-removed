@@ -2116,7 +2116,7 @@ add
 ic
 -
 >
-temp1
+temp
 (
 )
 )
@@ -6792,7 +6792,7 @@ scratch1
 offset
 )
 ;
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 cx_
 masm

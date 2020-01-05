@@ -828,7 +828,7 @@ Register
 object_
 ;
 Register
-temp1_
+temp_
 ;
 FloatRegister
 maybeTempDouble_
@@ -868,7 +868,7 @@ liveRegs
 Register
 object
 Register
-temp1
+temp
 FloatRegister
 maybeTempDouble
 FloatRegister
@@ -901,9 +901,9 @@ object_
 (
 object
 )
-temp1_
+temp_
 (
-temp1
+temp
 )
 maybeTempDouble_
 (
@@ -976,13 +976,13 @@ rhs_
 ;
 }
 Register
-temp1
+temp
 (
 )
 const
 {
 return
-temp1_
+temp_
 ;
 }
 FloatRegister

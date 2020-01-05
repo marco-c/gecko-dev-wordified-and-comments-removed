@@ -6894,7 +6894,7 @@ typename
 T
 >
 void
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 JSContext
 *
