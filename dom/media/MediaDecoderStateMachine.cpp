@@ -2673,6 +2673,13 @@ ScheduleStateMachine
 (
 )
 ;
+mMaster
+-
+>
+DispatchDecodeTasksIfNeeded
+(
+)
+;
 }
 if
 (
@@ -13050,10 +13057,6 @@ mMinimizePreroll
 mMinimizePreroll
 =
 false
-;
-DispatchDecodeTasksIfNeeded
-(
-)
 ;
 }
 mStateObj
