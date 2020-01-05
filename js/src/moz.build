@@ -1906,6 +1906,13 @@ cpp
 '
 jit
 /
+FoldLinearArithConstants
+.
+cpp
+'
+'
+jit
+/
 InstructionReordering
 .
 cpp
@@ -5795,6 +5802,13 @@ js
 builtin
 /
 IntlData
+.
+js
+'
+'
+builtin
+/
+IntlTzData
 .
 js
 '

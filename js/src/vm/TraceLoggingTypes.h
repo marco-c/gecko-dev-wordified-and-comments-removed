@@ -258,6 +258,11 @@ RemoveUnnecessaryBitops
 \
 _
 (
+FoldLinearArithConstants
+)
+\
+_
+(
 EffectiveAddressAnalysis
 )
 \
