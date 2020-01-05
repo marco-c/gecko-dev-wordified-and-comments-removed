@@ -5224,7 +5224,7 @@ resp
 =
 newitems
 .
-get
+getBatched
 (
 )
 ;
