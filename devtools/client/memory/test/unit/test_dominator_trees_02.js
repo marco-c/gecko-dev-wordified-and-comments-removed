@@ -1,8 +1,10 @@
+"
+use
+strict
+"
+;
 const
 {
-snapshotState
-:
-states
 dominatorTreeState
 viewState
 treeMapState

@@ -1,8 +1,10 @@
+"
+use
+strict
+"
+;
 const
 {
-snapshotState
-:
-states
 dominatorTreeState
 viewState
 }
@@ -23,7 +25,6 @@ constants
 const
 {
 takeSnapshotAndCensus
-selectSnapshotAndRefresh
 fetchImmediatelyDominated
 }
 =

@@ -52,11 +52,8 @@ filter
 null
 ;
 }
-else
-{
 return
 filterString
 ;
-}
 }
 ;

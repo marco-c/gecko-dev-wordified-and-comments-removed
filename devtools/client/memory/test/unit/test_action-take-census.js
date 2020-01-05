@@ -1,10 +1,14 @@
+"
+use
+strict
+"
+;
 var
 {
 snapshotState
 :
 states
 censusDisplays
-censusState
 censusState
 viewState
 }

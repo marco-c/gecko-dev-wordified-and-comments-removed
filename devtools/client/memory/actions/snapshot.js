@@ -147,9 +147,6 @@ cache
 "
 )
 ;
-const
-takeSnapshotAndCensus
-=
 exports
 .
 takeSnapshotAndCensus
@@ -349,9 +346,6 @@ id
 ;
 }
 ;
-const
-selectSnapshotAndRefresh
-=
 exports
 .
 selectSnapshotAndRefresh
@@ -851,6 +845,7 @@ canTakeCensus
 (
 snapshot
 )
+"
 Attempting
 to
 take
@@ -866,6 +861,8 @@ a
 ready
 state
 .
+"
++
 snapshot
 .
 state
@@ -875,6 +872,7 @@ snapshot
 .
 state
 }
++
 census
 .
 state
@@ -1348,9 +1346,6 @@ defaultCensusTaker
 }
 }
 ;
-const
-focusIndividual
-=
 exports
 .
 focusIndividual
@@ -1756,9 +1751,6 @@ dominatorTree
 ;
 }
 ;
-const
-refreshIndividuals
-=
 exports
 .
 refreshIndividuals
@@ -1906,9 +1898,6 @@ indices
 ;
 }
 ;
-const
-refreshSelectedCensus
-=
 exports
 .
 refreshSelectedCensus
@@ -2010,9 +1999,6 @@ id
 ;
 }
 ;
-const
-refreshSelectedTreeMap
-=
 exports
 .
 refreshSelectedTreeMap
@@ -2526,9 +2512,6 @@ root
 }
 )
 ;
-const
-fetchImmediatelyDominated
-=
 exports
 .
 fetchImmediatelyDominated
@@ -2784,7 +2767,6 @@ error
 )
 ;
 return
-null
 ;
 }
 }
@@ -2831,6 +2813,8 @@ response
 moreChildrenAvailable
 }
 )
+;
+return
 ;
 }
 }
@@ -2934,9 +2918,6 @@ root
 }
 )
 ;
-const
-refreshSelectedDominatorTree
-=
 exports
 .
 refreshSelectedDominatorTree
@@ -3116,9 +3097,6 @@ id
 ;
 }
 ;
-const
-clearSnapshots
-=
 exports
 .
 clearSnapshots
@@ -3368,9 +3346,6 @@ ids
 ;
 }
 ;
-const
-deleteSnapshot
-=
 exports
 .
 deleteSnapshot
@@ -3473,9 +3448,6 @@ id
 ;
 }
 ;
-const
-expandCensusNode
-=
 exports
 .
 expandCensusNode
@@ -3499,9 +3471,6 @@ node
 ;
 }
 ;
-const
-collapseCensusNode
-=
 exports
 .
 collapseCensusNode
@@ -3525,9 +3494,6 @@ node
 ;
 }
 ;
-const
-focusCensusNode
-=
 exports
 .
 focusCensusNode
@@ -3551,9 +3517,6 @@ node
 ;
 }
 ;
-const
-expandDominatorTreeNode
-=
 exports
 .
 expandDominatorTreeNode
@@ -3577,9 +3540,6 @@ node
 ;
 }
 ;
-const
-collapseDominatorTreeNode
-=
 exports
 .
 collapseDominatorTreeNode
@@ -3603,9 +3563,6 @@ node
 ;
 }
 ;
-const
-focusDominatorTreeNode
-=
 exports
 .
 focusDominatorTreeNode

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 {
 takeSnapshotAndCensus
@@ -21,9 +26,6 @@ snapshot
 ;
 let
 {
-snapshotState
-:
-states
 actions
 treeMapState
 }

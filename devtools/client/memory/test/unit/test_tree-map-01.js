@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 drawBox
@@ -57,9 +62,12 @@ args
 )
 =
 >
+{
 fillRectValues
 =
 args
+;
+}
 strokeRect
 :
 (
@@ -70,9 +78,12 @@ args
 )
 =
 >
+{
 strokeRectValues
 =
 args
+;
+}
 }
 ;
 let

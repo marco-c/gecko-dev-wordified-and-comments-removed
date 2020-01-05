@@ -6,9 +6,6 @@ strict
 let
 {
 censusDisplays
-snapshotState
-:
-states
 censusState
 viewState
 }
@@ -455,6 +452,9 @@ saving
 a
 snapshot
 results
+"
++
+"
 in
 a
 census
@@ -669,6 +669,9 @@ updated
 when
 changing
 displays
+"
++
+"
 after
 already
 generating
@@ -737,6 +740,9 @@ updated
 when
 changing
 displays
+"
++
+"
 after
 already
 generating
@@ -791,6 +797,9 @@ coarseType
 display
 still
 and
+"
++
+"
 not
 yet
 updated

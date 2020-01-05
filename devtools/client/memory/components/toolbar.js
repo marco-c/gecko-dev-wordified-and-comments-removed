@@ -1324,8 +1324,6 @@ monospace
 "
 +
 (
-!
-!
 diffing
 ?
 "

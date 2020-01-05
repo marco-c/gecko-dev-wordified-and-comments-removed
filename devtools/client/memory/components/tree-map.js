@@ -64,6 +64,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+TreeMap
+"
 propTypes
 :
 {
@@ -71,11 +76,6 @@ treeMap
 :
 treeMapModel
 }
-displayName
-:
-"
-TreeMap
-"
 getInitialState
 (
 )

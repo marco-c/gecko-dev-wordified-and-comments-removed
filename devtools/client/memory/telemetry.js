@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 telemetry
@@ -30,7 +35,6 @@ DevToolsUtils
 const
 {
 labelDisplays
-treeMapDisplays
 censusDisplays
 }
 =

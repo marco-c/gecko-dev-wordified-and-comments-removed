@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 treeMapState
@@ -74,7 +79,6 @@ panelWin
 const
 {
 getState
-dispatch
 }
 =
 gStore

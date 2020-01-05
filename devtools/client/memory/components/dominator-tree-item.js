@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 assert
@@ -131,9 +136,6 @@ separator
 )
 )
 ;
-const
-DominatorTreeItem
-=
 module
 .
 exports

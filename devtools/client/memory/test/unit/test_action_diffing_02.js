@@ -1,6 +1,10 @@
+"
+use
+strict
+"
+;
 const
 {
-snapshotState
 censusState
 viewState
 }

@@ -1,10 +1,14 @@
+"
+use
+strict
+"
+;
 const
 {
 DOM
 :
 dom
 createClass
-PropTypes
 }
 =
 require
@@ -37,9 +41,6 @@ utils
 "
 )
 ;
-const
-DominatorTreeHeader
-=
 module
 .
 exports

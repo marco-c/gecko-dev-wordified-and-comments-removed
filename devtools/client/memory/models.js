@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 assert
@@ -2045,9 +2050,6 @@ break
 }
 )
 ;
-let
-appModel
-=
 exports
 .
 app
@@ -2209,6 +2211,8 @@ of
 view
 :
 {
+app
+.
 view
 .
 state
@@ -2306,6 +2310,8 @@ of
 view
 :
 {
+app
+.
 view
 .
 state

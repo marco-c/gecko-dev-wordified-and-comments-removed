@@ -1,9 +1,11 @@
+"
+use
+strict
+"
+;
 const
 {
 censusDisplays
-snapshotState
-:
-states
 censusState
 viewState
 }

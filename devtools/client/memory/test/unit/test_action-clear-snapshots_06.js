@@ -26,9 +26,6 @@ snapshot
 ;
 const
 {
-snapshotState
-:
-states
 actions
 treeMapState
 }

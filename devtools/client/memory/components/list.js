@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 DOM
@@ -22,9 +27,6 @@ react
 "
 )
 ;
-const
-List
-=
 module
 .
 exports

@@ -27,7 +27,6 @@ snapshotState
 :
 states
 actions
-viewState
 }
 =
 require
@@ -97,8 +96,6 @@ const
 selectSnapshot
 computeSnapshotData
 readSnapshot
-takeCensus
-takeTreeMap
 }
 =
 require
@@ -353,9 +350,6 @@ snapshot
 ;
 }
 ;
-const
-pickFileAndImportSnapshotAndCensus
-=
 exports
 .
 pickFileAndImportSnapshotAndCensus
@@ -453,10 +447,6 @@ path
 }
 ;
 const
-importSnapshotAndCensus
-=
-exports
-.
 importSnapshotAndCensus
 =
 function
@@ -597,4 +587,10 @@ id
 }
 ;
 }
+;
+exports
+.
+importSnapshotAndCensus
+=
+importSnapshotAndCensus
 ;

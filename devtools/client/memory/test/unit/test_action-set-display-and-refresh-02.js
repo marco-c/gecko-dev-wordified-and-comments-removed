@@ -5,9 +5,6 @@ strict
 ;
 let
 {
-snapshotState
-:
-states
 censusState
 viewState
 }

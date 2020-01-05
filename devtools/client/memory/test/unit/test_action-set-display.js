@@ -6,9 +6,6 @@ strict
 let
 {
 censusDisplays
-snapshotState
-:
-states
 censusState
 viewState
 }

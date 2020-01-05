@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 snapshotState
@@ -120,6 +125,7 @@ READ
 {
 dumpn
 (
+"
 Testing
 switching
 to
@@ -131,6 +137,8 @@ the
 middle
 of
 the
+"
++
 {
 intermediateSnapshotState
 }

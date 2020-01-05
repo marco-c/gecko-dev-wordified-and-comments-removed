@@ -6,9 +6,6 @@ strict
 const
 {
 censusDisplays
-snapshotState
-:
-states
 viewState
 censusState
 }

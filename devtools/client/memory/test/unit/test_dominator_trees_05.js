@@ -1,8 +1,10 @@
+"
+use
+strict
+"
+;
 let
 {
-snapshotState
-:
-states
 dominatorTreeState
 viewState
 treeMapState

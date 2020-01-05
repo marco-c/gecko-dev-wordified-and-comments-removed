@@ -878,15 +878,6 @@ ZOOM_SPEED
 )
 ;
 let
-deltaZoom
-=
-dragZoom
-.
-zoom
--
-prevZoom
-;
-let
 prevZoomedWidth
 =
 container

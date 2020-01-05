@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 {
 exportSnapshot
@@ -40,9 +45,6 @@ snapshot
 ;
 let
 {
-snapshotState
-:
-states
 actions
 treeMapState
 }
