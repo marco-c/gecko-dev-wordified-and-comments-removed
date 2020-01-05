@@ -395,6 +395,10 @@ Au
 impl
 ShapedGlyphData
 {
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 new
@@ -892,6 +896,10 @@ Drop
 for
 Shaper
 {
+#
+[
+fixed_stack_segment
+]
 fn
 drop
 (
@@ -964,6 +972,10 @@ hb_funcs
 impl
 Shaper
 {
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 new
@@ -1024,9 +1036,7 @@ font_ptr
 as
 *
 c_void
-null
-(
-)
+None
 )
 ;
 let
@@ -1156,9 +1166,7 @@ glyph_func
 null
 (
 )
-null
-(
-)
+None
 )
 ;
 hb_font_funcs_set_glyph_h_advance_func
@@ -1168,9 +1176,7 @@ glyph_h_advance_func
 null
 (
 )
-null
-(
-)
+None
 )
 ;
 hb_font_set_funcs
@@ -1181,9 +1187,7 @@ font_ptr
 as
 *
 c_void
-null
-(
-)
+None
 )
 ;
 Shaper
@@ -1282,6 +1286,10 @@ specific
 /
 font
 .
+#
+[
+fixed_stack_segment
+]
 fn
 shape_text
 (

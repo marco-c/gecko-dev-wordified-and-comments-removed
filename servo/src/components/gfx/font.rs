@@ -2161,6 +2161,10 @@ size
 impl
 Font
 {
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 draw_text_into_context

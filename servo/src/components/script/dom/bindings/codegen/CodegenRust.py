@@ -14722,8 +14722,11 @@ JSNativeWrapper
 {
 op
 :
+Some
+(
 %
 s
+)
 info
 :
 %
@@ -14769,10 +14772,7 @@ JSNativeWrapper
 {
 op
 :
-0
-as
-*
-u8
+None
 info
 :
 0
@@ -14952,11 +14952,14 @@ JSPropertyOpWrapper
 {
 op
 :
+Some
+(
 %
 (
 native
 )
 s
+)
 info
 :
 &
@@ -15010,10 +15013,7 @@ JSStrictPropertyOpWrapper
 {
 op
 :
-0
-as
-*
-u8
+None
 info
 :
 0
@@ -15049,11 +15049,14 @@ JSStrictPropertyOpWrapper
 {
 op
 :
+Some
+(
 %
 (
 native
 )
 s
+)
 info
 :
 &
@@ -15265,10 +15268,7 @@ JSPropertyOpWrapper
 {
 op
 :
-0
-as
-*
-u8
+None
 info
 :
 0
@@ -15282,10 +15282,7 @@ JSStrictPropertyOpWrapper
 {
 op
 :
-0
-as
-*
-u8
+None
 info
 :
 0
@@ -16919,6 +16916,14 @@ self
         
 traceHook
 =
+"
+Some
+(
+%
+s
+)
+"
+%
 TRACE_HOOK_NAME
 if
 self
@@ -16928,10 +16933,7 @@ descriptor
 customTrace
 else
 '
-0
-as
-*
-u8
+None
 '
         
 return
@@ -17068,8 +17070,11 @@ JS_ConvertStub
     
 finalize
 :
+Some
+(
 %
 s
+)
 /
 *
 finalize
@@ -17078,10 +17083,7 @@ finalize
     
 checkAccess
 :
-0
-as
-*
-u8
+None
 /
 *
 checkAccess
@@ -17090,10 +17092,7 @@ checkAccess
     
 call
 :
-0
-as
-*
-u8
+None
 /
 *
 call
@@ -17102,10 +17101,7 @@ call
     
 hasInstance
 :
-0
-as
-*
-u8
+None
 /
 *
 hasInstance
@@ -17114,10 +17110,7 @@ hasInstance
     
 construct
 :
-0
-as
-*
-u8
+None
 /
 *
 construct
@@ -17745,10 +17738,7 @@ JS_ConvertStub
   
 finalize
 :
-0
-as
-*
-u8
+None
 /
 *
 finalize
@@ -17757,10 +17747,7 @@ finalize
   
 checkAccess
 :
-0
-as
-*
-u8
+None
 /
 *
 checkAccess
@@ -17769,10 +17756,7 @@ checkAccess
   
 call
 :
-0
-as
-*
-u8
+None
 /
 *
 call
@@ -17781,10 +17765,7 @@ call
   
 hasInstance
 :
-0
-as
-*
-u8
+None
 /
 *
 hasInstance
@@ -17793,10 +17774,7 @@ hasInstance
   
 construct
 :
-0
-as
-*
-u8
+None
 /
 *
 construct
@@ -17805,10 +17783,7 @@ construct
   
 trace
 :
-0
-as
-*
-u8
+None
 /
 *
 trace
@@ -19108,20 +19083,7 @@ self
 alwaysInline
 :
             
-decorators
-.
-append
-(
-'
-#
-[
-inline
-(
-always
-)
-]
-'
-)
+pass
         
 elif
 self
@@ -19143,6 +19105,25 @@ append
 (
 '
 extern
+'
+)
+        
+if
+not
+self
+.
+extern
+:
+            
+decorators
+.
+append
+(
+'
+#
+[
+fixed_stack_segment
+]
 '
 )
         
@@ -21562,17 +21543,20 @@ null
 )
 "
             
+"
+Some
+(
+%
+s
+)
+"
+%
 constructHook
 if
 needConstructor
 else
 "
-ptr
-:
-:
-null
-(
-)
+None
 "
             
 constructArgs
@@ -25271,6 +25255,7 @@ Argument
 (
 '
 *
+mut
 JSVal
 '
 '
@@ -25316,6 +25301,8 @@ RUST_FUNCTION_VALUE_TO_JITINFO
 JS_CALLEE
 (
 cx
+&
+*
 vp
 )
 )
@@ -25339,6 +25326,8 @@ libc
 :
 c_void
 argc
+&
+*
 vp
 )
 ;
@@ -25789,7 +25778,10 @@ cx
 Argument
 (
 '
-uint
+libc
+:
+:
+c_uint
 '
 '
 argc
@@ -25800,6 +25792,7 @@ Argument
 (
 '
 *
+mut
 JSVal
 '
 '
@@ -25910,6 +25903,8 @@ RUST_FUNCTION_VALUE_TO_JITINFO
 JS_CALLEE
 (
 cx
+&
+*
 vp
 )
 )
@@ -25932,6 +25927,8 @@ libc
 :
 :
 c_void
+&
+*
 vp
 )
 ;
@@ -26293,7 +26290,10 @@ cx
 Argument
 (
 '
-uint
+libc
+:
+:
+c_uint
 '
 '
 argc
@@ -27003,6 +27003,9 @@ op
 :
 %
 s
+as
+*
+u8
 \
 n
 "
@@ -35944,6 +35947,16 @@ else
 "
 "
 )
++
+            
+"
+#
+[
+fixed_stack_segment
+]
+\
+n
+"
 +
             
 "

@@ -451,6 +451,10 @@ nyi
 "
 )
 }
+#
+[
+fixed_stack_segment
+]
 fn
 wrap_shared
 (

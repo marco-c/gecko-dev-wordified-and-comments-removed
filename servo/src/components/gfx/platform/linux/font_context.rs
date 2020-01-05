@@ -70,6 +70,10 @@ Drop
 for
 FreeTypeLibraryHandle
 {
+#
+[
+fixed_stack_segment
+]
 fn
 drop
 (
@@ -112,6 +116,10 @@ FreeTypeLibraryHandle
 impl
 FontContextHandle
 {
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 new

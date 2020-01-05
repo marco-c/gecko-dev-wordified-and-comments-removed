@@ -2340,6 +2340,10 @@ associated
 JS
 Context
 .
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 page_from_context
@@ -3192,6 +3196,10 @@ timer
 that
 fired
 .
+#
+[
+fixed_stack_segment
+]
 fn
 handle_fire_timer_msg
 (
