@@ -916,7 +916,7 @@ self
 .
 url
 .
-get
+borrow
 (
 )
 .
