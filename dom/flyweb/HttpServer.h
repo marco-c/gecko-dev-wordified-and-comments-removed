@@ -86,6 +86,9 @@ nsIX509Cert
 namespace
 mozilla
 {
+class
+AbstractThread
+;
 namespace
 dom
 {
@@ -189,8 +192,12 @@ nsILocalCertGetCallback
 {
 public
 :
+explicit
 HttpServer
 (
+AbstractThread
+*
+aMainThread
 )
 ;
 NS_DECL_ISUPPORTS
@@ -688,6 +695,13 @@ mPort
 ;
 bool
 mHttps
+;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
 ;
 }
 ;
