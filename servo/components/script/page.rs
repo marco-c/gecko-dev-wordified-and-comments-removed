@@ -2351,6 +2351,15 @@ self
 get_url
 (
 )
+iframe
+:
+self
+.
+subpage_id
+.
+is_some
+(
+)
 goal
 :
 goal

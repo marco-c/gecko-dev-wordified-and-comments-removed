@@ -1522,6 +1522,7 @@ time
 :
 :
 RenderingCategory
+None
 self
 .
 time_profiler_chan
@@ -1977,6 +1978,7 @@ time
 :
 :
 RenderingDrawingCategory
+None
 self
 .
 time_profiler_chan

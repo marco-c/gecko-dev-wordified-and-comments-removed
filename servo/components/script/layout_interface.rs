@@ -497,6 +497,10 @@ url
 :
 Url
 pub
+iframe
+:
+bool
+pub
 script_chan
 :
 ScriptControlChan
