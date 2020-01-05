@@ -136,7 +136,7 @@ resolved
 =
 context
 .
-base_url
+url_data
 .
 join
 (

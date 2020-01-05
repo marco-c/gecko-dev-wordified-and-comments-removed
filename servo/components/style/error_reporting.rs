@@ -19,10 +19,10 @@ use
 log
 ;
 use
-servo_url
+stylesheets
 :
 :
-ServoUrl
+UrlExtraData
 ;
 pub
 trait
@@ -52,7 +52,7 @@ str
 url
 :
 &
-ServoUrl
+UrlExtraData
 )
 ;
 }
@@ -85,7 +85,7 @@ str
 url
 :
 &
-ServoUrl
+UrlExtraData
 )
 {
 if
