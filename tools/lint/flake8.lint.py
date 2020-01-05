@@ -1013,6 +1013,12 @@ lint
 '
         
 '
+tools
+/
+mercurial
+'
+        
+'
 toolkit
 /
 components
