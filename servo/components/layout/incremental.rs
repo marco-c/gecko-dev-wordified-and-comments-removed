@@ -923,7 +923,7 @@ display
 get_box
 .
 position
-get_box
+get_counters
 .
 content
 get_counters
@@ -988,7 +988,7 @@ white_space
 get_inheritedtext
 .
 word_break
-get_inheritedtext
+get_text
 .
 text_overflow
 get_font
@@ -1096,7 +1096,7 @@ width
 get_box
 .
 height
-get_inheritedbox
+get_inheritedtext
 .
 line_height
 get_inheritedtext
@@ -1117,7 +1117,7 @@ border_spacing
 get_column
 .
 column_gap
-get_flex
+get_position
 .
 flex_direction
 ]
@@ -1136,16 +1136,16 @@ STORE_OVERFLOW
 REFLOW_OUT_OF_FLOW
 ]
 [
-get_positionoffsets
+get_position
 .
 top
-get_positionoffsets
+get_position
 .
 left
-get_positionoffsets
+get_position
 .
 right
-get_positionoffsets
+get_position
 .
 bottom
 ]
@@ -1225,7 +1225,7 @@ border_bottom_left_radius
 get_border
 .
 border_bottom_right_radius
-get_box
+get_position
 .
 z_index
 get_box
@@ -1246,7 +1246,7 @@ box_shadow
 get_effects
 .
 clip
-get_effects
+get_inheritedtext
 .
 text_shadow
 get_effects

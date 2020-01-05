@@ -1891,7 +1891,7 @@ fragment
 .
 style
 .
-get_box
+get_position
 (
 )
 .
@@ -8678,7 +8678,7 @@ style
 (
 )
 .
-get_box
+get_position
 (
 )
 .
@@ -15041,7 +15041,7 @@ match
 computed_inline_size
 style
 .
-get_box
+get_position
 (
 )
 .

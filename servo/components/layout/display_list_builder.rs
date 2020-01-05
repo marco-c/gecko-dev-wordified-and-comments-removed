@@ -7070,7 +7070,7 @@ self
 .
 style
 .
-get_effects
+get_inheritedtext
 (
 )
 .
