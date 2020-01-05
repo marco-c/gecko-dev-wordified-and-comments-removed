@@ -1376,6 +1376,13 @@ h
 '
 wr
 /
+WebRenderDisplayItemLayer
+.
+h
+'
+'
+wr
+/
 WebRenderImageHost
 .
 h
