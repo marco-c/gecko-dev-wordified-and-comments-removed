@@ -520,13 +520,13 @@ ControlMsg
 let
 max_redirects
 =
-50u
+50
 ;
 let
 mut
 iters
 =
-0u
+0
 ;
 let
 start_chan
