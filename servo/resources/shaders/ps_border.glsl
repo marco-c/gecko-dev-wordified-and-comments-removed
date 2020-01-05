@@ -190,6 +190,11 @@ we
 re
 drawing
 .
+flat
+varying
+vec4
+vPieceRect
+;
 /
 /
 These
@@ -213,11 +218,6 @@ in
 local
 space
 .
-flat
-varying
-vec4
-vPieceRect
-;
 flat
 varying
 float
