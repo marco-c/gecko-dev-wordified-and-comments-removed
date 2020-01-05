@@ -33,12 +33,6 @@ occured
 "
 "
     
-code
-=
-(
-500
-)
-    
 status
 =
 "
@@ -393,12 +387,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-21
-)
-    
 status
 =
 "
@@ -410,12 +398,6 @@ JavascriptException
 MarionetteException
 )
 :
-    
-code
-=
-(
-17
-)
     
 status
 =
@@ -429,12 +411,6 @@ NoSuchElementException
 MarionetteException
 )
 :
-    
-code
-=
-(
-7
-)
     
 status
 =
@@ -450,12 +426,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-23
-)
-    
 status
 =
 "
@@ -469,12 +439,6 @@ StaleElementException
 MarionetteException
 )
 :
-    
-code
-=
-(
-10
-)
     
 status
 =
@@ -490,12 +454,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-28
-)
-    
 status
 =
 "
@@ -508,12 +466,6 @@ ElementNotVisibleException
 MarionetteException
 )
 :
-    
-code
-=
-(
-11
-)
     
 status
 =
@@ -576,12 +528,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-56
-)
-    
 status
 =
 "
@@ -595,12 +541,6 @@ NoSuchFrameException
 MarionetteException
 )
 :
-    
-code
-=
-(
-8
-)
     
 status
 =
@@ -616,12 +556,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-12
-)
-    
 status
 =
 "
@@ -635,12 +569,6 @@ NoAlertPresentException
 MarionetteException
 )
 :
-    
-code
-=
-(
-27
-)
     
 status
 =
@@ -656,12 +584,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-24
-)
-    
 status
 =
 "
@@ -675,12 +597,6 @@ UnableToSetCookieException
 MarionetteException
 )
 :
-    
-code
-=
-(
-25
-)
     
 status
 =
@@ -697,12 +613,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-29
-)
-    
 status
 =
 "
@@ -717,14 +627,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-32
-51
-52
-)
-    
 status
 =
 "
@@ -737,12 +639,6 @@ MoveTargetOutOfBoundsException
 MarionetteException
 )
 :
-    
-code
-=
-(
-34
-)
     
 status
 =
@@ -760,13 +656,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-33
-71
-)
-    
 status
 =
 "
@@ -780,12 +669,6 @@ UnexpectedAlertOpen
 MarionetteException
 )
 :
-    
-code
-=
-(
-26
-)
     
 status
 =
@@ -801,12 +684,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-9
-)
-    
 status
 =
 "
@@ -820,12 +697,6 @@ MarionetteException
 )
 :
     
-code
-=
-(
-13
-)
-    
 status
 =
 "
@@ -838,12 +709,6 @@ UnsupportedOperationException
 MarionetteException
 )
 :
-    
-code
-=
-(
-405
-)
     
 status
 =
@@ -893,23 +758,6 @@ e
 in
 es_
 }
-by_number
-=
-{
-c
-:
-e
-for
-e
-in
-es_
-for
-c
-in
-e
-.
-code
-}
 def
 lookup
 (
@@ -939,28 +787,13 @@ WebDriver
 protocol
 string
 .
-"
-"
-"
     
-lookup
-=
-by_string
-    
-if
-isinstance
-(
-identifier
-int
-)
-:
-        
-lookup
-=
-by_number
+"
+"
+"
     
 return
-lookup
+by_string
 .
 get
 (
