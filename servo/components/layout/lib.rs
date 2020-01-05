@@ -254,6 +254,10 @@ style
 ;
 extern
 crate
+style_traits
+;
+extern
+crate
 time
 ;
 extern

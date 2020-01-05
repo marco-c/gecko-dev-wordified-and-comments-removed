@@ -89,6 +89,10 @@ script_traits
 ;
 extern
 crate
+style_traits
+;
+extern
+crate
 url
 ;
 extern
