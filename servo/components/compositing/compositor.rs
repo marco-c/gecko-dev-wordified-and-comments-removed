@@ -7,6 +7,9 @@ as
 ConstellationMsg
 ;
 use
+SendableFrameTree
+;
+use
 app_units
 :
 :
@@ -42,12 +45,6 @@ InitialCompositorState
 Msg
 RenderListener
 }
-;
-use
-constellation
-:
-:
-SendableFrameTree
 ;
 use
 delayed_composition
