@@ -1373,7 +1373,7 @@ nightly_fennec
 '
 )
 def
-target_tasks_nightly
+target_tasks_nightly_fennec
 (
 full_task_graph
 parameters
@@ -1457,6 +1457,11 @@ nightly
 android
 -
 x86
+-
+nightly
+'
+'
+android
 -
 nightly
 '
@@ -1844,6 +1849,19 @@ l10n
 -
 signing
 '
+            
+'
+push
+-
+apk
+'
+'
+push
+-
+apk
+-
+breakpoint
+'
         
 ]
 :
@@ -1998,7 +2016,7 @@ balrog
     
 filtered_for_project
 =
-target_tasks_nightly
+target_tasks_nightly_fennec
 (
 full_task_graph
 parameters
