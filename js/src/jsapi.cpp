@@ -8841,7 +8841,7 @@ compartment
 )
 -
 >
-trace
+traceGlobal
 (
 trc
 )

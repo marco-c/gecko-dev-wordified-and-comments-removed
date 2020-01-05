@@ -2986,7 +2986,7 @@ enclosing
 const
 ;
 void
-trace
+traceGlobal
 (
 JSTracer
 *
@@ -3062,6 +3062,11 @@ sweepCrossCompartmentWrappers
 ;
 void
 sweepSavedStacks
+(
+)
+;
+void
+sweepTemplateLiteralMap
 (
 )
 ;
