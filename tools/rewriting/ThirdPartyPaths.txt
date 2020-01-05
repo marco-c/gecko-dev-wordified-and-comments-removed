@@ -73,6 +73,12 @@ skia
 /
 gfx
 /
+webrender
+gfx
+/
+webrender_traits
+gfx
+/
 ycbcr
 /
 intl
