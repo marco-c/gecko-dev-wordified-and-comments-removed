@@ -2614,6 +2614,12 @@ setIsRunOnce
 true
 )
 ;
+options
+.
+allowHTMLComments
+=
+false
+;
 RootedScope
 emptyGlobalScope
 (

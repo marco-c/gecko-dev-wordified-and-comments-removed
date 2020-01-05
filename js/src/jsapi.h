@@ -15065,6 +15065,10 @@ sourceIsLazy
 (
 false
 )
+allowHTMLComments
+(
+true
+)
 introductionType
 (
 nullptr
@@ -15211,6 +15215,9 @@ installedFile
 ;
 bool
 sourceIsLazy
+;
+bool
+allowHTMLComments
 ;
 const
 char
