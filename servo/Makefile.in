@@ -671,6 +671,9 @@ test
 servo
 -
 test
+(
+TESTNAME
+)
 .
 PHONY
 :
