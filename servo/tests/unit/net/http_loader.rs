@@ -2654,9 +2654,6 @@ channel
 (
 )
 ;
-let
-response
-=
 fetch
 (
 request
