@@ -73,12 +73,6 @@ l10n
 '
     
 '
-upload
--
-symbols
-'
-    
-'
 valgrind
 '
     
