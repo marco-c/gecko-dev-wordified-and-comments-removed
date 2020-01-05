@@ -168,11 +168,9 @@ void
 (
 long
 )
-(
 buf_rva
 +
 offset
-)
 )
 ;
 return
@@ -236,11 +234,9 @@ void
 (
 long
 )
-(
 buf_rva
 +
 offset
-)
 )
 ;
 return
@@ -264,11 +260,9 @@ void
 (
 long
 )
-(
 buf_rva
 +
 offset
-)
 )
 ;
 MAKE_INVALID

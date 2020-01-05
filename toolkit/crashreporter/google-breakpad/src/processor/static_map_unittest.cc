@@ -988,16 +988,11 @@ kNumberTestCases
 +
 i
 )
-:
-:
-operator
 delete
-(
 map_data
 [
 i
 ]
-)
 ;
 }
 void

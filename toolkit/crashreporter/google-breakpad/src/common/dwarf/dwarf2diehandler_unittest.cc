@@ -1,13 +1,6 @@
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 string
 >
 #
@@ -197,7 +190,7 @@ void
 DwarfAttribute
 DwarfForm
 const
-uint8_t
+char
 *
 uint64
 )
@@ -305,7 +298,7 @@ void
 DwarfAttribute
 DwarfForm
 const
-uint8_t
+char
 *
 uint64
 )
@@ -722,7 +715,7 @@ mock_root_handler
 )
 ;
 const
-uint8_t
+char
 buffer
 [
 10
