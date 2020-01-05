@@ -300,6 +300,10 @@ HTMLBRElementBinding
 ;
 pub
 mod
+HTMLCanvasElementBinding
+;
+pub
+mod
 HTMLCollectionBinding
 ;
 pub
@@ -467,6 +471,10 @@ htmlbodyelement
 pub
 mod
 htmlbrelement
+;
+pub
+mod
+htmlcanvaselement
 ;
 pub
 mod

@@ -37703,6 +37703,16 @@ HTMLBRElement
 dom
 :
 :
+htmlcanvaselement
+:
+:
+HTMLCanvasElement
+'
+                          
+'
+dom
+:
+:
 htmlelement
 :
 :
