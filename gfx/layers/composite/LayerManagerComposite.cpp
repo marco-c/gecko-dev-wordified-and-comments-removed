@@ -807,10 +807,6 @@ mIsCompositorReady
 (
 false
 )
-mGeometryChanged
-(
-true
-)
 #
 if
 defined
@@ -2035,13 +2031,6 @@ FlushPendingNotifyNotUsed
 )
 ;
 }
-else
-{
-mGeometryChanged
-=
-true
-;
-}
 mCompositor
 -
 >
@@ -2142,8 +2131,6 @@ ComputeDifferences
 (
 mRoot
 nullptr
-&
-mGeometryChanged
 )
 ;
 if
@@ -2289,10 +2276,6 @@ RenderToPresentationSurface
 ;
 #
 endif
-mGeometryChanged
-=
-false
-;
 mWindowOverlayChanged
 =
 false

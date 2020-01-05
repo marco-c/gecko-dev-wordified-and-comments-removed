@@ -1851,9 +1851,6 @@ TextRenderer
 >
 mTextRenderer
 ;
-bool
-mGeometryChanged
-;
 #
 ifdef
 USE_SKIA
