@@ -285,6 +285,16 @@ max_build_output_timeout
 80
     
 '
+perfherder_extra_options
+'
+:
+[
+'
+artifact
+'
+]
+    
+'
 base_name
 '
 :

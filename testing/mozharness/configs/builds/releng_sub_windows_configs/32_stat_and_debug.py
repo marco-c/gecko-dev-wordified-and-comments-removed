@@ -115,6 +115,18 @@ objdir
 MOZ_OBJDIR
     
 '
+perfherder_extra_options
+'
+:
+[
+'
+static
+-
+analysis
+'
+]
+    
+'
 env
 '
 :

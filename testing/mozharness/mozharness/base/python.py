@@ -3680,6 +3680,24 @@ s
 instance
 )
         
+opts
+.
+extend
+(
+self
+.
+config
+.
+get
+(
+'
+perfherder_extra_options
+'
+[
+]
+)
+)
+        
 return
 opts
 class
