@@ -16,7 +16,7 @@ servo_gfx_util
 range
 :
 :
-Range
+MutableRange
 ;
 use
 servo_gfx_util
@@ -3700,7 +3700,9 @@ iter_glyphs_for_range
 self
 range
 :
-Range
+&
+const
+MutableRange
 cb
 :
 fn
