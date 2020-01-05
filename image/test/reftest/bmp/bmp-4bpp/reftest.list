@@ -391,12 +391,6 @@ sourceforge
 .
 net
 /
-fails
--
-if
-(
-stylo
-)
 =
 =
 rle4

@@ -2050,7 +2050,7 @@ m2
 ;
 r
 =
-uint8_t
+ClampColor
 (
 255
 *
@@ -2072,7 +2072,7 @@ h
 ;
 g
 =
-uint8_t
+ClampColor
 (
 255
 *
@@ -2086,7 +2086,7 @@ h
 ;
 b
 =
-uint8_t
+ClampColor
 (
 255
 *
