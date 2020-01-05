@@ -422,6 +422,11 @@ OverflowChangedTracker
 h
 '
 '
+PresShell
+.
+h
+'
+'
 RestyleLogging
 .
 h
@@ -562,11 +567,6 @@ nsPresContext
 cpp
 '
 '
-nsPresShell
-.
-cpp
-'
-'
 nsQuoteList
 .
 cpp
@@ -583,6 +583,11 @@ cpp
 '
 '
 PositionedEventTargeting
+.
+cpp
+'
+'
+PresShell
 .
 cpp
 '

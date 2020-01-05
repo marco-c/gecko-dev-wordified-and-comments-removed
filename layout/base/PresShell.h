@@ -1,9 +1,9 @@
 #
 ifndef
-nsPresShell_h_
+mozilla_PresShell_h
 #
 define
-nsPresShell_h_
+mozilla_PresShell_h
 #
 include
 "

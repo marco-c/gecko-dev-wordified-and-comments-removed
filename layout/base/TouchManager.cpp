@@ -26,7 +26,9 @@ h
 #
 include
 "
-nsPresShell
+mozilla
+/
+PresShell
 .
 h
 "
