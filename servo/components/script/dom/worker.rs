@@ -839,6 +839,17 @@ constellation_chan
 scheduler_chan
 :
 scheduler_chan
+panic_chan
+:
+global
+.
+panic_chan
+(
+)
+.
+clone
+(
+)
 worker_id
 :
 worker_id
