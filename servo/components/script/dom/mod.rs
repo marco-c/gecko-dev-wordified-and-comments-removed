@@ -69,7 +69,7 @@ blob
 ;
 pub
 mod
-browsercontext
+browsingcontext
 ;
 pub
 mod

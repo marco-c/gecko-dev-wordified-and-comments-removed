@@ -95,7 +95,7 @@ use
 dom
 :
 :
-browsercontext
+browsingcontext
 ;
 use
 dom
@@ -586,7 +586,7 @@ GlobalStaticData
 {
 windowproxy_handler
 :
-browsercontext
+browsingcontext
 :
 :
 new_window_proxy_handler
