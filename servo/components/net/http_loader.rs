@@ -422,9 +422,6 @@ consumer
 let
 viewing_source
 =
-if
-&
-*
 url
 .
 scheme
@@ -435,6 +432,9 @@ view
 -
 source
 "
+;
+if
+viewing_source
 {
 let
 inner_url
@@ -523,13 +523,7 @@ return
 }
 }
 ;
-true
 }
-else
-{
-false
-}
-;
 loop
 {
 iters
