@@ -2664,7 +2664,7 @@ editorBase
 >
 HandleKeyPressEvent
 (
-aKeyEvent
+keypressEvent
 )
 ;
 NS_ENSURE_SUCCESS

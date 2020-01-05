@@ -75,9 +75,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMKeyEvent
-;
-class
 nsIDOMNode
 ;
 class
@@ -404,9 +401,9 @@ virtual
 nsresult
 HandleKeyPressEvent
 (
-nsIDOMKeyEvent
+WidgetKeyboardEvent
 *
-aKeyEvent
+aKeyboardEvent
 )
 override
 ;

@@ -229,9 +229,6 @@ class
 nsDocumentFragment
 ;
 class
-nsIDOMKeyEvent
-;
-class
 nsITransferable
 ;
 class
@@ -397,9 +394,9 @@ virtual
 nsresult
 HandleKeyPressEvent
 (
-nsIDOMKeyEvent
+WidgetKeyboardEvent
 *
-aKeyEvent
+aKeyboardEvent
 )
 override
 ;
