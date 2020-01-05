@@ -93,7 +93,7 @@ MPL
 /
 /
 /
-http
+https
 :
 /
 /
@@ -131,7 +131,7 @@ onerror
 ;
 /
 /
-http
+https
 :
 /
 /

@@ -1508,7 +1508,7 @@ HTMLInputElement
 {
 /
 /
-http
+https
 :
 /
 /
@@ -1534,7 +1534,7 @@ Disabled
 ;
 /
 /
-http
+https
 :
 /
 /

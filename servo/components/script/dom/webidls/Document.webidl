@@ -100,7 +100,7 @@ file
 is
 :
 *
-http
+https
 :
 /
 /
@@ -117,7 +117,7 @@ interface
 -
 document
 *
-http
+https
 :
 /
 /
@@ -147,7 +147,7 @@ object
 /
 /
 *
-http
+https
 :
 /
 /
@@ -471,7 +471,7 @@ complete
 ;
 /
 *
-http
+https
 :
 /
 /

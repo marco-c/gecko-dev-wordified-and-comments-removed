@@ -371,7 +371,7 @@ HTMLOptGroupElement
 {
 /
 /
-http
+https
 :
 /
 /
@@ -396,7 +396,7 @@ Disabled
 ;
 /
 /
-http
+https
 :
 /
 /

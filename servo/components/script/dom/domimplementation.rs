@@ -371,7 +371,7 @@ Wrap
 }
 /
 /
-http
+https
 :
 /
 /
@@ -401,7 +401,7 @@ DOMImplementation
 {
 /
 /
-http
+https
 :
 /
 /
@@ -490,7 +490,7 @@ r
 }
 /
 /
-http
+https
 :
 /
 /
@@ -834,7 +834,7 @@ r
 }
 /
 /
-http
+https
 :
 /
 /

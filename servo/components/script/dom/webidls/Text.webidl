@@ -99,7 +99,7 @@ IDL
 file
 is
 *
-http
+https
 :
 /
 /
@@ -139,7 +139,7 @@ work
 /
 /
 /
-http
+https
 :
 /
 /

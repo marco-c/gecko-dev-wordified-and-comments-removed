@@ -369,7 +369,7 @@ input
 here
 /
 /
-http
+https
 :
 /
 /
@@ -978,7 +978,7 @@ u8
 {
 /
 /
-http
+https
 :
 /
 /
@@ -1016,7 +1016,7 @@ u8
 {
 /
 /
-http
+https
 :
 /
 /
@@ -1231,7 +1231,7 @@ bytes
 '
 /
 /
-http
+https
 :
 /
 /

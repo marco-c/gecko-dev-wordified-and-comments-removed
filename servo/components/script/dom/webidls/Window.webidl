@@ -93,7 +93,7 @@ MPL
 /
 /
 /
-http
+https
 :
 /
 /
@@ -552,7 +552,7 @@ WindowEventHandlers
 ;
 /
 /
-http
+https
 :
 /
 /
@@ -676,7 +676,7 @@ WindowTimers
 ;
 /
 /
-http
+https
 :
 /
 /

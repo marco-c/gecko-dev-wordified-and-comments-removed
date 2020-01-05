@@ -99,7 +99,7 @@ IDL
 file
 is
 *
-http
+https
 :
 /
 /
@@ -126,7 +126,7 @@ a
 -
 element
 *
-http
+https
 :
 /
 /
@@ -194,7 +194,7 @@ document
 /
 /
 /
-http
+https
 :
 /
 /
@@ -282,7 +282,7 @@ URLUtils
 ;
 /
 /
-http
+https
 :
 /
 /

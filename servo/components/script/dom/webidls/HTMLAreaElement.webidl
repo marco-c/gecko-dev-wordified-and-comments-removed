@@ -93,7 +93,7 @@ MPL
 /
 /
 /
-http
+https
 :
 /
 /
@@ -192,7 +192,7 @@ URLUtils
 ;
 /
 /
-http
+https
 :
 /
 /

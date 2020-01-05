@@ -58,7 +58,7 @@ MPL
 /
 /
 /
-http
+https
 :
 /
 /
@@ -136,7 +136,7 @@ ononline
 ;
 /
 /
-http
+https
 :
 /
 /

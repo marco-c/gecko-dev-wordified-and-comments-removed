@@ -490,7 +490,7 @@ HTMLElementOrLong
 }
 /
 /
-http
+https
 :
 /
 /
@@ -516,7 +516,7 @@ Disabled
 ;
 /
 /
-http
+https
 :
 /
 /

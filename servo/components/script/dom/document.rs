@@ -6226,7 +6226,7 @@ Document
 {
 /
 /
-http
+https
 :
 /
 /
@@ -6275,7 +6275,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6428,7 +6428,7 @@ GetDocumentElement
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6463,7 +6463,7 @@ URL
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6525,7 +6525,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6593,7 +6593,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6661,7 +6661,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6698,7 +6698,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6797,7 +6797,7 @@ next
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6858,7 +6858,7 @@ next
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6924,7 +6924,7 @@ tag_name
 }
 /
 /
-http
+https
 :
 /
 /
@@ -6997,7 +6997,7 @@ maybe_ns
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7063,7 +7063,7 @@ classes
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7179,7 +7179,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7300,7 +7300,7 @@ ScriptCreated
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7391,7 +7391,7 @@ ScriptCreated
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7551,7 +7551,7 @@ None
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7673,7 +7673,7 @@ None
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7713,7 +7713,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7757,7 +7757,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7801,7 +7801,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -7905,7 +7905,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8011,7 +8011,7 @@ clone_children
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8101,7 +8101,7 @@ node
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8352,7 +8352,7 @@ NotSupported
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8439,7 +8439,7 @@ to_string
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8479,7 +8479,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8561,7 +8561,7 @@ issues
 5315
 /
 /
-http
+https
 :
 /
 /
@@ -8807,7 +8807,7 @@ issues
 5315
 /
 /
-http
+https
 :
 /
 /
@@ -9245,7 +9245,7 @@ Ok
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9379,7 +9379,7 @@ next
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9430,7 +9430,7 @@ get
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9625,7 +9625,7 @@ unwrap
 }
 /
 /
-http
+https
 :
 /
 /
@@ -10016,7 +10016,7 @@ Ok
 }
 /
 /
-http
+https
 :
 /
 /
@@ -10902,7 +10902,7 @@ window
 }
 /
 /
-http
+https
 :
 /
 /
@@ -11121,7 +11121,7 @@ u32
 }
 /
 /
-http
+https
 :
 /
 /
@@ -11185,7 +11185,7 @@ selectors
 }
 /
 /
-http
+https
 :
 /
 /

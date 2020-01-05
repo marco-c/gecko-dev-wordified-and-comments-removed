@@ -99,7 +99,7 @@ IDL
 file
 is
 *
-http
+https
 :
 /
 /
@@ -202,7 +202,7 @@ owfa
 /
 /
 /
-http
+https
 :
 /
 /

@@ -93,7 +93,7 @@ MPL
 /
 /
 /
-http
+https
 :
 /
 /
@@ -160,7 +160,7 @@ NavigatorPlugins
 ;
 /
 /
-http
+https
 :
 /
 /

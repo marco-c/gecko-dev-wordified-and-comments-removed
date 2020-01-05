@@ -460,7 +460,7 @@ slice
 }
 /
 /
-http
+https
 :
 /
 /
@@ -490,7 +490,7 @@ DOMTokenList
 {
 /
 /
-http
+https
 :
 /
 /
@@ -607,7 +607,7 @@ u32
 }
 /
 /
-http
+https
 :
 /
 /
@@ -780,7 +780,7 @@ item
 }
 /
 /
-http
+https
 :
 /
 /

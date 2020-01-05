@@ -99,7 +99,7 @@ IDL
 file
 is
 *
-http
+https
 :
 /
 /
@@ -114,7 +114,7 @@ org
 #
 range
 *
-http
+https
 :
 /
 /
@@ -562,7 +562,7 @@ stringifier
 ;
 /
 /
-http
+https
 :
 /
 /

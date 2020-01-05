@@ -100,7 +100,7 @@ file
 is
 :
 *
-http
+https
 :
 /
 /

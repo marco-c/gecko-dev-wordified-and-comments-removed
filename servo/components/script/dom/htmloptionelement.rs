@@ -618,7 +618,7 @@ HTMLOptionElement
 {
 /
 /
-http
+https
 :
 /
 /
@@ -644,7 +644,7 @@ Disabled
 ;
 /
 /
-http
+https
 :
 /
 /
@@ -704,7 +704,7 @@ disabled
 }
 /
 /
-http
+https
 :
 /
 /
@@ -799,7 +799,7 @@ connect
 }
 /
 /
-http
+https
 :
 /
 /

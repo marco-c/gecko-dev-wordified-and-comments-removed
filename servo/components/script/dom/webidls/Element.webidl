@@ -99,7 +99,7 @@ IDL
 file
 is
 *
-http
+https
 :
 /
 /
@@ -115,7 +115,7 @@ org
 element
 and
 *
-http
+https
 :
 /
 /
@@ -441,7 +441,7 @@ getBoundingClientRect
 ;
 /
 /
-http
+https
 :
 /
 /

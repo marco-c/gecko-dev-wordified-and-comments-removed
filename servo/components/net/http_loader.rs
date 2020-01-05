@@ -1920,7 +1920,7 @@ new_url
 /
 CORS
 (
-http
+https
 :
 /
 /

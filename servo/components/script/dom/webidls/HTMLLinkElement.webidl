@@ -93,7 +93,7 @@ MPL
 /
 /
 /
-http
+https
 :
 /
 /
@@ -171,7 +171,7 @@ LinkStyle
 ;
 /
 /
-http
+https
 :
 /
 /
