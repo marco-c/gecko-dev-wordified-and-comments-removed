@@ -1002,11 +1002,15 @@ bool
 )
 {
 if
+!
 JS_IsExceptionPending
 (
 cx
 )
 {
+return
+;
+}
 rooted
 !
 (
@@ -1293,7 +1297,6 @@ handle
 )
 )
 ;
-}
 }
 }
 pub
