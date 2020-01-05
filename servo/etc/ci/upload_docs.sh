@@ -47,6 +47,12 @@ p
 target
 /
 doc
+.
+/
+mach
+bootstrap
+-
+rust
 cp
 -
 R
