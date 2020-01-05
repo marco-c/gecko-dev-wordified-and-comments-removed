@@ -11081,7 +11081,7 @@ self
 .
 gecko
 .
-mBreakBefore
+mBreakAfter
 =
 result
 ;
