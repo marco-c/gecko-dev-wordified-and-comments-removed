@@ -270,6 +270,14 @@ GetScrollTargetId
 )
 const
 ;
+const
+ScrollThumbData
+&
+GetScrollThumbData
+(
+)
+const
+;
 void
 SetFixedPosData
 (

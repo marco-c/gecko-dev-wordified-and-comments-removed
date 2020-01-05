@@ -72,6 +72,8 @@ ScrollDirection
 aDirection
 float
 aThumbRatio
+CSSCoord
+aThumbLength
 )
 :
 mDirection
@@ -82,6 +84,10 @@ mThumbRatio
 (
 aThumbRatio
 )
+mThumbLength
+(
+aThumbLength
+)
 {
 }
 ScrollDirection
@@ -89,6 +95,9 @@ mDirection
 ;
 float
 mThumbRatio
+;
+CSSCoord
+mThumbLength
 ;
 bool
 operator
@@ -117,6 +126,14 @@ mThumbRatio
 aOther
 .
 mThumbRatio
+&
+&
+mThumbLength
+=
+=
+aOther
+.
+mThumbLength
 ;
 }
 bool
