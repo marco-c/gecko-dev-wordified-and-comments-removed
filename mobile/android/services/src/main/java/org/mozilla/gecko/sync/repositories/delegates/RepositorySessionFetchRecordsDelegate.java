@@ -66,7 +66,11 @@ long
 fetchEnd
 )
 ;
-public
+void
+onBatchCompleted
+(
+)
+;
 RepositorySessionFetchRecordsDelegate
 deferredFetchDelegate
 (
