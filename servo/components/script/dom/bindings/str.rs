@@ -404,6 +404,14 @@ self
 0
 }
 }
+#
+[
+derive
+(
+Clone
+HeapSizeOf
+)
+]
 pub
 struct
 USVString

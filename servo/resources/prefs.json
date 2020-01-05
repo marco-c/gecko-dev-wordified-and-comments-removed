@@ -40,6 +40,15 @@ false
 "
 dom
 .
+serviceworker
+.
+timeout_seconds
+"
+:
+60
+"
+dom
+.
 testbinding
 .
 enabled

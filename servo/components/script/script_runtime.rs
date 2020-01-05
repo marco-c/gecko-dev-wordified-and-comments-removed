@@ -348,6 +348,7 @@ TimerEvent
 UpdateReplacedElement
 WebSocketEvent
 WorkerEvent
+ServiceWorkerEvent
 }
 pub
 trait
