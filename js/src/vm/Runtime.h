@@ -1047,7 +1047,7 @@ public
 #
 ifdef
 JS_TRACE_LOGGING
-TraceLoggerThread
+TraceLoggerMainThread
 *
 traceLogger
 ;
