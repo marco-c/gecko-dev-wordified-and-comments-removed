@@ -242,7 +242,7 @@ new_core_resource_thread
 "
 "
 .
-to_owned
+into
 (
 )
 None
@@ -335,7 +335,7 @@ new_core_resource_thread
 "
 "
 .
-to_owned
+into
 (
 )
 None
@@ -2568,7 +2568,7 @@ new_core_resource_thread
 "
 "
 .
-to_owned
+into
 (
 )
 None
