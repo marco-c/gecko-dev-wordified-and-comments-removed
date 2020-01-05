@@ -809,6 +809,14 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
+if
+(
+mCertDBTrustType
+=
+=
+trustSSL
+)
+{
 bool
 isCertRevoked
 ;
@@ -917,6 +925,7 @@ Result
 :
 ERROR_REVOKED_CERTIFICATE
 ;
+}
 }
 CERTCertTrust
 trust
