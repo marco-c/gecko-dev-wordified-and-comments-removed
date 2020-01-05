@@ -58,6 +58,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 nsContainerFrame
 *
 NS_NewSVGMarkerFrame

@@ -101,6 +101,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 void
 nsSVGOuterSVGFrame
 :

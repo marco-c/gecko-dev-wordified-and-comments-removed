@@ -44,6 +44,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 class
 nsSVGSwitchFrame
 :

@@ -143,6 +143,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 class
 MOZ_RAII
 nsSVGPatternFrame

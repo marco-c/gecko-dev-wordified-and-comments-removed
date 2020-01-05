@@ -96,6 +96,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 static
 const
 uint8_t
