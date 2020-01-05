@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIVariant
 .
 h
@@ -50,7 +57,7 @@ h
 #
 include
 "
-nsStringAPI
+nsString
 .
 h
 "
