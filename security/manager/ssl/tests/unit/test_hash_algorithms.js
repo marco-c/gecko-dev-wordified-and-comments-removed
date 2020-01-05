@@ -262,11 +262,7 @@ b64Hashes
 "
 B
 +
-VH2VhvanP3P7rAQ17XaVEhj7fQyNeIownXhUNru2Quk6JSqVTyORJUfR6KO17W
-\
-r
-\
-n4b
+VH2VhvanP3P7rAQ17XaVEhj7fQyNeIownXhUNru2Quk6JSqVTyORJUfR6KO17W4b
 /
 XCXghIz
 +
@@ -281,11 +277,7 @@ z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg
 /
 SpIdNs6c5H0NE8XYXysP
 +
-DGNKHfuwv
-\
-r
-\
-nY7kxvUdBeoGlODJ6
+DGNKHfuwvY7kxvUdBeoGlODJ6
 +
 SfaPg
 =
