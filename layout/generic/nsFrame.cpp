@@ -23676,7 +23676,9 @@ if
 (
 MOZ_UNLIKELY
 (
-isGridItem
+aFlags
+&
+eIApplyAutoMinSize
 )
 )
 {
