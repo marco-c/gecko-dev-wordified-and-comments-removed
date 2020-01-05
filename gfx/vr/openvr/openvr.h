@@ -334,6 +334,9 @@ TrackedDeviceClass_HMD
 TrackedDeviceClass_Controller
 =
 2
+TrackedDeviceClass_GenericTracker
+=
+3
 TrackedDeviceClass_TrackingReference
 =
 4
