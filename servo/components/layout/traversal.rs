@@ -889,7 +889,7 @@ Clone
 ]
 pub
 struct
-AssignBSizesAndStoreOverflow
+AssignBSizes
 <
 '
 a
@@ -914,7 +914,7 @@ a
 >
 PostorderFlowTraversal
 for
-AssignBSizesAndStoreOverflow
+AssignBSizes
 <
 '
 a

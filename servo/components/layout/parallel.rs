@@ -109,7 +109,7 @@ use
 traversal
 :
 :
-AssignBSizesAndStoreOverflow
+AssignBSizes
 ;
 use
 traversal
@@ -829,7 +829,7 @@ a
 >
 ParallelPostorderFlowTraversal
 for
-AssignBSizesAndStoreOverflow
+AssignBSizes
 <
 '
 a
@@ -918,7 +918,7 @@ shared_layout_context
 let
 assign_block_sizes_traversal
 =
-AssignBSizesAndStoreOverflow
+AssignBSizes
 {
 layout_context
 :
