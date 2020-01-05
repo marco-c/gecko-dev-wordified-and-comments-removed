@@ -3315,6 +3315,11 @@ GlobalHistory
 java
 '
 '
+GlobalPageMetadata
+.
+java
+'
+'
 GuestSession
 .
 java

@@ -803,6 +803,16 @@ init
 context
 )
 ;
+GlobalPageMetadata
+.
+getInstance
+(
+)
+.
+init
+(
+)
+;
 GeckoAppShell
 .
 setNotificationListener
