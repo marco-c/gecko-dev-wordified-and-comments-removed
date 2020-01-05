@@ -245,6 +245,15 @@ jsval
 UndefinedValue
 ;
 use
+ipc_channel
+:
+:
+ipc
+:
+:
+IpcSender
+;
+use
 std
 :
 :
@@ -252,18 +261,6 @@ rc
 :
 :
 Rc
-;
-use
-std
-:
-:
-sync
-:
-:
-mpsc
-:
-:
-Sender
 ;
 fn
 find_node_by_unique_id
@@ -551,7 +548,7 @@ eval
 String
 reply
 :
-Sender
+IpcSender
 <
 WebDriverJSResult
 >
@@ -661,7 +658,7 @@ eval
 String
 reply
 :
-Sender
+IpcSender
 <
 WebDriverJSResult
 >
@@ -766,7 +763,7 @@ webdriver_frame_id
 WebDriverFrameId
 reply
 :
-Sender
+IpcSender
 <
 Result
 <
@@ -968,7 +965,7 @@ selector
 String
 reply
 :
-Sender
+IpcSender
 <
 Result
 <
@@ -1083,7 +1080,7 @@ selector
 String
 reply
 :
-Sender
+IpcSender
 <
 Result
 <
@@ -1245,7 +1242,7 @@ _pipeline
 PipelineId
 reply
 :
-Sender
+IpcSender
 <
 Option
 <
@@ -1316,7 +1313,7 @@ _pipeline
 PipelineId
 reply
 :
-Sender
+IpcSender
 <
 String
 >
@@ -1365,7 +1362,7 @@ node_id
 String
 reply
 :
-Sender
+IpcSender
 <
 Result
 <
@@ -1456,7 +1453,7 @@ node_id
 String
 reply
 :
-Sender
+IpcSender
 <
 Result
 <

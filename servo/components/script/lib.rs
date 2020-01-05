@@ -300,6 +300,10 @@ rustc_unicode
 ;
 extern
 crate
+serde
+;
+extern
+crate
 time
 ;
 extern

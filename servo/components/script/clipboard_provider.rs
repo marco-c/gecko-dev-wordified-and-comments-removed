@@ -19,6 +19,12 @@ as
 ConstellationMsg
 ;
 use
+ipc_channel
+:
+:
+ipc
+;
+use
 std
 :
 :
@@ -87,7 +93,14 @@ tx
 rx
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;

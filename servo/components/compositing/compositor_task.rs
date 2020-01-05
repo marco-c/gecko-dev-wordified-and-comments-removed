@@ -49,7 +49,10 @@ ipc_channel
 ipc
 :
 :
+{
 IpcReceiver
+IpcSender
+}
 ;
 use
 layers
@@ -877,7 +880,7 @@ Cursor
 )
 CreatePng
 (
-Sender
+IpcSender
 <
 Option
 <

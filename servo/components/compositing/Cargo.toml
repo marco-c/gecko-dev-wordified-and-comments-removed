@@ -249,6 +249,15 @@ rust
 -
 png
 "
+features
+=
+[
+"
+serde
+-
+serialization
+"
+]
 [
 dependencies
 .
@@ -319,7 +328,7 @@ url
 .
 2
 .
-35
+36
 "
 time
 =
