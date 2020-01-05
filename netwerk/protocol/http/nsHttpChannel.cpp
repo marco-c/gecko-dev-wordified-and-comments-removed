@@ -27987,7 +27987,7 @@ PRIx32
 mCanceled
 =
 %
-u
+i
 ]
 \
 n
@@ -28000,13 +28000,7 @@ uint32_t
 (
 rv
 )
-static_cast
-<
-bool
->
-(
 mCanceled
-)
 )
 )
 ;
