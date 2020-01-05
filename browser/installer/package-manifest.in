@@ -4814,9 +4814,9 @@ clearkey
 .
 1
 /
-clearkey
+manifest
 .
-info
+json
 ;
 gfx
 #
