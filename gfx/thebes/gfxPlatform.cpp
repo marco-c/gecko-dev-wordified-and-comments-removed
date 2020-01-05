@@ -1258,9 +1258,6 @@ size
 )
 )
 ;
-bool
-ignored
-;
 double
 tStamp
 =
@@ -1277,7 +1274,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 )
 .

@@ -5911,6 +5911,7 @@ outerWindow
 >
 ClearWrapper
 (
+proxy
 )
 ;
 outerWindow
@@ -8572,7 +8573,7 @@ JSObject
 *
 proxy
 =
-GetWrapperPreserveColor
+GetWrapperMaybeDead
 (
 )
 ;
@@ -17685,7 +17686,7 @@ if
 aObject
 =
 =
-GetWrapperPreserveColor
+GetWrapperMaybeDead
 (
 )
 )
