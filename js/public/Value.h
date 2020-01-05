@@ -4852,7 +4852,10 @@ i
 )
 )
 :
-CanonicalizedDoubleValue
+Value
+:
+:
+fromDouble
 (
 double
 (
