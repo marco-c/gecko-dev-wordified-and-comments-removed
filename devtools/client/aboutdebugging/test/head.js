@@ -555,7 +555,7 @@ MockFilePicker
 .
 init
 (
-null
+window
 )
 ;
 let
