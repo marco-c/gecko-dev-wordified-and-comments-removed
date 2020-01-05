@@ -36,6 +36,10 @@ smallvec
 ;
 pub
 mod
+arcslice
+;
+pub
+mod
 bloom
 ;
 pub

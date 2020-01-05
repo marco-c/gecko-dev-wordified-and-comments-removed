@@ -13,9 +13,16 @@ parser
 {
 AttrSelector
 Combinator
-ComplexSelector
+Component
+}
+;
+use
+parser
+:
+:
+{
 SelectorImpl
-SimpleSelector
+SelectorIter
 }
 ;
 pub
@@ -59,7 +66,7 @@ self
 _
 :
 &
-SimpleSelector
+Component
 <
 Self
 :
@@ -81,8 +88,7 @@ mut
 self
 _
 :
-&
-ComplexSelector
+SelectorIter
 <
 Self
 :
