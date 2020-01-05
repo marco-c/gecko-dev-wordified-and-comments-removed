@@ -532,7 +532,7 @@ contraints
 >
 add_supported_compressions
 (
-RAW
+RICE
 )
 ;
 aListUpdateRequest
