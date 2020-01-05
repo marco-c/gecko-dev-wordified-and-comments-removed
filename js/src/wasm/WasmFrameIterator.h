@@ -235,7 +235,6 @@ uint32_t
 None
 ImportJit
 ImportInterp
-Native
 Trap
 DebugTrap
 }
@@ -258,7 +257,7 @@ CodeRange
 *
 codeRange_
 ;
-uint8_t
+void
 *
 callerFP_
 ;
@@ -274,7 +273,7 @@ ExitReason
 exitReason_
 ;
 void
-initFromFP
+initFromExitFP
 (
 )
 ;

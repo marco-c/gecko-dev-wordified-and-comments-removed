@@ -7673,6 +7673,13 @@ wasmEmitTrapOutOfLineCode
 (
 )
 ;
+void
+wasmAssertNonExitInvariants
+(
+Register
+activation
+)
+;
 public
 :
 inline

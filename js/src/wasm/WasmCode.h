@@ -787,6 +787,7 @@ TrapExit
 DebugTrap
 FarJumpIsland
 Inline
+Throw
 }
 ;
 private

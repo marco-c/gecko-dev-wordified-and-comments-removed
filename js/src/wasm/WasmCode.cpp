@@ -1542,6 +1542,12 @@ Inline
 kind_
 =
 =
+Throw
+|
+|
+kind_
+=
+=
 FarJumpIsland
 |
 |

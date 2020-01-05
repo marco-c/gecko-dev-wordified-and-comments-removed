@@ -1099,9 +1099,6 @@ stacks
 >
 f
 >
-native
-call
->
 f
 >
 >
@@ -1296,9 +1293,6 @@ stacks
 >
 f
 >
-native
-call
->
 f
 >
 >
@@ -1456,9 +1450,6 @@ stacks
 "
 >
 f
->
-native
-call
 >
 f
 >

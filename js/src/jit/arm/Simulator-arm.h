@@ -199,6 +199,12 @@ r13
 r14
 r15
 num_registers
+fp
+=
+11
+ip
+=
+12
 sp
 =
 13
