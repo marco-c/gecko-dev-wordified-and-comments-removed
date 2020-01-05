@@ -5060,15 +5060,6 @@ DeclarationKind
 maybeDecl
 )
 ;
-bool
-checkAssignmentToCall
-(
-Node
-node
-unsigned
-errnum
-)
-;
 Node
 newNumber
 (
