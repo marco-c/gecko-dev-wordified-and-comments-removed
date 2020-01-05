@@ -654,6 +654,8 @@ builtin
 key
 -
 shortcuts
+.
+enabled
 =
 false
 '
