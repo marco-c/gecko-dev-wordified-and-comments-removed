@@ -4728,6 +4728,8 @@ ThrowReadOnlyError
 JSContext
 *
 cx
+HandleObject
+obj
 int32_t
 index
 )
