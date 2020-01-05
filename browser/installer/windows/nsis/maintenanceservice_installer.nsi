@@ -979,6 +979,8 @@ version
 comparison
 .
 CopyFiles
+/
+SILENT
 "
 EXEDIR
 \
@@ -1065,6 +1067,8 @@ on
 success
 .
 CopyFiles
+/
+SILENT
 "
 EXEDIR
 \
