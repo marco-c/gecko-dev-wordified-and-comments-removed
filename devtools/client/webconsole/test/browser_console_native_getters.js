@@ -44,6 +44,11 @@ getters
 !
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
