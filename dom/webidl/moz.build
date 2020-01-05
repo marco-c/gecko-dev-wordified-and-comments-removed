@@ -522,6 +522,11 @@ CSSNamespaceRule
 webidl
 '
 '
+CSSPageRule
+.
+webidl
+'
+'
 CSSPrimitiveValue
 .
 webidl
