@@ -16231,6 +16231,16 @@ js
 jsapi
 :
 :
+JSObject
+'
+        
+'
+js
+:
+:
+jsapi
+:
+:
 MutableHandleValue
 '
         
@@ -30196,6 +30206,28 @@ tag
 )
 ]
     
+elif
+type
+.
+isObject
+(
+)
+:
+        
+name
+=
+type
+.
+name
+        
+typeName
+=
+"
+*
+mut
+JSObject
+"
+    
 else
 :
         
@@ -30257,14 +30289,6 @@ template
 info
 .
 template
-    
-assert
-not
-type
-.
-isObject
-(
-)
     
 jsConversion
 =
@@ -31133,19 +31157,39 @@ objectMemberTypes
 0
 :
             
-raise
-TypeError
+assert
+len
 (
-"
-Can
-'
-t
-handle
-objects
-in
-unions
+objectMemberTypes
+)
+=
+=
+1
+            
+typeName
+=
+objectMemberTypes
+[
+0
+]
 .
-"
+name
+            
+object
+=
+CGGeneric
+(
+get_match
+(
+typeName
+)
+)
+            
+names
+.
+append
+(
+typeName
 )
         
 else
@@ -31240,11 +31284,21 @@ hasObjectTypes
 :
             
 assert
+not
+object
+or
+not
+(
 interfaceObject
 or
 arrayObject
 or
+dateObject
+or
+callbackObject
+or
 mozMapObject
+)
             
 templateBody
 =
