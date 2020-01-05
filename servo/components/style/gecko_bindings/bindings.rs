@@ -365,6 +365,15 @@ gecko_bindings
 structs
 :
 :
+nsIURI
+;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
 nsMediaFeature
 ;
 use
@@ -3632,6 +3641,11 @@ ServoStyleSheet
 import_rule
 :
 RawServoImportRuleBorrowed
+base_uri
+:
+*
+mut
+nsIURI
 url_bytes
 :
 *
