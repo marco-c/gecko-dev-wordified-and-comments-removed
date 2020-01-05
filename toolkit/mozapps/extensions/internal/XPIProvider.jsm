@@ -18463,6 +18463,14 @@ manifests
 aAppChanged
 aOldAppVersion
 aOldPlatformVersion
+updateReasons
+.
+includes
+(
+"
+schemaChanged
+"
+)
 )
 ;
 }
