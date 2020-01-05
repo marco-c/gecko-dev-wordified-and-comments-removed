@@ -314,6 +314,16 @@ nsIFrame
 aFrame
 )
 ;
+WidgetNodeType
+NativeThemeToGtkTheme
+(
+uint8_t
+aWidgetType
+nsIFrame
+*
+aFrame
+)
+;
 uint8_t
 mDisabledWidgetTypes
 [
