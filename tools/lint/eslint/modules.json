@@ -304,6 +304,17 @@ jsm
 [
 ]
 "
+bookmark_repair
+.
+js
+"
+:
+[
+"
+BookmarkRepairRequestor
+"
+]
+"
 bookmark_validator
 .
 js
