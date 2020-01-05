@@ -259,9 +259,6 @@ aRv
 void
 Abort
 (
-ErrorResult
-&
-aRv
 )
 ;
 uint16_t

@@ -202,9 +202,6 @@ Blob
 blob
 )
 ;
-[
-Throws
-]
 void
 abort
 (
