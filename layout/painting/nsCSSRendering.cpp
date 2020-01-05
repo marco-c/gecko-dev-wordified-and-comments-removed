@@ -13342,8 +13342,10 @@ return
 positionArea
 ;
 }
-static
 nscoord
+nsCSSRendering
+:
+:
 ComputeRoundedSize
 (
 nscoord
@@ -13605,6 +13607,9 @@ imageSize
 .
 width
 =
+nsCSSRendering
+:
+:
 ComputeRoundedSize
 (
 imageSize
@@ -13697,6 +13702,9 @@ imageSize
 .
 height
 =
+nsCSSRendering
+:
+:
 ComputeRoundedSize
 (
 imageSize
@@ -13843,8 +13851,10 @@ ratio
 ;
 }
 }
-static
 nscoord
+nsCSSRendering
+:
+:
 ComputeBorderSpacedRepeatSize
 (
 nscoord

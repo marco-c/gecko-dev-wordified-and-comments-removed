@@ -34,6 +34,17 @@ Maybe
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 namespace
 mozilla
 {
@@ -75,6 +86,9 @@ aPosition
 bool
 aIsMidPoint
 const
+gfx
+:
+:
 Color
 &
 aColor
@@ -100,6 +114,9 @@ mPosition
 bool
 mIsMidpoint
 ;
+gfx
+:
+:
 Color
 mColor
 ;
