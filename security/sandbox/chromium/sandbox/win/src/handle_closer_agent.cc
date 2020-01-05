@@ -352,7 +352,7 @@ closed_handle
 ;
 for
 (
-HANDLE
+auto
 h
 :
 to_close
@@ -362,6 +362,14 @@ to_close
 CloseHandle
 (
 h
+)
+;
+DCHECK
+(
+dup_dummy
+=
+=
+closed_handle
 )
 ;
 return

@@ -56,8 +56,6 @@ const
 TypeName
 &
 )
-=
-delete
 ;
 \
 void
@@ -68,8 +66,6 @@ const
 TypeName
 &
 )
-=
-delete
 #
 define
 DISALLOW_IMPLICIT_CONSTRUCTORS

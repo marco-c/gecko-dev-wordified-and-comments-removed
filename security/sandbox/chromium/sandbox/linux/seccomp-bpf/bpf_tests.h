@@ -6,11 +6,6 @@ define
 SANDBOX_LINUX_SECCOMP_BPF_BPF_TESTS_H__
 #
 include
-<
-memory
->
-#
-include
 "
 base
 /
@@ -487,10 +482,7 @@ BPFTesterSimpleDelegate
 override
 {
 }
-std
-:
-:
-unique_ptr
+scoped_ptr
 <
 bpf_dsl
 :
@@ -503,10 +495,7 @@ GetSandboxBPFPolicy
 override
 {
 return
-std
-:
-:
-unique_ptr
+scoped_ptr
 <
 bpf_dsl
 :

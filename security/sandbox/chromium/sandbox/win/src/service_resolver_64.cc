@@ -20,9 +20,15 @@ h
 >
 #
 include
-<
+"
+base
+/
 memory
->
+/
+scoped_ptr
+.
+h
+"
 #
 include
 "
@@ -515,10 +521,7 @@ GetThunkSize
 (
 )
 ;
-std
-:
-:
-unique_ptr
+scoped_ptr
 <
 char
 [
@@ -563,7 +566,7 @@ original
 )
 )
 return
-STATUS_OBJECT_NAME_COLLISION
+STATUS_UNSUCCESSFUL
 ;
 ret
 =
@@ -693,7 +696,7 @@ original
 )
 )
 return
-STATUS_OBJECT_NAME_COLLISION
+STATUS_UNSUCCESSFUL
 ;
 if
 (
