@@ -73,6 +73,17 @@ E
 debug_assert
 !
 (
+!
+traversal
+.
+is_parallel
+(
+)
+)
+;
+debug_assert
+!
+(
 token
 .
 should_traverse

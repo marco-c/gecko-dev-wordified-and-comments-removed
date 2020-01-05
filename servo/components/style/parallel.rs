@@ -115,6 +115,16 @@ DomTraversal
 E
 >
 {
+debug_assert
+!
+(
+traversal
+.
+is_parallel
+(
+)
+)
+;
 let
 (
 nodes
