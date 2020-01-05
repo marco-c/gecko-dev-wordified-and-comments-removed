@@ -33125,7 +33125,6 @@ addEventListener
 sizemodechange
 "
 this
-false
 )
 ;
 var
@@ -34136,7 +34135,6 @@ removeEventListener
 sizemodechange
 "
 this
-false
 )
 ;
 if
@@ -37151,7 +37149,6 @@ addEventListener
 resize
 "
 this
-false
 )
 ;
 window
@@ -37162,7 +37159,6 @@ addEventListener
 load
 "
 this
-false
 )
 ;
 try
@@ -39747,7 +39743,6 @@ addEventListener
 mousemove
 "
 this
-false
 )
 ;
 window
@@ -39758,7 +39753,6 @@ addEventListener
 mouseout
 "
 this
-false
 )
 ;
 }
@@ -39854,7 +39848,6 @@ addEventListener
 mousemove
 "
 this
-false
 )
 ;
 window
@@ -39865,7 +39858,6 @@ addEventListener
 mouseout
 "
 this
-false
 )
 ;
 ]
@@ -39905,7 +39897,6 @@ removeEventListener
 mousemove
 "
 this
-false
 )
 ;
 window
@@ -39916,7 +39907,6 @@ removeEventListener
 mouseout
 "
 this
-false
 )
 ;
 if
@@ -51320,7 +51310,6 @@ addEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 tabcontainer
@@ -51331,7 +51320,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 tabcontainer
@@ -51344,7 +51332,6 @@ addEventListener
 scroll
 "
 this
-false
 )
 ;
 let
@@ -51546,7 +51533,6 @@ removeEventListener
 scroll
 "
 this
-false
 )
 ;
 tabcontainer
@@ -51557,7 +51543,6 @@ removeEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 tabcontainer
@@ -51568,7 +51553,6 @@ removeEventListener
 TabClose
 "
 this
-false
 )
 ;
 ]
@@ -51833,7 +51817,6 @@ addEventListener
 resize
 "
 this
-false
 )
 ;
 ]
@@ -51859,7 +51842,6 @@ removeEventListener
 resize
 "
 this
-false
 )
 ;
 MousePosTracker

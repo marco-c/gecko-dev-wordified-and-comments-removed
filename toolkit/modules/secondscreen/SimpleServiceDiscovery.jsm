@@ -2038,7 +2038,6 @@ bind
 (
 this
 )
-false
 )
 ;
 xhr

@@ -203,7 +203,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -218,7 +217,6 @@ mousedown
 this
 .
 _onSlideMouseDown
-false
 )
 ;
 this
@@ -233,7 +231,6 @@ mouseup
 this
 .
 _onSlideMouseUp
-false
 )
 ;
 this
@@ -248,7 +245,6 @@ change
 this
 .
 _onSlide
-false
 )
 ;
 this
@@ -263,7 +259,6 @@ input
 this
 .
 _onSearch
-false
 )
 ;
 this
@@ -278,7 +273,6 @@ wheel
 this
 .
 _onScroll
-false
 )
 ;
 }
@@ -300,7 +294,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -315,7 +308,6 @@ mousedown
 this
 .
 _onSlideMouseDown
-false
 )
 ;
 this
@@ -330,7 +322,6 @@ mouseup
 this
 .
 _onSlideMouseUp
-false
 )
 ;
 this
@@ -345,7 +336,6 @@ change
 this
 .
 _onSlide
-false
 )
 ;
 this
@@ -360,7 +350,6 @@ input
 this
 .
 _onSearch
-false
 )
 ;
 this
@@ -375,7 +364,6 @@ wheel
 this
 .
 _onScroll
-false
 )
 ;
 }

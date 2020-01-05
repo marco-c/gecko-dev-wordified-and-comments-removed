@@ -442,7 +442,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 checkBookmarksPanel
@@ -484,7 +483,6 @@ popuphidden
 arguments
 .
 callee
-false
 )
 ;
 if
@@ -582,7 +580,6 @@ addEventListener
 popupshown
 "
 onPopupShown
-false
 )
 ;
 break
@@ -598,7 +595,6 @@ addEventListener
 popuphidden
 "
 onPopupHidden
-false
 )
 ;
 initialValue
@@ -626,7 +622,6 @@ addEventListener
 popuphidden
 "
 onPopupHidden
-false
 )
 ;
 is

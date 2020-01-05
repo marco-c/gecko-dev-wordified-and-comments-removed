@@ -119,7 +119,6 @@ close
 )
 ;
 }
-false
 )
 ;
 postMessage

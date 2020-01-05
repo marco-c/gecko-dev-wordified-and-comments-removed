@@ -524,7 +524,6 @@ addEventListener
 load
 "
 onLoaded
-false
 )
 ;
 xhr
@@ -535,7 +534,6 @@ addEventListener
 error
 "
 onError
-false
 )
 ;
 xhr

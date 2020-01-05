@@ -341,7 +341,6 @@ dragstart
 arguments
 .
 callee
-false
 )
 ;
 aElement
@@ -352,7 +351,6 @@ addEventListener
 click
 "
 prevent
-false
 )
 ;
 EventUtils
@@ -391,7 +389,6 @@ removeEventListener
 click
 "
 prevent
-false
 )
 ;
 if
@@ -420,7 +417,6 @@ aCallback
 (
 )
 }
-false
 )
 ;
 var

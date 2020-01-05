@@ -763,7 +763,6 @@ addEventListener
 click
 "
 this
-false
 )
 ;
 win
@@ -774,7 +773,6 @@ addEventListener
 pagehide
 "
 this
-false
 )
 ;
 win
@@ -785,7 +783,6 @@ addEventListener
 scroll
 "
 this
-false
 )
 ;
 win
@@ -796,7 +793,6 @@ addEventListener
 resize
 "
 this
-false
 )
 ;
 Services
@@ -824,7 +820,6 @@ addEventListener
 visibilitychange
 "
 this
-false
 )
 ;
 this
@@ -3513,7 +3508,6 @@ addEventListener
 devicelight
 "
 this
-false
 )
 ;
 this
@@ -3542,7 +3536,6 @@ removeEventListener
 devicelight
 "
 this
-false
 )
 ;
 delete

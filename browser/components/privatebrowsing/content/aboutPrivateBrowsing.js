@@ -665,7 +665,6 @@ observe
 )
 ;
 }
-false
 )
 ;
 function

@@ -2115,7 +2115,6 @@ removeEventListener
 DOMContentLoaded
 "
 onLoad
-false
 )
 ;
 resolve
@@ -2123,7 +2122,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 }

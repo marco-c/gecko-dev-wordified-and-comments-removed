@@ -557,7 +557,6 @@ removeEventListener
 popupshown
 "
 onPopupShown
-false
 )
 ;
 executeSoon
@@ -566,7 +565,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 }
@@ -678,7 +676,6 @@ removeEventListener
 popuphidden
 "
 onPopupHidden
-false
 )
 ;
 executeSoon
@@ -687,7 +684,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 }

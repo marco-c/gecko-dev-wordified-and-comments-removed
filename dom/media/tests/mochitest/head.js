@@ -2540,7 +2540,6 @@ removeEventListener
 (
 eventName
 callback
-false
 )
 ;
 resolve
@@ -2550,7 +2549,6 @@ result
 ;
 }
 }
-false
 )
 )
 ;

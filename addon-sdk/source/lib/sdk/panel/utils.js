@@ -1785,7 +1785,6 @@ addEventListener
 click
 "
 onPanelClick
-false
 )
 ;
 panel

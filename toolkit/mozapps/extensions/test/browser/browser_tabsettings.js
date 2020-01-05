@@ -241,7 +241,6 @@ DOMContentLoaded
 arguments
 .
 callee
-false
 )
 ;
 is
@@ -281,7 +280,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 return

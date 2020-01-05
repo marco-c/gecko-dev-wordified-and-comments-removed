@@ -221,7 +221,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 executeSoon
@@ -250,7 +249,6 @@ removeEventListener
 SSWindowStateReady
 "
 onReady
-false
 )
 ;
 promiseTabRestored
@@ -278,7 +276,6 @@ win
 )
 ;
 }
-false
 )
 ;
 ss
@@ -299,7 +296,6 @@ true
 )
 ;
 }
-false
 )
 ;
 }

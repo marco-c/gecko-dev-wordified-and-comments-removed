@@ -263,7 +263,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 win
@@ -336,7 +335,6 @@ addEventListener
 load
 "
 onLoad
-false
 )
 ;
 }

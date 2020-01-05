@@ -204,7 +204,6 @@ removeEventListener
 SSWindowStateReady
 "
 onReady
-false
 )
 ;
 let
@@ -299,7 +298,6 @@ state
 )
 ;
 }
-false
 )
 ;
 ss

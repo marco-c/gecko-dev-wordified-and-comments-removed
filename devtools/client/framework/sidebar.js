@@ -604,7 +604,6 @@ overflow
 this
 .
 _onTabBoxOverflow
-false
 )
 ;
 tabs
@@ -617,7 +616,6 @@ underflow
 this
 .
 _onTabBoxUnderflow
-false
 )
 ;
 for
@@ -708,7 +706,6 @@ overflow
 this
 .
 _onTabBoxOverflow
-false
 )
 ;
 tabs
@@ -721,7 +718,6 @@ underflow
 this
 .
 _onTabBoxUnderflow
-false
 )
 ;
 this
@@ -994,7 +990,6 @@ selectedTab
 tab
 ;
 }
-false
 )
 ;
 tab

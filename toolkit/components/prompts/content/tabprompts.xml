@@ -1004,7 +1004,6 @@ bind
 this
 0
 )
-false
 )
 ;
 this
@@ -1027,7 +1026,6 @@ bind
 this
 1
 )
-false
 )
 ;
 this
@@ -1050,7 +1048,6 @@ bind
 this
 2
 )
-false
 )
 ;
 this
@@ -1073,7 +1070,6 @@ bind
 this
 3
 )
-false
 )
 ;
 /
@@ -1121,7 +1117,6 @@ onCheckbox
 )
 ;
 }
-false
 )
 ;
 this
@@ -1396,7 +1391,6 @@ addEventListener
 resize
 "
 this
-false
 )
 ;
 window
@@ -1407,7 +1401,6 @@ addEventListener
 unload
 "
 this
-false
 )
 ;
 linkedTab
@@ -1418,7 +1411,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 /
@@ -1642,7 +1634,6 @@ removeEventListener
 resize
 "
 this
-false
 )
 ;
 window
@@ -1653,7 +1644,6 @@ removeEventListener
 unload
 "
 this
-false
 )
 ;
 this
@@ -1666,7 +1656,6 @@ removeEventListener
 TabClose
 "
 this
-false
 )
 ;
 }

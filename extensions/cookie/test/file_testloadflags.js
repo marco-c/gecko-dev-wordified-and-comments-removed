@@ -291,7 +291,6 @@ addEventListener
 message
 "
 messageReceiver
-false
 )
 ;
 Promise
@@ -541,7 +540,6 @@ removeEventListener
 message
 "
 messageReceiver
-false
 )
 ;
 finishTest
@@ -575,7 +573,6 @@ removeEventListener
 message
 "
 messageReceiver
-false
 )
 ;
 runTest

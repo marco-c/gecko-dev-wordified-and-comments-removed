@@ -717,7 +717,6 @@ addEventListener
 unload
 "
 shutdown
-false
 )
 ;
 class
@@ -2981,7 +2980,6 @@ countMenuItemsBeforeSep
 )
 ;
 }
-false
 )
 ;
 let
@@ -3127,7 +3125,6 @@ label
 tiptext
 ;
 }
-false
 )
 ;
 }
@@ -3938,7 +3935,6 @@ state
 )
 ;
 }
-false
 )
 ;
 }
@@ -9388,7 +9384,6 @@ value
 )
 ;
 }
-false
 )
 ;
 this
@@ -9481,7 +9476,6 @@ viewId
 ;
 }
 }
-false
 )
 ;
 }
@@ -10510,7 +10504,6 @@ query
 )
 ;
 }
-false
 )
 ;
 function
@@ -10584,7 +10577,6 @@ updateNavButtonVisibility
 )
 ;
 }
-false
 )
 ;
 updateNavButtonVisibility
@@ -12298,7 +12290,6 @@ showInDetailView
 ;
 }
 }
-false
 )
 ;
 this
@@ -12319,7 +12310,6 @@ this
 updateView
 (
 )
-false
 )
 ;
 }
@@ -14083,7 +14073,6 @@ showInDetailView
 ;
 }
 }
-false
 )
 ;
 document
@@ -20512,7 +20501,6 @@ installSelected
 )
 ;
 }
-false
 )
 ;
 this
@@ -21016,7 +21004,6 @@ maybeDisableUpdateSelected
 )
 ;
 }
-false
 )
 ;
 elements

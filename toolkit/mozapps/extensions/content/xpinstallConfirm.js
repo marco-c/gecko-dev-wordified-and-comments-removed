@@ -742,7 +742,6 @@ removeEventListener
 unload
 "
 myUnload
-false
 )
 ;
 for
@@ -824,7 +823,6 @@ addEventListener
 unload
 "
 myUnload
-false
 )
 ;
 if

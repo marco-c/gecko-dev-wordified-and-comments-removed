@@ -195,7 +195,6 @@ removeEventListener
 SSTabRestored
 "
 tabRestoredListener
-false
 )
 ;
 is
@@ -217,7 +216,6 @@ cb
 )
 ;
 }
-false
 )
 ;
 }

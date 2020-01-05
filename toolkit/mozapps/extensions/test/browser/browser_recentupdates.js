@@ -344,7 +344,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 wait_for_view_load
@@ -475,7 +474,6 @@ gManagerWindow
 )
 ;
 }
-false
 )
 ;
 EventUtils

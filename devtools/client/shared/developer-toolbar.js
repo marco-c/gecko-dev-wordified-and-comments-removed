@@ -2520,7 +2520,6 @@ addEventListener
 TabSelect
 "
 this
-false
 )
 ;
 tabbrowser
@@ -2533,7 +2532,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 tabbrowser
@@ -3172,7 +3170,6 @@ removeEventListener
 TabSelect
 "
 this
-false
 )
 ;
 tabbrowser
@@ -3185,7 +3182,6 @@ removeEventListener
 TabClose
 "
 this
-false
 )
 ;
 tabbrowser

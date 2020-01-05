@@ -1122,7 +1122,6 @@ readystatechange
 arguments
 .
 callee
-false
 )
 ;
 self
@@ -1132,7 +1131,6 @@ _init
 )
 ;
 }
-false
 )
 ;
 }
@@ -2894,7 +2892,6 @@ addEventListener
 popupshown
 "
 this
-false
 )
 ;
 this
@@ -2907,7 +2904,6 @@ addEventListener
 popuphiding
 "
 this
-false
 )
 ;
 this
@@ -2920,7 +2916,6 @@ addEventListener
 mousemove
 "
 this
-false
 )
 ;
 }
@@ -2951,7 +2946,6 @@ removeEventListener
 mousemove
 "
 this
-false
 )
 ;
 break
@@ -2984,7 +2978,6 @@ removeEventListener
 mousemove
 "
 this
-false
 )
 ;
 this
@@ -2997,7 +2990,6 @@ removeEventListener
 popuphiding
 "
 this
-false
 )
 ;
 this
@@ -3010,7 +3002,6 @@ removeEventListener
 popupshown
 "
 this
-false
 )
 ;
 this

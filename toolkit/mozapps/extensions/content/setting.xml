@@ -245,7 +245,6 @@ stopPropagation
 )
 ;
 }
-false
 )
 ;
 if
@@ -3696,7 +3695,6 @@ bind
 (
 this
 )
-false
 )
 ;
 ]

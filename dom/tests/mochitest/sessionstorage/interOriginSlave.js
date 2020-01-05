@@ -31,7 +31,6 @@ addEventListener
 message
 "
 onMessageReceived
-false
 )
 ;
 function

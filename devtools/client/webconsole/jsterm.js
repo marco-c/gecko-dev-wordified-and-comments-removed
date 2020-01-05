@@ -1062,7 +1062,6 @@ keypress
 this
 .
 _keyPress
-false
 )
 ;
 this
@@ -1105,7 +1104,6 @@ input
 this
 .
 _inputEventHandler
-false
 )
 ;
 this
@@ -1120,7 +1118,6 @@ keyup
 this
 .
 _inputEventHandler
-false
 )
 ;
 this
@@ -1135,7 +1132,6 @@ focus
 this
 .
 _focusEventHandler
-false
 )
 ;
 }
@@ -1153,7 +1149,6 @@ blur
 this
 .
 _blurEventHandler
-false
 )
 ;
 this
@@ -7294,7 +7289,6 @@ paste
 this
 .
 _onPaste
-false
 )
 ;
 this
@@ -7309,7 +7303,6 @@ drop
 this
 .
 _onPaste
-false
 )
 ;
 this
@@ -7331,7 +7324,6 @@ keypress
 this
 .
 _keyPress
-false
 )
 ;
 this
@@ -7346,7 +7338,6 @@ input
 this
 .
 _inputEventHandler
-false
 )
 ;
 this
@@ -7361,7 +7352,6 @@ keyup
 this
 .
 _inputEventHandler
-false
 )
 ;
 this
@@ -7376,7 +7366,6 @@ focus
 this
 .
 _focusEventHandler
-false
 )
 ;
 this
@@ -7393,7 +7382,6 @@ blur
 this
 .
 _blurEventHandler
-false
 )
 ;
 this

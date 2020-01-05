@@ -80,7 +80,6 @@ TabSelect
 arguments
 .
 callee
-false
 )
 ;
 numVisBeforeHide
@@ -107,7 +106,6 @@ visibleTabs
 length
 ;
 }
-false
 )
 ;
 gBrowser

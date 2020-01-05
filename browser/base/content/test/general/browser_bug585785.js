@@ -205,7 +205,6 @@ transitionend
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -236,7 +235,6 @@ finish
 ;
 }
 }
-false
 )
 ;
 }

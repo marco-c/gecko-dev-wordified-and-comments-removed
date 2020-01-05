@@ -714,7 +714,6 @@ addEventListener
 mousedown
 "
 startDrag
-false
 )
 ;
 parentEl
@@ -725,7 +724,6 @@ addEventListener
 mouseup
 "
 stopDrag
-false
 )
 ;
 parentEl
@@ -736,7 +734,6 @@ addEventListener
 mouseout
 "
 stopDrag
-false
 )
 ;
 parentEl
@@ -747,7 +744,6 @@ addEventListener
 mousemove
 "
 drag
-false
 )
 ;
 return
@@ -764,7 +760,6 @@ removeEventListener
 mousedown
 "
 startDrag
-false
 )
 ;
 parentEl
@@ -775,7 +770,6 @@ removeEventListener
 mouseup
 "
 stopDrag
-false
 )
 ;
 parentEl
@@ -786,7 +780,6 @@ removeEventListener
 mouseout
 "
 stopDrag
-false
 )
 ;
 parentEl
@@ -797,7 +790,6 @@ removeEventListener
 mousemove
 "
 drag
-false
 )
 ;
 }
@@ -1070,7 +1062,6 @@ addEventListener
 wheel
 "
 handleWheel
-false
 )
 ;
 return
@@ -1087,7 +1078,6 @@ removeEventListener
 wheel
 "
 handleWheel
-false
 )
 ;
 }

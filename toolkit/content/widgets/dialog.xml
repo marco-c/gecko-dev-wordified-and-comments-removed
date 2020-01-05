@@ -1315,7 +1315,6 @@ close
 this
 .
 _closeHandler
-false
 )
 ;
 /
@@ -1340,7 +1339,6 @@ load
 this
 .
 postLoadInit
-false
 )
 ;
 window

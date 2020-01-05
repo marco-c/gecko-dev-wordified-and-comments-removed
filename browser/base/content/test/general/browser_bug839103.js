@@ -322,7 +322,6 @@ addEventListener
 StyleSheetAdded
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -333,7 +332,6 @@ addEventListener
 StyleSheetRemoved
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -344,7 +342,6 @@ addEventListener
 StyleSheetApplicableStateChanged
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -357,7 +354,6 @@ addEventListener
 StyleSheetAdded
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -370,7 +366,6 @@ addEventListener
 StyleSheetRemoved
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -383,7 +378,6 @@ addEventListener
 StyleSheetApplicableStateChanged
 "
 unexpectedContentEvent
-false
 )
 ;
 let
@@ -1488,7 +1482,6 @@ removeEventListener
 StyleSheetAdded
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -1499,7 +1492,6 @@ removeEventListener
 StyleSheetRemoved
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -1510,7 +1502,6 @@ removeEventListener
 StyleSheetApplicableStateChanged
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -1523,7 +1514,6 @@ removeEventListener
 StyleSheetAdded
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -1536,7 +1526,6 @@ removeEventListener
 StyleSheetRemoved
 "
 unexpectedContentEvent
-false
 )
 ;
 doc
@@ -1549,7 +1538,6 @@ removeEventListener
 StyleSheetApplicableStateChanged
 "
 unexpectedContentEvent
-false
 )
 ;
 gBrowser

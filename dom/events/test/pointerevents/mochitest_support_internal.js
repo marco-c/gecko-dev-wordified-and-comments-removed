@@ -387,7 +387,6 @@ pointerId
 )
 ;
 }
-false
 )
 ;
 }

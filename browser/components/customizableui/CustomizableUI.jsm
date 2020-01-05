@@ -7412,7 +7412,6 @@ addEventListener
 command
 "
 commandHandler
-false
 )
 ;
 let
@@ -7437,7 +7436,6 @@ addEventListener
 click
 "
 clickHandler
-false
 )
 ;
 if
@@ -7548,7 +7546,6 @@ aWidget
 [
 handler
 ]
-false
 )
 ;
 }
@@ -13016,7 +13013,6 @@ widget
 [
 handler
 ]
-false
 )
 ;
 }

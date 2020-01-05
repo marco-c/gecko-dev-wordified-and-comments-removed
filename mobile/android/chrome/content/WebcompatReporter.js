@@ -974,7 +974,6 @@ removeEventListener
 DOMContentLoaded
 "
 sendDataToTab
-false
 )
 ;
 if
@@ -1020,7 +1019,6 @@ WEBCOMPAT_ORIGIN
 ;
 }
 }
-false
 )
 ;
 }

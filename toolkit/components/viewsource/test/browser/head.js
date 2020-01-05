@@ -134,7 +134,6 @@ removeEventListener
 pageshow
 "
 pageShowHandler
-false
 )
 ;
 aCallback
@@ -144,7 +143,6 @@ viewSourceWindow
 ;
 }
 }
-false
 )
 ;
 }
@@ -308,7 +306,6 @@ removeEventListener
 load
 "
 listener
-false
 )
 ;
 if
@@ -348,7 +345,6 @@ windowListener
 )
 ;
 }
-false
 )
 ;
 }

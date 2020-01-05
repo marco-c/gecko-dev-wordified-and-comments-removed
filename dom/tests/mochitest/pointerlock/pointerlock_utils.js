@@ -526,7 +526,6 @@ removeEventListener
 fullscreenchange
 "
 onFullscreenChange
-false
 )
 ;
 if
@@ -564,7 +563,6 @@ removeEventListener
 resize
 "
 onResize
-false
 )
 ;
 invokeCallback
@@ -582,7 +580,6 @@ addEventListener
 resize
 "
 onResize
-false
 )
 ;
 }
@@ -594,7 +591,6 @@ addEventListener
 fullscreenchange
 "
 onFullscreenChange
-false
 )
 ;
 }

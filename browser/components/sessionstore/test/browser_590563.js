@@ -455,7 +455,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 let
@@ -523,7 +522,6 @@ true
 )
 ;
 }
-false
 )
 ;
 }

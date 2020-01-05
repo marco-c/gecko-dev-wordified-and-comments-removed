@@ -353,7 +353,6 @@ addEventListener
 popupshown
 "
 contextMenuOpened
-false
 )
 ;
 EventUtils
@@ -404,7 +403,6 @@ removeEventListener
 popupshown
 "
 contextMenuOpened
-false
 )
 ;
 var
@@ -431,7 +429,6 @@ addEventListener
 command
 "
 copyLinkCommandExecuted
-false
 )
 ;
 copyLinkCommand
@@ -457,7 +454,6 @@ removeEventListener
 command
 "
 copyLinkCommandExecuted
-false
 )
 ;
 var
@@ -566,7 +562,6 @@ addEventListener
 popuphidden
 "
 contextMenuClosed
-false
 )
 ;
 event
@@ -607,7 +602,6 @@ removeEventListener
 popuphidden
 "
 contextMenuClosed
-false
 )
 ;
 SidebarUI

@@ -64,7 +64,6 @@ hidden
 )
 ;
 }
-false
 )
 ;
 }

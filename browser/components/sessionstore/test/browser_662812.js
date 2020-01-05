@@ -27,7 +27,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onBusy
-false
 )
 ;
 let
@@ -82,7 +81,6 @@ removeEventListener
 SSWindowStateReady
 "
 onReady
-false
 )
 ;
 let
@@ -146,11 +144,9 @@ finish
 )
 ;
 }
-false
 )
 ;
 }
-false
 )
 ;
 let

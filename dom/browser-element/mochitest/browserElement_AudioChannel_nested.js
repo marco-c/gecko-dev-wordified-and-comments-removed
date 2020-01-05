@@ -434,7 +434,6 @@ addEventListener
 mozbrowsershowmodalprompt
 '
 listener
-false
 )
 ;
 document

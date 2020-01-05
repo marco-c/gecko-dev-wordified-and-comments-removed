@@ -2661,7 +2661,6 @@ ViewChanged
 arguments
 .
 callee
-false
 )
 ;
 log_exceptions
@@ -2671,7 +2670,6 @@ aManagerWindow
 )
 ;
 }
-false
 )
 ;
 }
@@ -2733,7 +2731,6 @@ Initialized
 arguments
 .
 callee
-false
 )
 ;
 log_exceptions
@@ -2743,7 +2740,6 @@ aManagerWindow
 )
 ;
 }
-false
 )
 ;
 }
@@ -3166,7 +3162,6 @@ unload
 arguments
 .
 callee
-false
 )
 ;
 resolve
@@ -3186,7 +3181,6 @@ e
 ;
 }
 }
-false
 )
 ;
 }
@@ -3342,7 +3336,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -3360,7 +3353,6 @@ domwindow
 )
 ;
 }
-false
 )
 ;
 }
@@ -3858,7 +3850,6 @@ unload
 arguments
 .
 callee
-false
 )
 ;
 self
@@ -3868,7 +3859,6 @@ window
 null
 ;
 }
-false
 )
 ;
 }

@@ -1249,7 +1249,6 @@ SwapDocShells
 this
 .
 swapBrowsers
-false
 )
 ;
 }
@@ -1332,7 +1331,6 @@ SwapDocShells
 this
 .
 swapBrowsers
-false
 )
 ;
 this
@@ -1362,7 +1360,6 @@ SwapDocShells
 this
 .
 swapBrowsers
-false
 )
 ;
 }
@@ -1533,7 +1530,6 @@ SwapDocShells
 this
 .
 swapBrowsers
-false
 )
 ;
 }
@@ -1720,7 +1716,6 @@ removeEventListener
 load
 "
 loadListener
-false
 )
 ;
 }
@@ -1733,7 +1728,6 @@ addEventListener
 load
 "
 loadListener
-false
 )
 ;
 window
@@ -1775,7 +1769,6 @@ destroy
 )
 ;
 }
-false
 )
 ;
 this

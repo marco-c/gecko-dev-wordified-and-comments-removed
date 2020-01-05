@@ -12,7 +12,6 @@ addEventListener
 load
 "
 runTests
-false
 )
 ;
 function

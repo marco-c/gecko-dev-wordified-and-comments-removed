@@ -1053,7 +1053,6 @@ removeEventListener
 popuphidden
 "
 listener
-false
 )
 ;
 resolve
@@ -1061,7 +1060,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 }
@@ -5956,7 +5954,6 @@ addEventListener
 popuphiding
 "
 testFail
-false
 )
 ;
 let
@@ -6010,7 +6007,6 @@ removeEventListener
 popuphiding
 "
 testFail
-false
 )
 ;
 let

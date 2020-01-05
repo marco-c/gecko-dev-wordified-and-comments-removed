@@ -149,7 +149,6 @@ mouseup
 this
 .
 _onMouseUp
-false
 )
 ;
 document
@@ -166,7 +165,6 @@ mousemove
 this
 .
 _onMouseMove
-false
 )
 ;
 }
@@ -188,7 +186,6 @@ mouseup
 this
 .
 _onMouseUp
-false
 )
 ;
 document
@@ -205,7 +202,6 @@ mousemove
 this
 .
 _onMouseMove
-false
 )
 ;
 }

@@ -3210,7 +3210,6 @@ addEventListener
 command
 "
 onChange
-false
 )
 ;
 this
@@ -3223,7 +3222,6 @@ addEventListener
 input
 "
 onChange
-false
 )
 ;
 }
@@ -3284,7 +3282,6 @@ open
 true
 ;
 }
-false
 )
 ;
 button
@@ -3297,7 +3294,6 @@ click
 this
 .
 _toggleFilter
-false
 )
 ;
 let
@@ -3340,7 +3336,6 @@ command
 this
 .
 _toggleFilter
-false
 )
 ;
 let
@@ -11607,7 +11602,6 @@ event
 clientY
 ;
 }
-false
 )
 ;
 node
@@ -11724,7 +11718,6 @@ event
 )
 ;
 }
-false
 )
 ;
 }

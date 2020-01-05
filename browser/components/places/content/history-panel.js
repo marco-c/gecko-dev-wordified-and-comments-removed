@@ -505,6 +505,5 @@ gSearchBox
 focus
 (
 )
-false
 )
 ;

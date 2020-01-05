@@ -669,7 +669,6 @@ keypress
 this
 .
 handleKeypress
-false
 )
 ;
 }
@@ -714,7 +713,6 @@ keypress
 this
 .
 handleKeypress
-false
 )
 ;
 }
@@ -1767,7 +1765,6 @@ keypress
 this
 .
 handleKeypress
-false
 )
 ;
 }
@@ -1797,7 +1794,6 @@ keypress
 this
 .
 handleKeypress
-false
 )
 ;
 }
@@ -2838,7 +2834,6 @@ aEvent
 )
 ;
 }
-false
 )
 ;
 this
@@ -2867,7 +2862,6 @@ aEvent
 )
 ;
 }
-false
 )
 ;
 this

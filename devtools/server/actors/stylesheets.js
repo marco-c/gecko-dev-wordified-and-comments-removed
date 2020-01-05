@@ -1490,7 +1490,6 @@ removeEventListener
 load
 "
 onSheetLoaded
-false
 )
 ;
 deferred
@@ -1516,7 +1515,6 @@ addEventListener
 load
 "
 onSheetLoaded
-false
 )
 ;
 this

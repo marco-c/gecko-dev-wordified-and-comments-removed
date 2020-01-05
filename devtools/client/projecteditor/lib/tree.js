@@ -482,7 +482,6 @@ ev
 )
 ;
 }
-false
 )
 ;
 this
@@ -557,7 +556,6 @@ stopPropagation
 )
 ;
 }
-false
 )
 ;
 this

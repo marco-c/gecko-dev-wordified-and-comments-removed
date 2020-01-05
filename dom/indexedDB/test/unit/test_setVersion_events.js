@@ -303,7 +303,6 @@ close
 )
 ;
 }
-false
 )
 ;
 request
@@ -577,7 +576,6 @@ count
 )
 ;
 }
-false
 )
 ;
 request

@@ -7188,7 +7188,6 @@ preventDefault
 )
 ;
 }
-false
 )
 ;
 appendElementWithText

@@ -205,7 +205,6 @@ addEventListener
 DOMContentLoaded
 "
 onDOMReady
-false
 )
 ;
 function
@@ -264,7 +263,6 @@ removeEventListener
 DOMContentLoaded
 "
 onDOMReady
-false
 )
 ;
 let
@@ -849,7 +847,6 @@ removeEventListener
 message
 "
 listener
-false
 )
 ;
 assert
@@ -938,7 +935,6 @@ done
 )
 ;
 }
-false
 )
 ;
 helper

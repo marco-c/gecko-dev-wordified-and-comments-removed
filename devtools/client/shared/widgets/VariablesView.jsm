@@ -618,7 +618,6 @@ keypress
 this
 .
 _onViewKeyPress
-false
 )
 ;
 this
@@ -633,7 +632,6 @@ keydown
 this
 .
 _onViewKeyDown
-false
 )
 ;
 this
@@ -973,7 +971,6 @@ keypress
 this
 .
 _onViewKeyPress
-false
 )
 ;
 prevList
@@ -986,7 +983,6 @@ keydown
 this
 .
 _onViewKeyDown
-false
 )
 ;
 currList
@@ -999,7 +995,6 @@ keypress
 this
 .
 _onViewKeyPress
-false
 )
 ;
 currList
@@ -1012,7 +1007,6 @@ keydown
 this
 .
 _onViewKeyDown
-false
 )
 ;
 currList
@@ -1498,7 +1492,6 @@ command
 this
 .
 _onSearchboxInput
-false
 )
 ;
 searchbox
@@ -1511,7 +1504,6 @@ keypress
 this
 .
 _onSearchboxKeyPress
-false
 )
 ;
 container
@@ -1569,7 +1561,6 @@ command
 this
 .
 _onSearchboxInput
-false
 )
 ;
 this
@@ -1584,7 +1575,6 @@ keypress
 this
 .
 _onSearchboxKeyPress
-false
 )
 ;
 this
@@ -5833,7 +5823,6 @@ mousedown
 this
 .
 _onClick
-false
 )
 ;
 }
@@ -7150,7 +7139,6 @@ mouseover
 this
 .
 highlightDomNode
-false
 )
 ;
 this
@@ -7165,7 +7153,6 @@ mouseout
 this
 .
 unhighlightDomNode
-false
 )
 ;
 this
@@ -7180,7 +7167,6 @@ mousedown
 this
 .
 openNodeInInspector
-false
 )
 ;
 }
@@ -8720,7 +8706,6 @@ bind
 (
 this
 )
-false
 )
 ;
 this
@@ -8789,7 +8774,6 @@ bind
 (
 this
 )
-false
 )
 ;
 this
@@ -8857,7 +8841,6 @@ bind
 (
 this
 )
-false
 )
 ;
 this
@@ -9266,7 +9249,6 @@ mouseover
 this
 .
 _setTooltips
-false
 )
 ;
 }
@@ -9288,7 +9270,6 @@ mouseover
 this
 .
 _setTooltips
-false
 )
 ;
 let
@@ -9692,7 +9673,6 @@ mouseover
 this
 .
 highlightDomNode
-false
 )
 ;
 this
@@ -9707,7 +9687,6 @@ mouseout
 this
 .
 unhighlightDomNode
-false
 )
 ;
 this
@@ -9754,7 +9733,6 @@ mousedown
 this
 .
 openNodeInInspector
-false
 )
 ;
 this
@@ -10481,7 +10459,6 @@ dblclick
 this
 .
 _activateNameInput
-false
 )
 ;
 this
@@ -10496,7 +10473,6 @@ mousedown
 this
 .
 _activateValueInput
-false
 )
 ;
 this
@@ -10511,7 +10487,6 @@ mousedown
 this
 .
 _onClick
-false
 )
 ;
 }

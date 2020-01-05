@@ -243,6 +243,5 @@ addEventListener
 message
 "
 doIt
-false
 )
 ;

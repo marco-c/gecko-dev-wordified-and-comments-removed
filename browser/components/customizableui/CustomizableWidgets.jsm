@@ -6086,7 +6086,6 @@ command
 this
 .
 onCommand
-false
 )
 ;
 let

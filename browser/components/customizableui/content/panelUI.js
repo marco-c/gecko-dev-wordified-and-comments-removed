@@ -377,7 +377,6 @@ ViewShowing
 this
 .
 _onHelpViewShow
-false
 )
 ;
 this

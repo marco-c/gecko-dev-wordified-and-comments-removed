@@ -57,7 +57,6 @@ removeEventListener
 DOMContentLoaded
 "
 onLoad
-false
 )
 ;
 PageThumbs
@@ -98,7 +97,6 @@ next
 )
 ;
 }
-false
 )
 ;
 }

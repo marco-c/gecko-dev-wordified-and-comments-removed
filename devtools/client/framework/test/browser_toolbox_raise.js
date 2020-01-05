@@ -325,7 +325,6 @@ removeEventListener
 focus
 "
 onToolboxFocusAgain
-false
 )
 ;
 ok
@@ -366,7 +365,6 @@ addEventListener
 focus
 "
 onToolboxFocusAgain
-false
 )
 ;
 toolbox

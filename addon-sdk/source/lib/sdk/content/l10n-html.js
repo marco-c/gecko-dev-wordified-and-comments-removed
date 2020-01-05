@@ -474,7 +474,6 @@ removeEventListener
 DOMContentLoaded
 "
 onDocumentReady2Translate
-false
 )
 ;
 translateElement
@@ -598,7 +597,6 @@ addEventListener
 DOMContentLoaded
 "
 onDocumentReady2Translate
-false
 )
 ;
 }

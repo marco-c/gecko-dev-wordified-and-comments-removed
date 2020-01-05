@@ -1476,7 +1476,6 @@ addEventListener
 dragstart
 "
 this
-false
 )
 ;
 this
@@ -1489,7 +1488,6 @@ addEventListener
 dragend
 "
 this
-false
 )
 ;
 this
@@ -1502,7 +1500,6 @@ addEventListener
 mouseover
 "
 this
-false
 )
 ;
 let
@@ -2339,7 +2336,6 @@ removeEventListener
 mouseover
 "
 this
-false
 )
 ;
 this

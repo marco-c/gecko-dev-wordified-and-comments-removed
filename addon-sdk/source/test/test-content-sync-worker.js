@@ -4974,7 +4974,6 @@ removeEventListener
 pagehide
 "
 onpagehide
-false
 )
 ;
 assert
@@ -5118,7 +5117,6 @@ goForward
 )
 ;
 }
-false
 )
 ;
 }

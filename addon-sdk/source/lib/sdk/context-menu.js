@@ -3650,7 +3650,6 @@ popupshowing
 this
 .
 _updateOverflowState
-false
 )
 ;
 }
@@ -3673,7 +3672,6 @@ popupshowing
 this
 .
 _updateOverflowState
-false
 )
 ;
 this
@@ -4590,7 +4588,6 @@ xulNode
 )
 ;
 }
-false
 )
 ;
 }

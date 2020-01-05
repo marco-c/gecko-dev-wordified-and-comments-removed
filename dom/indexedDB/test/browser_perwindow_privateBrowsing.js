@@ -216,7 +216,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 executeSoon
@@ -232,7 +231,6 @@ win
 )
 ;
 }
-false
 )
 ;
 registerCleanupFunction

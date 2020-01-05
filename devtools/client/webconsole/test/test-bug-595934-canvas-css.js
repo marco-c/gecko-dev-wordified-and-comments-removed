@@ -42,6 +42,5 @@ foobarCanvasCssParser
 "
 ;
 }
-false
 )
 ;

@@ -196,7 +196,6 @@ addEventListener
 MozAfterPaint
 "
 paintListener
-false
 )
 ;
 function

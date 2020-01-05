@@ -1440,11 +1440,9 @@ load
 arguments
 .
 callee
-false
 )
 ;
 }
-false
 )
 ;
 break

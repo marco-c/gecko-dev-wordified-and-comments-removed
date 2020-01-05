@@ -455,7 +455,6 @@ removeEventListener
 UIReady
 "
 onLoad
-false
 )
 ;
 loadIntoWindow
@@ -464,7 +463,6 @@ domWindow
 )
 ;
 }
-false
 )
 ;
 }

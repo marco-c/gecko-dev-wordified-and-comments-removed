@@ -873,7 +873,6 @@ resolve
 ;
 }
 }
-false
 )
 ;
 }

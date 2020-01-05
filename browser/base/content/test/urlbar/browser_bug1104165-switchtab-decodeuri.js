@@ -189,7 +189,6 @@ removeEventListener
 TabSelect
 "
 select
-false
 )
 ;
 is
@@ -214,7 +213,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 EventUtils

@@ -314,7 +314,6 @@ click
 this
 .
 onElementClick
-false
 )
 ;
 this
@@ -1185,7 +1184,6 @@ addEventListener
 selectstart
 "
 prevent
-false
 )
 ;
 doc
@@ -1196,7 +1194,6 @@ addEventListener
 dragstart
 "
 prevent
-false
 )
 ;
 doc
@@ -1207,7 +1204,6 @@ addEventListener
 mousemove
 "
 move
-false
 )
 ;
 doc
@@ -1218,7 +1214,6 @@ addEventListener
 mouseup
 "
 stop
-false
 )
 ;
 prevent
@@ -1247,7 +1242,6 @@ removeEventListener
 selectstart
 "
 prevent
-false
 )
 ;
 doc
@@ -1258,7 +1252,6 @@ removeEventListener
 dragstart
 "
 prevent
-false
 )
 ;
 doc
@@ -1269,7 +1262,6 @@ removeEventListener
 mousemove
 "
 move
-false
 )
 ;
 doc
@@ -1280,7 +1272,6 @@ removeEventListener
 mouseup
 "
 stop
-false
 )
 ;
 onstop
@@ -1305,7 +1296,6 @@ addEventListener
 mousedown
 "
 start
-false
 )
 ;
 }
@@ -2221,7 +2211,6 @@ click
 this
 .
 onElementClick
-false
 )
 ;
 this

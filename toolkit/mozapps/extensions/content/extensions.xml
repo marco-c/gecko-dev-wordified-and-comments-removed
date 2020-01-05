@@ -12223,7 +12223,6 @@ addEventListener
 load
 "
 handleResponse
-false
 )
 ;
 dataReq
@@ -12234,7 +12233,6 @@ addEventListener
 error
 "
 handleError
-false
 )
 ;
 dataReq
@@ -12300,7 +12298,6 @@ addEventListener
 load
 "
 handleResponse
-false
 )
 ;
 styleReq
@@ -12311,7 +12308,6 @@ addEventListener
 error
 "
 handleError
-false
 )
 ;
 styleReq

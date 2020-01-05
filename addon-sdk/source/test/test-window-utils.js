@@ -374,7 +374,6 @@ removeEventListener
 load
 "
 onload
-false
 )
 ;
 assert
@@ -486,7 +485,6 @@ done
 )
 ;
 }
-false
 )
 ;
 }
@@ -914,7 +912,6 @@ done
 )
 ;
 }
-false
 )
 ;
 myWindow
@@ -928,7 +925,6 @@ close
 )
 ;
 }
-false
 )
 ;
 }
@@ -1352,7 +1348,6 @@ addEventListener
 load
 "
 onload
-false
 )
 ;
 assert
@@ -1399,7 +1394,6 @@ done
 )
 ;
 }
-false
 )
 ;
 }
@@ -1476,7 +1470,6 @@ addEventListener
 load
 "
 onload
-false
 )
 ;
 assert
@@ -1558,7 +1551,6 @@ checked
 true
 ;
 }
-false
 )
 ;
 }

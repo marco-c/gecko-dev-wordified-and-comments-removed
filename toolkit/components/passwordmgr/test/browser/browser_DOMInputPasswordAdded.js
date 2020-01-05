@@ -142,7 +142,6 @@ addEventListener
 DOMInputPasswordAdded
 "
 unexpectedContentEvent
-false
 )
 ;
 gDoc
@@ -576,7 +575,6 @@ removeEventListener
 DOMInputPasswordAdded
 "
 unexpectedContentEvent
-false
 )
 ;
 resolve

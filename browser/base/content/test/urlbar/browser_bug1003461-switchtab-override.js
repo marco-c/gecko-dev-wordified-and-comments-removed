@@ -324,7 +324,6 @@ addEventListener
 TabSelect
 "
 onTabSelect
-false
 )
 ;
 registerCleanupFunction
@@ -344,7 +343,6 @@ removeEventListener
 TabSelect
 "
 onTabSelect
-false
 )
 ;
 }

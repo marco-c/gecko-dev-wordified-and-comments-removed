@@ -2185,7 +2185,6 @@ addEventListener
 pagehide
 "
 this
-false
 )
 ;
 gBrowser
@@ -2196,7 +2195,6 @@ addEventListener
 pageshow
 "
 this
-false
 )
 ;
 gBrowser
@@ -2207,7 +2205,6 @@ addEventListener
 popstate
 "
 this
-false
 )
 ;
 gBrowser
@@ -2218,7 +2215,6 @@ addEventListener
 DOMModalDialogClosed
 "
 this
-false
 )
 ;
 gBrowser
@@ -2231,7 +2227,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 }
@@ -2251,7 +2246,6 @@ removeEventListener
 pagehide
 "
 this
-false
 )
 ;
 gBrowser
@@ -2262,7 +2256,6 @@ removeEventListener
 pageshow
 "
 this
-false
 )
 ;
 gBrowser
@@ -2273,7 +2266,6 @@ removeEventListener
 popstate
 "
 this
-false
 )
 ;
 gBrowser
@@ -2284,7 +2276,6 @@ removeEventListener
 DOMModalDialogClosed
 "
 this
-false
 )
 ;
 gBrowser
@@ -2297,7 +2288,6 @@ removeEventListener
 TabClose
 "
 this
-false
 )
 ;
 this

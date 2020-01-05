@@ -1143,7 +1143,6 @@ removeEventListener
 DOMContentLoaded
 "
 onLoad
-false
 )
 ;
 let
@@ -1223,7 +1222,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 info

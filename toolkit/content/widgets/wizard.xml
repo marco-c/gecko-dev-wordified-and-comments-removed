@@ -1725,7 +1725,6 @@ close
 this
 .
 _closeHandler
-false
 )
 ;
 /
@@ -1774,7 +1773,6 @@ load
 this
 .
 _setInitialFocus
-false
 )
 ;
 ]
@@ -2869,7 +2867,6 @@ aName
 Func
 "
 ]
-false
 )
 ;
 this

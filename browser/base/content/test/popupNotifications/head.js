@@ -1492,7 +1492,6 @@ removeEventListener
 (
 eventName
 listener
-false
 )
 ;
 }
@@ -1552,7 +1551,6 @@ removeEventListener
 (
 eventName
 listener
-false
 )
 ;
 gActiveListeners
@@ -1595,7 +1593,6 @@ addEventListener
 (
 eventName
 listener
-false
 )
 ;
 }
@@ -1804,7 +1801,6 @@ removeEventListener
 popupshown
 "
 handle
-false
 )
 ;
 info
@@ -1865,7 +1861,6 @@ VK_RETURN
 )
 ;
 }
-false
 )
 ;
 info

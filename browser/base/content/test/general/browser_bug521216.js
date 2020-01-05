@@ -81,7 +81,6 @@ addEventListener
 TabOpen
 "
 TabOpen
-false
 )
 ;
 gBrowser
@@ -222,7 +221,6 @@ removeEventListener
 TabOpen
 "
 TabOpen
-false
 )
 ;
 finish

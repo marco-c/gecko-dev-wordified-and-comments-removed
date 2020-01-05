@@ -2789,7 +2789,6 @@ removeEventListener
 loadend
 "
 onLoadEnd
-false
 )
 ;
 if
@@ -2892,7 +2891,6 @@ addEventListener
 loadend
 "
 onLoadEnd
-false
 )
 ;
 fileReader

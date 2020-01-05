@@ -104,6 +104,5 @@ addEventListener
 load
 "
 wrapNode
-false
 )
 ;

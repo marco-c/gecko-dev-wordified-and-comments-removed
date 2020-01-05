@@ -328,7 +328,6 @@ unload
 this
 .
 onWindowUnload
-false
 )
 ;
 DownloadsCommon
@@ -521,7 +520,6 @@ unload
 this
 .
 onWindowUnload
-false
 )
 ;
 this
@@ -1456,7 +1454,6 @@ addEventListener
 keydown
 "
 this
-false
 )
 ;
 this
@@ -1469,7 +1466,6 @@ addEventListener
 keypress
 "
 this
-false
 )
 ;
 this
@@ -1482,7 +1478,6 @@ addEventListener
 popupshown
 "
 this
-false
 )
 ;
 }
@@ -1500,7 +1495,6 @@ removeEventListener
 keydown
 "
 this
-false
 )
 ;
 this
@@ -1513,7 +1507,6 @@ removeEventListener
 keypress
 "
 this
-false
 )
 ;
 this
@@ -1526,7 +1519,6 @@ removeEventListener
 popupshown
 "
 this
-false
 )
 ;
 }

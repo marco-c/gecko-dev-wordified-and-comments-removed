@@ -22939,7 +22939,6 @@ updateHistoryWithCurrentHash
 ;
 }
 }
-false
 )
 ;
 function
@@ -23161,7 +23160,6 @@ removeEventListener
 beforeunload
 '
 pdfHistoryBeforeUnload
-false
 )
 ;
 }
@@ -23173,7 +23171,6 @@ addEventListener
 beforeunload
 '
 pdfHistoryBeforeUnload
-false
 )
 ;
 window
@@ -23197,11 +23194,9 @@ addEventListener
 beforeunload
 '
 pdfHistoryBeforeUnload
-false
 )
 ;
 }
-false
 )
 ;
 self
@@ -48990,7 +48985,6 @@ js
 response
 '
 listener
-false
 )
 ;
 return
@@ -49000,7 +48994,6 @@ response
 )
 ;
 }
-false
 )
 ;
 }

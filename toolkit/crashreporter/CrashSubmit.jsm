@@ -2200,7 +2200,6 @@ cleanup
 ;
 }
 }
-false
 )
 ;
 let

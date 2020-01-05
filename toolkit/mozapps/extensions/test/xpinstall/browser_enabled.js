@@ -57,7 +57,6 @@ removeEventListener
 PageLoaded
 "
 page_loaded
-false
 )
 ;
 resolve
@@ -99,7 +98,6 @@ addEventListener
 PageLoaded
 "
 page_loaded
-false
 )
 ;
 }

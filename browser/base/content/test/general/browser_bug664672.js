@@ -37,7 +37,6 @@ TabClose
 arguments
 .
 callee
-false
 )
 ;
 ok
@@ -89,7 +88,6 @@ finish
 )
 ;
 }
-false
 )
 ;
 gBrowser

@@ -2733,7 +2733,6 @@ createdEditor
 styleSheet
 ;
 }
-false
 )
 ;
 summary
@@ -2777,7 +2776,6 @@ focus
 ;
 }
 }
-false
 )
 ;
 let

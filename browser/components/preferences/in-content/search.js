@@ -208,7 +208,6 @@ addEventListener
 click
 "
 this
-false
 )
 ;
 window
@@ -219,7 +218,6 @@ addEventListener
 command
 "
 this
-false
 )
 ;
 window
@@ -230,7 +228,6 @@ addEventListener
 dragstart
 "
 this
-false
 )
 ;
 window
@@ -241,7 +238,6 @@ addEventListener
 keypress
 "
 this
-false
 )
 ;
 window
@@ -252,7 +248,6 @@ addEventListener
 select
 "
 this
-false
 )
 ;
 window

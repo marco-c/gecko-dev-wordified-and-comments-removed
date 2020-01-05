@@ -847,7 +847,6 @@ click
 this
 .
 _onMouseClick
-false
 )
 ;
 this
@@ -862,7 +861,6 @@ mousemove
 this
 .
 _onMouseMove
-false
 )
 ;
 this
@@ -877,7 +875,6 @@ mouseout
 this
 .
 _onMouseOut
-false
 )
 ;
 this
@@ -935,7 +932,6 @@ focus
 this
 .
 _onFocus
-false
 )
 ;
 this
@@ -7547,7 +7543,6 @@ click
 this
 .
 _onMouseClick
-false
 )
 ;
 this
@@ -7562,7 +7557,6 @@ mousemove
 this
 .
 _onMouseMove
-false
 )
 ;
 this
@@ -7577,7 +7571,6 @@ mouseout
 this
 .
 _onMouseOut
-false
 )
 ;
 this
@@ -7635,7 +7628,6 @@ focus
 this
 .
 _onFocus
-false
 )
 ;
 this

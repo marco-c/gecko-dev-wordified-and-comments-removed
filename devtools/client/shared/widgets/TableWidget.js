@@ -738,7 +738,6 @@ keydown
 this
 .
 onKeydown
-false
 )
 ;
 this
@@ -753,7 +752,6 @@ mousedown
 this
 .
 onMousedown
-false
 )
 ;
 }
@@ -2629,7 +2627,6 @@ keydown
 this
 .
 onKeydown
-false
 )
 ;
 this
@@ -2644,7 +2641,6 @@ mousedown
 this
 .
 onMousedown
-false
 )
 ;
 if
@@ -7210,7 +7206,6 @@ this
 id
 ;
 }
-false
 )
 ;
 }

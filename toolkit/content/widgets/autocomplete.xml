@@ -3536,7 +3536,6 @@ removeEventListener
 popupshowing
 "
 onShow
-false
 )
 ;
 }
@@ -3597,7 +3596,6 @@ removeEventListener
 popuphiding
 "
 onHide
-false
 )
 ;
 }
@@ -3609,7 +3607,6 @@ addEventListener
 popuphiding
 "
 onHide
-false
 )
 ;
 }
@@ -3623,7 +3620,6 @@ addEventListener
 popupshowing
 "
 onShow
-false
 )
 ;
 setTimeout

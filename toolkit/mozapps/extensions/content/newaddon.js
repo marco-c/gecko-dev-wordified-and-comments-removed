@@ -530,7 +530,6 @@ aAddon
 markAsSeen
 (
 )
-false
 )
 ;
 }

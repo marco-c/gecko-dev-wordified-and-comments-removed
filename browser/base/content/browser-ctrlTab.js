@@ -35,7 +35,6 @@ addEventListener
 TabSelect
 "
 this
-false
 )
 ;
 gBrowser
@@ -48,7 +47,6 @@ addEventListener
 SSTabRestored
 "
 this
-false
 )
 ;
 let
@@ -560,7 +558,6 @@ addEventListener
 popupshown
 "
 handler
-false
 )
 ;
 host
@@ -573,7 +570,6 @@ addEventListener
 popuphiding
 "
 handler
-false
 )
 ;
 host
@@ -627,7 +623,6 @@ type
 arguments
 .
 callee
-false
 )
 ;
 self

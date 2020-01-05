@@ -407,7 +407,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 waitForFocus
@@ -500,7 +499,6 @@ win
 )
 ;
 }
-false
 )
 ;
 return

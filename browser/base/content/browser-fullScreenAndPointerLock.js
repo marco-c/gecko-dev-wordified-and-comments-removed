@@ -1420,7 +1420,6 @@ mouseover
 this
 .
 _expandCallback
-false
 )
 ;
 this
@@ -1435,7 +1434,6 @@ dragenter
 this
 .
 _expandCallback
-false
 )
 ;
 }
@@ -1554,7 +1552,6 @@ keypress
 this
 .
 _keyToggleCallback
-false
 )
 ;
 document
@@ -1567,7 +1564,6 @@ popupshown
 this
 .
 _setPopupOpen
-false
 )
 ;
 document
@@ -1580,7 +1576,6 @@ popuphidden
 this
 .
 _setPopupOpen
-false
 )
 ;
 if
@@ -2108,7 +2103,6 @@ keypress
 this
 .
 _keyToggleCallback
-false
 )
 ;
 document
@@ -2121,7 +2115,6 @@ popupshown
 this
 .
 _setPopupOpen
-false
 )
 ;
 document
@@ -2134,7 +2127,6 @@ popuphidden
 this
 .
 _setPopupOpen
-false
 )
 ;
 }

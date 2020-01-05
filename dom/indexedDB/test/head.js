@@ -45,7 +45,6 @@ gActiveListeners
 [
 eventName
 ]
-false
 )
 ;
 delete
@@ -75,7 +74,6 @@ gActiveListeners
 [
 eventName
 ]
-false
 )
 ;
 }
@@ -96,7 +94,6 @@ gActiveListeners
 [
 eventName
 ]
-false
 )
 ;
 delete
@@ -130,7 +127,6 @@ gActiveListeners
 [
 eventName
 ]
-false
 )
 ;
 }

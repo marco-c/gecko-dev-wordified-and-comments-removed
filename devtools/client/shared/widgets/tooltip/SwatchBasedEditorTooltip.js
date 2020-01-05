@@ -504,7 +504,6 @@ click
 this
 .
 _onSwatchClick
-false
 )
 ;
 }
@@ -561,7 +560,6 @@ click
 this
 .
 _onSwatchClick
-false
 )
 ;
 this

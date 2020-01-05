@@ -182,7 +182,6 @@ removeEventListener
 load
 "
 onload
-false
 )
 ;
 Troubleshoot
@@ -258,7 +257,6 @@ stack
 ;
 }
 }
-false
 )
 ;
 var

@@ -231,7 +231,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -248,7 +247,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 }
@@ -298,7 +296,6 @@ popuphidden
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -315,7 +312,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 }

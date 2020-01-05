@@ -138,7 +138,6 @@ removeEventListener
 DOMContentLoaded
 "
 onDOMReady
-false
 )
 ;
 assert
@@ -178,7 +177,6 @@ addEventListener
 DOMContentLoaded
 "
 onDOMReady
-false
 )
 ;
 this

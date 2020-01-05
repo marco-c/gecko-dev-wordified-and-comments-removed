@@ -194,7 +194,6 @@ keydown
 this
 .
 onKeyDown
-false
 )
 ;
 this
@@ -209,7 +208,6 @@ keyup
 this
 .
 onKeyUp
-false
 )
 ;
 this
@@ -273,7 +271,6 @@ mouseup
 this
 .
 onMouseUp
-false
 )
 ;
 if
@@ -431,7 +428,6 @@ resize
 this
 .
 onWindowResize
-false
 )
 ;
 this
@@ -496,7 +492,6 @@ resize
 this
 .
 onWindowResize
-false
 )
 ;
 this
@@ -563,7 +558,6 @@ mouseup
 this
 .
 onMouseUp
-false
 )
 ;
 this
@@ -578,7 +572,6 @@ keydown
 this
 .
 onKeyDown
-false
 )
 ;
 this
@@ -593,7 +586,6 @@ keyup
 this
 .
 onKeyUp
-false
 )
 ;
 this

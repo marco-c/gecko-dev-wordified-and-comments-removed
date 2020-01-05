@@ -403,11 +403,9 @@ TabOpen
 arguments
 .
 callee
-false
 )
 ;
 }
-false
 )
 ;
 contextMenu

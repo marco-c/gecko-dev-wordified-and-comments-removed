@@ -328,7 +328,6 @@ removeEventListener
 DOMContentLoaded
 "
 handler
-false
 )
 ;
 resolve
@@ -336,7 +335,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 exports

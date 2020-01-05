@@ -1592,7 +1592,6 @@ topic
 this
 .
 onTab
-false
 )
 ;
 }
@@ -1606,7 +1605,6 @@ unload
 this
 .
 _unregisterListeners
-false
 )
 ;
 if
@@ -1672,7 +1670,6 @@ unload
 this
 .
 _unregisterListeners
-false
 )
 ;
 for
@@ -1693,7 +1690,6 @@ topic
 this
 .
 onTab
-false
 )
 ;
 }
@@ -1870,7 +1866,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 this
@@ -1890,7 +1885,6 @@ addEventListener
 load
 "
 onLoad
-false
 )
 ;
 break

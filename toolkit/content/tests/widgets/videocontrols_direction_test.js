@@ -195,7 +195,6 @@ suspend
 arguments
 .
 callee
-false
 )
 ;
 setTimeout
@@ -216,7 +215,6 @@ callback
 )
 ;
 }
-false
 )
 ;
 m
@@ -233,7 +231,6 @@ source
 )
 ;
 }
-false
 )
 ;
 window

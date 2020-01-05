@@ -143,7 +143,6 @@ addEventListener
 loadedmetadata
 "
 onLoadedMetadata
-false
 )
 ;
 }

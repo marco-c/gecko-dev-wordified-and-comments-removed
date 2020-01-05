@@ -462,7 +462,6 @@ addEventListener
 load
 '
 onload
-false
 )
 ;
 ifr

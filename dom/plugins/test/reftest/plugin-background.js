@@ -185,7 +185,6 @@ removeEventListener
 MozReftestInvalidate
 "
 start
-false
 )
 ;
 window
@@ -196,7 +195,6 @@ addEventListener
 MozAfterPaint
 "
 step
-false
 )
 ;
 window
@@ -207,7 +205,6 @@ addEventListener
 MozPaintWaitFinished
 "
 step
-false
 )
 ;
 initialFrame
@@ -285,7 +282,6 @@ removeEventListener
 MozAfterPaint
 "
 step
-false
 )
 ;
 window
@@ -296,7 +292,6 @@ removeEventListener
 MozPaintWaitFinished
 "
 step
-false
 )
 ;
 return
@@ -462,6 +457,5 @@ addEventListener
 MozReftestInvalidate
 "
 start
-false
 )
 ;

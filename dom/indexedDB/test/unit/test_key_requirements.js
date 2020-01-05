@@ -92,7 +92,6 @@ preventDefault
 )
 ;
 }
-false
 )
 ;
 let

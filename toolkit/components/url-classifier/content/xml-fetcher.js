@@ -291,7 +291,6 @@ self
 )
 ;
 }
-false
 )
 ;
 this

@@ -476,7 +476,6 @@ false
 ;
 }
 }
-false
 )
 ;
 }
@@ -825,7 +824,6 @@ activeSummary
 aSummary
 ;
 }
-false
 )
 ;
 this

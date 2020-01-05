@@ -4280,7 +4280,6 @@ removeEventListener
 load
 "
 onload
-false
 )
 ;
 if
@@ -4321,7 +4320,6 @@ onload
 )
 ;
 }
-false
 )
 ;
 win
@@ -4358,7 +4356,6 @@ removeEventListener
 unload
 "
 onunload
-false
 )
 ;
 return
@@ -4379,7 +4376,6 @@ removeEventListener
 unload
 "
 onunload
-false
 )
 ;
 wh
@@ -4429,7 +4425,6 @@ _resolveClosed
 )
 ;
 }
-false
 )
 ;
 }

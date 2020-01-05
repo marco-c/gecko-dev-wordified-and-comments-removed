@@ -397,7 +397,6 @@ addEventListener
 ended
 "
 onEnded
-false
 )
 ;
 v
@@ -408,7 +407,6 @@ addEventListener
 loadedmetadata
 "
 onLoadedMetadata
-false
 )
 ;
 v
@@ -419,7 +417,6 @@ addEventListener
 seeked
 "
 onSeeked
-false
 )
 ;
 v
@@ -430,7 +427,6 @@ addEventListener
 pause
 "
 onPause
-false
 )
 ;
 v
@@ -441,7 +437,6 @@ addEventListener
 timeupdate
 "
 onTimeUpdate
-false
 )
 ;
 }

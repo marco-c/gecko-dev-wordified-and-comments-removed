@@ -2114,7 +2114,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 if
@@ -2198,7 +2197,6 @@ addEventListener
 load
 "
 onLoad
-false
 )
 ;
 }

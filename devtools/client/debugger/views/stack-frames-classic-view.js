@@ -95,7 +95,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -161,7 +160,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 }

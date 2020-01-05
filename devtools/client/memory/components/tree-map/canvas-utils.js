@@ -454,7 +454,6 @@ addEventListener
 resize
 "
 debouncedResize
-false
 )
 ;
 resize
@@ -475,7 +474,6 @@ removeEventListener
 resize
 "
 debouncedResize
-false
 )
 ;
 }

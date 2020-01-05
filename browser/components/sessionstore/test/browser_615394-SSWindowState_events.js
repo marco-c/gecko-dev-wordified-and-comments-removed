@@ -704,7 +704,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -715,7 +714,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -728,7 +726,6 @@ removeEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 runNextTest
@@ -744,7 +741,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -755,7 +751,6 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -768,7 +763,6 @@ addEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 ss
@@ -939,7 +933,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -950,7 +943,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -963,7 +955,6 @@ removeEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 runNextTest
@@ -979,7 +970,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -990,7 +980,6 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -1003,7 +992,6 @@ addEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 newTab
@@ -1170,7 +1158,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -1181,7 +1168,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -1194,7 +1180,6 @@ removeEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 runNextTest
@@ -1210,7 +1195,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -1221,7 +1205,6 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -1234,7 +1217,6 @@ addEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 gBrowser
@@ -1490,7 +1472,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -1501,7 +1482,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -1514,7 +1494,6 @@ removeEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 runNextTest
@@ -1530,7 +1509,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -1541,7 +1519,6 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 gBrowser
@@ -1554,7 +1531,6 @@ addEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 ss
@@ -1653,7 +1629,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 Services
@@ -1690,7 +1665,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 newWindow
@@ -1701,11 +1675,9 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 }
-false
 )
 ;
 }
@@ -1760,7 +1732,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -1771,7 +1742,6 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 Services
@@ -1889,7 +1859,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 window
@@ -1900,7 +1869,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 newWindow
@@ -1911,7 +1879,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 newWindow
@@ -1922,7 +1889,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 runNextTest
@@ -2029,7 +1995,6 @@ addEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 reopenedWindow
@@ -2040,7 +2005,6 @@ addEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 reopenedWindow
@@ -2064,7 +2028,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 reopenedWindow
@@ -2079,11 +2042,9 @@ addEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 }
-false
 )
 ;
 }
@@ -2161,7 +2122,6 @@ removeEventListener
 SSWindowStateBusy
 "
 onSSWindowStateBusy
-false
 )
 ;
 reopenedWindow
@@ -2172,7 +2132,6 @@ removeEventListener
 SSWindowStateReady
 "
 onSSWindowStateReady
-false
 )
 ;
 reopenedWindow
@@ -2187,7 +2146,6 @@ removeEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 BrowserTestUtils

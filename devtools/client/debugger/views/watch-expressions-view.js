@@ -211,7 +211,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 this
@@ -261,7 +260,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 }
@@ -796,7 +794,6 @@ click
 this
 .
 _onClose
-false
 )
 ;
 inputNode
@@ -809,7 +806,6 @@ blur
 this
 .
 _onBlur
-false
 )
 ;
 inputNode
@@ -822,7 +818,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 container

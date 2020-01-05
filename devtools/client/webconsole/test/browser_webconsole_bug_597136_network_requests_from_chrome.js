@@ -120,7 +120,6 @@ addEventListener
 load
 "
 xhrComplete
-false
 )
 ;
 xhr
@@ -155,7 +154,6 @@ removeEventListener
 load
 "
 xhrComplete
-false
 )
 ;
 window

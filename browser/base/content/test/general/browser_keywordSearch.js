@@ -160,7 +160,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 win
@@ -170,7 +169,6 @@ close
 )
 ;
 }
-false
 )
 ;
 executeSoon

@@ -404,7 +404,6 @@ removeEventListener
 load
 "
 TEST_ww_onLoad
-false
 )
 ;
 is
@@ -432,7 +431,6 @@ close
 )
 ;
 }
-false
 )
 ;
 }

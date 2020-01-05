@@ -1029,7 +1029,6 @@ stopPropagation
 )
 ;
 }
-false
 )
 ;
 this
@@ -1123,7 +1122,6 @@ click
 ;
 }
 }
-false
 )
 ;
 editableField
@@ -1198,7 +1196,6 @@ this
 .
 cssProperties
 )
-false
 )
 ;
 this
@@ -1245,7 +1242,6 @@ click
 ;
 }
 }
-false
 )
 ;
 this
@@ -1352,7 +1348,6 @@ clickedEl
 ;
 }
 }
-false
 )
 ;
 this
@@ -1383,7 +1378,6 @@ _hasPendingClick
 false
 ;
 }
-false
 )
 ;
 this
@@ -1449,7 +1443,6 @@ tab
 ;
 }
 }
-false
 )
 ;
 editableField

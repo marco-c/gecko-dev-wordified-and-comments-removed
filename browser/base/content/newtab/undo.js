@@ -47,7 +47,6 @@ addEventListener
 click
 "
 this
-false
 )
 ;
 this

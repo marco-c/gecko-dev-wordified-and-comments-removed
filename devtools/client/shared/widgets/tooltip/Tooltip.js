@@ -309,7 +309,6 @@ _onPopup
 +
 eventName
 ]
-false
 )
 ;
 }
@@ -410,7 +409,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 this
@@ -738,7 +736,6 @@ _onPopup
 +
 eventName
 ]
-false
 )
 ;
 }
@@ -766,7 +763,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 for

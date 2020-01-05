@@ -4309,7 +4309,6 @@ dblclick
 this
 .
 onMatchedToggle
-false
 )
 ;
 this
@@ -4506,7 +4505,6 @@ click
 this
 .
 onMatchedToggle
-false
 )
 ;
 nameContainer
@@ -4624,7 +4622,6 @@ click
 this
 .
 onFocus
-false
 )
 ;
 nameContainer
@@ -4744,7 +4741,6 @@ click
 this
 .
 onFocus
-false
 )
 ;
 valueContainer
@@ -5410,7 +5406,6 @@ click
 selector
 .
 openStyleEditor
-false
 )
 ;
 let
@@ -5774,7 +5769,6 @@ dblclick
 this
 .
 onMatchedToggle
-false
 )
 ;
 this
@@ -5803,7 +5797,6 @@ click
 this
 .
 onMatchedToggle
-false
 )
 ;
 this
@@ -5824,7 +5817,6 @@ click
 this
 .
 onFocus
-false
 )
 ;
 this
@@ -5845,7 +5837,6 @@ click
 this
 .
 onFocus
-false
 )
 ;
 this

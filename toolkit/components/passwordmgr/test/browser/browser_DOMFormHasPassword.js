@@ -135,7 +135,6 @@ addEventListener
 DOMFormHasPassword
 "
 unexpectedContentEvent
-false
 )
 ;
 gDoc
@@ -496,7 +495,6 @@ removeEventListener
 DOMFormHasPassword
 "
 unexpectedContentEvent
-false
 )
 ;
 resolve

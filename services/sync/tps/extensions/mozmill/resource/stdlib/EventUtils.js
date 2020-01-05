@@ -2847,7 +2847,6 @@ addEventListener
 (
 type
 eventHandler
-false
 )
 ;
 return
@@ -2905,7 +2904,6 @@ removeEventListener
 (
 type
 aEventHandler
-false
 )
 ;
 var

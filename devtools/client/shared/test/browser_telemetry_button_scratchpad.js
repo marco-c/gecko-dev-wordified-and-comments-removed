@@ -255,7 +255,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 if
@@ -360,7 +359,6 @@ resolve
 ;
 }
 }
-false
 )
 ;
 }

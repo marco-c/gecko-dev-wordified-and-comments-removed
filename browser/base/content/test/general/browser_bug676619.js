@@ -618,7 +618,6 @@ addEventListener
 TabOpen
 "
 this
-false
 )
 ;
 }
@@ -669,7 +668,6 @@ removeEventListener
 TabOpen
 "
 this
-false
 )
 ;
 this
@@ -720,7 +718,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 var
@@ -796,7 +793,6 @@ removeEventListener
 TabClose
 "
 this
-false
 )
 ;
 this

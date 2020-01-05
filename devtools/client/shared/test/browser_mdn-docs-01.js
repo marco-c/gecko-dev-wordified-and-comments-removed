@@ -697,7 +697,6 @@ addEventListener
 TabOpen
 "
 newTabListener
-false
 )
 ;
 info

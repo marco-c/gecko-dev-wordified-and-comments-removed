@@ -97,7 +97,6 @@ mousedown
 this
 .
 _onToggle
-false
 )
 ;
 }

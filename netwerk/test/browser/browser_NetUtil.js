@@ -447,7 +447,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 if
@@ -484,7 +483,6 @@ domwindow
 )
 ;
 }
-false
 )
 ;
 }

@@ -80,7 +80,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 doTest
@@ -88,7 +87,6 @@ doTest
 )
 ;
 }
-false
 )
 ;
 function
@@ -124,7 +122,6 @@ removeEventListener
 load
 "
 testCheckbox
-false
 )
 ;
 Services
@@ -289,7 +286,6 @@ addEventListener
 load
 "
 testCheckbox
-false
 )
 ;
 }

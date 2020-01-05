@@ -40,7 +40,6 @@ DOMLinkAdded
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -49,7 +48,6 @@ aResultFunc
 )
 ;
 }
-false
 )
 ;
 }

@@ -449,7 +449,6 @@ of
 +
 test
 )
-false
 )
 ;
 xhr

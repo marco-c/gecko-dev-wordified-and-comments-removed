@@ -838,7 +838,6 @@ addEventListener
 paste
 "
 this
-false
 )
 ;
 this
@@ -851,7 +850,6 @@ addEventListener
 mousedown
 "
 this
-false
 )
 ;
 this
@@ -864,7 +862,6 @@ addEventListener
 mousemove
 "
 this
-false
 )
 ;
 this
@@ -877,7 +874,6 @@ addEventListener
 mouseout
 "
 this
-false
 )
 ;
 this
@@ -890,7 +886,6 @@ addEventListener
 overflow
 "
 this
-false
 )
 ;
 this
@@ -903,7 +898,6 @@ addEventListener
 underflow
 "
 this
-false
 )
 ;
 var
@@ -1020,7 +1014,6 @@ true
 )
 ;
 }
-false
 )
 ;
 var
@@ -1234,7 +1227,6 @@ removeEventListener
 paste
 "
 this
-false
 )
 ;
 this
@@ -1247,7 +1239,6 @@ removeEventListener
 mousedown
 "
 this
-false
 )
 ;
 this
@@ -1260,7 +1251,6 @@ removeEventListener
 mousemove
 "
 this
-false
 )
 ;
 this
@@ -1273,7 +1263,6 @@ removeEventListener
 mouseout
 "
 this
-false
 )
 ;
 this
@@ -1286,7 +1275,6 @@ removeEventListener
 overflow
 "
 this
-false
 )
 ;
 this
@@ -1299,7 +1287,6 @@ removeEventListener
 underflow
 "
 this
-false
 )
 ;
 ]
@@ -16665,7 +16652,6 @@ addEventListener
 click
 "
 linkHandler
-false
 )
 ;
 }

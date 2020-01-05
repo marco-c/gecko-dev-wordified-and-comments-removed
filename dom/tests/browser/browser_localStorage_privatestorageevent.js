@@ -47,7 +47,6 @@ removeEventListener
 load
 '
 onLoad
-false
 )
 ;
 resolve
@@ -102,7 +101,6 @@ removeEventListener
 load
 '
 onLoad
-false
 )
 ;
 resolve

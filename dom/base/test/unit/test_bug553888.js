@@ -361,7 +361,6 @@ do_test_finished
 ;
 }
 }
-false
 )
 ;
 request

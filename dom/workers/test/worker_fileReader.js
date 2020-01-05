@@ -458,7 +458,6 @@ onloadHasRunText
 =
 true
 }
-false
 )
 ;
 r
@@ -476,7 +475,6 @@ onloadStartHasRunText
 =
 true
 }
-false
 )
 ;
 r
@@ -580,7 +578,6 @@ onloadHasRunBinary
 =
 true
 }
-false
 )
 ;
 r
@@ -598,7 +595,6 @@ onloadStartHasRunBinary
 =
 true
 }
-false
 )
 ;
 r
@@ -718,7 +714,6 @@ onloadHasRunArrayBuffer
 =
 true
 }
-false
 )
 ;
 r
@@ -736,7 +731,6 @@ onloadStartHasRunArrayBuffer
 =
 true
 }
-false
 )
 ;
 r
@@ -1303,7 +1297,6 @@ removeEventListener
 load
 "
 makeAnotherReadListener
-false
 )
 ;
 r
@@ -1340,7 +1333,6 @@ addEventListener
 load
 "
 makeAnotherReadListener
-false
 )
 ;
 r
@@ -1404,7 +1396,6 @@ removeEventListener
 load
 "
 makeAnotherReadListener2
-false
 )
 ;
 r
@@ -1441,7 +1432,6 @@ addEventListener
 load
 "
 makeAnotherReadListener2
-false
 )
 ;
 r
@@ -1509,7 +1499,6 @@ removeEventListener
 load
 "
 makeAnotherReadListener3
-false
 )
 ;
 r
@@ -1550,7 +1539,6 @@ addEventListener
 load
 "
 makeAnotherReadListener3
-false
 )
 ;
 r
@@ -1614,7 +1602,6 @@ removeEventListener
 load
 "
 makeAnotherReadListener4
-false
 )
 ;
 r
@@ -1651,7 +1638,6 @@ addEventListener
 load
 "
 makeAnotherReadListener4
-false
 )
 ;
 r
@@ -1715,7 +1701,6 @@ removeEventListener
 load
 "
 makeAnotherReadListener5
-false
 )
 ;
 r
@@ -1753,7 +1738,6 @@ addEventListener
 load
 "
 makeAnotherReadListener5
-false
 )
 ;
 r

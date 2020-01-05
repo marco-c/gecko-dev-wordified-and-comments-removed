@@ -1150,7 +1150,6 @@ popupshown
 SinglePanelManager
 .
 onVisiblePanelShown
-false
 )
 ;
 SinglePanelManager
@@ -1288,7 +1287,6 @@ popupshown
 SinglePanelManager
 .
 onVisiblePanelShown
-false
 )
 ;
 let

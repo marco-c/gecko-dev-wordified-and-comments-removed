@@ -149,7 +149,6 @@ removeEventListener
 TabClose
 "
 onTabClose
-false
 )
 ;
 is
@@ -211,7 +210,6 @@ removeEventListener
 TabSelect
 "
 onTabSelect
-false
 )
 ;
 is
@@ -265,7 +263,6 @@ addEventListener
 TabClose
 "
 onTabClose
-false
 )
 ;
 gBrowser
@@ -278,7 +275,6 @@ addEventListener
 TabSelect
 "
 onTabSelect
-false
 )
 ;
 EventUtils

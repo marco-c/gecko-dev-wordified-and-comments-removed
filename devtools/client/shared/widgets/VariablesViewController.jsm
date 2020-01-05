@@ -2496,7 +2496,6 @@ mouseover
 aTarget
 .
 onexpand
-false
 )
 ;
 }

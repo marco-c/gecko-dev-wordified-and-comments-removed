@@ -1057,7 +1057,6 @@ addEventListener
 load
 "
 trackListener
-false
 )
 ;
 audio
@@ -1068,7 +1067,6 @@ addEventListener
 canplaythrough
 "
 audioListener
-false
 )
 ;
 audioSource
@@ -1193,7 +1191,6 @@ addEventListener
 canplaythrough
 "
 listener
-false
 )
 ;
 video

@@ -1708,7 +1708,6 @@ removeEventListener
 TabOpen
 "
 tabOpener
-false
 )
 ;
 gBrowser
@@ -1751,7 +1750,6 @@ true
 )
 ;
 }
-false
 )
 ;
 }

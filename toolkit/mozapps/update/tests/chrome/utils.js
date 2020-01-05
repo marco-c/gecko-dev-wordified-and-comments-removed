@@ -615,7 +615,6 @@ removeEventListener
 load
 "
 WO_observe_onLoad
-false
 )
 ;
 if
@@ -734,11 +733,9 @@ addEventListener
 pageshow
 "
 onPageShowDefault
-false
 )
 ;
 }
-false
 )
 ;
 }
@@ -1019,7 +1016,6 @@ removeEventListener
 pageshow
 "
 onPageShowDefault
-false
 )
 ;
 }

@@ -3450,7 +3450,6 @@ Show
 )
 ;
 }
-false
 )
 ;
 window
@@ -3537,7 +3536,6 @@ tab
 ;
 }
 }
-false
 )
 ;
 NativeWindow
@@ -4160,7 +4158,6 @@ removeEventListener
 DOMContentLoaded
 "
 BrowserApp_delayedStartup
-false
 )
 ;
 InitLater
@@ -4461,7 +4458,6 @@ LoginManagerParent
 )
 ;
 }
-false
 )
 ;
 window
@@ -10689,7 +10685,6 @@ removeEventListener
 MozAfterPaint
 "
 paintDone
-false
 )
 ;
 if
@@ -10755,7 +10750,6 @@ removeEventListener
 resize
 "
 resizeWindow
-false
 )
 ;
 if
@@ -10773,7 +10767,6 @@ addEventListener
 MozAfterPaint
 "
 paintDone
-false
 )
 ;
 }
@@ -10795,7 +10788,6 @@ addEventListener
 resize
 "
 resizeWindow
-false
 )
 ;
 setTimeout
@@ -10821,7 +10813,6 @@ removeEventListener
 resize
 "
 resizeWindow
-false
 )
 ;
 dwu
@@ -14346,7 +14337,6 @@ show
 (
 e
 )
-false
 )
 ;
 }
@@ -18371,7 +18361,6 @@ addEventListener
 TabSelect
 "
 this
-false
 )
 ;
 this
@@ -18443,7 +18432,6 @@ removeEventListener
 TabSelect
 "
 this
-false
 )
 ;
 this
@@ -20584,7 +20572,6 @@ addEventListener
 DOMMetaAdded
 "
 this
-false
 )
 ;
 this
@@ -21360,7 +21347,6 @@ removeEventListener
 DOMMetaAdded
 "
 this
-false
 )
 ;
 this
@@ -26112,7 +26098,6 @@ DOMUpdatePageReport
 PopupBlockerObserver
 .
 onUpdatePageReport
-false
 )
 ;
 BrowserApp
@@ -27891,7 +27876,6 @@ addEventListener
 input
 "
 this
-false
 )
 ;
 BrowserApp
@@ -27904,7 +27888,6 @@ addEventListener
 pageshow
 "
 this
-false
 )
 ;
 }
@@ -38319,7 +38302,6 @@ addEventListener
 pageshow
 "
 this
-false
 )
 ;
 BrowserApp
@@ -38332,7 +38314,6 @@ addEventListener
 TabOpen
 "
 this
-false
 )
 ;
 }

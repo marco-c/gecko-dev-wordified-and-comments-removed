@@ -458,7 +458,6 @@ addEventListener
 dragover
 "
 this
-false
 )
 ;
 document
@@ -469,7 +468,6 @@ addEventListener
 drop
 "
 this
-false
 )
 ;
 #

@@ -215,7 +215,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 waitForFocus

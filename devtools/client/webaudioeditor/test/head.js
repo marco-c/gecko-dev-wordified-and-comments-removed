@@ -760,7 +760,6 @@ removeEventListener
 TabClose
 "
 onClose
-false
 )
 ;
 info
@@ -782,7 +781,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 targetBrowser

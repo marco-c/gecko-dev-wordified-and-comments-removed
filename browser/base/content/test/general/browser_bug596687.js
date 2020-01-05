@@ -44,7 +44,6 @@ addEventListener
 TabAttrModified
 "
 onTabAttrModified
-false
 )
 ;
 }
@@ -66,7 +65,6 @@ addEventListener
 TabClose
 "
 onTabClose
-false
 )
 ;
 yield
@@ -116,7 +114,6 @@ removeEventListener
 TabClose
 "
 onTabClose
-false
 )
 ;
 tab
@@ -127,7 +124,6 @@ removeEventListener
 TabAttrModified
 "
 onTabAttrModified
-false
 )
 ;
 }

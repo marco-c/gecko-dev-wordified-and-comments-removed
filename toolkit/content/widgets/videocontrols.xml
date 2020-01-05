@@ -13692,7 +13692,6 @@ addEventListener
 transitionend
 "
 this
-false
 )
 ;
 }
@@ -13730,7 +13729,6 @@ removeEventListener
 transitionend
 "
 this
-false
 )
 ;
 return
@@ -13784,7 +13782,6 @@ removeEventListener
 (
 event
 this
-false
 )
 ;
 }
@@ -14031,7 +14028,6 @@ showControls
 ;
 }
 }
-false
 )
 ;
 this
@@ -14056,7 +14052,6 @@ clearTimer
 )
 ;
 }
-false
 )
 ;
 this
@@ -14084,7 +14079,6 @@ controlsTimeout
 )
 ;
 }
-false
 )
 ;
 this
@@ -14112,7 +14106,6 @@ controlsTimeout
 )
 ;
 }
-false
 )
 ;
 this
@@ -14152,7 +14145,6 @@ startCasting
 )
 ;
 }
-false
 )
 ;
 this

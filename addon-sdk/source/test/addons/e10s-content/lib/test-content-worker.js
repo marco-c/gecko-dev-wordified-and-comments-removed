@@ -4947,7 +4947,6 @@ removeEventListener
 pagehide
 "
 onpagehide
-false
 )
 ;
 worker
@@ -5137,7 +5136,6 @@ goForward
 )
 ;
 }
-false
 )
 ;
 }

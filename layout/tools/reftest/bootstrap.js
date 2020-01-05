@@ -112,7 +112,6 @@ removeEventListener
 load
 "
 listener
-false
 )
 ;
 let
@@ -220,7 +219,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

@@ -31,6 +31,5 @@ close
 )
 ;
 }
-false
 )
 ;

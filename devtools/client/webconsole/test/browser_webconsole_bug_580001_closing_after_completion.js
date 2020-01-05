@@ -110,7 +110,6 @@ addEventListener
 error
 "
 errorListener
-false
 )
 ;
 hud
@@ -142,7 +141,6 @@ removeEventListener
 error
 "
 errorListener
-false
 )
 ;
 is

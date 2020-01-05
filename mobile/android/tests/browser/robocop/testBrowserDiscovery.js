@@ -68,7 +68,6 @@ removeEventListener
 DOMLinkAdded
 "
 linkAdded
-false
 )
 ;
 Services
@@ -94,7 +93,6 @@ DISPATCH_NORMAL
 )
 ;
 }
-false
 )
 ;
 }

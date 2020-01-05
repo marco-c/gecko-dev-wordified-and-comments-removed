@@ -319,7 +319,6 @@ check
 this
 .
 _onCheck
-false
 )
 ;
 this
@@ -334,7 +333,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 }
@@ -365,7 +363,6 @@ check
 this
 .
 _onCheck
-false
 )
 ;
 this
@@ -380,7 +377,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 }

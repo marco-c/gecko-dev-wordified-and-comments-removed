@@ -418,7 +418,6 @@ contentFrame
 )
 ;
 }
-false
 )
 ;
 frames

@@ -894,7 +894,6 @@ unload
 this
 .
 destroy
-false
 )
 ;
 this
@@ -1824,7 +1823,6 @@ unload
 this
 .
 destroy
-false
 )
 ;
 this

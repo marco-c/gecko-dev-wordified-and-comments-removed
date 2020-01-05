@@ -100,7 +100,6 @@ addEventListener
 mousedown
 "
 this
-false
 )
 ;
 }
@@ -528,7 +527,6 @@ addEventListener
 mousemove
 "
 this
-false
 )
 ;
 this
@@ -541,7 +539,6 @@ addEventListener
 mouseup
 "
 this
-false
 )
 ;
 break
@@ -626,7 +623,6 @@ removeEventListener
 mousemove
 "
 this
-false
 )
 ;
 this
@@ -639,7 +635,6 @@ removeEventListener
 mouseup
 "
 this
-false
 )
 ;
 }

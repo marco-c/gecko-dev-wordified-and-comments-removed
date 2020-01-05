@@ -561,7 +561,6 @@ addEventListener
 load
 "
 onpageloaded
-false
 )
 ;
 }

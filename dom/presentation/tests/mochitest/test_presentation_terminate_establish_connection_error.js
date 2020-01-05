@@ -570,7 +570,6 @@ receiverListener
 ;
 }
 }
-false
 )
 ;
 var

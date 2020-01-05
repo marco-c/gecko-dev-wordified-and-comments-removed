@@ -65,7 +65,6 @@ addEventListener
 mousedown
 "
 mouseFn
-false
 )
 ;
 synthesizeMouse
@@ -86,7 +85,6 @@ removeEventListener
 mousedown
 "
 mouseFn
-false
 )
 ;
 return

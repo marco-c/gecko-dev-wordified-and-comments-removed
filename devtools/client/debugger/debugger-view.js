@@ -646,7 +646,6 @@ resize
 this
 .
 _onResize
-false
 )
 ;
 this
@@ -1038,7 +1037,6 @@ resize
 this
 .
 _onResize
-false
 )
 ;
 }

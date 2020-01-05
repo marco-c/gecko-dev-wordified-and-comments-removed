@@ -366,7 +366,6 @@ addEventListener
 message
 "
 handleMessageEvents
-false
 )
 ;
 }

@@ -162,7 +162,6 @@ addEventListener
 message
 "
 listenFunc
-false
 )
 ;
 bc

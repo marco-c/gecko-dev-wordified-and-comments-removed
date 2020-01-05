@@ -624,7 +624,6 @@ removeEventListener
 DOMContentLoaded
 "
 onReady
-false
 )
 ;
 Services
@@ -705,7 +704,6 @@ addEventListener
 DOMContentLoaded
 "
 onReady
-false
 )
 ;
 }

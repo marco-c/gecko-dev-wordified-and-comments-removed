@@ -785,7 +785,6 @@ mouseup
 this
 .
 onResize
-false
 )
 ;
 window
@@ -798,7 +797,6 @@ resize
 this
 .
 onResize
-false
 )
 ;
 this
@@ -908,7 +906,6 @@ click
 this
 .
 sendCustomRequestEvent
-false
 )
 ;
 (
@@ -932,7 +929,6 @@ click
 this
 .
 closeCustomRequestEvent
-false
 )
 ;
 }
@@ -986,7 +982,6 @@ click
 this
 .
 sendCustomRequestEvent
-false
 )
 ;
 (
@@ -1010,7 +1005,6 @@ click
 this
 .
 closeCustomRequestEvent
-false
 )
 ;
 this
@@ -1025,7 +1019,6 @@ mouseup
 this
 .
 onResize
-false
 )
 ;
 window
@@ -1038,7 +1031,6 @@ resize
 this
 .
 onResize
-false
 )
 ;
 this

@@ -27,6 +27,5 @@ addEventListener
 load
 "
 onLoad123
-false
 )
 ;

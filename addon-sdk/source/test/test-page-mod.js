@@ -3285,7 +3285,6 @@ AUQLUE
 )
 ;
 }
-false
 )
 ;
 self
@@ -7529,7 +7528,6 @@ removeEventListener
 DOMContentLoaded
 '
 onload
-false
 )
 ;
 hiddenFrames
@@ -7565,7 +7563,6 @@ openBrowserIframe
 ;
 }
 }
-false
 )
 ;
 element
@@ -7654,7 +7651,6 @@ removeEventListener
 DOMContentLoaded
 '
 onload
-false
 )
 ;
 win
@@ -7668,7 +7664,6 @@ openBrowserIframe
 )
 ;
 }
-false
 )
 ;
 }
@@ -7782,7 +7777,6 @@ removeEventListener
 DOMContentLoaded
 '
 onload
-false
 )
 ;
 iframe
@@ -7799,7 +7793,6 @@ openTabWithIframes
 )
 ;
 }
-false
 )
 ;
 document
@@ -11332,7 +11325,6 @@ ok
 )
 ;
 }
-false
 )
 ;
 }

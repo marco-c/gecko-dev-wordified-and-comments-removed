@@ -373,7 +373,6 @@ input
 arguments
 .
 callee
-false
 )
 ;
 resolve
@@ -381,7 +380,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 gURLBar

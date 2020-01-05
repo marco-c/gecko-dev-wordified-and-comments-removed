@@ -95,7 +95,6 @@ removeEventListener
 popstate
 "
 onPopState
-false
 )
 ;
 sendAsyncMessage
@@ -119,7 +118,6 @@ href
 )
 ;
 }
-false
 )
 ;
 }

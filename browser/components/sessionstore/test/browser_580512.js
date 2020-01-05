@@ -434,7 +434,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -585,7 +584,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

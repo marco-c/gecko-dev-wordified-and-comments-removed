@@ -361,7 +361,6 @@ _showContextMenu
 (
 e
 )
-false
 )
 ;
 this
@@ -385,7 +384,6 @@ keyPress
 "
 e
 )
-false
 )
 ;
 this
@@ -409,7 +407,6 @@ mousePress
 "
 e
 )
-false
 )
 ;
 this
@@ -2828,7 +2825,6 @@ stopPropagation
 )
 ;
 }
-false
 )
 ;
 checkbox
@@ -2870,7 +2866,6 @@ checked
 )
 ;
 }
-false
 )
 ;
 aParentNode

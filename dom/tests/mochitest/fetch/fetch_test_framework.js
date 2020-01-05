@@ -624,7 +624,6 @@ msg
 ;
 }
 }
-false
 )
 ;
 worker

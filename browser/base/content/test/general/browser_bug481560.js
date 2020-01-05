@@ -63,7 +63,6 @@ addEventListener
 TabClose
 "
 onTabClose
-false
 )
 ;
 EventUtils
@@ -105,7 +104,6 @@ removeEventListener
 TabClose
 "
 onTabClose
-false
 )
 ;
 finish

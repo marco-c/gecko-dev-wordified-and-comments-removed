@@ -70,7 +70,6 @@ addEventListener
 (
 event
 unique_handler
-false
 )
 ;
 try
@@ -95,7 +94,6 @@ removeEventListener
 (
 event
 unique_handler
-false
 )
 }
 }

@@ -850,7 +850,6 @@ addEventListener
 load
 "
 onWindowLoaded
-false
 )
 ;
 }

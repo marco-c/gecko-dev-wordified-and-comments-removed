@@ -330,7 +330,6 @@ addEventListener
 resize
 "
 onResize
-false
 )
 ;
 }
@@ -409,7 +408,6 @@ removeEventListener
 resize
 "
 onResize
-false
 )
 ;
 removeEventListener

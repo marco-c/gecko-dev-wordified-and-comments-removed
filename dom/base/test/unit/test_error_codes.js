@@ -124,7 +124,6 @@ event
 )
 ;
 }
-false
 )
 ;
 request

@@ -278,7 +278,6 @@ removeEventListener
 DOMContentLoaded
 "
 DOMContentLoaded
-false
 )
 ;
 deferred
@@ -290,7 +289,6 @@ target
 ;
 }
 }
-false
 )
 ;
 return

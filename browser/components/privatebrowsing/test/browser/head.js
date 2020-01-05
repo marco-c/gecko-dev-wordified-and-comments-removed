@@ -221,7 +221,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 resolve
@@ -230,7 +229,6 @@ win
 )
 ;
 }
-false
 )
 ;
 return

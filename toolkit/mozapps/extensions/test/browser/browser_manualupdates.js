@@ -293,7 +293,6 @@ CategoryBadgeUpdated
 arguments
 .
 callee
-false
 )
 ;
 is
@@ -339,7 +338,6 @@ maybeRunNext
 )
 ;
 }
-false
 )
 ;
 gCategoryUtilities
@@ -834,7 +832,6 @@ RelNotesToggle
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -926,7 +923,6 @@ RelNotesToggle
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -1009,7 +1005,6 @@ RelNotesToggle
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -1079,7 +1074,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 EventUtils
@@ -1111,7 +1105,6 @@ visible
 )
 ;
 }
-false
 )
 ;
 EventUtils
@@ -1127,7 +1120,6 @@ gManagerWindow
 )
 ;
 }
-false
 )
 ;
 EventUtils
@@ -1201,7 +1193,6 @@ CategoryBadgeUpdated
 arguments
 .
 callee
-false
 )
 ;
 if
@@ -1218,7 +1209,6 @@ badgeUpdated
 true
 ;
 }
-false
 )
 ;
 var
@@ -1557,7 +1547,6 @@ CategoryBadgeUpdated
 arguments
 .
 callee
-false
 )
 ;
 is
@@ -1619,7 +1608,6 @@ CategoryBadgeUpdated
 arguments
 .
 callee
-false
 )
 ;
 is
@@ -1647,7 +1635,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 AddonManager
@@ -1679,7 +1666,6 @@ AUTOUPDATE_ENABLE
 )
 ;
 }
-false
 )
 ;
 gProvider

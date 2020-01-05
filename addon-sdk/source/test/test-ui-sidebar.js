@@ -1490,7 +1490,6 @@ addEventListener
 DOMWindowCreated
 '
 end
-false
 )
 ;
 }
@@ -1507,7 +1506,6 @@ removeEventListener
 DOMWindowCreated
 '
 end
-false
 )
 ;
 resolve
@@ -8049,7 +8047,6 @@ removeEventListener
 unload
 '
 onUnload
-false
 )
 ;
 resolve
@@ -8057,7 +8054,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 sidebar
@@ -8368,7 +8364,6 @@ removeEventListener
 unload
 '
 onUnload
-false
 )
 ;
 resolve
@@ -8376,7 +8371,6 @@ resolve
 )
 ;
 }
-false
 )
 ;
 loader

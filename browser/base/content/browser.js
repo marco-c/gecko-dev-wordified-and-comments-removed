@@ -2316,7 +2316,6 @@ addEventListener
 mouseout
 "
 this
-false
 )
 ;
 aEvent
@@ -2329,7 +2328,6 @@ addEventListener
 mouseup
 "
 this
-false
 )
 ;
 this
@@ -2592,7 +2590,6 @@ removeEventListener
 mouseout
 "
 this
-false
 )
 ;
 aButton
@@ -2603,7 +2600,6 @@ removeEventListener
 mouseup
 "
 this
-false
 )
 ;
 }
@@ -5719,7 +5715,6 @@ addEventListener
 DOMUpdatePageReport
 "
 gPopupBlockerObserver
-false
 )
 ;
 Services
@@ -7724,7 +7719,6 @@ addEventListener
 popupshowing
 "
 updateEditUIVisibility
-false
 )
 ;
 placesContext
@@ -7735,7 +7729,6 @@ addEventListener
 popuphiding
 "
 updateEditUIVisibility
-false
 )
 ;
 }
@@ -7817,7 +7810,6 @@ addEventListener
 mousemove
 "
 MousePosTracker
-false
 )
 ;
 window
@@ -7828,7 +7820,6 @@ addEventListener
 dragover
 "
 MousePosTracker
-false
 )
 ;
 gNavToolbox
@@ -13328,7 +13319,6 @@ addEventListener
 input
 "
 UpdatePageProxyState
-false
 )
 ;
 }
@@ -13351,7 +13341,6 @@ removeEventListener
 input
 "
 UpdatePageProxyState
-false
 )
 ;
 }
@@ -20261,7 +20250,6 @@ uri
 )
 ;
 }
-false
 )
 ;
 aParent
@@ -20284,7 +20272,6 @@ setOverLink
 )
 ;
 }
-false
 )
 ;
 aParent
@@ -24788,7 +24775,6 @@ addEventListener
 click
 "
 this
-false
 )
 ;
 this
@@ -24839,7 +24825,6 @@ removeEventListener
 click
 "
 this
-false
 )
 ;
 this
@@ -26895,7 +26880,6 @@ addEventListener
 command
 "
 onViewToolbarCommand
-false
 )
 ;
 }
@@ -40379,7 +40363,6 @@ addEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 aPopupMenu
@@ -40390,7 +40373,6 @@ addEventListener
 popuphiding
 "
 this
-false
 )
 ;
 gFxAccounts

@@ -1333,7 +1333,6 @@ MozAfterPaint
 this
 .
 handleMozAfterPaint
-false
 )
 ;
 currentBrowser
@@ -1346,7 +1345,6 @@ FakeMozAfterSizeChange
 this
 .
 handleMozAfterSizeChange
-false
 )
 ;
 this
@@ -1423,7 +1421,6 @@ MozAfterPaint
 this
 .
 handleMozAfterPaint
-false
 )
 ;
 browser
@@ -1436,7 +1433,6 @@ FakeMozAfterSizeChange
 this
 .
 handleMozAfterSizeChange
-false
 )
 ;
 if

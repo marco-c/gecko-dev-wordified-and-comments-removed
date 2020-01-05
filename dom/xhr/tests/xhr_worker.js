@@ -106,7 +106,6 @@ addEventListener
 load
 "
 onload
-false
 )
 ;
 xhr
@@ -117,7 +116,6 @@ removeEventListener
 load
 "
 onload
-false
 )
 ;
 if
@@ -309,7 +307,6 @@ addEventListener
 progress
 "
 onprogress
-false
 )
 ;
 xhr
@@ -325,7 +322,6 @@ event
 )
 {
 }
-false
 )
 ;
 xhr
@@ -341,7 +337,6 @@ event
 )
 {
 }
-false
 )
 ;
 xhr
@@ -401,7 +396,6 @@ event
 )
 {
 }
-false
 )
 ;
 upload
@@ -417,7 +411,6 @@ event
 )
 {
 }
-false
 )
 ;
 upload
@@ -433,7 +426,6 @@ event
 )
 {
 }
-false
 )
 ;
 upload
@@ -449,7 +441,6 @@ event
 )
 {
 }
-false
 )
 ;
 upload

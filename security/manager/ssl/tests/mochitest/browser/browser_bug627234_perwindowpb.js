@@ -134,7 +134,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 aCallback
@@ -143,7 +142,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

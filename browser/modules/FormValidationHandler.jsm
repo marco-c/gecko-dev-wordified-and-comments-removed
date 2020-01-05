@@ -404,7 +404,6 @@ removeEventListener
 FullZoomChange
 "
 this
-false
 )
 ;
 tabBrowser
@@ -417,7 +416,6 @@ removeEventListener
 TextZoomChange
 "
 this
-false
 )
 ;
 tabBrowser
@@ -430,7 +428,6 @@ removeEventListener
 ZoomChangeUsingMouseWheel
 "
 this
-false
 )
 ;
 this
@@ -629,7 +626,6 @@ addEventListener
 FullZoomChange
 "
 this
-false
 )
 ;
 tabBrowser
@@ -642,7 +638,6 @@ addEventListener
 TextZoomChange
 "
 this
-false
 )
 ;
 tabBrowser
@@ -655,7 +650,6 @@ addEventListener
 ZoomChangeUsingMouseWheel
 "
 this
-false
 )
 ;
 this

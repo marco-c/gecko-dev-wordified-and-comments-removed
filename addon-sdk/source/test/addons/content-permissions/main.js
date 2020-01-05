@@ -182,7 +182,6 @@ removeEventListener
 load
 "
 onload
-false
 )
 ;
 self
@@ -201,7 +200,6 @@ innerHTML
 )
 ;
 }
-false
 )
 ;
 iframe

@@ -227,7 +227,6 @@ addEventListener
 contextmenu
 "
 this
-false
 )
 ;
 document
@@ -254,7 +253,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -281,7 +279,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -308,7 +305,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -755,7 +751,6 @@ addEventListener
 popstate
 "
 onPopState
-false
 )
 ;
 AddonManager
@@ -2011,7 +2006,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -2038,7 +2032,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -2065,7 +2058,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -2092,7 +2084,6 @@ bind
 (
 this
 )
-false
 )
 ;
 document
@@ -2142,7 +2133,6 @@ addons
 )
 ;
 }
-false
 )
 ;
 }
@@ -4115,7 +4105,6 @@ addEventListener
 load
 "
 init
-false
 )
 ;
 window
@@ -4126,6 +4115,5 @@ addEventListener
 unload
 "
 uninit
-false
 )
 ;

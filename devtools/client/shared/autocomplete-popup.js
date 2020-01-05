@@ -450,7 +450,6 @@ click
 this
 .
 onClick
-false
 )
 ;
 this
@@ -861,7 +860,6 @@ click
 this
 .
 onClick
-false
 )
 ;
 if

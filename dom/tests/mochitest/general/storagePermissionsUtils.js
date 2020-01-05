@@ -276,7 +276,6 @@ addEventListener
 message
 '
 onMessage
-false
 )
 ;
 document

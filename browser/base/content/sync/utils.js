@@ -634,7 +634,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 let
@@ -759,7 +758,6 @@ iframe
 )
 ;
 }
-false
 )
 ;
 }

@@ -126,7 +126,6 @@ addEventListener
 TabShow
 "
 tabShowCallback
-false
 )
 ;
 let
@@ -155,7 +154,6 @@ removeEventListener
 TabShow
 "
 tabShowCallback
-false
 )
 ;
 ok

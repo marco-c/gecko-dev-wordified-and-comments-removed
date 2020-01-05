@@ -595,7 +595,6 @@ addEventListener
 (
 CAPTURE_LOGS_CONTENT_EVENT
 this
-false
 )
 ;
 SystemAppProxy
@@ -604,7 +603,6 @@ addEventListener
 (
 SCREEN_CHANGE_EVENT
 this
-false
 )
 ;
 Services
@@ -826,7 +824,6 @@ addEventListener
 (
 DEVICE_MOTION_EVENT
 this
-false
 )
 ;
 this
@@ -849,7 +846,6 @@ removeEventListener
 (
 DEVICE_MOTION_EVENT
 this
-false
 )
 ;
 this
@@ -1694,7 +1690,6 @@ removeEventListener
 (
 SCREEN_CHANGE_EVENT
 this
-false
 )
 ;
 Services

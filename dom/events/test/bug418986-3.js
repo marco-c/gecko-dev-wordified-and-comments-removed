@@ -294,7 +294,6 @@ handleEvent
 event
 prefVal
 )
-false
 )
 ;
 window

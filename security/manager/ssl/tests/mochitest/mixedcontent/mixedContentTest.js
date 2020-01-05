@@ -126,7 +126,6 @@ addEventListener
 message
 "
 onMessageReceived
-false
 )
 ;
 let
