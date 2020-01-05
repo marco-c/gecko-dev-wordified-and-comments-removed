@@ -35,15 +35,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 LoggingConstants

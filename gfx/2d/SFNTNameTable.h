@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -38,6 +29,11 @@ u16string
 .
 h
 "
+#
+include
+<
+functional
+>
 namespace
 mozilla
 {
@@ -58,6 +54,9 @@ int
 typedef
 Vector
 <
+std
+:
+:
 function
 <
 ENameDecoder

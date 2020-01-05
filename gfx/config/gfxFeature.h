@@ -7,6 +7,11 @@ mozilla_gfx_config_gfxFeature_h
 #
 include
 <
+functional
+>
+#
+include
+<
 stdint
 .
 h
@@ -24,15 +29,6 @@ include
 mozilla
 /
 Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Function
 .
 h
 "
@@ -366,7 +362,7 @@ aFailureId
 )
 ;
 typedef
-mozilla
+std
 :
 :
 function

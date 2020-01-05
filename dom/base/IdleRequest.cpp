@@ -10,15 +10,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h

@@ -28,15 +28,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h
@@ -130,6 +121,11 @@ h
 include
 <
 deque
+>
+#
+include
+<
+functional
 >
 #
 include
@@ -366,7 +362,7 @@ abort
 void
 PeekMessages
 (
-mozilla
+std
 :
 :
 function

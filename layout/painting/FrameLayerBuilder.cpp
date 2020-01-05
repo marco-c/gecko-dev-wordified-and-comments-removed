@@ -362,6 +362,11 @@ include
 <
 algorithm
 >
+#
+include
+<
+functional
+>
 using
 namespace
 mozilla
@@ -3721,7 +3726,7 @@ const
 MaskLayerKey
 &
 aKey
-mozilla
+std
 :
 :
 function
@@ -7486,7 +7491,7 @@ const
 MaskLayerKey
 &
 aKey
-mozilla
+std
 :
 :
 function

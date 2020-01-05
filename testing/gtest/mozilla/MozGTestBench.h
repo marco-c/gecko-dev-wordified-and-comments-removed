@@ -6,13 +6,9 @@ define
 GTEST_MOZGTESTBENCH_H
 #
 include
-"
-mozilla
-/
-Function
-.
-h
-"
+<
+functional
+>
 namespace
 mozilla
 {
@@ -28,7 +24,7 @@ char
 *
 aName
 const
-mozilla
+std
 :
 :
 function

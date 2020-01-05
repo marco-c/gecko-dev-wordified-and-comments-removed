@@ -140,9 +140,6 @@ TestFastBernoulliTrial
 TestFloatingPoint
 '
 '
-TestFunction
-'
-'
 TestIntegerPrintfMacros
 '
 '

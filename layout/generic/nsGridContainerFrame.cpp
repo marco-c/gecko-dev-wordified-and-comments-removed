@@ -13,6 +13,11 @@ algorithm
 #
 include
 <
+functional
+>
+#
+include
+<
 limits
 >
 #
@@ -32,15 +37,6 @@ mozilla
 dom
 /
 GridBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Function
 .
 h
 "
@@ -6654,6 +6650,9 @@ mBase
 using
 FitContentClamper
 =
+std
+:
+:
 function
 <
 bool

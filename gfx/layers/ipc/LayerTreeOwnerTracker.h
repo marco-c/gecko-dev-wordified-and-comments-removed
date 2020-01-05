@@ -24,13 +24,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-Function
-.
-h
-"
+<
+functional
+>
 #
 include
 <
@@ -113,6 +109,9 @@ aProcessId
 void
 Iterate
 (
+std
+:
+:
 function
 <
 void

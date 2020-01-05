@@ -6,6 +6,11 @@ define
 mozilla_gfx_config_gfxConfig_h
 #
 include
+<
+functional
+>
+#
+include
 "
 gfxFeature
 .
@@ -24,15 +29,6 @@ include
 mozilla
 /
 Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Function
 .
 h
 "
@@ -425,7 +421,7 @@ aMessage
 )
 ;
 typedef
-mozilla
+std
 :
 :
 function
@@ -458,7 +454,7 @@ aCallback
 )
 ;
 typedef
-mozilla
+std
 :
 :
 function

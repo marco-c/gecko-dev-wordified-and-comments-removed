@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mozalloc
 .
 h

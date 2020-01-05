@@ -2812,7 +2812,7 @@ RefreshAgents
 nsPIDOMWindowOuter
 *
 aWindow
-mozilla
+std
 :
 :
 function

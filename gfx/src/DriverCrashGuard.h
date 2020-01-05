@@ -34,13 +34,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-Function
-.
-h
-"
+<
+functional
+>
 #
 include
 <
@@ -142,7 +138,7 @@ Proxy
 }
 ;
 typedef
-mozilla
+std
 :
 :
 function

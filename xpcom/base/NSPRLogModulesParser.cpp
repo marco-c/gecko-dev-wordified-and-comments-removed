@@ -44,6 +44,9 @@ const
 char
 *
 aLogModules
+std
+:
+:
 function
 <
 void

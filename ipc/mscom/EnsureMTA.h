@@ -34,15 +34,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 COMApartmentRegion

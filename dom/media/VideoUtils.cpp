@@ -35,15 +35,6 @@ h
 #
 include
 "
-mozilla
-/
-Function
-.
-h
-"
-#
-include
-"
 MediaContentType
 .
 h
@@ -155,6 +146,11 @@ nsContentTypeParser
 .
 h
 "
+#
+include
+<
+functional
+>
 #
 include
 <

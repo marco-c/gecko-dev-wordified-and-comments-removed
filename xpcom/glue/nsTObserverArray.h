@@ -27,6 +27,11 @@ nsCycleCollectionNoteChild
 .
 h
 "
+#
+include
+<
+functional
+>
 class
 nsTObserverArray_base
 {
@@ -614,7 +619,7 @@ true
 void
 RemoveElementsBy
 (
-mozilla
+std
 :
 :
 function

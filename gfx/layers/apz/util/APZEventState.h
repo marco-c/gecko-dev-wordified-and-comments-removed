@@ -39,15 +39,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 GeckoContentController
@@ -84,6 +75,11 @@ nsIWeakReferenceUtils
 .
 h
 "
+#
+include
+<
+functional
+>
 template
 <
 class
@@ -110,6 +106,9 @@ class
 ActiveElementManager
 ;
 typedef
+std
+:
+:
 function
 <
 void

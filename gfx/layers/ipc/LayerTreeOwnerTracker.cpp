@@ -50,6 +50,11 @@ h
 #
 include
 <
+functional
+>
+#
+include
+<
 utility
 >
 namespace
@@ -254,6 +259,9 @@ LayerTreeOwnerTracker
 :
 Iterate
 (
+std
+:
+:
 function
 <
 void

@@ -5,6 +5,11 @@ algorithm
 >
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
@@ -27,15 +32,6 @@ include
 mozilla
 /
 DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Function
 .
 h
 "
@@ -550,6 +546,9 @@ static
 void
 SetImageRequest
 (
+std
+:
+:
 function
 <
 void
@@ -597,6 +596,9 @@ static
 void
 SetStyleImageRequest
 (
+std
+:
+:
 function
 <
 void
