@@ -2288,6 +2288,11 @@ PrefsHelper
 java
 '
 '
+ScreenManagerHelper
+.
+java
+'
+'
 sqlite
 /
 ByteBufferInputStream
@@ -5019,11 +5024,6 @@ java
 restrictions
 /
 Restrictions
-.
-java
-'
-'
-ScreenManagerHelper
 .
 java
 '
