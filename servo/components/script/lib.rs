@@ -230,7 +230,7 @@ canvas
 ;
 extern
 crate
-profile
+profile_traits
 ;
 extern
 crate

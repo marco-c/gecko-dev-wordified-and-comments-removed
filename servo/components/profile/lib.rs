@@ -112,6 +112,14 @@ libc
 ;
 #
 [
+macro_use
+]
+extern
+crate
+profile_traits
+;
+#
+[
 cfg
 (
 target_os
@@ -151,10 +159,6 @@ std_time
 extern
 crate
 util
-;
-extern
-crate
-url
 ;
 pub
 mod

@@ -44,7 +44,7 @@ WindowSizeData
 }
 ;
 use
-profile
+profile_traits
 :
 :
 mem

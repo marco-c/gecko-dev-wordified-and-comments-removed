@@ -190,7 +190,7 @@ constellation_msg
 PipelineExitType
 ;
 use
-profile
+profile_traits
 :
 :
 time

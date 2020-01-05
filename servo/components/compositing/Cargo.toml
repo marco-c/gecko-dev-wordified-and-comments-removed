@@ -108,7 +108,7 @@ net
 [
 dependencies
 .
-profile
+profile_traits
 ]
 path
 =
@@ -116,7 +116,7 @@ path
 .
 .
 /
-profile
+profile_traits
 "
 [
 dependencies

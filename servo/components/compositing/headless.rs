@@ -56,13 +56,13 @@ WindowSizeData
 }
 ;
 use
-profile
+profile_traits
 :
 :
 mem
 ;
 use
-profile
+profile_traits
 :
 :
 time

@@ -12,7 +12,7 @@ msg
 ;
 extern
 crate
-profile
+profile_traits
 ;
 extern
 crate
@@ -59,13 +59,13 @@ PipelineExitType
 }
 ;
 use
-profile
+profile_traits
 :
 :
 mem
 ;
 use
-profile
+profile_traits
 :
 :
 time
