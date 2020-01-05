@@ -6557,7 +6557,9 @@ len
 ;
 \
 return
-true
+!
+!
+res
 ;
 \
 }
@@ -6571,7 +6573,7 @@ CHECK_TYPED_ARRAY_CONSTRUCTOR
 undef
 CHECK_TYPED_ARRAY_CONSTRUCTOR
 return
-false
+true
 ;
 }
 static
