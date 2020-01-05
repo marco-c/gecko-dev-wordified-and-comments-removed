@@ -275,7 +275,6 @@ EGL_ANDROID_image_crop
 ANGLE_platform_angle
 ANGLE_platform_angle_d3d
 ANGLE_d3d_share_handle_client_buffer
-KHR_create_context
 Extensions_Max
 }
 ;
@@ -1416,6 +1415,19 @@ return
 IsExtensionSupported
 (
 ANGLE_surface_d3d_texture_2d_share_handle
+)
+;
+}
+bool
+HasRobustness
+(
+)
+const
+{
+return
+IsExtensionSupported
+(
+EXT_create_context_robustness
 )
 ;
 }

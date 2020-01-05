@@ -173,6 +173,14 @@ override
 ;
 virtual
 bool
+SupportsRobustness
+(
+)
+const
+override
+;
+virtual
+bool
 SwapBuffers
 (
 )
