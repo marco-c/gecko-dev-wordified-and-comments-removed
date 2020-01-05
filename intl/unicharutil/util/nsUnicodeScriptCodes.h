@@ -78,7 +78,13 @@ unsigned
 char
 mPairedBracketType
 :
-3
+2
+;
+unsigned
+char
+mEastAsianWidthFWH
+:
+1
 ;
 unsigned
 char
