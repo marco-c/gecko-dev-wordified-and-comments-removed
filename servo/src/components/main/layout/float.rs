@@ -74,7 +74,7 @@ float_context
 {
 FloatContext
 PlacementInfo
-FloatLeft
+FloatType
 }
 ;
 use
@@ -162,6 +162,9 @@ Point2D
 <
 Au
 >
+float_type
+:
+FloatType
 index
 :
 Option
@@ -179,6 +182,9 @@ new
 common
 :
 FlowData
+float_type
+:
+FloatType
 )
 -
 >
@@ -201,6 +207,9 @@ None
 index
 :
 None
+float_type
+:
+float_type
 rel_pos
 :
 Point2D
@@ -1407,7 +1416,9 @@ self
 containing_width
 f_type
 :
-FloatLeft
+self
+.
+float_type
 }
 ;
 self
