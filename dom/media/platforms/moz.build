@@ -142,13 +142,6 @@ h
 '
 wrappers
 /
-FuzzingWrapper
-.
-h
-'
-'
-wrappers
-/
 H264Converter
 .
 h
@@ -209,13 +202,6 @@ cpp
 '
 '
 PDMFactory
-.
-cpp
-'
-'
-wrappers
-/
-FuzzingWrapper
 .
 cpp
 '
