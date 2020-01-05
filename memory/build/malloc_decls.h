@@ -226,6 +226,11 @@ MALLOC_DECL_VOID
 jemalloc_free_dirty_pages
 void
 )
+MALLOC_DECL_VOID
+(
+jemalloc_thread_local_arena
+jemalloc_bool
+)
 #
 endif
 #

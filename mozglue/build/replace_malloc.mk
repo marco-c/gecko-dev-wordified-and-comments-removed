@@ -158,6 +158,12 @@ Wl
 U
 _replace_jemalloc_free_dirty_pages
 \
+-
+Wl
+-
+U
+_replace_jemalloc_thread_local_arena
+\
 (
 NULL
 )

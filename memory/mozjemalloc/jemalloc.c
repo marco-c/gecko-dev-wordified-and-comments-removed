@@ -11495,6 +11495,15 @@ size
 )
 ;
 }
+MOZ_JEMALLOC_API
+void
+jemalloc_thread_local_arena_impl
+(
+bool
+enabled
+)
+{
+}
 static
 inline
 arena_t

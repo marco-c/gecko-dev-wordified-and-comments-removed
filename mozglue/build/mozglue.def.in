@@ -140,6 +140,7 @@ _wcsdup
 wrap_wcsdup
 jemalloc_stats
 jemalloc_free_dirty_pages
+jemalloc_thread_local_arena
 ;
 A
 hack

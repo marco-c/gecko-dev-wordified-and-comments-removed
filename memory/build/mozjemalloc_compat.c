@@ -948,3 +948,12 @@ NULL
 )
 ;
 }
+MOZ_JEMALLOC_API
+void
+jemalloc_thread_local_arena_impl
+(
+jemalloc_bool
+enabled
+)
+{
+}

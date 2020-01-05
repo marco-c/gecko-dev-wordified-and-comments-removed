@@ -499,4 +499,12 @@ mozmem_jemalloc_impl
 jemalloc_free_dirty_pages
 )
 #
+define
+jemalloc_thread_local_arena_impl
+\
+mozmem_jemalloc_impl
+(
+jemalloc_thread_local_arena
+)
+#
 endif

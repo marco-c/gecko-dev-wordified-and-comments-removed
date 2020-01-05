@@ -2637,6 +2637,13 @@ URLMatchingFunction
 aURLMatchingFunction
 )
 ;
+void
+Gecko_SetJemallocThreadLocalArena
+(
+bool
+enabled
+)
+;
 #
 define
 SERVO_BINDING_FUNC
