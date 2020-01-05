@@ -956,14 +956,6 @@ requireBuiltInCerts
 "
 false
 ]
-[
-"
-extensions
-.
-webextPermissionPrompts
-"
-true
-]
 ]
 }
 )

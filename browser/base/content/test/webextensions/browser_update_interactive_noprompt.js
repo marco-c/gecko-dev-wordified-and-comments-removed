@@ -51,14 +51,6 @@ browser_webext_update
 .
 json
 ]
-[
-"
-extensions
-.
-webextPermissionPrompts
-"
-true
-]
 ]
 }
 )

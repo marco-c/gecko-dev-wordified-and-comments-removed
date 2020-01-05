@@ -246,6 +246,16 @@ pref
 "
 extensions
 .
+webextPermissionPrompts
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
 getAddons
 .
 cache
