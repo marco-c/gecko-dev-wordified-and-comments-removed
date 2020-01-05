@@ -363,8 +363,6 @@ i
 .
 color
 =
-ToWRColor
-(
 glyph_array
 .
 color
@@ -373,7 +371,6 @@ color
 .
 value
 (
-)
 )
 ;
 for
