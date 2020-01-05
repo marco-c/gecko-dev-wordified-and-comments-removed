@@ -2179,6 +2179,11 @@ line
 -
 height
 "
+inherited
+=
+"
+True
+"
 >
 #
 [
