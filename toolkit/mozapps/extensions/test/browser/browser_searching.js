@@ -3045,10 +3045,6 @@ addListener
 listener
 )
 ;
-promiseNotification
-(
-)
-;
 EventUtils
 .
 synthesizeMouseAtCenter
