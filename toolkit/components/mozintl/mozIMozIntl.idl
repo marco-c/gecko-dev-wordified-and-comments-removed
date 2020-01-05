@@ -129,5 +129,16 @@ jsval
 intlObject
 )
 ;
+[
+implicit_jscontext
+]
+void
+addGetDisplayNames
+(
+in
+jsval
+intlObject
+)
+;
 }
 ;
