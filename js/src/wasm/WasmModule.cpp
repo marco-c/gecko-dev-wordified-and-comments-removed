@@ -4807,6 +4807,12 @@ isDebuggee
 )
 |
 |
+metadata_
+-
+>
+debugEnabled
+|
+|
 !
 metadata_
 -
@@ -4817,6 +4823,7 @@ empty
 (
 )
 )
+{
 maybeBytecode
 =
 bytecode_
@@ -4825,6 +4832,7 @@ get
 (
 )
 ;
+}
 auto
 codeSegment
 =
