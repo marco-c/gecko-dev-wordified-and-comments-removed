@@ -114,12 +114,6 @@ ligatures
 causes
 a
 change
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
@@ -258,6 +252,12 @@ feature
 in
 style
 rule
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
