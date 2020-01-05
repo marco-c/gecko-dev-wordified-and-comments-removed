@@ -926,10 +926,6 @@ prefs
 ;
 let
 allowed
-;
-try
-{
-allowed
 =
 pb
 .
@@ -942,16 +938,6 @@ PREF_HANDLER_EXTERNAL_PREFIX
 "
 +
 aProtocol
-)
-;
-}
-catch
-(
-e
-)
-{
-allowed
-=
 pb
 .
 getBoolPref
@@ -963,8 +949,8 @@ PREF_HANDLER_EXTERNAL_PREFIX
 default
 "
 )
+)
 ;
-}
 if
 (
 !

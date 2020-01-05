@@ -894,10 +894,6 @@ arg
 {
 let
 delay
-;
-try
-{
-delay
 =
 Services
 .
@@ -910,12 +906,13 @@ osfile
 .
 reset_worker_delay
 "
+0
 )
 ;
-}
-catch
+if
 (
-e
+!
+delay
 )
 {
 return
