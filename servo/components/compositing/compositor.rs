@@ -2,6 +2,9 @@ use
 AnimationTickType
 ;
 use
+CompositionPipeline
+;
+use
 CompositorMsg
 as
 ConstellationMsg
@@ -300,12 +303,6 @@ constellation_msg
 WindowSizeData
 WindowSizeType
 }
-;
-use
-pipeline
-:
-:
-CompositionPipeline
 ;
 use
 profile_traits

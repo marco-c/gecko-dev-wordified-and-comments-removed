@@ -234,15 +234,6 @@ compositor_thread
 :
 InitialCompositorState
 ;
-use
-compositing
-:
-:
-pipeline
-:
-:
-UnprivilegedPipelineContent
-;
 #
 [
 cfg
@@ -297,6 +288,7 @@ constellation
 {
 Constellation
 InitialConstellationState
+UnprivilegedPipelineContent
 }
 ;
 #
