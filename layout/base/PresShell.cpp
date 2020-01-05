@@ -17621,7 +17621,7 @@ mFlushType
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 static
 const
 EnumeratedArray
@@ -40458,7 +40458,7 @@ parent
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 nsIURI
 *
 uri

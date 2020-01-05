@@ -825,7 +825,7 @@ DEBUG
 |
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 const
 char
@@ -1759,7 +1759,7 @@ kPrefLoggingDetails
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 Preferences
 :
 :
@@ -2032,7 +2032,7 @@ kPrefLoggingDetails
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 Preferences
 :
 :
@@ -4323,7 +4323,7 @@ DEBUG
 |
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 Preferences
 :
@@ -4338,7 +4338,7 @@ if
 !
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 if
 (

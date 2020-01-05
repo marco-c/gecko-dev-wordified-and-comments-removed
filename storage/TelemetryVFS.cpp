@@ -314,7 +314,7 @@ aId
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 &
 &
@@ -361,7 +361,7 @@ HistogramCount
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 &
 &
@@ -442,7 +442,7 @@ end
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 &
 &
@@ -531,7 +531,7 @@ id
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 &
 &

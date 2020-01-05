@@ -263,7 +263,7 @@ PRemoteSpellcheckEngineParent
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 class
 ProfileGatherer
 ;
@@ -4987,7 +4987,7 @@ mHangMonitorActor
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 RefPtr
 <
 mozilla

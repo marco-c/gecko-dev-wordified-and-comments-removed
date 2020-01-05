@@ -975,7 +975,7 @@ lwbrk
 xpt
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 BINPATH
 /
 components
@@ -1172,7 +1172,7 @@ prefetch
 xpt
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 BINPATH
 /
 components

@@ -43,7 +43,7 @@ ENABLE_TESTS
 =
 AppConstants
 .
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 ;
 function
 checkObjectStructure

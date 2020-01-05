@@ -6,7 +6,7 @@ define
 SHARED_LIBRARIES_H_
 #
 ifndef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 error
 This

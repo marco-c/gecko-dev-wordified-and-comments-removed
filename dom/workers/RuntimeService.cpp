@@ -12534,7 +12534,7 @@ NS_ERROR_FAILURE
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 PseudoStack
 *
 stack
@@ -12593,7 +12593,7 @@ CloseForCurrentThread
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 stack

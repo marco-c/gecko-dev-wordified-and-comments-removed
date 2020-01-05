@@ -444,7 +444,7 @@ Init
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 mPseudoStackHack
 =
 profiler_get_pseudo_stack
@@ -461,7 +461,7 @@ CleanUp
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 mPseudoStackHack
 =
 nullptr
@@ -473,7 +473,7 @@ private
 :
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 MOZ_INIT_OUTSIDE_CTOR
 PseudoStack
 *

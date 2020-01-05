@@ -502,7 +502,7 @@ h
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 #
 include
@@ -4064,7 +4064,7 @@ delay
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 static
 void
@@ -11370,7 +11370,7 @@ success
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 void
 TelemetryImpl
@@ -12476,7 +12476,7 @@ mModIndex
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 static
 bool
 CompareByPC
@@ -13146,7 +13146,7 @@ Frame
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 std
 :
 :
@@ -13455,7 +13455,7 @@ frame
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 for
 (
 unsigned
@@ -14407,7 +14407,7 @@ telemetryService
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 void
 RecordChromeHang

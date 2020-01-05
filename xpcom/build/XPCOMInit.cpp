@@ -4286,7 +4286,7 @@ created
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 PseudoStack

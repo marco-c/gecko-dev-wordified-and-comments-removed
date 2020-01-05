@@ -134,7 +134,7 @@ if
 !
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 #
 define
@@ -517,7 +517,7 @@ if
 !
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 inline
 void
@@ -861,7 +861,7 @@ args
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 #
 include

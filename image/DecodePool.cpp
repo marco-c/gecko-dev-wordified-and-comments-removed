@@ -653,7 +653,7 @@ thisThread
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 profiler_unregister_thread
 (
 )

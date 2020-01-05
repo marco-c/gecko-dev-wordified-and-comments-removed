@@ -1230,7 +1230,7 @@ lwbrk
 xpt
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 RESPATH
 /
 components
@@ -1436,7 +1436,7 @@ prefetch
 xpt
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 RESPATH
 /
 components
