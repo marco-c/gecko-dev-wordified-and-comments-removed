@@ -127,9 +127,6 @@ private
 IDSet
 mIDSet
 ;
-uint32_t
-mContentProcessID
-;
 }
 ;
 }

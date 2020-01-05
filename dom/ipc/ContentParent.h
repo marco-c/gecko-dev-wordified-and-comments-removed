@@ -1993,16 +1993,6 @@ aURI
 override
 ;
 virtual
-bool
-RecvGetA11yContentId
-(
-uint32_t
-*
-aContentId
-)
-override
-;
-virtual
 int32_t
 Pid
 (
