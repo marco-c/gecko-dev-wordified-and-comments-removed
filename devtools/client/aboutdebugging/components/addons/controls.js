@@ -480,6 +480,11 @@ onChange
 this
 .
 onEnableAddonDebuggingChange
+role
+:
+"
+checkbox
+"
 }
 )
 dom
