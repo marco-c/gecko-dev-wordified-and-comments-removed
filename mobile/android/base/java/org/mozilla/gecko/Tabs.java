@@ -1350,7 +1350,7 @@ tab
 )
 {
 return
-null
+tab
 ;
 }
 mSelectedTab
