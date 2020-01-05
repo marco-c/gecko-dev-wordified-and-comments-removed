@@ -33,7 +33,6 @@ data
 :
 {
 HAS_NEWLY_CONSTRUCTED_FLOW
-LayoutDataAccess
 LayoutDataWrapper
 }
 ;
@@ -216,7 +215,6 @@ wrapper
 {
 PostorderNodeMutTraversal
 PseudoElementType
-TLayoutNode
 ThreadSafeLayoutNode
 }
 ;

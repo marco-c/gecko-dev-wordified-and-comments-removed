@@ -40,10 +40,7 @@ use
 data
 :
 :
-{
-LayoutDataAccess
 LayoutDataWrapper
-}
 ;
 use
 traversal

@@ -74,7 +74,6 @@ wrapper
 :
 {
 LayoutNode
-TLayoutNode
 ThreadSafeLayoutNode
 }
 ;

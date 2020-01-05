@@ -38,10 +38,7 @@ use
 data
 :
 :
-{
-LayoutDataAccess
 LayoutDataWrapper
-}
 ;
 use
 display_list_builder
@@ -112,10 +109,7 @@ use
 wrapper
 :
 :
-{
 LayoutNode
-TLayoutNode
-}
 ;
 use
 azure
