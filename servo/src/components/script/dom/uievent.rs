@@ -20,10 +20,7 @@ bindings
 utils
 :
 :
-{
-DOMString
 Fallible
-}
 ;
 use
 dom
@@ -81,6 +78,15 @@ windowproxy
 :
 :
 WindowProxy
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

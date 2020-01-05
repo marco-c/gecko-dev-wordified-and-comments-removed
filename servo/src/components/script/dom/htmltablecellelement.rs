@@ -8,10 +8,7 @@ bindings
 utils
 :
 :
-{
-DOMString
 ErrorResult
-}
 ;
 use
 dom
@@ -39,6 +36,15 @@ htmlelement
 :
 :
 HTMLElement
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

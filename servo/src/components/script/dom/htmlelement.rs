@@ -21,9 +21,8 @@ utils
 :
 :
 {
-DOMString
-ErrorResult
 Fallible
+ErrorResult
 }
 ;
 use
@@ -83,6 +82,15 @@ servo_util
 :
 :
 namespace
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

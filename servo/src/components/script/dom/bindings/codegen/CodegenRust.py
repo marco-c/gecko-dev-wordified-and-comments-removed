@@ -41868,6 +41868,16 @@ AbstractEvent
 servo_util
 :
 :
+str
+:
+:
+DOMString
+'
+                          
+'
+servo_util
+:
+:
 vec
 :
 :

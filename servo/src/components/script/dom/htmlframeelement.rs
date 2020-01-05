@@ -20,10 +20,7 @@ bindings
 utils
 :
 :
-{
-DOMString
 ErrorResult
-}
 ;
 use
 dom
@@ -72,6 +69,15 @@ windowproxy
 :
 :
 WindowProxy
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

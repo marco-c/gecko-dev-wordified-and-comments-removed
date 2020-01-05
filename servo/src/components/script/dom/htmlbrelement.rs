@@ -20,10 +20,7 @@ bindings
 utils
 :
 :
-{
-DOMString
 ErrorResult
-}
 ;
 use
 dom
@@ -63,6 +60,15 @@ node
 AbstractNode
 Node
 }
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

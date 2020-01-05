@@ -11,8 +11,6 @@ utils
 {
 Reflectable
 Reflector
-DOMString
-Fallible
 }
 ;
 use
@@ -26,6 +24,7 @@ utils
 :
 :
 {
+Fallible
 InvalidState
 }
 ;
@@ -88,6 +87,15 @@ window
 :
 :
 Window
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 use
 std

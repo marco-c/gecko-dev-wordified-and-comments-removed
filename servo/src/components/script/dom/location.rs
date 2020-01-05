@@ -24,10 +24,7 @@ bindings
 utils
 :
 :
-{
-DOMString
 Fallible
-}
 ;
 use
 dom
@@ -49,6 +46,15 @@ window
 :
 :
 Window
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 use
 script_task
