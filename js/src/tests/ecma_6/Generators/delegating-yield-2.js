@@ -210,13 +210,9 @@ e
 )
 {
 return
-{
-value
-:
 e
 *
 2
-}
 ;
 }
 ;
@@ -229,8 +225,6 @@ throw
 (
 42
 )
-.
-value
 )
 ;
 assertIteratorDone
@@ -312,10 +306,10 @@ outer
 42
 )
 ;
-assertThrowsInstanceOf
+assertThrowsValue
 (
 outer_throw_42
-TypeError
+42
 )
 ;
 assertThrowsValue
@@ -363,13 +357,9 @@ e
 )
 {
 return
-{
-value
-:
 e
 *
 2
-}
 ;
 }
 assertEq
@@ -378,8 +368,6 @@ assertEq
 outer_throw_42
 (
 )
-.
-value
 )
 ;
 assertEq
@@ -388,8 +376,6 @@ assertEq
 outer_throw_42
 (
 )
-.
-value
 )
 ;
 assertEq
@@ -398,8 +384,6 @@ assertEq
 outer_throw_42
 (
 )
-.
-value
 )
 ;
 assertIteratorDone
@@ -443,8 +427,6 @@ assertEq
 outer_throw_42
 (
 )
-.
-value
 )
 ;
 assertEq
@@ -453,8 +435,6 @@ assertEq
 outer_throw_42
 (
 )
-.
-value
 )
 ;
 GeneratorObjectPrototype
