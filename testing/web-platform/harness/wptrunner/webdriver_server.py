@@ -406,6 +406,41 @@ format_exc
 )
 )
             
+if
+self
+.
+_proc
+.
+poll
+(
+)
+:
+                
+self
+.
+logger
+.
+error
+(
+"
+Webdriver
+server
+process
+exited
+with
+code
+%
+i
+"
+%
+                                  
+self
+.
+_proc
+.
+returncode
+)
+            
 raise
         
 if
@@ -920,8 +955,6 @@ marionette_port
 "
 -
 -
-webdriver
--
 host
 "
 self
@@ -930,8 +963,6 @@ host
                 
 "
 -
--
-webdriver
 -
 port
 "
