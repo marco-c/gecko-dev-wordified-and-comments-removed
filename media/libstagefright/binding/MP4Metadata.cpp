@@ -2108,6 +2108,8 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 llabs
 (
+int64_t
+(
 data
 .
 indices
@@ -2124,6 +2126,7 @@ i
 .
 start_composition
 )
+)
 <
 =
 1
@@ -2132,6 +2135,8 @@ start_composition
 MOZ_DIAGNOSTIC_ASSERT
 (
 llabs
+(
+int64_t
 (
 data
 .
@@ -2149,6 +2154,7 @@ i
 .
 end_composition
 )
+)
 <
 =
 1
@@ -2157,6 +2163,8 @@ end_composition
 MOZ_DIAGNOSTIC_ASSERT
 (
 llabs
+(
+int64_t
 (
 data
 .
@@ -2173,6 +2181,7 @@ i
 ]
 .
 start_decode
+)
 )
 <
 =
