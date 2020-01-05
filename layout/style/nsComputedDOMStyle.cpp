@@ -2987,7 +2987,7 @@ if
 mOuterFrame
 )
 {
-FrameType
+LayoutFrameType
 type
 =
 mOuterFrame
@@ -3002,7 +3002,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
