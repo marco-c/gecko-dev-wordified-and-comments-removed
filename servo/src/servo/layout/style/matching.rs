@@ -555,10 +555,7 @@ return
 true
 ;
 }
-Text
-(
-*
-)
+_
 =
 >
 {

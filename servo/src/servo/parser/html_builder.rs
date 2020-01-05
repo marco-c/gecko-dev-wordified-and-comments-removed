@@ -388,10 +388,7 @@ floor
 }
 }
 }
-Text
-(
-*
-)
+_
 =
 >
 {
@@ -405,8 +402,8 @@ up
 an
 attribute
 to
-a
-text
+an
+unstyleable
 node
 "
 }
