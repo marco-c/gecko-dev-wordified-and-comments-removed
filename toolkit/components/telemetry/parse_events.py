@@ -321,6 +321,7 @@ def
 check
 (
 self
+identifier
 key
 value
 )
@@ -363,6 +364,9 @@ _args
 raise
 ValueError
 "
+%
+s
+:
 failed
 type
 check
@@ -384,6 +388,7 @@ s
 \
                                   
 (
+identifier
 key
                                    
 nice_type_name
@@ -431,6 +436,9 @@ _kind
 raise
 ValueError
 "
+%
+s
+:
 failed
 type
 check
@@ -449,6 +457,7 @@ s
 \
                               
 (
+identifier
 key
                                
 nice_type_name
@@ -487,6 +496,9 @@ value
 raise
 ValueError
 "
+%
+s
+:
 failed
 check
 for
@@ -500,7 +512,10 @@ be
 empty
 "
 %
+(
+identifier
 key
+)
             
 for
 x
@@ -525,6 +540,9 @@ _args
 raise
 ValueError
 "
+%
+s
+:
 failed
 type
 check
@@ -546,6 +564,7 @@ s
 \
                                       
 (
+identifier
 key
                                        
 nice_type_name
@@ -591,6 +610,9 @@ keys
 raise
 ValueError
 "
+%
+s
+:
 failed
 check
 for
@@ -604,7 +626,10 @@ be
 empty
 "
 %
+(
+identifier
 key
+)
             
 for
 x
@@ -633,6 +658,9 @@ _args
 raise
 ValueError
 "
+%
+s
+:
 failed
 dict
 type
@@ -654,6 +682,7 @@ s
 \
                                       
 (
+identifier
 key
                                        
 nice_type_name
@@ -703,6 +732,9 @@ _args
 raise
 ValueError
 "
+%
+s
+:
 failed
 dict
 type
@@ -728,6 +760,7 @@ s
 \
                                       
 (
+identifier
 key
                                        
 nice_type_name
@@ -753,7 +786,8 @@ x
 def
 type_check_event_fields
 (
-category
+identifier
+name
 definition
 )
 :
@@ -925,7 +959,7 @@ missing_fields
 raise
 KeyError
 (
-category
+identifier
 +
 '
 -
@@ -975,7 +1009,7 @@ unknown_fields
 raise
 KeyError
 (
-category
+identifier
 +
 '
 -
@@ -1011,17 +1045,22 @@ k
 .
 check
 (
+identifier
 k
 v
 )
 def
 string_check
 (
-category
-field_name
+identifier
+field
 value
 min_length
+=
+1
 max_length
+=
+None
 regex
 =
 None
@@ -1029,6 +1068,53 @@ None
 :
     
 if
+len
+(
+value
+)
+<
+min_length
+:
+        
+raise
+ValueError
+(
+"
+%
+s
+:
+value
+'
+%
+s
+'
+for
+field
+%
+s
+is
+less
+than
+minimum
+length
+of
+%
+d
+"
+%
+\
+                         
+(
+identifier
+value
+field
+min_length
+)
+)
+    
+if
+max_length
+and
 len
 (
 value
@@ -1041,18 +1127,21 @@ raise
 ValueError
 (
 "
-Value
+%
+s
+:
+value
 '
 %
 s
 '
 for
+field
 %
 s
-in
-%
-s
-exceeds
+is
+greater
+than
 maximum
 length
 of
@@ -1063,9 +1152,9 @@ d
 \
                          
 (
+identifier
 value
-field_name
-category
+field
 max_length
 )
 )
@@ -1086,12 +1175,16 @@ value
 raise
 ValueError
 '
-String
-value
-for
 %
 s
-in
+:
+string
+value
+"
+%
+s
+"
+for
 %
 s
 is
@@ -1102,18 +1195,15 @@ pattern
 %
 s
 "
-:
-%
-s
 '
 %
 \
                           
 (
-field_name
-category
-regex
+identifier
 value
+field
+regex
 )
 class
 EventData
@@ -1142,12 +1232,6 @@ definition
 )
 :
         
-type_check_event_fields
-(
-category
-definition
-)
-        
 self
 .
 _category
@@ -1166,6 +1250,15 @@ _definition
 =
 definition
         
+type_check_event_fields
+(
+self
+.
+identifier
+name
+definition
+)
+        
 for
 method
 in
@@ -1176,13 +1269,25 @@ methods
             
 string_check
 (
-category
+self
+.
+identifier
+field
+=
 '
 methods
 '
+value
+=
 method
+                         
+min_length
+=
 1
+max_length
+=
 MAX_METHOD_NAME_LENGTH
+                         
 regex
 =
 IDENTIFIER_PATTERN
@@ -1198,13 +1303,25 @@ objects
             
 string_check
 (
-category
+self
+.
+identifier
+field
+=
 '
 objects
 '
+value
+=
 obj
+                         
+min_length
+=
 1
+max_length
+=
 MAX_OBJECT_NAME_LENGTH
+                         
 regex
 =
 IDENTIFIER_PATTERN
@@ -1255,11 +1372,11 @@ allowed_rcc
 raise
 ValueError
 "
-Value
-for
 %
 s
-in
+:
+value
+for
 %
 s
 should
@@ -1274,8 +1391,10 @@ s
 \
                               
 (
+self
+.
+identifier
 rcc_key
-category
 "
 "
 .
@@ -1314,12 +1433,12 @@ MAX_EXTRA_KEYS_COUNT
 raise
 ValueError
 "
-Number
-of
-extra_keys
-in
 %
 s
+:
+number
+of
+extra_keys
 exceeds
 limit
 %
@@ -1329,7 +1448,9 @@ d
 \
                               
 (
-category
+self
+.
+identifier
 MAX_EXTRA_KEYS_COUNT
 )
         
@@ -1345,13 +1466,25 @@ iterkeys
             
 string_check
 (
-category
+self
+.
+identifier
+field
+=
 '
 extra_keys
 '
+value
+=
 key
+                         
+min_length
+=
 1
+max_length
+=
 MAX_EXTRA_KEY_NAME_LENGTH
+                         
 regex
 =
 IDENTIFIER_PATTERN
@@ -1376,10 +1509,10 @@ definition
 raise
 KeyError
 "
-Event
-in
 %
 s
+:
+event
 is
 missing
 an
@@ -1396,7 +1529,9 @@ required
 \
                             
 (
-category
+self
+.
+identifier
 )
         
 expiry_date
@@ -1441,10 +1576,10 @@ expiry_date
 raise
 ValueError
 "
-Event
-in
 %
 s
+:
+event
 has
 invalid
 expiry_date
@@ -1467,7 +1602,9 @@ s
 \
                                   
 (
-category
+self
+.
+identifier
 DATE_PATTERN
 )
             
@@ -1566,6 +1703,28 @@ return
 self
 .
 _name
+    
+property
+    
+def
+identifier
+(
+self
+)
+:
+        
+return
+self
+.
+category
++
+"
+#
+"
++
+self
+.
+name
     
 property
     
@@ -2067,14 +2226,27 @@ iteritems
         
 string_check
 (
-'
-'
+"
+top
+level
+structure
+"
+field
+=
 '
 category
 '
+value
+=
 category_name
+                     
+min_length
+=
 1
+max_length
+=
 MAX_CATEGORY_NAME_LENGTH
+                     
 regex
 =
 IDENTIFIER_PATTERN
@@ -2121,13 +2293,24 @@ iteritems
             
 string_check
 (
-category
+category_name
+field
+=
 '
+event
 name
 '
+value
+=
 name
+                         
+min_length
+=
 1
+max_length
+=
 MAX_METHOD_NAME_LENGTH
+                         
 regex
 =
 IDENTIFIER_PATTERN
