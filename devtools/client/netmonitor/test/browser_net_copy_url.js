@@ -123,8 +123,6 @@ copyUrl
 }
 requestItem
 .
-attachment
-.
 url
 )
 ;

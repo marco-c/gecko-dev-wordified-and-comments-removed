@@ -876,11 +876,7 @@ items
 .
 push
 (
-{
-attachment
-:
 file
-}
 )
 ;
 }
