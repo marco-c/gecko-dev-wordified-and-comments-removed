@@ -5921,7 +5921,10 @@ reject
 )
 ;
 }
-return
+resp
+.
+body
+=
 {
 "
 x
@@ -12053,8 +12056,6 @@ maximize
 resp
 .
 body
-.
-value
 =
 {
 x
