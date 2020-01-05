@@ -1559,6 +1559,9 @@ mozilla
 -
 central
 '
+'
+try
+'
 ]
 linux64
 -
@@ -1726,6 +1729,9 @@ inbound
 mozilla
 -
 central
+'
+'
+try
 '
 ]
 linux64
