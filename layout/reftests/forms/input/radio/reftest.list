@@ -82,9 +82,6 @@ if
 (
 !
 gtkWidget
-|
-|
-Mulet
 )
 =
 =
@@ -108,15 +105,3 @@ height
 ref
 .
 html
-#
-bug
-1141511
-:
-Disable
-some
-gtkWidget
--
-dependant
-reftests
-on
-Mulet
