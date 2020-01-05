@@ -2113,6 +2113,13 @@ highlightNodeFront
 (
 nodeFront
 )
+.
+catch
+(
+this
+.
+_handleRejectionIfNotDestroyed
+)
 ;
 }
 _hideBoxModel
@@ -2132,6 +2139,13 @@ highlighterUtils
 unhighlight
 (
 forceHide
+)
+.
+catch
+(
+this
+.
+_handleRejectionIfNotDestroyed
 )
 ;
 }
