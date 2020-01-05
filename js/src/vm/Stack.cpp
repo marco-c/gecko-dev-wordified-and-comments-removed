@@ -8504,10 +8504,6 @@ Activation
 cx
 Wasm
 )
-entrySP_
-(
-nullptr
-)
 exitFP_
 (
 nullptr
@@ -8526,11 +8522,6 @@ Fixed
 None
 )
 {
-(
-void
-)
-entrySP_
-;
 prevWasm_
 =
 cx
