@@ -344,9 +344,10 @@ android
 -
 x86
 -
-nightly
--
 opt
+type
+:
+nightly
 treeherder
 :
 platform
@@ -676,9 +677,10 @@ api
 -
 15
 -
-nightly
--
 opt
+type
+:
+nightly
 treeherder
 :
 platform
