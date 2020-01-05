@@ -303,6 +303,15 @@ Init
 (
 )
 {
+#
+ifdef
+XZ_USE_CRC64
+xz_crc64_init
+(
+)
+;
+#
+endif
 xz_crc32_init
 (
 )

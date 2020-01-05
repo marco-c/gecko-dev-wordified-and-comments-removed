@@ -265,6 +265,14 @@ error
 shadow
 '
 ]
+DEFINES
+[
+'
+XZ_USE_CRC64
+'
+]
+=
+1
 USE_LIBS
 +
 =
