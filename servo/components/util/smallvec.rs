@@ -385,11 +385,6 @@ SmallVecPrivate
 <
 T
 >
-where
-T
-:
-'
-static
 {
 fn
 inline_size
@@ -1961,7 +1956,7 @@ iter
 SmallVecIterator
 <
 '
-static
+a
 T
 >
 lifetime
@@ -1979,7 +1974,7 @@ a
 T
 :
 '
-static
+a
 >
 Iterator
 <
@@ -2080,7 +2075,7 @@ a
 T
 :
 '
-static
+a
 >
 Drop
 for
@@ -2212,9 +2207,6 @@ size
 impl
 <
 T
-:
-'
-static
 >
 SmallVecPrivate
 <
@@ -2399,9 +2391,6 @@ new_ptr
 impl
 <
 T
-:
-'
-static
 >
 SmallVec
 <
@@ -2474,9 +2463,6 @@ cap
 impl
 <
 T
-:
-'
-static
 >
 VecLike
 <
@@ -2576,9 +2562,6 @@ end
 impl
 <
 T
-:
-'
-static
 >
 FromIterator
 <
@@ -2672,9 +2655,6 @@ v
 impl
 <
 T
-:
-'
-static
 >
 Extendable
 <
@@ -2769,9 +2749,6 @@ fmt
 :
 :
 Show
-+
-'
-static
 >
 fmt
 :
@@ -2823,9 +2800,6 @@ as_slice
 impl
 <
 T
-:
-'
-static
 >
 name
 <
@@ -2944,9 +2918,6 @@ unsafe_destructor
 impl
 <
 T
-:
-'
-static
 >
 Drop
 for
@@ -3122,9 +3093,6 @@ impl
 T
 :
 Clone
-+
-'
-static
 >
 Clone
 for
