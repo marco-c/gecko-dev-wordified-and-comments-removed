@@ -1834,6 +1834,9 @@ CSSTransition
 GetCurrentTimeAt
 (
 const
+dom
+:
+:
 DocumentTimeline
 &
 aTimeline
@@ -1909,6 +1912,9 @@ CSSTransition
 :
 SetEffectFromStyle
 (
+dom
+:
+:
 AnimationEffectReadOnly
 *
 aEffect

@@ -1374,6 +1374,9 @@ GetEffect
 )
 )
 {
+dom
+:
+:
 AnimationEffectReadOnly
 *
 oldEffect
