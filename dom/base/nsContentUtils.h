@@ -795,6 +795,12 @@ static
 bool
 ShouldResistFingerprinting
 (
+)
+;
+static
+bool
+ShouldResistFingerprinting
+(
 nsIDocShell
 *
 aDocShell
