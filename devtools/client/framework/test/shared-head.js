@@ -754,6 +754,13 @@ window
 window
 ;
 let
+{
+userContextId
+}
+=
+options
+;
+let
 tab
 =
 gBrowser
@@ -761,6 +768,9 @@ gBrowser
 addTab
 (
 url
+{
+userContextId
+}
 )
 ;
 if
