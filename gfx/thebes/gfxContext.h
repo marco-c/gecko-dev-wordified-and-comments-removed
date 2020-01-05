@@ -1810,6 +1810,10 @@ SetMatrix
 mMatrix
 )
 ;
+mContext
+=
+nullptr
+;
 }
 }
 const
