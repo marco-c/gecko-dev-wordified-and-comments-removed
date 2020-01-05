@@ -110,12 +110,6 @@ const
 override
 ;
 static
-void
-Init
-(
-)
-;
-static
 const
 Maybe
 <
@@ -144,12 +138,6 @@ nsCString
 >
 &
 aGMP
-)
-;
-static
-void
-UpdateUsableCodecs
-(
 )
 ;
 }

@@ -307,13 +307,6 @@ Init
 ;
 #
 endif
-GMPDecoderModule
-:
-:
-Init
-(
-)
-;
 }
 }
 ;
