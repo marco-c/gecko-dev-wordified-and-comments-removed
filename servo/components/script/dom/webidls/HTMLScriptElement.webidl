@@ -112,13 +112,6 @@ HTMLScriptElement
 :
 HTMLElement
 {
-/
-/
-attribute
-DOMString
-src
-;
-readonly
 attribute
 DOMString
 src
