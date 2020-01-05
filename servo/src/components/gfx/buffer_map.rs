@@ -495,6 +495,13 @@ contains_key
 new_key
 )
 {
+new_buffer
+.
+destroy
+(
+graphics_context
+)
+;
 return
 ;
 }
