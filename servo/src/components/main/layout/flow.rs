@@ -1932,6 +1932,10 @@ style
 .
 Text
 .
+get
+(
+)
+.
 text_decoration
 ;
 let
@@ -2005,6 +2009,10 @@ style
 .
 Color
 .
+get
+(
+)
+.
 color
 .
 to_gfx_color
@@ -2016,6 +2024,10 @@ style
 .
 Color
 .
+get
+(
+)
+.
 color
 .
 to_gfx_color
@@ -2026,6 +2038,10 @@ line_through_color
 style
 .
 Color
+.
+get
+(
+)
 .
 color
 .
