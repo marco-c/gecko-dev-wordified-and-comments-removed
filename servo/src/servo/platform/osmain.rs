@@ -87,7 +87,7 @@ import
 gfx
 :
 :
-renderer
+compositor
 :
 :
 Compositor

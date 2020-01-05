@@ -139,7 +139,10 @@ mod
 surface
 ;
 mod
-renderer
+render_task
+;
+mod
+compositor
 ;
 mod
 png_compositor

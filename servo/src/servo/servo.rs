@@ -11,12 +11,6 @@ option
 swap_unwrap
 ;
 import
-gfx
-:
-:
-renderer
-;
-import
 platform
 :
 :
