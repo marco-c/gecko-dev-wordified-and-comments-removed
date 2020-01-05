@@ -493,6 +493,11 @@ AnimationCollection
 h
 '
 '
+BindingStyleRule
+.
+h
+'
+'
 CSSEnabledState
 .
 h
@@ -792,6 +797,11 @@ cpp
 '
 '
 AnimationCommon
+.
+cpp
+'
+'
+BindingStyleRule
 .
 cpp
 '
