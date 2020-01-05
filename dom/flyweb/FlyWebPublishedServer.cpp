@@ -747,7 +747,7 @@ Headers
 )
 -
 >
-Get
+GetFirst
 (
 NS_LITERAL_CSTRING
 (
@@ -1883,7 +1883,7 @@ Headers
 )
 -
 >
-Get
+GetFirst
 (
 NS_LITERAL_CSTRING
 (
