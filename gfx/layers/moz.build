@@ -1376,13 +1376,6 @@ h
 '
 wr
 /
-WebRenderCompositorOGL
-.
-h
-'
-'
-wr
-/
 WebRenderImageHost
 .
 h
@@ -2600,13 +2593,6 @@ cpp
 wr
 /
 WebRenderCompositableHolder
-.
-cpp
-'
-'
-wr
-/
-WebRenderCompositorOGL
 .
 cpp
 '
