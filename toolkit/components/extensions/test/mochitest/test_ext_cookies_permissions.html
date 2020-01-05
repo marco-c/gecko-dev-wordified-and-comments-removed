@@ -269,7 +269,7 @@ now
 function
 background
 (
-backgroundOptions
+options
 )
 {
 /
@@ -417,7 +417,7 @@ domain
 secure
 }
 =
-backgroundOptions
+options
 ;
 let
 failures
@@ -478,7 +478,7 @@ test
 .
 assertEq
 (
-backgroundOptions
+options
 .
 shouldPass
 cookie
@@ -518,7 +518,7 @@ cookies
 {
 if
 (
-backgroundOptions
+options
 .
 shouldPass
 )
@@ -593,7 +593,7 @@ baz
 "
 expirationDate
 :
-backgroundOptions
+options
 .
 expiry
 }
@@ -627,7 +627,7 @@ quux
 "
 expirationDate
 :
-backgroundOptions
+options
 .
 expiry
 }
@@ -667,7 +667,7 @@ then
 {
 if
 (
-backgroundOptions
+options
 .
 shouldPass
 )
@@ -853,12 +853,12 @@ if
 (
 !
 (
-backgroundOptions
+options
 .
 shouldPass
 |
 |
-backgroundOptions
+options
 .
 shouldWrite
 )

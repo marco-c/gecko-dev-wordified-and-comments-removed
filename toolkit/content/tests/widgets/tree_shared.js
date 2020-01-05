@@ -8884,7 +8884,7 @@ reference
 ;
 for
 (
-let
+var
 i
 =
 0
@@ -9966,14 +9966,14 @@ aTree
 columns
 ;
 var
-array
+a
 =
 [
 ]
 ;
 for
 (
-let
+var
 i
 =
 0
@@ -9989,7 +9989,7 @@ i
 +
 )
 {
-array
+a
 .
 push
 (
@@ -10002,7 +10002,7 @@ i
 )
 ;
 }
-array
+a
 .
 sort
 (
@@ -10055,7 +10055,7 @@ o2
 )
 ;
 return
-array
+a
 ;
 }
 function
@@ -10202,7 +10202,7 @@ left
 ;
 for
 (
-let
+var
 i
 =
 1
@@ -10330,7 +10330,7 @@ false
 ;
 for
 (
-let
+var
 i
 =
 0
@@ -10390,7 +10390,7 @@ Count
 ;
 for
 (
-let
+var
 i
 =
 0

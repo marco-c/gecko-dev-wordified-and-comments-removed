@@ -30,13 +30,6 @@ used
 "
 :
 1
-"
-no
--
-shadow
-"
-:
-2
 }
 "
 env

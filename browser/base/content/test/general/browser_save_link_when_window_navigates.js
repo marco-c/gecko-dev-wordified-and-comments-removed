@@ -615,8 +615,9 @@ yet
 function
 onTransferComplete
 (
-aWindow2
+aWindow
 downloadSuccess
+destDir
 )
 {
 ok
@@ -632,7 +633,7 @@ successfully
 "
 )
 ;
-aWindow2
+aWindow
 .
 close
 (
@@ -1123,12 +1124,12 @@ testOnWindow
 undefined
 function
 (
-win2
+win
 )
 {
 triggerSave
 (
-win2
+win
 finish
 )
 ;

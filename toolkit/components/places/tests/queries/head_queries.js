@@ -180,7 +180,7 @@ aArray
 for
 (
 let
-arrayItem
+data
 of
 aArray
 )
@@ -193,7 +193,7 @@ qdata
 new
 queryData
 (
-arrayItem
+data
 )
 ;
 if
@@ -904,7 +904,7 @@ URI
 :
 "
 +
-arrayItem
+data
 .
 uri
 )

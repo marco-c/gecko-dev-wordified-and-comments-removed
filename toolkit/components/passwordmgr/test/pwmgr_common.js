@@ -1083,7 +1083,7 @@ executeSoon
 >
 {
 var
-runTestEvent
+event
 =
 new
 Event
@@ -1097,7 +1097,7 @@ window
 .
 dispatchEvent
 (
-runTestEvent
+event
 )
 ;
 }
@@ -2349,6 +2349,7 @@ async
 (
 function
 *
+loadRecipes
 (
 recipes
 )
@@ -2392,6 +2393,7 @@ async
 (
 function
 *
+resetRecipes
 (
 )
 {

@@ -2754,14 +2754,14 @@ function
 for
 (
 let
-testCase
+test
 of
 gTests
 )
 {
 info
 (
-testCase
+test
 .
 desc
 )
@@ -2769,7 +2769,7 @@ desc
 try
 {
 yield
-testCase
+test
 .
 run
 (
@@ -2779,7 +2779,7 @@ run
 finally
 {
 yield
-testCase
+test
 .
 teardown
 (

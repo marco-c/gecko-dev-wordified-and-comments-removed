@@ -396,7 +396,7 @@ false
 ;
 for
 (
-let
+var
 i
 =
 0

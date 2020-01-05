@@ -180,6 +180,9 @@ belugas
 }
 )
 ;
+let
+db
+=
 yield
 PlacesUtils
 .

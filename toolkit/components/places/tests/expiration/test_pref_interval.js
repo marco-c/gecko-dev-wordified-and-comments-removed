@@ -89,6 +89,9 @@ expectedTimerDelay
 }
 ]
 ;
+var
+currentTest
+;
 add_task
 (
 function

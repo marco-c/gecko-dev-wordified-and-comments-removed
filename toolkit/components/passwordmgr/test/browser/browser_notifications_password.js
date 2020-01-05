@@ -366,7 +366,7 @@ testCase
 function
 *
 (
-contentTestCase
+testCase
 )
 {
 let
@@ -391,7 +391,7 @@ username
 .
 value
 =
-contentTestCase
+testCase
 .
 usernameInPage
 ;
@@ -410,7 +410,7 @@ password
 .
 value
 =
-contentTestCase
+testCase
 .
 passwordInPage
 ;

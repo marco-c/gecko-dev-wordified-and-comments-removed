@@ -279,7 +279,7 @@ onVisit
 :
 function
 (
-aUri
+uri
 )
 {
 reject
@@ -294,7 +294,7 @@ to
 onVisit
 "
 +
-aUri
+uri
 .
 spec
 )
@@ -305,7 +305,7 @@ onTitleChanged
 :
 function
 (
-aUri
+uri
 )
 {
 reject
@@ -320,7 +320,7 @@ to
 onTitleChanged
 "
 +
-aUri
+uri
 .
 spec
 )
@@ -348,7 +348,7 @@ onPageChanged
 :
 function
 (
-aUri
+uri
 )
 {
 reject
@@ -363,7 +363,7 @@ to
 onPageChanged
 "
 +
-aUri
+uri
 .
 spec
 )

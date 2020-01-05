@@ -471,6 +471,7 @@ null
 null
 function
 (
+count
 )
 {
 countEntries

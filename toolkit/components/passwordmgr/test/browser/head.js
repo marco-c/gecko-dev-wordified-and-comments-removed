@@ -98,10 +98,10 @@ recipeParent
 .
 then
 (
-recipeParentResult
+recipeParent
 =
 >
-recipeParentResult
+recipeParent
 .
 reset
 (

@@ -54,7 +54,7 @@ type
 function
 *
 (
-aType
+type
 )
 {
 Services
@@ -80,7 +80,7 @@ stringify
 {
 type
 :
-aType
+type
 isSolved
 :
 false

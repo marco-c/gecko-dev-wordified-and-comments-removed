@@ -523,8 +523,7 @@ addMessageListener
 "
 cleanupDone
 "
-(
-)
+msg
 =
 >
 {
@@ -612,18 +611,18 @@ const
 {
 classes
 :
-parentCc
+Cc
 interfaces
 :
-parentCi
+Ci
 utils
 :
-parentCu
+Cu
 }
 =
 Components
 ;
-parentCu
+Cu
 .
 import
 (
@@ -642,7 +641,7 @@ jsm
 "
 )
 ;
-parentCu
+Cu
 .
 import
 (
@@ -661,7 +660,7 @@ jsm
 "
 )
 ;
-parentCu
+Cu
 .
 import
 (
@@ -680,7 +679,7 @@ jsm
 "
 )
 ;
-parentCu
+Cu
 .
 import
 (
@@ -727,7 +726,7 @@ true
 let
 pps
 =
-parentCc
+Cc
 [
 "
 mozilla
@@ -748,7 +747,7 @@ service
 .
 getService
 (
-parentCi
+Ci
 .
 nsIProtocolProxyService
 )
@@ -795,7 +794,7 @@ port
 let
 login
 =
-parentCc
+Cc
 [
 "
 mozilla
@@ -814,7 +813,7 @@ loginInfo
 .
 createInstance
 (
-parentCi
+Ci
 .
 nsILoginInfo
 )
@@ -852,7 +851,7 @@ login
 let
 login2
 =
-parentCc
+Cc
 [
 "
 mozilla
@@ -871,7 +870,7 @@ loginInfo
 .
 createInstance
 (
-parentCi
+Ci
 .
 nsILoginInfo
 )
@@ -931,7 +930,7 @@ XPCOMUtils
 generateQI
 (
 [
-parentCi
+Ci
 .
 nsIProtocolProxyCallback
 ]
@@ -948,7 +947,7 @@ message
 =
 >
 {
-parentCc
+Cc
 [
 "
 mozilla
@@ -969,7 +968,7 @@ manager
 .
 getService
 (
-parentCi
+Ci
 .
 nsIHttpAuthManager
 )

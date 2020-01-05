@@ -1200,7 +1200,7 @@ isURIVisited
 aURI
 function
 (
-unused
+aURI
 aIsVisited
 )
 {

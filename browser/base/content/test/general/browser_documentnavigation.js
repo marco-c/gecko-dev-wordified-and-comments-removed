@@ -292,7 +292,7 @@ arg
 )
 {
 let
-contentExpectedElement
+expectedElement
 =
 content
 .
@@ -308,7 +308,7 @@ expectedElementId
 if
 (
 !
-contentExpectedElement
+expectedElement
 )
 {
 for
@@ -350,7 +350,7 @@ expectedElementId
 )
 )
 {
-contentExpectedElement
+expectedElement
 =
 content
 .
@@ -369,7 +369,7 @@ break
 else
 if
 (
-contentExpectedElement
+expectedElement
 .
 localName
 =
@@ -379,9 +379,9 @@ html
 "
 )
 {
-contentExpectedElement
+expectedElement
 =
-contentExpectedElement
+expectedElement
 .
 ownerDocument
 ;
@@ -389,7 +389,7 @@ ownerDocument
 if
 (
 !
-contentExpectedElement
+expectedElement
 )
 {
 sendSyncMessage
@@ -421,7 +421,7 @@ found
 return
 ;
 }
-contentExpectedElement
+expectedElement
 .
 addEventListener
 (
@@ -433,7 +433,7 @@ focusReceived
 (
 )
 {
-contentExpectedElement
+expectedElement
 .
 removeEventListener
 (
@@ -445,7 +445,7 @@ true
 )
 ;
 const
-contentFM
+fm
 =
 Components
 .
@@ -476,7 +476,7 @@ nsIFocusManager
 let
 details
 =
-contentFM
+fm
 .
 focusedWindow
 .
@@ -488,7 +488,7 @@ id
 ;
 if
 (
-contentFM
+fm
 .
 focusedElement
 )
@@ -499,7 +499,7 @@ details
 "
 "
 +
-contentFM
+fm
 .
 focusedElement
 .
