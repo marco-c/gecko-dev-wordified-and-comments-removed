@@ -173,7 +173,7 @@ getStr
 "
 layout
 .
-overlayMultipleGrids
+overlayGrid
 "
 )
 )
