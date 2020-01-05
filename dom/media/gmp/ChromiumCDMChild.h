@@ -604,6 +604,11 @@ mDecoderInitialized
 =
 false
 ;
+bool
+mPersistentStateAllowed
+=
+false
+;
 }
 ;
 }

@@ -135,6 +135,11 @@ WidevineDecryptor
 h
 '
 '
+WidevineFileIO
+.
+h
+'
+'
 WidevineUtils
 .
 h
