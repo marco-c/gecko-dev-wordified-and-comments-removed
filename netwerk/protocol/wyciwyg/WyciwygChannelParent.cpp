@@ -162,6 +162,11 @@ mIPCClosed
 =
 true
 ;
+if
+(
+mChannel
+)
+{
 mChannel
 -
 >
@@ -170,6 +175,7 @@ SetNotificationCallbacks
 nullptr
 )
 ;
+}
 }
 NS_IMPL_ISUPPORTS
 (
