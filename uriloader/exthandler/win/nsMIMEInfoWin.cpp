@@ -2673,6 +2673,14 @@ fileExtToUse
 ;
 if
 (
+!
+fileExt
+.
+IsEmpty
+(
+)
+&
+&
 fileExt
 .
 First
@@ -2684,6 +2692,7 @@ First
 .
 '
 )
+{
 fileExtToUse
 =
 char16_t
@@ -2693,6 +2702,7 @@ char16_t
 '
 )
 ;
+}
 fileExtToUse
 .
 Append
