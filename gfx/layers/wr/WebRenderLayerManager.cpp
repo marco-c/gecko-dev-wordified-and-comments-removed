@@ -163,6 +163,13 @@ WebRenderTextLayer
 .
 h
 "
+#
+include
+"
+WebRenderDisplayItemLayer
+.
+h
+"
 namespace
 mozilla
 {
