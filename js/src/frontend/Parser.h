@@ -4148,6 +4148,10 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+bool
+tryAnnexB
+=
+false
 )
 ;
 enum
@@ -4508,12 +4512,10 @@ declareDotGeneratorName
 bool
 checkFunctionDefinition
 (
-HandleAtom
-funAtom
+HandlePropertyName
+funName
 Node
 pn
-FunctionSyntaxKind
-kind
 GeneratorKind
 generatorKind
 bool

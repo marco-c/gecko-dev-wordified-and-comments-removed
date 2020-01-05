@@ -42192,7 +42192,7 @@ parser
 .
 handler
 .
-newFunctionDefinition
+newFunctionStatement
 (
 )
 ;
