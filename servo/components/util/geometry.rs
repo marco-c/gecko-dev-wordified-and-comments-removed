@@ -133,6 +133,7 @@ PartialEq
 PartialOrd
 Eq
 Ord
+Zero
 )
 ]
 pub

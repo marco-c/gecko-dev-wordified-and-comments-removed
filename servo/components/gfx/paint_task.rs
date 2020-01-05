@@ -2883,7 +2883,7 @@ screen_rect
 clip_rect
 :
 None
-transient_clip_rect
+transient_clip
 :
 None
 }
