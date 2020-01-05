@@ -1207,6 +1207,10 @@ Social
 PageMetadata
 :
 "
+"
+ViewSource
+:
+"
 ]
 INNER_TO_OUTER_MESSAGE_PREFIXES
 :
@@ -1237,6 +1241,10 @@ Social
 "
 "
 PageMetadata
+:
+"
+"
+ViewSource
 :
 "
 ]
