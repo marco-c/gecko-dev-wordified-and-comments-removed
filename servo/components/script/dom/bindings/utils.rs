@@ -779,7 +779,7 @@ proto_id
 PrototypeList
 :
 :
-id
+ID
 proto_depth
 :
 uint
@@ -1230,7 +1230,7 @@ interface_chain
 PrototypeList
 :
 :
-id
+ID
 .
 .
 MAX_PROTO_CHAIN_LENGTH
@@ -2487,7 +2487,7 @@ JSObject
 PrototypeList
 :
 :
-id
+ID
 :
 :
 Count

@@ -568,7 +568,7 @@ prototype
 PrototypeList
 :
 :
-id
+ID
 :
 :
 "
@@ -585,7 +585,7 @@ protoID
 PrototypeList
 :
 :
-id
+ID
 :
 :
 "
@@ -10042,7 +10042,7 @@ protoList
 PrototypeList
 :
 :
-id
+ID
 :
 :
 '
@@ -10065,7 +10065,7 @@ extend
 PrototypeList
 :
 :
-id
+ID
 :
 :
 Count
@@ -12849,7 +12849,7 @@ proxy_handlers
 PrototypeList
 :
 :
-proxies
+Proxies
 :
 :
 %
@@ -13594,13 +13594,13 @@ type
 PrototypeList
 :
 :
-id
+ID
 {
         
 PrototypeList
 :
 :
-id
+ID
 :
 :
 {
@@ -14635,7 +14635,7 @@ id
 idPrefix
 +
 "
-id
+ID
 :
 :
 "
@@ -19740,7 +19740,7 @@ protoID
 PrototypeList
 :
 :
-id
+ID
 :
 :
 %
@@ -33926,7 +33926,7 @@ CGGeneric
 "
 proxy_handlers
 [
-proxies
+Proxies
 :
 :
 %
@@ -39771,7 +39771,7 @@ maxProtoChainLength
 CGNonNamespacedEnum
 (
 '
-id
+ID
 '
 protos
 [
@@ -39787,7 +39787,7 @@ PartialEq
 CGNonNamespacedEnum
 (
 '
-proxies
+Proxies
 '
 proxies
 [
@@ -39866,7 +39866,7 @@ codegen
 PrototypeList
 :
 :
-proxies
+Proxies
 '
             
 '

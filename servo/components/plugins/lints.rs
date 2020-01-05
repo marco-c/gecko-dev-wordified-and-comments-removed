@@ -467,11 +467,12 @@ def_map
 borrow
 (
 )
-.
-get_copy
-(
-&
+[
 id
+]
+.
+clone
+(
 )
 {
 def

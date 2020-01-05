@@ -273,7 +273,6 @@ num
 {
 Float
 FloatMath
-Zero
 }
 ;
 use
@@ -4876,7 +4875,7 @@ y
 )
 )
 ;
-Zero
+Point2D
 :
 :
 zero
@@ -4949,7 +4948,7 @@ y
 )
 )
 ;
-Zero
+Point2D
 :
 :
 zero
@@ -6668,7 +6667,7 @@ offset
 .
 unwrap_or
 (
-Zero
+Point2D
 :
 :
 zero

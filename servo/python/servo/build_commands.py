@@ -233,6 +233,35 @@ output
 '
 )
     
+CommandArgument
+(
+'
+params
+'
+nargs
+=
+'
+.
+.
+.
+'
+                     
+help
+=
+"
+Command
+-
+line
+arguments
+to
+be
+passed
+through
+to
+Cargo
+"
+)
+    
 def
 build
 (
@@ -256,6 +285,9 @@ False
 debug_mozjs
 =
 False
+params
+=
+None
 )
 :
         
@@ -289,6 +321,8 @@ android
         
 opts
 =
+params
+or
 [
 ]
         

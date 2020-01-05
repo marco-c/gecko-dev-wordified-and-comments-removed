@@ -41,7 +41,6 @@ range
 {
 Range
 RangeIndex
-IntRangeIndex
 EachIndex
 }
 ;
@@ -70,10 +69,7 @@ std
 num
 :
 :
-{
 NumCast
-Zero
-}
 ;
 use
 std
@@ -1914,7 +1910,7 @@ offset
 .
 unwrap_or
 (
-Zero
+Point2D
 :
 :
 zero
@@ -2374,8 +2370,12 @@ advance
 data
 .
 offset
-.
-is_zero
+=
+=
+Point2D
+:
+:
+zero
 (
 )
 &
