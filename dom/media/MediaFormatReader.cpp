@@ -88,6 +88,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CDMProxy
 .
 h
@@ -2183,6 +2192,9 @@ DemuxerProxy
 MediaDataDemuxer
 *
 aDemuxer
+AbstractThread
+*
+mainThread
 )
 :
 mTaskQueue
@@ -2197,6 +2209,7 @@ MediaThreadType
 :
 PLATFORM_DECODER
 )
+mainThread
 )
 )
 mData
@@ -3902,6 +3915,12 @@ new
 DemuxerProxy
 (
 aDemuxer
+aDecoder
+-
+>
+AbstractMainThread
+(
+)
 )
 )
 mDemuxerInitDone

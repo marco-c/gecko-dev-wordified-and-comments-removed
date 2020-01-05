@@ -171,6 +171,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 ErrorResult
 ;
 class
@@ -633,6 +636,13 @@ RefPtr
 MediaSource
 >
 mMediaSource
+;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
 ;
 RefPtr
 <

@@ -123,6 +123,9 @@ MediaSink
 ;
 }
 class
+AbstractThread
+;
+class
 AudioSegment
 ;
 class
@@ -1179,6 +1182,13 @@ void
 *
 const
 mDecoderID
+;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
 ;
 const
 RefPtr

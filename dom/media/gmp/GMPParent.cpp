@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 GeckoChildProcessHost

@@ -22,6 +22,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 VideoFrameContainer
 ;
 class
@@ -91,6 +94,16 @@ return
 nullptr
 ;
 }
+virtual
+AbstractThread
+*
+AbstractMainThread
+(
+)
+const
+=
+0
+;
 virtual
 bool
 GetPaused

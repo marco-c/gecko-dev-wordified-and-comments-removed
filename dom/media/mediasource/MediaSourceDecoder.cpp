@@ -262,6 +262,9 @@ mDemuxer
 new
 MediaSourceDemuxer
 (
+AbstractMainThread
+(
+)
 )
 ;
 mReader

@@ -63,6 +63,15 @@ WebMDemuxer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AbstractThread
+.
+h
+"
 using
 namespace
 mozilla

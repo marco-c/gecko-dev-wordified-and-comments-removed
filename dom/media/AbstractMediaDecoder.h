@@ -78,6 +78,9 @@ KnowsCompositor
 ;
 }
 class
+AbstractThread
+;
+class
 MediaResource
 ;
 class
@@ -235,6 +238,16 @@ return
 nullptr
 ;
 }
+virtual
+AbstractThread
+*
+AbstractMainThread
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual
