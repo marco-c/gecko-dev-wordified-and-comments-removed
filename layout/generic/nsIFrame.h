@@ -3610,7 +3610,7 @@ const
 ;
 inline
 nscoord
-GetBaseline
+BaselineBOffset
 (
 mozilla
 :

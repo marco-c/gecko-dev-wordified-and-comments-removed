@@ -2522,7 +2522,7 @@ const
 auto
 lastBaseline
 =
-GetBaseline
+BaselineBOffset
 (
 aWM
 BaselineSharingGroup

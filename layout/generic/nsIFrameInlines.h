@@ -697,7 +697,7 @@ nscoord
 nsIFrame
 :
 :
-GetBaseline
+BaselineBOffset
 (
 mozilla
 :
