@@ -1157,16 +1157,8 @@ keys
 (
 )
 .
-map
+cloned
 (
-|
-x
-|
-x
-.
-clone
-(
-)
 )
 .
 collect
