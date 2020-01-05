@@ -378,6 +378,9 @@ login
 let
 passwordValue
 =
+new
+Uint8Array
+(
 crypto
 .
 stringToArray
@@ -389,6 +392,7 @@ encryptData
 login
 .
 password
+)
 )
 )
 ;
