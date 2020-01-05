@@ -32211,12 +32211,6 @@ IsHidden
 (
 )
 mVisibilityState
-=
-=
-Visibility
-:
-:
-APPROXIMATELY_VISIBLE
 IsInUncomposedDoc
 (
 )

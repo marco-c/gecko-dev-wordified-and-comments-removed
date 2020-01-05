@@ -228,6 +228,12 @@ MediaEventType
 :
 int8_t
 ;
+enum
+class
+Visibility
+:
+uint8_t
+;
 #
 ifdef
 GetCurrentTime
@@ -574,8 +580,8 @@ NotifyOwnerActivityChanged
 (
 bool
 aIsDocumentVisible
-bool
-aIsElementVisible
+Visibility
+aElementVisibility
 bool
 aIsElementInTree
 )
@@ -987,8 +993,8 @@ SetElementVisibility
 (
 bool
 aIsDocumentVisible
-bool
-aIsElementVisible
+Visibility
+aElementVisibility
 bool
 aIsElementInTree
 )
@@ -1782,8 +1788,8 @@ mInfo
 bool
 mIsDocumentVisible
 ;
-bool
-mIsElementVisible
+Visibility
+mElementVisibility
 ;
 bool
 mIsElementInTree
