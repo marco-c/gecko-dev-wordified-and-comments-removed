@@ -171,6 +171,7 @@ y
 Pure
 Cached
 Frozen
+NeedsSubjectPrincipal
 ]
 readonly
 attribute

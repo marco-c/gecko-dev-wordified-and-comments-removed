@@ -1292,6 +1292,9 @@ nsString
 >
 &
 aTypes
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 const
 {
@@ -1384,8 +1387,10 @@ ChromeOnly
 nsContentUtils
 :
 :
-LegacyIsCallerChromeOrNativeCode
+IsSystemPrincipal
 (
+&
+aSubjectPrincipal
 )
 )
 {

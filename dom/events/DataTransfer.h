@@ -439,6 +439,9 @@ nsString
 >
 &
 aTypes
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 const
 ;
