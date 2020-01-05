@@ -682,10 +682,7 @@ vector
 ;
 class
 MOZ_STACK_CLASS
-JS_PUBLIC_API
-(
 AutoEntryMonitor
-)
 {
 JSContext
 *

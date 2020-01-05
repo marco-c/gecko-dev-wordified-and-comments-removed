@@ -2627,10 +2627,7 @@ CROSS_COMPARTMENT
 )
 ;
 }
-JS_FRIEND_API
-(
 void
-)
 js
 :
 :

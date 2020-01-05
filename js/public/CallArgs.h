@@ -877,10 +877,7 @@ args
 }
 public
 :
-JS_PUBLIC_API
-(
 bool
-)
 requireAtLeast
 (
 JSContext

@@ -7353,10 +7353,7 @@ entryOffset
 )
 ;
 }
-JS_PUBLIC_API
-(
 void
-)
 FrameHandle
 :
 :
@@ -7406,10 +7403,7 @@ pcOut
 )
 ;
 }
-JS_PUBLIC_API
-(
 void
-)
 FrameHandle
 :
 :
