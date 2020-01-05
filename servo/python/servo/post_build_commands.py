@@ -358,12 +358,14 @@ RUST_BACKTRACE
         
 args
 =
+[
 self
 .
 get_binary_path
 (
 release
 )
+]
         
 if
 debug
