@@ -31,10 +31,10 @@ use
 geom
 :
 :
-size
+rect
 :
 :
-Size2D
+Rect
 ;
 struct
 LayerBuffer
@@ -45,9 +45,9 @@ ImageSurface
 draw_target
 :
 DrawTarget
-size
+rect
 :
-Size2D
+Rect
 <
 uint
 >
