@@ -149,7 +149,6 @@ filter
 ;
 [
 Pure
-SetterThrows
 ]
 attribute
 Node
