@@ -1369,9 +1369,6 @@ class
 devtools
 -
 toolbarbutton
-devtools
--
-button
 "
 label
 =
@@ -1430,9 +1427,6 @@ class
 devtools
 -
 toolbarbutton
-devtools
--
-button
 "
 label
 =
@@ -1497,9 +1491,6 @@ class
 devtools
 -
 toolbarbutton
-devtools
--
-button
 "
 label
 =
@@ -1564,9 +1555,6 @@ class
 devtools
 -
 toolbarbutton
-devtools
--
-button
 "
 label
 =
@@ -1629,9 +1617,6 @@ class
 devtools
 -
 toolbarbutton
-devtools
--
-button
 "
 label
 =

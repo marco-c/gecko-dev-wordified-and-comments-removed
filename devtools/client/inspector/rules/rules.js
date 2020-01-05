@@ -6427,13 +6427,12 @@ this
 .
 pseudoClassToggle
 .
-setAttribute
+classList
+.
+add
 (
 "
 checked
-"
-"
-true
 "
 )
 ;
@@ -6486,7 +6485,9 @@ this
 .
 pseudoClassToggle
 .
-removeAttribute
+classList
+.
+remove
 (
 "
 checked

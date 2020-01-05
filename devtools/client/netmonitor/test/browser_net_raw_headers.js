@@ -216,7 +216,7 @@ headers
 -
 summary
 .
-tool
+devtools
 -
 button
 "
@@ -267,7 +267,7 @@ headers
 -
 summary
 .
-tool
+devtools
 -
 button
 "

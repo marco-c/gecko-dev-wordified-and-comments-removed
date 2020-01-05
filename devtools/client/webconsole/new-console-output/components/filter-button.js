@@ -139,9 +139,7 @@ classList
 =
 [
 "
-menu
--
-filter
+devtools
 -
 button
 "

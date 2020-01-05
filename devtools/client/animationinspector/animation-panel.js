@@ -1222,13 +1222,12 @@ this
 .
 pickerButtonEl
 .
-setAttribute
+classList
+.
+add
 (
 "
 checked
-"
-"
-true
 "
 )
 ;
@@ -1243,7 +1242,9 @@ this
 .
 pickerButtonEl
 .
-removeAttribute
+classList
+.
+remove
 (
 "
 checked

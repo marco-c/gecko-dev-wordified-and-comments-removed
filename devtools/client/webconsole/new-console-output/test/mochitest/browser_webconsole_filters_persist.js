@@ -419,9 +419,7 @@ querySelectorAll
 (
 "
 .
-menu
--
-filter
+devtools
 -
 button
 "

@@ -182,9 +182,7 @@ class
 =
 \
 "
-menu
--
-filter
+devtools
 -
 button
 error
@@ -276,9 +274,7 @@ class
 =
 \
 "
-menu
--
-filter
+devtools
 -
 button
 error
