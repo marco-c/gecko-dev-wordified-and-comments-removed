@@ -86,8 +86,9 @@ CSSKeyframesRule
 :
 CSSRule
 {
-/
-/
+[
+SetterThrows
+]
 attribute
 DOMString
 name
