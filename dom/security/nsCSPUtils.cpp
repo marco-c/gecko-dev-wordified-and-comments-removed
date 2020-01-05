@@ -904,6 +904,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_SCRIPT_PRELOAD
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
+:
 return
 nsIContentSecurityPolicy
 :
