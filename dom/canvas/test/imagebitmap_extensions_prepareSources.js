@@ -74,7 +74,7 @@ tests
 /
 dom
 /
-media
+canvas
 /
 test
 /
