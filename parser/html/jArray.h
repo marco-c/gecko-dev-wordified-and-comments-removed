@@ -205,7 +205,10 @@ newArray
 new
 T
 [
+size_t
+(
 len
+)
 ]
 len
 }
@@ -253,7 +256,10 @@ fallible
 )
 T
 [
+size_t
+(
 len
+)
 ]
 ;
 jArray

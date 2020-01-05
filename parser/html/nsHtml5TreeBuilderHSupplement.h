@@ -326,7 +326,7 @@ mBuilder
 bool
 EnsureBufferSpace
 (
-size_t
+int32_t
 aLength
 )
 ;
