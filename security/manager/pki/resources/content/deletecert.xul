@@ -162,7 +162,7 @@ xul
 onload
 =
 "
-setWindowName
+onLoad
 (
 )
 ;
@@ -177,7 +177,7 @@ ondialogaccept
 =
 "
 return
-doOK
+onDialogAccept
 (
 )
 ;
@@ -186,7 +186,7 @@ ondialogcancel
 =
 "
 return
-doCancel
+onDialogCancel
 (
 )
 ;
