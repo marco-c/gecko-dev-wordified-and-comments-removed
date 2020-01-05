@@ -94,7 +94,7 @@ Project
 page
 ]
 (
-http
+https
 :
 /
 /
@@ -457,7 +457,7 @@ github
 .
 com
 /
-mozilla
+servo
 /
 servo
 /
