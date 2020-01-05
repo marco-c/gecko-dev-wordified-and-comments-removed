@@ -1298,6 +1298,11 @@ hiddenColumns
 "
 "
 [
+\
+"
+remoteip
+\
+"
 ]
 "
 )
