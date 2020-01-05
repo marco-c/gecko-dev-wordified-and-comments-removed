@@ -186,6 +186,9 @@ Client
 Clients
 "
 "
+CloseEvent
+"
+"
 Crypto
 "
 "
@@ -210,6 +213,9 @@ DOMRequest
 DOMStringList
 "
 "
+ErrorEvent
+"
+"
 Event
 "
 "
@@ -226,6 +232,9 @@ FetchEvent
 "
 "
 File
+"
+"
+FileList
 "
 "
 FileReader
@@ -338,6 +347,9 @@ nightly
 :
 true
 }
+"
+ProgressEvent
+"
 "
 PushEvent
 "

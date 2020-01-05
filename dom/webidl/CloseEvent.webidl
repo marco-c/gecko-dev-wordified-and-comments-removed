@@ -157,6 +157,12 @@ CloseEventInit
 eventInitDict
 )
 LegacyEventInit
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 CloseEvent

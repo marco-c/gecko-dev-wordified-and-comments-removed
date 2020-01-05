@@ -141,6 +141,14 @@ apply
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 FileList
 {

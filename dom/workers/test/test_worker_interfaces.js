@@ -180,6 +180,9 @@ Cache
 CacheStorage
 "
 "
+CloseEvent
+"
+"
 Crypto
 "
 "
@@ -207,6 +210,9 @@ DOMRequest
 DOMStringList
 "
 "
+ErrorEvent
+"
+"
 Event
 "
 "
@@ -217,6 +223,9 @@ EventTarget
 "
 "
 File
+"
+"
+FileList
 "
 "
 FileReader
@@ -336,6 +345,9 @@ nightly
 :
 true
 }
+"
+ProgressEvent
+"
 "
 PushManager
 "
