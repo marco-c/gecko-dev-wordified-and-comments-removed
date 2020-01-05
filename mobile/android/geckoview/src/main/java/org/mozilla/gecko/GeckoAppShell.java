@@ -1900,7 +1900,7 @@ SuppressLint
 MissingPermission
 "
 )
-public
+private
 static
 void
 enableLocation
@@ -2222,7 +2222,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 enableLocationHighAccuracy
@@ -2245,7 +2245,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 boolean
 setAlarm
@@ -2348,7 +2348,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 disableAlarm
@@ -3180,7 +3180,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 enableSensor
@@ -3669,7 +3669,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 disableSensor
@@ -3956,7 +3956,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 moveTaskToBack
@@ -4145,6 +4145,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 String
 [
@@ -4200,6 +4201,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 String
 [
@@ -4255,6 +4257,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 boolean
 getHWEncoderCapability
@@ -4277,6 +4280,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 boolean
 getHWDecoderCapability
@@ -4372,6 +4376,7 @@ calledFrom
 gecko
 "
 )
+public
 static
 String
 getExtensionFromMimeType
@@ -4401,6 +4406,7 @@ calledFrom
 gecko
 "
 )
+public
 static
 String
 getMimeTypeFromExtensions
@@ -4684,7 +4690,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 boolean
 openUriExternal
@@ -4905,7 +4911,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 showAlertNotification
@@ -5127,7 +5133,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 closeNotification
@@ -5275,7 +5281,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 float
 getDensity
@@ -5418,7 +5424,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 synchronized
 void
@@ -5473,7 +5479,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 setFullScreen
@@ -5509,7 +5515,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 performHapticFeedback
@@ -5697,7 +5703,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 vibrate
@@ -5740,7 +5746,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 vibrate
@@ -5840,7 +5846,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 cancelVibrate
@@ -5872,7 +5878,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 setKeepScreenOn
@@ -5911,7 +5917,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 boolean
 isNetworkLinkUp
@@ -5987,7 +5993,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 boolean
 isNetworkLinkKnown
@@ -6050,7 +6056,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 int
 getNetworkLinkType
@@ -6337,7 +6343,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 int
 [
@@ -7450,7 +7456,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 byte
 [
@@ -7809,7 +7815,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 boolean
 getShowPasswordSetting
@@ -7892,7 +7898,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 addFullScreenPluginView
@@ -7928,7 +7934,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 removeFullScreenPluginView
@@ -9148,7 +9154,7 @@ className
 ;
 }
 WrapForJNI
-public
+private
 static
 Class
 <
@@ -9782,6 +9788,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 int
 [
@@ -10361,6 +10368,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 synchronized
 void
@@ -10453,7 +10461,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 enableBatteryNotifications
@@ -10475,7 +10483,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 handleGeckoMessage
@@ -10511,7 +10519,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 disableBatteryNotifications
@@ -10533,7 +10541,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 double
 [
@@ -10563,6 +10571,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 void
 checkUriVisited
@@ -10611,6 +10620,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 void
 markUriVisited
@@ -10660,6 +10670,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 void
 setUriTitle
@@ -10708,6 +10719,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 void
 hideProgressDialog
@@ -10766,7 +10778,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 sendMessage
@@ -10796,7 +10808,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 getMessage
@@ -10841,7 +10853,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 deleteMessage
@@ -10886,7 +10898,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 markMessageRead
@@ -10937,7 +10949,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 createMessageCursor
@@ -11011,7 +11023,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 getNextMessage
@@ -11053,7 +11065,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 createThreadCursor
@@ -11108,7 +11120,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 getNextThread
@@ -11244,7 +11256,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 double
 [
@@ -11273,7 +11285,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 enableNetworkNotifications
@@ -11319,7 +11331,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 disableNetworkNotifications
@@ -11365,7 +11377,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 short
 getScreenOrientation
@@ -11394,7 +11406,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 int
 getScreenAngle
@@ -11421,7 +11433,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 enableScreenOrientationNotifications
@@ -11447,7 +11459,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 disableScreenOrientationNotifications
@@ -11473,7 +11485,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 lockScreenOrientation
@@ -11502,7 +11514,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 unlockScreenOrientation
@@ -11528,7 +11540,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 void
 notifyWakeLockChanged
@@ -11567,7 +11579,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 boolean
 unlockProfile
@@ -11641,7 +11653,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 String
 getProxyForURI
@@ -11747,6 +11759,7 @@ DIRECT
 ;
 }
 WrapForJNI
+private
 static
 InputStream
 createInputStream
@@ -11962,6 +11975,7 @@ byteCount
 }
 }
 WrapForJNI
+private
 static
 URLConnection
 getConnection
@@ -12190,6 +12204,7 @@ null
 ;
 }
 WrapForJNI
+private
 static
 String
 connectionGetMimeType
@@ -12214,6 +12229,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 String
 getExternalPublicDirectory
@@ -12434,6 +12450,7 @@ calledFrom
 gecko
 "
 )
+private
 static
 int
 getMaxTouchPoints
@@ -12543,7 +12560,7 @@ calledFrom
 gecko
 "
 )
-public
+private
 static
 synchronized
 Rect
