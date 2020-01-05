@@ -6531,6 +6531,9 @@ extern
 SECStatus
 ssl3_TLSPRFWithMasterSecret
 (
+sslSocket
+*
+ss
 ssl3CipherSpec
 *
 spec
@@ -6556,8 +6559,6 @@ out
 unsigned
 int
 outLen
-HASH_HashType
-tls12HashType
 )
 ;
 #

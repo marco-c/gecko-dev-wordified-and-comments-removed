@@ -610,17 +610,6 @@ build
 (
 recommended
 )
-*
-NSS_ENABLE_TLS_1_3
-=
-1
-to
-enable
-TLS
-1
-.
-3
-support
 The
 complete
 list
