@@ -457,6 +457,17 @@ nsIContent
 aEndChild
 )
 ;
+void
+StyleChildRangeForReconstruct
+(
+nsIContent
+*
+aStartChild
+nsIContent
+*
+aEndChild
+)
+;
 public
 :
 void
