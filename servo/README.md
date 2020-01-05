@@ -532,6 +532,9 @@ cmake
 bzip2
 libxmu
 glu
+pkg
+-
+config
 On
 Gentoo
 Linux
