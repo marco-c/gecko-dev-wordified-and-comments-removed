@@ -23959,6 +23959,7 @@ Telemetry
 :
 AccumulateChild
 (
+GeckoProcessType_Content
 aAccumulations
 )
 ;
@@ -23986,6 +23987,7 @@ Telemetry
 :
 AccumulateChildKeyed
 (
+GeckoProcessType_Content
 aAccumulations
 )
 ;

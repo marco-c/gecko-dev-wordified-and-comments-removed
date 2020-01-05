@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TelemetryHistogramEnums
@@ -247,6 +254,8 @@ Now
 void
 AccumulateChild
 (
+GeckoProcessType
+aProcessType
 const
 nsTArray
 <
@@ -259,6 +268,8 @@ aAccumulations
 void
 AccumulateChildKeyed
 (
+GeckoProcessType
+aProcessType
 const
 nsTArray
 <
