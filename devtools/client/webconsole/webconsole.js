@@ -3664,11 +3664,8 @@ offsetWidth
 ;
 tempLabel
 .
-parentNode
-.
-removeChild
+remove
 (
-tempLabel
 )
 ;
 this

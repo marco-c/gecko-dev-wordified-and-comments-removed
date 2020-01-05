@@ -97,11 +97,8 @@ menupopup
 ;
 menupopup
 .
-parentNode
-.
-removeChild
+remove
 (
-menupopup
 )
 ;
 }

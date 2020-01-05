@@ -908,11 +908,8 @@ i
 ;
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 }

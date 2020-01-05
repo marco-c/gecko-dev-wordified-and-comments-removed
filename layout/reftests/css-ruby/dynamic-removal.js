@@ -48,11 +48,8 @@ e
 {
 e
 .
-parentNode
-.
-removeChild
+remove
 (
-e
 )
 ;
 }

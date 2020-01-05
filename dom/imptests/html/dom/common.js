@@ -75,11 +75,8 @@ testDiv
 {
 testDiv
 .
-parentNode
-.
-removeChild
+remove
 (
-testDiv
 )
 ;
 }
@@ -4387,11 +4384,8 @@ parentNode
 {
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 }

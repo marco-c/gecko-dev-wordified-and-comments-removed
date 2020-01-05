@@ -1711,11 +1711,8 @@ explanationTextClass
 ;
 explain
 .
-parentNode
-.
-removeChild
+remove
 (
-explain
 )
 ;
 button

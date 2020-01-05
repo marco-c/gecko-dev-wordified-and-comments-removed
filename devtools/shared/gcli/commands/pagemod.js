@@ -981,11 +981,8 @@ hasChildNodes
 {
 element
 .
-parentNode
-.
-removeChild
+remove
 (
-element
 )
 ;
 removed

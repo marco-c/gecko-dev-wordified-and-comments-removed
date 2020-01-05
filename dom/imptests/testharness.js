@@ -11528,11 +11528,8 @@ checked
 {
 style_element
 .
-parentNode
-.
-removeChild
+remove
 (
-style_element
 )
 ;
 }

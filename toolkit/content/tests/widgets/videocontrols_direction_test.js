@@ -342,11 +342,8 @@ iframe
 ;
 iframe
 .
-parentNode
-.
-removeChild
+remove
 (
-iframe
 )
 ;
 var
@@ -368,11 +365,8 @@ canvas
 ;
 canvas
 .
-parentNode
-.
-removeChild
+remove
 (
-canvas
 )
 ;
 }

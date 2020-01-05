@@ -195,11 +195,8 @@ victim
 ;
 v
 .
-parentNode
-.
-removeChild
+remove
 (
-v
 )
 ;
 v

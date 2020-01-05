@@ -398,14 +398,8 @@ getNode
 aID
 )
 .
-parentNode
-.
-removeChild
+remove
 (
-getNode
-(
-aID
-)
 )
 ;
 }

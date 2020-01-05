@@ -343,11 +343,8 @@ done
 {
 element
 .
-parentNode
-.
-removeChild
+remove
 (
-element
 )
 ;
 worker

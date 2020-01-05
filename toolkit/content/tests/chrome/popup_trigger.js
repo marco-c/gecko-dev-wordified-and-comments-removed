@@ -5910,11 +5910,8 @@ submenupopup
 ;
 submenupopup
 .
-parentNode
-.
-removeChild
+remove
 (
-submenupopup
 )
 ;
 var
@@ -5931,11 +5928,8 @@ thepopup
 ;
 popup
 .
-parentNode
-.
-removeChild
+remove
 (
-popup
 )
 ;
 }

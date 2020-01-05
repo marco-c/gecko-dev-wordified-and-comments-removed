@@ -1301,11 +1301,8 @@ null
 ;
 aChild
 .
-parentNode
-.
-removeChild
+remove
 (
-aChild
 )
 ;
 }

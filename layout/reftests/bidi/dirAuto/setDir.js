@@ -1478,11 +1478,8 @@ break
 }
 theElement
 .
-parentNode
-.
-removeChild
+remove
 (
-theElement
 )
 ;
 }

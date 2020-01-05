@@ -2052,11 +2052,8 @@ parentNode
 {
 v
 .
-parentNode
-.
-removeChild
+remove
 (
-v
 )
 ;
 }

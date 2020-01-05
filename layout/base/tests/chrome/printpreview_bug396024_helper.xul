@@ -868,11 +868,8 @@ i
 ;
 i
 .
-parentNode
-.
-removeChild
+remove
 (
-i
 )
 ;
 var

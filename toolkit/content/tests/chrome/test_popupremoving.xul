@@ -1160,11 +1160,8 @@ menu1
 ;
 menu
 .
-parentNode
-.
-removeChild
+remove
 (
-menu
 )
 ;
 if

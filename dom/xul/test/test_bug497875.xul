@@ -363,11 +363,8 @@ blank
 "
 f
 .
-parentNode
-.
-removeChild
+remove
 (
-f
 )
 ok
 (

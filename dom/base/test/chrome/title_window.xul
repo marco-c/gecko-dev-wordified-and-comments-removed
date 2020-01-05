@@ -1539,11 +1539,8 @@ t
 ;
 t
 .
-parentNode
-.
-removeChild
+remove
 (
-t
 )
 ;
 }
@@ -2077,11 +2074,8 @@ t
 ;
 t
 .
-parentNode
-.
-removeChild
+remove
 (
-t
 )
 ;
 }

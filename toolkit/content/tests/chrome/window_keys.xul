@@ -882,11 +882,8 @@ reenabled
 ;
 keyset
 .
-parentNode
-.
-removeChild
+remove
 (
-keyset
 )
 ;
 iterateKeys

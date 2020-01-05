@@ -1175,11 +1175,8 @@ try
 {
 domNode
 .
-parentNode
-.
-removeChild
+remove
 (
-domNode
 )
 ;
 }

@@ -2377,11 +2377,8 @@ remove
 {
 remove
 .
-parentNode
-.
-removeChild
-(
 remove
+(
 )
 ;
 this

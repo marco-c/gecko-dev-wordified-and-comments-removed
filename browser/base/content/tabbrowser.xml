@@ -18692,11 +18692,8 @@ etc
 .
 browser
 .
-parentNode
-.
-removeChild
+remove
 (
-browser
 )
 ;
 /

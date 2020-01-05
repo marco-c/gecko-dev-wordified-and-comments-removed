@@ -5726,11 +5726,8 @@ CDATA
 [
 this
 .
-parentNode
-.
-removeChild
+remove
 (
-this
 )
 ;
 ]

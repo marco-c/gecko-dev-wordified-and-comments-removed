@@ -5492,11 +5492,8 @@ parentNode
 {
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 }
@@ -5642,11 +5639,8 @@ firstLine
 {
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 }

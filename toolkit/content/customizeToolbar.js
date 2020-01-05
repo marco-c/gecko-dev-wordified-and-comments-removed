@@ -3687,11 +3687,8 @@ return
 ;
 wrapper
 .
-parentNode
-.
-removeChild
+remove
 (
-wrapper
 )
 ;
 var
@@ -4064,11 +4061,8 @@ firstChild
 }
 wrapper
 .
-parentNode
-.
-removeChild
+remove
 (
-wrapper
 )
 ;
 }

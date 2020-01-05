@@ -358,11 +358,8 @@ listener
 {
 tree
 .
-parentNode
-.
-removeChild
+remove
 (
-tree
 )
 ;
 }

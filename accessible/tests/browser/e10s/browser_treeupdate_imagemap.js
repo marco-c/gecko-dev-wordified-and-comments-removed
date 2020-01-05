@@ -724,11 +724,8 @@ map
 ;
 mapNode
 .
-parentNode
-.
-removeChild
+remove
 (
-mapNode
 )
 ;
 }

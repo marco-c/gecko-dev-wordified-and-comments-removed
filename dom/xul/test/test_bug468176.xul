@@ -848,11 +848,8 @@ effect
 .
 o1
 .
-parentNode
-.
-removeChild
+remove
 (
-o1
 )
 ;
 b1

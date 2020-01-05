@@ -947,11 +947,8 @@ ifr
 ;
 i
 .
-parentNode
-.
-removeChild
+remove
 (
-i
 )
 ;
 /

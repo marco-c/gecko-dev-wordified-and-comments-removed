@@ -8163,11 +8163,8 @@ focus
 ;
 t19
 .
-parentNode
-.
-removeChild
+remove
 (
-t19
 )
 ;
 is
@@ -8258,11 +8255,8 @@ abs
 ;
 abs
 .
-parentNode
-.
-removeChild
+remove
 (
-abs
 )
 ;
 is

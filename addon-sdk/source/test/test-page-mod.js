@@ -7758,11 +7758,8 @@ function
 {
 iframe
 .
-parentNode
-.
-removeChild
+remove
 (
-iframe
 )
 ;
 openTabWithIframes

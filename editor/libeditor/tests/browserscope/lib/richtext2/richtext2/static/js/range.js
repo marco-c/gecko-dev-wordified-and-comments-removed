@@ -19313,11 +19313,8 @@ parentNode
 ?
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 :
 null

@@ -136,11 +136,8 @@ span
 ;
 span
 .
-parentNode
-.
-removeChild
+remove
 (
-span
 )
 ;
 setTimeout

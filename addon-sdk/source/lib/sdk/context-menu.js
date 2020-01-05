@@ -4997,11 +4997,8 @@ separator
 )
 separator
 .
-parentNode
-.
-removeChild
+remove
 (
-separator
 )
 ;
 }
@@ -5038,11 +5035,8 @@ separator
 ;
 separator
 .
-parentNode
-.
-removeChild
+remove
 (
-separator
 )
 ;
 this

@@ -2663,11 +2663,8 @@ canvas
 {
 canvas
 .
-parentNode
-.
-removeChild
+remove
 (
-canvas
 )
 ;
 this

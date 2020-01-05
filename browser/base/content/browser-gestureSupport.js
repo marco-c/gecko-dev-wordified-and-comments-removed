@@ -3471,13 +3471,8 @@ this
 .
 _container
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-_container
 )
 ;
 this

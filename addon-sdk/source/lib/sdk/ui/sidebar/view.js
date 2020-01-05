@@ -368,11 +368,8 @@ menuitem
 {
 menuitem
 .
-parentNode
-.
-removeChild
+remove
 (
-menuitem
 )
 ;
 }

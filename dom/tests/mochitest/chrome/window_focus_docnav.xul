@@ -383,11 +383,8 @@ browser
 ;
 browser
 .
-parentNode
-.
-removeChild
+remove
 (
-browser
 )
 ;
 let

@@ -6363,13 +6363,8 @@ this
 .
 _autoScrollPopup
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-_autoScrollPopup
 )
 ;
 }

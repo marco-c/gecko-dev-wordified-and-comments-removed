@@ -1551,11 +1551,8 @@ remote
 {
 test_node
 .
-parentNode
-.
-removeChild
+remove
 (
-test_node
 )
 ;
 run_tests
