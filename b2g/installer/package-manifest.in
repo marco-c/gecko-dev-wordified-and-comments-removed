@@ -781,13 +781,6 @@ RESPATH
 /
 components
 /
-dom_wappush
-.
-xpt
-RESPATH
-/
-components
-/
 dom_mobileconnection
 .
 xpt
