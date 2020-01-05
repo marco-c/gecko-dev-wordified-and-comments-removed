@@ -2763,12 +2763,15 @@ JSSetterOp
 setter
 )
 ;
+static
 bool
 removeProperty
 (
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 jsid
 id
 )
