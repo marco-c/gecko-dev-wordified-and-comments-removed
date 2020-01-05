@@ -25,6 +25,16 @@ app
 .
 update
 .
+doorhanger
+'
+:
+False
+    
+'
+app
+.
+update
+.
 log
 '
 :
