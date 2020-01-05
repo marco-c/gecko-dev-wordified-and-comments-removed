@@ -848,8 +848,6 @@ routes
 append
 (
 "
-index
-.
 project
 .
 releng
