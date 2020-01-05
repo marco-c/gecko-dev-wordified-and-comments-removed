@@ -838,12 +838,7 @@ _promise
 .
 then
 (
-Task
-.
-async
-(
 aFunc
-)
 )
 ;
 this

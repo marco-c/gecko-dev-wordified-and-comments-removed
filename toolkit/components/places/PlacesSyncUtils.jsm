@@ -4239,7 +4239,6 @@ newItem
 .
 tags
 =
-yield
 tagItem
 (
 bookmarkItem
@@ -5413,7 +5412,6 @@ newItem
 .
 tags
 =
-yield
 tagItem
 (
 newBookmarkItem
@@ -6236,14 +6234,8 @@ null
 }
 )
 ;
-var
-tagItem
-=
-Task
-.
-async
-(
 function
+tagItem
 (
 item
 tags
@@ -6367,8 +6359,6 @@ return
 newTags
 ;
 }
-)
-;
 function
 shouldUpdateBookmark
 (

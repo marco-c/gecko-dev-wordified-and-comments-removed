@@ -469,7 +469,7 @@ runTests
 {
 Task
 .
-async
+spawn
 (
 function
 *
@@ -898,8 +898,6 @@ finish
 )
 ;
 }
-)
-(
 )
 ;
 }
