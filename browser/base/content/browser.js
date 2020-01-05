@@ -33190,6 +33190,17 @@ gBrowser
 browsers
 )
 {
+if
+(
+!
+browser
+.
+isConnected
+)
+{
+continue
+;
+}
 let
 pmm
 =
