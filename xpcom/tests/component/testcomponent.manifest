@@ -1,0 +1,15 @@
+#
+filter
+substitution
+binary
+-
+component
+LIBRARY_FILENAME
+binary
+-
+component
+LIBRARY_FILENAME
+binary
+-
+component
+LIBRARY_FILENAME
