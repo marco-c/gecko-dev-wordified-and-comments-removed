@@ -1211,7 +1211,7 @@ style
 ;
 inline_flow
 .
-minimum_height_above_baseline
+minimum_block_size_above_baseline
 =
 ascent
 ;
@@ -4993,7 +4993,7 @@ context
 .
 opts
 .
-bubble_widths_separately
+bubble_inline_sizes_separately
 {
 self
 .
@@ -5001,7 +5001,7 @@ get_mut
 (
 )
 .
-bubble_widths
+bubble_inline_sizes
 (
 context
 )

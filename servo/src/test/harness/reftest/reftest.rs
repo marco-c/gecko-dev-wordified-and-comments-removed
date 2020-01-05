@@ -478,6 +478,9 @@ lines
 /
 ignore
 comments
+or
+empty
+lines
 if
 line
 .
@@ -486,6 +489,13 @@ starts_with
 "
 #
 "
+)
+|
+|
+line
+.
+is_empty
+(
 )
 {
 continue

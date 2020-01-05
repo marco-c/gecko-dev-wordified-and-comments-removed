@@ -110,6 +110,8 @@ deriving
 Clone
 PartialEq
 PartialOrd
+Eq
+Ord
 Zero
 )
 ]
