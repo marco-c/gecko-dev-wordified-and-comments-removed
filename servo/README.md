@@ -778,6 +778,9 @@ virtualenv
 rpm
 -
 build
+glu
+-
+devel
 #
 #
 #
