@@ -195,7 +195,6 @@ EmptyLog
 {
 }
 ;
-}
 mozilla
 :
 :
@@ -334,6 +333,7 @@ T
 return
 log
 ;
+}
 }
 #
 ifdef

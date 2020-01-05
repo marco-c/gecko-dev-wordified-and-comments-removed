@@ -252,7 +252,6 @@ chromium
 "
 )
 ;
-}
 mozilla
 :
 :
@@ -446,4 +445,5 @@ p
 return
 log
 ;
+}
 }
