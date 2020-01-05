@@ -720,7 +720,7 @@ Zamknij
 "
 }
 "
-termsAndPrivacyNotice
+termsAndPrivacyNoticeCloudServices
 "
 :
 {
@@ -740,6 +740,10 @@ na
 TERMSANDPRIVACYNOTICETERMSLINK
 i
 TERMSANDPRIVACYNOTICEPRIVACYLINK
+us
+ug
+Firefox
+Cloud
 .
 "
 "
@@ -787,9 +791,6 @@ message
 "
 warunki
 korzystania
-z
-us
-ugi
 "
 }
 "

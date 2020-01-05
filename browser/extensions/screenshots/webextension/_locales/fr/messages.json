@@ -508,7 +508,6 @@ Screenshots
 semble
 avoir
 un
-petit
 probl
 me
 .
@@ -811,7 +810,7 @@ Termin
 "
 }
 "
-termsAndPrivacyNotice
+termsAndPrivacyNoticeCloudServices
 "
 :
 {
@@ -831,8 +830,12 @@ TERMSANDPRIVACYNOTICETERMSLINK
 et
 la
 TERMSANDPRIVACYNOTICEPRIVACYLINK
+des
+services
+en
+ligne
 de
-Screenshots
+Firefox
 .
 "
 "

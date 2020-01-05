@@ -794,7 +794,7 @@ Concluir
 "
 }
 "
-termsAndPrivacyNotice
+termsAndPrivacyNoticeCloudServices
 "
 :
 {
@@ -804,6 +804,7 @@ message
 :
 "
 Usando
+o
 Firefox
 Screenshots
 voc
@@ -813,6 +814,13 @@ os
 TERMSANDPRIVACYNOTICETERMSLINK
 e
 TERMSANDPRIVACYNOTICEPRIVACYLINK
+dos
+servi
+os
+na
+nuvem
+do
+Firefox
 .
 "
 "

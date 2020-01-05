@@ -18,6 +18,17 @@ exports
 {
 }
 ;
+let
+manifest
+=
+browser
+.
+runtime
+.
+getManifest
+(
+)
+;
 const
 ERROR_TIME_LIMIT
 =
@@ -632,7 +643,7 @@ tags
 {
 version
 :
-e
+manifest
 .
 version
 category

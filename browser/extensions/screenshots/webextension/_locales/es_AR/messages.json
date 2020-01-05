@@ -760,7 +760,7 @@ Listo
 "
 }
 "
-termsAndPrivacyNotice
+termsAndPrivacyNoticeCloudServices
 "
 :
 {
@@ -769,7 +769,7 @@ message
 "
 :
 "
-Al
+AL
 usar
 Firefox
 Screenshots
@@ -780,7 +780,13 @@ TERMSANDPRIVACYNOTICETERMSLINK
 y
 TERMSANDPRIVACYNOTICEPRIVACYLINK
 de
-Screenshots
+los
+servicios
+en
+la
+nube
+de
+Firefox
 .
 "
 "

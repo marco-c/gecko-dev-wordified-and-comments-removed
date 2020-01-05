@@ -459,7 +459,7 @@ message
 "
 }
 "
-termsAndPrivacyNotice
+termsAndPrivacyNoticeCloudServices
 "
 :
 {
@@ -469,6 +469,8 @@ message
 :
 "
 Firefox
+Firefox
+Cloud
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
 .

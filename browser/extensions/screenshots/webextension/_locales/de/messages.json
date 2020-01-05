@@ -760,7 +760,7 @@ Fertig
 "
 }
 "
-termsAndPrivacyNotice
+termsAndPrivacyNoticeCloudServices
 "
 :
 {
@@ -778,11 +778,14 @@ Screenshots
 stimmen
 Sie
 den
-entsprechenden
 TERMSANDPRIVACYNOTICETERMSLINK
 und
 dem
 TERMSANDPRIVACYNOTICEPRIVACYLINK
+von
+Firefox
+Cloud
+Services
 zu
 .
 "
