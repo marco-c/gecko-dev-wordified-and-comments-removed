@@ -17065,8 +17065,11 @@ s
     
 addProperty
 :
+Some
+(
 %
 s
+)
 /
 *
 addProperty
@@ -17075,10 +17078,13 @@ addProperty
     
 delProperty
 :
+Some
+(
 crust
 :
 :
 JS_PropertyStub
+)
 /
 *
 delProperty
@@ -17087,10 +17093,13 @@ delProperty
     
 getProperty
 :
+Some
+(
 crust
 :
 :
 JS_PropertyStub
+)
 /
 *
 getProperty
@@ -17099,10 +17108,13 @@ getProperty
     
 setProperty
 :
+Some
+(
 crust
 :
 :
 JS_StrictPropertyStub
+)
 /
 *
 setProperty
@@ -17111,24 +17123,33 @@ setProperty
     
 enumerate
 :
+Some
+(
 crust
 :
 :
 JS_EnumerateStub
+)
     
 resolve
 :
+Some
+(
 crust
 :
 :
 JS_ResolveStub
+)
     
 convert
 :
+Some
+(
 crust
 :
 :
 JS_ConvertStub
+)
     
 finalize
 :
@@ -17735,10 +17756,13 @@ JSCLASS_HAS_RESERVED_SLOTS
   
 addProperty
 :
+Some
+(
 crust
 :
 :
 JS_PropertyStub
+)
 /
 *
 addProperty
@@ -17747,10 +17771,13 @@ addProperty
   
 delProperty
 :
+Some
+(
 crust
 :
 :
 JS_PropertyStub
+)
 /
 *
 delProperty
@@ -17759,10 +17786,13 @@ delProperty
   
 getProperty
 :
+Some
+(
 crust
 :
 :
 JS_PropertyStub
+)
 /
 *
 getProperty
@@ -17771,10 +17801,13 @@ getProperty
   
 setProperty
 :
+Some
+(
 crust
 :
 :
 JS_StrictPropertyStub
+)
 /
 *
 setProperty
@@ -17783,24 +17816,33 @@ setProperty
   
 enumerate
 :
+Some
+(
 crust
 :
 :
 JS_EnumerateStub
+)
   
 resolve
 :
+Some
+(
 crust
 :
 :
 JS_ResolveStub
+)
   
 convert
 :
+Some
+(
 crust
 :
 :
 JS_ConvertStub
+)
   
 finalize
 :
