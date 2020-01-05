@@ -43,6 +43,11 @@ h
 #
 include
 <
+atomic
+>
+#
+include
+<
 stdint
 .
 h
@@ -58,15 +63,6 @@ ReleaseAcquire
 SequentiallyConsistent
 }
 ;
-}
-#
-include
-<
-atomic
->
-namespace
-mozilla
-{
 namespace
 detail
 {
