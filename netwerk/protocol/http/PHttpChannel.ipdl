@@ -792,10 +792,6 @@ channelStatus
 nsresult
 transportStatus
 uint64_t
-progress
-uint64_t
-progressMax
-uint64_t
 offset
 uint32_t
 count
