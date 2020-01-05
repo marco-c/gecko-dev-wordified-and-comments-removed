@@ -653,7 +653,7 @@ enabled
 "
 PDMWMFVP9DecoderEnabled
 bool
-false
+true
 )
 ;
 DECL_MEDIA_PREF
