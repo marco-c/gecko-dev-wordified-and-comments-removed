@@ -106,8 +106,6 @@ alpha
 do_clip
 (
 local_pos
-vClipRect
-vClipRadius
 )
 )
 ;

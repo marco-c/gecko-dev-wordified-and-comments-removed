@@ -63,16 +63,6 @@ varying
 vec4
 vColor
 ;
-flat
-varying
-vec4
-vClipRect
-;
-flat
-varying
-vec4
-vClipRadius
-;
 #
 ifdef
 WR_FEATURE_TRANSFORM
