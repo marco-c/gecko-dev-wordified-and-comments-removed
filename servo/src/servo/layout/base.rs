@@ -105,10 +105,7 @@ image
 base
 :
 :
-{
 Image
-load
-}
 ;
 import
 util

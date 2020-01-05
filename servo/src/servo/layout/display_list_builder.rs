@@ -95,15 +95,6 @@ gfx
 renderer
 ;
 import
-image
-:
-:
-base
-:
-:
-load
-;
-import
 util
 :
 :
