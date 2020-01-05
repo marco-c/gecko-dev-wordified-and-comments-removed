@@ -125,6 +125,17 @@ nsCString
 aRetVal
 )
 ;
+bool
+GetAvailableLocales
+(
+nsTArray
+<
+nsCString
+>
+&
+aRetVal
+)
+;
 void
 Refresh
 (
