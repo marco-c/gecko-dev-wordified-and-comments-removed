@@ -433,17 +433,6 @@ error
 "
 no
 -
-spaced
--
-func
-"
-:
-"
-error
-"
-"
-no
--
 trailing
 -
 spaces

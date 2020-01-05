@@ -543,17 +543,6 @@ warn
 "
 no
 -
-spaced
--
-func
-"
-:
-"
-warn
-"
-"
-no
--
 unused
 -
 expressions

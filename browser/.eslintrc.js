@@ -52,17 +52,6 @@ empty
 error
 "
 "
-no
--
-spaced
--
-func
-"
-:
-"
-error
-"
-"
 max
 -
 nested
