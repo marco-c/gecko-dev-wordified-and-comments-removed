@@ -5587,6 +5587,13 @@ UpdateSharedCompositorFrameMetrics
 )
 ;
 }
+else
+{
+RequestContentRepaint
+(
+)
+;
+}
 ScheduleComposite
 (
 )
