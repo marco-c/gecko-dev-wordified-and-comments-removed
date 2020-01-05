@@ -65,6 +65,10 @@ size
 au
 >
 )
+nk_text
+(
+str
+)
 }
 #
 [

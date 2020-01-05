@@ -24,6 +24,7 @@ base
 {
 nk_div
 nk_img
+nk_text
 node
 node_kind
 }
@@ -111,6 +112,11 @@ di_block
 )
 }
 nk_img
+(
+*
+)
+|
+nk_text
 (
 *
 )
