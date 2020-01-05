@@ -1616,13 +1616,6 @@ AbortTextureClientCreation
 return
 ;
 }
-mTextureClientOnWhite
--
->
-EnableBlockingReadLock
-(
-)
-;
 }
 }
 void
