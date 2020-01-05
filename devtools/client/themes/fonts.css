@@ -90,6 +90,12 @@ cursor
 :
 pointer
 ;
+flex
+-
+shrink
+:
+0
+;
 }
 #
 font
