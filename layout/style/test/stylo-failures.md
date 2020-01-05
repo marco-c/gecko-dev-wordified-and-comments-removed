@@ -709,7 +709,7 @@ support
 of
 import
 [
-3
+1
 ]
 *
 console
