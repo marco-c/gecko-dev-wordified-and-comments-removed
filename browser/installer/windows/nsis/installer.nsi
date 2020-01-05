@@ -3683,6 +3683,7 @@ Unless
 {
 Silent
 }
+ClearErrors
 {
 MUI_INSTALLOPTIONS_READ
 }
@@ -3994,7 +3995,10 @@ ExecCodeSegment
 EndIf
 }
 {
-Else
+ElseIfNot
+}
+{
+Errors
 }
 {
 LogHeader
