@@ -1449,14 +1449,14 @@ Gecko_CopyClipPathValueFrom
 mozilla
 :
 :
-StyleClipPath
+StyleShapeSource
 *
 dst
 const
 mozilla
 :
 :
-StyleClipPath
+StyleShapeSource
 *
 src
 )
@@ -1467,7 +1467,7 @@ Gecko_DestroyClipPath
 mozilla
 :
 :
-StyleClipPath
+StyleShapeSource
 *
 clip
 )
@@ -1492,7 +1492,7 @@ Gecko_StyleClipPath_SetURLValue
 mozilla
 :
 :
-StyleClipPath
+StyleShapeSource
 *
 clip
 ServoBundledURI
