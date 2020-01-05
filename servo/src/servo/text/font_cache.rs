@@ -9,6 +9,12 @@ FontWeight300
 test_font_bin
 }
 ;
+use
+native_font
+:
+:
+NativeFont
+;
 struct
 FontCache
 {
@@ -201,10 +207,10 @@ false
 let
 native_font
 =
-native_font
+NativeFont
 :
 :
-create
+new
 (
 native_lib
 font_bin
