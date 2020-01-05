@@ -2286,15 +2286,12 @@ clone
 let
 connector
 =
-create_http_connector
-(
 group
 .
-ssl_client
+connector
 .
 clone
 (
-)
 )
 ;
 thread
