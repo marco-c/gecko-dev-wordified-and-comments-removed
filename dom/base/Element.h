@@ -743,6 +743,14 @@ GetInlineStyleDeclaration
 )
 const
 ;
+const
+nsMappedAttributes
+*
+GetMappedAttributes
+(
+)
+const
+;
 virtual
 nsresult
 SetInlineStyleDeclaration

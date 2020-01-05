@@ -904,7 +904,14 @@ ServoElementSnapshot
 undef
 SERVO_DECLARE_ELEMENT_ATTR_MATCHING_FUNCTIONS
 RawServoDeclarationBlockStrongBorrowedOrNull
-Gecko_GetServoDeclarationBlock
+Gecko_GetStyleAttrDeclarationBlock
+(
+RawGeckoElementBorrowed
+element
+)
+;
+RawServoDeclarationBlockStrongBorrowedOrNull
+Gecko_GetHTMLPresentationAttrDeclarationBlock
 (
 RawGeckoElementBorrowed
 element

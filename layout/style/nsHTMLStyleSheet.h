@@ -281,6 +281,11 @@ nsMappedAttributes
 aMapped
 )
 ;
+void
+CalculateMappedServoDeclarations
+(
+)
+;
 nsIStyleRule
 *
 LangRuleFor
@@ -736,6 +741,9 @@ mTableTHRule
 ;
 PLDHashTable
 mMappedAttrTable
+;
+bool
+mMappedAttrsDirty
 ;
 PLDHashTable
 mLangRuleTable

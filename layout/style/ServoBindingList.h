@@ -545,6 +545,17 @@ property
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_AddPresValue
+void
+RawServoDeclarationBlockBorrowed
+declarations
+nsCSSPropertyID
+property
+nsCSSValueBorrowedMut
+css_value
+)
+SERVO_BINDING_FUNC
+(
 Servo_CSSSupports2
 bool
 const
