@@ -80,6 +80,9 @@ level
 MESSAGE_LEVEL
 .
 LOG
+groupId
+:
+null
 }
 )
 ;
@@ -125,6 +128,9 @@ null
 frame
 :
 null
+groupId
+:
+null
 }
 )
 ;
@@ -167,6 +173,9 @@ type
 MESSAGE_TYPE
 .
 LOG
+groupId
+:
+null
 }
 )
 ;

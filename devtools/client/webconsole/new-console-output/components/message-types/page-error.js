@@ -76,6 +76,13 @@ open
 PropTypes
 .
 bool
+indent
+:
+PropTypes
+.
+number
+.
+isRequired
 }
 ;
 PageError
@@ -86,6 +93,9 @@ defaultProps
 open
 :
 false
+indent
+:
+0
 }
 ;
 function
@@ -99,6 +109,7 @@ const
 message
 open
 serviceContainer
+indent
 }
 =
 props
@@ -127,6 +138,9 @@ childProps
 {
 messageId
 open
+collapsible
+:
+true
 source
 type
 level
@@ -134,6 +148,7 @@ topLevelClasses
 :
 [
 ]
+indent
 messageBody
 repeat
 frame

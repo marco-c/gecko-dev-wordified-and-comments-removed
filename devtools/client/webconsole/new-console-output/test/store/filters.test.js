@@ -268,7 +268,7 @@ numMessages
 const
 numUnfilterableMessages
 =
-2
+3
 ;
 beforeEach
 (
@@ -1612,6 +1612,16 @@ asdf
 is
 not
 defined
+"
+"
+console
+.
+group
+(
+'
+bar
+'
+)
 "
 ]
 )
