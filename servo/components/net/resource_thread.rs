@@ -2300,11 +2300,12 @@ clone
 )
 connector_pool
 :
-create_http_connector
+group
+.
+connector
+.
+clone
 (
-"
-certs
-"
 )
 }
 ;
