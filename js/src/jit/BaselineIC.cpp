@@ -3238,7 +3238,7 @@ Baseline
 ;
 Label
 failure
-ifFalse
+emulatesUndefined
 slowPath
 ;
 masm
@@ -3276,15 +3276,14 @@ scratchReg
 ;
 masm
 .
-branchTestObjectTruthy
+branchIfObjectEmulatesUndefined
 (
-false
 objReg
 scratch
 &
 slowPath
 &
-ifFalse
+emulatesUndefined
 )
 ;
 masm
@@ -3308,7 +3307,7 @@ masm
 bind
 (
 &
-ifFalse
+emulatesUndefined
 )
 ;
 masm
