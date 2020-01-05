@@ -88,6 +88,10 @@ heapsize_plugin
 )
 )
 ]
+extern
+crate
+app_units
+;
 #
 [
 macro_use

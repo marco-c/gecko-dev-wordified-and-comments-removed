@@ -403,9 +403,14 @@ Length
 Calc
 (
 calc
+range
 )
 =
 >
+range
+.
+clamp
+(
 calc
 .
 to_computed_value
@@ -415,6 +420,7 @@ context
 .
 length
 (
+)
 )
 specified
 :
@@ -3245,6 +3251,7 @@ Length
 Calc
 (
 calc
+range
 )
 )
 =
@@ -3255,6 +3262,10 @@ LengthOrNone
 :
 Length
 (
+range
+.
+clamp
+(
 calc
 .
 to_computed_value
@@ -3264,6 +3275,7 @@ context
 .
 length
 (
+)
 )
 )
 }
