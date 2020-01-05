@@ -144,6 +144,11 @@ InputType
 .
 cpp
 '
+'
+SingleLineTextInputTypes
+.
+cpp
+'
 ]
 include
 (
