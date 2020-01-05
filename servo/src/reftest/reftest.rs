@@ -347,7 +347,10 @@ file
 make_test
 (
 config
+(
+*
 file
+)
 .
 to_str
 (
