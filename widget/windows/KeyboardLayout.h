@@ -1523,6 +1523,12 @@ MOZ_WM_KEYUP
 ;
 }
 bool
+IsReservedBySystem
+(
+)
+const
+;
+bool
 GetFollowingCharMessage
 (
 MSG
