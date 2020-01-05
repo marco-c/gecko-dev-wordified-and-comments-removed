@@ -652,10 +652,7 @@ profiles
 [
 fieldName
 ]
-TEST_PROFILE_1
-[
-fieldName
-]
+fieldValue
 "
 check
 "
