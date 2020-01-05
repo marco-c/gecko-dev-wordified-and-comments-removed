@@ -67,6 +67,16 @@ mozilla
 namespace
 psm
 {
+typedef
+mozilla
+:
+:
+pkix
+:
+:
+Result
+Result
+;
 static
 SECStatus
 DigestLength

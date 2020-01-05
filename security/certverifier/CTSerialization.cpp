@@ -52,6 +52,16 @@ mozilla
 :
 pkix
 ;
+typedef
+mozilla
+:
+:
+pkix
+:
+:
+Result
+Result
+;
 static
 const
 size_t

@@ -16,6 +16,12 @@ mozilla
 :
 pkix
 ;
+namespace
+mozilla
+{
+namespace
+psm
+{
 OCSPVerificationTrustDomain
 :
 :
@@ -339,4 +345,6 @@ digestBuf
 digestBufLen
 )
 ;
+}
+}
 }

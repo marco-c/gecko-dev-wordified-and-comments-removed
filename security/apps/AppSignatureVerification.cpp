@@ -2405,6 +2405,12 @@ SECFailure
 Input
 certDER
 ;
+mozilla
+:
+:
+pkix
+:
+:
 Result
 rv
 =
@@ -2483,6 +2489,12 @@ if
 rv
 =
 =
+mozilla
+:
+:
+pkix
+:
+:
 Result
 :
 :

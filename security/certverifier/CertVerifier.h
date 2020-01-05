@@ -76,6 +76,16 @@ mozilla
 namespace
 psm
 {
+typedef
+mozilla
+:
+:
+pkix
+:
+:
+Result
+Result
+;
 enum
 class
 KeySizeStatus
