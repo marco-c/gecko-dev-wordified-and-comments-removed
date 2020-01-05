@@ -48,7 +48,7 @@ self
         
 self
 .
-close_all_windows
+close_all_tabs
 (
 )
         
