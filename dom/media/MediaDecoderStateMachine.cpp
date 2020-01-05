@@ -10683,7 +10683,12 @@ false
 )
 mMinimizePreroll
 (
-false
+aDecoder
+-
+>
+GetMinimizePreroll
+(
+)
 )
 mSentLoadedMetadataEvent
 (

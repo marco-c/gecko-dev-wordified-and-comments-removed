@@ -587,6 +587,16 @@ SetMinimizePrerollUntilPlaybackStarts
 (
 )
 ;
+bool
+GetMinimizePreroll
+(
+)
+const
+{
+return
+mMinimizePreroll
+;
+}
 virtual
 void
 AddOutputStream
