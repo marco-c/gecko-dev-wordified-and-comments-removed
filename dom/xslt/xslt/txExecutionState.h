@@ -347,6 +347,14 @@ popEvalContext
 (
 )
 ;
+void
+popAndDeleteEvalContextUntil
+(
+txIEvalContext
+*
+aContext
+)
+;
 nsresult
 pushBool
 (
