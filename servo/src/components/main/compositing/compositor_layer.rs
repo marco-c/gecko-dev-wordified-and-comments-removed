@@ -164,7 +164,7 @@ use
 pipeline
 :
 :
-Pipeline
+CompositionPipeline
 ;
 use
 script
@@ -282,7 +282,7 @@ CompositorLayer
 {
 pipeline
 :
-Pipeline
+CompositionPipeline
 page_size
 :
 Option
@@ -696,7 +696,7 @@ new
 (
 pipeline
 :
-Pipeline
+CompositionPipeline
 page_size
 :
 Option
@@ -4965,7 +4965,7 @@ mut
 self
 pipeline
 :
-Pipeline
+CompositionPipeline
 page_size
 :
 Option
