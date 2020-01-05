@@ -10910,6 +10910,8 @@ mOriginalDisplay
 uint8_t
 mContain
 ;
+private
+:
 friend
 class
 nsComputedDOMStyle
