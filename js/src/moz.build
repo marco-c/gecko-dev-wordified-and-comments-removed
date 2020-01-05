@@ -584,11 +584,6 @@ jsbytecode
 h
 '
 '
-jsclist
-.
-h
-'
-'
 jscpucfg
 .
 h
