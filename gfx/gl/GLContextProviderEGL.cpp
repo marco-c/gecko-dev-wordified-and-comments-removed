@@ -1916,14 +1916,11 @@ SetupLookupFunction
 {
 mLookupFunc
 =
-(
-PlatformLookupFunction
-)
 sEGLLibrary
 .
-mSymbols
-.
-fGetProcAddress
+GetLookupFunction
+(
+)
 ;
 return
 true

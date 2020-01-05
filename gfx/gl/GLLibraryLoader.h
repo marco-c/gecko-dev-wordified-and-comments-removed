@@ -116,6 +116,16 @@ warnOnFailure
 true
 )
 ;
+static
+void
+ClearSymbols
+(
+const
+SymLoadStruct
+*
+firstStruct
+)
+;
 PRFuncPtr
 LookupSymbol
 (
