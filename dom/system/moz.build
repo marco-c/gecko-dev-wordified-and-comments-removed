@@ -534,6 +534,12 @@ xpconnect
 /
 loader
 '
+'
+/
+xpcom
+/
+base
+'
 ]
 DEFINES
 [
