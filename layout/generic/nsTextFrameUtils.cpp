@@ -52,6 +52,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 static
 bool
 IsDiscardable

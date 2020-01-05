@@ -101,6 +101,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 #
 define
 LATIN_CAPITAL_LETTER_I_WITH_DOT_ABOVE

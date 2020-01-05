@@ -41,16 +41,8 @@ nsSimplePageSequenceFrame
 h
 "
 using
+namespace
 mozilla
-:
-:
-LogicalSize
-;
-using
-mozilla
-:
-:
-WritingMode
 ;
 nsPageContentFrame
 *

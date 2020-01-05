@@ -106,6 +106,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 NS_QUERYFRAME_HEAD
 (
 nsRubyBaseContainerFrame
