@@ -730,7 +730,7 @@ version
 .
 5
 .
-0
+3
 "
 source
 =
@@ -762,9 +762,9 @@ dependencies
 byteorder
 0
 .
-4
+5
 .
-2
+1
 (
 registry
 +
@@ -976,9 +976,9 @@ version
 "
 0
 .
-4
+5
 .
-2
+1
 "
 source
 =
@@ -2494,7 +2494,7 @@ version
 .
 2
 .
-1
+2
 "
 source
 =
@@ -2515,7 +2515,7 @@ ipc
 -
 channel
 #
-f85a07bdb2615e439bee7308d37266ac3dd23708
+e43fb22c431740a9bc54ce96caebd0e67d1a0586
 "
 dependencies
 =
@@ -2526,7 +2526,7 @@ bincode
 .
 5
 .
-0
+3
 (
 registry
 +
@@ -2553,9 +2553,9 @@ index
 byteorder
 0
 .
-4
+5
 .
-2
+1
 (
 registry
 +
@@ -6730,7 +6730,7 @@ channel
 .
 2
 .
-1
+2
 (
 git
 +
