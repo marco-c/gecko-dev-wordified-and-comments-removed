@@ -1428,6 +1428,12 @@ aProperty
 nsStyleContext
 *
 aStyleContext
+RefPtr
+<
+nsStyleContext
+>
+&
+aCachedBaseStyleContext
 )
 ;
 Maybe
