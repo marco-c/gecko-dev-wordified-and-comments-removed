@@ -8011,7 +8011,10 @@ forget
 }
 #
 endif
-MOZ_ASSERT
+#
+ifdef
+DEBUG
+if
 (
 mCanvas
 -
@@ -8026,6 +8029,10 @@ colorType
 !
 =
 kUnknown_SkColorType
+)
+{
+NS_WARNING
+(
 "
 Not
 backed
@@ -8042,6 +8049,9 @@ SkCanvas
 "
 )
 ;
+}
+#
+endif
 if
 (
 !
