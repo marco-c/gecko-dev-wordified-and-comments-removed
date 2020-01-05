@@ -1078,6 +1078,16 @@ Folder
 <
 !
 ENTITY
+bookmark_add_folder
+"
+Add
+new
+folder
+"
+>
+<
+!
+ENTITY
 reader_saved_offline
 "
 Saved
