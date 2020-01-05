@@ -141,11 +141,6 @@ nsStringGlue
 .
 h
 '
-'
-nsXPTCUtils
-.
-h
-'
 ]
 EXPORTS
 .

@@ -108,6 +108,11 @@ EXPORTS
 =
 [
 '
+nsXPTCUtils
+.
+h
+'
+'
 xptcall
 .
 h
