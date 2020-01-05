@@ -619,7 +619,6 @@ Clone
 PartialEq
 )
 ]
-pub
 struct
 InternalRawUncompiledHandler
 {
@@ -642,7 +641,6 @@ PartialEq
 Clone
 )
 ]
-pub
 enum
 InlineEventListener
 {
@@ -1882,7 +1880,6 @@ None
 event
 )
 }
-pub
 fn
 set_inline_event_listener
 (
@@ -2185,7 +2182,6 @@ allow
 unsafe_code
 )
 ]
-pub
 fn
 get_compiled_event_handler
 (
@@ -3081,7 +3077,11 @@ parent
 (
 )
 .
-callback
+callback_holder
+(
+)
+.
+get
 (
 )
 )

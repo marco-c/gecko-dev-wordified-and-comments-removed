@@ -42723,6 +42723,19 @@ bindings
 callback
 :
 :
+CallbackObject
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
+callback
+:
+:
 ExceptionHandling
 '
         
@@ -49083,23 +49096,22 @@ callback
 }
     
 fn
-callback
+callback_holder
 (
 &
 self
 )
 -
 >
-*
-mut
-JSObject
+&
+CallbackObject
 {
         
 self
 .
 parent
 .
-callback
+callback_holder
 (
 )
     
@@ -51228,8 +51240,6 @@ ObjectValue
 (
 self
 .
-parent
-.
 callback
 (
 )
@@ -51261,8 +51271,6 @@ return
 IsCallable
 (
 self
-.
-parent
 .
 callback
 (
@@ -51352,8 +51360,6 @@ return
 "
 self
 .
-parent
-.
 callback
 (
 )
@@ -51373,8 +51379,6 @@ get
 else
 {
 self
-.
-parent
 .
 callback
 (
@@ -51480,8 +51484,6 @@ IsCallable
 (
 self
 .
-parent
-.
 callback
 (
 )
@@ -51522,8 +51524,6 @@ CGGeneric
 ObjectValue
 (
 self
-.
-parent
 .
 callback
 (
