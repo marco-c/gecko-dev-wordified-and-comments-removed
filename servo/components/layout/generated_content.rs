@@ -3486,6 +3486,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :
