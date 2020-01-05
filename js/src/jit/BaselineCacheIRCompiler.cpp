@@ -9534,6 +9534,12 @@ CacheKind
 :
 In
 :
+case
+CacheKind
+:
+:
+HasOwn
+:
 MOZ_ASSERT
 (
 numInputs
@@ -9782,6 +9788,12 @@ CacheKind
 :
 :
 In
+:
+case
+CacheKind
+:
+:
+HasOwn
 :
 stubDataOffset
 =
