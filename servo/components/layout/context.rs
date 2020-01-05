@@ -1,7 +1,7 @@
 #
 !
 [
-allow
+deny
 (
 unsafe_code
 )
@@ -618,6 +618,13 @@ goal
 :
 ReflowGoal
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 impl
 Sync
