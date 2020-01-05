@@ -389,7 +389,8 @@ echo
 -
 BEGIN_ENV_BEFORE_SOURCE
 "
-env
+3
+4
 echo
 "
 -
@@ -459,7 +460,8 @@ echo
 -
 BEGIN_ENV_AFTER_SOURCE
 "
-env
+3
+4
 echo
 "
 -
