@@ -16412,8 +16412,6 @@ skip
 script
 test262
 /
-annexB
-/
 built
 -
 ins
@@ -16436,8 +16434,6 @@ js
 skip
 script
 test262
-/
-annexB
 /
 built
 -
