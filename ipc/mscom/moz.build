@@ -226,6 +226,11 @@ Registration
 h
 '
 '
+StructStream
+.
+h
+'
+'
 WeakRef
 .
 h
@@ -277,6 +282,11 @@ cpp
 '
 '
 MainThreadInvoker
+.
+cpp
+'
+'
+StructStream
 .
 cpp
 '
