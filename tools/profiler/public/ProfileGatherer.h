@@ -44,7 +44,7 @@ ProfileGatherer
 (
 GeckoSampler
 *
-aTicker
+aSampler
 )
 ;
 void
@@ -153,7 +153,7 @@ mFile
 ;
 GeckoSampler
 *
-mTicker
+mSampler
 ;
 double
 mSinceTime
