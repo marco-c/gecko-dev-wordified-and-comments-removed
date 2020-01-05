@@ -610,6 +610,8 @@ clear
 -
 origin
 -
+attributes
+-
 data
 "
 attrs_inBrowser
@@ -678,6 +680,8 @@ clear
 -
 origin
 -
+attributes
+-
 data
 "
 attrs_notInBrowser
@@ -694,6 +698,8 @@ null
 clear
 -
 origin
+-
+attributes
 -
 data
 "
@@ -776,6 +782,8 @@ null
 clear
 -
 origin
+-
+attributes
 -
 data
 "
