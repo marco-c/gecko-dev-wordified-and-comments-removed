@@ -46,6 +46,13 @@ png
 str
 )
 }
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 from_cmdline_args
 (

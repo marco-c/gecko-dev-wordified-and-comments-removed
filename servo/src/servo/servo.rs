@@ -49,6 +49,13 @@ args
 )
 )
 }
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 run
 (

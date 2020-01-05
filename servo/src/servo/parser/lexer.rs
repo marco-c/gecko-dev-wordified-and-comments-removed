@@ -2575,6 +2575,13 @@ reader
 }
 ;
 }
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 spawn_html_parser_task
 (
@@ -2714,6 +2721,13 @@ ret
 result_port
 ;
 }
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 spawn_css_lexer_task
 (

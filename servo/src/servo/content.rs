@@ -140,6 +140,13 @@ response
 .
 "
 ]
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 join_layout
 (
@@ -200,6 +207,13 @@ reader_joined
 ;
 }
 }
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 content
 (

@@ -1881,6 +1881,13 @@ write_ptr
 )
 )
 }
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 handle
 (
@@ -2029,6 +2036,13 @@ h
 cfg
 (
 test
+)
+]
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
 )
 ]
 mod

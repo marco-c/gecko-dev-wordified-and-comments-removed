@@ -97,6 +97,13 @@ text
 .
 "
 ]
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 class
 font
 /
@@ -124,7 +131,7 @@ fn
 ;
 new
 (
-+
+-
 fontbuf
 :
 [
@@ -141,6 +148,7 @@ font_dtor
 get_cairo_font
 (
 &
+copy
 fontbuf
 )
 ;
@@ -154,7 +162,8 @@ is_not_null
 self
 .
 fontbuf
-=
+<
+-
 fontbuf
 ;
 self

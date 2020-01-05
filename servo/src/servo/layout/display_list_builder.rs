@@ -416,6 +416,13 @@ box
 .
 "
 ]
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 box_to_display_items
 (

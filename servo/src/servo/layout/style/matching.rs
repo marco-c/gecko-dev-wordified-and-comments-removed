@@ -1332,6 +1332,13 @@ io
 :
 println
 ;
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 new_node_from_attr
 (

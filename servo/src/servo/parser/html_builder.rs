@@ -114,6 +114,13 @@ dvec
 :
 extensions
 ;
+#
+[
+warn
+(
+no_non_implicitly_copyable_typarams
+)
+]
 fn
 link_up_attribute
 (
