@@ -148,14 +148,27 @@ for
 task
 in
 tasks_with_matching_kind
+        
 if
+task
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+'
+'
+)
+.
+startswith
+(
 '
 android
 '
-in
-task
-.
-label
+)
     
 ]
     
