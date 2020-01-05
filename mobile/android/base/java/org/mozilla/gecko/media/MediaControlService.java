@@ -1493,17 +1493,6 @@ mIsMediaControlPrefOn
 return
 ;
 }
-if
-(
-!
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
-return
-;
-}
 final
 Tab
 tab
