@@ -536,7 +536,7 @@ js
 jsapi
 :
 :
-Class
+JSClass
 pub
 dom_class
 :
