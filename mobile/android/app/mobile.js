@@ -5590,9 +5590,6 @@ visible
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -5617,8 +5614,6 @@ apiVisible
 true
 )
 ;
-#
-endif
 pref
 (
 "
