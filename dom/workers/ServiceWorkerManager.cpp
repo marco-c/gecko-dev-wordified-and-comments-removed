@@ -11894,6 +11894,12 @@ ScriptSpec
 (
 )
 nullptr
+registration
+-
+>
+GetLoadFlags
+(
+)
 )
 ;
 queue
@@ -12210,6 +12216,12 @@ ScriptSpec
 (
 )
 nullptr
+registration
+-
+>
+GetLoadFlags
+(
+)
 )
 ;
 RefPtr

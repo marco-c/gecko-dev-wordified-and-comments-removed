@@ -77,6 +77,16 @@ aMaxScope
 =
 0
 ;
+virtual
+void
+SaveLoadFlags
+(
+nsLoadFlags
+aLoadFlags
+)
+=
+0
+;
 NS_IMETHOD_
 (
 MozExternalRefCountType

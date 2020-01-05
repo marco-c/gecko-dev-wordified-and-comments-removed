@@ -27,10 +27,6 @@ final
 public
 ServiceWorkerUpdateJob
 {
-const
-nsLoadFlags
-mLoadFlags
-;
 public
 :
 ServiceWorkerRegisterJob
