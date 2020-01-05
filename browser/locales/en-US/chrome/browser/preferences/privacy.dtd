@@ -62,11 +62,10 @@ MPL
 <
 !
 ENTITY
-trackingProtectionHeader
+trackingProtectionHeader2
 .
 label
 "
-Use
 Tracking
 Protection
 "

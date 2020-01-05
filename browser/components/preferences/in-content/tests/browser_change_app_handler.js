@@ -165,7 +165,6 @@ openPreferencesViaOpenPreferencesAPI
 "
 applications
 "
-null
 {
 leaveOpen
 :

@@ -49,9 +49,8 @@ yield
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneContent
+paneGeneral
 "
-null
 {
 leaveOpen
 :

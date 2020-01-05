@@ -2942,7 +2942,6 @@ openPreferencesViaOpenPreferencesAPI
 "
 panePrivacy
 "
-null
 {
 leaveOpen
 :

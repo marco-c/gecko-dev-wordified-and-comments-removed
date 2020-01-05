@@ -75,9 +75,8 @@ yield
 openPreferencesViaOpenPreferencesAPI
 (
 "
-search
+general
 "
-undefined
 {
 leaveOpen
 :
@@ -189,9 +188,8 @@ yield
 openPreferencesViaOpenPreferencesAPI
 (
 "
-search
+general
 "
-undefined
 {
 leaveOpen
 :
