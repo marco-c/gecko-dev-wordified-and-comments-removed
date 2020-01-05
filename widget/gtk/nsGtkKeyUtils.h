@@ -59,6 +59,7 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
+static
 KeyNameIndex
 ComputeDOMKeyNameIndex
 (

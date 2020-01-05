@@ -6,11 +6,6 @@ define
 nsCSSValue_h___
 #
 include
-<
-type_traits
->
-#
-include
 "
 mozilla
 /
@@ -166,6 +161,11 @@ gfxFontFamilyList
 .
 h
 "
+#
+include
+<
+type_traits
+>
 class
 imgRequestProxy
 ;
