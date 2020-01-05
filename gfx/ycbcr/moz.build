@@ -404,6 +404,8 @@ media
 /
 libyuv
 /
+libyuv
+/
 include
 '
 ]

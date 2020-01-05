@@ -300,6 +300,8 @@ libyuv_dir
 media
 /
 libyuv
+/
+libyuv
 '
 '
 yuv_disable_avx2

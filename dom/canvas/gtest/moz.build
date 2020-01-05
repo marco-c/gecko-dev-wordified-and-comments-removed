@@ -159,6 +159,8 @@ media
 /
 libyuv
 /
+libyuv
+/
 include
 '
 ]

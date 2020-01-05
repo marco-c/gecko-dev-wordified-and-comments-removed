@@ -220,6 +220,8 @@ include_dirs
 /
 libyuv
 /
+libyuv
+/
 include
 '
 ]

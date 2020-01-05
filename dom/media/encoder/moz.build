@@ -221,6 +221,8 @@ media
 /
 libyuv
 /
+libyuv
+/
 include
 '
 ]
