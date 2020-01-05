@@ -8724,6 +8724,12 @@ cars
 HasRememberedDecision
 (
 hostname
+mSocketInfo
+-
+>
+GetOriginAttributes
+(
+)
 mServerCert
 rememberedDBKey
 &
@@ -9250,6 +9256,12 @@ cars
 RememberDecision
 (
 hostname
+mSocketInfo
+-
+>
+GetOriginAttributes
+(
+)
 mServerCert
 certChosen
 ?
