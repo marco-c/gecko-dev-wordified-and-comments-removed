@@ -1299,7 +1299,7 @@ scope
 workerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 ;

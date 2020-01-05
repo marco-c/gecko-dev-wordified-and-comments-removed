@@ -3905,7 +3905,7 @@ mScope
 mWorkerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 )
