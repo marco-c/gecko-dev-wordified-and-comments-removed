@@ -470,7 +470,10 @@ std
 cell
 :
 :
+{
 Cell
+Ref
+}
 ;
 use
 std
@@ -486,15 +489,6 @@ rc
 :
 :
 Rc
-;
-use
-style
-:
-:
-refcell
-:
-:
-Ref
 ;
 use
 url

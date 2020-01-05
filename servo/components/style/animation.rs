@@ -1701,10 +1701,12 @@ KeyframesStepValue
 :
 :
 Declarations
-(
+{
+block
+:
 ref
 declarations
-)
+}
 =
 >
 {

@@ -123,6 +123,14 @@ question_mark
 [
 feature
 (
+try_borrow
+)
+]
+#
+!
+[
+feature
+(
 try_from
 )
 ]
@@ -330,6 +338,10 @@ offscreen_gl_context
 extern
 crate
 open
+;
+extern
+crate
+parking_lot
 ;
 extern
 crate

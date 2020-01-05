@@ -688,6 +688,14 @@ PipelineId
 worker_url
 :
 Url
+#
+[
+ignore_heap_size_of
+=
+"
+Arc
+"
+]
 closing
 :
 Option

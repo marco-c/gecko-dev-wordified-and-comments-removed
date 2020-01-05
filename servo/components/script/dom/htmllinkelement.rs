@@ -458,6 +458,14 @@ JS
 DOMTokenList
 >
 >
+#
+[
+ignore_heap_size_of
+=
+"
+Arc
+"
+]
 stylesheet
 :
 DOMRefCell

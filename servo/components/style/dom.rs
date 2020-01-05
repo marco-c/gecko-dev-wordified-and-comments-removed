@@ -28,6 +28,12 @@ element_state
 ElementState
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 properties
 :
 :
@@ -1078,7 +1084,10 @@ Option
 &
 Arc
 <
+RwLock
+<
 PropertyDeclarationBlock
+>
 >
 >
 ;

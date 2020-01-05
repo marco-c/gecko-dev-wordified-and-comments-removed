@@ -207,6 +207,14 @@ HTMLObjectElement
 htmlelement
 :
 HTMLElement
+#
+[
+ignore_heap_size_of
+=
+"
+Arc
+"
+]
 image
 :
 DOMRefCell

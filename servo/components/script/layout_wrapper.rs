@@ -134,6 +134,12 @@ constellation_msg
 PipelineId
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 range
 :
 :
@@ -2768,7 +2774,10 @@ Option
 &
 Arc
 <
+RwLock
+<
 PropertyDeclarationBlock
+>
 >
 >
 {

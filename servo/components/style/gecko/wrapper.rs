@@ -283,6 +283,12 @@ libc
 uintptr_t
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 parser
 :
 :
@@ -451,7 +457,10 @@ Option
 <
 Arc
 <
+RwLock
+<
 PropertyDeclarationBlock
+>
 >
 >
 pub
@@ -2815,7 +2824,10 @@ Option
 &
 Arc
 <
+RwLock
+<
 PropertyDeclarationBlock
+>
 >
 >
 {

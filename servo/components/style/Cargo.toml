@@ -108,11 +108,6 @@ serialization
 "
 selectors
 /
-heap_size
-"
-"
-selectors
-/
 unstable
 "
 "
@@ -125,6 +120,11 @@ heap_size
 "
 "
 plugins
+"
+"
+parking_lot
+/
+nightly
 "
 ]
 testing
