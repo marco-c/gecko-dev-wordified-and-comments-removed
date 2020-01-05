@@ -192,6 +192,15 @@ h
 #
 include
 "
+builtin
+/
+DataViewObject
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
