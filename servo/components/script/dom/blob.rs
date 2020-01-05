@@ -976,7 +976,7 @@ to_vec
 }
 pub
 fn
-get_type_string
+type_string
 (
 &
 self

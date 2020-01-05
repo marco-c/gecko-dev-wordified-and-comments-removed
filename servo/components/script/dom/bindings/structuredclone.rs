@@ -666,7 +666,7 @@ type_string_bytes
 =
 blob
 .
-get_type_string
+type_string
 (
 )
 .
