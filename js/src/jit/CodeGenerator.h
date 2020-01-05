@@ -2122,6 +2122,14 @@ ool
 )
 ;
 void
+visitToAsync
+(
+LToAsync
+*
+lir
+)
+;
+void
 visitToIdV
 (
 LToIdV
