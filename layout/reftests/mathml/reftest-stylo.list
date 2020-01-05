@@ -134,7 +134,6 @@ dir
 8
 .
 html
-fails
 =
 =
 dir
@@ -173,23 +172,23 @@ dir
 11
 .
 html
+=
+=
+css
+-
+spacing
+-
+1
+.
+html
+css
+-
+spacing
+-
+1
+.
+html
 fails
-=
-=
-css
--
-spacing
--
-1
-.
-html
-css
--
-spacing
--
-1
-.
-html
 pref
 (
 mathml
@@ -213,6 +212,10 @@ scriptlevel
 1
 .
 html
+#
+bug
+1339711
+fails
 pref
 (
 mathml
@@ -236,6 +239,9 @@ scriptlevel
 1
 .
 xhtml
+#
+bug
+1339711
 fails
 =
 =
@@ -356,7 +362,6 @@ op
 4
 .
 html
-fails
 =
 =
 dynamic
@@ -394,7 +399,6 @@ mphantom
 2
 .
 html
-fails
 =
 =
 mfenced
@@ -407,7 +411,6 @@ mfenced
 1
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -420,7 +423,6 @@ mfenced
 2a
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -433,7 +435,6 @@ mfenced
 2b
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -446,7 +447,6 @@ mfenced
 3a
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -459,7 +459,6 @@ mfenced
 3b
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -472,7 +471,6 @@ mfenced
 3c
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -485,7 +483,6 @@ mfenced
 3d
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -498,7 +495,6 @@ mfenced
 4a
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -511,7 +507,6 @@ mfenced
 4b
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -524,7 +519,6 @@ mfenced
 5a
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -537,7 +531,6 @@ mfenced
 5b
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -550,7 +543,6 @@ mfenced
 5c
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -563,7 +555,6 @@ mfenced
 5d
 .
 xhtml
-fails
 =
 =
 mfenced
@@ -576,7 +567,6 @@ mfenced
 6
 .
 html
-fails
 =
 =
 mfenced
@@ -589,7 +579,6 @@ mfenced
 7
 .
 html
-fails
 =
 =
 mfenced
@@ -602,7 +591,6 @@ mfenced
 8
 .
 html
-fails
 =
 =
 mfenced
@@ -628,7 +616,6 @@ mfenced
 10
 .
 html
-fails
 =
 =
 mfenced
@@ -641,7 +628,6 @@ mfenced
 11
 .
 html
-fails
 =
 =
 mfenced
@@ -654,7 +640,6 @@ mfenced
 12
 .
 html
-fails
 =
 =
 mi
@@ -705,7 +690,6 @@ mathvariant
 3
 .
 html
-fails
 =
 =
 non
@@ -726,7 +710,6 @@ accent
 1
 .
 xhtml
-fails
 =
 =
 overbar
@@ -755,7 +738,6 @@ quotes
 1
 .
 xhtml
-fails
 =
 =
 stretchy
@@ -1401,7 +1383,6 @@ width
 1
 .
 xhtml
-fails
 =
 =
 table
@@ -1418,7 +1399,6 @@ width
 2
 .
 html
-fails
 =
 =
 table
@@ -1452,7 +1432,6 @@ width
 4
 .
 html
-fails
 =
 =
 underbar
@@ -1506,7 +1485,6 @@ negative
 rownumber
 .
 html
-fails
 =
 =
 embellished
@@ -1527,7 +1505,6 @@ op
 1
 .
 html
-fails
 =
 =
 embellished
@@ -1548,7 +1525,6 @@ op
 2
 .
 html
-fails
 =
 =
 embellished
@@ -1569,7 +1545,6 @@ op
 3
 .
 html
-fails
 =
 =
 embellished
@@ -1590,7 +1565,6 @@ op
 4
 .
 html
-fails
 =
 =
 embellished
@@ -1611,7 +1585,6 @@ op
 5
 .
 html
-fails
 =
 =
 embellished
@@ -1632,7 +1605,6 @@ op
 1
 .
 html
-fails
 =
 =
 embellished
@@ -1653,7 +1625,6 @@ op
 2
 .
 html
-fails
 =
 =
 embellished
@@ -1674,7 +1645,6 @@ op
 3
 .
 html
-fails
 =
 =
 embellished
@@ -1695,7 +1665,6 @@ op
 4
 .
 html
-fails
 =
 =
 embellished
@@ -1716,7 +1685,6 @@ op
 1
 .
 html
-fails
 =
 =
 embellished
@@ -1737,7 +1705,6 @@ op
 2
 .
 html
-fails
 =
 =
 embellished
@@ -1758,7 +1725,6 @@ op
 3
 .
 html
-fails
 =
 =
 embellished
@@ -1779,7 +1745,6 @@ op
 4
 .
 html
-fails
 =
 =
 embellished
@@ -1863,7 +1828,6 @@ op
 3
 .
 html
-fails
 =
 =
 embellished
@@ -1884,7 +1848,6 @@ op
 1
 .
 html
-fails
 =
 =
 embellished
@@ -1959,7 +1922,6 @@ semantics
 1
 .
 xhtml
-fails
 =
 =
 semantics
@@ -1972,7 +1934,6 @@ semantics
 2
 .
 html
-fails
 =
 =
 semantics
@@ -2133,7 +2094,6 @@ mstyle
 3
 .
 xhtml
-fails
 =
 =
 mstyle
@@ -2146,7 +2106,6 @@ mstyle
 4
 .
 xhtml
-fails
 =
 =
 mstyle
@@ -2191,7 +2150,6 @@ stretchy
 2
 .
 xhtml
-fails
 =
 =
 scale
@@ -2208,7 +2166,6 @@ stretchy
 3
 .
 xhtml
-fails
 =
 =
 scale
@@ -2603,7 +2560,6 @@ linethickness
 3
 .
 xhtml
-fails
 =
 =
 mathml
@@ -2633,7 +2589,6 @@ mspace
 1
 .
 html
-fails
 =
 =
 link
@@ -2663,7 +2618,6 @@ empty
 scripts
 .
 html
-fails
 =
 =
 positive
@@ -3141,7 +3095,6 @@ maction
 selection
 .
 html
-fails
 =
 =
 maction
@@ -3196,7 +3149,6 @@ dynamic
 2
 .
 html
-fails
 =
 =
 mo
@@ -3276,7 +3228,6 @@ rspace
 4
 .
 html
-fails
 =
 =
 mo
@@ -3289,7 +3240,6 @@ mo
 invisibleoperators
 .
 html
-fails
 =
 =
 mo
@@ -3356,7 +3306,6 @@ trim
 1
 .
 html
-fails
 =
 =
 whitespace
@@ -3373,7 +3322,6 @@ trim
 2
 .
 html
-fails
 =
 =
 whitespace
@@ -3390,7 +3338,6 @@ trim
 3
 .
 html
-fails
 =
 =
 whitespace
@@ -3407,7 +3354,6 @@ trim
 4
 .
 html
-fails
 =
 =
 whitespace
@@ -3458,7 +3404,6 @@ dynamic
 linethickness
 .
 html
-fails
 =
 =
 operator
@@ -3514,7 +3459,6 @@ multiscripts
 1
 .
 html
-fails
 =
 =
 mathml
@@ -3531,7 +3475,6 @@ mmultiscript
 base
 .
 html
-fails
 =
 =
 mathml
@@ -3548,7 +3491,6 @@ mmultiscript
 mprescript
 .
 html
-fails
 =
 =
 menclose
@@ -3574,7 +3516,6 @@ menclose
 1b
 .
 html
-fails
 =
 =
 menclose
@@ -4093,7 +4034,6 @@ menclose
 box
 .
 html
-fails
 =
 =
 menclose
@@ -4110,7 +4050,6 @@ menclose
 madruwb
 .
 html
-fails
 =
 =
 menclose
@@ -4127,7 +4066,6 @@ menclose
 radical
 .
 html
-fails
 =
 =
 menclose
@@ -4326,7 +4264,6 @@ menclose
 left
 .
 html
-fails
 =
 =
 menclose
@@ -4880,7 +4817,6 @@ mathvariant
 2
 .
 html
-fails
 =
 =
 mathvariant
@@ -5143,7 +5079,6 @@ columnlines
 1c
 .
 html
-fails
 =
 =
 columnlines
@@ -5156,7 +5091,6 @@ columnlines
 2a
 .
 html
-fails
 =
 =
 columnlines
@@ -5169,7 +5103,6 @@ columnlines
 2b
 .
 html
-fails
 =
 =
 columnlines
@@ -5314,7 +5247,6 @@ tablespacing
 1
 .
 html
-fails
 =
 =
 tablespacing
@@ -5327,7 +5259,6 @@ tablespacing
 2
 .
 html
-fails
 =
 =
 tablespacing
@@ -5340,7 +5271,6 @@ tablespacing
 3
 .
 html
-fails
 =
 =
 tablespacing
@@ -5405,7 +5335,6 @@ tablespacing
 7
 .
 html
-fails
 =
 =
 tablespacing
@@ -5418,7 +5347,6 @@ tablespacing
 8a
 .
 html
-fails
 =
 =
 tablespacing
@@ -5431,7 +5359,6 @@ tablespacing
 8b
 .
 html
-fails
 =
 =
 op
@@ -5448,7 +5375,6 @@ dict
 1
 .
 html
-fails
 =
 =
 op
@@ -5532,7 +5458,6 @@ dict
 6
 .
 html
-fails
 =
 =
 op
@@ -5549,7 +5474,6 @@ dict
 7
 .
 html
-fails
 =
 =
 op
@@ -5566,7 +5490,6 @@ dict
 8
 .
 html
-fails
 =
 =
 op
@@ -6139,7 +6062,6 @@ default
 font
 .
 html
-fails
 =
 =
 radicalbar
@@ -6152,7 +6074,6 @@ radicalbar
 1
 .
 html
-fails
 =
 =
 radicalbar
@@ -6165,7 +6086,6 @@ radicalbar
 1a
 .
 html
-fails
 =
 =
 radicalbar
@@ -6178,7 +6098,6 @@ radicalbar
 1b
 .
 html
-fails
 =
 =
 radicalbar
@@ -6191,7 +6110,6 @@ radicalbar
 1c
 .
 html
-fails
 =
 =
 radicalbar
@@ -6204,7 +6122,6 @@ radicalbar
 1d
 .
 html
-fails
 =
 =
 radicalbar
@@ -6217,7 +6134,6 @@ radicalbar
 2
 .
 html
-fails
 =
 =
 radicalbar
@@ -6230,7 +6146,6 @@ radicalbar
 2a
 .
 html
-fails
 =
 =
 radicalbar
@@ -6243,7 +6158,6 @@ radicalbar
 2b
 .
 html
-fails
 =
 =
 radicalbar
@@ -6256,7 +6170,6 @@ radicalbar
 2c
 .
 html
-fails
 =
 =
 radicalbar
@@ -6269,7 +6182,6 @@ radicalbar
 2d
 .
 html
-fails
 =
 =
 radicalbar
@@ -6282,7 +6194,6 @@ radicalbar
 3
 .
 html
-fails
 =
 =
 radicalbar
@@ -6295,7 +6206,6 @@ radicalbar
 3a
 .
 html
-fails
 =
 =
 radicalbar
@@ -6308,7 +6218,6 @@ radicalbar
 3b
 .
 html
-fails
 =
 =
 radicalbar
@@ -6321,7 +6230,6 @@ radicalbar
 3c
 .
 html
-fails
 =
 =
 radicalbar
