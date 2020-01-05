@@ -231,9 +231,6 @@ nullptr
 ;
 if
 (
-nullptr
-!
-=
 aOuter
 )
 {
@@ -252,9 +249,7 @@ nsComposeTxtSrvFilter
 ;
 if
 (
-nullptr
-=
-=
+!
 inst
 )
 {

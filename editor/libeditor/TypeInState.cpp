@@ -380,7 +380,7 @@ Reset
 {
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -416,7 +416,7 @@ Clear
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -634,7 +634,7 @@ TakeClearProperty
 (
 )
 {
-uint32_t
+size_t
 count
 =
 mClearedArray
@@ -686,7 +686,7 @@ TakeSetProperty
 (
 )
 {
-uint32_t
+size_t
 count
 =
 mSetArray
@@ -875,7 +875,7 @@ aProp
 {
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -1039,8 +1039,7 @@ int32_t
 outIndex
 )
 {
-uint32_t
-i
+size_t
 count
 =
 mSetArray
@@ -1051,6 +1050,7 @@ Length
 ;
 for
 (
+size_t
 i
 =
 0
@@ -1075,7 +1075,6 @@ i
 ;
 if
 (
-(
 item
 -
 >
@@ -1083,10 +1082,8 @@ tag
 =
 =
 aProp
-)
 &
 &
-(
 item
 -
 >
@@ -1095,12 +1092,12 @@ attr
 =
 aAttr
 )
-)
 {
 if
 (
 outValue
 )
+{
 *
 outValue
 =
@@ -1109,6 +1106,7 @@ item
 >
 value
 ;
+}
 outIndex
 =
 i
@@ -1178,9 +1176,11 @@ mClearedArray
 outIndex
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 FindPropInList
@@ -1236,8 +1236,7 @@ int32_t
 outIndex
 )
 {
-uint32_t
-i
+size_t
 count
 =
 aList
@@ -1248,6 +1247,7 @@ Length
 ;
 for
 (
+size_t
 i
 =
 0
@@ -1272,7 +1272,6 @@ i
 ;
 if
 (
-(
 item
 -
 >
@@ -1280,10 +1279,8 @@ tag
 =
 =
 aProp
-)
 &
 &
-(
 item
 -
 >
@@ -1292,12 +1289,12 @@ attr
 =
 aAttr
 )
-)
 {
 if
 (
 outValue
 )
+{
 *
 outValue
 =
@@ -1306,6 +1303,7 @@ item
 >
 value
 ;
+}
 outIndex
 =
 i

@@ -668,11 +668,13 @@ NS_FAILED
 rv
 )
 )
+{
 TearDownEditorOnWindow
 (
 aWindow
 )
 ;
+}
 }
 return
 rv
@@ -1041,21 +1043,26 @@ aMIMEType
 false
 )
 ;
-int32_t
+for
+(
+size_t
 i
 =
 0
 ;
-while
-(
 gSupportedTextTypes
 [
 i
 ]
+;
++
++
+i
 )
 {
 if
 (
+!
 strcmp
 (
 gSupportedTextTypes
@@ -1064,19 +1071,12 @@ i
 ]
 aMIMEType
 )
-=
-=
-0
 )
 {
 return
 true
 ;
 }
-i
-+
-+
-;
 }
 return
 false
@@ -1431,6 +1431,7 @@ eEditorMailMask
 ;
 }
 else
+{
 mEditorFlags
 =
 nsIPlaintextEditor
@@ -1443,6 +1444,7 @@ nsIPlaintextEditor
 :
 eEditorEnableWrapHackMask
 ;
+}
 }
 else
 {
@@ -1910,6 +1912,7 @@ if
 (
 txnMgr
 )
+{
 txnMgr
 -
 >
@@ -1918,6 +1921,7 @@ AddListener
 mStateMaintainer
 )
 ;
+}
 rv
 =
 SetEditorOnControllers
@@ -1968,8 +1972,10 @@ mStateMaintainer
 !
 aEditor
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsISelection
@@ -2039,6 +2045,7 @@ if
 (
 txnMgr
 )
+{
 txnMgr
 -
 >
@@ -2047,6 +2054,7 @@ RemoveListener
 mStateMaintainer
 )
 ;
+}
 RemoveEditorControllers
 (
 aWindow
@@ -2157,11 +2165,13 @@ if
 (
 stopEditing
 )
+{
 RemoveWebProgressListener
 (
 window
 )
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -2209,6 +2219,7 @@ if
 (
 stopEditing
 )
+{
 htmlDoc
 -
 >
@@ -2217,6 +2228,7 @@ TearingDownEditor
 editor
 )
 ;
+}
 if
 (
 mStateMaintainer
@@ -2420,6 +2432,7 @@ IsEmpty
 (
 )
 )
+{
 printf
 (
 "
@@ -2443,6 +2456,7 @@ get
 )
 )
 ;
+}
 }
 #
 endif
@@ -2542,6 +2556,7 @@ aStateFlags
 }
 }
 else
+{
 printf
 (
 "
@@ -2559,6 +2574,7 @@ n
 aStateFlags
 )
 ;
+}
 }
 #
 endif
@@ -2928,6 +2944,7 @@ aStateFlags
 }
 }
 else
+{
 printf
 (
 "
@@ -2945,6 +2962,7 @@ n
 aStateFlags
 )
 ;
+}
 }
 #
 endif
@@ -3423,10 +3441,12 @@ if
 (
 aIsToBeMadeEditable
 )
+{
 mEditorStatus
 =
 eEditorCreationInProgress
 ;
+}
 return
 NS_OK
 ;
@@ -3571,15 +3591,14 @@ NS_ERROR_FAILURE
 if
 (
 aIsToBeMadeEditable
-)
-{
-if
-(
+&
+&
 aStatus
 =
 =
 NS_ERROR_FILE_NOT_FOUND
 )
+{
 mEditorStatus
 =
 eEditorErrorFileNotFound
@@ -3623,6 +3642,7 @@ if
 (
 refreshURI
 )
+{
 refreshURI
 -
 >
@@ -3630,6 +3650,7 @@ CancelRefreshURITimers
 (
 )
 ;
+}
 nsresult
 rv
 =
@@ -3865,6 +3886,7 @@ if
 (
 webNav
 )
+{
 webNav
 -
 >
@@ -3882,6 +3904,7 @@ nullptr
 nullptr
 )
 ;
+}
 }
 }
 nsresult
@@ -4053,6 +4076,7 @@ IsEmpty
 (
 )
 )
+{
 printf
 (
 "
@@ -4080,6 +4104,7 @@ get
 )
 )
 ;
+}
 #
 endif
 if
@@ -4089,10 +4114,12 @@ aStatus
 =
 NS_ERROR_FILE_NOT_FOUND
 )
+{
 mEditorStatus
 =
 eEditorErrorFileNotFound
 ;
+}
 nsCOMPtr
 <
 mozIDOMWindowProxy
@@ -4152,6 +4179,7 @@ if
 (
 refreshURI
 )
+{
 refreshURI
 -
 >
@@ -4159,6 +4187,7 @@ CancelRefreshURITimers
 (
 )
 ;
+}
 #
 if
 0
@@ -4196,9 +4225,11 @@ if
 (
 mProgressListenerRegistered
 )
+{
 return
 NS_OK
 ;
+}
 nsIDocShell
 *
 docShell
@@ -4541,6 +4572,7 @@ if
 (
 mHTMLCommandControllerId
 )
+{
 rv
 =
 SetContextOnControllerById
@@ -4550,6 +4582,7 @@ editorAsISupports
 mHTMLCommandControllerId
 )
 ;
+}
 return
 rv
 ;
@@ -4686,6 +4719,7 @@ if
 (
 controller
 )
+{
 controllers
 -
 >
@@ -4694,6 +4728,7 @@ RemoveController
 controller
 )
 ;
+}
 }
 if
 (
@@ -4716,6 +4751,7 @@ if
 (
 controller
 )
+{
 controllers
 -
 >
@@ -4724,6 +4760,7 @@ RemoveController
 controller
 )
 ;
+}
 }
 if
 (
@@ -4746,6 +4783,7 @@ if
 (
 controller
 )
+{
 controllers
 -
 >
@@ -4754,6 +4792,7 @@ RemoveController
 controller
 )
 ;
+}
 }
 }
 mBaseCommandControllerId
@@ -4838,10 +4877,12 @@ aWindow
 {
 if
 (
-!
 mInteractive
 )
 {
+return
+;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -4859,7 +4900,7 @@ GetDocShell
 :
 nullptr
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 docShell
 )
@@ -4877,7 +4918,7 @@ GetPresShell
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 presShell
 )
@@ -4893,7 +4934,7 @@ GetPresContext
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 presContext
 )
@@ -4906,7 +4947,6 @@ SetImageAnimationMode
 mImageAnimationMode
 )
 ;
-}
 }
 nsresult
 nsEditingSession
@@ -5175,6 +5215,7 @@ if
 (
 mStateMaintainer
 )
+{
 mStateMaintainer
 -
 >
@@ -5183,6 +5224,7 @@ Init
 window
 )
 ;
+}
 nsCOMPtr
 <
 nsIEditor

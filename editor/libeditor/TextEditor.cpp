@@ -695,6 +695,7 @@ void
 {
 if
 (
+!
 nsCRT
 :
 :
@@ -709,9 +710,6 @@ singleLine
 pasteNewlines
 "
 )
-=
-=
-0
 )
 {
 sNewlineHandlingPref
@@ -738,6 +736,7 @@ eNewlinesPasteToFirst
 else
 if
 (
+!
 nsCRT
 :
 :
@@ -752,9 +751,6 @@ selection
 caret_style
 "
 )
-=
-=
-0
 )
 {
 sCaretStylePref
@@ -779,15 +775,15 @@ XP_WIN
 ;
 if
 (
+!
 sCaretStylePref
-=
-=
-0
 )
+{
 sCaretStylePref
 =
 1
 ;
+}
 #
 else
 0
@@ -4194,9 +4190,11 @@ if
 (
 docEmpty
 )
+{
 return
 NS_OK
 ;
+}
 dom
 :
 :
@@ -4467,6 +4465,7 @@ styleEnd
 >
 styleStart
 )
+{
 styleValue
 .
 Cut
@@ -4479,7 +4478,9 @@ styleStart
 1
 )
 ;
+}
 else
+{
 styleValue
 .
 Cut
@@ -4494,6 +4495,7 @@ Length
 styleStart
 )
 ;
+}
 }
 }
 NS_IMETHODIMP
@@ -4518,9 +4520,11 @@ IsPlaintextEditor
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 dom
 :
 :
@@ -4627,6 +4631,7 @@ aWrapColumn
 =
 0
 )
+{
 styleValue
 .
 AppendLiteral
@@ -4644,6 +4649,7 @@ fixed
 "
 )
 ;
+}
 if
 (
 aWrapColumn
@@ -4690,10 +4696,8 @@ ch
 else
 if
 (
+!
 aWrapColumn
-=
-=
-0
 )
 {
 styleValue
@@ -5115,9 +5119,11 @@ IsPasswordEditor
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 selection
@@ -5584,6 +5590,7 @@ wc
 =
 0
 )
+{
 (
 void
 )
@@ -5595,6 +5602,7 @@ SetWrapColumn
 wc
 )
 ;
+}
 if
 (
 aFlags
@@ -5839,6 +5847,7 @@ IsEmpty
 (
 )
 )
+{
 charsetStr
 .
 AssignLiteral
@@ -5852,6 +5861,7 @@ ISO
 "
 )
 ;
+}
 nsCOMPtr
 <
 nsIDocumentEncoder
@@ -5946,9 +5956,11 @@ if
 (
 docEmpty
 )
+{
 return
 NS_OK
 ;
+}
 }
 nsCOMPtr
 <
@@ -6133,9 +6145,7 @@ rv
 }
 if
 (
-0
-=
-=
+!
 nsCRT
 :
 :
@@ -6146,9 +6156,7 @@ kUnicodeMime
 )
 |
 |
-0
-=
-=
+!
 nsCRT
 :
 :
@@ -6291,6 +6299,7 @@ n
 )
 )
 )
+{
 quotedStuff
 .
 Append
@@ -6304,6 +6313,7 @@ n
 )
 )
 ;
+}
 RefPtr
 <
 Selection
@@ -6379,9 +6389,11 @@ if
 (
 cancel
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 !
@@ -6409,7 +6421,7 @@ rv
 *
 aNodeInserted
 =
-0
+nullptr
 ;
 }
 }
@@ -6513,6 +6525,7 @@ if
 *
 aIsCollapsed
 )
+{
 aFlags
 |
 =
@@ -6521,6 +6534,7 @@ nsIDocumentEncoder
 :
 OutputSelectionOnly
 ;
+}
 return
 OutputToString
 (
@@ -6572,10 +6586,12 @@ wrapCol
 =
 0
 )
+{
 wrapCol
 =
 72
 ;
+}
 nsAutoString
 current
 ;
@@ -6638,10 +6654,12 @@ if
 (
 isCollapsed
 )
+{
 SelectAll
 (
 )
 ;
+}
 return
 InsertTextWithQuotations
 (

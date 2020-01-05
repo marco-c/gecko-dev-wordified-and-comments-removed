@@ -491,8 +491,7 @@ RemoveAllDefaultProperties
 (
 )
 {
-uint32_t
-j
+size_t
 defcon
 =
 mDefaultStyles
@@ -503,6 +502,7 @@ Length
 ;
 for
 (
+size_t
 j
 =
 0
@@ -3342,8 +3342,7 @@ ApplyDefaultProperties
 (
 )
 {
-uint32_t
-j
+size_t
 defcon
 =
 mDefaultStyles
@@ -3354,6 +3353,7 @@ Length
 ;
 for
 (
+size_t
 j
 =
 0
@@ -3935,10 +3935,14 @@ AsElement
 }
 if
 (
-!
 aChildrenOnly
-&
-&
+)
+{
+return
+NS_OK
+;
+}
+if
 (
 aProperty
 =
@@ -3973,7 +3977,6 @@ small
 )
 &
 &
-(
 aAttribute
 &
 &
@@ -3985,8 +3988,6 @@ LowerCaseEqualsLiteral
 "
 size
 "
-)
-)
 )
 )
 {
