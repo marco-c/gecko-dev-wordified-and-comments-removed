@@ -4726,9 +4726,9 @@ sizes
 /
 /
 and
-aligns
-off
-of
+alignments
+from
+.
 let
 tmp
 :
