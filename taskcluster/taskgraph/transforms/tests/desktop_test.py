@@ -706,7 +706,6 @@ tests
         
 allow
 =
-not
 test
 [
 '
@@ -719,7 +718,7 @@ platform
 startswith
 (
 '
-win
+linux
 '
 )
 \
