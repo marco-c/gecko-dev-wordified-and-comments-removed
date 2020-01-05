@@ -4308,8 +4308,6 @@ clipboardCaps
 domainPolicy
 &
 initialData
-&
-mFontFamilies
 )
 ;
 RecvSetOffline
