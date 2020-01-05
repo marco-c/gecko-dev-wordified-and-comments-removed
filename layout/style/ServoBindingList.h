@@ -964,6 +964,15 @@ element
 )
 SERVO_BINDING_FUNC
 (
+Servo_Element_GetStyleRuleList
+void
+RawGeckoElementBorrowed
+element
+RawGeckoServoStyleRuleListBorrowedMut
+rules
+)
+SERVO_BINDING_FUNC
+(
 Servo_NoteExplicitHints
 void
 RawGeckoElementBorrowed

@@ -4412,6 +4412,9 @@ RawServoAnimationValueMap
 RawServoDeclarationBlock
 "
 "
+RawServoStyleRule
+"
+"
 RawGeckoPresContext
 "
 "
@@ -4419,6 +4422,9 @@ RawGeckoPresContextOwned
 "
 "
 RawGeckoStyleAnimationList
+"
+"
+RawGeckoServoStyleRuleList
 "
 "
 RawGeckoURLExtraData
@@ -4791,6 +4797,9 @@ RawGeckoComputedKeyframeValuesList
 "
 "
 RawGeckoFontFaceRuleList
+"
+"
+RawGeckoServoStyleRuleList
 "
 ]
 ;
