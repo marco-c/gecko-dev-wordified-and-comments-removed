@@ -788,6 +788,7 @@ DebugTrap
 FarJumpIsland
 Inline
 Throw
+Interrupt
 }
 ;
 private
