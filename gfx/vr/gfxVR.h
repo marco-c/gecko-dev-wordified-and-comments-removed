@@ -1254,6 +1254,8 @@ uint32_t
 aButton
 bool
 aPressed
+bool
+aTouched
 double
 aValue
 )

@@ -548,6 +548,8 @@ uint64_t
 aButtonMask
 uint64_t
 aButtonPressed
+uint64_t
+aButtonTouched
 )
 ;
 void
@@ -563,6 +565,8 @@ float
 aValue
 uint64_t
 aButtonPressed
+uint64_t
+aButtonTouched
 )
 ;
 void

@@ -7340,6 +7340,9 @@ aButton
 aButtonMask
 &
 aButtonPressed
+aButtonMask
+&
+aButtonPressed
 (
 aButtonMask
 &
@@ -7528,6 +7531,11 @@ NewButtonEvent
 (
 aControllerIdx
 aButton
+aValue
+>
+0
+.
+1f
 aValue
 >
 0
