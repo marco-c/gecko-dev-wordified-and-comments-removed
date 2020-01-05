@@ -7,7 +7,7 @@ ubuntu
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -19,7 +19,7 @@ py
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -37,7 +37,7 @@ py
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -49,7 +49,7 @@ sh
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -67,7 +67,7 @@ sh
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -81,7 +81,7 @@ sh
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -103,7 +103,7 @@ sh
 #
 %
 include
-taskcluster
+testing
 /
 mozharness
 /
@@ -115,7 +115,7 @@ py
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 mozharness
 /
@@ -137,7 +137,7 @@ py
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -149,7 +149,7 @@ task
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /

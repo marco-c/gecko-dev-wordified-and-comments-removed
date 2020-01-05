@@ -105,7 +105,7 @@ bin
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -117,7 +117,7 @@ py
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -135,7 +135,7 @@ py
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -187,7 +187,7 @@ py
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -199,7 +199,7 @@ sh
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -217,7 +217,7 @@ sh
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -231,7 +231,7 @@ sh
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -253,7 +253,7 @@ sh
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -271,7 +271,7 @@ sh
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -338,7 +338,7 @@ xvfb
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -350,7 +350,7 @@ sh
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /
@@ -372,7 +372,7 @@ sh
 #
 %
 include
-taskcluster
+testing
 /
 docker
 /
@@ -384,7 +384,7 @@ task
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 docker
 /

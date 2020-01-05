@@ -40,7 +40,7 @@ the
 source
 directory
 under
-taskcluster
+testing
 /
 docker
 .

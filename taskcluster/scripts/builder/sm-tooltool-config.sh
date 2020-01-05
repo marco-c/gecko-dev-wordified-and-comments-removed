@@ -235,7 +235,7 @@ python
 SRCDIR
 }
 /
-taskcluster
+testing
 /
 docker
 /
