@@ -88,6 +88,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 {
 StackingContextHelper

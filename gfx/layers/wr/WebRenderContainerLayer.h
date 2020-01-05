@@ -167,6 +167,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 override
 ;
@@ -271,6 +275,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 override
 ;

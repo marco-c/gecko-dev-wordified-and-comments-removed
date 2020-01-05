@@ -59,6 +59,17 @@ mozilla
 /
 layers
 /
+StackingContextHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureClient
 .
 h
@@ -763,6 +774,9 @@ StartPendingAnimations
 mAnimationReadyTime
 )
 ;
+StackingContextHelper
+sc
+;
 wr
 :
 :
@@ -791,6 +805,7 @@ mRoot
 RenderLayer
 (
 builder
+sc
 )
 ;
 WrBridge

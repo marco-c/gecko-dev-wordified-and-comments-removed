@@ -31,6 +31,19 @@ StackingContextHelper
 :
 StackingContextHelper
 (
+)
+:
+mBuilder
+(
+nullptr
+)
+{
+}
+StackingContextHelper
+:
+:
+StackingContextHelper
+(
 wr
 :
 :
@@ -252,6 +265,11 @@ StackingContextHelper
 (
 )
 {
+if
+(
+mBuilder
+)
+{
 mBuilder
 -
 >
@@ -259,6 +277,7 @@ PopStackingContext
 (
 )
 ;
+}
 }
 WrRect
 StackingContextHelper
@@ -271,6 +290,7 @@ LayerRect
 &
 aRect
 )
+const
 {
 return
 wr

@@ -119,6 +119,10 @@ Matrix4x4
 aTransformPtr
 )
 ;
+StackingContextHelper
+(
+)
+;
 ~
 StackingContextHelper
 (
@@ -132,6 +136,7 @@ LayerRect
 &
 aRect
 )
+const
 ;
 private
 :

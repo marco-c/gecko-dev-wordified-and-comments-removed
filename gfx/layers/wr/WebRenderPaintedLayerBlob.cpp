@@ -115,6 +115,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aHelper
 )
 {
 LayerIntRegion

@@ -398,6 +398,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 {
 if

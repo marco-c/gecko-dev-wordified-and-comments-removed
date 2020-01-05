@@ -224,6 +224,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aHelper
 )
 override
 ;
