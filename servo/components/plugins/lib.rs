@@ -9,6 +9,7 @@ plugin
 box_syntax
 rustc_private
 core
+unicode
 )
 ]
 #

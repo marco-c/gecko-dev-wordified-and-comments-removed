@@ -17,9 +17,17 @@ core
 #
 !
 [
+cfg_attr
+(
+feature
+=
+"
+window
+"
 feature
 (
 hash
+)
 )
 ]
 #
