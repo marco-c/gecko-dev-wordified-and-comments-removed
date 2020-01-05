@@ -1374,12 +1374,10 @@ value
 type
 >
 void
-SetIntValue
+SetEnumValue
 (
 T
 aInt
-Unit
-aUnit
 )
 {
 static_assert
@@ -1419,7 +1417,7 @@ int32_t
 (
 aInt
 )
-aUnit
+eUnit_Enumerated
 )
 ;
 }
