@@ -25,7 +25,7 @@ org
 .
 robolectric
 .
-RobolectricGradleTestRunner
+RobolectricTestRunner
 ;
 import
 org
@@ -85,7 +85,7 @@ public
 class
 TestRunner
 extends
-RobolectricGradleTestRunner
+RobolectricTestRunner
 {
 private
 FsFile
