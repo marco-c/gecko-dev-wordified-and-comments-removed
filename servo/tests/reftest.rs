@@ -1635,12 +1635,10 @@ e
 )
 }
 ;
-assert
+assert_eq
 !
 (
 retval
-=
-=
 ExitStatus
 (
 0

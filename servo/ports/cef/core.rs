@@ -312,6 +312,9 @@ false
 layout_threads
 :
 1
+incremental_layout
+:
+false
 exit_after_load
 :
 false
