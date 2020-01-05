@@ -1,6 +1,6 @@
 intr
 protocol
-unknownSyncMessage
+unknownIntrMessage
 {
 parent
 :
