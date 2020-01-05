@@ -973,9 +973,11 @@ c_int
 hb_font_set_funcs
 (
 hb_font
-*
-*
 HB_FONT_FUNCS
+.
+as_ptr
+(
+)
 font
 as
 *

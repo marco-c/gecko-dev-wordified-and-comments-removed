@@ -100,11 +100,6 @@ servo
 [
 "
 serde
-/
-unstable
-"
-"
-serde
 "
 "
 serde_derive
