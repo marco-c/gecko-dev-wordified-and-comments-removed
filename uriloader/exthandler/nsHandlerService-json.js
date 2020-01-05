@@ -727,7 +727,6 @@ possibleHandlers
 appendElement
 (
 handlerApp
-false
 )
 ;
 }
@@ -980,7 +979,6 @@ handlers
 appendElement
 (
 handler
-false
 )
 ;
 }
@@ -1018,7 +1016,6 @@ handlers
 appendElement
 (
 handler
-false
 )
 ;
 }
@@ -1427,7 +1424,6 @@ possibleApplicationHandlers
 appendElement
 (
 preferHandler
-false
 )
 ;
 }
@@ -1485,7 +1481,6 @@ possibleApplicationHandlers
 appendElement
 (
 possibleHandler
-false
 )
 ;
 }

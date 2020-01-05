@@ -1495,7 +1495,6 @@ possibleApplicationHandlers
 appendElement
 (
 localHandler
-false
 )
 ;
 possibleHandlersInfo
@@ -1505,7 +1504,6 @@ possibleApplicationHandlers
 appendElement
 (
 webHandler
-false
 )
 ;
 handlerSvc

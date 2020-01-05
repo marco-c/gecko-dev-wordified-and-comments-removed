@@ -1745,7 +1745,6 @@ items
 appendElement
 (
 sc
-false
 )
 ;
 var
