@@ -444,6 +444,10 @@ ScriptLoadedURLInIFrame
 Url
 PipelineId
 SubpageId
+Option
+<
+SubpageId
+>
 IFrameSandboxState
 )
 Navigate
