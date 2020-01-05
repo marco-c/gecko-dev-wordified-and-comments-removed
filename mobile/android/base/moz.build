@@ -4525,6 +4525,13 @@ java
 '
 dlc
 /
+DownloadContentTelemetry
+.
+java
+'
+'
+dlc
+/
 StudyAction
 .
 java
