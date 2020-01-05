@@ -1657,7 +1657,7 @@ nullptr
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -1673,7 +1673,7 @@ this
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -1776,7 +1776,7 @@ this
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -1809,7 +1809,7 @@ this
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -4003,7 +4003,7 @@ NS_LANGUAGEATOMSERVICE_CONTRACTID
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
@@ -4019,7 +4019,7 @@ this
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
@@ -4122,7 +4122,7 @@ this
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
@@ -4155,7 +4155,7 @@ this
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :

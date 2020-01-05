@@ -3731,7 +3731,6 @@ gfx
 .
 recording
 "
-nullptr
 )
 ;
 CreateCMSOutputProfile

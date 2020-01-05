@@ -2021,7 +2021,7 @@ true
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 OnPrefChanged
 "

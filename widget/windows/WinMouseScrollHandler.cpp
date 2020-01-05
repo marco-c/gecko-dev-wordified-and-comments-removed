@@ -5218,7 +5218,7 @@ rv
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 OnChange
 "
@@ -5266,7 +5266,7 @@ rv
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 OnChange
 "
