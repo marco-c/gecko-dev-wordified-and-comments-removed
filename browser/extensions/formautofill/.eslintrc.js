@@ -1010,15 +1010,6 @@ comments
 off
 "
 "
-object
--
-shorthand
-"
-:
-"
-off
-"
-"
 one
 -
 var

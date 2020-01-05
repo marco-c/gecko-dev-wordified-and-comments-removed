@@ -109,8 +109,6 @@ options
 {
 }
 matchingProfiles
-:
-matchingProfiles
 searchString
 :
 "
