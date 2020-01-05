@@ -391,10 +391,7 @@ AutoAssertOnBarrier
 )
 ;
 struct
-JS_PUBLIC_API
-(
 PropertyDescriptor
-)
 ;
 typedef
 void
