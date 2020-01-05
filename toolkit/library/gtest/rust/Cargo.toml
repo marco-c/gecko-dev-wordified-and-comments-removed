@@ -47,6 +47,17 @@ libgkrust
 [
 features
 ]
+bindgen
+=
+[
+"
+gkrust
+-
+shared
+/
+bindgen
+"
+]
 quantum_render
 =
 [

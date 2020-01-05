@@ -1429,6 +1429,11 @@ Resume
 (
 )
 ;
+async
+ForceIsFirstPaint
+(
+)
+;
 /
 /
 See
