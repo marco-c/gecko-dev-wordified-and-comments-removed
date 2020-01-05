@@ -237,9 +237,6 @@ GeckoCppUnitTests
 (
 [
 '
-TestAutoPtr
-'
-'
 TestAutoRef
 '
 '
