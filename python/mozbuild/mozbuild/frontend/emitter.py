@@ -854,21 +854,6 @@ fuzztest
     
 (
 '
-sdp_unittests
-'
-'
-media
-/
-webrtc
-/
-signaling
-/
-test
-'
-)
-    
-(
-'
 signaling_unittests
 '
 '
