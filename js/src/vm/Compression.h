@@ -88,6 +88,9 @@ outbytes
 bool
 initialized
 ;
+bool
+finished
+;
 uint32_t
 currentChunkSize
 ;
@@ -187,7 +190,6 @@ dest
 size_t
 destBytes
 )
-const
 ;
 static
 void
