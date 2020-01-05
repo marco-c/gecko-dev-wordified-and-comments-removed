@@ -495,7 +495,7 @@ cpp
 '
 PrintTargetCG
 .
-cpp
+mm
 '
 ]
 elif
