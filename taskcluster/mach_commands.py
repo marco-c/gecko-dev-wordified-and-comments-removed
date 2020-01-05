@@ -2616,10 +2616,37 @@ options
 import
 actions
         
+try
+:
+            
+self
+.
+setup_logging
+(
+)
+            
+return
 actions
 .
 trigger_action_callback
 (
+)
+        
+except
+Exception
+:
+            
+traceback
+.
+print_exc
+(
+)
+            
+sys
+.
+exit
+(
+1
 )
     
 def
