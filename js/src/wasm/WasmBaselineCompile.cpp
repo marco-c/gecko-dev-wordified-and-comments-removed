@@ -2304,6 +2304,8 @@ return
 isAvailable
 (
 r
+.
+reg
 )
 ;
 #
