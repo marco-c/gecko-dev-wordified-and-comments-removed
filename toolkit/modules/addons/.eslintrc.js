@@ -54,6 +54,11 @@ sendAsyncMessage
 :
 false
 "
+AddonManagerPermissions
+"
+:
+false
+"
 initialProcessData
 "
 :
