@@ -23071,6 +23071,14 @@ runtimeFromMainThread
 (
 )
 ;
+js
+:
+:
+CancelOffThreadIonCompile
+(
+rt
+)
+;
 zone
 -
 >
