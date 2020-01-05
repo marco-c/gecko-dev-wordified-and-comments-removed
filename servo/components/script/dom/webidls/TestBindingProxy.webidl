@@ -104,7 +104,7 @@ operations
 (
 see
 *
-http
+https
 :
 /
 /

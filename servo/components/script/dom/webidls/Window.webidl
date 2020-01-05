@@ -1159,7 +1159,7 @@ WindowLocalStorage
 ;
 /
 /
-http
+https
 :
 /
 /
