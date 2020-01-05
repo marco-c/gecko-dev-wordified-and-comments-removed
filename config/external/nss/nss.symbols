@@ -865,7 +865,6 @@ SSL_HandshakeNegotiatedExtension
 SSL_ImplementedCiphers
 DATA
 SSL_ImportFD
-SSL_NamedGroupConfig
 SSL_NumImplementedCiphers
 DATA
 SSL_OptionSet
