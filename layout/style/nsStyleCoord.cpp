@@ -1,13 +1,6 @@
 #
 include
 "
-nsStyleCoord
-.
-h
-"
-#
-include
-"
 mozilla
 /
 HashFunctions
@@ -20,6 +13,13 @@ include
 mozilla
 /
 PodOperations
+.
+h
+"
+#
+include
+"
+nsStyleCoord
 .
 h
 "
