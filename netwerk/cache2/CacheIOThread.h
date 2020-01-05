@@ -349,6 +349,15 @@ mLowestLevelWaiting
 uint32_t
 mCurrentlyExecutingLevel
 ;
+Atomic
+<
+int32_t
+>
+mQueueLength
+[
+LAST_LEVEL
+]
+;
 EventQueue
 mEventQueue
 [
