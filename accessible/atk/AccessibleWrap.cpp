@@ -63,6 +63,13 @@ h
 #
 include
 "
+DocAccessibleParent
+.
+h
+"
+#
+include
+"
 RootAccessible
 .
 h

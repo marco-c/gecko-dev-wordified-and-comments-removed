@@ -817,7 +817,7 @@ remoteChild
 }
 #
 endif
-ProxyAccessible
+DocAccessibleParent
 *
 OuterDocAccessible
 :

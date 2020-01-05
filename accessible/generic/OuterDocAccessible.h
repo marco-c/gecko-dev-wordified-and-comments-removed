@@ -18,7 +18,7 @@ namespace
 a11y
 {
 class
-ProxyAccessible
+DocAccessibleParent
 ;
 class
 OuterDocAccessible
@@ -40,7 +40,7 @@ aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-ProxyAccessible
+DocAccessibleParent
 *
 RemoteChildDoc
 (
