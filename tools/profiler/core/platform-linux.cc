@@ -1493,12 +1493,7 @@ TimeDuration
 :
 FromMicroseconds
 (
-gSampler
--
->
-interval
-(
-)
+gInterval
 *
 1000
 )

@@ -376,12 +376,7 @@ mInstance
 new
 SamplerThread
 (
-gSampler
--
->
-interval
-(
-)
+gInterval
 )
 ;
 mInstance
@@ -402,12 +397,7 @@ mInstance
 mInterval
 =
 =
-gSampler
--
->
-interval
-(
-)
+gInterval
 )
 ;
 }

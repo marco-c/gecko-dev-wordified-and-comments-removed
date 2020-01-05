@@ -1054,8 +1054,6 @@ Sampler
 :
 Sampler
 (
-double
-aInterval
 int
 aEntrySize
 const
@@ -1069,10 +1067,6 @@ uint32_t
 aFilterCount
 )
 :
-interval_
-(
-aInterval
-)
 paused_
 (
 false
@@ -1785,9 +1779,7 @@ DoubleProperty
 "
 interval
 "
-interval
-(
-)
+gInterval
 )
 ;
 aWriter

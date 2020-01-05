@@ -767,8 +767,6 @@ public
 :
 Sampler
 (
-double
-aInterval
 int
 aEntrySize
 const
@@ -787,16 +785,6 @@ Sampler
 (
 )
 ;
-double
-interval
-(
-)
-const
-{
-return
-interval_
-;
-}
 void
 Tick
 (
@@ -1210,10 +1198,6 @@ value
 )
 ;
 }
-const
-double
-interval_
-;
 Atomic32
 paused_
 ;
