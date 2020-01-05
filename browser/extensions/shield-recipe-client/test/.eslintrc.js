@@ -29,6 +29,9 @@ false
 ok
 :
 false
+SpecialPowers
+:
+false
 }
 rules
 :
