@@ -140,7 +140,7 @@ JSTracer
 *
 trc
 uint64_t
-minimimId
+minimumId
 )
 {
 for
@@ -189,7 +189,7 @@ serialNumber
 )
 >
 =
-minimimId
+minimumId
 )
 JS
 :
