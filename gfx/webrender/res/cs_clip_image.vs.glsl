@@ -188,12 +188,6 @@ cci
 segment_index
 )
 ;
-vLocalRect
-=
-vi
-.
-clipped_local_rect
-;
 vPos
 =
 vi

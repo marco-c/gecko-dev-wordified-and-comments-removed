@@ -2810,7 +2810,6 @@ local_pos
 init_transform_fs
 (
 vLocalPos
-vLocalRect
 alpha
 )
 ;
@@ -2894,8 +2893,6 @@ x
 -
 vBorderRect
 .
-p0
-.
 x
 )
 +
@@ -2905,8 +2902,6 @@ local_pos
 y
 -
 vBorderRect
-.
-p0
 .
 y
 )
@@ -2918,15 +2913,11 @@ y
 (
 vBorderRect
 .
-size
-.
-x
+z
 +
 vBorderRect
 .
-size
-.
-y
+w
 )
 ;
 #

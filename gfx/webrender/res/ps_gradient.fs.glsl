@@ -78,7 +78,6 @@ local_pos
 init_transform_fs
 (
 vLocalPos
-vLocalRect
 alpha
 )
 ;

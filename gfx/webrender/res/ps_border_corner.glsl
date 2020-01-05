@@ -135,11 +135,6 @@ vAlphaSelect
 #
 ifdef
 WR_FEATURE_TRANSFORM
-flat
-varying
-RectWithSize
-vLocalRect
-;
 varying
 vec3
 vLocalPos

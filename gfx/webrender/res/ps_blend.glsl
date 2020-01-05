@@ -62,6 +62,11 @@ vUv
 ;
 flat
 varying
+vec4
+vUvBounds
+;
+flat
+varying
 float
 vAmount
 ;

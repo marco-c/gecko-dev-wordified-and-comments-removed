@@ -117,7 +117,7 @@ border
 radius
 flat
 varying
-RectWithSize
+vec4
 vBorderRect
 ;
 /
@@ -212,11 +212,6 @@ in
 local
 space
 .
-flat
-varying
-RectWithSize
-vLocalRect
-;
 flat
 varying
 float

@@ -67,10 +67,5 @@ varying
 vec3
 vLocalPos
 ;
-flat
-varying
-RectWithSize
-vLocalRect
-;
 #
 endif

@@ -593,10 +593,6 @@ local_rect
 p0
 )
 ;
-vLocalRect
-=
-segment_rect
-;
 vLocalPos
 =
 vi

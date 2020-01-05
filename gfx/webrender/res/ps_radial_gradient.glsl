@@ -63,6 +63,11 @@ vGradientIndex
 ;
 flat
 varying
+vec2
+vGradientTextureSize
+;
+flat
+varying
 float
 vGradientRepeat
 ;

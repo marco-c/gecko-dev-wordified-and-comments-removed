@@ -65,11 +65,6 @@ vPos
 ;
 flat
 varying
-RectWithSize
-vLocalRect
-;
-flat
-varying
 vec4
 vClipRect
 ;

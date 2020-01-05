@@ -213,6 +213,7 @@ pub
 mod
 size
 ;
+pub
 mod
 trig
 ;

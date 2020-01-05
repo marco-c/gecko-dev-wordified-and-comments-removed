@@ -221,7 +221,7 @@ operation
 /
 that
 is
-appled
+applied
 after
 .
 pub

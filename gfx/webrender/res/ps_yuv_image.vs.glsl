@@ -102,12 +102,6 @@ local_rect
 p0
 )
 ;
-vLocalRect
-=
-prim
-.
-local_rect
-;
 vLocalPos
 =
 vi
