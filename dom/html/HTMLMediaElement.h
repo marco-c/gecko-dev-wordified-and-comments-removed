@@ -1652,6 +1652,12 @@ bool
 aVisible
 )
 ;
+bool
+HasSuspendTaint
+(
+)
+const
+;
 layers
 :
 :
