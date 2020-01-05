@@ -16746,7 +16746,7 @@ frame
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 block

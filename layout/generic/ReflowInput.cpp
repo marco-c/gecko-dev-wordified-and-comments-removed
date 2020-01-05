@@ -5909,7 +5909,7 @@ block
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 lineBox
 =
 iter

@@ -17829,7 +17829,7 @@ aParent
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 aLine
 nsPoint
 aPoint
@@ -18227,7 +18227,7 @@ Null
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 firstLine
 =
 bf
@@ -18240,7 +18240,7 @@ begin_lines
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 end
 =
 bf
@@ -18296,7 +18296,7 @@ Null
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 curLine
 =
 firstLine
@@ -18304,7 +18304,7 @@ firstLine
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 closestLine
 =
 end
@@ -18407,7 +18407,7 @@ end
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 prevLine
 =
 curLine
@@ -18419,7 +18419,7 @@ prev
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 nextLine
 =
 curLine

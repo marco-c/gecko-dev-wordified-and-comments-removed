@@ -448,13 +448,13 @@ overflowLines
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 ;
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line_end
 ;
 bool
