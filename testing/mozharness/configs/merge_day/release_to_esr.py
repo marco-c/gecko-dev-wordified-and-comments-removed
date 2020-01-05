@@ -34,7 +34,7 @@ releases
 /
 mozilla
 -
-esr52
+esr59
 "
 OLD_ESR_REPO
 =
@@ -53,12 +53,12 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 "
 OLD_ESR_CHANGESET
 =
 "
-d2d75f526882
+df0931ac8b02
 "
 config
 =
@@ -444,19 +444,6 @@ s_BASE
 "
     
 "
-end_tag
-"
-:
-"
-FIREFOX_ESR_
-%
-(
-major_version
-)
-s_END
-"
-    
-"
 migration_behavior
 "
 :
@@ -471,7 +458,7 @@ require_remove_locales
 False
     
 "
-transplant_patches
+graft_patches
 "
 :
 [
@@ -502,5 +489,5 @@ False
 pull_all_branches
 "
 :
-True
+False
 }
