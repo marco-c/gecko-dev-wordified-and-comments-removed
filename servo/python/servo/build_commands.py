@@ -906,12 +906,6 @@ None
 )
 :
         
-self
-.
-ensure_bootstrapped
-(
-)
-        
 if
 android
 is
@@ -1160,6 +1154,12 @@ sys
 exit
 (
 1
+)
+        
+self
+.
+ensure_bootstrapped
+(
 )
         
 if
