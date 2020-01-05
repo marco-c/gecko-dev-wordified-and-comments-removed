@@ -187,7 +187,7 @@ mod
 compositor_task
 ;
 mod
-buffer_map
+surface_map
 ;
 mod
 compositor_layer

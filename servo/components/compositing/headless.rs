@@ -587,7 +587,7 @@ HeadParsed
 Msg
 :
 :
-ReturnUnusedLayerBuffers
+ReturnUnusedNativeSurfaces
 (
 .
 .
