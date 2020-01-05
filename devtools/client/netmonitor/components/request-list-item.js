@@ -241,6 +241,16 @@ PropTypes
 func
 .
 isRequired
+onFocusedNodeChange
+:
+PropTypes
+.
+func
+onFocusedNodeUnmount
+:
+PropTypes
+.
+func
 onMouseDown
 :
 PropTypes

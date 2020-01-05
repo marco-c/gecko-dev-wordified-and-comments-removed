@@ -296,6 +296,13 @@ PropTypes
 func
 .
 isRequired
+resizeWaterfall
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 componentDidMount
 (
