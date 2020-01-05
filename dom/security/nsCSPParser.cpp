@@ -2471,7 +2471,7 @@ CSP_SELF
 )
 {
 return
-CSP_CreateHostSrcFromURI
+CSP_CreateHostSrcFromSelfURI
 (
 mSelfURI
 )
