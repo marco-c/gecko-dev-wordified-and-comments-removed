@@ -7658,6 +7658,28 @@ __mips__
 1
         
 }
+        
+'
+sh4
+-
+unknown
+-
+linux
+-
+gnu
+'
+:
+little_endian
++
+{
+            
+'
+__sh__
+'
+:
+1
+        
+}
     
 }
     
