@@ -6238,6 +6238,11 @@ defaults
 if
 (
 value
+is
+not
+None
+and
+value
 .
 origin
 not
