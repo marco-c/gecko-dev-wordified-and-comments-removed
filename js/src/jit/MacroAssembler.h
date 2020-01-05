@@ -8005,6 +8005,10 @@ dest
 void
 loadWasmTlsRegFromFrame
 (
+Register
+dest
+=
+WasmTlsReg
 )
 ;
 template

@@ -2812,13 +2812,6 @@ cpp
 '
 wasm
 /
-WasmDebugFrame
-.
-cpp
-'
-'
-wasm
-/
 WasmFrameIterator
 .
 cpp

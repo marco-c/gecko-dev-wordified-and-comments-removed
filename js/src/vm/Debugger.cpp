@@ -12368,7 +12368,7 @@ asWasmDebugFrame
 )
 -
 >
-observeFrame
+observe
 (
 cx
 )

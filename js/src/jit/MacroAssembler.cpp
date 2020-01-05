@@ -15805,6 +15805,8 @@ MacroAssembler
 :
 loadWasmTlsRegFromFrame
 (
+Register
+dest
 )
 {
 loadPtr
@@ -15827,7 +15829,7 @@ Frame
 tls
 )
 )
-WasmTlsReg
+dest
 )
 ;
 }
