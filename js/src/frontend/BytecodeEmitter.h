@@ -2719,17 +2719,6 @@ flav
 ;
 MOZ_MUST_USE
 bool
-emitDestructuringLHSInBranch
-(
-ParseNode
-*
-target
-DestructuringFlavor
-flav
-)
-;
-MOZ_MUST_USE
-bool
 emitDestructuringOps
 (
 ParseNode
