@@ -4502,7 +4502,7 @@ broadcastAsyncMessage
 "
 Marionette
 :
-waitForPageLoaded
+pollForReadyState
 "
 +
 this
@@ -4979,7 +4979,7 @@ broadcastAsyncMessage
 "
 Marionette
 :
-waitForPageLoaded
+pollForReadyState
 "
 +
 this
@@ -5157,7 +5157,7 @@ broadcastAsyncMessage
 "
 Marionette
 :
-waitForPageLoaded
+pollForReadyState
 "
 +
 this
