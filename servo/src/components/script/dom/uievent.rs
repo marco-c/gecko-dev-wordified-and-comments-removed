@@ -145,9 +145,6 @@ window
 :
 mut
 Window
-type_id
-:
-EventTypeId
 )
 -
 >
@@ -164,7 +161,7 @@ UIEvent
 :
 new_inherited
 (
-type_id
+UIEventTypeId
 )
 window
 UIEventBinding
@@ -216,7 +213,6 @@ UIEvent
 new
 (
 owner
-UIEventTypeId
 )
 ;
 ev

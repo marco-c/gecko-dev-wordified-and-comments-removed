@@ -836,9 +836,6 @@ window
 :
 mut
 Window
-type_id
-:
-EventTypeId
 )
 -
 >
@@ -855,7 +852,7 @@ Event
 :
 new_inherited
 (
-type_id
+HTMLEventTypeId
 )
 window
 EventBinding
@@ -1162,7 +1159,6 @@ Event
 new
 (
 global
-HTMLEventTypeId
 )
 ;
 ev
