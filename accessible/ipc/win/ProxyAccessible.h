@@ -106,13 +106,6 @@ role
 aRole
 uint32_t
 aInterfaces
-const
-RefPtr
-<
-IAccessible
->
-&
-aIAccessible
 )
 :
 ProxyAccessibleBase
@@ -122,10 +115,6 @@ aParent
 aDoc
 aRole
 aInterfaces
-)
-mCOMProxy
-(
-aIAccessible
 )
 {
 MOZ_COUNT_CTOR
