@@ -15744,6 +15744,7 @@ edgeColor
 edgeColor
 .
 a
+*
 =
 aOpacity
 ;
