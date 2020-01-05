@@ -22,11 +22,9 @@ inspector
 /
 shared
 /
-style
+node
 -
-inspector
--
-overlays
+types
 "
 )
 ;
