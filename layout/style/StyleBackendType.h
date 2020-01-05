@@ -11,7 +11,7 @@ enum
 class
 StyleBackendType
 :
-int
+uint8_t
 {
 Gecko
 =
