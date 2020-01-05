@@ -1259,6 +1259,16 @@ self
 >
 bool
 ;
+fn
+is_root
+(
+&
+self
+)
+-
+>
+bool
+;
 }
 pub
 trait
