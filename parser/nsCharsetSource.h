@@ -107,4 +107,15 @@ define
 kCharsetFromByteOrderMark
 15
 #
+define
+kCharsetFromUtf8OnlyMime
+16
+/
+/
+For
+JSON
+WebVTT
+and
+such
+#
 endif

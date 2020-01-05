@@ -2310,6 +2310,16 @@ aContentType
 ;
 static
 bool
+IsUtf8OnlyPlainTextType
+(
+const
+nsACString
+&
+aContentType
+)
+;
+static
+bool
 GetWrapperSafeScriptFilename
 (
 nsIDocument
