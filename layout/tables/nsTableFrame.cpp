@@ -6292,6 +6292,7 @@ aFrame
 GetRectRelativeToSelf
 (
 )
+cell
 )
 ;
 }
@@ -6504,6 +6505,7 @@ aFrame
 GetRectRelativeToSelf
 (
 )
+cell
 )
 ;
 }
