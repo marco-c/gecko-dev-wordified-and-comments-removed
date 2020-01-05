@@ -281,14 +281,7 @@ Stylist
 let
 num_tasks
 =
-rt
-:
-:
-default_sched_threads
-(
-)
-*
-2
+1
 ;
 let
 mut
