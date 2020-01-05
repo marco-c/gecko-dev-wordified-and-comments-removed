@@ -23,10 +23,7 @@ bindings
 global
 :
 :
-{
 GlobalRef
-GlobalField
-}
 ;
 use
 dom
@@ -111,9 +108,6 @@ Blob
 reflector_
 :
 Reflector
-global
-:
-GlobalField
 type_
 :
 BlobType
@@ -125,10 +119,6 @@ pub
 fn
 new_inherited
 (
-global
-:
-&
-GlobalRef
 )
 -
 >
@@ -143,15 +133,6 @@ Reflector
 :
 new
 (
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-global
 )
 type_
 :
@@ -182,7 +163,6 @@ Blob
 :
 new_inherited
 (
-global
 )
 global
 BlobBinding
