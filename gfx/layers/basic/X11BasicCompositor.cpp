@@ -442,8 +442,6 @@ IntSize
 )
 ;
 }
-else
-{
 return
 mBufferDrawTarget
 -
@@ -452,7 +450,6 @@ GetSize
 (
 )
 ;
-}
 }
 gfx
 :
@@ -497,8 +494,6 @@ SurfaceFormat
 UNKNOWN
 ;
 }
-else
-{
 return
 mBufferDrawTarget
 -
@@ -507,7 +502,6 @@ GetFormat
 (
 )
 ;
-}
 }
 SourceSurface
 *
@@ -552,12 +546,9 @@ get
 )
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 void
 X11DataTextureSourceBasic

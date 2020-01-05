@@ -2278,7 +2278,6 @@ kAlpha_8_SkColorType
 ifdef
 USE_SKIA_GPU
 }
-else
 if
 (
 GrTexture
@@ -2307,12 +2306,9 @@ config
 #
 endif
 }
-else
-{
 return
 false
 ;
-}
 }
 static
 bool

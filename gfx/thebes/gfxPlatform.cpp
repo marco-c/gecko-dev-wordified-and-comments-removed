@@ -6488,8 +6488,6 @@ aSize
 )
 ;
 }
-else
-{
 return
 Factory
 :
@@ -6501,7 +6499,6 @@ aSize
 aFormat
 )
 ;
-}
 }
 already_AddRefed
 <
