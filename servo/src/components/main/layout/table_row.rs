@@ -501,7 +501,11 @@ initialize_offsets
 )
 ;
 let
+/
+*
 mut
+*
+/
 cur_y
 =
 top_offset
@@ -753,6 +757,8 @@ height
 }
 ;
 }
+/
+/
 cur_y
 =
 cur_y

@@ -10,9 +10,6 @@ with_errors_silenced
 }
 ;
 use
-extra
-:
-:
 url
 ;
 pub

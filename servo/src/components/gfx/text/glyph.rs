@@ -68,7 +68,7 @@ use
 std
 :
 :
-vec
+slice
 ;
 use
 std
@@ -2620,7 +2620,7 @@ GlyphStore
 {
 entry_buffer
 :
-vec
+slice
 :
 :
 from_elem
@@ -3004,7 +3004,7 @@ false
 let
 glyphs_vec
 =
-vec
+slice
 :
 :
 from_fn

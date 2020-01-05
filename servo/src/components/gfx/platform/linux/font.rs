@@ -439,10 +439,6 @@ fctx
 .
 ctx
 .
-borrow
-(
-)
-.
 ctx
 ;
 if
@@ -1999,10 +1995,6 @@ fctx
 .
 ctx
 .
-borrow
-(
-)
-.
 ctx
 ;
 if
@@ -2165,10 +2157,6 @@ FT_Library
 fctx
 .
 ctx
-.
-borrow
-(
-)
 .
 ctx
 ;

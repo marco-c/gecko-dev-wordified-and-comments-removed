@@ -42,10 +42,6 @@ azure
 ;
 extern
 crate
-extra
-;
-extern
-crate
 geom
 ;
 extern
@@ -59,6 +55,10 @@ serialize
 extern
 crate
 std
+;
+extern
+crate
+url
 ;
 #
 [

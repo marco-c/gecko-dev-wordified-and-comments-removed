@@ -4,7 +4,6 @@ std
 :
 {
 cmp
-vec
 iter
 }
 ;
@@ -16,6 +15,12 @@ ascii
 :
 :
 StrAsciiExt
+;
+use
+std
+:
+:
+slice
 ;
 use
 sync
@@ -455,7 +460,7 @@ iter
 Peekable
 <
 ComponentValue
-vec
+slice
 :
 :
 MoveItems
@@ -4030,7 +4035,7 @@ test_parsing
 (
 )
 {
-assert_eq
+assert
 !
 (
 parse
@@ -4038,9 +4043,11 @@ parse
 "
 "
 )
+=
+=
 None
 )
-assert_eq
+assert
 !
 (
 parse
@@ -4049,6 +4056,8 @@ parse
 e
 "
 )
+=
+=
 Some
 (
 ~
@@ -4096,7 +4105,7 @@ specificity
 ]
 )
 )
-assert_eq
+assert
 !
 (
 parse
@@ -4106,6 +4115,8 @@ parse
 foo
 "
 )
+=
+=
 Some
 (
 ~
@@ -4153,7 +4164,7 @@ specificity
 ]
 )
 )
-assert_eq
+assert
 !
 (
 parse
@@ -4163,6 +4174,8 @@ parse
 bar
 "
 )
+=
+=
 Some
 (
 ~
@@ -4210,7 +4223,7 @@ specificity
 ]
 )
 )
-assert_eq
+assert
 !
 (
 parse
@@ -4223,6 +4236,8 @@ foo
 bar
 "
 )
+=
+=
 Some
 (
 ~
@@ -4284,7 +4299,7 @@ specificity
 ]
 )
 )
-assert_eq
+assert
 !
 (
 parse
@@ -4297,6 +4312,8 @@ foo
 bar
 "
 )
+=
+=
 Some
 (
 ~
@@ -4413,7 +4430,7 @@ new
 (
 )
 ;
-assert_eq
+assert
 !
 (
 parse_ns
@@ -4426,6 +4443,8 @@ Foo
 &
 namespaces
 )
+=
+=
 Some
 (
 ~
@@ -4532,7 +4551,7 @@ namespace
 MathML
 )
 ;
-assert_eq
+assert
 !
 (
 parse_ns
@@ -4545,6 +4564,8 @@ Foo
 &
 namespaces
 )
+=
+=
 Some
 (
 ~
@@ -4621,7 +4642,7 @@ apply
 to
 type
 selectors
-assert_eq
+assert
 !
 (
 parse_ns
@@ -4632,6 +4653,8 @@ e
 &
 namespaces
 )
+=
+=
 Some
 (
 ~
@@ -4703,7 +4726,7 @@ servo
 issues
 /
 1723
-assert_eq
+assert
 !
 (
 parse
@@ -4714,6 +4737,8 @@ parse
 before
 "
 )
+=
+=
 Some
 (
 ~
@@ -4757,7 +4782,7 @@ specificity
 ]
 )
 )
-assert_eq
+assert
 !
 (
 parse
@@ -4768,6 +4793,8 @@ div
 after
 "
 )
+=
+=
 Some
 (
 ~

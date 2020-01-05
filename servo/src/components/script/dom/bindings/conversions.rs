@@ -161,6 +161,15 @@ use
 std
 :
 :
+default
+:
+:
+Default
+;
+use
+std
+:
+:
 libc
 ;
 pub

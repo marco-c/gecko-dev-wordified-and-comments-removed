@@ -15568,10 +15568,6 @@ handler
 =
 js_info
 .
-get
-(
-)
-.
 get_ref
 (
 )
@@ -18201,12 +18197,12 @@ s
 as
 uint
                                              
-vec
+slice
 :
 :
 cast_to_mut
 (
-vec
+slice
 :
 :
 from_slice
@@ -18245,7 +18241,7 @@ js_info
 .
 js_context
 .
-borrow
+deref
 (
 )
 .
@@ -18258,10 +18254,6 @@ receiver
 js_info
 .
 js_compartment
-.
-borrow
-(
-)
 .
 global_obj
 ;
@@ -29351,10 +29343,6 @@ method_ids
 =
 js_info
 .
-get
-(
-)
-.
 get_ref
 (
 )
@@ -29450,10 +29438,6 @@ attr_ids
 =
 js_info
 .
-get
-(
-)
-.
 get_ref
 (
 )
@@ -29548,10 +29532,6 @@ let
 const_ids
 =
 js_info
-.
-get
-(
-)
 .
 get_ref
 (
@@ -38819,7 +38799,7 @@ ptr
 std
 :
 :
-vec
+slice
 '
             
 '
@@ -43061,7 +43041,7 @@ let
 mut
 argv
 =
-vec
+slice
 :
 :
 from_elem

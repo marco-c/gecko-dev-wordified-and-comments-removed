@@ -328,7 +328,7 @@ use
 std
 :
 :
-vec
+slice
 ;
 static
 NO_GLYPH
@@ -1541,7 +1541,7 @@ char_max
 {
 byteToGlyph
 =
-vec
+slice
 :
 :
 from_elem
@@ -1555,7 +1555,7 @@ else
 {
 byteToGlyph
 =
-vec
+slice
 :
 :
 from_elem

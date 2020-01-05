@@ -236,8 +236,9 @@ comm
 :
 :
 {
-Chan
-Port
+channel
+Receiver
+Sender
 }
 ;
 use
@@ -313,7 +314,7 @@ ExitMsg
 (
 Option
 <
-Chan
+Sender
 <
 (
 )
@@ -444,7 +445,7 @@ RenderChan
 {
 chan
 :
-Chan
+Sender
 <
 Msg
 >
@@ -489,7 +490,7 @@ new
 -
 >
 (
-Port
+Receiver
 <
 Msg
 >
@@ -498,14 +499,11 @@ RenderChan
 {
 let
 (
-port
 chan
+port
 )
 =
-Chan
-:
-:
-new
+channel
 (
 )
 ;
@@ -630,7 +628,7 @@ id
 PipelineId
 port
 :
-Port
+Receiver
 <
 Msg
 >
@@ -903,7 +901,7 @@ id
 PipelineId
 port
 :
-Port
+Receiver
 <
 Msg
 >
@@ -924,7 +922,7 @@ profiler_chan
 ProfilerChan
 shutdown_chan
 :
-Chan
+Sender
 <
 (
 )

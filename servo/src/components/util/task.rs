@@ -20,7 +20,7 @@ std
 comm
 :
 :
-Chan
+Sender
 ;
 use
 std
@@ -96,7 +96,7 @@ msg
 T
 dest
 :
-Chan
+Sender
 <
 T
 >

@@ -154,7 +154,7 @@ use
 std
 :
 :
-vec
+slice
 :
 :
 Items

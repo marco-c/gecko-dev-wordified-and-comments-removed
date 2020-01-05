@@ -110,13 +110,13 @@ use
 std
 :
 :
-str
+slice
 ;
 use
 std
 :
 :
-vec
+str
 ;
 use
 js
@@ -1003,7 +1003,7 @@ s
 length
 )
 ;
-vec
+slice
 :
 :
 raw
@@ -3976,10 +3976,6 @@ js_info
 match
 *
 js_info
-.
-get
-(
-)
 {
 Some
 (
@@ -3992,7 +3988,7 @@ info
 .
 js_context
 .
-borrow
+deref
 (
 )
 .

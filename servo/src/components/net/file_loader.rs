@@ -56,7 +56,7 @@ Stream
 progress_chan
 :
 &
-Chan
+Sender
 <
 ProgressMsg
 >
@@ -84,7 +84,7 @@ buf
 match
 reader
 .
-push_bytes
+push_exact
 (
 &
 mut
