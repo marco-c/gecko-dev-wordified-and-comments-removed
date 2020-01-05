@@ -1,4 +1,10 @@
 use
+devtools_traits
+:
+:
+CSSError
+;
+use
 document_loader
 :
 :
@@ -1004,12 +1010,6 @@ num
 :
 :
 ToPrimitive
-;
-use
-script_thread
-:
-:
-CSSError
 ;
 use
 script_thread

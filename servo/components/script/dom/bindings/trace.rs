@@ -35,6 +35,12 @@ use
 devtools_traits
 :
 :
+CSSError
+;
+use
+devtools_traits
+:
+:
 WorkerId
 ;
 use
@@ -619,6 +625,12 @@ JSTracer
 )
 ;
 }
+no_jsmanaged_fields
+!
+(
+CSSError
+)
+;
 no_jsmanaged_fields
 !
 (
