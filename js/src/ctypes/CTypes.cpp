@@ -18157,7 +18157,7 @@ currentGrouping
 ;
 while
 (
-true
+1
 )
 {
 currentGrouping
