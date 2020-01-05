@@ -198,15 +198,9 @@ USE_LIBS
 [
 '
 /
-media
-/
-webrtc
-/
-trunk
-/
 testing
 /
-gtest_gtest
+gtest
 /
 gtest
 '
