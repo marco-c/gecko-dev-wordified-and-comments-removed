@@ -151,6 +151,12 @@ print_tree
 PrintTree
 ;
 use
+incremental
+:
+:
+RelayoutMode
+;
+use
 layout_debug
 ;
 use
@@ -10810,6 +10816,10 @@ traverse_flow_tree_preorder
 (
 child
 layout_context
+RelayoutMode
+:
+:
+Force
 )
 ;
 }
