@@ -824,10 +824,6 @@ blockType
 (
 nullptr
 )
-insertElement
-(
-nullptr
-)
 {
 }
 const
@@ -879,11 +875,6 @@ const
 nsAString
 *
 blockType
-;
-const
-nsIDOMElement
-*
-insertElement
 ;
 }
 ;
