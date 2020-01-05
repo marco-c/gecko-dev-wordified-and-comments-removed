@@ -9558,7 +9558,7 @@ XMLHttpRequestWorker
 :
 GetResponseText
 (
-nsAString
+DOMString
 &
 aResponseText
 ErrorResult
