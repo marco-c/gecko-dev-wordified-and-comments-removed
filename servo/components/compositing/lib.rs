@@ -152,10 +152,16 @@ compositor_thread
 :
 :
 {
-CompositorEventListener
 CompositorProxy
 CompositorThread
 }
+;
+pub
+use
+compositor
+:
+:
+IOCompositor
 ;
 use
 euclid
