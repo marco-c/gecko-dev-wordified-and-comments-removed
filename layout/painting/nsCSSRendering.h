@@ -1621,10 +1621,10 @@ nsRect
 mAdditionalBGClipArea
 ;
 nsRect
-mDirtyRect
+mDirtyRectInAppUnits
 ;
 gfxRect
-mDirtyRectGfx
+mDirtyRectInDevPx
 ;
 nscoord
 mRadii
