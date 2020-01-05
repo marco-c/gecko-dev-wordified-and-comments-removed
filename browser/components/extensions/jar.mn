@@ -136,6 +136,15 @@ browser
 /
 ext
 -
+browsingData
+.
+js
+content
+/
+browser
+/
+ext
+-
 commands
 .
 js

@@ -81,6 +81,15 @@ browser
 /
 schemas
 /
+browsing_data
+.
+json
+content
+/
+browser
+/
+schemas
+/
 commands
 .
 json
