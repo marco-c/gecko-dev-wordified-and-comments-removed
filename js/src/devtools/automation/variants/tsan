@@ -83,7 +83,7 @@ JITTEST_EXTRA_ARGS
 -
 jitflags
 =
-debug
+tsan
 -
 -
 ignore
