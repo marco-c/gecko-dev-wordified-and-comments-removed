@@ -60,6 +60,13 @@ nsExceptionHandler
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 endif
 #
 include
