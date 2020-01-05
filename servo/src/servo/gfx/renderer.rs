@@ -63,6 +63,14 @@ text_run
 :
 TextRun
 ;
+type
+Renderer
+=
+chan
+<
+Msg
+>
+;
 enum
 Msg
 {
@@ -117,7 +125,7 @@ display
 "
 ]
 iface
-sink
+Sink
 {
 fn
 begin_drawing
@@ -146,11 +154,11 @@ AzDrawTargetRef
 ;
 }
 fn
-renderer
+Renderer
 <
 S
 :
-sink
+Sink
 send
 copy
 >

@@ -24,7 +24,7 @@ arguments
 ]
 ;
 type
-opts
+Opts
 =
 {
 urls
@@ -34,14 +34,14 @@ str
 ]
 render_mode
 :
-render_mode
+RenderMode
 }
 ;
 enum
-render_mode
+RenderMode
 {
-screen
-png
+Screen
+Png
 (
 str
 )
@@ -64,7 +64,7 @@ str
 )
 -
 >
-opts
+Opts
 {
 import
 std
@@ -192,7 +192,7 @@ some
 output_file
 )
 {
-png
+Png
 (
 copy
 output_file
@@ -200,7 +200,7 @@ output_file
 }
 none
 {
-screen
+Screen
 }
 }
 ;
