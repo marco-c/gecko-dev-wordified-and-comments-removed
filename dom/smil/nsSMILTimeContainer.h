@@ -373,9 +373,14 @@ mNeedsRewind
 bool
 mIsSeeking
 ;
+#
+ifdef
+DEBUG
 bool
 mHoldingEntries
 ;
+#
+endif
 uint32_t
 mPauseState
 ;
