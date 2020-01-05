@@ -47,6 +47,11 @@ nsGlobalWindow
 aWindow
 )
 ;
+~
+TimeoutManager
+(
+)
+;
 TimeoutManager
 (
 const
