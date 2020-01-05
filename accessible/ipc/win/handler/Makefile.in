@@ -137,6 +137,9 @@ MIDL
 (
 MIDL_FLAGS
 )
+(
+DEFINES
+)
 -
 I
 (
