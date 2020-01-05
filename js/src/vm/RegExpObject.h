@@ -716,6 +716,11 @@ JSRuntime
 rt
 )
 ;
+void
+discardJitCode
+(
+)
+;
 bool
 marked
 (
