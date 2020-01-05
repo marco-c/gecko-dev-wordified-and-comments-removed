@@ -243,17 +243,11 @@ attribute
 boolean
 isMap
 ;
-[
-SetterThrows
-]
 attribute
 unsigned
 long
 width
 ;
-[
-SetterThrows
-]
 attribute
 unsigned
 long
