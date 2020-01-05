@@ -138,9 +138,6 @@ GeckoCppUnitTests
 (
 [
 '
-mediaconduit_unittests
-'
-'
 mediapipeline_unittest
 '
 '
