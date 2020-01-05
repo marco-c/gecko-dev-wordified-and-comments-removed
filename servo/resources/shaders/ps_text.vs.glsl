@@ -107,6 +107,12 @@ vi
 local_pos
 .
 xy
+/
+vi
+.
+local_pos
+.
+z
 -
 glyph
 .
