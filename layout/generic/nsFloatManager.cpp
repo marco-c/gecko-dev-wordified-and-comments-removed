@@ -902,7 +902,6 @@ fi
 .
 LineRight
 (
-aWM
 aShapeType
 blockStart
 bandBlockEnd
@@ -934,7 +933,6 @@ fi
 .
 LineLeft
 (
-aWM
 aShapeType
 blockStart
 bandBlockEnd
@@ -2429,8 +2427,6 @@ RoundedBoxShapeInfo
 :
 LineLeft
 (
-WritingMode
-aWM
 const
 nscoord
 aBStart
@@ -2502,8 +2498,6 @@ RoundedBoxShapeInfo
 :
 LineRight
 (
-WritingMode
-aWM
 const
 nscoord
 aBStart
@@ -2579,8 +2573,6 @@ EllipseShapeInfo
 :
 LineLeft
 (
-WritingMode
-aWM
 const
 nscoord
 aBStart
@@ -2638,8 +2630,6 @@ EllipseShapeInfo
 :
 LineRight
 (
-WritingMode
-aWM
 const
 nscoord
 aBStart
@@ -3078,8 +3068,6 @@ FloatInfo
 :
 LineLeft
 (
-WritingMode
-aWM
 ShapeType
 aShapeType
 const
@@ -3145,7 +3133,6 @@ mShapeInfo
 >
 LineLeft
 (
-aWM
 aBStart
 aBEnd
 )
@@ -3161,8 +3148,6 @@ FloatInfo
 :
 LineRight
 (
-WritingMode
-aWM
 ShapeType
 aShapeType
 const
@@ -3228,7 +3213,6 @@ mShapeInfo
 >
 LineRight
 (
-aWM
 aBStart
 aBEnd
 )
