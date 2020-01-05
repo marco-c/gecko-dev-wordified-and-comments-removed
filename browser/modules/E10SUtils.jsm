@@ -258,6 +258,13 @@ extension
 "
 ;
 const
+LARGE_ALLOCATION_REMOTE_TYPE
+=
+"
+webLargeAllocation
+"
+;
+const
 DEFAULT_REMOTE_TYPE
 =
 WEB_REMOTE_TYPE
@@ -294,6 +301,7 @@ NOT_REMOTE
 WEB_REMOTE_TYPE
 FILE_REMOTE_TYPE
 EXTENSION_REMOTE_TYPE
+LARGE_ALLOCATION_REMOTE_TYPE
 canLoadURIInProcess
 (
 aURL
@@ -337,6 +345,9 @@ aMultiProcess
 aPreferredRemoteType
 =
 DEFAULT_REMOTE_TYPE
+aLargeAllocation
+=
+false
 )
 {
 if
@@ -347,6 +358,15 @@ aMultiProcess
 {
 return
 NOT_REMOTE
+;
+}
+if
+(
+aLargeAllocation
+)
+{
+return
+LARGE_ALLOCATION_REMOTE_TYPE
 ;
 }
 if
