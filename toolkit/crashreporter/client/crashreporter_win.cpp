@@ -89,8 +89,6 @@ h
 #
 include
 "
-client
-/
 windows
 /
 sender

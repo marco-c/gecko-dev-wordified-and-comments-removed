@@ -22,8 +22,6 @@ h
 #
 include
 "
-client
-/
 windows
 /
 crash_generation
