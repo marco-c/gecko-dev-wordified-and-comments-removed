@@ -141,7 +141,11 @@ browser
 .
 newtabpage
 .
-remote
+activity
+-
+stream
+.
+enabled
 "
 false
 )
@@ -308,7 +312,11 @@ browser
 .
 newtabpage
 .
-remote
+activity
+-
+stream
+.
+enabled
 "
 true
 )

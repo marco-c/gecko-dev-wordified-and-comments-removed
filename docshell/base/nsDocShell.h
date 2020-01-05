@@ -2090,14 +2090,6 @@ GetParentDocshell
 (
 )
 ;
-bool
-IsAboutNewtab
-(
-nsIURI
-*
-aURI
-)
-;
 protected
 :
 nsresult

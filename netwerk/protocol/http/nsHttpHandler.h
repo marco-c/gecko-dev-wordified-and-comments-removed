@@ -1189,15 +1189,6 @@ mH2MandatorySuiteEnabled
 ;
 }
 bool
-NewTabContentSignaturesDisabled
-(
-)
-{
-return
-mNewTabContentSignaturesDisabled
-;
-}
-bool
 Active
 (
 )
@@ -1705,9 +1696,6 @@ nsCOMPtr
 nsIRequestContextService
 >
 mRequestContextService
-;
-bool
-mNewTabContentSignaturesDisabled
 ;
 bool
 mKeepEmptyResponseHeadersAsEmtpyString
