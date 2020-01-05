@@ -152,6 +152,10 @@ stb_image
 ;
 extern
 mod
+png
+;
+extern
+mod
 servo_net
 (
 name

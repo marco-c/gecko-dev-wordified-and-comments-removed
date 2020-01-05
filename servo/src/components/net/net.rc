@@ -151,6 +151,10 @@ extern
 mod
 extra
 ;
+extern
+mod
+png
+;
 /
 /
 /
