@@ -144,6 +144,8 @@ FrontClassWithSpec
 cssUsageSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -419,6 +421,8 @@ _toggle
 }
 )
 isRunning
+:
+function
 (
 )
 {

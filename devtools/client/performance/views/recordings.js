@@ -8,6 +8,8 @@ RecordingsView
 =
 {
 initialize
+:
+function
 (
 )
 {
@@ -262,6 +264,8 @@ length
 ;
 }
 _renderList
+:
+function
 (
 )
 {
@@ -388,6 +392,8 @@ _listMount
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -441,6 +447,8 @@ _onRecordingExported
 ;
 }
 _onNewRecording
+:
+function
 (
 _
 recording
@@ -457,6 +465,8 @@ recording
 ;
 }
 _onRecordingStateChange
+:
+function
 (
 _
 state
@@ -590,6 +600,8 @@ _renderList
 ;
 }
 _onRecordingDeleted
+:
+function
 (
 _
 recording
@@ -698,6 +710,8 @@ _renderList
 }
 )
 _onSaveButtonClick
+:
+function
 (
 recording
 )
@@ -844,6 +858,8 @@ file
 ;
 }
 _onRecordingExported
+:
+function
 (
 _
 recording

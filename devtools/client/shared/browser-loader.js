@@ -944,6 +944,8 @@ prototype
 =
 {
 lazyRequireGetter
+:
+function
 (
 obj
 property
@@ -990,6 +992,8 @@ property
 ;
 }
 hotReloadFile
+:
+function
 (
 componentProxies
 fileURI

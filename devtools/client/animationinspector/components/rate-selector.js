@@ -126,6 +126,8 @@ prototype
 =
 {
 init
+:
+function
 (
 containerEl
 )
@@ -191,6 +193,8 @@ onRateChanged
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -224,6 +228,8 @@ null
 ;
 }
 getAnimationsRates
+:
+function
 (
 animations
 )
@@ -248,6 +254,8 @@ playbackRate
 ;
 }
 getAllRates
+:
+function
 (
 animations
 )
@@ -288,6 +296,8 @@ animationsRates
 ;
 }
 render
+:
+function
 (
 animations
 )
@@ -446,6 +456,8 @@ true
 }
 }
 onRateChanged
+:
+function
 (
 )
 {

@@ -472,6 +472,8 @@ this
 }
 )
 _showError
+:
+function
 (
 event
 data
@@ -588,6 +590,8 @@ level
 }
 }
 selectStyleSheet
+:
+function
 (
 href
 line
@@ -634,6 +638,8 @@ col
 ;
 }
 destroy
+:
+function
 (
 )
 {

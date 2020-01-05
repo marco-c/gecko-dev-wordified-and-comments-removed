@@ -106,6 +106,8 @@ prototype
 =
 {
 initialize
+:
+function
 (
 store
 )
@@ -154,6 +156,8 @@ _toolbarNode
 ;
 }
 destroy
+:
+function
 (
 )
 {

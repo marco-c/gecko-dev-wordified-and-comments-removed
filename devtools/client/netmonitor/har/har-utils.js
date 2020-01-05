@@ -248,6 +248,8 @@ HarUtils
 =
 {
 getTargetFile
+:
+function
 (
 fileName
 jsonp
@@ -395,6 +397,8 @@ null
 ;
 }
 getHarFileName
+:
+function
 (
 defaultFileName
 jsonp
@@ -496,6 +500,8 @@ fileName
 ;
 }
 saveToFile
+:
+function
 (
 file
 jsonString
@@ -894,6 +900,8 @@ false
 ;
 }
 getLocalDirectory
+:
+function
 (
 path
 )

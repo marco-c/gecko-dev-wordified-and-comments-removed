@@ -45,6 +45,8 @@ FrontClassWithSpec
 reflowSpec
 {
 initialize
+:
+function
 (
 client
 {
@@ -80,6 +82,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {

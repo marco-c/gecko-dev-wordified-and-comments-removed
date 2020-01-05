@@ -533,6 +533,8 @@ rule
 ;
 }
 _create
+:
+function
 (
 )
 {
@@ -1570,6 +1572,8 @@ undefined
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -2415,6 +2419,8 @@ this
 ;
 }
 _onStartEditing
+:
+function
 (
 )
 {
@@ -2455,6 +2461,8 @@ hidden
 ;
 }
 updatePropertyState
+:
+function
 (
 )
 {
@@ -2643,6 +2651,8 @@ overridden
 }
 }
 _updateComputed
+:
+function
 (
 )
 {
@@ -2729,6 +2739,8 @@ _populateComputed
 }
 }
 _populateComputed
+:
+function
 (
 )
 {
@@ -2954,6 +2966,8 @@ li
 }
 }
 _onEnableClicked
+:
+function
 (
 event
 )
@@ -3023,6 +3037,8 @@ stopPropagation
 ;
 }
 _onExpandClicked
+:
+function
 (
 event
 )
@@ -3141,6 +3157,8 @@ stopPropagation
 ;
 }
 expandForFilter
+:
+function
 (
 )
 {
@@ -3199,6 +3217,8 @@ _populateComputed
 }
 }
 collapseForFilter
+:
+function
 (
 )
 {
@@ -3246,6 +3266,8 @@ open
 }
 }
 _onNameDone
+:
+function
 (
 value
 commit
@@ -3461,6 +3483,8 @@ prop
 }
 }
 remove
+:
+function
 (
 direction
 )
@@ -3611,6 +3635,8 @@ remove
 ;
 }
 _onValueDone
+:
+function
 (
 value
 =
@@ -3888,6 +3914,8 @@ direction
 }
 }
 _onSwatchCommit
+:
+function
 (
 )
 {
@@ -3911,6 +3939,8 @@ update
 ;
 }
 _onSwatchPreview
+:
+function
 (
 )
 {
@@ -3927,6 +3957,8 @@ textContent
 ;
 }
 _onSwatchRevert
+:
+function
 (
 )
 {
@@ -3950,6 +3982,8 @@ update
 ;
 }
 _getValueAndExtraProperties
+:
+function
 (
 value
 )
@@ -4076,11 +4110,17 @@ slice
 return
 {
 propertiesToAdd
+:
+propertiesToAdd
+firstValue
+:
 firstValue
 }
 ;
 }
 _previewValue
+:
+function
 (
 value
 reverting
@@ -4146,6 +4186,8 @@ priority
 ;
 }
 isValid
+:
+function
 (
 )
 {
@@ -4160,6 +4202,8 @@ isValid
 ;
 }
 isDisplayGrid
+:
+function
 (
 )
 {

@@ -386,6 +386,8 @@ isVisible
 ;
 }
 addToView
+:
+function
 (
 )
 {
@@ -544,6 +546,8 @@ true
 ;
 }
 removeFromView
+:
+function
 (
 )
 {
@@ -656,6 +660,8 @@ false
 ;
 }
 _getTooltipType
+:
+function
 (
 {
 type
@@ -1374,6 +1380,8 @@ naturalHeight
 }
 )
 _onNewSelection
+:
+function
 (
 )
 {
@@ -1459,6 +1467,8 @@ hide
 }
 }
 destroy
+:
+function
 (
 )
 {

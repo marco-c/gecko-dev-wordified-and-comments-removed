@@ -164,6 +164,8 @@ rep
 :
 SymbolRep
 supportsObject
+:
+supportsObject
 }
 ;
 }

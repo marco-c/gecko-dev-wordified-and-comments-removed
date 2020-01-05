@@ -46,6 +46,8 @@ FrontClassWithSpec
 timelineSpec
 {
 initialize
+:
+function
 (
 client
 {
@@ -79,6 +81,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {

@@ -1717,6 +1717,8 @@ prototype
 =
 {
 startInitialization
+:
+function
 (
 inputString
 )
@@ -1776,6 +1778,8 @@ null
 ;
 }
 completeInitialization
+:
+function
 (
 index
 )
@@ -1870,6 +1874,8 @@ inputString
 }
 }
 getIndentation
+:
+function
 (
 string
 offset
@@ -1980,6 +1986,8 @@ return
 ;
 }
 sanitizePropertyValue
+:
+function
 (
 text
 )
@@ -2202,6 +2210,8 @@ result
 ;
 }
 skipWhitespaceBackward
+:
+function
 (
 string
 index
@@ -2255,6 +2265,8 @@ index
 ;
 }
 maybeTerminateDecl
+:
+function
 (
 index
 )
@@ -2445,6 +2457,8 @@ n
 }
 }
 sanitizeText
+:
+function
 (
 text
 index
@@ -2483,6 +2497,8 @@ sanitizedText
 ;
 }
 renameProperty
+:
+function
 (
 index
 name
@@ -2524,6 +2540,8 @@ colonOffsets
 ;
 }
 setPropertyEnabled
+:
+function
 (
 index
 name
@@ -2809,6 +2827,8 @@ copyOffset
 ;
 }
 getDefaultIndentation
+:
+function
 (
 )
 {
@@ -3161,6 +3181,8 @@ offsets
 }
 )
 createProperty
+:
+function
 (
 index
 name
@@ -3186,6 +3208,8 @@ enabled
 ;
 }
 setProperty
+:
+function
 (
 index
 name
@@ -3306,6 +3330,8 @@ offsets
 ;
 }
 removeProperty
+:
+function
 (
 index
 name
@@ -3505,6 +3531,8 @@ copyOffset
 ;
 }
 completeCopying
+:
+function
 (
 copyOffset
 )
@@ -3525,6 +3553,8 @@ copyOffset
 ;
 }
 apply
+:
+function
 (
 )
 {
@@ -3562,6 +3592,8 @@ result
 ;
 }
 getResult
+:
+function
 (
 )
 {

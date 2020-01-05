@@ -80,6 +80,8 @@ prototype
 =
 {
 initialize
+:
+function
 (
 markupView
 node
@@ -349,6 +351,8 @@ updateIsDisplayed
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -369,6 +373,8 @@ node
 ;
 }
 isPreviewable
+:
+function
 (
 )
 {
@@ -453,6 +459,8 @@ false
 ;
 }
 updateIsDisplayed
+:
+function
 (
 )
 {
@@ -686,6 +694,8 @@ tabindex
 }
 }
 clearFocus
+:
+function
 (
 )
 {
@@ -840,6 +850,8 @@ mustExpand
 ;
 }
 updateExpander
+:
+function
 (
 )
 {
@@ -946,6 +958,8 @@ expanded
 }
 }
 setChildrenRole
+:
+function
 (
 )
 {
@@ -973,6 +987,8 @@ presentation
 ;
 }
 updateLevel
+:
+function
 (
 )
 {
@@ -1056,6 +1072,8 @@ updateLevel
 }
 }
 getChildContainers
+:
+function
 (
 )
 {
@@ -1126,6 +1144,8 @@ collapsed
 ;
 }
 setExpanded
+:
+function
 (
 value
 )
@@ -1464,6 +1484,8 @@ expanded
 }
 }
 parentContainer
+:
+function
 (
 )
 {
@@ -1735,6 +1757,8 @@ _isDragging
 ;
 }
 isDraggable
+:
+function
 (
 )
 {
@@ -1828,6 +1852,8 @@ null
 ;
 }
 _wrapMoveFocus
+:
+function
 (
 current
 back
@@ -1919,6 +1945,8 @@ next
 ;
 }
 _onKeyDown
+:
+function
 (
 event
 )
@@ -2133,6 +2161,8 @@ stopPropagation
 ;
 }
 _onMouseDown
+:
+function
 (
 event
 )
@@ -2411,6 +2441,8 @@ completed
 }
 )
 _onMouseMove
+:
+function
 (
 event
 )
@@ -2630,6 +2662,8 @@ el
 }
 }
 cancelDragging
+:
+function
 (
 )
 {
@@ -2671,6 +2705,8 @@ top
 ;
 }
 flashMutation
+:
+function
 (
 )
 {
@@ -3088,6 +3124,8 @@ selected
 }
 }
 update
+:
+function
 (
 )
 {
@@ -3156,6 +3194,8 @@ update
 }
 }
 focus
+:
+function
 (
 )
 {
@@ -3195,6 +3235,8 @@ focus
 }
 }
 _onToggle
+:
+function
 (
 event
 )
@@ -3262,6 +3304,8 @@ stopPropagation
 ;
 }
 destroy
+:
+function
 (
 )
 {

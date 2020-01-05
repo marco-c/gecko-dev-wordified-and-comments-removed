@@ -310,6 +310,8 @@ explicit
 initial
 "
 start
+:
+function
 (
 editor
 )
@@ -410,6 +412,8 @@ createInplaceEditorAndClick
 (
 {
 start
+:
+function
 (
 editor
 )
@@ -518,6 +522,8 @@ advanceChars
 :
 "
 start
+:
+function
 (
 editor
 )
@@ -590,6 +596,8 @@ initial
 "
 "
 advanceChars
+:
+function
 (
 charCode
 text
@@ -637,6 +645,8 @@ length
 ;
 }
 start
+:
+function
 (
 editor
 )
@@ -719,6 +729,8 @@ initial
 text
 "
 start
+:
+function
 (
 editor
 )

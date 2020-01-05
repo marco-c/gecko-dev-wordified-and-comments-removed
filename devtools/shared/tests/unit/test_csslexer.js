@@ -96,6 +96,8 @@ prototype
 =
 {
 checkState
+:
+function
 (
 )
 {
@@ -165,6 +167,8 @@ columnNumber
 ;
 }
 performEOFFixup
+:
+function
 (
 inputString
 preserveBackslash
@@ -207,6 +211,8 @@ d
 ;
 }
 mungeNumber
+:
+function
 (
 token
 )
@@ -265,6 +271,8 @@ toPrecision
 }
 }
 nextToken
+:
+function
 (
 )
 {

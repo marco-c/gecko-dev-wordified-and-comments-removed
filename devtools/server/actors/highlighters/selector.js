@@ -71,6 +71,8 @@ typeName
 SelectorHighlighter
 "
 show
+:
+function
 (
 node
 options
@@ -230,6 +232,8 @@ true
 ;
 }
 hide
+:
+function
 (
 )
 {
@@ -259,6 +263,8 @@ _highlighters
 ;
 }
 destroy
+:
+function
 (
 )
 {

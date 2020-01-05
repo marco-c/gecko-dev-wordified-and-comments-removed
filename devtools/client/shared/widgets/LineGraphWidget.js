@@ -665,6 +665,8 @@ plottedData
 }
 )
 buildGraphImage
+:
+function
 (
 )
 {
@@ -1102,6 +1104,8 @@ canvas
 ;
 }
 _drawOverlays
+:
+function
 (
 ctx
 minValue
@@ -1826,6 +1830,8 @@ false
 ;
 }
 _createGutter
+:
+function
 (
 )
 {
@@ -1882,6 +1888,8 @@ gutter
 ;
 }
 _createGutterLine
+:
+function
 (
 type
 )
@@ -1941,6 +1949,8 @@ line
 ;
 }
 _createTooltip
+:
+function
 (
 type
 arrow

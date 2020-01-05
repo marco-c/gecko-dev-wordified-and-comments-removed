@@ -47,6 +47,8 @@ trace
 =
 {
 log
+:
+function
 (
 .
 .
@@ -222,6 +224,8 @@ prototype
 =
 {
 start
+:
+function
 (
 )
 {
@@ -255,6 +259,8 @@ onNetworkEventUpdate
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -288,6 +294,8 @@ onNetworkEventUpdate
 ;
 }
 clear
+:
+function
 (
 )
 {
@@ -330,6 +338,8 @@ requests
 ;
 }
 waitForHarLoad
+:
+function
 (
 )
 {
@@ -386,6 +396,8 @@ promise
 ;
 }
 waitForResponses
+:
+function
 (
 )
 {
@@ -479,6 +491,8 @@ waitForResponses
 ;
 }
 waitForTimeout
+:
+function
 (
 )
 {
@@ -569,6 +583,8 @@ promise
 ;
 }
 onPageLoadTimeout
+:
+function
 (
 )
 {
@@ -594,6 +610,8 @@ resolve
 ;
 }
 resetPageLoadTimeout
+:
+function
 (
 )
 {
@@ -654,6 +672,8 @@ null
 }
 }
 getFile
+:
+function
 (
 actorId
 )
@@ -670,6 +690,8 @@ actorId
 ;
 }
 getItems
+:
+function
 (
 )
 {
@@ -680,6 +702,8 @@ items
 ;
 }
 onNetworkEvent
+:
+function
 (
 type
 packet
@@ -826,7 +850,13 @@ startedMillis
 :
 startTime
 method
+:
+method
 url
+:
+url
+isXHR
+:
 isXHR
 }
 ;
@@ -851,6 +881,8 @@ file
 ;
 }
 onNetworkEventUpdate
+:
+function
 (
 type
 packet
@@ -1176,6 +1208,8 @@ resetPageLoadTimeout
 ;
 }
 getData
+:
+function
 (
 actor
 method
@@ -1317,6 +1351,8 @@ promise
 ;
 }
 onRequestHeaders
+:
+function
 (
 response
 )
@@ -1350,6 +1386,8 @@ headers
 ;
 }
 onRequestCookies
+:
+function
 (
 response
 )
@@ -1383,6 +1421,8 @@ cookies
 ;
 }
 onRequestPostData
+:
+function
 (
 response
 )
@@ -1465,6 +1505,8 @@ value
 }
 }
 onResponseHeaders
+:
+function
 (
 response
 )
@@ -1498,6 +1540,8 @@ headers
 ;
 }
 onResponseCookies
+:
+function
 (
 response
 )
@@ -1531,6 +1575,8 @@ cookies
 ;
 }
 onResponseContent
+:
+function
 (
 response
 )
@@ -1600,6 +1646,8 @@ value
 }
 }
 onEventTimings
+:
+function
 (
 response
 )
@@ -1705,6 +1753,8 @@ value
 }
 )
 getString
+:
+function
 (
 stringGrip
 )

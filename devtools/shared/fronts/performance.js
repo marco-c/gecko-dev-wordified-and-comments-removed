@@ -157,6 +157,8 @@ FrontClassWithSpec
 performanceSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -192,6 +194,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -307,6 +311,8 @@ _traits
 ;
 }
 getBufferUsageForRecording
+:
+function
 (
 recording
 )
@@ -411,6 +417,8 @@ percent
 ;
 }
 importRecording
+:
+function
 (
 file
 )

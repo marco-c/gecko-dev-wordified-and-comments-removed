@@ -114,6 +114,8 @@ object
 isRequired
 }
 getDefaultProps
+:
+function
 (
 )
 {
@@ -290,6 +292,8 @@ LongStringRep
 rep
 :
 LongStringRep
+supportsObject
+:
 supportsObject
 }
 ;

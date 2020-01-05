@@ -230,6 +230,8 @@ extends
 :
 EventTarget
 initialize
+:
+function
 (
 parent
 frameCache
@@ -352,6 +354,8 @@ _onWindowReady
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -531,6 +535,8 @@ debugger
 "
 )
 getState
+:
+function
 (
 )
 {
@@ -541,6 +547,8 @@ state
 ;
 }
 _clearDebuggees
+:
+function
 (
 )
 {
@@ -588,6 +596,8 @@ removeAllDebuggees
 }
 }
 _clearFrames
+:
+function
 (
 )
 {
@@ -611,6 +621,8 @@ clearFrames
 }
 }
 _onWindowReady
+:
+function
 (
 {
 isTopLevel
@@ -667,6 +679,8 @@ addDebuggees
 }
 }
 isRecordingAllocations
+:
+function
 (
 )
 {
@@ -1253,6 +1267,8 @@ allocations
 "
 )
 forceGarbageCollection
+:
+function
 (
 )
 {
@@ -1281,6 +1297,8 @@ forceGC
 }
 }
 forceCycleCollection
+:
+function
 (
 )
 {
@@ -1292,6 +1310,8 @@ forceCC
 ;
 }
 measure
+:
+function
 (
 )
 {
@@ -1485,6 +1505,8 @@ result
 ;
 }
 residentUnique
+:
+function
 (
 )
 {
@@ -1497,6 +1519,8 @@ residentUnique
 ;
 }
 _onGarbageCollection
+:
+function
 (
 data
 )
@@ -1538,6 +1562,8 @@ _emitAllocations
 }
 }
 _emitAllocations
+:
+function
 (
 )
 {
@@ -1566,6 +1592,8 @@ arm
 ;
 }
 _getCurrentTime
+:
+function
 (
 )
 {

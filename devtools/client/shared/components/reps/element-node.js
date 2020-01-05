@@ -162,6 +162,8 @@ PropTypes
 func
 }
 getElements
+:
+function
 (
 grip
 mode
@@ -700,6 +702,8 @@ ElementNode
 rep
 :
 ElementNode
+supportsObject
+:
 supportsObject
 }
 ;

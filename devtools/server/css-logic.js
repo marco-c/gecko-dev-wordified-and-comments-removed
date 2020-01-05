@@ -162,6 +162,8 @@ _keyframesRules
 :
 null
 reset
+:
+function
 (
 )
 {
@@ -218,6 +220,8 @@ _keyframesRules
 ;
 }
 highlight
+:
+function
 (
 viewedElement
 )
@@ -507,6 +511,8 @@ true
 }
 }
 getPropertyInfo
+:
+function
 (
 property
 )
@@ -567,6 +573,8 @@ info
 ;
 }
 _cacheSheets
+:
+function
 (
 )
 {
@@ -609,6 +617,8 @@ true
 ;
 }
 _cacheSheet
+:
+function
 (
 domSheet
 )
@@ -828,6 +838,8 @@ _keyframesRules
 ;
 }
 getSheet
+:
+function
 (
 domSheet
 index
@@ -1051,6 +1063,8 @@ sheet
 ;
 }
 forEachSheet
+:
+function
 (
 callback
 scope
@@ -1167,6 +1181,8 @@ _ruleCount
 ;
 }
 processMatchedSelectors
+:
+function
 (
 callback
 scope
@@ -1406,6 +1422,8 @@ _passId
 }
 }
 selectorMatchesElement
+:
+function
 (
 domRule
 idx
@@ -1464,6 +1482,8 @@ false
 ;
 }
 hasMatchedSelectors
+:
+function
 (
 properties
 )
@@ -1600,6 +1620,8 @@ result
 ;
 }
 _buildMatchedRules
+:
+function
 (
 )
 {
@@ -1982,6 +2004,8 @@ ELEMENT_NODE
 ;
 }
 mediaMatches
+:
+function
 (
 domObject
 )
@@ -2237,6 +2261,10 @@ after
 return
 {
 bindingElement
+:
+bindingElement
+pseudo
+:
 pseudo
 }
 ;
@@ -2687,6 +2715,8 @@ length
 ;
 }
 getRule
+:
+function
 (
 domRule
 )
@@ -2835,6 +2865,8 @@ rule
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -3124,6 +3156,8 @@ index
 ;
 }
 getPropertyValue
+:
+function
 (
 property
 )
@@ -3142,6 +3176,8 @@ property
 ;
 }
 getPropertyPriority
+:
+function
 (
 property
 )
@@ -3259,6 +3295,8 @@ _selectors
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -3488,6 +3526,8 @@ _specificity
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -3663,6 +3703,8 @@ _matchedSelectors
 ;
 }
 _findMatchedSelectors
+:
+function
 (
 )
 {
@@ -3787,6 +3829,8 @@ BEST
 }
 }
 _processMatchedSelector
+:
+function
 (
 selector
 status
@@ -3872,6 +3916,8 @@ selectorInfo
 }
 }
 _refilterSelectors
+:
+function
 (
 )
 {
@@ -3947,6 +3993,8 @@ false
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -4154,6 +4202,8 @@ contentRule
 ;
 }
 compareTo
+:
+function
 (
 that
 )
@@ -4396,6 +4446,8 @@ return
 ;
 }
 toString
+:
+function
 (
 )
 {

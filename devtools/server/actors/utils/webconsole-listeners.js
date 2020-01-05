@@ -164,6 +164,8 @@ listener
 :
 null
 init
+:
+function
 (
 )
 {
@@ -178,6 +180,8 @@ this
 ;
 }
 observe
+:
+function
 (
 message
 )
@@ -277,6 +281,8 @@ message
 ;
 }
 isCategoryAllowed
+:
+function
 (
 category
 )
@@ -354,6 +360,8 @@ true
 ;
 }
 getCachedMessages
+:
+function
 (
 includePrivate
 =
@@ -534,6 +542,8 @@ true
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -624,6 +634,8 @@ addonId
 :
 null
 init
+:
+function
 (
 )
 {
@@ -648,6 +660,8 @@ false
 ;
 }
 observe
+:
+function
 (
 message
 topic
@@ -696,6 +710,8 @@ apiMessage
 ;
 }
 isMessageRelevant
+:
+function
 (
 message
 )
@@ -862,6 +878,8 @@ true
 ;
 }
 getCachedMessages
+:
+function
 (
 includePrivate
 =
@@ -1033,6 +1051,8 @@ private
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1150,6 +1170,8 @@ listener
 :
 null
 sendReflow
+:
+function
 (
 start
 end
@@ -1206,7 +1228,13 @@ onReflowActivity
 (
 {
 interruptible
+:
+interruptible
 start
+:
+start
+end
+:
 end
 sourceURL
 :
@@ -1234,6 +1262,8 @@ null
 ;
 }
 reflow
+:
+function
 (
 start
 end
@@ -1250,6 +1280,8 @@ false
 ;
 }
 reflowInterruptible
+:
+function
 (
 start
 end
@@ -1266,6 +1298,8 @@ true
 ;
 }
 destroy
+:
+function
 (
 )
 {

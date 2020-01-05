@@ -205,6 +205,8 @@ _onFilterPopupHiding
 }
 )
 destroy
+:
+function
 (
 )
 {
@@ -282,6 +284,8 @@ destroy
 ;
 }
 _buildMarkersFilterPopup
+:
+function
 (
 )
 {
@@ -433,6 +437,8 @@ menuitem
 }
 }
 _updateHiddenMarkersPopup
+:
+function
 (
 )
 {
@@ -526,6 +532,8 @@ true
 }
 }
 _toggleExperimentalUI
+:
+function
 (
 isEnabled
 )
@@ -611,6 +619,8 @@ enabled
 }
 }
 _onFilterPopupShowing
+:
+function
 (
 )
 {
@@ -635,6 +645,8 @@ true
 ;
 }
 _onFilterPopupHiding
+:
+function
 (
 )
 {
@@ -656,6 +668,8 @@ open
 ;
 }
 _onHiddenMarkersChanged
+:
+function
 (
 )
 {
@@ -723,6 +737,8 @@ hiddenMarkers
 ;
 }
 _onPrefChanged
+:
+function
 (
 _
 prefName

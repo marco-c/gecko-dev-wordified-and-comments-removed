@@ -1094,6 +1094,8 @@ columns
 ;
 }
 onChange
+:
+function
 (
 type
 data
@@ -1214,6 +1216,8 @@ change
 .
 newValue
 items
+:
+items
 }
 ;
 this
@@ -1247,6 +1251,8 @@ change
 ;
 }
 onEditorDestroyed
+:
+function
 (
 )
 {
@@ -1258,6 +1264,8 @@ null
 ;
 }
 onEditorTab
+:
+function
 (
 event
 )
@@ -1620,6 +1628,8 @@ cell
 ;
 }
 getEditedCellOnTab
+:
+function
 (
 event
 column
@@ -1945,6 +1955,8 @@ cell
 ;
 }
 onRowRemoved
+:
+function
 (
 event
 row
@@ -2013,6 +2025,8 @@ onEditorTargetLost
 ;
 }
 onEditorTargetLost
+:
+function
 (
 )
 {
@@ -2046,6 +2060,8 @@ cancelEdit
 ;
 }
 onKeydown
+:
+function
 (
 event
 )
@@ -2312,6 +2328,8 @@ break
 }
 }
 onMousedown
+:
+function
 (
 {
 target
@@ -2355,6 +2373,8 @@ blur
 ;
 }
 makeFieldsEditable
+:
+function
 (
 editableColumns
 )
@@ -2494,6 +2514,8 @@ onTriggerEvent
 dblclick
 "
 selectors
+:
+selectors
 }
 )
 ;
@@ -2566,6 +2588,8 @@ _editableFieldsEngine
 }
 }
 destroy
+:
+function
 (
 )
 {
@@ -2719,6 +2743,8 @@ remove
 }
 }
 setPlaceholderText
+:
+function
 (
 text
 )
@@ -2737,6 +2763,8 @@ text
 ;
 }
 setupHeadersContextMenu
+:
+function
 (
 )
 {
@@ -2852,6 +2880,8 @@ populateMenuPopup
 ;
 }
 populateMenuPopup
+:
+function
 (
 privateColumns
 =
@@ -3083,6 +3113,8 @@ true
 }
 }
 onPopupCommand
+:
+function
 (
 event
 )
@@ -3225,6 +3257,8 @@ disabled
 }
 }
 setColumns
+:
+function
 (
 columns
 sortOn
@@ -3475,6 +3509,8 @@ privateColumns
 ;
 }
 isSelected
+:
+function
 (
 item
 )
@@ -3520,6 +3556,8 @@ uniqueId
 ;
 }
 selectRow
+:
+function
 (
 id
 )
@@ -3532,6 +3570,8 @@ id
 ;
 }
 selectNextRow
+:
+function
 (
 )
 {
@@ -3558,6 +3598,8 @@ selectNextRow
 }
 }
 selectPreviousRow
+:
+function
 (
 )
 {
@@ -3584,6 +3626,8 @@ selectPreviousRow
 }
 }
 clearSelection
+:
+function
 (
 )
 {
@@ -3596,6 +3640,8 @@ selectedIndex
 ;
 }
 push
+:
+function
 (
 item
 suppressFlash
@@ -3817,6 +3863,8 @@ uniqueId
 ;
 }
 remove
+:
+function
 (
 item
 )
@@ -3946,6 +3994,8 @@ item
 ;
 }
 update
+:
+function
 (
 item
 )
@@ -4079,6 +4129,8 @@ uniqueId
 }
 }
 clear
+:
+function
 (
 )
 {
@@ -4146,6 +4198,8 @@ this
 ;
 }
 sortBy
+:
+function
 (
 column
 )
@@ -4416,6 +4470,8 @@ itemsToHide
 ;
 }
 onScroll
+:
+function
 (
 )
 {
@@ -4443,6 +4499,8 @@ afterScroll
 ;
 }
 afterScroll
+:
+function
 (
 )
 {
@@ -5245,6 +5303,8 @@ nodes
 ;
 }
 onColumnSorted
+:
+function
 (
 event
 column
@@ -5312,6 +5372,8 @@ updateZebra
 ;
 }
 onTableFiltered
+:
+function
 (
 event
 itemsToHide
@@ -5384,6 +5446,8 @@ updateZebra
 ;
 }
 onRowUpdated
+:
+function
 (
 event
 id
@@ -5472,6 +5536,8 @@ updateZebra
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -5597,6 +5663,8 @@ null
 ;
 }
 selectRowAt
+:
+function
 (
 index
 )
@@ -5682,6 +5750,8 @@ id
 ;
 }
 selectRow
+:
+function
 (
 id
 )
@@ -5706,6 +5776,8 @@ id
 ;
 }
 selectNextRow
+:
+function
 (
 )
 {
@@ -5755,6 +5827,8 @@ index
 ;
 }
 selectPreviousRow
+:
+function
 (
 )
 {
@@ -5807,6 +5881,8 @@ index
 ;
 }
 push
+:
+function
 (
 item
 )
@@ -5999,6 +6075,8 @@ item
 ;
 }
 insertAt
+:
+function
 (
 item
 index
@@ -6066,6 +6144,8 @@ updateZebra
 ;
 }
 toggleColumn
+:
+function
 (
 event
 id
@@ -6151,6 +6231,8 @@ true
 }
 }
 remove
+:
+function
 (
 item
 )
@@ -6241,6 +6323,8 @@ uniqueId
 ;
 }
 update
+:
+function
 (
 item
 )
@@ -6295,6 +6379,8 @@ id
 ;
 }
 _updateItems
+:
+function
 (
 )
 {
@@ -6354,6 +6440,8 @@ false
 ;
 }
 clear
+:
+function
 (
 )
 {
@@ -6405,6 +6493,8 @@ remove
 }
 }
 sort
+:
+function
 (
 items
 )
@@ -6790,6 +6880,8 @@ i
 }
 }
 onClick
+:
+function
 (
 event
 )
@@ -6857,6 +6949,8 @@ id
 }
 }
 onMousedown
+:
+function
 (
 event
 )
@@ -7406,6 +7500,8 @@ _value
 ;
 }
 toggleClass
+:
+function
 (
 className
 condition
@@ -7425,6 +7521,8 @@ condition
 ;
 }
 flash
+:
+function
 (
 )
 {
@@ -7533,6 +7631,8 @@ out
 ;
 }
 focus
+:
+function
 (
 )
 {
@@ -7546,6 +7646,8 @@ focus
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -7882,6 +7984,8 @@ _textbox
 ;
 }
 onTrigger
+:
+function
 (
 {
 target
@@ -7897,6 +8001,8 @@ target
 ;
 }
 onKeydown
+:
+function
 (
 event
 )
@@ -7976,6 +8082,8 @@ break
 }
 }
 edit
+:
+function
 (
 target
 )
@@ -8112,6 +8220,8 @@ select
 ;
 }
 completeEdit
+:
+function
 (
 )
 {
@@ -8204,6 +8314,10 @@ this
 .
 currentTarget
 oldValue
+:
+oldValue
+newValue
+:
 newValue
 }
 }
@@ -8221,6 +8335,8 @@ data
 }
 }
 cancelEdit
+:
+function
 (
 )
 {
@@ -8261,6 +8377,8 @@ true
 ;
 }
 blur
+:
+function
 (
 )
 {
@@ -8280,6 +8398,8 @@ completeEdit
 }
 }
 copyStyles
+:
+function
 (
 source
 destination
@@ -8381,6 +8501,8 @@ width
 ;
 }
 destroy
+:
+function
 (
 )
 {

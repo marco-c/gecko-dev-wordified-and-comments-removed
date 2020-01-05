@@ -29,6 +29,8 @@ Curl
 =
 {
 generateCommand
+:
+function
 (
 data
 )
@@ -515,6 +517,8 @@ CurlUtils
 =
 {
 isUrlEncodedRequest
+:
+function
 (
 data
 )
@@ -618,6 +622,8 @@ urlencoded
 ;
 }
 isMultipartRequest
+:
+function
 (
 data
 )
@@ -714,6 +720,8 @@ data
 ;
 }
 writePostDataTextParams
+:
+function
 (
 postDataText
 )
@@ -745,6 +753,8 @@ length
 ;
 }
 findHeader
+:
+function
 (
 headers
 name
@@ -802,6 +812,8 @@ null
 ;
 }
 getMultipartBoundary
+:
+function
 (
 data
 )
@@ -893,6 +905,8 @@ null
 ;
 }
 removeBinaryDataFromMultipartText
+:
+function
 (
 multipartText
 boundary
@@ -1087,6 +1101,8 @@ result
 ;
 }
 getHeadersFromMultipartText
+:
+function
 (
 multipartText
 )
@@ -1325,6 +1341,8 @@ headers
 ;
 }
 escapeStringPosix
+:
+function
 (
 str
 )
@@ -1539,6 +1557,8 @@ str
 ;
 }
 escapeStringWin
+:
+function
 (
 str
 )

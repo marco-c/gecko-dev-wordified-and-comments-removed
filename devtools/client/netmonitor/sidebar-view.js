@@ -54,6 +54,8 @@ prototype
 =
 {
 toggle
+:
+function
 (
 visibleFlag
 )

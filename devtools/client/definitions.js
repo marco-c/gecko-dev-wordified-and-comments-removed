@@ -597,6 +597,8 @@ inMenu
 :
 false
 isTargetSupported
+:
+function
 (
 )
 {
@@ -605,6 +607,8 @@ true
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -806,6 +810,8 @@ preventClosingOnKey
 :
 true
 onkey
+:
+function
 (
 panel
 toolbox
@@ -821,6 +827,8 @@ togglePicker
 ;
 }
 isTargetSupported
+:
+function
 (
 target
 )
@@ -837,6 +845,8 @@ inspector
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -1039,6 +1049,8 @@ preventClosingOnKey
 :
 true
 onkey
+:
+function
 (
 panel
 toolbox
@@ -1070,6 +1082,8 @@ undefined
 ;
 }
 isTargetSupported
+:
+function
 (
 )
 {
@@ -1078,6 +1092,8 @@ true
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -1284,6 +1300,8 @@ debugger
 commands
 "
 isTargetSupported
+:
+function
 (
 )
 {
@@ -1292,6 +1310,8 @@ true
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -1609,6 +1629,8 @@ styleeditor
 commands
 "
 isTargetSupported
+:
+function
 (
 target
 )
@@ -1635,6 +1657,8 @@ styleSheets
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -1743,6 +1767,8 @@ tooltip
 "
 )
 isTargetSupported
+:
+function
 (
 target
 )
@@ -1765,6 +1791,8 @@ chrome
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -1873,6 +1901,8 @@ tooltip
 "
 )
 isTargetSupported
+:
+function
 (
 target
 )
@@ -1895,6 +1925,8 @@ chrome
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -2069,6 +2101,8 @@ inMenu
 :
 true
 isTargetSupported
+:
+function
 (
 target
 )
@@ -2085,6 +2119,8 @@ profiler
 ;
 }
 build
+:
+function
 (
 frame
 target
@@ -2214,6 +2250,8 @@ tooltip
 "
 )
 isTargetSupported
+:
+function
 (
 target
 )
@@ -2236,6 +2274,8 @@ isAddon
 ;
 }
 build
+:
+function
 (
 frame
 target
@@ -2417,6 +2457,8 @@ inMenu
 :
 true
 isTargetSupported
+:
+function
 (
 target
 )
@@ -2433,6 +2475,8 @@ networkMonitor
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -2596,6 +2640,8 @@ inMenu
 :
 true
 isTargetSupported
+:
+function
 (
 target
 )
@@ -2629,6 +2675,8 @@ storageInspector
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -2737,6 +2785,8 @@ tooltip
 "
 )
 isTargetSupported
+:
+function
 (
 target
 )
@@ -2759,6 +2809,8 @@ webaudio
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -2883,6 +2935,8 @@ scratchpad
 commands
 "
 isTargetSupported
+:
+function
 (
 target
 )
@@ -2899,6 +2953,8 @@ console
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox
@@ -3080,6 +3136,8 @@ inMenu
 :
 true
 isTargetSupported
+:
+function
 (
 target
 )
@@ -3096,6 +3154,8 @@ webConsoleCommands
 ;
 }
 build
+:
+function
 (
 iframeWindow
 toolbox

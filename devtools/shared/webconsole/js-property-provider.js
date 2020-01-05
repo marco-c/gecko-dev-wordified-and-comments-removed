@@ -308,6 +308,8 @@ token
 :
 c
 start
+:
+start
 }
 )
 ;
@@ -525,6 +527,8 @@ break
 }
 return
 {
+state
+:
 state
 startPos
 :
@@ -1602,8 +1606,10 @@ var
 JSObjectSupport
 =
 {
-*
 chainIterator
+:
+function
+*
 (
 obj
 )
@@ -1628,6 +1634,8 @@ obj
 }
 }
 getProperties
+:
+function
 (
 obj
 )
@@ -1642,6 +1650,8 @@ obj
 ;
 }
 getProperty
+:
+function
 (
 )
 {
@@ -1662,8 +1672,10 @@ var
 DebuggerObjectSupport
 =
 {
-*
 chainIterator
+:
+function
+*
 (
 obj
 )
@@ -1685,6 +1697,8 @@ proto
 }
 }
 getProperties
+:
+function
 (
 obj
 )
@@ -1698,6 +1712,8 @@ getOwnPropertyNames
 ;
 }
 getProperty
+:
+function
 (
 obj
 name
@@ -1721,8 +1737,10 @@ var
 DebuggerEnvironmentSupport
 =
 {
-*
 chainIterator
+:
+function
+*
 (
 obj
 )
@@ -1744,6 +1762,8 @@ parent
 }
 }
 getProperties
+:
+function
 (
 obj
 )
@@ -1822,6 +1842,8 @@ names
 ;
 }
 getProperty
+:
+function
 (
 obj
 name

@@ -96,6 +96,8 @@ number
 isRequired
 }
 stringify
+:
+function
 (
 object
 )
@@ -226,6 +228,8 @@ Number
 rep
 :
 Number
+supportsObject
+:
 supportsObject
 }
 ;

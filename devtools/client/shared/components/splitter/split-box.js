@@ -292,6 +292,8 @@ setState
 (
 {
 defaultCursor
+:
+defaultCursor
 }
 )
 ;
@@ -798,6 +800,8 @@ join
 "
 "
 )
+style
+:
 style
 }
 startPanel

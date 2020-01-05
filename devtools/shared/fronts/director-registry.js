@@ -47,6 +47,8 @@ FrontClassWithSpec
 directorRegistrySpec
 {
 initialize
+:
+function
 (
 client
 {

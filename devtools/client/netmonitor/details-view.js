@@ -439,6 +439,8 @@ latestData
 null
 }
 initialize
+:
+function
 (
 store
 )
@@ -842,6 +844,8 @@ _onTabSelect
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -928,6 +932,8 @@ _onTabSelect
 ;
 }
 populate
+:
+function
 (
 data
 )
@@ -1110,6 +1116,8 @@ resolve
 ;
 }
 _onTabSelect
+:
+function
 (
 )
 {
@@ -1391,6 +1399,8 @@ e
 ;
 }
 _setSummary
+:
+function
 (
 data
 )

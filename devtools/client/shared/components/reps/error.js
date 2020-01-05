@@ -322,6 +322,8 @@ rep
 :
 ErrorRep
 supportsObject
+:
+supportsObject
 }
 ;
 }

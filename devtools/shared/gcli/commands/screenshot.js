@@ -558,6 +558,8 @@ to
 dom
 "
 exec
+:
+function
 (
 imageSummary
 context
@@ -962,6 +964,8 @@ filenameParam
 standardParams
 ]
 exec
+:
+function
 (
 args
 context
@@ -1082,6 +1086,8 @@ filenameParam
 standardParams
 ]
 exec
+:
+function
 (
 args
 context
@@ -1764,8 +1770,16 @@ destinations
 [
 ]
 data
+:
+data
+height
+:
 height
 width
+:
+width
+filename
+:
 filename
 }
 )
@@ -2602,6 +2616,8 @@ prototype
 =
 {
 QueryInterface
+:
+function
 (
 iid
 )
@@ -2659,6 +2675,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 getInterface
+:
+function
 (
 iid
 )
@@ -2731,6 +2749,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 onStateChange
+:
+function
 (
 webProgress
 request

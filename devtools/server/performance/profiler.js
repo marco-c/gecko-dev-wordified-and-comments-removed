@@ -261,6 +261,8 @@ _profilerStatusSubscribers
 :
 0
 addInstance
+:
+function
 (
 instance
 )
@@ -280,6 +282,8 @@ registerEventListeners
 ;
 }
 removeInstance
+:
+function
 (
 instance
 )
@@ -353,6 +357,8 @@ stop
 }
 }
 start
+:
+function
 (
 options
 =
@@ -517,6 +523,8 @@ currentTime
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -552,6 +560,8 @@ false
 ;
 }
 getProfile
+:
+function
 (
 options
 )
@@ -590,6 +600,8 @@ startTime
 return
 {
 profile
+:
+profile
 currentTime
 :
 nsIProfilerModule
@@ -601,6 +613,8 @@ getElapsedTime
 ;
 }
 getFeatures
+:
+function
 (
 )
 {
@@ -619,6 +633,8 @@ GetFeatures
 ;
 }
 getBufferInfo
+:
+function
 (
 )
 {
@@ -666,6 +682,8 @@ value
 ;
 }
 getStartOptions
+:
+function
 (
 )
 {
@@ -680,6 +698,8 @@ _profilerStartOptions
 ;
 }
 isActive
+:
+function
 (
 )
 {
@@ -731,6 +751,8 @@ generation
 ;
 }
 getSharedLibraryInformation
+:
+function
 (
 )
 {
@@ -924,6 +946,8 @@ observe
 "
 )
 registerEventListeners
+:
+function
 (
 )
 {
@@ -963,6 +987,8 @@ true
 }
 }
 unregisterEventListeners
+:
+function
 (
 )
 {
@@ -1000,6 +1026,8 @@ false
 }
 }
 emitEvent
+:
+function
 (
 eventName
 data
@@ -1054,6 +1082,8 @@ data
 }
 }
 setProfilerStatusInterval
+:
+function
 (
 interval
 )
@@ -1082,6 +1112,8 @@ interval
 }
 }
 subscribeToProfilerStatusEvents
+:
+function
 (
 )
 {
@@ -1099,6 +1131,8 @@ _updateProfilerStatusPolling
 ;
 }
 unsubscribeToProfilerStatusEvents
+:
+function
 (
 )
 {
@@ -1116,6 +1150,8 @@ _updateProfilerStatusPolling
 ;
 }
 _updateProfilerStatusPolling
+:
+function
 (
 )
 {
@@ -1192,6 +1228,8 @@ disarm
 }
 }
 _emitProfilerStatus
+:
+function
 (
 )
 {
@@ -1241,6 +1279,8 @@ extends
 :
 EventTarget
 initialize
+:
+function
 (
 )
 {
@@ -1262,6 +1302,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1298,6 +1340,8 @@ this
 ;
 }
 start
+:
+function
 (
 options
 )
@@ -1312,6 +1356,8 @@ options
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -1324,6 +1370,8 @@ stop
 ;
 }
 getProfile
+:
+function
 (
 request
 =
@@ -1341,6 +1389,8 @@ request
 ;
 }
 getFeatures
+:
+function
 (
 )
 {
@@ -1353,6 +1403,8 @@ getFeatures
 ;
 }
 getBufferInfo
+:
+function
 (
 )
 {
@@ -1365,6 +1417,8 @@ getBufferInfo
 ;
 }
 getStartOptions
+:
+function
 (
 )
 {
@@ -1377,6 +1431,8 @@ getStartOptions
 ;
 }
 isActive
+:
+function
 (
 )
 {
@@ -1389,6 +1445,8 @@ isActive
 ;
 }
 getSharedLibraryInformation
+:
+function
 (
 )
 {
@@ -1401,6 +1459,8 @@ getSharedLibraryInformation
 ;
 }
 setProfilerStatusInterval
+:
+function
 (
 interval
 )
@@ -1415,6 +1475,8 @@ interval
 ;
 }
 registerEventNotifications
+:
+function
 (
 data
 =
@@ -1506,6 +1568,8 @@ response
 ;
 }
 unregisterEventNotifications
+:
+function
 (
 data
 =

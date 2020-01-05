@@ -322,6 +322,8 @@ _actor
 ;
 }
 _onNetworkEvent
+:
+function
 (
 type
 packet
@@ -457,6 +459,8 @@ networkInfo
 }
 }
 _onNetworkEventUpdate
+:
+function
 (
 type
 packet
@@ -721,12 +725,16 @@ networkEventUpdate
 "
 {
 packet
+:
+packet
 networkInfo
 }
 )
 ;
 }
 getCachedMessages
+:
+function
 (
 types
 onResponse
@@ -764,6 +772,8 @@ onResponse
 ;
 }
 inspectObjectProperties
+:
+function
 (
 actor
 onResponse
@@ -796,6 +806,8 @@ onResponse
 ;
 }
 evaluateJS
+:
+function
 (
 string
 onResponse
@@ -862,6 +874,8 @@ onResponse
 ;
 }
 evaluateJSAsync
+:
+function
 (
 string
 onResponse
@@ -1022,6 +1036,8 @@ resp
 ;
 }
 onEvaluationResult
+:
+function
 (
 notification
 packet
@@ -1113,6 +1129,8 @@ resultID
 }
 }
 autocomplete
+:
+function
 (
 string
 cursor
@@ -1138,6 +1156,10 @@ text
 :
 string
 cursor
+:
+cursor
+frameActor
+:
 frameActor
 }
 ;
@@ -1154,6 +1176,8 @@ onResponse
 ;
 }
 clearMessagesCache
+:
+function
 (
 )
 {
@@ -1185,6 +1209,8 @@ packet
 ;
 }
 getPreferences
+:
+function
 (
 preferences
 onResponse
@@ -1205,6 +1231,8 @@ type
 getPreferences
 "
 preferences
+:
+preferences
 }
 ;
 return
@@ -1220,6 +1248,8 @@ onResponse
 ;
 }
 setPreferences
+:
+function
 (
 preferences
 onResponse
@@ -1240,6 +1270,8 @@ type
 setPreferences
 "
 preferences
+:
+preferences
 }
 ;
 return
@@ -1255,6 +1287,8 @@ onResponse
 ;
 }
 getRequestHeaders
+:
+function
 (
 actor
 onResponse
@@ -1287,6 +1321,8 @@ onResponse
 ;
 }
 getRequestCookies
+:
+function
 (
 actor
 onResponse
@@ -1319,6 +1355,8 @@ onResponse
 ;
 }
 getRequestPostData
+:
+function
 (
 actor
 onResponse
@@ -1351,6 +1389,8 @@ onResponse
 ;
 }
 getResponseHeaders
+:
+function
 (
 actor
 onResponse
@@ -1383,6 +1423,8 @@ onResponse
 ;
 }
 getResponseCookies
+:
+function
 (
 actor
 onResponse
@@ -1415,6 +1457,8 @@ onResponse
 ;
 }
 getResponseContent
+:
+function
 (
 actor
 onResponse
@@ -1447,6 +1491,8 @@ onResponse
 ;
 }
 getEventTimings
+:
+function
 (
 actor
 onResponse
@@ -1479,6 +1525,8 @@ onResponse
 ;
 }
 getSecurityInfo
+:
+function
 (
 actor
 onResponse
@@ -1511,6 +1559,8 @@ onResponse
 ;
 }
 sendHTTPRequest
+:
+function
 (
 data
 onResponse
@@ -1548,6 +1598,8 @@ onResponse
 ;
 }
 startListeners
+:
+function
 (
 listeners
 onResponse
@@ -1568,6 +1620,8 @@ type
 startListeners
 "
 listeners
+:
+listeners
 }
 ;
 return
@@ -1583,6 +1637,8 @@ onResponse
 ;
 }
 stopListeners
+:
+function
 (
 listeners
 onResponse
@@ -1602,6 +1658,8 @@ type
 "
 stopListeners
 "
+listeners
+:
 listeners
 }
 ;
@@ -1618,6 +1676,8 @@ onResponse
 ;
 }
 longString
+:
+function
 (
 grip
 )
@@ -1672,6 +1732,8 @@ client
 ;
 }
 detach
+:
+function
 (
 onResponse
 )
@@ -1766,6 +1828,8 @@ null
 ;
 }
 clearNetworkRequests
+:
+function
 (
 )
 {
@@ -1779,6 +1843,8 @@ clear
 ;
 }
 getString
+:
+function
 (
 stringGrip
 )

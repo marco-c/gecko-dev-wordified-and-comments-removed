@@ -113,6 +113,8 @@ nbOfTimesShown
 :
 0
 show
+:
+function
 (
 nodeFront
 )
@@ -145,6 +147,8 @@ true
 ;
 }
 hide
+:
+function
 (
 )
 {
@@ -169,6 +173,8 @@ resolve
 ;
 }
 finalize
+:
+function
 (
 )
 {

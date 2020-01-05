@@ -786,6 +786,8 @@ indentUnit
 :
 tabSize
 tabSize
+:
+tabSize
 contextMenu
 :
 null
@@ -1406,6 +1408,8 @@ this
 ;
 }
 appendTo
+:
+function
 (
 el
 env
@@ -1661,6 +1665,8 @@ promise
 ;
 }
 appendToLocalElement
+:
+function
 (
 el
 )
@@ -1674,6 +1680,8 @@ el
 ;
 }
 _setup
+:
+function
 (
 el
 doc
@@ -2252,6 +2260,8 @@ head
 =
 {
 line
+:
+line
 ch
 :
 0
@@ -2261,6 +2271,8 @@ let
 tail
 =
 {
+line
+:
 line
 ch
 :
@@ -2495,6 +2507,8 @@ editorReadyEvent
 ;
 }
 isAppended
+:
+function
 (
 )
 {
@@ -2508,6 +2522,8 @@ this
 ;
 }
 getMode
+:
+function
 (
 )
 {
@@ -2523,6 +2539,8 @@ mode
 ;
 }
 loadScript
+:
+function
 (
 url
 )
@@ -2582,6 +2600,8 @@ utf8
 ;
 }
 createDocument
+:
+function
 (
 )
 {
@@ -2597,6 +2617,8 @@ Doc
 ;
 }
 replaceDocument
+:
+function
 (
 doc
 )
@@ -2620,6 +2642,8 @@ doc
 ;
 }
 setMode
+:
+function
 (
 value
 )
@@ -2666,6 +2690,8 @@ true
 }
 }
 getText
+:
+function
 (
 line
 )
@@ -2723,6 +2749,8 @@ text
 ;
 }
 setText
+:
+function
 (
 value
 )
@@ -2752,6 +2780,8 @@ resetIndentUnit
 ;
 }
 reloadPreferences
+:
+function
 (
 )
 {
@@ -2853,6 +2883,8 @@ setupAutoCompletion
 ;
 }
 resetIndentUnit
+:
+function
 (
 )
 {
@@ -2944,6 +2976,8 @@ indentWithTabs
 ;
 }
 replaceText
+:
+function
 (
 value
 from
@@ -3023,6 +3057,8 @@ to
 ;
 }
 insertText
+:
+function
 (
 value
 at
@@ -3049,6 +3085,8 @@ at
 ;
 }
 dropSelection
+:
+function
 (
 )
 {
@@ -3078,6 +3116,8 @@ getCursor
 ;
 }
 hasMultipleSelections
+:
+function
 (
 )
 {
@@ -3104,6 +3144,8 @@ length
 ;
 }
 getFirstVisibleLine
+:
+function
 (
 )
 {
@@ -3130,6 +3172,8 @@ local
 ;
 }
 setFirstVisibleLine
+:
+function
 (
 line
 )
@@ -3155,6 +3199,8 @@ charCoords
 (
 {
 line
+:
+line
 ch
 :
 0
@@ -3174,6 +3220,8 @@ top
 ;
 }
 setCursor
+:
+function
 (
 {
 line
@@ -3206,6 +3254,10 @@ setCursor
 (
 {
 line
+:
+line
+ch
+:
 ch
 }
 )
@@ -3221,6 +3273,8 @@ cursorActivity
 ;
 }
 alignLine
+:
+function
 (
 line
 align
@@ -3396,6 +3450,8 @@ topLine
 ;
 }
 hasMarker
+:
+function
 (
 line
 gutterName
@@ -3435,6 +3491,8 @@ markerClass
 ;
 }
 addMarker
+:
+function
 (
 line
 gutterName
@@ -3546,6 +3604,8 @@ marker
 ;
 }
 removeMarker
+:
+function
 (
 line
 gutterName
@@ -3599,6 +3659,8 @@ markerClass
 ;
 }
 addContentMarker
+:
+function
 (
 line
 gutterName
@@ -3678,6 +3740,8 @@ marker
 ;
 }
 removeContentMarker
+:
+function
 (
 line
 gutterName
@@ -3725,6 +3789,8 @@ null
 ;
 }
 getMarker
+:
+function
 (
 line
 gutterName
@@ -3785,6 +3851,8 @@ gutterName
 ;
 }
 removeAllMarkers
+:
+function
 (
 gutterName
 )
@@ -3808,6 +3876,8 @@ gutterName
 ;
 }
 setMarkerListeners
+:
+function
 (
 line
 gutterName
@@ -3892,6 +3962,8 @@ listener
 }
 }
 hasLineClass
+:
+function
 (
 line
 className
@@ -3955,6 +4027,8 @@ className
 ;
 }
 addLineClass
+:
+function
 (
 line
 className
@@ -3983,6 +4057,8 @@ className
 ;
 }
 removeLineClass
+:
+function
 (
 line
 className
@@ -4011,6 +4087,8 @@ className
 ;
 }
 markText
+:
+function
 (
 from
 to
@@ -4110,6 +4188,8 @@ clear
 ;
 }
 getPosition
+:
+function
 (
 .
 .
@@ -4165,6 +4245,8 @@ res
 ;
 }
 getOffset
+:
+function
 (
 .
 .
@@ -4218,6 +4300,8 @@ res
 ;
 }
 getPositionFromCoords
+:
+function
 (
 {
 left
@@ -4242,12 +4326,18 @@ coordsChar
 (
 {
 left
+:
+left
+top
+:
 top
 }
 )
 ;
 }
 getCoordsFromPosition
+:
+function
 (
 {
 line
@@ -4286,6 +4376,8 @@ ch
 ;
 }
 canUndo
+:
+function
 (
 )
 {
@@ -4312,6 +4404,8 @@ undo
 ;
 }
 canRedo
+:
+function
 (
 )
 {
@@ -4338,6 +4432,8 @@ redo
 ;
 }
 setClean
+:
+function
 (
 )
 {
@@ -4385,6 +4481,8 @@ version
 ;
 }
 isClean
+:
+function
 (
 )
 {
@@ -4410,6 +4508,8 @@ version
 ;
 }
 jumpToLine
+:
+function
 (
 )
 {
@@ -4664,6 +4764,8 @@ column
 ;
 }
 moveLineUp
+:
+function
 (
 )
 {
@@ -4881,6 +4983,8 @@ ch
 ;
 }
 moveLineDown
+:
+function
 (
 )
 {
@@ -5100,6 +5204,8 @@ ch
 ;
 }
 findOrReplace
+:
+function
 (
 node
 isReplaceAll
@@ -5210,6 +5316,8 @@ find
 ;
 }
 findNextOrPrev
+:
+function
 (
 node
 isFindPrev
@@ -5342,6 +5450,8 @@ findNext
 }
 }
 getFontSize
+:
+function
 (
 )
 {
@@ -5396,6 +5506,8 @@ size
 ;
 }
 setFontSize
+:
+function
 (
 size
 )
@@ -5438,6 +5550,8 @@ refresh
 ;
 }
 setOption
+:
+function
 (
 o
 v
@@ -5542,6 +5656,8 @@ updateCodeFoldingGutter
 }
 }
 getOption
+:
+function
 (
 o
 )
@@ -5585,6 +5701,8 @@ o
 ;
 }
 setupAutoCompletion
+:
+function
 (
 )
 {
@@ -5653,6 +5771,8 @@ destroyAutoCompletion
 }
 }
 extend
+:
+function
 (
 funcs
 )
@@ -5688,6 +5808,10 @@ ed
 :
 this
 cm
+:
+cm
+Editor
+:
 Editor
 }
 ;
@@ -5734,6 +5858,8 @@ ctx
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -5866,6 +5992,8 @@ destroy
 ;
 }
 updateCodeFoldingGutter
+:
+function
 (
 )
 {
@@ -6060,6 +6188,8 @@ false
 }
 }
 _initShortcuts
+:
+function
 (
 win
 )
@@ -6191,6 +6321,8 @@ event
 ;
 }
 _onShortcut
+:
+function
 (
 name
 event
@@ -6341,6 +6473,8 @@ preventDefault
 ;
 }
 _isInputOrTextarea
+:
+function
 (
 element
 )
@@ -6697,6 +6831,10 @@ keySet
 propertyKeywords
 )
 colorKeywords
+:
+colorKeywords
+valueKeywords
+:
 valueKeywords
 }
 ;

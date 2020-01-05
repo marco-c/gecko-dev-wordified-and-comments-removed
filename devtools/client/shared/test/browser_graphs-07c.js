@@ -1023,6 +1023,10 @@ view
 :
 window
 screenX
+:
+screenX
+screenY
+:
 screenY
 }
 )

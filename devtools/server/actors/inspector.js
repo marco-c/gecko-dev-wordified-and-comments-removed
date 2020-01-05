@@ -985,6 +985,8 @@ ActorClassWithSpec
 nodeSpec
 {
 initialize
+:
+function
 (
 walker
 node
@@ -1037,6 +1039,8 @@ isDisplayed
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -1081,6 +1085,8 @@ conn
 ;
 }
 isDocumentElement
+:
+function
 (
 )
 {
@@ -1108,6 +1114,8 @@ rawNode
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1174,6 +1182,8 @@ null
 ;
 }
 form
+:
+function
 (
 detail
 )
@@ -1486,6 +1496,8 @@ form
 ;
 }
 watchDocument
+:
+function
 (
 callback
 )
@@ -1868,6 +1880,8 @@ false
 ;
 }
 writeAttrs
+:
+function
 (
 )
 {
@@ -1927,6 +1941,8 @@ value
 ;
 }
 writePseudoClassLocks
+:
+function
 (
 )
 {
@@ -1999,6 +2015,8 @@ ret
 ;
 }
 getEventListeners
+:
+function
 (
 node
 )
@@ -2133,6 +2151,8 @@ listenerArray
 ;
 }
 processHandlerForEvent
+:
+function
 (
 node
 listenerArray
@@ -2763,6 +2783,8 @@ globalDO
 ;
 }
 getNodeValue
+:
+function
 (
 )
 {
@@ -2786,6 +2808,8 @@ nodeValue
 ;
 }
 setNodeValue
+:
+function
 (
 value
 )
@@ -2800,6 +2824,8 @@ value
 ;
 }
 getUniqueSelector
+:
+function
 (
 )
 {
@@ -2830,6 +2856,8 @@ rawNode
 ;
 }
 scrollIntoView
+:
+function
 (
 )
 {
@@ -2844,6 +2872,8 @@ true
 ;
 }
 getImageData
+:
+function
 (
 maxDim
 )
@@ -2888,6 +2918,8 @@ size
 ;
 }
 getEventListenerInfo
+:
+function
 (
 )
 {
@@ -2990,6 +3022,8 @@ node
 ;
 }
 modifyAttributes
+:
+function
 (
 modifications
 )
@@ -3094,6 +3128,8 @@ newValue
 }
 }
 getFontFamilyDataURL
+:
+function
 (
 font
 fillStyle
@@ -3123,6 +3159,8 @@ previewFontSize
 :
 FONT_FAMILY_PREVIEW_TEXT_SIZE
 fillStyle
+:
+fillStyle
 }
 ;
 let
@@ -3150,6 +3188,8 @@ conn
 dataURL
 )
 size
+:
+size
 }
 ;
 }
@@ -3175,6 +3215,8 @@ typeName
 domnodelist
 "
 initialize
+:
+function
 (
 walker
 nodeList
@@ -3211,6 +3253,8 @@ nodeList
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -3242,6 +3286,8 @@ conn
 ;
 }
 marshallPool
+:
+function
 (
 )
 {
@@ -3252,6 +3298,8 @@ walker
 ;
 }
 form
+:
+function
 (
 )
 {
@@ -3279,6 +3327,8 @@ length
 ;
 }
 item
+:
+function
 (
 index
 )
@@ -3300,6 +3350,8 @@ index
 ;
 }
 items
+:
+function
 (
 start
 =
@@ -3358,6 +3410,8 @@ items
 ;
 }
 release
+:
+function
 (
 )
 {
@@ -3375,6 +3429,8 @@ ActorClassWithSpec
 walkerSpec
 {
 initialize
+:
+function
 (
 conn
 tabActor
@@ -3648,6 +3704,8 @@ _onEventListenerChange
 ;
 }
 _onEventListenerChange
+:
+function
 (
 changesEnum
 )
@@ -3747,6 +3805,8 @@ mutation
 }
 }
 form
+:
+function
 (
 )
 {
@@ -3783,6 +3843,8 @@ true
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -3802,6 +3864,8 @@ actorID
 ;
 }
 getDocumentWalker
+:
+function
 (
 node
 whatToShow
@@ -3832,6 +3896,8 @@ nodeFilter
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -4074,11 +4140,15 @@ e
 }
 }
 release
+:
+function
 (
 )
 {
 }
 unmanage
+:
+function
 (
 actor
 )
@@ -4143,6 +4213,8 @@ actor
 ;
 }
 hasNode
+:
+function
 (
 rawNode
 )
@@ -4159,6 +4231,8 @@ rawNode
 ;
 }
 getNode
+:
+function
 (
 rawNode
 )
@@ -4175,6 +4249,8 @@ rawNode
 ;
 }
 _ref
+:
+function
 (
 node
 )
@@ -4254,6 +4330,8 @@ actor
 ;
 }
 _onReflows
+:
+function
 (
 reflows
 )
@@ -4346,6 +4424,8 @@ changes
 }
 }
 _onResize
+:
+function
 (
 )
 {
@@ -4361,22 +4441,30 @@ resize
 ;
 }
 pick
+:
+function
 (
 )
 {
 }
 cancelPick
+:
+function
 (
 )
 {
 }
 highlight
+:
+function
 (
 node
 )
 {
 }
 attachElement
+:
+function
 (
 node
 )
@@ -4405,10 +4493,14 @@ nodes
 0
 ]
 newParents
+:
+newParents
 }
 ;
 }
 attachElements
+:
+function
 (
 nodes
 )
@@ -4514,6 +4606,8 @@ newParents
 ;
 }
 document
+:
+function
 (
 node
 )
@@ -4547,6 +4641,8 @@ doc
 ;
 }
 documentElement
+:
+function
 (
 node
 )
@@ -4584,6 +4680,8 @@ elt
 ;
 }
 parents
+:
+function
 (
 node
 options
@@ -4709,6 +4807,8 @@ parents
 ;
 }
 parentNode
+:
+function
 (
 node
 )
@@ -4753,6 +4853,8 @@ null
 ;
 }
 inlineTextChild
+:
+function
 (
 node
 )
@@ -4868,6 +4970,8 @@ firstChild
 ;
 }
 retainNode
+:
+function
 (
 node
 )
@@ -4880,6 +4984,8 @@ true
 ;
 }
 unretainNode
+:
+function
 (
 node
 )
@@ -4921,6 +5027,8 @@ node
 }
 }
 releaseNode
+:
+function
 (
 node
 options
@@ -5049,6 +5157,8 @@ destroy
 ;
 }
 ensurePathToRoot
+:
+function
 (
 node
 newParents
@@ -5138,6 +5248,8 @@ newParents
 ;
 }
 children
+:
+function
 (
 node
 options
@@ -5520,10 +5632,14 @@ rawNode
 =
 lastChild
 nodes
+:
+nodes
 }
 ;
 }
 siblings
+:
+function
 (
 node
 options
@@ -5634,6 +5750,8 @@ options
 ;
 }
 nextSibling
+:
+function
 (
 node
 options
@@ -5692,6 +5810,8 @@ null
 ;
 }
 previousSibling
+:
+function
 (
 node
 options
@@ -5750,6 +5870,8 @@ null
 ;
 }
 _readForward
+:
+function
 (
 walker
 count
@@ -5806,6 +5928,8 @@ ret
 ;
 }
 _readBackward
+:
+function
 (
 walker
 count
@@ -5868,6 +5992,8 @@ ret
 ;
 }
 querySelector
+:
+function
 (
 baseNode
 selector
@@ -5919,6 +6045,8 @@ node
 ;
 }
 querySelectorAll
+:
+function
 (
 baseNode
 selector
@@ -5959,6 +6087,8 @@ nodeList
 ;
 }
 _multiFrameQuerySelectorAll
+:
+function
 (
 selector
 )
@@ -6016,6 +6146,8 @@ nodes
 ;
 }
 multiFrameQuerySelectorAll
+:
+function
 (
 selector
 )
@@ -6035,6 +6167,8 @@ selector
 ;
 }
 search
+:
+function
 (
 query
 )
@@ -6084,6 +6218,8 @@ metadata
 ;
 }
 getSuggestionsForQuery
+:
+function
 (
 query
 completing
@@ -7039,6 +7175,8 @@ slice
 return
 {
 query
+:
+query
 suggestions
 :
 result
@@ -7046,6 +7184,8 @@ result
 ;
 }
 addPseudoClassLock
+:
+function
 (
 node
 pseudo
@@ -7167,6 +7307,8 @@ pseudo
 }
 }
 _queuePseudoClassMutation
+:
+function
 (
 node
 )
@@ -7198,6 +7340,8 @@ writePseudoClassLocks
 ;
 }
 _addPseudoClassLock
+:
+function
 (
 node
 pseudo
@@ -7255,6 +7399,8 @@ true
 ;
 }
 _installHelperSheet
+:
+function
 (
 node
 )
@@ -7369,6 +7515,8 @@ style
 }
 }
 hideNode
+:
+function
 (
 node
 )
@@ -7404,6 +7552,8 @@ HIDDEN_CLASS
 ;
 }
 unhideNode
+:
+function
 (
 node
 )
@@ -7432,6 +7582,8 @@ HIDDEN_CLASS
 ;
 }
 removePseudoClassLock
+:
+function
 (
 node
 pseudo
@@ -7565,6 +7717,8 @@ pseudo
 }
 }
 _removePseudoClassLock
+:
+function
 (
 node
 pseudo
@@ -7632,6 +7786,8 @@ true
 ;
 }
 clearPseudoClassLocks
+:
+function
 (
 node
 )
@@ -7722,6 +7878,8 @@ locked
 }
 }
 innerHTML
+:
+function
 (
 node
 )
@@ -7761,6 +7919,8 @@ html
 ;
 }
 setInnerHTML
+:
+function
 (
 node
 value
@@ -7823,6 +7983,8 @@ value
 ;
 }
 outerHTML
+:
+function
 (
 node
 )
@@ -7862,6 +8024,8 @@ outerHTML
 ;
 }
 setOuterHTML
+:
+function
 (
 node
 value
@@ -8149,6 +8313,8 @@ value
 }
 }
 insertAdjacentHTML
+:
+function
 (
 node
 position
@@ -8453,6 +8619,8 @@ newRawNodes
 ;
 }
 duplicateNode
+:
+function
 (
 {
 rawNode
@@ -8483,6 +8651,8 @@ nextSibling
 ;
 }
 isDocumentOrDocumentElementNode
+:
+function
 (
 node
 )
@@ -8530,6 +8700,8 @@ DOCUMENT_NODE
 ;
 }
 removeNode
+:
+function
 (
 node
 )
@@ -8590,6 +8762,8 @@ nextSibling
 ;
 }
 removeNodes
+:
+function
 (
 nodes
 )
@@ -8654,6 +8828,8 @@ remove
 }
 }
 insertBefore
+:
+function
 (
 node
 parent
@@ -8774,6 +8950,8 @@ rawSibling
 ;
 }
 editTagName
+:
+function
 (
 node
 tagName
@@ -8927,6 +9105,8 @@ null
 ;
 }
 getMutations
+:
+function
 (
 options
 =
@@ -8992,6 +9172,8 @@ pending
 ;
 }
 queueMutation
+:
+function
 (
 mutation
 )
@@ -9054,6 +9236,8 @@ mutations
 }
 }
 onMutations
+:
+function
 (
 mutations
 )
@@ -9117,6 +9301,8 @@ let
 mutation
 =
 {
+type
+:
 type
 target
 :
@@ -9395,6 +9581,8 @@ mutation
 }
 }
 _maybeQueueInlineTextChildMutation
+:
+function
 (
 mutation
 )
@@ -9531,6 +9719,8 @@ undefined
 ;
 }
 onFrameLoad
+:
+function
 (
 {
 window
@@ -9756,6 +9946,8 @@ removed
 ;
 }
 _childOfWindow
+:
+function
 (
 window
 domNode
@@ -9802,6 +9994,8 @@ false
 ;
 }
 onFrameUnload
+:
+function
 (
 {
 window
@@ -10050,6 +10244,8 @@ true
 ;
 }
 _isInDOMTree
+:
+function
 (
 rawNode
 )
@@ -10120,6 +10316,8 @@ true
 ;
 }
 isInDOMTree
+:
+function
 (
 node
 )
@@ -10148,6 +10346,8 @@ rawNode
 ;
 }
 getNodeActorFromObjectActor
+:
+function
 (
 objectActorID
 )
@@ -10247,6 +10447,8 @@ rawNode
 ;
 }
 getStyleSheetOwnerNode
+:
+function
 (
 styleSheetActorID
 )
@@ -10266,6 +10468,8 @@ ownerNode
 ;
 }
 getNodeFromActor
+:
+function
 (
 actorID
 path
@@ -10338,6 +10542,8 @@ obj
 ;
 }
 getLayoutInspector
+:
+function
 (
 )
 {
@@ -10386,6 +10592,8 @@ ActorClassWithSpec
 inspectorSpec
 {
 initialize
+:
+function
 (
 conn
 tabActor
@@ -10452,6 +10660,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -10519,6 +10729,8 @@ window
 ;
 }
 getWalker
+:
+function
 (
 options
 =
@@ -10693,6 +10905,8 @@ _walkerPromise
 ;
 }
 getPageStyle
+:
+function
 (
 )
 {
@@ -10753,6 +10967,8 @@ _pageStylePromise
 ;
 }
 getHighlighter
+:
+function
 (
 autohide
 )
@@ -10815,6 +11031,8 @@ _highlighterPromise
 ;
 }
 getHighlighterByType
+:
+function
 (
 typeName
 )
@@ -10840,6 +11058,8 @@ null
 ;
 }
 getImageDataFromURL
+:
+function
 (
 url
 maxDim
@@ -10901,6 +11121,8 @@ size
 ;
 }
 resolveRelativeURL
+:
+function
 (
 url
 node
@@ -10969,6 +11191,8 @@ spec
 ;
 }
 createEyeDropper
+:
+function
 (
 )
 {
@@ -11012,6 +11236,8 @@ _highlighterEnv
 ;
 }
 destroyEyeDropper
+:
+function
 (
 )
 {
@@ -11059,6 +11285,8 @@ null
 }
 }
 pickColorFromPage
+:
+function
 (
 options
 )
@@ -11132,6 +11360,8 @@ destroyEyeDropper
 ;
 }
 cancelPickColorFromPage
+:
+function
 (
 )
 {
@@ -11198,6 +11428,8 @@ destroyEyeDropper
 }
 }
 supportsHighlighters
+:
+function
 (
 )
 {
@@ -11252,6 +11484,8 @@ true
 ;
 }
 _onColorPicked
+:
+function
 (
 e
 color
@@ -11272,6 +11506,8 @@ color
 ;
 }
 _onColorPickCanceled
+:
+function
 (
 )
 {
@@ -11636,6 +11872,8 @@ val
 ;
 }
 parentNode
+:
+function
 (
 )
 {
@@ -11650,6 +11888,8 @@ parentNode
 ;
 }
 nextNode
+:
+function
 (
 )
 {
@@ -11718,6 +11958,8 @@ nextNode
 ;
 }
 firstChild
+:
+function
 (
 )
 {
@@ -11786,6 +12028,8 @@ firstChild
 ;
 }
 lastChild
+:
+function
 (
 )
 {
@@ -11854,6 +12098,8 @@ lastChild
 ;
 }
 previousSibling
+:
+function
 (
 )
 {
@@ -11903,6 +12149,8 @@ node
 ;
 }
 nextSibling
+:
+function
 (
 )
 {

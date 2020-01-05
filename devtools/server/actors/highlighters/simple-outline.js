@@ -97,6 +97,8 @@ prototype
 =
 {
 destroy
+:
+function
 (
 )
 {
@@ -114,6 +116,8 @@ null
 ;
 }
 show
+:
+function
 (
 node
 )
@@ -177,6 +181,8 @@ true
 ;
 }
 hide
+:
+function
 (
 )
 {

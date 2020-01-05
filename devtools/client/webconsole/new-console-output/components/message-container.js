@@ -229,6 +229,8 @@ number
 isRequired
 }
 getDefaultProps
+:
+function
 (
 )
 {

@@ -431,6 +431,8 @@ any
 )
 }
 getDefaultProps
+:
+function
 (
 )
 {
@@ -502,6 +504,8 @@ messageId
 }
 }
 onLearnMoreClick
+:
+function
 (
 )
 {
@@ -705,6 +709,8 @@ StackTrace
 (
 {
 stacktrace
+:
+stacktrace
 onViewSourceInDebugger
 :
 serviceContainer
@@ -760,6 +766,8 @@ title
 :
 collapseTitle
 onClick
+:
+function
 (
 )
 {

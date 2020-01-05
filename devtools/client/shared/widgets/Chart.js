@@ -289,6 +289,8 @@ width
 :
 diameter
 data
+:
+data
 }
 )
 ;
@@ -302,8 +304,16 @@ Table
 document
 {
 title
+:
+title
+data
+:
 data
 strings
+:
+strings
+totals
+:
 totals
 }
 )

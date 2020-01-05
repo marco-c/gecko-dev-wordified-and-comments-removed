@@ -580,6 +580,8 @@ name
 ;
 }
 name
+:
+name
 primitive
 :
 !
@@ -838,6 +840,8 @@ category
 "
 dict
 "
+specializations
+:
 specializations
 read
 :
@@ -1776,6 +1780,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 index
 type
@@ -1800,6 +1806,8 @@ type
 ;
 }
 write
+:
+function
 (
 arg
 ctx
@@ -1818,6 +1826,8 @@ ctx
 ;
 }
 read
+:
+function
 (
 v
 ctx
@@ -1843,6 +1853,8 @@ ctx
 ;
 }
 describe
+:
+function
 (
 )
 {
@@ -1882,6 +1894,8 @@ extends
 :
 Arg
 initialize
+:
+function
 (
 index
 type
@@ -1902,6 +1916,8 @@ type
 ;
 }
 write
+:
+function
 (
 arg
 ctx
@@ -1950,6 +1966,8 @@ ctx
 ;
 }
 read
+:
+function
 (
 v
 ctx
@@ -2016,6 +2034,8 @@ ctx
 ;
 }
 describe
+:
+function
 (
 )
 {
@@ -2052,6 +2072,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 type
 )
@@ -2069,6 +2091,8 @@ type
 ;
 }
 write
+:
+function
 (
 v
 ctx
@@ -2087,6 +2111,8 @@ ctx
 ;
 }
 read
+:
+function
 (
 v
 ctx
@@ -2105,6 +2131,8 @@ ctx
 ;
 }
 describe
+:
+function
 (
 )
 {
@@ -2326,6 +2354,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 template
 =
@@ -2359,6 +2389,8 @@ Arg
 ;
 }
 write
+:
+function
 (
 fnArgs
 ctx
@@ -2428,6 +2460,8 @@ str
 ;
 }
 read
+:
+function
 (
 packet
 ctx
@@ -2495,6 +2529,8 @@ fnArgs
 ;
 }
 describe
+:
+function
 (
 )
 {
@@ -2517,6 +2553,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 template
 =
@@ -2596,6 +2634,8 @@ path
 }
 }
 write
+:
+function
 (
 ret
 ctx
@@ -2645,6 +2685,8 @@ value
 ;
 }
 read
+:
+function
 (
 packet
 ctx
@@ -2686,6 +2728,8 @@ ctx
 ;
 }
 describe
+:
+function
 (
 )
 {
@@ -2711,6 +2755,8 @@ extends
 :
 EventTarget
 initialize
+:
+function
 (
 conn
 )
@@ -2729,6 +2775,8 @@ conn
 }
 }
 parent
+:
+function
 (
 )
 {
@@ -2746,6 +2794,8 @@ actorID
 ;
 }
 marshallPool
+:
+function
 (
 )
 {
@@ -2799,6 +2849,8 @@ __poolMap
 ;
 }
 manage
+:
+function
 (
 actor
 )
@@ -2849,6 +2901,8 @@ actor
 ;
 }
 unmanage
+:
+function
 (
 actor
 )
@@ -2871,6 +2925,8 @@ actorID
 ;
 }
 has
+:
+function
 (
 actorID
 )
@@ -2892,6 +2948,8 @@ actorID
 ;
 }
 actor
+:
+function
 (
 actorID
 )
@@ -2914,6 +2972,8 @@ null
 ;
 }
 get
+:
+function
 (
 actorID
 )
@@ -2936,6 +2996,8 @@ null
 ;
 }
 isEmpty
+:
+function
 (
 )
 {
@@ -2956,8 +3018,10 @@ size
 0
 ;
 }
-*
 poolChildren
+:
+function
+*
 (
 )
 {
@@ -3004,6 +3068,8 @@ actor
 }
 }
 destroy
+:
+function
 (
 )
 {
@@ -3125,6 +3191,8 @@ null
 ;
 }
 cleanup
+:
+function
 (
 )
 {
@@ -3157,6 +3225,8 @@ actorID
 :
 null
 initialize
+:
+function
 (
 conn
 )
@@ -3250,6 +3320,8 @@ args
 }
 }
 toString
+:
+function
 (
 )
 {
@@ -3277,6 +3349,8 @@ actorID
 ;
 }
 _sendEvent
+:
+function
 (
 name
 .
@@ -3380,6 +3454,8 @@ packet
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -3402,6 +3478,8 @@ null
 ;
 }
 form
+:
+function
 (
 hint
 )
@@ -3417,6 +3495,8 @@ actorID
 ;
 }
 writeError
+:
+function
 (
 error
 )
@@ -3475,6 +3555,8 @@ message
 ;
 }
 _queueResponse
+:
+function
 (
 create
 )
@@ -4515,6 +4597,8 @@ actorID
 :
 null
 initialize
+:
+function
 (
 conn
 =
@@ -4597,6 +4681,8 @@ context
 }
 }
 destroy
+:
+function
 (
 )
 {
@@ -4701,6 +4787,8 @@ null
 ;
 }
 manage
+:
+function
 (
 front
 )
@@ -4763,6 +4851,8 @@ front
 ;
 }
 actor
+:
+function
 (
 )
 {
@@ -4778,6 +4868,8 @@ actorID
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -4806,12 +4898,16 @@ actorID
 ;
 }
 form
+:
+function
 (
 form
 )
 {
 }
 send
+:
+function
 (
 packet
 )
@@ -4886,6 +4982,8 @@ e
 }
 }
 request
+:
+function
 (
 packet
 )
@@ -4944,6 +5042,8 @@ promise
 ;
 }
 onPacket
+:
+function
 (
 packet
 )
@@ -5957,6 +6057,10 @@ request
 type
 {
 name
+:
+name
+request
+:
 request
 pre
 :

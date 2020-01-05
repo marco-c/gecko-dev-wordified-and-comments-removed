@@ -279,8 +279,10 @@ changed
 handler
 )
 }
-*
 exec
+:
+function
+*
 (
 args
 context
@@ -428,6 +430,8 @@ returnType
 highlighterVisibility
 "
 exec
+:
+function
 (
 args
 context

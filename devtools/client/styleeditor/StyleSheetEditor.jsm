@@ -1025,6 +1025,8 @@ TRANSITION_PREF
 ;
 }
 linkCSSFile
+:
+function
 (
 )
 {
@@ -1243,6 +1245,8 @@ file
 ;
 }
 _getSourceTextAndPrettify
+:
+function
 (
 )
 {
@@ -1325,6 +1329,8 @@ source
 ;
 }
 fetchSource
+:
+function
 (
 )
 {
@@ -1436,6 +1442,8 @@ e
 ;
 }
 addUnusedRegion
+:
+function
 (
 region
 )
@@ -1504,6 +1512,8 @@ UNUSED_CLASS
 }
 }
 addUnusedRegions
+:
+function
 (
 regions
 )
@@ -1526,6 +1536,8 @@ region
 }
 }
 removeAllUnusedRegions
+:
+function
 (
 )
 {
@@ -1564,6 +1576,8 @@ UNUSED_CLASS
 }
 }
 _onPropertyChange
+:
+function
 (
 property
 value
@@ -1584,6 +1598,8 @@ value
 ;
 }
 _onStyleApplied
+:
+function
 (
 )
 {
@@ -1695,6 +1711,8 @@ applied
 }
 }
 _onMediaRulesChanged
+:
+function
 (
 rules
 )
@@ -1794,6 +1812,8 @@ rules
 ;
 }
 _onMediaRuleMatchesChange
+:
+function
 (
 )
 {
@@ -1815,6 +1835,8 @@ mediaRules
 ;
 }
 _onError
+:
+function
 (
 event
 data
@@ -1832,6 +1854,8 @@ data
 ;
 }
 load
+:
+function
 (
 inputElement
 cssProperties
@@ -2115,6 +2139,8 @@ load
 ;
 }
 getSourceEditor
+:
+function
 (
 )
 {
@@ -2174,6 +2200,8 @@ promise
 ;
 }
 focus
+:
+function
 (
 )
 {
@@ -2204,6 +2232,8 @@ true
 }
 }
 onShow
+:
+function
 (
 )
 {
@@ -2231,6 +2261,8 @@ focus
 ;
 }
 toggleDisabled
+:
+function
 (
 )
 {
@@ -2258,6 +2290,8 @@ e
 ;
 }
 updateStyleSheet
+:
+function
 (
 )
 {
@@ -2298,6 +2332,8 @@ UPDATE_STYLESHEET_DELAY
 ;
 }
 _updateStyleSheet
+:
+function
 (
 )
 {
@@ -2395,6 +2431,8 @@ e
 ;
 }
 _onMouseMove
+:
+function
 (
 e
 )
@@ -2589,6 +2627,8 @@ highlighted
 }
 )
 saveToFile
+:
+function
 (
 file
 callback
@@ -2825,6 +2865,8 @@ defaultName
 ;
 }
 onFileSaved
+:
+function
 (
 returnFile
 )
@@ -2917,6 +2959,8 @@ CHECK_LINKED_SHEET_DELAY
 }
 }
 checkLinkedFileForChanges
+:
+function
 (
 )
 {
@@ -3030,6 +3074,8 @@ markLinkedFileBroken
 ;
 }
 markLinkedFileBroken
+:
+function
 (
 error
 )
@@ -3091,6 +3137,8 @@ error
 ;
 }
 updateLinkedStyleSheet
+:
+function
 (
 )
 {
@@ -3158,6 +3206,8 @@ markLinkedFileBroken
 ;
 }
 _getKeyBindings
+:
+function
 (
 )
 {
@@ -3239,6 +3289,8 @@ bindings
 ;
 }
 destroy
+:
+function
 (
 )
 {

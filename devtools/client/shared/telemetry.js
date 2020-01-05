@@ -596,6 +596,8 @@ DEVTOOLS_RELOAD_ADDON_RELOAD_COUNT
 }
 }
 toolOpened
+:
+function
 (
 id
 )
@@ -667,6 +669,8 @@ id
 ;
 }
 toolClosed
+:
+function
 (
 id
 )
@@ -707,6 +711,8 @@ timerHistogram
 ;
 }
 startTimer
+:
+function
 (
 histogramId
 )
@@ -726,6 +732,8 @@ Date
 ;
 }
 stopTimer
+:
+function
 (
 histogramId
 key
@@ -801,6 +809,8 @@ histogramId
 }
 }
 log
+:
+function
 (
 histogramId
 value
@@ -874,6 +884,8 @@ n
 }
 }
 logKeyed
+:
+function
 (
 histogramId
 key
@@ -949,6 +961,8 @@ n
 }
 }
 logOncePerBrowserVersion
+:
+function
 (
 perUserHistogram
 value
@@ -1048,6 +1062,8 @@ value
 }
 }
 destroy
+:
+function
 (
 )
 {

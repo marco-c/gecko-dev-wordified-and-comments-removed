@@ -119,6 +119,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 str
 )
@@ -155,6 +157,8 @@ str
 ;
 }
 string
+:
+function
 (
 )
 {
@@ -170,6 +174,8 @@ str
 ;
 }
 substring
+:
+function
 (
 start
 end
@@ -193,6 +199,8 @@ end
 ;
 }
 release
+:
+function
 (
 )
 {

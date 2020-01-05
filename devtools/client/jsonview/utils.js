@@ -474,6 +474,8 @@ createObjectIn
 win
 {
 defineAs
+:
+defineAs
 }
 )
 ;

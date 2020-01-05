@@ -55,6 +55,8 @@ number
 isRequired
 }
 render
+:
+function
 (
 )
 {

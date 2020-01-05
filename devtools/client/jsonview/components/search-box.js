@@ -69,6 +69,8 @@ PropTypes
 object
 }
 onSearch
+:
+function
 (
 event
 )
@@ -133,6 +135,8 @@ searchDelay
 ;
 }
 doSearch
+:
+function
 (
 searchBox
 )
@@ -152,6 +156,8 @@ value
 ;
 }
 render
+:
+function
 (
 )
 {

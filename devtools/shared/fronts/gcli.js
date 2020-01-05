@@ -50,6 +50,8 @@ FrontClassWithSpec
 gcliSpec
 {
 initialize
+:
+function
 (
 client
 tabForm

@@ -149,6 +149,8 @@ scrollBehavior
 smooth
 "
 init
+:
+function
 (
 )
 {
@@ -362,6 +364,8 @@ false
 ;
 }
 isRtl
+:
+function
 (
 )
 {
@@ -387,6 +391,8 @@ rtl
 ;
 }
 scrollToElement
+:
+function
 (
 element
 block
@@ -398,6 +404,8 @@ scrollIntoView
 (
 {
 block
+:
+block
 behavior
 :
 this
@@ -408,6 +416,8 @@ scrollBehavior
 ;
 }
 clickOrHold
+:
+function
 (
 repeatFn
 )
@@ -532,6 +542,8 @@ SCROLL_REPEAT_MS
 ;
 }
 onStartBtnDblClick
+:
+function
 (
 )
 {
@@ -580,6 +592,8 @@ start
 ;
 }
 onEndBtnDblClick
+:
+function
 (
 )
 {
@@ -628,6 +642,8 @@ start
 ;
 }
 onStartBtnClick
+:
+function
 (
 )
 {
@@ -693,6 +709,8 @@ scrollToStart
 ;
 }
 onEndBtnClick
+:
+function
 (
 )
 {
@@ -758,6 +776,8 @@ scrollToEnd
 ;
 }
 onScroll
+:
+function
 (
 )
 {
@@ -851,6 +871,8 @@ disabled
 }
 }
 onUnderflow
+:
+function
 (
 )
 {
@@ -889,6 +911,8 @@ underflow
 ;
 }
 onOverflow
+:
+function
 (
 )
 {
@@ -927,6 +951,8 @@ overflow
 ;
 }
 elementLeftOfContainer
+:
+function
 (
 left
 right
@@ -954,6 +980,8 @@ SCROLL_MARGIN
 ;
 }
 elementRightOfContainer
+:
+function
 (
 left
 right
@@ -981,6 +1009,8 @@ SCROLL_MARGIN
 ;
 }
 getFirstInvisibleElement
+:
+function
 (
 )
 {
@@ -1030,6 +1060,8 @@ predicate
 ;
 }
 getLastInvisibleElement
+:
+function
 (
 )
 {
@@ -1065,6 +1097,8 @@ predicate
 ;
 }
 findFirstWithBounds
+:
+function
 (
 elements
 predicate
@@ -1141,6 +1175,8 @@ null
 ;
 }
 constructHtml
+:
+function
 (
 )
 {
@@ -1287,6 +1323,8 @@ endBtn
 ;
 }
 createElement
+:
+function
 (
 tagName
 className
@@ -1330,6 +1368,8 @@ el
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1515,6 +1555,8 @@ walker
 ;
 }
 _init
+:
+function
 (
 )
 {
@@ -1923,6 +1965,8 @@ update
 ;
 }
 prettyPrintNodeAsText
+:
+function
 (
 node
 )
@@ -2055,6 +2099,8 @@ text
 ;
 }
 prettyPrintNodeAsXHTML
+:
+function
 (
 node
 )
@@ -2478,6 +2524,8 @@ fragment
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -2575,6 +2623,8 @@ event
 }
 }
 handleFocus
+:
+function
 (
 event
 )
@@ -2647,6 +2697,8 @@ focus
 ;
 }
 handleClick
+:
+function
 (
 event
 )
@@ -2679,6 +2731,8 @@ onBreadcrumbsClick
 }
 }
 handleMouseOver
+:
+function
 (
 event
 )
@@ -2711,6 +2765,8 @@ onBreadcrumbsHover
 }
 }
 handleMouseOut
+:
+function
 (
 event
 )
@@ -2729,6 +2785,8 @@ unhighlight
 ;
 }
 handleShortcut
+:
+function
 (
 name
 event
@@ -2905,6 +2963,8 @@ breadcrumbs
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -3104,6 +3164,8 @@ true
 ;
 }
 empty
+:
+function
 (
 )
 {
@@ -3131,6 +3193,8 @@ remove
 }
 }
 setCursor
+:
+function
 (
 index
 )
@@ -3227,6 +3291,8 @@ index
 ;
 }
 indexOf
+:
+function
 (
 node
 )
@@ -3281,6 +3347,8 @@ return
 ;
 }
 cutAfter
+:
+function
 (
 index
 )
@@ -3325,6 +3393,8 @@ button
 }
 }
 buildButton
+:
+function
 (
 node
 )
@@ -3484,6 +3554,8 @@ button
 ;
 }
 expand
+:
+function
 (
 node
 )
@@ -3627,6 +3699,8 @@ firstChild
 ;
 }
 getCommonAncestor
+:
+function
 (
 node
 )
@@ -3673,6 +3747,8 @@ return
 ;
 }
 scroll
+:
+function
 (
 )
 {
@@ -3713,6 +3789,8 @@ end
 }
 }
 updateSelectors
+:
+function
 (
 )
 {
@@ -3839,6 +3917,8 @@ textOutput
 }
 }
 _hasInterestingMutations
+:
+function
 (
 mutations
 )
@@ -3971,6 +4051,8 @@ false
 ;
 }
 update
+:
+function
 (
 reason
 mutations

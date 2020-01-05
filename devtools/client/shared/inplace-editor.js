@@ -1306,6 +1306,8 @@ val
 ;
 }
 _createInput
+:
+function
 (
 )
 {
@@ -1419,6 +1421,8 @@ input
 }
 }
 _clear
+:
+function
 (
 )
 {
@@ -1653,6 +1657,8 @@ destroy
 }
 }
 _autosize
+:
+function
 (
 )
 {
@@ -1818,6 +1824,8 @@ _updateSize
 ;
 }
 _stopAutosize
+:
+function
 (
 )
 {
@@ -1847,6 +1855,8 @@ _measurement
 ;
 }
 _updateSize
+:
+function
 (
 )
 {
@@ -2025,6 +2035,8 @@ px
 ;
 }
 _getInputCharDimensions
+:
+function
 (
 )
 {
@@ -2064,6 +2076,8 @@ height
 ;
 }
 _incrementValue
+:
+function
 (
 increment
 )
@@ -2170,6 +2184,8 @@ true
 ;
 }
 _incrementCSSValue
+:
+function
 (
 value
 increment
@@ -2608,6 +2624,8 @@ selection
 ;
 }
 _findCompatibleUnit
+:
+function
 (
 beforeValue
 afterValue
@@ -2745,6 +2763,8 @@ return
 ;
 }
 _parseCSSValue
+:
+function
 (
 value
 offset
@@ -3100,10 +3120,14 @@ m
 .
 length
 type
+:
+type
 }
 ;
 }
 _incrementGenericValue
+:
+function
 (
 value
 increment
@@ -3428,6 +3452,8 @@ mid
 +
 last
 start
+:
+start
 end
 :
 start
@@ -3444,6 +3470,8 @@ null
 ;
 }
 _incrementRawValue
+:
+function
 (
 rawValue
 increment
@@ -3613,6 +3641,8 @@ units
 ;
 }
 _incHexColor
+:
+function
 (
 rawValue
 increment
@@ -4143,6 +4173,8 @@ offsetEnd
 ;
 }
 _cycleCSSSuggestion
+:
+function
 (
 reverse
 noSelect
@@ -4390,6 +4422,8 @@ suggest
 ;
 }
 _apply
+:
+function
 (
 event
 direction
@@ -4453,6 +4487,8 @@ null
 ;
 }
 _onWindowBlur
+:
+function
 (
 )
 {
@@ -4502,6 +4538,8 @@ _openPopupTimeout
 }
 }
 _onBlur
+:
+function
 (
 event
 )
@@ -4557,6 +4595,8 @@ _clear
 }
 }
 _onAutocompletePopupClick
+:
+function
 (
 )
 {
@@ -4568,6 +4608,8 @@ _acceptPopupSuggestion
 ;
 }
 _acceptPopupSuggestion
+:
+function
 (
 )
 {
@@ -4873,6 +4915,8 @@ _hideAutocompletePopup
 ;
 }
 _onKeyPress
+:
+function
 (
 event
 )
@@ -5677,6 +5721,8 @@ preventDefault
 }
 }
 _onContextMenu
+:
+function
 (
 event
 )
@@ -5698,6 +5744,8 @@ event
 }
 }
 _openAutocompletePopup
+:
+function
 (
 offset
 selectedIndex
@@ -5735,6 +5783,8 @@ selectedIndex
 ;
 }
 _hideAutocompletePopup
+:
+function
 (
 )
 {
@@ -5764,6 +5814,8 @@ hidePopup
 ;
 }
 _getIncrement
+:
+function
 (
 event
 )
@@ -5904,6 +5956,8 @@ increment
 ;
 }
 _onKeyup
+:
+function
 (
 )
 {
@@ -5915,6 +5969,8 @@ false
 ;
 }
 _onInput
+:
+function
 (
 )
 {
@@ -5957,6 +6013,8 @@ currentInputValue
 }
 }
 _stopEventPropagation
+:
+function
 (
 e
 )
@@ -5969,6 +6027,8 @@ stopPropagation
 ;
 }
 _doValidation
+:
+function
 (
 )
 {
@@ -5998,6 +6058,8 @@ value
 }
 }
 _maybeSuggestCompletion
+:
+function
 (
 autoInsert
 )
@@ -7118,6 +7180,8 @@ _doValidation
 ;
 }
 _isSingleLine
+:
+function
 (
 )
 {
@@ -7147,6 +7211,8 @@ height
 ;
 }
 _getCSSPropertyList
+:
+function
 (
 )
 {
@@ -7165,6 +7231,8 @@ sort
 ;
 }
 _getCSSValuesForPropertyName
+:
+function
 (
 propertyName
 )

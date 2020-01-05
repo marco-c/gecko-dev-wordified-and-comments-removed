@@ -103,6 +103,8 @@ FrontClassWithSpec
 oldStyleSheetSpec
 {
 initialize
+:
+function
 (
 conn
 form
@@ -155,6 +157,8 @@ _onPropertyChange
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -186,6 +190,8 @@ this
 ;
 }
 _onPropertyChange
+:
+function
 (
 property
 value
@@ -202,6 +208,8 @@ value
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -243,6 +251,8 @@ form
 ;
 }
 getText
+:
+function
 (
 )
 {
@@ -301,6 +311,8 @@ promise
 ;
 }
 getOriginalSources
+:
+function
 (
 )
 {
@@ -424,6 +436,8 @@ FrontClassWithSpec
 styleEditorSpec
 {
 initialize
+:
+function
 (
 client
 tabForm
@@ -458,6 +472,8 @@ this
 ;
 }
 getStyleSheets
+:
+function
 (
 )
 {
@@ -507,6 +523,8 @@ promise
 ;
 }
 addStyleSheet
+:
+function
 (
 text
 )

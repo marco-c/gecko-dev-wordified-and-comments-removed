@@ -76,6 +76,8 @@ element
 )
 }
 render
+:
+function
 (
 )
 {
@@ -143,6 +145,8 @@ PropTypes
 string
 }
 render
+:
+function
 (
 )
 {

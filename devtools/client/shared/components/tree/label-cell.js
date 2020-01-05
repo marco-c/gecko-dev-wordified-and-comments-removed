@@ -72,6 +72,8 @@ object
 isRequired
 }
 render
+:
+function
 (
 )
 {

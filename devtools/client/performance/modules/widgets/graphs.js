@@ -362,6 +362,8 @@ withFixedTooltipPositions
 :
 true
 clearView
+:
+function
 (
 )
 {
@@ -387,6 +389,8 @@ setData
 ;
 }
 setTheme
+:
+function
 (
 theme
 )
@@ -589,6 +593,8 @@ mainColor
 :
 FRAMERATE_GRAPH_COLOR_NAME
 setPerformanceData
+:
+function
 (
 {
 duration
@@ -660,6 +666,8 @@ mainColor
 :
 MEMORY_GRAPH_COLOR_NAME
 setPerformanceData
+:
+function
 (
 {
 duration
@@ -915,6 +923,8 @@ prototype
 =
 {
 get
+:
+function
 (
 graphName
 )
@@ -1104,6 +1114,8 @@ destroy
 }
 )
 setTheme
+:
+function
 (
 options
 =
@@ -1228,6 +1240,8 @@ graph
 }
 )
 enable
+:
+function
 (
 graphName
 isEnabled
@@ -1323,6 +1337,8 @@ null
 ;
 }
 disableAll
+:
+function
 (
 )
 {
@@ -1364,6 +1380,8 @@ false
 ;
 }
 setMappedSelection
+:
+function
 (
 selection
 {
@@ -1390,6 +1408,8 @@ mapEnd
 ;
 }
 getMappedSelection
+:
+function
 (
 {
 mapStart
@@ -1435,6 +1455,8 @@ null
 ;
 }
 getWidgets
+:
+function
 (
 )
 {
@@ -1463,6 +1485,8 @@ name
 ;
 }
 dropSelection
+:
+function
 (
 )
 {
@@ -1687,6 +1711,8 @@ graph
 }
 )
 _getPrimaryLink
+:
+function
 (
 )
 {
@@ -1702,6 +1728,8 @@ _primaryLink
 ;
 }
 _onSelecting
+:
+function
 (
 )
 {
@@ -1983,6 +2011,8 @@ data
 }
 )
 setTheme
+:
+function
 (
 theme
 )

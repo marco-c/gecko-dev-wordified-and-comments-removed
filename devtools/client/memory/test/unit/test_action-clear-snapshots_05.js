@@ -168,6 +168,8 @@ errorHeapWorker
 =
 {
 deleteHeapSnapshot
+:
+function
 (
 )
 {

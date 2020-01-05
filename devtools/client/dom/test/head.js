@@ -230,11 +230,15 @@ resolve
 (
 {
 tab
+:
+tab
 browser
 :
 tab
 .
 linkedBrowser
+panel
+:
 panel
 }
 )

@@ -199,6 +199,8 @@ array
 )
 }
 getInitialState
+:
+function
 (
 )
 {
@@ -230,6 +232,8 @@ tabActive
 ;
 }
 onTabChanged
+:
+function
 (
 index
 )
@@ -247,6 +251,8 @@ index
 ;
 }
 render
+:
+function
 (
 )
 {

@@ -104,6 +104,8 @@ FrontClassWithSpec
 memorySpec
 {
 initialize
+:
+function
 (
 client
 form

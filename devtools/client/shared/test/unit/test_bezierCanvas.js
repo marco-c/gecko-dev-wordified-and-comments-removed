@@ -593,6 +593,8 @@ h
 return
 {
 getContext
+:
+function
 (
 )
 {

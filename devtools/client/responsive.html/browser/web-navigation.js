@@ -251,6 +251,8 @@ spec
 :
 null
 referrerPolicy
+:
+referrerPolicy
 postData
 :
 postData

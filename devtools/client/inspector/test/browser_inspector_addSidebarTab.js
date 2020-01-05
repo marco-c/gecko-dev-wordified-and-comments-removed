@@ -104,6 +104,8 @@ displayName
 myTabPanel
 "
 render
+:
+function
 (
 )
 {
@@ -185,6 +187,8 @@ displayName
 myTabPanel2
 "
 render
+:
+function
 (
 )
 {

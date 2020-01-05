@@ -850,6 +850,8 @@ PREF_DIR
 ;
 }
 exec
+:
+function
 (
 args
 context
@@ -990,6 +992,8 @@ true
 ;
 }
 exec
+:
+function
 (
 args
 context

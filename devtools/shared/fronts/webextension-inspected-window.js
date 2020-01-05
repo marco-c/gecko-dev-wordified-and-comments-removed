@@ -49,6 +49,8 @@ FrontClassWithSpec
 webExtensionInspectedWindowSpec
 {
 initialize
+:
+function
 (
 client
 {

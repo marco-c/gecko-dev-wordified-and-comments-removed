@@ -235,6 +235,8 @@ prototype
 =
 {
 parseCssProperty
+:
+function
 (
 name
 value
@@ -358,6 +360,8 @@ _toDOM
 ;
 }
 _collectFunctionText
+:
+function
 (
 initialToken
 text
@@ -516,6 +520,8 @@ result
 ;
 }
 _parse
+:
+function
 (
 text
 options
@@ -1241,6 +1247,8 @@ result
 ;
 }
 _appendCubicBezier
+:
+function
 (
 bezier
 options
@@ -1339,6 +1347,8 @@ container
 ;
 }
 _appendGrid
+:
+function
 (
 grid
 options
@@ -1422,6 +1432,8 @@ container
 ;
 }
 _appendAngle
+:
+function
 (
 angle
 options
@@ -1591,6 +1603,8 @@ container
 ;
 }
 _cssPropertySupportsValue
+:
+function
 (
 name
 value
@@ -1610,6 +1624,8 @@ doc
 ;
 }
 _isValidColor
+:
+function
 (
 colorObj
 )
@@ -1640,6 +1656,8 @@ transparent
 ;
 }
 _appendColor
+:
+function
 (
 color
 options
@@ -1840,6 +1858,8 @@ color
 }
 }
 _wrapFilter
+:
+function
 (
 filters
 options
@@ -1939,6 +1959,8 @@ container
 ;
 }
 _onColorSwatchMouseDown
+:
+function
 (
 event
 )
@@ -2010,6 +2032,8 @@ val
 ;
 }
 _onAngleSwatchMouseDown
+:
+function
 (
 event
 )
@@ -2081,6 +2105,8 @@ val
 ;
 }
 _sanitizeURL
+:
+function
 (
 url
 )
@@ -2114,6 +2140,8 @@ true
 ;
 }
 _appendURL
+:
+function
 (
 match
 url
@@ -2259,6 +2287,8 @@ options
 .
 urlClass
 href
+:
+href
 }
 body
 )
@@ -2283,6 +2313,8 @@ match
 }
 }
 _createNode
+:
+function
 (
 tagName
 attributes
@@ -2374,6 +2406,8 @@ node
 ;
 }
 _appendNode
+:
+function
 (
 tagName
 attributes
@@ -2406,6 +2440,8 @@ node
 ;
 }
 _appendTextNode
+:
+function
 (
 text
 )
@@ -2470,6 +2506,8 @@ text
 }
 }
 _toDOM
+:
+function
 (
 )
 {
@@ -2545,6 +2583,8 @@ frag
 ;
 }
 _mergeOptions
+:
+function
 (
 overrides
 )

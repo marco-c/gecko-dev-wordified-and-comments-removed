@@ -71,8 +71,10 @@ Div
 div
 >
 '
-*
 validate
+:
+function
+*
 (
 {
 pageNodeFront
@@ -344,8 +346,10 @@ addedAttribute
 div
 >
 "
-*
 validate
+:
+function
+*
 (
 {
 pageNodeFront
@@ -568,8 +572,10 @@ sibling
 div
 >
 '
-*
 validate
+:
+function
+*
 (
 {
 selectedNodeFront

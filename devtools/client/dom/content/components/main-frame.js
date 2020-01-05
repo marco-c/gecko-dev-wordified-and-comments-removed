@@ -132,6 +132,8 @@ func
 isRequired
 }
 render
+:
+function
 (
 )
 {

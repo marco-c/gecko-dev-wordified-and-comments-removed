@@ -155,6 +155,8 @@ PropTypes
 func
 }
 getLength
+:
+function
 (
 grip
 )
@@ -190,6 +192,8 @@ childNodesLength
 ;
 }
 getTitle
+:
+function
 (
 object
 context
@@ -227,6 +231,8 @@ objectLink
 (
 {
 object
+:
+object
 }
 object
 .
@@ -243,6 +249,8 @@ return
 ;
 }
 getPreviewItems
+:
+function
 (
 grip
 )
@@ -278,6 +286,8 @@ null
 ;
 }
 arrayIterator
+:
+function
 (
 grip
 max
@@ -442,6 +452,8 @@ object
 :
 value
 delim
+:
+delim
 }
 )
 )
@@ -472,6 +484,8 @@ props
 object
 :
 exc
+delim
+:
 delim
 }
 )
@@ -775,6 +789,8 @@ className
 arrayLeftBracket
 "
 object
+:
+object
 }
 brackets
 .
@@ -792,6 +808,8 @@ className
 "
 arrayRightBracket
 "
+object
+:
 object
 }
 brackets
@@ -850,6 +868,8 @@ PropTypes
 string
 }
 render
+:
+function
 (
 )
 {
@@ -968,6 +988,8 @@ GripArray
 rep
 :
 GripArray
+supportsObject
+:
 supportsObject
 }
 ;

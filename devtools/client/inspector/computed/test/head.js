@@ -172,6 +172,10 @@ prop
 =
 {
 nameSpan
+:
+nameSpan
+valueSpan
+:
 valueSpan
 }
 ;

@@ -565,6 +565,8 @@ key
 )
 }
 render
+:
+function
 (
 )
 {

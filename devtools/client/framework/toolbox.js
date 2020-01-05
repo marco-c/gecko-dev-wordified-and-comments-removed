@@ -1673,6 +1673,8 @@ lastUsedToolId
 :
 null
 getToolPanels
+:
+function
 (
 )
 {
@@ -1687,6 +1689,8 @@ _toolPanels
 ;
 }
 getPanel
+:
+function
 (
 id
 )
@@ -1703,6 +1707,8 @@ id
 ;
 }
 getPanelWhenReady
+:
+function
 (
 id
 )
@@ -1774,6 +1780,8 @@ promise
 ;
 }
 getCurrentPanel
+:
+function
 (
 )
 {
@@ -1914,6 +1922,8 @@ _splitConsole
 ;
 }
 isSplitConsoleFocused
+:
+function
 (
 )
 {
@@ -1968,6 +1978,8 @@ contentWindow
 ;
 }
 open
+:
+function
 (
 )
 {
@@ -2652,6 +2664,8 @@ controller
 ;
 }
 _getTelemetryHostId
+:
+function
 (
 )
 {
@@ -2710,6 +2724,8 @@ return
 }
 }
 _pingTelemetry
+:
+function
 (
 )
 {
@@ -2786,6 +2802,8 @@ _getTelemetryHostId
 ;
 }
 _createButtonState
+:
+function
 (
 options
 )
@@ -2871,6 +2889,8 @@ button
 ;
 }
 _buildOptions
+:
+function
 (
 )
 {
@@ -2981,6 +3001,8 @@ selectOptions
 ;
 }
 _splitConsoleOnKeypress
+:
+function
 (
 e
 )
@@ -3028,6 +3050,8 @@ preventDefault
 }
 }
 useKeyWithSplitConsole
+:
+function
 (
 key
 handler
@@ -3082,6 +3106,8 @@ preventDefault
 ;
 }
 _addReloadKeys
+:
+function
 (
 )
 {
@@ -3178,6 +3204,8 @@ preventDefault
 ;
 }
 _addHostListeners
+:
+function
 (
 )
 {
@@ -3402,6 +3430,8 @@ true
 ;
 }
 _removeHostListeners
+:
+function
 (
 )
 {
@@ -3474,6 +3504,8 @@ true
 }
 }
 _onBrowserMessage
+:
+function
 (
 event
 )
@@ -3579,6 +3611,8 @@ break
 }
 }
 _registerOverlays
+:
+function
 (
 )
 {
@@ -3589,6 +3623,8 @@ this
 ;
 }
 _saveSplitConsoleHeight
+:
+function
 (
 )
 {
@@ -3608,6 +3644,8 @@ height
 ;
 }
 _refreshConsoleDisplay
+:
+function
 (
 )
 {
@@ -3771,6 +3809,8 @@ true
 }
 }
 _addKeysToWindow
+:
+function
 (
 )
 {
@@ -4112,6 +4152,8 @@ key
 }
 }
 fireCustomKey
+:
+function
 (
 toolId
 )
@@ -4272,6 +4314,8 @@ _notificationBox
 ;
 }
 _buildDockButtons
+:
+function
 (
 )
 {
@@ -4492,6 +4536,8 @@ hostTypes
 ;
 }
 _onBottomHostMinimized
+:
+function
 (
 )
 {
@@ -4508,6 +4554,8 @@ minimized
 ;
 }
 _onBottomHostMaximized
+:
+function
 (
 )
 {
@@ -4524,6 +4572,8 @@ maximized
 ;
 }
 _onToolSelectWhileMinimized
+:
+function
 (
 )
 {
@@ -4544,6 +4594,8 @@ host
 ;
 }
 postMessage
+:
+function
 (
 msg
 )
@@ -4582,6 +4634,8 @@ msg
 }
 }
 _onBottomHostWillChange
+:
+function
 (
 )
 {
@@ -4616,6 +4670,8 @@ _onToolSelectWhileMinimized
 ;
 }
 _toggleMinimizeMode
+:
+function
 (
 )
 {
@@ -4682,6 +4738,8 @@ toolbarHeight
 ;
 }
 _buildTabs
+:
+function
 (
 )
 {
@@ -4794,6 +4852,8 @@ options
 ;
 }
 _mountReactComponent
+:
+function
 (
 )
 {
@@ -4857,6 +4917,8 @@ _componentMount
 ;
 }
 _onToolbarFocus
+:
+function
 (
 id
 )
@@ -4872,6 +4934,8 @@ id
 ;
 }
 _onToolbarArrowKeypress
+:
+function
 (
 event
 )
@@ -5397,6 +5461,8 @@ autohideButton
 }
 )
 _onPickerClick
+:
+function
 (
 )
 {
@@ -5439,6 +5505,8 @@ focus
 ;
 }
 _onPickerKeypress
+:
+function
 (
 event
 )
@@ -5473,6 +5541,8 @@ stopImmediatePropagation
 }
 }
 _onPickerStarted
+:
+function
 (
 )
 {
@@ -5493,6 +5563,8 @@ true
 ;
 }
 _onPickerStopped
+:
+function
 (
 )
 {
@@ -5564,6 +5636,8 @@ pickerButton
 ;
 }
 _applyCacheSettings
+:
+function
 (
 )
 {
@@ -5608,6 +5682,10 @@ activeTab
 reconfigure
 (
 {
+"
+cacheDisabled
+"
+:
 cacheDisabled
 }
 )
@@ -5615,6 +5693,8 @@ cacheDisabled
 }
 }
 _applyServiceWorkersTestingSettings
+:
+function
 (
 )
 {
@@ -5664,6 +5744,10 @@ activeTab
 reconfigure
 (
 {
+"
+serviceWorkersTestingEnabled
+"
+:
 serviceWorkersTestingEnabled
 }
 )
@@ -5671,6 +5755,8 @@ serviceWorkersTestingEnabled
 }
 }
 getToolbarSpec
+:
+function
 (
 )
 {
@@ -5814,6 +5900,8 @@ toolbarButtons
 ;
 }
 _commandIsVisible
+:
+function
 (
 id
 )
@@ -5889,6 +5977,8 @@ visible
 ;
 }
 _buildPanelForTool
+:
+function
 (
 toolDefinition
 )
@@ -6324,6 +6414,8 @@ toolId
 ;
 }
 loadTool
+:
+function
 (
 id
 )
@@ -7002,6 +7094,8 @@ promise
 ;
 }
 setIframeDocumentDir
+:
+function
 (
 iframe
 )
@@ -7109,6 +7203,8 @@ ltr
 }
 }
 selectSingleNode
+:
+function
 (
 collection
 id
@@ -7193,6 +7289,8 @@ selected
 ;
 }
 selectTool
+:
+function
 (
 id
 )
@@ -7527,6 +7625,8 @@ panel
 ;
 }
 focusTool
+:
+function
 (
 id
 state
@@ -7578,6 +7678,8 @@ blur
 }
 }
 focusConsoleInput
+:
+function
 (
 )
 {
@@ -7607,6 +7709,8 @@ focusInput
 }
 }
 _onFocus
+:
+function
 (
 {
 originalTarget
@@ -7658,6 +7762,8 @@ originalTarget
 ;
 }
 openSplitConsole
+:
+function
 (
 )
 {
@@ -7722,6 +7828,8 @@ focusConsoleInput
 ;
 }
 closeSplitConsole
+:
+function
 (
 )
 {
@@ -7783,6 +7891,8 @@ resolve
 ;
 }
 toggleSplitConsole
+:
+function
 (
 )
 {
@@ -7826,6 +7936,8 @@ resolve
 ;
 }
 reloadTarget
+:
+function
 (
 force
 )
@@ -7840,11 +7952,15 @@ reload
 (
 {
 force
+:
+force
 }
 )
 ;
 }
 selectNextTool
+:
+function
 (
 )
 {
@@ -7924,6 +8040,8 @@ id
 ;
 }
 selectPreviousTool
+:
+function
 (
 )
 {
@@ -8083,6 +8201,8 @@ id
 }
 )
 raise
+:
+function
 (
 )
 {
@@ -8103,6 +8223,8 @@ host
 ;
 }
 _refreshHostTitle
+:
+function
 (
 )
 {
@@ -8352,6 +8474,8 @@ DISABLE_AUTOHIDE_PREF
 }
 )
 _listFrames
+:
+function
 (
 event
 )
@@ -8439,6 +8563,8 @@ frames
 ;
 }
 showFramesMenu
+:
+function
 (
 event
 )
@@ -8630,6 +8756,8 @@ menu
 ;
 }
 onSelectFrame
+:
+function
 (
 frameId
 )
@@ -8670,6 +8798,8 @@ packet
 ;
 }
 _updateFrames
+:
+function
 (
 event
 data
@@ -8936,6 +9066,8 @@ false
 }
 }
 switchToPreviousHost
+:
+function
 (
 )
 {
@@ -8951,6 +9083,8 @@ previous
 ;
 }
 switchHost
+:
+function
 (
 hostType
 )
@@ -9031,6 +9165,8 @@ changed
 ;
 }
 _onSwitchedHost
+:
+function
 (
 {
 hostType
@@ -9092,6 +9228,8 @@ _getTelemetryHostId
 ;
 }
 isToolRegistered
+:
+function
 (
 toolId
 )
@@ -9108,6 +9246,8 @@ toolId
 ;
 }
 getToolDefinition
+:
+function
 (
 toolId
 )
@@ -9132,6 +9272,8 @@ toolId
 ;
 }
 unloadTool
+:
+function
 (
 toolId
 )
@@ -9442,6 +9584,8 @@ key
 }
 }
 _toolRegistered
+:
+function
 (
 event
 toolId
@@ -9560,6 +9704,8 @@ toolId
 }
 }
 _toolUnregistered
+:
+function
 (
 event
 toolId
@@ -9586,6 +9732,8 @@ toolId
 ;
 }
 initInspector
+:
+function
 (
 )
 {
@@ -9761,6 +9909,8 @@ _initInspector
 ;
 }
 destroyInspector
+:
+function
 (
 )
 {
@@ -9993,6 +10143,8 @@ _destroyingInspector
 ;
 }
 getNotificationBox
+:
+function
 (
 )
 {
@@ -10003,6 +10155,8 @@ notificationBox
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -10806,6 +10960,8 @@ _destroyer
 ;
 }
 _highlighterReady
+:
+function
 (
 )
 {
@@ -10822,6 +10978,8 @@ ready
 ;
 }
 _highlighterHidden
+:
+function
 (
 )
 {
@@ -10838,6 +10996,8 @@ hide
 ;
 }
 _showDevEditionPromo
+:
+function
 (
 )
 {
@@ -10871,6 +11031,8 @@ deveditionpromo
 ;
 }
 _updateTextBoxMenuItems
+:
+function
 (
 )
 {
@@ -10911,6 +11073,8 @@ goUpdateCommand
 ;
 }
 openTextBoxContextMenu
+:
+function
 (
 x
 y
@@ -11318,6 +11482,8 @@ gViewSourceUtils
 ;
 }
 viewSourceInStyleEditor
+:
+function
 (
 sourceURL
 sourceLine
@@ -11335,6 +11501,8 @@ sourceLine
 ;
 }
 viewSourceInDebugger
+:
+function
 (
 sourceURL
 sourceLine
@@ -11352,6 +11520,8 @@ sourceLine
 ;
 }
 viewSourceInScratchpad
+:
+function
 (
 sourceURL
 sourceLine
@@ -11368,6 +11538,8 @@ sourceLine
 ;
 }
 viewSource
+:
+function
 (
 sourceURL
 sourceLine

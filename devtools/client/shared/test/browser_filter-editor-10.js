@@ -461,6 +461,8 @@ modifier
 :
 true
 preventDefault
+:
+function
 (
 )
 {

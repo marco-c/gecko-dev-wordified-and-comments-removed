@@ -220,6 +220,8 @@ NetMonitorView
 =
 {
 initialize
+:
+function
 (
 )
 {
@@ -310,6 +312,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -373,6 +377,8 @@ _destroyPanes
 ;
 }
 _initializePanes
+:
+function
 (
 )
 {
@@ -532,6 +538,8 @@ collapsed
 ;
 }
 toggleDetailsPane
+:
+function
 (
 flags
 tabIndex
@@ -668,6 +676,8 @@ id
 ;
 }
 toggleFrontendMode
+:
+function
 (
 )
 {
@@ -702,6 +712,8 @@ showNetworkInspectorView
 }
 }
 showNetworkInspectorView
+:
+function
 (
 )
 {
@@ -724,6 +736,8 @@ view
 ;
 }
 showNetworkStatisticsView
+:
+function
 (
 )
 {
@@ -869,6 +883,8 @@ requests
 ;
 }
 reloadPage
+:
+function
 (
 )
 {

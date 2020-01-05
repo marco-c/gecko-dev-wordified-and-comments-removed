@@ -816,6 +816,8 @@ _renderRecordingControls
 }
 )
 _renderRecordingControls
+:
+function
 (
 )
 {
@@ -961,6 +963,8 @@ destroy
 }
 )
 setState
+:
+function
 (
 state
 )
@@ -1207,6 +1211,8 @@ state
 ;
 }
 getState
+:
+function
 (
 )
 {
@@ -1217,6 +1223,8 @@ _state
 ;
 }
 updateBufferStatus
+:
+function
 (
 )
 {
@@ -1383,6 +1391,8 @@ percent
 ;
 }
 _lockRecordButtons
+:
+function
 (
 lock
 )
@@ -1403,6 +1413,8 @@ _renderRecordingControls
 ;
 }
 _toggleRecordButtons
+:
+function
 (
 activate
 )
@@ -1423,6 +1435,8 @@ _renderRecordingControls
 ;
 }
 _onRecordingStateChange
+:
+function
 (
 )
 {
@@ -1567,6 +1581,8 @@ updateBufferStatus
 }
 }
 _onNewRecordingFailed
+:
+function
 (
 e
 )
@@ -1587,6 +1603,8 @@ false
 ;
 }
 _onClearButtonClick
+:
+function
 (
 e
 )
@@ -1602,6 +1620,8 @@ UI_CLEAR_RECORDINGS
 ;
 }
 _onRecordButtonClick
+:
+function
 (
 e
 )
@@ -1653,6 +1673,8 @@ UI_START_RECORDING
 }
 }
 _onImportButtonClick
+:
+function
 (
 e
 )
@@ -1775,6 +1797,8 @@ file
 }
 }
 _onRecordingSelected
+:
+function
 (
 _
 recording
@@ -1859,6 +1883,8 @@ recorded
 }
 }
 _onProfilerStatusUpdated
+:
+function
 (
 _
 profilerStatus

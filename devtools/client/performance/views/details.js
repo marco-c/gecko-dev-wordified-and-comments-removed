@@ -558,6 +558,8 @@ selectDefaultView
 }
 )
 _isViewSupported
+:
+function
 (
 viewName
 )
@@ -770,6 +772,8 @@ viewName
 }
 )
 selectDefaultView
+:
+function
 (
 )
 {
@@ -810,6 +814,8 @@ calltree
 ;
 }
 isViewSelected
+:
+function
 (
 viewObject
 )
@@ -953,6 +959,8 @@ true
 }
 )
 _onRecordingStoppedOrSelected
+:
+function
 (
 _
 state
@@ -993,6 +1001,8 @@ setAvailableViews
 ;
 }
 _onViewToggle
+:
+function
 (
 e
 )

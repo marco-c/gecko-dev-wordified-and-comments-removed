@@ -29,6 +29,8 @@ MarkerBlueprintUtils
 =
 {
 shouldDisplayMarker
+:
+function
 (
 marker
 hiddenMarkerNames
@@ -100,6 +102,8 @@ name
 ;
 }
 getBlueprintFor
+:
+function
 (
 marker
 )
@@ -119,6 +123,8 @@ UNKNOWN
 ;
 }
 getMarkerLabel
+:
+function
 (
 marker
 )
@@ -168,6 +174,8 @@ label
 ;
 }
 getMarkerGenericName
+:
+function
 (
 markerName
 )
@@ -310,6 +318,8 @@ generic
 ;
 }
 getMarkerFields
+:
+function
 (
 marker
 )

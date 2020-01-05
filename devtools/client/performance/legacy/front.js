@@ -269,6 +269,8 @@ false
 }
 }
 initialize
+:
+function
 (
 target
 )
@@ -645,6 +647,8 @@ IS_MOCK
 }
 )
 _registerListeners
+:
+function
 (
 )
 {
@@ -734,6 +738,8 @@ _onProfilerStatus
 ;
 }
 _unregisterListeners
+:
+function
 (
 )
 {
@@ -1101,6 +1107,8 @@ model
 }
 )
 _onProfilerUnexpectedlyStopped
+:
+function
 (
 )
 {
@@ -1119,6 +1127,8 @@ arguments
 ;
 }
 _onTimelineData
+:
+function
 (
 _
 .
@@ -1165,6 +1175,8 @@ data
 ;
 }
 _onProfilerStatus
+:
+function
 (
 _
 data
@@ -1534,6 +1546,8 @@ profilerData
 .
 currentTime
 timelineEndTime
+:
+timelineEndTime
 systemHost
 systemClient
 }
@@ -1558,6 +1572,8 @@ model
 }
 )
 importRecording
+:
+function
 (
 file
 )
@@ -1570,6 +1586,8 @@ file
 ;
 }
 isRecording
+:
+function
 (
 )
 {
@@ -1592,6 +1610,8 @@ isRecording
 ;
 }
 getBufferUsageForRecording
+:
+function
 (
 recording
 )
@@ -1716,6 +1736,8 @@ profilerConfig
 }
 )
 _pipeToFront
+:
+function
 (
 eventName
 .
@@ -1738,6 +1760,8 @@ args
 ;
 }
 _request
+:
+function
 (
 actorName
 method
@@ -1799,6 +1823,8 @@ args
 ;
 }
 setProfilerStatusInterval
+:
+function
 (
 n
 )

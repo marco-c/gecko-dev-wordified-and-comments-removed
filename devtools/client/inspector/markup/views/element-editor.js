@@ -666,6 +666,8 @@ value
 }
 }
 flashAttribute
+:
+function
 (
 attrName
 )
@@ -735,6 +737,8 @@ CONTAINER_FLASHING_DURATION
 ;
 }
 getInfoAtNode
+:
+function
 (
 node
 )
@@ -833,6 +837,8 @@ node
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -1066,6 +1072,8 @@ updateTextEditor
 ;
 }
 updateTextEditor
+:
+function
 (
 )
 {
@@ -1183,6 +1191,8 @@ update
 }
 }
 _startModifyingAttributes
+:
+function
 (
 )
 {
@@ -1197,6 +1207,8 @@ startModifyingAttributes
 ;
 }
 getAttributeElement
+:
+function
 (
 attrName
 )
@@ -1236,6 +1248,8 @@ value
 ;
 }
 removeAttribute
+:
+function
 (
 attrName
 )
@@ -1275,6 +1289,8 @@ remove
 }
 }
 _createAttribute
+:
+function
 (
 attribute
 before
@@ -1479,6 +1495,8 @@ true
 selectAll
 :
 false
+initial
+:
 initial
 multiline
 :
@@ -2101,6 +2119,8 @@ attr
 ;
 }
 _applyAttributes
+:
+function
 (
 value
 attrNode
@@ -2166,6 +2186,8 @@ value
 }
 }
 _saveAttribute
+:
+function
 (
 name
 undoMods
@@ -2219,6 +2241,8 @@ name
 }
 }
 refocusOnEdit
+:
+function
 (
 attrName
 attrNode
@@ -2664,6 +2688,8 @@ onMutations
 ;
 }
 onTagEdit
+:
+function
 (
 newTagName
 isCommit
@@ -2760,6 +2786,8 @@ cancelReselectOnRemoved
 ;
 }
 destroy
+:
+function
 (
 )
 {

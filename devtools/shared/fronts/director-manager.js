@@ -49,6 +49,8 @@ FrontClassWithSpec
 messagePortSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -89,6 +91,8 @@ FrontClassWithSpec
 directorScriptSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -129,6 +133,8 @@ FrontClassWithSpec
 directorManagerSpec
 {
 initialize
+:
+function
 (
 client
 {

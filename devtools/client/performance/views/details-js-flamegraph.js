@@ -237,6 +237,8 @@ destroy
 }
 )
 render
+:
+function
 (
 interval
 =
@@ -422,6 +424,8 @@ UI_JS_FLAMEGRAPH_RENDERED
 ;
 }
 _onRangeChangeInGraph
+:
+function
 (
 )
 {
@@ -457,6 +461,8 @@ true
 ;
 }
 _onRerenderPrefChanged
+:
+function
 (
 )
 {
@@ -497,6 +503,8 @@ thread
 ;
 }
 _onThemeChanged
+:
+function
 (
 _
 theme

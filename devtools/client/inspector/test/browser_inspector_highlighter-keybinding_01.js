@@ -442,6 +442,8 @@ center
 :
 true
 selector
+:
+selector
 }
 )
 ;

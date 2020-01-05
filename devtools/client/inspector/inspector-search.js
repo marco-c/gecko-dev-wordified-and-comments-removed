@@ -290,6 +290,8 @@ walker
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -375,6 +377,8 @@ destroy
 ;
 }
 _onSearch
+:
+function
 (
 reverse
 =
@@ -624,6 +628,8 @@ result
 }
 )
 _onInput
+:
+function
 (
 )
 {
@@ -670,6 +676,8 @@ false
 }
 }
 _onKeyDown
+:
+function
 (
 event
 )
@@ -754,6 +762,8 @@ preventDefault
 }
 }
 _onClearSearch
+:
+function
 (
 )
 {
@@ -1661,6 +1671,8 @@ _state
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1736,6 +1748,8 @@ null
 ;
 }
 _onSearchKeypress
+:
+function
 (
 event
 )
@@ -2004,6 +2018,8 @@ done
 ;
 }
 _onSearchPopupClick
+:
+function
 (
 event
 )
@@ -2053,6 +2069,8 @@ stopPropagation
 ;
 }
 _onMarkupMutation
+:
+function
 (
 )
 {
@@ -2070,6 +2088,8 @@ null
 ;
 }
 _showPopup
+:
+function
 (
 list
 firstPart
@@ -2581,6 +2601,8 @@ hidePopup
 ;
 }
 hidePopup
+:
+function
 (
 )
 {
@@ -2613,6 +2635,8 @@ onPopupClosed
 ;
 }
 showSuggestions
+:
+function
 (
 )
 {

@@ -1251,6 +1251,8 @@ _height
 ;
 }
 ready
+:
+function
 (
 )
 {
@@ -1511,6 +1513,8 @@ overflowChar
 :
 ELLIPSIS
 setData
+:
+function
 (
 {
 data
@@ -1572,6 +1576,8 @@ data
 }
 )
 hasData
+:
+function
 (
 )
 {
@@ -1584,6 +1590,8 @@ _data
 ;
 }
 setOuterBounds
+:
+function
 (
 {
 startTime
@@ -1623,6 +1631,8 @@ true
 ;
 }
 setViewRange
+:
+function
 (
 {
 startTime
@@ -1675,6 +1685,8 @@ true
 ;
 }
 getOuterBounds
+:
+function
 (
 )
 {
@@ -1706,6 +1718,8 @@ _pixelRatio
 ;
 }
 getViewRange
+:
+function
 (
 )
 {
@@ -1746,6 +1760,8 @@ _pixelRatio
 ;
 }
 focus
+:
+function
 (
 )
 {
@@ -1759,6 +1775,8 @@ focus
 ;
 }
 refresh
+:
+function
 (
 options
 =
@@ -1940,6 +1958,8 @@ refresh
 ;
 }
 setTheme
+:
+function
 (
 theme
 )
@@ -2014,6 +2034,8 @@ _shouldRedraw
 :
 false
 _onAnimationFrame
+:
+function
 (
 )
 {
@@ -2040,6 +2062,8 @@ _drawWidget
 ;
 }
 _drawWidget
+:
+function
 (
 )
 {
@@ -2201,6 +2225,8 @@ pyramid
 }
 }
 _keyboardUpdateLoop
+:
+function
 (
 )
 {
@@ -2676,6 +2702,8 @@ selecting
 }
 }
 _drawHeader
+:
+function
 (
 dataOffset
 dataScale
@@ -2743,6 +2771,8 @@ true
 ;
 }
 _drawTicks
+:
+function
 (
 dataOffset
 dataScale
@@ -2982,6 +3012,8 @@ stroke
 ;
 }
 _drawPyramid
+:
+function
 (
 dataSource
 verticalOffset
@@ -3063,6 +3095,8 @@ dataScale
 ;
 }
 _drawPyramidFill
+:
+function
 (
 dataSource
 verticalOffset
@@ -3113,6 +3147,8 @@ visibleBlocksInfoStore
 ;
 }
 _drawPyramidText
+:
+function
 (
 blocksInfo
 verticalOffset
@@ -3145,6 +3181,8 @@ dataScale
 }
 }
 _drawBlocksFill
+:
+function
 (
 color
 blocks
@@ -3349,6 +3387,8 @@ push
 (
 {
 block
+:
+block
 rect
 :
 {
@@ -3370,6 +3410,8 @@ fill
 ;
 }
 _drawBlockText
+:
+function
 (
 block
 rect
@@ -3521,6 +3563,8 @@ _averageCharWidth
 :
 null
 _getTextWidth
+:
+function
 (
 text
 )
@@ -3572,6 +3616,8 @@ width
 ;
 }
 _getTextWidthApprox
+:
+function
 (
 text
 )
@@ -3587,6 +3633,8 @@ _averageCharWidth
 ;
 }
 _calcAverageCharWidth
+:
+function
 (
 )
 {
@@ -3653,6 +3701,8 @@ start
 ;
 }
 _getFittedText
+:
+function
 (
 text
 maxWidth
@@ -3764,6 +3814,8 @@ return
 ;
 }
 _onKeyDown
+:
+function
 (
 e
 )
@@ -3840,6 +3892,8 @@ true
 }
 }
 _onKeyUp
+:
+function
 (
 e
 )
@@ -3889,6 +3943,8 @@ true
 }
 }
 _onKeyPress
+:
+function
 (
 e
 )
@@ -3902,6 +3958,8 @@ e
 ;
 }
 _onMouseMove
+:
+function
 (
 e
 )
@@ -4234,6 +4292,8 @@ vertically
 }
 }
 _onMouseDown
+:
+function
 (
 e
 )
@@ -4337,6 +4397,8 @@ area
 ;
 }
 _onMouseUp
+:
+function
 (
 )
 {
@@ -4393,6 +4455,8 @@ input
 ;
 }
 _onMouseWheel
+:
+function
 (
 e
 )
@@ -4556,6 +4620,8 @@ selecting
 ;
 }
 _normalizeSelectionBounds
+:
+function
 (
 )
 {
@@ -4708,6 +4774,8 @@ selectionEnd
 ;
 }
 _normalizeVerticalOffset
+:
+function
 (
 )
 {
@@ -4727,6 +4795,8 @@ _verticalOffset
 ;
 }
 _findOptimalTickInterval
+:
+function
 (
 dataScale
 )
@@ -4813,6 +4883,8 @@ scaledStep
 }
 }
 _getContainerOffset
+:
+function
 (
 )
 {
@@ -4871,6 +4943,8 @@ y
 ;
 }
 _getRelativeEventCoordinates
+:
+function
 (
 e
 )
@@ -4965,6 +5039,8 @@ mouseY
 ;
 }
 _onResize
+:
+function
 (
 )
 {
@@ -5003,6 +5079,8 @@ WeakMap
 (
 )
 createFlameGraphDataFromThread
+:
+function
 (
 thread
 options
@@ -5717,6 +5795,8 @@ out
 ;
 }
 removeFromCache
+:
+function
 (
 source
 )
@@ -5732,6 +5812,8 @@ source
 ;
 }
 _getStringHash
+:
+function
 (
 input
 )
@@ -5808,6 +5890,8 @@ hash
 ;
 }
 _formatLabel
+:
+function
 (
 key
 frame

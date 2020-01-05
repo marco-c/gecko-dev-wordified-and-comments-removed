@@ -1326,6 +1326,8 @@ prototype
 =
 {
 connect
+:
+function
 (
 onConnected
 )
@@ -1420,6 +1422,8 @@ promise
 ;
 }
 close
+:
+function
 (
 onClosed
 )
@@ -1601,6 +1605,8 @@ promise
 ;
 }
 listTabs
+:
+function
 (
 onResponse
 )
@@ -1617,6 +1623,8 @@ onResponse
 ;
 }
 listAddons
+:
+function
 (
 onResponse
 )
@@ -1633,6 +1641,8 @@ onResponse
 ;
 }
 getTab
+:
+function
 (
 filter
 )
@@ -1649,6 +1659,8 @@ filter
 ;
 }
 attachTab
+:
+function
 (
 tabActor
 onResponse
@@ -1801,6 +1813,8 @@ tabClient
 ;
 }
 attachWorker
+:
+function
 (
 workerActor
 onResponse
@@ -1953,6 +1967,8 @@ workerClient
 ;
 }
 attachAddon
+:
+function
 (
 addonActor
 onResponse
@@ -2039,6 +2055,8 @@ addonClient
 ;
 }
 attachConsole
+:
+function
 (
 consoleActor
 listeners
@@ -2059,6 +2077,8 @@ type
 "
 startListeners
 "
+listeners
+:
 listeners
 }
 ;
@@ -2148,6 +2168,8 @@ consoleClient
 ;
 }
 attachThread
+:
+function
 (
 threadActor
 onResponse
@@ -2286,6 +2308,8 @@ threadClient
 ;
 }
 attachTracer
+:
+function
 (
 traceActor
 onResponse
@@ -2419,6 +2443,8 @@ traceClient
 ;
 }
 getProcess
+:
+function
 (
 id
 )
@@ -2489,6 +2515,8 @@ release
 }
 )
 request
+:
+function
 (
 packet
 onResponse
@@ -2843,6 +2871,8 @@ request
 ;
 }
 startBulkRequest
+:
+function
 (
 request
 )
@@ -3275,6 +3305,8 @@ request
 ;
 }
 expectReply
+:
+function
 (
 actor
 request
@@ -3357,6 +3389,8 @@ request
 ;
 }
 onPacket
+:
+function
 (
 packet
 )
@@ -3841,6 +3875,8 @@ emitReply
 }
 }
 onBulkPacket
+:
+function
 (
 packet
 )
@@ -3951,6 +3987,8 @@ packet
 ;
 }
 onClosed
+:
+function
 (
 )
 {
@@ -4463,6 +4501,8 @@ waitForRequestsToSettle
 ;
 }
 registerClient
+:
+function
 (
 client
 )
@@ -4653,6 +4693,8 @@ client
 ;
 }
 unregisterClient
+:
+function
 (
 client
 )
@@ -4741,6 +4783,8 @@ __pools
 ;
 }
 addActorPool
+:
+function
 (
 pool
 )
@@ -4756,6 +4800,8 @@ pool
 ;
 }
 removeActorPool
+:
+function
 (
 pool
 )
@@ -4771,6 +4817,8 @@ pool
 ;
 }
 getActor
+:
+function
 (
 actorID
 )
@@ -4799,6 +4847,8 @@ null
 ;
 }
 poolFor
+:
+function
 (
 actorID
 )
@@ -4863,6 +4913,8 @@ prototype
 =
 {
 on
+:
+function
 (
 type
 listener
@@ -4879,6 +4931,8 @@ listener
 ;
 }
 off
+:
+function
 (
 type
 listener
@@ -4895,6 +4949,8 @@ listener
 ;
 }
 once
+:
+function
 (
 type
 listener
@@ -4911,6 +4967,8 @@ listener
 ;
 }
 emit
+:
+function
 (
 type
 .
@@ -5068,6 +5126,8 @@ _transport
 ;
 }
 attachThread
+:
+function
 (
 options
 =
@@ -5217,6 +5277,8 @@ detach
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -5242,6 +5304,8 @@ packet
 ;
 }
 after
+:
+function
 (
 response
 )
@@ -5278,6 +5342,8 @@ focus
 }
 )
 reload
+:
+function
 (
 options
 =
@@ -5372,6 +5438,8 @@ listWorkers
 }
 )
 attachWorker
+:
+function
 (
 workerActor
 onResponse
@@ -5564,6 +5632,8 @@ detach
 }
 {
 after
+:
+function
 (
 response
 )
@@ -5603,6 +5673,8 @@ response
 }
 )
 attachThread
+:
+function
 (
 options
 =
@@ -5819,6 +5891,8 @@ null
 ;
 }
 _onClose
+:
+function
 (
 )
 {
@@ -5870,6 +5944,8 @@ true
 ;
 }
 reconfigure
+:
+function
 (
 )
 {
@@ -5978,6 +6054,8 @@ detach
 }
 {
 after
+:
+function
 (
 response
 )
@@ -6144,6 +6222,8 @@ listProcesses
 }
 )
 getTab
+:
+function
 (
 filter
 )
@@ -6525,6 +6605,8 @@ _transport
 ;
 }
 _assertPaused
+:
+function
 (
 command
 )
@@ -6580,6 +6662,8 @@ arg
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -6662,6 +6746,8 @@ packet
 ;
 }
 after
+:
+function
 (
 response
 )
@@ -6746,6 +6832,8 @@ arg
 }
 )
 resume
+:
+function
 (
 onResponse
 )
@@ -6761,6 +6849,8 @@ onResponse
 ;
 }
 resumeThenPause
+:
+function
 (
 onResponse
 )
@@ -6782,6 +6872,8 @@ onResponse
 ;
 }
 stepOver
+:
+function
 (
 onResponse
 )
@@ -6803,6 +6895,8 @@ onResponse
 ;
 }
 stepIn
+:
+function
 (
 onResponse
 )
@@ -6824,6 +6918,8 @@ onResponse
 ;
 }
 stepOut
+:
+function
 (
 onResponse
 )
@@ -6845,6 +6941,8 @@ onResponse
 ;
 }
 interrupt
+:
+function
 (
 onResponse
 )
@@ -6860,6 +6958,8 @@ onResponse
 ;
 }
 breakOnNext
+:
+function
 (
 onResponse
 )
@@ -6897,6 +6997,8 @@ arg
 }
 )
 pauseOnExceptions
+:
+function
 (
 pauseOnExceptions
 ignoreCaughtExceptions
@@ -6975,6 +7077,8 @@ resolve
 ;
 }
 pauseOnDOMEvents
+:
+function
 (
 events
 onResponse
@@ -7079,6 +7183,8 @@ arg
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -7105,6 +7211,8 @@ packet
 ;
 }
 after
+:
+function
 (
 response
 )
@@ -7146,6 +7254,8 @@ detach
 }
 {
 after
+:
+function
 (
 response
 )
@@ -7242,6 +7352,8 @@ sources
 }
 )
 _clearScripts
+:
+function
 (
 )
 {
@@ -7363,6 +7475,8 @@ oldest
 ;
 }
 fillFrames
+:
+function
 (
 total
 callback
@@ -7548,6 +7662,8 @@ true
 ;
 }
 _clearFrames
+:
+function
 (
 )
 {
@@ -7581,6 +7697,8 @@ framescleared
 }
 }
 pauseGrip
+:
+function
 (
 grip
 )
@@ -7635,6 +7753,8 @@ client
 ;
 }
 _longString
+:
+function
 (
 grip
 gripCacheName
@@ -7693,6 +7813,8 @@ client
 ;
 }
 pauseLongString
+:
+function
 (
 grip
 )
@@ -7710,6 +7832,8 @@ _pauseGrips
 ;
 }
 threadLongString
+:
+function
 (
 grip
 )
@@ -7727,6 +7851,8 @@ _threadGrips
 ;
 }
 _clearObjectClients
+:
+function
 (
 gripCacheName
 )
@@ -7765,6 +7891,8 @@ gripCacheName
 ;
 }
 _clearPauseGrips
+:
+function
 (
 )
 {
@@ -7779,6 +7907,8 @@ _pauseGrips
 ;
 }
 _clearThreadGrips
+:
+function
 (
 )
 {
@@ -7793,6 +7923,8 @@ _threadGrips
 ;
 }
 _onThreadState
+:
+function
 (
 packet
 )
@@ -7874,6 +8006,8 @@ packet
 ;
 }
 getLastPausePacket
+:
+function
 (
 )
 {
@@ -7884,6 +8018,8 @@ _lastPausePacket
 ;
 }
 environment
+:
+function
 (
 form
 )
@@ -7900,6 +8036,8 @@ form
 ;
 }
 source
+:
+function
 (
 form
 )
@@ -8109,6 +8247,8 @@ detach
 }
 {
 after
+:
+function
 (
 response
 )
@@ -8155,6 +8295,8 @@ arg
 }
 {
 after
+:
+function
 (
 response
 )
@@ -8231,6 +8373,8 @@ arg
 }
 {
 after
+:
+function
 (
 response
 )
@@ -8389,6 +8533,8 @@ definitionSite
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8445,6 +8591,8 @@ parameterNames
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8536,6 +8684,8 @@ arg
 }
 {
 after
+:
+function
 (
 response
 )
@@ -8585,6 +8735,8 @@ enumEntries
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8643,6 +8795,8 @@ packet
 ;
 }
 after
+:
+function
 (
 response
 )
@@ -8740,6 +8894,8 @@ scope
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8797,6 +8953,8 @@ dependentPromises
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8857,6 +9015,8 @@ allocationStack
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8914,6 +9074,8 @@ fulfillmentStack
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -8974,6 +9136,8 @@ rejectionStack
 }
 {
 before
+:
+function
 (
 packet
 )
@@ -9412,6 +9576,8 @@ blackbox
 }
 {
 after
+:
+function
 (
 response
 )
@@ -9472,6 +9638,8 @@ unblackbox
 }
 {
 after
+:
+function
 (
 response
 )
@@ -9518,6 +9686,8 @@ response
 }
 )
 getExecutableLines
+:
+function
 (
 cb
 =
@@ -9575,6 +9745,8 @@ lines
 ;
 }
 source
+:
+function
 (
 callback
 =
@@ -9629,6 +9801,8 @@ callback
 ;
 }
 prettyPrint
+:
+function
 (
 indent
 callback
@@ -9720,6 +9894,8 @@ callback
 ;
 }
 disablePrettyPrint
+:
+function
 (
 callback
 =
@@ -9809,6 +9985,8 @@ callback
 ;
 }
 _onSourceResponse
+:
+function
 (
 response
 callback
@@ -9917,6 +10095,8 @@ resp
 .
 substring
 contentType
+:
+contentType
 }
 ;
 callback
@@ -9932,6 +10112,8 @@ newResponse
 ;
 }
 setBreakpoint
+:
+function
 (
 {
 line
@@ -10320,6 +10502,8 @@ delete
 }
 )
 hasCondition
+:
+function
 (
 )
 {
@@ -10358,6 +10542,8 @@ this
 ;
 }
 getCondition
+:
+function
 (
 )
 {
@@ -10392,6 +10578,8 @@ conditionalExpression
 ;
 }
 setCondition
+:
+function
 (
 gThreadClient
 condition
@@ -10442,6 +10630,8 @@ this
 location
 .
 column
+condition
+:
 condition
 }
 ;

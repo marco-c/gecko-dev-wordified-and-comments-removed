@@ -73,6 +73,8 @@ callback
 =
 {
 onConsoleAPICall
+:
+function
 (
 message
 )

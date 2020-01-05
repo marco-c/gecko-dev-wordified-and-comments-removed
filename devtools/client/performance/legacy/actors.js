@@ -799,6 +799,8 @@ profilerData
 }
 )
 _onProfilerEvent
+:
+function
 (
 _
 {
@@ -1134,6 +1136,8 @@ destroy
 }
 )
 _onTimelineData
+:
+function
 (
 type
 .

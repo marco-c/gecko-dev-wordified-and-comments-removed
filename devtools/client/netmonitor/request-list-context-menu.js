@@ -232,6 +232,8 @@ items
 ;
 }
 initialize
+:
+function
 (
 store
 )
@@ -1852,6 +1854,8 @@ push
 (
 {
 name
+:
+name
 value
 :
 text
@@ -2200,6 +2204,8 @@ items
 this
 .
 items
+title
+:
 title
 }
 ;

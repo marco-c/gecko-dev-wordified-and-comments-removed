@@ -575,6 +575,8 @@ SELECTED_FRAME
 -
 1
 _loadHistory
+:
+function
 (
 )
 {
@@ -666,6 +668,8 @@ error
 ;
 }
 clearHistory
+:
+function
 (
 )
 {
@@ -695,6 +699,8 @@ storeHistory
 ;
 }
 storeHistory
+:
+function
 (
 )
 {
@@ -800,6 +806,8 @@ COMPLETE_PAGEDOWN
 :
 4
 init
+:
+function
 (
 )
 {
@@ -1164,6 +1172,8 @@ lastInputValue
 ;
 }
 focus
+:
+function
 (
 )
 {
@@ -1193,6 +1203,8 @@ focus
 }
 }
 _executeResultCallback
+:
+function
 (
 callback
 response
@@ -1797,6 +1809,8 @@ actor
 }
 }
 execute
+:
+function
 (
 executeString
 callback
@@ -2045,6 +2059,8 @@ this
 .
 SELECTED_FRAME
 selectedNodeActor
+:
+selectedNodeActor
 }
 ;
 this
@@ -2163,6 +2179,8 @@ promise
 ;
 }
 requestEvaluation
+:
+function
 (
 str
 options
@@ -2249,6 +2267,8 @@ options
 .
 bindObjectActor
 frameActor
+:
+frameActor
 selectedNodeActor
 :
 options
@@ -2279,6 +2299,8 @@ promise
 ;
 }
 getFrameActor
+:
+function
 (
 frame
 )
@@ -2354,6 +2376,8 @@ null
 ;
 }
 openVariablesView
+:
+function
 (
 options
 )
@@ -2404,6 +2428,8 @@ let
 viewOptions
 =
 {
+container
+:
 container
 hideFilterInput
 :
@@ -2665,6 +2691,8 @@ onContainerReady
 ;
 }
 _createSidebar
+:
+function
 (
 )
 {
@@ -2722,6 +2750,8 @@ opened
 ;
 }
 _addVariablesViewSidebarTab
+:
+function
 (
 )
 {
@@ -2875,6 +2905,8 @@ promise
 ;
 }
 _onKeypressInVariablesView
+:
+function
 (
 event
 )
@@ -2967,6 +2999,8 @@ stopPropagation
 ;
 }
 _createVariablesView
+:
+function
 (
 options
 )
@@ -3124,7 +3158,13 @@ actor
 ;
 }
 simpleValueEvalMacro
+:
+simpleValueEvalMacro
 overrideValueEvalMacro
+:
+overrideValueEvalMacro
+getterOrSetterEvalMacro
+:
 getterOrSetterEvalMacro
 }
 )
@@ -3164,6 +3204,8 @@ view
 ;
 }
 _updateVariablesView
+:
+function
 (
 options
 )
@@ -3402,6 +3444,8 @@ options
 ;
 }
 _variablesViewEvaluate
+:
+function
 (
 options
 variableObject
@@ -3479,6 +3523,8 @@ onEval
 ;
 }
 _variablesViewDelete
+:
+function
 (
 options
 variableObject
@@ -3538,6 +3584,8 @@ onEval
 ;
 }
 _variablesViewSwitch
+:
+function
 (
 options
 variableObject
@@ -3669,6 +3717,8 @@ onEval
 ;
 }
 _silentEvalCallback
+:
+function
 (
 callback
 response
@@ -3890,6 +3940,8 @@ response
 ;
 }
 clearOutput
+:
+function
 (
 clearStorage
 )
@@ -4019,6 +4071,8 @@ cleared
 ;
 }
 clearPrivateMessages
+:
+function
 (
 )
 {
@@ -4075,6 +4129,8 @@ cleared
 ;
 }
 resizeInput
+:
+function
 (
 )
 {
@@ -4126,6 +4182,8 @@ px
 }
 }
 setInputValue
+:
+function
 (
 newValue
 )
@@ -4180,6 +4238,8 @@ value
 ;
 }
 getInputValue
+:
+function
 (
 )
 {
@@ -4196,6 +4256,8 @@ value
 ;
 }
 _inputEventHandler
+:
+function
 (
 )
 {
@@ -4247,6 +4309,8 @@ true
 }
 }
 _blurEventHandler
+:
+function
 (
 )
 {
@@ -4266,6 +4330,8 @@ clearCompletion
 }
 }
 _keyPress
+:
+function
 (
 event
 )
@@ -5374,6 +5440,8 @@ break
 }
 }
 _focusEventHandler
+:
+function
 (
 )
 {
@@ -5385,6 +5453,8 @@ false
 ;
 }
 historyPeruse
+:
+function
 (
 direction
 )
@@ -5553,6 +5623,8 @@ true
 ;
 }
 hasMultilineInput
+:
+function
 (
 )
 {
@@ -5577,6 +5649,8 @@ getInputValue
 ;
 }
 canCaretGoPrevious
+:
+function
 (
 )
 {
@@ -5649,6 +5723,8 @@ multiline
 ;
 }
 canCaretGoNext
+:
+function
 (
 )
 {
@@ -5721,6 +5797,8 @@ multiline
 ;
 }
 complete
+:
+function
 (
 type
 callback
@@ -6006,6 +6084,8 @@ itemCount
 ;
 }
 _updateCompletionResult
+:
+function
 (
 type
 callback
@@ -6284,6 +6364,8 @@ lastCompletion
 =
 {
 requestId
+:
+requestId
 completionType
 :
 type
@@ -6320,6 +6402,8 @@ frameActor
 ;
 }
 _receiveAutocompleteProperties
+:
+function
 (
 requestId
 callback
@@ -6766,6 +6850,8 @@ updated
 ;
 }
 onAutocompleteSelect
+:
+function
 (
 )
 {
@@ -6850,6 +6936,8 @@ updateCompleteNode
 }
 }
 clearCompletion
+:
+function
 (
 )
 {
@@ -6905,6 +6993,8 @@ false
 }
 }
 acceptProposedCompletion
+:
+function
 (
 )
 {
@@ -7031,6 +7121,8 @@ updated
 ;
 }
 updateCompleteNode
+:
+function
 (
 suffix
 )
@@ -7074,6 +7166,8 @@ suffix
 ;
 }
 _sidebarDestroy
+:
+function
 (
 )
 {
@@ -7144,6 +7238,8 @@ closed
 ;
 }
 destroy
+:
+function
 (
 )
 {

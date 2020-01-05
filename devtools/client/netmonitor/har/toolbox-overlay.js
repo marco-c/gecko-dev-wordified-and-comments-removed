@@ -118,6 +118,8 @@ prototype
 =
 {
 onInit
+:
+function
 (
 )
 {
@@ -158,6 +160,8 @@ initAutomation
 ;
 }
 onDestroy
+:
+function
 (
 eventId
 toolbox
@@ -171,6 +175,8 @@ destroyAutomation
 ;
 }
 initAutomation
+:
+function
 (
 )
 {
@@ -188,6 +194,8 @@ toolbox
 ;
 }
 destroyAutomation
+:
+function
 (
 )
 {

@@ -382,6 +382,8 @@ update
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -553,11 +555,15 @@ error
 ;
 }
 destroy
+:
+function
 (
 )
 {
 }
 getInfoAtNode
+:
+function
 (
 )
 {

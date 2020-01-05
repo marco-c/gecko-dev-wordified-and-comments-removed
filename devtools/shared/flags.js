@@ -23,6 +23,8 @@ exports
 name
 {
 get
+:
+function
 (
 )
 {
@@ -31,6 +33,8 @@ flag
 ;
 }
 set
+:
+function
 (
 state
 )

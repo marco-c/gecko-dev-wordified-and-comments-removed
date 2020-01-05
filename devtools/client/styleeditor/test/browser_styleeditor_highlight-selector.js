@@ -83,6 +83,8 @@ options
 :
 null
 show
+:
+function
 (
 node
 options
@@ -109,6 +111,8 @@ resolve
 ;
 }
 hide
+:
+function
 (
 )
 {

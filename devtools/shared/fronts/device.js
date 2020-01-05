@@ -73,6 +73,8 @@ FrontClassWithSpec
 deviceSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -109,6 +111,8 @@ this
 ;
 }
 screenshotToBlob
+:
+function
 (
 )
 {

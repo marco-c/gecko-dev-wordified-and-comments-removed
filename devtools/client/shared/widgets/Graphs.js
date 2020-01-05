@@ -959,6 +959,8 @@ _isMouseActive
 ;
 }
 ready
+:
+function
 (
 )
 {
@@ -1254,6 +1256,8 @@ fixedHeight
 :
 null
 buildBackgroundImage
+:
+function
 (
 )
 {
@@ -1262,6 +1266,8 @@ null
 ;
 }
 buildGraphImage
+:
+function
 (
 )
 {
@@ -1290,6 +1296,8 @@ error
 ;
 }
 buildMaskImage
+:
+function
 (
 )
 {
@@ -1304,6 +1312,8 @@ dataScaleY
 :
 1
 setData
+:
+function
 (
 data
 )
@@ -1370,6 +1380,8 @@ data
 }
 )
 setMask
+:
+function
 (
 mask
 .
@@ -1420,6 +1432,8 @@ true
 ;
 }
 setRegions
+:
+function
 (
 regions
 )
@@ -1536,6 +1550,8 @@ true
 ;
 }
 hasData
+:
+function
 (
 )
 {
@@ -1548,6 +1564,8 @@ _data
 ;
 }
 hasMask
+:
+function
 (
 )
 {
@@ -1560,6 +1578,8 @@ _mask
 ;
 }
 hasRegions
+:
+function
 (
 )
 {
@@ -1572,6 +1592,8 @@ _regions
 ;
 }
 setSelection
+:
+function
 (
 selection
 )
@@ -1661,6 +1683,8 @@ selecting
 ;
 }
 getSelection
+:
+function
 (
 )
 {
@@ -1732,6 +1756,8 @@ null
 ;
 }
 setMappedSelection
+:
+function
 (
 selection
 mapping
@@ -1955,6 +1981,8 @@ max
 ;
 }
 getMappedSelection
+:
+function
 (
 mapping
 =
@@ -2170,11 +2198,17 @@ endTime
 return
 {
 min
+:
+min
+max
+:
 max
 }
 ;
 }
 dropSelection
+:
+function
 (
 )
 {
@@ -2232,6 +2266,8 @@ deselecting
 ;
 }
 hasSelection
+:
+function
 (
 )
 {
@@ -2262,6 +2298,8 @@ null
 ;
 }
 hasSelectionInProgress
+:
+function
 (
 )
 {
@@ -2295,6 +2333,8 @@ selectionEnabled
 :
 true
 setCursor
+:
+function
 (
 cursor
 )
@@ -2375,6 +2415,8 @@ true
 ;
 }
 getCursor
+:
+function
 (
 )
 {
@@ -2398,6 +2440,8 @@ y
 ;
 }
 dropCursor
+:
+function
 (
 )
 {
@@ -2438,6 +2482,8 @@ true
 ;
 }
 hasCursor
+:
+function
 (
 )
 {
@@ -2458,6 +2504,8 @@ null
 ;
 }
 isSelectionDifferent
+:
+function
 (
 other
 )
@@ -2503,6 +2551,8 @@ end
 ;
 }
 isCursorDifferent
+:
+function
 (
 other
 )
@@ -2548,6 +2598,8 @@ y
 ;
 }
 getSelectionWidth
+:
+function
 (
 )
 {
@@ -2576,6 +2628,8 @@ end
 ;
 }
 getHoveredRegion
+:
+function
 (
 )
 {
@@ -2661,6 +2715,8 @@ x
 ;
 }
 refresh
+:
+function
 (
 options
 =
@@ -2991,6 +3047,8 @@ refresh
 ;
 }
 _getNamedCanvas
+:
+function
 (
 name
 width
@@ -3100,6 +3158,10 @@ renderTarget
 =
 {
 canvas
+:
+canvas
+ctx
+:
 ctx
 }
 ;
@@ -3121,6 +3183,8 @@ _shouldRedraw
 :
 false
 _onAnimationFrame
+:
+function
 (
 )
 {
@@ -3147,6 +3211,8 @@ _drawWidget
 ;
 }
 _drawWidget
+:
+function
 (
 )
 {
@@ -3347,6 +3413,8 @@ false
 ;
 }
 _drawCliphead
+:
+function
 (
 )
 {
@@ -3432,6 +3500,8 @@ stroke
 ;
 }
 _drawSelection
+:
+function
 (
 )
 {
@@ -3690,6 +3760,8 @@ stroke
 ;
 }
 _bakeRegions
+:
+function
 (
 regions
 destination
@@ -3812,6 +3884,8 @@ height
 }
 }
 _isHoveringStartBoundary
+:
+function
 (
 )
 {
@@ -3878,6 +3952,8 @@ threshold
 ;
 }
 _isHoveringEndBoundary
+:
+function
 (
 )
 {
@@ -3944,6 +4020,8 @@ threshold
 ;
 }
 _isHoveringSelectionContents
+:
+function
 (
 )
 {
@@ -4024,6 +4102,8 @@ x
 ;
 }
 _isHoveringSelectionContentsOrBoundaries
+:
+function
 (
 )
 {
@@ -4050,6 +4130,8 @@ _isHoveringEndBoundary
 ;
 }
 _isHoveringRegion
+:
+function
 (
 )
 {
@@ -4064,6 +4146,8 @@ getHoveredRegion
 ;
 }
 _getRelativeEventCoordinates
+:
+function
 (
 e
 )
@@ -4310,6 +4394,8 @@ mouseY
 ;
 }
 _onMouseMove
+:
+function
 (
 e
 )
@@ -4730,6 +4816,8 @@ true
 ;
 }
 _onMouseDown
+:
+function
 (
 e
 )
@@ -4975,6 +5063,8 @@ mousedown
 ;
 }
 _onMouseUp
+:
+function
 (
 )
 {
@@ -5248,6 +5338,8 @@ mouseup
 ;
 }
 _onMouseWheel
+:
+function
 (
 e
 )
@@ -5596,6 +5688,8 @@ scroll
 ;
 }
 _onMouseOut
+:
+function
 (
 e
 )
@@ -5644,6 +5738,8 @@ true
 }
 }
 _onResize
+:
+function
 (
 )
 {
@@ -6143,6 +6239,8 @@ loop
 }
 )
 linkSelection
+:
+function
 (
 graph1
 graph2
@@ -6287,6 +6385,8 @@ dropSelection
 ;
 }
 _performTaskInWorker
+:
+function
 (
 task
 data

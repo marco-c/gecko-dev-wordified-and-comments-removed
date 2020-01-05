@@ -82,6 +82,10 @@ angleUtils
 =
 {
 CssAngle
+:
+CssAngle
+classifyAngle
+:
 classifyAngle
 }
 ;
@@ -976,6 +980,8 @@ unitStr
 ;
 }
 _getInvalidOrSpecialValue
+:
+function
 (
 )
 {
@@ -1010,6 +1016,8 @@ false
 ;
 }
 newAngle
+:
+function
 (
 angle
 )
@@ -1117,6 +1125,8 @@ this
 ;
 }
 nextAngleUnit
+:
+function
 (
 )
 {
@@ -1222,6 +1232,8 @@ toString
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -1337,6 +1349,8 @@ angle
 ;
 }
 valueOf
+:
+function
 (
 )
 {

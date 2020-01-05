@@ -77,6 +77,8 @@ NetworkHelper
 =
 {
 convertToUnicode
+:
+function
 (
 text
 charset
@@ -140,6 +142,8 @@ text
 }
 }
 readAndConvertFromStream
+:
+function
 (
 stream
 charset
@@ -187,6 +191,8 @@ text
 }
 }
 readPostTextFromRequest
+:
+function
 (
 request
 charset
@@ -300,6 +306,8 @@ null
 ;
 }
 readPostTextFromPage
+:
+function
 (
 docShell
 charset
@@ -328,6 +336,8 @@ charset
 ;
 }
 readPostTextFromPageViaWebNav
+:
+function
 (
 webNav
 charset
@@ -398,6 +408,8 @@ null
 ;
 }
 getAppIdForRequest
+:
+function
 (
 request
 )
@@ -426,6 +438,8 @@ null
 ;
 }
 getTopFrameForRequest
+:
+function
 (
 request
 )
@@ -454,6 +468,8 @@ null
 ;
 }
 getWindowForRequest
+:
+function
 (
 request
 )
@@ -482,6 +498,8 @@ null
 ;
 }
 getRequestLoadContext
+:
+function
 (
 request
 )
@@ -535,6 +553,8 @@ null
 ;
 }
 isTopLevelLoad
+:
+function
 (
 request
 )
@@ -585,6 +605,8 @@ false
 ;
 }
 loadFromCache
+:
+function
 (
 url
 charset
@@ -700,6 +722,8 @@ contentCharset
 ;
 }
 parseCookieHeader
+:
+function
 (
 header
 )
@@ -802,6 +826,8 @@ result
 ;
 }
 parseSetCookieHeader
+:
+function
 (
 header
 )
@@ -911,6 +937,10 @@ cookie
 =
 {
 name
+:
+name
+value
+:
 value
 }
 ;
@@ -1868,6 +1898,8 @@ json
 "
 }
 isTextMimeType
+:
+function
 (
 mimeType
 )
@@ -2004,6 +2036,8 @@ false
 }
 }
 parseSecurityInfo
+:
+function
 (
 securityInfo
 httpActivity
@@ -2450,6 +2484,8 @@ info
 ;
 }
 parseCertificateInfo
+:
+function
 (
 cert
 )
@@ -2575,6 +2611,8 @@ info
 ;
 }
 formatSecurityProtocol
+:
+function
 (
 version
 )
@@ -2670,6 +2708,8 @@ Unknown
 }
 }
 getReasonsForWeakness
+:
+function
 (
 state
 )
@@ -2758,6 +2798,8 @@ reasons
 ;
 }
 parseQueryString
+:
+function
 (
 queryString
 )
@@ -2871,6 +2913,8 @@ paramsArray
 ;
 }
 nsIURL
+:
+function
 (
 url
 store

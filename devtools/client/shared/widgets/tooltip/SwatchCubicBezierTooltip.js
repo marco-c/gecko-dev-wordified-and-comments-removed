@@ -187,6 +187,8 @@ SwatchBasedEditorTooltip
 prototype
 {
 setCubicBezierContent
+:
+function
 (
 bezier
 )
@@ -389,6 +391,8 @@ ready
 }
 )
 _onUpdate
+:
+function
 (
 event
 bezier
@@ -428,6 +432,8 @@ bezier
 ;
 }
 destroy
+:
+function
 (
 )
 {

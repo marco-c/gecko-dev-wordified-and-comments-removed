@@ -232,6 +232,8 @@ hidden
 ;
 }
 empty
+:
+function
 (
 )
 {
@@ -246,6 +248,8 @@ innerHTML
 ;
 }
 render
+:
+function
 (
 options
 )
@@ -450,6 +454,8 @@ el
 ;
 }
 _onClick
+:
+function
 (
 e
 )
@@ -488,6 +494,8 @@ data
 ;
 }
 _onSplitterMouseUp
+:
+function
 (
 )
 {

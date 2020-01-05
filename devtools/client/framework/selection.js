@@ -86,6 +86,8 @@ _walker
 :
 null
 _onMutations
+:
+function
 (
 mutations
 )
@@ -257,6 +259,8 @@ parentNode
 }
 }
 destroy
+:
+function
 (
 )
 {
@@ -269,6 +273,8 @@ null
 ;
 }
 setWalker
+:
+function
 (
 walker
 )
@@ -325,6 +331,8 @@ _onMutations
 }
 }
 setNodeFront
+:
+function
 (
 value
 reason
@@ -428,6 +436,8 @@ _nodeFront
 ;
 }
 isRoot
+:
+function
 (
 )
 {
@@ -454,6 +464,8 @@ isDocumentElement
 ;
 }
 isNode
+:
+function
 (
 )
 {
@@ -466,6 +478,8 @@ _nodeFront
 ;
 }
 isConnected
+:
+function
 (
 )
 {
@@ -528,6 +542,8 @@ false
 ;
 }
 isHTMLNode
+:
+function
 (
 )
 {
@@ -569,6 +585,8 @@ xhtmlNs
 ;
 }
 isElementNode
+:
+function
 (
 )
 {
@@ -593,6 +611,8 @@ ELEMENT_NODE
 ;
 }
 isPseudoElementNode
+:
+function
 (
 )
 {
@@ -612,6 +632,8 @@ isPseudoElement
 ;
 }
 isAnonymousNode
+:
+function
 (
 )
 {
@@ -631,6 +653,8 @@ isAnonymous
 ;
 }
 isAttributeNode
+:
+function
 (
 )
 {
@@ -655,6 +679,8 @@ ATTRIBUTE_NODE
 ;
 }
 isTextNode
+:
+function
 (
 )
 {
@@ -679,6 +705,8 @@ TEXT_NODE
 ;
 }
 isCDATANode
+:
+function
 (
 )
 {
@@ -703,6 +731,8 @@ CDATA_SECTION_NODE
 ;
 }
 isEntityRefNode
+:
+function
 (
 )
 {
@@ -727,6 +757,8 @@ ENTITY_REFERENCE_NODE
 ;
 }
 isEntityNode
+:
+function
 (
 )
 {
@@ -751,6 +783,8 @@ ENTITY_NODE
 ;
 }
 isProcessingInstructionNode
+:
+function
 (
 )
 {
@@ -775,6 +809,8 @@ PROCESSING_INSTRUCTION_NODE
 ;
 }
 isCommentNode
+:
+function
 (
 )
 {
@@ -799,6 +835,8 @@ PROCESSING_INSTRUCTION_NODE
 ;
 }
 isDocumentNode
+:
+function
 (
 )
 {
@@ -823,6 +861,8 @@ DOCUMENT_NODE
 ;
 }
 isBodyNode
+:
+function
 (
 )
 {
@@ -855,6 +895,8 @@ BODY
 ;
 }
 isHeadNode
+:
+function
 (
 )
 {
@@ -887,6 +929,8 @@ HEAD
 ;
 }
 isDocumentTypeNode
+:
+function
 (
 )
 {
@@ -911,6 +955,8 @@ DOCUMENT_TYPE_NODE
 ;
 }
 isDocumentFragmentNode
+:
+function
 (
 )
 {
@@ -935,6 +981,8 @@ DOCUMENT_FRAGMENT_NODE
 ;
 }
 isNotationNode
+:
+function
 (
 )
 {

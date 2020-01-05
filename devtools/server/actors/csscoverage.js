@@ -214,6 +214,8 @@ csscoverage
 properties
 "
 lookup
+:
+function
 (
 msg
 )
@@ -267,6 +269,8 @@ ActorClassWithSpec
 cssUsageSpec
 {
 initialize
+:
+function
 (
 conn
 tabActor
@@ -342,6 +346,8 @@ NOTIFY_STATE_ALL
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -376,6 +382,8 @@ this
 ;
 }
 start
+:
+function
 (
 noreload
 )
@@ -645,6 +653,8 @@ true
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -716,6 +726,8 @@ false
 ;
 }
 toggle
+:
+function
 (
 )
 {
@@ -738,6 +750,8 @@ start
 ;
 }
 oneshot
+:
+function
 (
 )
 {
@@ -816,6 +830,8 @@ false
 ;
 }
 _onTabLoad
+:
+function
 (
 document
 )
@@ -844,6 +860,8 @@ document
 ;
 }
 _observeMutations
+:
+function
 (
 document
 )
@@ -900,6 +918,8 @@ true
 ;
 }
 _onChange
+:
+function
 (
 document
 )
@@ -933,6 +953,8 @@ false
 ;
 }
 _populateKnownRules
+:
+function
 (
 document
 )
@@ -1057,6 +1079,8 @@ url
 }
 }
 _updateUsage
+:
+function
 (
 document
 isLoad
@@ -1225,6 +1249,8 @@ true
 }
 }
 createEditorReport
+:
+function
 (
 url
 )
@@ -1311,6 +1337,10 @@ start
 :
 {
 line
+:
+line
+column
+:
 column
 }
 }
@@ -1342,10 +1372,14 @@ ruleReport
 return
 {
 reports
+:
+reports
 }
 ;
 }
 createEditorReportForSheet
+:
+function
 (
 stylesheetActor
 )
@@ -1370,6 +1404,8 @@ url
 ;
 }
 createPageReport
+:
+function
 (
 )
 {
@@ -1648,6 +1684,8 @@ push
 (
 {
 url
+:
+url
 shortUrl
 :
 url
@@ -1664,6 +1702,8 @@ slice
 -
 1
 )
+rules
+:
 rules
 }
 )
@@ -1689,6 +1729,8 @@ let
 page
 =
 {
+url
+:
 url
 shortUrl
 :
@@ -1803,12 +1845,20 @@ page
 return
 {
 summary
+:
+summary
 preload
+:
+preload
+unused
+:
 unused
 }
 ;
 }
 _testOnlyVisitedPages
+:
+function
 (
 )
 {
@@ -2244,6 +2294,8 @@ split
 ;
 return
 {
+url
+:
 url
 line
 :

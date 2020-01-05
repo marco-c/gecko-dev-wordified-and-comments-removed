@@ -82,6 +82,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 tabActor
 )
@@ -94,11 +96,15 @@ tabActor
 ;
 }
 destroy
+:
+function
 (
 )
 {
 }
 resetCounts
+:
+function
 (
 )
 {
@@ -142,6 +148,8 @@ now
 ;
 }
 getCounts
+:
+function
 (
 )
 {
@@ -200,6 +208,8 @@ result
 ;
 }
 handleDrawPrimitive
+:
+function
 (
 functionCall
 )
@@ -251,6 +261,8 @@ args
 }
 }
 _processDrawArrays
+:
+function
 (
 args
 )
@@ -466,6 +478,8 @@ break
 }
 }
 _processDrawElements
+:
+function
 (
 args
 )

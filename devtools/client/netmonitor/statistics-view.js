@@ -173,6 +173,8 @@ prototype
 =
 {
 initialize
+:
+function
 (
 store
 )
@@ -291,6 +293,8 @@ _backButton
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -305,6 +309,8 @@ _backButton
 ;
 }
 displayPlaceholderCharts
+:
+function
 (
 )
 {
@@ -369,6 +375,8 @@ PLACEHOLDER_CHARTS_DISPLAYED
 ;
 }
 createPrimedCacheChart
+:
+function
 (
 items
 )
@@ -430,6 +438,8 @@ PRIMED_CACHE_CHART_DISPLAYED
 ;
 }
 createEmptyCacheChart
+:
+function
 (
 items
 )
@@ -691,6 +701,8 @@ total
 }
 }
 _createChart
+:
+function
 (
 {
 id
@@ -750,8 +762,16 @@ getStr
 title
 )
 data
+:
+data
+strings
+:
 strings
 totals
+:
+totals
+sorted
+:
 sorted
 }
 )
@@ -814,6 +834,8 @@ node
 ;
 }
 _sanitizeChartDataSource
+:
+function
 (
 items
 emptyCache

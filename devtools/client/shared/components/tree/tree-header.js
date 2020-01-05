@@ -82,6 +82,8 @@ PropTypes
 array
 }
 getDefaultProps
+:
+function
 (
 )
 {
@@ -102,6 +104,8 @@ default
 ;
 }
 getHeaderClass
+:
+function
 (
 colId
 )
@@ -176,6 +180,8 @@ classNames
 ;
 }
 render
+:
+function
 (
 )
 {

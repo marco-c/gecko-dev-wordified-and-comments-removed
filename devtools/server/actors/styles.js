@@ -368,6 +368,8 @@ ActorClassWithSpec
 pageStyleSpec
 {
 initialize
+:
+function
 (
 inspector
 )
@@ -552,6 +554,8 @@ Set
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -695,6 +699,8 @@ conn
 ;
 }
 form
+:
+function
 (
 detail
 )
@@ -737,6 +743,8 @@ true
 ;
 }
 _styleApplied
+:
+function
 (
 kind
 styleSheet
@@ -775,6 +783,8 @@ styleSheet
 }
 }
 _styleRef
+:
+function
 (
 item
 )
@@ -833,6 +843,8 @@ actor
 ;
 }
 updateStyleRef
+:
+function
 (
 oldItem
 item
@@ -860,6 +872,8 @@ actor
 ;
 }
 _sheetRef
+:
+function
 (
 sheet
 )
@@ -888,6 +902,8 @@ actor
 ;
 }
 getComputed
+:
+function
 (
 node
 options
@@ -1070,6 +1086,8 @@ ret
 ;
 }
 getAllUsedFontFaces
+:
+function
 (
 options
 )
@@ -1128,6 +1146,8 @@ fontsList
 ;
 }
 getUsedFontFaces
+:
+function
 (
 node
 options
@@ -1460,6 +1480,8 @@ conn
 dataURL
 )
 size
+:
+size
 }
 ;
 }
@@ -1607,6 +1629,8 @@ fontsArray
 ;
 }
 getMatchedSelectors
+:
+function
 (
 node
 property
@@ -1729,6 +1753,8 @@ push
 (
 {
 rule
+:
+rule
 sourceText
 :
 this
@@ -1777,6 +1803,8 @@ sheets
 return
 {
 matched
+:
+matched
 rules
 :
 [
@@ -1797,6 +1825,8 @@ sheets
 ;
 }
 getSelectorSource
+:
+function
 (
 selectorInfo
 relativeTo
@@ -1971,6 +2001,8 @@ result
 }
 )
 _hasInheritedProps
+:
+function
 (
 style
 )
@@ -2091,6 +2123,8 @@ bottom
 }
 )
 _getAllElementRules
+:
+function
 (
 node
 inherited
@@ -2297,6 +2331,8 @@ rules
 ;
 }
 _getElementRules
+:
+function
 (
 node
 pseudo
@@ -2457,6 +2493,10 @@ rule
 :
 ruleActor
 inherited
+:
+inherited
+isSystem
+:
 isSystem
 pseudoElement
 :
@@ -2470,6 +2510,8 @@ rules
 ;
 }
 findEntryMatchingRule
+:
+function
 (
 node
 filterRule
@@ -2573,6 +2615,8 @@ filterRule
 ;
 }
 getAppliedProps
+:
+function
 (
 node
 entries
@@ -2938,6 +2982,8 @@ sheets
 return
 {
 entries
+:
+entries
 rules
 :
 [
@@ -2958,6 +3004,8 @@ sheets
 ;
 }
 expandSets
+:
+function
 (
 ruleSet
 sheetSet
@@ -3112,6 +3160,8 @@ parent
 }
 }
 getLayout
+:
+function
 (
 node
 options
@@ -3363,6 +3413,8 @@ layout
 ;
 }
 processMargins
+:
+function
 (
 cssLogic
 )
@@ -3457,6 +3509,8 @@ margins
 ;
 }
 onFrameUnload
+:
+function
 (
 )
 {
@@ -3471,6 +3525,8 @@ WeakMap
 ;
 }
 onStyleSheetAdded
+:
+function
 (
 actor
 )
@@ -3514,6 +3570,8 @@ _styleApplied
 }
 }
 getStyleElement
+:
+function
 (
 document
 )
@@ -3590,6 +3648,8 @@ document
 ;
 }
 getNewAppliedProps
+:
+function
 (
 node
 rule
@@ -3901,6 +3961,8 @@ ActorClassWithSpec
 styleRuleSpec
 {
 initialize
+:
+function
 (
 pageStyle
 item
@@ -4115,6 +4177,8 @@ item
 .
 style
 toString
+:
+function
 (
 )
 {
@@ -4152,6 +4216,8 @@ conn
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -4286,6 +4352,8 @@ PreferenceStyleSheet
 ;
 }
 getDocument
+:
+function
 (
 sheet
 )
@@ -4327,6 +4395,8 @@ document
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -4347,6 +4417,8 @@ rawRule
 ;
 }
 form
+:
+function
 (
 detail
 )
@@ -4823,6 +4895,8 @@ form
 ;
 }
 _notifyLocationChanged
+:
+function
 (
 line
 column
@@ -4844,6 +4918,8 @@ column
 ;
 }
 _computeRuleIndex
+:
+function
 (
 )
 {
@@ -4977,6 +5053,8 @@ result
 ;
 }
 _getRuleFromIndex
+:
+function
 (
 parentSheet
 )
@@ -5035,6 +5113,8 @@ currentRule
 ;
 }
 _onStyleApplied
+:
+function
 (
 kind
 )
@@ -5182,6 +5262,8 @@ column
 }
 }
 getAuthoredCssText
+:
+function
 (
 )
 {
@@ -5473,6 +5555,8 @@ this
 }
 )
 modifyProperties
+:
+function
 (
 modifications
 )
@@ -6031,6 +6115,8 @@ false
 }
 )
 modifySelector2
+:
+function
 (
 node
 value
@@ -6466,6 +6552,8 @@ png
 ;
 return
 {
+dataURL
+:
 dataURL
 size
 :
@@ -7077,6 +7165,8 @@ column
 ;
 return
 {
+offset
+:
 offset
 text
 :

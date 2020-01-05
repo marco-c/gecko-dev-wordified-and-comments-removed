@@ -111,6 +111,8 @@ prototype
 =
 {
 init
+:
+function
 (
 )
 {
@@ -321,6 +323,8 @@ update
 ;
 }
 isActive
+:
+function
 (
 )
 {
@@ -349,6 +353,8 @@ fontinspector
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -471,6 +477,8 @@ _previewUpdateTimeout
 }
 }
 onNewNode
+:
+function
 (
 )
 {
@@ -529,6 +537,8 @@ dim
 }
 }
 getPreviewText
+:
+function
 (
 )
 {
@@ -564,6 +574,8 @@ inputText
 ;
 }
 previewTextChanged
+:
+function
 (
 )
 {
@@ -608,6 +620,8 @@ PREVIEW_UPDATE_DELAY
 ;
 }
 onThemeChanged
+:
+function
 (
 event
 frame
@@ -638,6 +652,8 @@ _lastUpdateShowedAllFonts
 }
 }
 dim
+:
+function
 (
 )
 {
@@ -678,6 +694,8 @@ clear
 ;
 }
 undim
+:
+function
 (
 )
 {
@@ -712,6 +730,8 @@ dim
 ;
 }
 clear
+:
+function
 (
 )
 {
@@ -1011,6 +1031,8 @@ updated
 }
 )
 render
+:
+function
 (
 font
 )
@@ -1266,6 +1288,8 @@ s
 ;
 }
 showAll
+:
+function
 (
 )
 {

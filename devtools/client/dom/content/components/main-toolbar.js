@@ -184,6 +184,8 @@ func
 isRequired
 }
 onRefresh
+:
+function
 (
 )
 {
@@ -205,6 +207,8 @@ object
 ;
 }
 onSearch
+:
+function
 (
 value
 )
@@ -223,6 +227,8 @@ value
 ;
 }
 render
+:
+function
 (
 )
 {

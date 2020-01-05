@@ -1600,6 +1600,8 @@ false
 }
 )
 getNodeInfo
+:
+function
 (
 node
 )
@@ -2074,6 +2076,8 @@ value
 ;
 }
 _getRuleEditorForNode
+:
+function
 (
 node
 )
@@ -2102,6 +2106,8 @@ _ruleEditor
 ;
 }
 _onContextMenu
+:
+function
 (
 event
 )
@@ -2117,6 +2123,8 @@ event
 ;
 }
 _onCopy
+:
+function
 (
 event
 )
@@ -2144,6 +2152,8 @@ preventDefault
 }
 }
 copySelection
+:
+function
 (
 target
 )
@@ -2301,6 +2311,8 @@ e
 }
 }
 _onAddNewRuleNonAuthored
+:
+function
 (
 )
 {
@@ -2473,6 +2485,8 @@ _changed
 ;
 }
 _onAddRule
+:
+function
 (
 )
 {
@@ -2643,6 +2657,8 @@ break
 ;
 }
 refreshAddRuleButtonState
+:
+function
 (
 )
 {
@@ -2687,6 +2703,8 @@ shouldBeDisabled
 ;
 }
 setPageStyle
+:
+function
 (
 pageStyle
 )
@@ -2731,6 +2749,8 @@ length
 ;
 }
 _handlePrefChange
+:
+function
 (
 pref
 )
@@ -2792,6 +2812,8 @@ true
 }
 }
 _onSourcePrefChanged
+:
+function
 (
 )
 {
@@ -2858,6 +2880,8 @@ updated
 }
 }
 setFilterStyles
+:
+function
 (
 value
 =
@@ -2889,6 +2913,8 @@ _onFilterStyles
 ;
 }
 _onFilterStyles
+:
+function
 (
 )
 {
@@ -3313,6 +3339,8 @@ filterTimeout
 ;
 }
 _onClearSearch
+:
+function
 (
 )
 {
@@ -3342,6 +3370,8 @@ false
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -3717,6 +3747,8 @@ destroy
 ;
 }
 _startSelectingElement
+:
+function
 (
 )
 {
@@ -3737,6 +3769,8 @@ interactive
 ;
 }
 _stopSelectingElement
+:
+function
 (
 )
 {
@@ -3757,6 +3791,8 @@ interactive
 ;
 }
 selectElement
+:
+function
 (
 element
 allowRefresh
@@ -4109,6 +4145,8 @@ e
 ;
 }
 refreshPanel
+:
+function
 (
 )
 {
@@ -4197,6 +4235,8 @@ _populate
 ;
 }
 clearPseudoClassPanel
+:
+function
 (
 )
 {
@@ -4244,6 +4284,8 @@ false
 ;
 }
 refreshPseudoClassPanel
+:
+function
 (
 )
 {
@@ -4371,6 +4413,8 @@ break
 }
 }
 _populate
+:
+function
 (
 )
 {
@@ -4482,6 +4526,8 @@ promiseWarn
 ;
 }
 _showEmpty
+:
+function
 (
 )
 {
@@ -4539,6 +4585,8 @@ empty
 ;
 }
 _clearRules
+:
+function
 (
 )
 {
@@ -4553,6 +4601,8 @@ innerHTML
 ;
 }
 clear
+:
+function
 (
 clearDom
 =
@@ -4607,6 +4657,8 @@ null
 }
 }
 _changed
+:
+function
 (
 )
 {
@@ -4739,6 +4791,8 @@ _showPseudoElements
 ;
 }
 createExpandableContainer
+:
+function
 (
 label
 isPseudo
@@ -4963,6 +5017,8 @@ container
 ;
 }
 _toggleContainerVisibility
+:
+function
 (
 twisty
 container
@@ -5074,6 +5130,8 @@ true
 }
 }
 _getRuleViewHeaderClassName
+:
+function
 (
 isPseudo
 )
@@ -5107,6 +5165,8 @@ baseClassName
 ;
 }
 _createEditors
+:
+function
 (
 )
 {
@@ -5574,6 +5634,8 @@ editorReadyPromises
 ;
 }
 highlightRule
+:
+function
 (
 rule
 )
@@ -5645,6 +5707,8 @@ isHighlighted
 ;
 }
 _highlightRuleSelector
+:
+function
 (
 rule
 )
@@ -5801,6 +5865,8 @@ isSelectorHighlighted
 ;
 }
 _highlightStyleSheet
+:
+function
 (
 rule
 )
@@ -5872,6 +5938,8 @@ isStyleSheetHighlighted
 ;
 }
 _highlightProperty
+:
+function
 (
 editor
 )
@@ -5935,6 +6003,8 @@ isComputedHighlighted
 ;
 }
 _updatePropertyHighlight
+:
+function
 (
 editor
 )
@@ -5999,6 +6069,8 @@ match
 }
 }
 _highlightRuleProperty
+:
+function
 (
 editor
 )
@@ -6043,6 +6115,8 @@ propertyValue
 ;
 }
 _highlightComputedProperty
+:
+function
 (
 editor
 )
@@ -6123,6 +6197,8 @@ isComputedHighlighted
 ;
 }
 _highlightMatches
+:
+function
 (
 element
 propertyName
@@ -6264,6 +6340,8 @@ matches
 ;
 }
 _clearHighlight
+:
+function
 (
 element
 )
@@ -6336,6 +6414,8 @@ collapseForFilter
 }
 }
 _onTogglePseudoClassPanel
+:
+function
 (
 )
 {
@@ -6479,6 +6559,8 @@ hidden
 ;
 }
 _onTogglePseudoClass
+:
+function
 (
 event
 )
@@ -6503,6 +6585,8 @@ value
 ;
 }
 _onShortcut
+:
+function
 (
 name
 event
@@ -7215,6 +7299,8 @@ prototype
 =
 {
 isSidebarActive
+:
+function
 (
 )
 {
@@ -7248,6 +7334,8 @@ ruleview
 ;
 }
 onSelected
+:
+function
 (
 event
 )
@@ -7399,6 +7487,8 @@ done
 }
 }
 refresh
+:
+function
 (
 )
 {
@@ -7422,6 +7512,8 @@ refreshPanel
 }
 }
 clearUserProperties
+:
+function
 (
 )
 {
@@ -7463,6 +7555,8 @@ clear
 }
 }
 onPanelSelected
+:
+function
 (
 )
 {
@@ -7503,6 +7597,8 @@ onSelected
 }
 }
 onLinkClicked
+:
+function
 (
 e
 rule
@@ -7681,6 +7777,8 @@ column
 ;
 }
 onPropertyChanged
+:
+function
 (
 )
 {
@@ -7694,6 +7792,8 @@ markDirty
 ;
 }
 onViewRefreshed
+:
+function
 (
 )
 {
@@ -7714,6 +7814,8 @@ refreshed
 ;
 }
 onMutations
+:
+function
 (
 mutations
 )
@@ -7765,6 +7867,8 @@ break
 }
 }
 onResized
+:
+function
 (
 )
 {
@@ -7776,6 +7880,8 @@ refresh
 ;
 }
 destroy
+:
+function
 (
 )
 {

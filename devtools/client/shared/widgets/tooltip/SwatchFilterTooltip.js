@@ -177,6 +177,8 @@ SwatchBasedEditorTooltip
 prototype
 {
 setFilterContent
+:
+function
 (
 filter
 )
@@ -344,6 +346,8 @@ ready
 }
 )
 _onUpdate
+:
+function
 (
 event
 filters
@@ -415,6 +419,8 @@ preview
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -459,6 +465,8 @@ destroy
 ;
 }
 addSwatch
+:
+function
 (
 swatchEl
 callbacks

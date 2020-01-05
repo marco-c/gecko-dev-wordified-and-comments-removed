@@ -246,6 +246,8 @@ dampenValuesFactor
 :
 GRAPH_DAMPEN_VALUES_FACTOR
 buildBackgroundImage
+:
+function
 (
 )
 {
@@ -305,6 +307,8 @@ canvas
 ;
 }
 buildGraphImage
+:
+function
 (
 )
 {

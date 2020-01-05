@@ -1151,6 +1151,8 @@ rootCalls
 ;
 }
 getInfo
+:
+function
 (
 options
 )
@@ -1166,6 +1168,8 @@ options
 ;
 }
 hasOptimizations
+:
+function
 (
 )
 {
@@ -1293,6 +1297,8 @@ prototype
 =
 {
 _addOptimizations
+:
+function
 (
 site
 implementation
@@ -1368,6 +1374,8 @@ time
 ;
 }
 _clone
+:
+function
 (
 samples
 size
@@ -1402,6 +1410,8 @@ newNode
 ;
 }
 _merge
+:
+function
 (
 otherNode
 samples
@@ -1631,6 +1641,8 @@ time
 }
 }
 getInfo
+:
+function
 (
 options
 )
@@ -1646,6 +1658,8 @@ options
 ;
 }
 hasOptimizations
+:
+function
 (
 )
 {
@@ -1664,6 +1678,8 @@ _optimizations
 ;
 }
 getOptimizations
+:
+function
 (
 )
 {
@@ -1693,6 +1709,8 @@ _stringTable
 ;
 }
 getTierData
+:
+function
 (
 )
 {

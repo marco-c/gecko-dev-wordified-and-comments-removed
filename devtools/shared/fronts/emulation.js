@@ -46,6 +46,8 @@ FrontClassWithSpec
 emulationSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -80,6 +82,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {

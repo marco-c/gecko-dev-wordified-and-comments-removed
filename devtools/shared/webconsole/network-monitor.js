@@ -1382,6 +1382,8 @@ request
 :
 null
 setAsyncListener
+:
+function
 (
 stream
 listener
@@ -1403,6 +1405,8 @@ mainThread
 ;
 }
 onDataAvailable
+:
+function
 (
 request
 context
@@ -1472,6 +1476,8 @@ contentCharset
 }
 }
 onStartRequest
+:
+function
 (
 request
 )
@@ -1793,6 +1799,8 @@ info
 }
 )
 onStopRequest
+:
+function
 (
 )
 {
@@ -1814,6 +1822,8 @@ close
 ;
 }
 onProgress
+:
+function
 (
 request
 context
@@ -1842,6 +1852,8 @@ arguments
 ;
 }
 onStatus
+:
+function
 (
 )
 {
@@ -1860,6 +1872,8 @@ arguments
 ;
 }
 _findOpenResponse
+:
+function
 (
 )
 {
@@ -1986,6 +2000,8 @@ cookies
 ;
 }
 onStreamClose
+:
+function
 (
 )
 {
@@ -2114,6 +2130,8 @@ _onComplete
 }
 }
 _onComplete
+:
+function
 (
 data
 )
@@ -2317,6 +2335,8 @@ null
 ;
 }
 onInputStreamReady
+:
+function
 (
 stream
 )
@@ -2670,6 +2690,8 @@ openResponses
 :
 null
 init
+:
+function
 (
 )
 {
@@ -2845,6 +2867,8 @@ null
 ;
 }
 _getThrottler
+:
+function
 (
 )
 {
@@ -2888,6 +2912,8 @@ _throttler
 ;
 }
 _serviceWorkerRequest
+:
+function
 (
 subject
 topic
@@ -2967,6 +2993,8 @@ response
 }
 }
 _httpResponseExaminer
+:
+function
 (
 subject
 topic
@@ -3062,6 +3090,8 @@ gSequenceId
 (
 )
 channel
+:
+channel
 headers
 :
 [
@@ -3083,6 +3113,8 @@ visitResponseHeaders
 (
 {
 visitHeader
+:
+function
 (
 name
 value
@@ -3122,6 +3154,10 @@ push
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )
@@ -3291,6 +3327,8 @@ fromCache
 !
 fromServiceWorker
 fromServiceWorker
+:
+fromServiceWorker
 }
 )
 ;
@@ -3361,6 +3399,8 @@ timings
 }
 }
 _httpModifyExaminer
+:
+function
 (
 subject
 )
@@ -3430,6 +3470,8 @@ channel
 }
 }
 _dispatchActivity
+:
+function
 (
 httpActivity
 channel
@@ -3768,6 +3810,8 @@ extraStringData
 }
 )
 _createNetworkEvent
+:
+function
 (
 channel
 {
@@ -4159,6 +4203,8 @@ visitRequestHeaders
 (
 {
 visitHeader
+:
+function
 (
 name
 value
@@ -4185,6 +4231,10 @@ push
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )
@@ -4253,6 +4303,8 @@ httpActivity
 ;
 }
 _onRequestHeader
+:
+function
 (
 channel
 timestamp
@@ -4287,6 +4339,8 @@ extraStringData
 ;
 }
 _findActivityObject
+:
+function
 (
 channel
 )
@@ -4332,6 +4386,8 @@ null
 ;
 }
 createOrGetActivityObject
+:
+function
 (
 channel
 )
@@ -4384,6 +4440,10 @@ gSequenceId
 (
 )
 channel
+:
+channel
+charset
+:
 charset
 sentBody
 :
@@ -4443,6 +4503,8 @@ httpActivity
 ;
 }
 _setupResponseListener
+:
+function
 (
 httpActivity
 fromCache
@@ -4609,6 +4671,8 @@ newListener
 ;
 }
 _onRequestBodySent
+:
+function
 (
 httpActivity
 )
@@ -4727,6 +4791,8 @@ sentBody
 }
 }
 _onResponseHeader
+:
+function
 (
 httpActivity
 extraStringData
@@ -4899,6 +4965,8 @@ extraStringData
 ;
 }
 _onTransactionClose
+:
+function
 (
 httpActivity
 )
@@ -4939,6 +5007,8 @@ id
 ;
 }
 _setupHarTimings
+:
+function
 (
 httpActivity
 fromCache
@@ -5336,6 +5406,8 @@ harTimings
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -5699,6 +5771,8 @@ _throttleData
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -5998,6 +6072,8 @@ args
 }
 )
 destroy
+:
+function
 (
 )
 {
@@ -6165,6 +6241,10 @@ this
 .
 id
 method
+:
+method
+args
+:
 args
 }
 )
@@ -6220,6 +6300,8 @@ id
 this
 .
 id
+event
+:
 event
 }
 )
@@ -6700,6 +6782,8 @@ event
 }
 )
 destroy
+:
+function
 (
 )
 {
@@ -6800,6 +6884,8 @@ nsISupportsWeakReference
 ]
 )
 _init
+:
+function
 (
 )
 {
@@ -6864,6 +6950,8 @@ true
 ;
 }
 startMonitor
+:
+function
 (
 monitor
 )
@@ -6929,6 +7017,8 @@ _init
 ;
 }
 stopMonitor
+:
+function
 (
 monitor
 )
@@ -7009,6 +7099,8 @@ destroy
 }
 }
 onStateChange
+:
+function
 (
 progress
 request
@@ -7065,6 +7157,8 @@ status
 }
 }
 _checkFileActivity
+:
+function
 (
 progress
 request
@@ -7195,6 +7289,8 @@ spec
 ;
 }
 _checkLocationChange
+:
+function
 (
 progress
 request
@@ -7333,26 +7429,36 @@ title
 }
 }
 onLocationChange
+:
+function
 (
 )
 {
 }
 onStatusChange
+:
+function
 (
 )
 {
 }
 onProgressChange
+:
+function
 (
 )
 {
 }
 onSecurityChange
+:
+function
 (
 )
 {
 }
 destroy
+:
+function
 (
 )
 {

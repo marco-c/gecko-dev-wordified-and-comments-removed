@@ -379,8 +379,10 @@ selector
 #
 noevents
 "
-*
 beforeTest
+:
+function
+*
 (
 inspector
 testActor
@@ -490,8 +492,10 @@ selector
 #
 noevents
 "
-*
 beforeTest
+:
+function
+*
 (
 inspector
 testActor

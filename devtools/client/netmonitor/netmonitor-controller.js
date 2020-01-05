@@ -700,6 +700,8 @@ undefined
 }
 )
 isConnected
+:
+function
 (
 )
 {
@@ -712,6 +714,8 @@ _connected
 ;
 }
 getCurrentActivity
+:
+function
 (
 )
 {
@@ -727,6 +731,8 @@ NONE
 ;
 }
 triggerActivity
+:
+function
 (
 type
 )
@@ -1138,6 +1144,8 @@ type
 ;
 }
 inspectRequest
+:
+function
 (
 requestId
 )
@@ -1558,6 +1566,8 @@ _target
 ;
 }
 connect
+:
+function
 (
 )
 {
@@ -1619,6 +1629,8 @@ _onTabNavigated
 ;
 }
 disconnect
+:
+function
 (
 )
 {
@@ -1691,6 +1703,8 @@ _onTabNavigated
 ;
 }
 _onTabNavigated
+:
+function
 (
 type
 packet
@@ -1805,6 +1819,8 @@ break
 }
 }
 _onTabDetached
+:
+function
 (
 )
 {
@@ -1994,6 +2010,8 @@ timelineFront
 ;
 }
 connect
+:
+function
 (
 )
 {
@@ -2069,6 +2087,8 @@ _displayCachedEvents
 ;
 }
 disconnect
+:
+function
 (
 )
 {
@@ -2149,6 +2169,8 @@ _onDocLoadingMarker
 }
 }
 _displayCachedEvents
+:
+function
 (
 )
 {
@@ -2211,6 +2233,8 @@ cachedEvent
 }
 }
 _onDocLoadingMarker
+:
+function
 (
 marker
 )
@@ -2239,6 +2263,8 @@ marker
 ;
 }
 _onNetworkEvent
+:
+function
 (
 type
 networkInfo
@@ -2292,6 +2318,8 @@ actor
 ;
 }
 _onNetworkEventUpdate
+:
+function
 (
 type
 {
@@ -2685,6 +2713,8 @@ break
 }
 }
 _onRequestHeaders
+:
+function
 (
 response
 )
@@ -2729,6 +2759,8 @@ from
 ;
 }
 _onRequestCookies
+:
+function
 (
 response
 )
@@ -2773,6 +2805,8 @@ from
 ;
 }
 _onRequestPostData
+:
+function
 (
 response
 )
@@ -2817,6 +2851,8 @@ from
 ;
 }
 _onSecurityInfo
+:
+function
 (
 response
 )
@@ -2863,6 +2899,8 @@ from
 ;
 }
 _onResponseHeaders
+:
+function
 (
 response
 )
@@ -2907,6 +2945,8 @@ from
 ;
 }
 _onResponseCookies
+:
+function
 (
 response
 )
@@ -2951,6 +2991,8 @@ from
 ;
 }
 _onResponseContent
+:
+function
 (
 response
 )
@@ -2995,6 +3037,8 @@ from
 ;
 }
 _onEventTimings
+:
+function
 (
 response
 )
@@ -3039,6 +3083,8 @@ from
 ;
 }
 getString
+:
+function
 (
 stringGrip
 )
@@ -3114,6 +3160,8 @@ gNetwork
 :
 {
 get
+:
+function
 (
 )
 {

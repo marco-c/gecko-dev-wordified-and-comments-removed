@@ -249,6 +249,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 node
 )
@@ -268,6 +270,8 @@ modifications
 ;
 }
 apply
+:
+function
 (
 )
 {
@@ -290,6 +294,8 @@ ret
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -307,6 +313,8 @@ null
 ;
 }
 setAttributeNS
+:
+function
 (
 ns
 name
@@ -334,6 +342,8 @@ value
 ;
 }
 setAttribute
+:
+function
 (
 name
 value
@@ -350,6 +360,8 @@ value
 ;
 }
 removeAttributeNS
+:
+function
 (
 ns
 name
@@ -366,6 +378,8 @@ undefined
 ;
 }
 removeAttribute
+:
+function
 (
 name
 )
@@ -391,6 +405,8 @@ FrontClassWithSpec
 nodeSpec
 {
 initialize
+:
+function
 (
 conn
 form
@@ -439,6 +455,8 @@ ctx
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -455,6 +473,8 @@ this
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -610,6 +630,8 @@ undefined
 }
 }
 parentNode
+:
+function
 (
 )
 {
@@ -620,6 +642,8 @@ _parent
 ;
 }
 updateMutation
+:
+function
 (
 change
 )
@@ -1238,6 +1262,8 @@ systemId
 ;
 }
 getAttribute
+:
+function
 (
 name
 )
@@ -1263,6 +1289,8 @@ null
 ;
 }
 hasAttribute
+:
+function
 (
 name
 )
@@ -1346,6 +1374,8 @@ pseudoClassLocks
 ;
 }
 hasPseudoClassLock
+:
+function
 (
 pseudo
 )
@@ -1502,6 +1532,8 @@ _getNodeValue
 }
 )
 getFormProperty
+:
+function
 (
 name
 )
@@ -1526,6 +1558,8 @@ null
 ;
 }
 hasFormProperty
+:
+function
 (
 name
 )
@@ -1564,6 +1598,8 @@ props
 ;
 }
 startModifyingAttributes
+:
+function
 (
 )
 {
@@ -1575,6 +1611,8 @@ this
 ;
 }
 _cacheAttributes
+:
+function
 (
 )
 {
@@ -1625,6 +1663,8 @@ attr
 }
 }
 _getAttribute
+:
+function
 (
 name
 )
@@ -1648,6 +1688,8 @@ undefined
 ;
 }
 reparent
+:
+function
 (
 parent
 )
@@ -1790,6 +1832,8 @@ this
 ;
 }
 treeChildren
+:
+function
 (
 )
 {
@@ -1833,6 +1877,8 @@ ret
 ;
 }
 isLocalToBeDeprecated
+:
+function
 (
 )
 {
@@ -1849,6 +1895,8 @@ _serverConnection
 ;
 }
 rawNode
+:
+function
 (
 rawNode
 )
@@ -1945,6 +1993,8 @@ FrontClassWithSpec
 nodeListSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -1965,6 +2015,8 @@ form
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1981,6 +2033,8 @@ this
 ;
 }
 marshallPool
+:
+function
 (
 )
 {
@@ -1993,6 +2047,8 @@ parent
 ;
 }
 form
+:
+function
 (
 json
 )
@@ -2146,6 +2202,8 @@ _pick
 }
 )
 initialize
+:
+function
 (
 client
 form
@@ -2190,6 +2248,8 @@ Set
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -2206,6 +2266,8 @@ this
 ;
 }
 form
+:
+function
 (
 json
 )
@@ -2264,6 +2326,8 @@ traits
 ;
 }
 getRootNode
+:
+function
 (
 )
 {
@@ -2276,6 +2340,8 @@ promise
 ;
 }
 _createRootNodePromise
+:
+function
 (
 )
 {
@@ -2317,6 +2383,8 @@ root
 ;
 }
 ensureParentFront
+:
+function
 (
 id
 )
@@ -2515,6 +2583,8 @@ this
 _releaseNode
 (
 {
+actorID
+:
 actorID
 }
 )
@@ -3003,6 +3073,8 @@ type
 :
 searchType
 node
+:
+node
 resultsLength
 :
 nodeList
@@ -3026,6 +3098,8 @@ _search
 }
 )
 _releaseFront
+:
+function
 (
 node
 force
@@ -3903,6 +3977,8 @@ catch
 }
 )
 isLocal
+:
+function
 (
 )
 {
@@ -3919,6 +3995,8 @@ _serverConnection
 ;
 }
 frontForRawNode
+:
+function
 (
 rawNode
 )
@@ -4171,6 +4249,10 @@ node
 return
 {
 previousSibling
+:
+previousSibling
+nextSibling
+:
 nextSibling
 }
 ;
@@ -4201,6 +4283,8 @@ FrontClassWithSpec
 inspectorSpec
 {
 initialize
+:
+function
 (
 client
 tabForm
@@ -4235,6 +4319,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {

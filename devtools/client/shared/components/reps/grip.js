@@ -181,6 +181,8 @@ PropTypes
 func
 }
 getTitle
+:
+function
 (
 object
 )
@@ -222,6 +224,8 @@ objectLink
 (
 {
 object
+:
+object
 }
 title
 )
@@ -232,6 +236,8 @@ title
 ;
 }
 safePropIterator
+:
+function
 (
 object
 max
@@ -285,6 +291,8 @@ return
 ;
 }
 propIterator
+:
+function
 (
 object
 max
@@ -629,6 +637,8 @@ objectLink
 (
 {
 object
+:
+object
 }
 {
 propertiesLength
@@ -647,6 +657,8 @@ props
 ;
 }
 getProps
+:
+function
 (
 properties
 indexes
@@ -735,6 +747,8 @@ MODE
 .
 TINY
 name
+:
+name
 object
 :
 value
@@ -779,6 +793,8 @@ props
 ;
 }
 getPropIndexes
+:
+function
 (
 properties
 max
@@ -896,6 +912,8 @@ indexes
 ;
 }
 getPropValue
+:
+function
 (
 property
 )
@@ -1071,6 +1089,8 @@ className
 objectLeftBrace
 "
 object
+:
+object
 }
 "
 "
@@ -1108,6 +1128,8 @@ className
 objectLeftBrace
 "
 object
+:
+object
 }
 "
 {
@@ -1125,6 +1147,8 @@ className
 "
 objectRightBrace
 "
+object
+:
 object
 }
 "
@@ -1181,6 +1205,8 @@ Grip
 rep
 :
 GripRep
+supportsObject
+:
 supportsObject
 }
 ;

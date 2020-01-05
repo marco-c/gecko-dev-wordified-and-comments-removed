@@ -338,6 +338,8 @@ prototype
 =
 {
 refresh
+:
+function
 (
 )
 {
@@ -430,6 +432,8 @@ refresh
 }
 }
 _attach
+:
+function
 (
 element
 )
@@ -469,6 +473,8 @@ refresh
 ;
 }
 _detach
+:
+function
 (
 )
 {
@@ -505,6 +511,8 @@ undefined
 }
 }
 show
+:
+function
 (
 element
 text
@@ -587,6 +595,8 @@ popupshown
 ;
 }
 hide
+:
+function
 (
 shouldCommit
 )
@@ -681,6 +691,8 @@ newValue
 ;
 }
 destroy
+:
+function
 (
 )
 {

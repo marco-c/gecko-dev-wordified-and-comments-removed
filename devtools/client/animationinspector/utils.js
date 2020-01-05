@@ -497,6 +497,8 @@ maxEndTime
 :
 0
 addAnimation
+:
+function
 (
 state
 )
@@ -670,6 +672,8 @@ endTime
 ;
 }
 reset
+:
+function
 (
 )
 {
@@ -687,6 +691,8 @@ maxEndTime
 ;
 }
 startTimeToDistance
+:
+function
 (
 time
 )
@@ -708,6 +714,8 @@ time
 ;
 }
 durationToDistance
+:
+function
 (
 duration
 )
@@ -725,6 +733,8 @@ getDuration
 ;
 }
 distanceToTime
+:
+function
 (
 distance
 )
@@ -748,6 +758,8 @@ distance
 ;
 }
 distanceToRelativeTime
+:
+function
 (
 distance
 )
@@ -771,6 +783,8 @@ minStartTime
 ;
 }
 formatTime
+:
+function
 (
 time
 )
@@ -830,6 +844,8 @@ toFixed
 ;
 }
 getDuration
+:
+function
 (
 )
 {
@@ -844,6 +860,8 @@ minStartTime
 ;
 }
 getAnimationDimensions
+:
+function
 (
 {
 state

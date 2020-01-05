@@ -8,6 +8,8 @@ DetailsSubview
 =
 {
 initialize
+:
+function
 (
 )
 {
@@ -192,6 +194,8 @@ maybeRetval
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -304,6 +308,8 @@ shouldUpdateWhileMouseIsActive
 :
 false
 _onRecordingStoppedOrSelected
+:
+function
 (
 _
 state
@@ -407,6 +413,8 @@ true
 }
 }
 _onOverviewRangeChange
+:
+function
 (
 _
 interval
@@ -509,6 +517,8 @@ true
 }
 }
 _onDetailsViewSelected
+:
+function
 (
 )
 {
@@ -547,6 +557,8 @@ false
 }
 }
 _onPrefChanged
+:
+function
 (
 _
 prefName

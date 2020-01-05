@@ -47,6 +47,8 @@ FrontClassWithSpec
 eventLoopLagSpec
 {
 initialize
+:
+function
 (
 client
 form

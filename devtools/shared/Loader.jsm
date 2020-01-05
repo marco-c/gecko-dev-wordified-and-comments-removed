@@ -147,6 +147,8 @@ prototype
 =
 {
 load
+:
+function
 (
 )
 {
@@ -446,6 +448,8 @@ id
 ;
 }
 unload
+:
+function
 (
 reason
 )
@@ -518,6 +522,8 @@ prototype
 =
 {
 destroy
+:
+function
 (
 reason
 =
@@ -625,6 +631,8 @@ _id
 ;
 }
 require
+:
+function
 (
 )
 {
@@ -656,6 +664,8 @@ arguments
 ;
 }
 isLoaderPluginId
+:
+function
 (
 id
 )
@@ -673,6 +683,8 @@ raw
 ;
 }
 setProvider
+:
+function
 (
 provider
 )
@@ -911,6 +923,8 @@ lazyRequireGetter
 ;
 }
 _loadProvider
+:
+function
 (
 )
 {
@@ -926,6 +940,8 @@ BuiltinProvider
 ;
 }
 observe
+:
+function
 (
 subject
 topic

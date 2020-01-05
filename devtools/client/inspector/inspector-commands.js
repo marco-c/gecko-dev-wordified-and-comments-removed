@@ -153,8 +153,10 @@ inspectNodeManual
 )
 }
 ]
-*
 exec
+:
+function
+*
 (
 args
 context
@@ -317,8 +319,10 @@ true
 ]
 }
 ]
-*
 exec
+:
+function
+*
 (
 args
 context
@@ -475,6 +479,8 @@ hidden
 :
 true
 exec
+:
+function
 (
 args
 {
@@ -610,6 +616,8 @@ hidden
 :
 true
 exec
+:
+function
 (
 args
 {

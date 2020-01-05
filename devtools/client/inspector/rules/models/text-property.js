@@ -149,6 +149,8 @@ prototype
 =
 {
 updateEditor
+:
+function
 (
 )
 {
@@ -170,6 +172,8 @@ update
 }
 }
 updateComputed
+:
+function
 (
 )
 {
@@ -290,6 +294,8 @@ prop
 }
 }
 set
+:
+function
 (
 prop
 )
@@ -365,6 +371,8 @@ updateEditor
 }
 }
 setValue
+:
+function
 (
 value
 priority
@@ -444,6 +452,8 @@ updateEditor
 ;
 }
 noticeNewValue
+:
+function
 (
 value
 )
@@ -474,6 +484,8 @@ updateEditor
 }
 }
 setName
+:
+function
 (
 name
 )
@@ -540,6 +552,8 @@ updateEditor
 ;
 }
 setEnabled
+:
+function
 (
 value
 )
@@ -562,6 +576,8 @@ updateEditor
 ;
 }
 remove
+:
+function
 (
 )
 {
@@ -576,6 +592,8 @@ this
 ;
 }
 stringifyProperty
+:
+function
 (
 )
 {
@@ -633,6 +651,8 @@ declaration
 ;
 }
 isKnownProperty
+:
+function
 (
 )
 {
@@ -650,6 +670,8 @@ name
 ;
 }
 isValid
+:
+function
 (
 )
 {

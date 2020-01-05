@@ -74,6 +74,8 @@ MarkerDOMUtils
 =
 {
 buildFields
+:
+function
 (
 doc
 marker
@@ -114,6 +116,8 @@ value
 ;
 }
 buildTitle
+:
+function
 (
 doc
 marker
@@ -247,6 +251,8 @@ hbox
 ;
 }
 buildDuration
+:
+function
 (
 doc
 marker
@@ -370,6 +376,8 @@ el
 ;
 }
 buildNameValueLabel
+:
+function
 (
 doc
 field
@@ -493,6 +501,8 @@ hbox
 ;
 }
 buildStackTrace
+:
+function
 (
 doc
 {
@@ -966,6 +976,10 @@ stringify
 (
 {
 url
+:
+url
+line
+:
 line
 action
 :
@@ -1070,6 +1084,8 @@ container
 ;
 }
 buildCustom
+:
+function
 (
 doc
 marker
