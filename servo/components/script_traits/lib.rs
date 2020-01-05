@@ -798,6 +798,10 @@ usize
 usize
 String
 )
+Reload
+(
+PipelineId
+)
 }
 #
 [
@@ -1890,4 +1894,5 @@ WebDriverCommand
 (
 WebDriverCommandMsg
 )
+Reload
 }

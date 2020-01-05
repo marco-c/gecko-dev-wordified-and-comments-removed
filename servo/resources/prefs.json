@@ -631,11 +631,11 @@ true
 "
 shell
 .
-quit
+builtin
 -
-on
+key
 -
-escape
+shortcuts
 .
 enabled
 "
