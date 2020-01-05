@@ -1327,10 +1327,6 @@ Request
 with_connector
 (
 method
-.
-clone
-(
-)
 url
 .
 clone
@@ -1470,10 +1466,6 @@ LoadError
 Ssl
 (
 url
-.
-clone
-(
-)
 format
 !
 (
@@ -1529,10 +1521,6 @@ LoadError
 Connection
 (
 url
-.
-clone
-(
-)
 e
 .
 description
