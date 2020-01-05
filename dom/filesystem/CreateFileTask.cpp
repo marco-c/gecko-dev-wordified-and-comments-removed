@@ -26,7 +26,7 @@ mozilla
 /
 dom
 /
-File
+FileBlobImpl
 .
 h
 "
@@ -133,6 +133,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+nsIInputStream
 .
 h
 "
@@ -1104,7 +1111,7 @@ BlobImpl
 blobImpl
 =
 new
-BlobImplFile
+FileBlobImpl
 (
 mTargetPath
 )

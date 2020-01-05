@@ -274,6 +274,17 @@ mozilla
 /
 dom
 /
+FileBlobImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLMediaElement
 .
 h
@@ -35965,7 +35976,7 @@ continue
 blobImpl
 =
 new
-BlobImplFile
+FileBlobImpl
 (
 file
 )

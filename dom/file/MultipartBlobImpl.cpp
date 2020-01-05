@@ -1419,7 +1419,7 @@ Length
 0
 )
 {
-BlobImplBase
+BaseBlobImpl
 :
 :
 GetMozFullPathInternal
@@ -1452,7 +1452,7 @@ if
 blobImpl
 )
 {
-BlobImplBase
+BaseBlobImpl
 :
 :
 GetMozFullPathInternal
@@ -1560,7 +1560,7 @@ rv
 }
 rv
 =
-BlobImplBase
+BaseBlobImpl
 :
 :
 SetMutable

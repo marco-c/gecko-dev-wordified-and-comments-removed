@@ -252,6 +252,17 @@ mozilla
 /
 dom
 /
+MemoryBlobImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneHolder
 .
 h
@@ -1835,7 +1846,7 @@ BlobImpl
 blobImpl
 =
 new
-BlobImplMemory
+MemoryBlobImpl
 (
 bytecode
 .
@@ -1866,7 +1877,7 @@ blobImpl
 blobImpl
 =
 new
-BlobImplMemory
+MemoryBlobImpl
 (
 compiled
 .

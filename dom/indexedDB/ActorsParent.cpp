@@ -246,6 +246,17 @@ mozilla
 /
 dom
 /
+FileBlobImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneTags
 .
 h
@@ -33660,7 +33671,7 @@ BlobImplStoredFile
 final
 :
 public
-BlobImplFile
+FileBlobImpl
 {
 RefPtr
 <
@@ -33686,7 +33697,7 @@ bool
 aSnapshot
 )
 :
-BlobImplFile
+FileBlobImpl
 (
 aFile
 )
@@ -69564,7 +69575,7 @@ NS_OK
 NS_IMPL_ISUPPORTS_INHERITED
 (
 BlobImplStoredFile
-BlobImplFile
+FileBlobImpl
 BlobImplStoredFile
 )
 QuotaClient

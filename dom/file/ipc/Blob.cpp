@@ -36,6 +36,13 @@ h
 #
 include
 "
+EmptyBlobImpl
+.
+h
+"
+#
+include
+"
 FileDescriptorSetChild
 .
 h
@@ -108,7 +115,7 @@ mozilla
 /
 dom
 /
-File
+BaseBlobImpl
 .
 h
 "
@@ -344,6 +351,13 @@ h
 include
 "
 nsXULAppAPI
+.
+h
+"
+#
+include
+"
+StreamBlobImpl
 .
 h
 "
@@ -2424,7 +2438,7 @@ length
 {
 blobImpl
 =
-BlobImplStream
+StreamBlobImpl
 :
 :
 Create
@@ -2471,7 +2485,7 @@ length
 {
 blobImpl
 =
-BlobImplStream
+StreamBlobImpl
 :
 :
 Create
@@ -6688,7 +6702,7 @@ BlobChild
 RemoteBlobImpl
 :
 public
-BlobImplBase
+BaseBlobImpl
 public
 nsIRemoteBlob
 {
@@ -7714,7 +7728,7 @@ bool
 aIsSameProcessBlob
 )
 :
-BlobImplBase
+BaseBlobImpl
 (
 aName
 aContentType
@@ -7814,7 +7828,7 @@ bool
 aIsSameProcessBlob
 )
 :
-BlobImplBase
+BaseBlobImpl
 (
 aContentType
 aLength
@@ -7893,7 +7907,7 @@ BlobChild
 aActor
 )
 :
-BlobImplBase
+BaseBlobImpl
 (
 EmptyString
 (
@@ -7951,7 +7965,7 @@ uint64_t
 aLength
 )
 :
-BlobImplBase
+BaseBlobImpl
 (
 aContentType
 aLength
@@ -8854,7 +8868,7 @@ EnsureActorWasCreated
 nsresult
 rv
 =
-BlobImplBase
+BaseBlobImpl
 :
 :
 SetMutable

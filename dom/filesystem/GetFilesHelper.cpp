@@ -30,6 +30,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+FileBlobImpl
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h
@@ -1588,7 +1599,7 @@ BlobImpl
 blobImpl
 =
 new
-BlobImplFile
+FileBlobImpl
 (
 currFile
 )
