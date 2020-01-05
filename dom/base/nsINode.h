@@ -3135,7 +3135,7 @@ aTextContent
 mozilla
 :
 :
-ErrorResult
+OOMReporter
 &
 aError
 )
@@ -6043,7 +6043,7 @@ aTextContent
 mozilla
 :
 :
-ErrorResult
+OOMReporter
 &
 aError
 )

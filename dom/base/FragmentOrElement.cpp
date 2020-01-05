@@ -5308,7 +5308,7 @@ GetTextContentInternal
 nsAString
 &
 aTextContent
-ErrorResult
+OOMReporter
 &
 aError
 )
@@ -5330,9 +5330,8 @@ fallible
 {
 aError
 .
-Throw
+ReportOOM
 (
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }

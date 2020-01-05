@@ -2061,7 +2061,7 @@ GetTextContentInternal
 nsAString
 &
 aTextContent
-ErrorResult
+OOMReporter
 &
 aError
 )
