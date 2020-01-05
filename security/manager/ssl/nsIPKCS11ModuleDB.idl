@@ -162,7 +162,7 @@ nsIPKCS11Module
 findModuleByName
 (
 in
-wstring
+AUTF8String
 name
 )
 ;
@@ -170,7 +170,7 @@ nsIPKCS11Slot
 findSlotByName
 (
 in
-wstring
+AUTF8String
 name
 )
 ;

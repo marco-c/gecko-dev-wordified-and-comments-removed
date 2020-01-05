@@ -222,7 +222,7 @@ nsIPK11Token
 findTokenByName
 (
 in
-wstring
+AUTF8String
 tokenName
 )
 ;
