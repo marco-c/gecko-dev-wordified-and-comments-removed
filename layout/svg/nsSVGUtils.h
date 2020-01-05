@@ -713,9 +713,9 @@ ObjectBoundingBoxProperty
 gfxRect
 )
 static
-nsSVGDisplayContainerFrame
+nsIFrame
 *
-GetNearestSVGViewport
+GetNearestSVGParent
 (
 nsIFrame
 *
