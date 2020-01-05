@@ -161,13 +161,6 @@ offmainthread
 "
 )
 ;
-nsHtml5Atoms
-:
-:
-AddRefAtoms
-(
-)
-;
 nsHtml5AttributeName
 :
 :

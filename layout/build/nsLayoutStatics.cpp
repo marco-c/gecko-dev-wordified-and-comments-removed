@@ -337,6 +337,13 @@ h
 #
 include
 "
+nsHtml5Atoms
+.
+h
+"
+#
+include
+"
 nsHtml5Module
 .
 h
@@ -956,6 +963,13 @@ AddRefTable
 )
 ;
 nsGkAtoms
+:
+:
+AddRefAtoms
+(
+)
+;
+nsHtml5Atoms
 :
 :
 AddRefAtoms
