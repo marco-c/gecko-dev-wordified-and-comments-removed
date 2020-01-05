@@ -1162,12 +1162,6 @@ winWidget
 110
 114
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 select

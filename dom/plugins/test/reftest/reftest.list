@@ -90,12 +90,6 @@ haveTestPlugin
 1
 164000
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 plugin
