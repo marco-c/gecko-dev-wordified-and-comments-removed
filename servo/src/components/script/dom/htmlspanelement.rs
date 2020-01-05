@@ -84,7 +84,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLSpanElementTypeId
 localName

@@ -166,7 +166,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLImageElementTypeId
 localName

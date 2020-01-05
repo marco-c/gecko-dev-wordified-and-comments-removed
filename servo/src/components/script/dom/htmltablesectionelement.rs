@@ -99,7 +99,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLTableSectionElementTypeId
 localName

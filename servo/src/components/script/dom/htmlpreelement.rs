@@ -98,7 +98,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLPreElementTypeId
 localName
