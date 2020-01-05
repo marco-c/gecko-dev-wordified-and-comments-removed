@@ -1625,12 +1625,6 @@ bool
 asyncCallIsExplicit
 ;
 bool
-currentlyRunning
-(
-)
-const
-;
-bool
 currentlyRunningInInterpreter
 (
 )
