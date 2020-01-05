@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 CC
 =
@@ -128,6 +133,11 @@ test_file_data
 =
 "
 "
+;
+let
+avail
+=
+0
 ;
 while
 (
