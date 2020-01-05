@@ -162,6 +162,9 @@ num_buttons
 uint32_t
 num_axes
 ;
+uint32_t
+num_haptics
+;
 }
 ;
 struct
