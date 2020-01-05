@@ -107,6 +107,10 @@ childProps
 source
 type
 level
+topLevelClasses
+:
+[
+]
 messageBody
 scrollToMessage
 :

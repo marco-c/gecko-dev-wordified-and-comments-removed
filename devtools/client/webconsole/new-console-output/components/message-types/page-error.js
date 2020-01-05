@@ -131,6 +131,10 @@ open
 source
 type
 level
+topLevelClasses
+:
+[
+]
 messageBody
 repeat
 frame
