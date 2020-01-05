@@ -193,6 +193,17 @@ Timestamp
 const
 override
 ;
+void
+InitToBlack
+(
+uint32_t
+aWidth
+uint32_t
+aHeight
+int64_t
+aTimeStamp
+)
+;
 protected
 :
 cdm
