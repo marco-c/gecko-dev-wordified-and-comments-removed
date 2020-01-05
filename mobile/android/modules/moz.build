@@ -241,4 +241,9 @@ GeckoViewNavigation
 .
 jsm
 '
+'
+GeckoViewProgress
+.
+jsm
+'
 ]
