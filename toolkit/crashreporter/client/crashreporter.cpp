@@ -2592,6 +2592,9 @@ reportPath
 )
 ;
 }
+#
+ifndef
+RELEASE_OR_BETA
 static
 string
 GetMinidumpAnalyzerPath
@@ -2636,6 +2639,8 @@ return
 path
 ;
 }
+#
+endif
 int
 main
 (
@@ -2720,6 +2725,9 @@ UIShowDefaultUI
 }
 else
 {
+#
+ifndef
+RELEASE_OR_BETA
 UIRunMinidumpAnalyzer
 (
 GetMinidumpAnalyzerPath
@@ -2728,6 +2736,8 @@ GetMinidumpAnalyzerPath
 gReporterDumpFile
 )
 ;
+#
+endif
 gExtraFile
 =
 GetAdditionalFilename
