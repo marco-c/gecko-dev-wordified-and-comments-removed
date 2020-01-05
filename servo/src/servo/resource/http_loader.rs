@@ -43,15 +43,6 @@ http_client
 uv_http_request
 }
 ;
-import
-result
-:
-:
-{
-ok
-err
-}
-;
 fn
 factory
 (
@@ -176,7 +167,7 @@ let
 mut
 crap
 =
-none
+None
 ;
 *
 data
@@ -237,7 +228,7 @@ send
 (
 Done
 (
-err
+Err
 (
 (
 )
@@ -259,7 +250,7 @@ send
 (
 Done
 (
-ok
+Ok
 (
 (
 )

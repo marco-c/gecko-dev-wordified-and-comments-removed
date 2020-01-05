@@ -98,7 +98,7 @@ import
 dvec
 :
 :
-dvec
+DVec
 ;
 import
 vec
@@ -141,7 +141,7 @@ display_list
 let
 list
 =
-dvec
+DVec
 (
 )
 ;
@@ -752,7 +752,6 @@ let
 subbox
 =
 match
-check
 b
 .
 kind
@@ -764,6 +763,10 @@ subbox
 =
 >
 subbox
+_
+=
+>
+fail
 }
 ;
 b
@@ -776,7 +779,7 @@ subbox
 let
 list
 =
-dvec
+DVec
 (
 )
 ;
@@ -870,7 +873,6 @@ let
 subbox
 =
 match
-check
 b
 .
 kind
@@ -884,6 +886,10 @@ subbox
 {
 subbox
 }
+_
+=
+>
+fail
 }
 ;
 b
@@ -896,7 +902,7 @@ subbox
 let
 list
 =
-dvec
+DVec
 (
 )
 ;
@@ -1005,7 +1011,6 @@ let
 subbox
 =
 match
-check
 b
 .
 kind
@@ -1019,6 +1024,10 @@ subbox
 {
 subbox
 }
+_
+=
+>
+fail
 }
 ;
 b
@@ -1031,7 +1040,7 @@ subbox
 let
 list
 =
-dvec
+DVec
 (
 )
 ;
@@ -1154,7 +1163,6 @@ let
 subbox
 =
 match
-check
 b
 .
 kind
@@ -1168,6 +1176,10 @@ subbox
 {
 subbox
 }
+_
+=
+>
+fail
 }
 ;
 b
@@ -1180,7 +1192,7 @@ subbox
 let
 list
 =
-dvec
+DVec
 (
 )
 ;

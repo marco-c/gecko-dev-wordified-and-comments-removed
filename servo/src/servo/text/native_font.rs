@@ -58,12 +58,6 @@ NativeFont
 create
 ;
 import
-result
-:
-:
-result
-;
-import
 font_library
 :
 :
@@ -142,7 +136,7 @@ u8
 )
 -
 >
-result
+Result
 <
 NativeFont
 (
@@ -185,7 +179,7 @@ u8
 )
 -
 >
-result
+Result
 <
 NativeFont
 (
@@ -315,7 +309,7 @@ assert
 idx
 =
 =
-some
+Some
 (
 40u
 )
@@ -368,7 +362,7 @@ assert
 idx
 =
 =
-none
+None
 ;
 }
 )
@@ -416,7 +410,7 @@ assert
 adv
 =
 =
-some
+Some
 (
 15
 )
@@ -470,7 +464,7 @@ assert
 adv
 =
 =
-none
+None
 ;
 }
 )

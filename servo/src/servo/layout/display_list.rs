@@ -41,7 +41,7 @@ std
 arc
 :
 :
-arc
+ARC
 ;
 import
 dvec
@@ -61,7 +61,7 @@ u8
 display_item_image
 (
 ~
-arc
+ARC
 <
 ~
 Image

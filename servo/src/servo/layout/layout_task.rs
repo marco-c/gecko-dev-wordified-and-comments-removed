@@ -32,7 +32,7 @@ std
 arc
 :
 :
-arc
+ARC
 ;
 import
 display_list_builder
@@ -153,7 +153,7 @@ Msg
 BuildMsg
 (
 Node
-arc
+ARC
 <
 Stylesheet
 >

@@ -59,7 +59,7 @@ next_dt
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -74,7 +74,7 @@ next_dt
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >

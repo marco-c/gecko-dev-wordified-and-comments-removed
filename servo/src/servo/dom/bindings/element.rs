@@ -254,7 +254,7 @@ define_empty_prototype
 "
 Element
 "
-some
+Some
 (
 ~
 "
@@ -392,7 +392,7 @@ define_empty_prototype
 "
 HTMLElement
 "
-some
+Some
 (
 ~
 "
@@ -414,7 +414,7 @@ define_empty_prototype
 "
 HTMLDivElement
 "
-some
+Some
 (
 ~
 "
@@ -436,7 +436,7 @@ define_empty_prototype
 "
 HTMLScriptElement
 "
-some
+Some
 (
 ~
 "
@@ -458,7 +458,7 @@ define_empty_prototype
 "
 HTMLHeadElement
 "
-some
+Some
 (
 ~
 "
@@ -480,7 +480,7 @@ define_empty_prototype
 "
 HTMLImageElement
 "
-some
+Some
 (
 ~
 "

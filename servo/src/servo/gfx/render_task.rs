@@ -134,7 +134,7 @@ std
 arc
 :
 :
-arc
+ARC
 ;
 import
 azure
@@ -168,8 +168,8 @@ pipes
 :
 :
 {
-port
-chan
+Port
+Chan
 }
 ;
 type
@@ -198,7 +198,7 @@ ExitMsg
 pipes
 :
 :
-chan
+Chan
 <
 (
 )
@@ -352,7 +352,7 @@ let
 mut
 draw_target_ch_
 =
-some
+Some
 (
 ch
 )
@@ -390,7 +390,7 @@ let
 mut
 draw_target_ch
 =
-none
+None
 ;
 draw_target_ch_
 <
@@ -792,7 +792,7 @@ dl
 display_item
 image
 :
-arc
+ARC
 <
 ~
 Image

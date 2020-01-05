@@ -572,7 +572,7 @@ swappable
 :
 ~
 mut
-option
+Option
 <
 *
 shared_box
@@ -583,7 +583,7 @@ Box
 =
 ~
 mut
-some
+Some
 (
 unwrapped
 )
@@ -618,7 +618,7 @@ let
 mut
 swapped_in
 =
-none
+None
 ;
 swapped_in
 <

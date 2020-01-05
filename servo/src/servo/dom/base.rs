@@ -120,10 +120,7 @@ import
 dvec
 :
 :
-{
 DVec
-dvec
-}
 ;
 import
 ptr
@@ -141,7 +138,7 @@ std
 arc
 :
 :
-arc
+ARC
 ;
 import
 style
@@ -213,7 +210,7 @@ ControlMsg
 let
 content_chan
 =
-chan
+Chan
 (
 content_port
 )
@@ -301,7 +298,7 @@ NodeScope
 let
 css_rules
 :
-arc
+ARC
 <
 Stylesheet
 >
@@ -336,7 +333,7 @@ self
 .
 css_rules
 =
-arc
+ARC
 (
 css_rules
 )
@@ -429,7 +426,7 @@ self
 .
 attrs
 =
-dvec
+DVec
 (
 )
 ;
@@ -444,7 +441,7 @@ str
 )
 -
 >
-option
+Option
 <
 ~
 str
@@ -481,7 +478,7 @@ i
 name
 {
 return
-some
+Some
 (
 copy
 self
@@ -501,7 +498,7 @@ i
 1u
 ;
 }
-none
+None
 }
 }
 struct
@@ -828,7 +825,7 @@ Node
 )
 -
 >
-option
+Option
 <
 Node
 >

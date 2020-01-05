@@ -162,7 +162,7 @@ define_empty_prototype
 "
 Node
 "
-none
+None
 compartment
 )
 ;
@@ -410,7 +410,7 @@ kind
 ~
 Element
 (
-ed
+*
 )
 =
 >
@@ -428,7 +428,7 @@ scope
 ~
 Text
 (
-s
+*
 )
 =
 >
@@ -610,7 +610,7 @@ tree
 .
 first_child
 {
-some
+Some
 (
 n
 )
@@ -645,7 +645,7 @@ obj
 )
 ;
 }
-none
+None
 =
 >
 {
@@ -752,7 +752,7 @@ tree
 .
 next_sibling
 {
-some
+Some
 (
 n
 )
@@ -787,7 +787,7 @@ obj
 )
 ;
 }
-none
+None
 =
 >
 {

@@ -114,16 +114,6 @@ bindgen
 RUST_JSVAL_TO_INT
 ;
 import
-result
-:
-:
-{
-result
-ok
-err
-}
-;
-import
 ptr
 :
 :
@@ -167,10 +157,7 @@ import
 dvec
 :
 :
-{
 DVec
-dvec
-}
 ;
 extern
 fn
@@ -354,7 +341,7 @@ self
 .
 args
 =
-dvec
+DVec
 (
 )
 ;
@@ -667,7 +654,7 @@ define_empty_prototype
 "
 Window
 "
-none
+None
 compartment
 )
 ;

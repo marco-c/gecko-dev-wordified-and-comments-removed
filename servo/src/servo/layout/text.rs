@@ -64,7 +64,7 @@ str
 mut
 run
 :
-option
+Option
 <
 TextRun
 >
@@ -88,7 +88,7 @@ self
 .
 run
 =
-none
+None
 ;
 }
 }
@@ -223,7 +223,7 @@ subbox
 .
 run
 =
-some
+Some
 (
 run
 )
@@ -329,7 +329,6 @@ let
 subbox
 =
 match
-check
 b
 .
 kind
@@ -343,6 +342,10 @@ subbox
 {
 subbox
 }
+_
+=
+>
+fail
 }
 ;
 b

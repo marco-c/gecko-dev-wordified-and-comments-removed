@@ -63,7 +63,7 @@ str
 )
 -
 >
-option
+Option
 <
 Unit
 >
@@ -400,7 +400,7 @@ supported
 _
 =
 >
-none
+None
 }
 }
 fn
@@ -413,7 +413,7 @@ str
 )
 -
 >
-option
+Option
 <
 Unit
 >
@@ -449,7 +449,7 @@ small
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -468,7 +468,7 @@ small
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -485,7 +485,7 @@ small
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -506,7 +506,7 @@ medium
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -519,7 +519,7 @@ large
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -538,7 +538,7 @@ large
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -557,7 +557,7 @@ large
 "
 =
 >
-some
+Some
 (
 Px
 (
@@ -574,7 +574,7 @@ smaller
 "
 =
 >
-some
+Some
 (
 Percent
 (
@@ -589,7 +589,7 @@ larger
 "
 =
 >
-some
+Some
 (
 Percent
 (
@@ -604,7 +604,7 @@ inherit
 "
 =
 >
-some
+Some
 (
 Percent
 (
@@ -646,7 +646,7 @@ str
 )
 -
 >
-option
+Option
 <
 Unit
 >
@@ -660,7 +660,7 @@ auto
 "
 =
 >
-some
+Some
 (
 Auto
 )
@@ -670,7 +670,7 @@ inherit
 "
 =
 >
-some
+Some
 (
 Percent
 (
@@ -698,7 +698,7 @@ str
 )
 -
 >
-option
+Option
 <
 DisplayType
 >
@@ -712,7 +712,7 @@ inline
 "
 =
 >
-some
+Some
 (
 DisInline
 )
@@ -722,7 +722,7 @@ block
 "
 =
 >
-some
+Some
 (
 DisBlock
 )
@@ -732,7 +732,7 @@ none
 "
 =
 >
-some
+Some
 (
 DisNone
 )
@@ -756,7 +756,7 @@ s
 str
 ]
 ;
-none
+None
 }
 }
 }

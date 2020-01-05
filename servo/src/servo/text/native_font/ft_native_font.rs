@@ -12,16 +12,6 @@ vec
 as_buf
 ;
 import
-result
-:
-:
-{
-result
-ok
-err
-}
-;
-import
 ptr
 :
 :
@@ -152,7 +142,7 @@ char
 )
 -
 >
-option
+Option
 <
 GlyphIndex
 >
@@ -188,7 +178,7 @@ idx
 as
 FT_UInt
 {
-some
+Some
 (
 idx
 as
@@ -210,7 +200,7 @@ codepoint
 codepoint
 )
 ;
-none
+None
 }
 ;
 }
@@ -240,7 +230,7 @@ GlyphIndex
 )
 -
 >
-option
+Option
 <
 int
 >
@@ -356,7 +346,7 @@ should
 be
 using
 return
-some
+Some
 (
 (
 advance
@@ -392,7 +382,7 @@ res
 )
 ;
 return
-none
+None
 ;
 }
 }
@@ -413,7 +403,7 @@ u8
 )
 -
 >
-result
+Result
 <
 FreeTypeNativeFont
 (
@@ -515,7 +505,7 @@ char
 size
 "
 }
-ok
+Ok
 (
 FreeTypeNativeFont
 (
@@ -525,7 +515,7 @@ face
 }
 else
 {
-err
+Err
 (
 (
 )

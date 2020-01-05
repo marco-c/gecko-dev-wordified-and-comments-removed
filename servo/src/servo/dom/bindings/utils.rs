@@ -99,16 +99,6 @@ ptr
 :
 null
 ;
-import
-result
-:
-:
-{
-result
-ok
-err
-}
-;
 enum
 DOMString
 {
@@ -271,7 +261,7 @@ jsval
 )
 -
 >
-result
+Result
 <
 ~
 str
@@ -316,7 +306,7 @@ is_null
 )
 {
 return
-err
+Err
 (
 (
 )
@@ -353,7 +343,7 @@ is_null
 (
 )
 {
-err
+Err
 (
 (
 )
@@ -383,7 +373,7 @@ as
 uint
 )
 ;
-ok
+Ok
 (
 str
 :
@@ -1156,7 +1146,7 @@ name
 str
 proto
 :
-option
+Option
 <
 ~
 str
@@ -1199,7 +1189,7 @@ unwrap
 match
 proto
 {
-some
+Some
 (
 s
 )
@@ -1217,7 +1207,7 @@ global_obj
 .
 ptr
 )
-none
+None
 =
 >
 compartment

@@ -148,7 +148,7 @@ char
 )
 -
 >
-option
+Option
 <
 GlyphIndex
 >
@@ -183,14 +183,14 @@ glyph_h_advance
 glyph
 )
 {
-some
+Some
 (
 adv
 )
 =
 >
 adv
-none
+None
 =
 >
 /
@@ -331,7 +331,7 @@ assert
 glyph_idx
 =
 =
-some
+Some
 (
 40u
 )

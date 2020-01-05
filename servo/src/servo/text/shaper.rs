@@ -669,7 +669,7 @@ as
 char
 )
 {
-some
+Some
 (
 g
 )
@@ -685,7 +685,7 @@ hb_codepoint_t
 ;
 true
 }
-none
+None
 =
 >
 {

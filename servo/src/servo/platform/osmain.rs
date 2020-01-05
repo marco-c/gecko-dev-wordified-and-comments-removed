@@ -69,10 +69,7 @@ import
 dvec
 :
 :
-{
 DVec
-dvec
-}
 ;
 import
 azure
@@ -126,7 +123,7 @@ std
 cmp
 :
 :
-fuzzy_eq
+FuzzyEq
 ;
 import
 task
@@ -165,7 +162,7 @@ BeginDrawing
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -175,7 +172,7 @@ Draw
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -186,7 +183,7 @@ AddKeyHandler
 pipes
 :
 :
-chan
+Chan
 <
 (
 )
@@ -268,14 +265,14 @@ DVec
 pipes
 :
 :
-chan
+Chan
 <
 (
 )
 >
 >
 =
-dvec
+DVec
 (
 )
 ;
@@ -293,7 +290,7 @@ Event
 >
 >
 =
-dvec
+DVec
 (
 )
 ;
@@ -645,7 +642,7 @@ image
 )
 ;
 }
-exit
+Exit
 =
 >
 {
@@ -855,7 +852,7 @@ next_dt
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -880,7 +877,7 @@ next_dt
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -952,7 +949,7 @@ receiver
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >

@@ -175,7 +175,7 @@ CSS2
 mut
 anon_box
 :
-option
+Option
 <
 Box
 >
@@ -208,7 +208,7 @@ parent_box
 mut
 anon_box
 :
-none
+None
 }
 )
 ;
@@ -309,7 +309,7 @@ if
 disp
 !
 =
-some
+Some
 (
 DisInline
 )
@@ -349,7 +349,7 @@ get_specified_style
 .
 display_type
 {
-some
+Some
 (
 DisBlock
 )
@@ -364,7 +364,7 @@ self
 parent_box
 kid_box
 )
-some
+Some
 (
 DisInline
 )
@@ -379,7 +379,7 @@ self
 .
 anon_box
 {
-none
+None
 =
 >
 {
@@ -445,14 +445,14 @@ self
 .
 anon_box
 =
-some
+Some
 (
 b
 )
 ;
 b
 }
-some
+Some
 (
 b
 )
@@ -470,7 +470,7 @@ kid_box
 )
 ;
 }
-some
+Some
 (
 DisNone
 )
@@ -590,7 +590,7 @@ if
 disp
 !
 =
-some
+Some
 (
 DisInline
 )
@@ -622,7 +622,7 @@ get_specified_style
 .
 display_type
 {
-some
+Some
 (
 DisBlock
 )
@@ -660,7 +660,7 @@ kid_box
 )
 ;
 }
-some
+Some
 (
 DisInline
 )
@@ -678,7 +678,7 @@ kid_box
 )
 ;
 }
-some
+Some
 (
 DisNone
 )
@@ -755,7 +755,7 @@ get_specified_style
 .
 display_type
 {
-some
+Some
 (
 DisBlock
 )
@@ -766,7 +766,7 @@ self
 construct_boxes_for_block_children
 (
 )
-some
+Some
 (
 DisInline
 )
@@ -777,7 +777,7 @@ self
 construct_boxes_for_inline_children
 (
 )
-some
+Some
 (
 DisNone
 )
@@ -858,7 +858,7 @@ self
 .
 anon_box
 {
-none
+None
 =
 >
 {
@@ -871,7 +871,7 @@ do
 *
 /
 }
-some
+Some
 (
 b
 )
@@ -891,7 +891,7 @@ self
 .
 anon_box
 =
-none
+None
 ;
 }
 }
@@ -1015,7 +1015,7 @@ size
 )
 (
 _
-some
+Some
 (
 DisBlock
 )
@@ -1025,7 +1025,7 @@ DisBlock
 BlockBox
 (
 _
-some
+Some
 (
 DisInline
 )
@@ -1035,7 +1035,7 @@ DisInline
 InlineBox
 (
 _
-some
+Some
 (
 DisNone
 )
@@ -1066,7 +1066,7 @@ zero_size_au
 }
 (
 _
-none
+None
 )
 =
 >

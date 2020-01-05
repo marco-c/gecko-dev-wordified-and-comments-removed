@@ -131,15 +131,6 @@ Done
 }
 ;
 import
-result
-:
-:
-{
-ok
-err
-}
-;
-import
 to_str
 :
 :
@@ -276,7 +267,7 @@ from_str
 value
 )
 {
-none
+None
 =
 >
 {
@@ -288,7 +279,7 @@ the
 floor
 .
 }
-some
+Some
 (
 s
 )
@@ -336,7 +327,7 @@ from_str
 value
 )
 {
-none
+None
 =
 >
 {
@@ -348,7 +339,7 @@ the
 floor
 .
 }
-some
+Some
 (
 s
 )
@@ -670,7 +661,7 @@ result_port
 comm
 :
 :
-port
+Port
 (
 )
 ;
@@ -680,7 +671,7 @@ result_chan
 comm
 :
 :
-chan
+Chan
 (
 result_port
 )
@@ -865,7 +856,7 @@ result_port
 comm
 :
 :
-port
+Port
 (
 )
 ;
@@ -875,7 +866,7 @@ result_chan
 comm
 :
 :
-chan
+Chan
 (
 result_port
 )
@@ -910,7 +901,7 @@ spawn
 let
 input_port
 =
-port
+Port
 (
 )
 ;
@@ -976,7 +967,7 @@ data
 }
 Done
 (
-ok
+Ok
 (
 *
 )
@@ -996,7 +987,7 @@ break
 }
 Done
 (
-err
+Err
 (
 *
 )
@@ -1221,7 +1212,7 @@ style_port
 comm
 :
 :
-port
+Port
 (
 )
 ;
@@ -1231,7 +1222,7 @@ child_chan
 comm
 :
 :
-chan
+Chan
 (
 style_port
 )
@@ -1264,7 +1255,7 @@ js_port
 comm
 :
 :
-port
+Port
 (
 )
 ;
@@ -1274,7 +1265,7 @@ child_chan
 comm
 :
 :
-chan
+Chan
 (
 js_port
 )
@@ -1533,7 +1524,7 @@ rel
 "
 )
 {
-some
+Some
 (
 r
 )
@@ -1559,7 +1550,7 @@ href
 "
 )
 {
-some
+Some
 (
 filename
 )
@@ -1603,7 +1594,7 @@ new_url
 make_url
 (
 filename
-some
+Some
 (
 copy
 url
@@ -1621,7 +1612,7 @@ new_url
 )
 ;
 }
-none
+None
 =
 >
 {
@@ -1681,7 +1672,7 @@ parser
 :
 EndTag
 (
-tag_name
+*
 )
 =
 >
@@ -1743,7 +1734,7 @@ src
 "
 )
 {
-some
+Some
 (
 filename
 )
@@ -1773,7 +1764,7 @@ new_url
 make_url
 (
 filename
-some
+Some
 (
 copy
 url
@@ -1791,7 +1782,7 @@ new_url
 )
 ;
 }
-none
+None
 =
 >
 {

@@ -108,8 +108,8 @@ pipes
 :
 :
 {
-port
-chan
+Port
+Chan
 }
 ;
 fn

@@ -152,8 +152,6 @@ comm
 {
 Chan
 Port
-chan
-port
 }
 ;
 import
@@ -192,7 +190,7 @@ import
 dvec
 :
 :
-dvec
+DVec
 ;
 import
 layout
@@ -228,7 +226,7 @@ BeginDrawing
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -238,7 +236,7 @@ Draw
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -263,7 +261,7 @@ next_dt
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -288,7 +286,7 @@ next_dt
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -464,7 +462,7 @@ sender
 pipes
 :
 :
-chan
+Chan
 <
 DrawTarget
 >
@@ -582,7 +580,7 @@ dlist
 :
 display_list
 =
-dvec
+DVec
 (
 )
 ;
