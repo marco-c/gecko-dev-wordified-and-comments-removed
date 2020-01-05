@@ -543,7 +543,7 @@ breaking
 2
 .
 html
-fails
+#
 =
 =
 line
@@ -564,7 +564,7 @@ suppression
 1
 .
 html
-fails
+#
 =
 =
 line
@@ -585,7 +585,7 @@ suppression
 2
 .
 html
-fails
+#
 =
 =
 line

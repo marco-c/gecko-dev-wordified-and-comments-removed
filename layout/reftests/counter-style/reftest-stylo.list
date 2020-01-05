@@ -485,6 +485,13 @@ mapping
 .
 html
 fails
+asserts
+-
+if
+(
+stylo
+2
+)
 =
 =
 disclosure
@@ -497,6 +504,9 @@ disclosure
 styles
 .
 html
+#
+bug
+1324704
 fails
 =
 =
