@@ -511,17 +511,10 @@ local
 >
 Equals
 (
-nsDependentSubstring
-(
 buf
 +
 offset
-buf
-+
-offset
-+
 length
-)
 )
 ;
 }
