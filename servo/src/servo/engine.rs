@@ -88,6 +88,7 @@ image_cache_task
 {
 ImageCacheTask
 image_cache_task
+ImageCacheTaskClient
 }
 ;
 import
@@ -434,12 +435,8 @@ self
 .
 image_cache_task
 .
-send
+exit
 (
-image_cache_task
-:
-:
-Exit
 )
 ;
 self
