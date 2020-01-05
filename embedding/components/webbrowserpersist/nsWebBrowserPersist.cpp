@@ -6517,7 +6517,7 @@ relativePath
 }
 }
 }
-DocData
+auto
 *
 docData
 =
@@ -6585,7 +6585,7 @@ visit
 }
 else
 {
-DocData
+auto
 *
 docData
 =
@@ -6953,7 +6953,7 @@ mPersistFlags
 PERSIST_FLAGS_CLEANUP_ON_FAILURE
 )
 {
-CleanupData
+auto
 *
 cleanupData
 =
@@ -9221,7 +9221,7 @@ mPersistFlags
 PERSIST_FLAGS_CLEANUP_ON_FAILURE
 )
 {
-CleanupData
+auto
 *
 cleanupData
 =
