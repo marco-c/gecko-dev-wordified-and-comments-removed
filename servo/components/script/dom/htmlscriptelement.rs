@@ -1,4 +1,13 @@
 use
+std
+:
+:
+ascii
+:
+:
+AsciiExt
+;
+use
 dom
 :
 :
@@ -1718,6 +1727,10 @@ contains
 &
 s
 .
+to_ascii_lower
+(
+)
+.
 as_slice
 (
 )
@@ -1846,6 +1859,10 @@ text
 }
 "
 s
+)
+.
+to_ascii_lower
+(
 )
 .
 as_slice
