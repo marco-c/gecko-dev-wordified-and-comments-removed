@@ -109,13 +109,6 @@ nsIProfiler
 .
 idl
 '
-'
-gecko
-/
-nsIProfileSaveEvent
-.
-idl
-'
 ]
 EXPORTS
 +
