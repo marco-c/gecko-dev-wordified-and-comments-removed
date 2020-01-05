@@ -220,7 +220,7 @@ u8
 /
 /
 '
-left
+right
 '
 const
 ALIGN_RIGHT
@@ -235,7 +235,7 @@ u8
 /
 /
 '
-right
+baseline
 '
 const
 ALIGN_BASELINE
@@ -250,6 +250,8 @@ u8
 /
 /
 '
+last
+-
 baseline
 '
 const
@@ -552,7 +554,7 @@ ALIGN_RIGHT
 =
 >
 "
-left
+right
 "
 ALIGN_BASELINE
 =
