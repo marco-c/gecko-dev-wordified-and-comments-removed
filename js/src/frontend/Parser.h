@@ -3217,10 +3217,10 @@ FunctionBox
 funbox
 InHandling
 inHandling
+YieldHandling
+yieldHandling
 FunctionSyntaxKind
 kind
-GeneratorKind
-generatorKind
 Directives
 inheritedDirectives
 Directives
@@ -3923,8 +3923,6 @@ checkAndMarkSuperScope
 Node
 methodDefinition
 (
-YieldHandling
-yieldHandling
 PropertyType
 propType
 HandleAtom
@@ -4352,6 +4350,8 @@ HandleFunction
 fun
 InHandling
 inHandling
+YieldHandling
+yieldHandling
 FunctionSyntaxKind
 kind
 GeneratorKind
@@ -4374,6 +4374,8 @@ HandleFunction
 fun
 InHandling
 inHandling
+YieldHandling
+yieldHandling
 FunctionSyntaxKind
 kind
 GeneratorKind
