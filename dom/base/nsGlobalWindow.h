@@ -515,7 +515,7 @@ enum
 class
 ImageBitmapFormat
 :
-uint32_t
+uint8_t
 ;
 class
 IdleRequest

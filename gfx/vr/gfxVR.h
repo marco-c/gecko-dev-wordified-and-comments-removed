@@ -98,13 +98,13 @@ enum
 class
 GamepadMappingType
 :
-uint32_t
+uint8_t
 ;
 enum
 class
 GamepadHand
 :
-uint32_t
+uint8_t
 ;
 struct
 GamepadPoseState

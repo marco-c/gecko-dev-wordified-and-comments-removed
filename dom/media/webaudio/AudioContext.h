@@ -147,7 +147,7 @@ enum
 class
 AudioContextState
 :
-uint32_t
+uint8_t
 ;
 class
 AnalyserNode
@@ -237,7 +237,7 @@ enum
 class
 OscillatorType
 :
-uint32_t
+uint8_t
 ;
 class
 BasicWaveFormCache

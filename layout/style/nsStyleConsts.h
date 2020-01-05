@@ -625,13 +625,13 @@ enum
 class
 PlaybackDirection
 :
-uint32_t
+uint8_t
 ;
 enum
 class
 FillMode
 :
-uint32_t
+uint8_t
 ;
 }
 #

@@ -586,7 +586,7 @@ enum
 class
 OrientationType
 :
-uint32_t
+uint8_t
 ;
 class
 ProcessingInstruction
@@ -1625,18 +1625,6 @@ GetHasMixedDisplayContentBlocked
 {
 return
 mHasMixedDisplayContentBlocked
-;
-}
-void
-SetHasReferrerPolicyCSP
-(
-bool
-aHasReferrerPolicyCSP
-)
-{
-mHasReferrerPolicyCSP
-=
-aHasReferrerPolicyCSP
 ;
 }
 void
@@ -8461,7 +8449,7 @@ VisibilityState
 =
 sizeof
 (
-uint32_t
+uint8_t
 )
 "
 Error
@@ -8475,7 +8463,7 @@ mDummy
 ;
 #
 else
-uint32_t
+uint8_t
 mDummy
 ;
 #
@@ -8522,11 +8510,6 @@ mIsShowing
 ;
 bool
 mVisible
-:
-1
-;
-bool
-mHasReferrerPolicyCSP
 :
 1
 ;

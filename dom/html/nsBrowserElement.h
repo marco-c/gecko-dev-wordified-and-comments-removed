@@ -65,13 +65,13 @@ enum
 class
 BrowserFindCaseSensitivity
 :
-uint32_t
+uint8_t
 ;
 enum
 class
 BrowserFindDirection
 :
-uint32_t
+uint8_t
 ;
 }
 class

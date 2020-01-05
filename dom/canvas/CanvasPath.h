@@ -70,7 +70,7 @@ enum
 class
 CanvasWindingRule
 :
-uint32_t
+uint8_t
 ;
 class
 SVGMatrix
