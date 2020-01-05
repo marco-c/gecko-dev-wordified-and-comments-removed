@@ -54,6 +54,7 @@ MFTManager
 {
 public
 :
+explicit
 WMFAudioMFTManager
 (
 const

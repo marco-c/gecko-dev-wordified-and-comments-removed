@@ -51,6 +51,7 @@ Signal
 {
 public
 :
+explicit
 Signal
 (
 CriticalSection

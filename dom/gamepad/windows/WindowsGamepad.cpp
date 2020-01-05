@@ -616,6 +616,7 @@ module
 ;
 }
 }
+explicit
 operator
 bool
 (
@@ -1184,6 +1185,7 @@ mModule
 ;
 }
 }
+explicit
 operator
 bool
 (
