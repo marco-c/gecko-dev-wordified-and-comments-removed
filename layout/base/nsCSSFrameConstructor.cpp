@@ -15550,7 +15550,7 @@ controlType
 control
 -
 >
-ControlType
+GetType
 (
 )
 ;

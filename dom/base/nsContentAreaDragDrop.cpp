@@ -1895,7 +1895,7 @@ mIsAltKeyPressed
 form
 -
 >
-ControlType
+GetType
 (
 )
 !

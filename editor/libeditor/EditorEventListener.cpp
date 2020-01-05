@@ -5206,7 +5206,7 @@ return
 formControl
 -
 >
-ControlType
+GetType
 (
 )
 =

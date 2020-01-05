@@ -133,7 +133,7 @@ switch
 aFormControl
 -
 >
-ControlType
+GetType
 (
 )
 )

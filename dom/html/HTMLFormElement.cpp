@@ -5066,7 +5066,7 @@ type
 aChild
 -
 >
-ControlType
+GetType
 (
 )
 ;
@@ -5380,7 +5380,7 @@ if
 aChild
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -7141,7 +7141,7 @@ i
 ]
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -7990,7 +7990,7 @@ type
 fc
 -
 >
-ControlType
+GetType
 (
 )
 ;
@@ -8759,7 +8759,7 @@ radio
 radio
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -8897,7 +8897,7 @@ if
 control
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -9000,7 +9000,7 @@ if
 formControl
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -9109,7 +9109,7 @@ formControl
 formControl
 -
 >
-ControlType
+GetType
 (
 )
 =

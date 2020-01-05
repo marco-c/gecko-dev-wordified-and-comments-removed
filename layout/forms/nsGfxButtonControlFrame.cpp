@@ -337,7 +337,7 @@ type
 form
 -
 >
-ControlType
+GetType
 (
 )
 ;

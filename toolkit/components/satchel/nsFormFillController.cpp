@@ -2880,7 +2880,7 @@ mFocusedInputNode
 formControl
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -4183,7 +4183,7 @@ inputNode
 formControl
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -4251,7 +4251,7 @@ aFormControl
 formControl
 -
 >
-ControlType
+GetType
 (
 )
 !

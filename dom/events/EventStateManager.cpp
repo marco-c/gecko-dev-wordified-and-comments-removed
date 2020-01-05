@@ -6793,7 +6793,7 @@ false
 formCtrl
 -
 >
-ControlType
+GetType
 (
 )
 =
