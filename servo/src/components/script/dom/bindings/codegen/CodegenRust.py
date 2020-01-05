@@ -22954,12 +22954,8 @@ null
     
 finalize
 :
-ptr
-:
-:
-null
-(
-)
+%
+s
     
 getElementIfPresent
 :
@@ -22978,6 +22974,11 @@ ptr
 null
 (
 )
+    
+trace
+:
+%
+s
   
 }
 ;
@@ -23041,11 +23042,37 @@ c_void
 "
 "
 %
+(
+FINALIZE_HOOK_NAME
+       
+(
+'
+Some
+(
+%
+s
+)
+'
+%
+TRACE_HOOK_NAME
+)
+if
+self
+.
+descriptor
+.
+customTrace
+else
+'
+None
+'
+       
 self
 .
 descriptor
 .
 name
+)
         
 else
 :
@@ -34711,11 +34738,6 @@ if
 descriptor
 .
 concrete
-and
-not
-descriptor
-.
-proxy
 :
             
 if
@@ -34758,8 +34780,6 @@ CGClassTraceHook
 descriptor
 )
 )
-                
-pass
         
 if
 descriptor
