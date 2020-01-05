@@ -868,7 +868,7 @@ branch
 =
 servo
 #
-832ffd74ac892682dfcaea27dc518130a72e280c
+f19aefbf3db45952480e7255cdf844db827c0bcb
 "
 dependencies
 =
@@ -1819,7 +1819,7 @@ skia
 .
 20130412
 .
-23
+24
 (
 registry
 +
@@ -9306,7 +9306,7 @@ servo
 /
 fontsan
 #
-08bfa604bf0cc882d9b4385c57db65e200975b72
+5519a0599d7f80f0f4781e562a37878b45f72e04
 "
 dependencies
 =
@@ -10383,7 +10383,7 @@ sys
 .
 1
 .
-6
+7
 (
 registry
 +
@@ -12387,7 +12387,7 @@ version
 .
 1
 .
-6
+7
 "
 source
 =
@@ -16017,7 +16017,7 @@ skia
 .
 20130412
 .
-23
+24
 (
 registry
 +
@@ -19006,7 +19006,7 @@ servo
 /
 mozjs
 #
-cdf21f7c5596cb6e02eb9afdfc51841deea84a1f
+34c3e075138bb7eff2ed8b5924ccb9067dcd017e
 "
 dependencies
 =
@@ -30714,7 +30714,7 @@ version
 .
 20130412
 .
-23
+24
 "
 source
 =
@@ -34559,7 +34559,7 @@ sys
 .
 1
 .
-6
+7
 (
 registry
 +
@@ -41879,7 +41879,7 @@ sys
 .
 1
 .
-6
+7
 (
 registry
 +
@@ -41904,7 +41904,7 @@ index
 "
 =
 "
-16f772015f526a0cb0c642676cf696bcd2de35e4b91d016a8105755fec2bb373
+6b76113246f5c089dcf272cf89c3f61168a4d77b50ec5b2c1fab8c628c9ea762
 "
 "
 checksum
@@ -45281,7 +45281,7 @@ skia
 .
 20130412
 .
-23
+24
 (
 registry
 +
@@ -45306,7 +45306,7 @@ index
 "
 =
 "
-76c3f8ceb079e39d98346841cd9d83b8b7c46dbf4645723919627745d4addd34
+bb975cdf292243956e6b6acfac336ac8be0aa567e32bb89901be161e4003d0b3
 "
 "
 checksum
