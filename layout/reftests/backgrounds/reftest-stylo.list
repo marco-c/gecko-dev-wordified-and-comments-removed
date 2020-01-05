@@ -2387,7 +2387,6 @@ html
 #
 Bug
 1341690
-fails
 =
 =
 body
@@ -2403,7 +2402,6 @@ html
 #
 Bug
 1339711
-fails
 =
 =
 table
@@ -2419,7 +2417,6 @@ html
 #
 Bug
 1339711
-fails
 =
 =
 table
@@ -2492,7 +2489,6 @@ content
 border
 .
 html
-fails
 HTTP
 =
 =
