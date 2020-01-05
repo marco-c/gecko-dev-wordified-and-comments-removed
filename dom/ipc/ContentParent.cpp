@@ -9950,6 +9950,17 @@ DataStorageItem
 aValues
 )
 {
+if
+(
+mShutdownPending
+)
+{
+return
+IPC_OK
+(
+)
+;
+}
 nsCOMPtr
 <
 nsISiteSecurityService
