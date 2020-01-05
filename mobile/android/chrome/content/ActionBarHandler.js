@@ -1249,6 +1249,10 @@ selectall_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
@@ -1389,6 +1393,10 @@ cut_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
@@ -1627,6 +1635,10 @@ copy_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
@@ -1813,6 +1825,10 @@ paste_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
@@ -1983,6 +1999,10 @@ call_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
@@ -2272,6 +2292,10 @@ search_add_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
@@ -2506,6 +2530,10 @@ share_action
 "
 label
 :
+(
+)
+=
+>
 Strings
 .
 browser
