@@ -1171,6 +1171,14 @@ nsHttpResponseHead
 responseHead
 )
 ;
+void
+OverrideSecurityInfoForNonIPCRedirect
+(
+nsISupports
+*
+securityInfo
+)
+;
 friend
 class
 AssociateApplicationCacheEvent
