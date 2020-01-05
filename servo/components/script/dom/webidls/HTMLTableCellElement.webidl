@@ -107,6 +107,9 @@ html
 /
 #
 htmltablecellelement
+[
+Abstract
+]
 interface
 HTMLTableCellElement
 :

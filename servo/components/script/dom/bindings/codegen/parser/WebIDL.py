@@ -8493,6 +8493,14 @@ identifier
 "
 LegacyEventInit
 "
+or
+                  
+identifier
+=
+=
+"
+Abstract
+"
 )
 :
                 

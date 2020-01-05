@@ -121,6 +121,9 @@ interface
 node
 *
 /
+[
+Abstract
+]
 interface
 Node
 :

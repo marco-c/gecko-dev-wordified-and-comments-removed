@@ -1135,10 +1135,6 @@ XMLHttpRequestEventTarget
 :
 new_inherited
 (
-XMLHttpRequestEventTargetTypeId
-:
-:
-XMLHttpRequest
 )
 ready_state
 :

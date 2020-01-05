@@ -142,6 +142,9 @@ apply
 .
 *
 /
+[
+Abstract
+]
 interface
 CharacterData
 :

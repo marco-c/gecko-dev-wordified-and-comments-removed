@@ -1414,6 +1414,16 @@ m
 )
                 
 iface
+=
+iface
+.
+parent
+                
+if
+iface
+:
+                    
+iface
 .
 setUserData
 (
@@ -1422,12 +1432,6 @@ hasConcreteDescendant
 '
 True
 )
-                
-iface
-=
-iface
-.
-parent
             
 if
 self

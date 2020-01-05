@@ -1132,12 +1132,10 @@ other
 [
 derive
 (
-JSTraceable
 Copy
 Clone
 PartialEq
 Debug
-HeapSizeOf
 )
 ]
 pub

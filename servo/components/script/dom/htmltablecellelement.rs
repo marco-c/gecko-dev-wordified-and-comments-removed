@@ -163,11 +163,9 @@ u32
 [
 derive
 (
-JSTraceable
 Copy
 Clone
 Debug
-HeapSizeOf
 )
 ]
 pub

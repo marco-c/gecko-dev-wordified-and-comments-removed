@@ -80,11 +80,9 @@ EventTargetTypeId
 [
 derive
 (
-JSTraceable
 Copy
 Clone
 PartialEq
-HeapSizeOf
 )
 ]
 pub
@@ -113,9 +111,6 @@ pub
 fn
 new_inherited
 (
-type_id
-:
-XMLHttpRequestEventTargetTypeId
 )
 -
 >
@@ -130,13 +125,6 @@ EventTarget
 :
 new_inherited
 (
-EventTargetTypeId
-:
-:
-XMLHttpRequestEventTarget
-(
-type_id
-)
 )
 }
 }

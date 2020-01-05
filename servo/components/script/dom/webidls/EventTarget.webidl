@@ -112,6 +112,9 @@ interface
 eventtarget
 *
 /
+[
+Abstract
+]
 interface
 EventTarget
 {

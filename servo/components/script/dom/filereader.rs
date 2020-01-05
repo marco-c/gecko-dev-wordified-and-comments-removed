@@ -202,10 +202,7 @@ dom
 eventtarget
 :
 :
-{
 EventTarget
-EventTargetTypeId
-}
 ;
 use
 dom
@@ -565,10 +562,6 @@ EventTarget
 :
 new_inherited
 (
-EventTargetTypeId
-:
-:
-FileReader
 )
 global
 :

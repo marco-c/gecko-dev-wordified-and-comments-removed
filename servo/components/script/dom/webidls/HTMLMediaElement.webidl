@@ -128,6 +128,9 @@ probably
 "
 }
 ;
+[
+Abstract
+]
 interface
 HTMLMediaElement
 :
