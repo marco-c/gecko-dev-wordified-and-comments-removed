@@ -2317,7 +2317,7 @@ i32
 )
 ;
 fn
-invoke_animation_callbacks
+run_the_animation_frame_callbacks
 (
 self
 )
@@ -6582,7 +6582,7 @@ unwrap
 }
 }
 fn
-invoke_animation_callbacks
+run_the_animation_frame_callbacks
 (
 self
 )
