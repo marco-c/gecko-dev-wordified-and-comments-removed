@@ -2831,9 +2831,16 @@ this
 aName
 )
 ;
-NS_DispatchToMainThread
+mAbstractMainThread
+-
+>
+Dispatch
 (
 event
+.
+forget
+(
+)
 )
 ;
 }

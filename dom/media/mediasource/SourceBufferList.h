@@ -301,6 +301,13 @@ SourceBuffer
 >
 mSourceBuffers
 ;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
+;
 }
 ;
 }
