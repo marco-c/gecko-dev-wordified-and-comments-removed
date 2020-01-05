@@ -201,8 +201,10 @@ source
 dir
 =
 (
-VPATH
+S
 )
+/
+src
 /
 test
 /
@@ -236,8 +238,10 @@ source
 dir
 =
 (
-VPATH
+S
 )
+/
+src
 /
 test
 /
