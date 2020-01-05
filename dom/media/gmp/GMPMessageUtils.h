@@ -37,6 +37,13 @@ decryption
 .
 h
 "
+#
+include
+"
+IPCMessageUtils
+.
+h
+"
 namespace
 IPC
 {
