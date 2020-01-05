@@ -378,7 +378,7 @@ test
 resolution
 relies
 on
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 .
 '
 )
@@ -744,7 +744,7 @@ message
 (
 Not
 in
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 ?
 Try
 -

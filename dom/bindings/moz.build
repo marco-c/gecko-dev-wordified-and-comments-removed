@@ -898,7 +898,7 @@ HAVE_SIDEBAR
 ]
 =
 True
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 +
 =
 [
@@ -907,9 +907,9 @@ mozwebidlcodegen
 /
 test
 /
-test_mozwebidlcodegen
+python
 .
-py
+ini
 '
 ]
 if

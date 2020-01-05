@@ -85,14 +85,14 @@ MPL
 0
 /
 .
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 +
 =
 [
 '
-runtests
+python
 .
-py
+ini
 '
 ]
 GENERATED_FILES

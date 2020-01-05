@@ -330,7 +330,7 @@ MOZ_BUILD_APP
 browser
 '
 :
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 +
 =
 [
@@ -339,13 +339,9 @@ compare
 -
 mozconfig
 /
-compare
--
-mozconfigs
--
-wrapper
+python
 .
-py
+ini
 '
 ]
 if

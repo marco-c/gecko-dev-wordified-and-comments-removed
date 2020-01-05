@@ -128,14 +128,14 @@ MOZ_ZLIB_LIBS
 DISABLE_STL_WRAPPING
 =
 True
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 +
 =
 [
 '
-run_test_zip
+python
 .
-py
+ini
 '
 ]
 if

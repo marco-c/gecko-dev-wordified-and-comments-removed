@@ -105,13 +105,13 @@ crashtest
 list
 '
 ]
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 +
 =
 [
 '
-test_foo
+python
 .
-py
+ini
 '
 ]
