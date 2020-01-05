@@ -259,16 +259,6 @@ query
 support
 :
 *
-test_acid3_test46
-.
-html
-:
-media
-support
-[
-11
-]
-*
 test_bug1089417
 .
 html
@@ -309,7 +299,7 @@ test_media_queries
 .
 html
 [
-684
+657
 ]
 *
 test_media_queries_dynamic
