@@ -442,6 +442,16 @@ r
 ^
 .
 *
+bouncer
+.
+apk
+"
+                
+r
+"
+^
+.
+*
 contrib
 .
 *
