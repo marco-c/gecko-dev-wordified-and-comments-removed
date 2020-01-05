@@ -1203,7 +1203,7 @@ ShouldSkipSpellCheck
 )
 ;
 }
-void
+bool
 EnsureComposition
 (
 WidgetCompositionEvent
