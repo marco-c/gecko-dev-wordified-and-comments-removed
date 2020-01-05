@@ -2469,6 +2469,13 @@ concept
 cache
 -
 clear
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 clear
 (
