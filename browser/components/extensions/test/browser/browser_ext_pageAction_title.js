@@ -234,8 +234,6 @@ png
 imageBuffer
 }
 getTests
-:
-function
 (
 tabs
 )
@@ -1369,8 +1367,6 @@ png
 imageBuffer
 }
 getTests
-:
-function
 (
 tabs
 )

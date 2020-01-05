@@ -534,8 +534,6 @@ K
 }
 }
 contentSetup
-:
-function
 (
 )
 {
@@ -812,10 +810,8 @@ page_action
 {
 }
 }
-contentSetup
-:
 async
-function
+contentSetup
 (
 )
 {
