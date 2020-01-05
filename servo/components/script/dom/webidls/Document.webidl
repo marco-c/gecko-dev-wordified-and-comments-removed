@@ -645,8 +645,9 @@ currentScript
 dynamic
 markup
 insertion
-/
-/
+[
+Throws
+]
 Document
 open
 (
@@ -685,8 +686,9 @@ replace
 false
 )
 ;
-/
-/
+[
+Throws
+]
 void
 close
 (
