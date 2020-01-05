@@ -59,6 +59,9 @@ ImageFormat
 ;
 fn
 texture_width
+<
+T
+>
 (
 )
 -
@@ -178,6 +181,11 @@ Self
 :
 :
 texture_width
+:
+:
+<
+T
+>
 (
 )
 /

@@ -127,6 +127,8 @@ vec2
 vec2
 source_uv
 =
+clamp
+(
 clamped_mask_uv
 *
 vClipMaskUvRect
@@ -136,6 +138,13 @@ zw
 vClipMaskUvRect
 .
 xy
+vClipMaskUvInnerRect
+.
+xy
+vClipMaskUvInnerRect
+.
+zw
+)
 ;
 float
 clip_alpha
