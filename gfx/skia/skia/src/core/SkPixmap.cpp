@@ -1449,6 +1449,10 @@ vec
 SkColor
 c
 ;
+SkNx_cast
+<
+uint8_t
+>
 (
 c4
 *
