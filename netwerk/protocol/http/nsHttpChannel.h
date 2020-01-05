@@ -753,11 +753,6 @@ mWarningReporter
 aReporter
 ;
 }
-void
-ApplyContentConversions
-(
-)
-;
 public
 :
 void
@@ -2211,11 +2206,6 @@ RefPtr
 ADivertableParentChannel
 >
 mParentChannel
-;
-uint32_t
-mDelayedInstallCacheListenerForTraceableChannel
-:
-1
 ;
 Atomic
 <
