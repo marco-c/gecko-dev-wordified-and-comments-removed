@@ -9,10 +9,6 @@ struct
 import
 urllib
 from
-unittest
-import
-skip
-from
 marionette_driver
 import
 By
@@ -26,9 +22,16 @@ NoSuchWindowException
 from
 marionette_harness
 import
+(
+    
 MarionetteTestCase
+    
+skip
+    
 skip_if_mobile
+    
 WindowManagerMixin
+)
 def
 inline
 (
@@ -1176,6 +1179,18 @@ screenshot_chrome
 )
     
 skip_if_mobile
+(
+"
+Fennec
+doesn
+'
+t
+support
+other
+chrome
+windows
+"
+)
     
 def
 test_capture_element
@@ -1626,22 +1641,7 @@ start_window
 skip
 (
 "
-https
-:
-/
-/
-bugzilla
-.
-mozilla
-.
-org
-/
-show_bug
-.
-cgi
-?
-id
-=
+Bug
 1213875
 "
 )
@@ -1789,6 +1789,18 @@ cheese
 )
     
 skip_if_mobile
+(
+"
+Fennec
+doesn
+'
+t
+support
+other
+chrome
+windows
+"
+)
     
 def
 test_highlight_elements
@@ -2202,6 +2214,19 @@ scrollHeight
 )
     
 skip_if_mobile
+(
+"
+Needs
+application
+independent
+method
+to
+open
+a
+new
+tab
+"
+)
     
 def
 test_capture_tab_already_closed
@@ -2337,22 +2362,7 @@ screenshot
 skip
 (
 "
-https
-:
-/
-/
-bugzilla
-.
-mozilla
-.
-org
-/
-show_bug
-.
-cgi
-?
-id
-=
+Bug
 1213875
 "
 )
