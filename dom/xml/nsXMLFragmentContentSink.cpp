@@ -851,6 +851,8 @@ nsGkAtoms
 :
 script
 )
+|
+|
 aContent
 -
 >
