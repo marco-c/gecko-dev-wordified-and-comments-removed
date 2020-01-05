@@ -134,6 +134,11 @@ ssl3ext
 c
 '
 '
+ssl3exthandle
+.
+c
+'
+'
 ssl3gthr
 .
 c
@@ -230,6 +235,11 @@ c
 '
 '
 tls13con
+.
+c
+'
+'
+tls13exthandle
 .
 c
 '

@@ -167,6 +167,14 @@ uint8_t
 type
 )
 ;
+PRBool
+SSLInt_SendNewSessionTicket
+(
+PRFileDesc
+*
+fd
+)
+;
 SECStatus
 SSLInt_AdvanceWriteSeqNum
 (

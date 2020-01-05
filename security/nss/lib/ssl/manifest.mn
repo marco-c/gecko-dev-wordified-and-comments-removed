@@ -155,6 +155,10 @@ ssl3ext
 .
 c
 \
+ssl3exthandle
+.
+c
+\
 sslmutex
 .
 c
@@ -204,6 +208,10 @@ ssl3ecc
 c
 \
 tls13con
+.
+c
+\
+tls13exthandle
 .
 c
 \
