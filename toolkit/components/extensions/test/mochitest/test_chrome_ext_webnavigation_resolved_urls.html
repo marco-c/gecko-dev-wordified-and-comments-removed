@@ -214,8 +214,9 @@ onCompleted
 .
 addListener
 (
-async
+(
 msg
+)
 =
 >
 {
@@ -255,7 +256,6 @@ URL
 "
 )
 ;
-await
 browser
 .
 tabs
@@ -266,7 +266,14 @@ msg
 .
 tabId
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -276,6 +283,9 @@ sendMessage
 "
 next
 "
+)
+;
+}
 )
 ;
 }

@@ -19,7 +19,6 @@ ExtensionTestUtils
 loadExtension
 (
 {
-async
 background
 (
 )
@@ -188,9 +187,6 @@ expected
 }
 }
 }
-try
-{
-await
 Promise
 .
 all
@@ -199,7 +195,14 @@ getCalls
 (
 )
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -216,10 +219,13 @@ params
 )
 ;
 }
+)
+.
 catch
 (
 e
-)
+=
+>
 {
 browser
 .
@@ -255,6 +261,8 @@ params
 )
 ;
 }
+)
+;
 }
 }
 )

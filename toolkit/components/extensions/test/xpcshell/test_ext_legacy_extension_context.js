@@ -126,7 +126,6 @@ onMessage
 .
 addListener
 (
-async
 msg
 =
 >
@@ -145,10 +144,6 @@ message
 "
 )
 {
-let
-reply
-=
-await
 browser
 .
 runtime
@@ -163,7 +158,13 @@ legacy_extension
 message
 "
 )
-;
+.
+then
+(
+reply
+=
+>
+{
 browser
 .
 test
@@ -202,6 +203,9 @@ reply
 -
 message
 "
+)
+;
+}
 )
 ;
 }

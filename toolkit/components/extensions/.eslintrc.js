@@ -25,17 +25,6 @@ eslintrc
 js
 "
 "
-parserOptions
-"
-:
-{
-"
-ecmaVersion
-"
-:
-8
-}
-"
 globals
 "
 :
@@ -173,7 +162,7 @@ no
 aArgs
 "
 :
-2
+1
 "
 mozilla
 /
@@ -387,7 +376,7 @@ spacing
 "
 :
 [
-2
+1
 "
 never
 "
