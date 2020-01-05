@@ -118,6 +118,14 @@ globalSession
 Override
 public
 void
+handleFullSyncNecessary
+(
+)
+{
+}
+Override
+public
+void
 handleAborted
 (
 GlobalSession

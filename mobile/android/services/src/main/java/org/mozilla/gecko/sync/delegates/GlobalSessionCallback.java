@@ -119,6 +119,11 @@ GlobalSession
 globalSession
 )
 ;
+void
+handleFullSyncNecessary
+(
+)
+;
 boolean
 shouldBackOffStorage
 (

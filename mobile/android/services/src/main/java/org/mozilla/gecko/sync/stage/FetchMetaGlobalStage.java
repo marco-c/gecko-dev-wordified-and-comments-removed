@@ -327,6 +327,7 @@ FetchMetaGlobalStage
 return
 ;
 }
+final
 long
 lastModified
 =

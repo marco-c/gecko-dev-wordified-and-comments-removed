@@ -8,6 +8,15 @@ gecko
 sync
 ;
 import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
+import
 java
 .
 util
@@ -275,6 +284,7 @@ map
 )
 ;
 }
+Nullable
 public
 Long
 getTimestamp
