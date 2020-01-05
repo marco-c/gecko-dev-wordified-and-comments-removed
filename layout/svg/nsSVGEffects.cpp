@@ -3130,9 +3130,6 @@ nsIURI
 >
 markerURL
 =
-nsSVGEffects
-:
-:
 GetMarkerURI
 (
 aFrame
@@ -3154,9 +3151,6 @@ MarkerBeginProperty
 ;
 markerURL
 =
-nsSVGEffects
-:
-:
 GetMarkerURI
 (
 aFrame
@@ -3178,9 +3172,6 @@ MarkerMiddleProperty
 ;
 markerURL
 =
-nsSVGEffects
-:
-:
 GetMarkerURI
 (
 aFrame
@@ -4646,7 +4637,13 @@ GetMarkerURI
 nsIFrame
 *
 aFrame
-FragmentOrURL
+RefPtr
+<
+css
+:
+:
+URLValue
+>
 nsStyleSVG
 :
 :
@@ -4655,11 +4652,9 @@ aMarker
 )
 {
 return
-ResolveFragmentOrURL
+ResolveURLUsingLocalRef
 (
 aFrame
-&
-(
 aFrame
 -
 >
@@ -4670,7 +4665,6 @@ StyleSVG
 >
 *
 aMarker
-)
 )
 ;
 }
