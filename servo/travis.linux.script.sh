@@ -141,6 +141,8 @@ github
 .
 com
 /
+servo
+/
 doc
 .
 servo
