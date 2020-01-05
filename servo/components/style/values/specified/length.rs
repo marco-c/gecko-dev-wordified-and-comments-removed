@@ -8176,7 +8176,7 @@ input
 .
 try
 (
-Length
+Number
 :
 :
 parse_non_negative
@@ -8187,7 +8187,7 @@ Ok
 Either
 :
 :
-First
+Second
 (
 v
 )
@@ -8195,7 +8195,7 @@ v
 }
 else
 {
-Number
+Length
 :
 :
 parse_non_negative
@@ -8208,7 +8208,7 @@ map
 Either
 :
 :
-Second
+First
 )
 }
 }
