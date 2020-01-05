@@ -1497,10 +1497,6 @@ mReflowInput
 (
 aReflowInput
 )
-mNew
-(
-nullptr
-)
 mOld
 (
 nullptr
@@ -1526,8 +1522,13 @@ ReflowInput
 &
 mReflowInput
 ;
+mozilla
+:
+:
+UniquePtr
+<
 nsFloatManager
-*
+>
 mNew
 ;
 nsFloatManager
