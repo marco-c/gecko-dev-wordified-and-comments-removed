@@ -14,13 +14,6 @@ servo_util
 opts
 ;
 pub
-struct
-NavigatorInfo
-;
-impl
-NavigatorInfo
-{
-pub
 fn
 Product
 (
@@ -138,6 +131,5 @@ None
 into_string
 (
 )
-}
 }
 }
