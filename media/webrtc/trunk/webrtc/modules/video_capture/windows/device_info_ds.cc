@@ -608,6 +608,15 @@ lpszClassName
 _hInstance
 )
 ;
+DeviceInfoDSSingleton
+:
+:
+GetInfo
+(
+)
+=
+NULL
+;
 }
 int32_t
 DeviceInfoDS
