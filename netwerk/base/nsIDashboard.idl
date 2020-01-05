@@ -382,5 +382,10 @@ NetDashboardCallback
 cb
 )
 ;
+AUTF8String
+getLogPath
+(
+)
+;
 }
 ;
