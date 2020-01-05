@@ -1493,17 +1493,7 @@ nsSVGElement
 :
 FromContentOrNull
 (
-const_cast
-<
-dom
-:
-:
-Element
-*
->
-(
 aElement
-)
 )
 ;
 if
