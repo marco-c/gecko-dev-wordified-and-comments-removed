@@ -121,23 +121,51 @@ gradle
 '
          
 '
-assembleAutomationRelease
+app
+:
+assembleOfficialAustralisRelease
 '
          
 '
-assembleAutomationDebug
+app
+:
+assembleOfficialAustralisDebug
 '
          
 '
-assembleAutomationDebugAndroidTest
+app
+:
+assembleOfficialAustralisDebugAndroidTest
 '
          
 '
-checkstyle
+app
+:
+findbugsOfficialAustralisDebug
 '
          
 '
-findbugsAutomationDebug
+app
+:
+assembleOfficialPhotonRelease
+'
+         
+'
+app
+:
+assembleOfficialPhotonDebug
+'
+         
+'
+app
+:
+assembleOfficialPhotonDebugAndroidTest
+'
+         
+'
+app
+:
+findbugsOfficialPhotonDebug
 '
          
 '
@@ -156,6 +184,10 @@ assembleWithoutGeckoBinaries
 geckoview_example
 :
 assembleWithoutGeckoBinariesAndroidTest
+'
+         
+'
+checkstyle
 '
         
 ]
