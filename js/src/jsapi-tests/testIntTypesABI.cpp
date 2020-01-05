@@ -132,6 +132,15 @@ include
 "
 js
 /
+RefCounted
+.
+h
+"
+#
+include
+"
+js
+/
 RequiredDefines
 .
 h
