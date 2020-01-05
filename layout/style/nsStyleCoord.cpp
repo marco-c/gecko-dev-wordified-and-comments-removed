@@ -1574,7 +1574,7 @@ result
 \
 static_assert
 (
-NS_HALF_TO_FULL_CORNER
+HalfToFullCorner
 (
 corner
 )
@@ -1583,7 +1583,7 @@ corner
 result
 \
 "
-NS_HALF_TO_FULL_CORNER
+HalfToFullCorner
 is
 wrong
 "
