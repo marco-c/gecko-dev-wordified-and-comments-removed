@@ -239,7 +239,7 @@ gecko_bindings
 structs
 :
 :
-StyleClipPath
+StyleShapeSource
 ;
 use
 gecko_bindings
@@ -4876,12 +4876,12 @@ dst
 :
 *
 mut
-StyleClipPath
+StyleShapeSource
 src
 :
 *
 const
-StyleClipPath
+StyleShapeSource
 )
 ;
 }
@@ -4898,7 +4898,7 @@ clip
 :
 *
 mut
-StyleClipPath
+StyleShapeSource
 )
 ;
 }
@@ -4935,7 +4935,7 @@ clip
 :
 *
 mut
-StyleClipPath
+StyleShapeSource
 uri
 :
 ServoBundledURI

@@ -2836,10 +2836,10 @@ StyleBasicShape
 StyleBasicShapeType
 "
 "
-StyleClipPath
-"
-"
 StyleGeometryBox
+"
+"
+StyleShapeSource
 "
 "
 StyleTransition
@@ -3625,7 +3625,7 @@ StyleBasicShape
 StyleBasicShapeType
 "
 "
-StyleClipPath
+StyleShapeSource
 "
 "
 nsCSSKeyword

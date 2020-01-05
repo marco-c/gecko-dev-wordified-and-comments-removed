@@ -24235,8 +24235,8 @@ structs
 :
 :
 {
-StyleClipPath
 StyleFillRule
+StyleShapeSource
 }
 ;
 use
@@ -24442,7 +24442,7 @@ clip_path
 :
 &
 mut
-StyleClipPath
+StyleShapeSource
 ty
 :
 StyleBasicShapeType
