@@ -675,12 +675,7 @@ if
 isFirstProfiledThread
 &
 &
-Sampler
-:
-:
-GetActiveSampler
-(
-)
+gSampler
 -
 >
 ProfileMemory

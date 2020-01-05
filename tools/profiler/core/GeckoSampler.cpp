@@ -1327,11 +1327,6 @@ info
 )
 ;
 }
-SetActiveSampler
-(
-this
-)
-;
 }
 #
 ifdef
@@ -1382,11 +1377,6 @@ IsActive
 )
 Stop
 (
-)
-;
-SetActiveSampler
-(
-nullptr
 )
 ;
 {
