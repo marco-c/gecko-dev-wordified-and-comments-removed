@@ -278,6 +278,15 @@ OneCRLBlocklistClient
 "
 PluginBlocklistClient
 "
+"
+FILENAME_ADDONS_JSON
+"
+"
+FILENAME_GFX_JSON
+"
+"
+FILENAME_PLUGINS_JSON
+"
 ]
 "
 blocklist

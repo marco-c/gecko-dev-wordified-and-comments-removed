@@ -3883,13 +3883,6 @@ browser
 defaults
 /
 permissions
-RESPATH
-/
-browser
-/
-defaults
-/
-blocklists
 ;
 Warning
 :

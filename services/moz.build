@@ -116,9 +116,6 @@ DIRS
 '
 fxaccounts
 '
-'
-blocklists
-'
 ]
 if
 CONFIG
