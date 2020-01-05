@@ -122,9 +122,11 @@ function
 e
 )
 {
+setTimeout
+(
 t
 .
-step_timeout
+step_func
 (
 function
 (
@@ -140,6 +142,7 @@ test
 )
 ;
 }
+)
 1000
 )
 ;
@@ -176,7 +179,7 @@ onmessage
 =
 t
 .
-step_func_done
+step_func
 (
 function
 (
@@ -186,6 +189,12 @@ e
 ws
 .
 close
+(
+)
+;
+t
+.
+done
 (
 )
 ;
@@ -211,9 +220,11 @@ t
 .
 step_func
 (
+function
+(
 e
-=
->
+)
+{
 assert_unreached
 (
 "
@@ -226,6 +237,7 @@ e
 .
 type
 )
+}
 )
 ;
 }

@@ -341,7 +341,15 @@ got
 unexpected
 error
 event
+:
 '
++
+JSON
+.
+stringify
+(
+e
+)
 )
 ;
 }

@@ -7,3 +7,10 @@ manifest
 .
 /
 lint
+.
+/
+diff
+-
+manifest
+.
+py

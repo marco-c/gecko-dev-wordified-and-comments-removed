@@ -246,21 +246,6 @@ request
 .
 GET
     
-if
-tag
-:
-        
-tag
-=
-'
-"
-%
-s
-"
-'
-%
-tag
-    
 server_state
 =
 request
@@ -390,8 +375,10 @@ set
 ETag
 "
 '
+"
 %
 s
+"
 '
 %
 tag

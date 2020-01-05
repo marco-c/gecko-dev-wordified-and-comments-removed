@@ -150,6 +150,13 @@ PopStateEvent
 PopStateEvent
 "
 "
+ProgressEvent
+"
+:
+"
+ProgressEvent
+"
+"
 StorageEvent
 "
 :

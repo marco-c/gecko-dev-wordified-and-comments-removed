@@ -427,8 +427,8 @@ function
 t
 )
 {
-const
-animation
+var
+anim
 =
 createDiv
 (
@@ -442,7 +442,7 @@ null
 ;
 assert_class_string
 (
-animation
+anim
 '
 Animation
 '
@@ -525,7 +525,7 @@ function
 t
 )
 {
-const
+var
 animation
 =
 createDiv
