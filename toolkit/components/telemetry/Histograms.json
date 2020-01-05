@@ -74932,7 +74932,7 @@ handshake
 see
 key
 in
-HandshakeCallback
+AccumulateCipherSuite
 in
 nsNSSCallbacks
 .
@@ -74993,7 +74993,7 @@ handshake
 see
 key
 in
-HandshakeCallback
+AccumulateCipherSuite
 in
 nsNSSCallbacks
 .
