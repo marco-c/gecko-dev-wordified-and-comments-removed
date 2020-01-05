@@ -120,15 +120,6 @@ bool
 restart
 =
 true
-bool
-isOSUpdate
-=
-false
-nsIFile
-*
-osApplyToDir
-=
-nullptr
 ProcessType
 *
 pid
