@@ -85,9 +85,6 @@ global
 autocomplete
 .
 css
-#
-ifndef
-MOZ_THEME_FASTSTRIPE
 skin
 /
 classic
@@ -180,8 +177,6 @@ global
 textbox
 .
 css
-#
-endif
 skin
 /
 classic

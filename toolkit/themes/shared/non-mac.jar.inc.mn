@@ -377,9 +377,6 @@ richlistbox
 .
 css
 )
-#
-ifndef
-MOZ_THEME_FASTSTRIPE
 skin
 /
 classic
@@ -404,8 +401,6 @@ xulscrollbars
 .
 css
 )
-#
-endif
 skin
 /
 classic
