@@ -216,6 +216,11 @@ libgles2
 mesa
 -
 dev
+libegl1
+-
+mesa
+-
+dev
 If
 you
 are
