@@ -363,7 +363,7 @@ str
 )
 ;
 void
-MarkParser
+TraceParser
 (
 JSTracer
 *

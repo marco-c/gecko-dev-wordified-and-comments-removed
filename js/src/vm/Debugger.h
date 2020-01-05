@@ -608,7 +608,7 @@ JSObject
 )
 >
 void
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 JSTracer
 *
@@ -2248,7 +2248,7 @@ obj
 )
 ;
 void
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 JSTracer
 *
@@ -3720,7 +3720,7 @@ all
 }
 static
 void
-markIncomingCrossCompartmentEdges
+traceIncomingCrossCompartmentEdges
 (
 JSTracer
 *
@@ -3730,16 +3730,16 @@ tracer
 static
 MOZ_MUST_USE
 bool
-markAllIteratively
+markIteratively
 (
 GCMarker
 *
-trc
+marker
 )
 ;
 static
 void
-markAll
+traceAll
 (
 JSTracer
 *

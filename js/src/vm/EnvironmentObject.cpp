@@ -12354,7 +12354,7 @@ void
 DebugEnvironments
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -15291,7 +15291,7 @@ void
 DebugEnvironments
 :
 :
-markLiveFrame
+traceLiveFrame
 (
 JSTracer
 *

@@ -80,7 +80,7 @@ jit
 ;
 static
 void
-MarkLocals
+TraceLocals
 (
 BaselineFrame
 *
@@ -147,7 +147,7 @@ frameIterator
 {
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 calleeToken
@@ -374,7 +374,7 @@ nfixed
 nlivefixed
 )
 {
-MarkLocals
+TraceLocals
 (
 this
 trc
@@ -387,7 +387,7 @@ numValueSlots
 }
 else
 {
-MarkLocals
+TraceLocals
 (
 this
 trc
@@ -414,7 +414,7 @@ setUndefined
 (
 )
 ;
-MarkLocals
+TraceLocals
 (
 this
 trc
@@ -446,7 +446,7 @@ compartment
 debugEnvs
 -
 >
-markLiveFrame
+traceLiveFrame
 (
 trc
 this

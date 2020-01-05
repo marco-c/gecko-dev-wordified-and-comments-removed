@@ -888,7 +888,7 @@ frame
 )
 ;
 void
-MarkJitActivations
+TraceJitActivations
 (
 JSRuntime
 *
@@ -3602,7 +3602,7 @@ pcRes
 )
 ;
 CalleeToken
-MarkCalleeToken
+TraceCalleeToken
 (
 JSTracer
 *

@@ -708,7 +708,7 @@ freeOsrTempData
 ;
 static
 void
-Mark
+Trace
 (
 JSTracer
 *
@@ -723,7 +723,7 @@ lock
 ;
 static
 void
-MarkJitcodeGlobalTableUnconditionally
+TraceJitcodeGlobalTable
 (
 JSTracer
 *
@@ -735,9 +735,9 @@ MOZ_MUST_USE
 bool
 MarkJitcodeGlobalTableIteratively
 (
-JSTracer
+GCMarker
 *
-trc
+marker
 )
 ;
 static
@@ -2242,7 +2242,7 @@ cx
 )
 ;
 void
-mark
+trace
 (
 JSTracer
 *

@@ -11657,7 +11657,7 @@ PHASE_MARK_ROOTS
 Debugger
 :
 :
-markAll
+traceAll
 (
 &
 trc
@@ -11666,7 +11666,7 @@ trc
 Debugger
 :
 :
-markIncomingCrossCompartmentEdges
+traceIncomingCrossCompartmentEdges
 (
 &
 trc
@@ -11675,7 +11675,7 @@ trc
 WeakMapBase
 :
 :
-markAll
+traceZone
 (
 zone
 &
@@ -11726,7 +11726,7 @@ c
 watchpointMap
 -
 >
-markAll
+trace
 (
 &
 trc
@@ -19076,7 +19076,7 @@ markedAny
 Debugger
 :
 :
-markAllIteratively
+markIteratively
 (
 &
 marker

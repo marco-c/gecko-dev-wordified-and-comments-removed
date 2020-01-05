@@ -3626,7 +3626,7 @@ PHASE_MARK_ROOTS
 Debugger
 :
 :
-markAll
+traceAll
 (
 &
 mover

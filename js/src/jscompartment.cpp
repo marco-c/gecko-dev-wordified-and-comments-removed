@@ -3033,7 +3033,7 @@ trc
 Debugger
 :
 :
-markIncomingCrossCompartmentEdges
+traceIncomingCrossCompartmentEdges
 (
 trc
 )
@@ -3160,7 +3160,7 @@ jitCompartment_
 jitCompartment_
 -
 >
-mark
+trace
 (
 trc
 this
@@ -3248,7 +3248,7 @@ watchpointMap
 watchpointMap
 -
 >
-markAll
+trace
 (
 trc
 )
@@ -3261,7 +3261,7 @@ debugEnvs
 debugEnvs
 -
 >
-mark
+trace
 (
 trc
 )

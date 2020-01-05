@@ -1417,7 +1417,7 @@ true
 }
 static
 void
-WeakMap_mark
+WeakMap_trace
 (
 JSTracer
 *
@@ -1962,7 +1962,7 @@ WeakMap_finalize
 nullptr
 nullptr
 nullptr
-WeakMap_mark
+WeakMap_trace
 }
 ;
 const

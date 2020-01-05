@@ -21344,11 +21344,10 @@ isMarkingTracer
 )
 &
 &
-static_cast
-<
 GCMarker
-*
->
+:
+:
+fromTracer
 (
 trc
 )

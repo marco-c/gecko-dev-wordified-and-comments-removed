@@ -3070,7 +3070,7 @@ mallocSizeOf
 }
 ;
 void
-MarkInterpreterActivations
+TraceInterpreterActivations
 (
 JSRuntime
 *
@@ -5298,7 +5298,7 @@ top
 )
 ;
 void
-markRematerializedFrames
+traceRematerializedFrames
 (
 JSTracer
 *
@@ -5332,7 +5332,7 @@ fp
 )
 ;
 void
-markIonRecovery
+traceIonRecovery
 (
 JSTracer
 *

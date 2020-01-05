@@ -4601,7 +4601,7 @@ isBareExit
 ;
 }
 CalleeToken
-MarkCalleeToken
+TraceCalleeToken
 (
 JSTracer
 *
@@ -4838,7 +4838,7 @@ a
 endif
 static
 void
-MarkThisAndArguments
+TraceThisAndArguments
 (
 JSTracer
 *
@@ -5152,7 +5152,7 @@ value
 endif
 static
 void
-MarkIonJSFrame
+TraceIonJSFrame
 (
 JSTracer
 *
@@ -5182,7 +5182,7 @@ layout
 >
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 layout
@@ -5232,7 +5232,7 @@ ionScriptFromCalleeToken
 )
 ;
 }
-MarkThisAndArguments
+TraceThisAndArguments
 (
 trc
 frame
@@ -5583,7 +5583,7 @@ endif
 }
 static
 void
-MarkBailoutFrame
+TraceBailoutFrame
 (
 JSTracer
 *
@@ -5613,7 +5613,7 @@ layout
 >
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 layout
@@ -5625,7 +5625,7 @@ calleeToken
 )
 )
 ;
-MarkThisAndArguments
+TraceThisAndArguments
 (
 trc
 frame
@@ -5948,7 +5948,7 @@ slots
 }
 static
 void
-MarkJitStubFrame
+TraceJitStubFrame
 (
 JSTracer
 *
@@ -6031,7 +6031,7 @@ trc
 }
 static
 void
-MarkIonAccessorICFrame
+TraceIonAccessorICFrame
 (
 JSTracer
 *
@@ -6142,7 +6142,7 @@ address
 }
 static
 void
-MarkJitExitFrameCopiedArguments
+TraceJitExitFrameCopiedArguments
 (
 JSTracer
 *
@@ -6318,7 +6318,7 @@ double
 else
 static
 void
-MarkJitExitFrameCopiedArguments
+TraceJitExitFrameCopiedArguments
 (
 JSTracer
 *
@@ -6337,7 +6337,7 @@ footer
 endif
 static
 void
-MarkJitExitFrame
+TraceJitExitFrame
 (
 JSTracer
 *
@@ -7051,7 +7051,7 @@ layout
 >
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 layout
@@ -7063,7 +7063,7 @@ calleeToken
 )
 )
 ;
-MarkThisAndArguments
+TraceThisAndArguments
 (
 trc
 frame
@@ -7602,7 +7602,7 @@ break
 ;
 }
 }
-MarkJitExitFrameCopiedArguments
+TraceJitExitFrameCopiedArguments
 (
 trc
 f
@@ -7612,7 +7612,7 @@ footer
 }
 static
 void
-MarkRectifierFrame
+TraceRectifierFrame
 (
 JSTracer
 *
@@ -7660,7 +7660,7 @@ thisv
 }
 static
 void
-MarkJitActivation
+TraceJitActivation
 (
 JSTracer
 *
@@ -7706,7 +7706,7 @@ endif
 activation
 -
 >
-markRematerializedFrames
+traceRematerializedFrames
 (
 trc
 )
@@ -7714,7 +7714,7 @@ trc
 activation
 -
 >
-markIonRecovery
+traceIonRecovery
 (
 trc
 )
@@ -7751,7 +7751,7 @@ type
 case
 JitFrame_Exit
 :
-MarkJitExitFrame
+TraceJitExitFrame
 (
 trc
 frames
@@ -7780,7 +7780,7 @@ break
 case
 JitFrame_IonJS
 :
-MarkIonJSFrame
+TraceIonJSFrame
 (
 trc
 frames
@@ -7794,7 +7794,7 @@ JitFrame_BaselineStub
 case
 JitFrame_IonStub
 :
-MarkJitStubFrame
+TraceJitStubFrame
 (
 trc
 frames
@@ -7805,7 +7805,7 @@ break
 case
 JitFrame_Bailout
 :
-MarkBailoutFrame
+TraceBailoutFrame
 (
 trc
 frames
@@ -7816,7 +7816,7 @@ break
 case
 JitFrame_Rectifier
 :
-MarkRectifierFrame
+TraceRectifierFrame
 (
 trc
 frames
@@ -7827,7 +7827,7 @@ break
 case
 JitFrame_IonAccessorIC
 :
-MarkIonAccessorICFrame
+TraceIonAccessorICFrame
 (
 trc
 frames
@@ -7850,7 +7850,7 @@ type
 }
 }
 void
-MarkJitActivations
+TraceJitActivations
 (
 JSRuntime
 *
@@ -7879,7 +7879,7 @@ done
 +
 activations
 )
-MarkJitActivation
+TraceJitActivation
 (
 trc
 activations

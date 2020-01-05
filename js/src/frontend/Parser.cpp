@@ -4177,7 +4177,7 @@ traceListHead
 ;
 }
 void
-MarkParser
+TraceParser
 (
 JSTracer
 *

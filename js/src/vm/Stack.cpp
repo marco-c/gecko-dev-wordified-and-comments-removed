@@ -2343,7 +2343,7 @@ compartment
 debugEnvs
 -
 >
-markLiveFrame
+traceLiveFrame
 (
 trc
 this
@@ -2416,7 +2416,7 @@ vm_stack
 }
 static
 void
-MarkInterpreterActivation
+TraceInterpreterActivation
 (
 JSTracer
 *
@@ -2480,7 +2480,7 @@ void
 js
 :
 :
-MarkInterpreterActivations
+TraceInterpreterActivations
 (
 JSRuntime
 *
@@ -2529,7 +2529,7 @@ isInterpreter
 (
 )
 )
-MarkInterpreterActivation
+TraceInterpreterActivation
 (
 trc
 act
@@ -8197,7 +8197,7 @@ jit
 JitActivation
 :
 :
-markRematerializedFrames
+traceRematerializedFrames
 (
 JSTracer
 *
@@ -8409,7 +8409,7 @@ jit
 JitActivation
 :
 :
-markIonRecovery
+traceIonRecovery
 (
 JSTracer
 *

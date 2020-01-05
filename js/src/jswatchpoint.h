@@ -32,6 +32,9 @@ h
 namespace
 js
 {
+class
+GCMarker
+;
 struct
 WeakMapTracer
 ;
@@ -392,13 +395,13 @@ vp
 bool
 markIteratively
 (
-JSTracer
+GCMarker
 *
-trc
+marker
 )
 ;
 void
-markAll
+trace
 (
 JSTracer
 *

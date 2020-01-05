@@ -14142,7 +14142,7 @@ void
 Debugger
 :
 :
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 JSTracer
 *
@@ -14151,7 +14151,7 @@ trc
 {
 objects
 .
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 <
 DebuggerObject_trace
 >
@@ -14161,7 +14161,7 @@ trc
 ;
 environments
 .
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 <
 DebuggerEnv_trace
 >
@@ -14171,7 +14171,7 @@ trc
 ;
 scripts
 .
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 <
 DebuggerScript_trace
 >
@@ -14181,7 +14181,7 @@ trc
 ;
 sources
 .
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 <
 DebuggerSource_trace
 >
@@ -14191,7 +14191,7 @@ trc
 ;
 wasmInstanceScripts
 .
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 <
 DebuggerScript_trace
 >
@@ -14201,7 +14201,7 @@ trc
 ;
 wasmInstanceSources
 .
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 <
 DebuggerSource_trace
 >
@@ -14214,7 +14214,7 @@ void
 Debugger
 :
 :
-markIncomingCrossCompartmentEdges
+traceIncomingCrossCompartmentEdges
 (
 JSTracer
 *
@@ -14357,7 +14357,7 @@ isGCCompacting
 dbg
 -
 >
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 trc
 )
@@ -14369,11 +14369,11 @@ bool
 Debugger
 :
 :
-markAllIteratively
+markIteratively
 (
 GCMarker
 *
-trc
+marker
 )
 {
 bool
@@ -14385,7 +14385,7 @@ JSRuntime
 *
 rt
 =
-trc
+marker
 -
 >
 runtime
@@ -14554,7 +14554,7 @@ hasAnyLiveHooks
 {
 TraceEdge
 (
-trc
+marker
 &
 dbgobj
 "
@@ -14634,7 +14634,7 @@ getHandlerRef
 {
 TraceEdge
 (
-trc
+marker
 &
 bp
 -
@@ -14667,7 +14667,7 @@ void
 Debugger
 :
 :
-markAll
+traceAll
 (
 JSTracer
 *

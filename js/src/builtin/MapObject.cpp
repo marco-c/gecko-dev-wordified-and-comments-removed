@@ -439,7 +439,7 @@ HashableValue
 HashableValue
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -1406,7 +1406,7 @@ finalize
 nullptr
 nullptr
 nullptr
-mark
+trace
 }
 ;
 const
@@ -1672,7 +1672,7 @@ Range
 >
 static
 void
-MarkKey
+TraceKey
 (
 Range
 &
@@ -1691,7 +1691,7 @@ newKey
 =
 key
 .
-mark
+trace
 (
 trc
 )
@@ -1725,7 +1725,7 @@ void
 MapObject
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -1785,7 +1785,7 @@ popFront
 )
 )
 {
-MarkKey
+TraceKey
 (
 r
 r
@@ -5411,7 +5411,7 @@ finalize
 nullptr
 nullptr
 nullptr
-mark
+trace
 }
 ;
 const
@@ -5997,7 +5997,7 @@ void
 SetObject
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -6062,7 +6062,7 @@ popFront
 (
 )
 )
-MarkKey
+TraceKey
 (
 r
 r

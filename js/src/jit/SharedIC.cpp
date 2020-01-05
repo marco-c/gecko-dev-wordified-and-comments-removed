@@ -1024,7 +1024,7 @@ void
 ICStub
 :
 :
-markCode
+traceCode
 (
 JSTracer
 *
@@ -1094,7 +1094,7 @@ JSTracer
 trc
 )
 {
-markCode
+traceCode
 (
 trc
 "

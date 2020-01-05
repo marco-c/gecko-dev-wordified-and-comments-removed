@@ -2520,7 +2520,7 @@ ei
 public
 :
 void
-mark
+trace
 (
 JSTracer
 *
@@ -2554,7 +2554,7 @@ rt
 #
 endif
 void
-markLiveFrame
+traceLiveFrame
 (
 JSTracer
 *

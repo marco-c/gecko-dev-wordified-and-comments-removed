@@ -731,9 +731,9 @@ WatchpointMap
 :
 markIteratively
 (
-JSTracer
+GCMarker
 *
-trc
+marker
 )
 {
 bool
@@ -851,7 +851,7 @@ objectIsLive
 {
 TraceEdge
 (
-trc
+marker
 const_cast
 <
 PreBarrieredObject
@@ -901,7 +901,7 @@ priorKeyId
 ;
 TraceEdge
 (
-trc
+marker
 const_cast
 <
 PreBarrieredId
@@ -952,7 +952,7 @@ closure
 {
 TraceEdge
 (
-trc
+marker
 &
 entry
 .
@@ -1032,7 +1032,7 @@ void
 WatchpointMap
 :
 :
-markAll
+trace
 (
 JSTracer
 *

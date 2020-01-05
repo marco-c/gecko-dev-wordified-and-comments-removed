@@ -5122,7 +5122,7 @@ void
 JSContext
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -5145,6 +5145,14 @@ cycleDetectorSet
 ;
 if
 (
+trc
+-
+>
+isMarkingTracer
+(
+)
+&
+&
 compartment_
 )
 compartment_
