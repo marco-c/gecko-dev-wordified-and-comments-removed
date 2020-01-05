@@ -6163,6 +6163,8 @@ mValues
 double
 offset
 =
+n
+?
 i
 +
 +
@@ -6171,6 +6173,8 @@ double
 (
 n
 )
+:
+1
 ;
 Keyframe
 *
