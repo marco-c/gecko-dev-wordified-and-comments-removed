@@ -2321,6 +2321,7 @@ add_task
 (
 function
 *
+editControlsToPanelEmptySpace
 (
 )
 {
@@ -2825,6 +2826,7 @@ add_task
 (
 function
 *
+editControlsToPanelPlaceholders
 (
 )
 {
