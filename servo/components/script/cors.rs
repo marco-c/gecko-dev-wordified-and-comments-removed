@@ -988,11 +988,8 @@ ForcedPreflight
 {
 methods
 =
+&
 methods_substep4
-.
-as_slice
-(
-)
 ;
 }
 if
@@ -1075,10 +1072,6 @@ name
 eq_ignore_ascii_case
 (
 h2
-.
-as_slice
-(
-)
 )
 )
 {
@@ -1402,10 +1395,6 @@ s
 =
 >
 s
-.
-as_slice
-(
-)
 .
 eq_ignore_ascii_case
 (

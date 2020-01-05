@@ -2475,10 +2475,6 @@ assert
 !
 id
 .
-as_slice
-(
-)
-.
 is_empty
 (
 )

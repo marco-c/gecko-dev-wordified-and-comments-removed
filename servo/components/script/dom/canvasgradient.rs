@@ -326,11 +326,8 @@ color
 :
 parse_color
 (
+&
 color
-.
-as_slice
-(
-)
 )
 .
 unwrap_or

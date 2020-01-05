@@ -118,11 +118,8 @@ str
 :
 from_utf8
 (
+&
 vec
-.
-as_slice
-(
-)
 )
 .
 ok
