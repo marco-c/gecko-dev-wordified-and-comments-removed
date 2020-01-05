@@ -15809,7 +15809,7 @@ lastVersion
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 currentVersion
 =
