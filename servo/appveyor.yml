@@ -402,10 +402,6 @@ only
 :
 -
 master
-platform
-:
--
-x64
 cache
 :
 -

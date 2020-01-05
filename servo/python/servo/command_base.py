@@ -713,7 +713,7 @@ os
 getenv
 (
 "
-VSInstallDir
+PLATFORM
 "
 )
 is
@@ -731,7 +731,18 @@ windows
 msvc
 "
         
-else
+elif
+os
+.
+getenv
+(
+"
+MSYSTEM
+"
+)
+is
+not
+None
 :
             
 os_type
@@ -742,6 +753,15 @@ pc
 windows
 -
 gnu
+"
+        
+else
+:
+            
+os_type
+=
+"
+unknown
 "
     
 elif
