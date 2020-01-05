@@ -293,6 +293,10 @@ InterfaceTypes
 }
 pub
 mod
+attr
+;
+pub
+mod
 blob
 ;
 pub
@@ -634,6 +638,10 @@ htmlunknownelement
 pub
 mod
 mouseevent
+;
+pub
+mod
+namespace
 ;
 pub
 mod
