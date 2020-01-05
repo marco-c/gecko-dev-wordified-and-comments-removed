@@ -103,6 +103,7 @@ OpaqueRedirect
 [
 derive
 (
+Debug
 Clone
 Copy
 Deserialize
@@ -220,6 +221,7 @@ Partial
 [
 derive
 (
+Debug
 Clone
 Copy
 HeapSizeOf
@@ -253,6 +255,7 @@ Errored
 [
 derive
 (
+Debug
 Clone
 HeapSizeOf
 )
