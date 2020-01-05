@@ -1154,7 +1154,10 @@ mProtocolVersion
 bool
 mSendResumeAt
 ;
+Atomic
+<
 bool
+>
 mIPCOpen
 ;
 bool
