@@ -1829,6 +1829,16 @@ this
 .
 _hidePromise
 ;
+yield
+gDevToolsBrowser
+.
+loadBrowserStyleSheet
+(
+this
+.
+_chromeWindow
+)
+;
 this
 .
 createToolbar
