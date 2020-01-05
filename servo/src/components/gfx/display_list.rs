@@ -88,18 +88,6 @@ range
 Range
 ;
 use
-servo_util
-:
-:
-smallvec
-:
-:
-{
-SmallVec
-SmallVec0
-}
-;
-use
 std
 :
 :
@@ -246,7 +234,7 @@ DisplayList
 pub
 positioned_descendants
 :
-SmallVec0
+Vec
 <
 (
 i32
@@ -319,7 +307,7 @@ new
 )
 positioned_descendants
 :
-SmallVec0
+Vec
 :
 :
 new

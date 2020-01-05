@@ -259,18 +259,6 @@ geometry
 Au
 ;
 use
-servo_util
-:
-:
-smallvec
-:
-:
-{
-SmallVec
-SmallVec0
-}
-;
-use
 std
 :
 :
@@ -3537,7 +3525,7 @@ Descendant
 pub
 descendant_links
 :
-SmallVec0
+Vec
 <
 Rawlink
 >
@@ -3561,7 +3549,7 @@ box
 pub
 static_y_offsets
 :
-SmallVec0
+Vec
 <
 Au
 >
@@ -3582,7 +3570,7 @@ Descendants
 {
 descendant_links
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -3590,7 +3578,7 @@ new
 )
 static_y_offsets
 :
-SmallVec0
+Vec
 :
 :
 new

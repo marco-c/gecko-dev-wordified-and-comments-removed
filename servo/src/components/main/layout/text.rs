@@ -98,18 +98,6 @@ range
 Range
 ;
 use
-servo_util
-:
-:
-smallvec
-:
-:
-{
-SmallVec
-SmallVec0
-}
-;
-use
 std
 :
 :
@@ -328,7 +316,7 @@ let
 mut
 new_boxes
 =
-SmallVec0
+Vec
 :
 :
 new
@@ -513,7 +501,7 @@ out_boxes
 :
 &
 mut
-SmallVec0
+Vec
 <
 Box
 >
