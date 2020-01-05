@@ -576,6 +576,8 @@ bool
 aIsDocumentVisible
 bool
 aIsElementVisible
+bool
+aIsElementInTree
 )
 ;
 virtual
@@ -987,6 +989,8 @@ bool
 aIsDocumentVisible
 bool
 aIsElementVisible
+bool
+aIsElementInTree
 )
 ;
 void
@@ -1793,6 +1797,9 @@ mIsDocumentVisible
 ;
 bool
 mIsElementVisible
+;
+bool
+mIsElementInTree
 ;
 bool
 mForcedHidden
