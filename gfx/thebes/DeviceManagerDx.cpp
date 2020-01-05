@@ -2876,6 +2876,11 @@ if
 mDeviceResetReason
 )
 {
+if
+(
+aOutReason
+)
+{
 *
 aOutReason
 =
@@ -2885,6 +2890,7 @@ value
 (
 )
 ;
+}
 return
 true
 ;
@@ -2908,11 +2914,17 @@ Some
 reason
 )
 ;
+if
+(
+aOutReason
+)
+{
 *
 aOutReason
 =
 reason
 ;
+}
 return
 true
 ;
