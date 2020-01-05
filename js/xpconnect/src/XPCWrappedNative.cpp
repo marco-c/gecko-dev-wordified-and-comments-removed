@@ -3905,6 +3905,10 @@ obj
 MOZ_ASSERT
 (
 mFlatJSObject
+.
+unbarrieredGetPtr
+(
+)
 =
 =
 old
@@ -9348,7 +9352,7 @@ x
 "
 mFlatJSObject
 .
-getPtr
+unbarrieredGetPtr
 (
 )
 )
