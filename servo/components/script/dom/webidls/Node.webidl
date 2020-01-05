@@ -215,7 +215,7 @@ Pure
 ]
 readonly
 attribute
-DOMString
+USVString
 baseURI
 ;
 [

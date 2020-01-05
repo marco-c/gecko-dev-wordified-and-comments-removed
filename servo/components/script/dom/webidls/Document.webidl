@@ -146,7 +146,7 @@ Constant
 ]
 readonly
 attribute
-DOMString
+USVString
 URL
 ;
 readonly
@@ -160,7 +160,7 @@ Constant
 ]
 readonly
 attribute
-DOMString
+USVString
 documentURI
 ;
 readonly
