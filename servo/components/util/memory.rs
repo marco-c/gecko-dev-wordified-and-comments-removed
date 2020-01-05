@@ -27,6 +27,17 @@ ffi
 :
 CString
 ;
+#
+[
+cfg
+(
+target_os
+=
+"
+linux
+"
+)
+]
 use
 std
 :
