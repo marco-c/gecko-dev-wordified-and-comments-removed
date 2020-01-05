@@ -2985,11 +2985,7 @@ theme
 "
 style
 /
-Theme
-.
-AppCompat
-.
-NoActionBar
+GeckoCustomTabs
 "
 /
 >
