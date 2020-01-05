@@ -707,7 +707,6 @@ let
 parent_layout_data
 :
 &
-mut
 LayoutDataWrapper
 =
 mem
@@ -834,6 +833,7 @@ mem
 transmute
 (
 &
+mut
 unsafe_flow
 )
 ;
@@ -900,6 +900,7 @@ Relaxed
 )
 ;
 let
+mut
 unsafe_parent
 =
 base
@@ -931,6 +932,7 @@ mem
 transmute
 (
 &
+mut
 unsafe_parent
 )
 ;
@@ -1026,6 +1028,7 @@ run_parallel_helper
 (
 &
 self
+mut
 unsafe_flow
 :
 UnsafeFlow
@@ -1067,6 +1070,7 @@ mem
 transmute
 (
 &
+mut
 unsafe_flow
 )
 ;
