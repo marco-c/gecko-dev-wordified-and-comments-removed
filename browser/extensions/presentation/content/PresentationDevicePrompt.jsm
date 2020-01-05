@@ -572,7 +572,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /

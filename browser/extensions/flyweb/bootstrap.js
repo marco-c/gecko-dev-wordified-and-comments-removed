@@ -859,7 +859,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
