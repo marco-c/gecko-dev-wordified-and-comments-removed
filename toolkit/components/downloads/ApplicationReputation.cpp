@@ -5858,9 +5858,6 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 }
-#
-ifdef
-XP_WIN
 {
 nsAutoCString
 table
@@ -5911,8 +5908,6 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 }
-#
-endif
 LOG
 (
 (
