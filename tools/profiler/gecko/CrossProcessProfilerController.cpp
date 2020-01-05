@@ -465,14 +465,14 @@ GetFeatures
 ;
 ipcParams
 .
-threadFilters
+filters
 (
 )
 =
 aParams
 -
 >
-GetThreadFilterNames
+GetFilters
 (
 )
 ;

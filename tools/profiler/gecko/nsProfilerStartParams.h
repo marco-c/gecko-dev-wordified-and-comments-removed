@@ -54,7 +54,7 @@ nsTArray
 nsCString
 >
 &
-aThreadFilterNames
+aFilters
 )
 ;
 private
@@ -81,7 +81,7 @@ nsTArray
 <
 nsCString
 >
-mThreadFilterNames
+mFilters
 ;
 }
 ;

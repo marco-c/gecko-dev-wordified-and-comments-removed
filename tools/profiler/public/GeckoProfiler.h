@@ -511,7 +511,7 @@ const
 char
 *
 *
-aThreadNameFilters
+aFilters
 uint32_t
 aFilterCount
 )

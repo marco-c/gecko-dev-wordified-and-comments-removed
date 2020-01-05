@@ -514,7 +514,7 @@ const
 char
 *
 *
-aThreadNameFilters
+aFilters
 uint32_t
 aFilterCount
 )
@@ -534,7 +534,7 @@ aEntries
 aInterval
 aFeatures
 aFeatureCount
-aThreadNameFilters
+aFilters
 aFilterCount
 )
 ;

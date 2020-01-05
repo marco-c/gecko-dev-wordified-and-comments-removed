@@ -207,7 +207,7 @@ notxpcom
 nostdcall
 ]
 StringArrayRef
-getThreadFilterNames
+getFilters
 (
 )
 ;
@@ -270,7 +270,7 @@ optional
 ]
 in
 string
-aThreadNameFilters
+aFilters
 [
 optional
 ]

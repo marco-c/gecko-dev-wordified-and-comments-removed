@@ -111,7 +111,7 @@ interval
 nsCString
 [
 ]
-threadFilters
+filters
 ;
 nsCString
 [
