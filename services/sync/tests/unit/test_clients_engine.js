@@ -7350,10 +7350,7 @@ _uploadOutgoing
 engine
 .
 _onRecordsWritten
-.
-call
 (
-engine
 [
 ]
 [
@@ -8098,10 +8095,7 @@ _uploadOutgoing
 engine
 .
 _onRecordsWritten
-.
-call
 (
-engine
 [
 ]
 [
