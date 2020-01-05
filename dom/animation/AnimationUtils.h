@@ -208,7 +208,7 @@ IsOffscreenThrottlingEnabled
 ;
 static
 bool
-IsCoreAPIEnabled
+IsCoreAPIEnabledForCaller
 (
 )
 ;

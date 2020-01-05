@@ -533,7 +533,7 @@ if
 AnimationUtils
 :
 :
-IsCoreAPIEnabled
+IsCoreAPIEnabledForCaller
 (
 )
 )

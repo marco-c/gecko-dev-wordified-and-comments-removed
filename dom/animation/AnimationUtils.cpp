@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -300,7 +307,7 @@ bool
 AnimationUtils
 :
 :
-IsCoreAPIEnabled
+IsCoreAPIEnabledForCaller
 (
 )
 {
@@ -347,6 +354,14 @@ enabled
 }
 return
 sCoreAPIEnabled
+|
+|
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 ;
 }
 }
