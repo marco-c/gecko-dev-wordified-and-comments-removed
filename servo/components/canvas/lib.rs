@@ -15,6 +15,14 @@ extern
 crate
 geom
 ;
+extern
+crate
+"
+util
+"
+as
+servo_util
+;
 pub
 mod
 canvas_render_task
