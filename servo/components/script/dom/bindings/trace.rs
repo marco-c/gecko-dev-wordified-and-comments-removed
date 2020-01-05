@@ -290,10 +290,7 @@ net_traits
 filemanager_thread
 :
 :
-{
-SelectedFileId
 RelativePos
-}
 ;
 use
 net_traits
@@ -2080,12 +2077,6 @@ no_jsmanaged_fields
 !
 (
 SystemTime
-)
-;
-no_jsmanaged_fields
-!
-(
-SelectedFileId
 )
 ;
 no_jsmanaged_fields
