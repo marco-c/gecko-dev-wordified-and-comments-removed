@@ -58,6 +58,13 @@ h
 #
 include
 "
+nsSVGEffects
+.
+h
+"
+#
+include
+"
 nsSVGFilterFrame
 .
 h
