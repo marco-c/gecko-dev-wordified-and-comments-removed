@@ -851,7 +851,6 @@ window
 =
 Window
 (
-root
 )
 ;
 self

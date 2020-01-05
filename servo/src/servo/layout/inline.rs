@@ -224,7 +224,7 @@ width
 ;
 current_height
 =
-int
+i32
 :
 :
 max
@@ -319,7 +319,7 @@ Auto
 >
 au
 (
-int
+i32
 :
 :
 max
