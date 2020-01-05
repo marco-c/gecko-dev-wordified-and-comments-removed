@@ -6034,10 +6034,7 @@ wintarget
 .
 dispatch_event_with_target
 (
-Some
-(
 doctarget
-)
 *
 event
 )
