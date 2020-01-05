@@ -132,11 +132,6 @@ RemoveBlocker
 (
 )
 ;
-void
-EnsureCorrectShutdownObserverState
-(
-)
-;
 static
 StaticRefPtr
 <
@@ -154,10 +149,9 @@ MediaDecoder
 mDecoders
 ;
 bool
-mIsObservingShutdown
-;
-bool
 mIsDoingXPCOMShutDown
+=
+false
 ;
 }
 ;
