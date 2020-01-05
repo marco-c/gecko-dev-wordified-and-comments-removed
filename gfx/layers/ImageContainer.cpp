@@ -600,11 +600,11 @@ this
 mIPDLChild
 )
 ;
-MOZ_ASSERT
+if
 (
 mImageClient
 )
-;
+{
 mAsyncContainerID
 =
 mImageClient
@@ -614,6 +614,7 @@ GetAsyncID
 (
 )
 ;
+}
 }
 }
 ImageContainer
