@@ -56,6 +56,13 @@ MPL
 DevToolsModules
 (
 '
+preview
+-
+panel
+.
+js
+'
+'
 security
 -
 panel

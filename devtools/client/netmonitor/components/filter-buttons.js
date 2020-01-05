@@ -223,7 +223,7 @@ buttons
 }
 FilterButtons
 .
-PropTypes
+propTypes
 =
 {
 state

@@ -211,13 +211,6 @@ NetMonitor
 :
 ResponseBodyAvailable
 "
-RESPONSE_HTML_PREVIEW_DISPLAYED
-:
-"
-NetMonitor
-:
-ResponseHtmlPreviewAvailable
-"
 RESPONSE_IMAGE_THUMBNAIL_DISPLAYED
 :
 "
