@@ -839,7 +839,7 @@ test
     
 (
 '
-sdp_unittests
+sdp_file_parser
 '
 '
 media
@@ -848,7 +848,7 @@ webrtc
 /
 signaling
 /
-test
+fuzztest
 '
 )
     
