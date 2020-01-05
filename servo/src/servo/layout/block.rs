@@ -142,6 +142,7 @@ pure
 fn
 with_block_box
 (
+self
 fn
 (
 box
@@ -304,6 +305,7 @@ pure
 fn
 with_block_box
 (
+self
 cb
 :
 fn
@@ -324,6 +326,7 @@ RenderBox
 )
 {
 match
+*
 self
 {
 BlockFlow
