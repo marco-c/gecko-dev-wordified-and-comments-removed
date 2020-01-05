@@ -1055,6 +1055,17 @@ false
 ;
 if
 (
+!
+mInflated
+)
+{
+init
+(
+)
+;
+}
+if
+(
 hasPermissions
 )
 {
