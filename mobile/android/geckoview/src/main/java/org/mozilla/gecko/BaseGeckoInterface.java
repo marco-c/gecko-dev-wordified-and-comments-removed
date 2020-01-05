@@ -279,7 +279,7 @@ view
 Override
 public
 void
-enableCameraView
+enableOrientationListener
 (
 )
 {
@@ -287,7 +287,7 @@ enableCameraView
 Override
 public
 void
-disableCameraView
+disableOrientationListener
 (
 )
 {
@@ -315,17 +315,6 @@ AppStateListener
 listener
 )
 {
-}
-Override
-public
-View
-getCameraView
-(
-)
-{
-return
-null
-;
 }
 Override
 public
