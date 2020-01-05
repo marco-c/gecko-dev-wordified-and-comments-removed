@@ -1535,7 +1535,7 @@ FileTimeToSystemTime
 "
 ctypes
 .
-default_abi
+winapi_abi
 ctypes
 .
 int

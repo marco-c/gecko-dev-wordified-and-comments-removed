@@ -108,7 +108,7 @@ InternetSetCookieW
 "
 ctypes
 .
-default_abi
+winapi_abi
 BOOL
 LPCTSTR
 LPCTSTR
@@ -127,7 +127,7 @@ InternetGetCookieW
 "
 ctypes
 .
-default_abi
+winapi_abi
 BOOL
 LPCTSTR
 LPCTSTR
