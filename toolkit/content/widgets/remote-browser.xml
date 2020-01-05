@@ -1395,6 +1395,8 @@ _fullZoom
 =
 val
 ;
+try
+{
 this
 .
 messageManager
@@ -1411,6 +1413,13 @@ val
 }
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 if
 (
 changed
@@ -1526,6 +1535,8 @@ _textZoom
 =
 val
 ;
+try
+{
 this
 .
 messageManager
@@ -1542,6 +1553,13 @@ val
 }
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 if
 (
 changed
