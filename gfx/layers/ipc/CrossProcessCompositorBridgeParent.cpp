@@ -776,6 +776,13 @@ APZCTreeManager
 (
 )
 ;
+temp
+-
+>
+ClearTree
+(
+)
+;
 return
 new
 APZCTreeManagerParent
