@@ -195,5 +195,15 @@ DOMString
 message
 )
 ;
+void
+assert
+(
+boolean
+condition
+optional
+DOMString
+message
+)
+;
 }
 ;
