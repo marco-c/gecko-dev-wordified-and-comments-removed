@@ -22,6 +22,16 @@ non_camel_case_types
 #
 !
 [
+deny
+(
+unused_imports
+unused_variable
+unused_mut
+)
+]
+#
+!
+[
 feature
 (
 phase
