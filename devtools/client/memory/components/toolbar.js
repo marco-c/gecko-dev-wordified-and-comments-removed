@@ -1236,6 +1236,12 @@ devtools
 -
 button
 "
+disabled
+:
+!
+snapshots
+.
+length
 onClick
 :
 onClearSnapshotsClick
