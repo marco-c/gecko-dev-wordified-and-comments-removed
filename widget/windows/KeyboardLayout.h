@@ -1183,6 +1183,9 @@ bool
 mIsPrintableKey
 ;
 bool
+mCharMessageHasGone
+;
+bool
 mIsOverridingKeyboardLayout
 ;
 nsTArray
