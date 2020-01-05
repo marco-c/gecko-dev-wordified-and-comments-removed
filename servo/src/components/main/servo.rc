@@ -569,6 +569,10 @@ model
 ;
 pub
 mod
+parallel
+;
+pub
+mod
 text
 ;
 pub
