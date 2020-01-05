@@ -338,6 +338,10 @@ ipc
 IPCResult
 RecvNotifyDeviceReset
 (
+const
+GPUDeviceData
+&
+aData
 )
 override
 ;

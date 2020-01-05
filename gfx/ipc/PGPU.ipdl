@@ -841,6 +841,8 @@ events
 async
 NotifyDeviceReset
 (
+GPUDeviceData
+status
 )
 ;
 /
