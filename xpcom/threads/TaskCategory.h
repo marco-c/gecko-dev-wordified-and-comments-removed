@@ -17,6 +17,7 @@ Timer
 Worker
 IdleCallback
 RefreshDriver
+GarbageCollection
 Other
 Count
 }
