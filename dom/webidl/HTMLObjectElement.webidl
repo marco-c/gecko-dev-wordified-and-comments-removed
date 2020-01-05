@@ -1032,6 +1032,7 @@ feature
 [
 ChromeOnly
 Throws
+NeedsCallerType
 ]
 void
 playPlugin
@@ -1255,6 +1256,7 @@ hasRunningPlugin
 [
 ChromeOnly
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
