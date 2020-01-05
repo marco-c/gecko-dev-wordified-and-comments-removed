@@ -744,7 +744,7 @@ Services
 .
 locale
 .
-getLocaleComponentForUserAgent
+getAppLocale
 (
 )
 .

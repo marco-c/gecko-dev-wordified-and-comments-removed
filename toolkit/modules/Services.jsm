@@ -684,12 +684,12 @@ org
 /
 intl
 /
-nslocaleservice
+localeservice
 ;
 1
 "
 "
-nsILocaleService
+mozILocaleService
 "
 ]
 [
