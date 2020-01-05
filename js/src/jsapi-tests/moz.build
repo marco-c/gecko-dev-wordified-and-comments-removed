@@ -431,6 +431,11 @@ testPreserveJitCode
 cpp
 '
 '
+testPrintf
+.
+cpp
+'
+'
 testPrivateGCThingValue
 .
 cpp
@@ -778,6 +783,12 @@ CXXFLAGS
 Wno
 -
 shadow
+'
+'
+-
+Werror
+=
+format
 '
 ]
 #
