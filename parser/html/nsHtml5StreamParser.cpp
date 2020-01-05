@@ -4554,6 +4554,11 @@ mRequest
 ;
 if
 (
+mCharsetSource
+<
+kCharsetFromUtf8OnlyMime
+&
+&
 !
 wyciwygChannel
 )
