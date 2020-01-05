@@ -119,6 +119,11 @@ ChangeRenderState
 *
 )
 |
+ScrollFragmentPoint
+(
+*
+)
+|
 SetUnRenderedColor
 (
 *
