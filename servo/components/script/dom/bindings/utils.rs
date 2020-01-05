@@ -1844,7 +1844,7 @@ cx
 *
 mut
 JSContext
-global
+parent_proto
 :
 HandleObject
 proto_class
@@ -1874,7 +1874,7 @@ JS_NewObjectWithUniqueType
 (
 cx
 proto_class
-global
+parent_proto
 )
 )
 ;
