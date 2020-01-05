@@ -4832,6 +4832,8 @@ intersects
 &
 layout_context
 .
+shared
+.
 dirty
 )
 {
@@ -5658,7 +5660,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {
@@ -5801,7 +5802,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {
@@ -5919,7 +5919,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {

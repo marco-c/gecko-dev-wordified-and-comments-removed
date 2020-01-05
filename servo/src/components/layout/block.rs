@@ -1923,8 +1923,11 @@ a
 &
 '
 a
-mut
 LayoutContext
+<
+'
+a
+>
 )
 ;
 impl
@@ -2013,8 +2016,11 @@ layout_context
 &
 '
 a
-mut
 LayoutContext
+<
+'
+a
+>
 }
 impl
 <
@@ -2572,7 +2578,6 @@ self
 ctx
 :
 &
-mut
 LayoutContext
 containing_block_inline_size
 :
@@ -4272,6 +4277,10 @@ always
 pub
 fn
 assign_block_size_block_base
+<
+'
+a
+>
 (
 &
 mut
@@ -4279,8 +4288,13 @@ self
 layout_context
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 margins_may_collapse
 :
 MarginsMayCollapseFlag
@@ -5564,6 +5578,8 @@ style
 writing_mode
 layout_context
 .
+shared
+.
 screen_size
 )
 ;
@@ -6453,6 +6469,10 @@ itself
 pub
 fn
 assign_block_size_float
+<
+'
+a
+>
 (
 &
 mut
@@ -6460,8 +6480,13 @@ self
 ctx
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 {
 let
@@ -7441,6 +7466,8 @@ self
 containing_block_size
 (
 ctx
+.
+shared
 .
 screen_size
 )
@@ -9474,7 +9501,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {
@@ -9822,7 +9848,6 @@ self
 layout_context
 :
 &
-mut
 LayoutContext
 )
 {
@@ -9918,6 +9943,8 @@ base
 .
 writing_mode
 layout_context
+.
+shared
 .
 screen_size
 )
@@ -10409,6 +10436,10 @@ traversal
 .
 fn
 assign_block_size_for_inorder_child_if_necessary
+<
+'
+a
+>
 (
 &
 mut
@@ -10416,8 +10447,13 @@ self
 layout_context
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 -
 >
@@ -10467,6 +10503,10 @@ impacted
 }
 fn
 assign_block_size
+<
+'
+a
+>
 (
 &
 mut
@@ -10474,8 +10514,13 @@ self
 ctx
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 {
 /
@@ -11762,7 +11807,6 @@ Au
 ctx
 :
 &
-mut
 LayoutContext
 )
 -
@@ -12305,7 +12349,6 @@ Au
 ctx
 :
 &
-mut
 LayoutContext
 )
 -
@@ -12356,7 +12399,6 @@ Au
 _
 :
 &
-mut
 LayoutContext
 )
 -
@@ -12422,7 +12464,6 @@ BlockFlow
 ctx
 :
 &
-mut
 LayoutContext
 parent_flow_inline_size
 :
@@ -14424,7 +14465,6 @@ Au
 ctx
 :
 &
-mut
 LayoutContext
 )
 -
@@ -14436,6 +14476,8 @@ block
 containing_block_size
 (
 ctx
+.
+shared
 .
 screen_size
 )
@@ -15258,7 +15300,6 @@ Au
 ctx
 :
 &
-mut
 LayoutContext
 )
 -
@@ -15273,6 +15314,8 @@ block
 containing_block_size
 (
 ctx
+.
+shared
 .
 screen_size
 )
@@ -15349,7 +15392,6 @@ Au
 ctx
 :
 &
-mut
 LayoutContext
 )
 -
@@ -15361,6 +15403,8 @@ block
 containing_block_size
 (
 ctx
+.
+shared
 .
 screen_size
 )
@@ -15610,7 +15654,6 @@ Au
 _
 :
 &
-mut
 LayoutContext
 )
 -
@@ -16011,7 +16054,6 @@ Au
 _
 :
 &
-mut
 LayoutContext
 )
 -
