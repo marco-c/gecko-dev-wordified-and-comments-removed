@@ -68,6 +68,12 @@ use
 properties
 :
 :
+LonghandIdSet
+;
+use
+properties
+:
+:
 PropertyDeclarationParseResult
 ;
 use
@@ -95,15 +101,6 @@ single_value
 SpecifiedValue
 as
 SpecifiedTimingFunction
-;
-use
-properties
-:
-:
-property_bit_field
-:
-:
-PropertyBitField
 ;
 use
 std
@@ -1331,7 +1328,7 @@ let
 mut
 seen
 =
-PropertyBitField
+LonghandIdSet
 :
 :
 new
