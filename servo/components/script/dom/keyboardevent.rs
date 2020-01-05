@@ -3338,7 +3338,7 @@ Equal
 =
 >
 "
-Equals
+Equal
 "
 constellation_msg
 :
@@ -4450,7 +4450,7 @@ KpEqual
 =
 >
 "
-NumpadEquals
+NumpadEqual
 "
 constellation_msg
 :
