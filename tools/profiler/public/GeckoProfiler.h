@@ -648,7 +648,7 @@ char
 *
 >
 *
-aFilters
+aFeatures
 mozilla
 :
 :
@@ -659,7 +659,7 @@ char
 *
 >
 *
-aFeatures
+aFilters
 )
 )
 extern
