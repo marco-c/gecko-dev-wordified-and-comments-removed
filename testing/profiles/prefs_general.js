@@ -3168,3 +3168,17 @@ load_flash_only
 false
 )
 ;
+user_pref
+(
+"
+media
+.
+libavcodec
+.
+allow
+-
+obsolete
+"
+true
+)
+;
