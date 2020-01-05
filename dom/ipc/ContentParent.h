@@ -2266,10 +2266,9 @@ const
 nsCString
 &
 aURI
-const
-IPCBlob
-&
-aBlob
+PBlobParent
+*
+aBlobParent
 const
 Principal
 &
