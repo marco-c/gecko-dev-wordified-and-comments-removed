@@ -695,8 +695,6 @@ name
 "
 )
 ;
-return
-;
 }
 if
 (
