@@ -3787,6 +3787,17 @@ LoadEnd
 (
 )
 ;
+PokeGC
+(
+JS
+:
+:
+gcreason
+:
+:
+LOAD_END
+)
+;
 #
 ifdef
 NS_PRINTING
