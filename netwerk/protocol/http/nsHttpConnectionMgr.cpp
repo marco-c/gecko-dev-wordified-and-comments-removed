@@ -10938,7 +10938,7 @@ return
 }
 for
 (
-int32_t
+uint32_t
 i
 =
 ent
@@ -10949,8 +10949,6 @@ mUrgentStartQ
 Length
 (
 )
--
-1
 ;
 i
 >
@@ -11027,7 +11025,7 @@ i
 }
 for
 (
-int32_t
+uint32_t
 i
 =
 ent
@@ -11038,8 +11036,6 @@ mPendingQ
 Length
 (
 )
--
-1
 ;
 i
 >
