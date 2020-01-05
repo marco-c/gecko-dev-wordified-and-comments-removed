@@ -3285,6 +3285,13 @@ Startup
 (
 )
 ;
+PreallocatedProcessManager
+:
+:
+AllocateAfterDelay
+(
+)
+;
 sDisableUnsafeCPOWWarnings
 =
 PR_GetEnv
