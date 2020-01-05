@@ -90,6 +90,11 @@ EXPORTS
 =
 [
 '
+DecryptThroughputLimit
+.
+h
+'
+'
 EMEDecoderModule
 .
 h
