@@ -84,6 +84,17 @@ extern
 crate
 util
 ;
+#
+[
+cfg
+(
+target_os
+=
+"
+android
+"
+)
+]
 extern
 crate
 egl
