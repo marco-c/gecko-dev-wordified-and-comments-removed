@@ -95,6 +95,15 @@ NativeActivity
 "
 )
 ;
+System
+.
+loadLibrary
+(
+"
+main
+"
+)
+;
 }
 private
 void
