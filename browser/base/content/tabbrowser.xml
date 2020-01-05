@@ -50023,11 +50023,6 @@ alltabs_containersMenuTab
 createUserContextMenu
 (
 event
-{
-useAccessKeys
-:
-false
-}
 )
 ;
 return
@@ -50089,11 +50084,6 @@ popup
 createUserContextMenu
 (
 event
-{
-useAccessKeys
-:
-false
-}
 )
 ;
 }
