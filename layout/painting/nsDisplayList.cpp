@@ -36161,6 +36161,13 @@ effectProperties
 HasInvalidClipPath
 (
 )
+|
+|
+effectProperties
+.
+HasInvalidMask
+(
+)
 )
 {
 return
