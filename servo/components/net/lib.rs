@@ -80,6 +80,10 @@ log
 ;
 extern
 crate
+openssl
+;
+extern
+crate
 serialize
 ;
 extern
