@@ -4263,6 +4263,15 @@ aAllocFlags
 if
 (
 !
+gfxPrefs
+:
+:
+WebRenderEnabled
+(
+)
+&
+&
+!
 data
 &
 &
