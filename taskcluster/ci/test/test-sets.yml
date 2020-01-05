@@ -553,8 +553,6 @@ vm
 tests
 :
 -
-awsy
--
 cppunit
 -
 crashtest
