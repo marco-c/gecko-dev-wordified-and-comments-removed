@@ -230,6 +230,9 @@ return
 Ok
 (
 Font
+:
+:
+new
 (
 lib
 font_bin
