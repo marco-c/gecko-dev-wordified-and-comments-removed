@@ -50,9 +50,9 @@ overlap
 style
 :
 "
-position
+top
 :
-fixed
+0px
 "
 }
 ;
@@ -131,10 +131,6 @@ split
 [
 0
 ]
-.
-trim
-(
-)
 test
 .
 style
@@ -198,10 +194,6 @@ split
 [
 0
 ]
-.
-trim
-(
-)
 test
 .
 style
