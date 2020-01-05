@@ -188,6 +188,15 @@ include
 "
 builtin
 /
+RegExp
+.
+h
+"
+#
+include
+"
+builtin
+/
 SelfHostingDefines
 .
 h

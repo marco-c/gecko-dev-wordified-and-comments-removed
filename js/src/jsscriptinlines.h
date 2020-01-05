@@ -41,6 +41,15 @@ h
 #
 include
 "
+vm
+/
+RegExpObject
+.
+h
+"
+#
+include
+"
 wasm
 /
 AsmJS

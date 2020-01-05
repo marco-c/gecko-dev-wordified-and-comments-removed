@@ -76,6 +76,15 @@ h
 #
 include
 "
+builtin
+/
+RegExp
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOperations

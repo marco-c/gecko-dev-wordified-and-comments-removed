@@ -58,6 +58,15 @@ include
 "
 vm
 /
+RegExpObject
+.
+h
+"
+#
+include
+"
+vm
+/
 WrapperObject
 .
 h

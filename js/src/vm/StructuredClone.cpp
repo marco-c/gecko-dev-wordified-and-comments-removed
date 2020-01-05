@@ -108,6 +108,15 @@ include
 "
 vm
 /
+RegExpObject
+.
+h
+"
+#
+include
+"
+vm
+/
 SavedFrame
 .
 h
