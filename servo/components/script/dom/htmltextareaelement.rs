@@ -160,7 +160,6 @@ element
 :
 {
 AttributeMutation
-IN_ENABLED_STATE
 Element
 }
 ;
@@ -285,6 +284,15 @@ script_task
 CommonScriptMsg
 Runnable
 }
+;
+use
+selectors
+:
+:
+states
+:
+:
+*
 ;
 use
 std

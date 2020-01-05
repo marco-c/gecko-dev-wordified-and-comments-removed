@@ -217,7 +217,6 @@ element
 {
 AttributeMutation
 Element
-EventState
 }
 ;
 use
@@ -306,6 +305,15 @@ constellation_msg
 :
 :
 FocusType
+;
+use
+selectors
+:
+:
+states
+:
+:
+*
 ;
 use
 std
@@ -455,7 +463,7 @@ HTMLElement
 :
 new_inherited_with_state
 (
-EventState
+ElementState
 :
 :
 empty
@@ -472,7 +480,7 @@ new_inherited_with_state
 (
 state
 :
-EventState
+ElementState
 tag_name
 :
 DOMString
