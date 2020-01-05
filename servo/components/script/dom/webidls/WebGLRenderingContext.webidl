@@ -3480,8 +3480,6 @@ GLenum
 pname
 )
 ;
-/
-/
 WebGLShaderPrecisionFormat
 ?
 getShaderPrecisionFormat
