@@ -106,8 +106,10 @@ InternalFocusEvent
 aEvent
 )
 ;
+already_AddRefed
+<
 EventTarget
-*
+>
 GetRelatedTarget
 (
 )

@@ -896,6 +896,17 @@ aComposed
 )
 ;
 }
+already_AddRefed
+<
+EventTarget
+>
+EnsureWebAccessibleRelatedTarget
+(
+EventTarget
+*
+aRelatedTarget
+)
+;
 mozilla
 :
 :
