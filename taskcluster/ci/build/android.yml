@@ -672,6 +672,12 @@ opt
 type
 :
 nightly
+-
+with
+-
+multi
+-
+l10n
 treeherder
 :
 platform
