@@ -1510,6 +1510,19 @@ HTMLCanvasElement
 =
 >
 {
+let
+data
+=
+node
+.
+canvas_data
+(
+)
+.
+unwrap
+(
+)
+;
 SpecificFragmentInfo
 :
 :
@@ -1522,6 +1535,7 @@ CanvasFragmentInfo
 new
 (
 node
+data
 )
 )
 }
