@@ -10488,6 +10488,16 @@ Length
 )
 )
 ;
+props
+.
+SetDirection
+(
+nsITextControlFrame
+:
+:
+eForward
+)
+;
 }
 else
 {
