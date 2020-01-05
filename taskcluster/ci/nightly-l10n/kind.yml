@@ -376,6 +376,16 @@ build
 -
 platform
 :
+linux
+.
+*
+:
+1
+android
+.
+*
+:
+1
 default
 :
 2
