@@ -1349,6 +1349,8 @@ ImageBoxInfo
 :
 new
 (
+&
+node
 url
 self
 .

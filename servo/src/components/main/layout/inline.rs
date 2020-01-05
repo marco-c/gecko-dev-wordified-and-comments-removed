@@ -5900,7 +5900,6 @@ image_box
 .
 image_height
 (
-cur_box
 )
 ;
 /
