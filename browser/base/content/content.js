@@ -4007,6 +4007,19 @@ DOMWindowFocus
 false
 )
 ;
+var
+ContentWebRTCShim
+=
+message
+=
+>
+ContentWebRTC
+.
+receiveMessage
+(
+message
+)
+;
 addMessageListener
 (
 "
@@ -4014,7 +4027,7 @@ rtcpeer
 :
 Allow
 "
-ContentWebRTC
+ContentWebRTCShim
 )
 ;
 addMessageListener
@@ -4024,7 +4037,7 @@ rtcpeer
 :
 Deny
 "
-ContentWebRTC
+ContentWebRTCShim
 )
 ;
 addMessageListener
@@ -4034,7 +4047,7 @@ webrtc
 :
 Allow
 "
-ContentWebRTC
+ContentWebRTCShim
 )
 ;
 addMessageListener
@@ -4044,7 +4057,7 @@ webrtc
 :
 Deny
 "
-ContentWebRTC
+ContentWebRTCShim
 )
 ;
 addMessageListener
@@ -4054,7 +4067,7 @@ webrtc
 :
 StopSharing
 "
-ContentWebRTC
+ContentWebRTCShim
 )
 ;
 addMessageListener
