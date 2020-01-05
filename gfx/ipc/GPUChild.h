@@ -180,7 +180,7 @@ ipc
 :
 :
 IPCResult
-RecvAccumulateChildHistogram
+RecvAccumulateChildHistograms
 (
 InfallibleTArray
 <
@@ -199,7 +199,7 @@ ipc
 :
 :
 IPCResult
-RecvAccumulateChildKeyedHistogram
+RecvAccumulateChildKeyedHistograms
 (
 InfallibleTArray
 <

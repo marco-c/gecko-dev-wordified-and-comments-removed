@@ -138,6 +138,8 @@ h
 #
 include
 "
+ipc
+/
 TelemetryIPCAccumulator
 .
 h
@@ -228,6 +230,14 @@ Common
 :
 :
 LogToBrowserConsole
+;
+namespace
+TelemetryIPCAccumulator
+=
+mozilla
+:
+:
+TelemetryIPCAccumulator
 ;
 #
 define
@@ -3540,6 +3550,8 @@ return
 true
 ;
 }
+else
+{
 return
 !
 gCorruptHistograms
@@ -3547,6 +3559,7 @@ gCorruptHistograms
 id
 ]
 ;
+}
 }
 }
 namespace

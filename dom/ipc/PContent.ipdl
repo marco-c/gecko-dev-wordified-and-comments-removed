@@ -5809,7 +5809,7 @@ process
 *
 /
 async
-AccumulateChildHistogram
+AccumulateChildHistograms
 (
 Accumulation
 [
@@ -5818,7 +5818,7 @@ accumulations
 )
 ;
 async
-AccumulateChildKeyedHistogram
+AccumulateChildKeyedHistograms
 (
 KeyedAccumulation
 [
