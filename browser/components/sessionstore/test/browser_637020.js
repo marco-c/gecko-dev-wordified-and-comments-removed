@@ -53,6 +53,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -68,6 +69,7 @@ about
 :
 robots
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -85,6 +87,7 @@ entries
 url
 :
 TEST_URL
+triggeringPrincipal_base64
 }
 ]
 }
@@ -96,6 +99,7 @@ entries
 url
 :
 TEST_URL
+triggeringPrincipal_base64
 }
 ]
 }

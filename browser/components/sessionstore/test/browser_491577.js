@@ -51,6 +51,7 @@ example
 com
 /
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -84,6 +85,7 @@ example
 com
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -109,6 +111,7 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -150,6 +153,7 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -175,6 +179,7 @@ example
 com
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -200,6 +205,7 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -241,6 +247,7 @@ example
 com
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -279,6 +286,7 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -299,6 +307,7 @@ org
 /
 again
 "
+triggeringPrincipal_base64
 title
 :
 "
@@ -335,6 +344,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 title
 :
 "

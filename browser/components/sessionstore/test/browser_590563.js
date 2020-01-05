@@ -26,6 +26,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 hidden
@@ -44,6 +45,7 @@ about
 :
 blank
 "
+triggeringPrincipal_base64
 }
 ]
 hidden
@@ -93,6 +95,7 @@ entries
 [
 {
 url
+triggeringPrincipal_base64
 }
 ]
 formdata

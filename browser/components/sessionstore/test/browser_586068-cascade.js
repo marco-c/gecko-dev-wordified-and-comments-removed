@@ -72,6 +72,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -102,6 +103,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -132,6 +134,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -162,6 +165,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -192,6 +196,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -222,6 +227,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 extData

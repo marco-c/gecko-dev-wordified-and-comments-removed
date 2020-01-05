@@ -320,6 +320,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 attributes

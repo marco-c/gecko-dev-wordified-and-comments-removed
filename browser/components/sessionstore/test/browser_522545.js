@@ -40,6 +40,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -236,6 +237,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -435,6 +437,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 {
 url
@@ -444,6 +447,7 @@ about
 :
 config
 "
+triggeringPrincipal_base64
 }
 ]
 index
@@ -601,6 +605,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 {
 url
@@ -610,6 +615,7 @@ about
 :
 config
 "
+triggeringPrincipal_base64
 }
 ]
 index
@@ -1462,6 +1468,7 @@ about
 :
 blank
 "
+triggeringPrincipal_base64
 }
 ]
 }

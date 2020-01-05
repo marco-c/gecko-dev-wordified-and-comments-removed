@@ -30,6 +30,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 title
 :
 "

@@ -30,6 +30,7 @@ about
 :
 blank
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -45,6 +46,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -279,6 +281,7 @@ example
 .
 org
 "
+triggeringPrincipal_base64
 }
 ]
 extData

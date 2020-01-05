@@ -380,6 +380,7 @@ entries
 url
 :
 testURL
+triggeringPrincipal_base64
 }
 ]
 formdata
