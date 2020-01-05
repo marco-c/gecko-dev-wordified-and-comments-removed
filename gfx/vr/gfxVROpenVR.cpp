@@ -2495,6 +2495,11 @@ VRControllerOpenVR
 :
 VRControllerOpenVR
 (
+dom
+:
+:
+GamepadHand
+aHand
 )
 :
 VRControllerHost
@@ -2536,10 +2541,7 @@ mControllerInfo
 .
 mHand
 =
-GamepadHand
-:
-:
-_empty
+aHand
 ;
 mControllerInfo
 .
@@ -4090,6 +4092,7 @@ openVRController
 new
 VRControllerOpenVR
 (
+hand
 )
 ;
 openVRController
@@ -4106,14 +4109,6 @@ openVRController
 SetTrackedIndex
 (
 trackedDevice
-)
-;
-openVRController
--
->
-SetHand
-(
-hand
 )
 ;
 mOpenVRController
