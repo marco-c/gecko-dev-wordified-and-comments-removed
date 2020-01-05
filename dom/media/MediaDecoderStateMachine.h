@@ -1018,6 +1018,16 @@ HasLowDecodedData
 )
 ;
 bool
+HasLowDecodedAudio
+(
+)
+;
+bool
+HasLowDecodedVideo
+(
+)
+;
+bool
 OutOfDecodedAudio
 (
 )
