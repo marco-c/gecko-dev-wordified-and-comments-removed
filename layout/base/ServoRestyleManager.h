@@ -323,15 +323,6 @@ Element
 aElement
 )
 ;
-static
-void
-ClearDirtyDescendantsFromSubtree
-(
-Element
-*
-aElement
-)
-;
 protected
 :
 ~
