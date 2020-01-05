@@ -3407,6 +3407,10 @@ manifest_obj_relpath
 '
         
 '
+source_relpaths
+'
+        
+'
 dupe_manifest
 '
     
@@ -3429,6 +3433,11 @@ None
 relpath
 =
 None
+sources
+=
+(
+)
+            
 dupe_manifest
 =
 False
@@ -3496,6 +3505,12 @@ self
 manifest_obj_relpath
 =
 relpath
+        
+self
+.
+source_relpaths
+=
+sources
         
 self
 .

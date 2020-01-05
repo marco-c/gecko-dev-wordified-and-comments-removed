@@ -482,6 +482,14 @@ manifest_defaults
         
 self
 .
+source_files
+=
+set
+(
+)
+        
+self
+.
 strict
 =
 strict
@@ -821,6 +829,15 @@ os
 path
 .
 abspath
+(
+filename
+)
+            
+self
+.
+source_files
+.
+add
 (
 filename
 )
