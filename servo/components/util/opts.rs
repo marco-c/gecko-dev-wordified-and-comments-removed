@@ -442,7 +442,7 @@ config_dir
 :
 Option
 <
-String
+PathBuf
 >
 pub
 full_backtraces
@@ -5634,6 +5634,14 @@ config
 -
 dir
 "
+)
+.
+map
+(
+Into
+:
+:
+into
 )
 full_backtraces
 :
