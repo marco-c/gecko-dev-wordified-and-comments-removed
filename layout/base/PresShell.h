@@ -2315,7 +2315,7 @@ aFlags
 void
 AddUserSheet
 (
-nsISupports
+StyleSheet
 *
 aSheet
 )
@@ -2323,7 +2323,7 @@ aSheet
 void
 AddAgentSheet
 (
-nsISupports
+StyleSheet
 *
 aSheet
 )
@@ -2331,7 +2331,7 @@ aSheet
 void
 AddAuthorSheet
 (
-nsISupports
+StyleSheet
 *
 aSheet
 )
@@ -2344,7 +2344,7 @@ mozilla
 :
 SheetType
 aType
-nsISupports
+StyleSheet
 *
 aSheet
 )
