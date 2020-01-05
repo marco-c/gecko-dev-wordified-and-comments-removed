@@ -3314,6 +3314,12 @@ atomic__My_base
 std
 :
 :
+atomic
+"
+"
+std
+:
+:
 atomic___base
 "
 "
