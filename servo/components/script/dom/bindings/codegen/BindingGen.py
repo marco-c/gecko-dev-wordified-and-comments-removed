@@ -254,8 +254,7 @@ args
 ]
 )
     
-f
-=
+with
 open
 (
 '
@@ -267,7 +266,10 @@ pkl
 rb
 '
 )
-    
+as
+f
+:
+        
 parserData
 =
 cPickle
@@ -275,12 +277,6 @@ cPickle
 load
 (
 f
-)
-    
-f
-.
-close
-(
 )
     
 config

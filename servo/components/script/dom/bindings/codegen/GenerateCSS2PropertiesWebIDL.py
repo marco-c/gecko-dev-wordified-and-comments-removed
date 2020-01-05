@@ -119,8 +119,7 @@ extendedAttrs
                                                    
 prop
 )
-idlFile
-=
+with
 open
 (
 sys
@@ -133,16 +132,15 @@ argv
 r
 "
 )
+as
+idlFile
+:
+    
 idlTemplate
 =
 idlFile
 .
 read
-(
-)
-idlFile
-.
-close
 (
 )
 print

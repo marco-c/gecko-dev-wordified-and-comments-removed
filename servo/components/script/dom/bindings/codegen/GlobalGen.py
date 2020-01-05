@@ -298,8 +298,7 @@ filename
 )
 )
         
-f
-=
+with
 open
 (
 fullPath
@@ -307,18 +306,15 @@ fullPath
 rb
 '
 )
-        
+as
+f
+:
+            
 lines
 =
 f
 .
 readlines
-(
-)
-        
-f
-.
-close
 (
 )
         
@@ -344,8 +340,7 @@ finish
 (
 )
     
-resultsFile
-=
+with
 open
 (
 '
@@ -357,7 +352,10 @@ pkl
 wb
 '
 )
-    
+as
+resultsFile
+:
+        
 cPickle
 .
 dump
@@ -366,12 +364,6 @@ parserResults
 resultsFile
 -
 1
-)
-    
-resultsFile
-.
-close
-(
 )
     
 config

@@ -123,8 +123,7 @@ otherwise
 "
 "
     
-f
-=
+with
 open
 (
 filename
@@ -132,18 +131,15 @@ filename
 wb
 '
 )
-    
+as
+f
+:
+        
 f
 .
 write
 (
 newContents
-)
-    
-f
-.
-close
-(
 )
     
 return

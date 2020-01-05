@@ -441,6 +441,15 @@ config_path
 )
 :
             
+with
+open
+(
+config_path
+)
+as
+f
+:
+                
 self
 .
 config
@@ -449,10 +458,7 @@ toml
 .
 loads
 (
-open
-(
-config_path
-)
+f
 .
 read
 (
@@ -1025,12 +1031,18 @@ hash
 "
 )
             
-snapshot_hash
-=
+with
 open
 (
 filename
 )
+as
+f
+:
+                
+snapshot_hash
+=
+f
 .
 read
 (
@@ -1099,14 +1111,20 @@ build
 "
 )
             
-self
-.
-_cargo_build_id
-=
+with
 open
 (
 filename
 )
+as
+f
+:
+                
+self
+.
+_cargo_build_id
+=
+f
 .
 read
 (
