@@ -53,7 +53,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -159,7 +159,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -257,7 +257,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -355,7 +355,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -367,7 +367,7 @@ the
 Internets
 .
 '
-        
+             
 '
 This
 will
@@ -384,7 +384,7 @@ term
 on
 Google
 '
-        
+             
 '
 MDN
 and
@@ -463,7 +463,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -1074,7 +1074,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -1287,7 +1287,7 @@ extension
 txt
 '
 }
-        
+                      
 {
 '
 value
@@ -1311,7 +1311,7 @@ extension
 sh
 '
 }
-        
+                      
 {
 '
 value
@@ -1335,7 +1335,7 @@ extension
 c
 '
 }
-        
+                      
 {
 '
 value
@@ -1361,7 +1361,7 @@ extension
 cpp
 '
 }
-        
+                      
 {
 '
 value
@@ -1385,7 +1385,7 @@ extension
 html
 '
 }
-        
+                      
 {
 '
 value
@@ -1409,7 +1409,7 @@ extension
 js
 '
 }
-        
+                      
 {
 '
 value
@@ -1433,7 +1433,7 @@ extension
 jsm
 '
 }
-        
+                      
 {
 '
 value
@@ -1457,7 +1457,7 @@ extension
 lua
 '
 }
-        
+                      
 {
 '
 value
@@ -1481,7 +1481,7 @@ extension
 pl
 '
 }
-        
+                      
 {
 '
 value
@@ -1505,7 +1505,7 @@ extension
 php
 '
 }
-        
+                      
 {
 '
 value
@@ -1529,7 +1529,7 @@ extension
 py
 '
 }
-        
+                      
 {
 '
 value
@@ -1553,7 +1553,7 @@ extension
 rb
 '
 }
-        
+                      
 {
 '
 value
@@ -1577,7 +1577,7 @@ extension
 css
 '
 }
-        
+                      
 {
 '
 value
@@ -1601,7 +1601,7 @@ extension
 diff
 '
 }
-        
+                      
 {
 '
 value
@@ -1626,7 +1626,7 @@ extension
 ini
 '
 }
-        
+                      
 {
 '
 value
@@ -1650,7 +1650,7 @@ extension
 java
 '
 }
-        
+                      
 {
 '
 value
@@ -1674,7 +1674,7 @@ extension
 xml
 '
 }
-        
+                      
 {
 '
 value
@@ -2028,7 +2028,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -2058,7 +2058,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -2377,6 +2377,7 @@ glob
 .
 cpp
 "
+                                  
 "
 -
 -
@@ -2585,7 +2586,7 @@ if
 not
 show
 :
-           
+            
 args
 .
 append
