@@ -781,6 +781,14 @@ IsInitialized
 )
 )
 ;
+MOZ_ASSERT
+(
+IsFeatureStatusFailure
+(
+aStatus
+)
+)
+;
 mDefault
 .
 Set
