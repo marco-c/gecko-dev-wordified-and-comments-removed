@@ -749,9 +749,10 @@ if
 (
 profiler_feature_active
 (
-"
-restyle
-"
+ProfilerFeature
+:
+:
+Restyle
 )
 )
 {
