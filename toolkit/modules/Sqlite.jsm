@@ -4397,11 +4397,13 @@ options
 if
 (
 !
+(
 source
 instanceof
 Ci
 .
 mozIStorageAsyncConnection
+)
 )
 {
 throw

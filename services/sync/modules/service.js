@@ -2465,9 +2465,11 @@ engines
 if
 (
 !
+(
 name
 in
 ENGINE_MODULES
+)
 )
 {
 this

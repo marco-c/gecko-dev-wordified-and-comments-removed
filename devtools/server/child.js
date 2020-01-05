@@ -291,9 +291,11 @@ module
 if
 (
 !
+(
 setupChild
 in
 m
+)
 )
 {
 dumpn
