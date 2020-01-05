@@ -1669,6 +1669,7 @@ path
 :
 "
 LOG_S
+*
 line
 )
 )
