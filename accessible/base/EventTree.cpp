@@ -1383,7 +1383,11 @@ new
 EventTree
 (
 aContainer
-true
+mDependentEvents
+.
+IsEmpty
+(
+)
 )
 )
 ;
