@@ -4994,7 +4994,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Style
+Frames
 )
 ;
 return
