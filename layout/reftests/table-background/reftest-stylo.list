@@ -798,7 +798,6 @@ table
 column
 .
 html
-#
 fuzzy
 -
 if
@@ -883,7 +882,6 @@ table
 row
 .
 html
-#
 fuzzy
 -
 if
@@ -1078,7 +1076,6 @@ table
 row
 .
 html
-#
 fuzzy
 -
 if
@@ -1113,7 +1110,6 @@ opacity
 table
 .
 html
-#
 =
 =
 scrollable
@@ -1154,7 +1150,6 @@ collapse
 border
 .
 html
-#
 =
 =
 scrollable
@@ -1259,7 +1254,6 @@ dynamic
 1
 .
 html
-#
 =
 =
 table
