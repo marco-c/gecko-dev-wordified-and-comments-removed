@@ -511,8 +511,6 @@ DOMString
 data
 )
 ;
-/
-*
 [
 Creator
 Throws
@@ -526,8 +524,6 @@ DOMString
 data
 )
 ;
-*
-/
 /
 *
 [
