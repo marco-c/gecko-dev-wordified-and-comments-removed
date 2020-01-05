@@ -144,6 +144,11 @@ _
 )
 )
 }
+}
+impl
+DOMManipulationTaskSource
+{
+pub
 fn
 clone
 (
@@ -251,7 +256,7 @@ DOMManipulationTask
 {
 pub
 fn
-handle_msg
+handle_task
 (
 self
 script_thread

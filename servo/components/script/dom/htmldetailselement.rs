@@ -537,7 +537,7 @@ let
 runnable
 =
 box
-ToggleEventRunnable
+DetailsNotificationRunnable
 {
 element
 :
@@ -568,7 +568,7 @@ runnable
 }
 pub
 struct
-ToggleEventRunnable
+DetailsNotificationRunnable
 {
 element
 :
@@ -583,7 +583,7 @@ u32
 impl
 Runnable
 for
-ToggleEventRunnable
+DetailsNotificationRunnable
 {
 fn
 handler
@@ -592,7 +592,7 @@ self
 :
 Box
 <
-ToggleEventRunnable
+DetailsNotificationRunnable
 >
 )
 {
