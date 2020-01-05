@@ -228,6 +228,10 @@ run_test
 (
 )
 {
+allow_all_plugins
+(
+)
+;
 loadAddonManager
 (
 )

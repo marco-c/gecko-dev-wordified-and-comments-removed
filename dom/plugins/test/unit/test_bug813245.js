@@ -304,6 +304,10 @@ run_test
 (
 )
 {
+allow_all_plugins
+(
+)
+;
 var
 plugin
 =

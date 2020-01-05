@@ -205,6 +205,10 @@ run_test
 (
 )
 {
+allow_all_plugins
+(
+)
+;
 do_check_true
 (
 gIsWindows
