@@ -166,6 +166,12 @@ GetCurrentToolbarHeight
 const
 ;
 ScreenIntCoord
+GetCurrentContentOffset
+(
+)
+const
+;
+ScreenIntCoord
 GetCurrentSurfaceHeight
 (
 )
@@ -633,6 +639,12 @@ mCompositorAnimationDeferred
 ;
 bool
 mCompositorLayersUpdateEnabled
+;
+bool
+mCompositorAnimationStarted
+;
+bool
+mCompositorReceivedFirstPaint
 ;
 AnimationStyle
 mCompositorAnimationStyle

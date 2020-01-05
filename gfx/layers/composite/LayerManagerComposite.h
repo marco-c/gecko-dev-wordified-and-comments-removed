@@ -1707,7 +1707,12 @@ RenderToPresentationSurface
 (
 )
 ;
-int32_t
+ScreenCoord
+GetContentShiftForToolbar
+(
+)
+;
+void
 RenderToolbar
 (
 )
