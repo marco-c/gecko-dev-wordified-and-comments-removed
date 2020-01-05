@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlmetaelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLMetaElement
 :

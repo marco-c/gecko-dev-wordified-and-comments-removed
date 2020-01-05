@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlmeterelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLMeterElement
 :

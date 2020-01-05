@@ -95,12 +95,6 @@ probably
 ;
 [
 Abstract
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 HTMLMediaElement

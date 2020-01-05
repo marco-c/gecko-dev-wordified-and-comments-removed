@@ -74,14 +74,6 @@ multipage
 /
 #
 htmloutputelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLOutputElement
 :

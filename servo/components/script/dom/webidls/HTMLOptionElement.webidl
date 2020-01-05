@@ -106,14 +106,6 @@ selected
 false
 )
 ]
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLOptionElement
 :
