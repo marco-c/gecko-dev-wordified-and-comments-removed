@@ -323,7 +323,9 @@ aURI
 spec
 }
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
