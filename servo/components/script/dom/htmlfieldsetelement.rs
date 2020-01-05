@@ -207,7 +207,7 @@ HTMLFieldSetElement
 fn
 new_inherited
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -235,7 +235,7 @@ HTMLElement
 new_inherited_with_state
 (
 IN_ENABLED_STATE
-localName
+local_name
 prefix
 document
 )
@@ -252,7 +252,7 @@ pub
 fn
 new
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -284,7 +284,7 @@ HTMLFieldSetElement
 :
 new_inherited
 (
-localName
+local_name
 prefix
 document
 )

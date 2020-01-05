@@ -409,10 +409,10 @@ DOMRefCell
 <
 BlobImpl
 >
-typeString
+type_string
 :
 String
-isClosed_
+is_closed
 :
 Cell
 <
@@ -487,7 +487,7 @@ new_inherited
 blob_impl
 :
 BlobImpl
-typeString
+type_string
 :
 String
 )
@@ -514,14 +514,14 @@ new
 (
 blob_impl
 )
-typeString
+type_string
 :
 normalize_type_string
 (
 &
-typeString
+type_string
 )
-isClosed_
+is_closed
 :
 Cell
 :
@@ -549,7 +549,7 @@ Blob
 rel_pos
 :
 RelativePos
-relativeContentType
+relative_content_type
 :
 DOMString
 )
@@ -677,7 +677,7 @@ r
 (
 )
 blob_impl
-relativeContentType
+relative_content_type
 .
 into
 (
@@ -1376,7 +1376,7 @@ type_string
 :
 self
 .
-typeString
+type_string
 .
 clone
 (
@@ -2359,7 +2359,7 @@ from
 (
 self
 .
-typeString
+type_string
 .
 clone
 (
@@ -2383,7 +2383,7 @@ Option
 <
 i64
 >
-contentType
+content_type
 :
 Option
 <
@@ -2416,7 +2416,7 @@ new_sliced
 (
 self
 rel_pos
-contentType
+content_type
 .
 unwrap_or
 (
@@ -2443,7 +2443,7 @@ bool
 {
 self
 .
-isClosed_
+is_closed
 .
 get
 (
@@ -2459,7 +2459,7 @@ self
 if
 self
 .
-isClosed_
+is_closed
 .
 get
 (
@@ -2470,7 +2470,7 @@ return
 }
 self
 .
-isClosed_
+is_closed
 .
 set
 (

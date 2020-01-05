@@ -151,7 +151,7 @@ CloseEvent
 event
 :
 Event
-wasClean
+was_clean
 :
 bool
 code
@@ -168,7 +168,7 @@ pub
 fn
 new_inherited
 (
-wasClean
+was_clean
 :
 bool
 code
@@ -192,9 +192,9 @@ Event
 new_inherited
 (
 )
-wasClean
+was_clean
 :
-wasClean
+was_clean
 code
 :
 code
@@ -450,7 +450,7 @@ bool
 {
 self
 .
-wasClean
+was_clean
 }
 fn
 Code

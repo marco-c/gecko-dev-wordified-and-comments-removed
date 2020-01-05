@@ -339,7 +339,7 @@ HTMLAnchorElement
 fn
 new_inherited
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -366,7 +366,7 @@ HTMLElement
 :
 new_inherited
 (
-localName
+local_name
 prefix
 document
 )
@@ -400,7 +400,7 @@ pub
 fn
 new
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -432,7 +432,7 @@ HTMLAnchorElement
 :
 new_inherited
 (
-localName
+local_name
 prefix
 document
 )
@@ -4231,16 +4231,16 @@ implicit_submission
 (
 &
 self
-_ctrlKey
+_ctrl_key
 :
 bool
-_shiftKey
+_shift_key
 :
 bool
-_altKey
+_alt_key
 :
 bool
-_metaKey
+_meta_key
 :
 bool
 )

@@ -186,7 +186,7 @@ Option
 <
 i64
 >
-typeString
+type_string
 :
 &
 str
@@ -205,7 +205,7 @@ Blob
 new_inherited
 (
 blob_impl
-typeString
+type_string
 .
 to_owned
 (

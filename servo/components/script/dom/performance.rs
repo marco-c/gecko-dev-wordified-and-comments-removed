@@ -274,13 +274,13 @@ self
 DOMHighResTimeStamp
 {
 let
-navStart
+nav_start
 =
 self
 .
 timing
 .
-NavigationStartPrecise
+navigation_start_precise
 (
 )
 ;
@@ -297,7 +297,7 @@ precise_time_ns
 as
 f64
 -
-navStart
+nav_start
 )
 /
 1000000

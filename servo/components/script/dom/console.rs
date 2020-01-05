@@ -653,7 +653,7 @@ u64
 fn
 prepare_message
 (
-logLevel
+log_level
 :
 LogLevel
 message
@@ -677,7 +677,7 @@ message
 )
 logLevel
 :
-logLevel
+log_level
 filename
 :
 "

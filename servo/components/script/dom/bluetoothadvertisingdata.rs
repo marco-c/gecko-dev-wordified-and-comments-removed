@@ -87,7 +87,7 @@ Option
 <
 u16
 >
-txPower
+tx_power
 :
 Option
 <
@@ -113,7 +113,7 @@ Option
 <
 u16
 >
-txPower
+tx_power
 :
 Option
 <
@@ -143,9 +143,9 @@ new
 appearance
 :
 appearance
-txPower
+tx_power
 :
-txPower
+tx_power
 rssi
 :
 rssi
@@ -241,7 +241,7 @@ i8
 {
 self
 .
-txPower
+tx_power
 }
 fn
 GetRssi

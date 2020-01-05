@@ -2722,7 +2722,7 @@ GCDescription
 desc
 ;
 let
-invocationKind
+invocation_kind
 =
 match
 desc
@@ -2757,7 +2757,7 @@ isCompartment
 =
 {
 }
-invocationKind
+invocation_kind
 =
 {
 }
@@ -2765,7 +2765,7 @@ invocationKind
 desc
 .
 isCompartment_
-invocationKind
+invocation_kind
 )
 ;
 }

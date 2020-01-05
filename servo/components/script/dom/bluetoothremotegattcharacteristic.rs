@@ -328,7 +328,7 @@ Option
 ByteString
 >
 >
-instanceID
+instance_id
 :
 String
 }
@@ -350,7 +350,7 @@ properties
 :
 &
 BluetoothCharacteristicProperties
-instanceID
+instance_id
 :
 String
 )
@@ -398,9 +398,9 @@ new
 (
 None
 )
-instanceID
+instance_id
 :
-instanceID
+instance_id
 }
 }
 pub
@@ -505,7 +505,7 @@ String
 {
 self
 .
-instanceID
+instance_id
 .
 clone
 (

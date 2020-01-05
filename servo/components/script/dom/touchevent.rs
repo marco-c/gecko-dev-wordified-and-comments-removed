@@ -386,7 +386,7 @@ Window
 type_
 :
 DOMString
-canBubble
+can_bubble
 :
 EventBubbles
 cancelable
@@ -414,16 +414,16 @@ target_touches
 :
 &
 TouchList
-ctrlKey
+ctrl_key
 :
 bool
-altKey
+alt_key
 :
 bool
-shiftKey
+shift_key
 :
 bool
-metaKey
+meta_key
 :
 bool
 )
@@ -467,7 +467,7 @@ bool
 :
 from
 (
-canBubble
+can_bubble
 )
 bool
 :
@@ -486,7 +486,7 @@ ctrl_key
 .
 set
 (
-ctrlKey
+ctrl_key
 )
 ;
 ev
@@ -495,7 +495,7 @@ alt_key
 .
 set
 (
-altKey
+alt_key
 )
 ;
 ev
@@ -504,7 +504,7 @@ shift_key
 .
 set
 (
-shiftKey
+shift_key
 )
 ;
 ev
@@ -513,7 +513,7 @@ meta_key
 .
 set
 (
-metaKey
+meta_key
 )
 ;
 ev
