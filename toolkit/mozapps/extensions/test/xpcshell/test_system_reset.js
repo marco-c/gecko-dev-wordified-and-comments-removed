@@ -2130,7 +2130,7 @@ add_task
 (
 function
 *
-test_updated_bad_update_set
+test_updated
 (
 )
 {
