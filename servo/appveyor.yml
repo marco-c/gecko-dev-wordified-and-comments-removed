@@ -422,9 +422,9 @@ servo
 >
 rust
 -
-nightly
+commit
 -
-date
+hash
 cargo
 -
 commit
@@ -437,9 +437,9 @@ cargo
 >
 rust
 -
-nightly
+commit
 -
-date
+hash
 cargo
 -
 commit

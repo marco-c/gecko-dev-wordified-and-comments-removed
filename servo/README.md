@@ -1535,9 +1535,9 @@ see
 [
 rust
 -
-nightly
+commit
 -
-date
+hash
 ]
 (
 https
@@ -1558,9 +1558,9 @@ master
 /
 rust
 -
-nightly
+commit
 -
-date
+hash
 )
 .
 #
