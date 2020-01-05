@@ -273,11 +273,26 @@ outputprefix
 webidlfile
 )
     
+root2
+=
+CGBindingRoot
+(
+config
+outputprefix
+webidlfile
+)
+    
 if
 replaceFileIfChanged
 (
 filename
 root
+.
+declare
+(
+)
++
+root2
 .
 define
 (
