@@ -156,6 +156,10 @@ StartupPDM
 PlatformDecoderModule
 *
 aPDM
+bool
+aInsertAtBeginning
+=
+false
 )
 ;
 already_AddRefed
