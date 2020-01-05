@@ -534,14 +534,7 @@ owner
 remove_attribute_by_name
 (
 &
-Atom
-:
-:
-from_slice
-(
-&
 name
-)
 )
 .
 ok_or
