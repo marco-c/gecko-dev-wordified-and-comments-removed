@@ -807,6 +807,13 @@ table
 1
 .
 html
+asserts
+-
+if
+(
+stylo
+4
+)
 =
 =
 soft
@@ -831,6 +838,9 @@ table
 2
 .
 html
+#
+bug
+1324661
 #
 Cairo
 '
@@ -6144,7 +6154,6 @@ spacing
 and
 intrinsic
 width
-fails
 =
 =
 negative

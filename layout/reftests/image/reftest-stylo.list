@@ -387,7 +387,7 @@ dyn
 1
 .
 html
-fails
+#
 test
 -
 pref
@@ -527,6 +527,7 @@ dyn
 1
 .
 html
+#
 fails
 test
 -

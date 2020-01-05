@@ -151,7 +151,6 @@ quirks
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -209,7 +208,6 @@ quirks
 2
 .
 html
-fails
 =
 =
 dynamic
@@ -2375,7 +2373,6 @@ override
 quirks
 .
 html
-fails
 =
 =
 decoration

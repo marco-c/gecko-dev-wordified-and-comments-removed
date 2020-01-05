@@ -79,6 +79,7 @@ png
 001c
 .
 html
+#
 fails
 =
 =
@@ -129,6 +130,7 @@ png
 001i
 .
 html
+#
 fails
 =
 =
@@ -204,6 +206,7 @@ png
 002c
 .
 html
+#
 fails
 =
 =
@@ -254,6 +257,7 @@ png
 002i
 .
 html
+#
 fails
 =
 =
@@ -454,6 +458,7 @@ png
 002c
 .
 html
+#
 fails
 =
 =
@@ -504,6 +509,7 @@ png
 002i
 .
 html
+#
 fails
 =
 =
@@ -4479,6 +4485,7 @@ png
 001c
 .
 html
+#
 fails
 =
 =
@@ -4521,6 +4528,7 @@ png
 001i
 .
 html
+#
 fails
 =
 =
@@ -4584,6 +4592,7 @@ png
 002c
 .
 html
+#
 fails
 =
 =
@@ -4626,6 +4635,7 @@ png
 002i
 .
 html
+#
 fails
 =
 =
@@ -4752,6 +4762,7 @@ svg
 001p
 .
 html
+#
 fails
 =
 =
