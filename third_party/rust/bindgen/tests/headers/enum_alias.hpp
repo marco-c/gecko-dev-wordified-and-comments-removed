@@ -1,0 +1,13 @@
+typedef
+unsigned
+char
+uint8_t
+;
+enum
+Bar
+:
+uint8_t
+{
+VAL
+}
+;

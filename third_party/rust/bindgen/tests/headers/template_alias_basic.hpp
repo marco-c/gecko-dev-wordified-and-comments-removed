@@ -1,0 +1,10 @@
+template
+<
+typename
+T
+>
+using
+Wrapped
+=
+T
+;

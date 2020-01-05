@@ -1,0 +1,8 @@
+union
+bar
+{
+int
+baz
+;
+}
+;

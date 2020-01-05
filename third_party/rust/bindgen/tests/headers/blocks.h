@@ -1,0 +1,12 @@
+void
+atexit_b
+(
+void
+(
+^
+)
+(
+void
+)
+)
+;

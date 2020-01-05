@@ -15,7 +15,7 @@ version
 .
 2
 .
-3
+5
 "
 authors
 =
@@ -98,6 +98,15 @@ layout
 "
 "
 bidi
+"
+]
+exclude
+=
+[
+"
+*
+.
+txt
 "
 ]
 [

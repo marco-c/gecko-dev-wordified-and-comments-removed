@@ -1433,24 +1433,6 @@ tables
 rs
 "
     
-fetch
-(
-"
-BidiTest
-.
-txt
-"
-)
-    
-fetch
-(
-"
-BidiCharacterTest
-.
-txt
-"
-)
-    
 if
 os
 .

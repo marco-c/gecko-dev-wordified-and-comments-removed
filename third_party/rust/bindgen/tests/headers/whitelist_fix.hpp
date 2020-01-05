@@ -1,0 +1,17 @@
+struct
+Test
+{
+}
+;
+extern
+"
+C
+"
+void
+Servo_Test
+(
+Test
+*
+a
+)
+;

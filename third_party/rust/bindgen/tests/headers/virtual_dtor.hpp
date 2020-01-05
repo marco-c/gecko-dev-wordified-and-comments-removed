@@ -1,0 +1,11 @@
+struct
+nsSlots
+{
+virtual
+~
+nsSlots
+(
+)
+;
+}
+;

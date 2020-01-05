@@ -394,6 +394,10 @@ level
 =
 0
 }
+#
+[
+inline
+]
 pub
 fn
 is_rtl

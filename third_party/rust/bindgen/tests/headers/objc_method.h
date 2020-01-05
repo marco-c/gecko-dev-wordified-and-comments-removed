@@ -1,0 +1,9 @@
+interface
+Foo
+-
+(
+void
+)
+method
+;
+end

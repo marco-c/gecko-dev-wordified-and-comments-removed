@@ -220,5 +220,5 @@ normalization
 .
 1
 .
-1
+3
 "
