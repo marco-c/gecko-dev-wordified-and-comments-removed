@@ -803,7 +803,7 @@ template
 struct
 ParamTraits
 <
-WRRect
+WrRect
 >
 {
 static
@@ -814,7 +814,7 @@ Message
 *
 aMsg
 const
-WRRect
+WrRect
 &
 aParam
 )
@@ -863,7 +863,7 @@ aMsg
 PickleIterator
 *
 aIter
-WRRect
+WrRect
 *
 aResult
 )

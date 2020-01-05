@@ -781,7 +781,7 @@ rect
 wr
 :
 :
-ToWRRect
+ToWrRect
 (
 Rect
 (
@@ -1076,14 +1076,14 @@ OpDPPushStackingContext
 wr
 :
 :
-ToWRRect
+ToWrRect
 (
 bounds
 )
 wr
 :
 :
-ToWRRect
+ToWrRect
 (
 overflow
 )
