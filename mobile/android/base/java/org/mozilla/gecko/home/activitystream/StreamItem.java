@@ -318,6 +318,10 @@ HomePager
 .
 OnUrlOpenListener
 onUrlOpenListener
+HomePager
+.
+OnUrlOpenInBackgroundListener
+onUrlOpenInBackgroundListener
 )
 {
 super
@@ -354,6 +358,7 @@ getContext
 (
 )
 onUrlOpenListener
+onUrlOpenInBackgroundListener
 )
 )
 ;

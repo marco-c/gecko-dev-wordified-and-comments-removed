@@ -308,6 +308,7 @@ parent
 false
 )
 onUrlOpenListener
+onUrlOpenInBackgroundListener
 )
 ;
 }
