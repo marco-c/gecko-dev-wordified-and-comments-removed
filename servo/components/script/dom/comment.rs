@@ -310,8 +310,11 @@ Comment
 new
 (
 data
-*
 document
+.
+r
+(
+)
 )
 )
 }

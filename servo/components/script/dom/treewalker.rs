@@ -324,8 +324,11 @@ GlobalRef
 :
 Window
 (
-*
 window
+.
+r
+(
+)
 )
 TreeWalkerBinding
 :

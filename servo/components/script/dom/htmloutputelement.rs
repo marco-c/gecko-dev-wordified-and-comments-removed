@@ -334,8 +334,11 @@ ValidityState
 :
 new
 (
-*
 window
+.
+r
+(
+)
 )
 }
 }

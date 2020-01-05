@@ -3226,10 +3226,6 @@ to_object
 }
 impl
 <
-'
-a
-'
-b
 T
 :
 Reflectable
@@ -3238,10 +3234,6 @@ ToJSValConvertible
 for
 Root
 <
-'
-a
-'
-b
 T
 >
 {
@@ -3261,6 +3253,10 @@ JSContext
 JSVal
 {
 self
+.
+r
+(
+)
 .
 reflector
 (

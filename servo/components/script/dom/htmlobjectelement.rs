@@ -522,6 +522,10 @@ root
 (
 )
 .
+r
+(
+)
+.
 Value
 (
 )
@@ -554,6 +558,10 @@ x
 x
 .
 root
+(
+)
+.
+r
 (
 )
 .
@@ -744,8 +752,11 @@ ValidityState
 :
 new
 (
-*
 window
+.
+r
+(
+)
 )
 }
 /
@@ -952,6 +963,10 @@ self
 process_data_url
 (
 window
+.
+r
+(
+)
 .
 image_cache_task
 (

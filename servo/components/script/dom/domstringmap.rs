@@ -219,7 +219,7 @@ Window
 (
 window
 .
-root_ref
+r
 (
 )
 )
@@ -289,6 +289,10 @@ root
 ;
 element
 .
+r
+(
+)
+.
 delete_custom_attr
 (
 name
@@ -321,6 +325,10 @@ root
 )
 ;
 element
+.
+r
+(
+)
 .
 set_custom_attr
 (
@@ -358,6 +366,10 @@ root
 ;
 match
 element
+.
+r
+(
+)
 .
 get_custom_attr
 (

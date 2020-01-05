@@ -1629,6 +1629,10 @@ self
 ;
 doc
 .
+r
+(
+)
+.
 content_changed
 (
 node
@@ -2438,6 +2442,10 @@ root
 )
 ;
 doc
+.
+r
+(
+)
 .
 request_focus
 (

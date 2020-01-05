@@ -243,6 +243,10 @@ root
 ;
 doc
 .
+r
+(
+)
+.
 window
 (
 )
@@ -295,6 +299,15 @@ active_window
 )
 .
 root
+(
+)
+;
+let
+win
+=
+win
+.
+r
 (
 )
 ;

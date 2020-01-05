@@ -425,8 +425,11 @@ GlobalRef
 :
 Window
 (
-*
 window
+.
+r
+(
+)
 )
 ServoHTMLParserBinding
 :

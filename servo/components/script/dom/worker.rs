@@ -553,8 +553,11 @@ global
 get_cx
 (
 )
-*
 worker
+.
+r
+(
+)
 global
 .
 script_chan
@@ -586,8 +589,11 @@ Temporary
 :
 from_rooted
 (
-*
 worker
+.
+r
+(
+)
 )
 )
 }
@@ -626,6 +632,10 @@ global
 =
 worker
 .
+r
+(
+)
+.
 global
 .
 root
@@ -649,7 +659,7 @@ JS_ReadStructuredClone
 (
 global
 .
-root_ref
+r
 (
 )
 .
@@ -698,8 +708,11 @@ EventTargetCast
 :
 from_ref
 (
-*
 worker
+.
+r
+(
+)
 )
 ;
 MessageEvent
@@ -710,7 +723,7 @@ dispatch_jsval
 target
 global
 .
-root_ref
+r
 (
 )
 message
@@ -835,7 +848,7 @@ root
 (
 )
 .
-root_ref
+r
 (
 )
 .

@@ -367,6 +367,10 @@ root
 ;
 ev
 .
+r
+(
+)
+.
 InitUIEvent
 (
 type_
@@ -381,8 +385,11 @@ Temporary
 :
 from_rooted
 (
-*
 ev
+.
+r
+(
+)
 )
 }
 pub
@@ -442,7 +449,7 @@ init
 .
 view
 .
-root_ref
+r
 (
 )
 init

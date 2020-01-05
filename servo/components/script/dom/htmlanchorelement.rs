@@ -554,6 +554,10 @@ value
 =
 href
 .
+r
+(
+)
+.
 Value
 (
 )
@@ -604,6 +608,10 @@ root
 )
 ;
 doc
+.
+r
+(
+)
 .
 load_anchor_href
 (

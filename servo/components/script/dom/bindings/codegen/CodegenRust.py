@@ -15882,6 +15882,10 @@ pre
 %
 s
 .
+r
+(
+)
+.
 "
 %
 object
@@ -15977,6 +15981,10 @@ global_object_for_js_object
 (
 this
 .
+r
+(
+)
+.
 reflector
 (
 )
@@ -16060,7 +16068,7 @@ throw_dom_exception
 cx
 global
 .
-root_ref
+r
 (
 )
 e
@@ -16700,7 +16708,7 @@ argVal
 =
 "
 .
-root_ref
+r
 (
 )
 "
@@ -26459,7 +26467,7 @@ argVal
 =
 "
 .
-root_ref
+r
 (
 )
 "
@@ -30989,7 +30997,7 @@ CGMethodCall
 &
 global
 .
-root_ref
+r
 (
 )
 "

@@ -195,8 +195,11 @@ GlobalRef
 :
 Window
 (
-*
 window
+.
+r
+(
+)
 )
 RangeBinding
 :
@@ -247,8 +250,11 @@ Range
 :
 new
 (
-*
 document
+.
+r
+(
+)
 )
 )
 }

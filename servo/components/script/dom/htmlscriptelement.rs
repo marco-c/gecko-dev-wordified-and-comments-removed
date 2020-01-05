@@ -1283,6 +1283,15 @@ root
 )
 ;
 let
+window
+=
+window
+.
+r
+(
+)
+;
+let
 page
 =
 window
@@ -1341,7 +1350,7 @@ src
 if
 src
 .
-deref
+r
 (
 )
 .
@@ -1391,7 +1400,7 @@ parse
 (
 src
 .
-deref
+r
 (
 )
 .
@@ -1544,7 +1553,7 @@ script
 "
 src
 .
-deref
+r
 (
 )
 .
@@ -1596,7 +1605,7 @@ script
 "
 src
 .
-deref
+r
 (
 )
 .
@@ -1652,7 +1661,6 @@ GlobalRef
 :
 Window
 (
-*
 window
 )
 "
@@ -1677,6 +1685,10 @@ root
 )
 ;
 event
+.
+r
+(
+)
 .
 set_trusted
 (
@@ -1703,8 +1715,11 @@ target
 .
 dispatch_event
 (
-*
 event
+.
+r
+(
+)
 )
 ;
 }
@@ -1764,6 +1779,10 @@ map
 s
 |
 s
+.
+r
+(
+)
 .
 Value
 (
@@ -1897,6 +1916,10 @@ map
 s
 |
 s
+.
+r
+(
+)
 .
 Value
 (

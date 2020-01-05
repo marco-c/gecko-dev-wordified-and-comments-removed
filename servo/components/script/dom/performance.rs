@@ -284,6 +284,10 @@ root
 (
 )
 .
+r
+(
+)
+.
 NavigationStartPrecise
 (
 )
