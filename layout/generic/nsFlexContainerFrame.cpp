@@ -1413,9 +1413,13 @@ mAscent
 mFrame
 -
 >
-SynthesizeBaselineFromBorderBox
+SynthesizeBaselineBOffsetFromBorderBox
 (
 mWM
+BaselineSharingGroup
+:
+:
+eFirst
 )
 ;
 }

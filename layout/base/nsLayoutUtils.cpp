@@ -29135,9 +29135,13 @@ mBaseline
 aFrame
 -
 >
-SynthesizeBaselineFromBorderBox
+SynthesizeBaselineBOffsetFromBorderBox
 (
 aWM
+BaselineSharingGroup
+:
+:
+eFirst
 )
 ;
 aResult
