@@ -9297,16 +9297,7 @@ window
 {
 window
 .
-upcast
-:
-:
-<
-GlobalScope
->
-(
-)
-.
-suspend
+freeze
 (
 )
 ;
