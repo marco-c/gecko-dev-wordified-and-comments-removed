@@ -70,6 +70,9 @@ css
 class
 Loader
 ;
+class
+Rule
+;
 }
 class
 ServoStyleSheet
@@ -229,7 +232,10 @@ mSheet
 aSheet
 ;
 }
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 GetDOMOwnerRule
 (

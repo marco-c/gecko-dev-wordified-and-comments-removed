@@ -112,6 +112,13 @@ class
 SRIMetadata
 ;
 }
+namespace
+css
+{
+class
+Rule
+;
+}
 class
 StyleSheet
 :
@@ -490,7 +497,10 @@ mDisabled
 ;
 }
 virtual
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 GetDOMOwnerRule
 (

@@ -765,7 +765,10 @@ mScopeElement
 aScopeElement
 ;
 }
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 GetDOMOwnerRule
 (
