@@ -179,6 +179,11 @@ SetIsPreflight
 (
 )
 ;
+void
+SetUpgradeInsecureRequests
+(
+)
+;
 private
 :
 LoadInfo
