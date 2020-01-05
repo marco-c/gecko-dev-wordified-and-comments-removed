@@ -365,16 +365,6 @@ WR_FUNC
 ;
 WR_INLINE
 void
-wr_composite
-(
-wrwindowstate
-*
-wrWindow
-)
-WR_FUNC
-;
-WR_INLINE
-void
 wr_dp_push_rect
 (
 wrstate
@@ -437,6 +427,9 @@ uint8_t
 *
 wr_readback_buffer
 (
+wrwindowstate
+*
+wrWindow
 uint32_t
 width
 uint32_t

@@ -76,6 +76,11 @@ DPEnd
 (
 )
 ;
+void
+DPSyncEnd
+(
+)
+;
 protected
 :
 ~
