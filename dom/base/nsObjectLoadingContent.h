@@ -1309,6 +1309,16 @@ mRewrittenYoutubeEmbed
 :
 1
 ;
+bool
+mPreferFallback
+:
+1
+;
+bool
+mPreferFallbackKnown
+:
+1
+;
 nsWeakFrame
 mPrintFrame
 ;
