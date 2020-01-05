@@ -78,7 +78,6 @@ actuallyThrottle
 ;
 let
 {
-document
 gStore
 windowRequire
 NetMonitorController

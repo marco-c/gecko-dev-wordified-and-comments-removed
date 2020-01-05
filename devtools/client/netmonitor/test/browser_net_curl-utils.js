@@ -53,7 +53,6 @@ test
 ;
 let
 {
-document
 gStore
 windowRequire
 gNetwork

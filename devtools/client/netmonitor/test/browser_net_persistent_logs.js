@@ -36,7 +36,6 @@ test
 let
 {
 document
-windowRequire
 }
 =
 monitor

@@ -380,6 +380,7 @@ requestsContainer
 .
 clientHeight
 )
+;
 if
 (
 requestsContainer

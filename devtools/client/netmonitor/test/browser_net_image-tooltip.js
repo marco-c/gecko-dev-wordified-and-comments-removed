@@ -106,27 +106,6 @@ constants
 )
 ;
 let
-{
-getDisplayedRequests
-getSortedRequests
-}
-=
-windowRequire
-(
-"
-devtools
-/
-client
-/
-netmonitor
-/
-selectors
-/
-index
-"
-)
-;
-let
 toolboxDoc
 =
 monitor
@@ -203,7 +182,6 @@ made
 yield
 showTooltipAndVerify
 (
-toolboxDoc
 document
 .
 querySelectorAll
@@ -240,11 +218,6 @@ hidden
 yield
 hideTooltipAndVerify
 (
-monitor
-.
-toolbox
-.
-doc
 document
 .
 querySelectorAll
@@ -343,7 +316,6 @@ reload
 yield
 showTooltipAndVerify
 (
-toolboxDoc
 document
 .
 querySelectorAll
@@ -484,7 +456,6 @@ function
 *
 showTooltipAndVerify
 (
-toolboxDoc
 target
 )
 {
@@ -508,7 +479,6 @@ file
 yield
 showTooltipOn
 (
-toolboxDoc
 anchor
 )
 ;
@@ -563,7 +533,6 @@ function
 *
 showTooltipOn
 (
-toolboxDoc
 element
 )
 {
@@ -617,7 +586,6 @@ function
 *
 hideTooltipAndVerify
 (
-toolboxDoc
 target
 )
 {

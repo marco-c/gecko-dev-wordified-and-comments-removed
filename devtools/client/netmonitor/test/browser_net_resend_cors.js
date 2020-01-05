@@ -35,7 +35,6 @@ test
 ;
 let
 {
-document
 gStore
 windowRequire
 }
@@ -64,7 +63,6 @@ index
 ;
 let
 {
-getDisplayedRequests
 getSortedRequests
 }
 =
@@ -313,6 +311,7 @@ item
 id
 )
 )
+;
 info
 (
 "
