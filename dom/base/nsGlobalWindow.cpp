@@ -23994,6 +23994,8 @@ nsGlobalWindow
 :
 GetMozInnerScreenXOuter
 (
+CallerType
+aCallerType
 )
 {
 MOZ_RELEASE_ASSERT
@@ -24008,9 +24010,9 @@ if
 nsContentUtils
 :
 :
-ShouldResistFingerprinting
+ResistFingerprinting
 (
-mDocShell
+aCallerType
 )
 )
 {
@@ -24045,6 +24047,8 @@ nsGlobalWindow
 :
 GetMozInnerScreenX
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -24054,6 +24058,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetMozInnerScreenXOuter
 (
+aCallerType
 )
 aError
 0
@@ -24066,6 +24071,8 @@ nsGlobalWindow
 :
 GetMozInnerScreenYOuter
 (
+CallerType
+aCallerType
 )
 {
 MOZ_RELEASE_ASSERT
@@ -24080,9 +24087,9 @@ if
 nsContentUtils
 :
 :
-ShouldResistFingerprinting
+ResistFingerprinting
 (
-mDocShell
+aCallerType
 )
 )
 {
@@ -24117,6 +24124,8 @@ nsGlobalWindow
 :
 GetMozInnerScreenY
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -24126,6 +24135,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetMozInnerScreenYOuter
 (
+aCallerType
 )
 aError
 0

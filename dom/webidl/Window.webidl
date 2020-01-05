@@ -2533,6 +2533,7 @@ realFrameElement
 ;
 [
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
@@ -2541,6 +2542,7 @@ mozInnerScreenX
 ;
 [
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
