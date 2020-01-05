@@ -270,9 +270,6 @@ skip
 if
 (
 Android
-|
-|
-B2G
 )
 load
 394751
@@ -709,9 +706,6 @@ skip
 if
 (
 Android
-|
-|
-B2G
 )
 load
 815489
@@ -719,7 +713,6 @@ load
 html
 #
 bug
-871763
 1216304
 load
 836225
