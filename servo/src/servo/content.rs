@@ -238,10 +238,10 @@ documents
 let
 stream
 =
-html
+lexer
 :
 :
-spawn_parser_task
+spawn_html_parser_task
 (
 filename
 )

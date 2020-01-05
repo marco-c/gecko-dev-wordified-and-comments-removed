@@ -80,10 +80,13 @@ parser
 parser
 :
 :
+lexer
+:
+:
 html
 ;
 import
-html
+parser
 :
 :
 token

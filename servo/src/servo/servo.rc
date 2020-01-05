@@ -98,6 +98,9 @@ base
 mod
 rcu
 ;
+mod
+style
+;
 }
 mod
 gfx
@@ -168,7 +171,7 @@ mod
 parser
 {
 mod
-html
+lexer
 ;
 mod
 html_builder
