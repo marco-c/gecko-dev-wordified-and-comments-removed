@@ -69,8 +69,6 @@ aFileSystem
 nsIFile
 *
 aTargetPath
-bool
-aDirectoryOnly
 ErrorResult
 &
 aRv
@@ -149,8 +147,6 @@ aFileSystem
 nsIFile
 *
 aTargetPath
-bool
-aDirectoryOnly
 )
 ;
 RefPtr
