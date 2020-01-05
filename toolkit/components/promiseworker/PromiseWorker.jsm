@@ -1105,11 +1105,6 @@ posted
 let
 reply
 ;
-let
-isError
-=
-false
-;
 try
 {
 this
@@ -1149,10 +1144,6 @@ error
 reply
 =
 error
-;
-isError
-=
-true
 ;
 if
 (

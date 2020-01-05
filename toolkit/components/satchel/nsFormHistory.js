@@ -1588,7 +1588,6 @@ value
 let
 [
 id
-guid
 ]
 =
 this

@@ -852,10 +852,6 @@ uneval
 ]
 )
 )
-var
-sum
-=
-0
 for
 (
 var
@@ -881,11 +877,6 @@ r
 [
 i
 ]
-;
-sum
-+
-=
-v
 ;
 h
 .

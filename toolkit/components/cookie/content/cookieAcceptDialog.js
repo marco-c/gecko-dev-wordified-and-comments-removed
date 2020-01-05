@@ -459,13 +459,6 @@ nsIDialogParamBlock
 )
 ;
 var
-objects
-=
-params
-.
-objects
-;
-var
 cookie
 =
 params

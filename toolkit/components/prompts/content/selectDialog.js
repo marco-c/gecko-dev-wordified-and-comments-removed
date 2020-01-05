@@ -315,13 +315,6 @@ dialogOK
 (
 )
 {
-let
-selected
-=
-listBox
-.
-selectedIndex
-;
 gArgs
 .
 setProperty

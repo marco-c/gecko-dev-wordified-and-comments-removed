@@ -767,9 +767,6 @@ setEmptyPrefWatchlist
 )
 ;
 }
-let
-childPromise
-=
 run_test_in_child
 (
 "

@@ -3278,13 +3278,6 @@ aURLsToKeep
 )
 {
 let
-path
-=
-this
-.
-path
-;
-let
 keep
 =
 aURLsToKeep

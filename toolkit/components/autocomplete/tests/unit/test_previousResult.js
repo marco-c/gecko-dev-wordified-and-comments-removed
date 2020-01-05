@@ -828,11 +828,6 @@ numSearchesStarted
 =
 0
 ;
-var
-previousResult
-=
-null
-;
 input
 .
 onSearchBegin

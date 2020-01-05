@@ -5893,9 +5893,7 @@ aT
 .
 _amount
 =
-kid
-.
-_amount
+kidBytes
 ;
 aT
 .

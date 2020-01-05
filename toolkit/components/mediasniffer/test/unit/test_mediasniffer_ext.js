@@ -417,9 +417,6 @@ setInputStream
 stream
 )
 ;
-var
-array
-=
 bis
 .
 readByteArray
@@ -580,11 +577,6 @@ getFileContents
 aFile
 )
 {
-const
-PR_RDONLY
-=
-0x01
-;
 var
 fileStream
 =

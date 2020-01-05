@@ -359,11 +359,6 @@ baseURI
 }
 else
 {
-let
-docUrl
-=
-null
-;
 window
 .
 openDialog

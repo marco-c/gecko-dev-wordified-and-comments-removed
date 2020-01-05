@@ -3385,11 +3385,6 @@ isWritable
 )
 )
 {
-var
-oldParent
-=
-parent
-;
 while
 (
 !
@@ -3400,10 +3395,6 @@ exists
 )
 )
 {
-oldParent
-=
-parent
-;
 parent
 =
 parent

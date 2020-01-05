@@ -29,13 +29,6 @@ aType
 )
 {
 let
-doc
-=
-content
-.
-document
-;
-let
 e
 =
 content
@@ -354,13 +347,6 @@ aBarred
 ]
 )
 {
-let
-doc
-=
-content
-.
-document
-;
 let
 e
 =

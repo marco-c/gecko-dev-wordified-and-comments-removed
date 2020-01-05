@@ -3507,15 +3507,6 @@ function
 aResultSet
 )
 {
-let
-formHistoryFields
-=
-dbSchema
-.
-tables
-.
-moz_formhistory
-;
 for
 (
 let

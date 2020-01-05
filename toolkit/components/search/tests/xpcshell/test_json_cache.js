@@ -263,12 +263,6 @@ true
 )
 ;
 let
-visibleDefaultEngines
-=
-[
-]
-;
-let
 sis
 =
 Cc
@@ -422,9 +416,6 @@ service
 "
 )
 ;
-let
-search
-=
 Services
 .
 search

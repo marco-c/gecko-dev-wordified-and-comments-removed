@@ -1982,9 +1982,6 @@ start
 (
 )
 ;
-let
-promiseAttempt2
-=
 download2
 .
 start

@@ -1283,9 +1283,6 @@ fail
 "
 )
 ;
-let
-now
-=
 fakeNow
 (
 2012
