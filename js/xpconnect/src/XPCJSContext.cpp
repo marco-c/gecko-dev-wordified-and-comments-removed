@@ -18351,6 +18351,9 @@ cx
 OuterWindowProxyClass
 )
 ;
+mozilla
+:
+:
 UniquePtr
 <
 XPCJSSourceHook
