@@ -1258,7 +1258,7 @@ openssl
 .
 2
 .
-15
+16
 (
 registry
 +
@@ -3744,7 +3744,7 @@ servo
 /
 gleam
 #
-8a23e963c5b8e1a727a80fb009d71e2f9efb6a89
+375779e0e8e1eaa8ff1a732c81fa91808a7f6c63
 "
 dependencies
 =
@@ -4839,7 +4839,7 @@ openssl
 .
 2
 .
-15
+16
 (
 registry
 +
@@ -6253,7 +6253,7 @@ servo
 /
 mozjs
 #
-0335cc57346147851589dea04e85971f064081fd
+58ee8869c7e589244ab2eb3a3ad15e2b64498428
 "
 [
 [
@@ -6731,7 +6731,7 @@ version
 .
 2
 .
-15
+16
 "
 source
 =
@@ -6767,7 +6767,7 @@ sys
 .
 2
 .
-15
+16
 (
 registry
 +
@@ -6810,7 +6810,7 @@ version
 .
 2
 .
-15
+16
 "
 source
 =
@@ -8145,7 +8145,7 @@ upstream
 -
 16
 #
-35649d0cddfd89c0bfee0ff558da7291e26d30c3
+aeb720b947ec463f780a0d00ab8485f902a83986
 "
 dependencies
 =
