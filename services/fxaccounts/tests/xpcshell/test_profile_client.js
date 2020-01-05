@@ -1369,9 +1369,6 @@ http
 :
 /
 /
-domain
-.
-dummy
 "
 fxa
 :

@@ -758,9 +758,6 @@ http
 :
 /
 /
-domain
-.
-dummy
 "
 client_id
 :

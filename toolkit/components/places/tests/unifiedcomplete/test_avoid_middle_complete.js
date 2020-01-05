@@ -794,8 +794,6 @@ test_searchEngine_different_scheme_noautofill
 (
 )
 {
-return
-;
 Services
 .
 prefs
