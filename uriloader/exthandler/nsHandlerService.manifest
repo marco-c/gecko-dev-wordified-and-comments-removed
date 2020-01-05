@@ -23,6 +23,8 @@ uriloader
 handler
 -
 service
+-
+rdf
 ;
 1
 {
