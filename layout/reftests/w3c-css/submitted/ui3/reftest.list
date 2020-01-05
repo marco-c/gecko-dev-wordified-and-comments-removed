@@ -180,11 +180,14 @@ box
 ref
 .
 xht
-random
+skip
 -
 if
 (
 Android
+|
+|
+gtkWidget
 )
 fuzzy
 -
@@ -229,6 +232,8 @@ bug
 982547
 Bug
 1295466
+Bug
+1321707
 fuzzy
 -
 if
