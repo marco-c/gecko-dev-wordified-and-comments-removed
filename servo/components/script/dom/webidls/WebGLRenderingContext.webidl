@@ -2507,8 +2507,6 @@ isContextLost
 (
 )
 ;
-/
-/
 sequence
 <
 DOMString
