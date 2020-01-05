@@ -3504,6 +3504,12 @@ load
 893523
 .
 html
+skip
+-
+if
+(
+stylo
+)
 asserts
 (
 0
@@ -3522,6 +3528,9 @@ mostly
 OSX
 sometimes
 Windows
+#
+bug
+1323662
 asserts
 (
 0
