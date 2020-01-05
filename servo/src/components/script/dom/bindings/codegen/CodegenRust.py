@@ -46363,6 +46363,14 @@ castTraitName
 }
 {
   
+#
+[
+inline
+(
+always
+)
+]
+  
 fn
 from
 <
@@ -46403,6 +46411,14 @@ transmute
 }
   
 }
+  
+#
+[
+inline
+(
+always
+)
+]
   
 fn
 to
@@ -46474,6 +46490,14 @@ None
 }
   
 }
+  
+#
+[
+inline
+(
+always
+)
+]
   
 unsafe
 fn
