@@ -233,11 +233,6 @@ OSFileSystem
 .
 cpp
 '
-'
-RemoveTask
-.
-cpp
-'
 ]
 FINAL_LIBRARY
 =
