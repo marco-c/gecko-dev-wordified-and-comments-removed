@@ -140,8 +140,7 @@ local_data_key
 (
 silence_errors
 :
-(
-)
+bool
 )
 pub
 fn
@@ -226,8 +225,7 @@ local_data
 set
 (
 silence_errors
-(
-)
+true
 )
 ;
 let
