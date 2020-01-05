@@ -4985,6 +4985,13 @@ value
 :
 return
 True
+set_config
+(
+'
+MOZ_STYLO
+'
+stylo
+)
 set_define
 (
 '
