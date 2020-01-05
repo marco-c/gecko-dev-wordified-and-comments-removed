@@ -415,6 +415,9 @@ unsigned
 long
 timeout
 ;
+[
+SetterThrows
+]
 attribute
 boolean
 withCredentials
