@@ -169,7 +169,7 @@ ondialogaccept
 =
 "
 return
-onDialogAccept
+doOK
 (
 )
 ;
@@ -177,7 +177,7 @@ onDialogAccept
 onload
 =
 "
-onLoad
+setWindowName
 (
 )
 ;
@@ -253,7 +253,7 @@ pippki
 /
 content
 /
-editcacert
+editcerts
 .
 js
 "
