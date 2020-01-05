@@ -7645,28 +7645,6 @@ args
         
 }
         
-condition
-=
-string
-.
-Template
-(
-"
-{
-index
-}
-<
-{
-argc
-}
-"
-)
-.
-substitute
-(
-replacer
-)
-        
 replacementVariables
 =
 {
@@ -7791,6 +7769,32 @@ argument
 optional
 :
                 
+condition
+=
+"
+{
+args
+}
+.
+get
+(
+{
+index
+}
+)
+.
+is_undefined
+(
+)
+"
+.
+format
+(
+*
+*
+replacer
+)
+                
 if
 argument
 .
@@ -7808,12 +7812,12 @@ condition
                                                
 CGGeneric
 (
-template
+default
 )
                                                
 CGGeneric
 (
-default
+template
 )
 )
 .
@@ -7855,6 +7859,13 @@ condition
 CGGeneric
 (
 "
+None
+"
+)
+                                               
+CGGeneric
+(
+"
 Some
 (
 %
@@ -7863,13 +7874,6 @@ s
 "
 %
 template
-)
-                                               
-CGGeneric
-(
-"
-None
-"
 )
 )
 .
