@@ -212,17 +212,6 @@ layers
 ;
 extern
 mod
-newcss
-(
-name
-=
-"
-css
-"
-)
-;
-extern
-mod
 opengles
 ;
 extern
@@ -467,9 +456,6 @@ pub
 mod
 css
 {
-mod
-select_handler
-;
 mod
 node_util
 ;
