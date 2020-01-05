@@ -52,9 +52,12 @@ out_str
 ~
 str
 =
-~
 "
 "
+.
+to_owned
+(
+)
 ;
 let
 out_whitespace

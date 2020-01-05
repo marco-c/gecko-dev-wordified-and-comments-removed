@@ -202,9 +202,12 @@ public_id
 .
 unwrap_or
 (
-~
 "
 "
+.
+to_owned
+(
+)
 )
 system_id
 :
@@ -212,9 +215,12 @@ system_id
 .
 unwrap_or
 (
-~
 "
 "
+.
+to_owned
+(
+)
 )
 }
 }

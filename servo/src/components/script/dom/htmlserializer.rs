@@ -201,9 +201,12 @@ let
 mut
 html
 =
-~
 "
 "
+.
+to_owned
+(
+)
 ;
 let
 mut
@@ -444,9 +447,12 @@ DocumentFragmentNodeTypeId
 =
 >
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 DocumentNodeTypeId
 =

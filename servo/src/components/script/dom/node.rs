@@ -3042,9 +3042,12 @@ let
 mut
 s
 =
-~
 "
 "
+.
+to_owned
+(
+)
 ;
 for
 _
@@ -11211,9 +11214,12 @@ let
 mut
 content
 =
-~
 "
 "
+.
+to_owned
+(
+)
 ;
 for
 node

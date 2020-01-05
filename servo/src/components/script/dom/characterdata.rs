@@ -530,9 +530,12 @@ ReplaceData
 (
 offset
 count
-~
 "
 "
+.
+to_owned
+(
+)
 )
 }
 fn

@@ -76,9 +76,12 @@ because
 it
 would
 allocate
-~
 "
 "
+.
+to_owned
+(
+)
 even
 for
 Some
@@ -102,9 +105,12 @@ clone
 None
 =
 >
-~
 "
 "
+.
+to_owned
+(
+)
 }
 }
 pub

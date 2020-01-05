@@ -4674,9 +4674,12 @@ let
 mut
 title
 =
-~
 "
 "
+.
+to_owned
+(
+)
 ;
 self
 .
