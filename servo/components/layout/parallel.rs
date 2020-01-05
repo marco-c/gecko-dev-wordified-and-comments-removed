@@ -114,6 +114,8 @@ time
 {
 TimeProfilerChan
 profile
+TimerMetadataFrameType
+TimerMetadataReflowType
 }
 ;
 use
@@ -1842,10 +1844,10 @@ url
 Url
 iframe
 :
-bool
-first_reflow
+TimerMetadataFrameType
+reflow_type
 :
-bool
+TimerMetadataReflowType
 time_profiler_chan
 :
 TimeProfilerChan
@@ -1932,7 +1934,7 @@ Some
 (
 url
 iframe
-first_reflow
+reflow_type
 )
 )
 time_profiler_chan
@@ -1991,10 +1993,10 @@ url
 Url
 iframe
 :
-bool
-first_reflow
+TimerMetadataFrameType
+reflow_type
 :
-bool
+TimerMetadataReflowType
 time_profiler_chan
 :
 TimeProfilerChan
@@ -2036,7 +2038,7 @@ Some
 (
 url
 iframe
-first_reflow
+reflow_type
 )
 )
 time_profiler_chan
