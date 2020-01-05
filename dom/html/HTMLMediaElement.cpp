@@ -6262,9 +6262,7 @@ false
 ;
 mPendingEncryptedInitData
 .
-mInitDatas
-.
-Clear
+Reset
 (
 )
 ;
@@ -22388,9 +22386,7 @@ mType
 }
 mPendingEncryptedInitData
 .
-mInitDatas
-.
-Clear
+Reset
 (
 )
 ;
