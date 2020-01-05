@@ -205,6 +205,16 @@ js
 )
 content
 /
+wait
+.
+js
+(
+wait
+.
+js
+)
+content
+/
 message
 .
 js
