@@ -153,6 +153,9 @@ vr
 '
 config
 '
+'
+webrender_bindings
+'
 ]
 EXPORTS
 .
