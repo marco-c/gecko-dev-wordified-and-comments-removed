@@ -69,6 +69,13 @@ client
 js
 '
 '
+create
+-
+store
+.
+js
+'
+'
 filter
 -
 predicates
