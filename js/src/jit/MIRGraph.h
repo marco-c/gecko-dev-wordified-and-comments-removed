@@ -493,6 +493,13 @@ depth
 )
 ;
 void
+unpick
+(
+int32_t
+depth
+)
+;
+void
 swapAt
 (
 int32_t
