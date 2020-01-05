@@ -23266,6 +23266,9 @@ DispatchContentLoadedEvents
 Dispatch
 (
 "
+nsDocument
+:
+:
 DispatchContentLoadedEvents
 "
 TaskCategory
@@ -53226,7 +53229,10 @@ UpdateVisibilityState
 Dispatch
 (
 "
-UpdateVisibility
+nsDocument
+:
+:
+UpdateVisibilityState
 "
 TaskCategory
 :
