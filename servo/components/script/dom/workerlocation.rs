@@ -242,6 +242,10 @@ self
 .
 url
 .
+deref
+(
+)
+.
 serialize
 (
 )
