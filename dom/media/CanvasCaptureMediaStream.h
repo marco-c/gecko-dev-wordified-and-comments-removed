@@ -230,6 +230,11 @@ FrameCaptureListener
 (
 )
 ;
+void
+StopCapture
+(
+)
+;
 static
 already_AddRefed
 <
