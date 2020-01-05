@@ -267,7 +267,7 @@ addItemDecoration
 spacingDecoration
 )
 ;
-updateSelectedPosition
+scrollSelectedTabToTopOfTray
 (
 )
 ;
