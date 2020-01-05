@@ -117,15 +117,6 @@ browser
 /
 schemas
 /
-omnibox
-.
-json
-content
-/
-browser
-/
-schemas
-/
 page_action
 .
 json
