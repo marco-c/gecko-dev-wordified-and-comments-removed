@@ -344,8 +344,8 @@ ServoComputedValuesBorrowed
 style
 ServoComputedValuesBorrowedOrNull
 parent_style
-RawGeckoPresContextBorrowed
-pres_context
+RawServoStyleSetBorrowed
+set
 RawGeckoComputedKeyframeValuesListBorrowedMut
 result
 )
