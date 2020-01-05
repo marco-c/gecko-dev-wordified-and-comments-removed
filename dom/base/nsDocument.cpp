@@ -13200,10 +13200,8 @@ aRunnable
 )
 ;
 }
-already_AddRefed
-<
 nsIEventTarget
->
+*
 nsIDocument
 :
 :

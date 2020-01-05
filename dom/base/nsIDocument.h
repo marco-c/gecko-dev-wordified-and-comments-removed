@@ -7910,10 +7910,8 @@ aRunnable
 override
 ;
 virtual
-already_AddRefed
-<
 nsIEventTarget
->
+*
 EventTargetFor
 (
 mozilla

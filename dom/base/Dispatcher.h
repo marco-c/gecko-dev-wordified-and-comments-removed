@@ -76,10 +76,8 @@ aRunnable
 )
 ;
 virtual
-already_AddRefed
-<
 nsIEventTarget
->
+*
 EventTargetFor
 (
 TaskCategory
@@ -119,10 +117,8 @@ aRunnable
 0
 ;
 virtual
-already_AddRefed
-<
 nsIEventTarget
->
+*
 EventTargetFor
 (
 TaskCategory
