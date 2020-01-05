@@ -1318,6 +1318,9 @@ endif
 ifeq
 (
 (
+MOZ_SYSTEM_NSPR
+)
+(
 MOZ_SYSTEM_NSS
 )
 (
