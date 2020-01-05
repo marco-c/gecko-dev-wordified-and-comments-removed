@@ -1,3 +1,15 @@
+if
+(
+typeof
+detachArrayBuffer
+=
+=
+=
+"
+function
+"
+)
+{
 assertThrowsInstanceOf
 (
 (
@@ -38,6 +50,7 @@ sort
 TypeError
 )
 ;
+}
 assertThrowsInstanceOf
 (
 (

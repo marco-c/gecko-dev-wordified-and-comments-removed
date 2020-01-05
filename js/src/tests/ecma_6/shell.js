@@ -32,8 +32,14 @@ yield
 }
 else
 {
-let
-swap
+items
+=
+items
+.
+slice
+(
+0
+)
 ;
 for
 (
@@ -53,6 +59,7 @@ i
 +
 )
 {
+let
 swap
 =
 items

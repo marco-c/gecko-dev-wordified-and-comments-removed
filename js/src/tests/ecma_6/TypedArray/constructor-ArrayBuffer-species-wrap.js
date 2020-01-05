@@ -1,18 +1,3 @@
-const
-constructors
-=
-[
-Int8Array
-Uint8Array
-Uint8ClampedArray
-Int16Array
-Uint16Array
-Int32Array
-Uint32Array
-Float32Array
-Float64Array
-]
-;
 let
 g
 =
@@ -25,7 +10,7 @@ for
 let
 ctor
 of
-constructors
+typedArrayConstructors
 )
 {
 let
@@ -58,7 +43,7 @@ for
 let
 ctor2
 of
-constructors
+typedArrayConstructors
 )
 {
 let
@@ -145,7 +130,7 @@ for
 let
 ctor
 of
-constructors
+typedArrayConstructors
 )
 {
 let
@@ -168,7 +153,7 @@ for
 let
 ctor2
 of
-constructors
+typedArrayConstructors
 )
 {
 called
@@ -297,7 +282,7 @@ for
 let
 ctor
 of
-constructors
+typedArrayConstructors
 )
 {
 let
@@ -330,7 +315,7 @@ for
 let
 ctor2
 of
-constructors
+typedArrayConstructors
 )
 {
 g

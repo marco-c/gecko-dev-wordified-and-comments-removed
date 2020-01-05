@@ -5,7 +5,7 @@ newGlobal
 (
 )
 ;
-assertDeepEq
+assertEqArray
 (
 Int32Array
 .
