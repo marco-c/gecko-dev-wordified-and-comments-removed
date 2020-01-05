@@ -2594,7 +2594,11 @@ GetWriteQueueSize
 )
 |
 |
+(
 mOutputQueueUsed
+>
+mOutputQueueSent
+)
 )
 )
 {
