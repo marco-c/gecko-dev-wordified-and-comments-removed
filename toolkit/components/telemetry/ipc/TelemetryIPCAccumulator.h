@@ -44,6 +44,9 @@ nsCString
 namespace
 mozilla
 {
+class
+TimeStamp
+;
 namespace
 TelemetryIPCAccumulator
 {
@@ -150,7 +153,12 @@ aValue
 void
 RecordChildEvent
 (
-double
+const
+mozilla
+:
+:
+TimeStamp
+&
 timestamp
 const
 nsACString
