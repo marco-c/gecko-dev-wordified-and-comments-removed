@@ -2476,7 +2476,7 @@ DownloadsView
 {
 kItemCountLimit
 :
-3
+5
 loading
 :
 false
