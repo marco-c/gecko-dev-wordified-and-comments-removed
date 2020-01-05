@@ -185,13 +185,6 @@ UNIFIED_SOURCES
 '
 core
 /
-GeckoSampler
-.
-cpp
-'
-'
-core
-/
 platform
 .
 cpp
@@ -228,6 +221,13 @@ cpp
 core
 /
 ProfilerMarkers
+.
+cpp
+'
+'
+core
+/
+Sampler
 .
 cpp
 '
