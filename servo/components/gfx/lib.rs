@@ -162,14 +162,6 @@ extern
 crate
 libc
 ;
-extern
-crate
-stb_image
-;
-extern
-crate
-png
-;
 #
 [
 macro_use

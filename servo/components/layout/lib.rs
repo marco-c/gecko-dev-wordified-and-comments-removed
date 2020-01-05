@@ -230,10 +230,6 @@ msg
 ;
 extern
 crate
-png
-;
-extern
-crate
 script
 ;
 extern
