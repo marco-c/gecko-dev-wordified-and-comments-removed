@@ -8881,7 +8881,7 @@ template
         
 "
 match
-JSValConvertible
+FromJSValConvertible
 :
 :
 from_jsval
@@ -43051,7 +43051,10 @@ bindings
 conversions
 :
 :
-JSValConvertible
+{
+FromJSValConvertible
+ToJSValConvertible
+}
 '
                           
 '
@@ -51706,7 +51709,10 @@ bindings
 conversions
 :
 :
-JSValConvertible
+{
+FromJSValConvertible
+ToJSValConvertible
+}
 '
                           
 '
