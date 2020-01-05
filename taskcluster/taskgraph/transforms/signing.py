@@ -236,6 +236,17 @@ treeherder
 Optional
 (
 '
+routes
+'
+)
+:
+[
+basestring
+]
+    
+Optional
+(
+'
 use
 -
 funsize
@@ -817,6 +828,21 @@ treeherder
 '
 :
 treeherder
+            
+'
+routes
+'
+:
+job
+.
+get
+(
+'
+routes
+'
+[
+]
+)
         
 }
         
@@ -842,8 +868,9 @@ task
 routes
 '
 ]
-=
-[
+.
+append
+(
 "
 index
 .
@@ -888,7 +915,7 @@ level
 '
 ]
 )
-]
+)
         
 yield
 task
