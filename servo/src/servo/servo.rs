@@ -182,6 +182,9 @@ args
 let
 osmain
 =
+platform
+:
+:
 osmain
 :
 :
@@ -227,6 +230,9 @@ port
 send
 (
 osmain
+platform
+:
+:
 osmain
 :
 :
@@ -333,6 +339,9 @@ comm
 send
 (
 osmain
+platform
+:
+:
 osmain
 :
 :
