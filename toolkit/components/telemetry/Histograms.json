@@ -60558,7 +60558,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -60579,10 +60579,6 @@ description
 "
 :
 "
-(
-Bug
-1220885
-)
 Whether
 the
 rust
@@ -60624,7 +60620,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -60717,7 +60713,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -60779,7 +60775,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -60939,7 +60935,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -61013,7 +61009,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -82998,7 +82994,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -83094,7 +83090,7 @@ mozilla
 com
 "
 "
-gsquelart
+tkuo
 mozilla
 .
 com
@@ -83105,7 +83101,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -83205,7 +83201,7 @@ mozilla
 com
 "
 "
-gsquelart
+tkuo
 mozilla
 .
 com
@@ -83216,7 +83212,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -83352,7 +83348,7 @@ mozilla
 com
 "
 "
-gsquelart
+tkuo
 mozilla
 .
 com
@@ -83363,7 +83359,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -83512,7 +83508,7 @@ mozilla
 com
 "
 "
-gsquelart
+tkuo
 mozilla
 .
 com
@@ -83523,7 +83519,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -83658,7 +83654,7 @@ mozilla
 com
 "
 "
-gsquelart
+tkuo
 mozilla
 .
 com
@@ -83669,7 +83665,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -83813,7 +83809,7 @@ mozilla
 com
 "
 "
-gsquelart
+tkuo
 mozilla
 .
 com
@@ -83824,7 +83820,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 description
@@ -84189,7 +84185,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -84262,7 +84258,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 bug_numbers
@@ -91551,13 +91547,13 @@ alert_emails
 :
 [
 "
-lchristie
+cpearce
 mozilla
 .
 com
 "
 "
-cpearce
+tkuo
 mozilla
 .
 com
@@ -91568,7 +91564,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 bug_numbers
@@ -91606,12 +91602,6 @@ alert_emails
 "
 :
 [
-"
-lchristie
-mozilla
-.
-com
-"
 "
 cpearce
 mozilla
