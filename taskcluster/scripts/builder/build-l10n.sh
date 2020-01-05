@@ -172,6 +172,10 @@ export
 TINDERBOX_OUTPUT
 =
 1
+export
+MOZ_AUTOMATION
+=
+1
 #
 Ensure
 that

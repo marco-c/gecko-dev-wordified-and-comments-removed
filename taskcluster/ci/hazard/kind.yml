@@ -146,6 +146,13 @@ desktop
 -
 build
 }
+env
+:
+MOZ_AUTOMATION
+:
+"
+1
+"
 jobs
 :
 linux64
