@@ -2640,6 +2640,12 @@ useInt64Register
 (
 opd
 )
+LDefinition
+:
+:
+BogusTemp
+(
+)
 )
 ins
 )
