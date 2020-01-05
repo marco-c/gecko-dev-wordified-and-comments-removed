@@ -59,6 +59,11 @@ callback
 location
 .
 patch
+patch
+<
+bytestring
+.
+patch
 wget
 https
 :
