@@ -2165,7 +2165,7 @@ mWordCacheCharLimit
 int32_t
 mWordCacheMaxEntries
 ;
-uint32_t
+uint64_t
 mTotalSystemMemory
 ;
 RefPtr
