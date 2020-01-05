@@ -3493,12 +3493,12 @@ to_gfx_color
 fn
 add_border_to_list
 (
-list
+_list
 :
 &
 mut
 DisplayList
-abs_bounds
+_abs_bounds
 :
 &
 Rect
