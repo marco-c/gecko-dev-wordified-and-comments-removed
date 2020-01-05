@@ -1951,6 +1951,13 @@ changed
 }
 )
 onChangeViewportDevice
+:
+Task
+.
+async
+(
+function
+*
 (
 event
 )
@@ -1968,6 +1975,7 @@ data
 .
 device
 ;
+yield
 this
 .
 updateUserAgent
@@ -1975,6 +1983,7 @@ updateUserAgent
 userAgent
 )
 ;
+yield
 this
 .
 updateDPPX
@@ -1982,6 +1991,7 @@ updateDPPX
 pixelRatio
 )
 ;
+yield
 this
 .
 updateTouchSimulation
@@ -1989,7 +1999,21 @@ updateTouchSimulation
 touch
 )
 ;
+this
+.
+emit
+(
+"
+viewport
+-
+device
+-
+changed
+"
+)
+;
 }
+)
 onContentResize
 (
 event
@@ -2065,6 +2089,13 @@ enabled
 ;
 }
 updateDPPX
+:
+Task
+.
+async
+(
+function
+*
 (
 dppx
 )
@@ -2075,6 +2106,7 @@ if
 dppx
 )
 {
+yield
 this
 .
 emulationFront
@@ -2086,6 +2118,7 @@ clearDPPXOverride
 return
 ;
 }
+yield
 this
 .
 emulationFront
@@ -2096,6 +2129,7 @@ dppx
 )
 ;
 }
+)
 updateNetworkThrottling
 :
 Task
@@ -2177,6 +2211,13 @@ latency
 }
 )
 updateUserAgent
+:
+Task
+.
+async
+(
+function
+*
 (
 userAgent
 )
@@ -2187,6 +2228,7 @@ if
 userAgent
 )
 {
+yield
 this
 .
 emulationFront
@@ -2198,6 +2240,7 @@ clearUserAgentOverride
 return
 ;
 }
+yield
 this
 .
 emulationFront
@@ -2208,6 +2251,7 @@ userAgent
 )
 ;
 }
+)
 updateTouchSimulation
 :
 Task
