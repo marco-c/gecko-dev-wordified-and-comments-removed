@@ -217,7 +217,7 @@ env
 !
 (
 "
-MOZ_OBJDIR
+MOZ_TOPOBJDIR
 "
 )
 "
