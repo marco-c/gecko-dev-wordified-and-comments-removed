@@ -1161,11 +1161,17 @@ _status
 ;
 abort
 :
+if
+(
+AdapterAddresses
+)
+{
 RFREE
 (
 AdapterAddresses
 )
 ;
+}
 return
 _status
 ;
