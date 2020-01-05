@@ -208,6 +208,13 @@ panel
 js
 '
 '
+status
+-
+bar
+.
+js
+'
+'
 tabbox
 -
 panel

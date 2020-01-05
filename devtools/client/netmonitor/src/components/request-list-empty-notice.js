@@ -187,7 +187,7 @@ className
 "
 devtools
 -
-toolbarbutton
+button
 requests
 -
 list
