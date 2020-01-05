@@ -78,8 +78,6 @@ Cr
 Cu
 |
 EXPORTED_SYMBOLS
-|
-run_test
 )
 "
 "

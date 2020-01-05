@@ -592,8 +592,17 @@ the
 test
 method
 )
+or
+run_test
 as
 used
+when
+in
+mochitests
+or
+xpcshell
+tests
+respectively
 .
 This
 avoids
