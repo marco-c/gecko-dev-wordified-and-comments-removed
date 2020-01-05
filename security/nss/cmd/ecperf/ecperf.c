@@ -51,13 +51,6 @@ h
 "
 #
 include
-"
-certt
-.
-h
-"
-#
-include
 <
 stdio
 .

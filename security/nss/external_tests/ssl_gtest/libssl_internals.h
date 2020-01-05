@@ -40,17 +40,6 @@ PRFileDesc
 fd
 )
 ;
-PRUint32
-SSLInt_DetermineKEABits
-(
-PRUint16
-serverKeyBits
-SSLAuthType
-authAlgorithm
-PRUint32
-symKeyBits
-)
-;
 SECStatus
 SSLInt_UpdateSSLv2ClientRandom
 (

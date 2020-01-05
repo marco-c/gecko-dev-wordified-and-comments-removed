@@ -288,8 +288,6 @@ PERL
 certdata
 .
 perl
-<
 (
 NSS_CERTDATA_TXT
 )
->

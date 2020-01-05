@@ -562,7 +562,7 @@ client_groups
 =
 {
 ssl_grp_ec_secp384r1
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 }
 ;
 static
@@ -577,7 +577,7 @@ SSLNamedGroup
 server_groups
 =
 {
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 ssl_grp_ec_secp384r1
 }
 ;
@@ -603,8 +603,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 static
@@ -653,7 +651,7 @@ client_groups
 =
 {
 ssl_grp_ec_secp384r1
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 }
 ;
 static
@@ -668,7 +666,7 @@ SSLNamedGroup
 server_groups
 =
 {
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 ssl_grp_ec_secp384r1
 }
 ;
@@ -709,8 +707,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 CheckKEXDetails

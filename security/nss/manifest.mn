@@ -80,3 +80,10 @@ coreconf
 lib
 cmd
 external_tests
+ifdef
+FUZZ
+DIRS
++
+=
+fuzz
+endif

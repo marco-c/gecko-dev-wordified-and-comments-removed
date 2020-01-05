@@ -6772,6 +6772,17 @@ CKR_OK
 attribute
 -
 >
+pValue
+=
+=
+NULL
+)
+|
+|
+(
+attribute
+-
+>
 ulValueLen
 !
 =

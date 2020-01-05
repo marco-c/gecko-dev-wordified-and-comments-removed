@@ -243,7 +243,9 @@ Connect
 CheckKeys
 (
 ssl_kea_rsa
+ssl_grp_none
 ssl_auth_rsa_decrypt
+ssl_sig_none
 )
 ;
 }

@@ -102,7 +102,7 @@ ECPERF_SRCDIR
 )
 \
 (
-ECTEST_SRCDIR
+FREEBL_ECTEST_SRCDIR
 )
 \
 (
@@ -173,6 +173,8 @@ p7sign
 p7verify
 \
 pk12util
+\
+pk11ectest
 \
 pk11gcmtest
 \

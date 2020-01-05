@@ -32,11 +32,6 @@ eq
 ;
 then
 #
-Set
-compiler
-.
-switch_compilers
-#
 Drop
 privileges
 by

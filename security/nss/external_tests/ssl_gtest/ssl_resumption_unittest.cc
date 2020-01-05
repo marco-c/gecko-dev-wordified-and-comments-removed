@@ -821,8 +821,6 @@ ssl_fd
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 EXPECT_FALSE
@@ -969,8 +967,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 TlsServerKeyExchangeEcdhe
@@ -1025,8 +1021,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 TlsServerKeyExchangeEcdhe
@@ -1153,8 +1147,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 TlsServerKeyExchangeEcdhe
@@ -1236,8 +1228,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 TlsServerKeyExchangeEcdhe
@@ -1332,8 +1322,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 Reset
@@ -1374,7 +1362,9 @@ Connect
 CheckKeys
 (
 ssl_kea_dh
+ssl_grp_ffdhe_2048
 ssl_auth_rsa_sign
+ssl_sig_none
 )
 ;
 }
@@ -1408,8 +1398,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 Reset
@@ -1441,8 +1429,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 }
@@ -1476,8 +1462,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 Reset
@@ -1509,8 +1493,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 }
@@ -1554,8 +1536,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 uint16_t
@@ -1635,7 +1615,9 @@ SendReceive
 CheckKeys
 (
 ssl_kea_ecdh
+ssl_grp_ec_curve25519
 ssl_auth_rsa_sign
+ssl_sig_none
 )
 ;
 DataBuffer
@@ -1750,7 +1732,9 @@ SendReceive
 CheckKeys
 (
 ssl_kea_ecdh
+ssl_grp_ec_curve25519
 ssl_auth_rsa_sign
+ssl_sig_none
 )
 ;
 ASSERT_LT

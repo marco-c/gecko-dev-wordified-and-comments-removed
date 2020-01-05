@@ -29,11 +29,6 @@ u
 ;
 then
 #
-Set
-compiler
-.
-switch_compilers
-#
 Stupid
 Docker
 .
