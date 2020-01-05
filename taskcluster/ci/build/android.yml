@@ -865,13 +865,11 @@ platform
 :
 android
 -
-4
+api
 -
-0
+15
 -
-armv7
--
-api15
+gradle
 /
 opt
 symbol
