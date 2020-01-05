@@ -1854,7 +1854,7 @@ SheetParsingMode
 mozilla
 :
 :
-SkipRootBehavior
+TraversalRootBehavior
 "
 "
 mozilla
@@ -2931,7 +2931,7 @@ ConsumeStyleBehavior
 LazyComputeBehavior
 "
 "
-SkipRootBehavior
+TraversalRootBehavior
 "
 "
 FontFamilyList

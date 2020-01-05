@@ -3285,16 +3285,6 @@ map
 d
 |
 {
-debug_assert
-!
-(
-d
-.
-has_current_styles
-(
-)
-)
-;
 &
 d
 .
