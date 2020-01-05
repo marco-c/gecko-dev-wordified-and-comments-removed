@@ -603,7 +603,7 @@ inspector
 .
 sidebar
 .
-layoutViewTitle
+layoutViewTitle2
 "
 )
 key
@@ -651,7 +651,7 @@ inspector
 .
 sidebar
 .
-layoutViewTitle
+layoutViewTitle2
 "
 )
 provider
