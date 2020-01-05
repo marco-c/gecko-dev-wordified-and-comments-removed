@@ -349,6 +349,17 @@ data
 :
 "
 )
+|
+|
+aURL
+.
+startsWith
+(
+"
+blob
+:
+"
+)
 )
 {
 return
