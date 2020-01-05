@@ -586,7 +586,6 @@ fn
 SetSandbox
 (
 &
-mut
 self
 sandbox
 :
@@ -664,7 +663,6 @@ fn
 SetSandbox
 (
 &
-mut
 self
 sandbox
 :
@@ -675,7 +673,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -684,7 +681,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )

@@ -341,7 +341,6 @@ fn
 Remove
 (
 &
-mut
 self
 )
 ;
@@ -685,7 +684,6 @@ fn
 Remove
 (
 &
-mut
 self
 )
 {
@@ -693,7 +691,6 @@ let
 node
 :
 &
-mut
 JSRef
 <
 Node
@@ -702,7 +699,7 @@ Node
 NodeCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
