@@ -59,7 +59,7 @@ taskgraph
 .
 loader
 .
-checksums_signing
+single_dep
 :
 loader
 transforms
@@ -90,3 +90,11 @@ beetmover
 beetmover
 -
 l10n
+only
+-
+for
+-
+attributes
+:
+-
+nightly

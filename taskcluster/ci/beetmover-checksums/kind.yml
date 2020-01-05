@@ -59,7 +59,7 @@ taskgraph
 .
 loader
 .
-beetmover_checksums
+single_dep
 :
 loader
 transforms
@@ -88,3 +88,11 @@ dependencies
 checksums
 -
 signing
+only
+-
+for
+-
+attributes
+:
+-
+nightly

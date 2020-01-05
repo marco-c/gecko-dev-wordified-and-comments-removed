@@ -59,7 +59,7 @@ taskgraph
 .
 loader
 .
-signing
+single_dep
 :
 loader
 transforms
@@ -96,3 +96,11 @@ dependencies
 nightly
 -
 l10n
+only
+-
+for
+-
+attributes
+:
+-
+nightly

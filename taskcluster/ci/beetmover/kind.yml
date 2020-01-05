@@ -59,7 +59,7 @@ taskgraph
 .
 loader
 .
-beetmover
+single_dep
 :
 loader
 transforms
@@ -88,3 +88,11 @@ dependencies
 build
 -
 signing
+only
+-
+for
+-
+attributes
+:
+-
+nightly

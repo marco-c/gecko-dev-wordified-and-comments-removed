@@ -59,7 +59,7 @@ taskgraph
 .
 loader
 .
-repacks
+single_dep
 :
 loader
 transforms
