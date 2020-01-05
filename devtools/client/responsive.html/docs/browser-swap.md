@@ -305,12 +305,6 @@ _endRemoveTab
 *
 gBrowser
 .
-tabContainer
-.
-_fillTrailingGap
-*
-gBrowser
-.
 _blurTab
 *
 gBrowser
