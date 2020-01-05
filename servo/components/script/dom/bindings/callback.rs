@@ -95,7 +95,6 @@ enum
 ExceptionHandling
 {
 ReportExceptions
-RethrowContentExceptions
 RethrowExceptions
 }
 #
