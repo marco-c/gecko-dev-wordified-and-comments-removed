@@ -194,7 +194,12 @@ false
 )
 mPlayDuration
 (
-INT64_MAX
+TimeUnit
+:
+:
+Invalid
+(
+)
 )
 mAudioEnded
 (
@@ -357,7 +362,7 @@ IsCurrentThreadIn
 )
 ;
 }
-int64_t
+TimeUnit
 GetVideoPosition
 (
 TimeStamp
@@ -404,7 +409,7 @@ mParams
 TimeStamp
 mPlayStartTime
 ;
-int64_t
+TimeUnit
 mPlayDuration
 ;
 bool
