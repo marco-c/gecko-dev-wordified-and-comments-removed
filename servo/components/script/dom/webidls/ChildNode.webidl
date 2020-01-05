@@ -94,6 +94,7 @@ ChildNode
 {
 [
 Throws
+Unscopable
 ]
 void
 before
@@ -111,6 +112,7 @@ nodes
 ;
 [
 Throws
+Unscopable
 ]
 void
 after
@@ -128,6 +130,7 @@ nodes
 ;
 [
 Throws
+Unscopable
 ]
 void
 replaceWith
@@ -143,6 +146,9 @@ DOMString
 nodes
 )
 ;
+[
+Unscopable
+]
 void
 remove
 (

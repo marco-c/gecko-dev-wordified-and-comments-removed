@@ -128,6 +128,7 @@ childElementCount
 ;
 [
 Throws
+Unscopable
 ]
 void
 prepend
@@ -145,6 +146,7 @@ nodes
 ;
 [
 Throws
+Unscopable
 ]
 void
 append
