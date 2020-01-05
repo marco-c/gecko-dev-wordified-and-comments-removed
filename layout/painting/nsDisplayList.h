@@ -3399,6 +3399,10 @@ DisplayItemClipChain
 *
 aContainingBlockClipChain
 const
+DisplayItemClipChain
+*
+aCombinedClipChain
+const
 ActiveScrolledRoot
 *
 aContainingBlockActiveScrolledRoot
@@ -3411,6 +3415,10 @@ aDirtyRect
 mContainingBlockClipChain
 (
 aContainingBlockClipChain
+)
+mCombinedClipChain
+(
+aCombinedClipChain
 )
 mContainingBlockActiveScrolledRoot
 (
@@ -3426,6 +3434,11 @@ const
 DisplayItemClipChain
 *
 mContainingBlockClipChain
+;
+const
+DisplayItemClipChain
+*
+mCombinedClipChain
 ;
 const
 ActiveScrolledRoot

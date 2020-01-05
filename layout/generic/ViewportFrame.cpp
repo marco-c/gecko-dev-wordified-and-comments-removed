@@ -447,7 +447,7 @@ SetClipChainForContainingBlockDescendants
 savedOutOfFlowData
 -
 >
-mContainingBlockClipChain
+mCombinedClipChain
 )
 ;
 clipState
