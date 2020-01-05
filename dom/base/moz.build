@@ -938,6 +938,11 @@ FromParser
 h
 '
 '
+GroupedSHistory
+.
+h
+'
+'
 ImageEncoder
 .
 h
@@ -994,6 +999,11 @@ h
 '
 '
 NodeIterator
+.
+h
+'
+'
+PartialSHistory
 .
 h
 '
@@ -1239,6 +1249,11 @@ cpp
 '
 '
 FragmentOrElement
+.
+cpp
+'
+'
+GroupedSHistory
 .
 cpp
 '
@@ -1669,6 +1684,11 @@ cpp
 '
 '
 nsXMLNameSpaceMap
+.
+cpp
+'
+'
+PartialSHistory
 .
 cpp
 '
