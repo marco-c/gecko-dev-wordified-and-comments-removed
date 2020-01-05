@@ -18,6 +18,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 class
 APZCTreeManagerTester
 :

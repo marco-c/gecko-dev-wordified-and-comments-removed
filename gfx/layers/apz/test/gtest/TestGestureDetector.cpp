@@ -12,6 +12,13 @@ APZTestCommon
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 class
 APZCGestureDetectorTester
 :
