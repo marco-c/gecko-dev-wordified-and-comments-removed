@@ -70,6 +70,11 @@ namespace
 quota
 {
 struct
+InitResponse
+{
+}
+;
+struct
 ClearOriginResponse
 {
 }
@@ -93,6 +98,8 @@ union
 RequestResponse
 {
 nsresult
+;
+InitResponse
 ;
 ClearOriginResponse
 ;

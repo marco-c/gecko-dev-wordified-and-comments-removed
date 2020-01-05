@@ -118,6 +118,11 @@ namespace
 quota
 {
 struct
+InitParams
+{
+}
+;
+struct
 UsageParams
 {
 PrincipalInfo
@@ -173,6 +178,8 @@ ResetAllParams
 union
 RequestParams
 {
+InitParams
+;
 ClearOriginParams
 ;
 ClearOriginsParams
