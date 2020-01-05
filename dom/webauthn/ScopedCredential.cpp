@@ -54,7 +54,7 @@ ScopedCredential
 :
 ScopedCredential
 (
-nsPIDOMWindowInner
+WebAuthentication
 *
 aParent
 )
