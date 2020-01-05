@@ -636,9 +636,6 @@ handler
 }
 )
 ;
-let
-syncTesting
-=
 await
 SyncTestingInfrastructure
 (
@@ -808,7 +805,6 @@ test_reconcile
 let
 [
 engine
-store
 ]
 =
 getMocks

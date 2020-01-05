@@ -1016,14 +1016,6 @@ split
 )
 ;
 const
-method
-=
-keyParts
-[
-0
-]
-;
-const
 valueParts
 =
 keyParts

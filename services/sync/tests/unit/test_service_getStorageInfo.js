@@ -598,9 +598,6 @@ baseURI
 /
 "
 ;
-let
-request
-=
 Service
 .
 getStorageInfo
@@ -708,9 +705,6 @@ baseURI
 /
 "
 ;
-let
-request
-=
 Service
 .
 getStorageInfo

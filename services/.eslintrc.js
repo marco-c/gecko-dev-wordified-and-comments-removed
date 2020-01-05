@@ -162,17 +162,6 @@ warn
 "
 no
 -
-unused
--
-vars
-"
-:
-"
-warn
-"
-"
-no
--
 useless
 -
 call

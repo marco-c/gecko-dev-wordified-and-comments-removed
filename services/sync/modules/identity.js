@@ -921,13 +921,6 @@ _syncKeyBundle
 =
 null
 ;
-let
-bundle
-=
-this
-.
-syncKeyBundle
-;
 this
 .
 _syncKeyUpdated

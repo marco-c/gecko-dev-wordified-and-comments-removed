@@ -2704,12 +2704,6 @@ of
 passwords
 )
 {
-let
-password_id
-=
--
-1
-;
 Logger
 .
 logInfo

@@ -181,7 +181,6 @@ result
 let
 [
 bookmarks
-count
 ]
 =
 result

@@ -672,11 +672,6 @@ test_apply_same_record_with_different_times
 (
 )
 {
-var
-timePasswordChanged
-=
-100
-;
 timePasswordChanged
 =
 changePassword

@@ -5897,9 +5897,6 @@ setSignedInUser
 credentials
 )
 ;
-const
-user
-=
 yield
 fxa
 .

@@ -844,7 +844,6 @@ lastModified
 let
 {
 records
-responses
 requests
 coll
 }
@@ -864,9 +863,6 @@ limit
 =
 recordLimit
 ;
-let
-response
-=
 coll
 .
 getBatched
@@ -1150,7 +1146,6 @@ lastModified
 let
 {
 records
-responses
 requests
 coll
 }

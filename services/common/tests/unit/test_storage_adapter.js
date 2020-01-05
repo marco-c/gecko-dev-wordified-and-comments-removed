@@ -1556,13 +1556,6 @@ do_get_profile
 )
 ;
 let
-kintoDB
-=
-do_get_kinto_db
-(
-)
-;
-let
 emptyDB
 =
 do_get_file

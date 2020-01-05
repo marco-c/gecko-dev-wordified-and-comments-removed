@@ -671,9 +671,6 @@ com
 )
 )
 ;
-let
-result
-=
 yield
 PinningPreloadClient
 .

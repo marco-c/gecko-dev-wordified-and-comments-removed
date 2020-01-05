@@ -676,12 +676,6 @@ record
 }
 }
 let
-recordPairs
-=
-[
-]
-;
-let
 seenClient
 =
 new

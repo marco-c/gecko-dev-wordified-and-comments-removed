@@ -278,14 +278,6 @@ setUpTestFixtures
 server
 )
 {
-let
-cryptoService
-=
-new
-FakeCryptoService
-(
-)
-;
 Service
 .
 serverURL
