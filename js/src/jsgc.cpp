@@ -11962,6 +11962,17 @@ fixupAfterMovingGC
 (
 )
 ;
+zone
+-
+>
+externalStringCache
+(
+)
+.
+purge
+(
+)
+;
 updateAllCellPointers
 (
 &
