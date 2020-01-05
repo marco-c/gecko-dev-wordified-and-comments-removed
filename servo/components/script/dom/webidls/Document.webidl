@@ -547,11 +547,7 @@ Unforgeable
 readonly
 attribute
 Location
-/
-*
 ?
-*
-/
 location
 ;
 readonly
