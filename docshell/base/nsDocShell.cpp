@@ -6750,6 +6750,14 @@ this
 )
 ;
 }
+nsCOMPtr
+<
+nsIPrincipal
+>
+principalForContentPolicyChecks
+=
+triggeringPrincipal
+;
 if
 (
 !
@@ -6778,6 +6786,10 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
+;
+principalForContentPolicyChecks
+=
+triggeringPrincipal
 ;
 }
 else
@@ -6894,6 +6906,7 @@ referrer
 referrerPolicy
 triggeringPrincipal
 principalToInherit
+principalForContentPolicyChecks
 flags
 target
 nullptr
@@ -22470,6 +22483,12 @@ GetSystemPrincipal
 (
 )
 nullptr
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 INTERNAL_LOAD_FLAGS_NONE
 EmptyString
 (
@@ -22864,6 +22883,7 @@ originalURI
 loadReplace
 mReferrerURI
 mReferrerPolicy
+triggeringPrincipal
 triggeringPrincipal
 triggeringPrincipal
 flags
@@ -38198,6 +38218,7 @@ mReferrer
 mReferrerPolicy
 mTriggeringPrincipal
 mPrincipalToInherit
+mTriggeringPrincipal
 mFlags
 EmptyString
 (
@@ -38511,6 +38532,9 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
+nsIPrincipal
+*
+aPrincipalForContentPolicyChecks
 uint32_t
 aFlags
 const
@@ -39184,7 +39208,7 @@ NS_CheckContentLoadPolicy
 (
 contentType
 aURI
-aTriggeringPrincipal
+aPrincipalForContentPolicyChecks
 requestingContext
 EmptyCString
 (
@@ -39920,6 +39944,7 @@ aReferrer
 aReferrerPolicy
 aTriggeringPrincipal
 principalToInherit
+aPrincipalForContentPolicyChecks
 aFlags
 EmptyString
 (
@@ -49031,6 +49056,7 @@ referrerURI
 referrerPolicy
 triggeringPrincipal
 principalToInherit
+triggeringPrincipal
 flags
 EmptyString
 (
@@ -54813,6 +54839,12 @@ nullptr
 false
 referer
 refererPolicy
+aContent
+-
+>
+NodePrincipal
+(
+)
 aContent
 -
 >
