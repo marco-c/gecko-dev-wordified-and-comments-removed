@@ -190,13 +190,9 @@ Bluetooth
 :
 EventTarget
 {
-/
-/
 [
 SecureContext
 ]
-/
-/
 Promise
 <
 boolean
