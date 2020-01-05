@@ -1139,7 +1139,7 @@ override
 ;
 virtual
 bool
-WidgetTypeSupportsAcceleration
+ComputeShouldAccelerate
 (
 )
 override
