@@ -787,6 +787,11 @@ TrackImage
 imgIRequest
 *
 aImage
+nsIFrame
+*
+aFrame
+=
+nullptr
 )
 ;
 void
