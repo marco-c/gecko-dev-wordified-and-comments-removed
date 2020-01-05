@@ -238,14 +238,6 @@ xpcshell
 ini
 '
 ]
-GeckoCppUnitTests
-(
-[
-'
-TestTimers
-'
-]
-)
 if
 CONFIG
 [
