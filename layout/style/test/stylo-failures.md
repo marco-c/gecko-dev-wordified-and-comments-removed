@@ -4310,7 +4310,7 @@ center
 left
 '
 [
-9
+8
 ]
 *
 .
@@ -4321,7 +4321,7 @@ center
 right
 '
 [
-9
+8
 ]
 *
 Incorrect
