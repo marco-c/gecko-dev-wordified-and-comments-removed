@@ -128,7 +128,6 @@ jsm
 var
 {
 SingletonEventManager
-ignoreEvent
 }
 =
 ExtensionUtils
