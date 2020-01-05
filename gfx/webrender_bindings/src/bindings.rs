@@ -6193,7 +6193,7 @@ WrFontKey
 glyphs
 :
 *
-mut
+const
 WrGlyphInstance
 glyph_count
 :
