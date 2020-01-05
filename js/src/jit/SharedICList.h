@@ -122,11 +122,6 @@ GetProp_Fallback
 \
 _
 (
-GetProp_StringLength
-)
-\
-_
-(
 GetProp_CallNativeGlobal
 )
 \
