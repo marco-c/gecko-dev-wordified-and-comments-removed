@@ -6143,6 +6143,16 @@ KeyedAccumulation
 accumulations
 )
 ;
+sync
+GetA11yContentId
+(
+)
+returns
+(
+uint32_t
+aContentId
+)
+;
 both
 :
 async
