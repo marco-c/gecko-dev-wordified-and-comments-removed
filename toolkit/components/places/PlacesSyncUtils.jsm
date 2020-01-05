@@ -6140,6 +6140,8 @@ let
 newTags
 =
 tags
+?
+tags
 .
 map
 (
@@ -6157,6 +6159,9 @@ filter
 (
 Boolean
 )
+:
+[
+]
 ;
 let
 dummyURI
