@@ -75,7 +75,7 @@ h
 if
 defined
 (
-USE_FAULTY_LIB
+GP_OS_android
 )
 #
 include
@@ -518,7 +518,7 @@ true
 if
 defined
 (
-USE_FAULTY_LIB
+GP_OS_android
 )
 static
 char
