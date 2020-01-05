@@ -583,6 +583,14 @@ aInterceptionID
 override
 ;
 NS_IMETHOD
+SetChannelIsForDownload
+(
+bool
+aChannelIsForDownload
+)
+override
+;
+NS_IMETHOD
 SetPriority
 (
 int32_t
