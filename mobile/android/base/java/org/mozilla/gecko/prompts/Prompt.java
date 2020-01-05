@@ -416,6 +416,8 @@ getString
 "
 title
 "
+"
+"
 )
 ;
 String
@@ -428,6 +430,8 @@ getString
 "
 text
 "
+"
+"
 )
 ;
 mGuid
@@ -438,6 +442,8 @@ getString
 (
 "
 guid
+"
+"
 "
 )
 ;
@@ -591,6 +597,8 @@ getString
 (
 "
 choiceMode
+"
+"
 "
 )
 ;

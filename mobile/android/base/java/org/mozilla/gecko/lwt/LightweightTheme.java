@@ -896,6 +896,8 @@ getString
 "
 accentcolor
 "
+"
+"
 )
 ;
 ThreadUtils

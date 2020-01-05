@@ -758,6 +758,8 @@ getString
 "
 iconURI
 "
+"
+"
 )
 ;
 if

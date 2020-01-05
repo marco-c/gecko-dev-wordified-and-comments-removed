@@ -921,6 +921,8 @@ getString
 "
 name
 "
+"
+"
 )
 ;
 final
@@ -934,6 +936,8 @@ getString
 "
 iconUri
 "
+"
+"
 )
 ;
 description
@@ -944,6 +948,8 @@ getString
 (
 "
 description
+"
+"
 "
 )
 ;

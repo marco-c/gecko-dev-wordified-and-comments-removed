@@ -361,6 +361,8 @@ getString
 "
 hint
 "
+"
+"
 )
 ;
 mAutofocus
@@ -2092,6 +2094,8 @@ getString
 "
 label
 "
+"
+"
 )
 ;
 mType
@@ -2102,6 +2106,8 @@ getString
 (
 "
 type
+"
+"
 "
 )
 ;
@@ -2114,6 +2120,8 @@ getString
 (
 "
 id
+"
+"
 "
 )
 ;
@@ -2139,6 +2147,8 @@ getString
 "
 value
 "
+"
+"
 )
 ;
 mMaxValue
@@ -2150,6 +2160,8 @@ getString
 "
 max
 "
+"
+"
 )
 ;
 mMinValue
@@ -2160,6 +2172,8 @@ getString
 (
 "
 min
+"
+"
 "
 )
 ;
@@ -2344,6 +2358,8 @@ getString
 (
 "
 type
+"
+"
 "
 )
 ;
