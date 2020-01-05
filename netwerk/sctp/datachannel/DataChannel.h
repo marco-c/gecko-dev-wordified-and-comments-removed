@@ -1475,6 +1475,7 @@ mStream
 aMsg
 )
 >
+=
 0
 )
 ;
@@ -1515,6 +1516,7 @@ mStream
 aMsg
 )
 >
+=
 0
 )
 ;
@@ -1555,7 +1557,8 @@ SendBlob
 mStream
 aBlob
 )
->
+=
+=
 0
 )
 ;

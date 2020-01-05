@@ -1519,7 +1519,7 @@ Send
 "
 )
 ;
-int32_t
+bool
 sent
 ;
 if
@@ -1573,9 +1573,8 @@ aMsgString
 }
 if
 (
+!
 sent
-<
-0
 )
 {
 aRv
