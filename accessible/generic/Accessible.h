@@ -2971,8 +2971,10 @@ nsIContent
 >
 mContent
 ;
+RefPtr
+<
 DocAccessible
-*
+>
 mDoc
 ;
 Accessible

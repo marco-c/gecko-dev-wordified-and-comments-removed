@@ -433,7 +433,7 @@ aPresShell
 HyperTextAccessibleWrap
 (
 nullptr
-this
+nullptr
 )
 mAccessibleCache
 (
@@ -485,6 +485,10 @@ mStateFlags
 |
 =
 eNotNodeMapEntry
+;
+mDoc
+=
+this
 ;
 MOZ_ASSERT
 (
