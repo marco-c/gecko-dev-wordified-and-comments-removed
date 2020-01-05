@@ -12945,7 +12945,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 )
 aID
 aSample
@@ -14407,7 +14407,7 @@ Telemetry
 void
 SetHistogramRecordingEnabled
 (
-ID
+HistogramID
 aID
 bool
 aEnabled
@@ -14426,7 +14426,7 @@ aEnabled
 void
 Accumulate
 (
-ID
+HistogramID
 aHistogram
 uint32_t
 aSample
@@ -14445,7 +14445,7 @@ aSample
 void
 Accumulate
 (
-ID
+HistogramID
 aID
 const
 nsCString
@@ -14516,7 +14516,7 @@ sample
 void
 AccumulateCategorical
 (
-ID
+HistogramID
 id
 const
 nsCString
@@ -14537,7 +14537,7 @@ label
 void
 AccumulateTimeDelta
 (
-ID
+HistogramID
 aHistogram
 TimeStamp
 start
@@ -14571,7 +14571,7 @@ char
 *
 GetHistogramName
 (
-ID
+HistogramID
 id
 )
 {

@@ -47,7 +47,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 uint32_t
 aSample
@@ -62,7 +62,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 const
 nsCString

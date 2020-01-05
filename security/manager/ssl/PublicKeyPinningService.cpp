@@ -1385,7 +1385,7 @@ enforceTestModeResult
 Telemetry
 :
 :
-ID
+HistogramID
 histogram
 =
 staticFingerprints

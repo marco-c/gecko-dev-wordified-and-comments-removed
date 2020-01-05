@@ -785,7 +785,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 mainThreadLockerID
 )
 ;
@@ -1177,7 +1177,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 mainThreadLockerID
 )
 {

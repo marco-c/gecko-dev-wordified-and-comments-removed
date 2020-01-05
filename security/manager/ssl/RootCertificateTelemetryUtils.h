@@ -53,7 +53,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 probe
 const
 CERTCertificate

@@ -34,7 +34,7 @@ namespace
 Telemetry
 {
 enum
-ID
+HistogramID
 :
 uint32_t
 ;
@@ -47,7 +47,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 mId
 ;
 uint32_t
@@ -64,7 +64,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 mId
 ;
 uint32_t

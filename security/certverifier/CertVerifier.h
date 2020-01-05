@@ -219,7 +219,7 @@ accumulateResult
 Telemetry
 :
 :
-ID
+HistogramID
 certPinningResultHistogram
 ;
 int32_t

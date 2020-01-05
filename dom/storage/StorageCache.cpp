@@ -1140,7 +1140,7 @@ TelemetryAutoTimer
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 )
 :
@@ -1188,7 +1188,7 @@ private
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 const
@@ -1207,7 +1207,7 @@ WaitForPreload
 Telemetry
 :
 :
-ID
+HistogramID
 aTelemetryID
 )
 {

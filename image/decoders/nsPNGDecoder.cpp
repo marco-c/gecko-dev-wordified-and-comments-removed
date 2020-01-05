@@ -4462,7 +4462,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 nsPNGDecoder
 :

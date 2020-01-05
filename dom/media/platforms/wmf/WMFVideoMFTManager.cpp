@@ -596,7 +596,7 @@ Accumulate
 Telemetry
 :
 :
-ID
+HistogramID
 :
 :
 VIDEO_MFT_OUTPUT_NULL_SAMPLES
@@ -1970,9 +1970,6 @@ layers
 LayersBackend
 mBackend
 ;
-layers
-:
-:
 KnowsCompositor
 *
 mKnowsCompositor

@@ -1139,7 +1139,7 @@ Accumulate
 Telemetry
 :
 :
-ID
+HistogramID
 :
 :
 AUDIO_MFT_OUTPUT_NULL_SAMPLES

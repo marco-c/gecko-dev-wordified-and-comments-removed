@@ -7552,7 +7552,7 @@ status
 Telemetry
 :
 :
-ID
+HistogramID
 histogramID
 ;
 if

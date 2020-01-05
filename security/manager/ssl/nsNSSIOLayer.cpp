@@ -4239,13 +4239,13 @@ false
 Telemetry
 :
 :
-ID
+HistogramID
 pre
 ;
 Telemetry
 :
 :
-ID
+HistogramID
 post
 ;
 switch

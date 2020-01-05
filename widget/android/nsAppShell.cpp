@@ -2142,7 +2142,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 timeIDs
 [
 ]
@@ -2154,7 +2154,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 :
 :
 FENNEC_LOOP_UI_LATENCY
@@ -2164,7 +2164,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 :
 :
 FENNEC_LOOP_OTHER_LATENCY
