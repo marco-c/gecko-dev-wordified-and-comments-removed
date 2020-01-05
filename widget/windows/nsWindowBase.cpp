@@ -658,6 +658,14 @@ touchpoint
 ;
 if
 (
+gfxPrefs
+:
+:
+APZTestFailsWithNativeInjection
+(
+)
+|
+|
 !
 InitTouchInjection
 (
