@@ -623,10 +623,12 @@ webgl
 bool
 IsCompatibleWithContext
 (
+const
 WebGLContext
 *
 other
 )
+const
 ;
 WebGLContext
 *

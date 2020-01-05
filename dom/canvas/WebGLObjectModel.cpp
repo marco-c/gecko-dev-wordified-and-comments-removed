@@ -46,10 +46,12 @@ WebGLContextBoundObject
 :
 IsCompatibleWithContext
 (
+const
 WebGLContext
 *
 other
 )
+const
 {
 return
 (
