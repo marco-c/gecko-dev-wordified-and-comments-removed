@@ -96,16 +96,6 @@ inspector
 )
 ;
 yield
-getRuleViewSelectorHighlighterIcon
-(
-view
-"
-element
-"
-2
-)
-;
-yield
 elementStyleInherit
 (
 inspector
