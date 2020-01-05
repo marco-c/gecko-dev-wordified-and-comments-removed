@@ -380,6 +380,10 @@ eventtarget
 ;
 pub
 mod
+file
+;
+pub
+mod
 formdata
 ;
 pub
