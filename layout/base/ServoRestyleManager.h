@@ -329,6 +329,15 @@ nsIAtom
 aPseudoTagOrNull
 )
 ;
+static
+void
+ClearServoDataFromSubtree
+(
+nsIContent
+*
+aContent
+)
+;
 protected
 :
 ~
