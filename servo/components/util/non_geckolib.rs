@@ -166,6 +166,7 @@ DOMString
 derive
 (
 PartialEq
+Clone
 )
 ]
 pub
