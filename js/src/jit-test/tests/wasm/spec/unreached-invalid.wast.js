@@ -3,9 +3,9 @@ importedArgs
 =
 [
 '
-soft
+unreached
 -
-fail
+invalid
 .
 wast
 '

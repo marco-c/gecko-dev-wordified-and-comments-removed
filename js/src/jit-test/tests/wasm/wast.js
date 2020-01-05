@@ -2501,14 +2501,6 @@ exprName
 "
 assert_malformed
 "
-|
-|
-exprName
-=
-=
-"
-assert_soft_invalid
-"
 )
 {
 let
