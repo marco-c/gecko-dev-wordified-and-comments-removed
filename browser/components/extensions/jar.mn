@@ -227,6 +227,15 @@ browser
 /
 ext
 -
+geckoProfiler
+.
+js
+content
+/
+browser
+/
+ext
+-
 history
 .
 js

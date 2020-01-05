@@ -162,6 +162,15 @@ browser
 /
 schemas
 /
+geckoProfiler
+.
+json
+content
+/
+browser
+/
+schemas
+/
 history
 .
 json
