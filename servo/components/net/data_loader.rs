@@ -46,6 +46,7 @@ resource_task
 :
 :
 {
+CancellationListener
 send_error
 start_sending_sniffed_opt
 }
@@ -99,6 +100,9 @@ Arc
 <
 MIMEClassifier
 >
+cancel_listener
+:
+CancellationListener
 )
 {
 load
@@ -106,6 +110,7 @@ load
 load_data
 senders
 classifier
+cancel_listener
 )
 }
 pub
@@ -124,6 +129,9 @@ Arc
 <
 MIMEClassifier
 >
+cancel_listener
+:
+CancellationListener
 )
 {
 let
@@ -424,6 +432,16 @@ to_owned
 )
 )
 )
+;
+}
+if
+cancel_listener
+.
+is_cancelled
+(
+)
+{
+return
 ;
 }
 let
