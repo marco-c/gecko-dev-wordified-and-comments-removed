@@ -3071,14 +3071,6 @@ payload
 {
         
 '
-signing_cert
-'
-:
-"
-dep
-"
-        
-'
 upstreamArtifacts
 '
 :
