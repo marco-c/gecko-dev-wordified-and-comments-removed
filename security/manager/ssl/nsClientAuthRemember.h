@@ -68,14 +68,14 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 }
 using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 class
 nsClientAuthRemember
@@ -347,7 +347,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -367,7 +367,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 CERTCertificate
@@ -386,7 +386,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 CERTCertificate
@@ -443,7 +443,7 @@ nsACString
 &
 aHost
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

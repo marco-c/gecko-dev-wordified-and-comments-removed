@@ -114,12 +114,12 @@ PRFileDesc
 )
 ;
 native
-NeckoOriginAttributes
+OriginAttributes
 (
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 )
 ;
 [
@@ -132,7 +132,7 @@ const
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 )
 ;
 %

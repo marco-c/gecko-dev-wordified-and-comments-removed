@@ -255,7 +255,7 @@ nsACString
 aSuffix
 )
 {
-NeckoOriginAttributes
+OriginAttributes
 oa
 ;
 if

@@ -171,7 +171,7 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 }
 template
@@ -2037,7 +2037,7 @@ aChannel
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttributes
 )

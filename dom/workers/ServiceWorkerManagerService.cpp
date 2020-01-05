@@ -421,7 +421,7 @@ PropagateSoftUpdate
 uint64_t
 aParentID
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

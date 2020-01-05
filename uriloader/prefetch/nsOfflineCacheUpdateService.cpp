@@ -2717,7 +2717,7 @@ bool
 aAllowed
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCOMPtr
@@ -2762,7 +2762,7 @@ bool
 aPinned
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCOMPtr

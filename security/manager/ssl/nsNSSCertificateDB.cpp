@@ -6330,7 +6330,7 @@ aHostname
 resultChain
 false
 aFlags
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 &
@@ -6360,7 +6360,7 @@ resultChain
 aFlags
 nullptr
 nullptr
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 &

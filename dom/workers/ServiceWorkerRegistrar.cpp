@@ -1395,7 +1395,7 @@ GET_LINE
 suffix
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -1626,7 +1626,7 @@ GET_LINE
 suffix
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -1795,7 +1795,7 @@ GET_LINE
 suffix
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -1927,7 +1927,7 @@ GET_LINE
 suffix
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -2064,7 +2064,7 @@ GET_LINE
 suffix
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if

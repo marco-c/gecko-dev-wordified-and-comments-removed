@@ -70,7 +70,7 @@ using
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 from
 "
 mozilla
@@ -115,7 +115,7 @@ scope
 async
 PropagateSoftUpdate
 (
-PrincipalOriginAttributes
+OriginAttributes
 originAttributes
 nsString
 scope
@@ -159,7 +159,7 @@ data
 async
 NotifySoftUpdate
 (
-PrincipalOriginAttributes
+OriginAttributes
 originAttributes
 nsString
 scope

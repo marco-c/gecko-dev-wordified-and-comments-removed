@@ -221,7 +221,7 @@ aInitialSecurityCheckDone
 bool
 aIsThirdPartyRequest
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 nsTArray
@@ -384,7 +384,7 @@ mInitialSecurityCheckDone
 bool
 mIsThirdPartyContext
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 nsTArray

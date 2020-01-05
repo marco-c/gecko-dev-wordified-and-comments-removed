@@ -77,7 +77,7 @@ IsMozBrowser
 const
 ;
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 OriginAttributesRef
 (
@@ -138,7 +138,7 @@ aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -167,7 +167,7 @@ mInitialized
 bool
 mIsMozBrowserElement
 ;
-DocShellOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 nsString
@@ -220,7 +220,7 @@ aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

@@ -636,7 +636,7 @@ ReadSuffixAndSpec
 JSStructuredCloneReader
 *
 aReader
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsACString
@@ -777,7 +777,7 @@ aTag
 SCTAG_DOM_NULL_PRINCIPAL
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsAutoCString
@@ -920,7 +920,7 @@ aTag
 SCTAG_DOM_CONTENT_PRINCIPAL
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsAutoCString
@@ -1124,7 +1124,7 @@ JSStructuredCloneWriter
 *
 aWriter
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 const

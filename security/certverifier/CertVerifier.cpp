@@ -1746,7 +1746,7 @@ SECItem
 *
 sctsFromTLSSECItem
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 SECOidTag
@@ -3592,7 +3592,7 @@ saveIntermediatesInPermanentDatabase
 Flags
 flags
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 SECOidTag

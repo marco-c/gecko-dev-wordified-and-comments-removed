@@ -778,7 +778,7 @@ mAnonymous
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 const
 &
 OriginAttributes
@@ -1225,7 +1225,7 @@ mFirstRead
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 mozilla

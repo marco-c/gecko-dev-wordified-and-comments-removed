@@ -95,7 +95,7 @@ nsProxyInfo
 *
 proxyInfo
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 bool
@@ -124,7 +124,7 @@ nsProxyInfo
 *
 proxyInfo
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 const
@@ -728,7 +728,7 @@ mUsername
 ;
 }
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 GetOriginAttributes
 (
@@ -828,7 +828,7 @@ nsProxyInfo
 *
 proxyInfo
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 bool
@@ -888,7 +888,7 @@ mUsingConnect
 nsCString
 mNPNToken
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

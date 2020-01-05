@@ -2436,7 +2436,7 @@ aDoCheckLoadURIChecks
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 =
 BasePrincipal

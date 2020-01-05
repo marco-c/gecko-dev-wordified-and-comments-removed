@@ -89,7 +89,7 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 namespace
 psm
@@ -103,7 +103,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 class
 nsIObserver
@@ -864,7 +864,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 PRFileDesc
@@ -896,7 +896,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 PRFileDesc

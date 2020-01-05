@@ -882,7 +882,7 @@ ServiceWorkerManagerParent
 RecvPropagateSoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

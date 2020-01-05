@@ -30,7 +30,7 @@ namespace
 mozilla
 {
 class
-PrincipalOriginAttributes
+OriginAttributes
 ;
 namespace
 ipc
@@ -106,7 +106,7 @@ IPCResult
 RecvNotifySoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

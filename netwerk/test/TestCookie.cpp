@@ -7805,7 +7805,7 @@ cookieMgr2
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 EXPECT_TRUE

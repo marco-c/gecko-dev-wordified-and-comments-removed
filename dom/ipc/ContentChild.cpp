@@ -3116,7 +3116,7 @@ aBaseURIString
 float
 *
 aFullZoom
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -3431,7 +3431,7 @@ baseURIString
 float
 fullZoom
 ;
-DocShellOriginAttributes
+OriginAttributes
 originAttributes
 ;
 rv
@@ -3839,7 +3839,7 @@ baseURIString
 float
 fullZoom
 ;
-DocShellOriginAttributes
+OriginAttributes
 originAttributes
 ;
 rv
@@ -10534,7 +10534,7 @@ process
 nsAutoCString
 originNoSuffix
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 bool

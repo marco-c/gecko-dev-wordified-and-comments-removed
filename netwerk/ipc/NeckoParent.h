@@ -110,7 +110,7 @@ aRequestingPrincipal
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )

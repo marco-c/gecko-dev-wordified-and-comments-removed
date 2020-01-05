@@ -129,10 +129,6 @@ Tokenizer
 (
 aInput
 )
-originAttribs
-(
-false
-)
 isAnonymous
 (
 false
@@ -145,7 +141,7 @@ lastTag
 }
 private
 :
-NeckoOriginAttributes
+OriginAttributes
 originAttribs
 ;
 bool
@@ -695,7 +691,7 @@ nsACString
 _retval
 )
 {
-NeckoOriginAttributes
+OriginAttributes
 const
 *
 oa

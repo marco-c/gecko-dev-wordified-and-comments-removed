@@ -93,7 +93,7 @@ dom
 Element
 *
 aTopFrameElement
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -149,7 +149,7 @@ SerializedLoadContext
 aToCopy
 uint64_t
 aNestedFrameId
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -206,7 +206,7 @@ aUsePrivateBrowsing
 bool
 aUseRemoteTabs
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -262,7 +262,7 @@ mPrivateBrowsingId
 explicit
 LoadContext
 (
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -331,7 +331,7 @@ mIsContent
 bool
 mUseRemoteTabs
 ;
-DocShellOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 #

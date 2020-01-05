@@ -182,12 +182,6 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
-;
-using
-mozilla
-:
-:
 OriginAttributes
 ;
 class
@@ -272,7 +266,7 @@ nsCString
 &
 baseDomain
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 attrs
 )
@@ -453,7 +447,7 @@ true
 nsCString
 mBaseDomain
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 }
@@ -1019,7 +1013,7 @@ aIsForeign
 bool
 aHttpBound
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttrs
 bool
@@ -1068,7 +1062,7 @@ aServerTime
 bool
 aFromHttp
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttrs
 bool
@@ -1481,7 +1475,7 @@ nsACString
 &
 aHost
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 const

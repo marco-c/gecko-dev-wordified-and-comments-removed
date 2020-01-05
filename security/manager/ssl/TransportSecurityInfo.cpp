@@ -338,7 +338,7 @@ TransportSecurityInfo
 SetOriginAttributes
 (
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )

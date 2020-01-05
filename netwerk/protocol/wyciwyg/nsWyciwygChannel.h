@@ -269,7 +269,7 @@ mLoadFlags
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 nsCOMPtr

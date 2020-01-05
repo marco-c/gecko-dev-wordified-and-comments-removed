@@ -138,7 +138,7 @@ namespace
 mozilla
 {
 class
-PrincipalOriginAttributes
+OriginAttributes
 ;
 }
 %
@@ -189,13 +189,13 @@ nsIPrincipal
 ref
 ]
 native
-const_PrincipalOriginAttributes
+const_OriginAttributes
 (
 const
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 )
 ;
 [
@@ -1376,7 +1376,7 @@ binaryname
 OriginAttributesRef
 )
 ]
-const_PrincipalOriginAttributes
+const_OriginAttributes
 OriginAttributesRef
 (
 )

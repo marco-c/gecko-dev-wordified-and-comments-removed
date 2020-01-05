@@ -201,7 +201,7 @@ proxyInfo
 uint32_t
 caps
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 )
@@ -1590,7 +1590,7 @@ nsProxyInfo
 *
 pi
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 )
@@ -5180,7 +5180,7 @@ aCallbacks
 uint32_t
 caps
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 )

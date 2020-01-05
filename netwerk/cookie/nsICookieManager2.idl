@@ -516,7 +516,7 @@ in
 int64_t
 aExpiry
 in
-NeckoOriginAttributesPtr
+OriginAttributesPtr
 aOriginAttributes
 )
 ;
@@ -633,7 +633,7 @@ in
 nsICookie2
 aCookie
 in
-NeckoOriginAttributesPtr
+OriginAttributesPtr
 aOriginAttributes
 out
 boolean

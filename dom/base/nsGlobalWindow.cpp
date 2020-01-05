@@ -1822,7 +1822,7 @@ using
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 ;
 using
 mozilla
@@ -11523,7 +11523,7 @@ GetOriginalURI
 )
 ;
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 attrs
 =
@@ -35960,7 +35960,7 @@ EmptyCString
 return
 ;
 }
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 =
 aSubjectPrincipal

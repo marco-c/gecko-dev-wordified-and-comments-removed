@@ -44,7 +44,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 NS_IMPL_ISUPPORTS
 (
@@ -183,7 +183,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 uint32_t
@@ -310,7 +310,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 uint32_t

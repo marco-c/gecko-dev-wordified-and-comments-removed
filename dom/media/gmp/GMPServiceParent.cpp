@@ -8114,7 +8114,7 @@ originNoSuffix
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 originAttributes
 ;
 rv
@@ -8186,7 +8186,7 @@ true
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 topLevelOriginAttributes
 ;
 rv

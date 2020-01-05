@@ -109,7 +109,7 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 }
 /
@@ -122,12 +122,12 @@ namespace
 ptr
 ]
 native
-NeckoOriginAttributesPtr
+OriginAttributesPtr
 (
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 )
 ;
 interface
@@ -470,7 +470,7 @@ in
 boolean
 aBlocked
 in
-NeckoOriginAttributesPtr
+OriginAttributesPtr
 aOriginAttributes
 )
 ;

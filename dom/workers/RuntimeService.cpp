@@ -1174,7 +1174,7 @@ nsACString
 &
 aName
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsCString

@@ -22,7 +22,7 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 }
 namespace
@@ -83,7 +83,7 @@ bool
 &
 aFromHttp
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsCString
@@ -123,7 +123,7 @@ bool
 &
 aFromHttp
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 )

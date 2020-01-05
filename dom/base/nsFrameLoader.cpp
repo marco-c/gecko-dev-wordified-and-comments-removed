@@ -5876,7 +5876,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-DocShellOriginAttributes
+OriginAttributes
 ourOriginAttributes
 =
 mRemoteBrowser
@@ -5899,7 +5899,7 @@ rv
 rv
 )
 ;
-DocShellOriginAttributes
+OriginAttributes
 otherOriginAttributes
 =
 aOther
@@ -7961,7 +7961,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-DocShellOriginAttributes
+OriginAttributes
 ourOriginAttributes
 =
 ourDocshell
@@ -7984,7 +7984,7 @@ rv
 rv
 )
 ;
-DocShellOriginAttributes
+OriginAttributes
 otherOriginAttributes
 =
 otherDocshell
@@ -10468,7 +10468,7 @@ partialListener
 ;
 }
 }
-DocShellOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -10537,8 +10537,8 @@ OwnerIsMozBrowserFrame
 )
 )
 {
-PrincipalOriginAttributes
-poa
+OriginAttributes
+oa
 =
 doc
 -
@@ -10589,7 +10589,7 @@ attrs
 mAppId
 =
 =
-poa
+oa
 .
 mAppId
 "
@@ -10613,7 +10613,7 @@ attrs
 mUserContextId
 =
 =
-poa
+oa
 .
 mUserContextId
 "
@@ -10637,7 +10637,7 @@ attrs
 mInIsolatedMozBrowser
 =
 =
-poa
+oa
 .
 mInIsolatedMozBrowser
 "
@@ -10661,7 +10661,7 @@ attrs
 mPrivateBrowsingId
 =
 =
-poa
+oa
 .
 mPrivateBrowsingId
 "
@@ -10680,9 +10680,9 @@ attribute
 ;
 attrs
 .
-InheritFromDocToChildDocShell
+Inherit
 (
-poa
+oa
 )
 ;
 }
@@ -15786,7 +15786,7 @@ nsIURI
 aURI
 )
 {
-DocShellOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs
@@ -15995,7 +15995,7 @@ nsFrameLoader
 :
 PopulateUserContextIdFromAttribute
 (
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttr
 )

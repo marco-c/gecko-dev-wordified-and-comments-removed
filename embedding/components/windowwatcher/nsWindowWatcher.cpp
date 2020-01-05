@@ -4056,12 +4056,12 @@ nsIDocShellTreeItem
 typeChrome
 )
 {
-DocShellOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs
 .
-InheritFromDocToChildDocShell
+Inherit
 (
 subjectPrincipal
 -

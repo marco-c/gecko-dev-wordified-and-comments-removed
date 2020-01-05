@@ -32,7 +32,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 nsTLSSocketProvider
 :
@@ -74,7 +74,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 uint32_t
@@ -136,7 +136,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 uint32_t

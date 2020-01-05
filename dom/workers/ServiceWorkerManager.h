@@ -227,7 +227,7 @@ namespace
 mozilla
 {
 class
-PrincipalOriginAttributes
+OriginAttributes
 ;
 namespace
 dom
@@ -474,7 +474,7 @@ void
 DispatchFetchEvent
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 nsIDocument
@@ -515,7 +515,7 @@ void
 SoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -528,7 +528,7 @@ void
 PropagateSoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -1056,7 +1056,7 @@ ServiceWorkerInfo
 GetActiveWorkerInfoForScope
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

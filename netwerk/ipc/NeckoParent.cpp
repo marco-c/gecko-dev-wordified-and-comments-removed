@@ -370,13 +370,7 @@ using
 mozilla
 :
 :
-DocShellOriginAttributes
-;
-using
-mozilla
-:
-:
-NeckoOriginAttributes
+OriginAttributes
 ;
 using
 mozilla
@@ -879,7 +873,7 @@ aContent
 nsIPrincipal
 *
 aRequestingPrincipal
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -904,7 +898,7 @@ IsNotNull
 {
 aAttrs
 =
-DocShellOriginAttributes
+OriginAttributes
 (
 NECKO_NO_APP_ID
 false
@@ -1243,7 +1237,7 @@ nsILoadContext
 aResult
 )
 {
-DocShellOriginAttributes
+OriginAttributes
 attrs
 ;
 const
@@ -3936,7 +3930,7 @@ nestedFrameId
 =
 0
 ;
-DocShellOriginAttributes
+OriginAttributes
 attrs
 (
 NECKO_UNKNOWN_APP_ID
@@ -4119,7 +4113,7 @@ nestedFrameId
 =
 0
 ;
-DocShellOriginAttributes
+OriginAttributes
 attrs
 (
 NECKO_UNKNOWN_APP_ID

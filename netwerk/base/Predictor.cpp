@@ -2776,7 +2776,7 @@ new
 LoadContextInfo
 (
 false
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 )

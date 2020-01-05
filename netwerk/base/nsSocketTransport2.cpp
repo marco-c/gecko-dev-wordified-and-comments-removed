@@ -732,15 +732,6 @@ NS_ERROR_FILE_READ_ONLY
 ;
 break
 ;
-case
-PR_BAD_ADDRESS_ERROR
-:
-rv
-=
-NS_ERROR_UNKNOWN_HOST
-;
-break
-;
 default
 :
 if
@@ -10142,7 +10133,7 @@ IsInitialized
 NS_ERROR_FAILURE
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -10183,7 +10174,7 @@ nsSocketTransport
 :
 GetOriginAttributes
 (
-NeckoOriginAttributes
+OriginAttributes
 *
 aOriginAttributes
 )
@@ -10209,7 +10200,7 @@ nsSocketTransport
 SetOriginAttributes
 (
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )

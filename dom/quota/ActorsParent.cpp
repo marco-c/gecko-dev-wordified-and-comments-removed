@@ -4262,7 +4262,7 @@ mDirectory
 nsCString
 mSpec
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mAttrs
 ;
 int64_t
@@ -4373,7 +4373,7 @@ nsCString
 mOrigin
 ;
 const
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 Tokenizer
@@ -4427,7 +4427,7 @@ nsACString
 &
 aOrigin
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -4487,7 +4487,7 @@ aOrigin
 nsCString
 &
 aSpec
-PrincipalOriginAttributes
+OriginAttributes
 *
 aAttrs
 )
@@ -4498,7 +4498,7 @@ Parse
 nsACString
 &
 aSpec
-PrincipalOriginAttributes
+OriginAttributes
 *
 aAttrs
 )
@@ -6036,7 +6036,7 @@ AssertIsOnIOThread
 (
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 groupAttributes
 ;
 nsCString
@@ -6084,7 +6084,7 @@ groupPrefix
 +
 groupNoSuffix
 ;
-PrincipalOriginAttributes
+OriginAttributes
 originAttributes
 ;
 nsCString
@@ -17622,7 +17622,7 @@ kChromeOrigin
 nsCString
 spec
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 bool
@@ -25720,7 +25720,7 @@ else
 nsCString
 spec
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 bool
@@ -26255,7 +26255,7 @@ aOrigin
 nsCString
 &
 aSpec
-PrincipalOriginAttributes
+OriginAttributes
 *
 aAttrs
 )
@@ -26275,7 +26275,7 @@ MOZ_ASSERT
 aAttrs
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 originAttributes
 ;
 nsCString
@@ -26328,7 +26328,7 @@ Parse
 nsACString
 &
 aSpec
-PrincipalOriginAttributes
+OriginAttributes
 *
 aAttrs
 )
@@ -26520,7 +26520,7 @@ kNoAppId
 *
 aAttrs
 =
-PrincipalOriginAttributes
+OriginAttributes
 (
 mAppId
 mInIsolatedMozBrowser

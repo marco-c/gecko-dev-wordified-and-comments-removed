@@ -367,11 +367,11 @@ sctsFromTLS
 =
 nullptr
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 SECOidTag
@@ -454,11 +454,11 @@ flags
 =
 0
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 SECOidTag

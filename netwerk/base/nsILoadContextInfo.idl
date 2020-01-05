@@ -123,7 +123,7 @@ const
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 *
 )
 ;
@@ -253,7 +253,7 @@ isAnonymous
 *
 *
 *
-NeckoOriginAttributes
+OriginAttributes
 hiding
 all
 the
@@ -381,7 +381,7 @@ OriginAttributesPtr
 *
 *
 Since
-NeckoOriginAttributes
+OriginAttributes
 struct
 limits
 the

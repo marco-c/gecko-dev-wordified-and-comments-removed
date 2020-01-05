@@ -4874,7 +4874,7 @@ EmptyCString
 )
 username
 nullptr
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 usingSSL
@@ -15730,7 +15730,9 @@ SetConnectionFlags
 tmpFlags
 )
 ;
-NeckoOriginAttributes
+const
+OriginAttributes
+&
 originAttributes
 =
 mEnt
@@ -15748,7 +15750,7 @@ if
 originAttributes
 !
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 )

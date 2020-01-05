@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsIIOService
 .
 h
@@ -351,7 +358,7 @@ baseDomain
 nsCookieKey
 (
 baseDomain
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 )
@@ -3959,15 +3966,19 @@ rv
 rv
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 (
+nsIScriptSecurityManager
+:
+:
+NO_APP_ID
 (
 inIsolatedMozBrowser
 ?
-1
+true
 :
-0
+false
 )
 )
 ;
@@ -4065,7 +4076,7 @@ rv
 nsAutoCString
 suffix
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 rv
@@ -4187,7 +4198,7 @@ rv
 nsAutoCString
 suffix
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 rv
@@ -8817,7 +8828,7 @@ aHostURI
 isForeign
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -9107,7 +9118,7 @@ aHostURI
 isForeign
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -9187,7 +9198,7 @@ aServerTime
 bool
 aFromHttp
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttrs
 bool
@@ -10348,7 +10359,7 @@ static
 nsresult
 InitializeOriginAttributes
 (
-NeckoOriginAttributes
+OriginAttributes
 *
 aAttrs
 JS
@@ -10538,7 +10549,7 @@ aArgc
 1
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 nsresult
@@ -10620,7 +10631,7 @@ bool
 aIsSession
 int64_t
 aExpiry
-NeckoOriginAttributes
+OriginAttributes
 *
 aOriginAttributes
 )
@@ -10782,7 +10793,7 @@ nsACString
 &
 aHost
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 const
@@ -11052,7 +11063,7 @@ aArgc
 1
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 nsresult
@@ -11119,7 +11130,7 @@ nsACString
 aPath
 bool
 aBlocked
-NeckoOriginAttributes
+OriginAttributes
 *
 aOriginAttributes
 )
@@ -12741,7 +12752,7 @@ baseDomain
 nsAutoCString
 suffix
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 stmt
@@ -14054,7 +14065,7 @@ aIsForeign
 bool
 aHttpBound
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttrs
 bool
@@ -19399,7 +19410,7 @@ aArgc
 1
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 nsresult
@@ -19454,7 +19465,7 @@ CookieExistsNative
 nsICookie2
 *
 aCookie
-NeckoOriginAttributes
+OriginAttributes
 *
 aOriginAttributes
 bool
@@ -20400,7 +20411,7 @@ rv
 rv
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 rv

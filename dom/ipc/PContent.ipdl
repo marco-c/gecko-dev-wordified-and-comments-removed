@@ -767,7 +767,7 @@ using
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 from
 "
 mozilla
@@ -5396,7 +5396,7 @@ nsCString
 aFeatures
 nsCString
 aBaseURI
-DocShellOriginAttributes
+OriginAttributes
 aOpenerOriginAttributes
 float
 aFullZoom
@@ -5438,7 +5438,7 @@ nsCString
 aFeatures
 nsCString
 aBaseURI
-DocShellOriginAttributes
+OriginAttributes
 aOpenerOriginAttributes
 float
 aFullZoom

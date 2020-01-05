@@ -5533,7 +5533,7 @@ nullptr
 }
 else
 {
-DocShellOriginAttributes
+OriginAttributes
 attrs
 (
 nsDocShell

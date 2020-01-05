@@ -60,7 +60,7 @@ using
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 from
 "
 mozilla
@@ -96,7 +96,7 @@ ipc
 struct
 ContentPrincipalInfo
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCString
@@ -112,7 +112,7 @@ SystemPrincipalInfo
 struct
 NullPrincipalInfo
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCString
@@ -123,7 +123,7 @@ spec
 struct
 ExpandedPrincipalInfo
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 PrincipalInfo

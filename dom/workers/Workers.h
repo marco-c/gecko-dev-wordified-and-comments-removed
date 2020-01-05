@@ -878,7 +878,7 @@ mStorageAllowed
 bool
 mServiceWorkersTestingInWindow
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 WorkerLoadInfo

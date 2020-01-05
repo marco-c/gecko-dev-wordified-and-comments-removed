@@ -1020,7 +1020,7 @@ mConnectionFlags
 bool
 mReuseAddrPort
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 uint16_t

@@ -240,7 +240,7 @@ nsProxyInfo
 *
 proxyInfo
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 bool
@@ -287,7 +287,7 @@ nsProxyInfo
 *
 proxyInfo
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 const
@@ -376,7 +376,7 @@ nsProxyInfo
 *
 proxyInfo
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 bool

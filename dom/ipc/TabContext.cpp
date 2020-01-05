@@ -254,7 +254,7 @@ true
 ;
 }
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 TabContext
 :
@@ -324,7 +324,7 @@ aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -431,7 +431,7 @@ isPrerendered
 =
 false
 ;
-DocShellOriginAttributes
+OriginAttributes
 originAttributes
 ;
 nsAutoString

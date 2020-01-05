@@ -368,7 +368,7 @@ PR_AF_INET
 aTLSHost
 aTLSPort
 nullptr
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 0
@@ -7150,7 +7150,7 @@ GetOriginAttributes
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 *
 aOriginAttributes
 )
@@ -7175,7 +7175,7 @@ const
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )

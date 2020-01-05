@@ -65,7 +65,7 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 }
 namespace
@@ -120,7 +120,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 mozilla
@@ -163,7 +163,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 mozilla
@@ -266,7 +266,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -317,7 +317,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 size_t

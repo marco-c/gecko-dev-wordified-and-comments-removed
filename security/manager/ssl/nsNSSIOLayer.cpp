@@ -7043,7 +7043,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 PRFileDesc
@@ -10352,7 +10352,7 @@ nsIProxyInfo
 *
 proxy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 PRFileDesc

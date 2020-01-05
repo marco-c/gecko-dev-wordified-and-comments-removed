@@ -159,12 +159,12 @@ NetAddr
 )
 ;
 native
-NeckoOriginAttributes
+OriginAttributes
 (
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 )
 ;
 [
@@ -177,7 +177,7 @@ const
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 )
 ;
 /
@@ -448,7 +448,7 @@ binaryname
 GetOriginAttributes
 )
 ]
-NeckoOriginAttributes
+OriginAttributes
 binaryGetOriginAttributes
 (
 )

@@ -39,7 +39,7 @@ const
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )

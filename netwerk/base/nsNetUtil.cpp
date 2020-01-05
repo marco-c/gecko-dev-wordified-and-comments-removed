@@ -5031,7 +5031,7 @@ aChannel
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttributes
 )
@@ -9742,7 +9742,7 @@ GetOriginAttributes
 (
 )
 ;
-DocShellOriginAttributes
+OriginAttributes
 originAttrsLoadContext
 ;
 loadContext

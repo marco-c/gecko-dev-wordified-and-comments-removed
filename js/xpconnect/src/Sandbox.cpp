@@ -6230,7 +6230,7 @@ cx
 HandleString
 codebase
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsIPrincipal
@@ -6543,7 +6543,7 @@ length
 ;
 Maybe
 <
-PrincipalOriginAttributes
+OriginAttributes
 >
 attrs
 ;
@@ -6745,7 +6745,7 @@ originAttributes
 )
 {
 const
-PrincipalOriginAttributes
+OriginAttributes
 prinAttrs
 =
 principal
@@ -8446,7 +8446,7 @@ toString
 )
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if

@@ -1312,7 +1312,7 @@ BeginReading
 colon
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 oa
 ;
 DebugOnly

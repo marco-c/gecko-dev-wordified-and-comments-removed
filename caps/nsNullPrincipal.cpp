@@ -191,12 +191,12 @@ nsIDocShell
 aDocShell
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs
 .
-InheritFromDocShellToDoc
+Inherit
 (
 nsDocShell
 :
@@ -210,7 +210,6 @@ aDocShell
 GetOriginAttributes
 (
 )
-nullptr
 )
 ;
 RefPtr
@@ -261,7 +260,7 @@ nsNullPrincipal
 Create
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 nsIURI
@@ -315,7 +314,7 @@ nsNullPrincipal
 Init
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 nsIURI

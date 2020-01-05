@@ -175,7 +175,7 @@ const
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -302,7 +302,7 @@ const
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 )

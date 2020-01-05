@@ -1584,7 +1584,7 @@ mLoaders
 nsString
 mCacheName
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 }

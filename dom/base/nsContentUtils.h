@@ -1915,7 +1915,7 @@ static
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 GetOriginAttributes
 (
 nsIDocument
@@ -1927,7 +1927,7 @@ static
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 GetOriginAttributes
 (
 nsILoadGroup

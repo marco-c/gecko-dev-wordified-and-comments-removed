@@ -2206,7 +2206,7 @@ result
 )
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs

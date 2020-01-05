@@ -158,7 +158,7 @@ CertID
 &
 certID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 )
@@ -480,7 +480,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -557,7 +557,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 size_t
@@ -670,7 +670,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -760,7 +760,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 Result
@@ -886,7 +886,7 @@ CertID
 &
 aCertID
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 Result

@@ -71,7 +71,7 @@ mLoadFlags
 ServiceWorkerState
 mState
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 uint64_t
@@ -229,7 +229,7 @@ mState
 ;
 }
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 GetOriginAttributes
 (

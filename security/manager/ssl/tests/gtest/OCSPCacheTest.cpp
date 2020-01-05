@@ -106,7 +106,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 template
 <
@@ -230,11 +230,11 @@ result
 Time
 time
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 )
@@ -433,7 +433,7 @@ fakeIssuer1
 fakeKey001
 fakeSerial000
 )
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -581,7 +581,7 @@ cache
 Get
 (
 cert0000
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -608,7 +608,7 @@ cache
 Get
 (
 cert0000
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -673,7 +673,7 @@ cache
 Get
 (
 cert0512
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -700,7 +700,7 @@ cache
 Get
 (
 cert0512
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -745,7 +745,7 @@ fakeIssuer1
 fakeKey000
 fakeSerial1111
 )
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -886,7 +886,7 @@ fakeIssuer1
 fakeKey001
 fakeSerial0000
 )
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1047,7 +1047,7 @@ cache
 Get
 (
 notEvicted
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1096,7 +1096,7 @@ cache
 Get
 (
 evicted
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1283,7 +1283,7 @@ cache
 Put
 (
 good
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 Success
@@ -1316,7 +1316,7 @@ cache
 Get
 (
 good
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1386,7 +1386,7 @@ cache
 Put
 (
 revoked
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 Result
@@ -1488,7 +1488,7 @@ cache
 Get
 (
 subject
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1520,7 +1520,7 @@ fakeIssuer2
 fakeKey000
 fakeSerial001
 )
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1540,7 +1540,7 @@ fakeIssuer1
 fakeKey001
 fakeSerial001
 )
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1602,7 +1602,7 @@ cache
 Put
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 Result
@@ -1639,7 +1639,7 @@ cache
 Get
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1730,7 +1730,7 @@ cache
 Put
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 Result
@@ -1767,7 +1767,7 @@ cache
 Get
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1812,7 +1812,7 @@ cache
 Put
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 Result
@@ -1837,7 +1837,7 @@ cache
 Get
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1885,7 +1885,7 @@ cache
 Put
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 Result
@@ -1910,7 +1910,7 @@ cache
 Get
 (
 certID
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 resultOut
@@ -1957,7 +1957,7 @@ SCOPED_TRACE
 "
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs

@@ -149,7 +149,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 from
 "
 mozilla
@@ -432,7 +432,7 @@ initialSecurityCheckDone
 bool
 isInThirdPartyContext
 ;
-NeckoOriginAttributes
+OriginAttributes
 originAttributes
 ;
 PrincipalInfo

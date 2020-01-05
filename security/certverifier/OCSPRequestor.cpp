@@ -287,7 +287,7 @@ char
 *
 url
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 const

@@ -634,7 +634,7 @@ void
 SetOriginAttributes
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -866,7 +866,7 @@ mInnerIDNumber
 nsString
 mInnerIDString
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 nsString
@@ -5011,7 +5011,7 @@ this
 return
 ;
 }
-PrincipalOriginAttributes
+OriginAttributes
 oa
 ;
 if

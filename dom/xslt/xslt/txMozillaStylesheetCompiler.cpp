@@ -1740,7 +1740,7 @@ rv
 rv
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCOMPtr
@@ -2738,7 +2738,7 @@ BasePrincipal
 CreateCodebasePrincipal
 (
 referrerUri
-PrincipalOriginAttributes
+OriginAttributes
 (
 )
 )
