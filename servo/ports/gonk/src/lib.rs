@@ -35,15 +35,6 @@ rustc_private
 #
 !
 [
-feature
-(
-std_misc
-env
-)
-]
-#
-!
-[
 allow
 (
 non_snake_case
