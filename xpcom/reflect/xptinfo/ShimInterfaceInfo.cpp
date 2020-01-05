@@ -1142,17 +1142,6 @@ mozilla
 /
 dom
 /
-DeviceStorageBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DOMCursorBinding
 .
 h

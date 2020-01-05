@@ -353,13 +353,6 @@ global
 datepicker
 .
 xhtml
-content
-/
-global
-/
-devicestorage
-.
-properties
 #
 ifndef
 MOZ_FENNEC

@@ -3255,11 +3255,6 @@ DeviceMotionEvent
 webidl
 '
 '
-DeviceStorage
-.
-webidl
-'
-'
 Directory
 .
 webidl
