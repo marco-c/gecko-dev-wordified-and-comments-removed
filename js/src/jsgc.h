@@ -403,6 +403,8 @@ false
 false
 false
 false
+false
+false
 }
 ;
 JS_STATIC_ASSERT
@@ -480,6 +482,8 @@ true
 true
 true
 false
+true
+true
 true
 false
 true
