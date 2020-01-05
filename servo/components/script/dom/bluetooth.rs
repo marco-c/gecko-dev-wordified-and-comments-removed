@@ -194,7 +194,7 @@ js
 :
 :
 {
-MutJS
+JS
 Root
 }
 ;
@@ -835,7 +835,7 @@ DOMRefCell
 HashMap
 <
 String
-MutJS
+JS
 <
 BluetoothDevice
 >
@@ -954,7 +954,7 @@ DOMRefCell
 HashMap
 <
 String
-MutJS
+JS
 <
 BluetoothDevice
 >
@@ -3647,11 +3647,9 @@ resolve_native
 (
 promise_cx
 &
+*
+*
 existing_device
-.
-get
-(
-)
 )
 ;
 }
@@ -3704,10 +3702,10 @@ insert
 device
 .
 id
-MutJS
+JS
 :
 :
-new
+from_ref
 (
 &
 bt_device
