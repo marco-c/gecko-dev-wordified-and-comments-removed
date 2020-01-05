@@ -532,4 +532,9 @@ black_pattern
 }
 )
 ;
+AzReleaseColorPattern
+(
+black_pattern
+)
+;
 }
