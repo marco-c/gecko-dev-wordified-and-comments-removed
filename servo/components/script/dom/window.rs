@@ -7084,7 +7084,7 @@ Node
 (
 )
 .
-get_bounding_content_box
+bounding_content_box
 (
 )
 ;

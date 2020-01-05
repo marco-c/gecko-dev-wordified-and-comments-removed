@@ -477,7 +477,7 @@ candidate
 |
 candidate
 .
-get_unique_id
+unique_id
 (
 )
 =
@@ -1171,7 +1171,7 @@ Node
 (
 )
 .
-get_unique_id
+unique_id
 (
 )
 )
@@ -1310,7 +1310,7 @@ push
 (
 node
 .
-get_unique_id
+unique_id
 (
 )
 )
@@ -1507,7 +1507,7 @@ Node
 (
 )
 .
-get_unique_id
+unique_id
 (
 )
 )

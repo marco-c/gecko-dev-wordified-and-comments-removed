@@ -11264,7 +11264,7 @@ Node
 (
 )
 .
-get_content_boxes
+content_boxes
 (
 )
 ;
@@ -11409,7 +11409,7 @@ Node
 (
 )
 .
-get_bounding_content_box
+bounding_content_box
 (
 )
 ;
@@ -11510,7 +11510,7 @@ Node
 (
 )
 .
-get_scroll_area
+scroll_area
 (
 )
 .
@@ -11561,7 +11561,7 @@ Node
 (
 )
 .
-get_scroll_area
+scroll_area
 (
 )
 .
@@ -11612,7 +11612,7 @@ Node
 (
 )
 .
-get_client_rect
+client_rect
 (
 )
 .
@@ -11663,7 +11663,7 @@ Node
 (
 )
 .
-get_client_rect
+client_rect
 (
 )
 .
@@ -11714,7 +11714,7 @@ Node
 (
 )
 .
-get_client_rect
+client_rect
 (
 )
 .
@@ -11765,7 +11765,7 @@ Node
 (
 )
 .
-get_client_rect
+client_rect
 (
 )
 .

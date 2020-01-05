@@ -457,7 +457,7 @@ new
 (
 root
 .
-get_inclusive_descendants_version
+inclusive_descendants_version
 (
 )
 )
@@ -639,7 +639,7 @@ self
 .
 root
 .
-get_inclusive_descendants_version
+inclusive_descendants_version
 (
 )
 ;

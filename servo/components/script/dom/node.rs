@@ -2688,7 +2688,7 @@ flags
 }
 pub
 fn
-get_has_changed
+has_changed
 (
 &
 self
@@ -2725,7 +2725,7 @@ state
 }
 pub
 fn
-get_is_dirty
+is_dirty
 (
 &
 self
@@ -2762,7 +2762,7 @@ state
 }
 pub
 fn
-get_has_dirty_descendants
+has_dirty_descendants
 (
 &
 self
@@ -2851,12 +2851,12 @@ max
 (
 self
 .
-get_inclusive_descendants_version
+inclusive_descendants_version
 (
 )
 doc
 .
-get_inclusive_descendants_version
+inclusive_descendants_version
 (
 )
 )
@@ -2958,7 +2958,7 @@ true
 if
 self
 .
-get_is_dirty
+is_dirty
 (
 )
 &
@@ -2980,7 +2980,7 @@ Node
 if
 node
 .
-get_is_dirty
+is_dirty
 (
 )
 {
@@ -3037,7 +3037,7 @@ force_ancestors
 &
 ancestor
 .
-get_has_dirty_descendants
+has_dirty_descendants
 (
 )
 {
@@ -3054,7 +3054,7 @@ true
 }
 pub
 fn
-get_inclusive_descendants_version
+inclusive_descendants_version
 (
 &
 self
@@ -3425,7 +3425,7 @@ c_void
 }
 pub
 fn
-get_bounding_content_box
+bounding_content_box
 (
 &
 self
@@ -3453,7 +3453,7 @@ to_trusted_node_address
 }
 pub
 fn
-get_content_boxes
+content_boxes
 (
 &
 self
@@ -3484,7 +3484,7 @@ to_trusted_node_address
 }
 pub
 fn
-get_client_rect
+client_rect
 (
 &
 self
@@ -3512,7 +3512,7 @@ to_trusted_node_address
 }
 pub
 fn
-get_scroll_area
+scroll_area
 (
 &
 self
@@ -4769,7 +4769,7 @@ Unsuppressed
 }
 pub
 fn
-get_unique_id
+unique_id
 (
 &
 self
@@ -4807,7 +4807,7 @@ uniqueId
 :
 self
 .
-get_unique_id
+unique_id
 (
 )
 baseURI
@@ -4844,7 +4844,7 @@ node
 |
 node
 .
-get_unique_id
+unique_id
 (
 )
 )
