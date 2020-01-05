@@ -192,10 +192,10 @@ or
 *
 BufferSource
 or
-FormData
-or
 *
 /
+FormData
+or
 DOMString
 or
 URLSearchParams
