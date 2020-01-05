@@ -1040,6 +1040,8 @@ COMPILE_PDB_FLAG
 Fdgenerated
 .
 pdb
+-
+FS
 endif
 COMPILE_CFLAGS
 +
