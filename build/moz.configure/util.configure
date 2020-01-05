@@ -2768,7 +2768,7 @@ deps
 =
 deps
 .
-dependencies
+sandboxed_dependencies
 def
 result
 (
