@@ -578,7 +578,9 @@ DMDReportAndDump
 )
 !
 =
+"
 undefined
+"
 )
 {
 var
@@ -642,7 +644,9 @@ DMDAnalyzeReports
 )
 !
 =
+"
 undefined
+"
 )
 {
 var
