@@ -151,9 +151,6 @@ tabId
 nsCString
 filename
 ;
-uint32_t
-lineno
-;
 }
 ;
 struct

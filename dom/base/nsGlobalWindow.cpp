@@ -49074,7 +49074,6 @@ filename
 get
 (
 )
-lineno
 )
 ;
 if

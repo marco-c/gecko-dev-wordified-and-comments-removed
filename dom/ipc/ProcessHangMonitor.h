@@ -159,8 +159,6 @@ const
 char
 *
 aFileName
-unsigned
-aLineNo
 )
 ;
 void
