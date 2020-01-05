@@ -439,6 +439,11 @@ GetFixedLayerMarginsBottom
 (
 )
 ;
+void
+NotifyControllerSnapshotFailed
+(
+)
+;
 uint64_t
 mRootLayerTreeId
 ;

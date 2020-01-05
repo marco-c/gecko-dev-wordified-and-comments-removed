@@ -1084,6 +1084,11 @@ bm
 null
 )
 {
+postCompositorMessage
+(
+TOOLBAR_SNAPSHOT_FAILED
+)
+;
 break
 ;
 }
