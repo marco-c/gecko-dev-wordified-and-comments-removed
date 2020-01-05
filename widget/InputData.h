@@ -802,9 +802,9 @@ const
 ParentLayerPoint
 &
 aLocalFocusPoint
-float
+ParentLayerCoord
 aCurrentSpan
-float
+ParentLayerCoord
 aPreviousSpan
 Modifiers
 aModifiers
@@ -828,10 +828,10 @@ mFocusPoint
 ParentLayerPoint
 mLocalFocusPoint
 ;
-float
+ParentLayerCoord
 mCurrentSpan
 ;
-float
+ParentLayerCoord
 mPreviousSpan
 ;
 }

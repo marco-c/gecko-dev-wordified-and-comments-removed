@@ -192,10 +192,10 @@ mTouches
 GestureState
 mState
 ;
-float
+ParentLayerCoord
 mSpanChange
 ;
-float
+ParentLayerCoord
 mPreviousSpan
 ;
 MultiTouchInput
