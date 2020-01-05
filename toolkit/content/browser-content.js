@@ -2455,9 +2455,6 @@ data
 simplifiedMode
 data
 .
-changingBrowsers
-data
-.
 defaultPrinterName
 )
 ;
@@ -3505,7 +3502,6 @@ enterPrintPreview
 (
 contentWindow
 simplifiedMode
-changingBrowsers
 defaultPrinterName
 )
 {
@@ -3541,7 +3537,6 @@ failed
 !
 !
 error
-changingBrowsers
 }
 )
 ;

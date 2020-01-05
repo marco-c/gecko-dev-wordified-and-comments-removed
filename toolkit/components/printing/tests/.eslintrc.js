@@ -22,15 +22,6 @@ chrome
 -
 test
 "
-"
-plugin
-:
-mozilla
-/
-browser
--
-test
-"
 ]
 }
 ;
