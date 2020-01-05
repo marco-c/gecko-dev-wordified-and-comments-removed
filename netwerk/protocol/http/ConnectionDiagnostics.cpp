@@ -541,10 +541,6 @@ using
 =
 %
 d
-preferred
-=
-%
-d
 \
 n
 "
@@ -552,10 +548,6 @@ ent
 -
 >
 mUsingSpdy
-ent
--
->
-mInPreferredHash
 )
 ;
 uint32_t
