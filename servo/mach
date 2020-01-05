@@ -139,10 +139,6 @@ print_function
 unicode_literals
 import
 os
-from
-os
-import
-path
 import
 sys
 def
@@ -153,10 +149,14 @@ args
 :
 topdir
 =
+os
+.
 path
 .
 abspath
 (
+os
+.
 path
 .
 dirname
