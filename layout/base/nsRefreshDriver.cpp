@@ -5105,6 +5105,11 @@ ServoStyleSet
 IsInServoTraversal
 (
 )
+|
+|
+NS_IsMainThread
+(
+)
 "
 EnsureTimerStarted
 should
@@ -5120,6 +5125,12 @@ not
 in
 servo
 traversal
+or
+on
+the
+main
+-
+thread
 "
 )
 ;
