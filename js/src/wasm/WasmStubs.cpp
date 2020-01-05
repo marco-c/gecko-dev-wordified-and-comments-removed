@@ -30,7 +30,7 @@ include
 "
 wasm
 /
-WasmIonCompile
+WasmGenerator
 .
 h
 "

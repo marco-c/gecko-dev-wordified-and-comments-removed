@@ -114,15 +114,6 @@ h
 #
 include
 "
-wasm
-/
-WasmIonCompile
-.
-h
-"
-#
-include
-"
 jscntxtinlines
 .
 h
@@ -338,7 +329,7 @@ StartOffThreadWasmCompile
 wasm
 :
 :
-IonCompileTask
+CompileTask
 *
 task
 )
@@ -4470,7 +4461,7 @@ checkTaskThreadLimit
 wasm
 :
 :
-IonCompileTask
+CompileTask
 *
 >
 (
@@ -6746,7 +6737,7 @@ false
 wasm
 :
 :
-IonCompileTask
+CompileTask
 *
 task
 =

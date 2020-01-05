@@ -4,15 +4,6 @@ asmjs_wasm_baseline_compile_h
 #
 define
 asmjs_wasm_baseline_compile_h
-#
-include
-"
-wasm
-/
-WasmIonCompile
-.
-h
-"
 namespace
 js
 {
@@ -21,6 +12,9 @@ wasm
 {
 class
 FunctionGenerator
+;
+class
+CompileTask
 ;
 bool
 BaselineCanCompile
@@ -34,7 +28,7 @@ fg
 bool
 BaselineCompileFunction
 (
-IonCompileTask
+CompileTask
 *
 task
 )

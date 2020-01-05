@@ -38804,7 +38804,7 @@ wasm
 :
 BaselineCompileFunction
 (
-IonCompileTask
+CompileTask
 *
 task
 )
@@ -38819,7 +38819,7 @@ mode
 )
 =
 =
-IonCompileTask
+CompileTask
 :
 :
 CompileMode

@@ -9224,7 +9224,7 @@ resolutionValue
 ;
 }
 struct
-CompileTask
+CompilePromiseTask
 :
 PromiseTask
 {
@@ -9240,7 +9240,7 @@ error
 SharedModule
 module
 ;
-CompileTask
+CompilePromiseTask
 (
 JSContext
 *
@@ -9603,7 +9603,7 @@ cx
 >
 make_unique
 <
-CompileTask
+CompilePromiseTask
 >
 (
 cx
@@ -9883,14 +9883,14 @@ val
 ;
 }
 struct
-InstantiateTask
+InstantiatePromiseTask
 :
-CompileTask
+CompilePromiseTask
 {
 PersistentRootedObject
 importObj
 ;
-InstantiateTask
+InstantiatePromiseTask
 (
 JSContext
 *
@@ -9905,7 +9905,7 @@ HandleObject
 importObj
 )
 :
-CompileTask
+CompilePromiseTask
 (
 cx
 promise
@@ -10302,7 +10302,7 @@ cx
 >
 make_unique
 <
-InstantiateTask
+InstantiatePromiseTask
 >
 (
 cx
