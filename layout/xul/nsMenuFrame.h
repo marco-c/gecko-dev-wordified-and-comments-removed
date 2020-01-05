@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIReflowCallback
 .
 h
@@ -138,6 +145,8 @@ final
 :
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -151,6 +160,7 @@ aFrame
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 void
 ClearFrame
 (
