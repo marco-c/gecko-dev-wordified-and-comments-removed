@@ -185,6 +185,9 @@ gperf
 g
 +
 +
+build
+-
+essential
 cmake
 virtualenv
 python
