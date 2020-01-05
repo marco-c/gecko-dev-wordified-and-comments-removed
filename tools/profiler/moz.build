@@ -138,6 +138,13 @@ h
 '
 public
 /
+GeckoProfilerTypes
+.
+h
+'
+'
+public
+/
 ProfilerBacktrace
 .
 h
