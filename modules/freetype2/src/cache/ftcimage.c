@@ -20,6 +20,9 @@ include
 FT_INTERNAL_MEMORY_H
 #
 include
+FT_INTERNAL_OBJECTS_H
+#
+include
 "
 ftccback
 .
@@ -188,7 +191,7 @@ gindex
 FTC_IFamilyClass
 clazz
 =
-FTC_CACHE__IFAMILY_CLASS
+FTC_CACHE_IFAMILY_CLASS
 (
 cache
 )
@@ -354,7 +357,10 @@ bitmap
 .
 rows
 *
-ft_labs
+(
+FT_Offset
+)
+FT_ABS
 (
 bitg
 -
@@ -389,6 +395,9 @@ glyph
 ;
 size
 =
+(
+FT_Offset
+)
 outg
 -
 >
@@ -408,6 +417,9 @@ FT_Byte
 )
 )
 +
+(
+FT_Offset
+)
 outg
 -
 >

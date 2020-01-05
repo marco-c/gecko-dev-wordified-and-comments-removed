@@ -1,9 +1,9 @@
 #
 ifndef
-__OTVMOD_H__
+OTVMOD_H_
 #
 define
-__OTVMOD_H__
+OTVMOD_H_
 #
 include
 <

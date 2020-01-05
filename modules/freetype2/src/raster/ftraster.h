@@ -1,9 +1,9 @@
 #
 ifndef
-__FTRASTER_H__
+FTRASTER_H_
 #
 define
-__FTRASTER_H__
+FTRASTER_H_
 #
 include
 <

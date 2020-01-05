@@ -1,9 +1,9 @@
 #
 ifndef
-__T42OBJS_H__
+T42OBJS_H_
 #
 define
-__T42OBJS_H__
+T42OBJS_H_
 #
 include
 <
@@ -79,10 +79,6 @@ root
 ;
 FT_Driver_Class
 ttclazz
-;
-void
-*
-extension_component
 ;
 }
 T42_DriverRec

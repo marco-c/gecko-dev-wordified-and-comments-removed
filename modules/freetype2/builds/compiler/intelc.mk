@@ -21,9 +21,7 @@ mode
 Copyright
 1996
 -
-2000
-2003
-2006
+2016
 by
 #
 David

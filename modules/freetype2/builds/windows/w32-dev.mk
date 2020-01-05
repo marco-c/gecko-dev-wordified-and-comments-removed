@@ -20,10 +20,7 @@ optimizations
 Copyright
 1996
 -
-2000
-2003
-2006
-2013
+2016
 by
 #
 David

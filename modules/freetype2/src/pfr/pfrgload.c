@@ -452,7 +452,7 @@ if
 error
 )
 {
-FT_UInt
+FT_Int
 n
 =
 outline
@@ -734,6 +734,7 @@ if
 !
 error
 )
+{
 error
 =
 pfr_glyph_line_to
@@ -742,6 +743,7 @@ glyph
 to
 )
 ;
+}
 return
 error
 ;
@@ -1082,7 +1084,7 @@ if
 (
 flags
 &
-PFR_GLYPH_EXTRA_ITEMS
+PFR_GLYPH_SINGLE_EXTRA_ITEMS
 )
 {
 error
@@ -2109,7 +2111,7 @@ if
 (
 flags
 &
-PFR_GLYPH_EXTRA_ITEMS
+PFR_GLYPH_COMPOUND_EXTRA_ITEMS
 )
 {
 error
@@ -2306,9 +2308,8 @@ PFR_NEXT_SHORT
 (
 p
 )
-<
-<
-4
+*
+16
 ;
 }
 subglyph
@@ -2339,9 +2340,8 @@ PFR_NEXT_SHORT
 (
 p
 )
-<
-<
-4
+*
+16
 ;
 }
 switch
@@ -2513,7 +2513,7 @@ subglyph
 >
 gps_offset
 =
-PFR_NEXT_LONG
+PFR_NEXT_ULONG
 (
 p
 )
@@ -2655,7 +2655,7 @@ p
 PFR_GLYPH_IS_COMPOUND
 )
 {
-FT_Int
+FT_UInt
 n
 old_count
 count

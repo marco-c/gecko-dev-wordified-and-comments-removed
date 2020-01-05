@@ -1,9 +1,9 @@
 #
 ifndef
-__T1DECODE_H__
+T1DECODE_H_
 #
 define
-__T1DECODE_H__
+T1DECODE_H_
 #
 include
 <

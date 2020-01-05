@@ -1,9 +1,9 @@
 #
 ifndef
-__PSHMOD_H__
+PSHMOD_H_
 #
 define
-__PSHMOD_H__
+PSHMOD_H_
 #
 include
 <

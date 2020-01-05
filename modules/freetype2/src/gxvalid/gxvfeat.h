@@ -1,9 +1,9 @@
 #
 ifndef
-__GXVFEAT_H__
+GXVFEAT_H_
 #
 define
-__GXVFEAT_H__
+GXVFEAT_H_
 #
 include
 "

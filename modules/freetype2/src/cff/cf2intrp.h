@@ -1,9 +1,9 @@
 #
 ifndef
-__CF2INTRP_H__
+CF2INTRP_H_
 #
 define
-__CF2INTRP_H__
+CF2INTRP_H_
 #
 include
 "

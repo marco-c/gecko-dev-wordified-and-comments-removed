@@ -1,9 +1,9 @@
 #
 ifndef
-__FTREND1_H__
+FTREND1_H_
 #
 define
-__FTREND1_H__
+FTREND1_H_
 #
 include
 <
@@ -18,10 +18,6 @@ FT_BEGIN_HEADER
 FT_DECLARE_RENDERER
 (
 ft_raster1_renderer_class
-)
-FT_DECLARE_RENDERER
-(
-ft_raster5_renderer_class
 )
 FT_END_HEADER
 #

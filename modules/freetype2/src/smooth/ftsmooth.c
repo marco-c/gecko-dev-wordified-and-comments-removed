@@ -829,9 +829,11 @@ buffer
 (
 FT_ULong
 )
+(
 pitch
 *
 height
+)
 )
 )
 goto
@@ -899,6 +901,10 @@ bitmap
 >
 width
 =
+(
+unsigned
+int
+)
 width
 ;
 bitmap
@@ -906,6 +912,10 @@ bitmap
 >
 rows
 =
+(
+unsigned
+int
+)
 height
 ;
 bitmap

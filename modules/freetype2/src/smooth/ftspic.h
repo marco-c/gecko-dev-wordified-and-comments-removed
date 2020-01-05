@@ -1,13 +1,13 @@
 #
 ifndef
-__FTSPIC_H__
+FTSPIC_H_
 #
 define
-__FTSPIC_H__
-FT_BEGIN_HEADER
+FTSPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
+FT_BEGIN_HEADER
 #
 ifndef
 FT_CONFIG_OPTION_PIC

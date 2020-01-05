@@ -214,6 +214,8 @@ not
 a
 valid
 directory
+\
+n
 "
 )
                 

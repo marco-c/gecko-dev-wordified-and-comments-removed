@@ -9,6 +9,8 @@ Jamfile
 #
 Copyright
 2002
+-
+2016
 by
 #
 David
@@ -95,9 +97,9 @@ FT2_MULTI
 {
 _sources
 =
+t42drivr
 t42objs
 t42parse
-t42drivr
 ;
 }
 else

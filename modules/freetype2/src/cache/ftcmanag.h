@@ -1,9 +1,9 @@
 #
 ifndef
-__FTCMANAG_H__
+FTCMANAG_H_
 #
 define
-__FTCMANAG_H__
+FTCMANAG_H_
 #
 include
 <
@@ -276,7 +276,7 @@ q
 )
 \
 (
-_FTC_FACE_ID_HASH
+FTC_FACE_ID_HASH
 (
 (
 q

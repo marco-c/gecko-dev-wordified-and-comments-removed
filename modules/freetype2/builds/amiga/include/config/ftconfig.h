@@ -34,6 +34,8 @@ FT
 :
 include
 /
+freetype
+/
 config
 /
 ftconfig
@@ -49,6 +51,8 @@ include
 FT
 /
 include
+/
+freetype
 /
 config
 /
@@ -70,6 +74,8 @@ include
 FT
 /
 include
+/
+freetype
 /
 config
 /

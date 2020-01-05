@@ -1,9 +1,9 @@
 #
 ifndef
-__CF2TYPES_H__
+CF2TYPES_H_
 #
 define
-__CF2TYPES_H__
+CF2TYPES_H_
 #
 include
 <

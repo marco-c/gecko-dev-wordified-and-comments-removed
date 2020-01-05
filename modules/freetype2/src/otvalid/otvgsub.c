@@ -121,6 +121,9 @@ otvalid
 ;
 idx
 =
+(
+FT_Long
+)
 otv_Coverage_get_first
 (
 Coverage
@@ -138,6 +141,9 @@ FT_INVALID_DATA
 ;
 idx
 =
+(
+FT_Long
+)
 otv_Coverage_get_last
 (
 Coverage
@@ -213,6 +219,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 GlyphCount
 )
 ;

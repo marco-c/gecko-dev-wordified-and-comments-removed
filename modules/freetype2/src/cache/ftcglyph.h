@@ -1,9 +1,9 @@
 #
 ifndef
-__FTCGLYPH_H__
+FTCGLYPH_H_
 #
 define
-__FTCGLYPH_H__
+FTCGLYPH_H_
 #
 include
 <
@@ -311,7 +311,7 @@ x
 )
 #
 define
-FTC_CACHE__GCACHE_CLASS
+FTC_CACHE_GCACHE_CLASS
 (
 x
 )
@@ -328,7 +328,7 @@ org_class
 )
 #
 define
-FTC_CACHE__FAMILY_CLASS
+FTC_CACHE_FAMILY_CLASS
 (
 x
 )
@@ -337,7 +337,7 @@ x
 (
 FTC_MruListClass
 )
-FTC_CACHE__GCACHE_CLASS
+FTC_CACHE_GCACHE_CLASS
 (
 x
 )
@@ -371,7 +371,7 @@ FTC_GCache_Lookup
 (
 FTC_GCache
 cache
-FT_PtrDist
+FT_Offset
 hash
 FT_UInt
 gindex

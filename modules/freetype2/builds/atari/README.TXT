@@ -164,10 +164,10 @@ H
 :
 #
 ifndef
-__FT2_BUILD_GENERIC_H__
+FT2_BUILD_GENERIC_H_
 #
 define
-__FT2_BUILD_GENERIC_H__
+FT2_BUILD_GENERIC_H_
 #
 include
 "
@@ -333,10 +333,10 @@ werden
 :
 #
 ifndef
-__FT2_BUILD_GENERIC_H__
+FT2_BUILD_GENERIC_H_
 #
 define
-__FT2_BUILD_GENERIC_H__
+FT2_BUILD_GENERIC_H_
 #
 include
 "

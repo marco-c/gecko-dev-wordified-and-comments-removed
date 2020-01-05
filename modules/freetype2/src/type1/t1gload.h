@@ -1,9 +1,9 @@
 #
 ifndef
-__T1GLOAD_H__
+T1GLOAD_H_
 #
 define
-__T1GLOAD_H__
+T1GLOAD_H_
 #
 include
 <

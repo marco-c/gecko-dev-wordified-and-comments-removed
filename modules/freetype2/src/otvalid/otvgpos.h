@@ -1,9 +1,9 @@
 #
 ifndef
-__OTVGPOS_H__
+OTVGPOS_H_
 #
 define
-__OTVGPOS_H__
+OTVGPOS_H_
 FT_BEGIN_HEADER
 FT_LOCAL
 (

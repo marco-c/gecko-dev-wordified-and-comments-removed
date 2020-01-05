@@ -24,7 +24,7 @@ include
 FT_INTERNAL_DEBUG_H
 #
 include
-FT_SERVICE_XFREE86_NAME_H
+FT_SERVICE_FONT_FORMAT_H
 #
 include
 FT_SERVICE_GLYPH_DICT_H
@@ -147,7 +147,7 @@ return
 (
 FT_UInt
 )
-ft_atol
+ft_strtol
 (
 (
 const
@@ -163,6 +163,8 @@ charstrings
 [
 i
 ]
+NULL
+10
 )
 ;
 }
@@ -381,8 +383,8 @@ FT_SERVICE_ID_POSTSCRIPT_INFO
 t42_service_ps_info
 }
 {
-FT_SERVICE_ID_XF86_NAME
-FT_XF86_FORMAT_TYPE_42
+FT_SERVICE_ID_FONT_FORMAT
+FT_FONT_FORMAT_TYPE_42
 }
 {
 NULL

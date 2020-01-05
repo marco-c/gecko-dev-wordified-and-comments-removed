@@ -1743,9 +1743,14 @@ gxvalid
 >
 subtable_length
 =
+(
+FT_ULong
+)
+(
 p
 -
 table
+)
 ;
 GXV_EXIT
 ;
@@ -2302,7 +2307,7 @@ GXV_TRACE
 (
 (
 "
-interprete
+interpret
 coverage
 0x
 %
@@ -2415,7 +2420,7 @@ GXV_TRACE
 (
 "
 cannot
-interprete
+interpret
 coverage
 broken
 kern
@@ -2623,6 +2628,9 @@ endif
 length
 =
 (
+(
+FT_ULong
+)
 u16
 [
 0

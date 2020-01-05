@@ -1,9 +1,9 @@
 #
 ifndef
-__PSMODULE_H__
+PSMODULE_H_
 #
 define
-__PSMODULE_H__
+PSMODULE_H_
 #
 include
 <

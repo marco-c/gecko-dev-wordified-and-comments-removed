@@ -451,9 +451,8 @@ s
 S
 d
 h
-sc1
-sc2
-sc3
+H
+sss
 )
 \
 FT_Init_Class_af_

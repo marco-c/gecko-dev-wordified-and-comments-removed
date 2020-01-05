@@ -452,9 +452,6 @@ else
 gxv_ctlPoint_validate
 (
 stdGlyph
-(
-FT_Short
-)
 ctlPoint
 gxvalid
 )

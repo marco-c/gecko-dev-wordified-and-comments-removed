@@ -158,6 +158,24 @@ key
 =
 index_key
 )
+        
+for
+section
+in
+self
+.
+sections
+:
+            
+self
+.
+add_identifier
+(
+section
+.
+name
+section
+)
     
 def
 add_identifier

@@ -8,7 +8,8 @@ subdirectory
 .
 Copyright
 2005
-2013
+-
+2016
 by
 Werner
 Lemberg
@@ -561,6 +562,8 @@ FT
 :
 include
 /
+freetype
+/
 config
 /
 ftoption
@@ -704,6 +707,8 @@ need
 See
 include
 /
+freetype
+/
 config
 /
 ftmodule
@@ -730,6 +735,8 @@ from
 top
 of
 include
+/
+freetype
 /
 config
 /
@@ -979,6 +986,8 @@ include
 file
 is
 include
+/
+freetype
 /
 config
 /

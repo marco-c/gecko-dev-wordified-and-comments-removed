@@ -13,9 +13,7 @@ rules
 Copyright
 2003
 -
-2007
-2011
-2013
+2016
 by
 #
 David
@@ -108,8 +106,12 @@ AUTOF_COMPILE
 :
 =
 (
-FT_COMPILE
+CC
 )
+(
+ANSIFLAGS
+)
+\
 I
 (
 subst
@@ -120,6 +122,14 @@ COMPILER_SEP
 (
 AUTOF_DIR
 )
+)
+\
+(
+INCLUDE_FLAGS
+)
+\
+(
+FT_CFLAGS
 )
 #
 AUTOF
@@ -237,7 +247,7 @@ c
 AUTOF_DIR
 )
 /
-afwarp
+afshaper
 .
 c
 \
@@ -245,7 +255,7 @@ c
 AUTOF_DIR
 )
 /
-hbshim
+afwarp
 .
 c
 #

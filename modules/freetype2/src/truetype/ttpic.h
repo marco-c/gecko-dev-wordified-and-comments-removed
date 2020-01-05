@@ -1,10 +1,12 @@
 #
 ifndef
-__TTPIC_H__
+TTPIC_H_
 #
 define
-__TTPIC_H__
-FT_BEGIN_HEADER
+TTPIC_H_
+#
+include
+FT_INTERNAL_PIC_H
 #
 ifndef
 FT_CONFIG_OPTION_PIC
@@ -38,6 +40,7 @@ FT_SERVICE_TRUETYPE_GLYF_H
 #
 include
 FT_SERVICE_PROPERTIES_H
+FT_BEGIN_HEADER
 typedef
 struct
 TTModulePIC_
@@ -152,8 +155,8 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
-FT_END_HEADER
 #
 endif

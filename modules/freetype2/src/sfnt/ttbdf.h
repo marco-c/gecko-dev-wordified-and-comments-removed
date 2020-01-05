@@ -1,9 +1,9 @@
 #
 ifndef
-__TTBDF_H__
+TTBDF_H_
 #
 define
-__TTBDF_H__
+TTBDF_H_
 #
 include
 <

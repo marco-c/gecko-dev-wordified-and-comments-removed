@@ -2535,7 +2535,7 @@ src
 /
 sfnt
 /
-ttcmac
+ttcmap
 .
 c
 :
@@ -4326,7 +4326,7 @@ ftgzip
 .
 c
 (
-FT_Stream_OpenGZip
+FT_Stream_OpenGzip
 )
 :
 Ditto
@@ -5719,7 +5719,7 @@ aflatin
 .
 c
 (
-af_latin_metricsc_scale
+af_latin_metrics_scale
 )
 :
 Don
@@ -7607,7 +7607,7 @@ src
 /
 psaux
 /
-psobjc
+psobjs
 .
 c
 (
@@ -8351,9 +8351,9 @@ include
 /
 freetype
 /
-ftchapter
+ftchapters
 .
-s
+h
 :
 Updated
 .
@@ -8674,7 +8674,7 @@ ftsynth
 .
 c
 (
-ft_test_extrama
+ft_test_extrema
 ft_get_orientation
 )
 :
@@ -13121,7 +13121,7 @@ Activate
 gray
 -
 scale
-specifing
+specifying
 hinting
 within
 the
@@ -13184,7 +13184,7 @@ FT_LOAD_TARGET_MONO
 *
 src
 /
-truetyep
+truetype
 /
 ttinterp
 .
@@ -13383,8 +13383,7 @@ be
 used
 instead
 of
-T1
-Read_AFM
+T1_Read_AFM
 .
 Update
 all
@@ -14736,7 +14735,7 @@ pcfdrivr
 .
 c
 (
-FT_COMPOMENT
+FT_COMPONENT
 )
 :
 Move
@@ -15255,7 +15254,7 @@ src
 /
 cache
 /
-ftbasic
+ftcbasic
 .
 c
 (
@@ -15514,7 +15513,7 @@ David
 Chester
 <
 davidchester
-gmx
+qmx
 .
 net
 >
@@ -16465,7 +16464,7 @@ Memory_Error
 with
 Fail
 '
-und
+and
 update
 all
 users
@@ -21001,7 +21000,7 @@ __MWERKS__
 ]
 :
 Include
-FSp_fpopen
+FSp_fopen
 .
 h
 .
@@ -24287,7 +24286,7 @@ if
 the
 cmap
 is
-sythesized
+synthesized
 in
 cff
 module
@@ -25233,7 +25232,7 @@ ftgloadr
 .
 c
 :
-Inlude
+Include
 FT_INTERNAL_OBJECTS_H
 .
 *
@@ -25822,7 +25821,7 @@ src
 /
 cache
 /
-ftclru
+ftlru
 .
 c
 (
@@ -29393,7 +29392,7 @@ directly
 *
 src
 /
-cif
+cid
 /
 cidriver
 .
@@ -30270,7 +30269,7 @@ h
 (
 inflate_trees_fixed
 )
-srf
+src
 /
 gzip
 /
@@ -34418,7 +34417,7 @@ t42_service_ps_name
 )
 :
 New
-strucures
+structures
 providing
 Type
 42
@@ -34613,7 +34612,7 @@ src
 /
 pfr
 /
-prfload
+pfrload
 .
 c
 :
@@ -38100,7 +38099,7 @@ Replaced
 with
 FT_GLYPH_BBOX_UNSCALED
 FT_GLYPH_BBOX_SUBPIXELS
-FT_GLYPH_BBIX_GRIDFIT
+FT_GLYPH_BBOX_GRIDFIT
 FT_GLYPH_BBOX_TRUNCATE
 FT_GLYPH_BBOX_PIXELS
 .
@@ -39939,7 +39938,7 @@ blue_scale
 *
 src
 /
-cif
+cid
 /
 cidtoken
 .
@@ -41771,7 +41770,7 @@ ftgzip
 .
 c
 (
-ft_gzip_fil_io
+ft_gzip_file_io
 )
 :
 Revert
@@ -42808,7 +42807,7 @@ ahhint
 .
 c
 (
-ah_hinter_align_stong_points
+ah_hinter_align_strong_points
 )
 :
 Provide
@@ -44640,7 +44639,7 @@ org
 *
 README
 :
-Udpated
+Updated
 .
 *
 README
@@ -47001,7 +47000,7 @@ FT_BDF_H
 .
 (
 pcf_get_bdf_property
-pdc_driver_requester
+pcf_driver_requester
 )
 :
 New
@@ -49284,7 +49283,7 @@ src
 /
 cache
 /
-ftcsbit
+ftcsbits
 .
 c
 (
@@ -49775,7 +49774,7 @@ API
 Fixed
 the
 kerning
-retrievel
+retrieval
 routine
 (
 it
@@ -50430,7 +50429,7 @@ src
 /
 pfr
 /
-pfrobks
+pfrobjs
 .
 c
 :
@@ -52726,8 +52725,7 @@ Adding
 fix
 to
 prevent
-seg
-fault
+segfault
 when
 hints
 are
@@ -53132,7 +53130,7 @@ src
 /
 cache
 /
-ftcsbit
+ftcsbits
 .
 c
 (
@@ -54061,7 +54059,7 @@ FT_Renderer_
 RenderFunc
 TransformFunc
 GetCBoxFunc
-SeteModeFunc
+SetModeFunc
 }
 )
 :
@@ -57288,7 +57286,7 @@ c
 TT_Face_Init
 )
 [
-FT_CONFIG_OPTION_INCOREMENTAL
+FT_CONFIG_OPTION_INCREMENTAL
 ]
 :
 Added
@@ -59907,7 +59905,7 @@ de
 *
 src
 /
-prf
+pfr
 /
 pfrtypes
 .
@@ -62504,7 +62502,7 @@ blue
 zones
 substitution
 from
-hapenning
+happening
 correctly
 .
 *
@@ -65729,7 +65727,7 @@ pfrload
 .
 c
 (
-pfr_extra_items_farse
+pfr_extra_items_parse
 )
 :
 Fix
@@ -66184,8 +66182,10 @@ src
 pcf
 /
 pcfread
+.
+c
 (
-pcf_get_accell
+pcf_get_accel
 )
 :
 Fix
@@ -66464,7 +66464,7 @@ src
 /
 cff
 /
-cffdriver
+cffdrivr
 .
 c
 src
@@ -69209,7 +69209,7 @@ psaux
 t1decode
 .
 c
-stc
+src
 /
 type1
 /
@@ -69256,7 +69256,7 @@ freetype
 /
 internal
 /
-psglobals
+psglobal
 .
 h
 :
@@ -72112,11 +72112,8 @@ t1_encoding_isolatin1
 -
 Copyright
 2002
-2003
-2004
-2005
-2007
-2008
+-
+2016
 by
 David
 Turner

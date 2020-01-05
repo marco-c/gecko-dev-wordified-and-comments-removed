@@ -8,8 +8,7 @@ sh
 Copyright
 2005
 -
-2010
-2013
+2016
 by
 #
 David
@@ -903,6 +902,8 @@ sed
 include
 /
 freetype
+/
+freetype
 .
 h
 #
@@ -994,10 +995,6 @@ autoconf
 -
 -
 force
-chmod
-+
-x
-mkinstalldirs
 chmod
 +
 x

@@ -1,9 +1,9 @@
 #
 ifndef
-__WINFNT_H__
+WINFNT_H_
 #
 define
-__WINFNT_H__
+WINFNT_H_
 #
 include
 <

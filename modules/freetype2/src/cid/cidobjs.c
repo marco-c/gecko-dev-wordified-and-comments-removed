@@ -66,7 +66,7 @@ internal
 >
 glyph_hints
 =
-0
+NULL
 ;
 }
 FT_LOCAL_DEF
@@ -314,7 +314,7 @@ cidsize
 >
 internal
 =
-0
+NULL
 ;
 }
 }
@@ -725,14 +725,14 @@ cidface
 >
 family_name
 =
-0
+NULL
 ;
 cidface
 -
 >
 style_name
 =
-0
+NULL
 ;
 FT_FREE
 (
@@ -971,7 +971,11 @@ Exit
 ;
 if
 (
+(
 face_index
+&
+0xFFFF
+)
 !
 =
 0
@@ -1027,6 +1031,9 @@ cidface
 >
 num_glyphs
 =
+(
+FT_Long
+)
 cid
 -
 >
@@ -1045,6 +1052,8 @@ cidface
 face_index
 =
 face_index
+&
+0xFFFF
 ;
 cidface
 -
@@ -1319,7 +1328,7 @@ cidface
 >
 available_sizes
 =
-0
+NULL
 ;
 cidface
 -

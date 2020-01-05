@@ -1,9 +1,9 @@
 #
 ifndef
-__CFFLOAD_H__
+CFFLOAD_H_
 #
 define
-__CFFLOAD_H__
+CFFLOAD_H_
 #
 include
 <

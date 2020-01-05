@@ -1,9 +1,9 @@
 #
 ifndef
-__T1CMAP_H__
+T1CMAP_H_
 #
 define
-__T1CMAP_H__
+T1CMAP_H_
 #
 include
 <

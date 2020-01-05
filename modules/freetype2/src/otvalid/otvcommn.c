@@ -1957,6 +1957,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 Count
 )
 ;

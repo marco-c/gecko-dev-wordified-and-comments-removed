@@ -1,9 +1,9 @@
 #
 ifndef
-__FTMISC_H__
+FTMISC_H_
 #
 define
-__FTMISC_H__
+FTMISC_H_
 #
 include
 FT_CONFIG_STANDARD_LIBRARY_H

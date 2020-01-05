@@ -1,9 +1,9 @@
 #
 ifndef
-__CFFGLOAD_H__
+CFFGLOAD_H_
 #
 define
-__CFFGLOAD_H__
+CFFGLOAD_H_
 #
 include
 <
@@ -29,7 +29,15 @@ CFF_MAX_OPERANDS
 #
 define
 CFF_MAX_SUBRS_CALLS
-32
+16
+/
+*
+maximum
+subroutine
+nesting
+;
+*
+/
 #
 define
 CFF_MAX_TRANS_ELEMENTS
@@ -413,6 +421,8 @@ FT_Byte
 charstring_base
 FT_ULong
 charstring_len
+FT_Bool
+in_dict
 )
 ;
 #

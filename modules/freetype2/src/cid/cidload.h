@@ -1,9 +1,9 @@
 #
 ifndef
-__CIDLOAD_H__
+CIDLOAD_H_
 #
 define
-__CIDLOAD_H__
+CIDLOAD_H_
 #
 include
 <
@@ -37,7 +37,7 @@ CID_Loader
 ;
 FT_LOCAL
 (
-FT_Long
+FT_ULong
 )
 cid_get_offset
 (

@@ -1171,9 +1171,9 @@ src
 /
 base
 /
-ftobjc
+ftobjs
 .
-s
+c
 :
 Include
 ftbase
@@ -1584,7 +1584,7 @@ t1gload
 .
 c
 (
-T1_Loada_Glyph
+T1_Load_Glyph
 )
 :
 Don
@@ -5015,7 +5015,7 @@ higher
 -
 bit
 .
-Explict
+Explicit
 casts
 are
 required
@@ -6841,7 +6841,7 @@ if
 PCF_Face
 -
 >
-nemetrics
+nmetrics
 is
 negative
 .
@@ -8734,7 +8734,7 @@ jp
 cache
 :
 Insert
-explict
+explicit
 casts
 for
 LP64
@@ -10607,7 +10607,7 @@ src
 /
 base
 /
-ftadvance
+ftadvanc
 .
 c
 (
@@ -11288,7 +11288,7 @@ src
 /
 bdf
 /
-bdrdrivr
+bdfdrivr
 .
 c
 (
@@ -11638,7 +11638,7 @@ this
 function
 via
 legacy
-convension
+convention
 .
 (
 FTC_SBitCache_Lookup
@@ -11948,7 +11948,7 @@ FT_MAKE_TAG
 output
 to
 FT_Tag
-exlicitly
+explicitly
 .
 *
 include
@@ -12708,7 +12708,7 @@ tt_face_find_bdf_prop
 The
 type
 of
-peroperty_len
+property_len
 '
 is
 changed
@@ -15847,7 +15847,7 @@ ifdef
 and
 activate
 code
-uncoditionally
+unconditionally
 .
 Add
 support
@@ -18396,7 +18396,7 @@ by
 being
 a
 two
-dimentional
+dimensional
 array
 rather
 than
@@ -18470,7 +18470,7 @@ by
 being
 a
 two
-dimentional
+dimensional
 array
 rather
 than
@@ -18502,10 +18502,10 @@ c
 and
 is
 later
-refered
+referred
 using
 macros
-defeined
+defined
 in
 afpic
 .
@@ -19135,7 +19135,7 @@ module_name
 is
 used
 to
-verfy
+verify
 the
 renderer
 class
@@ -20527,7 +20527,7 @@ by
 being
 a
 two
-dimentional
+dimensional
 array
 rather
 than
@@ -20759,7 +20759,7 @@ functions
 to
 allocate
 and
-detroy
+destroy
 it
 .
 *
@@ -20777,7 +20777,7 @@ macros
 to
 allocate
 and
-destory
+destroy
 arrays
 of
 FT_ServiceDescRec
@@ -20816,7 +20816,7 @@ functions
 to
 allocate
 and
-destory
+destroy
 the
 global
 pic_container
@@ -21022,7 +21022,7 @@ ftbbox
 c
 allocate
 bbox_interface
-stract
+struct
 on
 the
 stack
@@ -26149,9 +26149,9 @@ src
 /
 base
 /
-ftobjc
+ftobjs
 .
-s
+c
 src
 /
 sfobjs
@@ -26559,8 +26559,8 @@ Updated
 12
 -
 18
-Bevan
 David
+Bevan
 <
 dbevan
 emtex
@@ -27117,7 +27117,7 @@ Werner
 Lemberg
 <
 wl
-nu
+gnu
 .
 org
 >
@@ -27159,7 +27159,7 @@ Werner
 Lemberg
 <
 wl
-nu
+gnu
 .
 org
 >
@@ -30795,7 +30795,7 @@ Use
 TTAG_OTTO
 defined
 in
-ttags
+tttags
 .
 h
 instead
@@ -31273,8 +31273,8 @@ config
 09
 -
 01
-david
-turner
+David
+Turner
 <
 david
 freetype
@@ -31909,7 +31909,7 @@ Use
 TTAG_OTTO
 defined
 in
-ttags
+tttags
 .
 h
 instead
@@ -32002,7 +32002,7 @@ compare_kern_pairs
 )
 src
 /
-pxaux
+psaux
 /
 afmparse
 .
@@ -33035,7 +33035,7 @@ cffload
 .
 h
 :
-Udpated
+Updated
 .
 *
 src
@@ -37135,7 +37135,7 @@ di
 02
 -
 29
-Wermer
+Werner
 Lemberg
 <
 wl
@@ -40149,7 +40149,7 @@ src
 /
 otvalid
 /
-otvcmmn
+otvcommn
 .
 c
 (
@@ -40899,7 +40899,7 @@ ftserv
 .
 h
 (
-FT_SERVIVE_CID_H
+FT_SERVICE_CID_H
 )
 :
 New
@@ -44669,7 +44669,7 @@ src
 /
 base
 /
-ftobjcs
+ftobjs
 .
 c
 (
@@ -45200,7 +45200,7 @@ src
 /
 cache
 /
-ftbasic
+ftcbasic
 .
 c
 include
@@ -45919,7 +45919,7 @@ src
 /
 base
 /
-ftbimap
+ftbitmap
 .
 c
 (
@@ -47230,7 +47230,7 @@ src
 /
 truetype
 /
-ttobs
+ttobjs
 .
 c
 (
@@ -47834,9 +47834,9 @@ functions
 *
 src
 /
-bfd
+bdf
 /
-bfddrivr
+bdfdrivr
 .
 c
 (
@@ -49453,7 +49453,7 @@ src
 /
 cff
 /
-cffdriver
+cffdrivr
 .
 c
 (
@@ -49811,7 +49811,7 @@ src
 /
 cff
 /
-cffdrvr
+cffdrivr
 .
 c
 (
@@ -50919,7 +50919,7 @@ members
 horz_metrics_offset
 '
 and
-vert_metrics_ofset
+vert_metrics_offset
 '
 .
 *
@@ -56936,7 +56936,7 @@ ft2demos
 This
 has
 been
-inadvertedly
+inadvertently
 changed
 2006
 -
@@ -57916,7 +57916,7 @@ t1load
 .
 h
 (
-T1_LoaderRect
+T1_LoaderRec
 )
 :
 New
@@ -59437,7 +59437,7 @@ src
 /
 base
 /
-ftrfrk
+ftrfork
 .
 c
 (
@@ -59874,7 +59874,7 @@ psconv
 c
 (
 PS_Conv_ASCIIHexDecode
-PS_ConvEexecDecode
+PS_Conv_EexecDecode
 )
 :
 Improve
@@ -60140,10 +60140,8 @@ issues
 -
 Copyright
 2006
-2007
-2008
-2009
-2010
+-
+2016
 by
 David
 Turner

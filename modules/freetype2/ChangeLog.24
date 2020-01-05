@@ -5487,7 +5487,7 @@ src
 /
 truetype
 /
-ttsubpic
+ttsubpix
 .
 c
 :
@@ -6984,7 +6984,7 @@ src
 /
 base
 /
-fttrrigon
+fttrigon
 .
 c
 (
@@ -7051,7 +7051,7 @@ net
 truetype
 ]
 Remove
-unusued
+unused
 code
 and
 variables
@@ -7238,7 +7238,7 @@ net
 truetype
 ]
 Remove
-unusued
+unused
 code
 and
 variables
@@ -7434,7 +7434,7 @@ TT_RunIns
 )
 :
 Remove
-unusued
+unused
 code
 .
 (
@@ -9910,7 +9910,7 @@ src
 /
 autofit
 /
-afglobals
+afglobal
 .
 c
 (
@@ -13212,7 +13212,6 @@ receive
 yes
 answer
 in
-in
 every
 package
 I
@@ -14259,7 +14258,7 @@ rules
 .
 mk
 (
-TT_DRC_SRC
+TT_DRV_SRC
 )
 :
 Updated
@@ -18309,7 +18308,7 @@ cid_done_loader
 *
 src
 /
-pxaux
+psaux
 /
 t1cmap
 .
@@ -20207,7 +20206,7 @@ must
 be
 set
 before
-derefering
+dereferring
 to
 obtain
 library
@@ -20231,7 +20230,7 @@ reordered
 to
 minimize
 PIC
-conditonals
+conditionals
 .
 2012
 -
@@ -23813,7 +23812,7 @@ optimize
 conic
 and
 cubic
-flatterners
+flatteners
 .
 *
 src
@@ -29110,7 +29109,7 @@ Ideographs
 .
 To
 remove
-extremas
+extrema
 of
 vertical
 strokes
@@ -30145,7 +30144,7 @@ Tibetan
 Limbu
 Sundanese
 Meetei
-Mayak
+Mayek
 Syloti
 Nagri
 and
@@ -34831,7 +34830,7 @@ src
 /
 pcf
 /
-pcfdrvr
+pcfdrivr
 .
 c
 :
@@ -34917,7 +34916,7 @@ pass
 for
 spaces
 (
-comparision
+comparison
 with
 255
 )
@@ -41101,7 +41100,7 @@ ftmodapi
 .
 h
 (
-FT_Rererence_Library
+FT_Reference_Library
 )
 :
 New
@@ -46329,8 +46328,7 @@ pool
 parameter
 which
 allows
-to
-insert
+inserting
 an
 extra
 NUL
@@ -46815,7 +46813,7 @@ tt_get_metrics_incr_overrides
 Copyright
 2010
 -
-2013
+2016
 by
 David
 Turner

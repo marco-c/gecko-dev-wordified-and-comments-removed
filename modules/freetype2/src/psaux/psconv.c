@@ -1969,6 +1969,9 @@ break
 ;
 c
 =
+(
+FT_UInt
+)
 ft_char_table
 [
 c
@@ -1978,9 +1981,6 @@ c
 ;
 if
 (
-(
-unsigned
-)
 c
 >
 =

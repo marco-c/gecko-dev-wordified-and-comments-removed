@@ -24,7 +24,7 @@ DEBUG_HINTER
 PSH_Globals
 ps_debug_globals
 =
-0
+NULL
 ;
 #
 endif
@@ -719,7 +719,7 @@ PSH_Blue_Table
 top_table
 bot_table
 ;
-FT_Int
+FT_UInt
 count_top
 count_bot
 ;
@@ -1110,9 +1110,9 @@ top
 if
 (
 delta
-<
+/
 2
-*
+<
 fuzz
 )
 zone
@@ -1217,7 +1217,7 @@ num
 PSH_Blue_Table
 table
 =
-0
+NULL
 ;
 if
 (
@@ -2181,7 +2181,7 @@ ifdef
 DEBUG_HINTER
 ps_debug_globals
 =
-0
+NULL
 ;
 #
 endif

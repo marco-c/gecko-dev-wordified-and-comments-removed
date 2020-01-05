@@ -9,7 +9,8 @@ Jamfile
 #
 Copyright
 2001
-2004
+-
+2016
 by
 #
 David
@@ -97,12 +98,13 @@ FT2_MULTI
 _sources
 =
 ttdriver
-ttobjs
-ttpload
 ttgload
-ttinterp
 ttgxvar
+ttinterp
+ttobjs
 ttpic
+ttpload
+ttsubpix
 ;
 }
 else

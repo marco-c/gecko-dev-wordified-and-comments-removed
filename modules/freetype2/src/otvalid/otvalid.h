@@ -1,9 +1,9 @@
 #
 ifndef
-__OTVALID_H__
+OTVALID_H_
 #
 define
-__OTVALID_H__
+OTVALID_H_
 #
 include
 <

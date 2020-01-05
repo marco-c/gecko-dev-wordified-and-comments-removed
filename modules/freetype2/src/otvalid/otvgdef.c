@@ -95,6 +95,9 @@ otv_Coverage_validate
 (
 Coverage
 otvalid
+(
+FT_Int
+)
 GlyphCount
 )
 ;

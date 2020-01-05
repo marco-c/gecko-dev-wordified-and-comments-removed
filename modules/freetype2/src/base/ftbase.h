@@ -1,9 +1,9 @@
 #
 ifndef
-__FTBASE_H__
+FTBASE_H_
 #
 define
-__FTBASE_H__
+FTBASE_H_
 #
 include
 <
@@ -15,6 +15,10 @@ h
 include
 FT_INTERNAL_OBJECTS_H
 FT_BEGIN_HEADER
+#
+define
+FT_MAC_RFORK_MAX_LEN
+0x00FFFFFFUL
 FT_LOCAL
 (
 FT_Error

@@ -1,9 +1,9 @@
 #
 ifndef
-__PFRSBIT_H__
+PFRSBIT_H_
 #
 define
-__PFRSBIT_H__
+PFRSBIT_H_
 #
 include
 "

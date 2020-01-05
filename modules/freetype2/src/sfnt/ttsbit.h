@@ -1,9 +1,9 @@
 #
 ifndef
-__TTSBIT_H__
+TTSBIT_H_
 #
 define
-__TTSBIT_H__
+TTSBIT_H_
 #
 include
 <

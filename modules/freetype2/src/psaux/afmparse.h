@@ -1,9 +1,9 @@
 #
 ifndef
-__AFMPARSE_H__
+AFMPARSE_H_
 #
 define
-__AFMPARSE_H__
+AFMPARSE_H_
 #
 include
 <
@@ -84,6 +84,9 @@ f
 FT_Int
 i
 ;
+FT_UInt
+u
+;
 FT_Bool
 b
 ;
@@ -109,7 +112,7 @@ AFM_Parser
 parser
 AFM_Value
 vals
-FT_UInt
+FT_Int
 n
 )
 ;

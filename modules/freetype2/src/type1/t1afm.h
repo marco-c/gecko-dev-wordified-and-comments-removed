@@ -1,9 +1,9 @@
 #
 ifndef
-__T1AFM_H__
+T1AFM_H_
 #
 define
-__T1AFM_H__
+T1AFM_H_
 #
 include
 <

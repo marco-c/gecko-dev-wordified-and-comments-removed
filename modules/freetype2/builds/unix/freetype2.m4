@@ -23,10 +23,8 @@ Taylor
 #
 Copyright
 2001
-2003
-2007
-2009
-2014
+-
+2016
 by
 #
 David

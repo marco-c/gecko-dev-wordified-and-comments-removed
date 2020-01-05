@@ -858,7 +858,7 @@ FT_String
 )
 result
 ;
-FT_Byte
+FT_Char
 *
 p
 ;
@@ -916,7 +916,7 @@ Exit
 p
 =
 (
-FT_Byte
+FT_Char
 *
 )
 stream
@@ -958,14 +958,6 @@ p
 >
 =
 32
-&
-&
-p
-[
-1
-]
-<
-128
 )
 *
 r
@@ -1534,6 +1526,7 @@ PUT_EMBEDDED_BITMAPS
 tt_face_load_strike_metrics
 )
 tt_face_get_metrics
+tt_face_get_name
 )
 FT_DEFINE_MODULE
 (

@@ -271,7 +271,7 @@ cache
 FTC_GCacheClass
 clazz
 =
-FTC_CACHE__GCACHE_CLASS
+FTC_CACHE_GCACHE_CLASS
 (
 cache
 )
@@ -506,7 +506,7 @@ FTC_GCache_Lookup
 (
 FTC_GCache
 cache
-FT_PtrDist
+FT_Offset
 hash
 FT_UInt
 gindex

@@ -9,11 +9,7 @@ sh
 Copyright
 2000
 -
-2005
-2008
-2009
-2013
-2014
+2016
 by
 #
 David
@@ -118,13 +114,6 @@ libdir
 "
 %
 libdir
-%
-"
-enable_shared
-=
-"
-%
-build_libtool_libs
 %
 "
 usage
@@ -607,6 +596,8 @@ includedir
 freetype2
 /
 freetype
+/
+freetype
 .
 h
 \
@@ -657,6 +648,8 @@ includedir
 freetype2
 /
 freetype
+/
+freetype
 .
 h
 \
@@ -705,6 +698,8 @@ SYSROOT
 includedir
 /
 freetype2
+/
+freetype
 /
 freetype
 .
@@ -763,9 +758,7 @@ yes
 "
 ;
 then
-cflags
-=
-"
+echo
 -
 I
 {
@@ -774,9 +767,6 @@ SYSROOT
 includedir
 /
 freetype2
-"
-echo
-cflags
 fi
 if
 test

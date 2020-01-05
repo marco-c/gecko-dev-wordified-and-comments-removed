@@ -11,9 +11,8 @@ definition
 #
 Copyright
 2003
-2004
-2005
-2006
+-
+2016
 by
 #
 David

@@ -1,9 +1,9 @@
 #
 ifndef
-__AFDUMMY_H__
+AFDUMMY_H_
 #
 define
-__AFDUMMY_H__
+AFDUMMY_H_
 #
 include
 "

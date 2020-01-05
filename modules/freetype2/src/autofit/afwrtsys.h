@@ -1,9 +1,9 @@
 #
 ifndef
-__AFWRTSYS_H__
+AFWRTSYS_H_
 #
 define
-__AFWRTSYS_H__
+AFWRTSYS_H_
 #
 include
 "

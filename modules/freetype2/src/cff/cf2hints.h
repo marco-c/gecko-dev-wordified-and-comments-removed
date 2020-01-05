@@ -1,9 +1,9 @@
 #
 ifndef
-__CF2HINTS_H__
+CF2HINTS_H_
 #
 define
-__CF2HINTS_H__
+CF2HINTS_H_
 FT_BEGIN_HEADER
 enum
 {

@@ -1,9 +1,9 @@
 #
 ifndef
-__T1OBJS_H__
+T1OBJS_H_
 #
 define
-__T1OBJS_H__
+T1OBJS_H_
 #
 include
 <

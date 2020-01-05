@@ -1098,6 +1098,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 ValueCount
 )
 ;
@@ -1805,6 +1808,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 EntryExitCount
 )
 ;

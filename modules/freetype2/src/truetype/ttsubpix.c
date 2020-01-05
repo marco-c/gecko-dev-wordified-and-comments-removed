@@ -35,7 +35,7 @@ h
 "
 #
 ifdef
-TT_CONFIG_OPTION_SUBPIXEL_HINTING
+TT_SUPPORT_SUBPIXEL_HINTING_INFINALITY
 #
 define
 FAMILY_CLASS_RULES_SIZE
@@ -588,6 +588,7 @@ Verdana
 define
 STYLE_CLASS_RULES_SIZE
 5
+static
 const
 SPH_Font_Class
 STYLE_CLASS_Rules
@@ -745,6 +746,7 @@ Black
 define
 COMPATIBILITY_MODE_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 COMPATIBILITY_MODE_Rules
@@ -769,6 +771,7 @@ Clones
 define
 PIXEL_HINTING_RULES_SIZE
 2
+static
 const
 SPH_TweakRule
 PIXEL_HINTING_Rules
@@ -809,6 +812,7 @@ z
 define
 DO_SHPIX_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 DO_SHPIX_Rules
@@ -832,6 +836,7 @@ DO_SHPIX_RULES_SIZE
 define
 SKIP_NONPIXEL_Y_MOVES_RULES_SIZE
 4
+static
 const
 SPH_TweakRule
 SKIP_NONPIXEL_Y_MOVES_Rules
@@ -889,6 +894,7 @@ Clones
 define
 SKIP_NONPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_NONPIXEL_Y_MOVES_Rules_Exceptions
@@ -914,6 +920,7 @@ Regular
 define
 SKIP_NONPIXEL_Y_MOVES_DELTAP_RULES_SIZE
 2
+static
 const
 SPH_TweakRule
 SKIP_NONPIXEL_Y_MOVES_DELTAP_Rules
@@ -960,6 +967,7 @@ N
 define
 SKIP_OFFPIXEL_Y_MOVES_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_OFFPIXEL_Y_MOVES_Rules
@@ -983,6 +991,7 @@ SKIP_OFFPIXEL_Y_MOVES_RULES_SIZE
 define
 SKIP_OFFPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_OFFPIXEL_Y_MOVES_Rules_Exceptions
@@ -1006,6 +1015,7 @@ SKIP_OFFPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 define
 ROUND_NONPIXEL_Y_MOVES_RULES_SIZE
 2
+static
 const
 SPH_TweakRule
 ROUND_NONPIXEL_Y_MOVES_Rules
@@ -1045,6 +1055,7 @@ Mono
 define
 ROUND_NONPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 1
+static
 const
 SPH_TweakRule
 ROUND_NONPIXEL_Y_MOVES_Rules_Exceptions
@@ -1068,6 +1079,7 @@ ROUND_NONPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 define
 ALLOW_X_DMOVE_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 ALLOW_X_DMOVE_Rules
@@ -1094,6 +1106,7 @@ Regular
 define
 RASTERIZER_35_RULES_SIZE
 8
+static
 const
 SPH_TweakRule
 RASTERIZER_35_Rules
@@ -1215,6 +1228,7 @@ Times
 define
 NORMAL_ROUND_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 NORMAL_ROUND_Rules
@@ -1239,6 +1253,7 @@ New
 define
 SKIP_IUP_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_IUP_Rules
@@ -1265,6 +1280,7 @@ a
 define
 MIAP_HACK_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 MIAP_HACK_Rules
@@ -1288,6 +1304,7 @@ Geneva
 define
 ALWAYS_SKIP_DELTAP_RULES_SIZE
 23
+static
 const
 SPH_TweakRule
 ALWAYS_SKIP_DELTAP_Rules
@@ -1581,6 +1598,7 @@ s
 define
 ALWAYS_DO_DELTAP_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 ALWAYS_DO_DELTAP_Rules
@@ -3528,10 +3546,8 @@ X_SCALING_RULES_SIZE
 ;
 #
 endif
-FT_LOCAL_DEF
-(
+static
 FT_Bool
-)
 is_member_of_family_class
 (
 const
@@ -3675,10 +3691,8 @@ return
 FALSE
 ;
 }
-FT_LOCAL_DEF
-(
+static
 FT_Bool
-)
 is_member_of_style_class
 (
 const
@@ -4242,9 +4256,6 @@ glyph_index
 TT_Face
 face
 =
-(
-TT_Face
-)
 loader
 -
 >
@@ -4261,7 +4272,7 @@ root
 .
 family_name
 ;
-int
+FT_UInt
 ppem
 =
 loader

@@ -1,9 +1,9 @@
 #
 ifndef
-__FTCCBACK_H__
+FTCCBACK_H_
 #
 define
-__FTCCBACK_H__
+FTCCBACK_H_
 #
 include
 <

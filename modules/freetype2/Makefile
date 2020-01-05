@@ -15,9 +15,7 @@ Makefile
 Copyright
 1996
 -
-2000
-2002
-2006
+2016
 by
 #
 David

@@ -1,9 +1,9 @@
 #
 ifndef
-__CFFTYPES_H__
+CFFTYPES_H_
 #
 define
-__CFFTYPES_H__
+CFFTYPES_H_
 #
 include
 <
@@ -235,6 +235,12 @@ cid_fd_select_offset
 ;
 FT_UInt
 cid_font_name
+;
+FT_UShort
+num_designs
+;
+FT_UShort
+num_axes
 ;
 }
 CFF_FontRecDictRec
@@ -479,6 +485,9 @@ strings
 FT_Byte
 *
 string_pool
+;
+FT_ULong
+string_pool_size
 ;
 CFF_SubFontRec
 top_font

@@ -703,7 +703,7 @@ GXV_LIMIT_CHECK
 ;
 version
 =
-FT_NEXT_ULONG
+FT_NEXT_LONG
 (
 p
 )

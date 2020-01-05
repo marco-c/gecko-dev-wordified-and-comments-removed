@@ -1,9 +1,9 @@
 #
 ifndef
-__PFROBJS_H__
+PFROBJS_H_
 #
 define
-__PFROBJS_H__
+PFROBJS_H_
 #
 include
 "

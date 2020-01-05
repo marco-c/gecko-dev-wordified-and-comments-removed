@@ -468,6 +468,9 @@ FT_Load_Glyph
 (
 face
 gindex
+(
+FT_Int
+)
 family
 -
 >
@@ -570,6 +573,9 @@ FT_Load_Glyph
 (
 face
 gindex
+(
+FT_Int
+)
 family
 -
 >
@@ -849,7 +855,7 @@ node
 FT_Error
 error
 ;
-FT_PtrDist
+FT_Offset
 hash
 ;
 if
@@ -919,6 +925,9 @@ dropped
 \
 n
 "
+(
+FT_ULong
+)
 type
 -
 >
@@ -1143,7 +1152,7 @@ node
 FT_Error
 error
 ;
-FT_PtrDist
+FT_Offset
 hash
 ;
 if
@@ -1412,7 +1421,7 @@ node
 =
 0
 ;
-FT_PtrDist
+FT_Offset
 hash
 ;
 if
@@ -1476,6 +1485,9 @@ dropped
 \
 n
 "
+(
+FT_ULong
+)
 type
 -
 >
@@ -1714,7 +1726,7 @@ node
 =
 0
 ;
-FT_PtrDist
+FT_Offset
 hash
 ;
 if

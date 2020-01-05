@@ -21,7 +21,7 @@ AFM_FontInfo
 fi
 )
 {
-FT_Int
+FT_UInt
 i
 ;
 printf

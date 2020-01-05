@@ -1,9 +1,9 @@
 #
 ifndef
-__CFFOBJS_H__
+CFFOBJS_H_
 #
 define
-__CFFOBJS_H__
+CFFOBJS_H_
 #
 include
 <

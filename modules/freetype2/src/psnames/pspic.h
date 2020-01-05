@@ -1,10 +1,9 @@
 #
 ifndef
-__PSPIC_H__
+PSPIC_H_
 #
 define
-__PSPIC_H__
-FT_BEGIN_HEADER
+PSPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
@@ -24,6 +23,7 @@ else
 #
 include
 FT_SERVICE_POSTSCRIPT_CMAPS_H
+FT_BEGIN_HEADER
 typedef
 struct
 PSModulePIC_
@@ -99,8 +99,8 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
-FT_END_HEADER
 #
 endif

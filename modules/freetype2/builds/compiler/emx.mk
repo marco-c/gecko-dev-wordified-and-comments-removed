@@ -10,7 +10,8 @@ definitions
 #
 Copyright
 2003
-2006
+-
+2016
 by
 #
 David

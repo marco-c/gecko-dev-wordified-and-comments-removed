@@ -1,9 +1,9 @@
 #
 ifndef
-__GXVMOD_H__
+GXVMOD_H_
 #
 define
-__GXVMOD_H__
+GXVMOD_H_
 #
 include
 <

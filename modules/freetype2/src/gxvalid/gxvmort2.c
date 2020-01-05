@@ -1221,9 +1221,14 @@ gxvalid
 >
 subtable_length
 =
+(
+FT_ULong
+)
+(
 p
 -
 table
+)
 ;
 GXV_EXIT
 ;

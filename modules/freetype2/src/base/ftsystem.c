@@ -44,6 +44,9 @@ memory
 return
 ft_smalloc
 (
+(
+size_t
+)
 size
 )
 ;
@@ -80,6 +83,9 @@ return
 ft_srealloc
 (
 block
+(
+size_t
+)
 new_size
 )
 ;
@@ -175,7 +181,7 @@ stream
 >
 base
 =
-0
+NULL
 ;
 }
 FT_CALLBACK_DEF
@@ -239,6 +245,9 @@ offset
 ft_fseek
 (
 file
+(
+long
+)
 offset
 SEEK_SET
 )
@@ -313,7 +322,7 @@ stream
 >
 base
 =
-0
+NULL
 ;
 stream
 -
@@ -392,6 +401,10 @@ stream
 >
 size
 =
+(
+unsigned
+long
+)
 ft_ftell
 (
 file
@@ -575,7 +588,7 @@ memory
 >
 user
 =
-0
+NULL
 ;
 memory
 -

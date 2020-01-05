@@ -1,9 +1,9 @@
 #
 ifndef
-__AFINDIC_H__
+AFINDIC_H_
 #
 define
-__AFINDIC_H__
+AFINDIC_H_
 #
 include
 "

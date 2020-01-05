@@ -1,9 +1,9 @@
 #
 ifndef
-__GXVALID_H__
+GXVALID_H_
 #
 define
-__GXVALID_H__
+GXVALID_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-__GXVMORX_H__
+GXVMORX_H_
 #
 define
-__GXVMORX_H__
+GXVMORX_H_
 #
 include
 "

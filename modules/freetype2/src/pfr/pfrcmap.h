@@ -1,9 +1,9 @@
 #
 ifndef
-__PFRCMAP_H__
+PFRCMAP_H_
 #
 define
-__PFRCMAP_H__
+PFRCMAP_H_
 #
 include
 <

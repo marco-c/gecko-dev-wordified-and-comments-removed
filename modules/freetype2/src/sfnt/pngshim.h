@@ -1,9 +1,9 @@
 #
 ifndef
-__PNGSHIM_H__
+PNGSHIM_H_
 #
 define
-__PNGSHIM_H__
+PNGSHIM_H_
 #
 include
 <

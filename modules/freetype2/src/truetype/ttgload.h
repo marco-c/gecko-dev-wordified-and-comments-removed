@@ -1,9 +1,9 @@
 #
 ifndef
-__TTGLOAD_H__
+TTGLOAD_H_
 #
 define
-__TTGLOAD_H__
+TTGLOAD_H_
 #
 include
 <

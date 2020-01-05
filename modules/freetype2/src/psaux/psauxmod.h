@@ -1,9 +1,9 @@
 #
 ifndef
-__PSAUXMOD_H__
+PSAUXMOD_H_
 #
 define
-__PSAUXMOD_H__
+PSAUXMOD_H_
 #
 include
 <

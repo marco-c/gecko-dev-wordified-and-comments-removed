@@ -1,9 +1,9 @@
 #
 ifndef
-__CIDGLOAD_H__
+CIDGLOAD_H_
 #
 define
-__CIDGLOAD_H__
+CIDGLOAD_H_
 #
 include
 <

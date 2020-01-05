@@ -1,9 +1,9 @@
 #
 ifndef
-__TTCMAP_H__
+TTCMAP_H_
 #
 define
-__TTCMAP_H__
+TTCMAP_H_
 #
 include
 <

@@ -444,7 +444,7 @@ endif
 reserved
 =
 (
-FT_Short
+FT_UShort
 )
 (
 flags

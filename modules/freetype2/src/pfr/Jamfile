@@ -9,6 +9,8 @@ Jamfile
 #
 Copyright
 2002
+-
+2016
 by
 #
 David
@@ -95,11 +97,11 @@ FT2_MULTI
 {
 _sources
 =
+pfrcmap
 pfrdrivr
 pfrgload
 pfrload
 pfrobjs
-pfrcmap
 pfrsbit
 ;
 }

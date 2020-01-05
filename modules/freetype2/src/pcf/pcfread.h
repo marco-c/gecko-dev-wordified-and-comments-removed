@@ -1,9 +1,9 @@
 #
 ifndef
-__PCFREAD_H__
+PCFREAD_H_
 #
 define
-__PCFREAD_H__
+PCFREAD_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-__TTKERN_H__
+TTKERN_H_
 #
 define
-__TTKERN_H__
+TTKERN_H_
 #
 include
 <

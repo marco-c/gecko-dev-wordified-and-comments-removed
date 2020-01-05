@@ -10,12 +10,7 @@ definitions
 Copyright
 1996
 -
-2000
-2003
-2005
-2006
-2013
-2014
+2016
 by
 #
 David

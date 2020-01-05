@@ -1,9 +1,9 @@
 #
 ifndef
-__PSOBJS_H__
+PSOBJS_H_
 #
 define
-__PSOBJS_H__
+PSOBJS_H_
 #
 include
 <
@@ -57,7 +57,7 @@ idx
 void
 *
 object
-FT_PtrDist
+FT_UInt
 length
 )
 ;
@@ -197,7 +197,7 @@ FT_Byte
 bytes
 FT_Offset
 max_bytes
-FT_Long
+FT_ULong
 *
 pnum_bytes
 FT_Bool

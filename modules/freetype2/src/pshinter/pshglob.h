@@ -1,9 +1,9 @@
 #
 ifndef
-__PSHGLOB_H__
+PSHGLOB_H_
 #
 define
-__PSHGLOB_H__
+PSHGLOB_H_
 #
 include
 FT_FREETYPE_H

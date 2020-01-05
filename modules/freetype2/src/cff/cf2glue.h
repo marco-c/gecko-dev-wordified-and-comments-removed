@@ -1,9 +1,9 @@
 #
 ifndef
-__CF2GLUE_H__
+CF2GLUE_H_
 #
 define
-__CF2GLUE_H__
+CF2GLUE_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__GXVCOMMN_H__
+GXVCOMMN_H_
 #
 define
-__GXVCOMMN_H__
+GXVCOMMN_H_
 #
 include
 <
@@ -974,7 +974,7 @@ gxv_ctlPoint_validate
 (
 FT_UShort
 gid
-FT_Short
+FT_UShort
 ctl_point
 GXV_Validator
 gxvalid

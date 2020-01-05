@@ -1,9 +1,9 @@
 #
 ifndef
-__CFFCMAP_H__
+CFFCMAP_H_
 #
 define
-__CFFCMAP_H__
+CFFCMAP_H_
 #
 include
 "

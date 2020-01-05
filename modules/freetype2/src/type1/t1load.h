@@ -1,9 +1,9 @@
 #
 ifndef
-__T1LOAD_H__
+T1LOAD_H_
 #
 define
-__T1LOAD_H__
+T1LOAD_H_
 #
 include
 <
@@ -58,6 +58,9 @@ num_subrs
 ;
 PS_TableRec
 subrs
+;
+FT_Hash
+subrs_hash
 ;
 FT_Bool
 fontdata

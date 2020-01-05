@@ -1,9 +1,9 @@
 #
 ifndef
-__SFDRIVER_H__
+SFDRIVER_H_
 #
 define
-__SFDRIVER_H__
+SFDRIVER_H_
 #
 include
 <

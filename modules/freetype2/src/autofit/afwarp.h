@@ -1,9 +1,9 @@
 #
 ifndef
-__AFWARP_H__
+AFWARP_H_
 #
 define
-__AFWARP_H__
+AFWARP_H_
 #
 include
 "
@@ -27,6 +27,10 @@ x
 )
 &
 ~
+FT_TYPEOF
+(
+x
+)
 63
 )
 #

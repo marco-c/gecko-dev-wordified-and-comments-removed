@@ -1,12 +1,14 @@
 #
 ifndef
-__FT2BUILD_H__
+FT2BUILD_H_
 #
 define
-__FT2BUILD_H__
+FT2BUILD_H_
 #
 include
 <
+freetype
+/
 config
 /
 ftheader

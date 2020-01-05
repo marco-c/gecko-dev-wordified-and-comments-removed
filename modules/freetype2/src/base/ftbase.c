@@ -53,6 +53,13 @@ c
 #
 include
 "
+fthash
+.
+c
+"
+#
+include
+"
 ftobjs
 .
 c

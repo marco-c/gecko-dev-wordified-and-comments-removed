@@ -1,9 +1,9 @@
 #
 ifndef
-__CFFDRIVER_H__
+CFFDRIVER_H_
 #
 define
-__CFFDRIVER_H__
+CFFDRIVER_H_
 #
 include
 <

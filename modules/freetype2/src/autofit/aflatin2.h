@@ -1,9 +1,9 @@
 #
 ifndef
-__AFLATIN2_H__
+AFLATIN2_H_
 #
 define
-__AFLATIN2_H__
+AFLATIN2_H_
 #
 include
 "

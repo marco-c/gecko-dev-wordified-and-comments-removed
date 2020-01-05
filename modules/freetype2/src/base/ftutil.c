@@ -487,6 +487,9 @@ p
 ft_mem_qalloc
 (
 memory
+(
+FT_Long
+)
 size
 &
 error
@@ -725,7 +728,7 @@ node
 >
 next
 =
-0
+NULL
 ;
 node
 -
@@ -806,7 +809,7 @@ node
 >
 prev
 =
-0
+NULL
 ;
 if
 (
@@ -995,7 +998,7 @@ node
 >
 prev
 =
-0
+NULL
 ;
 node
 -
@@ -1192,13 +1195,13 @@ list
 >
 head
 =
-0
+NULL
 ;
 list
 -
 >
 tail
 =
-0
+NULL
 ;
 }

@@ -1146,7 +1146,7 @@ table
 >
 maps
 =
-0
+NULL
 ;
 if
 (

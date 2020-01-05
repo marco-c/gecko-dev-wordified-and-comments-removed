@@ -1,9 +1,9 @@
 #
 ifndef
-__PCFUTIL_H__
+PCFUTIL_H_
 #
 define
-__PCFUTIL_H__
+PCFUTIL_H_
 #
 include
 <

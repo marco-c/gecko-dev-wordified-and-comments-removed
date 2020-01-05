@@ -160,6 +160,9 @@ continue
 gxv_ctlPoint_validate
 (
 glyph
+(
+FT_UShort
+)
 delta_value
 gxvalid
 )

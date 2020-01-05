@@ -7,10 +7,8 @@ OpenVMS
 !
 Copyright
 2003
-2004
-2006
-2007
-2013
+-
+2016
 by
 !
 David
@@ -2426,7 +2424,7 @@ obj
 fttype1
 .
 obj
-ftxf86
+ftfntfmt
 .
 obj
 ftpfr
@@ -7274,7 +7272,7 @@ Location
 All
 of
 the
-libaries
+libraries
 can
 be
 found
@@ -7343,7 +7341,7 @@ output
 "
 Please
 customize
-libary
+library
 locations
 for
 your
@@ -8215,9 +8213,13 @@ me
 !
 (
 zinser
-decus
+zinser
 .
-de
+no
+-
+ip
+.
+info
 )
 so
 if

@@ -1,9 +1,9 @@
 #
 ifndef
-__PFRGLOAD_H__
+PFRGLOAD_H_
 #
 define
-__PFRGLOAD_H__
+PFRGLOAD_H_
 #
 include
 "

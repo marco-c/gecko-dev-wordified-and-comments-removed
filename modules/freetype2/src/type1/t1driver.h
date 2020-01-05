@@ -1,9 +1,9 @@
 #
 ifndef
-__T1DRIVER_H__
+T1DRIVER_H_
 #
 define
-__T1DRIVER_H__
+T1DRIVER_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-__FTSMOOTH_H__
+FTSMOOTH_H_
 #
 define
-__FTSMOOTH_H__
+FTSMOOTH_H_
 #
 include
 <

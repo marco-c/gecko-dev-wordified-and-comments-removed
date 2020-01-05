@@ -1,9 +1,9 @@
 #
 ifndef
-__FT_ZOPEN_H__
+FTZOPEN_H_
 #
 define
-__FT_ZOPEN_H__
+FTZOPEN_H_
 #
 include
 <
@@ -93,10 +93,10 @@ buf_tab
 16
 ]
 ;
-FT_Int
+FT_UInt
 buf_offset
 ;
-FT_Int
+FT_UInt
 buf_size
 ;
 FT_Bool

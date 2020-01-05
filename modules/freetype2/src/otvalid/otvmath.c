@@ -226,6 +226,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 cnt
 )
 ;
@@ -501,6 +504,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 cnt
 )
 ;
@@ -1052,6 +1058,9 @@ table
 +
 VCoverage
 otvalid
+(
+FT_Int
+)
 vcnt
 )
 ;
@@ -1070,6 +1079,9 @@ table
 +
 HCoverage
 otvalid
+(
+FT_Int
+)
 hcnt
 )
 ;

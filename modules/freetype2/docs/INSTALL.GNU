@@ -1338,10 +1338,7 @@ Makefiles
 Copyright
 2003
 -
-2006
-2008
-2013
-2014
+2016
 by
 David
 Turner

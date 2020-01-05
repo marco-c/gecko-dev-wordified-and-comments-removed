@@ -9,6 +9,8 @@ Jamfile
 #
 Copyright
 2001
+-
+2016
 by
 #
 David
@@ -97,9 +99,9 @@ _sources
 =
 t1afm
 t1driver
-t1objs
-t1load
 t1gload
+t1load
+t1objs
 t1parse
 ;
 }

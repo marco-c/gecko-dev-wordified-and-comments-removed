@@ -1,9 +1,9 @@
 #
 ifndef
-__CFF_PARSE_H__
+CFFPARSE_H_
 #
 define
-__CFF_PARSE_H__
+CFFPARSE_H_
 #
 include
 <
@@ -74,6 +74,12 @@ void
 *
 object
 ;
+FT_UShort
+num_designs
+;
+FT_UShort
+num_axes
+;
 }
 CFF_ParserRec
 *
@@ -94,6 +100,10 @@ void
 object
 FT_Library
 library
+FT_UShort
+num_designs
+FT_UShort
+num_axes
 )
 ;
 FT_LOCAL

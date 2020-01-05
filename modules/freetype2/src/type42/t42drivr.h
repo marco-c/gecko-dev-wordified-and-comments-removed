@@ -1,9 +1,9 @@
 #
 ifndef
-__T42DRIVR_H__
+T42DRIVR_H_
 #
 define
-__T42DRIVR_H__
+T42DRIVR_H_
 #
 include
 <

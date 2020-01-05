@@ -447,7 +447,7 @@ optdata
 substitutionTable_num_lookupTables
 =
 (
-FT_Short
+FT_UShort
 )
 (
 markIndex
@@ -472,7 +472,7 @@ optdata
 substitutionTable_num_lookupTables
 =
 (
-FT_Short
+FT_UShort
 )
 (
 currentIndex

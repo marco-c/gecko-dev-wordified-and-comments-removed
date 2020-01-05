@@ -463,6 +463,10 @@ shift
 -
 FT_MSB
 (
+(
+FT_UInt32
+)
+(
 FT_ABS
 (
 q1
@@ -481,6 +485,7 @@ q3
 FT_ABS
 (
 q4
+)
 )
 )
 ;

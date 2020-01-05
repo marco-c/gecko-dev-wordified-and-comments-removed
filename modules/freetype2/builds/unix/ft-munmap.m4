@@ -8,8 +8,8 @@ tests
 #
 Copyright
 2002
-2003
-2004
+-
+2016
 by
 #
 David

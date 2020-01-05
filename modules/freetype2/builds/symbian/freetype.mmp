@@ -15,7 +15,8 @@ platform
 /
 Copyright
 2008
-2009
+-
+2016
 by
 /
 /
@@ -143,6 +144,10 @@ ftbitmap
 c
 source
 ftcid
+.
+c
+source
+ftfntfmt
 .
 c
 source

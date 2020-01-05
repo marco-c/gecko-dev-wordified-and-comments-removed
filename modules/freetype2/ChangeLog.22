@@ -2037,7 +2037,7 @@ t
 use
 FT_Long
 but
-FT_PtrDiff
+FT_PtrDist
 for
 delta
 '
@@ -2767,7 +2767,7 @@ FT_SUBGLYPH_FLAGS_
 Here
 .
 (
-FT_Get_SybGlyph_Info
+FT_Get_SubGlyph_Info
 )
 :
 New
@@ -2957,7 +2957,7 @@ src
 /
 cache
 /
-ftmanag
+ftcmanag
 .
 c
 (
@@ -2978,7 +2978,7 @@ src
 /
 cache
 /
-ftmanag
+ftcmanag
 .
 h
 :
@@ -7201,11 +7201,11 @@ src
 /
 sfnt
 /
-sfobjc
+sfobjs
 .
-s
+c
 :
-Inckude
+Include
 FT_INTERNAL_DEBUG_H
 .
 *
@@ -12978,14 +12978,14 @@ t1cmap
 .
 h
 (
-T1_CmapStdRec
+T1_CMapStdRec
 )
 :
 Updated
 .
 (
-T1_CmapUnicode
-T1_CmapUnicodeRec
+T1_CMapUnicode
+T1_CMapUnicodeRec
 )
 :
 Removed
@@ -14165,7 +14165,7 @@ Don
 '
 t
 set
-scaler_fiags
+scaler_flags
 here
 but
 .
@@ -14386,7 +14386,7 @@ include
 /
 freetype
 /
-ttags
+tttags
 .
 h
 (
@@ -14556,7 +14556,7 @@ src
 /
 sfnt
 /
-sfobjc
+sfobjs
 .
 c
 (
@@ -15582,7 +15582,7 @@ bug
 11
 -
 18
-susuzki
+suzuki
 toshiya
 <
 mpsuzuki
@@ -18421,7 +18421,7 @@ the
 same
 format
 and
-functionaliy
+functionality
 as
 a
 regular
@@ -18498,7 +18498,7 @@ include
 /
 freetype
 /
-ttags
+tttags
 .
 h
 (
@@ -18795,7 +18795,7 @@ gxv_kern_coverage_validate
 )
 :
 Use
-KERN_DIALECT_UNKWOWN
+KERN_DIALECT_UNKNOWN
 .
 Improve
 trace
@@ -22272,9 +22272,8 @@ Update
 -
 Copyright
 2005
-2006
-2007
-2008
+-
+2016
 by
 David
 Turner

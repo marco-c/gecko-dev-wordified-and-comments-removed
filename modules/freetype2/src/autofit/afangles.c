@@ -963,6 +963,9 @@ org
 =
 sum
 /
+(
+FT_Pos
+)
 j
 ;
 if

@@ -52,6 +52,9 @@ cmap
 >
 num_glyphs
 =
+(
+FT_UInt
+)
 face
 -
 >
@@ -515,6 +518,9 @@ cmap
 >
 first
 =
+(
+FT_UInt
+)
 encoding
 -
 >
@@ -528,7 +534,6 @@ count
 (
 FT_UInt
 )
-(
 encoding
 -
 >
@@ -538,7 +543,6 @@ cmap
 -
 >
 first
-)
 ;
 cmap
 -
@@ -887,6 +891,9 @@ unicodes_init
 (
 memory
 unicodes
+(
+FT_UInt
+)
 face
 -
 >

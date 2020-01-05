@@ -9,6 +9,8 @@ Jamfile
 #
 Copyright
 2001
+-
+2016
 by
 #
 David
@@ -95,11 +97,11 @@ FT2_MULTI
 {
 _sources
 =
-cidobjs
-cidload
 cidgload
-cidriver
+cidload
+cidobjs
 cidparse
+cidriver
 ;
 }
 else

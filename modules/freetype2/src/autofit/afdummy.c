@@ -91,6 +91,8 @@ static
 FT_Error
 af_dummy_hints_apply
 (
+FT_UInt
+glyph_index
 AF_GlyphHints
 hints
 FT_Outline
@@ -100,6 +102,11 @@ outline
 {
 FT_Error
 error
+;
+FT_UNUSED
+(
+glyph_index
+)
 ;
 error
 =
@@ -142,6 +149,10 @@ AF_WritingSystem_ScaleMetricsFunc
 NULL
 (
 AF_WritingSystem_DoneMetricsFunc
+)
+NULL
+(
+AF_WritingSystem_GetStdWidthsFunc
 )
 NULL
 (

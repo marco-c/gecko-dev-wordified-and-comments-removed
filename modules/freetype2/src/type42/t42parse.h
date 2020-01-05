@@ -1,9 +1,9 @@
 #
 ifndef
-__T42PARSE_H__
+T42PARSE_H_
 #
 define
-__T42PARSE_H__
+T42PARSE_H_
 #
 include
 "
@@ -47,13 +47,13 @@ T42_Loader_
 T42_ParserRec
 parser
 ;
-FT_UInt
+FT_Int
 num_chars
 ;
 PS_TableRec
 encoding_table
 ;
-FT_UInt
+FT_Int
 num_glyphs
 ;
 PS_TableRec

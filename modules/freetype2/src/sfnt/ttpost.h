@@ -1,9 +1,9 @@
 #
 ifndef
-__TTPOST_H__
+TTPOST_H_
 #
 define
-__TTPOST_H__
+TTPOST_H_
 #
 include
 <

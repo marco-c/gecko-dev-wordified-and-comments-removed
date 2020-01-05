@@ -2620,7 +2620,7 @@ fr
 *
 src
 /
-pfc
+pcf
 /
 pcfread
 .
@@ -3307,7 +3307,7 @@ CFF_Size_Done
 CFF_Size_Init
 CFF_Size_Reset
 CFF_GlyphSlot_Done
-CFF_GLyphSlot_Init
+CFF_GlyphSlot_Init
 )
 :
 New
@@ -8727,7 +8727,7 @@ t1afm
 .
 c
 (
-T1_Read_Afm
+T1_Read_AFM
 )
 :
 Now
@@ -9585,7 +9585,7 @@ src
 /
 psaux
 /
-psobjc
+psobjs
 .
 c
 (
@@ -14033,7 +14033,7 @@ src
 /
 sfnt
 /
-sfobcs
+sfobjs
 .
 c
 src
@@ -14222,7 +14222,7 @@ Ditto
 *
 src
 /
-trutype
+truetype
 /
 ttobjs
 .
@@ -14478,7 +14478,7 @@ builds
 /
 win32
 /
-detekt
+detect
 .
 mk
 :
@@ -19250,14 +19250,14 @@ builds
 /
 os2
 /
-detekt
+detect
 .
 mk
 builds
 /
 win32
 /
-detekt
+detect
 .
 mk
 :
@@ -19933,7 +19933,7 @@ david
 turner
 freetype
 .
-ogr
+org
 >
 *
 INSTALL
@@ -21472,9 +21472,8 @@ released
 -
 Copyright
 2000
-2001
-2002
-2007
+-
+2016
 by
 David
 Turner

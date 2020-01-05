@@ -1,9 +1,9 @@
 #
 ifndef
-__T42TYPES_H__
+T42TYPES_H_
 #
 define
-__T42TYPES_H__
+T42TYPES_H_
 #
 include
 <
@@ -58,7 +58,7 @@ FT_Byte
 *
 ttf_data
 ;
-FT_ULong
+FT_Long
 ttf_size
 ;
 FT_Face

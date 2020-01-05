@@ -1,9 +1,9 @@
 #
 ifndef
-__PSCONV_H__
+PSCONV_H_
 #
 define
-__PSCONV_H__
+PSCONV_H_
 #
 include
 <

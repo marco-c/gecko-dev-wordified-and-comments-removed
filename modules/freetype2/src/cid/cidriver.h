@@ -1,9 +1,9 @@
 #
 ifndef
-__CIDRIVER_H__
+CIDRIVER_H_
 #
 define
-__CIDRIVER_H__
+CIDRIVER_H_
 #
 include
 <

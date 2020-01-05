@@ -128,9 +128,11 @@ FT_Err_Ok
 define
 LOAD_ADVANCE_FAST_CHECK
 (
+face
 flags
 )
 \
+(
 (
 flags
 &
@@ -149,6 +151,15 @@ flags
 =
 =
 FT_RENDER_MODE_LIGHT
+)
+&
+&
+\
+!
+FT_HAS_MULTIPLE_MASTERS
+(
+face
+)
 )
 FT_EXPORT_DEF
 (
@@ -231,6 +242,7 @@ func
 &
 LOAD_ADVANCE_FAST_CHECK
 (
+face
 flags
 )
 )
@@ -409,6 +421,7 @@ func
 &
 LOAD_ADVANCE_FAST_CHECK
 (
+face
 flags
 )
 )
@@ -526,9 +539,8 @@ glyph
 advance
 .
 y
-<
-<
-10
+*
+1024
 :
 face
 -
@@ -539,9 +551,8 @@ glyph
 advance
 .
 x
-<
-<
-10
+*
+1024
 ;
 }
 return

@@ -1,9 +1,9 @@
 #
 ifndef
-__CIDOBJS_H__
+CIDOBJS_H_
 #
 define
-__CIDOBJS_H__
+CIDOBJS_H_
 #
 include
 <

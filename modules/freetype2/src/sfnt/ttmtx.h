@@ -1,9 +1,9 @@
 #
 ifndef
-__TTMTX_H__
+TTMTX_H_
 #
 define
-__TTMTX_H__
+TTMTX_H_
 #
 include
 <

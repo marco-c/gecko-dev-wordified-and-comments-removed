@@ -757,6 +757,9 @@ face
 num_glyphs
 -
 (
+FT_Long
+)
+(
 offset
 &
 0x0000FFFFUL

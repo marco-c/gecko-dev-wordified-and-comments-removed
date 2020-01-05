@@ -1,9 +1,9 @@
 #
 ifndef
-__FTCMRU_H__
+FTCMRU_H_
 #
 define
-__FTCMRU_H__
+FTCMRU_H_
 #
 include
 <
@@ -439,7 +439,7 @@ _node
 ;
 \
 goto
-_MruOk
+MruOk_
 ;
 \
 }
@@ -491,7 +491,7 @@ node
 )
 ;
 \
-_MruOk
+MruOk_
 :
 \
 ;

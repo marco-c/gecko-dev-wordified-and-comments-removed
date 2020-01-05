@@ -1,9 +1,9 @@
 #
 ifndef
-__OTVCOMMN_H__
+OTVCOMMN_H_
 #
 define
-__OTVCOMMN_H__
+OTVCOMMN_H_
 #
 include
 <

@@ -2,7 +2,7 @@
 if
 defined
 (
-__GXVALID_H__
+GXVALID_H_
 )
 #
 pragma

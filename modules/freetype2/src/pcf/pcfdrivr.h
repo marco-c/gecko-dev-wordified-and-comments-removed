@@ -1,9 +1,9 @@
 #
 ifndef
-__PCFDRIVR_H__
+PCFDRIVR_H_
 #
 define
-__PCFDRIVR_H__
+PCFDRIVR_H_
 #
 include
 <
