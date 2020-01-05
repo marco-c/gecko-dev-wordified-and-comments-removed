@@ -317,6 +317,9 @@ HeapSlot
 class
 ZoneGroup
 ;
+class
+JSONPrinter
+;
 void
 SetGCZeal
 (
@@ -1227,6 +1230,15 @@ leaveZealMode
 ;
 #
 endif
+void
+renderProfileJSON
+(
+JSONPrinter
+&
+json
+)
+const
+;
 static
 void
 printProfileHeader
