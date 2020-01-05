@@ -1292,7 +1292,7 @@ probe
 [
 k
 ]
-3
+6
 *
 snapshot
 .
