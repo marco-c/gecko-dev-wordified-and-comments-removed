@@ -115,8 +115,6 @@ Element
 anchor
 )
 ;
-/
-/
 void
 close
 (
