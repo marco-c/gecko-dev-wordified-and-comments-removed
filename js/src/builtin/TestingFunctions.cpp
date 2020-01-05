@@ -672,7 +672,7 @@ JS_SetProperty
 cx
 info
 "
-release
+release_or_beta
 "
 value
 )
