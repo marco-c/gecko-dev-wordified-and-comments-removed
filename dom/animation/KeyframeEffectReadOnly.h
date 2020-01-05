@@ -490,11 +490,6 @@ mProperty
 eCSSProperty_UNKNOWN
 ;
 bool
-mWinsInCascade
-=
-false
-;
-bool
 mIsRunningOnCompositor
 =
 false
