@@ -74,6 +74,17 @@ bluetooth
 /
 #
 characteristicproperties
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothCharacteristicProperties
 {

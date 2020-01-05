@@ -74,6 +74,17 @@ bluetooth
 /
 #
 bluetoothremotegattdescriptor
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothRemoteGATTDescriptor
 {

@@ -103,6 +103,17 @@ DataView
 ;
 *
 /
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothAdvertisingData
 {

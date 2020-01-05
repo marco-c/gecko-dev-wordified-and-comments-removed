@@ -124,6 +124,17 @@ to
 web
 pages
 .
+[
+Pref
+=
+"
+dom
+.
+testbinding
+.
+enabled
+"
+]
 interface
 TestBindingProxy
 :

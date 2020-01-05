@@ -857,7 +857,9 @@ Pref
 "
 dom
 .
-mozBrowserFramesEnabled
+mozbrowser
+.
+enabled
 "
 CheckAnyPermissions
 =
@@ -877,7 +879,9 @@ Pref
 "
 dom
 .
-mozBrowserFramesEnabled
+mozbrowser
+.
+enabled
 "
 CheckAnyPermissions
 =
@@ -897,7 +901,9 @@ Pref
 "
 dom
 .
-mozBrowserFramesEnabled
+mozbrowser
+.
+enabled
 "
 CheckAnyPermissions
 =
@@ -922,7 +928,9 @@ Pref
 "
 dom
 .
-mozBrowserFramesEnabled
+mozbrowser
+.
+enabled
 "
 CheckAnyPermissions
 =

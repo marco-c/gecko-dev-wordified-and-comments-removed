@@ -93,6 +93,17 @@ usb
 "
 }
 ;
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothDevice
 {

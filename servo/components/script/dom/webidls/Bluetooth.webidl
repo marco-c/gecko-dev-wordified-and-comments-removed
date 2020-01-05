@@ -74,6 +74,17 @@ bluetooth
 /
 #
 bluetooth
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 Bluetooth
 {

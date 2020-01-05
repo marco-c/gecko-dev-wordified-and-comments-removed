@@ -238,6 +238,15 @@ HTMLIFrameElement
 [
 ChromeOnly
 SetterThrows
+Pref
+=
+"
+dom
+.
+mozbrowser
+.
+enabled
+"
 ]
 attribute
 boolean

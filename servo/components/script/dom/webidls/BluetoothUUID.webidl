@@ -74,6 +74,17 @@ bluetooth
 /
 #
 bluetoothuuid
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothUUID
 {

@@ -74,6 +74,17 @@ bluetooth
 /
 #
 bluetoothremotegattcharacteristic
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothRemoteGATTCharacteristic
 {

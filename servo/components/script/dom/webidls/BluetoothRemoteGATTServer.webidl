@@ -74,6 +74,17 @@ bluetooth
 /
 #
 bluetoothremotegattserver
+[
+Pref
+=
+"
+dom
+.
+bluetooth
+.
+enabled
+"
+]
 interface
 BluetoothRemoteGATTServer
 {
