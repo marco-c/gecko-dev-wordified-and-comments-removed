@@ -506,10 +506,12 @@ convertJSValToVariant
 JSContext
 *
 aCtx
+const
 JS
 :
 :
 Value
+&
 aValue
 )
 {
