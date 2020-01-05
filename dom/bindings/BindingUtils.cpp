@@ -587,7 +587,7 @@ ap
 aErrorNumber
 )
 ;
-JS_ReportErrorNumberVA
+JS_ReportErrorNumberUTF8VA
 (
 aCx
 GetErrorMessage
