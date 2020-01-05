@@ -1615,7 +1615,6 @@ printingTarget
 >
 GetReferenceDrawTarget
 (
-recorder
 )
 ;
 }
