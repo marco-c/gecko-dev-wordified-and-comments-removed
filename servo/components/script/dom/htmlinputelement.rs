@@ -3985,7 +3985,7 @@ keyevent
 map
 (
 |
-event
+keyevent
 |
 {
 match
@@ -3999,7 +3999,7 @@ borrow_mut
 .
 handle_keydown
 (
-event
+keyevent
 )
 {
 TriggerDefaultAction
@@ -4014,6 +4014,12 @@ DispatchInput
 self
 .
 force_relayout
+(
+)
+;
+event
+.
+PreventDefault
 (
 )
 ;

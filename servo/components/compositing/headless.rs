@@ -50,6 +50,7 @@ compositor_task
 {
 ChangePageLoadData
 FrameTreeUpdateMsg
+KeyEvent
 }
 ;
 use
@@ -474,6 +475,12 @@ ChangePageTitle
 )
 |
 ChangePageLoadData
+(
+.
+.
+)
+|
+KeyEvent
 (
 .
 .

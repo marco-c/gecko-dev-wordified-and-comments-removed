@@ -579,4 +579,17 @@ self
 >
 bool
 ;
+fn
+handle_key
+(
+&
+self
+key
+:
+Key
+mods
+:
+KeyModifiers
+)
+;
 }
