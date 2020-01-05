@@ -591,6 +591,16 @@ from_ref
 self
 )
 ;
+if
+event
+.
+dispatching
+(
+)
+{
+return
+;
+}
 event
 .
 InitEvent

@@ -116,6 +116,9 @@ constellation_msg
 {
 LoadData
 SubpageId
+Key
+KeyState
+KeyModifiers
 }
 ;
 use
@@ -315,6 +318,12 @@ Point2D
 <
 f32
 >
+)
+KeyEvent
+(
+Key
+KeyState
+KeyModifiers
 )
 }
 pub
