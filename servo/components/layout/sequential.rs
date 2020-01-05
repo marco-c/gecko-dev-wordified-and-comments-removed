@@ -12,7 +12,7 @@ flow
 :
 :
 {
-mod
+self
 Flow
 ImmutableFlowUtils
 MutableFlowUtils

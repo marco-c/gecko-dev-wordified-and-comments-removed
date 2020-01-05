@@ -35,7 +35,7 @@ flow
 :
 :
 {
-mod
+self
 Flow
 IS_ABSOLUTELY_POSITIONED
 NEEDS_LAYER
@@ -282,7 +282,7 @@ geometry
 :
 :
 {
-mod
+self
 Au
 to_px
 }

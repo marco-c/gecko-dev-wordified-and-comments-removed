@@ -15,7 +15,7 @@ fmt
 :
 :
 {
-mod
+self
 Show
 }
 ;

@@ -3,7 +3,7 @@ flow
 :
 :
 {
-mod
+self
 Flow
 }
 ;

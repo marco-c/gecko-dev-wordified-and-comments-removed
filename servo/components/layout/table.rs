@@ -48,7 +48,7 @@ flow
 :
 :
 {
-mod
+self
 Flow
 FlowClass
 IMPACTED_BY_LEFT_FLOATS

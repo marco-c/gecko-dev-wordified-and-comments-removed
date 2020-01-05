@@ -52,7 +52,7 @@ flow
 :
 :
 {
-mod
+self
 AbsolutePositionInfo
 BaseFlow
 ForceNonfloatedFlag

@@ -160,6 +160,7 @@ fetch
 allow
 (
 dead_code
+unused
 )
 ]
 pub

@@ -135,7 +135,7 @@ str
 :
 :
 {
-mod
+self
 DOMString
 }
 ;

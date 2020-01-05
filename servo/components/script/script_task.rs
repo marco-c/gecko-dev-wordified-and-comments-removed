@@ -333,7 +333,7 @@ node
 :
 :
 {
-mod
+self
 Node
 NodeHelpers
 NodeDamage
@@ -822,7 +822,7 @@ fmt
 :
 :
 {
-mod
+self
 Show
 }
 ;

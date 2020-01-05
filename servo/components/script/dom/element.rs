@@ -617,7 +617,7 @@ style
 :
 :
 {
-mod
+self
 SimpleColorAttribute
 UnsignedIntegerAttribute
 }

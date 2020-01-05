@@ -114,7 +114,7 @@ str
 :
 :
 {
-mod
+self
 DOMString
 LengthOrPercentageOrAuto
 }

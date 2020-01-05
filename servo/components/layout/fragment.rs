@@ -212,7 +212,7 @@ geometry
 :
 :
 {
-mod
+self
 Au
 ZERO_POINT
 }

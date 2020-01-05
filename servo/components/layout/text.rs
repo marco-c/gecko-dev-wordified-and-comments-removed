@@ -92,7 +92,7 @@ util
 :
 :
 {
-mod
+self
 CompressionMode
 }
 ;

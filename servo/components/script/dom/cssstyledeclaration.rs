@@ -15,7 +15,7 @@ CSSStyleDeclarationBinding
 :
 :
 {
-mod
+self
 CSSStyleDeclarationMethods
 }
 ;

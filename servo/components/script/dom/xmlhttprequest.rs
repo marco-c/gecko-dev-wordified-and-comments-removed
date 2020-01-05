@@ -439,7 +439,7 @@ mime
 :
 :
 {
-mod
+self
 Mime
 }
 ;

@@ -344,7 +344,7 @@ cssparser
 :
 :
 {
-mod
+self
 Token
 Parser
 ToCss
@@ -362,7 +362,7 @@ text_writer
 :
 :
 {
-mod
+self
 TextWriter
 }
 ;
