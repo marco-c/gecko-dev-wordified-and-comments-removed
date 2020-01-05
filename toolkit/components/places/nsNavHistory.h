@@ -1179,6 +1179,10 @@ uint32_t
 aVisitCount
 uint32_t
 aTyped
+const
+nsAString
+&
+aLastKnownTitle
 )
 ;
 void

@@ -1044,7 +1044,7 @@ linkChangedMsgCount
 =
 =
 =
-3
+2
 )
 {
 ok
