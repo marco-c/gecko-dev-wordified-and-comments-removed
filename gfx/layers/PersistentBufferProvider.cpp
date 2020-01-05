@@ -847,10 +847,12 @@ PersistentBufferProviderShared
 :
 GetTexture
 (
+const
 Maybe
 <
 uint32_t
 >
+&
 aIndex
 )
 {
