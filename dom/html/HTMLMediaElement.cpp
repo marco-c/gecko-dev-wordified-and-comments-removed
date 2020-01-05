@@ -17705,6 +17705,10 @@ mElement
 =
 nullptr
 ;
+NotifyWatchers
+(
+)
+;
 }
 MediaDecoderOwner
 :
