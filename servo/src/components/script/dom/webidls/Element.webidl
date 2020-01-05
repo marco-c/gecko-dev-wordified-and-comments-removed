@@ -353,16 +353,6 @@ DOMString
 localName
 )
 ;
-[
-Throws
-]
-boolean
-matches
-(
-DOMString
-selectors
-)
-;
 HTMLCollection
 getElementsByTagName
 (
