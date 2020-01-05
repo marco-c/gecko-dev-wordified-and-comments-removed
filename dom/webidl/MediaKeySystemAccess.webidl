@@ -248,17 +248,6 @@ sessionTypes
 ;
 }
 ;
-[
-Pref
-=
-"
-media
-.
-eme
-.
-apiVisible
-"
-]
 interface
 MediaKeySystemAccess
 {

@@ -2484,15 +2484,6 @@ interface
 Navigator
 {
 [
-Pref
-=
-"
-media
-.
-eme
-.
-apiVisible
-"
 NewObject
 ]
 Promise
