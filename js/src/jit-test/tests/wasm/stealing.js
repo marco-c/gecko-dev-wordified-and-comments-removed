@@ -12,7 +12,7 @@ js
 var
 exp
 =
-evalText
+wasmEvalText
 (
 (
 module

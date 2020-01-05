@@ -9,17 +9,6 @@ js
 '
 )
 ;
-load
-(
-libdir
-+
-'
-asserts
-.
-js
-'
-)
-;
 const
 Module
 =
@@ -83,7 +72,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -125,7 +114,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -168,7 +157,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -215,7 +204,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -264,7 +253,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -313,7 +302,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -361,7 +350,7 @@ assertErrorMessage
 )
 =
 >
-evalText
+wasmEvalText
 (
 (
 module
@@ -427,7 +416,7 @@ assertErrorMessage
 )
 =
 >
-evalText
+wasmEvalText
 (
 (
 module
@@ -494,7 +483,7 @@ assertEq
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -545,7 +534,7 @@ assertEq
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -591,7 +580,7 @@ Module
 true
 )
 ;
-evalText
+wasmEvalText
 (
 (
 module
@@ -653,7 +642,7 @@ a
 }
 )
 ;
-evalText
+wasmEvalText
 (
 (
 module
@@ -721,7 +710,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -921,7 +910,7 @@ i
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -990,7 +979,7 @@ range
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1068,7 +1057,7 @@ range
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1175,7 +1164,7 @@ range
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1370,7 +1359,7 @@ anyfunc
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1513,7 +1502,7 @@ null
 var
 exp
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1680,7 +1669,7 @@ get
 var
 exp1
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1818,7 +1807,7 @@ null
 var
 exp2
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -2026,7 +2015,7 @@ anyfunc
 var
 e1
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -2059,7 +2048,7 @@ exports
 var
 e2
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -2092,7 +2081,7 @@ exports
 var
 e3
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -2155,7 +2144,7 @@ h
 var
 e4
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -2238,7 +2227,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -2334,6 +2323,7 @@ const
 )
 (
 if
+i32
 (
 i32
 .
@@ -2655,7 +2645,7 @@ ohai
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -2820,7 +2810,7 @@ mismatch
 var
 call
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -3318,10 +3308,6 @@ i32
 call_indirect
 A
 (
-get_local
-0
-)
-(
 i32
 .
 const
@@ -3368,6 +3354,10 @@ i32
 .
 const
 42
+)
+(
+get_local
+0
 )
 )
 )

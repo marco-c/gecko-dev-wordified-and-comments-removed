@@ -470,8 +470,9 @@ module
 (
 memory
 1
+)
 (
-segment
+data
 0
 "
 \
@@ -525,7 +526,7 @@ segment
 "
 )
 (
-segment
+data
 16
 "
 \
@@ -579,7 +580,7 @@ ff
 "
 )
 (
-segment
+data
 65520
 "
 \
@@ -632,7 +633,6 @@ fe
 ff
 "
 )
-)
 (
 func
 (
@@ -649,6 +649,8 @@ result
 type
 }
 )
+(
+drop
 (
 {
 type
@@ -682,6 +684,7 @@ align
 (
 get_local
 0
+)
 )
 )
 (
@@ -728,6 +731,12 @@ export
 )
 )
 )
+.
+exports
+[
+"
+"
+]
 ;
 }
 function
@@ -748,8 +757,9 @@ module
 (
 memory
 1
+)
 (
-segment
+data
 0
 "
 \
@@ -803,7 +813,7 @@ segment
 "
 )
 (
-segment
+data
 16
 "
 \
@@ -857,7 +867,7 @@ ff
 "
 )
 (
-segment
+data
 65520
 "
 \
@@ -910,7 +920,6 @@ fe
 ff
 "
 )
-)
 (
 func
 (
@@ -923,6 +932,8 @@ result
 type
 }
 )
+(
+drop
 (
 {
 type
@@ -956,6 +967,7 @@ align
 (
 get_local
 0
+)
 )
 )
 (
@@ -1015,6 +1027,12 @@ export
 )
 )
 )
+.
+exports
+[
+"
+"
+]
 ;
 }
 function
@@ -1034,8 +1052,9 @@ module
 (
 memory
 1
+)
 (
-segment
+data
 0
 "
 \
@@ -1089,7 +1108,7 @@ segment
 "
 )
 (
-segment
+data
 16
 "
 \
@@ -1143,7 +1162,7 @@ ff
 "
 )
 (
-segment
+data
 65520
 "
 \
@@ -1196,7 +1215,6 @@ fe
 ff
 "
 )
-)
 (
 func
 (
@@ -1213,6 +1231,8 @@ result
 type
 }
 )
+(
+drop
 (
 {
 type
@@ -1246,6 +1266,7 @@ align
 (
 get_local
 0
+)
 )
 )
 (
@@ -1301,6 +1322,12 @@ export
 )
 )
 )
+.
+exports
+[
+"
+"
+]
 ;
 }
 function

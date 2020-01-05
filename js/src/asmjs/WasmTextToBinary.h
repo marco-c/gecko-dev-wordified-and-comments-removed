@@ -37,8 +37,6 @@ const
 char16_t
 *
 text
-bool
-newFormat
 Bytes
 *
 bytes

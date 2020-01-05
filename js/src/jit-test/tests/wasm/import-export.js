@@ -9,17 +9,6 @@ js
 '
 )
 ;
-load
-(
-libdir
-+
-'
-asserts
-.
-js
-'
-)
-;
 const
 Module
 =
@@ -301,7 +290,7 @@ m1
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -535,7 +524,7 @@ m2
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -922,7 +911,7 @@ m3
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1192,7 +1181,7 @@ m4
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1477,7 +1466,7 @@ m5
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1599,7 +1588,7 @@ m6
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1721,7 +1710,7 @@ m7
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1876,7 +1865,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1894,10 +1883,13 @@ TypeError
 /
 maximum
 length
+1
+is
 less
 than
 initial
 length
+2
 /
 )
 ;
@@ -1910,7 +1902,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1937,10 +1929,13 @@ TypeError
 /
 maximum
 length
+1
+is
 less
 than
 initial
 length
+2
 /
 )
 ;
@@ -1953,7 +1948,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -1974,10 +1969,13 @@ TypeError
 /
 maximum
 length
+1
+is
 less
 than
 initial
 length
+2
 /
 )
 ;
@@ -1990,7 +1988,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2017,17 +2015,20 @@ TypeError
 /
 maximum
 length
+1
+is
 less
 than
 initial
 length
+2
 /
 )
 ;
 var
 e
 =
-evalText
+wasmEvalText
 (
 '
 (
@@ -2074,7 +2075,7 @@ i2vm
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2103,7 +2104,7 @@ f2vm
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2710,7 +2711,7 @@ bar
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2750,7 +2751,7 @@ length
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2814,7 +2815,7 @@ undefined
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2906,7 +2907,7 @@ bar
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -2962,7 +2963,7 @@ memory
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3060,7 +3061,7 @@ byteLength
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3171,7 +3172,7 @@ byteLength
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3262,7 +3263,7 @@ byteLength
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3340,7 +3341,7 @@ true
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3414,7 +3415,7 @@ length
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3520,7 +3521,7 @@ length
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3642,7 +3643,7 @@ length
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3765,7 +3766,7 @@ length
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -3854,7 +3855,7 @@ length
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -4272,7 +4273,7 @@ get
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -4368,7 +4369,7 @@ bar
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -4469,7 +4470,7 @@ bar
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -4678,7 +4679,7 @@ false
 var
 code
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -4764,7 +4765,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -4998,7 +4999,7 @@ false
 var
 code1
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5059,7 +5060,7 @@ exports
 var
 code2
 =
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5163,7 +5164,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5199,7 +5200,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5236,7 +5237,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5272,7 +5273,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5308,7 +5309,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5354,7 +5355,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5409,7 +5410,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5455,7 +5456,7 @@ assertErrorMessage
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -5507,7 +5508,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -5745,7 +5746,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -5908,7 +5909,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -6308,7 +6309,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -6538,7 +6539,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -6595,7 +6596,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -6681,7 +6682,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -6744,7 +6745,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -6907,7 +6908,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module

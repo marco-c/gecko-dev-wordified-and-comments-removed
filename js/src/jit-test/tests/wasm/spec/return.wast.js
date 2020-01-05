@@ -1,9 +1,13 @@
+quit
+(
+)
+;
 var
 importedArgs
 =
 [
 '
-functions
+return
 .
 wast
 '

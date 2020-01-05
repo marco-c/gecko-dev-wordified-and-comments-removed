@@ -420,9 +420,10 @@ entire
 modules
 evaluated
 via
-Wasm
+new
+WebAssembly
 .
-instantiateModule
+Module
 are
 represented
 .
@@ -928,9 +929,10 @@ the
 script
 that
 called
-Wasm
+new
+WebAssembly
 .
-instantiateModule
+Module
 with
 the
 string

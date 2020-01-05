@@ -1,9 +1,13 @@
+quit
+(
+)
+;
 var
 importedArgs
 =
 [
 '
-block_comments
+nop
 .
 wast
 '

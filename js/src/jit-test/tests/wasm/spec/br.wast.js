@@ -1,11 +1,13 @@
+quit
+(
+)
+;
 var
 importedArgs
 =
 [
 '
-runaway
--
-recursion
+br
 .
 wast
 '
