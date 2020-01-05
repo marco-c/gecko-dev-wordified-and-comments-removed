@@ -1064,8 +1064,6 @@ weave
 /
 locale
 /
-services
-/
 {
 name
 }

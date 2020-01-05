@@ -86,8 +86,6 @@ weave
 /
 locale
 /
-services
-/
 sync
 .
 properties

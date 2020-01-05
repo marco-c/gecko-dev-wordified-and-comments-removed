@@ -154,9 +154,6 @@ weave
 /
 locale
 /
-services
-/
-/
 {
 name
 }
