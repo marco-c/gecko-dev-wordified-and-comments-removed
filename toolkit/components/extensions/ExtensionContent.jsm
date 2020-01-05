@@ -3714,6 +3714,14 @@ permissions
 ;
 this
 .
+principal
+=
+data
+.
+principal
+;
+this
+.
 localeData
 =
 new
