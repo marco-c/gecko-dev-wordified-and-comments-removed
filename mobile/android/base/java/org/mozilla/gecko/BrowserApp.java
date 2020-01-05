@@ -7639,6 +7639,9 @@ this
 }
 deleteTempFiles
 (
+getApplicationContext
+(
+)
 )
 ;
 if

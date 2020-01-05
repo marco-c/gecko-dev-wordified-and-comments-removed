@@ -397,7 +397,6 @@ mIsMediaControlPrefOn
 true
 ;
 private
-static
 WeakReference
 <
 Tab
