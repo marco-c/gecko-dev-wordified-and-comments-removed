@@ -1493,7 +1493,6 @@ toolchain
 prefix
 '
 target
-host
 cross_compiling
 )
 def
@@ -1501,7 +1500,6 @@ toolchain_prefix
 (
 value
 target
-host
 cross_compiling
 )
 :
@@ -7321,14 +7319,12 @@ libcxx_inline_visibility
 )
 depends
 (
-c_compiler
 target
 check_build_environment
 )
 def
 visibility_flags
 (
-c_compiler
 target
 env
 )

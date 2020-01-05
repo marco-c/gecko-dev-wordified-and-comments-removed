@@ -605,7 +605,6 @@ depends
 rust_compiler
 rustc
 target
-cross_compiling
 )
 imports
 (
@@ -670,7 +669,6 @@ rust_target
 rust_compiler
 rustc
 target
-cross_compiling
 )
 :
 if

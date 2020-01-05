@@ -4332,13 +4332,11 @@ host_for_old_configure
 )
 depends
 (
-host
 target
 )
 def
 target_for_old_configure
 (
-host
 target
 )
 :
@@ -6129,10 +6127,7 @@ command
 line
 mozconfig
 )
-depends
-(
-mozconfig_options
-)
+dependable
 imports
 (
 _from
@@ -6157,7 +6152,6 @@ __sandbox__
 def
 all_configure_options
 (
-_
 )
 :
 result
