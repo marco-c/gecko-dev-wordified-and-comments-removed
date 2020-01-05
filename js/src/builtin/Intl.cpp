@@ -13633,7 +13633,7 @@ JSContext
 cx
 HandleString
 timeZone
-MutableHandleString
+MutableHandleAtom
 result
 )
 {
@@ -14140,7 +14140,7 @@ toString
 )
 )
 ;
-RootedString
+RootedAtom
 ianaTimeZone
 (
 cx
@@ -14167,6 +14167,14 @@ if
 ianaTimeZone
 )
 {
+cx
+-
+>
+markAtom
+(
+ianaTimeZone
+)
+;
 args
 .
 rval

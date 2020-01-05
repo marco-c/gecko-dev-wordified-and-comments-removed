@@ -353,10 +353,7 @@ JS
 :
 HandleString
 timeZone
-JS
-:
-:
-MutableHandleString
+MutableHandleAtom
 result
 )
 ;
