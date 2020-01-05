@@ -457,7 +457,6 @@ UTF
 "
 )
 ;
-return
 Err
 (
 Range
@@ -627,9 +626,7 @@ as
 usize
 )
 ;
-return
 js_object
-;
 }
 }
 }

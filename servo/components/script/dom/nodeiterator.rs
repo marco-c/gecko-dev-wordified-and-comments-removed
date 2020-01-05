@@ -905,12 +905,10 @@ following_node
 ;
 }
 }
-return
 Ok
 (
 None
 )
-;
 }
 fn
 PreviousNode
@@ -1121,12 +1119,10 @@ preceding_node
 ;
 }
 }
-return
 Ok
 (
 None
 )
-;
 }
 fn
 Detach
