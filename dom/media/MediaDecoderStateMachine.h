@@ -144,10 +144,6 @@ extern
 LazyLogModule
 gMediaDecoderLog
 ;
-extern
-LazyLogModule
-gMediaSampleLog
-;
 enum
 class
 MediaEventType
