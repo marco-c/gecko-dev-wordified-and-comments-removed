@@ -1023,6 +1023,14 @@ _hb_glib_unicode_funcs
 )
 ;
 }
+#
+if
+GLIB_CHECK_VERSION
+(
+2
+31
+10
+)
 hb_blob_t
 *
 hb_glib_blob_create
@@ -1069,3 +1077,5 @@ g_bytes_unref
 )
 ;
 }
+#
+endif
