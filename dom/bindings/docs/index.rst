@@ -529,8 +529,9 @@ methods
 from
 the
 TestExampleInterface
-and
 TestExampleProxyInterface
+and
+TestExampleWorkerInterface
 interfaces
 .
 These

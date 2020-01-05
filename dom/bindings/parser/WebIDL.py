@@ -27862,6 +27862,14 @@ identifier
 =
 =
 "
+NeedsCallerType
+"
+or
+              
+identifier
+=
+=
+"
 ReturnValueNeedsContainsHack
 "
 or
@@ -33025,6 +33033,14 @@ identifier
 =
 "
 NeedsSubjectPrincipal
+"
+or
+              
+identifier
+=
+=
+"
+NeedsCallerType
 "
 or
               

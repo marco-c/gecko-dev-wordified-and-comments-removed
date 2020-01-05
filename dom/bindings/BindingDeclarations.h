@@ -1757,6 +1757,14 @@ this
 }
 ;
 }
+enum
+class
+CallerType
+{
+System
+NonSystem
+}
+;
 }
 }
 #
