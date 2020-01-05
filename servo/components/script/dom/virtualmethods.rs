@@ -699,6 +699,12 @@ str
 :
 DOMString
 ;
+use
+string_cache
+:
+:
+Atom
+;
 pub
 trait
 VirtualMethods
@@ -813,7 +819,7 @@ self
 name
 :
 &
-str
+Atom
 value
 :
 DOMString
