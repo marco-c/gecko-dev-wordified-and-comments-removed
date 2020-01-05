@@ -1922,6 +1922,17 @@ public
 :
 static
 void
+CreateViewForFrame
+(
+nsIFrame
+*
+aFrame
+bool
+aForce
+)
+;
+static
+void
 GetLastLeaf
 (
 nsPresContext

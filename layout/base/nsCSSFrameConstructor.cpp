@@ -13297,7 +13297,7 @@ if
 aBuildCombobox
 )
 {
-nsContainerFrame
+nsFrame
 :
 :
 CreateViewForFrame
@@ -16435,7 +16435,7 @@ geometricParent
 newFrame
 )
 ;
-nsContainerFrame
+nsFrame
 :
 :
 CreateViewForFrame
