@@ -3774,17 +3774,6 @@ home
 /
 activitystream
 /
-model
-/
-TopSite
-.
-java
-'
-'
-home
-/
-activitystream
-/
 stream
 /
 HighlightItem
