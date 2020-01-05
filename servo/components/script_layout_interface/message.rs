@@ -370,6 +370,10 @@ pub
 query_type
 :
 ReflowQueryType
+pub
+dom_count
+:
+u32
 }
 impl
 Drop
