@@ -149,6 +149,12 @@ type
 text
 /
 javascript
+;
+version
+=
+1
+.
+8
 \
 "
 >
