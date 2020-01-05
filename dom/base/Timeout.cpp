@@ -62,6 +62,10 @@ mIsInterval
 (
 false
 )
+mIsTracking
+(
+false
+)
 mReason
 (
 Reason

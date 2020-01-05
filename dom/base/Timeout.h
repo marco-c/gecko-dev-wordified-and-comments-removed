@@ -174,6 +174,9 @@ mRunning
 bool
 mIsInterval
 ;
+bool
+mIsTracking
+;
 Reason
 mReason
 ;
