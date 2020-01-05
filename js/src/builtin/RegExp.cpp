@@ -546,8 +546,7 @@ cx
 RegExpStatics
 *
 res
-RegExpShared
-&
+MutableHandleRegExpShared
 re
 HandleLinearString
 input
@@ -564,11 +563,13 @@ endIndex
 RegExpRunStatus
 status
 =
-re
-.
+RegExpShared
+:
+:
 execute
 (
 cx
+re
 input
 searchIndex
 matches
@@ -618,7 +619,6 @@ updateLazily
 (
 cx
 input
-&
 re
 searchIndex
 )
@@ -700,7 +700,7 @@ ExecuteRegExpImpl
 (
 cx
 res
-*
+&
 shared
 input
 *
@@ -4597,7 +4597,7 @@ ExecuteRegExpImpl
 (
 cx
 res
-*
+&
 re
 input
 lastIndex

@@ -7539,8 +7539,7 @@ CompilePattern
 JSContext
 *
 cx
-RegExpShared
-*
+HandleRegExpShared
 shared
 RegExpCompileData
 *
