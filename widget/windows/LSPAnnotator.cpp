@@ -795,12 +795,8 @@ LSPAnnotationGatherer
 )
 )
 ;
-NS_NewNamedThread
+NS_NewThread
 (
-"
-LSP
-Annotate
-"
 getter_AddRefs
 (
 thread

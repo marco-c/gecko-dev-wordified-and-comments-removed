@@ -157,16 +157,6 @@ aStackSize
 nsresult
 Init
 (
-const
-nsACString
-&
-aName
-=
-NS_LITERAL_CSTRING
-(
-"
-"
-)
 )
 ;
 nsresult

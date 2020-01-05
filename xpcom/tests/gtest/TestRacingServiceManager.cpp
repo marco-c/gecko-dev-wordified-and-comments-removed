@@ -912,11 +912,8 @@ newThread
 ;
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-RacingServMan
-"
 getter_AddRefs
 (
 newThread

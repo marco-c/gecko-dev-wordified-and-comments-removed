@@ -4327,6 +4327,9 @@ MOZ_ASSERT
 mTargetThread
 )
 ;
+char
+stackBaseGuess
+;
 if
 (
 NS_IsMainThread
@@ -4479,6 +4482,16 @@ return
 NS_OK
 ;
 }
+profiler_register_thread
+(
+"
+IPDL
+Background
+"
+&
+stackBaseGuess
+)
+;
 #
 ifdef
 DEBUG
@@ -4612,6 +4625,10 @@ PR_GetCurrentThread
 (
 )
 nullptr
+)
+;
+profiler_unregister_thread
+(
 )
 ;
 return

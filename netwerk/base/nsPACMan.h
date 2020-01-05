@@ -490,6 +490,11 @@ ProcessPending
 (
 )
 ;
+void
+NamePACThread
+(
+)
+;
 private
 :
 ProxyAutoConfig
