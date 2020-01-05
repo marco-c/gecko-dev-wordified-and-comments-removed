@@ -57,7 +57,11 @@ x
 function
 (
 )
+{
+return
 x
+;
+}
 ;
 reportCompare
 (

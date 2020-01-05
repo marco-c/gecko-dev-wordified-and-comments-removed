@@ -85,9 +85,13 @@ x
 function
 (
 )
+{
+return
 gc
 (
 )
+;
+}
 )
 ;
 (

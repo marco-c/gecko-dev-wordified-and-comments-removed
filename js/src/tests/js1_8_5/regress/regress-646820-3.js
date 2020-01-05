@@ -13,7 +13,11 @@ y
 function
 (
 )
+{
+return
 y
+;
+}
 13
 ]
 ;

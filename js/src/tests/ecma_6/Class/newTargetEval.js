@@ -54,6 +54,8 @@ try
 function
 (
 )
+{
+return
 ieval
 (
 '
@@ -62,6 +64,8 @@ new
 target
 '
 )
+;
+}
 )
 (
 )

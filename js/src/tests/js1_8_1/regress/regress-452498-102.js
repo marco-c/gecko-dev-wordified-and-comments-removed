@@ -67,7 +67,11 @@ function
 x
 (
 )
+{
+return
 y
+;
+}
 }
 )
 (

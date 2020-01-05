@@ -120,7 +120,11 @@ x
 function
 (
 )
+{
+return
 x
+;
+}
 )
 "
 )

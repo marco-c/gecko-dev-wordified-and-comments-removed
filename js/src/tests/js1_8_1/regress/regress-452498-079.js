@@ -61,7 +61,11 @@ function
 x
 (
 )
+{
+return
 0
+;
+}
 reportCompare
 (
 expect

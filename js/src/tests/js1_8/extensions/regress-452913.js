@@ -54,6 +54,8 @@ function
 (
 x
 )
+{
+return
 '
 foo
 '
@@ -70,6 +72,8 @@ g
 .
 push
 )
+;
+}
 )
 )
 ;

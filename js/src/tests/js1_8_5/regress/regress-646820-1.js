@@ -14,7 +14,11 @@ y
 function
 (
 )
+{
+return
 x
+;
+}
 ]
 ;
 assertEq

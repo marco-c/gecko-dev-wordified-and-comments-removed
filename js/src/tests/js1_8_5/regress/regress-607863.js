@@ -19,7 +19,11 @@ get
 f
 (
 )
+{
+return
 this
+;
+}
 set
 x
 (

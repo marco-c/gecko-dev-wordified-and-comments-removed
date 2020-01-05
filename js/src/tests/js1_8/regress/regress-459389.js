@@ -280,6 +280,8 @@ function
 DartAd
 (
 )
+{
+return
 AdUrl
 .
 prototype
@@ -289,6 +291,7 @@ Ad
 (
 )
 ;
+}
 function
 AdUrl
 (

@@ -81,7 +81,11 @@ function
 (
 q
 )
+{
+return
 q
+;
+}
 )
 )
 .

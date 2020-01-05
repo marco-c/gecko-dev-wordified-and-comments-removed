@@ -326,7 +326,8 @@ function
 x
 x
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -349,7 +350,8 @@ function
 x
 y
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -821,7 +823,8 @@ f
 (
 eval
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -846,7 +849,8 @@ f
 eval
 ]
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -873,7 +877,8 @@ x
 eval
 }
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -895,7 +900,8 @@ function
 eval
 (
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -1562,7 +1568,8 @@ f
 (
 arguments
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -1587,7 +1594,8 @@ f
 arguments
 ]
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -1614,7 +1622,8 @@ x
 arguments
 }
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
@@ -1636,7 +1645,8 @@ function
 arguments
 (
 )
-2
+{
+}
 )
 '
 parsesSuccessfully
