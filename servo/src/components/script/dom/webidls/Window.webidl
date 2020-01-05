@@ -310,6 +310,11 @@ attribute
 WindowProxy
 frames
 ;
+readonly
+attribute
+Window
+frames
+;
 /
 /
 [
