@@ -1361,6 +1361,9 @@ mGoAwayStreamsToRestart
 uint64_t
 mSerial
 ;
+uint32_t
+mAggregatedHeaderSize
+;
 bool
 mWaitingForSettingsAck
 ;
