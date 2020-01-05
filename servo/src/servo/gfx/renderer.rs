@@ -17,13 +17,12 @@ comm
 *
 ;
 import
+dl
+=
 layout
 :
 :
 display_list
-:
-:
-*
 ;
 import
 azure
@@ -45,6 +44,9 @@ msg
 {
 render
 (
+dl
+:
+:
 display_list
 )
 exit
@@ -228,6 +230,9 @@ draw_target
 AzDrawTargetRef
 display_list
 :
+dl
+:
+:
 display_list
 )
 {
@@ -257,6 +262,9 @@ item
 .
 item_type
 {
+dl
+:
+:
 solid_color
 (
 r
