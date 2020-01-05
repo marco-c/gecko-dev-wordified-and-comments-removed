@@ -270,6 +270,7 @@ UNOP_NOT
 UNOP_BITNOT
 UNOP_TYPEOF
 UNOP_VOID
+UNOP_AWAIT
 UNOP_LIMIT
 }
 ;
@@ -493,6 +494,9 @@ typeof
 "
 "
 void
+"
+"
+await
 "
 }
 ;
@@ -8923,6 +8927,16 @@ kind
 return
 UNOP_TYPEOF
 ;
+if
+(
+kind
+=
+=
+PNK_AWAIT
+)
+return
+UNOP_AWAIT
+;
 switch
 (
 op
@@ -15096,6 +15110,9 @@ PNK_BITNOT
 :
 case
 PNK_POS
+:
+case
+PNK_AWAIT
 :
 case
 PNK_NEG
