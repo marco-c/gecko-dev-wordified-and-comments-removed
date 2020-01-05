@@ -629,14 +629,8 @@ select
 [
 Throws
 ]
-/
-/
-TODO
-:
-unsigned
-vs
-signed
 attribute
+unsigned
 long
 ?
 selectionStart

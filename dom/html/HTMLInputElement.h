@@ -1078,7 +1078,7 @@ aRv
 )
 override
 ;
-int32_t
+uint32_t
 GetSelectionStartIgnoringType
 (
 ErrorResult
@@ -2600,7 +2600,7 @@ aRv
 ;
 Nullable
 <
-int32_t
+uint32_t
 >
 GetSelectionStart
 (
@@ -2615,7 +2615,7 @@ SetSelectionStart
 const
 Nullable
 <
-int32_t
+uint32_t
 >
 &
 aValue
