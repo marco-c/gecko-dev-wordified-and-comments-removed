@@ -173,15 +173,6 @@ void
 *
 refresh_timer_handle
 ;
-UINT2
-cnt_401s
-;
-UINT2
-cnt_403s
-;
-UINT2
-cnt_438s
-;
 }
 nr_turn_client_ctx
 ;
