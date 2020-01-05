@@ -1225,7 +1225,9 @@ IsShutdown
 )
 )
 ;
-mOwner
+GetOwner
+(
+)
 -
 >
 UpdateReadyState
