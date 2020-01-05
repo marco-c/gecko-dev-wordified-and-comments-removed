@@ -25,6 +25,7 @@ flow
 {
 FlowClass
 Flow
+OpaqueFlow
 }
 ;
 use
@@ -67,7 +68,7 @@ util
 logical_geometry
 :
 :
-LogicalRect
+LogicalSize
 ;
 use
 std
@@ -464,14 +465,17 @@ compute_overflow
 )
 }
 fn
-generated_containing_block_rect
+generated_containing_block_size
 (
 &
 self
+flow
+:
+OpaqueFlow
 )
 -
 >
-LogicalRect
+LogicalSize
 <
 Au
 >
@@ -480,8 +484,9 @@ self
 .
 block_flow
 .
-generated_containing_block_rect
+generated_containing_block_size
 (
+flow
 )
 }
 fn

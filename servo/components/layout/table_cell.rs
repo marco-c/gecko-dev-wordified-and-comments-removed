@@ -47,6 +47,7 @@ flow
 {
 Flow
 FlowClass
+OpaqueFlow
 }
 ;
 use
@@ -178,6 +179,7 @@ logical_geometry
 {
 LogicalMargin
 LogicalRect
+LogicalSize
 WritingMode
 }
 ;
@@ -1077,14 +1079,17 @@ compute_overflow
 )
 }
 fn
-generated_containing_block_rect
+generated_containing_block_size
 (
 &
 self
+flow
+:
+OpaqueFlow
 )
 -
 >
-LogicalRect
+LogicalSize
 <
 Au
 >
@@ -1093,8 +1098,9 @@ self
 .
 block_flow
 .
-generated_containing_block_rect
+generated_containing_block_size
 (
+flow
 )
 }
 fn
