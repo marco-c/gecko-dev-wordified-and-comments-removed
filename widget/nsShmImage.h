@@ -168,6 +168,11 @@ DestroyImage
 (
 )
 ;
+void
+WaitIfPendingReply
+(
+)
+;
 xcb_connection_t
 *
 mConnection
