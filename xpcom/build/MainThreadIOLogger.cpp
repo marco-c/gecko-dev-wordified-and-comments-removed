@@ -389,6 +389,14 @@ void
 aArg
 )
 {
+AutoProfilerRegister
+registerThread
+(
+"
+MainThreadIOLogger
+"
+)
+;
 PR_SetCurrentThreadName
 (
 "
