@@ -225,6 +225,14 @@ OBJ_SUFFIX
 (
 XPCOM_LIBS
 )
+DIRS
++
+=
+[
+'
+gtest
+'
+]
 HAS_MISC_RULE
 =
 True
