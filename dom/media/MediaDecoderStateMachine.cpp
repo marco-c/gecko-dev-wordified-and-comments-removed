@@ -1936,6 +1936,13 @@ __func__
 )
 ;
 }
+void
+HandleVideoSuspendTimeout
+(
+)
+override
+{
+}
 }
 ;
 class
