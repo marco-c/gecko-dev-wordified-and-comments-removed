@@ -553,6 +553,17 @@ html
 /
 #
 windowtimers
+[
+NoInterfaceObject
+/
+*
+Exposed
+=
+Window
+Worker
+*
+/
+]
 interface
 WindowTimers
 {

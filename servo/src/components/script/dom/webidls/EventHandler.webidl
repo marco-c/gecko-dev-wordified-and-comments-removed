@@ -294,6 +294,8 @@ or
 on
 nodes
 .
+/
+*
 [
 NoInterfaceObject
 ]
@@ -306,6 +308,8 @@ onerror
 ;
 }
 ;
+*
+/
 [
 NoInterfaceObject
 ]
