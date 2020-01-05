@@ -296,6 +296,11 @@ PipelineId
 SubpageId
 SubpageId
 )
+FocusIFrameMsg
+(
+PipelineId
+SubpageId
+)
 }
 #
 [
