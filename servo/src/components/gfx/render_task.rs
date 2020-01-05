@@ -184,15 +184,6 @@ buffer_map
 BufferMap
 ;
 use
-font_context
-:
-:
-{
-FontContext
-FontContextInfo
-}
-;
-use
 display_list
 :
 :
