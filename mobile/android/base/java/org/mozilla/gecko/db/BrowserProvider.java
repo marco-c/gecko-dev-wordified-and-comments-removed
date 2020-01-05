@@ -1011,7 +1011,7 @@ Table
 ]
 {
 new
-URLMetadataTable
+URLImageDataTable
 (
 )
 }
@@ -2594,14 +2594,14 @@ shutdown
 ;
 }
 private
-URLMetadataTable
-getURLMetadataTable
+URLImageDataTable
+getURLImageDataTable
 (
 )
 {
 return
 (
-URLMetadataTable
+URLImageDataTable
 )
 sTables
 [
@@ -13591,7 +13591,7 @@ thumbnailSelection
 null
 )
 +
-getURLMetadataTable
+getURLImageDataTable
 (
 )
 .

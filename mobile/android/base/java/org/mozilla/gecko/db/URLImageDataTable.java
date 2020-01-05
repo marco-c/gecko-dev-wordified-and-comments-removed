@@ -51,7 +51,7 @@ Uri
 ;
 public
 class
-URLMetadataTable
+URLImageDataTable
 extends
 BaseTable
 {
@@ -62,7 +62,7 @@ String
 LOGTAG
 =
 "
-GeckoURLMetadataTable
+GeckoURLImageDataTable
 "
 ;
 private
@@ -153,7 +153,7 @@ TOUCH_ICON_COLUMN
 touchIcon
 "
 ;
-URLMetadataTable
+URLImageDataTable
 (
 )
 {
