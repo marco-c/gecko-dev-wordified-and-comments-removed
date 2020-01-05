@@ -15621,7 +15621,6 @@ type
 (
 )
 ;
-else
 if
 (
 obj
