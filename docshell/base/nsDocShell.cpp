@@ -7856,6 +7856,7 @@ mTiming
 new
 nsDOMNavigationTiming
 (
+this
 )
 ;
 canBeReset
