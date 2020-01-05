@@ -136,7 +136,7 @@ isPending
 true
 ;
 }
-disconnect
+destroy
 :
 function
 (

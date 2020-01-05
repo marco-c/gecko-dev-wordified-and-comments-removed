@@ -26,7 +26,7 @@ run_test
 (
 )
 {
-test_LSA_disconnect
+test_LSA_destroy
 (
 )
 ;
@@ -100,7 +100,7 @@ actor
 ;
 }
 function
-test_LSA_disconnect
+test_LSA_destroy
 (
 )
 {
@@ -126,7 +126,7 @@ actor
 ;
 actor
 .
-disconnect
+destroy
 (
 )
 ;

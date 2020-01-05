@@ -389,7 +389,7 @@ prefix
 }
 ;
 }
-disconnect
+destroy
 :
 function
 (

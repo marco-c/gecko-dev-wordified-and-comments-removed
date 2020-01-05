@@ -123,17 +123,6 @@ chromeEventHandler
 )
 ;
 }
-disconnect
-(
-)
-{
-this
-.
-destroy
-(
-)
-;
-}
 destroy
 (
 )

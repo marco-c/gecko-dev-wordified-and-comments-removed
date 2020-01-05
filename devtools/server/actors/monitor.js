@@ -280,7 +280,7 @@ return
 }
 ;
 }
-disconnect
+destroy
 :
 function
 (

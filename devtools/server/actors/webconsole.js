@@ -1124,10 +1124,7 @@ ThreadActor
 prototype
 .
 _removeFromProtoChain
-disconnect
-:
-function
-WCA_disconnect
+destroy
 (
 )
 {

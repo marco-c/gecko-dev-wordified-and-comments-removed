@@ -2419,7 +2419,7 @@ hostAnnotations
 )
 ;
 }
-disconnect
+destroy
 :
 function
 (
@@ -2433,7 +2433,7 @@ ThreadActor
 .
 prototype
 .
-disconnect
+destroy
 "
 )
 ;
@@ -2586,7 +2586,7 @@ function
 {
 this
 .
-disconnect
+destroy
 (
 )
 ;
@@ -2870,7 +2870,7 @@ aRequest
 {
 this
 .
-disconnect
+destroy
 (
 )
 ;

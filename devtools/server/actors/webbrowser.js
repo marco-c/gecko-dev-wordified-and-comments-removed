@@ -3567,7 +3567,7 @@ return
 response
 ;
 }
-disconnect
+destroy
 (
 )
 {

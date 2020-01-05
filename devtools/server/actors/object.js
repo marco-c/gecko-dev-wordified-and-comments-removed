@@ -9370,7 +9370,7 @@ actorPrefix
 "
 longString
 "
-disconnect
+destroy
 :
 function
 (

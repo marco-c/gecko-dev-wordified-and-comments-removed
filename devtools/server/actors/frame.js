@@ -147,7 +147,7 @@ this
 _frameLifetimePool
 ;
 }
-disconnect
+destroy
 :
 function
 (

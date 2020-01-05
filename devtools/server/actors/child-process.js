@@ -679,7 +679,7 @@ onListChanged
 null
 ;
 }
-disconnect
+destroy
 :
 function
 (

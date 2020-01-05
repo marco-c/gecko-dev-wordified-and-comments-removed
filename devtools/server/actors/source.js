@@ -1127,7 +1127,7 @@ null
 }
 ;
 }
-disconnect
+destroy
 :
 function
 (
