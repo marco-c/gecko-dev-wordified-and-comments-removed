@@ -929,6 +929,13 @@ RawServoMediaListStrong
 )
 SERVO_BINDING_FUNC
 (
+Servo_MediaList_DeepClone
+RawServoMediaListStrong
+RawServoMediaListBorrowed
+list
+)
+SERVO_BINDING_FUNC
+(
 Servo_MediaList_Matches
 bool
 RawServoMediaListBorrowed
