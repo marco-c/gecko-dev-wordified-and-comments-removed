@@ -28077,6 +28077,15 @@ self
 side
 )
                 
+containervar
+=
+ExprVar
+(
+'
+container
+'
+)
+                
 case
 .
 addstmts
@@ -28103,12 +28112,33 @@ static
 )
 )
                     
+StmtDecl
+(
+Decl
+(
+Type
+(
+'
+auto
+'
+ref
+=
+1
+)
+containervar
+.
+name
+)
+                             
+manageearray
+)
+                    
 _abortIfFalse
 (
                         
 _callHasManagedActor
 (
-manageearray
+containervar
 actorvar
 )
                         
@@ -28130,7 +28160,7 @@ StmtExpr
 (
 _callRemoveManagedActor
 (
-manageearray
+containervar
 actorvar
 )
 )
