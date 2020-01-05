@@ -291,7 +291,7 @@ h
 '
 unicode
 /
-unorm2
+unorm
 .
 h
 '
