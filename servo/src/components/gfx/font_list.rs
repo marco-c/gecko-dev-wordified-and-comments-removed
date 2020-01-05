@@ -66,7 +66,7 @@ time
 :
 :
 {
-ProfilerChan
+TimeProfilerChan
 profile
 }
 ;
@@ -137,9 +137,9 @@ FontFamilyMap
 handle
 :
 FontListHandle
-prof_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 }
 impl
 FontList
@@ -152,9 +152,9 @@ fctx
 :
 &
 FontContextHandle
-prof_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 )
 -
 >
@@ -188,9 +188,9 @@ HashMap
 new
 (
 )
-prof_chan
+time_profiler_chan
 :
-prof_chan
+time_profiler_chan
 .
 clone
 (
@@ -226,7 +226,7 @@ time
 GfxRegenAvailableFontsCategory
 self
 .
-prof_chan
+time_profiler_chan
 .
 clone
 (

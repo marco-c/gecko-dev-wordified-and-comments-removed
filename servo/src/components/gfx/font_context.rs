@@ -80,7 +80,7 @@ servo_util
 time
 :
 :
-ProfilerChan
+TimeProfilerChan
 ;
 use
 std
@@ -120,9 +120,9 @@ needs_font_list
 :
 bool
 pub
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 }
 pub
 trait
@@ -202,9 +202,9 @@ String
 String
 >
 pub
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 }
 impl
 FontContext
@@ -250,7 +250,7 @@ new
 handle
 info
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -414,11 +414,11 @@ backend
 generic_fonts
 :
 generic_fonts
-profiler_chan
+time_profiler_chan
 :
 info
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (

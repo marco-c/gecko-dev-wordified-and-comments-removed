@@ -132,7 +132,7 @@ servo_util
 time
 :
 :
-ProfilerChan
+TimeProfilerChan
 ;
 use
 std
@@ -243,9 +243,9 @@ CompositorChan
 image_cache_task
 :
 ImageCacheTask
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 opts
 :
 Opts
@@ -352,7 +352,7 @@ opts
 clone
 (
 )
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -396,7 +396,7 @@ opts
 clone
 (
 )
-profiler_chan
+time_profiler_chan
 layout_shutdown_chan
 )
 ;
@@ -499,9 +499,9 @@ ImageCacheTask
 resource_task
 :
 ResourceTask
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 window_size
 :
 WindowSizeData
@@ -687,7 +687,7 @@ opts
 clone
 (
 )
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -725,7 +725,7 @@ opts
 clone
 (
 )
-profiler_chan
+time_profiler_chan
 layout_shutdown_chan
 )
 ;
