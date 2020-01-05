@@ -43,7 +43,7 @@ class
 nsIPrincipal
 ;
 class
-nsIScriptTimeoutHandler
+nsITimeoutHandler
 ;
 class
 nsITimer
@@ -163,7 +163,7 @@ mPopupState
 ;
 nsCOMPtr
 <
-nsIScriptTimeoutHandler
+nsITimeoutHandler
 >
 mScriptHandler
 ;
