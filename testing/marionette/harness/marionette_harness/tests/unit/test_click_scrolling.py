@@ -225,7 +225,17 @@ skip
 (
 "
 Bug
-1003682
+1200197
+-
+Cannot
+interact
+with
+elements
+hidden
+inside
+overflow
+:
+scroll
 "
 )
     
