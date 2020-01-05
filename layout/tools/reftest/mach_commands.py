@@ -288,9 +288,12 @@ Mulet
 .
 Add
 '
-ENABLE_MARIONETTE
-=
-1
+ac_add_options
+-
+-
+enable
+-
+marionette
 '
 to
 your
