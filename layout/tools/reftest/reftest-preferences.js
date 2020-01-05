@@ -939,3 +939,15 @@ openUnsupportedTypeWithExternalApp
 false
 )
 ;
+user_pref
+(
+"
+marionette
+.
+prefs
+.
+recommended
+"
+false
+)
+;
