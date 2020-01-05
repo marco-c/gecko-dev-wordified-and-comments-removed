@@ -529,7 +529,6 @@ priv
 fn
 get_shaper
 (
-&
 self
 )
 -
@@ -599,6 +598,7 @@ HarfbuzzShaper
 :
 new
 (
+self
 )
 ;
 self
@@ -1217,7 +1217,6 @@ RunMetrics
 fn
 shape_text
 (
-&
 self
 &
 str
@@ -1929,7 +1928,6 @@ metrics
 fn
 shape_text
 (
-&
 self
 text
 :
@@ -1966,7 +1964,6 @@ shaper
 shape_text
 (
 text
-self
 &
 store
 )

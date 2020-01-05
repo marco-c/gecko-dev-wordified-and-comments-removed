@@ -217,9 +217,9 @@ pub
 struct
 HarfbuzzShaper
 {
-dummy
+font
 :
-int
+Font
 }
 pub
 impl
@@ -230,6 +230,9 @@ pub
 fn
 new
 (
+font
+:
+Font
 )
 -
 >
@@ -237,9 +240,9 @@ HarfbuzzShaper
 {
 HarfbuzzShaper
 {
-dummy
+font
 :
-42
+font
 }
 }
 /
@@ -272,10 +275,6 @@ text
 :
 &
 str
-font
-:
-&
-Font
 glyphs
 :
 &
@@ -361,6 +360,8 @@ as_imm_buf
 (
 *
 (
+self
+.
 font
 )
 .
@@ -441,6 +442,8 @@ direction
 let
 pt_size
 =
+self
+.
 font
 .
 style
@@ -540,6 +543,8 @@ ptr
 :
 addr_of
 (
+self
+.
 font
 )
 as
