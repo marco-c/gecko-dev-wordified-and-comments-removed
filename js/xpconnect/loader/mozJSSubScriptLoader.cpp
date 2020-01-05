@@ -1952,9 +1952,12 @@ Failed
 )
 )
 {
-promise
-=
-nullptr
+return
+result
+.
+StealNSResult
+(
+)
 ;
 }
 DebugOnly
