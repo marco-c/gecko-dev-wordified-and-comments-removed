@@ -408,6 +408,11 @@ int32_t
 aPreviousThrottleDelayMS
 )
 ;
+void
+MaybeStartThrottleTrackingTimout
+(
+)
+;
 private
 :
 struct
