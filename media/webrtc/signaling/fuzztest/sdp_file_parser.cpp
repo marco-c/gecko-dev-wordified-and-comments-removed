@@ -103,6 +103,11 @@ ap
 )
 ;
 }
+extern
+"
+C
+"
+{
 void
 NS_DebugBreak
 (
@@ -148,6 +153,7 @@ aFile
 aLine
 )
 ;
+}
 }
 namespace
 mozilla

@@ -689,11 +689,10 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-extern
-"
-C
-"
+XPCOM_API
+(
 nsresult
+)
 NS_InvokeByIndex
 (
 nsISupports
