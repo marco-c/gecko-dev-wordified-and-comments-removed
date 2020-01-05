@@ -1069,7 +1069,7 @@ self
 path_seg
 :
 &
-String
+str
 )
 -
 >
