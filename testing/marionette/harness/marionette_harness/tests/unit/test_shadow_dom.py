@@ -35,20 +35,22 @@ self
 )
 :
         
-MarionetteTestCase
+super
+(
+TestShadowDom
+self
+)
 .
 setUp
 (
-self
 )
         
 self
 .
 marionette
 .
-enforce_gecko_prefs
+set_pref
 (
-{
 "
 dom
 .
@@ -56,9 +58,7 @@ webcomponents
 .
 enabled
 "
-:
 True
-}
 )
         
 self
@@ -126,6 +126,38 @@ ID
 "
 button
 "
+)
+    
+def
+tearDown
+(
+self
+)
+:
+        
+self
+.
+marionette
+.
+clear_pref
+(
+"
+dom
+.
+webcomponents
+.
+enabled
+"
+)
+        
+super
+(
+TestShadowDom
+self
+)
+.
+tearDown
+(
 )
     
 def
