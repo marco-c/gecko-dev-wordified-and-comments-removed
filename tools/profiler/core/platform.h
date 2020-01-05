@@ -1413,10 +1413,6 @@ struct
 sigaction
 old_sigprof_signal_handler_
 ;
-struct
-sigaction
-old_sigsave_signal_handler_
-;
 bool
 signal_sender_launched_
 ;
