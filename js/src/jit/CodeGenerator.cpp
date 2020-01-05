@@ -72328,9 +72328,9 @@ void
 CodeGenerator
 :
 :
-visitAsmJSParameter
+visitWasmParameter
 (
-LAsmJSParameter
+LWasmParameter
 *
 lir
 )
@@ -72340,9 +72340,9 @@ void
 CodeGenerator
 :
 :
-visitAsmJSParameterI64
+visitWasmParameterI64
 (
-LAsmJSParameterI64
+LWasmParameterI64
 *
 lir
 )

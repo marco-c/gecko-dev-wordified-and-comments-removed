@@ -1399,12 +1399,12 @@ WasmReturnVoid
 \
 _
 (
-AsmJSParameter
+WasmParameter
 )
 \
 _
 (
-AsmJSPassStackArg
+WasmStackArg
 )
 \
 _

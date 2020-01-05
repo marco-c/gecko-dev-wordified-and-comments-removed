@@ -33350,7 +33350,7 @@ InputIndex
 }
 ;
 class
-LAsmJSParameter
+LWasmParameter
 :
 public
 LInstructionHelper
@@ -33364,13 +33364,13 @@ public
 :
 LIR_HEADER
 (
-AsmJSParameter
+WasmParameter
 )
 ;
 }
 ;
 class
-LAsmJSParameterI64
+LWasmParameterI64
 :
 public
 LInstructionHelper
@@ -33384,7 +33384,7 @@ public
 :
 LIR_HEADER
 (
-AsmJSParameterI64
+WasmParameterI64
 )
 ;
 }
@@ -33467,7 +33467,7 @@ WasmReturnVoid
 }
 ;
 class
-LAsmJSPassStackArg
+LWasmStackArg
 :
 public
 LInstructionHelper
@@ -33481,11 +33481,11 @@ public
 :
 LIR_HEADER
 (
-AsmJSPassStackArg
+WasmStackArg
 )
 ;
 explicit
-LAsmJSPassStackArg
+LWasmStackArg
 (
 const
 LAllocation
@@ -33500,7 +33500,7 @@ arg
 )
 ;
 }
-MAsmJSPassStackArg
+MWasmStackArg
 *
 mir
 (
@@ -33513,7 +33513,7 @@ mirRaw
 )
 -
 >
-toAsmJSPassStackArg
+toWasmStackArg
 (
 )
 ;
@@ -33535,7 +33535,7 @@ getOperand
 }
 ;
 class
-LAsmJSPassStackArgI64
+LWasmStackArgI64
 :
 public
 LInstructionHelper
@@ -33549,11 +33549,11 @@ public
 :
 LIR_HEADER
 (
-AsmJSPassStackArgI64
+WasmStackArgI64
 )
 ;
 explicit
-LAsmJSPassStackArgI64
+LWasmStackArgI64
 (
 const
 LInt64Allocation
@@ -33568,7 +33568,7 @@ arg
 )
 ;
 }
-MAsmJSPassStackArg
+MWasmStackArg
 *
 mir
 (
@@ -33581,7 +33581,7 @@ mirRaw
 )
 -
 >
-toAsmJSPassStackArg
+toWasmStackArg
 (
 )
 ;

@@ -1303,9 +1303,9 @@ ins
 )
 ;
 void
-visitAsmJSPassStackArg
+visitWasmStackArg
 (
-LAsmJSPassStackArg
+LWasmStackArg
 *
 ins
 )

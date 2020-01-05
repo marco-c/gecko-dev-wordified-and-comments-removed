@@ -57735,7 +57735,7 @@ AsmJSGlobalVar
 }
 ;
 class
-MAsmJSParameter
+MWasmParameter
 :
 public
 MNullaryInstruction
@@ -57743,7 +57743,7 @@ MNullaryInstruction
 ABIArg
 abi_
 ;
-MAsmJSParameter
+MWasmParameter
 (
 ABIArg
 abi
@@ -57766,7 +57766,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSParameter
+WasmParameter
 )
 TRIVIAL_NEW_WRAPPERS
 ABIArg
@@ -57869,7 +57869,7 @@ TRIVIAL_NEW_WRAPPERS
 }
 ;
 class
-MAsmJSPassStackArg
+MWasmStackArg
 :
 public
 MUnaryInstruction
@@ -57879,7 +57879,7 @@ NoTypePolicy
 :
 Data
 {
-MAsmJSPassStackArg
+MWasmStackArg
 (
 uint32_t
 spOffset
@@ -57905,7 +57905,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSPassStackArg
+WasmStackArg
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS

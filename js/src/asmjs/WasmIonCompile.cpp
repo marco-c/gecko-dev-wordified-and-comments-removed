@@ -229,7 +229,7 @@ instanceArg_
 ;
 Vector
 <
-MAsmJSPassStackArg
+MWasmStackArg
 *
 0
 SystemAllocPolicy
@@ -408,7 +408,7 @@ FuncCompileResults
 &
 compileResults_
 ;
-MAsmJSParameter
+MWasmParameter
 *
 tlsPointer_
 ;
@@ -695,11 +695,11 @@ i
 +
 )
 {
-MAsmJSParameter
+MWasmParameter
 *
 ins
 =
-MAsmJSParameter
+MWasmParameter
 :
 :
 New
@@ -759,7 +759,7 @@ false
 }
 tlsPointer_
 =
-MAsmJSParameter
+MWasmParameter
 :
 :
 New
@@ -4856,7 +4856,7 @@ auto
 *
 mir
 =
-MAsmJSPassStackArg
+MWasmStackArg
 :
 :
 New
@@ -5120,7 +5120,7 @@ AsmJSStackAlignment
 ;
 for
 (
-MAsmJSPassStackArg
+MWasmStackArg
 *
 stackArg
 :
