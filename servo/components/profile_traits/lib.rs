@@ -63,6 +63,13 @@ extern
 crate
 util
 ;
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 mod
 energy
