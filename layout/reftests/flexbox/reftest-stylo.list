@@ -1502,7 +1502,6 @@ horiz
 3c
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1678,7 +1677,6 @@ invalidation
 after
 dynamic
 modifications
-fails
 =
 =
 flexbox

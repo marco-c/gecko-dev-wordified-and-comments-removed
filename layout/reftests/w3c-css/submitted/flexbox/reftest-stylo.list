@@ -506,7 +506,6 @@ vert
 002
 .
 html
-fails
 =
 =
 flexbox
@@ -535,7 +534,6 @@ horiz
 block
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -660,7 +658,6 @@ horiz
 005
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -757,7 +754,6 @@ vert
 004
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1100,7 +1096,6 @@ horiz
 002
 .
 html
-fails
 =
 =
 flexbox
@@ -1129,7 +1124,6 @@ horiz
 003
 .
 html
-fails
 =
 =
 flexbox
@@ -3547,7 +3541,6 @@ flex
 on
 root
 node
-fails
 =
 =
 flexbox
@@ -3568,7 +3561,6 @@ node
 001a
 .
 html
-fails
 =
 =
 flexbox
