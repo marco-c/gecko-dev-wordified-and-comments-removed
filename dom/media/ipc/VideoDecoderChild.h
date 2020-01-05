@@ -158,6 +158,7 @@ Shutdown
 (
 )
 ;
+MOZ_IS_CLASS_INIT
 void
 InitIPDL
 (
