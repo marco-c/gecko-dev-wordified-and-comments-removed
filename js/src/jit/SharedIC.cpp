@@ -3521,7 +3521,7 @@ ICStub
 :
 CacheIR_Monitored
 :
-TraceBaselineCacheIRStub
+TraceCacheIRStub
 (
 trc
 this
@@ -4877,7 +4877,7 @@ engine_
 Engine
 :
 :
-IonMonkey
+IonSharedIC
 )
 {
 masm

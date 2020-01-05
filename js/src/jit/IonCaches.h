@@ -2962,6 +2962,15 @@ bool
 nameOrSymbol
 )
 ;
+void
+*
+GetReturnAddressToIonCode
+(
+JSContext
+*
+cx
+)
+;
 }
 }
 #

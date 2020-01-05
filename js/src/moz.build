@@ -1829,6 +1829,13 @@ cpp
 '
 jit
 /
+IonCacheIRCompiler
+.
+cpp
+'
+'
+jit
+/
 IonCaches
 .
 cpp
