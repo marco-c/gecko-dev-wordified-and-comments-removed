@@ -204,6 +204,9 @@ mod
 box_builder
 ;
 mod
+debug
+;
+mod
 display_list_builder
 ;
 mod
