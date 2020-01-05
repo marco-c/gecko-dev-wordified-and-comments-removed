@@ -141,6 +141,16 @@ servo_util
 ;
 pub
 use
+media_queries
+:
+:
+{
+Device
+Screen
+}
+;
+pub
+use
 stylesheets
 :
 :
