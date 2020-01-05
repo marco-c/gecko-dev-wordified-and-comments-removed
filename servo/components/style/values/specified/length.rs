@@ -3028,6 +3028,10 @@ Err
 )
 }
 }
+#
+[
+inline
+]
 pub
 fn
 parse_non_negative
