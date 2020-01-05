@@ -2888,10 +2888,9 @@ _
 _
 )
 if
-!
 is_float
 .
-is_none
+is_some
 (
 )
 =
@@ -2964,10 +2963,9 @@ _
 )
 )
 if
-!
 is_float
 .
-is_none
+is_some
 (
 )
 =
@@ -3043,10 +3041,9 @@ _
 _
 )
 if
-!
 is_float
 .
-is_none
+is_some
 (
 )
 =
