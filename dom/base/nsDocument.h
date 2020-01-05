@@ -3146,11 +3146,6 @@ aDisplaySize
 override
 ;
 void
-OnAppThemeChanged
-(
-)
-;
-void
 ReportUseCounters
 (
 )
@@ -5510,11 +5505,6 @@ dom
 :
 OrientationType
 mCurrentOrientationType
-;
-bool
-mObservingAppThemeChanged
-:
-1
 ;
 bool
 mSSApplicableStateNotificationPending
