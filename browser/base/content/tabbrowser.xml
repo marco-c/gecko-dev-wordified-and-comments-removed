@@ -14239,6 +14239,10 @@ browser
 is
 already
 inserted
+or
+window
+is
+closed
 don
 '
 t
@@ -14250,6 +14254,11 @@ if
 aTab
 .
 linkedPanel
+|
+|
+window
+.
+closed
 )
 {
 return
