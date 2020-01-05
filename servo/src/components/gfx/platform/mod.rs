@@ -21,6 +21,7 @@ linux
 font
 font_context
 font_list
+font_template
 }
 ;
 #
@@ -46,6 +47,7 @@ macos
 font
 font_context
 font_list
+font_template
 }
 ;
 #
@@ -71,6 +73,7 @@ android
 font
 font_context
 font_list
+font_template
 }
 ;
 #
@@ -100,6 +103,10 @@ pub
 mod
 font_list
 ;
+pub
+mod
+font_template
+;
 }
 #
 [
@@ -128,6 +135,10 @@ pub
 mod
 font_list
 ;
+pub
+mod
+font_template
+;
 }
 #
 [
@@ -155,5 +166,9 @@ font_context
 pub
 mod
 font_list
+;
+pub
+mod
+font_template
 ;
 }

@@ -123,7 +123,7 @@ family_name
 }
 pub
 fn
-load_variations_for_family
+get_variations_for_family
 (
 family_name
 :
