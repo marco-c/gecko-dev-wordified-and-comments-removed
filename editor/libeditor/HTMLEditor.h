@@ -737,6 +737,7 @@ outOffset
 0
 )
 ;
+virtual
 nsresult
 EndUpdateViewBatch
 (
@@ -1989,6 +1990,7 @@ bool
 aDoDeleteSelection
 )
 ;
+virtual
 nsresult
 InsertFromDataTransfer
 (
