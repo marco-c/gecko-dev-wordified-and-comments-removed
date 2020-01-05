@@ -146,6 +146,7 @@ var
 {
 DefaultMap
 DefaultWeakMap
+StartupCache
 instanceOf
 }
 =
@@ -11229,9 +11230,14 @@ PROCESS_TYPE_CONTENT
 )
 {
 return
-readJSON
+StartupCache
+.
+schemas
+.
+get
 (
 url
+readJSON
 )
 .
 then

@@ -3483,7 +3483,7 @@ rootURI
 ;
 extensionData
 .
-readManifest
+loadManifest
 (
 )
 .

@@ -191,7 +191,7 @@ jarURI
 yield
 extension
 .
-readManifest
+loadManifest
 (
 )
 ;

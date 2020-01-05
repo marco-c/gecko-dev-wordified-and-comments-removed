@@ -5321,13 +5321,11 @@ null
 ;
 if
 (
-"
-theme
-"
-in
 aData
 .
 manifest
+.
+theme
 )
 return
 installs
