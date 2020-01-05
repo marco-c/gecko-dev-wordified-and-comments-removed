@@ -1998,14 +1998,6 @@ aActor
 )
 override
 ;
-static
-void
-SetWebRenderProfilerEnabled
-(
-bool
-aEnabled
-)
-;
 private
 :
 void

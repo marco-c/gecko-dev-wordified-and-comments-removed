@@ -380,13 +380,6 @@ aWhy
 )
 override
 ;
-void
-SetWebRenderProfilerEnabled
-(
-bool
-aEnabled
-)
-;
 bool
 IsPendingComposite
 (
