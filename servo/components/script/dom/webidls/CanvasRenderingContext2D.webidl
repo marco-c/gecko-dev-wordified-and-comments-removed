@@ -359,8 +359,6 @@ resetTransform
 /
 /
 compositing
-/
-/
 attribute
 unrestricted
 double
