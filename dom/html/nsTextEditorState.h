@@ -686,6 +686,11 @@ return
 mEverInited
 ;
 }
+void
+SyncUpSelectionPropertiesBeforeDestruction
+(
+)
+;
 nsresult
 GetSelectionRange
 (
