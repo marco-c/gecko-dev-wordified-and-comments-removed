@@ -102,9 +102,6 @@ interface
 nsIRDFCompositeDataSource
 ;
 interface
-nsIXULTemplateBuilder
-;
-interface
 nsIRDFResource
 ;
 interface
@@ -320,11 +317,6 @@ readonly
 attribute
 nsIRDFCompositeDataSource
 database
-;
-readonly
-attribute
-nsIXULTemplateBuilder
-builder
 ;
 readonly
 attribute

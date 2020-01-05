@@ -573,6 +573,12 @@ dom
 /
 base
 '
+'
+/
+dom
+/
+xul
+'
 ]
 if
 CONFIG
