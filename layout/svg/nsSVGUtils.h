@@ -1105,6 +1105,12 @@ eBBoxIncludeClipped
 <
 <
 5
+eUseFrameBoundsForOuterSVG
+=
+1
+<
+<
+6
 }
 ;
 static
