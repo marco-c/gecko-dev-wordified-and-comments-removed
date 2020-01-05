@@ -1678,7 +1678,7 @@ Disconnect
 )
 override
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 ThenValueBase
 :
@@ -1740,6 +1740,16 @@ ResolveOrRejectValue
 aValue
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+mResponseTarget
+-
+>
+IsCurrentThreadIn
+(
+)
+)
+;
 Request
 :
 :
