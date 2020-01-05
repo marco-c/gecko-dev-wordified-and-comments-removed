@@ -2504,11 +2504,6 @@ GetScrollbarDirection
 )
 aLayer
 .
-GetScrollThumbLength
-(
-)
-aLayer
-.
 IsScrollbarContainer
 (
 )
@@ -3376,11 +3371,6 @@ GetScrollbarTargetContainerId
 aLayer
 .
 GetScrollbarDirection
-(
-)
-aLayer
-.
-GetScrollThumbLength
 (
 )
 aLayer

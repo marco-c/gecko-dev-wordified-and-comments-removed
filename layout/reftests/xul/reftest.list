@@ -160,15 +160,6 @@ if
 (
 cocoaWidget
 )
-fails
--
-if
-(
-browserIsRemote
-&
-&
-dwrite
-)
 fuzzy
 -
 if
