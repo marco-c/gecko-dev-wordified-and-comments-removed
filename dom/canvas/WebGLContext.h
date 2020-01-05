@@ -1491,6 +1491,7 @@ out_stream
 )
 override
 ;
+virtual
 already_AddRefed
 <
 mozilla
@@ -1503,9 +1504,9 @@ SourceSurface
 >
 GetSurfaceSnapshot
 (
-bool
+gfxAlphaType
 *
-out_premultAlpha
+out_alphaType
 )
 override
 ;

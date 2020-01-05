@@ -4469,8 +4469,8 @@ mHasSize
 bool
 mCORSUsed
 ;
-bool
-mIsPremultiplied
+gfxAlphaType
+mAlphaType
 ;
 SurfaceFromElementResult
 (
