@@ -1676,11 +1676,6 @@ type
 history
 "
 ;
-delete
-aLink
-.
-targetedSite
-;
 return
 true
 ;

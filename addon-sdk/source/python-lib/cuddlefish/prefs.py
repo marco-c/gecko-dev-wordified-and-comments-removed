@@ -653,19 +653,6 @@ jetpack
 '
     
 '
-browser
-.
-newtabpage
-.
-directory
-.
-ping
-'
-:
-'
-'
-    
-'
 extensions
 .
 update
