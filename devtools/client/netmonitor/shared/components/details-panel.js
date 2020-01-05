@@ -432,6 +432,9 @@ activeTabId
 onSelect
 :
 selectTab
+renderOnlySelected
+:
+true
 showAllTabsMenu
 :
 true
