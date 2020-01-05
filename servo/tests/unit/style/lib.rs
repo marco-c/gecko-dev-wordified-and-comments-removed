@@ -44,6 +44,10 @@ msg
 ;
 extern
 crate
+rustc_serialize
+;
+extern
+crate
 selectors
 ;
 #
@@ -103,6 +107,16 @@ test
 ]
 mod
 media_queries
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+properties
 ;
 #
 [

@@ -264,3 +264,12 @@ heap_size
 "
 ]
 }
+rustc
+-
+serialize
+=
+"
+0
+.
+3
+"
