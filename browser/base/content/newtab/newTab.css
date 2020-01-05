@@ -1651,6 +1651,12 @@ color
 :
 inherit
 ;
+unicode
+-
+bidi
+:
+plaintext
+;
 }
 #
 newtab
