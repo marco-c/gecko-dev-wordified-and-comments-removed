@@ -405,13 +405,6 @@ WorkerId
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 WorkerGlobalScope

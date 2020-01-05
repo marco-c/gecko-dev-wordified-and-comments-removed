@@ -98,13 +98,6 @@ DOMString
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 WorkerNavigator

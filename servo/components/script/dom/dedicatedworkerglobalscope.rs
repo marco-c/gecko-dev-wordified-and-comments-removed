@@ -889,13 +889,6 @@ DevtoolScriptControlMsg
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 DedicatedWorkerGlobalScope

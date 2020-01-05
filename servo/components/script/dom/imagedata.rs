@@ -151,13 +151,6 @@ allow
 raw_pointer_derive
 )
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 ImageData

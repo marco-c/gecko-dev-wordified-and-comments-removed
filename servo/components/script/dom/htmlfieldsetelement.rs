@@ -216,13 +216,6 @@ StaticStringVec
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 HTMLFieldSetElement

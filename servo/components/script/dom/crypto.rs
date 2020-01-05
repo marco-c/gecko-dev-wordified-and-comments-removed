@@ -153,13 +153,6 @@ OsRng
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 Crypto

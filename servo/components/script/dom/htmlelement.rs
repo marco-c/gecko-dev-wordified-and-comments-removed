@@ -405,13 +405,6 @@ Rc
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 HTMLElement

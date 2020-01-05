@@ -148,13 +148,6 @@ parse_color
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 CanvasGradient

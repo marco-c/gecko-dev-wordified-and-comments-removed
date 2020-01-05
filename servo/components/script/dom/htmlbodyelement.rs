@@ -304,13 +304,6 @@ u64
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 HTMLBodyElement

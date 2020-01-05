@@ -775,13 +775,6 @@ EventListenerType
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 EventTarget

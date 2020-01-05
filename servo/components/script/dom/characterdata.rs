@@ -198,13 +198,6 @@ Ref
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 CharacterData

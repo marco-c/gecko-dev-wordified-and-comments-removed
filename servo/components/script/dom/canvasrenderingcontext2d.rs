@@ -528,13 +528,6 @@ CanvasGradient
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 CanvasRenderingContext2D

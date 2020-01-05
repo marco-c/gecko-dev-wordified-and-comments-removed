@@ -99,13 +99,6 @@ XMLHttpRequestUpload
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 XMLHttpRequestEventTarget

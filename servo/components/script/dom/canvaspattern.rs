@@ -84,13 +84,6 @@ Size2D
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 CanvasPattern
