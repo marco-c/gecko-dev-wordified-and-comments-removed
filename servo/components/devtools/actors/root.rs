@@ -199,11 +199,10 @@ bool
 Ok
 (
 match
+&
+*
+*
 msg_type
-.
-as_slice
-(
-)
 {
 "
 listAddons
@@ -311,10 +310,6 @@ TabActor
 >
 (
 tab
-.
-as_slice
-(
-)
 )
 .
 encodable

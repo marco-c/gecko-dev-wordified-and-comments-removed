@@ -234,13 +234,11 @@ meta
 let
 url
 =
+&
+*
 meta
 .
 url
-.
-as_slice
-(
-)
 ;
 let
 url
@@ -1424,10 +1422,6 @@ as
 f64
 )
 data
-.
-as_slice
-(
-)
 [
 data_len
 /

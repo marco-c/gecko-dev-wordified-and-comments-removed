@@ -499,6 +499,8 @@ header
 |
 {
 match
+&
+*
 header
 .
 name
@@ -506,10 +508,6 @@ name
 )
 .
 to_ascii_lowercase
-(
-)
-.
-as_slice
 (
 )
 {
@@ -575,6 +573,8 @@ header
 |
 {
 match
+&
+*
 header
 .
 name
@@ -582,10 +582,6 @@ name
 )
 .
 to_ascii_lowercase
-(
-)
-.
-as_slice
 (
 )
 {

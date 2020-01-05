@@ -3,14 +3,6 @@
 [
 feature
 (
-core
-)
-]
-#
-!
-[
-feature
-(
 collections
 )
 ]

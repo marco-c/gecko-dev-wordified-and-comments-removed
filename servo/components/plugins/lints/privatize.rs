@@ -198,6 +198,7 @@ PRIVATIZE
 field
 .
 span
+&
 format
 !
 (
@@ -217,10 +218,6 @@ allowed
 ident
 .
 name
-)
-.
-as_slice
-(
 )
 )
 ;

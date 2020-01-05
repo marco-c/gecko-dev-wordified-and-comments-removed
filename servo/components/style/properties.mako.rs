@@ -8253,11 +8253,8 @@ content
 :
 counter_name_is_illegal
 (
+&
 counter_name
-.
-as_slice
-(
-)
 )
 {
 return
@@ -15213,11 +15210,10 @@ None
 for
 i
 in
-range
-(
 0
+.
+.
 2
-)
 {
 match
 specified

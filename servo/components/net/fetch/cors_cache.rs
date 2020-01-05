@@ -103,10 +103,6 @@ s
 >
 s
 .
-as_slice
-(
-)
-.
 eq_ignore_ascii_case
 (
 header_name
@@ -1788,11 +1784,8 @@ cache
 match_header
 (
 request
+&
 header
-.
-as_slice
-(
-)
 )
 )
 ;
@@ -1821,11 +1814,8 @@ cache
 match_header_and_update
 (
 request
+&
 header
-.
-as_slice
-(
-)
 new_max_age
 )
 )
