@@ -18,10 +18,10 @@ ast
 :
 :
 {
-TokenTree
-ExprLit
-LitStr
 Expr
+ExprKind
+LitKind
+TokenTree
 }
 ;
 use
@@ -378,7 +378,10 @@ InternedString
 {
 if
 let
-ExprLit
+ExprKind
+:
+:
+Lit
 (
 ref
 lit
@@ -390,7 +393,10 @@ node
 {
 if
 let
-LitStr
+LitKind
+:
+:
+Str
 (
 ref
 s

@@ -1317,9 +1317,15 @@ let
 hir
 :
 :
-PatIdent
+PatKind
+:
+:
+Ident
 (
 hir
+:
+:
+BindingMode
 :
 :
 BindByValue
