@@ -189,8 +189,6 @@ attribute
 DOMString
 extensions
 ;
-/
-/
 readonly
 attribute
 DOMString
