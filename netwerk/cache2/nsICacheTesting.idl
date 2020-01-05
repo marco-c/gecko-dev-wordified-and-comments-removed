@@ -63,6 +63,9 @@ nsISupports
 .
 idl
 "
+interface
+nsIObserver
+;
 /
 *
 *
@@ -131,6 +134,14 @@ aLevel
 void
 resumeCacheIOThread
 (
+)
+;
+void
+flush
+(
+in
+nsIObserver
+aObserver
 )
 ;
 }
