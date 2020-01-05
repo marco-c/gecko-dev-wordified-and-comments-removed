@@ -113,12 +113,6 @@ jsval
 UndefinedValue
 ;
 use
-js
-:
-:
-JSFalse
-;
-use
 libc
 ;
 use

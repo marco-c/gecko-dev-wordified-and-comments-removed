@@ -287,15 +287,6 @@ HandleValue
 }
 ;
 use
-js
-:
-:
-jsval
-:
-:
-JSVal
-;
-use
 offscreen_gl_context
 :
 :

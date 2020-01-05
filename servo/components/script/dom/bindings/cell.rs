@@ -34,10 +34,7 @@ util
 task_state
 :
 :
-{
 SCRIPT
-IN_GC
-}
 ;
 use
 std

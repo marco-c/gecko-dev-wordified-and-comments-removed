@@ -484,7 +484,7 @@ a
 String
 :
 :
-from_str
+from
 (
 &
 *

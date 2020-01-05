@@ -270,7 +270,7 @@ pub
 fn
 new
 (
-cx
+_cx
 :
 *
 mut
@@ -333,7 +333,6 @@ live_references
 .
 addref
 (
-cx
 &
 *
 ptr
@@ -754,11 +753,6 @@ Reflectable
 (
 &
 self
-cx
-:
-*
-mut
-JSContext
 ptr
 :
 *
@@ -882,11 +876,6 @@ pub
 fn
 cleanup
 (
-cx
-:
-*
-mut
-JSContext
 raw_reflectable
 :
 TrustedReference
