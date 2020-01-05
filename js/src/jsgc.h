@@ -4257,6 +4257,12 @@ D
 CheckNursery
 16
 )
+\
+D
+(
+IncrementalSweepThenFinish
+17
+)
 enum
 class
 ZealMode
@@ -4280,7 +4286,7 @@ undef
 ZEAL_MODE
 Limit
 =
-16
+17
 }
 ;
 enum
