@@ -210,9 +210,10 @@ length
 :
 {
 Percentage
+LengthOrNone
+LengthOrNumber
 LengthOrPercentage
 LengthOrPercentageOrAuto
-LengthOrPercentageOrNone
 }
 ;
 pub
@@ -224,7 +225,7 @@ length
 :
 :
 {
-LengthOrNone
+LengthOrPercentageOrNone
 LengthOrPercentageOrAutoOrContent
 CalcUnit
 }
