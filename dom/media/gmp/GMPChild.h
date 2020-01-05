@@ -341,6 +341,10 @@ void
 *
 *
 aPluginAPI
+uint32_t
+aDecryptorId
+=
+0
 )
 ;
 nsTArray
