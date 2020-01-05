@@ -595,6 +595,13 @@ r
 )
 )
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 pub
 fn
 handle_message
@@ -743,6 +750,13 @@ a
 Worker
 >
 {
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 PostMessage
 (

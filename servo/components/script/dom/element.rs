@@ -10738,6 +10738,13 @@ a
 Element
 >
 {
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 get_attr
 (
@@ -10820,6 +10827,13 @@ as_slice
 }
 )
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 get_attrs
 (

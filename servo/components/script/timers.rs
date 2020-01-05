@@ -512,6 +512,13 @@ new
 )
 }
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 pub
 fn
 set_timeout_or_interval

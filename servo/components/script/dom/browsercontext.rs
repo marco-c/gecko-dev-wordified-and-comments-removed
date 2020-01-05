@@ -281,6 +281,13 @@ self
 .
 window_proxy
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 create_window_proxy
 (
@@ -586,6 +593,13 @@ trace
 None
 }
 ;
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 pub
 fn
 new_window_proxy_handler

@@ -1474,6 +1474,13 @@ progress
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 fetch
 (
@@ -5364,6 +5371,13 @@ Ok
 }
 }
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 Response
 (
