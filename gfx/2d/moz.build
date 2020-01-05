@@ -181,11 +181,6 @@ DrawEventRecorder
 h
 '
 '
-DrawTargetRecording
-.
-h
-'
-'
 DrawTargetTiled
 .
 h
@@ -202,11 +197,6 @@ h
 '
 '
 HelpersCairo
-.
-h
-'
-'
-InlineTranslator
 .
 h
 '
@@ -1191,11 +1181,6 @@ Skia
 header
 files
 .
-'
-InlineTranslator
-.
-cpp
-'
 ]
 if
 CONFIG
