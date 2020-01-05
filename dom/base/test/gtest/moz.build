@@ -90,7 +90,17 @@ UNIFIED_SOURCES
 =
 [
 '
+TestNativeXMLHttpRequest
+.
+cpp
+'
+'
 TestParserDialogOptions
+.
+cpp
+'
+'
+TestPlainTextSerializer
 .
 cpp
 '
