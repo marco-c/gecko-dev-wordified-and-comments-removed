@@ -415,6 +415,15 @@ include
 "
 mozilla
 /
+SSE
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
