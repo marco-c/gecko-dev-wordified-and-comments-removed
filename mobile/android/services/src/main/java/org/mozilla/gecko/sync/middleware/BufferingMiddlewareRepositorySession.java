@@ -175,16 +175,6 @@ final
 long
 syncDeadlineMillis
 ;
-private
-ExecutorService
-storeDelegateExecutor
-=
-Executors
-.
-newSingleThreadExecutor
-(
-)
-;
 BufferingMiddlewareRepositorySession
 (
 RepositorySession
@@ -395,7 +385,7 @@ storeDelegate
 .
 deferredStoreDelegate
 (
-storeDelegateExecutor
+storeWorkQueue
 )
 .
 onStoreFailed
