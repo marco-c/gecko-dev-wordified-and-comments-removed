@@ -308,13 +308,6 @@ cpp
 '
 gonk
 /
-GonkFMRadio
-.
-cpp
-'
-'
-gonk
-/
 GonkSensor
 .
 cpp
@@ -854,13 +847,6 @@ cpp
 fallback
 /
 FallbackFactoryReset
-.
-cpp
-'
-'
-fallback
-/
-FallbackFMRadio
 .
 cpp
 '
