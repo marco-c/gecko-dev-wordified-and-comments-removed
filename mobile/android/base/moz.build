@@ -5167,13 +5167,6 @@ java
 '
 preferences
 /
-FontSizePreference
-.
-java
-'
-'
-preferences
-/
 GeckoPreferenceFragment
 .
 java
