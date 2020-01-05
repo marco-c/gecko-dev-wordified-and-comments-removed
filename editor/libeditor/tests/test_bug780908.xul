@@ -305,8 +305,11 @@ type
 =
 "
 content
--
+"
 primary
+=
+"
+true
 "
 editortype
 =
