@@ -449,9 +449,14 @@ portalTabRemoved
 =
 BrowserTestUtils
 .
-tabRemoved
+removeTab
 (
 portalTab
+{
+dontRemove
+:
+true
+}
 )
 ;
 let

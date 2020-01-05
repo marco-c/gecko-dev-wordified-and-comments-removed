@@ -72,9 +72,14 @@ tabClosedPromise
 =
 BrowserTestUtils
 .
-tabRemoved
+removeTab
 (
 tab
+{
+dontRemove
+:
+true
+}
 )
 ;
 EventUtils
