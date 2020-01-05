@@ -443,9 +443,9 @@ uriInfo
 responseHeaders
 [
 "
-Last
+last
 -
-Modified
+modified
 "
 ]
 )
@@ -898,9 +898,9 @@ uriInfo
 responseHeaders
 [
 "
-Last
+last
 -
-Modified
+modified
 "
 ]
 )
@@ -1294,6 +1294,10 @@ result
 requestHeaders
 [
 header
+.
+toLowerCase
+(
+)
 ]
 =
 value
@@ -1323,6 +1327,10 @@ result
 responseHeaders
 [
 header
+.
+toLowerCase
+(
+)
 ]
 =
 value
