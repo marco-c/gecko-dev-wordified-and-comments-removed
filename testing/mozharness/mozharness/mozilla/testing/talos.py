@@ -1070,7 +1070,7 @@ talos
 "
 -
 -
-spsProfile
+geckoProfile
 "
 ]
 {
@@ -1080,7 +1080,7 @@ dest
 "
 :
 "
-sps_profile
+gecko_profile
 "
             
 "
@@ -1125,7 +1125,7 @@ results
 "
 -
 -
-spsProfileInterval
+geckoProfileInterval
 "
 ]
 {
@@ -1135,7 +1135,7 @@ dest
 "
 :
 "
-sps_profile_interval
+gecko_profile_interval
 "
             
 "
@@ -1426,7 +1426,7 @@ None
         
 self
 .
-sps_profile
+gecko_profile
 =
 self
 .
@@ -1435,13 +1435,13 @@ config
 get
 (
 '
-sps_profile
+gecko_profile
 '
 )
         
 self
 .
-sps_profile_interval
+gecko_profile_interval
 =
 self
 .
@@ -1450,7 +1450,7 @@ config
 get
 (
 '
-sps_profile_interval
+gecko_profile_interval
 '
 )
         
@@ -1461,13 +1461,13 @@ pagesets_name
 None
     
 def
-query_sps_profile_options
+query_gecko_profile_options
 (
 self
 )
 :
         
-sps_results
+gecko_results
 =
 [
 ]
@@ -1577,7 +1577,7 @@ if
 "
 -
 -
-spsProfile
+geckoProfile
 "
 in
 opts
@@ -1585,7 +1585,7 @@ opts
                   
 self
 .
-sps_profile
+gecko_profile
 =
 True
               
@@ -1601,7 +1601,7 @@ index
 '
 -
 -
-spsProfileInterval
+geckoProfileInterval
 '
 )
                   
@@ -1618,7 +1618,7 @@ idx
                       
 self
 .
-sps_profile_interval
+gecko_profile_interval
 =
 opts
 [
@@ -1636,27 +1636,27 @@ pass
 if
 self
 .
-sps_profile
+gecko_profile
 :
             
-sps_results
+gecko_results
 .
 append
 (
 '
 -
 -
-spsProfile
+geckoProfile
 '
 )
             
 if
 self
 .
-sps_profile_interval
+gecko_profile_interval
 :
                 
-sps_results
+gecko_results
 .
 extend
 (
@@ -1665,20 +1665,20 @@ extend
 '
 -
 -
-spsProfileInterval
+geckoProfileInterval
 '
 str
 (
 self
 .
-sps_profile_interval
+gecko_profile_interval
 )
 ]
                 
 )
         
 return
-sps_results
+gecko_results
     
 def
 query_abs_dirs
@@ -2523,7 +2523,7 @@ extend
 (
 self
 .
-query_sps_profile_options
+query_gecko_profile_options
 (
 )
 )
@@ -4038,7 +4038,7 @@ if
 not
 self
 .
-sps_profile
+gecko_profile
 :
                 
 self
