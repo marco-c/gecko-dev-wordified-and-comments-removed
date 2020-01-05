@@ -174,6 +174,11 @@ attribute
 USVString
 pathname
 ;
+readonly
+attribute
+USVString
+pathname
+;
 /
 /
 attribute
