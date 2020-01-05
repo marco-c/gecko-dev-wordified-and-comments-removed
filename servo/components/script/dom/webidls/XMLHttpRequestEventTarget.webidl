@@ -200,8 +200,15 @@ owfa
 .
 *
 /
+/
+/
 [
-NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 XMLHttpRequestEventTarget
