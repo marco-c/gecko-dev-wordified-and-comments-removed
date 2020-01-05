@@ -13447,6 +13447,7 @@ IsElementAnimateEnabled
 (
 JSContext
 *
+aCx
 JSObject
 *
 )
@@ -13462,8 +13463,9 @@ return
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCx
 )
 |
 |
@@ -13515,6 +13517,7 @@ IsWebAnimationsEnabled
 (
 JSContext
 *
+aCx
 JSObject
 *
 )
@@ -13530,8 +13533,9 @@ return
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCx
 )
 |
 |
@@ -48582,8 +48586,9 @@ return
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCx
 )
 |
 |
