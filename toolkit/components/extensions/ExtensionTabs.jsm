@@ -135,6 +135,7 @@ DefaultMap
 DefaultWeakMap
 EventEmitter
 ExtensionError
+getWinUtils
 }
 =
 ExtensionUtils
@@ -2534,13 +2535,9 @@ nsIInterfaceRequestor
 )
 ;
 return
-window
-.
-getInterface
+getWinUtils
 (
-Ci
-.
-nsIDOMWindowUtils
+window
 )
 .
 outerWindowID
