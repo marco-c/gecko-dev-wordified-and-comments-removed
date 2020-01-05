@@ -155,6 +155,9 @@ dev
 libbz2
 -
 dev
+libosmesa6
+-
+dev
 On
 Fedora
 :
