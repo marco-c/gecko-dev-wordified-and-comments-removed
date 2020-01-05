@@ -8918,6 +8918,12 @@ TabGroupOuter
 (
 )
 ;
+bool
+IsBackgroundInternal
+(
+)
+const
+;
 public
 :
 virtual
