@@ -917,9 +917,11 @@ dom
 Element
 *
 aElement
-nsIAtom
-*
-aPseudoTagOrNull
+mozilla
+:
+:
+CSSPseudoElementType
+aPseudoType
 const
 mozilla
 :
