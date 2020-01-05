@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+3
+)
+;
 var
 TEST_PAGE
 =
