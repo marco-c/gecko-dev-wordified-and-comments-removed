@@ -121,6 +121,13 @@ missing
 -
 decoders
 "
+"
+cannot
+-
+initialize
+-
+pulseaudio
+"
 }
 ;
 dictionary
