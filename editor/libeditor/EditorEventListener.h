@@ -151,9 +151,10 @@ HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 nsresult
 KeyDown
 (
-nsIDOMKeyEvent
+const
+WidgetKeyboardEvent
 *
-aKeyEvent
+aKeyboardEvent
 )
 ;
 nsresult
