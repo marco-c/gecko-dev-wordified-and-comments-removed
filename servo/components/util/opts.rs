@@ -82,7 +82,6 @@ io
 self
 Read
 Write
-stderr
 }
 ;
 use

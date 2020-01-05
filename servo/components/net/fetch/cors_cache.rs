@@ -31,13 +31,10 @@ AsciiExt
 ;
 use
 time
-;
-use
-time
 :
 :
 {
-now
+self
 Timespec
 }
 ;
