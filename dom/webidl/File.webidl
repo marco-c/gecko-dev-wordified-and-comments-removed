@@ -186,11 +186,6 @@ name
 "
 "
 ;
-boolean
-existenceCheck
-=
-true
-;
 }
 ;
 /

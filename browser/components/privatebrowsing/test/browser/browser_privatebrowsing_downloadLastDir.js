@@ -379,12 +379,11 @@ dir
 ;
 MockFilePicker
 .
-setFiles
-(
+returnFiles
+=
 [
 aFile
 ]
-)
 ;
 MockFilePicker
 .
