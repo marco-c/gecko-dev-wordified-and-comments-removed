@@ -105,7 +105,6 @@ namespace
 net
 {
 class
-MOZ_EXPORT
 LoadInfo
 final
 :
