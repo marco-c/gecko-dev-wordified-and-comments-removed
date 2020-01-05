@@ -44,11 +44,15 @@ module
 ;
 pub
 mod
-ty
+named
 ;
 pub
 mod
-type_collector
+traversal
+;
+pub
+mod
+ty
 ;
 pub
 mod

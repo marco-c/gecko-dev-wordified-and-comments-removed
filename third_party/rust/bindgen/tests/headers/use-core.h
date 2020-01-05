@@ -11,6 +11,17 @@ bar
 ;
 }
 ;
+union
+{
+int
+bar
+;
+long
+baz
+;
+}
+bazz
+;
 typedef
 void
 (

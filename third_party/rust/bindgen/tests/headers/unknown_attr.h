@@ -19,7 +19,7 @@ long
 )
 ;
 long
-double
+long
 __clang_max_align_nonce2
 __attribute__
 (

@@ -27,6 +27,15 @@ std
 :
 fmt
 ;
+use
+std
+:
+:
+panic
+:
+:
+UnwindSafe
+;
 pub
 trait
 TypeChooser
@@ -35,6 +44,8 @@ fmt
 :
 :
 Debug
++
+UnwindSafe
 {
 fn
 int_macro
