@@ -13052,6 +13052,9 @@ x
 -
 xpinstall
 "
+options
+.
+hash
 )
 ;
 }
