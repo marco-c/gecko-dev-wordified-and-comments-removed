@@ -4577,14 +4577,14 @@ Gecko_CopyClipPathValueFrom
 mozilla
 :
 :
-StyleShapeSource
+StyleClipPath
 *
 aDst
 const
 mozilla
 :
 :
-StyleShapeSource
+StyleClipPath
 *
 aSrc
 )
@@ -4612,7 +4612,7 @@ Gecko_DestroyClipPath
 mozilla
 :
 :
-StyleShapeSource
+StyleClipPath
 *
 aClip
 )
@@ -4621,7 +4621,7 @@ aClip
 -
 >
 ~
-StyleShapeSource
+StyleClipPath
 (
 )
 ;
