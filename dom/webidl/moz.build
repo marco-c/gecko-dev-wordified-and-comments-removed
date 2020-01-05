@@ -987,6 +987,11 @@ HTMLDetailsElement
 webidl
 '
 '
+HTMLDialogElement
+.
+webidl
+'
+'
 HTMLDirectoryElement
 .
 webidl
@@ -1398,6 +1403,11 @@ webidl
 '
 '
 InputEvent
+.
+webidl
+'
+'
+InputMethod
 .
 webidl
 '
