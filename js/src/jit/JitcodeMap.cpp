@@ -8866,6 +8866,8 @@ addr_
 ;
 }
 }
+JS_PUBLIC_API
+(
 JS
 :
 :
@@ -8873,6 +8875,7 @@ ProfilingFrameIterator
 :
 :
 FrameKind
+)
 JS
 :
 :

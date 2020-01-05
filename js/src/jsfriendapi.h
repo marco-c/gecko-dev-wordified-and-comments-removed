@@ -5337,7 +5337,10 @@ errorNumber
 ;
 class
 MOZ_STACK_CLASS
+JS_FRIEND_API
+(
 AutoStableStringChars
+)
 {
 static
 const
@@ -10558,7 +10561,10 @@ reset
 }
 ;
 class
+JS_FRIEND_API
+(
 MemProfiler
+)
 {
 static
 mozilla
@@ -10638,7 +10644,10 @@ aRuntime
 )
 {
 }
+JS_FRIEND_API
+(
 void
+)
 start
 (
 GCHeapProfiler
@@ -10646,7 +10655,10 @@ GCHeapProfiler
 aGCHeapProfiler
 )
 ;
+JS_FRIEND_API
+(
 void
+)
 stop
 (
 )
@@ -10676,8 +10688,11 @@ sActiveProfilerCount
 ;
 }
 static
+JS_FRIEND_API
+(
 MemProfiler
 *
+)
 GetMemProfiler
 (
 JSContext
