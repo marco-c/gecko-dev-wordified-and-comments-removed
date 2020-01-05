@@ -308,9 +308,11 @@ i64
 .
 eq
 if
+body
 br
 done
 else
+body
 get_local
 i
 get_local
@@ -332,10 +334,13 @@ sub
 set_local
 i
 end
+body
 br
 loop
 end
+loop
 end
+done
 get_local
 res
 )
