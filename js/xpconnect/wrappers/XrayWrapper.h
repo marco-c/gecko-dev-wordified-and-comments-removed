@@ -3809,6 +3809,16 @@ const
 JSClassOps
 XrayExpandoObjectClassOps
 ;
+void
+ClearXrayExpandoSlots
+(
+JSObject
+*
+target
+size_t
+slotIndex
+)
+;
 }
 #
 endif
