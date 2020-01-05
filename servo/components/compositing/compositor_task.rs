@@ -1110,10 +1110,6 @@ Msg
 :
 :
 ShutdownComplete
-(
-.
-.
-)
 =
 >
 write

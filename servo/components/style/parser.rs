@@ -8,9 +8,6 @@ SourcePosition
 }
 ;
 use
-log
-;
-use
 selectors
 :
 :
