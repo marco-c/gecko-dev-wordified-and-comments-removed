@@ -126,6 +126,10 @@ servo
 .
 .
 /
+src
+/
+test
+/
 test
 .
 html
