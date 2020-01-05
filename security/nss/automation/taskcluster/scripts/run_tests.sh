@@ -7,13 +7,6 @@ bin
 /
 env
 bash
-set
--
-v
--
-e
--
-x
 source
 (
 dirname

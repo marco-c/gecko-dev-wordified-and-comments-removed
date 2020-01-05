@@ -503,7 +503,7 @@ if
 !
 defined
 (
-SHA_ALLOW_UNALIGNED_ACCESS
+HAVE_UNALIGNED_ACCESS
 )
 if
 (
@@ -924,6 +924,7 @@ undef
 B
 static
 void
+NO_SANITIZE_ALIGNMENT
 shaCompress
 (
 volatile

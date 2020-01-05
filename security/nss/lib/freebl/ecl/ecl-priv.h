@@ -26,6 +26,16 @@ mplogic
 h
 "
 #
+include
+"
+.
+.
+/
+blapii
+.
+h
+"
+#
 if
 defined
 (

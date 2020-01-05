@@ -13,6 +13,13 @@ chacha20
 h
 "
 #
+include
+"
+blapii
+.
+h
+"
+#
 ifndef
 CHACHA_RNDS
 #
@@ -1251,6 +1258,7 @@ v3
 )
 ;
 void
+NO_SANITIZE_ALIGNMENT
 ChaCha20XOR
 (
 unsigned

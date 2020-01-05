@@ -1589,6 +1589,7 @@ t4
 }
 static
 void
+NO_SANITIZE_ALIGNMENT
 fexpand
 (
 felem

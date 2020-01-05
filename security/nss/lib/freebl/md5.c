@@ -46,6 +46,13 @@ blapi
 h
 "
 #
+include
+"
+blapii
+.
+h
+"
+#
 define
 MD5_HASH_LEN
 16
@@ -2049,6 +2056,7 @@ s
 )
 static
 void
+NO_SANITIZE_ALIGNMENT
 md5_compress
 (
 MD5Context
@@ -3182,7 +3190,7 @@ ifdef
 IS_LITTLE_ENDIAN
 #
 ifdef
-NSS_X86_OR_X64
+HAVE_UNALIGNED_ACCESS
 wBuf
 =
 (

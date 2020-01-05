@@ -3405,10 +3405,6 @@ hasRootTrust
 "
 )
 ;
-first
-=
-PR_FALSE
-;
 }
 return
 flags
@@ -4450,10 +4446,6 @@ flags
 critical
 "
 )
-;
-first
-=
-PR_FALSE
 ;
 }
 return
