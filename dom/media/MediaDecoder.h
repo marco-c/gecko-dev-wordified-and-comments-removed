@@ -1027,16 +1027,6 @@ aState
 )
 ;
 void
-ConstructMediaTracks
-(
-)
-;
-void
-RemoveMediaTracks
-(
-)
-;
-void
 PlaybackEnded
 (
 )
@@ -1769,9 +1759,6 @@ mAudioChannel
 ;
 bool
 mMinimizePreroll
-;
-bool
-mMediaTracksConstructed
 ;
 bool
 mFiredMetadataLoaded
