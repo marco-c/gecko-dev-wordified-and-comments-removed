@@ -30,6 +30,9 @@ env
 TOXENV
 =
 py27
+HYPOTHESIS_PROFILE
+=
+ci
 -
 python
 :
@@ -41,6 +44,9 @@ env
 TOXENV
 =
 py35
+HYPOTHESIS_PROFILE
+=
+ci
 -
 python
 :
@@ -50,6 +56,9 @@ env
 TOXENV
 =
 pypy
+HYPOTHESIS_PROFILE
+=
+ci_pypy
 #
 An
 ugly

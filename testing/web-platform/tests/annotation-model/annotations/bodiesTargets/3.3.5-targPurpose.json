@@ -324,4 +324,13 @@ itemPurposePropertyFound
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

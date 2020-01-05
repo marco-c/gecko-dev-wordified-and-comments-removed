@@ -328,4 +328,13 @@ itemCreatorAgentWithTypeFound
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

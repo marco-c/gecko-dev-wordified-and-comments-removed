@@ -341,4 +341,13 @@ itemEwrDetected
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

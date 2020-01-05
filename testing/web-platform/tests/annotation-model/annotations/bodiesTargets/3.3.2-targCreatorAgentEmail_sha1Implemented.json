@@ -313,4 +313,13 @@ itemCreatorAgentWithEmail_sha1Found
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

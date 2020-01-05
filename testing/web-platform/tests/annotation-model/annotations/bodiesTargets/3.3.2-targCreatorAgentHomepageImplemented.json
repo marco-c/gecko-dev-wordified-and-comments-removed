@@ -326,4 +326,13 @@ itemCreatorAgentWithHomepageFound
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

@@ -92,6 +92,25 @@ root
 path
 )
     
+if
+manifest_file
+is
+None
+:
+        
+manifest_file
+=
+manifest
+.
+manifest
+.
+Manifest
+(
+"
+/
+"
+)
+    
 manifest
 .
 update
@@ -99,9 +118,6 @@ update
 update
 (
 root
-"
-/
-"
 manifest_file
 )
     

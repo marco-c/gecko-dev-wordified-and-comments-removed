@@ -325,4 +325,13 @@ itemCreatorAgentWithEmailFound
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

@@ -330,4 +330,13 @@ itemCreatorAgentWithIdFound
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

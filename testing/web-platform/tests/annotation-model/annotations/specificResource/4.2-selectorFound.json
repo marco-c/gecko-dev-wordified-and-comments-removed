@@ -414,6 +414,15 @@ itemSchema
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }
 ]
 "

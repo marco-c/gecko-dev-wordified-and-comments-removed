@@ -386,11 +386,12 @@ function
 (
 )
 {
-assert_true
+assert_equals
 (
 children_outer
-instanceof
-HTMLFormControlsCollection
+.
+constructor
+HTMLCollection
 "
 The
 elements
@@ -398,7 +399,7 @@ attribute
 should
 be
 an
-HTMLFormControlsCollection
+HTMLCollection
 object
 "
 )
@@ -410,7 +411,7 @@ elements
 must
 return
 an
-HTMLFormControlsCollection
+HTMLCollection
 object
 "
 )

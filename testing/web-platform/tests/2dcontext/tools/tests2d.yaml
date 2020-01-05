@@ -11159,7 +11159,7 @@ globalCompositeOperation
 =
 =
 '
-xor
+clear
 '
 ;
 -
@@ -69078,8 +69078,10 @@ zero
 sized
 source
 rectangle
-throws
-INDEX_SIZE_ERR
+draws
+nothing
+without
+exception
 testing
 :
 -
@@ -69116,9 +69118,6 @@ fillRect
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -69143,9 +69142,6 @@ png
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -69170,9 +69166,6 @@ png
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -71237,9 +71230,6 @@ height
 =
 10
 ;
-assert
-throws
-INVALID_STATE_ERR
 ctx
 .
 drawImage
@@ -71261,9 +71251,6 @@ height
 =
 0
 ;
-assert
-throws
-INVALID_STATE_ERR
 ctx
 .
 drawImage
@@ -71285,9 +71272,6 @@ height
 =
 0
 ;
-assert
-throws
-INVALID_STATE_ERR
 ctx
 .
 drawImage

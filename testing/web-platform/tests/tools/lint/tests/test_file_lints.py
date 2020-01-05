@@ -8,6 +8,11 @@ from
 lint
 import
 check_file_contents
+from
+.
+base
+import
+check_errors
 import
 os
 import
@@ -201,6 +206,11 @@ items
 )
 :
         
+check_errors
+(
+errors
+)
+        
 expected
 =
 [
@@ -296,6 +306,11 @@ items
 )
 :
         
+check_errors
+(
+errors
+)
+        
 expected
 =
 [
@@ -387,6 +402,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 expected
 =
@@ -485,6 +505,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 expected
 =
@@ -610,6 +635,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 expected
 =
@@ -745,6 +775,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 expected
 =
@@ -893,6 +928,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 if
 kind
@@ -1073,6 +1113,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 if
 kind
@@ -1280,6 +1325,11 @@ items
 )
 :
         
+check_errors
+(
+errors
+)
+        
 if
 kind
 in
@@ -1455,6 +1505,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 if
 kind
@@ -1681,6 +1736,11 @@ items
 )
 :
         
+check_errors
+(
+errors
+)
+        
 if
 kind
 in
@@ -1881,6 +1941,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 if
 kind
@@ -2096,6 +2161,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 expected
 =
@@ -2403,6 +2473,11 @@ items
 )
 :
         
+check_errors
+(
+errors
+)
+        
 expected
 =
 [
@@ -2684,6 +2759,11 @@ items
 )
 :
         
+check_errors
+(
+errors
+)
+        
 if
 kind
 =
@@ -2793,6 +2873,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 if
 kind
@@ -2928,6 +3013,11 @@ items
 (
 )
 :
+        
+check_errors
+(
+errors
+)
         
 if
 kind
@@ -3169,6 +3259,11 @@ BytesIO
 (
 code
 )
+)
+        
+check_errors
+(
+errors
 )
         
 message

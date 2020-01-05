@@ -483,6 +483,15 @@ itemSchema
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }
 ]
 "

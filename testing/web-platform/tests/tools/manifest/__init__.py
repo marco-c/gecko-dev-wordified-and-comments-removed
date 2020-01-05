@@ -13,8 +13,4 @@ sourcefile
 from
 .
 import
-tree
-from
-.
-import
 update

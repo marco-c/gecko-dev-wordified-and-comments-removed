@@ -318,4 +318,13 @@ itemCreatorAgentWithSingularNameFound
 ]
 }
 }
+"
+required
+"
+:
+[
+"
+target
+"
+]
 }

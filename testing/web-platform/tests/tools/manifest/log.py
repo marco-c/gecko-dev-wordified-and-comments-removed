@@ -1,5 +1,10 @@
 import
 logging
+logging
+.
+basicConfig
+(
+)
 logger
 =
 logging
@@ -9,16 +14,6 @@ getLogger
 "
 manifest
 "
-)
-logger
-.
-addHandler
-(
-logging
-.
-StreamHandler
-(
-)
 )
 logger
 .

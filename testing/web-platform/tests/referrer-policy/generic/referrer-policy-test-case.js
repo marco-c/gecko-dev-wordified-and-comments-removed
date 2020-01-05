@@ -474,6 +474,11 @@ elementAttributesForDeliveryMethod
 [
 delivery_method
 ]
+t
+.
+_scenario
+.
+referrer_policy
 )
 ;
 }
@@ -485,6 +490,12 @@ t
 .
 _subresourceUrl
 callback
+null
+t
+.
+_scenario
+.
+referrer_policy
 )
 ;
 }
