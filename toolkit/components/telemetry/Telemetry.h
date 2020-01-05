@@ -95,9 +95,6 @@ ScalarAction
 struct
 KeyedScalarAction
 ;
-struct
-ChildEventData
-;
 enum
 TimerResolution
 {
