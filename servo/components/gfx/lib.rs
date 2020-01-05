@@ -93,6 +93,10 @@ bitflags
 ;
 extern
 crate
+fnv
+;
+extern
+crate
 geom
 ;
 extern
@@ -146,6 +150,10 @@ msg
 extern
 crate
 rand
+;
+extern
+crate
+smallvec
 ;
 extern
 crate

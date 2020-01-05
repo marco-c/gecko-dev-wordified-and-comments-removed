@@ -115,9 +115,6 @@ parse_font_face_block
 }
 ;
 use
-util
-:
-:
 smallvec
 :
 :

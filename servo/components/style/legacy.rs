@@ -44,9 +44,6 @@ selector_matching
 Stylist
 ;
 use
-util
-:
-:
 smallvec
 :
 :

@@ -176,6 +176,13 @@ encoding
 .
 2
 "
+fnv
+=
+"
+1
+.
+0
+"
 rustc
 -
 serialize
@@ -232,4 +239,11 @@ lazy_static
 1
 .
 10
+"
+smallvec
+=
+"
+0
+.
+1
 "

@@ -376,6 +376,13 @@ encoding
 .
 2
 "
+fnv
+=
+"
+1
+.
+0
+"
 url
 =
 "
@@ -410,6 +417,13 @@ cssparser
 0
 .
 3
+.
+1
+"
+smallvec
+=
+"
+0
 .
 1
 "
