@@ -133,16 +133,6 @@ frame_type
 }
 )
 ;
-if
-(
-!
-e
-.
-data
-.
-disableSort
-)
-{
 message
 .
 sort
@@ -172,7 +162,6 @@ b
 }
 )
 ;
-}
 port
 .
 postMessage
