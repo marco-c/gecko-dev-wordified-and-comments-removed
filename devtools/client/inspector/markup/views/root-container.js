@@ -158,6 +158,16 @@ children
 children
 ]
 .
+filter
+(
+node
+=
+>
+node
+.
+container
+)
+.
 map
 (
 node
