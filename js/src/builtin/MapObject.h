@@ -82,6 +82,13 @@ const
 Lookup
 &
 v
+const
+mozilla
+:
+:
+HashCodeScrambler
+&
+hcs
 )
 {
 return
@@ -89,6 +96,7 @@ v
 .
 hash
 (
+hcs
 )
 ;
 }
@@ -182,6 +190,13 @@ v
 HashNumber
 hash
 (
+const
+mozilla
+:
+:
+HashCodeScrambler
+&
+hcs
 )
 const
 ;
