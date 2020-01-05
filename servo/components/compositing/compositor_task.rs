@@ -574,15 +574,6 @@ modifiers
 KeyModifiers
 )
 {
-if
-state
-=
-=
-KeyState
-:
-:
-Pressed
-{
 self
 .
 send
@@ -593,11 +584,11 @@ Msg
 KeyEvent
 (
 key
+state
 modifiers
 )
 )
 ;
-}
 }
 }
 #
@@ -1103,6 +1094,7 @@ u64
 KeyEvent
 (
 Key
+KeyState
 KeyModifiers
 )
 SetCursor
