@@ -482,7 +482,7 @@ arguments
 property
 .
 An
-nsISupportsArray
+nsIArray
 will
 be
 unwound
