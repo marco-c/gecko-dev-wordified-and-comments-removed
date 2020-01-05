@@ -24,9 +24,10 @@ thread_state
 derive
 (
 Clone
-PartialEq
 Debug
+Default
 HeapSizeOf
+PartialEq
 )
 ]
 pub
