@@ -1297,9 +1297,6 @@ shortcomings
 #
 undef
 JEMALLOC_ZONE
-#
-undef
-JEMALLOC_ZONE_VERSION
 /
 *
 *
