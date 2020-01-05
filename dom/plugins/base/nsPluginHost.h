@@ -1252,14 +1252,6 @@ nsPluginTag
 aPluginTag
 )
 ;
-bool
-ShouldAddPlugin
-(
-nsPluginTag
-*
-aPluginTag
-)
-;
 RefPtr
 <
 nsPluginTag
