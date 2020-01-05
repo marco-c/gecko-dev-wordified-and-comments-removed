@@ -394,9 +394,6 @@ shorthand
 name
 =
 "
--
-moz
--
 column
 -
 rule
@@ -409,25 +406,16 @@ gecko
 sub_properties
 =
 "
--
-moz
--
 column
 -
 rule
 -
 width
--
-moz
--
 column
 -
 rule
 -
 style
--
-moz
--
 column
 -
 rule
@@ -443,8 +431,8 @@ longhands
 :
 :
 {
-_moz_column_rule_width
-_moz_column_rule_style
+column_rule_width
+column_rule_style
 }
 ;
 use
@@ -454,7 +442,7 @@ properties
 longhands
 :
 :
-_moz_column_rule_color
+column_rule_color
 ;
 pub
 fn
@@ -550,7 +538,7 @@ try
 |
 input
 |
-_moz_column_rule_
+column_rule_
 {
 name
 }
@@ -604,7 +592,7 @@ split
 (
 )
 :
-_moz_column_rule_
+column_rule_
 {
 name
 }
@@ -618,7 +606,7 @@ or
 (
 Some
 (
-_moz_column_rule_
+column_rule_
 {
 name
 }
@@ -631,7 +619,7 @@ get_initial_specified_value
 )
 %
 endfor
-_moz_column_rule_color
+column_rule_color
 :
 column_rule_color
 }
@@ -696,7 +684,7 @@ try
 (
 self
 .
-_moz_column_rule_width
+column_rule_width
 .
 to_css
 (
@@ -718,7 +706,7 @@ width
 *
 self
 .
-_moz_column_rule_width
+column_rule_width
 {
 try
 !
@@ -750,7 +738,7 @@ style
 *
 self
 .
-_moz_column_rule_style
+column_rule_style
 {
 if
 need_space
@@ -798,7 +786,7 @@ color
 *
 self
 .
-_moz_column_rule_color
+column_rule_color
 {
 if
 need_space

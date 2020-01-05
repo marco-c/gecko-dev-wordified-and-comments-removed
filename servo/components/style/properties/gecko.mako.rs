@@ -20982,9 +20982,6 @@ count
 column
 -
 gap
--
-moz
--
 column
 -
 rule
@@ -21178,7 +21175,7 @@ call
 impl_app_units
 (
 "
-_moz_column_rule_width
+column_rule_width
 "
 "
 mColumnRuleWidth
