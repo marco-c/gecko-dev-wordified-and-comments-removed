@@ -479,6 +479,9 @@ className
 icon
 -
 buttons
+radio
+-
+buttons
 "
 ;
 for
@@ -670,6 +673,16 @@ id
 color
 "
 )
+;
+radiogroup
+.
+className
+=
+"
+radio
+-
+buttons
+"
 ;
 for
 (
