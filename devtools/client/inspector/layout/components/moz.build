@@ -123,6 +123,16 @@ BoxModelMain
 js
 '
 '
+BoxModelProperties
+.
+js
+'
+'
+ComputedProperty
+.
+js
+'
+'
 Grid
 .
 js

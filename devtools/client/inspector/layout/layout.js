@@ -556,6 +556,9 @@ app
 App
 (
 {
+showBoxModelProperties
+:
+true
 onHideBoxModelHighlighter
 :
 (

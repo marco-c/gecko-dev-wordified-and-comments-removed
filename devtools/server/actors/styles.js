@@ -3329,6 +3329,14 @@ sizing
 "
 display
 "
+"
+float
+"
+"
+line
+-
+height
+"
 ]
 )
 {
