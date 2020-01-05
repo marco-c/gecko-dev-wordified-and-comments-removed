@@ -765,7 +765,7 @@ enabled
 {
 this
 .
-_sourceMapService
+_deprecatedServerSourceMapService
 =
 new
 SourceMapService
@@ -10226,12 +10226,12 @@ if
 (
 this
 .
-_sourceMapService
+_deprecatedServerSourceMapService
 )
 {
 this
 .
-_sourceMapService
+_deprecatedServerSourceMapService
 .
 destroy
 (
@@ -10239,7 +10239,7 @@ destroy
 ;
 this
 .
-_sourceMapService
+_deprecatedServerSourceMapService
 =
 null
 ;

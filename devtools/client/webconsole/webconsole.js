@@ -11502,7 +11502,7 @@ toolbox
 ?
 toolbox
 .
-_sourceMapService
+_deprecatedServerSourceMapService
 :
 null
 }

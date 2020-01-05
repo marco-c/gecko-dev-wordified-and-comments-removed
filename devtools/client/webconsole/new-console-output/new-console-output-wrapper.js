@@ -652,7 +652,7 @@ this
 .
 toolbox
 .
-_sourceMapService
+_deprecatedServerSourceMapService
 :
 null
 openLink
