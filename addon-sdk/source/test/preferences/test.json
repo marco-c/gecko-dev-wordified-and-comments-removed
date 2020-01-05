@@ -284,15 +284,6 @@ enabled
 :
 false
 "
-dom
-.
-mozSettings
-.
-enabled
-"
-:
-true
-"
 network
 .
 http
