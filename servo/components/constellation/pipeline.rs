@@ -2323,7 +2323,10 @@ trigger_mozbrowser_event
 self
 subpage_id
 :
+Option
+<
 SubpageId
+>
 event
 :
 MozBrowserEvent

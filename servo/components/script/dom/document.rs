@@ -8082,7 +8082,10 @@ ConstellationMsg
 MozBrowserEvent
 (
 containing_pipeline_id
+Some
+(
 subpage_id
+)
 event
 )
 ;

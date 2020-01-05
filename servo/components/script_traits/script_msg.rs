@@ -305,7 +305,10 @@ LoadData
 MozBrowserEvent
 (
 PipelineId
+Option
+<
 SubpageId
+>
 MozBrowserEvent
 )
 Navigate
