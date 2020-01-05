@@ -45,11 +45,11 @@ https
 :
 /
 /
-bugzilla
+includesubdomains
 .
-mozilla
+preloaded
 .
-org
+test
 "
 )
 ;
