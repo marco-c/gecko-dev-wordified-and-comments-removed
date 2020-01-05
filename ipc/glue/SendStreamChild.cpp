@@ -25,7 +25,7 @@ mozilla
 /
 dom
 /
-PContentChild
+nsIContentChild
 .
 h
 "
@@ -114,7 +114,7 @@ mozilla
 dom
 :
 :
-PContentChild
+nsIContentChild
 ;
 using
 mozilla
@@ -1237,7 +1237,7 @@ Create
 nsIAsyncInputStream
 *
 aInputStream
-PContentChild
+nsIContentChild
 *
 aManager
 )

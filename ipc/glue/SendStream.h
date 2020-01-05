@@ -48,7 +48,7 @@ namespace
 dom
 {
 class
-PContentChild
+nsIContentChild
 ;
 }
 namespace
@@ -76,7 +76,7 @@ aInputStream
 dom
 :
 :
-PContentChild
+nsIContentChild
 *
 aManager
 )

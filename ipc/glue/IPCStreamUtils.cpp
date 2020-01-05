@@ -28,7 +28,7 @@ mozilla
 /
 dom
 /
-PContentChild
+nsIContentChild
 .
 h
 "
@@ -1602,7 +1602,7 @@ aStream
 dom
 :
 :
-PContentChild
+nsIContentChild
 *
 aManager
 )

@@ -29,7 +29,7 @@ namespace
 dom
 {
 class
-PContentChild
+nsIContentChild
 ;
 class
 PContentParent
@@ -128,7 +128,7 @@ aStream
 dom
 :
 :
-PContentChild
+nsIContentChild
 *
 aManager
 )
