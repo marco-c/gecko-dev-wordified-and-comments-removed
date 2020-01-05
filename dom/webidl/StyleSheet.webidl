@@ -116,6 +116,9 @@ cssom
 *
 /
 interface
+CSSRule
+;
+interface
 StyleSheet
 {
 [

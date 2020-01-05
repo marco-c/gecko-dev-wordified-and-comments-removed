@@ -98,9 +98,6 @@ nsIDOMCSSConditionRule
 .
 idl
 "
-interface
-nsIDOMMediaList
-;
 /
 *
 *

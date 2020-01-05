@@ -94,16 +94,10 @@ MPL
 #
 include
 "
-nsISupports
+nsIDOMCSSRule
 .
 idl
 "
-interface
-nsIDOMMediaList
-;
-interface
-nsIDOMCSSStyleSheet
-;
 [
 scriptable
 uuid
@@ -122,7 +116,7 @@ a6475a26f491
 interface
 nsIDOMCSSImportRule
 :
-nsISupports
+nsIDOMCSSRule
 {
 readonly
 attribute
