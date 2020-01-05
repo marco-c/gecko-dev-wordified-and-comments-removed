@@ -203,13 +203,6 @@ sjs
 '
 chrome
 /
-bug884693
-.
-sjs
-'
-'
-chrome
-/
 nochrome_bug765993
 .
 html
