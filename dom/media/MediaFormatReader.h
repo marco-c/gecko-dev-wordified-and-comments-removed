@@ -1616,6 +1616,12 @@ TimeUnit
 >
 mLastTimeRangesEnd
 ;
+UniquePtr
+<
+TrackInfo
+>
+mOriginalInfo
+;
 RefPtr
 <
 SharedTrackInfo
