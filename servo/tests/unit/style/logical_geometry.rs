@@ -10,7 +10,7 @@ Rect
 }
 ;
 use
-util
+style
 :
 :
 logical_geometry
@@ -24,7 +24,7 @@ FLAG_SIDEWAYS_LEFT
 }
 ;
 use
-util
+style
 :
 :
 logical_geometry
