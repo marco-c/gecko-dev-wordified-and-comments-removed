@@ -1547,6 +1547,12 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+TransactionIdAllocator
+:
+:
+NotifyTransactionCompleted
+"
 [
 allocator
 id
@@ -1578,6 +1584,10 @@ forget
 )
 ;
 }
+mWidget
+=
+nullptr
+;
 }
 WebRenderLayerManager
 :
