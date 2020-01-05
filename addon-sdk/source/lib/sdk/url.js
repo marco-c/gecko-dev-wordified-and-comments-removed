@@ -1834,10 +1834,12 @@ url
 if
 (
 String
+(
+url
+)
 .
 indexOf
 (
-url
 '
 .
 /

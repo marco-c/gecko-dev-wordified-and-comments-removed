@@ -887,12 +887,14 @@ tab
 id
 return
 String
-.
-split
 (
 tab
 .
 linkedPanel
+)
+.
+split
+(
 '
 panel
 '
