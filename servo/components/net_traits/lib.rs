@@ -30,14 +30,6 @@ feature
 rustc_private
 )
 ]
-#
-!
-[
-feature
-(
-std_misc
-)
-]
 extern
 crate
 geom
@@ -153,10 +145,6 @@ image_cache_task
 ;
 pub
 mod
-local_image_cache
-;
-pub
-mod
 storage_task
 ;
 pub
@@ -166,10 +154,6 @@ image
 pub
 mod
 base
-;
-pub
-mod
-holder
 ;
 }
 #
