@@ -42,7 +42,6 @@ fh
 :
         
 return
-(
 hashlib
 .
 sha256
@@ -56,14 +55,6 @@ read
 .
 hexdigest
 (
-)
-                
-mozpath
-.
-normsep
-(
-path
-)
 )
 def
 hash_paths
