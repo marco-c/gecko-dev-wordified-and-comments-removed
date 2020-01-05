@@ -335,6 +335,13 @@ SendData
 )
 ;
 void
+NotifyOutput
+(
+int64_t
+aTime
+)
+;
+void
 AssertOwnerThread
 (
 )
@@ -409,6 +416,11 @@ int64_t
 >
 mStartTime
 ;
+int64_t
+mLastOutputTime
+=
+0
+;
 MediaInfo
 mInfo
 ;
@@ -437,6 +449,9 @@ mAudioFinishListener
 ;
 MediaEventListener
 mVideoFinishListener
+;
+MediaEventListener
+mOutputListener
 ;
 }
 ;
