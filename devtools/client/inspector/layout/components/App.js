@@ -323,13 +323,6 @@ PropTypes
 func
 .
 isRequired
-onShowBoxModelHighlighterForNode
-:
-PropTypes
-.
-func
-.
-isRequired
 onToggleGridHighlighter
 :
 PropTypes

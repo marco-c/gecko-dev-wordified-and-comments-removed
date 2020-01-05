@@ -165,13 +165,6 @@ boxModel
 )
 .
 isRequired
-setSelectedNode
-:
-PropTypes
-.
-func
-.
-isRequired
 showBoxModelProperties
 :
 PropTypes
@@ -194,13 +187,6 @@ func
 .
 isRequired
 onShowBoxModelHighlighter
-:
-PropTypes
-.
-func
-.
-isRequired
-onShowBoxModelHighlighterForNode
 :
 PropTypes
 .
