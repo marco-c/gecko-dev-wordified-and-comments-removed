@@ -146,6 +146,12 @@ IsPlayingStarted
 )
 const
 ;
+bool
+ShouldBlockMedia
+(
+)
+const
+;
 private
 :
 virtual
