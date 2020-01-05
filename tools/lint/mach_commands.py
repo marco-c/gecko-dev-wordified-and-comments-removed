@@ -223,9 +223,6 @@ like
 '
 browser
 /
-components
-/
-loop
 '
 Defaults
 to

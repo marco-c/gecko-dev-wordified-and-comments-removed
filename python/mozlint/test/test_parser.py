@@ -86,6 +86,8 @@ parse
 string
 .
 lint
+.
+py
 '
 )
     
@@ -138,6 +140,8 @@ linter
 invalid_type
 .
 lint
+.
+py
 '
     
 '
@@ -150,24 +154,32 @@ lnt
 invalid_include
 .
 lint
+.
+py
 '
     
 '
 invalid_exclude
 .
 lint
+.
+py
 '
     
 '
 missing_attrs
 .
 lint
+.
+py
 '
     
 '
 missing_definition
 .
 lint
+.
+py
 '
 ]
 )

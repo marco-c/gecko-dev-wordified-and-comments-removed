@@ -215,6 +215,8 @@ linters
 '
 .
 lint
+.
+py
 '
 ]
 )
