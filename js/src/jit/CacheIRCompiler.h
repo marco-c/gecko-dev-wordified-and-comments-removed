@@ -213,6 +213,11 @@ MegamorphicLoadSlotByValueResult
 \
 _
 (
+MegamorphicHasOwnResult
+)
+\
+_
+(
 WrapResult
 )
 class
