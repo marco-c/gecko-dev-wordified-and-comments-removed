@@ -9,7 +9,6 @@ createClass
 DOM
 :
 dom
-PropTypes
 }
 =
 require
@@ -39,15 +38,6 @@ displayName
 "
 AddonsInstallError
 "
-propTypes
-:
-{
-error
-:
-PropTypes
-.
-string
-}
 render
 (
 )
