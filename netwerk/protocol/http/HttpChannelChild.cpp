@@ -4687,6 +4687,11 @@ OverrideWithSynthesizedResponse
 (
 )
 {
+if
+(
+mNewChannel
+)
+{
 mNewChannel
 -
 >
@@ -4697,6 +4702,7 @@ mInput
 mListener
 )
 ;
+}
 }
 NS_IMETHODIMP
 HttpChannelChild
@@ -6718,11 +6724,6 @@ httpChannelChild
 do_QueryInterface
 (
 mRedirectChannelChild
-)
-;
-MOZ_ASSERT
-(
-httpChannelChild
 )
 ;
 RefPtr
