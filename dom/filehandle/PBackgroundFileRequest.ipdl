@@ -62,7 +62,7 @@ PBackgroundFileHandle
 ;
 include
 protocol
-PBlob
+PPendingIPCBlob
 ;
 using
 struct
@@ -148,7 +148,7 @@ FileRequestFlushResponse
 struct
 FileRequestGetFileResponse
 {
-PBlob
+PPendingIPCBlob
 file
 ;
 FileRequestMetadata
