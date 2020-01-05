@@ -384,6 +384,8 @@ thresholdCount
 TimeDuration
 duration
 =
+mLastCompositionEndTime
+?
 TimeStamp
 :
 :
@@ -392,6 +394,10 @@ Now
 )
 -
 mLastCompositionEndTime
+:
+TimeDuration
+(
+)
 ;
 if
 (
