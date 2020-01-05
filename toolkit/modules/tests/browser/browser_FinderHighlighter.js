@@ -2299,7 +2299,7 @@ expectedResult
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
