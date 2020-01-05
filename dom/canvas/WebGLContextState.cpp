@@ -1162,7 +1162,12 @@ case
 LOCAL_GL_GPU_DISJOINT_EXT
 :
 {
-MOZ_ASSERT
+realGLboolean
+val
+=
+false
+;
+if
 (
 gl
 -
@@ -1178,12 +1183,7 @@ GLContext
 EXT_disjoint_timer_query
 )
 )
-;
-realGLboolean
-val
-=
-false
-;
+{
 gl
 -
 >
@@ -1194,6 +1194,7 @@ pname
 val
 )
 ;
+}
 return
 JS
 :
