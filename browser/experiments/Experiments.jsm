@@ -4488,9 +4488,6 @@ url
 e
 )
 ;
-return
-Promise
-.
 reject
 (
 new

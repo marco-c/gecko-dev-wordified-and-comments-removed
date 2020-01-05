@@ -2415,9 +2415,6 @@ catch
 err
 )
 {
-return
-Promise
-.
 resolve
 (
 null
