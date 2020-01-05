@@ -154,12 +154,6 @@ packages
 "
 byteorder
 "
-"
-serde_codegen_internals
-"
-"
-syn
-"
 ]
 #
 Files
