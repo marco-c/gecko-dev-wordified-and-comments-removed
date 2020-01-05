@@ -94,6 +94,9 @@ mod
 glue
 ;
 mod
+sanity_checks
+;
+mod
 traversal
 ;
 mod

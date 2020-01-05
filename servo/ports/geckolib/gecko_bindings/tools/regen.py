@@ -658,6 +658,12 @@ nsINode
 .
 h
 "
+            
+"
+UniquePtr
+.
+h
+"
         
 ]
         
@@ -725,6 +731,10 @@ FastComputedTimingProperties
 "
 nsINode
 "
+            
+"
+HasPointerType
+"
         
 ]
         
@@ -785,6 +795,10 @@ nsDataHashtable
 "
 "
 imgIRequest
+"
+            
+"
+Maybe
 "
         
 ]
@@ -1026,6 +1040,9 @@ FontFamilyType
 "
 "
 nsIAtom
+"
+"
+nsStyleContext
 "
         
 ]

@@ -64,15 +64,6 @@ cell
 RefCell
 ;
 use
-std
-:
-:
-sync
-:
-:
-Arc
-;
-use
 tid
 :
 :
