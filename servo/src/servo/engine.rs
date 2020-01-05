@@ -33,6 +33,7 @@ renderer
 :
 sink
 send
+copy
 >
 (
 sink

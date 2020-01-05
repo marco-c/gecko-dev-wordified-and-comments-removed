@@ -128,6 +128,7 @@ S
 :
 sink
 send
+copy
 >
 (
 sink
