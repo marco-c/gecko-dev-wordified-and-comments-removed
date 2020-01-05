@@ -543,6 +543,16 @@ UTF
 ;
 this
 .
+channel
+.
+loadInfo
+.
+resetPrincipalsToNullPrincipal
+(
+)
+;
+this
+.
 listener
 .
 onStartRequest
