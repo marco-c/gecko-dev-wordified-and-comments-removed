@@ -62,6 +62,9 @@ namespace
 mozilla
 {
 class
+ServoCSSRuleList
+;
+class
 ServoStyleSheet
 :
 public
@@ -269,6 +272,12 @@ RefPtr
 RawServoStyleSheet
 >
 mSheet
+;
+RefPtr
+<
+ServoCSSRuleList
+>
+mRuleList
 ;
 StyleSheetInfo
 mSheetInfo

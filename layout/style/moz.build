@@ -568,6 +568,11 @@ ServoBindingTypes
 h
 '
 '
+ServoCSSRuleList
+.
+h
+'
+'
 ServoDeclarationBlock
 .
 h
@@ -1042,6 +1047,11 @@ cpp
 '
 '
 ServoBindings
+.
+cpp
+'
+'
+ServoCSSRuleList
 .
 cpp
 '

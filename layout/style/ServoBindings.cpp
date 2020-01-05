@@ -260,6 +260,10 @@ ServoComputedValues
 )
 IMPL_STRONG_REF_TYPE_FOR
 (
+ServoCssRules
+)
+IMPL_STRONG_REF_TYPE_FOR
+(
 RawServoStyleSheet
 )
 IMPL_STRONG_REF_TYPE_FOR
