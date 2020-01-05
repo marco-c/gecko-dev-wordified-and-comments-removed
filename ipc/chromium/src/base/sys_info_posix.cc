@@ -585,6 +585,7 @@ OperatingSystemName
 (
 )
 {
+struct
 utsname
 info
 ;
@@ -631,6 +632,7 @@ CPUArchitecture
 (
 )
 {
+struct
 utsname
 info
 ;
