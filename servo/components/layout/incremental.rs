@@ -51,8 +51,8 @@ properties
 :
 :
 {
+ComputedValues
 ServoComputedValues
-TComputedValues
 }
 ;
 bitflags

@@ -451,8 +451,8 @@ properties
 :
 :
 {
-PropertyDeclaration
-PropertyDeclarationBlock
+ComputedValues
+ServoComputedValues
 }
 ;
 use
@@ -463,8 +463,8 @@ properties
 :
 :
 {
-ServoComputedValues
-TComputedValues
+PropertyDeclaration
+PropertyDeclarationBlock
 }
 ;
 use

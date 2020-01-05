@@ -452,8 +452,8 @@ properties
 :
 {
 self
+ComputedValues
 ServoComputedValues
-TComputedValues
 }
 ;
 use

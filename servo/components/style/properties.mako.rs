@@ -796,9 +796,9 @@ properties
 :
 :
 {
+ComputedValues
 ServoComputedValues
 PropertyDeclaration
-TComputedValues
 }
 ;
 use
@@ -886,7 +886,7 @@ cascade_property
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 (
 declaration
@@ -3639,7 +3639,7 @@ cascade_property_custom
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 (
 _declaration
@@ -16262,7 +16262,7 @@ cascade_property_custom
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 (
 _declaration
@@ -45243,7 +45243,7 @@ endfor
 }
 pub
 trait
-TComputedValues
+ComputedValues
 :
 Clone
 +
@@ -45699,7 +45699,7 @@ root_font_size
 Au
 }
 impl
-TComputedValues
+ComputedValues
 for
 ServoComputedValues
 {
@@ -47961,7 +47961,7 @@ cascade_with_cached_declarations
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 (
 viewport_size
@@ -48673,7 +48673,7 @@ CascadePropertyFn
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 =
 extern
@@ -49093,7 +49093,7 @@ cascade
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 (
 viewport_size

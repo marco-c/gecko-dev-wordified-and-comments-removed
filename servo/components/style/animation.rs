@@ -324,8 +324,8 @@ properties
 :
 :
 {
+ComputedValues
 ServoComputedValues
-TComputedValues
 }
 ;
 use
@@ -6620,7 +6620,7 @@ start_transitions_if_applicable
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 (
 new_animations_sender
@@ -6824,7 +6824,7 @@ update_style_for_animation
 <
 C
 :
-TComputedValues
+ComputedValues
 Damage
 :
 TRestyleDamage

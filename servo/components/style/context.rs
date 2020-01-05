@@ -41,7 +41,7 @@ use
 properties
 :
 :
-TComputedValues
+ComputedValues
 ;
 use
 selector_impl
@@ -233,7 +233,7 @@ LocalStyleContext
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 {
 pub
@@ -268,7 +268,7 @@ Impl
 SelectorImplExt
 C
 :
-TComputedValues
+ComputedValues
 >
 {
 fn

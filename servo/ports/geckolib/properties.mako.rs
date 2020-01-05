@@ -41,7 +41,7 @@ properties
 {
 CascadePropertyFn
 ServoComputedValues
-TComputedValues
+ComputedValues
 }
 ;
 use
@@ -121,7 +121,7 @@ root_font_size
 Au
 }
 impl
-TComputedValues
+ComputedValues
 for
 GeckoComputedValues
 {

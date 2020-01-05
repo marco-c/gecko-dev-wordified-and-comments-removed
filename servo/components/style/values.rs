@@ -11051,7 +11051,7 @@ use
 properties
 :
 :
-TComputedValues
+ComputedValues
 ;
 use
 properties
@@ -11128,7 +11128,7 @@ TContext
 type
 ConcreteComputedValues
 :
-TComputedValues
+ComputedValues
 ;
 fn
 is_root_element
@@ -11206,7 +11206,7 @@ Context
 a
 C
 :
-TComputedValues
+ComputedValues
 >
 {
 pub
@@ -11277,7 +11277,7 @@ impl
 a
 C
 :
-TComputedValues
+ComputedValues
 >
 TContext
 for

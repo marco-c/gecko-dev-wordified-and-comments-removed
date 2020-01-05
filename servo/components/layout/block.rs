@@ -299,8 +299,8 @@ properties
 :
 :
 {
+ComputedValues
 ServoComputedValues
-TComputedValues
 }
 ;
 use
