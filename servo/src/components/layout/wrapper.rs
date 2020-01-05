@@ -2291,7 +2291,9 @@ element
 .
 node
 .
-type_id
+type_id_for_layout
+(
+)
 {
 /
 /
