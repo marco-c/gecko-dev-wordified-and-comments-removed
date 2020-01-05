@@ -7620,7 +7620,7 @@ pcwalton
 /
 gaol
 #
-71865ff8a1824cbc1cbee4d388d56c5ba1b5ffc2
+e1349d8d3d933b3a90f9c86baa390261c510e019
 "
 dependencies
 =
@@ -11835,7 +11835,7 @@ ipc
 -
 channel
 #
-8306cdf03008bc32cd3196e1823661b0c773ffd3
+6900611d5f00c7405ae886d75841fe37df6bfc38
 "
 dependencies
 =
@@ -14426,7 +14426,7 @@ version
 .
 0
 .
-5
+6
 "
 source
 =
@@ -17110,7 +17110,7 @@ malloc_buf
 .
 0
 .
-5
+6
 (
 registry
 +
@@ -18328,7 +18328,7 @@ shared_library
 .
 1
 .
-1
+2
 (
 registry
 +
@@ -23242,7 +23242,7 @@ shared_library
 .
 1
 .
-1
+2
 (
 registry
 +
@@ -23941,7 +23941,7 @@ version
 .
 1
 .
-1
+2
 "
 source
 =
