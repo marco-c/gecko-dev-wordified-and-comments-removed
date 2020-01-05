@@ -990,7 +990,7 @@ JSContext
 cx
 RootedObject
 &
-target_obj
+targetObj
 MutableHandleValue
 retval
 nsIURI
@@ -1031,7 +1031,7 @@ if
 JS_CallFunction
 (
 cx
-target_obj
+targetObj
 function
 JS
 :
@@ -1057,7 +1057,7 @@ if
 (
 JS_IsGlobalObject
 (
-target_obj
+targetObj
 )
 )
 {
@@ -1095,7 +1095,7 @@ envChain
 .
 append
 (
-target_obj
+targetObj
 )
 )
 {
@@ -1125,7 +1125,7 @@ JSAutoCompartment
 rac
 (
 cx
-target_obj
+targetObj
 )
 ;
 if
@@ -1779,7 +1779,7 @@ rv
 )
 ;
 RootedObject
-target_obj
+targetObj
 (
 cx
 mTargetObj
@@ -1792,7 +1792,7 @@ PrepareScript
 (
 uri
 cx
-target_obj
+targetObj
 spec
 .
 get
@@ -1841,7 +1841,7 @@ if
 EvalScript
 (
 cx
-target_obj
+targetObj
 &
 retval
 uri
@@ -1891,7 +1891,7 @@ retval
 )
 {
 RootedObject
-target_obj
+targetObj
 (
 RootingCx
 (
@@ -1910,7 +1910,7 @@ xpc
 :
 NativeGlobal
 (
-target_obj
+targetObj
 )
 ;
 ErrorResult
@@ -2084,7 +2084,7 @@ AsyncScriptLoader
 (
 channel
 reuseGlobal
-target_obj
+targetObj
 charset
 cache
 promise
@@ -2193,7 +2193,7 @@ nullptr
 )
 ;
 RootedObject
-target_obj
+targetObj
 (
 cx
 targetObjArg
@@ -2386,7 +2386,7 @@ PrepareScript
 (
 uri
 cx
-target_obj
+targetObj
 uriStr
 charset
 buf
