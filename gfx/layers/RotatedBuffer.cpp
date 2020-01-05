@@ -3301,12 +3301,7 @@ BUFFER_COMPONENT_ALPHA
 )
 )
 {
-gfxCriticalError
-(
-CriticalLog
-:
-:
-DefaultOptions
+if
 (
 Factory
 :
@@ -3324,7 +3319,8 @@ height
 )
 )
 )
-)
+{
+gfxCriticalNote
 <
 <
 "
@@ -3398,6 +3394,7 @@ destBufferRect
 .
 height
 ;
+}
 return
 result
 ;
@@ -3467,12 +3464,7 @@ BUFFER_COMPONENT_ALPHA
 )
 )
 {
-gfxCriticalError
-(
-CriticalLog
-:
-:
-DefaultOptions
+if
 (
 Factory
 :
@@ -3490,7 +3482,8 @@ height
 )
 )
 )
-)
+{
+gfxCriticalNote
 <
 <
 "
@@ -3564,6 +3557,7 @@ destBufferRect
 .
 height
 ;
+}
 return
 result
 ;
