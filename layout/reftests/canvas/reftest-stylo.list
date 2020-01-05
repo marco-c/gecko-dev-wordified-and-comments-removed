@@ -1869,7 +1869,6 @@ html
 #
 Bug
 1347410
-fails
 =
 =
 text
@@ -1886,6 +1885,3 @@ indent
 1b
 .
 html
-#
-Bug
-1347410
