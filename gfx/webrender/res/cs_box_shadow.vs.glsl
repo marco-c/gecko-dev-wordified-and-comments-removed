@@ -70,6 +70,7 @@ cpi
 =
 fetch_cache_instance
 (
+gl_InstanceID
 )
 ;
 RenderTaskData

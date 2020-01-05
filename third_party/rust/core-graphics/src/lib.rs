@@ -32,14 +32,6 @@ display
 ;
 pub
 mod
-event
-;
-pub
-mod
-event_source
-;
-pub
-mod
 font
 ;
 pub

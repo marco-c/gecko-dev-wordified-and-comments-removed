@@ -13,7 +13,7 @@ version
 .
 8
 .
-23
+17
 "
 authors
 =
@@ -114,13 +114,6 @@ serde
 "
 "
 serialization
-"
-]
-categories
-=
-[
-"
-encoding
 "
 ]
 include

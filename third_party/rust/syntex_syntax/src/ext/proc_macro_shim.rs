@@ -313,14 +313,9 @@ token
 self
 Token
 DelimToken
-}
-;
-pub
-use
-symbol
-:
-:
 keywords
+str_to_ident
+}
 ;
 pub
 use

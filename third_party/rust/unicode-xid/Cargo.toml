@@ -15,7 +15,7 @@ version
 .
 0
 .
-4
+3
 "
 authors
 =
@@ -178,10 +178,6 @@ default
 [
 ]
 no_std
-=
-[
-]
-bench
 =
 [
 ]

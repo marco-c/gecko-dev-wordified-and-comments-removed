@@ -70,6 +70,7 @@ prim
 =
 load_primitive
 (
+gl_InstanceID
 )
 ;
 Gradient
@@ -124,7 +125,6 @@ x
 case
 GRADIENT_HORIZONTAL
 :
-{
 float
 x0
 =
@@ -193,13 +193,11 @@ x1
 -
 x0
 ;
-}
 break
 ;
 case
 GRADIENT_VERTICAL
 :
-{
 float
 y0
 =
@@ -268,7 +266,6 @@ y1
 -
 y0
 ;
-}
 break
 ;
 }
@@ -284,9 +281,6 @@ segment_rect
 prim
 .
 local_clip_rect
-prim
-.
-z
 prim
 .
 layer
@@ -343,9 +337,6 @@ prim
 local_clip_rect
 prim
 .
-z
-prim
-.
 layer
 prim
 .
@@ -377,16 +368,6 @@ local_clamped_pos
 ;
 #
 endif
-write_clip
-(
-vi
-.
-global_clamped_pos
-prim
-.
-clip_area
-)
-;
 switch
 (
 int

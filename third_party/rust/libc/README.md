@@ -92,13 +92,7 @@ projects
 /
 status
 /
-github
-/
-rust
--
-lang
-/
-libc
+34csq3uurnw7c0rl
 ?
 svg
 =
@@ -118,11 +112,7 @@ com
 /
 project
 /
-rust
--
-lang
--
-libs
+alexcrichton
 /
 libc
 )

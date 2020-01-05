@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-in
-vec4
-aColor
-;
-varying
-vec4
-vColor
-;
 void
 main
 (
@@ -72,7 +64,7 @@ void
 {
 vColor
 =
-aColor
+aColorRectTL
 ;
 vec4
 pos

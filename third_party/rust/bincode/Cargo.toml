@@ -13,7 +13,7 @@ version
 .
 6
 .
-1
+0
 "
 authors
 =
@@ -124,11 +124,11 @@ dependencies
 byteorder
 =
 "
-1
-.
 0
 .
-0
+5
+.
+*
 "
 num
 -
@@ -182,7 +182,7 @@ dev
 -
 dependencies
 ]
-serde_derive
+serde_macros
 =
 "
 0

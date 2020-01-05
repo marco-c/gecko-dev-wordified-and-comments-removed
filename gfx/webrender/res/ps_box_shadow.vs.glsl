@@ -70,6 +70,7 @@ prim
 =
 load_primitive
 (
+gl_InstanceID
 )
 ;
 BoxShadow
@@ -101,9 +102,6 @@ segment_rect
 prim
 .
 local_clip_rect
-prim
-.
-z
 prim
 .
 layer

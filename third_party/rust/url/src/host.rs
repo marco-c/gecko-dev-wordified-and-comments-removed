@@ -751,13 +751,6 @@ write_str
 }
 }
 }
-#
-[
-derive
-(
-Clone
-)
-]
 pub
 struct
 HostAndPort

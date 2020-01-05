@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-varying
-vec2
-vColorTexCoord
-;
-varying
-vec4
-vColor
-;
 void
 main
 (
@@ -78,7 +70,7 @@ alpha
 =
 texture
 (
-sColor0
+sDiffuse
 vColorTexCoord
 .
 xy
@@ -93,7 +85,7 @@ alpha
 =
 texture
 (
-sColor0
+sDiffuse
 vColorTexCoord
 .
 xy

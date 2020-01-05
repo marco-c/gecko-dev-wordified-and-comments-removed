@@ -56,12 +56,6 @@ bin
 \
 QEMU
 =
-2016
--
-11
--
-06
-/
 freebsd
 .
 qcow2

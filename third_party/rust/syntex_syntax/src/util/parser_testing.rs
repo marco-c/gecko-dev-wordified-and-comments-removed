@@ -1,11 +1,5 @@
 use
 ast
-:
-:
-{
-self
-Ident
-}
 ;
 use
 parse
@@ -34,6 +28,12 @@ parser
 :
 :
 Parser
+;
+use
+parse
+:
+:
+token
 ;
 use
 ptr
@@ -465,6 +465,9 @@ str
 >
 Vec
 <
+ast
+:
+:
 Ident
 >
 {
@@ -479,10 +482,10 @@ map
 |
 u
 |
-Ident
+token
 :
 :
-from_str
+str_to_ident
 (
 *
 u

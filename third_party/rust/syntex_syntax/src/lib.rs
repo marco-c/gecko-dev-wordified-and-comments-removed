@@ -272,6 +272,10 @@ util
 {
 pub
 mod
+interner
+;
+pub
+mod
 lev_distance
 ;
 pub
@@ -394,10 +398,6 @@ str
 ;
 pub
 mod
-symbol
-;
-pub
-mod
 test
 ;
 pub
@@ -483,13 +483,3 @@ macro_rules
 ;
 }
 }
-#
-[
-cfg
-(
-test
-)
-]
-mod
-test_snippet
-;

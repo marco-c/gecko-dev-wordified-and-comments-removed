@@ -463,12 +463,6 @@ invoke
 (
 TyParam
 {
-attrs
-:
-vec
-!
-[
-]
 ident
 :
 self
