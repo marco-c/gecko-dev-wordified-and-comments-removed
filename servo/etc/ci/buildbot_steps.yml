@@ -512,16 +512,6 @@ upload_nightly
 .
 sh
 macbrew
--
-.
-/
-etc
-/
-ci
-/
-update_brew
-.
-sh
 linux
 -
 rel
