@@ -196,11 +196,11 @@ SkPixelSerializer
 bool
 )
 ;
-virtual
 ~
 SkPDFDocument
 (
 )
+override
 ;
 SkCanvas
 *
@@ -308,7 +308,10 @@ SkPDFDevice
 >
 fPageDevice
 ;
-sk_sp
+std
+:
+:
+unique_ptr
 <
 SkCanvas
 >

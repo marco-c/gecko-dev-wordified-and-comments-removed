@@ -1131,7 +1131,7 @@ nearer
 ]
 )
 ;
-SkASSERT
+SkOPASSERT
 (
 iA
 =

@@ -8,7 +8,7 @@ h
 #
 include
 "
-SkFontMgr_custom
+SkFontMgr_directory
 .
 h
 "
@@ -29,8 +29,10 @@ fonts
 "
 #
 endif
+sk_sp
+<
 SkFontMgr
-*
+>
 SkFontMgr
 :
 :

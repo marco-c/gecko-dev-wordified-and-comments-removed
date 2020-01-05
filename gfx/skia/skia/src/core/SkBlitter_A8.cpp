@@ -22,7 +22,7 @@ h
 #
 include
 "
-SkXfermode
+SkXfermodePriv
 .
 h
 "

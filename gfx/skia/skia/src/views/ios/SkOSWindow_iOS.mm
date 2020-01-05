@@ -337,6 +337,7 @@ SkOSWindow
 :
 onUpdateMenu
 (
+const
 SkOSMenu
 *
 menu

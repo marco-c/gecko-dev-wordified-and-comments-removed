@@ -21,9 +21,14 @@ SkSVGCanvas
 public
 :
 static
+std
+:
+:
+unique_ptr
+<
 SkCanvas
-*
-Create
+>
+Make
 (
 const
 SkRect

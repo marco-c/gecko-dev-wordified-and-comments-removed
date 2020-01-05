@@ -275,11 +275,10 @@ info
 SkImageInfo
 :
 :
-Make
+MakeS32
 (
 width
 height
-kN32_SkColorType
 alphaType
 )
 ;
@@ -339,7 +338,9 @@ SkImageGeneratorCG
 :
 onRefEncodedData
 (
-SK_REFENCODEDDATA_CTXPARAM
+GrContext
+*
+ctx
 )
 {
 return

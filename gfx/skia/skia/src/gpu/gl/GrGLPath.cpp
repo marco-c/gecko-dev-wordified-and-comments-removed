@@ -1221,8 +1221,8 @@ isEmpty
 )
 ;
 #
-ifdef
-SK_SCALAR_IS_FLOAT
+if
+1
 if
 (
 (

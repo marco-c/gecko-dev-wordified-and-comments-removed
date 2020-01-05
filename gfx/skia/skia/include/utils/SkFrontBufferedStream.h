@@ -1,4 +1,10 @@
 #
+ifndef
+SkFrontBufferedStream_DEFINED
+#
+define
+SkFrontBufferedStream_DEFINED
+#
 include
 "
 SkTypes
@@ -30,3 +36,5 @@ minBufferSize
 ;
 }
 ;
+#
+endif

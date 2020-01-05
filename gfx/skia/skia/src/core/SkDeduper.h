@@ -7,7 +7,7 @@ SkDeduper_DEFINED
 #
 include
 "
-SkTypes
+SkFlattenable
 .
 h
 "

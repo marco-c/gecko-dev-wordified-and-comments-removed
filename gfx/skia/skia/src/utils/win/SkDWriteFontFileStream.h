@@ -279,7 +279,10 @@ SkDWriteFontFileStreamWrapper
 ULONG
 fRefCount
 ;
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 SkStreamAsset
 >

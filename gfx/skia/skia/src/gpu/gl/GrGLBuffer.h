@@ -58,6 +58,7 @@ nullptr
 GrGLBuffer
 (
 )
+override
 {
 SkASSERT
 (

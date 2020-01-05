@@ -4,6 +4,13 @@ SkStringUtils_DEFINED
 #
 define
 SkStringUtils_DEFINED
+#
+include
+"
+SkScalar
+.
+h
+"
 class
 SkString
 ;

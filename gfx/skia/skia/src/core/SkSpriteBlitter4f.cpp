@@ -8,6 +8,13 @@ h
 #
 include
 "
+SkArenaAlloc
+.
+h
+"
+#
+include
+"
 SkSpanProcs
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-SkXfermode
+SkXfermodePriv
 .
 h
 "
@@ -51,18 +58,12 @@ INHERITED
 src
 )
 {
-fXfer
+fMode
 =
-SkXfermode
-:
-:
-Peek
-(
 paint
 .
 getBlendMode
 (
-)
 )
 ;
 fLoader
@@ -97,9 +98,8 @@ width
 }
 protected
 :
-SkXfermode
-*
-fXfer
+SkBlendMode
+fMode
 ;
 SkLoadSpanProc
 fLoader
@@ -177,7 +177,7 @@ SkXfermode
 :
 GetF16Proc
 (
-fXfer
+fMode
 flags
 )
 ;
@@ -271,7 +271,7 @@ width
 ;
 fWriter
 (
-fXfer
+fMode
 dst
 fBuffer
 width
@@ -326,7 +326,7 @@ const
 SkPaint
 &
 paint
-SkTBlitterAllocator
+SkArenaAlloc
 *
 allocator
 )
@@ -374,7 +374,7 @@ return
 allocator
 -
 >
-createT
+make
 <
 Sprite_F16
 >
@@ -449,7 +449,7 @@ SkXfermode
 :
 GetD32Proc
 (
-fXfer
+fMode
 flags
 )
 ;
@@ -543,7 +543,7 @@ width
 ;
 fWriter
 (
-fXfer
+fMode
 dst
 fBuffer
 width
@@ -600,7 +600,7 @@ const
 SkPaint
 &
 paint
-SkTBlitterAllocator
+SkArenaAlloc
 *
 allocator
 )
@@ -648,7 +648,7 @@ return
 allocator
 -
 >
-createT
+make
 <
 Sprite_sRGB
 >

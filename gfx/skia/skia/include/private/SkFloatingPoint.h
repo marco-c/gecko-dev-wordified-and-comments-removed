@@ -13,11 +13,11 @@ h
 "
 #
 include
-<
-math
+"
+SkSafe_math
 .
 h
->
+"
 #
 include
 <

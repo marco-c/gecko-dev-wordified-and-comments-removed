@@ -19,6 +19,13 @@ h
 #
 include
 "
+SkImage
+.
+h
+"
+#
+include
+"
 SkPoint3
 .
 h
@@ -35,9 +42,6 @@ SkReadBuffer
 ;
 class
 SkWriteBuffer
-;
-class
-SkImage
 ;
 class
 SK_API

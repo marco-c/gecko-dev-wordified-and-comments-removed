@@ -11,6 +11,8 @@ SkNx
 .
 h
 "
+namespace
+{
 struct
 Sk4x4f
 {
@@ -1537,5 +1539,6 @@ a
 }
 #
 endif
+}
 #
 endif

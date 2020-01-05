@@ -24,10 +24,7 @@ Extension
 (
 Position
 position
-std
-:
-:
-string
+String
 name
 )
 :
@@ -48,10 +45,7 @@ name
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )
@@ -73,10 +67,7 @@ enable
 ;
 }
 const
-std
-:
-:
-string
+String
 fName
 ;
 typedef

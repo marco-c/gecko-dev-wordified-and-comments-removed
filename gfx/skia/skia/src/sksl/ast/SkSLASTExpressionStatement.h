@@ -52,10 +52,7 @@ expression
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

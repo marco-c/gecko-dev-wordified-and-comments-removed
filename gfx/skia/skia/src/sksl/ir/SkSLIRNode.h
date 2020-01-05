@@ -40,10 +40,7 @@ IRNode
 {
 }
 virtual
-std
-:
-:
-string
+String
 description
 (
 )

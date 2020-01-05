@@ -25,13 +25,6 @@ SkShader
 .
 h
 "
-#
-include
-"
-SkSmallAllocator
-.
-h
-"
 class
 SkPaint
 ;
@@ -155,7 +148,7 @@ source
 const
 SkPaint
 &
-SkTBlitterAllocator
+SkArenaAlloc
 *
 )
 ;
@@ -171,7 +164,7 @@ source
 const
 SkPaint
 &
-SkTBlitterAllocator
+SkArenaAlloc
 *
 )
 ;
@@ -187,7 +180,7 @@ source
 const
 SkPaint
 &
-SkTBlitterAllocator
+SkArenaAlloc
 *
 )
 ;
@@ -203,7 +196,7 @@ source
 const
 SkPaint
 &
-SkTBlitterAllocator
+SkArenaAlloc
 *
 )
 ;

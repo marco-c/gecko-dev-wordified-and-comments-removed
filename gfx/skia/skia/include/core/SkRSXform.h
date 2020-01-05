@@ -7,7 +7,14 @@ SkRSXform_DEFINED
 #
 include
 "
-SkScalar
+SkPoint
+.
+h
+"
+#
+include
+"
+SkSize
 .
 h
 "

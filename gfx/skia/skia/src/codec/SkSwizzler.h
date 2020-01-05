@@ -70,7 +70,7 @@ frame
 =
 nullptr
 bool
-preSwizzled
+skipFormatConversion
 =
 false
 )
@@ -157,6 +157,16 @@ const
 {
 return
 fSwizzleWidth
+;
+}
+size_t
+swizzleOffsetBytes
+(
+)
+const
+{
+return
+fDstOffsetBytes
 ;
 }
 private

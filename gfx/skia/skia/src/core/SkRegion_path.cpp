@@ -109,11 +109,11 @@ SkRgnBuilder
 (
 )
 ;
-virtual
 ~
 SkRgnBuilder
 (
 )
+override
 ;
 bool
 init

@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+SkTemplates
+.
+h
+"
+#
+include
 <
 ctype
 .
