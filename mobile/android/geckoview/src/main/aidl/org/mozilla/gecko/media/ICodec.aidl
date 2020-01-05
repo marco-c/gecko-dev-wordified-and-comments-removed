@@ -139,7 +139,7 @@ configure
 in
 FormatParam
 format
-inout
+in
 Surface
 surface
 int
