@@ -8,7 +8,7 @@ SourcePosition
 }
 ;
 use
-msg
+error_reporting
 :
 :
 ParseErrorReporter

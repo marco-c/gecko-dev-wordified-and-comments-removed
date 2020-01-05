@@ -17,6 +17,12 @@ dom
 OpaqueNode
 ;
 use
+error_reporting
+:
+:
+ParseErrorReporter
+;
+use
 euclid
 :
 :
@@ -30,12 +36,6 @@ matching
 ApplicableDeclarationsCache
 StyleSharingCandidateCache
 }
-;
-use
-msg
-:
-:
-ParseErrorReporter
 ;
 use
 selector_matching
