@@ -304,6 +304,16 @@ data
 [
 Throws
 ]
+Attr
+createAttribute
+(
+DOMString
+localName
+)
+;
+[
+Throws
+]
 Node
 importNode
 (
