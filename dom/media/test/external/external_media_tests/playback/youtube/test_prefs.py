@@ -85,9 +85,7 @@ self
 "
 "
 "
-'
 mediasource
-'
 should
 only
 be
@@ -111,11 +109,9 @@ False
         
 self
 .
-check_src
+check_mse_src
 (
-'
-http
-'
+False
 self
 .
 test_urls
@@ -133,11 +129,9 @@ True
         
 self
 .
-check_src
+check_mse_src
 (
-'
-mediasource
-'
+True
 self
 .
 test_urls
@@ -200,12 +194,30 @@ enabled
 '
 value
 )
+            
+self
+.
+prefs
+.
+set_pref
+(
+'
+media
+.
+mediasource
+.
+webm
+.
+enabled
+'
+value
+)
     
 def
-check_src
+check_mse_src
 (
 self
-src_type
+mse_expected
 url
 )
 :
@@ -233,12 +245,6 @@ marionette
 url
 )
             
-youtube
-.
-attempt_ad_skip
-(
-)
-            
 wait
 =
 Wait
@@ -255,7 +261,7 @@ max_timeout
                                     
 youtube
 .
-player_duration
+expected_duration
 *
 1
 .
@@ -277,12 +283,10 @@ y
 return
 y
 .
-video_src
-.
-startswith
-(
-src_type
-)
+mse_enabled
+=
+=
+mse_expected
             
 verbose_until
 (

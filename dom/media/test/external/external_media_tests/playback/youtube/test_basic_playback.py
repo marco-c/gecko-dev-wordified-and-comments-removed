@@ -39,14 +39,7 @@ media_utils
 .
 youtube_puppeteer
 import
-(
-    
 YouTubePuppeteer
-    
-wait_for_almost_done
-    
-playback_done
-)
 class
 TestBasicYouTubePlayback
 (
@@ -126,22 +119,9 @@ verbose_until
 wait
 youtube
                               
-lambda
-y
-:
-y
+YouTubePuppeteer
 .
-_last_seen_video_state
-.
-                              
-video_src
-.
-startswith
-(
-'
-blob
-'
-)
+mse_enabled
                               
 "
 Failed
@@ -242,12 +222,6 @@ expected_duration
 )
 )
                 
-youtube
-.
-deactivate_autoplay
-(
-)
-                
 final_piece
 =
 60
@@ -257,10 +231,11 @@ try
                     
 time_left
 =
+youtube
+.
 wait_for_almost_done
 (
-youtube
-                                                     
+                        
 final_piece
 =
 final_piece
@@ -320,9 +295,7 @@ left
 .
 format
 (
-youtube
-.
-movie_id
+url
 time_left
 )
 )
@@ -437,6 +410,8 @@ interval
                                   
 youtube
                                   
+YouTubePuppeteer
+.
 playback_done
 )
                 
