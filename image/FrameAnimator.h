@@ -463,8 +463,9 @@ aTime
 LookupResult
 GetCompositedFrame
 (
-uint32_t
-aFrameNum
+AnimationState
+&
+aState
 )
 ;
 void
