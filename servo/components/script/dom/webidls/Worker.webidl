@@ -167,8 +167,6 @@ Worker
 :
 EventTarget
 {
-/
-/
 void
 terminate
 (
