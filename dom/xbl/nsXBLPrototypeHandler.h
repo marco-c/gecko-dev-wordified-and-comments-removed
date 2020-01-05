@@ -293,6 +293,8 @@ nsXBLPrototypeHandler
 nsIContent
 *
 aKeyElement
+bool
+aReserved
 )
 ;
 explicit
@@ -411,6 +413,15 @@ GetType
 {
 return
 mType
+;
+}
+bool
+GetIsReserved
+(
+)
+{
+return
+mReserved
 ;
 }
 nsXBLPrototypeHandler
@@ -888,6 +899,9 @@ mType
 ;
 uint8_t
 mMisc
+;
+bool
+mReserved
 ;
 int32_t
 mKeyMask
