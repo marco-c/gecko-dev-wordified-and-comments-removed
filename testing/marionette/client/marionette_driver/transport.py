@@ -1736,6 +1736,9 @@ self
 sock
 :
             
+try
+:
+                
 self
 .
 sock
@@ -1746,6 +1749,23 @@ socket
 .
 SHUT_RDWR
 )
+            
+except
+IOError
+as
+exc
+:
+                
+if
+exc
+.
+errno
+!
+=
+57
+:
+                    
+raise
             
 self
 .
