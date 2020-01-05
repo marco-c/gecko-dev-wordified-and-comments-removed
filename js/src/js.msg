@@ -1534,13 +1534,11 @@ data
 MSG_DEF
 (
 JSMSG_JSON_CYCLIC_VALUE
-1
+0
 JSEXN_TYPEERR
 "
 cyclic
-{
-0
-}
+object
 value
 "
 )
