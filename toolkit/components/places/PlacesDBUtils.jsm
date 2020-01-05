@@ -1112,6 +1112,14 @@ FROM
 moz_anno_attributes
 WHERE
 name
+=
+'
+downloads
+/
+destinationFileName
+'
+OR
+name
 BETWEEN
 '
 weave
