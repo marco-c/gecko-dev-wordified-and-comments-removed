@@ -6299,7 +6299,7 @@ C
 {
 pub
 fn
-Gecko_CopyClipPathValueFrom
+Gecko_CopyShapeSourceFrom
 (
 dst
 :
@@ -6321,9 +6321,9 @@ C
 {
 pub
 fn
-Gecko_DestroyClipPath
+Gecko_DestroyShapeSource
 (
-clip
+shape
 :
 *
 mut
@@ -6358,9 +6358,9 @@ C
 {
 pub
 fn
-Gecko_StyleClipPath_SetURLValue
+Gecko_StyleShapeSource_SetURLValue
 (
-clip
+shape
 :
 *
 mut
