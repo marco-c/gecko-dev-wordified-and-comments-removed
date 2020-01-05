@@ -31528,8 +31528,9 @@ else
 {
 consumedBSize
 =
-GetConsumedBSize
+ConsumedBSize
 (
+wm
 )
 ;
 gridReflowInput

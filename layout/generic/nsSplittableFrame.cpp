@@ -992,8 +992,10 @@ nscoord
 nsSplittableFrame
 :
 :
-GetConsumedBSize
+ConsumedBSize
 (
+WritingMode
+aWM
 )
 const
 {
@@ -1087,8 +1089,13 @@ NS_INTRINSICSIZE
 {
 aConsumedBSize
 =
-GetConsumedBSize
+ConsumedBSize
 (
+aReflowInput
+.
+GetWritingMode
+(
+)
 )
 ;
 }

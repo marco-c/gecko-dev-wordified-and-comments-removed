@@ -477,7 +477,7 @@ mBorderPadding
 ;
 }
 nscoord
-GetConsumedBSize
+ConsumedBSize
 (
 )
 ;

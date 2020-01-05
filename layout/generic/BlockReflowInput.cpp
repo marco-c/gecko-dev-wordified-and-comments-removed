@@ -653,7 +653,7 @@ nscoord
 BlockReflowInput
 :
 :
-GetConsumedBSize
+ConsumedBSize
 (
 )
 {
@@ -670,8 +670,13 @@ mConsumedBSize
 mBlock
 -
 >
-GetConsumedBSize
+ConsumedBSize
 (
+mReflowInput
+.
+GetWritingMode
+(
+)
 )
 ;
 }

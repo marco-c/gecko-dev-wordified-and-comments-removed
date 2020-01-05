@@ -974,6 +974,15 @@ knownInfeasibleBSize
 =
 aInfeasibleBSize
 ;
+WritingMode
+wm
+=
+aReflowInput
+.
+GetWritingMode
+(
+)
+;
 const
 nsStyleColumn
 *
@@ -1015,8 +1024,9 @@ ComputedISize
 nscoord
 consumedBSize
 =
-GetConsumedBSize
+ConsumedBSize
 (
+wm
 )
 ;
 nscoord
