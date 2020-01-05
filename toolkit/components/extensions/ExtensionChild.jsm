@@ -485,17 +485,6 @@ cloneScope
 }
 )
 ;
-proxyContext
-.
-setContentWindow
-(
-this
-.
-context
-.
-contentWindow
-)
-;
 this
 .
 context

@@ -327,6 +327,15 @@ true
 ;
 let
 {
+contentWindow
+}
+=
+context
+.
+xulBrowser
+;
+let
+{
 icon
 }
 =
@@ -342,8 +351,6 @@ this
 extension
 18
 *
-context
-.
 contentWindow
 .
 devicePixelRatio
@@ -371,7 +378,7 @@ IconDetails
 convertImageURLToDataURL
 (
 icon
-context
+contentWindow
 browserWindow
 )
 .

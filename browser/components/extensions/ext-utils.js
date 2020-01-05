@@ -571,6 +571,8 @@ active
 {
 context
 .
+xulBrowser
+.
 contentWindow
 .
 close
