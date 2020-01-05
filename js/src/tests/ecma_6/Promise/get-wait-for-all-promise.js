@@ -23,6 +23,16 @@ quit
 )
 ;
 }
+let
+GetWaitForAllPromise
+=
+getSelfHostedValue
+(
+'
+GetWaitForAllPromise
+'
+)
+;
 function
 onResolved
 (
@@ -184,7 +194,7 @@ p
 let
 allPromise
 =
-getWaitForAllPromise
+GetWaitForAllPromise
 (
 promises
 )
@@ -241,7 +251,7 @@ originalThen
 .
 call
 (
-getWaitForAllPromise
+GetWaitForAllPromise
 (
 [
 ]
@@ -284,7 +294,7 @@ originalThen
 .
 call
 (
-getWaitForAllPromise
+GetWaitForAllPromise
 (
 [
 ]
