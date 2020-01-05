@@ -1232,9 +1232,6 @@ pc
 (
 )
 ;
-bool
-isTemporarilyUnoptimizable
-;
 SetPropIRGenerator
 gen
 (
