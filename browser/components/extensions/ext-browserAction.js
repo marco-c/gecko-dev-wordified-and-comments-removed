@@ -1247,10 +1247,13 @@ pendingPopup
 )
 {
 let
-{
 node
-}
 =
+window
+.
+gBrowser
+&
+&
 this
 .
 widget
@@ -1259,6 +1262,8 @@ forWindow
 (
 window
 )
+.
+node
 ;
 if
 (
