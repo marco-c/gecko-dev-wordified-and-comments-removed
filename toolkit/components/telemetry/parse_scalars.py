@@ -294,7 +294,7 @@ of
 characters
 .
 "
-                                
+                                 
 .
 format
 (
@@ -410,7 +410,7 @@ ValueError
 (
 error_msg_prefix
 +
-                    
+                                 
 "
 name
 must
@@ -433,7 +433,7 @@ Got
 }
 '
 "
-                    
+                                 
 .
 format
 (
@@ -792,7 +792,7 @@ f
 .
 __name__
 )
-            
+                            
 for
 f
 in
@@ -1721,7 +1721,7 @@ nsITelemetry
 '
 DATASET_RELEASE_CHANNEL_OPTOUT
 '
-            
+                                   
 if
 release_channel_collection
 =
