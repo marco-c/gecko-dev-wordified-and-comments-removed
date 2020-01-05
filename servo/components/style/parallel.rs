@@ -431,8 +431,9 @@ acc
 ;
 aggregate
 .
-compute_traversal_time
+finish
 (
+traversal
 start_time
 .
 unwrap
