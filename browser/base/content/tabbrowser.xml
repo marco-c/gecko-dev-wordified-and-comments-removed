@@ -16762,16 +16762,6 @@ aParams
 skipPermitUnload
 ;
 }
-window
-.
-maybeRecordAbandonmentTelemetry
-(
-aTab
-"
-tabClosed
-"
-)
-;
 /
 /
 Handle
