@@ -555,7 +555,8 @@ HasCachedSelection
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 GetSelectionRange
 (
 int32_t
@@ -564,6 +565,9 @@ aSelectionStart
 int32_t
 *
 aSelectionEnd
+ErrorResult
+&
+aRv
 )
 override
 ;

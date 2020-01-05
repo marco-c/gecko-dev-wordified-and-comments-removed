@@ -39,6 +39,9 @@ nsTextControlFrame
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -439,7 +442,8 @@ nsIContent
 aHost
 )
 ;
-NS_IMETHOD
+virtual
+void
 GetSelectionRange
 (
 int32_t
@@ -448,6 +452,12 @@ aSelectionStart
 int32_t
 *
 aSelectionEnd
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 =
 0
