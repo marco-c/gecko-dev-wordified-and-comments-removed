@@ -2046,7 +2046,7 @@ suspend
 stalled
 "
 "
-mozexitvideosuspend
+mozvideoonlyseekbegin
 "
 "
 mozvideoonlyseekcompleted
@@ -4058,10 +4058,13 @@ immediately
 and
 queue
 a
+video
+-
+only
 seek
+*
 task
 to
-*
 seek
 the
 resumed
@@ -4079,7 +4082,7 @@ also
 file
 a
 "
-mozexitvideosuspend
+mozvideoonlyseekbegin
 "
 event
 which
@@ -5599,7 +5602,7 @@ break
 ;
 case
 "
-mozexitvideosuspend
+mozvideoonlyseekbegin
 "
 :
 this
