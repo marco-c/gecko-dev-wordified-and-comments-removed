@@ -306,10 +306,6 @@ Text
 new
 (
 text
-.
-clone
-(
-)
 &
 *
 document
