@@ -1580,11 +1580,13 @@ this
 .
 elt
 .
-firstChild
+querySelector
+(
+"
 .
-nextSibling
-.
-nextSibling
+close
+"
+)
 )
 ;
 }
