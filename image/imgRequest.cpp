@@ -3630,9 +3630,16 @@ n
 )
 )
 ;
+if
+(
+!
+aIsMultipart
+)
+{
 return
 result
 ;
+}
 }
 }
 if
