@@ -1533,17 +1533,6 @@ vfyserv
 '
 gtests
 /
-google_test
-/
-google_test
-.
-gyp
-:
-gtest1
-'
-'
-gtests
-/
 der_gtest
 /
 der_gtest

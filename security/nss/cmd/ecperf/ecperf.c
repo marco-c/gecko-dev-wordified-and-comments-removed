@@ -51,13 +51,6 @@ h
 "
 #
 include
-"
-secutil
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -245,6 +238,10 @@ isSign
 ;
 }
 ThreadData
+;
+typedef
+SECItem
+SECKEYECParams
 ;
 void
 PKCS11Thread

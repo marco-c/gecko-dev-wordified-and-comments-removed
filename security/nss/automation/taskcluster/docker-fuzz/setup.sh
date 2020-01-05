@@ -115,6 +115,16 @@ apt_packages
 =
 (
 '
+libssl
+-
+dev
+'
+)
+apt_packages
++
+=
+(
+'
 ninja
 -
 build

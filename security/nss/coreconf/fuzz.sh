@@ -105,6 +105,10 @@ Dtest_build
 Dfuzz
 =
 1
+-
+Dsign_libs
+=
+0
 )
 #
 Add
@@ -143,6 +147,10 @@ gyp_params
 (
 -
 Dno_zdefs
+=
+1
+-
+Dfuzz_oss
 =
 1
 )
