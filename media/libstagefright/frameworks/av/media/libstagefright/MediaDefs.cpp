@@ -65,12 +65,6 @@ MEDIA_MIMETYPE_VIDEO_VP9
 "
 video
 /
-x
--
-vnd
-.
-on2
-.
 vp9
 "
 ;
