@@ -639,11 +639,11 @@ shaders
 )
 ;
 let
-hidpi_factor
+scale_factor
 =
 window
 .
-hidpi_factor
+scale_factor
 (
 )
 .
@@ -686,7 +686,7 @@ _
 None
 =
 >
-hidpi_factor
+scale_factor
 }
 }
 ;

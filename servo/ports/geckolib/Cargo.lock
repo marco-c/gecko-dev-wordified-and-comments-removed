@@ -1002,7 +1002,7 @@ winapi
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -1699,7 +1699,7 @@ winapi
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -3599,7 +3599,7 @@ winapi
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -6737,7 +6737,7 @@ winapi
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -8064,7 +8064,7 @@ winapi
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -8105,7 +8105,7 @@ version
 .
 2
 .
-6
+7
 "
 source
 =
