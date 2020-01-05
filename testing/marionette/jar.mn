@@ -175,6 +175,16 @@ js
 )
 content
 /
+cert
+.
+js
+(
+cert
+.
+js
+)
+content
+/
 event
 .
 js
