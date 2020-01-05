@@ -1095,6 +1095,16 @@ nsIAtom
 "
 nsStyleContext
 "
+"
+StyleClipPath
+"
+            
+"
+StyleBasicShapeType
+"
+"
+StyleBasicShape
+"
         
 ]
         
