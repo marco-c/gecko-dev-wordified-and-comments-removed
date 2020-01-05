@@ -1035,11 +1035,6 @@ VisibilityChanged
 )
 ;
 void
-SuspendTaintChanged
-(
-)
-;
-void
 StopPlayback
 (
 )
@@ -1788,12 +1783,6 @@ Mirror
 int64_t
 >
 mDecoderPosition
-;
-Mirror
-<
-bool
->
-mHasSuspendTaint
 ;
 Canonical
 <
