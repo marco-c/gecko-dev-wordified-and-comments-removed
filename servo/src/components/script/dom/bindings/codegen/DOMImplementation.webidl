@@ -165,9 +165,8 @@ version
 ;
 *
 /
-/
-*
 [
+Creator
 Throws
 ]
 DocumentType
@@ -181,8 +180,6 @@ DOMString
 systemId
 )
 ;
-*
-/
 /
 *
 [
