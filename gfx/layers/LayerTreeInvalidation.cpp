@@ -3052,6 +3052,12 @@ Layer
 :
 TYPE_TEXT
 :
+case
+Layer
+:
+:
+TYPE_BORDER
+:
 return
 MakeUnique
 <
