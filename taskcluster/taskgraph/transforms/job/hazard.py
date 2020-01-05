@@ -50,7 +50,7 @@ docker_worker_setup_secrets
     
 docker_worker_add_public_artifacts
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 )
 haz_run_schema
 =
@@ -199,7 +199,7 @@ job
 taskdesc
 )
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 (
 config
 job

@@ -1,4 +1,10 @@
 from
+__future__
+import
+absolute_import
+print_function
+unicode_literals
+from
 voluptuous
 import
 Schema
@@ -45,7 +51,7 @@ common
 import
 (
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 )
 import
 os
@@ -983,10 +989,10 @@ workspace
     
 ]
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 (
 config
-test
+job
 taskdesc
 )
     
