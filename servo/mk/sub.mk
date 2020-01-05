@@ -389,6 +389,17 @@ libparserutils
 (
 NULL
 )
+DEPS_rust
+-
+png
++
+=
+\
+libpng
+\
+(
+NULL
+)
 #
 Platform
 -
