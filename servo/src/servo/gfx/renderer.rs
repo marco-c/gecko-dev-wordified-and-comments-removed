@@ -319,9 +319,7 @@ as
 AzFloat
 a
 :
-0
-.
-5f
+1f
 as
 AzFloat
 }
