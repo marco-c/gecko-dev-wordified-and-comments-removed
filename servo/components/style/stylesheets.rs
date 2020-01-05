@@ -90,6 +90,7 @@ font_face
 :
 {
 FontFaceRule
+Source
 parse_font_face_rule
 iter_font_face_rules_inner
 }
@@ -986,10 +987,10 @@ family
 :
 &
 str
-sources
+source
 :
 &
-Url
+Source
 |
 )
 {

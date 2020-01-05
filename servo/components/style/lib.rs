@@ -277,6 +277,17 @@ Color
 RGBA
 }
 ;
+pub
+use
+font_face
+:
+:
+{
+Source
+LocalSource
+UrlSource_
+}
+;
 mod
 stylesheets
 ;

@@ -2871,7 +2871,7 @@ iter_font_face_rules
 sheet
 |
 family
-url
+src
 |
 {
 self
@@ -2885,7 +2885,10 @@ family
 to_string
 (
 )
-url
+(
+*
+src
+)
 .
 clone
 (
