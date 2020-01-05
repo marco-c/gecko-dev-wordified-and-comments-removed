@@ -16,9 +16,6 @@ export
 ImageCacheTask
 ;
 export
-image_cache_task
-;
-export
 ImageCacheTaskClient
 ;
 import
@@ -407,7 +404,7 @@ Image
 >
 ;
 fn
-image_cache_task
+ImageCacheTask
 (
 resource_task
 :
@@ -417,14 +414,14 @@ ResourceTask
 >
 ImageCacheTask
 {
-image_cache_task_
+ImageCacheTask_
 (
 resource_task
 default_decoder_factory
 )
 }
 fn
-image_cache_task_
+ImageCacheTask_
 (
 resource_task
 :
@@ -2551,7 +2548,7 @@ _response
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -2613,7 +2610,7 @@ _response
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -2726,7 +2723,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -2804,7 +2801,7 @@ _response
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -2885,7 +2882,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -3024,7 +3021,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -3186,7 +3183,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -3340,7 +3337,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -3571,7 +3568,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -3910,7 +3907,7 @@ break
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -4179,7 +4176,7 @@ break
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -4378,7 +4375,7 @@ err
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -4611,7 +4608,7 @@ err
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -4991,7 +4988,7 @@ data
 let
 image_cache_task
 =
-image_cache_task_
+ImageCacheTask_
 (
 mock_resource_task
 decoder_factory
@@ -5241,7 +5238,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -5474,7 +5471,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -5724,7 +5721,7 @@ ok
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )
@@ -5907,7 +5904,7 @@ err
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 mock_resource_task
 )

@@ -95,7 +95,6 @@ image_cache_task
 :
 {
 ImageCacheTask
-image_cache_task
 ImageCacheTaskClient
 }
 ;
@@ -196,7 +195,7 @@ ResourceTask
 let
 image_cache_task
 =
-image_cache_task
+ImageCacheTask
 (
 resource_task
 )
