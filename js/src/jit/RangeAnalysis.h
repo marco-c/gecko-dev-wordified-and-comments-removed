@@ -40,12 +40,6 @@ MIR
 .
 h
 "
-#
-undef
-min
-#
-undef
-max
 namespace
 js
 {

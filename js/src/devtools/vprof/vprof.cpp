@@ -11,7 +11,7 @@ WIN32
 #
 include
 "
-windows
+jswin
 .
 h
 "

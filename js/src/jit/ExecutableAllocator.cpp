@@ -744,14 +744,6 @@ size_t
 granularity
 )
 {
-#
-ifdef
-_MSC_VER
-#
-undef
-max
-#
-endif
 if
 (
 (

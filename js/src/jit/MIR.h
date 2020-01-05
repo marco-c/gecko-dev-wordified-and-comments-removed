@@ -175,9 +175,6 @@ UnboxedObject
 .
 h
 "
-#
-undef
-MemoryBarrier
 namespace
 js
 {

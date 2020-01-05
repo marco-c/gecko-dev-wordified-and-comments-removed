@@ -97,13 +97,6 @@ processthreadsapi
 h
 >
 #
-include
-<
-windows
-.
-h
->
-#
 endif
 #
 include
@@ -214,6 +207,13 @@ h
 include
 "
 jswatchpoint
+.
+h
+"
+#
+include
+"
+jswin
 .
 h
 "
