@@ -1540,14 +1540,7 @@ let
 mut
 synthesized_declaration
 =
-String
-:
-:
-from_str
-(
-&
 property
-)
 ;
 synthesized_declaration
 .
