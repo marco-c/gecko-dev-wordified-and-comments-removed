@@ -1,9 +1,9 @@
 #
 ifndef
-jit_BaselineCacheIR_h
+jit_BaselineCacheIRCompiler_h
 #
 define
-jit_BaselineCacheIR_h
+jit_BaselineCacheIRCompiler_h
 #
 include
 "

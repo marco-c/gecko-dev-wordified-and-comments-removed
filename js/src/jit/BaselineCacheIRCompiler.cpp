@@ -3,7 +3,7 @@ include
 "
 jit
 /
-BaselineCacheIR
+BaselineCacheIRCompiler
 .
 h
 "
