@@ -300,6 +300,9 @@ about
 :
 blank
 instantiation
+[
+NeedsSubjectPrincipal
+]
 readonly
 attribute
 Document
@@ -317,6 +320,9 @@ about
 :
 blank
 instantiation
+[
+NeedsSubjectPrincipal
+]
 readonly
 attribute
 WindowProxy
@@ -494,6 +500,9 @@ HTMLObjectElement
 /
 /
 GetSVGDocument
+[
+NeedsSubjectPrincipal
+]
 Document
 ?
 getSVGDocument

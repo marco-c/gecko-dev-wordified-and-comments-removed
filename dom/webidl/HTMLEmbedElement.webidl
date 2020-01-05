@@ -325,6 +325,9 @@ HTMLEmbedElement
 /
 /
 GetSVGDocument
+[
+NeedsSubjectPrincipal
+]
 Document
 ?
 getSVGDocument
