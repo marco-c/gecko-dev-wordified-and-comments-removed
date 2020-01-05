@@ -3163,6 +3163,14 @@ rust
 -
 cocoa
 \
+platform
+/
+macos
+/
+rust
+-
+task_info
+\
 {
 CFG_SUBMODULES
 }
