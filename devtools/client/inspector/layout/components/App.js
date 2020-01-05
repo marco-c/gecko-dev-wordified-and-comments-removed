@@ -142,6 +142,13 @@ grid
 )
 .
 isRequired
+onToggleGridHighlighter
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 mixins
 :

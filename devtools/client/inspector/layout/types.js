@@ -37,7 +37,7 @@ gridFragments
 :
 PropTypes
 .
-object
+array
 highlighted
 :
 PropTypes
