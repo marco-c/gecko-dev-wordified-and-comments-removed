@@ -117,8 +117,6 @@ Unforgeable
 interface
 Location
 {
-/
-/
 void
 assign
 (
