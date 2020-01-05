@@ -1573,15 +1573,6 @@ nsIFrameLoader
 aFrameLoader
 )
 ;
-nsresult
-GetParentApplication
-(
-mozIApplication
-*
-*
-aApplication
-)
-;
 void
 PresetOpenerWindow
 (

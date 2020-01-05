@@ -2789,8 +2789,6 @@ SendGetProcessAttributes
 &
 mID
 &
-mIsForApp
-&
 mIsForBrowser
 )
 ;
@@ -2833,10 +2831,6 @@ ifdef
 MOZ_WIDGET_GONK
 if
 (
-mIsForApp
-&
-&
-!
 mIsForBrowser
 )
 {
@@ -2845,10 +2839,7 @@ SetProcessName
 NS_LITERAL_STRING
 (
 "
-(
-Preallocated
-app
-)
+Browser
 "
 )
 false
@@ -2862,7 +2853,10 @@ SetProcessName
 NS_LITERAL_STRING
 (
 "
-Browser
+(
+Preallocated
+app
+)
 "
 )
 false
@@ -3337,9 +3331,6 @@ tabId
 ipcContext
 aChromeFlags
 GetID
-(
-)
-IsForApp
 (
 )
 IsForBrowser
@@ -7143,10 +7134,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {
@@ -7160,7 +7147,6 @@ aTabId
 aContext
 aChromeFlags
 aCpID
-aIsForApp
 aIsForBrowser
 )
 ;
@@ -7193,10 +7179,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {
@@ -7211,7 +7193,6 @@ aTabId
 aContext
 aChromeFlags
 aCpID
-aIsForApp
 aIsForBrowser
 )
 ;
@@ -7247,10 +7228,6 @@ const
 ContentParentId
 &
 aCpID
-const
-bool
-&
-aIsForApp
 const
 bool
 &
@@ -7369,10 +7346,6 @@ forget
 mID
 =
 aCpID
-;
-mIsForApp
-=
-aIsForApp
 ;
 mIsForBrowser
 =
@@ -11050,9 +11023,6 @@ IPC_OK
 }
 if
 (
-mIsForApp
-|
-|
 mIsForBrowser
 )
 {

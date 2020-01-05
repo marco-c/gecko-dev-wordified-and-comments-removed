@@ -514,13 +514,6 @@ h
 #
 include
 "
-mozIApplication
-.
-h
-"
-#
-include
-"
 WidgetUtils
 .
 h

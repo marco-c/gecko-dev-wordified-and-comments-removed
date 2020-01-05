@@ -28982,7 +28982,7 @@ ignoreuserfocus
 browserFrame
 -
 >
-GetReallyIsBrowserOrApp
+GetReallyIsBrowser
 (
 )
 )

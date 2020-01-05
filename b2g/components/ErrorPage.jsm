@@ -922,7 +922,7 @@ if
 !
 frameLoader
 .
-ownerIsMozBrowserOrAppFrame
+ownerIsMozBrowserFrame
 )
 {
 return

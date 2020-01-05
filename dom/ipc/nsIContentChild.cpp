@@ -214,10 +214,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {

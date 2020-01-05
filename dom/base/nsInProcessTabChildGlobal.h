@@ -755,7 +755,7 @@ bool
 mLoadingScript
 ;
 bool
-mIsBrowserOrAppFrame
+mIsBrowserFrame
 ;
 bool
 mPreventEventsEscaping
