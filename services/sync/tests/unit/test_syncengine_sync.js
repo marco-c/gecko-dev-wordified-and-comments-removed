@@ -252,7 +252,6 @@ run_next_test
 )
 ;
 }
-async
 function
 promiseClean
 (
@@ -263,10 +262,19 @@ clean
 (
 )
 ;
-await
-promiseStopServer
+return
+new
+Promise
 (
+resolve
+=
+>
 server
+.
+stop
+(
+resolve
+)
 )
 ;
 }
@@ -4500,8 +4508,8 @@ server
 ;
 add_task
 (
-async
 function
+*
 test_processIncoming_store_toFetch
 (
 )
@@ -4834,7 +4842,7 @@ error
 ;
 try
 {
-await
+yield
 sync_engine_and_validate_telem
 (
 engine
@@ -4905,7 +4913,7 @@ modified
 }
 finally
 {
-await
+yield
 promiseClean
 (
 server
@@ -8330,8 +8338,8 @@ server
 ;
 add_task
 (
-async
 function
+*
 test_processIncoming_decrypt_failed
 (
 )
@@ -8791,7 +8799,7 @@ modified
 let
 ping
 =
-await
+yield
 sync_engine_and_validate_telem
 (
 engine
@@ -8932,7 +8940,7 @@ failed
 }
 finally
 {
-await
+yield
 promiseClean
 (
 server
@@ -9350,8 +9358,8 @@ server
 ;
 add_task
 (
-async
 function
+*
 test_uploadOutgoing_failed
 (
 )
@@ -9657,7 +9665,7 @@ enabled
 =
 true
 ;
-await
+yield
 sync_engine_and_validate_telem
 (
 engine
@@ -9735,7 +9743,7 @@ PEPPERCORN_CHANGED
 }
 finally
 {
-await
+yield
 promiseClean
 (
 server
@@ -11070,8 +11078,8 @@ server
 ;
 add_task
 (
-async
 function
+*
 test_sync_partialUpload
 (
 )
@@ -11371,7 +11379,7 @@ error
 ;
 try
 {
-await
+yield
 sync_engine_and_validate_telem
 (
 engine
@@ -11487,7 +11495,7 @@ changedIDs
 }
 finally
 {
-await
+yield
 promiseClean
 (
 server

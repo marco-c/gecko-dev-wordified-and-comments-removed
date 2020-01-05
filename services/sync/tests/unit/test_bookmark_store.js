@@ -187,8 +187,8 @@ com
 ;
 add_task
 (
-async
 function
+*
 test_ignore_specials
 (
 )
@@ -252,7 +252,7 @@ applyIncoming
 record
 )
 ;
-await
+yield
 store
 .
 deletePending
@@ -285,7 +285,7 @@ remove
 record
 )
 ;
-await
+yield
 store
 .
 deletePending
@@ -1914,8 +1914,8 @@ run_next_test
 ;
 add_task
 (
-async
 function
+*
 test_deleted
 (
 )
@@ -2011,7 +2011,7 @@ applyIncoming
 record
 )
 ;
-await
+yield
 store
 .
 deletePending
@@ -3196,8 +3196,8 @@ NS_ERROR_ILLEGAL_VALUE
 }
 add_task
 (
-async
 function
+*
 test_delete_buffering
 (
 )
@@ -3737,7 +3737,7 @@ deleted
 let
 updatedGuids
 =
-await
+yield
 store
 .
 deletePending
