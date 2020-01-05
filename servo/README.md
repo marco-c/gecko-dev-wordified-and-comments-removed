@@ -165,7 +165,6 @@ automake
 cmake
 On
 Fedora
-Core
 :
 sh
 sudo
