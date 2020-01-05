@@ -297,6 +297,11 @@ SyncRunnable
 h
 '
 '
+TaskCategory
+.
+h
+'
+'
 TaskDispatcher
 .
 h

@@ -6094,9 +6094,6 @@ Dispatch
 "
 nsHtml5ExecutorFlusher
 "
-dom
-:
-:
 TaskCategory
 :
 :

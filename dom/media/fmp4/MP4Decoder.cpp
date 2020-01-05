@@ -1145,9 +1145,6 @@ aParent
 >
 AbstractMainThreadFor
 (
-dom
-:
-:
 TaskCategory
 :
 :
