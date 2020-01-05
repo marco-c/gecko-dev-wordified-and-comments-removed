@@ -226,7 +226,8 @@ aRaise
 false
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 ConfigureChildren
 (
 const

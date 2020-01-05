@@ -6616,7 +6616,7 @@ and
 event
 handling
 .
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -6791,7 +6791,7 @@ and
 event
 handling
 .
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
