@@ -641,16 +641,6 @@ nsString
 aURL
 )
 ;
-void
-ActivateUpdateHitRegion
-(
-)
-;
-void
-DeactivateUpdateHitRegion
-(
-)
-;
 nsresult
 GetWindowDimensions
 (

@@ -227,13 +227,6 @@ NotifyCompositorTransaction
 )
 ;
 async
-UpdateHitRegion
-(
-nsRegion
-aRegion
-)
-;
-async
 __delete__
 (
 )
