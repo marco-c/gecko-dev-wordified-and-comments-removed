@@ -1100,6 +1100,13 @@ h
 '
 ipc
 /
+CrossProcessCompositorBridgeParent
+.
+h
+'
+'
+ipc
+/
 GonkNativeHandle
 .
 h
@@ -2208,6 +2215,13 @@ cpp
 ipc
 /
 CompositorThread
+.
+cpp
+'
+'
+ipc
+/
+CrossProcessCompositorBridgeParent
 .
 cpp
 '
