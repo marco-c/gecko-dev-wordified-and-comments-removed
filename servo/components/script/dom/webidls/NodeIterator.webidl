@@ -145,7 +145,7 @@ interface
 NodeIterator
 {
 [
-Constant
+SameObject
 ]
 readonly
 attribute
@@ -204,6 +204,9 @@ previousNode
 (
 )
 ;
+[
+Pure
+]
 void
 detach
 (

@@ -280,13 +280,16 @@ Element
 ?
 parentElement
 ;
+[
+Pure
+]
 boolean
 hasChildNodes
 (
 )
 ;
 [
-Constant
+SameObject
 ]
 readonly
 attribute
@@ -360,6 +363,9 @@ deep
 false
 )
 ;
+[
+Pure
+]
 boolean
 isEqualNode
 (
@@ -410,6 +416,9 @@ DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC
 =
 0x20
 ;
+[
+Pure
+]
 unsigned
 short
 compareDocumentPosition
@@ -418,6 +427,9 @@ Node
 other
 )
 ;
+[
+Pure
+]
 boolean
 contains
 (
@@ -426,6 +438,9 @@ Node
 other
 )
 ;
+[
+Pure
+]
 DOMString
 ?
 lookupPrefix
@@ -435,6 +450,9 @@ DOMString
 namespace
 )
 ;
+[
+Pure
+]
 DOMString
 ?
 lookupNamespaceURI
@@ -444,6 +462,9 @@ DOMString
 prefix
 )
 ;
+[
+Pure
+]
 boolean
 isDefaultNamespace
 (

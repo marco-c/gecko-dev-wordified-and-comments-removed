@@ -125,6 +125,9 @@ ProcessingInstruction
 :
 CharacterData
 {
+[
+Constant
+]
 readonly
 attribute
 DOMString

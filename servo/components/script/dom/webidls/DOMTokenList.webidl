@@ -110,12 +110,18 @@ domtokenlist
 interface
 DOMTokenList
 {
+[
+Pure
+]
 readonly
 attribute
 unsigned
 long
 length
 ;
+[
+Pure
+]
 getter
 DOMString
 ?
@@ -127,6 +133,7 @@ index
 )
 ;
 [
+Pure
 Throws
 ]
 boolean

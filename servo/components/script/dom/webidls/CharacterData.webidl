@@ -151,6 +151,7 @@ CharacterData
 Node
 {
 [
+Pure
 TreatNullAs
 =
 EmptyString
@@ -159,6 +160,9 @@ attribute
 DOMString
 data
 ;
+[
+Pure
+]
 readonly
 attribute
 unsigned
@@ -166,6 +170,7 @@ long
 length
 ;
 [
+Pure
 Throws
 ]
 DOMString

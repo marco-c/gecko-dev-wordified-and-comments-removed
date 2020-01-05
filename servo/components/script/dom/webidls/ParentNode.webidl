@@ -127,7 +127,7 @@ interface
 ParentNode
 {
 [
-Constant
+SameObject
 ]
 readonly
 attribute
@@ -220,6 +220,7 @@ relativeSelectors
 )
 ;
 [
+Pure
 Throws
 ]
 Element
@@ -230,12 +231,8 @@ DOMString
 selectors
 )
 ;
-/
-/
 [
 NewObject
-]
-[
 Throws
 ]
 NodeList

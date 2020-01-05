@@ -116,6 +116,9 @@ Window
 interface
 NonElementParentNode
 {
+[
+Pure
+]
 Element
 ?
 getElementById

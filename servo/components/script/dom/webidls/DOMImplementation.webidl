@@ -208,6 +208,9 @@ DOMString
 title
 )
 ;
+[
+Pure
+]
 boolean
 hasFeature
 (

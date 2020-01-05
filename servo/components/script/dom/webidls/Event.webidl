@@ -171,6 +171,9 @@ eventInitDict
 interface
 Event
 {
+[
+Pure
+]
 readonly
 attribute
 DOMString
@@ -232,11 +235,17 @@ stopImmediatePropagation
 (
 )
 ;
+[
+Pure
+]
 readonly
 attribute
 boolean
 bubbles
 ;
+[
+Pure
+]
 readonly
 attribute
 boolean
@@ -247,6 +256,9 @@ preventDefault
 (
 )
 ;
+[
+Pure
+]
 readonly
 attribute
 boolean
@@ -257,6 +269,9 @@ attribute
 boolean
 isTrusted
 ;
+[
+Constant
+]
 readonly
 attribute
 DOMTimeStamp
