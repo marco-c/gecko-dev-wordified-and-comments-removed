@@ -4323,6 +4323,13 @@ obj
 GetCrossCompartmentWrapper
 (
 )
+ptr
+:
+:
+null
+(
+)
+false
 )
 }
 unsafe
