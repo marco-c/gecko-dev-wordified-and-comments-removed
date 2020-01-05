@@ -352,11 +352,6 @@ bool
 aEnabled
 )
 ;
-void
-FlushActiveReports
-(
-)
-;
 private
 :
 virtual

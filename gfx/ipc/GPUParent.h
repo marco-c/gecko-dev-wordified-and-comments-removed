@@ -274,16 +274,6 @@ aOwnerId
 )
 override
 ;
-bool
-RecvNotifyGpuObservers
-(
-const
-nsCString
-&
-aTopic
-)
-override
-;
 void
 ActorDestroy
 (
