@@ -505,9 +505,6 @@ nsVideoFrame
 (
 )
 ;
-nsMargin
-mBorderPadding
-;
 nsCOMPtr
 <
 nsIContent
