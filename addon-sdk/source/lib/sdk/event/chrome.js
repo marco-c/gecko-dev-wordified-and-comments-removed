@@ -283,11 +283,6 @@ removeObserver
 observerChannel
 topic
 )
-{
-weak
-:
-true
-}
 )
 ;
 return
