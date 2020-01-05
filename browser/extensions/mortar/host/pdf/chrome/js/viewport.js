@@ -2318,6 +2318,9 @@ zoom
 this
 .
 _zoom
+pinchPhase
+:
+0
 }
 )
 ;
