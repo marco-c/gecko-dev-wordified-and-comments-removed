@@ -213,6 +213,10 @@ lexer
 ;
 pub
 mod
+lexer_util
+;
+pub
+mod
 parser
 ;
 pub
@@ -349,10 +353,6 @@ pub
 mod
 html
 {
-pub
-mod
-lexer_util
-;
 pub
 mod
 hubbub_html_parser
