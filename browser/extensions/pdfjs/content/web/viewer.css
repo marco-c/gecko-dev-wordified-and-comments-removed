@@ -11258,7 +11258,7 @@ body
 [
 data
 -
-mozPrintCallback
+pdfjsprinting
 ]
 #
 outerContainer
@@ -11272,7 +11272,7 @@ body
 [
 data
 -
-mozPrintCallback
+pdfjsprinting
 ]
 #
 printContainer
@@ -11340,6 +11340,9 @@ avoid
 #
 printContainer
 canvas
+#
+printContainer
+img
 {
 display
 :
