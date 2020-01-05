@@ -47,7 +47,6 @@ element
 :
 :
 {
-HTMLBRElement
 HTMLDivElement
 HTMLFontElement
 HTMLFormElement
@@ -84,6 +83,15 @@ Heading4
 Heading5
 Heading6
 }
+;
+use
+dom
+:
+:
+htmlbrelement
+:
+:
+HTMLBRElement
 ;
 use
 dom

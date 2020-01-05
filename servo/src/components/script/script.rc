@@ -296,6 +296,10 @@ HTMLBodyElementBinding
 ;
 pub
 mod
+HTMLBRElementBinding
+;
+pub
+mod
 HTMLCollectionBinding
 ;
 pub
@@ -443,6 +447,10 @@ htmlanchorelement
 pub
 mod
 htmlbodyelement
+;
+pub
+mod
+htmlbrelement
 ;
 pub
 mod
