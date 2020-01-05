@@ -499,7 +499,7 @@ NewTree
 )
 )
 ;
-SendShowEvent
+MaybeSendShowEvent
 (
 data
 aShowEvent
