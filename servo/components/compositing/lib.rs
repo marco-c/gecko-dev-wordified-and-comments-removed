@@ -189,12 +189,6 @@ ipc
 IpcSender
 ;
 use
-layout_traits
-:
-:
-LayoutControlChan
-;
-use
 msg
 :
 :
@@ -207,7 +201,10 @@ use
 script_traits
 :
 :
+{
 ConstellationControlMsg
+LayoutControlMsg
+}
 ;
 use
 std
@@ -305,7 +302,10 @@ ConstellationControlMsg
 pub
 layout_chan
 :
-LayoutControlChan
+IpcSender
+<
+LayoutControlMsg
+>
 pub
 chrome_to_paint_chan
 :
