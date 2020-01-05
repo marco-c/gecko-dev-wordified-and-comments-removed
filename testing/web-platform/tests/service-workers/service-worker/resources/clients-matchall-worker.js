@@ -123,6 +123,9 @@ focused
 client
 .
 url
+client
+.
+type
 frame_type
 ]
 )
