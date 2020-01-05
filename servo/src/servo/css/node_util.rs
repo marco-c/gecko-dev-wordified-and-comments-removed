@@ -52,7 +52,15 @@ CompleteSelectResults
 ;
 }
 impl
+<
+'
+self
+>
 NodeUtil
+<
+'
+self
+>
 for
 AbstractNode
 {

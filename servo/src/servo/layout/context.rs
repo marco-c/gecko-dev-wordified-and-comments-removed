@@ -55,9 +55,11 @@ LayoutContext
 {
 font_ctx
 :
+mut
 FontContext
 image_cache
 :
+mut
 LocalImageCache
 doc_url
 :

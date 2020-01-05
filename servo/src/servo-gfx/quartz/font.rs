@@ -308,7 +308,6 @@ data
 }
 }
 }
-pub
 impl
 FontTableMethods
 for
@@ -319,8 +318,8 @@ with_buffer
 (
 blk
 :
-fn
 &
+fn
 (
 *
 u8
@@ -911,14 +910,12 @@ let
 glyphs
 :
 [
-mut
 CGGlyph
 *
 1
 ]
 =
 [
-mut
 0
 as
 CGGlyph

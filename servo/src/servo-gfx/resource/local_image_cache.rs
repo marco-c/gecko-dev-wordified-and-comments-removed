@@ -22,6 +22,9 @@ url
 Url
 ;
 use
+core
+:
+:
 comm
 :
 :
@@ -112,12 +115,10 @@ image_cache_task
 :
 ImageCacheTask
 priv
-mut
 round_number
 :
 uint
 priv
-mut
 on_image_available
 :
 Option
@@ -138,6 +139,7 @@ state_map
 :
 UrlMap
 <
+mut
 ImageState
 >
 }
@@ -145,19 +147,15 @@ priv
 struct
 ImageState
 {
-mut
 prefetched
 :
 bool
-mut
 decoded
 :
 bool
-mut
 last_request_round
 :
 uint
-mut
 last_response
 :
 ImageResponseMsg
@@ -176,6 +174,9 @@ LocalImageCache
 fn
 next_round
 (
+&
+mut
+self
 on_image_available
 :
 fn
@@ -211,6 +212,8 @@ pub
 fn
 prefetch
 (
+&
+self
 url
 :
 &
@@ -259,6 +262,8 @@ pub
 fn
 decode
 (
+&
+self
 url
 :
 &
@@ -307,6 +312,8 @@ pub
 fn
 get_image
 (
+&
+self
 url
 :
 &
@@ -655,6 +662,8 @@ priv
 fn
 get_state
 (
+&
+self
 url
 :
 &
@@ -662,6 +671,7 @@ Url
 )
 -
 >
+mut
 ImageState
 {
 match
@@ -688,6 +698,7 @@ None
 let
 new_state
 =
+mut
 ImageState
 {
 prefetched

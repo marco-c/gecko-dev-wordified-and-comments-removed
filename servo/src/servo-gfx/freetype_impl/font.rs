@@ -180,7 +180,6 @@ bogus
 (
 )
 }
-pub
 impl
 FontTableMethods
 for
@@ -189,10 +188,12 @@ FreeTypeFontTable
 fn
 with_buffer
 (
+&
+self
 _blk
 :
-fn
 &
+fn
 (
 *
 u8
@@ -952,7 +953,6 @@ Err
 }
 }
 }
-pub
 impl
 FontHandleMethods
 for
@@ -974,6 +974,8 @@ pure
 fn
 face_identifier
 (
+&
+self
 )
 -
 >
@@ -1029,6 +1031,8 @@ pure
 fn
 family_name
 (
+&
+self
 )
 -
 >
@@ -1060,6 +1064,8 @@ pure
 fn
 face_name
 (
+&
+self
 )
 -
 >
@@ -1089,6 +1095,8 @@ pure
 fn
 is_italic
 (
+&
+self
 )
 -
 >
@@ -1115,6 +1123,8 @@ pure
 fn
 boldness
 (
+&
+self
 )
 -
 >
@@ -1302,6 +1312,8 @@ default_weight
 fn
 clone_with_style
 (
+&
+self
 fctx
 :
 &
@@ -1369,6 +1381,8 @@ pub
 fn
 glyph_index
 (
+&
+self
 codepoint
 :
 char
@@ -1441,6 +1455,8 @@ pub
 fn
 glyph_h_advance
 (
+&
+self
 glyph
 :
 GlyphIndex
@@ -1612,6 +1628,8 @@ pub
 fn
 get_metrics
 (
+&
+self
 )
 -
 >
@@ -1758,6 +1776,8 @@ max_advance
 fn
 get_table_for_tag
 (
+&
+self
 _tag
 :
 FontTableTag
@@ -1780,6 +1800,8 @@ priv
 fn
 get_face_rec
 (
+&
+self
 )
 -
 >
@@ -1803,6 +1825,8 @@ priv
 fn
 font_units_to_au
 (
+&
+self
 value
 :
 float

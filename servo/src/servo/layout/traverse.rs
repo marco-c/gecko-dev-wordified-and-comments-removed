@@ -10,6 +10,7 @@ FlowContext
 FlowTree
 }
 ;
+pub
 trait
 FlowContextTraversals
 {
@@ -21,6 +22,7 @@ preorder_cb
 &
 fn
 (
+mut
 FlowContext
 )
 )
@@ -33,6 +35,7 @@ postorder_cb
 &
 fn
 (
+mut
 FlowContext
 )
 )
@@ -41,6 +44,7 @@ FlowContext
 impl
 FlowContextTraversals
 for
+mut
 FlowContext
 {
 fn
@@ -51,6 +55,7 @@ preorder_cb
 &
 fn
 (
+mut
 FlowContext
 )
 )
@@ -89,6 +94,7 @@ postorder_cb
 &
 fn
 (
+mut
 FlowContext
 )
 )

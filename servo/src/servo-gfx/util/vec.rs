@@ -61,9 +61,10 @@ uint
 >
 ;
 }
-pub
 impl
 <
+'
+self
 T
 :
 Ord
@@ -76,6 +77,8 @@ T
 >
 for
 &
+'
+self
 [
 T
 ]

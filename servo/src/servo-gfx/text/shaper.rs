@@ -14,6 +14,9 @@ glyph
 GlyphStore
 ;
 use
+text
+:
+:
 harfbuzz
 ;
 pub
@@ -37,6 +40,8 @@ ShaperMethods
 fn
 shape_text
 (
+&
+self
 text
 :
 &
@@ -60,6 +65,7 @@ new
 (
 font
 :
+mut
 Font
 )
 -

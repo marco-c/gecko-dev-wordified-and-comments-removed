@@ -121,11 +121,11 @@ pub
 struct
 RootFlowData
 {
-mut
 box
 :
 Option
 <
+mut
 RenderBox
 >
 }
@@ -161,6 +161,7 @@ bool
 fn
 bubble_widths_root
 (
+mut
 self
 ctx
 :
@@ -171,6 +172,7 @@ LayoutContext
 fn
 assign_widths_root
 (
+mut
 self
 ctx
 :
@@ -181,6 +183,7 @@ LayoutContext
 fn
 assign_height_root
 (
+mut
 self
 ctx
 :
@@ -191,6 +194,7 @@ LayoutContext
 fn
 build_display_list_root
 (
+mut
 self
 a
 :
@@ -253,6 +257,7 @@ false
 fn
 bubble_widths_root
 (
+mut
 self
 ctx
 :
@@ -277,6 +282,7 @@ ctx
 fn
 assign_widths_root
 (
+mut
 self
 ctx
 :
@@ -338,6 +344,7 @@ ctx
 fn
 assign_height_root
 (
+mut
 self
 ctx
 :
@@ -498,6 +505,7 @@ get_used_height
 fn
 build_display_list_root
 (
+mut
 self
 builder
 :

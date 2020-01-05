@@ -145,8 +145,8 @@ const
 self
 cb
 :
-fn
 &
+fn
 (
 uint
 )

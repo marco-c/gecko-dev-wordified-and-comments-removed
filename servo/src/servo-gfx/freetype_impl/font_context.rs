@@ -175,7 +175,6 @@ ctx
 }
 }
 }
-pub
 impl
 FontContextHandleMethods
 for
@@ -205,6 +204,8 @@ ctx
 fn
 create_font_from_identifier
 (
+&
+self
 name
 :
 ~
@@ -265,7 +266,6 @@ FreeTypeFontHandle
 :
 new_from_file
 (
-&
 self
 file_name
 &

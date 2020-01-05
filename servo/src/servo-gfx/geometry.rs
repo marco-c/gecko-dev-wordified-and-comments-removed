@@ -41,7 +41,6 @@ Au
 i32
 )
 ;
-pub
 impl
 Add
 <
@@ -78,7 +77,6 @@ other
 )
 }
 }
-pub
 impl
 Sub
 <
@@ -115,7 +113,6 @@ other
 )
 }
 }
-pub
 impl
 Mul
 <
@@ -152,7 +149,6 @@ other
 )
 }
 }
-pub
 impl
 Div
 <
@@ -189,7 +185,6 @@ other
 )
 }
 }
-pub
 impl
 Modulo
 <
@@ -226,7 +221,6 @@ other
 )
 }
 }
-pub
 impl
 Neg
 <
@@ -255,7 +249,6 @@ self
 )
 }
 }
-pub
 impl
 cmp
 :
@@ -359,7 +352,6 @@ self
 other
 }
 }
-pub
 impl
 cmp
 :
@@ -845,6 +837,7 @@ pure
 fn
 scale_by
 (
+self
 factor
 :
 float

@@ -25,7 +25,7 @@ url
 from_str
 ;
 use
-std
+core
 :
 :
 cell

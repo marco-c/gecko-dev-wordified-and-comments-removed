@@ -1085,10 +1085,6 @@ set_attr
 "
 width
 "
-int
-:
-:
-str
 (
 RUST_JSVAL_TO_INT
 (
@@ -1097,6 +1093,10 @@ arg
 )
 as
 int
+)
+.
+to_str
+(
 )
 )
 }

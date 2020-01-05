@@ -311,6 +311,8 @@ FontContextHandle
 fn
 create_font_from_identifier
 (
+&
+self
 ~
 str
 UsedFontStyle
@@ -445,6 +447,7 @@ instance_cache
 MonoCache
 <
 FontDescriptor
+mut
 Font
 >
 font_list
@@ -662,10 +665,12 @@ new
 :
 <
 FontDescriptor
+mut
 Font
 MonoCache
 <
 FontDescriptor
+mut
 Font
 >
 >
@@ -715,6 +720,9 @@ font_list
 fn
 get_resolved_font_for_style
 (
+&
+mut
+self
 style
 :
 &
@@ -751,6 +759,9 @@ style
 fn
 get_font_by_descriptor
 (
+&
+mut
+self
 desc
 :
 &
@@ -760,6 +771,7 @@ FontDescriptor
 >
 Result
 <
+mut
 Font
 (
 )
@@ -932,6 +944,9 @@ priv
 fn
 create_font_group
 (
+&
+mut
+self
 style
 :
 &
@@ -1068,10 +1083,10 @@ found
 =
 false
 ;
-do
+for
 result
 .
-iter
+each
 |
 font_entry
 |
@@ -1108,7 +1123,6 @@ Font
 :
 new_from_existing_handle
 (
-&
 self
 &
 font_entry
@@ -1133,6 +1147,7 @@ instance
 font
 :
 &
+mut
 Font
 |
 {
@@ -1367,6 +1382,8 @@ priv
 fn
 create_font_instance
 (
+&
+self
 desc
 :
 &
@@ -1376,6 +1393,7 @@ FontDescriptor
 >
 Result
 <
+mut
 Font
 (
 )
@@ -1398,7 +1416,6 @@ Font
 :
 new_from_buffer
 (
-&
 self
 test_font_bin
 (
@@ -1456,7 +1473,6 @@ Font
 :
 new_from_adopted_handle
 (
-&
 self
 handle
 &

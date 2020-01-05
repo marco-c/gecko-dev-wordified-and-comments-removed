@@ -86,7 +86,6 @@ ImageHolder
 url
 :
 Url
-mut
 image
 :
 Option
@@ -97,7 +96,6 @@ ARC
 Image
 >
 >
-mut
 cached_size
 :
 Size2D
@@ -106,8 +104,10 @@ int
 >
 local_image_cache
 :
+mut
 LocalImageCache
 }
+pub
 impl
 ImageHolder
 {
@@ -121,6 +121,7 @@ url
 Url
 local_image_cache
 :
+mut
 LocalImageCache
 )
 -
@@ -319,6 +320,8 @@ pure
 fn
 size
 (
+&
+self
 )
 -
 >
@@ -345,6 +348,9 @@ size
 fn
 get_size
 (
+&
+mut
+self
 )
 -
 >
@@ -429,6 +435,9 @@ None
 fn
 get_image
 (
+&
+mut
+self
 )
 -
 >

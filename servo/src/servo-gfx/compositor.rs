@@ -53,6 +53,8 @@ Compositor
 fn
 begin_drawing
 (
+&
+self
 next_dt
 :
 comm
@@ -67,6 +69,8 @@ LayerBufferSet
 fn
 draw
 (
+&
+self
 next_dt
 :
 comm

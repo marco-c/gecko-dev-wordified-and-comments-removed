@@ -95,6 +95,7 @@ text
 str
 font
 :
+mut
 Font
 glyphs
 :
@@ -150,6 +151,7 @@ deserialize
 self
 fctx
 :
+mut
 FontContext
 )
 -
@@ -237,6 +239,7 @@ new
 (
 font
 :
+mut
 Font
 text
 :
@@ -598,6 +601,8 @@ pure
 fn
 char_len
 (
+&
+self
 )
 -
 >

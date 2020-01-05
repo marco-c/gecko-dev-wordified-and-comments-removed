@@ -794,6 +794,8 @@ item
 fn
 draw_into_context
 (
+&
+self
 ctx
 :
 &

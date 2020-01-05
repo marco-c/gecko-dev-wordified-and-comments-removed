@@ -130,6 +130,8 @@ type
 RenderFn
 =
 &
+'
+self
 fn
 (
 layer

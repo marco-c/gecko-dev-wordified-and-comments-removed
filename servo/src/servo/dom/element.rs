@@ -20,7 +20,7 @@ str
 eq_slice
 ;
 use
-std
+core
 :
 :
 cell
@@ -382,6 +382,7 @@ Option
 Url
 >
 }
+pub
 impl
 Element
 {
