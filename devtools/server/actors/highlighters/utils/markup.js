@@ -741,6 +741,13 @@ function
 isNodeValid
 (
 node
+nodeType
+=
+Ci
+.
+nsIDOMNode
+.
+ELEMENT_NODE
 )
 {
 if
@@ -769,9 +776,7 @@ nodeType
 !
 =
 =
-node
-.
-ELEMENT_NODE
+nodeType
 )
 {
 return
