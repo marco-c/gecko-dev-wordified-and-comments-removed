@@ -371,10 +371,6 @@ eRestyle_CSSAnimations
 "
 *
 "
-eRestyle_SVGAttrAnimations
-"
-*
-"
 eRestyle_StyleAttribute
 "
 *
