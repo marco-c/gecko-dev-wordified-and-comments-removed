@@ -675,6 +675,7 @@ UPLOAD_PATH
 }
 cp
 clang
+*
 .
 tar
 .

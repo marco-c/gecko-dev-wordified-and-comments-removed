@@ -31,7 +31,7 @@ assertions
 :
 false
 "
-import_clang_tidy
+build_clang_tidy
 "
 :
 true
