@@ -1559,6 +1559,9 @@ CacheableChars
 filename
 ;
 bool
+debugEnabled
+;
+bool
 usesMemory
 (
 )
