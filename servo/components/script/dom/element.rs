@@ -2747,7 +2747,7 @@ inline
 fn
 from_declaration
 (
-rule
+declaration
 :
 PropertyDeclaration
 )
@@ -2778,7 +2778,7 @@ vec
 !
 [
 (
-rule
+declaration
 Importance
 :
 :
@@ -6318,10 +6318,6 @@ None
 }
 None
 }
-}
-impl
-Element
-{
 pub
 fn
 is_focusable_area
@@ -6660,10 +6656,6 @@ _
 false
 }
 }
-}
-impl
-Element
-{
 pub
 fn
 push_new_attribute
