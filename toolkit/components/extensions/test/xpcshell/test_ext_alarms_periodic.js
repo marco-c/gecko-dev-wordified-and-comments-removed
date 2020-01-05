@@ -39,6 +39,7 @@ onAlarm
 .
 addListener
 (
+async
 alarm
 =
 >
@@ -78,6 +79,10 @@ clearTimeout
 timer
 )
 ;
+let
+wasCleared
+=
+await
 browser
 .
 alarms
@@ -86,13 +91,7 @@ clear
 (
 ALARM_NAME
 )
-.
-then
-(
-wasCleared
-=
->
-{
+;
 browser
 .
 test
@@ -121,9 +120,6 @@ periodic
 )
 ;
 }
-)
-;
-}
 }
 )
 ;
@@ -147,6 +143,7 @@ timer
 =
 setTimeout
 (
+async
 (
 )
 =
@@ -168,6 +165,10 @@ times
 "
 )
 ;
+let
+wasCleared
+=
+await
 browser
 .
 alarms
@@ -176,13 +177,7 @@ clear
 (
 ALARM_NAME
 )
-.
-then
-(
-wasCleared
-=
->
-{
+;
 browser
 .
 test
@@ -195,9 +190,6 @@ alarm
 was
 cleared
 "
-)
-;
-}
 )
 ;
 browser
