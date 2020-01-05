@@ -2543,6 +2543,13 @@ reportFailure
 msg
 )
 {
+msg
+=
+String
+(
+msg
+)
+;
 var
 lines
 =

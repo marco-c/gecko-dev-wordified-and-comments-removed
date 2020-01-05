@@ -312,6 +312,7 @@ createRefTestEntry
 (
 skip
 skipIf
+error
 )
 :
     
@@ -430,6 +431,22 @@ comment
 in
 skipIf
 ]
+)
+    
+if
+error
+:
+        
+terms
+.
+append
+(
+"
+error
+:
+"
++
+error
 )
     
 line
@@ -1180,6 +1197,24 @@ negative
 =
 dict
     
+errorType
+=
+testRec
+[
+"
+negative
+"
+]
+[
+"
+type
+"
+]
+if
+isNegative
+else
+None
+    
 isSupportFile
 =
 fileNameEndsWith
@@ -1364,6 +1399,7 @@ createRefTestEntry
 (
 refTestSkip
 refTestSkipIf
+errorType
 )
     
 noStrictVariant
@@ -1426,21 +1462,6 @@ testFileName
 =
 testName
         
-if
-isNegative
-:
-            
-testFileName
-=
-addSuffixToFileName
-(
-testFileName
-"
--
-n
-"
-)
-        
 yield
 (
 testFileName
@@ -1500,21 +1521,6 @@ testFileName
 "
 -
 strict
-"
-)
-        
-if
-isNegative
-:
-            
-testFileName
-=
-addSuffixToFileName
-(
-testFileName
-"
--
-n
 "
 )
         

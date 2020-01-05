@@ -1076,6 +1076,12 @@ True
         
 self
 .
+error
+=
+None
+        
+self
+.
 expect
 =
 True
@@ -1136,6 +1142,27 @@ ans
 '
 skip
 '
+        
+if
+self
+.
+error
+is
+not
+None
+:
+            
+ans
++
+=
+'
+error
+=
+'
++
+self
+.
+error
         
 if
 not
