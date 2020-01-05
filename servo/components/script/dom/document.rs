@@ -970,7 +970,6 @@ constellation_msg
 :
 {
 MouseButton
-MozBrowserEvent
 SubpageId
 }
 ;
@@ -1023,7 +1022,10 @@ use
 script_traits
 :
 :
+{
 MouseEventType
+MozBrowserEvent
+}
 ;
 use
 script_traits

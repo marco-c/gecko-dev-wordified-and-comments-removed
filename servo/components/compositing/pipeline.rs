@@ -131,7 +131,6 @@ constellation_msg
 :
 {
 LoadData
-MozBrowserEvent
 WindowSizeData
 }
 ;
@@ -191,6 +190,7 @@ script_traits
 {
 ConstellationControlMsg
 InitialScriptState
+MozBrowserEvent
 }
 ;
 use

@@ -529,7 +529,6 @@ constellation_msg
 :
 {
 MouseButton
-MozBrowserEvent
 PipelineId
 }
 ;
@@ -718,6 +717,7 @@ script_traits
 {
 InitialScriptState
 MouseEventType
+MozBrowserEvent
 NewLayoutInfo
 }
 ;
