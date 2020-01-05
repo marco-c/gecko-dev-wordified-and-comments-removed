@@ -2099,10 +2099,6 @@ mMimeType
 "
 audio
 /
-webm
-;
-codecs
-=
 vorbis
 "
 ;
@@ -2125,10 +2121,6 @@ mMimeType
 "
 audio
 /
-webm
-;
-codecs
-=
 opus
 "
 ;

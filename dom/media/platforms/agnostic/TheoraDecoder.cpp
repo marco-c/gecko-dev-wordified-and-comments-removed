@@ -1352,10 +1352,6 @@ EqualsLiteral
 "
 video
 /
-ogg
-;
-codecs
-=
 theora
 "
 )
