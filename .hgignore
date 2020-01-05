@@ -769,3 +769,12 @@ servo
 /
 .
 hgignore
+#
+Ignore
+Infer
+output
+^
+infer
+-
+out
+/
