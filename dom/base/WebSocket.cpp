@@ -6218,6 +6218,7 @@ GetIsNullPrincipal
 }
 if
 (
+!
 isNullPrincipal
 )
 {

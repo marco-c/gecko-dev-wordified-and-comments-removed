@@ -304,7 +304,6 @@ Assert
 .
 ok
 (
-!
 content
 .
 document
@@ -323,7 +322,6 @@ about
 :
 blank
 should
-not
 be
 a
 codebase
