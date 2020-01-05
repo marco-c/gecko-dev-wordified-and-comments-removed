@@ -1066,7 +1066,7 @@ Android
 )
 :
 '
-arm
+armv7
 -
 linux
 -
