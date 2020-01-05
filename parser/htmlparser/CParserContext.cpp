@@ -243,6 +243,14 @@ mMimeType
 .
 EqualsLiteral
 (
+APPLICATION_WAPXHTML_XML
+)
+|
+|
+mMimeType
+.
+EqualsLiteral
+(
 TEXT_RDF
 )
 )
