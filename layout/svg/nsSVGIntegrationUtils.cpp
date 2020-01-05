@@ -3969,6 +3969,12 @@ maskTransform
 clippedMaskTransform
 ;
 }
+else
+{
+return
+result
+;
+}
 }
 if
 (
