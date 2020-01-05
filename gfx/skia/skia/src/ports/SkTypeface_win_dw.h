@@ -455,6 +455,7 @@ bool
 ForceGDI
 (
 )
+const
 {
 return
 fForceGDI
