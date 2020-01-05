@@ -1450,7 +1450,7 @@ functionBodyEndPosSet
 true
 ;
 }
-bool
+void
 reportError
 (
 ParseNode
