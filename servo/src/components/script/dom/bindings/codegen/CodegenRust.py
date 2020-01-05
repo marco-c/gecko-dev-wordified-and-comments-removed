@@ -15938,7 +15938,7 @@ handler
 &
 PrivateValue
 (
-squirrel_away_unboxed
+squirrel_away_unique
 (
 aObject
 )
@@ -16070,7 +16070,7 @@ u32
                      
 PrivateValue
 (
-squirrel_away_unboxed
+squirrel_away_unique
 (
 aObject
 )
@@ -38845,7 +38845,7 @@ utils
 :
 :
 {
-squirrel_away_unboxed
+squirrel_away_unique
 }
 '
             
