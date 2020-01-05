@@ -790,6 +790,9 @@ userOptedIn
 multi
 |
 |
+disqualified
+|
+|
 getAddonsDisqualifyForMulti
 (
 )
