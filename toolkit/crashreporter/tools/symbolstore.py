@@ -5545,6 +5545,17 @@ path
 _
 '
             
+makecab
+=
+buildconfig
+.
+substs
+[
+'
+MAKECAB
+'
+]
+            
 success
 =
 subprocess
@@ -5552,13 +5563,9 @@ subprocess
 call
 (
 [
-"
 makecab
-.
-exe
 "
-"
-/
+-
 D
 "
                                        

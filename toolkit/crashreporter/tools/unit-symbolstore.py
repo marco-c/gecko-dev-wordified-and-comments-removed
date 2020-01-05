@@ -1723,6 +1723,26 @@ copied
 )
 )
     
+patch
+.
+dict
+(
+'
+buildconfig
+.
+substs
+'
+{
+'
+MAKECAB
+'
+:
+'
+makecab
+'
+}
+)
+    
 def
 test_copy_debug_copies_binaries
 (
