@@ -461,6 +461,10 @@ trace
 JSTracer
 *
 trc
+uint64_t
+minimumId
+=
+0
 )
 ;
 void
@@ -1084,6 +1088,9 @@ cpows_
 ;
 uint64_t
 nextSerialNumber_
+;
+uint64_t
+nextCPOWNumber_
 ;
 ObjectToIdMap
 unwaivedObjectIds_

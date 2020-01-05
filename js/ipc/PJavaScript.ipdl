@@ -619,6 +619,15 @@ __delete__
 (
 )
 ;
+child
+:
+async
+DropTemporaryStrongReferences
+(
+uint64_t
+upToObjId
+)
+;
 }
 ;
 }

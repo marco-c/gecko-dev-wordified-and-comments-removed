@@ -298,6 +298,11 @@ PJavaScriptChild
 child
 )
 ;
+void
+AfterProcessTask
+(
+)
+;
 }
 }
 #
