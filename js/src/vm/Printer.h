@@ -68,7 +68,7 @@ GenericPrinter
 public
 :
 virtual
-int
+bool
 put
 (
 const
@@ -82,7 +82,7 @@ len
 0
 ;
 inline
-int
+bool
 put
 (
 const
@@ -103,7 +103,7 @@ s
 ;
 }
 virtual
-int
+bool
 printf
 (
 const
@@ -121,7 +121,7 @@ MOZ_FORMAT_PRINTF
 )
 ;
 virtual
-int
+bool
 vprintf
 (
 const
@@ -316,7 +316,7 @@ len
 )
 ;
 virtual
-int
+bool
 put
 (
 const
@@ -353,7 +353,7 @@ MOZ_FORMAT_PRINTF
 )
 ;
 virtual
-int
+bool
 vprintf
 (
 const
@@ -365,7 +365,7 @@ ap
 )
 override
 ;
-int
+bool
 putString
 (
 JSString
@@ -465,7 +465,7 @@ finish
 )
 ;
 virtual
-int
+bool
 put
 (
 const
@@ -484,7 +484,7 @@ GenericPrinter
 put
 ;
 virtual
-int
+bool
 printf
 (
 const
@@ -503,7 +503,7 @@ MOZ_FORMAT_PRINTF
 )
 ;
 virtual
-int
+bool
 vprintf
 (
 const
@@ -618,7 +618,7 @@ clear
 )
 ;
 virtual
-int
+bool
 put
 (
 const
@@ -637,7 +637,7 @@ GenericPrinter
 put
 ;
 virtual
-int
+bool
 printf
 (
 const
@@ -656,7 +656,7 @@ MOZ_FORMAT_PRINTF
 )
 ;
 virtual
-int
+bool
 vprintf
 (
 const
