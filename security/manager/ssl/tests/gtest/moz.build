@@ -90,6 +90,11 @@ SOURCES
 =
 [
 '
+CertDBTest
+.
+cpp
+'
+'
 DataStorageTest
 .
 cpp
@@ -106,6 +111,11 @@ cpp
 '
 '
 OCSPCacheTest
+.
+cpp
+'
+'
+STSParserTest
 .
 cpp
 '

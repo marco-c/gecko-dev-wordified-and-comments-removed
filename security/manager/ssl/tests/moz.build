@@ -104,14 +104,6 @@ gtest
 mochitest
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-compiled
-'
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
