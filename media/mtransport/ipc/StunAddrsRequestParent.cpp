@@ -161,6 +161,13 @@ mSTSThread
 ;
 NrIceStunAddrArray
 addrs
+=
+NrIceCtx
+:
+:
+GetStunAddrs
+(
+)
 ;
 RUN_ON_THREAD
 (
