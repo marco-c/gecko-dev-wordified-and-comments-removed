@@ -85,8 +85,6 @@ files
 :
 [
             
-CONFIG_FILE_PATH
-            
 "
 .
 /
@@ -2342,6 +2340,7 @@ file_name
 endswith
 (
 "
+Cargo
 .
 toml
 "

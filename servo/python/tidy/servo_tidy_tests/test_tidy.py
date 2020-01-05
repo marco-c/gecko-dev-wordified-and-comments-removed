@@ -1657,7 +1657,7 @@ collect_errors_for_files
 iterFile
 (
 '
-test
+Cargo
 .
 toml
 '
