@@ -996,6 +996,17 @@ aLastRolledUp
 {
 if
 (
+aLastRolledUp
+)
+{
+*
+aLastRolledUp
+=
+nullptr
+;
+}
+if
+(
 nsXULPopupManager
 :
 :
