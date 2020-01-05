@@ -17512,6 +17512,13 @@ aCBSize
 riFlags
 )
 ;
+childRI
+.
+SetBResize
+(
+true
+)
+;
 ReflowOutput
 childSize
 (
@@ -26617,6 +26624,13 @@ aFragmentainer
 mIsTopOfPage
 :
 false
+;
+childRI
+.
+SetBResize
+(
+true
+)
 ;
 if
 (
