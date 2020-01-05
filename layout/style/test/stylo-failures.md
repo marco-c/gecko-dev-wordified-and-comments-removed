@@ -4435,7 +4435,7 @@ test_bug377947
 .
 html
 [
-2
+1
 ]
 *
 test_value_storage
@@ -4454,7 +4454,7 @@ html
 font
 shorthand
 [
-2
+1
 ]
 *
 test_system_font_serialization
