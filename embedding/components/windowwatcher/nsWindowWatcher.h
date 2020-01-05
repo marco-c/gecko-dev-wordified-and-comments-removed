@@ -224,6 +224,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoOpener
 mozIDOMWindowProxy
 *
 aCurrentWindow
@@ -258,6 +260,8 @@ nsIArray
 aArgv
 bool
 aIsPopupSpam
+bool
+aForceNoOpener
 mozIDOMWindowProxy
 *
 *
@@ -356,6 +360,8 @@ nsPIDOMWindowOuter
 aParent
 bool
 aWindowIsNew
+bool
+aForceNoOpener
 mozIDOMWindowProxy
 *
 *

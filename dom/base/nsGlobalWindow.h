@@ -8291,6 +8291,8 @@ nsAString
 &
 aName
 bool
+aForceNoOpener
+bool
 aLookForCallerOnJSStack
 )
 ;
