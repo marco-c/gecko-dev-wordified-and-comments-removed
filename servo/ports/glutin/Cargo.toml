@@ -175,9 +175,14 @@ github
 .
 com
 /
-tomaka
+servo
 /
 glutin
+"
+branch
+=
+"
+servo
 "
 [
 dependencies
