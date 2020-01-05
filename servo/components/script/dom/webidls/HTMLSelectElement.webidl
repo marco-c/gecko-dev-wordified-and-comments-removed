@@ -319,8 +319,6 @@ DOMString
 error
 )
 ;
-/
-/
 readonly
 attribute
 NodeList

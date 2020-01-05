@@ -932,6 +932,7 @@ value
 impl
 HTMLLabelElement
 {
+pub
 fn
 first_labelable_descendant
 (

@@ -150,8 +150,6 @@ attribute
 double
 optimum
 ;
-/
-/
 readonly
 attribute
 NodeList

@@ -133,8 +133,6 @@ attribute
 double
 position
 ;
-/
-/
 readonly
 attribute
 NodeList
