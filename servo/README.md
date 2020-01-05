@@ -309,6 +309,11 @@ mesa
 libGL
 -
 devel
+mesa
+-
+libEGL
+-
+devel
 glib2
 -
 devel
