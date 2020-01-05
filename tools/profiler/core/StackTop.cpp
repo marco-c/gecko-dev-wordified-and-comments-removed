@@ -1,8 +1,15 @@
 #
+include
+"
+PlatformMacros
+.
+h
+"
+#
 if
 defined
 (
-SPS_OS_darwin
+GP_OS_darwin
 )
 #
 include
@@ -33,7 +40,7 @@ h
 elif
 defined
 (
-SPS_OS_windows
+GP_OS_windows
 )
 #
 include
@@ -64,7 +71,7 @@ guess
 if
 defined
 (
-SPS_OS_darwin
+GP_OS_darwin
 )
 pthread_t
 thread
@@ -83,7 +90,7 @@ thread
 elif
 defined
 (
-SPS_OS_windows
+GP_OS_windows
 )
 #
 if
@@ -95,7 +102,7 @@ _MSC_VER
 &
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 NT_TIB
 *
@@ -137,7 +144,7 @@ __GNUC__
 &
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 NT_TIB
 *
@@ -184,7 +191,7 @@ StackBase
 elif
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 PNT_TIB64
 pTib

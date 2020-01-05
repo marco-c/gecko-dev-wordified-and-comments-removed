@@ -224,7 +224,7 @@ h
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 #
 include
@@ -271,7 +271,7 @@ h
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 extern
 "
@@ -544,7 +544,7 @@ MOZ_WIDGET_GONK
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 if
 (
@@ -571,7 +571,7 @@ endif
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 |
 |

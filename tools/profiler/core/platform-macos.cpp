@@ -936,7 +936,7 @@ return
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 thread_state_flavor_t
 flavor
@@ -982,7 +982,7 @@ endif
 elif
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 thread_state_flavor_t
 flavor
@@ -1288,7 +1288,7 @@ aContext
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 asm
 (
@@ -1342,7 +1342,7 @@ fp
 elif
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 asm
 (

@@ -426,13 +426,13 @@ mRespInfo
 if
 defined
 (
-SPS_OS_linux
+GP_OS_linux
 )
 |
 |
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 public
 :

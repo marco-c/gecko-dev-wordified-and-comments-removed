@@ -38,7 +38,7 @@ h
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 #
 ifndef

@@ -105,7 +105,7 @@ h
 if
 defined
 (
-SPS_OS_windows
+GP_OS_windows
 )
 #
 include

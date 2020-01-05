@@ -342,7 +342,7 @@ if
 !
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 static
 bool
@@ -451,7 +451,7 @@ uc_mcontext
 if
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 sample
 -
@@ -511,7 +511,7 @@ REG_EBP
 elif
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 sample
 -
@@ -571,7 +571,7 @@ REG_RBP
 elif
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 sample
 -
@@ -777,7 +777,7 @@ savedErrno
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 #
 define
@@ -1565,7 +1565,7 @@ false
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 static
 struct
