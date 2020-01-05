@@ -2,7 +2,7 @@ pub
 type
 c_char
 =
-u8
+i8
 ;
 pub
 type
@@ -14,7 +14,7 @@ pub
 type
 nlink_t
 =
-u64
+u32
 ;
 pub
 type
@@ -26,7 +26,7 @@ pub
 type
 suseconds_t
 =
-i64
+i32
 ;
 s
 !
@@ -41,6 +41,9 @@ st_dev
 :
 :
 dev_t
+__pad0
+:
+u64
 pub
 st_ino
 :
@@ -48,17 +51,17 @@ st_ino
 :
 ino_t
 pub
-st_nlink
-:
-:
-:
-nlink_t
-pub
 st_mode
 :
 :
 :
 mode_t
+pub
+st_nlink
+:
+:
+:
+nlink_t
 pub
 st_uid
 :
@@ -71,17 +74,15 @@ st_gid
 :
 :
 gid_t
-__pad0
-:
-:
-:
-c_int
 pub
 st_rdev
 :
 :
 :
 dev_t
+__pad1
+:
+u64
 pub
 st_size
 :
@@ -143,7 +144,7 @@ __unused
 :
 c_long
 ;
-3
+2
 ]
 }
 pub
@@ -156,6 +157,9 @@ st_dev
 :
 :
 dev_t
+__pad0
+:
+u64
 pub
 st_ino
 :
@@ -163,17 +167,17 @@ st_ino
 :
 ino64_t
 pub
-st_nlink
-:
-:
-:
-nlink_t
-pub
 st_mode
 :
 :
 :
 mode_t
+pub
+st_nlink
+:
+:
+:
+nlink_t
 pub
 st_uid
 :
@@ -186,17 +190,17 @@ st_gid
 :
 :
 gid_t
-__pad0
-:
-:
-:
-c_int
 pub
 st_rdev
 :
 :
 :
 dev_t
+__pad2
+:
+:
+:
+c_int
 pub
 st_size
 :
@@ -258,7 +262,7 @@ __reserved
 :
 c_long
 ;
-3
+2
 ]
 }
 pub
@@ -313,27 +317,25 @@ mode
 :
 :
 mode_t
+__pad0
+:
+u16
 pub
 __seq
 :
 :
 :
-uint32_t
-__pad1
-:
-:
-:
-uint32_t
+c_ushort
 __unused1
 :
 :
 :
-uint64_t
+c_ulonglong
 __unused2
 :
 :
 :
-c_ulong
+c_ulonglong
 }
 pub
 struct
@@ -387,12 +389,12 @@ shm_nattch
 :
 :
 shmatt_t
-__unused4
+__reserved1
 :
 :
 :
 c_ulong
-__unused5
+__reserved2
 :
 :
 :
@@ -407,7 +409,7 @@ TIOCGSOFTCAR
 :
 c_ulong
 =
-0x5419
+0x40047464
 ;
 pub
 const
@@ -417,7 +419,7 @@ TIOCSSOFTCAR
 :
 c_ulong
 =
-0x541A
+0x80047465
 ;
 pub
 const
@@ -427,7 +429,7 @@ RLIMIT_NOFILE
 :
 c_int
 =
-7
+6
 ;
 pub
 const
@@ -437,7 +439,7 @@ RLIMIT_NPROC
 :
 c_int
 =
-6
+7
 ;
 pub
 const
@@ -447,7 +449,7 @@ O_APPEND
 :
 c_int
 =
-1024
+0x8
 ;
 pub
 const
@@ -457,7 +459,7 @@ O_CREAT
 :
 c_int
 =
-64
+0x200
 ;
 pub
 const
@@ -467,7 +469,7 @@ O_EXCL
 :
 c_int
 =
-128
+0x800
 ;
 pub
 const
@@ -477,7 +479,7 @@ O_NOCTTY
 :
 c_int
 =
-256
+0x8000
 ;
 pub
 const
@@ -487,7 +489,7 @@ O_NONBLOCK
 :
 c_int
 =
-2048
+0x4000
 ;
 pub
 const
@@ -497,7 +499,7 @@ O_SYNC
 :
 c_int
 =
-1052672
+0x802000
 ;
 pub
 const
@@ -507,7 +509,7 @@ O_RSYNC
 :
 c_int
 =
-1052672
+0x802000
 ;
 pub
 const
@@ -517,7 +519,7 @@ O_DSYNC
 :
 c_int
 =
-4096
+0x2000
 ;
 pub
 const
@@ -527,7 +529,7 @@ O_FSYNC
 :
 c_int
 =
-0x101000
+0x802000
 ;
 pub
 const
@@ -537,7 +539,7 @@ MAP_GROWSDOWN
 :
 c_int
 =
-0x0100
+0x0200
 ;
 pub
 const
@@ -547,7 +549,7 @@ EDEADLK
 :
 c_int
 =
-35
+78
 ;
 pub
 const
@@ -557,7 +559,7 @@ ENAMETOOLONG
 :
 c_int
 =
-36
+63
 ;
 pub
 const
@@ -567,7 +569,7 @@ ENOLCK
 :
 c_int
 =
-37
+79
 ;
 pub
 const
@@ -577,7 +579,7 @@ ENOSYS
 :
 c_int
 =
-38
+90
 ;
 pub
 const
@@ -587,7 +589,7 @@ ENOTEMPTY
 :
 c_int
 =
-39
+66
 ;
 pub
 const
@@ -597,7 +599,7 @@ ELOOP
 :
 c_int
 =
-40
+62
 ;
 pub
 const
@@ -607,7 +609,7 @@ ENOMSG
 :
 c_int
 =
-42
+75
 ;
 pub
 const
@@ -617,7 +619,7 @@ EIDRM
 :
 c_int
 =
-43
+77
 ;
 pub
 const
@@ -627,7 +629,7 @@ ECHRNG
 :
 c_int
 =
-44
+94
 ;
 pub
 const
@@ -637,7 +639,7 @@ EL2NSYNC
 :
 c_int
 =
-45
+95
 ;
 pub
 const
@@ -647,7 +649,7 @@ EL3HLT
 :
 c_int
 =
-46
+96
 ;
 pub
 const
@@ -657,7 +659,7 @@ EL3RST
 :
 c_int
 =
-47
+97
 ;
 pub
 const
@@ -667,7 +669,7 @@ ELNRNG
 :
 c_int
 =
-48
+98
 ;
 pub
 const
@@ -677,7 +679,7 @@ EUNATCH
 :
 c_int
 =
-49
+99
 ;
 pub
 const
@@ -687,7 +689,7 @@ ENOCSI
 :
 c_int
 =
-50
+100
 ;
 pub
 const
@@ -697,7 +699,7 @@ EL2HLT
 :
 c_int
 =
-51
+101
 ;
 pub
 const
@@ -707,7 +709,7 @@ EBADE
 :
 c_int
 =
-52
+102
 ;
 pub
 const
@@ -717,7 +719,7 @@ EBADR
 :
 c_int
 =
-53
+103
 ;
 pub
 const
@@ -727,7 +729,7 @@ EXFULL
 :
 c_int
 =
-54
+104
 ;
 pub
 const
@@ -737,7 +739,7 @@ ENOANO
 :
 c_int
 =
-55
+105
 ;
 pub
 const
@@ -747,7 +749,7 @@ EBADRQC
 :
 c_int
 =
-56
+106
 ;
 pub
 const
@@ -757,7 +759,7 @@ EBADSLT
 :
 c_int
 =
-57
+107
 ;
 pub
 const
@@ -767,7 +769,7 @@ EMULTIHOP
 :
 c_int
 =
-72
+87
 ;
 pub
 const
@@ -777,7 +779,7 @@ EOVERFLOW
 :
 c_int
 =
-75
+92
 ;
 pub
 const
@@ -787,7 +789,7 @@ ENOTUNIQ
 :
 c_int
 =
-76
+115
 ;
 pub
 const
@@ -797,7 +799,7 @@ EBADFD
 :
 c_int
 =
-77
+93
 ;
 pub
 const
@@ -807,7 +809,7 @@ EBADMSG
 :
 c_int
 =
-74
+76
 ;
 pub
 const
@@ -817,7 +819,7 @@ EREMCHG
 :
 c_int
 =
-78
+89
 ;
 pub
 const
@@ -827,7 +829,7 @@ ELIBACC
 :
 c_int
 =
-79
+114
 ;
 pub
 const
@@ -837,7 +839,7 @@ ELIBBAD
 :
 c_int
 =
-80
+112
 ;
 pub
 const
@@ -847,7 +849,7 @@ ELIBSCN
 :
 c_int
 =
-81
+124
 ;
 pub
 const
@@ -857,7 +859,7 @@ ELIBMAX
 :
 c_int
 =
-82
+123
 ;
 pub
 const
@@ -867,7 +869,7 @@ ELIBEXEC
 :
 c_int
 =
-83
+110
 ;
 pub
 const
@@ -877,7 +879,7 @@ EILSEQ
 :
 c_int
 =
-84
+122
 ;
 pub
 const
@@ -887,7 +889,7 @@ ERESTART
 :
 c_int
 =
-85
+116
 ;
 pub
 const
@@ -897,7 +899,7 @@ ESTRPIPE
 :
 c_int
 =
-86
+91
 ;
 pub
 const
@@ -907,7 +909,7 @@ EUSERS
 :
 c_int
 =
-87
+68
 ;
 pub
 const
@@ -917,7 +919,7 @@ ENOTSOCK
 :
 c_int
 =
-88
+38
 ;
 pub
 const
@@ -927,7 +929,7 @@ EDESTADDRREQ
 :
 c_int
 =
-89
+39
 ;
 pub
 const
@@ -937,7 +939,7 @@ EMSGSIZE
 :
 c_int
 =
-90
+40
 ;
 pub
 const
@@ -947,7 +949,7 @@ EPROTOTYPE
 :
 c_int
 =
-91
+41
 ;
 pub
 const
@@ -957,7 +959,7 @@ ENOPROTOOPT
 :
 c_int
 =
-92
+42
 ;
 pub
 const
@@ -967,7 +969,7 @@ EPROTONOSUPPORT
 :
 c_int
 =
-93
+43
 ;
 pub
 const
@@ -977,7 +979,7 @@ ESOCKTNOSUPPORT
 :
 c_int
 =
-94
+44
 ;
 pub
 const
@@ -987,7 +989,7 @@ EOPNOTSUPP
 :
 c_int
 =
-95
+45
 ;
 pub
 const
@@ -997,7 +999,7 @@ EPFNOSUPPORT
 :
 c_int
 =
-96
+46
 ;
 pub
 const
@@ -1007,7 +1009,7 @@ EAFNOSUPPORT
 :
 c_int
 =
-97
+47
 ;
 pub
 const
@@ -1017,7 +1019,7 @@ EADDRINUSE
 :
 c_int
 =
-98
+48
 ;
 pub
 const
@@ -1027,7 +1029,7 @@ EADDRNOTAVAIL
 :
 c_int
 =
-99
+49
 ;
 pub
 const
@@ -1037,7 +1039,7 @@ ENETDOWN
 :
 c_int
 =
-100
+50
 ;
 pub
 const
@@ -1047,7 +1049,7 @@ ENETUNREACH
 :
 c_int
 =
-101
+51
 ;
 pub
 const
@@ -1057,7 +1059,7 @@ ENETRESET
 :
 c_int
 =
-102
+52
 ;
 pub
 const
@@ -1067,7 +1069,7 @@ ECONNABORTED
 :
 c_int
 =
-103
+53
 ;
 pub
 const
@@ -1077,7 +1079,7 @@ ECONNRESET
 :
 c_int
 =
-104
+54
 ;
 pub
 const
@@ -1087,7 +1089,7 @@ ENOBUFS
 :
 c_int
 =
-105
+55
 ;
 pub
 const
@@ -1097,7 +1099,7 @@ EISCONN
 :
 c_int
 =
-106
+56
 ;
 pub
 const
@@ -1107,7 +1109,7 @@ ENOTCONN
 :
 c_int
 =
-107
+57
 ;
 pub
 const
@@ -1117,7 +1119,7 @@ ESHUTDOWN
 :
 c_int
 =
-108
+58
 ;
 pub
 const
@@ -1127,7 +1129,7 @@ ETOOMANYREFS
 :
 c_int
 =
-109
+59
 ;
 pub
 const
@@ -1137,7 +1139,7 @@ ETIMEDOUT
 :
 c_int
 =
-110
+60
 ;
 pub
 const
@@ -1147,7 +1149,7 @@ ECONNREFUSED
 :
 c_int
 =
-111
+61
 ;
 pub
 const
@@ -1157,7 +1159,7 @@ EHOSTDOWN
 :
 c_int
 =
-112
+64
 ;
 pub
 const
@@ -1167,7 +1169,7 @@ EHOSTUNREACH
 :
 c_int
 =
-113
+65
 ;
 pub
 const
@@ -1177,7 +1179,7 @@ EALREADY
 :
 c_int
 =
-114
+37
 ;
 pub
 const
@@ -1187,7 +1189,7 @@ EINPROGRESS
 :
 c_int
 =
-115
+36
 ;
 pub
 const
@@ -1197,7 +1199,7 @@ ESTALE
 :
 c_int
 =
-116
+70
 ;
 pub
 const
@@ -1207,7 +1209,7 @@ EDQUOT
 :
 c_int
 =
-122
+69
 ;
 pub
 const
@@ -1217,7 +1219,7 @@ ENOMEDIUM
 :
 c_int
 =
-123
+125
 ;
 pub
 const
@@ -1227,7 +1229,7 @@ EMEDIUMTYPE
 :
 c_int
 =
-124
+126
 ;
 pub
 const
@@ -1237,7 +1239,7 @@ ECANCELED
 :
 c_int
 =
-125
+127
 ;
 pub
 const
@@ -1247,7 +1249,7 @@ ENOKEY
 :
 c_int
 =
-126
+128
 ;
 pub
 const
@@ -1257,7 +1259,7 @@ EKEYEXPIRED
 :
 c_int
 =
-127
+129
 ;
 pub
 const
@@ -1267,7 +1269,7 @@ EKEYREVOKED
 :
 c_int
 =
-128
+130
 ;
 pub
 const
@@ -1277,7 +1279,7 @@ EKEYREJECTED
 :
 c_int
 =
-129
+131
 ;
 pub
 const
@@ -1287,7 +1289,7 @@ EOWNERDEAD
 :
 c_int
 =
-130
+132
 ;
 pub
 const
@@ -1297,7 +1299,7 @@ ENOTRECOVERABLE
 :
 c_int
 =
-131
+133
 ;
 pub
 const
@@ -1307,7 +1309,7 @@ EHWPOISON
 :
 c_int
 =
-133
+135
 ;
 pub
 const
@@ -1317,7 +1319,7 @@ ERFKILL
 :
 c_int
 =
-132
+134
 ;
 pub
 const
@@ -1327,7 +1329,7 @@ SOL_SOCKET
 :
 c_int
 =
-1
+0xffff
 ;
 pub
 const
@@ -1337,7 +1339,7 @@ SO_REUSEADDR
 :
 c_int
 =
-2
+4
 ;
 pub
 const
@@ -1347,7 +1349,7 @@ SO_TYPE
 :
 c_int
 =
-3
+0x1008
 ;
 pub
 const
@@ -1357,7 +1359,7 @@ SO_ERROR
 :
 c_int
 =
-4
+0x1007
 ;
 pub
 const
@@ -1367,7 +1369,7 @@ SO_DONTROUTE
 :
 c_int
 =
-5
+16
 ;
 pub
 const
@@ -1377,7 +1379,7 @@ SO_BROADCAST
 :
 c_int
 =
-6
+32
 ;
 pub
 const
@@ -1387,7 +1389,7 @@ SO_SNDBUF
 :
 c_int
 =
-7
+0x1001
 ;
 pub
 const
@@ -1397,7 +1399,7 @@ SO_RCVBUF
 :
 c_int
 =
-8
+0x1002
 ;
 pub
 const
@@ -1407,7 +1409,7 @@ SO_KEEPALIVE
 :
 c_int
 =
-9
+8
 ;
 pub
 const
@@ -1417,7 +1419,7 @@ SO_OOBINLINE
 :
 c_int
 =
-10
+0x100
 ;
 pub
 const
@@ -1427,7 +1429,7 @@ SO_LINGER
 :
 c_int
 =
-13
+128
 ;
 pub
 const
@@ -1437,7 +1439,7 @@ SO_REUSEPORT
 :
 c_int
 =
-15
+0x200
 ;
 pub
 const
@@ -1447,7 +1449,7 @@ SO_ACCEPTCONN
 :
 c_int
 =
-30
+0x8000
 ;
 pub
 const
@@ -1457,7 +1459,7 @@ SA_ONSTACK
 :
 c_int
 =
-0x08000000
+1
 ;
 pub
 const
@@ -1467,7 +1469,7 @@ SA_SIGINFO
 :
 c_int
 =
-0x00000004
+0x200
 ;
 pub
 const
@@ -1477,7 +1479,7 @@ SA_NOCLDWAIT
 :
 c_int
 =
-0x00000002
+0x100
 ;
 pub
 const
@@ -1487,7 +1489,7 @@ SIGCHLD
 :
 c_int
 =
-17
+20
 ;
 pub
 const
@@ -1497,7 +1499,7 @@ SIGBUS
 :
 c_int
 =
-7
+10
 ;
 pub
 const
@@ -1507,7 +1509,7 @@ SIGUSR1
 :
 c_int
 =
-10
+30
 ;
 pub
 const
@@ -1517,7 +1519,7 @@ SIGUSR2
 :
 c_int
 =
-12
+31
 ;
 pub
 const
@@ -1527,7 +1529,7 @@ SIGCONT
 :
 c_int
 =
-18
+19
 ;
 pub
 const
@@ -1537,7 +1539,7 @@ SIGSTOP
 :
 c_int
 =
-19
+17
 ;
 pub
 const
@@ -1547,7 +1549,7 @@ SIGTSTP
 :
 c_int
 =
-20
+18
 ;
 pub
 const
@@ -1557,7 +1559,7 @@ SIGURG
 :
 c_int
 =
-23
+16
 ;
 pub
 const
@@ -1567,7 +1569,7 @@ SIGIO
 :
 c_int
 =
-29
+23
 ;
 pub
 const
@@ -1577,27 +1579,7 @@ SIGSYS
 :
 c_int
 =
-31
-;
-pub
-const
-SIGSTKFLT
-:
-:
-:
-c_int
-=
-16
-;
-pub
-const
-SIGUNUSED
-:
-:
-:
-c_int
-=
-31
+12
 ;
 pub
 const
@@ -1607,7 +1589,7 @@ SIGPOLL
 :
 c_int
 =
-29
+23
 ;
 pub
 const
@@ -1617,7 +1599,7 @@ SIGPWR
 :
 c_int
 =
-30
+29
 ;
 pub
 const
@@ -1627,7 +1609,7 @@ SIG_SETMASK
 :
 c_int
 =
-2
+4
 ;
 pub
 const
@@ -1637,7 +1619,7 @@ SIG_BLOCK
 :
 c_int
 =
-0x000000
+1
 ;
 pub
 const
@@ -1647,7 +1629,7 @@ SIG_UNBLOCK
 :
 c_int
 =
-0x01
+2
 ;
 pub
 const
@@ -1657,7 +1639,7 @@ POLLWRNORM
 :
 c_short
 =
-0x100
+4
 ;
 pub
 const
@@ -1667,7 +1649,7 @@ POLLWRBAND
 :
 c_short
 =
-0x200
+0x100
 ;
 pub
 const
@@ -1677,7 +1659,7 @@ O_ASYNC
 :
 c_int
 =
-0x2000
+0x40
 ;
 pub
 const
@@ -1687,7 +1669,7 @@ O_NDELAY
 :
 c_int
 =
-0x800
+0x4004
 ;
 pub
 const
@@ -1697,7 +1679,7 @@ PTRACE_DETACH
 :
 c_uint
 =
-17
+11
 ;
 pub
 const
@@ -1707,7 +1689,7 @@ EFD_NONBLOCK
 :
 c_int
 =
-0x800
+0x4000
 ;
 pub
 const
@@ -1717,7 +1699,7 @@ F_GETLK
 :
 c_int
 =
-5
+7
 ;
 pub
 const
@@ -1727,7 +1709,7 @@ F_GETOWN
 :
 c_int
 =
-9
+5
 ;
 pub
 const
@@ -1737,7 +1719,7 @@ F_SETOWN
 :
 c_int
 =
-8
+6
 ;
 pub
 const
@@ -1747,7 +1729,7 @@ F_SETLK
 :
 c_int
 =
-6
+8
 ;
 pub
 const
@@ -1757,7 +1739,7 @@ F_SETLKW
 :
 c_int
 =
-7
+9
 ;
 pub
 const
@@ -1767,7 +1749,7 @@ SFD_NONBLOCK
 :
 c_int
 =
-0x0800
+0x4000
 ;
 pub
 const
@@ -1777,7 +1759,7 @@ TIOCEXCL
 :
 c_ulong
 =
-0x540C
+0x2000740d
 ;
 pub
 const
@@ -1787,7 +1769,7 @@ TIOCNXCL
 :
 c_ulong
 =
-0x540D
+0x2000740e
 ;
 pub
 const
@@ -1797,7 +1779,7 @@ TIOCSCTTY
 :
 c_ulong
 =
-0x540E
+0x20007484
 ;
 pub
 const
@@ -1807,7 +1789,7 @@ TIOCSTI
 :
 c_ulong
 =
-0x5412
+0x80017472
 ;
 pub
 const
@@ -1817,7 +1799,7 @@ TIOCMGET
 :
 c_ulong
 =
-0x5415
+0x4004746a
 ;
 pub
 const
@@ -1827,7 +1809,7 @@ TIOCMBIS
 :
 c_ulong
 =
-0x5416
+0x8004746c
 ;
 pub
 const
@@ -1837,7 +1819,7 @@ TIOCMBIC
 :
 c_ulong
 =
-0x5417
+0x8004746b
 ;
 pub
 const
@@ -1847,7 +1829,7 @@ TIOCMSET
 :
 c_ulong
 =
-0x5418
+0x8004746d
 ;
 pub
 const
@@ -1857,17 +1839,7 @@ TIOCCONS
 :
 c_ulong
 =
-0x541D
-;
-pub
-const
-CLONE_NEWCGROUP
-:
-:
-:
-c_int
-=
-0x02000000
+0x20007424
 ;
 pub
 const
@@ -1877,7 +1849,7 @@ SFD_CLOEXEC
 :
 c_int
 =
-0x080000
+0x400000
 ;
 pub
 const
@@ -1885,7 +1857,7 @@ NCCS
 :
 usize
 =
-32
+17
 ;
 pub
 const
@@ -1895,7 +1867,7 @@ O_TRUNC
 :
 c_int
 =
-512
+0x400
 ;
 pub
 const
@@ -1905,7 +1877,7 @@ O_CLOEXEC
 :
 c_int
 =
-0x80000
+0x400000
 ;
 pub
 const
@@ -1915,7 +1887,7 @@ EBFONT
 :
 c_int
 =
-59
+109
 ;
 pub
 const
@@ -1925,7 +1897,7 @@ ENOSTR
 :
 c_int
 =
-60
+72
 ;
 pub
 const
@@ -1935,7 +1907,7 @@ ENODATA
 :
 c_int
 =
-61
+111
 ;
 pub
 const
@@ -1945,7 +1917,7 @@ ETIME
 :
 c_int
 =
-62
+73
 ;
 pub
 const
@@ -1955,7 +1927,7 @@ ENOSR
 :
 c_int
 =
-63
+74
 ;
 pub
 const
@@ -1965,7 +1937,7 @@ ENONET
 :
 c_int
 =
-64
+80
 ;
 pub
 const
@@ -1975,7 +1947,7 @@ ENOPKG
 :
 c_int
 =
-65
+113
 ;
 pub
 const
@@ -1985,7 +1957,7 @@ EREMOTE
 :
 c_int
 =
-66
+71
 ;
 pub
 const
@@ -1995,7 +1967,7 @@ ENOLINK
 :
 c_int
 =
-67
+82
 ;
 pub
 const
@@ -2005,7 +1977,7 @@ EADV
 :
 c_int
 =
-68
+83
 ;
 pub
 const
@@ -2015,7 +1987,7 @@ ESRMNT
 :
 c_int
 =
-69
+84
 ;
 pub
 const
@@ -2025,7 +1997,7 @@ ECOMM
 :
 c_int
 =
-70
+85
 ;
 pub
 const
@@ -2035,7 +2007,7 @@ EPROTO
 :
 c_int
 =
-71
+86
 ;
 pub
 const
@@ -2045,7 +2017,7 @@ EDOTDOT
 :
 c_int
 =
-73
+88
 ;
 pub
 const
@@ -2055,7 +2027,7 @@ SA_NODEFER
 :
 c_int
 =
-0x40000000
+0x20
 ;
 pub
 const
@@ -2065,7 +2037,7 @@ SA_RESETHAND
 :
 c_int
 =
-0x80000000
+0x4
 ;
 pub
 const
@@ -2075,7 +2047,7 @@ SA_RESTART
 :
 c_int
 =
-0x10000000
+0x2
 ;
 pub
 const
@@ -2085,7 +2057,7 @@ SA_NOCLDSTOP
 :
 c_int
 =
-0x00000001
+0x00000008
 ;
 pub
 const
@@ -2095,7 +2067,7 @@ EPOLL_CLOEXEC
 :
 c_int
 =
-0x80000
+0x400000
 ;
 pub
 const
@@ -2105,7 +2077,7 @@ EFD_CLOEXEC
 :
 c_int
 =
-0x80000
+0x400000
 ;
 pub
 const
@@ -2139,7 +2111,7 @@ O_DIRECTORY
 :
 c_int
 =
-0x4000
+0o200000
 ;
 pub
 const
@@ -2149,7 +2121,7 @@ O_NOFOLLOW
 :
 c_int
 =
-0x8000
+0o400000
 ;
 pub
 const
@@ -2159,7 +2131,7 @@ O_DIRECT
 :
 c_int
 =
-0x20000
+0x100000
 ;
 pub
 const
@@ -2169,7 +2141,7 @@ MAP_LOCKED
 :
 c_int
 =
-0x00080
+0x0100
 ;
 pub
 const
@@ -2189,7 +2161,7 @@ EDEADLOCK
 :
 c_int
 =
-58
+108
 ;
 pub
 const
@@ -2199,7 +2171,7 @@ SO_PEERCRED
 :
 c_int
 =
-21
+0x40
 ;
 pub
 const
@@ -2209,7 +2181,7 @@ SO_RCVLOWAT
 :
 c_int
 =
-16
+0x800
 ;
 pub
 const
@@ -2219,7 +2191,7 @@ SO_SNDLOWAT
 :
 c_int
 =
-17
+0x1000
 ;
 pub
 const
@@ -2229,7 +2201,7 @@ SO_RCVTIMEO
 :
 c_int
 =
-18
+0x2000
 ;
 pub
 const
@@ -2239,7 +2211,7 @@ SO_SNDTIMEO
 :
 c_int
 =
-19
+0x4000
 ;
 pub
 const
@@ -2269,7 +2241,7 @@ SYS_gettid
 :
 c_long
 =
-207
+143
 ;
 pub
 const
@@ -2279,7 +2251,7 @@ SYS_perf_event_open
 :
 c_long
 =
-319
+327
 ;
 pub
 const
@@ -2309,7 +2281,7 @@ SIGSTKSZ
 :
 size_t
 =
-0x4000
+16384
 ;
 pub
 const
@@ -2319,7 +2291,7 @@ CBAUD
 :
 tcflag_t
 =
-0xff
+0x0000100f
 ;
 pub
 const
@@ -2329,7 +2301,7 @@ TAB1
 :
 c_int
 =
-0x400
+0x800
 ;
 pub
 const
@@ -2339,7 +2311,7 @@ TAB2
 :
 c_int
 =
-0x800
+0x1000
 ;
 pub
 const
@@ -2349,7 +2321,7 @@ TAB3
 :
 c_int
 =
-0xc00
+0x1800
 ;
 pub
 const
@@ -2359,7 +2331,7 @@ CR1
 :
 c_int
 =
-0x1000
+0x200
 ;
 pub
 const
@@ -2369,7 +2341,7 @@ CR2
 :
 c_int
 =
-0x2000
+0x400
 ;
 pub
 const
@@ -2379,7 +2351,7 @@ CR3
 :
 c_int
 =
-0x3000
+0x600
 ;
 pub
 const
@@ -2389,7 +2361,7 @@ FF1
 :
 c_int
 =
-0x4000
+0x8000
 ;
 pub
 const
@@ -2399,7 +2371,7 @@ BS1
 :
 c_int
 =
-0x8000
+0x2000
 ;
 pub
 const
@@ -2409,7 +2381,7 @@ VT1
 :
 c_int
 =
-0x10000
+0x4000
 ;
 pub
 const
@@ -2417,7 +2389,7 @@ VWERASE
 :
 usize
 =
-0xa
+0xe
 ;
 pub
 const
@@ -2425,7 +2397,7 @@ VREPRINT
 :
 usize
 =
-0xb
+0xc
 ;
 pub
 const
@@ -2433,7 +2405,7 @@ VSUSP
 :
 usize
 =
-0xc
+0xa
 ;
 pub
 const
@@ -2441,7 +2413,7 @@ VSTART
 :
 usize
 =
-0xd
+0x8
 ;
 pub
 const
@@ -2449,7 +2421,7 @@ VSTOP
 :
 usize
 =
-0xe
+0x9
 ;
 pub
 const
@@ -2457,7 +2429,7 @@ VDISCARD
 :
 usize
 =
-0x10
+0xd
 ;
 pub
 const
@@ -2465,7 +2437,7 @@ VTIME
 :
 usize
 =
-0x7
+0x5
 ;
 pub
 const
@@ -2475,7 +2447,7 @@ IXON
 :
 tcflag_t
 =
-0x200
+0x400
 ;
 pub
 const
@@ -2485,7 +2457,7 @@ IXOFF
 :
 tcflag_t
 =
-0x400
+0x1000
 ;
 pub
 const
@@ -2495,7 +2467,7 @@ ONLCR
 :
 tcflag_t
 =
-0x2
+0x4
 ;
 pub
 const
@@ -2505,7 +2477,7 @@ CSIZE
 :
 tcflag_t
 =
-0x300
+0x30
 ;
 pub
 const
@@ -2515,7 +2487,7 @@ CS6
 :
 tcflag_t
 =
-0x100
+0x10
 ;
 pub
 const
@@ -2525,7 +2497,7 @@ CS7
 :
 tcflag_t
 =
-0x200
+0x20
 ;
 pub
 const
@@ -2535,7 +2507,7 @@ CS8
 :
 tcflag_t
 =
-0x300
+0x30
 ;
 pub
 const
@@ -2545,7 +2517,7 @@ CSTOPB
 :
 tcflag_t
 =
-0x400
+0x40
 ;
 pub
 const
@@ -2555,7 +2527,7 @@ CREAD
 :
 tcflag_t
 =
-0x800
+0x80
 ;
 pub
 const
@@ -2565,7 +2537,7 @@ PARENB
 :
 tcflag_t
 =
-0x1000
+0x100
 ;
 pub
 const
@@ -2575,7 +2547,7 @@ PARODD
 :
 tcflag_t
 =
-0x2000
+0x200
 ;
 pub
 const
@@ -2585,7 +2557,7 @@ HUPCL
 :
 tcflag_t
 =
-0x4000
+0x400
 ;
 pub
 const
@@ -2595,7 +2567,7 @@ CLOCAL
 :
 tcflag_t
 =
-0x8000
+0x800
 ;
 pub
 const
@@ -2605,7 +2577,7 @@ ECHOKE
 :
 tcflag_t
 =
-0x1
+0x800
 ;
 pub
 const
@@ -2615,7 +2587,7 @@ ECHOE
 :
 tcflag_t
 =
-0x2
+0x10
 ;
 pub
 const
@@ -2625,7 +2597,7 @@ ECHOK
 :
 tcflag_t
 =
-0x4
+0x20
 ;
 pub
 const
@@ -2635,7 +2607,7 @@ ECHONL
 :
 tcflag_t
 =
-0x10
+0x40
 ;
 pub
 const
@@ -2645,7 +2617,7 @@ ECHOPRT
 :
 tcflag_t
 =
-0x20
+0x400
 ;
 pub
 const
@@ -2655,7 +2627,7 @@ ECHOCTL
 :
 tcflag_t
 =
-0x40
+0x200
 ;
 pub
 const
@@ -2665,7 +2637,7 @@ ISIG
 :
 tcflag_t
 =
-0x80
+0x1
 ;
 pub
 const
@@ -2675,7 +2647,7 @@ ICANON
 :
 tcflag_t
 =
-0x100
+0x2
 ;
 pub
 const
@@ -2685,7 +2657,7 @@ PENDIN
 :
 tcflag_t
 =
-0x20000000
+0x4000
 ;
 pub
 const
@@ -2695,7 +2667,7 @@ NOFLSH
 :
 tcflag_t
 =
-0x80000000
+0x80
 ;
 pub
 const
@@ -2703,7 +2675,7 @@ VEOL
 :
 usize
 =
-6
+5
 ;
 pub
 const
@@ -2711,7 +2683,7 @@ VEOL2
 :
 usize
 =
-8
+6
 ;
 pub
 const
@@ -2719,7 +2691,7 @@ VMIN
 :
 usize
 =
-5
+4
 ;
 pub
 const
@@ -2729,7 +2701,7 @@ IEXTEN
 :
 tcflag_t
 =
-0x400
+0x8000
 ;
 pub
 const
@@ -2739,7 +2711,7 @@ TOSTOP
 :
 tcflag_t
 =
-0x400000
+0x100
 ;
 pub
 const
@@ -2749,7 +2721,7 @@ FLUSHO
 :
 tcflag_t
 =
-0x800000
+0x2000
 ;
 pub
 const
@@ -2759,7 +2731,7 @@ EXTPROC
 :
 tcflag_t
 =
-0x10000000
+0x10000
 ;
 pub
 const
@@ -2769,7 +2741,7 @@ TCGETS
 :
 c_ulong
 =
-0x403c7413
+0x40245408
 ;
 pub
 const
@@ -2779,7 +2751,7 @@ TCSETS
 :
 c_ulong
 =
-0x803c7414
+0x80245409
 ;
 pub
 const
@@ -2789,7 +2761,7 @@ TCSETSW
 :
 c_ulong
 =
-0x803c7415
+0x8024540a
 ;
 pub
 const
@@ -2799,7 +2771,7 @@ TCSETSF
 :
 c_ulong
 =
-0x803c7416
+0x8024540b
 ;
 pub
 const
@@ -2809,7 +2781,7 @@ TCGETA
 :
 c_ulong
 =
-0x40147417
+0x40125401
 ;
 pub
 const
@@ -2819,7 +2791,7 @@ TCSETA
 :
 c_ulong
 =
-0x80147418
+0x80125402
 ;
 pub
 const
@@ -2829,7 +2801,7 @@ TCSETAW
 :
 c_ulong
 =
-0x80147419
+0x80125403
 ;
 pub
 const
@@ -2839,7 +2811,7 @@ TCSETAF
 :
 c_ulong
 =
-0x8014741c
+0x80125404
 ;
 pub
 const
@@ -2849,7 +2821,7 @@ TCSBRK
 :
 c_ulong
 =
-0x2000741d
+0x20005405
 ;
 pub
 const
@@ -2859,7 +2831,7 @@ TCXONC
 :
 c_ulong
 =
-0x2000741e
+0x20005406
 ;
 pub
 const
@@ -2869,7 +2841,7 @@ TCFLSH
 :
 c_ulong
 =
-0x2000741f
+0x20005407
 ;
 pub
 const
@@ -2889,7 +2861,7 @@ TIOCGPGRP
 :
 c_ulong
 =
-0x40047477
+0x40047483
 ;
 pub
 const
@@ -2899,7 +2871,7 @@ TIOCSPGRP
 :
 c_ulong
 =
-0x80047476
+0x80047482
 ;
 pub
 const

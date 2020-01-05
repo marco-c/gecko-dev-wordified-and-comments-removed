@@ -233,7 +233,6 @@ ar
 "
 )
 ;
-return
 t
 }
 pub
@@ -280,7 +279,6 @@ msvc
 =
 true
 ;
-return
 t
 }
 pub
@@ -350,7 +348,6 @@ or_else
 |
 _
 |
-{
 fs
 :
 :
@@ -383,7 +380,6 @@ _
 (
 )
 )
-}
 )
 .
 unwrap
@@ -619,7 +615,6 @@ exe
 )
 ;
 }
-return
 cfg
 }
 pub
@@ -877,7 +872,6 @@ any
 |
 arg
 |
-{
 OsStr
 :
 :
@@ -888,7 +882,6 @@ arg
 =
 =
 p
-}
 )
 }
 }

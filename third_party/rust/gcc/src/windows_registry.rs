@@ -318,7 +318,6 @@ INCLUDE
 include
 )
 ;
-return
 tool
 }
 }
@@ -335,6 +334,7 @@ msvc
 {
 return
 None
+;
 }
 if
 tool
@@ -351,6 +351,7 @@ find_msbuild
 (
 target
 )
+;
 }
 if
 env
@@ -383,7 +384,6 @@ and_then
 |
 path
 |
-{
 env
 :
 :
@@ -417,7 +417,6 @@ exists
 (
 )
 )
-}
 )
 .
 map
@@ -425,7 +424,6 @@ map
 |
 path
 |
-{
 Tool
 :
 :
@@ -437,8 +435,8 @@ into
 (
 )
 )
-}
 )
+;
 }
 return
 find_msvc_latest
@@ -456,7 +454,6 @@ or_else
 (
 |
 |
-{
 find_msvc_latest
 (
 tool
@@ -467,33 +464,28 @@ target
 0
 "
 )
-}
 )
 .
 or_else
 (
 |
 |
-{
 find_msvc_12
 (
 tool
 target
 )
-}
 )
 .
 or_else
 (
 |
 |
-{
 find_msvc_11
 (
 tool
 target
 )
-}
 )
 ;
 fn
@@ -927,6 +919,7 @@ else
 {
 return
 None
+;
 }
 Some
 (
@@ -1485,7 +1478,6 @@ sub
 host
 )
 |
-{
 (
 path
 .
@@ -1519,7 +1511,6 @@ join
 host
 )
 )
-}
 )
 .
 filter
@@ -1532,13 +1523,11 @@ path
 _
 )
 |
-{
 path
 .
 is_file
 (
 )
-}
 )
 .
 map
@@ -1895,13 +1884,11 @@ filter_map
 |
 dir
 |
-{
 dir
 .
 ok
 (
 )
-}
 )
 .
 map
@@ -1909,13 +1896,11 @@ map
 |
 dir
 |
-{
 dir
 .
 path
 (
 )
-}
 )
 .
 filter
@@ -1939,7 +1924,6 @@ and_then
 |
 c
 |
-{
 c
 .
 as_os_str
@@ -1949,7 +1933,6 @@ as_os_str
 to_str
 (
 )
-}
 )
 .
 map
@@ -1957,7 +1940,6 @@ map
 |
 c
 |
-{
 c
 .
 starts_with
@@ -1981,7 +1963,6 @@ ucrt
 is_dir
 (
 )
-}
 )
 .
 unwrap_or
@@ -2221,7 +2202,6 @@ filter
 |
 dir
 |
-{
 dir
 .
 join
@@ -2250,7 +2230,6 @@ lib
 is_file
 (
 )
-}
 )
 .
 next
@@ -3063,7 +3042,6 @@ and_then
 |
 s
 |
-{
 s
 .
 trim_left_matches
@@ -3089,7 +3067,6 @@ parse
 ok
 (
 )
-}
 )
 ;
 let
@@ -3148,7 +3125,6 @@ k
 }
 }
 }
-return
 max_key
 }
 fn
@@ -3215,7 +3191,6 @@ _vers
 key
 )
 |
-{
 key
 .
 query_str
@@ -3228,7 +3203,6 @@ MSBuildToolsPath
 ok
 (
 )
-}
 )
 }
 )
