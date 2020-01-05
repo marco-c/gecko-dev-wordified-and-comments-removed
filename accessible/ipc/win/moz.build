@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+if
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
+:
 DIRS
 +
 =
