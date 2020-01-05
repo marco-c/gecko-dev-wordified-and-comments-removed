@@ -604,11 +604,6 @@ POINTER_PEN_INFO
 aPenInfo
 )
 ;
-bool
-ShouldEnableInkCollector
-(
-)
-;
 private
 :
 typedef
