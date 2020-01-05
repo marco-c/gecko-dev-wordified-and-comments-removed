@@ -4741,7 +4741,7 @@ value
 ;
 frameTypes
 [
-0xB
+0xC
 ]
 =
 '
