@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-StyleSheetHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StyleSheetInfo
 .
 h
@@ -134,7 +125,8 @@ nsIDocument
 aDocument
 )
 ;
-StyleSheetHandle
+ServoStyleSheet
+*
 GetParentSheet
 (
 )
@@ -143,7 +135,8 @@ const
 void
 AppendStyleSheet
 (
-StyleSheetHandle
+ServoStyleSheet
+*
 aSheet
 )
 ;

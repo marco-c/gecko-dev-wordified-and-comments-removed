@@ -140,7 +140,8 @@ mDocument
 aDocument
 ;
 }
-StyleSheetHandle
+ServoStyleSheet
+*
 ServoStyleSheet
 :
 :
@@ -166,7 +167,8 @@ ServoStyleSheet
 :
 AppendStyleSheet
 (
-StyleSheetHandle
+ServoStyleSheet
+*
 aSheet
 )
 {
