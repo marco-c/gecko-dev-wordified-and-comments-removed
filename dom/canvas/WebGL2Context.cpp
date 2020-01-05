@@ -840,6 +840,16 @@ mBoundTransformFeedback
 =
 mDefaultTransformFeedback
 ;
+gl
+-
+>
+fGenTransformFeedbacks
+(
+1
+&
+mEmptyTFO
+)
+;
 if
 (
 !
