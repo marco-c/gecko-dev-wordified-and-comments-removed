@@ -1,7 +1,12 @@
 from
+unittest
+import
+skip
+from
 marionette
 import
 MarionetteTestCase
+WindowManagerMixin
 from
 marionette_driver
 .
@@ -35,6 +40,7 @@ By
 class
 TestAnonymousContent
 (
+WindowManagerMixin
 MarionetteTestCase
 )
 :
@@ -46,11 +52,14 @@ self
 )
 :
         
-MarionetteTestCase
+super
+(
+TestAnonymousContent
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -64,16 +73,12 @@ chrome
 "
 )
         
-self
-.
-win
-=
-self
-.
-marionette
-.
-current_chrome_window_handle
-        
+def
+open_window_with_js
+(
+)
+:
+            
 self
 .
 marionette
@@ -81,6 +86,9 @@ marionette
 execute_script
 (
 "
+"
+"
+              
 window
 .
 open
@@ -98,6 +106,7 @@ test_anonymous_content
 .
 xul
 '
+                          
 '
 foo
 '
@@ -107,7 +116,21 @@ centerscreen
 '
 )
 ;
+            
 "
+"
+"
+)
+        
+new_window
+=
+self
+.
+open_window
+(
+trigger
+=
+open_window_with_js
 )
         
 self
@@ -116,9 +139,7 @@ marionette
 .
 switch_to_window
 (
-'
-foo
-'
+new_window
 )
         
 self
@@ -127,12 +148,12 @@ assertNotEqual
 (
 self
 .
-win
-self
-.
 marionette
 .
 current_chrome_window_handle
+self
+.
+start_window
 )
     
 def
@@ -144,42 +165,8 @@ self
         
 self
 .
-assertNotEqual
+close_all_windows
 (
-self
-.
-win
-self
-.
-marionette
-.
-current_chrome_window_handle
-)
-        
-self
-.
-marionette
-.
-close_chrome_window
-(
-)
-        
-self
-.
-marionette
-.
-switch_to_window
-(
-self
-.
-win
-)
-        
-MarionetteTestCase
-.
-tearDown
-(
-self
 )
     
 def
@@ -295,6 +282,25 @@ By
 ID
 "
 testAnonymousContentBox
+"
+)
+    
+skip
+(
+"
+Bug
+1311657
+-
+Opened
+chrome
+window
+cannot
+be
+closed
+after
+call
+to
+switch_to_frame
 "
 )
     

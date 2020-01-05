@@ -2,6 +2,7 @@ from
 marionette
 import
 MarionetteTestCase
+WindowManagerMixin
 from
 marionette_driver
 .
@@ -23,6 +24,7 @@ Wait
 class
 TestWindowSwitching
 (
+WindowManagerMixin
 MarionetteTestCase
 )
 :
@@ -58,16 +60,12 @@ navigate
 test_html
 )
         
-self
-.
-current_window
-=
-self
-.
-marionette
-.
-current_chrome_window_handle
-        
+def
+open_window_with_link
+(
+)
+:
+            
 link
 =
 self
@@ -85,28 +83,22 @@ new
 window
 "
 )
-        
+            
 link
 .
 click
 (
 )
         
-windows
+new_window
 =
 self
 .
-marionette
-.
-chrome_window_handles
-        
-windows
-.
-remove
+open_window
 (
-self
-.
-current_window
+trigger
+=
+open_window_with_link
 )
         
 self
@@ -115,10 +107,7 @@ marionette
 .
 switch_to_window
 (
-windows
-[
-0
-]
+new_window
 )
         
 title
@@ -202,14 +191,6 @@ navigate
 other_page
 )
         
-other_window
-=
-self
-.
-marionette
-.
-current_chrome_window_handle
-        
 Wait
 (
 self
@@ -246,7 +227,7 @@ self
 .
 assertEqual
 (
-other_window
+new_window
 self
 .
 marionette
@@ -262,7 +243,7 @@ switch_to_window
 (
 self
 .
-current_window
+start_window
 )
         
 self
@@ -271,7 +252,7 @@ assertEqual
 (
 self
 .
-current_window
+start_window
 self
 .
 marionette
@@ -286,42 +267,18 @@ self
 )
 :
         
-window_handles
-=
 self
 .
-marionette
-.
-chrome_window_handles
-        
-window_handles
-.
-remove
+close_all_windows
 (
-self
-.
-current_window
 )
         
-for
-handle
-in
-window_handles
-:
-            
-self
-.
-marionette
-.
-switch_to_window
+super
 (
-handle
-)
-            
+TestWindowSwitching
 self
+)
 .
-marionette
-.
-close_chrome_window
+tearDown
 (
 )

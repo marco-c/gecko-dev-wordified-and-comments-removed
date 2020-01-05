@@ -2,6 +2,7 @@ from
 marionette
 import
 MarionetteTestCase
+WindowManagerMixin
 from
 marionette_driver
 .
@@ -23,6 +24,7 @@ By
 class
 TestKeyActions
 (
+WindowManagerMixin
 MarionetteTestCase
 )
 :
@@ -34,11 +36,14 @@ self
 )
 :
         
-MarionetteTestCase
+super
+(
+TestKeyActions
+self
+)
 .
 setUp
 (
-self
 )
         
 if
@@ -608,14 +613,12 @@ self
 )
 :
         
-start_win
-=
-self
-.
-marionette
-.
-current_chrome_window_handle
-        
+def
+open_window_with_action
+(
+)
+:
+            
 el
 =
 self
@@ -631,7 +634,7 @@ ID
 updatediv
 "
 )
-        
+            
 self
 .
 marionette
@@ -654,7 +657,7 @@ script_args
 el
 ]
 )
-        
+            
 (
 self
 .
@@ -666,18 +669,18 @@ Keys
 .
 SHIFT
 )
-                        
+                            
 .
 press
 (
 el
 )
-                        
+                            
 .
 release
 (
 )
-                        
+                            
 .
 key_up
 (
@@ -685,54 +688,23 @@ Keys
 .
 SHIFT
 )
-                        
+                            
 .
 perform
 (
 )
 )
         
-self
-.
-wait_for_condition
-(
-            
-lambda
-mn
-:
-len
-(
-self
-.
-marionette
-.
-chrome_window_handles
-)
-=
-=
-2
-)
-        
-chrome_window_handles
+new_window
 =
 self
 .
-marionette
-.
-chrome_window_handles
-        
-chrome_window_handles
-.
-remove
+open_window
 (
-start_win
-)
-        
-[
-new_win
-]
+trigger
 =
-chrome_window_handles
+open_window_with_action
+)
         
 self
 .
@@ -740,7 +712,7 @@ marionette
 .
 switch_to_window
 (
-new_win
+new_window
 )
         
 self
@@ -757,7 +729,9 @@ marionette
 .
 switch_to_window
 (
-start_win
+self
+.
+start_window
 )
         
 self
