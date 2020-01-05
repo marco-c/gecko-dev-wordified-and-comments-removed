@@ -737,9 +737,6 @@ HTMLImageElement
 {
 let
 content
-:
-&
-Content
 =
 task_from_context
 (
@@ -747,7 +744,10 @@ cx
 )
 ;
 match
+(
+*
 content
+)
 .
 query_layout
 (
@@ -1384,10 +1384,7 @@ result
 :
 unwrap
 (
-(
-*
 compartment
-)
 .
 new_object_with_proto
 (
@@ -1396,10 +1393,7 @@ new_object_with_proto
 GenericElementInstance
 "
 proto
-(
-*
 compartment
-)
 .
 global_obj
 .

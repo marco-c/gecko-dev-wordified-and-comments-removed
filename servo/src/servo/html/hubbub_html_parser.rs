@@ -2418,6 +2418,7 @@ scope
 .
 read
 (
+&
 reinterpret_cast
 (
 &
