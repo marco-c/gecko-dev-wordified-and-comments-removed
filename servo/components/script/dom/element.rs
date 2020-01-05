@@ -6897,12 +6897,10 @@ AttrValue
 assert
 !
 (
-&
-*
-*
 name
 =
 =
+&
 name
 .
 to_ascii_lowercase
@@ -7686,8 +7684,6 @@ DOMString
 assert
 !
 (
-&
-*
 *
 local_name
 =
@@ -7880,8 +7876,6 @@ DOMString
 assert
 !
 (
-&
-*
 *
 local_name
 =
@@ -8113,8 +8107,6 @@ DOMString
 assert
 !
 (
-&
-*
 *
 local_name
 =
@@ -8223,8 +8215,6 @@ DOMString
 assert
 !
 (
-&
-*
 *
 local_name
 =
@@ -8272,8 +8262,6 @@ Atom
 assert
 !
 (
-&
-*
 *
 local_name
 =
@@ -8456,8 +8444,6 @@ i32
 assert
 !
 (
-&
-*
 *
 local_name
 =
@@ -8635,8 +8621,6 @@ u32
 assert
 !
 (
-&
-*
 *
 local_name
 =
