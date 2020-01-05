@@ -602,6 +602,37 @@ build_type
         
 }
         
+if
+dep_job
+.
+attributes
+.
+get
+(
+'
+chunk_locales
+'
+)
+:
+            
+attributes
+[
+'
+chunk_locales
+'
+]
+=
+dep_job
+.
+attributes
+.
+get
+(
+'
+chunk_locales
+'
+)
+        
 task
 =
 {
