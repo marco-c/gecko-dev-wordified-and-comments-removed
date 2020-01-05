@@ -3354,6 +3354,9 @@ is_first_serialization
 &
 mut
 bool
+importance
+:
+Importance
 )
 -
 >
@@ -3423,10 +3426,7 @@ append_serialization
 dest
 property_name
 appendable_value
-Importance
-:
-:
-Normal
+importance
 is_first_serialization
 )
 .
