@@ -5831,6 +5831,9 @@ SelectorCache
 :
 SelectorCache
 (
+nsIEventTarget
+*
+aEventTarget
 )
 :
 nsExpirationTracker
@@ -5846,6 +5849,7 @@ nsIDocument
 :
 SelectorCache
 "
+aEventTarget
 )
 {
 }
