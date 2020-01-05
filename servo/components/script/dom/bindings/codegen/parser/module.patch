@@ -11,10 +11,10 @@ WebIDL
 .
 py
 -
-1422
+1506
 6
 +
-1422
+1506
 9
 class
 IDLDictionary
@@ -94,10 +94,10 @@ attrs
 =
 0
 -
-3398
+3574
 6
 +
-3398
+3577
 9
 class
 IDLCallbackType

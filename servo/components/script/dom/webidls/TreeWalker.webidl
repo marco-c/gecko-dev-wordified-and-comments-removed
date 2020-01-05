@@ -122,7 +122,6 @@ TreeWalker
 {
 [
 SameObject
-Constant
 ]
 readonly
 attribute

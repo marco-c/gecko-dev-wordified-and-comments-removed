@@ -776,3 +776,11 @@ into_bytes
 )
 }
 }
+pub
+struct
+USVString
+(
+pub
+String
+)
+;
