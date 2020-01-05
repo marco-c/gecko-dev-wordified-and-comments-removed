@@ -182,8 +182,6 @@ attribute
 DOMString
 scrolling
 ;
-/
-/
 attribute
 DOMString
 frameBorder
