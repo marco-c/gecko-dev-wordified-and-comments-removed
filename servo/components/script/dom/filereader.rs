@@ -276,6 +276,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+FileRead
+;
+use
+script_task
+:
+:
 {
 ScriptChan
 Runnable
@@ -2807,6 +2816,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+FileRead
 task
 )
 )
@@ -2847,6 +2857,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+FileRead
 task
 )
 )
@@ -2905,6 +2916,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+FileRead
 task
 )
 )
@@ -2942,6 +2954,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+FileRead
 task
 )
 )

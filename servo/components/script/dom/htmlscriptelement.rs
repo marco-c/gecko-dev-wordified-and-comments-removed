@@ -369,6 +369,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+ScriptEvent
+;
+use
+script_task
+:
+:
 {
 ScriptChan
 Runnable
@@ -3118,6 +3127,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+ScriptEvent
 dispatcher
 )
 )
@@ -3206,6 +3216,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+ScriptEvent
 dispatcher
 )
 )

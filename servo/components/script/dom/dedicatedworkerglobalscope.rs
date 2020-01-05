@@ -203,7 +203,7 @@ worker
 {
 TrustedWorkerAddress
 WorkerMessageHandler
-WorkerEventHandler
+SimpleWorkerErrorHandler
 }
 ;
 use
@@ -226,6 +226,15 @@ workerglobalscope
 WorkerGlobalScopeTypeId
 WorkerGlobalScopeInit
 }
+;
+use
+script_task
+:
+:
+ScriptTaskEventCategory
+:
+:
+WorkerEvent
 ;
 use
 script_task
@@ -1306,8 +1315,9 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+WorkerEvent
 box
-WorkerEventHandler
+SimpleWorkerErrorHandler
 :
 :
 new
@@ -2079,6 +2089,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+_
 runnable
 )
 )
@@ -2500,6 +2511,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+WorkerEvent
 box
 WorkerMessageHandler
 :

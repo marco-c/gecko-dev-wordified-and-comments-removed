@@ -11,6 +11,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+NetworkEvent
+;
+use
+script_task
+:
+:
 {
 ScriptChan
 Runnable
@@ -112,6 +121,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+NetworkEvent
 box
 ListenerRunnable
 {

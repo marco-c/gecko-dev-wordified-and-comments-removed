@@ -355,6 +355,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+XhrEvent
+;
+use
+script_task
+:
+:
 {
 ScriptChan
 Runnable
@@ -7913,6 +7922,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+XhrEvent
 box
 XHRTimeout
 {

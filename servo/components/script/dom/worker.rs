@@ -1402,14 +1402,14 @@ data
 }
 pub
 struct
-WorkerEventHandler
+SimpleWorkerErrorHandler
 {
 addr
 :
 TrustedWorkerAddress
 }
 impl
-WorkerEventHandler
+SimpleWorkerErrorHandler
 {
 pub
 fn
@@ -1421,9 +1421,9 @@ TrustedWorkerAddress
 )
 -
 >
-WorkerEventHandler
+SimpleWorkerErrorHandler
 {
-WorkerEventHandler
+SimpleWorkerErrorHandler
 {
 addr
 :
@@ -1434,7 +1434,7 @@ addr
 impl
 Runnable
 for
-WorkerEventHandler
+SimpleWorkerErrorHandler
 {
 fn
 handler
@@ -1443,7 +1443,7 @@ self
 :
 Box
 <
-WorkerEventHandler
+SimpleWorkerErrorHandler
 >
 )
 {

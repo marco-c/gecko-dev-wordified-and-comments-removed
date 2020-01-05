@@ -250,6 +250,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+UpdateReplacedElement
+;
+use
+script_task
+:
+:
 {
 Runnable
 ScriptChan
@@ -966,6 +975,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+UpdateReplacedElement
 box
 ImageResponseHandlerRunnable
 :
