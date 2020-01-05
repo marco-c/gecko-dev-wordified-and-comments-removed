@@ -90,13 +90,6 @@ mozilla
 :
 image
 ;
-#
-define
-MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
-int16_t
-(
-512
-)
 nsIFrame
 *
 NS_NewSVGClipPathFrame
@@ -597,7 +590,6 @@ refChainLengthLimiter
 this
 &
 sRefChainLengthCounter
-MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
 )
 ;
 if
@@ -1400,7 +1392,6 @@ refChainLengthLimiter
 this
 &
 sRefChainLengthCounter
-MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
 )
 ;
 if
@@ -1792,7 +1783,6 @@ refChainLengthLimiter
 this
 &
 sRefChainLengthCounter
-MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
 )
 ;
 if
