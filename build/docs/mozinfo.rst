@@ -562,12 +562,14 @@ x86
 Always
 defined
 .
-release_build
+release_or_beta
 Whether
 this
 is
 a
 release
+or
+beta
 build
 .
 Values

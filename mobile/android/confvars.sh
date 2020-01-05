@@ -286,7 +286,7 @@ support
 if
 test
 "
-RELEASE_BUILD
+RELEASE_OR_BETA
 "
 ;
 then

@@ -545,7 +545,7 @@ sha1_enforcement_level
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -576,7 +576,7 @@ name_matching_mode
 endif
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -740,7 +740,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "

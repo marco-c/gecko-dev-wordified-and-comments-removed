@@ -786,7 +786,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -1425,7 +1425,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -4434,7 +4434,7 @@ true
 endif
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -7434,7 +7434,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -9588,7 +9588,7 @@ XP_WIN
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 |
 |
@@ -9601,7 +9601,7 @@ MOZ_WIDGET_GTK
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 pref
 (
@@ -9791,7 +9791,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 &
 &
@@ -11500,7 +11500,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -12287,7 +12287,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -18489,7 +18489,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -18524,7 +18524,7 @@ true
 endif
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -18588,7 +18588,7 @@ MOZ_B2G
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 pref
 (
@@ -19058,7 +19058,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -19307,7 +19307,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -19473,7 +19473,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -20226,7 +20226,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -20261,7 +20261,7 @@ true
 endif
 /
 /
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -37158,7 +37158,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -38459,7 +38459,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -39577,7 +39577,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -40083,7 +40083,7 @@ maxRetryCount
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -42228,7 +42228,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 |
 |
@@ -43389,7 +43389,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -43438,7 +43438,7 @@ default_volume
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -43482,7 +43482,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 pref
 (
@@ -43591,7 +43591,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "

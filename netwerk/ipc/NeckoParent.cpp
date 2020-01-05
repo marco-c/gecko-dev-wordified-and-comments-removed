@@ -663,7 +663,7 @@ reason
 {
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 MOZ_CRASH_ANNOTATE
 (
 reason

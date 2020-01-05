@@ -381,7 +381,7 @@ s
 revision
         
 '
-release_build
+release_or_beta
 '
     
 ]

@@ -1620,7 +1620,7 @@ ANDROID
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 void
 copy_stderr_to_file

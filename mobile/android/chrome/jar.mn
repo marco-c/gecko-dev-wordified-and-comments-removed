@@ -686,7 +686,7 @@ js
 )
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 content
 /
 WebcompatReporter

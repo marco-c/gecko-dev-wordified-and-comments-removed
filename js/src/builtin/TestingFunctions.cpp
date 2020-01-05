@@ -645,7 +645,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 value
 =
 BooleanValue

@@ -89,11 +89,11 @@ else
 false
 #
 endif
-RELEASE_BUILD
+RELEASE_OR_BETA
 :
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 true
 #
 else

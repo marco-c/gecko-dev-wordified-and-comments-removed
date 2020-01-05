@@ -1926,7 +1926,7 @@ nsBlocklistService
 js
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 BINPATH
 /
 components

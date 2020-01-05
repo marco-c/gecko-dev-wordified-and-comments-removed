@@ -177,13 +177,13 @@ depends
 on
 the
 define
-RELEASE_BUILD
+RELEASE_OR_BETA
 and
 the
 channel
 .
 If
-RELEASE_BUILD
+RELEASE_OR_BETA
 is
 set
 MOZ_TELEMETRY_ON_BY_DEFAULT

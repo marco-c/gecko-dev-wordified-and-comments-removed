@@ -1186,7 +1186,7 @@ false
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -3962,7 +3962,7 @@ resumeOnWakeDelay
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -11500,7 +11500,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -11578,7 +11578,7 @@ ifdef
 XP_MACOSX
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -11638,7 +11638,7 @@ ifdef
 MOZ_GPSD
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -12618,7 +12618,7 @@ false
 endif
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -12736,7 +12736,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -13651,7 +13651,7 @@ org
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "

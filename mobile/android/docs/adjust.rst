@@ -1476,7 +1476,7 @@ MOZ_NATIVE_DEVICES
 =
 1
 export
-RELEASE_BUILD
+RELEASE_OR_BETA
 =
 1
 ac_add_options
@@ -1510,7 +1510,7 @@ token
 MOZ_NATIVE_DEVICES
 &
 &
-RELEASE_BUILD
+RELEASE_OR_BETA
 are
 required
 for

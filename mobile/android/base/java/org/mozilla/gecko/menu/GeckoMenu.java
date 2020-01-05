@@ -248,7 +248,7 @@ THREAD_ASSERT_BEHAVIOR
 =
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 ?
 AssertBehavior
 .

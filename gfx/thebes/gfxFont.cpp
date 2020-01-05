@@ -924,7 +924,7 @@ false
 }
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 mWordCacheExpirationTimer
 =
 do_CreateInstance
@@ -13703,7 +13703,7 @@ aLength
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 if
 (
 aTextPerf
@@ -13748,7 +13748,7 @@ aLength
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 if
 (
 aTextPerf
@@ -15005,7 +15005,7 @@ ok
 }
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 #
 define
 TEXT_PERF_INCR
@@ -15194,7 +15194,7 @@ nullptr
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 tp
 =
 aTextRun

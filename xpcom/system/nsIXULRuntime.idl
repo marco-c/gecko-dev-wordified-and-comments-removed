@@ -869,8 +869,7 @@ True
 if
 this
 is
-a
-RELEASE_BUILD
+RELEASE_OR_BETA
 .
 *
 /

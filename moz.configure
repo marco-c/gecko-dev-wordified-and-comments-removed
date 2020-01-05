@@ -207,7 +207,7 @@ if
 not
 milestone
 .
-is_release
+is_release_or_beta
 :
 return
 True

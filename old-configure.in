@@ -51013,7 +51013,7 @@ test
 -
 z
 "
-RELEASE_BUILD
+RELEASE_OR_BETA
 "
 ;
 then
@@ -52782,7 +52782,7 @@ test
 -
 z
 "
-RELEASE_BUILD
+RELEASE_OR_BETA
 "
 ;
 then

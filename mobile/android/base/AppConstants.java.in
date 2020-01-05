@@ -1653,13 +1653,13 @@ public
 static
 final
 boolean
-RELEASE_BUILD
+RELEASE_OR_BETA
 =
 /
 /
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 true
 ;
 /

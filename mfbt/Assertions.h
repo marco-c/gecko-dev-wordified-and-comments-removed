@@ -1380,7 +1380,7 @@ while
 endif
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 #
 define
 MOZ_DIAGNOSTIC_ASSERT

@@ -229,7 +229,7 @@ tools
 "
     
 "
-is_release
+is_release_or_beta
 "
 :
 True

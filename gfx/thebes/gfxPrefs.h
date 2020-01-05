@@ -2184,7 +2184,7 @@ endif
 if
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 DECL_GFX_PREF
 (

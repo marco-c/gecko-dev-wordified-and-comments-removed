@@ -4635,7 +4635,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 &
 &
 UpdateServiceHelper
@@ -21114,7 +21114,7 @@ if
 (
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 Intent

@@ -1159,7 +1159,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 lazilyLoadedBrowserScripts
@@ -4279,7 +4279,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 InitLater
