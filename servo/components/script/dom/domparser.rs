@@ -220,6 +220,7 @@ document
 :
 {
 Document
+HasBrowsingContext
 IsHTMLDocument
 }
 ;
@@ -484,7 +485,10 @@ new
 self
 .
 window
-None
+HasBrowsingContext
+:
+:
+No
 Some
 (
 url
@@ -570,7 +574,10 @@ new
 self
 .
 window
-None
+HasBrowsingContext
+:
+:
+No
 Some
 (
 url

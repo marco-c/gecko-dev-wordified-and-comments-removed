@@ -247,12 +247,11 @@ JSObject
 )
 {
 let
-mut
 dst
 =
 dst
 .
-borrow_mut
+borrow
 (
 )
 ;

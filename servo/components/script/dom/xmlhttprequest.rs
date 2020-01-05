@@ -279,6 +279,7 @@ document
 :
 {
 Document
+HasBrowsingContext
 IsHTMLDocument
 }
 ;
@@ -9622,7 +9623,10 @@ Document
 new
 (
 win
-None
+HasBrowsingContext
+:
+:
+No
 parsed_url
 doc
 .

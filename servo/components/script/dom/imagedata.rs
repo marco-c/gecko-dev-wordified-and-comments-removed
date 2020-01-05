@@ -208,7 +208,6 @@ ImageData
 >
 {
 let
-mut
 imagedata
 =
 box
