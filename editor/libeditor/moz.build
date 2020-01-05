@@ -367,11 +367,6 @@ SelectionState
 cpp
 '
 '
-SetDocumentTitleTransaction
-.
-cpp
-'
-'
 SplitNodeTransaction
 .
 cpp
