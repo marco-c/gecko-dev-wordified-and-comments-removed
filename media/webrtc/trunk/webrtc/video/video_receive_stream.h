@@ -352,6 +352,16 @@ GetRtt
 const
 override
 ;
+bool
+GetRemoteRTCPSenderInfo
+(
+RTCPSenderInfo
+*
+sender_info
+)
+const
+override
+;
 private
 :
 TransportAdapter
