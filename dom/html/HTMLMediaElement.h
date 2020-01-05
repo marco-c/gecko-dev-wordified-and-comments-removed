@@ -3015,6 +3015,11 @@ IsAllowedToPlay
 (
 )
 ;
+void
+MaybeDoLoad
+(
+)
+;
 bool
 IsTabActivated
 (
