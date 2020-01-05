@@ -266,7 +266,7 @@ packet
 )
 ;
 const
-expectedActions
+actualActions
 =
 store
 .
@@ -276,7 +276,7 @@ getActions
 ;
 expect
 (
-expectedActions
+actualActions
 .
 length
 )
@@ -289,7 +289,7 @@ toEqual
 const
 addAction
 =
-expectedActions
+actualActions
 [
 0
 ]
@@ -302,7 +302,7 @@ message
 addAction
 ;
 const
-expected
+expectedAction
 =
 {
 type
@@ -343,7 +343,7 @@ toJS
 .
 toEqual
 (
-expected
+expectedAction
 .
 message
 .
@@ -411,7 +411,7 @@ packet
 )
 ;
 const
-expectedActions
+actualActions
 =
 store
 .
@@ -421,14 +421,14 @@ getActions
 ;
 expect
 (
-expectedActions
+actualActions
 .
 length
 )
 .
 toEqual
 (
-2
+1
 )
 ;
 const
@@ -437,7 +437,12 @@ clearAction
 addAction
 ]
 =
-expectedActions
+actualActions
+[
+0
+]
+.
+actions
 ;
 expect
 (
@@ -461,7 +466,7 @@ message
 addAction
 ;
 const
-expected
+expectedAction
 =
 {
 type
@@ -510,7 +515,7 @@ toJS
 .
 toEqual
 (
-expected
+expectedAction
 .
 message
 .

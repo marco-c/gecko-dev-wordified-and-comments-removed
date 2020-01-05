@@ -135,7 +135,7 @@ output
 /
 actions
 /
-messages
+index
 "
 )
 ;

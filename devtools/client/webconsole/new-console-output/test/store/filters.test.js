@@ -33,7 +33,7 @@ output
 /
 actions
 /
-filters
+index
 "
 )
 ;
@@ -59,7 +59,7 @@ output
 /
 actions
 /
-messages
+index
 "
 )
 ;

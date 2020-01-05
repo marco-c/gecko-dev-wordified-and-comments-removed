@@ -47,7 +47,7 @@ output
 /
 actions
 /
-filters
+index
 "
 )
 ;

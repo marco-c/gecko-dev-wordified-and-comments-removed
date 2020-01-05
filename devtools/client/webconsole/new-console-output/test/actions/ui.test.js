@@ -23,7 +23,7 @@ output
 /
 actions
 /
-ui
+index
 "
 )
 ;
