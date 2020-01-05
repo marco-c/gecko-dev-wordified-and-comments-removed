@@ -3101,7 +3101,6 @@ log
 .
 error
 (
-                        
 "
 setupRobotiumConfig
 :
@@ -3111,6 +3110,9 @@ Found
 a
 '
 '
+"
+                                   
+"
 in
 our
 value
@@ -3129,7 +3131,7 @@ value
 s
 "
 %
-                        
+                                   
 (
 key
 value
@@ -3613,11 +3615,11 @@ browserArgs
 "
 start
 "
-                           
 "
 -
 n
 "
+                           
 "
 org
 .
@@ -3631,11 +3633,13 @@ org
 .
 mozilla
 .
+"
+                           
+"
 gecko
 .
 LaunchFennecWithConfigurationActivity
 "
-                           
 "
 &
 &

@@ -85,6 +85,8 @@ tests
 :
         
 "
+"
+"
 This
 method
 is
@@ -96,9 +98,12 @@ variables
 that
 are
 required
+        
 for
 test
 bisection
+"
+"
 "
         
 status
@@ -159,6 +164,8 @@ result
 :
         
 "
+"
+"
 This
 method
 is
@@ -172,12 +179,15 @@ and
 self
 .
 result
+        
 for
 each
 loop
 in
 runtests
 .
+"
+"
 "
         
 self
@@ -262,6 +272,8 @@ status
 :
         
 "
+"
+"
 This
 method
 is
@@ -275,6 +287,7 @@ setting
 up
 variables
 and
+        
 getting
 the
 list
@@ -283,6 +296,8 @@ tests
 for
 bisection
 .
+"
+"
 "
         
 if
@@ -300,6 +315,7 @@ return
 tests
         
 elif
+(
 '
 loop
 '
@@ -325,9 +341,11 @@ tests
 .
 endswith
 (
+                
 options
 .
 bisectChunk
+)
 )
 :
             
@@ -370,6 +388,8 @@ result
 :
         
 "
+"
+"
 This
 method
 is
@@ -385,6 +405,7 @@ and
 check
 whether
 a
+        
 sanity
 check
 is
@@ -392,6 +413,8 @@ done
 or
 not
 .
+"
+"
 "
         
 self
@@ -1859,6 +1882,9 @@ this
 test
 is
 the
+"
+                        
+"
 root
 cause
 for
@@ -2191,6 +2217,9 @@ this
 test
 is
 the
+"
+                    
+"
 root
 cause
 for
