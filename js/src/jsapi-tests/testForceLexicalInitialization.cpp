@@ -130,6 +130,8 @@ JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
 ;
+CHECK
+(
 NativeDefineProperty
 (
 cx
@@ -139,6 +141,7 @@ uninitialized
 nullptr
 nullptr
 attrs
+)
 )
 ;
 const

@@ -146,6 +146,8 @@ testBuf
 )
 )
 ;
+CHECK
+(
 JS_SetElement
 (
 cx
@@ -155,6 +157,7 @@ testArray
 ]
 0
 MAGIC_VALUE_1
+)
 )
 ;
 CHECK
@@ -262,6 +265,8 @@ obj
 size
 )
 ;
+CHECK
+(
 JS_GetProperty
 (
 cx
@@ -271,6 +276,7 @@ byteLength
 "
 &
 v
+)
 )
 ;
 CHECK
@@ -283,6 +289,8 @@ size
 )
 )
 ;
+CHECK
+(
 JS_GetProperty
 (
 cx
@@ -292,6 +300,7 @@ byteLength
 "
 &
 v
+)
 )
 ;
 CHECK

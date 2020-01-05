@@ -1125,12 +1125,15 @@ Int32Value
 )
 )
 ;
+CHECK
+(
 JS_SetElement
 (
 cx
 array
 0
 v
+)
 )
 ;
 JS
@@ -1245,6 +1248,8 @@ setInt32
 40
 )
 ;
+CHECK
+(
 JS_SetElement
 (
 cx
@@ -1253,6 +1258,7 @@ elts
 /
 2
 v
+)
 )
 ;
 CHECK
@@ -1362,6 +1368,8 @@ setInt32
 41
 )
 ;
+CHECK
+(
 JS_SetElement
 (
 cx
@@ -1370,6 +1378,7 @@ elts
 -
 1
 v
+)
 )
 ;
 CHECK
@@ -1527,12 +1536,15 @@ setInt32
 42
 )
 ;
+CHECK
+(
 JS_SetElement
 (
 cx
 array
 0
 v2
+)
 )
 ;
 CHECK
