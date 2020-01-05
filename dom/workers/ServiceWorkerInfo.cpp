@@ -925,13 +925,7 @@ mPrincipal
 ;
 mOriginAttributes
 =
-BasePrincipal
-:
-:
-Cast
-(
 mPrincipal
-)
 -
 >
 OriginAttributesRef

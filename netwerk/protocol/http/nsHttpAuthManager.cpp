@@ -246,13 +246,7 @@ if
 aPrincipal
 )
 {
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef
@@ -491,13 +485,7 @@ if
 aPrincipal
 )
 {
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef

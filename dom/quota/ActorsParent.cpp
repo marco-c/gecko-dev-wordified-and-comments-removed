@@ -17989,13 +17989,7 @@ NS_ERROR_FAILURE
 nsCString
 suffix
 ;
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef

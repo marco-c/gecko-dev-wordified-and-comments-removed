@@ -154,13 +154,7 @@ const
 PrincipalOriginAttributes
 attrs
 =
-BasePrincipal
-:
-:
-Cast
-(
 aLoadingPrincipal
-)
 -
 >
 OriginAttributesRef

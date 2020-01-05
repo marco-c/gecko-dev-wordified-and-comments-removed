@@ -501,13 +501,7 @@ targetOrigin
 |
 |
 (
-BasePrincipal
-:
-:
-Cast
-(
 mProvidedPrincipal
-)
 -
 >
 OriginAttributesRef
@@ -515,13 +509,7 @@ OriginAttributesRef
 )
 =
 =
-BasePrincipal
-:
-:
-Cast
-(
 targetPrin
-)
 -
 >
 OriginAttributesRef

@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
