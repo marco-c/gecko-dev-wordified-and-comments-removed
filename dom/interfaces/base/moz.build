@@ -184,6 +184,11 @@ nsIDOMHistory
 idl
 '
 '
+nsIDOMLocation
+.
+idl
+'
+'
 nsIDOMModalContentWindow
 .
 idl

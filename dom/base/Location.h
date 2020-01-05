@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsIDOMLocation
+.
+h
+"
+#
+include
+"
 nsIWeakReferenceUtils
 .
 h
@@ -77,7 +84,7 @@ Location
 final
 :
 public
-nsISupports
+nsIDOMLocation
 public
 nsWrapperCache
 {
@@ -94,9 +101,10 @@ aDocShell
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 Location
+nsIDOMLocation
 )
 void
 Assign
