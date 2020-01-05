@@ -1,0 +1,16 @@
+#
+ifndef
+_FREEBL_H_
+#
+define
+_FREEBL_H_
+typedef
+enum
+{
+ECPoint_Uncompressed
+ECPoint_XOnly
+}
+ECPointEncoding
+;
+#
+endif

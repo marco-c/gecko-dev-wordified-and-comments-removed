@@ -4027,11 +4027,6 @@ vector
 =
 NULL
 ;
-if
-(
-blLib
-)
-{
 disableUnload
 =
 PR_GetEnvSecure
@@ -4080,7 +4075,6 @@ blLib
 =
 NULL
 ;
-}
 loadFreeBLOnce
 =
 pristineCallOnce

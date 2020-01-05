@@ -53,6 +53,16 @@ order
 int
 cofactor
 ;
+int
+security
+;
+int
+pointSize
+;
+unsigned
+int
+usage
+;
 }
 ;
 typedef
@@ -123,6 +133,7 @@ ECCurve_SECG_CHAR2_239K1
 ECCurve_WTLS_1
 ECCurve_WTLS_8
 ECCurve_WTLS_9
+ECCurve25519
 ECCurve_pastLastCurve
 }
 ECCurveName

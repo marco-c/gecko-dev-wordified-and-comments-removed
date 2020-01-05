@@ -1015,6 +1015,7 @@ ec_field_GFp
 =
 1
 ec_field_GF2m
+ec_field_plain
 }
 ECFieldType
 ;
@@ -1106,6 +1107,9 @@ name
 ;
 SECItem
 curveOID
+;
+int
+pointSize
 ;
 }
 ;

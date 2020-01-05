@@ -10440,6 +10440,15 @@ struct
 _DataBuffer
 )
 ;
+if
+(
+!
+db
+)
+{
+return
+;
+}
 db
 -
 >

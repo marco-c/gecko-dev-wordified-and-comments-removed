@@ -3382,17 +3382,3 @@ off
 NSS_SSL_ENABLE_ZLIB
 =
 1
-#
-Allow
-disabling
-PKCS11
-bypass
-.
-ifdef
-NSS_NO_PKCS11_BYPASS
-DEFINES
-+
-=
--
-DNO_PKCS11_BYPASS
-endif
