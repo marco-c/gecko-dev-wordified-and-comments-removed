@@ -13663,6 +13663,14 @@ if
 timer
 )
 {
+RefPtr
+<
+nsRootPresContext
+>
+self
+=
+this
+;
 nsresult
 rv
 =
@@ -13674,7 +13682,8 @@ InitWithCallback
 NewTimerCallback
 (
 [
-=
+self
+aTransactionId
 ]
 (
 )
@@ -13682,7 +13691,7 @@ NewTimerCallback
 nsAutoScriptBlocker
 blockScripts
 ;
-this
+self
 -
 >
 NotifyDidPaintForSubtree
