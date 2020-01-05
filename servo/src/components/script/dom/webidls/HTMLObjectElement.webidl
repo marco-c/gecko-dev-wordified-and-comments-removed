@@ -310,7 +310,7 @@ blank
 instantiation
 readonly
 attribute
-WindowProxy
+Window
 ?
 contentWindow
 ;

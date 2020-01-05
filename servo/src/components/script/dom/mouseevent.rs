@@ -105,15 +105,6 @@ window
 Window
 ;
 use
-dom
-:
-:
-windowproxy
-:
-:
-WindowProxy
-;
-use
 servo_util
 :
 :
@@ -607,7 +598,7 @@ Option
 <
 JS
 <
-WindowProxy
+Window
 >
 >
 detailArg

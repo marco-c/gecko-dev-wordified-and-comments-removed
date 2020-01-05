@@ -1066,6 +1066,22 @@ True
         
 self
 .
+outerObjectHook
+=
+desc
+.
+get
+(
+'
+outerObjectHook
+'
+'
+None
+'
+)
+        
+self
+.
 concrete
 =
 desc

@@ -289,6 +289,10 @@ blob
 ;
 pub
 mod
+browsercontext
+;
+pub
+mod
 characterdata
 ;
 pub
@@ -678,10 +682,6 @@ virtualmethods
 pub
 mod
 window
-;
-pub
-mod
-windowproxy
 ;
 pub
 mod

@@ -235,7 +235,7 @@ boolean
 canBubbleArg
 boolean
 cancelableArg
-WindowProxy
+Window
 ?
 viewArg
 long
@@ -335,7 +335,7 @@ Attributes
 from
 UIEvent
 :
-WindowProxy
+Window
 ?
 view
 =

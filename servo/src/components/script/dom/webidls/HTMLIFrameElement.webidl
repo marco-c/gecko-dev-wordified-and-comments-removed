@@ -273,7 +273,7 @@ contentDocument
 ;
 readonly
 attribute
-WindowProxy
+Window
 ?
 contentWindow
 ;

@@ -172,7 +172,7 @@ Event
 {
 readonly
 attribute
-WindowProxy
+Window
 ?
 view
 ;
@@ -190,7 +190,7 @@ boolean
 aCanBubble
 boolean
 aCancelable
-WindowProxy
+Window
 ?
 aView
 long
@@ -275,7 +275,7 @@ UIEventInit
 :
 EventInit
 {
-WindowProxy
+Window
 ?
 view
 =
