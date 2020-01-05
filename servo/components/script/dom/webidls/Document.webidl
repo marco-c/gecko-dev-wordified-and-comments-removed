@@ -692,8 +692,9 @@ close
 (
 )
 ;
-/
-/
+[
+Throws
+]
 void
 write
 (
@@ -704,8 +705,9 @@ DOMString
 text
 )
 ;
-/
-/
+[
+Throws
+]
 void
 writeln
 (
