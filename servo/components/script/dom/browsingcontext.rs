@@ -86,6 +86,7 @@ reflector
 :
 {
 Reflectable
+MutReflectable
 Reflector
 }
 ;
