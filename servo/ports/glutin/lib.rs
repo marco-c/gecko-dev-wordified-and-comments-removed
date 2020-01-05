@@ -206,8 +206,5 @@ size
 as_uint
 (
 )
-opts
-.
-render_api
 )
 }
