@@ -178,12 +178,6 @@ NextFrameSeekTask
 )
 ;
 bool
-NeedMoreVideo
-(
-)
-const
-;
-bool
 IsVideoRequestPending
 (
 )
