@@ -1428,6 +1428,15 @@ CFG_PATH
 =
 PATH
 if
+[
+-
+n
+"
+CFG_DISABLE_MANAGE_SUBMODULES
+"
+]
+then
+if
 git
 status
 CFG_SRC_DIR
@@ -1477,6 +1486,7 @@ status
 '
 .
 "
+fi
 fi
 OPTIONS
 =
