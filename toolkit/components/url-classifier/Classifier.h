@@ -380,7 +380,7 @@ CopyInUseDirForUpdate
 (
 )
 ;
-void
+nsresult
 CopyInUseLookupCacheForUpdate
 (
 )
