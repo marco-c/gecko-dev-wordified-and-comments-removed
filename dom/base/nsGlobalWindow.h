@@ -1918,9 +1918,9 @@ IsRequestIdleCallbackEnabled
 (
 JSContext
 *
+aCx
 JSObject
 *
-aObj
 )
 ;
 bool
