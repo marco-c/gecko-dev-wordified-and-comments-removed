@@ -898,6 +898,16 @@ RawGeckoElementBorrowed
 element
 )
 ;
+RawServoDeclarationBlockStrong
+Gecko_GetAnimationRule
+(
+RawGeckoElementBorrowed
+aElement
+nsIAtom
+*
+aPseudoTag
+)
+;
 nsIAtom
 *
 Gecko_Atomize
