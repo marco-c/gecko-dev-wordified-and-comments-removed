@@ -476,7 +476,7 @@ S
 )
 tier
 :
-2
+1
 worker
 -
 type
@@ -586,7 +586,7 @@ S
 )
 tier
 :
-2
+1
 worker
 -
 type
@@ -696,7 +696,7 @@ S
 )
 tier
 :
-2
+1
 worker
 -
 type
@@ -806,7 +806,7 @@ S
 )
 tier
 :
-2
+1
 worker
 -
 type
