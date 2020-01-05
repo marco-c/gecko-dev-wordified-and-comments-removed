@@ -1228,8 +1228,6 @@ PendingMove
 iterator
 PendingMoveIterator
 ;
-private
-:
 js
 :
 :
