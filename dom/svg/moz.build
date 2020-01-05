@@ -574,11 +574,6 @@ SVGViewElement
 .
 h
 '
-'
-SVGZoomEvent
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -1296,11 +1291,6 @@ cpp
 '
 '
 SVGViewElement
-.
-cpp
-'
-'
-SVGZoomEvent
 .
 cpp
 '

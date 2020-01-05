@@ -2121,9 +2121,6 @@ SVGViewElement
 SVGZoomAndPan
 "
 "
-SVGZoomEvent
-"
-"
 Text
 "
 "
