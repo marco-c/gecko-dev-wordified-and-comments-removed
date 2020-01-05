@@ -1755,11 +1755,6 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
-UpdateState
-(
-aNotify
-)
-;
 }
 }
 return

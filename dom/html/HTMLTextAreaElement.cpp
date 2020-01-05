@@ -4054,11 +4054,6 @@ UpdateTooShortValidityState
 )
 ;
 }
-UpdateState
-(
-aNotify
-)
-;
 }
 return
 nsGenericHTMLFormElementWithState
