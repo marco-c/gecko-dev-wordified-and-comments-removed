@@ -6034,8 +6034,8 @@ s
 renderTimeMs
 =
 %
-lld
 "
+PRId64
 __FUNCTION__
 renderTimeMs
 )
@@ -6069,8 +6069,8 @@ invalid
 length
 =
 %
-d
 "
+PRIdPTR
 __FUNCTION__
 inputImage
 .
