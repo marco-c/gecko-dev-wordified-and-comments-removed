@@ -289,9 +289,9 @@ hostWindow
 =
 toolbox
 .
-_host
+win
 .
-_window
+parent
 ;
 let
 originalWidth

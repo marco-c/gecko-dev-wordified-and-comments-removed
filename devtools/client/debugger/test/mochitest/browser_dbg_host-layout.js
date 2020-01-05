@@ -602,9 +602,9 @@ panel
 .
 _toolbox
 .
-_host
+win
 .
-_window
+parent
 ;
 let
 breakpoint
@@ -712,9 +712,9 @@ panel
 .
 _toolbox
 .
-_host
+win
 .
-_window
+parent
 ;
 let
 gDebugger

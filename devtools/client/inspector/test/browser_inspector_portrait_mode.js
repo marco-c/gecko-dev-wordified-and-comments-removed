@@ -58,9 +58,9 @@ hostWindow
 =
 toolbox
 .
-_host
+win
 .
-_window
+parent
 ;
 let
 originalWidth
@@ -324,9 +324,9 @@ size
 ;
 toolbox
 .
-_host
+win
 .
-_window
+parent
 .
 resizeTo
 (
