@@ -1769,7 +1769,7 @@ mBlockStart
 AutoTArray
 <
 FloatInfo
-10
+11
 >
 mFloats
 ;
