@@ -90,9 +90,6 @@ skip
 if
 (
 Android
-|
-|
-B2G
 )
 pref
 (
