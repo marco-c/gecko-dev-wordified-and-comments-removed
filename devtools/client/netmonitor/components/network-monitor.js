@@ -107,9 +107,6 @@ className
 network
 -
 monitor
-theme
--
-sidebar
 "
 }
 !

@@ -2463,7 +2463,7 @@ netmonitor
 /
 netmonitor
 .
-xul
+xhtml
 "
 label
 :
