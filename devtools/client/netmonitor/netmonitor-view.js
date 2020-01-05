@@ -2572,6 +2572,8 @@ HTMLTooltip
 NetMonitorController
 .
 _toolbox
+.
+doc
 {
 type
 :

@@ -95,7 +95,7 @@ xhtml
 function
 SwatchFilterTooltip
 (
-toolbox
+document
 cssIsValid
 )
 {
@@ -127,7 +127,7 @@ SwatchBasedEditorTooltip
 call
 (
 this
-toolbox
+document
 stylesheet
 )
 ;

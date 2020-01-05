@@ -580,9 +580,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 type
 :

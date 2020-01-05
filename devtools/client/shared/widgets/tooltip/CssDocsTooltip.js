@@ -97,7 +97,7 @@ TOOLTIP_HEIGHT
 function
 CssDocsTooltip
 (
-toolbox
+toolboxDoc
 )
 {
 this
@@ -107,7 +107,7 @@ tooltip
 new
 HTMLTooltip
 (
-toolbox
+toolboxDoc
 {
 type
 :
@@ -194,9 +194,11 @@ KeyShortcuts
 {
 window
 :
-toolbox
+this
 .
-win
+tooltip
+.
+topWindow
 }
 )
 ;

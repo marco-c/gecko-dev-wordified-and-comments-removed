@@ -64,7 +64,7 @@ HTMLTooltip
 function
 SwatchBasedEditorTooltip
 (
-toolbox
+document
 stylesheet
 )
 {
@@ -82,7 +82,7 @@ tooltip
 new
 HTMLTooltip
 (
-toolbox
+document
 {
 type
 :

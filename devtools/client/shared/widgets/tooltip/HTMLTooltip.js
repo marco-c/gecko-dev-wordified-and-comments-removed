@@ -701,7 +701,7 @@ height
 function
 HTMLTooltip
 (
-toolbox
+toolboxDoc
 {
 type
 =
@@ -738,9 +738,7 @@ this
 .
 doc
 =
-toolbox
-.
-doc
+toolboxDoc
 ;
 this
 .

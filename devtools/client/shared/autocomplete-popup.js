@@ -96,7 +96,7 @@ itemIdCounter
 function
 AutocompletePopup
 (
-toolbox
+toolboxDoc
 options
 =
 {
@@ -114,9 +114,7 @@ this
 .
 _document
 =
-toolbox
-.
-doc
+toolboxDoc
 ;
 this
 .
@@ -237,7 +235,9 @@ _tooltip
 new
 HTMLTooltip
 (
-toolbox
+this
+.
+_document
 )
 ;
 this

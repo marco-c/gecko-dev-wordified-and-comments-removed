@@ -1066,9 +1066,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 autofocus
 useXulWrapper
