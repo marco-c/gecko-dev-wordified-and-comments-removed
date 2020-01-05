@@ -11459,7 +11459,7 @@ SetContentType
 NS_LITERAL_CSTRING
 (
 "
-application
+text
 /
 xml
 "
