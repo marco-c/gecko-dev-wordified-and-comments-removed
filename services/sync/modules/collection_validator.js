@@ -373,6 +373,15 @@ implement
 )
 ;
 }
+async
+canValidate
+(
+)
+{
+return
+true
+;
+}
 normalizeClientItem
 (
 item
