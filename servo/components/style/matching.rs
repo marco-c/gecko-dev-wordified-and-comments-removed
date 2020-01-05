@@ -4947,7 +4947,11 @@ context
 .
 shared
 .
-animation_only_restyle
+traversal_flags
+.
+for_animation_only
+(
+)
 )
 ;
 let

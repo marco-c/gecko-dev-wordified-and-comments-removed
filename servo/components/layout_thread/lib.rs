@@ -2799,9 +2799,14 @@ quirks_mode
 unwrap
 (
 )
-animation_only_restyle
+traversal_flags
 :
-false
+TraversalFlags
+:
+:
+empty
+(
+)
 }
 image_cache
 :
