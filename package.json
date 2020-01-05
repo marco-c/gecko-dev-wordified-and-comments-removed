@@ -4,9 +4,7 @@ name
 "
 :
 "
-Mozilla
-ESLint
-Setup
+mozillaeslintsetup
 "
 "
 description
@@ -56,7 +54,7 @@ eslint
 "
 3
 .
-18
+19
 .
 0
 "
@@ -84,9 +82,9 @@ react
 "
 :
 "
-4
+6
 .
-2
+10
 .
 3
 "
