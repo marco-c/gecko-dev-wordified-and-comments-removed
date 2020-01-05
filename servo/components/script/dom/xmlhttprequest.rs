@@ -1752,6 +1752,7 @@ fn
 headers_available
 (
 &
+mut
 self
 metadata
 :
@@ -1820,6 +1821,7 @@ fn
 data_available
 (
 &
+mut
 self
 payload
 :
@@ -1883,6 +1885,7 @@ fn
 response_complete
 (
 &
+mut
 self
 status
 :
