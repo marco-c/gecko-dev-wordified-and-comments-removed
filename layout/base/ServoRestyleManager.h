@@ -480,6 +480,11 @@ ReentrantChangeList
 *
 mReentrantChanges
 ;
+bool
+mHaveNonAnimationRestyles
+=
+false
+;
 }
 ;
 }
