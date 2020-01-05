@@ -400,7 +400,7 @@ LayersBackend
 mParentBackend
 ;
 GeckoProcessType
-mParentProcessId
+mParentProcessType
 ;
 int32_t
 mMaxTextureSize
@@ -428,7 +428,7 @@ LayersBackend
 :
 LAYERS_NONE
 GeckoProcessType
-aParentProcessId
+aParentProcessType
 =
 GeckoProcessType_Default
 int32_t
@@ -457,9 +457,9 @@ mParentBackend
 (
 aLayersBackend
 )
-mParentProcessId
+mParentProcessType
 (
-aParentProcessId
+aParentProcessType
 )
 mMaxTextureSize
 (

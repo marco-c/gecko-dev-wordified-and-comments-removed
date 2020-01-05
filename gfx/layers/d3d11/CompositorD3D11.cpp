@@ -2335,7 +2335,7 @@ GetMaxTextureSize
 ;
 ident
 .
-mParentProcessId
+mParentProcessType
 =
 XRE_GetProcessType
 (

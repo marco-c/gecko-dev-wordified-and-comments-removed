@@ -349,7 +349,7 @@ LAYERS_D3D9
 ;
 ident
 .
-mParentProcessId
+mParentProcessType
 =
 XRE_GetProcessType
 (
