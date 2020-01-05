@@ -45,8 +45,8 @@ mem
 :
 :
 {
-MemoryReporter
-MemoryReportsChan
+Reporter
+ReportsChan
 }
 ;
 use
@@ -174,9 +174,9 @@ ReapLayoutData
 (
 LayoutData
 )
-CollectMemoryReports
+CollectReports
 (
-MemoryReportsChan
+ReportsChan
 )
 PrepareToExit
 (
@@ -445,7 +445,7 @@ chan
 }
 }
 impl
-MemoryReporter
+Reporter
 for
 LayoutChan
 {
@@ -456,7 +456,7 @@ collect_reports
 self
 reports_chan
 :
-MemoryReportsChan
+ReportsChan
 )
 -
 >
@@ -479,7 +479,7 @@ send
 Msg
 :
 :
-CollectMemoryReports
+CollectReports
 (
 reports_chan
 )
