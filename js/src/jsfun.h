@@ -2732,9 +2732,6 @@ Value
 &
 getBoundFunctionArgument
 (
-JSContext
-*
-cx
 unsigned
 which
 )
