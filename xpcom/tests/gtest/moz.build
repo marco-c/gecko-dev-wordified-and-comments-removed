@@ -110,6 +110,11 @@ TestAutoRef
 cpp
 '
 '
+TestCallTemplates
+.
+cpp
+'
+'
 TestCloneInputStream
 .
 cpp
