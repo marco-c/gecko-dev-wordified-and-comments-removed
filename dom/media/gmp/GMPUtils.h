@@ -34,6 +34,16 @@ nsClassHashtable
 .
 h
 "
+#
+define
+CHROMIUM_CDM_API
+"
+chromium
+-
+cdm8
+-
+host4
+"
 class
 nsIFile
 ;

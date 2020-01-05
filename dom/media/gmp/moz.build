@@ -110,6 +110,11 @@ EXPORTS
 =
 [
 '
+ChromiumCDMParent
+.
+h
+'
+'
 DecryptJob
 .
 h
