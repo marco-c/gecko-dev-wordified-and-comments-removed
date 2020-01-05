@@ -258,6 +258,7 @@ LengthOrPercentageOrNone
 derive
 (
 Debug
+Serialize
 )
 ]
 enum
@@ -649,6 +650,7 @@ Auto
 derive
 (
 Debug
+Serialize
 )
 ]
 struct
@@ -1370,6 +1372,7 @@ margin_count
 derive
 (
 Debug
+Serialize
 )
 ]
 struct
@@ -1950,6 +1953,7 @@ total_variation
 derive
 (
 Debug
+Serialize
 )
 ]
 pub
@@ -2841,6 +2845,9 @@ debug
 !
 (
 "
+flex
+:
+:
 block_mode_assign_inline_sizes
 "
 )
