@@ -737,15 +737,6 @@ MOZ_AUTOMATION_UPDATE_PACKAGING
 '
 fi
 '
-'
-MOZ_AUTOMATION_SDK
-=
-{
-MOZ_AUTOMATION_SDK
--
-1
-}
-'
 ]
 whitelist
 [
