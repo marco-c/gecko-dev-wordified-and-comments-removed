@@ -846,6 +846,15 @@ EmptyString
 ]
 attribute
 DOMString
+textJustify
+;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 textOrientation
 ;
 [

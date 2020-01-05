@@ -624,7 +624,8 @@ CharIndex
 )
 CharIndex
 (
-0
+-
+1
 )
 )
 ;
