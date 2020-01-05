@@ -109,10 +109,9 @@ attribute
 boolean
 defer
 ;
-/
-/
 attribute
 DOMString
+?
 crossOrigin
 ;
 [
