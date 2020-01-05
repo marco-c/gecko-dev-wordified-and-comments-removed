@@ -109,9 +109,7 @@ target
 argCount
 )
 ;
-var
-funApply
-=
+void
 std_Function_apply
 ;
 return

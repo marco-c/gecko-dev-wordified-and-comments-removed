@@ -6442,11 +6442,7 @@ NumberFormat
 availableLocales
 NumberFormat
 )
-lazyNumberFormatData
-.
 requestedLocales
-lazyNumberFormatData
-.
 opt
 NumberFormat
 .
@@ -8692,6 +8688,9 @@ fit
 "
 )
 ;
+void
+formatMatcher
+;
 var
 hr12
 =
@@ -10518,13 +10517,6 @@ std_Object_create
 (
 null
 )
-;
-var
-requestedLocales
-=
-lazyPluralRulesData
-.
-requestedLocales
 ;
 var
 PluralRules

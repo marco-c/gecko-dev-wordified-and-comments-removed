@@ -3449,7 +3449,7 @@ mapping
 callContentFunction
 (
 mapfn
-thisArg
+T
 nextValue
 k
 )
@@ -3570,7 +3570,7 @@ mapping
 callContentFunction
 (
 mapfn
-thisArg
+T
 kValue
 k
 )
