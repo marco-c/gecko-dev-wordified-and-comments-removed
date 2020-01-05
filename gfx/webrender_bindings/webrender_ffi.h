@@ -280,6 +280,8 @@ procname
 enum
 class
 WrBoxShadowClipMode
+:
+uint32_t
 {
 None
 Outset
