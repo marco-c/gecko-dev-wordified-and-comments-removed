@@ -78,7 +78,7 @@ memory
 As
 a
 result
-instrmented
+instrumented
 code
 tries
 to
@@ -200,5 +200,11 @@ src
 :
 *
 sync_interception
+.
+cc
+src
+:
+*
+interceptors_64
 .
 cc
