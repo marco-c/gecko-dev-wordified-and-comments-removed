@@ -231,15 +231,6 @@ EGLSurface
 surf
 )
 ;
-EGLSurface
-GetEGLSurfaceOverride
-(
-)
-{
-return
-mSurfaceOverride
-;
-}
 virtual
 bool
 MakeCurrentImpl

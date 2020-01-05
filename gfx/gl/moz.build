@@ -215,11 +215,6 @@ EXPORTS
 =
 [
 '
-AndroidNativeWindow
-.
-h
-'
-'
 AndroidSurfaceTexture
 .
 h
