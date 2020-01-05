@@ -5695,6 +5695,13 @@ java
 '
 widget
 /
+TouchDelegateWithReset
+.
+java
+'
+'
+widget
+/
 TwoWayView
 .
 java
