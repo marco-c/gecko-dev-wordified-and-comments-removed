@@ -19892,7 +19892,7 @@ if
 !
 report
 (
-ParseWarning
+ParseStrictError
 pc
 -
 >
