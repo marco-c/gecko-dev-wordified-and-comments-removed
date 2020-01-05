@@ -94,7 +94,7 @@ public
 explicit
 WebAuthnAttestation
 (
-WebAuthentication
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -108,7 +108,7 @@ WebAuthnAttestation
 ;
 public
 :
-WebAuthentication
+nsISupports
 *
 GetParentObject
 (
@@ -237,9 +237,9 @@ aBuffer
 ;
 private
 :
-RefPtr
+nsCOMPtr
 <
-WebAuthentication
+nsPIDOMWindowInner
 >
 mParent
 ;
