@@ -432,6 +432,11 @@ OrientedImage
 cpp
 '
 '
+ProgressTracker
+.
+cpp
+'
+'
 ScriptedNotificationObserver
 .
 cpp
@@ -512,11 +517,6 @@ SOURCES
 +
 =
 [
-'
-ProgressTracker
-.
-cpp
-'
 '
 RasterImage
 .
