@@ -498,6 +498,14 @@ os
 "
 win
 "
+&
+&
+mozinfo
+.
+bits
+=
+=
+32
 )
 {
 ok
