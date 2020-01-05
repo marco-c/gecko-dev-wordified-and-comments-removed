@@ -2582,13 +2582,11 @@ this
 section
 capture
 the
-[
 C
 +
 +
 pseudostack
-]
-(
+<
 https
 :
 /
@@ -2616,7 +2614,8 @@ in_Profiler
 Native_stack_vs
 .
 _Pseudo_stack
-)
+>
+_
 and
 an
 incomplete
