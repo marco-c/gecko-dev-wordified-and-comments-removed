@@ -2433,6 +2433,16 @@ GetRegistration
 (
 )
 ;
+flags
+|
+=
+registration
+-
+>
+GetLoadFlags
+(
+)
+;
 if
 (
 registration
