@@ -410,6 +410,13 @@ nonincremental_layout
 |
 node
 .
+is_dirty
+(
+)
+|
+|
+node
+.
 has_dirty_descendants
 (
 )

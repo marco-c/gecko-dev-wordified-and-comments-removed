@@ -722,7 +722,9 @@ new
 )
 }
 ;
-if
+debug_assert
+!
+(
 node
 .
 is_dirty
@@ -735,7 +737,8 @@ node
 has_dirty_descendants
 (
 )
-{
+)
+;
 if
 per_doc_data
 .
@@ -784,7 +787,6 @@ per_doc_data
 work_queue
 )
 ;
-}
 }
 }
 #

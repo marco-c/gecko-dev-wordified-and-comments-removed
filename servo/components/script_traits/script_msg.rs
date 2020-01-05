@@ -269,10 +269,6 @@ String
 >
 >
 )
-DOMLoad
-(
-PipelineId
-)
 Focus
 (
 PipelineId
