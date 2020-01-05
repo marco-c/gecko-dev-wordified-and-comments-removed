@@ -188,3 +188,15 @@ dom
 base
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+test
+/
+mochitest
+.
+ini
+'
+]
