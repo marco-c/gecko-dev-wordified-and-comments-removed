@@ -196,6 +196,15 @@ NS_HTTP_BE_CONSERVATIVE
 )
 #
 define
+NS_HTTP_URGENT_START
+(
+1
+<
+<
+12
+)
+#
+define
 NS_HTTP_DEFAULT_PORT
 80
 #

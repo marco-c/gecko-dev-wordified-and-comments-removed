@@ -1473,6 +1473,9 @@ bool
 mH2MandatorySuiteEnabled
 ;
 uint16_t
+mMaxUrgentStartQ
+;
+uint16_t
 mMaxConnections
 ;
 uint8_t
