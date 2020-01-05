@@ -210,10 +210,10 @@ Chan
 )
 AddEventListener
 (
-comm
+pipes
 :
 :
-Chan
+SharedChan
 <
 Event
 >
@@ -346,10 +346,10 @@ event_listeners
 :
 DVec
 <
-comm
+pipes
 :
 :
-Chan
+SharedChan
 <
 Event
 >
@@ -686,6 +686,7 @@ key_ch
 )
 AddEventListener
 (
+move
 event_listener
 )
 =
@@ -1214,10 +1215,10 @@ add_event_listener
 (
 listener
 :
-comm
+pipes
 :
 :
-Chan
+SharedChan
 <
 Event
 >

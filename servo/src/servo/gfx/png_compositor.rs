@@ -288,7 +288,10 @@ add_event_listener
 (
 _listener
 :
-Chan
+pipes
+:
+:
+SharedChan
 <
 Event
 >
