@@ -712,6 +712,11 @@ mBClampMarginBoxMinSize
 1
 ;
 bool
+mApplyAutoMinSize
+:
+1
+;
+bool
 mIOffsetsNeedCSSAlign
 :
 1
@@ -2389,6 +2394,14 @@ B_CLAMP_MARGIN_BOX_MIN_SIZE
 <
 <
 6
+)
+I_APPLY_AUTO_MIN_SIZE
+=
+(
+1
+<
+<
+7
 )
 }
 ;

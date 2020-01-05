@@ -5843,6 +5843,12 @@ eBClampMarginBoxMinSize
 <
 <
 3
+eIApplyAutoMinSize
+=
+1
+<
+<
+4
 }
 ;
 virtual
