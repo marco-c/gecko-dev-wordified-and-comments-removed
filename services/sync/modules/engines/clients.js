@@ -1520,14 +1520,14 @@ _log
 .
 debug
 (
-'
+"
 Refreshing
 the
 known
 stale
 clients
 list
-'
+"
 )
 ;
 let
@@ -1606,7 +1606,7 @@ _log
 .
 error
 (
-'
+"
 Could
 not
 retrieve
@@ -1614,7 +1614,7 @@ the
 FxA
 device
 list
-'
+"
 ex
 )
 ;

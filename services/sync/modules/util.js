@@ -2078,8 +2078,6 @@ length
 )
 ;
 }
-else
-{
 return
 Str
 .
@@ -2090,7 +2088,6 @@ GetStringFromName
 error
 )
 ;
-}
 }
 catch
 (
@@ -2105,13 +2102,13 @@ errors
 .
 GetStringFromName
 (
-'
+"
 error
 .
 reason
 .
 unknown
-'
+"
 )
 ;
 }

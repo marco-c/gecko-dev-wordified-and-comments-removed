@@ -607,7 +607,6 @@ expected
 )
 ;
 }
-;
 async
 function
 cleanup
