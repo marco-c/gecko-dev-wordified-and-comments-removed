@@ -76,9 +76,6 @@ reducers
 selectors
 '
 '
-shared
-'
-'
 utils
 '
 ]

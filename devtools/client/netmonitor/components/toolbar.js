@@ -83,7 +83,7 @@ index
 ;
 const
 {
-L10N
+FILTER_SEARCH_DELAY
 }
 =
 require
@@ -92,9 +92,7 @@ require
 .
 .
 /
-utils
-/
-l10n
+constants
 "
 )
 ;
@@ -139,7 +137,7 @@ utils
 ;
 const
 {
-FILTER_SEARCH_DELAY
+L10N
 }
 =
 require
@@ -148,7 +146,9 @@ require
 .
 .
 /
-constants
+utils
+/
+l10n
 "
 )
 ;

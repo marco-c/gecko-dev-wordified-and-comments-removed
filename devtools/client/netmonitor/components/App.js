@@ -57,9 +57,7 @@ require
 "
 .
 /
-monitor
--
-panel
+MonitorPanel
 "
 )
 )
@@ -74,9 +72,7 @@ require
 "
 .
 /
-statistics
--
-panel
+StatisticsPanel
 "
 )
 )
@@ -89,7 +85,7 @@ div
 DOM
 ;
 function
-NetworkMonitor
+App
 (
 {
 statisticsOpen
@@ -123,15 +119,15 @@ StatisticsPanel
 )
 ;
 }
-NetworkMonitor
+App
 .
 displayName
 =
 "
-NetworkMonitor
+App
 "
 ;
-NetworkMonitor
+App
 .
 propTypes
 =
@@ -169,6 +165,6 @@ statisticsOpen
 )
 )
 (
-NetworkMonitor
+App
 )
 ;
