@@ -78,13 +78,6 @@ html
 1
 .
 html
-asserts
--
-if
-(
-stylo
-1
-)
 =
 =
 444723
@@ -97,9 +90,6 @@ html
 2
 .
 html
-#
-bug
-1324635
 fails
 =
 =
