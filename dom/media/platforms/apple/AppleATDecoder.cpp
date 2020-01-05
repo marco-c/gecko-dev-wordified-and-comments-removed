@@ -182,6 +182,10 @@ mIsFlushing
 (
 false
 )
+mParsedFramesForAACMagicCookie
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -2595,6 +2599,13 @@ IsCurrentThreadIn
 )
 )
 ;
+static
+const
+uint32_t
+MAX_FRAMES
+=
+2
+;
 if
 (
 mFormatID
@@ -2609,6 +2620,11 @@ mExtendedProfile
 =
 =
 2
+&
+&
+mParsedFramesForAACMagicCookie
+<
+MAX_FRAMES
 )
 {
 if
@@ -2630,6 +2646,10 @@ Length
 )
 )
 {
+mParsedFramesForAACMagicCookie
++
++
+;
 return
 NS_ERROR_NOT_INITIALIZED
 ;

@@ -269,6 +269,9 @@ SetupChannelLayout
 (
 )
 ;
+uint32_t
+mParsedFramesForAACMagicCookie
+;
 }
 ;
 }
