@@ -1600,7 +1600,7 @@ before
 .
 parent_node
 .
-get_rooted
+get
 (
 )
 .
@@ -1645,7 +1645,7 @@ self
 .
 first_child
 .
-get_rooted
+get
 (
 )
 .
@@ -1920,7 +1920,7 @@ child
 .
 parent_node
 .
-get_rooted
+get
 (
 )
 .
@@ -3936,7 +3936,7 @@ self
 .
 first_child
 .
-get_rooted
+get
 (
 )
 ;
@@ -11304,7 +11304,7 @@ self
 .
 parent_node
 .
-get_rooted
+get
 (
 )
 }
@@ -11435,7 +11435,7 @@ self
 .
 first_child
 .
-get_rooted
+get
 (
 )
 }
@@ -11459,7 +11459,7 @@ self
 .
 last_child
 .
-get_rooted
+get
 (
 )
 }
@@ -11483,7 +11483,7 @@ self
 .
 prev_sibling
 .
-get_rooted
+get
 (
 )
 }
@@ -11507,7 +11507,7 @@ self
 .
 next_sibling
 .
-get_rooted
+get
 (
 )
 }
@@ -14746,7 +14746,7 @@ self
 .
 child_list
 .
-get_rooted
+get
 (
 )
 {

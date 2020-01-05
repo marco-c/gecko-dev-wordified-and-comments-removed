@@ -641,7 +641,7 @@ self
 .
 storageArea
 .
-get_rooted
+get
 (
 )
 }

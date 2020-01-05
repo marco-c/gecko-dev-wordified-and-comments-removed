@@ -988,7 +988,7 @@ self
 .
 target
 .
-get_rooted
+get
 (
 )
 }
@@ -1012,7 +1012,7 @@ self
 .
 current_target
 .
-get_rooted
+get
 (
 )
 }

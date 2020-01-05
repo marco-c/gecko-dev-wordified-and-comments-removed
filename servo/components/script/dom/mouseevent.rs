@@ -1084,7 +1084,7 @@ self
 .
 related_target
 .
-get_rooted
+get
 (
 )
 }
