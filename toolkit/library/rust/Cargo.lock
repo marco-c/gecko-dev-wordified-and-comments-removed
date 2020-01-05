@@ -1177,7 +1177,7 @@ version
 "
 0
 .
-2
+3
 .
 0
 "
@@ -4916,7 +4916,7 @@ mp4parse_capi
 .
 7
 .
-0
+1
 "
 "
 nsstring
@@ -6193,7 +6193,7 @@ version
 .
 7
 .
-0
+1
 "
 dependencies
 =
@@ -6202,7 +6202,7 @@ dependencies
 bitreader
 0
 .
-2
+3
 .
 0
 (
@@ -6274,7 +6274,7 @@ version
 .
 7
 .
-0
+1
 "
 dependencies
 =
@@ -6314,7 +6314,7 @@ mp4parse
 .
 7
 .
-0
+1
 "
 ]
 [
@@ -15859,7 +15859,7 @@ checksum
 bitreader
 0
 .
-2
+3
 .
 0
 (
@@ -15886,7 +15886,7 @@ index
 "
 =
 "
-8319aa6588c40cce19a135009ec70dc730a34ed9d27bab2409298b948546da7a
+80b13e2ab064ff3aa0bdbf1eff533f9822dc37899821f5f98c67f263eab51707
 "
 "
 checksum
