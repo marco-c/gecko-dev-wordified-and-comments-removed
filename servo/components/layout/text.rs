@@ -766,6 +766,11 @@ white_space
 :
 :
 normal
+|
+white_space
+:
+:
+nowrap
 =
 >
 CompressWhitespaceNewline
@@ -1024,6 +1029,11 @@ white_space
 :
 :
 normal
+|
+white_space
+:
+:
+nowrap
 =
 >
 CompressWhitespaceNewline
