@@ -147,6 +147,15 @@ test
 -
 p
 selectors
+-
+.
+/
+mach
+cargo
+test
+-
+p
+style
 cache
 :
 directories
