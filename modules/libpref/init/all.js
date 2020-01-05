@@ -9595,6 +9595,16 @@ offset
 pref
 (
 "
+editor
+.
+use_div_for_default_newlines
+"
+true
+)
+;
+pref
+(
+"
 dom
 .
 disable_beforeunload
