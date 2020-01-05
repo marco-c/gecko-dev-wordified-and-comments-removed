@@ -1182,15 +1182,6 @@ html
 8
 ]
 *
-test_value_storage
-.
-html
-place
--
-[
-3
-]
-*
 font
 -
 variant
