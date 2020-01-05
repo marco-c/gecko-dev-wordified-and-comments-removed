@@ -124,6 +124,9 @@ DOMString
 name
 )
 ;
+[
+Throws
+]
 setter
 creator
 void
