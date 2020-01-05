@@ -73,6 +73,9 @@ mp4_demuxer
 class
 Index
 ;
+class
+IndiceWrapper
+;
 typedef
 int64_t
 Microseconds
@@ -322,12 +325,9 @@ mTime
 Index
 (
 const
-nsTArray
-<
-Indice
->
+IndiceWrapper
 &
-aIndex
+aIndices
 Stream
 *
 aSource
