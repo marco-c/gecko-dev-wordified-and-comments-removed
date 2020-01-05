@@ -4855,8 +4855,6 @@ rv
 )
 ;
 }
-return
-;
 }
 nsresult
 Geolocation
