@@ -2244,6 +2244,9 @@ ExposedPropertiesOnly
 :
 deny
 (
+JSContext
+*
+cx
 js
 :
 :
@@ -2254,6 +2257,8 @@ Action
 act
 HandleId
 id
+bool
+mayThrow
 )
 {
 if
@@ -2294,9 +2299,6 @@ Wrapper
 GET_PROPERTY_DESCRIPTOR
 )
 {
-AutoJSContext
-cx
-;
 return
 ReportWrapperDenial
 (

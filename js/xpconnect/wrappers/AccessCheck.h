@@ -267,6 +267,9 @@ static
 bool
 deny
 (
+JSContext
+*
+cx
 js
 :
 :
@@ -280,6 +283,8 @@ JS
 :
 HandleId
 id
+bool
+mayThrow
 )
 {
 return
@@ -356,6 +361,9 @@ static
 bool
 deny
 (
+JSContext
+*
+cx
 js
 :
 :
@@ -369,6 +377,8 @@ JS
 :
 HandleId
 id
+bool
+mayThrow
 )
 {
 return
@@ -483,6 +493,9 @@ static
 bool
 deny
 (
+JSContext
+*
+cx
 js
 :
 :
@@ -496,6 +509,8 @@ JS
 :
 HandleId
 id
+bool
+mayThrow
 )
 {
 if
@@ -580,6 +595,9 @@ static
 bool
 deny
 (
+JSContext
+*
+cx
 js
 :
 :
@@ -593,6 +611,8 @@ JS
 :
 HandleId
 id
+bool
+mayThrow
 )
 ;
 static
