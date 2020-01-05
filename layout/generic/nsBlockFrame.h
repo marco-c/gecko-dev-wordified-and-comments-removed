@@ -544,6 +544,16 @@ GetDebugStateBits
 const
 override
 ;
+const
+char
+*
+LineReflowStatusToString
+(
+uint8_t
+aLineReflowStatus
+)
+const
+;
 #
 endif
 #
