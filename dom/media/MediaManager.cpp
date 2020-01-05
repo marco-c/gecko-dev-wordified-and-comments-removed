@@ -8580,11 +8580,6 @@ ifdef
 WIN32
 if
 (
-IsVistaOrLater
-(
-)
-&
-&
 !
 IsWin8OrLater
 (
