@@ -1891,16 +1891,6 @@ return
 false
 ;
 }
-uint64_t
-GetDeviceCounter
-(
-)
-const
-{
-return
-mDeviceCounter
-;
-}
 static
 bool
 IsGfxInfoStatusOkay
@@ -2455,9 +2445,6 @@ gfx
 :
 IntSize
 mScreenSize
-;
-uint64_t
-mDeviceCounter
 ;
 const
 gfxSkipChars
