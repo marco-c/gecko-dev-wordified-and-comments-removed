@@ -341,6 +341,11 @@ DOMString
 interface_
 )
 ;
+Range
+createRange
+(
+)
+;
 }
 ;
 /

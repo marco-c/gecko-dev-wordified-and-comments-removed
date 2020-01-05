@@ -501,8 +501,6 @@ cloneRange
 (
 )
 ;
-/
-/
 void
 detach
 (
