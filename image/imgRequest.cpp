@@ -4036,6 +4036,10 @@ mImage
 >
 StartDecoding
 (
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 }

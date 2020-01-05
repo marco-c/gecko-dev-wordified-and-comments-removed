@@ -3986,6 +3986,8 @@ VectorImage
 :
 StartDecoding
 (
+uint32_t
+aFlags
 )
 {
 return

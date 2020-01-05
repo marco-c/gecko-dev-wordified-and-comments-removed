@@ -773,6 +773,10 @@ mDecodeRequested
 {
 StartDecoding
 (
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 }
@@ -1138,6 +1142,8 @@ imgRequestProxy
 :
 StartDecoding
 (
+uint32_t
+aFlags
 )
 {
 mDecodeRequested
@@ -1165,6 +1171,7 @@ image
 >
 StartDecoding
 (
+aFlags
 )
 ;
 }
