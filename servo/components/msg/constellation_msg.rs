@@ -603,7 +603,6 @@ PipelineId
 FrameSize
 (
 PipelineId
-SubpageId
 Size2D
 <
 f32
@@ -779,11 +778,6 @@ Option
 <
 String
 >
-)
-PrepareForSubpageLayerCreation
-(
-PipelineId
-SubpageId
 )
 }
 #
@@ -1498,6 +1492,7 @@ pub
 struct
 PipelineIndex
 (
+pub
 u32
 )
 ;
@@ -1520,9 +1515,11 @@ pub
 struct
 PipelineId
 {
+pub
 namespace_id
 :
 PipelineNamespaceId
+pub
 index
 :
 PipelineIndex

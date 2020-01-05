@@ -8257,11 +8257,6 @@ pipeline_id
 iframe_fragment_info
 .
 pipeline_id
-subpage_id
-:
-iframe_fragment_info
-.
-subpage_id
 origin
 :
 Point2D

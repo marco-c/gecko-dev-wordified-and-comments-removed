@@ -22,7 +22,6 @@ Key
 KeyModifiers
 KeyState
 PipelineId
-SubpageId
 }
 ;
 use
@@ -690,10 +689,6 @@ pub
 pipeline_id
 :
 PipelineId
-pub
-subpage_id
-:
-SubpageId
 pub
 origin
 :

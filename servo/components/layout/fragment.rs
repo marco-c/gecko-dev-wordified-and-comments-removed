@@ -171,10 +171,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-SubpageId
-}
 ;
 use
 net_traits
@@ -2830,10 +2827,6 @@ pub
 pipeline_id
 :
 PipelineId
-pub
-subpage_id
-:
-SubpageId
 }
 impl
 IframeFragmentInfo
@@ -2852,14 +2845,11 @@ ThreadSafeLayoutNode
 IframeFragmentInfo
 {
 let
-(
 pipeline_id
-subpage_id
-)
 =
 node
 .
-iframe_pipeline_and_subpage_ids
+iframe_pipeline_id
 (
 )
 ;
@@ -2868,9 +2858,6 @@ IframeFragmentInfo
 pipeline_id
 :
 pipeline_id
-subpage_id
-:
-subpage_id
 }
 }
 #
