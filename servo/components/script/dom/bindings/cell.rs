@@ -425,12 +425,14 @@ mut
 JSTracer
 )
 {
+unsafe
+{
 (
 *
 self
 )
 .
-borrow
+borrow_for_gc_trace
 (
 )
 .
@@ -438,6 +440,7 @@ trace
 (
 trc
 )
+}
 }
 }
 impl
