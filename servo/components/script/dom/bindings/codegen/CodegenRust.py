@@ -1676,10 +1676,8 @@ file
 "
 "
         
-assert
-(
-False
-)
+raise
+NotImplementedError
 class
 CGNativePropertyHooks
 (
@@ -14614,10 +14612,8 @@ self
 )
 :
         
-assert
-(
-False
-)
+raise
+NotImplementedError
 def
 CreateBindingJSObject
 (
@@ -19982,8 +19978,8 @@ self
 )
 :
         
-assert
-False
+raise
+NotImplementedError
 class
 CGSpecializedMethod
 (
@@ -33463,10 +33459,8 @@ self
 )
 :
         
-assert
-(
-False
-)
+raise
+NotImplementedError
 def
 finalizeHook
 (
