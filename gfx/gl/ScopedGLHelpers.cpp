@@ -2249,7 +2249,7 @@ target
 :
 ScopedGLWrapper
 <
-ScopedPackState
+ScopedBindPBO
 >
 (
 gl
