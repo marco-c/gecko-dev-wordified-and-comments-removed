@@ -115,7 +115,7 @@ ParseState
 }
 ;
 trait
-html_methods
+HtmlLexerMethods
 {
 fn
 parse_html
@@ -149,11 +149,9 @@ Token
 ;
 }
 impl
-html_methods
-of
-html_methods
-for
 HtmlLexer
+:
+HtmlLexerMethods
 {
 fn
 parse_html

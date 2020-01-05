@@ -534,7 +534,7 @@ err
 )
 }
 trait
-methods
+FTErrorMethods
 {
 fn
 succeeded
@@ -546,11 +546,9 @@ bool
 ;
 }
 impl
-methods
-of
-methods
-for
 FT_Error
+:
+FTErrorMethods
 {
 fn
 succeeded

@@ -513,11 +513,9 @@ float
 ;
 }
 impl
-to_float
-of
-to_float
-for
 u8
+:
+to_float
 {
 fn
 to_float

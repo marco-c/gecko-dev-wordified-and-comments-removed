@@ -72,10 +72,8 @@ float
 ;
 impl
 Color
-of
+:
 eq
-for
-Color
 {
 pure
 fn
@@ -592,8 +590,6 @@ l
 ;
 }
 impl
-methods
-for
 Color
 {
 fn

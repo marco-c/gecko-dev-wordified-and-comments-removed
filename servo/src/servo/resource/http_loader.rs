@@ -5,10 +5,7 @@ import
 comm
 :
 :
-{
 chan
-methods
-}
 ;
 import
 task

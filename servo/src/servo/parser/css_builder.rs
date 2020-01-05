@@ -136,7 +136,7 @@ Token
 }
 ;
 trait
-util_methods
+TokenReaderMethods
 {
 fn
 get
@@ -157,11 +157,9 @@ Token
 ;
 }
 impl
-util_methods
-of
-util_methods
-for
 TokenReader
+:
+TokenReaderMethods
 {
 fn
 get
@@ -236,7 +234,7 @@ tok
 }
 }
 trait
-parser_methods
+ParserMethods
 {
 fn
 parse_element
@@ -299,11 +297,9 @@ Rule
 ;
 }
 impl
-parser_methods
-of
-parser_methods
-for
 TokenReader
+:
+ParserMethods
 {
 fn
 parse_element

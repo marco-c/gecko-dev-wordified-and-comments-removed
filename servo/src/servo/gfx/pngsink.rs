@@ -216,14 +216,12 @@ AzDrawTargetRef
 Exit
 }
 impl
-PngSink
-of
-Sink
-for
 chan
 <
 Msg
 >
+:
+Sink
 {
 fn
 begin_drawing

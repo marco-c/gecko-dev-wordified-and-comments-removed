@@ -51,10 +51,7 @@ import
 dvec
 :
 :
-{
 dvec
-extensions
-}
 ;
 import
 azure
@@ -72,9 +69,7 @@ gfx
 renderer
 :
 :
-{
 Sink
-}
 ;
 import
 dom
@@ -871,10 +866,8 @@ renderer
 ]
 impl
 OSMain
-of
+:
 Sink
-for
-OSMain
 {
 fn
 begin_drawing

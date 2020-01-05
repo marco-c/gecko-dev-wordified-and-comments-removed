@@ -959,7 +959,7 @@ bindgen
 cairo_ft_font_face_create_for_ft_face
 ;
 trait
-methods
+FTErrorMethods
 {
 fn
 for_sure
@@ -976,11 +976,9 @@ bool
 ;
 }
 impl
-methods
-of
-methods
-for
 FT_Error
+:
+FTErrorMethods
 {
 fn
 for_sure

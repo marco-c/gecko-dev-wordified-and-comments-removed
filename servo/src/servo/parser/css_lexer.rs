@@ -135,7 +135,7 @@ str
 Eof
 }
 trait
-css_methods
+CssLexerMethods
 {
 fn
 parse_css
@@ -191,11 +191,9 @@ Token
 ;
 }
 impl
-css_methods
-of
-css_methods
-for
 CssLexer
+:
+CssLexerMethods
 {
 fn
 parse_css

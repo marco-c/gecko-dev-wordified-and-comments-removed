@@ -41,10 +41,7 @@ import
 comm
 :
 :
-{
 port
-methods
-}
 ;
 import
 resource
@@ -99,7 +96,7 @@ bool
 }
 ;
 trait
-u8_methods
+U8Methods
 {
 fn
 is_whitespace
@@ -119,11 +116,9 @@ bool
 ;
 }
 impl
-u8_methods
-of
-u8_methods
-for
 u8
+:
+U8Methods
 {
 fn
 is_whitespace
@@ -228,7 +223,7 @@ u8
 }
 }
 trait
-util_methods
+InputStateUtil
 {
 fn
 get
@@ -291,11 +286,9 @@ eat_whitespace
 ;
 }
 impl
-util_methods
-of
-util_methods
-for
 InputState
+:
+InputStateUtil
 {
 fn
 get

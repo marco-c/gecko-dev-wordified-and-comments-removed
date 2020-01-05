@@ -139,12 +139,6 @@ ptr
 :
 null
 ;
-import
-rcu
-:
-:
-ReaderMethods
-;
 extern
 fn
 finalize

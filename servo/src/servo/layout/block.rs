@@ -49,12 +49,10 @@ base
 Box
 BlockBox
 BTree
-layout_methods
-BoxTreeReadMethods
 }
 ;
 trait
-block_layout_methods
+BlockLayoutMethods
 {
 fn
 reflow_block
@@ -79,11 +77,9 @@ methods
 "
 ]
 impl
-block_layout_methods
-of
-block_layout_methods
-for
 Box
+:
+BlockLayoutMethods
 {
 #
 [

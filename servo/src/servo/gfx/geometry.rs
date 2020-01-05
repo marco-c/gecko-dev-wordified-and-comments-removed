@@ -38,10 +38,8 @@ int
 ;
 impl
 au
-of
+:
 num
-for
-au
 {
 pure
 fn
