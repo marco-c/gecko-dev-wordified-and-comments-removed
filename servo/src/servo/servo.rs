@@ -5,12 +5,6 @@ comm
 *
 ;
 import
-parser
-:
-:
-lexer
-;
-import
 result
 :
 :

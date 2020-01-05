@@ -170,7 +170,13 @@ mod
 parser
 {
 mod
-lexer
+lexer_util
+;
+mod
+css_lexer
+;
+mod
+html_lexer
 ;
 mod
 html_builder
