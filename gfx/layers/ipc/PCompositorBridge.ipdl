@@ -1688,8 +1688,6 @@ PWebRenderBridge
 (
 uint64_t
 pipelineId
-nsString
-resourcePath
 )
 ;
 child

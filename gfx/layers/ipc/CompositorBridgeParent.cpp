@@ -8158,10 +8158,6 @@ const
 uint64_t
 &
 aPipelineId
-const
-nsString
-&
-aResourcePath
 )
 {
 #
@@ -8228,8 +8224,6 @@ new
 WebRenderBridgeParent
 (
 aPipelineId
-&
-aResourcePath
 mWidget
 glc
 .
