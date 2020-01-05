@@ -122,6 +122,7 @@ channel
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
@@ -141,6 +142,7 @@ jstraceable
 derive
 (
 Copy
+Clone
 )
 ]
 pub

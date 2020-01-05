@@ -1079,6 +1079,7 @@ false
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

@@ -892,11 +892,9 @@ image_size
 ;
 byte_swap
 (
+&
+mut
 imagedata
-.
-as_mut_slice
-(
-)
 )
 ;
 self

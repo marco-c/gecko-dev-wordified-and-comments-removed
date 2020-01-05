@@ -1761,6 +1761,7 @@ PartialEq
 Ord
 PartialOrd
 Copy
+Clone
 )
 ]
 enum

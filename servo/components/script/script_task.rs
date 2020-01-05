@@ -1046,6 +1046,7 @@ url
 derive
 (
 Copy
+Clone
 )
 ]
 pub

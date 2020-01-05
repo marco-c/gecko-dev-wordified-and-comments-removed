@@ -169,6 +169,7 @@ Right
 derive
 (
 Copy
+Clone
 )
 ]
 pub

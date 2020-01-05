@@ -200,6 +200,7 @@ LengthOrPercentageOrAuto
 derive
 (
 Copy
+Clone
 RustcEncodable
 Debug
 )
@@ -2503,6 +2504,7 @@ preferred_guess
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

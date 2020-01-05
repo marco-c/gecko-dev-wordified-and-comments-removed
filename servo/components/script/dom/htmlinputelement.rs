@@ -518,6 +518,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 #
@@ -7605,6 +7606,8 @@ owner
 &
 &
 match
+&
+*
 input
 .
 r
@@ -7612,10 +7615,6 @@ r
 )
 .
 Type
-(
-)
-.
-as_slice
 (
 )
 {

@@ -397,6 +397,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 pub
@@ -1875,6 +1876,7 @@ true
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1977,6 +1979,7 @@ ligature_start
 derive
 (
 Copy
+Clone
 )
 ]
 pub

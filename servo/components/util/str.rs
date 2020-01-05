@@ -775,6 +775,7 @@ to_u32
 derive
 (
 Copy
+Clone
 )
 ]
 pub

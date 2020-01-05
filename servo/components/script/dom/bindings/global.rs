@@ -156,6 +156,7 @@ Url
 derive
 (
 Copy
+Clone
 )
 ]
 pub

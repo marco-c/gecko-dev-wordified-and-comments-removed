@@ -244,6 +244,7 @@ htmlelement
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

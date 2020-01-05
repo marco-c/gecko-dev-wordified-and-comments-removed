@@ -772,6 +772,7 @@ SendableFrameTree
 [
 derive
 (
+Clone
 Copy
 )
 ]

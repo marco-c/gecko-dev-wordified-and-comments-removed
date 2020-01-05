@@ -121,6 +121,7 @@ u16
 derive
 (
 Copy
+Clone
 Debug
 )
 ]

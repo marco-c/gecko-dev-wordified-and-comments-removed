@@ -405,6 +405,7 @@ float_kind
 derive
 (
 Copy
+Clone
 )
 ]
 struct
@@ -13333,6 +13334,7 @@ derive
 (
 Debug
 Copy
+Clone
 )
 ]
 pub
@@ -13439,6 +13441,7 @@ equation
 derive
 (
 Copy
+Clone
 Debug
 )
 ]

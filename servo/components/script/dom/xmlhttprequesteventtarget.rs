@@ -94,6 +94,7 @@ EventTargetTypeId
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]

@@ -163,6 +163,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 Debug
 )
 ]
@@ -205,6 +206,7 @@ SubpageId
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -422,6 +424,7 @@ SUPER
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
@@ -1023,6 +1026,7 @@ u32
 derive
 (
 Copy
+Clone
 )
 ]
 pub

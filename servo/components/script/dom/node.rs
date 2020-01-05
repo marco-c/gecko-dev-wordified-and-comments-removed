@@ -1440,6 +1440,7 @@ dispose
 derive
 (
 Copy
+Clone
 )
 ]
 enum
@@ -1751,6 +1752,7 @@ borrow_mut
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )
@@ -8201,6 +8203,7 @@ current
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]

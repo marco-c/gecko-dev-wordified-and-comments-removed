@@ -2038,6 +2038,7 @@ to_owned
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

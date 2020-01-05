@@ -33456,6 +33456,7 @@ deduplicated
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 Debug
@@ -33729,6 +33730,7 @@ derive
 Eq
 PartialEq
 Copy
+Clone
 )
 ]
 pub

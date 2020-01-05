@@ -30,6 +30,7 @@ DOMString
 derive
 (
 Copy
+Clone
 )
 ]
 pub

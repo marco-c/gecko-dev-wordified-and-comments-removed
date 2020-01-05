@@ -313,6 +313,7 @@ UrlParser
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]

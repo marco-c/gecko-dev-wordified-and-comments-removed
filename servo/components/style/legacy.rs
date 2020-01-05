@@ -108,6 +108,7 @@ LengthOrPercentageOrAuto
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 )
@@ -123,6 +124,7 @@ Width
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 )
@@ -140,6 +142,7 @@ Rows
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 )

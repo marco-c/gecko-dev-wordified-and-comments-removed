@@ -163,6 +163,7 @@ jstraceable
 derive
 (
 Copy
+Clone
 )
 ]
 #

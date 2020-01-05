@@ -581,6 +581,7 @@ ancestors
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -990,6 +991,7 @@ layout_context
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1570,6 +1572,7 @@ BUBBLE_ISIZES
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1673,6 +1676,7 @@ REFLOW
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1802,6 +1806,7 @@ REFLOW
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1866,6 +1871,7 @@ compute_absolute_position
 derive
 (
 Copy
+Clone
 )
 ]
 pub

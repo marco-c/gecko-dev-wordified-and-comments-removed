@@ -1833,10 +1833,6 @@ parse_unsigned_integer
 (
 value
 .
-as_slice
-(
-)
-.
 chars
 (
 )
@@ -1870,10 +1866,6 @@ set
 parse_unsigned_integer
 (
 value
-.
-as_slice
-(
-)
 .
 chars
 (

@@ -226,6 +226,7 @@ jstraceable
 derive
 (
 Copy
+Clone
 )
 ]
 pub

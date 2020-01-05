@@ -114,6 +114,7 @@ LogicalMargin
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -272,6 +273,7 @@ most_negative
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1282,6 +1284,7 @@ Au
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1622,6 +1625,7 @@ preferred_inline_size
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

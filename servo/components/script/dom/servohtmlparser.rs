@@ -195,6 +195,7 @@ Document
 derive
 (
 Copy
+Clone
 )
 ]
 pub

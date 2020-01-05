@@ -573,6 +573,7 @@ modifiers
 [
 derive
 (
+Clone
 Copy
 )
 ]

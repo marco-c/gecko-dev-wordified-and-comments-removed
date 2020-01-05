@@ -69,6 +69,7 @@ Response
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -114,6 +115,7 @@ XSLT
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -141,6 +143,7 @@ Url
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -157,6 +160,7 @@ ForcedPreflightMode
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -172,6 +176,7 @@ Include
 derive
 (
 Copy
+Clone
 )
 ]
 pub

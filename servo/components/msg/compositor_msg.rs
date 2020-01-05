@@ -127,6 +127,7 @@ PartialEq
 Eq
 Debug
 Copy
+Clone
 )
 ]
 pub
@@ -280,6 +281,7 @@ FixedPosition
 derive
 (
 Copy
+Clone
 )
 ]
 pub

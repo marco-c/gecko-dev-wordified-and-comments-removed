@@ -64,6 +64,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 pub

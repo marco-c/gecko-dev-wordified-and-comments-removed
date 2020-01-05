@@ -103,6 +103,7 @@ ptr
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
