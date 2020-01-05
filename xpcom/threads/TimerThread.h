@@ -143,14 +143,6 @@ aTimer
 )
 ;
 nsresult
-TimerDelayChanged
-(
-nsTimerImpl
-*
-aTimer
-)
-;
-nsresult
 RemoveTimer
 (
 nsTimerImpl
