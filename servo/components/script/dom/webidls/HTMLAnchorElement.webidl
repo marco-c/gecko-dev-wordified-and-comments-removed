@@ -267,8 +267,6 @@ obsolete
 members
 }
 ;
-/
-/
 HTMLAnchorElement
 implements
 HTMLHyperlinkElementUtils
