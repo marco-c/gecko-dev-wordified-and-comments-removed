@@ -238,8 +238,6 @@ XMLHttpRequestEventTarget
 /
 event
 handler
-/
-/
 attribute
 EventHandler
 onreadystatechange
