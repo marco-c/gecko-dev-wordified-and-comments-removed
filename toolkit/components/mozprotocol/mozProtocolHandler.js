@@ -249,7 +249,7 @@ uri
 return
 this
 .
-newChannel
+newChannel2
 (
 uri
 null
