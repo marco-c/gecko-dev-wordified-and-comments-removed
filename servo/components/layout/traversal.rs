@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-unsafe_code
-)
-]
 use
 construct
 :
@@ -80,10 +72,7 @@ style
 context
 :
 :
-{
 StyleContext
-ReflowGoal
-}
 ;
 use
 style
