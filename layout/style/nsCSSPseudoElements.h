@@ -108,9 +108,10 @@ h
 undef
 CSS_PSEUDO_ELEMENT
 Count
-AnonBox
+InheritingAnonBox
 =
 Count
+NonInheritingAnonBox
 #
 ifdef
 MOZ_XUL

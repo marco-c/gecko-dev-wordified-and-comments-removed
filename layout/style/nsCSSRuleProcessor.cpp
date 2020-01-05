@@ -14706,7 +14706,16 @@ pseudoType
 CSSPseudoElementType
 :
 :
-AnonBox
+InheritingAnonBox
+|
+|
+pseudoType
+=
+=
+CSSPseudoElementType
+:
+:
+NonInheritingAnonBox
 )
 {
 NS_ASSERTION

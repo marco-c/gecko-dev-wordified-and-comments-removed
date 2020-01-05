@@ -876,6 +876,17 @@ aFlags
 eNoFlags
 )
 ;
+already_AddRefed
+<
+nsStyleContext
+>
+ResolveNonInheritingAnonymousBoxStyle
+(
+nsIAtom
+*
+aPseudoTag
+)
+;
 #
 ifdef
 MOZ_XUL

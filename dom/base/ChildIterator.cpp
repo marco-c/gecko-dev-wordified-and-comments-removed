@@ -2264,7 +2264,7 @@ pseudoType
 CSSPseudoElementType
 :
 :
-AnonBox
+InheritingAnonBox
 )
 {
 MOZ_ASSERT
@@ -2311,6 +2311,17 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+pseudoType
+!
+=
+CSSPseudoElementType
+:
+:
+NonInheritingAnonBox
+)
+;
 bool
 isImpl
 =

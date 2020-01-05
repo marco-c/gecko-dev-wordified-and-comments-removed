@@ -366,6 +366,17 @@ aFlags
 0
 )
 ;
+already_AddRefed
+<
+nsStyleContext
+>
+ResolveNonInheritingAnonymousBoxStyle
+(
+nsIAtom
+*
+aPseudoTag
+)
+;
 nsresult
 AppendStyleSheet
 (
