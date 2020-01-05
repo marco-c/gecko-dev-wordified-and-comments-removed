@@ -146,6 +146,13 @@ REMOVAL
 =
 3
 ;
+const
+unsigned
+short
+SMIL
+=
+4
+;
 readonly
 attribute
 nsIDOMNode

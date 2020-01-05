@@ -7218,7 +7218,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -7706,7 +7706,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -8120,7 +8120,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -8396,7 +8396,7 @@ GetPointListAttrName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -8545,7 +8545,7 @@ GetPathDataAttrName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -8736,7 +8736,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -9062,7 +9062,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -9253,7 +9253,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -9579,7 +9579,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -9801,7 +9801,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -9987,7 +9987,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -10174,7 +10174,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -10301,7 +10301,7 @@ viewBox
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -10430,7 +10430,7 @@ preserveAspectRatio
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }
@@ -10866,7 +10866,7 @@ mName
 nsIDOMMutationEvent
 :
 :
-MODIFICATION
+SMIL
 )
 ;
 }

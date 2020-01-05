@@ -363,6 +363,14 @@ aNotify
 )
 override
 ;
+virtual
+bool
+ElementHasHref
+(
+)
+const
+override
+;
 already_AddRefed
 <
 SVGAnimatedString
