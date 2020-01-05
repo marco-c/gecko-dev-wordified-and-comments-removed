@@ -125,7 +125,7 @@ DOMContentLoaded
 function
 iframeLoaded
 (
-event
+dclEvent
 )
 {
 if
@@ -146,7 +146,7 @@ blank
 "
 |
 |
-event
+dclEvent
 .
 target
 !
@@ -201,7 +201,7 @@ FirefoxAccountsTestResponse
 "
 function
 (
-event
+fxAccountsEvent
 )
 {
 sendAsyncMessage
@@ -214,7 +214,7 @@ response
 {
 data
 :
-event
+fxAccountsEvent
 .
 detail
 .
@@ -464,7 +464,7 @@ load
 function
 iframeLoaded
 (
-event
+loadEvent
 )
 {
 if
@@ -485,7 +485,7 @@ blank
 "
 |
 |
-event
+loadEvent
 .
 target
 !

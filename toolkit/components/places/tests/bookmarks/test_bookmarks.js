@@ -967,9 +967,6 @@ TYPE_BOOKMARK
 ;
 try
 {
-let
-title
-=
 bs
 .
 getItemTitle
@@ -2111,7 +2108,6 @@ ex
 }
 try
 {
-let
 options
 =
 hs
@@ -2120,7 +2116,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 query
 =
 hs
@@ -2375,7 +2370,6 @@ title
 "
 )
 ;
-let
 options
 =
 hs
@@ -2384,7 +2378,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 query
 =
 hs
@@ -2993,7 +2986,6 @@ _itemChangedValue
 ;
 try
 {
-let
 options
 =
 hs
@@ -3018,7 +3010,6 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_BOOKMARKS
 ;
-let
 query
 =
 hs
@@ -3127,7 +3118,6 @@ ex
 }
 try
 {
-let
 options
 =
 hs
@@ -3152,7 +3142,6 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_BOOKMARKS
 ;
-let
 query
 =
 hs
@@ -3282,7 +3271,6 @@ ex
 }
 try
 {
-let
 options
 =
 hs
@@ -3291,7 +3279,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 query
 =
 hs

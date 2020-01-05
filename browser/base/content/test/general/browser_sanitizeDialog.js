@@ -3322,7 +3322,7 @@ function
 (
 entry
 isnew
-appcache
+unused
 status
 )
 {

@@ -369,7 +369,7 @@ setMaxPages
 )
 ;
 let
-now
+now_specific_to_test
 =
 getExpirablePRTime
 (
@@ -427,7 +427,7 @@ uri
 pageURI
 visitDate
 :
-now
+now_specific_to_test
 +
 +
 }
@@ -802,7 +802,7 @@ uri
 pageURI
 visitDate
 :
-now
+now_specific_to_test
 +
 +
 }

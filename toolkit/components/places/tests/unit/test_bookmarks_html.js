@@ -1264,14 +1264,14 @@ PAGE_URI
 (
 uri
 dataLen
-data
+faviconData
 mimeType
 )
 =
 >
 resolve
 (
-data
+faviconData
 )
 )
 ;

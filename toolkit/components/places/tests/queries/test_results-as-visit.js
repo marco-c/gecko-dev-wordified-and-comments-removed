@@ -416,7 +416,7 @@ childCount
 ;
 for
 (
-var
+let
 i
 =
 0

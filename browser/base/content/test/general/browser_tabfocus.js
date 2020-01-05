@@ -464,7 +464,7 @@ focusInChild
 )
 {
 var
-fm
+contentFM
 =
 Components
 .
@@ -699,7 +699,7 @@ focusedWindow
 var
 node
 =
-fm
+contentFM
 .
 getFocusedElementForWindow
 (
@@ -749,7 +749,7 @@ dontCheckExtraFocus
 {
 if
 (
-fm
+contentFM
 .
 focusedElement
 !
@@ -775,12 +775,12 @@ match
 }
 if
 (
-fm
+contentFM
 .
 focusedWindow
 &
 &
-fm
+contentFM
 .
 focusedWindow
 !
@@ -807,7 +807,7 @@ match
 if
 (
 (
-fm
+contentFM
 .
 focusedWindow
 =
@@ -844,7 +844,7 @@ correct
 if
 (
 (
-fm
+contentFM
 .
 focusedElement
 &
@@ -854,7 +854,7 @@ doc
 activeElement
 !
 =
-fm
+contentFM
 .
 focusedElement
 )
@@ -862,7 +862,7 @@ focusedElement
 |
 (
 !
-fm
+contentFM
 .
 focusedElement
 &
@@ -1190,13 +1190,6 @@ blur
 _browser_tabfocus_test_eventOccured
 true
 )
-;
-var
-fm
-=
-Services
-.
-focus
 ;
 var
 focusedWindow
@@ -2705,6 +2698,12 @@ finish
 )
 ;
 function
+_browser_tabfocus_test_eventOccured
+(
+event
+)
+{
+function
 getWindowDocId
 (
 target
@@ -2766,12 +2765,6 @@ window
 "
 ;
 }
-function
-_browser_tabfocus_test_eventOccured
-(
-event
-)
-{
 var
 id
 ;

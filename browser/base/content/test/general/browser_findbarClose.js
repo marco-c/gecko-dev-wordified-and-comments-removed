@@ -132,7 +132,7 @@ iframe
 )
 ;
 let
-promise
+awaitLoad
 =
 ContentTaskUtils
 .
@@ -161,7 +161,7 @@ org
 "
 ;
 yield
-promise
+awaitLoad
 ;
 }
 )

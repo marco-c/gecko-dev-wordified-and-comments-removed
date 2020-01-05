@@ -67,7 +67,7 @@ gBrowser
 .
 selectedBrowser
 link
-link
+contentLink
 =
 >
 {
@@ -77,7 +77,7 @@ document
 .
 getElementById
 (
-link
+contentLink
 )
 .
 click
@@ -219,7 +219,7 @@ gBrowser
 .
 selectedBrowser
 link
-link
+contentLink
 =
 >
 {
@@ -229,7 +229,7 @@ document
 .
 getElementById
 (
-link
+contentLink
 )
 .
 click

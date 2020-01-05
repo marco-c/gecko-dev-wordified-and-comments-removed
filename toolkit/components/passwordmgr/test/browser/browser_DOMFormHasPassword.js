@@ -27,7 +27,7 @@ input2
 function
 task
 (
-ids
+contentIds
 )
 {
 let
@@ -209,7 +209,7 @@ setAttribute
 "
 id
 "
-ids
+contentIds
 .
 INPUT_ID
 )
@@ -234,7 +234,7 @@ gDoc
 .
 getElementById
 (
-ids
+contentIds
 .
 FORM1_ID
 )
@@ -267,7 +267,7 @@ evt
 target
 .
 id
-ids
+contentIds
 .
 FORM1_ID
 evt
@@ -320,7 +320,7 @@ gDoc
 .
 getElementById
 (
-ids
+contentIds
 .
 INPUT_ID
 )
@@ -332,7 +332,7 @@ setAttribute
 "
 form
 "
-ids
+contentIds
 .
 FORM2_ID
 )
@@ -360,7 +360,7 @@ evt
 target
 .
 id
-ids
+contentIds
 .
 FORM2_ID
 evt
@@ -412,7 +412,7 @@ gDoc
 .
 getElementById
 (
-ids
+contentIds
 .
 CHANGE_INPUT_ID
 )
@@ -452,7 +452,7 @@ evt
 target
 .
 id
-ids
+contentIds
 .
 FORM1_ID
 evt
