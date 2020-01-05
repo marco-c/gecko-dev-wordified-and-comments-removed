@@ -1972,6 +1972,16 @@ searchbox
 addEventListener
 (
 "
+command
+"
+onSearchInput
+)
+;
+searchbox
+.
+addEventListener
+(
+"
 keydown
 "
 function
