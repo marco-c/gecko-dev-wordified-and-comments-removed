@@ -854,6 +854,15 @@ HangAnnotations
 aAnnotations
 )
 ;
+void
+CaptureStack
+(
+const
+nsCString
+&
+aKey
+)
+;
 #
 endif
 class

@@ -401,6 +401,17 @@ Hangs
 ENTITY
 aboutTelemetry
 .
+capturedStacksSection
+"
+Captured
+Stacks
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 scalarsSection
 "
 Scalars
