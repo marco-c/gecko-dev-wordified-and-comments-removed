@@ -13647,7 +13647,6 @@ GetProp
 isTemporarilyUnoptimizable
 val
 idVal
-res
 )
 ;
 if

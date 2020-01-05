@@ -4859,7 +4859,6 @@ GetElem
 isTemporarilyUnoptimizable
 lhs
 rhs
-res
 )
 ;
 if
