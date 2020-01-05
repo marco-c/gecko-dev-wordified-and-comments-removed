@@ -343,11 +343,6 @@ click
 (
 )
 ;
-void
-doCommand
-(
-)
-;
 nsIDOMNodeList
 getElementsByAttribute
 (

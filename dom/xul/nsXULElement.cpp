@@ -8469,7 +8469,7 @@ DoCommand
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsXULElement
 :
 :
@@ -8502,9 +8502,6 @@ true
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsIContent
 *

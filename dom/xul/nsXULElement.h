@@ -2484,6 +2484,11 @@ ErrorResult
 rv
 )
 ;
+void
+DoCommand
+(
+)
+;
 already_AddRefed
 <
 nsINodeList
