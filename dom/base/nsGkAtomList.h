@@ -42,6 +42,13 @@ _moz_activated
 )
 GK_ATOM
 (
+_moz_anonclass
+"
+_moz_anonclass
+"
+)
+GK_ATOM
+(
 _moz_resizing
 "
 _moz_resizing
