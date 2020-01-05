@@ -10700,3 +10700,14 @@ the
 update
 "
 >
+<
+!
+ENTITY
+pageActionButton
+.
+tooltip
+"
+Page
+actions
+"
+>
