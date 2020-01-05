@@ -879,6 +879,7 @@ iface
 )
 Constructor
 (
+unsigned
 long
 arg1
 IndirectlyImplementedInterface
