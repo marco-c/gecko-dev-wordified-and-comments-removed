@@ -2578,7 +2578,7 @@ security
 .
 webauth
 .
-w3c
+webauthn
 "
 SameObject
 ]
