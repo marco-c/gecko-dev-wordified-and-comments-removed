@@ -83,16 +83,6 @@ build
 /
 mozconfig
 .
-cache
-"
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
 clang
 -
 cl
