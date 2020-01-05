@@ -1229,9 +1229,6 @@ make
 (
 MAKE
 )
-install
--
-manifests
 buildid
 .
 h
