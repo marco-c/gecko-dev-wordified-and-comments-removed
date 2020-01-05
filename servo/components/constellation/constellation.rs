@@ -770,7 +770,6 @@ LTF
 STF
 )
 >
-pub
 window_size
 :
 WindowSizeData
@@ -910,7 +909,6 @@ webrender_traits
 RenderApiSender
 >
 }
-pub
 struct
 Frame
 {
@@ -1279,7 +1277,6 @@ LoadStatus
 impl
 WebDriverData
 {
-pub
 fn
 new
 (
