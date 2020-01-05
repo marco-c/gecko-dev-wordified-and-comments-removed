@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsIDOMXMLDocument
+nsIDOMDocument
 .
 h
 "
@@ -1731,7 +1731,7 @@ nsDocument
 public
 nsIDocument
 public
-nsIDOMXMLDocument
+nsIDOMDocument
 public
 nsIDOMDocumentXBL
 public
@@ -3168,7 +3168,6 @@ public
 :
 NS_FORWARD_NSIDOMNODE_TO_NSINODE_OVERRIDABLE
 NS_DECL_NSIDOMDOCUMENT
-NS_DECL_NSIDOMXMLDOCUMENT
 NS_DECL_NSIDOMDOCUMENTXBL
 virtual
 nsresult
@@ -5037,11 +5036,16 @@ js
 ExpandoAndGeneration
 mExpandoAndGeneration
 ;
+#
+ifdef
+MOZ_EME
 bool
 ContainsEMEContent
 (
 )
 ;
+#
+endif
 bool
 ContainsMSEContent
 (
