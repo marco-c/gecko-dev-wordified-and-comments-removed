@@ -502,6 +502,13 @@ sizeOfExcludingThis
 (
 mallocSizeOf
 )
++
+nurseryEntries
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
 ;
 }
 size_t
@@ -517,6 +524,13 @@ const
 {
 return
 map
+.
+sizeOfIncludingThis
+(
+mallocSizeOf
+)
++
+nurseryEntries
 .
 sizeOfIncludingThis
 (
