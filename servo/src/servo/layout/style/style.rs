@@ -760,7 +760,7 @@ has_aux
 fail
 ~
 "
-get_computed_style
+get_specified_style
 (
 )
 called

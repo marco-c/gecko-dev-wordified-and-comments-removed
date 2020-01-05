@@ -797,10 +797,6 @@ b
 .
 reflow_text
 (
-px_to_au
-(
-800
-)
 subbox
 )
 ;
@@ -933,10 +929,6 @@ b
 .
 reflow_text
 (
-px_to_au
-(
-800
-)
 subbox
 )
 ;
@@ -1062,10 +1054,6 @@ b
 .
 reflow_text
 (
-px_to_au
-(
-800
-)
 subbox
 )
 ;
@@ -1205,10 +1193,6 @@ b
 .
 reflow_text
 (
-px_to_au
-(
-800
-)
 subbox
 )
 ;

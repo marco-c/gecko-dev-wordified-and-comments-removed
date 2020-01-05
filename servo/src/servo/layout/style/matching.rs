@@ -1433,12 +1433,6 @@ dvec
 :
 dvec
 ;
-import
-io
-:
-:
-println
-;
 #
 [
 allow

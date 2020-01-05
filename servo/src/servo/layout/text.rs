@@ -98,9 +98,6 @@ TextLayout
 fn
 reflow_text
 (
-_available_width
-:
-au
 subbox
 :
 TextBox
@@ -130,9 +127,6 @@ TextLayout
 fn
 reflow_text
 (
-_available_width
-:
-au
 subbox
 :
 TextBox
@@ -345,10 +339,6 @@ b
 .
 reflow_text
 (
-px_to_au
-(
-800
-)
 subbox
 )
 ;

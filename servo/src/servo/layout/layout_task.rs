@@ -259,7 +259,7 @@ apply_css_style
 ;
 this_box
 .
-reflow
+reflow_subtree
 (
 px_to_au
 (
