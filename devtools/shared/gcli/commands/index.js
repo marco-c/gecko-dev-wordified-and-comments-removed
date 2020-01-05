@@ -488,7 +488,9 @@ security
 try
 {
 const
+{
 defaultTools
+}
 =
 require
 (
@@ -500,8 +502,6 @@ client
 definitions
 "
 )
-.
-defaultTools
 ;
 exports
 .
@@ -569,9 +569,7 @@ devtools
 /
 client
 /
-framework
-/
-toolbox
+definitions
 "
 )
 ;
