@@ -3191,8 +3191,6 @@ GLenum
 cap
 )
 ;
-/
-/
 void
 disableVertexAttribArray
 (
@@ -3400,8 +3398,6 @@ GLenum
 pname
 )
 ;
-/
-/
 DOMString
 ?
 getProgramInfoLog
@@ -4531,8 +4527,6 @@ WebGLProgram
 program
 )
 ;
-/
-/
 void
 validateProgram
 (
