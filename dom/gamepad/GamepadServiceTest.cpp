@@ -420,13 +420,7 @@ nsString
 aID
 )
 0
-static_cast
-<
-GamepadMappingType
->
-(
 aMapping
-)
 GamepadServiceType
 :
 :

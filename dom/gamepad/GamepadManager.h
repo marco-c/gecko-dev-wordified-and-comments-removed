@@ -29,6 +29,17 @@ GamepadBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+GamepadServiceType
+.
+h
+"
 class
 nsGlobalWindow
 ;

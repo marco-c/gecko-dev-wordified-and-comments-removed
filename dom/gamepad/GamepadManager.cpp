@@ -2613,10 +2613,16 @@ a
 id
 (
 )
+static_cast
+<
+GamepadMappingType
+>
+(
 a
 .
 mapping
 (
+)
 )
 a
 .
