@@ -2106,12 +2106,6 @@ MAKE_SYM_STORE_ARGS
 -
 c
 -
-a
-'
-i386
-x86_64
-'
--
 -
 vcs
 -
@@ -2123,7 +2117,12 @@ MAKE_SYM_STORE_PATH
 DIST
 )
 /
-universal
+bin
+(
+UNIFY_DIST
+)
+/
+bin
 else
 MAKE_SYM_STORE_ARGS
 :
