@@ -37800,11 +37800,7 @@ cx
 fp
 report
 .
-message
-(
-)
-.
-c_str
+toStringResult
 (
 )
 report
@@ -38004,7 +38000,12 @@ PrintError
 (
 cx
 fp
-nullptr
+JS
+:
+:
+ConstUTF8CharsZ
+(
+)
 report
 reportWarnings
 )

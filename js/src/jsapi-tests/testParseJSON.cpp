@@ -2983,7 +2983,7 @@ strstr
 (
 report
 .
-message
+toStringResult
 (
 )
 .
