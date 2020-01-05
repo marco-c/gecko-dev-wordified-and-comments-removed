@@ -9646,12 +9646,6 @@ a
 ;
 if
 (
-unit
-=
-=
-eCSSUnit_RGBAColor
-&
-&
 showAlpha
 )
 {
