@@ -154,6 +154,9 @@ cmake
 python
 -
 virtualenv
+python
+-
+pip
 \
 libssl
 -
@@ -269,6 +272,9 @@ python
 python
 -
 virtualenv
+python
+-
+pip
 expat
 -
 devel
@@ -314,6 +320,9 @@ python2
 python2
 -
 virtualenv
+python2
+-
+pip
 mesa
 cmake
 bzip2
