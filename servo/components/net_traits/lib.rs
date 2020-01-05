@@ -92,6 +92,10 @@ num_traits
 ;
 extern
 crate
+parse_hosts
+;
+extern
+crate
 serde
 ;
 #
