@@ -148,6 +148,9 @@ add
 "
 comment
 "
+"
+doctype
+"
 )
 ;
 this
