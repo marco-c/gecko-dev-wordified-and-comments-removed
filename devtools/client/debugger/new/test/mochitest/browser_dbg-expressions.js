@@ -1,7 +1,7 @@
 const
 {
 setupTestRunner
-scopes
+expressions
 }
 =
 require
@@ -34,7 +34,7 @@ this
 )
 ;
 yield
-scopes
+expressions
 (
 this
 )
