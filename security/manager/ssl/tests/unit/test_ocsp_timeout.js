@@ -8,8 +8,6 @@ gSocketListener
 =
 {
 onSocketAccepted
-:
-function
 (
 serverSocket
 socketTransport
@@ -41,8 +39,6 @@ TIMEOUT_READ_WRITE
 ;
 }
 onStopListening
-:
-function
 (
 serverSocket
 status

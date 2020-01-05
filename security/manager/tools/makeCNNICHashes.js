@@ -1235,13 +1235,9 @@ cert
 return
 {
 certs
-:
-certs
 lastValidTime
 :
 latestNotAfter
-invalidCerts
-:
 invalidCerts
 }
 ;

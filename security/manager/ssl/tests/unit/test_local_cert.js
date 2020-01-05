@@ -101,8 +101,6 @@ getOrCreateCert
 nickname
 {
 handleCert
-:
-function
 (
 c
 rv
@@ -158,8 +156,6 @@ removeCert
 nickname
 {
 handleResult
-:
-function
 (
 rv
 )

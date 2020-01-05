@@ -378,7 +378,6 @@ testFocus
 let
 [
 win
-retVals
 ]
 =
 yield
@@ -439,7 +438,6 @@ testPasswordStrengthAndEquality
 let
 [
 win
-retVals
 ]
 =
 yield

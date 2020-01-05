@@ -229,8 +229,6 @@ smartCardObserver
 =
 {
 observe
-:
-function
 (
 )
 {
@@ -1758,9 +1756,6 @@ backupAllCerts
 (
 )
 {
-var
-items
-=
 userTreeView
 .
 selection
@@ -2117,8 +2112,6 @@ interfaceRequestor
 =
 {
 getInterface
-:
-function
 (
 )
 {

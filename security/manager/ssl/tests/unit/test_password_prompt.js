@@ -14,8 +14,6 @@ numPrompts
 :
 0
 promptPassword
-:
-function
 (
 dialogTitle
 text

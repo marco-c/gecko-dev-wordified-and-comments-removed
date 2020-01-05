@@ -1892,8 +1892,6 @@ prototype
 =
 {
 onTransportStatus
-:
-function
 (
 aTransport
 aStatus
@@ -1942,8 +1940,6 @@ thread
 }
 }
 onInputStreamReady
-:
-function
 (
 aStream
 )
@@ -2036,8 +2032,6 @@ this
 ;
 }
 onOutputStreamReady
-:
-function
 (
 aStream
 )
@@ -2132,8 +2126,6 @@ thread
 ;
 }
 go
-:
-function
 (
 )
 {
@@ -3522,8 +3514,6 @@ serverPort
 return
 {
 stop
-:
-function
 (
 callback
 )
@@ -3676,8 +3666,6 @@ isExtendedValidation
 :
 false
 getInterface
-:
-function
 (
 aIID
 )
@@ -3692,8 +3680,6 @@ aIID
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )

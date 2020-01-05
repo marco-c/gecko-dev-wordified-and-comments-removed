@@ -680,8 +680,6 @@ resolve
 (
 {
 usageString
-:
-usageString
 errorCode
 :
 aPRErrorCode

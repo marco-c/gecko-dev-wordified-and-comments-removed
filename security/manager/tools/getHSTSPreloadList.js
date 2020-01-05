@@ -1157,8 +1157,6 @@ includeSubdomains
 .
 value
 error
-:
-error
 retries
 :
 host
@@ -1166,8 +1164,6 @@ host
 retries
 -
 1
-forceInclude
-:
 forceInclude
 originalIncludeSubdomains
 :
@@ -1189,8 +1185,6 @@ prototype
 =
 {
 asyncOnChannelRedirect
-:
-function
 (
 oldChannel
 newChannel
@@ -1209,8 +1203,6 @@ NS_ERROR_ENTITY_CHANGED
 ;
 }
 promptAuth
-:
-function
 (
 channel
 level
@@ -1222,8 +1214,6 @@ false
 ;
 }
 asyncPromptAuth
-:
-function
 (
 channel
 callback
@@ -1243,8 +1233,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 getInterface
-:
-function
 (
 iid
 )
@@ -2852,6 +2840,9 @@ v1EntryRegex
 =
 /
 {
+2
+}
+{
 "
 (
 [
@@ -2873,6 +2864,9 @@ var
 v2EntryRegex
 =
 /
+{
+2
+}
 \
 /
 \
