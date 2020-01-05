@@ -59,12 +59,6 @@ override
 ;
 static
 bool
-IsEnabled
-(
-)
-;
-static
-bool
 CanHandleMediaType
 (
 const
