@@ -1087,6 +1087,8 @@ nsMenuFrame
 aStart
 bool
 aIsPopup
+bool
+aWrap
 )
 ;
 static
@@ -1102,6 +1104,8 @@ nsMenuFrame
 aStart
 bool
 aIsPopup
+bool
+aWrap
 )
 ;
 static
