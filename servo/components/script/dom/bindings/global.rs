@@ -82,10 +82,7 @@ constellation_msg
 WorkerId
 ;
 use
-net
-:
-:
-resource_task
+net_traits
 :
 :
 ResourceTask

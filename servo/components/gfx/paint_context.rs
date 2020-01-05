@@ -240,7 +240,7 @@ uint32_t
 }
 ;
 use
-net
+net_traits
 :
 :
 image

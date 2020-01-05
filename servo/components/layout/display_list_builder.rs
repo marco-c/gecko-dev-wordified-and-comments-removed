@@ -257,7 +257,7 @@ constellation_msg
 ConstellationChan
 ;
 use
-net
+net_traits
 :
 :
 image

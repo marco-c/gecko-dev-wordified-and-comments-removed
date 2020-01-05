@@ -1,5 +1,5 @@
 use
-cookie_storage
+net_traits
 :
 :
 CookieSource
@@ -1430,7 +1430,7 @@ fn_cookie_constructor
 )
 {
 use
-cookie_storage
+net_traits
 :
 :
 CookieSource

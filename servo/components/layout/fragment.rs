@@ -192,7 +192,7 @@ SubpageId
 }
 ;
 use
-net
+net_traits
 :
 :
 image
@@ -204,7 +204,7 @@ holder
 ImageHolder
 ;
 use
-net
+net_traits
 :
 :
 local_image_cache

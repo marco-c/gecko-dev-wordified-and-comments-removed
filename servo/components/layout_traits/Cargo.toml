@@ -82,7 +82,7 @@ msg
 [
 dependencies
 .
-net
+net_traits
 ]
 path
 =
@@ -90,7 +90,7 @@ path
 .
 .
 /
-net
+net_traits
 "
 [
 dependencies

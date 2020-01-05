@@ -158,6 +158,10 @@ plugins
 as
 servo_plugins
 ;
+extern
+crate
+net_traits
+;
 #
 [
 macro_use
@@ -231,10 +235,6 @@ libc
 extern
 crate
 msg
-;
-extern
-crate
-net
 ;
 extern
 crate
