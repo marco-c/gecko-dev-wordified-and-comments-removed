@@ -2250,6 +2250,14 @@ SetOnchange
 event_handler
 !
 (
+reset
+GetOnreset
+SetOnreset
+)
+;
+event_handler
+!
+(
 submit
 GetOnsubmit
 SetOnsubmit

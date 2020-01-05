@@ -247,6 +247,10 @@ onchange
 ;
 attribute
 EventHandler
+onreset
+;
+attribute
+EventHandler
 onsubmit
 ;
 }
