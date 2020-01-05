@@ -1228,6 +1228,19 @@ DiscardImages
 (
 )
 {
+if
+(
+!
+WrBridge
+(
+)
+-
+>
+IsDestroyed
+(
+)
+)
+{
 for
 (
 auto
@@ -1246,6 +1259,7 @@ SendDeleteImage
 key
 )
 ;
+}
 }
 mImageKeys
 .
