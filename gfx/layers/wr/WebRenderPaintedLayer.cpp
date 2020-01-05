@@ -706,6 +706,19 @@ height
 Matrix4x4
 transform
 ;
+WrMixBlendMode
+mixBlendMode
+=
+wr
+:
+:
+ToWrMixBlendMode
+(
+GetMixBlendMode
+(
+)
+)
+;
 WrBridge
 (
 )
@@ -734,6 +747,7 @@ GetAnimations
 (
 )
 transform
+mixBlendMode
 FrameMetrics
 :
 :

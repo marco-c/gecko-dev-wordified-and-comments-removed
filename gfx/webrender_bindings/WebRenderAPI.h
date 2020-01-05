@@ -429,6 +429,10 @@ gfx
 Matrix4x4
 &
 aTransform
+const
+WrMixBlendMode
+&
+aMixBlendMode
 )
 ;
 void
