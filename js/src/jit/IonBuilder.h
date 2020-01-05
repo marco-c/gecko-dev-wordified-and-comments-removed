@@ -6344,7 +6344,7 @@ header
 ;
 Vector
 <
-MInstruction
+MDefinition
 *
 2
 JitAllocPolicy
