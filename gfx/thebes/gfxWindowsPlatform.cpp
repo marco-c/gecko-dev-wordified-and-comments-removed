@@ -1751,10 +1751,6 @@ Init
 (
 )
 ;
-UpdateCanUseHardwareVideoDecoding
-(
-)
-;
 InitializeConfig
 (
 )
@@ -1793,6 +1789,10 @@ InitDWriteSupport
 )
 ;
 }
+UpdateCanUseHardwareVideoDecoding
+(
+)
+;
 }
 bool
 gfxWindowsPlatform
