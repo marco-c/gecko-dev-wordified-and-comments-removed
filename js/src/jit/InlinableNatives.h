@@ -110,6 +110,11 @@ IntlIsCollator
 \
 _
 (
+IntlIsDateTimeFormat
+)
+\
+_
+(
 IntlIsNumberFormat
 )
 \
