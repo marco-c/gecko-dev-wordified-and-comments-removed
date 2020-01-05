@@ -520,6 +520,14 @@ _retval
 )
 ;
 nsresult
+GetDiskStorageSizeInKB
+(
+uint32_t
+*
+aDiskStorageSize
+)
+;
+nsresult
 OnFetched
 (
 )

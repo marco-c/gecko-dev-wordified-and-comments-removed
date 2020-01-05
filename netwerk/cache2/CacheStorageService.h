@@ -409,6 +409,14 @@ EntryInfoCallback
 aVisitor
 )
 ;
+static
+uint32_t
+CacheQueueSize
+(
+bool
+highPriority
+)
+;
 size_t
 SizeOfExcludingThis
 (

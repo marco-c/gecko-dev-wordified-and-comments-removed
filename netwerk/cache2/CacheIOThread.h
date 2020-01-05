@@ -178,6 +178,13 @@ IsCurrentThread
 (
 )
 ;
+uint32_t
+QueueSize
+(
+bool
+highPriority
+)
+;
 static
 bool
 YieldAndRerun

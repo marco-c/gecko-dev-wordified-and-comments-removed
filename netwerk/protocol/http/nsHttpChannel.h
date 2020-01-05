@@ -1703,6 +1703,11 @@ NS_ERROR_MALFORMED_URI
 ;
 }
 void
+ReportNetVSCacheTelemetry
+(
+)
+;
+void
 UpdateAggregateCallbacks
 (
 )
@@ -1894,6 +1899,12 @@ nsIHttpChannelAuthProvider
 >
 mAuthProvider
 ;
+mozilla
+:
+:
+TimeStamp
+mOnStartRequestTimestamp
+;
 enum
 {
 DO_NOT_INTERCEPT
@@ -1959,6 +1970,12 @@ uint32_t
 WAIT_FOR_OFFLINE_CACHE_ENTRY
 =
 2
+;
+bool
+mCacheOpenWithPriority
+;
+uint32_t
+mCacheQueueSizeWhenOpen
 ;
 uint32_t
 mCachedContentIsValid
