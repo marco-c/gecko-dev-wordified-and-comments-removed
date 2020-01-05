@@ -712,7 +712,7 @@ InvokeDragSession
 nsIDOMNode
 *
 aDOMNode
-nsISupportsArray
+nsIArray
 *
 aTransferableArray
 nsIScriptableRegion
@@ -833,7 +833,7 @@ InvokeDragSessionWithImage
 nsIDOMNode
 *
 aDOMNode
-nsISupportsArray
+nsIArray
 *
 aTransferableArray
 nsIScriptableRegion
@@ -981,7 +981,7 @@ InvokeDragSessionWithSelection
 nsISelection
 *
 aSelection
-nsISupportsArray
+nsIArray
 *
 aTransferableArray
 uint32_t

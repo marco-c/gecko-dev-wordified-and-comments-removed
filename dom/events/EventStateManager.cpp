@@ -8160,7 +8160,7 @@ imageY
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 transArray
 =
