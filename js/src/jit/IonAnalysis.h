@@ -207,6 +207,15 @@ uint32_t
 numMarkedBlocks
 )
 ;
+MOZ_MUST_USE
+bool
+CreateMIRRootList
+(
+IonBuilder
+&
+builder
+)
+;
 void
 ClearDominatorTree
 (
