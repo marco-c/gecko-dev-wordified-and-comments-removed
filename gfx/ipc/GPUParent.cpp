@@ -524,13 +524,6 @@ InitializeGlobalState
 (
 )
 ;
-VRManager
-:
-:
-ManagerInit
-(
-)
-;
 LayerTreeOwnerTracker
 :
 :
@@ -948,6 +941,13 @@ nullptr
 }
 #
 endif
+VRManager
+:
+:
+ManagerInit
+(
+)
+;
 GPUDeviceData
 data
 ;
