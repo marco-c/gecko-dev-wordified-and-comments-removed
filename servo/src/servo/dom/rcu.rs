@@ -1172,6 +1172,7 @@ private_methods
 <
 T
 :
+copy
 send
 A
 >
@@ -1480,6 +1481,7 @@ writer_methods
 <
 T
 :
+copy
 send
 A
 >
