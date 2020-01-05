@@ -90,6 +90,11 @@ EXPORTS
 =
 [
 '
+ChromiumCDMVideoDecoder
+.
+h
+'
+'
 DecryptThroughputLimit
 .
 h
@@ -114,6 +119,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ChromiumCDMVideoDecoder
+.
+cpp
+'
 '
 EMEDecoderModule
 .
