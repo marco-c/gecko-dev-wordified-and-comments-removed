@@ -5232,9 +5232,9 @@ borrow_mut
 ;
 data
 .
-device_changed
-=
-true
+reset_device
+(
+)
 ;
 }
 #
