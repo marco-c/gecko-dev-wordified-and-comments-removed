@@ -104,6 +104,7 @@ name
 readonly
 attribute
 BluetoothRemoteGATTServer
+?
 gatt
 ;
 Promise
