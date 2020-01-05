@@ -160,6 +160,15 @@ mImmutable
 true
 ;
 }
+inline
+already_AddRefed
+<
+DeclarationBlock
+>
+EnsureMutable
+(
+)
+;
 void
 SetOwningRule
 (
