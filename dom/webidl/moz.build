@@ -2907,6 +2907,11 @@ VRDisplay
 webidl
 '
 '
+VRDisplayEvent
+.
+webidl
+'
+'
 VTTCue
 .
 webidl

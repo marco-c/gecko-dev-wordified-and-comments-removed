@@ -855,6 +855,14 @@ eOrientationChange
 endif
 NS_EVENT_MESSAGE
 (
+eVRDisplayActivate
+)
+NS_EVENT_MESSAGE
+(
+eVRDisplayDeactivate
+)
+NS_EVENT_MESSAGE
+(
 eVRDisplayConnect
 )
 NS_EVENT_MESSAGE
