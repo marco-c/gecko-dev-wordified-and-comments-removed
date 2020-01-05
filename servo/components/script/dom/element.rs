@@ -734,6 +734,12 @@ Quirks
 }
 ;
 use
+ref_filter_map
+:
+:
+ref_filter_map
+;
+use
 selectors
 :
 :
@@ -5759,10 +5765,7 @@ PropertyDeclaration
 >
 >
 {
-Ref
-:
-:
-filter_map
+ref_filter_map
 (
 self
 .
@@ -5845,10 +5848,7 @@ PropertyDeclaration
 >
 >
 {
-Ref
-:
-:
-filter_map
+ref_filter_map
 (
 self
 .
