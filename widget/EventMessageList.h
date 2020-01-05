@@ -919,6 +919,10 @@ eTouchCancel
 )
 NS_EVENT_MESSAGE
 (
+eTouchPointerCancel
+)
+NS_EVENT_MESSAGE
+(
 ePointerLockChange
 )
 NS_EVENT_MESSAGE

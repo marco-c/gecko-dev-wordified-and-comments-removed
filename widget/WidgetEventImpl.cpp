@@ -1536,6 +1536,15 @@ mDeltaZ
 ;
 }
 case
+eTouchEventClass
+:
+return
+mMessage
+!
+=
+eTouchPointerCancel
+;
+case
 eQueryContentEventClass
 :
 case

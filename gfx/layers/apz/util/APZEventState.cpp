@@ -1672,7 +1672,7 @@ cancelEvent
 .
 mMessage
 =
-eTouchCancel
+eTouchPointerCancel
 ;
 cancelEvent
 .
