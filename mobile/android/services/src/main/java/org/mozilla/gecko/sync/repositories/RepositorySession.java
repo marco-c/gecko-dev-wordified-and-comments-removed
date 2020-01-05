@@ -263,16 +263,6 @@ lastSyncTimestamp
 ;
 }
 public
-long
-getHighWaterMarkTimestamp
-(
-)
-{
-return
-0
-;
-}
-public
 static
 long
 now

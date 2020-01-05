@@ -62,11 +62,6 @@ clear
 (
 )
 ;
-long
-latestModifiedTimestamp
-(
-)
-;
 boolean
 isPersistent
 (
