@@ -1090,8 +1090,6 @@ GetVersion
 (
 modulePath
 )
-"
-"
 )
 ;
 sharedLibraryInfo

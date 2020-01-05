@@ -545,8 +545,6 @@ nameStr
 pathStr
 "
 "
-"
-"
 )
 ;
 info
@@ -932,8 +930,6 @@ nameStr
 pathStr
 nameStr
 pathStr
-"
-"
 "
 "
 )
