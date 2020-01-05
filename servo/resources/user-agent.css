@@ -2428,6 +2428,12 @@ indent
 :
 initial
 ;
+text
+-
+transform
+:
+none
+;
 }
 textarea
 {
