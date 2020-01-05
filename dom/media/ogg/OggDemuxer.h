@@ -1052,6 +1052,12 @@ void
 *
 mOnSeekableEvent
 ;
+RefPtr
+<
+SharedTrackInfo
+>
+mSharedAudioTrackInfo
+;
 friend
 class
 OggTrackDemuxer
