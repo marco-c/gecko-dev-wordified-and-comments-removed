@@ -129,6 +129,11 @@ node
 js
 '
 '
+error
+.
+js
+'
+'
 event
 .
 js
