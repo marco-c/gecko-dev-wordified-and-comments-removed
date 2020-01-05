@@ -337,8 +337,6 @@ sccache
 -
 {
 TASKCLUSTER_WORKER_GROUP
-%
-?
 }
 /
 ?
