@@ -324,12 +324,6 @@ assertThrowsInstanceOf
 )
 =
 >
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 new
 Function
 (
@@ -346,8 +340,6 @@ b
 '
 )
 SyntaxError
-)
-Error
 )
 ;
 assertThrowsInstanceOf
