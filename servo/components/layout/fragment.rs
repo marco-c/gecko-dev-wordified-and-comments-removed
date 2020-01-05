@@ -2176,6 +2176,7 @@ mut
 self
 style
 :
+&
 ComputedValues
 noncontent_inline_size
 :
@@ -2444,6 +2445,7 @@ mut
 self
 style
 :
+&
 ComputedValues
 noncontent_block_size
 :
@@ -2688,6 +2690,7 @@ calculate_replaced_inline_size
 (
 style
 :
+&
 ComputedValues
 containing_size
 :
@@ -2737,6 +2740,7 @@ calculate_replaced_block_size
 (
 style
 :
+&
 ComputedValues
 containing_size
 :
@@ -10570,15 +10574,11 @@ _
 let
 style
 =
+&
+*
 self
 .
 style
-(
-)
-.
-clone
-(
-)
 ;
 let
 noncontent_inline_size
@@ -11149,15 +11149,11 @@ _
 let
 style
 =
+&
+*
 self
 .
 style
-(
-)
-.
-clone
-(
-)
 ;
 let
 noncontent_block_size
