@@ -77,11 +77,6 @@ panel
 js
 '
 '
-editor
-.
-js
-'
-'
 headers
 -
 panel
@@ -181,6 +176,13 @@ js
 security
 -
 panel
+.
+js
+'
+'
+source
+-
+editor
 .
 js
 '

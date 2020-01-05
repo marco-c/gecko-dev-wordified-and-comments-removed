@@ -9,9 +9,7 @@ parsePropertiesFile
 require
 (
 "
-devtools
-/
-shared
+.
 /
 node
 -
@@ -31,9 +29,7 @@ sprintf
 require
 (
 "
-devtools
-/
-shared
+.
 /
 sprintfjs
 /
