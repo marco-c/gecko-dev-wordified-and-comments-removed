@@ -2664,13 +2664,8 @@ childWnd
 )
 {
 return
-IPC_FAIL
+IPC_OK
 (
-this
-"
-GetWindow
-failed
-"
 )
 ;
 }
