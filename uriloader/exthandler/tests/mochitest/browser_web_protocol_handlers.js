@@ -341,16 +341,10 @@ protoInfo
 let
 link
 =
-browser
-.
-contentDocument
-.
-getElementById
-(
 "
+#
 link
 "
-)
 ;
 const
 expectedURL
