@@ -1047,6 +1047,10 @@ CacheWorkerHolder
 Create
 (
 aWorkerPrivate
+CacheWorkerHolder
+:
+:
+AllowIdleShutdownStart
 )
 ;
 if
