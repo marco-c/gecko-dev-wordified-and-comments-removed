@@ -784,6 +784,15 @@ IsEmpty
 )
 )
 ;
+MOZ_ASSERT
+(
+aIcon
+.
+expiration
+>
+0
+)
+;
 nsCOMPtr
 <
 mozIStorageStatement
@@ -2696,12 +2705,6 @@ Length
 )
 |
 |
-(
-mIcon
-.
-expiration
-&
-&
 PR_Now
 (
 )
@@ -2709,7 +2712,6 @@ PR_Now
 mIcon
 .
 expiration
-)
 ;
 bool
 fetchIconFromNetwork
