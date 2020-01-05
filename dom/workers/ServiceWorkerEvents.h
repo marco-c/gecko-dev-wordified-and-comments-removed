@@ -690,6 +690,8 @@ PreventDefault
 JSContext
 *
 aCx
+CallerType
+aCallerType
 )
 override
 ;

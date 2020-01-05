@@ -255,6 +255,9 @@ attribute
 boolean
 cancelable
 ;
+[
+NeedsCallerType
+]
 void
 preventDefault
 (
@@ -262,6 +265,7 @@ preventDefault
 ;
 [
 Pure
+NeedsCallerType
 ]
 readonly
 attribute

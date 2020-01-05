@@ -279,12 +279,11 @@ EventTarget
 :
 DispatchEvent
 (
-JSContext
-*
-aCx
 Event
 &
 aEvent
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -311,7 +310,7 @@ aEvent
 .
 DefaultPrevented
 (
-aCx
+aCallerType
 )
 ;
 }

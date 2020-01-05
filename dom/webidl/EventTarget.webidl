@@ -300,6 +300,7 @@ options
 ;
 [
 Throws
+NeedsCallerType
 ]
 boolean
 dispatchEvent
