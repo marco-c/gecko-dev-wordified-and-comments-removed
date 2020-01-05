@@ -2596,6 +2596,8 @@ id
 return
 ;
 }
+if
+(
 this
 .
 addChangedID
@@ -2611,7 +2613,8 @@ getTime
 /
 1000
 )
-;
+)
+{
 this
 .
 score
@@ -2619,6 +2622,7 @@ score
 =
 SCORE_INCREMENT_XLARGE
 ;
+}
 }
 startTracking
 (

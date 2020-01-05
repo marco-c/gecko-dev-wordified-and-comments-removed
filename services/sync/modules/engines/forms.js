@@ -1281,13 +1281,16 @@ trackEntry
 guid
 )
 {
+if
+(
 this
 .
 addChangedID
 (
 guid
 )
-;
+)
+{
 this
 .
 score
@@ -1295,6 +1298,7 @@ score
 =
 SCORE_INCREMENT_MEDIUM
 ;
+}
 }
 }
 ;

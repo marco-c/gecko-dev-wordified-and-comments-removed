@@ -1358,6 +1358,16 @@ changed
 :
 if
 (
+this
+.
+ignoreAll
+)
+{
+break
+;
+}
+if
+(
 data
 .
 indexOf
