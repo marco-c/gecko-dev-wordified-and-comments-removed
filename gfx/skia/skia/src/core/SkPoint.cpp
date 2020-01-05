@@ -441,7 +441,7 @@ dy
 static
 inline
 bool
-isLengthNearlyZero
+is_length_nearly_zero
 (
 float
 dx
@@ -505,7 +505,7 @@ mag2
 ;
 if
 (
-isLengthNearlyZero
+is_length_nearly_zero
 (
 x
 y
@@ -701,7 +701,7 @@ mag2
 ;
 if
 (
-isLengthNearlyZero
+is_length_nearly_zero
 (
 x
 y
@@ -872,7 +872,7 @@ mag2
 ;
 if
 (
-isLengthNearlyZero
+is_length_nearly_zero
 (
 x
 y

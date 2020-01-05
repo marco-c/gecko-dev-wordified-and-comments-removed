@@ -1017,6 +1017,16 @@ fDesc
 fContext
 -
 >
+flushSurfaceIO
+(
+fTexture
+)
+;
+fDesc
+.
+fContext
+-
+>
 textureProvider
 (
 )

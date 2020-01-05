@@ -53,10 +53,16 @@ src
 {
 fXfer
 =
+SkXfermode
+:
+:
+Peek
+(
 paint
 .
-getXfermode
+getBlendMode
 (
+)
 )
 ;
 fLoader
@@ -144,10 +150,7 @@ paint
 uint32_t
 flags
 =
-SkXfermode
-:
-:
-kDstIsFloat16_D64Flag
+0
 ;
 if
 (
@@ -164,7 +167,7 @@ flags
 SkXfermode
 :
 :
-kSrcIsOpaque_D64Flag
+kSrcIsOpaque_F16Flag
 ;
 }
 fWriter
@@ -172,7 +175,7 @@ fWriter
 SkXfermode
 :
 :
-GetD64Proc
+GetF16Proc
 (
 fXfer
 flags
@@ -299,7 +302,7 @@ private
 SkXfermode
 :
 :
-D64Proc
+F16Proc
 fWriter
 ;
 typedef

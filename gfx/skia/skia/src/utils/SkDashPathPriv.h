@@ -72,6 +72,14 @@ kMaxDashCount
 =
 1000000
 ;
+enum
+class
+StrokeRecApplication
+{
+kDisallow
+kAllow
+}
+;
 bool
 InternalFilter
 (
@@ -102,6 +110,12 @@ int32_t
 initialDashIndex
 SkScalar
 intervalLength
+StrokeRecApplication
+=
+StrokeRecApplication
+:
+:
+kAllow
 )
 ;
 bool

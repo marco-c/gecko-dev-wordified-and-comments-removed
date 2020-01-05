@@ -160,6 +160,7 @@ enum
 Type
 {
 kSkColorFilter_Type
+kSkDrawable_Type
 kSkDrawLooper_Type
 kSkImageFilter_Type
 kSkMaskFilter_Type
@@ -169,6 +170,7 @@ kSkRasterizer_Type
 kSkShader_Type
 kSkUnused_Type
 kSkXfermode_Type
+kSkNormalSource_Type
 }
 ;
 typedef
@@ -199,6 +201,7 @@ const
 =
 0
 ;
+virtual
 const
 char
 *

@@ -692,7 +692,6 @@ return
 fAllocator
 ;
 }
-;
 SkCachedData
 *
 newCachedData

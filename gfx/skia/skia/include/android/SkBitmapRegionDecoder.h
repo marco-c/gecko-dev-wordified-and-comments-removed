@@ -40,7 +40,6 @@ public
 enum
 Strategy
 {
-kCanvas_Strategy
 kAndroidCodec_Strategy
 }
 ;
@@ -49,9 +48,10 @@ SkBitmapRegionDecoder
 *
 Create
 (
+sk_sp
+<
 SkData
-*
-data
+>
 Strategy
 strategy
 )

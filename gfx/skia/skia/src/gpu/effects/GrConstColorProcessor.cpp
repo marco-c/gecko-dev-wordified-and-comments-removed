@@ -597,9 +597,10 @@ GR_DEFINE_FRAGMENT_PROCESSOR_TEST
 GrConstColorProcessor
 )
 ;
-const
+sk_sp
+<
 GrFragmentProcessor
-*
+>
 GrConstColorProcessor
 :
 :
@@ -612,6 +613,7 @@ d
 {
 GrColor
 color
+SK_INIT_TO_AVOID_WARNING
 ;
 int
 colorPicker
@@ -788,7 +790,7 @@ return
 GrConstColorProcessor
 :
 :
-Create
+Make
 (
 color
 mode

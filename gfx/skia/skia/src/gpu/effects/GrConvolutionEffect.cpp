@@ -252,12 +252,14 @@ coords2D
 fragBuilder
 -
 >
-ensureFSCoords2D
+ensureCoords2D
 (
 args
 .
-fCoords
+fTransformedCoords
+[
 0
+]
 )
 ;
 fragBuilder
@@ -540,7 +542,7 @@ appendTextureLookup
 (
 args
 .
-fSamplers
+fTexSamplers
 [
 0
 ]
@@ -1482,9 +1484,10 @@ GR_DEFINE_FRAGMENT_PROCESSOR_TEST
 GrConvolutionEffect
 )
 ;
-const
+sk_sp
+<
 GrFragmentProcessor
-*
+>
 GrConvolutionEffect
 :
 :
@@ -1649,7 +1652,7 @@ return
 GrConvolutionEffect
 :
 :
-Create
+Make
 (
 d
 -

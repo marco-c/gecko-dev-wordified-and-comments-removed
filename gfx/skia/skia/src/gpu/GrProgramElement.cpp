@@ -12,6 +12,13 @@ GrGpuResourceRef
 .
 h
 "
+#
+include
+"
+SkAtomics
+.
+h
+"
 uint32_t
 GrProgramElement
 :

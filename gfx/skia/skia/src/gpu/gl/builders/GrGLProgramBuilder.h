@@ -63,7 +63,7 @@ class
 GrGLContextInfo
 ;
 class
-GrGLProgramDesc
+GrProgramDesc
 ;
 class
 GrGLSLShaderBuilder
@@ -91,7 +91,7 @@ const
 GrPrimitiveProcessor
 &
 const
-GrGLProgramDesc
+GrProgramDesc
 &
 GrGLGpu
 *
@@ -139,7 +139,7 @@ const
 GrPrimitiveProcessor
 &
 const
-GrGLProgramDesc
+GrProgramDesc
 &
 )
 ;

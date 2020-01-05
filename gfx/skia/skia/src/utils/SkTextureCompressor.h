@@ -75,8 +75,10 @@ int
 height
 )
 ;
+sk_sp
+<
 SkData
-*
+>
 CompressBitmapToFormat
 (
 const

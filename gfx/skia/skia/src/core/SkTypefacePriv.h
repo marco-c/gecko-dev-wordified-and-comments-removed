@@ -13,8 +13,10 @@ h
 "
 static
 inline
+sk_sp
+<
 SkTypeface
-*
+>
 ref_or_default
 (
 SkTypeface
@@ -25,7 +27,7 @@ face
 return
 face
 ?
-SkRef
+sk_ref_sp
 (
 face
 )
@@ -33,7 +35,7 @@ face
 SkTypeface
 :
 :
-RefDefault
+MakeDefault
 (
 )
 ;
@@ -42,7 +44,7 @@ class
 SkAutoResolveDefaultTypeface
 :
 public
-SkAutoTUnref
+sk_sp
 <
 SkTypeface
 >
@@ -58,7 +60,7 @@ INHERITED
 SkTypeface
 :
 :
-RefDefault
+MakeDefault
 (
 )
 )
@@ -83,7 +85,7 @@ face
 private
 :
 typedef
-SkAutoTUnref
+sk_sp
 <
 SkTypeface
 >

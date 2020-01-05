@@ -21,13 +21,6 @@ h
 #
 include
 "
-GrStencil
-.
-h
-"
-#
-include
-"
 gl
 /
 GrGLTypes
@@ -48,6 +41,12 @@ GrGLNameAllocator
 ;
 class
 GrGLGpu
+;
+class
+GrStencilSettings
+;
+class
+GrStyle
 ;
 class
 GrGLPathRendering
@@ -78,7 +77,7 @@ const
 SkPath
 &
 const
-GrStrokeInfo
+GrStyle
 &
 )
 override
@@ -94,7 +93,7 @@ GrPathRange
 PathGenerator
 *
 const
-GrStrokeInfo
+GrStyle
 &
 )
 override

@@ -381,7 +381,7 @@ this
 >
 resetCpuData
 (
-fMinBlockSize
+0
 )
 ;
 VALIDATE
@@ -1500,7 +1500,7 @@ mustClearUploadedBufferData
 {
 fCpuData
 =
-sk_calloc
+sk_calloc_throw
 (
 newSize
 )

@@ -12,6 +12,7 @@ SkTypes
 h
 "
 class
+SK_API
 SkFontLCDConfig
 {
 public
