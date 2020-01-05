@@ -509,6 +509,12 @@ transport
 }
 )
 ;
+transport
+.
+connectionSettings
+=
+settings
+;
 return
 transport
 ;
