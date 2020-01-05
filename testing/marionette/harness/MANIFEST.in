@@ -11,5 +11,12 @@ recursive
 include
 marionette_harness
 /
+certificates
+*
+recursive
+-
+include
+marionette_harness
+/
 www
 *
