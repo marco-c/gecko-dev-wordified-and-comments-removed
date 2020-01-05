@@ -604,7 +604,7 @@ LoadComplete
 Msg
 :
 :
-ScrollTimeout
+DelayedCompositionTimeout
 (
 .
 .
@@ -613,7 +613,11 @@ ScrollTimeout
 Msg
 :
 :
-RecompositeAfterScroll
+Recomposite
+(
+.
+.
+)
 |
 Msg
 :

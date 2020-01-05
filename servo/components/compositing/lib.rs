@@ -350,6 +350,9 @@ mod
 constellation
 ;
 mod
+delayed_composition
+;
+mod
 headless
 ;
 pub
@@ -373,9 +376,6 @@ windows
 pub
 mod
 sandboxing
-;
-mod
-scrolling
 ;
 mod
 surface_map
