@@ -173,6 +173,18 @@ TOOLTOOL_HOME
 /
 builds
 '
+        
+'
+EN_US_PACKAGE_NAME
+'
+:
+'
+target
+.
+tar
+.
+bz2
+'
     
 }
     
