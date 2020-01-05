@@ -877,13 +877,12 @@ childCount
 2
 )
 ;
+yield
 PlacesUtils
 .
 history
 .
-removePage
-(
-uri
+remove
 (
 "
 http
@@ -894,7 +893,6 @@ foo
 .
 com
 "
-)
 )
 ;
 do_check_eq

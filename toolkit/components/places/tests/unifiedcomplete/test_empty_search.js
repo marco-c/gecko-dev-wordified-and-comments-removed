@@ -290,11 +290,12 @@ uri7
 1
 )
 ;
+yield
 PlacesUtils
 .
 history
 .
-removePage
+remove
 (
 uri6
 )

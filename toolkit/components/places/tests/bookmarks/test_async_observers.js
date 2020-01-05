@@ -564,15 +564,12 @@ setupCompletionPromise
 (
 )
 ;
+yield
 PlacesUtils
 .
 history
 .
-removePage
-(
-NetUtil
-.
-newURI
+remove
 (
 "
 http
@@ -586,7 +583,6 @@ ma
 rk
 /
 "
-)
 )
 ;
 yield
