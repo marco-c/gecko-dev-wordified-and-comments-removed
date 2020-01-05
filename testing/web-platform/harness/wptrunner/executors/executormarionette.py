@@ -3376,6 +3376,9 @@ marionette
 .
 screenshot
 (
+full
+=
+False
 )
         
 if
