@@ -4697,7 +4697,7 @@ spacingBuffer
 }
 AutoTArray
 <
-bool
+HyphenType
 4096
 >
 hyphenBuffer
@@ -5033,6 +5033,12 @@ i
 -
 aStart
 ]
+!
+=
+HyphenType
+:
+:
+None
 ;
 bool
 atBreak

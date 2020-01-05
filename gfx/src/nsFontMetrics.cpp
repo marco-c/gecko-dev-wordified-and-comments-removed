@@ -406,7 +406,10 @@ gfxTextRun
 :
 Range
 aRange
-bool
+gfxTextRun
+:
+:
+HyphenType
 *
 aBreakBefore
 )
