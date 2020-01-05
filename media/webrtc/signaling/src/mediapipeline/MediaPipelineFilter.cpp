@@ -71,8 +71,6 @@ return
 true
 ;
 }
-else
-{
 remote_ssrc_set_
 .
 erase
@@ -85,7 +83,6 @@ ssrc
 return
 false
 ;
-}
 }
 if
 (

@@ -9379,7 +9379,6 @@ return
 true
 ;
 }
-else
 if
 (
 mTransmitterTransport
@@ -10047,7 +10046,6 @@ PluginID
 )
 ;
 }
-else
 if
 (
 mRecvCodecPlugin
