@@ -58,7 +58,7 @@ cef_request_handler_t
 }
 ;
 use
-rustc_unicode
+std_unicode
 :
 :
 str

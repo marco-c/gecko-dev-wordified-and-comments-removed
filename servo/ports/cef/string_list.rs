@@ -28,7 +28,7 @@ cef_string_t
 }
 ;
 use
-rustc_unicode
+std_unicode
 :
 :
 str

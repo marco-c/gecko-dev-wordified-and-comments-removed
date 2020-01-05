@@ -51,7 +51,7 @@ render_handler
 CefRenderHandlerExtensions
 ;
 use
-rustc_unicode
+std_unicode
 :
 :
 str

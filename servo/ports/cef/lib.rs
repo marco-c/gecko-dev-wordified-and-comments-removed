@@ -88,10 +88,6 @@ glutin_app
 ;
 extern
 crate
-rustc_unicode
-;
-extern
-crate
 script_traits
 ;
 extern
@@ -105,6 +101,10 @@ servo_geometry
 extern
 crate
 servo_url
+;
+extern
+crate
+std_unicode
 ;
 extern
 crate
