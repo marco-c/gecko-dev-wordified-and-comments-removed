@@ -253,14 +253,6 @@ test_case_1351094
 mp4
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_RUST
-'
-]
-:
 UNIFIED_SOURCES
 +
 =

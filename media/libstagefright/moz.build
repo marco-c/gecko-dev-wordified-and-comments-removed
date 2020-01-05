@@ -774,14 +774,6 @@ VectorImpl
 cpp
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_RUST
-'
-]
-:
 EXPORTS
 +
 =

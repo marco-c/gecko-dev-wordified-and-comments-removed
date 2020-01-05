@@ -897,13 +897,6 @@ cargo_min_version
 )
 return
 True
-set_config
-(
-'
-MOZ_RUST
-'
-rust_compiler
-)
 template
 def
 rust_triple_alias
@@ -2177,13 +2170,6 @@ old
 -
 configure
 .
-add_old_configure_assignment
-(
-'
-MOZ_RUST
-'
-rust_compiler
-)
 add_old_configure_assignment
 (
 '

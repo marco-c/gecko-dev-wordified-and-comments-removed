@@ -19004,15 +19004,6 @@ test
 -
 n
 "
-MOZ_RUST
-"
-;
-then
-if
-test
--
-n
-"
 MOZ_RUST_MP4PARSE
 "
 ;
@@ -19039,7 +19030,6 @@ AC_SUBST
 (
 MOZ_RUST_URLPARSE
 )
-fi
 fi
 AC_SUBST
 (

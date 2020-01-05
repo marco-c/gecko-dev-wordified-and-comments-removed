@@ -6491,8 +6491,6 @@ track
 )
 )
 )
-ifdef
-MOZ_RUST
 cargo_host_flag
 :
 =
@@ -7549,9 +7547,6 @@ build
 endif
 #
 HOST_RUST_PROGRAMS
-endif
-#
-MOZ_RUST
 (
 SOBJS
 )
