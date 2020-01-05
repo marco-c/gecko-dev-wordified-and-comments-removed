@@ -1,8 +1,4 @@
 from
-unittest
-import
-skip
-from
 marionette_driver
 .
 by
@@ -282,25 +278,6 @@ By
 ID
 "
 testAnonymousContentBox
-"
-)
-    
-skip
-(
-"
-Bug
-1311657
--
-Opened
-chrome
-window
-cannot
-be
-closed
-after
-call
-to
-switch_to_frame
 "
 )
     

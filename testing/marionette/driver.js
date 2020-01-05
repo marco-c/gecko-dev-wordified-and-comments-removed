@@ -10697,6 +10697,12 @@ try
 {
 this
 .
+curFrame
+=
+null
+;
+this
+.
 mm
 .
 removeDelayedFrameScript
