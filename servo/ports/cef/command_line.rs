@@ -323,7 +323,7 @@ return
 cef_string
 :
 :
-empty_utf16_string
+empty_utf16_userfree_string
 (
 )
 }
@@ -566,7 +566,13 @@ string
 )
 ;
 return
+cef_string
+:
+:
+string_to_userfree_string
+(
 string
+)
 }
 }
 }
@@ -574,7 +580,7 @@ return
 cef_string
 :
 :
-empty_utf16_string
+empty_utf16_userfree_string
 (
 )
 }

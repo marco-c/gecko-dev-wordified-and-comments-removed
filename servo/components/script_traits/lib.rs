@@ -281,6 +281,10 @@ Rect
 f32
 >
 )
+GetTitleMsg
+(
+PipelineId
+)
 }
 pub
 enum

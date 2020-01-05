@@ -434,6 +434,10 @@ Key
 KeyState
 KeyModifiers
 )
+GetPipelineTitleMsg
+(
+PipelineId
+)
 }
 #
 [

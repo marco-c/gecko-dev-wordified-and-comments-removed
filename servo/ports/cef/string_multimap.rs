@@ -52,6 +52,13 @@ string
 {
 cef_string_userfree_utf16_alloc
 cef_string_userfree_utf16_free
+}
+;
+use
+string
+:
+:
+{
 cef_string_utf16_set
 }
 ;
