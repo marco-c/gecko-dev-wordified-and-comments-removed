@@ -182,6 +182,11 @@ useQuotes
 PropTypes
 .
 bool
+escapeWhitespace
+:
+PropTypes
+.
+bool
 }
 ;
 GripMessageBody
@@ -208,6 +213,7 @@ grip
 userProvidedStyle
 serviceContainer
 useQuotes
+escapeWhitespace
 }
 =
 props
@@ -291,6 +297,9 @@ grip
 useQuotes
 :
 useQuotes
+escapeWhitespace
+:
+escapeWhitespace
 mode
 :
 props

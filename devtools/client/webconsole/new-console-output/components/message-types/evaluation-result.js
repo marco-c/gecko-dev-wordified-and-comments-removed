@@ -184,6 +184,9 @@ serviceContainer
 useQuotes
 :
 true
+escapeWhitespace
+:
+false
 }
 )
 ;

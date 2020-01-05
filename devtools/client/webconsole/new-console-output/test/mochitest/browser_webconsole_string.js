@@ -70,7 +70,7 @@ argument
 )
 ;
 let
-receievedMessages
+receivedMessages
 =
 waitForMessages
 (
@@ -116,7 +116,7 @@ stringLog
 )
 ;
 yield
-receievedMessages
+receivedMessages
 ;
 info
 (
@@ -144,7 +144,9 @@ execute
 \
 "
 string
-constant
+\
+\
+nconstant
 \
 "
 "
@@ -196,7 +198,8 @@ includes
 \
 "
 string
-constant
+\
+nconstant
 \
 "
 "
