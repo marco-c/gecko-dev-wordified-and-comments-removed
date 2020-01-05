@@ -442,6 +442,13 @@ h
 '
 d3d11
 /
+ShaderDefinitionsD3D11
+.
+h
+'
+'
+d3d11
+/
 TextureD3D11
 .
 h
@@ -474,6 +481,13 @@ SOURCES
 d3d11
 /
 CompositorD3D11
+.
+cpp
+'
+'
+d3d11
+/
+DeviceAttachmentsD3D11
 .
 cpp
 '
