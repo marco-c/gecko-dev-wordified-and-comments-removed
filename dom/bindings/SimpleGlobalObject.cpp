@@ -339,6 +339,14 @@ setInvisibleToDebugger
 (
 true
 )
+.
+setZone
+(
+JS
+:
+:
+SystemZone
+)
 ;
 if
 (
