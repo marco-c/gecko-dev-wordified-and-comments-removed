@@ -2635,8 +2635,11 @@ unsetOSR
 )
 ;
 }
+JS_PUBLIC_API
+(
 JSScript
 *
+)
 ProfileEntry
 :
 :
