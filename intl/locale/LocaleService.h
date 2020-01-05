@@ -94,14 +94,6 @@ aRetVal
 )
 ;
 void
-GetAppLocale
-(
-nsACString
-&
-aRetVal
-)
-;
-void
 Refresh
 (
 )
