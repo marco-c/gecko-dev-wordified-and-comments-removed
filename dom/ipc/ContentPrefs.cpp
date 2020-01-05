@@ -451,6 +451,16 @@ unprefix
 .
 enabled
 "
+#
+ifdef
+FUZZING
+"
+fuzzing
+.
+enabled
+"
+#
+endif
 "
 gfx
 .
