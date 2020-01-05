@@ -1620,9 +1620,6 @@ mVideoCompleted
 false
 ;
 bool
-mNotifyMetadataBeforeFirstFrame
-;
-bool
 mMinimizePreroll
 ;
 Maybe
