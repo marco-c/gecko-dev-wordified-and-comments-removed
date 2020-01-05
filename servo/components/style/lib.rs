@@ -27,6 +27,14 @@ box_patterns
 [
 feature
 (
+concat_idents
+)
+]
+#
+!
+[
+feature
+(
 core_intrinsics
 )
 ]

@@ -101,7 +101,10 @@ use
 cssparser
 :
 :
+{
 RGBA
+TokenSerializationType
+}
 ;
 use
 cursor
@@ -2269,6 +2272,13 @@ DevicePixel
 QuirksMode
 OsRng
 RawStatus
+)
+;
+known_heap_size
+!
+(
+0
+TokenSerializationType
 LengthOrPercentageOrAuto
 )
 ;
