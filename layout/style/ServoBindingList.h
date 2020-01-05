@@ -139,8 +139,6 @@ RawServoStyleSheetBorrowed
 sheet
 uint32_t
 unique_id
-bool
-flush
 )
 SERVO_BINDING_FUNC
 (
@@ -152,8 +150,6 @@ RawServoStyleSheetBorrowed
 sheet
 uint32_t
 unique_id
-bool
-flush
 )
 SERVO_BINDING_FUNC
 (
@@ -163,8 +159,6 @@ RawServoStyleSetBorrowed
 set
 uint32_t
 unique_id
-bool
-flush
 )
 SERVO_BINDING_FUNC
 (
@@ -178,8 +172,6 @@ uint32_t
 unique_id
 uint32_t
 before_unique_id
-bool
-flush
 )
 SERVO_BINDING_FUNC
 (
