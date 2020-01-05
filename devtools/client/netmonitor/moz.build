@@ -193,13 +193,6 @@ store
 js
 '
 '
-toolbar
--
-view
-.
-js
-'
-'
 waterfall
 -
 background
