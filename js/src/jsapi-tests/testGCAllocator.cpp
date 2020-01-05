@@ -1769,6 +1769,7 @@ __linux__
 )
 MOZ_RELEASE_ASSERT
 (
+(
 0xffff800000000000ULL
 &
 (
@@ -1780,6 +1781,7 @@ desired
 length
 -
 1
+)
 )
 =
 =

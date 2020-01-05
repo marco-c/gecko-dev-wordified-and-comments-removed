@@ -73,6 +73,13 @@ defined
 (
 ANDROID
 )
+&
+&
+!
+defined
+(
+__aarch64__
+)
 #
 include
 <
@@ -545,6 +552,13 @@ elif
 defined
 (
 ANDROID
+)
+&
+&
+!
+defined
+(
+__aarch64__
 )
 if
 (

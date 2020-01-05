@@ -8708,6 +8708,13 @@ defined
 (
 ANDROID
 )
+#
+if
+!
+defined
+(
+__aarch64__
+)
 char
 version_string
 [
@@ -8751,6 +8758,8 @@ return
 false
 ;
 }
+#
+endif
 #
 if
 defined
