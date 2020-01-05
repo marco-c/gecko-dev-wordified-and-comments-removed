@@ -232,6 +232,7 @@ pkg
 config
 python
 cmake
+ffmpeg
 pip
 install
 virtualenv
@@ -251,6 +252,7 @@ py27
 -
 virtualenv
 cmake
+ffmpeg
 On
 OS
 X
