@@ -3942,6 +3942,14 @@ IsAlive
 return
 ;
 }
+UpdateAttribute
+(
+scrollbar
+aNewPos
+false
+aIsSmooth
+)
+;
 CurrentPositionChanged
 (
 )
