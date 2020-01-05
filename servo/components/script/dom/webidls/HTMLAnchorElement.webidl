@@ -183,13 +183,8 @@ download
 ;
 /
 /
-[
-PutForwards
-=
-value
-]
 attribute
-DOMSettableTokenList
+USVString
 ping
 ;
 /

@@ -96,14 +96,8 @@ rowSpan
 ;
 /
 /
-[
-PutForwards
-=
-value
-]
-readonly
 attribute
-DOMSettableTokenList
+DOMString
 headers
 ;
 readonly

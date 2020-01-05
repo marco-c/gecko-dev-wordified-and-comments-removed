@@ -113,13 +113,14 @@ type
 /
 /
 [
+SameObject
 PutForwards
 =
 value
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 sizes
 ;
 /

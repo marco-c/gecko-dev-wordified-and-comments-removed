@@ -82,13 +82,14 @@ HTMLElement
 /
 /
 [
+SameObject
 PutForwards
 =
 value
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 htmlFor
 ;
 readonly
