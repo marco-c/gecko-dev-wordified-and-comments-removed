@@ -232,6 +232,14 @@ extern
 crate
 msg
 ;
+#
+[
+macro_use
+]
+extern
+crate
+profile
+;
 extern
 crate
 selectors
