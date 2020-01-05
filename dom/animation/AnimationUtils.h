@@ -208,6 +208,12 @@ IsOffscreenThrottlingEnabled
 ;
 static
 bool
+IsCoreAPIEnabled
+(
+)
+;
+static
+bool
 IsCoreAPIEnabledForCaller
 (
 )
