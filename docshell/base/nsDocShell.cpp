@@ -35867,6 +35867,13 @@ EnsureInnerView
 nullptr
 ;
 }
+else
+{
+rootViewParent
+=
+nullptr
+;
+}
 if
 (
 sibling
