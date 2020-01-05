@@ -452,16 +452,10 @@ responseText
 ;
 [
 Throws
-]
-/
-*
-[
 Exposed
 =
 Window
 ]
-*
-/
 readonly
 attribute
 Document

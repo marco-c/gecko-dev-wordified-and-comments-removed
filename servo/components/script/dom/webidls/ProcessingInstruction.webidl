@@ -85,14 +85,6 @@ interface
 processinginstruction
 *
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 ProcessingInstruction
 :

@@ -112,14 +112,6 @@ work
 .
 *
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 DOMImplementation
 {

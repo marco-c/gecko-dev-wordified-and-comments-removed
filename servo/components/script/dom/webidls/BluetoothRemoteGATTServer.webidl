@@ -84,12 +84,6 @@ bluetooth
 .
 enabled
 "
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 BluetoothRemoteGATTServer

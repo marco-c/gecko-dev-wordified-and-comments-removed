@@ -117,12 +117,6 @@ data
 "
 "
 )
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 Comment

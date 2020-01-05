@@ -74,14 +74,6 @@ multipage
 /
 #
 htmloptionscollection
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLOptionsCollection
 :

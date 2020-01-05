@@ -74,14 +74,6 @@ multipage
 /
 #
 radionodelist
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 RadioNodeList
 :

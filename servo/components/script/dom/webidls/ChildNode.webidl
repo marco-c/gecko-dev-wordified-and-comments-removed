@@ -88,12 +88,6 @@ childnode
 /
 [
 NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 ChildNode
@@ -164,12 +158,6 @@ remove
 ;
 [
 NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 NonDocumentTypeChildNode

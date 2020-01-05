@@ -109,12 +109,6 @@ apply
 /
 [
 Abstract
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 CharacterData

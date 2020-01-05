@@ -142,12 +142,6 @@ interface
 /
 [
 Constructor
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 Range

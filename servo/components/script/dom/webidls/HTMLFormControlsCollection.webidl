@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlformcontrolscollection
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLFormControlsCollection
 :

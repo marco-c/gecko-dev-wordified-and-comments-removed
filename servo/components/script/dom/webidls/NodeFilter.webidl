@@ -114,14 +114,6 @@ webidl
 NodeFilter
 .
 webidl
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 callback
 interface
 NodeFilter

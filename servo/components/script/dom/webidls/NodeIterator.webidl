@@ -106,14 +106,6 @@ webidl
 NodeIterator
 .
 webidl
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 NodeIterator
 {

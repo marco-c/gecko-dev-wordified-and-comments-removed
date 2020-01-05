@@ -87,12 +87,6 @@ parentnode
 /
 [
 NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 ParentNode

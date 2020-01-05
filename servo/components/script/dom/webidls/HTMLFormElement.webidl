@@ -79,14 +79,6 @@ htmlformelement
 [
 OverrideBuiltins
 ]
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLFormElement
 :

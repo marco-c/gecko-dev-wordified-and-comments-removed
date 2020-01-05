@@ -95,12 +95,6 @@ optional
 KeyboardEventInit
 keyboardEventInitDict
 )
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 KeyboardEvent

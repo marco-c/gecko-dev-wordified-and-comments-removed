@@ -107,14 +107,6 @@ apply
 .
 *
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 DocumentType
 :

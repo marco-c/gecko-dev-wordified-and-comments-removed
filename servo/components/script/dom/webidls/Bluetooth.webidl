@@ -137,12 +137,6 @@ bluetooth
 .
 enabled
 "
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 Bluetooth

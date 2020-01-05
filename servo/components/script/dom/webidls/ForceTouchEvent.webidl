@@ -275,12 +275,6 @@ forcetouch
 .
 enabled
 "
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 ForceTouchEvent

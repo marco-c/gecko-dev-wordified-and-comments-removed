@@ -125,14 +125,6 @@ org
 interface
 -
 document
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 XMLDocument
 :

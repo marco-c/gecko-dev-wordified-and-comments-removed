@@ -83,12 +83,6 @@ optional
 UIEventInit
 eventInitDict
 )
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 UIEvent
@@ -184,14 +178,6 @@ interface
 UIEvent
 -
 initializers
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 partial
 interface
 UIEvent
