@@ -481,7 +481,7 @@ test_value_storage
 html
 animation
 [
-91
+15
 ]
 *
 CSSOM
@@ -807,7 +807,7 @@ test_counter_style
 .
 html
 [
-1
+5
 ]
 *
 test_rule_insertion
@@ -817,7 +817,7 @@ counter
 -
 style
 [
-4
+1
 ]
 *
 .
