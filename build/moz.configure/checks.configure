@@ -906,6 +906,9 @@ False
 paths
 =
 None
+when
+=
+None
 )
 :
 if
@@ -1070,6 +1073,9 @@ depends_if
 input
 progs
 paths
+when
+=
+when
 )
 checking
 (
