@@ -3435,6 +3435,10 @@ LogicalSize
 Au
 >
 pub
+relative_containing_block_mode
+:
+WritingMode
+pub
 stacking_relative_position_of_absolute_containing_block
 :
 Point2D
@@ -3472,6 +3476,9 @@ zero
 (
 writing_mode
 )
+relative_containing_block_mode
+:
+writing_mode
 stacking_relative_position_of_absolute_containing_block
 :
 Point2D
@@ -3546,6 +3553,10 @@ pub
 block_container_inline_size
 :
 Au
+pub
+block_container_writing_mode
+:
+WritingMode
 pub
 block_container_explicit_block_size
 :
@@ -4528,6 +4539,9 @@ Au
 (
 0
 )
+block_container_writing_mode
+:
+writing_mode
 block_container_explicit_block_size
 :
 None
