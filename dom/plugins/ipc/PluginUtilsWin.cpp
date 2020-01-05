@@ -69,6 +69,12 @@ NPAudioDeviceChangeDetailsIPC
 aChangeDetails
 )
 :
+Runnable
+(
+"
+AudioDeviceChangedRunnable
+"
+)
 mChangeDetails
 (
 aChangeDetails

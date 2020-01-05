@@ -8598,6 +8598,12 @@ SHORT
 aKeyState
 )
 :
+Runnable
+(
+"
+GetKeyStateTask
+"
+)
 mVirtKey
 (
 aVirtKey
@@ -8897,6 +8903,12 @@ BOOL
 aReturnValue
 )
 :
+Runnable
+(
+"
+GetFileNameTask
+"
+)
 mLpOpenFileName
 (
 aLpOpenFileName

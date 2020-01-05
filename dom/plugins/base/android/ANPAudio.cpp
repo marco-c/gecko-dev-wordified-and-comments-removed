@@ -549,6 +549,13 @@ ANPAudioTrack
 *
 aAudioTrack
 )
+:
+Runnable
+(
+"
+AudioRunnable
+"
+)
 {
 mTrack
 =

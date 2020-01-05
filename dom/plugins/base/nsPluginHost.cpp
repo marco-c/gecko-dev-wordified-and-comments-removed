@@ -5880,6 +5880,12 @@ uint32_t
 aPluginId
 )
 :
+Runnable
+(
+"
+nsPluginUnloadRunnable
+"
+)
 mPluginId
 (
 aPluginId
@@ -18304,6 +18310,12 @@ nsNPAPIPluginInstance
 aInstance
 )
 :
+Runnable
+(
+"
+nsPluginDestroyRunnable
+"
+)
 mInstance
 (
 aInstance

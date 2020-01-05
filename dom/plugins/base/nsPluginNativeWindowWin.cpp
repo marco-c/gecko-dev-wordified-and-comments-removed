@@ -310,6 +310,13 @@ PluginWindowEvent
 PluginWindowEvent
 (
 )
+:
+Runnable
+(
+"
+PluginWindowEvent
+"
+)
 {
 Clear
 (
@@ -674,6 +681,12 @@ nsNPAPIPluginInstance
 inst
 )
 :
+Runnable
+(
+"
+nsDelayedPopupsEnabledEvent
+"
+)
 mInst
 (
 inst
