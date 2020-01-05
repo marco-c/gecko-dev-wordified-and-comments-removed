@@ -2314,6 +2314,12 @@ AsyncCompositionManager
 >
 mCompositionManager
 ;
+RefPtr
+<
+WebRenderBridgeParent
+>
+mWRBridge
+;
 widget
 :
 :
