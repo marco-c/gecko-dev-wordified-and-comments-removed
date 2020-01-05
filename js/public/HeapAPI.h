@@ -43,17 +43,6 @@ JS_FRIEND_API
 (
 bool
 )
-CurrentThreadCanAccessRuntime
-(
-JSRuntime
-*
-rt
-)
-;
-JS_FRIEND_API
-(
-bool
-)
 CurrentThreadCanAccessZone
 (
 JS
@@ -1944,8 +1933,9 @@ asCell
 )
 )
 ;
-if
+MOZ_ASSERT
 (
+!
 rt
 -
 >
@@ -1953,8 +1943,6 @@ isHeapCollecting
 (
 )
 )
-return
-false
 ;
 JS
 :

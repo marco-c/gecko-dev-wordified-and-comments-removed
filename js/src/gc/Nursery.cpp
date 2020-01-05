@@ -3368,6 +3368,9 @@ HeapState
 MinorCollecting
 )
 ;
+AutoSetThreadIsPerformingGC
+performingGC
+;
 AutoStopVerifyingBarriers
 av
 (

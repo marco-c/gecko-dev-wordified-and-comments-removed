@@ -204,7 +204,7 @@ thingSize
 ;
 for
 (
-ArenaCellIterUnderGC
+ArenaCellIter
 iter
 (
 arena

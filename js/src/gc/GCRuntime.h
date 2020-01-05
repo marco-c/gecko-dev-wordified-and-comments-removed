@@ -3106,6 +3106,8 @@ Zone
 zone
 AllocKind
 kind
+ShouldCheckThresholds
+checkThresholds
 const
 AutoLockGC
 &
