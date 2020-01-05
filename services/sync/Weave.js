@@ -297,15 +297,6 @@ promise
 ;
 }
 get
-fxAccountsEnabled
-(
-)
-{
-return
-true
-;
-}
-get
 enabled
 (
 )
