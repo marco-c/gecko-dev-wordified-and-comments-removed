@@ -318,13 +318,13 @@ const
 double
 kBackPressureDelayMS
 =
-500
+250
 ;
 const
 double
 kBackPressureDelayReductionThresholdMS
 =
-400
+1000
 ;
 const
 double
