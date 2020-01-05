@@ -1960,7 +1960,7 @@ ObjectElements
 *
 newHeader
 uint32_t
-nelems
+capacity
 )
 ;
 void

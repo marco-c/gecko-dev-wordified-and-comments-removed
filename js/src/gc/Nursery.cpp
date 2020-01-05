@@ -2293,7 +2293,7 @@ ObjectElements
 *
 newHeader
 uint32_t
-nelems
+capacity
 )
 {
 setForwardingPointer
@@ -2310,12 +2310,9 @@ newHeader
 elements
 (
 )
-nelems
+capacity
 >
-ObjectElements
-:
-:
-VALUES_PER_HEADER
+0
 )
 ;
 }

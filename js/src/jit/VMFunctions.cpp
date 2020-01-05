@@ -3557,7 +3557,13 @@ HeapSlot
 :
 :
 Element
+nobj
+-
+>
+unshiftedIndex
+(
 index
+)
 1
 )
 ;
