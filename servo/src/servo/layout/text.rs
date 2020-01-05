@@ -5,10 +5,7 @@ servo_text
 text_run
 :
 :
-{
-TextRange
 TextRun
-}
 ;
 use
 layout
@@ -24,6 +21,15 @@ RenderBoxData
 UnscannedTextBox
 }
 ;
+use
+util
+:
+:
+range
+:
+:
+Range
+;
 pub
 struct
 TextBoxData
@@ -33,7 +39,7 @@ run
 TextRun
 range
 :
-TextRange
+Range
 }
 pub
 fn
@@ -44,7 +50,7 @@ run
 TextRun
 range
 :
-TextRange
+Range
 )
 -
 >
@@ -73,7 +79,7 @@ run
 TextRun
 range
 :
-TextRange
+Range
 )
 -
 >

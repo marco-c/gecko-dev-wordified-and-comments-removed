@@ -26,10 +26,7 @@ text
 text_run
 :
 :
-{
 TextRun
-TextRange
-}
 ;
 use
 text
@@ -56,6 +53,15 @@ au
 :
 :
 au
+;
+use
+util
+:
+:
+range
+:
+:
+Range
 ;
 use
 core
@@ -604,7 +610,7 @@ run
 TextRun
 range
 :
-TextRange
+Range
 )
 {
 use

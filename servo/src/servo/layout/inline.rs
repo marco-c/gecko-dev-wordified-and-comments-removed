@@ -163,6 +163,15 @@ use
 util
 :
 :
+range
+:
+:
+Range
+;
+use
+util
+:
+:
 tree
 ;
 /
@@ -1356,7 +1365,7 @@ d
 (
 )
 run
-TextRange
+Range
 (
 0
 run
@@ -1930,7 +1939,7 @@ d
 (
 )
 run
-TextRange
+Range
 (
 0
 run

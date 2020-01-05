@@ -84,10 +84,7 @@ text
 text_run
 :
 :
-{
 TextRun
-TextRange
-}
 ;
 use
 vec_to_ptr
@@ -99,6 +96,15 @@ raw
 :
 :
 to_ptr
+;
+use
+servo_util
+:
+:
+range
+:
+:
+Range
 ;
 /
 /
@@ -248,7 +254,7 @@ measure_text
 (
 &
 TextRun
-TextRange
+Range
 )
 -
 >
@@ -329,7 +335,7 @@ run
 TextRun
 range
 :
-TextRange
+Range
 )
 -
 >

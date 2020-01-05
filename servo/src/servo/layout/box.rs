@@ -208,11 +208,7 @@ servo_text
 text_run
 :
 :
-{
-MutableTextRange
-TextRange
 TextRun
-}
 ;
 use
 std
@@ -240,6 +236,15 @@ color
 :
 :
 Color
+;
+use
+util
+:
+:
+range
+:
+:
+*
 ;
 use
 util
@@ -1283,7 +1288,7 @@ max_width
 let
 left_range
 =
-MutableTextRange
+MutableRange
 (
 data
 .
@@ -1301,7 +1306,7 @@ right_range
 :
 Option
 <
-TextRange
+Range
 >
 =
 None
@@ -1574,7 +1579,7 @@ right_range
 =
 Some
 (
-TextRange
+Range
 (
 piece_range
 .
@@ -1645,7 +1650,7 @@ right_range
 =
 Some
 (
-TextRange
+Range
 (
 piece_range
 .
@@ -1755,7 +1760,7 @@ None
 range
 :
 &
-TextRange
+Range
 |
 {
 Some

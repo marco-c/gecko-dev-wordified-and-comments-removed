@@ -61,13 +61,13 @@ std
 sort
 ;
 use
-servo_text
+servo_util
 :
 :
-text_run
+range
 :
 :
-TextRange
+Range
 ;
 use
 servo_util
@@ -3232,7 +3232,7 @@ T
 self
 range
 :
-TextRange
+Range
 cb
 :
 fn
