@@ -137,7 +137,6 @@ description
 :
 "
 Linux64
-Opt
 PGO
 "
 index
@@ -149,11 +148,18 @@ job
 -
 name
 :
+buildbot
+:
 linux64
 -
 pgo
+gecko
 -
-opt
+v2
+:
+linux64
+-
+pgo
 treeherder
 :
 platform
