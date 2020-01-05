@@ -42390,7 +42390,6 @@ toStringStart
 directives
 NotGenerator
 SyncFunction
-false
 )
 ;
 if
