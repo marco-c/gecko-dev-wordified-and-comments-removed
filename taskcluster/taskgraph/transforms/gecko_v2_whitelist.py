@@ -202,6 +202,16 @@ opt
 '
 android
 -
+nightly
+-
+l10n
+-
+opt
+'
+    
+'
+android
+-
 x86
 -
 opt
@@ -237,14 +247,6 @@ browser
 haz
 -
 debug
-'
-    
-'
-linux32
--
-l10n
--
-opt
 '
     
 '
@@ -320,6 +322,16 @@ opt
 '
 linux64
 -
+nightly
+-
+l10n
+-
+opt
+'
+    
+'
+linux64
+-
 opt
 '
     
@@ -376,6 +388,12 @@ opt
 '
     
 '
+linux
+-
+pgo
+'
+    
+'
 linux32
 -
 nightly
@@ -384,9 +402,21 @@ opt
 '
     
 '
-linux
+linux32
 -
-pgo
+l10n
+-
+opt
+'
+    
+'
+linux32
+-
+nightly
+-
+l10n
+-
+opt
 '
     
 '

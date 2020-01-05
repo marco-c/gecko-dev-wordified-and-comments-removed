@@ -1,5 +1,14 @@
 import
 os
+EN_US_BINARY_URL
+=
+"
+%
+(
+en_us_binary_url
+)
+s
+"
 config
 =
 {
@@ -88,13 +97,17 @@ l10n
 EN_US_BINARY_URL
 "
 :
-"
-%
+os
+.
+environ
+.
+get
 (
-en_us_binary_url
-)
-s
 "
+EN_US_BINARY_URL
+"
+EN_US_BINARY_URL
+)
         
 "
 LOCALE_MERGEDIR
