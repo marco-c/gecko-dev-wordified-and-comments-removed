@@ -2543,13 +2543,7 @@ zoom
 1
 .
 html
-skip
--
-if
-(
-!
-asyncZoom
-)
+fails
 =
 =
 async
