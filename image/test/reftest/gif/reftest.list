@@ -498,12 +498,6 @@ parts
 .
 "
 )
-skip
--
-if
-(
-B2G
-)
 HTTP
 =
 =
@@ -513,6 +507,3 @@ html
 blue
 .
 gif
-#
-bug
-773482
