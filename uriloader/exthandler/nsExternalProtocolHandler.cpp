@@ -308,6 +308,13 @@ mStatus
 (
 NS_OK
 )
+mLoadFlags
+(
+nsIRequest
+:
+:
+LOAD_NORMAL
+)
 mWasOpened
 (
 false
