@@ -9748,10 +9748,23 @@ path
 .
 startswith
 (
+(
 '
 mailnews
 /
 '
+'
+calendar
+/
+'
+'
+extensions
+/
+purple
+/
+purplexpcom
+'
+)
 )
 :
                 
