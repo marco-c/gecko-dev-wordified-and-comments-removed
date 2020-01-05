@@ -353,6 +353,16 @@ uint32_t
 aBufferSize
 )
 ;
+void
+Pause
+(
+)
+;
+bool
+Resume
+(
+)
+;
 WrIdNamespace
 GetNamespace
 (

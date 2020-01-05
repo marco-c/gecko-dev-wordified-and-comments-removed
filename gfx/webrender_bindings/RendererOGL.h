@@ -194,6 +194,16 @@ CompositorBridgeParentBase
 aBridge
 )
 ;
+void
+Pause
+(
+)
+;
+bool
+Resume
+(
+)
+;
 layers
 :
 :
