@@ -327,7 +327,7 @@ if
 (
 Restrictions
 .
-isUserRestricted
+isRestrictedProfile
 (
 context
 )
