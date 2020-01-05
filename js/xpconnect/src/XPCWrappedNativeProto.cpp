@@ -160,7 +160,6 @@ GetCallback
 (
 )
 :
-:
 nullptr
 ;
 if
