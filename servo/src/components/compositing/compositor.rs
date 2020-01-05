@@ -54,6 +54,9 @@ constellation
 SendableFrameTree
 ;
 use
+events
+;
+use
 pipeline
 :
 :
@@ -2114,7 +2117,7 @@ false
 fragment_point
 |
 {
-CompositorData
+events
 :
 :
 move
@@ -2485,7 +2488,7 @@ hidden
 {
 (
 true
-CompositorData
+events
 :
 :
 move
@@ -3112,7 +3115,7 @@ iter
 (
 )
 {
-CompositorData
+events
 :
 :
 send_mouse_event
@@ -3164,7 +3167,7 @@ iter
 (
 )
 {
-CompositorData
+events
 :
 :
 send_mouse_move_event
@@ -3275,7 +3278,7 @@ layer
 {
 scroll
 =
-CompositorData
+events
 :
 :
 handle_scroll_event
@@ -3705,7 +3708,7 @@ layer
 =
 >
 {
-CompositorData
+events
 :
 :
 handle_scroll_event
