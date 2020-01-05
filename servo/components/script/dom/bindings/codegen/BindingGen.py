@@ -143,6 +143,7 @@ usage
 %
 prog
 configFile
+outputdir
 outputPrefix
 webIDLFile
 "
@@ -209,7 +210,7 @@ args
 )
 !
 =
-3
+4
 :
         
 o
@@ -233,11 +234,18 @@ args
 ]
 )
     
-outputPrefix
+outputdir
 =
 args
 [
 1
+]
+    
+outputPrefix
+=
+args
+[
+2
 ]
     
 webIDLFile
@@ -250,18 +258,30 @@ normpath
 (
 args
 [
-2
+3
 ]
 )
     
-with
-open
+resultsPath
+=
+os
+.
+path
+.
+join
 (
+outputdir
 '
 ParserResults
 .
 pkl
 '
+)
+    
+with
+open
+(
+resultsPath
 '
 rb
 '
