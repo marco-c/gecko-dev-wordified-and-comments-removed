@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsArrayEnumerator
 .
 h
