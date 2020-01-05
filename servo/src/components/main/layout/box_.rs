@@ -339,14 +339,14 @@ use
 layout
 :
 :
-float_context
+floats
 :
 :
 {
-ClearType
+ClearBoth
 ClearLeft
 ClearRight
-ClearBoth
+ClearType
 }
 ;
 use

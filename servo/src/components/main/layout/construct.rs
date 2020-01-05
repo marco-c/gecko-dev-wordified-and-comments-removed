@@ -70,10 +70,10 @@ use
 layout
 :
 :
-float_context
+floats
 :
 :
-FloatType
+FloatKind
 ;
 use
 layout
@@ -2729,9 +2729,9 @@ node
 :
 &
 ThreadSafeLayoutNode
-float_type
+float_kind
 :
-FloatType
+FloatKind
 )
 -
 >
@@ -2750,7 +2750,7 @@ float_from_node
 (
 self
 node
-float_type
+float_kind
 )
 as
 ~
@@ -4429,9 +4429,9 @@ _
 >
 {
 let
-float_type
+float_kind
 =
-FloatType
+FloatKind
 :
 :
 from_property
@@ -4447,7 +4447,7 @@ self
 build_flow_for_floated_block
 (
 node
-float_type
+float_kind
 )
 ;
 node

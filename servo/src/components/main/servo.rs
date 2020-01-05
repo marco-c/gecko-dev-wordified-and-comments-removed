@@ -506,7 +506,7 @@ display_list_builder
 ;
 pub
 mod
-float_context
+floats
 ;
 pub
 mod
