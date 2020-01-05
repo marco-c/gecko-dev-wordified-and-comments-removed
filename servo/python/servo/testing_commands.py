@@ -3226,6 +3226,35 @@ tidy
 "
 )
     
+CommandArgument
+(
+'
+-
+-
+stylo
+'
+default
+=
+False
+action
+=
+"
+store_true
+"
+                     
+help
+=
+"
+Only
+handle
+files
+in
+the
+stylo
+tree
+"
+)
+    
 def
 test_tidy
 (
@@ -3233,6 +3262,7 @@ self
 all_files
 no_progress
 self_test
+stylo
 )
 :
         
@@ -3259,6 +3289,9 @@ not
 all_files
 not
 no_progress
+stylo
+=
+stylo
 )
     
 Command

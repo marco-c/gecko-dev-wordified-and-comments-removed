@@ -776,6 +776,9 @@ exclude_dirs
 progress
 =
 True
+stylo
+=
+False
 )
 :
         
@@ -795,16 +798,6 @@ iterator
 =
 self
 .
-_git_changed_files
-(
-)
-if
-only_changed_files
-else
-\
-            
-self
-.
 _filter_excluded
 (
 )
@@ -816,6 +809,51 @@ self
 _default_walk
 (
 )
+        
+if
+only_changed_files
+and
+not
+stylo
+:
+            
+try
+:
+                
+newiter
+=
+self
+.
+_git_changed_files
+(
+)
+                
+obj
+=
+next
+(
+newiter
+)
+                
+iterator
+=
+itertools
+.
+chain
+(
+(
+obj
+)
+newiter
+)
+            
+except
+subprocess
+.
+CalledProcessError
+:
+                
+pass
         
 obj
 =
@@ -1212,6 +1250,7 @@ filter_files
 start_dir
 only_changed_files
 progress
+stylo
 )
 :
     
@@ -1240,6 +1279,10 @@ directories
 progress
 =
 progress
+                         
+stylo
+=
+stylo
 )
     
 for
@@ -8044,6 +8087,9 @@ exclude_dirs
 progress
 =
 True
+stylo
+=
+False
 )
 :
         
@@ -8070,6 +8116,12 @@ self
 path
 =
 lint_path
+        
+self
+.
+stylo
+=
+stylo
     
 def
 check
@@ -8213,12 +8265,18 @@ path
 self
 .
 only_changed_files
+                                   
 self
 .
 exclude_dirs
 self
 .
 progress
+stylo
+=
+self
+.
+stylo
 )
                 
 for
@@ -8413,6 +8471,9 @@ False
 progress
 =
 True
+stylo
+=
+False
 )
 :
     
@@ -8426,6 +8487,9 @@ only_changed_files
 progress
 =
 progress
+stylo
+=
+stylo
 )
     
 for
@@ -8624,6 +8688,9 @@ False
 progress
 =
 True
+stylo
+=
+False
 )
 :
     
@@ -8655,6 +8722,7 @@ filter_files
 '
 only_changed_files
 progress
+stylo
 )
     
 checking_functions
@@ -8706,10 +8774,18 @@ run_lint_scripts
 (
 only_changed_files
 progress
+stylo
+=
+stylo
 )
     
 commit_errors
 =
+[
+]
+if
+stylo
+else
 check_commits
 (
 )
@@ -8722,10 +8798,10 @@ chain
 (
 config_errors
 directory_errors
-file_errors
-dep_license_errors
 lint_errors
                              
+file_errors
+dep_license_errors
 commit_errors
 )
     
