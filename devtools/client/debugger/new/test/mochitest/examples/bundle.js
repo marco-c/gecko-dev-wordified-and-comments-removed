@@ -184,7 +184,10 @@ function
 )
 {
 return
-1
+times2
+(
+4
+)
 ;
 }
 }

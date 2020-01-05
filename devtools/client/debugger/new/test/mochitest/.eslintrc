@@ -1,12 +1,3 @@
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
 {
 "
 globals
@@ -178,6 +169,17 @@ waitForFocus
 "
 :
 false
+/
+/
+Globals
+introduced
+in
+debugger
+-
+specific
+head
+.
+js
 "
 promise
 "
@@ -324,6 +326,11 @@ toggleCallStack
 :
 false
 "
+toggleScopes
+"
+:
+false
+"
 isVisibleWithin
 "
 :
@@ -350,4 +357,3 @@ EXAMPLE_URL
 false
 }
 }
-;
