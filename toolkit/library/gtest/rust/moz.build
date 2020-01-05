@@ -104,7 +104,16 @@ CONFIG
 MOZ_STYLO
 '
 ]
-and
+:
+features
++
+=
+[
+'
+servo
+'
+]
+if
 CONFIG
 [
 '
