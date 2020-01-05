@@ -8700,6 +8700,7 @@ iter
 .
 readFunctionEnd
 (
+bodyEnd
 )
 )
 return
