@@ -529,7 +529,12 @@ void
 >
 addIceCandidate
 (
+(
+RTCIceCandidateInit
+or
 RTCIceCandidate
+)
+?
 candidate
 )
 ;
