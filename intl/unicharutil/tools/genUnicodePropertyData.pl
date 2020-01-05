@@ -5835,8 +5835,14 @@ usv
 genTables
 (
 "
+#
+if
+!
+ENABLE_INTL_API
 "
 "
+#
+endif
 "
 "
 CaseMap

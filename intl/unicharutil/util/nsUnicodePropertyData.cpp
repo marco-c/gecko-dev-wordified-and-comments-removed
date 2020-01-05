@@ -384348,6 +384348,10 @@ sFullWidthInverseValues
 }
 ;
 #
+if
+!
+ENABLE_INTL_API
+#
 define
 kCaseMapMaxPlane
 1
@@ -391287,6 +391291,8 @@ sCaseMapValues
 }
 }
 ;
+#
+endif
 const
 uint32_t
 kTitleToUpper
