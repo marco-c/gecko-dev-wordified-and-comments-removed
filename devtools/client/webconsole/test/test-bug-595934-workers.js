@@ -1,3 +1,9 @@
+"
+use
+strict
+"
+;
+var
 onmessage
 =
 function
