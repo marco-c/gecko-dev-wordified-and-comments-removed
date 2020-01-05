@@ -694,6 +694,8 @@ data
 RawGeckoURLExtraData
 *
 extra_data
+nsCompatibility
+quirks_mode
 )
 SERVO_BINDING_FUNC
 (

@@ -118,6 +118,8 @@ aCssText
 URLExtraData
 *
 aExtraData
+nsCompatibility
+aMode
 )
 ;
 RawServoDeclarationBlock
