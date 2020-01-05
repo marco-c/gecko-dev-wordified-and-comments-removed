@@ -3025,6 +3025,20 @@ default
 )
 :
             
+if
+value
+.
+origin
+=
+=
+'
+environment
+'
+:
+                
+return
+None
+            
 raise
 InvalidOptionError
 (
@@ -3039,8 +3053,20 @@ in
 this
 configuration
 '
+                
 %
 option_string
+.
+split
+(
+'
+=
+'
+1
+)
+[
+0
+]
 )
         
 return
