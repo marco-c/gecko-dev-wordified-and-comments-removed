@@ -612,6 +612,7 @@ HyphenType
 *
 aBreakBefore
 )
+const
 =
 0
 ;
@@ -623,6 +624,7 @@ StyleHyphens
 GetHyphensOption
 (
 )
+const
 =
 0
 ;
@@ -631,6 +633,7 @@ gfxFloat
 GetHyphenWidth
 (
 )
+const
 =
 0
 ;
@@ -651,6 +654,7 @@ Spacing
 *
 aSpacing
 )
+const
 =
 0
 ;
@@ -662,6 +666,7 @@ DrawTarget
 GetDrawTarget
 (
 )
+const
 =
 0
 ;
@@ -670,6 +675,7 @@ uint32_t
 GetAppUnitsPerDevUnit
 (
 )
+const
 =
 0
 ;
@@ -2291,6 +2297,7 @@ aMFR
 gfxFloat
 GetHyphenWidth
 (
+const
 gfxTextRun
 :
 :
