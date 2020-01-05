@@ -548,8 +548,6 @@ circle
 getAttribute
 (
 "
-data
--
 code
 "
 )

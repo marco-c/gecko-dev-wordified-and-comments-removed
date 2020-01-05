@@ -157,6 +157,8 @@ headers
 testShowRawHeaders
 (
 origItem
+.
+attachment
 )
 ;
 EventUtils
@@ -237,7 +239,7 @@ ok
 (
 requestHeaders
 .
-includes
+indexOf
 (
 header
 .
@@ -251,6 +253,9 @@ header
 .
 value
 )
+>
+=
+0
 "
 textarea
 contains
@@ -296,7 +301,7 @@ ok
 (
 responseHeaders
 .
-includes
+indexOf
 (
 header
 .
@@ -310,6 +315,9 @@ header
 .
 value
 )
+>
+=
+0
 "
 textarea
 contains

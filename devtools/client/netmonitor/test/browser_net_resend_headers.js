@@ -202,7 +202,9 @@ yield
 wait
 ;
 let
-item
+{
+attachment
+}
 =
 RequestsMenu
 .
@@ -213,7 +215,7 @@ getItemAtIndex
 ;
 is
 (
-item
+attachment
 .
 method
 "
@@ -231,7 +233,7 @@ method
 ;
 is
 (
-item
+attachment
 .
 url
 requestUrl
@@ -253,7 +255,7 @@ name
 value
 }
 of
-item
+attachment
 .
 requestHeaders
 .
@@ -287,7 +289,7 @@ let
 headers
 }
 =
-item
+attachment
 .
 requestHeaders
 ;
@@ -329,7 +331,7 @@ let
 headers
 }
 =
-item
+attachment
 .
 requestHeaders
 ;

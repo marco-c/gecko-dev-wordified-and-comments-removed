@@ -153,6 +153,8 @@ is
 (
 request
 .
+attachment
+.
 method
 "
 GET
@@ -169,6 +171,8 @@ correct
 is
 (
 request
+.
+attachment
 .
 status
 "

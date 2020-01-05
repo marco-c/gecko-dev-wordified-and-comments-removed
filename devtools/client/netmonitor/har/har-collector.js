@@ -876,7 +876,11 @@ items
 .
 push
 (
+{
+attachment
+:
 file
+}
 )
 ;
 }

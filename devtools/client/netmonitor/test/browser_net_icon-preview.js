@@ -107,18 +107,13 @@ checkImageThumbnail
 (
 )
 ;
-gStore
-.
-dispatch
-(
-Actions
+RequestsMenu
 .
 sortBy
 (
 "
 size
 "
-)
 )
 ;
 info
@@ -333,8 +328,6 @@ menu
 -
 icon
 [
-data
--
 type
 =
 thumbnail
@@ -371,8 +364,6 @@ menu
 -
 icon
 [
-data
--
 type
 =
 thumbnail
@@ -409,8 +400,6 @@ menu
 -
 icon
 [
-data
--
 type
 =
 thumbnail

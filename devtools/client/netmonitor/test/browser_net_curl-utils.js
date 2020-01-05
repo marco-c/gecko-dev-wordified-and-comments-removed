@@ -161,6 +161,8 @@ createCurlData
 requests
 .
 get
+.
+attachment
 gNetwork
 )
 ;
@@ -177,6 +179,8 @@ createCurlData
 requests
 .
 post
+.
+attachment
 gNetwork
 )
 ;
@@ -198,6 +202,8 @@ createCurlData
 requests
 .
 multipart
+.
+attachment
 gNetwork
 )
 ;
@@ -224,6 +230,8 @@ createCurlData
 requests
 .
 multipartForm
+.
+attachment
 gNetwork
 )
 ;

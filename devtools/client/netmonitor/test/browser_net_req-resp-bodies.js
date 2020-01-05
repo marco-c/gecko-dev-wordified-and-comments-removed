@@ -252,7 +252,6 @@ offset
 verifyRequestItemTarget
 (
 RequestsMenu
-RequestsMenu
 .
 getItemAtIndex
 (
