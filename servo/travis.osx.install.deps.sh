@@ -28,3 +28,9 @@ libtool
 pkg
 -
 config
+brew
+install
+python
+pip
+install
+virtualenv

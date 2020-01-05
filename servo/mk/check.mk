@@ -432,6 +432,9 @@ check
 servo
 check
 -
+wpt
+check
+-
 content
 check
 -
@@ -727,6 +730,17 @@ check
 -
 wpt
 :
+(
+call
+E
+check
+:
+web
+-
+platform
+-
+tests
+)
 bash
 (
 S
