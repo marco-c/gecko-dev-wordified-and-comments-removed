@@ -199,6 +199,12 @@ cp
 apis
 .
 html
+.
+.
+/
+.
+.
+/
 target
 /
 doc
