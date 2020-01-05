@@ -6,13 +6,6 @@ servo_util
 cache
 ;
 pub
-use
-servo_util
-:
-:
-time
-;
-pub
 mod
 task
 ;

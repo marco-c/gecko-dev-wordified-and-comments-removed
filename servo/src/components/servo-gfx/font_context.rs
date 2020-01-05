@@ -44,6 +44,15 @@ cache
 MonoCache
 ;
 use
+servo_util
+:
+:
+time
+:
+:
+ProfilerChan
+;
+use
 platform
 :
 :
@@ -224,6 +233,9 @@ BackendType
 needs_font_list
 :
 bool
+prof_chan
+:
+ProfilerChan
 )
 -
 >
@@ -254,6 +266,11 @@ new
 (
 &
 handle
+prof_chan
+.
+clone
+(
+)
 )
 )
 }
