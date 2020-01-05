@@ -4208,6 +4208,7 @@ prototype
 executeAsyncScript
 =
 function
+*
 (
 cmd
 resp
@@ -4528,6 +4529,7 @@ prototype
 executeJSScript
 =
 function
+*
 (
 cmd
 resp
@@ -10695,12 +10697,6 @@ return
 }
 try
 {
-this
-.
-curFrame
-=
-null
-;
 this
 .
 mm
