@@ -531,6 +531,12 @@ identifier
 if
 (
 mIdentifier
+=
+=
+null
+|
+|
+mIdentifier
 .
 equals
 (
