@@ -82,8 +82,12 @@ output
 commonLibRequire
 :
 toolbox
+?
+toolbox
 .
 browserRequire
+:
+null
 window
 }
 )
