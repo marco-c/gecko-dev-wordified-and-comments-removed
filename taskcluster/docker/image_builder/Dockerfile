@@ -103,7 +103,7 @@ sh
 #
 %
 include
-taskcluster
+testing
 /
 mozharness
 /
@@ -115,7 +115,7 @@ py
 ADD
 topsrcdir
 /
-taskcluster
+testing
 /
 mozharness
 /
