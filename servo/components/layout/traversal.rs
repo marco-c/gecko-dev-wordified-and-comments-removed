@@ -183,8 +183,8 @@ wrapper
 :
 :
 {
+LayoutNodeHelpers
 LayoutNodeLayoutData
-ThreadSafeLayoutNodeHelpers
 }
 ;
 pub
