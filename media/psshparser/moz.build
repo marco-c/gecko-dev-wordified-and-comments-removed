@@ -144,11 +144,3 @@ MOZ_NO_MOZALLOC
 ]
 =
 True
-TEST_DIRS
-+
-=
-[
-'
-gtest
-'
-]
