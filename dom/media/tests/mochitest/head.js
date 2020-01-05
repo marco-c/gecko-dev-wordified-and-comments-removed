@@ -675,8 +675,14 @@ analysisLoop
 )
 ;
 }
-analysisLoop
+wait
 (
+200
+)
+.
+then
+(
+analysisLoop
 )
 ;
 }
