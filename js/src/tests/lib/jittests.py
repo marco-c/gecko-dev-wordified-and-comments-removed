@@ -821,6 +821,12 @@ False
         
 self
 .
+need_for_each
+=
+False
+        
+self
+.
 test_reflect_stringify
 =
 None
@@ -983,6 +989,14 @@ is_module
 self
 .
 is_module
+        
+t
+.
+need_for_each
+=
+self
+.
+need_for_each
         
 return
 t
@@ -1863,6 +1877,25 @@ append
 name
 )
                     
+elif
+name
+=
+=
+'
+need
+-
+for
+-
+each
+'
+:
+                        
+test
+.
+need_for_each
+=
+True
+                    
 else
 :
                         
@@ -2061,6 +2094,22 @@ quotechar
 scriptdir_var
 )
 )
+        
+if
+self
+.
+need_for_each
+:
+            
+expr
++
+=
+"
+;
+enableForEach
+(
+)
+"
         
 cmd
 =
