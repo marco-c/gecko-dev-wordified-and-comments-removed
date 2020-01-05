@@ -199,7 +199,7 @@ UpdateImageClient
 {
 MOZ_ASSERT
 (
-Manager
+WrManager
 (
 )
 -
@@ -335,7 +335,7 @@ MOZ_ASSERT
 ctx
 )
 ;
-Manager
+WrManager
 (
 )
 -
@@ -363,7 +363,7 @@ DRAW
 nsIntRegion
 (
 )
-Manager
+WrManager
 (
 )
 -
@@ -554,7 +554,7 @@ key
 )
 )
 ;
-Manager
+WrManager
 (
 )
 -
@@ -680,7 +680,7 @@ IsEmpty
 &
 &
 !
-Manager
+WrManager
 (
 )
 -
@@ -690,7 +690,7 @@ GetPaintedLayerCallback
 )
 )
 {
-Manager
+WrManager
 (
 )
 -
@@ -712,7 +712,7 @@ IsEmpty
 )
 &
 &
-Manager
+WrManager
 (
 )
 -
