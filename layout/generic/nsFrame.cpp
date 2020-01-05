@@ -42917,7 +42917,7 @@ nsSize
 aOldSize
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 FrameMaintainsOverflow
 (
