@@ -1148,10 +1148,6 @@ nsIDocument
 const
 mDocument
 ;
-nsIContent
-*
-mScopedRoot
-;
 const
 bool
 mIsHTMLDocument
@@ -1243,10 +1239,6 @@ aVisitedHandling
 mDocument
 (
 aDocument
-)
-mScopedRoot
-(
-nullptr
 )
 mIsHTMLDocument
 (
