@@ -3936,12 +3936,12 @@ kAppearanceKTable
 =
 {
 {
-eCSSKeyword_auto
-NS_THEME_AUTO
-}
-{
 eCSSKeyword_none
 NS_THEME_NONE
+}
+{
+eCSSKeyword_auto
+NS_THEME_AUTO
 }
 {
 eCSSKeyword_UNKNOWN
