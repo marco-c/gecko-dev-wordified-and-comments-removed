@@ -294,6 +294,12 @@ upright
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 ruby

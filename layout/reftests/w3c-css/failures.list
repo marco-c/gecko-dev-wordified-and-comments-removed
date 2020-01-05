@@ -1320,6 +1320,12 @@ baseline
 ?
 .
 xht
+skip
+-
+if
+(
+stylo
+)
 fuzzy
 -
 if
@@ -2615,12 +2621,6 @@ all
 002
 .
 html
-fails
--
-if
-(
-stylo
-)
 css
 -
 writing
