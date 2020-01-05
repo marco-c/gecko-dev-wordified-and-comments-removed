@@ -573,7 +573,9 @@ void
 NotifyOwnerActivityChanged
 (
 bool
-aIsVisible
+aIsDocumentVisible
+bool
+aIsElementVisible
 )
 ;
 virtual
@@ -982,7 +984,9 @@ void
 SetElementVisibility
 (
 bool
-aIsVisible
+aIsDocumentVisible
+bool
+aIsElementVisible
 )
 ;
 void
@@ -1785,7 +1789,10 @@ MediaInfo
 mInfo
 ;
 bool
-mElementVisible
+mIsDocumentVisible
+;
+bool
+mIsElementVisible
 ;
 bool
 mForcedHidden
