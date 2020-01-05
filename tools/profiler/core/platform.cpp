@@ -10710,7 +10710,13 @@ ifdef
 MOZ_TASK_TRACER
 if
 (
-featureTaskTracer
+ActivePS
+:
+:
+FeatureTaskTracer
+(
+aLock
+)
 )
 {
 mozilla
