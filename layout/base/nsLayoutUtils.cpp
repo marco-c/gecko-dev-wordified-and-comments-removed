@@ -16266,6 +16266,7 @@ builder
 LeavePresShell
 (
 aFrame
+nullptr
 )
 ;
 #
@@ -18231,6 +18232,8 @@ builder
 LeavePresShell
 (
 aFrame
+&
+list
 )
 ;
 Telemetry

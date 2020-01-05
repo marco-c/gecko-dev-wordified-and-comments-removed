@@ -1355,6 +1355,9 @@ LeavePresShell
 nsIFrame
 *
 aReferenceFrame
+nsDisplayList
+*
+aPaintedContents
 )
 ;
 bool
