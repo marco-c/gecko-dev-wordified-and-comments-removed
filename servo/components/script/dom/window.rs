@@ -470,7 +470,7 @@ msg
 compositor_msg
 :
 :
-ScriptListener
+ScriptToCompositorMsg
 ;
 use
 msg
@@ -984,7 +984,10 @@ compositor
 :
 DOMRefCell
 <
-ScriptListener
+IpcSender
+<
+ScriptToCompositorMsg
+>
 >
 browsing_context
 :
@@ -1719,7 +1722,10 @@ RefMut
 <
 '
 a
-ScriptListener
+IpcSender
+<
+ScriptToCompositorMsg
+>
 >
 {
 self
@@ -8111,7 +8117,10 @@ ConstellationControlMsg
 >
 compositor
 :
-ScriptListener
+IpcSender
+<
+ScriptToCompositorMsg
+>
 image_cache_task
 :
 ImageCacheTask
