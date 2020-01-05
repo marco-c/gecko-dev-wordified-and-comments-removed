@@ -584,14 +584,6 @@ listener
 )
 ;
 nsIDOMDOMRequest
-setInputMethodActive
-(
-in
-boolean
-isActive
-)
-;
-nsIDOMDOMRequest
 getAudioChannelVolume
 (
 in

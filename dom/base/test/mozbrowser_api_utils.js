@@ -92,10 +92,6 @@ getContentDimensions
 :
 {
 }
-setInputMethodActive
-:
-{
-}
 findAll
 :
 {
