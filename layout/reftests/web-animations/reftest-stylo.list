@@ -84,6 +84,13 @@ core
 enabled
 true
 )
+asserts
+-
+if
+(
+stylo
+8
+)
 =
 =
 1298742
@@ -96,6 +103,9 @@ html
 1
 .
 html
+#
+bug
+1335342
 fails
 test
 -

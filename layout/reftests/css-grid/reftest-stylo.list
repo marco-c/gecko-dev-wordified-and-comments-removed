@@ -4718,6 +4718,13 @@ fit
 .
 html
 fails
+asserts
+-
+if
+(
+stylo
+144
+)
 =
 =
 grid
@@ -4738,6 +4745,9 @@ blockifying
 001
 .
 html
+#
+bug
+1335339
 fails
 =
 =
@@ -5085,6 +5095,13 @@ fragmentation
 .
 html
 fails
+asserts
+-
+if
+(
+stylo
+93
+)
 =
 =
 grid
@@ -5101,6 +5118,9 @@ fragmentation
 021
 .
 html
+#
+bug
+1324704
 fails
 =
 =
