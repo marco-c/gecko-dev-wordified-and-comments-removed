@@ -163,6 +163,7 @@ nsXBLBinding
 *
 GetBindingWithContent
 (
+const
 nsIContent
 *
 aContent

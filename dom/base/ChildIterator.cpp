@@ -2363,6 +2363,7 @@ StyleChildrenIterator
 :
 IsNeeded
 (
+const
 Element
 *
 aElement

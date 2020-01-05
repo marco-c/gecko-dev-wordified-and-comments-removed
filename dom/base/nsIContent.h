@@ -566,6 +566,7 @@ bool
 IsInChromeDocument
 (
 )
+const
 ;
 inline
 int32_t

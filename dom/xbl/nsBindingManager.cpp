@@ -620,6 +620,7 @@ nsBindingManager
 :
 GetBindingWithContent
 (
+const
 nsIContent
 *
 aContent
