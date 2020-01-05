@@ -1146,9 +1146,11 @@ setIgnoreLayoutChanges
 false
 this
 .
-currentNode
+highlighterEnv
 .
-ownerDocument
+window
+.
+document
 .
 documentElement
 )
@@ -1179,9 +1181,11 @@ setIgnoreLayoutChanges
 false
 this
 .
-currentNode
+highlighterEnv
 .
-ownerDocument
+window
+.
+document
 .
 documentElement
 )

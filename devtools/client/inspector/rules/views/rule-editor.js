@@ -1017,7 +1017,9 @@ this
 .
 ruleView
 .
-highlightedSelector
+highlighters
+.
+selectorHighlighterShown
 =
 =
 =
@@ -2948,7 +2950,9 @@ if
 (
 ruleView
 .
-highlightedSelector
+highlighters
+.
+selectorHighlighterShown
 )
 {
 ruleView
@@ -2960,7 +2964,9 @@ ruleView
 lastSelectorIcon
 ruleView
 .
-highlightedSelector
+highlighters
+.
+selectorHighlighterShown
 )
 ;
 }
