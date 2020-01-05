@@ -24589,6 +24589,20 @@ fill
 assertInheritance
 }
             
+MOZ_ASSERT_IF
+(
+aGivenProto
+js
+:
+:
+IsObjectInContextCompartment
+(
+aGivenProto
+aCx
+)
+)
+;
+            
 MOZ_ASSERT
 (
 !
@@ -25341,6 +25355,20 @@ fill
 {
 assertions
 }
+            
+MOZ_ASSERT_IF
+(
+aGivenProto
+js
+:
+:
+IsObjectInContextCompartment
+(
+aGivenProto
+aCx
+)
+)
+;
             
 JS
 :
