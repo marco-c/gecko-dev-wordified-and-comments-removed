@@ -19,7 +19,7 @@ version
 .
 2
 .
-21
+20
 "
 "
 description
@@ -180,18 +180,6 @@ estraverse
 4
 .
 2
-.
-0
-"
-"
-globals
-"
-:
-"
-^
-9
-.
-14
 .
 0
 "
