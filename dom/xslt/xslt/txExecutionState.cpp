@@ -2201,11 +2201,6 @@ txExpandedName
 aName
 )
 {
-if
-(
-mLocalVariables
-)
-{
 mLocalVariables
 -
 >
@@ -2214,7 +2209,6 @@ removeVariable
 aName
 )
 ;
-}
 }
 nsresult
 txExecutionState
