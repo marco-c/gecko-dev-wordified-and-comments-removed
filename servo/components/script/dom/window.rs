@@ -7594,7 +7594,7 @@ filename
 as_ptr
 (
 )
-0
+1
 )
 ;
 unsafe
