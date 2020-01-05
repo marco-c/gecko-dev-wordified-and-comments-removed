@@ -150,6 +150,11 @@ UNIFIED_SOURCES
 =
 [
 '
+Moz2DImageRenderer
+.
+cpp
+'
+'
 RendererOGL
 .
 cpp
