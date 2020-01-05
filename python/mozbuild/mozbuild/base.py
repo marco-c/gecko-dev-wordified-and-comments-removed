@@ -5175,7 +5175,29 @@ get
 top_srcdir
 '
 )
+        
+elif
+hasattr
+(
+cls
+'
+topsrcdir
+'
+)
+:
             
+top_srcdir
+=
+cls
+.
+topsrcdir
+        
+else
+:
+            
+return
+False
+        
 return
 top_srcdir
 and
@@ -5198,9 +5220,6 @@ hg
 '
 )
 )
-        
-return
-False
     
 staticmethod
     
@@ -5247,7 +5266,29 @@ get
 top_srcdir
 '
 )
+        
+elif
+hasattr
+(
+cls
+'
+topsrcdir
+'
+)
+:
             
+top_srcdir
+=
+cls
+.
+topsrcdir
+        
+else
+:
+            
+return
+False
+        
 return
 top_srcdir
 and
@@ -5270,9 +5311,6 @@ git
 '
 )
 )
-        
-return
-False
 class
 PathArgument
 (
