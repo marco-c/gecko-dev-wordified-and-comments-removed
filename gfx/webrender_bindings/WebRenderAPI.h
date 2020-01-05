@@ -429,6 +429,9 @@ WrImageMask
 *
 aMask
 const
+float
+aOpacity
+const
 gfx
 :
 :

@@ -235,6 +235,9 @@ ToWrRect
 overflow
 )
 mask
+GetLocalOpacity
+(
+)
 GetLayer
 (
 )

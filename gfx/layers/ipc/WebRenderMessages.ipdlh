@@ -305,6 +305,9 @@ overflow
 MaybeImageMask
 mask
 ;
+float
+opacity
+;
 Animation
 [
 ]

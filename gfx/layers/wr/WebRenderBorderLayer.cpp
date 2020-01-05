@@ -275,6 +275,9 @@ overflow
 Nothing
 (
 )
+1
+.
+0f
 GetAnimations
 (
 )

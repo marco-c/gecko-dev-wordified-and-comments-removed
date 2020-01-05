@@ -1224,6 +1224,8 @@ const
 WrImageMask
 *
 mask
+float
+opacity
 const
 float
 *
