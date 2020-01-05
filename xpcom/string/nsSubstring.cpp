@@ -1304,7 +1304,7 @@ nsAStringAccessor
 aStr
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 data
 [
@@ -1419,7 +1419,7 @@ nsACStringAccessor
 aStr
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 data
 [
