@@ -409,13 +409,9 @@ NodeFilter
 SHOW_ALL
 =
 0xFFFFFFFF
-/
-/
 [
 NewObject
 ]
-/
-/
 NodeIterator
 createNodeIterator
 (
