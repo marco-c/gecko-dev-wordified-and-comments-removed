@@ -1689,7 +1689,7 @@ size
 003
 .
 html
-#
+fails
 =
 =
 grid
@@ -1730,9 +1730,6 @@ size
 004
 .
 html
-#
-bug
-1342710
 fails
 =
 =
@@ -4688,7 +4685,7 @@ fit
 010
 .
 html
-#
+fails
 =
 =
 grid
@@ -4717,9 +4714,6 @@ fit
 011
 .
 html
-#
-bug
-1342710
 fails
 =
 =
@@ -4741,9 +4735,6 @@ blockifying
 001
 .
 html
-#
-bug
-1335339
 fails
 =
 =
