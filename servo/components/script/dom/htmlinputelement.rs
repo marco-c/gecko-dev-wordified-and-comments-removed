@@ -2119,6 +2119,12 @@ set
 true
 )
 ;
+self
+.
+force_relayout
+(
+)
+;
 }
 /
 /
@@ -3654,6 +3660,12 @@ value_changed
 set
 (
 false
+)
+;
+self
+.
+force_relayout
+(
 )
 ;
 }
