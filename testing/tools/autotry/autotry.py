@@ -1397,6 +1397,18 @@ chrome
 -
 1
 '
+                           
+'
+mochitest
+-
+browser
+-
+chrome
+-
+e10s
+-
+1
+'
 ]
         
 '
@@ -1424,6 +1436,18 @@ e10s
 devtools
 -
 chrome
+-
+1
+'
+                            
+'
+mochitest
+-
+devtools
+-
+chrome
+-
+e10s
 -
 1
 '
