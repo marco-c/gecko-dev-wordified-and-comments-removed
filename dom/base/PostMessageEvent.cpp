@@ -438,16 +438,10 @@ NS_OK
 if
 (
 !
-BasePrincipal
-:
-:
-Cast
-(
 targetPrin
-)
 -
 >
-EqualsIgnoringAddonId
+Equals
 (
 mProvidedPrincipal
 )

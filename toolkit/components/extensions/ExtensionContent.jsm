@@ -1670,16 +1670,6 @@ contentPrincipal
 .
 originAttributes
 ;
-attrs
-.
-addonId
-=
-this
-.
-extension
-.
-id
-;
 let
 extensionPrincipal
 =
