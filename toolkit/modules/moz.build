@@ -649,6 +649,14 @@ Utils
 jsm
 '
 ]
+DEFINES
+[
+'
+INSTALL_COMPACT_THEMES
+'
+]
+=
+1
 if
 CONFIG
 [

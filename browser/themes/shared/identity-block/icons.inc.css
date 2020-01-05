@@ -3,7 +3,6 @@ if
 0
 %
 endif
-selectorPrefix
 #
 identity
 -
@@ -37,7 +36,6 @@ iconVariant
 )
 ;
 }
-selectorPrefix
 #
 identity
 -
@@ -58,7 +56,6 @@ no
 hover
 )
 selectorSuffix
-selectorPrefix
 #
 identity
 -
@@ -102,7 +99,6 @@ iconVariant
 )
 ;
 }
-selectorPrefix
 #
 identity
 -
@@ -143,7 +139,6 @@ iconVariant
 )
 ;
 }
-selectorPrefix
 #
 identity
 -
@@ -166,7 +161,6 @@ no
 hover
 )
 selectorSuffix
-selectorPrefix
 #
 identity
 -
@@ -214,7 +208,6 @@ iconVariant
 )
 ;
 }
-selectorPrefix
 #
 urlbar
 [
@@ -264,7 +257,6 @@ svg
 )
 ;
 }
-selectorPrefix
 #
 tracking
 -
@@ -302,7 +294,6 @@ iconVariant
 )
 ;
 }
-selectorPrefix
 #
 tracking
 -
@@ -351,7 +342,6 @@ iconVariant
 )
 ;
 }
-selectorPrefix
 #
 urlbar
 [
@@ -374,7 +364,6 @@ connection
 -
 icon
 selectorSuffix
-selectorPrefix
 #
 urlbar
 [
@@ -397,7 +386,6 @@ connection
 -
 icon
 selectorSuffix
-selectorPrefix
 #
 urlbar
 [
@@ -449,7 +437,6 @@ visibility
 visible
 ;
 }
-selectorPrefix
 #
 urlbar
 [
@@ -508,7 +495,6 @@ visibility
 visible
 ;
 }
-selectorPrefix
 #
 urlbar
 [
@@ -531,7 +517,6 @@ connection
 -
 icon
 selectorSuffix
-selectorPrefix
 #
 urlbar
 [
@@ -590,7 +575,6 @@ visibility
 visible
 ;
 }
-selectorPrefix
 #
 urlbar
 [
@@ -613,7 +597,6 @@ connection
 -
 icon
 selectorSuffix
-selectorPrefix
 #
 urlbar
 [
@@ -636,7 +619,6 @@ connection
 -
 icon
 selectorSuffix
-selectorPrefix
 #
 urlbar
 [

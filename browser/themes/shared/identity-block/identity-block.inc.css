@@ -8,9 +8,6 @@ filter
 substitution
 %
 define
-selectorPrefix
-%
-define
 selectorSuffix
 %
 define
@@ -22,9 +19,6 @@ icons
 inc
 .
 css
-%
-define
-selectorPrefix
 %
 define
 selectorSuffix

@@ -566,6 +566,17 @@ else
 false
 #
 endif
+INSTALL_COMPACT_THEMES
+:
+#
+ifdef
+INSTALL_COMPACT_THEMES
+true
+#
+else
+false
+#
+endif
 MENUBAR_CAN_AUTOHIDE
 :
 #
