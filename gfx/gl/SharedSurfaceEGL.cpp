@@ -1203,7 +1203,6 @@ GetHandle
 (
 )
 mSize
-false
 )
 ;
 return

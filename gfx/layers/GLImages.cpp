@@ -484,8 +484,6 @@ gfx
 IntSize
 &
 aSize
-bool
-aContinuous
 gl
 :
 :
@@ -507,10 +505,6 @@ aHandle
 mSize
 (
 aSize
-)
-mContinuous
-(
-aContinuous
 )
 mOriginPos
 (
