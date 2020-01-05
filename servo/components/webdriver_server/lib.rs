@@ -21,7 +21,6 @@ rlib
 [
 feature
 (
-rustc_private
 ip_addr
 )
 ]

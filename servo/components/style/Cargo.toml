@@ -164,6 +164,11 @@ cache
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 encoding
 =
 "

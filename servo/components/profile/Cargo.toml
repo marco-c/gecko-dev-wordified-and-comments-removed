@@ -69,6 +69,11 @@ util
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 libc
 =
 "

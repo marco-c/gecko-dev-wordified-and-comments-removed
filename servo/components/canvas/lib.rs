@@ -14,14 +14,6 @@ feature
 collections
 )
 ]
-#
-!
-[
-feature
-(
-rustc_private
-)
-]
 extern
 crate
 canvas_traits

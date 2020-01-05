@@ -126,6 +126,11 @@ png
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 url
 =
 "

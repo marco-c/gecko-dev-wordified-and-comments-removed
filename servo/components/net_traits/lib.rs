@@ -19,14 +19,6 @@ collections
 [
 feature
 (
-rustc_private
-)
-]
-#
-!
-[
-feature
-(
 slice_patterns
 )
 ]

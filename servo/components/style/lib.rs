@@ -51,14 +51,6 @@ hash
 [
 feature
 (
-rustc_private
-)
-]
-#
-!
-[
-feature
-(
 custom_attribute
 custom_derive
 )

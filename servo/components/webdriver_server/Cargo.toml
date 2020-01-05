@@ -115,6 +115,11 @@ png
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 rustc
 -
 serialize

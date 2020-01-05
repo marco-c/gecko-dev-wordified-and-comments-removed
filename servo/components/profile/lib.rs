@@ -39,14 +39,6 @@ page_size
 )
 ]
 #
-!
-[
-feature
-(
-rustc_private
-)
-]
-#
 [
 macro_use
 ]

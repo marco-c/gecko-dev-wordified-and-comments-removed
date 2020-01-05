@@ -364,6 +364,11 @@ clock_ticks
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 encoding
 =
 "

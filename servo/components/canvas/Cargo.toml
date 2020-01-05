@@ -201,6 +201,11 @@ texture_surface
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 cssparser
 =
 "

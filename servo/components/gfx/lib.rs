@@ -52,14 +52,6 @@ custom_derive
 [
 feature
 (
-rustc_private
-)
-]
-#
-!
-[
-feature
-(
 std_misc
 )
 ]

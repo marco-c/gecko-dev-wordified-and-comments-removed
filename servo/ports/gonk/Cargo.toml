@@ -342,6 +342,11 @@ gleam
 [
 dependencies
 ]
+env_logger
+=
+"
+*
+"
 url
 =
 "

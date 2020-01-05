@@ -137,6 +137,11 @@ image
 [
 dependencies
 ]
+log
+=
+"
+*
+"
 url
 =
 "
