@@ -170,9 +170,11 @@ const
 ENABLED_PREF
 =
 "
-browser
+extensions
 .
 formautofill
+.
+addresses
 .
 enabled
 "

@@ -259,9 +259,11 @@ prefs
 clearUserPref
 (
 "
-browser
+extensions
 .
 formautofill
+.
+addresses
 .
 enabled
 "
