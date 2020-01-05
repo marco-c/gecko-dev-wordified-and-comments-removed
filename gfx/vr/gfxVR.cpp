@@ -407,6 +407,11 @@ controllerInfo
 GetNumAxes
 (
 )
+controllerInfo
+.
+GetNumHaptics
+(
+)
 )
 ;
 VRManager
