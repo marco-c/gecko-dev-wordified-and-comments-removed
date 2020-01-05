@@ -1951,6 +1951,13 @@ true
 mMaster
 -
 >
+MaybeStopPrerolling
+(
+)
+;
+mMaster
+-
+>
 DispatchDecodeTasksIfNeeded
 (
 )
