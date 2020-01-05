@@ -1458,11 +1458,16 @@ const
 nsPoint
 normalPosition
 =
+contain
+.
+ClampPoint
+(
 firstCont
 -
 >
 GetNormalPosition
 (
+)
 )
 ;
 if
