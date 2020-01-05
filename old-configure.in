@@ -8530,6 +8530,9 @@ already
 been
 set
 .
+changequote
+(
+)
 if
 test
 -
@@ -8586,6 +8589,11 @@ arch
 SSE2
 "
 fi
+changequote
+(
+[
+]
+)
 SSE_FLAGS
 =
 "

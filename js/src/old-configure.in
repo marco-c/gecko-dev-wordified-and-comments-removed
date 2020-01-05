@@ -6477,6 +6477,9 @@ already
 been
 set
 .
+changequote
+(
+)
 if
 test
 -
@@ -6533,6 +6536,11 @@ arch
 SSE2
 "
 fi
+changequote
+(
+[
+]
+)
 fi
 dnl
 VS2013
