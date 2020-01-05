@@ -87,9 +87,6 @@ mStatusText
 uint16_t
 mReadyState
 ;
-bool
-mFlagSend
-;
 JS
 :
 :
@@ -122,10 +119,6 @@ mStatus
 mReadyState
 (
 0
-)
-mFlagSend
-(
-false
 )
 mResponse
 (
