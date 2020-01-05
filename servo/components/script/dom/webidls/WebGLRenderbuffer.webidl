@@ -99,14 +99,6 @@ latest
 5
 /
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 WebGLRenderbuffer
 :

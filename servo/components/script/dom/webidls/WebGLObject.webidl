@@ -99,14 +99,6 @@ latest
 3
 /
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 WebGLObject
 {

@@ -99,14 +99,6 @@ latest
 7
 /
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 WebGLFramebuffer
 :

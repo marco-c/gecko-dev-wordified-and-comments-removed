@@ -99,14 +99,6 @@ latest
 4
 /
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 WebGLBuffer
 :

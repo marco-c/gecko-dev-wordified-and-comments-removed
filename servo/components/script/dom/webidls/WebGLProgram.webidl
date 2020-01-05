@@ -99,14 +99,6 @@ latest
 6
 /
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 WebGLProgram
 :

@@ -93,12 +93,6 @@ optional
 WebGLContextEventInit
 eventInit
 )
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 WebGLContextEvent
