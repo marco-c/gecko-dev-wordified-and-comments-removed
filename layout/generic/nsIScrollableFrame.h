@@ -841,6 +841,15 @@ AsyncScrollbarDragRejected
 =
 0
 ;
+virtual
+bool
+IsRootScrollFrameOfDocument
+(
+)
+const
+=
+0
+;
 }
 ;
 #
