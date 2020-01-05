@@ -4,6 +4,7 @@ windowing
 :
 {
 CompositeCallback
+LoadUrlCallback
 ResizeCallback
 }
 ;
@@ -194,6 +195,19 @@ self
 _
 :
 ResizeCallback
+)
+{
+}
+pub
+fn
+set_load_url_callback
+(
+&
+mut
+self
+_
+:
+LoadUrlCallback
 )
 {
 }
