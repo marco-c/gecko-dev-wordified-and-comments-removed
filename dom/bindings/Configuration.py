@@ -4406,6 +4406,26 @@ HTMLAppletElement
 )
     
 def
+needsXrayNamedDeleterHook
+(
+self
+)
+:
+        
+return
+self
+.
+operations
+[
+"
+NamedDeleter
+"
+]
+is
+not
+None
+    
+def
 needsSpecialGenericOps
 (
 self

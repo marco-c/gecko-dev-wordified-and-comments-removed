@@ -1190,6 +1190,7 @@ sWindowNamedPropertiesNativePropertyHooks
 {
 ResolveWindowNamedProperty
 EnumerateWindowNamedProperties
+nullptr
 {
 nullptr
 nullptr
