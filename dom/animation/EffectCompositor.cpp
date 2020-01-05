@@ -2157,7 +2157,6 @@ effectSet
 >
 UpdateLastTransformSyncTime
 (
-aCascadeLevel
 mPresContext
 -
 >
@@ -3430,7 +3429,6 @@ effects
 >
 UpdateLastTransformSyncTime
 (
-aCascadeLevel
 aRefreshTime
 )
 ;

@@ -6085,12 +6085,6 @@ effectSet
 >
 LastTransformSyncTime
 (
-mAnimation
--
->
-CascadeLevel
-(
-)
 )
 ;
 if
