@@ -542,12 +542,9 @@ processCount
 =
 Services
 .
-prefs
+appinfo
 .
-getIntPref
-(
-PROCESS_COUNT_PREF
-)
+maxWebProcessCount
 ;
 this
 .
