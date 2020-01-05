@@ -991,10 +991,6 @@ mochitest
 -
 media
 -
-mochitest
--
-webgl
--
 reftest
 -
 xpcshell
