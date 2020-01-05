@@ -28,7 +28,7 @@ util
 ;
 pub
 mod
-blacklist
+blocklist
 ;
 pub
 mod

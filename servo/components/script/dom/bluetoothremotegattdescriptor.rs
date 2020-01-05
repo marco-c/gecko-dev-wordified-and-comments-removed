@@ -11,12 +11,12 @@ use
 bluetooth_traits
 :
 :
-blacklist
+blocklist
 :
 :
 {
-Blacklist
-uuid_is_blacklisted
+Blocklist
+uuid_is_blocklisted
 }
 ;
 use
@@ -664,7 +664,7 @@ get_cx
 )
 ;
 if
-uuid_is_blacklisted
+uuid_is_blocklisted
 (
 self
 .
@@ -673,7 +673,7 @@ uuid
 as_ref
 (
 )
-Blacklist
+Blocklist
 :
 :
 Reads
@@ -845,7 +845,7 @@ get_cx
 )
 ;
 if
-uuid_is_blacklisted
+uuid_is_blocklisted
 (
 self
 .
@@ -854,7 +854,7 @@ uuid
 as_ref
 (
 )
-Blacklist
+Blocklist
 :
 :
 Writes

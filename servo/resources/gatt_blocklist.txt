@@ -18,7 +18,7 @@ blob
 /
 master
 /
-gatt_blacklist
+gatt_blocklist
 .
 txt
 #
@@ -347,7 +347,7 @@ reasons
 -
 00805f9b34fb
 #
-Blacklisted
+Blocklisted
 characteristic
 used
 to
@@ -449,7 +449,7 @@ exclude
 -
 writes
 #
-Blacklisted
+Blocklisted
 descriptor
 used
 to
@@ -465,7 +465,7 @@ test
 -
 1107105110aaa
 #
-Blacklisted
+Blocklisted
 descriptor
 used
 to
