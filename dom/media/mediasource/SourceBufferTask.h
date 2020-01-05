@@ -174,7 +174,9 @@ AppendBufferTask
 MediaByteBuffer
 *
 aData
+const
 SourceBufferAttributes
+&
 aAttributes
 )
 :
