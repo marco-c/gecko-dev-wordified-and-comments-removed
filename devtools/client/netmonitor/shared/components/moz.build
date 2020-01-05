@@ -61,6 +61,13 @@ editor
 js
 '
 '
+headers
+-
+panel
+.
+js
+'
+'
 params
 -
 panel

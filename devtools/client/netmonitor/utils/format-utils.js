@@ -64,15 +64,13 @@ MAX_MB_SIZE
 *
 BYTES_IN_MB
 ;
-const
-CONTENT_SIZE_DECIMALS
-=
-2
-;
 function
 getFormattedSize
 (
 bytes
+decimals
+=
+2
 )
 {
 if
@@ -119,7 +117,7 @@ L10N
 numberWithDecimals
 (
 kb
-CONTENT_SIZE_DECIMALS
+decimals
 )
 ;
 return
@@ -159,7 +157,7 @@ L10N
 numberWithDecimals
 (
 mb
-CONTENT_SIZE_DECIMALS
+decimals
 )
 ;
 return
@@ -191,7 +189,7 @@ L10N
 numberWithDecimals
 (
 gb
-CONTENT_SIZE_DECIMALS
+decimals
 )
 ;
 return
