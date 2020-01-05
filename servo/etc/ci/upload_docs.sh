@@ -177,6 +177,7 @@ build
 py
 servo
 html
+regular
 cd
 components
 /
