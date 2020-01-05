@@ -117,7 +117,7 @@ Cargo
 )
     
 def
-run
+cargo
 (
 self
 params
@@ -205,7 +205,7 @@ rustc
 )
     
 def
-run
+rustc
 (
 self
 params
