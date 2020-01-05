@@ -33,7 +33,7 @@ font_face
 :
 :
 {
-FontFaceRule
+FontFaceData
 Source
 }
 ;
@@ -130,7 +130,7 @@ face
 let
 font_face_rule
 =
-FontFaceRule
+FontFaceData
 {
 family
 :
