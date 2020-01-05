@@ -79,6 +79,14 @@ cssstyledeclaration
 ;
 pub
 mod
+dompoint
+;
+pub
+mod
+dompointreadonly
+;
+pub
+mod
 domrect
 ;
 pub
