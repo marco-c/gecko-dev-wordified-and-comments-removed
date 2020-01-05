@@ -860,6 +860,7 @@ media_queries
 :
 {
 Device
+MediaList
 MediaType
 }
 ;
@@ -10415,10 +10416,10 @@ Origin
 :
 :
 UserAgent
-Default
+MediaList
 :
 :
-default
+empty
 (
 )
 shared_lock
@@ -10564,10 +10565,10 @@ Origin
 :
 :
 User
-Default
+MediaList
 :
 :
-default
+empty
 (
 )
 shared_lock

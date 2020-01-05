@@ -449,7 +449,7 @@ media_queries
 StyleMediaList
 :
 :
-default
+empty
 (
 )
 ;
