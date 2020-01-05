@@ -375,7 +375,7 @@ FlexWrap
 )
 COMPUTED_STYLE_PROP
 (
-float
+float_
 Float
 )
 COMPUTED_STYLE_PROP
