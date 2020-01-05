@@ -15546,6 +15546,13 @@ _remote_id
 )
 GK_ATOM
 (
+RemoteType
+"
+remoteType
+"
+)
+GK_ATOM
+(
 DisplayPort
 "
 _displayport
