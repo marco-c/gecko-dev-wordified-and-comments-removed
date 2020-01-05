@@ -351,12 +351,11 @@ disabled
 "
 )
 "
-true
 "
 "
 cmdCut
 is
-disabled
+enabled
 "
 )
 ;
@@ -371,12 +370,11 @@ disabled
 "
 )
 "
-true
 "
 "
 cmdCopy
 is
-disabled
+enabled
 "
 )
 ;

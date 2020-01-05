@@ -10,6 +10,11 @@ function
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 yield
 addTab
 (

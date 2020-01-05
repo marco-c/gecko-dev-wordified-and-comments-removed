@@ -198,12 +198,12 @@ view
 .
 styleDocument
 .
-documentElement
+activeElement
 view
 .
 styleDocument
 .
-activeElement
+body
 "
 Correct
 element

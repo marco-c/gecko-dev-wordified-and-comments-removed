@@ -2136,6 +2136,7 @@ closeBrace
 .
 scrollIntoView
 (
+false
 )
 ;
 let
