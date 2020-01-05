@@ -112,6 +112,9 @@ JS
 :
 GCVector
 <
+JS
+:
+:
 PropertyDescriptor
 >
 ;
@@ -3082,6 +3085,9 @@ HandleId
 id
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -3100,6 +3106,9 @@ HandleId
 id
 Handle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -3194,6 +3203,9 @@ HandleId
 id
 Handle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -3983,6 +3995,9 @@ HandleId
 id
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -4672,6 +4687,9 @@ bool
 checkAccessors
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -4685,6 +4703,9 @@ JSContext
 cx
 Handle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -4695,6 +4716,9 @@ CompletePropertyDescriptor
 (
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -4935,6 +4959,9 @@ HandleId
 id
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -4963,6 +4990,9 @@ JSContext
 cx
 Handle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc

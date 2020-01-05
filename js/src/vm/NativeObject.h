@@ -5819,6 +5819,9 @@ HandleId
 id
 Handle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
@@ -5972,6 +5975,9 @@ HandleId
 id
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc

@@ -147,9 +147,6 @@ HandleValueArray
 class
 ObjectOpResult
 ;
-struct
-PropertyDescriptor
-;
 }
 namespace
 js
@@ -651,12 +648,6 @@ JS
 :
 :
 ObjectOpResult
-;
-using
-JS
-:
-:
-PropertyDescriptor
 ;
 using
 JS
