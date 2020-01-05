@@ -22370,6 +22370,7 @@ if
 (
 IsMarkedUnbarriered
 (
+rt
 &
 src
 )
@@ -22414,6 +22415,7 @@ if
 (
 IsMarkedUnbarriered
 (
+rt
 &
 src
 )

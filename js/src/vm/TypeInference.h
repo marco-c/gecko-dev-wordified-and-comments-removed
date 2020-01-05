@@ -1789,6 +1789,9 @@ static
 bool
 IsTypeMarked
 (
+JSRuntime
+*
+rt
 Type
 *
 v

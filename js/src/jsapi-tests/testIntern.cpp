@@ -233,6 +233,12 @@ gc
 :
 IsMarkedUnbarriered
 (
+fop
+-
+>
+runtime
+(
+)
 &
 sw
 .

@@ -1594,6 +1594,9 @@ T
 bool
 IsMarkedUnbarriered
 (
+JSRuntime
+*
+rt
 T
 *
 thingp
@@ -1607,6 +1610,9 @@ T
 bool
 IsMarked
 (
+JSRuntime
+*
+rt
 WriteBarrieredBase
 <
 T

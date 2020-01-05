@@ -829,6 +829,9 @@ trc
 bool
 isJitcodeMarkedFromAnyThread
 (
+JSRuntime
+*
+rt
 )
 ;
 bool
@@ -1509,6 +1512,9 @@ sweepChildren
 bool
 isMarkedFromAnyThread
 (
+JSRuntime
+*
+rt
 )
 ;
 }
@@ -1765,6 +1771,9 @@ sweepChildren
 bool
 isMarkedFromAnyThread
 (
+JSRuntime
+*
+rt
 )
 ;
 }
@@ -4092,6 +4101,7 @@ baseEntry
 .
 isJitcodeMarkedFromAnyThread
 (
+rt
 )
 )
 return
@@ -4114,6 +4124,7 @@ ionEntry
 .
 isMarkedFromAnyThread
 (
+rt
 )
 ;
 case
@@ -4126,6 +4137,7 @@ baselineEntry
 .
 isMarkedFromAnyThread
 (
+rt
 )
 ;
 case

@@ -3169,6 +3169,9 @@ const
 bool
 hasAnyLiveHooks
 (
+JSRuntime
+*
+rt
 )
 const
 ;
