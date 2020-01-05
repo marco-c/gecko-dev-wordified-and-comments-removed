@@ -140,7 +140,6 @@ collections
 {
 HashMap
 LinkedList
-hash_state
 }
 ;
 use
@@ -150,7 +149,10 @@ std
 hash
 :
 :
+{
+BuildHasher
 Hash
+}
 ;
 use
 std
@@ -1017,10 +1019,7 @@ Eq
 Hash
 S
 :
-hash_state
-:
-:
-HashState
+BuildHasher
 {
 fn
 heap_size_of_children
