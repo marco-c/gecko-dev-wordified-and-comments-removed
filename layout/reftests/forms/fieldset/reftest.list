@@ -160,12 +160,6 @@ layersGPUAccelerated
 140
 276
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 positioned

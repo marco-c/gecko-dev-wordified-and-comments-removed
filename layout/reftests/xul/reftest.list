@@ -288,12 +288,6 @@ layersGPUAccelerated
 1
 50
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 inactive
@@ -352,12 +346,6 @@ browserIsRemote
 layersGPUAccelerated
 1
 50
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

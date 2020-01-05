@@ -476,12 +476,6 @@ OSX
 224
 924
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 scale3d
@@ -517,12 +511,6 @@ OSX
 1008
 224
 924
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

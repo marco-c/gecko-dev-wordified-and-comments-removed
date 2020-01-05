@@ -1046,12 +1046,6 @@ layersGPUAccelerated
 140
 144
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 scrollframe

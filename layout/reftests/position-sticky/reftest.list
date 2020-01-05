@@ -968,12 +968,6 @@ Android
 8
 1533
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 block
@@ -1034,12 +1028,6 @@ winWidget
 layersGPUAccelerated
 116
 1320
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

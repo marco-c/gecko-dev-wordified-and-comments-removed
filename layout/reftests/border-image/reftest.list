@@ -783,12 +783,6 @@ layersGPUAccelerated
 140
 514
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 border

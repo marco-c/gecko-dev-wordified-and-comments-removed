@@ -34,12 +34,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 component
@@ -535,12 +529,6 @@ if
 gtkWidget
 1
 17
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

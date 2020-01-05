@@ -196,12 +196,6 @@ layersGPUAccelerated
 140
 1836
 )
-fails
--
-if
-(
-webrender
-)
 HTTP
 (
 .
