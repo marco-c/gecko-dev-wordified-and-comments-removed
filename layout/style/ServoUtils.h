@@ -13,15 +13,6 @@ TypeTraits
 .
 h
 "
-namespace
-mozilla
-{
-void
-AssertIsMainThreadOrServoFontMetricsLocked
-(
-)
-;
-}
 #
 ifdef
 MOZ_STYLO
