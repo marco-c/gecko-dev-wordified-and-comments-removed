@@ -202,7 +202,16 @@ include
 "
 mozilla
 /
-RestyleManager
+GeckoRestyleManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+RestyleManagerInlines
 .
 h
 "
@@ -2151,7 +2160,7 @@ mOldSkipAnimationRules
 }
 private
 :
-RestyleManager
+GeckoRestyleManager
 *
 mRestyleManager
 =
