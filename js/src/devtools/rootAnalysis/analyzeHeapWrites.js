@@ -987,15 +987,6 @@ null
 ]
 [
 "
-Gecko_AnimationAppendKeyframe
-"
-"
-aKeyframes
-"
-null
-]
-[
-"
 Gecko_GetOrCreateKeyframeAtStart
 "
 "
@@ -1881,9 +1872,6 @@ nsCSSKeywords
 :
 GetStringValue
 /
-"
-Gecko_AnimationAppendKeyframe
-"
 "
 Gecko_GetOrCreateKeyframeAtStart
 "
