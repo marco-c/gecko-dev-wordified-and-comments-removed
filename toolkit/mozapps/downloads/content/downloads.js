@@ -2854,7 +2854,7 @@ if
 (
 types
 .
-contains
+includes
 (
 "
 text
@@ -2868,7 +2868,7 @@ list
 |
 types
 .
-contains
+includes
 (
 "
 text
@@ -2884,7 +2884,7 @@ url
 |
 types
 .
-contains
+includes
 (
 "
 text

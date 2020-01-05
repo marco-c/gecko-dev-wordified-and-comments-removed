@@ -344,7 +344,7 @@ dt
 .
 types
 .
-contains
+includes
 (
 "
 text

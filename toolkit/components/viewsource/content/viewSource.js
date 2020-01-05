@@ -1810,7 +1810,7 @@ if
 (
 types
 .
-contains
+includes
 (
 "
 text
@@ -1829,7 +1829,7 @@ internal
 !
 types
 .
-contains
+includes
 (
 "
 text

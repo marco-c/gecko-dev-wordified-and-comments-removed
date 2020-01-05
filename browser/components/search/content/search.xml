@@ -6588,7 +6588,7 @@ if
 (
 types
 .
-contains
+includes
 (
 "
 text
@@ -6600,7 +6600,7 @@ plain
 |
 types
 .
-contains
+includes
 (
 "
 text

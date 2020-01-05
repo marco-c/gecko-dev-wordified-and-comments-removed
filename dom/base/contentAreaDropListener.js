@@ -781,7 +781,7 @@ if
 !
 types
 .
-contains
+includes
 (
 "
 application
@@ -798,7 +798,7 @@ file
 !
 types
 .
-contains
+includes
 (
 "
 text
@@ -815,7 +815,7 @@ url
 !
 types
 .
-contains
+includes
 (
 "
 text
@@ -830,7 +830,7 @@ list
 !
 types
 .
-contains
+includes
 (
 "
 text
@@ -849,7 +849,7 @@ internal
 !
 types
 .
-contains
+includes
 (
 "
 text
