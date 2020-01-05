@@ -1,9 +1,3 @@
-gTestsubsuite
-=
-'
-JSON
-'
-;
 function
 testJSON
 (
