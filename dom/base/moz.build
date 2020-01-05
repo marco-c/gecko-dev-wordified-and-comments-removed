@@ -1053,11 +1053,6 @@ Timeout
 h
 '
 '
-TimeoutHandler
-.
-h
-'
-'
 TimeoutManager
 .
 h
@@ -1744,11 +1739,6 @@ cpp
 '
 '
 Timeout
-.
-cpp
-'
-'
-TimeoutHandler
 .
 cpp
 '
