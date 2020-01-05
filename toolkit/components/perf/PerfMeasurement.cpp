@@ -137,11 +137,8 @@ Module
 "
 #
 define
-XPC_MAP_WANT_CALL
-#
-define
 XPC_MAP_FLAGS
-0
+XPC_SCRIPTABLE_WANT_CALL
 #
 include
 "

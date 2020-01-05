@@ -2370,10 +2370,7 @@ GetScriptableFlags
 (
 )
 &
-nsIXPCScriptable
-:
-:
-IS_GLOBAL_OBJECT
+XPC_SCRIPTABLE_IS_GLOBAL_OBJECT
 )
 ;
 RefPtr
