@@ -334,6 +334,9 @@ attribute
 USVString
 search
 ;
+[
+SameObject
+]
 readonly
 attribute
 URLSearchParams
@@ -345,6 +348,14 @@ Throws
 attribute
 USVString
 hash
+;
+[
+Throws
+]
+USVString
+toJSON
+(
+)
 ;
 }
 ;
