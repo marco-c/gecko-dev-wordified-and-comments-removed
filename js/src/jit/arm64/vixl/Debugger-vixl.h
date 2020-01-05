@@ -131,6 +131,9 @@ public
 explicit
 Debugger
 (
+JSContext
+*
+cx
 Decoder
 *
 decoder

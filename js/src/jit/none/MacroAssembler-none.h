@@ -4705,17 +4705,6 @@ MOZ_CRASH
 ;
 }
 void
-loadWasmActivationFromTls
-(
-Register
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-void
 loadWasmPinnedRegsFromTls
 (
 )

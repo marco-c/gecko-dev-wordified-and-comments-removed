@@ -135,6 +135,9 @@ Simulator
 :
 Simulator
 (
+JSContext
+*
+cx
 Decoder
 *
 decoder
@@ -143,6 +146,10 @@ FILE
 stream
 )
 :
+cx_
+(
+cx
+)
 stream_
 (
 nullptr
@@ -676,6 +683,7 @@ js_new
 Debugger
 >
 (
+cx
 decoder
 stdout
 )
@@ -688,6 +696,7 @@ js_new
 Simulator
 >
 (
+cx
 decoder
 stdout
 )
@@ -944,11 +953,15 @@ WasmActivation
 *
 activation
 =
-JSContext
+js
 :
 :
-innermostWasmActivation
+wasm
+:
+:
+MaybeActiveActivation
 (
+cx_
 )
 ;
 const
