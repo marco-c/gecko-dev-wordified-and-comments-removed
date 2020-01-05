@@ -117,6 +117,15 @@ MOZ_COUNT_CTOR
 VsyncBridgeParent
 )
 ;
+mCompositorThreadRef
+=
+CompositorThreadHolder
+:
+:
+GetSingleton
+(
+)
+;
 }
 VsyncBridgeParent
 :
@@ -309,6 +318,10 @@ aWhy
 mOpen
 =
 false
+;
+mCompositorThreadRef
+=
+nullptr
 ;
 }
 void
