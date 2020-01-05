@@ -1328,6 +1328,12 @@ const
 nsSize
 &
 aIntrinsiceSize
+float
+aOpacity
+=
+1
+.
+0
 )
 ;
 static
