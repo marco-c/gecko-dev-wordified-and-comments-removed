@@ -174,6 +174,10 @@ typedef
 uint32_t
 AudibleChangedReasons
 ;
+typedef
+uint8_t
+AudibleState
+;
 namespace
 mozilla
 {

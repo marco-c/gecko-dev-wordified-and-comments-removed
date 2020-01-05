@@ -1121,7 +1121,7 @@ in
 AudioPlaybackConfig
 config
 in
-bool
+uint8_t
 audible
 )
 ;
@@ -1252,7 +1252,7 @@ void
 notifyStartedAudible
 (
 in
-bool
+uint8_t
 audible
 in
 uint32_t
