@@ -10575,7 +10575,7 @@ SECSuccess
 SSL_SendAdditionalKeyShares
 (
 fd
-2
+1
 )
 )
 {
