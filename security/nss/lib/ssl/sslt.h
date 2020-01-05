@@ -831,7 +831,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-19
+20
 typedef
 enum
 {

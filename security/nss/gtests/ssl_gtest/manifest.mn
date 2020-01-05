@@ -112,6 +112,16 @@ dummy_io_fwd
 .
 cc
 \
+(
+CORE_DEPTH
+)
+/
+cpputil
+/
+tls_parser
+.
+cc
+\
 ssl_0rtt_unittest
 .
 cc
@@ -225,10 +235,6 @@ tls_hkdf_unittest
 cc
 \
 tls_filter
-.
-cc
-\
-tls_parser
 .
 cc
 \

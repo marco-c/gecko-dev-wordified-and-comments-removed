@@ -105,6 +105,11 @@ dummy_io_fwd
 .
 cc
 '
+'
+tls_parser
+.
+cc
+'
 ]
 '
 dependencies

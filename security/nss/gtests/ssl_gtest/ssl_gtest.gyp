@@ -259,11 +259,6 @@ tls_hkdf_unittest
 cc
 '
 '
-tls_parser
-.
-cc
-'
-'
 tls_protect
 .
 cc
