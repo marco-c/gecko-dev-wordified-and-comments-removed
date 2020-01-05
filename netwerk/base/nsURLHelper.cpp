@@ -4631,7 +4631,6 @@ return
 false
 ;
 }
-else
 if
 (
 octet

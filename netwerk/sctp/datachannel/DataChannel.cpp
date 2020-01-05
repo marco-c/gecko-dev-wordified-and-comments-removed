@@ -2864,8 +2864,6 @@ EINPROGRESS
 return
 ;
 }
-else
-{
 LOG
 (
 (
@@ -2884,7 +2882,6 @@ mState
 =
 CLOSED
 ;
-}
 }
 else
 {
@@ -9611,8 +9608,6 @@ strchange_outstrms
 return
 ;
 }
-else
-{
 if
 (
 strchg
@@ -9943,7 +9938,6 @@ ProcessQueuedOpens
 (
 )
 ;
-}
 }
 for
 (
@@ -11334,8 +11328,6 @@ forget
 )
 ;
 }
-else
-{
 if
 (
 channel
@@ -11399,7 +11391,6 @@ CLOSED
 return
 nullptr
 ;
-}
 }
 }
 channel
