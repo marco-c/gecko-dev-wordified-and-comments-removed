@@ -7443,7 +7443,7 @@ WinHasOption
 (
 aFeatures
 "
-macsuppressanimation
+suppressanimation
 "
 0
 nullptr
@@ -7452,7 +7452,7 @@ nullptr
 nsIWebBrowserChrome
 :
 :
-CHROME_MAC_SUPPRESS_ANIMATION
+CHROME_SUPPRESS_ANIMATION
 :
 0
 ;

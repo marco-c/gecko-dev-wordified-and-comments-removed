@@ -2407,7 +2407,7 @@ aChromeMask
 nsIWebBrowserChrome
 :
 :
-CHROME_MAC_SUPPRESS_ANIMATION
+CHROME_SUPPRESS_ANIMATION
 )
 widgetInitData
 .
