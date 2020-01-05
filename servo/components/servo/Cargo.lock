@@ -10607,7 +10607,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -12897,7 +12897,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -12926,7 +12926,7 @@ tendril
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -14933,7 +14933,7 @@ rust
 -
 mozjs
 #
-9a200eab19b0035a0a1634ef527058be4738a0f6
+f06428fab33a6ae633584a1a7e1bf4e3ef7914b3
 "
 dependencies
 =
@@ -16366,7 +16366,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -26968,7 +26968,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -27583,7 +27583,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -28541,7 +28541,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -31140,7 +31140,7 @@ version
 .
 2
 .
-24
+25
 "
 source
 =
@@ -32085,7 +32085,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -32387,7 +32387,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -33104,7 +33104,7 @@ version
 .
 2
 .
-2
+3
 "
 source
 =
@@ -38645,7 +38645,7 @@ string_cache
 .
 2
 .
-24
+25
 (
 registry
 +
@@ -38674,7 +38674,7 @@ tendril
 .
 2
 .
-2
+3
 (
 registry
 +
