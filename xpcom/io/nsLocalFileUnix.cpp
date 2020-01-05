@@ -5757,10 +5757,6 @@ char
 *
 slashp
 =
-buffer
-;
-slashp
-=
 strrchr
 (
 buffer
