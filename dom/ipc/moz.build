@@ -242,11 +242,6 @@ AppProcessChecker
 h
 '
 '
-PreallocatedProcessManager
-.
-h
-'
-'
 ProcessHangMonitor
 .
 h
@@ -328,11 +323,6 @@ cpp
 '
 '
 PermissionMessageUtils
-.
-cpp
-'
-'
-PreallocatedProcessManager
 .
 cpp
 '

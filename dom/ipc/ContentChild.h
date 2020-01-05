@@ -377,11 +377,6 @@ aChannel
 )
 ;
 void
-InitProcessAttributes
-(
-)
-;
-void
 InitXPCOM
 (
 )
@@ -1824,13 +1819,6 @@ const
 nsCString
 &
 vendor
-)
-override
-;
-virtual
-bool
-RecvAppInit
-(
 )
 override
 ;

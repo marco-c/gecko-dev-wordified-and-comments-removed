@@ -150,11 +150,11 @@ content
 /
 global
 /
-manifestMessages
+extensions
 .
 js
 (
-manifestMessages
+extensions
 .
 js
 )
@@ -162,11 +162,11 @@ content
 /
 global
 /
-preload
+manifestMessages
 .
 js
 (
-preload
+manifestMessages
 .
 js
 )
