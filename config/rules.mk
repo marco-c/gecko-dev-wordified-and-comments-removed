@@ -6847,6 +6847,11 @@ RUSTC
 (
 RUSTC
 )
+MOZ_DIST
+=
+(
+DIST
+)
 (
 CARGO
 )
