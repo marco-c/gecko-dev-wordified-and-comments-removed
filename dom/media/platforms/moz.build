@@ -151,6 +151,13 @@ H264Converter
 .
 h
 '
+'
+wrappers
+/
+MediaDataDecoderProxy
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -214,6 +221,13 @@ cpp
 wrappers
 /
 H264Converter
+.
+cpp
+'
+'
+wrappers
+/
+MediaDataDecoderProxy
 .
 cpp
 '

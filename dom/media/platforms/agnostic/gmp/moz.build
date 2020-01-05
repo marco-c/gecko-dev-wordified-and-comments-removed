@@ -99,11 +99,6 @@ GMPVideoDecoder
 .
 h
 '
-'
-MediaDataDecoderProxy
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -116,11 +111,6 @@ cpp
 '
 '
 GMPVideoDecoder
-.
-cpp
-'
-'
-MediaDataDecoderProxy
 .
 cpp
 '
