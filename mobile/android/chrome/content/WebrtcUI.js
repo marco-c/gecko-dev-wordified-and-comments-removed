@@ -948,7 +948,6 @@ audioDevices
 [
 audioId
 ]
-false
 )
 ;
 let
@@ -990,7 +989,6 @@ videoDevices
 [
 videoId
 ]
-false
 )
 ;
 let

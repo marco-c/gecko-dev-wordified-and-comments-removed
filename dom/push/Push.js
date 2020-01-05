@@ -1052,7 +1052,6 @@ typeArray
 appendElement
 (
 type
-false
 )
 ;
 let

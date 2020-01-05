@@ -421,7 +421,6 @@ args
 appendElement
 (
 supportsStringPrefURL
-false
 )
 ;
 let

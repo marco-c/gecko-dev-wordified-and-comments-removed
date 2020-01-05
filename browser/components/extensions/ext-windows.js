@@ -858,7 +858,6 @@ args
 appendElement
 (
 tab
-false
 )
 ;
 }
@@ -927,7 +926,6 @@ mkstr
 (
 url
 )
-false
 )
 ;
 }
@@ -936,7 +934,6 @@ args
 appendElement
 (
 array
-false
 )
 ;
 }
@@ -952,7 +949,6 @@ createData
 .
 url
 )
-false
 )
 ;
 }
@@ -969,7 +965,6 @@ aboutNewTabService
 .
 newTabURL
 )
-false
 )
 ;
 }

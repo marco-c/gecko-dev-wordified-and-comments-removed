@@ -368,7 +368,6 @@ params
 appendElement
 (
 string
-false
 )
 ;
 }
@@ -377,7 +376,6 @@ params
 appendElement
 (
 aHandler
-false
 )
 ;
 params
@@ -385,7 +383,6 @@ params
 appendElement
 (
 aURI
-false
 )
 ;
 params
@@ -393,7 +390,6 @@ params
 appendElement
 (
 aWindowContext
-false
 )
 ;
 var
