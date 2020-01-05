@@ -1902,8 +1902,6 @@ in
 self
 .
 children
-.
-iter
 (
 )
 {

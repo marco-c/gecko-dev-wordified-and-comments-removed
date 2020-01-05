@@ -1391,8 +1391,6 @@ in
 stacking_context
 .
 children
-.
-iter
 (
 )
 {
