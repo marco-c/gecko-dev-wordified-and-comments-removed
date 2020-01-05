@@ -2167,9 +2167,9 @@ Destroy
 (
 )
 ;
-if
-(
-!
+auto
+mgr
+=
 static_cast
 <
 dom
@@ -2183,6 +2183,11 @@ Manager
 (
 )
 )
+;
+if
+(
+!
+mgr
 -
 >
 IsDestroyed
@@ -2205,7 +2210,7 @@ this
 return
 IPC_FAIL_NO_REASON
 (
-this
+mgr
 )
 ;
 }

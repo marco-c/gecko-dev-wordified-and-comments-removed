@@ -195,6 +195,14 @@ mAuthProvider
 =
 nullptr
 ;
+IProtocol
+*
+mgr
+=
+Manager
+(
+)
+;
 if
 (
 mIPCOpen
@@ -210,7 +218,7 @@ this
 return
 IPC_FAIL_NO_REASON
 (
-this
+mgr
 )
 ;
 }

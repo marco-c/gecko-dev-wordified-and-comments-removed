@@ -788,6 +788,14 @@ Destroy
 (
 )
 ;
+IProtocol
+*
+mgr
+=
+Manager
+(
+)
+;
 if
 (
 !
@@ -800,7 +808,7 @@ this
 return
 IPC_FAIL_NO_REASON
 (
-this
+mgr
 )
 ;
 }
