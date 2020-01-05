@@ -32,10 +32,10 @@ surface
 NativePaintingGraphicsContext
 ;
 use
-servo_msg
+layers
 :
 :
-compositor_msg
+quadtree
 :
 :
 Tile
