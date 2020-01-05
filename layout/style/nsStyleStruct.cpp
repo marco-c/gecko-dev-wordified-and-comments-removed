@@ -16562,10 +16562,6 @@ CoordConstructor
 mWebkitTextStrokeWidth
 (
 0
-nsStyleCoord
-:
-:
-CoordConstructor
 )
 mTextShadow
 (

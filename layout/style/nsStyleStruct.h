@@ -7867,7 +7867,7 @@ mLineHeight
 nsStyleCoord
 mTextIndent
 ;
-nsStyleCoord
+nscoord
 mWebkitTextStrokeWidth
 ;
 RefPtr
@@ -8045,10 +8045,6 @@ const
 {
 return
 mWebkitTextStrokeWidth
-.
-GetCoordValue
-(
-)
 >
 0
 ;
