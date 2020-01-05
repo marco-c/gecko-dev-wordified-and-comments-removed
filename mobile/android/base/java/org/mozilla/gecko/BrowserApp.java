@@ -3661,7 +3661,7 @@ R
 .
 id
 .
-progress
+page_progress
 )
 ;
 mProgressView

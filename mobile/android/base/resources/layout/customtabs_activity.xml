@@ -202,10 +202,9 @@ android
 id
 =
 "
-+
 id
 /
-toolbar
+actionbar
 "
 android
 :
@@ -287,10 +286,9 @@ android
 layout_below
 =
 "
-+
 id
 /
-toolbar
+actionbar
 "
 android
 :

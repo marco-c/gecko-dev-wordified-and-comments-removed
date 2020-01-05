@@ -1172,7 +1172,6 @@ android
 id
 =
 "
-+
 id
 /
 actionbar
@@ -1225,10 +1224,9 @@ android
 id
 =
 "
-+
 id
 /
-progress
+page_progress
 "
 android
 :
