@@ -5054,6 +5054,15 @@ writer
 failed
 (
 )
+|
+|
+!
+outerScript
+-
+>
+hasIonScript
+(
+)
 )
 return
 false
