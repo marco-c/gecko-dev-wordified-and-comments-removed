@@ -197,6 +197,11 @@ repo
 "
 )
 ;
+void
+AMscope
+.
+AddonRepository
+;
 AMscope
 .
 AddonRepository
