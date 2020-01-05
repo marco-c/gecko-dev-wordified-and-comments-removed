@@ -2184,6 +2184,16 @@ MOZ_ASSERT
 aDecoder
 )
 ;
+if
+(
+mDecoder
+)
+{
+ShutdownDecoder
+(
+)
+;
+}
 mDecoder
 =
 aDecoder
