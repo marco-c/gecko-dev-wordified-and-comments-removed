@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h
@@ -292,10 +285,7 @@ mAnimationFunctions
 bool
 mForceCompositing
 ;
-nsAutoPtr
-<
 nsSMILValue
->
 mCachedBaseValue
 ;
 }
