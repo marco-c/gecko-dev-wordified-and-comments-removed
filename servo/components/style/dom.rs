@@ -1007,6 +1007,8 @@ pub
 trait
 TElement
 :
+PartialEq
++
 Sized
 +
 Copy
@@ -1226,6 +1228,16 @@ contains
 RESTYLE_DESCENDANTS
 )
 {
+unsafe
+{
+node
+.
+set_dirty_descendants
+(
+true
+)
+;
+}
 let
 mut
 current
