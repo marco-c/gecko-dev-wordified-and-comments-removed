@@ -2843,6 +2843,9 @@ mIsInEditAction
 bool
 mHidingCaret
 ;
+bool
+mSpellCheckerDictionaryUpdated
+;
 friend
 bool
 NSCanUnload
