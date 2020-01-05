@@ -142,7 +142,7 @@ Actions
 sortBy
 (
 "
-size
+contentSize
 "
 )
 )

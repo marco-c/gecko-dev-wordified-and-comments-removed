@@ -385,7 +385,7 @@ second
 ;
 }
 function
-size
+contentSize
 (
 first
 second
@@ -427,7 +427,7 @@ domain
 cause
 type
 transferred
-size
+contentSize
 waterfall
 }
 ;

@@ -66,6 +66,16 @@ details
 height
 "
 ]
+hiddenColumns
+:
+[
+"
+Json
+"
+"
+hiddenColumns
+"
+]
 filters
 :
 [

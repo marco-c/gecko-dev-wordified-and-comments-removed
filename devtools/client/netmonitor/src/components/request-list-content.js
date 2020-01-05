@@ -186,6 +186,13 @@ RequestListContent
 propTypes
 :
 {
+columns
+:
+PropTypes
+.
+object
+.
+isRequired
 dispatch
 :
 PropTypes
@@ -957,6 +964,7 @@ render
 {
 const
 {
+columns
 displayedRequests
 firstRequestStartedMillis
 selectedRequestId
@@ -1027,6 +1035,7 @@ status
 item
 .
 fromCache
+columns
 item
 index
 isSelected
@@ -1112,6 +1121,13 @@ state
 >
 (
 {
+columns
+:
+state
+.
+ui
+.
+columns
 displayedRequests
 :
 getDisplayedRequests
