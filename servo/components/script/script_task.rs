@@ -912,8 +912,12 @@ Runnable
 fn
 handler
 (
-&
 self
+:
+Box
+<
+Self
+>
 )
 ;
 }
@@ -10332,8 +10336,12 @@ DocumentProgressHandler
 fn
 handler
 (
-&
 self
+:
+Box
+<
+DocumentProgressHandler
+>
 )
 {
 match
