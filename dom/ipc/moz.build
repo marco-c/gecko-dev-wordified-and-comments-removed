@@ -232,6 +232,11 @@ mozilla
 =
 [
 '
+PreallocatedProcessManager
+.
+h
+'
+'
 ProcessHangMonitor
 .
 h
@@ -308,6 +313,11 @@ cpp
 '
 '
 PermissionMessageUtils
+.
+cpp
+'
+'
+PreallocatedProcessManager
 .
 cpp
 '
