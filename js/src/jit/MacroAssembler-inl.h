@@ -14,6 +14,15 @@ MacroAssembler
 h
 "
 #
+include
+"
+mozilla
+/
+MathAlgorithms
+.
+h
+"
+#
 if
 defined
 (
@@ -3545,6 +3554,9 @@ bad
 ;
 MOZ_ASSERT
 (
+mozilla
+:
+:
 IsPowerOfTwo
 (
 alignment

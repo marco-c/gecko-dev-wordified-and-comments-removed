@@ -4596,9 +4596,8 @@ OptimizationLevel
 optimizationLevel
 )
 {
-static
-const
-int
+constexpr
+size_t
 DataAlignment
 =
 sizeof

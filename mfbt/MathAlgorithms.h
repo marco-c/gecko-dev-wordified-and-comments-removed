@@ -2127,7 +2127,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 IsPowerOfTwo
 (
