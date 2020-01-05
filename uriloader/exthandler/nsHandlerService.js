@@ -3068,10 +3068,9 @@ preferredApplicationHandler
 if
 (
 handler
-)
-{
-if
-(
+&
+&
+!
 this
 .
 _handlerAppIsUnknownType
@@ -3080,9 +3079,6 @@ handler
 )
 )
 {
-return
-;
-}
 this
 .
 _storeHandlerApp
