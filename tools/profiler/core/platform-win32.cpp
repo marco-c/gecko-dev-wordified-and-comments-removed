@@ -220,10 +220,7 @@ SamplerThread
 :
 SamplerThread
 (
-PS
-:
-:
-LockRef
+PSLockRef
 aLock
 uint32_t
 aActivityGeneration
@@ -356,10 +353,7 @@ SamplerThread
 :
 Stop
 (
-PS
-:
-:
-LockRef
+PSLockRef
 aLock
 )
 {
@@ -396,10 +390,7 @@ SamplerThread
 :
 SuspendAndSampleAndResumeThread
 (
-PS
-:
-:
-LockRef
+PSLockRef
 aLock
 TickSample
 &
@@ -634,10 +625,7 @@ static
 void
 PlatformInit
 (
-PS
-:
-:
-LockRef
+PSLockRef
 aLock
 )
 {
