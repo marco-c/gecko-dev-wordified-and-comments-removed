@@ -101,9 +101,6 @@ nsIStreamConverterService
 class
 nsIThrottlingService
 ;
-class
-nsIUUIDGenerator
-;
 namespace
 mozilla
 {
@@ -1891,11 +1888,11 @@ bool
 anonymous
 )
 ;
-nsCOMPtr
-<
-nsIUUIDGenerator
->
-mUUIDGen
+uint32_t
+mProcessId
+;
+uint32_t
+mNextChannelId
 ;
 public
 :
@@ -1903,8 +1900,8 @@ MOZ_MUST_USE
 nsresult
 NewChannelId
 (
-nsID
-*
+uint64_t
+&
 channelId
 )
 ;

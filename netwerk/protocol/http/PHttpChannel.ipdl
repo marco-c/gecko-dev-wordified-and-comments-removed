@@ -896,7 +896,7 @@ nsHttpResponseHead
 responseHead
 nsCString
 securityInfoSerialization
-nsCString
+uint64_t
 channelId
 )
 ;

@@ -3379,7 +3379,7 @@ bug
 must_use
 ]
 attribute
-ACString
+uint64_t
 channelId
 ;
 /

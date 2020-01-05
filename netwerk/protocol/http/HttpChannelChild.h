@@ -695,7 +695,7 @@ nsCString
 &
 securityInfoSerialization
 const
-nsCString
+uint64_t
 &
 channelId
 )
@@ -1479,7 +1479,7 @@ nsACString
 &
 securityInfoSerialization
 const
-nsACString
+uint64_t
 &
 channelId
 )

@@ -448,9 +448,7 @@ aProxyResolveFlags
 nsIURI
 *
 aProxyURI
-const
-nsID
-&
+uint64_t
 aChannelId
 )
 ;
@@ -1150,8 +1148,8 @@ override
 NS_IMETHOD
 GetChannelId
 (
-nsACString
-&
+uint64_t
+*
 aChannelId
 )
 override
@@ -1159,9 +1157,7 @@ override
 NS_IMETHOD
 SetChannelId
 (
-const
-nsACString
-&
+uint64_t
 aChannelId
 )
 override
@@ -2671,7 +2667,7 @@ mForceMainDocumentChannel
 bool
 mIsTrackingResource
 ;
-nsID
+uint64_t
 mChannelId
 ;
 nsString

@@ -483,7 +483,7 @@ nsCString
 &
 aContentTypeHint
 const
-nsCString
+uint64_t
 &
 aChannelId
 const

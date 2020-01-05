@@ -4156,7 +4156,7 @@ nsILoadInfo
 loadInfo
 )
 {
-nsID
+uint64_t
 channelId
 ;
 nsLoadFlags
@@ -4171,7 +4171,6 @@ gHttpHandler
 >
 NewChannelId
 (
-&
 channelId
 )
 )

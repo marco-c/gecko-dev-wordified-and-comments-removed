@@ -1656,7 +1656,7 @@ nsCString
 &
 aContentTypeHint
 const
-nsCString
+uint64_t
 &
 aChannelId
 const
@@ -6952,7 +6952,7 @@ UpdateAndSerializeSecurityInfo
 secInfoSerialization
 )
 ;
-nsAutoCString
+uint64_t
 channelId
 ;
 nsCOMPtr
@@ -6979,6 +6979,7 @@ httpChannel
 >
 GetChannelId
 (
+&
 channelId
 )
 ;
