@@ -3684,7 +3684,7 @@ ok
 (
 store
 .
-_foldersToDelete
+_itemsToDelete
 .
 has
 (
@@ -3698,7 +3698,7 @@ ok
 (
 store
 .
-_atomsToDelete
+_itemsToDelete
 .
 has
 (
@@ -3713,7 +3713,7 @@ ok
 !
 store
 .
-_atomsToDelete
+_itemsToDelete
 .
 has
 (
@@ -3742,7 +3742,7 @@ deleted
 )
 ;
 let
-updatedGuids
+newChangeRecords
 =
 yield
 store
@@ -3753,7 +3753,12 @@ deletePending
 ;
 deepEqual
 (
-updatedGuids
+Object
+.
+keys
+(
+newChangeRecords
+)
 .
 sort
 (
@@ -3785,7 +3790,7 @@ ok
 !
 store
 .
-_foldersToDelete
+_itemsToDelete
 .
 has
 (
@@ -3800,7 +3805,7 @@ ok
 !
 store
 .
-_atomsToDelete
+_itemsToDelete
 .
 has
 (
