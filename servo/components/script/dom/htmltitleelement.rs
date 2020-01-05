@@ -411,6 +411,15 @@ children
 )
 {
 let
+child
+=
+child
+.
+root
+(
+)
+;
+let
 text
 :
 Option
@@ -427,6 +436,10 @@ TextCast
 to_ref
 (
 child
+.
+r
+(
+)
 )
 ;
 match

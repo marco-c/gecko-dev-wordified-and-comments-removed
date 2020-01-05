@@ -73,7 +73,7 @@ smallvec
 :
 {
 SmallVec
-SmallVec24
+SmallVec32
 }
 ;
 use
@@ -2931,7 +2931,7 @@ roots
 :
 UnsafeCell
 <
-SmallVec24
+SmallVec32
 <
 *
 mut
@@ -2976,7 +2976,7 @@ UnsafeCell
 :
 new
 (
-SmallVec24
+SmallVec32
 :
 :
 new
