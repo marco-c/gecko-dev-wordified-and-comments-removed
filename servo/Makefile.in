@@ -4367,6 +4367,15 @@ compiler
 /
 rust
 '
+-
+o
+-
+path
+'
+*
+/
+host
+'
 \
 )
 -
