@@ -12,6 +12,9 @@ core_text
 ;
 use
 quartz
+;
+use
+quartz
 :
 :
 font
