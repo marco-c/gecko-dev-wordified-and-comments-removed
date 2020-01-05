@@ -265,10 +265,6 @@ intr
 protocol
 PPluginModule
 {
-bridges
-PContent
-PPluginModule
-;
 manages
 PPluginInstance
 ;
@@ -584,6 +580,16 @@ NPP_SetValue_NPNVaudioDeviceChangeDetails
 (
 NPAudioDeviceChangeDetailsIPC
 changeDetails
+)
+;
+async
+InitPluginModuleChild
+(
+Endpoint
+<
+PPluginModuleChild
+>
+endpoint
 )
 ;
 parent

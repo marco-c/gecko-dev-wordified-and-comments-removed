@@ -960,6 +960,12 @@ aRv
 uint32_t
 *
 aRunID
+Endpoint
+<
+PPluginModuleParent
+>
+*
+aEndpoint
 )
 override
 ;
@@ -980,6 +986,12 @@ aPluginId
 nsresult
 *
 aRv
+Endpoint
+<
+PPluginModuleParent
+>
+*
+aEndpoint
 )
 override
 ;
