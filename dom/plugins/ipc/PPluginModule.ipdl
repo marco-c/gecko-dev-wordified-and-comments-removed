@@ -612,6 +612,13 @@ StopProfiler
 )
 ;
 async
+PauseProfiler
+(
+bool
+aPause
+)
+;
+async
 GatherProfile
 (
 )
