@@ -99,6 +99,15 @@ compositor_msg
 ScriptListener
 ;
 use
+servo_net
+:
+:
+image_cache_task
+:
+:
+ImageCacheTask
+;
+use
 js
 :
 :
@@ -291,6 +300,9 @@ Option
 mut
 Navigator
 >
+image_cache_task
+:
+ImageCacheTask
 }
 #
 [
@@ -1024,6 +1036,9 @@ ScriptChan
 compositor
 :
 ScriptListener
+image_cache_task
+:
+ImageCacheTask
 )
 -
 >
@@ -1153,6 +1168,9 @@ timer_chan
 navigator
 :
 None
+image_cache_task
+:
+image_cache_task
 }
 ;
 unsafe

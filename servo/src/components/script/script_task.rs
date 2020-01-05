@@ -4232,6 +4232,13 @@ clone
 self
 .
 compositor
+self
+.
+image_cache_task
+.
+clone
+(
+)
 )
 ;
 page
@@ -4318,13 +4325,6 @@ clone
 self
 .
 resource_task
-.
-clone
-(
-)
-self
-.
-image_cache_task
 .
 clone
 (
