@@ -340,15 +340,6 @@ join
 (
 basepath
 "
-tools
-"
-"
-lint
-"
-"
-eslint
-"
-"
 node_modules
 "
 "
