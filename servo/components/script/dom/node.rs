@@ -11930,7 +11930,7 @@ None
 }
 }
 fn
-RootNode
+GetRootNode
 (
 &
 self

@@ -236,10 +236,10 @@ ownerDocument
 [
 Pure
 ]
-readonly
-attribute
 Node
-rootNode
+getRootNode
+(
+)
 ;
 [
 Pure
