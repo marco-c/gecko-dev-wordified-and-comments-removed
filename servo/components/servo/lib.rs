@@ -480,10 +480,6 @@ window
 compositor_proxy
 compositor_receiver
 constellation_chan
-.
-clone
-(
-)
 time_profiler_chan
 mem_profiler_chan
 )
@@ -767,10 +763,6 @@ ConstellationMsg
 InitLoadUrl
 (
 url
-.
-clone
-(
-)
 )
 )
 .
