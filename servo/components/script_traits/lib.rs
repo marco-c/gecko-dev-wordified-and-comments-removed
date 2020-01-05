@@ -17,14 +17,6 @@ int_uint
 #
 !
 [
-feature
-(
-libc
-)
-]
-#
-!
-[
 allow
 (
 missing_copy_implementations

@@ -59,14 +59,6 @@ io
 [
 feature
 (
-libc
-)
-]
-#
-!
-[
-feature
-(
 path
 )
 ]
