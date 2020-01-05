@@ -302,6 +302,8 @@ DeleteOnce
 void
 DoFramebufferRenderbuffer
 (
+FBTarget
+target
 GLenum
 attachment
 )

@@ -1156,6 +1156,7 @@ fb
 >
 CheckFramebufferStatus
 (
+target
 &
 fbErrorInfo
 )
