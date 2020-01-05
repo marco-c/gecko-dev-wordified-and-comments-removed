@@ -4667,7 +4667,7 @@ newContext
 =
 aStyleSet
 .
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 pseudo
 StyleContext
@@ -4918,7 +4918,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :

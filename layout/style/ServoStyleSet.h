@@ -352,7 +352,7 @@ already_AddRefed
 <
 nsStyleContext
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsIAtom
 *

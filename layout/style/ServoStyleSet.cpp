@@ -1323,7 +1323,7 @@ nsStyleContext
 ServoStyleSet
 :
 :
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsIAtom
 *
@@ -1573,7 +1573,7 @@ the
 page
 handling
 from
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 to
 "
 "

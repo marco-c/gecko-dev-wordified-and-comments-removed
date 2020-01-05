@@ -48203,7 +48203,7 @@ newContext
 =
 aStyleSet
 .
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 pseudo
 StyleContext

@@ -10406,7 +10406,7 @@ newContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 pseudoTag
 parentContext
@@ -11980,7 +11980,7 @@ newExtraContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 extraPseudoTag
 newContext

@@ -474,7 +474,7 @@ StyleSetHandle
 Ptr
 :
 :
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsIAtom
 *
@@ -488,7 +488,7 @@ aFlags
 {
 FORWARD
 (
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 aPseudoTag
 aParentContext

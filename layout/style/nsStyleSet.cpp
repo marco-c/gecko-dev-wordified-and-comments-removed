@@ -10270,7 +10270,7 @@ nsStyleContext
 nsStyleSet
 :
 :
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsIAtom
 *
@@ -10715,7 +10715,7 @@ the
 page
 handling
 from
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 to
 "
 "
