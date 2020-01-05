@@ -48,6 +48,11 @@ name
 "
 content
 "
+boxed
+=
+"
+True
+"
 animatable
 =
 "

@@ -89,6 +89,9 @@ extra_prefixes
 "
 moz
 "
+boxed
+=
+True
 animatable
 =
 False
@@ -258,6 +261,9 @@ moz
 experimental
 =
 True
+boxed
+=
+True
 animatable
 =
 False
@@ -384,6 +390,11 @@ products
 =
 "
 gecko
+"
+boxed
+=
+"
+True
 "
 animatable
 =

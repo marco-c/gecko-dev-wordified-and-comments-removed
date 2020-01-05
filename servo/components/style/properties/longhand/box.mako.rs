@@ -13337,6 +13337,9 @@ extra_prefixes
 moz
 webkit
 "
+boxed
+=
+True
 animatable
 =
 True
@@ -13362,6 +13365,11 @@ name
 perspective
 -
 origin
+"
+boxed
+=
+"
+True
 "
 animatable
 =

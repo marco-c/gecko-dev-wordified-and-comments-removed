@@ -67,6 +67,11 @@ PropertyDeclaration
 :
 BorderTopWidth
 (
+Box
+:
+:
+new
+(
 border_top_width
 :
 :
@@ -97,6 +102,7 @@ Vw
 )
 )
 )
+)
 ;
 assert
 !
@@ -115,6 +121,11 @@ PropertyDeclaration
 :
 :
 BorderTopWidth
+(
+Box
+:
+:
+new
 (
 border_top_width
 :
@@ -137,6 +148,7 @@ Absolute
 Au
 (
 100
+)
 )
 )
 )

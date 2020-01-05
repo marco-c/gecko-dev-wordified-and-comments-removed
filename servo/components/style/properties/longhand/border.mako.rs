@@ -397,6 +397,11 @@ side
 -
 width
 "
+boxed
+=
+"
+True
+"
 animatable
 =
 "
@@ -687,6 +692,9 @@ radius
 "
 %
 corner
+boxed
+=
+True
 animatable
 =
 True
@@ -4515,6 +4523,11 @@ border
 image
 -
 slice
+"
+boxed
+=
+"
+True
 "
 animatable
 =

@@ -2515,6 +2515,11 @@ letter
 -
 spacing
 "
+boxed
+=
+"
+True
+"
 animatable
 =
 "
@@ -5999,6 +6004,11 @@ need_clone
 "
 True
 "
+boxed
+=
+"
+True
+"
 animatable
 =
 "
@@ -8139,6 +8149,9 @@ products
 "
 gecko
 "
+boxed
+=
+True
 animatable
 =
 False
@@ -8353,6 +8366,11 @@ text
 stroke
 -
 width
+"
+boxed
+=
+"
+True
 "
 animatable
 =
