@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheetInlines
 .
 h
@@ -50584,7 +50593,7 @@ break
 ;
 default
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 unexpected
