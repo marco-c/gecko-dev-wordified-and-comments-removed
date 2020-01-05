@@ -198,6 +198,7 @@ toctree
 :
 :
 taskgraph
+loading
 transforms
 yaml
 -
