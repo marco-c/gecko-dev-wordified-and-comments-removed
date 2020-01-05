@@ -32,9 +32,6 @@ Exceptions
 h
 "
 #
-ifdef
-SPIDERMONKEY_PROMISE
-#
 include
 "
 mozilla
@@ -45,8 +42,6 @@ Promise
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -297,9 +292,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 bool
 ToJSValue
 (
@@ -338,7 +330,5 @@ return
 true
 ;
 }
-#
-endif
 }
 }

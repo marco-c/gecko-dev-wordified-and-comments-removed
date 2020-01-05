@@ -1973,9 +1973,6 @@ empty
 )
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 mUncaughtRejections
 .
 reset
@@ -1988,8 +1985,6 @@ reset
 (
 )
 ;
-#
-endif
 JS_DestroyContext
 (
 mJSContext
@@ -2310,9 +2305,6 @@ mJSContext
 GetIncumbentGlobalCallback
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -2389,8 +2381,6 @@ SystemAllocPolicy
 )
 )
 ;
-#
-endif
 JS
 :
 :
@@ -4372,9 +4362,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 void
 CycleCollectedJSContext
 :
@@ -4469,8 +4456,6 @@ aPromise
 ;
 }
 }
-#
-endif
 struct
 JsGcTracer
 :

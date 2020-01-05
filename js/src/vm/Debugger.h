@@ -5844,9 +5844,6 @@ MutableHandleDebuggerObject
 result
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 MOZ_MUST_USE
 bool
@@ -5875,8 +5872,6 @@ MutableHandleValue
 result
 )
 ;
-#
-endif
 static
 MOZ_MUST_USE
 bool
@@ -6239,17 +6234,12 @@ isScriptedProxy
 )
 const
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 bool
 isPromise
 (
 )
 const
 ;
-#
-endif
 JSAtom
 *
 name
@@ -6264,9 +6254,6 @@ displayName
 )
 const
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -6288,8 +6275,6 @@ promiseTimeToResolution
 )
 const
 ;
-#
-endif
 private
 :
 enum
@@ -6316,9 +6301,6 @@ properties_
 [
 ]
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 const
 JSPropertySpec
@@ -6326,8 +6308,6 @@ promiseProperties_
 [
 ]
 ;
-#
-endif
 static
 const
 JSFunctionSpec
@@ -6370,9 +6350,6 @@ owner
 )
 const
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 PromiseObject
 *
 promise
@@ -6380,8 +6357,6 @@ promise
 )
 const
 ;
-#
-endif
 static
 MOZ_MUST_USE
 bool
@@ -6394,9 +6369,6 @@ HandleDebuggerObject
 object
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 MOZ_MUST_USE
 bool
@@ -6409,8 +6381,6 @@ HandleDebuggerObject
 object
 )
 ;
-#
-endif
 static
 MOZ_MUST_USE
 bool
@@ -6741,9 +6711,6 @@ Value
 vp
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 MOZ_MUST_USE
 bool
@@ -6894,8 +6861,6 @@ Value
 vp
 )
 ;
-#
-endif
 static
 MOZ_MUST_USE
 bool

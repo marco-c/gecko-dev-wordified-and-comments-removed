@@ -1331,9 +1331,6 @@ aValue
 )
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 MOZ_MUST_USE
 bool
 ToJSValue
@@ -1357,8 +1354,6 @@ Value
 aValue
 )
 ;
-#
-endif
 template
 <
 typename

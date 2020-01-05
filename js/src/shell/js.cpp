@@ -915,9 +915,6 @@ SHARED_MEMORY_DEFAULT
 0
 #
 endif
-#
-ifdef
-SPIDERMONKEY_PROMISE
 using
 JobQueue
 =
@@ -965,8 +962,6 @@ finished
 ;
 }
 ;
-#
-endif
 enum
 class
 ScriptKind
@@ -1330,9 +1325,6 @@ JS
 PersistentRootedValue
 lastWarning
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -1357,8 +1349,6 @@ asyncTasks
 bool
 drainingJobQueue
 ;
-#
-endif
 Mutex
 watchdogLock
 ;
@@ -2004,9 +1994,6 @@ NullValue
 (
 )
 )
-#
-ifdef
-SPIDERMONKEY_PROMISE
 promiseRejectionTrackerCallback
 (
 cx
@@ -2026,8 +2013,6 @@ drainingJobQueue
 (
 false
 )
-#
-endif
 watchdogLock
 (
 mutexid
@@ -3431,9 +3416,6 @@ value
 )
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 JSObject
 *
@@ -3639,8 +3621,6 @@ task
 )
 ;
 }
-#
-endif
 static
 bool
 DrainJobQueue
@@ -3650,9 +3630,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-SPIDERMONKEY_PROMISE
 ShellContext
 *
 sc
@@ -3915,8 +3892,6 @@ drainingJobQueue
 =
 false
 ;
-#
-endif
 return
 true
 ;
@@ -3969,9 +3944,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 void
 ForwardingPromiseRejectionTrackerCallback
@@ -4103,8 +4075,6 @@ cx
 )
 ;
 }
-#
-endif
 static
 bool
 SetPromiseRejectionTrackerCallback
@@ -4128,9 +4098,6 @@ argc
 vp
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 if
 (
 !
@@ -4188,8 +4155,6 @@ cx
 ForwardingPromiseRejectionTrackerCallback
 )
 ;
-#
-endif
 args
 .
 rval
@@ -18005,9 +17970,6 @@ input
 return
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 sc
 -
 >
@@ -18052,8 +18014,6 @@ ShellStartAsyncTaskCallback
 ShellFinishAsyncTaskCallback
 )
 ;
-#
-endif
 EnvironmentPreparer
 environmentPreparer
 (
@@ -18211,9 +18171,6 @@ nullptr
 nullptr
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -18241,8 +18198,6 @@ reset
 (
 )
 ;
-#
-endif
 KillWatchdog
 (
 cx
@@ -48208,9 +48163,6 @@ cx
 return
 1
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 sc
 -
 >
@@ -48255,8 +48207,6 @@ ShellStartAsyncTaskCallback
 ShellFinishAsyncTaskCallback
 )
 ;
-#
-endif
 EnvironmentPreparer
 environmentPreparer
 (
@@ -48389,9 +48339,6 @@ nullptr
 nullptr
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -48419,8 +48366,6 @@ reset
 (
 )
 ;
-#
-endif
 KillWatchdog
 (
 cx

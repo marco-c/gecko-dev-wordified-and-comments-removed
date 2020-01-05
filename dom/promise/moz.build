@@ -124,11 +124,6 @@ Promise
 cpp
 '
 '
-PromiseCallback
-.
-cpp
-'
-'
 PromiseDebugging
 .
 cpp

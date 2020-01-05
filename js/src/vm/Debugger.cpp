@@ -46404,9 +46404,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 bool
 DebuggerObject
 :
@@ -47416,8 +47413,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 DebuggerObject
 :
@@ -50053,9 +50048,6 @@ proxyHandlerGetter
 JS_PS_END
 }
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 const
 JSPropertySpec
 DebuggerObject
@@ -50179,8 +50171,6 @@ promiseDependentPromisesGetter
 JS_PS_END
 }
 ;
-#
-endif
 const
 JSFunctionSpec
 DebuggerObject
@@ -50523,9 +50513,6 @@ objectProto
 return
 nullptr
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 if
 (
 !
@@ -50540,8 +50527,6 @@ nullptr
 return
 nullptr
 ;
-#
-endif
 return
 objectProto
 ;
@@ -50835,9 +50820,6 @@ referent
 )
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 bool
 DebuggerObject
 :
@@ -50894,8 +50876,6 @@ PromiseObject
 )
 ;
 }
-#
-endif
 bool
 DebuggerObject
 :
@@ -52232,9 +52212,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 bool
 DebuggerObject
 :
@@ -52369,8 +52346,6 @@ result
 )
 ;
 }
-#
-endif
 bool
 DebuggerObject
 :
@@ -54861,9 +54836,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 bool
 DebuggerObject
 :
@@ -54965,8 +54937,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 DebuggerObject
 :
