@@ -788,15 +788,6 @@ cleanup
 ;
 add_task
 (
-{
-skip_if
-:
-(
-)
-=
->
-true
-}
 function
 *
 test_searchEngine_different_scheme_noautofill
