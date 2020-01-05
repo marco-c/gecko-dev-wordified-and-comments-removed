@@ -408,11 +408,6 @@ WebGL2ContextBuffers
 cpp
 '
 '
-WebGL2ContextDraw
-.
-cpp
-'
-'
 WebGL2ContextFramebuffers
 .
 cpp
