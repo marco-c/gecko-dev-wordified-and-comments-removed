@@ -16396,16 +16396,6 @@ pt_MakeFdNonblock
 osfd
 )
 ;
-fd
--
->
-secret
--
->
-nonblocking
-=
-PR_TRUE
-;
 break
 ;
 default
