@@ -239,8 +239,6 @@ ViewID
 aScrollViewId
 ScrollDirection
 aDir
-int32_t
-aScrollThumbLength
 bool
 aIsScrollContainer
 )
@@ -385,9 +383,6 @@ mScrollViewId
 ;
 ScrollDirection
 mScrollDir
-;
-int32_t
-mScrollThumbLength
 ;
 bool
 mIsScrollbarContainer
