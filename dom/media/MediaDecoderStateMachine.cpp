@@ -2777,6 +2777,15 @@ StopPlayback
 )
 ;
 }
+if
+(
+!
+mMaster
+-
+>
+mIsPrerolling
+)
+{
 mMaster
 -
 >
@@ -2784,6 +2793,7 @@ MaybeStartPlayback
 (
 )
 ;
+}
 mMaster
 -
 >
@@ -8797,9 +8807,6 @@ if
 playStatePermits
 |
 |
-mIsPrerolling
-|
-|
 mAudioOffloading
 )
 {
@@ -8816,10 +8823,6 @@ playStatePermits
 d
 "
 "
-mIsPrerolling
-:
-%
-d
 mAudioOffloading
 :
 %
@@ -8827,7 +8830,6 @@ d
 ]
 "
 playStatePermits
-mIsPrerolling
 mAudioOffloading
 )
 ;
