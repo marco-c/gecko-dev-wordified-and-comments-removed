@@ -14,6 +14,15 @@ use
 layout
 :
 :
+incremental
+:
+:
+RestyleDamage
+;
+use
+layout
+:
+:
 parallel
 :
 :
@@ -170,7 +179,7 @@ restyle_damage
 :
 Option
 <
-int
+RestyleDamage
 >
 pub
 flow_construction_result
