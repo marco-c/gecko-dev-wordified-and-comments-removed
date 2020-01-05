@@ -29,13 +29,6 @@ h
 #
 include
 "
-InputBlockState
-.
-h
-"
-#
-include
-"
 base
 /
 task
@@ -69,6 +62,13 @@ h
 include
 "
 nsMathUtils
+.
+h
+"
+#
+include
+"
+InputBlockState
 .
 h
 "
