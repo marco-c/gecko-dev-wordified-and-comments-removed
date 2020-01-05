@@ -4,6 +4,9 @@ doc
 =
 "
 Applies
+the
+appropriate
+CSS
 style
 to
 boxes
@@ -18,8 +21,8 @@ base
 :
 :
 {
-HTMLImageElement
 Element
+HTMLImageElement
 Node
 }
 ;
@@ -30,7 +33,7 @@ dom
 rcu
 :
 :
-reader_methods
+ReaderMethods
 ;
 import
 image
@@ -120,7 +123,7 @@ self
 .
 node
 .
-rd
+read
 {
 |
 node

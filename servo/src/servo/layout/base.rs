@@ -51,7 +51,7 @@ dom
 rcu
 :
 :
-reader_methods
+ReaderMethods
 ;
 import
 gfx
@@ -403,7 +403,7 @@ R
 {
 n
 .
-rd
+read
 {
 |
 n
@@ -906,7 +906,7 @@ fmt
 "
 self
 .
-rd
+read
 (
 {
 |
@@ -1033,7 +1033,7 @@ dom
 rcu
 :
 :
-scope
+Scope
 ;
 import
 box_builder
@@ -1200,7 +1200,7 @@ do_layout
 let
 s
 =
-scope
+Scope
 (
 )
 ;

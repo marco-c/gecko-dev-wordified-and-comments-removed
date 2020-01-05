@@ -11,7 +11,7 @@ Performs
 layout
 on
 the
-dom
+DOM
 builds
 display
 lists
@@ -21,6 +21,7 @@ them
 to
 be
 rendered
+.
 "
 ]
 ;
@@ -51,7 +52,7 @@ dom
 rcu
 :
 :
-scope
+Scope
 ;
 import
 dom

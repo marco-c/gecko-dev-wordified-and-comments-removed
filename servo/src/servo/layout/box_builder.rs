@@ -49,7 +49,7 @@ dom
 rcu
 :
 :
-reader_methods
+ReaderMethods
 ;
 import
 gfx
@@ -886,7 +886,7 @@ BoxKind
 alt
 self
 .
-rd
+read
 (
 {
 |
