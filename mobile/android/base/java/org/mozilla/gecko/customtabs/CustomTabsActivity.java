@@ -1031,8 +1031,12 @@ onResume
 Override
 public
 boolean
-onPrepareOptionsMenu
+onCreatePanelMenu
 (
+final
+int
+id
+final
 Menu
 menu
 )
@@ -1046,12 +1050,7 @@ getIntent
 )
 ;
 return
-super
-.
-onPrepareOptionsMenu
-(
-menu
-)
+true
 ;
 }
 public
