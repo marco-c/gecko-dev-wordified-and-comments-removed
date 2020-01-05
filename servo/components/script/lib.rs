@@ -229,6 +229,10 @@ extern
 crate
 core
 ;
+#
+[
+macro_use
+]
 extern
 crate
 cssparser
