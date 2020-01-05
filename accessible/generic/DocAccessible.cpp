@@ -8929,6 +8929,13 @@ UserData
 ;
 if
 (
+owner
+!
+=
+this
+&
+&
+(
 !
 mAccessibleCache
 .
@@ -8951,6 +8958,7 @@ owner
 >
 IsInDocument
 (
+)
 )
 )
 {
