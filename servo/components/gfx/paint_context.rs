@@ -286,6 +286,12 @@ mix_blend_mode
 }
 ;
 use
+style_traits
+:
+:
+PagePx
+;
+use
 text
 :
 :
@@ -310,7 +316,6 @@ geometry
 {
 self
 MAX_RECT
-PagePx
 ScreenPx
 }
 ;
