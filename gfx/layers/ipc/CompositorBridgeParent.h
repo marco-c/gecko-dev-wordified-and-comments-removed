@@ -1808,6 +1808,15 @@ uint64_t
 aContentLayersId
 )
 ;
+static
+GeckoContentController
+*
+GetGeckoContentControllerForRoot
+(
+uint64_t
+aContentLayersId
+)
+;
 #
 if
 defined
