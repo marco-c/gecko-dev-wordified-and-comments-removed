@@ -293,6 +293,13 @@ QueryInterface
 nsIAccessibleEvent
 )
 ;
+if
+(
+Logger
+.
+enabled
+)
+{
 Logger
 .
 log
@@ -303,6 +310,7 @@ event
 )
 )
 ;
+}
 if
 (
 event
