@@ -4590,16 +4590,6 @@ test
 platform
 '
 ]
-.
-split
-(
-'
-/
-'
-)
-[
-0
-]
             
 '
 test_chunk
