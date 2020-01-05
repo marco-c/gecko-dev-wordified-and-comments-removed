@@ -848,6 +848,19 @@ TOOLTOOL_REV
 master
 '
     
+worker
+[
+'
+retry
+-
+exit
+-
+status
+'
+]
+=
+4
+    
 docker_worker_setup_secrets
 (
 config

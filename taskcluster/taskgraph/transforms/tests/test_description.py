@@ -529,6 +529,19 @@ int
     
 )
     
+Optional
+(
+'
+retry
+-
+exit
+-
+status
+'
+)
+:
+int
+    
 Required
 (
 '
