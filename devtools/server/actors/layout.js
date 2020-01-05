@@ -351,6 +351,16 @@ grids
 [
 ]
 ;
+if
+(
+!
+rootNode
+)
+{
+return
+grids
+;
+}
 let
 treeWalker
 =
