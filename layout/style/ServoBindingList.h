@@ -509,6 +509,13 @@ property
 )
 SERVO_BINDING_FUNC
 (
+Servo_Property_IsAnimatable
+bool
+nsCSSPropertyID
+property
+)
+SERVO_BINDING_FUNC
+(
 Servo_Property_IsDiscreteAnimatable
 bool
 nsCSSPropertyID
