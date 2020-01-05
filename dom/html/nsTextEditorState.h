@@ -100,6 +100,9 @@ nsFrame
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -230,6 +233,12 @@ eSetValue_Notify
 <
 <
 2
+eSetValue_MoveCursorToEnd
+=
+1
+<
+<
+3
 }
 ;
 MOZ_MUST_USE
@@ -691,7 +700,7 @@ SyncUpSelectionPropertiesBeforeDestruction
 (
 )
 ;
-nsresult
+void
 GetSelectionRange
 (
 int32_t
@@ -700,6 +709,12 @@ aSelectionStart
 int32_t
 *
 aSelectionEnd
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 nsresult
