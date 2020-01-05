@@ -969,7 +969,10 @@ NextFrameStatus
 aStatus
 )
 ;
-int64_t
+media
+:
+:
+TimeUnit
 GetClock
 (
 TimeStamp
