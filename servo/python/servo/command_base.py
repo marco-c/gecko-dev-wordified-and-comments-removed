@@ -2157,17 +2157,21 @@ CPPFLAGS
 ]
 =
 (
+                
 "
 -
 DANDROID
 -
 DTARGET_OS_GONK
+"
+                
+"
 -
 DGR_GL_USE_NEW_SHADER_SOURCE_SIGNATURE
 =
 1
 "
-                               
+                
 "
 -
 isystem
@@ -2188,6 +2192,9 @@ archdir
 s
 /
 include
+"
+                
+"
 -
 isystem
 %
@@ -2203,7 +2210,7 @@ libc
 include
 /
 "
-                               
+                
 "
 -
 isystem
@@ -2220,6 +2227,9 @@ libc
 kernel
 /
 common
+"
+                
+"
 -
 isystem
 %
@@ -2240,7 +2250,7 @@ archdir
 )
 s
 "
-                               
+                
 "
 -
 isystem
@@ -2255,6 +2265,9 @@ bionic
 libm
 /
 include
+"
+                
+"
 -
 I
 %
@@ -2264,6 +2277,9 @@ gonkdir
 s
 /
 system
+"
+                
+"
 -
 I
 %
@@ -2278,7 +2294,7 @@ core
 /
 include
 "
-                               
+                
 "
 -
 isystem
@@ -2289,6 +2305,9 @@ gonkdir
 s
 /
 bionic
+"
+                
+"
 -
 I
 %
@@ -2304,6 +2323,9 @@ native
 opengl
 /
 include
+"
+                
+"
 -
 I
 %
@@ -2316,7 +2338,7 @@ external
 /
 zlib
 "
-                               
+                
 "
 -
 I
@@ -2335,6 +2357,7 @@ include
 hardware
 /
 "
+            
 )
 %
 {
@@ -2368,6 +2391,7 @@ CXXFLAGS
 ]
 =
 (
+                
 "
 -
 O2
@@ -2380,6 +2404,9 @@ fPIC
 cppflags
 )
 s
+"
+                
+"
 -
 I
 %
@@ -2400,7 +2427,7 @@ stlport
 /
 stlport
 "
-                                
+                
 "
 -
 I
@@ -2422,6 +2449,7 @@ system
 /
 include
 "
+            
 )
 %
 {
@@ -2455,6 +2483,7 @@ CFLAGS
 ]
 =
 (
+                
 "
 -
 O2
@@ -2467,6 +2496,9 @@ fPIC
 cppflags
 )
 s
+"
+                
+"
 -
 I
 %
@@ -2487,7 +2519,7 @@ stlport
 /
 stlport
 "
-                             
+                
 "
 -
 I
@@ -2509,6 +2541,7 @@ system
 /
 include
 "
+            
 )
 %
 {
@@ -2540,6 +2573,7 @@ path
 .
 join
 (
+                
 env
 [
 "
@@ -2613,6 +2647,7 @@ LDFLAGS
 ]
 =
 (
+                
 "
 -
 mandroid
@@ -2640,7 +2675,7 @@ obj
 /
 lib
 "
-                              
+                
 "
 -
 Wl
@@ -2671,7 +2706,7 @@ obj
 /
 lib
 "
-                              
+                
 "
 -
 -
@@ -2698,6 +2733,7 @@ s
 obj
 /
 "
+            
 )
 %
 {
@@ -2725,6 +2761,8 @@ GONK_PRODUCT
             
 openssl_dir
 =
+(
+                
 "
 %
 (
@@ -2748,6 +2786,8 @@ obj
 /
 lib
 "
+            
+)
 %
 {
 "
