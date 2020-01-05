@@ -678,6 +678,8 @@ UsePrivateBrowsing
 {
 bool
 usingPB
+=
+false
 ;
 GetUsePrivateBrowsing
 (
@@ -696,6 +698,8 @@ UseRemoteTabs
 {
 bool
 usingRT
+=
+false
 ;
 GetUseRemoteTabs
 (
@@ -714,6 +718,8 @@ UseTrackingProtection
 {
 bool
 usingTP
+=
+false
 ;
 GetUseTrackingProtection
 (
