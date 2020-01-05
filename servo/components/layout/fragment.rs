@@ -316,15 +316,6 @@ use
 style
 :
 :
-node
-:
-:
-TNode
-;
-use
-style
-:
-:
 properties
 :
 :
