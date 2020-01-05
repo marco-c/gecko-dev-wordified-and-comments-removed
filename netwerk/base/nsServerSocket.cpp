@@ -110,13 +110,6 @@ mozilla
 namespace
 net
 {
-static
-NS_DEFINE_CID
-(
-kSocketTransportServiceCID
-NS_SOCKETTRANSPORTSERVICE_CID
-)
-;
 typedef
 void
 (
@@ -214,7 +207,7 @@ sts
 =
 do_GetService
 (
-kSocketTransportServiceCID
+NS_SOCKETTRANSPORTSERVICE_CONTRACTID
 )
 ;
 }

@@ -217,13 +217,6 @@ UDP_PACKET_CHUNK_SIZE
 =
 1400
 ;
-static
-NS_DEFINE_CID
-(
-kSocketTransportServiceCID2
-NS_SOCKETTRANSPORTSERVICE_CID
-)
-;
 typedef
 void
 (
@@ -1036,7 +1029,7 @@ sts
 =
 do_GetService
 (
-kSocketTransportServiceCID2
+NS_SOCKETTRANSPORTSERVICE_CONTRACTID
 )
 ;
 }
