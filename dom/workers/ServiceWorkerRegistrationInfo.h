@@ -44,6 +44,15 @@ NeedUpdate
 }
 mUpdateState
 ;
+PRTime
+mCreationTime
+;
+TimeStamp
+mCreationTimeStamp
+;
+PRTime
+mLastUpdateTime
+;
 uint64_t
 mLastUpdateCheckTime
 ;
