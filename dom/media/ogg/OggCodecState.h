@@ -1142,6 +1142,15 @@ aPage
 )
 override
 ;
+already_AddRefed
+<
+MediaRawData
+>
+PacketOutAsMediaRawData
+(
+)
+override
+;
 static
 int64_t
 Time
