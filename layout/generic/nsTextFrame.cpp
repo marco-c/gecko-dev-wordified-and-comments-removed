@@ -16395,7 +16395,6 @@ nsIFrame
 *
 mLineContainer
 ;
-const
 nsTextFrame
 *
 mFrame
