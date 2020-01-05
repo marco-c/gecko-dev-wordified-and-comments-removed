@@ -205,6 +205,11 @@ contentType
 ;
 readonly
 attribute
+Location
+location
+;
+readonly
+attribute
 DocumentType
 ?
 doctype
