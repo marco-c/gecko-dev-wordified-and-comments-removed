@@ -48,6 +48,12 @@ disable
 elf
 -
 hack
+ac_add_options
+-
+-
+enable
+-
+debug
 MOZ_CODE_COVERAGE
 =
 1
