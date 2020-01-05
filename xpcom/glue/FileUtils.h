@@ -177,10 +177,9 @@ ScopedClose
 ;
 #
 if
-!
 defined
 (
-XPCOM_GLUE
+MOZILLA_INTERNAL_API
 )
 struct
 ScopedClosePRFDTraits

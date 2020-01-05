@@ -1,13 +1,6 @@
 #
 include
 "
-nsProfileStringTypes
-.
-h
-"
-#
-include
-"
 nsProfileLock
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 nsQueryObject
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

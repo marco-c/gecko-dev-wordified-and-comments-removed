@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsProfileStringTypes
+nsString
 .
 h
 "

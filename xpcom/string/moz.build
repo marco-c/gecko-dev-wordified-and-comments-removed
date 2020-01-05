@@ -129,11 +129,6 @@ nsDependentSubstring
 h
 '
 '
-nsEmbedString
-.
-h
-'
-'
 nsLiteralString
 .
 h
