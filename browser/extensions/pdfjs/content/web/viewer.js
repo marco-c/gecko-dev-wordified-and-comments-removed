@@ -33751,12 +33751,10 @@ null
 if
 (
 error
-=
-=
-=
-'
-cancelled
-'
+instanceof
+pdfjsLib
+.
+RenderingCancelledException
 )
 {
 self
