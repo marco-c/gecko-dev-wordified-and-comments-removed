@@ -984,13 +984,6 @@ nullptr
 const
 ;
 void
-SetStartTime
-(
-int64_t
-aStartTimeUsecs
-)
-;
-void
 UpdatePlaybackPositionInternal
 (
 const
