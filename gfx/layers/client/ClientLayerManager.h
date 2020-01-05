@@ -183,9 +183,6 @@ class
 ImageLayer
 ;
 class
-PLayerChild
-;
-class
 FrameUniformityData
 ;
 class
