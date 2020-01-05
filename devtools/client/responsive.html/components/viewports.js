@@ -140,6 +140,13 @@ PropTypes
 func
 .
 isRequired
+onRemoveDevice
+:
+PropTypes
+.
+func
+.
+isRequired
 onResizeViewport
 :
 PropTypes
@@ -175,6 +182,7 @@ viewports
 onBrowserMounted
 onChangeDevice
 onContentResize
+onRemoveDevice
 onResizeViewport
 onRotateViewport
 onUpdateDeviceModalOpen
@@ -229,6 +237,7 @@ viewport
 onBrowserMounted
 onChangeDevice
 onContentResize
+onRemoveDevice
 onResizeViewport
 onRotateViewport
 onUpdateDeviceModalOpen
