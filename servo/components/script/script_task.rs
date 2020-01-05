@@ -2737,6 +2737,7 @@ doesn
 t
 exist
 .
+pub
 fn
 root_page
 (
