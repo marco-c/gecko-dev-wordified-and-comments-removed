@@ -3781,7 +3781,9 @@ cs
 borderBottomWidth
 )
 ;
-is
+SimpleTest
+.
+isfuzzy
 (
 selectPopup
 .
@@ -3804,6 +3806,7 @@ getBoundingClientRect
 bottom
 -
 bpBottom
+1
 "
 Popup
 scroll
