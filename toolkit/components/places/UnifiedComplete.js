@@ -256,7 +256,7 @@ PREF_RESTRICT_SEARCHES
 "
 restrict
 .
-searces
+searches
 "
 "
 "
