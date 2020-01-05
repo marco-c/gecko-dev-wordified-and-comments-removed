@@ -3391,6 +3391,9 @@ menulist
 data
 .
 rect
+data
+.
+isOpenedViaTouch
 )
 ;
 break
