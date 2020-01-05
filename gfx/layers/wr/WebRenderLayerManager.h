@@ -592,6 +592,16 @@ CreateTextLayer
 override
 ;
 virtual
+already_AddRefed
+<
+BorderLayer
+>
+CreateBorderLayer
+(
+)
+override
+;
+virtual
 bool
 NeedsWidgetInvalidation
 (

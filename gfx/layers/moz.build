@@ -2487,6 +2487,13 @@ cpp
 '
 wr
 /
+WebRenderBorderLayer
+.
+cpp
+'
+'
+wr
+/
 WebRenderBridgeChild
 .
 cpp
