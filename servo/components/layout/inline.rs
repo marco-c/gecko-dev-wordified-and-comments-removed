@@ -3357,7 +3357,7 @@ shared
 dirty
 )
 {
-println
+debug
 !
 (
 "
@@ -3379,7 +3379,7 @@ intersect
 \
 dirty
 rect
-owo
+two
 "
 self
 .
