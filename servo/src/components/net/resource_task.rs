@@ -591,7 +591,7 @@ message
 [
 deriving
 (
-Eq
+PartialEq
 Show
 )
 ]

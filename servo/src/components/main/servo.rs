@@ -50,7 +50,7 @@ thread_local
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]
@@ -139,7 +139,7 @@ script
 [
 phase
 (
-syntax
+plugin
 )
 ]
 extern
@@ -170,7 +170,7 @@ msg
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]
@@ -209,6 +209,10 @@ libc
 extern
 crate
 native
+;
+extern
+crate
+rustrt
 ;
 extern
 crate
@@ -483,7 +487,7 @@ test
 )
 ]
 use
-std
+rustrt
 :
 :
 task

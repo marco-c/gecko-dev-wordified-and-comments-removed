@@ -100,7 +100,7 @@ RethrowExceptions
 deriving
 (
 Clone
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -153,7 +153,7 @@ callback
 deriving
 (
 Clone
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -177,7 +177,7 @@ raw_pointer_deriving
 deriving
 (
 Clone
-Eq
+PartialEq
 Encodable
 )
 ]

@@ -40,8 +40,8 @@ deriving
 (
 Encodable
 Clone
-TotalEq
 Eq
+PartialEq
 )
 ]
 pub
@@ -431,7 +431,7 @@ bool
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 enum

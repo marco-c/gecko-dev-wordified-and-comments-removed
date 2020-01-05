@@ -127,7 +127,7 @@ Option
 Box
 <
 ImageResponder
-:
++
 Send
 >
 >
@@ -210,7 +210,7 @@ on_image_available
 Box
 <
 ImageResponder
-:
++
 Send
 >
 )
@@ -377,6 +377,13 @@ ImageResponseMsg
 {
 {
 let
+round_number
+=
+self
+.
+round_number
+;
+let
 state
 =
 self
@@ -416,8 +423,6 @@ state
 .
 last_request_round
 =
-self
-.
 round_number
 ;
 match
@@ -469,8 +474,6 @@ if
 last_round
 =
 =
-self
-.
 round_number
 {
 let

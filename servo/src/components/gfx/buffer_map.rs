@@ -1,4 +1,7 @@
 use
+std
+:
+:
 collections
 :
 :
@@ -95,7 +98,7 @@ uint
 [
 deriving
 (
-TotalEq
+Eq
 )
 ]
 struct
@@ -150,7 +153,7 @@ state
 }
 }
 impl
-Eq
+PartialEq
 for
 BufferKey
 {

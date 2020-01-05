@@ -1471,7 +1471,7 @@ jsstr
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

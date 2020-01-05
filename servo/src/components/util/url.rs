@@ -1,5 +1,11 @@
 use
+std
+:
+:
 collections
+:
+:
+hashmap
 :
 :
 HashMap

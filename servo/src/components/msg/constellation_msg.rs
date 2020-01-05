@@ -116,7 +116,7 @@ chan
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub
@@ -236,7 +236,7 @@ WindowSizeData
 deriving
 (
 Clone
-Eq
+PartialEq
 Hash
 )
 ]
@@ -252,7 +252,7 @@ Navigate
 deriving
 (
 Clone
-Eq
+PartialEq
 Hash
 )
 ]
@@ -268,8 +268,8 @@ Back
 deriving
 (
 Clone
+PartialEq
 Eq
-TotalEq
 Hash
 Encodable
 )
@@ -287,8 +287,8 @@ uint
 deriving
 (
 Clone
+PartialEq
 Eq
-TotalEq
 Hash
 Encodable
 )

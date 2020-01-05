@@ -87,8 +87,8 @@ PagePx
 deriving
 (
 Clone
-Eq
-Ord
+PartialEq
+PartialOrd
 Zero
 )
 ]
@@ -1373,7 +1373,7 @@ rect_contains_point
 <
 T
 :
-Ord
+PartialOrd
 +
 Add
 <

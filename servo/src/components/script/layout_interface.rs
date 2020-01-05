@@ -336,10 +336,10 @@ UntrustedNodeAddress
 [
 deriving
 (
+PartialEq
+PartialOrd
 Eq
 Ord
-TotalEq
-TotalOrd
 Encodable
 )
 ]
@@ -405,7 +405,7 @@ DocumentDamageLevel
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

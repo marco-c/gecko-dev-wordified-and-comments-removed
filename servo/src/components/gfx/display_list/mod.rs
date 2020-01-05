@@ -26,10 +26,10 @@ text
 TextRun
 ;
 use
+std
+:
+:
 collections
-:
-:
-deque
 :
 :
 Deque
@@ -141,7 +141,7 @@ optimizer
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -183,7 +183,7 @@ pointer
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub

@@ -325,7 +325,7 @@ next
 )
 }
 impl
-Container
+Collection
 for
 FlowList
 {

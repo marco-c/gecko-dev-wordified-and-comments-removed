@@ -20136,7 +20136,7 @@ uint
 deriving
 (
 Encodable
-Eq
+PartialEq
 )
 ]
 pub
@@ -36905,7 +36905,7 @@ decorators
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 Encodable
 )
@@ -40802,7 +40802,7 @@ protos
 deriving
 =
 "
-Eq
+PartialEq
 "
 )
         

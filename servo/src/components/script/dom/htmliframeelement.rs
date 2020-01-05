@@ -1043,7 +1043,7 @@ Option
 '
 a
 VirtualMethods
-:
++
 >
 {
 let
@@ -1069,7 +1069,7 @@ htmlelement
 as
 &
 VirtualMethods
-:
++
 )
 }
 fn

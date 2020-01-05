@@ -1012,7 +1012,7 @@ non_camel_case_types
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 FromPrimitive
 )
@@ -2900,7 +2900,7 @@ CSSFloat
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -3478,7 +3478,7 @@ non_camel_case_types
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -3743,7 +3743,7 @@ computed_value
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -3767,7 +3767,7 @@ non_camel_case_types
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -4326,7 +4326,7 @@ LengthOrPercentage
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -4939,7 +4939,7 @@ computed_value
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -5770,7 +5770,7 @@ computed_value
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -6329,7 +6329,7 @@ computed_as_specified
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -6750,7 +6750,7 @@ computed_as_specified
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -10657,7 +10657,7 @@ STYLE_STRUCTS
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]

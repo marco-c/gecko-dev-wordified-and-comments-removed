@@ -2134,7 +2134,7 @@ FloatNonReplacedType
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -2148,7 +2148,7 @@ MarginsMayNotCollapse
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 enum

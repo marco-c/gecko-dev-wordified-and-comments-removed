@@ -862,7 +862,7 @@ mozilla
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]

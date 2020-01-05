@@ -2,7 +2,7 @@
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 Encodable
 )

@@ -180,7 +180,7 @@ mark_will_leak
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -195,7 +195,7 @@ RenderingRenderState
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -212,7 +212,7 @@ FinishedLoading
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub
@@ -259,7 +259,7 @@ u
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -346,7 +346,7 @@ LayerId
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

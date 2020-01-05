@@ -103,7 +103,7 @@ MediaType
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

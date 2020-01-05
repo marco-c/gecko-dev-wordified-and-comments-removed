@@ -65,7 +65,7 @@ namespaces
 NamespaceMap
 ;
 impl
-Eq
+PartialEq
 for
 Arc
 <
@@ -103,7 +103,7 @@ other
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -134,7 +134,7 @@ u32
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -149,7 +149,7 @@ After
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -182,7 +182,7 @@ Combinator
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -199,7 +199,7 @@ LaterSibling
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -301,7 +301,7 @@ OnlyOfType
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -326,7 +326,7 @@ NamespaceConstraint
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]

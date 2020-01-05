@@ -613,7 +613,7 @@ DOMString
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -628,7 +628,7 @@ XMLHttpRequestUploadTypeId
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -7900,7 +7900,7 @@ UTF_8
 as
 &
 Encoding
-:
++
 Send
 ;
 match

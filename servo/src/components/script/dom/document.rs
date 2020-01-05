@@ -523,6 +523,9 @@ null_str_as_empty_ref
 }
 ;
 use
+std
+:
+:
 collections
 :
 :
@@ -574,7 +577,7 @@ from_str
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]

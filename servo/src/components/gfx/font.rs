@@ -600,7 +600,7 @@ typedef
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -724,7 +724,7 @@ tasks
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -789,7 +789,7 @@ names
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub

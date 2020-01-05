@@ -89,7 +89,7 @@ phase
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]
@@ -133,7 +133,7 @@ encoding
 [
 phase
 (
-syntax
+plugin
 )
 ]
 extern

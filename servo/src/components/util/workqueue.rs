@@ -3,9 +3,6 @@ native
 ;
 use
 rand
-;
-use
-rand
 :
 :
 {
@@ -18,6 +15,15 @@ std
 :
 :
 mem
+;
+use
+std
+:
+:
+rand
+:
+:
+weak_rng
 ;
 use
 std
@@ -54,7 +60,7 @@ Worker
 }
 ;
 use
-std
+rustrt
 :
 :
 task
@@ -1361,9 +1367,6 @@ vec
 (
 )
 rng
-:
-rand
-:
 :
 weak_rng
 (
