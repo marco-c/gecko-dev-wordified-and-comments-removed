@@ -1006,12 +1006,6 @@ friend
 class
 :
 :
-nsMediaList
-;
-friend
-class
-:
-:
 nsCSSRuleProcessor
 ;
 friend
