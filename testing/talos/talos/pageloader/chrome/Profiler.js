@@ -240,7 +240,7 @@ obj
 &
 (
 "
-sps_profile_dir
+gecko_profile_dir
 "
 in
 obj
@@ -250,7 +250,7 @@ obj
 typeof
 obj
 .
-sps_profile_dir
+gecko_profile_dir
 =
 =
 "
@@ -260,7 +260,7 @@ string
 &
 (
 "
-sps_profile_interval
+gecko_profile_interval
 "
 in
 obj
@@ -273,7 +273,7 @@ isFinite
 (
 obj
 .
-sps_profile_interval
+gecko_profile_interval
 *
 1
 )
@@ -281,7 +281,7 @@ sps_profile_interval
 &
 (
 "
-sps_profile_entries
+gecko_profile_entries
 "
 in
 obj
@@ -294,7 +294,7 @@ isFinite
 (
 obj
 .
-sps_profile_entries
+gecko_profile_entries
 *
 1
 )
@@ -302,7 +302,7 @@ sps_profile_entries
 &
 (
 "
-sps_profile_threads
+gecko_profile_threads
 "
 in
 obj
@@ -312,7 +312,7 @@ obj
 typeof
 obj
 .
-sps_profile_threads
+gecko_profile_threads
 =
 =
 "
@@ -324,19 +324,19 @@ profiler_interval
 =
 obj
 .
-sps_profile_interval
+gecko_profile_interval
 ;
 profiler_entries
 =
 obj
 .
-sps_profile_entries
+gecko_profile_entries
 ;
 profiler_threadsArray
 =
 obj
 .
-sps_profile_threads
+gecko_profile_threads
 .
 split
 (
@@ -348,7 +348,7 @@ profiler_dir
 =
 obj
 .
-sps_profile_dir
+gecko_profile_dir
 ;
 enabled
 =
