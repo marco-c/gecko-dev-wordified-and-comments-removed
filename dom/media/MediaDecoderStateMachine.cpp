@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TaskQueue
 .
 h
