@@ -5713,6 +5713,11 @@ func
 mozSystemGroup
 :
 true
+capture
+:
+element
+.
+capture
 }
 )
 ;
@@ -12867,6 +12872,9 @@ addListener
 elem
 eventName
 func
+capture
+=
+false
 )
 {
 let
@@ -12895,6 +12903,7 @@ eventName
 func
 :
 boundFunc
+capture
 }
 )
 ;
@@ -12908,6 +12917,7 @@ boundFunc
 mozSystemGroup
 :
 true
+capture
 }
 )
 ;
@@ -13083,6 +13093,7 @@ keypress
 this
 .
 keyHandler
+true
 )
 ;
 addListener
