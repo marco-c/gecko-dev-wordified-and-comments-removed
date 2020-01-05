@@ -324,15 +324,4 @@ download_tooltool
 "
 :
 True
-    
-"
-tooltool_cache
-"
-:
-"
-/
-builds
-/
-tooltool_cache
-"
 }
