@@ -785,7 +785,7 @@ ExportEntryObject
 localName
 LocalNameSlot
 )
-DEFINE_ATOM_ACCESSOR_METHOD
+DEFINE_ATOM_OR_NULL_ACCESSOR_METHOD
 (
 ExportEntryObject
 exportName
