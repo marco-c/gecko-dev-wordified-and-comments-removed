@@ -8770,7 +8770,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
@@ -9584,7 +9584,7 @@ return
 mTextInputHandler
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :

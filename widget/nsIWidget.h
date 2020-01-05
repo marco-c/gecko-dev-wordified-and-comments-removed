@@ -2566,7 +2566,9 @@ aDoCapture
 =
 0
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 GetAttention
 (
 int32_t
@@ -2625,7 +2627,9 @@ GetLastRollup
 =
 0
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginResizeDrag
 (
 mozilla
@@ -2642,7 +2646,9 @@ aVertical
 =
 0
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginMoveDrag
 (
 mozilla
@@ -3179,7 +3185,9 @@ GetNativeIMEContext
 (
 )
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 AttachNativeKeyEvent
 (
 mozilla
@@ -3247,7 +3255,9 @@ GetIMEUpdatePreference
 =
 0
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 OnDefaultButtonLoaded
 (
 const

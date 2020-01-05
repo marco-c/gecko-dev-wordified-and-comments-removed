@@ -1185,7 +1185,9 @@ title
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 GetAttention
 (
 int32_t
@@ -1265,7 +1267,9 @@ GetNativeTextEventDispatcherListener
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 AttachNativeKeyEvent
 (
 mozilla
