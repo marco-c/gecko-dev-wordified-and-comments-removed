@@ -389,8 +389,10 @@ void
 *
 baselineDebugModeOSRHandlerNoFrameRegPopAddr_
 ;
-typedef
-GCRekeyableHashMap
+using
+VMWrapperMap
+=
+HashMap
 <
 const
 VMFunction
@@ -398,7 +400,6 @@ VMFunction
 JitCode
 *
 >
-VMWrapperMap
 ;
 VMWrapperMap
 *
