@@ -18467,7 +18467,7 @@ mAudioDevice
 &
 &
 (
-stopAudio
+stopVideo
 |
 |
 mVideoStopped
