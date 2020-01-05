@@ -2977,6 +2977,7 @@ function
 line
 column
 condition
+noSliding
 )
 {
 if
@@ -3034,6 +3035,7 @@ _getOrCreateBreakpointActor
 (
 location
 condition
+noSliding
 )
 .
 then
@@ -3102,6 +3104,7 @@ function
 (
 originalLocation
 condition
+noSliding
 )
 {
 let
@@ -3167,6 +3170,7 @@ this
 _setBreakpoint
 (
 actor
+noSliding
 )
 ;
 }
@@ -3175,6 +3179,7 @@ _setBreakpoint
 function
 (
 actor
+noSliding
 )
 {
 const
@@ -3200,6 +3205,16 @@ this
 isSourceMapped
 )
 {
+const
+generatedLocation
+=
+GeneratedLocation
+.
+fromOriginalLocation
+(
+originalLocation
+)
+;
 if
 (
 !
@@ -3208,13 +3223,12 @@ this
 _setBreakpointAtGeneratedLocation
 (
 actor
-GeneratedLocation
-.
-fromOriginalLocation
-(
-originalLocation
+generatedLocation
 )
-)
+&
+&
+!
+noSliding
 )
 {
 const
