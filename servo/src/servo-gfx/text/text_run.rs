@@ -551,6 +551,7 @@ text
 )
 ;
 let
+mut
 clump
 =
 MutableRange
@@ -771,6 +772,7 @@ text
 )
 ;
 let
+mut
 clump
 =
 MutableRange
