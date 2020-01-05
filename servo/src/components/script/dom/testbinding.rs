@@ -2579,10 +2579,7 @@ mut
 JSContext
 _
 :
-Option
-<
 JSVal
->
 )
 {
 }

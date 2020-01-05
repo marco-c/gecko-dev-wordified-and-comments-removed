@@ -166,7 +166,6 @@ version
 *
 /
 [
-Creator
 Throws
 ]
 DocumentType
@@ -181,7 +180,6 @@ systemId
 )
 ;
 [
-Creator
 Throws
 ]
 Document
@@ -205,9 +203,6 @@ doctype
 null
 )
 ;
-[
-Creator
-]
 Document
 createHTMLDocument
 (

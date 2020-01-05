@@ -211,10 +211,14 @@ optional
 CustomEventInit
 eventInitDict
 )
+/
+*
 Exposed
 =
 Window
 Worker
+*
+/
 ]
 interface
 CustomEvent

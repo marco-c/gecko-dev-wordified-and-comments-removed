@@ -253,7 +253,6 @@ elementId
 )
 ;
 [
-Creator
 Throws
 ]
 Element
@@ -264,7 +263,6 @@ localName
 )
 ;
 [
-Creator
 Throws
 ]
 Element
@@ -277,17 +275,11 @@ DOMString
 qualifiedName
 )
 ;
-[
-Creator
-]
 DocumentFragment
 createDocumentFragment
 (
 )
 ;
-[
-Creator
-]
 Text
 createTextNode
 (
@@ -295,9 +287,6 @@ DOMString
 data
 )
 ;
-[
-Creator
-]
 Comment
 createComment
 (
@@ -306,7 +295,6 @@ data
 )
 ;
 [
-Creator
 Throws
 ]
 ProcessingInstruction
@@ -344,7 +332,6 @@ node
 )
 ;
 [
-Creator
 Throws
 ]
 Event

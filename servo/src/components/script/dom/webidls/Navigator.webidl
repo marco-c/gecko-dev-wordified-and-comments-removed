@@ -176,10 +176,14 @@ html
 navigatorid
 [
 NoInterfaceObject
+/
+*
 Exposed
 =
 Window
 Worker
+*
+/
 ]
 interface
 NavigatorID
