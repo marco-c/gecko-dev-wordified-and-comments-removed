@@ -221,14 +221,6 @@ tests
 gtest
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-tests
-'
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
@@ -416,11 +408,6 @@ jsm
 '
 '
 TelemetryLog
-.
-jsm
-'
-'
-TelemetryModules
 .
 jsm
 '

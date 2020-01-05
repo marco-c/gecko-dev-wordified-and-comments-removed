@@ -1,8 +1,0 @@
-void
-nothing
-(
-)
-{
-return
-;
-}
