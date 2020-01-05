@@ -46185,7 +46185,7 @@ inheritFrame
 inheritFrame
 -
 >
-GetParent
+GetInFlowParent
 (
 )
 ;

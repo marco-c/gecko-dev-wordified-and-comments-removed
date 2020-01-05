@@ -2057,6 +2057,13 @@ return
 mParent
 ;
 }
+inline
+nsContainerFrame
+*
+GetInFlowParent
+(
+)
+;
 void
 SetParent
 (
