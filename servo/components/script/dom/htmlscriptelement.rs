@@ -5238,11 +5238,6 @@ self
 >
 DOMString
 {
-Node
-:
-:
-collect_text_contents
-(
 self
 .
 upcast
@@ -5254,9 +5249,8 @@ Node
 (
 )
 .
-children
+child_text_content
 (
-)
 )
 }
 fn

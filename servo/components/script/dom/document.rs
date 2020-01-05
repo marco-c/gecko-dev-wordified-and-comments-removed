@@ -17871,16 +17871,10 @@ Steps
 let
 value
 =
-Node
-:
-:
-collect_text_contents
-(
 title
 .
-children
+child_text_content
 (
-)
 )
 ;
 DOMString
