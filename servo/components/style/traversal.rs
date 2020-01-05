@@ -2408,6 +2408,12 @@ hint
 .
 propagate
 (
+&
+context
+.
+shared
+.
+traversal_flags
 )
 }
 }
