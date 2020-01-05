@@ -284,6 +284,15 @@ use
 dom
 :
 :
+processinginstruction
+:
+:
+ProcessingInstructionHelpers
+;
+use
+dom
+:
+:
 servohtmlparser
 ;
 use
