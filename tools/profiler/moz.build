@@ -283,13 +283,6 @@ cpp
 '
 gecko
 /
-SaveProfileTask
-.
-cpp
-'
-'
-gecko
-/
 ThreadResponsiveness
 .
 cpp
