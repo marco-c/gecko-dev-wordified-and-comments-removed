@@ -3172,6 +3172,15 @@ v
 )
 ;
 }
+get
+wrappedJSObject
+(
+)
+{
+return
+this
+;
+}
 QueryInterface
 :
 function
