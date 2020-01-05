@@ -3,7 +3,7 @@ re
 import
 sys
 def
-read_keyword_list
+read_reserved_word_list
 (
 filename
 )
@@ -53,7 +53,7 @@ s
 "
 )
     
-keyword_list
+reserved_word_list
 =
 [
 ]
@@ -93,7 +93,7 @@ if
 m
 :
                 
-keyword_list
+reserved_word_list
 .
 append
 (
@@ -117,7 +117,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -125,7 +125,7 @@ keyword_list
 )
     
 return
-keyword_list
+reserved_word_list
 def
 line
 (
@@ -201,7 +201,7 @@ indent_level
 def
 span_and_count_at
 (
-keyword_list
+reserved_word_list
 column
 )
 :
@@ -210,7 +210,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -225,16 +225,16 @@ chars_dict
     
 for
 index
-keyword
+word
 in
-keyword_list
+reserved_word_list
 :
         
 chars_dict
 [
 ord
 (
-keyword
+word
 [
 column
 ]
@@ -275,7 +275,7 @@ def
 optimal_switch_column
 (
 opt
-keyword_list
+reserved_word_list
 columns
 unprocessed_columns
 )
@@ -285,7 +285,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -333,7 +333,7 @@ count
 =
 span_and_count_at
 (
-keyword_list
+reserved_word_list
 columns
 [
 index
@@ -435,7 +435,7 @@ False
 def
 split_list_per_column
 (
-keyword_list
+reserved_word_list
 column
 )
 :
@@ -444,7 +444,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -460,11 +460,11 @@ column_dict
 for
 item
 in
-keyword_list
+reserved_word_list
 :
         
 index
-keyword
+word
 =
 item
         
@@ -474,7 +474,7 @@ column_dict
 .
 setdefault
 (
-keyword
+word
 [
 column
 ]
@@ -502,7 +502,7 @@ key
 lambda
 (
 char
-keyword
+word
 )
 :
 ord
@@ -515,7 +515,7 @@ generate_letter_switch
 (
 opt
 unprocessed_columns
-keyword_list
+reserved_word_list
                            
 columns
 =
@@ -527,7 +527,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -551,7 +551,7 @@ unprocessed_columns
 if
 len
 (
-keyword_list
+reserved_word_list
 )
 =
 =
@@ -559,9 +559,9 @@ keyword_list
 :
         
 index
-keyword
+word
 =
-keyword_list
+reserved_word_list
 [
 0
 ]
@@ -577,7 +577,7 @@ line
 (
 opt
 '
-JSKW_GOT_MATCH
+JSRW_GOT_MATCH
 (
 {
 }
@@ -593,7 +593,7 @@ JSKW_GOT_MATCH
 format
 (
 index
-keyword
+word
 )
 )
             
@@ -614,7 +614,7 @@ line
 (
 opt
 '
-JSKW_TEST_GUESS
+JSRW_TEST_GUESS
 (
 {
 }
@@ -630,7 +630,7 @@ JSKW_TEST_GUESS
 format
 (
 index
-keyword
+word
 )
 )
             
@@ -656,7 +656,7 @@ quoted
 =
 repr
 (
-keyword
+word
 [
 column
 ]
@@ -667,7 +667,7 @@ conds
 append
 (
 '
-JSKW_AT
+JSRW_AT
 (
 {
 }
@@ -721,7 +721,7 @@ line
 (
 opt
 '
-JSKW_GOT_MATCH
+JSRW_GOT_MATCH
 (
 {
 }
@@ -737,7 +737,7 @@ JSKW_GOT_MATCH
 format
 (
 index
-keyword
+word
 )
 )
         
@@ -758,7 +758,7 @@ line
 (
 opt
 '
-JSKW_NO_MATCH
+JSRW_NO_MATCH
 (
 )
 '
@@ -781,7 +781,7 @@ use_if
 optimal_switch_column
 (
 opt
-keyword_list
+reserved_word_list
                                                          
 columns
                                                          
@@ -818,7 +818,7 @@ list_per_column
 =
 split_list_per_column
 (
-keyword_list
+reserved_word_list
 optimal_column
 )
     
@@ -833,7 +833,7 @@ opt
 '
 switch
 (
-JSKW_AT
+JSRW_AT
 (
 {
 }
@@ -851,7 +851,7 @@ optimal_column
     
 for
 char
-keyword_list_per_column
+reserved_word_list_per_column
 in
 list_per_column
 :
@@ -873,7 +873,7 @@ opt
 '
 if
 (
-JSKW_AT
+JSRW_AT
 (
 {
 }
@@ -926,7 +926,7 @@ unprocessed_columns
 -
 1
                                
-keyword_list_per_column
+reserved_word_list_per_column
 columns
 )
         
@@ -964,7 +964,7 @@ line
 (
 opt
 '
-JSKW_NO_MATCH
+JSRW_NO_MATCH
 (
 )
 '
@@ -972,7 +972,7 @@ JSKW_NO_MATCH
 def
 split_list_per_length
 (
-keyword_list
+reserved_word_list
 )
 :
     
@@ -980,7 +980,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -996,11 +996,11 @@ length_dict
 for
 item
 in
-keyword_list
+reserved_word_list
 :
         
 index
-keyword
+word
 =
 item
         
@@ -1012,7 +1012,7 @@ setdefault
 (
 len
 (
-keyword
+word
 )
 [
 ]
@@ -1038,7 +1038,7 @@ key
 lambda
 (
 length
-keyword
+word
 )
 :
 length
@@ -1047,7 +1047,7 @@ def
 generate_switch
 (
 opt
-keyword_list
+reserved_word_list
 )
 :
     
@@ -1055,7 +1055,7 @@ assert
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 !
 =
@@ -1093,16 +1093,16 @@ format
 (
 len
 (
-keyword_list
+reserved_word_list
 )
 )
 )
     
 for
 index
-keyword
+word
 in
-keyword_list
+reserved_word_list
 :
         
 line
@@ -1116,7 +1116,7 @@ opt
 .
 format
 (
-keyword
+word
 )
 )
     
@@ -1133,7 +1133,7 @@ list_per_length
 =
 split_list_per_length
 (
-keyword_list
+reserved_word_list
 )
     
 use_if
@@ -1169,7 +1169,7 @@ opt
 '
 switch
 (
-JSKW_LENGTH
+JSRW_LENGTH
 (
 )
 )
@@ -1179,7 +1179,7 @@ JSKW_LENGTH
     
 for
 length
-keyword_list_per_length
+reserved_word_list_per_length
 in
 list_per_length
 :
@@ -1194,7 +1194,7 @@ opt
 '
 if
 (
-JSKW_LENGTH
+JSRW_LENGTH
 (
 )
 =
@@ -1240,7 +1240,7 @@ generate_letter_switch
 (
 opt
 length
-keyword_list_per_length
+reserved_word_list_per_length
 )
         
 dedent
@@ -1277,7 +1277,7 @@ line
 (
 opt
 '
-JSKW_NO_MATCH
+JSRW_NO_MATCH
 (
 )
 '
@@ -1286,15 +1286,15 @@ def
 main
 (
 output
-keywords_h
+reserved_words_h
 )
 :
     
-keyword_list
+reserved_word_list
 =
-read_keyword_list
+read_reserved_word_list
 (
-keywords_h
+reserved_words_h
 )
     
 opt
@@ -1330,7 +1330,7 @@ output
 generate_switch
 (
 opt
-keyword_list
+reserved_word_list
 )
 if
 __name__

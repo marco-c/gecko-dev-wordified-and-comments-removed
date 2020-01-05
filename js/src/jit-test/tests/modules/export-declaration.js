@@ -1633,12 +1633,6 @@ a
 SyntaxError
 )
 ;
-assertThrowsInstanceOf
-(
-function
-(
-)
-{
 parseAsModule
 (
 "
@@ -1653,10 +1647,6 @@ from
 b
 '
 "
-)
-;
-}
-SyntaxError
 )
 ;
 assertThrowsInstanceOf
