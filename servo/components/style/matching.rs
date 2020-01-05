@@ -2638,6 +2638,17 @@ if
 booleans
 .
 animate
+&
+&
+cfg
+!
+(
+feature
+=
+"
+servo
+"
+)
 {
 if
 let
