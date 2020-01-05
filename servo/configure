@@ -1271,6 +1271,14 @@ for
 submodule
 deps
 "
+opt
+debug
+0
+"
+use
+debugging
+symbols
+"
 valopt
 local
 -
