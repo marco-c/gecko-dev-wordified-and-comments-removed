@@ -32,6 +32,8 @@ nsCSSSelector
 ;
 enum
 nsChangeHint
+:
+uint32_t
 {
 nsChangeHint_Empty
 =
@@ -915,6 +917,8 @@ result
 }
 enum
 nsRestyleHint
+:
+uint32_t
 {
 eRestyle_Self
 =
