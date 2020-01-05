@@ -309,6 +309,8 @@ web
 platform
 -
 tests
+-
+talos
 linux64
 -
 asan

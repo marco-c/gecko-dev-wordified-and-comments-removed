@@ -8624,7 +8624,7 @@ RecvRealKeyEvent
 const
 WidgetKeyboardEvent
 &
-event
+aEvent
 const
 MaybeNativeKeyBinding
 &
@@ -8635,7 +8635,7 @@ if
 (
 SkipRepeatedKeyEvent
 (
-event
+aEvent
 )
 )
 {
@@ -8653,7 +8653,7 @@ mPuppetWidget
 ;
 if
 (
-event
+aEvent
 .
 mMessage
 =
@@ -8729,7 +8729,7 @@ CacheNoCommands
 WidgetKeyboardEvent
 localEvent
 (
-event
+aEvent
 )
 ;
 localEvent
@@ -8756,7 +8756,7 @@ localEvent
 ;
 if
 (
-event
+aEvent
 .
 mMessage
 =
@@ -8897,13 +8897,13 @@ RecvCompositionEvent
 const
 WidgetCompositionEvent
 &
-event
+aEvent
 )
 {
 WidgetCompositionEvent
 localEvent
 (
-event
+aEvent
 )
 ;
 localEvent
@@ -8925,7 +8925,7 @@ Unused
 <
 SendOnEventNeedingAckHandled
 (
-event
+aEvent
 .
 mMessage
 )
@@ -8951,13 +8951,13 @@ RecvSelectionEvent
 const
 WidgetSelectionEvent
 &
-event
+aEvent
 )
 {
 WidgetSelectionEvent
 localEvent
 (
-event
+aEvent
 )
 ;
 localEvent
@@ -8979,7 +8979,7 @@ Unused
 <
 SendOnEventNeedingAckHandled
 (
-event
+aEvent
 .
 mMessage
 )
