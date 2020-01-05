@@ -415,8 +415,10 @@ modified
 as
 i64
 )
-"
-"
+&
+selected
+.
+type_string
 )
 }
 pub
@@ -499,13 +501,12 @@ filePropertyBag
 parent
 ;
 let
+ref
 typeString
 =
 blobPropertyBag
 .
-get_typestring
-(
-)
+type_
 ;
 let
 modified
@@ -531,7 +532,6 @@ bytes
 )
 filename
 modified
-&
 typeString
 )
 )
