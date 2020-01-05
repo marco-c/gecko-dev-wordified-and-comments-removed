@@ -5321,8 +5321,11 @@ failure
 "
 )
 .
-unwrap
+expect
 (
+"
+infallible
+"
 )
 )
 )
@@ -5911,8 +5914,11 @@ blank
 "
 )
 .
-unwrap
+expect
 (
+"
+infallible
+"
 )
 )
 ;
