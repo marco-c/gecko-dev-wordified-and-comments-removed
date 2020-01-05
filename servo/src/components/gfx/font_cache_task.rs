@@ -1372,7 +1372,6 @@ fn
 get_font_template
 (
 &
-mut
 self
 family
 :
@@ -1440,7 +1439,6 @@ fn
 add_web_font
 (
 &
-mut
 self
 family
 :
