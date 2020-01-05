@@ -117,6 +117,7 @@ a
 media
 type
 .
+pub
 struct
 MediaQuery
 {
@@ -132,6 +133,7 @@ Level
 MQ
 expressions
 }
+pub
 enum
 MediaQueryType
 {

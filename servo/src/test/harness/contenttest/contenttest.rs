@@ -399,7 +399,6 @@ TestDescAndFn
 >
 {
 let
-mut
 files_res
 =
 fs

@@ -610,6 +610,7 @@ the
 main
 thread
 .
+pub
 enum
 GraphicsContext
 {
@@ -733,6 +734,7 @@ to
 store
 unused
 LayerBuffers
+priv
 buffer_map
 :
 BufferMap

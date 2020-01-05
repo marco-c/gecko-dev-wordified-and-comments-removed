@@ -80,6 +80,7 @@ org
 allow
 (
 non_camel_case_types
+uppercase_variables
 )
 ]
 ;
@@ -9288,6 +9289,7 @@ SpecifiedValue
 %
 endfor
 }
+pub
 enum
 PropertyDeclarationParseResult
 {
