@@ -2438,6 +2438,9 @@ FontFamilyListEntry
 >
 *
 fontFamilies
+OptionalURIParams
+*
+aUserContentSheetURL
 )
 override
 ;
