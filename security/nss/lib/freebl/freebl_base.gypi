@@ -236,6 +236,11 @@ fipsfreebl
 c
 '
 '
+blinit
+.
+c
+'
+'
 freeblver
 .
 c

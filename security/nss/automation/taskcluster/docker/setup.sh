@@ -137,6 +137,14 @@ apt_packages
 =
 (
 '
+locales
+'
+)
+apt_packages
++
+=
+(
+'
 ninja
 -
 build

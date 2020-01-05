@@ -232,6 +232,14 @@ apt_packages
 mercurial
 '
 )
+apt_packages
++
+=
+(
+'
+locales
+'
+)
 #
 Install
 packages

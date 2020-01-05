@@ -135,6 +135,14 @@ apt_packages
 =
 (
 '
+locales
+'
+)
+apt_packages
++
+=
+(
+'
 ninja
 -
 build
@@ -332,10 +340,6 @@ fr
 clang
 -
 tmp
-#
-Generate
-locales
-.
 locale
 -
 gen

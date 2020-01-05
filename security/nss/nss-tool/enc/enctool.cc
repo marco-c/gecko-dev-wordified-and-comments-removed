@@ -1610,9 +1610,7 @@ chunkSize
 char
 buffer
 [
-chunkSize
-+
-16
+1040
 ]
 ;
 const
@@ -1662,7 +1660,7 @@ __LINE__
 )
 ;
 return
-SECFailure
+false
 ;
 }
 ScopedSECItem
@@ -1708,7 +1706,7 @@ __LINE__
 )
 ;
 return
-SECFailure
+false
 ;
 }
 ScopedPK11SymKey
@@ -1758,7 +1756,7 @@ __LINE__
 )
 ;
 return
-SECFailure
+false
 ;
 }
 std
@@ -1872,9 +1870,15 @@ ReadInputData
 "
 )
 ;
+std
+:
+:
+vector
+<
 uint8_t
+>
 out
-[
+(
 data
 .
 size
@@ -1882,7 +1886,7 @@ size
 )
 +
 16
-]
+)
 ;
 SECStatus
 rv
@@ -1908,6 +1912,10 @@ get
 (
 )
 out
+.
+data
+(
+)
 &
 outLen
 data
@@ -1948,6 +1956,10 @@ get
 (
 )
 out
+.
+data
+(
+)
 &
 outLen
 data
@@ -2013,6 +2025,10 @@ char
 >
 (
 out
+.
+data
+(
+)
 )
 outLen
 )
@@ -2116,9 +2132,7 @@ false
 uint8_t
 out
 [
-chunkSize
-+
-16
+1040
 ]
 ;
 while

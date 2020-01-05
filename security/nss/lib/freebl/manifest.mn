@@ -692,6 +692,10 @@ ctr
 .
 c
 \
+blinit
+.
+c
+\
 fipsfreebl
 .
 c

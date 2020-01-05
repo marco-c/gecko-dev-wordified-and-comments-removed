@@ -65,6 +65,7 @@ curl
 ca
 -
 certificates
+locales
 #
 Latest
 Mercurial

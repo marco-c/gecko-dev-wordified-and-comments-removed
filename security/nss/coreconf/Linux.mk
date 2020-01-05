@@ -791,6 +791,9 @@ LDFLAGS
 (
 ARCHFLAG
 )
+-
+z
+noexecstack
 #
 On
 Maemo

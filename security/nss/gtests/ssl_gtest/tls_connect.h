@@ -666,6 +666,11 @@ DisableECDHEServerKeyReuse
 (
 )
 ;
+void
+SkipVersionChecks
+(
+)
+;
 protected
 :
 Mode
@@ -793,6 +798,9 @@ expect_extended_master_secret_
 ;
 bool
 expect_early_data_accepted_
+;
+bool
+skip_version_checks_
 ;
 class
 DuplicateGroupChecker

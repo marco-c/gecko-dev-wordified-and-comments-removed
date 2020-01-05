@@ -234,6 +234,11 @@ ssl_version_unittest
 cc
 '
 '
+ssl_versionpolicy_unittest
+.
+cc
+'
+'
 test_io
 .
 cc

@@ -72,6 +72,14 @@ apt_packages
 =
 (
 '
+locales
+'
+)
+apt_packages
++
+=
+(
+'
 python
 -
 dev

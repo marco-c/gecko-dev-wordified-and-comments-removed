@@ -393,7 +393,7 @@ TestFakeEncode
 TEST_F
 (
 B64EncodeDecodeTest
-LongFakeDecTest1
+DISABLED_LongFakeDecTest1
 )
 {
 EXPECT_TRUE
@@ -408,7 +408,7 @@ TestFakeDecode
 TEST_F
 (
 B64EncodeDecodeTest
-LongFakeEncDecTest1
+DISABLED_LongFakeEncDecTest1
 )
 {
 TestFakeEncode
@@ -420,7 +420,7 @@ TestFakeEncode
 TEST_F
 (
 B64EncodeDecodeTest
-LongFakeEncDecTest2
+DISABLED_LongFakeEncDecTest2
 )
 {
 EXPECT_FALSE
