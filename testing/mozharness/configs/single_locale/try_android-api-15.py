@@ -131,13 +131,13 @@ s
 /
 mobile
 /
-android
-/
 locales
 /
-all
+l10n
 -
-locales
+changesets
+.
+json
 "
 %
 MOZILLA_DIR
