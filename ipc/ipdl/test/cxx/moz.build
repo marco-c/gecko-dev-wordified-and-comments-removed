@@ -573,6 +573,11 @@ PTestOpensOpened
 ipdl
 '
 '
+PTestPriority
+.
+ipdl
+'
+'
 PTestRaceDeadlock
 .
 ipdl
