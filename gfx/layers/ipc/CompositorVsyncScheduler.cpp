@@ -625,6 +625,15 @@ IsInCompositorThread
 ;
 if
 (
+!
+mVsyncObserver
+)
+{
+return
+;
+}
+if
+(
 mAsapScheduling
 )
 {
