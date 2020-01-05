@@ -1866,9 +1866,6 @@ dom
 LargeAllocStatus
 mLargeAllocStatus
 ;
-bool
-mShouldResumeOnFirstActiveMediaComponent
-;
 }
 ;
 #
