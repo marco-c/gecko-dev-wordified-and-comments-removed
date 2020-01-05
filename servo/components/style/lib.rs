@@ -491,13 +491,6 @@ pub
 mod
 matching
 ;
-#
-[
-allow
-(
-missing_docs
-)
-]
 pub
 mod
 media_queries
