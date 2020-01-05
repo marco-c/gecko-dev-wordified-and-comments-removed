@@ -33,3 +33,13 @@ SERVO_ARC_TYPE
 AnimationValue
 RawServoAnimationValue
 )
+SERVO_ARC_TYPE
+(
+MediaList
+RawServoMediaList
+)
+SERVO_ARC_TYPE
+(
+MediaRule
+RawServoMediaRule
+)
