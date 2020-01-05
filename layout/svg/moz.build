@@ -343,6 +343,11 @@ SVGGeometryFrame
 cpp
 '
 '
+SVGImageContext
+.
+cpp
+'
+'
 SVGTextFrame
 .
 cpp

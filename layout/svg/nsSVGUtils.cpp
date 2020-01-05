@@ -369,6 +369,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 static
 bool
 sSVGPathCachingEnabled
