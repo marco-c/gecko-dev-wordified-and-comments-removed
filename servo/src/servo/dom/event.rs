@@ -3,8 +3,8 @@ Event
 {
 ResizeEvent
 (
-int
-int
+uint
+uint
 )
 ReflowEvent
 }
