@@ -78,6 +78,9 @@ border_top_width
 :
 :
 SpecifiedValue
+:
+:
+from_length
 (
 Length
 :
@@ -124,6 +127,9 @@ border_top_width
 :
 :
 SpecifiedValue
+:
+:
+from_length
 (
 Length
 :
