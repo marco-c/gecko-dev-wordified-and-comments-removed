@@ -13097,7 +13097,7 @@ if
 pc
 -
 >
-isGenerator
+needsDotGeneratorName
 (
 )
 )
