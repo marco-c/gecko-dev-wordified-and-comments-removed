@@ -778,7 +778,7 @@ NS_LITERAL_STRING
 "
 )
 +
-nsDependentString
+nsDependentAtomString
 (
 mImage
 -

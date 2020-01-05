@@ -1374,9 +1374,10 @@ aGradient
 void
 SetElementId
 (
-const
-char16_t
-*
+already_AddRefed
+<
+nsIAtom
+>
 aElementId
 )
 ;
@@ -1537,7 +1538,7 @@ mGradient
 ;
 }
 const
-char16_t
+nsIAtom
 *
 GetElementId
 (
@@ -1827,7 +1828,7 @@ URLValue
 *
 mURLValue
 ;
-char16_t
+nsIAtom
 *
 mElementId
 ;
