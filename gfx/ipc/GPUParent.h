@@ -27,6 +27,9 @@ h
 namespace
 mozilla
 {
+class
+TimeStamp
+;
 namespace
 gfx
 {
@@ -388,6 +391,10 @@ override
 ;
 private
 :
+const
+TimeStamp
+mLaunchTime
+;
 RefPtr
 <
 VsyncBridgeParent
