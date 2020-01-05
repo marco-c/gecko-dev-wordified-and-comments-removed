@@ -22387,9 +22387,9 @@ location
             
 if
 (
+(
 isAncestor
 or
-(
 member
 .
 isAttr
@@ -23720,6 +23720,17 @@ reserved_ro_names
 size
 "
 ]
+        
+self
+.
+disallowedMemberNames
+.
+append
+(
+"
+size
+"
+)
         
 self
 .
