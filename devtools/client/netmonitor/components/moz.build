@@ -108,6 +108,13 @@ list
 js
 '
 '
+statistics
+-
+panel
+.
+js
+'
+'
 toolbar
 .
 js

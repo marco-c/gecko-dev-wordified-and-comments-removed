@@ -181,13 +181,6 @@ predicates
 js
 '
 '
-statistics
--
-view
-.
-js
-'
-'
 store
 .
 js
