@@ -845,9 +845,6 @@ webExtTip
 "
 )
 )
-"
-(
-"
 dom
 .
 a
@@ -867,13 +864,12 @@ Strings
 GetStringFromName
 (
 "
-moreInfo
+webExtTip
+.
+learnMore
 "
 )
 )
-"
-)
-"
 )
 )
 dom
