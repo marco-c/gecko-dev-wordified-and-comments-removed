@@ -13,9 +13,6 @@ gfxVR
 h
 "
 #
-ifdef
-MOZ_GAMEPAD
-#
 include
 "
 mozilla
@@ -37,8 +34,6 @@ GamepadBinding
 .
 h
 "
-#
-endif
 #
 ifndef
 M_PI
@@ -394,9 +389,15 @@ const
 char
 *
 aID
-uint32_t
+dom
+:
+:
+GamepadMappingType
 aMapping
-uint32_t
+dom
+:
+:
+GamepadHand
 aHand
 uint32_t
 aNumButtons

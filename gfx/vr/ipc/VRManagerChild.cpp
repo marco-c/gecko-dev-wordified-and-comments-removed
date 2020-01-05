@@ -109,9 +109,6 @@ nsContentUtils
 h
 "
 #
-ifdef
-MOZ_GAMEPAD
-#
 include
 "
 mozilla
@@ -122,8 +119,6 @@ GamepadManager
 .
 h
 "
-#
-endif
 using
 layers
 :
@@ -2022,9 +2017,6 @@ GamepadChangeEvent
 aGamepadEvent
 )
 {
-#
-ifdef
-MOZ_GAMEPAD
 MOZ_ASSERT
 (
 XRE_IsContentProcess
@@ -2065,8 +2057,6 @@ aGamepadEvent
 )
 ;
 }
-#
-endif
 return
 IPC_OK
 (
