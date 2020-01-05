@@ -8107,6 +8107,10 @@ layoutState
 )
 ;
 }
+{
+nsAutoScriptBlocker
+scriptBlocker
+;
 DestroyPresShell
 (
 )
@@ -8157,6 +8161,7 @@ SetParentWidget
 nullptr
 )
 ;
+}
 }
 return
 NS_OK
