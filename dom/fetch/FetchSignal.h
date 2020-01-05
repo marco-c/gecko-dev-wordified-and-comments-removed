@@ -91,6 +91,13 @@ bool
 aAborted
 )
 ;
+explicit
+FetchSignal
+(
+bool
+aAborted
+)
+;
 JSObject
 *
 WrapObject
