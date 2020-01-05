@@ -2091,6 +2091,15 @@ noStack
 \
 macro
 (
+notes
+notes
+"
+notes
+"
+)
+\
+macro
+(
 NumberFormat
 NumberFormat
 "
