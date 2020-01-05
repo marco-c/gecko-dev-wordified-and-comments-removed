@@ -3003,13 +3003,6 @@ EnsureSafeToHandOutCSSRules
 void
 NotifyInvalidation
 (
-uint32_t
-aFlags
-)
-;
-void
-NotifyInvalidation
-(
 const
 nsRect
 &
@@ -3149,10 +3142,6 @@ mRequests
 Clear
 (
 )
-;
-mAllInvalidated
-=
-false
 ;
 }
 uint64_t
@@ -4240,11 +4229,6 @@ mPrefChangePendingNeedsReflow
 ;
 unsigned
 mIsEmulatingMedia
-:
-1
-;
-unsigned
-mAllInvalidated
 :
 1
 ;
