@@ -1294,7 +1294,7 @@ HintsHandledForFrame
 )
 {
 return
-mHintsHandled
+mHintsHandledBySelf
 ;
 }
 void
@@ -1865,8 +1865,12 @@ nsStyleChangeList
 const
 mChangeList
 ;
+const
 nsChangeHint
-mHintsHandled
+mHintsHandledByAncestors
+;
+nsChangeHint
+mHintsHandledBySelf
 ;
 nsChangeHint
 mParentFrameHintsNotHandledForDescendants
