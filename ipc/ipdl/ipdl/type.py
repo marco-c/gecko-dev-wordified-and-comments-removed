@@ -3168,7 +3168,7 @@ scopes
         
 self
 .
-globalScope
+currentScope
 =
 self
 .
@@ -3176,14 +3176,6 @@ scopes
 [
 0
 ]
-        
-self
-.
-currentScope
-=
-self
-.
-globalScope
     
 def
 enterScope
@@ -3194,7 +3186,6 @@ node
 :
         
 assert
-(
 isinstance
 (
 self
@@ -3205,29 +3196,14 @@ scopes
 ]
 dict
 )
-                
-and
-self
-.
-globalScope
-is
-self
-.
-scopes
-[
-0
-]
-)
         
 assert
-(
 isinstance
 (
 self
 .
 currentScope
 dict
-)
 )
         
 if
@@ -3309,7 +3285,6 @@ scopes
 ]
         
 assert
-(
 isinstance
 (
 self
@@ -3319,19 +3294,6 @@ scopes
 0
 ]
 dict
-)
-                
-and
-self
-.
-globalScope
-is
-self
-.
-scopes
-[
-0
-]
 )
         
 assert
