@@ -12,6 +12,10 @@ import
 re
 import
 sys
+from
+shared_telemetry_utils
+import
+ParserError
 MAX_LABEL_LENGTH
 =
 20
@@ -110,7 +114,7 @@ else
 :
         
 raise
-BaseException
+ParserError
 (
 "
 don
@@ -130,14 +134,6 @@ s
 %
 kind
 )
-class
-DefinitionException
-(
-BaseException
-)
-:
-    
-pass
 def
 linear_buckets
 (
@@ -478,7 +474,7 @@ e
 :
             
 raise
-BaseException
+Exception
 (
 '
 error
@@ -951,7 +947,7 @@ datasets
 :
             
 raise
-DefinitionException
+ParserError
 (
 "
 unknown
@@ -1783,7 +1779,7 @@ name
 :
             
 raise
-ValueError
+ParserError
 (
 '
 "
@@ -1813,7 +1809,7 @@ LABELS_
 :
             
 raise
-ValueError
+ParserError
 (
 "
 Histogram
@@ -1881,7 +1877,7 @@ IGNORECASE
 :
                 
 raise
-ValueError
+ParserError
 (
 "
 Histogram
@@ -1958,7 +1954,7 @@ expiry_default
 :
             
 raise
-ValueError
+ParserError
 (
 '
 New
@@ -2112,7 +2108,7 @@ invalid
 :
             
 raise
-ValueError
+ParserError
 (
 '
 Label
@@ -2155,7 +2151,7 @@ MAX_LABEL_COUNT
 :
             
 raise
-ValueError
+ParserError
 (
 '
 Label
@@ -2234,7 +2230,7 @@ invalid
 :
             
 raise
-ValueError
+ParserError
 (
 '
 Label
@@ -2392,7 +2388,7 @@ kind
 :
             
 raise
-KeyError
+ParserError
 (
 (
 '
@@ -2410,7 +2406,7 @@ Desktop
 you
 should
 '
-                            
+                               
 '
 use
 scalars
@@ -2419,7 +2415,7 @@ instead
 %
 s
 '
-                            
+                               
 '
 Are
 you
@@ -2432,7 +2428,7 @@ on
 Android
 ?
 '
-                            
+                               
 '
 Add
 "
@@ -2449,7 +2445,7 @@ definition
 .
 '
 )
-                           
+                              
 %
 (
 hist_kind
@@ -2516,7 +2512,7 @@ field
 :
                 
 raise
-KeyError
+ParserError
 (
 '
 New
@@ -2580,7 +2576,7 @@ json
 '
                 
 raise
-KeyError
+ParserError
 (
 msg
 %
@@ -2848,7 +2844,7 @@ key_type
 :
                 
 raise
-ValueError
+ParserError
 (
 '
 value
@@ -2925,7 +2921,7 @@ key
 :
                 
 raise
-ValueError
+ParserError
 (
 '
 all
@@ -2992,7 +2988,7 @@ allowed_keys
 :
                 
 raise
-KeyError
+ParserError
 (
 '
 %
@@ -3075,7 +3071,7 @@ n_buckets
 :
                 
 raise
-KeyError
+ParserError
 (
 '
 New
@@ -3331,7 +3327,7 @@ d
 :
             
 raise
-ValueError
+ParserError
 (
 "
 Found
@@ -3397,7 +3393,7 @@ e
 :
             
 raise
-BaseException
+ParserError
 (
 "
 error
@@ -3719,7 +3715,7 @@ OrderedDict
 :
             
 raise
-BaseException
+ParserError
 (
 "
 histogram
@@ -3753,7 +3749,7 @@ all_histograms
 :
                 
 raise
-DefinitionException
+ParserError
 (
 "
 duplicate
@@ -3846,7 +3842,7 @@ use_counter_indices
 :
             
 raise
-DefinitionException
+ParserError
 (
 "
 use
@@ -3933,7 +3929,7 @@ s
 '
             
 raise
-BaseException
+ParserError
 (
 msg
 %

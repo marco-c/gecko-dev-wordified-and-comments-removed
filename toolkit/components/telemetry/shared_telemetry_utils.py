@@ -64,6 +64,14 @@ RecordedProcessType
 :
 :
 "
+class
+ParserError
+(
+Exception
+)
+:
+    
+pass
 def
 is_valid_process_name
 (

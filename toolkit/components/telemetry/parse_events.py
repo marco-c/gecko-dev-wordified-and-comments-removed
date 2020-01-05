@@ -12,6 +12,10 @@ import
 shared_telemetry_utils
 as
 utils
+from
+shared_telemetry_utils
+import
+ParserError
 MAX_CATEGORY_NAME_LENGTH
 =
 30
@@ -238,7 +242,7 @@ instance_type
 :
             
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -315,7 +319,7 @@ instance_types
 :
             
 raise
-ValueError
+ParserError
 (
 "
 At
@@ -363,7 +367,7 @@ instance_types
 :
             
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -470,7 +474,7 @@ value
 :
             
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -514,7 +518,7 @@ instance_type
 :
                 
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -627,7 +631,7 @@ keys
 :
             
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -675,7 +679,7 @@ keys_instance_type
 :
                 
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -747,7 +751,7 @@ values_instance_type
 :
                 
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -977,7 +981,7 @@ missing_fields
 :
         
 raise
-KeyError
+ParserError
 (
 identifier
 +
@@ -1027,7 +1031,7 @@ unknown_fields
 :
         
 raise
-KeyError
+ParserError
 (
 identifier
 +
@@ -1097,7 +1101,7 @@ min_length
 :
         
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -1143,7 +1147,7 @@ max_length
 :
         
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -1191,7 +1195,7 @@ value
 :
         
 raise
-ValueError
+ParserError
 (
 '
 %
@@ -1389,7 +1393,7 @@ allowed_rcc
 :
             
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -1452,7 +1456,7 @@ proc
 :
                 
 raise
-ValueError
+ParserError
 (
 self
 .
@@ -1497,7 +1501,7 @@ MAX_EXTRA_KEYS_COUNT
 :
             
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -1574,7 +1578,7 @@ definition
 :
             
 raise
-KeyError
+ParserError
 (
 "
 %
@@ -1642,7 +1646,7 @@ expiry_date
 :
                 
 raise
-ValueError
+ParserError
 (
 "
 %
@@ -2252,7 +2256,7 @@ definitions
     
 :
 raises
-Exception
+ParserError
 :
 if
 the
@@ -2303,7 +2307,7 @@ e
 :
         
 raise
-Exception
+ParserError
 (
 '
 Error
@@ -2322,12 +2326,12 @@ message
 )
     
 except
-ValueError
+ParserError
 e
 :
         
 raise
-Exception
+ParserError
 (
 '
 Error
@@ -2405,7 +2409,7 @@ category
 :
             
 raise
-ValueError
+ParserError
 (
 category_name
 +
