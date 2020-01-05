@@ -11782,7 +11782,7 @@ self
 .
 style
 .
-get_effects
+get_box
 (
 )
 .
@@ -13137,7 +13137,7 @@ fragment
 .
 style
 .
-get_effects
+get_box
 (
 )
 .
