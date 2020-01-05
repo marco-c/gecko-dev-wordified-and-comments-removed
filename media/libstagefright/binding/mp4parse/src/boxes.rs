@@ -343,5 +343,12 @@ MovieExtendsBox
 "
 mvex
 "
+MovieExtendsHeaderBox
+0x6d656864
+/
+/
+"
+mehd
+"
 )
 ;
