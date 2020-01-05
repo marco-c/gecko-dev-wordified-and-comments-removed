@@ -24,10 +24,10 @@ values
 :
 {
 CSSDisplay
-DisplayBlock
-DisplayInline
-DisplayInlineBlock
-DisplayNone
+CSSDisplayBlock
+CSSDisplayInline
+CSSDisplayInlineBlock
+CSSDisplayNone
 }
 ;
 use
@@ -39,7 +39,6 @@ values
 :
 {
 Inherit
-Initial
 Specified
 }
 ;
@@ -297,14 +296,14 @@ v
 let
 resolved
 =
-DisplayInline
+CSSDisplayInline
 ;
 if
 (
 resolved
 =
 =
-DisplayNone
+CSSDisplayNone
 )
 {
 return
@@ -337,7 +336,7 @@ Comment
 )
 =
 >
-DisplayNone
+CSSDisplayNone
 ~
 Text
 (
@@ -345,7 +344,7 @@ Text
 )
 =
 >
-DisplayInline
+CSSDisplayInline
 ~
 Element
 (
@@ -365,7 +364,7 @@ HTMLHeadElement
 )
 =
 >
-DisplayNone
+CSSDisplayNone
 ~
 HTMLScriptElement
 (
@@ -373,7 +372,7 @@ HTMLScriptElement
 )
 =
 >
-DisplayNone
+CSSDisplayNone
 ~
 HTMLParagraphElement
 (
@@ -381,7 +380,7 @@ HTMLParagraphElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 ~
 HTMLDivElement
 (
@@ -389,7 +388,7 @@ HTMLDivElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 ~
 HTMLBodyElement
 (
@@ -397,7 +396,7 @@ HTMLBodyElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 ~
 HTMLHeadingElement
 (
@@ -405,7 +404,7 @@ HTMLHeadingElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 ~
 HTMLHtmlElement
 (
@@ -413,7 +412,7 @@ HTMLHtmlElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 ~
 HTMLUListElement
 (
@@ -421,7 +420,7 @@ HTMLUListElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 ~
 HTMLOListElement
 (
@@ -429,7 +428,7 @@ HTMLOListElement
 )
 =
 >
-DisplayBlock
+CSSDisplayBlock
 _
 =
 >
@@ -1587,7 +1586,7 @@ flow
 )
 {
 (
-DisplayBlock
+CSSDisplayBlock
 RootFlow
 (
 *
@@ -1603,7 +1602,7 @@ Flow_Block
 builder
 )
 (
-DisplayBlock
+CSSDisplayBlock
 BlockFlow
 (
 *
@@ -1627,7 +1626,7 @@ builder
 )
 }
 (
-DisplayInline
+CSSDisplayInline
 InlineFlow
 (
 *
@@ -1641,7 +1640,7 @@ clone
 (
 )
 (
-DisplayInlineBlock
+CSSDisplayInlineBlock
 InlineFlow
 (
 *
@@ -1655,7 +1654,7 @@ clone
 (
 )
 (
-DisplayInline
+CSSDisplayInline
 BlockFlow
 (
 *
@@ -1670,7 +1669,7 @@ get_inline_collector
 builder
 )
 (
-DisplayInlineBlock
+CSSDisplayInlineBlock
 BlockFlow
 (
 *
@@ -1865,7 +1864,7 @@ simulate_UA_display_rules
 cur_node
 )
 {
-DisplayNone
+CSSDisplayNone
 =
 >
 return

@@ -38,6 +38,9 @@ use
 newcss
 :
 :
+stylesheet
+:
+:
 Stylesheet
 ;
 use
