@@ -8525,6 +8525,17 @@ XPConnect
 )
 )
 {
+GeckoProfilerTracingRAII
+tracer
+(
+"
+Paint
+"
+"
+NotifyDidPaint
+"
+)
+;
 nsContentUtils
 :
 :

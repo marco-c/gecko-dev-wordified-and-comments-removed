@@ -21074,6 +21074,17 @@ FireScrollEvent
 (
 )
 {
+GeckoProfilerTracingRAII
+tracer
+(
+"
+Paint
+"
+"
+FireScrollEvent
+"
+)
+;
 MOZ_ASSERT
 (
 mScrollEvent

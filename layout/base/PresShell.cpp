@@ -16129,6 +16129,17 @@ bool
 aFlushOnHoverChange
 )
 {
+GeckoProfilerTracingRAII
+tracer
+(
+"
+Paint
+"
+"
+DispatchSynthMouseMove
+"
+)
+;
 RestyleManager
 *
 restyleManager
@@ -20109,7 +20120,7 @@ layerManager
 layerManager
 -
 >
-AsKnowsCompositor
+AsClientLayerManager
 (
 )
 |
