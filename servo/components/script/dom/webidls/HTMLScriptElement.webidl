@@ -91,8 +91,6 @@ attribute
 DOMString
 charset
 ;
-/
-/
 attribute
 boolean
 async
