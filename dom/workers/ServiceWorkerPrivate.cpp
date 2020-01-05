@@ -8239,6 +8239,9 @@ TerminateWorker
 else
 if
 (
+mInfo
+&
+&
 IsIdle
 (
 )
