@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 use
 euclid
 :
