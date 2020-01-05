@@ -274,6 +274,17 @@ reg
 )
 ;
 inline
+LUse
+useFixedAtStart
+(
+MDefinition
+*
+mir
+AnyRegister
+reg
+)
+;
+inline
 LAllocation
 useOrConstant
 (
