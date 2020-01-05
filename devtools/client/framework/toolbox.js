@@ -10892,12 +10892,7 @@ _removeHostListeners
 (
 )
 ;
-if
-(
-win
-.
-location
-)
+try
 {
 win
 .
@@ -10912,6 +10907,12 @@ blank
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
 }
 if
 (
