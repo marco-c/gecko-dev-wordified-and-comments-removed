@@ -295,9 +295,6 @@ float
 handling
 .
 html
-fails
-test
--
 pref
 (
 dom
@@ -309,8 +306,6 @@ viewport
 enabled
 true
 )
-test
--
 pref
 (
 font
@@ -322,8 +317,6 @@ inflation
 emPerLine
 15
 )
-test
--
 pref
 (
 font
@@ -335,8 +328,6 @@ inflation
 forceEnabled
 true
 )
-test
--
 pref
 (
 font
@@ -726,8 +717,7 @@ height
 4
 .
 html
-test
--
+fails
 pref
 (
 font

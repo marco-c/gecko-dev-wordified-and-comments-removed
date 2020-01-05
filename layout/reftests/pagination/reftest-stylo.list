@@ -644,8 +644,6 @@ cols
 .
 xhtml
 fails
-test
--
 pref
 (
 layout
@@ -661,7 +659,6 @@ column
 enabled
 false
 )
-fails
 =
 =
 float
@@ -679,8 +676,6 @@ clear
 .
 html
 fails
-test
--
 pref
 (
 layout
@@ -730,8 +725,6 @@ clear
 .
 html
 fails
-test
--
 pref
 (
 layout
@@ -747,7 +740,6 @@ column
 enabled
 false
 )
-fails
 =
 =
 float
@@ -765,8 +757,6 @@ clear
 .
 html
 fails
-test
--
 pref
 (
 layout

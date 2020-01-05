@@ -9849,8 +9849,6 @@ html
 .
 html
 fails
-test
--
 pref
 (
 layout
@@ -9866,7 +9864,6 @@ column
 enabled
 false
 )
-fails
 =
 =
 386147
@@ -9879,9 +9876,10 @@ html
 1
 .
 html
+#
+Bug
+1341095
 fails
-test
--
 pref
 (
 layout
@@ -9909,6 +9907,9 @@ html
 1
 .
 html
+#
+Bug
+1341095
 =
 =
 386310
@@ -15956,8 +15957,6 @@ with
 XBL
 scopes
 fails
-test
--
 pref
 (
 dom
@@ -15978,8 +15977,6 @@ html
 .
 html
 fails
-test
--
 pref
 (
 dom
@@ -20424,9 +20421,6 @@ html
 5
 .
 html
-#
-test
--
 pref
 (
 layout
@@ -20458,9 +20452,6 @@ html
 columns
 .
 html
-#
-test
--
 pref
 (
 layout
@@ -24786,8 +24777,6 @@ flex
 .
 html
 fails
-test
--
 pref
 (
 layout
@@ -24907,9 +24896,7 @@ floatmanager
 reflow
 .
 html
-#
-test
--
+fails
 pref
 (
 dom
@@ -24931,6 +24918,9 @@ html
 1
 .
 html
+#
+Bug
+1293844
 fails
 =
 =
@@ -24956,8 +24946,6 @@ html
 1
 .
 html
-test
--
 pref
 (
 layout

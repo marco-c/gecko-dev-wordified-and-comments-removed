@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-#
 pref
 (
 dom
@@ -44,7 +43,6 @@ selection
 1
 .
 html
-#
 pref
 (
 dom
@@ -70,7 +68,6 @@ shadow
 1
 .
 html
-#
 pref
 (
 dom
@@ -96,7 +93,6 @@ shadow
 2
 .
 html
-#
 pref
 (
 dom
@@ -122,7 +118,6 @@ shadow
 3
 .
 html
-#
 pref
 (
 dom
@@ -148,7 +143,6 @@ shadow
 4
 .
 html
-#
 pref
 (
 dom
@@ -178,7 +172,6 @@ point
 1
 .
 html
-#
 pref
 (
 dom
@@ -268,7 +261,6 @@ points
 2
 .
 html
-#
 pref
 (
 dom
@@ -294,7 +286,6 @@ content
 1
 .
 html
-#
 pref
 (
 dom
@@ -324,7 +315,6 @@ point
 1
 .
 html
-#
 pref
 (
 dom
@@ -354,7 +344,6 @@ point
 1
 .
 html
-#
 pref
 (
 dom
@@ -384,7 +373,6 @@ element
 1
 .
 html
-#
 pref
 (
 dom
@@ -414,7 +402,6 @@ element
 1
 .
 html
-#
 pref
 (
 dom
@@ -448,7 +435,6 @@ descendants
 1
 .
 html
-#
 pref
 (
 dom
@@ -508,7 +494,6 @@ distribution
 1
 .
 html
-#
 pref
 (
 dom

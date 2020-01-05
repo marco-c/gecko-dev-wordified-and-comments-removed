@@ -6044,9 +6044,7 @@ E
 1
 .
 html
-#
-test
--
+fails
 pref
 (
 dom
@@ -6101,8 +6099,6 @@ inflation
 .
 html
 fails
-test
--
 pref
 (
 font

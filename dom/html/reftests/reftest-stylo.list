@@ -702,7 +702,6 @@ permissions
 default
 .
 image
-#
 pref
 (
 permissions
@@ -729,7 +728,6 @@ with
 srcset
 .
 html
-#
 pref
 (
 permissions

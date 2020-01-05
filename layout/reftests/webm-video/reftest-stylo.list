@@ -736,8 +736,6 @@ codec
 default
 -
 preferences
-test
--
 pref
 (
 layout
@@ -755,8 +753,6 @@ position
 enabled
 true
 )
-test
--
 pref
 (
 gfx
@@ -918,7 +914,6 @@ webm
 002
 .
 html
-fails
 =
 =
 object
@@ -943,7 +938,6 @@ webm
 001
 .
 html
-fails
 =
 =
 object
@@ -968,7 +962,6 @@ webm
 002
 .
 html
-fails
 =
 =
 object
@@ -997,7 +990,6 @@ webm
 001
 .
 html
-fails
 =
 =
 object
@@ -1026,7 +1018,6 @@ webm
 002
 .
 html
-fails
 =
 =
 object
@@ -1047,7 +1038,6 @@ webm
 001
 .
 html
-fails
 =
 =
 object

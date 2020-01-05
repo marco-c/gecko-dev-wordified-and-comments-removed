@@ -1500,7 +1500,6 @@ size
 24
 .
 html
-#
 pref
 (
 font
@@ -1596,7 +1595,6 @@ html
 a
 string
 pref
-#
 pref
 (
 font
@@ -1969,11 +1967,6 @@ font
 default
 keeps
 failing
-#
-#
-fails
-test
--
 pref
 (
 font
@@ -1999,11 +1992,6 @@ font
 default
 .
 html
-#
-#
-fails
-test
--
 pref
 (
 font
@@ -2029,11 +2017,6 @@ font
 default
 .
 html
-#
-#
-fails
-test
--
 pref
 (
 font
@@ -2059,11 +2042,6 @@ font
 default
 .
 html
-#
-#
-fails
-test
--
 pref
 (
 font
@@ -2089,11 +2067,7 @@ font
 default
 .
 html
-#
-#
 fails
-test
--
 pref
 (
 font
@@ -2119,11 +2093,7 @@ font
 default
 .
 html
-#
-#
 fails
-test
--
 pref
 (
 font
@@ -2169,8 +2139,6 @@ x
 western
 16
 )
-test
--
 pref
 (
 font
@@ -2214,8 +2182,6 @@ x
 western
 24
 )
-test
--
 pref
 (
 font
@@ -2259,8 +2225,6 @@ x
 western
 24
 )
-test
--
 pref
 (
 font

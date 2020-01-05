@@ -381,8 +381,7 @@ index
 1
 .
 html
-test
--
+fails
 pref
 (
 layout
@@ -422,6 +421,9 @@ contain
 1
 .
 html
+#
+Bug
+1342139
 fails
 =
 =

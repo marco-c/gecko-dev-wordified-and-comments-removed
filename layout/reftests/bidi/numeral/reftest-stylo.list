@@ -679,7 +679,6 @@ bug441782
 2
 .
 html
-#
 pref
 (
 bidi
@@ -735,7 +734,6 @@ bug441782
 3
 .
 html
-#
 pref
 (
 bidi

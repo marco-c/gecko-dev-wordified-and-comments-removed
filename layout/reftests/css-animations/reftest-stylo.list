@@ -272,9 +272,6 @@ running
 on
 the
 compositor
-#
-test
--
 pref
 (
 layers
@@ -343,9 +340,6 @@ running
 on
 the
 compositor
-#
-test
--
 pref
 (
 layers

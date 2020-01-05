@@ -3151,7 +3151,7 @@ text
 1e
 .
 html
-#
+fails
 pref
 (
 layout
@@ -3188,6 +3188,8 @@ text
 .
 html
 #
+Bug
+1342186
 pref
 (
 layout
