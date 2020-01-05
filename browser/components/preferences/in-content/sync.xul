@@ -323,7 +323,7 @@ flex
 "
 >
 &
-paneSync
+paneSync1
 .
 title
 ;
@@ -1863,7 +1863,7 @@ label
 =
 "
 &
-changeSyncDeviceName
+changeSyncDeviceName1
 .
 label
 ;
@@ -1872,7 +1872,7 @@ accesskey
 =
 "
 &
-changeSyncDeviceName
+changeSyncDeviceName1
 .
 accesskey
 ;

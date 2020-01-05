@@ -1668,7 +1668,7 @@ this
 _openPreferences
 (
 "
-content
+privacy
 "
 )
 ;

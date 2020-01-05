@@ -1090,7 +1090,7 @@ callback
 openPreferences
 (
 "
-paneContent
+panePrivacy
 "
 )
 ;

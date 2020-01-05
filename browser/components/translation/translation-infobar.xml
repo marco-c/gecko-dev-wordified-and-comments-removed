@@ -1500,7 +1500,7 @@ oncommand
 openPreferences
 (
 '
-paneContent
+paneGeneral
 '
 )
 ;

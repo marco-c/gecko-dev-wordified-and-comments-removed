@@ -396,7 +396,7 @@ browserWin
 openPreferences
 (
 "
-paneSearch
+paneGeneral
 "
 )
 ;

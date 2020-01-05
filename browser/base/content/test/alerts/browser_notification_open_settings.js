@@ -98,7 +98,7 @@ about
 :
 preferences
 #
-content
+privacy
 "
 )
 ;
@@ -347,7 +347,7 @@ about
 :
 preferences
 #
-content
+privacy
 "
 )
 ;

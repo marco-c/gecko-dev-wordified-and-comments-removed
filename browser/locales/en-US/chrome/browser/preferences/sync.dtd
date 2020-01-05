@@ -245,7 +245,7 @@ Name
 <
 !
 ENTITY
-changeSyncDeviceName
+changeSyncDeviceName1
 .
 label
 "
@@ -257,7 +257,7 @@ Name
 <
 !
 ENTITY
-changeSyncDeviceName
+changeSyncDeviceName1
 .
 accesskey
 "

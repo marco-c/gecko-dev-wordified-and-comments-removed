@@ -1389,7 +1389,9 @@ document
 getElementById
 (
 "
-dataChoicesPanel
+header
+-
+advanced
 "
 )
 ;

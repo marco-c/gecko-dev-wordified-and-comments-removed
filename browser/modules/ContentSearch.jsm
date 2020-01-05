@@ -2007,7 +2007,7 @@ browserWin
 openPreferences
 (
 "
-paneSearch
+paneGeneral
 "
 )
 ;

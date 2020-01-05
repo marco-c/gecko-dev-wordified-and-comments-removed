@@ -444,7 +444,7 @@ about
 :
 preferences
 #
-content
+general
 "
 ;
 let
