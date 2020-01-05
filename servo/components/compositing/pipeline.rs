@@ -435,7 +435,7 @@ ConstellationChan
 pub
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >
@@ -1815,7 +1815,7 @@ constellation_chan
 ConstellationChan
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >

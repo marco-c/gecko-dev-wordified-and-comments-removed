@@ -174,18 +174,6 @@ TimerEventRequest
 }
 ;
 use
-std
-:
-:
-sync
-:
-:
-mpsc
-:
-:
-Sender
-;
-use
 timers
 :
 :
@@ -556,7 +544,7 @@ self
 )
 -
 >
-Sender
+IpcSender
 <
 TimerEventRequest
 >

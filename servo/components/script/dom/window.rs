@@ -600,7 +600,6 @@ script_task
 {
 SendableMainThreadScriptChan
 MainThreadScriptChan
-MainThreadTimerEventChan
 }
 ;
 use
@@ -609,7 +608,7 @@ script_traits
 :
 {
 MsDuration
-TimerEventChan
+TimerEvent
 TimerEventId
 TimerEventRequest
 TimerSource
@@ -1049,7 +1048,7 @@ hard
 ]
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >
@@ -8580,7 +8579,7 @@ self
 )
 -
 >
-Sender
+IpcSender
 <
 TimerEventRequest
 >
@@ -9594,13 +9593,16 @@ constellation_chan
 ConstellationChan
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >
 timer_event_chan
 :
-MainThreadTimerEventChan
+IpcSender
+<
+TimerEvent
+>
 layout_chan
 :
 LayoutChan
@@ -9821,7 +9823,6 @@ ActiveTimers
 :
 new
 (
-box
 timer_event_chan
 scheduler_chan
 )

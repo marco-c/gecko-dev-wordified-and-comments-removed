@@ -613,7 +613,7 @@ CanvasMsg
 >
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >
