@@ -24,6 +24,10 @@ inheritance
 ;
 pub
 mod
+interface
+;
+pub
+mod
 js
 ;
 pub

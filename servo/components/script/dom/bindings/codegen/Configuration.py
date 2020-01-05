@@ -1961,6 +1961,19 @@ parent
 .
 parent
         
+self
+.
+prototypeDepth
+=
+len
+(
+self
+.
+prototypeChain
+)
+-
+1
+        
 config
 .
 maxProtoChainLength
