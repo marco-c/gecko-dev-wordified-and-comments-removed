@@ -316,10 +316,7 @@ style
 node
 :
 :
-{
-TElement
 TNode
-}
 ;
 use
 style
