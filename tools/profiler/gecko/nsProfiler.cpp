@@ -1652,7 +1652,7 @@ char
 *
 features
 =
-profiler_get_features
+profiler_get_available_features
 (
 )
 ;

@@ -588,9 +588,9 @@ const
 char
 *
 *
-allSupportedFeatures
+availableFeatures
 =
-profiler_get_features
+profiler_get_available_features
 (
 )
 ;
@@ -601,7 +601,7 @@ n
 ;
 while
 (
-allSupportedFeatures
+availableFeatures
 [
 n
 ]
@@ -642,7 +642,7 @@ profiler_start
 (
 88888
 10
-allSupportedFeatures
+availableFeatures
 n
 filters
 MOZ_ARRAY_LENGTH
@@ -693,7 +693,7 @@ ActiveParamsCheck
 (
 88888
 10
-allSupportedFeatures
+availableFeatures
 n
 filters
 MOZ_ARRAY_LENGTH
