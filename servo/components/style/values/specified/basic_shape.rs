@@ -6081,9 +6081,9 @@ pub
 enum
 GeometryBox
 {
-Fill
-Stroke
-View
+FillBox
+StrokeBox
+ViewBox
 ShapeBox
 (
 ShapeBox
@@ -6178,7 +6178,7 @@ Ok
 GeometryBox
 :
 :
-Fill
+FillBox
 )
 "
 stroke
@@ -6192,7 +6192,7 @@ Ok
 GeometryBox
 :
 :
-Stroke
+StrokeBox
 )
 "
 view
@@ -6206,7 +6206,7 @@ Ok
 GeometryBox
 :
 :
-View
+ViewBox
 )
 _
 =
@@ -6260,7 +6260,7 @@ self
 GeometryBox
 :
 :
-Fill
+FillBox
 =
 >
 dest
@@ -6276,7 +6276,7 @@ box
 GeometryBox
 :
 :
-Stroke
+StrokeBox
 =
 >
 dest
@@ -6292,7 +6292,7 @@ box
 GeometryBox
 :
 :
-View
+ViewBox
 =
 >
 dest
@@ -6365,10 +6365,10 @@ pub
 enum
 ShapeBox
 {
-Margin
-Border
-Padding
-Content
+MarginBox
+BorderBox
+PaddingBox
+ContentBox
 }
 impl
 Parse
@@ -6422,7 +6422,7 @@ Ok
 ShapeBox
 :
 :
-Margin
+MarginBox
 )
 "
 border
@@ -6436,7 +6436,7 @@ Ok
 ShapeBox
 :
 :
-Border
+BorderBox
 )
 "
 padding
@@ -6450,7 +6450,7 @@ Ok
 ShapeBox
 :
 :
-Padding
+PaddingBox
 )
 "
 content
@@ -6464,7 +6464,7 @@ Ok
 ShapeBox
 :
 :
-Content
+ContentBox
 )
 _
 =
@@ -6517,7 +6517,7 @@ self
 ShapeBox
 :
 :
-Margin
+MarginBox
 =
 >
 dest
@@ -6533,7 +6533,7 @@ box
 ShapeBox
 :
 :
-Border
+BorderBox
 =
 >
 dest
@@ -6549,7 +6549,7 @@ box
 ShapeBox
 :
 :
-Padding
+PaddingBox
 =
 >
 dest
@@ -6565,7 +6565,7 @@ box
 ShapeBox
 :
 :
-Content
+ContentBox
 =
 >
 dest
