@@ -1540,16 +1540,11 @@ None
 let
 reporter
 =
-Box
-:
-:
-new
-(
+box
 chan
 .
 clone
 (
-)
 )
 ;
 let

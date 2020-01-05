@@ -476,13 +476,8 @@ chan
 let
 system_reporter
 =
-Box
-:
-:
-new
-(
+box
 SystemReporter
-)
 ;
 mem_profiler_chan
 .

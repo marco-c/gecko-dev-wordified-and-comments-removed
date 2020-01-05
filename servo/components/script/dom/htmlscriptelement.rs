@@ -2635,11 +2635,7 @@ clone
 let
 dispatcher
 =
-Box
-:
-:
-new
-(
+box
 EventDispatcher
 {
 element
@@ -2649,7 +2645,6 @@ is_error
 :
 false
 }
-)
 ;
 chan
 .
@@ -2730,11 +2725,7 @@ clone
 let
 dispatcher
 =
-Box
-:
-:
-new
-(
+box
 EventDispatcher
 {
 element
@@ -2744,7 +2735,6 @@ is_error
 :
 true
 }
-)
 ;
 chan
 .
