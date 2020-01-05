@@ -135,6 +135,15 @@ browser
 /
 schemas
 /
+devtools_network
+.
+json
+content
+/
+browser
+/
+schemas
+/
 history
 .
 json

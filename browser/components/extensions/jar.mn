@@ -194,6 +194,17 @@ browser
 /
 ext
 -
+devtools
+-
+network
+.
+js
+content
+/
+browser
+/
+ext
+-
 history
 .
 js
