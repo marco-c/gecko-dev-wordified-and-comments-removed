@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsDocument
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h
