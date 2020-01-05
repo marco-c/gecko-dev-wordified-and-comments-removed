@@ -112,7 +112,7 @@ self
 kind
 =
 =
-bk_block
+BlockBox
 ;
 #
 debug

@@ -134,7 +134,7 @@ self
 .
 kind
 {
-bk_text
+TextBox
 (
 *
 )

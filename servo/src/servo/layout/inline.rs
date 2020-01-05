@@ -129,7 +129,7 @@ self
 kind
 =
 =
-bk_inline
+InlineBox
 ;
 #
 debug
