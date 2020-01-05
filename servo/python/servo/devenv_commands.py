@@ -330,6 +330,17 @@ params
 )
 :
         
+if
+params
+is
+None
+:
+            
+params
+=
+[
+]
+        
 return
 subprocess
 .
