@@ -545,6 +545,9 @@ class
 tooltip
 -
 label
+uri
+-
+element
 "
 /
 >
