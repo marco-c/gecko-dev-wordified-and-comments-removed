@@ -1022,7 +1022,7 @@ style
 selector_matching
 :
 :
-DeclarationBlock
+ApplicableDeclarationBlock
 ;
 use
 style
@@ -2409,7 +2409,7 @@ V
 :
 Push
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 ;
 #
@@ -2732,7 +2732,7 @@ V
 :
 Push
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 {
 #
@@ -2748,9 +2748,9 @@ PropertyDeclaration
 )
 -
 >
-DeclarationBlock
+ApplicableDeclarationBlock
 {
-DeclarationBlock
+ApplicableDeclarationBlock
 :
 :
 from_declarations

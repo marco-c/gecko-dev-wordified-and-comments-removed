@@ -135,7 +135,7 @@ use
 selector_matching
 :
 :
-DeclarationBlock
+ApplicableDeclarationBlock
 ;
 use
 std
@@ -1711,7 +1711,7 @@ declarations
 let
 declaration_block
 =
-DeclarationBlock
+ApplicableDeclarationBlock
 {
 mixed_declarations
 :

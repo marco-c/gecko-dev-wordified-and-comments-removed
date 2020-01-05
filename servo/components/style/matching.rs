@@ -91,7 +91,7 @@ selector_matching
 :
 :
 {
-DeclarationBlock
+ApplicableDeclarationBlock
 Stylist
 }
 ;
@@ -322,7 +322,7 @@ normal
 SmallVec
 <
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ;
 16
 ]
@@ -335,7 +335,7 @@ HashMap
 PseudoElement
 Vec
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 BuildHasherDefault
 <
@@ -441,7 +441,7 @@ declarations
 :
 Vec
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 }
 impl
@@ -454,7 +454,7 @@ declarations
 :
 Vec
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 )
 -
@@ -576,7 +576,7 @@ declarations
 '
 a
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ]
 }
 impl
@@ -599,7 +599,7 @@ declarations
 '
 a
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ]
 )
 -
@@ -909,7 +909,7 @@ declarations
 :
 &
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ]
 )
 -
@@ -974,7 +974,7 @@ declarations
 :
 Vec
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 style
 :
@@ -2451,7 +2451,7 @@ applicable_declarations
 :
 &
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ]
 mut
 old_style

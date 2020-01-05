@@ -201,7 +201,7 @@ use
 selector_matching
 :
 :
-DeclarationBlock
+ApplicableDeclarationBlock
 ;
 use
 stylesheets
@@ -12298,7 +12298,7 @@ applicable_declarations
 :
 &
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ]
 shareable
 :
@@ -13324,7 +13324,7 @@ applicable_declarations
 :
 &
 [
-DeclarationBlock
+ApplicableDeclarationBlock
 ]
 shareable
 :
