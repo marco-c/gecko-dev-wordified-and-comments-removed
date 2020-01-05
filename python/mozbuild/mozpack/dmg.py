@@ -1072,9 +1072,6 @@ check_tools
 DMG_TOOL
 '
 '
-GENISOIMAGE
-'
-'
 MKFSHFS
 '
 '
