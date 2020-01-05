@@ -2,10 +2,7 @@ use
 constellation_msg
 :
 :
-{
 PipelineId
-WindowSizeData
-}
 ;
 use
 euclid
@@ -221,16 +218,6 @@ GetUrl
 IpcSender
 <
 Url
->
-)
-GetWindowSize
-(
-IpcSender
-<
-Option
-<
-WindowSizeData
->
 >
 )
 IsEnabled
