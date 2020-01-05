@@ -1010,6 +1010,14 @@ IpcSender
 LoadStatus
 >
 )
+Refresh
+(
+PipelineId
+IpcSender
+<
+LoadStatus
+>
+)
 ScriptCommand
 (
 PipelineId
