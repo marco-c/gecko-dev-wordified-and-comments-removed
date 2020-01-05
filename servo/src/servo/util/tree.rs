@@ -130,14 +130,17 @@ T
 (
 ops
 :
+&
 O
 node
 :
+&
 T
 f
 :
 fn
 (
+&
 T
 )
 -
@@ -153,6 +156,7 @@ ops
 .
 with_tree_fields
 (
+*
 node
 |
 f
@@ -177,6 +181,7 @@ return
 }
 Some
 (
+ref
 c
 )
 =
@@ -198,6 +203,7 @@ ops
 .
 with_tree_fields
 (
+*
 c
 |
 f
@@ -266,10 +272,13 @@ T
 (
 ops
 :
+&
 O
++
 parent
 :
 T
++
 child
 :
 T
@@ -454,9 +463,11 @@ T
 (
 ops
 :
+&
 O
 node
 :
+&
 T
 )
 -
@@ -470,6 +481,7 @@ ops
 .
 with_tree_fields
 (
+*
 node
 |
 tf
@@ -677,6 +689,7 @@ c
 {
 add_child
 (
+&
 dtree
 p
 *
@@ -723,7 +736,9 @@ i
 for
 each_child
 (
+&
 dtree
+&
 p
 )
 |
@@ -783,7 +798,9 @@ i
 for
 each_child
 (
+&
 dtree
+&
 p
 )
 |

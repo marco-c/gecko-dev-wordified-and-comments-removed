@@ -2345,8 +2345,6 @@ f
 :
 fn
 (
-&
-&
 box
 :
 RenderBox
@@ -2361,9 +2359,18 @@ tree
 :
 each_child
 (
+&
 self
+&
 node
+|
+box
+|
 f
+(
+*
+box
+)
 )
 }
 fn
@@ -2450,6 +2457,7 @@ tree
 :
 add_child
 (
+&
 self
 parent
 child
@@ -2808,7 +2816,9 @@ tree
 :
 each_child
 (
+&
 RenderBoxTree
+&
 root
 )
 |
@@ -2822,6 +2832,7 @@ mut
 r
 flat_bounds
 (
+*
 c
 )
 )

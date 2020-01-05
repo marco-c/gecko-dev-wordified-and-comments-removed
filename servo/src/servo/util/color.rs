@@ -660,7 +660,7 @@ fail_unrecognized
 (
 col
 :
-~
+&
 str
 )
 -
@@ -702,7 +702,7 @@ parse_by_name
 (
 color
 :
-~
+&
 str
 )
 -
@@ -915,7 +915,7 @@ parse_rgb
 (
 color
 :
-~
+&
 str
 )
 -
@@ -1084,7 +1084,7 @@ parse_rgba
 (
 color
 :
-~
+&
 str
 )
 -
@@ -1267,7 +1267,7 @@ parse_hsl
 (
 color
 :
-~
+&
 str
 )
 -
@@ -1436,7 +1436,7 @@ parse_hsla
 (
 color
 :
-~
+&
 str
 )
 -
@@ -1624,7 +1624,7 @@ parse_color
 (
 color
 :
-~
+&
 str
 )
 -
@@ -1643,7 +1643,6 @@ c
 .
 starts_with
 (
-~
 "
 rgb
 (
@@ -1661,7 +1660,6 @@ c
 .
 starts_with
 (
-~
 "
 rgba
 (
@@ -1679,7 +1677,6 @@ c
 .
 starts_with
 (
-~
 "
 hsl
 (
@@ -1697,7 +1694,6 @@ c
 .
 starts_with
 (
-~
 "
 hsla
 (

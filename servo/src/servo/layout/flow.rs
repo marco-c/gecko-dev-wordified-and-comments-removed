@@ -1584,8 +1584,6 @@ f
 :
 fn
 (
-&
-&
 box
 :
 FlowContext
@@ -1600,9 +1598,18 @@ tree
 :
 each_child
 (
+&
 self
+&
 ctx
+|
+box
+|
 f
+(
+*
+box
+)
 )
 }
 fn
@@ -1689,6 +1696,7 @@ tree
 :
 add_child
 (
+&
 self
 parent
 child
