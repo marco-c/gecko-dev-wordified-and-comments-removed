@@ -523,14 +523,6 @@ kNameSpaceID_None
 {
 if
 (
-!
-GetPrimaryFrame
-(
-)
-)
-{
-if
-(
 aValue
 )
 {
@@ -548,7 +540,6 @@ CancelImageRequests
 aNotify
 )
 ;
-}
 }
 }
 return

@@ -630,14 +630,6 @@ kNameSpaceID_XLink
 {
 if
 (
-!
-GetPrimaryFrame
-(
-)
-)
-{
-if
-(
 aValue
 )
 {
@@ -655,7 +647,6 @@ CancelImageRequests
 aNotify
 )
 ;
-}
 }
 }
 return
