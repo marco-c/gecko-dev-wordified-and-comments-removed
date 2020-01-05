@@ -783,7 +783,6 @@ target
 {
 Some
 (
-mut
 target
 )
 =
@@ -807,7 +806,6 @@ NodeCast
 to_ref
 (
 &
-mut
 *
 target
 )
