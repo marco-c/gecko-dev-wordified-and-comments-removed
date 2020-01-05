@@ -1668,6 +1668,7 @@ nsDocument
 :
 IsUnprefixedFullscreenEnabled
 "
+NeedsCallerType
 ]
 void
 requestFullscreen
@@ -1682,6 +1683,7 @@ BinaryName
 "
 requestFullscreen
 "
+NeedsCallerType
 ]
 void
 mozRequestFullScreen
@@ -1720,6 +1722,7 @@ Element
 {
 [
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 requestPointerLock
@@ -1746,6 +1749,7 @@ prefixed
 .
 enabled
 "
+NeedsCallerType
 ]
 void
 mozRequestPointerLock

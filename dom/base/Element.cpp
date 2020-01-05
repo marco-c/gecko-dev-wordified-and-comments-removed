@@ -15030,6 +15030,8 @@ Element
 :
 RequestFullscreen
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -15079,11 +15081,14 @@ request
 >
 mIsCallerChrome
 =
-nsContentUtils
-:
-:
-IsCallerChrome
 (
+aCallerType
+=
+=
+CallerType
+:
+:
+System
 )
 ;
 OwnerDoc
@@ -15106,6 +15111,8 @@ Element
 :
 RequestPointerLock
 (
+CallerType
+aCallerType
 )
 {
 OwnerDoc
@@ -15116,6 +15123,7 @@ OwnerDoc
 RequestPointerLock
 (
 this
+aCallerType
 )
 ;
 }

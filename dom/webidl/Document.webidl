@@ -214,6 +214,12 @@ implementation
 [
 Pure
 Throws
+BinaryName
+=
+"
+documentURIFromJS
+"
+NeedsCallerType
 ]
 readonly
 attribute
@@ -223,6 +229,12 @@ URL
 [
 Pure
 Throws
+BinaryName
+=
+"
+documentURIFromJS
+"
+NeedsCallerType
 ]
 readonly
 attribute
@@ -1770,6 +1782,7 @@ nsDocument
 :
 IsUnprefixedFullscreenEnabled
 "
+NeedsCallerType
 ]
 readonly
 attribute
@@ -1782,6 +1795,7 @@ BinaryName
 "
 fullscreenEnabled
 "
+NeedsCallerType
 ]
 readonly
 attribute
