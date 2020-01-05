@@ -5877,6 +5877,26 @@ read
 (
 )
             
+if
+not
+contents
+.
+strip
+(
+)
+:
+                
+yield
+filename
+0
+"
+file
+is
+empty
+"
+                
+continue
+            
 for
 check
 in
