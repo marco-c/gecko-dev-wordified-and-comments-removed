@@ -631,9 +631,9 @@ let
 command
 =
 match
+*
 self
 {
-&
 ServoExtensionRoute
 :
 :
@@ -667,7 +667,6 @@ GetPrefs
 parameters
 )
 }
-&
 ServoExtensionRoute
 :
 :
@@ -701,7 +700,6 @@ SetPrefs
 parameters
 )
 }
-&
 ServoExtensionRoute
 :
 :
@@ -792,9 +790,9 @@ Json
 >
 {
 match
+*
 self
 {
-&
 ServoExtensionCommand
 :
 :
@@ -813,7 +811,6 @@ to_json
 (
 )
 )
-&
 ServoExtensionCommand
 :
 :
@@ -832,7 +829,6 @@ to_json
 (
 )
 )
-&
 ServoExtensionCommand
 :
 :
@@ -4348,7 +4344,6 @@ script_timeout
 =
 value
 x
-_
 =
 >
 return
@@ -5668,9 +5663,9 @@ extension
 >
 {
 match
+*
 extension
 {
-&
 ServoExtensionCommand
 :
 :
@@ -5687,7 +5682,6 @@ handle_get_prefs
 (
 x
 )
-&
 ServoExtensionCommand
 :
 :
@@ -5704,7 +5698,6 @@ handle_set_prefs
 (
 x
 )
-&
 ServoExtensionCommand
 :
 :

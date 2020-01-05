@@ -7452,7 +7452,6 @@ remove
 RETRY_AT_CHARACTER_BOUNDARIES
 )
 ;
-return
 self
 .
 calculate_split_position_using_breaking_strategy
@@ -8484,14 +8483,8 @@ false
 pub
 fn
 assign_replaced_inline_size_if_necessary
-<
-'
-a
->
 (
 &
-'
-a
 mut
 self
 container_inline_size
@@ -11888,7 +11881,6 @@ leading_whitespace_character_count
 )
 )
 ;
-return
 WhitespaceStrippingResult
 :
 :

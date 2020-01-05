@@ -1248,16 +1248,10 @@ idx
 .
 map
 (
-|
-advance
-|
 Au
 :
 :
 from_f64_px
-(
-advance
-)
 )
 .
 unwrap_or
@@ -1395,9 +1389,7 @@ f64
 metrics
 )
 ;
-return
 metrics
-;
 }
 fn
 table_for_tag

@@ -589,9 +589,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 url
 :
 :
@@ -610,7 +610,6 @@ data
 heap_size_of_children
 (
 )
-&
 url
 :
 :
@@ -729,9 +728,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 url
 :
 :
@@ -750,7 +749,6 @@ str
 heap_size_of_children
 (
 )
-&
 url
 :
 :
@@ -1595,9 +1593,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 Method
 :
 :
@@ -1648,9 +1646,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 Result
 :
 :
@@ -1666,7 +1664,6 @@ ok
 heap_size_of_children
 (
 )
-&
 Result
 :
 :
@@ -1808,9 +1805,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 SimpleSelector
 :
 :
@@ -1826,7 +1823,6 @@ vec
 heap_size_of_children
 (
 )
-&
 SimpleSelector
 :
 :
@@ -1837,7 +1833,6 @@ ref
 str
 )
 |
-&
 SimpleSelector
 :
 :
@@ -1848,7 +1843,6 @@ ref
 str
 )
 |
-&
 SimpleSelector
 :
 :
@@ -1859,7 +1853,6 @@ ref
 str
 )
 |
-&
 SimpleSelector
 :
 :
@@ -1876,7 +1869,6 @@ str
 heap_size_of_children
 (
 )
-&
 SimpleSelector
 :
 :
@@ -1894,7 +1886,6 @@ str
 heap_size_of_children
 (
 )
-&
 SimpleSelector
 :
 :
@@ -2022,9 +2013,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 TopLevel
 :
 :
@@ -2063,9 +2054,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 SubLevel
 :
 :
@@ -2104,9 +2095,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 Attr
 :
 :
@@ -2145,9 +2136,9 @@ self
 usize
 {
 match
+*
 self
 {
-&
 Value
 :
 :

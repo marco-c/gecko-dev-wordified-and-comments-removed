@@ -940,10 +940,6 @@ scheme
 "
 https
 "
-.
-to_owned
-(
-)
 {
 return
 false

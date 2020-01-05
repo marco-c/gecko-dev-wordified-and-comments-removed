@@ -1150,9 +1150,9 @@ source
 >
 {
 let
-ref
 cookie_jar
 =
+&
 self
 .
 resource_manager
@@ -1424,9 +1424,9 @@ source
 )
 {
 let
-ref
 cookie_jar
 =
+&
 self
 .
 cookie_storage

@@ -165,10 +165,10 @@ fmt
 Write
 {
 match
+*
 self
 {
 (
-&
 Cursor
 :
 :
