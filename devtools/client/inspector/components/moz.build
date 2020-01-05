@@ -88,6 +88,15 @@ MPL
 DevToolsModules
 (
 '
+deprecated
+-
+box
+-
+model
+.
+js
+'
+'
 inspector
 -
 tab
