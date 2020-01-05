@@ -136,7 +136,6 @@ isHeapMajorCollecting
 #
 ifdef
 DEBUG
-static
 bool
 IsMarkedBlack
 (
