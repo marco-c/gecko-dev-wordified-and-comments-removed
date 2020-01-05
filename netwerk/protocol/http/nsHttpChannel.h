@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIStreamTransportService
-.
-h
-"
-#
-include
-"
 nsIHttpAuthenticableChannel
 .
 h
@@ -266,8 +259,6 @@ nsITransportEventSink
 public
 nsIProtocolProxyCallback
 public
-nsIInputAvailableCallback
-public
 nsIHttpAuthenticableChannel
 public
 nsIApplicationCacheChannel
@@ -303,7 +294,6 @@ NS_DECL_NSICACHINGCHANNEL
 NS_DECL_NSICACHEENTRYOPENCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIPROTOCOLPROXYCALLBACK
-NS_DECL_NSIINPUTAVAILABLECALLBACK
 NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
@@ -1727,11 +1717,6 @@ nsresult
 rv
 )
 ;
-void
-DetermineContentLength
-(
-)
-;
 MOZ_MUST_USE
 nsresult
 ProcessSecurityHeaders
@@ -2330,14 +2315,6 @@ uint32_t
 mAuthConnectionRestartable
 :
 1
-;
-uint32_t
-mReqContentLengthDetermined
-:
-1
-;
-uint64_t
-mReqContentLength
 ;
 nsTArray
 <

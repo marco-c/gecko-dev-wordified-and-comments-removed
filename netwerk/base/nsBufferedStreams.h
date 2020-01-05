@@ -104,15 +104,6 @@ uint32_t
 bufferSize
 )
 ;
-nsresult
-GetData
-(
-nsISupports
-*
-*
-aResult
-)
-;
 NS_IMETHOD
 Fill
 (

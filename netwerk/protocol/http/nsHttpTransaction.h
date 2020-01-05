@@ -181,8 +181,6 @@ reqHeaders
 nsIInputStream
 *
 reqBody
-uint64_t
-reqContentLength
 bool
 reqBodyIncludesHeaders
 nsIEventTarget
