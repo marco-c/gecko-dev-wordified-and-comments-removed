@@ -1062,11 +1062,11 @@ when
 start
 =
 %
-?
+u
 end
 =
 %
-?
+u
 "
 self
 .
@@ -1564,6 +1564,8 @@ range
 ?
 "
 range
+.
+span
 )
 ;
 let
@@ -1712,6 +1714,8 @@ range
 ?
 "
 range
+.
+span
 )
 ;
 }
@@ -1849,11 +1853,11 @@ when
 start
 =
 %
-?
+u
 end
 =
 %
-?
+u
 "
 self
 .
