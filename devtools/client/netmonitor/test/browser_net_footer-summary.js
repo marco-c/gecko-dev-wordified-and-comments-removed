@@ -42,6 +42,7 @@ let
 {
 NetMonitorView
 gStore
+windowRequire
 }
 =
 monitor
@@ -56,20 +57,11 @@ RequestsMenu
 NetMonitorView
 ;
 let
-winRequire
-=
-monitor
-.
-panelWin
-.
-require
-;
-let
 {
 getDisplayedRequestsSummary
 }
 =
-winRequire
+windowRequire
 (
 "
 devtools
@@ -89,7 +81,7 @@ let
 L10N
 }
 =
-winRequire
+windowRequire
 (
 "
 devtools
@@ -107,7 +99,7 @@ let
 PluralForm
 }
 =
-winRequire
+windowRequire
 (
 "
 devtools
