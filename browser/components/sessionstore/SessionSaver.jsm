@@ -695,6 +695,13 @@ filterPrivateWindowsAndTabs
 state
 )
 ;
+SessionStore
+.
+keepOnlyWorthSavingTabs
+(
+state
+)
+;
 if
 (
 state

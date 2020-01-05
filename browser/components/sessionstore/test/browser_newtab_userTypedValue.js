@@ -167,6 +167,11 @@ window
 "
 )
 ;
+yield
+forceSaveState
+(
+)
+;
 win
 =
 SessionStore
@@ -365,6 +370,11 @@ a
 closed
 window
 "
+)
+;
+yield
+forceSaveState
+(
 )
 ;
 win
