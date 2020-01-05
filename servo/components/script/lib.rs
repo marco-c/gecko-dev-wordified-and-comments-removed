@@ -418,10 +418,6 @@ tinyfiledialogs
 ;
 extern
 crate
-unicase
-;
-extern
-crate
 url
 ;
 #
@@ -458,10 +454,6 @@ bluetooth_blacklist
 pub
 mod
 clipboard_provider
-;
-pub
-mod
-cors
 ;
 mod
 devtools

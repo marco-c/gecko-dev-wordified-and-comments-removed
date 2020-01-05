@@ -1709,7 +1709,7 @@ message
 {
 listener
 .
-notify
+notify_action
 (
 message
 .
