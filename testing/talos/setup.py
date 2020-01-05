@@ -39,8 +39,6 @@ join
 here
 '
 README
-.
-txt
 '
 )
 )
