@@ -347,9 +347,6 @@ normalize
 (
 )
 ;
-[
-Throws
-]
 Node
 cloneNode
 (
