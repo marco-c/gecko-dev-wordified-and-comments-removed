@@ -751,7 +751,6 @@ eSpecialType_Test
 eSpecialType_Flash
 eSpecialType_Java
 eSpecialType_Silverlight
-eSpecialType_PDF
 eSpecialType_RealPlayer
 eSpecialType_Unity
 }
