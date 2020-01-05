@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h
