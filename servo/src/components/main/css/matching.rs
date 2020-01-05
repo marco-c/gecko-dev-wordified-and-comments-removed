@@ -17,6 +17,9 @@ select_handler
 NodeSelectHandler
 ;
 use
+script
+:
+:
 dom
 :
 :

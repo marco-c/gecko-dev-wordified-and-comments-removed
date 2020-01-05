@@ -68,9 +68,6 @@ window
 Window
 ;
 use
-scripting
-:
-:
 script_task
 :
 :

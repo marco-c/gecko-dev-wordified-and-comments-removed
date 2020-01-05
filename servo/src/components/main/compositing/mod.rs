@@ -17,7 +17,7 @@ Window
 }
 ;
 use
-scripting
+script
 :
 :
 script_task

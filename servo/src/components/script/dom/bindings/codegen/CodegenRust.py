@@ -32879,9 +32879,6 @@ eventtarget
 '
                           
 '
-scripting
-:
-:
 script_task
 :
 :
