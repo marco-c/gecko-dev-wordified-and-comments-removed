@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+DenormalDisabler
+.
+h
+"
+#
+include
 <
 float
 .
@@ -251,6 +258,9 @@ y2
 .
 0
 ;
+#
+ifndef
+HAVE_DENORMAL
 for
 (
 int
@@ -285,6 +295,8 @@ i
 0f
 ;
 }
+#
+endif
 }
 m_x1
 =

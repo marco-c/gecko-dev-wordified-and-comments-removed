@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+DenormalDisabler
+.
+h
+"
+#
+include
 <
 cmath
 >
@@ -141,6 +148,9 @@ i
 output2
 ;
 }
+#
+ifndef
+HAVE_DENORMAL
 if
 (
 lastX
@@ -208,6 +218,8 @@ i
 ;
 }
 }
+#
+endif
 m_lastX
 =
 lastX
