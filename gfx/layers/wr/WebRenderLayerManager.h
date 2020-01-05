@@ -203,6 +203,11 @@ WrBridge
 (
 )
 ;
+WrImageKey
+GetImageKey
+(
+)
+;
 gfx
 :
 :
