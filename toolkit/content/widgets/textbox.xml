@@ -1708,9 +1708,9 @@ boxObject
 .
 setProperty
 (
-'
+"
 value
-'
+"
 field
 .
 value

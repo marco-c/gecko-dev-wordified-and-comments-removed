@@ -5532,9 +5532,9 @@ video
 .
 hasAttribute
 (
-'
+"
 src
-'
+"
 )
 &
 &
@@ -5544,9 +5544,9 @@ video
 .
 getAttribute
 (
-'
+"
 src
-'
+"
 )
 !
 =
@@ -9461,8 +9461,8 @@ charCode
 )
 =
 =
-'
-'
+"
+"
 )
 {
 keystroke

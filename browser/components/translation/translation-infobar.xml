@@ -1826,9 +1826,9 @@ this
 .
 _getAnonElt
 (
-'
+"
 translationStates
-'
+"
 )
 ;
 let
@@ -2302,9 +2302,9 @@ this
 .
 _getAnonElt
 (
-'
+"
 translationEngine
-'
+"
 )
 .
 selectedIndex

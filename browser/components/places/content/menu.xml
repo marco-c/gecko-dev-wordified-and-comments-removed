@@ -3017,9 +3017,9 @@ originalTarget
 .
 getAttribute
 (
-'
+"
 anonid
-'
+"
 )
 ;
 let
@@ -3884,9 +3884,9 @@ style
 .
 pointerEvents
 =
-'
+"
 none
-'
+"
 ;
 ]
 ]
@@ -4779,9 +4779,9 @@ style
 .
 pointerEvents
 =
-'
+"
 none
-'
+"
 ;
 }
 this

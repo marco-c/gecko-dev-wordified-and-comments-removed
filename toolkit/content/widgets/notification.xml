@@ -502,9 +502,9 @@ this
 .
 setAttribute
 (
-'
+"
 notificationshidden
-'
+"
 true
 )
 ;
@@ -513,9 +513,9 @@ this
 .
 removeAttribute
 (
-'
+"
 notificationshidden
-'
+"
 )
 ;
 return
@@ -564,9 +564,9 @@ this
 .
 getElementsByTagName
 (
-'
+"
 notification
-'
+"
 )
 ;
 return

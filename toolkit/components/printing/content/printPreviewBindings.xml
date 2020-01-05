@@ -2729,9 +2729,9 @@ mScaleCombobox
 .
 hasAttribute
 (
-'
+"
 lastValidInx
-'
+"
 )
 )
 {
@@ -2747,9 +2747,9 @@ mScaleCombobox
 .
 getAttribute
 (
-'
+"
 lastValidInx
-'
+"
 )
 ;
 }
@@ -2770,9 +2770,9 @@ mScaleCombobox
 .
 setAttribute
 (
-'
+"
 lastValidInx
-'
+"
 this
 .
 mScaleCombobox
