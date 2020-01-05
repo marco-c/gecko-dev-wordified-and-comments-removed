@@ -156,7 +156,6 @@ items
 ref
 .
 html
-fails
 =
 =
 webkit
@@ -187,9 +186,6 @@ items
 ref
 .
 html
-#
-bug
-1309119
 fails
 =
 =
