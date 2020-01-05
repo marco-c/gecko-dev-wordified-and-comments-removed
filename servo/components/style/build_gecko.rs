@@ -210,13 +210,13 @@ use
 bindgen
 :
 :
-chooser
+callbacks
 :
 :
 {
 EnumVariantCustomBehavior
 EnumVariantValue
-TypeChooser
+ParseCallbacks
 }
 ;
 use
@@ -2466,7 +2466,7 @@ struct
 Callbacks
 ;
 impl
-TypeChooser
+ParseCallbacks
 for
 Callbacks
 {
@@ -2583,7 +2583,7 @@ nothing
 }
 )
 .
-include
+header
 (
 add_include
 (
@@ -2595,7 +2595,7 @@ h
 )
 )
 .
-header
+include
 (
 add_include
 (
@@ -2621,7 +2621,7 @@ h
 )
 )
 .
-header
+include
 (
 add_include
 (
@@ -2972,7 +2972,7 @@ UpdateAnimationsTasks
 "
 )
 .
-type_chooser
+parse_callbacks
 (
 Box
 :
@@ -3755,12 +3755,12 @@ blacklist
 "
 .
 *
-_char_traits
+char_traits
 "
 "
 .
 *
-_incompatible_char_type
+incompatible_char_type
 "
 ]
 ;
