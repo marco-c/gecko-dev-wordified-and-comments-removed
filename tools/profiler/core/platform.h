@@ -954,14 +954,6 @@ SpliceableJSONWriter
 aWriter
 )
 ;
-void
-FlushOnJSShutdown
-(
-JSContext
-*
-aContext
-)
-;
 size_t
 SizeOfIncludingThis
 (
