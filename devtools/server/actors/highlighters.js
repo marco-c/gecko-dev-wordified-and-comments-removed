@@ -291,9 +291,6 @@ register
 =
 register
 ;
-var
-HighlighterActor
-=
 exports
 .
 HighlighterActor
@@ -1483,9 +1480,9 @@ canceled
 "
 )
 ;
+}
 return
 ;
-}
 default
 :
 return
@@ -1913,9 +1910,6 @@ null
 }
 )
 ;
-var
-CustomHighlighterActor
-=
 exports
 .
 CustomHighlighterActor

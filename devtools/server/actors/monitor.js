@@ -51,14 +51,14 @@ Services
 function
 MonitorActor
 (
-aConnection
+connection
 )
 {
 this
 .
 conn
 =
-aConnection
+connection
 ;
 this
 .
@@ -626,6 +626,9 @@ residentUnique
 )
 {
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -634,6 +637,7 @@ get
 USS
 .
 "
+)
 ;
 }
 USSAgent

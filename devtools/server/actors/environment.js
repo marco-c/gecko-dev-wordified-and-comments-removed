@@ -325,7 +325,9 @@ Debugger
 DebuggeeWouldRun
 )
 {
-throw
+const
+errorObject
+=
 {
 error
 :
@@ -346,6 +348,9 @@ to
 run
 "
 }
+;
+throw
+errorObject
 ;
 }
 else

@@ -749,7 +749,7 @@ function
 {
 for
 (
-var
+let
 name
 in
 req

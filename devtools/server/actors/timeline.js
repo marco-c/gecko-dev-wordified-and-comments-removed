@@ -93,9 +93,6 @@ core
 "
 )
 ;
-var
-TimelineActor
-=
 exports
 .
 TimelineActor

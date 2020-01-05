@@ -52,14 +52,6 @@ protocol
 )
 ;
 const
-{
-method
-Arg
-}
-=
-protocol
-;
-const
 events
 =
 require
@@ -121,9 +113,6 @@ reflow
 "
 )
 ;
-var
-ReflowActor
-=
 exports
 .
 ReflowActor

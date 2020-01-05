@@ -91,9 +91,6 @@ core
 "
 )
 ;
-var
-ProfilerActor
-=
 exports
 .
 ProfilerActor

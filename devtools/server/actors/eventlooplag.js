@@ -96,9 +96,6 @@ eventlooplag
 "
 )
 ;
-var
-EventLoopLagActor
-=
 exports
 .
 EventLoopLagActor

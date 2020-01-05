@@ -85,9 +85,6 @@ object
 const
 {
 ActorClassWithSpec
-Arg
-RetVal
-method
 }
 =
 require
@@ -148,16 +145,6 @@ require
 promise
 "
 )
-;
-const
-{
-defer
-resolve
-reject
-all
-}
-=
-promise
 ;
 const
 {
@@ -442,7 +429,7 @@ getSourceURL
 function
 resolveURIToLocalPath
 (
-aURI
+uri
 )
 {
 let
@@ -450,7 +437,7 @@ resolved
 ;
 switch
 (
-aURI
+uri
 .
 scheme
 )
@@ -466,7 +453,7 @@ file
 "
 :
 return
-aURI
+uri
 ;
 case
 "
@@ -501,7 +488,7 @@ nsIChromeRegistry
 .
 convertChromeURL
 (
-aURI
+uri
 )
 ;
 return
@@ -545,10 +532,10 @@ nsIResProtocolHandler
 .
 resolveURI
 (
-aURI
+uri
 )
 ;
-aURI
+uri
 =
 Services
 .
@@ -562,7 +549,7 @@ resolved
 return
 resolveURIToLocalPath
 (
-aURI
+uri
 )
 ;
 default
@@ -1165,9 +1152,11 @@ function
 (
 )
 {
+let
+nsuri
+;
 try
 {
-var
 nsuri
 =
 Services
@@ -1830,8 +1819,6 @@ text
 )
 ;
 }
-else
-{
 let
 loadFromCache
 =
@@ -1996,7 +1983,6 @@ error
 }
 )
 ;
-}
 }
 )
 ;
@@ -2248,6 +2234,8 @@ function
 )
 {
 return
+promise
+.
 resolve
 (
 this
@@ -2302,13 +2290,13 @@ contentType
 then
 (
 null
-aError
+error
 =
 >
 {
 reportError
 (
-aError
+error
 "
 Got
 an
@@ -2346,7 +2334,7 @@ DevToolsUtils
 .
 safeErrorString
 (
-aError
+error
 )
 )
 ;
@@ -2462,7 +2450,7 @@ _sendToPrettyPrintWorker
 :
 function
 (
-aIndent
+indent
 )
 {
 return
@@ -2493,8 +2481,6 @@ this
 .
 url
 indent
-:
-aIndent
 source
 :
 content
@@ -2749,7 +2735,7 @@ prevMap
 ;
 }
 let
-sources
+actorSources
 =
 this
 .
@@ -2757,7 +2743,7 @@ threadActor
 .
 sources
 ;
-sources
+actorSources
 .
 clearSourceMapCache
 (
@@ -2766,7 +2752,7 @@ source
 sourceMapURL
 )
 ;
-sources
+actorSources
 .
 setSourceMapHard
 (
@@ -2805,16 +2791,6 @@ this
 threadActor
 .
 sources
-;
-let
-sm
-=
-sources
-.
-getSourceMap
-(
-source
-)
 ;
 sources
 .
@@ -2991,7 +2967,9 @@ paused
 "
 )
 {
-throw
+let
+errorObject
+=
 {
 error
 :
@@ -3011,6 +2989,9 @@ running
 .
 "
 }
+;
+throw
+errorObject
 ;
 }
 let
@@ -3308,7 +3289,7 @@ scripts
 reduce
 (
 (
-largestScript
+largestScr
 script
 )
 =
@@ -3320,7 +3301,7 @@ script
 .
 lineCount
 >
-largestScript
+largestScr
 .
 lineCount
 )
@@ -3330,7 +3311,7 @@ script
 ;
 }
 return
-largestScript
+largestScr
 ;
 }
 )
@@ -3511,8 +3492,6 @@ actor
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -3545,7 +3524,6 @@ actor
 }
 )
 ;
-}
 }
 _setBreakpointAtAllGeneratedLocations
 :

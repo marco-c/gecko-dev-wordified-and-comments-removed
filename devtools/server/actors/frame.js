@@ -312,7 +312,7 @@ frame
 script
 )
 {
-var
+let
 generatedLocation
 =
 this

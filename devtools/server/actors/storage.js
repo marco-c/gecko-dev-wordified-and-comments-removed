@@ -9202,7 +9202,7 @@ let
 result
 =
 new
-promise
+Promise
 (
 resolve
 =
@@ -9429,7 +9429,7 @@ db
 =
 yield
 new
-promise
+Promise
 (
 (
 resolve
@@ -9510,7 +9510,7 @@ storeName
 ;
 yield
 new
-promise
+Promise
 (
 (
 resolve
@@ -9679,7 +9679,7 @@ db
 =
 yield
 new
-promise
+Promise
 (
 (
 resolve
@@ -9760,7 +9760,7 @@ storeName
 ;
 yield
 new
-promise
+Promise
 (
 (
 resolve
