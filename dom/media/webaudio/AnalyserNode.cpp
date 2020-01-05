@@ -340,9 +340,16 @@ AsAudioChunk
 )
 )
 ;
-NS_DispatchToMainThread
+mAbstractMainThread
+-
+>
+Dispatch
 (
 transfer
+.
+forget
+(
+)
 )
 ;
 }
