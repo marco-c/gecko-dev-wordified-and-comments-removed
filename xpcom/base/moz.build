@@ -555,6 +555,11 @@ Logging
 h
 '
 '
+MemoryReportingProcess
+.
+h
+'
+'
 nsMemoryInfoDumper
 .
 h

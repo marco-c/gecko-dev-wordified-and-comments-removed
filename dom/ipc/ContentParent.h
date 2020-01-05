@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+MemoryReportingProcess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -395,6 +404,11 @@ gfx
 :
 :
 GPUProcessListener
+public
+mozilla
+:
+:
+MemoryReportingProcess
 {
 typedef
 mozilla
@@ -1217,6 +1231,7 @@ IsAlive
 (
 )
 const
+override
 ;
 virtual
 bool
@@ -4918,6 +4933,7 @@ MaybeFileDesc
 &
 aDMDFile
 )
+override
 ;
 private
 :

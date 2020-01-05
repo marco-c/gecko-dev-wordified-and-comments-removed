@@ -124,6 +124,15 @@ include
 "
 mozilla
 /
+MemoryReportingProcess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -8254,10 +8263,7 @@ StartChildReport
 mozilla
 :
 :
-dom
-:
-:
-ContentParent
+MemoryReportingProcess
 *
 aChild
 const
@@ -8577,7 +8583,7 @@ IsEmpty
 {
 RefPtr
 <
-ContentParent
+MemoryReportingProcess
 >
 nextChild
 ;
