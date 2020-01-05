@@ -2233,9 +2233,10 @@ get_jsobject
 assert
 !
 (
+!
 obj
 .
-is_not_null
+is_null
 (
 )
 )

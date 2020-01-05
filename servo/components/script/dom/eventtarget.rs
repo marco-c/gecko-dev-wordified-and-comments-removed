@@ -1411,9 +1411,10 @@ scope
 assert
 !
 (
+!
 funobj
 .
-is_not_null
+is_null
 (
 )
 )

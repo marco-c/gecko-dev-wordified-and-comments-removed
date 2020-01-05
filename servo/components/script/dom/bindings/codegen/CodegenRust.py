@@ -12863,9 +12863,10 @@ null_mut
 assert
 !
 (
+!
 obj
 .
-is_not_null
+is_null
 (
 )
 )
@@ -12998,9 +12999,10 @@ create
 assert
 !
 (
+!
 obj
 .
-is_not_null
+is_null
 (
 )
 )
@@ -13250,9 +13252,10 @@ get_jsobject
 assert
 !
 (
+!
 scope
 .
-is_not_null
+is_null
 (
 )
 )
@@ -13298,9 +13301,10 @@ scope
 assert
 !
 (
+!
 proto
 .
-is_not_null
+is_null
 (
 )
 )
@@ -14239,9 +14243,10 @@ n
 assert
 !
 (
+!
 parentProto
 .
-is_not_null
+is_null
 (
 )
 )
@@ -14754,9 +14759,10 @@ aReceiver
 assert
 !
 (
+!
 tmp
 .
-is_not_null
+is_null
 (
 )
 )
@@ -15491,9 +15497,10 @@ CGGeneric
 assert
 !
 (
+!
 global
 .
-is_not_null
+is_null
 (
 )
 )
@@ -15501,6 +15508,7 @@ is_not_null
 assert
 !
 (
+!
 GetProtoObject
 (
 cx
@@ -15508,7 +15516,7 @@ global
 global
 )
 .
-is_not_null
+is_null
 (
 )
 )
@@ -27866,9 +27874,10 @@ proxy
 )
 {
 if
+!
 expando
 .
-is_not_null
+is_null
 (
 )
 {
@@ -27910,6 +27919,7 @@ false
 }
     
 if
+!
 (
 *
 desc
@@ -27917,7 +27927,7 @@ desc
 .
 obj
 .
-is_not_null
+is_null
 (
 )
 {
@@ -29418,9 +29428,10 @@ proxy
 )
 ;
 if
+!
 expando
 .
-is_not_null
+is_null
 (
 )
 {
@@ -29631,9 +29642,10 @@ proxy
 )
 ;
 if
+!
 expando
 .
-is_not_null
+is_null
 (
 )
 {

@@ -235,6 +235,7 @@ false
 ;
 }
 if
+!
 (
 *
 desc
@@ -242,7 +243,7 @@ desc
 .
 obj
 .
-is_not_null
+is_null
 (
 )
 {
@@ -621,9 +622,10 @@ length
 assert
 !
 (
+!
 string
 .
-is_not_null
+is_null
 (
 )
 )
