@@ -1582,6 +1582,11 @@ tabindex
 -
 1
 "
+mozinputrangeignorepreventdefault
+=
+"
+true
+"
 /
 >
 <
@@ -1782,6 +1787,11 @@ tabindex
 "
 -
 1
+"
+mozinputrangeignorepreventdefault
+=
+"
+true
 "
 /
 >
