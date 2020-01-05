@@ -54,10 +54,6 @@ extern
 crate
 offscreen_gl_context
 ;
-extern
-crate
-glutin
-;
 #
 [
 macro_use
