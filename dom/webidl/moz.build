@@ -4520,6 +4520,11 @@ PositionError
 webidl
 '
 '
+PrecompiledScript
+.
+webidl
+'
+'
 Presentation
 .
 webidl
