@@ -35,6 +35,12 @@ error_reporting
 StdoutErrorReporter
 ;
 use
+font_metrics
+:
+:
+FontMetricsProvider
+;
+use
 keyframes
 :
 :
@@ -1742,6 +1748,10 @@ ComputedValues
 cascade_flags
 :
 CascadeFlags
+font_metrics
+:
+&
+FontMetricsProvider
 )
 -
 >
@@ -1863,6 +1873,7 @@ p
 None
 &
 StdoutErrorReporter
+font_metrics
 cascade_flags
 )
 ;
@@ -1921,6 +1932,12 @@ Arc
 ComputedValues
 >
 {
+use
+font_metrics
+:
+:
+ServoMetricsProvider
+;
 let
 inherit_all
 =
@@ -2062,6 +2079,8 @@ Some
 parent_style
 )
 cascade_flags
+&
+ServoMetricsProvider
 )
 .
 values
@@ -2098,6 +2117,10 @@ Arc
 <
 ComputedValues
 >
+font_metrics
+:
+&
+FontMetricsProvider
 )
 -
 >
@@ -2371,6 +2394,7 @@ parent
 None
 &
 StdoutErrorReporter
+font_metrics
 CascadeFlags
 :
 :

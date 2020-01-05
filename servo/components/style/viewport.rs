@@ -42,6 +42,12 @@ size
 TypedSize2D
 ;
 use
+font_metrics
+:
+:
+get_metrics_provider_for_product
+;
+use
 media_queries
 :
 :
@@ -4412,6 +4418,13 @@ au_viewport_size
 )
 ;
 let
+provider
+=
+get_metrics_provider_for_product
+(
+)
+;
+let
 context
 =
 Context
@@ -4449,7 +4462,8 @@ clone
 )
 font_metrics_provider
 :
-None
+&
+provider
 }
 ;
 let

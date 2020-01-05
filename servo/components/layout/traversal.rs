@@ -305,6 +305,12 @@ E
 ConcreteNode
 :
 LayoutNode
+E
+:
+:
+FontMetricsProvider
+:
+Send
 {
 type
 ThreadLocalContext

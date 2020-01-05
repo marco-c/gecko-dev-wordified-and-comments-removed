@@ -2873,6 +2873,11 @@ kGenericFont_
 .
 *
 "
+"
+kPresContext_
+.
+*
+"
 ]
 ;
 let
@@ -3027,6 +3032,9 @@ FontFamilyName
 "
 "
 FontFamilyType
+"
+"
+FontSizePrefs
 "
 "
 FragmentOrURL
@@ -4452,6 +4460,9 @@ FontFamilyList
 "
 "
 FontFamilyType
+"
+"
+FontSizePrefs
 "
 "
 Keyframe

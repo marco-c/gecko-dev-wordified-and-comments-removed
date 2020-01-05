@@ -461,18 +461,6 @@ FontMetricsQueryResult
 :
 *
 ;
-if
-let
-Some
-(
-ref
-metrics_provider
-)
-=
-context
-.
-font_metrics_provider
-{
 for
 family
 in
@@ -497,7 +485,9 @@ Available
 metrics
 )
 =
-metrics_provider
+context
+.
+font_metrics_provider
 .
 query
 (
@@ -511,7 +501,6 @@ atom
 return
 metrics
 ;
-}
 }
 }
 None

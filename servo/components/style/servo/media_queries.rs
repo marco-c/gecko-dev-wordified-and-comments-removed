@@ -20,6 +20,12 @@ TypedSize2D
 }
 ;
 use
+font_metrics
+:
+:
+ServoMetricsProvider
+;
+use
 media_queries
 :
 :
@@ -921,7 +927,8 @@ clone
 )
 font_metrics_provider
 :
-None
+&
+ServoMetricsProvider
 }
 ;
 match

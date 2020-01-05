@@ -61,6 +61,12 @@ element_state
 ElementState
 ;
 use
+font_metrics
+:
+:
+FontMetricsProvider
+;
+use
 properties
 :
 :
@@ -1513,6 +1519,11 @@ ConcreteElement
 =
 Self
 >
+;
+type
+FontMetricsProvider
+:
+FontMetricsProvider
 ;
 fn
 as_node

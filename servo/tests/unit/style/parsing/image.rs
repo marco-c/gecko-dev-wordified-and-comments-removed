@@ -35,6 +35,15 @@ use
 style
 :
 :
+font_metrics
+:
+:
+ServoMetricsProvider
+;
+use
+style
+:
+:
 media_queries
 :
 :
@@ -338,7 +347,8 @@ clone
 )
 font_metrics_provider
 :
-None
+&
+ServoMetricsProvider
 }
 ;
 assert_eq

@@ -288,13 +288,10 @@ ComputedValues
 pub
 font_metrics_provider
 :
-Option
-<
 &
 '
 a
 FontMetricsProvider
->
 }
 impl
 <

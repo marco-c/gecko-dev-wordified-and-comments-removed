@@ -862,6 +862,10 @@ fn
 with
 <
 F
+R
+:
+'
+static
 >
 (
 ptr
@@ -875,6 +879,9 @@ callback
 mut
 F
 )
+-
+>
+R
 where
 F
 :
@@ -883,6 +890,9 @@ FnMut
 &
 Atom
 )
+-
+>
+R
 {
 let
 atom
@@ -898,6 +908,9 @@ ptr
 )
 )
 ;
+let
+ret
+=
 callback
 (
 &
@@ -912,6 +925,7 @@ forget
 atom
 )
 ;
+ret
 }
 #
 [

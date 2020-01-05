@@ -21,6 +21,12 @@ euclid
 Size2D
 ;
 use
+font_metrics
+:
+:
+get_metrics_provider_for_product
+;
+use
 gecko_bindings
 :
 :
@@ -2819,6 +2825,13 @@ default_computed_values
 )
 ;
 let
+provider
+=
+get_metrics_provider_for_product
+(
+)
+;
+let
 context
 =
 computed
@@ -2847,7 +2860,8 @@ clone
 )
 font_metrics_provider
 :
-None
+&
+provider
 }
 ;
 let
