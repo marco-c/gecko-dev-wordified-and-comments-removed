@@ -151,6 +151,12 @@ this
 void
 RenderLayer
 (
+wr
+:
+:
+DisplayListBuilder
+&
+aBuilder
 )
 override
 ;
