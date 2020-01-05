@@ -2512,7 +2512,7 @@ wasmSeenBytes
 &
 info
 .
-objectsNonHeapCodeAsmJS
+objectsNonHeapCodeWasm
 &
 info
 .
@@ -2606,7 +2606,7 @@ wasmSeenTables
 &
 info
 .
-objectsNonHeapCodeAsmJS
+objectsNonHeapCodeWasm
 &
 info
 .
