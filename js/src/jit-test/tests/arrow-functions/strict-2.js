@@ -18,6 +18,11 @@ assertThrowsInstanceOf
 Function
 (
 "
+'
+use
+strict
+'
+;
 (
 a
 =
@@ -39,11 +44,6 @@ f
 =
 >
 {
-'
-use
-strict
-'
-;
 }
 "
 )
@@ -59,6 +59,11 @@ assertThrowsInstanceOf
 Function
 (
 "
+'
+use
+strict
+'
+;
 (
 a
 =
@@ -79,11 +84,6 @@ f
 =
 >
 {
-'
-use
-strict
-'
-;
 }
 "
 )
