@@ -1021,6 +1021,7 @@ unload
 ]
 =
 function
+*
 (
 assert
 )
@@ -1168,6 +1169,13 @@ invoked
 loader
 .
 unload
+(
+)
+;
+yield
+Promise
+.
+resolve
 (
 )
 ;
