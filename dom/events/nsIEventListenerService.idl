@@ -510,6 +510,9 @@ getEventTargetChainFor
 in
 nsIDOMEventTarget
 aEventTarget
+in
+boolean
+composed
 [
 optional
 ]

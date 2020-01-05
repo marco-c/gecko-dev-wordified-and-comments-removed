@@ -894,6 +894,8 @@ GetEventTargetChainFor
 nsIDOMEventTarget
 *
 aEventTarget
+bool
+aComposed
 uint32_t
 *
 aCount
@@ -924,6 +926,13 @@ event
 (
 true
 eVoidEvent
+)
+;
+event
+.
+SetComposed
+(
+aComposed
 )
 ;
 nsTArray

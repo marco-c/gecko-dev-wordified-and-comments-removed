@@ -4713,6 +4713,7 @@ els
 getEventTargetChainFor
 (
 eventTarget
+true
 )
 ;
 let
