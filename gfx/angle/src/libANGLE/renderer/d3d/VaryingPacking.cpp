@@ -305,6 +305,17 @@ size
 ;
 if
 (
+varyingRows
+>
+maxVaryingVectors
+)
+{
+return
+false
+;
+}
+if
+(
 varyingColumns
 >
 =
