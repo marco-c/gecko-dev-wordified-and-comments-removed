@@ -42,3 +42,15 @@ info
 "
 )
 ;
+pref
+(
+"
+marionette
+.
+prefs
+.
+recommended
+"
+true
+)
+;
