@@ -571,6 +571,9 @@ Vec
 <
 ScrollEvent
 >
+has_seen_quit_event
+:
+bool
 }
 pub
 struct
@@ -889,6 +892,9 @@ outstanding_paint_msgs
 last_composite_time
 :
 0
+has_seen_quit_event
+:
+false
 }
 }
 pub
@@ -3993,6 +3999,18 @@ Quit
 =
 >
 {
+if
+!
+self
+.
+has_seen_quit_event
+{
+self
+.
+has_seen_quit_event
+=
+true
+;
 debug
 !
 (
@@ -4043,6 +4061,7 @@ ShutdownState
 :
 ShuttingDown
 ;
+}
 }
 }
 }
