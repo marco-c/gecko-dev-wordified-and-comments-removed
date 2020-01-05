@@ -5502,6 +5502,8 @@ CDATA
 [
 if
 (
+!
+(
 this
 .
 getAttribute
@@ -5510,7 +5512,7 @@ getAttribute
 allowunderflowscroll
 "
 )
-!
+=
 =
 "
 true
@@ -5525,11 +5527,12 @@ getAttribute
 hidevscroll
 "
 )
-!
+=
 =
 "
 true
 "
+)
 )
 event
 .
@@ -5559,6 +5562,8 @@ CDATA
 [
 if
 (
+!
+(
 this
 .
 getAttribute
@@ -5567,7 +5572,7 @@ getAttribute
 allowunderflowscroll
 "
 )
-!
+=
 =
 "
 true
@@ -5582,11 +5587,12 @@ getAttribute
 hidevscroll
 "
 )
-!
+=
 =
 "
 true
 "
+)
 )
 event
 .
