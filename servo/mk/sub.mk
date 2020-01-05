@@ -502,6 +502,10 @@ rust
 -
 fontconfig
 \
+rust
+-
+xlib
+\
 (
 NULL
 )
