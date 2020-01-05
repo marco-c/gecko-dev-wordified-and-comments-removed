@@ -465,6 +465,7 @@ if
 (
 f
 >
+=
 FloatType
 (
 numeric_limits
@@ -495,6 +496,7 @@ if
 (
 f
 <
+=
 FloatType
 (
 numeric_limits
