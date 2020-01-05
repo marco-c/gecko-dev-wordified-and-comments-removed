@@ -17,7 +17,7 @@ class
 BuiltInFunctionEmulator
 ;
 void
-InitBuiltInFunctionEmulatorForGLSLWorkarounds
+InitBuiltInAbsFunctionEmulatorForGLSLWorkarounds
 (
 BuiltInFunctionEmulator
 *

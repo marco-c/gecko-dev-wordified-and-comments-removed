@@ -2,6 +2,7 @@
 define
 ANGLE_COMMIT_HASH
 "
+8b3e8b4d1b09
 "
 #
 define
@@ -11,4 +12,16 @@ ANGLE_COMMIT_HASH_SIZE
 define
 ANGLE_COMMIT_DATE
 "
+2016
+-
+10
+-
+24
+15
+:
+38
+:
+47
++
+0800
 "

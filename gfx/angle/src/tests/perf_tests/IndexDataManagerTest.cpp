@@ -350,6 +350,8 @@ gl
 Error
 setData
 (
+GLenum
+target
 const
 void
 *
@@ -399,7 +401,7 @@ GL_NO_ERROR
 )
 ;
 }
-MOCK_METHOD3
+MOCK_METHOD4
 (
 setSubData
 gl
@@ -407,6 +409,7 @@ gl
 :
 Error
 (
+GLenum
 const
 void
 *
@@ -751,6 +754,7 @@ mIndexBuffer
 .
 bufferData
 (
+GL_ARRAY_BUFFER
 &
 indexData
 [

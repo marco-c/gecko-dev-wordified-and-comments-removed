@@ -1112,7 +1112,7 @@ shaderStrings
 ]
 size_t
 numStrings
-int
+ShCompileOptions
 compileOptions
 )
 {

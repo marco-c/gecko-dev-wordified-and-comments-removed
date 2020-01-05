@@ -81,6 +81,17 @@ node
 override
 ;
 bool
+visitTernary
+(
+Visit
+visit
+TIntermTernary
+*
+node
+)
+override
+;
+bool
 visitSelection
 (
 Visit

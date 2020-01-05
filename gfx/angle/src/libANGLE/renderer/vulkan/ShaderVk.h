@@ -43,7 +43,7 @@ ShaderVk
 )
 override
 ;
-int
+ShCompileOptions
 prepareSourceAndReturnOptions
 (
 std

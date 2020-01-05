@@ -289,13 +289,6 @@ new
 TIntermUnary
 (
 EOpLogicalNot
-)
-;
-negatedCondition
--
->
-setOperand
-(
 loop
 -
 >
