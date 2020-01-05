@@ -642,10 +642,6 @@ src
 test
 /
 ref
-/
-basic
-.
-list
 (
 TESTNAME
 )
@@ -689,10 +685,6 @@ src
 test
 /
 ref
-/
-basic
-.
-list
 (
 TESTNAME
 )
