@@ -485,6 +485,10 @@ curve
 .
 h
 \
+eclt
+.
+h
+\
 (
 NULL
 )
@@ -555,9 +559,6 @@ NSS_DISABLE_ECC
 ECL_SRCS
 =
 ecl
-.
-c
-ecl_curve
 .
 c
 ecl_mult

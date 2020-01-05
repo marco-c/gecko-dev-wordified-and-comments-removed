@@ -1675,6 +1675,9 @@ epoch
 DTLSRecvdRecords
 recvdRecords
 ;
+PRUint32
+earlyDataRemaining
+;
 PRUint8
 refCt
 ;
@@ -2662,6 +2665,9 @@ srvName
 SECItem
 alpnSelection
 ;
+PRUint32
+maxEarlyData
+;
 }
 SessionTicket
 ;
@@ -3032,6 +3038,10 @@ ssl3_sid_timeout
 extern
 PRUint32
 ssl_ticket_lifetime
+;
+extern
+PRUint32
+ssl_max_early_data_size
 ;
 extern
 const
@@ -3900,7 +3910,7 @@ void
 )
 ;
 extern
-SECStatus
+void
 ssl3_InitState
 (
 sslSocket
@@ -3909,7 +3919,7 @@ ss
 )
 ;
 extern
-SECStatus
+void
 ssl3_RestartHandshakeHashes
 (
 sslSocket

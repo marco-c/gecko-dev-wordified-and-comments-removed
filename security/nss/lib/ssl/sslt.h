@@ -629,6 +629,9 @@ cipherSuite
 PRBool
 canSendEarlyData
 ;
+PRUint32
+maxEarlyDataSize
+;
 }
 SSLPreliminaryChannelInfo
 ;

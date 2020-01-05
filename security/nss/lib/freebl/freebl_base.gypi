@@ -156,13 +156,6 @@ c
 '
 ecl
 /
-ecl_curve
-.
-c
-'
-'
-ecl
-/
 ecl_gf
 .
 c
