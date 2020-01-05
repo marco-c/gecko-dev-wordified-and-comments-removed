@@ -550,6 +550,7 @@ image
 .
 depth
 ;
+for
 uint
 :
 :
@@ -564,6 +565,7 @@ height
 |
 y
 |
+for
 uint
 :
 :
