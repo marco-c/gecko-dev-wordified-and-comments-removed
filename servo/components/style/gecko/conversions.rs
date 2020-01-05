@@ -124,7 +124,7 @@ stylesheets
 :
 :
 {
-CssRule
+CssRules
 Stylesheet
 StyleRule
 }
@@ -213,10 +213,7 @@ HasFFI
 for
 RwLock
 <
-Vec
-<
-CssRule
->
+CssRules
 >
 {
 type
@@ -231,10 +228,7 @@ HasArcFFI
 for
 RwLock
 <
-Vec
-<
-CssRule
->
+CssRules
 >
 {
 }

@@ -181,6 +181,7 @@ stylesheets
 Stylesheet
 NamespaceRule
 CssRule
+CssRules
 StyleRule
 KeyframesRule
 }
@@ -523,6 +524,11 @@ false
 )
 rules
 :
+CssRules
+:
+:
+new
+(
 vec
 !
 [
@@ -2009,9 +2015,6 @@ important_count
 )
 )
 ]
-.
-into
-(
 )
 }
 ;
