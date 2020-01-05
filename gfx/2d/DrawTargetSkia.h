@@ -881,6 +881,14 @@ aUninitialized
 false
 )
 ;
+bool
+Init
+(
+SkCanvas
+*
+aCanvas
+)
+;
 #
 ifdef
 USE_SKIA_GPU
