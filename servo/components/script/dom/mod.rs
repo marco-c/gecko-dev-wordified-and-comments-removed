@@ -161,6 +161,10 @@ domrectlist
 ;
 pub
 mod
+domrectreadonly
+;
+pub
+mod
 domstringmap
 ;
 pub
