@@ -141,6 +141,7 @@ TextRun
 (
 font
 :
+&
 Font
 text
 :
@@ -156,7 +157,6 @@ glyphs
 =
 shape_text
 (
-&
 font
 text
 )
@@ -174,7 +174,6 @@ min_break_width
 =
 calc_min_break_width
 (
-&
 font
 text
 )
@@ -185,7 +184,6 @@ glyphs
 :
 shape_text
 (
-&
 font
 text
 )
@@ -1120,7 +1118,6 @@ run
 =
 TextRun
 (
-*
 font
 ~
 "
