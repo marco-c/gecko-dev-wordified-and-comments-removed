@@ -217,13 +217,11 @@ servo
 /
 wiki
 /
-Doc
--
-building
+Building
 -
 for
 -
-android
+Android
 )
 Servo
 builds
