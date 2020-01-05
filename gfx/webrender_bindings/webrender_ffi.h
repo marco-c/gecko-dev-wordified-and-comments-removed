@@ -1542,7 +1542,7 @@ capacity
 ;
 #
 ifdef
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 #
 define
 WR_INLINE
