@@ -172,16 +172,6 @@ IsCurrentThreadIn
 0
 ;
 virtual
-bool
-IsDispatchReliable
-(
-)
-{
-return
-true
-;
-}
-virtual
 TaskDispatcher
 &
 TailDispatcher
