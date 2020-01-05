@@ -807,7 +807,7 @@ aSample
 >
 mOffset
 ;
-uint64_t
+int64_t
 aTstampUsecs
 =
 aSample
