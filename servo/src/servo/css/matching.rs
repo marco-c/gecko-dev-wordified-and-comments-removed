@@ -48,10 +48,10 @@ select_handler
 NodeSelectHandler
 ;
 trait
-StyleMethods
+MatchMethods
 {
 fn
-recompute_style_for_subtree
+restyle_subtree
 (
 ctx
 :
@@ -67,10 +67,10 @@ SelectCtx
 impl
 Node
 :
-StyleMethods
+MatchMethods
 {
 fn
-recompute_style_for_subtree
+restyle_subtree
 (
 ctx
 :
@@ -108,7 +108,7 @@ i
 ;
 kid
 .
-recompute_style_for_subtree
+restyle_subtree
 (
 ctx
 select_ctx

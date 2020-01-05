@@ -1004,7 +1004,7 @@ ctx
 {
 node
 .
-recompute_style_for_subtree
+restyle_subtree
 (
 &
 layout_ctx
