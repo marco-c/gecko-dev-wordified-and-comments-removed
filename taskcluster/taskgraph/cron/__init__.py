@@ -59,6 +59,14 @@ util
 attributes
 import
 match_run_on_projects
+from
+taskgraph
+.
+util
+.
+schema
+import
+resolve_keyed_by
 JOB_TYPES
 =
 {
@@ -144,6 +152,7 @@ _session
 def
 load_jobs
 (
+params
 )
 :
     
@@ -188,6 +197,49 @@ validate
 cron_yml
 )
     
+jobs
+=
+cron_yml
+[
+'
+jobs
+'
+]
+    
+for
+job
+in
+jobs
+:
+        
+resolve_keyed_by
+(
+job
+'
+when
+'
+'
+Cron
+job
+'
++
+job
+[
+'
+name
+'
+]
+                         
+project
+=
+params
+[
+'
+project
+'
+]
+)
+    
 return
 {
 j
@@ -201,12 +253,7 @@ j
 for
 j
 in
-cron_yml
-[
-'
 jobs
-'
-]
 }
 def
 should_run
@@ -503,6 +550,7 @@ job
 .
 format
 (
+            
 params
 [
 '
@@ -565,6 +613,7 @@ datetime
 .
 utcfromtimestamp
 (
+                
 int
 (
 os
@@ -630,6 +679,7 @@ get_session
 .
 get
 (
+            
 '
 http
 :
@@ -909,6 +959,7 @@ jobs
 =
 load_jobs
 (
+params
 )
     
 if

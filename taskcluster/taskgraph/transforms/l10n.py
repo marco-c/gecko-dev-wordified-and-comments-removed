@@ -34,12 +34,21 @@ import
 (
     
 TransformSequence
+)
+from
+taskgraph
+.
+util
+.
+schema
+import
+(
     
-resolve_keyed_by
+validate_schema
     
 optionally_keyed_by
     
-validate_schema
+resolve_keyed_by
 )
 from
 taskgraph
