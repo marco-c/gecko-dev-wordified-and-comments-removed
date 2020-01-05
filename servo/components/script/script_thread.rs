@@ -3048,6 +3048,10 @@ failure_info
 state
 .
 failure_info
+.
+clone
+(
+)
 ;
 thread
 :
@@ -3337,13 +3341,7 @@ neuter
 )
 ;
 }
-ConstellationMsg
-:
-:
-Failure
-(
 failure_info
-)
 const_chan
 )
 ;

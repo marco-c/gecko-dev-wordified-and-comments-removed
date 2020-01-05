@@ -1320,13 +1320,7 @@ send
 )
 ;
 }
-ConstellationMsg
-:
-:
-Failure
-(
 failure_msg
-)
 con_chan
 )
 ;

@@ -2164,13 +2164,7 @@ unwrap
 )
 ;
 }
-ConstellationMsg
-:
-:
-Failure
-(
 failure_msg
-)
 c
 )
 ;
