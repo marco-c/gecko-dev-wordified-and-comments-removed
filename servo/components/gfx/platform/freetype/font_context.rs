@@ -158,6 +158,10 @@ actual_size
 heap_size_of
 (
 ptr
+as
+*
+const
+_
 )
 ;
 let
@@ -209,6 +213,10 @@ actual_size
 heap_size_of
 (
 ptr
+as
+*
+const
+_
 )
 ;
 let
@@ -284,6 +292,10 @@ old_actual_size
 heap_size_of
 (
 old_ptr
+as
+*
+const
+_
 )
 ;
 let
@@ -316,6 +328,10 @@ new_actual_size
 heap_size_of
 (
 new_ptr
+as
+*
+const
+_
 )
 ;
 let
@@ -459,9 +475,6 @@ self
 >
 usize
 {
-let
-ft_size
-=
 unsafe
 {
 (
@@ -472,9 +485,6 @@ user
 )
 .
 size
-}
-;
-ft_size
 +
 heap_size_of
 (
@@ -484,7 +494,7 @@ ctx
 as
 *
 const
-c_void
+_
 )
 +
 heap_size_of
@@ -495,7 +505,7 @@ mem
 as
 *
 const
-c_void
+_
 )
 +
 heap_size_of
@@ -506,8 +516,9 @@ user
 as
 *
 const
-c_void
+_
 )
+}
 }
 }
 #

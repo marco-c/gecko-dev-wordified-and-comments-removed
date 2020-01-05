@@ -219,7 +219,7 @@ version
 .
 5
 .
-2
+3
 "
 features
 =
@@ -244,7 +244,7 @@ version
 .
 6
 .
-1
+2
 "
 features
 =
@@ -259,9 +259,9 @@ heapsize
 "
 0
 .
-2
+3
 .
-5
+0
 "
 heapsize_plugin
 =

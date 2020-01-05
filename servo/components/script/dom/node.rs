@@ -15043,6 +15043,8 @@ get
 )
 }
 {
+unsafe
+{
 heap_size_of
 (
 &
@@ -15056,8 +15058,9 @@ Uuid
 as
 *
 const
-c_void
+_
 )
+}
 }
 else
 {
