@@ -240,9 +240,7 @@ devtools
 -
 modules
 /
-client
-/
-framework
+src
 /
 menu
 "
@@ -1217,7 +1215,9 @@ devtools
 -
 modules
 /
-shared
+src
+/
+utils
 /
 event
 -
@@ -1432,11 +1432,7 @@ devtools
 -
 modules
 /
-client
-/
-shared
-/
-shim
+src
 /
 Services
 "
