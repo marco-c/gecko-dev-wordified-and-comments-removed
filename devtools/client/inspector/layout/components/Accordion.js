@@ -61,6 +61,15 @@ PropTypes
 .
 array
 }
+mixins
+:
+[
+React
+.
+addons
+.
+PureRenderMixin
+]
 getInitialState
 :
 function
