@@ -663,6 +663,10 @@ get
 no_native_titlebar
 )
 .
+with_vsync
+(
+)
+.
 with_dimensions
 (
 window_size
