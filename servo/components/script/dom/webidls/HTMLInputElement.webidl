@@ -223,8 +223,9 @@ attribute
 DOMString
 max
 ;
-/
-/
+[
+SetterThrows
+]
 attribute
 long
 maxLength

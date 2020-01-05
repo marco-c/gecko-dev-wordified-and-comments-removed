@@ -108,6 +108,16 @@ test
 )
 ]
 mod
+attr
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
 writing_modes
 {
 use
