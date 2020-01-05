@@ -10543,6 +10543,15 @@ url
 (
 )
 )
+document
+.
+origin
+(
+)
+.
+alias
+(
+)
 is_html_doc
 None
 None
