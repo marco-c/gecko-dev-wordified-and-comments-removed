@@ -2045,6 +2045,12 @@ inherit
 ref
 .
 html
+random
+-
+if
+(
+webrender
+)
 =
 =
 animate
@@ -2112,7 +2118,7 @@ d2d
 1
 5
 )
-fails
+random
 -
 if
 (
