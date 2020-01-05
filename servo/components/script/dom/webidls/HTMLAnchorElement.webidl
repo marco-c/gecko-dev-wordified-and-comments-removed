@@ -171,8 +171,6 @@ HTMLAnchorElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 target
