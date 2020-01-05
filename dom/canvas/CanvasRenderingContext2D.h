@@ -2056,7 +2056,6 @@ ErrorResult
 &
 aError
 )
-const
 ;
 void
 SetMozCurrentTransform
@@ -2103,7 +2102,6 @@ ErrorResult
 &
 aError
 )
-const
 ;
 void
 SetMozCurrentTransformInverse
