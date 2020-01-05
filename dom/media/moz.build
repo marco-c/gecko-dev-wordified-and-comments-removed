@@ -320,9 +320,6 @@ TEST_DIRS
 =
 [
 '
-compiledtest
-'
-'
 gtest
 '
 ]
