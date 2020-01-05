@@ -263,7 +263,7 @@ nsIAtom
 property
 bool
 is_custom
-nsString
+nsAString
 *
 buffer
 )
