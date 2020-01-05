@@ -164,6 +164,17 @@ freeglut3
 -
 dev
 libtool
+libfreetype6
+-
+dev
+libfontconfig1
+-
+dev
+libglib2
+.
+0
+-
+dev
 Servo
 builds
 its
