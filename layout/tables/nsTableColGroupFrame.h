@@ -197,8 +197,7 @@ nsDisplayListSet
 aLists
 )
 override
-{
-}
+;
 nsTableColGroupType
 GetColType
 (
