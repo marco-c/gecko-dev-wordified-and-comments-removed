@@ -375,7 +375,7 @@ system
 "
 )
 ;
-RestyleManager
+GeckoRestyleManager
 *
 restyleManager
 =

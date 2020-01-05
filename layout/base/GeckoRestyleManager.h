@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RestyleManager_h
+mozilla_GeckoRestyleManager_h
 #
 define
-mozilla_RestyleManager_h
+mozilla_GeckoRestyleManager_h
 #
 include
 "
@@ -103,16 +103,16 @@ Element
 ;
 }
 class
-RestyleManager
+GeckoRestyleManager
 final
 :
 public
-RestyleManagerBase
+RestyleManager
 {
 public
 :
 typedef
-RestyleManagerBase
+RestyleManager
 base_type
 ;
 friend
@@ -124,7 +124,7 @@ class
 ElementRestyler
 ;
 explicit
-RestyleManager
+GeckoRestyleManager
 (
 nsPresContext
 *
@@ -134,7 +134,7 @@ aPresContext
 private
 :
 ~
-RestyleManager
+GeckoRestyleManager
 (
 )
 {
@@ -162,7 +162,7 @@ NS_INLINE_DECL_REFCOUNTING
 mozilla
 :
 :
-RestyleManager
+GeckoRestyleManager
 )
 nsresult
 ContentStateChanged
@@ -356,7 +356,7 @@ public
 explicit
 ReframingStyleContexts
 (
-RestyleManager
+GeckoRestyleManager
 *
 aRestyleManager
 )
@@ -650,7 +650,7 @@ nullptr
 }
 private
 :
-RestyleManager
+GeckoRestyleManager
 *
 mRestyleManager
 ;
@@ -1034,7 +1034,7 @@ IsGecko
 (
 )
 "
-RestyleManager
+GeckoRestyleManager
 should
 only
 be
@@ -1465,7 +1465,7 @@ ShouldLogRestyle
 )
 {
 return
-RestyleManager
+GeckoRestyleManager
 :
 :
 ShouldLogRestyle

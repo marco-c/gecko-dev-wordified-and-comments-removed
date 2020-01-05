@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RestyleManagerBase_h
+mozilla_RestyleManager_h
 #
 define
-mozilla_RestyleManagerBase_h
+mozilla_RestyleManager_h
 #
 include
 "
@@ -43,7 +43,7 @@ class
 EventStates
 ;
 class
-RestyleManager
+GeckoRestyleManager
 ;
 class
 ServoRestyleManager
@@ -56,12 +56,12 @@ Element
 ;
 }
 class
-RestyleManagerBase
+RestyleManager
 {
 protected
 :
 explicit
-RestyleManagerBase
+RestyleManager
 (
 nsPresContext
 *
@@ -217,7 +217,7 @@ public
 explicit
 AnimationsWithDestroyedFrame
 (
-RestyleManagerBase
+RestyleManager
 *
 aRestyleManager
 )
@@ -383,7 +383,7 @@ CSSPseudoElementType
 aPseudoType
 )
 ;
-RestyleManagerBase
+RestyleManager
 *
 mRestyleManager
 ;
@@ -436,7 +436,7 @@ mAnimationsWithDestroyedFrame
 protected
 :
 ~
-RestyleManagerBase
+RestyleManager
 (
 )
 {

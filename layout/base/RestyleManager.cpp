@@ -33,10 +33,10 @@ h
 namespace
 mozilla
 {
-RestyleManagerBase
+RestyleManager
 :
 :
-RestyleManagerBase
+RestyleManager
 (
 nsPresContext
 *
@@ -71,7 +71,7 @@ mPresContext
 ;
 }
 void
-RestyleManagerBase
+RestyleManager
 :
 :
 ContentStateChangedInternal
@@ -408,7 +408,7 @@ nsChangeHint_RepaintFrame
 }
 }
 nsCString
-RestyleManagerBase
+RestyleManager
 :
 :
 RestyleHintToString
@@ -634,7 +634,7 @@ result
 ifdef
 DEBUG
 nsCString
-RestyleManagerBase
+RestyleManager
 :
 :
 ChangeHintToString
@@ -1072,7 +1072,7 @@ result
 #
 endif
 void
-RestyleManagerBase
+RestyleManager
 :
 :
 PostRestyleEventInternal
@@ -1944,7 +1944,7 @@ context
 }
 }
 void
-RestyleManagerBase
+RestyleManager
 :
 :
 DebugVerifyStyleTree
@@ -3606,7 +3606,7 @@ false
 }
 nsIFrame
 *
-RestyleManagerBase
+RestyleManager
 :
 :
 GetNearestAncestorFrame
@@ -3667,7 +3667,7 @@ ancestorFrame
 }
 nsIFrame
 *
-RestyleManagerBase
+RestyleManager
 :
 :
 GetNextBlockInInlineSibling
@@ -4952,7 +4952,7 @@ aFrame
 }
 nsIFrame
 *
-RestyleManagerBase
+RestyleManager
 :
 :
 GetNextContinuationWithSameStyle
@@ -5163,7 +5163,7 @@ nextContinuation
 ;
 }
 nsresult
-RestyleManagerBase
+RestyleManager
 :
 :
 ProcessRestyledFrames
@@ -6679,7 +6679,7 @@ return
 NS_OK
 ;
 }
-RestyleManagerBase
+RestyleManager
 :
 :
 AnimationsWithDestroyedFrame
@@ -6687,7 +6687,7 @@ AnimationsWithDestroyedFrame
 :
 AnimationsWithDestroyedFrame
 (
-RestyleManagerBase
+RestyleManager
 *
 aRestyleManager
 )
@@ -6729,7 +6729,7 @@ this
 ;
 }
 void
-RestyleManagerBase
+RestyleManager
 :
 :
 AnimationsWithDestroyedFrame
@@ -6768,7 +6768,7 @@ after
 ;
 }
 void
-RestyleManagerBase
+RestyleManager
 :
 :
 AnimationsWithDestroyedFrame

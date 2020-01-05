@@ -4237,7 +4237,7 @@ ifdef
 RESTYLE_LOGGING
 mRestyleLoggingEnabled
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleLoggingInitiallyEnabled
@@ -4307,10 +4307,7 @@ else
 mRestyleManager
 =
 new
-mozilla
-:
-:
-RestyleManager
+GeckoRestyleManager
 (
 this
 )

@@ -364,7 +364,7 @@ aChangeHint
 %
 s
 "
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleHintToString
@@ -375,7 +375,7 @@ aRestyleHint
 get
 (
 )
-RestyleManager
+GeckoRestyleManager
 :
 :
 ChangeHintToString
@@ -420,7 +420,7 @@ ShouldLogRestyle
 primaryFrame
 &
 &
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructsToLog
@@ -460,7 +460,7 @@ LogStyleContextTree
 LoggingDepth
 (
 )
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructsToLog
@@ -671,7 +671,7 @@ mRestyleManager
 )
 ;
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts

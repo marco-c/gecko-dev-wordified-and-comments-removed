@@ -86,7 +86,7 @@ nsPresContext
 aPresContext
 )
 :
-RestyleManagerBase
+RestyleManager
 (
 aPresContext
 )

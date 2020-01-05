@@ -435,17 +435,17 @@ result
 }
 #
 endif
-RestyleManager
+GeckoRestyleManager
 :
 :
-RestyleManager
+GeckoRestyleManager
 (
 nsPresContext
 *
 aPresContext
 )
 :
-RestyleManagerBase
+RestyleManager
 (
 aPresContext
 )
@@ -518,7 +518,7 @@ this
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleElement
@@ -832,7 +832,7 @@ aRestyleHintData
 }
 }
 }
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -840,7 +840,7 @@ ReframingStyleContexts
 :
 ReframingStyleContexts
 (
-RestyleManager
+GeckoRestyleManager
 *
 aRestyleManager
 )
@@ -881,7 +881,7 @@ mReframingStyleContexts
 this
 ;
 }
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -930,7 +930,7 @@ aPseudoType
 )
 ;
 nsresult
-RestyleManager
+GeckoRestyleManager
 :
 :
 ContentStateChanged
@@ -996,7 +996,7 @@ NS_OK
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 AttributeWillChange
@@ -1053,7 +1053,7 @@ rsdata
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 AttributeChanged
@@ -1461,7 +1461,7 @@ rsdata
 ;
 }
 uint64_t
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetAnimationGenerationForFrame
@@ -1497,7 +1497,7 @@ GetAnimationGeneration
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleForEmptyChange
@@ -1562,7 +1562,7 @@ nsChangeHint
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleForAppend
@@ -1837,7 +1837,7 @@ static
 void
 RestyleSiblingsStartingWith
 (
-RestyleManager
+GeckoRestyleManager
 *
 aRestyleManager
 nsIContent
@@ -1904,7 +1904,7 @@ break
 }
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleForInsertOrChange
@@ -2279,7 +2279,7 @@ break
 }
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 ContentRemoved
@@ -2662,7 +2662,7 @@ true
 }
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 RebuildAllStyleData
@@ -2827,7 +2827,7 @@ ProcessPendingRestyles
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 StartRebuildAllStyleData
@@ -3013,7 +3013,7 @@ RestyleHintData
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 FinishRebuildAllStyleData
@@ -3044,7 +3044,7 @@ false
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 ProcessPendingRestyles
@@ -3246,7 +3246,7 @@ FinishRebuildAllStyleData
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 BeginProcessingRestyles
@@ -3294,7 +3294,7 @@ aRestyleTracker
 }
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 EndProcessingRestyles
@@ -3366,7 +3366,7 @@ VerifyStyleTree
 endif
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 UpdateOnlyAnimationStyles
@@ -3535,7 +3535,7 @@ false
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 PostRestyleEvent
@@ -3629,7 +3629,7 @@ false
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 PostRebuildAllStyleDataEvent
@@ -3708,7 +3708,7 @@ false
 ;
 }
 bool
-RestyleManager
+GeckoRestyleManager
 :
 :
 TryInitiatingTransition
@@ -4499,7 +4499,7 @@ prevContinuation
 ;
 }
 nsresult
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReparentStyleContext
@@ -6032,7 +6032,7 @@ AddLayerChangesForAnimation
 uint64_t
 frameGeneration
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetAnimationGenerationForFrame
@@ -6330,7 +6330,7 @@ aChangeToAssume
 %
 s
 "
-RestyleManager
+GeckoRestyleManager
 :
 :
 ChangeHintToString
@@ -6341,7 +6341,7 @@ ourChange
 get
 (
 )
-RestyleManager
+GeckoRestyleManager
 :
 :
 ChangeHintToString
@@ -6427,7 +6427,7 @@ change
 %
 s
 "
-RestyleManager
+GeckoRestyleManager
 :
 :
 ChangeHintToString
@@ -6482,7 +6482,7 @@ mHintsNotHandledForDescendants
 %
 s
 "
-RestyleManager
+GeckoRestyleManager
 :
 :
 ChangeHintToString
@@ -6888,7 +6888,7 @@ f
 ;
 f
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetNextContinuationWithSameStyle
@@ -8176,7 +8176,7 @@ f
 ;
 f
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetNextContinuationWithSameStyle
@@ -8746,7 +8746,7 @@ thisResult
 }
 f
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetNextContinuationWithSameStyle
@@ -10708,7 +10708,7 @@ aSelf
 get
 (
 )
-RestyleManagerBase
+RestyleManager
 :
 :
 RestyleHintToString
@@ -11876,7 +11876,7 @@ data
 %
 s
 "
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructNamesToString
@@ -11907,7 +11907,7 @@ else
 bool
 changedStyle
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 TryInitiatingTransition
@@ -11986,7 +11986,7 @@ data
 %
 s
 "
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructNamesToString
@@ -12516,7 +12516,7 @@ RESTYLE_LOGGING
 uint32_t
 structs
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructsToLog
@@ -13158,7 +13158,7 @@ f
 ;
 f
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetNextContinuationWithSameStyle
@@ -13718,7 +13718,7 @@ nextIBSibling
 {
 nextIBSibling
 =
-RestyleManager
+GeckoRestyleManager
 :
 :
 GetNextBlockInInlineSibling
@@ -15539,7 +15539,7 @@ nullptr
 }
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 ComputeAndProcessStyleChange
@@ -15619,7 +15619,7 @@ contextsToClear
 ;
 }
 void
-RestyleManager
+GeckoRestyleManager
 :
 :
 ComputeAndProcessStyleChange
@@ -16147,7 +16147,7 @@ i
 ifdef
 RESTYLE_LOGGING
 uint32_t
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructsToLog
@@ -16314,7 +16314,7 @@ endif
 ifdef
 DEBUG
 nsCString
-RestyleManager
+GeckoRestyleManager
 :
 :
 StructNamesToString

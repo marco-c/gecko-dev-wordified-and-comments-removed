@@ -9056,7 +9056,7 @@ StyleBackendType
 "
 )
 ;
-RestyleManager
+GeckoRestyleManager
 *
 restyleManager
 =
@@ -9146,7 +9146,7 @@ nsStyleContext
 aParentContext
 )
 {
-RestyleManager
+GeckoRestyleManager
 *
 restyleManager
 =

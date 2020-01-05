@@ -3249,7 +3249,7 @@ IsGecko
 )
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -3311,7 +3311,7 @@ this
 )
 )
 {
-RestyleManagerBase
+RestyleManager
 :
 :
 AnimationsWithDestroyedFrame

@@ -60,13 +60,13 @@ namespace
 mozilla
 {
 class
+GeckoRestyleManager
+;
+class
 RestyleManager
 ;
 class
 ServoRestyleManager
-;
-class
-RestyleManagerBase
 ;
 namespace
 dom
@@ -192,7 +192,7 @@ StyleBackendType
 Servo
 ;
 }
-RestyleManager
+GeckoRestyleManager
 *
 AsGecko
 (
@@ -208,7 +208,7 @@ IsGecko
 return
 reinterpret_cast
 <
-RestyleManager
+GeckoRestyleManager
 *
 >
 (
@@ -243,7 +243,7 @@ SERVO_BIT
 )
 ;
 }
-RestyleManager
+GeckoRestyleManager
 *
 GetAsGecko
 (
@@ -280,7 +280,7 @@ nullptr
 ;
 }
 const
-RestyleManager
+GeckoRestyleManager
 *
 AsGecko
 (
@@ -335,7 +335,7 @@ AsServo
 ;
 }
 const
-RestyleManager
+GeckoRestyleManager
 *
 GetAsGecko
 (
@@ -375,10 +375,7 @@ nullptr
 ;
 }
 const
-mozilla
-:
-:
-RestyleManagerBase
+RestyleManager
 *
 AsBase
 (
@@ -389,7 +386,7 @@ return
 reinterpret_cast
 <
 const
-RestyleManagerBase
+RestyleManager
 *
 >
 (
@@ -400,10 +397,7 @@ SERVO_BIT
 )
 ;
 }
-mozilla
-:
-:
-RestyleManagerBase
+RestyleManager
 *
 AsBase
 (
@@ -412,7 +406,7 @@ AsBase
 return
 reinterpret_cast
 <
-RestyleManagerBase
+RestyleManager
 *
 >
 (
@@ -711,7 +705,7 @@ mValue
 MOZ_IMPLICIT
 RestyleManagerHandle
 (
-RestyleManager
+GeckoRestyleManager
 *
 aManager
 )
@@ -763,7 +757,7 @@ RestyleManagerHandle
 operator
 =
 (
-RestyleManager
+GeckoRestyleManager
 *
 aManager
 )
