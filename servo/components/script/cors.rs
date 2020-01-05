@@ -2715,6 +2715,11 @@ match
 headers
 .
 get
+:
+:
+<
+AccessControlAllowOrigin
+>
 (
 )
 {
@@ -2785,6 +2790,15 @@ origin
 port
 (
 )
+Some
+(
+&
+AccessControlAllowOrigin
+:
+:
+Null
+)
+|
 None
 =
 >
