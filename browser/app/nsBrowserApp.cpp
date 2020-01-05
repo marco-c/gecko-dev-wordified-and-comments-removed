@@ -444,6 +444,11 @@ kDesktopFolder
 browser
 "
 static
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 void
 Output
 (
