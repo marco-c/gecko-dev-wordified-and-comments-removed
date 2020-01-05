@@ -386,8 +386,6 @@ if
 (
 stylo
 7
--
-8
 )
 load
 350370
@@ -395,7 +393,7 @@ load
 html
 #
 bug
-1324673
+1324663
 load
 354458
 -
@@ -863,7 +861,7 @@ asserts
 if
 (
 stylo
-350
+4
 )
 load
 385526
@@ -871,7 +869,7 @@ load
 html
 #
 bug
-1324673
+1324663
 load
 385681
 .
@@ -2128,7 +2126,7 @@ asserts
 if
 (
 stylo
-8
+7
 )
 load
 451317
