@@ -34,6 +34,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
