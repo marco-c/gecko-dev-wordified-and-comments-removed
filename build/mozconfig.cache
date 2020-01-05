@@ -333,6 +333,8 @@ try
 esac
 ;
 ;
+autoland
+|
 mozilla
 -
 inbound
@@ -675,6 +677,18 @@ region
 }
 ;
 ;
+*
+hg
+.
+mozilla
+.
+org
+/
+integration
+/
+autoland
+*
+|
 *
 hg
 .
