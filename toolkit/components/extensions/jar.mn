@@ -190,6 +190,15 @@ extensions
 /
 ext
 -
+protocolHandlers
+.
+js
+content
+/
+extensions
+/
+ext
+-
 runtime
 .
 js

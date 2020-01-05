@@ -143,6 +143,15 @@ extensions
 /
 schemas
 /
+extension_protocol_handlers
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 i18n
 .
 json
