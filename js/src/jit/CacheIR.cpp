@@ -10835,6 +10835,11 @@ asPropertyName
 (
 )
 rhsId
+typeCheckInfo_
+.
+needsTypeBarrier
+(
+)
 )
 ;
 writer

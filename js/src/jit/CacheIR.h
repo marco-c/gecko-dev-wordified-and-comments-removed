@@ -4098,6 +4098,8 @@ PropertyName
 name
 ValOperandId
 rhs
+bool
+needsTypeBarrier
 )
 {
 writeOpWithOperandId
@@ -4127,6 +4129,13 @@ String
 writeOperandId
 (
 rhs
+)
+;
+buffer_
+.
+writeByte
+(
+needsTypeBarrier
 )
 ;
 }

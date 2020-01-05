@@ -4998,6 +4998,11 @@ Value
 vp
 )
 ;
+template
+<
+bool
+NeedsTypeBarrier
+>
 bool
 SetNativeDataProperty
 (
