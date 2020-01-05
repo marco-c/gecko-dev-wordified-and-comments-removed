@@ -362,6 +362,11 @@ WinIMEHandler
 cpp
 '
 '
+WinPointerEvents
+.
+cpp
+'
+'
 WinTaskbar
 .
 cpp
