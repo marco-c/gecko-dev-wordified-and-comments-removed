@@ -1,6 +1,11 @@
 var
 pr
 ;
+addIntlExtras
+(
+Intl
+)
+;
 pr
 =
 new
