@@ -291,6 +291,16 @@ enabled
 True
         
 "
+marionette
+.
+prefs
+.
+recommended
+"
+:
+False
+        
+"
 media
 .
 volume_scale
