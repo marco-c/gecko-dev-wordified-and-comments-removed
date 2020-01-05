@@ -19,6 +19,7 @@ Unavailable
 CrashedInHandler
 Blocked
 Blacklisted
+OptIn
 Failed
 Disabled
 Available
