@@ -232,6 +232,10 @@ attribute
 EventHandler
 onchange
 ;
+attribute
+EventHandler
+onsubmit
+;
 }
 ;
 [
