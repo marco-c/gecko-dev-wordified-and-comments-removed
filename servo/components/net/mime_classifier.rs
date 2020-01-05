@@ -1640,8 +1640,6 @@ u8
 )
 -
 >
-Option
-<
 (
 &
 '
@@ -1652,7 +1650,6 @@ str
 static
 str
 )
->
 {
 if
 (
@@ -1747,8 +1744,6 @@ data
 0xBFu8
 )
 {
-Some
-(
 (
 "
 text
@@ -1756,7 +1751,6 @@ text
 "
 plain
 "
-)
 )
 }
 else
@@ -1823,8 +1817,6 @@ x
 )
 )
 {
-Some
-(
 (
 "
 application
@@ -1835,12 +1827,9 @@ octet
 stream
 "
 )
-)
 }
 else
 {
-Some
-(
 (
 "
 text
@@ -1848,7 +1837,6 @@ text
 "
 plain
 "
-)
 )
 }
 }
@@ -1883,11 +1871,14 @@ String
 return
 as_string_option
 (
+Some
+(
 self
 .
 classify_impl
 (
 data
+)
 )
 )
 ;
