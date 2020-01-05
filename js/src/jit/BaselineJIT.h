@@ -2068,6 +2068,9 @@ monitorStub
 uint32_t
 numFrames
 ;
+bool
+checkGlobalDeclarationConflicts
+;
 BailoutKind
 bailoutKind
 ;
