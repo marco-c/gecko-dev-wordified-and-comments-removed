@@ -294,13 +294,6 @@ UnlockProd
 (
 )
 ;
-virtual
-void
-Commit
-(
-)
-{
-}
 protected
 :
 virtual

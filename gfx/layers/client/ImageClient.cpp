@@ -780,16 +780,10 @@ CreateTextureClient
 typedImage
 -
 >
-GetHandle
+GetSurfaceTexture
 (
 )
 size
-typedImage
--
->
-GetContinuous
-(
-)
 typedImage
 -
 >
