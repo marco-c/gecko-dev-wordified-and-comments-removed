@@ -373,9 +373,6 @@ SideOffsets2D
 Au
 >
 >
-content_box_width
-:
-Au
 specific
 :
 SpecificBoxInfo
@@ -1085,14 +1082,6 @@ zero
 (
 )
 )
-content_box_width
-:
-Zero
-:
-:
-zero
-(
-)
 specific
 :
 specific
@@ -1267,11 +1256,6 @@ get
 (
 )
 )
-content_box_width
-:
-self
-.
-content_box_width
 specific
 :
 specific
