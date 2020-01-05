@@ -32,7 +32,7 @@ react
 ;
 const
 {
-cropMultipleLines
+cropString
 }
 =
 require
@@ -165,7 +165,7 @@ props
 .
 cropLimit
 ?
-cropMultipleLines
+cropString
 (
 text
 this
@@ -175,7 +175,7 @@ props
 cropLimit
 )
 :
-cropMultipleLines
+cropString
 (
 text
 )
