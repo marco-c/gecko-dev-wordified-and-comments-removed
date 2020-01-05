@@ -14,6 +14,12 @@ TokenSerializationType
 }
 ;
 use
+parser
+:
+:
+Parse
+;
+use
 properties
 :
 :
@@ -554,7 +560,11 @@ last_token_type
 )
 }
 }
-pub
+impl
+Parse
+for
+SpecifiedValue
+{
 fn
 parse
 (
@@ -568,7 +578,7 @@ Parser
 >
 Result
 <
-SpecifiedValue
+Self
 (
 )
 >
@@ -632,6 +642,7 @@ unwrap
 )
 }
 )
+}
 }
 pub
 fn

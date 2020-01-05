@@ -183,6 +183,7 @@ parser
 :
 :
 {
+Parse
 ParserContext
 ParserContextExtraData
 }
@@ -347,7 +348,10 @@ use
 parser
 :
 :
+{
+Parse
 ParserContext
+}
 ;
 use
 values
@@ -761,7 +765,10 @@ use
 parser
 :
 :
+{
+Parse
 ParserContext
+}
 ;
 use
 values
@@ -2659,9 +2666,10 @@ InheritKeyword
 UnsetKeyword
 }
 impl
+Parse
+for
 CSSWideKeyword
 {
-pub
 fn
 parse
 (
@@ -2675,7 +2683,7 @@ Parser
 >
 Result
 <
-CSSWideKeyword
+Self
 (
 )
 >
@@ -5442,6 +5450,9 @@ match
 :
 :
 custom_properties
+:
+:
+SpecifiedValue
 :
 :
 parse

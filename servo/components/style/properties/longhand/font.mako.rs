@@ -3910,6 +3910,12 @@ cssparser
 Parser
 ;
 use
+parser
+:
+:
+Parse
+;
+use
 std
 :
 :
@@ -4241,6 +4247,8 @@ x
 }
 }
 impl
+Parse
+for
 FeatureTagValue
 {
 /
@@ -4287,7 +4295,6 @@ off
 integer
 >
 ]
-pub
 fn
 parse
 (
@@ -4301,7 +4308,7 @@ Parser
 >
 Result
 <
-FeatureTagValue
+Self
 (
 )
 >
