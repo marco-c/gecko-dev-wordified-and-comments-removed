@@ -3202,8 +3202,6 @@ GLenum
 pname
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
@@ -3292,8 +3290,6 @@ WebGLShader
 shader
 )
 ;
-/
-/
 DOMString
 ?
 getShaderSource

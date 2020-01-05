@@ -66,6 +66,12 @@ RepetitionStyle
 }
 ;
 use
+canvas_traits
+:
+:
+WebGLError
+;
+use
 cssparser
 :
 :
@@ -1796,6 +1802,12 @@ no_jsmanaged_fields
 !
 (
 RepetitionStyle
+)
+;
+no_jsmanaged_fields
+!
+(
+WebGLError
 )
 ;
 impl
