@@ -375,6 +375,9 @@ if
 (
 NS_WARN_IF
 (
+mBuilder
+&
+&
 NS_FAILED
 (
 mBuilder
