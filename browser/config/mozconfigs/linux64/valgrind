@@ -30,6 +30,16 @@ disable
 install
 -
 strip
+ac_add_options
+-
+-
+disable
+-
+gtest
+-
+in
+-
+build
 #
 Include
 the
