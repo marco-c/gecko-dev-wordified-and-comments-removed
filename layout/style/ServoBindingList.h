@@ -137,7 +137,7 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
-uint32_t
+uint64_t
 unique_id
 )
 SERVO_BINDING_FUNC
@@ -148,7 +148,7 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
-uint32_t
+uint64_t
 unique_id
 )
 SERVO_BINDING_FUNC
@@ -157,7 +157,7 @@ Servo_StyleSet_RemoveStyleSheet
 void
 RawServoStyleSetBorrowed
 set
-uint32_t
+uint64_t
 unique_id
 )
 SERVO_BINDING_FUNC
@@ -168,9 +168,9 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
-uint32_t
+uint64_t
 unique_id
-uint32_t
+uint64_t
 before_unique_id
 )
 SERVO_BINDING_FUNC

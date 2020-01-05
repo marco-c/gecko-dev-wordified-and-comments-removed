@@ -2311,7 +2311,7 @@ insertion
 "
 )
 ;
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -2320,7 +2320,7 @@ aType
 aSheet
 )
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 AppendSheetOfType
@@ -2420,7 +2420,7 @@ insertion
 "
 )
 ;
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -2429,7 +2429,7 @@ aType
 aSheet
 )
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 PrependSheetOfType
@@ -2498,7 +2498,7 @@ aType
 )
 )
 ;
-uint32_t
+uint64_t
 uniqueID
 =
 RemoveSheetOfType
@@ -2608,7 +2608,7 @@ sheet
 aNewSheets
 )
 {
-uint32_t
+uint64_t
 uniqueID
 =
 AppendSheetOfType
@@ -2760,7 +2760,7 @@ sheet
 "
 )
 ;
-uint32_t
+uint64_t
 beforeUniqueID
 =
 FindSheetOfType
@@ -2781,7 +2781,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -2790,7 +2790,7 @@ aType
 aNewSheet
 )
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 InsertSheetOfType
@@ -2979,7 +2979,7 @@ strong
 aSheet
 )
 ;
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -3026,7 +3026,7 @@ Length
 )
 )
 {
-uint32_t
+uint64_t
 beforeUniqueID
 =
 mEntries
@@ -3042,7 +3042,7 @@ index
 .
 uniqueID
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 InsertSheetOfType
@@ -3086,7 +3086,7 @@ true
 }
 else
 {
-uint32_t
+uint64_t
 newUniqueID
 =
 AppendSheetOfType
@@ -4279,7 +4279,7 @@ mStylistMayNeedRebuild
 false
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -4326,7 +4326,7 @@ return
 0
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -4337,7 +4337,7 @@ aType
 ServoStyleSheet
 *
 aSheet
-uint32_t
+uint64_t
 aReuseUniqueID
 )
 {
@@ -4382,7 +4382,7 @@ entry
 uniqueID
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -4393,7 +4393,7 @@ aType
 ServoStyleSheet
 *
 aSheet
-uint32_t
+uint64_t
 aReuseUniqueID
 )
 {
@@ -4437,7 +4437,7 @@ entry
 uniqueID
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -4448,9 +4448,9 @@ aType
 ServoStyleSheet
 *
 aSheet
-uint32_t
+uint64_t
 aBeforeUniqueID
-uint32_t
+uint64_t
 aReuseUniqueID
 )
 {
@@ -4539,7 +4539,7 @@ return
 0
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -4591,7 +4591,7 @@ sheet
 aSheet
 )
 {
-uint32_t
+uint64_t
 uniqueID
 =
 mEntries
