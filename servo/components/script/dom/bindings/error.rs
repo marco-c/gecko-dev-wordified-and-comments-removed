@@ -116,6 +116,7 @@ ptr
 deriving
 (
 Show
+Clone
 )
 ]
 pub
