@@ -2498,6 +2498,13 @@ category
 "
 paneGeneral
 "
+data
+-
+subcategory
+=
+"
+search
+"
 >
 <
 caption
@@ -2684,6 +2691,13 @@ category
 =
 "
 paneGeneral
+"
+data
+-
+subcategory
+=
+"
+search
 "
 >
 <

@@ -11350,7 +11350,9 @@ telemetryOrigin
 openPreferences
 (
 "
-paneGeneral
+general
+-
+search
 "
 )
 ;
