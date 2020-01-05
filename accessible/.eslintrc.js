@@ -75,6 +75,16 @@ rules
 :
 {
 "
+complexity
+"
+:
+[
+"
+error
+"
+42
+]
+"
 max
 -
 nested

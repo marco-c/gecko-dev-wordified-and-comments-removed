@@ -240,13 +240,7 @@ complexity
 "
 error
 "
-{
-"
-max
-"
-:
-35
-}
+32
 ]
 "
 computed

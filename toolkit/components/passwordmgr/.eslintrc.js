@@ -92,6 +92,16 @@ style
 error
 "
 "
+complexity
+"
+:
+[
+"
+error
+"
+43
+]
+"
 no
 -
 array
