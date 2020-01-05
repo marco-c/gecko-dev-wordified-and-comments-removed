@@ -126,6 +126,13 @@ faviconURI
 spec
 )
 ;
+yield
+PlacesTestUtils
+.
+promiseAsyncUpdates
+(
+)
+;
 let
 db
 =
@@ -667,6 +674,13 @@ Date
 (
 )
 )
+)
+;
+yield
+PlacesTestUtils
+.
+promiseAsyncUpdates
+(
 )
 ;
 let
