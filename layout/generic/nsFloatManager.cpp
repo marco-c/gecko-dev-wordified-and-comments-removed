@@ -2967,7 +2967,7 @@ FloatInfo
 )
 ;
 const
-StyleShapeOutside
+StyleShapeSource
 &
 shapeOutside
 =
@@ -3032,7 +3032,7 @@ GetReferenceBox
 )
 {
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Content
@@ -3054,7 +3054,7 @@ aWM
 MOZ_FALLTHROUGH
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Padding
@@ -3076,7 +3076,7 @@ aWM
 MOZ_FALLTHROUGH
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Border
@@ -3098,7 +3098,7 @@ aWM
 break
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Margin
@@ -3106,7 +3106,7 @@ Margin
 break
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 NoBox
@@ -3137,6 +3137,19 @@ box
 >
 specified
 !
+"
+)
+;
+break
+;
+default
+:
+MOZ_ASSERT_UNREACHABLE
+(
+"
+Unexpected
+box
+value
 "
 )
 ;
