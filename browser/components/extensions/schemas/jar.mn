@@ -162,6 +162,15 @@ browser
 /
 schemas
 /
+theme
+.
+json
+content
+/
+browser
+/
+schemas
+/
 windows
 .
 json

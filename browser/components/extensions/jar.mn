@@ -219,6 +219,15 @@ browser
 /
 ext
 -
+theme
+.
+js
+content
+/
+browser
+/
+ext
+-
 utils
 .
 js
