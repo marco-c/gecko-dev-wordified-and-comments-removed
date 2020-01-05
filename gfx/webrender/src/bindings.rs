@@ -1617,7 +1617,7 @@ enable_msaa
 false
 enable_profiler
 :
-true
+false
 enable_recording
 :
 false
