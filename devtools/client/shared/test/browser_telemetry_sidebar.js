@@ -157,6 +157,9 @@ ruleview
 computedview
 "
 "
+layoutview
+"
+"
 fontinspector
 "
 "
