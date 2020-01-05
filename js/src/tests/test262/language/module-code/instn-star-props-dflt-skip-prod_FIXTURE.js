@@ -8,9 +8,3 @@ export
 default
 null
 ;
-reportCompare
-(
-0
-0
-)
-;

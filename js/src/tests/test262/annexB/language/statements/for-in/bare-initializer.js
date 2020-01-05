@@ -1,0 +1,16 @@
+var
+a
+;
+throw
+NotEarlyError
+;
+for
+(
+a
+=
+0
+in
+{
+}
+)
+;

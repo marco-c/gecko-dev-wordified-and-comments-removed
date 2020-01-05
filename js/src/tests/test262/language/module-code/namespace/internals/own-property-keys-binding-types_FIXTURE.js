@@ -32,9 +32,3 @@ types
 js
 '
 ;
-reportCompare
-(
-0
-0
-)
-;

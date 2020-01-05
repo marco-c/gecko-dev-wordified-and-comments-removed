@@ -10,9 +10,3 @@ both
 =
 null
 ;
-reportCompare
-(
-0
-0
-)
-;

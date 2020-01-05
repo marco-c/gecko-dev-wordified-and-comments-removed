@@ -27,9 +27,3 @@ y
 =
 45
 ;
-reportCompare
-(
-0
-0
-)
-;

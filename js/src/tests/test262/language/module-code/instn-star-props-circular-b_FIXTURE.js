@@ -21,9 +21,3 @@ export
 var
 fromB
 ;
-reportCompare
-(
-0
-0
-)
-;

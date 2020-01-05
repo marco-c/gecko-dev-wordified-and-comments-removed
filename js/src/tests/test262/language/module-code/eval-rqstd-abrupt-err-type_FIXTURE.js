@@ -4,9 +4,3 @@ TypeError
 (
 )
 ;
-reportCompare
-(
-0
-0
-)
-;

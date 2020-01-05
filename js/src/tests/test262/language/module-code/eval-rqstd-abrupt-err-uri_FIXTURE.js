@@ -4,9 +4,3 @@ Error
 (
 )
 ;
-reportCompare
-(
-0
-0
-)
-;

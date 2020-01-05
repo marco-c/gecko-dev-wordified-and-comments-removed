@@ -4,9 +4,3 @@ a
 =
 333
 ;
-reportCompare
-(
-0
-0
-)
-;

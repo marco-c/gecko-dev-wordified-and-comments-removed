@@ -6,9 +6,3 @@ export
 var
 starIndirectIdName
 ;
-reportCompare
-(
-0
-0
-)
-;

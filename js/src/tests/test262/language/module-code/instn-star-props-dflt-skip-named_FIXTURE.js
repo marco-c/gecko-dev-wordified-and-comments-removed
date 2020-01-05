@@ -14,9 +14,3 @@ as
 default
 }
 ;
-reportCompare
-(
-0
-0
-)
-;

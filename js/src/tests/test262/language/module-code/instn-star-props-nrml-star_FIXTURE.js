@@ -119,9 +119,3 @@ indirect_FIXTURE
 js
 '
 ;
-reportCompare
-(
-0
-0
-)
-;

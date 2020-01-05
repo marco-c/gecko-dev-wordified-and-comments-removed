@@ -138,9 +138,3 @@ star_FIXTURE
 js
 '
 ;
-reportCompare
-(
-0
-0
-)
-;

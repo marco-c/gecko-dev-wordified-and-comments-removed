@@ -20,9 +20,3 @@ export
 testNs
 }
 ;
-reportCompare
-(
-0
-0
-)
-;

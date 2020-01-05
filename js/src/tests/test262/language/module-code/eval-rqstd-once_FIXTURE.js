@@ -72,9 +72,3 @@ evaluation
 )
 ;
 }
-reportCompare
-(
-0
-0
-)
-;

@@ -16,9 +16,3 @@ test262
 3
 '
 ;
-reportCompare
-(
-0
-0
-)
-;
