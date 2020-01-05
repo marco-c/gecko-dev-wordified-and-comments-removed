@@ -1082,7 +1082,7 @@ mDocument
 Dispatch
 (
 "
-ContinueInterruptedParsingAsync
+nsHtml5ExecutorReflusher
 "
 dom
 :

@@ -6092,7 +6092,7 @@ GetDocument
 Dispatch
 (
 "
-FlushTreeOpsAndDisarmTimer
+nsHtml5ExecutorFlusher
 "
 dom
 :
