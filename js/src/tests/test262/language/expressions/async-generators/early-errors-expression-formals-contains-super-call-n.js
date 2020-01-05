@@ -1,0 +1,15 @@
+(
+async
+function
+*
+(
+a
+=
+super
+(
+)
+)
+{
+}
+)
+;

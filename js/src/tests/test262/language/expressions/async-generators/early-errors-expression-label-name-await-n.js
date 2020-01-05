@@ -1,0 +1,14 @@
+(
+async
+function
+*
+(
+)
+{
+await
+:
+1
+;
+}
+)
+;

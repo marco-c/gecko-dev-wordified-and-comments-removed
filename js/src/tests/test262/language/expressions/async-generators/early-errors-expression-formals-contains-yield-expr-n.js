@@ -1,0 +1,13 @@
+(
+async
+function
+*
+(
+x
+=
+yield
+)
+{
+}
+)
+;

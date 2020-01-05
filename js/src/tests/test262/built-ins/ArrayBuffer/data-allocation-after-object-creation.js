@@ -68,3 +68,9 @@ newTarget
 }
 )
 ;
+reportCompare
+(
+0
+0
+)
+;
