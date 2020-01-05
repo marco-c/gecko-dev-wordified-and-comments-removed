@@ -1302,6 +1302,7 @@ FlowClass
 :
 TableCell
 if
+!
 base
 (
 self
@@ -1309,12 +1310,9 @@ self
 .
 children
 .
-len
+is_empty
 (
 )
-!
-=
-0
 =
 >
 {
