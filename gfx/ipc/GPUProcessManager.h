@@ -289,7 +289,7 @@ GPUProcessManager
 )
 ;
 void
-LaunchGPUProcess
+EnableGPUProcess
 (
 )
 ;
@@ -706,9 +706,6 @@ mVsyncIOThread
 ;
 uint64_t
 mNextLayerTreeId
-;
-uint32_t
-mNumProcessAttempts
 ;
 nsTArray
 <
