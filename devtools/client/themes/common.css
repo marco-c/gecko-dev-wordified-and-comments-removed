@@ -2143,6 +2143,11 @@ hover
 :
 empty
 :
+not
+(
+:
+disabled
+)
 :
 before
 .
@@ -2189,6 +2194,15 @@ not
 (
 [
 label
+]
+)
+:
+not
+(
+[
+disabled
+=
+true
 ]
 )
 :
