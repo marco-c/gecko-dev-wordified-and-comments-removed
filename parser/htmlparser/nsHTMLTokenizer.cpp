@@ -12,13 +12,6 @@ nsIParser
 .
 h
 "
-#
-include
-"
-nsParserConstants
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 nsHTMLTokenizer
