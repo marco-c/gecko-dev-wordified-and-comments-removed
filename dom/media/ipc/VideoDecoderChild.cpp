@@ -93,6 +93,16 @@ GetManagerThread
 (
 )
 )
+mLayersBackend
+(
+layers
+:
+:
+LayersBackend
+:
+:
+LAYERS_NONE
+)
 mCanSend
 (
 true
