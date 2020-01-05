@@ -985,7 +985,12 @@ aStartTimeUsecs
 void
 UpdatePlaybackPositionInternal
 (
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aTime
 )
 ;
