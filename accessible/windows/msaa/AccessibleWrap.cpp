@@ -5706,12 +5706,6 @@ XRE_IsParentProcess
 &
 &
 !
-IsProxy
-(
-)
-&
-&
-!
 sIDGen
 .
 IsChromeID
