@@ -1458,6 +1458,17 @@ if
 state
 .
 direction
+&
+&
+state
+.
+direction
+!
+=
+=
+"
+normal
+"
 )
 {
 text
