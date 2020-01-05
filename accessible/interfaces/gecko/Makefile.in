@@ -60,11 +60,12 @@ GARBAGE
 MIDL_GENERATED_FILES
 )
 done_gen
+MIDL_GENERATED_FILES
+=
+\
 dlldata
 .
 c
-MIDL_GENERATED_FILES
-=
 \
 IGeckoCustom
 .
@@ -77,6 +78,10 @@ c
 IGeckoCustom_i
 .
 c
+\
+IGeckoCustom
+.
+tlb
 \
 (
 NULL

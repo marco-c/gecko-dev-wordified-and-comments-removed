@@ -60,11 +60,12 @@ GARBAGE
 MIDL_GENERATED_FILES
 )
 done_gen
+MIDL_GENERATED_FILES
+=
+\
 dlldata
 .
 c
-MIDL_GENERATED_FILES
-=
 \
 ISimpleDOMNode
 .
@@ -77,6 +78,10 @@ c
 ISimpleDOMNode_i
 .
 c
+\
+ISimpleDOMNode
+.
+tlb
 \
 ISimpleDOMDocument
 .
