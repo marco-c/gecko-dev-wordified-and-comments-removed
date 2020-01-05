@@ -535,7 +535,7 @@ line
 block
 -
 >
-BeginLine
+LinesBegin
 (
 )
 ;
@@ -544,7 +544,7 @@ line_end
 block
 -
 >
-EndLine
+LinesEnd
 (
 )
 ;
