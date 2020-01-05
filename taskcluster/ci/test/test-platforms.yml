@@ -185,6 +185,8 @@ linux32
 opt
 -
 tests
+-
+awsy
 linux32
 -
 nightly
@@ -214,8 +216,6 @@ linux32
 opt
 -
 tests
--
-awsy
 linux64
 /
 debug
@@ -280,6 +280,8 @@ screenshot
 capture
 -
 talos
+-
+awsy
 linux64
 -
 nightly
@@ -323,8 +325,6 @@ screenshot
 capture
 -
 talos
--
-awsy
 #
 TODO
 :
