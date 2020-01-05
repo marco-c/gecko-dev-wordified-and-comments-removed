@@ -56,6 +56,7 @@ js
 {
 JS
 JSRef
+Rootable
 Temporary
 }
 ;
@@ -268,7 +269,7 @@ PerformanceTiming
 Temporary
 :
 :
-new
+from_rooted
 (
 self
 .

@@ -105,6 +105,7 @@ js
 JS
 JSRef
 MutNullableHeap
+Rootable
 RootedReference
 }
 ;
@@ -570,7 +571,7 @@ map
 Temporary
 :
 :
-new
+from_rooted
 )
 }
 fn

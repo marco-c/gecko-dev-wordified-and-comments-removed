@@ -82,6 +82,7 @@ js
 {
 Temporary
 Root
+Rootable
 }
 ;
 use

@@ -78,7 +78,8 @@ js
 {
 JS
 JSRef
-OptionalRootedRootable
+OptionalRootable
+Rootable
 Temporary
 }
 ;

@@ -204,7 +204,6 @@ js
 :
 :
 {
-Comparable
 JS
 JSRef
 LayoutJS
@@ -223,7 +222,9 @@ js
 :
 {
 OptionalRootable
-OptionalRootedRootable
+ResultRootable
+Root
+Rootable
 }
 ;
 use
@@ -237,8 +238,6 @@ js
 :
 :
 {
-ResultRootable
-Root
 RootedReference
 Temporary
 }
@@ -3195,11 +3194,9 @@ home
 subtree
 .
 other_owner
-.
-equals
-(
+=
+=
 owner
-)
 &
 &
 /

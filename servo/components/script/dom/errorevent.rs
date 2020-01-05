@@ -103,8 +103,9 @@ js
 :
 {
 JSRef
-Temporary
 MutHeap
+Rootable
+Temporary
 }
 ;
 use

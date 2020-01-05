@@ -375,7 +375,7 @@ Window
 Temporary
 :
 :
-new
+from_rooted
 (
 self
 .
@@ -455,7 +455,7 @@ Document
 Temporary
 :
 :
-new
+from_rooted
 (
 self
 .

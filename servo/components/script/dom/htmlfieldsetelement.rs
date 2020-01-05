@@ -97,8 +97,9 @@ js
 :
 {
 JSRef
-Temporary
+Rootable
 RootedReference
+Temporary
 }
 ;
 use

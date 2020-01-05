@@ -405,8 +405,8 @@ js
 :
 {
 OptionalRootable
+Rootable
 RootedReference
-Temporary
 }
 ;
 use
@@ -419,7 +419,10 @@ bindings
 js
 :
 :
+{
+Temporary
 TemporaryPushable
+}
 ;
 use
 dom

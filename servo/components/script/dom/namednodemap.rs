@@ -80,6 +80,7 @@ js
 {
 JS
 JSRef
+Rootable
 Temporary
 }
 ;
@@ -369,7 +370,7 @@ x
 Temporary
 :
 :
-new
+from_rooted
 (
 x
 .

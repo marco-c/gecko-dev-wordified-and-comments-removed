@@ -53,8 +53,7 @@ js
 :
 {
 OptionalRootable
-OptionalRootedRootable
-ResultRootable
+OptionalOptionalRootable
 }
 ;
 use
@@ -68,8 +67,8 @@ js
 :
 :
 {
-OptionalRootedReference
-OptionalOptionalRootedRootable
+ResultRootable
+Rootable
 }
 ;
 use
@@ -397,7 +396,7 @@ Document
 Temporary
 :
 :
-new
+from_rooted
 (
 self
 .
@@ -478,7 +477,7 @@ map
 Temporary
 :
 :
-new
+from_rooted
 )
 }
 pub

@@ -134,9 +134,9 @@ js
 {
 JS
 JSRef
-Temporary
 OptionalRootable
 Root
+Rootable
 }
 ;
 use
@@ -149,7 +149,10 @@ bindings
 js
 :
 :
+{
 RootedReference
+Temporary
+}
 ;
 use
 dom
@@ -570,7 +573,7 @@ n
 Temporary
 :
 :
-new
+from_rooted
 (
 n
 )

@@ -56,6 +56,7 @@ js
 {
 JS
 JSRef
+Rootable
 Temporary
 }
 ;
@@ -456,7 +457,7 @@ Some
 Temporary
 :
 :
-new
+from_rooted
 (
 elems
 [
