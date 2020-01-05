@@ -555,7 +555,7 @@ dom
 .
 manifest
 .
-oninstall
+onappinstalled
 "
 false
 )
@@ -11126,7 +11126,7 @@ http
 .
 referer
 .
-XOriginTrimmingPolicy
+XOriginPolicy
 "
 0
 )
@@ -11138,11 +11138,9 @@ network
 .
 http
 .
-referer
-.
-XOriginPolicy
+sendSecureXSiteReferrer
 "
-0
+true
 )
 ;
 pref

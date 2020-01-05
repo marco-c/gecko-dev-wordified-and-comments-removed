@@ -122,11 +122,11 @@ DOM
 :
 Manifest
 :
-FireInstallEvent
+FireAppInstalledEvent
 "
 this
 .
-fireInstallEvent
+fireAppInstalledEvent
 .
 bind
 (
@@ -260,7 +260,7 @@ response
 ;
 }
 )
-fireInstallEvent
+fireAppInstalledEvent
 (
 {
 data
@@ -278,7 +278,7 @@ new
 Event
 (
 "
-install
+appinstalled
 "
 )
 ;
@@ -360,7 +360,7 @@ DOM
 :
 Manifest
 :
-FireInstallEvent
+FireAppInstalledEvent
 "
 response
 )

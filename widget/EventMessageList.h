@@ -81,6 +81,10 @@ eInstall
 )
 NS_EVENT_MESSAGE
 (
+eAppInstalled
+)
+NS_EVENT_MESSAGE
+(
 ePluginActivate
 )
 NS_EVENT_MESSAGE

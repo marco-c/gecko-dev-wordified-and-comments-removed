@@ -1152,8 +1152,8 @@ eBasicEventClass
 )
 WINDOW_ONLY_EVENT
 (
-install
-eInstall
+appinstalled
+eAppInstalled
 EventNameType_None
 eBasicEventClass
 )
