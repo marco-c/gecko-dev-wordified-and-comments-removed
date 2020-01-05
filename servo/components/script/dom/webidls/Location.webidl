@@ -128,6 +128,9 @@ attribute
 USVString
 hash
 ;
+[
+Throws
+]
 void
 assign
 (
