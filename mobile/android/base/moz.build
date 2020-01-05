@@ -3377,6 +3377,11 @@ GeckoView
 java
 '
 '
+GeckoViewChrome
+.
+java
+'
+'
 GeckoViewFragment
 .
 java
@@ -7201,6 +7206,13 @@ java
 webapps
 /
 WebApps
+.
+java
+'
+'
+widget
+/
+ActionModePresenter
 .
 java
 '
