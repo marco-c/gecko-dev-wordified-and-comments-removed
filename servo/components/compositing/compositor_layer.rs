@@ -97,10 +97,7 @@ msg
 constellation_msg
 :
 :
-{
-MouseEventType
 PipelineId
-}
 ;
 use
 script_traits
@@ -125,6 +122,12 @@ script_traits
 :
 :
 ConstellationControlMsg
+;
+use
+script_traits
+:
+:
+MouseEventType
 ;
 use
 std
