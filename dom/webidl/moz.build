@@ -3273,6 +3273,11 @@ RTCConfiguration
 webidl
 '
 '
+RTCDTMFSender
+.
+webidl
+'
+'
 RTCIceCandidate
 .
 webidl
@@ -4182,6 +4187,11 @@ GENERATED_EVENTS_WEBIDL_FILES
 [
 '
 RTCDataChannelEvent
+.
+webidl
+'
+'
+RTCDTMFToneChangeEvent
 .
 webidl
 '
