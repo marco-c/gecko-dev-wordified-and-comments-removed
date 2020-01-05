@@ -150,6 +150,11 @@ ContentParent
 h
 '
 '
+ContentPrefs
+.
+h
+'
+'
 ContentProcess
 .
 h
@@ -278,6 +283,11 @@ cpp
 '
 '
 ContentParent
+.
+cpp
+'
+'
+ContentPrefs
 .
 cpp
 '
