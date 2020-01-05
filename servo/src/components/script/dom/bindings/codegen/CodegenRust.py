@@ -11801,7 +11801,10 @@ u32
 .
 length
 as
-u64
+libc
+:
+:
+size_t
 )
 ;
 if

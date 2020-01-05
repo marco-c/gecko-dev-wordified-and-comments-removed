@@ -44,6 +44,13 @@ ENV_CFLAGS_
 )
 \
 (
+ENV_CXXFLAGS_
+(
+1
+)
+)
+\
+(
 ENV_RFLAGS_
 (
 1

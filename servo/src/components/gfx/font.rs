@@ -2104,6 +2104,17 @@ linux
 "
 )
 ]
+#
+[
+cfg
+(
+target_os
+=
+"
+android
+"
+)
+]
 fn
 create_azure_font
 (

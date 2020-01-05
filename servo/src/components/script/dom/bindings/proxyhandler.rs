@@ -498,7 +498,10 @@ nchars
 1
 )
 as
-u64
+libc
+:
+:
+size_t
 *
 (
 size_of
@@ -510,7 +513,10 @@ jschar
 (
 )
 as
-u64
+libc
+:
+:
+size_t
 )
 )
 )
@@ -604,7 +610,10 @@ chars
 )
 nchars
 as
-u64
+libc
+:
+:
+size_t
 )
 ;
 if
