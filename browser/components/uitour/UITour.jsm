@@ -3844,6 +3844,15 @@ break
 ;
 }
 }
+if
+(
+action
+!
+=
+"
+getConfiguration
+"
+)
 this
 .
 initForBrowser
