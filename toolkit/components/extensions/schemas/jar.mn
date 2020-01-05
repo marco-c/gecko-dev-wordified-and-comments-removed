@@ -220,6 +220,15 @@ extensions
 /
 schemas
 /
+permissions
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 proxy
 .
 json
