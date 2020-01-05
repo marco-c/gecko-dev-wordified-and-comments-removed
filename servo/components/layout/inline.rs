@@ -22,10 +22,7 @@ use
 context
 :
 :
-{
 LayoutContext
-SharedLayoutContext
-}
 ;
 use
 display_list_builder
@@ -246,15 +243,6 @@ computed_values
 vertical_align
 white_space
 }
-;
-use
-style
-:
-:
-context
-:
-:
-SharedStyleContext
 ;
 use
 style
@@ -6696,7 +6684,7 @@ self
 _
 :
 &
-SharedStyleContext
+LayoutContext
 )
 {
 let
@@ -7542,7 +7530,7 @@ self
 _
 :
 &
-SharedLayoutContext
+LayoutContext
 )
 {
 let

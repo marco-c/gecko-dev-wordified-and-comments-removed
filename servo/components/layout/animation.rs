@@ -2,7 +2,7 @@ use
 context
 :
 :
-SharedLayoutContext
+LayoutContext
 ;
 use
 flow
@@ -646,7 +646,7 @@ recalc_style_for_animations
 context
 :
 &
-SharedLayoutContext
+LayoutContext
 flow
 :
 &

@@ -14,7 +14,7 @@ use
 context
 :
 :
-SharedLayoutContext
+LayoutContext
 ;
 use
 euclid
@@ -3912,10 +3912,10 @@ a
 N
 >
 (
-shared
+context
 :
 &
-SharedLayoutContext
+LayoutContext
 node
 :
 N
@@ -3997,7 +3997,7 @@ ThreadLocalStyleContext
 new
 (
 &
-shared
+context
 .
 style_context
 )
@@ -4010,7 +4010,7 @@ StyleContext
 shared
 :
 &
-shared
+context
 .
 style_context
 thread_local
