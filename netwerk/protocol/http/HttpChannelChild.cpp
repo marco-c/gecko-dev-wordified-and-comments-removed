@@ -10003,6 +10003,16 @@ only
 "
 )
 ;
+if
+(
+!
+mIPCOpen
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 RefPtr
 <
 AltDataOutputStreamChild
