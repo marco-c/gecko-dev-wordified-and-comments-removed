@@ -2509,6 +2509,16 @@ args
 .
 source
 )
+and
+not
+buildconfig
+.
+substs
+[
+'
+CROSS_COMPILE
+'
+]
 :
             
 launcher

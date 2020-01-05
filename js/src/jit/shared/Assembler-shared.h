@@ -1861,6 +1861,7 @@ jumpTableIndex_
 }
 #
 else
+explicit
 CodeOffsetJump
 (
 size_t

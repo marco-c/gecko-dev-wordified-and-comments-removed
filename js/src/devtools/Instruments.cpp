@@ -6,6 +6,15 @@ Instruments
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 __APPLE__
 #
@@ -236,6 +245,7 @@ AutoReleased
 {
 public
 :
+MOZ_IMPLICIT
 AutoReleased
 (
 T

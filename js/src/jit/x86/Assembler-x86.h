@@ -984,6 +984,7 @@ ImmTag
 public
 Imm32
 {
+explicit
 ImmTag
 (
 JSValueTag
@@ -1007,6 +1008,7 @@ ImmType
 public
 ImmTag
 {
+explicit
 ImmType
 (
 JSValueType

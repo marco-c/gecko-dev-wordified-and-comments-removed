@@ -4948,6 +4948,7 @@ ins_
 ;
 public
 :
+explicit
 OutOfLineTruncate
 (
 LTruncateDToInt32
@@ -5006,6 +5007,7 @@ ins_
 ;
 public
 :
+explicit
 OutOfLineTruncateFloat32
 (
 LTruncateFToInt32

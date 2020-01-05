@@ -502,6 +502,17 @@ ld
 )
 AC_CHECK_PROGS
 (
+LIPO
+"
+{
+TOOLCHAIN_PREFIX
+}
+lipo
+"
+:
+)
+AC_CHECK_PROGS
+(
 STRIP
 "
 {
