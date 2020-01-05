@@ -137,6 +137,7 @@ DataClone
 NoModificationAllowed
 QuotaExceeded
 TypeMismatch
+InvalidModification
 Type
 (
 String
@@ -394,6 +395,16 @@ DOMErrorName
 :
 :
 TypeMismatchError
+Error
+:
+:
+InvalidModification
+=
+>
+DOMErrorName
+:
+:
+InvalidModificationError
 Error
 :
 :
