@@ -288,6 +288,7 @@ a
 (
 global
 i32
+immutable
 )
 )
 (
@@ -351,6 +352,7 @@ a
 (
 global
 i32
+immutable
 )
 )
 (
@@ -508,6 +510,7 @@ a
 (
 global
 i32
+immutable
 )
 )
 (
@@ -567,6 +570,7 @@ a
 (
 global
 i32
+immutable
 )
 )
 (
@@ -641,6 +645,7 @@ a
 (
 global
 i32
+immutable
 )
 )
 (

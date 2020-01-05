@@ -707,6 +707,7 @@ x
 (
 global
 f32
+immutable
 )
 )
 (
@@ -785,6 +786,7 @@ x
 (
 global
 f64
+immutable
 )
 )
 (
