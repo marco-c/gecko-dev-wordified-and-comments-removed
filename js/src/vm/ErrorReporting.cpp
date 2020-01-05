@@ -44,6 +44,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jscntxtinlines
+.
+h
+"
 using
 mozilla
 :
