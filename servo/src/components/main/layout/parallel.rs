@@ -828,6 +828,7 @@ match_node
 stylist
 )
 ;
+}
 /
 /
 Perform
@@ -871,7 +872,6 @@ cascade_node
 parent_opt
 )
 ;
-}
 /
 /
 Enqueue
