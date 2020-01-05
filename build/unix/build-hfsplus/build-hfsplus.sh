@@ -85,15 +85,6 @@ tmp
 /
 fi
 #
-Install
-clang
-first
-yum
-install
--
-y
-clang
-#
 Set
 an
 md5
@@ -150,7 +141,7 @@ the
 specified
 version
 of
-binutils
+hfsplus
 wget
 -
 c
