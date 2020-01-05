@@ -137,8 +137,6 @@ DOMString
 property
 )
 ;
-/
-/
 DOMString
 getPropertyPriority
 (
