@@ -813,7 +813,7 @@ onLoadStarted
 (
 )
 {
-sendSyncMessage
+sendAsyncMessage
 (
 "
 SessionStore
