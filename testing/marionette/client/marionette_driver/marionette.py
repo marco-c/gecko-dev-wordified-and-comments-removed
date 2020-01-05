@@ -11435,6 +11435,9 @@ switch_to_window
 (
 self
 window_id
+focus
+=
+True
 )
 :
         
@@ -11475,9 +11478,46 @@ switch
 to
 .
         
+:
+param
+focus
+:
+A
+boolean
+value
+which
+determins
+whether
+to
+focus
+            
+the
+window
+that
+we
+just
+switched
+to
+.
+        
 "
 "
 "
+        
+body
+=
+{
+"
+focus
+"
+:
+focus
+"
+name
+"
+:
+window_id
+}
         
 self
 .
@@ -11486,13 +11526,7 @@ _send_message
 "
 switchToWindow
 "
-{
-"
-name
-"
-:
-window_id
-}
+body
 )
         
 self
