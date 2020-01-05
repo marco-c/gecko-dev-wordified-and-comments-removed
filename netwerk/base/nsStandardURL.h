@@ -1335,6 +1335,10 @@ endif
 #
 ifdef
 MOZ_RUST_URLPARSE
+static
+bool
+gRustEnabled
+;
 RefPtr
 <
 RustURL
