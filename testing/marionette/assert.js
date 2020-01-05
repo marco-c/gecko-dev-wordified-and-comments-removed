@@ -178,7 +178,7 @@ sessionID
 >
 sessionID
 msg
-InvalidSessionIdError
+InvalidSessionIDError
 )
 (
 driver

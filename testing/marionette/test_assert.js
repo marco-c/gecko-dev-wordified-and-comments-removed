@@ -101,7 +101,7 @@ sessionId
 typ
 }
 )
-InvalidSessionIdError
+InvalidSessionIDError
 )
 ;
 }

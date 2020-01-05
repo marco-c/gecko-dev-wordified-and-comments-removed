@@ -919,11 +919,10 @@ r
 {
 equal
 (
-error
-.
-toJson
-(
 err
+.
+toJSON
+(
 )
 .
 error
