@@ -673,7 +673,7 @@ doc
 release
 *
 Build
-artifcats
+artifacts
 generated
 by
 .
