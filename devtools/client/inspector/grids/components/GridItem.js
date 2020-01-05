@@ -422,6 +422,9 @@ attributesLength
 attributes
 .
 length
+isConnected
+:
+true
 nodeName
 :
 nodeFront
