@@ -190,6 +190,15 @@ ComplexSelector
 }
 ;
 use
+selectors
+:
+:
+parser
+:
+:
+SelectorMethods
+;
+use
 sink
 :
 :

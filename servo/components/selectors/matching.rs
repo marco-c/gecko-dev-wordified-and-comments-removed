@@ -2076,6 +2076,8 @@ element
 match_non_ts_pseudo_class
 (
 pc
+relations
+flags
 )
 AFFECTED_BY_STATE
 )

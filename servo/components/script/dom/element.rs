@@ -938,6 +938,7 @@ matching
 :
 {
 ElementSelectorFlags
+StyleRelations
 matches
 }
 ;
@@ -18698,6 +18699,16 @@ pseudo_class
 :
 &
 NonTSPseudoClass
+_
+:
+&
+mut
+StyleRelations
+_
+:
+&
+mut
+ElementSelectorFlags
 )
 -
 >
