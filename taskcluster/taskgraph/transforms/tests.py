@@ -540,6 +540,21 @@ x64
 '
     
 '
+linux64
+-
+stylo
+'
+:
+'
+Ubuntu
+VM
+12
+.
+04
+x64
+'
+    
+'
 macosx64
 '
 :
