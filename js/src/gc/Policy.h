@@ -140,6 +140,9 @@ class
 UnownedBaseShape
 ;
 class
+WasmFunctionScope
+;
+class
 WasmMemoryObject
 ;
 namespace
@@ -436,6 +439,15 @@ js
 :
 :
 UnownedBaseShape
+*
+)
+\
+D
+(
+js
+:
+:
+WasmFunctionScope
 *
 )
 \
