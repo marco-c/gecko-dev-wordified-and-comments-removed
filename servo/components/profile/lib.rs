@@ -27,14 +27,6 @@ iter_arith
 [
 feature
 (
-slice_splits
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]

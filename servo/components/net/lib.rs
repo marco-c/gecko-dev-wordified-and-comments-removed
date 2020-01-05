@@ -27,14 +27,6 @@ mpsc_select
 [
 feature
 (
-path_ext
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
