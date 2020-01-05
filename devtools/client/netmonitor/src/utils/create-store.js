@@ -15,8 +15,8 @@ Services
 ;
 const
 {
-createStore
 applyMiddleware
+createStore
 }
 =
 require
