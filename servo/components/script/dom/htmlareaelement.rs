@@ -150,7 +150,10 @@ dom
 htmlelement
 :
 :
+{
 HTMLElement
+HTMLElementTypeId
+}
 ;
 use
 dom
@@ -260,7 +263,13 @@ Element
 ElementTypeId
 :
 :
+HTMLElement
+(
+HTMLElementTypeId
+:
+:
 HTMLAreaElement
+)
 )
 )
 }
@@ -300,7 +309,7 @@ HTMLElement
 :
 new_inherited
 (
-ElementTypeId
+HTMLElementTypeId
 :
 :
 HTMLAreaElement

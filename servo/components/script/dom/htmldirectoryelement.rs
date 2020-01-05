@@ -80,7 +80,10 @@ dom
 htmlelement
 :
 :
+{
 HTMLElement
+HTMLElementTypeId
+}
 ;
 use
 dom
@@ -151,7 +154,13 @@ Element
 ElementTypeId
 :
 :
+HTMLElement
+(
+HTMLElementTypeId
+:
+:
 HTMLDirectoryElement
+)
 )
 )
 }
@@ -191,7 +200,7 @@ HTMLElement
 :
 new_inherited
 (
-ElementTypeId
+HTMLElementTypeId
 :
 :
 HTMLDirectoryElement
