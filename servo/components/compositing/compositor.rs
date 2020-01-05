@@ -849,6 +849,9 @@ NotShuttingDown
 page_zoom
 :
 ScaleFactor
+:
+:
+new
 (
 1
 .
@@ -857,6 +860,9 @@ ScaleFactor
 viewport_zoom
 :
 ScaleFactor
+:
+:
+new
 (
 1
 .
@@ -4669,6 +4675,9 @@ _
 =
 >
 ScaleFactor
+:
+:
+new
 (
 1
 .
@@ -4736,6 +4745,9 @@ scene
 scale
 =
 ScaleFactor
+:
+:
+new
 (
 scale
 .
@@ -4776,6 +4788,9 @@ self
 page_zoom
 =
 ScaleFactor
+:
+:
+new
 (
 (
 self
@@ -4847,6 +4862,9 @@ self
 viewport_zoom
 =
 ScaleFactor
+:
+:
+new
 (
 (
 self

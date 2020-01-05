@@ -677,12 +677,7 @@ build_env
 )
 )
             
-env
-[
-'
-OPENSSL_PATH
-'
-]
+openssl_dir
 =
 path
 .
@@ -701,6 +696,32 @@ openssl
 0
 .
 1k
+"
+)
+            
+env
+[
+'
+OPENSSL_LIB_DIR
+'
+]
+=
+openssl_dir
+            
+env
+[
+'
+OPENSSL_INCLUDE_DIR
+'
+]
+=
+path
+.
+join
+(
+openssl_dir
+"
+include
 "
 )
         

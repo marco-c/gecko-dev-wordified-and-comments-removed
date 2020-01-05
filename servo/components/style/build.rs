@@ -3,9 +3,9 @@
 [
 feature
 (
-path
-io
 env
+old_io
+old_path
 )
 ]
 use
@@ -293,7 +293,7 @@ new
 env
 :
 :
-var_string
+var
 (
 "
 OUT_DIR

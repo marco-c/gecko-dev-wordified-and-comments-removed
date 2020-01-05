@@ -2833,10 +2833,6 @@ get
 pub
 trait
 TreeWalkerHelpers
-<
-'
-a
->
 {
 fn
 parent_node
@@ -2971,10 +2967,6 @@ impl
 a
 >
 TreeWalkerHelpers
-<
-'
-a
->
 for
 JSRef
 <

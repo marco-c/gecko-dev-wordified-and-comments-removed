@@ -51,6 +51,8 @@ Sender
 <
 Thunk
 <
+'
+static
 (
 )
 >
@@ -249,6 +251,9 @@ FnOnce
 )
 +
 Send
++
+'
+static
 {
 self
 .

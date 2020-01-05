@@ -370,6 +370,9 @@ T
 Send
 +
 Sync
++
+'
+static
 {
 type
 Item

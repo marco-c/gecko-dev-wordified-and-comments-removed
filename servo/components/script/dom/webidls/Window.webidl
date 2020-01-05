@@ -151,6 +151,13 @@ attribute
 Window
 window
 ;
+[
+BinaryName
+=
+"
+Self_
+"
+]
 readonly
 attribute
 Window

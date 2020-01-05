@@ -1629,7 +1629,9 @@ self
 >
 bool
 {
-!
+let
+handlers
+=
 self
 .
 handlers
@@ -1637,6 +1639,9 @@ handlers
 borrow
 (
 )
+;
+!
+handlers
 .
 is_empty
 (

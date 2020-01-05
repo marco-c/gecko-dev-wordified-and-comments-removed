@@ -59,13 +59,10 @@ use
 std
 :
 :
-old_io
-:
-:
 fs
 :
 :
-PathExtensions
+PathExt
 ;
 use
 std
@@ -290,6 +287,7 @@ Url
 from_file_path
 (
 &
+*
 path
 )
 .

@@ -283,7 +283,7 @@ cache
 [
 dependencies
 .
-string_cache_macros
+string_cache_plugin
 ]
 git
 =
@@ -355,7 +355,7 @@ serialize
 "
 0
 .
-2
+3
 "
 libc
 =

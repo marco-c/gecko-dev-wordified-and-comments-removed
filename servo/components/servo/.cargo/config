@@ -49,6 +49,8 @@ builder
 /
 target
 /
+debug
+/
 apk
 -
 builder

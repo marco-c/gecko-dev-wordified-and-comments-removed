@@ -5686,6 +5686,10 @@ text
 blur_radius
 )
 ;
+{
+let
+font
+=
 self
 .
 font_context
@@ -5704,6 +5708,8 @@ text_run
 .
 actual_pt_size
 )
+;
+font
 .
 borrow
 (
@@ -5738,6 +5744,7 @@ get
 enable_text_antialiasing
 )
 ;
+}
 self
 .
 blur_if_necessary

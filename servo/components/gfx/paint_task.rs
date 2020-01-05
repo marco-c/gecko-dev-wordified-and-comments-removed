@@ -659,6 +659,9 @@ C
 PaintListener
 +
 Send
++
+'
+static
 {
 pub
 fn

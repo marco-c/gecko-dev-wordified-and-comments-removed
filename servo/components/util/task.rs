@@ -59,6 +59,9 @@ FnOnce
 )
 +
 Send
++
+'
+static
 {
 let
 builder
@@ -134,9 +137,15 @@ FnOnce
 )
 +
 Send
++
+'
+static
 T
 :
 Send
++
+'
+static
 {
 let
 future_handle
@@ -160,7 +169,7 @@ to_owned
 )
 )
 .
-scoped
+spawn
 (
 move
 |
@@ -178,6 +187,10 @@ f
 (
 )
 }
+)
+.
+unwrap
+(
 )
 ;
 let

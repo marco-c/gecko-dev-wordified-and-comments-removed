@@ -84,6 +84,13 @@ WorkerGlobalScope
 :
 EventTarget
 {
+[
+BinaryName
+=
+"
+Self_
+"
+]
 readonly
 attribute
 WorkerGlobalScope

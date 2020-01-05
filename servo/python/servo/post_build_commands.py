@@ -156,6 +156,9 @@ join
 (
 base_path
 "
+debug
+"
+"
 servo
 "
 )
