@@ -114,6 +114,9 @@ filesystem
 nsString
 realPath
 ;
+nsString
+domPath
+;
 /
 /
 '
