@@ -184,6 +184,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -549,6 +552,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -1011,6 +1017,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -1103,6 +1112,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -1207,6 +1219,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -1534,6 +1549,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -1670,6 +1688,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -2288,6 +2309,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -3517,6 +3541,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -4558,6 +4585,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -5469,6 +5499,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -5802,6 +5835,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -5882,6 +5918,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
