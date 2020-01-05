@@ -153,14 +153,6 @@ TestPRIntN
 '
 TestQuickReturn
 '
-]
-)
-GeckoSimplePrograms
-(
-[
-'
-TestRegistrationOrder
-'
 '
 TestUnicodeArguments
 '
