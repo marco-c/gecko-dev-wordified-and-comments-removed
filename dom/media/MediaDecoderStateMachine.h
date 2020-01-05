@@ -159,6 +159,7 @@ EnterVideoSuspend
 ExitVideoSuspend
 StartVideoSuspendTimer
 CancelVideoSuspendTimer
+VideoOnlySeekBegin
 VideoOnlySeekCompleted
 }
 ;
