@@ -980,6 +980,11 @@ version
 "
 )
 "
+specificationLevel
+"
+:
+0
+"
 raisesAccessibilityExceptions
 "
 :
@@ -1007,11 +1012,6 @@ proxy
 :
 {
 }
-"
-specificationLevel
-"
-:
-0
 "
 processId
 "
