@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsWindowsHelpers
+.
+h
+"
+#
+include
+"
 nsWinUtils
 .
 h
@@ -6368,9 +6375,9 @@ NS_NATIVE_WINDOW
 return
 ;
 }
-HBITMAP
+nsAutoBitmap
 caretBitMap
-=
+(
 CreateBitmap
 (
 1
@@ -6380,6 +6387,7 @@ height
 1
 1
 nullptr
+)
 )
 ;
 if
@@ -6434,13 +6442,6 @@ y
 windowRect
 .
 top
-)
-;
-:
-:
-DeleteObject
-(
-caretBitMap
 )
 ;
 }
