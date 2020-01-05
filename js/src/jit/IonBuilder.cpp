@@ -34244,6 +34244,11 @@ InliningStatus_Error
 return
 false
 ;
+replaceMaybeFallbackFunctionGetter
+(
+nullptr
+)
+;
 JSFunction
 *
 target
