@@ -555,6 +555,11 @@ dir
 testFile
 .
 path
+name
+:
+testFile
+.
+leafName
 }
 )
 ;
