@@ -1169,9 +1169,9 @@ OnStreamComplete
 nsIIncrementalStreamLoader
 *
 aLoader
-nsISupports
+nsScriptLoadRequest
 *
-aContext
+aRequest
 nsresult
 aChannelStatus
 nsresult
