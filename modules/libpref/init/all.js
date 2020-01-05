@@ -4121,7 +4121,7 @@ ice
 .
 tcp
 "
-false
+true
 )
 ;
 pref
@@ -26364,6 +26364,7 @@ DejaVu
 Serif
 DejaVu
 Sans
+Symbol
 Times
 New
 Roman
