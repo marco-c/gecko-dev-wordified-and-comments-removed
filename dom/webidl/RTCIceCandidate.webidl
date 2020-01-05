@@ -129,11 +129,9 @@ RTCIceCandidate
 dictionary
 RTCIceCandidateInit
 {
+required
 DOMString
-?
 candidate
-=
-null
 ;
 DOMString
 ?
@@ -143,7 +141,10 @@ null
 ;
 unsigned
 short
+?
 sdpMLineIndex
+=
+null
 ;
 }
 ;
@@ -172,7 +173,6 @@ rtcicecandidate
 "
 Constructor
 (
-optional
 RTCIceCandidateInit
 candidateInitDict
 )
@@ -182,7 +182,6 @@ RTCIceCandidate
 {
 attribute
 DOMString
-?
 candidate
 ;
 attribute
