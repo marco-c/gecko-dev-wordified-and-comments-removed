@@ -180,6 +180,11 @@ FilePickerParent
 h
 '
 '
+MemoryReportRequest
+.
+h
+'
+'
 nsIContentChild
 .
 h
@@ -293,6 +298,11 @@ cpp
 '
 '
 FilePickerParent
+.
+cpp
+'
+'
+MemoryReportRequest
 .
 cpp
 '
