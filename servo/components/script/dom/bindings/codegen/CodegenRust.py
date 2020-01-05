@@ -30156,7 +30156,7 @@ def
 __init__
 (
 self
-constants
+constant
 )
 :
         
@@ -30169,9 +30169,9 @@ self
         
 self
 .
-constants
+constant
 =
-constants
+constant
     
 def
 define
@@ -30180,33 +30180,28 @@ self
 )
 :
         
-def
-stringDecl
-(
-const
-)
-:
-            
 name
 =
-const
+self
+.
+constant
 .
 identifier
 .
 name
-            
+        
 value
 =
 convertConstIDLValueToRust
 (
-const
+self
+.
+constant
 .
 value
 )
-            
+        
 return
-CGGeneric
-(
 "
 pub
 const
@@ -30227,7 +30222,9 @@ n
 name
 builtinNames
 [
-const
+self
+.
+constant
 .
 value
 .
@@ -30238,29 +30235,6 @@ tag
 )
 ]
 value
-)
-)
-        
-return
-CGIndenter
-(
-CGList
-(
-stringDecl
-(
-m
-)
-for
-m
-in
-self
-.
-constants
-)
-)
-.
-define
-(
 )
 def
 getUnionTypeTemplateVars
@@ -44212,7 +44186,10 @@ descriptor
 constMembers
 =
 [
+CGConstant
+(
 m
+)
 for
 m
 in
@@ -44251,9 +44228,12 @@ Constants
 "
 ]
                                               
-CGConstant
+CGIndenter
+(
+CGList
 (
 constMembers
+)
 )
                                               
 public
