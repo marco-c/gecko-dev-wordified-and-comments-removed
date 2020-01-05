@@ -1229,9 +1229,11 @@ unknown
 "
 ;
 if
+(
 navigator
 .
 cpuHasSSE2
+)
 {
 instructionSet
 =
