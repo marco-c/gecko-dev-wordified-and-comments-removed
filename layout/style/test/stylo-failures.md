@@ -309,7 +309,7 @@ test_media_queries
 .
 html
 [
-1
+684
 ]
 *
 test_media_queries_dynamic
@@ -1031,7 +1031,7 @@ of
 media
 support
 [
-2
+7
 ]
 *
 counter
@@ -4875,7 +4875,7 @@ test_rule_insertion
 .
 html
 [
-16
+7
 ]
 *
 -
