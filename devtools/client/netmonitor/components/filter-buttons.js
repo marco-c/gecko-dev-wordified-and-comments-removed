@@ -155,6 +155,9 @@ type
 }
 -
 button
+key
+:
+type
 className
 :
 classList
@@ -226,7 +229,7 @@ FilterButtons
 propTypes
 =
 {
-state
+requestFilterTypes
 :
 PropTypes
 .
@@ -239,7 +242,7 @@ PropTypes
 .
 func
 .
-iRequired
+isRequired
 }
 ;
 module
