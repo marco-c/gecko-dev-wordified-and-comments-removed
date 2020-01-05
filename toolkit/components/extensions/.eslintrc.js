@@ -1124,7 +1124,7 @@ complexity
 "
 :
 "
-warn
+error
 "
 "
 default
