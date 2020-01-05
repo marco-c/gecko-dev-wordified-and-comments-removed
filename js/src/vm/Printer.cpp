@@ -1884,8 +1884,8 @@ i
 fwrite
 (
 s
-len
 1
+len
 file_
 )
 ;
