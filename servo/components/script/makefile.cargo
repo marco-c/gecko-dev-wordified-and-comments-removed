@@ -139,7 +139,7 @@ subst
 WEBIDLS_SRC
 )
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 Bindings
@@ -151,7 +151,7 @@ var
 CACHE_DIR
 =
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 _cache
@@ -181,14 +181,22 @@ parser
 WebIDL
 .
 py
+)
+(
+OUT_DIR
+)
+/
 ParserResults
 .
 pkl
+(
+OUT_DIR
+)
+/
 Bindings
 /
 .
 done
-)
 globalgen_dependencies
 :
 =
@@ -223,7 +231,7 @@ CACHE_DIR
 .
 done
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 Bindings
@@ -240,7 +248,7 @@ all
 AUTOGEN_SRC
 )
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 Bindings
@@ -252,7 +260,7 @@ mkdir
 -
 p
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 Bindings
@@ -272,7 +280,7 @@ CACHE_DIR
 )
 touch
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 ParserResults
@@ -314,7 +322,7 @@ ply
 -
 D
 (
-BINDINGS_SRC
+OUT_DIR
 )
 \
 (
@@ -349,7 +357,7 @@ AUTOGEN_SRC
 )
 :
 (
-BINDINGS_SRC
+OUT_DIR
 )
 /
 Bindings
@@ -402,7 +410,7 @@ ply
 -
 D
 (
-BINDINGS_SRC
+OUT_DIR
 )
 \
 (
