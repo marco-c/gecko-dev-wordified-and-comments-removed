@@ -1917,46 +1917,17 @@ find
 ]
 )
         
-testcontent
-+
-=
-'
-var
-config
-=
-%
-s
-;
-\
-n
-'
-%
-json
-.
-dumps
-(
 self
 .
-config
-indent
-=
-2
-)
-        
-testcontent
-+
-=
+preferences
+[
 '
-var
+tps
+.
 seconds_since_epoch
-=
-%
-d
-;
-\
-n
 '
-%
+]
+=
 int
 (
 time
@@ -1964,30 +1935,6 @@ time
 time
 (
 )
-)
-        
-tmpfile
-=
-TempFile
-(
-prefix
-=
-'
-tps_test_
-'
-)
-        
-tmpfile
-.
-write
-(
-testcontent
-)
-        
-tmpfile
-.
-close
-(
 )
         
 profiles
@@ -2056,9 +2003,7 @@ profilename
                 
 testname
                 
-tmpfile
-.
-filename
+testpath
                 
 self
 .
@@ -2157,9 +2102,7 @@ profilename
 ]
 testname
                 
-tmpfile
-.
-filename
+testpath
                 
 self
 .
@@ -2848,6 +2791,26 @@ config
 preferences
 '
 ]
+)
+        
+self
+.
+preferences
+[
+'
+tps
+.
+config
+'
+]
+=
+json
+.
+dumps
+(
+self
+.
+config
 )
     
 def
