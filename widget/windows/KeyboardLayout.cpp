@@ -55,15 +55,6 @@ h
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsAlgorithm
 .
 h
