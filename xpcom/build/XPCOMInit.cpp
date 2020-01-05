@@ -2585,10 +2585,6 @@ NS_StartupLocalFile
 (
 )
 ;
-StartupSpecialSystemDirectory
-(
-)
-;
 nsDirectoryService
 :
 :

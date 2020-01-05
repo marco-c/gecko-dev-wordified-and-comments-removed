@@ -46,12 +46,6 @@ h
 "
 #
 endif
-extern
-void
-StartupSpecialSystemDirectory
-(
-)
-;
 enum
 SystemDirectories
 {
