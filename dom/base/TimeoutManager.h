@@ -316,6 +316,13 @@ Initialize
 (
 )
 ;
+bool
+IsTimeoutTracking
+(
+uint32_t
+aTimeoutId
+)
+;
 template
 <
 class
