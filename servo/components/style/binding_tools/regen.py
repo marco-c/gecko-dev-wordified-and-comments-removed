@@ -867,18 +867,6 @@ Position
 "
             
 "
-RawGeckoDocument
-"
-            
-"
-RawGeckoElement
-"
-            
-"
-RawGeckoNode
-"
-            
-"
 Runnable
 "
             
@@ -1246,18 +1234,10 @@ h
 ]
         
 "
-structs_types
+whitelist
 "
 :
 [
-            
-"
-FontFamilyList
-"
-            
-"
-FontFamilyType
-"
             
 "
 RawGeckoDocument
@@ -1269,6 +1249,26 @@ RawGeckoElement
             
 "
 RawGeckoNode
+"
+        
+]
+        
+"
+structs_types
+"
+:
+[
+            
+"
+Element
+"
+            
+"
+FontFamilyList
+"
+            
+"
+FontFamilyType
 "
             
 "
@@ -1305,6 +1305,14 @@ nsFont
             
 "
 nsIAtom
+"
+            
+"
+nsIDocument
+"
+            
+"
+nsINode
 "
             
 "
