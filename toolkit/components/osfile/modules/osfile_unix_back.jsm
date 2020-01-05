@@ -988,9 +988,9 @@ add_field_at
 (
 Const
 .
-OSFILE_OFFSETOF_STATVFS_F_BSIZE
+OSFILE_OFFSETOF_STATVFS_F_FRSIZE
 "
-f_bsize
+f_frsize
 "
 Type
 .
