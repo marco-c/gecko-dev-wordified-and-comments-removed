@@ -232,11 +232,6 @@ TestNoRefcountedInsideLambdas
 cpp
 '
 '
-TestOverrideBaseCall
-.
-cpp
-'
-'
 TestRefCountedCopyConstructor
 .
 cpp
