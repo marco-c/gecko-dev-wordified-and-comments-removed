@@ -2243,10 +2243,9 @@ getFormattedString
 "
 addonPostInstall
 .
-message2
+messageDetail
 "
 [
-addonLabel
 addonIcon
 toolbarIcon
 ]
