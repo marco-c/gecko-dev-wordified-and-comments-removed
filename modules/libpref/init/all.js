@@ -37506,8 +37506,11 @@ retry_interval
 #
 endif
 #
-ifdef
+if
+defined
+(
 XP_UNIX
+)
 &
 &
 !
