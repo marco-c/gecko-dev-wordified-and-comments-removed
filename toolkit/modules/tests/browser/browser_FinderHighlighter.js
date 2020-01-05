@@ -1407,8 +1407,8 @@ insertCalls
 removeCalls
 :
 [
-1
-3
+0
+2
 ]
 }
 ]
@@ -2311,8 +2311,8 @@ insertCalls
 removeCalls
 :
 [
-0
 1
+2
 ]
 }
 ;
