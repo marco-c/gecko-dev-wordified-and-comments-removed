@@ -93,6 +93,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 vm
 /
 SPSProfiler
@@ -253,6 +262,10 @@ runtimeFromMainThread
 >
 externalStringSizeofCallback
 )
+{
+AutoSuppressGCAnalysis
+nogc
+;
 return
 cb
 (
@@ -260,6 +273,7 @@ this
 mallocSizeOf
 )
 ;
+}
 return
 0
 ;
