@@ -6857,6 +6857,8 @@ nsChangeHint_NeedReflow
 nsChangeHint_UpdateComputedBSize
 |
 nsChangeHint_ReflowChangesSizeOrPosition
+|
+nsChangeHint_ClearAncestorIntrinsics
 ;
 }
 if
