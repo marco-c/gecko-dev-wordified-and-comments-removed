@@ -365,6 +365,10 @@ nsAHttpTransaction
 *
 nsresult
 reason
+bool
+aIsShutdown
+=
+false
 )
 ;
 void
