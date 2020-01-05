@@ -5853,13 +5853,6 @@ js
 '
 builtin
 /
-IntlCurrency
-.
-js
-'
-'
-builtin
-/
 IntlData
 .
 js
