@@ -449,13 +449,8 @@ nosetests
 xml
 #
 Ignore
+ESLint
 node_modules
-tools
-/
-lint
-/
-eslint
-/
 node_modules
 /
 #

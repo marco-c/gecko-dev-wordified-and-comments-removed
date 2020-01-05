@@ -497,7 +497,9 @@ os
 .
 chdir
 (
-module_path
+get_project_root
+(
+)
 )
 npm_path
 =
@@ -921,7 +923,7 @@ path
 .
 join
 (
-get_eslint_module_path
+get_project_root
 (
 )
 "
@@ -1112,7 +1114,7 @@ path
 .
 join
 (
-get_eslint_module_path
+get_project_root
 (
 )
 "
@@ -1966,7 +1968,7 @@ root
 ]
 module_path
 =
-get_eslint_module_path
+get_project_root
 (
 )
 #
