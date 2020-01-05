@@ -1,11 +1,13 @@
+import
+unittest
+import
+mozunit
+import
+mozdevice
 from
 sut
 import
 MockAgent
-import
-mozdevice
-import
-unittest
 class
 FileExistsTest
 (
@@ -234,7 +236,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

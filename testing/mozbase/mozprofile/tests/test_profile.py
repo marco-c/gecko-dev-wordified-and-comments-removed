@@ -2,6 +2,8 @@ import
 unittest
 import
 os
+import
+mozunit
 from
 mozprofile
 import
@@ -130,7 +132,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

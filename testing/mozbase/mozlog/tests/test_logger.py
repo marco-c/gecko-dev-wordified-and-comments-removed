@@ -11,6 +11,8 @@ time
 import
 unittest
 import
+mozunit
+import
 mozfile
 import
 mozlog
@@ -1893,7 +1895,7 @@ _logger
 .
 name
 "
-test_logger
+__main__
 .
 Loggable
 "
@@ -2127,7 +2129,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -7,13 +7,15 @@ tempfile
 import
 unittest
 from
+StringIO
+import
+StringIO
+import
+mozunit
+from
 manifestparser
 import
 ManifestParser
-from
-StringIO
-import
-StringIO
 here
 =
 os
@@ -2826,7 +2828,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

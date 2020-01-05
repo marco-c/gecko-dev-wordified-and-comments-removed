@@ -1,4 +1,6 @@
 import
+mozunit
+import
 mozrunnertest
 class
 MozrunnerWaitTestCase
@@ -170,4 +172,18 @@ self
 runner
 .
 process_handler
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

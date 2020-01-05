@@ -4,6 +4,8 @@ import
 subprocess
 import
 sys
+import
+mozunit
 from
 mozprocess
 .
@@ -861,7 +863,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

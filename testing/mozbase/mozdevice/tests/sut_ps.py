@@ -6,6 +6,8 @@ import
 mozdevice
 import
 unittest
+import
+mozunit
 class
 PsTest
 (
@@ -368,7 +370,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

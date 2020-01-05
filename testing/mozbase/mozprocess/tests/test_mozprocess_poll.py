@@ -3,7 +3,7 @@ os
 import
 signal
 import
-unittest
+mozunit
 from
 mozprocess
 import
@@ -593,7 +593,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

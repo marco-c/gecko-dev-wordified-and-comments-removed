@@ -14,6 +14,8 @@ import
 unittest
 import
 mozinfo
+import
+mozunit
 class
 TestMozinfo
 (
@@ -1028,7 +1030,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -16,6 +16,8 @@ import
 tempfile
 import
 os
+import
+mozunit
 class
 PushTest
 (
@@ -668,7 +670,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

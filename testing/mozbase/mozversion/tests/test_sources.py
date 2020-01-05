@@ -5,6 +5,8 @@ tempfile
 import
 unittest
 import
+mozunit
+import
 mozfile
 from
 mozversion
@@ -609,7 +611,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

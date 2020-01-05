@@ -8,6 +8,8 @@ import
 logging
 import
 unittest
+import
+mozunit
 class
 BasicTest
 (
@@ -655,7 +657,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

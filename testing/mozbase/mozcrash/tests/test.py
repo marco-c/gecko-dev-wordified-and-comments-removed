@@ -15,6 +15,8 @@ zipfile
 import
 StringIO
 import
+mozunit
+import
 mozcrash
 import
 mozhttpd
@@ -2178,7 +2180,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

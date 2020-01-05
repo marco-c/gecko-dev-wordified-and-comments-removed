@@ -3,9 +3,9 @@ os
 import
 time
 import
-unittest
-import
 proctest
+import
+mozunit
 from
 mozprocess
 import
@@ -152,7 +152,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

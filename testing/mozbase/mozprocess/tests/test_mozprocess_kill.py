@@ -8,6 +8,8 @@ import
 proctest
 import
 signal
+import
+mozunit
 from
 mozprocess
 import
@@ -597,7 +599,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

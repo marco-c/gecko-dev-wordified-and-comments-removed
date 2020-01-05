@@ -15,6 +15,8 @@ import
 os
 import
 unittest
+import
+mozunit
 class
 TestNamedTemporaryFile
 (
@@ -588,7 +590,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

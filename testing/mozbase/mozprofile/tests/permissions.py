@@ -10,6 +10,8 @@ import
 tempfile
 import
 unittest
+import
+mozunit
 from
 mozprofile
 .
@@ -1437,7 +1439,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

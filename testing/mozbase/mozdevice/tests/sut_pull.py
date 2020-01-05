@@ -8,6 +8,8 @@ import
 logging
 import
 unittest
+import
+mozunit
 class
 PullTest
 (
@@ -316,7 +318,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

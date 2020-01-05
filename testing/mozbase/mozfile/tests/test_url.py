@@ -13,6 +13,8 @@ from
 mozfile
 import
 is_url
+import
+mozunit
 class
 TestIsUrl
 (
@@ -125,7 +127,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

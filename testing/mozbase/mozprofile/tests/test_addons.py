@@ -8,6 +8,8 @@ import
 unittest
 import
 urllib2
+import
+mozunit
 from
 manifestparser
 import
@@ -3114,7 +3116,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -23,6 +23,8 @@ import
 subprocess
 import
 unittest
+import
+mozunit
 def
 verify_ip_in_list
 (
@@ -487,7 +489,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

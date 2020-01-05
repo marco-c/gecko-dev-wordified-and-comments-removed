@@ -11,6 +11,8 @@ unittest
 import
 zipfile
 import
+mozunit
+import
 mozfile
 import
 stubs
@@ -996,3 +998,17 @@ close
         
 return
 filename
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
+)

@@ -8,6 +8,8 @@ import
 tempfile
 import
 unittest
+import
+mozunit
 class
 TestBasic
 (
@@ -231,7 +233,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

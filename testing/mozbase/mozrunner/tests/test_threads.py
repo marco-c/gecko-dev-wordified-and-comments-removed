@@ -5,6 +5,8 @@ time
 import
 sleep
 import
+mozunit
+import
 mozrunnertest
 class
 RunnerThread
@@ -436,4 +438,18 @@ wait
 10
 )
 returncode
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

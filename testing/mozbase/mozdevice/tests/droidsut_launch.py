@@ -8,6 +8,8 @@ import
 logging
 import
 unittest
+import
+mozunit
 class
 LaunchTest
 (
@@ -333,7 +335,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -1,5 +1,7 @@
 import
 unittest
+import
+mozunit
 from
 mozprocess
 import
@@ -513,17 +515,6 @@ assertFalse
 (
 err
 )
-def
-main
-(
-)
-:
-    
-unittest
-.
-main
-(
-)
 if
 __name__
 =
@@ -533,6 +524,8 @@ __main__
 '
 :
     
+mozunit
+.
 main
 (
 )

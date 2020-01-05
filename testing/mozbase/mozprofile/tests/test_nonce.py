@@ -35,6 +35,8 @@ import
 unittest
 import
 mozfile
+import
+mozunit
 from
 mozprofile
 .
@@ -267,7 +269,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

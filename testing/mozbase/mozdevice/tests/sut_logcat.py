@@ -4,6 +4,8 @@ import
 logging
 import
 unittest
+import
+mozunit
 from
 sut
 import
@@ -796,7 +798,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

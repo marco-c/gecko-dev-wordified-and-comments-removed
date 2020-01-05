@@ -2,6 +2,8 @@ import
 mozhttpd
 import
 unittest
+import
+mozunit
 class
 BaseUrlTest
 (
@@ -146,7 +148,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

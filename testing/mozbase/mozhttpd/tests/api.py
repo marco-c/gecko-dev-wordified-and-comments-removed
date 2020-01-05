@@ -12,6 +12,8 @@ import
 json
 import
 tempfile
+import
+mozunit
 here
 =
 os
@@ -1843,7 +1845,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (
