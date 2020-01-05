@@ -936,7 +936,6 @@ throw
 new
 InactiveSessionException
 (
-null
 )
 ;
 }
@@ -969,7 +968,6 @@ throw
 new
 InactiveSessionException
 (
-null
 )
 ;
 }

@@ -39,17 +39,13 @@ public
 interface
 RepositorySessionFetchRecordsDelegate
 {
-public
 void
 onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 ;
-public
 void
 onFetchedRecord
 (
@@ -57,7 +53,6 @@ Record
 record
 )
 ;
-public
 void
 onFetchCompleted
 (

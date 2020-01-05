@@ -120,8 +120,6 @@ onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 {
 log

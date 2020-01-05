@@ -662,7 +662,6 @@ fetchRecordsDelegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -740,7 +739,6 @@ fetchRecordsDelegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -1004,7 +1002,6 @@ fetchRecordsDelegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -1224,7 +1221,6 @@ fetchRecordsDelegate
 onFetchFailed
 (
 ex
-null
 )
 ;
 }

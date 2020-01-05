@@ -406,8 +406,6 @@ onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 {
 this
@@ -421,12 +419,6 @@ this
 ex
 =
 ex
-;
-this
-.
-record
-=
-record
 ;
 }
 Override

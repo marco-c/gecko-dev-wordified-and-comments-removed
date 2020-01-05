@@ -699,8 +699,6 @@ onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 {
 Logger
@@ -711,7 +709,9 @@ LOG_TAG
 "
 onFetchFailed
 .
-Calling
+Informing
+sink
+calling
 for
 immediate
 stop

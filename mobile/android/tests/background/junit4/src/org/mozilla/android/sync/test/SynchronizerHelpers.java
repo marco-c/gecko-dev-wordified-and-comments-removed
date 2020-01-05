@@ -297,7 +297,6 @@ new
 FetchFailedException
 (
 )
-record
 )
 ;
 }
@@ -319,8 +318,6 @@ onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 {
 delegate
@@ -328,7 +325,6 @@ delegate
 onFetchFailed
 (
 ex
-record
 )
 ;
 }

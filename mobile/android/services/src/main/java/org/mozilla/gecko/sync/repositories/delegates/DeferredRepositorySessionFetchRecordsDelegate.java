@@ -121,9 +121,6 @@ onFetchFailed
 final
 Exception
 ex
-final
-Record
-record
 )
 {
 executor
@@ -147,7 +144,6 @@ inner
 onFetchFailed
 (
 ex
-record
 )
 ;
 }

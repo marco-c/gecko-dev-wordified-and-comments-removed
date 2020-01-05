@@ -264,8 +264,6 @@ onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 {
 next
@@ -273,7 +271,6 @@ next
 onFetchFailed
 (
 ex
-record
 )
 ;
 }
@@ -310,7 +307,6 @@ next
 onFetchFailed
 (
 e
-record
 )
 ;
 return
@@ -342,7 +338,6 @@ next
 onFetchFailed
 (
 e
-r
 )
 ;
 return
@@ -376,7 +371,6 @@ next
 onFetchFailed
 (
 e
-r
 )
 ;
 return

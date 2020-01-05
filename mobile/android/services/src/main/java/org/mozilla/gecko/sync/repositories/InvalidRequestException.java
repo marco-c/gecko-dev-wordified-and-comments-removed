@@ -37,13 +37,10 @@ serialVersionUID
 public
 InvalidRequestException
 (
-Exception
-ex
 )
 {
 super
 (
-ex
 )
 ;
 }
