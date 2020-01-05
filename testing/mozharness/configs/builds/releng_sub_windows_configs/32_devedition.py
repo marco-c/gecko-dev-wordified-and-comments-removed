@@ -17,4 +17,12 @@ win32
 -
 devedition
 '
+    
+'
+stage_product
+'
+:
+'
+devedition
+'
 }
