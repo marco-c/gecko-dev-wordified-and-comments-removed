@@ -847,11 +847,17 @@ ns
 *
 const
 u8
+nslen
+:
+u32
 name
 :
 *
 const
 u8
+namelen
+:
+u32
 length
 :
 *
