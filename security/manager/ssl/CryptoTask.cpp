@@ -88,8 +88,9 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+taskThreadName
 getter_AddRefs
 (
 mThread
@@ -113,12 +114,6 @@ return
 rv
 ;
 }
-NS_SetThreadName
-(
-mThread
-taskThreadName
-)
-;
 return
 mThread
 -
