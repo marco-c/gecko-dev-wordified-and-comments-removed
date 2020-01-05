@@ -107,29 +107,29 @@ SQLITE_VERSION
 "
 3
 .
-16
+17
 .
-2
+0
 "
 #
 define
 SQLITE_VERSION_NUMBER
-3016002
+3017000
 #
 define
 SQLITE_SOURCE_ID
 "
 2017
 -
-01
+02
 -
-06
+13
 16
 :
-32
+02
 :
-41
-a65a62893ca8319e89e48b8a38cf8a59c69a8209
+40
+ada05cfa86ad7f5645450ac7a2a21c9aa6e57d2c
 "
 SQLITE_API
 SQLITE_EXTERN
@@ -208,11 +208,22 @@ typedef
 SQLITE_INT64_TYPE
 sqlite_int64
 ;
+#
+ifdef
+SQLITE_UINT64_TYPE
+typedef
+SQLITE_UINT64_TYPE
+sqlite_uint64
+;
+#
+else
 typedef
 unsigned
 SQLITE_INT64_TYPE
 sqlite_uint64
 ;
+#
+endif
 #
 elif
 defined
@@ -8588,6 +8599,7 @@ struct
 sqlite3_changeset_iter
 sqlite3_changeset_iter
 ;
+SQLITE_API
 int
 sqlite3session_create
 (
@@ -8604,6 +8616,7 @@ sqlite3_session
 ppSession
 )
 ;
+SQLITE_API
 void
 sqlite3session_delete
 (
@@ -8612,6 +8625,7 @@ sqlite3_session
 pSession
 )
 ;
+SQLITE_API
 int
 sqlite3session_enable
 (
@@ -8622,6 +8636,7 @@ int
 bEnable
 )
 ;
+SQLITE_API
 int
 sqlite3session_indirect
 (
@@ -8632,6 +8647,7 @@ int
 bIndirect
 )
 ;
+SQLITE_API
 int
 sqlite3session_attach
 (
@@ -8644,6 +8660,7 @@ char
 zTab
 )
 ;
+SQLITE_API
 void
 sqlite3session_table_filter
 (
@@ -8669,6 +8686,7 @@ void
 pCtx
 )
 ;
+SQLITE_API
 int
 sqlite3session_changeset
 (
@@ -8684,6 +8702,7 @@ void
 ppChangeset
 )
 ;
+SQLITE_API
 int
 sqlite3session_diff
 (
@@ -8704,6 +8723,7 @@ char
 pzErrMsg
 )
 ;
+SQLITE_API
 int
 sqlite3session_patchset
 (
@@ -8719,6 +8739,7 @@ void
 ppPatchset
 )
 ;
+SQLITE_API
 int
 sqlite3session_isempty
 (
@@ -8727,6 +8748,7 @@ sqlite3_session
 pSession
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_start
 (
@@ -8741,6 +8763,7 @@ void
 pChangeset
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_next
 (
@@ -8749,6 +8772,7 @@ sqlite3_changeset_iter
 pIter
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_op
 (
@@ -8771,6 +8795,7 @@ int
 pbIndirect
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_pk
 (
@@ -8787,6 +8812,7 @@ int
 pnCol
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_old
 (
@@ -8801,6 +8827,7 @@ sqlite3_value
 ppValue
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_new
 (
@@ -8815,6 +8842,7 @@ sqlite3_value
 ppValue
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_conflict
 (
@@ -8829,6 +8857,7 @@ sqlite3_value
 ppValue
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_fk_conflicts
 (
@@ -8840,6 +8869,7 @@ int
 pnOut
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_finalize
 (
@@ -8848,6 +8878,7 @@ sqlite3_changeset_iter
 pIter
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_invert
 (
@@ -8866,6 +8897,7 @@ void
 ppOut
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_concat
 (
@@ -8935,6 +8967,7 @@ sqlite3_changegroup
 *
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_apply
 (
@@ -9012,6 +9045,7 @@ SQLITE_CHANGESET_REPLACE
 define
 SQLITE_CHANGESET_ABORT
 2
+SQLITE_API
 int
 sqlite3changeset_apply_strm
 (
@@ -9071,6 +9105,7 @@ void
 pCtx
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_concat_strm
 (
@@ -9133,6 +9168,7 @@ void
 pOut
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_invert_strm
 (
@@ -9176,6 +9212,7 @@ void
 pOut
 )
 ;
+SQLITE_API
 int
 sqlite3changeset_start_strm
 (
@@ -9204,6 +9241,7 @@ void
 pIn
 )
 ;
+SQLITE_API
 int
 sqlite3session_changeset_strm
 (
@@ -9231,6 +9269,7 @@ void
 pOut
 )
 ;
+SQLITE_API
 int
 sqlite3session_patchset_strm
 (
