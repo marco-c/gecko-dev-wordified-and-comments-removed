@@ -1080,3 +1080,13 @@ generateNSGetFactory
 components
 )
 ;
+this
+.
+EXPORTED_SYMBOLS
+=
+[
+"
+FxAccountsPushService
+"
+]
+;

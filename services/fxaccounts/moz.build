@@ -180,6 +180,11 @@ FxAccountsConfig
 jsm
 '
 '
+FxAccountsOAuthClient
+.
+jsm
+'
+'
 FxAccountsOAuthGrantClient
 .
 jsm
@@ -193,6 +198,11 @@ jsm
 FxAccountsProfileClient
 .
 jsm
+'
+'
+FxAccountsPush
+.
+js
 '
 '
 FxAccountsStorage

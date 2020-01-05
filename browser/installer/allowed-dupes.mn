@@ -3149,6 +3149,11 @@ update
 downloadButtons
 .
 png
+components
+/
+FxAccountsPush
+.
+js
 crashreporter
 .
 app
@@ -3200,6 +3205,11 @@ firefox
 firefox
 -
 bin
+modules
+/
+FxAccountsPush
+.
+js
 modules
 /
 commonjs
