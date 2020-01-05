@@ -2443,6 +2443,7 @@ once
 ]
 =
 function
+*
 (
 assert
 done

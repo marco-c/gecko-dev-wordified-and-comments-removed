@@ -113,6 +113,7 @@ promise
 ]
 =
 function
+*
 (
 assert
 )
