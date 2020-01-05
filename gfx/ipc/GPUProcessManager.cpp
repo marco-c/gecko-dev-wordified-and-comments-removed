@@ -1416,7 +1416,7 @@ uint32_t
 gfxPrefs
 :
 :
-GPUProcessDevMaxRestarts
+GPUProcessMaxRestarts
 (
 )
 )
