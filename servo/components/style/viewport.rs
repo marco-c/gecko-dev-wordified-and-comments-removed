@@ -1951,6 +1951,13 @@ cascade
 }
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 from_meta
@@ -3109,6 +3116,13 @@ self_precedence
 other_precedence
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 cascade
 <

@@ -1082,6 +1082,13 @@ common_style_affecting_attributes
 impl
 StyleSharingCandidate
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 new
 <
