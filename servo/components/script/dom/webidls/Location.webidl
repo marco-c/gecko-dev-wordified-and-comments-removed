@@ -133,8 +133,6 @@ DOMString
 url
 )
 ;
-/
-/
 void
 reload
 (
