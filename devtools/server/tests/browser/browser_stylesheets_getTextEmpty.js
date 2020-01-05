@@ -35,7 +35,7 @@ background
 color
 :
 #
-f0c
+f06
 ;
 }
 <

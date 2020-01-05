@@ -255,7 +255,7 @@ input
 :
 "
 #
-f0c
+f06
 "
 output
 :
@@ -268,7 +268,7 @@ input
 :
 "
 #
-f0c0
+f060
 "
 output
 :
