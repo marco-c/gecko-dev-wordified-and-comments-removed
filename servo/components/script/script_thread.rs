@@ -431,6 +431,12 @@ TopLevel
 }
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -11945,10 +11951,13 @@ and_then
 (
 |
 &
+Serde
+(
 ContentType
 (
 ref
 mimetype
+)
 )
 |
 {
@@ -12079,6 +12088,8 @@ content_type
 {
 Some
 (
+Serde
+(
 ContentType
 (
 Mime
@@ -12095,8 +12106,11 @@ _
 )
 )
 )
+)
 |
 Some
+(
+Serde
 (
 ContentType
 (
@@ -12111,6 +12125,7 @@ SubLevel
 :
 Xml
 _
+)
 )
 )
 )
@@ -12706,6 +12721,8 @@ content_type
 {
 Some
 (
+Serde
+(
 ContentType
 (
 Mime
@@ -12726,6 +12743,7 @@ _
 )
 )
 )
+)
 if
 sub_level
 .
@@ -12740,6 +12758,8 @@ xml
 >
 true
 Some
+(
+Serde
 (
 ContentType
 (
@@ -12757,8 +12777,11 @@ _
 )
 )
 )
+)
 |
 Some
+(
+Serde
 (
 ContentType
 (
@@ -12773,6 +12796,7 @@ SubLevel
 :
 Xml
 _
+)
 )
 )
 )

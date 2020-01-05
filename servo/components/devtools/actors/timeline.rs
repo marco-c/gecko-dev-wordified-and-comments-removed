@@ -1001,7 +1001,7 @@ true
 =
 with_memory
 .
-as_boolean
+as_bool
 (
 )
 {
@@ -1052,7 +1052,7 @@ true
 =
 with_ticks
 .
-as_boolean
+as_bool
 (
 )
 {

@@ -391,7 +391,7 @@ performReload
 if
 val
 .
-as_boolean
+as_bool
 (
 )
 .

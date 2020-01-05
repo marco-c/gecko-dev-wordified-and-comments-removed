@@ -107,9 +107,7 @@ app_units
 "
 0
 .
-2
-.
-5
+3
 "
 bitflags
 =
@@ -123,9 +121,7 @@ euclid
 "
 0
 .
-8
-.
-2
+9
 "
 getopts
 =
@@ -155,9 +151,7 @@ version
 "
 0
 .
-4
-.
-0
+5
 "
 optional
 =
@@ -205,9 +199,7 @@ version
 "
 0
 .
-7
-.
-11
+8
 "
 optional
 =
@@ -221,9 +213,7 @@ version
 "
 0
 .
-7
-.
-11
+8
 "
 optional
 =
@@ -234,9 +224,7 @@ url
 "
 1
 .
-0
-.
-0
+2
 "
 plugins
 =

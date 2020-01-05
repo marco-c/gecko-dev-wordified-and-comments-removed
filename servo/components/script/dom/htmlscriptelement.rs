@@ -296,6 +296,12 @@ http
 RawStatus
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -1014,10 +1020,13 @@ status
 {
 Some
 (
+Serde
+(
 RawStatus
 (
 c
 _
+)
 )
 )
 =

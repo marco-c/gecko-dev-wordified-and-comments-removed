@@ -273,6 +273,10 @@ hyper
 ;
 extern
 crate
+hyper_serde
+;
+extern
+crate
 image
 ;
 extern

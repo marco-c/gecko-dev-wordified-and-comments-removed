@@ -104,6 +104,10 @@ hyper
 ;
 extern
 crate
+hyper_serde
+;
+extern
+crate
 immeta
 ;
 extern

@@ -60,9 +60,7 @@ app_units
 "
 0
 .
-2
-.
-5
+3
 "
 azure
 =
@@ -121,7 +119,7 @@ version
 .
 5
 .
-4
+7
 "
 features
 =
@@ -141,9 +139,7 @@ euclid
 "
 0
 .
-8
-.
-2
+9
 "
 fnv
 =
@@ -201,9 +197,7 @@ channel
 "
 0
 .
-4
-.
-0
+5
 "
 libc
 =
@@ -348,9 +342,7 @@ serde_macros
 "
 0
 .
-7
-.
-15
+8
 "
 smallvec
 =
@@ -369,7 +361,7 @@ version
 .
 2
 .
-20
+23
 "
 features
 =
@@ -440,9 +432,7 @@ version
 "
 1
 .
-0
-.
-0
+2
 "
 features
 =

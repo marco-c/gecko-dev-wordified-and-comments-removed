@@ -481,7 +481,7 @@ unwrap
 (
 )
 .
-as_string
+as_str
 (
 )
 .
@@ -1395,7 +1395,7 @@ unwrap
 (
 )
 .
-as_string
+as_str
 (
 )
 .
@@ -2287,7 +2287,7 @@ unwrap
 (
 )
 .
-as_string
+as_str
 (
 )
 .
@@ -2403,7 +2403,7 @@ and_then
 Value
 :
 :
-as_boolean
+as_bool
 )
 .
 unwrap_or

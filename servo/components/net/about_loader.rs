@@ -33,6 +33,12 @@ TopLevel
 }
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 mime_classifier
 :
 :
@@ -247,6 +253,8 @@ content_type
 :
 Some
 (
+Serde
+(
 ContentType
 (
 Mime
@@ -263,6 +271,7 @@ vec
 !
 [
 ]
+)
 )
 )
 )
@@ -287,6 +296,8 @@ status
 :
 Some
 (
+Serde
+(
 RawStatus
 (
 200
@@ -296,6 +307,7 @@ OK
 .
 into
 (
+)
 )
 )
 )

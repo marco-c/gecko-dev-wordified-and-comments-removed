@@ -1423,7 +1423,11 @@ content_type
 is_supported_font_type
 (
 &
+(
 mime
+.
+0
+)
 .
 0
 &

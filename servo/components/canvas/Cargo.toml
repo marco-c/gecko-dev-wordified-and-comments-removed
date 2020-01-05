@@ -100,9 +100,7 @@ euclid
 "
 0
 .
-8
-.
-2
+9
 "
 gfx_traits
 =
@@ -132,9 +130,7 @@ channel
 "
 0
 .
-4
-.
-0
+5
 "
 log
 =
@@ -161,9 +157,7 @@ offscreen_gl_context
 "
 0
 .
-2
-.
-0
+3
 "
 plugins
 =

@@ -164,6 +164,12 @@ status
 StatusCode
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 msg
 :
 :
@@ -12134,6 +12140,8 @@ metadata
 status
 Some
 (
+Serde
+(
 RawStatus
 (
 200
@@ -12145,6 +12153,7 @@ Borrowed
 "
 Ok
 "
+)
 )
 )
 )
@@ -12385,6 +12394,8 @@ metadata
 status
 Some
 (
+Serde
+(
 RawStatus
 (
 401
@@ -12396,6 +12407,7 @@ Borrowed
 "
 Unauthorized
 "
+)
 )
 )
 )
@@ -14463,6 +14475,8 @@ metadata
 status
 Some
 (
+Serde
+(
 RawStatus
 (
 200
@@ -14474,6 +14488,7 @@ Borrowed
 "
 OK
 "
+)
 )
 )
 )

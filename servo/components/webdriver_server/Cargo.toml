@@ -60,9 +60,7 @@ euclid
 "
 0
 .
-8
-.
-2
+9
 "
 hyper
 =
@@ -87,9 +85,7 @@ channel
 "
 0
 .
-4
-.
-0
+5
 "
 log
 =
@@ -164,9 +160,7 @@ version
 "
 1
 .
-0
-.
-0
+2
 "
 features
 =
@@ -196,7 +190,7 @@ version
 "
 0
 .
-2
+3
 "
 features
 =
@@ -228,11 +222,6 @@ version
 features
 =
 [
-"
-serialize
--
-serde
-"
 "
 serialize
 -

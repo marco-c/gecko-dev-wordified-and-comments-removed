@@ -288,6 +288,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -504,7 +510,12 @@ as_ref
 map
 (
 |
+&
+Serde
+(
+ref
 s
+)
 |
 s
 .

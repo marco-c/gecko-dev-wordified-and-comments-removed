@@ -63,6 +63,8 @@ blocker
 0
 .
 2
+.
+1
 "
 cookie
 =
@@ -109,6 +111,15 @@ hyper
 .
 9
 "
+hyper_serde
+=
+"
+0
+.
+1
+.
+4
+"
 ipc
 -
 channel
@@ -116,9 +127,7 @@ channel
 "
 0
 .
-4
-.
-0
+5
 "
 msg
 =
@@ -242,9 +251,7 @@ version
 "
 1
 .
-0
-.
-0
+2
 "
 features
 =

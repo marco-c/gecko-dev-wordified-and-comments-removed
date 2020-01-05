@@ -121,6 +121,12 @@ TopLevel
 }
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -876,6 +882,8 @@ map
 (
 |
 &
+Serde
+(
 ContentType
 (
 Mime
@@ -885,6 +893,7 @@ toplevel
 ref
 sublevel
 _
+)
 )
 )
 |
@@ -967,6 +976,8 @@ content_type
 =
 Some
 (
+Serde
+(
 ContentType
 (
 Mime
@@ -977,6 +988,7 @@ vec
 !
 [
 ]
+)
 )
 )
 )
@@ -2114,6 +2126,11 @@ cookies_data_for_url
 &
 url
 source
+)
+.
+map
+(
+Serde
 )
 .
 collect

@@ -65,6 +65,10 @@ heapsize
 ;
 extern
 crate
+hyper_serde
+;
+extern
+crate
 ipc_channel
 ;
 extern

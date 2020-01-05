@@ -60,9 +60,7 @@ app_units
 "
 0
 .
-2
-.
-5
+3
 "
 bitflags
 =
@@ -93,7 +91,7 @@ version
 .
 5
 .
-4
+7
 "
 features
 =
@@ -113,9 +111,7 @@ euclid
 "
 0
 .
-8
-.
-2
+9
 "
 gfx_traits
 =
@@ -154,9 +150,7 @@ channel
 "
 0
 .
-4
-.
-0
+5
 "
 libc
 =
@@ -274,7 +268,7 @@ version
 .
 2
 .
-20
+23
 "
 features
 =
@@ -304,9 +298,7 @@ version
 "
 1
 .
-0
-.
-0
+2
 "
 features
 =
