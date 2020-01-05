@@ -3724,9 +3724,13 @@ ExclusiveContext
 cx
 JSString
 *
+const
+&
 left
 JSString
 *
+const
+&
 right
 )
 ;

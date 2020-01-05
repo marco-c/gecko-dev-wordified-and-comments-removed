@@ -16667,7 +16667,9 @@ NoGC
 ExclusiveContext
 *
 cx
+const
 Value
+&
 arg
 )
 ;
