@@ -4113,7 +4113,6 @@ Trap
 ImpreciseSimdConversion
 )
 StackOverflow
-Throw
 Limit
 }
 ;

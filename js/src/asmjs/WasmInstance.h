@@ -34,9 +34,6 @@ h
 namespace
 js
 {
-class
-WasmActivation
-;
 namespace
 wasm
 {
