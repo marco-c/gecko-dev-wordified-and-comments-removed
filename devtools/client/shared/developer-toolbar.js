@@ -359,7 +359,6 @@ node
 -
 constants
 "
-true
 )
 ;
 loader
