@@ -189,9 +189,8 @@ InitializeGlobalState
 void
 UpdateHitTestingTree
 (
-CompositorBridgeParent
-*
-aCompositor
+uint64_t
+aRootLayerTreeId
 Layer
 *
 aRoot
