@@ -556,6 +556,12 @@ win1Id
 }
 )
 ;
+win1
+.
+focus
+(
+)
+;
 let
 winId
 =
