@@ -98,6 +98,9 @@ class
 nsIDocument
 ;
 class
+nsIEventTarget
+;
+class
 nsPIDOMWindowInner
 ;
 namespace
@@ -350,6 +353,13 @@ const
 }
 #
 endif
+nsIEventTarget
+*
+EventTarget
+(
+)
+const
+;
 const
 nsString
 &
