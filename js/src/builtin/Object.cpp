@@ -3734,7 +3734,7 @@ ToPropertyDescriptor
 (
 cx
 descObj
-false
+true
 &
 desc
 )
