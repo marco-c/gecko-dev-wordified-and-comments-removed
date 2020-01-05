@@ -147,7 +147,7 @@ final
 long
 TABS_TTL
 =
-7
+21
 *
 24
 *
