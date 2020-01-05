@@ -185,7 +185,7 @@ assertEq
 desc
 .
 writable
-true
+false
 )
 ;
 assertEq
@@ -201,7 +201,7 @@ assertEq
 desc
 .
 configurable
-true
+false
 )
 ;
 assertEq
