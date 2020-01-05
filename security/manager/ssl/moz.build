@@ -889,6 +889,15 @@ CERT_AddTempCertToPerm
 '
 __CERT_AddTempCertToPerm
 '
+if
+not
+CONFIG
+[
+'
+MOZ_SYSTEM_NSS
+'
+]
+:
 USE_LIBS
 +
 =
