@@ -505,6 +505,10 @@ storage
 ;
 pub
 mod
+storageevent
+;
+pub
+mod
 text
 ;
 pub
