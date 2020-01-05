@@ -4,7 +4,6 @@
 feature
 (
 libc
-rustc_private
 thread_local
 )
 ]
