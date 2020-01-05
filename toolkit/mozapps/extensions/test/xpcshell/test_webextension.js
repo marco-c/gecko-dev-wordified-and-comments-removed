@@ -2359,14 +2359,6 @@ images
 headerURL
 :
 "
-https
-:
-/
-/
-example
-.
-com
-/
 example
 .
 png
