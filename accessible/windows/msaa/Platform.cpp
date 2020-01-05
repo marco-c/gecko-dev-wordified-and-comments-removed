@@ -466,11 +466,6 @@ GetWrapper
 )
 )
 ;
-MOZ_ASSERT
-(
-wrapper
-)
-;
 if
 (
 !
