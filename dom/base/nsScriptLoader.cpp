@@ -13314,7 +13314,7 @@ aDataLength
 nsresult
 rv
 =
-TryDecodeRawData
+DecodeRawData
 (
 aData
 aDataLength
@@ -13358,7 +13358,7 @@ nsresult
 nsScriptLoadHandler
 :
 :
-TryDecodeRawData
+DecodeRawData
 (
 const
 uint8_t
@@ -13955,7 +13955,7 @@ nsresult
 >
 rv
 =
-TryDecodeRawData
+DecodeRawData
 (
 aData
 aDataLength

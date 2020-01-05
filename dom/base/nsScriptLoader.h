@@ -1983,7 +1983,7 @@ nsScriptLoadHandler
 )
 ;
 nsresult
-TryDecodeRawData
+DecodeRawData
 (
 const
 uint8_t
