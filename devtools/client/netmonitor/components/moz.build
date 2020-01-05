@@ -56,6 +56,13 @@ MPL
 DevToolsModules
 (
 '
+clear
+-
+button
+.
+js
+'
+'
 filter
 -
 buttons
@@ -80,6 +87,11 @@ js
 toggle
 -
 button
+.
+js
+'
+'
+toolbar
 .
 js
 '
