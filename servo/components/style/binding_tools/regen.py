@@ -558,6 +558,10 @@ gfxFontFeature
 "
             
 "
+gfxFontVariation
+"
+            
+"
 GridNamedArea
 "
             
@@ -1428,10 +1432,6 @@ nsMainThreadPtrHolder
             
 "
 nsRestyleHint
-"
-            
-"
-nsString
 "
             
 "
