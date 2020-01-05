@@ -2867,7 +2867,7 @@ DOMRefCell
 new
 (
 "
-utf
+UTF
 -
 8
 "
@@ -3601,11 +3601,7 @@ borrow
 (
 )
 .
-as_slice
-(
-)
-.
-to_ascii_lower
+clone
 (
 )
 }
