@@ -1585,10 +1585,10 @@ uint32_t
 startColumn
 ;
 uint32_t
-preludeStart
+toStringStart
 ;
 uint32_t
-postludeEnd
+toStringEnd
 ;
 uint16_t
 length
@@ -1697,7 +1697,7 @@ JSFunction
 *
 fun
 uint32_t
-preludeStart
+toStringStart
 Directives
 directives
 bool
@@ -2535,7 +2535,7 @@ bufEnd
 =
 end
 ;
-postludeEnd
+toStringEnd
 =
 end
 ;

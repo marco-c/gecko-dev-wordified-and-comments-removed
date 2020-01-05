@@ -3718,7 +3718,7 @@ JSFunction
 *
 fun
 uint32_t
-preludeStart
+toStringStart
 Directives
 directives
 GeneratorKind
@@ -3941,7 +3941,7 @@ FunctionBox
 *
 funbox
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -4003,7 +4003,7 @@ Node
 functionStmt
 (
 uint32_t
-preludeStart
+toStringStart
 YieldHandling
 yieldHandling
 DefaultHandling
@@ -4018,7 +4018,7 @@ Node
 functionExpr
 (
 uint32_t
-preludeStart
+toStringStart
 InvokedPrediction
 invoked
 =
@@ -4282,7 +4282,7 @@ exportFunctionDeclaration
 uint32_t
 begin
 uint32_t
-preludeStart
+toStringStart
 FunctionAsyncKind
 asyncKind
 =
@@ -4318,7 +4318,7 @@ exportDefaultFunctionDeclaration
 uint32_t
 begin
 uint32_t
-preludeStart
+toStringStart
 FunctionAsyncKind
 asyncKind
 =
@@ -4633,7 +4633,7 @@ Node
 methodDefinition
 (
 uint32_t
-preludeStart
+toStringStart
 PropertyType
 propType
 HandleAtom
@@ -4657,7 +4657,7 @@ functionDefinition
 Node
 func
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -5040,7 +5040,7 @@ skipLazyInnerFunction
 Node
 pn
 uint32_t
-preludeStart
+toStringStart
 FunctionSyntaxKind
 kind
 bool
@@ -5058,7 +5058,7 @@ outerpc
 HandleFunction
 fun
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -5086,7 +5086,7 @@ pn
 HandleFunction
 fun
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
