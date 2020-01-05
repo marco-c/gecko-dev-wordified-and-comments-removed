@@ -524,11 +524,6 @@ IntrinsicSubstringKernel
 \
 _
 (
-IntrinsicDefineDataProperty
-)
-\
-_
-(
 IntrinsicObjectHasPrototype
 )
 \

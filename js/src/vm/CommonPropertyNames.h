@@ -3580,5 +3580,14 @@ symbol
 "
 )
 \
+macro
+(
+defineDataPropertyIntrinsic
+defineDataPropertyIntrinsic
+"
+_DefineDataProperty
+"
+)
+\
 #
 endif

@@ -3170,6 +3170,15 @@ pn
 ;
 MOZ_MUST_USE
 bool
+emitSelfHostedDefineDataProperty
+(
+ParseNode
+*
+pn
+)
+;
+MOZ_MUST_USE
+bool
 emitComprehensionFor
 (
 ParseNode
