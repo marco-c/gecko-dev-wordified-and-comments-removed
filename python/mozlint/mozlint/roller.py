@@ -773,6 +773,8 @@ close
 (
 )
         
+orig_sigint
+=
 signal
 .
 signal
@@ -839,6 +841,22 @@ k
 extend
 (
 v
+)
+        
+signal
+.
+signal
+(
+signal
+.
+SIGINT
+orig_sigint
+)
+        
+m
+.
+shutdown
+(
 )
         
 return
