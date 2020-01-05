@@ -7,11 +7,7 @@ AudioDestinationNode_h_
 #
 include
 "
-mozilla
-/
-dom
-/
-AudioChannelBinding
+AudioChannelService
 .
 h
 "
@@ -340,6 +336,12 @@ mAudioChannelSuspended
 ;
 bool
 mCaptured
+;
+AudioChannelService
+:
+:
+AudibleState
+mAudible
 ;
 }
 ;
