@@ -487,13 +487,13 @@ Option
 InlineFragmentContext
 >
 pub
-debug_id
-:
-u16
-pub
 restyle_damage
 :
 RestyleDamage
+pub
+debug_id
+:
+u16
 }
 unsafe
 impl
@@ -10475,6 +10475,7 @@ _
 )
 =
 >
+{
 panic
 !
 (
@@ -10488,6 +10489,7 @@ have
 inline_size
 "
 )
+}
 SpecificFragmentInfo
 :
 :
@@ -11022,6 +11024,7 @@ _
 )
 =
 >
+{
 panic
 !
 (
@@ -11035,6 +11038,7 @@ have
 block_size
 "
 )
+}
 SpecificFragmentInfo
 :
 :
@@ -11487,10 +11491,10 @@ ascent
 for
 this
 fragment
+/
+/
+/
 when
-/
-/
-/
 used
 in
 an

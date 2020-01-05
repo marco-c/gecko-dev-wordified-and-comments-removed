@@ -520,6 +520,9 @@ false
 show_debug_parallel_paint
 :
 false
+show_debug_parallel_layout
+:
+false
 enable_text_antialiasing
 :
 true

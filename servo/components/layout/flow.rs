@@ -1134,6 +1134,9 @@ LayoutContext
 '
 a
 >
+parent_thread_id
+:
+u8
 )
 -
 >
@@ -1156,6 +1159,15 @@ impacted_by_floats
 if
 impacted
 {
+mut_base
+(
+self
+)
+.
+thread_id
+=
+parent_thread_id
+;
 self
 .
 assign_block_size
@@ -3550,6 +3562,10 @@ writing_mode
 :
 WritingMode
 pub
+thread_id
+:
+u8
+pub
 flags
 :
 FlowFlags
@@ -4532,6 +4548,9 @@ flags
 writing_mode
 :
 writing_mode
+thread_id
+:
+0
 }
 }
 pub

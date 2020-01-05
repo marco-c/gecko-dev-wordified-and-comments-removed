@@ -1694,6 +1694,9 @@ LayoutContext
 '
 a
 >
+parent_thread_id
+:
+u8
 )
 -
 >
@@ -1741,6 +1744,16 @@ impacted_by_floats
 if
 impacted
 {
+self
+.
+block_flow
+.
+base
+.
+thread_id
+=
+parent_thread_id
+;
 self
 .
 assign_block_size

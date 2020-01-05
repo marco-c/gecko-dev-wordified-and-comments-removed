@@ -8192,6 +8192,15 @@ inline
 block
 descendants
 .
+let
+thread_id
+=
+self
+.
+base
+.
+thread_id
+;
 for
 kid
 in
@@ -8241,6 +8250,7 @@ kid
 assign_block_size_for_inorder_child_if_necessary
 (
 layout_context
+thread_id
 )
 ;
 }

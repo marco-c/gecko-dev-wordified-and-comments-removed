@@ -411,6 +411,17 @@ Au
 0
 )
 ;
+let
+thread_id
+=
+self
+.
+block_flow
+.
+base
+.
+thread_id
+;
 for
 kid
 in
@@ -452,6 +463,7 @@ kid
 assign_block_size_for_inorder_child_if_necessary
 (
 layout_context
+thread_id
 )
 ;
 }

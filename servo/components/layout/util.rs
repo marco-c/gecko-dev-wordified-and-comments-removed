@@ -41,9 +41,7 @@ azure
 azure_hl
 :
 :
-{
 Color
-}
 ;
 use
 gfx
