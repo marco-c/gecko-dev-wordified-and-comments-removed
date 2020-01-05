@@ -559,10 +559,11 @@ tool
 .
 *
 tidy
-.
-py
 *
-Code
+Python
+package
+of
+code
 lints
 that
 are
