@@ -96,6 +96,13 @@ SpliceableJSONWriter
 aWriter
 int
 aThreadId
+const
+mozilla
+:
+:
+TimeStamp
+&
+aStartTime
 double
 aSinceTime
 UniqueStacks

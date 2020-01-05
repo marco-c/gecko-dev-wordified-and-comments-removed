@@ -287,6 +287,13 @@ StreamJSON
 SpliceableJSONWriter
 &
 aWriter
+const
+mozilla
+:
+:
+TimeStamp
+&
+aStartTime
 UniqueStacks
 &
 aUniqueStacks

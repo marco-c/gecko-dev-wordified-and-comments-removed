@@ -3493,6 +3493,10 @@ SpliceableJSONWriter
 aWriter
 int
 aThreadId
+const
+TimeStamp
+&
+aStartTime
 double
 aSinceTime
 UniqueStacks
@@ -3593,6 +3597,7 @@ getMarker
 StreamJSON
 (
 aWriter
+aStartTime
 aUniqueStacks
 )
 ;

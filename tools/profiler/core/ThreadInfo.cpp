@@ -275,6 +275,10 @@ aBuffer
 SpliceableJSONWriter
 &
 aWriter
+const
+TimeStamp
+&
+aStartTime
 double
 aSinceTime
 )
@@ -315,6 +319,7 @@ StreamSamplesAndMarkers
 (
 aBuffer
 aWriter
+aStartTime
 aSinceTime
 *
 mUniqueStacks
@@ -536,6 +541,10 @@ aBuffer
 SpliceableJSONWriter
 &
 aWriter
+const
+TimeStamp
+&
+aStartTime
 double
 aSinceTime
 UniqueStacks
@@ -821,6 +830,7 @@ StreamMarkersToJSON
 (
 aWriter
 mThreadId
+aStartTime
 aSinceTime
 aUniqueStacks
 )
@@ -849,6 +859,10 @@ FlushSamplesAndMarkers
 ProfileBuffer
 *
 aBuffer
+const
+TimeStamp
+&
+aStartTime
 )
 {
 MOZ_ASSERT
@@ -935,6 +949,7 @@ StreamMarkersToJSON
 (
 b
 mThreadId
+aStartTime
 0
 *
 mUniqueStacks

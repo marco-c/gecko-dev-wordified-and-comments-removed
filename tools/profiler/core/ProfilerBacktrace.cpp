@@ -89,6 +89,10 @@ StreamJSON
 SpliceableJSONWriter
 &
 aWriter
+const
+TimeStamp
+&
+aStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -115,6 +119,7 @@ StreamSamplesAndMarkers
 (
 mBuffer
 aWriter
+aStartTime
 0
 aUniqueStacks
 )
