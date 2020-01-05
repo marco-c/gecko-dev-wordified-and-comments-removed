@@ -12,9 +12,9 @@ test
 :
 :
 {
-test_opts
+TestOpts
 run_tests_console
-test_desc
+TestDesc
 }
 ;
 import
@@ -267,7 +267,7 @@ Config
 )
 -
 >
-test_opts
+TestOpts
 {
 {
 filter
@@ -294,11 +294,11 @@ Config
 >
 ~
 [
-test_desc
+TestDesc
 ]
 {
 let
-html_files
+all_files
 =
 list_dir_path
 (
@@ -310,6 +310,11 @@ config
 source_dir
 )
 )
+;
+let
+html_files
+=
+all_files
 .
 filter
 (
@@ -364,7 +369,7 @@ str
 )
 -
 >
-test_desc
+TestDesc
 {
 let
 directives
