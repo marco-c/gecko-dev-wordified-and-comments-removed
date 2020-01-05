@@ -5088,9 +5088,6 @@ fonts
 endif
 ;
 media
-#
-ifdef
-MOZ_EME
 RESPATH
 /
 gmp
@@ -5117,8 +5114,6 @@ clearkey
 clearkey
 .
 info
-#
-endif
 #
 ifdef
 PKG_LOCALE_MANIFEST

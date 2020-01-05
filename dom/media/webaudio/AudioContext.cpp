@@ -1456,9 +1456,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_EME
 if
 (
 aMediaElement
@@ -1479,8 +1476,6 @@ return
 nullptr
 ;
 }
-#
-endif
 if
 (
 CheckClosed

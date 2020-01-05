@@ -602,9 +602,6 @@ CanonicalIsSuspended
 )
 ;
 }
-#
-ifdef
-MOZ_EME
 void
 SetCDMProxy
 (
@@ -622,8 +619,6 @@ aProxy
 )
 ;
 }
-#
-endif
 void
 SetVideoBlankDecode
 (

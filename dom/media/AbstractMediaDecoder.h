@@ -89,14 +89,9 @@ VideoFrameContainer
 class
 MediaDecoderOwner
 ;
-#
-ifdef
-MOZ_EME
 class
 CDMProxy
 ;
-#
-endif
 typedef
 nsDataHashtable
 <

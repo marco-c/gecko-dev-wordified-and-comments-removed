@@ -157,9 +157,6 @@ FirstFrameLoaded
 override
 {
 }
-#
-ifdef
-MOZ_EME
 void
 DispatchEncrypted
 (
@@ -178,8 +175,6 @@ aInitDataType
 override
 {
 }
-#
-endif
 bool
 IsActive
 (

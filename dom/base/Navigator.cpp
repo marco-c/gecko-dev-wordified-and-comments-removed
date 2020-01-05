@@ -792,9 +792,6 @@ ContentChild
 h
 "
 #
-ifdef
-MOZ_EME
-#
 include
 "
 mozilla
@@ -812,8 +809,6 @@ DetailedPromise
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -1320,15 +1315,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mWindow
 )
-#
-ifdef
-MOZ_EME
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mMediaKeySystemAccessManager
 )
-#
-endif
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mDeviceStorageAreaListener
@@ -1731,9 +1721,6 @@ mServiceWorkerContainer
 =
 nullptr
 ;
-#
-ifdef
-MOZ_EME
 if
 (
 mMediaKeySystemAccessManager
@@ -1751,8 +1738,6 @@ mMediaKeySystemAccessManager
 nullptr
 ;
 }
-#
-endif
 if
 (
 mDeviceStorageAreaListener
@@ -9697,9 +9682,6 @@ aUserAgent
 )
 ;
 }
-#
-ifdef
-MOZ_EME
 static
 nsCString
 ToCString
@@ -10408,8 +10390,6 @@ forget
 )
 ;
 }
-#
-endif
 Presentation
 *
 Navigator

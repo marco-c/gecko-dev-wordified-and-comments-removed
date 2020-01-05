@@ -387,9 +387,6 @@ sStreamSourceID
 0u
 )
 ;
-#
-ifdef
-MOZ_EME
 class
 DispatchKeyNeededEvent
 :
@@ -488,8 +485,6 @@ mInitDataType
 ;
 }
 ;
-#
-endif
 TrackBuffersManager
 :
 :
@@ -4681,9 +4676,6 @@ IsEncrypted
 )
 )
 {
-#
-ifdef
-MOZ_EME
 for
 (
 uint32_t
@@ -4735,8 +4727,6 @@ mType
 )
 ;
 }
-#
-endif
 info
 .
 mCrypto
@@ -4753,6 +4743,10 @@ mInitDatas
 Clear
 (
 )
+;
+mEncrypted
+=
+true
 ;
 }
 {

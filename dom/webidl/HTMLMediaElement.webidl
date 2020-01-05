@@ -890,9 +890,6 @@ onmozinterruptend
 ;
 }
 ;
-#
-ifdef
-MOZ_EME
 /
 /
 Encrypted
@@ -1001,8 +998,6 @@ onwaitingforkey
 ;
 }
 ;
-#
-endif
 /
 /
 This

@@ -2695,9 +2695,6 @@ mozTCPSocket
 ;
 }
 ;
-#
-ifdef
-MOZ_EME
 partial
 interface
 Navigator
@@ -2731,8 +2728,6 @@ supportedConfigurations
 ;
 }
 ;
-#
-endif
 #
 ifdef
 NIGHTLY_BUILD

@@ -279,9 +279,6 @@ NotifyXPCOMShutdown
 =
 0
 ;
-#
-ifdef
-MOZ_EME
 virtual
 void
 DispatchEncrypted
@@ -301,8 +298,6 @@ aInitDataType
 =
 0
 ;
-#
-endif
 }
 ;
 }

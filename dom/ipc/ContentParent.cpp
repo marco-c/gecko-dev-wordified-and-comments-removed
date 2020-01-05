@@ -304,9 +304,6 @@ GeolocationBinding
 h
 "
 #
-ifdef
-MOZ_EME
-#
 include
 "
 mozilla
@@ -317,8 +314,6 @@ MediaKeySystemAccess
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4996,9 +4991,6 @@ nsCString
 aMessage
 )
 {
-#
-ifdef
-MOZ_EME
 *
 aIsPresent
 =
@@ -5013,15 +5005,6 @@ aVersion
 aMessage
 )
 ;
-#
-else
-*
-aIsPresent
-=
-false
-;
-#
-endif
 return
 true
 ;
@@ -17926,7 +17909,6 @@ IsSecureURI
 type
 ourURI
 flags
-nullptr
 isSecureURI
 )
 ;
@@ -17951,10 +17933,6 @@ const
 bool
 &
 aActive
-const
-bool
-&
-aHSTSPriming
 )
 {
 nsCOMPtr
@@ -17985,7 +17963,6 @@ AccumulateMixedContentHSTS
 (
 ourURI
 aActive
-aHSTSPriming
 )
 ;
 return

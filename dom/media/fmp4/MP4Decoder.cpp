@@ -36,9 +36,6 @@ nsCharSeparatedTokenizer
 h
 "
 #
-ifdef
-MOZ_EME
-#
 include
 "
 mozilla
@@ -47,8 +44,6 @@ CDMProxy
 .
 h
 "
-#
-endif
 #
 include
 "

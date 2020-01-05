@@ -379,9 +379,6 @@ return
 mTrackDemuxersMayBlock
 ;
 }
-#
-ifdef
-MOZ_EME
 void
 SetCDMProxy
 (
@@ -391,8 +388,6 @@ aProxy
 )
 override
 ;
-#
-endif
 void
 GetMozDebugReaderData
 (
@@ -415,7 +410,6 @@ bool
 HasVideo
 (
 )
-const
 {
 return
 mVideo
@@ -427,7 +421,6 @@ bool
 HasAudio
 (
 )
-const
 {
 return
 mAudio
@@ -2032,7 +2025,13 @@ bool
 IsEncrypted
 (
 )
-const
+{
+return
+mIsEncrypted
+;
+}
+bool
+mIsEncrypted
 ;
 bool
 mTrackDemuxersMayBlock
@@ -2207,17 +2206,12 @@ GetImageContainer
 (
 )
 ;
-#
-ifdef
-MOZ_EME
 RefPtr
 <
 CDMProxy
 >
 mCDMProxy
 ;
-#
-endif
 RefPtr
 <
 GMPCrashHelper

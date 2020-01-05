@@ -92,9 +92,6 @@ aDiagnostics
 )
 const
 ;
-#
-ifdef
-MOZ_EME
 void
 SetCDMProxy
 (
@@ -103,8 +100,6 @@ CDMProxy
 aProxy
 )
 ;
-#
-endif
 static
 constexpr
 int

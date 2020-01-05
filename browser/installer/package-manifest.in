@@ -4979,9 +4979,6 @@ dll
 endif
 ;
 media
-#
-ifdef
-MOZ_EME
 RESPATH
 /
 gmp
@@ -5008,8 +5005,6 @@ clearkey
 clearkey
 .
 info
-#
-endif
 ;
 gfx
 #

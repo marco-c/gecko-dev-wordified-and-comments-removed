@@ -22529,9 +22529,6 @@ video
 return
 ;
 }
-#
-ifdef
-MOZ_EME
 if
 (
 video
@@ -22552,8 +22549,6 @@ NS_ERROR_NOT_AVAILABLE
 return
 ;
 }
-#
-endif
 uint16_t
 readyState
 ;
@@ -28059,15 +28054,6 @@ copyX
 *
 4
 ;
-uint8_t
-alphaMask
-=
-mOpaque
-?
-255
-:
-0
-;
 #
 if
 0
@@ -28280,8 +28266,6 @@ dst
 +
 =
 a
-|
-alphaMask
 ;
 #
 else
@@ -28291,8 +28275,6 @@ dst
 +
 =
 a
-|
-alphaMask
 ;
 *
 dst
