@@ -24236,6 +24236,13 @@ minHeight
 GetUnit
 (
 )
+&
+&
+!
+ShouldHonorMinSizeAutoInAxis
+(
+eAxisVertical
+)
 )
 {
 minHeight
