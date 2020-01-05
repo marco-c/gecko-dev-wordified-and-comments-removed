@@ -62,6 +62,7 @@ new
 (
 font
 :
+&
 mut
 Font
 )

@@ -16,16 +16,6 @@ text
 text_run
 :
 :
-SendableTextRun
-;
-pub
-use
-text
-:
-:
-text_run
-:
-:
 TextRun
 ;
 pub

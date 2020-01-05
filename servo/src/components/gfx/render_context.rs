@@ -184,7 +184,11 @@ self
 DrawTarget
 font_ctx
 :
+&
+'
+self
 mut
+~
 FontContext
 opts
 :
