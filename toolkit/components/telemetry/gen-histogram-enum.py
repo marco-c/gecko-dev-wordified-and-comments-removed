@@ -372,6 +372,9 @@ HistogramUseCounterCount
 =
 HistogramLastUseCounter
 -
+"
+              
+"
 HistogramFirstUseCounter
 +
 1
@@ -636,6 +639,9 @@ CategoricalLabelId
 s
 >
 :
+"
+              
+"
 IntegralConstant
 <
 uint32_t

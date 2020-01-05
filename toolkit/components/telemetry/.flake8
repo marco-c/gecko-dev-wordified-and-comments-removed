@@ -22,9 +22,6 @@ intro
 html
 #
 configuration
-ignore
-=
-E501
 max
 -
 line
