@@ -1814,6 +1814,9 @@ mac
 max_advance
 :
 max_advance
+line_gap
+:
+height
 }
 ;
 debug

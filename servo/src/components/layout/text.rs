@@ -1986,6 +1986,10 @@ style
 :
 &
 ComputedValues
+metrics
+:
+&
+FontMetrics
 )
 -
 >
@@ -2020,14 +2024,9 @@ line_height
 Normal
 =
 >
-font_size
+metrics
 .
-scale_by
-(
-1
-.
-14
-)
+line_gap
 line_height
 :
 :
