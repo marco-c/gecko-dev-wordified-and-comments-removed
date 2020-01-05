@@ -1477,14 +1477,10 @@ options
 [
 [
 '
-inline
--
-start
+left
 '
 '
-inline
--
-end
+right
 '
 ]
 ]
