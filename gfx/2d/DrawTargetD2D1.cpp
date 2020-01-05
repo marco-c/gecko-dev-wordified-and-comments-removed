@@ -8031,6 +8031,10 @@ bool
 aShouldPreserveContent
 )
 {
+PopAllClips
+(
+)
+;
 if
 (
 !
@@ -8165,10 +8169,6 @@ forget
 }
 else
 {
-PopAllClips
-(
-)
-;
 RefPtr
 <
 ID2D1CommandList
