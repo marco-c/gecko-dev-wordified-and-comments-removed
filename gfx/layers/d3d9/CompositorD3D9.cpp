@@ -998,6 +998,16 @@ aSource
 aSourcePoint
 )
 ;
+if
+(
+!
+texture
+)
+{
+return
+nullptr
+;
+}
 return
 MakeAndAddRef
 <
