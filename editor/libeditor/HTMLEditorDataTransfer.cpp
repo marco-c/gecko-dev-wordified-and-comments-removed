@@ -7146,7 +7146,7 @@ if
 !
 FireClipboardEvent
 (
-ePaste
+ePasteNoFormatting
 aSelectionType
 )
 )

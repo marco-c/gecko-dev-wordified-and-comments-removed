@@ -1046,6 +1046,8 @@ CacheExternalDragFormats
 void
 CacheExternalClipboardFormats
 (
+bool
+aPlainTextOnly
 )
 ;
 FileList

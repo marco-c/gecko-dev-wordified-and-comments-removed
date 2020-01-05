@@ -485,6 +485,10 @@ ePaste
 )
 NS_EVENT_MESSAGE
 (
+ePasteNoFormatting
+)
+NS_EVENT_MESSAGE
+(
 eQuerySelectedText
 )
 NS_EVENT_MESSAGE
