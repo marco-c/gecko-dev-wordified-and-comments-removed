@@ -759,6 +759,11 @@ should_get_glyph_advance
 test
 ]
 ;
+#
+[
+ignore
+]
+;
 let
 lib
 =
@@ -808,6 +813,11 @@ should_get_glyph_advance_stress
 #
 [
 test
+]
+;
+#
+[
+ignore
 ]
 ;
 let

@@ -1020,6 +1020,10 @@ from_px
 [
 test
 ]
+#
+[
+ignore
+]
 fn
 test_iter_indivisible_pieces
 (
