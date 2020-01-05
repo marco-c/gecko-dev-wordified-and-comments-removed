@@ -1253,6 +1253,14 @@ params
 level
 '
 ]
+        
+'
+MOZ_SIMPLE_PACKAGE_NAME
+'
+:
+'
+target
+'
     
 }
 )
