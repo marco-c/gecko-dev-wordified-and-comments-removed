@@ -877,7 +877,7 @@ str
 =
 chars
 .
-start
+begin
 (
 )
 .

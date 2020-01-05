@@ -2378,7 +2378,7 @@ JS_ParseJSONWithReviver
 mCx
 chars
 .
-start
+begin
 (
 )
 .

@@ -4831,7 +4831,7 @@ Char16ToUChar
 (
 chars1
 .
-start
+begin
 (
 )
 .
@@ -4848,7 +4848,7 @@ Char16ToUChar
 (
 chars2
 .
-start
+begin
 (
 )
 .
@@ -6635,7 +6635,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -9648,7 +9648,7 @@ Char16ToUChar
 (
 tzchars
 .
-start
+begin
 (
 )
 .
@@ -9717,7 +9717,7 @@ Char16ToUChar
 (
 tzchars
 .
-start
+begin
 (
 )
 .
@@ -10335,7 +10335,7 @@ Char16ToUChar
 (
 skeletonChars
 .
-start
+begin
 (
 )
 .
@@ -10408,7 +10408,7 @@ Char16ToUChar
 (
 skeletonChars
 .
-start
+begin
 (
 )
 .
@@ -10498,7 +10498,7 @@ Char16ToUChar
 (
 skeletonChars
 .
-start
+begin
 (
 )
 .
@@ -10738,7 +10738,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -10836,7 +10836,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .

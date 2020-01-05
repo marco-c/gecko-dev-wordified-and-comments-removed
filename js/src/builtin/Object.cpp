@@ -675,7 +675,7 @@ start
 =
 chars
 .
-start
+begin
 (
 )
 .

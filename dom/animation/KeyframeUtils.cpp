@@ -5947,14 +5947,14 @@ MOZ_ASSERT
 (
 aRangeToAdjust
 .
-start
+begin
 (
 )
 >
 =
 aSpacingRange
 .
-start
+begin
 (
 )
 &
@@ -6021,7 +6021,7 @@ iter
 =
 aRangeToAdjust
 .
-start
+begin
 (
 )
 ;
@@ -6046,7 +6046,7 @@ iter
 -
 aSpacingRange
 .
-start
+begin
 (
 )
 ;
@@ -6091,7 +6091,7 @@ Keyframe
 (
 aSpacingRange
 .
-start
+begin
 (
 )
 +
@@ -6176,7 +6176,7 @@ distA
 (
 aCumulativeDistances
 .
-start
+begin
 (
 )
 )
@@ -6241,7 +6241,7 @@ pacedA
 =
 aKeyframes
 .
-start
+begin
 (
 )
 ;
@@ -6359,7 +6359,7 @@ iter
 -
 aKeyframes
 .
-start
+begin
 (
 )
 ;

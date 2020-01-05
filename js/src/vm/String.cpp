@@ -7744,7 +7744,7 @@ allowGC
 cx
 utf8
 .
-start
+begin
 (
 )
 .
