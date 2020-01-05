@@ -792,6 +792,9 @@ debug
 opts
 .
 webrender_debug
+enable_recording
+:
+false
 }
 )
 ;

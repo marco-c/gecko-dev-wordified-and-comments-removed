@@ -117,7 +117,9 @@ euclid
 "
 0
 .
-9
+10
+.
+1
 "
 gfx
 =
@@ -230,7 +232,7 @@ offscreen_gl_context
 "
 0
 .
-3
+4
 "
 plugins
 =

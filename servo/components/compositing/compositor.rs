@@ -2082,7 +2082,7 @@ zero
 )
 window_size
 .
-as_f32
+to_f32
 (
 )
 )
@@ -4922,7 +4922,7 @@ self
 .
 window_size
 .
-as_f32
+to_f32
 (
 )
 )
@@ -6315,7 +6315,7 @@ self
 .
 window_size
 .
-as_f32
+to_f32
 (
 )
 /
@@ -7724,7 +7724,7 @@ set_root_layer_size
 (
 new_size
 .
-as_f32
+to_f32
 (
 )
 )
@@ -9530,7 +9530,7 @@ combined_event
 .
 cursor
 .
-as_f32
+to_f32
 (
 )
 /
@@ -9821,7 +9821,7 @@ combined_event
 .
 cursor
 .
-as_f32
+to_f32
 (
 )
 /
@@ -9899,7 +9899,7 @@ event
 .
 cursor
 .
-as_f32
+to_f32
 (
 )
 /
@@ -10367,7 +10367,7 @@ self
 .
 window_size
 .
-as_f32
+to_f32
 (
 )
 /
@@ -11092,7 +11092,7 @@ self
 .
 window_size
 .
-as_f32
+to_f32
 (
 )
 )
@@ -14064,12 +14064,12 @@ new
 (
 point
 .
-as_f32
+to_f32
 (
 )
 size
 .
-as_f32
+to_f32
 (
 )
 )
@@ -14091,7 +14091,7 @@ self
 .
 window_size
 .
-as_f32
+to_f32
 (
 )
 )

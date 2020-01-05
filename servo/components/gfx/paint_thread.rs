@@ -458,7 +458,7 @@ transform
 =
 transform
 .
-mul
+pre_mul
 (
 &
 stacking_context
@@ -471,7 +471,7 @@ perspective
 =
 perspective
 .
-mul
+pre_mul
 (
 &
 stacking_context
@@ -1319,7 +1319,7 @@ parent_origin
 &
 transform
 .
-mul
+pre_mul
 (
 &
 stacking_context
@@ -1329,7 +1329,7 @@ transform
 &
 perspective
 .
-mul
+pre_mul
 (
 &
 stacking_context
@@ -3634,7 +3634,7 @@ matrix
 =
 matrix
 .
-scale
+pre_scaled
 (
 scale
 as
@@ -3667,7 +3667,7 @@ matrix
 =
 matrix
 .
-translate
+pre_translated
 (
 -
 tile_bounds

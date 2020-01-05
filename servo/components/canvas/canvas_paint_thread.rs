@@ -5137,7 +5137,7 @@ identity
 (
 )
 .
-translate
+pre_translated
 (
 -
 source_rect
@@ -5157,7 +5157,7 @@ as
 AzFloat
 )
 .
-mul
+pre_mul
 (
 &
 self

@@ -734,7 +734,7 @@ self
 .
 screen_rect
 .
-as_f32
+to_f32
 (
 )
 .
@@ -1573,7 +1573,7 @@ identity
 (
 )
 .
-translate
+pre_translated
 (
 dest_rect
 .
@@ -8729,13 +8729,13 @@ set_transform
 &
 draw_target_transform
 .
-mul
+pre_mul
 (
 &
 Matrix2D
 :
 :
-new
+row_major
 (
 0
 .
@@ -8794,13 +8794,13 @@ set_transform
 &
 draw_target_transform
 .
-mul
+pre_mul
 (
 &
 Matrix2D
 :
 :
-new
+row_major
 (
 0
 .
@@ -9287,7 +9287,7 @@ identity
 (
 )
 .
-translate
+pre_translated
 (
 -
 temporary_draw_target_bounds
@@ -9307,7 +9307,7 @@ as
 AzFloat
 )
 .
-mul
+pre_mul
 (
 &
 old_transform
@@ -12491,7 +12491,7 @@ identity
 (
 )
 .
-translate
+pre_translated
 (
 -
 temporary_draw_target_bounds
@@ -12511,7 +12511,7 @@ as
 AzFloat
 )
 .
-mul
+pre_mul
 (
 &
 draw_target_transform
