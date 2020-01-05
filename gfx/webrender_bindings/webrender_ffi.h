@@ -718,6 +718,9 @@ WR_INLINE
 define
 WR_FUNC
 #
+define
+WR_DESTRUCTOR_SAFE_FUNC
+#
 else
 #
 define
@@ -735,6 +738,11 @@ disabled
 "
 )
 ;
+}
+#
+define
+WR_DESTRUCTOR_SAFE_FUNC
+{
 }
 #
 endif
@@ -809,7 +817,7 @@ WrRenderer
 *
 renderer
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 void
@@ -861,7 +869,7 @@ WrAPI
 *
 api
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 WrImageKey
@@ -980,7 +988,7 @@ api
 uintptr_t
 evt
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 void
@@ -1070,7 +1078,7 @@ WrState
 *
 state
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 void
@@ -1435,6 +1443,9 @@ WR_FUNC
 #
 undef
 WR_FUNC
+#
+undef
+WR_DESTRUCTOR_SAFE_FUNC
 }
 #
 endif

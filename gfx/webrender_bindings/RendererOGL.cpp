@@ -195,16 +195,11 @@ MOZ_COUNT_DTOR
 RendererOGL
 )
 ;
-#
-ifdef
-MOZ_ENABLE_WEBRENDER
 wr_renderer_delete
 (
 mWrRenderer
 )
 ;
-#
-endif
 }
 void
 RendererOGL
