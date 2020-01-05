@@ -184,12 +184,6 @@ profile_traits
 :
 :
 time
-:
-:
-{
-self
-profile
-}
 ;
 use
 rand
