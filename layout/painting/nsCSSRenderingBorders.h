@@ -408,9 +408,6 @@ aStyle
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 )
@@ -419,9 +416,6 @@ bool
 IsCornerMergeable
 (
 mozilla
-:
-:
-css
 :
 :
 Corner
@@ -436,9 +430,6 @@ aStyle
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 )
@@ -447,9 +438,6 @@ Rect
 GetCornerRect
 (
 mozilla
-:
-:
-css
 :
 :
 Corner
@@ -490,9 +478,6 @@ aSide
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 bool
@@ -510,9 +495,6 @@ Bezier
 *
 aInnerBezier
 mozilla
-:
-:
-css
 :
 :
 Corner
@@ -617,9 +599,6 @@ aSide
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 )
@@ -633,9 +612,6 @@ mozilla
 Side
 aSide
 mozilla
-:
-:
-css
 :
 :
 Corner
@@ -653,9 +629,6 @@ aSide
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 )
@@ -669,9 +642,6 @@ mozilla
 Side
 aSide
 mozilla
-:
-:
-css
 :
 :
 Corner

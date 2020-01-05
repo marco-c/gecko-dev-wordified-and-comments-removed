@@ -145,12 +145,6 @@ const
 Bezier
 &
 aInnerBezier
-mozilla
-:
-:
-css
-:
-:
 Corner
 aCorner
 Float

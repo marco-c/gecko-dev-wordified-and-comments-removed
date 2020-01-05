@@ -130,9 +130,6 @@ aBezier
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 const
