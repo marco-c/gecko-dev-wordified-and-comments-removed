@@ -530,6 +530,10 @@ nsContainerFrame
 aContext
 aType
 )
+mBaseline
+(
+NS_INTRINSIC_WIDTH_UNKNOWN
+)
 {
 }
 explicit
