@@ -1771,7 +1771,7 @@ hint
 is
 ignored
 .
-sync
+async
 PLayerTransaction
 (
 LayersBackend
@@ -1780,13 +1780,6 @@ LayersBackend
 layersBackendHints
 uint64_t
 id
-)
-returns
-(
-TextureFactoryIdentifier
-textureFactoryIdentifier
-bool
-success
 )
 ;
 /

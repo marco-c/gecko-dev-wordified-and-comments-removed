@@ -2245,12 +2245,6 @@ const
 uint64_t
 &
 aId
-TextureFactoryIdentifier
-*
-aTextureFactoryIdentifier
-bool
-*
-aSuccess
 )
 override
 ;
