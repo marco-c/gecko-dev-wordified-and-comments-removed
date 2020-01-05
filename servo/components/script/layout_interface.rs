@@ -5,7 +5,7 @@ dom
 node
 :
 :
-LayoutDataRef
+LayoutData
 ;
 use
 geom
@@ -149,7 +149,7 @@ Send
 )
 ReapLayoutData
 (
-LayoutDataRef
+LayoutData
 )
 PrepareToExit
 (
