@@ -1037,6 +1037,7 @@ gRequireInteraction
 {
 if
 (
+!
 Services
 .
 prefs
@@ -1044,9 +1045,11 @@ prefs
 getBoolPref
 (
 "
-alerts
+toolkit
 .
-disableSlidingEffect
+cosmeticAnimations
+.
+enabled
 "
 )
 )

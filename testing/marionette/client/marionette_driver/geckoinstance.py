@@ -2785,11 +2785,11 @@ page
 0
         
 "
-browser
+toolkit
 .
-tabs
+cosmeticAnimations
 .
-animate
+enabled
 "
 :
 False

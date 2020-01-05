@@ -81,11 +81,11 @@ set
 [
 [
 "
-browser
+toolkit
 .
-tabs
+cosmeticAnimations
 .
-animate
+enabled
 "
 false
 ]
