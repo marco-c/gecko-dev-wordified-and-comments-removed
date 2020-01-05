@@ -365,13 +365,6 @@ parent
 init
 (
 )
-.
-catch
-(
-Cu
-.
-reportError
-)
 ;
 Services
 .
