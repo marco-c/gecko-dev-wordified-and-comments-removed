@@ -17,6 +17,9 @@ IntermNode
 h
 "
 namespace
+sh
+{
+namespace
 {
 class
 AliasingBreaker
@@ -251,9 +254,6 @@ mLoopLevel
 }
 ;
 }
-namespace
-sh
-{
 void
 BreakVariableAliasingInInnerLoops
 (

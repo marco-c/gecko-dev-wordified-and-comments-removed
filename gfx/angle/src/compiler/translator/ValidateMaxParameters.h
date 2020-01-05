@@ -15,6 +15,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 ValidateMaxParameters
 :
@@ -66,5 +69,6 @@ mValid
 ;
 }
 ;
+}
 #
 endif

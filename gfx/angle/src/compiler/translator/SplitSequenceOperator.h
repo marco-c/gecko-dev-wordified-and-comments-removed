@@ -4,6 +4,9 @@ COMPILER_TRANSLATOR_SPLITSEQUENCEOPERATOR_H_
 #
 define
 COMPILER_TRANSLATOR_SPLITSEQUENCEOPERATOR_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -30,5 +33,6 @@ int
 shaderVersion
 )
 ;
+}
 #
 endif

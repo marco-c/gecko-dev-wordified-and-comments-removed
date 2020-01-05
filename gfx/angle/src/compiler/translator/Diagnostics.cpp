@@ -51,6 +51,9 @@ InfoSink
 .
 h
 "
+namespace
+sh
+{
 TDiagnostics
 :
 :
@@ -391,4 +394,5 @@ text
 "
 )
 ;
+}
 }

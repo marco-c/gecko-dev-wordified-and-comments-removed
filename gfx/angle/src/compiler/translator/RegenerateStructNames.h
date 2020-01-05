@@ -31,6 +31,9 @@ include
 <
 set
 >
+namespace
+sh
+{
 class
 RegenerateStructNames
 :
@@ -80,11 +83,12 @@ TIntermSymbol
 override
 ;
 bool
-visitAggregate
+visitBlock
 (
 Visit
-TIntermAggregate
+TIntermBlock
 *
+block
 )
 override
 ;
@@ -112,5 +116,6 @@ mDeclaredGlobalStructs
 ;
 }
 ;
+}
 #
 endif

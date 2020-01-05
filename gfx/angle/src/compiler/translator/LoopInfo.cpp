@@ -10,6 +10,9 @@ LoopInfo
 h
 "
 namespace
+sh
+{
+namespace
 {
 int
 EvaluateIntConstant
@@ -336,7 +339,7 @@ getInit
 )
 -
 >
-getAsAggregate
+getAsDeclarationNode
 (
 )
 -
@@ -910,4 +913,5 @@ pop_back
 (
 )
 ;
+}
 }

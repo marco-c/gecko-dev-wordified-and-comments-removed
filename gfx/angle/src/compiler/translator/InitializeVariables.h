@@ -13,8 +13,14 @@ ShaderLang
 .
 h
 >
+namespace
+sh
+{
 class
 TIntermNode
+;
+class
+TSymbolTable
 ;
 typedef
 std
@@ -39,7 +45,12 @@ const
 InitVariableList
 &
 vars
+const
+TSymbolTable
+&
+symbolTable
 )
 ;
+}
 #
 endif

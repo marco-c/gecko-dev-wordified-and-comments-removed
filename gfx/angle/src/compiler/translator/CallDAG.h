@@ -31,6 +31,9 @@ VariableInfo
 .
 h
 "
+namespace
+sh
+{
 class
 CallDAG
 :
@@ -59,7 +62,7 @@ std
 string
 name
 ;
-TIntermAggregate
+TIntermFunctionDefinition
 *
 node
 ;
@@ -97,9 +100,9 @@ size_t
 findIndex
 (
 const
-TIntermAggregate
+TFunctionSymbolInfo
 *
-function
+functionInfo
 )
 const
 ;
@@ -167,5 +170,6 @@ CallDAGCreator
 ;
 }
 ;
+}
 #
 endif

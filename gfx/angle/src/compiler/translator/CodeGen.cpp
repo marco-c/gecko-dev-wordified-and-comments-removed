@@ -46,6 +46,9 @@ h
 "
 #
 endif
+namespace
+sh
+{
 TCompiler
 *
 ConstructCompiler
@@ -182,7 +185,10 @@ TCompiler
 compiler
 )
 {
-delete
+SafeDelete
+(
 compiler
+)
 ;
+}
 }

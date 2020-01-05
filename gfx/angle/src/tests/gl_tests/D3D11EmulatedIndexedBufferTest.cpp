@@ -195,6 +195,7 @@ rx
 :
 Buffer11
 (
+mBufferState
 mRenderer
 )
 ;
@@ -773,6 +774,12 @@ GLushort
 >
 mushortIndices
 ;
+gl
+:
+:
+BufferState
+mBufferState
+;
 }
 ;
 TEST_P
@@ -907,6 +914,12 @@ D3D11EmulatedIndexedBufferTest
 TestSourceBufferRemainsUntouchedAfterExpandOperation
 )
 {
+gl
+:
+:
+BufferState
+cleanSourceState
+;
 rx
 :
 :
@@ -920,6 +933,7 @@ rx
 :
 Buffer11
 (
+cleanSourceState
 mRenderer
 )
 ;

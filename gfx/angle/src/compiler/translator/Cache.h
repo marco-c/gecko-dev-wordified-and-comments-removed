@@ -45,6 +45,9 @@ PoolAlloc
 .
 h
 "
+namespace
+sh
+{
 class
 TCache
 {
@@ -271,5 +274,6 @@ sCache
 ;
 }
 ;
+}
 #
 endif

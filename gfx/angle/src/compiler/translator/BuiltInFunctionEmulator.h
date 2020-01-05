@@ -26,6 +26,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 BuiltInFunctionEmulator
 {
@@ -311,5 +314,6 @@ mFunctions
 ;
 }
 ;
+}
 #
 endif

@@ -8,11 +8,8 @@ enum
 TOperator
 {
 EOpNull
-EOpSequence
 EOpFunctionCall
-EOpFunction
 EOpParameters
-EOpDeclaration
 EOpInvariantDeclaration
 EOpPrototype
 EOpNegative
@@ -54,7 +51,6 @@ EOpIndexDirect
 EOpIndexIndirect
 EOpIndexDirectStruct
 EOpIndexDirectInterfaceBlock
-EOpVectorSwizzle
 EOpRadians
 EOpDegrees
 EOpSin

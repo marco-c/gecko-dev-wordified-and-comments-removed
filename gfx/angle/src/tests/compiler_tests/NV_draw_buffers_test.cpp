@@ -34,6 +34,10 @@ compiler_test
 .
 h
 "
+using
+namespace
+sh
+;
 class
 NVDrawBuffersTest
 :

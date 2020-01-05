@@ -217,6 +217,15 @@ GLenum
 wrap
 )
 ;
+UINT
+ConvertMaxAnisotropy
+(
+float
+maxAnisotropy
+D3D_FEATURE_LEVEL
+featureLevel
+)
+;
 D3D11_QUERY
 ConvertQueryType
 (

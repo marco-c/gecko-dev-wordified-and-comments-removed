@@ -51,6 +51,13 @@ public
 :
 Buffer9
 (
+const
+gl
+:
+:
+BufferState
+&
+state
 Renderer9
 *
 renderer

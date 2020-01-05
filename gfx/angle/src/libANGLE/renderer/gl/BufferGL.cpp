@@ -109,6 +109,13 @@ BufferGL
 BufferGL
 (
 const
+gl
+:
+:
+BufferState
+&
+state
+const
 FunctionsGL
 *
 functions
@@ -119,6 +126,7 @@ stateManager
 :
 BufferImpl
 (
+state
 )
 mIsMapped
 (

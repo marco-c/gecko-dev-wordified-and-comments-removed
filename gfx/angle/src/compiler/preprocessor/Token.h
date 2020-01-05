@@ -17,6 +17,10 @@ string
 #
 include
 "
+compiler
+/
+preprocessor
+/
 SourceLocation
 .
 h
@@ -285,7 +289,6 @@ rhs
 )
 ;
 }
-extern
 std
 :
 :

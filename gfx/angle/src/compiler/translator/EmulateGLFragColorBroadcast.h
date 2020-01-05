@@ -15,7 +15,6 @@ sh
 struct
 OutputVariable
 ;
-}
 class
 TIntermNode
 ;
@@ -32,14 +31,12 @@ std
 :
 vector
 <
-sh
-:
-:
 OutputVariable
 >
 *
 outputVariables
 )
 ;
+}
 #
 endif

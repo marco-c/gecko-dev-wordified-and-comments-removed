@@ -858,6 +858,10 @@ getStateManager
 (
 )
 )
+mRenderer
+(
+renderer
+)
 mWorkarounds
 (
 renderer
@@ -1786,6 +1790,12 @@ mFramebuffer
 state
 mFunctions
 mWorkarounds
+mRenderer
+-
+>
+getBlitter
+(
+)
 mStateManager
 )
 ;

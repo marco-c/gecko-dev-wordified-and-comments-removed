@@ -4,6 +4,9 @@ COMPILER_TRANSLATOR_INITIALIZEPARSECONTEXT_H_
 #
 define
 COMPILER_TRANSLATOR_INITIALIZEPARSECONTEXT_H_
+namespace
+sh
+{
 bool
 InitializeParseContextIndex
 (
@@ -33,5 +36,6 @@ GetGlobalParseContext
 (
 )
 ;
+}
 #
 endif

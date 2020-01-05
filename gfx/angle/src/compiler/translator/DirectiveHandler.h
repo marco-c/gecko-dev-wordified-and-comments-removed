@@ -55,6 +55,9 @@ ShaderLang
 .
 h
 "
+namespace
+sh
+{
 class
 TDiagnostics
 ;
@@ -242,5 +245,6 @@ mDebugShaderPrecisionSupported
 ;
 }
 ;
+}
 #
 endif

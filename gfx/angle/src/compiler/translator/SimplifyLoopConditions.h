@@ -4,6 +4,9 @@ COMPILER_TRANSLATOR_SIMPLIFYLOOPCONDITIONS_H_
 #
 define
 COMPILER_TRANSLATOR_SIMPLIFYLOOPCONDITIONS_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -31,5 +34,6 @@ int
 shaderVersion
 )
 ;
+}
 #
 endif

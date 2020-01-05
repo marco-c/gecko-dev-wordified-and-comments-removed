@@ -165,6 +165,10 @@ compareFunc
 (
 GL_LEQUAL
 )
+sRGBDecode
+(
+GL_DECODE_EXT
+)
 {
 }
 SamplerState

@@ -15,6 +15,9 @@ Compiler
 .
 h
 "
+namespace
+sh
+{
 class
 TranslatorHLSL
 :
@@ -154,5 +157,6 @@ mUniformRegisterMap
 ;
 }
 ;
+}
 #
 endif

@@ -39,6 +39,10 @@ TranslatorGLSL
 .
 h
 "
+using
+namespace
+sh
+;
 #
 define
 EXPECT_GLENUM_EQ
@@ -51,6 +55,8 @@ EXPECT_EQ
 (
 static_cast
 <
+:
+:
 GLenum
 >
 (
@@ -58,6 +64,8 @@ expected
 )
 static_cast
 <
+:
+:
 GLenum
 >
 (
@@ -77,6 +85,8 @@ public
 :
 CollectVariablesTest
 (
+:
+:
 GLenum
 shaderType
 )
@@ -98,7 +108,7 @@ override
 ShBuiltInResources
 resources
 ;
-ShInitBuiltInResources
+InitBuiltInResources
 (
 &
 resources
@@ -196,9 +206,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Uniform
 >
 &
@@ -222,9 +229,6 @@ size
 )
 ;
 const
-sh
-:
-:
 Uniform
 &
 uniform
@@ -430,9 +434,6 @@ char
 *
 varName
 const
-sh
-:
-:
 OutputVariable
 *
 *
@@ -504,9 +505,6 @@ size
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 &
 outputVariable
@@ -588,6 +586,8 @@ SH_VARIABLES
 )
 ;
 }
+:
+:
 GLenum
 mShaderType
 ;
@@ -736,9 +736,6 @@ size
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 &
 outputVariable
@@ -899,9 +896,6 @@ size
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 &
 outputVariable
@@ -1031,9 +1025,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Attribute
 >
 &
@@ -1057,9 +1048,6 @@ size
 )
 ;
 const
-sh
-:
-:
 Attribute
 &
 attribute
@@ -1205,9 +1193,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 &
@@ -1231,9 +1216,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlock
 &
 interfaceBlock
@@ -1260,9 +1242,6 @@ isRowMajorLayout
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 BLOCKLAYOUT_SHARED
 interfaceBlock
 .
@@ -1299,9 +1278,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlockField
 &
 field
@@ -1454,9 +1430,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 &
@@ -1480,9 +1453,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlock
 &
 interfaceBlock
@@ -1509,9 +1479,6 @@ isRowMajorLayout
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 BLOCKLAYOUT_SHARED
 interfaceBlock
 .
@@ -1558,9 +1525,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlockField
 &
 field
@@ -1722,9 +1686,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 &
@@ -1748,9 +1709,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlock
 &
 interfaceBlock
@@ -1777,9 +1735,6 @@ isRowMajorLayout
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 BLOCKLAYOUT_SHARED
 interfaceBlock
 .
@@ -1816,9 +1771,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlockField
 &
 field
@@ -1864,9 +1816,6 @@ isRowMajorLayout
 )
 ;
 const
-sh
-:
-:
 ShaderVariable
 &
 member
@@ -2015,9 +1964,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 &
@@ -2041,9 +1987,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlock
 &
 interfaceBlock
@@ -2070,9 +2013,6 @@ isRowMajorLayout
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 BLOCKLAYOUT_SHARED
 interfaceBlock
 .
@@ -2119,9 +2059,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlockField
 &
 field
@@ -2167,9 +2104,6 @@ isRowMajorLayout
 )
 ;
 const
-sh
-:
-:
 ShaderVariable
 &
 member
@@ -2310,9 +2244,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 &
@@ -2336,9 +2267,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlock
 &
 interfaceBlock
@@ -2365,9 +2293,6 @@ isRowMajorLayout
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 BLOCKLAYOUT_SHARED
 interfaceBlock
 .
@@ -2404,9 +2329,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlockField
 &
 field
@@ -2452,9 +2374,6 @@ isRowMajorLayout
 )
 ;
 const
-sh
-:
-:
 ShaderVariable
 &
 member
@@ -2590,9 +2509,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Varying
 >
 &
@@ -2616,9 +2532,6 @@ size
 )
 ;
 const
-sh
-:
-:
 Varying
 *
 varying
@@ -2699,9 +2612,6 @@ name
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 INTERPOLATION_CENTROID
 varying
 -
@@ -2893,9 +2803,6 @@ n
 "
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -3060,9 +2967,6 @@ resources
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -3190,9 +3094,6 @@ resources
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -3318,9 +3219,6 @@ resources
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -3447,9 +3345,6 @@ resources
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -3619,9 +3514,6 @@ resources
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -3886,9 +3778,6 @@ resources
 )
 ;
 const
-sh
-:
-:
 OutputVariable
 *
 outputVariable
@@ -4027,7 +3916,10 @@ override
 ShBuiltInResources
 resources
 ;
-ShInitBuiltInResources
+sh
+:
+:
+InitBuiltInResources
 (
 &
 resources
@@ -4136,9 +4028,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 &
@@ -4162,9 +4051,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlock
 &
 interfaceBlock
@@ -4191,9 +4077,6 @@ isRowMajorLayout
 ;
 EXPECT_EQ
 (
-sh
-:
-:
 BLOCKLAYOUT_SHARED
 interfaceBlock
 .
@@ -4250,9 +4133,6 @@ size
 )
 ;
 const
-sh
-:
-:
 InterfaceBlockField
 &
 field
@@ -4437,9 +4317,6 @@ size
 )
 ;
 const
-sh
-:
-:
 Uniform
 &
 uniform
@@ -4497,9 +4374,6 @@ size
 )
 ;
 const
-sh
-:
-:
 ShaderVariable
 &
 field

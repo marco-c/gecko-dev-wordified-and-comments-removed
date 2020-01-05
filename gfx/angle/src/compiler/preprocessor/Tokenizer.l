@@ -193,6 +193,10 @@ endif
 #
 include
 "
+compiler
+/
+preprocessor
+/
 Tokenizer
 .
 h
@@ -200,6 +204,10 @@ h
 #
 include
 "
+compiler
+/
+preprocessor
+/
 DiagnosticsBase
 .
 h
@@ -207,6 +215,10 @@ h
 #
 include
 "
+compiler
+/
+preprocessor
+/
 Token
 .
 h
@@ -1929,7 +1941,7 @@ diagnostics
 :
 mHandle
 (
-0
+nullptr
 )
 mMaxTokenSize
 (
@@ -2219,7 +2231,7 @@ if
 mHandle
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -2257,7 +2269,7 @@ if
 mHandle
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -2268,7 +2280,7 @@ mHandle
 ;
 mHandle
 =
-NULL
+nullptr
 ;
 }
 }

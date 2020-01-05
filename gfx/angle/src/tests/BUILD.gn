@@ -68,9 +68,9 @@ third_party
 /
 angle
 /
-build
+gni
 /
-angle_common
+angle
 .
 gni
 "
@@ -268,7 +268,7 @@ third_party
 /
 angle
 :
-translator_static
+translator
 "
 ]
 }
@@ -613,7 +613,7 @@ third_party
 /
 angle
 :
-translator_static
+translator
 "
 ]
 }

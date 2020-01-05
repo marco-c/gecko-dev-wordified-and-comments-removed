@@ -15,6 +15,9 @@ LoopInfo
 .
 h
 "
+namespace
+sh
+{
 class
 ForLoopUnrollMarker
 :
@@ -120,5 +123,6 @@ mHasRunLoopValidation
 ;
 }
 ;
+}
 #
 endif

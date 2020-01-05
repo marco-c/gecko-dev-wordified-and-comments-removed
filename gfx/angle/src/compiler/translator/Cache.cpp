@@ -33,6 +33,9 @@ Cache
 h
 "
 namespace
+sh
+{
+namespace
 {
 class
 TScopedAllocator
@@ -144,11 +147,6 @@ EnumComponentType
 :
 max
 (
-)
-;
-UNUSED_ASSERTION_VARIABLE
-(
-MaxEnumValue
 )
 ;
 ASSERT
@@ -401,4 +399,5 @@ type
 return
 type
 ;
+}
 }

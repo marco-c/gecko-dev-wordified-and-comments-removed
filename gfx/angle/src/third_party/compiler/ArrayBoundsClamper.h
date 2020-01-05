@@ -26,6 +26,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 ArrayBoundsClamper
 {
@@ -99,5 +102,6 @@ mArrayBoundsClampDefinitionNeeded
 ;
 }
 ;
+}
 #
 endif

@@ -9,6 +9,9 @@ ValidateMaxParameters
 .
 h
 "
+namespace
+sh
+{
 ValidateMaxParameters
 :
 :
@@ -129,4 +132,5 @@ argsTraverser
 .
 mValid
 ;
+}
 }

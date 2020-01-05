@@ -304,6 +304,10 @@ StateManagerGL
 *
 mStateManager
 ;
+RendererGL
+*
+mRenderer
+;
 const
 WorkaroundsGL
 &

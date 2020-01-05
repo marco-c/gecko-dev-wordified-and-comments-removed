@@ -25,6 +25,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 TExtensionGLSL
 :
@@ -134,5 +137,6 @@ mRequiredExtensions
 ;
 }
 ;
+}
 #
 endif

@@ -105,7 +105,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .

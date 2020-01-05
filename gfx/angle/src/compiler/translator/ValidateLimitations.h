@@ -26,6 +26,9 @@ LoopInfo
 .
 h
 "
+namespace
+sh
+{
 class
 TInfoSinkBase
 ;
@@ -246,5 +249,6 @@ mValidateInnerLoops
 ;
 }
 ;
+}
 #
 endif

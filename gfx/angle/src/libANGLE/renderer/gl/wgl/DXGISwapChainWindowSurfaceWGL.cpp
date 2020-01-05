@@ -181,6 +181,10 @@ getWorkarounds
 (
 )
 )
+mRenderer
+(
+renderer
+)
 mFunctionsGL
 (
 functionsGL
@@ -1384,6 +1388,12 @@ mFramebufferID
 data
 mFunctionsGL
 mWorkarounds
+mRenderer
+-
+>
+getBlitter
+(
+)
 mStateManager
 )
 ;

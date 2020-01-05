@@ -113,6 +113,8 @@ eglCreateStreamProducerD3DTextureNV12ANGLE
 64
 eglStreamPostD3DTextureNV12ANGLE
 65
+eglSwapBuffersWithDamageEXT
+66
 ;
 1
 .

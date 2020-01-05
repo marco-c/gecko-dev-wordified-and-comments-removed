@@ -21,6 +21,9 @@ ParseContext
 h
 "
 namespace
+sh
+{
+namespace
 {
 class
 ValidateGlobalInitializerTraverser
@@ -426,4 +429,5 @@ isValid
 (
 )
 ;
+}
 }

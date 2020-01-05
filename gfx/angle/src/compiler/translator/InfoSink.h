@@ -29,6 +29,9 @@ Common
 .
 h
 "
+namespace
+sh
+{
 inline
 float
 fractionalPart
@@ -481,5 +484,6 @@ obj
 ;
 }
 ;
+}
 #
 endif

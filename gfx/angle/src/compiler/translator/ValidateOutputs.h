@@ -31,6 +31,9 @@ include
 <
 set
 >
+namespace
+sh
+{
 class
 TInfoSinkBase
 ;
@@ -108,5 +111,6 @@ mVisitedSymbols
 ;
 }
 ;
+}
 #
 endif

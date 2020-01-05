@@ -24,6 +24,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 UnfoldShortCircuitAST
 :
@@ -56,5 +59,6 @@ override
 ;
 }
 ;
+}
 #
 endif

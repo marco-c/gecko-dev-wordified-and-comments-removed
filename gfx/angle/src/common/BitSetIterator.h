@@ -533,11 +533,6 @@ ret
 0
 )
 ;
-UNUSED_ASSERTION_VARIABLE
-(
-ret
-)
-;
 return
 firstBitIndex
 ;

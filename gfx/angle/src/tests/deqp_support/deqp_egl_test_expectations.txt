@@ -493,7 +493,7 @@ window
 .
 rgb565_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -511,7 +511,7 @@ window
 .
 rgb565_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -529,7 +529,7 @@ window
 .
 rgb565_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -547,7 +547,7 @@ window
 .
 rgb888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -565,7 +565,7 @@ window
 .
 rgb888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -583,7 +583,7 @@ window
 .
 rgb888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -601,7 +601,7 @@ window
 .
 rgba4444_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -619,7 +619,7 @@ window
 .
 rgba4444_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -637,7 +637,7 @@ window
 .
 rgba4444_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -655,7 +655,7 @@ window
 .
 rgba5551_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -673,7 +673,7 @@ window
 .
 rgba5551_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -691,7 +691,7 @@ window
 .
 rgba5551_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -709,7 +709,7 @@ window
 .
 rgba8888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -727,7 +727,7 @@ window
 .
 rgba8888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -745,7 +745,7 @@ window
 .
 rgba8888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -763,7 +763,7 @@ pbuffer
 .
 rgb565_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -781,7 +781,7 @@ pbuffer
 .
 rgb565_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -799,7 +799,7 @@ pbuffer
 .
 rgb565_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -817,7 +817,7 @@ pbuffer
 .
 rgb888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -835,7 +835,7 @@ pbuffer
 .
 rgb888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -853,7 +853,7 @@ pbuffer
 .
 rgb888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -871,7 +871,7 @@ pbuffer
 .
 rgba4444_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -889,7 +889,7 @@ pbuffer
 .
 rgba4444_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -907,7 +907,7 @@ pbuffer
 .
 rgba4444_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -925,7 +925,7 @@ pbuffer
 .
 rgba5551_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -943,7 +943,7 @@ pbuffer
 .
 rgba5551_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -961,7 +961,7 @@ pbuffer
 .
 rgba5551_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -979,7 +979,7 @@ pbuffer
 .
 rgba8888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -997,7 +997,7 @@ pbuffer
 .
 rgba8888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1015,7 +1015,7 @@ pbuffer
 .
 rgba8888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1033,7 +1033,7 @@ window
 .
 rgb565_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1051,7 +1051,7 @@ window
 .
 rgb565_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1069,7 +1069,7 @@ window
 .
 rgb565_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1087,7 +1087,7 @@ window
 .
 rgb888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1105,7 +1105,7 @@ window
 .
 rgb888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1123,7 +1123,7 @@ window
 .
 rgb888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1141,7 +1141,7 @@ window
 .
 rgba4444_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1159,7 +1159,7 @@ window
 .
 rgba4444_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1177,7 +1177,7 @@ window
 .
 rgba4444_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1195,7 +1195,7 @@ window
 .
 rgba5551_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1213,7 +1213,7 @@ window
 .
 rgba5551_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1231,7 +1231,7 @@ window
 .
 rgba5551_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1249,7 +1249,7 @@ window
 .
 rgba8888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1267,7 +1267,7 @@ window
 .
 rgba8888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1285,7 +1285,7 @@ window
 .
 rgba8888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1303,7 +1303,7 @@ pbuffer
 .
 rgb565_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1321,7 +1321,7 @@ pbuffer
 .
 rgb565_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1339,7 +1339,7 @@ pbuffer
 .
 rgb565_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1357,7 +1357,7 @@ pbuffer
 .
 rgb888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1375,7 +1375,7 @@ pbuffer
 .
 rgb888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1393,7 +1393,7 @@ pbuffer
 .
 rgb888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1411,7 +1411,7 @@ pbuffer
 .
 rgba4444_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1429,7 +1429,7 @@ pbuffer
 .
 rgba4444_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1447,7 +1447,7 @@ pbuffer
 .
 rgba4444_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1465,7 +1465,7 @@ pbuffer
 .
 rgba5551_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1483,7 +1483,7 @@ pbuffer
 .
 rgba5551_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1501,7 +1501,7 @@ pbuffer
 .
 rgba5551_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1519,7 +1519,7 @@ pbuffer
 .
 rgba8888_no_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1537,7 +1537,7 @@ pbuffer
 .
 rgba8888_depth_no_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -1555,7 +1555,7 @@ pbuffer
 .
 rgba8888_depth_stencil
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -2953,7 +2953,7 @@ negative_api
 .
 choose_config
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -2981,7 +2981,7 @@ negative_api
 .
 surface_attrib
 =
-FAIL
+SKIP
 1340
 WIN
 :
@@ -4182,3 +4182,71 @@ extension
 egl_ext_platform_base
 =
 FAIL
+1340
+WIN
+:
+dEQP
+-
+EGL
+.
+functional
+.
+preserve_swap
+.
+preserve
+.
+no_read_before_swap
+.
+*
+=
+SKIP
+1340
+WIN
+:
+dEQP
+-
+EGL
+.
+functional
+.
+preserve_swap
+.
+preserve
+.
+read_before_swap
+.
+*
+=
+SKIP
+1340
+WIN
+:
+dEQP
+-
+EGL
+.
+functional
+.
+resize
+.
+back_buffer
+.
+*
+=
+SKIP
+1340
+WIN
+:
+dEQP
+-
+EGL
+.
+functional
+.
+resize
+.
+pixel_density
+.
+*
+=
+SKIP

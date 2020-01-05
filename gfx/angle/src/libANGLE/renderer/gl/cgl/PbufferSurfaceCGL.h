@@ -219,10 +219,9 @@ StateManagerGL
 *
 mStateManager
 ;
-const
-WorkaroundsGL
-&
-mWorkarounds
+RendererGL
+*
+mRenderer
 ;
 GLuint
 mFramebuffer

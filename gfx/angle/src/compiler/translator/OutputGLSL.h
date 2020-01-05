@@ -15,6 +15,9 @@ OutputGLSLBase
 .
 h
 "
+namespace
+sh
+{
 class
 TOutputGLSL
 :
@@ -38,10 +41,17 @@ nameMap
 TSymbolTable
 &
 symbolTable
+sh
+:
+:
+GLenum
+shaderType
 int
 shaderVersion
 ShShaderOutput
 output
+ShCompileOptions
+compileOptions
 )
 ;
 protected
@@ -73,5 +83,6 @@ override
 ;
 }
 ;
+}
 #
 endif

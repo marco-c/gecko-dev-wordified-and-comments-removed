@@ -15,6 +15,9 @@ OutputGLSLBase
 .
 h
 "
+namespace
+sh
+{
 class
 TOutputESSL
 :
@@ -38,10 +41,17 @@ nameMap
 TSymbolTable
 &
 symbolTable
+sh
+:
+:
+GLenum
+shaderType
 int
 shaderVersion
 bool
 forceHighp
+ShCompileOptions
+compileOptions
 )
 ;
 protected
@@ -61,5 +71,6 @@ mForceHighp
 ;
 }
 ;
+}
 #
 endif

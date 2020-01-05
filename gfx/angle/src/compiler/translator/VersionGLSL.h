@@ -26,6 +26,9 @@ Pragma
 .
 h
 "
+namespace
+sh
+{
 static
 const
 int
@@ -167,6 +170,16 @@ TIntermAggregate
 )
 override
 ;
+bool
+visitDeclaration
+(
+Visit
+TIntermDeclaration
+*
+node
+)
+override
+;
 private
 :
 void
@@ -181,5 +194,6 @@ mVersion
 ;
 }
 ;
+}
 #
 endif

@@ -400,8 +400,6 @@ test
 .
 type
 )
-*
-typeSize
 ;
 glBindBuffer
 (

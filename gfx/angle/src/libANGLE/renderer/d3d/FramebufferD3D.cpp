@@ -1147,7 +1147,9 @@ implementationFormat
 return
 implementationFormatInfo
 .
-format
+getReadPixelsFormat
+(
+)
 ;
 }
 GLenum
@@ -1246,7 +1248,9 @@ implementationFormat
 return
 implementationFormatInfo
 .
-type
+getReadPixelsType
+(
+)
 ;
 }
 gl
@@ -1363,13 +1367,7 @@ computeSkipBytes
 (
 outputPitch
 0
-0
 packState
-.
-skipRows
-packState
-.
-skipPixels
 false
 )
 outputSkipBytes

@@ -58,6 +58,9 @@ assert
 .
 h
 >
+namespace
+sh
+{
 bool
 InitProcess
 (
@@ -154,4 +157,5 @@ destroy
 (
 )
 ;
+}
 }

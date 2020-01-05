@@ -43,6 +43,9 @@ ParseContext
 h
 "
 namespace
+sh
+{
+namespace
 {
 void
 error
@@ -590,4 +593,5 @@ outputs
 return
 errorCount
 ;
+}
 }

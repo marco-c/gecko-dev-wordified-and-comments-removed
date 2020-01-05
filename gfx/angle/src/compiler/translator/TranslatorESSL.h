@@ -15,6 +15,9 @@ Compiler
 .
 h
 "
+namespace
+sh
+{
 class
 TranslatorESSL
 :
@@ -62,5 +65,6 @@ writeExtensionBehavior
 ;
 }
 ;
+}
 #
 endif

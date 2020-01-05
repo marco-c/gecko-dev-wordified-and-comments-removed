@@ -118,10 +118,10 @@ symbol
 override
 ;
 bool
-visitAggregate
+visitDeclaration
 (
 Visit
-TIntermAggregate
+TIntermDeclaration
 *
 node
 )

@@ -75,6 +75,9 @@ namespace
 rx
 {
 class
+FramebufferGL
+;
+class
 FunctionsGL
 ;
 class
@@ -672,6 +675,17 @@ setFramebufferSRGBEnabled
 (
 bool
 enabled
+)
+;
+void
+setFramebufferSRGBEnabledForFramebuffer
+(
+bool
+enabled
+const
+FramebufferGL
+*
+framebuffer
 )
 ;
 void

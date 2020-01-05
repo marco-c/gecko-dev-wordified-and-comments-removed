@@ -91,6 +91,9 @@ class
 ResourceManager
 ;
 class
+Context
+;
+class
 ShaderState
 final
 :
@@ -464,7 +467,6 @@ getHandle
 )
 const
 ;
-const
 rx
 :
 :
@@ -603,9 +605,10 @@ const
 void
 compile
 (
-Compiler
+const
+Context
 *
-compiler
+context
 )
 ;
 bool

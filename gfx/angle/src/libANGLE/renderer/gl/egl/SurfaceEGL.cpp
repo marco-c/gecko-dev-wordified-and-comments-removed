@@ -114,11 +114,6 @@ destroySurface
 mSurface
 )
 ;
-UNUSED_ASSERTION_VARIABLE
-(
-success
-)
-;
 ASSERT
 (
 success
@@ -521,11 +516,6 @@ EGL_WIDTH
 value
 )
 ;
-UNUSED_ASSERTION_VARIABLE
-(
-success
-)
-;
 ASSERT
 (
 success
@@ -562,11 +552,6 @@ mSurface
 EGL_HEIGHT
 &
 value
-)
-;
-UNUSED_ASSERTION_VARIABLE
-(
-success
 )
 ;
 ASSERT
@@ -622,11 +607,6 @@ mSurface
 EGL_SWAP_BEHAVIOR
 &
 value
-)
-;
-UNUSED_ASSERTION_VARIABLE
-(
-success
 )
 ;
 ASSERT

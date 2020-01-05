@@ -20,6 +20,9 @@ VersionGLSL
 .
 h
 "
+namespace
+sh
+{
 TExtensionGLSL
 :
 :
@@ -288,5 +291,6 @@ default
 :
 break
 ;
+}
 }
 }

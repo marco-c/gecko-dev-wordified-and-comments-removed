@@ -13,6 +13,9 @@ ShaderLang
 .
 h
 "
+namespace
+sh
+{
 class
 BuiltInFunctionEmulator
 ;
@@ -30,6 +33,16 @@ shaderType
 )
 ;
 void
+InitBuiltInIsnanFunctionEmulatorForGLSLWorkarounds
+(
+BuiltInFunctionEmulator
+*
+emu
+int
+targetGLSLVersion
+)
+;
+void
 InitBuiltInFunctionEmulatorForGLSLMissingFunctions
 (
 BuiltInFunctionEmulator
@@ -44,5 +57,6 @@ int
 targetGLSLVersion
 )
 ;
+}
 #
 endif

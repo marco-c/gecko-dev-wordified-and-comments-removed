@@ -4,6 +4,9 @@ COMPILER_TRANSLATOR_SEPARATEEXPRESSIONSRETURNINGARRAYS_H_
 #
 define
 COMPILER_TRANSLATOR_SEPARATEEXPRESSIONSRETURNINGARRAYS_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -19,5 +22,6 @@ int
 temporaryIndex
 )
 ;
+}
 #
 endif

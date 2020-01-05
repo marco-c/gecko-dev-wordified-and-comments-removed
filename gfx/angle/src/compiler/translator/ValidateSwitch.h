@@ -15,6 +15,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 TParseContext
 ;
@@ -35,7 +38,7 @@ switchType
 TParseContext
 *
 context
-TIntermAggregate
+TIntermBlock
 *
 statementList
 const
@@ -88,11 +91,11 @@ TIntermTernary
 override
 ;
 bool
-visitSelection
+visitIfElse
 (
 Visit
 visit
-TIntermSelection
+TIntermIfElse
 *
 )
 override
@@ -216,5 +219,6 @@ mDuplicateCases
 ;
 }
 ;
+}
 #
 endif

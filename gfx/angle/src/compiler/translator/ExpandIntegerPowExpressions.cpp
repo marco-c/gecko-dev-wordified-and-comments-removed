@@ -435,7 +435,7 @@ ASSERT
 lhs
 )
 ;
-TIntermAggregate
+TIntermDeclaration
 *
 init
 =

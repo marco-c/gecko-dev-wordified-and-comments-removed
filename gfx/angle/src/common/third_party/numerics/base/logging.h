@@ -36,7 +36,9 @@ define
 NOTREACHED
 (
 )
-0
+UNREACHABLE
+(
+)
 #
 endif
 #

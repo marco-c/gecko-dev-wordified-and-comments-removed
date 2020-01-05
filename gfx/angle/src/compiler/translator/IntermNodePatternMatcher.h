@@ -4,6 +4,9 @@ COMPILER_TRANSLATOR_INTERMNODEPATTERNMATCHER_H_
 #
 define
 COMPILER_TRANSLATOR_INTERMNODEPATTERNMATCHER_H_
+namespace
+sh
+{
 class
 TIntermAggregate
 ;
@@ -115,5 +118,6 @@ parentNode
 ;
 }
 ;
+}
 #
 endif

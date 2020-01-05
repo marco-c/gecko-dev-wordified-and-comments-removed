@@ -38,6 +38,9 @@ Cache
 .
 h
 "
+namespace
+sh
+{
 class
 BuiltInFunctionEmulator
 :
@@ -1304,4 +1307,5 @@ mParam3
 )
 )
 ;
+}
 }

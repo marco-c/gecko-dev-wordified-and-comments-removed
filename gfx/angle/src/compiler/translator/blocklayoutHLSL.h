@@ -41,7 +41,6 @@ namespace
 sh
 {
 class
-COMPILER_EXPORT
 HLSLBlockEncoder
 :
 public
@@ -161,7 +160,6 @@ mTransposeMatrices
 ;
 }
 ;
-COMPILER_EXPORT
 unsigned
 int
 HLSLVariableRegisterCount
@@ -174,7 +172,6 @@ bool
 transposeMatrices
 )
 ;
-COMPILER_EXPORT
 unsigned
 int
 HLSLVariableRegisterCount

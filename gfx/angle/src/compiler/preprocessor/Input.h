@@ -7,9 +7,7 @@ COMPILER_PREPROCESSOR_INPUT_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

@@ -9,6 +9,9 @@ InfoSink
 .
 h
 "
+namespace
+sh
+{
 void
 TInfoSinkBase
 :
@@ -253,4 +256,5 @@ n
 "
 )
 ;
+}
 }

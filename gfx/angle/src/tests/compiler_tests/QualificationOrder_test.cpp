@@ -34,6 +34,10 @@ TranslatorESSL
 .
 h
 "
+using
+namespace
+sh
+;
 class
 QualificationOrderShaderTest
 :
@@ -76,6 +80,8 @@ std
 string
 &
 shaderString
+:
+:
 GLenum
 shaderType
 ShShaderSpec
@@ -85,7 +91,7 @@ spec
 ShBuiltInResources
 resources
 ;
-ShInitBuiltInResources
+InitBuiltInResources
 (
 &
 resources

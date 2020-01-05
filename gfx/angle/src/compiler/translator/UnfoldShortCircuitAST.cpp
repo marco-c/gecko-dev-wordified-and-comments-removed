@@ -10,6 +10,9 @@ UnfoldShortCircuitAST
 h
 "
 namespace
+sh
+{
+namespace
 {
 TIntermTernary
 *
@@ -219,4 +222,5 @@ IS_DROPPED
 return
 true
 ;
+}
 }

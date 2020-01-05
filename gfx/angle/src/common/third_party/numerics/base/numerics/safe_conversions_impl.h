@@ -288,6 +288,9 @@ NUMERIC_RANGE_NOT_CONTAINED
 ;
 enum
 RangeConstraint
+:
+unsigned
+char
 {
 RANGE_VALID
 =

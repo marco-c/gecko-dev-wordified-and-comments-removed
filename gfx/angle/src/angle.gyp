@@ -317,6 +317,17 @@ angle_enable_gl
 }
 ]
 ]
+'
+angle_enable_null
+%
+'
+:
+1
+#
+Available
+on
+all
+platforms
 }
 '
 includes
@@ -368,7 +379,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .
@@ -625,7 +636,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .
@@ -721,7 +732,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .
@@ -835,7 +846,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .
@@ -1055,7 +1066,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .
@@ -1187,7 +1198,7 @@ includes
 .
 .
 /
-build
+gyp
 /
 common_defines
 .
