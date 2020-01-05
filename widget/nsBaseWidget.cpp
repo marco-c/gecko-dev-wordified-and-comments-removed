@@ -2267,7 +2267,7 @@ nsIWidget
 aChild
 )
 {
-MOZ_RELEASE_ASSERT
+NS_ASSERTION
 (
 !
 aChild
@@ -2313,12 +2313,12 @@ aChild
 }
 else
 {
-MOZ_RELEASE_ASSERT
+NS_ASSERTION
 (
 mLastChild
 )
 ;
-MOZ_RELEASE_ASSERT
+NS_ASSERTION
 (
 !
 mLastChild
