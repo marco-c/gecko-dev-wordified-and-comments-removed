@@ -81,6 +81,9 @@ mod
 gfx
 {
 mod
+geom
+;
+mod
 surface
 ;
 }
@@ -114,8 +117,5 @@ util
 {
 mod
 tree
-;
-mod
-geom
 ;
 }
