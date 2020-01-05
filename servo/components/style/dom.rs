@@ -102,13 +102,11 @@ Namespace
 }
 ;
 pub
-type
+use
+style_traits
+:
+:
 UnsafeNode
-=
-(
-usize
-usize
-)
 ;
 #
 [

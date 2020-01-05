@@ -189,6 +189,15 @@ extern
 crate
 serde_derive
 ;
+pub
+type
+UnsafeNode
+=
+(
+usize
+usize
+)
+;
 #
 [
 derive

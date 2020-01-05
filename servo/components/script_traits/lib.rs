@@ -393,6 +393,7 @@ style_traits
 :
 {
 PagePx
+UnsafeNode
 ViewportPx
 }
 ;
@@ -859,6 +860,12 @@ TickAllAnimations
 (
 PipelineId
 )
+TransitionEnd
+(
+UnsafeNode
+String
+f64
+)
 WebFontLoaded
 (
 PipelineId
@@ -1122,6 +1129,16 @@ TickAllAnimations
 >
 "
 TickAllAnimations
+"
+TransitionEnd
+(
+.
+.
+)
+=
+>
+"
+TransitionEnd
 "
 WebFontLoaded
 (

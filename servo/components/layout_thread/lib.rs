@@ -9061,6 +9061,10 @@ self
 .
 constellation_chan
 &
+self
+.
+script_chan
+&
 mut
 *
 self

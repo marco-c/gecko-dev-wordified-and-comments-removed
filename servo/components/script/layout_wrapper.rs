@@ -2503,6 +2503,7 @@ script_type_id
 )
 }
 }
+pub
 unsafe
 fn
 get_jsmanaged
