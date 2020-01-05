@@ -281,14 +281,6 @@ ins
 )
 ;
 void
-lowerWasmLoad
-(
-MWasmLoad
-*
-ins
-)
-;
-void
 visitWasmSelect
 (
 MWasmSelect
