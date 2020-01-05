@@ -3173,9 +3173,9 @@ OPENSSL_LIBS
 ]
 =
 "
-ssleay32MD
+libsslMD
 :
-libeay32MD
+libcryptoMD
 "
             
 env

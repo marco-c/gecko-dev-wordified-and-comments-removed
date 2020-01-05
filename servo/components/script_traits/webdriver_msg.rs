@@ -104,6 +104,10 @@ serialize
 )
 ]
 Cookie
+<
+'
+static
+>
 IpcSender
 <
 Result
@@ -196,6 +200,10 @@ Vec
 Serde
 <
 Cookie
+<
+'
+static
+>
 >
 >
 >
@@ -209,6 +217,10 @@ Vec
 Serde
 <
 Cookie
+<
+'
+static
+>
 >
 >
 >

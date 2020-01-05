@@ -50,6 +50,10 @@ hyper
 ;
 extern
 crate
+hyper_openssl
+;
+extern
+crate
 hyper_serde
 ;
 extern
@@ -103,10 +107,6 @@ net_traits
 extern
 crate
 openssl
-;
-extern
-crate
-openssl_verify
 ;
 extern
 crate

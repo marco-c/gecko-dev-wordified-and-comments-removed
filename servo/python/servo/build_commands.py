@@ -2497,12 +2497,12 @@ ssl_lib
 in
 [
 "
-ssleay32md
+libcryptoMD
 .
 dll
 "
 "
-libeay32md
+libsslMD
 .
 dll
 "
