@@ -10370,11 +10370,6 @@ pc
 return
 nullptr
 ;
-ParseNode
-*
-body
-;
-{
 ParseContext
 :
 :
@@ -10397,6 +10392,8 @@ pc
 return
 nullptr
 ;
+ParseNode
+*
 body
 =
 statementList
@@ -10438,7 +10435,6 @@ body
 return
 nullptr
 ;
-}
 if
 (
 hasUsedName
