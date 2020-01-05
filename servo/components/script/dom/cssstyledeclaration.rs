@@ -285,7 +285,7 @@ GetPropertyValue
 (
 cssprop
 .
-to_string
+into_string
 (
 )
 )
@@ -305,7 +305,7 @@ SetPropertyValue
 (
 cssprop
 .
-to_string
+into_string
 (
 )
 value
@@ -934,7 +934,7 @@ unwrap_or
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1120,7 +1120,7 @@ return
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -1171,7 +1171,7 @@ else
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -1322,7 +1322,7 @@ return
 important
 "
 .
-to_string
+into_string
 (
 )
 ;
@@ -1351,7 +1351,7 @@ return
 important
 "
 .
-to_string
+into_string
 (
 )
 ;
@@ -1363,7 +1363,7 @@ Step
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -2139,7 +2139,7 @@ value
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -2379,7 +2379,7 @@ GetPropertyValue
 float
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -2426,7 +2426,7 @@ SetPropertyValue
 float
 "
 .
-to_string
+into_string
 (
 )
 value

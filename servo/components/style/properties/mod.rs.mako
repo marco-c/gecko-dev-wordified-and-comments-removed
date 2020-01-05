@@ -18327,7 +18327,7 @@ Some
 inherit
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -18440,7 +18440,7 @@ name
 }
 "
 .
-to_string
+into_string
 (
 )
 %
@@ -18453,7 +18453,7 @@ _
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -23024,7 +23024,7 @@ name
 }
 "
 .
-to_string
+into_string
 (
 )
 %
