@@ -914,6 +914,12 @@ destroy
 (
 )
 ;
+this
+.
+_clearCache
+(
+)
+;
 AutoRefreshHighlighter
 .
 prototype
