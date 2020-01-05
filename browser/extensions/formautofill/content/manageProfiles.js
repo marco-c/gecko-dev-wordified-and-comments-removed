@@ -569,6 +569,9 @@ fieldOrder
 =
 [
 "
+name
+"
+"
 street
 -
 address
@@ -681,7 +684,7 @@ width
 600
 height
 =
-370
+450
 "
 profile
 )
