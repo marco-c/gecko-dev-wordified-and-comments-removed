@@ -1192,7 +1192,7 @@ eDocumentToBeDestroyed
 eDocumentStateChanged
 }
 ;
-NS_IMETHOD
+nsresult
 NotifyDocumentListeners
 (
 TDocumentListenerNotification
@@ -1208,7 +1208,7 @@ Selection
 aSelection
 )
 ;
-NS_IMETHOD
+nsresult
 ScrollSelectionIntoView
 (
 bool
