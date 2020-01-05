@@ -422,7 +422,6 @@ LayoutNonIncrementalReset
 LayoutSelectorMatch
 LayoutTreeBuilder
 LayoutDamagePropagate
-LayoutGeneratedContent
 LayoutMain
 LayoutParallelWarmup
 LayoutShaping
@@ -468,11 +467,6 @@ TimeProfilerCategory
 :
 :
 LayoutNonIncrementalReset
-|
-TimeProfilerCategory
-:
-:
-LayoutGeneratedContent
 |
 TimeProfilerCategory
 :
@@ -625,17 +619,6 @@ LayoutDamagePropagate
 "
 Damage
 Propagation
-"
-TimeProfilerCategory
-:
-:
-LayoutGeneratedContent
-=
->
-"
-Generated
-Content
-Resolution
 "
 TimeProfilerCategory
 :
