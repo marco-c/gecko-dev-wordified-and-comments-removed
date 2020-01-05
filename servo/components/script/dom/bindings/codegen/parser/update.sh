@@ -35,16 +35,6 @@ WebIDL
 py
 patch
 <
-external
-.
-patch
-patch
-<
-module
-.
-patch
-patch
-<
 abstract
 .
 patch
