@@ -3,9 +3,6 @@ use
 strict
 "
 ;
-const
-PerformanceRecordingCommon
-=
 exports
 .
 PerformanceRecordingCommon
@@ -181,7 +178,6 @@ isRecording
 )
 )
 {
-return
 this
 .
 _estimatedDuration
@@ -196,9 +192,12 @@ this
 .
 _localStartTime
 ;
+return
+this
+.
+_estimatedDuration
+;
 }
-else
-{
 return
 this
 .
@@ -212,7 +211,6 @@ _estimatedDuration
 |
 0
 ;
-}
 }
 getMarkers
 :
