@@ -411,6 +411,17 @@ bool
 >
 mPwmgrInputs
 ;
+nsDataHashtable
+<
+nsPtrHashKey
+<
+const
+nsINode
+>
+bool
+>
+mAutofillInputs
+;
 uint32_t
 mTimeout
 ;
