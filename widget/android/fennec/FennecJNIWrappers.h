@@ -4327,7 +4327,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+GECKO
 ;
 }
 ;
