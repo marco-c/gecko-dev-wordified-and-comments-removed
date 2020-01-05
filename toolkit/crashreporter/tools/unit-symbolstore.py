@@ -735,15 +735,6 @@ self
 test_dir
 )
         
-d
-.
-Finish
-(
-stop_pool
-=
-False
-)
-        
 self
 .
 assertEqual
@@ -947,15 +938,6 @@ Process
 self
 .
 test_dir
-)
-        
-d
-.
-Finish
-(
-stop_pool
-=
-False
 )
         
 processed
@@ -1166,15 +1148,6 @@ Process
 self
 .
 test_dir
-)
-        
-d
-.
-Finish
-(
-stop_pool
-=
-False
 )
         
 processed
@@ -1707,15 +1680,6 @@ self
 test_dir
 )
         
-d
-.
-Finish
-(
-stop_pool
-=
-False
-)
-        
 self
 .
 assertEqual
@@ -1930,15 +1894,6 @@ Process
 self
 .
 test_dir
-)
-        
-d
-.
-Finish
-(
-stop_pool
-=
-False
 )
         
 self
@@ -3517,15 +3472,6 @@ self
 test_dir
 )
             
-d
-.
-Finish
-(
-stop_pool
-=
-False
-)
-            
 self
 .
 assertNotEqual
@@ -4668,15 +4614,6 @@ Process
 f
 )
         
-d
-.
-Finish
-(
-stop_pool
-=
-False
-)
-        
 expected_output
 =
 '
@@ -5388,19 +5325,6 @@ __name__
 __main__
 '
 :
-    
-symbolstore
-.
-Dumper
-.
-GlobalInit
-(
-concurrent
-.
-futures
-.
-ThreadPoolExecutor
-)
     
 mozunit
 .
