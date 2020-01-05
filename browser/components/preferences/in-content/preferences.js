@@ -696,6 +696,14 @@ telemetryBucketForCategory
 category
 )
 {
+category
+=
+category
+.
+toLowerCase
+(
+)
+;
 switch
 (
 category
@@ -729,6 +737,11 @@ privacy
 case
 "
 sync
+"
+:
+case
+"
+searchresults
 "
 :
 return
