@@ -743,11 +743,6 @@ WebGLContextVertices
 cpp
 '
 '
-WebGLElementArrayCache
-.
-cpp
-'
-'
 WebGLExtensionBase
 .
 cpp
