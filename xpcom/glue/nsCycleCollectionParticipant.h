@@ -608,7 +608,7 @@ aTraverseShouldTrace
 {
 }
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *
@@ -634,7 +634,7 @@ aCb
 nsresult
 rv
 =
-Traverse
+TraverseNative
 (
 aPtr
 aCb
@@ -1924,7 +1924,7 @@ _class
 )
 :
 :
-Traverse
+TraverseNative
 \
 (
 void
@@ -2008,7 +2008,7 @@ _base_class
 )
 :
 :
-Traverse
+TraverseNative
 (
 s
 cb
@@ -2363,7 +2363,7 @@ public
 :
 \
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *
@@ -3077,7 +3077,7 @@ public
 :
 \
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *
@@ -3370,7 +3370,7 @@ override
 ;
 \
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *

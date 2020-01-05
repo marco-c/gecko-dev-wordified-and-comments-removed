@@ -222,7 +222,7 @@ nsXPCWrappedJS
 )
 :
 :
-Traverse
+TraverseNative
 (
 void
 *
