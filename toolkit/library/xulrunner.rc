@@ -59,6 +59,15 @@ MPL
 #
 include
 "
+mozilla
+-
+config
+.
+h
+"
+#
+include
+"
 widget
 .
 rc
