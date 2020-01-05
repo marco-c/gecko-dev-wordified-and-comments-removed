@@ -35,10 +35,6 @@ Types
 .
 h
 "
-#
-define
-MOZ_USE_RENDER_THREAD
-true
 typedef
 mozilla
 :
