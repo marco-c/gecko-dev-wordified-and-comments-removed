@@ -143,10 +143,6 @@ extern
 crate
 bitflags
 ;
-extern
-crate
-canvas_traits
-;
 #
 [
 cfg
