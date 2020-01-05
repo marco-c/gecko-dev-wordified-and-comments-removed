@@ -71,7 +71,10 @@ bindings
 refcounted
 :
 :
+{
 Trusted
+TrustedPromise
+}
 ;
 use
 dom
@@ -992,6 +995,9 @@ impl
 T
 :
 JSTraceable
++
+?
+Sized
 >
 JSTraceable
 for
@@ -1901,6 +1907,12 @@ T
 :
 Reflectable
 >
+)
+;
+no_jsmanaged_fields
+!
+(
+TrustedPromise
 )
 ;
 no_jsmanaged_fields

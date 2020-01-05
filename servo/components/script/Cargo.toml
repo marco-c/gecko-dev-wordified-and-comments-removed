@@ -393,6 +393,13 @@ rust
 -
 mozjs
 "
+features
+=
+[
+"
+promises
+"
+]
 }
 libc
 =
