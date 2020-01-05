@@ -827,6 +827,12 @@ svgr
 talos
 -
 tp5o
+-
+talos
+-
+perf
+-
+reftest
 linux32
 -
 tests
