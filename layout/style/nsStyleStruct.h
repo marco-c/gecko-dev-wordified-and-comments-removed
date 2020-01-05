@@ -7988,6 +7988,12 @@ mTextAlignLastTrue
 :
 1
 ;
+mozilla
+:
+:
+StyleTextJustify
+mTextJustify
+;
 uint8_t
 mTextTransform
 ;
