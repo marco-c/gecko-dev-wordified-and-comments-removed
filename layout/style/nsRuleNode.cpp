@@ -37038,13 +37038,6 @@ initialRepeat
 .
 SetInitialValues
 (
-nsStyleImageLayers
-:
-:
-LayerType
-:
-:
-Background
 )
 ;
 SetImageLayerPairList
@@ -51048,13 +51041,6 @@ initialRepeat
 .
 SetInitialValues
 (
-nsStyleImageLayers
-:
-:
-LayerType
-:
-:
-Mask
 )
 ;
 SetImageLayerPairList
