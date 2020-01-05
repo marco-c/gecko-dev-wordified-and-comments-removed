@@ -36,15 +36,6 @@ setupPrefs
 )
 {
 return
-new
-Promise
-(
-function
-(
-resolve
-reject
-)
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -98,10 +89,6 @@ exemptFromPerDomainMax
 true
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;
