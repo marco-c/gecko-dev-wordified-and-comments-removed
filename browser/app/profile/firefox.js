@@ -11126,6 +11126,18 @@ browser
 .
 newtabpage
 .
+thumbnailPlaceholder
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
+newtabpage
+.
 rows
 "
 3
@@ -13800,7 +13812,7 @@ browser
 .
 formautofill
 .
-experimental
+enabled
 "
 false
 )
