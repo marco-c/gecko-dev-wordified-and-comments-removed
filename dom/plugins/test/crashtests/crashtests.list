@@ -150,17 +150,7 @@ load
 752340
 .
 html
-asserts
--
-if
-(
-stylo
-1
-)
 load
 843086
 .
 xhtml
-#
-bug
-1324647
