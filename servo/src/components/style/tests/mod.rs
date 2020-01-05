@@ -5,7 +5,7 @@ super
 stylesheets
 :
 :
-parse_stylesheet
+Stylesheet
 ;
 #
 [
@@ -19,7 +19,10 @@ test_bootstrap
 let
 stylesheet
 =
-parse_stylesheet
+Stylesheet
+:
+:
+from_str
 (
 include_str
 !
