@@ -325,6 +325,14 @@ PipelineId
 >
 TraversalDirection
 )
+JointSessionHistoryLength
+(
+PipelineId
+IpcSender
+<
+u32
+>
+)
 NewFavicon
 (
 Url

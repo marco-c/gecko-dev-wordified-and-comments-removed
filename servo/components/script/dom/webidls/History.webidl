@@ -102,8 +102,6 @@ Worker
 interface
 History
 {
-/
-/
 readonly
 attribute
 unsigned
