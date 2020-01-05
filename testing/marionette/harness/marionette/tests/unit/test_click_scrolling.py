@@ -437,6 +437,8 @@ navigate
 test_html
 )
         
+button1
+=
 self
 .
 marionette
@@ -450,6 +452,24 @@ ID
 button1
 "
 )
+        
+button2
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+"
+button2
+"
+)
+        
+button2
 .
 click
 (
@@ -474,19 +494,7 @@ scrollTop
 "
 )
         
-self
-.
-marionette
-.
-find_element
-(
-By
-.
-ID
-"
-button2
-"
-)
+button1
 .
 click
 (
