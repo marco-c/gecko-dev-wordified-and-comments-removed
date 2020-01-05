@@ -219,6 +219,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+gfxVars
+.
+h
+"
+#
+include
+"
 VRManager
 .
 h
