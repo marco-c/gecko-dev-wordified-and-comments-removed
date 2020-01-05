@@ -91,11 +91,14 @@ navigate
 -
 to
 -
-%
-s
+{
+}
 "
-%
+.
+format
+(
 url
+)
 self
 .
 refs
@@ -121,13 +124,16 @@ name
 -
 from
 -
-%
-s
+{
+}
 "
-%
+.
+format
+(
 driver
 .
 current_url
+)
         
 else
 :
@@ -169,13 +175,16 @@ name
 -
 from
 -
-%
-s
+{
+}
 "
-%
+.
+format
+(
 driver
 .
 current_url
+)
         
 else
 :
@@ -213,13 +222,16 @@ click
 -
 element
 -
-%
-s
+{
+}
 "
-%
+.
+format
+(
 element
 .
 id
+)
         
 self
 .

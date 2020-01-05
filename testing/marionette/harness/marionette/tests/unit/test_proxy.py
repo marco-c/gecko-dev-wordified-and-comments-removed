@@ -1726,16 +1726,19 @@ httpProxy
 was
 set
 .
-%
-s
+{
+}
 '
-%
+.
+format
+(
 result
 [
 "
 httpProxy
 "
 ]
+)
 )
         
 self

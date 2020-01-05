@@ -430,8 +430,8 @@ iframe
 src
 =
 "
-%
-s
+{
+}
 "
 ;
             
@@ -448,7 +448,9 @@ iframe
 "
 "
 "
-%
+.
+format
+(
 self
 .
 marionette
@@ -460,6 +462,7 @@ test
 .
 html
 "
+)
 )
 )
         
@@ -623,8 +626,8 @@ iframe
 src
 =
 "
-%
-s
+{
+}
 "
 ;
             
@@ -641,7 +644,9 @@ iframe
 "
 "
 "
-%
+.
+format
+(
 self
 .
 marionette
@@ -653,6 +658,7 @@ test
 .
 html
 "
+)
 )
 )
         
@@ -877,8 +883,8 @@ iframe
 src
 =
 "
-%
-s
+{
+}
 "
 ;
             
@@ -895,7 +901,9 @@ iframe
 "
 "
 "
-%
+.
+format
+(
 self
 .
 marionette
@@ -907,6 +915,7 @@ test
 .
 html
 "
+)
 )
 )
         

@@ -239,16 +239,19 @@ execute_script
 "
 return
 typeof
-%
-s
+{
+}
 !
 =
 '
 undefined
 '
 "
-%
+.
+format
+(
 symbol
+)
 )
     
 def
@@ -273,14 +276,17 @@ msg
 "
 Expected
 symbol
-%
-s
+{
+}
 to
 be
 defined
 "
-%
+.
+format
+(
 symbol
+)
         
 self
 .
@@ -317,14 +323,17 @@ msg
 "
 Expected
 symbol
-%
-s
+{
+}
 to
 be
 undefined
 "
-%
+.
+format
+(
 symbol
+)
         
 self
 .
@@ -795,11 +804,14 @@ print
 "
 windows
 =
-%
-s
+{
+}
 "
-%
+.
+format
+(
 windows
+)
         
 new_window
 =
@@ -851,11 +863,14 @@ to
 original
 window
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 original_window
+)
         
 self
 .

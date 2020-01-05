@@ -416,15 +416,18 @@ proxy_addr
 '
 localhost
 :
-%
-d
+{
+}
 '
-%
+.
+format
+(
 self
 .
 client
 .
 port
+)
         
 proxy
 =

@@ -315,8 +315,8 @@ iframe1
 src
 =
 "
-%
-s
+{
+}
 "
 ;
             
@@ -333,7 +333,9 @@ iframe1
 "
 "
 "
-%
+.
+format
+(
 self
 .
 marionette
@@ -345,6 +347,7 @@ test_oop_1
 .
 html
 "
+)
 )
 )
         
@@ -563,8 +566,8 @@ iframe2
 src
 =
 "
-%
-s
+{
+}
 "
 ;
             
@@ -581,7 +584,9 @@ iframe2
 "
 "
 "
-%
+.
+format
+(
 self
 .
 marionette
@@ -593,6 +598,7 @@ test_oop_2
 .
 html
 "
+)
 )
 )
         

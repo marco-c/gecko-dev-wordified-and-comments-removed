@@ -34,15 +34,18 @@ charset
 utf
 -
 8
-%
-s
+{
+}
 "
-%
+.
+format
+(
 urllib
 .
 quote
 (
 doc
+)
 )
 static_element
 =
@@ -83,8 +86,8 @@ document
 getElementsByTagName
 (
 '
-%
-s
+{
+}
 '
 )
 [
@@ -554,10 +557,13 @@ marionette
 execute_script
 (
 remove_element_by_tag_name
-%
+.
+format
+(
 "
 p
 "
+)
 )
         
 r

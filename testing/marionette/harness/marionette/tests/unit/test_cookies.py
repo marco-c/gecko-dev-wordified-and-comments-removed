@@ -418,10 +418,12 @@ key
 =
 "
 key_
-%
-d
+{
+}
 "
-%
+.
+format
+(
 int
 (
 random
@@ -431,6 +433,7 @@ random
 )
 *
 10000000
+)
 )
         
 self
@@ -497,10 +500,12 @@ key1
 =
 "
 key_
-%
-d
+{
+}
 "
-%
+.
+format
+(
 int
 (
 random
@@ -510,16 +515,19 @@ random
 )
 *
 10000000
+)
 )
         
 key2
 =
 "
 key_
-%
-d
+{
+}
 "
-%
+.
+format
+(
 int
 (
 random
@@ -529,6 +537,7 @@ random
 )
 *
 10000000
+)
 )
         
 cookies

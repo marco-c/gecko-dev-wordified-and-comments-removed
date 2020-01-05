@@ -391,8 +391,8 @@ this
 testvar
 =
 '
-%
-s
+{
+}
 '
 ;
             
@@ -405,8 +405,11 @@ testvar
 "
 "
 "
-%
+.
+format
+(
 var1
+)
 )
 var1
 )

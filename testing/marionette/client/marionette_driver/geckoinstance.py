@@ -527,16 +527,19 @@ fname
 '
 gecko
 -
-%
-d
+{
+}
 .
 log
 '
-%
+.
+format
+(
 time
 .
 time
 (
+)
 )
                 
 path
@@ -1845,15 +1848,18 @@ remove_forward
 '
 tcp
 :
-%
-d
+{
+}
 '
-%
+.
+format
+(
 int
 (
 self
 .
 marionette_port
+)
 )
             
 )

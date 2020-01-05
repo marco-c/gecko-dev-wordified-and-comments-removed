@@ -223,11 +223,14 @@ path
 "
 provided
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 path
+)
 )
         
 self
@@ -301,13 +304,16 @@ path
 -
 port
 =
-%
-s
+{
+}
 '
-%
+.
+format
+(
 self
 .
 port
+)
 ]
     
 def
@@ -564,13 +570,16 @@ http
 /
 localhost
 :
-%
-d
+{
+}
 "
-%
+.
+format
+(
 self
 .
 port
+)
     
 def
 create_proxy
