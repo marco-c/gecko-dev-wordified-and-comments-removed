@@ -3148,12 +3148,9 @@ RwLock
 new
 (
 PropertyDeclarationBlock
-{
-declarations
 :
-vec
-!
-[
+:
+with_one
 (
 declaration
 Importance
@@ -3161,11 +3158,6 @@ Importance
 :
 Normal
 )
-]
-important_count
-:
-0
-}
 )
 )
 CascadeLevel

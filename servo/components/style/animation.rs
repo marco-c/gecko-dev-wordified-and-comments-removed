@@ -1845,6 +1845,8 @@ debug_assert
 guard
 .
 declarations
+(
+)
 .
 iter
 (
@@ -1878,6 +1880,8 @@ iter
 guard
 .
 declarations
+(
+)
 .
 iter
 (

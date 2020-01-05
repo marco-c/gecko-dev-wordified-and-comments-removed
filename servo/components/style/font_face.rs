@@ -128,7 +128,6 @@ servo
 "
 derive
 (
-HeapSizeOf
 Deserialize
 Serialize
 )
@@ -302,7 +301,6 @@ servo
 "
 derive
 (
-HeapSizeOf
 Deserialize
 Serialize
 )
@@ -1074,21 +1072,6 @@ derive
 Debug
 PartialEq
 Eq
-)
-]
-#
-[
-cfg_attr
-(
-feature
-=
-"
-servo
-"
-derive
-(
-HeapSizeOf
-)
 )
 ]
 pub
