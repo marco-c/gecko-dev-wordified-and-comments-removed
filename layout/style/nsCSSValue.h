@@ -3947,6 +3947,15 @@ CalcValue
 aCalc
 )
 ;
+nsStyleCoord
+:
+:
+CalcValue
+GetCalcValue
+(
+)
+const
+;
 nsCSSRect
 &
 SetRectValue
