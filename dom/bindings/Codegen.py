@@ -15816,7 +15816,7 @@ flags
 "
 :
 "
-JSPROP_ENUMERATE
+0
 "
                 
 "
@@ -20796,6 +20796,12 @@ prop
 "
 iteratorId
 "
+                    
+enumFlags
+=
+"
+0
+"
                 
 elif
 alias
@@ -20849,6 +20855,12 @@ s
 '
 %
 alias
+                    
+enumFlags
+=
+"
+JSPROP_ENUMERATE
+"
                 
 return
 CGList
@@ -20879,7 +20891,9 @@ proto
 prop
 }
 aliasedVal
-JSPROP_ENUMERATE
+{
+enumFlags
+}
 )
 )
 {
@@ -20902,6 +20916,10 @@ defineFn
 prop
 =
 prop
+                        
+enumFlags
+=
+enumFlags
                         
 failureCode
 =
