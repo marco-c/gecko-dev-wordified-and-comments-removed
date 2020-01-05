@@ -2742,11 +2742,9 @@ advanceLength
 uint32_t
 fragmentLength
 =
+done_reading
+-
 iter
-.
-size_forward
-(
-)
 ;
 uint32_t
 lengthReplaced
