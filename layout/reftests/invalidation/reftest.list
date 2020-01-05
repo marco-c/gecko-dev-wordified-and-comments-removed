@@ -1268,6 +1268,12 @@ if
 (
 webrender
 )
+skip
+-
+if
+(
+stylo
+)
 !
 =
 clipped
@@ -1282,6 +1288,12 @@ html
 about
 :
 blank
+#
+Bug
+1334036
+(
+stylo
+)
 fails
 -
 if
