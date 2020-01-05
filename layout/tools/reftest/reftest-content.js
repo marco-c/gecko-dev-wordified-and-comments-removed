@@ -181,9 +181,9 @@ resource
 :
 /
 /
-reftest
+gre
 /
-content
+modules
 /
 AsyncSpellCheckTestHelper
 .
