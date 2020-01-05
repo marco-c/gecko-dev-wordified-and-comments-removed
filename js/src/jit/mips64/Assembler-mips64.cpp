@@ -82,6 +82,12 @@ case
 MIRType
 :
 :
+Int64
+:
+case
+MIRType
+:
+:
 Pointer
 :
 {
