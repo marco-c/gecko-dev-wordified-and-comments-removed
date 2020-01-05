@@ -1224,11 +1224,6 @@ TruncatedSmallGIFTestCase
 (
 )
 ;
-ImageTestCase
-GreenMultipleSizesICOTestCase
-(
-)
-;
 }
 }
 #
