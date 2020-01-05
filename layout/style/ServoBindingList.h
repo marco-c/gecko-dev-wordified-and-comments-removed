@@ -219,6 +219,17 @@ list
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_ResolveForDeclarations
+ServoComputedValuesStrong
+RawServoStyleSetBorrowed
+set
+ServoComputedValuesBorrowedOrNull
+parent_style
+RawServoDeclarationBlockBorrowed
+declarations
+)
+SERVO_BINDING_FUNC
+(
 Servo_CssRules_ListTypes
 void
 ServoCssRulesBorrowed
