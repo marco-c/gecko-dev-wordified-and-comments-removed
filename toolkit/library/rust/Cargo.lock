@@ -1541,7 +1541,7 @@ version
 .
 1
 .
-1
+2
 "
 source
 =
@@ -6542,7 +6542,7 @@ freetype
 .
 1
 .
-1
+2
 (
 registry
 +
@@ -7990,7 +7990,7 @@ freetype
 .
 1
 .
-1
+2
 (
 registry
 +
@@ -8015,7 +8015,7 @@ index
 "
 =
 "
-ba1af4bdad5c8b8b9325f19159d25643b7e415b4fc0e9807b6fad6692314b3a4
+6a89563eaf185762cf495c56cb16277549d2aaa7b1240d93338e8429fa33acd1
 "
 "
 checksum
