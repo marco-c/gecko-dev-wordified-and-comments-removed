@@ -85,11 +85,6 @@ site
 .
 onClick
 ;
-let
-clicked
-=
-false
-;
 site
 .
 onClick

@@ -137,15 +137,6 @@ clearHistory
 (
 )
 ;
-let
-tabCount
-=
-gBrowser
-.
-tabs
-.
-length
-;
 gMaxResults
 =
 Services

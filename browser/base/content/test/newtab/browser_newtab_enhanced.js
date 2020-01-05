@@ -1004,13 +1004,6 @@ unpinCell
 0
 )
 ;
-let
-origIsTopPlacesSite
-=
-NewTabUtils
-.
-isTopPlacesSite
-;
 NewTabUtils
 .
 isTopPlacesSite

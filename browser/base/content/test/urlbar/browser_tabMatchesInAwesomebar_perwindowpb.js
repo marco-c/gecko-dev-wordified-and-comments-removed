@@ -198,9 +198,6 @@ aExpectSwitch
 aCallback
 )
 {
-let
-baseTab
-=
 yield
 BrowserTestUtils
 .

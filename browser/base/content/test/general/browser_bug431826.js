@@ -157,11 +157,6 @@ neterror
 }
 )
 ;
-let
-advancedDiv
-advancedDivVisibility
-technicalDivCollapsed
-;
 yield
 remote
 (

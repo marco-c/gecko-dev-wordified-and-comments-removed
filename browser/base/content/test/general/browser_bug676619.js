@@ -30,9 +30,6 @@ url
 next
 )
 {
-var
-tabOpenListener
-=
 new
 TabOpenListener
 (

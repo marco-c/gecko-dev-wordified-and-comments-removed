@@ -29,9 +29,6 @@ true
 }
 )
 ;
-let
-tab3
-=
 gBrowser
 .
 addTab

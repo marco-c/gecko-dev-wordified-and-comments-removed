@@ -377,7 +377,6 @@ selectedIndex
 let
 [
 type
-params
 ]
 =
 gURLBar

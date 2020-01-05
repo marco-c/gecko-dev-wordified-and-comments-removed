@@ -918,15 +918,6 @@ false
 }
 )
 ;
-let
-{
-gIdentityHandler
-}
-=
-gTestBrowser
-.
-ownerGlobal
-;
 waitForCondition
 (
 (

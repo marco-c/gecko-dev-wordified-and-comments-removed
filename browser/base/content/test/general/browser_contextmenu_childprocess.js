@@ -102,9 +102,6 @@ tab
 linkedBrowser
 )
 ;
-let
-event
-=
 yield
 popupShownPromise
 ;

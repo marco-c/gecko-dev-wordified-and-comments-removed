@@ -466,9 +466,6 @@ click
 (
 )
 ;
-let
-preferenceWindow
-=
 yield
 paneLoadedPromise
 ;

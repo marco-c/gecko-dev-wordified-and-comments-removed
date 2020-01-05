@@ -212,9 +212,6 @@ Search
 }
 )
 ;
-let
-tab
-=
 gBrowser
 .
 selectedTab

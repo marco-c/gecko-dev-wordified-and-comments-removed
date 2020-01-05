@@ -248,13 +248,6 @@ onLoad
 (
 )
 {
-let
-dialog
-=
-document
-.
-documentElement
-;
 if
 (
 appStartup

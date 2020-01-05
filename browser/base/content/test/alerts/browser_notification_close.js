@@ -30,9 +30,6 @@ jsm
 )
 ;
 let
-tab
-;
-let
 notificationURL
 =
 "
@@ -468,9 +465,6 @@ button
 "
 )
 ;
-let
-beforeUnloadEvent
-=
 yield
 promiseBeforeUnloadEvent
 ;

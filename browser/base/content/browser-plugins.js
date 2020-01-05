@@ -1027,13 +1027,6 @@ aNotification
 .
 browser
 ;
-let
-contentWindow
-=
-browser
-.
-contentWindow
-;
 if
 (
 aNewState

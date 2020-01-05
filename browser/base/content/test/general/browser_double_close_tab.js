@@ -250,9 +250,6 @@ testTab
 TEST_PAGE
 )
 ;
-let
-dialogNode
-=
 yield
 new
 Promise

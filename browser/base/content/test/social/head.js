@@ -711,9 +711,6 @@ providersAdded
 =
 0
 ;
-let
-firstProvider
-;
 manifests
 .
 forEach

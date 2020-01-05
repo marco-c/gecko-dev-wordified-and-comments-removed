@@ -35,9 +35,6 @@ purgeHistoryTest
 (
 )
 {
-let
-tab
-=
 yield
 BrowserTestUtils
 .

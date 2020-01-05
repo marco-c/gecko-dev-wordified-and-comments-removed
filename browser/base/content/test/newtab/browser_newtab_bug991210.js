@@ -56,9 +56,6 @@ addProvider
 afterLoadProvider
 )
 ;
-let
-tab
-=
 yield
 BrowserTestUtils
 .

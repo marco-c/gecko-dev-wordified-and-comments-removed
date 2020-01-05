@@ -1118,12 +1118,6 @@ promiseFocus
 (
 )
 ;
-var
-messages
-=
-"
-"
-;
 if
 (
 gMultiProcessBrowser

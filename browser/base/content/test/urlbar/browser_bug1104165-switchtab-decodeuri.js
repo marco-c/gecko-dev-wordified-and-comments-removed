@@ -70,9 +70,6 @@ tab
 "
 )
 ;
-let
-newTab
-=
 gBrowser
 .
 selectedTab

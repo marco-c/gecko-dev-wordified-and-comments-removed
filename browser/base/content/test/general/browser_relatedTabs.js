@@ -28,12 +28,6 @@ tabs
 [
 ]
 ;
-let
-promises
-=
-[
-]
-;
 function
 addTab
 (

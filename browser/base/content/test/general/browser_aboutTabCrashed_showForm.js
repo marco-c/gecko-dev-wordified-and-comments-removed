@@ -61,16 +61,6 @@ browser
 )
 {
 let
-tab
-=
-gBrowser
-.
-getTabForBrowser
-(
-browser
-)
-;
-let
 pref
 =
 TabCrashHandler
