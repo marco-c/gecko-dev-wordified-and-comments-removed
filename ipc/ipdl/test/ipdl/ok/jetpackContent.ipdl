@@ -21,11 +21,5 @@ __delete__
 (
 )
 ;
-state
-DEAD
-:
-send
-__delete__
-;
 }
 ;

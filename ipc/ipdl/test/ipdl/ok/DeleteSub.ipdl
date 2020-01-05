@@ -23,11 +23,5 @@ double
 d
 )
 ;
-state
-START
-:
-recv
-__delete__
-;
 }
 ;
