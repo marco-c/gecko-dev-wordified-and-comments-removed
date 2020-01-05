@@ -348,6 +348,12 @@ aBrowser
 {
 if
 (
+!
+aBrowser
+.
+currentURI
+|
+|
 this
 .
 _topSiteURLs
