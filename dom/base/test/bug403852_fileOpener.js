@@ -98,8 +98,9 @@ opened
 {
 file
 :
-new
 File
+.
+createFromNsIFile
 (
 testFile
 )
@@ -110,8 +111,9 @@ testFile
 lastModifiedTime
 fileWithDate
 :
-new
 File
+.
+createFromNsIFile
 (
 testFile
 {

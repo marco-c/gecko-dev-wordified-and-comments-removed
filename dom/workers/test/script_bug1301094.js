@@ -115,8 +115,9 @@ opened
 {
 data
 :
-new
 File
+.
+createFromNsIFile
 (
 tmpFile
 )

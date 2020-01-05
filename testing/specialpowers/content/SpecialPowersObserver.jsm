@@ -1948,8 +1948,9 @@ filePaths
 .
 push
 (
-new
 File
+.
+createFromFileName
 (
 testFile
 .

@@ -50,8 +50,9 @@ map
 path
 =
 >
-new
 File
+.
+createFromFileName
 (
 path
 )

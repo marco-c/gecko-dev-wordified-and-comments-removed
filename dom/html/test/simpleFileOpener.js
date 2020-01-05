@@ -121,8 +121,9 @@ file
 leafName
 domFile
 :
-new
 File
+.
+createFromNsIFile
 (
 file
 )

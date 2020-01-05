@@ -43,8 +43,9 @@ files
 .
 push
 (
-new
 File
+.
+createFromFileName
 (
 fileName
 )

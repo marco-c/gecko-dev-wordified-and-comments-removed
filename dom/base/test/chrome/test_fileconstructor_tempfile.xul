@@ -656,8 +656,9 @@ it
 let
 dirfile
 =
-new
 File
+.
+createFromNsIFile
 (
 tmp
 {

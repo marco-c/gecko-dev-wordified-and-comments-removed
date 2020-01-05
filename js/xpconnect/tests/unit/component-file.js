@@ -135,8 +135,9 @@ ini
 var
 f1
 =
-new
 File
+.
+createFromFileName
 (
 file
 .
@@ -146,8 +147,9 @@ path
 var
 f2
 =
-new
 File
+.
+createFromNsIFile
 (
 file
 )
@@ -385,8 +387,9 @@ nsIFile
 var
 f7
 =
-new
 File
+.
+createFromNsIFile
 (
 dir
 )

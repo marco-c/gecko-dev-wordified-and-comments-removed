@@ -323,8 +323,9 @@ tmpDir
 .
 path
 )
-new
 File
+.
+createFromNsIFile
 (
 tmpFile
 )

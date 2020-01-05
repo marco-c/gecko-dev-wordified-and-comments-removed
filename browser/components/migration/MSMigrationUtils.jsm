@@ -2899,8 +2899,9 @@ fileReader
 .
 readAsText
 (
-new
 File
+.
+createFromNsIFile
 (
 aFile
 )

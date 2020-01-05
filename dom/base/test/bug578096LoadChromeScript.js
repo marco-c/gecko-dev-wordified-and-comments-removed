@@ -98,8 +98,9 @@ file
 .
 created
 "
-new
 File
+.
+createFromNsIFile
 (
 file
 )

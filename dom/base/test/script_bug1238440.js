@@ -99,8 +99,9 @@ answer
 {
 file
 :
-new
 File
+.
+createFromNsIFile
 (
 tmpFile
 )
