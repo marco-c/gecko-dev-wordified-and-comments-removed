@@ -1837,6 +1837,10 @@ ourBrowser
 SwapBrowsers
 (
 otherBrowser
+nsIBrowser
+:
+:
+SWAP_KEEP_PERMANENT_KEY
 )
 )
 )
@@ -2002,6 +2006,10 @@ ourBrowser
 SwapBrowsers
 (
 otherBrowser
+nsIBrowser
+:
+:
+SWAP_KEEP_PERMANENT_KEY
 )
 )
 )

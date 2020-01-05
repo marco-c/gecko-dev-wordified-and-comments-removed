@@ -7921,6 +7921,15 @@ aOtherBrowser
 /
 >
 <
+parameter
+name
+=
+"
+aFlags
+"
+/
+>
+<
 body
 >
 <
@@ -7999,6 +8008,7 @@ swapBrowsers
 (
 tab
 aOtherBrowser
+aFlags
 )
 ;
 return
