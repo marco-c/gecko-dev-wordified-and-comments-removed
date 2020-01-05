@@ -3115,6 +3115,14 @@ push
 ins
 )
 ;
+MOZ_TRY
+(
+resumeAfter
+(
+ins
+)
+)
+;
 return
 InliningStatus_Inlined
 ;
