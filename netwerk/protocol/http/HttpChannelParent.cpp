@@ -4054,7 +4054,7 @@ RecvDocumentChannelCleanup
 {
 mChannel
 =
-0
+nullptr
 ;
 mCacheEntry
 =

@@ -107,7 +107,7 @@ aState
 ;
 mDeathGrip
 =
-0
+nullptr
 ;
 }
 virtual

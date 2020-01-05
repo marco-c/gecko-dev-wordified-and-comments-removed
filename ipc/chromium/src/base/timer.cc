@@ -37,11 +37,11 @@ delayed_task_
 >
 timer_
 =
-NULL
+nullptr
 ;
 delayed_task_
 =
-NULL
+nullptr
 ;
 }
 }

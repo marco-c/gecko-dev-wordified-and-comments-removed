@@ -859,7 +859,7 @@ WSPoint
 :
 mTextNode
 (
-0
+nullptr
 )
 mOffset
 (
