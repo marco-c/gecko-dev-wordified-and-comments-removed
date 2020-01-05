@@ -1945,21 +1945,6 @@ marionette
 False
 )
     
-MARIONETTE_LOOP
-=
-(
-'
-marionette
-'
-'
-marionette
-'
-'
-.
-'
-False
-)
-    
 MARIONETTE_UNIT
 =
 (
