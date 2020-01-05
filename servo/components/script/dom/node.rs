@@ -1183,13 +1183,6 @@ ComputedValues
 }
 #
 [
-allow
-(
-raw_pointer_derive
-)
-]
-#
-[
 derive
 (
 HeapSizeOf
@@ -14265,13 +14258,6 @@ None
 namespace
 }
 }
-#
-[
-allow
-(
-raw_pointer_derive
-)
-]
 #
 [
 derive

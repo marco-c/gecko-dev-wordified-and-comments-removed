@@ -262,13 +262,6 @@ HeapSizeOf
 ;
 #
 [
-allow
-(
-raw_pointer_derive
-)
-]
-#
-[
 derive
 (
 Copy
