@@ -394,9 +394,9 @@ mInflated
 =
 true
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -589,9 +589,9 @@ mInflated
 return
 ;
 }
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .

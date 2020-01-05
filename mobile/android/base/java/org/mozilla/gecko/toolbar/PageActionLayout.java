@@ -14,7 +14,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+EventDispatcher
 ;
 import
 org
@@ -323,9 +323,9 @@ onAttachedToWindow
 (
 )
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -352,9 +352,9 @@ onDetachedFromWindow
 (
 )
 {
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .

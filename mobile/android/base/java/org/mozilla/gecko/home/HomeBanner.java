@@ -21,7 +21,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+EventDispatcher
 ;
 import
 org
@@ -512,9 +512,9 @@ getTag
 }
 )
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
@@ -542,9 +542,9 @@ onDetachedFromWindow
 (
 )
 ;
-GeckoApp
+EventDispatcher
 .
-getEventDispatcher
+getInstance
 (
 )
 .
