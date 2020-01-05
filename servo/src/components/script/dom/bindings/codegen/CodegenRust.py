@@ -22115,12 +22115,6 @@ parentProto
                                
 %
 s
-ptr
-:
-:
-null
-(
-)
 %
 s
 %
