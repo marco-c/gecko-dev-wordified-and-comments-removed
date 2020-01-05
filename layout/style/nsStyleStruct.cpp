@@ -13634,7 +13634,10 @@ NS_STYLE_RESIZE_NONE
 )
 mOrient
 (
-NS_STYLE_ORIENT_INLINE
+StyleOrient
+:
+:
+Inline
 )
 mIsolation
 (

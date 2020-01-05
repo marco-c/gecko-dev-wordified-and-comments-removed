@@ -11196,7 +11196,10 @@ mOverflowClipBox
 uint8_t
 mResize
 ;
-uint8_t
+mozilla
+:
+:
+StyleOrient
 mOrient
 ;
 uint8_t
