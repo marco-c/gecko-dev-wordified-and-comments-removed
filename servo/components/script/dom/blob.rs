@@ -38,10 +38,7 @@ bindings
 js
 :
 :
-{
-JSRef
-Temporary
-}
+Root
 ;
 use
 dom
@@ -322,7 +319,7 @@ str
 )
 -
 >
-Temporary
+Root
 <
 Blob
 >
@@ -382,7 +379,7 @@ GlobalRef
 >
 Fallible
 <
-Temporary
+Root
 <
 Blob
 >
@@ -444,7 +441,7 @@ BlobPropertyBag
 >
 Fallible
 <
-Temporary
+Root
 <
 Blob
 >
@@ -534,12 +531,10 @@ a
 >
 BlobMethods
 for
-JSRef
-<
+&
 '
 a
 Blob
->
 {
 /
 /
@@ -685,7 +680,7 @@ DOMString
 )
 -
 >
-Temporary
+Root
 <
 Blob
 >

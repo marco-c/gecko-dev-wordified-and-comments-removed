@@ -53,10 +53,7 @@ bindings
 js
 :
 :
-{
-JSRef
-Temporary
-}
+Root
 ;
 use
 dom
@@ -204,10 +201,8 @@ new
 (
 window
 :
-JSRef
-<
+&
 Window
->
 top
 :
 Au
@@ -223,7 +218,7 @@ Au
 )
 -
 >
-Temporary
+Root
 <
 DOMRect
 >
@@ -262,12 +257,10 @@ a
 >
 DOMRectMethods
 for
-JSRef
-<
+&
 '
 a
 DOMRect
->
 {
 fn
 Top

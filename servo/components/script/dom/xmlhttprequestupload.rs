@@ -50,7 +50,7 @@ bindings
 js
 :
 :
-Temporary
+Root
 ;
 use
 dom
@@ -143,7 +143,7 @@ GlobalRef
 )
 -
 >
-Temporary
+Root
 <
 XMLHttpRequestUpload
 >

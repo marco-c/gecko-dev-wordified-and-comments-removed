@@ -71,10 +71,7 @@ bindings
 js
 :
 :
-{
-JSRef
-Temporary
-}
+Root
 ;
 use
 dom
@@ -318,7 +315,7 @@ DOMErrorName
 )
 -
 >
-Temporary
+Root
 <
 DOMException
 >
@@ -348,12 +345,10 @@ a
 >
 DOMExceptionMethods
 for
-JSRef
-<
+&
 '
 a
 DOMException
->
 {
 /
 /

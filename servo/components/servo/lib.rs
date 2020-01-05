@@ -291,6 +291,13 @@ get
 (
 )
 ;
+script
+:
+:
+init
+(
+)
+;
 RegisterBindings
 :
 :

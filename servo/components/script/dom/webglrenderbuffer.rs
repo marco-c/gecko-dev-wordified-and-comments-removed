@@ -35,10 +35,7 @@ bindings
 js
 :
 :
-{
-Temporary
-JSRef
-}
+Root
 ;
 use
 dom
@@ -118,7 +115,7 @@ u32
 )
 -
 >
-Temporary
+Root
 <
 WebGLRenderbuffer
 >
@@ -148,7 +145,6 @@ WebGLRenderbufferHelpers
 fn
 get_id
 (
-&
 self
 )
 -
@@ -163,17 +159,14 @@ a
 >
 WebGLRenderbufferHelpers
 for
-JSRef
-<
+&
 '
 a
 WebGLRenderbuffer
->
 {
 fn
 get_id
 (
-&
 self
 )
 -

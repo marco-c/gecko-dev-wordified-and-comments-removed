@@ -991,6 +991,14 @@ self
 .
 returnType
 =
+"
+Rc
+<
+%
+s
+>
+"
+%
 ty
             
 self
@@ -1033,7 +1041,7 @@ self
 returnType
 =
 "
-Temporary
+Root
 <
 %
 s
@@ -1047,11 +1055,9 @@ self
 argumentType
 =
 "
-JSRef
-<
+&
 %
 s
->
 "
 %
 ifaceName
@@ -1075,7 +1081,7 @@ self
 nativeType
 =
 "
-Unrooted
+Root
 <
 %
 s

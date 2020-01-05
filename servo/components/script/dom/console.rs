@@ -56,10 +56,7 @@ bindings
 js
 :
 :
-{
-JSRef
-Temporary
-}
+Root
 ;
 use
 dom
@@ -165,7 +162,7 @@ GlobalRef
 )
 -
 >
-Temporary
+Root
 <
 Console
 >
@@ -195,12 +192,10 @@ a
 >
 ConsoleMethods
 for
-JSRef
-<
+&
 '
 a
 Console
->
 {
 /
 /
@@ -683,10 +678,8 @@ propagate_console_msg
 console
 :
 &
-JSRef
-<
+&
 Console
->
 console_message
 :
 ConsoleMessage

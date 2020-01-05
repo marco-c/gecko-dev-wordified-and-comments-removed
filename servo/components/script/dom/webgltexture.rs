@@ -35,10 +35,7 @@ bindings
 js
 :
 :
-{
-Temporary
-JSRef
-}
+Root
 ;
 use
 dom
@@ -118,7 +115,7 @@ u32
 )
 -
 >
-Temporary
+Root
 <
 WebGLTexture
 >
@@ -148,7 +145,6 @@ WebGLTextureHelpers
 fn
 get_id
 (
-&
 self
 )
 -
@@ -163,17 +159,14 @@ a
 >
 WebGLTextureHelpers
 for
-JSRef
-<
+&
 '
 a
 WebGLTexture
->
 {
 fn
 get_id
 (
-&
 self
 )
 -
