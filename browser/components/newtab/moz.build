@@ -139,11 +139,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-NewTabMessages
-.
-jsm
-'
-'
 NewTabPrefsProvider
 .
 jsm
@@ -165,11 +160,6 @@ jsm
 '
 '
 NewTabWebChannel
-.
-jsm
-'
-'
-PlacesProvider
 .
 jsm
 '
