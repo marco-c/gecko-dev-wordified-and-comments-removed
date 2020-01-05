@@ -987,6 +987,15 @@ GdkEventKey
 aEvent
 )
 ;
+bool
+MaybeDispatchContextMenuEvent
+(
+const
+GdkEventKey
+*
+aEvent
+)
+;
 void
 OnScrollEvent
 (
