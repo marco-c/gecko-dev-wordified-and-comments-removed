@@ -773,15 +773,6 @@ uint64_t
 override
 ;
 NS_IMETHOD
-IsAppOfType
-(
-uint32_t
-bool
-*
-)
-override
-;
-NS_IMETHOD
 GetIsContent
 (
 bool
