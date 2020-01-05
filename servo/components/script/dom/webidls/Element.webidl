@@ -382,6 +382,16 @@ DOMString
 localName
 )
 ;
+[
+Throws
+]
+Attr
+removeAttributeNode
+(
+Attr
+oldAttr
+)
+;
 boolean
 hasAttribute
 (
