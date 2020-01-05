@@ -18,11 +18,11 @@ ImageTracker
 (
 )
 :
-mLockingImages
+mLocking
 (
 false
 )
-mAnimatingImages
+mAnimating
 (
 true
 )
@@ -36,7 +36,7 @@ ImageTracker
 (
 )
 {
-SetImageLockingState
+SetLockingState
 (
 false
 )
@@ -46,7 +46,7 @@ nsresult
 ImageTracker
 :
 :
-AddImage
+Add
 (
 imgIRequest
 *
@@ -63,7 +63,7 @@ oldCount
 =
 0
 ;
-mImageTracker
+mImages
 .
 Get
 (
@@ -72,7 +72,7 @@ aImage
 oldCount
 )
 ;
-mImageTracker
+mImages
 .
 Put
 (
@@ -95,7 +95,7 @@ oldCount
 0
 &
 &
-mLockingImages
+mLocking
 )
 {
 rv
@@ -116,7 +116,7 @@ oldCount
 0
 &
 &
-mAnimatingImages
+mAnimating
 )
 {
 nsresult
@@ -149,7 +149,7 @@ nsresult
 ImageTracker
 :
 :
-RemoveImage
+Remove
 (
 imgIRequest
 *
@@ -174,7 +174,7 @@ bool
 >
 found
 =
-mImageTracker
+mImages
 .
 Get
 (
@@ -230,7 +230,7 @@ count
 0
 )
 {
-mImageTracker
+mImages
 .
 Put
 (
@@ -242,7 +242,7 @@ return
 NS_OK
 ;
 }
-mImageTracker
+mImages
 .
 Remove
 (
@@ -256,7 +256,7 @@ NS_OK
 ;
 if
 (
-mLockingImages
+mLocking
 )
 {
 rv
@@ -271,7 +271,7 @@ UnlockImage
 }
 if
 (
-mAnimatingImages
+mAnimating
 )
 {
 nsresult
@@ -319,7 +319,7 @@ nsresult
 ImageTracker
 :
 :
-SetImageLockingState
+SetLockingState
 (
 bool
 aLocked
@@ -355,7 +355,7 @@ NS_OK
 }
 if
 (
-mLockingImages
+mLocking
 =
 =
 aLocked
@@ -368,7 +368,7 @@ for
 auto
 iter
 =
-mImageTracker
+mImages
 .
 Iter
 (
@@ -422,7 +422,7 @@ UnlockImage
 ;
 }
 }
-mLockingImages
+mLocking
 =
 aLocked
 ;
@@ -434,7 +434,7 @@ void
 ImageTracker
 :
 :
-SetImagesNeedAnimating
+SetAnimatingState
 (
 bool
 aAnimating
@@ -442,7 +442,7 @@ aAnimating
 {
 if
 (
-mAnimatingImages
+mAnimating
 =
 =
 aAnimating
@@ -454,7 +454,7 @@ for
 auto
 iter
 =
-mImageTracker
+mImages
 .
 Iter
 (
@@ -508,7 +508,7 @@ DecrementAnimationConsumers
 ;
 }
 }
-mAnimatingImages
+mAnimating
 =
 aAnimating
 ;
@@ -526,7 +526,7 @@ for
 auto
 iter
 =
-mImageTracker
+mImages
 .
 Iter
 (

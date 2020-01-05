@@ -50237,7 +50237,7 @@ ImageTracker
 )
 -
 >
-SetImageLockingState
+SetLockingState
 (
 locked
 )

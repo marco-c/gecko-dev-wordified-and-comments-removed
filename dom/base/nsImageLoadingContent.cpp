@@ -5750,7 +5750,7 @@ ImageTracker
 )
 -
 >
-AddImage
+Add
 (
 mCurrentRequest
 )
@@ -5785,7 +5785,7 @@ ImageTracker
 )
 -
 >
-AddImage
+Add
 (
 mPendingRequest
 )
@@ -5885,7 +5885,7 @@ ImageTracker
 )
 -
 >
-RemoveImage
+Remove
 (
 mCurrentRequest
 aNonvisibleAction
@@ -5966,7 +5966,7 @@ ImageTracker
 )
 -
 >
-RemoveImage
+Remove
 (
 mPendingRequest
 aNonvisibleAction

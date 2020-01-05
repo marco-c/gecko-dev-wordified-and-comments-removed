@@ -38676,7 +38676,7 @@ ImageTracker
 )
 -
 >
-SetImagesNeedAnimating
+SetAnimatingState
 (
 true
 )
@@ -39155,7 +39155,7 @@ ImageTracker
 )
 -
 >
-SetImagesNeedAnimating
+SetAnimatingState
 (
 false
 )
