@@ -3814,12 +3814,13 @@ font_size
 :
 :
 SpecifiedValue
+:
+:
+from_html_size
 (
 font_size
-.
-into
-(
-)
+as
+u8
 )
 )
 )
