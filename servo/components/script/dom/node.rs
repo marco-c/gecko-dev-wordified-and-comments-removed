@@ -720,6 +720,12 @@ use
 script_traits
 :
 :
+DocumentActivity
+;
+use
+script_traits
+:
+:
 UntrustedNodeAddress
 ;
 use
@@ -10586,6 +10592,10 @@ alias
 is_html_doc
 None
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :

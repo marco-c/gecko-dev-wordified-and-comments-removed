@@ -641,6 +641,12 @@ PreInvoke
 }
 ;
 use
+script_traits
+:
+:
+DocumentActivity
+;
+use
 servo_atoms
 :
 :
@@ -9630,6 +9636,10 @@ alias
 is_html_document
 content_type
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :

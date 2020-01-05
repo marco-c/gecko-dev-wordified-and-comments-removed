@@ -250,6 +250,12 @@ window
 :
 Window
 ;
+use
+script_traits
+:
+:
+DocumentActivity
+;
 #
 [
 dom_struct
@@ -505,6 +511,10 @@ Some
 content_type
 )
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :
@@ -587,6 +597,10 @@ Some
 content_type
 )
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :

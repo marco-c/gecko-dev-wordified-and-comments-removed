@@ -377,6 +377,12 @@ script_thread
 ScriptThread
 ;
 use
+script_traits
+:
+:
+DocumentActivity
+;
+use
 servo_config
 :
 :
@@ -689,6 +695,10 @@ IsHTMLDocument
 HTMLDocument
 None
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :
