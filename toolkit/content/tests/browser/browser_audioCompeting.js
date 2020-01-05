@@ -519,6 +519,16 @@ audioCompeting
 "
 true
 ]
+[
+"
+dom
+.
+ipc
+.
+processCount
+"
+1
+]
 ]
 }
 resolve
