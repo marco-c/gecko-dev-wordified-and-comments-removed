@@ -54,7 +54,7 @@ CARGO
 "
 topsrcdir
 /
-cargo
+rustc
 /
 bin
 /
