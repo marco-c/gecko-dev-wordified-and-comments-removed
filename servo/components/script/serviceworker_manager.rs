@@ -426,7 +426,6 @@ if
 let
 Some
 (
-ref
 scope_url
 )
 =
@@ -633,10 +632,6 @@ active_workers
 insert
 (
 scope_url
-.
-clone
-(
-)
 scope_things
 .
 clone
