@@ -707,16 +707,6 @@ document
 22
 ]
 *
-.
-.
-.
-cjk
--
-decimal
-[
-1
-]
-*
 test_value_storage
 .
 html
@@ -2187,7 +2177,7 @@ test_rule_insertion
 .
 html
 [
-71
+94
 ]
 *
 CSSOM
