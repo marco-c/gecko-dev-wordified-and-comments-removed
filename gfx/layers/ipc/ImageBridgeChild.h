@@ -391,9 +391,6 @@ const
 uint64_t
 &
 aID
-PImageContainerChild
-*
-aChild
 )
 override
 ;
@@ -1221,6 +1218,16 @@ TextureClient
 >
 >
 mTexturesWaitingRecycled
+;
+nsDataHashtable
+<
+nsUint64HashKey
+RefPtr
+<
+ImageContainer
+>
+>
+mImageContainers
 ;
 }
 ;

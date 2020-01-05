@@ -360,16 +360,6 @@ aCompositor
 )
 override
 ;
-virtual
-void
-SetImageContainer
-(
-ImageContainerParent
-*
-aImageContainer
-)
-override
-;
 gfx
 :
 :
@@ -636,10 +626,6 @@ nsTArray
 TimedImage
 >
 mImages
-;
-ImageContainerParent
-*
-mImageContainer
 ;
 int32_t
 mLastFrameID

@@ -116,7 +116,7 @@ mImageContainer
 mImageContainer
 -
 >
-NotifyCompositeInternal
+NotifyComposite
 (
 aNotification
 )

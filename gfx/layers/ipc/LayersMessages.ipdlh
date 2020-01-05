@@ -2589,8 +2589,8 @@ ImageHost
 struct
 ImageCompositeNotification
 {
-PImageContainer
-imageContainer
+uint64_t
+asyncCompositableID
 ;
 TimeStamp
 imageTimeStamp

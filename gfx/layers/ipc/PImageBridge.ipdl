@@ -414,9 +414,6 @@ TextureInfo
 aInfo
 uint64_t
 aId
-nullable
-PImageContainer
-aImageContainer
 )
 ;
 async

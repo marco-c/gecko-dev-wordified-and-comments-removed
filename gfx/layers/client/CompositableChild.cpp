@@ -204,6 +204,8 @@ AsyncCompositableChild
 :
 CreateActor
 (
+uint64_t
+aAsyncID
 )
 {
 AsyncCompositableChild
@@ -213,6 +215,7 @@ child
 new
 AsyncCompositableChild
 (
+aAsyncID
 )
 ;
 child
@@ -231,6 +234,8 @@ AsyncCompositableChild
 :
 AsyncCompositableChild
 (
+uint64_t
+aAsyncID
 )
 :
 mLock
@@ -240,6 +245,10 @@ AsyncCompositableChild
 .
 mLock
 "
+)
+mAsyncID
+(
+aAsyncID
 )
 {
 }

@@ -7716,7 +7716,7 @@ mLayerManager
 {
 nsTArray
 <
-ImageCompositeNotification
+ImageCompositeNotificationInfo
 >
 notifications
 ;

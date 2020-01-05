@@ -1911,7 +1911,7 @@ void
 ImageContainer
 :
 :
-NotifyCompositeInternal
+NotifyComposite
 (
 const
 ImageCompositeNotification
