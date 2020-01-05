@@ -637,7 +637,9 @@ child_specified_height
 +
 child_box
 .
-noncontent_height
+border_padding
+.
+vertical
 (
 )
 )
@@ -779,7 +781,6 @@ let
 mut
 position
 =
-*
 self
 .
 block_flow
@@ -787,10 +788,6 @@ block_flow
 box_
 .
 border_box
-.
-borrow
-(
-)
 ;
 position
 .
@@ -800,7 +797,6 @@ height
 =
 height
 ;
-*
 self
 .
 block_flow
@@ -808,10 +804,6 @@ block_flow
 box_
 .
 border_box
-.
-borrow_mut
-(
-)
 =
 position
 ;
@@ -869,7 +861,7 @@ as_table_cell
 (
 )
 .
-box_
+mut_box
 (
 )
 ;
@@ -877,14 +869,9 @@ let
 mut
 position
 =
-*
 kid_box_
 .
 border_box
-.
-borrow
-(
-)
 ;
 position
 .
@@ -894,14 +881,9 @@ height
 =
 height
 ;
-*
 kid_box_
 .
 border_box
-.
-borrow_mut
-(
-)
 =
 position
 ;
