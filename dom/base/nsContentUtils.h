@@ -4522,7 +4522,6 @@ static
 bool
 IsContentInsertionPoint
 (
-const
 nsIContent
 *
 aContent

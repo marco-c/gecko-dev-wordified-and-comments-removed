@@ -3226,6 +3226,17 @@ return
 false
 ;
 }
+virtual
+bool
+IsHTMLContentElement
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 nsIURI
