@@ -16,6 +16,9 @@ typecheck
 '
 writeifmodified
 '
+'
+checkSyncMessage
+'
 ]
 import
 os
@@ -50,6 +53,12 @@ ipdl
 type
 import
 TypeCheck
+from
+ipdl
+.
+checker
+import
+checkSyncMessage
 from
 ipdl
 .
