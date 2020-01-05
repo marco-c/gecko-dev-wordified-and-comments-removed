@@ -1892,6 +1892,9 @@ ws2_32
 dbghelp
 '
 '
+dwmapi
+'
+'
 rasapi32
 '
 '

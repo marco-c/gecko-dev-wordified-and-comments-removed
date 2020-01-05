@@ -4138,9 +4138,6 @@ nullptr
 HRESULT
 hres
 =
-WinUtils
-:
-:
 SHGetKnownFolderPath
 (
 FOLDERID_ProgramFilesCommon
