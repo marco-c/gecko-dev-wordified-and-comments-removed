@@ -146,7 +146,7 @@ querySelectorAll
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -174,7 +174,7 @@ querySelectorAll
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -202,7 +202,7 @@ querySelectorAll
 .
 requests
 -
-menu
+list
 -
 timings
 -

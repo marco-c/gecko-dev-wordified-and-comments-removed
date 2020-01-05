@@ -84,7 +84,7 @@ ok
 #
 requests
 -
-menu
+list
 -
 waterfall
 -
@@ -115,7 +115,7 @@ all
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -229,7 +229,7 @@ ok
 #
 requests
 -
-menu
+list
 -
 waterfall
 -
@@ -259,7 +259,7 @@ all
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -298,7 +298,7 @@ all
 .
 requests
 -
-menu
+list
 -
 timings
 -
