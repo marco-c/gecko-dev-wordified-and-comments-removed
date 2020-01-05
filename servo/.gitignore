@@ -34,6 +34,7 @@ Servo
 .
 app
 build
+*
 objdir
 config
 .
