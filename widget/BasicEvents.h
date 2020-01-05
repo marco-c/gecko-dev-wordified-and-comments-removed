@@ -1406,6 +1406,12 @@ HasPluginActivationEventMessage
 const
 ;
 bool
+CanBeSentToRemoteProcess
+(
+)
+const
+;
+bool
 IsRetargetedNativeEventDelivererForPlugin
 (
 )
