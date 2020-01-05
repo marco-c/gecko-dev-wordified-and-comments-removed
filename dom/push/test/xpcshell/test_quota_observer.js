@@ -850,8 +850,6 @@ idle
 -
 daily
 '
-'
-'
 )
 ;
 yield

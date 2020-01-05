@@ -3041,7 +3041,6 @@ BrowserChrome
 :
 Ready
 "
-null
 )
 ;
 this
@@ -4106,8 +4105,6 @@ delayed
 startup
 -
 finished
-"
-"
 "
 )
 )
@@ -7923,8 +7920,6 @@ engine
 -
 migrated
 "
-"
-"
 )
 ;
 }
@@ -9931,7 +9926,6 @@ application
 -
 requested
 "
-null
 )
 ;
 if
@@ -9958,7 +9952,6 @@ application
 -
 proceeding
 "
-null
 )
 ;
 if
@@ -10475,8 +10468,6 @@ purge
 session
 -
 tabs
-"
-"
 "
 )
 ;
@@ -16628,8 +16619,6 @@ menu
 not
 -
 shown
-"
-"
 "
 )
 ;
@@ -26029,7 +26018,6 @@ Session
 :
 NotifyLocationChange
 "
-null
 )
 ;
 }
@@ -26196,7 +26184,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 }
@@ -26221,7 +26208,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 return
@@ -26249,7 +26235,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 return
@@ -26278,7 +26263,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 return
@@ -26307,7 +26291,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 return
@@ -26335,7 +26318,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 return
@@ -26363,7 +26345,6 @@ Content
 :
 HistoryChange
 "
-null
 )
 ;
 }
@@ -31680,7 +31661,6 @@ application
 -
 proceeding
 "
-null
 )
 ;
 SharedPreferences
@@ -38153,8 +38133,6 @@ lightweight
 theme
 -
 apply
-"
-"
 "
 )
 ;

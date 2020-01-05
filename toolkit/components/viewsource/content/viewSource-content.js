@@ -1745,7 +1745,6 @@ content
 -
 contextmenu
 "
-null
 )
 ;
 let

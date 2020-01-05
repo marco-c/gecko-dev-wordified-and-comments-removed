@@ -178,7 +178,6 @@ json
 -
 replace
 "
-null
 )
 ;
 yield

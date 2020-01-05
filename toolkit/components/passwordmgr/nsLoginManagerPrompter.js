@@ -4953,7 +4953,6 @@ LoginStats
 :
 NewSavedPassword
 "
-null
 )
 ;
 }
@@ -5751,7 +5750,6 @@ prompt
 -
 save
 "
-null
 )
 ;
 }
@@ -6204,7 +6202,6 @@ prompt
 -
 save
 "
-null
 )
 ;
 }

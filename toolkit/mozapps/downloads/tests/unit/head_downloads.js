@@ -37,7 +37,6 @@ quit
 -
 application
 "
-null
 )
 ;
 }

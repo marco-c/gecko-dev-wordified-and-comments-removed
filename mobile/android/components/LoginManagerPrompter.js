@@ -608,7 +608,6 @@ prompt
 -
 save
 "
-null
 )
 ;
 }

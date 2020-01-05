@@ -50,7 +50,6 @@ quit
 -
 application
 "
-null
 )
 ;
 }

@@ -194,7 +194,6 @@ storage
 -
 replace
 "
-null
 )
 ;
 yield

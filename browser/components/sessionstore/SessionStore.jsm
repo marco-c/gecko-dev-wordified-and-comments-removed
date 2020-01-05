@@ -4127,7 +4127,6 @@ notifyObservers
 (
 browser
 NOTIFY_TAB_RESTORED
-null
 )
 ;
 }
@@ -4996,8 +4995,6 @@ notifyObservers
 (
 null
 NOTIFY_WINDOWS_RESTORED
-"
-"
 )
 ;
 }
@@ -5094,8 +5091,6 @@ notifyObservers
 (
 null
 NOTIFY_WINDOWS_RESTORED
-"
-"
 )
 ;
 }
@@ -5716,8 +5711,6 @@ notifyObservers
 (
 null
 NOTIFY_RESTORING_ON_STARTUP
-"
-"
 )
 ;
 }
@@ -11443,8 +11436,6 @@ notifyObservers
 (
 null
 NOTIFY_INITIATING_MANUAL_RESTORE
-"
-"
 )
 ;
 let
@@ -14739,8 +14730,6 @@ notifyObservers
 (
 aWindow
 NOTIFY_SINGLE_WINDOW_RESTORED
-"
-"
 )
 ;
 this
@@ -17136,7 +17125,6 @@ notifyObservers
 (
 null
 NOTIFY_CLOSED_OBJECTS_CHANGED
-null
 )
 ;
 }
@@ -18710,8 +18698,6 @@ _browserSetState
 NOTIFY_BROWSER_STATE_RESTORED
 :
 NOTIFY_WINDOWS_RESTORED
-"
-"
 )
 ;
 this
@@ -20842,7 +20828,6 @@ notifyObservers
 (
 null
 NOTIFY_LAST_SESSION_CLEARED
-null
 )
 ;
 }

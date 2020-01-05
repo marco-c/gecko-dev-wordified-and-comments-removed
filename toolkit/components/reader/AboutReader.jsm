@@ -5038,8 +5038,6 @@ AboutReader
 :
 Ready
 "
-"
-"
 )
 ;
 this

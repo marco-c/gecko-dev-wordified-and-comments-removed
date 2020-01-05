@@ -505,7 +505,6 @@ context
 -
 exited
 "
-null
 )
 ;
 domain

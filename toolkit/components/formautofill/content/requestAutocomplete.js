@@ -176,8 +176,6 @@ window
 -
 initialized
 "
-"
-"
 )
 ;
 }

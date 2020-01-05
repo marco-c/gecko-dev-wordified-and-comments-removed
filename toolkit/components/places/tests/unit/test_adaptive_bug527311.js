@@ -617,7 +617,6 @@ enter
 -
 text
 "
-null
 )
 ;
 }

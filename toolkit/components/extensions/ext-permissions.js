@@ -296,7 +296,6 @@ permission
 -
 prompt
 "
-null
 )
 ;
 }

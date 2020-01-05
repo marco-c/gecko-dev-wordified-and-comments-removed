@@ -2852,7 +2852,6 @@ updates
 -
 done
 "
-null
 )
 ;
 AddonManagerPrivate

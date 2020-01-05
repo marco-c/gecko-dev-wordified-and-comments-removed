@@ -1027,7 +1027,6 @@ ViewCertDetails
 :
 CertUsagesDone
 "
-null
 )
 ;
 }

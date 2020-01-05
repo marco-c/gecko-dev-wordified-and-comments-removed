@@ -162,7 +162,6 @@ log
 -
 event
 "
-null
 )
 ;
 }

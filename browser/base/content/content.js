@@ -840,7 +840,6 @@ content
 -
 contextmenu
 "
-null
 )
 ;
 let

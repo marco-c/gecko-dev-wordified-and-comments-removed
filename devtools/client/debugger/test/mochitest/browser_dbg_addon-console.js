@@ -248,8 +248,6 @@ test
 -
 ping
 "
-"
-"
 )
 ;
 let

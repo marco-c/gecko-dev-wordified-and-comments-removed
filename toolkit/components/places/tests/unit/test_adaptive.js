@@ -499,7 +499,6 @@ enter
 -
 text
 "
-null
 )
 ;
 }

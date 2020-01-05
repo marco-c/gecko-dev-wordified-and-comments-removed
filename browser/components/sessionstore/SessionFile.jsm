@@ -1534,8 +1534,6 @@ write
 -
 complete
 "
-"
-"
 )
 ;
 }

@@ -694,7 +694,6 @@ notifyObservers
 (
 null
 SPEECH_RECOGNITION_TEST_END_TOPIC
-null
 )
 ;
 }

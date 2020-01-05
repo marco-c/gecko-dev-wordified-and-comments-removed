@@ -502,8 +502,6 @@ telemetry
 -
 updated
 "
-"
-"
 )
 ;
 }

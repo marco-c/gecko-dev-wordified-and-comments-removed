@@ -823,7 +823,6 @@ context
 -
 exited
 "
-null
 )
 ;
 check_cookie_presence

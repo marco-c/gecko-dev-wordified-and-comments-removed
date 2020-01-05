@@ -1910,8 +1910,6 @@ fullscreen
 -
 painted
 "
-"
-"
 )
 ;
 TelemetryStopwatch

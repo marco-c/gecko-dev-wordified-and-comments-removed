@@ -398,7 +398,7 @@ window
 openPreferences
 (
 "
-privacy
+advanced
 -
 reports
 "
@@ -474,7 +474,6 @@ policy
 :
 close
 "
-null
 )
 ;
 }

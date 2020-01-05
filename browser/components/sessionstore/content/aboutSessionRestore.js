@@ -674,8 +674,6 @@ manual
 -
 restore
 "
-"
-"
 )
 ;
 document

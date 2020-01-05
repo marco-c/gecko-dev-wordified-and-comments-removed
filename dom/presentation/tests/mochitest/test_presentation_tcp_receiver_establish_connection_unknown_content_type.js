@@ -208,7 +208,6 @@ request
 -
 promise
 '
-null
 )
 ;
 aResolve
