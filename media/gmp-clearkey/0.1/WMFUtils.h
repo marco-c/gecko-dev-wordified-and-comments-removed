@@ -204,6 +204,7 @@ nullptr
 )
 {
 }
+MOZ_IMPLICIT
 CComPtr
 (
 T
@@ -224,6 +225,7 @@ aPtr
 )
 ;
 }
+MOZ_IMPLICIT
 CComPtr
 (
 const
@@ -804,6 +806,7 @@ Forget
 )
 {
 }
+explicit
 AutoPtr
 (
 Type
