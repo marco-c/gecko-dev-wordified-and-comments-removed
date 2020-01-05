@@ -68,7 +68,7 @@ currently
 using
 revision
 :
-56
+114
 To
 upgrade
 to
@@ -207,6 +207,14 @@ ac
 Makefile
 .
 am
+'
+-
+'
+snappy
+.
+pc
+.
+in
 '
 5
 .
