@@ -1646,9 +1646,6 @@ extern
 C
 "
 {
-#
-ifdef
-DEBUG
 void
 Gecko_IncrementStringAdoptCount
 (
@@ -1667,8 +1664,6 @@ StringAdopt
 )
 ;
 }
-#
-endif
 void
 Gecko_FinalizeCString
 (
