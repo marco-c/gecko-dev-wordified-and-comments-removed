@@ -729,7 +729,7 @@ cx
 extern
 JSObject
 *
-CreateIterResultObject
+CreateItrResultObject
 (
 JSContext
 *

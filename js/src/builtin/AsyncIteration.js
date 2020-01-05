@@ -1,9 +1,0 @@
-function
-AsyncIteratorIdentity
-(
-)
-{
-return
-this
-;
-}
