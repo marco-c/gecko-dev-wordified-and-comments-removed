@@ -561,6 +561,8 @@ document
 let
 {
 environment
+:
+toDestroy
 }
 =
 highlighters
@@ -570,7 +572,7 @@ get
 document
 )
 ;
-environment
+toDestroy
 .
 destroy
 (

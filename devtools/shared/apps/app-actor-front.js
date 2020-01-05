@@ -447,10 +447,6 @@ toString
 return
 {
 name
-:
-name
-message
-:
 message
 }
 ;
@@ -504,8 +500,6 @@ PR_CREATE_FILE
 PR_TRUNCATE
 )
 ;
-this
-.
 addDirToZip
 (
 writer
@@ -629,8 +623,6 @@ progressCallback
 )
 ;
 }
-else
-{
 return
 uploadPackageJSON
 (
@@ -640,7 +632,6 @@ packageFile
 progressCallback
 )
 ;
-}
 }
 function
 uploadPackageJSON
@@ -831,7 +822,7 @@ bytes
 )
 ;
 let
-request
+chunkRequest
 =
 {
 to
@@ -843,15 +834,13 @@ type
 chunk
 "
 chunk
-:
-chunk
 }
 ;
 client
 .
 request
 (
-request
+chunkRequest
 (
 res
 )
@@ -912,7 +901,7 @@ actor
 )
 {
 let
-request
+doneRequest
 =
 {
 to
@@ -929,7 +918,7 @@ client
 .
 request
 (
-request
+doneRequest
 (
 res
 )
@@ -1045,7 +1034,7 @@ fileSize
 )
 ;
 let
-request
+streamRequest
 =
 client
 .
@@ -1066,7 +1055,7 @@ fileSize
 }
 )
 ;
-request
+streamRequest
 .
 on
 (
@@ -1399,6 +1388,7 @@ error
 in
 res
 )
+{
 deferred
 .
 reject
@@ -1417,7 +1407,9 @@ message
 }
 )
 ;
+}
 else
+{
 deferred
 .
 resolve
@@ -1432,6 +1424,7 @@ appId
 )
 ;
 }
+}
 )
 ;
 if
@@ -1441,6 +1434,7 @@ zipFile
 =
 file
 )
+{
 zipFile
 .
 remove
@@ -1448,6 +1442,7 @@ remove
 false
 )
 ;
+}
 deferred
 .
 promise
@@ -1566,6 +1561,7 @@ error
 in
 res
 )
+{
 deferred
 .
 reject
@@ -1584,7 +1580,9 @@ message
 }
 )
 ;
+}
 else
+{
 deferred
 .
 resolve
@@ -1598,6 +1596,7 @@ appId
 }
 )
 ;
+}
 }
 )
 ;
@@ -1635,6 +1634,7 @@ if
 (
 existingTarget
 )
+{
 return
 promise
 .
@@ -1643,6 +1643,7 @@ resolve
 existingTarget
 )
 ;
+}
 let
 deferred
 =
@@ -1852,8 +1853,6 @@ force
 :
 true
 }
-manifestURL
-:
 manifestURL
 }
 ;
@@ -2148,7 +2147,6 @@ res
 =
 >
 {
-return
 this
 .
 _form
@@ -2156,6 +2154,11 @@ _form
 res
 .
 actor
+;
+return
+this
+.
+_form
 ;
 }
 )
@@ -2241,12 +2244,16 @@ _target
 }
 )
 ;
-return
 this
 .
 _target
 =
 target
+;
+return
+this
+.
+_target
 ;
 }
 )
@@ -2678,8 +2685,6 @@ app
 )
 ;
 }
-else
-{
 let
 request
 =
@@ -2694,8 +2699,6 @@ type
 "
 getApp
 "
-manifestURL
-:
 manifestURL
 }
 ;
@@ -2715,7 +2718,6 @@ res
 =
 >
 {
-let
 app
 =
 new
@@ -2775,7 +2777,6 @@ e
 }
 )
 ;
-}
 }
 watchApps
 :
@@ -2852,7 +2853,6 @@ getAll
 "
 }
 ;
-return
 this
 .
 _loadingPromise
@@ -2935,7 +2935,7 @@ then
 >
 {
 let
-request
+listRequest
 =
 {
 to
@@ -2957,7 +2957,7 @@ client
 .
 request
 (
-request
+listRequest
 )
 .
 then
@@ -3055,6 +3055,11 @@ listener
 }
 )
 ;
+return
+this
+.
+_loadingPromise
+;
 }
 fetchIcons
 :
@@ -3072,7 +3077,6 @@ for
 (
 let
 [
-manifestURL
 app
 ]
 of

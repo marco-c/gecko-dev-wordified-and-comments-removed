@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 DevToolsWorker
@@ -46,9 +51,6 @@ function
 {
 try
 {
-let
-workerNotFound
-=
 new
 DevToolsWorker
 (
@@ -115,9 +117,6 @@ WORKER_URL
 ;
 try
 {
-let
-results
-=
 yield
 worker
 .
@@ -177,9 +176,6 @@ worker
 }
 try
 {
-let
-results
-=
 yield
 worker
 .
@@ -242,9 +238,6 @@ destroy
 ;
 try
 {
-let
-results
-=
 yield
 worker
 .

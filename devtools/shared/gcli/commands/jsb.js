@@ -6,8 +6,6 @@ strict
 const
 {
 Cc
-Ci
-Cu
 }
 =
 require
@@ -701,8 +699,8 @@ statusText
 ;
 }
 }
-;
 }
+;
 try
 {
 xhr

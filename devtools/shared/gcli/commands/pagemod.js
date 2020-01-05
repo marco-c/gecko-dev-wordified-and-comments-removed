@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -308,11 +307,11 @@ escapeRegex
 :
 function
 (
-aString
+string
 )
 {
 return
-aString
+string
 .
 replace
 (
@@ -1252,7 +1251,7 @@ attributes
 continue
 ;
 }
-var
+let
 attrs
 =
 Array
@@ -1506,8 +1505,8 @@ url
 )
 ;
 return
-'
-'
+"
+"
 ;
 }
 let
@@ -1542,8 +1541,8 @@ url
 )
 ;
 return
-'
-'
+"
+"
 ;
 }
 }

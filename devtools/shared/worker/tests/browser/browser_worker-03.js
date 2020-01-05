@@ -1,6 +1,10 @@
+"
+use
+strict
+"
+;
 const
 {
-DevToolsWorker
 workerify
 }
 =

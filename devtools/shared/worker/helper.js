@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 (
 function
 (
@@ -5,11 +10,6 @@ root
 factory
 )
 {
-"
-use
-strict
-"
-;
 if
 (
 typeof
@@ -73,11 +73,6 @@ function
 (
 )
 {
-"
-use
-strict
-"
-;
 function
 createTask
 (
@@ -196,9 +191,6 @@ return
 }
 try
 {
-let
-results
-;
 handleResponse
 (
 taskFn
@@ -210,12 +202,12 @@ data
 }
 catch
 (
-e
+ex
 )
 {
 handleError
 (
-e
+ex
 )
 ;
 }
@@ -317,7 +309,7 @@ error
 }
 catch
 (
-_
+x
 )
 {
 let
@@ -348,7 +340,7 @@ toString
 }
 catch
 (
-_
+ex
 )
 {
 errorString
@@ -390,7 +382,7 @@ stack
 }
 catch
 (
-_
+err
 )
 {
 }
@@ -420,11 +412,6 @@ createTask
 }
 ;
 }
-.
-bind
-(
-this
-)
 )
 )
 ;

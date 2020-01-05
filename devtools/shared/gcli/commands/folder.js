@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 CC
 }
 =
@@ -68,11 +67,11 @@ nsIProperties
 function
 showFolder
 (
-aPath
+path
 )
 {
 let
-nsLocalFile
+NSLocalFile
 =
 CC
 (
@@ -101,9 +100,9 @@ let
 file
 =
 new
-nsLocalFile
+NSLocalFile
 (
-aPath
+path
 )
 ;
 if
@@ -130,13 +129,11 @@ lookupFormat
 folderOpenDirResult
 "
 [
-aPath
+path
 ]
 )
 ;
 }
-else
-{
 return
 l10n
 .
@@ -147,7 +144,6 @@ folderInvalidPath
 "
 )
 ;
-}
 }
 catch
 (

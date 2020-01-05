@@ -44,7 +44,6 @@ id
 {
 let
 [
-_
 root
 path
 ]
@@ -181,7 +180,6 @@ push
 }
 }
 else
-{
 if
 (
 stack
@@ -219,7 +217,6 @@ pop
 (
 )
 ;
-}
 }
 break
 ;
@@ -1030,7 +1027,6 @@ object
 name
 ]
 ;
-return
 object
 [
 name
@@ -1042,6 +1038,12 @@ apply
 (
 object
 )
+;
+return
+object
+[
+name
+]
 ;
 }
 configurable
@@ -1191,15 +1193,9 @@ CC
 classes
 :
 Cc
-manager
-:
-Cm
 interfaces
 :
 Ci
-results
-:
-Cr
 utils
 :
 Cu
@@ -1471,8 +1467,6 @@ xpcInspector
 }
 ;
 }
-else
-{
 let
 requestors
 =
@@ -1624,7 +1618,6 @@ xpcInspector
 xpcInspector
 }
 ;
-}
 }
 )
 .
