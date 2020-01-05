@@ -141,7 +141,7 @@ GetBufferSubData
 GLenum
 target
 GLintptr
-offset
+srcByteOffset
 const
 dom
 :
@@ -149,6 +149,10 @@ dom
 ArrayBufferView
 &
 dstData
+GLuint
+dstElemOffset
+GLuint
+dstElemCountOverride
 )
 ;
 void

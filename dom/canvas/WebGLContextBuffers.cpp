@@ -1362,6 +1362,11 @@ size_t
 (
 size
 )
+(
+const
+uint8_t
+*
+)
 zeroBuffer
 .
 get
