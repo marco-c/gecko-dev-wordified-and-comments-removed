@@ -1877,7 +1877,7 @@ bounds
 struct
 RefLayerAttributes
 {
-int64_t
+uint64_t
 id
 ;
 /
