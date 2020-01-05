@@ -784,14 +784,6 @@ Namespace
 kwargs
 )
         
-options
-.
-topsrcdir
-=
-self
-.
-topsrcdir
-        
 from
 manifestparser
 import
