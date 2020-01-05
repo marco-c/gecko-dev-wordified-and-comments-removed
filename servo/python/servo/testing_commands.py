@@ -64,12 +64,14 @@ from
 update
 import
 updatecommandline
+from
+servo_tidy
 import
 tidy
 from
-tidy_self_test
+servo_tidy_tests
 import
-tidy_self_test
+test_tidy
 SCRIPT_PATH
 =
 os
@@ -2296,7 +2298,7 @@ self_test
 :
             
 return
-tidy_self_test
+test_tidy
 .
 do_tests
 (

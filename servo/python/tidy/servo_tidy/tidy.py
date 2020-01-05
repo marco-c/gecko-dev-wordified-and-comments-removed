@@ -480,7 +480,10 @@ join
 python
 "
 "
-tidy_self_test
+tidy
+"
+"
+servo_tidy_tests
 "
 )
     
@@ -624,16 +627,6 @@ join
 "
 )
 ]
-spec_base_path
-=
-"
-components
-/
-script
-/
-dom
-/
-"
 def
 is_iter_empty
 (
@@ -1814,6 +1807,9 @@ bitflags
 xml
 -
 rs
+"
+"
+byteorder
 "
 ]
     
@@ -4354,8 +4350,19 @@ lines
 )
 :
     
+base_path
+=
+"
+components
+/
+script
+/
+dom
+/
+"
+    
 if
-spec_base_path
+base_path
 not
 in
 file_name
@@ -4383,7 +4390,7 @@ file_name
 [
 0
 ]
-spec_base_path
+base_path
 )
     
 patt
