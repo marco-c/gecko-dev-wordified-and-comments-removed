@@ -51550,12 +51550,6 @@ MB
 "
 0
 )
-#
-if
-defined
-(
-JS_CODEGEN_ARM
-)
 |
 |
 !
@@ -51672,8 +51666,6 @@ instructions
 "
 1024
 )
-#
-endif
 #
 if
 defined

@@ -3516,6 +3516,15 @@ thunk
 -
 >
 base
++
+thunk
+-
+>
+codeRange
+.
+begin
+(
+)
 ;
 return
 builtinThunkVector_
