@@ -7621,6 +7621,7 @@ UpdateSubpageId
 parent_pipeline_id
 subpage_id
 new_subpage_id
+next_pipeline_id
 )
 ;
 let
