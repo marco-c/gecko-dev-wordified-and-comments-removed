@@ -20,7 +20,7 @@ ipc_channel
 ;
 extern
 crate
-rand
+servo_rand
 ;
 #
 [
@@ -140,7 +140,7 @@ IpcSender
 }
 ;
 use
-rand
+servo_rand
 :
 :
 Rng
@@ -2527,7 +2527,7 @@ let
 mut
 rng
 =
-rand
+servo_rand
 :
 :
 thread_rng

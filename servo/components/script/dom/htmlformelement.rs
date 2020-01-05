@@ -485,12 +485,6 @@ constellation_msg
 PipelineId
 ;
 use
-rand
-:
-:
-random
-;
-use
 script_thread
 :
 :
@@ -504,6 +498,12 @@ script_traits
 :
 :
 LoadData
+;
+use
+servo_rand
+:
+:
+random
 ;
 use
 std

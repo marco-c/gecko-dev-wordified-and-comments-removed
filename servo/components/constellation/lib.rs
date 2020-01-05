@@ -150,10 +150,6 @@ profile_traits
 ;
 extern
 crate
-rand
-;
-extern
-crate
 script_traits
 ;
 extern
@@ -171,6 +167,10 @@ serde_derive
 extern
 crate
 servo_config
+;
+extern
+crate
+servo_rand
 ;
 extern
 crate

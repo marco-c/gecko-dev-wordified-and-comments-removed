@@ -312,12 +312,6 @@ RequestType
 }
 ;
 use
-rand
-:
-:
-random
-;
-use
 script_runtime
 :
 :
@@ -349,6 +343,12 @@ TimerSource
 WorkerGlobalScopeInit
 WorkerScriptLoadOrigin
 }
+;
+use
+servo_rand
+:
+:
+random
 ;
 use
 servo_url

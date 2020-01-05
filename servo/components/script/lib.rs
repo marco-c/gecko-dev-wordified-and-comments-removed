@@ -369,10 +369,6 @@ profile_traits
 ;
 extern
 crate
-rand
-;
-extern
-crate
 range
 ;
 extern
@@ -426,6 +422,10 @@ servo_config
 extern
 crate
 servo_geometry
+;
+extern
+crate
+servo_rand
 ;
 extern
 crate
