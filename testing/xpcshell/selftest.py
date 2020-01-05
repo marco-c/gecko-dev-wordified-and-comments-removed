@@ -8281,8 +8281,10 @@ TypeError
 :
 generator
 function
-run_test
-returns
+can
+'
+t
+return
 a
 value
 at
