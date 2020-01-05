@@ -154,7 +154,7 @@ computed_values
 :
 {
 font_style
-font_variant
+font_variant_caps
 }
 ;
 use
@@ -361,7 +361,7 @@ pt_size
 Au
 variant
 :
-font_variant
+font_variant_caps
 :
 :
 T
@@ -387,7 +387,7 @@ actual_pt_size
 match
 variant
 {
-font_variant
+font_variant_caps
 :
 :
 T
@@ -402,7 +402,7 @@ scale_by
 (
 SMALL_CAPS_SCALE_FACTOR
 )
-font_variant
+font_variant_caps
 :
 :
 T
@@ -757,7 +757,7 @@ variant
 =
 style
 .
-font_variant
+font_variant_caps
 {
 fonts
 .
@@ -839,7 +839,7 @@ style
 font_size
 style
 .
-font_variant
+font_variant_caps
 template_info
 .
 font_key
@@ -1021,7 +1021,7 @@ variant
 =
 style
 .
-font_variant
+font_variant_caps
 {
 fonts
 .
@@ -1084,7 +1084,7 @@ style
 font_size
 style
 .
-font_variant
+font_variant_caps
 template_info
 .
 font_key

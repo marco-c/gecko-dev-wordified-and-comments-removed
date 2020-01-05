@@ -1014,7 +1014,7 @@ get_font
 font_style
 get_font
 .
-font_variant
+font_variant_caps
 get_font
 .
 font_weight

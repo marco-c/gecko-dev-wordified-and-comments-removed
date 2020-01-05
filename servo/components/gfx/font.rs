@@ -147,7 +147,7 @@ computed_values
 :
 {
 font_stretch
-font_variant
+font_variant_caps
 font_weight
 }
 ;
@@ -715,7 +715,7 @@ FontMetrics
 pub
 variant
 :
-font_variant
+font_variant_caps
 :
 :
 T
@@ -780,7 +780,7 @@ handle
 FontHandle
 variant
 :
-font_variant
+font_variant_caps
 :
 :
 T
@@ -1738,7 +1738,7 @@ self
 .
 variant
 {
-font_variant
+font_variant_caps
 :
 :
 T
@@ -1760,7 +1760,7 @@ next
 unwrap
 (
 )
-font_variant
+font_variant_caps
 :
 :
 T
