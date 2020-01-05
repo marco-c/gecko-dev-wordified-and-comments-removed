@@ -1332,12 +1332,6 @@ spiderMonkeyInterface
             
 self
 .
-needsRooting
-=
-False
-            
-self
-.
 returnType
 =
 '
@@ -1392,12 +1386,6 @@ isCallback
 (
 )
 :
-            
-self
-.
-needsRooting
-=
-False
             
 ty
 =
@@ -1463,12 +1451,6 @@ ty
         
 else
 :
-            
-self
-.
-needsRooting
-=
-True
             
 self
 .
