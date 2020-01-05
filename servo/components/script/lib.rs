@@ -33,9 +33,13 @@ const_fn
 #
 !
 [
+cfg_attr
+(
+debug_assertions
 feature
 (
 core_intrinsics
+)
 )
 ]
 #
@@ -279,6 +283,10 @@ extern
 crate
 ipc_channel
 ;
+#
+[
+macro_use
+]
 extern
 crate
 js
