@@ -8195,6 +8195,17 @@ rv
 )
 )
 {
+NS_WARNING
+(
+"
+nsPrintEngine
+:
+:
+AfterNetworkPrint
+failed
+"
+)
+;
 CleanupOnFailure
 (
 rv

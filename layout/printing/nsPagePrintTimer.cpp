@@ -731,6 +731,17 @@ Fail
 (
 )
 {
+NS_WARNING
+(
+"
+nsPagePrintTimer
+:
+:
+Fail
+called
+"
+)
+;
 mDone
 =
 true
