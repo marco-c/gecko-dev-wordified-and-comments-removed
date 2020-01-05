@@ -104,16 +104,10 @@ assert_basic_pseudo_elements
 )
 {
 let
-mut
 saw_before
-=
-false
 ;
 let
-mut
 saw_after
-=
-false
 ;
 macro_rules
 !
