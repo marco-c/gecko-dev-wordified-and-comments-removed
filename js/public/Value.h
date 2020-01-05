@@ -817,7 +817,7 @@ JSWhyMagic
 if
 defined
 (
-IS_LITTLE_ENDIAN
+MOZ_LITTLE_ENDIAN
 )
 #
 if
