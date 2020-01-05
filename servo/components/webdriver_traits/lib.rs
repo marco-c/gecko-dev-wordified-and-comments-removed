@@ -61,6 +61,13 @@ EvaluateJSReply
 >
 >
 )
+GetTitle
+(
+Sender
+<
+String
+>
+)
 }
 pub
 enum
