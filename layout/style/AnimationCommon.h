@@ -458,13 +458,6 @@ aPseudoType
 mPseudoType
 ;
 }
-nsPresContext
-*
-GetRenderedPresContext
-(
-)
-const
-;
 private
 :
 dom

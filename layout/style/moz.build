@@ -816,11 +816,6 @@ AnimationCollection
 cpp
 '
 '
-AnimationCommon
-.
-cpp
-'
-'
 BindingStyleRule
 .
 cpp
