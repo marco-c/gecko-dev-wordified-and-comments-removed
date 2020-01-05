@@ -824,6 +824,10 @@ mDisabled
 DocumentAssociationMode
 mDocumentAssociationMode
 ;
+StyleSheetInfo
+*
+mInner
+;
 friend
 class
 :

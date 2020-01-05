@@ -122,6 +122,10 @@ mDocumentAssociationMode
 (
 NotOwnedByDocument
 )
+mInner
+(
+nullptr
+)
 {
 }
 StyleSheet
@@ -180,6 +184,12 @@ mDisabled
 mDocumentAssociationMode
 (
 NotOwnedByDocument
+)
+mInner
+(
+aCopy
+.
+mInner
 )
 {
 if
