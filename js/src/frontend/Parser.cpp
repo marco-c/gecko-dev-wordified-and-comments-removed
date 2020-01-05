@@ -2464,7 +2464,7 @@ cx
 Kind
 :
 :
-ObjectBox
+FunctionBox
 directives
 extraWarnings
 )
