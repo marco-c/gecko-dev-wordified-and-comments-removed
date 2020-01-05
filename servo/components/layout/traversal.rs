@@ -1635,14 +1635,6 @@ self
 layout_context
 )
 ;
-if
-!
-flow
-.
-is_store_overflow_delayed
-(
-)
-{
 flow
 .
 store_overflow
@@ -1652,7 +1644,6 @@ self
 layout_context
 )
 ;
-}
 }
 #
 [

@@ -279,7 +279,7 @@ position
 :
 Rect
 <
-uint
+i32
 >
 pub
 background_color

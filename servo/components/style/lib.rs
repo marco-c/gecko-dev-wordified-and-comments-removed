@@ -229,7 +229,10 @@ use
 properties
 :
 :
+{
 is_supported_property
+make_inline
+}
 ;
 pub
 use
