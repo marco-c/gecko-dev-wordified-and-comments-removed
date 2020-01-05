@@ -349,6 +349,10 @@ nsPrincipal
 (
 )
 :
+BasePrincipal
+(
+eCodebasePrincipal
+)
 mCodebaseImmutable
 (
 false

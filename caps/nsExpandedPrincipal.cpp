@@ -177,6 +177,11 @@ OriginAttributes
 &
 aAttrs
 )
+:
+BasePrincipal
+(
+eExpandedPrincipal
+)
 {
 OriginComparator
 c

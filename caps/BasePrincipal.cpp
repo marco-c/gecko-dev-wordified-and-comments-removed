@@ -1276,6 +1276,13 @@ BasePrincipal
 :
 BasePrincipal
 (
+PrincipalKind
+aKind
+)
+:
+mKind
+(
+aKind
 )
 {
 }
