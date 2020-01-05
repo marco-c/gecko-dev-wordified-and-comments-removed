@@ -85,6 +85,14 @@ libpng
 -
 devel
 '
+'
+expat
+-
+devel
+'
+'
+gperf
+'
 ]
     
 '

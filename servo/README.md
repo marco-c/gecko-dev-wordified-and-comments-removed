@@ -142,9 +142,6 @@ libtool
 libfreetype6
 -
 dev
-libfontconfig1
--
-dev
 libgl1
 -
 mesa
@@ -155,11 +152,12 @@ libglib2
 0
 -
 dev
-\
 xorg
 -
 dev
+\
 msttcorefonts
+gperf
 On
 Debian
 -
