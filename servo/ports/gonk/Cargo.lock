@@ -30070,7 +30070,7 @@ servo
 /
 webrender
 #
-e794f5ce81aa78bb0f28c785e2ae0de28d23bdd8
+38031eed57b2df8a57e4cff576e2b5b6f2cd8316
 "
 dependencies
 =
@@ -30510,7 +30510,7 @@ servo
 /
 webrender_traits
 #
-2b94ca36e6f5e13abf14d242524b24b9cf0c7c79
+94f16f55e65d735a9c1dc38733937cb2774322e1
 "
 dependencies
 =
