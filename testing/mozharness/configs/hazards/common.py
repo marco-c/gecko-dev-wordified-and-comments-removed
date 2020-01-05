@@ -375,20 +375,6 @@ manifest
 "
     
 '
-b2g_compiler_manifest
-'
-:
-"
-build
-/
-gcc
--
-b2g
-.
-manifest
-"
-    
-'
 sixgill_manifest
 '
 :
