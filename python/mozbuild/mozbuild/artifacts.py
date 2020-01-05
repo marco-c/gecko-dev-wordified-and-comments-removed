@@ -366,6 +366,8 @@ import
 ensureParentDir
     
 FileAvoidWrite
+    
+mkdir
 )
 import
 mozinstall
@@ -4228,6 +4230,14 @@ self
 _log
 =
 log
+        
+mkdir
+(
+cache_dir
+not_indexed
+=
+True
+)
     
 def
 log
@@ -5561,6 +5571,23 @@ endswith
 pickle
 '
 )
+or
+\
+                
+os
+.
+path
+.
+basename
+(
+path
+)
+=
+=
+'
+.
+metadata_never_index
+'
 :
             
 return
@@ -5873,6 +5900,14 @@ skip_cache
 False
 )
 :
+        
+mkdir
+(
+cache_dir
+not_indexed
+=
+True
+)
         
 self
 .
