@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -125,6 +130,9 @@ to
 read
 a
 file
+"
++
+"
 that
 is
 not

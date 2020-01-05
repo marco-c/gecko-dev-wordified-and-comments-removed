@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -319,6 +324,9 @@ a
 list
 of
 children
+"
++
+"
 or
 undefined
 meaning

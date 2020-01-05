@@ -1,13 +1,20 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
 )
 {
-var
+let
 dbg
 =
 new
 Debugger
+(
+)
 ;
 function
 checkProperties
@@ -26,6 +33,7 @@ object
 ;
 for
 (
+let
 prop
 of
 Object
@@ -36,7 +44,7 @@ census
 )
 )
 {
-var
+let
 desc
 =
 Object
@@ -84,6 +92,7 @@ value
 object
 "
 )
+{
 checkProperties
 (
 desc
@@ -91,7 +100,9 @@ desc
 value
 )
 ;
+}
 else
+{
 equal
 (
 typeof
@@ -105,6 +116,7 @@ number
 ;
 }
 }
+}
 checkProperties
 (
 saveHeapSnapshotAndTakeCensus
@@ -113,7 +125,7 @@ dbg
 )
 )
 ;
-var
+let
 g
 =
 newGlobal

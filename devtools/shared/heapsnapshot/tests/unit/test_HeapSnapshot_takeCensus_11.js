@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 doLiveAndOfflineCensus
 (
@@ -120,14 +125,14 @@ run_test
 (
 )
 {
-var
+let
 g
 =
 newGlobal
 (
 )
 ;
-var
+let
 dbg
 =
 new
@@ -172,7 +177,7 @@ prevBytes
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -569,12 +574,9 @@ return
 1
 ;
 }
-else
-{
 return
 0
 ;
-}
 }
 ;
 liveEntries

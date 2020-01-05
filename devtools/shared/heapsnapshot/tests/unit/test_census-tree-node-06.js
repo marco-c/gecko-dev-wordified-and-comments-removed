@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -43,12 +48,6 @@ bytes
 true
 }
 }
-;
-let
-stack1
-stack2
-stack3
-stack4
 ;
 function
 a

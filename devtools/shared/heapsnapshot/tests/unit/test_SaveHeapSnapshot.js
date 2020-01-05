@@ -510,6 +510,8 @@ dbg
 =
 new
 Debugger
+(
+)
 ;
 let
 sandboxes
@@ -578,6 +580,8 @@ dbg
 =
 new
 Debugger
+(
+)
 ;
 ChromeUtils
 .

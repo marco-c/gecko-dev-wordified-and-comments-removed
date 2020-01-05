@@ -3,14 +3,14 @@ run_test
 (
 )
 {
-var
+let
 g
 =
 newGlobal
 (
 )
 ;
-var
+let
 dbg
 =
 new

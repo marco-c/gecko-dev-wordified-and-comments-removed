@@ -924,10 +924,10 @@ if
 (
 !
 (
-0
-<
-=
 dominatorTreeId
+>
+=
+0
 &
 &
 dominatorTreeId
@@ -1102,10 +1102,10 @@ if
 (
 !
 (
-0
-<
-=
 dominatorTreeId
+>
+=
+0
 &
 &
 dominatorTreeId

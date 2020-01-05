@@ -635,7 +635,7 @@ insert
 =
 function
 (
-tree
+nodeTree
 path
 newChildren
 moreChildrenAvailable
@@ -741,7 +741,7 @@ tree
 return
 insert
 (
-tree
+nodeTree
 0
 )
 ;

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 console
 .
 log
@@ -90,7 +95,7 @@ DominatorTree
 }
 catch
 (
-e
+excp
 )
 {
 threw
@@ -114,7 +119,7 @@ usable
 }
 catch
 (
-e
+ex
 )
 {
 ok
@@ -130,7 +135,7 @@ worker
 n
 "
 +
-e
+ex
 .
 toString
 (
@@ -141,7 +146,7 @@ toString
 n
 "
 +
-e
+ex
 .
 stack
 )

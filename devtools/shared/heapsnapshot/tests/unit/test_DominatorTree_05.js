@@ -1,9 +1,14 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
 )
 {
-var
+let
 dominatorTree
 =
 saveHeapSnapshotAndComputeDominatorTree
@@ -28,7 +33,7 @@ function
 "
 )
 ;
-var
+let
 root
 =
 dominatorTree
@@ -55,7 +60,7 @@ parent
 "
 )
 ;
-var
+let
 seen
 =
 new
@@ -63,7 +68,7 @@ Set
 (
 )
 ;
-var
+let
 stack
 =
 [
@@ -79,7 +84,7 @@ length
 0
 )
 {
-var
+let
 top
 =
 stack
@@ -115,6 +120,9 @@ shouldn
 '
 t
 have
+"
++
+"
 multiple
 edges
 to
@@ -162,7 +170,7 @@ size
 )
 ;
 }
-var
+let
 newNodes
 =
 dominatorTree
@@ -212,7 +220,7 @@ ids
 )
 ;
 }
-var
+let
 topSize
 =
 dominatorTree
@@ -222,14 +230,14 @@ getRetainedSize
 top
 )
 ;
-var
+let
 lastSize
 =
 Infinity
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -309,7 +317,7 @@ parent
 )
 ;
 }
-var
+let
 thisSize
 =
 dominatorTree
@@ -343,6 +351,9 @@ the
 dominator
 tree
 should
+"
++
+"
 always
 be
 less

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -331,9 +336,12 @@ report
 ;
 equal
 (
-map
+Object
 .
-__proto__
+getPrototypeOf
+(
+map
+)
 .
 constructor
 .

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 waitForThirtyMilliseconds
 (
@@ -24,7 +29,8 @@ start
 <
 30
 )
-;
+{
+}
 }
 function
 run_test

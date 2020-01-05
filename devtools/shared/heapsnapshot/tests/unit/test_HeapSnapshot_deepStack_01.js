@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 stackDepth
 (
@@ -84,8 +89,10 @@ n
 =
 0
 )
+{
 return
 ;
+}
 recursiveAllocate
 (
 n
