@@ -339,6 +339,7 @@ u8
 fn
 parse_err
 (
++
 err
 :
 ~
@@ -368,6 +369,7 @@ str
 fn
 expect_ident
 (
++
 expected
 :
 ~
@@ -583,6 +585,7 @@ ch
 fn
 parse_err
 (
++
 err
 :
 ~
@@ -797,6 +800,7 @@ result
 fn
 expect_ident
 (
++
 expected
 :
 ~

@@ -422,7 +422,9 @@ take
 }
 Draw
 (
+move
 sender
+move
 dt
 )
 =
@@ -442,11 +444,8 @@ do_draw
 (
 sender
 dt
-.
-clone
-(
-)
 output
+&
 cairo_surface
 )
 ;
@@ -462,6 +461,7 @@ break
 fn
 do_draw
 (
++
 sender
 :
 pipes
@@ -486,6 +486,7 @@ u8
 >
 cairo_surface
 :
+&
 ImageSurface
 )
 {
