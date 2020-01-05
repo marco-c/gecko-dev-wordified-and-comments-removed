@@ -277,7 +277,7 @@ input
 =
 l10n
 .
-lookupFormat
+lookup
 (
 '
 helpManOptional
