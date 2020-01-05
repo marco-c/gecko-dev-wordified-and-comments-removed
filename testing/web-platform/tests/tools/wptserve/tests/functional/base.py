@@ -10,12 +10,39 @@ import
 os
 import
 unittest
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
 import
-urllib2
+urlencode
+urlunsplit
+from
+six
+.
+moves
+.
+urllib
+.
+request
 import
-urlparse
+Request
+as
+BaseRequest
+from
+six
+.
+moves
+.
+urllib
+.
+request
+import
+urlopen
 import
 wptserve
 logging
@@ -64,9 +91,7 @@ docroot
 class
 Request
 (
-urllib2
-.
-Request
+BaseRequest
 )
 :
     
@@ -82,9 +107,7 @@ kwargs
 )
 :
         
-urllib2
-.
-Request
+BaseRequest
 .
 __init__
 (
@@ -136,8 +159,6 @@ iteritems
             
 data
 =
-urllib
-.
 urlencode
 (
 data
@@ -166,9 +187,7 @@ data
 )
 )
         
-urllib2
-.
-Request
+BaseRequest
 .
 add_data
 (
@@ -260,8 +279,6 @@ None
 :
         
 return
-urlparse
-.
 urlunsplit
 (
 (
@@ -419,8 +436,6 @@ auth
 )
         
 return
-urllib2
-.
 urlopen
 (
 req

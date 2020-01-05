@@ -106,11 +106,12 @@ self
 body
 )
     
-staticmethod
+classmethod
     
 def
 from_http_response
 (
+cls
 http_response
 )
 :
@@ -194,7 +195,7 @@ in
 body
         
 return
-Response
+cls
 (
 status
 body

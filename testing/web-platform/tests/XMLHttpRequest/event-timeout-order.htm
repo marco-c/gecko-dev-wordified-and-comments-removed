@@ -290,15 +290,14 @@ Message
 "
 )
 ;
-setTimeout
-(
 test
 .
-step_func
+step_timeout
 (
-function
 (
 )
+=
+>
 {
 assert_unreached
 (
@@ -311,7 +310,6 @@ called
 )
 ;
 }
-)
 10
 )
 ;

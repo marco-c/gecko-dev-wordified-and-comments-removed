@@ -7,9 +7,17 @@ pytest
 import
 unittest
 import
-urllib2
-import
 uuid
+from
+six
+.
+moves
+.
+urllib
+.
+error
+import
+HTTPError
 import
 wptserve
 from
@@ -1100,8 +1108,6 @@ self
 .
 assertRaises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -1178,8 +1184,6 @@ self
 .
 assertRaises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -1578,8 +1582,6 @@ pytest
 .
 raises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -2122,8 +2124,6 @@ pytest
 .
 raises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -2947,8 +2947,6 @@ pytest
 .
 raises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -2989,8 +2987,6 @@ pytest
 .
 raises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -3031,8 +3027,6 @@ pytest
 .
 raises
 (
-urllib2
-.
 HTTPError
 )
 as
@@ -3183,8 +3177,6 @@ pytest
 .
 raises
 (
-urllib2
-.
 HTTPError
 )
 as

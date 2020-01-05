@@ -408,7 +408,7 @@ function
 (
 )
 {
-setTimeout
+step_timeout
 (
 t
 .

@@ -8,7 +8,7 @@ setInterval
 10
 )
 ;
-setTimeout
+step_timeout
 (
 function
 (

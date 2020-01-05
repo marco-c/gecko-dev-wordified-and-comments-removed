@@ -442,7 +442,7 @@ Garbage
 -
 collecting
 a
-ReadableStreamReader
+ReadableStreamDefaultReader
 should
 not
 unlock

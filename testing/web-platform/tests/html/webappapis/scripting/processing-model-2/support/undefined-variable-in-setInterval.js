@@ -9,7 +9,7 @@ undefined_variable
 10
 )
 ;
-setTimeout
+step_timeout
 (
 function
 (
