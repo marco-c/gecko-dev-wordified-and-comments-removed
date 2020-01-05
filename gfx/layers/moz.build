@@ -421,6 +421,13 @@ h
 '
 d3d11
 /
+DeviceAttachmentsD3D11
+.
+h
+'
+'
+d3d11
+/
 DiagnosticsD3D11
 .
 h
