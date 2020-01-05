@@ -3277,6 +3277,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_spreadcall
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_call
 (
 uint32_t
