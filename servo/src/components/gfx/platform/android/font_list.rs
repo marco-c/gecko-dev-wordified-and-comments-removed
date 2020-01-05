@@ -61,12 +61,6 @@ UsedFontStyle
 }
 ;
 use
-font_context
-:
-:
-FontContextHandleMethods
-;
-use
 font_list
 :
 :
@@ -332,7 +326,6 @@ family_name
 let
 new_family
 =
-mut
 FontFamily
 :
 :
@@ -374,6 +367,7 @@ load_variations_for_family
 self
 family
 :
+&
 mut
 FontFamily
 )
@@ -386,6 +380,8 @@ getting
 variations
 for
 {
+:
+?
 }
 "
 family
@@ -886,6 +882,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {

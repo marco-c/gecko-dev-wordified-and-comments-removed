@@ -646,6 +646,10 @@ azure
 \
 rust
 -
+egl
+\
+rust
+-
 freetype
 \
 rust
@@ -675,6 +679,10 @@ DEPS_rust
 layers
 +
 =
+\
+rust
+-
+egl
 \
 rust
 -

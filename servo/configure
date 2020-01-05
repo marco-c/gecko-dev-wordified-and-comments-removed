@@ -1884,6 +1884,8 @@ android
 )
 CFG_PATH
 =
+PATH
+:
 "
 {
 CFG_ANDROID_CROSS_PATH
@@ -1891,8 +1893,6 @@ CFG_ANDROID_CROSS_PATH
 /
 bin
 "
-:
-PATH
 OLD_PATH
 =
 PATH
@@ -2973,6 +2973,14 @@ glut
 rust
 -
 glut
+\
+support
+/
+egl
+/
+rust
+-
+egl
 \
 platform
 /
