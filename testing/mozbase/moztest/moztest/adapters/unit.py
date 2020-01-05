@@ -781,7 +781,7 @@ call_callbacks
 (
 test
 "
-FAIL
+ERROR
 "
 )
         
@@ -871,17 +871,14 @@ test
 id
 (
 )
-                             
 "
 PASS
 "
-                             
 expected
 =
 "
 PASS
 "
-                             
 extra
 =
 extra
@@ -904,7 +901,7 @@ call_callbacks
 (
 test
 "
-FAIL
+ERROR
 "
 )
         
@@ -982,7 +979,7 @@ call_callbacks
 (
 test
 "
-PASS
+ERROR
 "
 )
         
@@ -1042,7 +1039,7 @@ call_callbacks
 (
 test
 "
-SKIP
+ERROR
 "
 )
         

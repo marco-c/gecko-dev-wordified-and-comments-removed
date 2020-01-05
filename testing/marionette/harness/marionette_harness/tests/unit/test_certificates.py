@@ -8,21 +8,12 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip
 class
 TestCertificates
 (
 MarionetteTestCase
 )
 :
-    
-skip
-(
-"
-Bug
-1325079
-"
-)
     
 def
 test_block_insecure_sites
@@ -125,14 +116,6 @@ https
 )
 )
     
-skip
-(
-"
-Bug
-1325079
-"
-)
-    
 def
 test_accept_all_insecure
 (
@@ -215,13 +198,9 @@ marionette
 url
 )
     
-skip
-(
 "
-Bug
-1325079
 "
-)
+"
     
 def
 test_accept_some_insecure
@@ -310,3 +289,7 @@ marionette
 .
 url
 )
+    
+"
+"
+"

@@ -77,7 +77,7 @@ moztest
 =
 0
 .
-8
+7
 mozversion
 >
 =
