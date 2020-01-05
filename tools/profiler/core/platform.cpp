@@ -8236,6 +8236,13 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+SamplerThread
+"
+)
+;
 TimeDuration
 lastSleepOvershoot
 =
