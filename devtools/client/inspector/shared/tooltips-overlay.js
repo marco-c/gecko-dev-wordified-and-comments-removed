@@ -1371,6 +1371,9 @@ imageUrl
 hideDimensionLabel
 :
 true
+hideCheckeredBackground
+:
+true
 maxDim
 naturalWidth
 naturalHeight
