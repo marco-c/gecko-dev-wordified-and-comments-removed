@@ -191,10 +191,7 @@ mod
 compositor_task
 ;
 mod
-compositor_data
-;
-mod
-events
+compositor_layer
 ;
 mod
 compositor
