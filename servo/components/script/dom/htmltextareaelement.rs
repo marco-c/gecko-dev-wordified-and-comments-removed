@@ -363,6 +363,15 @@ Runnable
 }
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+ConstellationChan
+;
+use
 util
 :
 :
@@ -411,6 +420,9 @@ textinput
 DOMRefCell
 <
 TextInput
+<
+ConstellationChan
+>
 >
 cols
 :
@@ -765,10 +777,7 @@ Multiple
 to_owned
 (
 )
-Some
-(
 chan
-)
 )
 )
 cols

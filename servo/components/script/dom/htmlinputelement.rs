@@ -434,6 +434,15 @@ Lines
 Single
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+ConstellationChan
+;
+use
 util
 :
 :
@@ -599,6 +608,9 @@ textinput
 DOMRefCell
 <
 TextInput
+<
+ConstellationChan
+>
 >
 activation_state
 :
@@ -893,10 +905,7 @@ Single
 to_owned
 (
 )
-Some
-(
 chan
-)
 )
 )
 activation_state

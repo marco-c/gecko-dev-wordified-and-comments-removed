@@ -2,6 +2,10 @@ extern
 crate
 script
 ;
+extern
+crate
+msg
+;
 #
 [
 cfg
