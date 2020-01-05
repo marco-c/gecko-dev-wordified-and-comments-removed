@@ -3496,17 +3496,6 @@ SyntaxTreeVisitor
 "
 ]
 "
-parsingTestHelpers
-.
-jsm
-"
-:
-[
-"
-generateURIsFromDirTree
-"
-]
-"
 passwords
 .
 js
