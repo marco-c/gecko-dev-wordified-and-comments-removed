@@ -6878,6 +6878,13 @@ false
 ;
 }
 }
+{
+StaticMutexAutoLock
+locker
+(
+gTelemetryHistogramMutex
+)
+;
 internal_Accumulate
 (
 *
@@ -6885,6 +6892,7 @@ h
 value
 )
 ;
+}
 return
 true
 ;
@@ -8106,6 +8114,13 @@ false
 ;
 }
 }
+{
+StaticMutexAutoLock
+locker
+(
+gTelemetryHistogramMutex
+)
+;
 internal_Accumulate
 (
 *
@@ -8117,6 +8132,7 @@ key
 value
 )
 ;
+}
 return
 true
 ;
