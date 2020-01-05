@@ -663,10 +663,6 @@ columnNumber
 message
 .
 messageText
-!
-=
-=
-null
 &
 &
 message
@@ -692,10 +688,6 @@ toLocaleLowerCase
 message
 .
 parameters
-!
-=
-=
-null
 &
 &
 message
@@ -756,10 +748,6 @@ frame
 note
 .
 messageBody
-!
-=
-=
-null
 &
 &
 note
