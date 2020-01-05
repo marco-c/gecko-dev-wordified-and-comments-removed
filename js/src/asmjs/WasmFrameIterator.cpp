@@ -4146,7 +4146,7 @@ funcNonProfilingEntry
 MacroAssembler
 :
 :
-repatchThunk
+repatchFarJump
 (
 code
 .
