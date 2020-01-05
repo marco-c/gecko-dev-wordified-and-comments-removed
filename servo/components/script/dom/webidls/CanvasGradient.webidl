@@ -105,6 +105,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 canvasgradient
 /

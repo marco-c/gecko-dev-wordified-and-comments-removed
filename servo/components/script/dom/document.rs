@@ -8022,6 +8022,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -10020,6 +10022,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -10272,6 +10276,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 document
@@ -10532,6 +10538,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 document
@@ -10966,6 +10974,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -11067,6 +11077,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -11110,6 +11122,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -11272,6 +11286,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -11629,6 +11645,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -11768,6 +11786,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -11853,6 +11873,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -11940,6 +11962,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -11978,6 +12002,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -12065,6 +12091,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -12150,6 +12178,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -12237,6 +12267,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -12322,6 +12354,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -12421,6 +12455,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
@@ -13493,6 +13529,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -14243,6 +14281,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom

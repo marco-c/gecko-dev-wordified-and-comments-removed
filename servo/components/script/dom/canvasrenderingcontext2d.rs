@@ -6586,6 +6586,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 dom
 -
@@ -6632,6 +6634,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 dom
