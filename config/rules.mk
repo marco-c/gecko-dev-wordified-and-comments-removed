@@ -7221,6 +7221,8 @@ of
 this
 for
 ASan
+/
+TSan
 builds
 results
 in
@@ -7245,6 +7247,8 @@ now
 .
 ifndef
 MOZ_ASAN
+ifndef
+MOZ_TSAN
 target_cargo_env_vars
 :
 =
@@ -7278,6 +7282,9 @@ build
 cargo
 -
 linker
+endif
+#
+MOZ_TSAN
 endif
 #
 MOZ_ASAN
