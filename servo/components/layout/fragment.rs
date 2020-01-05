@@ -178,7 +178,10 @@ msg
 constellation_msg
 :
 :
+{
+FrameId
 PipelineId
+}
 ;
 use
 net_traits
@@ -2244,6 +2247,10 @@ struct
 IframeFragmentInfo
 {
 pub
+frame_id
+:
+FrameId
+pub
 pipeline_id
 :
 PipelineId
@@ -2270,6 +2277,15 @@ N
 IframeFragmentInfo
 {
 let
+frame_id
+=
+node
+.
+iframe_frame_id
+(
+)
+;
+let
 pipeline_id
 =
 node
@@ -2280,6 +2296,9 @@ iframe_pipeline_id
 ;
 IframeFragmentInfo
 {
+frame_id
+:
+frame_id
 pipeline_id
 :
 pipeline_id

@@ -50,7 +50,10 @@ msg
 constellation_msg
 :
 :
+{
+FrameId
 PipelineId
+}
 ;
 use
 range
@@ -1544,6 +1547,16 @@ Option
 <
 SVGSVGData
 >
+;
+fn
+iframe_frame_id
+(
+&
+self
+)
+-
+>
+FrameId
 ;
 fn
 iframe_pipeline_id

@@ -258,7 +258,7 @@ msg
 constellation_msg
 :
 :
-PipelineId
+FrameId
 ;
 use
 net_traits
@@ -1389,7 +1389,7 @@ iframe_sizes
 Vec
 <
 (
-PipelineId
+FrameId
 TypedSize2D
 <
 f32
@@ -11670,7 +11670,7 @@ push
 (
 fragment_info
 .
-pipeline_id
+frame_id
 TypedSize2D
 :
 :

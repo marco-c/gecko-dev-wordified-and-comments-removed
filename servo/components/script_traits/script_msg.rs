@@ -188,7 +188,7 @@ FrameSizes
 Vec
 <
 (
-PipelineId
+FrameId
 TypedSize2D
 <
 f32
@@ -443,7 +443,7 @@ ScriptLoadedURLInIFrame
 (
 IFrameLoadInfoWithData
 )
-ScriptLoadedAboutBlankInIFrame
+ScriptNewIFrame
 (
 IFrameLoadInfo
 IpcSender
