@@ -322,6 +322,7 @@ constellation_msg
 {
 WebDriverCommandMsg
 WindowSizeData
+WindowSizeType
 }
 ;
 use
@@ -490,9 +491,10 @@ SubpageId
 >
 NavigationDirection
 )
-ResizedWindow
+WindowSize
 (
 WindowSizeData
+WindowSizeType
 )
 TickAnimation
 (

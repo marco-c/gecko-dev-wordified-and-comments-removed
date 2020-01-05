@@ -191,6 +191,7 @@ ConstellationChan
 PanicMsg
 PipelineId
 WindowSizeData
+WindowSizeType
 }
 ;
 use
@@ -459,6 +460,7 @@ Resize
 (
 PipelineId
 WindowSizeData
+WindowSizeType
 )
 ResizeInactive
 (
@@ -685,6 +687,7 @@ CompositorEvent
 ResizeEvent
 (
 WindowSizeData
+WindowSizeType
 )
 MouseButtonEvent
 (

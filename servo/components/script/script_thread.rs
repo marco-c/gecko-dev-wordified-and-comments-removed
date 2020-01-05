@@ -488,6 +488,7 @@ constellation_msg
 {
 SubpageId
 WindowSizeData
+WindowSizeType
 }
 ;
 use
@@ -4335,7 +4336,10 @@ None
 for
 (
 id
+(
 size
+size_type
+)
 )
 in
 resizes
@@ -4348,6 +4352,7 @@ id
 ResizeEvent
 (
 size
+size_type
 )
 )
 ;
@@ -4785,6 +4790,7 @@ Resize
 (
 id
 size
+size_type
 )
 )
 =
@@ -4807,6 +4813,7 @@ handle_resize
 (
 id
 size
+size_type
 )
 ;
 }
@@ -7278,6 +7285,9 @@ PipelineId
 size
 :
 WindowSizeData
+size_type
+:
+WindowSizeType
 )
 {
 if
@@ -7309,6 +7319,7 @@ window
 set_resize_event
 (
 size
+size_type
 )
 ;
 return
@@ -12409,6 +12420,7 @@ event
 ResizeEvent
 (
 new_size
+size_type
 )
 =
 >
@@ -12419,6 +12431,7 @@ handle_resize_event
 (
 pipeline_id
 new_size
+size_type
 )
 ;
 }
@@ -13536,6 +13549,9 @@ PipelineId
 new_size
 :
 WindowSizeData
+size_type
+:
+WindowSizeType
 )
 {
 let
@@ -13703,6 +13719,15 @@ event
 type
 -
 resize
+if
+size_type
+=
+=
+WindowSizeType
+:
+:
+Resize
+{
 let
 uievent
 =
@@ -13764,6 +13789,7 @@ upcast
 )
 )
 ;
+}
 }
 /
 /
