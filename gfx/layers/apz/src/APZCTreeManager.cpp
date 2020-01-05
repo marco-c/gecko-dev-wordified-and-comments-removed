@@ -5230,6 +5230,9 @@ case
 eMouseDoubleClick
 :
 case
+eMouseAuxClick
+:
+case
 eMouseClick
 :
 case

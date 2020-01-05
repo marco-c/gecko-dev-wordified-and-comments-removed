@@ -133,6 +133,10 @@ eMouseClick
 )
 NS_EVENT_MESSAGE
 (
+eMouseAuxClick
+)
+NS_EVENT_MESSAGE
+(
 eMouseActivate
 )
 NS_EVENT_MESSAGE

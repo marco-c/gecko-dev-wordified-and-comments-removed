@@ -5977,6 +5977,12 @@ aMessage
 =
 =
 eDragStart
+|
+|
+aMessage
+=
+=
+eMouseAuxClick
 )
 )
 ;

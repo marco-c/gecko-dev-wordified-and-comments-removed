@@ -11731,6 +11731,14 @@ anEvent
 mMessage
 =
 =
+eMouseAuxClick
+|
+|
+anEvent
+.
+mMessage
+=
+=
 eMouseOver
 |
 |
@@ -12059,6 +12067,9 @@ eMouseClick
 :
 case
 eMouseDoubleClick
+:
+case
+eMouseAuxClick
 :
 return
 rv
@@ -12960,6 +12971,9 @@ eMouseClick
 :
 case
 eMouseDoubleClick
+:
+case
+eMouseAuxClick
 :
 return
 rv

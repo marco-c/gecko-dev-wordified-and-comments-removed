@@ -4918,6 +4918,12 @@ eMouseUp
 aEventMessage
 =
 =
+eMouseAuxClick
+|
+|
+aEventMessage
+=
+=
 eMouseDoubleClick
 )
 &

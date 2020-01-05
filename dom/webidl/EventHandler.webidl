@@ -316,6 +316,10 @@ oncancel
 ;
 attribute
 EventHandler
+onauxclick
+;
+attribute
+EventHandler
 oncanplay
 ;
 attribute
