@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

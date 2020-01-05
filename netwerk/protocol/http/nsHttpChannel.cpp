@@ -1076,6 +1076,9 @@ NS_OK
 }
 }
 bool
+nsHttpChannel
+:
+:
 WillRedirect
 (
 nsHttpResponseHead
@@ -1084,9 +1087,6 @@ response
 )
 {
 return
-nsHttpChannel
-:
-:
 IsRedirectStatus
 (
 response
