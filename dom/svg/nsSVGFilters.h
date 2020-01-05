@@ -867,7 +867,9 @@ aInstance
 FilterPrimitiveDescription
 AddLightingAttributes
 (
+const
 FilterPrimitiveDescription
+&
 aDescription
 nsSVGFilterInstance
 *
