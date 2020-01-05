@@ -706,6 +706,7 @@ send
 (
 WaitForImage
 (
+copy
 url
 response
 )

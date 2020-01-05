@@ -238,6 +238,7 @@ unsafe
 {
 reinterpret_cast
 (
+&
 cbuf
 )
 }

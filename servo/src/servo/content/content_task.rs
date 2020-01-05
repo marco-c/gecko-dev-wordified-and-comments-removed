@@ -876,6 +876,7 @@ parse
 "
 url_to_str
 (
+copy
 url
 )
 ]
@@ -1339,6 +1340,7 @@ execute
 "
 url_to_str
 (
+copy
 url
 )
 ]
@@ -1378,6 +1380,7 @@ s
 "
 url_to_str
 (
+copy
 url
 )
 msg

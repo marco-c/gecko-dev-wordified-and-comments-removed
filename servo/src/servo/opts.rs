@@ -145,6 +145,7 @@ getopts
 :
 fail_str
 (
+copy
 f
 )
 }

@@ -227,6 +227,7 @@ hb_blob_create
 (
 reinterpret_cast
 (
+&
 buf
 )
 len
@@ -321,6 +322,7 @@ hbfont
 funcs
 reinterpret_cast
 (
+&
 addr_of
 (
 *
@@ -645,6 +647,7 @@ Font
 =
 reinterpret_cast
 (
+&
 font_data
 )
 ;
@@ -729,6 +732,7 @@ Font
 =
 reinterpret_cast
 (
+&
 font_data
 )
 ;
