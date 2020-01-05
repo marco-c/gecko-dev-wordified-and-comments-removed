@@ -3713,7 +3713,7 @@ Zone
 >
 systemZone
 ;
-ActiveThreadData
+ActiveThreadOrGCTaskData
 <
 ZoneGroupVector
 >
