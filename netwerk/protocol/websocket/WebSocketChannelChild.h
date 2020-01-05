@@ -129,17 +129,6 @@ aLength
 )
 override
 ;
-MOZ_MUST_USE
-nsresult
-SendBinaryStream
-(
-OptionalInputStreamParams
-*
-aStream
-uint32_t
-aLength
-)
-;
 NS_IMETHOD
 GetSecurityInfo
 (

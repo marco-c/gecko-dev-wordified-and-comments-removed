@@ -235,7 +235,7 @@ IPCResult
 RecvSendBinaryStream
 (
 const
-InputStreamParams
+IPCStream
 &
 aStream
 const
