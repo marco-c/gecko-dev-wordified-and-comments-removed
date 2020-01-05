@@ -98,14 +98,10 @@ BUG_COMPONENT
 =
 (
 '
-Mozilla
-Services
-'
-'
 Firefox
+'
+'
 Sync
-:
-Backend
 '
 )
 DIRS
