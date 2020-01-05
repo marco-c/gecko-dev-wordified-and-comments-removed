@@ -1222,12 +1222,6 @@ ref
 .
 html
 fails
-skip
--
-if
-(
-webrender
-)
 =
 =
 background
@@ -1279,12 +1273,6 @@ to
 PaintedLayers
 .
 fails
-skip
--
-if
-(
-webrender
-)
 =
 =
 background
