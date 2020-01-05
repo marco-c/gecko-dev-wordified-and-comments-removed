@@ -5270,6 +5270,10 @@ Get
 (
 )
 ;
+profiler_js_interrupt_callback
+(
+)
+;
 if
 (
 self

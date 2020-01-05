@@ -2861,7 +2861,7 @@ MOZ_ASSERT
 worker
 )
 ;
-profiler_js_operation_callback
+profiler_js_interrupt_callback
 (
 )
 ;
