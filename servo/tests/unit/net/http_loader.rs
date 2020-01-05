@@ -183,10 +183,7 @@ net
 hsts
 :
 :
-{
-HSTSList
 HSTSEntry
-}
 ;
 use
 net
@@ -235,15 +232,6 @@ borrow
 :
 :
 Cow
-;
-use
-std
-:
-:
-collections
-:
-:
-HashMap
 ;
 use
 std
