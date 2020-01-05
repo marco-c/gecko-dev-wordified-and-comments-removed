@@ -1049,6 +1049,8 @@ IMG_read_format
 IMG_texture_compression_pvrtc
 IMG_texture_npot
 KHR_debug
+KHR_texture_compression_astc_hdr
+KHR_texture_compression_astc_ldr
 NV_draw_instanced
 NV_fence
 NV_framebuffer_blit

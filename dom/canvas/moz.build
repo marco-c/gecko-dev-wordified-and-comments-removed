@@ -580,6 +580,11 @@ WebGLExtensionColorBufferHalfFloat
 cpp
 '
 '
+WebGLExtensionCompressedTextureASTC
+.
+cpp
+'
+'
 WebGLExtensionCompressedTextureATC
 .
 cpp
