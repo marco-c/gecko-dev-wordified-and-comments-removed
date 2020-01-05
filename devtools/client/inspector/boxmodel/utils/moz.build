@@ -88,14 +88,9 @@ MPL
 DevToolsModules
 (
 '
-grids
-.
-js
-'
-'
-highlighter
+editing
 -
-settings
+session
 .
 js
 '
