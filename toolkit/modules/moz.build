@@ -1664,11 +1664,6 @@ ShortcutUtils
 jsm
 '
 '
-Sntp
-.
-jsm
-'
-'
 Sqlite
 .
 jsm
