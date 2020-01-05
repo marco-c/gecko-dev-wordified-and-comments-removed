@@ -329,6 +329,7 @@ chrome
 :
 /
 /
+resources
 /
 {
 :
@@ -496,6 +497,7 @@ chrome
 :
 /
 /
+resources
 /
 quirks
 -

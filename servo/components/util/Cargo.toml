@@ -371,11 +371,11 @@ url
 version
 =
 "
+1
+.
 0
 .
-5
-.
-7
+0
 "
 features
 =
@@ -384,7 +384,7 @@ features
 heap_size
 "
 "
-serde_serialization
+serde
 "
 ]
 }

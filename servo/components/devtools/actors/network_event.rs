@@ -1408,7 +1408,11 @@ request
 .
 url
 .
-serialize
+as_str
+(
+)
+.
+to_owned
 (
 )
 ;

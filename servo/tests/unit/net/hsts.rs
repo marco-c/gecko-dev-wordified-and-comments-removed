@@ -1744,10 +1744,11 @@ url
 assert_eq
 !
 (
-&
 secure
 .
 scheme
+(
+)
 "
 file
 "
@@ -1798,10 +1799,11 @@ url
 assert_eq
 !
 (
-&
 secure
 .
 scheme
+(
+)
 "
 https
 "

@@ -1393,7 +1393,7 @@ get_jsobject
 source
 url
 .
-serialize
+to_string
 (
 )
 1
@@ -1914,7 +1914,7 @@ self
 .
 worker_url
 .
-serialize
+to_string
 (
 )
 1
