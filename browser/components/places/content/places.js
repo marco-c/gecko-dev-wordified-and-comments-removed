@@ -1597,7 +1597,7 @@ PlacesUIUtils
 .
 openContainerNodeInTabs
 (
-node
+selectedNode
 aEvent
 this
 .
