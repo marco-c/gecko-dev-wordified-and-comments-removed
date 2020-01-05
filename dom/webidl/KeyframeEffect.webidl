@@ -478,16 +478,6 @@ attribute
 IterationCompositeOperation
 iterationComposite
 ;
-/
-/
-Bug
-1216844
--
-implement
-additive
-animation
-/
-/
 inherit
 attribute
 CompositeOperation
