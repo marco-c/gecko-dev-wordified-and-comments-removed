@@ -91,6 +91,13 @@ DOMString
 name
 )
 ;
+          
+readonly
+attribute
+unsigned
+long
+length
+;
         
 }
 ;
@@ -414,10 +421,10 @@ iface
 .
 members
 )
-7
+8
 "
 Expect
-7
+8
 members
 "
 )
