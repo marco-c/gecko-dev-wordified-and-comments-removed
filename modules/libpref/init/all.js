@@ -7556,9 +7556,6 @@ conversion
 false
 )
 ;
-#
-ifdef
-MOZ_ENABLE_WEBRENDER
 pref
 (
 "
@@ -7571,8 +7568,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "

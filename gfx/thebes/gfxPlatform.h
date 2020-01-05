@@ -1782,6 +1782,12 @@ PerfWarnings
 (
 )
 ;
+static
+void
+NotifyGPUProcessDisabled
+(
+)
+;
 void
 NotifyCompositorCreated
 (
@@ -2241,6 +2247,11 @@ InitCompositorAccelerationPrefs
 ;
 void
 InitGPUProcessPrefs
+(
+)
+;
+void
+InitWebRenderConfig
 (
 )
 ;
