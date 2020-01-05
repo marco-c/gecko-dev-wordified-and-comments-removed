@@ -1133,6 +1133,9 @@ make_getter
 !
 (
 Title
+"
+title
+"
 )
 ;
 /
@@ -1188,6 +1191,9 @@ make_getter
 !
 (
 Lang
+"
+lang
+"
 )
 ;
 /
@@ -1243,6 +1249,9 @@ make_bool_getter
 !
 (
 Hidden
+"
+hidden
+"
 )
 ;
 /

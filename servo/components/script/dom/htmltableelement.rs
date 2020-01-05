@@ -949,6 +949,9 @@ make_getter
 !
 (
 BgColor
+"
+bgcolor
+"
 )
 ;
 /
@@ -1008,6 +1011,9 @@ make_getter
 !
 (
 Width
+"
+width
+"
 )
 ;
 /

@@ -2894,6 +2894,9 @@ make_getter
 !
 (
 Width
+"
+width
+"
 )
 ;
 /
@@ -2953,6 +2956,9 @@ make_getter
 !
 (
 Height
+"
+height
+"
 )
 ;
 /

@@ -1668,6 +1668,9 @@ make_bool_getter
 !
 (
 Disabled
+"
+disabled
+"
 )
 ;
 /
@@ -1926,6 +1929,9 @@ make_bool_getter
 !
 (
 ReadOnly
+"
+readonly
+"
 )
 ;
 /
@@ -2049,6 +2055,9 @@ make_enumerated_getter
 !
 (
 Type
+"
+type
+"
 "
 text
 "
@@ -2411,6 +2420,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /
@@ -2470,6 +2482,9 @@ make_getter
 !
 (
 Placeholder
+"
+placeholder
+"
 )
 ;
 /
@@ -2529,6 +2544,9 @@ make_url_or_base_getter
 !
 (
 FormAction
+"
+formaction
+"
 )
 ;
 /
@@ -2588,6 +2606,9 @@ make_enumerated_getter
 !
 (
 FormEnctype
+"
+formenctype
+"
 "
 application
 /
@@ -2676,6 +2697,9 @@ make_enumerated_getter
 (
 FormMethod
 "
+formmethod
+"
+"
 get
 "
 (
@@ -2748,6 +2772,9 @@ make_getter
 !
 (
 FormTarget
+"
+formtarget
+"
 )
 ;
 /

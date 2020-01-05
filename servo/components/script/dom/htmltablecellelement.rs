@@ -290,6 +290,9 @@ make_getter
 !
 (
 BgColor
+"
+bgcolor
+"
 )
 ;
 make_legacy_color_setter

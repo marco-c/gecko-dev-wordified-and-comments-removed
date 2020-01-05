@@ -478,6 +478,9 @@ make_bool_getter
 !
 (
 Disabled
+"
+disabled
+"
 )
 ;
 /
@@ -582,6 +585,9 @@ make_enumerated_getter
 (
 Type
 "
+type
+"
+"
 submit
 "
 (
@@ -660,6 +666,9 @@ make_url_or_base_getter
 !
 (
 FormAction
+"
+formaction
+"
 )
 ;
 /
@@ -719,6 +728,9 @@ make_enumerated_getter
 !
 (
 FormEnctype
+"
+formenctype
+"
 "
 application
 /
@@ -807,6 +819,9 @@ make_enumerated_getter
 (
 FormMethod
 "
+formmethod
+"
+"
 get
 "
 (
@@ -879,6 +894,9 @@ make_getter
 !
 (
 FormTarget
+"
+formtarget
+"
 )
 ;
 /
@@ -938,6 +956,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /
@@ -997,6 +1018,9 @@ make_getter
 !
 (
 Value
+"
+value
+"
 )
 ;
 /

@@ -909,6 +909,9 @@ make_bool_getter
 !
 (
 Disabled
+"
+disabled
+"
 )
 ;
 /
@@ -1012,6 +1015,9 @@ make_bool_getter
 !
 (
 Multiple
+"
+multiple
+"
 )
 ;
 /
@@ -1071,6 +1077,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /

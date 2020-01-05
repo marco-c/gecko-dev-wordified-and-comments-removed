@@ -471,6 +471,9 @@ make_getter
 !
 (
 Text
+"
+text
+"
 )
 ;
 /

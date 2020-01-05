@@ -650,6 +650,9 @@ make_bool_getter
 !
 (
 Disabled
+"
+disabled
+"
 )
 ;
 /

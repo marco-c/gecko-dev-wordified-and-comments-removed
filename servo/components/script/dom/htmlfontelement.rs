@@ -352,6 +352,9 @@ make_getter
 !
 (
 Face
+"
+face
+"
 )
 ;
 /
@@ -411,6 +414,9 @@ make_getter
 !
 (
 Size
+"
+size
+"
 )
 ;
 /
