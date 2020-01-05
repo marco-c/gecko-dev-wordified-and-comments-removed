@@ -63,6 +63,15 @@ simpletest
 true
 }
 "
+plugins
+"
+:
+[
+"
+mozilla
+"
+]
+"
 globals
 "
 :
