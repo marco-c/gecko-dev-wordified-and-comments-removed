@@ -1647,6 +1647,9 @@ true
 nsAutoCString
 xfoHeaderCValue
 ;
+Unused
+<
+<
 httpChannel
 -
 >
