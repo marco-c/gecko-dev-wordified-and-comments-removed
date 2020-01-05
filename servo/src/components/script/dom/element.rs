@@ -853,8 +853,6 @@ eq_slice
 attr
 .
 local_name
-(
-)
 name
 )
 &
@@ -1294,8 +1292,6 @@ eq_slice
 attr
 .
 local_name
-(
-)
 *
 name
 )
