@@ -28,7 +28,10 @@ servo_text
 text_run
 :
 :
+{
+TextRange
 TextRun
+}
 ;
 use
 servo_text
@@ -196,8 +199,11 @@ run
 .
 metrics_for_range
 (
+TextRange
+(
 offset
 length
+)
 )
 ;
 new_box_data

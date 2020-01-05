@@ -4958,12 +4958,15 @@ run
 .
 metrics_for_range
 (
+TextRange
+(
 data
 .
 offset
 data
 .
 length
+)
 )
 .
 bounding_box
