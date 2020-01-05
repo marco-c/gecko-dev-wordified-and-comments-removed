@@ -3417,9 +3417,6 @@ delete
 ec
 ;
 }
-#
-ifdef
-DEBUG
 static
 bool
 ShouldTrace
@@ -3442,10 +3439,7 @@ ret
 ;
 }
 void
-GLLibraryEGL
-:
-:
-BeforeGLCall
+BeforeEGLCall
 (
 const
 char
@@ -3478,10 +3472,7 @@ glFunction
 }
 }
 void
-GLLibraryEGL
-:
-:
-AfterGLCall
+AfterEGLCall
 (
 const
 char
@@ -3513,7 +3504,5 @@ glFunction
 ;
 }
 }
-#
-endif
 }
 }
