@@ -476,6 +476,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -498,6 +504,7 @@ new_inherited
 (
 HTMLImageElementTypeId
 localName
+prefix
 document
 )
 image
@@ -525,6 +532,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -548,6 +561,7 @@ HTMLImageElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

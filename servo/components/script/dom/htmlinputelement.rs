@@ -453,6 +453,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -475,6 +481,7 @@ new_inherited
 (
 HTMLInputElementTypeId
 localName
+prefix
 document
 )
 input_type
@@ -538,6 +545,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -561,6 +574,7 @@ HTMLInputElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

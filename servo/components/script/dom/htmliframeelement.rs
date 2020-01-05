@@ -744,6 +744,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -766,6 +772,7 @@ new_inherited
 (
 HTMLIFrameElementTypeId
 localName
+prefix
 document
 )
 size
@@ -802,6 +809,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -825,6 +838,7 @@ HTMLIFrameElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

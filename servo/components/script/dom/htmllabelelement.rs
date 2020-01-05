@@ -173,6 +173,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -195,6 +201,7 @@ new_inherited
 (
 HTMLLabelElementTypeId
 localName
+prefix
 document
 )
 }
@@ -213,6 +220,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -236,6 +249,7 @@ HTMLLabelElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

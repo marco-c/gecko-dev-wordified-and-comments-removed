@@ -249,6 +249,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -271,6 +277,7 @@ new_inherited
 (
 HTMLLinkElementTypeId
 localName
+prefix
 document
 )
 }
@@ -289,6 +296,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -312,6 +325,7 @@ HTMLLinkElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

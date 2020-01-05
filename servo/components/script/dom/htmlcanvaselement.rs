@@ -314,6 +314,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -336,6 +342,7 @@ new_inherited
 (
 HTMLCanvasElementTypeId
 localName
+prefix
 document
 )
 context
@@ -380,6 +387,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -403,6 +416,7 @@ HTMLCanvasElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

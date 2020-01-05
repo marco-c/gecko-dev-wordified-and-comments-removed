@@ -280,6 +280,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -302,6 +308,7 @@ new_inherited
 (
 HTMLSelectElementTypeId
 localName
+prefix
 document
 )
 }
@@ -320,6 +327,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -343,6 +356,7 @@ HTMLSelectElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

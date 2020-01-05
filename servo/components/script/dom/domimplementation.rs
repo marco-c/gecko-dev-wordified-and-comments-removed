@@ -1041,6 +1041,7 @@ html
 to_string
 (
 )
+None
 *
 doc
 )
@@ -1106,6 +1107,7 @@ head
 to_string
 (
 )
+None
 *
 doc
 )
@@ -1192,6 +1194,7 @@ title
 to_string
 (
 )
+None
 *
 doc
 )
@@ -1314,6 +1317,7 @@ body
 to_string
 (
 )
+None
 *
 doc
 )
