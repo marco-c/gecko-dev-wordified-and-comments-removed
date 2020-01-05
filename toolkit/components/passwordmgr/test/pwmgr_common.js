@@ -1231,10 +1231,8 @@ token
 =
 pk11db
 .
-findTokenByName
+getInternalKeyToken
 (
-"
-"
 )
 ;
 info
