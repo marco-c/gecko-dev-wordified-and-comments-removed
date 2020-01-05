@@ -332,6 +332,10 @@ PoolEntry
 pe
 =
 nullptr
+bool
+markAsBranch
+=
+false
 )
 {
 BufferOffset
@@ -346,6 +350,7 @@ numPoolEntries
 inst
 data
 pe
+markAsBranch
 )
 ;
 propagateOOM
@@ -383,11 +388,6 @@ instruction
 kInstructionSize
 )
 ;
-(
-void
-)
-isBranch
-;
 return
 armbuffer_
 .
@@ -402,6 +402,7 @@ uint32_t
 &
 instruction
 )
+isBranch
 )
 ;
 }
