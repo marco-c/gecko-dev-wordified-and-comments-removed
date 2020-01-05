@@ -116,9 +116,6 @@ cssom
 *
 /
 interface
-CSSRule
-;
-interface
 CSSStyleDeclaration
 {
 [

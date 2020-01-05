@@ -502,6 +502,11 @@ CSSPseudoElement
 webidl
 '
 '
+CSSRule
+.
+webidl
+'
+'
 CSSRuleList
 .
 webidl
