@@ -131,6 +131,13 @@ dbtool
 .
 cc
 '
+'
+enc
+/
+enctool
+.
+cc
+'
 ]
 '
 include_dirs

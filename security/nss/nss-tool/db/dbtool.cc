@@ -2240,7 +2240,7 @@ std
 :
 vector
 <
-char
+uint8_t
 >
 certData
 =
@@ -2254,10 +2254,17 @@ cert
 (
 CERT_DecodeCertFromPackage
 (
+reinterpret_cast
+<
+char
+*
+>
+(
 certData
 .
 data
 (
+)
 )
 certData
 .
@@ -3108,7 +3115,7 @@ std
 :
 vector
 <
-char
+uint8_t
 >
 privKeyData
 =
