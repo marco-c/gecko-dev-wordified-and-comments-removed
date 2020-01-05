@@ -93,3 +93,5 @@ statechange
 controllerchange
 fetch
 characteristicvaluechanged
+fullscreenchange
+fullscreenerror

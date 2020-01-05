@@ -1742,6 +1742,17 @@ i32
 {
 }
 fn
+set_fullscreen_state
+(
+&
+self
+_state
+:
+bool
+)
+{
+}
+fn
 present
 (
 &

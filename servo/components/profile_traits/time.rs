@@ -342,6 +342,12 @@ ScriptServiceWorkerEvent
 ScriptParseXML
 =
 0x76
+ScriptEnterFullscreen
+=
+0x77
+ScriptExitFullscreen
+=
+0x78
 ApplicationHeartbeat
 =
 0x90

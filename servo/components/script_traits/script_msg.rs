@@ -500,6 +500,10 @@ RegisterServiceWorker
 ScopeThings
 ServoUrl
 )
+SetFullscreenState
+(
+bool
+)
 Exit
 }
 #

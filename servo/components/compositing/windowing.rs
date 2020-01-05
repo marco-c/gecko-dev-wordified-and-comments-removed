@@ -700,6 +700,16 @@ i32
 )
 ;
 fn
+set_fullscreen_state
+(
+&
+self
+state
+:
+bool
+)
+;
+fn
 set_page_title
 (
 &

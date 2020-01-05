@@ -451,6 +451,8 @@ UpdateReplacedElement
 WebSocketEvent
 WorkerEvent
 ServiceWorkerEvent
+EnterFullscreen
+ExitFullscreen
 }
 pub
 trait

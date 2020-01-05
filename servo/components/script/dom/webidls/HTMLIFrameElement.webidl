@@ -129,8 +129,6 @@ attribute
 boolean
 seamless
 ;
-/
-/
 attribute
 boolean
 allowFullscreen
