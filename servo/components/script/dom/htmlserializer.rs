@@ -5,7 +5,10 @@ dom
 attr
 :
 :
+{
 Attr
+AttrHelpers
+}
 ;
 use
 dom
@@ -1564,10 +1567,6 @@ push_str
 escape
 (
 attr
-.
-deref
-(
-)
 .
 value
 (
