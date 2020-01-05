@@ -15441,12 +15441,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 SIMPLE_INT_CREATE
 (
 NS_FORM_INPUT_TIME
@@ -15565,13 +15559,6 @@ if
 defined
 (
 MOZ_WIDGET_ANDROID
-)
-&
-&
-!
-defined
-(
-MOZ_WIDGET_GONK
 )
 if
 (
