@@ -126,13 +126,12 @@ missing_docs
 derive
 (
 Clone
+Copy
+Debug
 Eq
+Ord
 PartialEq
 PartialOrd
-Ord
-Copy
-RustcEncodable
-Debug
 )
 ]
 #

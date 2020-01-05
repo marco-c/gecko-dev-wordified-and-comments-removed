@@ -292,7 +292,6 @@ Clone
 Copy
 Debug
 PartialEq
-RustcEncodable
 )
 ]
 #
