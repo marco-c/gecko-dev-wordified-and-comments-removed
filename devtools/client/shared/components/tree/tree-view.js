@@ -197,7 +197,7 @@ renderRow
 PropTypes
 .
 func
-renderCelL
+renderCell
 :
 PropTypes
 .
