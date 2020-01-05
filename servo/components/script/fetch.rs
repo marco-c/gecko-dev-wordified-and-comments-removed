@@ -483,6 +483,15 @@ pipeline_id
 get
 (
 )
+redirect_mode
+:
+request
+.
+redirect_mode
+.
+get
+(
+)
 }
 }
 #
