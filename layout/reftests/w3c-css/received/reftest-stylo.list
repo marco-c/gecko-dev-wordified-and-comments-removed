@@ -7332,6 +7332,12 @@ zero
 support
 .
 html
+skip
+-
+if
+(
+stylo
+)
 =
 =
 css
@@ -7352,6 +7358,9 @@ values
 vh_not_refreshing_on_chrome
 .
 html
+#
+bug
+1346829
 skip
 -
 if
