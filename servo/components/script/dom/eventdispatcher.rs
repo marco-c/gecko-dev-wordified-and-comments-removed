@@ -164,6 +164,16 @@ dispatching
 )
 )
 ;
+assert
+!
+(
+event
+.
+initialized
+(
+)
+)
+;
 event
 .
 set_target

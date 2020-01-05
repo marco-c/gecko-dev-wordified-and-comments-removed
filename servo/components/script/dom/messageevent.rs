@@ -584,14 +584,9 @@ messageevent
 ;
 target
 .
-dispatch_event_with_target
+dispatch_event
 (
-None
 event
-)
-.
-unwrap
-(
 )
 ;
 }

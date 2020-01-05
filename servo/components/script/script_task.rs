@@ -7758,14 +7758,10 @@ from_ref
 window
 )
 ;
-let
-_
-=
 wintarget
 .
-dispatch_event_with_target
+dispatch_event
 (
-None
 event
 )
 ;
