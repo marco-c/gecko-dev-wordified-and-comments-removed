@@ -175,11 +175,6 @@ const
 nsLiteralCString
 kEMEKeySystemWidevine
 ;
-extern
-const
-nsLiteralCString
-kEMEKeySystemPrimetime
-;
 class
 MOZ_STACK_CLASS
 ReentrantMonitorConditionallyEnter
