@@ -698,13 +698,13 @@ github
 .
 com
 /
-DavidPartouche
+servo
 /
 rust
 -
 cocoa
 #
-0a951a6cdd5f1a175b929754c134f9443b105642
+78b823bec1affcab20b6977e1057125088a6034c
 "
 [
 [
@@ -3152,7 +3152,7 @@ tomaka
 /
 glutin
 #
-0dc5086efb29e84c48cd4dcc1da48ee9755842e3
+c95b778e2c077c0b410f366ad3c85a93c40c6095
 "
 dependencies
 =
@@ -3202,7 +3202,7 @@ github
 .
 com
 /
-DavidPartouche
+servo
 /
 rust
 -
