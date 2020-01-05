@@ -1,8 +1,0 @@
-"
-"
-"
-macholib_tests
-package
-"
-"
-"
