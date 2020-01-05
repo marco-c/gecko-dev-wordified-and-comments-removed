@@ -258,6 +258,16 @@ TestAllocReplacement
 .
 cpp
 '
+'
+TestCOMPtr
+.
+cpp
+'
+#
+Redefines
+IFoo
+and
+IBar
 ]
 LOCAL_INCLUDES
 +
