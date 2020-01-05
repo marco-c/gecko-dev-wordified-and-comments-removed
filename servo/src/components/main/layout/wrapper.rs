@@ -3477,7 +3477,7 @@ after_style
 =
 node_layout_data_wrapper
 .
-data
+shared_data
 .
 style
 .

@@ -1079,7 +1079,7 @@ layout_data_ref
 match
 layout_data_ref
 .
-data
+shared_data
 .
 style
 {
@@ -1137,7 +1137,7 @@ parent_layout_data_ref
 match
 parent_layout_data_ref
 .
-data
+shared_data
 .
 style
 {
@@ -2115,7 +2115,7 @@ parent_style
 =
 parent_layout_data_ref
 .
-data
+shared_data
 .
 style
 .
@@ -2451,7 +2451,7 @@ get_mut_ref
 (
 )
 .
-data
+shared_data
 .
 style
 =
@@ -2890,7 +2890,7 @@ parent_layout_data
 match
 parent_layout_data
 .
-data
+shared_data
 .
 style
 {
@@ -2984,7 +2984,7 @@ as_slice
 mut
 layout_data
 .
-data
+shared_data
 .
 style
 initial_values
