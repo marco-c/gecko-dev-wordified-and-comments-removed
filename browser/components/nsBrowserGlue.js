@@ -11733,11 +11733,9 @@ prefs
 clearUserPref
 (
 "
-browser
+alerts
 .
-tabs
-.
-animate
+disableSlidingEffect
 "
 )
 ;
