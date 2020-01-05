@@ -166,6 +166,13 @@ flush
 public
 abstract
 void
+resumeReceivingInputs
+(
+)
+;
+public
+abstract
+void
 release
 (
 )
