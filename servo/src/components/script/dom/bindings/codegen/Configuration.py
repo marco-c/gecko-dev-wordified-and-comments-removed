@@ -1049,6 +1049,20 @@ mut
         
 self
 .
+concreteType
+=
+desc
+.
+get
+(
+'
+concreteType
+'
+ifaceName
+)
+        
+self
+.
 hasInstanceInterface
 =
 desc
