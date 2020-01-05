@@ -179,16 +179,6 @@ return
 mDestroyed
 ;
 }
-void
-MarkSyncTransaction
-(
-)
-{
-mSyncTransaction
-=
-true
-;
-}
 private
 :
 friend
@@ -422,9 +412,6 @@ mCompositables
 ;
 bool
 mIsInTransaction
-;
-bool
-mSyncTransaction
 ;
 bool
 mIPCOpen
