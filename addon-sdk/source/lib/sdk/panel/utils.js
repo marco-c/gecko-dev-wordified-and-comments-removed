@@ -588,6 +588,13 @@ width
 height
 )
 {
+if
+(
+panel
+.
+firstChild
+)
+{
 panel
 .
 firstChild
@@ -616,6 +623,7 @@ height
 px
 "
 ;
+}
 }
 exports
 .

@@ -1609,6 +1609,14 @@ message
 {
 panel
 .
+resize
+(
+1
+1
+)
+;
+panel
+.
 show
 (
 )
@@ -2061,6 +2069,7 @@ Arrow
 ]
 =
 function
+*
 (
 assert
 done
