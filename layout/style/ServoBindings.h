@@ -1021,6 +1021,8 @@ nsIAtom
 *
 aPseudoTagOrNull
 ServoComputedValuesBorrowedOrNull
+aOldComputedValues
+ServoComputedValuesBorrowedOrNull
 aComputedValues
 ServoComputedValuesBorrowedOrNull
 aParentComputedValues
