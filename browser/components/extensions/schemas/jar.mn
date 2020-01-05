@@ -90,6 +90,15 @@ browser
 /
 schemas
 /
+chrome_settings_overrides
+.
+json
+content
+/
+browser
+/
+schemas
+/
 commands
 .
 json
