@@ -216,6 +216,10 @@ CreateWithInheritedAttributes
 nsIDocShell
 *
 aDocShell
+bool
+aIsFirstParty
+=
+false
 )
 ;
 static
