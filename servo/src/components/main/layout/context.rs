@@ -374,6 +374,13 @@ StyleSharingCandidateCache
 )
 #
 [
+allow
+(
+raw_pointer_deriving
+)
+]
+#
+[
 deriving
 (
 Clone
