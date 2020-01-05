@@ -124,7 +124,7 @@ IpcSender
 }
 ;
 use
-num
+num_traits
 :
 :
 ToPrimitive

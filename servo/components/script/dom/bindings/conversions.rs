@@ -240,7 +240,7 @@ use
 libc
 ;
 use
-num
+num_traits
 :
 :
 Float

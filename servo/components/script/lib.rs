@@ -284,7 +284,7 @@ net_traits
 ;
 extern
 crate
-num
+num_traits
 ;
 extern
 crate

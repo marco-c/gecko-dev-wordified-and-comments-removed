@@ -466,7 +466,7 @@ image_cache_thread
 ImageResponse
 ;
 use
-num
+num_traits
 :
 :
 {

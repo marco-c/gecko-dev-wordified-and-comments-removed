@@ -153,15 +153,6 @@ log
 .
 5
 "
-num
-=
-"
-0
-.
-1
-.
-24
-"
 rustc
 -
 serialize

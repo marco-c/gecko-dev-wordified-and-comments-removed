@@ -259,7 +259,7 @@ virtualmethods
 VirtualMethods
 ;
 use
-num
+num_traits
 :
 :
 ToPrimitive

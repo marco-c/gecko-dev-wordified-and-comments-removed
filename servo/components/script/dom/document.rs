@@ -1047,7 +1047,7 @@ PendingAsyncLoad
 }
 ;
 use
-num
+num_traits
 :
 :
 ToPrimitive
