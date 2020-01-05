@@ -1866,7 +1866,7 @@ nsMappedAttributes
 aAttributes
 GenericSpecifiedValues
 *
-aGenericData
+aData
 )
 {
 nsGenericHTMLFormElement
@@ -1875,7 +1875,7 @@ nsGenericHTMLFormElement
 MapImageAlignAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElement
@@ -1884,7 +1884,7 @@ nsGenericHTMLFormElement
 MapImageBorderAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElement
@@ -1893,7 +1893,7 @@ nsGenericHTMLFormElement
 MapImageMarginAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElement
@@ -1902,7 +1902,7 @@ nsGenericHTMLFormElement
 MapImageSizeAttributesInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElement
@@ -1911,7 +1911,7 @@ nsGenericHTMLFormElement
 MapCommonAttributesInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 }

@@ -26206,20 +26206,9 @@ nsMappedAttributes
 aAttributes
 GenericSpecifiedValues
 *
-aGenericData
+aData
 )
 {
-nsRuleData
-*
-aData
-=
-aGenericData
--
->
-AsRuleData
-(
-)
-;
 const
 nsAttrValue
 *
@@ -26272,7 +26261,7 @@ nsGenericHTMLFormElementWithState
 MapImageBorderAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -26281,7 +26270,7 @@ nsGenericHTMLFormElementWithState
 MapImageMarginAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -26290,7 +26279,7 @@ nsGenericHTMLFormElementWithState
 MapImageSizeAttributesInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -26299,7 +26288,7 @@ nsGenericHTMLFormElementWithState
 MapImageAlignAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 }
@@ -26309,7 +26298,7 @@ nsGenericHTMLFormElementWithState
 MapCommonAttributesInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 }

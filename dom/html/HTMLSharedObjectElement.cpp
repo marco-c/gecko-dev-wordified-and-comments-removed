@@ -933,7 +933,7 @@ nsMappedAttributes
 aAttributes
 GenericSpecifiedValues
 *
-aGenericData
+aData
 )
 {
 nsGenericHTMLElement
@@ -942,7 +942,7 @@ nsGenericHTMLElement
 MapImageBorderAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLElement
@@ -951,7 +951,7 @@ nsGenericHTMLElement
 MapImageMarginAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLElement
@@ -960,7 +960,7 @@ nsGenericHTMLElement
 MapImageSizeAttributesInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLElement
@@ -969,7 +969,7 @@ nsGenericHTMLElement
 MapImageAlignAttributeInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 }
@@ -983,13 +983,13 @@ nsMappedAttributes
 aAttributes
 GenericSpecifiedValues
 *
-aGenericData
+aData
 )
 {
 MapAttributesIntoRuleBase
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLElement
@@ -998,7 +998,7 @@ nsGenericHTMLElement
 MapCommonAttributesIntoExceptHidden
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 }
@@ -1014,13 +1014,13 @@ nsMappedAttributes
 aAttributes
 GenericSpecifiedValues
 *
-aGenericData
+aData
 )
 {
 MapAttributesIntoRuleBase
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 nsGenericHTMLElement
@@ -1029,7 +1029,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aGenericData
+aData
 )
 ;
 }
