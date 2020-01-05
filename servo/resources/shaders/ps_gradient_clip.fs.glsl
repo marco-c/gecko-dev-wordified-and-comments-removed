@@ -111,12 +111,7 @@ local_pos
 ;
 oFragColor
 =
-mix
-(
-vColor0
-vColor1
-vF
-)
+vColor
 *
 vec4
 (

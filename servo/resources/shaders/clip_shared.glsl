@@ -1,3 +1,6 @@
+#
+line
+1
 /
 *
 This
@@ -84,14 +87,20 @@ clip
 .
 rect
 .
+rect
+.
 xy
 clip
+.
+rect
 .
 rect
 .
 xy
 +
 clip
+.
+rect
 .
 rect
 .
