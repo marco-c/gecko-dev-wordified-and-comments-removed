@@ -366,7 +366,7 @@ SimpleTest
 expectAssertions
 (
 5
-9
+11
 )
 ;
 /
@@ -374,6 +374,7 @@ expectAssertions
 See
 bug
 1067022
+1307988
 else
 if
 (
@@ -401,6 +402,20 @@ expectAssertions
 See
 bug
 1067022
+else
+SimpleTest
+.
+expectAssertions
+(
+0
+2
+)
+;
+/
+/
+See
+bug
+1305241
 var
 rootdir
 =
