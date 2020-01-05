@@ -29,7 +29,7 @@ fetch
 cors_cache
 :
 :
-CORSCache
+CorsCache
 ;
 use
 filemanager_thread
@@ -545,7 +545,7 @@ fetch_with_cors_cache
 request
 &
 mut
-CORSCache
+CorsCache
 :
 :
 new
@@ -577,7 +577,7 @@ cache
 :
 &
 mut
-CORSCache
+CorsCache
 target
 :
 &
@@ -1034,7 +1034,7 @@ cache
 :
 &
 mut
-CORSCache
+CorsCache
 cors_flag
 :
 bool
@@ -1438,7 +1438,7 @@ mode
 RequestMode
 :
 :
-NoCORS
+NoCors
 {
 request
 .
@@ -1572,7 +1572,7 @@ set
 ResponseTainting
 :
 :
-CORSTainting
+CorsTainting
 )
 ;
 request
@@ -1627,7 +1627,7 @@ set
 ResponseTainting
 :
 :
-CORSTainting
+CorsTainting
 )
 ;
 http_fetch
@@ -1695,13 +1695,13 @@ Basic
 ResponseTainting
 :
 :
-CORSTainting
+CorsTainting
 =
 >
 ResponseType
 :
 :
-CORS
+Cors
 ResponseTainting
 :
 :
@@ -2369,7 +2369,7 @@ cache
 :
 &
 mut
-CORSCache
+CorsCache
 target
 :
 &
@@ -3116,7 +3116,7 @@ cache
 :
 &
 mut
-CORSCache
+CorsCache
 cors_flag
 :
 bool
@@ -3211,7 +3211,7 @@ mode
 RequestMode
 :
 :
-NoCORS
+NoCors
 )
 |
 |
@@ -3835,7 +3835,7 @@ cache
 :
 &
 mut
-CORSCache
+CorsCache
 response
 :
 Response
@@ -4148,7 +4148,7 @@ mode
 RequestMode
 :
 :
-CORSMode
+CorsMode
 &
 &
 !
@@ -6675,7 +6675,7 @@ cache
 :
 &
 mut
-CORSCache
+CorsCache
 context
 :
 &

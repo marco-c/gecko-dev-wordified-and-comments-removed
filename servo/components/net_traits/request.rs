@@ -204,8 +204,8 @@ RequestMode
 {
 Navigate
 SameOrigin
-NoCORS
-CORSMode
+NoCors
+CorsMode
 }
 #
 [
@@ -283,7 +283,7 @@ enum
 ResponseTainting
 {
 Basic
-CORSTainting
+CorsTainting
 Opaque
 }
 #
@@ -316,7 +316,7 @@ Deserialize
 ]
 pub
 enum
-CORSSettings
+CorsSettings
 {
 Anonymous
 UseCredentials
@@ -542,7 +542,7 @@ mode
 RequestMode
 :
 :
-NoCORS
+NoCors
 use_cors_preflight
 :
 false
@@ -1003,7 +1003,7 @@ mode
 RequestMode
 :
 :
-NoCORS
+NoCors
 use_cors_preflight
 :
 false

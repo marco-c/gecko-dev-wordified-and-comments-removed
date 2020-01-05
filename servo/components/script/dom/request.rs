@@ -943,7 +943,7 @@ Some
 NetTraitsRequestMode
 :
 :
-CORSMode
+CorsMode
 )
 ;
 /
@@ -2603,7 +2603,7 @@ mode
 NetTraitsRequestMode
 :
 :
-NoCORS
+NoCors
 {
 let
 borrowed_request
@@ -6355,7 +6355,7 @@ No_cors
 NetTraitsRequestMode
 :
 :
-NoCORS
+NoCors
 RequestMode
 :
 :
@@ -6365,7 +6365,7 @@ Cors
 NetTraitsRequestMode
 :
 :
-CORSMode
+CorsMode
 }
 }
 }
@@ -6412,7 +6412,7 @@ Same_origin
 NetTraitsRequestMode
 :
 :
-NoCORS
+NoCors
 =
 >
 RequestMode
@@ -6422,7 +6422,7 @@ No_cors
 NetTraitsRequestMode
 :
 :
-CORSMode
+CorsMode
 =
 >
 RequestMode

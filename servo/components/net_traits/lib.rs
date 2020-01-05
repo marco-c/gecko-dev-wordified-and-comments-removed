@@ -710,7 +710,7 @@ cors
 :
 Option
 <
-ResourceCORSData
+ResourceCorsData
 >
 pub
 pipeline_id
@@ -2226,7 +2226,7 @@ HeapSizeOf
 ]
 pub
 struct
-ResourceCORSData
+ResourceCorsData
 {
 /
 /
