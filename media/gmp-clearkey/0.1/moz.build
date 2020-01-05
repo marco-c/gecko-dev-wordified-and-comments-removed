@@ -111,9 +111,9 @@ FINAL_TARGET_PP_FILES
 =
 [
 '
-manifest
+clearkey
 .
-json
+info
 .
 in
 '

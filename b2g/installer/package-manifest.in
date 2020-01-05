@@ -4560,9 +4560,9 @@ clearkey
 .
 1
 /
-manifest
+clearkey
 .
-json
+info
 #
 ifdef
 PKG_LOCALE_MANIFEST
