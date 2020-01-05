@@ -82,7 +82,7 @@ CooperatingContext
 >
 ownerContext_
 ;
-ZoneGroupData
+UnprotectedData
 <
 size_t
 >
@@ -138,7 +138,7 @@ ownedByCurrentThread
 ;
 private
 :
-ActiveThreadOrGCTaskData
+ZoneGroupOrGCTaskData
 <
 ZoneVector
 >
@@ -160,6 +160,15 @@ ref
 )
 ;
 }
+mozilla
+:
+:
+Atomic
+<
+bool
+>
+usedByHelperThread
+;
 explicit
 ZoneGroup
 (
