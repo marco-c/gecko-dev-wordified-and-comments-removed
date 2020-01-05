@@ -117,22 +117,25 @@ marionette
 absolute_url
 (
 "
-test
-.
-html
+slow
 "
 )
         
+with
 self
 .
 assertRaises
 (
 MarionetteException
+)
+:
+            
 self
 .
 marionette
 .
 navigate
+(
 test_html
 )
     
@@ -218,16 +221,21 @@ implicit
 =
 1
         
+with
 self
 .
 assertRaises
 (
 NoSuchElementException
+)
+:
+            
 self
 .
 marionette
 .
 find_element
+(
 By
 .
 ID
@@ -252,16 +260,21 @@ implicit
 =
 0
         
+with
 self
 .
 assertRaises
 (
 NoSuchElementException
+)
+:
+            
 self
 .
 marionette
 .
 find_element
+(
 By
 .
 ID
@@ -642,16 +655,21 @@ script
 =
 1
         
+with
 self
 .
 assertRaises
 (
 ScriptTimeoutException
+)
+:
+            
 self
 .
 marionette
 .
 execute_async_script
+(
 "
 var
 x
