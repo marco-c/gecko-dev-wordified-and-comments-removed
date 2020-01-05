@@ -91,6 +91,9 @@ push
 Service
 ;
 1
+process
+=
+main
 #
 For
 immediate
@@ -118,3 +121,6 @@ push
 Service
 ;
 1
+process
+=
+main
