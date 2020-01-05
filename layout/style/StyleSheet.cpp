@@ -114,6 +114,10 @@ mDisabled
 (
 false
 )
+mDocumentAssociationMode
+(
+NotOwnedByDocument
+)
 {
 }
 StyleSheet
@@ -164,6 +168,10 @@ mDisabled
 aCopy
 .
 mDisabled
+)
+mDocumentAssociationMode
+(
+NotOwnedByDocument
 )
 {
 if

@@ -403,11 +403,13 @@ GetParentSheet
 const
 ;
 void
-SetOwningDocument
+SetAssociatedDocument
 (
 nsIDocument
 *
 aDocument
+DocumentAssociationMode
+aAssociationMode
 )
 ;
 uint64_t

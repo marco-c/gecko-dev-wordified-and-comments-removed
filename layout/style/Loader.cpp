@@ -10223,7 +10223,7 @@ if
 aParentSheet
 -
 >
-GetOwningDocument
+GetAssociatedDocument
 (
 )
 &

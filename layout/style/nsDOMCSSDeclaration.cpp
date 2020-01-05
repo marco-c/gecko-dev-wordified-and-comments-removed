@@ -1066,7 +1066,7 @@ document
 sheet
 -
 >
-GetOwningDocument
+GetAssociatedDocument
 (
 )
 ;

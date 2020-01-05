@@ -5646,7 +5646,7 @@ nsCOMPtr
 <
 nsIDocument
 >
-owningDoc
+doc
 ;
 RefPtr
 <
@@ -5666,12 +5666,12 @@ if
 sheet
 )
 {
-owningDoc
+doc
 =
 sheet
 -
 >
-GetOwningDocument
+GetAssociatedDocument
 (
 )
 ;
@@ -5679,7 +5679,7 @@ GetOwningDocument
 mozAutoDocUpdate
 updateBatch
 (
-owningDoc
+doc
 UPDATE_STYLE
 true
 )
@@ -5712,10 +5712,10 @@ DidDirty
 }
 if
 (
-owningDoc
+doc
 )
 {
-owningDoc
+doc
 -
 >
 StyleRuleChanged

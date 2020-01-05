@@ -3280,7 +3280,7 @@ doc
 sheet
 -
 >
-GetOwningDocument
+GetAssociatedDocument
 (
 )
 ;

@@ -115,11 +115,13 @@ HasRules
 const
 ;
 void
-SetOwningDocument
+SetAssociatedDocument
 (
 nsIDocument
 *
 aDocument
+DocumentAssociationMode
+aAssociationMode
 )
 ;
 ServoStyleSheet
