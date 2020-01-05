@@ -108,13 +108,15 @@ stylesheet
 href
 =
 "
-chrome
+resource
 :
 /
 /
 devtools
 /
-skin
+client
+/
+themes
 /
 common
 .
