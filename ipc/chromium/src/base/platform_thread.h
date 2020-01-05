@@ -68,6 +68,12 @@ OS_OPENBSD
 |
 defined
 (
+OS_SOLARIS
+)
+|
+|
+defined
+(
 __GLIBC__
 )
 #

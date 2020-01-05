@@ -530,6 +530,12 @@ defined
 (
 OS_LINUX
 )
+|
+|
+defined
+(
+OS_SOLARIS
+)
 static
 const
 rlim_t
@@ -1037,6 +1043,12 @@ if
 defined
 (
 OS_LINUX
+)
+|
+|
+defined
+(
+OS_SOLARIS
 )
 const
 char

@@ -291,6 +291,9 @@ tm_isdst
 -
 1
 ;
+#
+ifndef
+OS_SOLARIS
 timestruct
 .
 tm_gmtoff
@@ -303,6 +306,8 @@ tm_zone
 =
 NULL
 ;
+#
+endif
 time_t
 seconds
 ;

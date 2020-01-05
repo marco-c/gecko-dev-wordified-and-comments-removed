@@ -56,6 +56,12 @@ defined
 (
 OS_LINUX
 )
+|
+|
+defined
+(
+OS_SOLARIS
+)
 BACKGROUND_X11
 #
 endif
