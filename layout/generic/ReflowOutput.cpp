@@ -113,6 +113,9 @@ aRect
 ;
 }
 }
+namespace
+mozilla
+{
 ReflowOutput
 :
 :
@@ -231,5 +234,6 @@ o
 rect
 )
 ;
+}
 }
 }
