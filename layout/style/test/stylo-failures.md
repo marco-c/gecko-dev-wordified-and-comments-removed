@@ -492,7 +492,7 @@ test_inherit_computation
 html
 animation
 [
-0
+6
 ]
 *
 test_initial_computation
@@ -500,7 +500,7 @@ test_initial_computation
 html
 animation
 [
-0
+12
 ]
 *
 test_property_syntax_errors
@@ -508,7 +508,7 @@ test_property_syntax_errors
 html
 animation
 [
-518
+404
 ]
 *
 test_value_storage
@@ -1243,7 +1243,7 @@ servo
 #
 15054
 [
-966
+822
 ]
 *
 flex
