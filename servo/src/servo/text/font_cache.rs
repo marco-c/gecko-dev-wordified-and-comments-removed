@@ -1,6 +1,6 @@
-export
-FontCache
-native
+extern
+mod
+freetype
 ;
 use
 font
@@ -265,12 +265,6 @@ ptr
 null
 addr_of
 }
-;
-use
-azure
-:
-:
-freetype
 ;
 use
 freetype

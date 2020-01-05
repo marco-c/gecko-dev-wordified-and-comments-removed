@@ -1,12 +1,6 @@
-#
-[
-legacy_exports
-]
-;
-export
-FreeTypeNativeFont
-with_test_native_font
-create
+extern
+mod
+freetype
 ;
 use
 font
@@ -72,12 +66,6 @@ font
 :
 :
 FontMetrics
-;
-use
-azure
-:
-:
-freetype
 ;
 use
 freetype
@@ -148,6 +136,7 @@ fixed_to_float
 f
 )
 }
+pub
 struct
 FreeTypeNativeFont
 {
@@ -211,6 +200,7 @@ failed
 }
 }
 }
+pub
 fn
 FreeTypeNativeFont
 (
@@ -245,6 +235,7 @@ face
 face
 }
 }
+pub
 impl
 FreeTypeNativeFont
 {
@@ -1012,6 +1003,7 @@ as
 FT_Error
 }
 }
+pub
 fn
 with_test_native_font
 (
