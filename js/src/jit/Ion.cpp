@@ -3108,7 +3108,7 @@ void
 JitRuntime
 :
 :
-TraceJitcodeGlobalTable
+TraceJitcodeGlobalTableForMinorGC
 (
 JSTracer
 *
@@ -3183,7 +3183,7 @@ getJitcodeGlobalTable
 )
 -
 >
-trace
+traceForMinorGC
 (
 trc
 )
@@ -17792,7 +17792,8 @@ unknown
 >
 "
 ;
-UniqueChars
+char
+*
 buf
 =
 JS_smprintf
@@ -17834,10 +17835,11 @@ geckoProfiler
 markEvent
 (
 buf
-.
-get
-(
 )
+;
+JS_smprintf_free
+(
+buf
 )
 ;
 }

@@ -1675,7 +1675,7 @@ jit
 JitRuntime
 :
 :
-TraceJitcodeGlobalTable
+TraceJitcodeGlobalTableForMinorGC
 (
 trc
 )
