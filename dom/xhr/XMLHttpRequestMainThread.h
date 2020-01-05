@@ -286,6 +286,9 @@ class
 Blob
 ;
 class
+BlobSet
+;
+class
 FormData
 ;
 class
@@ -2253,6 +2256,12 @@ nsAutoPtr
 MutableBlobStorage
 >
 mBlobStorage
+;
+nsAutoPtr
+<
+BlobSet
+>
+mBlobSet
 ;
 nsString
 mOverrideMimeType
