@@ -531,6 +531,13 @@ style_template
 module
 .
 STYLE_STRUCTS
+to_rust_ident
+=
+style_template
+.
+module
+.
+to_rust_ident
 )
 print
 (
