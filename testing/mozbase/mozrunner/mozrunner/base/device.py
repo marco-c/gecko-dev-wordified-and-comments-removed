@@ -105,19 +105,19 @@ MOZ_LOG
 '
 signaling
 :
-5
+3
 mtransport
 :
-5
-datachannel
+4
+DataChannel
 :
-5
+4
 jsep
 :
-5
+4
 MediaPipelineFactory
 :
-5
+4
 '
            
 '
