@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 use
 dom
 :
@@ -124,7 +132,6 @@ enum
 Error
 {
 IndexSize
-FailureUnknown
 NotFound
 HierarchyRequest
 InvalidCharacter
@@ -139,6 +146,7 @@ Abort
 Timeout
 DataClone
 NoModificationAllowedError
+FailureUnknown
 }
 pub
 type
