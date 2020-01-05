@@ -553,9 +553,16 @@ if
 len
 (
 line
+.
+rstrip
+(
+'
+\
+n
+'
+)
 )
 >
-=
 max_length
 :
         
