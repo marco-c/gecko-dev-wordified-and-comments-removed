@@ -154,6 +154,16 @@ file_loader
 :
 factory
 )
+(
+~
+"
+http
+"
+http_loader
+:
+:
+factory
+)
 ]
 ;
 create_resource_task_with_loaders
