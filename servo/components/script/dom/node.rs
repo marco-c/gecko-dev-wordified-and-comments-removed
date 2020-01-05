@@ -2172,7 +2172,6 @@ n
 fn
 ancestors
 (
-&
 self
 )
 -
@@ -2186,7 +2185,6 @@ n
 fn
 children
 (
-&
 self
 )
 -
@@ -2200,7 +2198,6 @@ n
 fn
 child_elements
 (
-&
 self
 )
 -
@@ -2216,7 +2213,6 @@ n
 fn
 following_siblings
 (
-&
 self
 )
 -
@@ -2230,7 +2226,6 @@ n
 fn
 is_in_doc
 (
-&
 self
 )
 -
@@ -2240,7 +2235,6 @@ bool
 fn
 is_inclusive_ancestor_of
 (
-&
 self
 parent
 :
@@ -2256,7 +2250,6 @@ bool
 fn
 is_parent_of
 (
-&
 self
 child
 :
@@ -2272,7 +2265,6 @@ bool
 fn
 type_id
 (
-&
 self
 )
 -
@@ -2282,7 +2274,6 @@ NodeTypeId
 fn
 parent_node
 (
-&
 self
 )
 -
@@ -2298,7 +2289,6 @@ Node
 fn
 first_child
 (
-&
 self
 )
 -
@@ -2314,7 +2304,6 @@ Node
 fn
 last_child
 (
-&
 self
 )
 -
@@ -2330,7 +2319,6 @@ Node
 fn
 prev_sibling
 (
-&
 self
 )
 -
@@ -2346,7 +2334,6 @@ Node
 fn
 next_sibling
 (
-&
 self
 )
 -
@@ -2362,7 +2349,6 @@ Node
 fn
 owner_doc
 (
-&
 self
 )
 -
@@ -2375,7 +2361,6 @@ Document
 fn
 set_owner_doc
 (
-&
 self
 document
 :
@@ -2388,7 +2373,6 @@ Document
 fn
 is_in_html_doc
 (
-&
 self
 )
 -
@@ -2398,14 +2382,12 @@ bool
 fn
 wait_until_safe_to_modify_dom
 (
-&
 self
 )
 ;
 fn
 is_element
 (
-&
 self
 )
 -
@@ -2415,7 +2397,6 @@ bool
 fn
 is_document
 (
-&
 self
 )
 -
@@ -2425,7 +2406,6 @@ bool
 fn
 is_doctype
 (
-&
 self
 )
 -
@@ -2435,7 +2415,6 @@ bool
 fn
 is_text
 (
-&
 self
 )
 -
@@ -2445,7 +2424,6 @@ bool
 fn
 is_anchor_element
 (
-&
 self
 )
 -
@@ -2455,7 +2433,6 @@ bool
 fn
 get_hover_state
 (
-&
 self
 )
 -
@@ -2465,7 +2442,6 @@ bool
 fn
 set_hover_state
 (
-&
 self
 state
 :
@@ -2475,7 +2451,6 @@ bool
 fn
 get_disabled_state
 (
-&
 self
 )
 -
@@ -2485,7 +2460,6 @@ bool
 fn
 set_disabled_state
 (
-&
 self
 state
 :
@@ -2495,7 +2469,6 @@ bool
 fn
 get_enabled_state
 (
-&
 self
 )
 -
@@ -2505,7 +2478,6 @@ bool
 fn
 set_enabled_state
 (
-&
 self
 state
 :
@@ -2515,14 +2487,12 @@ bool
 fn
 dump
 (
-&
 self
 )
 ;
 fn
 dump_indent
 (
-&
 self
 indent
 :
@@ -2532,7 +2502,6 @@ uint
 fn
 debug_str
 (
-&
 self
 )
 -
@@ -2542,7 +2511,6 @@ String
 fn
 traverse_preorder
 (
-&
 self
 )
 -
@@ -2556,7 +2524,6 @@ n
 fn
 sequential_traverse_postorder
 (
-&
 self
 )
 -
@@ -2570,7 +2537,6 @@ n
 fn
 inclusively_following_siblings
 (
-&
 self
 )
 -
@@ -2584,7 +2550,6 @@ n
 fn
 to_trusted_node_address
 (
-&
 self
 )
 -
@@ -2594,7 +2559,6 @@ TrustedNodeAddress
 fn
 get_bounding_content_box
 (
-&
 self
 )
 -
@@ -2607,7 +2571,6 @@ Au
 fn
 get_content_boxes
 (
-&
 self
 )
 -
@@ -2623,7 +2586,6 @@ Au
 fn
 query_selector
 (
-&
 self
 selectors
 :
@@ -2645,7 +2607,6 @@ Element
 fn
 query_selector_all
 (
-&
 self
 selectors
 :
@@ -2664,14 +2625,12 @@ NodeList
 fn
 remove_self
 (
-&
 self
 )
 ;
 fn
 get_unique_id
 (
-&
 self
 )
 -
@@ -2681,7 +2640,6 @@ String
 fn
 summarize
 (
-&
 self
 )
 -
@@ -2714,7 +2672,6 @@ Node
 fn
 dump
 (
-&
 self
 )
 {
@@ -2729,7 +2686,6 @@ dump_indent
 fn
 dump_indent
 (
-&
 self
 indent
 :
@@ -2825,7 +2781,6 @@ node
 fn
 debug_str
 (
-&
 self
 )
 -
@@ -2849,7 +2804,6 @@ type_id
 fn
 is_in_doc
 (
-&
 self
 )
 -
@@ -2899,7 +2853,6 @@ mutably
 fn
 type_id
 (
-&
 self
 )
 -
@@ -2917,7 +2870,6 @@ type_id
 fn
 parent_node
 (
-&
 self
 )
 -
@@ -2959,7 +2911,6 @@ node
 fn
 first_child
 (
-&
 self
 )
 -
@@ -3001,7 +2952,6 @@ node
 fn
 last_child
 (
-&
 self
 )
 -
@@ -3062,7 +3012,6 @@ mutably
 fn
 prev_sibling
 (
-&
 self
 )
 -
@@ -3123,7 +3072,6 @@ mutably
 fn
 next_sibling
 (
-&
 self
 )
 -
@@ -3169,7 +3117,6 @@ inline
 fn
 is_element
 (
-&
 self
 )
 -
@@ -3202,7 +3149,6 @@ inline
 fn
 is_document
 (
-&
 self
 )
 -
@@ -3223,7 +3169,6 @@ inline
 fn
 is_anchor_element
 (
-&
 self
 )
 -
@@ -3247,7 +3192,6 @@ inline
 fn
 is_doctype
 (
-&
 self
 )
 -
@@ -3268,7 +3212,6 @@ inline
 fn
 is_text
 (
-&
 self
 )
 -
@@ -3285,7 +3228,6 @@ TextNodeTypeId
 fn
 get_hover_state
 (
-&
 self
 )
 -
@@ -3312,7 +3254,6 @@ InHoverState
 fn
 set_hover_state
 (
-&
 self
 state
 :
@@ -3364,7 +3305,6 @@ InHoverState
 fn
 get_disabled_state
 (
-&
 self
 )
 -
@@ -3391,7 +3331,6 @@ InDisabledState
 fn
 set_disabled_state
 (
-&
 self
 state
 :
@@ -3443,7 +3382,6 @@ InDisabledState
 fn
 get_enabled_state
 (
-&
 self
 )
 -
@@ -3470,7 +3408,6 @@ InEnabledState
 fn
 set_enabled_state
 (
-&
 self
 state
 :
@@ -3536,7 +3473,6 @@ preorder
 fn
 traverse_preorder
 (
-&
 self
 )
 -
@@ -3558,7 +3494,6 @@ vec
 ;
 gather_abstract_nodes
 (
-*
 self
 &
 mut
@@ -3591,7 +3526,6 @@ postorder
 fn
 sequential_traverse_postorder
 (
-&
 self
 )
 -
@@ -3613,7 +3547,6 @@ vec
 ;
 gather_abstract_nodes
 (
-*
 self
 &
 mut
@@ -3632,7 +3565,6 @@ nodes
 fn
 inclusively_following_siblings
 (
-&
 self
 )
 -
@@ -3660,7 +3592,6 @@ clone
 fn
 is_inclusive_ancestor_of
 (
-&
 self
 parent
 :
@@ -3673,7 +3604,6 @@ Node
 >
 bool
 {
-*
 self
 =
 =
@@ -3691,7 +3621,6 @@ any
 |
 ancestor
 |
-&
 ancestor
 =
 =
@@ -3701,7 +3630,6 @@ self
 fn
 following_siblings
 (
-&
 self
 )
 -
@@ -3746,7 +3674,6 @@ clone
 fn
 is_parent_of
 (
-&
 self
 child
 :
@@ -3779,7 +3706,6 @@ Temporary
 :
 from_rooted
 (
-*
 self
 )
 =
@@ -3794,7 +3720,6 @@ false
 fn
 to_trusted_node_address
 (
-&
 self
 )
 -
@@ -3824,7 +3749,6 @@ c_void
 fn
 get_bounding_content_box
 (
-&
 self
 )
 -
@@ -3839,7 +3763,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -3891,7 +3814,6 @@ rect
 fn
 get_content_boxes
 (
-&
 self
 )
 -
@@ -3909,7 +3831,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -3981,7 +3902,6 @@ queryselector
 fn
 query_selector
 (
-&
 self
 selectors
 :
@@ -4161,7 +4081,6 @@ queryselectorall
 fn
 query_selector_all
 (
-&
 self
 selectors
 :
@@ -4315,7 +4234,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -4339,7 +4257,6 @@ nodes
 fn
 ancestors
 (
-&
 self
 )
 -
@@ -4385,7 +4302,6 @@ clone
 fn
 owner_doc
 (
-&
 self
 )
 -
@@ -4424,7 +4340,6 @@ clone
 fn
 set_owner_doc
 (
-&
 self
 document
 :
@@ -4454,7 +4369,6 @@ clone
 fn
 is_in_html_doc
 (
-&
 self
 )
 -
@@ -4476,7 +4390,6 @@ is_html_document
 fn
 children
 (
-&
 self
 )
 -
@@ -4522,7 +4435,6 @@ clone
 fn
 child_elements
 (
-&
 self
 )
 -
@@ -4592,7 +4504,6 @@ clone
 fn
 wait_until_safe_to_modify_dom
 (
-&
 self
 )
 {
@@ -4623,7 +4534,6 @@ wait_until_safe_to_modify_dom
 fn
 remove_self
 (
-&
 self
 )
 {
@@ -4648,7 +4558,6 @@ parent
 .
 remove_child
 (
-*
 self
 )
 None
@@ -4661,7 +4570,6 @@ None
 fn
 get_unique_id
 (
-&
 self
 )
 -
@@ -4683,7 +4591,6 @@ clone
 fn
 summarize
 (
-&
 self
 )
 -
@@ -4894,7 +4801,6 @@ ElementCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -4950,7 +4856,6 @@ root
 )
 =
 =
-*
 self
 )
 .
