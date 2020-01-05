@@ -566,7 +566,7 @@ r
 )
 global
 .
-dom_manipulation_thread_source
+dom_manipulation_task_source
 (
 )
 )
@@ -748,7 +748,7 @@ devtools_receiver
 worker_ref
 global
 .
-dom_manipulation_thread_source
+dom_manipulation_task_source
 (
 )
 sender
@@ -1128,7 +1128,7 @@ r
 (
 )
 .
-dom_manipulation_thread_source
+dom_manipulation_task_source
 (
 )
 )
