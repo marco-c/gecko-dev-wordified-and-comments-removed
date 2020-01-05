@@ -231,6 +231,7 @@ computed_values
 border_style
 cursor
 filter
+mix_blend_mode
 pointer_events
 }
 ;
@@ -819,6 +820,13 @@ filter
 :
 :
 T
+pub
+blend_mode
+:
+mix_blend_mode
+:
+:
+T
 }
 impl
 StackingContext
@@ -860,6 +868,12 @@ filter
 :
 :
 T
+blend_mode
+:
+mix_blend_mode
+:
+:
+T
 layer
 :
 Option
@@ -896,6 +910,9 @@ z_index
 filters
 :
 filters
+blend_mode
+:
+blend_mode
 }
 }
 pub
@@ -946,6 +963,9 @@ get_or_create_temporary_draw_target
 self
 .
 filters
+self
+.
+blend_mode
 )
 ;
 {
@@ -1432,6 +1452,9 @@ temporary_draw_target
 self
 .
 filters
+self
+.
+blend_mode
 )
 }
 fn
@@ -3671,6 +3694,7 @@ paint_context
 .
 draw_image
 (
+&
 bounds
 image_item
 .
