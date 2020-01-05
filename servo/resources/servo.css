@@ -872,6 +872,13 @@ content
 box
 ;
 }
+textarea
+{
+overflow
+:
+auto
+;
+}
 details
 {
 display
