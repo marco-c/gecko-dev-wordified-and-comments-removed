@@ -112,6 +112,7 @@ nullptr
 ;
 #
 if
+(
 defined
 (
 __linux__
@@ -121,6 +122,13 @@ __linux__
 defined
 (
 __GLIBC__
+)
+)
+|
+|
+defined
+(
+__FreeBSD__
 )
 #
 define
