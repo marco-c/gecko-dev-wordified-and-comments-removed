@@ -49,10 +49,6 @@ marionette
 import
 Marionette
 from
-mozlog
-import
-get_default_logger
-from
 moztest
 .
 adapters
@@ -4354,14 +4350,12 @@ page_source
                 
 except
 Exception
+as
+exc
 :
                     
-logger
-=
-get_default_logger
-(
-)
-                    
+self
+.
 logger
 .
 warning
@@ -4373,11 +4367,15 @@ gather
 test
 failure
 debug
-.
+:
+{
+}
 '
-exc_info
-=
-True
+.
+format
+(
+exc
+)
 )
             
 return

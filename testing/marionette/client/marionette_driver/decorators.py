@@ -197,6 +197,7 @@ check_for_crash
 try
 :
                 
+return
 m
 .
 check_for_crash
@@ -204,6 +205,7 @@ check_for_crash
 )
             
 except
+Exception
 :
                 
 traceback
@@ -211,6 +213,9 @@ traceback
 print_exc
 (
 )
+                
+return
+False
         
 try
 :
@@ -244,6 +249,10 @@ exc_info
 (
 )
             
+crashed
+=
+False
+            
 if
 not
 isinstance
@@ -265,6 +274,8 @@ not
 always
 :
                     
+crashed
+=
 check_for_crash
 (
 )
@@ -283,12 +294,15 @@ socket
 .
 timeout
 )
+or
+crashed
 :
                 
 m
 .
-force_shutdown
+handle_socket_failure
 (
+crashed
 )
             
 raise
@@ -305,7 +319,6 @@ always
                 
 check_for_crash
 (
-m
 )
     
 return
