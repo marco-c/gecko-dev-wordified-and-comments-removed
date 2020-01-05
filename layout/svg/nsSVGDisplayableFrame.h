@@ -151,14 +151,6 @@ aPoint
 0
 ;
 virtual
-nsRect
-GetCoveredRegion
-(
-)
-=
-0
-;
-virtual
 void
 ReflowSVG
 (

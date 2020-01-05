@@ -312,13 +312,6 @@ aPoint
 override
 ;
 virtual
-nsRect
-GetCoveredRegion
-(
-)
-override
-;
-virtual
 void
 ReflowSVG
 (
