@@ -462,6 +462,7 @@ MOZ_ASSERT
 aParentContext
 )
 ;
+const
 ServoComputedValues
 *
 parentComputedValues
@@ -537,6 +538,7 @@ nsStyleContext
 aParentContext
 )
 {
+const
 ServoComputedValues
 *
 parent
@@ -774,6 +776,7 @@ nsStyleSet
 :
 eSkipParentDisplayBasedStyleFixup
 ;
+const
 ServoComputedValues
 *
 parentStyle

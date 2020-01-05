@@ -1060,6 +1060,7 @@ aSamePointerStructs
 nsChangeHint
 CalcStyleDifference
 (
+const
 ServoComputedValues
 *
 aNewComputedValues
