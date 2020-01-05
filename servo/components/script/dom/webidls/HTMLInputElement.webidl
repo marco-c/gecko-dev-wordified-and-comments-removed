@@ -121,8 +121,6 @@ HTMLFormElement
 ?
 form
 ;
-/
-/
 readonly
 attribute
 FileList
