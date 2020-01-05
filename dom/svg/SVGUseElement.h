@@ -351,6 +351,12 @@ Height
 (
 )
 ;
+nsIURI
+*
+GetSourceDocURI
+(
+)
+;
 protected
 :
 class

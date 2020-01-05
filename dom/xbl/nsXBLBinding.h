@@ -546,6 +546,12 @@ GetAnonymousNodeList
 (
 )
 ;
+nsIURI
+*
+GetSourceDocURI
+(
+)
+;
 protected
 :
 bool
