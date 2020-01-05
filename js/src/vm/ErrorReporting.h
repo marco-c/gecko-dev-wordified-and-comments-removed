@@ -71,6 +71,13 @@ JS
 UniqueTwoByteChars
 lineOfContext
 ;
+static
+constexpr
+size_t
+lineOfContextRadius
+=
+60
+;
 size_t
 lineLength
 ;
