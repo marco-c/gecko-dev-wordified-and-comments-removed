@@ -1141,6 +1141,9 @@ const
 TabId
 &
 aTabId
+TabGroup
+*
+aTabGroup
 const
 TabContext
 &
@@ -1168,6 +1171,10 @@ const
 TabId
 &
 aTabId
+const
+TabId
+&
+aSameTabGroupAs
 const
 TabContext
 &

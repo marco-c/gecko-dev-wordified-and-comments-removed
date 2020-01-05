@@ -648,6 +648,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -665,6 +669,12 @@ bool
 aIsForBrowser
 )
 {
+MOZ_ASSERT
+(
+!
+aSameTabGroupAs
+)
+;
 Unused
 <
 <

@@ -63645,7 +63645,7 @@ toJoin
 TabGroup
 :
 :
-GetFromWindowActor
+GetFromWindow
 (
 AsOuter
 (
@@ -63664,12 +63664,12 @@ dom
 :
 TabGroup
 *
-actorTabGroup
+testGroup
 =
 TabGroup
 :
 :
-GetFromWindowActor
+GetFromWindow
 (
 AsOuter
 (
@@ -63678,8 +63678,8 @@ AsOuter
 ;
 MOZ_ASSERT_IF
 (
-actorTabGroup
-actorTabGroup
+testGroup
+testGroup
 =
 =
 toJoin

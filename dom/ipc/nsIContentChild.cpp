@@ -257,6 +257,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -355,6 +359,7 @@ Create
 (
 this
 aTabId
+aSameTabGroupAs
 tc
 .
 GetTabContext
@@ -427,6 +432,10 @@ const
 TabId
 &
 aTabId
+const
+TabId
+&
+aSameTabGroupAs
 const
 IPCTabContext
 &
