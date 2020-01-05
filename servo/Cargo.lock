@@ -3714,7 +3714,7 @@ servo_config
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -3965,7 +3965,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -5531,7 +5531,7 @@ index
 webrender
 0
 .
-18
+19
 .
 0
 (
@@ -5554,7 +5554,7 @@ webrender
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -5972,7 +5972,7 @@ style_traits
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -9084,7 +9084,7 @@ style_traits
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -12976,7 +12976,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -14019,7 +14019,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -18722,7 +18722,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -19240,7 +19240,7 @@ style
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -19365,7 +19365,7 @@ servo_url
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -20273,7 +20273,7 @@ webdriver_server
 webrender
 0
 .
-18
+19
 .
 0
 (
@@ -20296,7 +20296,7 @@ webrender
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -22134,7 +22134,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -22961,7 +22961,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -24011,7 +24011,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -31212,7 +31212,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -43792,7 +43792,7 @@ version
 "
 0
 .
-18
+19
 .
 0
 "
@@ -43813,7 +43813,7 @@ servo
 /
 webrender
 #
-e41f1413222d0b9f594649ac993a3e9e0ba35cbe
+fc720d070f4af24a1def4a6510cee10aaad0a280
 "
 dependencies
 =
@@ -44416,7 +44416,7 @@ index
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -44451,7 +44451,7 @@ version
 "
 0
 .
-18
+20
 .
 0
 "
@@ -44472,7 +44472,7 @@ servo
 /
 webrender
 #
-e41f1413222d0b9f594649ac993a3e9e0ba35cbe
+fc720d070f4af24a1def4a6510cee10aaad0a280
 "
 dependencies
 =
@@ -45222,7 +45222,7 @@ servo_config
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
@@ -55082,7 +55082,7 @@ checksum
 webrender
 0
 .
-18
+19
 .
 0
 (
@@ -55112,7 +55112,7 @@ checksum
 webrender_traits
 0
 .
-18
+20
 .
 0
 (
