@@ -775,13 +775,13 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_undefined_callback
 (
 )
 {
-yield
+await
 Utils
 .
 jsonSave

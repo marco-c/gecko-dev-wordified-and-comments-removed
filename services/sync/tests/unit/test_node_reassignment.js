@@ -180,6 +180,25 @@ js
 "
 )
 ;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+PromiseUtils
+.
+jsm
+"
+)
+;
 Service
 .
 engineManager
@@ -602,7 +621,7 @@ prepareServer
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -765,8 +784,8 @@ ex
 ;
 }
 }
+async
 function
-*
 syncAndExpectNodeReassignment
 (
 server
@@ -779,7 +798,7 @@ url
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -989,7 +1008,7 @@ onwards
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -997,8 +1016,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 test_momentary_401_engine
 (
 )
@@ -1025,7 +1044,7 @@ reassignment
 let
 server
 =
-yield
+await
 prepareServer
 (
 )
@@ -1298,7 +1317,7 @@ onLoginStart
 )
 ;
 }
-yield
+await
 syncAndExpectNodeReassignment
 (
 server
@@ -1335,8 +1354,8 @@ rotary
 ;
 add_task
 (
+async
 function
-*
 test_momentary_401_info_collections
 (
 )
@@ -1364,7 +1383,7 @@ reassignment
 let
 server
 =
-yield
+await
 prepareServer
 (
 )
@@ -1429,7 +1448,7 @@ info
 oldHandler
 ;
 }
-yield
+await
 syncAndExpectNodeReassignment
 (
 server
@@ -1462,8 +1481,8 @@ infoURL
 ;
 add_task
 (
+async
 function
-*
 test_momentary_401_storage_loggedin
 (
 )
@@ -1496,7 +1515,7 @@ reassignment
 let
 server
 =
-yield
+await
 prepareServer
 (
 )
@@ -1575,7 +1594,7 @@ in
 "
 )
 ;
-yield
+await
 syncAndExpectNodeReassignment
 (
 server
@@ -1614,8 +1633,8 @@ global
 ;
 add_task
 (
+async
 function
-*
 test_momentary_401_storage_loggedout
 (
 )
@@ -1648,7 +1667,7 @@ reassignment
 let
 server
 =
-yield
+await
 prepareServer
 (
 )
@@ -1707,7 +1726,7 @@ in
 "
 )
 ;
-yield
+await
 syncAndExpectNodeReassignment
 (
 server
@@ -1746,8 +1765,8 @@ global
 ;
 add_task
 (
+async
 function
-*
 test_loop_avoidance_storage
 (
 )
@@ -1785,7 +1804,7 @@ failure
 let
 server
 =
-yield
+await
 prepareServer
 (
 )
@@ -1854,7 +1873,7 @@ false
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -2195,7 +2214,7 @@ sync
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2205,8 +2224,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_loop_avoidance_engine
 (
 )
@@ -2247,7 +2266,7 @@ failure
 let
 server
 =
-yield
+await
 prepareServer
 (
 )
@@ -2298,7 +2317,7 @@ true
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -2914,7 +2933,7 @@ sync
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
