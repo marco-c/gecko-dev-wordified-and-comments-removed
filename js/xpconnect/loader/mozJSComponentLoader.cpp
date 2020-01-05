@@ -3431,6 +3431,11 @@ setSourceIsLazy
 (
 !
 mReuseLoaderGlobal
+&
+&
+!
+!
+cache
 )
 ;
 if
