@@ -168,6 +168,9 @@ base
 IntSize
 display
 ;
+IntSize
+frameSize
+;
 SurfaceDescriptorGPUVideo
 sd
 ;
