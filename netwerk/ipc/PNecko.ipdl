@@ -482,6 +482,8 @@ PDNSRequest
 (
 nsCString
 hostName
+OriginAttributes
+originAttributes
 uint32_t
 flags
 nsCString
@@ -550,6 +552,8 @@ HTMLDNSPrefetch
 (
 nsString
 hostname
+OriginAttributes
+originAttributes
 uint16_t
 flags
 )
@@ -559,6 +563,8 @@ CancelHTMLDNSPrefetch
 (
 nsString
 hostname
+OriginAttributes
+originAttributes
 uint16_t
 flags
 nsresult
