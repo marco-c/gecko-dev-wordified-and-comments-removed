@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-Mutex
+Monitor
 .
 h
 "
@@ -884,7 +884,7 @@ mType
 (
 aType
 )
-mMutex
+mMonitor
 (
 "
 DecoderData
@@ -1006,8 +1006,8 @@ DecoderCallback
 >
 mCallback
 ;
-Mutex
-mMutex
+Monitor
+mMonitor
 ;
 RefPtr
 <
@@ -1025,10 +1025,10 @@ ShutdownDecoder
 (
 )
 {
-MutexAutoLock
-lock
+MonitorAutoLock
+mon
 (
-mMutex
+mMonitor
 )
 ;
 if
