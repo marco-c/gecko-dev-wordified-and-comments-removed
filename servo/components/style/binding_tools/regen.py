@@ -1276,6 +1276,13 @@ RawGeckoElement
 "
 RawGeckoNode
 "
+            
+"
+ThreadSafe
+.
+*
+Holder
+"
         
 ]
         
