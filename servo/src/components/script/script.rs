@@ -129,6 +129,10 @@ native
 ;
 extern
 crate
+net
+;
+extern
+crate
 serialize
 ;
 extern

@@ -291,8 +291,9 @@ readyState
 /
 /
 request
-/
-/
+[
+Throws
+]
 void
 open
 (
@@ -380,8 +381,9 @@ attribute
 XMLHttpRequestUpload
 upload
 ;
-/
-/
+[
+Throws
+]
 void
 send
 (
@@ -472,8 +474,6 @@ attribute
 XMLHttpRequestResponseType
 responseType
 ;
-/
-/
 readonly
 attribute
 any

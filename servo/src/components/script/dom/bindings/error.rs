@@ -73,7 +73,10 @@ HierarchyRequest
 InvalidCharacter
 NotSupported
 InvalidState
+Syntax
 NamespaceError
+Security
+Network
 }
 pub
 type
