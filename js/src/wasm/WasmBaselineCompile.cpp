@@ -11126,6 +11126,9 @@ call
 reloadMachineStateAfter
 )
 {
+#
+ifndef
+JS_CODEGEN_X86
 loadFromFramePtr
 (
 WasmTlsReg
@@ -11145,6 +11148,8 @@ loadWasmPinnedRegsFromTls
 (
 )
 ;
+#
+endif
 }
 }
 template
