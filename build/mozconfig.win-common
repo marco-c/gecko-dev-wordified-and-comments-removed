@@ -153,11 +153,3 @@ stats
 api
 .
 token
-export
-MAKECAB
-=
-topsrcdir
-/
-makecab
-.
-exe
