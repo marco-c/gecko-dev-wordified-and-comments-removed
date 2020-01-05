@@ -488,7 +488,7 @@ u05b8
 \
 u05b9
 \
-ufffd
+u05ba
 \
 u05bb
 \
