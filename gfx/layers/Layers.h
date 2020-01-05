@@ -5267,6 +5267,13 @@ aIndex
 )
 const
 ;
+virtual
+void
+ClearCachedResources
+(
+)
+{
+}
 private
 :
 void

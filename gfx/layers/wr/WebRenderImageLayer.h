@@ -58,6 +58,13 @@ GetAsSourceSurface
 )
 override
 ;
+virtual
+void
+ClearCachedResources
+(
+)
+override
+;
 protected
 :
 virtual
