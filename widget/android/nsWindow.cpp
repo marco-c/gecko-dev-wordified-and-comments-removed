@@ -8725,7 +8725,7 @@ return
 this
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

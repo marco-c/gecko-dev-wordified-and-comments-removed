@@ -720,7 +720,8 @@ IsEnabled
 const
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool
@@ -1227,7 +1228,8 @@ GetIMEUpdatePreference
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetNonClientMargins
 (
 LayoutDeviceIntMargin

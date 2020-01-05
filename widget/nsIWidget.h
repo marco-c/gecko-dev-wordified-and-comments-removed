@@ -1723,7 +1723,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool
@@ -1770,7 +1771,8 @@ GetClientBounds
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetNonClientMargins
 (
 LayoutDeviceIntMargin

@@ -413,7 +413,8 @@ return
 mEnabled
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool

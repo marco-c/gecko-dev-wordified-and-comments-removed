@@ -723,7 +723,8 @@ aRect
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool

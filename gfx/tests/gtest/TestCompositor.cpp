@@ -463,7 +463,8 @@ return
 true
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool

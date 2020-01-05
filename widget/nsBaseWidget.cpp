@@ -6245,7 +6245,7 @@ LayoutDeviceIntPoint
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBaseWidget
 :
 :

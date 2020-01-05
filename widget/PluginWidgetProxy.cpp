@@ -802,7 +802,7 @@ type
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 PluginWidgetProxy
 :
 :

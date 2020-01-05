@@ -1148,7 +1148,8 @@ aRect
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetNonClientMargins
 (
 LayoutDeviceIntMargin
