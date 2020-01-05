@@ -857,6 +857,13 @@ endDragSession
 in
 boolean
 aDoneDrag
+[
+optional
+]
+in
+unsigned
+long
+aKeyModifiers
 )
 ;
 /
@@ -884,6 +891,10 @@ fireDragEventAtSource
 in
 EventMessage
 aEventMessage
+in
+unsigned
+long
+aKeyModifiers
 )
 ;
 /

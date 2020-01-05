@@ -1314,6 +1314,8 @@ EndDragSession
 (
 bool
 aDoneDrag
+uint32_t
+aKeyModifiers
 )
 {
 if
@@ -1338,6 +1340,7 @@ mSuppressLevel
 FireDragEventAtSource
 (
 eDragEnd
+aKeyModifiers
 )
 ;
 }
@@ -1413,6 +1416,7 @@ SendEndDragSession
 aDoneDrag
 mUserCancelled
 mEndDragPoint
+aKeyModifiers
 )
 ;
 }
@@ -1659,6 +1663,8 @@ FireDragEventAtSource
 (
 EventMessage
 aEventMessage
+uint32_t
+aKeyModifiers
 )
 {
 if
@@ -1744,6 +1750,12 @@ mUserCancelled
 mUserCancelled
 ;
 }
+event
+.
+mModifiers
+=
+aKeyModifiers
+;
 if
 (
 nsPresContext
@@ -3278,6 +3290,7 @@ Suppress
 EndDragSession
 (
 false
+0
 )
 ;
 +

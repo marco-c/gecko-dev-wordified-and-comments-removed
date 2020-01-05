@@ -2499,6 +2499,8 @@ bool
 aUserCancelled
 LayoutDeviceIntPoint
 aDragEndPoint
+uint32_t
+aKeyModifiers
 )
 ;
 async

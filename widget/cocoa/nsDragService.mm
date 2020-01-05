@@ -4303,6 +4303,8 @@ EndDragSession
 (
 bool
 aDoneDrag
+uint32_t
+aKeyModifiers
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -4350,6 +4352,7 @@ nsBaseDragService
 EndDragSession
 (
 aDoneDrag
+aKeyModifiers
 )
 ;
 mDataItems

@@ -8282,6 +8282,9 @@ dragService
 FireDragEventAtSource
 (
 eDrag
+aEvent
+.
+mModifiers
 )
 ;
 }

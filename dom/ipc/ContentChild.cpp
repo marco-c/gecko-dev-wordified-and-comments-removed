@@ -13948,6 +13948,10 @@ const
 LayoutDeviceIntPoint
 &
 aDragEndPoint
+const
+uint32_t
+&
+aKeyModifiers
 )
 {
 nsCOMPtr
@@ -14033,6 +14037,7 @@ dragService
 EndDragSession
 (
 aDoneDrag
+aKeyModifiers
 )
 ;
 }
