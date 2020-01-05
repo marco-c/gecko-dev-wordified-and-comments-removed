@@ -339,7 +339,7 @@ executed
 yield
 command3
 ;
-todo
+ok
 (
 executed
 .
