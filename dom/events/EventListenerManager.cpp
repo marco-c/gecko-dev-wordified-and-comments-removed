@@ -225,7 +225,7 @@ MOZ_GECKO_PROFILER
 #
 include
 "
-ProfilerMarkers
+ProfilerMarkerPayload
 .
 h
 "

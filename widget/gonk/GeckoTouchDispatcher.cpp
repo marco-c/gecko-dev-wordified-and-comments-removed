@@ -29,7 +29,7 @@ h
 #
 include
 "
-ProfilerMarkers
+ProfilerMarkerPayload
 .
 h
 "
@@ -1586,6 +1586,9 @@ mTouches
 .
 mScreenPoint
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 TouchDataPayload
 *
 payload
@@ -1602,6 +1605,8 @@ touchAction
 payload
 )
 ;
+#
+endif
 }
 }
 }

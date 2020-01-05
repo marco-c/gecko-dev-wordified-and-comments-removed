@@ -124,7 +124,7 @@ h
 '
 public
 /
-ProfilerMarkers
+ProfilerMarkerPayload
 .
 h
 '
@@ -199,7 +199,7 @@ cpp
 '
 core
 /
-ProfilerMarkers
+ProfilerMarkerPayload
 .
 cpp
 '
