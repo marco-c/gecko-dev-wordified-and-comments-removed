@@ -160,6 +160,8 @@ pwd
 import
 re
 import
+socket
+import
 stat
 import
 subprocess
@@ -727,9 +729,14 @@ exit
 1
 )
 except
+(
 urllib2
 .
 URLError
+socket
+.
+timeout
+)
 :
 print_line
 (
