@@ -66,8 +66,6 @@ ServoStyleSheet
 :
 public
 StyleSheet
-public
-StyleSheetInfo
 {
 public
 :
@@ -206,6 +204,13 @@ RefPtr
 RawServoStyleSheet
 >
 mSheet
+;
+StyleSheetInfo
+mSheetInfo
+;
+friend
+class
+StyleSheet
 ;
 }
 ;

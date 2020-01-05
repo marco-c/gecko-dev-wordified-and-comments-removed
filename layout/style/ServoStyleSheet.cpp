@@ -53,7 +53,7 @@ StyleBackendType
 Servo
 aParsingMode
 )
-StyleSheetInfo
+mSheetInfo
 (
 aCORSMode
 aReferrerPolicy
