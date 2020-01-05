@@ -4132,17 +4132,6 @@ StyleBackendType
 Servo
 )
 {
-nsCString
-name
-=
-nsCSSProps
-:
-:
-GetStringValue
-(
-aProperty
-)
-;
 NS_ConvertUTF16toUTF8
 value
 (
@@ -4186,8 +4175,7 @@ servoDeclarationBlock
 =
 Servo_ParseProperty
 (
-&
-name
+aProperty
 &
 value
 data
