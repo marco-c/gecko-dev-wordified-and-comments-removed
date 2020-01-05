@@ -18,6 +18,11 @@ scripts
 .
 html
 "
+"
+scripts
+.
+html
+"
 )
 ;
 const

@@ -68,15 +68,3 @@ times2
 )
 ;
 }
-window
-.
-keepMeAlive
-=
-function
-(
-)
-{
-return
-1
-;
-}
