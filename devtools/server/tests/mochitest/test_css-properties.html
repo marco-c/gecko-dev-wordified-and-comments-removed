@@ -130,6 +130,11 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
@@ -199,6 +204,7 @@ err
 )
 ;
 }
+return
 resolve
 (
 {
@@ -213,6 +219,7 @@ doc
 ;
 }
 )
+;
 }
 function
 toSortedString
@@ -608,9 +615,9 @@ cssProperties
 .
 getValues
 (
-'
+"
 margin
-'
+"
 )
 )
 toSortedString
@@ -651,9 +658,9 @@ cssProperties
 .
 getValues
 (
-'
+"
 foobar
-'
+"
 )
 .
 length
@@ -676,11 +683,11 @@ cssProperties
 .
 getValues
 (
-'
+"
 background
 -
 color
-'
+"
 )
 ;
 ok
@@ -864,6 +871,7 @@ runNextTest
 )
 ;
 }
+;
 <
 /
 script

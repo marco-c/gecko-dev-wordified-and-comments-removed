@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 Cu
 =
 Components
@@ -227,7 +232,7 @@ newConnectedDebuggerClient
 opts
 )
 {
-var
+let
 transport
 =
 DebuggerServer
@@ -236,7 +241,7 @@ connectPipe
 (
 )
 ;
-var
+let
 client
 =
 new
@@ -252,7 +257,7 @@ connect
 (
 )
 ;
-var
+let
 root
 =
 yield

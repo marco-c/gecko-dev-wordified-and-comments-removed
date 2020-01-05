@@ -130,6 +130,11 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
@@ -257,7 +262,7 @@ gWalker
 null
 ;
 let
-gClient
+gInspectee
 =
 null
 ;
@@ -347,10 +352,6 @@ actor
 .
 "
 )
-;
-gClient
-=
-client
 ;
 gWalker
 =
@@ -645,6 +646,7 @@ return
 nodeFilterConstants
 .
 FILTER_ACCEPT
+;
 }
 )
 ;

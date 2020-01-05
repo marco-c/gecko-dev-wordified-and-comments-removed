@@ -138,6 +138,11 @@ script
 <
 script
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
@@ -152,7 +157,7 @@ waitForExplicitFinish
 (
 )
 ;
-var
+let
 event
 =
 require
@@ -175,7 +180,7 @@ function
 (
 )
 {
-var
+let
 {
 memory
 client
@@ -193,7 +198,7 @@ attach
 (
 )
 ;
-var
+let
 gotGcEvent
 =
 new

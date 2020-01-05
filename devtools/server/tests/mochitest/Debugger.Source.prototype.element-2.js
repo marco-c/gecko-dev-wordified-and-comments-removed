@@ -1,2 +1,7 @@
+"
+use
+strict
+"
+;
 debugger
 ;
