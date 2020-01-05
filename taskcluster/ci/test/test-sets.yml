@@ -401,6 +401,10 @@ gpu
 -
 mochitest
 -
+media
+-
+mochitest
+-
 webgl
 -
 reftest
