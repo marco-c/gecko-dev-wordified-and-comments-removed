@@ -32,6 +32,9 @@ build
 .
 rs
 "
+publish
+=
+false
 [
 lib
 ]

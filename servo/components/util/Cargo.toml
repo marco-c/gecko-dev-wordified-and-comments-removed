@@ -25,6 +25,9 @@ Project
 Developers
 "
 ]
+publish
+=
+false
 [
 lib
 ]
