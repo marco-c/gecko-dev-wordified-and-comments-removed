@@ -217,6 +217,9 @@ test
 (
 1
 )
+(
+TESTNAME
+)
 endef
 (
 foreach

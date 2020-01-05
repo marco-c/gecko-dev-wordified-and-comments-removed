@@ -125,6 +125,16 @@ bool
 >
 bool
 ;
+fn
+is_html_element_in_html_document
+(
+&
+self
+)
+-
+>
+bool
+;
 }
 pub
 trait
