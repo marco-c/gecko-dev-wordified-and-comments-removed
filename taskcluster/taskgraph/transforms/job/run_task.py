@@ -45,6 +45,8 @@ common
 import
 (
     
+docker_worker_add_build_dependency
+    
 docker_worker_support_vcs_checkout
 )
 from
@@ -112,6 +114,20 @@ basestring
 ]
 basestring
 )
+    
+Required
+(
+'
+requires
+-
+build
+'
+default
+=
+False
+)
+:
+bool
 }
 )
 run_job_using
@@ -179,6 +195,24 @@ checkout
 :
         
 docker_worker_support_vcs_checkout
+(
+config
+job
+taskdesc
+)
+    
+if
+run
+[
+'
+requires
+-
+build
+'
+]
+:
+        
+docker_worker_add_build_dependency
 (
 config
 job
