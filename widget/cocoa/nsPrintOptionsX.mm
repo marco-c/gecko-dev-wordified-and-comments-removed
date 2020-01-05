@@ -390,8 +390,10 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
+)
+{
+if
+(
 titleCount
 >
 0
@@ -450,6 +452,7 @@ docTitles
 =
 nullptr
 ;
+}
 }
 RefPtr
 <
