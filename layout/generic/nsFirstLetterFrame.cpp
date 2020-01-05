@@ -843,7 +843,7 @@ mLineLayout
 WritingMode
 kidWritingMode
 =
-GetWritingMode
+WritingModeForLine
 (
 wm
 kid

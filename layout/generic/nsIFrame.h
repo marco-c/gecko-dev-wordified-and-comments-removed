@@ -1848,7 +1848,7 @@ mozilla
 :
 :
 WritingMode
-GetWritingMode
+WritingModeForLine
 (
 mozilla
 :
