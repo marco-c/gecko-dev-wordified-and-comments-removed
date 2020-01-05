@@ -1759,6 +1759,7 @@ addObserver
 "
 "
 _prefObserver
+false
 )
 ;
 }

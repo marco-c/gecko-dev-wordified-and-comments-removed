@@ -1811,6 +1811,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 try

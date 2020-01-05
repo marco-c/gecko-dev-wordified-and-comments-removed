@@ -283,6 +283,7 @@ CHROME_ENABLED_PREF
 this
 .
 updateDebugStatus
+false
 )
 ;
 Services
@@ -295,6 +296,7 @@ REMOTE_ENABLED_PREF
 this
 .
 updateDebugStatus
+false
 )
 ;
 this

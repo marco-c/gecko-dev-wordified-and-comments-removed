@@ -1572,6 +1572,7 @@ observe
 :
 switchDebugger
 }
+false
 )
 ;
 Tools

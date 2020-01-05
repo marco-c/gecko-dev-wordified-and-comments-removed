@@ -480,6 +480,7 @@ this
 _SyncedTabs
 .
 TOPIC_TABS_CHANGED
+false
 )
 ;
 Services
@@ -492,6 +493,7 @@ this
 FxAccountsCommon
 .
 ONLOGIN_NOTIFICATION
+false
 )
 ;
 Services
@@ -510,6 +512,7 @@ login
 :
 change
 "
+false
 )
 ;
 this

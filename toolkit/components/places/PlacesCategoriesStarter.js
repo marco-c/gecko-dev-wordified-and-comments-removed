@@ -134,6 +134,7 @@ addObserver
 (
 this
 TOPIC_GATHER_TELEMETRY
+false
 )
 ;
 Services
@@ -146,6 +147,7 @@ this
 PlacesUtils
 .
 TOPIC_SHUTDOWN
+false
 )
 ;
 let

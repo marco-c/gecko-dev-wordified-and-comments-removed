@@ -438,6 +438,7 @@ hs
 addObserver
 (
 historyObserver
+false
 )
 ;
 setMaxPages

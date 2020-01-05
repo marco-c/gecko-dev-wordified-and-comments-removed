@@ -315,6 +315,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 }
@@ -1168,6 +1169,7 @@ first
 -
 paint
 "
+false
 )
 ;
 }

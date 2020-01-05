@@ -514,6 +514,7 @@ history
 addObserver
 (
 observer
+false
 )
 ;
 do_print
@@ -1874,6 +1875,7 @@ history
 addObserver
 (
 observer
+false
 )
 ;
 do_print

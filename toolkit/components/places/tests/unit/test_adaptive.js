@@ -759,6 +759,7 @@ observer
 PlacesUtils
 .
 TOPIC_FEEDBACK_UPDATED
+false
 )
 ;
 function

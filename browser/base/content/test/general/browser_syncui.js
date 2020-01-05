@@ -330,6 +330,7 @@ addObserver
 (
 obs
 topic
+false
 )
 ;
 }

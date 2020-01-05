@@ -617,6 +617,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 }

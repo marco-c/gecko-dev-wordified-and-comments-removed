@@ -1112,6 +1112,7 @@ addObserver
 (
 prefName
 this
+false
 )
 ;
 }

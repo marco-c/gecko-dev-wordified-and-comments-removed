@@ -1497,6 +1497,7 @@ window
 name
 ]
 t
+false
 )
 ;
 window
@@ -1531,6 +1532,7 @@ addObserver
 (
 observer
 notification
+false
 )
 ;
 }
@@ -3229,6 +3231,7 @@ Browser
 :
 Quit
 "
+false
 )
 ;
 Services
@@ -3245,6 +3248,7 @@ get
 -
 pref
 "
+false
 )
 ;
 Services
@@ -3261,6 +3265,7 @@ set
 -
 pref
 "
+false
 )
 ;
 Services
@@ -3275,6 +3280,7 @@ gather
 -
 telemetry
 "
+false
 )
 ;
 Services
@@ -3289,6 +3295,7 @@ keyword
 -
 search
 "
+false
 )
 ;
 Services
@@ -3303,6 +3310,7 @@ Vibration
 :
 Request
 "
+false
 )
 ;
 window
@@ -10899,6 +10907,7 @@ repaints
 -
 flushed
 "
+false
 )
 ;
 }
@@ -21159,6 +21168,7 @@ first
 -
 paint
 "
+false
 )
 ;
 Services
@@ -21173,6 +21183,7 @@ media
 -
 playback
 "
+false
 )
 ;
 Services
@@ -21189,6 +21200,7 @@ playback
 -
 resumed
 "
+false
 )
 ;
 this
@@ -26801,6 +26813,7 @@ Gesture
 :
 SingleTap
 "
+false
 )
 ;
 Services
@@ -26815,6 +26828,7 @@ Gesture
 :
 ClickInZoomedView
 "
+false
 )
 ;
 BrowserApp
@@ -28545,6 +28559,7 @@ this
 "
 invalidformsubmit
 "
+false
 )
 ;
 Services
@@ -28559,6 +28574,7 @@ PanZoom
 :
 StateChange
 "
+false
 )
 ;
 BrowserApp
@@ -30034,6 +30050,7 @@ origin
 -
 blocked
 "
+false
 )
 ;
 Services
@@ -30050,6 +30067,7 @@ install
 -
 disabled
 "
+false
 )
 ;
 Services
@@ -30066,6 +30084,7 @@ install
 -
 blocked
 "
+false
 )
 ;
 Services
@@ -30082,6 +30101,7 @@ install
 -
 started
 "
+false
 )
 ;
 Services
@@ -30098,6 +30118,7 @@ signature
 -
 changed
 "
+false
 )
 ;
 Services
@@ -30116,6 +30137,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 AddonManager
@@ -32444,6 +32466,7 @@ this
 this
 .
 _permissionsPrompt
+false
 )
 ;
 }
@@ -34495,6 +34518,7 @@ engine
 -
 modified
 "
+false
 )
 ;
 }
@@ -36213,6 +36237,7 @@ application
 -
 background
 "
+false
 )
 ;
 Services
@@ -36227,6 +36252,7 @@ application
 -
 foreground
 "
+false
 )
 ;
 }
@@ -37444,6 +37470,7 @@ app
 -
 defaults
 "
+false
 )
 ;
 this
@@ -38890,6 +38917,7 @@ memory
 -
 pressure
 "
+false
 )
 ;
 }
@@ -38923,6 +38951,7 @@ status
 -
 changed
 "
+false
 )
 ;
 let

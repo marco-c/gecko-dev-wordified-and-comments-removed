@@ -131,6 +131,7 @@ history
 addObserver
 (
 observer
+false
 )
 ;
 }

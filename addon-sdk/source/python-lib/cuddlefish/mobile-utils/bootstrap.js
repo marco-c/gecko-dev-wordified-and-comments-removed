@@ -224,6 +224,7 @@ quit
 -
 application
 "
+false
 )
 ;
 log

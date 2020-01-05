@@ -346,6 +346,7 @@ addObserver
 (
 listener
 appStartup
+false
 )
 ;
 }

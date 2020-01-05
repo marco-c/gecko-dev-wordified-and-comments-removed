@@ -318,6 +318,7 @@ addObserver
 (
 handleObserve
 TOPIC_PRESENTATION_RECEIVER_LAUNCH_RESPONSE
+false
 )
 ;
 let

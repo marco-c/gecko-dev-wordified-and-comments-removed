@@ -757,6 +757,7 @@ addObserver
 (
 obs
 ON_DEVICE_CONNECTED_NOTIFICATION
+false
 )
 ;
 let
@@ -965,6 +966,7 @@ addObserver
 (
 obs
 ON_PROFILE_CHANGE_NOTIFICATION
+false
 )
 ;
 let

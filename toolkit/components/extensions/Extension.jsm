@@ -3494,6 +3494,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 this
@@ -4644,6 +4645,7 @@ manager
 -
 close
 "
+false
 )
 ;
 Services
@@ -4660,6 +4662,7 @@ manager
 -
 disconnect
 "
+false
 )
 ;
 ppmm

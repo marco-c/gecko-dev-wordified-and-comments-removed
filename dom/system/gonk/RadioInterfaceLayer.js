@@ -2184,6 +2184,7 @@ addObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
+false
 )
 ;
 Services
@@ -2194,6 +2195,7 @@ addObserver
 (
 kPrefRilDebuggingEnabled
 this
+false
 )
 ;
 gRadioEnabledController
@@ -3373,6 +3375,7 @@ addObserver
 (
 this
 kMozSettingsChangedObserverTopic
+false
 )
 ;
 Services
@@ -3383,6 +3386,7 @@ addObserver
 (
 this
 kSysClockChangeObserverTopic
+false
 )
 ;
 Services
@@ -3393,6 +3397,7 @@ addObserver
 (
 this
 kScreenStateChangedTopic
+false
 )
 ;
 Services
@@ -3403,6 +3408,7 @@ addObserver
 (
 this
 kNetworkConnStateChangedTopic
+false
 )
 ;
 this

@@ -2325,6 +2325,7 @@ bookmarks
 addObserver
 (
 obs
+false
 )
 ;
 let
@@ -2817,6 +2818,7 @@ bookmarks
 addObserver
 (
 obs
+false
 )
 ;
 let

@@ -423,6 +423,7 @@ addObserver
 (
 this
 LIST_UPDATED_TOPIC
+false
 )
 ;
 Services
@@ -435,6 +436,7 @@ this
 AddonManager
 .
 OPTIONS_NOTIFICATION_DISPLAYED
+false
 )
 ;
 }

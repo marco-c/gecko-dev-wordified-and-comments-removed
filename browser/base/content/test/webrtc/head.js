@@ -381,6 +381,7 @@ true
 "
 domwindowopened
 "
+false
 )
 ;
 }
@@ -459,6 +460,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 }

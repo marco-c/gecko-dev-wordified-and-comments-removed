@@ -1709,6 +1709,7 @@ addObserver
 (
 onPlacesInited
 TOPIC_PLACES_DEFAULTS_FINISHED
+false
 )
 ;
 }

@@ -121,6 +121,7 @@ nonexistent
 setIntPref
 "
 observer
+false
 )
 ;
 pb
@@ -135,6 +136,7 @@ nonexistent
 setIntPref
 "
 observer
+false
 )
 ;
 }

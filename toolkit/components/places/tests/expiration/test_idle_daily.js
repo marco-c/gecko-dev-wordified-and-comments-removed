@@ -46,6 +46,7 @@ do_test_finished
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED
+false
 )
 ;
 let

@@ -61,6 +61,7 @@ bookmarks
 addObserver
 (
 bookmarksObserver
+false
 )
 ;
 return

@@ -126,6 +126,7 @@ bookmarks
 addObserver
 (
 this
+false
 )
 ;
 Services
@@ -136,6 +137,7 @@ addObserver
 (
 this
 TOPIC_SHUTDOWN
+false
 )
 ;
 }

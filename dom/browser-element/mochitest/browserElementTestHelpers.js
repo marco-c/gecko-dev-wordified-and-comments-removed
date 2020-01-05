@@ -536,6 +536,7 @@ addObserver
 (
 observer
 topic
+false
 )
 ;
 this

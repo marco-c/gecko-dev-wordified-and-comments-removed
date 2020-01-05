@@ -312,6 +312,7 @@ browser
 safebrowsing
 "
 this
+false
 )
 ;
 Services
@@ -326,6 +327,7 @@ privacy
 trackingprotection
 "
 this
+false
 )
 ;
 Services
@@ -338,6 +340,7 @@ addObserver
 urlclassifier
 "
 this
+false
 )
 ;
 Services
@@ -354,6 +357,7 @@ flashBlock
 enabled
 "
 this
+false
 )
 ;
 this
@@ -3394,6 +3398,7 @@ update
 -
 finished
 "
+false
 )
 ;
 }

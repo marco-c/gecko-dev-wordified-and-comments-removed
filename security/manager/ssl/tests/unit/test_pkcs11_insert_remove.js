@@ -141,6 +141,7 @@ smartcard
 -
 insert
 "
+false
 )
 ;
 Services
@@ -163,6 +164,7 @@ smartcard
 -
 remove
 "
+false
 )
 ;
 loadPKCS11TestModule

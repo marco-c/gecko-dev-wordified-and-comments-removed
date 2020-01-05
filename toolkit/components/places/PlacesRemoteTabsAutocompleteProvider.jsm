@@ -473,6 +473,7 @@ sync
 :
 finish
 "
+false
 )
 ;
 Services
@@ -491,6 +492,7 @@ start
 -
 over
 "
+false
 )
 ;
 Services
@@ -501,6 +503,7 @@ addObserver
 (
 PREF_SHOW_REMOTE_ICONS
 observe
+false
 )
 ;
 observe

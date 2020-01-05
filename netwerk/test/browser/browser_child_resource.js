@@ -330,6 +330,7 @@ content
 -
 shutdown
 '
+false
 )
 ;
 registerCleanupFunction

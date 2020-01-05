@@ -311,6 +311,7 @@ addObserver
 (
 this
 topic
+false
 )
 ;
 this

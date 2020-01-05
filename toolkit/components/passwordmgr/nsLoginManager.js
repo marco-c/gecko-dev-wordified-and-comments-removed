@@ -540,6 +540,7 @@ rememberSignons
 this
 .
 _observer
+false
 )
 ;
 this
@@ -577,6 +578,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 if
@@ -612,6 +614,7 @@ storage
 -
 replace
 "
+false
 )
 ;
 this
@@ -635,6 +638,7 @@ gather
 -
 telemetry
 "
+false
 )
 ;
 }

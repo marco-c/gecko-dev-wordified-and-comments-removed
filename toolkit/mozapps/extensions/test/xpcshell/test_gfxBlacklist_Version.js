@@ -940,6 +940,7 @@ data
 -
 gfxItems
 "
+false
 )
 ;
 load_blocklist

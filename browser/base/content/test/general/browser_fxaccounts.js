@@ -1266,6 +1266,7 @@ addObserver
 (
 obs
 topic
+false
 )
 ;
 }

@@ -4364,6 +4364,7 @@ tasks
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED
+false
 )
 ;
 expiration

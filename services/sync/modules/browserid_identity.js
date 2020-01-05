@@ -705,6 +705,7 @@ addObserver
 (
 this
 topic
+false
 )
 ;
 }

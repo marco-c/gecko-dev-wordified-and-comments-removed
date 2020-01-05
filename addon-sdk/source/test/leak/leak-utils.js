@@ -260,6 +260,7 @@ windowObserver
 "
 domwindowopened
 "
+false
 )
 ;
 let

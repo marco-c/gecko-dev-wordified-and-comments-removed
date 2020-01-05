@@ -1174,6 +1174,7 @@ addObserver
 (
 PREF_APP_UPDATE_CHANNEL
 observer
+false
 )
 ;
 }

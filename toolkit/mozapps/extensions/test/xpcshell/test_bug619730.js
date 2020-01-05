@@ -119,6 +119,7 @@ blocklist
 -
 updated
 "
+false
 )
 ;
 Services
@@ -290,6 +291,7 @@ data
 -
 gfxItems
 "
+false
 )
 ;
 Services
@@ -351,6 +353,7 @@ data
 -
 testItems
 "
+false
 )
 ;
 Services
@@ -384,6 +387,7 @@ data
 -
 fooItems
 "
+false
 )
 ;
 load_blocklist

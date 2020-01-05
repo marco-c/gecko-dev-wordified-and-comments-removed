@@ -347,6 +347,7 @@ bs
 addObserver
 (
 bookmarksObserver
+false
 )
 ;
 do_check_true

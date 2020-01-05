@@ -95,6 +95,7 @@ context
 -
 exited
 "
+false
 )
 ;
 run_test_in_child

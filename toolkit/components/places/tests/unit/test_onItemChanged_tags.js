@@ -203,6 +203,7 @@ bookmarks
 addObserver
 (
 bookmarksObserver
+false
 )
 ;
 PlacesUtils

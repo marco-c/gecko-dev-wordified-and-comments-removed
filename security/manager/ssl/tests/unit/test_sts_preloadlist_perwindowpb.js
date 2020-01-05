@@ -140,6 +140,7 @@ context
 -
 exited
 "
+false
 )
 ;
 add_test

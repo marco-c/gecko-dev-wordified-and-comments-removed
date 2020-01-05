@@ -801,6 +801,7 @@ AboutReader
 :
 Ready
 "
+false
 )
 ;
 }
@@ -892,6 +893,7 @@ addObserver
 (
 pref
 observeChange
+false
 )
 ;
 }

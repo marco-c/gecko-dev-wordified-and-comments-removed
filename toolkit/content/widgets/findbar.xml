@@ -3016,6 +3016,7 @@ typeaheadfind
 this
 .
 _observer
+false
 )
 ;
 prefsvc
@@ -3032,6 +3033,7 @@ linksonly
 this
 .
 _observer
+false
 )
 ;
 prefsvc
@@ -3048,6 +3050,7 @@ casesensitive
 this
 .
 _observer
+false
 )
 ;
 prefsvc
@@ -3062,6 +3065,7 @@ entireword
 this
 .
 _observer
+false
 )
 ;
 prefsvc
@@ -3076,6 +3080,7 @@ highlightAll
 this
 .
 _observer
+false
 )
 ;
 prefsvc
@@ -3090,6 +3095,7 @@ modalHighlight
 this
 .
 _observer
+false
 )
 ;
 this

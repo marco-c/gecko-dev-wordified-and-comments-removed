@@ -204,6 +204,7 @@ BROWSER_SUGGEST_PREF
 )
 ;
 }
+false
 )
 ;
 this

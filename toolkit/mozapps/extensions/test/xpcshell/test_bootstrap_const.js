@@ -55,6 +55,7 @@ addon
 -
 install
 "
+false
 )
 ;
 yield

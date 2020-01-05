@@ -80,6 +80,7 @@ install
 -
 failed
 "
+false
 )
 ;
 }

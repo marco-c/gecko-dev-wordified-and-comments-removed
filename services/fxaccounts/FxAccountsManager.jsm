@@ -162,6 +162,7 @@ addObserver
 (
 this
 ONLOGOUT_NOTIFICATION
+false
 )
 ;
 Services
@@ -172,6 +173,7 @@ addObserver
 (
 this
 ON_FXA_UPDATE_NOTIFICATION
+false
 )
 ;
 }

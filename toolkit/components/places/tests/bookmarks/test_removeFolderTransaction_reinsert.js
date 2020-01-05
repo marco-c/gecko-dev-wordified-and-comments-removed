@@ -249,6 +249,7 @@ bookmarks
 addObserver
 (
 observer
+false
 )
 ;
 PlacesUtils

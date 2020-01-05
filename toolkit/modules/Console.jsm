@@ -2412,6 +2412,7 @@ aConsoleOptions
 .
 maxLogLevelPref
 updateMaxLogLevel
+false
 )
 ;
 }

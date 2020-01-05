@@ -97,6 +97,7 @@ blocklist
 -
 updated
 "
+false
 )
 ;
 blocklistNotifier

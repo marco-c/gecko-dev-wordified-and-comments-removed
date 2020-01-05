@@ -290,6 +290,7 @@ keyword
 -
 search
 "
+false
 )
 ;
 gURLBar

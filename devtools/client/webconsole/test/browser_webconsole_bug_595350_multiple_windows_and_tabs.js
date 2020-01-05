@@ -397,6 +397,7 @@ console
 -
 destroyed
 "
+false
 )
 ;
 registerCleanupFunction

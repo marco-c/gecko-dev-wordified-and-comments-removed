@@ -363,6 +363,7 @@ gather
 -
 telemetry
 "
+false
 )
 ;
 TelemetrySession

@@ -206,6 +206,7 @@ addObserver
 (
 onDialogShown
 obsName
+false
 )
 ;
 yield

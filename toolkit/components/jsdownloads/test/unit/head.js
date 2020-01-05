@@ -974,6 +974,7 @@ onDeleteVisits
 {
 }
 }
+false
 )
 ;
 return

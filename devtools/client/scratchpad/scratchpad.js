@@ -10813,6 +10813,7 @@ addObserver
 "
 "
 this
+false
 )
 ;
 this
@@ -10948,6 +10949,7 @@ close
 -
 requested
 "
+false
 )
 ;
 }

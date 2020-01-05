@@ -783,6 +783,7 @@ window
 -
 destroyed
 "
+false
 )
 ;
 doc

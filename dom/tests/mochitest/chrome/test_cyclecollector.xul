@@ -474,6 +474,7 @@ collector
 -
 begin
 "
+false
 )
 ;
 SpecialPowers

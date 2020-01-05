@@ -466,6 +466,7 @@ addObserver
 (
 this
 TOPIC_XPCOM_SHUTDOWN
+false
 )
 ;
 Services
@@ -476,6 +477,7 @@ addObserver
 (
 PREF_RIL_DEBUG_ENABLED
 this
+false
 )
 ;
 }

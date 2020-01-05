@@ -9084,6 +9084,7 @@ addObserver
 (
 observer
 aObserveTopic
+false
 )
 ;
 return

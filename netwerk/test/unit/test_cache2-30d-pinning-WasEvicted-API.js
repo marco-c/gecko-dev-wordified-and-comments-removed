@@ -585,6 +585,7 @@ memory
 -
 pools
 "
+false
 )
 ;
 do_test_pending

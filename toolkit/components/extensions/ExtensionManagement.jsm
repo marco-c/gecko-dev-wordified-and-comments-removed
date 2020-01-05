@@ -1310,6 +1310,7 @@ startupcache
 -
 invalidate
 "
+false
 )
 ;
 ExtensionManagement

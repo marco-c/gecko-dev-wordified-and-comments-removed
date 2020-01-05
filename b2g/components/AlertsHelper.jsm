@@ -328,6 +328,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 for

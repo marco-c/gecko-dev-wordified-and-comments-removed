@@ -2600,6 +2600,7 @@ addObserver
 (
 observe
 topic
+false
 )
 ;
 }

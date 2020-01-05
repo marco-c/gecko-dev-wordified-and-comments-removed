@@ -269,6 +269,7 @@ intl
 accept_languages
 "
 checkLanguagePref
+false
 )
 ;
 setLanguagePref

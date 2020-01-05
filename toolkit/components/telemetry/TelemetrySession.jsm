@@ -1741,6 +1741,7 @@ this
 "
 wake_notification
 "
+false
 )
 ;
 }
@@ -6921,6 +6922,7 @@ idle
 -
 daily
 "
+false
 )
 ;
 if
@@ -6938,6 +6940,7 @@ addObserver
 (
 this
 TOPIC_CYCLE_COLLECTOR_BEGIN
+false
 )
 ;
 }
@@ -7207,6 +7210,7 @@ windows
 -
 restored
 "
+false
 )
 ;
 if
@@ -7234,6 +7238,7 @@ application
 -
 background
 "
+false
 )
 ;
 }
@@ -7251,6 +7256,7 @@ window
 -
 visible
 "
+false
 )
 ;
 this
@@ -7612,6 +7618,7 @@ child
 -
 shutdown
 "
+false
 )
 ;
 cpml

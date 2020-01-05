@@ -124,6 +124,7 @@ cookie
 -
 rejected
 "
+false
 )
 ;
 gBrowser

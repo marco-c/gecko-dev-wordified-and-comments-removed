@@ -1488,6 +1488,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 gLibs

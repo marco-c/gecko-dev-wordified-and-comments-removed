@@ -297,6 +297,7 @@ content
 -
 shutdown
 "
+false
 )
 ;
 registerCleanupFunction

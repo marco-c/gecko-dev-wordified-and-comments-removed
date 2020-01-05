@@ -588,6 +588,7 @@ addObserver
 (
 observer
 URI_VISITED_RESOLUTION_TOPIC
+false
 )
 ;
 function
@@ -967,6 +968,7 @@ visit
 -
 saved
 "
+false
 )
 ;
 /

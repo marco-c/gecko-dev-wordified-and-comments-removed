@@ -73,6 +73,7 @@ bs
 addObserver
 (
 bookmarksObserver
+false
 )
 ;
 PlacesUtils
@@ -82,6 +83,7 @@ annotations
 addObserver
 (
 bookmarksObserver
+false
 )
 ;
 var

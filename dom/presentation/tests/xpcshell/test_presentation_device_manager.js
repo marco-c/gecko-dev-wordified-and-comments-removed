@@ -622,6 +622,7 @@ device
 -
 change
 '
+false
 )
 ;
 manager
@@ -863,6 +864,7 @@ device
 -
 change
 '
+false
 )
 ;
 testDevice
@@ -1128,6 +1130,7 @@ session
 -
 request
 '
+false
 )
 ;
 manager
@@ -1288,6 +1291,7 @@ terminate
 -
 request
 '
+false
 )
 ;
 manager
@@ -1444,6 +1448,7 @@ reconnect
 -
 request
 '
+false
 )
 ;
 manager
@@ -1624,6 +1629,7 @@ device
 -
 change
 '
+false
 )
 ;
 manager

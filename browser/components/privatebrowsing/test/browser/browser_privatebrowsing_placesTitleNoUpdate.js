@@ -205,6 +205,7 @@ history
 addObserver
 (
 historyObserver
+false
 )
 ;
 }

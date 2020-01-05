@@ -579,6 +579,7 @@ addObserver
 (
 observer
 SS_ON_CLOSED_OBJECTS_CHANGED
+false
 )
 ;
 return

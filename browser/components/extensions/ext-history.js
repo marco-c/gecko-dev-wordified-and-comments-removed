@@ -615,6 +615,7 @@ history
 addObserver
 (
 _observer
+false
 )
 ;
 }

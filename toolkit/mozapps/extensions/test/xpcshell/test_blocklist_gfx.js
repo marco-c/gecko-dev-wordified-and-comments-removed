@@ -339,6 +339,7 @@ addObserver
 (
 observe
 EVENT_NAME
+false
 )
 ;
 blocklist
@@ -638,6 +639,7 @@ addObserver
 (
 observe
 EVENT_NAME
+false
 )
 ;
 blocklist
@@ -789,6 +791,7 @@ addObserver
 (
 observe
 EVENT_NAME
+false
 )
 ;
 blocklist

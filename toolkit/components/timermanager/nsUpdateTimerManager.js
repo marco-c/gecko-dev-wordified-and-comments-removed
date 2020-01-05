@@ -235,6 +235,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 }

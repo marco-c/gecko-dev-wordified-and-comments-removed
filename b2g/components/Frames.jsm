@@ -101,6 +101,7 @@ browser
 -
 shown
 '
+false
 )
 ;
 Services
@@ -117,6 +118,7 @@ browser
 -
 shown
 '
+false
 )
 ;
 Services
@@ -133,6 +135,7 @@ manager
 -
 close
 '
+false
 )
 ;
 SystemAppProxy

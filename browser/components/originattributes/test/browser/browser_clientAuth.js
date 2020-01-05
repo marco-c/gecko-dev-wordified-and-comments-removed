@@ -39,6 +39,7 @@ dialog
 -
 loaded
 "
+false
 )
 ;
 registerCleanupFunction

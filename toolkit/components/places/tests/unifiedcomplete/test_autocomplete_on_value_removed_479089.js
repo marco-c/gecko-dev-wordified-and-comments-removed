@@ -75,6 +75,7 @@ history
 addObserver
 (
 obs
+false
 )
 ;
 }

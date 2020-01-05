@@ -99,5 +99,6 @@ observer
 "
 debuggerAttached
 "
+false
 )
 ;

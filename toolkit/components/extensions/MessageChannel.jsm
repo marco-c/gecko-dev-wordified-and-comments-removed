@@ -592,6 +592,7 @@ manager
 -
 close
 "
+false
 )
 ;
 Services
@@ -608,6 +609,7 @@ manager
 -
 disconnect
 "
+false
 )
 ;
 this

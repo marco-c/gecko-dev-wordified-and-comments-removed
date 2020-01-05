@@ -3074,6 +3074,7 @@ debug
 )
 ;
 }
+false
 )
 ;
 this
@@ -3167,6 +3168,7 @@ privacy
 resistFingerprinting
 "
 this
+false
 )
 ;
 }
@@ -5628,6 +5630,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 }
@@ -6783,6 +6786,7 @@ frameloader
 -
 crashed
 "
+false
 )
 ;
 }
@@ -6840,6 +6844,7 @@ content
 -
 shutdown
 "
+false
 )
 ;
 }
@@ -19977,6 +19982,7 @@ addObserver
 (
 PREF
 updateValue
+false
 )
 ;
 return
@@ -20054,6 +20060,7 @@ addObserver
 (
 PREF
 updateValue
+false
 )
 ;
 return
@@ -20131,6 +20138,7 @@ addObserver
 (
 PREF
 updateValue
+false
 )
 ;
 return
