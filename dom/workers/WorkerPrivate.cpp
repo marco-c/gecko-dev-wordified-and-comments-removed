@@ -17455,6 +17455,7 @@ WorkerAvailable
 (
 JSContext
 *
+aCx
 JSObject
 *
 )
@@ -17476,8 +17477,9 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCx
 )
 )
 {
@@ -17566,8 +17568,9 @@ return
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCx
 )
 ;
 }
@@ -18294,8 +18297,9 @@ isChrome
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+aCx
 )
 ;
 if
