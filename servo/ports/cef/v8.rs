@@ -31,7 +31,7 @@ libc
 :
 :
 {
-mod
+self
 c_double
 c_int
 }

@@ -248,7 +248,7 @@ DOM
 .
 #
 [
-macro_escape
+macro_use
 ]
 pub
 mod
@@ -256,7 +256,7 @@ dom
 {
 #
 [
-macro_escape
+macro_use
 ]
 pub
 mod

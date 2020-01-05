@@ -46,7 +46,7 @@ browser
 :
 :
 {
-mod
+self
 ServoCefBrowserExtensions
 }
 ;
@@ -97,7 +97,7 @@ constellation_msg
 :
 :
 {
-mod
+self
 KeyModifiers
 KeyState
 }

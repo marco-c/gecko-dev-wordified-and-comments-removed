@@ -9,7 +9,7 @@ libc
 :
 :
 {
-mod
+self
 size_t
 c_int
 c_ushort

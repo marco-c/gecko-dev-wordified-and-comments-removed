@@ -39,7 +39,7 @@ compositor_task
 :
 :
 {
-mod
+self
 CompositorProxy
 CompositorReceiver
 }

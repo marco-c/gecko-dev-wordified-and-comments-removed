@@ -31,6 +31,14 @@ missing_copy_implementations
 )
 ]
 #
+!
+[
+allow
+(
+unstable
+)
+]
+#
 [
 macro_use
 ]

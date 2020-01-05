@@ -9,7 +9,7 @@ compositor_task
 :
 :
 {
-mod
+self
 CompositorProxy
 CompositorReceiver
 }
@@ -71,7 +71,7 @@ glfw
 :
 :
 {
-mod
+self
 Context
 }
 ;
@@ -202,7 +202,7 @@ time
 :
 :
 {
-mod
+self
 Timespec
 }
 ;
