@@ -257,6 +257,9 @@ TrapExitOffsetArray
 bool
 alwaysBaseline_
 ;
+Assumptions
+assumptions_
+;
 LinkData
 linkData_
 ;
