@@ -492,11 +492,6 @@ CSSConditionRule
 webidl
 '
 '
-CSSCounterStyleRule
-.
-webidl
-'
-'
 CSSFontFaceRule
 .
 webidl
