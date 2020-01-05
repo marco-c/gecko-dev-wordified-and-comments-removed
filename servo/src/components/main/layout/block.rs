@@ -41,7 +41,7 @@ flow
 {
 BlockFlowClass
 FlowClass
-FlowContext
+Flow
 FlowData
 ImmutableFlowUtils
 }
@@ -2383,7 +2383,7 @@ false
 }
 }
 impl
-FlowContext
+Flow
 for
 BlockFlow
 {
