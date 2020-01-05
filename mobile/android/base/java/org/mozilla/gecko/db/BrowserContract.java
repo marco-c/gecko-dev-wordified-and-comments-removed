@@ -423,6 +423,16 @@ public
 static
 final
 String
+PARAM_TOPSITES_EXCLUDE_REMOTE_ONLY
+=
+"
+topsites_exclude_remote_only
+"
+;
+public
+static
+final
+String
 PARAM_IS_SYNC
 =
 "
