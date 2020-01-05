@@ -1,8 +1,10 @@
+ach
 af
 an
 ar
+as
 ast
-be
+az
 bg
 bn
 -
@@ -13,10 +15,12 @@ IN
 br
 bs
 ca
+cak
 cs
 cy
 da
 de
+dsb
 el
 en
 -
@@ -43,6 +47,7 @@ MX
 et
 eu
 fa
+ff
 fi
 fr
 fy
@@ -53,6 +58,7 @@ ga
 IE
 gd
 gl
+gn
 gu
 -
 IN
@@ -61,6 +67,7 @@ hi
 -
 IN
 hr
+hsb
 hu
 hy
 -
@@ -77,16 +84,20 @@ JP
 -
 mac
 osx
+ka
+kab
 kk
+km
 kn
 ko
-ku
+lij
 lt
 lv
 mai
 mk
 ml
 mr
+ms
 nb
 -
 NO
@@ -122,6 +133,8 @@ te
 th
 tr
 uk
+ur
+uz
 vi
 xh
 zh
@@ -130,4 +143,3 @@ CN
 zh
 -
 TW
-zu
