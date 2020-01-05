@@ -377,6 +377,10 @@ border
 :
 roundButtonBorder
 ;
+color
+:
+roundButtonColor
+;
 background
 :
 roundButtonBackground
@@ -386,10 +390,6 @@ box
 shadow
 :
 roundButtonShadow
-;
-color
-:
-buttontext
 ;
 margin
 :
