@@ -339,6 +339,11 @@ TestDeadlockDetector
 .
 cpp
 '
+'
+TestDeadlockDetectorScalability
+.
+cpp
+'
 ]
 #
 Compile
