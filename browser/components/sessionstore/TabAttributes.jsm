@@ -32,6 +32,9 @@ pending
 "
 iconLoadingPrincipal
 "
+"
+skipbackgroundnotify
+"
 ]
 )
 ;
