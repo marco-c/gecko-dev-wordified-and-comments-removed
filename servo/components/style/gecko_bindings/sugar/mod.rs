@@ -14,6 +14,9 @@ ns_style_coord
 mod
 ns_t_array
 ;
+mod
+ns_timing_function
+;
 pub
 mod
 ownership
