@@ -703,7 +703,6 @@ Step
 3
 .
 let
-mut
 maybe_elem
 =
 if
