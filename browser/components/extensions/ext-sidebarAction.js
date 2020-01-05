@@ -594,16 +594,6 @@ id
 }
 if
 (
-AppConstants
-.
-RELEASE_OR_BETA
-)
-{
-return
-;
-}
-if
-(
 install
 &
 &
