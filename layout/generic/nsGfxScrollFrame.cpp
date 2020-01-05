@@ -15866,7 +15866,13 @@ mScrollPort
 ;
 if
 (
-wasUsingDisplayPort
+nsLayoutUtils
+:
+:
+HasDisplayPort
+(
+content
+)
 )
 {
 const
