@@ -53,10 +53,4 @@ queryString
 false
 )
 ;
-response
-.
-closeConnection
-(
-)
-;
 }

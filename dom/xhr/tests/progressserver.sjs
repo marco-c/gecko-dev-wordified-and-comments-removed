@@ -182,12 +182,6 @@ bodyAvail
 )
 )
 ;
-response
-.
-closeConnection
-(
-)
-;
 if
 (
 command

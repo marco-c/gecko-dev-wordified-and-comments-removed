@@ -276,9 +276,7 @@ connection
 "
 )
 "
-keep
--
-alive
+close
 "
 )
 ;
