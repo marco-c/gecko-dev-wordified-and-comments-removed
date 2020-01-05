@@ -579,7 +579,7 @@ BasePrincipal
 ;
 virtual
 nsresult
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &
