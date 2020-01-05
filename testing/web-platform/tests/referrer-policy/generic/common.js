@@ -569,6 +569,7 @@ url
 callback
 attributes
 referrerPolicy
+test
 )
 {
 var
@@ -878,6 +879,10 @@ pagePolicy
 .
 then
 (
+test
+.
+step_func
+(
 values
 =
 >
@@ -986,6 +991,7 @@ url
 )
 ;
 }
+)
 )
 ;
 }
