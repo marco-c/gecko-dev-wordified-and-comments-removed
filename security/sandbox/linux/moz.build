@@ -151,6 +151,11 @@ Sandbox
 .
 h
 '
+'
+SandboxInfo
+.
+h
+'
 ]
 SOURCES
 +
@@ -748,6 +753,11 @@ SandboxFilterUtil
 cpp
 '
 '
+SandboxInfo
+.
+cpp
+'
+'
 SandboxLogging
 .
 cpp
@@ -1034,8 +1044,6 @@ security
 sandbox
 /
 linux
-/
-common
 '
 ]
 LOCAL_INCLUDES
@@ -1113,9 +1121,6 @@ DIRS
 [
 '
 broker
-'
-'
-common
 '
 '
 glue
