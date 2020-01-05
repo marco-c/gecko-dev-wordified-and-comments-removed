@@ -93,6 +93,10 @@ mIsCurrentlyDecoded
 =
 true
 ;
+mCompositedFrameInvalid
+=
+false
+;
 }
 mHasBeenDecoded
 =
