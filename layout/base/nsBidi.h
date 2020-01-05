@@ -1871,16 +1871,6 @@ aParaLevel
 )
 ;
 nsresult
-GetCharTypeAt
-(
-int32_t
-aCharIndex
-nsCharType
-*
-aType
-)
-;
-nsresult
 GetLogicalRun
 (
 int32_t
