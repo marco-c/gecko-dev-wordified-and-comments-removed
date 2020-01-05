@@ -990,7 +990,9 @@ obj
 nodeType
 =
 =
-1
+obj
+.
+ELEMENT_NODE
 )
 {
 let
