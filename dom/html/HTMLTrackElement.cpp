@@ -1854,6 +1854,13 @@ RemoveTextTrack
 mTrack
 )
 ;
+mMediaParent
+-
+>
+UpdateReadyState
+(
+)
+;
 }
 mMediaParent
 =

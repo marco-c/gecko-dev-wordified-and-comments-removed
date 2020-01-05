@@ -1157,6 +1157,13 @@ this
 true
 )
 ;
+mediaElement
+-
+>
+UpdateReadyState
+(
+)
+;
 }
 }
 TextTrackList
