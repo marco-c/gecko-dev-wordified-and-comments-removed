@@ -834,6 +834,9 @@ buf
 [
 2048
 ]
+=
+{
+}
 ;
 dataSize
 =
@@ -841,6 +844,8 @@ sizeof
 (
 buf
 )
+-
+1
 ;
 if
 (
@@ -6845,6 +6850,9 @@ path
 [
 MAX_PATH
 ]
+=
+{
+}
 ;
 HRESULT
 hRes
@@ -6871,8 +6879,17 @@ key
 ;
 DWORD
 type
-size
 dwRes
+;
+DWORD
+size
+=
+sizeof
+(
+path
+)
+-
+1
 ;
 dwRes
 =
