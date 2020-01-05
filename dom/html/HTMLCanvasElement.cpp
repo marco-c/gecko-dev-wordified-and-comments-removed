@@ -1640,12 +1640,12 @@ nsICanvasRenderingContextInternal
 >
 ret
 =
-CanvasRenderingContextHelper
-:
-:
-CreateContext
+CreateContextHelper
 (
 aContextType
+GetCompositorBackendType
+(
+)
 )
 ;
 if
