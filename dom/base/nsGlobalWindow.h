@@ -1787,6 +1787,12 @@ NotifyVREventListenerAdded
 (
 )
 ;
+bool
+HasUsedVR
+(
+)
+const
+;
 virtual
 void
 EventListenerAdded
