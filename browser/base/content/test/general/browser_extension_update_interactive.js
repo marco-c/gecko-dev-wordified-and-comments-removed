@@ -53,7 +53,7 @@ const
 ID
 =
 "
-update2
+update
 tests
 .
 mozilla
