@@ -625,8 +625,6 @@ RefreshAgentsAudioFocusChanged
 AudioChannelAgent
 *
 aAgent
-bool
-aActive
 )
 ;
 class
@@ -724,8 +722,6 @@ AudioFocusChanged
 AudioChannelAgent
 *
 aNewPlayingAgent
-bool
-aActive
 )
 ;
 void
@@ -903,8 +899,6 @@ NotifyAudioCompetingChanged
 AudioChannelAgent
 *
 aAgent
-bool
-aActive
 )
 ;
 uint32_t
@@ -915,8 +909,6 @@ AudioChannelAgent
 aAgent
 int32_t
 aIncomingChannelType
-bool
-aIncomingChannelActive
 )
 const
 ;
