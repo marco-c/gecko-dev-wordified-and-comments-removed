@@ -1589,6 +1589,14 @@ ToUnknownSize
 return
 ;
 }
+mRoot
+-
+>
+StartPendingAnimations
+(
+mAnimationReadyTime
+)
+;
 wr
 :
 :
