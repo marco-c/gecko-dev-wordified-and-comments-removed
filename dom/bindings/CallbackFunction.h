@@ -99,13 +99,13 @@ Handle
 JSObject
 *
 >
-Callable
+CallableOrNull
 (
 )
 const
 {
 return
-Callback
+CallbackOrNull
 (
 )
 ;

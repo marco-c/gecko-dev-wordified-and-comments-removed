@@ -1464,13 +1464,12 @@ aValue
 JS
 :
 :
-ObjectValue
+ObjectOrNullValue
 (
-*
 handler
 -
 >
-Callable
+CallableOrNull
 (
 )
 )

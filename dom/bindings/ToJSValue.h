@@ -476,12 +476,11 @@ aCx
 ;
 aValue
 .
-setObject
+setObjectOrNull
 (
-*
 aArgument
 .
-Callback
+CallbackOrNull
 (
 )
 )
