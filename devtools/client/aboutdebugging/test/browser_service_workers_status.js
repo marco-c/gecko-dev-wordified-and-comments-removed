@@ -97,6 +97,16 @@ idle_extended_timeout
 "
 SW_TIMEOUT
 ]
+[
+"
+dom
+.
+ipc
+.
+processCount
+"
+1
+]
 ]
 }
 )
