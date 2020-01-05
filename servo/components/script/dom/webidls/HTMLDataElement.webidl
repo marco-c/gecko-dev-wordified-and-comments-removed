@@ -79,8 +79,6 @@ HTMLDataElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 value
