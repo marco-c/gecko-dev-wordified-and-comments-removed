@@ -304,12 +304,6 @@ nsIFrame
 aFrame
 )
 ;
-inline
-bool
-HasPendingRestyles
-(
-)
-;
 static
 nsIFrame
 *

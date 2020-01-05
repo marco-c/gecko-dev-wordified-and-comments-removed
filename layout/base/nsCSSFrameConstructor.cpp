@@ -525,6 +525,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
+#
+include
+"
 nsAutoLayoutPhase
 .
 h

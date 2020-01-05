@@ -467,11 +467,6 @@ ServoRestyleManager
 h
 '
 '
-ServoRestyleManagerInlines
-.
-h
-'
-'
 ShapeUtils
 .
 h
