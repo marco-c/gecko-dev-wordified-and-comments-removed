@@ -388,6 +388,17 @@ frame_tree_id
 FrameTreeId
 )
 ;
+fn
+notify_paint_task_exiting
+(
+&
+mut
+self
+pipeline_id
+:
+PipelineId
+)
+;
 }
 pub
 trait

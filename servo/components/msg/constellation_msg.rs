@@ -601,6 +601,11 @@ PipelineId
 Epoch
 >
 )
+RemoveIFrame
+(
+PipelineId
+SubpageId
+)
 }
 #
 [
