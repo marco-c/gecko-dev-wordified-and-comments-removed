@@ -18923,7 +18923,7 @@ true
 JS
 :
 :
-AutoAssertNoAlloc
+AutoAssertNoGC
 nogc
 ;
 if
