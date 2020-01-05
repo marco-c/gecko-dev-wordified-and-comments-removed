@@ -3,12 +3,9 @@
 [
 feature
 (
-core
-env
 libc
 path
 rustc_private
-std_misc
 thread_local
 )
 ]

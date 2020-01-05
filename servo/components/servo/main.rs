@@ -3,8 +3,6 @@
 [
 feature
 (
-env
-os
 start
 )
 ]
