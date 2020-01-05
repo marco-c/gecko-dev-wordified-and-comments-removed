@@ -759,6 +759,16 @@ data
 )
 const
 ;
+bool
+extractCode
+(
+JSContext
+*
+cx
+MutableHandleValue
+vp
+)
+;
 }
 ;
 typedef
