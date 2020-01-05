@@ -6258,12 +6258,9 @@ IsSelected
 )
 const
 ;
-nsresult
+bool
 IsSelectable
 (
-bool
-*
-aIsSelectable
 mozilla
 :
 :

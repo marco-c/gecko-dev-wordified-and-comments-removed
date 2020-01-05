@@ -14100,13 +14100,13 @@ if
 frame
 )
 {
+selectable
+=
 frame
 -
 >
 IsSelectable
 (
-&
-selectable
 nullptr
 )
 ;
