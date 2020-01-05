@@ -124,34 +124,6 @@ array_names
 [
   
 '
-marketplaceProdPublicRoot
-'
-  
-'
-marketplaceProdReviewersRoot
-'
-  
-'
-marketplaceDevPublicRoot
-'
-  
-'
-marketplaceDevReviewersRoot
-'
-  
-'
-marketplaceStageRoot
-'
-  
-'
-trustedAppPublicRoot
-'
-  
-'
-trustedAppTestRoot
-'
-  
-'
 xpcshellRoot
 '
   
