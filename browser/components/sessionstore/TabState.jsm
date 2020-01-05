@@ -426,7 +426,7 @@ serializePrincipal
 (
 browser
 .
-contentPrincipal
+mIconLoadingPrincipal
 )
 ;
 }
