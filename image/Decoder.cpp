@@ -1511,6 +1511,12 @@ FinishWithErrorInternal
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mInFrame
+)
+;
 return
 NS_OK
 ;
