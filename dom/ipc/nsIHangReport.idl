@@ -304,12 +304,6 @@ attribute
 ACString
 scriptFileName
 ;
-readonly
-attribute
-unsigned
-long
-scriptLineNo
-;
 /
 /
 For
