@@ -313,6 +313,10 @@ azure
 rust
 -
 freetype
+\
+rust
+-
+fontconfig
 #
 See
 note
@@ -329,4 +333,8 @@ layers
 rust
 -
 freetype
+\
+rust
+-
+fontconfig
 endif

@@ -1727,6 +1727,9 @@ CFG_SUBMODULES
 rust
 -
 freetype
+rust
+-
+fontconfig
 {
 CFG_SUBMODULES
 }
