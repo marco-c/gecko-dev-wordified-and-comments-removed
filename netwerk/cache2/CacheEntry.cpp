@@ -6449,7 +6449,7 @@ true
 )
 ;
 return
-NS_OK
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 NS_IMETHODIMP
