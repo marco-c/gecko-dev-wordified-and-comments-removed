@@ -853,12 +853,6 @@ NextFrameSeekTask
 :
 Seek
 (
-const
-media
-:
-:
-TimeUnit
-&
 )
 {
 AssertOwnerThread
