@@ -7551,10 +7551,46 @@ device
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+verbose
+'
+'
+-
+v
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Print
+verbose
+output
+when
+installing
+to
+an
+Android
+emulator
+.
+'
+)
+    
 def
 install
 (
 self
+verbose
+=
+False
 )
 :
         
@@ -7579,6 +7615,9 @@ verify_android_device
 verify_android_device
 (
 self
+verbose
+=
+verbose
 )
         
 ret
