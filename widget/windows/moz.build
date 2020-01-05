@@ -498,6 +498,11 @@ nsPrintSettingsWin
 .
 cpp
 '
+'
+WindowsEMF
+.
+cpp
+'
 ]
 if
 CONFIG
