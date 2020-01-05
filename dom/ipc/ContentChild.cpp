@@ -4440,6 +4440,8 @@ initialData
 mFontFamilies
 &
 userContentSheetURL
+&
+mLookAndFeelCache
 )
 ;
 RecvSetOffline
