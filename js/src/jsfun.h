@@ -1083,6 +1083,11 @@ isBuiltinFunctionConstructor
 )
 ;
 bool
+needsPrototypeProperty
+(
+)
+;
+bool
 strict
 (
 )
