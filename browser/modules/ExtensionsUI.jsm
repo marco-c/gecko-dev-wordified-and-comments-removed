@@ -222,7 +222,7 @@ chrome
 :
 /
 /
-browser
+branding
 /
 locale
 /
