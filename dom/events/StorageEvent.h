@@ -62,7 +62,7 @@ namespace
 dom
 {
 class
-DOMStorage
+Storage
 ;
 class
 StorageEvent
@@ -108,7 +108,7 @@ mUrl
 ;
 RefPtr
 <
-DOMStorage
+Storage
 >
 mStorageArea
 ;
@@ -212,7 +212,7 @@ const
 nsAString
 &
 aURL
-DOMStorage
+Storage
 *
 aStorageArea
 )
@@ -273,7 +273,7 @@ aRetVal
 mUrl
 ;
 }
-DOMStorage
+Storage
 *
 GetStorageArea
 (

@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-DOMStorage
+Storage
 .
 h
 "
@@ -357,7 +357,7 @@ const
 nsAString
 &
 aURL
-DOMStorage
+Storage
 *
 aStorageArea
 )

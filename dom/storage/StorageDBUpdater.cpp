@@ -1,7 +1,7 @@
 #
 include
 "
-DOMStorageManager
+StorageManager
 .
 h
 "
@@ -605,7 +605,7 @@ NS_OK
 }
 }
 namespace
-DOMStorageDBUpdater
+StorageDBUpdater
 {
 nsresult
 CreateSchema1Tables

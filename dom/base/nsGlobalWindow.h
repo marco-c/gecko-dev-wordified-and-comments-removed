@@ -4838,7 +4838,7 @@ mozilla
 dom
 :
 :
-DOMStorage
+Storage
 *
 GetSessionStorage
 (
@@ -4856,7 +4856,7 @@ mozilla
 dom
 :
 :
-DOMStorage
+Storage
 *
 GetLocalStorage
 (
@@ -9669,7 +9669,7 @@ mozilla
 dom
 :
 :
-DOMStorage
+Storage
 >
 mLocalStorage
 ;
@@ -9681,7 +9681,7 @@ mozilla
 dom
 :
 :
-DOMStorage
+Storage
 >
 mSessionStorage
 ;
@@ -9744,9 +9744,9 @@ dom
 StorageEvent
 >
 >
-nsDOMStorageEventArray
+nsStorageEventArray
 ;
-nsDOMStorageEventArray
+nsStorageEventArray
 mPendingStorageEvents
 ;
 uint32_t
