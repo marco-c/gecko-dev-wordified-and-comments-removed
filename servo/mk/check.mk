@@ -293,7 +293,6 @@ python
 (
 S
 )
-/
 src
 /
 etc
@@ -304,5 +303,4 @@ py
 (
 S
 )
-/
 src
