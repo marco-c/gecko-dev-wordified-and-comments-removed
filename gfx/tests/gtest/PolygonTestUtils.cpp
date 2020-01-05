@@ -10,6 +10,16 @@ include
 <
 cmath
 >
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+Polygon
+MozPolygon
+;
 namespace
 mozilla
 {
@@ -262,11 +272,11 @@ operator
 =
 (
 const
-Polygon
+MozPolygon
 &
 lhs
 const
-Polygon
+MozPolygon
 &
 rhs
 )
@@ -596,7 +606,7 @@ Point3D
 )
 )
 ;
-Polygon
+MozPolygon
 p1
 {
 Point3D
@@ -649,7 +659,7 @@ Point3D
 )
 }
 ;
-Polygon
+MozPolygon
 shifted
 {
 Point3D
@@ -702,7 +712,7 @@ Point3D
 )
 }
 ;
-Polygon
+MozPolygon
 p2
 {
 Point3D
@@ -755,7 +765,7 @@ Point3D
 )
 }
 ;
-Polygon
+MozPolygon
 p3
 {
 Point3D
