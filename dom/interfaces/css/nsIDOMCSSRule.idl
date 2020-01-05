@@ -334,6 +334,13 @@ SUPPORTS_RULE
 const
 unsigned
 short
+DOCUMENT_RULE
+=
+13
+;
+const
+unsigned
+short
 FONT_FEATURE_VALUES_RULE
 =
 14
