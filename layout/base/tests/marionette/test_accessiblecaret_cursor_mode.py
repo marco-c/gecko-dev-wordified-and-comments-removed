@@ -1044,8 +1044,10 @@ content_to_add
 !
 '
         
-target_content
+non_target_content
 =
+content_to_add
++
 sel
 .
 content
@@ -1053,8 +1055,6 @@ content
 string
 .
 ascii_letters
-+
-content_to_add
         
 el
 .
@@ -1118,9 +1118,9 @@ content_to_add
         
 self
 .
-assertEqual
+assertNotEqual
 (
-target_content
+non_target_content
 sel
 .
 content
