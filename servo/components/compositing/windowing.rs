@@ -53,7 +53,7 @@ platform
 surface
 :
 :
-NativeGraphicsMetadata
+NativeDisplay
 ;
 use
 msg
@@ -642,14 +642,14 @@ f32
 >
 ;
 fn
-native_metadata
+native_display
 (
 &
 self
 )
 -
 >
-NativeGraphicsMetadata
+NativeDisplay
 ;
 fn
 create_compositor_channel
