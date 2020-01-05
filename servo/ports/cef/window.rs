@@ -1741,11 +1741,8 @@ visitor
 .
 visit
 (
+&
 utf16_chars
-.
-as_slice
-(
-)
 )
 }
 }
