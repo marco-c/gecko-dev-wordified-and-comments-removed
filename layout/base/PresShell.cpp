@@ -1121,7 +1121,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -1130,7 +1130,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -12924,7 +12924,8 @@ nsChangeHint_ReconstructFrame
 +
 mChangeNestCount
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
@@ -16522,7 +16523,8 @@ bool
 aFlushOnHoverChange
 )
 {
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
@@ -19684,7 +19686,8 @@ root
 return
 ;
 }
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
@@ -42733,7 +42736,8 @@ scriptBlocker
 +
 mChangeNestCount
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
