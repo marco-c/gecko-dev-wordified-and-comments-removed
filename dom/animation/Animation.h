@@ -986,6 +986,16 @@ NotifyGeometricAnimationsStartingThisFrame
 (
 )
 ;
+virtual
+void
+MaybeQueueCancelEvent
+(
+StickyTimeDuration
+aActiveTime
+)
+{
+}
+;
 protected
 :
 void

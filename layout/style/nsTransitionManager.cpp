@@ -991,6 +991,8 @@ CSSTransition
 :
 QueueEvents
 (
+StickyTimeDuration
+aActiveTime
 )
 {
 if
@@ -1247,18 +1249,12 @@ TransitionPhase
 Idle
 )
 {
-StickyTimeDuration
-activeTime
-(
-0
-)
-;
 TimeStamp
 activeTimeStamp
 =
 ElapsedTimeToTimeStamp
 (
-activeTime
+aActiveTime
 )
 ;
 events
@@ -1268,7 +1264,7 @@ AppendElement
 TransitionEventParams
 {
 eTransitionCancel
-activeTime
+aActiveTime
 activeTimeStamp
 }
 )
