@@ -1755,15 +1755,6 @@ mBuffered
 ;
 Mirror
 <
-media
-:
-:
-NullableTimeUnit
->
-mEstimatedDuration
-;
-Mirror
-<
 Maybe
 <
 double
