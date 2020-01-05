@@ -5899,7 +5899,7 @@ next
 (
 )
 ;
-Assembler
+AssemblerMIPSShared
 :
 :
 UpdateLuiOriValue
