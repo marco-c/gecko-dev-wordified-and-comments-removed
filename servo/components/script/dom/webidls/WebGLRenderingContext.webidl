@@ -3653,8 +3653,6 @@ GLsizei
 height
 )
 ;
-/
-/
 void
 sampleCoverage
 (
