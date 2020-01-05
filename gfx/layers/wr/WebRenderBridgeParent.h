@@ -413,6 +413,11 @@ aWhy
 )
 override
 ;
+void
+Destroy
+(
+)
+;
 bool
 IsPendingComposite
 (
@@ -546,6 +551,9 @@ nsUint64HashKey
 uint64_t
 >
 mExternalImageIds
+;
+bool
+mDestroyed
 ;
 }
 ;
