@@ -31,6 +31,10 @@ sources
 '
 build
 '
+        
+'
+sendchange
+'
     
 ]
     
@@ -173,7 +177,7 @@ False
 enable_unittest_sendchange
 '
 :
-False
+True
     
 '
 base_name

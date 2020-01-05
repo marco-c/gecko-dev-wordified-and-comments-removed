@@ -31,6 +31,10 @@ sources
 '
 build
 '
+        
+'
+sendchange
+'
     
 ]
     
@@ -270,7 +274,7 @@ False
 enable_unittest_sendchange
 '
 :
-False
+True
     
 '
 max_build_output_timeout
