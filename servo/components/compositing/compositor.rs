@@ -2721,7 +2721,7 @@ background_color
 color
 :
 :
-transparent_black
+transparent
 (
 )
 scroll_policy
