@@ -2105,6 +2105,7 @@ ErrorArgumentsType
 ArgumentsAreUnicode
 ArgumentsAreASCII
 ArgumentsAreLatin1
+ArgumentsAreUTF8
 }
 ;
 JSFunction
@@ -2134,6 +2135,8 @@ const
 char
 *
 format
+ErrorArgumentsType
+argumentsType
 va_list
 ap
 )
