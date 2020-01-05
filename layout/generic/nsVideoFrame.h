@@ -486,6 +486,11 @@ bool
 aNotify
 )
 ;
+void
+UpdateTextTrack
+(
+)
+;
 virtual
 ~
 nsVideoFrame
