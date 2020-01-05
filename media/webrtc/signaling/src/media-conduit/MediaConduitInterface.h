@@ -938,8 +938,6 @@ virtual
 void
 AddLocalRTPExtensions
 (
-bool
-aIsSend
 const
 std
 :
@@ -970,8 +968,6 @@ RtpExtension
 >
 GetLocalRTPExtensions
 (
-bool
-aIsSend
 )
 const
 =
