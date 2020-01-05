@@ -8309,7 +8309,7 @@ isSet
 =
 false
 ;
-ConstFrameProperties
+FrameProperties
 props
 =
 Properties
