@@ -107,15 +107,6 @@ str
 DOMString
 ;
 use
-servo_util
-:
-:
-tid
-:
-:
-tid
-;
-use
 std
 :
 :
