@@ -796,11 +796,6 @@ self
 index
 :
 u32
-found
-:
-&
-mut
-bool
 )
 -
 >
@@ -819,7 +814,6 @@ node_list
 IndexedGetter
 (
 index
-found
 )
 }
 }

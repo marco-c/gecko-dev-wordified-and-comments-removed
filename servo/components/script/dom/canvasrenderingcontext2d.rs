@@ -9096,16 +9096,6 @@ imagedata
 .
 get_data_array
 (
-&
-self
-.
-global
-(
-)
-.
-r
-(
-)
 )
 ;
 let

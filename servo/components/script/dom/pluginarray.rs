@@ -237,11 +237,6 @@ self
 _index
 :
 u32
-_found
-:
-&
-mut
-bool
 )
 -
 >
@@ -263,11 +258,6 @@ self
 _name
 :
 DOMString
-_found
-:
-&
-mut
-bool
 )
 -
 >
