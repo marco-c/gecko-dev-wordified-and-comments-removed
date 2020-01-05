@@ -1517,11 +1517,7 @@ LOGLEVEL_FATAL
 endif
 #
 ifdef
-_WIN32
-#
-define
 ERROR
-0
 LOGLEVEL_0
 =
 LOGLEVEL_ERROR

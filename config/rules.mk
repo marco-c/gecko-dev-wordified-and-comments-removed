@@ -6763,12 +6763,6 @@ RUST_BACKTRACE
 =
 1
 \
-MOZ_TOPOBJDIR
-=
-(
-topobjdir
-)
-\
 (
 CARGO
 )

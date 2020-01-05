@@ -23,10 +23,6 @@ nsstring
 ;
 extern
 crate
-nserror
-;
-extern
-crate
 rust_url_capi
 ;
 #
