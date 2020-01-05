@@ -4768,6 +4768,9 @@ Suppressed
 return
 ;
 }
+mozilla
+:
+:
 AutoSlowOperation
 aso
 ;

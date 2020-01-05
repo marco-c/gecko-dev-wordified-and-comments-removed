@@ -2306,6 +2306,12 @@ mapped
 )
 ;
 }
+mozilla
+:
+:
+dom
+:
+:
 BorrowedAttrInfo
 nsAttrAndChildArray
 :
