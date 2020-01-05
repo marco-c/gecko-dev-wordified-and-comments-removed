@@ -127,6 +127,11 @@ VREventObserver
 .
 h
 '
+'
+VRServiceTest
+.
+h
+'
 ]
 UNIFIED_SOURCES
 =
@@ -143,6 +148,11 @@ cpp
 '
 '
 VREventObserver
+.
+cpp
+'
+'
+VRServiceTest
 .
 cpp
 '

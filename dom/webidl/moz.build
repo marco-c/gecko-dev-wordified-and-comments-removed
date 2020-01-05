@@ -5510,6 +5510,11 @@ VRDisplayEvent
 webidl
 '
 '
+VRServiceTest
+.
+webidl
+'
+'
 VTTCue
 .
 webidl
