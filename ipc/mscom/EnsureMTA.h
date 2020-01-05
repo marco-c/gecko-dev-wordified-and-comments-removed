@@ -137,6 +137,7 @@ template
 typename
 FuncT
 >
+explicit
 EnsureMTA
 (
 const
