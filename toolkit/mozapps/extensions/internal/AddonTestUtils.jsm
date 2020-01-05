@@ -3198,6 +3198,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 let

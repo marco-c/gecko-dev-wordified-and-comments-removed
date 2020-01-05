@@ -233,6 +233,17 @@ onSpellCheck
 "
 ]
 "
+AutoMigrate
+.
+jsm
+"
+:
+[
+"
+AutoMigrate
+"
+]
+"
 Battery
 .
 jsm

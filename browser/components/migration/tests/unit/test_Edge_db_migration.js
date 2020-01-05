@@ -60,6 +60,8 @@ ESEDBReader
 .
 jsm
 "
+{
+}
 )
 ;
 let

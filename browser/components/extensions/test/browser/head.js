@@ -25,6 +25,8 @@ AppConstants
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -48,6 +50,8 @@ CustomizableUI
 .
 jsm
 "
+{
+}
 )
 ;
 if

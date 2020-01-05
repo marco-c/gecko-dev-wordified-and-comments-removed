@@ -345,6 +345,8 @@ updater
 .
 js
 "
+{
+}
 )
 ;
 let

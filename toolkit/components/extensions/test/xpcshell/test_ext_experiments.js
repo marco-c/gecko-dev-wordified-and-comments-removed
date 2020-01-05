@@ -53,6 +53,8 @@ Extension
 .
 jsm
 "
+{
+}
 )
 ;
 return

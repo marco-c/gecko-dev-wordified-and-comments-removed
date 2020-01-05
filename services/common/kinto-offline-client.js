@@ -674,6 +674,8 @@ client
 .
 js
 "
+{
+}
 )
 ;
 class

@@ -99,6 +99,8 @@ PushCrypto
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils

@@ -23,6 +23,7 @@ Components
 ;
 var
 {
+InlineSpellChecker
 SpellCheckHelper
 }
 =
@@ -43,6 +44,8 @@ InlineSpellChecker
 .
 jsm
 "
+{
+}
 )
 ;
 this

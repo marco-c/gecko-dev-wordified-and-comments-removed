@@ -95,6 +95,8 @@ Subprocess
 .
 jsm
 "
+{
+}
 )
 ;
 let

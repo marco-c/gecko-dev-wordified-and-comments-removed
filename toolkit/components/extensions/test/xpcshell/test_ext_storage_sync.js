@@ -90,6 +90,8 @@ ExtensionStorageSync
 .
 jsm
 "
+{
+}
 )
 ;
 Cu

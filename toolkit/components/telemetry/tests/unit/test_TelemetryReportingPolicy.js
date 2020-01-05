@@ -313,6 +313,8 @@ TelemetryReportingPolicy
 .
 jsm
 "
+{
+}
 )
 ;
 reportingPolicy

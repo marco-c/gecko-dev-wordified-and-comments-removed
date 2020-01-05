@@ -40,6 +40,8 @@ XPCOMUtils
 .
 jsm
 '
+{
+}
 )
 ;
 const
@@ -64,6 +66,8 @@ SystemAppProxy
 .
 jsm
 '
+{
+}
 )
 ;
 const

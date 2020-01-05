@@ -39,6 +39,8 @@ PlacesSyncUtils
 .
 jsm
 "
+{
+}
 )
 ;
 Cu

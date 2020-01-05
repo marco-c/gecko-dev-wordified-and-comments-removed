@@ -120,6 +120,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils

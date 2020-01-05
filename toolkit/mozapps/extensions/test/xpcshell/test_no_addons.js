@@ -43,6 +43,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 const

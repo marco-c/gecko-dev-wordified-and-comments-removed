@@ -99,6 +99,8 @@ LegacyExtensionsUtils
 .
 jsm
 "
+{
+}
 )
 ;
 function

@@ -22,6 +22,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 var

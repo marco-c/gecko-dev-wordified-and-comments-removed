@@ -61,6 +61,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 blocklist

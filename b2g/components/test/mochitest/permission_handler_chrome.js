@@ -71,6 +71,8 @@ Services
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -95,6 +97,8 @@ SystemAppProxy
 .
 jsm
 "
+{
+}
 )
 ;
 var

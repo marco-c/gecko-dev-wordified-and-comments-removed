@@ -44,6 +44,8 @@ AppConstants
 .
 jsm
 "
+{
+}
 )
 ;
 const

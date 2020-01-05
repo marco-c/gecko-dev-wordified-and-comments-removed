@@ -69,6 +69,8 @@ client
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -97,6 +99,8 @@ adapter
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -149,6 +153,8 @@ clients
 .
 js
 "
+{
+}
 )
 ;
 let

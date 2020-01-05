@@ -45,6 +45,8 @@ FxAccountsWebChannel
 .
 jsm
 "
+{
+}
 )
 ;
 const

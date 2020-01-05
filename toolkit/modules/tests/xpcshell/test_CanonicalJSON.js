@@ -22,6 +22,8 @@ CanonicalJSON
 .
 jsm
 "
+{
+}
 )
 ;
 function

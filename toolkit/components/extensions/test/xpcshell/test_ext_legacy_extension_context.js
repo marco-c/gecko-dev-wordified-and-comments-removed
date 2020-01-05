@@ -63,6 +63,8 @@ LegacyExtensionsUtils
 .
 jsm
 "
+{
+}
 )
 ;
 add_task

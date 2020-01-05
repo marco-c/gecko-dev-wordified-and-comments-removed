@@ -224,6 +224,8 @@ ExtensionUtils
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils

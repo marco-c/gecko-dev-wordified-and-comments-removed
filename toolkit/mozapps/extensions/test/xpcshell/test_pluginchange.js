@@ -35,6 +35,8 @@ PluginProvider
 .
 jsm
 "
+{
+}
 )
 ;
 var
@@ -61,6 +63,8 @@ MockRegistrar
 .
 jsm
 "
+{
+}
 )
 ;
 function

@@ -754,6 +754,8 @@ TelemetrySession
 .
 jsm
 "
+{
+}
 )
 ;
 session
@@ -799,6 +801,8 @@ TelemetrySession
 .
 jsm
 "
+{
+}
 )
 ;
 return

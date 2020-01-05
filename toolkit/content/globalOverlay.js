@@ -29,6 +29,8 @@ AppConstants
 .
 jsm
 "
+{
+}
 )
 ;
 if
