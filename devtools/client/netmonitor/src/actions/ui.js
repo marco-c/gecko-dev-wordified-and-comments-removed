@@ -26,7 +26,7 @@ constants
 ;
 const
 {
-NetMonitorController
+triggerActivity
 }
 =
 require
@@ -35,9 +35,9 @@ require
 .
 .
 /
-netmonitor
--
-controller
+connector
+/
+index
 "
 )
 ;
@@ -67,8 +67,6 @@ if
 open
 )
 {
-NetMonitorController
-.
 triggerActivity
 (
 ACTIVITY_TYPE

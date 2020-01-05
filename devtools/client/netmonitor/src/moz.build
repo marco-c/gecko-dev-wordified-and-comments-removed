@@ -64,6 +64,9 @@ actions
 components
 '
 '
+connector
+'
+'
 har
 '
 '
@@ -83,13 +86,6 @@ DevToolsModules
 (
 '
 constants
-.
-js
-'
-'
-netmonitor
--
-controller
 .
 js
 '

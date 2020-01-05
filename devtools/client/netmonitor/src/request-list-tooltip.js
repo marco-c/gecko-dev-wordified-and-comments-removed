@@ -36,9 +36,9 @@ require
 "
 .
 /
-utils
+connector
 /
-client
+index
 "
 )
 ;

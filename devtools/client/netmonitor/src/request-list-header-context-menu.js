@@ -131,7 +131,7 @@ columns
 return
 window
 .
-gStore
+store
 .
 getState
 (
