@@ -14038,7 +14038,8 @@ self
 )
 :
         
-return
+assert
+not
 self
 .
 inner
@@ -14046,6 +14047,9 @@ inner
 isPromise
 (
 )
+        
+return
+False
     
 def
 isCallbackInterface
