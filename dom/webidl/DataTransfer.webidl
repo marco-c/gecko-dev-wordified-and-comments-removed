@@ -177,6 +177,7 @@ types
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 DOMString
 getData
@@ -187,6 +188,7 @@ format
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 setData
@@ -211,6 +213,7 @@ format
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 readonly
 attribute
@@ -235,6 +238,7 @@ input
 .
 dirpicker
 "
+NeedsSubjectPrincipal
 ]
 Promise
 <
@@ -262,6 +266,7 @@ input
 .
 dirpicker
 "
+NeedsSubjectPrincipal
 ]
 Promise
 <
@@ -844,6 +849,7 @@ modified
 /
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 mozSetDataAt
@@ -944,6 +950,7 @@ itemCount
 /
 [
 Throws
+NeedsSubjectPrincipal
 ]
 any
 mozGetDataAt

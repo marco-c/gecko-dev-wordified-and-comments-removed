@@ -339,6 +339,14 @@ mDataType
 aParam
 .
 mData
+Some
+(
+aGlobal
+.
+GetSubjectPrincipal
+(
+)
+)
 aRv
 )
 ;
