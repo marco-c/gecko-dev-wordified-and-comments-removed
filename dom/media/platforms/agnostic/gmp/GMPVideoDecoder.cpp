@@ -577,7 +577,9 @@ mLayersBackend
 (
 aParams
 .
-mLayersBackend
+GetLayersBackend
+(
+)
 )
 mCrashHelper
 (

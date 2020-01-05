@@ -75,11 +75,11 @@ VideoConfig
 (
 )
 )
-mLayersBackend
+mKnowsCompositor
 (
 aParams
 .
-mLayersBackend
+mKnowsCompositor
 )
 mImageContainer
 (
@@ -740,7 +740,7 @@ mTaskQueue
 mCallback
 aDiagnostics
 mImageContainer
-mLayersBackend
+mKnowsCompositor
 mGMPCrashHelper
 }
 )

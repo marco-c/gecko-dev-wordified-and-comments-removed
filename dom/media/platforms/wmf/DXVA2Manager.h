@@ -50,6 +50,9 @@ Image
 class
 ImageContainer
 ;
+class
+KnowsCompositor
+;
 }
 class
 DXVA2Manager
@@ -61,6 +64,12 @@ DXVA2Manager
 *
 CreateD3D9DXVA
 (
+layers
+:
+:
+KnowsCompositor
+*
+aKnowsCompositor
 nsACString
 &
 aFailureReason
@@ -71,6 +80,12 @@ DXVA2Manager
 *
 CreateD3D11DXVA
 (
+layers
+:
+:
+KnowsCompositor
+*
+aKnowsCompositor
 nsACString
 &
 aFailureReason

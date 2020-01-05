@@ -408,7 +408,7 @@ VideoConfig
 )
 aParams
 .
-mLayersBackend
+mKnowsCompositor
 aParams
 .
 mImageContainer

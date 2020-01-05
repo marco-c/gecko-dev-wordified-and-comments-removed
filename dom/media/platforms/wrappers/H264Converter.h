@@ -199,11 +199,14 @@ mPDM
 VideoInfo
 mCurrentConfig
 ;
+RefPtr
+<
 layers
 :
 :
-LayersBackend
-mLayersBackend
+KnowsCompositor
+>
+mKnowsCompositor
 ;
 RefPtr
 <
