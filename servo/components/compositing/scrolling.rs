@@ -282,7 +282,7 @@ sleep_ms
 (
 delta_ns
 /
-1000
+1000000
 )
 as
 u32
