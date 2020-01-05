@@ -535,8 +535,8 @@ xpi
 ;
 MockFilePicker
 .
-returnFiles
-=
+setFiles
+(
 filePaths
 .
 map
@@ -547,6 +547,7 @@ aPath
 aPath
 .
 file
+)
 )
 ;
 let
