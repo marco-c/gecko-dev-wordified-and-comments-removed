@@ -209,6 +209,9 @@ mozilla
 struct
 SerializedStructuredCloneBuffer
 ;
+class
+SourceBufferTask
+;
 }
 namespace
 mozilla
@@ -3267,6 +3270,13 @@ dom
 :
 :
 MessagePortMessage
+)
+DECLARE_USE_COPY_CONSTRUCTORS
+(
+mozilla
+:
+:
+SourceBufferTask
 )
 template
 <
