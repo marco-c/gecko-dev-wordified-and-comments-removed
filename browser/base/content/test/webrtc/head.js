@@ -1964,6 +1964,10 @@ notification
 .
 button
 .
+nextSibling
+.
+nextSibling
+.
 focus
 (
 )
