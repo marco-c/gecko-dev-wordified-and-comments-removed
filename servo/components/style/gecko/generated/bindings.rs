@@ -10155,7 +10155,7 @@ sheet
 RawServoStyleSheetBorrowed
 unique_id
 :
-u32
+u64
 )
 ;
 }
@@ -10176,7 +10176,7 @@ sheet
 RawServoStyleSheetBorrowed
 unique_id
 :
-u32
+u64
 )
 ;
 }
@@ -10194,7 +10194,7 @@ set
 RawServoStyleSetBorrowed
 unique_id
 :
-u32
+u64
 )
 ;
 }
@@ -10215,10 +10215,10 @@ sheet
 RawServoStyleSheetBorrowed
 unique_id
 :
-u32
+u64
 before_unique_id
 :
-u32
+u64
 )
 ;
 }
