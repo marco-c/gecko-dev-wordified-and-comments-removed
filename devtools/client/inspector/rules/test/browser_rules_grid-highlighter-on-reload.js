@@ -155,6 +155,7 @@ closeToolbox
 target
 )
 ;
+yield
 refreshTab
 (
 gBrowser
