@@ -3907,8 +3907,14 @@ aTitle
 ;
 mTitle
 .
-StripCRLF
+StripChars
 (
+"
+\
+n
+\
+r
+"
 )
 ;
 NS_ENSURE_SUCCESS

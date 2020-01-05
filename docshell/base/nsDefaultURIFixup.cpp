@@ -697,8 +697,14 @@ aStringURI
 ;
 uriString
 .
-StripCRLF
+StripChars
 (
+"
+\
+r
+\
+n
+"
 )
 ;
 uriString

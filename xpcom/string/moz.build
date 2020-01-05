@@ -109,11 +109,6 @@ EXPORTS
 =
 [
 '
-nsASCIIMask
-.
-h
-'
-'
 nsAString
 .
 h
@@ -269,11 +264,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-nsASCIIMask
-.
-cpp
-'
 '
 nsDependentString
 .

@@ -2193,8 +2193,9 @@ eNewlinesStrip
 :
 aString
 .
-StripCRLF
+StripChars
 (
+CRLF
 )
 ;
 break
