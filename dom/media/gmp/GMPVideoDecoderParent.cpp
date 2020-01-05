@@ -1785,9 +1785,8 @@ mCallback
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 ;
 }
@@ -1864,9 +1863,8 @@ mCallback
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 ;
 }
