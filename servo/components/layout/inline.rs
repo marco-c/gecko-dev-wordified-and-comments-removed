@@ -4493,6 +4493,14 @@ slack_inline_size
 Au
 )
 {
+#
+!
+[
+allow
+(
+unsafe_code
+)
+]
 if
 slack_inline_size
 =
@@ -4693,6 +4701,8 @@ range
 let
 run
 =
+unsafe
+{
 scanned_text_fragment_info
 .
 run
@@ -4700,11 +4710,14 @@ run
 make_unique
 (
 )
+}
 ;
 {
 let
 glyph_runs
 =
+unsafe
+{
 run
 .
 glyphs
@@ -4712,6 +4725,7 @@ glyphs
 make_unique
 (
 )
+}
 ;
 for
 mut
@@ -4763,6 +4777,8 @@ begin
 let
 glyph_store
 =
+unsafe
+{
 glyph_run
 .
 glyph_store
@@ -4770,6 +4786,7 @@ glyph_store
 make_unique
 (
 )
+}
 ;
 glyph_store
 .

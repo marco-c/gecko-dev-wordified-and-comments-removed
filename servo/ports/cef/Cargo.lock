@@ -1527,7 +1527,7 @@ cgl
 -
 rs
 #
-983d3ac5d7e0d9d3509fb502ebe1570dd885e404
+ee2ba57c0cc576d13eb7b9413a3981291410d3b8
 "
 dependencies
 =
@@ -1623,7 +1623,7 @@ rust
 -
 clipboard
 #
-5ed13c573ce1750a7c71570d03906e9c82962410
+8ebdac0795f23119c28db9d11624059adf6482b5
 "
 dependencies
 =
@@ -2437,7 +2437,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -2746,7 +2746,7 @@ text
 -
 rs
 #
-54080aaa67758917b2f974d8ebebc174ad570f56
+c12e41b35141e094bf784017ca4a6f71d90c9877
 "
 dependencies
 =
@@ -3095,7 +3095,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -3281,7 +3281,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -4520,7 +4520,7 @@ servo
 /
 libfontconfig
 #
-dc21212ea0088fe8ada3027c365012e1c1ec8311
+74f5279e8ff93297e5ce9be63bc49d4ea4943548
 "
 dependencies
 =
@@ -4614,7 +4614,7 @@ rust
 -
 freetype
 #
-34db81810ae8be3bef57094c8a378dbe98d2d2c7
+507cee774458dc704c902d405bb869fb286f7a64
 "
 dependencies
 =
@@ -4687,7 +4687,7 @@ servo
 /
 libfreetype2
 #
-86730043889cb17694bb65d7355d02521b6757cf
+3f22b9dd3be53cdea2a46a0d8eadf72eaeafe2b3
 "
 [
 [
@@ -4706,7 +4706,7 @@ version
 .
 3
 .
-6
+8
 "
 source
 =
@@ -4750,7 +4750,7 @@ version
 .
 1
 .
-0
+1
 "
 source
 =
@@ -4784,7 +4784,7 @@ winapi
 .
 1
 .
-20
+22
 (
 registry
 +
@@ -4946,7 +4946,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -5463,7 +5463,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -6262,7 +6262,7 @@ sys
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -6351,7 +6351,7 @@ sys
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -6558,7 +6558,7 @@ winapi
 .
 1
 .
-20
+22
 (
 registry
 +
@@ -7007,7 +7007,7 @@ rust
 -
 glx
 #
-60ac0aee2438eadb4b51ddc8eac6fc4b5ca8e447
+75ed2359f50c16c60f871e2f5f146e2016d8453d
 "
 dependencies
 =
@@ -7240,7 +7240,7 @@ servo
 /
 html5ever
 #
-f026acf403e92d264dc63665c613a205e3ffb2a9
+ec7e7e94b1b46de9bf8d2512eb6b17f277897bc7
 "
 dependencies
 =
@@ -7496,7 +7496,7 @@ servo
 /
 html5ever
 #
-f026acf403e92d264dc63665c613a205e3ffb2a9
+ec7e7e94b1b46de9bf8d2512eb6b17f277897bc7
 "
 dependencies
 =
@@ -7534,7 +7534,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -7575,7 +7575,7 @@ version
 .
 1
 .
-3
+4
 "
 source
 =
@@ -7680,7 +7680,7 @@ httparse
 .
 1
 .
-3
+4
 (
 registry
 +
@@ -7827,7 +7827,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -8215,7 +8215,7 @@ rust
 -
 mozjs
 #
-4c311480691348aeecfa2adecca5bb9787cce8cc
+d7d45d07e0e91b13a01f32704fb93631fbf9611c
 "
 dependencies
 =
@@ -8309,7 +8309,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -8352,7 +8352,7 @@ version
 .
 1
 .
-0
+1
 "
 source
 =
@@ -8386,7 +8386,38 @@ winapi
 .
 1
 .
-20
+22
+(
+registry
++
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+crates
+.
+io
+-
+index
+)
+"
+"
+winapi
+-
+build
+0
+.
+1
+.
+0
 (
 registry
 +
@@ -8769,7 +8800,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -9219,7 +9250,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -10102,7 +10133,7 @@ gcc
 .
 3
 .
-6
+8
 (
 registry
 +
@@ -10441,7 +10472,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -10809,7 +10840,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -11213,7 +11244,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -11947,7 +11978,7 @@ gcc
 .
 3
 .
-6
+8
 (
 registry
 +
@@ -12598,7 +12629,7 @@ tenacious
 .
 0
 .
-3
+4
 (
 registry
 +
@@ -12739,7 +12770,7 @@ rust
 -
 png
 #
-34fca101357da41b2b8c95f3efe6cb88a2b36bca
+653902184ce95d2dc44cd4674c8b273fe6a385a9
 "
 dependencies
 =
@@ -12750,7 +12781,7 @@ gcc
 .
 3
 .
-6
+8
 (
 registry
 +
@@ -12870,7 +12901,7 @@ rust
 -
 png
 #
-34fca101357da41b2b8c95f3efe6cb88a2b36bca
+653902184ce95d2dc44cd4674c8b273fe6a385a9
 "
 [
 [
@@ -13448,7 +13479,7 @@ version
 .
 3
 .
-14
+15
 "
 source
 =
@@ -13926,7 +13957,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -14399,7 +14430,7 @@ rust
 -
 selectors
 #
-e0c8462f2347ae6b3499d07b6a11d8fb0fea4d96
+d24bca70ed23d182be101c031bdcf5ad5ac22657
 "
 dependencies
 =
@@ -14440,6 +14471,35 @@ cssparser
 3
 .
 1
+(
+registry
++
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+crates
+.
+io
+-
+index
+)
+"
+"
+fnv
+1
+.
+0
+.
+0
 (
 registry
 +
@@ -15045,7 +15105,7 @@ servo
 /
 skia
 #
-be64840752fdbd0b87e02ac99a92727a8454a2dc
+92df68b91084bbe1e025efa64a1647471eb17afc
 "
 dependencies
 =
@@ -15183,7 +15243,7 @@ stb
 -
 image
 #
-f6c411b381322609a321b7fb5f948b2365973604
+e3f7246caa694e863975ead98f4940d046108fd7
 "
 dependencies
 =
@@ -15256,7 +15316,7 @@ string
 -
 cache
 #
-c5912f925e9c1db7dbe4a7980fbc3eed08eef51d
+0bf77b58a3a69cb4029872f5fb2d8b1bbc3860cf
 "
 dependencies
 =
@@ -15466,7 +15526,7 @@ string
 -
 cache
 #
-c5912f925e9c1db7dbe4a7980fbc3eed08eef51d
+0bf77b58a3a69cb4029872f5fb2d8b1bbc3860cf
 "
 dependencies
 =
@@ -15593,7 +15653,7 @@ string
 -
 cache
 #
-c5912f925e9c1db7dbe4a7980fbc3eed08eef51d
+0bf77b58a3a69cb4029872f5fb2d8b1bbc3860cf
 "
 [
 [
@@ -15890,7 +15950,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -16083,7 +16143,7 @@ gcc
 .
 3
 .
-6
+8
 (
 registry
 +
@@ -16199,7 +16259,7 @@ version
 .
 0
 .
-3
+4
 "
 source
 =
@@ -16275,7 +16335,7 @@ gcc
 .
 3
 .
-6
+8
 (
 registry
 +
@@ -16565,7 +16625,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -16642,7 +16702,7 @@ winapi
 .
 1
 .
-20
+22
 (
 registry
 +
@@ -17042,7 +17102,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -17310,7 +17370,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -17474,7 +17534,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -17619,7 +17679,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -17934,7 +17994,7 @@ serialize
 .
 3
 .
-14
+15
 (
 registry
 +
@@ -18033,7 +18093,7 @@ version
 .
 1
 .
-20
+22
 "
 source
 =
