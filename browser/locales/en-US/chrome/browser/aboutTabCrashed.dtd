@@ -434,9 +434,9 @@ better
 ENTITY
 tabCrashed
 .
-requestAutoSubmit
+requestAutoSubmit2
 "
-Request
+Report
 background
 tabs
 "
