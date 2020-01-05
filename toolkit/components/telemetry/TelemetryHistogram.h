@@ -469,17 +469,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-void
-IPCTimerFired
-(
-nsITimer
-*
-aTimer
-void
-*
-aClosure
-)
-;
 }
 #
 endif

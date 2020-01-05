@@ -268,6 +268,13 @@ h
 #
 include
 "
+TelemetryIPCAccumulator
+.
+h
+"
+#
+include
+"
 TelemetryScalar
 .
 h
@@ -10189,6 +10196,13 @@ DeInitializeGlobalState
 (
 )
 ;
+TelemetryIPCAccumulator
+:
+:
+DeInitializeGlobalState
+(
+)
+;
 }
 void
 TelemetryImpl
@@ -12266,7 +12280,7 @@ FlushBatchedChildTelemetry
 (
 )
 {
-TelemetryHistogram
+TelemetryIPCAccumulator
 :
 :
 IPCTimerFired
