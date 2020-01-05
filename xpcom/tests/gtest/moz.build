@@ -278,6 +278,14 @@ Redefines
 IFoo
 and
 IBar
+'
+TestHashtables
+.
+cpp
+'
+#
+Redefines
+IFoo
 ]
 LOCAL_INCLUDES
 +
