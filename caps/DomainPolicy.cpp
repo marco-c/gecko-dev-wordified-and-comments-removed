@@ -638,7 +638,6 @@ DomainPolicy
 :
 ApplyClone
 (
-const
 DomainPolicyClone
 *
 aClone

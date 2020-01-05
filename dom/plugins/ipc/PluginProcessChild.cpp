@@ -148,13 +148,6 @@ PluginProcessChild
 :
 Init
 (
-int
-aArgc
-char
-*
-aArgv
-[
-]
 )
 {
 nsDebugImpl
