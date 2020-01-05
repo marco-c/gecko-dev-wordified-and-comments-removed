@@ -2120,7 +2120,7 @@ containing_size
 width
 )
 .
-to_frac32_px
+to_f32_px
 (
 )
 self
@@ -2134,7 +2134,7 @@ containing_size
 height
 )
 .
-to_frac32_px
+to_f32_px
 (
 )
 )
@@ -2186,7 +2186,7 @@ length
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 self
 .
@@ -2194,7 +2194,7 @@ percentage
 *
 containing_size
 .
-to_frac32_px
+to_f32_px
 (
 )
 )

@@ -1150,7 +1150,7 @@ Size2D
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 device
 .
@@ -1165,7 +1165,7 @@ get
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 device
 .

@@ -12410,7 +12410,7 @@ Au
 const
 MEDIUM_PX
 :
-isize
+i32
 =
 16
 ;
@@ -23603,7 +23603,7 @@ Absolute
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 values
 [
@@ -23622,7 +23622,7 @@ Absolute
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 values
 [

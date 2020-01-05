@@ -3152,11 +3152,9 @@ origin
 .
 x
 .
-to_subpx
+to_f32_px
 (
 )
-as
-AzFloat
 stacking_context
 .
 overflow
@@ -3165,11 +3163,9 @@ origin
 .
 y
 .
-to_subpx
+to_f32_px
 (
 )
-as
-AzFloat
 )
 )
 ;
@@ -3377,8 +3373,6 @@ from_px
 size
 .
 width
-as
-isize
 )
 Au
 :
@@ -3388,8 +3382,6 @@ from_px
 size
 .
 height
-as
-isize
 )
 )
 )

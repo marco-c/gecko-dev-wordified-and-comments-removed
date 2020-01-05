@@ -2592,7 +2592,7 @@ middle
 low
 )
 .
-to_frac32_px
+to_f32_px
 (
 )
 /
@@ -2602,7 +2602,7 @@ high
 low
 )
 .
-to_frac32_px
+to_f32_px
 (
 )
 }
@@ -2844,7 +2844,7 @@ column_intrinsic_inline_size
 .
 preferred
 .
-to_frac32_px
+to_f32_px
 (
 )
 /
@@ -2852,7 +2852,7 @@ self
 .
 preferred_inline_size_of_nonconstrained_columns_with_no_percentage
 .
-to_frac32_px
+to_f32_px
 (
 )
 }
@@ -2898,7 +2898,7 @@ column_intrinsic_inline_size
 .
 preferred
 .
-to_frac32_px
+to_f32_px
 (
 )
 /
@@ -2906,7 +2906,7 @@ self
 .
 preferred_inline_size_of_constrained_columns_with_no_percentage
 .
-to_frac32_px
+to_f32_px
 (
 )
 }
@@ -3043,9 +3043,6 @@ MaybeAuto
 :
 Specified
 (
-Au
-:
-:
 max
 (
 containing_block_inline_size
@@ -3068,9 +3065,6 @@ MaybeAuto
 :
 Specified
 (
-Au
-:
-:
 max
 (
 inline_size_from_style

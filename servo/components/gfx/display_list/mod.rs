@@ -2118,7 +2118,7 @@ bounds
 origin
 )
 .
-to_azure_rect
+to_nearest_azure_rect
 (
 )
 ;
@@ -2148,7 +2148,7 @@ child_stacking_context
 .
 bounds
 .
-to_azure_rect
+to_nearest_azure_rect
 (
 )
 .
@@ -2463,14 +2463,14 @@ point
 .
 x
 .
-to_frac32_px
+to_f32_px
 (
 )
 point
 .
 y
 .
-to_frac32_px
+to_f32_px
 (
 )
 )
@@ -2483,7 +2483,7 @@ Point2D
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 frac_point
 .
@@ -2492,7 +2492,7 @@ x
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 frac_point
 .

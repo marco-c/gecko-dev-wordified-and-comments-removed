@@ -2104,13 +2104,13 @@ ratio
 =
 content_inline_size
 .
-to_frac32_px
+to_f32_px
 (
 )
 /
 total_column_inline_size
 .
-to_frac32_px
+to_f32_px
 (
 )
 ;

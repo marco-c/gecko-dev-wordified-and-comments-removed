@@ -936,7 +936,7 @@ amount
 =
 amount
 .
-to_frac32_px
+to_f32_px
 (
 )
 ;

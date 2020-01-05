@@ -5485,9 +5485,6 @@ screen_size
 ;
 block_size
 =
-Au
-:
-:
 max
 (
 screen_size
@@ -9815,9 +9812,6 @@ CLEARS_LEFT
 {
 left_float_width
 =
-Au
-:
-:
 max
 (
 left_float_width
@@ -9843,9 +9837,6 @@ CLEARS_RIGHT
 {
 right_float_width
 =
-Au
-:
-:
 max
 (
 right_float_width
@@ -10006,9 +9997,6 @@ this
 .
 left_float_width
 =
-Au
-:
-:
 max
 (
 left_float_width
@@ -10017,9 +10005,6 @@ left_float_width_accumulator
 ;
 right_float_width
 =
-Au
-:
-:
 max
 (
 right_float_width
