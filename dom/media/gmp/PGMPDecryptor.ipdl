@@ -262,6 +262,13 @@ __delete__
 )
 ;
 async
+SetDecryptorId
+(
+uint32_t
+aId
+)
+;
+async
 SetSessionId
 (
 uint32_t
