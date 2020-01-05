@@ -390,6 +390,9 @@ triggeringPrincipalInfo
 OptionalPrincipalInfo
 principalToInheritInfo
 ;
+OptionalPrincipalInfo
+sandboxedLoadingPrincipalInfo
+;
 uint32_t
 securityFlags
 ;
