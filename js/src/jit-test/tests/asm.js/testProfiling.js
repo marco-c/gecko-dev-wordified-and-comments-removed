@@ -23,6 +23,17 @@ js
 if
 (
 !
+isAsmJSCompilationAvailable
+(
+)
+)
+quit
+(
+)
+;
+if
+(
+!
 getBuildConfiguration
 (
 )
