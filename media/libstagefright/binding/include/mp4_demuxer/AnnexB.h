@@ -43,6 +43,10 @@ mozilla
 MediaRawData
 *
 aSample
+bool
+aAddSPS
+=
+true
 )
 ;
 static

@@ -406,6 +406,7 @@ AnnexB
 ConvertSampleToAnnexB
 (
 aSample
+mNeedKeyframe
 )
 )
 {

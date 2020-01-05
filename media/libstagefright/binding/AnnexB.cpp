@@ -90,6 +90,8 @@ mozilla
 MediaRawData
 *
 aSample
+bool
+aAddSPS
 )
 {
 MOZ_ASSERT
@@ -284,6 +286,9 @@ false
 }
 if
 (
+aAddSPS
+&
+&
 aSample
 -
 >
