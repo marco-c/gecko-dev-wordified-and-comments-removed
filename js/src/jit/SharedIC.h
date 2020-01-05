@@ -4153,11 +4153,6 @@ cx
 ICStubSpace
 *
 space
-ICStubCompiler
-:
-:
-Engine
-engine
 )
 ;
 MOZ_MUST_USE
@@ -4167,9 +4162,9 @@ addMonitorStubForValue
 JSContext
 *
 cx
-SharedStubInfo
+BaselineFrame
 *
-info
+frame
 HandleValue
 val
 )
@@ -4586,8 +4581,6 @@ JSContext
 cx
 Kind
 kind
-Engine
-engine_
 TypeCheckPrimitiveSetStub
 *
 existingStub
@@ -4599,7 +4592,10 @@ ICStubCompiler
 (
 cx
 kind
-engine_
+Engine
+:
+:
+Baseline
 )
 existingStub_
 (
@@ -5172,9 +5168,9 @@ addMonitorStubForValue
 JSContext
 *
 cx
-SharedStubInfo
+BaselineFrame
 *
-info
+frame
 HandleValue
 val
 )
@@ -5218,8 +5214,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 ICMonitoredFallbackStub
 *
 mainFallbackStub
@@ -5232,7 +5226,10 @@ ICStub
 :
 :
 TypeMonitor_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 mainFallbackStub_
 (
@@ -5249,8 +5246,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 uint32_t
 argumentIndex
 )
@@ -5262,7 +5257,10 @@ ICStub
 :
 :
 TypeMonitor_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 mainFallbackStub_
 (
@@ -5358,8 +5356,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 ICTypeMonitor_PrimitiveSet
 *
 existingStub
@@ -5374,7 +5370,6 @@ Compiler
 (
 cx
 TypeMonitor_PrimitiveSet
-engine
 existingStub
 type
 )
@@ -8837,7 +8832,6 @@ initMonitoringChain
 (
 cx
 space
-engine_
 )
 )
 return
