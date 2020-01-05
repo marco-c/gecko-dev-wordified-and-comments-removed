@@ -362,6 +362,15 @@ ab
 "
 )
 ;
+findBar
+.
+_findField
+.
+value
+=
+"
+"
+;
 yield
 BrowserTestUtils
 .
