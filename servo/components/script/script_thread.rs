@@ -348,7 +348,6 @@ window
 :
 {
 ReflowReason
-ScriptHelpers
 Window
 }
 ;
@@ -12545,7 +12544,14 @@ UndefinedValue
 )
 )
 ;
+GlobalRef
+:
+:
+Window
+(
+&
 window
+)
 .
 evaluate_js_on_global_with_result
 (

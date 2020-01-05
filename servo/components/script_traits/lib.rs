@@ -2451,6 +2451,10 @@ pub
 worker_id
 :
 WorkerId
+pub
+pipeline_id
+:
+PipelineId
 }
 #
 [
