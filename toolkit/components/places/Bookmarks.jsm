@@ -6316,9 +6316,12 @@ children
 .
 length
 )
+{
 return
-undefined
+[
+]
 ;
+}
 let
 guidIndices
 =
