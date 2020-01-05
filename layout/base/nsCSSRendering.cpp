@@ -7499,9 +7499,6 @@ GetDrawTarget
 (
 )
 ;
-nsContextBoxBlur
-blurringArea
-;
 Rect
 shadowGfxRect
 =
@@ -29388,10 +29385,13 @@ aDestinationCtx
 transformedDestRect
 transformedShadowClipRect
 blurRadius
-spreadRadius
 aShadowColor
 aHasBorderRadius
+?
+&
 aInnerClipRectRadii
+:
+nullptr
 transformedSkipRect
 aShadowOffset
 )
