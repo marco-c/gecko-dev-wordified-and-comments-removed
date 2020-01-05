@@ -723,12 +723,12 @@ ClearStyleStateLocks
 (
 )
 ;
-virtual
 DeclarationBlock
 *
 GetInlineStyleDeclaration
 (
 )
+const
 ;
 virtual
 nsresult
