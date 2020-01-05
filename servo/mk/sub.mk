@@ -379,6 +379,10 @@ rust
 -
 url
 \
+rust
+-
+openssl
+\
 (
 NULL
 )
