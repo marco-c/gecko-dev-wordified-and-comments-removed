@@ -183,6 +183,11 @@ return
 span
 (
 {
+dir
+:
+"
+ltr
+"
 className
 :
 "
