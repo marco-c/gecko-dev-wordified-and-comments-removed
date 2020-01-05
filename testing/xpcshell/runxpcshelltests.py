@@ -8929,6 +8929,25 @@ self
 mozInfo
 )
         
+if
+self
+.
+jscovdir
+:
+            
+mozinfo
+.
+update
+(
+{
+"
+coverage
+"
+:
+True
+}
+)
+        
 self
 .
 stack_fixer_function

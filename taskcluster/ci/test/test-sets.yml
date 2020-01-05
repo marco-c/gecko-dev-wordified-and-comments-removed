@@ -392,6 +392,8 @@ mochitest
 devtools
 -
 chrome
+-
+xpcshell
 #
 #
 #

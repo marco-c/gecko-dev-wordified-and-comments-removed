@@ -2567,6 +2567,12 @@ xpcshell
 .
 ini
 "
+                        
+"
+-
+-
+sequential
+"
 ]
             
 "
