@@ -8,10 +8,11 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip
 WindowManagerMixin
-'
-'
-'
+skip
+(
+"
 Disabled
 in
 bug
@@ -28,6 +29,8 @@ enable
 for
 bug
 896046
+"
+)
 class
 TestTextChrome
 (
@@ -298,6 +301,3 @@ box
 .
 text
 )
-'
-'
-'
