@@ -285,6 +285,7 @@ Exposed
 =
 Window
 Throws
+UseCounter
 ]
 IDBRequest
 createMutableFile
@@ -312,6 +313,7 @@ Exposed
 =
 Window
 Throws
+UseCounter
 ]
 IDBRequest
 mozCreateFileHandle

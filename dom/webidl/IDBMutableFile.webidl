@@ -121,6 +121,7 @@ database
 ;
 [
 Throws
+UseCounter
 ]
 IDBFileHandle
 open
@@ -136,6 +137,7 @@ readonly
 ;
 [
 Throws
+UseCounter
 ]
 DOMRequest
 getFile
