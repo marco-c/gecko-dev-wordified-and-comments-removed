@@ -144,13 +144,10 @@ CSSFontFaceRule
 fn
 new_inherited
 (
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 fontfacerule
 :
 Arc
@@ -174,7 +171,7 @@ CSSRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 )
 fontfacerule
 :
@@ -196,13 +193,10 @@ window
 :
 &
 Window
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 fontfacerule
 :
 Arc
@@ -228,7 +222,7 @@ CSSFontFaceRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 fontfacerule
 )
 window
