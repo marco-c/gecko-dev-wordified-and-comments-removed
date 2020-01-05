@@ -203,14 +203,6 @@ xpcom
 build
 '
 ]
-USE_LIBS
-+
-=
-[
-'
-mozglue
-'
-]
 if
 CONFIG
 [
