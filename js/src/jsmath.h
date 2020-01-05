@@ -436,6 +436,12 @@ obj
 )
 ;
 extern
+uint64_t
+GenerateRandomSeed
+(
+)
+;
+extern
 void
 GenerateXorShift128PlusSeed
 (

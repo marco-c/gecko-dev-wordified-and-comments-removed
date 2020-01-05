@@ -3235,9 +3235,11 @@ rval
 )
 ;
 }
-static
 uint64_t
-GenerateSeed
+js
+:
+:
+GenerateRandomSeed
 (
 )
 {
@@ -3359,7 +3361,7 @@ Platform
 needs
 to
 implement
-GenerateSeed
+GenerateRandomSeed
 (
 )
 "
@@ -3398,7 +3400,7 @@ seed
 0
 ]
 =
-GenerateSeed
+GenerateRandomSeed
 (
 )
 ;
@@ -3407,7 +3409,7 @@ seed
 1
 ]
 =
-GenerateSeed
+GenerateRandomSeed
 (
 )
 ;
