@@ -7,7 +7,7 @@ This
 guide
 covers
 the
-basics
+basic
 things
 one
 needs
@@ -41,7 +41,7 @@ for
 that
 )
 but
-describe
+describes
 how
 to
 setup
@@ -160,8 +160,7 @@ README
 md
 )
 file
-.
-Then
+then
 type
 :
 shell
@@ -180,7 +179,7 @@ you
 might
 run
 into
-a
+an
 SSL
 issue
 while
@@ -320,8 +319,7 @@ directly
 run
 this
 binary
-.
-But
+but
 we
 recommend
 using
@@ -490,6 +488,7 @@ help
 -
 debug
 )
+so
 the
 -
 -
@@ -786,7 +785,6 @@ learn
 more
 .
 For
-a
 more
 exhaustive
 documentation
@@ -883,6 +881,7 @@ has
 its
 own
 dependencies
+and
 each
 has
 its
@@ -2042,6 +2041,8 @@ search
 for
 a
 function
+'
+s
 full
 name
 /
@@ -2470,7 +2471,6 @@ you
 re
 working
 on
-may
 already
 exist
 under
