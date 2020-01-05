@@ -418,6 +418,9 @@ always
 ]
 )
 ]
+is_unsafe
+:
+false
 combine_substructure
 :
 combine_substructure
