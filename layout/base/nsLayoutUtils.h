@@ -2820,6 +2820,11 @@ aPercent
 0
 .
 0f
+&
+&
+aCurrent
+>
+0
 )
 {
 return
