@@ -204,7 +204,7 @@ final
 int
 INSERT_RECORD_THRESHOLD
 =
-50
+5000
 ;
 public
 static
@@ -747,8 +747,8 @@ database
 "
 )
 ;
-int
-inserted
+boolean
+transactionSuccess
 =
 (
 (
@@ -764,14 +764,8 @@ outgoing
 ;
 if
 (
-inserted
 !
-=
-outgoing
-.
-size
-(
-)
+transactionSuccess
 )
 {
 for
