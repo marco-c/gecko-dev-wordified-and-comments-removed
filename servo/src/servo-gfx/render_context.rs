@@ -147,6 +147,7 @@ arc
 :
 ARC
 ;
+pub
 struct
 RenderContext
 {

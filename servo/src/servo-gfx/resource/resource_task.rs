@@ -513,8 +513,8 @@ loader_factory
 =
 >
 {
-#
 debug
+!
 (
 "
 resource_task
@@ -544,8 +544,8 @@ None
 =
 >
 {
-#
 debug
+!
 (
 "
 resource_task

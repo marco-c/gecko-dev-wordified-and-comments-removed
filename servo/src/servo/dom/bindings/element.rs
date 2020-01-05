@@ -207,8 +207,8 @@ obj
 JSObject
 )
 {
-#
 debug
+!
 (
 "
 element

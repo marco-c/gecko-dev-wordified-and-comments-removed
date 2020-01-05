@@ -1,3 +1,4 @@
+pub
 trait
 BoxedDebugMethods
 {
@@ -30,6 +31,7 @@ self
 str
 ;
 }
+pub
 trait
 DebugMethods
 {

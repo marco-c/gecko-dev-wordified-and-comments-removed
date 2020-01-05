@@ -18,6 +18,7 @@ rect
 :
 Rect
 ;
+pub
 struct
 LayerBuffer
 {
@@ -34,6 +35,7 @@ stride
 :
 uint
 }
+pub
 struct
 LayerBufferSet
 {
@@ -44,6 +46,7 @@ buffers
 LayerBuffer
 ]
 }
+pub
 trait
 Compositor
 {

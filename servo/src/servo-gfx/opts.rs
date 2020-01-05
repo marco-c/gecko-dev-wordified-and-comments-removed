@@ -254,7 +254,7 @@ getopts
 :
 opt_maybe_str
 (
-copy
+&
 opt_match
 ~
 "
@@ -293,7 +293,7 @@ getopts
 :
 opt_maybe_str
 (
-copy
+&
 opt_match
 ~
 "
@@ -402,7 +402,7 @@ getopts
 :
 opt_maybe_str
 (
-copy
+&
 opt_match
 ~
 "
@@ -445,7 +445,7 @@ getopts
 :
 opt_maybe_str
 (
-move
+&
 opt_match
 ~
 "

@@ -566,8 +566,8 @@ obj
 JSObject
 )
 {
-#
 debug
+!
 (
 "
 document

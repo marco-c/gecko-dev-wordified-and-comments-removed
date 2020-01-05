@@ -475,8 +475,8 @@ obj
 JSObject
 )
 {
-#
 debug
+!
 (
 "
 finalize

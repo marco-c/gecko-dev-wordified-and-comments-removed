@@ -115,6 +115,12 @@ use
 hubbub
 :
 :
+hubbub
+;
+use
+hubbub
+:
+:
 Attribute
 ;
 use
@@ -641,8 +647,8 @@ Err
 =
 >
 {
-#
 error
+!
 (
 "
 error

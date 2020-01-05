@@ -182,6 +182,7 @@ fctx
 )
 }
 }
+pub
 type
 FontFamilyMap
 =
@@ -825,6 +826,7 @@ None
 ;
 }
 }
+pub
 struct
 FontEntry
 {
@@ -847,6 +849,7 @@ handle
 :
 FontHandle
 }
+pub
 impl
 FontEntry
 {

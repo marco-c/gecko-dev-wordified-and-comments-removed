@@ -225,6 +225,7 @@ glyph
 within
 a
 font
+pub
 type
 GlyphIndex
 =
@@ -239,6 +240,7 @@ with
 bit
 flags
 ?
+pub
 enum
 BreakType
 {
@@ -2741,6 +2743,7 @@ reference
 to
 GlyphStore
 .
+pub
 struct
 GlyphData
 {
@@ -2766,6 +2769,7 @@ ligature_start
 :
 bool
 }
+pub
 pure
 fn
 GlyphData
@@ -3188,6 +3192,7 @@ and
 retrieving
 glyph
 data
+pub
 struct
 GlyphStore
 {
@@ -3219,6 +3224,7 @@ detail_store
 :
 DetailedGlyphStore
 }
+pub
 impl
 GlyphStore
 {

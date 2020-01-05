@@ -1106,8 +1106,8 @@ handler
 msg
 )
 }
-#
 debug
+!
 (
 "
 image_cache_task
@@ -1532,8 +1532,8 @@ take
 (
 )
 ;
-#
 debug
+!
 (
 "
 image_cache_task
@@ -1608,8 +1608,8 @@ result
 )
 )
 ;
-#
 debug
+!
 (
 "
 image_cache_task
@@ -1996,8 +1996,8 @@ take
 (
 )
 ;
-#
 debug
+!
 (
 "
 image_cache_task
@@ -2068,8 +2068,8 @@ image
 )
 )
 ;
-#
 debug
+!
 (
 "
 image_cache_task

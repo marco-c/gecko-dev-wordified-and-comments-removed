@@ -498,6 +498,7 @@ yet
 }
 }
 }
+pub
 struct
 NodeBundle
 {
@@ -508,6 +509,7 @@ scope
 :
 NodeScope
 }
+pub
 fn
 NodeBundle
 (
@@ -532,6 +534,7 @@ scope
 s
 }
 }
+pub
 unsafe
 fn
 unwrap

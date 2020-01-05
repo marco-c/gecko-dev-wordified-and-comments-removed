@@ -698,8 +698,8 @@ move
 layer_buffer_set_channel
 )
 ;
-#
 debug
+!
 (
 "
 renderer
@@ -969,8 +969,8 @@ take
 }
 }
 ;
-#
 debug
+!
 (
 "
 renderer

@@ -727,6 +727,7 @@ RenderContext
 )
 ;
 }
+pub
 impl
 DisplayList
 {

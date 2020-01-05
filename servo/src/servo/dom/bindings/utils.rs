@@ -111,6 +111,7 @@ Content
 task_from_context
 }
 ;
+pub
 enum
 DOMString
 {
@@ -121,6 +122,7 @@ str
 )
 null_string
 }
+pub
 type
 rust_box
 <
@@ -153,6 +155,7 @@ payload
 T
 }
 ;
+pub
 unsafe
 fn
 squirrel_away
@@ -200,6 +203,7 @@ x
 ;
 y
 }
+pub
 unsafe
 fn
 squirrel_away_unique
@@ -254,6 +258,7 @@ y
 XXX
 very
 incomplete
+pub
 fn
 jsval_to_str
 (
@@ -393,6 +398,7 @@ buf
 }
 }
 }
+pub
 unsafe
 fn
 domstring_to_jsval

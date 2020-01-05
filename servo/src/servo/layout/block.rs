@@ -110,6 +110,7 @@ util
 :
 tree
 ;
+pub
 struct
 BlockFlowData
 {
@@ -121,6 +122,7 @@ Option
 RenderBox
 >
 }
+pub
 fn
 BlockFlowData
 (

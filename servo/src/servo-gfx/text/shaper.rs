@@ -27,6 +27,7 @@ shaper
 :
 HarfbuzzShaper
 ;
+pub
 trait
 ShaperMethods
 {
@@ -45,6 +46,7 @@ GlyphStore
 )
 ;
 }
+pub
 impl
 Shaper
 {

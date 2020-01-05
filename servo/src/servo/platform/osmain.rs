@@ -149,6 +149,9 @@ use
 layers
 :
 :
+layers
+:
+:
 ImageLayer
 ;
 use
@@ -168,6 +171,12 @@ cmp
 :
 :
 FuzzyEq
+;
+use
+glut
+:
+:
+glut
 ;
 pub
 struct
@@ -254,6 +263,7 @@ Chan
 )
 Exit
 }
+pub
 fn
 OSMain
 (
@@ -308,8 +318,8 @@ platform
 :
 runmain
 {
-#
 debug
+!
 (
 "
 preparing
@@ -997,8 +1007,8 @@ draw_target
 =
 >
 {
-#
 debug
+!
 (
 "
 osmain
@@ -1615,8 +1625,8 @@ width
 height
 |
 {
-#
 debug
+!
 (
 "
 osmain
@@ -1975,8 +1985,8 @@ layer_buffer
 stride
 }
 ;
-#
 debug
+!
 (
 "
 osmain

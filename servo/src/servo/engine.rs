@@ -170,6 +170,7 @@ Chan
 >
 )
 }
+pub
 struct
 Engine
 <
@@ -208,6 +209,7 @@ content_task
 :
 ContentTask
 }
+pub
 fn
 Engine
 <

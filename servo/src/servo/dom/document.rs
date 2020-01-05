@@ -28,6 +28,7 @@ arc
 :
 ARC
 ;
+pub
 struct
 Document
 {
@@ -38,6 +39,7 @@ scope
 :
 NodeScope
 }
+pub
 fn
 Document
 (

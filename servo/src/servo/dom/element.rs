@@ -39,6 +39,7 @@ url
 :
 Url
 ;
+pub
 struct
 ElementData
 {
@@ -270,6 +271,7 @@ None
 }
 }
 }
+pub
 fn
 ElementData
 (
@@ -303,6 +305,7 @@ DVec
 )
 }
 }
+pub
 struct
 Attr
 {
@@ -315,6 +318,7 @@ value
 ~
 str
 }
+pub
 fn
 Attr
 (
@@ -343,6 +347,7 @@ move
 value
 }
 }
+pub
 fn
 HTMLImageData
 (
@@ -358,6 +363,7 @@ image
 None
 }
 }
+pub
 struct
 HTMLImageData
 {
@@ -369,6 +375,7 @@ Option
 Url
 >
 }
+pub
 enum
 HeadingLevel
 {
@@ -379,6 +386,7 @@ Heading4
 Heading5
 Heading6
 }
+pub
 enum
 ElementKind
 {

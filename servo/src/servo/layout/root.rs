@@ -99,6 +99,7 @@ util
 :
 tree
 ;
+pub
 struct
 RootFlowData
 {
@@ -110,6 +111,7 @@ Option
 RenderBox
 >
 }
+pub
 fn
 RootFlowData
 (

@@ -1437,9 +1437,9 @@ const_read_ptr
 =
 const_write_ptr
 {
-#
 debug
-[
+!
+(
 "
 marking
 handle
@@ -1449,7 +1449,7 @@ as
 dirty
 "
 h
-]
+)
 ;
 h
 .
