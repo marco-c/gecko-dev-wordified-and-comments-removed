@@ -34,6 +34,17 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BindingDeclarations
+.
+h
+"
 class
 nsGlobalWindow
 ;
@@ -103,6 +114,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -116,6 +129,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -196,6 +211,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -208,6 +225,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -243,6 +262,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -255,6 +276,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -290,6 +313,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -302,6 +327,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -337,6 +364,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -349,6 +378,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -384,6 +415,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -396,6 +429,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -431,6 +466,8 @@ virtual
 bool
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -443,6 +480,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

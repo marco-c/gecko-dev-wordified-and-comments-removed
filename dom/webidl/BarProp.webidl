@@ -96,6 +96,7 @@ BarProp
 {
 [
 Throws
+NeedsCallerType
 ]
 attribute
 boolean
