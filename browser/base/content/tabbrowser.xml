@@ -39175,6 +39175,11 @@ if
 aTab
 .
 pinned
+|
+|
+aTab
+.
+hidden
 )
 return
 ;
