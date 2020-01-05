@@ -4977,7 +4977,7 @@ int32IndexId
 =
 writer
 .
-guardIsInt32
+guardIsInt32Index
 (
 indexId
 )
@@ -5195,7 +5195,7 @@ int32IndexId
 =
 writer
 .
-guardIsInt32
+guardIsInt32Index
 (
 indexId
 )
@@ -7545,7 +7545,7 @@ int32IndexId
 =
 writer
 .
-guardIsInt32
+guardIsInt32Index
 (
 indexId
 )
