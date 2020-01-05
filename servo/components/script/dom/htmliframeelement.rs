@@ -2656,10 +2656,6 @@ from_string
 servo_version
 (
 )
-.
-into
-(
-)
 )
 )
 }
