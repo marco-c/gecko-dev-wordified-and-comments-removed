@@ -309,6 +309,7 @@ color
 )
 =
 >
+{
 ctx
 .
 draw_solid_color
@@ -323,6 +324,7 @@ d
 bounds
 color
 )
+}
 &
 Text
 (
@@ -474,6 +476,7 @@ color
 )
 =
 >
+{
 ctx
 .
 draw_border
@@ -489,6 +492,7 @@ bounds
 width
 color
 )
+}
 }
 debug
 !
