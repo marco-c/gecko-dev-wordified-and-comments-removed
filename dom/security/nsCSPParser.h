@@ -421,6 +421,12 @@ hashSource
 ;
 nsCSPHostSrc
 *
+appHost
+(
+)
+;
+nsCSPHostSrc
+*
 host
 (
 )
