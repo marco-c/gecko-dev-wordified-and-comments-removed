@@ -1219,6 +1219,13 @@ h
 '
 ipc
 /
+SynchronousTask
+.
+h
+'
+'
+ipc
+/
 TextureForwarder
 .
 h

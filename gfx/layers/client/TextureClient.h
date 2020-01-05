@@ -273,6 +273,9 @@ TextureChild
 class
 TextureData
 ;
+class
+GPUVideoTextureData
+;
 struct
 RawTextureBuffer
 ;
@@ -1002,6 +1005,17 @@ virtual
 BufferTextureData
 *
 AsBufferTextureData
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+GPUVideoTextureData
+*
+AsGPUVideoTextureData
 (
 )
 {

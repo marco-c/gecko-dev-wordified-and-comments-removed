@@ -141,6 +141,15 @@ Rect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ReentrantMonitor
+.
+h
+"
 class
 MessageLoop
 ;

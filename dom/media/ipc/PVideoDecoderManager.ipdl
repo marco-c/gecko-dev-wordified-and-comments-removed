@@ -117,7 +117,7 @@ mozilla
 namespace
 dom
 {
-async
+sync
 protocol
 PVideoDecoderManager
 {
@@ -129,6 +129,18 @@ parent
 async
 PVideoDecoder
 (
+)
+;
+sync
+Readback
+(
+SurfaceDescriptorGPUVideo
+sd
+)
+returns
+(
+SurfaceDescriptor
+aResult
 )
 ;
 async
