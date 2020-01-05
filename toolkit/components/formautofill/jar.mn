@@ -59,15 +59,15 @@ jar
 :
 %
 content
-formautofill
+requestautocomplete
 %
 content
 /
-formautofill
+requestautocomplete
 /
 content
 /
-formautofill
+requestautocomplete
 /
 requestAutocomplete
 .
@@ -81,7 +81,7 @@ js
 )
 content
 /
-formautofill
+requestautocomplete
 /
 requestAutocomplete
 .

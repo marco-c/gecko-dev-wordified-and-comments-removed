@@ -201,7 +201,7 @@ chrome
 :
 /
 /
-formautofill
+requestautocomplete
 /
 content
 /
