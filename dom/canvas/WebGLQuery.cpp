@@ -931,7 +931,6 @@ TIMESTAMP_EXT
 .
 "
 funcName
-target
 )
 ;
 return

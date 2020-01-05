@@ -2773,7 +2773,6 @@ less
 than
 MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS
 "
-index
 )
 ;
 retval
