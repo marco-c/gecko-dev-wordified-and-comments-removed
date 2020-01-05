@@ -2418,7 +2418,7 @@ null
 return
 true
 }
-return
+if
 new_layers
 .
 iter
@@ -2439,7 +2439,10 @@ extra_data
 .
 id
 )
-;
+{
+return
+true
+}
 }
 if
 let
