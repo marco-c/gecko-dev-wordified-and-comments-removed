@@ -19,6 +19,14 @@ arc_unique
 [
 feature
 (
+as_slice
+)
+]
+#
+!
+[
+feature
+(
 as_unsafe_cell
 )
 ]
