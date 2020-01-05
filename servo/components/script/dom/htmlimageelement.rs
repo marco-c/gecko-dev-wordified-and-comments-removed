@@ -224,6 +224,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 ipc_channel
 :
 :
@@ -300,12 +306,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -1377,7 +1377,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1479,7 +1479,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1572,7 +1572,7 @@ HTMLImageElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -1834,7 +1834,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1909,7 +1909,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2369,7 +2369,7 @@ self
 upcast
 (
 )
-atom
+local_name
 !
 (
 "
@@ -2486,7 +2486,7 @@ self
 upcast
 (
 )
-atom
+local_name
 !
 (
 "
@@ -3203,7 +3203,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -3283,7 +3283,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -3296,7 +3296,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -3317,7 +3317,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3326,7 +3326,7 @@ width
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -3347,7 +3347,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3356,7 +3356,7 @@ hspace
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -3407,7 +3407,7 @@ element
 Element
 attr
 :
-Atom
+LocalName
 value
 :
 u32

@@ -245,6 +245,12 @@ all
 UTF_8
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 hyper
 :
 :
@@ -407,12 +413,6 @@ Mutex
 }
 ;
 use
-string_cache
-:
-:
-Atom
-;
-use
 style
 :
 :
@@ -530,7 +530,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -609,7 +609,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -694,7 +694,7 @@ Element
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1051,7 +1051,7 @@ upcast
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1068,7 +1068,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -1117,7 +1117,7 @@ upcast
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1152,7 +1152,7 @@ sizes
 }
 }
 &
-atom
+local_name
 !
 (
 "
@@ -1185,7 +1185,7 @@ upcast
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1227,7 +1227,7 @@ to_string
 }
 }
 &
-atom
+local_name
 !
 (
 "
@@ -1270,7 +1270,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1309,7 +1309,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -1322,7 +1322,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -1413,7 +1413,7 @@ get_attr
 (
 element
 &
-atom
+local_name
 !
 (
 "
@@ -1429,7 +1429,7 @@ get_attr
 (
 element
 &
-atom
+local_name
 !
 (
 "
@@ -1449,7 +1449,7 @@ upcast
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1678,7 +1678,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3142,7 +3142,7 @@ Element
 set_tokenlist_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -3393,7 +3393,7 @@ upcast
 (
 )
 &
-atom
+local_name
 !
 (
 "

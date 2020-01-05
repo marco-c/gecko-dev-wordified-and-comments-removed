@@ -67,7 +67,7 @@ element
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -147,7 +147,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -280,7 +280,7 @@ element
 set_int_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -370,7 +370,7 @@ element
 set_int_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -475,7 +475,7 @@ element
 get_int_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -580,7 +580,7 @@ element
 get_uint_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -682,7 +682,7 @@ element
 get_url_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -765,7 +765,7 @@ element
 get_url_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -893,7 +893,7 @@ element
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1036,7 +1036,7 @@ element
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1169,7 +1169,7 @@ element
 set_string_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1250,7 +1250,7 @@ element
 set_bool_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1363,7 +1363,7 @@ element
 set_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1472,7 +1472,7 @@ element
 set_uint_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1645,7 +1645,7 @@ element
 set_uint_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1753,7 +1753,7 @@ element
 set_atomic_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1858,7 +1858,7 @@ element
 set_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -1954,7 +1954,7 @@ element
 set_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname
@@ -2050,7 +2050,7 @@ element
 set_attribute
 (
 &
-atom
+local_name
 !
 (
 htmlname

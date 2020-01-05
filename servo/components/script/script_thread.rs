@@ -13877,7 +13877,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

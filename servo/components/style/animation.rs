@@ -1,4 +1,7 @@
 use
+Atom
+;
+use
 bezier
 :
 :
@@ -161,12 +164,6 @@ mpsc
 :
 :
 Sender
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 timer

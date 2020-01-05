@@ -173,7 +173,7 @@ nodelist
 NodeList
 ;
 use
-string_cache
+servo_atoms
 :
 :
 Atom
@@ -459,7 +459,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

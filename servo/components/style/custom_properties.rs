@@ -1,4 +1,7 @@
 use
+Atom
+;
+use
 cssparser
 :
 :
@@ -61,12 +64,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 pub
 type

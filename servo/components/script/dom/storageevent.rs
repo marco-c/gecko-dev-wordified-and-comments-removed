@@ -155,7 +155,7 @@ window
 Window
 ;
 use
-string_cache
+servo_atoms
 :
 :
 Atom

@@ -990,7 +990,7 @@ HTMLHtmlElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -1043,7 +1043,7 @@ HTMLHeadElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -1113,7 +1113,7 @@ HTMLTitleElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -1189,7 +1189,7 @@ HTMLBodyElement
 :
 new
 (
-atom
+local_name
 !
 (
 "

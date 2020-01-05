@@ -1,4 +1,7 @@
 use
+Atom
+;
+use
 app_units
 :
 :
@@ -47,12 +50,6 @@ fmt
 self
 Write
 }
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style_traits

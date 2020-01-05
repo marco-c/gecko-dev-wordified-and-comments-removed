@@ -328,6 +328,12 @@ TreeSink
 }
 ;
 use
+html5ever_atoms
+:
+:
+QualName
+;
+use
 msg
 :
 :
@@ -356,12 +362,6 @@ io
 self
 Write
 }
-;
-use
-string_cache
-:
-:
-QualName
 ;
 use
 super

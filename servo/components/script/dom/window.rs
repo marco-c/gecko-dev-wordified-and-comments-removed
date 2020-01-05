@@ -813,6 +813,12 @@ WebDriverJSResult
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -941,12 +947,6 @@ TryRecvError
 Disconnected
 Empty
 }
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style

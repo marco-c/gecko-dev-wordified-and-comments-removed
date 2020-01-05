@@ -117,7 +117,13 @@ node
 window_from_node
 ;
 use
-string_cache
+html5ever_atoms
+:
+:
+LocalName
+;
+use
+servo_atoms
 :
 :
 Atom
@@ -150,7 +156,7 @@ Element
 >
 local_name
 :
-Atom
+LocalName
 }
 impl
 DOMTokenList
@@ -165,7 +171,7 @@ element
 Element
 local_name
 :
-Atom
+LocalName
 )
 -
 >
@@ -206,7 +212,7 @@ Element
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >

@@ -272,6 +272,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 ipc_channel
 :
 :
@@ -305,12 +311,6 @@ ops
 :
 :
 Range
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -643,7 +643,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -706,7 +706,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -748,7 +748,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -861,7 +861,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -2567,7 +2567,7 @@ local_name
 (
 )
 {
-atom
+local_name
 !
 (
 "
@@ -2680,7 +2680,7 @@ true
 }
 }
 }
-atom
+local_name
 !
 (
 "
@@ -2810,7 +2810,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -2823,7 +2823,7 @@ match
 *
 name
 {
-atom
+local_name
 !
 (
 "
@@ -2844,7 +2844,7 @@ into
 )
 DEFAULT_COLS
 )
-atom
+local_name
 !
 (
 "

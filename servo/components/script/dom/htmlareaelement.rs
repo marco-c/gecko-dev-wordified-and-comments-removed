@@ -117,6 +117,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 std
 :
 :
@@ -124,12 +130,6 @@ default
 :
 :
 Default
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -169,7 +169,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -221,7 +221,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -307,7 +307,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -320,7 +320,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -421,7 +421,7 @@ upcast
 (
 )
 &
-atom
+local_name
 !
 (
 "

@@ -396,7 +396,7 @@ new_script
 set_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "

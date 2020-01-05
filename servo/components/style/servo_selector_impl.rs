@@ -1,4 +1,12 @@
 use
+{
+Atom
+Prefix
+Namespace
+LocalName
+}
+;
+use
 attr
 :
 :
@@ -71,15 +79,6 @@ std
 :
 :
 fmt
-;
-use
-string_cache
-:
-:
-{
-Atom
-Namespace
-}
 ;
 #
 [
@@ -834,12 +833,12 @@ Atom
 type
 LocalName
 =
-Atom
+LocalName
 ;
 type
 NamespacePrefix
 =
-Atom
+Prefix
 ;
 type
 NamespaceUrl
@@ -849,7 +848,7 @@ Namespace
 type
 BorrowedLocalName
 =
-Atom
+LocalName
 ;
 type
 BorrowedNamespaceUrl
@@ -1679,7 +1678,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1755,7 +1754,7 @@ self
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1882,7 +1881,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1931,7 +1930,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2007,7 +2006,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

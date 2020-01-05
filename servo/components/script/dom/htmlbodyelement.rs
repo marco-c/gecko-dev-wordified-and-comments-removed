@@ -184,18 +184,18 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 script_traits
 :
 :
 ScriptMsg
 as
 ConstellationMsg
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -242,7 +242,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -286,7 +286,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -758,7 +758,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -828,7 +828,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -898,7 +898,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1067,7 +1067,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -1080,7 +1080,7 @@ match
 *
 name
 {
-atom
+local_name
 !
 (
 "
@@ -1088,7 +1088,7 @@ bgcolor
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -1108,7 +1108,7 @@ into
 (
 )
 )
-atom
+local_name
 !
 (
 "
@@ -1261,7 +1261,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -1270,7 +1270,7 @@ onfocus
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1279,7 +1279,7 @@ onload
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1288,7 +1288,7 @@ onscroll
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1297,7 +1297,7 @@ onafterprint
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1306,7 +1306,7 @@ onbeforeprint
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1315,7 +1315,7 @@ onbeforeunload
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1324,7 +1324,7 @@ onhashchange
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1333,7 +1333,7 @@ onlanguagechange
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1342,7 +1342,7 @@ onmessage
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1351,7 +1351,7 @@ onoffline
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1360,7 +1360,7 @@ ononline
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1369,7 +1369,7 @@ onpagehide
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1378,7 +1378,7 @@ onpageshow
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1387,7 +1387,7 @@ onpopstate
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1396,7 +1396,7 @@ onstorage
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1405,7 +1405,7 @@ onresize
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -1414,7 +1414,7 @@ onunload
 )
 |
 &
-atom
+local_name
 !
 (
 "

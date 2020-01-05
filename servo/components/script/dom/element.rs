@@ -770,6 +770,17 @@ Quirks
 }
 ;
 use
+html5ever_atoms
+:
+:
+{
+Prefix
+LocalName
+Namespace
+QualName
+}
+;
+use
 parking_lot
 :
 :
@@ -813,6 +824,12 @@ AttrSelector
 NamespaceConstraint
 parse_author_origin_selector_list_from_str
 }
+;
+use
+servo_atoms
+:
+:
+Atom
 ;
 use
 std
@@ -890,16 +907,6 @@ atomic
 {
 AtomicUsize
 Ordering
-}
-;
-use
-string_cache
-:
-:
-{
-Atom
-Namespace
-QualName
 }
 ;
 use
@@ -1056,7 +1063,7 @@ node
 Node
 local_name
 :
-Atom
+LocalName
 tag_name
 :
 TagName
@@ -1379,7 +1386,7 @@ prefix
 :
 Option
 <
-Atom
+Prefix
 >
 document
 :
@@ -1410,7 +1417,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 namespace
 :
 Namespace
@@ -1455,7 +1462,7 @@ state
 ElementState
 local_name
 :
-Atom
+LocalName
 namespace
 :
 Namespace
@@ -1573,7 +1580,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 namespace
 :
 Namespace
@@ -1910,7 +1917,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1941,7 +1948,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1968,7 +1975,7 @@ self
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -2014,7 +2021,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -2147,7 +2154,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -2199,7 +2206,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -2251,7 +2258,7 @@ self
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -2487,7 +2494,7 @@ self
 -
 >
 &
-Atom
+LocalName
 ;
 fn
 namespace
@@ -2590,7 +2597,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2678,7 +2685,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3562,7 +3569,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -4999,7 +5006,7 @@ self
 -
 >
 &
-Atom
+LocalName
 {
 unsafe
 {
@@ -5312,7 +5319,7 @@ self
 -
 >
 &
-Atom
+LocalName
 {
 &
 self
@@ -5332,7 +5339,7 @@ DOMString
 )
 -
 >
-Atom
+LocalName
 {
 if
 self
@@ -5348,7 +5355,7 @@ make_ascii_lowercase
 )
 ;
 }
-Atom
+LocalName
 :
 :
 from
@@ -5554,7 +5561,7 @@ serialisation
 algorithm
 *
 /
-atom
+local_name
 !
 (
 "
@@ -5562,7 +5569,7 @@ area
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5570,7 +5577,7 @@ base
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5578,7 +5585,7 @@ basefont
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5586,7 +5593,7 @@ bgsound
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5594,7 +5601,7 @@ br
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5602,7 +5609,7 @@ col
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5610,7 +5617,7 @@ embed
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5618,7 +5625,7 @@ frame
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5626,7 +5633,7 @@ hr
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5634,7 +5641,7 @@ img
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5642,7 +5649,7 @@ input
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5650,7 +5657,7 @@ keygen
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5658,7 +5665,7 @@ link
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5666,7 +5673,7 @@ menuitem
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5674,7 +5681,7 @@ meta
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5682,7 +5689,7 @@ param
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5690,7 +5697,7 @@ source
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5698,7 +5705,7 @@ track
 "
 )
 |
-atom
+local_name
 !
 (
 "
@@ -5792,7 +5799,7 @@ name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -5849,7 +5856,7 @@ new
 (
 &
 window
-atom
+local_name
 !
 (
 "
@@ -5857,7 +5864,7 @@ style
 "
 )
 new_style
-atom
+local_name
 !
 (
 "
@@ -5868,16 +5875,7 @@ ns
 !
 (
 )
-Some
-(
-atom
-!
-(
-"
-style
-"
-)
-)
+None
 Some
 (
 self
@@ -6276,7 +6274,7 @@ prefix
 =
 Some
 (
-atom
+namespace_prefix
 !
 (
 "
@@ -6297,8 +6295,6 @@ value
 =
 *
 namespace
-.
-0
 {
 return
 Some
@@ -6676,13 +6672,13 @@ push_new_attribute
 self
 local_name
 :
-Atom
+LocalName
 value
 :
 AttrValue
 name
 :
-Atom
+LocalName
 namespace
 :
 Namespace
@@ -6690,7 +6686,7 @@ prefix
 :
 Option
 <
-Atom
+Prefix
 >
 )
 {
@@ -6839,7 +6835,7 @@ Namespace
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -7022,7 +7018,7 @@ prefix
 :
 Option
 <
-Atom
+Prefix
 >
 )
 {
@@ -7137,7 +7133,7 @@ qname
 local
 )
 ;
-Atom
+LocalName
 :
 :
 from
@@ -7190,7 +7186,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 AttrValue
@@ -7332,7 +7328,7 @@ Steps
 let
 name
 =
-Atom
+LocalName
 :
 :
 from
@@ -7423,13 +7419,13 @@ F
 self
 local_name
 :
-Atom
+LocalName
 value
 :
 AttrValue
 name
 :
-Atom
+LocalName
 namespace
 :
 Namespace
@@ -7437,7 +7433,7 @@ prefix
 :
 Option
 <
-Atom
+Prefix
 >
 find
 :
@@ -7546,7 +7542,7 @@ Namespace
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -7608,7 +7604,7 @@ Namespace
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -7658,7 +7654,7 @@ self
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -7920,7 +7916,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -7971,7 +7967,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -8024,7 +8020,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -8105,7 +8101,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 bool
@@ -8167,7 +8163,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -8313,7 +8309,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -8337,7 +8333,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -8387,7 +8383,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -8435,7 +8431,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -8495,7 +8491,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -8543,7 +8539,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 tokens
 :
 Vec
@@ -8590,7 +8586,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 default
 :
 i32
@@ -8724,7 +8720,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 i32
@@ -8773,7 +8769,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 default
 :
 u32
@@ -8895,7 +8891,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 u32
@@ -9557,7 +9553,7 @@ ajeffrey
 Convert
 directly
 from
-Atom
+LocalName
 to
 DOMString
 DOMString
@@ -9721,7 +9717,7 @@ html_element_in_html_document
 (
 )
 {
-Atom
+LocalName
 :
 :
 from
@@ -9735,7 +9731,7 @@ to_ascii_uppercase
 }
 else
 {
-Atom
+LocalName
 :
 :
 from
@@ -9791,7 +9787,7 @@ self
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -9835,7 +9831,7 @@ self
 set_atomic_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -9881,7 +9877,7 @@ self
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -9925,7 +9921,7 @@ self
 set_tokenlist_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -9984,7 +9980,7 @@ new
 (
 self
 &
-atom
+local_name
 !
 (
 "
@@ -10376,7 +10372,7 @@ get_attribute
 (
 namespace
 &
-Atom
+LocalName
 :
 :
 from
@@ -10588,7 +10584,7 @@ qualified_name
 let
 qualified_name
 =
-Atom
+LocalName
 :
 :
 from
@@ -11139,7 +11135,7 @@ namespace
 let
 local_name
 =
-Atom
+LocalName
 :
 :
 from
@@ -13912,7 +13908,7 @@ ns
 (
 html
 )
-atom
+local_name
 !
 (
 "
@@ -15466,7 +15462,7 @@ local_name
 !
 =
 &
-atom
+local_name
 !
 (
 "
@@ -15503,7 +15499,7 @@ HTMLBodyElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -15698,27 +15694,27 @@ fragment_affecting_attributes
 -
 >
 [
-Atom
+LocalName
 ;
 3
 ]
 {
 [
-atom
+local_name
 !
 (
 "
 width
 "
 )
-atom
+local_name
 !
 (
 "
 height
 "
 )
-atom
+local_name
 !
 (
 "
@@ -15824,7 +15820,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -15931,7 +15927,7 @@ NodeStyleDamaged
 }
 }
 &
-atom
+local_name
 !
 (
 "
@@ -16178,7 +16174,7 @@ a
 &
 a
 .
-atom
+attr_name
 =
 =
 attr
@@ -16291,7 +16287,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -16304,7 +16300,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -16325,7 +16321,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -17250,7 +17246,7 @@ self
 -
 >
 &
-Atom
+LocalName
 {
 self
 .
@@ -17571,7 +17567,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -18483,7 +18479,7 @@ self
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -19698,7 +19694,7 @@ self
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -20032,7 +20028,7 @@ DOMRefCell
 <
 Option
 <
-Atom
+LocalName
 >
 >
 }
@@ -20074,7 +20070,7 @@ F
 )
 -
 >
-Atom
+LocalName
 where
 F
 :
@@ -20083,7 +20079,7 @@ FnOnce
 )
 -
 >
-Atom
+LocalName
 {
 match
 &

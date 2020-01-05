@@ -403,7 +403,7 @@ common_attr_info
 {
 common_attr_info
 .
-atom
+attr_name
 =
 =
 attr_selector
@@ -490,7 +490,7 @@ common_attr_info
 {
 common_attr_info
 .
-atom
+attr_name
 =
 =
 attr_selector

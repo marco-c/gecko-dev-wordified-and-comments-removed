@@ -314,6 +314,12 @@ tree_builder
 NextParserState
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 ipc_channel
 :
 :
@@ -376,6 +382,12 @@ PreInvoke
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -404,12 +416,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -492,7 +498,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -605,7 +611,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -2076,7 +2082,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2152,7 +2158,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2350,7 +2356,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2372,7 +2378,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2522,7 +2528,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2685,7 +2691,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2863,7 +2869,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -3956,7 +3962,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -4091,7 +4097,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -4426,7 +4432,7 @@ local_name
 (
 )
 {
-atom
+local_name
 !
 (
 "
@@ -5146,7 +5152,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -5288,7 +5294,7 @@ element
 set_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -5311,7 +5317,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

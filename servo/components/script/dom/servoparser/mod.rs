@@ -2458,7 +2458,7 @@ HTMLImageElement
 :
 new
 (
-atom
+local_name
 !
 (
 "

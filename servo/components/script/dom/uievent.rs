@@ -157,6 +157,12 @@ window
 Window
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -173,12 +179,6 @@ default
 :
 :
 Default
-;
-use
-string_cache
-:
-:
-Atom
 ;
 #
 [

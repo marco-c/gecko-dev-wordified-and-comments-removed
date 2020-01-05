@@ -7,6 +7,13 @@ unsafe_code
 )
 ]
 use
+{
+Atom
+Namespace
+LocalName
+}
+;
+use
 atomic_refcell
 :
 :
@@ -117,15 +124,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-{
-Atom
-Namespace
-}
 ;
 use
 traversal
@@ -956,7 +954,7 @@ Namespace
 attr
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -974,7 +972,7 @@ Namespace
 attr
 :
 &
-Atom
+LocalName
 value
 :
 &

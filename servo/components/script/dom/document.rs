@@ -998,6 +998,15 @@ QuirksMode
 }
 ;
 use
+html5ever_atoms
+:
+:
+{
+LocalName
+QualName
+}
+;
+use
 ipc_channel
 :
 :
@@ -1190,6 +1199,12 @@ script_traits
 UntrustedNodeAddress
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -1308,15 +1323,6 @@ time
 {
 Duration
 Instant
-}
-;
-use
-string_cache
-:
-:
-{
-Atom
-QualName
 }
 ;
 use
@@ -1562,7 +1568,7 @@ DOMRefCell
 <
 HashMap
 <
-Atom
+LocalName
 JS
 <
 HTMLCollection
@@ -2155,7 +2161,7 @@ elem
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2308,7 +2314,7 @@ elem
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2869,7 +2875,7 @@ Element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -3746,7 +3752,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -8206,7 +8212,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -8276,7 +8282,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -14133,7 +14139,7 @@ HTMLCollection
 let
 tag_atom
 =
-Atom
+LocalName
 :
 :
 from
@@ -14200,7 +14206,7 @@ make_ascii_lowercase
 let
 ascii_lower_tag
 =
-Atom
+LocalName
 :
 :
 from
@@ -14301,7 +14307,7 @@ maybe_ns
 let
 local
 =
-Atom
+LocalName
 :
 :
 from
@@ -14695,7 +14701,7 @@ ns
 (
 html
 )
-Atom
+LocalName
 :
 :
 from
@@ -14900,7 +14906,7 @@ make_ascii_lowercase
 let
 name
 =
-Atom
+LocalName
 :
 :
 from
@@ -15033,7 +15039,7 @@ to_owned
 let
 qualified_name
 =
-Atom
+LocalName
 :
 :
 from
@@ -16594,7 +16600,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -16651,7 +16657,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -16857,7 +16863,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -16912,7 +16918,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -16960,7 +16966,7 @@ ns
 (
 svg
 )
-atom
+local_name
 !
 (
 "
@@ -17128,7 +17134,7 @@ ns
 (
 html
 )
-atom
+local_name
 !
 (
 "
@@ -17892,7 +17898,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -19417,7 +19423,7 @@ self
 get_body_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -19463,7 +19469,7 @@ self
 set_body_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -19510,7 +19516,7 @@ self
 get_body_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -19556,7 +19562,7 @@ self
 set_body_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -19804,7 +19810,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -19849,7 +19855,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -19903,7 +19909,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -19955,7 +19961,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -20001,7 +20007,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

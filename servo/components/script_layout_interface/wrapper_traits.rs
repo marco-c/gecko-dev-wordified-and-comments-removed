@@ -25,6 +25,15 @@ gfx_traits
 ByteIndex
 ;
 use
+html5ever_atoms
+:
+:
+{
+Namespace
+LocalName
+}
+;
+use
 msg
 :
 :
@@ -62,15 +71,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-{
-Atom
-Namespace
-}
 ;
 use
 style
@@ -1669,7 +1669,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1881,7 +1881,7 @@ get_local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -1951,7 +1951,7 @@ get_local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -1988,7 +1988,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

@@ -65,10 +65,10 @@ node
 Node
 ;
 use
-string_cache
+html5ever_atoms
 :
 :
-Atom
+LocalName
 ;
 #
 [
@@ -90,7 +90,7 @@ new_inherited
 (
 localName
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -134,7 +134,7 @@ new
 (
 localName
 :
-Atom
+LocalName
 prefix
 :
 Option

@@ -1,4 +1,7 @@
 use
+Atom
+;
+use
 element_state
 :
 :
@@ -94,12 +97,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 bitflags
 !

@@ -170,6 +170,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 net_traits
 :
 :
@@ -189,12 +195,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 #
 [
@@ -236,7 +236,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -289,7 +289,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -427,7 +427,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -445,7 +445,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -735,7 +735,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
