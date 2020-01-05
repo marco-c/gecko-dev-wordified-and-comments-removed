@@ -104,6 +104,7 @@ js
 {
 JSRef
 Temporary
+MutHeap
 }
 ;
 use
@@ -238,7 +239,7 @@ u32
 >
 error
 :
-Cell
+MutHeap
 <
 JSVal
 >
@@ -345,7 +346,7 @@ new
 )
 error
 :
-Cell
+MutHeap
 :
 :
 new

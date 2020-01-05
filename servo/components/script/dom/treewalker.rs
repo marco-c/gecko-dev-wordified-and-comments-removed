@@ -124,6 +124,7 @@ JS
 JSRef
 OptionalRootable
 Temporary
+MutHeap
 }
 ;
 use
@@ -166,15 +167,6 @@ Node
 NodeHelpers
 }
 ;
-use
-std
-:
-:
-cell
-:
-:
-Cell
-;
 #
 [
 dom_struct
@@ -194,7 +186,7 @@ Node
 >
 current_node
 :
-Cell
+MutHeap
 <
 JS
 <
@@ -252,7 +244,7 @@ root_node
 )
 current_node
 :
-Cell
+MutHeap
 :
 :
 new
