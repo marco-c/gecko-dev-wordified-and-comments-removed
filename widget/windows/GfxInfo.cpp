@@ -1484,7 +1484,7 @@ DeviceString
 if
 (
 mWindowsVersion
-=
+>
 =
 kWindows8
 &
