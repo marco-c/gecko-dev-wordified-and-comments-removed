@@ -2216,6 +2216,17 @@ cloneNode
 ;
 this
 .
+experimentalOutputNode
+.
+removeAttribute
+(
+"
+tabindex
+"
+)
+;
+this
+.
 outputNode
 .
 hidden
