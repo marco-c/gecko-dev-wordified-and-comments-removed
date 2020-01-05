@@ -442,9 +442,7 @@ widevine_description
 description
 :
 "
-eme
--
-adobe_description
+cdm_description
 "
 licenseURL
 :
