@@ -20060,10 +20060,9 @@ mGlyphChangeObservers
 )
 {
 mGlyphChangeObservers
-.
-reset
-(
-new
+=
+MakeUnique
+<
 nsTHashtable
 <
 nsPtrHashKey
@@ -20071,6 +20070,8 @@ nsPtrHashKey
 GlyphChangeObserver
 >
 >
+>
+(
 )
 ;
 }
