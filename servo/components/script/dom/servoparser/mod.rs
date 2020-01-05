@@ -712,7 +712,7 @@ origin
 (
 )
 .
-alias
+clone
 (
 )
 IsHTMLDocument

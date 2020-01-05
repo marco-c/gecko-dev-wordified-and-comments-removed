@@ -10579,7 +10579,7 @@ origin
 (
 )
 .
-alias
+clone
 (
 )
 is_html_doc

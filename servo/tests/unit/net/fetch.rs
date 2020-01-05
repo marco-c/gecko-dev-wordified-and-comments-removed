@@ -326,7 +326,10 @@ use
 servo_url
 :
 :
+{
+ImmutableOrigin
 ServoUrl
+}
 ;
 use
 std
@@ -411,14 +414,6 @@ unicase
 :
 :
 UniCase
-;
-use
-url
-:
-:
-Origin
-as
-UrlOrigin
 ;
 #
 [
@@ -2119,7 +2114,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque
@@ -2520,7 +2515,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque
@@ -3019,7 +3014,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque
@@ -3631,7 +3626,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque
@@ -3939,7 +3934,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque
@@ -7081,7 +7076,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque

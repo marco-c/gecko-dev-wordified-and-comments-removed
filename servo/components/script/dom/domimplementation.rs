@@ -614,7 +614,7 @@ origin
 (
 )
 .
-alias
+clone
 (
 )
 IsHTMLDocument
@@ -914,7 +914,7 @@ origin
 (
 )
 .
-alias
+clone
 (
 )
 IsHTMLDocument

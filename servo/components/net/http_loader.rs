@@ -364,7 +364,10 @@ use
 servo_url
 :
 :
+{
+ImmutableOrigin
 ServoUrl
+}
 ;
 use
 std
@@ -477,14 +480,6 @@ unicase
 :
 :
 UniCase
-;
-use
-url
-:
-:
-Origin
-as
-UrlOrigin
 ;
 use
 uuid
@@ -2774,7 +2769,7 @@ AuthCache
 origin
 :
 &
-UrlOrigin
+ImmutableOrigin
 )
 -
 >
@@ -4803,7 +4798,7 @@ Origin
 :
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 :
 :
 new_opaque

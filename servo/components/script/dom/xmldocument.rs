@@ -154,12 +154,6 @@ JSObject
 }
 ;
 use
-origin
-:
-:
-Origin
-;
-use
 script_traits
 :
 :
@@ -169,7 +163,10 @@ use
 servo_url
 :
 :
+{
+MutableOrigin
 ServoUrl
+}
 ;
 #
 [
@@ -204,7 +201,7 @@ ServoUrl
 >
 origin
 :
-Origin
+MutableOrigin
 is_html_document
 :
 IsHTMLDocument
@@ -277,7 +274,7 @@ ServoUrl
 >
 origin
 :
-Origin
+MutableOrigin
 doctype
 :
 IsHTMLDocument
