@@ -2880,12 +2880,6 @@ aRanges
 |
 !
 aNRanges
-|
-|
-aNRanges
-<
-=
-0
 )
 return
 E_INVALIDARG
