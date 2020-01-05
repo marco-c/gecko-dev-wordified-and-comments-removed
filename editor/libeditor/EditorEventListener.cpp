@@ -2904,6 +2904,16 @@ return
 rv
 ;
 }
+if
+(
+!
+mEditorBase
+)
+{
+return
+NS_OK
+;
+}
 mEditorBase
 -
 >
