@@ -1215,8 +1215,7 @@ aObject
 let
 text
 =
-'
-'
+null
 ;
 if
 (
