@@ -474,6 +474,7 @@ constellation_msg
 :
 {
 FrameType
+FrameId
 LoadData
 PipelineId
 TraversalDirection
@@ -635,6 +636,9 @@ HTMLIFrameElement
 htmlelement
 :
 HTMLElement
+frame_id
+:
+FrameId
 pipeline_id
 :
 Cell
@@ -1056,6 +1060,11 @@ global_scope
 pipeline_id
 (
 )
+frame_id
+:
+self
+.
+frame_id
 old_pipeline_id
 :
 old_pipeline_id
@@ -1349,6 +1358,14 @@ new_inherited
 local_name
 prefix
 document
+)
+frame_id
+:
+FrameId
+:
+:
+new
+(
 )
 pipeline_id
 :

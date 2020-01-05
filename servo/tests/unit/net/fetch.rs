@@ -201,8 +201,8 @@ constellation_msg
 :
 :
 {
-PipelineId
 ReferrerPolicy
+TEST_PIPELINE_ID
 }
 ;
 use
@@ -6806,16 +6806,6 @@ origin
 )
 ;
 let
-pipeline_id
-=
-PipelineId
-:
-:
-fake_root_pipeline_id
-(
-)
-;
-let
 request
 =
 Request
@@ -6835,7 +6825,7 @@ origin
 false
 Some
 (
-pipeline_id
+TEST_PIPELINE_ID
 )
 )
 ;
@@ -7129,7 +7119,7 @@ body
 None
 pipeline_id
 :
-pipeline_id
+TEST_PIPELINE_ID
 startedDateTime
 :
 devhttprequest
@@ -7243,7 +7233,7 @@ body
 None
 pipeline_id
 :
-pipeline_id
+TEST_PIPELINE_ID
 }
 ;
 assert_eq

@@ -173,6 +173,7 @@ constellation_msg
 {
 PipelineId
 ReferrerPolicy
+TEST_PIPELINE_ID
 }
 ;
 use
@@ -402,12 +403,7 @@ PipelineId
 {
 Some
 (
-PipelineId
-:
-:
-fake_root_pipeline_id
-(
-)
+TEST_PIPELINE_ID
 )
 }
 }
@@ -3165,16 +3161,6 @@ DevtoolsControlMsg
 )
 ;
 let
-pipeline_id
-=
-PipelineId
-:
-:
-fake_root_pipeline_id
-(
-)
-;
-let
 mut
 load_data
 =
@@ -3618,7 +3604,7 @@ body
 None
 pipeline_id
 :
-pipeline_id
+TEST_PIPELINE_ID
 startedDateTime
 :
 devhttprequest
@@ -3734,7 +3720,7 @@ body
 None
 pipeline_id
 :
-pipeline_id
+TEST_PIPELINE_ID
 }
 ;
 assert_eq
