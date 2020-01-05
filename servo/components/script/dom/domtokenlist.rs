@@ -181,10 +181,7 @@ Element
 >
 local_name
 :
-&
-'
-static
-str
+Atom
 }
 impl
 DOMTokenList
@@ -203,9 +200,7 @@ Element
 local_name
 :
 &
-'
-static
-str
+Atom
 )
 -
 >
@@ -233,6 +228,10 @@ element
 local_name
 :
 local_name
+.
+clone
+(
+)
 }
 }
 pub
@@ -249,9 +248,7 @@ Element
 local_name
 :
 &
-'
-static
-str
+Atom
 )
 -
 >
@@ -422,6 +419,7 @@ deref
 get_attribute
 (
 Null
+&
 self
 .
 local_name
@@ -618,6 +616,10 @@ tokens
 {
 tokens
 .
+iter
+(
+)
+.
 idx
 (
 index
@@ -763,6 +765,10 @@ slice
 )
 ;
 tokens
+.
+iter
+(
+)
 .
 any
 (
