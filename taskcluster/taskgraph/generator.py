@@ -1210,14 +1210,15 @@ full_task_set
 :
             
 for
-dep
 depname
+dep
 in
 t
 .
-get_dependencies
+dependencies
+.
+iteritems
 (
-full_task_set
 )
 :
                 

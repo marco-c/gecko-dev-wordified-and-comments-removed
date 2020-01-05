@@ -191,18 +191,6 @@ TransformTask
 :
     
 def
-get_dependencies
-(
-self
-taskgraph
-)
-:
-        
-return
-[
-]
-    
-def
 optimize
 (
 self
