@@ -72,6 +72,11 @@ mozilla
 org
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 promiseViewLoaded
 (
