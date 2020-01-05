@@ -517,6 +517,7 @@ TimerHandle
 next_timer_handle
 :
 i32
+priv
 extra
 :
 Untraceable
