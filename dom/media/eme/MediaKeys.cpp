@@ -3082,7 +3082,7 @@ AppendLiteral
 "
 (
 sid
-:
+=
 "
 )
 ;
@@ -3143,7 +3143,7 @@ AppendLiteral
 "
 (
 kid
-:
+=
 "
 )
 ;
@@ -3207,7 +3207,7 @@ AppendLiteral
 (
 "
 status
-:
+=
 "
 )
 ;

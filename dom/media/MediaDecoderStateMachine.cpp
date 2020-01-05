@@ -17263,6 +17263,9 @@ return
 nsPrintfCString
 (
 "
+MediaDecoderStateMachine
+State
+:
 GetMediaTime
 =
 %
@@ -17271,6 +17274,8 @@ PRId64
 "
 GetClock
 =
+"
+"
 %
 "
 PRId64
@@ -17279,8 +17284,6 @@ mMediaSink
 =
 %
 p
-"
-"
 state
 =
 %
@@ -17289,6 +17292,8 @@ mPlayState
 =
 %
 d
+"
+"
 mSentFirstFrameLoadedEvent
 =
 %
@@ -17297,12 +17302,12 @@ IsPlaying
 =
 %
 d
-"
-"
 mAudioStatus
 =
 %
 s
+"
+"
 mVideoStatus
 =
 %
@@ -17323,6 +17328,8 @@ mAudioCompleted
 =
 %
 d
+"
+"
 mVideoCompleted
 =
 %

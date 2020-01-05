@@ -8003,6 +8003,9 @@ return
 nsPrintfCString
 (
 "
+MediaDecoder
+State
+:
 channels
 =
 %
@@ -8019,6 +8022,8 @@ hasVideo
 =
 %
 d
+"
+"
 mPlayState
 =
 %
