@@ -127,6 +127,8 @@ Epoch
 FrameTreeId
 LayerId
 LayerKind
+LayerProperties
+PaintListener
 }
 ;
 use
@@ -137,8 +139,7 @@ compositor_msg
 :
 :
 {
-LayerProperties
-PaintListener
+ScrollPolicy
 }
 ;
 use
@@ -351,6 +352,10 @@ Arc
 <
 StackingContext
 >
+pub
+scroll_policy
+:
+ScrollPolicy
 }
 impl
 PaintLayer
@@ -371,6 +376,9 @@ Arc
 <
 StackingContext
 >
+scroll_policy
+:
+ScrollPolicy
 )
 -
 >
@@ -387,6 +395,9 @@ background_color
 stacking_context
 :
 stacking_context
+scroll_policy
+:
+scroll_policy
 }
 }
 pub
@@ -2182,6 +2193,13 @@ paint_layer
 stacking_context
 .
 scrolls_overflow_area
+subpage_layer_info
+:
+paint_layer
+.
+stacking_context
+.
+subpage_layer_info
 }
 )
 ;
