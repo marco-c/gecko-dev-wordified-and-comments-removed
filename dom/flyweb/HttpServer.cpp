@@ -5166,6 +5166,8 @@ aCountRead
 {
 nsresult
 rv
+=
+NS_OK
 ;
 while
 (
