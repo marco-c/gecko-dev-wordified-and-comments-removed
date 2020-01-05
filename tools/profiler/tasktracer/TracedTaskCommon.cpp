@@ -339,11 +339,9 @@ LogVirtualTablePtr
 (
 mTaskId
 mSourceEventId
-*
 reinterpret_cast
 <
 uintptr_t
-*
 *
 >
 (
