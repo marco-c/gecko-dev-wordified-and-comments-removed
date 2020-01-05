@@ -388,7 +388,6 @@ min_scm_level
 if
 scm_level
 <
-=
 min_scm_level
 :
                 

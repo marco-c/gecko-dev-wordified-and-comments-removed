@@ -107,6 +107,20 @@ safebrowsing
 .
 provider
 .
+google4
+.
+nextupdatetime
+'
+:
+1
+        
+'
+browser
+.
+safebrowsing
+.
+provider
+.
 google
 .
 nextupdatetime
@@ -465,8 +479,12 @@ self
 .
 safebrowsing_v4_files
 =
-[
-]
+self
+.
+get_safebrowsing_files
+(
+True
+)
     
 def
 tearDown
