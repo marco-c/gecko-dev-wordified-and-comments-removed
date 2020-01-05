@@ -2170,6 +2170,9 @@ window
 gBrowser
 )
 {
+let
+newTab
+=
 gBrowser
 .
 addTab
@@ -2183,6 +2186,13 @@ blank
 skipAnimation
 :
 true
+relatedBrowser
+:
+gBrowser
+.
+selectedTab
+.
+linkedBrowser
 }
 )
 ;
