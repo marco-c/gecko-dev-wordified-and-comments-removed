@@ -3085,10 +3085,6 @@ chooseAppCache
 NS_ShouldCheckAppCache
 (
 principal
-NS_UsePrivateBrowsing
-(
-mChannel
-)
 )
 ;
 appCacheChan
