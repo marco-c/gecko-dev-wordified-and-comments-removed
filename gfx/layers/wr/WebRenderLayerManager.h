@@ -219,6 +219,14 @@ VisibleBoundsRelativeToParent
 gfx
 :
 :
+Point
+GetOffsetToParent
+(
+)
+;
+gfx
+:
+:
 Rect
 TransformedVisibleBoundsRelativeToParent
 (
