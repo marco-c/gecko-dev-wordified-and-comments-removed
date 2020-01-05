@@ -1,11 +1,3 @@
-#
-!
-[
-feature
-(
-const_fn
-)
-]
 extern
 crate
 heapsize
