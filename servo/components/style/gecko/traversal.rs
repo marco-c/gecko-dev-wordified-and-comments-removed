@@ -185,12 +185,6 @@ ln
 >
 RestyleResult
 {
-node
-.
-initialize_data
-(
-)
-;
 recalc_style_at
 (
 &

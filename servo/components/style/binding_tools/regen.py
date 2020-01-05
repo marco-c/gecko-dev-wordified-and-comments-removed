@@ -407,11 +407,21 @@ raw_lines
 [
             
 "
-pub
-enum
-OpaqueStyleData
-{
-}
+use
+atomic_refcell
+:
+:
+AtomicRefCell
+;
+"
+            
+"
+use
+data
+:
+:
+NodeData
+;
 "
             
 "
@@ -1134,7 +1144,10 @@ servo
 "
 :
 "
-OpaqueStyleData
+AtomicRefCell
+<
+NodeData
+>
 "
             
 }
