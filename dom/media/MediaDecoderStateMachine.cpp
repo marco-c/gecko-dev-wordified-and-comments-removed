@@ -997,14 +997,11 @@ aDecodeStart
 {
 }
 virtual
-bool
+void
 HandleEndOfStream
 (
 )
 {
-return
-false
-;
 }
 virtual
 bool
@@ -2099,7 +2096,7 @@ MaybeFinishDecodeFirstFrame
 )
 ;
 }
-bool
+void
 HandleEndOfStream
 (
 )
@@ -2108,9 +2105,6 @@ override
 MaybeFinishDecodeFirstFrame
 (
 )
-;
-return
-true
 ;
 }
 RefPtr
@@ -2432,7 +2426,7 @@ aTarget
 )
 override
 ;
-bool
+void
 HandleEndOfStream
 (
 )
@@ -4056,7 +4050,7 @@ ScheduleStateMachine
 )
 ;
 }
-bool
+void
 HandleEndOfStream
 (
 )
@@ -6127,7 +6121,7 @@ seekJob
 )
 ;
 }
-bool
+void
 MediaDecoderStateMachine
 :
 :
@@ -6163,9 +6157,6 @@ MaybeStopPrerolling
 )
 ;
 }
-return
-true
-;
 }
 void
 MediaDecoderStateMachine
@@ -7124,7 +7115,7 @@ DecodingState
 )
 ;
 }
-bool
+void
 MediaDecoderStateMachine
 :
 :
@@ -7163,9 +7154,6 @@ ScheduleStateMachine
 )
 ;
 }
-return
-true
-;
 }
 RefPtr
 <
