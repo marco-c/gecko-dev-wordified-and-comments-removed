@@ -4448,14 +4448,14 @@ RESPATH
 /
 components
 /
-MarionetteComponents
+marionette
 .
 manifest
 RESPATH
 /
 components
 /
-marionettecomponent
+marionette
 .
 js
 #

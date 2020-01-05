@@ -3265,14 +3265,14 @@ BINPATH
 /
 components
 /
-MarionetteComponents
+marionette
 .
 manifest
 BINPATH
 /
 components
 /
-marionettecomponent
+marionette
 .
 js
 #
