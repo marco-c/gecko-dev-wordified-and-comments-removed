@@ -99,7 +99,7 @@ Instance
 (
 )
 ;
-void
+nsresult
 Register
 (
 MediaDecoder
