@@ -78,7 +78,7 @@ geom
 [
 dependencies
 .
-http
+hyper
 ]
 git
 =
@@ -93,9 +93,7 @@ com
 /
 servo
 /
-rust
--
-http
+hyper
 "
 branch
 =

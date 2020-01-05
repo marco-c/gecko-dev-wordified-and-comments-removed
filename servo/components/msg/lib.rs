@@ -24,7 +24,7 @@ geom
 ;
 extern
 crate
-http
+hyper
 ;
 extern
 crate

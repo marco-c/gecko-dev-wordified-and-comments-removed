@@ -261,7 +261,7 @@ window_from_node
 }
 ;
 use
-http
+hyper
 :
 :
 method
