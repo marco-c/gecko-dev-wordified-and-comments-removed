@@ -845,8 +845,13 @@ this
 .
 overlay
 .
-remove
+parentNode
+.
+removeChild
 (
+this
+.
+overlay
 )
 ;
 }
