@@ -287,12 +287,6 @@ private
 boolean
 onAttachedToWindowCalled
 ;
-private
-int
-screenId
-=
-0
-;
 Override
 public
 void
@@ -743,8 +737,6 @@ int
 width
 int
 height
-int
-screenId
 )
 ;
 Override
@@ -1244,7 +1236,6 @@ widthPixels
 metrics
 .
 heightPixels
-screenId
 )
 ;
 }
@@ -1286,7 +1277,6 @@ widthPixels
 metrics
 .
 heightPixels
-screenId
 )
 ;
 }
