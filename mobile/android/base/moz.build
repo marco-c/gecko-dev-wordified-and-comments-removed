@@ -5046,6 +5046,13 @@ java
 '
 tabs
 /
+TabsLayout
+.
+java
+'
+'
+tabs
+/
 TabsLayoutAdapter
 .
 java
@@ -5054,6 +5061,13 @@ java
 tabs
 /
 TabsLayoutItemView
+.
+java
+'
+'
+tabs
+/
+TabsLayoutRecyclerAdapter
 .
 java
 '
