@@ -2952,6 +2952,11 @@ MaybeDoLoad
 (
 )
 ;
+void
+UpdateCustomPolicyAfterPlayed
+(
+)
+;
 class
 nsAsyncEventRunner
 ;
