@@ -127,13 +127,6 @@ DocumentAssociationMode
 aAssociationMode
 )
 ;
-ServoStyleSheet
-*
-GetParentSheet
-(
-)
-const
-;
 void
 AppendStyleSheet
 (

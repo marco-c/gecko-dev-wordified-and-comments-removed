@@ -395,13 +395,6 @@ HasRules
 )
 const
 ;
-CSSStyleSheet
-*
-GetParentSheet
-(
-)
-const
-;
 void
 SetAssociatedDocument
 (
@@ -923,10 +916,6 @@ RefPtr
 CSSStyleSheet
 >
 mNext
-;
-CSSStyleSheet
-*
-mParent
 ;
 css
 :

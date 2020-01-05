@@ -94,6 +94,10 @@ SheetParsingMode
 aParsingMode
 )
 :
+mParent
+(
+nullptr
+)
 mDocument
 (
 nullptr
@@ -137,6 +141,10 @@ nsINode
 aOwningNodeToUse
 )
 :
+mParent
+(
+nullptr
+)
 mTitle
 (
 aCopy
