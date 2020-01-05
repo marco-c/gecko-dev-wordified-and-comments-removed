@@ -1326,12 +1326,13 @@ JSFunction
 if
 (
 !
-fun
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+fun
 )
 )
 return

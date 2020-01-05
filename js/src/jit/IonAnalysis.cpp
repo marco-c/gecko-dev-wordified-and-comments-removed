@@ -22522,8 +22522,7 @@ AnalyzeNewScriptDefiniteProperties
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 ObjectGroup
 *
@@ -22560,12 +22559,13 @@ RootedScript
 script
 (
 cx
-fun
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+fun
 )
 )
 ;

@@ -769,12 +769,13 @@ fun
 return
 !
 !
-fun
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+fun
 )
 ;
 }

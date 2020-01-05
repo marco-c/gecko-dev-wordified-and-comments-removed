@@ -4606,12 +4606,13 @@ script_
 {
 script_
 =
-fun_
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+fun_
 )
 ;
 if

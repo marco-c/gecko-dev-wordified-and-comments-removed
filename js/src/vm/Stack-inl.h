@@ -1752,12 +1752,13 @@ RootedScript
 script
 (
 cx
-callee
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+callee
 )
 )
 ;

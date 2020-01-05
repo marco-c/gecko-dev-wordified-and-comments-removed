@@ -19913,6 +19913,15 @@ templateObject
 )
 )
 ;
+RootedFunction
+fun
+(
+cx
+function
+(
+)
+)
+;
 if
 (
 !
@@ -19922,9 +19931,7 @@ jit
 AnalyzeNewScriptDefiniteProperties
 (
 cx
-function
-(
-)
+fun
 group
 templateRoot
 &
