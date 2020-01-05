@@ -117,15 +117,11 @@ aEmulatedWindowCOMProxy
 override
 ;
 HWND
-GetEmulatedWindowHandle
+GetNativeWindowHandle
 (
 )
 const
-{
-return
-mEmulatedWindowHandle
 ;
-}
 IAccessible
 *
 GetEmulatedWindowIAccessible
