@@ -453,7 +453,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 msg
 :
 &
@@ -479,9 +479,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "
