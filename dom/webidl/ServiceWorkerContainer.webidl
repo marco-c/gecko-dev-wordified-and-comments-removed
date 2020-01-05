@@ -299,5 +299,8 @@ RegistrationOptions
 USVString
 scope
 ;
+boolean
+useCache
+;
 }
 ;
