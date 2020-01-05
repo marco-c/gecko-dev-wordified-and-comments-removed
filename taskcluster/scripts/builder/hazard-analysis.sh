@@ -96,6 +96,11 @@ check_commit_msg
 (
 )
 {
+(
+set
++
+e
+;
 if
 [
 [
@@ -159,6 +164,7 @@ q
 1
 "
 fi
+)
 }
 if
 check_commit_msg
