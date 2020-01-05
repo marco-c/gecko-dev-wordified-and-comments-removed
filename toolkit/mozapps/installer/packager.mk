@@ -548,6 +548,12 @@ dupes
 .
 py
 (
+DEFINES
+)
+(
+ACDEFINES
+)
+(
 MOZ_PKG_DUPEFLAGS
 )
 (
