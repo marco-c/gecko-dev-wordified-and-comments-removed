@@ -342,6 +342,16 @@ aValue
 ;
 inline
 void
+SetLengthValue
+(
+nsCSSPropertyID
+aId
+nsCSSValue
+aValue
+)
+;
+inline
+void
 SetNumberValue
 (
 nsCSSPropertyID

@@ -170,6 +170,15 @@ aValue
 }
 }
 void
+SetLengthValue
+(
+nsCSSPropertyID
+aId
+nsCSSValue
+aValue
+)
+;
+void
 SetNumberValue
 (
 nsCSSPropertyID
