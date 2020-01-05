@@ -3379,6 +3379,7 @@ Clone
 Eq
 Copy
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -4251,6 +4252,7 @@ derive
 PartialEq
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -5059,6 +5061,7 @@ derive
 PartialEq
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -5827,6 +5830,7 @@ derive
 Clone
 Copy
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -6147,6 +6151,7 @@ derive
 PartialEq
 Eq
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -6574,6 +6579,7 @@ derive
 PartialEq
 Eq
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -7743,6 +7749,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -8093,6 +8100,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -8625,6 +8633,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -9200,6 +9209,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -9667,6 +9677,7 @@ PartialEq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -10513,6 +10524,7 @@ derive
 PartialEq
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -10535,6 +10547,7 @@ derive
 PartialEq
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -11714,6 +11727,7 @@ PartialEq
 Eq
 Clone
 Hash
+HeapSizeOf
 )
 ]
 pub
@@ -11952,6 +11966,7 @@ Clone
 PartialEq
 Eq
 Hash
+HeapSizeOf
 )
 ]
 pub
@@ -12777,6 +12792,7 @@ Clone
 Hash
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -14564,6 +14580,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -14981,6 +14998,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -15495,6 +15513,7 @@ Eq
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -16159,6 +16178,7 @@ Clone
 PartialEq
 Copy
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -16782,6 +16802,7 @@ Copy
 Debug
 PartialEq
 RustcEncodable
+HeapSizeOf
 )
 ]
 pub
@@ -17536,6 +17557,7 @@ PartialEq
 Eq
 Copy
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -17957,6 +17979,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -18363,6 +18386,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -18801,6 +18825,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -19779,6 +19804,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -19799,6 +19825,7 @@ derive
 Clone
 PartialEq
 Copy
+HeapSizeOf
 )
 ]
 pub
@@ -20900,6 +20927,7 @@ PartialEq
 Eq
 Copy
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -20935,6 +20963,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -22153,6 +22182,7 @@ derive
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -22173,6 +22203,7 @@ derive
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -25351,6 +25382,7 @@ Clone
 Copy
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -25526,6 +25558,7 @@ derive
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -25587,6 +25620,7 @@ derive
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -28781,6 +28815,7 @@ Clone
 Copy
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -29703,6 +29738,7 @@ Clone
 Copy
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -30933,6 +30969,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -31576,6 +31613,7 @@ Copy
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -31839,6 +31877,7 @@ Copy
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -31923,6 +31962,7 @@ derive
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -32739,6 +32779,7 @@ Copy
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -33760,6 +33801,7 @@ derive
 Clone
 Debug
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -41434,6 +41476,7 @@ derive
 (
 PartialEq
 Clone
+HeapSizeOf
 )
 ]
 pub
@@ -41501,6 +41544,7 @@ endfor
 derive
 (
 Clone
+HeapSizeOf
 )
 ]
 pub

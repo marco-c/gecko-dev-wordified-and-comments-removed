@@ -2923,6 +2923,7 @@ JSTraceable
 Copy
 Clone
 Debug
+HeapSizeOf
 )
 ]
 pub

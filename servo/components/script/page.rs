@@ -87,6 +87,7 @@ Rc
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #
@@ -698,6 +699,7 @@ frame
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #

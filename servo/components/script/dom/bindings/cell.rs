@@ -55,6 +55,7 @@ RefMut
 derive
 (
 Clone
+HeapSizeOf
 )
 ]
 pub
