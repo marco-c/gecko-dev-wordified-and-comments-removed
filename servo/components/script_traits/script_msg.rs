@@ -263,6 +263,14 @@ String
 RemoveIFrame
 (
 PipelineId
+Option
+<
+IpcSender
+<
+(
+)
+>
+>
 )
 ScriptLoadedURLInIFrame
 (

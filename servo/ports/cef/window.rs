@@ -2191,16 +2191,8 @@ new
 fn
 create_compositor_channel
 (
-_
-:
 &
-Option
-<
-Rc
-<
-Window
->
->
+self
 )
 -
 >
