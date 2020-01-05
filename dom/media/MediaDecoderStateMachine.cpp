@@ -7074,7 +7074,6 @@ shouldBuffer
 =
 HasLowDecodedData
 (
-EXHAUSTED_DATA_MARGIN_USECS
 )
 &
 &
@@ -10825,8 +10824,6 @@ MediaDecoderStateMachine
 :
 HasLowDecodedData
 (
-int64_t
-aAudioUsecs
 )
 {
 MOZ_ASSERT
@@ -10848,7 +10845,6 @@ UseBufferingHeuristics
 ;
 return
 (
-(
 IsAudioDecoding
 (
 )
@@ -10858,7 +10854,7 @@ GetDecodedAudioDuration
 (
 )
 <
-aAudioUsecs
+EXHAUSTED_DATA_MARGIN_USECS
 )
 |
 |
@@ -10883,7 +10879,6 @@ GetSize
 )
 <
 LOW_VIDEO_FRAMES
-)
 )
 ;
 }

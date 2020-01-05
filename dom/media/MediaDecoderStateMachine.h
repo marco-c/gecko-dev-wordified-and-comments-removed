@@ -1015,8 +1015,6 @@ NeedToDecodeVideo
 bool
 HasLowDecodedData
 (
-int64_t
-aAudioUsecs
 )
 ;
 bool
