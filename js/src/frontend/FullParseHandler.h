@@ -1730,6 +1730,10 @@ heritage
 ParseNode
 *
 methodBlock
+const
+TokenPos
+&
+pos
 )
 {
 return
@@ -1741,6 +1745,7 @@ ClassNode
 name
 heritage
 methodBlock
+pos
 )
 ;
 }
