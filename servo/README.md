@@ -210,7 +210,7 @@ devel
 libX11
 -
 devel
-libXRandr
+libXrandr
 -
 devel
 gperf
