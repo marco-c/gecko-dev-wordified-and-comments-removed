@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 dynamic
@@ -31,7 +30,6 @@ text
 1a
 .
 html
-fails
 =
 =
 dynamic
@@ -48,7 +46,6 @@ text
 1b
 .
 html
-fails
 =
 =
 extend
@@ -65,7 +62,6 @@ extend
 sanity
 .
 html
-fails
 =
 =
 extend
@@ -78,7 +74,6 @@ extend
 1a
 .
 html
-fails
 =
 =
 extend
@@ -91,7 +86,6 @@ extend
 1b
 .
 html
-fails
 =
 =
 extend
@@ -104,7 +98,6 @@ extend
 1c
 .
 html
-fails
 =
 =
 extend
@@ -117,7 +110,6 @@ extend
 1d
 .
 html
-fails
 =
 =
 extend
@@ -130,7 +122,6 @@ extend
 1e
 .
 html
-fails
 =
 =
 extend
@@ -143,7 +134,6 @@ extend
 1f
 .
 html
-fails
 =
 =
 extend
@@ -156,7 +146,6 @@ extend
 1g
 .
 html
-fails
 =
 =
 extend
@@ -169,7 +158,6 @@ extend
 1h
 .
 html
-fails
 =
 =
 extend
@@ -182,7 +170,6 @@ extend
 1i
 .
 html
-fails
 =
 =
 extend
@@ -195,7 +182,6 @@ extend
 2a
 .
 html
-fails
 =
 =
 extend
@@ -522,7 +508,6 @@ themed
 widget
 .
 html
-fails
 =
 =
 addrange
@@ -535,7 +520,6 @@ addrange
 1
 .
 html
-fails
 =
 =
 addrange
@@ -587,7 +571,6 @@ dom
 mutations
 .
 html
-fails
 =
 =
 trailing

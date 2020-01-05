@@ -111,7 +111,6 @@ min
 width
 .
 html
-fails
 =
 =
 pref
@@ -124,7 +123,6 @@ pref
 width
 .
 html
-fails
 =
 =
 min
@@ -456,7 +454,6 @@ widths
 5
 .
 html
-fails
 =
 =
 conflicting
@@ -507,7 +504,6 @@ widths
 8
 .
 html
-fails
 =
 =
 conflicting
@@ -524,7 +520,6 @@ widths
 9
 .
 html
-fails
 =
 =
 conflicting
@@ -562,7 +557,6 @@ widths
 1
 .
 html
-fails
 =
 =
 conflicting
@@ -583,7 +577,6 @@ widths
 2
 .
 html
-fails
 =
 =
 conflicting
@@ -833,7 +826,6 @@ distribution
 1
 .
 html
-fails
 =
 =
 colspan
@@ -1146,7 +1138,6 @@ column
 4
 .
 html
-fails
 =
 =
 dynamic
@@ -1167,7 +1158,6 @@ layout
 1
 .
 html
-fails
 =
 =
 cell

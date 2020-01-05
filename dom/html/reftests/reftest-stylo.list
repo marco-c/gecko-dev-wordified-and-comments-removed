@@ -162,7 +162,7 @@ html
 1c
 .
 html
-fails
+#
 =
 =
 468263
@@ -214,7 +214,7 @@ html
 1
 .
 html
-fails
+#
 =
 =
 485377
@@ -338,7 +338,6 @@ html
 610935
 .
 html
-fails
 =
 =
 649134
@@ -351,7 +350,7 @@ html
 1
 .
 html
-fails
+#
 =
 =
 649134
@@ -403,7 +402,7 @@ bug448564
 1_malformed
 .
 html
-fails
+#
 =
 =
 bug448564
@@ -416,7 +415,7 @@ bug448564
 4a
 .
 html
-fails
+#
 =
 =
 bug502168
@@ -429,7 +428,7 @@ bug502168
 1_malformed
 .
 html
-fails
+#
 =
 =
 responsive
@@ -635,7 +634,7 @@ change
 restyles
 .
 html
-fails
+#
 =
 =
 figure
@@ -657,7 +656,7 @@ pre
 1
 .
 html
-fails
+#
 =
 =
 table

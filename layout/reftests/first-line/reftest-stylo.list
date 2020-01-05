@@ -149,7 +149,6 @@ style
 1
 .
 html
-fails
 =
 =
 parent
@@ -166,7 +165,6 @@ style
 2
 .
 html
-fails
 =
 =
 parent
@@ -194,7 +192,6 @@ stress
 1
 .
 html
-fails
 =
 =
 stress
@@ -238,7 +235,6 @@ stress
 7
 .
 html
-fails
 =
 =
 stress
@@ -251,7 +247,6 @@ stress
 8
 .
 html
-fails
 =
 =
 stress
@@ -270,7 +265,6 @@ stress
 10
 .
 html
-fails
 =
 =
 stress

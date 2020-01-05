@@ -131,7 +131,6 @@ basic
 opacity
 .
 html
-fails
 =
 =
 blur
@@ -153,7 +152,6 @@ color
 inherit
 .
 html
-fails
 =
 =
 color
@@ -238,7 +236,6 @@ padding
 decoration
 .
 html
-fails
 =
 =
 textindent
@@ -247,7 +244,6 @@ html
 textindent
 .
 html
-fails
 =
 =
 lineoverflow
@@ -298,7 +294,6 @@ scrollable
 1
 .
 html
-fails
 =
 =
 overflow
@@ -408,7 +403,6 @@ html
 #
 bug
 692744
-fails
 =
 =
 text

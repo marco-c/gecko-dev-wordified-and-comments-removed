@@ -73,7 +73,6 @@ color
 quirks
 .
 html
-fails
 =
 =
 decoration
@@ -107,7 +106,6 @@ style
 quirks
 .
 html
-fails
 =
 =
 decoration
@@ -530,7 +528,6 @@ wavy
 quirks
 .
 html
-fails
 =
 =
 line
@@ -559,7 +556,6 @@ solid
 standards
 .
 html
-fails
 =
 =
 line
@@ -588,7 +584,6 @@ dotted
 standards
 .
 html
-fails
 =
 =
 line
@@ -617,7 +612,6 @@ dashed
 standards
 .
 html
-fails
 =
 =
 line
@@ -646,7 +640,6 @@ double
 standards
 .
 html
-fails
 =
 =
 line
@@ -675,7 +668,6 @@ wavy
 standards
 .
 html
-fails
 =
 =
 line
@@ -704,7 +696,6 @@ solid
 standards
 .
 html
-fails
 =
 =
 line
@@ -733,7 +724,6 @@ dotted
 standards
 .
 html
-fails
 =
 =
 line
@@ -762,7 +752,6 @@ dashed
 standards
 .
 html
-fails
 =
 =
 line
@@ -791,7 +780,6 @@ double
 standards
 .
 html
-fails
 =
 =
 line
@@ -1070,7 +1058,6 @@ wavy
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -1095,7 +1082,6 @@ solid
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1120,7 +1106,6 @@ dotted
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1145,7 +1130,6 @@ dashed
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1170,7 +1154,6 @@ double
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1195,7 +1178,6 @@ wavy
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1220,7 +1202,6 @@ solid
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1245,7 +1226,6 @@ dotted
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1270,7 +1250,6 @@ dashed
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1295,7 +1274,6 @@ double
 standards
 .
 html
-fails
 =
 =
 overline
@@ -1570,7 +1548,6 @@ wavy
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1595,7 +1572,6 @@ solid
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1620,7 +1596,6 @@ dotted
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1645,7 +1620,6 @@ dashed
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1670,7 +1644,6 @@ double
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1695,7 +1668,6 @@ wavy
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1720,7 +1692,6 @@ solid
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1745,7 +1716,6 @@ dotted
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1770,7 +1740,6 @@ dashed
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1795,7 +1764,6 @@ double
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1980,7 +1948,6 @@ cell
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -2186,7 +2153,6 @@ cell
 standards
 .
 html
-fails
 =
 =
 underline
@@ -2280,7 +2246,6 @@ zorder
 quirks
 .
 html
-fails
 =
 =
 table
@@ -2339,7 +2304,6 @@ propagation
 quirks
 .
 html
-fails
 =
 =
 text
@@ -2432,7 +2396,6 @@ override
 standards
 .
 html
-fails
 =
 =
 decoration
@@ -2457,7 +2420,6 @@ standards
 ref
 .
 html
-fails
 =
 =
 decoration
@@ -2474,7 +2436,6 @@ css21
 block
 .
 html
-fails
 =
 =
 inline
@@ -2512,7 +2473,6 @@ baseline
 quirks
 .
 html
-fails
 =
 =
 676538
@@ -2602,7 +2562,6 @@ html
 1133392
 .
 html
-fails
 =
 =
 1159729

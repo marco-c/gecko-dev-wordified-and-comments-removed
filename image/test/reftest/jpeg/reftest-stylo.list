@@ -23,7 +23,6 @@ of
 various
 sizes
 .
-fails
 =
 =
 jpg
@@ -40,7 +39,6 @@ size
 1x1
 .
 jpg
-fails
 =
 =
 jpg
@@ -57,7 +55,6 @@ size
 2x2
 .
 jpg
-fails
 =
 =
 jpg
@@ -74,7 +71,6 @@ size
 3x3
 .
 jpg
-fails
 =
 =
 jpg
@@ -91,7 +87,6 @@ size
 4x4
 .
 jpg
-fails
 =
 =
 jpg
@@ -108,7 +103,6 @@ size
 5x5
 .
 jpg
-fails
 =
 =
 jpg
@@ -125,7 +119,6 @@ size
 6x6
 .
 jpg
-fails
 =
 =
 jpg
@@ -142,7 +135,6 @@ size
 7x7
 .
 jpg
-fails
 =
 =
 jpg
@@ -159,7 +151,6 @@ size
 8x8
 .
 jpg
-fails
 =
 =
 jpg
@@ -176,7 +167,6 @@ size
 9x9
 .
 jpg
-fails
 =
 =
 jpg
@@ -193,7 +183,6 @@ size
 15x15
 .
 jpg
-fails
 =
 =
 jpg
@@ -210,7 +199,6 @@ size
 16x16
 .
 jpg
-fails
 =
 =
 jpg
@@ -227,7 +215,6 @@ size
 17x17
 .
 jpg
-fails
 =
 =
 jpg
@@ -244,7 +231,6 @@ size
 31x31
 .
 jpg
-fails
 =
 =
 jpg
@@ -261,7 +247,6 @@ size
 32x32
 .
 jpg
-fails
 =
 =
 jpg
@@ -281,7 +266,6 @@ jpg
 #
 Progressive
 encoding
-fails
 =
 =
 jpg
@@ -297,7 +281,6 @@ jpg
 #
 Grayscale
 colorspace
-fails
 =
 =
 jpg
@@ -313,7 +296,6 @@ jpg
 #
 CMYK
 colorspace
-fails
 =
 =
 jpg
@@ -330,7 +312,6 @@ cmyk
 1
 .
 jpg
-fails
 =
 =
 jpg
@@ -400,7 +381,6 @@ bit
 colour
 (
 bug
-fails
 =
 =
 jpg
@@ -650,7 +630,6 @@ parts
 .
 "
 )
-fails
 HTTP
 =
 =

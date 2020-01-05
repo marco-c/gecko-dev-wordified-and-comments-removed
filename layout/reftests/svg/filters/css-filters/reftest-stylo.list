@@ -49,7 +49,6 @@ filters
 enabled
 true
 )
-fails
 =
 =
 blur
@@ -66,7 +65,6 @@ svg
 blur
 .
 svg
-fails
 =
 =
 blur
@@ -79,7 +77,6 @@ blur
 calc
 .
 html
-fails
 =
 =
 blur
@@ -96,7 +93,6 @@ calc
 negative
 .
 html
-fails
 =
 =
 blur
@@ -125,7 +121,6 @@ on
 software
 .
 html
-fails
 =
 =
 blur
@@ -142,7 +137,6 @@ em
 radius
 .
 html
-fails
 =
 =
 blur
@@ -159,7 +153,6 @@ invalid
 radius
 .
 html
-fails
 =
 =
 blur
@@ -176,7 +169,6 @@ rem
 radius
 .
 html
-fails
 =
 =
 blur
@@ -209,7 +201,6 @@ zoomed
 page
 .
 html
-fails
 =
 =
 brightness
@@ -218,7 +209,6 @@ html
 brightness
 .
 html
-fails
 =
 =
 brightness
@@ -231,7 +221,6 @@ brightness
 darken
 .
 html
-fails
 =
 =
 brightness
@@ -244,7 +233,6 @@ brightness
 extreme
 .
 html
-fails
 =
 =
 brightness
@@ -257,7 +245,6 @@ brightness
 one
 .
 html
-fails
 =
 =
 brightness
@@ -270,7 +257,6 @@ brightness
 percent
 .
 html
-fails
 =
 =
 brightness
@@ -299,7 +285,6 @@ block
 1
 .
 html
-fails
 =
 =
 contrast
@@ -308,7 +293,6 @@ html
 contrast
 .
 html
-fails
 =
 =
 contrast
@@ -321,7 +305,6 @@ contrast
 extreme
 .
 html
-fails
 =
 =
 contrast
@@ -334,7 +317,6 @@ contrast
 one
 .
 html
-fails
 =
 =
 contrast
@@ -347,7 +329,6 @@ contrast
 percent
 .
 html
-fails
 =
 =
 contrast
@@ -360,7 +341,6 @@ contrast
 reduce
 .
 html
-fails
 =
 =
 contrast
@@ -373,7 +353,7 @@ contrast
 zero
 .
 html
-fails
+#
 =
 =
 drop
@@ -386,7 +366,6 @@ drop
 shadow
 .
 html
-fails
 =
 =
 drop
@@ -407,7 +386,6 @@ default
 color
 .
 html
-fails
 =
 =
 drop
@@ -428,7 +406,6 @@ negative
 offset
 .
 html
-fails
 =
 =
 grayscale
@@ -437,7 +414,6 @@ html
 grayscale
 .
 html
-fails
 =
 =
 grayscale
@@ -450,7 +426,6 @@ grayscale
 one
 .
 html
-fails
 =
 =
 grayscale
@@ -467,7 +442,6 @@ over
 one
 .
 html
-fails
 =
 =
 grayscale
@@ -480,7 +454,6 @@ grayscale
 percent
 .
 html
-fails
 =
 =
 grayscale
@@ -493,7 +466,6 @@ grayscale
 zero
 .
 html
-fails
 =
 =
 hue
@@ -506,7 +478,6 @@ hue
 rotate
 .
 html
-fails
 =
 =
 hue
@@ -523,7 +494,6 @@ rotate
 360
 .
 html
-fails
 =
 =
 hue
@@ -540,7 +510,6 @@ rotate
 grad
 .
 html
-fails
 =
 =
 hue
@@ -557,7 +526,6 @@ rotate
 multichannel
 .
 html
-fails
 =
 =
 hue
@@ -574,7 +542,6 @@ rotate
 negative
 .
 html
-fails
 =
 =
 hue
@@ -595,7 +562,6 @@ over
 360
 .
 html
-fails
 =
 =
 hue
@@ -612,7 +578,6 @@ rotate
 rad
 .
 html
-fails
 =
 =
 hue
@@ -629,7 +594,6 @@ rotate
 turn
 .
 html
-fails
 =
 =
 hue
@@ -646,7 +610,6 @@ rotate
 zero
 .
 html
-fails
 =
 =
 invert
@@ -655,7 +618,6 @@ html
 invert
 .
 html
-fails
 =
 =
 invert
@@ -668,7 +630,6 @@ invert
 half
 .
 html
-fails
 =
 =
 invert
@@ -681,7 +642,6 @@ invert
 one
 .
 html
-fails
 =
 =
 invert
@@ -698,7 +658,6 @@ over
 one
 .
 html
-fails
 =
 =
 invert
@@ -711,7 +670,6 @@ invert
 percent
 .
 html
-fails
 =
 =
 invert
@@ -724,7 +682,6 @@ invert
 zero
 .
 html
-fails
 =
 =
 opacity
@@ -733,7 +690,6 @@ html
 opacity
 .
 html
-fails
 =
 =
 opacity
@@ -746,7 +702,6 @@ opacity
 one
 .
 html
-fails
 =
 =
 opacity
@@ -763,7 +718,6 @@ over
 one
 .
 html
-fails
 =
 =
 opacity
@@ -788,7 +742,6 @@ translucent
 source
 .
 html
-fails
 =
 =
 opacity
@@ -801,7 +754,6 @@ opacity
 percent
 .
 html
-fails
 =
 =
 opacity
@@ -814,7 +766,6 @@ opacity
 zero
 .
 html
-fails
 =
 =
 saturate
@@ -823,7 +774,6 @@ html
 saturate
 .
 html
-fails
 =
 =
 saturate
@@ -836,7 +786,6 @@ saturate
 desaturate
 .
 html
-fails
 =
 =
 saturate
@@ -849,7 +798,6 @@ saturate
 extreme
 .
 html
-fails
 =
 =
 saturate
@@ -862,7 +810,6 @@ saturate
 one
 .
 html
-fails
 =
 =
 saturate
@@ -875,7 +822,6 @@ saturate
 percent
 .
 html
-fails
 =
 =
 saturate
@@ -888,7 +834,6 @@ saturate
 zero
 .
 html
-fails
 =
 =
 sepia
@@ -897,7 +842,6 @@ html
 sepia
 .
 html
-fails
 =
 =
 sepia
@@ -910,7 +854,6 @@ sepia
 one
 .
 html
-fails
 =
 =
 sepia
@@ -927,7 +870,6 @@ over
 one
 .
 html
-fails
 =
 =
 sepia
@@ -940,7 +882,6 @@ sepia
 percent
 .
 html
-fails
 =
 =
 sepia

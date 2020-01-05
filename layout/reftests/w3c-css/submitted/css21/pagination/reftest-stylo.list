@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 moz
@@ -51,7 +50,6 @@ avoid
 1
 .
 html
-fails
 =
 =
 moz
@@ -88,7 +86,6 @@ avoid
 2
 .
 html
-fails
 =
 =
 moz
@@ -125,7 +122,6 @@ avoid
 3
 .
 html
-fails
 =
 =
 moz
@@ -162,7 +158,6 @@ avoid
 4
 .
 html
-fails
 =
 =
 moz
@@ -199,7 +194,6 @@ avoid
 5
 .
 html
-fails
 =
 =
 moz
@@ -236,7 +230,6 @@ avoid
 6
 .
 html
-fails
 =
 =
 moz
@@ -273,7 +266,6 @@ avoid
 7
 .
 html
-fails
 =
 =
 moz
@@ -310,7 +302,6 @@ avoid
 8
 .
 html
-fails
 =
 =
 moz
@@ -347,7 +338,6 @@ avoid
 9
 .
 html
-fails
 =
 =
 moz
@@ -421,7 +411,6 @@ avoid
 11
 .
 html
-fails
 =
 =
 moz
@@ -458,7 +447,6 @@ avoid
 12
 .
 html
-fails
 =
 =
 moz
@@ -495,7 +483,6 @@ avoid
 13
 .
 html
-fails
 =
 =
 moz
@@ -569,7 +556,6 @@ avoid
 15
 .
 html
-fails
 =
 =
 moz
@@ -680,7 +666,6 @@ avoid
 3
 .
 html
-fails
 =
 =
 moz
@@ -865,7 +850,6 @@ avoid
 8
 .
 html
-fails
 =
 =
 moz
@@ -902,7 +886,6 @@ avoid
 1
 .
 html
-fails
 =
 =
 moz
@@ -939,7 +922,6 @@ avoid
 2
 .
 html
-fails
 =
 =
 moz
@@ -976,7 +958,6 @@ avoid
 3
 .
 html
-fails
 =
 =
 moz
@@ -1193,7 +1174,6 @@ avoid
 9
 .
 html
-fails
 =
 =
 moz
@@ -1230,7 +1210,6 @@ avoid
 1
 .
 html
-fails
 =
 =
 moz
@@ -1267,7 +1246,6 @@ avoid
 2
 .
 html
-fails
 =
 =
 moz
@@ -1563,7 +1541,6 @@ avoid
 2
 .
 html
-fails
 =
 =
 moz

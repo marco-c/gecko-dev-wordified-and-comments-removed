@@ -23,7 +23,6 @@ Images
 of
 various
 sizes
-fails
 =
 =
 bmp
@@ -44,7 +43,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -65,7 +63,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -86,7 +83,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -107,7 +103,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -128,7 +123,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -149,7 +143,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -170,7 +163,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -191,7 +183,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -212,7 +203,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -233,7 +223,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -254,7 +243,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -275,7 +263,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -296,7 +283,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -317,7 +303,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -338,7 +323,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 bmp
@@ -359,7 +343,6 @@ square
 8bpp
 .
 bmp
-fails
 =
 =
 rle
@@ -384,7 +367,6 @@ square
 8bpp
 .
 bmp
-fails
 =
 =
 os2
@@ -409,7 +391,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 rle
@@ -434,7 +415,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 top
@@ -471,7 +451,6 @@ size
 8bpp
 .
 bmp
-fails
 =
 =
 top

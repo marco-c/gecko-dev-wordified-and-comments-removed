@@ -104,7 +104,6 @@ devanagari
 3b
 .
 html
-fails
 HTTP
 (
 .
@@ -212,7 +211,6 @@ gujarati
 3b
 .
 html
-fails
 HTTP
 (
 .
@@ -374,7 +372,6 @@ bengali
 3c
 .
 html
-fails
 =
 =
 686225
@@ -395,7 +392,6 @@ bangla
 aat
 .
 html
-fails
 =
 =
 686225

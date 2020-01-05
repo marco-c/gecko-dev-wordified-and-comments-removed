@@ -302,7 +302,6 @@ breaking
 010
 .
 html
-fails
 =
 =
 abspos
@@ -319,7 +318,6 @@ breaking
 011
 .
 html
-fails
 =
 =
 abspos
@@ -336,7 +334,6 @@ overflow
 01
 .
 xhtml
-fails
 =
 =
 abspos
@@ -462,7 +459,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 content
@@ -479,7 +475,6 @@ inserted
 000
 .
 xhtml
-fails
 =
 =
 content
@@ -496,7 +491,6 @@ inserted
 001
 .
 xhtml
-fails
 =
 =
 content
@@ -513,7 +507,6 @@ inserted
 002
 .
 xhtml
-fails
 =
 =
 content
@@ -530,7 +523,6 @@ inserted
 003
 .
 xhtml
-fails
 =
 =
 content
@@ -547,7 +539,6 @@ inserted
 004
 .
 xhtml
-fails
 =
 =
 content
@@ -564,7 +555,6 @@ inserted
 005
 .
 xhtml
-fails
 =
 =
 content
@@ -581,7 +571,6 @@ inserted
 006
 .
 xhtml
-fails
 =
 =
 content
@@ -598,7 +587,6 @@ inserted
 007
 .
 xhtml
-fails
 =
 =
 content
@@ -615,7 +603,6 @@ inserted
 008
 .
 xhtml
-fails
 =
 =
 content
@@ -632,7 +619,6 @@ inserted
 009
 .
 xhtml
-fails
 =
 =
 dynamic
@@ -1622,7 +1608,6 @@ splitaftercaption
 11
 .
 html
-fails
 =
 =
 column

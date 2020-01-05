@@ -33,7 +33,6 @@ true
 -
 color
 image
-fails
 =
 =
 pp0n2c16
@@ -82,7 +81,6 @@ byte
 in
 grayscale
 image
-fails
 =
 =
 ps1n0g08
@@ -108,7 +106,6 @@ true
 -
 color
 image
-fails
 =
 =
 ps1n2c16
@@ -132,7 +129,6 @@ bytes
 in
 grayscale
 image
-fails
 =
 =
 ps2n0g08
@@ -158,7 +154,6 @@ true
 -
 color
 image
-fails
 =
 =
 ps2n2c16

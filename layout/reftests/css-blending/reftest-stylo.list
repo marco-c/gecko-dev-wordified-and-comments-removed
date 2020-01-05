@@ -138,7 +138,7 @@ blend
 image
 .
 html
-fails
+#
 pref
 (
 layout
@@ -1990,7 +1990,6 @@ color
 gif
 .
 html
-fails
 pref
 (
 layout
@@ -2774,7 +2773,6 @@ fixed
 scroll
 .
 html
-fails
 pref
 (
 layout
@@ -2814,7 +2812,6 @@ body
 image
 .
 html
-fails
 =
 =
 background

@@ -35,7 +35,6 @@ div
 fontsize
 .
 html
-fails
 =
 =
 unit
@@ -60,7 +59,6 @@ width
 inner
 .
 html
-fails
 =
 =
 unit
@@ -85,7 +83,6 @@ width
 outer
 .
 html
-fails
 =
 =
 unit

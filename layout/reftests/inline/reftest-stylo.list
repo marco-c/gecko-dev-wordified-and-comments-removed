@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 zero
@@ -39,7 +38,6 @@ margin
 left
 .
 html
-fails
 =
 =
 zero
@@ -64,7 +62,6 @@ margin
 right
 .
 html
-fails
 =
 =
 zero
@@ -123,7 +120,6 @@ block
 padding
 .
 html
-fails
 =
 =
 inline
@@ -157,7 +153,6 @@ block
 width
 .
 html
-fails
 =
 =
 inline

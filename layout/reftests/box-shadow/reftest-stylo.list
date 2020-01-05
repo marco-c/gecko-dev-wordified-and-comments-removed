@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 boxshadow
@@ -153,7 +152,6 @@ tableboxshadow
 tdshadow
 .
 html
-fails
 =
 =
 boxshadow
@@ -226,7 +224,6 @@ boxshadow
 mixed
 .
 html
-fails
 =
 =
 boxshadow
@@ -268,7 +265,6 @@ boxshadow
 dynamic
 .
 xul
-fails
 =
 =
 boxshadow
@@ -281,7 +277,6 @@ boxshadow
 onecorner
 .
 html
-fails
 =
 =
 boxshadow
@@ -294,7 +289,6 @@ boxshadow
 twocorners
 .
 html
-fails
 =
 =
 boxshadow
@@ -608,7 +602,6 @@ scrollable
 1
 .
 html
-fails
 =
 =
 overflow

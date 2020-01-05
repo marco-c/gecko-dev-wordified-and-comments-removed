@@ -27,7 +27,6 @@ between
 whitespaces
 .
 html
-fails
 =
 =
 chemical
@@ -40,7 +39,6 @@ chemical
 1
 .
 html
-fails
 =
 =
 currency
@@ -53,7 +51,6 @@ currency
 1
 .
 html
-fails
 =
 =
 currency
@@ -66,7 +63,6 @@ currency
 2
 .
 html
-fails
 =
 =
 datetime
@@ -79,7 +75,6 @@ datetime
 1
 .
 html
-fails
 =
 =
 emoji
@@ -92,7 +87,6 @@ emoji
 1
 .
 html
-fails
 =
 =
 emoji
@@ -105,7 +99,6 @@ emoji
 2
 .
 html
-fails
 =
 =
 hyphens
@@ -118,7 +111,6 @@ hyphens
 1
 .
 html
-fails
 =
 =
 hyphens
@@ -226,7 +218,6 @@ khmer
 1
 .
 html
-fails
 =
 =
 leaders
@@ -239,7 +230,6 @@ leaders
 1
 .
 html
-fails
 =
 =
 markup
@@ -256,7 +246,6 @@ src
 1
 .
 html
-fails
 =
 =
 non
@@ -273,7 +262,6 @@ breakable
 1
 .
 html
-fails
 =
 =
 non
@@ -290,7 +278,6 @@ breakable
 2
 .
 html
-fails
 =
 =
 numerics
@@ -303,7 +290,6 @@ numerics
 1
 .
 html
-fails
 =
 =
 parentheses
@@ -316,7 +302,6 @@ parentheses
 1
 .
 html
-fails
 =
 =
 punctuation
@@ -333,7 +318,6 @@ open
 1
 .
 html
-fails
 =
 =
 punctuation
@@ -350,7 +334,6 @@ open
 2
 .
 html
-fails
 =
 =
 punctuation
@@ -367,7 +350,6 @@ open
 3
 .
 html
-fails
 =
 =
 punctuation
@@ -384,7 +366,6 @@ open
 4
 .
 html
-fails
 =
 =
 quotationmarks
@@ -440,7 +421,6 @@ cjk
 1
 .
 html
-fails
 =
 =
 smileys
@@ -453,7 +433,6 @@ smileys
 1
 .
 html
-fails
 =
 =
 smileys
@@ -466,7 +445,6 @@ smileys
 2
 .
 html
-fails
 =
 =
 space
@@ -500,7 +478,6 @@ cluster
 2
 .
 html
-fails
 =
 =
 url
@@ -513,7 +490,6 @@ url
 1
 .
 html
-fails
 =
 =
 url
@@ -526,7 +502,6 @@ url
 2
 .
 html
-fails
 =
 =
 url
@@ -539,7 +514,6 @@ url
 3
 .
 html
-fails
 =
 =
 winpath
@@ -552,7 +526,6 @@ winpath
 1
 .
 html
-fails
 =
 =
 zwnbsp

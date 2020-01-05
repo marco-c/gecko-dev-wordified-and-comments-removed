@@ -26,7 +26,6 @@ level
 (
 none
 )
-fails
 =
 =
 z00n2c08
@@ -44,7 +43,6 @@ interlacing
 compression
 level
 3
-fails
 =
 =
 z03n2c08
@@ -65,7 +63,6 @@ level
 (
 default
 )
-fails
 =
 =
 z06n2c08
@@ -86,7 +83,6 @@ level
 (
 maximum
 )
-fails
 =
 =
 z09n2c08

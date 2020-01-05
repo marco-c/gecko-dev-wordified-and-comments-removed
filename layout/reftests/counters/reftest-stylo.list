@@ -60,7 +60,6 @@ b
 test
 .
 html
-fails
 =
 =
 t1202
@@ -1513,7 +1512,6 @@ c
 test
 .
 html
-fails
 =
 =
 text
@@ -1669,7 +1667,6 @@ limits
 03
 .
 html
-fails
 =
 =
 counter
@@ -1694,7 +1691,6 @@ list
 00
 .
 html
-fails
 =
 =
 counter

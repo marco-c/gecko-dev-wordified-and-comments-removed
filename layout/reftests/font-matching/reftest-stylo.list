@@ -89,7 +89,6 @@ bold
 /
 italic
 tests
-fails
 =
 =
 defaultfont
@@ -102,7 +101,6 @@ defaultfont
 bold
 .
 html
-fails
 =
 =
 defaultfont
@@ -115,7 +113,6 @@ defaultfont
 italic
 .
 html
-fails
 =
 =
 defaultfont
@@ -154,7 +151,6 @@ defaultfont
 bolditalic
 .
 html
-fails
 =
 =
 defaultjapanese
@@ -167,7 +163,6 @@ defaultjapanese
 bold
 .
 html
-fails
 =
 =
 defaultjapanese
@@ -180,7 +175,6 @@ defaultjapanese
 italic
 .
 html
-fails
 =
 =
 defaultjapanese
@@ -219,7 +213,6 @@ defaultjapanese
 bolditalic
 .
 html
-fails
 =
 =
 impact
@@ -232,7 +225,6 @@ impact
 bold
 .
 html
-fails
 =
 =
 impact
@@ -245,7 +237,6 @@ impact
 italic
 .
 html
-fails
 =
 =
 impact
@@ -284,7 +275,6 @@ impact
 bolditalic
 .
 html
-fails
 =
 =
 arialunicode
@@ -297,7 +287,6 @@ arialunicode
 bold
 .
 html
-fails
 =
 =
 arialunicode
@@ -310,7 +299,6 @@ arialunicode
 italic
 .
 html
-fails
 =
 =
 arialunicode
@@ -349,7 +337,6 @@ arialunicode
 bolditalic
 .
 html
-fails
 =
 =
 lucidaconsole
@@ -362,7 +349,6 @@ lucidaconsole
 bold
 .
 html
-fails
 =
 =
 lucidaconsole
@@ -375,7 +361,6 @@ lucidaconsole
 italic
 .
 html
-fails
 =
 =
 lucidaconsole
@@ -429,7 +414,6 @@ see
 bug
 538103
 )
-fails
 =
 =
 arial
@@ -446,7 +430,6 @@ variations
 1
 .
 html
-fails
 =
 =
 arial
@@ -463,7 +446,6 @@ variations
 2
 .
 html
-fails
 =
 =
 arial
@@ -480,7 +462,6 @@ variations
 3
 .
 html
-fails
 =
 =
 arial
@@ -497,7 +478,6 @@ variations
 4
 .
 html
-fails
 =
 =
 arial
@@ -514,7 +494,6 @@ variations
 5
 .
 html
-fails
 =
 =
 arial
@@ -643,6 +622,7 @@ names
 without
 the
 spaces
+#
 fails
 -
 if
@@ -1051,7 +1031,6 @@ OS
 X
 and
 Win7
-fails
 =
 =
 bold
@@ -1084,7 +1063,6 @@ to
 pass
 on
 Android
-fails
 =
 =
 bold
@@ -1434,7 +1412,6 @@ oblique
 9
 .
 html
-fails
 =
 =
 italic

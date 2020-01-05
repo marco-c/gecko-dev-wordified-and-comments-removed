@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 no
@@ -27,7 +26,6 @@ no
 attrs
 .
 html
-fails
 HTTP
 =
 =
@@ -41,7 +39,6 @@ html
 data
 .
 html
-fails
 HTTP
 =
 =
@@ -63,7 +60,6 @@ with
 type
 .
 html
-fails
 =
 =
 page
@@ -80,7 +76,6 @@ as
 data
 .
 html
-fails
 =
 =
 page
@@ -105,7 +100,6 @@ with
 type
 .
 html
-fails
 =
 =
 connection
@@ -263,7 +257,6 @@ extension
 )
 .
 #
-fails
 HTTP
 =
 =
@@ -329,7 +322,6 @@ to
 add
 them
 #
-fails
 =
 =
 malformed
@@ -346,7 +338,6 @@ should
 fallback
 .
 html
-fails
 =
 =
 malformed
@@ -407,7 +398,6 @@ to
 add
 them
 #
-fails
 =
 =
 unknown

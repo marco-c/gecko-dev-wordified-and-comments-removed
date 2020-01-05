@@ -233,7 +233,6 @@ style
 013
 .
 html
-fails
 =
 =
 scoped
@@ -267,7 +266,6 @@ style
 015
 .
 html
-fails
 =
 =
 scoped
@@ -1079,7 +1077,6 @@ pseudo
 002
 .
 html
-fails
 pref
 (
 layout

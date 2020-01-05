@@ -15,7 +15,6 @@ for
 Stylo
 testing
 #
-fails
 =
 =
 resize
@@ -43,7 +42,6 @@ test
 for
 now
 #
-fails
 =
 =
 resize
@@ -109,7 +107,6 @@ ltr
 .
 html
 #
-fails
 =
 =
 rtl
@@ -119,7 +116,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 rtl
@@ -129,7 +125,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 rtl
@@ -139,7 +134,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 rtl

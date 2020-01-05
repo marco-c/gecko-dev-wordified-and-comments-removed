@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 calc
@@ -39,7 +38,6 @@ gradient
 1
 .
 html
-fails
 =
 =
 calc
@@ -64,7 +62,6 @@ gradient
 1
 .
 html
-fails
 =
 =
 calc
@@ -85,7 +82,6 @@ position
 1
 .
 html
-fails
 =
 =
 calc
@@ -167,7 +163,6 @@ table
 1
 .
 html
-fails
 =
 =
 calc
@@ -532,7 +527,6 @@ top
 1
 .
 html
-fails
 =
 =
 calc
@@ -553,7 +547,6 @@ block
 1
 .
 html
-fails
 =
 =
 calc
@@ -598,7 +591,6 @@ intrinsic
 1
 .
 html
-fails
 =
 =
 calc
@@ -619,7 +611,6 @@ origin
 1
 .
 html
-fails
 =
 =
 calc

@@ -134,7 +134,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 badbitssize
@@ -213,7 +212,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 baddens1
@@ -222,7 +220,6 @@ bmp
 baddens1
 .
 bmp
-fails
 =
 =
 baddens2
@@ -275,7 +272,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 badfilesize
@@ -476,7 +472,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 badplanes
@@ -571,7 +566,6 @@ more
 obvious
 .
 ]
-fails
 =
 =
 badrle
@@ -698,7 +692,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal8badindex
@@ -831,7 +824,6 @@ perfectly
 well
 .
 ]
-fails
 =
 =
 rletopdown
@@ -926,7 +918,6 @@ more
 obvious
 .
 ]
-fails
 =
 =
 shortfile

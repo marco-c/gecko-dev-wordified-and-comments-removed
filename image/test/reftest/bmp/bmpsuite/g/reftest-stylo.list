@@ -70,7 +70,6 @@ the
 palette
 .
 "
-fails
 =
 =
 pal1
@@ -118,7 +117,6 @@ the
 palette
 .
 "
-fails
 =
 =
 pal1wb
@@ -162,7 +160,6 @@ and
 white
 .
 "
-fails
 =
 =
 pal1bg
@@ -204,7 +201,6 @@ bits
 pixel
 .
 "
-fails
 =
 =
 pal4
@@ -243,7 +239,6 @@ RLE
 compression
 .
 "
-fails
 =
 =
 pal4rle
@@ -287,7 +282,6 @@ bits
 pixel
 .
 "
-fails
 =
 =
 pal8
@@ -356,7 +350,6 @@ image
 0
 .
 "
-fails
 =
 =
 pal8
@@ -399,7 +392,6 @@ RLE
 compression
 .
 "
-fails
 =
 =
 pal8rle
@@ -492,7 +484,6 @@ four
 possibilities
 .
 "
-fails
 =
 =
 pal8w126
@@ -501,7 +492,6 @@ bmp
 pal8w126
 .
 bmp
-fails
 =
 =
 pal8w125
@@ -510,7 +500,6 @@ bmp
 pal8w125
 .
 bmp
-fails
 =
 =
 pal8w124
@@ -564,7 +553,6 @@ top
 down
 .
 "
-fails
 =
 =
 pal8topdown
@@ -652,7 +640,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal8nonsquare
@@ -690,7 +677,6 @@ style
 bitmap
 .
 "
-fails
 =
 =
 pal8os2
@@ -751,7 +737,6 @@ of
 them
 .
 "
-fails
 =
 =
 pal8v4
@@ -807,7 +792,6 @@ more
 portable
 .
 "
-fails
 =
 =
 pal8v5
@@ -1077,7 +1061,6 @@ truecolor
 image
 .
 "
-fails
 =
 =
 rgb24
@@ -1139,7 +1122,6 @@ is
 legal
 .
 "
-fails
 =
 =
 rgb24pal
@@ -1212,7 +1194,6 @@ to
 0
 .
 "
-fails
 =
 =
 rgb32
@@ -1289,7 +1270,6 @@ just
 guess
 .
 "
-fails
 =
 =
 rgb32bf

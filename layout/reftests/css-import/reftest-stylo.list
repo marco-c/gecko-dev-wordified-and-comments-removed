@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 290018
@@ -27,7 +26,6 @@ html
 1
 .
 html
-fails
 =
 =
 436261
@@ -40,7 +38,6 @@ html
 1
 .
 html
-fails
 =
 =
 436261
@@ -53,7 +50,6 @@ html
 2
 .
 html
-fails
 =
 =
 436261
@@ -66,7 +62,6 @@ html
 3
 .
 html
-fails
 =
 =
 444723
@@ -79,7 +74,6 @@ html
 1
 .
 html
-fails
 =
 =
 444723
@@ -92,7 +86,6 @@ html
 2
 .
 html
-fails
 =
 =
 445415
@@ -131,7 +124,6 @@ xhtml
 2a
 .
 xhtml
-fails
 =
 =
 445415

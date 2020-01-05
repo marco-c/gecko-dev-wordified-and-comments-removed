@@ -61,7 +61,7 @@ unicode
 lang
 .
 html
-fails
+#
 =
 =
 unicode
@@ -86,7 +86,7 @@ media
 type
 .
 html
-fails
+#
 =
 =
 unicode

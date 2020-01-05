@@ -162,7 +162,6 @@ vh
 .
 html
 #
-fails
 =
 =
 async
@@ -188,7 +187,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 async
@@ -214,7 +212,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 async
@@ -327,7 +324,7 @@ Meta
 viewport
 tag
 support
-fails
+#
 =
 =
 initial

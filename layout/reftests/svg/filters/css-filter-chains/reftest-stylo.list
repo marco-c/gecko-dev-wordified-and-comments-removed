@@ -80,7 +80,6 @@ that
 s
 ok
 .
-fails
 =
 =
 long
@@ -106,7 +105,6 @@ moz
 element
 .
 html
-fails
 =
 =
 same

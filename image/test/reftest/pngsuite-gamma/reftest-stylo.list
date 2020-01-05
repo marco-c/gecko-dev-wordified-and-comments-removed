@@ -30,7 +30,6 @@ gamma
 0
 .
 35
-fails
 =
 =
 g03n0g16
@@ -50,7 +49,6 @@ gamma
 0
 .
 35
-fails
 =
 =
 g03n2c08
@@ -70,7 +68,6 @@ gamma
 0
 .
 35
-fails
 =
 =
 g03n3p04
@@ -90,7 +87,6 @@ gamma
 0
 .
 45
-fails
 =
 =
 g04n0g16
@@ -110,7 +106,6 @@ gamma
 0
 .
 45
-fails
 =
 =
 g04n2c08
@@ -130,7 +125,6 @@ gamma
 0
 .
 45
-fails
 =
 =
 g04n3p04
@@ -150,7 +144,6 @@ gamma
 0
 .
 55
-fails
 =
 =
 g05n0g16
@@ -170,7 +163,6 @@ gamma
 0
 .
 55
-fails
 =
 =
 g05n2c08
@@ -190,7 +182,6 @@ gamma
 0
 .
 55
-fails
 =
 =
 g05n3p04
@@ -210,7 +201,6 @@ gamma
 0
 .
 70
-fails
 =
 =
 g07n0g16
@@ -230,7 +220,6 @@ gamma
 0
 .
 70
-fails
 =
 =
 g07n2c08
@@ -250,7 +239,6 @@ gamma
 0
 .
 70
-fails
 =
 =
 g07n3p04
@@ -270,7 +258,6 @@ gamma
 1
 .
 00
-fails
 =
 =
 g10n0g16
@@ -290,7 +277,6 @@ gamma
 1
 .
 00
-fails
 =
 =
 g10n2c08
@@ -310,7 +296,6 @@ gamma
 1
 .
 00
-fails
 =
 =
 g10n3p04
@@ -330,7 +315,6 @@ gamma
 2
 .
 50
-fails
 =
 =
 g25n0g16
@@ -350,7 +334,6 @@ gamma
 2
 .
 50
-fails
 =
 =
 g25n2c08
@@ -370,7 +353,6 @@ gamma
 2
 .
 50
-fails
 =
 =
 g25n3p04

@@ -1260,7 +1260,7 @@ html
 caret_after_reframe
 .
 html
-fails
+#
 =
 =
 nobogusnode
@@ -1273,7 +1273,7 @@ nobogusnode
 1
 .
 html
-fails
+#
 =
 =
 nobogusnode
@@ -1625,7 +1625,7 @@ html
 unneeded_scroll
 .
 html
-fails
+#
 =
 =
 caret_on_presshell_reinit
@@ -1634,7 +1634,7 @@ html
 caret_on_presshell_reinit
 .
 html
-fails
+#
 =
 =
 caret_on_presshell_reinit
@@ -1960,7 +1960,7 @@ html
 2
 .
 html
-fails
+#
 =
 =
 824080
@@ -2002,7 +2002,7 @@ html
 4
 .
 html
-fails
+#
 =
 =
 824080
@@ -2142,7 +2142,7 @@ contenteditable
 attr
 .
 html
-fails
+#
 needs
 -
 focus
@@ -2162,7 +2162,7 @@ contenteditable
 focused
 .
 html
-fails
+#
 needs
 -
 focus
@@ -2186,7 +2186,6 @@ focused
 reframe
 .
 html
-fails
 =
 =
 spellcheck
@@ -2203,7 +2202,7 @@ contenteditable
 nofocus
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2220,7 +2219,7 @@ contenteditable
 disabled
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2241,7 +2240,7 @@ disabled
 partial
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2262,7 +2261,7 @@ attr
 inherit
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2283,7 +2282,7 @@ attr
 dynamic
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2308,7 +2307,6 @@ dynamic
 inherit
 .
 html
-fails
 =
 =
 spellcheck
@@ -2329,7 +2327,7 @@ property
 dynamic
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2354,7 +2352,7 @@ dynamic
 inherit
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2379,7 +2377,6 @@ dynamic
 override
 .
 html
-fails
 =
 =
 spellcheck
@@ -2408,7 +2405,7 @@ override
 inherit
 .
 html
-fails
+#
 =
 =
 spellcheck
@@ -2433,7 +2430,6 @@ dynamic
 override
 .
 html
-fails
 =
 =
 spellcheck
@@ -2462,7 +2458,7 @@ override
 inherit
 .
 html
-fails
+#
 =
 =
 911201

@@ -3012,7 +3012,6 @@ change
 01
 .
 svg
-fails
 =
 =
 foreignObject
@@ -3033,7 +3032,6 @@ abspos
 01
 .
 html
-fails
 =
 =
 foreignObject
@@ -3066,7 +3064,6 @@ fixedpos
 02
 .
 html
-fails
 =
 =
 foreignObject
@@ -8596,7 +8593,7 @@ soft
 light
 .
 svg
-fails
+#
 =
 =
 blend

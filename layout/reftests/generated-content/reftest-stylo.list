@@ -135,7 +135,6 @@ fieldset
 01b
 .
 html
-fails
 =
 =
 dynamic
@@ -152,7 +151,6 @@ restyle
 01
 .
 html
-fails
 =
 =
 dynamic
@@ -173,7 +171,6 @@ cell
 01a
 .
 html
-fails
 =
 =
 dynamic
@@ -207,7 +204,6 @@ floated
 01
 .
 html
-fails
 =
 =
 images

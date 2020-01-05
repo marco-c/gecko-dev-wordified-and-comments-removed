@@ -143,7 +143,6 @@ text
 1
 .
 html
-fails
 HTTP
 =
 =
@@ -483,7 +482,6 @@ subpixel
 html
 #
 d
-fails
 =
 =
 text
@@ -496,7 +494,6 @@ text
 1
 .
 html
-fails
 =
 =
 text
@@ -513,7 +510,6 @@ text
 html
 ?
 up
-fails
 =
 =
 transformed
@@ -526,7 +522,6 @@ transformed
 1
 .
 html
-fails
 HTTP
 =
 =

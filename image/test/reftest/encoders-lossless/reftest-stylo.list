@@ -193,7 +193,6 @@ png
 )
 #
 PNG
-fails
 HTTP
 =
 =
@@ -207,7 +206,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -221,7 +219,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -235,7 +232,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -249,7 +245,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -263,7 +258,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -277,7 +271,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -291,7 +284,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -305,7 +297,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -319,7 +310,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -333,7 +323,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -347,7 +336,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -361,7 +349,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -375,7 +362,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -389,7 +375,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -409,7 +394,6 @@ using
 default
 parse
 options
-fails
 HTTP
 =
 =
@@ -423,7 +407,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -437,7 +420,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -451,7 +433,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -465,7 +446,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -479,7 +459,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -493,7 +472,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -507,7 +485,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -521,7 +498,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -535,7 +511,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -549,7 +524,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -563,7 +537,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -577,7 +550,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -591,7 +563,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -605,7 +576,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -631,7 +601,6 @@ and
 32bpp
 parse
 options
-fails
 HTTP
 =
 =
@@ -645,7 +614,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -659,7 +627,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -673,7 +640,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -687,7 +653,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -701,7 +666,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -715,7 +679,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -729,7 +692,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -743,7 +705,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -757,7 +718,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -771,7 +731,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -785,7 +744,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -799,7 +757,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -813,7 +770,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -827,7 +783,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -853,7 +808,6 @@ and
 24bpp
 parse
 options
-fails
 HTTP
 =
 =
@@ -867,7 +821,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -881,7 +834,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -895,7 +847,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -909,7 +860,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -923,7 +873,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -937,7 +886,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -951,7 +899,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -965,7 +912,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -979,7 +925,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -993,7 +938,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -1007,7 +951,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -1021,7 +964,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -1035,7 +977,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -1049,7 +990,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -1069,7 +1009,6 @@ using
 default
 parse
 options
-fails
 HTTP
 =
 =
@@ -1083,7 +1022,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -1097,7 +1035,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -1111,7 +1048,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -1125,7 +1061,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -1139,7 +1074,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -1153,7 +1087,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -1167,7 +1100,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -1181,7 +1113,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -1195,7 +1126,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -1209,7 +1139,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -1223,7 +1152,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -1237,7 +1165,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -1251,7 +1178,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -1265,7 +1191,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -1279,7 +1204,6 @@ size
 33x33
 .
 png
-fails
 HTTP
 =
 =
@@ -1311,7 +1235,6 @@ parse
 options
 with
 bmp
-fails
 HTTP
 =
 =
@@ -1325,7 +1248,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -1339,7 +1261,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -1353,7 +1274,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -1367,7 +1287,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -1381,7 +1300,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -1395,7 +1313,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -1409,7 +1326,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -1423,7 +1339,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -1437,7 +1352,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -1451,7 +1365,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -1465,7 +1378,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -1479,7 +1391,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -1493,7 +1404,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -1507,7 +1417,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -1521,7 +1430,6 @@ size
 33x33
 .
 png
-fails
 HTTP
 =
 =
@@ -1553,7 +1461,6 @@ parse
 options
 with
 bmp
-fails
 HTTP
 =
 =
@@ -1567,7 +1474,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -1581,7 +1487,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -1595,7 +1500,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -1609,7 +1513,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -1623,7 +1526,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -1637,7 +1539,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -1651,7 +1552,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -1665,7 +1565,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -1679,7 +1578,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -1693,7 +1591,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -1707,7 +1604,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -1721,7 +1617,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -1735,7 +1630,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -1749,7 +1643,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -1763,7 +1656,6 @@ size
 33x33
 .
 png
-fails
 HTTP
 =
 =
@@ -1790,7 +1682,6 @@ icon
 mime
 type
 png
-fails
 HTTP
 =
 =
@@ -1804,7 +1695,6 @@ size
 1x1
 .
 png
-fails
 HTTP
 =
 =
@@ -1818,7 +1708,6 @@ size
 2x2
 .
 png
-fails
 HTTP
 =
 =
@@ -1832,7 +1721,6 @@ size
 3x3
 .
 png
-fails
 HTTP
 =
 =
@@ -1846,7 +1734,6 @@ size
 4x4
 .
 png
-fails
 HTTP
 =
 =
@@ -1860,7 +1747,6 @@ size
 5x5
 .
 png
-fails
 HTTP
 =
 =
@@ -1874,7 +1760,6 @@ size
 6x6
 .
 png
-fails
 HTTP
 =
 =
@@ -1888,7 +1773,6 @@ size
 7x7
 .
 png
-fails
 HTTP
 =
 =
@@ -1902,7 +1786,6 @@ size
 8x8
 .
 png
-fails
 HTTP
 =
 =
@@ -1916,7 +1799,6 @@ size
 9x9
 .
 png
-fails
 HTTP
 =
 =
@@ -1930,7 +1812,6 @@ size
 15x15
 .
 png
-fails
 HTTP
 =
 =
@@ -1944,7 +1825,6 @@ size
 16x16
 .
 png
-fails
 HTTP
 =
 =
@@ -1958,7 +1838,6 @@ size
 17x17
 .
 png
-fails
 HTTP
 =
 =
@@ -1972,7 +1851,6 @@ size
 31x31
 .
 png
-fails
 HTTP
 =
 =
@@ -1986,7 +1864,6 @@ size
 32x32
 .
 png
-fails
 HTTP
 =
 =
@@ -2000,7 +1877,6 @@ size
 33x33
 .
 png
-fails
 HTTP
 =
 =

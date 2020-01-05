@@ -531,7 +531,6 @@ fieldset
 legend
 .
 html
-fails
 =
 =
 input
@@ -552,7 +551,6 @@ valid
 changed
 .
 html
-fails
 =
 =
 input
@@ -615,7 +613,7 @@ valid
 default
 .
 html
-fails
+#
 =
 =
 input
@@ -632,7 +630,7 @@ radio
 required
 .
 html
-fails
+#
 =
 =
 input
@@ -649,7 +647,7 @@ radio
 customerror
 .
 html
-fails
+#
 =
 =
 input
@@ -674,7 +672,7 @@ valid
 1
 .
 html
-fails
+#
 =
 =
 input
@@ -699,7 +697,7 @@ valid
 2
 .
 html
-fails
+#
 =
 =
 input
@@ -724,7 +722,7 @@ required
 valid
 .
 html
-fails
+#
 =
 =
 input

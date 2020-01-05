@@ -117,7 +117,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal1p1
@@ -395,7 +394,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal8offs
@@ -475,7 +473,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal8oversizepal
@@ -628,7 +625,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal8os2v2
@@ -686,7 +682,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 pal8os2v2
@@ -787,7 +782,6 @@ proper
 scaling
 .
 "
-fails
 =
 =
 rgb16
@@ -954,7 +948,6 @@ does
 Chromium
 .
 ]
-fails
 =
 =
 rgb24largepal
@@ -1021,7 +1014,6 @@ handles
 it
 .
 ]
-fails
 =
 =
 rgb24prof
@@ -1088,7 +1080,6 @@ handles
 it
 .
 ]
-fails
 =
 =
 rgb24lprof
@@ -1297,7 +1288,6 @@ the
 same
 .
 ]
-fails
 =
 =
 rgb32fakealpha
@@ -1365,7 +1355,6 @@ is
 unusual
 .
 "
-fails
 =
 =
 rgb32

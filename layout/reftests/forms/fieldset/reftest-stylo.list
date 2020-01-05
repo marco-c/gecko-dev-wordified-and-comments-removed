@@ -293,7 +293,6 @@ hidden
 .
 html
 #
-fails
 =
 =
 legend
@@ -424,7 +423,7 @@ width
 2b
 .
 html
-fails
+#
 =
 =
 legend

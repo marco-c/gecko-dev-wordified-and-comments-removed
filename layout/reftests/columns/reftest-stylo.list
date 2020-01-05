@@ -27,7 +27,6 @@ basic
 1
 .
 html
-fails
 =
 =
 pref
@@ -44,7 +43,6 @@ width
 1a
 .
 html
-fails
 =
 =
 pref
@@ -61,7 +59,6 @@ width
 1b
 .
 html
-fails
 =
 =
 pref
@@ -95,6 +92,7 @@ width
 1a
 .
 html
+fails
 =
 =
 min
@@ -229,7 +227,6 @@ overflow
 003
 .
 html
-fails
 =
 =
 column
@@ -250,7 +247,6 @@ overflow
 004
 .
 html
-fails
 =
 =
 column
@@ -357,7 +353,6 @@ balancing
 .
 html
 #
-fails
 =
 =
 column
@@ -479,7 +474,6 @@ columnrule
 complex
 .
 html
-fails
 =
 =
 columnrule
@@ -518,7 +512,6 @@ columnfill
 overflow
 .
 html
-fails
 =
 =
 margin
@@ -539,7 +532,6 @@ bug616722
 1
 .
 html
-fails
 =
 =
 margin
@@ -602,7 +594,6 @@ nested
 001
 .
 html
-fails
 =
 =
 columnrule
@@ -653,7 +644,6 @@ transforms
 bug1112501
 .
 html
-fails
 =
 =
 fieldset

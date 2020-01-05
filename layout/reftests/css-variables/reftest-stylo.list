@@ -28,7 +28,6 @@ variables
 enabled
 true
 )
-fails
 =
 =
 variables
@@ -49,7 +48,6 @@ cache
 01
 .
 html
-fails
 =
 =
 variables

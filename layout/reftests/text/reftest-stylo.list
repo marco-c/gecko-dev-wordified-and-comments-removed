@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 fallback
@@ -104,7 +103,6 @@ generic
 1
 .
 html
-fails
 =
 =
 font
@@ -173,7 +171,6 @@ See
 bug
 429605
 .
-fails
 =
 =
 font
@@ -362,7 +359,6 @@ space
 1
 .
 html
-fails
 =
 =
 line
@@ -379,7 +375,6 @@ editing
 1a
 .
 html
-fails
 =
 =
 line
@@ -396,7 +391,6 @@ editing
 1b
 .
 html
-fails
 =
 =
 line
@@ -413,7 +407,6 @@ editing
 1c
 .
 html
-fails
 =
 =
 line
@@ -430,7 +423,6 @@ editing
 1d
 .
 html
-fails
 =
 =
 line
@@ -508,7 +500,6 @@ metrics
 2b
 .
 html
-fails
 =
 =
 lineheight
@@ -538,7 +529,6 @@ long
 1
 .
 html
-fails
 =
 =
 pre
@@ -555,7 +545,6 @@ line
 1
 .
 html
-fails
 =
 =
 pre
@@ -588,7 +577,6 @@ line
 3
 .
 html
-fails
 =
 =
 pre
@@ -639,7 +627,6 @@ wrap
 1
 .
 html
-fails
 =
 =
 soft
@@ -656,7 +643,6 @@ hyphens
 1a
 .
 html
-fails
 =
 =
 soft
@@ -673,7 +659,6 @@ hyphens
 1b
 .
 html
-fails
 =
 =
 soft
@@ -690,7 +675,6 @@ hyphens
 1c
 .
 html
-fails
 =
 =
 soft
@@ -715,7 +699,6 @@ word
 1a
 .
 html
-fails
 =
 =
 soft
@@ -740,7 +723,6 @@ word
 1b
 .
 html
-fails
 =
 =
 soft
@@ -825,7 +807,6 @@ table
 1
 .
 html
-fails
 =
 =
 soft
@@ -1058,7 +1039,6 @@ do
 subpixel
 positioning
 vertically
-fails
 =
 =
 subpixel
@@ -1079,7 +1059,6 @@ y
 1a
 .
 html
-fails
 =
 =
 subpixel
@@ -1135,7 +1114,6 @@ metrics
 01
 .
 html
-fails
 HTTP
 (
 .
@@ -1169,7 +1147,6 @@ text
 align
 -
 last
-fails
 =
 =
 text
@@ -1190,7 +1167,6 @@ last
 start
 .
 html
-fails
 =
 =
 text
@@ -1211,7 +1187,6 @@ last
 end
 .
 html
-fails
 =
 =
 text
@@ -1232,7 +1207,6 @@ last
 center
 .
 html
-fails
 =
 =
 text
@@ -1254,7 +1228,6 @@ justify
 .
 html
 #
-fails
 =
 =
 text
@@ -1344,7 +1317,6 @@ implement
 text
 -
 justify
-fails
 =
 =
 text
@@ -1369,7 +1341,6 @@ last
 default
 .
 html
-fails
 =
 =
 text
@@ -1394,7 +1365,6 @@ last
 default
 .
 html
-fails
 =
 =
 text
@@ -1419,7 +1389,6 @@ last
 default
 .
 html
-fails
 =
 =
 text
@@ -1444,7 +1413,6 @@ last
 default
 .
 html
-fails
 =
 =
 text
@@ -1635,7 +1603,6 @@ last
 end
 .
 html
-fails
 =
 =
 text
@@ -1785,7 +1752,6 @@ last
 end
 .
 html
-fails
 =
 =
 text
@@ -1935,7 +1901,6 @@ last
 end
 .
 html
-fails
 =
 =
 text
@@ -1958,31 +1923,6 @@ center
 last
 -
 center
-.
-html
-#
-=
-=
-text
--
-align
--
-justify
--
-last
--
-start
-.
-html
-text
--
-align
--
-justify
--
-last
--
-start
 .
 html
 #
@@ -2046,6 +1986,31 @@ justify
 -
 last
 -
+start
+.
+html
+text
+-
+align
+-
+justify
+-
+last
+-
+start
+.
+html
+#
+=
+=
+text
+-
+align
+-
+justify
+-
+last
+-
 end
 .
 html
@@ -2085,7 +2050,6 @@ last
 end
 .
 html
-fails
 =
 =
 text
@@ -2164,7 +2128,6 @@ unsupported
 1
 .
 html
-fails
 =
 =
 white
@@ -2181,7 +2144,6 @@ space
 1a
 .
 html
-fails
 =
 =
 white
@@ -2198,7 +2160,7 @@ space
 1b
 .
 html
-fails
+#
 =
 =
 white
@@ -2215,7 +2177,6 @@ space
 2
 .
 html
-fails
 =
 =
 wordbreak
@@ -2228,7 +2189,6 @@ wordbreak
 1
 .
 html
-fails
 =
 =
 wordbreak
@@ -2241,7 +2201,6 @@ wordbreak
 2
 .
 html
-fails
 =
 =
 wordbreak
@@ -2254,7 +2213,6 @@ wordbreak
 3
 .
 html
-fails
 =
 =
 wordbreak
@@ -2267,7 +2225,6 @@ wordbreak
 4a
 .
 html
-fails
 =
 =
 wordbreak
@@ -2280,7 +2237,6 @@ wordbreak
 4b
 .
 html
-fails
 =
 =
 wordbreak
@@ -2293,7 +2249,6 @@ wordbreak
 5
 .
 html
-fails
 =
 =
 wordbreak
@@ -2306,7 +2261,6 @@ wordbreak
 6
 .
 html
-fails
 HTTP
 (
 .
@@ -2324,7 +2278,6 @@ wordbreak
 7a
 .
 html
-fails
 HTTP
 (
 .
@@ -2342,7 +2295,6 @@ wordbreak
 7b
 .
 html
-fails
 =
 =
 wordbreak
@@ -2445,7 +2397,6 @@ wordwrap
 03
 .
 html
-fails
 =
 =
 wordwrap
@@ -2458,7 +2409,6 @@ wordwrap
 04
 .
 html
-fails
 =
 =
 overflowwrap
@@ -2523,7 +2473,6 @@ overflowwrap
 06
 .
 html
-fails
 =
 =
 wordwrap
@@ -2536,7 +2485,6 @@ wordwrap
 07
 .
 html
-fails
 =
 =
 overflowwrap
@@ -2627,7 +2575,6 @@ overflowwrap
 09
 .
 html
-fails
 =
 =
 wordwrap
@@ -2640,7 +2587,6 @@ wordwrap
 10
 .
 html
-fails
 =
 =
 overflowwrap
@@ -2773,7 +2719,6 @@ zwnj
 01
 .
 html
-fails
 =
 =
 initial
@@ -2790,7 +2735,6 @@ zwj
 1
 .
 html
-fails
 =
 =
 cgj
@@ -2825,7 +2769,6 @@ html
 1
 .
 html
-fails
 =
 =
 467722
@@ -3005,7 +2948,6 @@ platforms
 depending
 on
 fonts
-fails
 =
 =
 arial
@@ -3184,7 +3126,6 @@ marks
 1
 .
 html
-fails
 =
 =
 arabic
@@ -3242,7 +3183,6 @@ stacking
 1
 .
 html
-fails
 =
 =
 726392
@@ -3255,7 +3195,6 @@ html
 1
 .
 html
-fails
 =
 =
 726392
@@ -3268,7 +3207,6 @@ html
 2
 .
 html
-fails
 =
 =
 726392
@@ -3307,7 +3245,6 @@ html
 2
 .
 html
-fails
 =
 =
 820255
@@ -3359,7 +3296,6 @@ s
 no
 font
 support
-fails
 =
 =
 emoji
@@ -3372,7 +3308,6 @@ emoji
 01
 .
 html
-fails
 =
 =
 emoji
@@ -4411,7 +4346,6 @@ hyphenation
 2
 .
 html
-fails
 =
 =
 auto
@@ -4428,7 +4362,6 @@ hyphenation
 3
 .
 html
-fails
 =
 =
 auto
@@ -4496,7 +4429,6 @@ hyphenation
 7
 .
 html
-fails
 =
 =
 auto
@@ -4513,7 +4445,6 @@ hyphenation
 8
 .
 html
-fails
 =
 =
 auto
@@ -4530,7 +4461,6 @@ hyphenation
 9
 .
 html
-fails
 =
 =
 auto
@@ -4631,7 +4561,6 @@ xmllang
 2
 .
 xhtml
-fails
 =
 =
 auto
@@ -4652,7 +4581,6 @@ xmllang
 3
 .
 xhtml
-fails
 =
 =
 auto
@@ -4736,7 +4664,6 @@ xmllang
 7
 .
 xhtml
-fails
 =
 =
 auto
@@ -4757,7 +4684,6 @@ xmllang
 8
 .
 xhtml
-fails
 =
 =
 auto
@@ -4778,7 +4704,6 @@ xmllang
 9
 .
 xhtml
-fails
 =
 =
 auto
@@ -4841,7 +4766,6 @@ xmllang
 11b
 .
 xhtml
-fails
 =
 =
 auto
@@ -4862,7 +4786,6 @@ xmllang
 12a
 .
 xhtml
-fails
 =
 =
 auto
@@ -4925,7 +4848,6 @@ xmllang
 13b
 .
 xhtml
-fails
 =
 =
 auto
@@ -4946,7 +4868,6 @@ xmllang
 14a
 .
 xhtml
-fails
 =
 =
 auto
@@ -6006,7 +5927,6 @@ chars
 01d
 .
 html
-fails
 =
 =
 control
@@ -6057,7 +5977,6 @@ chars
 03b
 .
 html
-fails
 pref
 (
 layout
@@ -6087,7 +6006,6 @@ chars
 04a
 .
 html
-fails
 pref
 (
 layout
@@ -6117,7 +6035,6 @@ chars
 04b
 .
 html
-fails
 pref
 (
 layout
@@ -6147,7 +6064,6 @@ chars
 04c
 .
 html
-fails
 pref
 (
 layout
@@ -6249,7 +6165,6 @@ spacing
 1
 .
 html
-fails
 =
 =
 segment

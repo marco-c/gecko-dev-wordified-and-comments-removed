@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 move
@@ -31,7 +30,6 @@ right
 bottom
 .
 html
-fails
 =
 =
 move
@@ -48,7 +46,6 @@ top
 left
 .
 html
-fails
 =
 =
 move
@@ -69,7 +66,6 @@ bottom
 table
 .
 html
-fails
 =
 =
 move
@@ -90,7 +86,6 @@ left
 table
 .
 html
-fails
 =
 =
 percent

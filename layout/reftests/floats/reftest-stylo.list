@@ -251,7 +251,6 @@ float
 1
 .
 html
-fails
 =
 =
 relative
@@ -389,7 +388,6 @@ html
 1
 .
 html
-fails
 =
 =
 546048
@@ -502,7 +500,6 @@ html
 overflow
 :
 hidden
-fails
 =
 =
 1291110
@@ -515,7 +512,6 @@ html
 1
 .
 html
-fails
 =
 =
 1291110
@@ -528,7 +524,6 @@ html
 2
 .
 html
-fails
 =
 =
 float
@@ -549,7 +544,6 @@ rtl
 1a
 .
 html
-fails
 =
 =
 float
@@ -570,7 +564,6 @@ rtl
 1b
 .
 html
-fails
 =
 =
 float
@@ -591,7 +584,6 @@ rtl
 1c
 .
 html
-fails
 =
 =
 float
@@ -612,7 +604,6 @@ rtl
 1d
 .
 html
-fails
 =
 =
 float
@@ -633,7 +624,6 @@ rtl
 2a
 .
 html
-fails
 =
 =
 float
@@ -654,7 +644,6 @@ rtl
 2b
 .
 html
-fails
 =
 =
 float
@@ -696,7 +685,6 @@ rtl
 2d
 .
 html
-fails
 =
 =
 float
@@ -717,7 +705,6 @@ rtl
 3a
 .
 html
-fails
 =
 =
 float
@@ -738,7 +725,6 @@ rtl
 3b
 .
 html
-fails
 =
 =
 float
@@ -780,7 +766,6 @@ rtl
 3d
 .
 html
-fails
 =
 =
 float
@@ -801,7 +786,6 @@ rtl
 4a
 .
 html
-fails
 =
 =
 float
@@ -822,7 +806,6 @@ rtl
 4b
 .
 html
-fails
 =
 =
 float
@@ -864,7 +847,6 @@ rtl
 4d
 .
 html
-fails
 =
 =
 bfc
@@ -881,7 +863,6 @@ displace
 1a
 .
 html
-fails
 =
 =
 bfc
@@ -898,7 +879,6 @@ displace
 1b
 .
 html
-fails
 =
 =
 bfc
@@ -915,7 +895,6 @@ displace
 2a
 .
 html
-fails
 =
 =
 bfc
@@ -932,7 +911,6 @@ displace
 2b
 .
 html
-fails
 =
 =
 bfc
@@ -949,7 +927,6 @@ displace
 3a
 .
 html
-fails
 =
 =
 bfc
@@ -966,7 +943,6 @@ displace
 3b
 .
 html
-fails
 =
 =
 bfc
@@ -983,7 +959,6 @@ displace
 4
 .
 html
-fails
 =
 =
 bfc
@@ -1008,7 +983,6 @@ vertical
 writing
 mode
 .
-fails
 =
 =
 float
@@ -1033,7 +1007,6 @@ vlr
 1a
 .
 html
-fails
 =
 =
 float
@@ -1058,7 +1031,6 @@ vlr
 1b
 .
 html
-fails
 =
 =
 float
@@ -1083,7 +1055,6 @@ vlr
 1c
 .
 html
-fails
 =
 =
 float
@@ -1108,7 +1079,6 @@ vlr
 1d
 .
 html
-fails
 =
 =
 float
@@ -1133,7 +1103,6 @@ vlr
 2a
 .
 html
-fails
 =
 =
 float
@@ -1158,7 +1127,6 @@ vlr
 2b
 .
 html
-fails
 =
 =
 float
@@ -1208,7 +1176,6 @@ vlr
 2d
 .
 html
-fails
 =
 =
 float
@@ -1233,7 +1200,6 @@ vlr
 3a
 .
 html
-fails
 =
 =
 float
@@ -1258,7 +1224,6 @@ vlr
 3b
 .
 html
-fails
 =
 =
 float
@@ -1308,7 +1273,6 @@ vlr
 3d
 .
 html
-fails
 =
 =
 float
@@ -1333,7 +1297,6 @@ vlr
 4a
 .
 html
-fails
 =
 =
 float
@@ -1358,7 +1321,6 @@ vlr
 4b
 .
 html
-fails
 =
 =
 float
@@ -1408,7 +1370,6 @@ vlr
 4d
 .
 html
-fails
 =
 =
 float
@@ -1433,7 +1394,6 @@ vrl
 1a
 .
 html
-fails
 =
 =
 float
@@ -1458,7 +1418,6 @@ vrl
 1b
 .
 html
-fails
 =
 =
 float
@@ -1483,7 +1442,6 @@ vrl
 1c
 .
 html
-fails
 =
 =
 float
@@ -1508,7 +1466,6 @@ vrl
 1d
 .
 html
-fails
 =
 =
 float
@@ -1533,7 +1490,6 @@ vrl
 2a
 .
 html
-fails
 =
 =
 float
@@ -1558,7 +1514,6 @@ vrl
 2b
 .
 html
-fails
 =
 =
 float
@@ -1608,7 +1563,6 @@ vrl
 2d
 .
 html
-fails
 =
 =
 float
@@ -1633,7 +1587,6 @@ vrl
 3a
 .
 html
-fails
 =
 =
 float
@@ -1658,7 +1611,6 @@ vrl
 3b
 .
 html
-fails
 =
 =
 float
@@ -1708,7 +1660,6 @@ vrl
 3d
 .
 html
-fails
 =
 =
 float
@@ -1733,7 +1684,6 @@ vrl
 4a
 .
 html
-fails
 =
 =
 float
@@ -1758,7 +1708,6 @@ vrl
 4b
 .
 html
-fails
 =
 =
 float
@@ -1808,7 +1757,6 @@ vrl
 4d
 .
 html
-fails
 =
 =
 orthogonal
@@ -1825,7 +1773,6 @@ floats
 1a
 .
 html
-fails
 =
 =
 orthogonal

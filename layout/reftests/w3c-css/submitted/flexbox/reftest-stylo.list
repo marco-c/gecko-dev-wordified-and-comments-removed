@@ -72,7 +72,6 @@ handling
 anonymous
 flex
 items
-fails
 =
 =
 flexbox
@@ -281,7 +280,6 @@ horiz
 001b
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -310,7 +308,6 @@ horiz
 002
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -339,7 +336,6 @@ horiz
 003
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -368,7 +364,6 @@ horiz
 004
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -455,7 +450,6 @@ horiz
 007
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -570,7 +564,6 @@ horiz
 table
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -595,7 +588,6 @@ horiz
 002
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -620,7 +612,6 @@ horiz
 003
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -645,7 +636,6 @@ horiz
 004
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -695,7 +685,6 @@ vert
 001
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -720,7 +709,6 @@ vert
 002
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -745,7 +733,6 @@ vert
 003
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -799,7 +786,6 @@ rtl
 001
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -828,7 +814,6 @@ rtl
 002
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -857,7 +842,6 @@ rtl
 003
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -896,7 +880,6 @@ of
 a
 flex
 container
-fails
 =
 =
 flexbox
@@ -1004,7 +987,6 @@ empty
 001b
 .
 html
-fails
 =
 =
 flexbox
@@ -1062,7 +1044,6 @@ vert
 001
 .
 html
-fails
 =
 =
 flexbox
@@ -1091,7 +1072,6 @@ horiz
 001
 .
 html
-fails
 =
 =
 flexbox
@@ -1178,7 +1158,6 @@ horiz
 004
 .
 html
-fails
 =
 =
 flexbox
@@ -1207,7 +1186,6 @@ vert
 001
 .
 html
-fails
 =
 =
 flexbox
@@ -1236,7 +1214,6 @@ vert
 002
 .
 html
-fails
 =
 =
 flexbox
@@ -1261,7 +1238,6 @@ item
 001a
 .
 html
-fails
 =
 =
 flexbox
@@ -1891,7 +1867,6 @@ visibility
 :
 collapse
 "
-fails
 =
 =
 flexbox
@@ -1996,7 +1971,6 @@ flex
 flow
 shorthand
 property
-fails
 =
 =
 flexbox
@@ -2017,7 +1991,6 @@ flow
 001
 .
 html
-fails
 =
 =
 flexbox
@@ -3656,7 +3629,6 @@ horiz
 001
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -3698,7 +3670,6 @@ vert
 001
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -3865,7 +3836,6 @@ elements
 001
 .
 html
-fails
 =
 =
 flexbox

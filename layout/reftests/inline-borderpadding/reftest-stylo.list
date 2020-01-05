@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 ltr
@@ -27,7 +26,6 @@ ltr
 basic
 .
 html
-fails
 =
 =
 rtl
@@ -40,7 +38,6 @@ rtl
 basic
 .
 html
-fails
 =
 =
 rtl
@@ -57,7 +54,6 @@ span
 only
 .
 html
-fails
 =
 =
 ltr
@@ -74,7 +70,6 @@ span
 only
 .
 html
-fails
 =
 =
 ltr
@@ -87,7 +82,6 @@ ltr
 ib
 .
 html
-fails
 =
 =
 rtl
@@ -100,7 +94,6 @@ rtl
 ib
 .
 html
-fails
 =
 =
 rtl
@@ -121,7 +114,6 @@ only
 ib
 .
 html
-fails
 =
 =
 ltr

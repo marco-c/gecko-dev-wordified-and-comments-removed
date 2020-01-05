@@ -170,7 +170,6 @@ the
 file
 extensions
 .
-fails
 =
 =
 html
@@ -195,7 +194,6 @@ by
 extension
 .
 html
-fails
 HTTP
 =
 =
@@ -313,7 +311,6 @@ same
 for
 data
 :
-fails
 =
 =
 default
@@ -351,7 +348,6 @@ Text
 /
 div
 >
-fails
 HTTP
 =
 =
@@ -478,7 +474,6 @@ xulRuntime
 .
 OS
 works
-fails
 =
 =
 data
@@ -499,6 +494,7 @@ html
 body
 >
 Linux
+#
 fails
 -
 if
@@ -532,6 +528,7 @@ html
 body
 >
 Win
+#
 fails
 -
 if
@@ -649,7 +646,6 @@ is
 display
 :
 block
-fails
 =
 =
 div
@@ -850,7 +846,6 @@ height
 2in
 .
 html
-fails
 =
 =
 page
@@ -1415,7 +1410,7 @@ html
 an
 integer
 pref
-fails
+#
 pref
 (
 font
@@ -1445,7 +1440,6 @@ size
 16
 .
 html
-fails
 pref
 (
 font
@@ -1475,7 +1469,6 @@ size
 24
 .
 html
-fails
 pref
 (
 font
@@ -1505,7 +1498,7 @@ size
 24
 .
 html
-fails
+#
 pref
 (
 font
@@ -1535,7 +1528,7 @@ size
 16
 .
 html
-fails
+#
 pref
 (
 font
@@ -1565,7 +1558,7 @@ size
 16
 .
 html
-fails
+#
 pref
 (
 font
@@ -1601,7 +1594,7 @@ html
 a
 string
 pref
-fails
+#
 pref
 (
 font
@@ -1627,7 +1620,6 @@ font
 serif
 .
 html
-fails
 pref
 (
 font
@@ -1657,7 +1649,6 @@ sans
 serif
 .
 html
-fails
 pref
 (
 font
@@ -1689,6 +1680,7 @@ sans
 serif
 .
 html
+#
 fails
 pref
 (
@@ -1717,6 +1709,7 @@ font
 serif
 .
 html
+#
 fails
 pref
 (
@@ -1741,6 +1734,7 @@ font
 serif
 .
 html
+#
 fails
 pref
 (
@@ -1775,7 +1769,7 @@ and
 test
 -
 pref
-fails
+#
 ref
 -
 pref
@@ -1807,7 +1801,6 @@ size
 16
 .
 html
-fails
 ref
 -
 pref
@@ -1839,7 +1832,6 @@ size
 24
 .
 html
-fails
 ref
 -
 pref
@@ -1871,7 +1863,7 @@ size
 24
 .
 html
-fails
+#
 ref
 -
 pref
@@ -1903,7 +1895,7 @@ size
 16
 .
 html
-fails
+#
 ref
 -
 pref
@@ -1935,7 +1927,7 @@ size
 16
 .
 html
-fails
+#
 ref
 -
 pref
@@ -2526,7 +2518,6 @@ html
 default
 -
 preferences
-fails
 =
 =
 async
@@ -2543,7 +2534,6 @@ zoom
 1
 .
 html
-fails
 =
 =
 async

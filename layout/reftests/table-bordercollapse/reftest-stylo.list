@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 bc_dyn_cell1
@@ -23,7 +22,6 @@ html
 bc_dyn_cell1
 .
 html
-fails
 =
 =
 bc_dyn_cell2
@@ -32,7 +30,6 @@ html
 bc_dyn_cell2
 .
 html
-fails
 =
 =
 bc_dyn_cell3
@@ -41,7 +38,6 @@ html
 bc_dyn_cell3
 .
 html
-fails
 =
 =
 bc_dyn_cell4
@@ -50,7 +46,6 @@ html
 bc_dyn_cell4
 .
 html
-fails
 =
 =
 bc_dyn_cell5
@@ -59,7 +54,6 @@ html
 bc_dyn_cell5
 .
 html
-fails
 =
 =
 bc_dyn_row1
@@ -68,7 +62,6 @@ html
 bc_dyn_row1
 .
 html
-fails
 =
 =
 bc_dyn_row2
@@ -77,7 +70,6 @@ html
 bc_dyn_row2
 .
 html
-fails
 =
 =
 bc_dyn_row3
@@ -86,7 +78,6 @@ html
 bc_dyn_row3
 .
 html
-fails
 =
 =
 bc_dyn_rg1
@@ -95,7 +86,6 @@ html
 bc_dyn_rg1
 .
 html
-fails
 =
 =
 bc_dyn_rg2
@@ -104,7 +94,6 @@ html
 bc_dyn_rg2
 .
 html
-fails
 =
 =
 bc_dyn_rg3
@@ -113,7 +102,6 @@ html
 bc_dyn_rg3
 .
 html
-fails
 =
 =
 bc_dyn_col1
@@ -122,7 +110,6 @@ html
 bc_dyn_col1
 .
 html
-fails
 =
 =
 bc_dyn_col2
@@ -131,7 +118,6 @@ html
 bc_dyn_col2
 .
 html
-fails
 =
 =
 bc_dyn_col3
@@ -140,7 +126,6 @@ html
 bc_dyn_col3
 .
 html
-fails
 =
 =
 bc_dyn_cg1
@@ -149,7 +134,6 @@ html
 bc_dyn_cg1
 .
 html
-fails
 =
 =
 bc_dyn_cg2
@@ -158,7 +142,6 @@ html
 bc_dyn_cg2
 .
 html
-fails
 =
 =
 bc_dyn_cg3
@@ -194,7 +177,6 @@ html
 bc_dyn_table3
 .
 html
-fails
 =
 =
 bc_borderoffset1
@@ -203,7 +185,6 @@ html
 bc_borderoffset1
 .
 html
-fails
 =
 =
 bc_borderoffset2
@@ -212,7 +193,6 @@ html
 bc_borderoffset2
 .
 html
-fails
 =
 =
 frame_above_rules_all
@@ -221,7 +201,6 @@ html
 frame_above_rules_all
 .
 html
-fails
 =
 =
 frame_above_rules_cols
@@ -230,7 +209,6 @@ html
 frame_above_rules_cols
 .
 html
-fails
 =
 =
 frame_above_rules_groups
@@ -239,7 +217,6 @@ html
 frame_above_rules_groups
 .
 html
-fails
 =
 =
 frame_above_rules_none
@@ -248,7 +225,6 @@ html
 frame_above_rules_none
 .
 html
-fails
 =
 =
 frame_above_rules_rows
@@ -257,7 +233,6 @@ html
 frame_above_rules_rows
 .
 html
-fails
 =
 =
 frame_below_rules_all
@@ -266,7 +241,6 @@ html
 frame_below_rules_all
 .
 html
-fails
 =
 =
 frame_below_rules_cols
@@ -275,7 +249,6 @@ html
 frame_below_rules_cols
 .
 html
-fails
 =
 =
 frame_below_rules_groups
@@ -284,7 +257,6 @@ html
 frame_below_rules_groups
 .
 html
-fails
 =
 =
 frame_below_rules_none
@@ -293,7 +265,6 @@ html
 frame_below_rules_none
 .
 html
-fails
 =
 =
 frame_below_rules_rows
@@ -302,7 +273,6 @@ html
 frame_below_rules_rows
 .
 html
-fails
 =
 =
 frame_border_rules_all
@@ -311,7 +281,6 @@ html
 frame_border_rules_all
 .
 html
-fails
 =
 =
 frame_border_rules_cols
@@ -320,7 +289,6 @@ html
 frame_border_rules_cols
 .
 html
-fails
 =
 =
 frame_border_rules_groups
@@ -329,7 +297,6 @@ html
 frame_border_rules_groups
 .
 html
-fails
 =
 =
 frame_border_rules_none
@@ -338,7 +305,6 @@ html
 frame_border_rules_none
 .
 html
-fails
 =
 =
 frame_border_rules_rows
@@ -347,7 +313,6 @@ html
 frame_border_rules_rows
 .
 html
-fails
 =
 =
 frame_box_rules_all
@@ -356,7 +321,6 @@ html
 frame_box_rules_all
 .
 html
-fails
 =
 =
 frame_box_rules_cols
@@ -365,7 +329,6 @@ html
 frame_box_rules_cols
 .
 html
-fails
 =
 =
 frame_box_rules_groups
@@ -374,7 +337,6 @@ html
 frame_box_rules_groups
 .
 html
-fails
 =
 =
 frame_box_rules_none
@@ -383,7 +345,6 @@ html
 frame_box_rules_none
 .
 html
-fails
 =
 =
 frame_box_rules_none
@@ -396,7 +357,6 @@ frame_box_rules_none
 collapse
 .
 html
-fails
 =
 =
 frame_box_rules_rows
@@ -405,7 +365,6 @@ html
 frame_box_rules_rows
 .
 html
-fails
 =
 =
 frame_hsides_rules_all
@@ -414,7 +373,6 @@ html
 frame_hsides_rules_all
 .
 html
-fails
 =
 =
 frame_hsides_rules_cols
@@ -423,7 +381,6 @@ html
 frame_hsides_rules_cols
 .
 html
-fails
 =
 =
 frame_hsides_rules_groups
@@ -432,7 +389,6 @@ html
 frame_hsides_rules_groups
 .
 html
-fails
 =
 =
 frame_hsides_rules_none
@@ -441,7 +397,6 @@ html
 frame_hsides_rules_none
 .
 html
-fails
 =
 =
 frame_hsides_rules_rows
@@ -450,7 +405,6 @@ html
 frame_hsides_rules_rows
 .
 html
-fails
 =
 =
 frame_lhs_rules_all
@@ -459,7 +413,6 @@ html
 frame_lhs_rules_all
 .
 html
-fails
 =
 =
 frame_lhs_rules_cols
@@ -468,7 +421,6 @@ html
 frame_lhs_rules_cols
 .
 html
-fails
 =
 =
 frame_lhs_rules_groups
@@ -477,7 +429,6 @@ html
 frame_lhs_rules_groups
 .
 html
-fails
 =
 =
 frame_lhs_rules_none
@@ -486,7 +437,6 @@ html
 frame_lhs_rules_none
 .
 html
-fails
 =
 =
 frame_lhs_rules_rows
@@ -495,7 +445,6 @@ html
 frame_lhs_rules_rows
 .
 html
-fails
 =
 =
 frame_rhs_rules_all
@@ -504,7 +453,6 @@ html
 frame_rhs_rules_all
 .
 html
-fails
 =
 =
 frame_rhs_rules_cols
@@ -513,7 +461,6 @@ html
 frame_rhs_rules_cols
 .
 html
-fails
 =
 =
 frame_rhs_rules_groups
@@ -522,7 +469,6 @@ html
 frame_rhs_rules_groups
 .
 html
-fails
 =
 =
 frame_rhs_rules_none
@@ -531,7 +477,6 @@ html
 frame_rhs_rules_none
 .
 html
-fails
 =
 =
 frame_rhs_rules_rows
@@ -540,7 +485,6 @@ html
 frame_rhs_rules_rows
 .
 html
-fails
 =
 =
 frame_void_rules_all
@@ -549,7 +493,6 @@ html
 frame_void_rules_all
 .
 html
-fails
 =
 =
 frame_void_rules_cols
@@ -558,7 +501,6 @@ html
 frame_void_rules_cols
 .
 html
-fails
 =
 =
 frame_void_rules_groups
@@ -567,7 +509,6 @@ html
 frame_void_rules_groups
 .
 html
-fails
 =
 =
 frame_void_rules_none
@@ -576,7 +517,6 @@ html
 frame_void_rules_none
 .
 html
-fails
 =
 =
 frame_void_rules_rows
@@ -585,7 +525,6 @@ html
 frame_void_rules_rows
 .
 html
-fails
 =
 =
 frame_vsides_rules_all
@@ -594,7 +533,6 @@ html
 frame_vsides_rules_all
 .
 html
-fails
 =
 =
 frame_vsides_rules_cols
@@ -603,7 +541,6 @@ html
 frame_vsides_rules_cols
 .
 html
-fails
 =
 =
 frame_vsides_rules_groups
@@ -612,7 +549,6 @@ html
 frame_vsides_rules_groups
 .
 html
-fails
 =
 =
 frame_vsides_rules_none
@@ -621,7 +557,6 @@ html
 frame_vsides_rules_none
 .
 html
-fails
 =
 =
 frame_vsides_rules_rows
@@ -1152,7 +1087,6 @@ bordercolor
 4
 .
 html
-fails
 =
 =
 empty
@@ -1165,7 +1099,6 @@ empty
 toprow
 .
 html
-fails
 =
 =
 double_borders
@@ -1175,7 +1108,6 @@ double_borders
 .
 html
 #
-fails
 =
 =
 border
@@ -1227,7 +1159,6 @@ is
 20px
 )
 .
-fails
 =
 =
 border
@@ -1287,7 +1218,6 @@ is
 20px
 )
 .
-fails
 =
 =
 border

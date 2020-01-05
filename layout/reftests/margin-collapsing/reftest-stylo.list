@@ -15487,7 +15487,6 @@ child
 2
 .
 html
-fails
 =
 =
 inline
@@ -15532,7 +15531,6 @@ child
 dyn
 .
 html
-fails
 =
 =
 inline
@@ -15557,7 +15555,6 @@ child
 dyn
 .
 html
-fails
 =
 =
 inline
@@ -16973,7 +16970,6 @@ other
 block
 boxes
 .
-fails
 =
 =
 block
@@ -16994,7 +16990,6 @@ root
 1a
 .
 xhtml
-fails
 =
 =
 block
@@ -17015,7 +17010,6 @@ root
 1b
 .
 xhtml
-fails
 =
 =
 block
@@ -17036,7 +17030,6 @@ root
 2
 .
 xhtml
-fails
 =
 =
 block
@@ -17752,7 +17745,6 @@ html
 Other
 tests
 .
-fails
 =
 =
 dynamic

@@ -58,7 +58,6 @@ s01i3p01
 paletted
 file
 interlaced
-fails
 =
 =
 s01i3p01
@@ -75,7 +74,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s01n3p01
@@ -91,7 +89,6 @@ s02i3p01
 paletted
 file
 interlaced
-fails
 =
 =
 s02i3p01
@@ -108,7 +105,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s02n3p01
@@ -124,7 +120,6 @@ s03i3p01
 paletted
 file
 interlaced
-fails
 =
 =
 s03i3p01
@@ -141,7 +136,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s03n3p01
@@ -157,7 +151,6 @@ s04i3p01
 paletted
 file
 interlaced
-fails
 =
 =
 s04i3p01
@@ -174,7 +167,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s04n3p01
@@ -190,7 +182,6 @@ s05i3p02
 paletted
 file
 interlaced
-fails
 =
 =
 s05i3p02
@@ -207,7 +198,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s05n3p02
@@ -223,7 +213,6 @@ s06i3p02
 paletted
 file
 interlaced
-fails
 =
 =
 s06i3p02
@@ -240,7 +229,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s06n3p02
@@ -256,7 +244,6 @@ s07i3p02
 paletted
 file
 interlaced
-fails
 =
 =
 s07i3p02
@@ -273,7 +260,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s07n3p02
@@ -289,7 +275,6 @@ s08i3p02
 paletted
 file
 interlaced
-fails
 =
 =
 s08i3p02
@@ -306,7 +291,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s08n3p02
@@ -322,7 +306,6 @@ s09i3p02
 paletted
 file
 interlaced
-fails
 =
 =
 s09i3p02
@@ -339,7 +322,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s09n3p02
@@ -355,7 +337,6 @@ s32i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s32i3p04
@@ -372,7 +353,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s32n3p04
@@ -388,7 +368,6 @@ s33i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s33i3p04
@@ -405,7 +384,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s33n3p04
@@ -421,7 +399,6 @@ s34i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s34i3p04
@@ -438,7 +415,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s34n3p04
@@ -454,7 +430,6 @@ s35i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s35i3p04
@@ -471,7 +446,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s35n3p04
@@ -487,7 +461,6 @@ s36i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s36i3p04
@@ -504,7 +477,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s36n3p04
@@ -520,7 +492,6 @@ s37i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s37i3p04
@@ -537,7 +508,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s37n3p04
@@ -553,7 +523,6 @@ s38i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s38i3p04
@@ -570,7 +539,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s38n3p04
@@ -586,7 +554,6 @@ s39i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s39i3p04
@@ -603,7 +570,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s39n3p04
@@ -619,7 +585,6 @@ s40i3p04
 paletted
 file
 interlaced
-fails
 =
 =
 s40i3p04
@@ -636,7 +601,6 @@ paletted
 file
 no
 interlacing
-fails
 =
 =
 s40n3p04

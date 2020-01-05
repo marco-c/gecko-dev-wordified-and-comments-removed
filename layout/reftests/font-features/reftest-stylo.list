@@ -600,7 +600,7 @@ a
 feature
 is
 repeated
-fails
+#
 HTTP
 (
 .
@@ -1191,7 +1191,6 @@ spaces
 kerning
 should
 occur
-fails
 HTTP
 (
 .

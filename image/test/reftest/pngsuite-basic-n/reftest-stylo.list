@@ -30,7 +30,6 @@ basn0g01
 black
 &
 white
-fails
 =
 =
 basn0g01
@@ -49,7 +48,6 @@ bit
 level
 )
 grayscale
-fails
 =
 =
 basn0g02
@@ -68,7 +66,6 @@ bit
 level
 )
 grayscale
-fails
 =
 =
 basn0g04
@@ -87,7 +84,6 @@ bit
 level
 )
 grayscale
-fails
 =
 =
 basn0g08
@@ -106,7 +102,6 @@ bit
 level
 )
 grayscale
-fails
 =
 =
 basn0g16
@@ -122,7 +117,6 @@ basn2c08
 bits
 rgb
 color
-fails
 =
 =
 basn2c08
@@ -138,7 +132,6 @@ basn2c16
 bits
 rgb
 color
-fails
 =
 =
 basn2c16
@@ -157,7 +150,6 @@ bit
 color
 )
 paletted
-fails
 =
 =
 basn3p01
@@ -176,7 +168,6 @@ bit
 color
 )
 paletted
-fails
 =
 =
 basn3p02
@@ -195,7 +186,6 @@ bit
 color
 )
 paletted
-fails
 =
 =
 basn3p04
@@ -214,7 +204,6 @@ bit
 color
 )
 paletted
-fails
 =
 =
 basn3p08

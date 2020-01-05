@@ -58,7 +58,6 @@ dir
 3
 .
 html
-fails
 =
 =
 dir
@@ -191,7 +190,6 @@ spacing
 1
 .
 html
-fails
 pref
 (
 mathml
@@ -215,7 +213,6 @@ scriptlevel
 1
 .
 html
-fails
 pref
 (
 mathml
@@ -3345,7 +3342,6 @@ dynamic
 3
 .
 html
-fails
 =
 =
 whitespace
@@ -3567,7 +3563,6 @@ menclose
 1a
 .
 html
-fails
 =
 =
 menclose
@@ -3593,7 +3588,6 @@ menclose
 1c
 .
 html
-fails
 =
 =
 menclose
@@ -3606,7 +3600,6 @@ menclose
 1d
 .
 html
-fails
 =
 =
 menclose
@@ -3619,7 +3612,6 @@ menclose
 1e
 .
 html
-fails
 =
 =
 menclose
@@ -3632,7 +3624,6 @@ menclose
 1f
 .
 html
-fails
 =
 =
 menclose
@@ -3645,7 +3636,6 @@ menclose
 1g
 .
 html
-fails
 =
 =
 menclose
@@ -3658,7 +3648,6 @@ menclose
 1h
 .
 html
-fails
 =
 =
 menclose
@@ -3671,7 +3660,6 @@ menclose
 1i
 .
 html
-fails
 =
 =
 menclose
@@ -3684,7 +3672,6 @@ menclose
 1j
 .
 html
-fails
 =
 =
 menclose
@@ -3697,7 +3684,6 @@ menclose
 1k
 .
 html
-fails
 =
 =
 menclose
@@ -3710,7 +3696,6 @@ menclose
 1l
 .
 html
-fails
 =
 =
 menclose
@@ -3723,7 +3708,6 @@ menclose
 1m
 .
 html
-fails
 =
 =
 menclose
@@ -3736,7 +3720,6 @@ menclose
 1n
 .
 html
-fails
 =
 =
 menclose
@@ -3749,7 +3732,6 @@ menclose
 1o
 .
 html
-fails
 =
 =
 menclose
@@ -3762,7 +3744,6 @@ menclose
 1p
 .
 html
-fails
 =
 =
 menclose
@@ -4201,7 +4182,6 @@ menclose
 unknown
 .
 html
-fails
 =
 =
 menclose
@@ -5193,7 +5173,6 @@ columnlines
 1
 .
 html
-fails
 =
 =
 columnlines
@@ -5473,7 +5452,6 @@ dict
 2
 .
 html
-fails
 =
 =
 op

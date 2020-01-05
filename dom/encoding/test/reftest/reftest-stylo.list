@@ -14,7 +14,7 @@ list
 for
 Stylo
 testing
-fails
+#
 =
 =
 bug863728
@@ -52,7 +52,7 @@ bug863728
 3
 .
 html
-fails
+#
 =
 =
 bug945215

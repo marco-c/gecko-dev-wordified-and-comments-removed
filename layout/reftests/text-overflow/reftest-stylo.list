@@ -314,7 +314,6 @@ marker
 shadow
 .
 html
-fails
 =
 =
 aligned
@@ -340,7 +339,6 @@ clipped
 elements
 .
 html
-fails
 HTTP
 (
 .

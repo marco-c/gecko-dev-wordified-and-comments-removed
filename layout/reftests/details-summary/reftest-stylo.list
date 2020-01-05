@@ -193,7 +193,6 @@ no
 summary
 .
 html
-fails
 =
 =
 summary
@@ -640,7 +639,6 @@ With
 overflow
 '
 property
-fails
 =
 =
 overflow
@@ -703,7 +701,6 @@ html
 With
 pagination
 property
-fails
 =
 =
 details
@@ -728,7 +725,6 @@ after
 1
 .
 html
-fails
 =
 =
 details
@@ -753,7 +749,6 @@ after
 2
 .
 html
-fails
 =
 =
 details
@@ -778,7 +773,6 @@ before
 1
 .
 html
-fails
 =
 =
 details
@@ -809,7 +803,6 @@ With
 float
 '
 property
-fails
 =
 =
 float
@@ -834,7 +827,6 @@ float
 details
 .
 html
-fails
 =
 =
 float
@@ -859,7 +851,6 @@ inflow
 details
 .
 html
-fails
 =
 =
 float
@@ -888,7 +879,6 @@ open
 details
 .
 html
-fails
 =
 =
 float
@@ -917,7 +907,6 @@ open
 details
 .
 html
-fails
 =
 =
 float
@@ -942,7 +931,6 @@ float
 details
 .
 html
-fails
 =
 =
 float
@@ -967,7 +955,6 @@ inflow
 details
 .
 html
-fails
 =
 =
 float
@@ -996,7 +983,6 @@ open
 details
 .
 html
-fails
 =
 =
 float
@@ -1025,7 +1011,6 @@ open
 details
 .
 html
-fails
 =
 =
 float
@@ -1054,7 +1039,6 @@ float
 left
 .
 html
-fails
 =
 =
 float
@@ -1090,7 +1074,6 @@ on
 details
 or
 summary
-fails
 =
 =
 details
@@ -1107,7 +1090,6 @@ display
 inline
 .
 html
-fails
 =
 =
 details
@@ -1128,7 +1110,6 @@ height
 children
 .
 html
-fails
 =
 =
 details
@@ -1145,7 +1126,6 @@ absolute
 children
 .
 html
-fails
 =
 =
 details
@@ -1196,7 +1176,6 @@ in
 ol
 .
 html
-fails
 =
 =
 summary
@@ -1436,7 +1415,6 @@ hidden
 details
 .
 html
-fails
 =
 =
 mouse
@@ -1577,7 +1555,6 @@ display
 none
 .
 html
-fails
 =
 =
 mouse

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 121142
@@ -27,7 +26,6 @@ html
 1a
 .
 html
-fails
 =
 =
 121142
@@ -40,7 +38,6 @@ html
 1b
 .
 html
-fails
 =
 =
 121142
@@ -91,7 +88,6 @@ xhtml
 1
 .
 xhtml
-fails
 =
 =
 203923
@@ -104,7 +100,6 @@ html
 1
 .
 html
-fails
 =
 =
 203923
@@ -117,7 +112,6 @@ html
 2
 .
 html
-fails
 =
 =
 208305
@@ -143,7 +137,6 @@ html
 2
 .
 html
-fails
 =
 =
 208305
@@ -195,7 +188,6 @@ html
 1
 .
 html
-fails
 =
 =
 302113
@@ -221,7 +213,6 @@ xhtml
 1
 .
 xhtml
-fails
 =
 =
 325543
@@ -234,7 +225,6 @@ html
 1a
 .
 html
-fails
 =
 =
 325543
@@ -286,7 +276,6 @@ html
 1b
 .
 html
-fails
 =
 =
 363326
@@ -312,7 +301,6 @@ html
 1
 .
 html
-fails
 =
 =
 371054
@@ -364,7 +352,6 @@ xhtml
 1c
 .
 xhtml
-fails
 =
 =
 372649
@@ -377,7 +364,6 @@ html
 1
 .
 html
-fails
 =
 =
 373379
@@ -416,7 +402,6 @@ html
 1b
 .
 html
-fails
 =
 =
 398095
@@ -429,7 +414,6 @@ html
 1
 .
 html
-fails
 =
 =
 407115
@@ -949,7 +933,7 @@ pos
 tbody
 .
 html
-fails
+#
 =
 =
 dynamic
@@ -966,7 +950,7 @@ removal
 1
 .
 html
-fails
+#
 =
 =
 dynamic
@@ -983,7 +967,7 @@ removal
 2
 .
 html
-fails
+#
 =
 =
 dynamic
@@ -1085,7 +1069,6 @@ removal
 8
 .
 html
-fails
 =
 =
 dynamic
@@ -1102,7 +1085,6 @@ removal
 9
 .
 html
-fails
 =
 =
 dynamic
@@ -1119,7 +1101,6 @@ removal
 10
 .
 html
-fails
 =
 =
 dynamic
@@ -1136,7 +1117,6 @@ removal
 11
 .
 html
-fails
 =
 =
 dynamic
@@ -1566,7 +1546,7 @@ space
 1
 .
 html
-fails
+#
 =
 =
 white
@@ -1651,7 +1631,6 @@ space
 6
 .
 html
-fails
 =
 =
 white
@@ -1668,7 +1647,6 @@ space
 7
 .
 html
-fails
 =
 =
 white
@@ -1685,7 +1663,6 @@ space
 8
 .
 html
-fails
 =
 =
 white
@@ -1702,7 +1679,6 @@ space
 9
 .
 html
-fails
 =
 =
 white
@@ -1719,7 +1695,6 @@ space
 10
 .
 html
-fails
 =
 =
 white
@@ -1736,7 +1711,6 @@ space
 11
 .
 html
-fails
 =
 =
 white
@@ -1753,7 +1727,6 @@ space
 12
 .
 html
-fails
 =
 =
 white
@@ -1770,7 +1743,6 @@ space
 13
 .
 html
-fails
 =
 =
 white
@@ -1787,7 +1759,6 @@ space
 14
 .
 html
-fails
 =
 =
 white
@@ -1804,7 +1775,6 @@ space
 15
 .
 html
-fails
 =
 =
 white
@@ -1821,7 +1791,6 @@ space
 16
 .
 html
-fails
 =
 =
 white
@@ -1838,7 +1807,6 @@ space
 17
 .
 html
-fails
 =
 =
 white
@@ -1855,7 +1823,6 @@ space
 18
 .
 html
-fails
 =
 =
 white
@@ -1872,7 +1839,6 @@ space
 19
 .
 html
-fails
 =
 =
 white
@@ -1889,7 +1855,6 @@ space
 20
 .
 html
-fails
 =
 =
 white
@@ -1906,7 +1871,6 @@ space
 21
 .
 html
-fails
 =
 =
 white
@@ -1923,7 +1887,6 @@ space
 22
 .
 html
-fails
 =
 =
 white
@@ -1940,7 +1903,6 @@ space
 23
 .
 html
-fails
 =
 =
 white
@@ -1957,7 +1919,6 @@ space
 24
 .
 html
-fails
 =
 =
 white
@@ -1974,7 +1935,6 @@ space
 25
 .
 html
-fails
 =
 =
 white

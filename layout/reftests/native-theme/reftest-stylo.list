@@ -696,7 +696,6 @@ RTL
 mirroring
 tests
 #
-fails
 =
 =
 checkbox
@@ -776,7 +775,6 @@ rtl
 .
 xul
 #
-fails
 =
 =
 select

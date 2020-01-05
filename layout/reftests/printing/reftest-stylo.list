@@ -27,7 +27,6 @@ blank
 html
 #
 Bugs
-fails
 =
 =
 272830
@@ -40,7 +39,6 @@ html
 1
 .
 html
-fails
 =
 =
 318022
@@ -66,7 +64,6 @@ html
 1
 .
 html
-fails
 =
 =
 381497
@@ -79,7 +76,6 @@ html
 n
 .
 html
-fails
 =
 =
 test
@@ -121,7 +117,6 @@ html
 1b
 .
 html
-fails
 =
 =
 609227
@@ -134,7 +129,6 @@ html
 1
 .
 html
-fails
 =
 =
 609227
@@ -147,7 +141,6 @@ html
 2a
 .
 html
-fails
 =
 =
 609227
@@ -172,7 +165,6 @@ html
 1
 .
 html
-fails
 =
 =
 626395

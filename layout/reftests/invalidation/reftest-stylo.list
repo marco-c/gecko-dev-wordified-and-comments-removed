@@ -31,7 +31,7 @@ repaint
 a
 .
 html
-fails
+#
 =
 =
 table
@@ -65,7 +65,6 @@ repaint
 c
 .
 html
-fails
 =
 =
 table
@@ -1489,7 +1488,7 @@ invalidation
 html
 ?
 reverse
-fails
+#
 =
 =
 clipped

@@ -205,7 +205,7 @@ maxRatio
 1
 .
 html
-fails
+#
 test
 -
 pref
@@ -593,7 +593,6 @@ percent
 3
 .
 html
-fails
 test
 -
 pref
@@ -713,7 +712,6 @@ percent
 5
 .
 html
-fails
 test
 -
 pref
@@ -773,7 +771,6 @@ percent
 6
 .
 html
-fails
 test
 -
 pref
@@ -2641,7 +2638,6 @@ combobox
 3
 .
 html
-fails
 =
 =
 input
@@ -2654,7 +2650,6 @@ input
 checkbox
 .
 html
-fails
 =
 =
 input
@@ -2667,7 +2662,6 @@ input
 radio
 .
 html
-fails
 test
 -
 pref
@@ -2727,7 +2721,6 @@ on
 mobile
 .
 html
-fails
 test
 -
 pref
@@ -2791,7 +2784,6 @@ mobile
 2
 .
 html
-fails
 test
 -
 pref
@@ -3151,7 +3143,6 @@ the
 lineThreshold
 preference
 .
-fails
 test
 -
 pref
@@ -3260,7 +3251,6 @@ list
 1
 .
 html
-fails
 test
 -
 pref

@@ -338,6 +338,7 @@ none
 animation
 .
 html
+#
 =
 =
 no
@@ -902,7 +903,6 @@ backface
 visibility
 .
 html
-fails
 =
 =
 stacking

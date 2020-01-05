@@ -34,7 +34,6 @@ box
 shadow
 .
 html
-fails
 =
 =
 outline
@@ -59,7 +58,6 @@ transform
 1a
 .
 html
-fails
 =
 =
 outline
@@ -84,7 +82,6 @@ transform
 1b
 .
 html
-fails
 =
 =
 outline

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 box
@@ -39,7 +38,6 @@ box
 001
 .
 xht
-fails
 =
 =
 box
@@ -64,7 +62,6 @@ box
 002
 .
 xht
-fails
 =
 =
 box
@@ -89,7 +86,6 @@ box
 003
 .
 xht
-fails
 =
 =
 box
@@ -114,7 +110,6 @@ box
 004
 .
 xht
-fails
 =
 =
 box
@@ -139,7 +134,6 @@ box
 001
 .
 xht
-fails
 =
 =
 box
@@ -164,7 +158,6 @@ box
 002
 .
 xht
-fails
 =
 =
 box
@@ -189,7 +182,6 @@ box
 003
 .
 xht
-fails
 =
 =
 box
@@ -210,7 +202,6 @@ replaced
 001
 .
 xht
-fails
 =
 =
 box
@@ -231,7 +222,6 @@ replaced
 002
 .
 xht
-fails
 =
 =
 box

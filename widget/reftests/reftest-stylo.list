@@ -30,7 +30,6 @@ html
 .
 html
 #
-fails
 =
 =
 progressbar
@@ -90,7 +89,6 @@ style
 .
 html
 #
-fails
 =
 =
 meter

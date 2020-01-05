@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 capitalize
@@ -27,7 +26,6 @@ capitalize
 1
 .
 html
-fails
 =
 =
 capitalize
@@ -40,7 +38,6 @@ capitalize
 2
 .
 html
-fails
 =
 =
 capitalize
@@ -53,7 +50,6 @@ capitalize
 3
 .
 html
-fails
 =
 =
 capitalize
@@ -66,7 +62,6 @@ capitalize
 4
 .
 html
-fails
 =
 =
 capitalize
@@ -92,7 +87,6 @@ capitalize
 6
 .
 html
-fails
 =
 =
 capitalize
@@ -105,7 +99,6 @@ capitalize
 7
 .
 html
-fails
 =
 =
 capitalize
@@ -118,7 +111,6 @@ capitalize
 7a
 .
 html
-fails
 =
 =
 capitalize
@@ -131,7 +123,6 @@ capitalize
 8
 .
 html
-fails
 =
 =
 lowercase
@@ -144,7 +135,6 @@ lowercase
 1
 .
 html
-fails
 =
 =
 lowercase
@@ -308,7 +298,6 @@ caps
 1
 .
 html
-fails
 =
 =
 uppercase
@@ -321,7 +310,6 @@ uppercase
 1
 .
 html
-fails
 =
 =
 uppercase
@@ -390,7 +378,6 @@ all
 title
 .
 html
-fails
 =
 =
 smtp
@@ -403,7 +390,6 @@ smtp
 upper
 .
 html
-fails
 =
 =
 smtp
@@ -416,7 +402,6 @@ smtp
 lower
 .
 html
-fails
 =
 =
 smtp
@@ -600,7 +585,6 @@ lowercase
 1b
 .
 html
-fails
 =
 =
 fullwidth
@@ -613,7 +597,6 @@ fullwidth
 1
 .
 html
-fails
 =
 =
 fullwidth
@@ -626,7 +609,6 @@ fullwidth
 2
 .
 html
-fails
 =
 =
 fullwidth

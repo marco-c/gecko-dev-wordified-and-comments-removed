@@ -514,7 +514,6 @@ arabic
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -534,7 +533,6 @@ bug441782
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -554,7 +552,6 @@ bug441782
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -574,7 +571,6 @@ bug441782
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -594,7 +590,6 @@ bug441782
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -614,7 +609,6 @@ bug441782
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -634,7 +628,6 @@ bug441782
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -654,7 +647,6 @@ bug441782
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -674,7 +666,6 @@ bug441782
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -694,7 +685,6 @@ bug441782
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -793,7 +783,6 @@ bug441782
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -813,7 +802,6 @@ bug441782
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -833,7 +821,6 @@ bug441782
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -853,7 +840,6 @@ bug441782
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -873,7 +859,6 @@ bug441782
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -893,7 +878,6 @@ bug441782
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -913,7 +897,6 @@ bug441782
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -933,7 +916,6 @@ bug441782
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -953,7 +935,6 @@ bug441782
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -973,7 +954,6 @@ bug441782
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -993,7 +973,6 @@ bug441782
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1013,7 +992,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1033,7 +1011,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1053,7 +1030,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1073,7 +1049,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1093,7 +1068,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1113,7 +1087,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1133,7 +1106,6 @@ bug467672
 1
 .
 html
-fails
 pref
 (
 bidi
@@ -1153,7 +1125,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1173,7 +1144,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1193,7 +1163,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1213,7 +1182,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1233,7 +1201,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1253,7 +1220,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1273,7 +1239,6 @@ bug467672
 2
 .
 html
-fails
 pref
 (
 bidi
@@ -1293,7 +1258,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1313,7 +1277,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1333,7 +1296,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1353,7 +1315,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1373,7 +1334,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1393,7 +1353,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1413,7 +1372,6 @@ bug467672
 3
 .
 html
-fails
 pref
 (
 bidi
@@ -1433,7 +1391,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1453,7 +1410,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1473,7 +1429,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1493,7 +1448,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1513,7 +1467,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1533,7 +1486,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1553,7 +1505,6 @@ bug467672
 4
 .
 html
-fails
 pref
 (
 bidi
@@ -1573,7 +1524,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1593,7 +1543,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1613,7 +1562,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1633,7 +1581,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1653,7 +1600,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi
@@ -1673,7 +1619,6 @@ bug467672
 5
 .
 html
-fails
 pref
 (
 bidi

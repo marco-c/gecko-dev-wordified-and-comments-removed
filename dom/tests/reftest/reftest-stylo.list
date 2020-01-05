@@ -41,7 +41,6 @@ xhtml
 bug456008
 .
 xhtml
-fails
 =
 =
 bug439965
@@ -67,7 +66,6 @@ html
 bug559996
 .
 html
-fails
 =
 =
 bug591981
@@ -80,7 +78,6 @@ bug591981
 1
 .
 html
-fails
 =
 =
 bug591981
@@ -93,7 +90,6 @@ bug591981
 2
 .
 html
-fails
 =
 =
 bug592366
@@ -106,7 +102,6 @@ bug592366
 1
 .
 html
-fails
 =
 =
 bug592366
@@ -119,7 +114,6 @@ bug592366
 2
 .
 html
-fails
 =
 =
 bug592366
@@ -132,7 +126,6 @@ bug592366
 1
 .
 xhtml
-fails
 =
 =
 bug592366
@@ -145,7 +138,6 @@ bug592366
 2
 .
 xhtml
-fails
 =
 =
 bug798068

@@ -3911,7 +3911,6 @@ as
 -
 image
 .
-fails
 =
 =
 nonuniform
@@ -3944,7 +3943,6 @@ html
 1
 .
 0
-fails
 =
 =
 nonuniform
@@ -3977,7 +3975,6 @@ html
 0
 .
 5
-fails
 =
 =
 nonuniform
@@ -4018,7 +4015,6 @@ html
 0
 .
 5
-fails
 =
 =
 nonuniform

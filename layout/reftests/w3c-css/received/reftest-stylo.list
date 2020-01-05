@@ -102,7 +102,6 @@ optional
 002
 .
 html
-fails
 =
 =
 css
@@ -131,7 +130,6 @@ supports
 001
 .
 html
-fails
 =
 =
 css
@@ -160,7 +158,6 @@ supports
 002
 .
 html
-fails
 =
 =
 css
@@ -189,7 +186,6 @@ supports
 003
 .
 html
-fails
 =
 =
 css
@@ -218,7 +214,6 @@ supports
 004
 .
 html
-fails
 =
 =
 css
@@ -247,7 +242,6 @@ supports
 005
 .
 html
-fails
 =
 =
 css
@@ -276,7 +270,6 @@ supports
 006
 .
 html
-fails
 =
 =
 css
@@ -305,7 +298,6 @@ supports
 007
 .
 html
-fails
 =
 =
 css
@@ -334,7 +326,6 @@ supports
 008
 .
 html
-fails
 =
 =
 css
@@ -363,7 +354,6 @@ supports
 009
 .
 html
-fails
 =
 =
 css
@@ -392,7 +382,6 @@ supports
 010
 .
 html
-fails
 =
 =
 css
@@ -421,7 +410,6 @@ supports
 011
 .
 html
-fails
 =
 =
 css
@@ -450,7 +438,6 @@ supports
 012
 .
 html
-fails
 =
 =
 css
@@ -479,7 +466,6 @@ supports
 013
 .
 html
-fails
 =
 =
 css
@@ -508,7 +494,6 @@ supports
 014
 .
 html
-fails
 =
 =
 css
@@ -537,7 +522,6 @@ supports
 015
 .
 html
-fails
 =
 =
 css
@@ -566,7 +550,6 @@ supports
 016
 .
 html
-fails
 =
 =
 css
@@ -595,7 +578,6 @@ supports
 017
 .
 html
-fails
 =
 =
 css
@@ -624,7 +606,6 @@ supports
 018
 .
 html
-fails
 =
 =
 css
@@ -653,7 +634,6 @@ supports
 019
 .
 html
-fails
 =
 =
 css
@@ -682,7 +662,6 @@ supports
 020
 .
 html
-fails
 =
 =
 css
@@ -711,7 +690,6 @@ supports
 021
 .
 html
-fails
 =
 =
 css
@@ -740,7 +718,6 @@ supports
 022
 .
 html
-fails
 =
 =
 css
@@ -769,7 +746,6 @@ supports
 023
 .
 html
-fails
 =
 =
 css
@@ -798,7 +774,6 @@ supports
 024
 .
 html
-fails
 =
 =
 css
@@ -827,7 +802,6 @@ supports
 025
 .
 html
-fails
 =
 =
 css
@@ -856,7 +830,6 @@ supports
 026
 .
 html
-fails
 =
 =
 css
@@ -885,7 +858,6 @@ supports
 027
 .
 html
-fails
 =
 =
 css
@@ -914,7 +886,6 @@ supports
 028
 .
 html
-fails
 =
 =
 css
@@ -943,7 +914,6 @@ supports
 029
 .
 html
-fails
 =
 =
 css
@@ -972,7 +942,6 @@ supports
 030
 .
 html
-fails
 =
 =
 css
@@ -1001,7 +970,6 @@ supports
 031
 .
 html
-fails
 =
 =
 css
@@ -1030,7 +998,6 @@ supports
 032
 .
 html
-fails
 =
 =
 css
@@ -1059,7 +1026,6 @@ supports
 033
 .
 html
-fails
 =
 =
 css
@@ -1088,7 +1054,6 @@ supports
 034
 .
 html
-fails
 =
 =
 css
@@ -1117,7 +1082,6 @@ supports
 035
 .
 html
-fails
 =
 =
 css
@@ -1146,7 +1110,6 @@ supports
 036
 .
 html
-fails
 =
 =
 css
@@ -1175,7 +1138,6 @@ supports
 037
 .
 html
-fails
 =
 =
 css
@@ -1204,7 +1166,6 @@ supports
 038
 .
 html
-fails
 =
 =
 css
@@ -1415,7 +1376,6 @@ clip
 002
 .
 xht
-fails
 =
 =
 css
@@ -2621,7 +2581,6 @@ children
 001
 .
 xht
-fails
 =
 =
 css
@@ -3154,7 +3113,6 @@ inherit
 004
 .
 xht
-fails
 =
 =
 css
@@ -3741,7 +3699,6 @@ rule
 003
 .
 xht
-fails
 =
 =
 css
@@ -4108,7 +4065,6 @@ groove
 000
 .
 xht
-fails
 =
 =
 css
@@ -4207,7 +4163,6 @@ large
 001
 .
 xht
-fails
 =
 =
 css
@@ -4372,7 +4327,6 @@ ridge
 000
 .
 xht
-fails
 =
 =
 css
@@ -4405,7 +4359,6 @@ samelength
 001
 .
 xht
-fails
 =
 =
 css
@@ -4504,7 +4457,6 @@ stacking
 001
 .
 xht
-fails
 =
 =
 css
@@ -4541,7 +4493,6 @@ groove
 001
 .
 xht
-fails
 =
 =
 css
@@ -4578,7 +4529,6 @@ inset
 001
 .
 xht
-fails
 =
 =
 css
@@ -4615,7 +4565,6 @@ outset
 001
 .
 xht
-fails
 =
 =
 css
@@ -4809,7 +4758,6 @@ all
 003
 .
 xht
-fails
 =
 =
 css
@@ -4887,7 +4835,6 @@ child
 001
 .
 xht
-fails
 =
 =
 css
@@ -7603,7 +7550,6 @@ within
 006
 .
 html
-fails
 needs
 -
 focus

@@ -318,7 +318,7 @@ color
 ref
 .
 html
-fails
+#
 =
 =
 root
@@ -530,7 +530,6 @@ inline
 5b
 .
 html
-fails
 =
 =
 background
@@ -627,7 +626,6 @@ position
 1c
 .
 html
-fails
 =
 =
 background
@@ -644,7 +642,6 @@ position
 1d
 .
 html
-fails
 =
 =
 background
@@ -661,7 +658,6 @@ position
 1e
 .
 html
-fails
 =
 =
 background
@@ -776,7 +772,6 @@ position
 3b
 .
 html
-fails
 =
 =
 background
@@ -793,7 +788,6 @@ position
 3c
 .
 html
-fails
 =
 =
 background
@@ -858,7 +852,6 @@ position
 4c
 .
 html
-fails
 =
 =
 background
@@ -875,7 +868,6 @@ position
 4d
 .
 html
-fails
 =
 =
 background
@@ -924,7 +916,6 @@ position
 6a
 .
 html
-fails
 =
 =
 background
@@ -2662,7 +2653,6 @@ positioning
 5
 .
 html
-fails
 =
 =
 attachment
@@ -2687,7 +2677,6 @@ color
 1
 .
 html
-fails
 =
 =
 attachment
@@ -2712,7 +2701,6 @@ color
 2
 .
 html
-fails
 =
 =
 attachment
@@ -2737,7 +2725,6 @@ color
 3
 .
 html
-fails
 =
 =
 attachment
@@ -2762,7 +2749,6 @@ color
 4
 .
 html
-fails
 =
 =
 attachment
@@ -2787,7 +2773,6 @@ color
 5
 .
 html
-fails
 =
 =
 attachment
@@ -2812,7 +2797,6 @@ color
 6
 .
 html
-fails
 =
 =
 attachment
@@ -2837,7 +2821,6 @@ image
 1
 .
 html
-fails
 =
 =
 attachment
@@ -2862,7 +2845,6 @@ image
 2
 .
 html
-fails
 =
 =
 attachment
@@ -2899,7 +2881,6 @@ to
 bug
 1128229
 .
-fails
 =
 =
 attachment
@@ -2924,7 +2905,6 @@ image
 4
 .
 html
-fails
 =
 =
 attachment
@@ -2949,7 +2929,6 @@ image
 5
 .
 html
-fails
 =
 =
 attachment
@@ -3091,7 +3070,7 @@ text
 1a
 .
 html
-fails
+#
 =
 =
 background
@@ -3112,7 +3091,7 @@ text
 1b
 .
 html
-fails
+#
 =
 =
 background
@@ -3133,7 +3112,7 @@ text
 1c
 .
 html
-fails
+#
 =
 =
 background
@@ -3154,7 +3133,7 @@ text
 1d
 .
 html
-fails
+#
 =
 =
 background
@@ -3211,7 +3190,7 @@ text
 1a
 .
 html
-fails
+#
 pref
 (
 layout

@@ -55,7 +55,6 @@ zoom
 2
 .
 html
-fails
 =
 =
 image
@@ -72,7 +71,6 @@ seam
 1a
 .
 html
-fails
 =
 =
 image
@@ -89,7 +87,6 @@ seam
 1b
 .
 html
-fails
 =
 =
 image
@@ -2546,7 +2543,6 @@ selection
 5x
 .
 html
-fails
 =
 =
 image
@@ -2662,7 +2658,6 @@ width
 2x
 .
 html
-fails
 =
 =
 image
@@ -2712,7 +2707,6 @@ default
 2x
 .
 html
-fails
 =
 =
 image
@@ -2758,7 +2752,6 @@ src
 2x
 .
 html
-fails
 =
 =
 image
@@ -2804,7 +2797,6 @@ orientation
 2x
 .
 html
-fails
 =
 =
 image
@@ -2867,7 +2859,6 @@ svg
 2x
 .
 html
-fails
 =
 =
 image
@@ -2913,7 +2904,6 @@ default
 2x
 .
 html
-fails
 =
 =
 image

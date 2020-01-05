@@ -26,7 +26,6 @@ bidi
 1
 .
 html
-fails
 =
 =
 bidi
@@ -39,7 +38,6 @@ bidi
 2
 .
 html
-fails
 =
 =
 box
@@ -56,7 +54,6 @@ generation
 1
 .
 html
-fails
 =
 =
 box
@@ -73,7 +70,6 @@ generation
 2
 .
 html
-fails
 =
 =
 box
@@ -90,7 +86,6 @@ generation
 3
 .
 html
-fails
 =
 =
 box
@@ -107,7 +102,6 @@ generation
 4
 .
 html
-fails
 =
 =
 box
@@ -192,7 +186,6 @@ properties
 4
 .
 html
-fails
 =
 =
 dynamic
@@ -209,7 +202,6 @@ insertion
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -243,7 +235,7 @@ insertion
 3
 .
 html
-fails
+#
 =
 =
 dynamic
@@ -260,7 +252,7 @@ removal
 1
 .
 html
-fails
+#
 =
 =
 dynamic
@@ -277,7 +269,7 @@ removal
 2
 .
 html
-fails
+#
 =
 =
 dynamic
@@ -294,7 +286,6 @@ removal
 3
 .
 html
-fails
 =
 =
 float
@@ -376,7 +367,6 @@ ruby
 1
 .
 html
-fails
 =
 =
 intra
@@ -418,7 +408,6 @@ whitespace
 2
 .
 html
-fails
 =
 =
 intra
@@ -617,7 +606,6 @@ suppression
 3
 .
 html
-fails
 =
 =
 line
@@ -638,7 +626,6 @@ suppression
 4
 .
 html
-fails
 =
 =
 line
@@ -659,7 +646,7 @@ suppression
 5
 .
 html
-fails
+#
 =
 =
 line
@@ -676,7 +663,6 @@ height
 1
 .
 html
-fails
 =
 =
 line
@@ -693,7 +679,6 @@ height
 2
 .
 html
-fails
 =
 =
 line
@@ -710,7 +695,6 @@ height
 3
 .
 html
-fails
 =
 =
 line
@@ -770,7 +754,6 @@ ruby
 1
 .
 html
-fails
 =
 =
 no
@@ -944,7 +927,6 @@ vertical
 rl
 .
 html
-fails
 =
 =
 ruby
@@ -965,7 +947,6 @@ reflow
 opaqueruby
 .
 html
-fails
 =
 =
 ruby
@@ -986,7 +967,6 @@ reflow
 transparentruby
 .
 html
-fails
 =
 =
 ruby
@@ -1020,7 +1000,6 @@ whitespace
 1
 .
 html
-fails
 =
 =
 ruby

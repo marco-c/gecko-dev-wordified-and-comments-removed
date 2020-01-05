@@ -1069,7 +1069,6 @@ after
 degree
 rotations
 .
-fails
 =
 =
 snapping
@@ -1326,7 +1325,6 @@ transform
 can
 be
 reversed
-fails
 =
 =
 stresstest
@@ -1501,7 +1499,6 @@ html
 2
 .
 html
-fails
 =
 =
 830299
@@ -1585,7 +1582,6 @@ html
 #
 Bug
 722463
-fails
 =
 =
 inline

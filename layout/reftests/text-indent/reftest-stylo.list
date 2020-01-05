@@ -103,7 +103,6 @@ line
 100
 .
 html
-fails
 =
 =
 text
@@ -128,7 +127,6 @@ line
 0
 .
 html
-fails
 =
 =
 text
@@ -274,7 +272,6 @@ multiple
 line
 .
 html
-fails
 =
 =
 text
@@ -295,7 +292,6 @@ intrinsic
 pref
 .
 html
-fails
 =
 =
 text
@@ -316,7 +312,6 @@ intrinsic
 min
 .
 html
-fails
 =
 =
 text
@@ -341,7 +336,6 @@ intrinsic
 pref
 .
 html
-fails
 =
 =
 text
@@ -366,7 +360,6 @@ intrinsic
 min
 .
 html
-fails
 =
 =
 text

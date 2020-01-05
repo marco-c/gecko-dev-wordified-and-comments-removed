@@ -24,7 +24,6 @@ values
 .
 html
 #
-fails
 =
 =
 values
@@ -38,7 +37,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 margin
@@ -52,7 +50,6 @@ padding
 .
 html
 #
-fails
 =
 =
 margin
@@ -70,7 +67,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 bar
@@ -88,7 +84,6 @@ element
 .
 html
 #
-fails
 =
 =
 bar
@@ -130,7 +125,6 @@ html
 vertical
 tests
 #
-fails
 =
 =
 values
@@ -144,7 +138,6 @@ vertical
 .
 html
 #
-fails
 =
 =
 values
@@ -162,7 +155,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 margin
@@ -180,7 +172,6 @@ vertical
 .
 html
 #
-fails
 =
 =
 margin
@@ -202,7 +193,6 @@ rtl
 .
 html
 #
-fails
 =
 =
 bar
@@ -224,7 +214,6 @@ vertical
 .
 html
 #
-fails
 =
 =
 bar
@@ -321,7 +310,6 @@ for
 bugs
 :
 #
-fails
 =
 =
 block
@@ -335,7 +323,6 @@ invalidate
 .
 html
 #
-fails
 =
 =
 in
