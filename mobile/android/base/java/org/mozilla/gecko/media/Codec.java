@@ -1096,7 +1096,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -1109,7 +1108,6 @@ sample
 "
 )
 ;
-}
 mCallbacks
 .
 onOutput
@@ -1506,7 +1504,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -1522,7 +1519,6 @@ codec
 mCodec
 )
 ;
-}
 releaseCodec
 (
 )
@@ -1532,7 +1528,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -1545,7 +1540,6 @@ configure
 this
 )
 ;
-}
 MediaFormat
 fmt
 =
@@ -1694,7 +1688,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -1711,7 +1704,6 @@ playback
 mIsAdaptivePlaybackSupported
 )
 ;
-}
 fmt
 .
 setInteger
@@ -1774,7 +1766,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -1791,7 +1782,6 @@ created
 "
 )
 ;
-}
 return
 true
 ;
@@ -1806,7 +1796,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -1825,7 +1814,6 @@ codec
 codecName
 )
 ;
-}
 e
 .
 printStackTrace
@@ -2032,7 +2020,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -2045,7 +2032,6 @@ start
 this
 )
 ;
-}
 mFlushing
 =
 false
@@ -2143,7 +2129,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -2156,7 +2141,6 @@ stop
 this
 )
 ;
-}
 try
 {
 mCodec
@@ -2200,7 +2184,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -2213,7 +2196,6 @@ flush
 this
 )
 ;
-}
 mInputProcessor
 .
 reset
@@ -2258,7 +2240,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -2269,13 +2250,6 @@ flushed
 "
 +
 this
-)
-;
-}
-mCodec
-.
-resumeReceivingInputs
-(
 )
 ;
 }
@@ -2353,7 +2327,6 @@ if
 (
 DEBUG
 )
-{
 Log
 .
 d
@@ -2366,7 +2339,6 @@ release
 this
 )
 ;
-}
 releaseCodec
 (
 )
