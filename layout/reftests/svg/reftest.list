@@ -8038,12 +8038,6 @@ mode
 enabled
 true
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 blend

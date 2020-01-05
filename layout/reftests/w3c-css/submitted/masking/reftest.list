@@ -2141,12 +2141,6 @@ opacity
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 clip
