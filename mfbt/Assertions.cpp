@@ -84,10 +84,9 @@ aLine
 ;
 #
 endif
-MOZ_CRASH_ANNOTATE
-(
+gMozCrashReason
+=
 aReason
-)
 ;
 MOZ_REALLY_CRASH
 (
@@ -258,10 +257,9 @@ aLine
 ;
 #
 endif
-MOZ_CRASH_ANNOTATE
-(
+gMozCrashReason
+=
 sPrintfCrashReason
-)
 ;
 MOZ_REALLY_CRASH
 (
