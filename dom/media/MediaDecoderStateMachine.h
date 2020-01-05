@@ -1746,9 +1746,6 @@ mNotifyMetadataBeforeFirstFrame
 bool
 mMinimizePreroll
 ;
-bool
-mDecodeThreadWaiting
-;
 Maybe
 <
 MediaInfo
