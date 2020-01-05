@@ -2398,7 +2398,7 @@ Ok
 (
 elem
 .
-get_enabled_state
+enabled_state
 (
 )
 )

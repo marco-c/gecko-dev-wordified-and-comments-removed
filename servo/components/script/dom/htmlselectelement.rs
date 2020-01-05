@@ -530,7 +530,7 @@ is_none
 !
 element
 .
-get_disabled_state
+disabled_state
 (
 )
 {
@@ -692,7 +692,7 @@ Selected
 &
 element
 .
-get_enabled_state
+enabled_state
 (
 )
 {

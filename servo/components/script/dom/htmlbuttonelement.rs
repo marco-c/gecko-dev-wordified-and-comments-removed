@@ -1690,7 +1690,7 @@ Element
 (
 )
 .
-get_disabled_state
+disabled_state
 (
 )
 }

@@ -5748,7 +5748,7 @@ Element
 if
 element
 .
-get_hover_state
+hover_state
 (
 )
 {
@@ -11388,7 +11388,7 @@ Some
 (
 el
 .
-get_state
+state
 (
 )
 )
@@ -11645,7 +11645,7 @@ HTMLTextAreaElement
 if
 self
 .
-get_disabled_state
+disabled_state
 (
 )
 =
