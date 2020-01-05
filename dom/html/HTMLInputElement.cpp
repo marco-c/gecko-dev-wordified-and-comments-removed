@@ -16558,7 +16558,7 @@ mPresContext
 )
 {
 return
-nsGenericHTMLElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetEventTargetParent
@@ -17609,7 +17609,7 @@ mPresContext
 )
 {
 return
-nsGenericHTMLElement
+nsGenericHTMLFormElementWithState
 :
 :
 PreHandleEvent
