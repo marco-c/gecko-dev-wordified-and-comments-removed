@@ -1398,6 +1398,9 @@ exist
 )
 }
 ;
+layout_root
+}
+;
 debug
 !
 (
@@ -1414,8 +1417,6 @@ debug
 !
 (
 "
-%
-?
 "
 layout_root
 .
@@ -1423,9 +1424,6 @@ dump
 (
 )
 )
-;
-layout_root
-}
 ;
 /
 /

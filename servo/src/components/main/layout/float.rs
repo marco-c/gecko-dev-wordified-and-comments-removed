@@ -1592,6 +1592,12 @@ base
 abs_position
 =
 offset
++
+base
+.
+position
+.
+origin
 ;
 }
 }
