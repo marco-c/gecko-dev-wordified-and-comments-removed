@@ -208,6 +208,8 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+float
+aOpacity
 )
 override
 ;

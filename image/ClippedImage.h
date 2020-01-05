@@ -225,6 +225,8 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+float
+aOpacity
 )
 override
 ;
@@ -326,6 +328,8 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
+float
+aOpacity
 )
 ;
 bool
@@ -363,6 +367,8 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+float
+aOpacity
 )
 ;
 UniquePtr

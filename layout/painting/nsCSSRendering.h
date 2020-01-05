@@ -607,6 +607,8 @@ const
 nsSize
 &
 aRepeatSize
+float
+aOpacity
 )
 ;
 DrawResult
@@ -788,6 +790,12 @@ mozilla
 CSSIntRect
 &
 aSrc
+float
+aOpacity
+=
+1
+.
+0
 )
 ;
 already_AddRefed
@@ -1631,6 +1639,9 @@ layer
 CompositionOp
 compositionOp
 ;
+float
+opacity
+;
 static
 PaintBGParams
 ForAllLayers
@@ -1654,6 +1665,12 @@ nsIFrame
 aFrame
 uint32_t
 aPaintFlags
+float
+aOpacity
+=
+1
+.
+0
 )
 ;
 static
@@ -1688,6 +1705,12 @@ CompositionOp
 :
 :
 OP_OVER
+float
+aOpacity
+=
+1
+.
+0
 )
 ;
 private
@@ -1717,6 +1740,8 @@ int32_t
 aLayer
 CompositionOp
 aCompositionOp
+float
+aOpacity
 )
 :
 presCtx
@@ -1750,6 +1775,10 @@ aLayer
 compositionOp
 (
 aCompositionOp
+)
+opacity
+(
+aOpacity
 )
 {
 }
