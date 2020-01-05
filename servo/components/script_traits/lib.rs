@@ -450,11 +450,6 @@ SendEvent
 PipelineId
 CompositorEvent
 )
-ReflowComplete
-(
-PipelineId
-u32
-)
 Viewport
 (
 PipelineId
