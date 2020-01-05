@@ -2510,7 +2510,7 @@ false
 const
 Stmt
 *
-IgnoreImplicit
+IgnoreTrivials
 (
 const
 Stmt
@@ -2665,7 +2665,7 @@ s
 const
 Expr
 *
-IgnoreImplicit
+IgnoreTrivials
 (
 const
 Expr
@@ -2679,7 +2679,7 @@ cast
 Expr
 >
 (
-IgnoreImplicit
+IgnoreTrivials
 (
 static_cast
 <
@@ -3320,7 +3320,7 @@ E
 E
 -
 >
-IgnoreImplicit
+IgnoreTrivials
 (
 )
 ;
@@ -12090,7 +12090,7 @@ Expr
 *
 E
 =
-IgnoreImplicit
+IgnoreTrivials
 (
 D
 -
@@ -12160,7 +12160,7 @@ getNumArgs
 {
 E
 =
-IgnoreImplicit
+IgnoreTrivials
 (
 CE
 -
