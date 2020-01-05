@@ -216,6 +216,10 @@ attribute
 MediaKeyStatusMap
 keyStatuses
 ;
+attribute
+EventHandler
+onkeystatuseschange
+;
 [
 NewObject
 ]
