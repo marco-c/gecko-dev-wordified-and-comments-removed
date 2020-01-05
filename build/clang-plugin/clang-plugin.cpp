@@ -3320,7 +3320,7 @@ E
 E
 -
 >
-IgnoreTrivials
+IgnoreImplicit
 (
 )
 ;
