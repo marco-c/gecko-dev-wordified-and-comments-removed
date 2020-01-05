@@ -2197,6 +2197,14 @@ html
 #
 Bug
 1313253
+fuzzy
+-
+if
+(
+OSX
+1
+1
+)
 needs
 -
 focus
@@ -2232,6 +2240,9 @@ html
 ref
 .
 html
+#
+Bug
+1312951
 needs
 -
 focus
