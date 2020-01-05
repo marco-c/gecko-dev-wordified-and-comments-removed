@@ -168,6 +168,11 @@ Library
 gkmedias
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'
 if
 CONFIG
 [
