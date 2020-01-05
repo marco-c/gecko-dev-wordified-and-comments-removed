@@ -849,7 +849,7 @@ dom
 fs
 -
 action
-make_url_or_base_getter
+make_string_or_document_url_getter
 !
 (
 Action
@@ -2456,7 +2456,7 @@ base
 =
 doc
 .
-url
+base_url
 (
 )
 ;
