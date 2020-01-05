@@ -103,6 +103,12 @@ viewport
 :
 ViewportRule
 ;
+use
+style_traits
+:
+:
+ToCss
+;
 #
 [
 dom_struct
@@ -275,8 +281,6 @@ self
 >
 DOMString
 {
-/
-/
 self
 .
 viewportrule
@@ -288,12 +292,6 @@ read
 to_css_string
 (
 )
-.
-into
-(
-)
-"
-"
 .
 into
 (

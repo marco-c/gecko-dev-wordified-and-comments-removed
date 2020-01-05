@@ -103,6 +103,12 @@ font_face
 :
 FontFaceRule
 ;
+use
+style_traits
+:
+:
+ToCss
+;
 #
 [
 dom_struct
@@ -275,8 +281,6 @@ self
 >
 DOMString
 {
-/
-/
 self
 .
 fontfacerule
@@ -288,12 +292,6 @@ read
 to_css_string
 (
 )
-.
-into
-(
-)
-"
-"
 .
 into
 (
