@@ -25,6 +25,17 @@ rules
 "
 mozilla
 /
+avoid
+-
+removeChild
+"
+:
+"
+error
+"
+"
+mozilla
+/
 import
 -
 globals
