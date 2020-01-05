@@ -1,7 +1,4 @@
 use
-clock_ticks
-;
-use
 flow
 :
 :
@@ -130,6 +127,9 @@ properties
 :
 ComputedValues
 ;
+use
+time
+;
 pub
 fn
 start_transitions_if_applicable
@@ -218,7 +218,7 @@ new_style
 let
 now
 =
-clock_ticks
+time
 :
 :
 precise_time_s
@@ -418,7 +418,7 @@ return
 let
 now
 =
-clock_ticks
+time
 :
 :
 precise_time_s
@@ -855,7 +855,7 @@ RestyleDamage
 let
 now
 =
-clock_ticks
+time
 :
 :
 precise_time_s
