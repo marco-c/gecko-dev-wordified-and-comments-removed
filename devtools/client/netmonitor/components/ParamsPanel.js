@@ -36,9 +36,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
@@ -54,9 +51,6 @@ parseQueryString
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -78,9 +72,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

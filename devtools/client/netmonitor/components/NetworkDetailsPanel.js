@@ -56,9 +56,6 @@ require
 .
 .
 /
-.
-.
-/
 actions
 /
 index
@@ -73,9 +70,6 @@ getSelectedRequest
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -95,11 +89,7 @@ require
 "
 .
 /
-custom
--
-request
--
-panel
+CustomRequestPanel
 "
 )
 )
@@ -114,9 +104,7 @@ require
 "
 .
 /
-tabbox
--
-panel
+TabboxPanel
 "
 )
 )

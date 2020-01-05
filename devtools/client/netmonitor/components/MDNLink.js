@@ -63,9 +63,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
