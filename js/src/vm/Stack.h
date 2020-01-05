@@ -6053,7 +6053,10 @@ WasmActivation
 *
 prevWasm_
 ;
-uint8_t
+wasm
+:
+:
+Frame
 *
 exitFP_
 ;
@@ -6099,7 +6102,10 @@ return
 true
 ;
 }
-uint8_t
+wasm
+:
+:
+Frame
 *
 exitFP
 (
@@ -6183,7 +6189,10 @@ const
 void
 unwindExitFP
 (
-uint8_t
+wasm
+:
+:
+Frame
 *
 exitFP
 )
