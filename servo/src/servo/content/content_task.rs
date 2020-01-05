@@ -64,7 +64,6 @@ base
 Document
 Node
 NodeScope
-Window
 define_bindings
 }
 ;
@@ -80,6 +79,15 @@ Event
 ResizeEvent
 ReflowEvent
 }
+;
+use
+dom
+:
+:
+window
+:
+:
+Window
 ;
 use
 gfx
