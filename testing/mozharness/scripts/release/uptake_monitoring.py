@@ -429,6 +429,17 @@ prop
                 
 return
         
+if
+props
+.
+get
+(
+'
+partial_versions
+'
+)
+:
+            
 partials
 =
 [
@@ -453,7 +464,7 @@ split
 "
 )
 ]
-        
+            
 self
 .
 config
@@ -931,11 +942,15 @@ prev_versions
 self
 .
 config
-[
+.
+get
+(
 "
 partial_versions
 "
+[
 ]
+)
         
 for
 product
@@ -944,11 +959,15 @@ in
 self
 .
 config
-[
+.
+get
+(
 "
 partials
 "
-]
+{
+}
+)
 .
 iteritems
 (
