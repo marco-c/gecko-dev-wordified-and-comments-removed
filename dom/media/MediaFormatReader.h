@@ -122,12 +122,6 @@ MediaFormatReader
 (
 )
 ;
-nsresult
-Init
-(
-)
-override
-;
 size_t
 SizeOfVideoQueueInFrames
 (
@@ -325,6 +319,12 @@ override
 ;
 private
 :
+nsresult
+InitInternal
+(
+)
+override
+;
 bool
 HasVideo
 (
