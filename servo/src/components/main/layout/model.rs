@@ -1420,6 +1420,7 @@ Au
 }
 }
 }
+pub
 enum
 MarginCollapseState
 {

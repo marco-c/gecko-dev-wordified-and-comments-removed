@@ -104,6 +104,7 @@ deriving
 Encodable
 )
 ]
+pub
 enum
 FormDatum
 {

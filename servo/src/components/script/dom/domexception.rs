@@ -86,6 +86,7 @@ Show
 Encodable
 )
 ]
+pub
 enum
 DOMErrorName
 {

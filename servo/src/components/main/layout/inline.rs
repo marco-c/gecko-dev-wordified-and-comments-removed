@@ -213,6 +213,7 @@ vertical_align
 white_space
 }
 ;
+pub
 struct
 LineBox
 {

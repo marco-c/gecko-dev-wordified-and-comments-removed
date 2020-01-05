@@ -372,6 +372,7 @@ vector
 of
 children
 frames
+pub
 struct
 FrameTree
 {
@@ -495,6 +496,7 @@ children
 }
 }
 }
+pub
 struct
 ChildFrameTree
 {
@@ -1187,6 +1189,7 @@ changing
 in
 navigating
 .
+pub
 struct
 FrameChange
 {
@@ -1226,6 +1229,7 @@ browser
 '
 s
 history
+pub
 struct
 NavigationContext
 {

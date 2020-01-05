@@ -670,6 +670,7 @@ be
 attached
 to
 .
+pub
 enum
 ConstructionItem
 {
@@ -811,6 +812,7 @@ from
 an
 inline
 .
+pub
 struct
 InlineBoxesConstructionResult
 {
@@ -1045,6 +1047,7 @@ C
 /
 ]
 )
+pub
 struct
 InlineBlockSplit
 {
