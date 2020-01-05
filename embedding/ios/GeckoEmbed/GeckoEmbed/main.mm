@@ -561,7 +561,6 @@ argc
 argv
 &
 appData
-0
 )
 ;
 return

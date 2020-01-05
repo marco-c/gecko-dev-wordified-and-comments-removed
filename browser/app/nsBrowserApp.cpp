@@ -951,11 +951,6 @@ appini
 nsresult
 rv
 ;
-uint32_t
-mainFlags
-=
-0
-;
 const
 char
 *
@@ -1571,7 +1566,6 @@ XRE_main
 argc
 argv
 appData
-mainFlags
 )
 ;
 }

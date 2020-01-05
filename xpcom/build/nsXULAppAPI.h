@@ -238,8 +238,6 @@ mozilla
 XREAppData
 &
 aAppData
-uint32_t
-aFlags
 )
 )
 XRE_API
