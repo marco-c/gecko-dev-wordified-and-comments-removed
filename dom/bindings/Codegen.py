@@ -105381,17 +105381,6 @@ ClassConstructor
 Argument
 (
 "
-JSContext
-*
-"
-"
-aCx
-"
-)
-                 
-Argument
-(
-"
 JS
 :
 :
@@ -105451,7 +105440,6 @@ baseConstructors
 %
 s
 (
-aCx
 aCallback
 aIncumbentGlobal
 FastCallbackConstructor
@@ -106585,7 +106573,6 @@ baseConstructors
 %
 s
 (
-aCx
 aCallback
 aIncumbentGlobal
 FastCallbackConstructor

@@ -711,9 +711,6 @@ FastCallbackConstructor
 ;
 CallbackObject
 (
-JSContext
-*
-aCx
 JS
 :
 :

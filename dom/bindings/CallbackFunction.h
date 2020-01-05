@@ -166,9 +166,6 @@ aCallbackFunction
 }
 CallbackFunction
 (
-JSContext
-*
-aCx
 JS
 :
 :
@@ -188,7 +185,6 @@ FastCallbackConstructor
 :
 CallbackObject
 (
-aCx
 aCallable
 aIncumbentGlobal
 FastCallbackConstructor
