@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsCSSFontFaceRule
+.
+h
+"
+#
+include
+"
 mozilla
 /
 css

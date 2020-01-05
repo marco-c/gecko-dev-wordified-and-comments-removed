@@ -236,6 +236,13 @@ h
 #
 include
 "
+nsCSSFontFaceRule
+.
+h
+"
+#
+include
+"
 nsStyleSet
 .
 h

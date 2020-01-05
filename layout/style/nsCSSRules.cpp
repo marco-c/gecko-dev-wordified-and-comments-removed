@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsCSSFontFaceRule
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

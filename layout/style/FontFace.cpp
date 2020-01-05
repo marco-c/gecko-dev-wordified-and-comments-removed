@@ -81,14 +81,14 @@ h
 #
 include
 "
-nsCSSParser
+nsCSSFontFaceRule
 .
 h
 "
 #
 include
 "
-nsCSSRules
+nsCSSParser
 .
 h
 "

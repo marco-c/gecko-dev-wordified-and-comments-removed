@@ -271,6 +271,11 @@ nsCSSFontDescList
 h
 '
 '
+nsCSSFontFaceRule
+.
+h
+'
+'
 nsCSSKeywordList
 .
 h
