@@ -598,6 +598,11 @@ MediaMetadataManager
 h
 '
 '
+MediaMIMETypes
+.
+h
+'
+'
 MediaPrefs
 .
 h
@@ -1101,6 +1106,11 @@ cpp
 '
 '
 MediaManager
+.
+cpp
+'
+'
+MediaMIMETypes
 .
 cpp
 '
