@@ -43,6 +43,14 @@ serde_macros
 #
 !
 [
+plugin
+(
+plugins
+)
+]
+#
+!
+[
 deny
 (
 unsafe_code
