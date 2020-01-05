@@ -331,9 +331,9 @@ IsFileControlTextBox
 bool
 ShouldHandleNativeKeyBindings
 (
-nsIDOMKeyEvent
+WidgetKeyboardEvent
 *
-aKeyEvent
+aKeyboardEvent
 )
 ;
 nsresult
