@@ -106,10 +106,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+Toolkit
 '
 '
-Sync
+Blocklisting
 '
 )
 FINAL_TARGET_FILES
