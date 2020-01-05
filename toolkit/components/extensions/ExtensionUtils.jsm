@@ -9765,6 +9765,7 @@ runSafeSyncWithoutClone
 runSafeWithoutClone
 stylesheetMap
 BaseContext
+DefaultMap
 DefaultWeakMap
 EventEmitter
 EventManager
