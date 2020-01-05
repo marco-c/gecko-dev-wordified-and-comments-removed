@@ -1670,11 +1670,6 @@ border
 -
 image
 "
-products
-=
-"
-gecko
-"
 sub_properties
 =
 "
