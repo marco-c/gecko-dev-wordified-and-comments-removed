@@ -1015,6 +1015,13 @@ CascadeLevel
 aCascadeLevel
 )
 ;
+bool
+Gecko_StyleAnimationsEquals
+(
+RawGeckoStyleAnimationListBorrowed
+RawGeckoStyleAnimationListBorrowed
+)
+;
 nsIAtom
 *
 Gecko_Atomize
