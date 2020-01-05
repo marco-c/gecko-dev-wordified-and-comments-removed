@@ -138,7 +138,7 @@ app_units
 .
 2
 .
-3
+5
 "
 bitflags
 =
@@ -168,9 +168,9 @@ euclid
 "
 0
 .
-6
+7
 .
-4
+1
 "
 fnv
 =
@@ -292,6 +292,8 @@ version
 0
 .
 7
+.
+11
 "
 optional
 =
@@ -306,6 +308,8 @@ version
 0
 .
 7
+.
+11
 "
 optional
 =
