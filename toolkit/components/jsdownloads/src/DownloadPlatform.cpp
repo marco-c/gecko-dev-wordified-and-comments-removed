@@ -259,7 +259,7 @@ gDownloadPlatformService
 }
 #
 ifdef
-MOZ_ENABLE_GIO
+MOZ_WIDGET_GTK
 static
 void
 gio_set_metadata_done
@@ -623,7 +623,7 @@ endif
 endif
 #
 ifdef
-MOZ_ENABLE_GIO
+MOZ_WIDGET_GTK
 GFile
 *
 gio_file
