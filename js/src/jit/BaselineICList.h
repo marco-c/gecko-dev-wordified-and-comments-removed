@@ -176,11 +176,6 @@ GetElem_Fallback
 \
 _
 (
-GetElem_Dense
-)
-\
-_
-(
 GetElem_UnboxedArray
 )
 \
