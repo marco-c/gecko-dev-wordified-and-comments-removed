@@ -4132,6 +4132,14 @@ MOZ_WIDGET_GONK
 int16_t
 Orientation
 (
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 const
 ;

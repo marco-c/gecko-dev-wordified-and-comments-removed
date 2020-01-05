@@ -59001,6 +59001,8 @@ nsGlobalWindow
 :
 Orientation
 (
+CallerType
+aCallerType
 )
 const
 {
@@ -59008,9 +59010,9 @@ return
 nsContentUtils
 :
 :
-ShouldResistFingerprinting
+ResistFingerprinting
 (
-mDocShell
+aCallerType
 )
 ?
 0

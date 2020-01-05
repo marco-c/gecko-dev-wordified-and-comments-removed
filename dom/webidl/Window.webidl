@@ -3183,6 +3183,9 @@ partial
 interface
 Window
 {
+[
+NeedsCallerType
+]
 readonly
 attribute
 short
