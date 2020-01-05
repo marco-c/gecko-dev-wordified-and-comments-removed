@@ -78,11 +78,10 @@ pkix
 Result
 AddLog
 (
-pkix
-:
-:
-Input
-publicKey
+CTLogVerifier
+&
+&
+log
 )
 ;
 pkix
@@ -143,7 +142,7 @@ const
 LogEntry
 &
 expectedEntry
-SignedCertificateTimestamp
+VerifiedSCT
 :
 :
 Origin
@@ -175,6 +174,11 @@ ct
 LogEntry
 &
 expectedEntry
+VerifiedSCT
+:
+:
+Origin
+origin
 pkix
 :
 :
