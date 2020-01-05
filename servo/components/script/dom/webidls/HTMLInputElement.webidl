@@ -182,8 +182,6 @@ attribute
 DOMString
 formMethod
 ;
-/
-/
 attribute
 boolean
 formNoValidate
