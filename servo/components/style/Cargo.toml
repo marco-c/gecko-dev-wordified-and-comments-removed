@@ -293,6 +293,17 @@ traits
 .
 32
 "
+ordered
+-
+float
+=
+"
+0
+.
+2
+.
+2
+"
 rand
 =
 "
