@@ -2246,6 +2246,13 @@ IsEmpty
 )
 )
 ;
+mAudioSink
+-
+>
+DumpDebugInfo
+(
+)
+;
 }
 }
 }
