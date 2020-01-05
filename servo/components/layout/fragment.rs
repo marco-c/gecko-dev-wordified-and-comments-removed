@@ -11324,6 +11324,9 @@ LogicalSize
 <
 Au
 >
+relative_containing_block_mode
+:
+WritingMode
 )
 -
 >
@@ -11335,11 +11338,11 @@ Au
 let
 container_size
 =
-Size2D
-:
-:
-zero
+relative_containing_block_size
+.
+to_physical
 (
+relative_containing_block_mode
 )
 ;
 let
