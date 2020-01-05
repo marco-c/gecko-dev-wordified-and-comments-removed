@@ -8068,10 +8068,12 @@ nsStyleContext
 *
 parentStyleContext
 =
-mStyleContext
+GetParent
+(
+)
 -
 >
-GetParent
+StyleContext
 (
 )
 ;
