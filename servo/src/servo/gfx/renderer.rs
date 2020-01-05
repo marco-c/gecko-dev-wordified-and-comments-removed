@@ -55,16 +55,16 @@ libc
 size_t
 ;
 enum
-msg
+Msg
 {
-render
+RenderMsg
 (
 dl
 :
 :
 display_list
 )
-exit
+ExitMsg
 (
 comm
 :
@@ -154,7 +154,7 @@ S
 >
 chan
 <
-msg
+Msg
 >
 {
 task
@@ -164,7 +164,7 @@ spawn_listener
 :
 :
 <
-msg
+Msg
 >
 {
 |
@@ -203,7 +203,7 @@ recv
 (
 )
 {
-render
+RenderMsg
 (
 display_list
 )
@@ -275,7 +275,7 @@ draw_target
 )
 ;
 }
-exit
+ExitMsg
 (
 response_ch
 )

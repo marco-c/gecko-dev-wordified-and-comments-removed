@@ -568,7 +568,7 @@ send
 renderer
 :
 :
-render
+RenderMsg
 (
 dlist
 )
@@ -586,7 +586,7 @@ send
 renderer
 :
 :
-exit
+ExitMsg
 (
 resp
 )
