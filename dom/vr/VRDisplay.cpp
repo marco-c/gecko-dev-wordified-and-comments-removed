@@ -1323,16 +1323,6 @@ mAngularAcceleration
 nullptr
 )
 {
-mTimeStamp
-=
-aState
-.
-timestamp
-*
-1000
-.
-0f
-;
 mFrameId
 =
 aState

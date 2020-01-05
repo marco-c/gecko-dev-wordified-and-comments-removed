@@ -882,11 +882,6 @@ h
 interface
 VRPose
 {
-readonly
-attribute
-DOMHighResTimeStamp
-timestamp
-;
 /
 *
 *
