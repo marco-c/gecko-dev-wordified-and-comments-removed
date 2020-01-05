@@ -2093,6 +2093,14 @@ jsbytecode
 *
 resumePC
 ;
+jsbytecode
+*
+tryPC
+;
+jsbytecode
+*
+faultPC
+;
 ICStub
 *
 monitorStub
