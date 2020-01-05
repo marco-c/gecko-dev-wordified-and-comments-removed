@@ -4223,6 +4223,11 @@ InvalidCharacter
 let
 local_name
 =
+if
+self
+.
+is_html_document
+{
 local_name
 .
 as_slice
@@ -4232,6 +4237,11 @@ as_slice
 to_ascii_lower
 (
 )
+}
+else
+{
+local_name
+}
 ;
 let
 name
