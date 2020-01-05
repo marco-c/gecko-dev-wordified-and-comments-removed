@@ -3482,9 +3482,6 @@ binding_danger
 AssertAndSuppressCleanupPolicy
 "
 "
-RawServoAnimationValueMapBorrowed
-"
-"
 mozilla
 :
 :
@@ -4556,9 +4553,6 @@ RawGeckoAnimationValueList
 RawServoAnimationValue
 "
 "
-RawServoAnimationValueMap
-"
-"
 RawServoDeclarationBlock
 "
 "
@@ -4914,6 +4908,17 @@ ServoElementSnapshot
 opaque
 :
 false
+}
+ServoOwnedType
+{
+name
+:
+"
+RawServoAnimationValueMap
+"
+opaque
+:
+true
 }
 ]
 ;
