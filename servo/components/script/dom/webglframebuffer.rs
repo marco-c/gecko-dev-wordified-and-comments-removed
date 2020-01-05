@@ -4,8 +4,6 @@ canvas_traits
 :
 {
 CanvasMsg
-CanvasWebGLMsg
-WebGLFramebufferBindingRequest
 }
 ;
 use
@@ -88,6 +86,15 @@ cell
 :
 :
 Cell
+;
+use
+webrender_traits
+:
+:
+{
+WebGLCommand
+WebGLFramebufferBindingRequest
+}
 ;
 #
 [
@@ -225,7 +232,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CreateFramebuffer
@@ -346,7 +353,7 @@ u32
 let
 cmd
 =
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindFramebuffer
@@ -424,7 +431,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DeleteFramebuffer

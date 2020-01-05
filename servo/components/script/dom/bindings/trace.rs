@@ -2,12 +2,6 @@ use
 canvas_traits
 :
 :
-WebGLError
-;
-use
-canvas_traits
-:
-:
 {
 CanvasGradientStop
 LinearGradientStyle
@@ -611,6 +605,12 @@ uuid
 :
 :
 Uuid
+;
+use
+webrender_traits
+:
+:
+WebGLError
 ;
 pub
 trait

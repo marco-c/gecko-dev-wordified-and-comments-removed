@@ -2,12 +2,7 @@ use
 canvas_traits
 :
 :
-{
 CanvasMsg
-CanvasWebGLMsg
-WebGLError
-WebGLResult
-}
 ;
 use
 dom
@@ -89,6 +84,16 @@ cell
 :
 :
 Cell
+;
+use
+webrender_traits
+:
+:
+{
+WebGLCommand
+WebGLError
+WebGLResult
+}
 ;
 #
 [
@@ -259,7 +264,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CreateBuffer
@@ -442,7 +447,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindBuffer
@@ -548,7 +553,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BufferData
@@ -634,7 +639,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DeleteBuffer

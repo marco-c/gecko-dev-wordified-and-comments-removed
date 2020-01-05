@@ -380,6 +380,10 @@ uuid
 ;
 extern
 crate
+webrender_traits
+;
+extern
+crate
 websocket
 ;
 extern

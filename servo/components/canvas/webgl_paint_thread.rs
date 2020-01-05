@@ -7,7 +7,6 @@ CanvasCommonMsg
 CanvasMsg
 CanvasPixelData
 CanvasData
-CanvasWebGLMsg
 FromLayoutMsg
 }
 ;
@@ -268,7 +267,10 @@ handle_webgl_message
 self
 message
 :
-CanvasWebGLMsg
+webrender_traits
+:
+:
+WebGLCommand
 )
 {
 debug

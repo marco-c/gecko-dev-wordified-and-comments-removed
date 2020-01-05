@@ -15,12 +15,7 @@ use
 canvas_traits
 :
 :
-{
 CanvasMsg
-CanvasWebGLMsg
-WebGLResult
-WebGLParameter
-}
 ;
 use
 dom
@@ -135,6 +130,16 @@ str
 :
 :
 DOMString
+;
+use
+webrender_traits
+:
+:
+{
+WebGLCommand
+WebGLParameter
+WebGLResult
+}
 ;
 #
 [
@@ -433,7 +438,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CreateShader
@@ -712,7 +717,7 @@ though
 let
 msg
 =
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CompileShader
@@ -856,7 +861,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DeleteShader
@@ -941,7 +946,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetShaderParameter

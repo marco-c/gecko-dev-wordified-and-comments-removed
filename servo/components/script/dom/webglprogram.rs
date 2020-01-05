@@ -2,13 +2,7 @@ use
 canvas_traits
 :
 :
-{
 CanvasMsg
-CanvasWebGLMsg
-WebGLError
-WebGLResult
-WebGLParameter
-}
 ;
 use
 dom
@@ -141,6 +135,17 @@ str
 :
 :
 DOMString
+;
+use
+webrender_traits
+:
+:
+{
+WebGLCommand
+WebGLError
+WebGLParameter
+WebGLResult
+}
 ;
 #
 [
@@ -312,7 +317,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CreateProgram
@@ -464,7 +469,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DeleteProgram
@@ -501,7 +506,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 LinkProgram
@@ -620,7 +625,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 UseProgram
@@ -770,7 +775,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 AttachShader
@@ -890,7 +895,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindAttribLocation
@@ -1026,7 +1031,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetAttribLocation
@@ -1169,7 +1174,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetUniformLocation
@@ -1251,7 +1256,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetProgramParameter
