@@ -412,6 +412,11 @@ nsString
 aEventName
 )
 ;
+bool
+IsLoaded
+(
+)
+;
 private
 :
 ~

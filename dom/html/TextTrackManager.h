@@ -285,6 +285,11 @@ NotifyReset
 (
 )
 ;
+bool
+IsLoaded
+(
+)
+;
 private
 :
 void
