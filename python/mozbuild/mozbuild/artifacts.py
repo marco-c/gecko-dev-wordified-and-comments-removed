@@ -5638,6 +5638,13 @@ total_size
 )
 :
                 
+if
+not
+total_size
+:
+                    
+return
+                
 percent
 =
 (
