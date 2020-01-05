@@ -199,11 +199,6 @@ nsIMenuBuilder
 .
 idl
 '
-'
-nsIPhonetic
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
