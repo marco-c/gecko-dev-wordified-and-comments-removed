@@ -10286,6 +10286,13 @@ ClonedMessageData
 aData
 )
 {
+CrossProcessCpowHolder
+cpows
+(
+this
+aCpows
+)
+;
 RefPtr
 <
 nsFrameMessageManager
@@ -10314,13 +10321,6 @@ UnpackClonedMessageDataForChild
 (
 aData
 data
-)
-;
-CrossProcessCpowHolder
-cpows
-(
-this
-aCpows
 )
 ;
 cpm
