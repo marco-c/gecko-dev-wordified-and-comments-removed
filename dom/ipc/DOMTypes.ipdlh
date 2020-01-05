@@ -123,6 +123,9 @@ protocol
 PMemoryStream
 ;
 include
+IPCStream
+;
+include
 ProtocolTypes
 ;
 using
@@ -277,6 +280,11 @@ PBlob
 [
 ]
 blobs
+;
+IPCStream
+[
+]
+inputStreams
 ;
 MessagePortIdentifier
 [
