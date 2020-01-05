@@ -1569,6 +1569,8 @@ failed
 e
 )
 ;
+return
+;
 }
 }
 delayAutoSync
@@ -1739,6 +1741,8 @@ goQuitApplication
 ;
 }
 HandleWindows
+:
+function
 (
 aWindow
 action
@@ -1843,6 +1847,8 @@ windows
 ;
 }
 HandleTabs
+:
+function
 (
 tabs
 action
@@ -2166,6 +2172,8 @@ tabs
 ;
 }
 HandlePrefs
+:
+function
 (
 prefs
 action
@@ -2284,6 +2292,8 @@ pref
 ;
 }
 HandleForms
+:
+function
 (
 data
 action
@@ -2483,6 +2493,8 @@ formdata
 ;
 }
 HandleHistory
+:
+function
 (
 entries
 action
@@ -2683,6 +2695,8 @@ e
 }
 }
 HandlePasswords
+:
+function
 (
 passwords
 action
@@ -2961,6 +2975,8 @@ e
 }
 }
 HandleAddons
+:
+function
 (
 addons
 action
@@ -3183,6 +3199,8 @@ addons
 ;
 }
 HandleBookmarks
+:
+function
 (
 bookmarks
 action
@@ -3671,6 +3689,8 @@ fails
 )
 )
 ;
+return
+;
 }
 else
 if
@@ -3712,6 +3732,8 @@ obj
 .
 skipped_reason
 )
+;
+return
 ;
 }
 else
@@ -4603,6 +4625,8 @@ AddonValidator
 ;
 }
 RunNextTestAction
+:
+function
 (
 )
 {
@@ -4749,7 +4773,6 @@ tps
 .
 seconds_since_epoch
 "
-0
 )
 ;
 if
@@ -5222,6 +5245,8 @@ e
 }
 }
 RunTestPhase
+:
+function
 (
 file
 phase
@@ -5443,6 +5468,8 @@ failed
 "
 e
 )
+;
+return
 ;
 }
 }
@@ -5836,6 +5863,8 @@ failed
 "
 e
 )
+;
+return
 ;
 }
 }
