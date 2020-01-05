@@ -408,7 +408,7 @@ aTestGenerator
 )
 {
 return
-await_frame
+waitForFrame
 (
 )
 .
@@ -708,50 +708,6 @@ old_ok
 (
 a
 message
-)
-;
-}
-/
-/
-Returns
-a
-Promise
-that
-is
-resolved
-by
-a
-requestAnimationFrame
-callback
-.
-function
-await_frame
-(
-)
-{
-return
-new
-Promise
-(
-function
-(
-aResolve
-)
-{
-requestAnimationFrame
-(
-function
-(
-)
-{
-aResolve
-(
-)
-;
-}
-)
-;
-}
 )
 ;
 }
@@ -1348,7 +1304,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -1464,7 +1420,7 @@ removal
 MutationRecord
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -1644,7 +1600,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -1712,7 +1668,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -1891,7 +1847,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -1988,7 +1944,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -2157,7 +2113,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -2231,7 +2187,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -2411,7 +2367,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -2608,7 +2564,7 @@ new
 Animation
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -2689,7 +2645,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -2878,7 +2834,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3161,7 +3117,7 @@ color
 animation
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3230,7 +3186,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3401,7 +3357,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3522,7 +3478,7 @@ Animation
 removal
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3694,7 +3650,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3762,7 +3718,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -3921,7 +3877,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4032,7 +3988,7 @@ Animation
 removal
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4204,7 +4160,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4273,7 +4229,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4457,7 +4413,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4601,7 +4557,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4766,7 +4722,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4840,7 +4796,7 @@ the
 Animation
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -4910,7 +4866,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5069,7 +5025,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5130,7 +5086,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5176,7 +5132,7 @@ play
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5470,7 +5426,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5544,7 +5500,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5604,7 +5560,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5845,7 +5801,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -5953,7 +5909,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6006,7 +5962,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6076,7 +6032,7 @@ getAnimations
 ]
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6116,7 +6072,7 @@ id
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6158,7 +6114,7 @@ id
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6187,7 +6143,7 @@ animation
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6321,7 +6277,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6467,7 +6423,7 @@ the
 pause
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6533,7 +6489,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6665,7 +6621,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6724,7 +6680,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6778,7 +6734,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6921,7 +6877,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -6997,7 +6953,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7098,7 +7054,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7238,7 +7194,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7313,7 +7269,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7366,7 +7322,7 @@ change
 is
 dispatched
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7407,7 +7363,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7548,7 +7504,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7623,7 +7579,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -7778,7 +7734,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8021,7 +7977,7 @@ will
 change
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8078,7 +8034,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8223,7 +8179,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8390,7 +8346,7 @@ finish
 operation
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8475,7 +8431,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8614,7 +8570,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8745,7 +8701,7 @@ change
 is
 dispatched
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8786,7 +8742,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -8931,7 +8887,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9009,7 +8965,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9090,7 +9046,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9143,7 +9099,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9287,7 +9243,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9365,7 +9321,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9451,7 +9407,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9504,7 +9460,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9640,7 +9596,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9815,7 +9771,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -9959,7 +9915,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10103,7 +10059,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10244,7 +10200,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10410,7 +10366,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10558,7 +10514,7 @@ be
 delivered
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10647,7 +10603,7 @@ removal
 notification
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10793,7 +10749,7 @@ no
 notifications
 .
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10854,7 +10810,7 @@ getAnimations
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10904,7 +10860,7 @@ getAnimations
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10949,7 +10905,7 @@ anim
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -10978,7 +10934,7 @@ animation
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -11606,7 +11562,7 @@ div
 :
 before
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12181,7 +12137,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12226,7 +12182,7 @@ duration
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12271,7 +12227,7 @@ duration
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12309,7 +12265,7 @@ finish
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12359,7 +12315,7 @@ duration
 3
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12403,7 +12359,7 @@ auto
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12452,7 +12408,7 @@ auto
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12481,7 +12437,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12534,7 +12490,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12579,7 +12535,7 @@ endDelay
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12624,7 +12580,7 @@ endDelay
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12650,7 +12606,7 @@ currentTime
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12696,7 +12652,7 @@ endDelay
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12720,7 +12676,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12776,7 +12732,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12835,7 +12791,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12878,7 +12834,7 @@ iterations
 2
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12921,7 +12877,7 @@ iterations
 2
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12949,7 +12905,7 @@ iterations
 0
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -12991,7 +12947,7 @@ iterations
 Infinity
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13029,7 +12985,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13100,7 +13056,7 @@ opacity
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13143,7 +13099,7 @@ delay
 100
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13186,7 +13142,7 @@ delay
 100
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13215,7 +13171,7 @@ delay
 100000
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13257,7 +13213,7 @@ delay
 0
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13295,7 +13251,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13381,7 +13337,7 @@ start
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13430,7 +13386,7 @@ end
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13479,7 +13435,7 @@ end
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13503,7 +13459,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13555,7 +13511,7 @@ delay
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13642,7 +13598,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13687,7 +13643,7 @@ finish
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13781,7 +13737,7 @@ play
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13806,7 +13762,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13870,7 +13826,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13911,7 +13867,7 @@ target
 null
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -13951,7 +13907,7 @@ target
 div
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14013,7 +13969,7 @@ target
 newTarget
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14068,7 +14024,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14151,7 +14107,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14192,7 +14148,7 @@ target
 div
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14220,7 +14176,7 @@ target
 null
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14260,7 +14216,7 @@ target
 null
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14284,7 +14240,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14334,7 +14290,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14373,7 +14329,7 @@ effect
 null
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14412,7 +14368,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14473,7 +14429,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14512,7 +14468,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14562,7 +14518,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14616,7 +14572,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14654,7 +14610,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14704,7 +14660,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14745,7 +14701,7 @@ currentTime
 MS_PER_SEC
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14799,7 +14755,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14837,7 +14793,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -14930,7 +14886,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15051,7 +15007,7 @@ anim2
 effect
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15125,7 +15081,7 @@ remove
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15198,7 +15154,7 @@ MS_PER_SEC
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15246,7 +15202,7 @@ left
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15285,7 +15241,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15397,7 +15353,7 @@ left
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15445,7 +15401,7 @@ duration
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15488,7 +15444,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15598,7 +15554,7 @@ left
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15646,7 +15602,7 @@ left
 "
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
@@ -15672,7 +15628,7 @@ cancel
 )
 ;
 yield
-await_frame
+waitForFrame
 (
 )
 ;
