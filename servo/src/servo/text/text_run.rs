@@ -241,7 +241,7 @@ piece_len
 if
 metrics
 .
-advance
+advance_width
 >
 max_piece_width
 {
@@ -249,7 +249,7 @@ max_piece_width
 =
 metrics
 .
-advance
+advance_width
 ;
 }
 }

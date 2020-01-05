@@ -2876,7 +2876,7 @@ length
 ;
 metrics
 .
-advance
+advance_width
 }
 /
 /
