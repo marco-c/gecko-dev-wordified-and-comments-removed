@@ -489,6 +489,11 @@ window
 r
 (
 )
+self
+.
+upcast
+(
+)
 )
 }
 /

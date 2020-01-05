@@ -277,6 +277,11 @@ window
 r
 (
 )
+self
+.
+upcast
+(
+)
 )
 }
 fn
