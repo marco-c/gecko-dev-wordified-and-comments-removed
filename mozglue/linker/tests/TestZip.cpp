@@ -36,6 +36,16 @@ report_mapping
 )
 {
 }
+extern
+"
+C
+"
+void
+delete_mapping
+(
+)
+{
+}
 const
 char
 *
