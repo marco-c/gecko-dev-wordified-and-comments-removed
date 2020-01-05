@@ -802,6 +802,17 @@ data
 )
 ;
 void
+passUnion3
+(
+(
+Blob
+or
+DOMString
+)
+data
+)
+;
+void
 passAny
 (
 any
