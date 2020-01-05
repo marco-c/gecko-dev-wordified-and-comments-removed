@@ -345,6 +345,13 @@ uint8_t
 aData
 )
 ;
+async
+OnDecoderInitDone
+(
+uint32_t
+aStatus
+)
+;
 /
 /
 Return

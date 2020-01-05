@@ -333,6 +333,11 @@ ChromiumCDMChild
 )
 {
 }
+bool
+IsOnMessageLoopThread
+(
+)
+;
 ipc
 :
 :
@@ -552,6 +557,11 @@ ContentDecryptionModule_8
 mCDM
 =
 nullptr
+;
+bool
+mDecoderInitialized
+=
+false
 ;
 }
 ;
