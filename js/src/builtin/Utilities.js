@@ -101,6 +101,11 @@ output
 #
 endif
 var
+std_Symbol
+=
+Symbol
+;
+var
 std_WeakMap
 =
 WeakMap

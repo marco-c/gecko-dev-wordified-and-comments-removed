@@ -2673,6 +2673,13 @@ JSProto_Int32Array
 )
 &
 &
+InitBareSymbolCtor
+(
+cx
+global
+)
+&
+&
 InitBareWeakMapCtor
 (
 cx

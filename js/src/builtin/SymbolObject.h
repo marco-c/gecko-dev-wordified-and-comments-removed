@@ -65,6 +65,8 @@ js
 :
 HandleObject
 obj
+bool
+defineMembers
 )
 ;
 static
@@ -272,6 +274,18 @@ extern
 JSObject
 *
 InitSymbolClass
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
+extern
+JSObject
+*
+InitBareSymbolCtor
 (
 JSContext
 *
