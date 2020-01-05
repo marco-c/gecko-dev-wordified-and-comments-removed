@@ -228,6 +228,11 @@ y
 1
 2
 )
+/
+/
+Should
+not
+trigger
 test_fun
 (
 x
@@ -239,6 +244,12 @@ y
 )
 ;
 }
+/
+/
+Should
+not
+be
+triggered
 macro_rules
 !
 test_macro
@@ -261,5 +272,12 @@ ident
 (
 )
 )
+;
+let
+var
+=
+"
+val
+"
 ;
 }
