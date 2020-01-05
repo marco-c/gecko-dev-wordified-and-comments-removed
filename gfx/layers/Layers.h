@@ -568,6 +568,17 @@ return
 e
 ;
 }
+\
+static
+LayerType
+Type
+(
+)
+{
+return
+e
+;
+}
 class
 LayerUserData
 ;
