@@ -125,7 +125,7 @@ pub
 enum
 MouseWindowEvent
 {
-MouseWindowClickEvent
+Click
 (
 uint
 TypedPoint2D
@@ -134,7 +134,7 @@ DevicePixel
 f32
 >
 )
-MouseWindowMouseDownEvent
+MouseDown
 (
 uint
 TypedPoint2D
@@ -143,7 +143,7 @@ DevicePixel
 f32
 >
 )
-MouseWindowMouseUpEvent
+MouseUp
 (
 uint
 TypedPoint2D

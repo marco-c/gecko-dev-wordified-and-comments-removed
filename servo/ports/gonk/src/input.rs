@@ -1090,7 +1090,7 @@ MouseWindowEventClass
 MouseWindowEvent
 :
 :
-MouseWindowMouseDownEvent
+MouseDown
 (
 0
 click_pt
@@ -1110,7 +1110,7 @@ MouseWindowEventClass
 MouseWindowEvent
 :
 :
-MouseWindowMouseUpEvent
+MouseUp
 (
 0
 click_pt
@@ -1130,7 +1130,7 @@ MouseWindowEventClass
 MouseWindowEvent
 :
 :
-MouseWindowClickEvent
+Click
 (
 0
 click_pt

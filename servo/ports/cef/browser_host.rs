@@ -1088,7 +1088,7 @@ MouseWindowEventClass
 MouseWindowEvent
 :
 :
-MouseWindowClickEvent
+Click
 (
 button_type
 point
@@ -1111,7 +1111,7 @@ MouseWindowEventClass
 MouseWindowEvent
 :
 :
-MouseWindowMouseUpEvent
+MouseUp
 (
 button_type
 point
