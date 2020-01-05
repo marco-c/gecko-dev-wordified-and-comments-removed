@@ -165,6 +165,7 @@ elements
 ;
 readonly
 attribute
+unsigned
 long
 length
 ;
