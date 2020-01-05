@@ -552,6 +552,13 @@ html
 about
 :
 blank
+skip
+-
+if
+(
+!
+asyncPan
+)
 !
 =
 fixed
@@ -568,6 +575,13 @@ html
 about
 :
 blank
+skip
+-
+if
+(
+!
+asyncPan
+)
 =
 =
 fixed
