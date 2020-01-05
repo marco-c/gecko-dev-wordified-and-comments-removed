@@ -585,7 +585,7 @@ Telemetry
 ENTITY
 aboutTelemetry
 .
-fetchSymbols
+fetchStackSymbols
 "
 Fetch
 function
@@ -599,7 +599,7 @@ stacks
 ENTITY
 aboutTelemetry
 .
-hideSymbols
+hideStackSymbols
 "
 Show
 raw
