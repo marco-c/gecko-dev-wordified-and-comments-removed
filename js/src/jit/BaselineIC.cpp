@@ -4859,6 +4859,10 @@ engine
 isTemporarilyUnoptimizable
 lhs
 rhs
+CanAttachGetter
+:
+:
+Yes
 )
 ;
 if
