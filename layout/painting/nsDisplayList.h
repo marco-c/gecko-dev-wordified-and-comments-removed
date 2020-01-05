@@ -10361,6 +10361,11 @@ aContainerParameters
 )
 override
 ;
+bool
+CanBuildWebRenderDisplayItems
+(
+)
+;
 virtual
 void
 CreateWebRenderCommands
