@@ -134,8 +134,6 @@ attribute
 MediaList
 media
 ;
-/
-/
 attribute
 boolean
 disabled

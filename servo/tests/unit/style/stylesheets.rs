@@ -461,6 +461,15 @@ new
 (
 false
 )
+disabled
+:
+AtomicBool
+:
+:
+new
+(
+false
+)
 rules
 :
 vec
