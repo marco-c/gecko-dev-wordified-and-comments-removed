@@ -945,6 +945,7 @@ value
 )
 ;
 }
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1207,6 +1208,7 @@ correctly
 )
 ;
 }
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1442,6 +1444,7 @@ gHits
 =
 0
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1815,6 +1818,7 @@ tab
 )
 ;
 }
+yield
 ForgetAboutSite
 .
 removeDataFromDomain

@@ -1062,6 +1062,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1135,6 +1136,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1206,6 +1208,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1235,6 +1238,7 @@ clearHistory
 ;
 }
 function
+*
 test_cookie_cleared_with_direct_match
 (
 )
@@ -1253,6 +1257,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1272,6 +1277,7 @@ false
 ;
 }
 function
+*
 test_cookie_cleared_with_subdomain
 (
 )
@@ -1292,6 +1298,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1311,6 +1318,7 @@ false
 ;
 }
 function
+*
 test_cookie_not_cleared_with_uri_contains_domain
 (
 )
@@ -1329,6 +1337,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1348,6 +1357,7 @@ true
 ;
 }
 function
+*
 test_login_manager_disabled_hosts_cleared_with_direct_match
 (
 )
@@ -1370,6 +1380,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1389,6 +1400,7 @@ false
 ;
 }
 function
+*
 test_login_manager_disabled_hosts_cleared_with_subdomain
 (
 )
@@ -1413,6 +1425,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1432,6 +1445,7 @@ false
 ;
 }
 function
+*
 test_login_manager_disabled_hosts_not_cleared_with_uri_contains_domain
 (
 )
@@ -1454,6 +1468,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1512,6 +1527,7 @@ false
 ;
 }
 function
+*
 test_login_manager_logins_cleared_with_direct_match
 (
 )
@@ -1534,6 +1550,7 @@ add_login
 TEST_HOST
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1553,6 +1570,7 @@ false
 ;
 }
 function
+*
 test_login_manager_logins_cleared_with_subdomain
 (
 )
@@ -1577,6 +1595,7 @@ add_login
 TEST_HOST
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1596,6 +1615,7 @@ false
 ;
 }
 function
+*
 test_login_manager_logins_not_cleared_with_uri_contains_domain
 (
 )
@@ -1618,6 +1638,7 @@ add_login
 TEST_HOST
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1674,6 +1695,7 @@ false
 ;
 }
 function
+*
 test_permission_manager_cleared_with_direct_match
 (
 )
@@ -1699,6 +1721,7 @@ add_permission
 TEST_URI
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1718,6 +1741,7 @@ false
 ;
 }
 function
+*
 test_permission_manager_cleared_with_subdomain
 (
 )
@@ -1745,6 +1769,7 @@ add_permission
 TEST_URI
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1764,6 +1789,7 @@ false
 ;
 }
 function
+*
 test_permission_manager_not_cleared_with_uri_contains_domain
 (
 )
@@ -1789,6 +1815,7 @@ add_permission
 TEST_URI
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1987,6 +2014,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2061,6 +2089,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2133,6 +2162,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2158,6 +2188,7 @@ TEST_URI
 )
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2572,6 +2603,7 @@ _shutdownService
 }
 }
 function
+*
 test_cache_cleared
 (
 )
@@ -2680,6 +2712,7 @@ cache
 false
 )
 ;
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2914,6 +2947,7 @@ i
 )
 ;
 }
+yield
 ForgetAboutSite
 .
 removeDataFromDomain

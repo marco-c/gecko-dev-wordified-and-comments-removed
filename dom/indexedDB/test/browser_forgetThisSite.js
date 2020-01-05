@@ -383,7 +383,14 @@ domains
 1
 ]
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 setPermission
 (
 testPageURL4
@@ -395,6 +402,9 @@ indexedDB
 executeSoon
 (
 test4
+)
+;
+}
 )
 ;
 }

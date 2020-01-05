@@ -296,6 +296,7 @@ prop
 )
 ;
 }
+yield
 ForgetAboutSite
 .
 removeDataFromDomain

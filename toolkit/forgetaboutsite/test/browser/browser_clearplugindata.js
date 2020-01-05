@@ -209,7 +209,6 @@ add_task
 (
 function
 *
-setup
 (
 )
 {
@@ -291,9 +290,7 @@ test
 "
 )
 ;
-finish
-(
-)
+return
 ;
 }
 setTestPluginEnabledState
@@ -306,16 +303,6 @@ STATE_ENABLED
 pluginTag
 )
 ;
-}
-)
-;
-add_task
-(
-function
-*
-(
-)
-{
 yield
 BrowserTestUtils
 .
