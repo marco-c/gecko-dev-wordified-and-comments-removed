@@ -70,7 +70,7 @@ namespace
 quota
 {
 struct
-UsageResponse
+OriginUsageResponse
 {
 uint64_t
 usage
@@ -88,7 +88,7 @@ UsageRequestResponse
 {
 nsresult
 ;
-UsageResponse
+OriginUsageResponse
 ;
 }
 ;

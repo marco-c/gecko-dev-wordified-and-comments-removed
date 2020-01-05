@@ -135,7 +135,7 @@ bb0b
 )
 ]
 interface
-nsIQuotaUsageResult
+nsIQuotaOriginUsageResult
 :
 nsISupports
 {

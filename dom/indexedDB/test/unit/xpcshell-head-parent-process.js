@@ -2505,7 +2505,7 @@ fileUsage
 ;
 }
 function
-getUsage
+getCurrentUsage
 (
 usageHandler
 )

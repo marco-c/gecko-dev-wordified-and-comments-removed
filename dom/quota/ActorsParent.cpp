@@ -3203,7 +3203,7 @@ override
 }
 ;
 class
-GetUsageOp
+GetOriginUsageOp
 final
 :
 public
@@ -3215,7 +3215,7 @@ UsageInfo
 mUsageInfo
 ;
 const
-UsageParams
+OriginUsageParams
 mParams
 ;
 nsCString
@@ -3230,7 +3230,7 @@ mGetGroupUsage
 public
 :
 explicit
-GetUsageOp
+GetOriginUsageOp
 (
 const
 UsageRequestParams
@@ -3250,7 +3250,7 @@ aQuota
 private
 :
 ~
-GetUsageOp
+GetOriginUsageOp
 (
 )
 {
@@ -23769,12 +23769,12 @@ aParams
 {
 RefPtr
 <
-GetUsageOp
+GetOriginUsageOp
 >
 actor
 =
 new
-GetUsageOp
+GetOriginUsageOp
 (
 aParams
 )
@@ -23842,7 +23842,7 @@ op
 =
 static_cast
 <
-GetUsageOp
+GetOriginUsageOp
 *
 >
 (
@@ -23906,7 +23906,7 @@ aActor
 ;
 RefPtr
 <
-GetUsageOp
+GetOriginUsageOp
 >
 actor
 =
@@ -23914,7 +23914,7 @@ dont_AddRef
 (
 static_cast
 <
-GetUsageOp
+GetOriginUsageOp
 *
 >
 (
@@ -24548,10 +24548,10 @@ IPC_OK
 )
 ;
 }
-GetUsageOp
+GetOriginUsageOp
 :
 :
-GetUsageOp
+GetOriginUsageOp
 (
 const
 UsageRequestParams
@@ -24579,7 +24579,7 @@ mParams
 (
 aParams
 .
-get_UsageParams
+get_OriginUsageParams
 (
 )
 )
@@ -24587,7 +24587,7 @@ mGetGroupUsage
 (
 aParams
 .
-get_UsageParams
+get_OriginUsageParams
 (
 )
 .
@@ -24612,12 +24612,12 @@ type
 UsageRequestParams
 :
 :
-TUsageParams
+TOriginUsageParams
 )
 ;
 }
 bool
-GetUsageOp
+GetOriginUsageOp
 :
 :
 Init
@@ -24649,7 +24649,7 @@ true
 ;
 }
 nsresult
-GetUsageOp
+GetOriginUsageOp
 :
 :
 DoInitOnMainThread
@@ -24766,7 +24766,7 @@ NS_OK
 ;
 }
 nsresult
-GetUsageOp
+GetOriginUsageOp
 :
 :
 AddToUsage
@@ -25238,7 +25238,7 @@ NS_OK
 ;
 }
 nsresult
-GetUsageOp
+GetOriginUsageOp
 :
 :
 DoDirectoryWork
@@ -25270,7 +25270,7 @@ PROFILER_LABEL
 Quota
 "
 "
-GetUsageOp
+GetOriginUsageOp
 :
 :
 DoDirectoryWork
@@ -25389,7 +25389,7 @@ NS_OK
 ;
 }
 void
-GetUsageOp
+GetOriginUsageOp
 :
 :
 SendResults
@@ -25448,7 +25448,7 @@ mResultCode
 )
 )
 {
-UsageResponse
+OriginUsageResponse
 usageResponse
 ;
 usageResponse
@@ -25523,7 +25523,7 @@ response
 }
 }
 void
-GetUsageOp
+GetOriginUsageOp
 :
 :
 ActorDestroy
@@ -25548,7 +25548,7 @@ ipc
 :
 :
 IPCResult
-GetUsageOp
+GetOriginUsageOp
 :
 :
 RecvCancel

@@ -21,10 +21,10 @@ namespace
 quota
 {
 class
-UsageResult
+OriginUsageResult
 :
 public
-nsIQuotaUsageResult
+nsIQuotaOriginUsageResult
 {
 uint64_t
 mUsage
@@ -37,7 +37,7 @@ mLimit
 ;
 public
 :
-UsageResult
+OriginUsageResult
 (
 uint64_t
 aUsage
@@ -51,13 +51,13 @@ private
 :
 virtual
 ~
-UsageResult
+OriginUsageResult
 (
 )
 {
 }
 NS_DECL_ISUPPORTS
-NS_DECL_NSIQUOTAUSAGERESULT
+NS_DECL_NSIQUOTAORIGINUSAGERESULT
 }
 ;
 }

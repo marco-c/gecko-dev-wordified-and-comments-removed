@@ -537,9 +537,9 @@ iid
 ;
 nsCOMPtr
 <
-nsIQuotaUsageResult
+nsIQuotaOriginUsageResult
 >
-usageResult
+originUsageResult
 =
 do_QueryInterface
 (
@@ -548,12 +548,12 @@ supports
 ;
 MOZ_ASSERT
 (
-usageResult
+originUsageResult
 )
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-usageResult
+originUsageResult
 -
 >
 GetUsage
@@ -571,7 +571,7 @@ Construct
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-usageResult
+originUsageResult
 -
 >
 GetLimit

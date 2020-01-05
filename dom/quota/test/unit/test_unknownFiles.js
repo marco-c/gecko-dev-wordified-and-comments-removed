@@ -586,7 +586,7 @@ usage
 ;
 request
 =
-getUsage
+getCurrentUsage
 (
 continueToNextStepSync
 )
@@ -626,7 +626,7 @@ usage
 ;
 request
 =
-getUsage
+getCurrentUsage
 (
 continueToNextStepSync
 )
@@ -701,7 +701,7 @@ usage
 ;
 request
 =
-getUsage
+getCurrentUsage
 (
 continueToNextStepSync
 )

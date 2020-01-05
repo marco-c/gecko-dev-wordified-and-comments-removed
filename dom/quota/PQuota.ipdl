@@ -134,7 +134,7 @@ persistenceType
 }
 ;
 struct
-UsageParams
+OriginUsageParams
 {
 PrincipalInfo
 principalInfo
@@ -147,7 +147,7 @@ getGroupUsage
 union
 UsageRequestParams
 {
-UsageParams
+OriginUsageParams
 ;
 }
 ;
