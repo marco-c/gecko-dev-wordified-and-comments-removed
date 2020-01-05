@@ -15482,7 +15482,7 @@ mItemType
 typeChrome
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mOriginAttributes
 .
@@ -15495,7 +15495,7 @@ mPrivateBrowsingId
 }
 else
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mOriginAttributes
 .
