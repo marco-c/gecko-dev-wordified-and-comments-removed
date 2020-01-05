@@ -1390,8 +1390,6 @@ test
 platform
 :
 android
-.
-*
 :
 script
 :
@@ -2064,6 +2062,16 @@ opt
 :
 35
 linux64
+/
+debug
+:
+12
+linux32
+/
+debug
+:
+12
+linux64
 -
 asan
 /
@@ -2125,6 +2133,11 @@ opt
 :
 7200
 linux64
+/
+debug
+:
+5400
+linux32
 /
 debug
 :
@@ -3043,8 +3056,6 @@ coverage
 linux64
 -
 jsdcov
-/
-opt
 :
 -
 -
