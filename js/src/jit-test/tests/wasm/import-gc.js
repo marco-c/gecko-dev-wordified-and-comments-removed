@@ -192,7 +192,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 i2
@@ -208,7 +208,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 i1
@@ -224,7 +224,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 g
@@ -353,7 +353,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 i2
@@ -391,7 +391,7 @@ assertEq
 finalizeCount
 (
 )
-3
+2
 )
 ;
 i1
