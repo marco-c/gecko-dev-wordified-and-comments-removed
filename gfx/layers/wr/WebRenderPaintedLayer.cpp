@@ -431,6 +431,7 @@ UpdateImage
 )
 {
 return
+false
 ;
 }
 return

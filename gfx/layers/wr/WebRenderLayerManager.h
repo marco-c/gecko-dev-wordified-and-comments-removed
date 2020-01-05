@@ -877,6 +877,11 @@ DiscardImages
 )
 ;
 void
+DiscardLocalImages
+(
+)
+;
+void
 AddCompositorAnimationsIdForDiscard
 (
 uint64_t
