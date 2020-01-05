@@ -5228,9 +5228,12 @@ clip_region
 bounds
 .
 size
+Some
+(
 ServoScrollRootId
 (
 1
+)
 )
 )
 ;
@@ -5405,9 +5408,12 @@ clip_region
 bounds
 .
 size
+Some
+(
 ServoScrollRootId
 (
 1
+)
 )
 )
 ;

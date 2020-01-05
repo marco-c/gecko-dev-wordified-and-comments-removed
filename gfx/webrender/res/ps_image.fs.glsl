@@ -289,15 +289,6 @@ oFragColor
 =
 vec4
 (
-1
-.
-0
-1
-.
-0
-1
-.
-0
 alpha
 )
 *
