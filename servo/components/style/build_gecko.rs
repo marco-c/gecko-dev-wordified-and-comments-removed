@@ -2956,12 +2956,6 @@ PropertyStyleAnimationValuePair
 mozilla
 :
 :
-TraversalRestyleBehavior
-"
-"
-mozilla
-:
-:
 TraversalRootBehavior
 "
 "
@@ -4434,9 +4428,6 @@ RefPtr
 "
 "
 CSSPseudoClassType
-"
-"
-TraversalRestyleBehavior
 "
 "
 TraversalRootBehavior

@@ -112,14 +112,6 @@ UnstyledChildrenOnly
 ;
 enum
 class
-TraversalRestyleBehavior
-{
-Normal
-ForReconstruct
-}
-;
-enum
-class
 UpdateAnimationsTasks
 :
 uint8_t
