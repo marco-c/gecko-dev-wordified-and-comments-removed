@@ -220,6 +220,12 @@ return
 mWindow
 ;
 }
+int64_t
+GetOriginQuotaUsage
+(
+)
+const
+;
 uint32_t
 GetLength
 (
