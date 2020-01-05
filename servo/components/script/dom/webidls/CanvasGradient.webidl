@@ -124,6 +124,9 @@ CanvasGradient
 /
 opaque
 object
+[
+Throws
+]
 void
 addColorStop
 (
