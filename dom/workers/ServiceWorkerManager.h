@@ -233,6 +233,9 @@ namespace
 dom
 {
 class
+ServiceWorkerRegistrar
+;
+class
 ServiceWorkerRegistrationListener
 ;
 namespace
@@ -961,6 +964,9 @@ ServiceWorkerManager
 void
 Init
 (
+ServiceWorkerRegistrar
+*
+aRegistrar
 )
 ;
 already_AddRefed
