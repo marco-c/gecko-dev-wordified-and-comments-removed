@@ -55,6 +55,11 @@ globals
 :
 {
 "
+BrowserTestUtils
+"
+:
+true
+"
 ExtensionTestUtils
 "
 :
