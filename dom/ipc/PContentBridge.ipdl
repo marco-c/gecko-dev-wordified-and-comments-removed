@@ -345,10 +345,6 @@ sync
 protocol
 PContentBridge
 {
-bridges
-PContent
-PContent
-;
 manages
 PBlob
 ;
