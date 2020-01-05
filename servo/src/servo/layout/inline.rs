@@ -1041,6 +1041,15 @@ raw_text
 (
 )
 ;
+let
+text_len
+=
+text
+.
+len
+(
+)
+;
 /
 /
 TODO
@@ -1071,6 +1080,7 @@ font_cache
 get_test_font
 (
 )
+move
 text
 )
 ;
@@ -1081,11 +1091,7 @@ TextBoxData
 (
 run
 0
-text
-.
-len
-(
-)
+text_len
 )
 ;
 debug
