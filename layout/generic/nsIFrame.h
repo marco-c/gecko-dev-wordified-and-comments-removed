@@ -5334,6 +5334,13 @@ InlinePrefISizeData
 public
 InlineIntrinsicISizeData
 {
+typedef
+mozilla
+:
+:
+StyleClear
+StyleClear
+;
 InlinePrefISizeData
 (
 )
@@ -5347,6 +5354,13 @@ true
 void
 ForceBreak
 (
+StyleClear
+aBreakType
+=
+StyleClear
+:
+:
+Both
 )
 ;
 void
