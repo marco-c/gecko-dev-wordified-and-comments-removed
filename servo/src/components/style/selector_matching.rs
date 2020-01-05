@@ -830,14 +830,10 @@ Rule
 match
 hash
 .
-find
+find_equiv
 (
 &
 key
-.
-to_str
-(
-)
 )
 {
 Some
