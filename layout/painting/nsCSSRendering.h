@@ -1074,10 +1074,6 @@ nsPresContext
 &
 presCtx
 ;
-nsRenderingContext
-&
-renderingCtx
-;
 nsRect
 dirtyRect
 ;
@@ -1113,9 +1109,6 @@ ForAllLayers
 nsPresContext
 &
 aPresCtx
-nsRenderingContext
-&
-aRenderingCtx
 const
 nsRect
 &
@@ -1144,9 +1137,6 @@ ForSingleLayer
 nsPresContext
 &
 aPresCtx
-nsRenderingContext
-&
-aRenderingCtx
 const
 nsRect
 &
@@ -1184,9 +1174,6 @@ PaintBGParams
 nsPresContext
 &
 aPresCtx
-nsRenderingContext
-&
-aRenderingCtx
 const
 nsRect
 &
@@ -1211,10 +1198,6 @@ aOpacity
 presCtx
 (
 aPresCtx
-)
-renderingCtx
-(
-aRenderingCtx
 )
 dirtyRect
 (
@@ -1256,6 +1239,9 @@ const
 PaintBGParams
 &
 aParams
+nsRenderingContext
+&
+aRenderingCtx
 )
 ;
 static
@@ -1266,6 +1252,9 @@ const
 PaintBGParams
 &
 aParams
+nsRenderingContext
+&
+aRenderingCtx
 nsStyleContext
 *
 mBackgroundSC

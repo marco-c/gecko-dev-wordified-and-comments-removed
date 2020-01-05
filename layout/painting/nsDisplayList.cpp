@@ -18473,8 +18473,6 @@ mFrame
 PresContext
 (
 )
-*
-aCtx
 aBounds
 mBackgroundRect
 mFrame
@@ -18504,6 +18502,8 @@ nsCSSRendering
 PaintStyleImageLayer
 (
 params
+*
+aCtx
 )
 ;
 if
