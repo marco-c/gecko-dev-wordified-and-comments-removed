@@ -19139,6 +19139,7 @@ Compare_DoubleMaybeCoerceLHS
 Compare_DoubleMaybeCoerceRHS
 Compare_Float32
 Compare_String
+Compare_Symbol
 Compare_StrictString
 Compare_Object
 Compare_Bitwise

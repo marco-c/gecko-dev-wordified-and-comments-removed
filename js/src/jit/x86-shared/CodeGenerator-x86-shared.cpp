@@ -777,6 +777,15 @@ MCompare
 :
 :
 Compare_Object
+|
+|
+type
+=
+=
+MCompare
+:
+:
+Compare_Symbol
 )
 {
 masm
