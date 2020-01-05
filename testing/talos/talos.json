@@ -650,6 +650,9 @@ tscrollx
 "
 cart
 "
+"
+tsvg_static
+"
 ]
 "
 talos_options
@@ -691,6 +694,9 @@ tscrollx
 "
 "
 cart
+"
+"
+tsvg_static
 "
 ]
 }
