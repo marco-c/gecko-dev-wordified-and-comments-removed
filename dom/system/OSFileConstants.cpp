@@ -68,7 +68,7 @@ h
 if
 defined
 (
-ANDROID
+XP_LINUX
 )
 #
 include
@@ -84,6 +84,10 @@ define
 statvfs
 statfs
 #
+define
+f_frsize
+f_bsize
+#
 else
 #
 include
@@ -94,6 +98,15 @@ statvfs
 .
 h
 "
+#
+endif
+#
+if
+!
+defined
+(
+ANDROID
+)
 #
 include
 "
