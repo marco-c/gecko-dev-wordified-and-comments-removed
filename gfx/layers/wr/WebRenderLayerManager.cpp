@@ -1501,7 +1501,6 @@ texture
 GetIPDLActor
 (
 )
-bounds
 )
 )
 {
@@ -1632,7 +1631,7 @@ PostTranslate
 0
 .
 0
-bounds
+aSize
 .
 height
 )

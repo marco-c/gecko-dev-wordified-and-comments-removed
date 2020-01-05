@@ -315,8 +315,6 @@ DPGetSnapshot
 (
 PTexture
 texture
-IntRect
-dirtyRect
 )
 ;
 async
