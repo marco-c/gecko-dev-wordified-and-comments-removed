@@ -15294,7 +15294,7 @@ MemoryAccess
 site
 .
 codeOffset
-size
+currentOffset
 (
 )
 )
@@ -15412,6 +15412,7 @@ site
 trap
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -15421,7 +15422,6 @@ breakpoint
 ;
 #
 endif
-}
 }
 breakpoint
 (
