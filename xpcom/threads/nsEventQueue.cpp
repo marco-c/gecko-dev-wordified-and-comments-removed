@@ -526,6 +526,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
+const
 {
 if
 (

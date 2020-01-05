@@ -167,6 +167,7 @@ Count
 MutexAutoLock
 &
 )
+const
 ;
 private
 :

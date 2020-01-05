@@ -256,6 +256,11 @@ TaskQueue
 .
 h
 '
+'
+ThrottledEventQueue
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -343,6 +348,11 @@ cpp
 '
 '
 ThreadStackHelper
+.
+cpp
+'
+'
+ThrottledEventQueue
 .
 cpp
 '
