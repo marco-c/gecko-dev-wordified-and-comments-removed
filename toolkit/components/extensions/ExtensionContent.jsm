@@ -4133,6 +4133,15 @@ Set
 (
 )
 ;
+this
+.
+devtoolsViews
+=
+new
+Set
+(
+)
+;
 let
 uri
 =

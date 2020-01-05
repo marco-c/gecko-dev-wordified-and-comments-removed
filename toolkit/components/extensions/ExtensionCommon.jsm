@@ -2111,6 +2111,14 @@ content_child
 :
 [
 ]
+devtools_parent
+:
+[
+]
+devtools_child
+:
+[
+]
 }
 ;
 }
