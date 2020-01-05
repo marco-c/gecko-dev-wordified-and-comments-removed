@@ -734,11 +734,6 @@ mTotalLen
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-nsZipHandle
-)
-;
 }
 NS_IMPL_ADDREF
 (
@@ -1497,11 +1492,6 @@ nullptr
 mBuf
 =
 nullptr
-;
-MOZ_COUNT_DTOR
-(
-nsZipHandle
-)
 ;
 }
 nsresult
@@ -4012,11 +4002,6 @@ AddRef
 (
 )
 ;
-MOZ_COUNT_CTOR
-(
-nsZipArchive
-)
-;
 memset
 (
 mFiles
@@ -4046,11 +4031,6 @@ nsZipArchive
 {
 CloseArchive
 (
-)
-;
-MOZ_COUNT_DTOR
-(
-nsZipArchive
 )
 ;
 zipLog

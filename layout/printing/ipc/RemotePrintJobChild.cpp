@@ -46,11 +46,6 @@ RemotePrintJobChild
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-RemotePrintJobChild
-)
-;
 }
 nsresult
 RemotePrintJobChild
@@ -433,11 +428,6 @@ RemotePrintJobChild
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-RemotePrintJobChild
-)
-;
 }
 void
 RemotePrintJobChild

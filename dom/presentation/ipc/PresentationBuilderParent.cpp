@@ -285,11 +285,6 @@ mParent
 aParent
 )
 {
-MOZ_COUNT_CTOR
-(
-PresentationBuilderParent
-)
-;
 }
 PresentationBuilderParent
 :
@@ -299,11 +294,6 @@ PresentationBuilderParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-PresentationBuilderParent
-)
-;
 if
 (
 mNeedDestroyActor

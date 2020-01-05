@@ -62,11 +62,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-BufferDecoder
-)
-;
 }
 BufferDecoder
 :
@@ -76,11 +71,6 @@ BufferDecoder
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-BufferDecoder
-)
-;
 }
 void
 BufferDecoder

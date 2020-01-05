@@ -673,11 +673,6 @@ mDelayedLoadCheck
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-FontFaceSet
-)
-;
 nsCOMPtr
 <
 nsIGlobalObject
@@ -762,11 +757,6 @@ FontFaceSet
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-FontFaceSet
-)
-;
 Disconnect
 (
 )

@@ -2404,11 +2404,6 @@ Unicode
 )
 )
 {
-MOZ_COUNT_CTOR
-(
-nsGlyphTableList
-)
-;
 }
 nsresult
 Initialize
@@ -2447,11 +2442,6 @@ nsGlyphTableList
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsGlyphTableList
-)
-;
 }
 nsPropertiesTable
 *

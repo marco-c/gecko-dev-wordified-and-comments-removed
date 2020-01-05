@@ -31,11 +31,6 @@ ArchiveItem
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-ArchiveItem
-)
-;
 }
 ArchiveItem
 :
@@ -45,11 +40,6 @@ ArchiveItem
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-ArchiveItem
-)
-;
 }
 nsCString
 ArchiveItem
@@ -117,11 +107,6 @@ mArchiveReader
 aArchiveReader
 )
 {
-MOZ_COUNT_CTOR
-(
-ArchiveReaderEvent
-)
-;
 }
 ArchiveReaderEvent
 :
@@ -149,11 +134,6 @@ forget
 )
 ;
 }
-MOZ_COUNT_DTOR
-(
-ArchiveReaderEvent
-)
-;
 }
 nsresult
 ArchiveReaderEvent

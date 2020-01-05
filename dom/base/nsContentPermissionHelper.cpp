@@ -2501,11 +2501,6 @@ nsContentPermissionRequestProxy
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-nsContentPermissionRequestProxy
-)
-;
 }
 nsContentPermissionRequestProxy
 :
@@ -2515,11 +2510,6 @@ nsContentPermissionRequestProxy
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsContentPermissionRequestProxy
-)
-;
 }
 nsresult
 nsContentPermissionRequestProxy

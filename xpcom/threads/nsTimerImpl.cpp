@@ -497,11 +497,6 @@ mITimer
 aTimer
 )
 {
-MOZ_COUNT_CTOR
-(
-nsTimerImpl
-)
-;
 mEventTarget
 =
 static_cast
@@ -530,11 +525,6 @@ nsTimerImpl
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsTimerImpl
-)
-;
 ReleaseCallback
 (
 )

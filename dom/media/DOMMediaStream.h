@@ -238,11 +238,6 @@ MediaStreamTrackSourceGetter
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-MediaStreamTrackSourceGetter
-)
-;
 }
 virtual
 already_AddRefed
@@ -268,11 +263,6 @@ MediaStreamTrackSourceGetter
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-MediaStreamTrackSourceGetter
-)
-;
 }
 }
 ;
