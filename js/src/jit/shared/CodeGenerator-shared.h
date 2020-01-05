@@ -692,13 +692,6 @@ const
 ;
 inline
 int32_t
-CalleeStackOffset
-(
-)
-const
-;
-inline
-int32_t
 SlotToStackOffset
 (
 int32_t
