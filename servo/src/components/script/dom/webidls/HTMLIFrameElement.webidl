@@ -112,8 +112,6 @@ HTMLIFrameElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 src
