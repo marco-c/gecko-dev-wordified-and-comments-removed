@@ -889,11 +889,14 @@ chan
 .
 send
 (
+Some
+(
 azure_hl
 :
 :
 current_graphics_metadata
 (
+)
 )
 )
 NewLayer
