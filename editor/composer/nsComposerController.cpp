@@ -319,6 +319,13 @@ NS_REGISTER_NEXT_COMMAND
 (
 nsSetDocumentStateCommand
 "
+cmd_defaultParagraphSeparator
+"
+)
+NS_REGISTER_NEXT_COMMAND
+(
+nsSetDocumentStateCommand
+"
 cmd_enableObjectResizing
 "
 )
