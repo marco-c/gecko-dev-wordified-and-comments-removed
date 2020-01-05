@@ -3122,14 +3122,14 @@ java
 '
 db
 /
-URLMetadata
+URLImageDataTable
 .
 java
 '
 '
 db
 /
-URLMetadataTable
+URLMetadata
 .
 java
 '

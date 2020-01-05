@@ -113,7 +113,7 @@ gecko
 .
 db
 .
-URLMetadataTable
+URLImageDataTable
 ;
 import
 android
@@ -1313,7 +1313,7 @@ values
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 URL_COLUMN
 url
@@ -1323,7 +1323,7 @@ values
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_IMAGE_URL_COLUMN
 tileImage
@@ -1333,7 +1333,7 @@ values
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_COLOR_COLUMN
 tileColor
@@ -1343,7 +1343,7 @@ values
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 TOUCH_ICON_COLUMN
 touchIcon
@@ -1739,11 +1739,11 @@ mProvider
 .
 query
 (
-URLMetadataTable
+URLImageDataTable
 .
 CONTENT_URI
 null
-URLMetadataTable
+URLImageDataTable
 .
 URL_COLUMN
 +
@@ -12224,7 +12224,7 @@ mProvider
 .
 update
 (
-URLMetadataTable
+URLImageDataTable
 .
 CONTENT_URI
 .
@@ -12252,7 +12252,7 @@ tileImage
 tileColor
 touchIcon
 )
-URLMetadataTable
+URLImageDataTable
 .
 URL_COLUMN
 +
@@ -12385,7 +12385,7 @@ data
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 URL_COLUMN
 url2
@@ -12395,7 +12395,7 @@ data
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_IMAGE_URL_COLUMN
 tileImage
@@ -12405,7 +12405,7 @@ data
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_COLOR_COLUMN
 tileColor
@@ -12415,7 +12415,7 @@ data
 .
 put
 (
-URLMetadataTable
+URLImageDataTable
 .
 TOUCH_ICON_COLUMN
 touchIcon
@@ -12540,7 +12540,7 @@ Collections
 .
 singletonList
 (
-URLMetadataTable
+URLImageDataTable
 .
 TOUCH_ICON_COLUMN
 )
@@ -12584,7 +12584,7 @@ urlData
 .
 containsKey
 (
-URLMetadataTable
+URLImageDataTable
 .
 TOUCH_ICON_COLUMN
 )
@@ -12616,7 +12616,7 @@ Collections
 .
 singletonList
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_COLOR_COLUMN
 )
@@ -12660,7 +12660,7 @@ urlData
 .
 containsKey
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_COLOR_COLUMN
 )
@@ -12702,13 +12702,13 @@ Arrays
 .
 asList
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_IMAGE_URL_COLUMN
-URLMetadataTable
+URLImageDataTable
 .
 TILE_COLOR_COLUMN
-URLMetadataTable
+URLImageDataTable
 .
 TOUCH_ICON_COLUMN
 )
@@ -12782,7 +12782,7 @@ urlData
 .
 containsKey
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_IMAGE_URL_COLUMN
 )
@@ -12805,7 +12805,7 @@ urlData
 .
 containsKey
 (
-URLMetadataTable
+URLImageDataTable
 .
 TILE_COLOR_COLUMN
 )
@@ -12828,7 +12828,7 @@ urlData
 .
 containsKey
 (
-URLMetadataTable
+URLImageDataTable
 .
 TOUCH_ICON_COLUMN
 )
