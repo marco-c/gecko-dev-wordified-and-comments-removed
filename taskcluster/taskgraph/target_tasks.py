@@ -445,7 +445,7 @@ run_on_projects
 =
 set
 (
-t
+task
 .
 attributes
 .
