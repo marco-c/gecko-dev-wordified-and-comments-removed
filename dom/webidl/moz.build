@@ -487,11 +487,6 @@ CSSAnimation
 webidl
 '
 '
-CSSImportRule
-.
-webidl
-'
-'
 CSSLexer
 .
 webidl
