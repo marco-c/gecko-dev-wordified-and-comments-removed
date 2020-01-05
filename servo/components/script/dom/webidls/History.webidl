@@ -121,6 +121,9 @@ attribute
 any
 state
 ;
+[
+Throws
+]
 void
 go
 (

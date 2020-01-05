@@ -516,7 +516,9 @@ Location
 ?
 location
 ;
-readonly
+[
+SetterThrows
+]
 attribute
 DOMString
 domain
