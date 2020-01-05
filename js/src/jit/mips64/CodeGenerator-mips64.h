@@ -357,6 +357,14 @@ lir
 )
 ;
 void
+visitWasmTruncateToInt64
+(
+LWasmTruncateToInt64
+*
+lir
+)
+;
+void
 visitOutOfLineBailout
 (
 OutOfLineBailout
