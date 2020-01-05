@@ -1631,6 +1631,7 @@ progression
 004
 .
 xht
+fails
 =
 =
 wm
@@ -1639,7 +1640,7 @@ row
 -
 progression
 -
-004
+005
 .
 xht
 wm
@@ -1651,6 +1652,7 @@ progression
 005
 .
 xht
+fails
 =
 =
 wm
@@ -1659,7 +1661,7 @@ row
 -
 progression
 -
-004
+006
 .
 xht
 wm
