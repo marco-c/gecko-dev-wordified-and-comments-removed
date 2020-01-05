@@ -227,7 +227,17 @@ TextureSharingWorks
 )
 ;
 bool
+AlphaTextureSharingWorks
+(
+)
+;
+bool
 IsWARP
+(
+)
+;
+bool
+CanInitializeKeyedMutexTextures
 (
 )
 ;
