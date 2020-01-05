@@ -1376,6 +1376,14 @@ ins
 )
 ;
 void
+visitAsmJSPassStackArgI64
+(
+LAsmJSPassStackArgI64
+*
+ins
+)
+;
+void
 visitAsmSelect
 (
 LAsmSelect
