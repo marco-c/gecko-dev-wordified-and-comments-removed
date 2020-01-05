@@ -3597,6 +3597,11 @@ MutatedSimple
 void
 SetIsScrollbarContainer
 (
+FrameMetrics
+:
+:
+ViewID
+aScrollId
 )
 {
 if
@@ -3605,6 +3610,7 @@ mSimpleAttrs
 .
 SetIsScrollbarContainer
 (
+aScrollId
 )
 )
 {
