@@ -241,6 +241,17 @@ ext
 -
 c
 -
+storage
+.
+js
+content
+/
+extensions
+/
+ext
+-
+c
+-
 test
 .
 js
