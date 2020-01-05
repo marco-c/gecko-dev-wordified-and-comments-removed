@@ -324,6 +324,7 @@ aAppData
 .
 name
 )
+;
 ReadString
 (
 parser
