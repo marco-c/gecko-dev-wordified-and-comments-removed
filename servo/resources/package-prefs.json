@@ -228,15 +228,6 @@ false
 "
 js
 .
-strict
-.
-enabled
-"
-:
-false
-"
-js
-.
 shared_memory
 .
 enabled
