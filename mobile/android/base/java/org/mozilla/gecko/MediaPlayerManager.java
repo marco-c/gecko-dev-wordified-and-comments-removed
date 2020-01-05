@@ -1236,6 +1236,8 @@ updatePresentation
 (
 )
 ;
+if
+(
 displays
 .
 remove
@@ -1246,7 +1248,11 @@ getId
 (
 )
 )
-;
+!
+=
+null
+)
+{
 GeckoAppShell
 .
 notifyObservers
@@ -1263,6 +1269,7 @@ getId
 )
 )
 ;
+}
 }
 Override
 public
