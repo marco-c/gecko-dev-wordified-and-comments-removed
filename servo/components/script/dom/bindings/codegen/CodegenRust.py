@@ -4161,14 +4161,12 @@ result
 "
     
 assert
-(
 not
 isDefinitelyObject
 or
 defaultValue
 is
 None
-)
     
 if
 exceptionCode
@@ -6021,7 +6019,6 @@ None
 :
             
 assert
-(
 defaultValue
 .
 type
@@ -6036,7 +6033,6 @@ IDLType
 Tags
 .
 domstring
-)
             
 default
 =
@@ -7136,7 +7132,6 @@ else
 :
                 
 assert
-(
 tag
 =
 =
@@ -7145,7 +7140,6 @@ IDLType
 Tags
 .
 bool
-)
                 
 defaultStr
 =
@@ -7665,7 +7659,6 @@ self
 )
         
 assert
-(
 not
 argument
 .
@@ -7674,7 +7667,6 @@ or
 argument
 .
 optional
-)
         
 replacer
 =
@@ -9373,15 +9365,13 @@ specTemplate
 "
         
 assert
-(
 len
 (
 array
 )
-is
-not
+!
+=
 0
-)
         
 specs
 =
@@ -21748,7 +21738,6 @@ method
 "
         
 assert
-(
 not
 movable
 or
@@ -21758,15 +21747,12 @@ aliasSet
 "
 AliasEverything
 "
-)
         
 assert
-(
 not
 alwaysInSlot
 or
 movable
-)
         
 def
 jitInfoInitializer
@@ -30276,8 +30262,6 @@ indexedSetter
 :
             
 if
-not
-(
 self
 .
 descriptor
@@ -30288,9 +30272,9 @@ operations
 IndexedCreator
 '
 ]
-is
+!
+=
 indexedSetter
-)
 :
                 
 raise
@@ -30499,7 +30483,6 @@ namedSetter
 :
             
 if
-not
 self
 .
 descriptor
@@ -30510,7 +30493,8 @@ operations
 NamedCreator
 '
 ]
-is
+!
+=
 namedSetter
 :
                 
