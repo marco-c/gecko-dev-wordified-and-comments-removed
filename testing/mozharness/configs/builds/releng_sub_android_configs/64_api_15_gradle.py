@@ -130,4 +130,18 @@ uploadArchives
 ]
     
 ]
+    
+'
+artifact_flag_build_variant_in_try
+'
+:
+'
+api
+-
+15
+-
+gradle
+-
+artifact
+'
 }
