@@ -78,15 +78,11 @@ atomic_refcell
 "
 cssparser
 =
-{
-version
-=
 "
 0
 .
-8
+9
 "
-}
 env_logger
 =
 "
