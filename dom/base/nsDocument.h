@@ -3199,6 +3199,13 @@ NotifyIntersectionObservers
 )
 override
 ;
+virtual
+void
+NotifyLayerManagerRecreated
+(
+)
+override
+;
 private
 :
 void
