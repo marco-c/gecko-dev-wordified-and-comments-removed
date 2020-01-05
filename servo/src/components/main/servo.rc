@@ -705,6 +705,11 @@ CompositorTask
 :
 create
 (
+opts
+.
+clone
+(
+)
 compositor_port
 profiler_chan
 .
