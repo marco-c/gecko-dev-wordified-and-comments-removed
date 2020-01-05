@@ -213,6 +213,13 @@ gfx
 DrawTarget
 >
 target
+;
+if
+(
+mTexture
+)
+{
+target
 =
 mTexture
 -
@@ -221,6 +228,7 @@ BorrowDrawTarget
 (
 )
 ;
+}
 return
 target
 .
