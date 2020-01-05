@@ -53,6 +53,9 @@ font
 :
 mut
 Font
+underline
+:
+bool
 glyphs
 :
 GlyphStore
@@ -90,6 +93,9 @@ str
 font
 :
 FontDescriptor
+underline
+:
+bool
 priv
 glyphs
 :
@@ -175,6 +181,11 @@ text
 font
 :
 font
+underline
+:
+self
+.
+underline
 glyphs
 :
 copy
@@ -203,6 +214,9 @@ text
 :
 ~
 str
+underline
+:
+bool
 )
 -
 >
@@ -258,6 +272,9 @@ text
 font
 :
 font
+underline
+:
+underline
 glyphs
 :
 glyph_store
@@ -562,6 +579,11 @@ font
 get_descriptor
 (
 )
+underline
+:
+self
+.
+underline
 glyphs
 :
 copy

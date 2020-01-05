@@ -1008,6 +1008,9 @@ text
 :
 ~
 str
+underline
+:
+bool
 )
 -
 >
@@ -1061,6 +1064,7 @@ fonts
 0
 ]
 text
+underline
 )
 ;
 }
