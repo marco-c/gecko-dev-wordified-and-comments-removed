@@ -6086,6 +6086,10 @@ aDataTransfer
 MozTypesAt
 (
 aIndex
+CallerType
+:
+:
+System
 rv
 )
 ;

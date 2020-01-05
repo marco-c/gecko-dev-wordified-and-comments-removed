@@ -557,6 +557,7 @@ returned
 /
 [
 Throws
+NeedsCallerType
 ]
 DOMStringList
 mozTypesAt
