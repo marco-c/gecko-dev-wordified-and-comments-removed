@@ -457,6 +457,7 @@ selectedTab
 ;
 }
 yield
+*
 checkPrefSwitch
 (
 true
@@ -464,6 +465,7 @@ true
 )
 ;
 yield
+*
 checkPrefSwitch
 (
 false
@@ -471,6 +473,7 @@ true
 )
 ;
 yield
+*
 checkPrefSwitch
 (
 true
@@ -478,6 +481,7 @@ false
 )
 ;
 yield
+*
 checkPrefSwitch
 (
 false
@@ -686,12 +690,14 @@ selectedTab
 ;
 }
 yield
+*
 checkPrefSwitch
 (
 true
 )
 ;
 yield
+*
 checkPrefSwitch
 (
 false
