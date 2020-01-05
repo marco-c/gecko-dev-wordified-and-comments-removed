@@ -288,6 +288,8 @@ OpDestroy
 ]
 toDestroy
 uint64_t
+fwdTransactionId
+uint64_t
 transactionId
 )
 ;
@@ -302,6 +304,8 @@ OpDestroy
 [
 ]
 toDestroy
+uint64_t
+fwdTransactionId
 uint64_t
 transactionId
 )
