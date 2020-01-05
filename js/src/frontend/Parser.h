@@ -4043,6 +4043,10 @@ exportFunctionDeclaration
 (
 uint32_t
 begin
+FunctionAsyncKind
+asyncKind
+=
+SyncFunction
 )
 ;
 Node
