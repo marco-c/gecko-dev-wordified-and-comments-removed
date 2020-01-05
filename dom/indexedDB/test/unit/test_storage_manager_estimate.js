@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -115,7 +116,7 @@ estimation
 {
 testGenerator
 .
-send
+next
 (
 estimation
 .
@@ -212,7 +213,7 @@ estimation
 {
 testGenerator
 .
-send
+next
 (
 estimation
 .
@@ -318,7 +319,7 @@ estimation
 {
 testGenerator
 .
-send
+next
 (
 estimation
 .
@@ -360,9 +361,6 @@ close
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }
 function

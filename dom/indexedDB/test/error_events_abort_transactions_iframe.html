@@ -115,7 +115,7 @@ event
 {
 testGenerator
 .
-send
+next
 (
 event
 )
@@ -202,12 +202,6 @@ function
 (
 )
 {
-testGenerator
-.
-close
-(
-)
-;
 window
 .
 parent
@@ -264,6 +258,7 @@ error
 }
 ;
 function
+*
 testSteps
 (
 )
@@ -1835,9 +1830,6 @@ preventDefault
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }
 <

@@ -151,7 +151,7 @@ onload
 "
 gen
 .
-send
+next
 (
 event
 )
@@ -168,7 +168,7 @@ onloadeddata
 "
 gen
 .
-send
+next
 (
 event
 )
@@ -257,7 +257,7 @@ e
 {
 gen
 .
-send
+next
 (
 JSON
 .
@@ -491,6 +491,7 @@ waitForExplicitFinish
 )
 ;
 function
+*
 runTest
 (
 [
@@ -555,7 +556,7 @@ function
 {
 gen
 .
-send
+next
 (
 "
 inner
@@ -1887,7 +1888,7 @@ function
 {
 gen
 .
-send
+next
 (
 "
 XHR
@@ -2128,9 +2129,6 @@ SimpleTest
 finish
 (
 )
-;
-yield
-undefined
 ;
 }
 <

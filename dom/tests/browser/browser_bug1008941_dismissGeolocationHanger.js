@@ -34,6 +34,7 @@ html
 add_task
 (
 function
+*
 testDismissHanger
 (
 )

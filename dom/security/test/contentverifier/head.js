@@ -610,6 +610,7 @@ aPrefs
 ;
 }
 function
+*
 doTest
 (
 aExpectedStrings
@@ -1359,6 +1360,7 @@ innerHTML
 ;
 }
 function
+*
 runTests
 (
 )
@@ -1458,6 +1460,7 @@ url
 ;
 }
 yield
+*
 doTest
 (
 aExpectedStrings

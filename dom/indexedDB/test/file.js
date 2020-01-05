@@ -448,7 +448,7 @@ function
 {
 testGenerator
 .
-send
+next
 (
 binary
 )
@@ -1145,7 +1145,7 @@ request
 {
 testGenerator
 .
-send
+next
 (
 request
 .

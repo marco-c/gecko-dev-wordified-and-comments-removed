@@ -374,7 +374,7 @@ j
 ;
 testGenerator
 .
-send
+next
 (
 true
 )
@@ -408,7 +408,7 @@ limit
 ;
 testGenerator
 .
-send
+next
 (
 false
 )

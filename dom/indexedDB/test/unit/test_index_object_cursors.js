@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -853,8 +854,5 @@ null
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

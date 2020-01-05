@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -581,8 +582,5 @@ version
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

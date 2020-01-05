@@ -336,6 +336,7 @@ tests
 =
 (
 function
+*
 (
 )
 {
@@ -646,7 +647,6 @@ NAME
 ;
 }
 ;
-yield
 SimpleTest
 .
 finish

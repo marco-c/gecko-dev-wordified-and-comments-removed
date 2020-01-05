@@ -296,12 +296,6 @@ function
 (
 )
 {
-testGenerator
-.
-close
-(
-)
-;
 do_test_finished
 (
 )
@@ -317,7 +311,7 @@ event
 {
 testGenerator
 .
-send
+next
 (
 event
 )
@@ -1777,7 +1771,7 @@ function
 {
 testGenerator
 .
-send
+next
 (
 binary
 )
@@ -2369,7 +2363,7 @@ request
 {
 testGenerator
 .
-send
+next
 (
 request
 .

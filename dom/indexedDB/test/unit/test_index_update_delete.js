@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -890,8 +891,5 @@ db
 request
 =
 null
-;
-yield
-undefined
 ;
 }

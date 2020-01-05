@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -859,7 +860,7 @@ length
 {
 testGenerator
 .
-send
+next
 (
 event
 )
@@ -8160,8 +8161,5 @@ keys
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

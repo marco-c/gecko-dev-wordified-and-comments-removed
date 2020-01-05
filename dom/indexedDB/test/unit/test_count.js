@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -2654,8 +2655,5 @@ keyRange
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

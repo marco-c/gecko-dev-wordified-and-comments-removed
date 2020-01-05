@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -741,7 +742,7 @@ grabEventAndContinueHandler
 ;
 testGenerator
 .
-send
+next
 (
 true
 )
@@ -757,7 +758,7 @@ function
 {
 testGenerator
 .
-send
+next
 (
 false
 )
@@ -1153,7 +1154,7 @@ objectId
 ;
 testGenerator
 .
-send
+next
 (
 objectId
 =
@@ -1318,7 +1319,7 @@ numberOfReadObjects
 ;
 testGenerator
 .
-send
+next
 (
 true
 )
@@ -1395,7 +1396,7 @@ cleared
 ;
 testGenerator
 .
-send
+next
 (
 false
 )
@@ -1605,8 +1606,5 @@ undefined
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -951,8 +952,5 @@ blocked
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -718,8 +719,5 @@ finishTest
 objectStore
 =
 null
-;
-yield
-undefined
 ;
 }

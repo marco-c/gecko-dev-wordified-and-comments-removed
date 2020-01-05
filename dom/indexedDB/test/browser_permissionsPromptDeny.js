@@ -139,6 +139,7 @@ reject
 add_task
 (
 function
+*
 test1
 (
 )
@@ -312,6 +313,7 @@ removeCurrentTab
 add_task
 (
 function
+*
 test2
 (
 )
@@ -519,6 +521,7 @@ close
 add_task
 (
 function
+*
 test3
 (
 )

@@ -177,6 +177,7 @@ testGenerator
 =
 (
 function
+*
 (
 )
 {
@@ -1702,9 +1703,6 @@ finish
 (
 )
 ;
-yield
-undefined
-;
 }
 )
 (
@@ -1715,7 +1713,7 @@ sendToGenerator
 =
 testGenerator
 .
-send
+next
 .
 bind
 (

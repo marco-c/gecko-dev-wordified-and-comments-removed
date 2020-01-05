@@ -71,7 +71,7 @@ function
 {
 testGenerator
 .
-close
+return
 (
 )
 ;
@@ -93,7 +93,7 @@ event
 {
 testGenerator
 .
-send
+next
 (
 event
 )

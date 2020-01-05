@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -559,7 +560,7 @@ items
 ;
 testGenerator
 .
-send
+next
 (
 event
 )
@@ -735,8 +736,5 @@ undefined
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

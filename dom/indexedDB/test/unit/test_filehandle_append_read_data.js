@@ -20,6 +20,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -679,8 +680,5 @@ size
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

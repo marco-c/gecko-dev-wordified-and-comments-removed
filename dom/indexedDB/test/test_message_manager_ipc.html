@@ -356,7 +356,7 @@ arg
 {
 testGenerator
 .
-send
+next
 (
 arg
 )
@@ -402,6 +402,7 @@ finish
 ;
 }
 function
+*
 testSteps
 (
 )
@@ -1235,9 +1236,6 @@ slice
 ]
 )
 ;
-yield
-undefined
-;
 }
 let
 testGenerator
@@ -1334,13 +1332,14 @@ arg
 {
 testGenerator
 .
-send
+next
 (
 arg
 )
 ;
 }
 function
+*
 testSteps
 (
 )
@@ -1708,9 +1707,6 @@ finish
 (
 )
 ;
-yield
-undefined
-;
 }
 let
 testGenerator
@@ -1795,7 +1791,7 @@ done
 {
 testGenerator
 .
-send
+next
 (
 data
 .

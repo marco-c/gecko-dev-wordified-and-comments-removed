@@ -6,6 +6,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -203,8 +204,5 @@ indexNames
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }
