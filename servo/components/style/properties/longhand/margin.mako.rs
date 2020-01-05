@@ -170,9 +170,11 @@ margin
 s
 "
 )
-animatable
+animation_type
 =
-True
+"
+normal
+"
 logical
 =
 side

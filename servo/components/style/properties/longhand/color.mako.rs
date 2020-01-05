@@ -56,10 +56,10 @@ need_clone
 "
 True
 "
-animatable
+animation_type
 =
 "
-True
+normal
 "
 spec
 =
