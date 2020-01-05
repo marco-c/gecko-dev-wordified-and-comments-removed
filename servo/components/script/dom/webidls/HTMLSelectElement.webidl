@@ -218,8 +218,6 @@ attribute
 HTMLCollection
 selectedOptions
 ;
-/
-/
 attribute
 long
 selectedIndex
