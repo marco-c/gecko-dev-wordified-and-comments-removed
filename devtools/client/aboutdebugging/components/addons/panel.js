@@ -459,6 +459,11 @@ temporarilyInstalled
 addon
 .
 temporarilyInstalled
+url
+:
+addon
+.
+url
 }
 ;
 }
