@@ -725,10 +725,7 @@ try
 prop_module
 :
 :
-computed_value
-:
-:
-SingleComputedValue
+SingleSpecifiedValue
 :
 :
 parse
@@ -789,10 +786,7 @@ i
 prop_module
 :
 :
-computed_value
-:
-:
-SingleComputedValue
+SingleSpecifiedValue
 :
 :
 parse
@@ -1072,7 +1066,7 @@ unwrap_or_else
 transition_timing_function
 :
 :
-get_initial_single_value
+get_initial_specified_single_value
 )
 transition_delay
 :
@@ -1865,7 +1859,7 @@ unwrap_or_else
 animation_timing_function
 :
 :
-get_initial_single_value
+get_initial_specified_single_value
 )
 animation_delay
 :
