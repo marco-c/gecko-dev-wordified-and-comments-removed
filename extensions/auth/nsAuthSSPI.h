@@ -68,6 +68,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIAUTHMODULE
+explicit
 nsAuthSSPI
 (
 pType
