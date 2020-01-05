@@ -90,9 +90,6 @@ bindings
 :
 :
 global
-:
-:
-Worker
 ;
 use
 dom
@@ -882,6 +879,9 @@ dispatch_jsval
 (
 target
 &
+global
+:
+:
 Worker
 (
 scope

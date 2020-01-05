@@ -463,6 +463,7 @@ def
 DefTy
 (
 def_id
+_
 )
 =
 >

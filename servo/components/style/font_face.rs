@@ -307,7 +307,7 @@ url
 enum
 Source
 {
-UrlSource
+UrlSource_
 (
 UrlSource
 )
@@ -522,7 +522,7 @@ as_slice
 (
 )
 )
-Declaration
+Declaration_
 (
 Declaration
 {
@@ -864,7 +864,7 @@ base_url
 {
 Ok
 (
-UrlSource
+UrlSource_
 (
 source
 )
@@ -1185,7 +1185,7 @@ vec
 ;
 Ok
 (
-UrlSource
+UrlSource_
 (
 UrlSource
 {
@@ -1225,7 +1225,7 @@ next
 Some
 (
 &
-String
+QuotedString
 (
 ref
 value

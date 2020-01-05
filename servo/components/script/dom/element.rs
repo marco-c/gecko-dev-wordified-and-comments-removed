@@ -666,7 +666,7 @@ HTMLTrackElementTypeId
 HTMLUListElementTypeId
 HTMLVideoElementTypeId
 HTMLUnknownElementTypeId
-ElementTypeId
+ElementTypeId_
 }
 impl
 Element
@@ -823,7 +823,7 @@ Element
 :
 new_inherited
 (
-ElementTypeId
+ElementTypeId_
 local_name
 namespace
 prefix

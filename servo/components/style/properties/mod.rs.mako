@@ -3641,7 +3641,7 @@ Clone
 ]
 pub
 enum
-Content
+ContentItem
 {
 StringContent
 (
@@ -3673,7 +3673,7 @@ Content
 (
 Vec
 <
-Content
+ContentItem
 >
 )
 }
@@ -3861,7 +3861,7 @@ match
 component_value
 {
 &
-String
+QuotedString
 (
 ref
 value
@@ -3959,7 +3959,7 @@ color
 CSSColor
 "
 "
-RGBA
+RGBAColor
 (
 RGBA
 {
@@ -5023,7 +5023,7 @@ parse
 {
 Ok
 (
-RGBA
+RGBAColor
 (
 rgba
 )
@@ -5311,7 +5311,7 @@ next
 Some
 (
 &
-String
+QuotedString
 (
 ref
 value
@@ -10618,7 +10618,7 @@ as_slice
 (
 )
 )
-Declaration
+Declaration_
 (
 Declaration
 {
@@ -11842,7 +11842,7 @@ RGBA
 match
 color
 {
-RGBA
+RGBAColor
 (
 rgba
 )

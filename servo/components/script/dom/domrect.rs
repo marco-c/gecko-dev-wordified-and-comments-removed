@@ -39,9 +39,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -235,6 +232,9 @@ left
 right
 )
 &
+global
+:
+:
 Window
 (
 window

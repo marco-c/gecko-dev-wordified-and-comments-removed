@@ -39,9 +39,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -241,6 +238,9 @@ window
 rects
 )
 &
+global
+:
+:
 Window
 (
 window

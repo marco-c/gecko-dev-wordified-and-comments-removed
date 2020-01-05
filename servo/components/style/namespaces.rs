@@ -217,7 +217,7 @@ URL
 value
 )
 |
-String
+QuotedString
 (
 value
 )

@@ -39,9 +39,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -206,6 +203,9 @@ new_inherited
 list_type
 )
 &
+global
+:
+:
 Window
 (
 window

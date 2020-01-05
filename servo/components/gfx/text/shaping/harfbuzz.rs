@@ -1479,15 +1479,12 @@ byte_max
 assert
 !
 (
-*
 byte_to_glyph
-.
-get
-(
+[
 loc
 as
 uint
-)
+]
 !
 =
 CONTINUATION_BYTE

@@ -39,9 +39,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -186,6 +183,9 @@ reflect_dom_object
 box
 timing
 &
+global
+:
+:
 Window
 (
 window

@@ -55,9 +55,6 @@ dom
 :
 :
 window
-:
-:
-Window
 ;
 use
 script_task
@@ -152,6 +149,9 @@ JSRef
 <
 '
 a
+window
+:
+:
 Window
 >
 )
@@ -183,6 +183,9 @@ Root
 a
 '
 b
+window
+:
+:
 Window
 >
 )
@@ -214,6 +217,9 @@ WindowField
 (
 JS
 <
+window
+:
+:
 Window
 >
 )
@@ -298,6 +304,9 @@ JSRef
 <
 '
 b
+window
+:
+:
 Window
 >
 {

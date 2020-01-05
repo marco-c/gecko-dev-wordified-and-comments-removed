@@ -54,9 +54,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -719,6 +716,9 @@ prefix
 owner
 )
 &
+global
+:
+:
 Window
 (
 window

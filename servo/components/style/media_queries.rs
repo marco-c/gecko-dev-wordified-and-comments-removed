@@ -94,7 +94,7 @@ enum
 MediaQueryType
 {
 All
-MediaType
+MediaType_
 (
 MediaType
 )
@@ -223,7 +223,7 @@ into_iter
 match
 rule
 {
-QualifiedRule
+QualifiedRule_
 (
 rule
 )
@@ -238,7 +238,7 @@ rules
 namespaces
 base_url
 )
-AtRule
+AtRule_
 (
 rule
 )
@@ -403,7 +403,7 @@ MediaQuery
 {
 media_type
 :
-MediaType
+MediaType_
 (
 Screen
 )
@@ -420,7 +420,7 @@ MediaQuery
 {
 media_type
 :
-MediaType
+MediaType_
 (
 Print
 )
@@ -599,7 +599,7 @@ mq
 .
 media_type
 {
-MediaType
+MediaType_
 (
 media_type
 )

@@ -380,7 +380,7 @@ next_state
 match
 rule
 {
-QualifiedRule
+QualifiedRule_
 (
 rule
 )
@@ -403,7 +403,7 @@ namespaces
 base_url
 )
 }
-AtRule
+AtRule_
 (
 rule
 )

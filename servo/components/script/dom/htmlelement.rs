@@ -167,6 +167,7 @@ element
 {
 Element
 ElementTypeId
+ElementTypeId_
 HTMLElementTypeId
 }
 ;
@@ -270,7 +271,7 @@ NodeTargetTypeId
 (
 ElementNodeTypeId
 (
-ElementTypeId
+ElementTypeId_
 )
 )
 =
