@@ -579,6 +579,14 @@ h
 -
 match
 "
+gfxFontConstants
+.
+h
+"
+\
+-
+match
+"
 gfxFontFamilyList
 .
 h
