@@ -987,7 +987,7 @@ if
 (
 this
 .
-_sessionFileBackup
+_sessionFilePrevious
 .
 exists
 (
@@ -1008,7 +1008,7 @@ if
 (
 this
 .
-_sessionFileBackup
+_sessionFileTemp
 .
 exists
 (
