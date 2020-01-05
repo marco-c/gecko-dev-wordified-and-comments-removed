@@ -46,6 +46,7 @@ createClass
 DOM
 :
 dom
+PropTypes
 }
 =
 require
@@ -156,6 +157,15 @@ displayName
 "
 AddonsControls
 "
+propTypes
+:
+{
+debugDisabled
+:
+PropTypes
+.
+bool
+}
 getInitialState
 (
 )
