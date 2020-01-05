@@ -204,6 +204,13 @@ VersionHelpers
 .
 h
 >
+#
+include
+<
+winsdkver
+.
+h
+>
 namespace
 mozilla
 {
@@ -2552,6 +2559,14 @@ dxgiFactory2
 )
 )
 ;
+#
+if
+(
+_WIN32_WINDOWS_MAXVER
+>
+=
+0x0A00
+)
 if
 (
 gfxPrefs
@@ -2741,6 +2756,8 @@ swapChain
 ;
 }
 else
+#
+endif
 {
 DXGI_SWAP_CHAIN_DESC
 swapDesc
