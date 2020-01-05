@@ -245,6 +245,10 @@ jitUsingBarriers_
 (
 false
 )
+keepShapeTables_
+(
+false
+)
 listNext_
 (
 NotOnList

@@ -2641,6 +2641,9 @@ slotp
 void
 freeSlot
 (
+ExclusiveContext
+*
+cx
 uint32_t
 slot
 )
@@ -2868,6 +2871,10 @@ Entry
 entry
 bool
 allowDictionary
+const
+AutoKeepShapeTables
+&
+keep
 )
 ;
 bool
