@@ -155,6 +155,10 @@ return
 mClosed
 &
 &
+!
+mIsPrivateBrowsing
+&
+&
 (
 !
 mDidNotifyDataEnded
