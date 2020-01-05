@@ -4819,7 +4819,7 @@ if
 !
 writer
 .
-stubDataEquals
+stubDataEqualsMaybeUpdate
 (
 otherStub
 -
@@ -4882,7 +4882,7 @@ if
 !
 writer
 .
-stubDataEquals
+stubDataEqualsMaybeUpdate
 (
 otherStub
 -

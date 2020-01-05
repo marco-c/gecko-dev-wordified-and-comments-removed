@@ -791,6 +791,7 @@ RawInt64
 First64BitType
 =
 RawInt64
+DOMExpandoGeneration
 Value
 Limit
 }
@@ -1553,9 +1554,8 @@ dest
 const
 ;
 bool
-stubDataEquals
+stubDataEqualsMaybeUpdate
 (
-const
 uint8_t
 *
 stubData
@@ -2603,7 +2603,7 @@ StubField
 Type
 :
 :
-RawInt64
+DOMExpandoGeneration
 )
 ;
 writeOperandId
