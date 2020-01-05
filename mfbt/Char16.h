@@ -18,6 +18,15 @@ include
 <
 cstdint
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 char16ptr_t
 {
@@ -51,6 +60,7 @@ differ
 ;
 public
 :
+MOZ_IMPLICIT
 char16ptr_t
 (
 const
@@ -65,6 +75,7 @@ aPtr
 )
 {
 }
+MOZ_IMPLICIT
 char16ptr_t
 (
 const
@@ -88,6 +99,7 @@ aPtr
 {
 }
 constexpr
+MOZ_IMPLICIT
 char16ptr_t
 (
 decltype
@@ -146,6 +158,7 @@ return
 mPtr
 ;
 }
+MOZ_IMPLICIT
 operator
 bool
 (

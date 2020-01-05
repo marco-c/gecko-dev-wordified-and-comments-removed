@@ -13,6 +13,9 @@ moz_nonheap_class
 )
 )
 #
+ifndef
+MOZ_HEAP_ALLOCATOR
+#
 define
 MOZ_HEAP_ALLOCATOR
 \
@@ -62,6 +65,8 @@ diagnostic
 pop
 "
 )
+#
+endif
 #
 include
 <
