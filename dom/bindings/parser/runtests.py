@@ -584,6 +584,13 @@ s
 '
 %
 failure
+    
+return
+1
+if
+failed_tests
+else
+0
 def
 get_parser
 (
@@ -767,6 +774,21 @@ verbose
 =
 True
     
+sys
+.
+path
+.
+append
+(
+'
+.
+'
+)
+    
+sys
+.
+exit
+(
 run_tests
 (
 args
@@ -777,4 +799,5 @@ verbose
 args
 .
 verbose
+)
 )

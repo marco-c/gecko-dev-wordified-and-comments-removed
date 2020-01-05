@@ -26,6 +26,12 @@ mozbuild
 base
 import
 MachCommandBase
+from
+mozbuild
+.
+util
+import
+mkdir
 def
 get_test_parser
 (
@@ -206,6 +212,13 @@ licenses
 ply
 '
 )
+)
+        
+mkdir
+(
+self
+.
+topobjdir
 )
         
 os
