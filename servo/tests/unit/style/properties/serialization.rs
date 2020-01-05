@@ -361,9 +361,6 @@ new
 (
 declarations
 )
-normal_count
-:
-0
 important_count
 :
 0
@@ -474,9 +471,6 @@ collect
 (
 )
 )
-normal_count
-:
-0
 important_count
 :
 0
