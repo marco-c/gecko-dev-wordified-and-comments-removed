@@ -35,16 +35,8 @@ DataSourceSurface
 >
 surface
 =
+IsDataSourceSurface
 (
-GetType
-(
-)
-=
-=
-SurfaceType
-:
-:
-DATA
 )
 ?
 this
