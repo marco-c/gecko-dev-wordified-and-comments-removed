@@ -4911,12 +4911,16 @@ google
 "
 "
 yahoo
+-
+in
 "
 "
 bing
 "
 "
-amazondotcom
+amazon
+-
+in
 "
 "
 ddg
@@ -4926,6 +4930,8 @@ twitter
 "
 "
 wikipedia
+-
+ur
 "
 ]
 }
