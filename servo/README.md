@@ -106,6 +106,10 @@ libtool
 pkg
 -
 config
+python
+pip
+install
+virtualenv
 On
 OS
 X
@@ -118,6 +122,10 @@ sudo
 port
 install
 autoconf213
+python27
+py27
+-
+virtualenv
 On
 Debian
 -
@@ -163,6 +171,9 @@ g
 +
 automake
 cmake
+python
+-
+virtualenv
 On
 Fedora
 :
@@ -203,6 +214,10 @@ rpm
 build
 cabextract
 ttmkfdir
+python
+python
+-
+virtualenv
 pushd
 .
 cd
