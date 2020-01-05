@@ -150,6 +150,7 @@ nsIMultiPartChannel
 nsIPrivateBrowsingChannel
 nsIResumableChannel
 nsIStreamListener
+nsIExternalHelperAppParent
 )
 ExternalHelperAppParent
 :
@@ -164,6 +165,10 @@ const
 int64_t
 &
 aContentLength
+const
+bool
+&
+aWasFileChannel
 )
 :
 mURI
@@ -201,6 +206,10 @@ NS_OK
 mContentLength
 (
 aContentLength
+)
+mWasFileChannel
+(
+aWasFileChannel
 )
 {
 }

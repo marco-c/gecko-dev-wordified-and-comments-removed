@@ -14311,6 +14311,10 @@ int64_t
 &
 aContentLength
 const
+bool
+&
+aWasFileChannel
+const
 OptionalURIParams
 &
 aReferrer
@@ -14328,6 +14332,7 @@ ExternalHelperAppParent
 (
 uri
 aContentLength
+aWasFileChannel
 )
 ;
 parent
