@@ -233,3 +233,14 @@ c
 runtime
 .
 js
+content
+/
+extensions
+/
+ext
+-
+c
+-
+test
+.
+js
