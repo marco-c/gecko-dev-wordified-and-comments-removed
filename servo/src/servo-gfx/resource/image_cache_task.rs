@@ -2297,6 +2297,17 @@ fn
 ImageResponseMsg
 )
 {
+match
+self
+.
+wait_map
+.
+find
+(
+copy
+url
+)
+{
 Some
 (
 waiters
