@@ -5375,6 +5375,8 @@ const
 uint64_t
 &
 aPipelineId
+TextureFactoryIdentifier
+*
 )
 {
 WebRenderBridgeChild

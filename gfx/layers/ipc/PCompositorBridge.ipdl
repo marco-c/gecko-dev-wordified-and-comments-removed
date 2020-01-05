@@ -1683,11 +1683,16 @@ same
 as
 the
 layersId
-async
+sync
 PWebRenderBridge
 (
 uint64_t
 pipelineId
+)
+returns
+(
+TextureFactoryIdentifier
+textureFactoryIdentifier
 )
 ;
 child

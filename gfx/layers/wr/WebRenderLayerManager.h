@@ -598,6 +598,7 @@ WebRenderBridgeChild
 WRBridge
 (
 )
+const
 {
 return
 mWRChild

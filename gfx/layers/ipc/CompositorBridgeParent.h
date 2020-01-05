@@ -1986,6 +1986,9 @@ const
 uint64_t
 &
 aPipelineId
+TextureFactoryIdentifier
+*
+aTextureFactoryIdentifier
 )
 override
 ;
