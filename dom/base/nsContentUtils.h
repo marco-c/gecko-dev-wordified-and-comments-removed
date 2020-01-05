@@ -3936,6 +3936,14 @@ static
 bool
 IsRequestFullScreenAllowed
 (
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 static

@@ -30981,6 +30981,8 @@ nsContentUtils
 :
 IsRequestFullScreenAllowed
 (
+CallerType
+aCallerType
 )
 {
 return
@@ -30996,9 +30998,13 @@ IsHandlingUserInput
 )
 |
 |
-IsCallerChrome
-(
-)
+aCallerType
+=
+=
+CallerType
+:
+:
+System
 ;
 }
 bool
