@@ -297,6 +297,17 @@ each
 |
 item
 |
+#
+debug
+[
+"
+drawing
+%
+?
+"
+item
+]
+;
 let
 (
 r

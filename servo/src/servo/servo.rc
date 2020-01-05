@@ -117,6 +117,13 @@ mod
 layout
 {
 mod
+style
+{
+mod
+style
+;
+}
+mod
 base
 ;
 mod
