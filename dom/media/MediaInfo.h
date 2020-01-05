@@ -197,10 +197,6 @@ mTrackId
 (
 aTrackId
 )
-mMediaTime
-(
-0
-)
 mIsRenderedExternally
 (
 false
@@ -287,7 +283,10 @@ media
 TimeUnit
 mDuration
 ;
-int64_t
+media
+:
+:
+TimeUnit
 mMediaTime
 ;
 CryptoTrack
