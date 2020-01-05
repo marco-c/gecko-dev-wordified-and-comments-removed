@@ -216,7 +216,6 @@ const
 {
 PushCrypto
 concatArray
-getCryptoParams
 }
 =
 Cu
@@ -900,14 +899,6 @@ Encoding
 }
 ;
 let
-cryptoParams
-=
-getCryptoParams
-(
-headers
-)
-;
-let
 msg
 =
 concatArray
@@ -933,8 +924,8 @@ uri
 this
 .
 _ackUri
+headers
 msg
-cryptoParams
 )
 ;
 }
@@ -4282,8 +4273,8 @@ function
 (
 aUri
 aAckUri
+aHeaders
 aMessage
-cryptoParams
 )
 {
 console
@@ -4306,8 +4297,8 @@ receivedPushMessage
 aUri
 "
 "
+aHeaders
 aMessage
-cryptoParams
 record
 =
 >

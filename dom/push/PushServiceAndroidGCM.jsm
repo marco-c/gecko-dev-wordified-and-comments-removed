@@ -82,7 +82,6 @@ jsm
 const
 {
 PushCrypto
-getCryptoParams
 }
 =
 Cu
@@ -655,13 +654,13 @@ data
 ;
 let
 {
+headers
 message
-cryptoParams
 }
 =
 this
 .
-_messageAndCryptoParams
+_messageAndHeaders
 (
 data
 )
@@ -679,7 +678,7 @@ PushService
 :
 "
 message
-cryptoParams
+headers
 )
 ;
 this
@@ -693,8 +692,8 @@ data
 channelID
 "
 "
+headers
 message
-cryptoParams
 (
 record
 )
@@ -708,7 +707,7 @@ record
 )
 ;
 }
-_messageAndCryptoParams
+_messageAndHeaders
 (
 data
 )
@@ -719,7 +718,7 @@ message
 null
 ;
 let
-cryptoParams
+headers
 =
 null
 ;
@@ -747,7 +746,6 @@ cryptokey
 )
 )
 {
-let
 headers
 =
 {
@@ -773,13 +771,6 @@ data
 con
 }
 ;
-cryptoParams
-=
-getCryptoParams
-(
-headers
-)
-;
 message
 =
 ChromeUtils
@@ -801,8 +792,8 @@ ignore
 }
 return
 {
+headers
 message
-cryptoParams
 }
 ;
 }
