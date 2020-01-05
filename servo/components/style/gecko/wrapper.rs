@@ -2101,6 +2101,9 @@ url_data
 :
 &
 UrlExtraData
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -2112,10 +2115,7 @@ value
 url_data
 &
 RustLogReporter
-QuirksMode
-:
-:
-NoQuirks
+quirks_mode
 )
 }
 fn

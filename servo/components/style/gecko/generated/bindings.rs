@@ -497,6 +497,15 @@ gecko_bindings
 structs
 :
 :
+nsCompatibility
+;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
 nsMediaFeature
 ;
 use
@@ -11427,6 +11436,9 @@ extra_data
 *
 mut
 RawGeckoURLExtraData
+quirks_mode
+:
+nsCompatibility
 )
 -
 >

@@ -4828,6 +4828,9 @@ nsFont
 nsIAtom
 "
 "
+nsCompatibility
+"
+"
 nsMediaFeature
 "
 "
