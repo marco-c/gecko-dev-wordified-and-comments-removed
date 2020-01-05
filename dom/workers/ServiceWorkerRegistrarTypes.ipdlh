@@ -144,6 +144,15 @@ principal
 uint32_t
 loadFlags
 ;
+int64_t
+currentWorkerInstalledTime
+;
+int64_t
+currentWorkerActivatedTime
+;
+int64_t
+lastUpdateTime
+;
 }
 ;
 }
