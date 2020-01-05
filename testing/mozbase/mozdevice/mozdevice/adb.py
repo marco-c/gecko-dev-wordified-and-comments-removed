@@ -3045,12 +3045,8 @@ timeout
 timeout
 )
 .
-split
+splitlines
 (
-'
-\
-n
-'
 )
         
 for
@@ -6543,12 +6539,8 @@ line
 in
 forwards
 .
-split
+splitlines
 (
-"
-\
-n
-"
 )
 if
 line
@@ -8846,12 +8838,8 @@ timeout
 timeout
 )
 .
-split
+splitlines
 (
-'
-\
-r
-'
 )
         
 for
@@ -9564,12 +9552,8 @@ line
 in
 output
 .
-split
+splitlines
 (
-"
-\
-n
-"
 )
 :
                 
@@ -9803,12 +9787,8 @@ line
 in
 output
 .
-split
+splitlines
 (
-"
-\
-n
-"
 )
 :
             
@@ -11386,14 +11366,8 @@ root
 root
 )
 .
-split
+splitlines
 (
-'
-\
-r
-\
-n
-'
 )
                 
 self
@@ -12043,14 +12017,8 @@ root
 root
 )
 .
-split
+splitlines
 (
-'
-\
-r
-\
-n
-'
 )
         
 for

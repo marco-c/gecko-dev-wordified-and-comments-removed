@@ -1021,12 +1021,8 @@ timeout
 timeout
 )
 .
-split
+splitlines
 (
-'
-\
-r
-'
 )
         
 for
