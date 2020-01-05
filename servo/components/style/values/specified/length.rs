@@ -3729,6 +3729,16 @@ _
 =
 >
 {
+if
+input
+.
+is_exhausted
+(
+)
+{
+break
+;
+}
 match
 input
 .
