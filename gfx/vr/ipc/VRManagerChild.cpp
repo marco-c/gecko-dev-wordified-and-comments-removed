@@ -1568,9 +1568,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsIEventTarget
-*
-aTarget
 )
 {
 return

@@ -370,17 +370,6 @@ GetMaxFileDescriptorsPerMessage
 (
 )
 ;
-virtual
-ShadowLayerForwarder
-*
-AsLayerForwarder
-(
-)
-{
-return
-nullptr
-;
-}
 protected
 :
 nsTArray
