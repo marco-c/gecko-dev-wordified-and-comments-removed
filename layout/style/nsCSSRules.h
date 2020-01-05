@@ -2837,10 +2837,6 @@ mGeneration
 0
 )
 {
-SetIsNotDOMBinding
-(
-)
-;
 }
 private
 :
