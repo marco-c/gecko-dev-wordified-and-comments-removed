@@ -160,6 +160,15 @@ the
 final
 mask
 UV
+vec2
+texture_size
+=
+textureSize
+(
+sMask
+0
+)
+;
 vClipMaskUvRect
 =
 clip
@@ -167,6 +176,10 @@ clip
 mask_info
 .
 uv_rect
+/
+texture_size
+.
+xyxy
 ;
 vClipMaskLocalRect
 =

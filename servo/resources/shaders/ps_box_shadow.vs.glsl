@@ -90,15 +90,7 @@ fetch_instance_geometry
 (
 prim
 .
-user_data
-.
-x
-+
-prim
-.
-user_data
-.
-y
+sub_index
 )
 ;
 VertexInfo
@@ -127,7 +119,7 @@ prim
 .
 user_data
 .
-z
+x
 )
 ;
 vUv

@@ -470,10 +470,6 @@ in
 /
 Uniform
 inputs
-uniform
-sampler2D
-sMask
-;
 /
 /
 Fragment
@@ -669,6 +665,10 @@ uniforms
 uniform
 sampler2D
 sDiffuse
+;
+uniform
+sampler2D
+sMask
 ;
 /
 /

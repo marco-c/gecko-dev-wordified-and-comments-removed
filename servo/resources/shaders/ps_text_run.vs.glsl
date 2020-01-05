@@ -90,15 +90,7 @@ fetch_glyph
 (
 prim
 .
-user_data
-.
-x
-+
-prim
-.
-user_data
-.
-y
+sub_index
 )
 ;
 vec4
