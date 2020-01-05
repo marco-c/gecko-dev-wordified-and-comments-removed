@@ -980,10 +980,6 @@ mPreserveLayers
 (
 false
 )
-mFirstActivate
-(
-true
-)
 {
 MOZ_ASSERT
 (
@@ -12545,18 +12541,6 @@ if
 isActive
 )
 {
-if
-(
-mFirstActivate
-)
-{
-mFirstActivate
-=
-false
-;
-}
-else
-{
 ContentParent
 *
 cp
@@ -12579,7 +12563,6 @@ this
 mLayerTreeEpoch
 )
 ;
-}
 }
 return
 NS_OK

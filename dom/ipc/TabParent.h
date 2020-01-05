@@ -3179,9 +3179,6 @@ mLayerTreeEpoch
 bool
 mPreserveLayers
 ;
-bool
-mFirstActivate
-;
 public
 :
 static
