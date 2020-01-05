@@ -101,15 +101,6 @@ ternary
 "
 warn
 "
-"
-no
--
-octal
-"
-:
-"
-warn
-"
 }
 }
 ;
