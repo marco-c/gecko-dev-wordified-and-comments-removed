@@ -926,6 +926,13 @@ h
 '
 public
 /
+GeckoProfilerReporter
+.
+h
+'
+'
+public
+/
 ProfilerControllingProcess
 .
 h
