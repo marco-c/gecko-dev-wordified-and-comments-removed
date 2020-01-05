@@ -192,6 +192,12 @@ aTopic
 )
 override
 ;
+bool
+RecvNotifyDeviceReset
+(
+)
+override
+;
 static
 void
 Destroy

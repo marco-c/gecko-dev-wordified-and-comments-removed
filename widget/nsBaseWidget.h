@@ -242,6 +242,9 @@ ImageContainer
 struct
 ScrollableLayerGuid
 ;
+class
+RemoteCompositorSession
+;
 }
 namespace
 widget
@@ -342,6 +345,16 @@ widget
 :
 :
 InProcessCompositorWidget
+;
+friend
+class
+mozilla
+:
+:
+layers
+:
+:
+RemoteCompositorSession
 ;
 protected
 :

@@ -646,6 +646,11 @@ KeyedAccumulation
 accumulations
 )
 ;
+async
+NotifyDeviceReset
+(
+)
+;
 }
 ;
 }

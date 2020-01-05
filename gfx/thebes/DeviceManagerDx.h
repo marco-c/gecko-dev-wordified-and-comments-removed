@@ -282,6 +282,11 @@ aOutReason
 )
 ;
 bool
+MaybeResetAndReacquireDevices
+(
+)
+;
+bool
 CheckRemotePresentSupport
 (
 )
