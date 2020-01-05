@@ -93,6 +93,7 @@ flags
 }
 ;
 static
+const
 RedirEntry
 kRedirMap
 [
