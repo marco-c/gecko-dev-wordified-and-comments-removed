@@ -889,7 +889,7 @@ type
 "
 :
 "
-pointerMove
+move
 "
             
 "
