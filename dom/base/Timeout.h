@@ -85,14 +85,6 @@ uint32_t
 aDelay
 )
 ;
-enum
-class
-Reason
-{
-eTimeoutOrInterval
-eIdleCallbackTimeout
-}
-;
 static
 void
 TimerNameCallback
@@ -142,11 +134,8 @@ mRunning
 bool
 mIsInterval
 ;
-Reason
-mReason
-;
 uint32_t
-mTimeoutId
+mPublicId
 ;
 uint32_t
 mInterval
