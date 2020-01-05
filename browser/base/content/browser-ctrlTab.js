@@ -2704,9 +2704,6 @@ busy
 "
 image
 "
-"
-selected
-"
 ]
 .
 includes
