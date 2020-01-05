@@ -166,11 +166,13 @@ Stride
 )
 ;
 mCanvas
-=
+.
+reset
+(
 SkCanvas
 :
 :
-MakeRasterDirect
+NewRasterDirect
 (
 MakeSkiaImageInfo
 (
@@ -188,6 +190,7 @@ GetData
 (
 )
 mStride
+)
 )
 ;
 mCanvas
