@@ -559,6 +559,17 @@ return
 nullptr
 ;
 }
+if
+(
+!
+sourceBuffer
+-
+>
+IsComplete
+(
+)
+)
+{
 sourceBuffer
 -
 >
@@ -567,6 +578,7 @@ Complete
 NS_OK
 )
 ;
+}
 DecoderType
 decoderType
 =
