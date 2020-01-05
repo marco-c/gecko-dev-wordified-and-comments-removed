@@ -4649,6 +4649,7 @@ imgCacheEntry
 *
 entry
 )
+override
 ;
 }
 ;
