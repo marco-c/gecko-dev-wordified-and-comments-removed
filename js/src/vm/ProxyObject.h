@@ -449,7 +449,10 @@ clasp
 >
 isTrace
 (
-proxy_Trace
+ProxyObject
+:
+:
+trace
 )
 &
 &
