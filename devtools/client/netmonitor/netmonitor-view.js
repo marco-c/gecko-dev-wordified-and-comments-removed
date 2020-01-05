@@ -6600,6 +6600,13 @@ if
 (
 dataStore
 .
+length
+>
+0
+&
+&
+dataStore
+.
 every
 (
 item
