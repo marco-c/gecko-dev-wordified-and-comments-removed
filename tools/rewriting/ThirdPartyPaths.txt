@@ -204,6 +204,8 @@ media
 /
 mtransport
 /
+third_party
+/
 media
 /
 openmax_dl
