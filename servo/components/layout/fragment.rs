@@ -12114,7 +12114,7 @@ SpecificFragmentInfo
 ScannedText
 (
 ref
-text_fragment
+info
 )
 =
 >
@@ -12146,7 +12146,16 @@ flow
 construction
 ?
 if
-text_fragment
+info
+.
+insertion_point
+.
+is_none
+(
+)
+&
+&
+info
 .
 content_size
 .
@@ -12211,7 +12220,7 @@ InlineMetrics
 from_font_metrics
 (
 &
-text_fragment
+info
 .
 run
 .
