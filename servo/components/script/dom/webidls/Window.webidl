@@ -980,8 +980,14 @@ partial
 interface
 Window
 {
-/
-/
+[
+Exposed
+=
+(
+Window
+)
+NewObject
+]
 MediaQueryList
 matchMedia
 (
