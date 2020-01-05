@@ -41,6 +41,13 @@ nsIIPCSerializableInputStream
 .
 h
 "
+#
+include
+"
+nsISeekableStream
+.
+h
+"
 class
 SlicedInputStream
 final
@@ -51,6 +58,8 @@ public
 nsICloneableInputStream
 public
 nsIIPCSerializableInputStream
+public
+nsISeekableStream
 {
 public
 :
@@ -59,6 +68,7 @@ NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSICLONEABLEINPUTSTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
+NS_DECL_NSISEEKABLESTREAM
 SlicedInputStream
 (
 nsIInputStream
@@ -102,6 +112,10 @@ mWeakCloneableInputStream
 nsIIPCSerializableInputStream
 *
 mWeakIPCSerializableInputStream
+;
+nsISeekableStream
+*
+mWeakSeekableInputStream
 ;
 uint64_t
 mStart
