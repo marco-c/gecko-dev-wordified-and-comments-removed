@@ -2744,7 +2744,7 @@ return
 false
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 cx
 -
@@ -3516,7 +3516,7 @@ checkMagic
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 cx
 -
@@ -6382,8 +6382,6 @@ res
 zone
 .
 typeLifoAlloc
-.
-ref
 (
 )
 .
@@ -7355,8 +7353,6 @@ res
 zone
 .
 typeLifoAlloc
-.
-ref
 (
 )
 .
@@ -16616,8 +16612,6 @@ res
 zone
 .
 typeLifoAlloc
-.
-ref
 (
 )
 .
@@ -16921,8 +16915,6 @@ res
 zone
 .
 typeLifoAlloc
-.
-ref
 (
 )
 .
@@ -19148,7 +19140,7 @@ PlainObject
 templateObject
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 cx
 -
@@ -21556,8 +21548,6 @@ zone
 types
 .
 typeLifoAlloc
-.
-ref
 (
 )
 objectSet
@@ -21811,8 +21801,6 @@ zone
 types
 .
 typeLifoAlloc
-.
-ref
 (
 )
 objectSet
@@ -22054,8 +22042,6 @@ zone
 types
 .
 typeLifoAlloc
-.
-ref
 (
 )
 .
@@ -22388,8 +22374,6 @@ zone
 types
 .
 typeLifoAlloc
-.
-ref
 (
 )
 ;
@@ -23036,8 +23020,6 @@ typePool
 types
 .
 typeLifoAlloc
-.
-ref
 (
 )
 .
@@ -23136,7 +23118,7 @@ zone_
 (
 zone
 )
-typeLifoAlloc
+typeLifoAlloc_
 (
 zone
 -
@@ -23311,8 +23293,6 @@ steal
 (
 &
 typeLifoAlloc
-.
-ref
 (
 )
 )
