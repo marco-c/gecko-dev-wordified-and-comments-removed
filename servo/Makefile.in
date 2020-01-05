@@ -173,6 +173,13 @@ CFG_GCCISH_CFLAGS
 =
 -
 DRUST_DEBUG
+CFG_RUSTC_FLAGS
+=
+-
+D
+unused
+-
+imports
 ifdef
 CFG_DISABLE_OPTIMIZE
 (
