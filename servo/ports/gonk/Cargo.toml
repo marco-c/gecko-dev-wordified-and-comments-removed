@@ -246,6 +246,15 @@ components
 /
 util
 "
+features
+=
+[
+"
+non
+-
+geckolib
+"
+]
 [
 dependencies
 ]

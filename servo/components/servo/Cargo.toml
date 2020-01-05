@@ -455,6 +455,15 @@ path
 /
 util
 "
+features
+=
+[
+"
+non
+-
+geckolib
+"
+]
 [
 dependencies
 .

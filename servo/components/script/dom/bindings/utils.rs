@@ -517,7 +517,7 @@ use
 util
 :
 :
-str
+non_geckolib
 :
 :
 jsstring_to_str
