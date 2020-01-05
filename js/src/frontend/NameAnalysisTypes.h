@@ -233,6 +233,7 @@ uint8_t
 {
 PositionalFormalParameter
 FormalParameter
+CoverArrowParameter
 Var
 ForOfVar
 Let
@@ -270,6 +271,12 @@ DeclarationKind
 :
 :
 FormalParameter
+:
+case
+DeclarationKind
+:
+:
+CoverArrowParameter
 :
 return
 BindingKind

@@ -18469,17 +18469,6 @@ last
 )
 )
 {
-MOZ_ASSERT
-(
-arg
--
->
-isKind
-(
-PNK_NAME
-)
-)
-;
 rest
 .
 setObject
