@@ -195,6 +195,16 @@ aBytes
 {
 if
 (
+!
+mEncoder
+)
+{
+return
+false
+;
+}
+if
+(
 aUtf16
 .
 Length
