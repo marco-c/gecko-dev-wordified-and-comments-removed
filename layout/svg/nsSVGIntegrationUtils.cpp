@@ -3630,7 +3630,7 @@ firstFrame
 aParams
 offsetToBoundingBox
 offsetToUserSpace
-false
+true
 )
 ;
 Matrix
@@ -3656,6 +3656,12 @@ maskSurface
 maskTransform
 &
 result
+)
+;
+context
+.
+PopClip
+(
 )
 ;
 if
