@@ -80,7 +80,7 @@ defineLazyModuleGetter
 (
 this
 "
-NetUtils
+NetUtil
 "
 "
 resource
@@ -91,7 +91,7 @@ gre
 /
 modules
 /
-NetUtils
+NetUtil
 .
 jsm
 "
