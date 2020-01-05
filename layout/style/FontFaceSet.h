@@ -1026,6 +1026,9 @@ Promise
 >
 mReady
 ;
+bool
+mResolveLazilyCreatedReadyPromise
+;
 nsTHashtable
 <
 nsPtrHashKey
