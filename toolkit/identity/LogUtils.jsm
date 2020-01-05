@@ -17,11 +17,13 @@ const
 PREF_DEBUG
 =
 "
-toolkit
+services
 .
-identity
+sync
 .
-debug
+log
+.
+cryptoDebug
 "
 ;
 const

@@ -1539,13 +1539,6 @@ nsURLFormatter
 js
 toolkit
 /
-identity
-/
-FirefoxAccounts
-.
-jsm
-toolkit
-/
 modules
 /
 AppConstants
