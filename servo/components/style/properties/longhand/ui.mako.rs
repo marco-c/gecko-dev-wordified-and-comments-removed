@@ -139,6 +139,9 @@ gecko_enum_prefix
 "
 StyleUserSelect
 "
+gecko_inexhaustive
+=
+True
 animatable
 =
 False

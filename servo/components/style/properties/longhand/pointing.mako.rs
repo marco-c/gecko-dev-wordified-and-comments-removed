@@ -1163,6 +1163,9 @@ gecko_enum_prefix
 "
 StyleUserInput
 "
+gecko_inexhaustive
+=
+True
 animatable
 =
 False
@@ -1207,6 +1210,9 @@ gecko_enum_prefix
 "
 StyleUserModify
 "
+gecko_inexhaustive
+=
+True
 animatable
 =
 False
@@ -1260,6 +1266,9 @@ gecko_enum_prefix
 "
 StyleUserFocus
 "
+gecko_inexhaustive
+=
+True
 animatable
 =
 False

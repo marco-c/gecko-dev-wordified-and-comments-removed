@@ -246,6 +246,14 @@ None
 extra_servo_values
 =
 None
+                 
+gecko_strip_moz_prefix
+=
+True
+                 
+gecko_inexhaustive
+=
+None
 )
 :
         
@@ -365,6 +373,24 @@ is
 None
 else
 custom_consts
+        
+self
+.
+gecko_strip_moz_prefix
+=
+gecko_strip_moz_prefix
+        
+self
+.
+gecko_inexhaustive
+=
+gecko_inexhaustive
+or
+(
+gecko_enum_prefix
+is
+None
+)
     
 def
 gecko_values
@@ -475,6 +501,12 @@ moz
 '
 '
 )
+if
+self
+.
+gecko_strip_moz_prefix
+else
+value
         
 parts
 =

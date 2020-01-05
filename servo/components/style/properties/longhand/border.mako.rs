@@ -461,6 +461,9 @@ gecko_enum_prefix
 "
 StyleBoxDecorationBreak
 "
+gecko_inexhaustive
+=
+True
 products
 =
 "
@@ -502,6 +505,9 @@ gecko_enum_prefix
 "
 StyleFloatEdge
 "
+gecko_inexhaustive
+=
+True
 products
 =
 "
