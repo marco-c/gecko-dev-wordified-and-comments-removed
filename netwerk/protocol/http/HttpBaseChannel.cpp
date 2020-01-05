@@ -8685,7 +8685,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+auto
 innerWindowID
 =
 loadInfo
