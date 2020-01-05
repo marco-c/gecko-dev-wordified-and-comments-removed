@@ -323,11 +323,6 @@ attribute
 nsIControllers
 controllers
 ;
-readonly
-attribute
-nsIBoxObject
-boxObject
-;
 void
 focus
 (
