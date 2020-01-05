@@ -11828,7 +11828,6 @@ jsvalPtr
 domstring_to_jsval
 (
 cx
-&
 %
 s
 )
@@ -11855,7 +11854,6 @@ jsvalPtr
 str_to_jsval
 (
 cx
-&
 %
 s
 )
@@ -23652,30 +23650,6 @@ type
 .
 isDictionary
 (
-)
-or
-(
-a
-.
-type
-.
-isString
-(
-)
-and
-not
-(
-bool
-(
-a
-.
-defaultValue
-)
-^
-a
-.
-optional
-)
 )
 :
                 

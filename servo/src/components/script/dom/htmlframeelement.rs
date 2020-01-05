@@ -189,7 +189,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -226,7 +225,6 @@ mut
 self
 _scrolling
 :
-&
 DOMString
 )
 -
@@ -263,7 +261,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -300,7 +297,6 @@ mut
 self
 _frameborder
 :
-&
 DOMString
 )
 -
@@ -337,7 +333,6 @@ mut
 self
 _longdesc
 :
-&
 DOMString
 )
 -
@@ -441,7 +436,6 @@ mut
 self
 _height
 :
-&
 DOMString
 )
 -
@@ -478,7 +472,6 @@ mut
 self
 _height
 :
-&
 DOMString
 )
 -

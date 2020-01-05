@@ -180,7 +180,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -217,7 +216,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -254,7 +252,6 @@ mut
 self
 _media
 :
-&
 DOMString
 )
 -

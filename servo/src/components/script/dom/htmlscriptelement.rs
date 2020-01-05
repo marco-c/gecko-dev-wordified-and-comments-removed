@@ -218,7 +218,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -255,7 +254,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -292,7 +290,6 @@ mut
 self
 _charset
 :
-&
 DOMString
 )
 -
@@ -395,7 +392,6 @@ mut
 self
 _cross_origin
 :
-&
 DOMString
 )
 -
@@ -432,7 +428,6 @@ mut
 self
 _text
 :
-&
 DOMString
 )
 -
@@ -469,7 +464,6 @@ mut
 self
 _event
 :
-&
 DOMString
 )
 -
@@ -506,7 +500,6 @@ mut
 self
 _html_for
 :
-&
 DOMString
 )
 -

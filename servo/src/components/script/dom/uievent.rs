@@ -191,7 +191,6 @@ mut
 Window
 type_
 :
-&
 DOMString
 init
 :
@@ -295,7 +294,6 @@ mut
 self
 type_
 :
-&
 DOMString
 can_bubble
 :

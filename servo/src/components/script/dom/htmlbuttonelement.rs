@@ -276,7 +276,6 @@ mut
 self
 _formaction
 :
-&
 DOMString
 )
 -
@@ -313,7 +312,6 @@ mut
 self
 _formenctype
 :
-&
 DOMString
 )
 -
@@ -350,7 +348,6 @@ mut
 self
 _formmethod
 :
-&
 DOMString
 )
 -
@@ -421,7 +418,6 @@ mut
 self
 _formtarget
 :
-&
 DOMString
 )
 -
@@ -458,7 +454,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -495,7 +490,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -532,7 +526,6 @@ mut
 self
 _value
 :
-&
 DOMString
 )
 -
@@ -650,7 +643,6 @@ mut
 self
 _message
 :
-&
 DOMString
 )
 -
@@ -685,7 +677,6 @@ mut
 self
 _error
 :
-&
 DOMString
 )
 {

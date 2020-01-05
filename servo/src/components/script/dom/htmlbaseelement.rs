@@ -179,7 +179,6 @@ SetHref
 self
 _href
 :
-&
 DOMString
 )
 -
@@ -215,7 +214,6 @@ SetTarget
 self
 _target
 :
-&
 DOMString
 )
 -

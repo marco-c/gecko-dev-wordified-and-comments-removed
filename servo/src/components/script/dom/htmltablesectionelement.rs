@@ -201,7 +201,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -238,7 +237,6 @@ mut
 self
 _ch
 :
-&
 DOMString
 )
 -
@@ -275,7 +273,6 @@ mut
 self
 _ch_off
 :
-&
 DOMString
 )
 -
@@ -312,7 +309,6 @@ mut
 self
 _v_align
 :
-&
 DOMString
 )
 -

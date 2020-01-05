@@ -389,7 +389,6 @@ mut
 self
 value
 :
-&
 DOMString
 )
 {
@@ -398,10 +397,6 @@ self
 value
 =
 value
-.
-clone
-(
-)
 ;
 }
 pub

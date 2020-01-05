@@ -180,7 +180,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -217,7 +216,6 @@ mut
 self
 _http_equiv
 :
-&
 DOMString
 )
 -
@@ -254,7 +252,6 @@ mut
 self
 _content
 :
-&
 DOMString
 )
 -
@@ -291,7 +288,6 @@ mut
 self
 _scheme
 :
-&
 DOMString
 )
 -

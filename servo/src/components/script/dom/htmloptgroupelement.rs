@@ -214,7 +214,6 @@ mut
 self
 _label
 :
-&
 DOMString
 )
 -

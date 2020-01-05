@@ -113,7 +113,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -165,7 +164,6 @@ mut
 self
 _cross_origin
 :
-&
 DOMString
 )
 -
@@ -202,7 +200,6 @@ mut
 self
 _preload
 :
-&
 DOMString
 )
 -
@@ -232,7 +229,6 @@ CanPlayType
 self
 _type
 :
-&
 DOMString
 )
 -

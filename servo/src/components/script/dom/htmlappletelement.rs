@@ -180,7 +180,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -216,7 +215,6 @@ SetAlt
 self
 _alt
 :
-&
 DOMString
 )
 -
@@ -252,7 +250,6 @@ SetArchive
 self
 _archive
 :
-&
 DOMString
 )
 -
@@ -288,7 +285,6 @@ SetCode
 self
 _code
 :
-&
 DOMString
 )
 -
@@ -324,7 +320,6 @@ SetCodeBase
 self
 _code_base
 :
-&
 DOMString
 )
 -
@@ -360,7 +355,6 @@ SetHeight
 self
 _height
 :
-&
 DOMString
 )
 -
@@ -431,7 +425,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -468,7 +461,6 @@ mut
 self
 _object
 :
-&
 DOMString
 )
 -
@@ -539,7 +531,6 @@ mut
 self
 _width
 :
-&
 DOMString
 )
 -

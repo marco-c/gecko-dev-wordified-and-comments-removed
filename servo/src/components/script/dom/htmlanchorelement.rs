@@ -180,7 +180,6 @@ mut
 self
 _href
 :
-&
 DOMString
 )
 -
@@ -216,7 +215,6 @@ SetTarget
 self
 _target
 :
-&
 DOMString
 )
 -
@@ -252,7 +250,6 @@ SetDownload
 self
 _download
 :
-&
 DOMString
 )
 -
@@ -288,7 +285,6 @@ SetPing
 self
 _ping
 :
-&
 DOMString
 )
 -
@@ -324,7 +320,6 @@ SetRel
 self
 _rel
 :
-&
 DOMString
 )
 -
@@ -360,7 +355,6 @@ SetHreflang
 self
 _href_lang
 :
-&
 DOMString
 )
 -
@@ -397,7 +391,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -434,7 +427,6 @@ mut
 self
 _text
 :
-&
 DOMString
 )
 -
@@ -471,7 +463,6 @@ mut
 self
 _coords
 :
-&
 DOMString
 )
 -
@@ -508,7 +499,6 @@ mut
 self
 _charset
 :
-&
 DOMString
 )
 -
@@ -545,7 +535,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -582,7 +571,6 @@ mut
 self
 _rev
 :
-&
 DOMString
 )
 -
@@ -619,7 +607,6 @@ mut
 self
 _shape
 :
-&
 DOMString
 )
 -

@@ -180,7 +180,6 @@ mut
 self
 _text
 :
-&
 DOMString
 )
 -
@@ -216,7 +215,6 @@ SetLink
 self
 _link
 :
-&
 DOMString
 )
 -
@@ -252,7 +250,6 @@ SetVLink
 self
 _v_link
 :
-&
 DOMString
 )
 -
@@ -288,7 +285,6 @@ SetALink
 self
 _a_link
 :
-&
 DOMString
 )
 -
@@ -324,7 +320,6 @@ SetBgColor
 self
 _bg_color
 :
-&
 DOMString
 )
 -
@@ -360,7 +355,6 @@ SetBackground
 self
 _background
 :
-&
 DOMString
 )
 -

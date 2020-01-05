@@ -1070,7 +1070,6 @@ mut
 self
 type_
 :
-&
 DOMString
 bubbles
 :
@@ -1088,10 +1087,6 @@ self
 type_
 =
 type_
-.
-clone
-(
-)
 ;
 self
 .
@@ -1142,7 +1137,6 @@ mut
 Window
 type_
 :
-&
 DOMString
 init
 :

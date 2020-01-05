@@ -444,7 +444,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -481,7 +480,6 @@ mut
 self
 _srcdoc
 :
-&
 DOMString
 )
 -
@@ -518,7 +516,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -557,7 +554,6 @@ element
 .
 GetAttribute
 (
-&
 ~
 "
 sandbox
@@ -598,7 +594,6 @@ ScriptView
 >
 sandbox
 :
-&
 DOMString
 )
 {
@@ -611,7 +606,6 @@ element
 SetAttribute
 (
 abstract_self
-&
 ~
 "
 sandbox
@@ -629,11 +623,9 @@ mut
 self
 name
 :
-&
 DOMString
 value
 :
-&
 DOMString
 )
 {
@@ -643,7 +635,6 @@ sandbox
 "
 =
 =
-*
 name
 {
 let
@@ -811,7 +802,6 @@ mut
 self
 _width
 :
-&
 DOMString
 )
 -
@@ -848,7 +838,6 @@ mut
 self
 _height
 :
-&
 DOMString
 )
 -
@@ -918,7 +907,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -955,7 +943,6 @@ mut
 self
 _scrolling
 :
-&
 DOMString
 )
 -
@@ -992,7 +979,6 @@ mut
 self
 _frameborder
 :
-&
 DOMString
 )
 -
@@ -1029,7 +1015,6 @@ mut
 self
 _longdesc
 :
-&
 DOMString
 )
 -
@@ -1066,7 +1051,6 @@ mut
 self
 _marginheight
 :
-&
 DOMString
 )
 -
@@ -1103,7 +1087,6 @@ mut
 self
 _marginwidth
 :
-&
 DOMString
 )
 -

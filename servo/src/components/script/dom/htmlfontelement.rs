@@ -180,7 +180,6 @@ mut
 self
 _color
 :
-&
 DOMString
 )
 -
@@ -217,7 +216,6 @@ mut
 self
 _face
 :
-&
 DOMString
 )
 -
@@ -254,7 +252,6 @@ mut
 self
 _size
 :
-&
 DOMString
 )
 -

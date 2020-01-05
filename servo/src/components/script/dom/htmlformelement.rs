@@ -189,7 +189,6 @@ mut
 self
 _accept_charset
 :
-&
 DOMString
 )
 -
@@ -226,7 +225,6 @@ mut
 self
 _action
 :
-&
 DOMString
 )
 -
@@ -263,7 +261,6 @@ mut
 self
 _autocomplete
 :
-&
 DOMString
 )
 -
@@ -300,7 +297,6 @@ mut
 self
 _enctype
 :
-&
 DOMString
 )
 -
@@ -337,7 +333,6 @@ mut
 self
 _encoding
 :
-&
 DOMString
 )
 -
@@ -374,7 +369,6 @@ mut
 self
 _method
 :
-&
 DOMString
 )
 -
@@ -411,7 +405,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -482,7 +475,6 @@ mut
 self
 _target
 :
-&
 DOMString
 )
 -

@@ -438,7 +438,6 @@ Alert
 self
 s
 :
-&
 DOMString
 )
 {
@@ -464,7 +463,6 @@ ALERT
 s
 }
 "
-*
 s
 )
 )
@@ -534,7 +532,6 @@ SetName
 self
 _name
 :
-&
 DOMString
 )
 {
@@ -562,7 +559,6 @@ SetStatus
 self
 _status
 :
-&
 DOMString
 )
 {
@@ -680,7 +676,6 @@ Confirm
 self
 _message
 :
-&
 DOMString
 )
 -
@@ -697,11 +692,9 @@ Prompt
 self
 _message
 :
-&
 DOMString
 _default
 :
-&
 DOMString
 )
 -
@@ -734,7 +727,6 @@ _cx
 JSContext
 _url
 :
-&
 DOMString
 _argument
 :

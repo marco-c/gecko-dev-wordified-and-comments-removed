@@ -198,7 +198,6 @@ mut
 self
 _title
 :
-&
 DOMString
 )
 {
@@ -227,7 +226,6 @@ mut
 self
 _lang
 :
-&
 DOMString
 )
 {
@@ -256,7 +254,6 @@ mut
 self
 _dir
 :
-&
 DOMString
 )
 -
@@ -451,7 +448,6 @@ SetAccessKey
 self
 _key
 :
-&
 DOMString
 )
 -
@@ -537,7 +533,6 @@ mut
 self
 _val
 :
-&
 DOMString
 )
 -
@@ -619,7 +614,6 @@ SetClassName
 self
 _class
 :
-&
 DOMString
 )
 {

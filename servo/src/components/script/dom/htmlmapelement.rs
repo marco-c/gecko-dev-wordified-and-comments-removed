@@ -189,7 +189,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -

@@ -179,7 +179,6 @@ SetCite
 self
 _cite
 :
-&
 DOMString
 )
 -

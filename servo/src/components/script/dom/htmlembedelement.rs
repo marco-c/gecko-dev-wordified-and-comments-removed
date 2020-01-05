@@ -180,7 +180,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -217,7 +216,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -254,7 +252,6 @@ mut
 self
 _width
 :
-&
 DOMString
 )
 -
@@ -291,7 +288,6 @@ mut
 self
 _height
 :
-&
 DOMString
 )
 -
@@ -328,7 +324,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -365,7 +360,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -

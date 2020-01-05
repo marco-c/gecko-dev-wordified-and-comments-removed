@@ -180,7 +180,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -

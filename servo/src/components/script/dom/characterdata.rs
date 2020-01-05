@@ -133,7 +133,6 @@ mut
 self
 arg
 :
-&
 DOMString
 )
 -
@@ -145,10 +144,6 @@ self
 data
 =
 arg
-.
-clone
-(
-)
 ;
 Ok
 (
@@ -227,7 +222,6 @@ mut
 self
 arg
 :
-&
 DOMString
 )
 -
@@ -240,7 +234,6 @@ data
 .
 push_str
 (
-*
 arg
 )
 ;
@@ -262,7 +255,6 @@ _offset
 u32
 _arg
 :
-&
 DOMString
 )
 -
@@ -332,7 +324,6 @@ _count
 u32
 _arg
 :
-&
 DOMString
 )
 -

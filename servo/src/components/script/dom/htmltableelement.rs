@@ -261,7 +261,6 @@ SetAlign
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -297,7 +296,6 @@ SetBorder
 self
 _border
 :
-&
 DOMString
 )
 -
@@ -333,7 +331,6 @@ SetFrame
 self
 _frame
 :
-&
 DOMString
 )
 -
@@ -369,7 +366,6 @@ SetRules
 self
 _rules
 :
-&
 DOMString
 )
 -
@@ -405,7 +401,6 @@ SetSummary
 self
 _summary
 :
-&
 DOMString
 )
 -
@@ -441,7 +436,6 @@ SetWidth
 self
 _width
 :
-&
 DOMString
 )
 -
@@ -477,7 +471,6 @@ SetBgColor
 self
 _bg_color
 :
-&
 DOMString
 )
 -
@@ -513,7 +506,6 @@ SetCellPadding
 self
 _cell_padding
 :
-&
 DOMString
 )
 -
@@ -549,7 +541,6 @@ SetCellSpacing
 self
 _cell_spacing
 :
-&
 DOMString
 )
 -

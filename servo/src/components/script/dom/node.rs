@@ -4021,7 +4021,6 @@ ScriptView
 >
 _val
 :
-&
 Option
 <
 DOMString
@@ -5930,7 +5929,6 @@ ScriptView
 >
 value
 :
-&
 Option
 <
 DOMString
@@ -5951,6 +5949,7 @@ value
 =
 null_str_as_empty
 (
+&
 value
 )
 ;
@@ -6012,7 +6011,6 @@ document
 CreateTextNode
 (
 document
-&
 value
 )
 )
@@ -6421,7 +6419,6 @@ LookupPrefix
 self
 _prefix
 :
-&
 Option
 <
 DOMString
@@ -6444,7 +6441,6 @@ LookupNamespaceURI
 self
 _namespace
 :
-&
 Option
 <
 DOMString
@@ -6467,7 +6463,6 @@ IsDefaultNamespace
 self
 _namespace
 :
-&
 Option
 <
 DOMString

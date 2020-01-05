@@ -180,7 +180,6 @@ mut
 self
 _cols
 :
-&
 DOMString
 )
 -
@@ -217,7 +216,6 @@ mut
 self
 _rows
 :
-&
 DOMString
 )
 -
