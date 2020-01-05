@@ -192,6 +192,9 @@ text_run
 mod
 font
 ;
+mod
+shaper
+;
 }
 mod
 util
