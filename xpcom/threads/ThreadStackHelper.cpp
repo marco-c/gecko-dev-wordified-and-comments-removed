@@ -1741,7 +1741,10 @@ AppendJSEntry
 (
 const
 volatile
-StackEntry
+js
+:
+:
+ProfileEntry
 *
 aEntry
 intptr_t
@@ -2156,7 +2159,10 @@ reservedBufferSize
 ;
 const
 volatile
-StackEntry
+js
+:
+:
+ProfileEntry
 *
 entry
 =
@@ -2167,7 +2173,10 @@ mStack
 ;
 const
 volatile
-StackEntry
+js
+:
+:
+ProfileEntry
 *
 end
 =

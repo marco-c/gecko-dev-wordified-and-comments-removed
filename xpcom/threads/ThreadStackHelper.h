@@ -16,7 +16,9 @@ h
 #
 include
 "
-GeckoProfiler
+js
+/
+ProfilingStack
 .
 h
 "
@@ -260,7 +262,10 @@ AppendJSEntry
 (
 const
 volatile
-StackEntry
+js
+:
+:
+ProfileEntry
 *
 aEntry
 intptr_t
