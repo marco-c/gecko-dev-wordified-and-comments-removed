@@ -1,0 +1,15 @@
+pub
+trait
+PrecomputedHash
+{
+fn
+precomputed_hash
+(
+&
+self
+)
+-
+>
+u32
+;
+}
