@@ -1858,6 +1858,7 @@ true
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 Value
 ValueToWindowProxyIfWindow
 (
