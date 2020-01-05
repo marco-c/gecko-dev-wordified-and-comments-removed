@@ -354,6 +354,17 @@ close
 self
 )
 ;
+fn
+dup
+(
+&
+self
+)
+-
+>
+~
+ScriptListener
+;
 }
 impl
 <
