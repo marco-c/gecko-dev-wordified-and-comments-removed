@@ -269,6 +269,13 @@ preprocess
 "
 localize
 "
+"
+onError
+"
+:
+"
+warn
+"
 }
 "
 version
