@@ -534,6 +534,12 @@ bool
 gHasWarnedUploadChannel2
 ;
 static
+bool
+gCaptivePortalEnabled
+=
+false
+;
+static
 LazyLogModule
 gIOServiceLog
 (
@@ -4502,6 +4508,9 @@ xpc
 AreNonLocalConnectionsDisabled
 (
 )
+&
+&
+gCaptivePortalEnabled
 )
 {
 static_cast
@@ -5176,9 +5185,6 @@ NETWORK_CAPTIVE_PORTAL_PREF
 0
 )
 {
-bool
-captivePortalEnabled
-;
 nsresult
 rv
 =
@@ -5189,7 +5195,7 @@ GetBoolPref
 (
 NETWORK_CAPTIVE_PORTAL_PREF
 &
-captivePortalEnabled
+gCaptivePortalEnabled
 )
 ;
 if
@@ -5205,7 +5211,7 @@ mCaptivePortalService
 {
 if
 (
-captivePortalEnabled
+gCaptivePortalEnabled
 &
 &
 !
