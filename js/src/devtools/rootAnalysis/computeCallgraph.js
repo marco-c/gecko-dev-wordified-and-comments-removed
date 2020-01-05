@@ -113,7 +113,7 @@ Set
 )
 ;
 function
-addEntry
+addToNamedSet
 (
 map
 name
@@ -231,14 +231,14 @@ subclass
 csuName
 )
 ;
-addEntry
+addToNamedSet
 (
 subclasses
 superclass
 subclass
 )
 ;
-addEntry
+addToNamedSet
 (
 superclasses
 subclass
@@ -288,7 +288,7 @@ Name
 0
 ]
 ;
-addEntry
+addToNamedSet
 (
 classFunctions
 key
