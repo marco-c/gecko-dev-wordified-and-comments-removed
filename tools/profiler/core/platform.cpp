@@ -10832,7 +10832,11 @@ Now
 profile
 -
 >
-BeginUnwind
+GetMutex
+(
+)
+.
+Lock
 (
 )
 ;
@@ -10845,7 +10849,11 @@ sample
 profile
 -
 >
-EndUnwind
+GetMutex
+(
+)
+.
+Unlock
 (
 )
 ;

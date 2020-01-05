@@ -44,12 +44,6 @@ UniqueStacks
 aUniqueStacks
 )
 ;
-virtual
-void
-EndUnwind
-(
-)
-;
 private
 :
 friend

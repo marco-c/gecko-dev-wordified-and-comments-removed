@@ -270,17 +270,6 @@ FlushSamplesAndMarkers
 )
 ;
 void
-BeginUnwind
-(
-)
-;
-virtual
-void
-EndUnwind
-(
-)
-;
-void
 DuplicateLastSample
 (
 const
