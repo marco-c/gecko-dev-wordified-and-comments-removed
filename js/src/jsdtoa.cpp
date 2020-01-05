@@ -31,8 +31,8 @@ namespace
 js
 ;
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 #
 define
 IEEE_8087

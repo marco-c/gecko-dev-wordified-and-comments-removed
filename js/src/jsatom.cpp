@@ -3346,7 +3346,7 @@ else
 {
 #
 if
-IS_LITTLE_ENDIAN
+MOZ_LITTLE_ENDIAN
 const
 char16_t
 *

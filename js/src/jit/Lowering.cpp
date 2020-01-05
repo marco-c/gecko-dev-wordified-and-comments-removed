@@ -364,10 +364,7 @@ JS_NUNBOX32
 )
 #
 if
-defined
-(
-IS_BIG_ENDIAN
-)
+MOZ_BIG_ENDIAN
 ins
 -
 >
