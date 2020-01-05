@@ -1601,6 +1601,11 @@ type
 aType
 id
 :
+aOptions
+.
+overridePingId
+|
+|
 Policy
 .
 generatePingId
