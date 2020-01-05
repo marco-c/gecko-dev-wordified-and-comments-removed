@@ -433,10 +433,6 @@ const
 GMPDecryptionData
 &
 aMetadata
-const
-uint64_t
-&
-aDurationUsecs
 )
 override
 ;

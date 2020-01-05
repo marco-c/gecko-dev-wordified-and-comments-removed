@@ -221,8 +221,6 @@ aBuffer
 GMPEncryptedBufferMetadata
 *
 aMetadata
-uint64_t
-aDurationUsecs
 )
 override
 ;

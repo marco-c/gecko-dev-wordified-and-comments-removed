@@ -3494,13 +3494,6 @@ mSample
 >
 mCrypto
 data
-aJob
--
->
-mSample
--
->
-mDuration
 )
 ;
 mDecryptionJobs

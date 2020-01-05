@@ -1376,10 +1376,6 @@ const
 GMPDecryptionData
 &
 aMetadata
-const
-uint64_t
-&
-aDurationUsecs
 )
 {
 if
@@ -1431,7 +1427,6 @@ Decrypt
 (
 buffer
 metadata
-aDurationUsecs
 )
 ;
 return
