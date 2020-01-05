@@ -66,10 +66,11 @@ incremental
 :
 :
 {
-RestyleDamage
+self
 BUBBLE_ISIZES
 REFLOW
 REFLOW_OUT_OF_FLOW
+RestyleDamage
 }
 ;
 use
@@ -833,7 +834,7 @@ node
 .
 set_restyle_damage
 (
-RestyleDamage
+incremental
 :
 :
 all
