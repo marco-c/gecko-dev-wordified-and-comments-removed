@@ -5,7 +5,7 @@ net_traits
 {
 LoadData
 Metadata
-ProgressMsg
+ResponseSenders
 }
 ;
 use
@@ -33,6 +33,7 @@ resource_task
 {
 start_sending
 start_sending_sniffed
+ProgressSender
 }
 ;
 use
@@ -79,18 +80,6 @@ sync
 :
 :
 Arc
-;
-use
-std
-:
-:
-sync
-:
-:
-mpsc
-:
-:
-Sender
 ;
 use
 util
@@ -231,10 +220,7 @@ File
 progress_chan
 :
 &
-Sender
-<
-ProgressMsg
->
+ProgressSender
 )
 -
 >
@@ -301,6 +287,9 @@ factory
 load_data
 :
 LoadData
+senders
+:
+ResponseSenders
 classifier
 :
 Arc
@@ -315,13 +304,6 @@ url
 load_data
 .
 url
-;
-let
-start_chan
-=
-load_data
-.
-consumer
 ;
 assert
 !
@@ -446,7 +428,7 @@ progress_chan
 =
 start_sending_sniffed
 (
-start_chan
+senders
 metadata
 classifier
 &
@@ -504,7 +486,7 @@ _
 )
 start_sending
 (
-start_chan
+senders
 metadata
 )
 )
@@ -537,7 +519,7 @@ progress_chan
 =
 start_sending
 (
-start_chan
+senders
 metadata
 )
 ;
@@ -581,7 +563,7 @@ progress_chan
 =
 start_sending
 (
-start_chan
+senders
 metadata
 )
 ;

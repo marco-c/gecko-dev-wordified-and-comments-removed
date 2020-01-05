@@ -8,6 +8,12 @@ base
 Image
 ;
 use
+LoadConsumer
+:
+:
+Channel
+;
+use
 {
 ControlMsg
 LoadData
@@ -429,6 +435,9 @@ url
 clone
 (
 )
+)
+Channel
+(
 response_chan
 )
 )

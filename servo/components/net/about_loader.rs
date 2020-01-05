@@ -5,6 +5,7 @@ net_traits
 {
 LoadData
 Metadata
+ResponseSenders
 }
 ;
 use
@@ -112,6 +113,9 @@ mut
 load_data
 :
 LoadData
+start_chan
+:
+ResponseSenders
 classifier
 :
 Arc
@@ -139,13 +143,6 @@ blank
 =
 >
 {
-let
-start_chan
-=
-load_data
-.
-consumer
-;
 let
 chan
 =
@@ -314,13 +311,6 @@ _
 =
 >
 {
-let
-start_chan
-=
-load_data
-.
-consumer
-;
 start_sending
 (
 start_chan
@@ -370,6 +360,7 @@ file_loader
 factory
 (
 load_data
+start_chan
 classifier
 )
 }

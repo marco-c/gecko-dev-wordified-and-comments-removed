@@ -6,8 +6,8 @@ net_traits
 ControlMsg
 CookieSource
 LoadData
-LoadResponse
 Metadata
+ResponseSenders
 }
 ;
 use
@@ -265,6 +265,7 @@ Invoke
 <
 (
 LoadData
+ResponseSenders
 Arc
 <
 MIMEClassifier
@@ -280,6 +281,7 @@ move
 |
 (
 load_data
+senders
 classifier
 )
 |
@@ -299,6 +301,7 @@ move
 load
 (
 load_data
+senders
 classifier
 cookies_chan
 )
@@ -316,10 +319,7 @@ err
 String
 start_chan
 :
-Sender
-<
-LoadResponse
->
+ResponseSenders
 )
 {
 let
@@ -503,6 +503,9 @@ mut
 load_data
 :
 LoadData
+start_chan
+:
+ResponseSenders
 classifier
 :
 Arc
@@ -527,13 +530,6 @@ mut
 iters
 =
 0
-;
-let
-start_chan
-=
-load_data
-.
-consumer
 ;
 let
 mut
@@ -1028,7 +1024,6 @@ image
 unwrap
 (
 )
-start_chan
 )
 ;
 file_loader
@@ -1037,6 +1032,7 @@ file_loader
 factory
 (
 load_data
+start_chan
 classifier
 )
 ;
@@ -2560,10 +2556,7 @@ mut
 R
 start_chan
 :
-Sender
-<
-LoadResponse
->
+ResponseSenders
 metadata
 :
 Metadata

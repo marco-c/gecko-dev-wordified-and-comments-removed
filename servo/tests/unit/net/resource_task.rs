@@ -18,6 +18,7 @@ net_traits
 {
 ControlMsg
 LoadData
+LoadConsumer
 }
 ;
 use
@@ -163,6 +164,12 @@ LoadData
 new
 (
 url
+)
+LoadConsumer
+:
+:
+Channel
+(
 start_chan
 )
 )
@@ -2231,9 +2238,15 @@ LoadData
 new
 (
 url
-start_chan
 )
 host_table
+)
+LoadConsumer
+:
+:
+Channel
+(
+start_chan
 )
 )
 )

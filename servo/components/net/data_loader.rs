@@ -5,6 +5,7 @@ net_traits
 {
 LoadData
 Metadata
+ResponseSenders
 }
 ;
 use
@@ -74,6 +75,9 @@ factory
 load_data
 :
 LoadData
+senders
+:
+ResponseSenders
 _classifier
 :
 Arc
@@ -85,6 +89,7 @@ MIMEClassifier
 load
 (
 load_data
+senders
 )
 }
 pub
@@ -94,15 +99,11 @@ load
 load_data
 :
 LoadData
+start_chan
+:
+ResponseSenders
 )
 {
-let
-start_chan
-=
-load_data
-.
-consumer
-;
 let
 url
 =

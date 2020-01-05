@@ -53,6 +53,13 @@ Ref
 RefMut
 }
 ;
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 DOMRefCell
