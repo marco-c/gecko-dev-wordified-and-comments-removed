@@ -6667,6 +6667,14 @@ tab
 .
 parentId
 ;
+tabData
+.
+type
+=
+tab
+.
+type
+;
 aBrowser
 .
 __SS_data
