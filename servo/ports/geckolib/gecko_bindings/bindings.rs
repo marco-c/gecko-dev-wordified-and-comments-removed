@@ -3312,6 +3312,12 @@ Servo_Initialize
 ;
 pub
 fn
+Servo_Shutdown
+(
+)
+;
+pub
+fn
 Servo_RestyleDocument
 (
 doc
