@@ -190,8 +190,6 @@ DOMString
 name
 )
 ;
-/
-/
 void
 submit
 (

@@ -204,8 +204,6 @@ attribute
 DOMString
 wrap
 ;
-/
-/
 readonly
 attribute
 DOMString

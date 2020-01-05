@@ -166,8 +166,6 @@ attribute
 DOMString
 name
 ;
-/
-/
 attribute
 DOMString
 type

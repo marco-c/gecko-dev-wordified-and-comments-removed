@@ -304,17 +304,10 @@ attribute
 DOMString
 step
 ;
-/
-/
 attribute
 DOMString
 type
 ;
-/
-/
-XXXjdm
-need
-binaryName
 /
 /
 attribute

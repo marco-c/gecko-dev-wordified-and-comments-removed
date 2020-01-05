@@ -118,8 +118,6 @@ attribute
 DOMString
 data
 ;
-/
-/
 attribute
 DOMString
 type

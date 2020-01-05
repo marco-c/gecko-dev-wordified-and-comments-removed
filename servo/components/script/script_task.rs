@@ -699,7 +699,7 @@ Url
 TriggerLoadMsg
 (
 PipelineId
-Url
+LoadData
 )
 NavigateMsg
 (
@@ -2968,7 +2968,7 @@ FromScript
 TriggerLoadMsg
 (
 id
-url
+load_data
 )
 )
 =
@@ -2978,7 +2978,7 @@ self
 trigger_load
 (
 id
-url
+load_data
 )
 FromScript
 (
@@ -7716,9 +7716,9 @@ self
 pipeline_id
 :
 PipelineId
-url
+load_data
 :
-Url
+LoadData
 )
 {
 let
@@ -7739,13 +7739,7 @@ send
 LoadUrlMsg
 (
 pipeline_id
-LoadData
-:
-:
-new
-(
-url
-)
+load_data
 )
 )
 ;
