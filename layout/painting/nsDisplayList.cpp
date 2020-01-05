@@ -4405,6 +4405,10 @@ mBuildingInvisibleItems
 (
 false
 )
+mHitTestShouldStopAtFirstOpaque
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
