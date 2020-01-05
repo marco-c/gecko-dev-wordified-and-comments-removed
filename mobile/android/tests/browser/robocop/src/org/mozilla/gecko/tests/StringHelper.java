@@ -711,6 +711,7 @@ Fennec
 |
 Nightly
 |
+Firefox
 Aurora
 |
 Firefox
