@@ -206,9 +206,6 @@ tc
 (
 B
 )
-tier
-:
-1
 worker
 -
 type
@@ -367,9 +364,6 @@ tc
 (
 N
 )
-tier
-:
-2
 worker
 -
 type
@@ -532,9 +526,6 @@ tc
 (
 B
 )
-tier
-:
-2
 worker
 -
 type
@@ -702,9 +693,6 @@ tc
 (
 N
 )
-tier
-:
-2
 worker
 -
 type
