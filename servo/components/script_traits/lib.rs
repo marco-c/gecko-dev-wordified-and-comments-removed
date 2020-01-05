@@ -395,6 +395,7 @@ script_msg
 LayoutMsg
 ScriptMsg
 EventResult
+LogEntry
 }
 ;
 #
@@ -2065,4 +2066,16 @@ WebDriverCommand
 WebDriverCommandMsg
 )
 Reload
+LogEntry
+(
+Option
+<
+PipelineId
+>
+Option
+<
+String
+>
+LogEntry
+)
 }

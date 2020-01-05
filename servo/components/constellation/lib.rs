@@ -64,6 +64,10 @@ serde_macros
 ]
 extern
 crate
+backtrace
+;
+extern
+crate
 canvas
 ;
 extern
@@ -217,6 +221,8 @@ constellation
 :
 {
 Constellation
+FromCompositorLogger
+FromScriptLogger
 InitialConstellationState
 }
 ;
