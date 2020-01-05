@@ -119,6 +119,7 @@ PagePx
 deriving
 (
 Clone
+Hash
 PartialEq
 PartialOrd
 Eq

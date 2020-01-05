@@ -1,4 +1,10 @@
 use
+font
+:
+:
+ShapingOptions
+;
+use
 text
 :
 :
@@ -37,6 +43,10 @@ text
 :
 &
 str
+options
+:
+&
+ShapingOptions
 glyphs
 :
 &
