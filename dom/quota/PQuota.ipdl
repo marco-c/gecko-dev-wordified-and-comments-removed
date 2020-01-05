@@ -134,6 +134,14 @@ persistenceType
 }
 ;
 struct
+AllUsageParams
+{
+bool
+getAll
+;
+}
+;
+struct
 OriginUsageParams
 {
 PrincipalInfo
@@ -147,6 +155,8 @@ getGroupUsage
 union
 UsageRequestParams
 {
+AllUsageParams
+;
 OriginUsageParams
 ;
 }

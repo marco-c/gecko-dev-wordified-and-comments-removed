@@ -198,6 +198,11 @@ types
 :
 /
 /
+array
+of
+nsIQuotaUsageResult
+/
+/
 nsIQuotaOriginUsageResult
 [
 must_use
