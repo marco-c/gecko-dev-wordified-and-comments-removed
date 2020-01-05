@@ -39,6 +39,7 @@ Linux
 ]
 ;
 then
+export
 LIBCLANG_PATH
 =
 /
@@ -55,6 +56,7 @@ llvm
 lib
 ;
 else
+export
 LIBCLANG_PATH
 =
 brew

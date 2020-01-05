@@ -87,8 +87,8 @@ bindings
 and
 uses
 the
-custom
-clang
+required
+llvm38
 to
 build
 it
