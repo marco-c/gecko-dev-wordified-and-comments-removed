@@ -140,6 +140,11 @@ serde
 encoding
 "
 "
+smallvec
+/
+heapsizeof
+"
+"
 rayon
 /
 unstable
@@ -487,6 +492,8 @@ smallvec
 =
 "
 0
+.
+3
 .
 3
 "
