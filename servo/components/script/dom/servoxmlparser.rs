@@ -101,15 +101,6 @@ use
 dom
 :
 :
-servohtmlparser
-:
-:
-ParserRef
-;
-use
-dom
-:
-:
 window
 :
 :
@@ -137,7 +128,10 @@ use
 parse
 :
 :
+{
 Parser
+ParserRef
+}
 ;
 use
 script_thread
