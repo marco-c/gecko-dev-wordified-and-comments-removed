@@ -5921,7 +5921,6 @@ html
 p
 .
 html
-fails
 =
 =
 338251
@@ -5951,7 +5950,6 @@ html
 pre
 .
 html
-fails
 =
 =
 338251
@@ -6156,7 +6154,6 @@ xhtml
 1
 .
 xhtml
-fails
 =
 =
 347496
@@ -7197,7 +7194,6 @@ html
 1
 .
 html
-fails
 =
 =
 363706
@@ -7213,7 +7209,6 @@ html
 #
 Bug
 1324348
-fails
 =
 =
 363706
@@ -8415,7 +8410,6 @@ html
 1
 .
 html
-fails
 =
 =
 371043
@@ -10265,7 +10259,6 @@ html
 1b
 .
 html
-fails
 =
 =
 391909
@@ -10278,7 +10271,6 @@ html
 1
 .
 html
-fails
 =
 =
 391979
@@ -10705,7 +10697,6 @@ html
 1
 .
 html
-fails
 =
 =
 398101
@@ -15978,7 +15969,6 @@ xhtml
 1
 .
 xhtml
-fails
 =
 =
 455826

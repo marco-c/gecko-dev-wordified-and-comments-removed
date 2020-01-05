@@ -54,7 +54,6 @@ marker
 basic
 .
 html
-fails
 HTTP
 (
 .
@@ -519,7 +518,6 @@ after
 bug
 1138384
 lands
-fails
 =
 =
 vertical
@@ -536,10 +534,6 @@ decorations
 1
 .
 html
-#
-Bug
-1341724
-fails
 =
 =
 vertical
@@ -556,10 +550,6 @@ decorations
 2
 .
 html
-#
-Bug
-1341724
-fails
 =
 =
 vertical
@@ -576,10 +566,6 @@ decorations
 1
 .
 html
-#
-Bug
-1341724
-fails
 =
 =
 vertical
@@ -596,9 +582,6 @@ decorations
 2
 .
 html
-#
-Bug
-1341724
 =
 =
 vertical

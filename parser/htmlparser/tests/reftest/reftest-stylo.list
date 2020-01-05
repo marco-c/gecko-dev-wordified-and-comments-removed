@@ -26,7 +26,6 @@ bug535530
 1
 .
 html
-fails
 =
 =
 view
@@ -144,7 +143,6 @@ bug608373
 1
 .
 html
-fails
 =
 =
 view
@@ -165,7 +163,6 @@ bug482921
 1
 .
 html
-fails
 =
 =
 view
@@ -303,7 +300,6 @@ bug696651
 2
 .
 html
-fails
 =
 =
 view
@@ -324,7 +320,6 @@ bug700260
 1
 .
 html
-fails
 =
 =
 view
@@ -345,7 +340,6 @@ bug704667
 1
 .
 html
-fails
 =
 =
 view
@@ -378,7 +372,6 @@ bug820508
 1
 .
 html
-fails
 =
 =
 view

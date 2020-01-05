@@ -603,7 +603,6 @@ mfenced
 9
 .
 html
-fails
 =
 =
 mfenced
@@ -1465,7 +1464,6 @@ type
 supported
 .
 xhtml
-fails
 =
 =
 mtable
@@ -2631,7 +2629,6 @@ positive
 namedspace
 .
 html
-fails
 =
 =
 mtable
@@ -2661,7 +2658,6 @@ mtable
 width
 .
 html
-fails
 =
 =
 mtable
@@ -2686,7 +2682,6 @@ mtable
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -2849,7 +2844,6 @@ mtable
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -2874,7 +2868,6 @@ mtable
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -2899,7 +2892,6 @@ mtable
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -2920,7 +2912,6 @@ single
 mtr
 .
 html
-fails
 =
 =
 mtable
@@ -2945,7 +2936,6 @@ mtr
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -2966,7 +2956,6 @@ single
 mtable
 .
 html
-fails
 =
 =
 mtable
@@ -2991,7 +2980,6 @@ mtable
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -3012,7 +3000,6 @@ multi
 mtr
 .
 html
-fails
 =
 =
 mtable
@@ -3037,7 +3024,6 @@ mtr
 dynamic
 .
 html
-fails
 =
 =
 mtable
@@ -3058,7 +3044,6 @@ multi
 mtable
 .
 html
-fails
 =
 =
 mtable
@@ -4996,7 +4981,6 @@ accentunder
 dynamic
 .
 html
-fails
 =
 =
 columnlines
@@ -5009,7 +4993,6 @@ columnlines
 1a
 .
 html
-fails
 =
 =
 columnlines
@@ -5022,7 +5005,6 @@ columnlines
 1b
 .
 html
-fails
 =
 =
 columnlines
@@ -5091,7 +5073,6 @@ columnlines
 2
 .
 html
-fails
 =
 =
 rowlines
@@ -5104,7 +5085,6 @@ rowlines
 1a
 .
 html
-fails
 =
 =
 rowlines
@@ -5117,7 +5097,6 @@ rowlines
 1b
 .
 html
-fails
 =
 =
 rowlines
@@ -5130,7 +5109,6 @@ rowlines
 1c
 .
 html
-fails
 =
 =
 rowlines
@@ -5143,7 +5121,6 @@ rowlines
 2a
 .
 html
-fails
 =
 =
 rowlines
@@ -5190,7 +5167,6 @@ rowlines
 2
 .
 html
-fails
 =
 =
 tablespacing
@@ -5265,7 +5241,6 @@ tablespacing
 5a
 .
 html
-fails
 =
 =
 tablespacing
@@ -5278,7 +5253,6 @@ tablespacing
 6
 .
 html
-fails
 =
 =
 tablespacing

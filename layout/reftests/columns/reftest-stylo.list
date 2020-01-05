@@ -534,7 +534,6 @@ bug616722
 2
 .
 html
-fails
 =
 =
 column
@@ -555,7 +554,6 @@ nested
 000
 .
 html
-fails
 =
 =
 column
