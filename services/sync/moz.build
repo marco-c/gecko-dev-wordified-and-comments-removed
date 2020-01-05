@@ -201,6 +201,13 @@ js
 '
 modules
 /
+doctor
+.
+js
+'
+'
+modules
+/
 engines
 .
 js
@@ -517,7 +524,7 @@ utils
 js
 '
 ]
-JS_PREFERENCE_FILES
+JS_PREFERENCE_PP_FILES
 +
 =
 [

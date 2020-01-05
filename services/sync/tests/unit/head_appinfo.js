@@ -144,6 +144,10 @@ services
 .
 sync
 .
+engine
+.
+bookmarks
+.
 validation
 .
 interval
@@ -161,6 +165,10 @@ setIntPref
 services
 .
 sync
+.
+engine
+.
+bookmarks
 .
 validation
 .
@@ -180,6 +188,10 @@ services
 .
 sync
 .
+engine
+.
+bookmarks
+.
 validation
 .
 maxRecords
@@ -198,6 +210,10 @@ setBoolPref
 services
 .
 sync
+.
+engine
+.
+bookmarks
 .
 validation
 .
