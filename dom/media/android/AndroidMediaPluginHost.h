@@ -40,6 +40,9 @@ namespace
 mozilla
 {
 class
+MediaContentType
+;
+class
 AndroidMediaPluginHost
 {
 RefPtr
@@ -92,7 +95,7 @@ bool
 FindDecoder
 (
 const
-nsACString
+MediaContentType
 &
 aMimeType
 const
