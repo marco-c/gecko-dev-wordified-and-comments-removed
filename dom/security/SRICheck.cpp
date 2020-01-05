@@ -55,6 +55,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SRIMetadata
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

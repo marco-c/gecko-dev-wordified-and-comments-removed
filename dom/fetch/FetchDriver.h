@@ -48,7 +48,7 @@ mozilla
 /
 dom
 /
-SRICheck
+SRIMetadata
 .
 h
 "
