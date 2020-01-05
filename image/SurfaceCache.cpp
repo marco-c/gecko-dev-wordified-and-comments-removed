@@ -2127,12 +2127,6 @@ imageKey
 >
 OnSurfaceDiscarded
 (
-aSurface
--
->
-GetSurfaceKey
-(
-)
 )
 ;
 }

@@ -4237,8 +4237,6 @@ VectorImage
 :
 OnSurfaceDiscarded
 (
-SurfaceKey
-aSurfaceKey
 )
 {
 MOZ_ASSERT
