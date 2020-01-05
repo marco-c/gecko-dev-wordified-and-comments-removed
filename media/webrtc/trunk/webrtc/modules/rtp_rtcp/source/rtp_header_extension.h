@@ -80,7 +80,7 @@ kTransportSequenceNumberLength
 ;
 const
 size_t
-kRIDLength
+kRtpStreamIdLength
 =
 4
 ;
@@ -193,11 +193,11 @@ kTransportSequenceNumberLength
 break
 ;
 case
-kRtpExtensionRID
+kRtpExtensionRtpStreamId
 :
 length
 =
-kRIDLength
+kRtpStreamIdLength
 ;
 break
 ;
