@@ -651,7 +651,6 @@ Step
 1
 .
 let
-mut
 doc
 =
 Document

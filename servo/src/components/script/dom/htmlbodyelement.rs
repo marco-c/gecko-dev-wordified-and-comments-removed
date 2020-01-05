@@ -616,7 +616,6 @@ onerror
 ]
 ;
 let
-mut
 window
 =
 window_from_node

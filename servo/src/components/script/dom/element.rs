@@ -6189,7 +6189,6 @@ is_in_doc
 )
 {
 let
-mut
 doc
 =
 document_from_node
@@ -6341,7 +6340,6 @@ is_in_doc
 )
 {
 let
-mut
 doc
 =
 document_from_node
