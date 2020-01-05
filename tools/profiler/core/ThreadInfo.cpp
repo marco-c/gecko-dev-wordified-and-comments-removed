@@ -115,6 +115,14 @@ mIsBeingProfiled
 (
 false
 )
+mContext
+(
+nullptr
+)
+mJSSampling
+(
+INACTIVE
+)
 mLastSample
 (
 )
@@ -281,9 +289,6 @@ mUniqueStacks
 .
 emplace
 (
-mRacyInfo
--
->
 mContext
 )
 ;
@@ -311,9 +316,6 @@ aBuffer
 aWriter
 aStartTime
 aSinceTime
-mRacyInfo
--
->
 mContext
 mSavedStreamedSamples
 .
@@ -879,9 +881,6 @@ aStartTime
 {
 MOZ_ASSERT
 (
-mRacyInfo
--
->
 mContext
 )
 ;
@@ -889,9 +888,6 @@ mUniqueStacks
 .
 emplace
 (
-mRacyInfo
--
->
 mContext
 )
 ;
@@ -914,9 +910,6 @@ StreamSamplesToJSON
 b
 mThreadId
 0
-mRacyInfo
--
->
 mContext
 *
 mUniqueStacks
