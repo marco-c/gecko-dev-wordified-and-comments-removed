@@ -33,6 +33,17 @@ SECOidTag
 hashalg
 )
 ;
+SECStatus
+seckey_SetPointEncoding
+(
+PLArenaPool
+*
+arena
+SECKEYPublicKey
+*
+pubKey
+)
+;
 SEC_END_PROTOS
 #
 endif

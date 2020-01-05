@@ -33,7 +33,7 @@ SSLAuthType
 authType
 ;
 const
-namedGroupDef
+sslNamedGroupDef
 *
 namedCurve
 ;
