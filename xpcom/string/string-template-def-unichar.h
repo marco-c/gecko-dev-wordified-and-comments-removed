@@ -16,10 +16,6 @@ nsTString_CharT
 nsString
 #
 define
-nsTStringRepr_CharT
-nsStringRepr
-#
-define
 nsTFixedString_CharT
 nsFixedString
 #

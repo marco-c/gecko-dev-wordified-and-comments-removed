@@ -11019,7 +11019,8 @@ consoleService
 >
 LogStringMessage
 (
-u
+NS_LITERAL_STRING
+(
 "
 Http
 channel
@@ -11060,6 +11061,11 @@ at
 all
 .
 "
+)
+.
+get
+(
+)
 )
 ;
 }

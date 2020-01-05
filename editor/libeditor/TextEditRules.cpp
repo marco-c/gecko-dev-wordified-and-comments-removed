@@ -1571,10 +1571,6 @@ TruncateInsertionIfNeeded
 aSelection
 &
 inString
-.
-AsString
-(
-)
 &
 outString
 aMaxLength
