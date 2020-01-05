@@ -23719,17 +23719,6 @@ Register
 scratch
 )
 {
-MOZ_ASSERT
-(
-!
-set
-.
-has
-(
-scratch
-)
-)
-;
 int32_t
 diffF
 =
