@@ -517,7 +517,6 @@ document_loader
 [
 macro_use
 ]
-pub
 mod
 dom
 ;
@@ -565,6 +564,10 @@ stylesheet_loader
 ;
 mod
 task_source
+;
+pub
+mod
+test
 ;
 pub
 mod

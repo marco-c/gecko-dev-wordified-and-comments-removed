@@ -77,6 +77,7 @@ cssrule
 -
 interface
 [
+Abstract
 Exposed
 =
 Window

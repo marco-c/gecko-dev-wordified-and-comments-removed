@@ -76,6 +76,7 @@ html
 #
 InterfaceSVGElement
 [
+Abstract
 Pref
 =
 "

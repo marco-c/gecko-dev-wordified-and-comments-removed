@@ -77,6 +77,7 @@ cssgroupingrule
 -
 interface
 [
+Abstract
 Exposed
 =
 Window

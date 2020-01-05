@@ -66,13 +66,7 @@ use
 script
 :
 :
-dom
-:
-:
-bindings
-:
-:
-str
+test
 :
 :
 DOMString
