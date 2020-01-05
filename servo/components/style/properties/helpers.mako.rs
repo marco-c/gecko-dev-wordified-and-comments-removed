@@ -573,7 +573,7 @@ properties
 {
 CSSWideKeyword
 DeclaredValue
-Shorthand
+ShorthandId
 }
 ;
 use
@@ -1407,7 +1407,7 @@ properties
 {
 CSSWideKeyword
 DeclaredValue
-Shorthand
+ShorthandId
 }
 ;
 %
@@ -2872,7 +2872,7 @@ properties
 longhands
 PropertyDeclaration
 DeclaredValue
-Shorthand
+ShorthandId
 }
 ;
 use
@@ -3665,7 +3665,7 @@ from_shorthand
 :
 Some
 (
-Shorthand
+ShorthandId
 :
 :
 {

@@ -279,6 +279,10 @@ parking_lot
 ;
 extern
 crate
+phf
+;
+extern
+crate
 quickersort
 ;
 extern

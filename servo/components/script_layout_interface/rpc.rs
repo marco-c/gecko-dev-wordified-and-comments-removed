@@ -264,10 +264,7 @@ struct
 ResolvedStyleResponse
 (
 pub
-Option
-<
 String
->
 )
 ;
 #

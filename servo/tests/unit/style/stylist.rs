@@ -834,8 +834,10 @@ id_hash
 get
 (
 &
-atom
-!
+Atom
+:
+:
+from
 (
 "
 top
