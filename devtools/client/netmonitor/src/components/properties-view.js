@@ -157,7 +157,7 @@ require
 "
 .
 /
-Editor
+editor
 "
 )
 )
