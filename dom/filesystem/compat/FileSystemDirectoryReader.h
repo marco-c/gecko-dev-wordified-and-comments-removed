@@ -36,6 +36,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+FileSystemDirectoryEntry
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
