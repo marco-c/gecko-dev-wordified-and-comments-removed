@@ -16188,6 +16188,15 @@ intl_patternForSkeleton
 JS_FN
 (
 "
+intl_patternForStyle
+"
+intl_patternForStyle
+3
+0
+)
+JS_FN
+(
+"
 intl_PluralRules_availableLocales
 "
 intl_PluralRules_availableLocales
