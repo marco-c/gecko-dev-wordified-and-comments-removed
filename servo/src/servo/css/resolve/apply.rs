@@ -29,9 +29,9 @@ base
 :
 :
 {
-Box
+RenderBox
 SpecifiedStyle
-BoxTree
+RenderBoxTree
 }
 ;
 use
@@ -212,7 +212,7 @@ StyleApplicator
 {
 box
 :
-Box
+RenderBox
 reflow
 :
 fn
@@ -242,7 +242,7 @@ layout_ctx
 LayoutContext
 box
 :
-Box
+RenderBox
 reflow
 :
 fn
@@ -331,7 +331,7 @@ layout_ctx
 LayoutContext
 box
 :
-Box
+RenderBox
 reflow
 :
 fn
@@ -368,7 +368,7 @@ resolve_fontsize
 (
 box
 :
-Box
+RenderBox
 )
 {
 /
@@ -384,7 +384,7 @@ resolve_height
 (
 box
 :
-Box
+RenderBox
 )
 -
 >
@@ -521,7 +521,7 @@ resolve_width
 (
 box
 :
-Box
+RenderBox
 )
 {
 let
@@ -674,7 +674,7 @@ self
 reflow
 ;
 do
-BoxTree
+RenderBoxTree
 .
 each_child
 (

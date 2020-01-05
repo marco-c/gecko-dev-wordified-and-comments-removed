@@ -6,8 +6,8 @@ base
 :
 :
 {
-Box
-BoxTree
+RenderBox
+RenderBoxTree
 }
 ;
 use
@@ -23,7 +23,7 @@ FlowTree
 }
 ;
 trait
-BoxTraversals
+RenderBoxTraversals
 {
 fn
 traverse_preorder
@@ -33,15 +33,15 @@ preorder_cb
 &
 fn
 (
-Box
+RenderBox
 )
 )
 ;
 }
 impl
-Box
+RenderBox
 :
-BoxTraversals
+RenderBoxTraversals
 {
 fn
 traverse_preorder
@@ -51,7 +51,7 @@ preorder_cb
 &
 fn
 (
-Box
+RenderBox
 )
 )
 {
@@ -61,7 +61,7 @@ self
 )
 ;
 do
-BoxTree
+RenderBoxTree
 .
 each_child
 (

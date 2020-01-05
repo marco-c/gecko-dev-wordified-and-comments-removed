@@ -80,12 +80,12 @@ base
 :
 :
 {
-Box
+RenderBox
 BoxData
 GenericBox
 ImageBox
 TextBox
-BoxTree
+RenderBoxTree
 }
 ;
 use
@@ -191,7 +191,7 @@ root_box
 :
 Option
 <
-Box
+RenderBox
 >
 mut
 root_ctx
@@ -327,7 +327,7 @@ parent_ctx
 FlowContext
 parent_box
 :
-Box
+RenderBox
 )
 {
 let
@@ -852,7 +852,7 @@ new_box
 id
 )
 ;
-BoxTree
+RenderBoxTree
 .
 add_child
 (
@@ -1100,7 +1100,7 @@ Node
 >
 Result
 <
-Box
+RenderBox
 (
 )
 >
@@ -1254,12 +1254,12 @@ BoxData
 )
 -
 >
-Box
+RenderBox
 {
 let
 ret
 =
-Box
+RenderBox
 (
 self
 .

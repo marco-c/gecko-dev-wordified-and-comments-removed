@@ -61,7 +61,7 @@ base
 :
 {
 TextBox
-Box
+RenderBox
 }
 ;
 use
@@ -145,7 +145,7 @@ layout
 "
 ]
 impl
-Box
+RenderBox
 :
 TextLayout
 {
@@ -478,6 +478,17 @@ lines
 ;
 }
 }
+/
+*
+TODO
+:
+new
+unit
+tests
+for
+TextBox
+splitting
+etc
 fn
 should_calculate_the_size_of_the_text_box
 (
@@ -633,3 +644,5 @@ size
 expected
 ;
 }
+*
+/

@@ -159,7 +159,7 @@ layout
 base
 :
 :
-Box
+RenderBox
 ;
 use
 layout
@@ -982,7 +982,7 @@ box
 :
 Option
 <
-Box
+RenderBox
 >
 }
 ;
