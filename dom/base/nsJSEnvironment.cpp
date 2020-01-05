@@ -9290,7 +9290,7 @@ false
 ;
 sNeedsFullGC
 =
-false
+true
 ;
 sNeedsGCAfterCC
 =
