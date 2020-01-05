@@ -57,7 +57,7 @@ OverflowChangedTracker
 (
 )
 {
-NS_ASSERTION
+NS_ASSERTION_STYLO_WARNING
 (
 mEntryList
 .
