@@ -66,11 +66,6 @@ vUv1
 ;
 flat
 varying
-vec4
-vUv1Rect
-;
-flat
-varying
 int
 vOp
 ;

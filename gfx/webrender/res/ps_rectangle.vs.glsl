@@ -110,7 +110,7 @@ prim
 layer
 prim
 .
-tile
+task
 )
 ;
 vLocalRect
@@ -146,7 +146,7 @@ prim
 layer
 prim
 .
-tile
+task
 )
 ;
 #
@@ -158,7 +158,7 @@ write_clip
 (
 vi
 .
-global_clamped_pos
+screen_pos
 prim
 .
 clip_area

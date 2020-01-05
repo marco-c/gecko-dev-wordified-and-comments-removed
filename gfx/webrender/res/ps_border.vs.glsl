@@ -1159,7 +1159,7 @@ prim
 layer
 prim
 .
-tile
+task
 )
 ;
 vLocalPos
@@ -1197,14 +1197,14 @@ prim
 layer
 prim
 .
-tile
+task
 )
 ;
 vLocalPos
 =
 vi
 .
-local_clamped_pos
+local_pos
 .
 xy
 ;
@@ -1691,7 +1691,7 @@ vDistanceFromMixLine
 (
 vi
 .
-local_clamped_pos
+local_pos
 .
 x
 -
@@ -1703,7 +1703,7 @@ height
 (
 vi
 .
-local_clamped_pos
+local_pos
 .
 y
 -
@@ -1717,7 +1717,7 @@ vDistanceFromMiddle
 (
 vi
 .
-local_clamped_pos
+local_pos
 .
 x
 -
@@ -1729,7 +1729,7 @@ x
 (
 vi
 .
-local_clamped_pos
+local_pos
 .
 y
 -

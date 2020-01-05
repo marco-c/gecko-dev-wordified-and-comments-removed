@@ -121,7 +121,7 @@ prim
 layer
 prim
 .
-tile
+task
 )
 ;
 RenderTaskData
@@ -194,7 +194,7 @@ f
 (
 vi
 .
-local_clamped_pos
+local_pos
 -
 prim
 .

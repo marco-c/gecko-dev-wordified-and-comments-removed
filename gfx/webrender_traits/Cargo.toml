@@ -11,7 +11,7 @@ version
 "
 0
 .
-11
+14
 .
 0
 "
@@ -59,12 +59,6 @@ build
 build
 .
 rs
-"
-workspace
-=
-"
-.
-.
 "
 [
 features
@@ -128,9 +122,9 @@ app_units
 byteorder
 =
 "
-0
+1
 .
-5
+0
 "
 euclid
 =
@@ -239,7 +233,7 @@ graphics
 "
 0
 .
-5
+6
 "
 [
 target
