@@ -747,6 +747,11 @@ aRv
 protected
 :
 void
+UnparentChildren
+(
+)
+;
+void
 SubjectSubsumesInnerPrincipal
 (
 nsIPrincipal
@@ -829,6 +834,13 @@ mozilla
 :
 :
 CSSStyleSheet
+;
+friend
+class
+mozilla
+:
+:
+ServoStyleSheet
 ;
 }
 ;
