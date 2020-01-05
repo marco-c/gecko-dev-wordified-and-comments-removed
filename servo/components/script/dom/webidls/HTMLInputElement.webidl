@@ -114,14 +114,10 @@ HTMLInputElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 accept
 ;
-/
-/
 attribute
 DOMString
 alt
@@ -146,8 +142,6 @@ attribute
 boolean
 checked
 ;
-/
-/
 attribute
 DOMString
 dirName
@@ -215,8 +209,6 @@ HTMLElement
 ?
 list
 ;
-/
-/
 attribute
 DOMString
 max
@@ -228,8 +220,6 @@ attribute
 long
 maxLength
 ;
-/
-/
 attribute
 DOMString
 min
@@ -240,8 +230,6 @@ attribute
 long
 minLength
 ;
-/
-/
 attribute
 boolean
 multiple
@@ -250,8 +238,6 @@ attribute
 DOMString
 name
 ;
-/
-/
 attribute
 DOMString
 pattern
@@ -264,8 +250,6 @@ attribute
 boolean
 readOnly
 ;
-/
-/
 attribute
 boolean
 required
@@ -278,14 +262,10 @@ unsigned
 long
 size
 ;
-/
-/
 attribute
 DOMString
 src
 ;
-/
-/
 attribute
 DOMString
 step
