@@ -591,7 +591,7 @@ config
 .
 rc_end_usage
 =
-VPX_CBR
+VPX_VBR
 ;
 config
 .
