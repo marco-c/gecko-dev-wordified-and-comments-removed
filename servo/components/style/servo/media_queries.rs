@@ -420,7 +420,6 @@ clone
 derive
 (
 PartialEq
-Copy
 Clone
 Debug
 )

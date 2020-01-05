@@ -2035,6 +2035,7 @@ SpecifiedValue
 :
 LengthOrPercentage
 (
+ref
 length
 )
 =
@@ -2074,7 +2075,6 @@ derive
 Debug
 Clone
 PartialEq
-Copy
 )
 ]
 #
@@ -2189,6 +2189,7 @@ SpecifiedValue
 :
 LengthOrPercentage
 (
+ref
 value
 )
 =
@@ -2532,6 +2533,7 @@ T
 :
 LengthOrPercentage
 (
+ref
 value
 )
 =
@@ -2658,6 +2660,7 @@ SpecifiedValue
 :
 LengthOrPercentage
 (
+ref
 value
 )
 =
@@ -7419,6 +7422,7 @@ SpecifiedValue
 :
 Repeat
 (
+ref
 length
 )
 =
@@ -7490,7 +7494,6 @@ derive
 (
 Debug
 Clone
-Copy
 PartialEq
 )
 ]
@@ -7573,6 +7576,7 @@ none
 )
 Some
 (
+ref
 l
 )
 =
@@ -7794,6 +7798,7 @@ SpecifiedValue
 :
 Repeat
 (
+ref
 l
 )
 =
@@ -9017,8 +9022,11 @@ SpecifiedOperation
 Translate
 (
 _
+ref
 l1
+ref
 l2
+ref
 l3
 )
 =
@@ -9049,6 +9057,7 @@ SpecifiedOperation
 :
 Perspective
 (
+ref
 length
 )
 =
@@ -9125,7 +9134,8 @@ SpecifiedOperation
 :
 Matrix
 (
-_m
+.
+.
 )
 =
 >
@@ -9141,8 +9151,8 @@ SpecifiedOperation
 :
 Skew
 (
-_sx
-_sy
+.
+.
 )
 =
 >
@@ -9159,8 +9169,11 @@ SpecifiedOperation
 Translate
 (
 kind
+ref
 tx
+ref
 ty
+ref
 tz
 )
 =
@@ -9450,9 +9463,8 @@ SpecifiedOperation
 :
 Scale
 (
-_sx
-_sy
-_sz
+.
+.
 )
 =
 >
@@ -9468,10 +9480,8 @@ SpecifiedOperation
 :
 Rotate
 (
-_ax
-_ay
-_az
-_angle
+.
+.
 )
 =
 >
@@ -9487,7 +9497,7 @@ SpecifiedOperation
 :
 Perspective
 (
-_p
+_
 )
 =
 >
@@ -11907,6 +11917,7 @@ SpecifiedOperation
 :
 Perspective
 (
+ref
 d
 )
 =
@@ -13172,7 +13183,6 @@ has_viewport_percentage
 derive
 (
 Clone
-Copy
 Debug
 PartialEq
 )
@@ -14014,7 +14024,6 @@ has_viewport_percentage
 derive
 (
 Clone
-Copy
 Debug
 PartialEq
 )
