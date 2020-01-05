@@ -1493,7 +1493,6 @@ fn
 SetOnreadystatechange
 (
 &
-mut
 self
 listener
 :
@@ -1855,7 +1854,6 @@ fn
 SetOnreadystatechange
 (
 &
-mut
 self
 listener
 :
@@ -1869,7 +1867,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -1878,7 +1875,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -3242,17 +3239,9 @@ upload_target
 if
 event_target
 .
-handlers
-.
-iter
+has_handlers
 (
 )
-.
-len
-(
-)
->
-0
 {
 self
 .
@@ -4794,7 +4783,6 @@ root
 )
 ;
 let
-mut
 event
 =
 Event
@@ -4841,7 +4829,6 @@ dispatch_event_with_target
 (
 None
 &
-mut
 *
 event
 )
@@ -5585,7 +5572,6 @@ unwrap
 )
 ;
 let
-mut
 progressevent
 =
 ProgressEvent
@@ -5650,7 +5636,6 @@ let
 event
 :
 &
-mut
 JSRef
 <
 Event
@@ -5659,10 +5644,9 @@ Event
 EventCast
 :
 :
-from_mut_ref
+from_ref
 (
 &
-mut
 *
 progressevent
 )
@@ -5672,9 +5656,6 @@ target
 dispatch_event_with_target
 (
 None
-&
-mut
-*
 event
 )
 .

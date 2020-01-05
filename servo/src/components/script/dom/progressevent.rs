@@ -233,7 +233,6 @@ ProgressEvent
 >
 {
 let
-mut
 ev
 =
 reflect_dom_object
@@ -259,12 +258,10 @@ root
 (
 )
 ;
-{
 let
 event
 :
 &
-mut
 JSRef
 <
 Event
@@ -273,10 +270,9 @@ Event
 EventCast
 :
 :
-from_mut_ref
+from_ref
 (
 &
-mut
 *
 ev
 )
@@ -290,7 +286,6 @@ can_bubble
 cancelable
 )
 ;
-}
 Temporary
 :
 :

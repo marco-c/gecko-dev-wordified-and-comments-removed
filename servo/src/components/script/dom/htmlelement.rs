@@ -438,7 +438,6 @@ fn
 SetOnclick
 (
 &
-mut
 self
 listener
 :
@@ -465,7 +464,6 @@ fn
 SetOnload
 (
 &
-mut
 self
 listener
 :
@@ -533,7 +531,6 @@ fn
 SetOnclick
 (
 &
-mut
 self
 listener
 :
@@ -547,7 +544,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -556,7 +552,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -622,7 +618,6 @@ fn
 SetOnload
 (
 &
-mut
 self
 listener
 :
@@ -640,7 +635,6 @@ is_body_or_frameset
 )
 {
 let
-mut
 win
 =
 window_from_node
@@ -653,6 +647,10 @@ root
 )
 ;
 win
+.
+deref
+(
+)
 .
 SetOnload
 (
@@ -829,20 +827,9 @@ get_jsobject
 )
 ;
 let
-mut
-self_alias
-=
-self
-.
-clone
-(
-)
-;
-let
 evtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -851,11 +838,9 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
-&
-mut
-self_alias
+self
 )
 ;
 evtarget
