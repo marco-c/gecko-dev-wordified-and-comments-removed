@@ -1800,9 +1800,10 @@ _updateTask
 =
 (
 async
-function
 (
 )
+=
+>
 {
 this
 .
@@ -2015,11 +2016,6 @@ return
 true
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )
@@ -3701,9 +3697,10 @@ shutdownTask
 =
 (
 async
-function
 (
 )
+=
+>
 {
 this
 .
@@ -3784,11 +3781,6 @@ failed
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

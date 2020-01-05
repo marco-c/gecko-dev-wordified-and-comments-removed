@@ -1718,9 +1718,10 @@ PlacesTransactions
 batch
 (
 async
-function
 (
 )
+=
+>
 {
 await
 this
@@ -1730,11 +1731,6 @@ _batchBlockingDeferred
 promise
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

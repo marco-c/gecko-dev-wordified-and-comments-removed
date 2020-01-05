@@ -636,9 +636,10 @@ target
 {
 (
 async
-function
 (
 )
+=
+>
 {
 const
 YIELD_INTERVAL
@@ -691,11 +692,6 @@ laterTickResolvingPromise
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

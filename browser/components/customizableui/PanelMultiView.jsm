@@ -1655,9 +1655,10 @@ this
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 viewNode
@@ -2890,11 +2891,6 @@ true
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

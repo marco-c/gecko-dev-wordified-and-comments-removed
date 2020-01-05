@@ -437,9 +437,10 @@ aFilterFn
 {
 (
 async
-function
 (
 )
+=
+>
 {
 let
 list
@@ -517,11 +518,6 @@ reportError
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

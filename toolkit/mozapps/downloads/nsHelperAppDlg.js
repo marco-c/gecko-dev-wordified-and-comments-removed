@@ -1183,9 +1183,10 @@ happen
 }
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -1630,11 +1631,6 @@ result
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

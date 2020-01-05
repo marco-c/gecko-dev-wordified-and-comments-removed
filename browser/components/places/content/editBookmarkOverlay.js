@@ -4187,9 +4187,10 @@ useAsyncTransactions
 {
 (
 async
-function
 (
 )
+=
+>
 {
 let
 newParentGuid
@@ -4227,11 +4228,6 @@ transact
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

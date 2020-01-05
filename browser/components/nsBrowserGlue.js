@@ -9493,9 +9493,10 @@ defaultPath
 }
 (
 async
-function
 (
 )
+=
+>
 {
 let
 restoreDefaultBookmarks
@@ -10074,11 +10075,6 @@ _bookmarksBackupIdleTime
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

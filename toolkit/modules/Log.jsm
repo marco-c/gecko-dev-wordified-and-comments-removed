@@ -3855,10 +3855,10 @@ _openFile
 return
 (
 async
-function
-_openFile
 (
 )
+=
+>
 {
 try
 {
@@ -3915,11 +3915,6 @@ err
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

@@ -397,9 +397,10 @@ build
 return
 (
 async
-function
 (
 )
+=
+>
 {
 await
 this
@@ -508,11 +509,6 @@ this
 waitForTopLevelContext
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

@@ -1634,9 +1634,10 @@ waitForExplicitFinish
 ;
 (
 async
-function
 (
 )
+=
+>
 {
 await
 PlacesTestUtils
@@ -1901,11 +1902,6 @@ loadNextTest
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

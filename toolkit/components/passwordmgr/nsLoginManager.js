@@ -949,9 +949,10 @@ replace
 {
 (
 async
-function
 (
 )
+=
+>
 {
 await
 this
@@ -998,11 +999,6 @@ complete
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

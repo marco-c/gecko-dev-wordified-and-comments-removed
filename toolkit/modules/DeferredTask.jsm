@@ -403,9 +403,10 @@ resolve
 (
 (
 async
-function
 (
 )
+=
+>
 {
 await
 (
@@ -480,11 +481,6 @@ _runningPromise
 null
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

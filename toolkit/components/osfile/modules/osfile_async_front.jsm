@@ -1008,9 +1008,10 @@ _killQueue
 =
 (
 async
-function
 (
 )
+=
+>
 {
 await
 killQueue
@@ -1354,11 +1355,6 @@ resolve
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )
@@ -1543,9 +1539,10 @@ this
 push
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -1767,11 +1764,6 @@ restartTimer
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -1559,9 +1559,10 @@ _lastDownloadMS
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 doesFileExists
@@ -1620,11 +1621,6 @@ _fetchAndCacheLinksIfNecessary
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

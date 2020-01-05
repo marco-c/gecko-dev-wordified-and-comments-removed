@@ -842,9 +842,10 @@ aCallback
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 idToGuid
@@ -1235,11 +1236,6 @@ close
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

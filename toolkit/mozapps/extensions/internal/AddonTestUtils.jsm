@@ -2591,13 +2591,14 @@ let
 verifyCert
 =
 async
-function
 (
 file
 result
 cert
 callback
 )
+=
+>
 {
 if
 (
@@ -2715,11 +2716,6 @@ cert
 ]
 ;
 }
-.
-bind
-(
-this
-)
 ;
 function
 FakeCertDB

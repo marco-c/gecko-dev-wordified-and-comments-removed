@@ -3914,9 +3914,10 @@ aFilePath
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 out
@@ -4091,11 +4092,6 @@ close
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

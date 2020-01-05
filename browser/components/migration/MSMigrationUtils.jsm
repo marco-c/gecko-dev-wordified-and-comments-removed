@@ -1785,9 +1785,10 @@ aCallback
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 folderGuid
@@ -1832,11 +1833,6 @@ folderGuid
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

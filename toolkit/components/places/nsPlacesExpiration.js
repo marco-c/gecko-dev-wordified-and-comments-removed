@@ -4036,9 +4036,10 @@ aLimit
 {
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -4132,11 +4133,6 @@ this
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

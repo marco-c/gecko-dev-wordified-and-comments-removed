@@ -1436,9 +1436,10 @@ status
 return
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -1464,11 +1465,6 @@ promiseComplete
 )
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )
@@ -2321,9 +2317,10 @@ transactionPromise
 =
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -2670,11 +2667,6 @@ false
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

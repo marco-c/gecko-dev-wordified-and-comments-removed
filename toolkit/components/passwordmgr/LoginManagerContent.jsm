@@ -1927,10 +1927,10 @@ deferredTask
 new
 DeferredTask
 (
-function
-deferredInputProcessing
 (
 )
+=
+>
 {
 let
 formLike2
@@ -1978,11 +1978,6 @@ window
 )
 ;
 }
-.
-bind
-(
-this
-)
 PASSWORD_INPUT_ADDED_COALESCING_THRESHOLD_MS
 )
 ;

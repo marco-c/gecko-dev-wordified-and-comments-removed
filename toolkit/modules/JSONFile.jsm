@@ -991,9 +991,10 @@ _finalizePromise
 =
 (
 async
-function
 (
 )
+=
+>
 {
 await
 this
@@ -1017,11 +1018,6 @@ dataReady
 false
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

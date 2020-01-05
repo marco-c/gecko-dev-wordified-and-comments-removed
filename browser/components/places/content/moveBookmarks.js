@@ -234,9 +234,10 @@ PlacesTransactions
 batch
 (
 async
-function
 (
 )
+=
+>
 {
 let
 newParentGuid
@@ -293,11 +294,6 @@ transact
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 .
 then

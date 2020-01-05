@@ -189,9 +189,10 @@ CURRENT_ENGINE
 {
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -236,11 +237,6 @@ e
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )
