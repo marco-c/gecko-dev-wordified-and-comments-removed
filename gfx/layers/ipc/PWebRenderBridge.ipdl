@@ -430,6 +430,13 @@ aImageKey
 )
 ;
 async
+DeleteCompositorAnimations
+(
+uint64_t
+aId
+)
+;
+async
 AddRawFont
 (
 FontKey

@@ -101,11 +101,12 @@ WebRenderOMTAEnabled
 )
 &
 &
+!
 GetAnimations
 (
 )
 .
-Length
+IsEmpty
 (
 )
 )
@@ -161,6 +162,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+)
+override
+;
+void
+ClearAnimations
+(
 )
 override
 ;
