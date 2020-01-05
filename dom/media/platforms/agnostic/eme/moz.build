@@ -90,11 +90,6 @@ EXPORTS
 =
 [
 '
-EMEAudioDecoder
-.
-h
-'
-'
 EMEDecoderModule
 .
 h
@@ -114,11 +109,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-EMEAudioDecoder
-.
-cpp
-'
 '
 EMEDecoderModule
 .

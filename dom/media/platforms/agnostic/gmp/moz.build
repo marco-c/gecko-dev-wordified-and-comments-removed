@@ -90,11 +90,6 @@ EXPORTS
 =
 [
 '
-GMPAudioDecoder
-.
-h
-'
-'
 GMPDecoderModule
 .
 h
@@ -114,11 +109,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-GMPAudioDecoder
-.
-cpp
-'
 '
 GMPDecoderModule
 .
