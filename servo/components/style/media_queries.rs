@@ -5,7 +5,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 cssparser
@@ -138,10 +138,6 @@ Max
 (
 T
 )
-Eq
-(
-T
-)
 }
 impl
 <
@@ -195,20 +191,6 @@ width
 {
 value
 <
-=
-*
-width
-}
-Eq
-(
-ref
-width
-)
-=
->
-{
-value
-=
 =
 *
 width
@@ -3515,7 +3497,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -3664,7 +3646,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -3828,7 +3810,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -3982,7 +3964,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4136,7 +4118,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4303,7 +4285,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4347,7 +4329,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4513,7 +4495,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4557,7 +4539,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "

@@ -789,8 +789,6 @@ debug
 "
 pipeline
 {
-:
-?
 }
 exiting
 "

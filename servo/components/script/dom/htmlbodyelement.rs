@@ -567,7 +567,7 @@ on
 )
 {
 static
-forwarded_events
+FORWARDED_EVENTS
 :
 &
 '
@@ -688,7 +688,7 @@ EventTarget
 >
 =
 if
-forwarded_events
+FORWARDED_EVENTS
 .
 iter
 (

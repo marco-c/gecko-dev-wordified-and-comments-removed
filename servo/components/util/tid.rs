@@ -5,7 +5,7 @@ std
 sync
 :
 :
-atomics
+atomic
 :
 :
 {

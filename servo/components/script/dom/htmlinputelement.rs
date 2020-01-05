@@ -326,7 +326,7 @@ std
 ascii
 :
 :
-OwnedStrAsciiExt
+OwnedAsciiExt
 ;
 use
 std
@@ -337,7 +337,7 @@ cell
 :
 Cell
 ;
-static
+const
 DEFAULT_SUBMIT_VALUE
 :
 &
@@ -349,7 +349,7 @@ str
 Submit
 "
 ;
-static
+const
 DEFAULT_RESET_VALUE
 :
 &
@@ -370,6 +370,13 @@ jstraceable
 deriving
 (
 PartialEq
+)
+]
+#
+[
+allow
+(
+dead_code
 )
 ]
 enum
@@ -2497,7 +2504,7 @@ value
 _
 =
 >
-fail
+panic
 !
 (
 "

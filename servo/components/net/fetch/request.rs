@@ -480,7 +480,7 @@ ftp
 =
 >
 {
-fail
+panic
 !
 (
 "

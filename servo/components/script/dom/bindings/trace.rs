@@ -3,7 +3,7 @@
 [
 deny
 (
-missing_doc
+missing_docs
 )
 ]
 use
@@ -247,9 +247,6 @@ std
 :
 :
 collections
-:
-:
-hashmap
 :
 :
 HashMap

@@ -3,7 +3,7 @@
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use
@@ -3662,7 +3662,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -3682,7 +3682,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -4691,12 +4691,8 @@ of
 iframe
 for
 {
-:
-?
 }
 {
-:
-?
 }
 "
 iframe_fragment
@@ -5380,7 +5376,7 @@ base
 .
 layers
 .
-push
+push_back
 (
 new_layer
 )

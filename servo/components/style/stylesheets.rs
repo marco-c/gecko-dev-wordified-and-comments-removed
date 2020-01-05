@@ -14,7 +14,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 url
@@ -661,13 +661,7 @@ let
 QualifiedRule
 {
 location
-:
-location
 prelude
-:
-prelude
-block
-:
 block
 }
 =

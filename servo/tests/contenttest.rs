@@ -4,7 +4,14 @@
 deny
 (
 unused_imports
-unused_variable
+)
+]
+#
+!
+[
+deny
+(
+unused_variables
 )
 ]
 extern
@@ -284,7 +291,7 @@ f
 )
 =
 >
-fail
+panic
 !
 (
 format
@@ -455,7 +462,7 @@ files
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -724,7 +731,7 @@ p
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -871,7 +878,7 @@ FAIL
 "
 )
 {
-fail
+panic
 !
 (
 line
@@ -904,7 +911,7 @@ ExitStatus
 )
 )
 {
-fail
+panic
 !
 (
 "

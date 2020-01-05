@@ -1244,7 +1244,6 @@ astr
 .
 cmp
 (
-&
 bstr
 )
 {

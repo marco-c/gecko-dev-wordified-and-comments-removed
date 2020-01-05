@@ -199,7 +199,7 @@ std
 ascii
 :
 :
-OwnedStrAsciiExt
+OwnedAsciiExt
 ;
 use
 servo_util

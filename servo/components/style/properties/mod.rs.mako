@@ -83,7 +83,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 servo_util
@@ -1113,6 +1113,7 @@ deriving
 PartialEq
 Clone
 FromPrimitive
+Show
 )
 ]
 pub
@@ -6613,7 +6614,7 @@ T
 Au
 ;
 }
-static
+const
 MEDIUM_PX
 :
 int
@@ -7223,8 +7224,15 @@ super
 :
 SpecifiedValue
 ;
+#
+[
+allow
+(
+non_upper_case_globals
+)
+]
 pub
-static
+const
 none
 :
 T
@@ -13029,7 +13037,7 @@ insert
 logical_geometry
 :
 :
-FlagRTL
+FLAG_RTL
 )
 ;
 }
@@ -13067,7 +13075,7 @@ insert
 logical_geometry
 :
 :
-FlagVertical
+FLAG_VERTICAL
 )
 ;
 }
@@ -13088,7 +13096,7 @@ insert
 logical_geometry
 :
 :
-FlagVertical
+FLAG_VERTICAL
 )
 ;
 flags
@@ -13098,7 +13106,7 @@ insert
 logical_geometry
 :
 :
-FlagVerticalLR
+FLAG_VERTICAL_LR
 )
 ;
 }
@@ -13136,7 +13144,7 @@ insert
 logical_geometry
 :
 :
-FlagSidewaysLeft
+FLAG_VERTICAL_LR
 )
 ;
 }
@@ -13158,7 +13166,7 @@ intersects
 logical_geometry
 :
 :
-FlagVerticalLR
+FLAG_VERTICAL_LR
 )
 {
 flags
@@ -13168,7 +13176,7 @@ insert
 logical_geometry
 :
 :
-FlagSidewaysLeft
+FLAG_SIDEWAYS_LEFT
 )
 ;
 }

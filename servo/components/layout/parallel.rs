@@ -154,7 +154,7 @@ std
 sync
 :
 :
-atomics
+atomic
 :
 :
 {
@@ -1899,6 +1899,10 @@ layout_context
 }
 ;
 root
+.
+deref_mut
+(
+)
 .
 traverse_postorder
 (

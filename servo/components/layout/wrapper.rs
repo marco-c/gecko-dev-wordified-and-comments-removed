@@ -254,10 +254,10 @@ node
 :
 :
 {
-HasChanged
-IsDirty
-HasDirtySiblings
-HasDirtyDescendants
+HAS_CHANGED
+IS_DIRTY
+HAS_DIRTY_SIBLINGS
+HAS_DIRTY_DESCENDANTS
 }
 ;
 use
@@ -593,7 +593,7 @@ clone
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -652,7 +652,7 @@ elem
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -1079,7 +1079,7 @@ get_value_for_layout
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -2083,7 +2083,7 @@ elem
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -2341,7 +2341,7 @@ node
 .
 get_flag
 (
-HasChanged
+HAS_CHANGED
 )
 }
 }
@@ -2361,7 +2361,7 @@ node
 .
 set_flag
 (
-HasChanged
+HAS_CHANGED
 value
 )
 }
@@ -2382,7 +2382,7 @@ node
 .
 get_flag
 (
-IsDirty
+IS_DIRTY
 )
 }
 }
@@ -2402,7 +2402,7 @@ node
 .
 set_flag
 (
-IsDirty
+IS_DIRTY
 value
 )
 }
@@ -2423,7 +2423,7 @@ node
 .
 get_flag
 (
-HasDirtySiblings
+HAS_DIRTY_SIBLINGS
 )
 }
 }
@@ -2443,7 +2443,7 @@ node
 .
 set_flag
 (
-HasDirtySiblings
+HAS_DIRTY_SIBLINGS
 value
 )
 ;
@@ -2465,7 +2465,7 @@ node
 .
 get_flag
 (
-HasDirtyDescendants
+HAS_DIRTY_DESCENDANTS
 )
 }
 }
@@ -2485,7 +2485,7 @@ node
 .
 set_flag
 (
-HasDirtyDescendants
+HAS_DIRTY_DESCENDANTS
 value
 )
 }
@@ -4543,7 +4543,7 @@ unsafe_get
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -5469,7 +5469,7 @@ get_value_for_layout
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -5523,7 +5523,7 @@ get_size_for_layout
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -5654,7 +5654,7 @@ damage
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -5703,7 +5703,7 @@ borrow_layout_data_unchecked
 None
 =
 >
-fail
+panic
 !
 (
 )
@@ -5781,7 +5781,7 @@ new_flags
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -5854,7 +5854,7 @@ flags
 _
 =
 >
-fail
+panic
 !
 (
 "

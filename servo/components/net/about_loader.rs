@@ -164,7 +164,7 @@ crash
 "
 =
 >
-fail
+panic
 !
 (
 "

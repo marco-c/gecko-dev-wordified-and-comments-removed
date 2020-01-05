@@ -60,9 +60,9 @@ incremental
 :
 {
 RestyleDamage
-BubbleISizes
-Reflow
-ReflowOutOfFlow
+BUBBLE_ISIZES
+REFLOW
+REFLOW_OUT_OF_FLOW
 }
 ;
 use
@@ -390,7 +390,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -1340,7 +1340,7 @@ dump
 (
 )
 ;
-fail
+panic
 !
 (
 "
@@ -1420,7 +1420,7 @@ restyle_damage
 .
 remove
 (
-BubbleISizes
+BUBBLE_ISIZES
 )
 ;
 }
@@ -1455,7 +1455,7 @@ restyle_damage
 .
 contains
 (
-BubbleISizes
+BUBBLE_ISIZES
 )
 }
 }
@@ -1549,9 +1549,9 @@ restyle_damage
 .
 intersects
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 }
 }
@@ -1680,9 +1680,9 @@ restyle_damage
 .
 intersects
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 }
 }

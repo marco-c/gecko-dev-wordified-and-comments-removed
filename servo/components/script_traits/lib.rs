@@ -26,7 +26,14 @@ MPL
 deny
 (
 unused_imports
-unused_variable
+)
+]
+#
+!
+[
+deny
+(
+unused_variables
 )
 ]
 extern

@@ -23,15 +23,6 @@ use
 std
 :
 :
-path
-:
-:
-BytesContainer
-;
-use
-std
-:
-:
 str
 ;
 #
@@ -359,6 +350,7 @@ x
 0
 .
 .
+.
 31
 |
 127
@@ -591,6 +583,7 @@ false
 0
 .
 .
+.
 31
 |
 127
@@ -703,7 +696,11 @@ new
 (
 s
 .
-container_into_owned_bytes
+to_string
+(
+)
+.
+into_bytes
 (
 )
 )

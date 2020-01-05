@@ -6,8 +6,8 @@ ascii
 :
 :
 {
-StrAsciiExt
-OwnedStrAsciiExt
+AsciiExt
+OwnedAsciiExt
 }
 ;
 use
@@ -27,15 +27,6 @@ io
 :
 :
 BufReader
-;
-use
-std
-:
-:
-str
-:
-:
-StrSlice
 ;
 use
 time
@@ -884,6 +875,7 @@ code
 )
 {
 200
+.
 .
 .
 299

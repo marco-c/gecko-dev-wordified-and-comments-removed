@@ -478,7 +478,7 @@ DocumentNodeTypeId
 =
 >
 {
-fail
+panic
 !
 (
 "
@@ -859,7 +859,7 @@ as_slice
 ;
 html
 .
-push_char
+push
 (
 '
 '
@@ -939,7 +939,7 @@ as_slice
 ;
 html
 .
-push_char
+push
 (
 '
 >
@@ -973,7 +973,7 @@ String
 {
 html
 .
-push_char
+push
 (
 '
 <
@@ -1028,7 +1028,7 @@ html
 ;
 html
 .
-push_char
+push
 (
 '
 >
@@ -1182,7 +1182,7 @@ n
 {
 html
 .
-push_char
+push
 (
 '
 \
@@ -1254,7 +1254,7 @@ String
 {
 html
 .
-push_char
+push
 (
 '
 '
@@ -1477,7 +1477,7 @@ html
 ;
 html
 .
-push_char
+push
 (
 '
 "
@@ -1531,7 +1531,7 @@ amp
 )
 '
 \
-xA0
+u00A0
 '
 =
 >
@@ -1603,7 +1603,7 @@ c
 >
 html
 .
-push_char
+push
 (
 c
 )

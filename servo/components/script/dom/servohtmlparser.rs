@@ -604,7 +604,7 @@ contains
 task_state
 :
 :
-InHTMLParser
+IN_HTML_PARSER
 )
 |
 |

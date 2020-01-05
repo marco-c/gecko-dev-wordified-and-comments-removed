@@ -101,7 +101,7 @@ mut
 self
 )
 {
-fail
+panic
 !
 (
 "
@@ -174,7 +174,7 @@ length
 =
 0
 {
-fail
+panic
 !
 (
 "

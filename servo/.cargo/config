@@ -1,14 +1,3 @@
-paths
-=
-[
-"
-support
-/
-glfw
--
-rs
-"
-]
 [
 target
 .

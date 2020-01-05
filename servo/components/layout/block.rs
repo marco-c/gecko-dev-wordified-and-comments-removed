@@ -3,7 +3,7 @@
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use
@@ -98,8 +98,8 @@ incremental
 :
 :
 {
-Reflow
-ReflowOutOfFlow
+REFLOW
+REFLOW_OUT_OF_FLOW
 }
 ;
 use
@@ -1911,7 +1911,7 @@ None
 InitialCandidateBSizeStatus
 =
 >
-fail
+panic
 !
 (
 )
@@ -2069,9 +2069,9 @@ restyle_damage
 .
 intersects
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 {
 return
@@ -2359,8 +2359,8 @@ flow
 .
 "
 ]
-static
-IsRoot
+const
+IS_ROOT
 =
 0x01
 }
@@ -3978,7 +3978,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -4369,7 +4369,7 @@ restyle_damage
 .
 contains
 (
-Reflow
+REFLOW
 )
 {
 /
@@ -6389,9 +6389,9 @@ restyle_damage
 .
 remove
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 ;
 }
@@ -7498,9 +7498,9 @@ restyle_damage
 .
 remove
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 ;
 }
@@ -9031,9 +9031,9 @@ restyle_damage
 .
 intersects
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 {
 return
@@ -10069,9 +10069,9 @@ restyle_damage
 .
 intersects
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 {
 return
@@ -10714,9 +10714,9 @@ restyle_damage
 .
 intersects
 (
-ReflowOutOfFlow
+REFLOW_OUT_OF_FLOW
 |
-Reflow
+REFLOW
 )
 {
 self
@@ -11559,7 +11559,7 @@ flags
 .
 insert
 (
-IsRoot
+IS_ROOT
 )
 }
 /
@@ -11627,7 +11627,7 @@ flags
 .
 contains
 (
-IsRoot
+IS_ROOT
 )
 }
 fn
@@ -15799,7 +15799,7 @@ w
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -16617,7 +16617,7 @@ _
 Auto
 =
 >
-fail
+panic
 !
 (
 "
@@ -17018,7 +17018,7 @@ w
 Auto
 =
 >
-fail
+panic
 !
 (
 "

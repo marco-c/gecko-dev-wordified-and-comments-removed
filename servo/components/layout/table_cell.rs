@@ -3,7 +3,7 @@
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use

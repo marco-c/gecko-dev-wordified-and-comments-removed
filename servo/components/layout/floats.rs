@@ -114,7 +114,7 @@ float
 none
 =
 >
-fail
+panic
 !
 (
 "
@@ -217,8 +217,6 @@ bounds
 kind
 =
 {
-:
-?
 }
 "
 self
@@ -429,8 +427,6 @@ max_inline_size
 kind
 =
 {
-:
-?
 }
 "
 self
@@ -1189,7 +1185,7 @@ None
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -1319,8 +1315,6 @@ float
 with
 info
 {
-:
-?
 }
 "
 new_info
@@ -1730,8 +1724,6 @@ available
 rect
 :
 {
-:
-?
 }
 for
 y

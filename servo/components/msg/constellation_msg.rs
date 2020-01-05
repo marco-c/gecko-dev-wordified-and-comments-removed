@@ -343,6 +343,7 @@ deriving
 Clone
 PartialEq
 Hash
+Show
 )
 ]
 pub
@@ -359,6 +360,7 @@ deriving
 Clone
 PartialEq
 Hash
+Show
 )
 ]
 pub
@@ -376,6 +378,7 @@ Clone
 PartialEq
 Eq
 Hash
+Show
 )
 ]
 pub
@@ -394,6 +397,7 @@ Clone
 PartialEq
 Eq
 Hash
+Show
 )
 ]
 pub

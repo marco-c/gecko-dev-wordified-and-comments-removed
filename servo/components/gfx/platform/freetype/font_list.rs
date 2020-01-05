@@ -556,7 +556,7 @@ u8
 }
 else
 {
-fail
+panic
 !
 (
 )
@@ -604,7 +604,7 @@ index
 }
 else
 {
-fail
+panic
 !
 (
 )

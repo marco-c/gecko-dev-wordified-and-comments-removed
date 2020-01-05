@@ -814,7 +814,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -831,7 +831,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -2909,7 +2909,7 @@ false
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -3105,7 +3105,7 @@ false
 _
 =
 >
-fail
+panic
 !
 (
 "

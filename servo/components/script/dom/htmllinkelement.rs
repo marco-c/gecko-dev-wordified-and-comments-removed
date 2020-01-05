@@ -189,7 +189,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 url
@@ -933,8 +933,6 @@ s
 failed
 :
 {
-:
-?
 }
 "
 href

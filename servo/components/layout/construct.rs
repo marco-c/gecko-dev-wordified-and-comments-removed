@@ -3,7 +3,7 @@
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use
@@ -127,7 +127,7 @@ incremental
 :
 :
 {
-ReconstructFlow
+RECONSTRUCT_FLOW
 RestyleDamage
 }
 ;
@@ -193,7 +193,7 @@ util
 :
 :
 {
-HasNewlyConstructedFlow
+HAS_NEWLY_CONSTRUCTED_FLOW
 LayoutDataAccess
 OpaqueNodeMethods
 LayoutDataWrapper
@@ -374,10 +374,7 @@ std
 collections
 :
 :
-{
 DList
-Deque
-}
 ;
 use
 std
@@ -392,7 +389,7 @@ std
 sync
 :
 :
-atomics
+atomic
 :
 :
 Relaxed
@@ -1159,8 +1156,6 @@ Fragment
 let
 InlineFragmentsAccumulator
 {
-fragments
-:
 mut
 fragments
 enclosing_style
@@ -2431,8 +2426,6 @@ InlineFragmentsConstructionItem
 InlineFragmentsConstructionResult
 {
 splits
-:
-splits
 fragments
 :
 successor_fragments
@@ -2487,8 +2480,6 @@ list
 let
 InlineBlockSplit
 {
-predecessors
-:
 predecessors
 flow
 :
@@ -2762,7 +2753,7 @@ inline_fragment_accumulator
 .
 fragments
 .
-push
+push_back
 (
 fragment
 )
@@ -3026,7 +3017,7 @@ inline_fragment_accumulator
 .
 fragments
 .
-push
+push_back
 (
 fragment
 )
@@ -3709,7 +3700,7 @@ flow
 ;
 opt_inline_block_splits
 .
-push
+push_back
 (
 split
 )
@@ -3728,8 +3719,6 @@ InlineFragmentsConstructionItem
 (
 InlineFragmentsConstructionResult
 {
-splits
-:
 splits
 fragments
 :
@@ -3764,8 +3753,6 @@ into_iter
 let
 InlineBlockSplit
 {
-predecessors
-:
 predecessors
 flow
 :
@@ -3815,7 +3802,7 @@ kid_flow
 ;
 opt_inline_block_splits
 .
-push
+push_back
 (
 split
 )
@@ -3897,7 +3884,7 @@ fragment_accumulator
 .
 fragments
 .
-push
+push_back
 (
 fragment
 )
@@ -4262,7 +4249,7 @@ new
 ;
 fragments
 .
-push
+push_back
 (
 fragment
 )
@@ -4397,7 +4384,7 @@ fragment_accumulator
 .
 fragments
 .
-push
+push_back
 (
 fragment
 )
@@ -4556,7 +4543,7 @@ fragment_accumulator
 .
 fragments
 .
-push
+push_back
 (
 fragment
 )
@@ -6290,7 +6277,7 @@ restyle_damage
 .
 contains
 (
-ReconstructFlow
+RECONSTRUCT_FLOW
 )
 {
 return
@@ -6320,14 +6307,14 @@ flags
 .
 contains
 (
-HasNewlyConstructedFlow
+HAS_NEWLY_CONSTRUCTED_FLOW
 )
 {
 kid
 .
 remove_flags
 (
-HasNewlyConstructedFlow
+HAS_NEWLY_CONSTRUCTED_FLOW
 )
 ;
 need_to_reconstruct
@@ -6776,12 +6763,8 @@ for
 node
 :
 {
-:
-?
 }
 {
-:
-?
 }
 "
 display
@@ -7508,7 +7491,7 @@ node
 .
 insert_flags
 (
-HasNewlyConstructedFlow
+HAS_NEWLY_CONSTRUCTED_FLOW
 )
 ;
 true
@@ -8834,7 +8817,7 @@ drop
 (
 this
 .
-pop
+pop_back
 (
 )
 )

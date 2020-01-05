@@ -76,6 +76,13 @@ std
 :
 fmt
 ;
+#
+[
+deriving
+(
+Show
+)
+]
 pub
 enum
 ScreenPx
@@ -86,6 +93,7 @@ ScreenPx
 deriving
 (
 Encodable
+Show
 )
 ]
 pub
@@ -98,6 +106,7 @@ ViewportPx
 deriving
 (
 Encodable
+Show
 )
 ]
 pub
@@ -247,7 +256,7 @@ MAX_AU
 }
 ;
 pub
-static
+const
 MIN_AU
 :
 Au
@@ -261,7 +270,7 @@ MIN
 )
 ;
 pub
-static
+const
 MAX_AU
 :
 Au

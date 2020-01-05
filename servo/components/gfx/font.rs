@@ -463,6 +463,7 @@ uint
 deriving
 (
 Clone
+Show
 )
 ]
 pub
@@ -634,7 +635,6 @@ shape_cache
 .
 find_equiv
 (
-&
 text
 )
 {

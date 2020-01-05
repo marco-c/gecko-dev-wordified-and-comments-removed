@@ -151,7 +151,7 @@ CharIndex
 }
 output_text
 .
-push_char
+push
 (
 ch
 )
@@ -232,7 +232,7 @@ else
 {
 output_text
 .
-push_char
+push
 (
 ch
 )
@@ -249,7 +249,7 @@ else
 {
 output_text
 .
-push_char
+push
 (
 '
 '

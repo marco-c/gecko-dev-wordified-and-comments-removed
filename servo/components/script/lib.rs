@@ -39,7 +39,14 @@ unsafe_destructor
 deny
 (
 unused_imports
-unused_variable
+)
+]
+#
+!
+[
+deny
+(
+unused_variables
 )
 ]
 #
@@ -77,10 +84,6 @@ link
 extern
 crate
 log
-;
-extern
-crate
-debug
 ;
 extern
 crate

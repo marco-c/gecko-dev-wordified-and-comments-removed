@@ -395,7 +395,7 @@ succeeded
 (
 )
 {
-fail
+panic
 !
 (
 "

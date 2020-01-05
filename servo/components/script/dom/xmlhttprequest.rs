@@ -550,7 +550,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 std
@@ -604,15 +604,6 @@ from_str
 :
 :
 FromStr
-;
-use
-std
-:
-:
-path
-:
-:
-BytesContainer
 ;
 use
 std
@@ -3257,7 +3248,7 @@ new
 (
 buf
 .
-container_into_owned_bytes
+into_bytes
 (
 )
 )
@@ -6554,7 +6545,7 @@ reason
 (
 )
 .
-container_into_owned_bytes
+into_bytes
 (
 )
 )

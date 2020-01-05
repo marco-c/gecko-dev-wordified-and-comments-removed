@@ -102,9 +102,6 @@ std
 collections
 :
 :
-hashmap
-:
-:
 HashMap
 ;
 use
@@ -816,7 +813,7 @@ borrow_mut
 (
 )
 .
-pop
+remove
 (
 &
 TimerId
@@ -881,7 +878,7 @@ borrow
 (
 )
 .
-find
+get
 (
 &
 timer_id

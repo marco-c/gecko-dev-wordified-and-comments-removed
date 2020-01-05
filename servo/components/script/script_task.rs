@@ -1116,7 +1116,6 @@ owner
 >
 {
 let
-mut
 page
 =
 owner
@@ -1437,7 +1436,7 @@ ScriptTask
 task_state
 :
 :
-Script
+SCRIPT
 proc
 (
 )
@@ -1532,7 +1531,7 @@ C
 fn
 debug_gc_callback
 (
-rt
+_rt
 :
 *
 mut
@@ -1542,18 +1541,6 @@ status
 JSGCStatus
 )
 {
-js
-:
-:
-rust
-:
-:
-gc_callback
-(
-rt
-status
-)
-;
 match
 status
 {
@@ -1568,7 +1555,7 @@ enter
 task_state
 :
 :
-InGC
+IN_GC
 )
 JSGC_END
 =
@@ -1581,7 +1568,7 @@ exit
 task_state
 :
 :
-InGC
+IN_GC
 )
 _
 =
@@ -2336,7 +2323,6 @@ vec
 ;
 {
 let
-mut
 page
 =
 self
@@ -2677,7 +2663,7 @@ recv
 }
 else
 {
-fail
+panic
 !
 (
 "
@@ -2784,7 +2770,6 @@ size
 >
 {
 let
-mut
 page
 =
 self
@@ -2844,7 +2829,6 @@ node_addresses
 >
 {
 let
-mut
 page
 =
 self
@@ -2915,7 +2899,6 @@ rect
 >
 {
 let
-mut
 page
 =
 self
@@ -3159,7 +3142,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -3268,7 +3251,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -3362,7 +3345,7 @@ ViewportMsg
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -3398,7 +3381,7 @@ ResizeMsg
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -3453,7 +3436,7 @@ DOMMessage
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -3845,7 +3828,7 @@ is_object_or_null
 )
 )
 ;
-fail
+panic
 !
 (
 "
@@ -4174,7 +4157,7 @@ candidate
 ;
 }
 }
-fail
+panic
 !
 (
 "
@@ -4372,23 +4355,6 @@ new_layout_info
 NewLayoutInfo
 )
 {
-debug
-!
-(
-"
-Script
-:
-new
-layout
-:
-{
-:
-?
-}
-"
-new_layout_info
-)
-;
 let
 NewLayoutInfo
 {
@@ -4401,7 +4367,6 @@ layout_chan
 new_layout_info
 ;
 let
-mut
 page
 =
 self
@@ -4591,7 +4556,6 @@ TimerId
 )
 {
 let
-mut
 page
 =
 self
@@ -4712,14 +4676,10 @@ Script
 :
 Reflow
 {
-:
-?
 }
 complete
 for
 {
-:
-?
 }
 "
 reflow_id
@@ -4727,7 +4687,6 @@ pipeline_id
 )
 ;
 let
-mut
 page
 =
 self
@@ -4956,7 +4915,6 @@ WindowSizeData
 )
 {
 let
-mut
 page
 =
 self
@@ -5263,7 +5221,6 @@ down
 all
 pages
 let
-mut
 page
 =
 self
@@ -5293,8 +5250,6 @@ for
 root
 page
 {
-:
-?
 }
 "
 id
@@ -5487,8 +5442,6 @@ loading
 on
 page
 {
-:
-?
 }
 "
 url
@@ -5496,7 +5449,6 @@ pipeline_id
 )
 ;
 let
-mut
 page
 =
 self
@@ -6954,23 +6906,6 @@ new_size
 WindowSizeData
 )
 {
-debug
-!
-(
-"
-script
-got
-resize
-event
-:
-{
-:
-?
-}
-"
-new_size
-)
-;
 let
 window
 =
@@ -7419,8 +7354,6 @@ ClickEvent
 clicked
 at
 {
-:
-?
 }
 "
 point
@@ -7467,8 +7400,6 @@ node
 address
 is
 {
-:
-?
 }
 "
 node_address

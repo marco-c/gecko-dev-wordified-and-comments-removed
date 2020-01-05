@@ -52,7 +52,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 std
@@ -143,7 +143,7 @@ ServoCharacterWidth
 i32
 )
 }
-static
+const
 AU_PER_PX
 :
 CSSFloat
@@ -151,7 +151,7 @@ CSSFloat
 60
 .
 ;
-static
+const
 AU_PER_IN
 :
 CSSFloat
@@ -161,7 +161,7 @@ AU_PER_PX
 96
 .
 ;
-static
+const
 AU_PER_CM
 :
 CSSFloat
@@ -172,7 +172,7 @@ AU_PER_IN
 .
 54
 ;
-static
+const
 AU_PER_MM
 :
 CSSFloat
@@ -183,7 +183,7 @@ AU_PER_IN
 .
 4
 ;
-static
+const
 AU_PER_PT
 :
 CSSFloat
@@ -193,7 +193,7 @@ AU_PER_IN
 72
 .
 ;
-static
+const
 AU_PER_PC
 :
 CSSFloat

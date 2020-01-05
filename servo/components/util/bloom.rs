@@ -7,14 +7,14 @@ Atom
 Namespace
 }
 ;
-static
+const
 KEY_SIZE
 :
 uint
 =
 12
 ;
-static
+const
 ARRAY_SIZE
 :
 uint
@@ -24,7 +24,7 @@ uint
 <
 KEY_SIZE
 ;
-static
+const
 KEY_MASK
 :
 u32
@@ -38,7 +38,7 @@ KEY_SIZE
 -
 1
 ;
-static
+const
 KEY_SHIFT
 :
 uint

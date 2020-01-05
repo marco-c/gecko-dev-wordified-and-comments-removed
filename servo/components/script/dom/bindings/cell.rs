@@ -35,8 +35,8 @@ task_state
 :
 :
 {
-Script
-InGC
+SCRIPT
+IN_GC
 }
 ;
 use
@@ -180,9 +180,9 @@ get
 .
 contains
 (
-Script
+SCRIPT
 |
-InGC
+IN_GC
 )
 )
 ;
@@ -422,14 +422,14 @@ BorrowFlag
 =
 uint
 ;
-static
+const
 UNUSED
 :
 BorrowFlag
 =
 0
 ;
-static
+const
 WRITING
 :
 BorrowFlag
@@ -570,7 +570,7 @@ ptr
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -624,7 +624,7 @@ ptr
 None
 =
 >
-fail
+panic
 !
 (
 "

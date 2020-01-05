@@ -3,7 +3,7 @@
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use
@@ -138,10 +138,7 @@ std
 collections
 :
 :
-{
 DList
-Deque
-}
 ;
 use
 std
@@ -711,7 +708,7 @@ text
 _
 =
 >
-fail
+panic
 !
 (
 "

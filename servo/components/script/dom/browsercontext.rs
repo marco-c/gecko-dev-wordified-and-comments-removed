@@ -472,7 +472,7 @@ vec
 }
 }
 static
-proxy_handler
+PROXY_HANDLER
 :
 ProxyTraps
 =
@@ -590,7 +590,7 @@ WindowProxyHandler
 CreateWrapperProxyHandler
 (
 &
-proxy_handler
+PROXY_HANDLER
 )
 )
 }

@@ -303,16 +303,7 @@ std
 ascii
 :
 :
-OwnedStrAsciiExt
-;
-use
-std
-:
-:
-str
-:
-:
-StrSlice
+OwnedAsciiExt
 ;
 use
 url
@@ -1983,7 +1974,7 @@ r
 {
 buf
 .
-push_char
+push
 (
 '
 \
@@ -1993,7 +1984,7 @@ r
 ;
 buf
 .
-push_char
+push
 (
 '
 \
@@ -2011,7 +2002,7 @@ n
 {
 buf
 .
-push_char
+push
 (
 '
 \
@@ -2049,7 +2040,7 @@ r
 {
 buf
 .
-push_char
+push
 (
 '
 \
@@ -2059,7 +2050,7 @@ r
 ;
 buf
 .
-push_char
+push
 (
 '
 \
@@ -2069,7 +2060,7 @@ n
 ;
 buf
 .
-push_char
+push
 (
 ch
 )
@@ -2080,7 +2071,7 @@ _
 >
 buf
 .
-push_char
+push
 (
 ch
 )
@@ -2111,7 +2102,7 @@ r
 {
 buf
 .
-push_char
+push
 (
 '
 \

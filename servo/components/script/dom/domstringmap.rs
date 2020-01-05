@@ -102,9 +102,6 @@ std
 collections
 :
 :
-hashmap
-:
-:
 HashMap
 ;
 #
@@ -317,7 +314,7 @@ borrow
 (
 )
 .
-find
+get
 (
 &
 name

@@ -271,8 +271,8 @@ constructed
 .
 "
 ]
-static
-HasNewlyConstructedFlow
+const
+HAS_NEWLY_CONSTRUCTED_FLOW
 =
 0x01
 }

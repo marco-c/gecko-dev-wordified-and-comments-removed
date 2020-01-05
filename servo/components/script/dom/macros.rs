@@ -67,7 +67,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 let
 element
@@ -206,7 +206,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 let
 element
@@ -352,7 +352,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 let
 element
@@ -498,7 +498,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 let
 element
@@ -659,7 +659,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 let
 element
@@ -843,7 +843,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 let
 element

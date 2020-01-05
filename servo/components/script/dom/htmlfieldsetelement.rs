@@ -444,6 +444,10 @@ ElementsFilter
 {
 fn
 filter
+<
+'
+a
+>
 (
 &
 self
@@ -451,12 +455,16 @@ elem
 :
 JSRef
 <
+'
+a
 Element
 >
 root
 :
 JSRef
 <
+'
+a
 Node
 >
 )
@@ -465,7 +473,7 @@ Node
 bool
 {
 static
-tag_names
+TAG_NAMES
 :
 StaticStringVec
 =
@@ -523,7 +531,7 @@ elem
 root
 &
 &
-tag_names
+TAG_NAMES
 .
 iter
 (
