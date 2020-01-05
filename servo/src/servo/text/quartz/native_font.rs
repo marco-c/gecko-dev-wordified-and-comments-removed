@@ -20,10 +20,10 @@ FractionalPixel
 }
 ;
 use
-native_font_matcher
+font_context
 :
 :
-QuartzNativeFontMatcher
+QuartzFontContext
 ;
 use
 au
@@ -241,10 +241,10 @@ pub
 fn
 new
 (
-_lib
+_fctx
 :
 &
-QuartzNativeFontMatcher
+QuartzFontContext
 buf
 :
 ~

@@ -133,10 +133,10 @@ use
 text
 :
 :
-font_matcher
+font_context
 :
 :
-FontMatcher
+FontContext
 ;
 pub
 enum
@@ -270,7 +270,7 @@ FontCache
 :
 new
 (
-FontMatcher
+FontContext
 :
 :
 new

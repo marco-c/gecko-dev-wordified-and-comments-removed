@@ -1,8 +1,8 @@
 use
-native_font_matcher
+font_context
 :
 :
-NativeFontMatcher
+FontContext
 ;
 #
 [
@@ -144,10 +144,10 @@ pub
 fn
 new
 (
-native_lib
+fctx
 :
 &
-NativeFontMatcher
+FontContext
 buf
 :
 ~
@@ -178,7 +178,7 @@ QuartzNativeFont
 :
 new
 (
-native_lib
+fctx
 buf
 pt_size
 )
@@ -203,10 +203,10 @@ pub
 fn
 new
 (
-native_lib
+fctx
 :
 &
-NativeFontMatcher
+FontContext
 buf
 :
 ~
@@ -237,7 +237,7 @@ FreeTypeNativeFont
 :
 new
 (
-native_lib
+fctx
 buf
 pt_size
 )
