@@ -2588,9 +2588,6 @@ namespace
 :
 :
 Null
-&
-Some
-(
 attr
 .
 name
@@ -2598,17 +2595,12 @@ name
 clone
 (
 )
-)
-&
-Some
-(
 attr
 .
 value
 .
 clone
 (
-)
 )
 )
 ;
