@@ -4219,7 +4219,8 @@ class
 ]
 searchOptions
 :
-nil
+{
+}
 usingBlock
 :
 changeImageBlock
