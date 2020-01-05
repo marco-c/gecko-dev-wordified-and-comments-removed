@@ -18821,6 +18821,12 @@ if
 PageIsStillLoading
 (
 )
+|
+|
+NS_SUBTREE_DIRTY
+(
+mOuter
+)
 )
 {
 mLastPos
