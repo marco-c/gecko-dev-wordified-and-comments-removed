@@ -113,11 +113,12 @@ Intl
 in
 this
 )
+new
 Intl
 .
 NumberFormat
-.
-prototype
+(
+)
 .
 format
 (
