@@ -1169,8 +1169,6 @@ Info
 )
 ;
 }
-public
-:
 template
 <
 class
@@ -1315,8 +1313,6 @@ aArgs
 )
 ;
 }
-protected
-:
 Master
 *
 mMaster
