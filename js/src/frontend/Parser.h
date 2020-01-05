@@ -2653,6 +2653,10 @@ UsedNameTracker
 &
 usedNames
 ;
+SourceCompressionTask
+*
+sct
+;
 ScriptSource
 *
 ss
@@ -3575,6 +3579,12 @@ return
 this
 ;
 }
+JSAtom
+*
+stopStringCompression
+(
+)
+;
 Node
 stringLiteral
 (
