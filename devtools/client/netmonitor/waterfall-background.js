@@ -197,6 +197,14 @@ if
 (
 state
 .
+waterfallWidth
+=
+=
+null
+|
+|
+state
+.
 scale
 =
 =
