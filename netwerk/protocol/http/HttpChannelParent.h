@@ -477,6 +477,10 @@ nsCString
 &
 aChannelId
 const
+uint64_t
+&
+aContentWindowId
+const
 nsCString
 &
 aPreferredAlternativeType

@@ -845,6 +845,9 @@ contentTypeHint
 nsCString
 channelId
 ;
+uint64_t
+contentWindowId
+;
 nsCString
 preferredAlternativeType
 ;

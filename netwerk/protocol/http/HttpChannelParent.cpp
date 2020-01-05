@@ -801,6 +801,11 @@ channelId
 )
 a
 .
+contentWindowId
+(
+)
+a
+.
 preferredAlternativeType
 (
 )
@@ -1642,6 +1647,10 @@ nsCString
 &
 aChannelId
 const
+uint64_t
+&
+aContentWindowId
+const
 nsCString
 &
 aPreferredAlternativeType
@@ -1908,6 +1917,14 @@ mChannel
 SetChannelId
 (
 aChannelId
+)
+;
+mChannel
+-
+>
+SetTopLevelContentWindowId
+(
+aContentWindowId
 )
 ;
 mChannel
