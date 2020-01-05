@@ -45,6 +45,14 @@ taskcluster
 .
 Queue
 (
+{
+delayFactor
+:
+750
+retries
+:
+8
+}
 )
 ;
 let
@@ -251,8 +259,6 @@ s
 err
 .
 stack
-(
-)
 )
 ;
 }
