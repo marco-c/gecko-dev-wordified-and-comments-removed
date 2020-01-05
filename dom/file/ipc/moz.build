@@ -121,11 +121,6 @@ IPCBlobInputStreamParent
 h
 '
 '
-IPCBlobInputStreamStorage
-.
-h
-'
-'
 MemoryStreamChild
 .
 h
@@ -176,11 +171,6 @@ cpp
 '
 '
 IPCBlobInputStreamParent
-.
-cpp
-'
-'
-IPCBlobInputStreamStorage
 .
 cpp
 '
