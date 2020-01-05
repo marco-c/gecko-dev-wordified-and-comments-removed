@@ -876,6 +876,12 @@ defined
 (
 JS_CODEGEN_X64
 )
+|
+|
+defined
+(
+JS_SIMULATOR_ARM64
+)
 static
 void
 cacheFlush
