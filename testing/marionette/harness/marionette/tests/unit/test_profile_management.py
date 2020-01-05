@@ -196,17 +196,6 @@ False
         
 self
 .
-marionette
-.
-set_context
-(
-'
-chrome
-'
-)
-        
-self
-.
 assertFalse
 (
 self
@@ -241,17 +230,6 @@ restart
 clean
 =
 True
-)
-        
-self
-.
-marionette
-.
-set_context
-(
-'
-chrome
-'
 )
         
 self
