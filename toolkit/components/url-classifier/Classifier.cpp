@@ -5087,7 +5087,7 @@ ShutdownHasStarted
 )
 {
 return
-NS_ERROR_ABORT
+NS_ERROR_UC_UPDATE_SHUTDOWNING
 ;
 }
 LOG
@@ -5201,7 +5201,7 @@ lookupCache
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_UC_UPDATE_TABLE_NOT_FOUND
 ;
 }
 lookupCache
@@ -5812,7 +5812,7 @@ AddCompletes
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_UC_UPDATE_BUILD_PREFIX_FAILURE
 )
 ;
 #
@@ -5842,7 +5842,7 @@ WriteFile
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_UC_UPDATE_FAIL_TO_WRITE_DISK
 )
 ;
 int64_t
@@ -5943,7 +5943,7 @@ ShutdownHasStarted
 )
 {
 return
-NS_ERROR_ABORT
+NS_ERROR_UC_UPDATE_SHUTDOWNING
 ;
 }
 LOG
@@ -6009,7 +6009,7 @@ lookupCache
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_UC_UPDATE_TABLE_NOT_FOUND
 ;
 }
 nsresult
@@ -6114,7 +6114,7 @@ update
 NS_ENSURE_TRUE
 (
 updateV4
-NS_ERROR_FAILURE
+NS_ERROR_UC_UPDATE_TABLE_NOT_FOUND
 )
 ;
 if
@@ -6304,7 +6304,7 @@ output
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_UC_UPDATE_BUILD_PREFIX_FAILURE
 )
 ;
 rv
@@ -6319,7 +6319,7 @@ WriteFile
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_UC_UPDATE_FAIL_TO_WRITE_DISK
 )
 ;
 if
@@ -6357,7 +6357,7 @@ lastAppliedUpdate
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_UC_UPDATE_FAIL_TO_WRITE_DISK
 )
 ;
 }
