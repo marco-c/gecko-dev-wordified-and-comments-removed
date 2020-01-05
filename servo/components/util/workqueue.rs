@@ -49,12 +49,6 @@ use
 std
 :
 :
-mem
-;
-use
-std
-:
-:
 sync
 :
 :
