@@ -1676,9 +1676,8 @@ const
 {
 if
 (
-HasFlag
+MayHaveClass
 (
-NODE_MAY_HAVE_CLASS
 )
 )
 {
