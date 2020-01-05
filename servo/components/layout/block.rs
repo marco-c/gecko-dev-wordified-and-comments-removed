@@ -3734,6 +3734,8 @@ writing_mode
 shared_context
 .
 viewport_size
+(
+)
 )
 ;
 let
@@ -6086,6 +6088,8 @@ shared_context
 )
 .
 viewport_size
+(
+)
 )
 ;
 block_size
@@ -7510,6 +7514,8 @@ writing_mode
 shared_context
 .
 viewport_size
+(
+)
 )
 ;
 Some
@@ -8015,6 +8021,8 @@ containing_block_size
 shared_context
 .
 viewport_size
+(
+)
 opaque_self
 )
 .
@@ -9037,6 +9045,8 @@ containing_block_size
 shared_context
 .
 viewport_size
+(
+)
 opaque_self
 )
 .
@@ -12085,6 +12095,8 @@ writing_mode
 shared_context
 .
 viewport_size
+(
+)
 )
 .
 inline
@@ -19867,6 +19879,8 @@ containing_block_size
 shared_context
 .
 viewport_size
+(
+)
 opaque_block
 )
 .
@@ -20653,6 +20667,8 @@ containing_block_size
 shared_context
 .
 viewport_size
+(
+)
 opaque_block
 )
 .
@@ -20770,6 +20786,8 @@ containing_block_size
 shared_context
 .
 viewport_size
+(
+)
 opaque_block
 )
 .

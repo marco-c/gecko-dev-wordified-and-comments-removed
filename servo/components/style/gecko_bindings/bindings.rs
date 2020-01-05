@@ -8120,9 +8120,9 @@ ServoComputedValuesBorrowed
 parent_style
 :
 ServoComputedValuesBorrowedOrNull
-pres_context
+set
 :
-RawGeckoPresContextBorrowed
+RawServoStyleSetBorrowed
 result
 :
 RawGeckoComputedKeyframeValuesListBorrowedMut

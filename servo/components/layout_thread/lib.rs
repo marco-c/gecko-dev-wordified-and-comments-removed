@@ -2630,15 +2630,6 @@ style_context
 :
 SharedStyleContext
 {
-viewport_size
-:
-self
-.
-viewport_size
-.
-clone
-(
-)
 stylist
 :
 rw_data

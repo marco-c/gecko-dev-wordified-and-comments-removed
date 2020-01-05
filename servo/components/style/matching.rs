@@ -2424,6 +2424,8 @@ cascade
 shared_context
 .
 viewport_size
+(
+)
 rule_node
 inherited_values
 layout_parent_style

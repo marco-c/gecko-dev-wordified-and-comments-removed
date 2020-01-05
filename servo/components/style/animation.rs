@@ -1916,6 +1916,8 @@ apply_declarations
 context
 .
 viewport_size
+(
+)
 false
 iter
 previous_style
