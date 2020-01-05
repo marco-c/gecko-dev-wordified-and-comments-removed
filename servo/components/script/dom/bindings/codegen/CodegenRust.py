@@ -276,32 +276,6 @@ name
 )
 :
     
-replacements
-=
-{
-        
-"
-__stringifier
-"
-:
-"
-Stringify
-"
-    
-}
-    
-if
-name
-in
-replacements
-:
-        
-return
-replacements
-[
-name
-]
-    
 return
 name
 [
@@ -18935,14 +18909,23 @@ method
 )
 :
         
-return
-MakeNativeName
-(
+name
+=
 method
 .
 identifier
 .
 name
+        
+return
+MakeNativeName
+(
+descriptor
+.
+binaryNameFor
+(
+name
+)
 )
 class
 CGStaticMethod
@@ -19473,15 +19456,24 @@ attr
 )
 :
         
-nativeName
+name
 =
-MakeNativeName
-(
 attr
 .
 identifier
 .
 name
+        
+nativeName
+=
+MakeNativeName
+(
+descriptor
+.
+binaryNameFor
+(
+name
+)
 )
         
 infallible
@@ -20137,6 +20129,14 @@ attr
 )
 :
         
+name
+=
+attr
+.
+identifier
+.
+name
+        
 return
 "
 Set
@@ -20144,11 +20144,12 @@ Set
 +
 MakeNativeName
 (
-attr
+descriptor
 .
-identifier
-.
+binaryNameFor
+(
 name
+)
 )
 class
 CGStaticSetter
@@ -26895,7 +26896,12 @@ nativeName
 =
 MakeNativeName
 (
+descriptor
+.
+binaryNameFor
+(
 operation
+)
 )
         
 operation
@@ -30935,14 +30941,25 @@ if
 stringifier
 :
             
-nativeName
+name
 =
-MakeNativeName
+self
+.
+descriptor
+.
+binaryNameFor
 (
 stringifier
 .
 identifier
 .
+name
+)
+            
+nativeName
+=
+MakeNativeName
+(
 name
 )
             
@@ -31635,10 +31652,8 @@ root
 "
 )
         
-nativeName
+name
 =
-MakeNativeName
-(
 self
 .
 _ctor
@@ -31646,6 +31661,19 @@ _ctor
 identifier
 .
 name
+        
+nativeName
+=
+MakeNativeName
+(
+self
+.
+descriptor
+.
+binaryNameFor
+(
+name
+)
 )
         
 callGenerator
@@ -37697,6 +37725,7 @@ def
 callbackGetterName
 (
 attr
+descriptor
 )
 :
     
@@ -37707,16 +37736,23 @@ Get
 +
 MakeNativeName
 (
+        
+descriptor
+.
+binaryNameFor
+(
 attr
 .
 identifier
 .
 name
 )
+)
 def
 callbackSetterName
 (
 attr
+descriptor
 )
 :
     
@@ -37727,11 +37763,17 @@ Set
 +
 MakeNativeName
 (
+        
+descriptor
+.
+binaryNameFor
+(
 attr
 .
 identifier
 .
 name
+)
 )
 class
 CGCallbackFunction
@@ -40221,9 +40263,15 @@ self
 signature
                                        
 jsName
+                                       
 MakeNativeName
 (
+descriptor
+.
+binaryNameFor
+(
 jsName
+)
 )
                                        
 descriptor
