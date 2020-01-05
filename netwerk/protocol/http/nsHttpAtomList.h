@@ -629,3 +629,16 @@ Spdy
 Proxy
 "
 )
+HTTP_ATOM
+(
+X_Firefox_Early_Data
+"
+X
+-
+Firefox
+-
+Early
+-
+Data
+"
+)

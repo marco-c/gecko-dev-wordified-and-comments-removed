@@ -674,6 +674,11 @@ aAlpnChanged
 )
 override
 ;
+void
+Refused0RTT
+(
+)
+;
 uint64_t
 TopLevelOuterContentWindowId
 (
@@ -1355,6 +1360,14 @@ mPeerAddr
 ;
 bool
 m0RTTInProgress
+;
+enum
+{
+EARLY_NONE
+EARLY_SENT
+EARLY_ACCEPTED
+}
+mEarlyDataDisposition
 ;
 nsresult
 mTransportStatus
