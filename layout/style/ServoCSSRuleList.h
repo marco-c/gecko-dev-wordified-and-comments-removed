@@ -42,6 +42,9 @@ ServoCSSRuleList
 final
 :
 public
+dom
+:
+:
 CSSRuleList
 {
 public

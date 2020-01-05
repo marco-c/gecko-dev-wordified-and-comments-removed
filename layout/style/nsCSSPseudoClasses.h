@@ -12,6 +12,15 @@ nsStringFwd
 h
 "
 #
+include
+"
+mozilla
+/
+CSSEnabledState
+.
+h
+"
+#
 define
 CSS_PSEUDO_CLASS_ENABLED_MASK
 (
