@@ -3739,6 +3739,14 @@ ExitMsg
 )
 ;
 }
+self
+.
+compositor
+.
+close
+(
+)
+;
 }
 /
 /

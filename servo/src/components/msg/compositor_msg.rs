@@ -268,6 +268,13 @@ uint
 >
 )
 ;
+fn
+close
+(
+&
+self
+)
+;
 }
 pub
 trait
