@@ -473,6 +473,16 @@ device_disconnected
 ;
 exports
 .
+ON_PROFILE_UPDATED_NOTIFICATION
+=
+"
+fxaccounts
+:
+profile_updated
+"
+;
+exports
+.
 ON_PASSWORD_CHANGED_NOTIFICATION
 =
 "
