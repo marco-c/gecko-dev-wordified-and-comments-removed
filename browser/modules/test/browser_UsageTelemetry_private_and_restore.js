@@ -213,11 +213,7 @@ selectedBrowser
 const
 scalars
 =
-Services
-.
-telemetry
-.
-snapshotScalars
+getParentProcessScalars
 (
 Ci
 .
@@ -554,11 +550,7 @@ tabRestored
 const
 scalars
 =
-Services
-.
-telemetry
-.
-snapshotScalars
+getParentProcessScalars
 (
 Ci
 .
