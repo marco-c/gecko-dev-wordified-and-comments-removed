@@ -158,7 +158,3 @@ DEPRECATED_OPERATION
 (
 ImageBitmapRenderingContext_TransferImageBitmap
 )
-DEPRECATED_OPERATION
-(
-URLCreateObjectURL_MediaStream
-)

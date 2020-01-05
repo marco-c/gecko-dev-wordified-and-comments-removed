@@ -7413,15 +7413,6 @@ NS_IsMainThread
 )
 )
 ;
-DeprecationWarning
-(
-aGlobal
-nsIDocument
-:
-:
-eURLCreateObjectURL_MediaStream
-)
-;
 URLMainThread
 :
 :
