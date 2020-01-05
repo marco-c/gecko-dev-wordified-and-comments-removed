@@ -913,6 +913,10 @@ mSkipWaitingFlag
 (
 false
 )
+mHandlesFetch
+(
+Unknown
+)
 {
 MOZ_ASSERT
 (

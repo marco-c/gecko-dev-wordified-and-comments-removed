@@ -16497,6 +16497,10 @@ mWorkerScriptExecutedSuccessfully
 (
 false
 )
+mFetchHandlerWasAdded
+(
+false
+)
 mOnLine
 (
 false

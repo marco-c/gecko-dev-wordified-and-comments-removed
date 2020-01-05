@@ -132,6 +132,9 @@ scope
 nsCString
 currentWorkerURL
 ;
+bool
+currentWorkerHandlesFetch
+;
 nsString
 cacheName
 ;

@@ -322,6 +322,13 @@ Runnable
 aPendingWindow
 )
 ;
+void
+SetHandlesFetch
+(
+bool
+aValue
+)
+;
 private
 :
 enum
