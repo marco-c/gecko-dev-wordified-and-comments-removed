@@ -257,8 +257,10 @@ WrImageMask
 >
 BuildWrMaskLayer
 (
-bool
-aUnapplyLayerTransform
+const
+StackingContextHelper
+*
+aUnapplySc
 )
 ;
 }
