@@ -62756,12 +62756,8 @@ name
 )
 )
             
-getterinfal
+extendedAttrs
 =
-"
-infallible
-"
-in
 self
 .
 descriptor
@@ -62775,6 +62771,14 @@ getter
 =
 True
 )
+            
+getterinfal
+=
+"
+infallible
+"
+in
+extendedAttrs
             
 movable
 =
@@ -62806,8 +62810,18 @@ aliasSet
             
 getterinfal
 =
+(
 getterinfal
 and
+                           
+"
+canOOM
+"
+not
+in
+extendedAttrs
+and
+                           
 infallibleForMember
 (
 self
@@ -62821,6 +62835,7 @@ type
 self
 .
 descriptor
+)
 )
             
 isAlwaysInSlot
@@ -63197,12 +63212,8 @@ sigs
 0
 ]
                 
-hasInfallibleImpl
+extendedAttrs
 =
-"
-infallible
-"
-in
 self
 .
 descriptor
@@ -63213,6 +63224,14 @@ self
 .
 member
 )
+                
+hasInfallibleImpl
+=
+"
+infallible
+"
+in
+extendedAttrs
                 
 movable
 =
@@ -63274,7 +63293,17 @@ else
                     
 methodInfal
 =
+(
 hasInfallibleImpl
+and
+                                   
+"
+canOOM
+"
+not
+in
+extendedAttrs
+)
                 
 if
 self
