@@ -679,11 +679,11 @@ pub
 fn
 Servo_GetComputedValues
 (
-element
+node
 :
 *
 mut
-RawGeckoElement
+RawGeckoNode
 )
 -
 >
