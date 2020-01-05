@@ -23,7 +23,7 @@ callback
 ExceptionHandling
 :
 :
-ReportExceptions
+Report
 ;
 use
 dom
@@ -1071,7 +1071,7 @@ this
 data
 .
 args
-ReportExceptions
+Report
 )
 ;
 }

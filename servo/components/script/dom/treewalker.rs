@@ -11,7 +11,7 @@ callback
 ExceptionHandling
 :
 :
-RethrowExceptions
+Rethrow
 ;
 use
 dom
@@ -2706,7 +2706,7 @@ AcceptNode_
 (
 self
 node
-RethrowExceptions
+Rethrow
 )
 }
 }
