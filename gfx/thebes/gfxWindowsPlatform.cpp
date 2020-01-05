@@ -7072,14 +7072,6 @@ InitializeDevices
 (
 )
 {
-MOZ_ASSERT
-(
-!
-InSafeMode
-(
-)
-)
-;
 if
 (
 XRE_IsParentProcess
