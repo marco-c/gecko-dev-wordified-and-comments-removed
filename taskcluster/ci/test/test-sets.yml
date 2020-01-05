@@ -331,6 +331,8 @@ tests
 -
 cppunit
 -
+crashtest
+-
 gtest
 -
 jittest
