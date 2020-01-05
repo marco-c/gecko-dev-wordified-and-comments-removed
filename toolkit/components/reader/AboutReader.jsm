@@ -1090,6 +1090,7 @@ _loadArticle
 )
 ;
 }
+;
 AboutReader
 .
 prototype
@@ -4311,6 +4312,7 @@ center
 ;
 }
 }
+;
 let
 imgs
 =
@@ -4382,6 +4384,7 @@ img
 )
 ;
 }
+;
 }
 }
 }

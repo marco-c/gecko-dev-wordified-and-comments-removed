@@ -1726,6 +1726,7 @@ DOWNLOAD_SUCCESS
 )
 ;
 }
+;
 xhr
 .
 send
