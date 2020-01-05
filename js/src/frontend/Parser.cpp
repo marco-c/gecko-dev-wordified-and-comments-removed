@@ -36047,6 +36047,16 @@ YieldIsKeyword
 ;
 if
 (
+!
+name
+)
+return
+null
+(
+)
+;
+if
+(
 name
 =
 =
