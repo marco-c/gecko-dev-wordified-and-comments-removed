@@ -2138,7 +2138,7 @@ indent
 =
 0
 {
-error
+warn
 !
 (
 "

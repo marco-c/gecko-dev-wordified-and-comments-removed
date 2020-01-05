@@ -987,7 +987,7 @@ none
 %
 else
 :
-error
+warn
 !
 (
 "
@@ -1182,7 +1182,7 @@ none
 %
 else
 :
-error
+warn
 !
 (
 "
