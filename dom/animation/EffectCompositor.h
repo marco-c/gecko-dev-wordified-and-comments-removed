@@ -369,11 +369,6 @@ CascadeLevel
 aCascadeLevel
 )
 ;
-void
-ClearElementsToRestyle
-(
-)
-;
 bool
 HasPendingStyleUpdates
 (
