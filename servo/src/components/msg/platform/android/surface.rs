@@ -29,7 +29,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 impl
 NativeSurfaceAzureMethods
@@ -54,7 +54,7 @@ NativeSurface
 :
 from_image_khr
 (
-cast
+mem
 :
 :
 transmute

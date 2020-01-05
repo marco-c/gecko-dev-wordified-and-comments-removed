@@ -202,7 +202,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -296,8 +296,7 @@ u8
 )
 FontSourceFile
 (
-~
-str
+String
 )
 }
 pub
@@ -704,8 +703,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 /
 *
@@ -760,8 +758,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 unsafe
 {
@@ -792,8 +789,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 unsafe
 {
@@ -1121,12 +1117,9 @@ FontHandle
 new_from_file
 (
 fctx
-(
-*
 file
-)
 .
-clone
+as_slice
 (
 )
 style
@@ -1281,7 +1274,7 @@ slot
 :
 FT_GlyphSlot
 =
-cast
+mem
 :
 :
 transmute
@@ -2137,8 +2130,7 @@ fctx
 FontContextHandle
 file
 :
-~
-str
+String
 )
 -
 >
@@ -2317,7 +2309,7 @@ FT_SizeRec
 =
 unsafe
 {
-cast
+mem
 :
 :
 transmute

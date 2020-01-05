@@ -810,8 +810,7 @@ args
 :
 Vec
 <
-~
-str
+String
 >
 =
 vec
