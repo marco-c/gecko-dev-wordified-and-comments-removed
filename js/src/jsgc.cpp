@@ -3654,14 +3654,6 @@ compactingDisabledCount
 (
 0
 )
-manipulatingDeadZones
-(
-false
-)
-objectsMarkedInDeadZones
-(
-0
-)
 poked
 (
 false
