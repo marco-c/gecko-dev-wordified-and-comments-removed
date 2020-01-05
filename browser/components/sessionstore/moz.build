@@ -217,11 +217,6 @@ SessionFile
 jsm
 '
 '
-SessionHistory
-.
-jsm
-'
-'
 SessionMigration
 .
 jsm

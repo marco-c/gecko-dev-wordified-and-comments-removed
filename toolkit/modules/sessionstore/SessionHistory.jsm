@@ -152,8 +152,6 @@ freeze
 (
 {
 isEmpty
-:
-function
 (
 docShell
 )
@@ -168,8 +166,6 @@ docShell
 ;
 }
 collect
-:
-function
 (
 docShell
 aFromIdx
@@ -189,8 +185,6 @@ aFromIdx
 ;
 }
 restore
-:
-function
 (
 docShell
 tabData
@@ -219,8 +213,6 @@ Map
 (
 )
 isEmpty
-:
-function
 (
 docShell
 )
@@ -285,8 +277,6 @@ count
 ;
 }
 collect
-:
-function
 (
 docShell
 aFromIdx
@@ -596,8 +586,6 @@ data
 ;
 }
 serializeEntry
-:
-function
 (
 shEntry
 )
@@ -1176,8 +1164,6 @@ entry
 ;
 }
 restore
-:
-function
 (
 docShell
 tabData
@@ -1353,8 +1339,6 @@ true
 }
 }
 deserializeEntry
-:
-function
 (
 entry
 idMap
@@ -1940,10 +1924,6 @@ matchingEntry
 =
 {
 shEntry
-:
-shEntry
-childDocIdents
-:
 childDocIdents
 }
 ;
