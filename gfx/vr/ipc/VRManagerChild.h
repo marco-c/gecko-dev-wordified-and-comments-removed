@@ -84,6 +84,9 @@ VRDisplay
 class
 VREventObserver
 ;
+class
+VRMockDisplay
+;
 }
 namespace
 layers
@@ -976,6 +979,15 @@ dom
 Promise
 >
 mPromiseList
+;
+RefPtr
+<
+dom
+:
+:
+VRMockDisplay
+>
+mVRMockDisplay
 ;
 DISALLOW_COPY_AND_ASSIGN
 (
