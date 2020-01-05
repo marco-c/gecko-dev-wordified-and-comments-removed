@@ -125,7 +125,11 @@ userVisibleOnly
 =
 false
 ;
+(
 BufferSource
+or
+DOMString
+)
 ?
 applicationServerKey
 =
