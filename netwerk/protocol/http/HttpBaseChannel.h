@@ -1986,8 +1986,9 @@ nsIStreamListener
 aNewNextListener
 )
 ;
+virtual
 void
-EnsureUploadStreamIsCloneableComplete
+OnCopyComplete
 (
 nsresult
 aStatus
@@ -2155,6 +2156,13 @@ nsIURI
 aURI
 =
 nullptr
+)
+;
+void
+EnsureUploadStreamIsCloneableComplete
+(
+nsresult
+aStatus
 )
 ;
 #
@@ -2758,6 +2766,7 @@ HandleAsyncAbort
 )
 ;
 MOZ_MUST_USE
+virtual
 nsresult
 AsyncCall
 (
