@@ -1507,6 +1507,11 @@ KeyframeEffect
 webidl
 '
 '
+KeyIdsInitData
+.
+webidl
+'
+'
 LegacyQueryInterface
 .
 webidl
@@ -4468,6 +4473,11 @@ WEBIDL_FILES
 [
 '
 Apps
+.
+webidl
+'
+'
+Identity
 .
 webidl
 '
