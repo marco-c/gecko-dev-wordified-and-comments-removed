@@ -4489,9 +4489,6 @@ load
 html
 #
 bug
-1324654
-#
-bug
 586628
 asserts
 (
@@ -4503,9 +4500,6 @@ load
 2
 .
 html
-#
-bug
-1324654
 #
 bug
 586628
