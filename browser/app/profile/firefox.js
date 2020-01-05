@@ -13748,3 +13748,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+formautofill
+.
+enabled
+"
+false
+)
+;

@@ -377,13 +377,3 @@ value
 }
 }
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-FormAutofillHandler
-"
-]
-;
