@@ -54,4 +54,7 @@ bindings
 mod
 blob
 ;
+mod
+xmlhttprequest
+;
 }
