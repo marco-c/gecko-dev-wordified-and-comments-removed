@@ -914,6 +914,12 @@ border_bottom_color
 get_border
 .
 border_left_color
+get_effects
+.
+transform
+get_box
+.
+z_index
 ]
 )
 ;
