@@ -8202,13 +8202,9 @@ eDefault
 ;
 protected
 :
-static
 void
 ReparentFrameViewTo
 (
-nsIFrame
-*
-aFrame
 nsViewManager
 *
 aViewManager

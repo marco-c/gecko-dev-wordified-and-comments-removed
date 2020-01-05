@@ -4714,9 +4714,6 @@ nsIFrame
 :
 ReparentFrameViewTo
 (
-nsIFrame
-*
-aFrame
 nsViewManager
 *
 aViewManager
@@ -4730,9 +4727,6 @@ aOldParentView
 {
 if
 (
-aFrame
--
->
 HasView
 (
 )
@@ -4743,9 +4737,6 @@ ifdef
 MOZ_XUL
 if
 (
-aFrame
--
->
 GetType
 (
 )
@@ -4766,9 +4757,6 @@ nsView
 *
 view
 =
-aFrame
--
->
 GetView
 (
 )
@@ -4791,7 +4779,7 @@ nsLayoutUtils
 FindSiblingViewFor
 (
 aNewParentView
-aFrame
+this
 )
 ;
 aViewManager
@@ -4812,9 +4800,6 @@ nullptr
 else
 if
 (
-aFrame
--
->
 GetStateBits
 (
 )
@@ -4828,7 +4813,7 @@ nsIFrame
 ChildListIterator
 lists
 (
-aFrame
+this
 )
 ;
 for
@@ -4878,13 +4863,15 @@ Next
 )
 )
 {
-ReparentFrameViewTo
-(
 childFrames
 .
 get
 (
 )
+-
+>
+ReparentFrameViewTo
+(
 aViewManager
 aNewParentView
 aOldParentView
@@ -5192,7 +5179,6 @@ nullptr
 ;
 ReparentFrameViewTo
 (
-this
 viewManager
 view
 parentView
