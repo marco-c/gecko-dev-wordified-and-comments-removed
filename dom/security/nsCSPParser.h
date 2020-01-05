@@ -301,6 +301,10 @@ static
 bool
 sCSPExperimentalEnabled
 ;
+static
+bool
+sStrictDynamicEnabled
+;
 ~
 nsCSPParser
 (
@@ -731,6 +735,9 @@ mCurDir
 ;
 bool
 mHasHashOrNonce
+;
+bool
+mStrictDynamic
 ;
 nsCSPKeywordSrc
 *
