@@ -1382,10 +1382,6 @@ ADTSTrackDemuxer
 delete
 mParser
 ;
-mParser
-=
-nullptr
-;
 }
 bool
 ADTSTrackDemuxer

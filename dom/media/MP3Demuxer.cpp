@@ -1475,8 +1475,6 @@ mSamplesPerFrame
 =
 %
 d
-"
-"
 mSamplesPerSecond
 =
 %
@@ -2334,6 +2332,8 @@ successiveFrames
 %
 d
 last
+"
+"
 Length
 (
 )
