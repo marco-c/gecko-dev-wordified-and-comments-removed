@@ -5195,6 +5195,13 @@ return
 ;
 }
 let
+contentPrincipal
+=
+browser
+.
+contentPrincipal
+;
+let
 previousURI
 =
 browser
@@ -5678,6 +5685,9 @@ Services
 tm
 .
 mainThread
+contentPrincipal
+.
+originAttributes
 )
 ;
 }

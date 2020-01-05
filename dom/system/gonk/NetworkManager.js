@@ -5442,6 +5442,8 @@ Services
 tm
 .
 mainThread
+{
+}
 )
 ;
 }

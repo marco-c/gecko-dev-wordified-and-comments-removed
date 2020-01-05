@@ -359,12 +359,18 @@ nsIDNSRecord
 >
 record
 ;
+mozilla
+:
+:
+OriginAttributes
+attrs
+;
 rv
 =
 dns
 -
 >
-Resolve
+ResolveNative
 (
 Substring
 (
@@ -377,6 +383,7 @@ nsIDNSService
 :
 :
 RESOLVE_CANONICAL_NAME
+attrs
 getter_AddRefs
 (
 record
