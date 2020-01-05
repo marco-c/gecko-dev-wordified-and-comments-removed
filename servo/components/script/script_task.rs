@@ -4713,11 +4713,6 @@ window
 handle_fire_timer
 (
 timer_id
-self
-.
-get_cx
-(
-)
 )
 ;
 }
