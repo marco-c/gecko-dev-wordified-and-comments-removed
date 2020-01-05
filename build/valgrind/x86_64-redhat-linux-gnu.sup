@@ -573,9 +573,6 @@ g_object_new_valist
 fun
 :
 g_object_new
-fun
-:
-_ZN13nsLookAndFeel4InitEv
 .
 .
 .
