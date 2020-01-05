@@ -147,7 +147,7 @@ href
 "
 about
 :
-mozilla
+logo
 "
 ;
 doc
