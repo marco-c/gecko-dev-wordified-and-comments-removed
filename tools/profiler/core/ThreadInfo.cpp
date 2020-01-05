@@ -87,7 +87,7 @@ mIsMainThread
 (
 aIsMainThread
 )
-mPseudoStack
+mRacyInfo
 (
 mozilla
 :
@@ -95,7 +95,7 @@ mozilla
 WrapNotNull
 (
 new
-PseudoStack
+RacyThreadInfo
 (
 )
 )
@@ -193,7 +193,7 @@ ThreadInfo
 )
 ;
 delete
-mPseudoStack
+mRacyInfo
 ;
 }
 void
@@ -208,10 +208,10 @@ mIsBeingProfiled
 =
 true
 ;
-mPseudoStack
+mRacyInfo
 -
 >
-reinitializeOnResume
+ReinitializeOnResume
 (
 )
 ;
@@ -281,7 +281,7 @@ mUniqueStacks
 .
 emplace
 (
-mPseudoStack
+mRacyInfo
 -
 >
 mContext
@@ -311,7 +311,7 @@ aBuffer
 aWriter
 aStartTime
 aSinceTime
-mPseudoStack
+mRacyInfo
 -
 >
 mContext
@@ -879,7 +879,7 @@ aStartTime
 {
 MOZ_ASSERT
 (
-mPseudoStack
+mRacyInfo
 -
 >
 mContext
@@ -889,7 +889,7 @@ mUniqueStacks
 .
 emplace
 (
-mPseudoStack
+mRacyInfo
 -
 >
 mContext
@@ -914,7 +914,7 @@ StreamSamplesToJSON
 b
 mThreadId
 0
-mPseudoStack
+mRacyInfo
 -
 >
 mContext
@@ -1033,7 +1033,7 @@ get
 n
 +
 =
-mPseudoStack
+mRacyInfo
 -
 >
 SizeOfIncludingThis
