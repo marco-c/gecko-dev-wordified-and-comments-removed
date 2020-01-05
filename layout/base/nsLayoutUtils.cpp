@@ -31817,6 +31817,14 @@ DrawResult
 :
 SUCCESS
 ;
+aImageFlags
+|
+=
+imgIContainer
+:
+:
+FLAG_ASYNC_NOTIFY
+;
 if
 (
 aPresContext
