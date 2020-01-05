@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -1655,9 +1664,6 @@ nsISupports
 aWrappedJS
 )
 {
-#
-ifdef
-DEBUG
 nsCOMPtr
 <
 nsIXPConnectWrappedJSUnmarkGray
@@ -1668,6 +1674,11 @@ do_QueryInterface
 (
 aWrappedJS
 )
+;
+Unused
+<
+<
+wjsug
 ;
 MOZ_ASSERT
 (
@@ -1690,8 +1701,6 @@ successfully
 "
 )
 ;
-#
-endif
 }
 template
 <
