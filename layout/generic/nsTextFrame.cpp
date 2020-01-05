@@ -15235,9 +15235,11 @@ ch
 r
 '
 )
+{
 return
 true
 ;
+}
 if
 (
 ch
@@ -15263,9 +15265,11 @@ Is2b
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 !
 nsTextFrameUtils
@@ -15304,9 +15308,11 @@ ch
 <
 0x2150u
 )
+{
 return
 false
 ;
+}
 if
 (
 aLangIsCJ
