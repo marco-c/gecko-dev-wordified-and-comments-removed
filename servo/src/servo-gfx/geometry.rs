@@ -147,7 +147,7 @@ other
 }
 }
 impl
-Quot
+Div
 <
 Au
 Au
@@ -156,7 +156,7 @@ for
 Au
 {
 fn
-quot
+div
 (
 &
 self

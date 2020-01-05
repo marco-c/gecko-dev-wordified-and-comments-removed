@@ -3676,7 +3676,6 @@ bool
 unsafe
 {
 let
-mut
 cache
 =
 value
@@ -3686,7 +3685,6 @@ get_wrappercache
 )
 ;
 let
-mut
 obj
 =
 cache

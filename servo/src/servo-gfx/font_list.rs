@@ -575,17 +575,8 @@ list
 FontListHandle
 )
 {
-let
-this
-:
-&
-mut
-FontFamily
-=
-self
-;
 if
-this
+self
 .
 entries
 .
@@ -608,7 +599,7 @@ self
 assert
 !
 (
-this
+self
 .
 entries
 .
