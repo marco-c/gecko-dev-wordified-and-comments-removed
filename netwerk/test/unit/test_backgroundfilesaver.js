@@ -1093,6 +1093,7 @@ out
 add_task
 (
 function
+*
 test_normal
 (
 )
@@ -1194,6 +1195,7 @@ false
 add_task
 (
 function
+*
 test_combinations
 (
 )
@@ -1709,6 +1711,7 @@ ms
 add_task
 (
 function
+*
 test_setTarget_after_close_stream
 (
 )
@@ -1824,6 +1827,7 @@ false
 add_task
 (
 function
+*
 test_setTarget_fast
 (
 )
@@ -1925,6 +1929,7 @@ false
 add_task
 (
 function
+*
 test_setTarget_multiple
 (
 )
@@ -2058,6 +2063,7 @@ false
 add_task
 (
 function
+*
 test_enableAppend
 (
 )
@@ -2173,6 +2179,7 @@ false
 add_task
 (
 function
+*
 test_enableAppend_setTarget_fast
 (
 )
@@ -2341,6 +2348,7 @@ false
 add_task
 (
 function
+*
 test_enableAppend_hash
 (
 )
@@ -2478,6 +2486,7 @@ false
 add_task
 (
 function
+*
 test_finish_only
 (
 )
@@ -2545,6 +2554,7 @@ completionPromise
 add_task
 (
 function
+*
 test_empty
 (
 )
@@ -2632,6 +2642,7 @@ false
 add_task
 (
 function
+*
 test_empty_hash
 (
 )
@@ -2762,6 +2773,7 @@ false
 add_task
 (
 function
+*
 test_invalid_hash
 (
 )
@@ -2936,6 +2948,7 @@ NS_ERROR_FAILURE
 add_task
 (
 function
+*
 test_signature
 (
 )
@@ -3069,6 +3082,7 @@ false
 add_task
 (
 function
+*
 test_signature_not_enabled
 (
 )

@@ -160,6 +160,7 @@ contents
 ;
 }
 function
+*
 LineIterator
 (
 data
@@ -246,7 +247,7 @@ for
 (
 var
 line
-in
+of
 iter
 )
 {
@@ -532,6 +533,8 @@ iter
 next
 (
 )
+.
+value
 ;
 while
 (
@@ -549,6 +552,8 @@ iter
 next
 (
 )
+.
+value
 ;
 }
 function
