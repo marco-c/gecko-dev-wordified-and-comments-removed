@@ -7,8 +7,6 @@ Architectures
 ]
 (
 tools
-/
-tools
 .
 md
 )
@@ -17,8 +15,6 @@ md
 Inspector
 ]
 (
-tools
-/
 inspector
 .
 md
@@ -29,8 +25,6 @@ Panel
 Architecture
 ]
 (
-tools
-/
 inspector
 -
 panel
@@ -42,8 +36,6 @@ md
 Highlighters
 ]
 (
-tools
-/
 highlighters
 .
 md
@@ -53,8 +45,6 @@ md
 Memory
 ]
 (
-tools
-/
 memory
 -
 panel
@@ -66,8 +56,6 @@ md
 Debugger
 ]
 (
-tools
-/
 debugger
 -
 panel
@@ -81,8 +69,6 @@ Design
 Mode
 ]
 (
-tools
-/
 responsive
 -
 design
@@ -93,25 +79,9 @@ md
 )
 *
 [
-HTTP
-Inspector
-]
-(
-tools
-/
-http
--
-inspector
-.
-md
-)
-*
-[
 Frontend
 ]
 (
-frontend
-/
 frontend
 .
 md
@@ -122,8 +92,6 @@ Panel
 SVGs
 ]
 (
-frontend
-/
 svgs
 .
 md
@@ -133,8 +101,6 @@ md
 React
 ]
 (
-frontend
-/
 react
 .
 md
@@ -144,8 +110,6 @@ md
 Guidelines
 ]
 (
-frontend
-/
 react
 -
 guidelines
@@ -157,8 +121,6 @@ md
 Tips
 ]
 (
-frontend
-/
 react
 -
 tips
@@ -170,8 +132,6 @@ md
 Redux
 ]
 (
-frontend
-/
 redux
 .
 md
@@ -181,8 +141,6 @@ md
 Guidelines
 ]
 (
-frontend
-/
 redux
 -
 guidelines
@@ -194,8 +152,6 @@ md
 Tips
 ]
 (
-frontend
-/
 redux
 -
 tips
@@ -208,8 +164,6 @@ Backend
 ]
 (
 backend
-/
-backend
 .
 md
 )
@@ -218,8 +172,6 @@ md
 Protocol
 ]
 (
-backend
-/
 protocol
 .
 md
@@ -230,8 +182,6 @@ Debugger
 API
 ]
 (
-backend
-/
 debugger
 -
 api
@@ -244,8 +194,6 @@ Backward
 Compatibility
 ]
 (
-backend
-/
 backward
 -
 compatibility

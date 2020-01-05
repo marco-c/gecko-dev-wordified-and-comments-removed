@@ -88,9 +88,8 @@ highlighter
 ]
 (
 .
-.
 /
-resources
+img
 /
 box
 -
