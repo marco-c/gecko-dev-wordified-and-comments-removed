@@ -101,7 +101,7 @@ methods
 :
 [
 "
-test_optout
+optout
 "
 ]
 objects
@@ -168,7 +168,7 @@ methods
 :
 [
 "
-test_expired_version
+expired_version
 "
 ]
 objects
@@ -224,7 +224,7 @@ methods
 :
 [
 "
-test_expired_date
+expired_date
 "
 ]
 objects
@@ -280,7 +280,7 @@ methods
 :
 [
 "
-test_not_expired_optout
+not_expired_optout
 "
 ]
 objects
