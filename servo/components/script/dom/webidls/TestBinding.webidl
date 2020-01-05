@@ -395,6 +395,11 @@ DOMString
 )
 union2Attribute
 ;
+readonly
+attribute
+Uint8ClampedArray
+arrayAttribute
+;
 attribute
 any
 anyAttribute
