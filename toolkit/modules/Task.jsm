@@ -194,10 +194,7 @@ createAsyncFunction
 (
 aTask
 )
-.
-call
 (
-undefined
 )
 ;
 }

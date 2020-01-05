@@ -302,10 +302,7 @@ let
 override
 =
 overrideFn
-.
-call
 (
-null
 combined
 )
 ;

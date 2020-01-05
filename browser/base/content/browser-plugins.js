@@ -426,10 +426,7 @@ data
 .
 name
 ]
-.
-call
 (
-this
 msg
 .
 data
