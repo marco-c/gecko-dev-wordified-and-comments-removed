@@ -902,9 +902,8 @@ aType
 mContentBackendBitmask
 ;
 }
-virtual
 bool
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 ;
@@ -955,7 +954,7 @@ DefineProperty
 "
 AzureCanvasAccelerated
 "
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 )
