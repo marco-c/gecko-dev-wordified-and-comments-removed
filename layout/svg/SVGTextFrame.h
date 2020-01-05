@@ -541,6 +541,10 @@ nsSVGDisplayContainerFrame
 (
 aContext
 )
+mTrailingUndisplayedCharacters
+(
+0
+)
 mFontSizeScaleFactor
 (
 1

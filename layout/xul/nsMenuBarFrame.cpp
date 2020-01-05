@@ -228,6 +228,10 @@ mIsActive
 (
 false
 )
+mActiveByKeyboard
+(
+false
+)
 mCurrentMenu
 (
 nullptr

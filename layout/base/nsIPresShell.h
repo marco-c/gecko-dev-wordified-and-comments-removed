@@ -619,13 +619,6 @@ RecordAlloc
 result
 )
 ;
-memset
-(
-result
-0
-aSize
-)
-;
 return
 result
 ;
@@ -690,13 +683,6 @@ aSize
 RecordAlloc
 (
 result
-)
-;
-memset
-(
-result
-0
-aSize
 )
 ;
 return

@@ -290,6 +290,10 @@ nsSVGDisplayContainerFrame
 (
 aContext
 )
+mCallingReflowSVG
+(
+false
+)
 mFullZoom
 (
 aContext
