@@ -2060,7 +2060,7 @@ if
 addIt
 )
 {
-NetAddrElement
+auto
 *
 addrElement
 =

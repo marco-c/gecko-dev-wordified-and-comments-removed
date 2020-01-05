@@ -12595,7 +12595,7 @@ docshellOriginAttributes
 )
 ;
 }
-nsHttpConnectionInfo
+auto
 *
 ci
 =

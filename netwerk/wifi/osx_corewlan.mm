@@ -308,7 +308,7 @@ nextObject
 ]
 )
 {
-nsWifiAccessPoint
+auto
 *
 ap
 =

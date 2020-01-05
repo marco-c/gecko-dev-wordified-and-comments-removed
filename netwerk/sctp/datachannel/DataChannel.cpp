@@ -554,7 +554,7 @@ mSpa
 =
 spa
 ;
-char
+auto
 *
 tmp
 =
@@ -3326,8 +3326,7 @@ false
 }
 else
 {
-unsigned
-char
+auto
 *
 data
 =
@@ -11814,7 +11813,7 @@ errno
 EWOULDBLOCK
 )
 {
-BufferedMsg
+auto
 *
 buffered
 =

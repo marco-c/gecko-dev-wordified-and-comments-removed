@@ -891,7 +891,7 @@ distance
 =
 0
 ;
-CStreamConvDeallocator
+auto
 *
 dtorFunc
 =
@@ -1023,7 +1023,7 @@ ObjectAt
 i
 )
 ;
-nsCString
+auto
 *
 curVertex
 =
@@ -1181,10 +1181,7 @@ ContractIDPrefix
 NS_ISTREAMCONVERTER_KEY
 )
 ;
-nsTArray
-<
-nsCString
->
+auto
 *
 shortestPath
 =

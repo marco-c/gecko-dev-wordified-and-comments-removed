@@ -2207,7 +2207,7 @@ if
 httpChannel
 )
 {
-HeaderVisitor
+auto
 *
 visitor
 =
@@ -3218,7 +3218,7 @@ nsIChannel
 >
 pChannel
 ;
-NotificationCallbacks
+auto
 *
 callbacks
 =
@@ -3510,7 +3510,7 @@ return
 rv
 ;
 }
-URLLoadInfo
+auto
 *
 info
 =
@@ -3543,7 +3543,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-InputTestConsumer
+auto
 *
 listener
 =
