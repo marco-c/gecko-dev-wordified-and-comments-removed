@@ -41781,9 +41781,15 @@ if
 !
 resumePoint
 )
+{
+abortReason_
+=
+AbortReason_Alloc
+;
 return
 false
 ;
+}
 ins
 -
 >
