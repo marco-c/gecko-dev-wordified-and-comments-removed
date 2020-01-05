@@ -160,7 +160,6 @@ void
 SetImmutable
 (
 )
-const
 {
 mImmutable
 =
@@ -460,7 +459,6 @@ mHTMLCSSStyleSheet
 }
 mContainer
 ;
-mutable
 bool
 mImmutable
 ;

@@ -9559,10 +9559,6 @@ aString
 )
 const
 {
-SetImmutable
-(
-)
-;
 nsCSSCompressedDataBlock
 *
 systemFontData
