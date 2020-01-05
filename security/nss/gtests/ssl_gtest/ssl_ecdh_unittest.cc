@@ -224,7 +224,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_ecdsa
-ssl_sig_ecdsa_secp384r1_sha384
+ssl_sig_ecdsa_secp256r1_sha256
 )
 ;
 }

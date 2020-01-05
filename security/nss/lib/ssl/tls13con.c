@@ -8576,6 +8576,15 @@ rv
 !
 =
 SECSuccess
+|
+|
+certRequest
+-
+>
+signatureSchemeCount
+=
+=
+0
 )
 {
 FATAL_ERROR
