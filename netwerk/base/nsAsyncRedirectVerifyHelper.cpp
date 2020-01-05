@@ -1230,6 +1230,9 @@ if
 oldChannelInternal
 )
 {
+nsresult
+rv
+=
 oldChannelInternal
 -
 >
@@ -1241,6 +1244,12 @@ canceled
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 canceled
 )
 {

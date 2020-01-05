@@ -2550,6 +2550,9 @@ entry
 }
 else
 {
+nsresult
+rv
+=
 entry
 -
 >
@@ -2561,6 +2564,12 @@ creds
 challenge
 ident
 metadata
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

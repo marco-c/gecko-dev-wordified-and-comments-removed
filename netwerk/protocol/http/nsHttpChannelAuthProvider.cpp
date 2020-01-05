@@ -465,6 +465,8 @@ rv
 return
 rv
 ;
+rv
+=
 mAuthChannel
 -
 >

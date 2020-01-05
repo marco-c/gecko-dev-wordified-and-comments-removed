@@ -302,6 +302,8 @@ rv
 )
 )
 ;
+rv
+=
 mActivityDistributor
 -
 >
@@ -322,6 +324,12 @@ mActivitySubtype
 mTimestamp
 mExtraSizeData
 mExtraStringData
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 return
