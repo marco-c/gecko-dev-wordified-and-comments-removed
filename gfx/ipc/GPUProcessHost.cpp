@@ -543,9 +543,6 @@ mShutdownRequested
 =
 true
 ;
-#
-ifdef
-NS_FREE_PERMANENT_DATA
 if
 (
 !
@@ -561,7 +558,8 @@ Close
 ;
 }
 #
-else
+ifndef
+NS_FREE_PERMANENT_DATA
 KillHard
 (
 "
