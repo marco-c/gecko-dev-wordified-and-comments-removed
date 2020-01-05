@@ -201,11 +201,6 @@ AnimationPerformanceWarning
 h
 '
 '
-AnimationRule
-.
-h
-'
-'
 AnimationTarget
 .
 h
@@ -262,11 +257,6 @@ h
 '
 '
 PseudoElementHashEntry
-.
-h
-'
-'
-ServoAnimationRule
 .
 h
 '
@@ -367,11 +357,6 @@ cpp
 '
 '
 PendingAnimationTracker
-.
-cpp
-'
-'
-ServoAnimationRule
 .
 cpp
 '

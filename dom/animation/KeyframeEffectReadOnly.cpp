@@ -47,7 +47,7 @@ include
 "
 mozilla
 /
-AnimationRule
+AnimValuesStyleRule
 .
 h
 "
