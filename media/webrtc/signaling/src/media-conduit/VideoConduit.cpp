@@ -2989,8 +2989,15 @@ video_stream
 .
 temporal_layer_thresholds_bps
 .
-clear
+resize
 (
+streamCount
+>
+1
+?
+3
+:
+1
 )
 ;
 video_stream
