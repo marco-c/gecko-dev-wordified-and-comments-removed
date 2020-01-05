@@ -44,9 +44,6 @@ class
 XPCWrappedNativeTearOff
 ;
 class
-XPCNativeScriptableShared
-;
-class
 XPCNativeScriptableInfo
 ;
 class
@@ -81,9 +78,6 @@ NativeSetMap
 ;
 class
 IID2ThisTranslatorMap
-;
-class
-XPCNativeScriptableSharedMap
 ;
 class
 XPCWrappedNativeProtoMap

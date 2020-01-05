@@ -52,6 +52,13 @@ nsZipArchive
 h
 "
 #
+include
+"
+xpc_make_class
+.
+h
+"
+#
 define
 JSPERF_CONTRACTID
 \

@@ -8,6 +8,13 @@ h
 #
 include
 "
+xpc_make_class
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

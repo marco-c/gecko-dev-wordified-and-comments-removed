@@ -66,6 +66,13 @@ nsZipArchive
 h
 "
 #
+include
+"
+xpc_make_class
+.
+h
+"
+#
 define
 JSCTYPES_CONTRACTID
 \

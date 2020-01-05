@@ -110,6 +110,13 @@ h
 #
 include
 "
+xpc_make_class
+.
+h
+"
+#
+include
+"
 XPCWrapper
 .
 h
