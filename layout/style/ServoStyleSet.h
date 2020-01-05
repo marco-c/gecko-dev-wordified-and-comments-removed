@@ -511,6 +511,11 @@ Element
 aParent
 )
 ;
+void
+NoteStyleSheetsChanged
+(
+)
+;
 #
 ifdef
 DEBUG

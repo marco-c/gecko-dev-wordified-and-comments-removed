@@ -121,6 +121,13 @@ reference
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_NoteStyleSheetsChanged
+void
+RawServoStyleSetBorrowed
+set
+)
+SERVO_BINDING_FUNC
+(
 Servo_CssRules_ListTypes
 void
 ServoCssRulesBorrowed
