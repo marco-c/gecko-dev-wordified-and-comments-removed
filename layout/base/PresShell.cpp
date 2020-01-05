@@ -36149,6 +36149,12 @@ eMouseDown
 case
 eMouseUp
 :
+case
+ePointerDown
+:
+case
+ePointerUp
+:
 isHandlingUserInput
 =
 true
