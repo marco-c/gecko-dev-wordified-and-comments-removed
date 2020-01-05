@@ -435,28 +435,13 @@ type
 '
 )
 :
-Any
+optionally_keyed_by
 (
         
-task_description_schema
-[
 '
-worker
--
-type
-'
-]
-        
-{
-'
-by
--
 platform
 '
-:
-{
-basestring
-:
+        
 task_description_schema
 [
 '
@@ -465,9 +450,6 @@ worker
 type
 '
 ]
-}
-}
-    
 )
     
 Required
