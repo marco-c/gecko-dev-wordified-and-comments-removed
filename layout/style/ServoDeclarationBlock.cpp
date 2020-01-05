@@ -66,7 +66,6 @@ value
 Length
 (
 )
-nullptr
 )
 .
 Consume

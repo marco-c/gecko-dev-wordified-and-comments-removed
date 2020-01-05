@@ -1069,7 +1069,7 @@ ServoElementSnapshot
 #
 undef
 SERVO_DECLARE_ELEMENT_ATTR_MATCHING_FUNCTIONS
-RawServoDeclarationBlockBorrowedOrNull
+RawServoDeclarationBlockStrongBorrowedOrNull
 Gecko_GetServoDeclarationBlock
 (
 RawGeckoElementBorrowed
