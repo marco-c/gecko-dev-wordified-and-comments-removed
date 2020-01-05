@@ -273,6 +273,7 @@ mitem
 MetaItem
 item
 :
+&
 Annotatable
 push
 :
@@ -480,7 +481,6 @@ expand
 (
 cx
 mitem
-&
 item
 push
 )
