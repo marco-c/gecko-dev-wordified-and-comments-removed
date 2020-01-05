@@ -687,12 +687,6 @@ function
 (
 )
 {
-mockUpdateManager
-.
-register
-(
-)
-;
 yield
 openPreferencesViaOpenPreferencesAPI
 (
@@ -737,6 +731,12 @@ getElementById
 "
 dialogOverlay
 "
+)
+;
+mockUpdateManager
+.
+register
+(
 )
 ;
 is
