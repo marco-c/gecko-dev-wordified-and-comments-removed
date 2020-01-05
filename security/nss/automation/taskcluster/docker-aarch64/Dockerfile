@@ -88,8 +88,14 @@ sh
 Change
 user
 .
+#
 USER
 worker
+#
+See
+bug
+1347473
+.
 #
 Env
 variables

@@ -1524,8 +1524,8 @@ parallel_fallback
 )
 {
 eval
+"
 {
-*
 /
 /
 \
@@ -1535,6 +1535,7 @@ eval
 /
 0
 }
+"
 }
 parse_report
 (

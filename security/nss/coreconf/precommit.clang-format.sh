@@ -265,7 +265,7 @@ then
 echo
 '
 [
-hook
+hooks
 ]
 '
 >

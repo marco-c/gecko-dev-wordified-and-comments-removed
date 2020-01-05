@@ -99,6 +99,12 @@ kTlsHandshakeServerHello
 ;
 const
 uint8_t
+kTlsHandshakeNewSessionTicket
+=
+4
+;
+const
+uint8_t
 kTlsHandshakeHelloRetryRequest
 =
 6

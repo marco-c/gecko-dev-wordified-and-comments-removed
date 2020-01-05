@@ -936,6 +936,13 @@ size_t
 count
 )
 ;
+void
+CheckCipherSuite
+(
+uint16_t
+cipher_suite
+)
+;
 const
 std
 :
