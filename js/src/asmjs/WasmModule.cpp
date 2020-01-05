@@ -2513,7 +2513,7 @@ true
 }
 static
 bool
-CheckResizableLimits
+CheckLimits
 (
 JSContext
 *
@@ -2771,7 +2771,7 @@ isWasm
 if
 (
 !
-CheckResizableLimits
+CheckLimits
 (
 cx
 declaredMin
@@ -2986,7 +2986,7 @@ table
 if
 (
 !
-CheckResizableLimits
+CheckLimits
 (
 cx
 td

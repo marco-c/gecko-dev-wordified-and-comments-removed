@@ -987,7 +987,7 @@ cx
 wasm
 :
 :
-ResizableLimits
+Limits
 limits
 )
 ;
