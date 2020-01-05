@@ -3131,13 +3131,13 @@ DList
 RenderLayer
 >
 pub
-flags
-:
-FlowFlags
-pub
 writing_mode
 :
 WritingMode
+pub
+flags
+:
+FlowFlags
 }
 impl
 fmt

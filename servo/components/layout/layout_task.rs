@@ -1872,6 +1872,7 @@ port_to_read
 Pipeline
 =
 >
+{
 match
 self
 .
@@ -1887,6 +1888,7 @@ layout_traits
 ExitNowMsg
 =
 >
+{
 self
 .
 handle_script_request
@@ -1894,6 +1896,8 @@ handle_script_request
 ExitNowMsg
 possibly_locked_rw_data
 )
+}
+}
 }
 Script
 =
@@ -2065,7 +2069,7 @@ reflow
 has
 ever
 been
-trigger
+triggered
 this
 will
 keep
@@ -2298,7 +2302,6 @@ clone
 )
 |
 |
-{
 self
 .
 handle_reflow
@@ -2308,8 +2311,6 @@ handle_reflow
 data
 possibly_locked_rw_data
 )
-;
-}
 )
 ;
 }
@@ -4385,6 +4386,7 @@ layout_root
 mut
 shared_layout_ctx
 )
+;
 }
 }
 }
