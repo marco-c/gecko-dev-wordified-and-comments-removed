@@ -16127,10 +16127,9 @@ runtime
 )
 -
 >
-gc
-.
-setGrayBitsInvalid
+setGCGrayBitsValid
 (
+false
 )
 ;
 return
