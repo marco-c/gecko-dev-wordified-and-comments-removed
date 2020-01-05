@@ -435,6 +435,11 @@ nsWildCard
 h
 '
 '
+SlicedInputStream
+.
+h
+'
+'
 SpecialSystemDirectory
 .
 h
@@ -578,6 +583,11 @@ cpp
 '
 '
 nsWildCard
+.
+cpp
+'
+'
+SlicedInputStream
 .
 cpp
 '

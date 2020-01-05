@@ -145,6 +145,11 @@ TestPriorityQueue
 cpp
 '
 '
+TestSlicedInputStream
+.
+cpp
+'
+'
 TestSnappyStreams
 .
 cpp
