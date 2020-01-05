@@ -1124,6 +1124,11 @@ CorruptICOWithBadBMPHeightTestCase
 )
 ;
 ImageTestCase
+CorruptICOWithBadBppTestCase
+(
+)
+;
+ImageTestCase
 TransparentPNGTestCase
 (
 )
