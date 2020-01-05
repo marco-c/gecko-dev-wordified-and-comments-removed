@@ -1560,6 +1560,12 @@ fuzzy
 1
 2000
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 opacity
