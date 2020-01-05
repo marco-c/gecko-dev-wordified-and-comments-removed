@@ -61,7 +61,9 @@ location
 patch
 patch
 <
-bytestring
+union
+-
+typedef
 .
 patch
 wget
