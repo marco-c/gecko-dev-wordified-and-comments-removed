@@ -53,6 +53,11 @@ animatable
 "
 True
 "
+boxed
+=
+"
+True
+"
 spec
 =
 "
@@ -248,7 +253,10 @@ Result
 <
 DeclaredValue
 <
+Box
+<
 SpecifiedValue
+>
 >
 (
 )
@@ -311,6 +319,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSRGBA
 {
 parsed
@@ -322,6 +335,7 @@ value
 .
 authored
 }
+)
 )
 )
 }

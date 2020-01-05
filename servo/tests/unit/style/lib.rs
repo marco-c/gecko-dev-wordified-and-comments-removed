@@ -118,6 +118,9 @@ mod
 rule_tree
 ;
 mod
+size_of
+;
+mod
 str
 ;
 mod

@@ -105,7 +105,7 @@ use
 values
 :
 :
-NoViewportPercentage
+HasViewportPercentage
 ;
 use
 values
@@ -1029,9 +1029,9 @@ for
 SpecifiedUrl
 {
 }
-impl
-NoViewportPercentage
-for
+no_viewport_percentage
+!
+(
 SpecifiedUrl
-{
-}
+)
+;

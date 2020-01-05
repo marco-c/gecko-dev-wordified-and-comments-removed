@@ -1391,6 +1391,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 longhands
 :
 :
@@ -1445,6 +1450,7 @@ alpha
 }
 )
 }
+)
 )
 )
 Importance

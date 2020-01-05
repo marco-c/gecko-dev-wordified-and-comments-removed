@@ -353,7 +353,10 @@ color
 &
 DeclaredValue
 <
+Box
+<
 CSSColor
+>
 >
 )
 -

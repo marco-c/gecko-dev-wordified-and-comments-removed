@@ -812,6 +812,9 @@ None
 extra_prefixes
 =
 None
+boxed
+=
+False
 )
 :
         
@@ -1016,6 +1019,15 @@ extra_prefixes
 else
 [
 ]
+        
+self
+.
+boxed
+=
+arg_to_bool
+(
+boxed
+)
         
 self
 .
