@@ -2538,7 +2538,7 @@ SetAnimatable
 nsCSSPropertyID
 aProperty
 const
-StyleAnimationValue
+AnimationValue
 &
 aAnimationValue
 nsIFrame
@@ -2590,7 +2590,7 @@ aAnimatable
 =
 aAnimationValue
 .
-GetFloatValue
+GetOpacity
 (
 )
 ;
@@ -2615,8 +2615,20 @@ list
 =
 aAnimationValue
 .
+mGecko
+.
 GetCSSValueSharedListValue
 (
+)
+;
+MOZ_ASSERT
+(
+list
+"
+Invalid
+transform
+list
+"
 )
 ;
 AddTransformFunctions
@@ -2719,7 +2731,10 @@ there
 SetAnimatable
 (
 aProperty
+{
 baseValue
+nullptr
+}
 aFrame
 aRefBox
 aBaseStyle
@@ -3362,8 +3377,6 @@ mProperty
 segment
 .
 mFromValue
-.
-mGecko
 aFrame
 refBox
 animSegment
@@ -3382,8 +3395,6 @@ mProperty
 segment
 .
 mToValue
-.
-mGecko
 aFrame
 refBox
 animSegment
