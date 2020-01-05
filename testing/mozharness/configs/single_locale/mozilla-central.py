@@ -27,17 +27,13 @@ http
 :
 /
 /
-ftp
+archive
 .
 mozilla
 .
 org
 /
 pub
-/
-mozilla
-.
-org
 /
 firefox
 /
@@ -48,7 +44,6 @@ latest
 mozilla
 -
 central
-/
 "
     
 "
@@ -66,10 +61,6 @@ latest_mar_dir
 '
 /
 pub
-/
-mozilla
-.
-org
 /
 firefox
 /
