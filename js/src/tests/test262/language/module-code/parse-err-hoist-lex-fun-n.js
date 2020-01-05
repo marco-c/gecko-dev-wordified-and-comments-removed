@@ -1,0 +1,9 @@
+var
+f
+;
+function
+f
+(
+)
+{
+}

@@ -1,0 +1,8 @@
+const
+let
+=
+"
+irrelevant
+initializer
+"
+;

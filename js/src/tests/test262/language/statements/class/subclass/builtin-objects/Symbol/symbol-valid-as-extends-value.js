@@ -1,0 +1,12 @@
+class
+S
+extends
+Symbol
+{
+}
+reportCompare
+(
+0
+0
+)
+;

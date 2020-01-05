@@ -1,0 +1,15 @@
+class
+C
+{
+static
+*
+method
+(
+)
+{
+export
+default
+null
+;
+}
+}

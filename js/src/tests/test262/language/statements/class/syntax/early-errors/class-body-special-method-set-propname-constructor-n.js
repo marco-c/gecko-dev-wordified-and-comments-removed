@@ -1,0 +1,11 @@
+class
+A
+{
+set
+constructor
+(
+_
+)
+{
+}
+}

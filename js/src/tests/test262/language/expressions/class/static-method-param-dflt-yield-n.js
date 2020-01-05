@@ -1,0 +1,14 @@
+0
+class
+{
+static
+m
+(
+x
+=
+yield
+)
+{
+}
+}
+;

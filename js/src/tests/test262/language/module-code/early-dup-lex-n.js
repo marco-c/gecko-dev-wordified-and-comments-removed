@@ -1,0 +1,6 @@
+let
+x
+;
+const
+x
+;

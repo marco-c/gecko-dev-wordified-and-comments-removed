@@ -1,0 +1,7 @@
+while
+(
+false
+)
+let
+x
+;

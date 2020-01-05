@@ -1,0 +1,15 @@
+for
+(
+var
+x
+of
+[
+]
+)
+function
+*
+g
+(
+)
+{
+}

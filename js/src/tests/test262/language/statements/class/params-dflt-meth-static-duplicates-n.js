@@ -1,0 +1,14 @@
+class
+C
+{
+static
+method
+(
+x
+=
+0
+x
+)
+{
+}
+}

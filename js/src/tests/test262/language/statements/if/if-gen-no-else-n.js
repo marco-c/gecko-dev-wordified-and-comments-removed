@@ -1,0 +1,11 @@
+if
+(
+true
+)
+function
+*
+g
+(
+)
+{
+}

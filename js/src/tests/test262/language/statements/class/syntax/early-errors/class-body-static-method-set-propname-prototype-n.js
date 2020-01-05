@@ -1,0 +1,11 @@
+class
+A
+{
+static
+set
+prototype
+(
+)
+{
+}
+}

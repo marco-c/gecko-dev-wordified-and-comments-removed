@@ -1,0 +1,14 @@
+class
+A
+{
+constructor
+(
+)
+{
+}
+constructor
+(
+)
+{
+}
+}

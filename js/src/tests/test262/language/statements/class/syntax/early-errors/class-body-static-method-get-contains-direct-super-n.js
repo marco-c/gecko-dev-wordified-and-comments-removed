@@ -1,0 +1,15 @@
+class
+A
+{
+static
+get
+method
+(
+)
+{
+super
+(
+)
+;
+}
+}

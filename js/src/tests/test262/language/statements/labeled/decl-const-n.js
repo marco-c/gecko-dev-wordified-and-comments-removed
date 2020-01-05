@@ -1,0 +1,7 @@
+label
+:
+const
+x
+=
+null
+;

@@ -1,0 +1,9 @@
+while
+(
+false
+)
+{
+continue
+undef
+;
+}

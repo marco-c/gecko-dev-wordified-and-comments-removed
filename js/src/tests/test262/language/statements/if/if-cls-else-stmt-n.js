@@ -1,0 +1,10 @@
+if
+(
+true
+)
+class
+C
+{
+}
+else
+;

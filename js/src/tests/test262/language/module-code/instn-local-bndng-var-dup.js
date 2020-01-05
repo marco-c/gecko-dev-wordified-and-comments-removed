@@ -1,0 +1,12 @@
+var
+test262
+;
+var
+test262
+;
+reportCompare
+(
+0
+0
+)
+;

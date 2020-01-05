@@ -1,0 +1,11 @@
+if
+(
+true
+)
+const
+x
+=
+null
+;
+else
+;

@@ -1,5 +1,0 @@
-var
-abstract
-=
-1
-;

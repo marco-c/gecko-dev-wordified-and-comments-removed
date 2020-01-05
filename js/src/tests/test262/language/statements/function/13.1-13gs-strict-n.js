@@ -1,0 +1,12 @@
+'
+use
+strict
+'
+;
+function
+arguments
+(
+)
+{
+}
+;

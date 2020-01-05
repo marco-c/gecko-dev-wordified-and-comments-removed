@@ -1,0 +1,5 @@
+label
+:
+const
+x
+;

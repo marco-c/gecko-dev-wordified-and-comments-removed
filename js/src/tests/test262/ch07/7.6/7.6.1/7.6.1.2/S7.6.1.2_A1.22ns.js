@@ -1,5 +1,0 @@
-var
-private
-=
-1
-;

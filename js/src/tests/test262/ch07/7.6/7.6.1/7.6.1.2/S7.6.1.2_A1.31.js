@@ -1,5 +1,0 @@
-var
-volatile
-=
-1
-;

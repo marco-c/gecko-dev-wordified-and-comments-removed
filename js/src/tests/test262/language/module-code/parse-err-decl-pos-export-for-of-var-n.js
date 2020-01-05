@@ -1,0 +1,12 @@
+for
+(
+var
+y
+of
+[
+]
+)
+export
+default
+null
+;

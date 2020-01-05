@@ -1,0 +1,11 @@
+'
+use
+strict
+'
+;
+0
+[
+arguments
+]
+=
+;

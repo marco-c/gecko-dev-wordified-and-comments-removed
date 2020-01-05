@@ -1,5 +1,0 @@
-var
-transient
-=
-1
-;

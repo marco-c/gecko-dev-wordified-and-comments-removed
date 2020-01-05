@@ -1,0 +1,13 @@
+var
+x
+;
+export
+{
+x
+}
+;
+export
+{
+x
+}
+;

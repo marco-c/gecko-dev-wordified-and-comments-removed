@@ -1,5 +1,0 @@
-var
-package
-=
-1
-;

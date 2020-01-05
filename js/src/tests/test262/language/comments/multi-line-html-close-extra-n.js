@@ -1,0 +1,14 @@
+the
+comment
+should
+not
+include
+these
+characters
+regardless
+of
+AnnexB
+extensions
+-
+-
+>

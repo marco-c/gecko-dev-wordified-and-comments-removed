@@ -1,0 +1,14 @@
+function
+f
+(
+)
+{
+(
+new
+.
+target
+)
+-
+-
+;
+}

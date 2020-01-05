@@ -1,0 +1,14 @@
+(
+async
+function
+foo
+(
+foo
+)
+{
+super
+.
+prop
+}
+)
+;

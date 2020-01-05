@@ -1,0 +1,10 @@
+function
+*
+g
+(
+x
+=
+yield
+)
+{
+}

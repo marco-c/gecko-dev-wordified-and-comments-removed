@@ -1,0 +1,12 @@
+throw
+new
+TypeError
+(
+)
+;
+reportCompare
+(
+0
+0
+)
+;

@@ -1,5 +1,0 @@
-var
-undefined
-=
-1
-;

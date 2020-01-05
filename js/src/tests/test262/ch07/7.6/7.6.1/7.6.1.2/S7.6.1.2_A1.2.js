@@ -1,5 +1,0 @@
-var
-boolean
-=
-1
-;

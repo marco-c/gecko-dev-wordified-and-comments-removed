@@ -1,0 +1,16 @@
+assert
+.
+sameValue
+(
+NoSubstitutionTemplate
+'
+NoSubstitutionTemplate
+'
+)
+;
+reportCompare
+(
+0
+0
+)
+;

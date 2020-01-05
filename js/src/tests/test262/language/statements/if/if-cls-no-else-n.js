@@ -1,0 +1,8 @@
+if
+(
+true
+)
+class
+C
+{
+}

@@ -1,0 +1,10 @@
+if
+(
+true
+)
+{
+}
+else
+const
+x
+;

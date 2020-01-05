@@ -1,0 +1,9 @@
+while
+(
+false
+)
+const
+x
+=
+null
+;

@@ -1,0 +1,15 @@
+async
+function
+foo
+(
+foo
+=
+super
+.
+foo
+)
+{
+let
+bar
+;
+}

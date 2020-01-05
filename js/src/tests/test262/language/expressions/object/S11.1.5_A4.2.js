@@ -1,0 +1,15 @@
+var
+object
+=
+{
+null
+:
+true
+}
+;
+reportCompare
+(
+0
+0
+)
+;

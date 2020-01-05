@@ -1,0 +1,13 @@
+class
+A
+{
+method
+(
+)
+{
+super
+(
+)
+;
+}
+}

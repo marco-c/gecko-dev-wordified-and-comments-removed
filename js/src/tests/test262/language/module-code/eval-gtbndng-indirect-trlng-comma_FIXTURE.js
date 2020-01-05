@@ -1,0 +1,12 @@
+export
+var
+x
+=
+1
+;
+reportCompare
+(
+0
+0
+)
+;

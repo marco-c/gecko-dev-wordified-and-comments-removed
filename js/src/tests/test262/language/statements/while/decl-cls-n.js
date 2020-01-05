@@ -1,0 +1,8 @@
+while
+(
+false
+)
+class
+C
+{
+}

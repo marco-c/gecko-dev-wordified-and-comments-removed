@@ -1,0 +1,12 @@
+for
+(
+;
+false
+;
+)
+function
+f
+(
+)
+{
+}

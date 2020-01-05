@@ -1,0 +1,12 @@
+switch
+(
+true
+)
+{
+case
+true
+:
+const
+x
+;
+}

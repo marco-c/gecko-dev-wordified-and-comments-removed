@@ -1,0 +1,12 @@
+function
+f
+(
+)
+{
++
++
+new
+.
+target
+;
+}

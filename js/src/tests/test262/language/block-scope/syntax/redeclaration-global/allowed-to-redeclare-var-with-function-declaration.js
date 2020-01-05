@@ -1,0 +1,15 @@
+var
+f
+;
+function
+f
+(
+)
+{
+}
+reportCompare
+(
+0
+0
+)
+;

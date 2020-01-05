@@ -1,0 +1,6 @@
+label
+:
+class
+C
+{
+}

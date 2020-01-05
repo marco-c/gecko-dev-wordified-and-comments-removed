@@ -1,0 +1,14 @@
+class
+C
+{
+static
+*
+g
+(
+x
+=
+yield
+)
+{
+}
+}

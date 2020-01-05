@@ -1,0 +1,11 @@
+function
+*
+g
+(
+)
+{
+export
+default
+null
+;
+}

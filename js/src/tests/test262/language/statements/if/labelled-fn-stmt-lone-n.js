@@ -1,0 +1,14 @@
+if
+(
+false
+)
+label1
+:
+label2
+:
+function
+test262
+(
+)
+{
+}

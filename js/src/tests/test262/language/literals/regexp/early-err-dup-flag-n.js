@@ -1,0 +1,11 @@
+throw
+new
+Test262Error
+(
+)
+;
+/
+.
+/
+gig
+;

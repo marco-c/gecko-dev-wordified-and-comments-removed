@@ -1,0 +1,12 @@
+import
+{
+x
+y
+as
+x
+}
+from
+'
+z
+'
+;

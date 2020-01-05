@@ -1,5 +1,0 @@
-var
-protected
-=
-1
-;

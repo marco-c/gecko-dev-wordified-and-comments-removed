@@ -1,0 +1,16 @@
+var
+g
+=
+function
+*
+(
+)
+{
+yield
+3
++
+yield
+4
+;
+}
+;

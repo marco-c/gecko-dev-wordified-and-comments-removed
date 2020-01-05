@@ -1,0 +1,14 @@
+export
+var
+indirectIdName
+;
+export
+var
+starIndirectIdName
+;
+reportCompare
+(
+0
+0
+)
+;

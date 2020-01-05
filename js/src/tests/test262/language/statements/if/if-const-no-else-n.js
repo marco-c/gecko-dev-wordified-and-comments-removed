@@ -1,0 +1,9 @@
+if
+(
+true
+)
+const
+x
+=
+null
+;

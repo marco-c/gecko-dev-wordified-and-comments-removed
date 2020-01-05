@@ -1,0 +1,13 @@
+for
+(
+;
+false
+;
+)
+function
+*
+g
+(
+)
+{
+}

@@ -1,0 +1,13 @@
+class
+A
+{
+constructor
+(
+)
+{
+super
+(
+)
+;
+}
+}

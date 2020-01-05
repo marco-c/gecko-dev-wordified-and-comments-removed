@@ -1,0 +1,15 @@
+'
+use
+strict
+'
+;
+(
+async
+function
+foo
+(
+eval
+)
+{
+}
+)

@@ -1,0 +1,5 @@
+var
+function
+=
+123
+;

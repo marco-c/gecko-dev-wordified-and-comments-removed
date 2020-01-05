@@ -1,5 +1,0 @@
-var
-synchronized
-=
-1
-;

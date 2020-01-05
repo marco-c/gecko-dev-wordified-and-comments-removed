@@ -1,0 +1,12 @@
+switch
+(
+0
+)
+{
+default
+:
+export
+default
+null
+;
+}

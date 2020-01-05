@@ -1,0 +1,15 @@
+assert
+.
+notSameValue
+(
+0
+-
+0
+)
+;
+reportCompare
+(
+0
+0
+)
+;

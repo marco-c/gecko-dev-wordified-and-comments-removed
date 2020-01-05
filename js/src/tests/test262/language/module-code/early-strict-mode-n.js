@@ -1,0 +1,16 @@
+ERROR
+(
+'
+This
+statement
+should
+not
+be
+executed
+.
+'
+)
+;
+var
+public
+;

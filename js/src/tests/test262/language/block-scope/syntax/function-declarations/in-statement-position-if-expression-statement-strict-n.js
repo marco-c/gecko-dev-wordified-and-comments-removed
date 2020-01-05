@@ -1,0 +1,15 @@
+'
+use
+strict
+'
+;
+if
+(
+true
+)
+function
+g
+(
+)
+{
+}

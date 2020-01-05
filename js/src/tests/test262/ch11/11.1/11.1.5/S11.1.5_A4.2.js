@@ -1,9 +1,0 @@
-var
-object
-=
-{
-null
-:
-true
-}
-;

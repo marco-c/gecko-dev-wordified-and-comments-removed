@@ -1,0 +1,11 @@
+while
+(
+false
+)
+function
+*
+g
+(
+)
+{
+}

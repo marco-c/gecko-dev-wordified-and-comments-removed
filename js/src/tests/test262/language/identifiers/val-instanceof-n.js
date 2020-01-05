@@ -1,0 +1,5 @@
+var
+instanceof
+=
+123
+;

@@ -1,0 +1,15 @@
+'
+use
+strict
+'
+;
+for
+(
+[
+arguments
+]
+in
+[
+]
+)
+;

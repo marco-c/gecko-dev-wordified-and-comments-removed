@@ -1,0 +1,10 @@
+var
+g
+;
+function
+*
+g
+(
+)
+{
+}

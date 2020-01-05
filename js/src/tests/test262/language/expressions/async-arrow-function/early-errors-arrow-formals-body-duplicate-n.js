@@ -1,0 +1,11 @@
+async
+(
+bar
+)
+=
+>
+{
+let
+bar
+;
+}

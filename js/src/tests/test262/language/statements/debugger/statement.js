@@ -1,0 +1,12 @@
+while
+(
+false
+)
+debugger
+;
+reportCompare
+(
+0
+0
+)
+;

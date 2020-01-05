@@ -1,0 +1,5 @@
+label
+:
+let
+x
+;

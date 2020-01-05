@@ -1,0 +1,16 @@
+var
+re
+=
+new
+RegExp
+(
+"
+"
+)
+;
+reportCompare
+(
+0
+0
+)
+;

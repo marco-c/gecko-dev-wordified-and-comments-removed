@@ -1,0 +1,14 @@
+for
+(
+var
+x
+in
+{
+}
+)
+function
+f
+(
+)
+{
+}

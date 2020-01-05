@@ -1,0 +1,12 @@
+\
+u
+{
+10FFFFF
+}
+{
+'
+inner
+'
+}
+right
+;

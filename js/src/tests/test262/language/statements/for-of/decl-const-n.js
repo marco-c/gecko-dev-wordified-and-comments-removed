@@ -1,0 +1,13 @@
+for
+(
+var
+x
+of
+[
+]
+)
+const
+y
+=
+null
+;

@@ -1,0 +1,10 @@
+while
+(
+false
+)
+function
+f
+(
+)
+{
+}

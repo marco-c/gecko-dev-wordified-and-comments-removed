@@ -1,0 +1,13 @@
+if
+(
+true
+)
+function
+*
+g
+(
+)
+{
+}
+else
+;

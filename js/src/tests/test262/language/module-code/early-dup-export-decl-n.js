@@ -1,0 +1,15 @@
+export
+function
+f
+(
+)
+{
+}
+export
+function
+*
+f
+(
+)
+{
+}

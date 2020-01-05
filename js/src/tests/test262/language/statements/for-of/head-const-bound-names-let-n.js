@@ -1,0 +1,10 @@
+for
+(
+const
+let
+of
+[
+]
+)
+{
+}

@@ -1,0 +1,14 @@
+async
+function
+foo
+(
+x
+=
+1
+)
+{
+"
+use
+strict
+"
+}

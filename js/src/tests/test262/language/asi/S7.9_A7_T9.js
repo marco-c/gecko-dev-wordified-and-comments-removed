@@ -1,0 +1,11 @@
+var
+x
+y
+=
+1
+reportCompare
+(
+0
+0
+)
+;

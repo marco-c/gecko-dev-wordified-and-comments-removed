@@ -1,0 +1,14 @@
+class
+A
+{
+*
+method
+(
+)
+{
+super
+(
+)
+;
+}
+}

@@ -1,0 +1,13 @@
+class
+C
+{
+method
+(
+)
+{
+export
+default
+null
+;
+}
+}

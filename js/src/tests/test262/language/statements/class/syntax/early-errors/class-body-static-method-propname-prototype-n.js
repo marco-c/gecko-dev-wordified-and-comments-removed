@@ -1,0 +1,10 @@
+class
+A
+{
+static
+prototype
+(
+)
+{
+}
+}

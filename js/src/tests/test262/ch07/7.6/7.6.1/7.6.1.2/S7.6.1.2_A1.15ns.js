@@ -1,5 +1,0 @@
-var
-implements
-=
-1
-;

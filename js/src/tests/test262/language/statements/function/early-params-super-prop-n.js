@@ -1,0 +1,11 @@
+function
+f
+(
+x
+=
+super
+.
+x
+)
+{
+}

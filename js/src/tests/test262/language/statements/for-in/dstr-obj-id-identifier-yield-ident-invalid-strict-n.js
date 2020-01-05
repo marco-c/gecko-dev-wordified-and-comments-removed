@@ -1,0 +1,17 @@
+'
+use
+strict
+'
+;
+for
+(
+{
+yield
+}
+in
+[
+{
+}
+]
+)
+;

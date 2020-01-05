@@ -1,0 +1,12 @@
+(
+function
+(
+)
+{
+export
+default
+null
+;
+}
+)
+;

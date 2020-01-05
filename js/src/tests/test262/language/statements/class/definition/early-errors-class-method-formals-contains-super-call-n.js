@@ -1,0 +1,15 @@
+class
+Foo
+{
+async
+foo
+(
+foo
+=
+super
+(
+)
+)
+{
+}
+}

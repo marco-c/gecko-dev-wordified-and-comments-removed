@@ -1,0 +1,14 @@
+'
+use
+strict
+'
+;
+async
+(
+a
+a
+)
+=
+>
+{
+}

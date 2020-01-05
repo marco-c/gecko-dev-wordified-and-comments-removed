@@ -1,0 +1,13 @@
+try
+{
+export
+default
+null
+;
+}
+catch
+(
+err
+)
+{
+}
