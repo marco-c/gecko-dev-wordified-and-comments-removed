@@ -200,12 +200,12 @@ aResult
 =
 0
 ;
-NS_IMETHOD
-DocumentIsEmpty
+NS_IMETHOD_
 (
 bool
-*
-aDocumentIsEmpty
+)
+DocumentIsEmpty
+(
 )
 =
 0
