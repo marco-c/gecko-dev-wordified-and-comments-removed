@@ -8766,7 +8766,7 @@ push
 Attr
 :
 :
-new_ns
+new
 (
 &
 document
