@@ -435,8 +435,8 @@ PDBSTR_PATH
 '
 :
 '
-/
-c
+C
+:
 /
 Program
 Files
