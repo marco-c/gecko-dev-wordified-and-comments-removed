@@ -75,8 +75,12 @@ kNameSpaceID_disabled_MathML
 11
 #
 define
+kNameSpaceID_disabled_SVG
+12
+#
+define
 kNameSpaceID_LastBuiltin
-11
+12
 /
 /
 last

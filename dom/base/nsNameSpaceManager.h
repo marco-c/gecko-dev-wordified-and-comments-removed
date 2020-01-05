@@ -195,6 +195,9 @@ GetInstance
 bool
 mMathMLDisabled
 ;
+bool
+mSVGDisabled
+;
 private
 :
 bool

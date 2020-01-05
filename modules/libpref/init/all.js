@@ -20589,6 +20589,16 @@ processCount
 pref
 (
 "
+svg
+.
+disabled
+"
+false
+)
+;
+pref
+(
+"
 dom
 .
 ipc
