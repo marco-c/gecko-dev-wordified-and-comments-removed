@@ -125,7 +125,6 @@ aContext
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
-virtual
 void
 Reflow
 (
@@ -145,7 +144,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -310,7 +308,6 @@ DoPageEnd
 )
 override
 ;
-virtual
 bool
 HonorPrintBackgroundSettings
 (
@@ -321,7 +318,6 @@ return
 false
 ;
 }
-virtual
 bool
 HasTransformGetter
 (
@@ -333,7 +329,6 @@ return
 true
 ;
 }
-virtual
 nsIAtom
 *
 GetType
@@ -345,7 +340,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

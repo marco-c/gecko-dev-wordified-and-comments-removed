@@ -101,7 +101,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -119,7 +118,6 @@ aLists
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -139,7 +137,6 @@ aStatus
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -149,7 +146,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -159,7 +155,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nsIAtom
 *
 GetType
@@ -171,7 +166,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
