@@ -13431,6 +13431,15 @@ rscript
 isIonCompilingOffThread
 (
 )
+|
+|
+!
+rscript
+-
+>
+canIonCompile
+(
+)
 )
 return
 Method_Skipped
