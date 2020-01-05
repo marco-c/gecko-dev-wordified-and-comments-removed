@@ -36,6 +36,13 @@ nsIDOMCSSRule
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 class
 nsIDocument
 ;
@@ -84,6 +91,8 @@ Rule
 :
 public
 nsISupports
+public
+nsWrapperCache
 {
 protected
 :
@@ -157,7 +166,7 @@ Rule
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SKIPPABLE_CLASS
+NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
 Rule
 )
