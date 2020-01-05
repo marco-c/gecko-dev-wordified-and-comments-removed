@@ -267,6 +267,15 @@ IsScrollbarNode
 )
 const
 ;
+FrameMetrics
+:
+:
+ViewID
+GetScrollTargetId
+(
+)
+const
+;
 void
 SetFixedPosData
 (
