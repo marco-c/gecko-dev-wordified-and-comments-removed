@@ -177,6 +177,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 HTMLDataListElement
@@ -252,6 +256,13 @@ document
 )
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

@@ -235,6 +235,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 HTMLSelectElement
@@ -310,6 +314,13 @@ document
 )
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

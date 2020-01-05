@@ -186,6 +186,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 HTMLOptionElement
@@ -261,6 +265,13 @@ document
 )
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

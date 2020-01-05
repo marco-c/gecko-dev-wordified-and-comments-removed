@@ -808,6 +808,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 XMLHttpRequest
@@ -1058,9 +1062,6 @@ GlobalRef
 >
 XMLHttpRequest
 {
-let
-xhr
-=
 XMLHttpRequest
 {
 eventtarget
@@ -1467,8 +1468,6 @@ None
 )
 )
 }
-;
-xhr
 }
 pub
 fn

@@ -129,6 +129,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 DocumentType
@@ -253,6 +257,13 @@ to_string
 )
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

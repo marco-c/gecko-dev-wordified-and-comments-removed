@@ -497,6 +497,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 Attr
@@ -696,9 +700,9 @@ Temporary
 Attr
 >
 {
-let
-attr
-=
+reflect_dom_object
+(
+box
 Attr
 :
 :
@@ -711,11 +715,6 @@ namespace
 prefix
 owner
 )
-;
-reflect_dom_object
-(
-box
-attr
 &
 Window
 (

@@ -276,6 +276,13 @@ pub
 mod
 codegen
 {
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 mod
 Bindings

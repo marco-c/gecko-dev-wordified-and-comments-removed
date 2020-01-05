@@ -214,6 +214,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 HTMLLinkElement
@@ -289,6 +293,13 @@ document
 )
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

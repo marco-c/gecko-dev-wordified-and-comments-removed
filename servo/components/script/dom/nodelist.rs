@@ -103,6 +103,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 enum
 NodeListType
@@ -131,6 +135,10 @@ deriving
 (
 Encodable
 )
+]
+#
+[
+must_root
 ]
 pub
 struct

@@ -150,6 +150,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 CanvasRenderingContext2D

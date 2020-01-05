@@ -265,6 +265,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 enum
 CollectionTypeId
@@ -297,6 +301,10 @@ deriving
 (
 Encodable
 )
+]
+#
+[
+must_root
 ]
 pub
 struct

@@ -143,6 +143,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 HTMLHeadingElement
@@ -228,6 +232,13 @@ level
 level
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

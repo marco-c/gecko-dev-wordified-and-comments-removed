@@ -363,6 +363,13 @@ trace_kind
 ;
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 trace_reflector

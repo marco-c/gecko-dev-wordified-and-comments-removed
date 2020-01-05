@@ -90,6 +90,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 PerformanceTiming
@@ -140,6 +144,13 @@ navigationStartPrecise
 navStartPrecise
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

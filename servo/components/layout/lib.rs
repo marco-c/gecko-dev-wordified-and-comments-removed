@@ -42,6 +42,14 @@ unused_variable
 )
 ]
 #
+!
+[
+allow
+(
+unrooted_must_root
+)
+]
+#
 [
 phase
 (
