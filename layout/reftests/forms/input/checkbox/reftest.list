@@ -12,12 +12,6 @@ dynamic
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 radio
@@ -323,12 +317,6 @@ checkbox
 radio
 .
 skip
--
-if
-(
-!
-Android
-)
 =
 =
 checkbox
@@ -351,3 +339,11 @@ sized
 ref
 .
 html
+#
+Disabled
+until
+bug
+1352238
+is
+fixed
+.
