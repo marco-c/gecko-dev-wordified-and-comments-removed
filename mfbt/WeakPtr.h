@@ -67,6 +67,14 @@ h
 >
 #
 if
+!
+defined
+(
+__MINGW32__
+)
+&
+&
+(
 defined
 (
 DEBUG
@@ -84,6 +92,7 @@ NIGHTLY_BUILD
 defined
 (
 MOZ_PROFILING
+)
 )
 )
 #
