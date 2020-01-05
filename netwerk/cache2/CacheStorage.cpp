@@ -766,7 +766,7 @@ aResult
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 CacheStorage
 :
 :
