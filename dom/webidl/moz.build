@@ -1392,6 +1392,11 @@ IDBVersionChangeEvent
 webidl
 '
 '
+IdleDeadline
+.
+webidl
+'
+'
 IIRFilterNode
 .
 webidl
