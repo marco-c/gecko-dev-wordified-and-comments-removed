@@ -447,6 +447,9 @@ double
 y1
 )
 ;
+[
+Throws
+]
 CanvasGradient
 createRadialGradient
 (
