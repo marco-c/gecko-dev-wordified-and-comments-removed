@@ -403,6 +403,15 @@ aState
 )
 const
 ;
+bool
+IsPhoneNumber
+(
+nsAString
+&
+aCandidate
+)
+const
+;
 void
 SelectMoreIfPhoneNumber
 (
