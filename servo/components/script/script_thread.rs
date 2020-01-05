@@ -13997,6 +13997,16 @@ id
 credentials_flag
 :
 true
+referrer_policy
+:
+load_data
+.
+referrer_policy
+referrer_url
+:
+load_data
+.
+referrer_url
 }
 LoadConsumer
 :
