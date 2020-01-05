@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIPrintOptions
-.
-h
-"
-#
-include
-"
 nsIPrintSession
 .
 h

@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIPrintOptions
+nsIPrinterEnumerator
 .
 h
 "

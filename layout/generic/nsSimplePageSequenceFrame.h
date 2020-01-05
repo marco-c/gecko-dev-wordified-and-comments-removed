@@ -34,13 +34,6 @@ nsIPrintSettings
 .
 h
 "
-#
-include
-"
-nsIPrintOptions
-.
-h
-"
 class
 nsIDateTimeFormat
 ;
@@ -104,12 +97,6 @@ nsCOMPtr
 nsIPrintSettings
 >
 mPrintSettings
-;
-nsCOMPtr
-<
-nsIPrintOptions
->
-mPrintOptions
 ;
 float
 mShrinkToFitRatio

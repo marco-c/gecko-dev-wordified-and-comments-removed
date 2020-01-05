@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIPrintOptions
-.
-h
-"
-#
-include
-"
 nsPrintSettingsX
 .
 h
