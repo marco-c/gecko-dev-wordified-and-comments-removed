@@ -2139,6 +2139,9 @@ let
 run
 =
 TextRun
+:
+:
+new
 (
 ctx
 .
@@ -2518,6 +2521,9 @@ let
 run
 =
 TextRun
+:
+:
+new
 (
 ctx
 .

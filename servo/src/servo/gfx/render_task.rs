@@ -570,7 +570,7 @@ render_layer
 .
 display_list
 .
-draw
+draw_into_context
 (
 &
 ctx
