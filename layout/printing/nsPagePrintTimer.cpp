@@ -316,6 +316,10 @@ donePrinting
 ;
 donePrinting
 =
+!
+mPrintEngine
+|
+|
 mPrintEngine
 -
 >
@@ -332,6 +336,10 @@ donePrinting
 {
 if
 (
+!
+mPrintEngine
+|
+|
 mPrintEngine
 -
 >
@@ -385,6 +393,11 @@ mDone
 =
 true
 ;
+if
+(
+mPrintEngine
+)
+{
 mPrintEngine
 -
 >
@@ -393,6 +406,7 @@ SetIsPrinting
 false
 )
 ;
+}
 }
 }
 return
@@ -508,6 +522,15 @@ mDocViewerPrint
 bool
 donePrePrint
 =
+true
+;
+if
+(
+mPrintEngine
+)
+{
+donePrePrint
+=
 mPrintEngine
 -
 >
@@ -515,6 +538,7 @@ PrePrintPage
 (
 )
 ;
+}
 if
 (
 donePrePrint

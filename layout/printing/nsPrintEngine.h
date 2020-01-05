@@ -951,6 +951,11 @@ aAsIs
 true
 )
 ;
+void
+DisconnectPagePrintTimer
+(
+)
+;
 bool
 mIsCreatingPrintPreview
 ;

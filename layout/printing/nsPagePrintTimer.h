@@ -138,6 +138,16 @@ RemotePrintFinished
 (
 )
 ;
+void
+Disconnect
+(
+)
+{
+mPrintEngine
+=
+nullptr
+;
+}
 private
 :
 ~
