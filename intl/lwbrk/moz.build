@@ -90,7 +90,7 @@ TEST_DIRS
 =
 [
 '
-tests
+gtest
 '
 ]
 XPIDL_SOURCES
