@@ -3762,6 +3762,11 @@ state_flag
 NonTSPseudoClass
 :
 :
+MozTableBorderNonzero
+|
+NonTSPseudoClass
+:
+:
 MozBrowserFrame
 =
 >
