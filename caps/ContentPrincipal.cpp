@@ -524,7 +524,7 @@ nsresult
 ContentPrincipal
 :
 :
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &

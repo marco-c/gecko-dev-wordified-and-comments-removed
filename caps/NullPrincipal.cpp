@@ -551,7 +551,7 @@ nsresult
 NullPrincipal
 :
 :
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &

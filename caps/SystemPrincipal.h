@@ -215,7 +215,7 @@ aAddonId
 override
 ;
 nsresult
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &

@@ -155,7 +155,7 @@ true
 ;
 }
 nsresult
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &
