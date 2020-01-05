@@ -4758,10 +4758,6 @@ Shadow
 aLayer
 )
 aHandle
-.
-Value
-(
-)
 )
 )
 ;
