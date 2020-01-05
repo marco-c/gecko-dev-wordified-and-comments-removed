@@ -628,10 +628,6 @@ CanvasClient
 aLayerForwarder
 aFlags
 )
-mAsyncID
-(
-0
-)
 mLayer
 (
 nullptr
@@ -696,8 +692,8 @@ aLayer
 }
 protected
 :
-uint64_t
-mAsyncID
+CompositableHandle
+mAsyncHandle
 ;
 ShadowableLayer
 *

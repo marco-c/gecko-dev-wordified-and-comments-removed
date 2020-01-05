@@ -434,8 +434,8 @@ mType
 }
 protected
 :
-uint64_t
-mAsyncContainerID
+CompositableHandle
+mAsyncContainerHandle
 ;
 }
 ;

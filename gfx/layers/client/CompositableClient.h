@@ -322,8 +322,8 @@ return
 mForwarder
 ;
 }
-uint64_t
-GetAsyncID
+CompositableHandle
+GetAsyncHandle
 (
 )
 const
@@ -383,10 +383,10 @@ InitIPDLActor
 PCompositableChild
 *
 aActor
-uint64_t
-aAsyncID
-=
-0
+const
+CompositableHandle
+&
+aHandle
 )
 ;
 TextureFlags
@@ -456,8 +456,8 @@ TextureClientRecycleAllocator
 >
 mTextureClientRecycler
 ;
-uint64_t
-mAsyncID
+CompositableHandle
+mAsyncHandle
 ;
 friend
 class

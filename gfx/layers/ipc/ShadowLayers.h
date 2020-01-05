@@ -370,8 +370,10 @@ aLayer
 void
 AttachAsyncCompositable
 (
-uint64_t
-aCompositableID
+const
+CompositableHandle
+&
+aHandle
 ShadowableLayer
 *
 aLayer
