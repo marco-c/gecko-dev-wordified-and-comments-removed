@@ -51,6 +51,13 @@ IPDLUnitTestProcessChild
 :
 Init
 (
+int
+aArgc
+char
+*
+aArgv
+[
+]
 )
 {
 IPDLUnitTestChildInit
