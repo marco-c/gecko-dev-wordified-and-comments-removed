@@ -2503,6 +2503,11 @@ InputMethods
 java
 '
 '
+NativeQueue
+.
+java
+'
+'
 NotificationListener
 .
 java
