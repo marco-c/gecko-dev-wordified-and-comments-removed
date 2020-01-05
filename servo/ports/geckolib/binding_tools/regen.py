@@ -1140,12 +1140,18 @@ servo_arc_types
 "
 :
 [
+            
 "
 ServoComputedValues
 "
 "
 RawServoStyleSheet
 "
+            
+"
+ServoDeclarationBlock
+"
+        
 ]
     
 }
