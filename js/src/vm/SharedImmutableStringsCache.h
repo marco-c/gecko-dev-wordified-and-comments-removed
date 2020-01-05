@@ -66,6 +66,15 @@ ExclusiveData
 .
 h
 "
+#
+include
+"
+vm
+/
+MutexIDs
+.
+h
+"
 namespace
 js
 {
@@ -407,6 +416,10 @@ Inner
 >
 >
 (
+mutexid
+:
+:
+SharedImmutableStringsCache
 )
 ;
 if

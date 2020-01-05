@@ -20,11 +20,14 @@ Mutex
 .
 h
 "
-namespace
-js
-{
 struct
-Mutex
+js
+:
+:
+detail
+:
+:
+MutexImpl
 :
 :
 PlatformData
@@ -34,6 +37,5 @@ criticalSection
 ;
 }
 ;
-}
 #
 endif

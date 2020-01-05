@@ -2383,6 +2383,13 @@ Wrapper
 cpp
 '
 '
+threading
+/
+Mutex
+.
+cpp
+'
+'
 vm
 /
 ArgumentsObject
@@ -4622,7 +4629,7 @@ threading
 /
 windows
 /
-Mutex
+MutexImpl
 .
 cpp
 '
@@ -4688,7 +4695,7 @@ threading
 /
 posix
 /
-Mutex
+MutexImpl
 .
 cpp
 '

@@ -537,6 +537,16 @@ Instance
 >
 UniqueInstance
 ;
+bool
+InitInstanceStaticData
+(
+)
+;
+void
+ShutDownInstanceStaticData
+(
+)
+;
 }
 }
 #

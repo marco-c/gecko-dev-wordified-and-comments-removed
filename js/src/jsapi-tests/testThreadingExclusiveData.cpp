@@ -302,6 +302,13 @@ uint64_t
 >
 counter
 (
+js
+:
+:
+mutexid
+:
+:
+TestMutex
 0
 )
 ;

@@ -7371,6 +7371,13 @@ cx_
 (
 cx
 )
+cacheLock_
+(
+mutexid
+:
+:
+SimulatorCacheLock
+)
 {
 stack_
 =

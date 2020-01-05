@@ -3720,6 +3720,13 @@ true
 )
 #
 endif
+lock
+(
+mutexid
+:
+:
+GCLock
+)
 allocTask
 (
 rt

@@ -6874,6 +6874,14 @@ Simulator
 Simulator
 (
 )
+:
+cacheLock_
+(
+mutexid
+:
+:
+SimulatorCacheLock
+)
 {
 stack_
 =

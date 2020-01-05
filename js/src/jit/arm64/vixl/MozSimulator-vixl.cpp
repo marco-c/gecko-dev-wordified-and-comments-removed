@@ -123,6 +123,16 @@ oom_
 (
 false
 )
+lock_
+(
+js
+:
+:
+mutexid
+:
+:
+Arm64SimulatorLock
+)
 {
 this
 -
