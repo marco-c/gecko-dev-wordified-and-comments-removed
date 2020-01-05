@@ -4242,6 +4242,7 @@ bool
 MayHaveAnimations
 (
 )
+const
 {
 return
 GetBoolFlag

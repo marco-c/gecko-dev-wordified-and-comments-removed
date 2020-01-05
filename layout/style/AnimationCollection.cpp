@@ -194,6 +194,7 @@ AnimationType
 :
 GetAnimationCollection
 (
+const
 dom
 :
 :

@@ -242,6 +242,7 @@ AnimationType
 *
 GetAnimationCollection
 (
+const
 dom
 :
 :
