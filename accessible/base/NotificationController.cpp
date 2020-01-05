@@ -4219,13 +4219,6 @@ ProcessInvalidationList
 (
 )
 ;
-mDocument
--
->
-ValidateARIAOwned
-(
-)
-;
 for
 (
 uint32_t

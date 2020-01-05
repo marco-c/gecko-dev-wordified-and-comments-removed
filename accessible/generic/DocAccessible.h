@@ -1023,7 +1023,7 @@ ContentRemoved
 (
 Accessible
 *
-aContent
+aAccessible
 )
 ;
 void
@@ -1288,11 +1288,6 @@ aInsertedContent
 ;
 void
 ProcessInvalidationList
-(
-)
-;
-void
-ValidateARIAOwned
 (
 )
 ;
