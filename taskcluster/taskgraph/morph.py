@@ -225,6 +225,7 @@ derive_misc_task
 task
 purpose
 image
+taskgraph
 label_to_taskid
 )
 :
@@ -526,7 +527,6 @@ maxRunTime
 dependencies
 =
 {
-        
 '
 parent
 '
@@ -534,16 +534,26 @@ parent
 task
 .
 task_id
+}
+    
+if
+image_taskid
+in
+taskgraph
+.
+tasks
+:
         
+dependencies
+[
 '
 docker
 -
 image
 '
-:
+]
+=
 image_taskid
-    
-}
     
 task
 =
@@ -584,6 +594,7 @@ def
 make_index_task
 (
 parent_task
+taskgraph
 label_to_taskid
 )
 :
@@ -673,12 +684,13 @@ index
 -
 task
 '
-                            
 '
 index
 -
 task
 '
+                            
+taskgraph
 label_to_taskid
 )
     
@@ -899,6 +911,7 @@ append
 make_index_task
 (
 task
+taskgraph
 label_to_taskid
 )
 )
