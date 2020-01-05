@@ -472,7 +472,7 @@ const
 kDownloadsStringsRequiringPluralForm
 =
 {
-otherDownloads2
+otherDownloads3
 :
 true
 }
@@ -5052,11 +5052,11 @@ DownloadsCommon
 .
 strings
 .
-otherDownloads2
+otherDownloads3
 (
 summary
 .
-numActive
+numDownloading
 )
 ;
 this
@@ -5074,13 +5074,6 @@ _showingProgress
 summary
 .
 numDownloading
->
-0
-|
-|
-summary
-.
-numPaused
 >
 0
 ;

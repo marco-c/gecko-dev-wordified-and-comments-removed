@@ -288,7 +288,7 @@ to
 look
 at
 the
-otherDownloads2
+otherDownloads3
 string
 in
 downloads
@@ -313,10 +313,9 @@ a
 reasonable
 limit
 :
-+
 999
-other
-downloads
+files
+downloading
 that
 '
 s
