@@ -6017,6 +6017,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+HttpBaseChannel
+:
+:
+SetDocshellUserAgentOverride
+(
+)
+;
 AddIPDLReference
 (
 )
