@@ -2315,6 +2315,11 @@ GeckoViewFragment
 java
 '
 '
+GeckoViewSettings
+.
+java
+'
+'
 gfx
 /
 BitmapUtils
