@@ -135,7 +135,7 @@ aarch64
 Alpha
 '
 :
-32
+64
     
 '
 arm
