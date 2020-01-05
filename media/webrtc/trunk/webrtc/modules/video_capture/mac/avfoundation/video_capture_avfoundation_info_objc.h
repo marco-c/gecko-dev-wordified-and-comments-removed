@@ -89,6 +89,10 @@ VideoCaptureMacAVFoundationInfo
 *
 _owner
 ;
+NSMutableDictionary
+*
+_capabilityMaps
+;
 }
 -
 (
