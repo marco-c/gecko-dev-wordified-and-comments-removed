@@ -148,7 +148,6 @@ NarrateControls
 (
 mm
 win
-languagePromise
 )
 {
 this
@@ -167,12 +166,6 @@ getWeakReference
 (
 win
 )
-;
-this
-.
-_languagePromise
-=
-languagePromise
 ;
 win
 .
@@ -1200,7 +1193,6 @@ new
 Narrator
 (
 win
-languagePromise
 )
 ;
 let
@@ -1509,7 +1501,9 @@ function
 return
 this
 .
-_languagePromise
+narrator
+.
+languagePromise
 .
 then
 (
@@ -1960,7 +1954,9 @@ voice
 ;
 this
 .
-_languagePromise
+narrator
+.
+languagePromise
 .
 then
 (
