@@ -2748,6 +2748,10 @@ friend
 class
 nsBlockFrame
 ;
+friend
+class
+nsBidiPresUtils
+;
 nsBlockInFlowLineIterator
 (
 nsBlockFrame
