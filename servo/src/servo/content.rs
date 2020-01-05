@@ -169,7 +169,7 @@ layout_task
 :
 :
 {
-Layout
+LayoutTask
 BuildMsg
 }
 ;
@@ -334,9 +334,9 @@ join_layout
 scope
 :
 NodeScope
-layout
+layout_task
 :
-Layout
+LayoutTask
 )
 {
 if
@@ -352,7 +352,7 @@ listen
 response_from_layout
 |
 {
-layout
+layout_task
 .
 send
 (
@@ -442,9 +442,9 @@ compositor
 C
 ;
 let
-layout
+layout_task
 :
-Layout
+LayoutTask
 ;
 let
 from_master
@@ -503,9 +503,9 @@ ResourceTask
 ;
 new
 (
-layout
+layout_task
 :
-Layout
+LayoutTask
 compositor
 :
 C
@@ -522,9 +522,9 @@ ResourceTask
 {
 self
 .
-layout
+layout_task
 =
-layout
+layout_task
 ;
 self
 .
@@ -1106,7 +1106,7 @@ ExitMsg
 {
 self
 .
-layout
+layout_task
 .
 send
 (
@@ -1172,7 +1172,7 @@ self
 scope
 self
 .
-layout
+layout_task
 )
 ;
 /
@@ -1200,7 +1200,7 @@ something
 .
 self
 .
-layout
+layout_task
 .
 send
 (
@@ -1427,9 +1427,9 @@ send
 copy
 >
 (
-layout
+layout_task
 :
-Layout
+LayoutTask
 compositor
 :
 S
@@ -1457,7 +1457,7 @@ from_master
 {
 Content
 (
-layout
+layout_task
 compositor
 from_master
 resource_task

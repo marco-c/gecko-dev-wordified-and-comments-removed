@@ -134,7 +134,7 @@ comm
 *
 ;
 type
-Layout
+LayoutTask
 =
 Chan
 <
@@ -170,7 +170,7 @@ PingMsg
 ExitMsg
 }
 fn
-Layout
+LayoutTask
 (
 render_task
 :
@@ -181,7 +181,7 @@ ImageCacheTask
 )
 -
 >
-Layout
+LayoutTask
 {
 do
 spawn_listener

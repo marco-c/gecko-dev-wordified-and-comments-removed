@@ -38,7 +38,7 @@ import
 layout_task
 :
 :
-Layout
+LayoutTask
 ;
 import
 content
@@ -153,9 +153,9 @@ image_cache_task
 ImageCacheTask
 ;
 let
-layout
+layout_task
 :
-Layout
+LayoutTask
 ;
 let
 content
@@ -209,9 +209,9 @@ resource_task
 )
 ;
 let
-layout
+layout_task
 =
-Layout
+LayoutTask
 (
 render_task
 image_cache_task
@@ -222,7 +222,7 @@ content
 =
 create_content
 (
-layout
+layout_task
 compositor
 resource_task
 )
@@ -247,9 +247,9 @@ image_cache_task
 ;
 self
 .
-layout
+layout_task
 =
-layout
+layout_task
 ;
 self
 .
@@ -398,7 +398,7 @@ ExitMsg
 ;
 self
 .
-layout
+layout_task
 .
 send
 (
