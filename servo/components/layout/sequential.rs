@@ -90,7 +90,7 @@ display_list
 :
 :
 {
-DisplayListEntry
+DisplayItem
 StackingContext
 }
 ;
@@ -474,7 +474,7 @@ SharedLayoutContext
 >
 Vec
 <
-DisplayListEntry
+DisplayItem
 >
 {
 let

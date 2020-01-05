@@ -1938,8 +1938,6 @@ self
 {
 item
 .
-item
-.
 convert_to_webrender
 (
 builder
@@ -2030,8 +2028,6 @@ advance
 self
 )
 {
-item
-.
 item
 .
 convert_to_webrender
