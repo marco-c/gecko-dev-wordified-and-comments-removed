@@ -6773,6 +6773,9 @@ bool
 mIsLegacySyntax
 ;
 bool
+mIsMozLegacySyntax
+;
+bool
 mIsExplicitSize
 ;
 nsCSSValuePair
@@ -6989,6 +6992,14 @@ mIsLegacySyntax
 aOther
 .
 mIsLegacySyntax
+|
+|
+mIsMozLegacySyntax
+!
+=
+aOther
+.
+mIsMozLegacySyntax
 |
 |
 mIsExplicitSize

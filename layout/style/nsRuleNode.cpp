@@ -5976,6 +5976,15 @@ gradient
 >
 mIsLegacySyntax
 ;
+aResult
+.
+mMozLegacySyntax
+=
+gradient
+-
+>
+mIsMozLegacySyntax
+;
 SetGradientCoord
 (
 gradient

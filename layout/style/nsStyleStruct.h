@@ -829,6 +829,9 @@ mRepeating
 bool
 mLegacySyntax
 ;
+bool
+mMozLegacySyntax
+;
 nsStyleCoord
 mBgPosX
 ;

@@ -17440,6 +17440,10 @@ mIsLegacySyntax
 (
 false
 )
+mIsMozLegacySyntax
+(
+false
+)
 mIsExplicitSize
 (
 false
