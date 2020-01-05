@@ -11446,7 +11446,7 @@ OnTaskQueue
 )
 )
 ;
-int64_t
+auto
 ampleAudioUSecs
 =
 mAmpleAudioThresholdUsecs
