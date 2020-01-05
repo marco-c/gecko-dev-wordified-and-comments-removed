@@ -96,10 +96,6 @@ log
 ;
 extern
 crate
-azure
-;
-extern
-crate
 debug
 ;
 extern
@@ -208,6 +204,10 @@ url
 "
 url_
 "
+;
+extern
+crate
+gfx
 ;
 pub
 mod

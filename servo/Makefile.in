@@ -2243,6 +2243,16 @@ src
 components
 /
 macros
+-
+L
+(
+B
+)
+src
+/
+components
+/
+gfx
 BINDINGS_SRC
 =
 (
@@ -2397,6 +2407,9 @@ DONE_msg
 )
 (
 DONE_macros
+)
+(
+DONE_gfx
 )
 RFLAGS_style
 =
