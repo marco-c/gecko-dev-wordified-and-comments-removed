@@ -1226,7 +1226,7 @@ label
 "
 )
 .
-value
+textContent
 ;
 }
 var

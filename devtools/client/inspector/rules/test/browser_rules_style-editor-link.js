@@ -1372,12 +1372,7 @@ value
 =
 labelElem
 .
-getAttribute
-(
-"
-value
-"
-)
+textContent
 ;
 let
 tooltipText
@@ -1387,7 +1382,7 @@ labelElem
 getAttribute
 (
 "
-tooltiptext
+title
 "
 )
 ;

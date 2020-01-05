@@ -1512,7 +1512,7 @@ label
 "
 )
 .
-value
+textContent
 ;
 }
 var
