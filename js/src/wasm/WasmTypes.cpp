@@ -677,6 +677,16 @@ debugFrame
 (
 )
 ;
+if
+(
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+{
 JSTrapStatus
 status
 =
@@ -709,6 +719,7 @@ onExceptionUnwind
 "
 )
 ;
+}
 }
 bool
 ok
