@@ -1282,11 +1282,6 @@ RunStateMachine
 (
 )
 ;
-void
-StepDecoding
-(
-)
-;
 bool
 IsStateMachineScheduled
 (
