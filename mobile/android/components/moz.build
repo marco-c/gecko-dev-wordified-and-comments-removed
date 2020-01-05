@@ -200,11 +200,6 @@ SessionStore
 js
 '
 '
-SiteSpecificUserAgent
-.
-js
-'
-'
 Snippets
 .
 js
