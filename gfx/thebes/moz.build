@@ -195,6 +195,11 @@ gfxFontUtils
 h
 '
 '
+gfxFontVariations
+.
+h
+'
+'
 gfxGradientCache
 .
 h
