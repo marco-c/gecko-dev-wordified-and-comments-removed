@@ -128,6 +128,11 @@ LoadUndefinedResult
 \
 _
 (
+LoadBooleanResult
+)
+\
+_
+(
 LoadInt32ArrayLengthResult
 )
 \

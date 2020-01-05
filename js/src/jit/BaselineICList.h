@@ -203,16 +203,6 @@ In_Fallback
 \
 _
 (
-In_Native
-)
-\
-_
-(
-In_NativePrototype
-)
-\
-_
-(
 In_NativeDoesNotExist
 )
 \
