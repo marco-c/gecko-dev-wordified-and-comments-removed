@@ -46852,7 +46852,7 @@ isUseless
 return
 true
 ;
-int32_t
+uint32_t
 elemSize
 ;
 if
@@ -46980,7 +46980,7 @@ IonBuilder
 :
 checkTypedObjectIndexInBounds
 (
-int32_t
+uint32_t
 elemSize
 MDefinition
 *
@@ -47125,7 +47125,13 @@ indexAsByteOffset
 add
 (
 index
+AssertedCast
+<
+int32_t
+>
+(
 elemSize
+)
 )
 ;
 }
@@ -47148,7 +47154,7 @@ TypedObjectPrediction
 objPrediction
 TypedObjectPrediction
 elemPrediction
-int32_t
+uint32_t
 elemSize
 )
 {
@@ -47271,7 +47277,7 @@ referenceType
 (
 )
 ;
-size_t
+uint32_t
 elemSize
 =
 ReferenceTypeDescr
@@ -47345,7 +47351,7 @@ Type
 elemType
 )
 {
-int32_t
+uint32_t
 size
 =
 ScalarTypeDescr
@@ -47509,7 +47515,7 @@ scaledOffset
 int32_t
 adjustment
 ;
-size_t
+uint32_t
 alignment
 =
 ReferenceTypeDescr
@@ -47793,7 +47799,7 @@ TypedObjectPrediction
 objPrediction
 TypedObjectPrediction
 elemPrediction
-int32_t
+uint32_t
 elemSize
 )
 {
@@ -52514,7 +52520,7 @@ isUseless
 return
 true
 ;
-int32_t
+uint32_t
 elemSize
 ;
 if
@@ -52661,7 +52667,7 @@ referenceType
 (
 )
 ;
-size_t
+uint32_t
 elemSize
 =
 ReferenceTypeDescr
@@ -52754,7 +52760,7 @@ MDefinition
 value
 TypedObjectPrediction
 elemPrediction
-int32_t
+uint32_t
 elemSize
 )
 {
@@ -73740,7 +73746,7 @@ const
 LinearSum
 &
 baseByteOffset
-int32_t
+uint32_t
 scale
 MDefinition
 *
@@ -74401,7 +74407,7 @@ scaledOffset
 int32_t
 adjustment
 ;
-size_t
+uint32_t
 alignment
 =
 ScalarTypeDescr
@@ -74630,7 +74636,7 @@ scaledOffset
 int32_t
 adjustment
 ;
-size_t
+uint32_t
 alignment
 =
 ReferenceTypeDescr

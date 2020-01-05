@@ -515,7 +515,7 @@ MOZ_MUST_USE
 bool
 divide
 (
-int32_t
+uint32_t
 scale
 )
 ;
