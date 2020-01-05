@@ -277,15 +277,6 @@ return
 mReferrerXOriginPolicy
 ;
 }
-bool
-PackagedAppsEnabled
-(
-)
-{
-return
-mPackagedAppsEnabled
-;
-}
 uint8_t
 RedirectionLimit
 (
@@ -1565,11 +1556,6 @@ nsCOMPtr
 nsITimer
 >
 mPipelineTestTimer
-;
-bool
-mPackagedAppsEnabled
-=
-false
 ;
 uint8_t
 mRedirectionLimit

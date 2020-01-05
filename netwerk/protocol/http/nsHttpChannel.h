@@ -2071,11 +2071,6 @@ mPinCacheContent
 1
 ;
 uint32_t
-mIsPackagedAppResource
-:
-1
-;
-uint32_t
 mIsCorsPreflightDone
 :
 1
