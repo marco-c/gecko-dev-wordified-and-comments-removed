@@ -582,7 +582,7 @@ table_rowgroup
 bubble_inline_sizes
 {
 :
-s
+x
 }
 "
 self
@@ -819,7 +819,7 @@ table_rowgroup
 assign_inline_sizes
 {
 :
-s
+x
 }
 "
 self

@@ -793,7 +793,7 @@ table_row
 bubble_inline_sizes
 {
 :
-s
+x
 }
 "
 self
@@ -1049,7 +1049,7 @@ table_row
 assign_inline_sizes
 {
 :
-s
+x
 }
 "
 self

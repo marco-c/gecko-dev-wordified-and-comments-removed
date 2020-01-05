@@ -766,7 +766,7 @@ table
 bubble_inline_sizes
 {
 :
-s
+x
 }
 "
 self
@@ -1167,7 +1167,7 @@ table
 assign_inline_sizes
 {
 :
-s
+x
 }
 "
 self
