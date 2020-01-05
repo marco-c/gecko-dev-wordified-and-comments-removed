@@ -2436,13 +2436,12 @@ JSContext
 cx
 HandleObject
 wrapper
-RegExpGuard
-*
-g
+MutableHandleRegExpShared
+shared
 )
 const
 {
-RegExpGuard
+RootedRegExpShared
 re
 (
 cx
@@ -2516,7 +2515,7 @@ re
 getFlags
 (
 )
-g
+shared
 )
 ;
 }

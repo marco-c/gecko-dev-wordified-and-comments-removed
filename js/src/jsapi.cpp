@@ -30983,7 +30983,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RegExpGuard
+RootedRegExpShared
 shared
 (
 cx
@@ -31035,7 +31035,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RegExpGuard
+RootedRegExpShared
 shared
 (
 cx

@@ -3413,9 +3413,8 @@ JSContext
 cx
 HandleObject
 proxy
-RegExpGuard
-*
-g
+MutableHandleRegExpShared
+shared
 )
 {
 if
@@ -3449,7 +3448,7 @@ regexp_toShared
 (
 cx
 proxy
-g
+shared
 )
 ;
 }
