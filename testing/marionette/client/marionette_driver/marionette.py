@@ -368,6 +368,9 @@ set
 "
 "
         
+try
+:
+            
 body
 =
 {
@@ -384,7 +387,7 @@ name
 :
 name
 }
-        
+            
 return
 self
 .
@@ -401,6 +404,20 @@ key
 "
 value
 "
+)
+        
+except
+errors
+.
+UnknownCommandException
+:
+            
+return
+self
+.
+get_attribute
+(
+name
 )
     
 def
