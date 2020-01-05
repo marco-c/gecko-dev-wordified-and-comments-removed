@@ -380,6 +380,16 @@ screenshot
 "
 ]
             
+if
+len
+(
+screenshots
+)
+=
+=
+3
+:
+                
 image_2
 =
 screenshots
@@ -391,16 +401,6 @@ screenshots
 screenshot
 "
 ]
-            
-if
-len
-(
-screenshots
-)
-=
-=
-3
-:
                 
 output_text
 +
@@ -480,9 +480,6 @@ png
 ;
 base64
 %
-(
-image1
-)
 s
 "
 %
