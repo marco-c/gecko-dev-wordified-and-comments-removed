@@ -38,7 +38,7 @@ h
 #
 define
 MOZ_USE_RENDER_THREAD
-false
+true
 typedef
 mozilla
 :
