@@ -27,6 +27,15 @@ nsVariant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 namespace
 mozilla
 {
@@ -161,7 +170,10 @@ value
 struct
 ChildEventData
 {
-double
+mozilla
+:
+:
+TimeStamp
 timestamp
 ;
 nsCString
