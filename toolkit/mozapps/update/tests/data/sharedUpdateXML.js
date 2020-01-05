@@ -323,6 +323,7 @@ aDetailsURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
+aBackgroundInterval
 aCustom1
 aCustom2
 )
@@ -339,6 +340,7 @@ aDetailsURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
+aBackgroundInterval
 aCustom1
 aCustom2
 )
@@ -515,6 +517,7 @@ aForegroundDownload
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
+aBackgroundInterval
 aPreviousAppVersion
 aCustom1
 aCustom2
@@ -645,6 +648,7 @@ aDetailsURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
+aBackgroundInterval
 aCustom1
 aCustom2
 )
@@ -847,6 +851,7 @@ aDetailsURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
+aBackgroundInterval
 aCustom1
 aCustom2
 )
@@ -1028,6 +1033,28 @@ aPromptWaitTime
 "
 ;
 let
+backgroundInterval
+=
+aBackgroundInterval
+?
+"
+backgroundInterval
+=
+\
+"
+"
++
+aBackgroundInterval
++
+"
+\
+"
+"
+:
+"
+"
+;
+let
 custom1
 =
 aCustom1
@@ -1095,6 +1122,8 @@ showPrompt
 showNeverForVersion
 +
 promptWaitTime
++
+backgroundInterval
 +
 custom1
 +
