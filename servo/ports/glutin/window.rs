@@ -241,6 +241,13 @@ ptr
 struct
 HeadlessContext
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 context
 :
 glutin
