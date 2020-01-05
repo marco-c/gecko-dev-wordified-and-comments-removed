@@ -137,9 +137,6 @@ TestFloatingPoint
 TestFunction
 '
 '
-TestInitializerList
-'
-'
 TestIntegerPrintfMacros
 '
 '

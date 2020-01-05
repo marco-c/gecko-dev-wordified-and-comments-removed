@@ -6,13 +6,9 @@ define
 mozilla_dom_AnimationPerformanceWarning_h
 #
 include
-"
-mozilla
-/
-InitializerList
-.
-h
-"
+<
+initializer_list
+>
 class
 nsXPIDLString
 ;

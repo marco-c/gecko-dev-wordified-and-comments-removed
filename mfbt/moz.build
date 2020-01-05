@@ -325,11 +325,6 @@ IndexSequence
 h
 '
 '
-InitializerList
-.
-h
-'
-'
 IntegerPrintfMacros
 .
 h
