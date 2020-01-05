@@ -267,7 +267,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -314,7 +313,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -361,7 +359,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -385,7 +382,6 @@ fn
 SetPlaceholder
 (
 &
-mut
 self
 _placeholder
 :
@@ -409,7 +405,6 @@ fn
 SetReadOnly
 (
 &
-mut
 self
 _read_only
 :
@@ -433,7 +428,6 @@ fn
 SetRequired
 (
 &
-mut
 self
 _required
 :
@@ -480,7 +474,6 @@ fn
 SetWrap
 (
 &
-mut
 self
 _wrap
 :
@@ -504,7 +497,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -525,7 +517,6 @@ fn
 SetDefaultValue
 (
 &
-mut
 self
 _default_value
 :
@@ -549,7 +540,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -593,7 +583,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -759,7 +748,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -822,7 +810,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -890,7 +877,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -927,7 +913,6 @@ fn
 SetPlaceholder
 (
 &
-mut
 self
 _placeholder
 :
@@ -959,7 +944,6 @@ fn
 SetReadOnly
 (
 &
-mut
 self
 _read_only
 :
@@ -991,7 +975,6 @@ fn
 SetRequired
 (
 &
-mut
 self
 _required
 :
@@ -1059,7 +1042,6 @@ fn
 SetWrap
 (
 &
-mut
 self
 _wrap
 :
@@ -1096,7 +1078,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -1125,7 +1106,6 @@ fn
 SetDefaultValue
 (
 &
-mut
 self
 _default_value
 :
@@ -1162,7 +1142,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -1217,7 +1196,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :

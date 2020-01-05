@@ -264,7 +264,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -305,7 +304,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :

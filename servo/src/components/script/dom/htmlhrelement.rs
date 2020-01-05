@@ -264,7 +264,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -288,7 +287,6 @@ fn
 SetColor
 (
 &
-mut
 self
 _color
 :
@@ -335,7 +333,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -359,7 +356,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -405,7 +401,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -442,7 +437,6 @@ fn
 SetColor
 (
 &
-mut
 self
 _color
 :
@@ -510,7 +504,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -547,7 +540,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :

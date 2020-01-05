@@ -264,7 +264,6 @@ fn
 SetClear
 (
 &
-mut
 self
 _text
 :
@@ -310,7 +309,6 @@ fn
 SetClear
 (
 &
-mut
 self
 _text
 :

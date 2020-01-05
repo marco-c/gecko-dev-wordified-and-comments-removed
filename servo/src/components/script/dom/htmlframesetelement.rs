@@ -264,7 +264,6 @@ fn
 SetCols
 (
 &
-mut
 self
 _cols
 :
@@ -288,7 +287,6 @@ fn
 SetRows
 (
 &
-mut
 self
 _rows
 :
@@ -334,7 +332,6 @@ fn
 SetCols
 (
 &
-mut
 self
 _cols
 :
@@ -371,7 +368,6 @@ fn
 SetRows
 (
 &
-mut
 self
 _rows
 :

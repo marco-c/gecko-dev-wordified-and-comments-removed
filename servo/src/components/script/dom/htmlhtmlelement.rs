@@ -264,7 +264,6 @@ fn
 SetVersion
 (
 &
-mut
 self
 _version
 :
@@ -310,7 +309,6 @@ fn
 SetVersion
 (
 &
-mut
 self
 _version
 :

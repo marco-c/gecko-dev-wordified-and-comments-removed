@@ -264,7 +264,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -288,7 +287,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -332,7 +330,6 @@ fn
 SetPoster
 (
 &
-mut
 self
 _poster
 :
@@ -373,7 +370,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -405,7 +401,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -466,7 +461,6 @@ fn
 SetPoster
 (
 &
-mut
 self
 _poster
 :

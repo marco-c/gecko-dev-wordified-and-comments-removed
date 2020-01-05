@@ -264,7 +264,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disable
 :
@@ -285,7 +284,6 @@ fn
 SetHref
 (
 &
-mut
 self
 _href
 :
@@ -309,7 +307,6 @@ fn
 SetCrossOrigin
 (
 &
-mut
 self
 _cross_origin
 :
@@ -333,7 +330,6 @@ fn
 SetRel
 (
 &
-mut
 self
 _rel
 :
@@ -357,7 +353,6 @@ fn
 SetMedia
 (
 &
-mut
 self
 _media
 :
@@ -381,7 +376,6 @@ fn
 SetHreflang
 (
 &
-mut
 self
 _href
 :
@@ -405,7 +399,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -429,7 +422,6 @@ fn
 SetCharset
 (
 &
-mut
 self
 _charset
 :
@@ -453,7 +445,6 @@ fn
 SetRev
 (
 &
-mut
 self
 _rev
 :
@@ -477,7 +468,6 @@ fn
 SetTarget
 (
 &
-mut
 self
 _target
 :
@@ -518,7 +508,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disable
 :
@@ -547,7 +536,6 @@ fn
 SetHref
 (
 &
-mut
 self
 _href
 :
@@ -584,7 +572,6 @@ fn
 SetCrossOrigin
 (
 &
-mut
 self
 _cross_origin
 :
@@ -621,7 +608,6 @@ fn
 SetRel
 (
 &
-mut
 self
 _rel
 :
@@ -658,7 +644,6 @@ fn
 SetMedia
 (
 &
-mut
 self
 _media
 :
@@ -695,7 +680,6 @@ fn
 SetHreflang
 (
 &
-mut
 self
 _href
 :
@@ -732,7 +716,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -769,7 +752,6 @@ fn
 SetCharset
 (
 &
-mut
 self
 _charset
 :
@@ -806,7 +788,6 @@ fn
 SetRev
 (
 &
-mut
 self
 _rev
 :
@@ -843,7 +824,6 @@ fn
 SetTarget
 (
 &
-mut
 self
 _target
 :

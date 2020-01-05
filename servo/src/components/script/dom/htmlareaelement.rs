@@ -425,7 +425,6 @@ fn
 SetNoHref
 (
 &
-mut
 self
 _no_href
 :
@@ -718,7 +717,6 @@ fn
 SetNoHref
 (
 &
-mut
 self
 _no_href
 :

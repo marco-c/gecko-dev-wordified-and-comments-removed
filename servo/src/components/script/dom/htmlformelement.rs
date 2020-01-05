@@ -280,7 +280,6 @@ fn
 SetAcceptCharset
 (
 &
-mut
 self
 _accept_charset
 :
@@ -304,7 +303,6 @@ fn
 SetAction
 (
 &
-mut
 self
 _action
 :
@@ -328,7 +326,6 @@ fn
 SetAutocomplete
 (
 &
-mut
 self
 _autocomplete
 :
@@ -352,7 +349,6 @@ fn
 SetEnctype
 (
 &
-mut
 self
 _enctype
 :
@@ -376,7 +372,6 @@ fn
 SetEncoding
 (
 &
-mut
 self
 _encoding
 :
@@ -400,7 +395,6 @@ fn
 SetMethod
 (
 &
-mut
 self
 _method
 :
@@ -424,7 +418,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -448,7 +441,6 @@ fn
 SetNoValidate
 (
 &
-mut
 self
 _no_validate
 :
@@ -472,7 +464,6 @@ fn
 SetTarget
 (
 &
-mut
 self
 _target
 :
@@ -589,7 +580,6 @@ fn
 SetAcceptCharset
 (
 &
-mut
 self
 _accept_charset
 :
@@ -626,7 +616,6 @@ fn
 SetAction
 (
 &
-mut
 self
 _action
 :
@@ -663,7 +652,6 @@ fn
 SetAutocomplete
 (
 &
-mut
 self
 _autocomplete
 :
@@ -700,7 +688,6 @@ fn
 SetEnctype
 (
 &
-mut
 self
 _enctype
 :
@@ -737,7 +724,6 @@ fn
 SetEncoding
 (
 &
-mut
 self
 _encoding
 :
@@ -774,7 +760,6 @@ fn
 SetMethod
 (
 &
-mut
 self
 _method
 :
@@ -811,7 +796,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -843,7 +827,6 @@ fn
 SetNoValidate
 (
 &
-mut
 self
 _no_validate
 :
@@ -880,7 +863,6 @@ fn
 SetTarget
 (
 &
-mut
 self
 _target
 :

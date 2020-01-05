@@ -313,7 +313,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -337,7 +336,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -377,7 +375,6 @@ fn
 SetMultiple
 (
 &
-mut
 self
 _multiple
 :
@@ -401,7 +398,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -425,7 +421,6 @@ fn
 SetRequired
 (
 &
-mut
 self
 _multiple
 :
@@ -449,7 +444,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -483,7 +477,6 @@ fn
 SetLength
 (
 &
-mut
 self
 _length
 :
@@ -559,7 +552,6 @@ fn
 IndexedSetter
 (
 &
-mut
 self
 _index
 :
@@ -609,7 +601,6 @@ fn
 SetSelectedIndex
 (
 &
-mut
 self
 _index
 :
@@ -633,7 +624,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -654,7 +644,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -688,7 +677,6 @@ fn
 SetValidationMessage
 (
 &
-mut
 self
 _message
 :
@@ -712,7 +700,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :
@@ -769,7 +756,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -801,7 +787,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -851,7 +836,6 @@ fn
 SetMultiple
 (
 &
-mut
 self
 _multiple
 :
@@ -888,7 +872,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -920,7 +903,6 @@ fn
 SetRequired
 (
 &
-mut
 self
 _multiple
 :
@@ -952,7 +934,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -1001,7 +982,6 @@ fn
 SetLength
 (
 &
-mut
 self
 _length
 :
@@ -1089,7 +1069,6 @@ fn
 IndexedSetter
 (
 &
-mut
 self
 _index
 :
@@ -1149,7 +1128,6 @@ fn
 SetSelectedIndex
 (
 &
-mut
 self
 _index
 :
@@ -1186,7 +1164,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -1210,7 +1187,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -1274,7 +1250,6 @@ fn
 SetValidationMessage
 (
 &
-mut
 self
 _message
 :
@@ -1306,7 +1281,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :

@@ -267,7 +267,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -291,7 +290,6 @@ fn
 SetMax
 (
 &
-mut
 self
 _max
 :
@@ -355,7 +353,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -387,7 +384,6 @@ fn
 SetMax
 (
 &
-mut
 self
 _max
 :

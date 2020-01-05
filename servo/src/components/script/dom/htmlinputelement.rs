@@ -267,7 +267,6 @@ fn
 SetAccept
 (
 &
-mut
 self
 _accept
 :
@@ -291,7 +290,6 @@ fn
 SetAlt
 (
 &
-mut
 self
 _alt
 :
@@ -315,7 +313,6 @@ fn
 SetAutocomplete
 (
 &
-mut
 self
 _autocomple
 :
@@ -339,7 +336,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -363,7 +359,6 @@ fn
 SetDefaultChecked
 (
 &
-mut
 self
 _default_checked
 :
@@ -387,7 +382,6 @@ fn
 SetChecked
 (
 &
-mut
 self
 _checked
 :
@@ -408,7 +402,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -432,7 +425,6 @@ fn
 SetFormAction
 (
 &
-mut
 self
 _form_action
 :
@@ -456,7 +448,6 @@ fn
 SetFormEnctype
 (
 &
-mut
 self
 _form_enctype
 :
@@ -480,7 +471,6 @@ fn
 SetFormMethod
 (
 &
-mut
 self
 _form_method
 :
@@ -504,7 +494,6 @@ fn
 SetFormNoValidate
 (
 &
-mut
 self
 _form_no_validate
 :
@@ -528,7 +517,6 @@ fn
 SetFormTarget
 (
 &
-mut
 self
 _form_target
 :
@@ -552,7 +540,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -576,7 +563,6 @@ fn
 SetIndeterminate
 (
 &
-mut
 self
 _indeterminate
 :
@@ -597,7 +583,6 @@ fn
 SetInputMode
 (
 &
-mut
 self
 _input_mode
 :
@@ -621,7 +606,6 @@ fn
 SetMax
 (
 &
-mut
 self
 _max
 :
@@ -645,7 +629,6 @@ fn
 SetMaxLength
 (
 &
-mut
 self
 _max_length
 :
@@ -669,7 +652,6 @@ fn
 SetMin
 (
 &
-mut
 self
 _min
 :
@@ -693,7 +675,6 @@ fn
 SetMultiple
 (
 &
-mut
 self
 _multiple
 :
@@ -717,7 +698,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -741,7 +721,6 @@ fn
 SetPattern
 (
 &
-mut
 self
 _pattern
 :
@@ -765,7 +744,6 @@ fn
 SetPlaceholder
 (
 &
-mut
 self
 _placeholder
 :
@@ -789,7 +767,6 @@ fn
 SetReadOnly
 (
 &
-mut
 self
 _read_only
 :
@@ -813,7 +790,6 @@ fn
 SetRequired
 (
 &
-mut
 self
 _required
 :
@@ -837,7 +813,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -861,7 +836,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -885,7 +859,6 @@ fn
 SetStep
 (
 &
-mut
 self
 _step
 :
@@ -909,7 +882,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -933,7 +905,6 @@ fn
 SetDefaultValue
 (
 &
-mut
 self
 _default_value
 :
@@ -957,7 +928,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -981,7 +951,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -1065,7 +1034,6 @@ fn
 SetSelectionStart
 (
 &
-mut
 self
 _selection_start
 :
@@ -1092,7 +1060,6 @@ fn
 SetSelectionEnd
 (
 &
-mut
 self
 _selection_end
 :
@@ -1119,7 +1086,6 @@ fn
 SetSelectionDirection
 (
 &
-mut
 self
 _selection_direction
 :
@@ -1143,7 +1109,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -1167,7 +1132,6 @@ fn
 SetUseMap
 (
 &
-mut
 self
 _align
 :
@@ -1213,7 +1177,6 @@ fn
 SetAccept
 (
 &
-mut
 self
 _accept
 :
@@ -1250,7 +1213,6 @@ fn
 SetAlt
 (
 &
-mut
 self
 _alt
 :
@@ -1287,7 +1249,6 @@ fn
 SetAutocomplete
 (
 &
-mut
 self
 _autocomple
 :
@@ -1319,7 +1280,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -1351,7 +1311,6 @@ fn
 SetDefaultChecked
 (
 &
-mut
 self
 _default_checked
 :
@@ -1383,7 +1342,6 @@ fn
 SetChecked
 (
 &
-mut
 self
 _checked
 :
@@ -1407,7 +1365,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -1444,7 +1401,6 @@ fn
 SetFormAction
 (
 &
-mut
 self
 _form_action
 :
@@ -1481,7 +1437,6 @@ fn
 SetFormEnctype
 (
 &
-mut
 self
 _form_enctype
 :
@@ -1518,7 +1473,6 @@ fn
 SetFormMethod
 (
 &
-mut
 self
 _form_method
 :
@@ -1550,7 +1504,6 @@ fn
 SetFormNoValidate
 (
 &
-mut
 self
 _form_no_validate
 :
@@ -1587,7 +1540,6 @@ fn
 SetFormTarget
 (
 &
-mut
 self
 _form_target
 :
@@ -1619,7 +1571,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -1651,7 +1602,6 @@ fn
 SetIndeterminate
 (
 &
-mut
 self
 _indeterminate
 :
@@ -1680,7 +1630,6 @@ fn
 SetInputMode
 (
 &
-mut
 self
 _input_mode
 :
@@ -1717,7 +1666,6 @@ fn
 SetMax
 (
 &
-mut
 self
 _max
 :
@@ -1749,7 +1697,6 @@ fn
 SetMaxLength
 (
 &
-mut
 self
 _max_length
 :
@@ -1786,7 +1733,6 @@ fn
 SetMin
 (
 &
-mut
 self
 _min
 :
@@ -1818,7 +1764,6 @@ fn
 SetMultiple
 (
 &
-mut
 self
 _multiple
 :
@@ -1855,7 +1800,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -1892,7 +1836,6 @@ fn
 SetPattern
 (
 &
-mut
 self
 _pattern
 :
@@ -1929,7 +1872,6 @@ fn
 SetPlaceholder
 (
 &
-mut
 self
 _placeholder
 :
@@ -1961,7 +1903,6 @@ fn
 SetReadOnly
 (
 &
-mut
 self
 _read_only
 :
@@ -1993,7 +1934,6 @@ fn
 SetRequired
 (
 &
-mut
 self
 _required
 :
@@ -2025,7 +1965,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -2062,7 +2001,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -2099,7 +2037,6 @@ fn
 SetStep
 (
 &
-mut
 self
 _step
 :
@@ -2136,7 +2073,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -2173,7 +2109,6 @@ fn
 SetDefaultValue
 (
 &
-mut
 self
 _default_value
 :
@@ -2210,7 +2145,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -2242,7 +2176,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -2349,7 +2282,6 @@ fn
 SetSelectionStart
 (
 &
-mut
 self
 _selection_start
 :
@@ -2387,7 +2319,6 @@ fn
 SetSelectionEnd
 (
 &
-mut
 self
 _selection_end
 :
@@ -2430,7 +2361,6 @@ fn
 SetSelectionDirection
 (
 &
-mut
 self
 _selection_direction
 :
@@ -2467,7 +2397,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -2504,7 +2433,6 @@ fn
 SetUseMap
 (
 &
-mut
 self
 _align
 :

@@ -294,7 +294,6 @@ fn
 DeleteCell
 (
 &
-mut
 self
 _index
 :
@@ -486,7 +485,6 @@ fn
 DeleteCell
 (
 &
-mut
 self
 _index
 :

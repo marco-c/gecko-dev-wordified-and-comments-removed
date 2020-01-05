@@ -273,7 +273,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -297,7 +296,6 @@ fn
 SetScrolling
 (
 &
-mut
 self
 _scrolling
 :
@@ -321,7 +319,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -345,7 +342,6 @@ fn
 SetFrameBorder
 (
 &
-mut
 self
 _frameborder
 :
@@ -369,7 +365,6 @@ fn
 SetLongDesc
 (
 &
-mut
 self
 _longdesc
 :
@@ -393,7 +388,6 @@ fn
 SetNoResize
 (
 &
-mut
 self
 _no_resize
 :
@@ -449,7 +443,6 @@ fn
 SetMarginHeight
 (
 &
-mut
 self
 _height
 :
@@ -473,7 +466,6 @@ fn
 SetMarginWidth
 (
 &
-mut
 self
 _height
 :
@@ -519,7 +511,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -556,7 +547,6 @@ fn
 SetScrolling
 (
 &
-mut
 self
 _scrolling
 :
@@ -593,7 +583,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -630,7 +619,6 @@ fn
 SetFrameBorder
 (
 &
-mut
 self
 _frameborder
 :
@@ -667,7 +655,6 @@ fn
 SetLongDesc
 (
 &
-mut
 self
 _longdesc
 :
@@ -699,7 +686,6 @@ fn
 SetNoResize
 (
 &
-mut
 self
 _no_resize
 :
@@ -772,7 +758,6 @@ fn
 SetMarginHeight
 (
 &
-mut
 self
 _height
 :
@@ -809,7 +794,6 @@ fn
 SetMarginWidth
 (
 &
-mut
 self
 _height
 :

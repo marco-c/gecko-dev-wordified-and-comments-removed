@@ -317,7 +317,6 @@ fn
 SetMedia
 (
 &
-mut
 self
 _media
 :
@@ -341,7 +340,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -433,7 +431,6 @@ fn
 SetMedia
 (
 &
-mut
 self
 _media
 :
@@ -470,7 +467,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :

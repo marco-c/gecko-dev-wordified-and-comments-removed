@@ -284,7 +284,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -327,7 +326,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :

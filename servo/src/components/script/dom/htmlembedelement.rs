@@ -264,7 +264,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -288,7 +287,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -312,7 +310,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -336,7 +333,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -360,7 +356,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _type
 :
@@ -384,7 +379,6 @@ fn
 SetName
 (
 &
-mut
 self
 _type
 :
@@ -446,7 +440,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -483,7 +476,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -520,7 +512,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -557,7 +548,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -594,7 +584,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _type
 :
@@ -631,7 +620,6 @@ fn
 SetName
 (
 &
-mut
 self
 _type
 :

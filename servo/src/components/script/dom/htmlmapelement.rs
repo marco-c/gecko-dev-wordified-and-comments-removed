@@ -277,7 +277,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -336,7 +335,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :

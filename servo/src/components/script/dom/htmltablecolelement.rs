@@ -264,7 +264,6 @@ fn
 SetSpan
 (
 &
-mut
 self
 _span
 :
@@ -288,7 +287,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -312,7 +310,6 @@ fn
 SetCh
 (
 &
-mut
 self
 _ch
 :
@@ -336,7 +333,6 @@ fn
 SetChOff
 (
 &
-mut
 self
 _ch_off
 :
@@ -360,7 +356,6 @@ fn
 SetVAlign
 (
 &
-mut
 self
 _v_align
 :
@@ -384,7 +379,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -425,7 +419,6 @@ fn
 SetSpan
 (
 &
-mut
 self
 _span
 :
@@ -462,7 +455,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -499,7 +491,6 @@ fn
 SetCh
 (
 &
-mut
 self
 _ch
 :
@@ -536,7 +527,6 @@ fn
 SetChOff
 (
 &
-mut
 self
 _ch_off
 :
@@ -573,7 +563,6 @@ fn
 SetVAlign
 (
 &
-mut
 self
 _v_align
 :
@@ -610,7 +599,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :

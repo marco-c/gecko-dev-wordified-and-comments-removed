@@ -264,7 +264,6 @@ fn
 SetKind
 (
 &
-mut
 self
 _kind
 :
@@ -288,7 +287,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -312,7 +310,6 @@ fn
 SetSrclang
 (
 &
-mut
 self
 _srclang
 :
@@ -336,7 +333,6 @@ fn
 SetLabel
 (
 &
-mut
 self
 _label
 :
@@ -360,7 +356,6 @@ fn
 SetDefault
 (
 &
-mut
 self
 _default
 :
@@ -416,7 +411,6 @@ fn
 SetKind
 (
 &
-mut
 self
 _kind
 :
@@ -453,7 +447,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -490,7 +483,6 @@ fn
 SetSrclang
 (
 &
-mut
 self
 _srclang
 :
@@ -527,7 +519,6 @@ fn
 SetLabel
 (
 &
-mut
 self
 _label
 :
@@ -559,7 +550,6 @@ fn
 SetDefault
 (
 &
-mut
 self
 _default
 :
