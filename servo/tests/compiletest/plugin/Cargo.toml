@@ -87,7 +87,7 @@ components
 deny_public_fields
 "
 }
-plugins
+script
 =
 {
 path
@@ -104,10 +104,10 @@ path
 /
 components
 /
-plugins
+script
 "
 }
-script
+script_plugins
 =
 {
 path
@@ -124,6 +124,6 @@ path
 /
 components
 /
-script
+script_plugins
 "
 }
