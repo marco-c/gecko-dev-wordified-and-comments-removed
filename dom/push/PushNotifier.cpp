@@ -484,12 +484,8 @@ Length
 i
 )
 {
-Unused
-<
-<
-NS_WARN_IF
+if
 (
-!
 aDispatcher
 .
 SendToChild
@@ -500,7 +496,10 @@ i
 ]
 )
 )
+{
+break
 ;
+}
 }
 return
 NS_OK
