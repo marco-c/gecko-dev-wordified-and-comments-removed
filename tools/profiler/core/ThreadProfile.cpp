@@ -619,15 +619,6 @@ frameNumber
 "
 )
 ;
-schema
-.
-WriteField
-(
-"
-power
-"
-)
-;
 }
 aWriter
 .

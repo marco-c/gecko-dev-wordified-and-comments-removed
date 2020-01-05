@@ -671,13 +671,6 @@ SOURCES
 '
 core
 /
-IntelPowerGadget
-.
-cpp
-'
-'
-core
-/
 platform
 -
 win32

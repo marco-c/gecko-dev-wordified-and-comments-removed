@@ -3739,17 +3739,6 @@ tasktracer
 "
 #
 endif
-#
-if
-defined
-(
-XP_WIN
-)
-"
-power
-"
-#
-endif
 nullptr
 }
 ;
