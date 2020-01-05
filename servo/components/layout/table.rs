@@ -3638,6 +3638,15 @@ next_block_borders
 =
 >
 {
+if
+next_block_borders
+.
+len
+(
+)
+>
+i
+{
 next_block
 .
 combine
@@ -3648,7 +3657,7 @@ next_block_borders
 i
 ]
 )
-;
+}
 }
 NextBlockCollapsedBorders
 :
