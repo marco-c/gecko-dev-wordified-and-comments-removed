@@ -368,8 +368,6 @@ default
 .
 0
 )
-/
-/
 attribute
 DOMString
 globalCompositeOperation
