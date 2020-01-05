@@ -227,6 +227,8 @@ DEST
 ;
 makeShaderVS
 LayerQuadVS
+makeShaderVS
+LayerDynamicVS
 makeShaderPS
 SolidColorShader
 makeShaderPS
@@ -239,6 +241,8 @@ makeShaderPS
 YCbCrShader
 makeShaderVS
 LayerQuadMaskVS
+makeShaderVS
+LayerDynamicMaskVS
 makeShaderPS
 SolidColorShaderMask
 makeShaderPS
@@ -258,6 +262,10 @@ makeShaderVS
 LayerQuadBlendVS
 makeShaderVS
 LayerQuadBlendMaskVS
+makeShaderVS
+LayerDynamicBlendVS
+makeShaderVS
+LayerDynamicBlendMaskVS
 makeShaderPS
 BlendShader
 rm
