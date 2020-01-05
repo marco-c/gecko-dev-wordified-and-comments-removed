@@ -85,14 +85,7 @@ builder
 .
 spawn
 (
-move
-|
-|
-{
 f
-(
-)
-}
 )
 .
 unwrap
