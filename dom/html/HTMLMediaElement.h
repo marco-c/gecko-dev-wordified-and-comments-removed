@@ -2186,6 +2186,14 @@ CallerAPI
 aAPI
 )
 ;
+nsIDocument
+*
+GetDocument
+(
+)
+const
+override
+;
 protected
 :
 virtual

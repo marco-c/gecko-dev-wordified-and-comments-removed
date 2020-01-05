@@ -323,6 +323,16 @@ aInitDataType
 =
 0
 ;
+virtual
+nsIDocument
+*
+GetDocument
+(
+)
+const
+=
+0
+;
 }
 ;
 }

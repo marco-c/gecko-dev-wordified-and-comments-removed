@@ -282,6 +282,17 @@ MainThread
 )
 ;
 }
+nsIDocument
+*
+GetDocument
+(
+)
+const
+{
+return
+nullptr
+;
+}
 }
 ;
 }
