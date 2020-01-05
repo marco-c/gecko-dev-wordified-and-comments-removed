@@ -118,7 +118,7 @@ True
 include_nightly
 '
 :
-False
+True
     
 }
     
@@ -226,7 +226,7 @@ mozilla_beta_tasks
 optimize_target_tasks
 '
 :
-True
+False
         
 '
 include_nightly
@@ -256,7 +256,7 @@ mozilla_release_tasks
 optimize_target_tasks
 '
 :
-True
+False
         
 '
 include_nightly
@@ -535,7 +535,7 @@ json
 '
 tgg
 .
-morphed_task_graph
+optimized_task_graph
 .
 to_json
 (
@@ -562,7 +562,7 @@ create_tasks
 (
 tgg
 .
-morphed_task_graph
+optimized_task_graph
 tgg
 .
 label_to_taskid

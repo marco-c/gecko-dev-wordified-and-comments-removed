@@ -302,6 +302,16 @@ pulled
 from
 head_repository
 .
+include_nightly
+Include
+nightly
+builds
+and
+tests
+in
+the
+graph
+.
 owner
 Email
 address
