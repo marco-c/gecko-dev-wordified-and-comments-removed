@@ -3198,7 +3198,7 @@ nsCaseInsensitiveCStringComparator
 )
 {
 return
-NS_OK
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 return
