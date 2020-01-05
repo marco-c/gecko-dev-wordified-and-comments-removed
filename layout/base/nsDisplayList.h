@@ -7832,6 +7832,11 @@ bool
 aAllowWillPaintBorderOptimization
 =
 true
+nsStyleContext
+*
+aStyleContext
+=
+nullptr
 )
 ;
 virtual
