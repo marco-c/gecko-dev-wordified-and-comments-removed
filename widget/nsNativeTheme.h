@@ -165,6 +165,7 @@ EventStates
 aEventStates
 )
 ;
+static
 bool
 IsFrameRTL
 (
