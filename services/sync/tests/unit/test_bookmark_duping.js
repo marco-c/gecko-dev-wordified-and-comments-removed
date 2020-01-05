@@ -1134,7 +1134,7 @@ collection
 count
 (
 )
-5
+6
 )
 ;
 equal
@@ -1257,7 +1257,7 @@ collection
 count
 (
 )
-6
+7
 )
 ;
 ok
@@ -1488,7 +1488,7 @@ collection
 count
 (
 )
-6
+7
 )
 ;
 equal
@@ -1622,7 +1622,7 @@ collection
 count
 (
 )
-7
+8
 )
 ;
 ok
@@ -1902,7 +1902,7 @@ collection
 count
 (
 )
-6
+7
 )
 ;
 equal
@@ -2054,7 +2054,7 @@ collection
 count
 (
 )
-7
+8
 )
 ;
 ok
@@ -2342,7 +2342,7 @@ collection
 count
 (
 )
-6
+7
 )
 ;
 equal
@@ -2803,7 +2803,7 @@ collection
 count
 (
 )
-6
+7
 )
 ;
 equal
@@ -3267,7 +3267,7 @@ collection
 count
 (
 )
-6
+7
 )
 ;
 equal
@@ -3398,7 +3398,7 @@ collection
 count
 (
 )
-7
+8
 )
 ;
 ok
@@ -3800,7 +3800,7 @@ collection
 count
 (
 )
-4
+5
 )
 ;
 let
@@ -3906,7 +3906,7 @@ collection
 count
 (
 )
-5
+6
 )
 ;
 ok
