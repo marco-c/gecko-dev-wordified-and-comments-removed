@@ -44,7 +44,7 @@ values
 specified
 :
 :
-AllowedNumericType
+AllowedLengthType
 ;
 define_css_keyword_enum
 !
@@ -597,7 +597,7 @@ ref
 value
 )
 if
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -631,7 +631,7 @@ ref
 value
 )
 if
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative

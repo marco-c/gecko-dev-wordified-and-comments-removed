@@ -81,7 +81,7 @@ values
 specified
 :
 :
-AllowedNumericType
+AllowedLengthType
 ;
 use
 stylesheets
@@ -2788,7 +2788,7 @@ Box
 <
 CalcLengthOrPercentage
 >
-AllowedNumericType
+AllowedLengthType
 )
 }
 impl
@@ -3328,7 +3328,7 @@ mut
 Parser
 num_context
 :
-AllowedNumericType
+AllowedLengthType
 )
 -
 >
@@ -3491,7 +3491,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -3592,7 +3592,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 All
@@ -3769,7 +3769,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -3867,7 +3867,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -5425,7 +5425,7 @@ mut
 Parser
 num_context
 :
-AllowedNumericType
+AllowedLengthType
 )
 -
 >
@@ -6862,7 +6862,7 @@ mut
 Parser
 context
 :
-AllowedNumericType
+AllowedLengthType
 )
 -
 >
@@ -6949,7 +6949,7 @@ Self
 parse_internal
 (
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -6993,7 +6993,7 @@ Self
 parse_internal
 (
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 All
@@ -7361,7 +7361,7 @@ mut
 Parser
 num_context
 :
-AllowedNumericType
+AllowedLengthType
 )
 -
 >
@@ -7591,7 +7591,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -7641,7 +7641,7 @@ parse_internal
 (
 context
 i
-AllowedNumericType
+AllowedLengthType
 :
 :
 All
@@ -7731,7 +7731,7 @@ parse_internal
 (
 context
 i
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -7862,7 +7862,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 All
@@ -8159,7 +8159,7 @@ mut
 Parser
 num_context
 :
-AllowedNumericType
+AllowedLengthType
 )
 -
 >
@@ -8415,7 +8415,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -8496,7 +8496,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 All
@@ -8730,7 +8730,7 @@ mut
 Parser
 num_context
 :
-AllowedNumericType
+AllowedLengthType
 )
 -
 >
@@ -8992,7 +8992,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
@@ -9037,7 +9037,7 @@ parse_internal
 (
 context
 input
-AllowedNumericType
+AllowedLengthType
 :
 :
 All
@@ -9149,7 +9149,7 @@ Self
 let
 num_context
 =
-AllowedNumericType
+AllowedLengthType
 :
 :
 NonNegative
