@@ -56,7 +56,10 @@ style
 parser
 :
 :
+{
 ParserContext
+ParserContextExtraData
+}
 ;
 use
 style
@@ -200,6 +203,12 @@ Origin
 :
 origin
 error_reporter
+ParserContextExtraData
+:
+:
+default
+(
+)
 )
 ;
 }
