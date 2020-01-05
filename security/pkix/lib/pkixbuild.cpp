@@ -529,11 +529,6 @@ return
 Success
 ;
 }
-bool
-loopDetected
-=
-false
-;
 for
 (
 const
@@ -545,14 +540,7 @@ potentialIssuer
 .
 childCert
 ;
-!
-loopDetected
-&
-&
 prev
-!
-=
-nullptr
 ;
 prev
 =
