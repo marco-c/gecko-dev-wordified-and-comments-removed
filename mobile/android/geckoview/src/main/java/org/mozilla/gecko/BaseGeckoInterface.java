@@ -133,10 +133,7 @@ getActivity
 )
 {
 return
-(
-Activity
-)
-mContext
+null
 ;
 }
 Override
