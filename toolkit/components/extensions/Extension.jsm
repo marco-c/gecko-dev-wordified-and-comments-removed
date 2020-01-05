@@ -4995,8 +4995,15 @@ false
 }
 shutdown
 (
+reason
 )
 {
+this
+.
+shutdownReason
+=
+reason
+;
 this
 .
 hasShutdown

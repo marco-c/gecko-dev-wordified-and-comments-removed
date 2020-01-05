@@ -117,6 +117,10 @@ extension
 .
 shutdown
 (
+BOOTSTRAP_REASON_TO_STRING_MAP
+[
+reason
+]
 )
 ;
 }

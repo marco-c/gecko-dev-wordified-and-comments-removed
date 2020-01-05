@@ -887,6 +887,9 @@ image
 "
 checked
 "
+"
+style
+"
 ]
 ;
 let

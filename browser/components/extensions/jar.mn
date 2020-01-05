@@ -241,6 +241,15 @@ browser
 /
 ext
 -
+sidebarAction
+.
+js
+content
+/
+browser
+/
+ext
+-
 tabs
 .
 js

@@ -180,6 +180,15 @@ browser
 /
 schemas
 /
+sidebar_action
+.
+json
+content
+/
+browser
+/
+schemas
+/
 tabs
 .
 json
