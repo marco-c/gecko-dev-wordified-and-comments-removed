@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -459,7 +452,7 @@ class
 EditorBase
 :
 public
-nsIEditorIMESupport
+nsIEditor
 public
 nsSupportsWeakReference
 public
@@ -603,7 +596,6 @@ aNotification
 )
 ;
 NS_DECL_NSIEDITOR
-NS_DECL_NSIEDITORIMESUPPORT
 NS_DECL_NSIPHONETIC
 public
 :

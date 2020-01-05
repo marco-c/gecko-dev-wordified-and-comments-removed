@@ -127,11 +127,6 @@ nsIEditor
 idl
 '
 '
-nsIEditorIMESupport
-.
-idl
-'
-'
 nsIEditorMailSupport
 .
 idl
