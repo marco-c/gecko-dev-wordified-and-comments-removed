@@ -377,13 +377,6 @@ h
 #
 include
 "
-prclist
-.
-h
-"
-#
-include
-"
 prcvar
 .
 h
@@ -3365,9 +3358,6 @@ nsXPCComponentsBase
 class
 XPCWrappedNativeScope
 final
-:
-public
-PRCList
 {
 public
 :
