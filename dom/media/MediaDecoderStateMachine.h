@@ -312,13 +312,6 @@ aPlaybackRate
 )
 ;
 }
-void
-DispatchSetDormant
-(
-bool
-aDormant
-)
-;
 RefPtr
 <
 ShutdownPromise
