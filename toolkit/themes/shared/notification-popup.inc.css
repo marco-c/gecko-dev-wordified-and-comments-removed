@@ -25,6 +25,12 @@ hidden
 ;
 display
 :
-block
+flex
+;
+flex
+-
+direction
+:
+column
 ;
 }
