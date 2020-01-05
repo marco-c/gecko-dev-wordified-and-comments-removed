@@ -2486,6 +2486,10 @@ false
 ;
 }
 }
+mLastSelectedSource
+=
+nullptr
+;
 nsImageLoadingContent
 :
 :
