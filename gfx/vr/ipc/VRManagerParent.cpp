@@ -2166,6 +2166,10 @@ const
 double
 &
 aDuration
+const
+uint32_t
+&
+aPromiseID
 )
 {
 VRManager
@@ -2188,6 +2192,7 @@ aControllerIdx
 aHapticIndex
 aIntensity
 aDuration
+aPromiseID
 )
 ;
 return

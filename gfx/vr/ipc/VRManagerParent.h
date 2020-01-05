@@ -518,6 +518,10 @@ const
 double
 &
 aDuration
+const
+uint32_t
+&
+aPromiseID
 )
 override
 ;

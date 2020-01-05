@@ -437,6 +437,8 @@ double
 aIntensity
 double
 aDuration
+uint32_t
+aPromiseID
 )
 ;
 async
@@ -598,6 +600,13 @@ GamepadUpdate
 (
 GamepadChangeEvent
 aGamepadEvent
+)
+;
+async
+ReplyGamepadVibrateHaptic
+(
+uint32_t
+aPromiseID
 )
 ;
 async

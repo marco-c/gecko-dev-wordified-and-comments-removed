@@ -232,7 +232,10 @@ GamepadChangeEvent
 aGamepadEvent
 )
 ;
-void
+already_AddRefed
+<
+Promise
+>
 VibrateHaptic
 (
 uint32_t
@@ -243,6 +246,12 @@ double
 aIntensity
 double
 aDuration
+nsIGlobalObject
+*
+aGlobal
+ErrorResult
+&
+aRv
 )
 ;
 protected
@@ -399,6 +408,9 @@ nsGlobalWindow
 >
 >
 mListeners
+;
+uint32_t
+mPromiseID
 ;
 }
 ;
