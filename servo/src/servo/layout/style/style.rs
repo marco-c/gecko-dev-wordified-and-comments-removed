@@ -787,7 +787,7 @@ style
 "
 ;
 }
-ret
+return
 copy
 *
 self

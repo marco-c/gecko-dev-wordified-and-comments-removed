@@ -178,7 +178,7 @@ as
 FT_ULong
 )
 ;
-ret
+return
 if
 idx
 !
@@ -354,7 +354,7 @@ we
 should
 be
 using
-ret
+return
 some
 (
 (
@@ -390,7 +390,7 @@ glyph
 res
 )
 ;
-ret
+return
 none
 ;
 }
@@ -435,7 +435,7 @@ null
 (
 )
 ;
-ret
+return
 vec_as_buf
 (
 *

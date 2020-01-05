@@ -322,7 +322,7 @@ null
 }
 )
 ;
-ret
+return
 if
 status
 =
@@ -583,7 +583,7 @@ extents
 y_advance
 )
 ;
-ret
+return
 extents
 .
 x_advance
@@ -1490,7 +1490,7 @@ FontLibrary
 (
 )
 ;
-ret
+return
 flib
 .
 get_test_font

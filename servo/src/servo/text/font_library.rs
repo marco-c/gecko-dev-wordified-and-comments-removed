@@ -47,7 +47,7 @@ test_font_bin
 )
 )
 ;
-ret
+return
 f
 ;
 }

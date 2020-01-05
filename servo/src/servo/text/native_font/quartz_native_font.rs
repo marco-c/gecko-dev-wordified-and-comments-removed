@@ -266,7 +266,7 @@ is_not_null
 (
 )
 ;
-ret
+return
 ok
 (
 QuartzNativeFont

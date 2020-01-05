@@ -434,7 +434,7 @@ holder
 )
 ;
 }
-ret
+return
 image
 ;
 }
@@ -852,7 +852,7 @@ im_arc
 )
 )
 ;
-ret
+return
 ~
 im_arc
 ;
@@ -1782,7 +1782,7 @@ root
 bounds
 )
 ;
-ret
+return
 r
 ;
 }

@@ -133,7 +133,7 @@ is_whitespace
 >
 bool
 {
-ret
+return
 self
 =
 =
@@ -173,7 +173,7 @@ is_alpha
 >
 bool
 {
-ret
+return
 (
 self
 >
@@ -327,7 +327,7 @@ lookahead
 =
 none
 ;
-ret
+return
 rv
 ;
 }
@@ -360,7 +360,7 @@ len
 >
 0
 {
-ret
+return
 CoeChar
 (
 vec
@@ -380,7 +380,7 @@ self
 .
 eof
 {
-ret
+return
 CoeEof
 ;
 }
@@ -404,7 +404,7 @@ buffer
 =
 data
 ;
-ret
+return
 CoeChar
 (
 vec
@@ -430,7 +430,7 @@ eof
 =
 true
 ;
-ret
+return
 CoeEof
 ;
 }
@@ -659,7 +659,7 @@ ident
 }
 }
 }
-ret
+return
 str
 :
 :
@@ -754,13 +754,13 @@ unget
 c
 )
 ;
-ret
+return
 ;
 }
 }
 CoeEof
 {
-ret
+return
 ;
 }
 }

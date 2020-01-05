@@ -190,7 +190,7 @@ c
 }
 CoeEof
 {
-ret
+return
 Eof
 ;
 }
@@ -235,7 +235,7 @@ token
 token
 ]
 ;
-ret
+return
 token
 ;
 }
@@ -379,7 +379,7 @@ as
 u8
 )
 ;
-ret
+return
 Doctype
 ;
 }
@@ -419,7 +419,7 @@ as
 u8
 )
 ;
-ret
+return
 EndTag
 (
 ident
@@ -468,7 +468,7 @@ parser_state
 =
 TagHtml
 ;
-ret
+return
 StartOpeningTag
 (
 ident
@@ -533,7 +533,7 @@ unget
 c
 )
 ;
-ret
+return
 Text
 (
 from_bytes
@@ -552,7 +552,7 @@ c
 }
 CoeEof
 {
-ret
+return
 Text
 (
 from_bytes
@@ -600,7 +600,7 @@ parser_state
 =
 NormalHtml
 ;
-ret
+return
 EndOpeningTag
 ;
 }
@@ -648,7 +648,7 @@ parser_state
 =
 NormalHtml
 ;
-ret
+return
 SelfCloseTag
 ;
 }
@@ -783,7 +783,7 @@ from_bytes
 attribute_name
 )
 ;
-ret
+return
 Attr
 (
 copy
@@ -862,7 +862,7 @@ c
 }
 CoeEof
 {
-ret
+return
 Attr
 (
 from_bytes
@@ -886,7 +886,7 @@ eat_whitespace
 (
 )
 ;
-ret
+return
 Attr
 (
 from_bytes
@@ -922,7 +922,7 @@ ParseState
 >
 HtmlLexer
 {
-ret
+return
 {
 input_state
 :
@@ -1067,7 +1067,7 @@ break
 }
 )
 ;
-ret
+return
 html_port
 ;
 }

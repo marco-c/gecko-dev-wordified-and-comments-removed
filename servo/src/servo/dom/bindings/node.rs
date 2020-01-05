@@ -660,7 +660,7 @@ raw_ptr
 )
 ;
 }
-ret
+return
 obj
 ;
 }
@@ -789,7 +789,7 @@ JSVAL_NULL
 )
 ;
 }
-ret
+return
 1
 ;
 }
@@ -881,7 +881,7 @@ JSVAL_NULL
 )
 ;
 }
-ret
+return
 1
 ;
 }
@@ -972,7 +972,7 @@ JSVAL_NULL
 )
 ;
 }
-ret
+return
 1
 ;
 }

@@ -1374,7 +1374,7 @@ unsafe
 v
 }
 ;
-ret
+return
 unsafe
 :
 :
@@ -2083,7 +2083,7 @@ free_list
 h
 )
 ;
-ret
+return
 h
 ;
 }

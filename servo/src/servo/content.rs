@@ -637,7 +637,7 @@ left
 control_msg
 )
 {
-ret
+return
 self
 .
 handle_control_msg
@@ -651,7 +651,7 @@ right
 event
 )
 {
-ret
+return
 self
 .
 handle_event
@@ -938,7 +938,7 @@ bytes
 )
 ;
 }
-ret
+return
 true
 ;
 }
@@ -1068,7 +1068,7 @@ path
 ;
 }
 }
-ret
+return
 true
 ;
 }
@@ -1086,7 +1086,7 @@ layout_task
 ExitMsg
 )
 ;
-ret
+return
 false
 ;
 }
@@ -1269,7 +1269,7 @@ document
 ;
 }
 }
-ret
+return
 true
 ;
 }

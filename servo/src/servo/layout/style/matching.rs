@@ -137,13 +137,13 @@ some
 _
 )
 {
-ret
+return
 true
 ;
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -168,7 +168,7 @@ some
 value
 )
 {
-ret
+return
 value
 =
 =
@@ -177,7 +177,7 @@ val
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -215,7 +215,7 @@ val
 "
 "
 {
-ret
+return
 false
 ;
 }
@@ -232,7 +232,7 @@ some
 value
 )
 {
-ret
+return
 value
 .
 split_char
@@ -249,7 +249,7 @@ val
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -312,7 +312,7 @@ contains
 "
 )
 {
-ret
+return
 false
 ;
 }
@@ -343,13 +343,13 @@ len
 (
 )
 {
-ret
+return
 true
 ;
 }
 else
 {
-ret
+return
 value
 .
 starts_with
@@ -366,7 +366,7 @@ val
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -472,7 +472,7 @@ _
 _
 )
 {
-ret
+return
 false
 ;
 }
@@ -525,7 +525,7 @@ elmt
 tag_name
 )
 {
-ret
+return
 false
 ;
 }
@@ -555,7 +555,7 @@ i
 elmt
 )
 {
-ret
+return
 false
 ;
 }
@@ -565,7 +565,7 @@ i
 1u
 ;
 }
-ret
+return
 true
 ;
 }
@@ -586,7 +586,7 @@ unsupported
 }
 }
 }
-ret
+return
 false
 ;
 /
@@ -646,7 +646,7 @@ str
 atts
 )
 {
-ret
+return
 self
 .
 matches_element
@@ -681,7 +681,7 @@ some
 parent
 )
 {
-ret
+return
 self
 .
 matches_element
@@ -700,7 +700,7 @@ sel1
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -721,7 +721,7 @@ matches_element
 sel2
 )
 {
-ret
+return
 false
 ;
 }
@@ -774,7 +774,7 @@ parent
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -790,7 +790,7 @@ matches_selector
 sel1
 )
 {
-ret
+return
 true
 ;
 }
@@ -820,7 +820,7 @@ parent
 }
 none
 {
-ret
+return
 false
 ;
 }
@@ -843,7 +843,7 @@ matches_element
 sel2
 )
 {
-ret
+return
 false
 ;
 }
@@ -899,7 +899,7 @@ matches_selector
 sel1
 )
 {
-ret
+return
 true
 ;
 }
@@ -984,7 +984,7 @@ matches_selector
 sel1
 )
 {
-ret
+return
 true
 ;
 }
@@ -1025,7 +1025,7 @@ none
 {
 }
 }
-ret
+return
 false
 ;
 }
@@ -1510,7 +1510,7 @@ push
 attr
 )
 ;
-ret
+return
 scope
 .
 new_node

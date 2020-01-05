@@ -594,7 +594,7 @@ hb_blob_destroy
 face_blob
 )
 ;
-ret
+return
 glyphs
 ;
 }
@@ -649,7 +649,7 @@ is_not_null
 (
 )
 ;
-ret
+return
 alt
 (
 *
@@ -761,7 +761,7 @@ glyph
 h_advance
 )
 ;
-ret
+return
 h_advance
 as
 hb_position_t

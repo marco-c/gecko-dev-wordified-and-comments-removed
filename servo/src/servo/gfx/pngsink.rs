@@ -559,7 +559,7 @@ send
 data
 )
 ;
-ret
+return
 CAIRO_STATUS_SUCCESS
 ;
 }

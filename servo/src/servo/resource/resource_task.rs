@@ -520,7 +520,7 @@ url
 .
 scheme
 {
-ret
+return
 some
 (
 loader_factory
@@ -528,7 +528,7 @@ loader_factory
 ;
 }
 }
-ret
+return
 none
 ;
 }

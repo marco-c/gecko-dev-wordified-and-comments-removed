@@ -215,7 +215,7 @@ s
 }
 )
 ;
-ret
+return
 0
 ;
 }
@@ -286,7 +286,7 @@ s
 XXX
 wrap
 result
-ret
+return
 1
 ;
 }
@@ -318,7 +318,7 @@ s
 }
 )
 ;
-ret
+return
 0
 ;
 }
@@ -383,7 +383,7 @@ uri
 )
 ;
 }
-ret
+return
 1
 ;
 }
@@ -447,7 +447,7 @@ node
 ptr
 )
 ;
-ret
+return
 1
 ;
 }

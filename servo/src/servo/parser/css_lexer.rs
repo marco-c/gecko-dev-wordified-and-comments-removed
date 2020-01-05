@@ -232,7 +232,7 @@ c
 }
 CoeEof
 {
-ret
+return
 Eof
 ;
 }
@@ -295,7 +295,7 @@ token
 token
 ]
 ;
-ret
+return
 token
 ;
 }
@@ -382,7 +382,7 @@ eat_whitespace
 (
 )
 ;
-ret
+return
 token
 ;
 }
@@ -464,7 +464,7 @@ unget
 c
 )
 ;
-ret
+return
 Element
 (
 ~
@@ -491,7 +491,7 @@ parser_state
 =
 CssAttribute
 ;
-ret
+return
 Element
 (
 ~
@@ -527,7 +527,7 @@ parser_state
 =
 CssAttribute
 ;
-ret
+return
 Element
 (
 element
@@ -629,7 +629,7 @@ style
 "
 }
 }
-ret
+return
 self
 .
 parse_css_relation
@@ -647,7 +647,7 @@ ch
 as
 u8
 {
-ret
+return
 Attr
 (
 style
@@ -676,7 +676,7 @@ parse_ident
 as
 u8
 {
-ret
+return
 Attr
 (
 style
@@ -759,7 +759,7 @@ ch
 as
 u8
 {
-ret
+return
 Attr
 (
 style
@@ -807,7 +807,7 @@ as
 u8
 )
 ;
-ret
+return
 Attr
 (
 style
@@ -869,7 +869,7 @@ as
 u8
 )
 ;
-ret
+return
 Attr
 (
 style
@@ -931,7 +931,7 @@ as
 u8
 )
 ;
-ret
+return
 Attr
 (
 style
@@ -1026,7 +1026,7 @@ eat_whitespace
 (
 )
 ;
-ret
+return
 EndDescription
 ;
 }
@@ -1363,7 +1363,7 @@ ch
 ;
 }
 }
-ret
+return
 Description
 (
 from_bytes
@@ -1398,7 +1398,7 @@ ParserState
 >
 CssLexer
 {
-ret
+return
 {
 input_state
 :
@@ -1588,7 +1588,7 @@ result_chan
 )
 ;
 }
-ret
+return
 result_port
 ;
 }
@@ -1685,7 +1685,7 @@ result_chan
 }
 )
 ;
-ret
+return
 result_port
 ;
 }
