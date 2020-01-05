@@ -6986,6 +6986,14 @@ readCount
 if
 (
 mClientAllocator
+&
+&
+mClientAllocator
+-
+>
+GetTileLockAllocator
+(
+)
 )
 {
 mClientAllocator
