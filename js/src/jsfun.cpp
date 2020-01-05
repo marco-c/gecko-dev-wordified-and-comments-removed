@@ -4861,12 +4861,13 @@ JSFlatString
 src
 (
 cx
-script
--
->
+JSScript
+:
+:
 sourceData
 (
 cx
+script
 )
 )
 ;
