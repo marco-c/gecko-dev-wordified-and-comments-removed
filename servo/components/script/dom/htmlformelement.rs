@@ -480,10 +480,7 @@ msg
 constellation_msg
 :
 :
-{
-LoadData
 PipelineId
-}
 ;
 use
 rand
@@ -499,6 +496,12 @@ script_thread
 MainThreadScriptMsg
 Runnable
 }
+;
+use
+script_traits
+:
+:
+LoadData
 ;
 use
 std

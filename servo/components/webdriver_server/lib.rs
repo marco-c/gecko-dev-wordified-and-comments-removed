@@ -164,7 +164,6 @@ constellation_msg
 :
 {
 FrameId
-LoadData
 PipelineId
 }
 ;
@@ -218,6 +217,7 @@ script_traits
 :
 {
 ConstellationMsg
+LoadData
 WebDriverCommandMsg
 }
 ;

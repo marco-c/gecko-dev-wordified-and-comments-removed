@@ -118,7 +118,6 @@ constellation_msg
 {
 FrameId
 FrameType
-LoadData
 PipelineId
 PipelineNamespaceId
 }
@@ -171,7 +170,6 @@ script_traits
 {
 ConstellationControlMsg
 InitialScriptState
-MozBrowserEvent
 }
 ;
 use
@@ -181,6 +179,15 @@ script_traits
 {
 LayoutControlMsg
 LayoutMsg
+LoadData
+MozBrowserEvent
+}
+;
+use
+script_traits
+:
+:
+{
 NewLayoutInfo
 SWManagerMsg
 SWManagerSenders

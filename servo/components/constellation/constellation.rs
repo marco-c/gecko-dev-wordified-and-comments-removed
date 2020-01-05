@@ -162,7 +162,6 @@ constellation_msg
 Key
 KeyModifiers
 KeyState
-LoadData
 }
 ;
 use
@@ -294,6 +293,7 @@ script_traits
 {
 DocumentState
 LayoutControlMsg
+LoadData
 }
 ;
 use
