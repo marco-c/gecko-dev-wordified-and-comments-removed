@@ -90,7 +90,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -495,7 +495,9 @@ contentWindow
 window
 )
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -505,8 +507,11 @@ type
 "
 Tab
 :
-StreamStart
+RecordingChange
 "
+recording
+:
+true
 tabID
 :
 tabs
@@ -576,7 +581,9 @@ contentWindow
 window
 )
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -586,8 +593,11 @@ type
 "
 Tab
 :
-StreamStop
+RecordingChange
 "
+recording
+:
+false
 tabID
 :
 tabs

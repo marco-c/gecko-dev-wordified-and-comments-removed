@@ -45,6 +45,7 @@ testSessionOOMSave
 (
 )
 {
+final
 Actions
 .
 EventExpecter
@@ -52,8 +53,13 @@ pageShowExpecter
 =
 mActions
 .
-expectGeckoEvent
+expectGlobalEvent
 (
+Actions
+.
+EventType
+.
+UI
 "
 Content
 :

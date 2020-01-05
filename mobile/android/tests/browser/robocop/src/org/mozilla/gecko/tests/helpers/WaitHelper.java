@@ -548,9 +548,16 @@ DOMContentLoaded
 )
 sActions
 .
-expectGeckoEvent
+expectGlobalEvent
 (
+Actions
+.
+EventType
+.
+UI
 "
+Content
+:
 DOMTitleChanged
 "
 )
