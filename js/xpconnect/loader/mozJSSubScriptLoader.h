@@ -83,7 +83,7 @@ mozJSSubScriptLoader
 (
 )
 ;
-nsresult
+bool
 ReadScript
 (
 nsIURI
