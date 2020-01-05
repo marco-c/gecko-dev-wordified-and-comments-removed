@@ -3450,6 +3450,9 @@ validateForInOrOfLHSExpression
 (
 Node
 target
+PossibleError
+*
+possibleError
 )
 ;
 Node
