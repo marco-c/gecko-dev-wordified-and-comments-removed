@@ -118,16 +118,6 @@ HasRules
 const
 ;
 void
-SetAssociatedDocument
-(
-nsIDocument
-*
-aDocument
-DocumentAssociationMode
-aAssociationMode
-)
-;
-void
 AppendStyleSheet
 (
 ServoStyleSheet

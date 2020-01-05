@@ -386,16 +386,6 @@ HasRules
 )
 const
 ;
-void
-SetAssociatedDocument
-(
-nsIDocument
-*
-aDocument
-DocumentAssociationMode
-aAssociationMode
-)
-;
 uint64_t
 FindOwningWindowInnerID
 (

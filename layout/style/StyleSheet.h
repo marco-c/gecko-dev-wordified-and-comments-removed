@@ -323,7 +323,6 @@ mDocumentAssociationMode
 OwnedByDocument
 ;
 }
-inline
 void
 SetAssociatedDocument
 (
@@ -334,7 +333,6 @@ DocumentAssociationMode
 aMode
 )
 ;
-inline
 void
 ClearAssociatedDocument
 (
