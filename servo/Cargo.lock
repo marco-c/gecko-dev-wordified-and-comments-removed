@@ -14707,9 +14707,9 @@ version
 "
 0
 .
-10
+12
 .
-3
+1
 "
 source
 =
@@ -31040,9 +31040,9 @@ index
 html5ever
 0
 .
-10
+12
 .
-3
+1
 (
 registry
 +
@@ -32028,9 +32028,9 @@ index
 xml5ever
 0
 .
-2
+3
 .
-0
+1
 (
 registry
 +
@@ -46426,9 +46426,9 @@ version
 "
 0
 .
-2
+3
 .
-0
+1
 "
 source
 =
@@ -49827,9 +49827,9 @@ checksum
 html5ever
 0
 .
-10
+12
 .
-3
+1
 (
 registry
 +
@@ -49854,7 +49854,7 @@ index
 "
 =
 "
-45815593feb142cf01121b9f413d8630c9902192d160e494a579c50628eef498
+a358fef34c3334e92cd34d83ce870a386334e605e7abe987a69a7078a4142c69
 "
 "
 checksum
@@ -55635,9 +55635,9 @@ checksum
 xml5ever
 0
 .
-2
+3
 .
-0
+1
 (
 registry
 +
@@ -55662,5 +55662,5 @@ index
 "
 =
 "
-1a3aa816561c8d68419dec4c43df33974940cd6a03e376dfc497ec3e46fb7755
+d3c01f8de37eb0e091996e9ecd23a4d6eefb821cd0e4d36c0e890343ddb1dd1e
 "
