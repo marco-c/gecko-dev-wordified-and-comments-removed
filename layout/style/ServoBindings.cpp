@@ -8117,6 +8117,13 @@ nsAString
 aResult
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 aRule
 -
 >
