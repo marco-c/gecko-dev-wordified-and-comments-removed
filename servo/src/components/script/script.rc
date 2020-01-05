@@ -320,6 +320,10 @@ HTMLImageElementBinding
 ;
 pub
 mod
+HTMLSpanElementBinding
+;
+pub
+mod
 MouseEventBinding
 ;
 pub

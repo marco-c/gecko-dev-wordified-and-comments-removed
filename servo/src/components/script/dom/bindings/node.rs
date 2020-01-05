@@ -64,6 +64,7 @@ element
 {
 HTMLDivElementTypeId
 HTMLImageElementTypeId
+HTMLSpanElementTypeId
 }
 ;
 use
@@ -77,6 +78,7 @@ element
 HTMLHeadElement
 HTMLHtmlElement
 HTMLDivElement
+HTMLSpanElement
 }
 ;
 use
@@ -669,6 +671,17 @@ generate_element
 !
 (
 HTMLImageElement
+)
+ElementNodeTypeId
+(
+HTMLSpanElementTypeId
+)
+=
+>
+generate_element
+!
+(
+HTMLSpanElement
 )
 ElementNodeTypeId
 (

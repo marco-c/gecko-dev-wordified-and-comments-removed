@@ -37664,6 +37664,7 @@ element
 :
 {
 HTMLDivElement
+HTMLSpanElement
 }
 '
                           
