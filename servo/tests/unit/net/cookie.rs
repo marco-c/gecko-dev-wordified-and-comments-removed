@@ -1,7 +1,4 @@
-extern
-crate
-cookie
-as
+use
 cookie_rs
 ;
 use
