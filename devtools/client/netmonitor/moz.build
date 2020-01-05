@@ -90,6 +90,13 @@ view
 js
 '
 '
+details
+-
+view
+.
+js
+'
+'
 events
 .
 js
@@ -147,6 +154,13 @@ js
 requests
 -
 menu
+-
+view
+.
+js
+'
+'
+sidebar
 -
 view
 .
