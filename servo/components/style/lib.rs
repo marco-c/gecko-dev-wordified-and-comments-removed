@@ -19,14 +19,6 @@ box_patterns
 [
 feature
 (
-cell_extras
-)
-]
-#
-!
-[
-feature
-(
 concat_idents
 )
 ]
