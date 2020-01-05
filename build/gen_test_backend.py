@@ -74,6 +74,28 @@ incomplete
 "
 )
         
+substs
+=
+EmptyConfig
+.
+default_substs
+        
+if
+'
+JS_STANDALONE
+'
+in
+substs
+:
+            
+del
+substs
+[
+'
+JS_STANDALONE
+'
+]
+        
 config
 =
 EmptyConfig
@@ -81,6 +103,7 @@ EmptyConfig
 build_obj
 .
 topsrcdir
+substs
 )
         
 config
