@@ -772,12 +772,14 @@ d
 recvBufferSize
 :
 %
-lu
+"
+PRIu32
+"
 sendBufferSize
 :
 %
-lu
 "
+PRIu32
 __FUNCTION__
 this
 nsCString
@@ -1102,8 +1104,8 @@ size
 to
 :
 %
-lu
 "
+PRIu32
 __FUNCTION__
 this
 nsCString
@@ -1177,8 +1179,8 @@ size
 to
 :
 %
-lu
 "
+PRIu32
 __FUNCTION__
 this
 nsCString

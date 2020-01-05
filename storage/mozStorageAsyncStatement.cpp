@@ -461,6 +461,7 @@ mSQLString
 get
 (
 )
+this
 )
 )
 ;

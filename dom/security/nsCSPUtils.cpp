@@ -3096,10 +3096,6 @@ CSP_EnumToKeyword
 (
 aKeyword
 )
-CSP_EnumToKeyword
-(
-mKeyword
-)
 NS_ConvertUTF16toUTF8
 (
 aHashOrNonce

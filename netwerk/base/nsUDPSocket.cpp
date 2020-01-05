@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -3828,8 +3837,8 @@ p
 ]
 len
 %
-u
 "
+PRIuSIZE
 __FUNCTION__
 this
 data

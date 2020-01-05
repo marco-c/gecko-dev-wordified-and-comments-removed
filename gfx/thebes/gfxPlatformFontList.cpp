@@ -3151,7 +3151,13 @@ global
 )
 aCh
 unicodeRange
+static_cast
+<
+int
+>
+(
 script
+)
 (
 fontEntry
 ?

@@ -31,6 +31,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -766,7 +775,9 @@ to
 d
 to
 %
-d
+"
+PRIuSIZE
+"
 listeners
 "
 mCurrentState

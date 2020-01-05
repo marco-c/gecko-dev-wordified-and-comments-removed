@@ -309,6 +309,10 @@ LogLevel
 :
 Debug
 (
+"
+%
+s
+"
 NS_ConvertUTF16toUTF8
 (
 trimmed

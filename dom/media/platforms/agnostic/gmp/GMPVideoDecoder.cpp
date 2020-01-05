@@ -1724,9 +1724,15 @@ mGMP
 Decode
 :
 %
-x
 "
+PRIx32
+static_cast
+<
+uint32_t
+>
+(
 rv
+)
 )
 )
 __func__

@@ -3682,7 +3682,9 @@ p
 offset
 =
 %
-llu
+"
+PRIu64
+"
 length
 =
 %
@@ -4021,7 +4023,9 @@ p
 aStatus
 =
 %
-d
+"
+PRIu32
+"
 request
 =
 %
@@ -4030,7 +4034,13 @@ p
 n
 "
 this
+static_cast
+<
+uint32_t
+>
+(
 aStatus
+)
 request
 )
 )

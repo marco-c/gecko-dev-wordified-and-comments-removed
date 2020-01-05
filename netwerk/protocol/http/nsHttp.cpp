@@ -1336,7 +1336,9 @@ ParseInt64
 value
 =
 %
-ld
+"
+PRId64
+"
 errno
 =
 %

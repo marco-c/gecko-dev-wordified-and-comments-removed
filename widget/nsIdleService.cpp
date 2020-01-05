@@ -1273,7 +1273,9 @@ resetting
 timer
 to
 %
-lld
+"
+PRId64
+"
 msec
 "
 delayTime
@@ -1295,7 +1297,9 @@ resetting
 timer
 to
 %
-lld
+"
+PRId64
+"
 msec
 "
 delayTime

@@ -282,7 +282,9 @@ shutdown
 windowId
 [
 %
-d
+"
+PRId64
+"
 ]
 \
 n
@@ -393,7 +395,9 @@ s
 windowId
 [
 %
-x
+"
+PRIx64
+"
 ]
 \
 n

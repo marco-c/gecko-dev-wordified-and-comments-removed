@@ -7241,7 +7241,7 @@ d
 caretOffset
 =
 %
-d
+ld
 )
 "
 this
@@ -9905,7 +9905,7 @@ computed
 offset
 :
 %
-d
+ld
 )
 "
 this
@@ -9992,13 +9992,13 @@ content
 length
 :
 %
-d
+ld
 computed
 end
 offset
 :
 %
-d
+ld
 )
 "
 this

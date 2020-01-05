@@ -173,6 +173,10 @@ get
 ;
 EME_LOG
 (
+"
+%
+s
+"
 msg
 .
 get

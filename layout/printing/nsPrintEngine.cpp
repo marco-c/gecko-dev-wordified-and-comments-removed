@@ -6355,8 +6355,8 @@ s
 rv
 0x
 %
-X
 "
+PRIX32
 aIsPrinting
 ?
 "
@@ -6367,7 +6367,13 @@ Printing
 Print
 Preview
 "
+static_cast
+<
+uint32_t
+>
+(
 aResult
+)
 )
 )
 ;

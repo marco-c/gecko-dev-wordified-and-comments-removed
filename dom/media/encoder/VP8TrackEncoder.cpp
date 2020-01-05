@@ -1188,10 +1188,14 @@ Verbose
 GetEncodedPartitions
 TimeStamp
 %
-lld
+"
+PRIu64
+"
 Duration
 %
-lld
+"
+PRIu64
+"
 FrameType
 %
 d
@@ -2963,8 +2967,8 @@ frame
 of
 duration
 %
-lld
 "
+PRId64
 nextEncodeOperation
 chunk
 .

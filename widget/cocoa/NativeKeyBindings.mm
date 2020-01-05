@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEvents
 .
 h
@@ -1400,8 +1409,8 @@ KeyPress
 bindingCommands
 =
 %
-u
 "
+PRIuSIZE
 this
 bindingCommands
 .

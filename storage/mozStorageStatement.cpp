@@ -1514,6 +1514,10 @@ LogLevel
 :
 Warning
 (
+"
+%
+s
+"
 msg
 )
 )

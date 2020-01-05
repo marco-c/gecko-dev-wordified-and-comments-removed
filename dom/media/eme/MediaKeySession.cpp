@@ -724,6 +724,10 @@ Append
 ;
 EME_LOG
 (
+"
+%
+s
+"
 message
 .
 get

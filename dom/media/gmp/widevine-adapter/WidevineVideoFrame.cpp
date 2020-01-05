@@ -12,6 +12,15 @@ WidevineUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 using
 namespace
 cdm
@@ -552,7 +561,9 @@ WidevineVideoFrame
 SetTimestamp
 (
 %
-lld
+"
+PRId64
+"
 )
 this
 =

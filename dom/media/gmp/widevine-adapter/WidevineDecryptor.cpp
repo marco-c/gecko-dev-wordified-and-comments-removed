@@ -1322,7 +1322,9 @@ Decrypt
 timestamp
 =
 %
-lld
+"
+PRId64
+"
 )
 rv
 =
@@ -1537,6 +1539,7 @@ WidevineBuffer
 (
 size
 =
+%
 "
 PRIuSIZE
 "
@@ -1567,8 +1570,9 @@ WidevineBuffer
 (
 size
 =
+%
 "
-PRIuSIZE
+PRIu32
 "
 )
 destroyed
@@ -1832,12 +1836,14 @@ SetTimer
 delay_ms
 =
 %
-lld
+"
+PRId64
+"
 context
 =
 0x
 %
-x
+p
 )
 "
 aDelayMs

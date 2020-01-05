@@ -3355,7 +3355,7 @@ s
 gdk
 flavor
 %
-ld
+p
 \
 n
 "
@@ -5533,7 +5533,7 @@ getting
 data
 flavor
 %
-d
+p
 \
 n
 "

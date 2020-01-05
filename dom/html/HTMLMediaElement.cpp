@@ -31483,7 +31483,13 @@ All
 "
 this
 isVisible
+static_cast
+<
+int
+>
+(
 aAPI
+)
 )
 )
 ;
@@ -31525,7 +31531,13 @@ this
 IsInUncomposedDoc
 (
 )
+static_cast
+<
+int
+>
+(
 aAPI
+)
 )
 )
 ;

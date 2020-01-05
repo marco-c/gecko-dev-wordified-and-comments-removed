@@ -13,6 +13,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -96,7 +105,9 @@ p
 relative_t
 =
 %
-lld
+"
+PRId64
+"
 ]
 "
 x
