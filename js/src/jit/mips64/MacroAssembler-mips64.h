@@ -529,6 +529,15 @@ ma_dsubu
 (
 Register
 rd
+Register
+rs
+)
+;
+void
+ma_dsubu
+(
+Register
+rd
 Imm32
 imm
 )
