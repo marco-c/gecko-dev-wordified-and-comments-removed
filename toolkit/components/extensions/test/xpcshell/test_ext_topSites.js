@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -139,6 +144,7 @@ obs
 observerMethodName
 ]
 )
+{
 obs
 [
 observerMethodName
@@ -152,6 +158,7 @@ links
 args
 )
 ;
+}
 }
 }
 }

@@ -557,6 +557,7 @@ length
 )
 {
 return
+undefined
 ;
 }
 let
@@ -582,6 +583,7 @@ rootGuid
 )
 {
 return
+undefined
 ;
 }
 let
