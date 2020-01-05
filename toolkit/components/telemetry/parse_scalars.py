@@ -334,6 +334,8 @@ of
 }
 characters
 .
+\
+n
 "
                                   
 "
@@ -425,6 +427,8 @@ Got
 }
 '
 .
+\
+n
 "
                                   
 "
@@ -513,6 +517,8 @@ Got
 }
 '
 .
+\
+n
 "
                                   
 "
@@ -818,7 +824,8 @@ missing_fields
                            
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -887,7 +894,8 @@ unknown_fields
                            
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -980,7 +988,8 @@ wrong_type_names
                             
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -1059,7 +1068,8 @@ empty
                                  
 "
 .
-See
+\
+nSee
 :
 {
 }
@@ -1140,7 +1150,8 @@ type
                                  
 "
 .
-See
+\
+nSee
 :
 {
 }
@@ -1270,7 +1281,8 @@ scalar_kind
                              
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -1334,7 +1346,8 @@ collection_policy
                              
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -1396,7 +1409,8 @@ cpp_guard
                              
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -1462,7 +1476,8 @@ proc
                                  
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -1942,10 +1957,8 @@ scalar
 "
 "
         
-release_channel_collection
+rcc
 =
-\
-            
 self
 .
 _definition
@@ -1962,32 +1975,44 @@ in
 '
 )
         
-return
-'
-nsITelemetry
-:
-:
-'
-+
-(
-'
-DATASET_RELEASE_CHANNEL_OPTOUT
-'
-                                   
-if
-release_channel_collection
+table
 =
-=
+{
+            
+'
+opt
+-
+in
+'
+:
+'
+OPTIN
+'
+            
 '
 opt
 -
 out
 '
-else
+:
 '
-DATASET_RELEASE_CHANNEL_OPTIN
+OPTOUT
 '
-)
+        
+}
+        
+return
+'
+nsITelemetry
+:
+:
+DATASET_RELEASE_CHANNEL_
+'
++
+table
+[
+rcc
+]
     
 property
     
@@ -2128,7 +2153,7 @@ message
 )
     
 except
-ParserError
+ValueError
 e
 :
         
@@ -2140,22 +2165,17 @@ Error
 parsing
 scalars
 in
-'
-+
-filename
-+
-'
+{
+}
 :
+{
+}
 '
-+
-e
-.
-message
-+
-                        
+                          
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -2163,6 +2183,10 @@ See
 .
 format
 (
+filename
+e
+.
+message
 BASE_DOC_URL
 )
 )
@@ -2201,23 +2225,27 @@ group
 raise
 ParserError
 (
-group_name
-+
 '
+Category
+"
+{
+}
+"
 must
 have
 at
 least
-a
+one
 probe
 in
 it
 '
 +
-                             
+                              
 '
 .
-See
+\
+nSee
 :
 {
 }
@@ -2225,6 +2253,7 @@ See
 .
 format
 (
+group_name
 BASE_DOC_URL
 )
 )
