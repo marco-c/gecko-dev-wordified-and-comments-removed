@@ -1482,9 +1482,9 @@ masm
 }
 ;
 const
-ModuleGeneratorData
+ModuleEnvironment
 &
-mg_
+env_
 ;
 BaseOpIter
 iter_
@@ -1675,9 +1675,9 @@ public
 BaseCompiler
 (
 const
-ModuleGeneratorData
+ModuleEnvironment
 &
-mg
+env
 Decoder
 &
 decoder
@@ -8512,7 +8512,7 @@ code
 SigIdDesc
 sigId
 =
-mg_
+env_
 .
 funcSigs
 [
@@ -10120,7 +10120,7 @@ SigWithId
 &
 sig
 =
-mg_
+env_
 .
 sigs
 [
@@ -10162,11 +10162,11 @@ TableDesc
 &
 table
 =
-mg_
+env_
 .
 tables
 [
-mg_
+env_
 .
 asmJSSigToTableIndex
 [
@@ -10240,7 +10240,7 @@ None
 ;
 MOZ_ASSERT
 (
-mg_
+env_
 .
 tables
 .
@@ -10257,7 +10257,7 @@ TableDesc
 &
 table
 =
-mg_
+env_
 .
 tables
 [
@@ -17908,7 +17908,7 @@ isCompilingAsmJS
 const
 {
 return
-mg_
+env_
 .
 kind
 =
@@ -25297,7 +25297,7 @@ Sig
 sig
 =
 *
-mg_
+env_
 .
 funcSigs
 [
@@ -25307,7 +25307,7 @@ funcIndex
 bool
 import
 =
-mg_
+env_
 .
 funcIsImport
 (
@@ -25400,7 +25400,7 @@ import
 )
 callImport
 (
-mg_
+env_
 .
 funcImportGlobalDataOffsets
 [
@@ -25537,7 +25537,7 @@ SigWithId
 &
 sig
 =
-mg_
+env_
 .
 sigs
 [
@@ -26990,7 +26990,7 @@ iter_
 .
 readGetGlobal
 (
-mg_
+env_
 .
 globals
 &
@@ -27012,7 +27012,7 @@ GlobalDesc
 &
 global
 =
-mg_
+env_
 .
 globals
 [
@@ -27312,7 +27312,7 @@ GlobalDesc
 &
 global
 =
-mg_
+env_
 .
 globals
 [
@@ -27507,7 +27507,7 @@ iter_
 .
 readSetGlobal
 (
-mg_
+env_
 .
 globals
 &
@@ -27550,7 +27550,7 @@ iter_
 .
 readTeeGlobal
 (
-mg_
+env_
 .
 globals
 &
@@ -36286,9 +36286,9 @@ BaseCompiler
 BaseCompiler
 (
 const
-ModuleGeneratorData
+ModuleEnvironment
 &
-mg
+env
 Decoder
 &
 decoder
@@ -36305,9 +36305,9 @@ FuncCompileResults
 compileResults
 )
 :
-mg_
+env_
 (
-mg
+env
 )
 iter_
 (
@@ -37574,7 +37574,7 @@ d
 task
 -
 >
-mg
+env
 (
 )
 .
@@ -37603,7 +37603,7 @@ f
 task
 -
 >
-mg
+env
 (
 )
 d
