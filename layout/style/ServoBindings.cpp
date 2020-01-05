@@ -2108,6 +2108,15 @@ servoValues
 }
 if
 (
+!
+aComputedValues
+)
+{
+return
+;
+}
+if
+(
 tasks
 &
 UpdateAnimationsTasks
