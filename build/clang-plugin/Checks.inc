@@ -60,6 +60,15 @@ override
 )
 CHECK
 (
+MustUseChecker
+"
+must
+-
+use
+"
+)
+CHECK
+(
 NaNExprChecker
 "
 nan

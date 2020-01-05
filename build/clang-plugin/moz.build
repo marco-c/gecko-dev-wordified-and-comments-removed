@@ -148,6 +148,11 @@ MustOverrideChecker
 cpp
 '
 '
+MustUseChecker
+.
+cpp
+'
+'
 NaNExprChecker
 .
 cpp
