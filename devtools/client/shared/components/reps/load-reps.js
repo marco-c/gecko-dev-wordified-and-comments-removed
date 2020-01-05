@@ -23,6 +23,9 @@ let
 parseURLParams
 ;
 let
+getSelectableInInspectorGrips
+;
+let
 useRepsBundle
 =
 true
@@ -82,6 +85,12 @@ bundle
 .
 parseURLParams
 ;
+getSelectableInInspectorGrips
+=
+bundle
+.
+getSelectableInInspectorGrips
+;
 }
 else
 {
@@ -115,6 +124,12 @@ exports
 parseURLParams
 =
 parseURLParams
+;
+exports
+.
+getSelectableInInspectorGrips
+=
+getSelectableInInspectorGrips
 ;
 }
 )
