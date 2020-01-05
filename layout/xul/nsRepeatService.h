@@ -114,6 +114,13 @@ nsRepeatService
 ;
 private
 :
+void
+InitTimerCallback
+(
+uint32_t
+aInitialDelay
+)
+;
 Callback
 mCallback
 ;
