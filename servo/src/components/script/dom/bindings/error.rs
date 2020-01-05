@@ -434,6 +434,7 @@ format
 ERROR_FORMAT_STRING_STRING
 as
 *
+const
 libc
 :
 :
@@ -463,6 +464,7 @@ c_void
 _locale
 :
 *
+const
 libc
 :
 :
@@ -477,6 +479,7 @@ c_uint
 -
 >
 *
+const
 JSErrorFormatString
 {
 assert_eq
@@ -490,6 +493,7 @@ error_number
 ERROR_FORMAT_STRING
 as
 *
+const
 JSErrorFormatString
 }
 pub
@@ -516,13 +520,6 @@ to_c_str
 (
 )
 ;
-error
-.
-with_ref
-(
-|
-error
-|
 unsafe
 {
 JS_ReportErrorNumber
@@ -540,9 +537,11 @@ mut_null
 )
 0
 error
+.
+as_ptr
+(
+)
 )
 ;
 }
-)
-;
 }

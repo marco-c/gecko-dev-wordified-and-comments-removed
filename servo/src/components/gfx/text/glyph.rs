@@ -199,6 +199,8 @@ u32
 <
 <
 GLYPH_ADVANCE_SHIFT
+as
+uint
 ;
 GlyphEntry
 :
@@ -308,6 +310,8 @@ u32
 <
 <
 GLYPH_COUNT_SHIFT
+as
+uint
 ;
 GlyphEntry
 :
@@ -355,6 +359,8 @@ u32
 <
 <
 GLYPH_COUNT_SHIFT
+as
+uint
 )
 }
 }
@@ -623,6 +629,8 @@ GLYPH_ADVANCE_MASK
 >
 >
 GLYPH_ADVANCE_SHIFT
+as
+uint
 )
 )
 =
@@ -669,6 +677,8 @@ GLYPH_ADVANCE_MASK
 >
 >
 GLYPH_ADVANCE_SHIFT
+as
+uint
 )
 .
 unwrap
@@ -818,6 +828,8 @@ FLAG_CAN_BREAK_MASK
 >
 >
 FLAG_CAN_BREAK_SHIFT
+as
+uint
 )
 as
 u8
@@ -970,6 +982,8 @@ u32
 <
 <
 FLAG_CAN_BREAK_SHIFT
+as
+uint
 ;
 GlyphEntry
 :
@@ -1015,6 +1029,8 @@ GLYPH_COUNT_MASK
 >
 >
 GLYPH_COUNT_SHIFT
+as
+uint
 )
 as
 u16
@@ -1193,7 +1209,7 @@ for
 DetailedGlyphRecord
 {
 fn
-lt
+partial_cmp
 (
 &
 self
@@ -1204,15 +1220,22 @@ DetailedGlyphRecord
 )
 -
 >
-bool
+Option
+<
+Ordering
+>
 {
 self
 .
 entry_offset
-<
+.
+partial_cmp
+(
+&
 other
 .
 entry_offset
+)
 }
 }
 impl

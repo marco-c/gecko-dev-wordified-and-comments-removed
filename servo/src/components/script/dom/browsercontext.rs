@@ -556,6 +556,7 @@ getOwnPropertyNames
 0
 as
 *
+const
 u8
 delete_
 :
@@ -565,6 +566,7 @@ enumerate
 0
 as
 *
+const
 u8
 has
 :
@@ -583,6 +585,7 @@ keys
 0
 as
 *
+const
 u8
 iterate
 :
@@ -598,6 +601,7 @@ nativeCall
 0
 as
 *
+const
 u8
 hasInstance
 :
@@ -642,6 +646,7 @@ new_window_proxy_handler
 -
 >
 *
+const
 c_void
 {
 unsafe

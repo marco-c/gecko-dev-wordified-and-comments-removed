@@ -1,15 +1,9 @@
 #
 !
 [
-crate_id
+crate_name
 =
 "
-github
-.
-com
-/
-mozilla
-/
 servo
 "
 ]
@@ -441,7 +435,9 @@ int
 argv
 :
 *
+const
 *
+const
 u8
 )
 -
@@ -524,7 +520,9 @@ int
 argv
 :
 *
+const
 *
+const
 u8
 )
 -
@@ -592,6 +590,7 @@ int
 )
 as
 *
+const
 i8
 )
 )

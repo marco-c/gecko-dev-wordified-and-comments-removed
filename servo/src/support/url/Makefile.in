@@ -64,6 +64,12 @@ out
 -
 dir
 .
+-
+-
+crate
+-
+type
+rlib
 touch
 url
 -

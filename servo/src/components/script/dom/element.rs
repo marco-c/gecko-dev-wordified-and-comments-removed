@@ -929,6 +929,7 @@ let
 attrs
 :
 *
+const
 Vec
 <
 JS
@@ -1076,6 +1077,7 @@ let
 attrs
 :
 *
+const
 Vec
 <
 JS
@@ -3112,7 +3114,7 @@ UIntAttrValue
 (
 value
 .
-to_str
+to_string
 (
 )
 value
@@ -6099,7 +6101,6 @@ Option
 '
 a
 VirtualMethods
-+
 >
 {
 let
@@ -6125,7 +6126,6 @@ node
 as
 &
 VirtualMethods
-+
 )
 }
 fn

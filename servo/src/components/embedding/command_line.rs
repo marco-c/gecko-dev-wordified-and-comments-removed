@@ -161,7 +161,9 @@ c_int
 argv
 :
 *
+const
 *
+const
 u8
 )
 {
@@ -215,6 +217,7 @@ int
 )
 as
 *
+const
 i8
 )
 )
@@ -285,6 +288,7 @@ cef_command_line_t
 name
 :
 *
+const
 cef_string_t
 )
 -
@@ -366,6 +370,7 @@ let
 cs
 :
 *
+const
 cef_string_utf16_t
 =
 mem
@@ -379,7 +384,7 @@ name
 let
 opt
 =
-str
+String
 :
 :
 from_utf16

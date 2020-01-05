@@ -2262,6 +2262,7 @@ nativeType
 =
 "
 *
+const
 %
 s
 "
@@ -8037,6 +8038,7 @@ jitinfo
 0
 as
 *
+const
 JSJitInfo
 "
                 
@@ -8179,9 +8181,11 @@ name
 s_name
 as
 *
+const
 u8
 as
 *
+const
 libc
 :
 :
@@ -8217,6 +8221,7 @@ selfHostedName
 0
 as
 *
+const
 libc
 :
 :
@@ -8232,6 +8237,7 @@ name
 0
 as
 *
+const
 libc
 :
 :
@@ -8248,6 +8254,7 @@ info
 0
 as
 *
+const
 JSJitInfo
 }
 nargs
@@ -8261,6 +8268,7 @@ selfHostedName
 0
 as
 *
+const
 libc
 :
 :
@@ -8481,6 +8489,7 @@ info
 s
 as
 *
+const
 JSJitInfo
 }
 "
@@ -8526,6 +8535,7 @@ info
 0
 as
 *
+const
 JSJitInfo
 }
 "
@@ -8618,6 +8628,7 @@ info
 s
 as
 *
+const
 JSJitInfo
 }
 "
@@ -8758,9 +8769,11 @@ name
 s_name
 as
 *
+const
 u8
 as
 *
+const
 libc
 :
 :
@@ -8799,6 +8812,7 @@ name
 0
 as
 *
+const
 libc
 :
 :
@@ -8821,6 +8835,7 @@ info
 0
 as
 *
+const
 JSJitInfo
 }
 setter
@@ -8835,6 +8850,7 @@ info
 0
 as
 *
+const
 JSJitInfo
 }
 }
@@ -10019,9 +10035,11 @@ name
 Class_name
 as
 *
+const
 u8
 as
 *
+const
 libc
 :
 :
@@ -10046,6 +10064,8 @@ JSCLASS_RESERVED_SLOTS_MASK
 <
 <
 JSCLASS_RESERVED_SLOTS_SHIFT
+as
+uint
 )
 /
 /
@@ -10146,6 +10166,7 @@ equality
 0
 as
 *
+const
 u8
       
 outerObject
@@ -10162,6 +10183,7 @@ iteratorObject
 0
 as
 *
+const
 u8
       
 unused
@@ -10169,6 +10191,7 @@ unused
 0
 as
 *
+const
 u8
       
 isWrappedNative
@@ -10176,6 +10199,7 @@ isWrappedNative
 0
 as
 *
+const
 u8
     
 }
@@ -10193,6 +10217,7 @@ lookupGeneric
 0
 as
 *
+const
 u8
       
 lookupProperty
@@ -10200,6 +10225,7 @@ lookupProperty
 0
 as
 *
+const
 u8
       
 lookupElement
@@ -10207,6 +10233,7 @@ lookupElement
 0
 as
 *
+const
 u8
       
 lookupSpecial
@@ -10214,6 +10241,7 @@ lookupSpecial
 0
 as
 *
+const
 u8
       
 defineGeneric
@@ -10221,6 +10249,7 @@ defineGeneric
 0
 as
 *
+const
 u8
       
 defineProperty
@@ -10228,6 +10257,7 @@ defineProperty
 0
 as
 *
+const
 u8
       
 defineElement
@@ -10235,6 +10265,7 @@ defineElement
 0
 as
 *
+const
 u8
       
 defineSpecial
@@ -10242,6 +10273,7 @@ defineSpecial
 0
 as
 *
+const
 u8
       
 getGeneric
@@ -10249,6 +10281,7 @@ getGeneric
 0
 as
 *
+const
 u8
       
 getProperty
@@ -10256,6 +10289,7 @@ getProperty
 0
 as
 *
+const
 u8
       
 getElement
@@ -10263,6 +10297,7 @@ getElement
 0
 as
 *
+const
 u8
       
 getElementIfPresent
@@ -10270,6 +10305,7 @@ getElementIfPresent
 0
 as
 *
+const
 u8
       
 getSpecial
@@ -10277,6 +10313,7 @@ getSpecial
 0
 as
 *
+const
 u8
       
 setGeneric
@@ -10284,6 +10321,7 @@ setGeneric
 0
 as
 *
+const
 u8
       
 setProperty
@@ -10291,6 +10329,7 @@ setProperty
 0
 as
 *
+const
 u8
       
 setElement
@@ -10298,6 +10337,7 @@ setElement
 0
 as
 *
+const
 u8
       
 setSpecial
@@ -10305,6 +10345,7 @@ setSpecial
 0
 as
 *
+const
 u8
       
 getGenericAttributes
@@ -10312,6 +10353,7 @@ getGenericAttributes
 0
 as
 *
+const
 u8
       
 getPropertyAttributes
@@ -10319,6 +10361,7 @@ getPropertyAttributes
 0
 as
 *
+const
 u8
       
 getElementAttributes
@@ -10326,6 +10369,7 @@ getElementAttributes
 0
 as
 *
+const
 u8
       
 getSpecialAttributes
@@ -10333,6 +10377,7 @@ getSpecialAttributes
 0
 as
 *
+const
 u8
       
 setGenericAttributes
@@ -10340,6 +10385,7 @@ setGenericAttributes
 0
 as
 *
+const
 u8
       
 setPropertyAttributes
@@ -10347,6 +10393,7 @@ setPropertyAttributes
 0
 as
 *
+const
 u8
       
 setElementAttributes
@@ -10354,6 +10401,7 @@ setElementAttributes
 0
 as
 *
+const
 u8
       
 setSpecialAttributes
@@ -10361,6 +10409,7 @@ setSpecialAttributes
 0
 as
 *
+const
 u8
       
 deleteProperty
@@ -10368,6 +10417,7 @@ deleteProperty
 0
 as
 *
+const
 u8
       
 deleteElement
@@ -10375,6 +10425,7 @@ deleteElement
 0
 as
 *
+const
 u8
       
 deleteSpecial
@@ -10382,6 +10433,7 @@ deleteSpecial
 0
 as
 *
+const
 u8
       
 enumerate
@@ -10389,6 +10441,7 @@ enumerate
 0
 as
 *
+const
 u8
       
 typeOf
@@ -10396,6 +10449,7 @@ typeOf
 0
 as
 *
+const
 u8
       
 thisObject
@@ -10408,6 +10462,7 @@ clear
 0
 as
 *
+const
 u8
     
 }
@@ -10609,9 +10664,11 @@ name
 PrototypeClassName__
 as
 *
+const
 u8
 as
 *
+const
 libc
 :
 :
@@ -10627,6 +10684,8 @@ JSCLASS_RESERVED_SLOTS_MASK
 <
 <
 JSCLASS_RESERVED_SLOTS_SHIFT
+as
+uint
 /
 /
 JSCLASS_HAS_RESERVED_SLOTS
@@ -10814,6 +10873,7 @@ ctorname
 0
 as
 *
+const
 u8
 "
 if
@@ -10866,11 +10926,13 @@ JS_ConvertStub
 0
 as
 *
+const
 u8
   
 0
 as
 *
+const
 u8
   
 %
@@ -10885,6 +10947,7 @@ s
 0
 as
 *
+const
 u8
   
 JSCLASS_NO_INTERNAL_MEMBERS
@@ -12573,6 +12636,7 @@ aObject
 )
 as
 *
+const
 libc
 :
 :
@@ -12664,12 +12728,14 @@ Class
 base
 as
 *
+const
 js
 :
 :
 Class
 as
 *
+const
 JSClass
 )
 ;
@@ -12709,14 +12775,20 @@ Class
 base
 as
 *
+const
 js
 :
 :
 Class
 as
 *
+const
 JSClass
+&
+*
 proto
+&
+*
 %
 s
 )
@@ -12766,6 +12838,7 @@ aObject
 )
 as
 *
+const
 libc
 :
 :
@@ -14788,6 +14861,7 @@ DefineProxyHandler
 '
 '
 *
+const
 libc
 :
 :
@@ -15007,9 +15081,11 @@ traps
 Class
 as
 *
+const
 _
 as
 *
+const
 _
 )
 "
@@ -17652,6 +17728,7 @@ let
 _info
 :
 *
+const
 JSJitInfo
 =
 RUST_FUNCTION_VALUE_TO_JITINFO
@@ -17681,6 +17758,7 @@ unsafe_get
 )
 as
 *
+mut
 libc
 :
 :
@@ -17781,6 +17859,7 @@ Argument
 (
 '
 *
+const
 %
 s
 '
@@ -18201,6 +18280,7 @@ let
 info
 :
 *
+const
 JSJitInfo
 =
 RUST_FUNCTION_VALUE_TO_JITINFO
@@ -18230,6 +18310,7 @@ unsafe_get
 )
 as
 *
+mut
 libc
 :
 :
@@ -18334,6 +18415,7 @@ Argument
 (
 '
 *
+const
 %
 s
 '
@@ -18824,6 +18906,7 @@ let
 info
 :
 *
+const
 JSJitInfo
 =
 RUST_FUNCTION_VALUE_TO_JITINFO
@@ -18853,6 +18936,7 @@ unsafe_get
 )
 as
 *
+mut
 libc
 :
 :
@@ -18992,6 +19076,7 @@ Argument
 (
 '
 *
+const
 %
 s
 '
@@ -19463,6 +19548,7 @@ op
 s
 as
 *
+const
 u8
 \
 n
@@ -26453,6 +26539,7 @@ UnwrapProxy
 "
 '
 *
+const
 '
 +
 descriptor
@@ -26530,6 +26617,7 @@ to_private
 )
 as
 *
+const
 %
 s
 ;
@@ -27610,6 +27698,7 @@ Argument
 (
 '
 *
+const
 JSPropertyDescriptor
 '
 '
@@ -29714,6 +29803,9 @@ return
 "
 "
 "
+let
+s
+=
 "
 %
 s
@@ -29722,20 +29814,16 @@ s
 to_c_str
 (
 )
-.
-with_ref
-(
-|
-s
-|
-{
+;
   
 _obj_toString
 (
 cx
 s
+.
+as_ptr
+(
 )
-}
 )
 "
 "
@@ -29849,6 +29937,7 @@ let
 this
 :
 *
+const
 %
 s
 =
@@ -33916,6 +34005,7 @@ proxy_handlers
 :
 [
 *
+const
 libc
 :
 :
@@ -33930,6 +34020,7 @@ d
 0
 as
 *
+const
 libc
 :
 :

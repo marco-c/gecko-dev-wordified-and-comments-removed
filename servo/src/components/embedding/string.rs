@@ -353,6 +353,7 @@ transmute
 0
 as
 *
+const
 u8
 )
 ;
@@ -410,6 +411,7 @@ cef_string_utf8_set
 src
 :
 *
+const
 u8
 src_len
 :
@@ -566,6 +568,7 @@ transmute
 0
 as
 *
+const
 u8
 )
 ;
@@ -672,6 +675,7 @@ transmute
 0
 as
 *
+const
 u8
 )
 ;
@@ -729,6 +733,7 @@ cef_string_utf16_set
 src
 :
 *
+const
 c_ushort
 src_len
 :
@@ -885,6 +890,7 @@ transmute
 0
 as
 *
+const
 u8
 )
 ;
@@ -991,6 +997,7 @@ transmute
 0
 as
 *
+const
 u8
 )
 ;
@@ -1048,6 +1055,7 @@ cef_string_wide_set
 src
 :
 *
+const
 wchar_t
 src_len
 :
@@ -1204,6 +1212,7 @@ transmute
 0
 as
 *
+const
 u8
 )
 ;

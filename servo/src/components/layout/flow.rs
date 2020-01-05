@@ -263,7 +263,7 @@ fmt
 :
 Show
 +
-ToStr
+ToString
 +
 Share
 {
@@ -1955,6 +1955,8 @@ TEXT_ALIGN_BITMASK
 >
 >
 TEXT_ALIGN_SHIFT
+as
+uint
 )
 .
 unwrap
@@ -2010,6 +2012,8 @@ u8
 <
 <
 TEXT_ALIGN_SHIFT
+as
+uint
 )
 )
 }
@@ -3597,7 +3601,7 @@ debug
 indent
 self
 .
-to_str
+to_string
 (
 )
 )

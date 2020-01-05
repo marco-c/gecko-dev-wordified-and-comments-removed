@@ -5041,6 +5041,7 @@ stride
 }
 }
 let
+mut
 img
 =
 png
@@ -5078,6 +5079,7 @@ png
 store_png
 (
 &
+mut
 img
 &
 path

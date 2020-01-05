@@ -761,6 +761,9 @@ font_context
 mut
 FontContext
 =
+&
+mut
+*
 *
 font_context
 ;

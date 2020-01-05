@@ -4444,6 +4444,9 @@ hubbub
 :
 :
 Parser
+:
+:
+new
 (
 "
 UTF

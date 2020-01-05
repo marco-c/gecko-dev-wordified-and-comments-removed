@@ -452,7 +452,6 @@ Option
 '
 a
 VirtualMethods
-+
 >
 {
 let
@@ -478,7 +477,6 @@ element
 as
 &
 VirtualMethods
-+
 )
 }
 fn

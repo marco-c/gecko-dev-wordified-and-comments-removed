@@ -120,6 +120,11 @@ name
 "
 task_info
 "
+kind
+=
+"
+static
+"
 )
 ]
 extern

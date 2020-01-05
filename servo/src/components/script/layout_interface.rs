@@ -206,6 +206,7 @@ TrustedNodeAddress
 (
 pub
 *
+const
 c_void
 )
 ;
@@ -262,6 +263,7 @@ node
 addr
 as
 *
+const
 Node
 ;
 unsafe
@@ -286,6 +288,7 @@ type
 UntrustedNodeAddress
 =
 *
+const
 c_void
 ;
 pub

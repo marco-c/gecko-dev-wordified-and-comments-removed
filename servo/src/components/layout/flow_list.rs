@@ -56,6 +56,7 @@ Rawlink
 vtable
 :
 *
+const
 (
 )
 obj

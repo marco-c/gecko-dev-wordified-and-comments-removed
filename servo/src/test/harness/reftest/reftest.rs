@@ -511,6 +511,8 @@ clone
 ;
 let
 contents
+:
+String
 =
 match
 File
@@ -539,7 +541,7 @@ f
 {
 f
 .
-read_to_str
+read_to_string
 (
 )
 }
@@ -841,7 +843,7 @@ display
 (
 )
 .
-to_str
+to_string
 (
 )
 ;
@@ -1572,6 +1574,7 @@ unwrap
 )
 ;
 let
+mut
 img
 =
 png
@@ -1609,6 +1612,7 @@ png
 store_png
 (
 &
+mut
 img
 &
 output

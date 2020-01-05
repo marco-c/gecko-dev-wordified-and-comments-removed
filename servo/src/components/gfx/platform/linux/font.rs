@@ -283,6 +283,7 @@ _blk
 :
 |
 *
+const
 u8
 uint
 |
@@ -586,6 +587,7 @@ FT_Library
 cbuf
 :
 *
+const
 u8
 cbuflen
 :
@@ -617,7 +619,7 @@ FT_Face
 ptr
 :
 :
-null
+mut_null
 (
 )
 ;
@@ -762,6 +764,8 @@ raw
 :
 from_c_str
 (
+&
+*
 (
 *
 self
@@ -793,6 +797,8 @@ raw
 :
 from_c_str
 (
+&
+*
 FT_Get_Postscript_Name
 (
 self
@@ -886,6 +892,7 @@ ft_sfnt_os2
 )
 as
 *
+mut
 TT_OS2
 ;
 let
@@ -1153,6 +1160,7 @@ is_not_null
 )
 ;
 let
+mut
 delta
 =
 struct_FT_Vector_
@@ -1176,6 +1184,7 @@ first_glyph
 second_glyph
 FT_KERNING_DEFAULT
 &
+mut
 delta
 )
 ;
@@ -1663,6 +1672,7 @@ ft_sfnt_os2
 )
 as
 *
+mut
 TT_OS2
 ;
 let
@@ -1949,11 +1959,13 @@ self
 &
 '
 a
+mut
 FT_FaceRec
 {
 unsafe
 {
 &
+mut
 (
 *
 self
