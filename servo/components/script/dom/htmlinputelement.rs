@@ -205,8 +205,8 @@ js
 :
 {
 Comparable
-JS
 JSRef
+LayoutJS
 Root
 Temporary
 OptionalRootable
@@ -971,7 +971,7 @@ u32
 impl
 LayoutHTMLInputElementHelpers
 for
-JS
+LayoutJS
 <
 HTMLInputElement
 >
@@ -999,7 +999,7 @@ get_raw_textinput_value
 (
 input
 :
-JS
+LayoutJS
 <
 HTMLInputElement
 >
@@ -1033,7 +1033,7 @@ get_raw_attr_value
 (
 input
 :
-JS
+LayoutJS
 <
 HTMLInputElement
 >
@@ -1048,7 +1048,7 @@ String
 let
 elem
 :
-JS
+LayoutJS
 <
 Element
 >

@@ -313,6 +313,7 @@ js
 MutNullableJS
 JS
 JSRef
+LayoutJS
 Temporary
 TemporaryPushable
 }
@@ -2950,7 +2951,7 @@ bool
 impl
 LayoutElementHelpers
 for
-JS
+LayoutJS
 <
 Element
 >
@@ -2995,7 +2996,7 @@ false
 let
 node
 :
-JS
+LayoutJS
 <
 Node
 >
