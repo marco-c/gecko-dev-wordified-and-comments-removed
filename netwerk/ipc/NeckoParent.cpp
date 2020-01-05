@@ -304,13 +304,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h

@@ -914,13 +914,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsIClipboard
 .
 h

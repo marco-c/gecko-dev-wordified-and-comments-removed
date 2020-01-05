@@ -102,13 +102,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsIDOMDOMRequest
 .
 h

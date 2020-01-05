@@ -108,11 +108,6 @@ B2GAboutRedirector
 js
 '
 '
-B2GAppMigrator
-.
-js
-'
-'
 B2GPresentationDevicePrompt
 .
 js

@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsIEffectiveTLDService
 .
 h

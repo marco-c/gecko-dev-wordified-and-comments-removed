@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLIFrameElement
 .
 h

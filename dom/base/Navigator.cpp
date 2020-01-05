@@ -507,13 +507,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 WidgetUtils
 .
 h

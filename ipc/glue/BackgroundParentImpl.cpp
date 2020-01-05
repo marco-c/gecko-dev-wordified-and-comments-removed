@@ -344,13 +344,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

@@ -319,13 +319,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h

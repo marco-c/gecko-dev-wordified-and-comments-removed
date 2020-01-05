@@ -1144,13 +1144,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsDSURIContentListener
 .
 h
