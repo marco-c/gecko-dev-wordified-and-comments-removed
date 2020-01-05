@@ -26679,9 +26679,6 @@ bool
 aPlaying
 )
 {
-AutoNoJSAPI
-nojsapi
-;
 if
 (
 aPlaying
