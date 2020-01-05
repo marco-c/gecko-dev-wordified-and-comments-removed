@@ -24929,17 +24929,6 @@ stackDepth
 iterDepth
 )
 ;
-if
-(
-!
-emit1
-(
-JSOP_TRY_DESTRUCTURING_ITERCLOSE
-)
-)
-return
-false
-;
 ptrdiff_t
 start
 =
