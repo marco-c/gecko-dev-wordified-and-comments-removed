@@ -143,16 +143,9 @@ T
 )
 ;
 }
-template
-<
-typename
-T
->
 void
 misuseX
 (
-T
-q
 )
 {
 X
