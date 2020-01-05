@@ -301,8 +301,6 @@ args
 .
 displayName
 "
-o
-.
 m
 "
 )

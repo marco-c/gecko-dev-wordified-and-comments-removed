@@ -171,8 +171,6 @@ output
 :
 "
 function
-testobj1
-.
 testfn2
 (
 )
