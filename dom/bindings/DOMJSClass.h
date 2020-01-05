@@ -1083,6 +1083,11 @@ NativePropertyHooks
 *
 mProtoHooks
 ;
+const
+JSClass
+*
+mXrayExpandoClass
+;
 }
 ;
 enum
