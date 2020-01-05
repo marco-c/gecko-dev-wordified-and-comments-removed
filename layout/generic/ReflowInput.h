@@ -701,6 +701,16 @@ mStaticPosIsCBOrigin
 :
 1
 ;
+uint32_t
+mIOffsetsNeedCSSAlign
+:
+1
+;
+uint32_t
+mBOffsetsNeedCSSAlign
+:
+1
+;
 }
 ;
 #
