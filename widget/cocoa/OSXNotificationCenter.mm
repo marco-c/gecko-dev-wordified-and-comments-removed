@@ -969,7 +969,7 @@ id
 <
 FakeNSUserNotification
 >
-mPendingNotifiction
+mPendingNotification
 ;
 }
 ;
@@ -1025,7 +1025,7 @@ mCookie
 =
 alertCookie
 ;
-mPendingNotifiction
+mPendingNotification
 =
 nil
 ;
@@ -1048,7 +1048,7 @@ release
 ]
 ;
 [
-mPendingNotifiction
+mPendingNotification
 release
 ]
 ;
@@ -2321,7 +2321,7 @@ osxni
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 =
 notification
 ;
@@ -2958,7 +2958,7 @@ deliverNotification
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 ]
 ;
 if
@@ -2996,14 +2996,14 @@ get
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 release
 ]
 ;
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 =
 nil
 ;
@@ -3041,7 +3041,7 @@ if
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 )
 {
 /
@@ -3155,7 +3155,7 @@ if
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 )
 {
 return
@@ -3189,7 +3189,7 @@ cocoaImage
 osxni
 -
 >
-mPendingNotifiction
+mPendingNotification
 )
 .
 contentImage
