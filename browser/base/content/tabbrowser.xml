@@ -14001,7 +14001,7 @@ new
 CustomEvent
 (
 "
-TabBrowserCreated
+TabBrowserInserted
 "
 {
 bubbles
