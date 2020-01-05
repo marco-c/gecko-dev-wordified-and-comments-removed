@@ -94,6 +94,10 @@ ipc_channel
 ;
 extern
 crate
+itertools
+;
+extern
+crate
 layout_traits
 ;
 #
