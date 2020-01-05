@@ -427,10 +427,6 @@ ImageCache
 resource_task
 :
 resource_task
-.
-clone
-(
-)
 port
 :
 port
@@ -511,10 +507,6 @@ ImageCacheTask
 new
 (
 resource_task
-.
-clone
-(
-)
 )
 ;
 loop
