@@ -2939,6 +2939,9 @@ isContextLost
 (
 )
 ;
+[
+NeedsCallerType
+]
 sequence
 <
 DOMString
@@ -2950,6 +2953,7 @@ getSupportedExtensions
 ;
 [
 Throws
+NeedsCallerType
 ]
 object
 ?
