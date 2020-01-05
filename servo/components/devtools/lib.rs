@@ -86,6 +86,10 @@ devtools_traits
 ;
 extern
 crate
+encoding
+;
+extern
+crate
 hyper
 ;
 extern
