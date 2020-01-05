@@ -8748,7 +8748,6 @@ opacity
 01
 .
 svg
-fails
 =
 =
 clipPath
@@ -8769,7 +8768,6 @@ outflowElement
 01a
 .
 html
-fails
 =
 =
 clipPath
@@ -8903,7 +8901,6 @@ outflowElement
 01b
 .
 html
-fails
 =
 =
 clipPath

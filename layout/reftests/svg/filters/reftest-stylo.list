@@ -577,7 +577,7 @@ feImage
 1
 .
 svg
-fails
+skip
 =
 =
 feImage
