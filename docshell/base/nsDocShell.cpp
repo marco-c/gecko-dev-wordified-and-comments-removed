@@ -5827,7 +5827,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 bool
 isSrcdoc
@@ -19211,7 +19211,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 aPostStream
 aHeaderStream
 nullptr
@@ -22461,7 +22461,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 nsContentUtils
 :
 :
@@ -47843,7 +47843,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 nsCOMPtr
 <

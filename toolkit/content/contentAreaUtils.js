@@ -2183,7 +2183,7 @@ interfaces
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_NO_REFERRER_WHEN_DOWNGRADE
+REFERRER_POLICY_UNSET
 persistArgs
 .
 sourcePostData

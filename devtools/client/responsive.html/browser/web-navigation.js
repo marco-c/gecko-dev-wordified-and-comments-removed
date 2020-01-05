@@ -211,7 +211,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 postData
 headers
 null

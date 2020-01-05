@@ -5169,7 +5169,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 )
 ;
 let
@@ -6891,7 +6891,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 )
 ;
 let
@@ -26128,7 +26128,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 ;
 if
 (
@@ -33877,15 +33877,9 @@ _identityPopupMultiView
 )
 {
 delete
-this
-.
 _identityPopupMultiView
 ;
 return
-this
-.
-_identityPopupMultiView
-=
 document
 .
 getElementById
