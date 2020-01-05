@@ -1092,7 +1092,10 @@ contexts
 mut
 Vec
 <
+Box
+<
 StackingContext
+>
 >
 )
 -
@@ -1568,7 +1571,10 @@ contexts
 mut
 Vec
 <
+Box
+<
 StackingContext
+>
 >
 )
 -

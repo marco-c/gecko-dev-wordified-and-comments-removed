@@ -458,7 +458,10 @@ _
 mut
 Vec
 <
+Box
+<
 StackingContext
+>
 >
 )
 -
