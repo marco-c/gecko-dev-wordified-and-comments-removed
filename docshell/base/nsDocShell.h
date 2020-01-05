@@ -686,6 +686,10 @@ nsIInputStream
 aHeadersDataStream
 =
 0
+bool
+aNoOpenerImplied
+=
+false
 nsIDocShell
 *
 *
