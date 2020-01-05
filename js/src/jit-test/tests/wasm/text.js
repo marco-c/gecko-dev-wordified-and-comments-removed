@@ -412,7 +412,7 @@ abc
 )
 SyntaxError
 /
-import
+function
 label
 '
 \
@@ -494,13 +494,13 @@ func
 call_indirect
 c
 (
-get_local
-0
-)
-(
 i32
 .
 const
+0
+)
+(
+get_local
 0
 )
 )

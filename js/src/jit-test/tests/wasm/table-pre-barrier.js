@@ -39,7 +39,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -77,7 +77,7 @@ Instance
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module

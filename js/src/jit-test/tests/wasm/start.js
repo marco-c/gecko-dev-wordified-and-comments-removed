@@ -282,13 +282,6 @@ inc
 func
 f
 (
-param
-i32
-)
-)
-(
-func
-(
 call_import
 imp
 )
@@ -307,6 +300,8 @@ inc
 }
 }
 )
+.
+exports
 ;
 assertEq
 (
@@ -373,6 +368,8 @@ inc
 }
 }
 )
+.
+exports
 ;
 assertEq
 (
@@ -384,6 +381,10 @@ assertEq
 (
 typeof
 exports
+[
+"
+"
+]
 '
 function
 '
@@ -392,6 +393,10 @@ function
 assertEq
 (
 exports
+[
+"
+"
+]
 (
 )
 undefined
@@ -427,7 +432,7 @@ m
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (
@@ -583,7 +588,7 @@ m2
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 '
 (

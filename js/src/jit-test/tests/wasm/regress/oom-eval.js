@@ -58,9 +58,15 @@ eval
 (
 o
 =
-Wasm
+new
+WebAssembly
 .
-instantiateModule
+Instance
+(
+new
+WebAssemby
+.
+Module
 (
 wasmTextToBinary
 (
@@ -78,6 +84,7 @@ export
 )
 )
 '
+)
 )
 )
 ;

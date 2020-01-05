@@ -493,9 +493,10 @@ entire
 modules
 evaluated
 via
-Wasm
+new
+WebAssembly
 .
-instantiateModule
+Module
 are
 represented
 .

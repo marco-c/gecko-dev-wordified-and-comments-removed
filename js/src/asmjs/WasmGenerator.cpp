@@ -572,14 +572,6 @@ length
 (
 )
 ;
-if
-(
-args
-.
-assumptions
-.
-newFormat
-)
 shared_
 -
 >

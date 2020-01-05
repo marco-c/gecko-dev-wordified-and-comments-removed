@@ -79,6 +79,12 @@ wasmEvalText
 (
 module
 )
+.
+exports
+[
+"
+"
+]
 (
 13
 .

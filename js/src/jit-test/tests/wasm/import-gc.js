@@ -9,17 +9,6 @@ js
 '
 )
 ;
-load
-(
-libdir
-+
-'
-asserts
-.
-js
-'
-)
-;
 const
 Module
 =
@@ -40,7 +29,7 @@ m1
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -65,7 +54,7 @@ m2
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module

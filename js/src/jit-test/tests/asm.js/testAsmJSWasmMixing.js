@@ -95,7 +95,7 @@ asmJSBuf
 var
 wasmMem
 =
-evalText
+wasmEvalText
 (
 '
 (
