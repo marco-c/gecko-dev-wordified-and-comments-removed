@@ -2505,7 +2505,7 @@ this
 gCanStageUpdatesSession
 "
 function
-aus_gCanStageUpdatesSession
+aus_gCSUS
 (
 )
 {
@@ -4412,7 +4412,7 @@ return
 ;
 }
 let
-file
+updateLogFile
 =
 updateDir
 .
@@ -4420,7 +4420,7 @@ clone
 (
 )
 ;
-file
+updateLogFile
 .
 append
 (
@@ -4429,7 +4429,7 @@ FILE_UPDATE_LOG
 ;
 if
 (
-file
+updateLogFile
 .
 exists
 (
@@ -4510,7 +4510,7 @@ FILE_BACKUP_UPDATE_LOG
 }
 try
 {
-file
+updateLogFile
 .
 moveTo
 (
@@ -4535,7 +4535,7 @@ rename
 file
 "
 +
-file
+updateLogFile
 .
 path
 +
@@ -4554,7 +4554,7 @@ aRemovePatchFiles
 )
 {
 let
-e
+dirEntries
 =
 updateDir
 .
@@ -4562,7 +4562,7 @@ directoryEntries
 ;
 while
 (
-e
+dirEntries
 .
 hasMoreElements
 (
@@ -4570,9 +4570,9 @@ hasMoreElements
 )
 {
 let
-f
+file
 =
-e
+dirEntries
 .
 getNext
 (
@@ -4599,7 +4599,7 @@ gonk
 {
 if
 (
-f
+file
 .
 leafName
 =
@@ -4639,7 +4639,7 @@ false
 }
 try
 {
-f
+file
 .
 remove
 (
@@ -4663,7 +4663,7 @@ remove
 file
 "
 +
-f
+file
 .
 path
 )
