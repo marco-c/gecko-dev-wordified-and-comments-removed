@@ -272,6 +272,13 @@ JSContext
 )
 ;
 }
+#
+[
+deriving
+(
+Eq
+)
+]
 pub
 struct
 AbstractDocument
