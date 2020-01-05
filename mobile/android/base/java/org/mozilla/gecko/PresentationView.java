@@ -84,7 +84,7 @@ private
 static
 final
 String
-presentationViewURI
+PRESENTATION_VIEW_URI
 =
 "
 chrome
@@ -118,9 +118,9 @@ context
 ;
 this
 .
-chromeURI
+mChromeUri
 =
-presentationViewURI
+PRESENTATION_VIEW_URI
 +
 "
 #
@@ -130,7 +130,7 @@ deviceId
 ;
 this
 .
-screenId
+mScreenId
 =
 screenId
 ;

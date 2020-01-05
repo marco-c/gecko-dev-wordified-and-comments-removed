@@ -131,7 +131,7 @@ ViewSettings
 function
 debug
 (
-msg
+aMsg
 )
 {
 }
@@ -205,12 +205,12 @@ _useTrackingProtection
 set
 useTrackingProtection
 (
-use
+aUse
 )
 {
 if
 (
-use
+aUse
 &
 &
 !
@@ -234,7 +234,7 @@ true
 }
 if
 (
-use
+aUse
 !
 =
 this
@@ -260,7 +260,7 @@ useTrackingProtection
 =
 '
 +
-use
+aUse
 true
 )
 ;
@@ -268,7 +268,7 @@ this
 .
 _useTrackingProtection
 =
-use
+aUse
 ;
 }
 }
