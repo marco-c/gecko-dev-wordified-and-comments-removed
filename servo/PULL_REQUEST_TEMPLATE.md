@@ -6,12 +6,13 @@ to
 Servo
 !
 Please
-add
-an
-X
-inside
+replace
 each
 [
+]
+by
+[
+X
 ]
 when
 the
@@ -32,6 +33,8 @@ data
 /
 mach
 build
+-
+d
 does
 not
 report
