@@ -47,6 +47,9 @@ class
 nsGlobalWindow
 ;
 class
+nsIEventTarget
+;
+class
 nsIPrincipal
 ;
 class

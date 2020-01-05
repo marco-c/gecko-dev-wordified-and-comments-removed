@@ -4,6 +4,13 @@ CORSMode_h_
 #
 define
 CORSMode_h_
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 mozilla
 {

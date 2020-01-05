@@ -828,6 +828,11 @@ DirectionalityUtils
 h
 '
 '
+Dispatcher
+.
+h
+'
+'
 DocGroup
 .
 h
@@ -1189,6 +1194,11 @@ cpp
 '
 '
 DirectionalityUtils
+.
+cpp
+'
+'
+Dispatcher
 .
 cpp
 '
