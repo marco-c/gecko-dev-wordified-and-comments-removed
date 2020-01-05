@@ -170,7 +170,6 @@ constellation_msg
 :
 :
 {
-DocumentState
 FrameId
 PipelineId
 }
@@ -313,6 +312,7 @@ script_traits
 {
 CompositorEvent
 ConstellationControlMsg
+DocumentState
 LayoutControlMsg
 }
 ;

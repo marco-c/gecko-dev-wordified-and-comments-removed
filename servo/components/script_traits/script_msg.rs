@@ -1,4 +1,7 @@
 use
+DocumentState
+;
+use
 IFrameLoadInfo
 ;
 use
@@ -46,7 +49,6 @@ constellation_msg
 :
 {
 AnimationState
-DocumentState
 NavigationDirection
 }
 ;
