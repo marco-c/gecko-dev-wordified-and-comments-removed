@@ -1302,6 +1302,10 @@ lookup_is_sorted
 bool
 }
 impl
+<
+'
+self
+>
 DetailedGlyphStore
 {
 fn
@@ -1493,6 +1497,8 @@ fn
 get_detailed_glyphs_for_entry
 (
 &
+'
+self
 self
 entry_offset
 :
@@ -1738,6 +1744,8 @@ fn
 get_detailed_glyph_with_index
 (
 &
+'
+self
 self
 entry_offset
 :
@@ -2577,6 +2585,10 @@ DetailedGlyphStore
 }
 pub
 impl
+<
+'
+self
+>
 GlyphStore
 {
 /
@@ -3182,6 +3194,8 @@ fn
 iter_glyphs_for_char_index
 (
 &
+'
+self
 self
 i
 :
@@ -3326,6 +3340,8 @@ fn
 iter_glyphs_for_char_range
 (
 &
+'
+self
 self
 range
 :
@@ -3443,6 +3459,8 @@ fn
 iter_all_glyphs
 (
 &
+'
+self
 self
 cb
 :

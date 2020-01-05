@@ -432,12 +432,18 @@ id
 }
 }
 impl
+<
+'
+self
+>
 RenderBox
 {
 fn
 d
 (
 &
+'
+self
 mut
 self
 )
@@ -2457,6 +2463,8 @@ fn
 style
 (
 &
+'
+self
 mut
 self
 )

@@ -77,6 +77,9 @@ let
 progress_chan
 =
 SharedChan
+:
+:
+new
 (
 progress_chan
 )

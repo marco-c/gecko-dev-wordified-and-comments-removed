@@ -320,6 +320,9 @@ start
 }
 ;
 SharedChan
+:
+:
+new
 (
 chan
 )

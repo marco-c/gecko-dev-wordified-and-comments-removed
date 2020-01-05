@@ -728,6 +728,9 @@ comm
 :
 :
 SharedChan
+:
+:
+new
 (
 dom_event_chan
 )

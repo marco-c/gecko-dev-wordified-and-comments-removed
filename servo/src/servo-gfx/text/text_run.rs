@@ -186,6 +186,10 @@ glyphs
 }
 pub
 impl
+<
+'
+self
+>
 TextRun
 {
 fn
@@ -574,6 +578,8 @@ fn
 glyphs
 (
 &
+'
+self
 self
 )
 -

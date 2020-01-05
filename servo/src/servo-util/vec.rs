@@ -14,6 +14,8 @@ pub
 trait
 BinarySearchMethods
 <
+'
+self
 T
 :
 Ord
@@ -71,6 +73,8 @@ Eq
 >
 BinarySearchMethods
 <
+'
+self
 T
 >
 for

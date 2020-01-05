@@ -1569,6 +1569,9 @@ let
 css_chan
 =
 SharedChan
+:
+:
+new
 (
 css_chan
 )
@@ -1643,6 +1646,9 @@ let
 js_chan
 =
 SharedChan
+:
+:
+new
 (
 js_chan
 )

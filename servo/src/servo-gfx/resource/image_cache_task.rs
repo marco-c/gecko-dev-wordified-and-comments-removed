@@ -652,6 +652,9 @@ let
 chan
 =
 SharedChan
+:
+:
+new
 (
 chan
 )
@@ -860,6 +863,9 @@ msg
 }
 return
 SharedChan
+:
+:
+new
 (
 chan
 )
