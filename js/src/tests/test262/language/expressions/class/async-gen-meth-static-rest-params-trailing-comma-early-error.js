@@ -1,0 +1,17 @@
+0
+class
+{
+static
+async
+*
+method
+(
+.
+.
+.
+a
+)
+{
+}
+}
+;

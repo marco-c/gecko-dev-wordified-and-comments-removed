@@ -1,0 +1,14 @@
+class
+C
+{
+async
+method
+(
+x
+=
+0
+x
+)
+{
+}
+}

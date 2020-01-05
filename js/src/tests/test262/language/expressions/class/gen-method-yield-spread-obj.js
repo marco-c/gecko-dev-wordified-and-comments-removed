@@ -3,8 +3,10 @@ callCount
 =
 0
 ;
-class
+var
 C
+=
+class
 {
 *
 gen

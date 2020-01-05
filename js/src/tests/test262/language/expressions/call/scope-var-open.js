@@ -1,5 +1,5 @@
 var
-name
+n
 =
 '
 outside
@@ -13,7 +13,7 @@ function
 )
 {
 return
-name
+n
 ;
 }
 ;
@@ -24,12 +24,12 @@ var
 func
 =
 function
-name
+n
 (
 )
 {
 var
-name
+n
 ;
 probeBody
 =
@@ -38,7 +38,7 @@ function
 )
 {
 return
-name
+n
 ;
 }
 ;

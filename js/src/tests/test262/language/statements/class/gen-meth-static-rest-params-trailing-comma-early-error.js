@@ -1,0 +1,15 @@
+class
+C
+{
+static
+*
+method
+(
+.
+.
+.
+a
+)
+{
+}
+}

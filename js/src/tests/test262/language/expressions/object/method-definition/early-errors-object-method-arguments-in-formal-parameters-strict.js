@@ -3,7 +3,7 @@ use
 strict
 '
 ;
-!
+(
 {
 async
 foo
@@ -13,3 +13,4 @@ arguments
 {
 }
 }
+)

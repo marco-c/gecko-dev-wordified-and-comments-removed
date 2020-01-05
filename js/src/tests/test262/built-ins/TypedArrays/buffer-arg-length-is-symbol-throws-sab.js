@@ -8,7 +8,7 @@ SharedArrayBuffer
 )
 ;
 var
-length
+s
 =
 Symbol
 (
@@ -38,7 +38,7 @@ TA
 (
 buffer
 0
-length
+s
 )
 ;
 }

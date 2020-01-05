@@ -92,7 +92,14 @@ default
 )
 ;
 assert
+.
+throws
 (
+TypeError
+function
+(
+)
+{
 delete
 ns
 [
@@ -100,6 +107,8 @@ Symbol
 .
 toStringTag
 ]
+;
+}
 '
 delete
 :
@@ -110,6 +119,8 @@ toStringTag
 )
 ;
 assert
+.
+sameValue
 (
 Reflect
 .
@@ -120,6 +131,7 @@ Symbol
 .
 toStringTag
 )
+false
 '
 Reflect
 .

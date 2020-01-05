@@ -8,7 +8,7 @@ SharedArrayBuffer
 )
 ;
 var
-length
+len
 =
 {
 valueOf
@@ -45,7 +45,7 @@ TA
 (
 buffer
 0
-length
+len
 )
 ;
 }

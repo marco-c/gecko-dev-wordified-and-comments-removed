@@ -1,0 +1,16 @@
+0
+class
+{
+async
+*
+method
+(
+x
+=
+0
+x
+)
+{
+}
+}
+;

@@ -1,5 +1,5 @@
 function
-MyFunction
+SetThis
 (
 )
 {
@@ -13,7 +13,7 @@ if
 (
 (
 new
-MyFunction
+SetThis
 (
 )
 )
@@ -41,7 +41,7 @@ ERROR
 1
 :
 function
-MyFunction
+SetThis
 (
 )
 {
@@ -53,7 +53,7 @@ this
 }
 (
 new
-MyFunction
+SetThis
 (
 )
 )
@@ -80,7 +80,7 @@ Actual
 (
 (
 new
-MyFunction
+SetThis
 (
 )
 )
@@ -95,7 +95,7 @@ toString
 ;
 }
 function
-MyFunction
+SetEvalThis
 (
 )
 {
@@ -114,7 +114,7 @@ if
 (
 (
 new
-MyFunction
+SetEvalThis
 (
 )
 )
@@ -142,7 +142,7 @@ ERROR
 2
 :
 function
-MyFunction
+SetEvalThis
 (
 )
 {
@@ -159,7 +159,7 @@ this
 }
 (
 new
-MyFunction
+SetEvalThis
 (
 )
 )
@@ -186,7 +186,7 @@ Actual
 (
 (
 new
-MyFunction
+SetEvalThis
 (
 )
 )

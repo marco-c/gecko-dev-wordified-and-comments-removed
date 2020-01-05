@@ -3,7 +3,7 @@ x
 =
 null
 ;
-var
+let
 length
 ;
 var

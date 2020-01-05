@@ -1,0 +1,16 @@
+class
+C
+{
+static
+async
+*
+method
+(
+x
+=
+0
+x
+)
+{
+}
+}

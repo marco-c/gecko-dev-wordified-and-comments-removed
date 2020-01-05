@@ -1,0 +1,12 @@
+async
+function
+*
+f
+(
+.
+.
+.
+a
+)
+{
+}

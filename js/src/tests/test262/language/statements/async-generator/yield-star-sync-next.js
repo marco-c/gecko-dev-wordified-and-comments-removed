@@ -5,7 +5,7 @@ log
 ]
 ;
 var
-iter
+obj
 =
 {
 get
@@ -349,15 +349,22 @@ null
 }
 ;
 var
-asyncIterator
+callCount
 =
-(
+0
+;
 async
 function
 *
+gen
 (
 )
 {
+callCount
++
+=
+1
+;
 log
 .
 push
@@ -378,7 +385,7 @@ v
 =
 yield
 *
-iter
+obj
 ;
 log
 .
@@ -406,7 +413,10 @@ value
 "
 ;
 }
-)
+var
+iter
+=
+gen
 (
 )
 ;
@@ -425,7 +435,7 @@ length
 "
 )
 ;
-asyncIterator
+iter
 .
 next
 (
@@ -511,7 +521,7 @@ log
 ]
 .
 thisValue
-iter
+obj
 "
 get
 [
@@ -553,7 +563,7 @@ log
 ]
 .
 thisValue
-iter
+obj
 "
 [
 Symbol
@@ -721,7 +731,7 @@ name
 "
 get
 next
-value
+done
 (
 1
 )
@@ -750,7 +760,7 @@ result
 "
 get
 next
-value
+done
 thisValue
 "
 )
@@ -768,7 +778,7 @@ name
 "
 get
 next
-done
+value
 (
 1
 )
@@ -797,7 +807,7 @@ result
 "
 get
 next
-done
+value
 thisValue
 "
 )
@@ -843,7 +853,7 @@ length
 "
 )
 ;
-asyncIterator
+iter
 .
 next
 (
@@ -1000,7 +1010,7 @@ name
 "
 get
 next
-value
+done
 (
 2
 )
@@ -1029,7 +1039,7 @@ result
 "
 get
 next
-value
+done
 thisValue
 "
 )
@@ -1047,7 +1057,7 @@ name
 "
 get
 next
-done
+value
 (
 2
 )
@@ -1076,7 +1086,7 @@ result
 "
 get
 next
-done
+value
 thisValue
 "
 )
@@ -1171,5 +1181,13 @@ DONE
 catch
 (
 DONE
+)
+;
+assert
+.
+sameValue
+(
+callCount
+1
 )
 ;

@@ -1,4 +1,4 @@
-!
+(
 {
 async
 function
@@ -12,3 +12,4 @@ bar
 ;
 }
 }
+)
