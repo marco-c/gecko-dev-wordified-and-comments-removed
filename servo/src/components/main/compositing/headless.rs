@@ -281,6 +281,12 @@ SetUnRenderedColor
 .
 .
 )
+|
+LoadComplete
+(
+.
+.
+)
 =
 >
 (

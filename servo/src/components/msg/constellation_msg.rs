@@ -122,6 +122,11 @@ InitLoadUrlMsg
 (
 Url
 )
+LoadCompleteMsg
+(
+PipelineId
+Url
+)
 FrameRectMsg
 (
 PipelineId
