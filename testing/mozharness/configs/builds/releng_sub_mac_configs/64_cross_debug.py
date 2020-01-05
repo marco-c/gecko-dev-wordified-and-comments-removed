@@ -303,4 +303,16 @@ macosx64
 /
 debug
 '
+    
+'
+artifact_flag_build_variant_in_try
+'
+:
+'
+cross
+-
+debug
+-
+artifact
+'
 }

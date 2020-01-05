@@ -725,4 +725,14 @@ releng
 .
 manifest
 '
+    
+'
+artifact_flag_build_variant_in_try
+'
+:
+'
+cross
+-
+artifact
+'
 }
