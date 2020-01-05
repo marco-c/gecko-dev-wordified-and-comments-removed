@@ -2685,6 +2685,9 @@ return
 XRE_IsParentProcess
 (
 )
+&
+&
+mFile
 ;
 }
 NS_IMETHODIMP
