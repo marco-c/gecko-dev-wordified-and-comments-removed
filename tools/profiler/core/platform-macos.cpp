@@ -318,14 +318,14 @@ explicit
 SamplerThread
 (
 double
-interval
+aInterval
 )
 :
 mIntervalMicro
 (
 floor
 (
-interval
+aInterval
 *
 1000
 +
@@ -504,6 +504,8 @@ static
 void
 StartSampler
 (
+double
+aInterval
 )
 {
 MOZ_RELEASE_ASSERT
@@ -532,7 +534,7 @@ mInstance
 new
 SamplerThread
 (
-gInterval
+aInterval
 )
 ;
 mInstance
@@ -1160,6 +1162,8 @@ static
 void
 PlatformStart
 (
+double
+aInterval
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1184,6 +1188,7 @@ SamplerThread
 :
 StartSampler
 (
+aInterval
 )
 ;
 }

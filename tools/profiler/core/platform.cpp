@@ -7757,6 +7757,8 @@ static
 void
 PlatformStart
 (
+double
+aInterval
 )
 ;
 static
@@ -9428,6 +9430,7 @@ gIsPaused
 ;
 PlatformStart
 (
+gInterval
 )
 ;
 MOZ_ASSERT
