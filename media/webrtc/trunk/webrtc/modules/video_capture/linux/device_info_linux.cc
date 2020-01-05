@@ -142,6 +142,9 @@ trace
 h
 "
 #
+ifdef
+WEBRTC_LINUX
+#
 define
 EVENT_SIZE
 (
@@ -163,6 +166,8 @@ EVENT_SIZE
 16
 )
 )
+#
+endif
 namespace
 webrtc
 {
@@ -215,6 +220,9 @@ return
 deviceInfo
 ;
 }
+#
+ifdef
+WEBRTC_LINUX
 void
 DeviceInfoLinux
 :
@@ -710,6 +718,8 @@ false
 ;
 }
 }
+#
+endif
 DeviceInfoLinux
 :
 :
@@ -724,11 +734,19 @@ DeviceInfoImpl
 (
 id
 )
+#
+ifdef
+WEBRTC_LINUX
 _isShutdown
 (
 0
 )
+#
+endif
 {
+#
+ifdef
+WEBRTC_LINUX
 _inotifyEventThread
 =
 ThreadWrapper
@@ -764,6 +782,8 @@ kHighPriority
 )
 ;
 }
+#
+endif
 }
 int32_t
 DeviceInfoLinux
@@ -785,6 +805,9 @@ DeviceInfoLinux
 (
 )
 {
+#
+ifdef
+WEBRTC_LINUX
 +
 +
 _isShutdown
@@ -808,6 +831,8 @@ reset
 )
 ;
 }
+#
+endif
 }
 uint32_t
 DeviceInfoLinux
