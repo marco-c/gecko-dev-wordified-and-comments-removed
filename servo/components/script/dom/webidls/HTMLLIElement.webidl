@@ -79,8 +79,6 @@ HTMLLIElement
 :
 HTMLElement
 {
-/
-/
 attribute
 long
 value
