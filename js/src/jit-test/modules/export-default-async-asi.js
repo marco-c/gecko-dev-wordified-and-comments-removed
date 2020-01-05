@@ -1,12 +1,3 @@
-function
-async
-(
-)
-{
-return
-42
-;
-}
 export
 default
 async
