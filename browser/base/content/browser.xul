@@ -10135,7 +10135,7 @@ label
 command
 =
 "
-key_newNavigator
+cmd_newNavigator
 "
 tooltip
 =
