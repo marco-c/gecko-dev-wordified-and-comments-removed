@@ -2849,6 +2849,10 @@ skipEmptyFields
 element
 .
 value
+.
+trim
+(
+)
 )
 {
 continue
