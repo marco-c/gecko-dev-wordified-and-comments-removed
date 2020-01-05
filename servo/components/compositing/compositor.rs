@@ -2496,7 +2496,7 @@ pipeline_id
 ;
 root_layer
 .
-update_layer_except_size
+update_layer_except_bounds
 (
 layer_properties
 )
