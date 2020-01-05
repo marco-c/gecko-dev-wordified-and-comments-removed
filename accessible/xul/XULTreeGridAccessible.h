@@ -489,6 +489,13 @@ XULTreeGridCellAccessible
 LeafAccessible
 )
 virtual
+void
+Shutdown
+(
+)
+override
+;
+virtual
 TableCellAccessible
 *
 AsTableCell

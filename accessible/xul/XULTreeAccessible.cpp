@@ -3595,6 +3595,10 @@ mRow
 -
 1
 ;
+mParent
+=
+nullptr
+;
 AccessibleWrap
 :
 :
