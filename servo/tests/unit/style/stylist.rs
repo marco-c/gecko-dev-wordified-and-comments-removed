@@ -279,7 +279,7 @@ selector
 :
 s
 .
-complex_selector
+inner
 .
 clone
 (

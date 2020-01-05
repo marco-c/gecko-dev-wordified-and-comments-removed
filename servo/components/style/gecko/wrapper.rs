@@ -6930,7 +6930,6 @@ matches_complex_selector
 (
 s
 self
-None
 relations
 flags_setter
 )

@@ -176,7 +176,7 @@ matching
 {
 ElementSelectorFlags
 StyleRelations
-matches_complex_selector
+matches_selector
 }
 ;
 use
@@ -188,11 +188,11 @@ parser
 :
 {
 Selector
+SelectorInner
 SimpleSelector
 LocalName
 as
 LocalNameSelector
-ComplexSelector
 }
 ;
 use
@@ -1538,7 +1538,7 @@ selector
 :
 selector
 .
-complex_selector
+inner
 .
 clone
 (
@@ -1593,7 +1593,9 @@ note_selector
 &
 selector
 .
-complex_selector
+inner
+.
+complex
 )
 ;
 if
@@ -3729,7 +3731,7 @@ selectors
 matching
 :
 :
-matches_complex_selector
+matches_selector
 ;
 let
 len
@@ -3779,12 +3781,12 @@ results
 set
 (
 i
-matches_complex_selector
+matches_selector
 (
 &
 selector
 .
-complex_selector
+inner
 element
 Some
 (
@@ -4655,6 +4657,8 @@ rule
 .
 selector
 .
+complex
+.
 compound_selector
 .
 is_empty
@@ -4665,6 +4669,8 @@ is_empty
 rule
 .
 selector
+.
+complex
 .
 next
 .
@@ -5072,10 +5078,9 @@ if
 any_declaration_for_importance
 &
 &
-matches_complex_selector
+matches_selector
 (
 &
-*
 rule
 .
 selector
@@ -5261,6 +5266,8 @@ rule
 .
 selector
 .
+complex
+.
 compound_selector
 {
 if
@@ -5314,6 +5321,8 @@ in
 rule
 .
 selector
+.
+complex
 .
 compound_selector
 {
@@ -5371,6 +5380,8 @@ in
 rule
 .
 selector
+.
+complex
 .
 compound_selector
 {
@@ -5464,12 +5475,9 @@ Arc
 pub
 selector
 :
-Arc
-<
-ComplexSelector
+SelectorInner
 <
 SelectorImpl
->
 >
 #
 [

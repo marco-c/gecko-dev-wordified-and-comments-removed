@@ -742,7 +742,7 @@ selectors
 matching
 :
 :
-matches
+matches_selector_list
 ;
 use
 selectors
@@ -2265,7 +2265,7 @@ node
 )
 {
 if
-matches
+matches_selector_list
 (
 selectors
 &
@@ -4315,7 +4315,7 @@ find
 element
 |
 {
-matches
+matches_selector_list
 (
 &
 selectors
