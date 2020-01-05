@@ -182,6 +182,14 @@ ACCESSIBILITY
 '
 ]
 :
+DIRS
++
+=
+[
+'
+oop
+'
+]
 EXPORTS
 .
 mozilla
