@@ -72,6 +72,12 @@ case
 MIRType
 :
 :
+Float32
+:
+case
+MIRType
+:
+:
 Pointer
 :
 current_
@@ -91,12 +97,6 @@ uint32_t
 ;
 break
 ;
-case
-MIRType
-:
-:
-Float32
-:
 case
 MIRType
 :
