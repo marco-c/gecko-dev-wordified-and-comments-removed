@@ -2803,10 +2803,6 @@ objects
 for
 each
 function
-and
-each
-generator
-expression
 in
 this
 script
