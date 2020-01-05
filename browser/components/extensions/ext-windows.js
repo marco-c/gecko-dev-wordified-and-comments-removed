@@ -881,8 +881,6 @@ mozilla
 .
 org
 /
-supports
--
 array
 ;
 1
@@ -893,7 +891,7 @@ createInstance
 (
 Ci
 .
-nsISupportsArray
+nsIMutableArray
 )
 ;
 for
@@ -908,12 +906,13 @@ url
 {
 array
 .
-AppendElement
+appendElement
 (
 mkstr
 (
 url
 )
+false
 )
 ;
 }

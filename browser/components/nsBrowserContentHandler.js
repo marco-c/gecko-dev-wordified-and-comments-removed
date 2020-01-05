@@ -1069,8 +1069,6 @@ mozilla
 .
 org
 /
-supports
--
 array
 ;
 1
@@ -1083,7 +1081,7 @@ Components
 .
 interfaces
 .
-nsISupportsArray
+nsIMutableArray
 )
 ;
 stringArgs
@@ -1128,9 +1126,10 @@ uri
 ;
 uriArray
 .
-AppendElement
+appendElement
 (
 sstring
+false
 )
 ;
 }
