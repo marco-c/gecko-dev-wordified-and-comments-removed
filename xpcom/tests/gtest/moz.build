@@ -115,6 +115,11 @@ TestCloneInputStream
 cpp
 '
 '
+TestCOMArray
+.
+cpp
+'
+'
 TestCRT
 .
 cpp
