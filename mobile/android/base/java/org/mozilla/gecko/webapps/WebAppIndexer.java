@@ -70,9 +70,10 @@ WebApp
 "
 ;
 private
+static
 final
 String
-mPrefNumSavedEntries
+PREF_NUM_SAVED_ENTRIES
 =
 "
 WebAppIndexer
@@ -81,9 +82,10 @@ numActivities
 "
 ;
 private
+static
 final
 String
-mPrefActivityIndex
+PREF_ACTIVITY_INDEX
 =
 "
 WebAppIndexer
@@ -92,9 +94,10 @@ index
 "
 ;
 private
+static
 final
 String
-mPrefActivityId
+PREF_ACTIVITY_ID
 =
 "
 WebAppIndexer
@@ -129,7 +132,6 @@ mActivityList
 new
 ArrayList
 <
-ActivityEntry
 >
 (
 )
@@ -491,7 +493,7 @@ editor
 .
 putInt
 (
-mPrefNumSavedEntries
+PREF_NUM_SAVED_ENTRIES
 mActivityList
 .
 size
@@ -523,7 +525,7 @@ editor
 .
 putInt
 (
-mPrefActivityIndex
+PREF_ACTIVITY_INDEX
 +
 i
 mActivityList
@@ -540,7 +542,7 @@ editor
 .
 putString
 (
-mPrefActivityId
+PREF_ACTIVITY_ID
 +
 i
 mActivityList
@@ -589,7 +591,7 @@ prefs
 .
 getInt
 (
-mPrefNumSavedEntries
+PREF_NUM_SAVED_ENTRIES
 0
 )
 ;
@@ -616,7 +618,7 @@ prefs
 .
 getInt
 (
-mPrefActivityIndex
+PREF_ACTIVITY_INDEX
 +
 i
 i
@@ -629,7 +631,7 @@ prefs
 .
 getString
 (
-mPrefActivityId
+PREF_ACTIVITY_ID
 +
 i
 null
