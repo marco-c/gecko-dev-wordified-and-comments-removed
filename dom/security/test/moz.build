@@ -156,13 +156,6 @@ chrome
 .
 ini
 '
-'
-general
-/
-chrome
-.
-ini
-'
 ]
 BROWSER_CHROME_MANIFESTS
 +

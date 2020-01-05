@@ -273,15 +273,6 @@ type
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_IMAGE_FAVICON
-&
-&
-type
-!
-=
-nsIContentPolicy
-:
-:
 TYPE_IMAGESET
 )
 {

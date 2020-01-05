@@ -3863,13 +3863,6 @@ load
 )
 GK_ATOM
 (
-loadingprincipal
-"
-loadingprincipal
-"
-)
-GK_ATOM
-(
 localedir
 "
 localedir
