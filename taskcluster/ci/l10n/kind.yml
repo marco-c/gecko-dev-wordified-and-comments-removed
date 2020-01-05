@@ -643,9 +643,13 @@ platform
 :
 android
 -
-api
+4
 -
-15
+0
+-
+armv7
+-
+api15
 /
 opt
 symbol
