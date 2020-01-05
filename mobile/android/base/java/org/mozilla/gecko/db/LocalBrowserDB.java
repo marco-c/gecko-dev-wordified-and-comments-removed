@@ -9809,6 +9809,8 @@ getActivityStreamTopSites
 Context
 context
 int
+suggestedRangeLimit
+int
 limit
 )
 {
@@ -9839,13 +9841,12 @@ appendQueryParameter
 (
 BrowserContract
 .
-PARAM_TOPSITES_DISABLE_PINNED
-Boolean
+PARAM_SUGGESTEDSITES_LIMIT
+String
 .
-TRUE
-.
-toString
+valueOf
 (
+suggestedRangeLimit
 )
 )
 .
