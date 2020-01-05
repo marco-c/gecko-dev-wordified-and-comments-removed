@@ -54,11 +54,8 @@ root
 localpaths
 .
 repo_root
-from
-manifest
 import
 manifest
-update
 def
 main
 (
@@ -85,13 +82,8 @@ json
     
 manifest_file
 =
-None
-    
-try
-:
-        
-manifest_file
-=
+manifest
+.
 manifest
 .
 load
@@ -99,14 +91,6 @@ load
 root
 path
 )
-    
-except
-manifest
-.
-ManifestVersionMismatch
-:
-        
-pass
     
 if
 manifest_file
@@ -118,6 +102,8 @@ manifest_file
 =
 manifest
 .
+manifest
+.
 Manifest
 (
 "
@@ -125,6 +111,8 @@ Manifest
 "
 )
     
+manifest
+.
 update
 .
 update
@@ -133,6 +121,8 @@ root
 manifest_file
 )
     
+manifest
+.
 manifest
 .
 write

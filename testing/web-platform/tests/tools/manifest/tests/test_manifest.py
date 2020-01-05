@@ -1288,9 +1288,6 @@ m
 "
 reftest
 "
-test1
-.
-path
 {
 test1
 }
@@ -1300,9 +1297,6 @@ test1
 "
 reftest_node
 "
-test2
-.
-path
 {
 test2_node
 }
@@ -1389,9 +1383,6 @@ m
 "
 reftest
 "
-test2
-.
-path
 {
 test2
 }
@@ -1474,9 +1465,6 @@ m
 "
 reftest
 "
-test1
-.
-path
 {
 test1
 }
@@ -1486,9 +1474,6 @@ test1
 "
 reftest_node
 "
-test2
-.
-path
 {
 test2_node
 }
@@ -1627,9 +1612,6 @@ m
 "
 reftest
 "
-test1
-.
-path
 {
 test1
 }
@@ -1639,9 +1621,6 @@ test1
 "
 reftest_node
 "
-test2
-.
-path
 {
 test2_node
 }
@@ -1672,9 +1651,6 @@ m
 "
 reftest
 "
-test2
-.
-path
 {
 test2
 }

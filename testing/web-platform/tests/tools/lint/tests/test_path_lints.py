@@ -61,7 +61,6 @@ foo
 /
 "
 filename
-False
 )
         
 check_errors
@@ -146,7 +145,6 @@ foo
 /
 "
 filename
-False
 )
         
 check_errors
@@ -284,7 +282,6 @@ foo
 /
 "
 path
-False
 )
     
 check_errors

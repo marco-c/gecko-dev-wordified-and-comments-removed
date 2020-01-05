@@ -172,9 +172,7 @@ request
 .
 GET
 [
-"
-ACEHeaders
-"
+query
 ]
 )
 )
