@@ -333,8 +333,6 @@ MacIOSurfaceTextureData
 Lock
 (
 OpenMode
-FenceHandle
-*
 )
 {
 mSurface

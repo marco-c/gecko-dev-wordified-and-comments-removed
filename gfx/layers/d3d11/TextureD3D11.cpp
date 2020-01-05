@@ -1110,7 +1110,6 @@ OpenMode
 :
 :
 OPEN_NONE
-nullptr
 )
 ;
 mDrawTarget
@@ -1133,8 +1132,6 @@ Lock
 (
 OpenMode
 aMode
-FenceHandle
-*
 )
 {
 if
