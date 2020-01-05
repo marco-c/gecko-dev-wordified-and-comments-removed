@@ -182,8 +182,20 @@ update_cargo
 (
 self
 params
+=
+None
 )
 :
+        
+if
+not
+params
+:
+            
+params
+=
+[
+]
         
 cargo_paths
 =
@@ -193,7 +205,10 @@ path
 join
 (
 '
-.
+components
+'
+'
+servo
 '
 )
                        
