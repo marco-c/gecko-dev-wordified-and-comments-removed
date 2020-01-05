@@ -17,6 +17,11 @@ com
 /
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 getServerConnections
 (
