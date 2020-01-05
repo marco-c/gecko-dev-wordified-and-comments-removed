@@ -7967,7 +7967,7 @@ enumerated
 n_values
 "
 :
-11
+10
 "
 description
 "
@@ -8039,9 +8039,6 @@ obsolete
 BlockScopeFunRedecl
 =
 10
-StringGenerics
-=
-11
 "
 }
 "
@@ -8079,7 +8076,7 @@ enumerated
 n_values
 "
 :
-11
+10
 "
 description
 "
@@ -8152,9 +8149,6 @@ obsolete
 BlockScopeFunRedecl
 =
 10
-StringGenerics
-=
-11
 "
 }
 "
