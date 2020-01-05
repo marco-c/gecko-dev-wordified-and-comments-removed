@@ -254,6 +254,17 @@ Array
 aData
 )
 ;
+void
+SetIdentityMatrix
+(
+nsCSSValue
+:
+:
+Array
+*
+aMatrix
+)
+;
 float
 ProcessTranslatePart
 (
