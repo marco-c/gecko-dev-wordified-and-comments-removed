@@ -64,6 +64,7 @@ MPL
 ENTITY
 brandShortName
 "
+Firefox
 Aurora
 "
 >
@@ -73,6 +74,7 @@ ENTITY
 brandFullName
 "
 Mozilla
+Firefox
 Aurora
 "
 >
