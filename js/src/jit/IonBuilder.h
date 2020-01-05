@@ -3835,6 +3835,16 @@ AbortReasonOr
 <
 Ok
 >
+jsop_copylexicalenv
+(
+bool
+copySlots
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_functionthis
 (
 )

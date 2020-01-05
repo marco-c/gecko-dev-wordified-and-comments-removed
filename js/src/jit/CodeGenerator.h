@@ -2093,6 +2093,14 @@ lir
 )
 ;
 void
+visitCopyLexicalEnvironmentObject
+(
+LCopyLexicalEnvironmentObject
+*
+lir
+)
+;
+void
 visitCallGetProperty
 (
 LCallGetProperty
