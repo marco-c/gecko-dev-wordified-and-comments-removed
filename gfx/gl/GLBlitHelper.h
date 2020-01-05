@@ -170,9 +170,6 @@ mYTexScaleLoc
 GLint
 mCbCrTexScaleLoc
 ;
-GLint
-mYuvColorMatrixLoc
-;
 int
 mTexWidth
 ;

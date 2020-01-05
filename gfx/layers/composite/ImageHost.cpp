@@ -1562,6 +1562,11 @@ effect
 CreateTexturedEffect
 (
 mCurrentTextureHost
+-
+>
+GetReadFormat
+(
+)
 mCurrentTextureSource
 .
 get
@@ -2959,6 +2964,11 @@ return
 CreateTexturedEffect
 (
 mCurrentTextureHost
+-
+>
+GetReadFormat
+(
+)
 mCurrentTextureSource
 aSamplingFilter
 isAlphaPremultiplied
