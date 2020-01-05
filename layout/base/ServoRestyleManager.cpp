@@ -1597,6 +1597,12 @@ ClearElementsToRestyle
 ;
 nsStyleChangeList
 currentChanges
+(
+StyleBackendType
+:
+:
+Servo
+)
 ;
 DocumentStyleRootIterator
 iter

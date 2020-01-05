@@ -14457,6 +14457,12 @@ rsc
 ;
 nsStyleChangeList
 changeList
+(
+StyleBackendType
+:
+:
+Gecko
+)
 ;
 nsTArray
 <
@@ -14687,6 +14693,12 @@ swappedStructOwners
 ;
 nsStyleChangeList
 changeList
+(
+StyleBackendType
+:
+:
+Gecko
+)
 ;
 ElementRestyler
 r

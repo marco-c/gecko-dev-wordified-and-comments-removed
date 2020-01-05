@@ -506,6 +506,12 @@ nsChangeHint_ReconstructFrame
 {
 nsStyleChangeList
 changeList
+(
+StyleBackendType
+:
+:
+Gecko
+)
 ;
 changeList
 .
