@@ -4455,7 +4455,7 @@ Compact
 \
 D
 (
-CheckHeapOnMovingGC
+CheckHeapAfterGC
 15
 )
 \
