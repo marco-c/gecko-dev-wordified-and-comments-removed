@@ -42,7 +42,7 @@ build
 #
 %
 include
-testing
+taskcluster
 /
 docker
 /
@@ -54,7 +54,7 @@ py
 ADD
 topsrcdir
 /
-testing
+taskcluster
 /
 docker
 /
@@ -106,7 +106,7 @@ py
 #
 %
 include
-testing
+taskcluster
 /
 docker
 /
@@ -120,7 +120,7 @@ sh
 ADD
 topsrcdir
 /
-testing
+taskcluster
 /
 docker
 /
@@ -196,7 +196,7 @@ sh
 #
 %
 include
-testing
+taskcluster
 /
 docker
 /
@@ -208,7 +208,7 @@ task
 ADD
 topsrcdir
 /
-testing
+taskcluster
 /
 docker
 /

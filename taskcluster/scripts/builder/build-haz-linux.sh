@@ -412,7 +412,7 @@ TOOLTOOL_DIR
 python
 GECKO_DIR
 /
-testing
+taskcluster
 /
 docker
 /

@@ -76,7 +76,7 @@ images_path
 .
 .
 /
-testing
+taskcluster
 /
 docker
 '

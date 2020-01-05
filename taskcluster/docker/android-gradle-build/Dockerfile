@@ -127,7 +127,7 @@ xvfb
 #
 %
 include
-testing
+taskcluster
 /
 docker
 /
@@ -139,7 +139,7 @@ sh
 ADD
 topsrcdir
 /
-testing
+taskcluster
 /
 docker
 /
