@@ -911,6 +911,15 @@ properly
 "
 )
 ;
+#
+ifdef
+MOZ_STYLO
+ClearServoData
+(
+)
+;
+#
+endif
 }
 void
 *

@@ -8029,11 +8029,7 @@ IsInComposedDoc
 MOZ_ASSERT
 (
 !
-ServoData
-(
-)
-.
-get
+HasServoData
 (
 )
 )
@@ -8499,11 +8495,7 @@ IsStyledByServo
 )
 )
 {
-ServoData
-(
-)
-.
-reset
+ClearServoData
 (
 )
 ;
@@ -8516,7 +8508,7 @@ MOZ_STYLO
 MOZ_ASSERT
 (
 !
-ServoData
+HasServoData
 (
 )
 )
