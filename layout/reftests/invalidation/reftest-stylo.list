@@ -1481,6 +1481,12 @@ invalidation
 html
 ?
 reverse
+skip
+-
+if
+(
+stylo
+)
 =
 =
 clipped
@@ -1501,6 +1507,9 @@ transform
 1
 .
 html
+#
+bug
+1334036
 fails
 =
 =
