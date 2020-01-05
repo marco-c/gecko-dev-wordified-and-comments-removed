@@ -3101,7 +3101,10 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsTArray
+<
+nsCString
+>
 results
 ;
 rv
