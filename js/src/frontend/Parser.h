@@ -2541,7 +2541,7 @@ ParseHandler
 parser
 )
 ;
-bool
+void
 setPending
 (
 Node
@@ -4719,6 +4719,9 @@ arrayInitializer
 (
 YieldHandling
 yieldHandling
+PossibleError
+*
+possibleError
 )
 ;
 Node
