@@ -11931,7 +11931,7 @@ cmd
 .
 parameters
 .
-value
+text
 loginTextbox
 {
 ignoreVisibility
