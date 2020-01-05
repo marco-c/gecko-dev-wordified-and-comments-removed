@@ -197,9 +197,14 @@ longhands
 box_shadow
 :
 :
+single_value
+:
+:
 computed_value
 :
 :
+T
+as
 BoxShadow
 ;
 use

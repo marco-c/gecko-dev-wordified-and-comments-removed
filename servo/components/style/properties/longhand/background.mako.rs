@@ -97,7 +97,12 @@ True
 %
 helpers
 :
-gecko_autoarray_longhand
+vector_longhand
+gecko_only
+=
+"
+True
+"
 name
 =
 "
@@ -582,7 +587,7 @@ context
 %
 helpers
 :
-gecko_autoarray_longhand
+vector_longhand
 >
 <
 %
