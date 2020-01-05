@@ -2280,7 +2280,9 @@ IsOptimizableArgumentsObjectForGetElem
 JSObject
 *
 obj
+const
 Value
+&
 idval
 )
 {
