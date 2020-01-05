@@ -2523,12 +2523,6 @@ NewSplitEdge
 (
 graph
 block
--
->
-info
-(
-)
-block
 i
 target
 )
