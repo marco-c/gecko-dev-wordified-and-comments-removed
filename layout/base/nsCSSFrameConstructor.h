@@ -442,6 +442,17 @@ nsIContent
 aEndChild
 )
 ;
+void
+StyleNewChildRange
+(
+nsIContent
+*
+aStartChild
+nsIContent
+*
+aEndChild
+)
+;
 public
 :
 void
