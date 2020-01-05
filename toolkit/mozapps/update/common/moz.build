@@ -95,12 +95,12 @@ readstrings
 h
 '
 '
-updatedefines
+updatecommon
 .
 h
 '
 '
-updatelogging
+updatedefines
 .
 h
 '

@@ -8,7 +8,7 @@ h
 #
 include
 "
-updatelogging
+updatecommon
 .
 h
 "

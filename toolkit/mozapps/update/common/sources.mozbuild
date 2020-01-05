@@ -134,7 +134,7 @@ readstrings
 cpp
 '
 '
-updatelogging
+updatecommon
 .
 cpp
 '
