@@ -408,5 +408,12 @@ getAutocompleteInfo
 (
 )
 ;
+[
+ChromeOnly
+]
+attribute
+DOMString
+previewValue
+;
 }
 ;
