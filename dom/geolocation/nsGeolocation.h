@@ -615,6 +615,12 @@ nsGeolocationRequest
 aRequest
 )
 ;
+bool
+ShouldBlockInsecureRequests
+(
+)
+const
+;
 nsTArray
 <
 RefPtr
