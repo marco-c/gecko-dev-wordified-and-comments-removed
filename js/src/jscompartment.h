@@ -99,15 +99,6 @@ include
 "
 vm
 /
-GlobalObject
-.
-h
-"
-#
-include
-"
-vm
-/
 PIC
 .
 h
@@ -172,6 +163,9 @@ class
 ComponentFinder
 ;
 }
+class
+GlobalObject
+;
 class
 LexicalEnvironmentObject
 ;

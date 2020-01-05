@@ -134,7 +134,7 @@ include
 "
 vm
 /
-RegExpObject
+RegExpShared
 .
 h
 "
@@ -593,9 +593,6 @@ atom
 void
 setRegExpFlags
 (
-js
-:
-:
 RegExpFlag
 flags
 )
@@ -723,9 +720,6 @@ u
 atom
 ;
 }
-js
-:
-:
 RegExpFlag
 regExpFlags
 (
