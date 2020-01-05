@@ -1339,7 +1339,6 @@ test_reflush_changes
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -1468,7 +1467,6 @@ test_set_selection
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -1764,7 +1762,6 @@ ic
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -1862,7 +1859,6 @@ setComposingRegion
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -1871,7 +1867,6 @@ processInputConnectionEvents
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -1904,7 +1899,6 @@ foobar
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -1913,7 +1907,6 @@ processInputConnectionEvents
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -1946,7 +1939,6 @@ baz
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -1955,7 +1947,6 @@ processInputConnectionEvents
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -2023,7 +2014,6 @@ ic
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -2138,7 +2128,6 @@ foo
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
