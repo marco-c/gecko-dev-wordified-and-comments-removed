@@ -61,13 +61,10 @@ font
 Font
 ;
 use
-text
+display_list
 :
 :
-text_run
-:
-:
-TextRun
+GlyphRun
 ;
 use
 geom
@@ -821,7 +818,7 @@ draw_options
 }
 pub
 fn
-draw_text
+draw_glyphs
 (
 draw_target
 :
@@ -836,7 +833,7 @@ au
 text_run
 :
 &
-TextRun
+GlyphRun
 )
 {
 use
