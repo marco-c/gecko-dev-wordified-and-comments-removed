@@ -725,10 +725,10 @@ mAlgorithm
 CryptoBuffer
 mSymKey
 ;
-ScopedSECKEYPrivateKey
+UniqueSECKEYPrivateKey
 mPrivateKey
 ;
-ScopedSECKEYPublicKey
+UniqueSECKEYPublicKey
 mPublicKey
 ;
 }
