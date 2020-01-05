@@ -43,6 +43,10 @@ aPort
 nsIProxyInfo
 *
 aProxy
+const
+nsACString
+&
+firstPartyDomain
 uint32_t
 aFlags
 PRFileDesc
@@ -103,6 +107,10 @@ aPort
 nsIProxyInfo
 *
 aProxy
+const
+nsACString
+&
+firstPartyDomain
 uint32_t
 aFlags
 struct

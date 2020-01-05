@@ -275,6 +275,9 @@ in
 nsIProxyInfo
 aProxy
 in
+ACString
+aFirstPartyDomain
+in
 unsigned
 long
 aFlags
@@ -364,6 +367,9 @@ aPort
 in
 nsIProxyInfo
 aProxy
+in
+ACString
+aFirstPartyDomain
 in
 unsigned
 long
