@@ -1793,6 +1793,16 @@ IsReadLocked
 )
 const
 ;
+bool
+TryReadLock
+(
+)
+;
+void
+ReadUnlock
+(
+)
+;
 void
 SerializeReadLock
 (
@@ -1988,6 +1998,9 @@ mExpectedDtRefs
 endif
 bool
 mIsLocked
+;
+bool
+mIsReadLocked
 ;
 bool
 mUpdated
