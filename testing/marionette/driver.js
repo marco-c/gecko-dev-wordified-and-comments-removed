@@ -1018,16 +1018,6 @@ acceptSslCerts
 :
 false
 "
-takesElementScreenshot
-"
-:
-true
-"
-takesScreenshot
-"
-:
-true
-"
 proxy
 "
 :
