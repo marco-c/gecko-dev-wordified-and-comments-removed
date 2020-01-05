@@ -141,6 +141,7 @@ mURLList
 LastElement
 (
 )
+mFragment
 )
 ;
 copy
@@ -411,6 +412,10 @@ const
 nsACString
 &
 aURL
+const
+nsACString
+&
+aFragment
 )
 :
 mMethod
@@ -539,6 +544,7 @@ IsEmpty
 AddURL
 (
 aURL
+aFragment
 )
 ;
 }
@@ -551,6 +557,10 @@ const
 nsACString
 &
 aURL
+const
+nsACString
+&
+aFragment
 const
 nsACString
 &
@@ -682,6 +692,7 @@ IsEmpty
 AddURL
 (
 aURL
+aFragment
 )
 ;
 }
@@ -778,6 +789,12 @@ mIntegrity
 aOther
 .
 mIntegrity
+)
+mFragment
+(
+aOther
+.
+mFragment
 )
 mAuthenticationFlag
 (

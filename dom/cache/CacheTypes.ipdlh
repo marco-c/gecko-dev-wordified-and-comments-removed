@@ -268,6 +268,9 @@ urlWithoutQuery
 nsCString
 urlQuery
 ;
+nsCString
+urlFragment
+;
 HeadersEntry
 [
 ]

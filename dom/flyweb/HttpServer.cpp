@@ -2823,6 +2823,9 @@ new
 InternalRequest
 (
 url
+EmptyCString
+(
+)
 )
 ;
 mPendingReq
