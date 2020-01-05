@@ -113,7 +113,7 @@ xhtml
 function
 SwatchColorPickerTooltip
 (
-document
+toolbox
 inspector
 )
 {
@@ -143,7 +143,7 @@ SwatchBasedEditorTooltip
 call
 (
 this
-document
+toolbox
 stylesheet
 )
 ;

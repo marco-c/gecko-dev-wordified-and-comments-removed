@@ -1313,8 +1313,6 @@ new
 HTMLTooltip
 (
 toolbox
-.
-doc
 {
 type
 :
@@ -1356,8 +1354,6 @@ new
 CssDocsTooltip
 (
 toolbox
-.
-doc
 )
 ;
 if
@@ -1375,8 +1371,6 @@ new
 SwatchColorPickerTooltip
 (
 toolbox
-.
-doc
 this
 .
 view
@@ -1392,8 +1386,6 @@ new
 SwatchCubicBezierTooltip
 (
 toolbox
-.
-doc
 )
 ;
 this
@@ -1404,8 +1396,6 @@ new
 SwatchFilterTooltip
 (
 toolbox
-.
-doc
 this
 .
 _cssProperties
