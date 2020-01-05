@@ -1548,6 +1548,15 @@ SharedChan
 css_chan
 )
 ;
+let
+resource_task2
+=
+resource_task
+.
+clone
+(
+)
+;
 /
 /
 Spawn

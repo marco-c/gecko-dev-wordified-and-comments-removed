@@ -48,6 +48,15 @@ shaper
 ShaperMethods
 ;
 use
+gfx_font
+:
+:
+{
+FontHandleMethods
+FontTableMethods
+}
+;
+use
 servo_util
 :
 :

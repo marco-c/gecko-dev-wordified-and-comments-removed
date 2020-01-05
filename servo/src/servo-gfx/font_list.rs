@@ -21,6 +21,12 @@ native
 FontHandle
 ;
 use
+gfx_font
+:
+:
+FontHandleMethods
+;
+use
 core
 :
 :

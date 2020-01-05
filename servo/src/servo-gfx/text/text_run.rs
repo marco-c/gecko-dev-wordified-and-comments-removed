@@ -30,6 +30,7 @@ servo_gfx_font
 Font
 FontDescriptor
 RunMetrics
+FontHandleMethods
 }
 ;
 use
