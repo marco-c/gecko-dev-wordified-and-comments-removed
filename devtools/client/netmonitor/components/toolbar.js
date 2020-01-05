@@ -726,7 +726,7 @@ clearRequests
 div
 (
 {
-id
+className
 :
 "
 requests
