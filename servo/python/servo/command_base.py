@@ -1159,6 +1159,20 @@ self
 _cargo_build_id
     
 def
+get_top_dir
+(
+self
+)
+:
+        
+return
+self
+.
+context
+.
+topdir
+    
+def
 get_target_dir
 (
 self
