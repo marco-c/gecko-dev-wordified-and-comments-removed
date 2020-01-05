@@ -413,7 +413,7 @@ false
 return
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 .
@@ -453,7 +453,7 @@ tuple
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -547,7 +547,7 @@ tuple
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -911,7 +911,7 @@ tuple
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -1000,7 +1000,7 @@ tuple
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -1142,7 +1142,7 @@ tuple
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -1234,7 +1234,7 @@ components
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -1403,7 +1403,7 @@ a
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 .
@@ -1752,7 +1752,7 @@ return
 color
 ;
 }
-_getRGBATuple
+getRGBATuple
 :
 function
 (
@@ -1894,7 +1894,7 @@ b
 =
 this
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -2335,7 +2335,7 @@ b
 =
 color
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;

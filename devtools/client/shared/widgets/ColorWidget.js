@@ -3613,7 +3613,7 @@ a
 =
 color
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;
@@ -4026,7 +4026,7 @@ CssColor
 cssString
 )
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;

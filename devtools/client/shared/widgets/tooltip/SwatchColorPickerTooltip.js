@@ -1114,7 +1114,7 @@ rgba
 =
 color
 .
-_getRGBATuple
+getRGBATuple
 (
 )
 ;

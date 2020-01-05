@@ -4703,7 +4703,7 @@ result
 }
 exports
 .
-_parseTimingFunction
+parseTimingFunction
 =
 parseTimingFunction
 ;

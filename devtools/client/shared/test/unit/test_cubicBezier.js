@@ -39,7 +39,7 @@ jsm
 var
 {
 CubicBezier
-_parseTimingFunction
+parseTimingFunction
 }
 =
 require
@@ -858,7 +858,7 @@ out
 {
 ok
 (
-_parseTimingFunction
+parseTimingFunction
 (
 test
 )
@@ -869,7 +869,7 @@ test
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 something
@@ -886,7 +886,7 @@ token
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 something
@@ -907,7 +907,7 @@ function
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic
@@ -933,7 +933,7 @@ argument
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic
@@ -959,7 +959,7 @@ comma
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic
@@ -985,7 +985,7 @@ paren
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic
@@ -1007,7 +1007,7 @@ number
 ok
 (
 !
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic
@@ -1028,7 +1028,7 @@ comma
 ;
 deepEqual
 (
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic
@@ -1056,7 +1056,7 @@ invocation
 ;
 deepEqual
 (
-_parseTimingFunction
+parseTimingFunction
 (
 "
 cubic

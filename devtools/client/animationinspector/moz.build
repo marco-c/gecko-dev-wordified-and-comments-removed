@@ -122,6 +122,13 @@ components
 DevToolsModules
 (
 '
+graph
+-
+helper
+.
+js
+'
+'
 utils
 .
 js
