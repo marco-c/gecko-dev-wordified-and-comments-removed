@@ -74,14 +74,6 @@ org
 headers
 -
 class
-/
-/
-TODO
-support
-OpenEndedDictionary
-<
-ByteString
->
 typedef
 (
 Headers
@@ -92,6 +84,11 @@ sequence
 <
 ByteString
 >
+>
+or
+MozMap
+<
+ByteString
 >
 )
 HeadersInit

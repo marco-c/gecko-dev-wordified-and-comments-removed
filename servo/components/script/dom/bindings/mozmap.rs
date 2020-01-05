@@ -161,6 +161,13 @@ ops
 :
 Deref
 ;
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 MozMap
