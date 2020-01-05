@@ -2778,6 +2778,15 @@ len
 (
 )
 ;
+if
+azglyph_buf_len
+=
+=
+0
+{
+return
+;
+}
 let
 azglyph_buf
 =
