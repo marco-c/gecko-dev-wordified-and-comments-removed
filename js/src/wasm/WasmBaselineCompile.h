@@ -9,15 +9,6 @@ include
 "
 wasm
 /
-WasmBinary
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmIonCompile
 .
 h

@@ -18,7 +18,7 @@ include
 "
 wasm
 /
-WasmBinary
+WasmTypes
 .
 h
 "

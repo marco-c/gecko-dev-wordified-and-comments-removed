@@ -2659,13 +2659,6 @@ cpp
 '
 wasm
 /
-WasmBinary
-.
-cpp
-'
-'
-wasm
-/
 WasmBinaryFormat
 .
 cpp

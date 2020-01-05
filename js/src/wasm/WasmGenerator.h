@@ -18,15 +18,6 @@ include
 "
 wasm
 /
-WasmBinary
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmCompile
 .
 h

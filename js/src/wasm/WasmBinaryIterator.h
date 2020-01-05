@@ -34,7 +34,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmBinaryFormat
 .
 h
 "
