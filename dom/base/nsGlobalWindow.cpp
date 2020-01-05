@@ -3006,8 +3006,9 @@ private
 nsGlobalWindowObserver
 (
 )
-{
-}
+=
+default
+;
 nsGlobalWindow
 *
 MOZ_NON_OWNING_REF
@@ -27282,8 +27283,9 @@ private
 Observer
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 FullscreenTransitionTask

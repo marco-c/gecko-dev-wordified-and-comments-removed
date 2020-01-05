@@ -64,6 +64,8 @@ virtual
 CoreLocationLocationProvider
 (
 )
+=
+default
 ;
 CoreLocationObjects
 *
@@ -110,6 +112,8 @@ virtual
 MLSUpdate
 (
 )
+=
+default
 ;
 }
 ;

@@ -673,8 +673,9 @@ private
 HangMonitoredProcess
 (
 )
-{
-}
+=
+default
+;
 HangMonitorParent
 *
 mActor

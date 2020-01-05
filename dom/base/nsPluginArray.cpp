@@ -219,8 +219,9 @@ nsPluginArray
 nsPluginArray
 (
 )
-{
-}
+=
+default
+;
 static
 bool
 ResistFingerprinting
@@ -1880,8 +1881,9 @@ nsPluginElement
 nsPluginElement
 (
 )
-{
-}
+=
+default
+;
 nsPIDOMWindowInner
 *
 nsPluginElement

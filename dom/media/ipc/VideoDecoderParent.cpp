@@ -178,8 +178,9 @@ virtual
 KnowsCompositorVideo
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 VideoDecoderParent

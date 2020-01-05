@@ -1083,8 +1083,9 @@ nsInvalidPluginTag
 nsInvalidPluginTag
 (
 )
-{
-}
+=
+default
+;
 static
 bool
 IsTypeInList
@@ -7595,8 +7596,9 @@ virtual
 ClearDataFromSitesClosure
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -8023,8 +8025,9 @@ virtual
 GetSitesClosure
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

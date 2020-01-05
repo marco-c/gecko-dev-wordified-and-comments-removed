@@ -6353,8 +6353,9 @@ Client
 Client
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_IMETHOD_

@@ -730,8 +730,9 @@ virtual
 Impl
 (
 )
-{
-}
+=
+default
+;
 virtual
 ImageBitmapFormat
 GetFormat
