@@ -835,6 +835,10 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aUninitialized
+=
+false
 )
 ;
 virtual
