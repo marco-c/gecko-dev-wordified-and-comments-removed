@@ -93,6 +93,7 @@ test
 ]
 }
 )
+;
 const
 response
 =
@@ -102,6 +103,8 @@ NormandyApi
 get
 (
 "
+browser
+/
 test_server
 .
 sjs

@@ -103,6 +103,17 @@ data
 )
 content
 /
+test
+/
+(
+.
+/
+test
+/
+*
+)
+content
+/
 node_modules
 /
 jexl

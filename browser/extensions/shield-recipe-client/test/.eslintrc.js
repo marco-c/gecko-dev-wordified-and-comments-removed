@@ -32,6 +32,9 @@ false
 SpecialPowers
 :
 false
+SimpleTest
+:
+false
 }
 rules
 :
@@ -54,6 +57,13 @@ paren
 "
 :
 2
+"
+require
+-
+yield
+"
+:
+0
 }
 }
 ;
