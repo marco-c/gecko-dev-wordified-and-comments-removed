@@ -6686,6 +6686,12 @@ long
 z
 )
 ;
+readonly
+attribute
+unsigned
+long
+length
+;
 stringifier
 DOMString
 myStringifier
