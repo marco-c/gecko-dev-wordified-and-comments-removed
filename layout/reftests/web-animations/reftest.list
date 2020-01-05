@@ -137,12 +137,6 @@ core
 enabled
 true
 )
-random
--
-if
-(
-stylo
-)
 =
 =
 stacking
@@ -312,12 +306,6 @@ core
 .
 enabled
 true
-)
-random
--
-if
-(
-stylo
 )
 =
 =

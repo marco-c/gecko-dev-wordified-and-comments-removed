@@ -4765,6 +4765,12 @@ html
 #
 Bug
 815648
+fails
+-
+if
+(
+stylo
+)
 =
 =
 stroketext
@@ -4922,6 +4928,12 @@ oscpu
 )
 1
 1
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

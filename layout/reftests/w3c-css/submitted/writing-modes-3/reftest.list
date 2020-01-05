@@ -376,6 +376,12 @@ compression
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 text
@@ -402,6 +408,12 @@ directionality
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 logical

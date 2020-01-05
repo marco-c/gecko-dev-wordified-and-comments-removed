@@ -44,6 +44,12 @@ size
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 size
@@ -147,6 +153,12 @@ select
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 intrinsic

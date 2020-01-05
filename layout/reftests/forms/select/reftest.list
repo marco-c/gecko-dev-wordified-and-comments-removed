@@ -177,6 +177,12 @@ html
 needs
 -
 focus
+fails
+-
+if
+(
+stylo
+)
 =
 =
 focusring
@@ -194,6 +200,12 @@ html
 needs
 -
 focus
+fails
+-
+if
+(
+stylo
+)
 =
 =
 focusring

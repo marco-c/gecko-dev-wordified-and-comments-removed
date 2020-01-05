@@ -1261,6 +1261,12 @@ if
 !
 browserIsRemote
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 test

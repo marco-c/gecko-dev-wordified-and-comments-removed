@@ -315,12 +315,6 @@ stripes
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 clip
