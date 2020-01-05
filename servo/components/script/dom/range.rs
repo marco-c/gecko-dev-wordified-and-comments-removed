@@ -114,7 +114,10 @@ dom
 document
 :
 :
+{
 Document
+DocumentHelpers
+}
 ;
 #
 [

@@ -94,7 +94,10 @@ dom
 document
 :
 :
+{
 Document
+DocumentHelpers
+}
 ;
 use
 parse

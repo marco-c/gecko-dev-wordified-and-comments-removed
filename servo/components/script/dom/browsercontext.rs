@@ -36,7 +36,10 @@ dom
 document
 :
 :
+{
 Document
+DocumentHelpers
+}
 ;
 use
 dom
