@@ -24,6 +24,14 @@ plugins
 serde_macros
 )
 ]
+#
+!
+[
+deny
+(
+unsafe_code
+)
+]
 extern
 crate
 ipc_channel

@@ -81,6 +81,14 @@ serde_macros
 #
 !
 [
+deny
+(
+unsafe_code
+)
+]
+#
+!
+[
 recursion_limit
 =
 "

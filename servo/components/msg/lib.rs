@@ -19,6 +19,14 @@ plugins
 )
 ]
 #
+!
+[
+deny
+(
+unsafe_code
+)
+]
+#
 [
 macro_use
 ]

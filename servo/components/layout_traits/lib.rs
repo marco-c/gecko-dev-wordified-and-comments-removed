@@ -15,6 +15,14 @@ plugin
 serde_macros
 )
 ]
+#
+!
+[
+deny
+(
+unsafe_code
+)
+]
 extern
 crate
 gfx
