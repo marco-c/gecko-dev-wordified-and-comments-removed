@@ -565,6 +565,14 @@ mCachedPrintTarget
 ;
 #
 endif
+#
+ifdef
+DEBUG
+bool
+mIsInitialized
+;
+#
+endif
 }
 ;
 #
