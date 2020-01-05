@@ -568,7 +568,10 @@ freebl
 .
 gyp
 :
-freebl
+<
+(
+freebl_name
+)
 '
 '
 <

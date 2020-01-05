@@ -811,6 +811,15 @@ hs
 remoteExtensions
 )
 ;
+ssl3_ResetExtensionData
+(
+&
+ss
+-
+>
+xtnData
+)
+;
 if
 (
 !

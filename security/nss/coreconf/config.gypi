@@ -849,7 +849,7 @@ disable_libpkix
 %
 '
 :
-0
+1
 '
 disable_werror
 %

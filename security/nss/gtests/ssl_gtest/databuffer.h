@@ -755,6 +755,11 @@ len_
 1
 ]
 ;
+if
+(
+old_value
+)
+{
 Write
 (
 0
@@ -769,6 +774,7 @@ index
 )
 )
 ;
+}
 if
 (
 index

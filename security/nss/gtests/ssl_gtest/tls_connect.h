@@ -619,6 +619,11 @@ bool
 expected
 )
 ;
+void
+DisableECDHEServerKeyReuse
+(
+)
+;
 protected
 :
 Mode

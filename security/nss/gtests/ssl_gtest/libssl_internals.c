@@ -807,7 +807,7 @@ SECFailure
 ss
 -
 >
-ssl3
+xtnData
 .
 nextProtoState
 =
@@ -818,7 +818,7 @@ if
 ss
 -
 >
-ssl3
+xtnData
 .
 nextProto
 .
@@ -831,7 +831,7 @@ SECITEM_FreeItem
 ss
 -
 >
-ssl3
+xtnData
 .
 nextProto
 PR_FALSE
@@ -848,7 +848,7 @@ NULL
 ss
 -
 >
-ssl3
+xtnData
 .
 nextProto
 len
@@ -862,7 +862,7 @@ PORT_Memcpy
 ss
 -
 >
-ssl3
+xtnData
 .
 nextProto
 .
