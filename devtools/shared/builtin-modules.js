@@ -756,9 +756,6 @@ btoa
 :
 btoa
 URL
-_Iterator
-:
-Iterator
 loader
 :
 {
