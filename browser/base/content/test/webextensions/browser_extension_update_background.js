@@ -983,12 +983,9 @@ list
 ;
 updatePromise
 =
-promiseInstallEvent
+waitForUpdate
 (
 addon
-"
-onInstallEnded
-"
 )
 ;
 panel
@@ -1311,12 +1308,9 @@ true
 let
 updatePromise
 =
-promiseInstallEvent
+waitForUpdate
 (
 addon
-"
-onInstallEnded
-"
 )
 ;
 AddonManagerPrivate

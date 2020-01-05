@@ -192,12 +192,9 @@ popupListener
 let
 updatePromise
 =
-promiseInstallEvent
+waitForUpdate
 (
 addon
-"
-onInstallEnded
-"
 )
 ;
 win
