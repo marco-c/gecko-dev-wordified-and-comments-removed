@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 prefs
 =
@@ -388,8 +393,6 @@ O_CREAT
 )
 ;
 }
-else
-{
 let
 O_WRONLY
 =
@@ -407,7 +410,6 @@ O_WRONLY
 O_CREAT
 )
 ;
-}
 }
 function
 getOSLib
@@ -473,6 +475,9 @@ Unknown
 OS
 "
 )
+;
+return
+0
 ;
 }
 }
