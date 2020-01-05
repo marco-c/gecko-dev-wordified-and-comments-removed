@@ -197,6 +197,7 @@ Event
 [
 Cached
 Constant
+Frozen
 ]
 readonly
 attribute
