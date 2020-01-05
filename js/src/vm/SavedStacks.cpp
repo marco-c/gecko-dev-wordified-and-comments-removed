@@ -774,6 +774,7 @@ parent
 JSPrincipals
 *
 principals
+const
 Maybe
 <
 LiveSavedFrameCache
@@ -781,6 +782,7 @@ LiveSavedFrameCache
 :
 FramePtr
 >
+&
 framePtr
 =
 Nothing

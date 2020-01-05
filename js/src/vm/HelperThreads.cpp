@@ -500,7 +500,9 @@ JSRuntime
 *
 GetSelectorRuntime
 (
+const
 CompilationSelector
+&
 selector
 )
 {
@@ -599,7 +601,9 @@ static
 bool
 JitDataStructuresExist
 (
+const
 CompilationSelector
+&
 selector
 )
 {
@@ -712,7 +716,9 @@ static
 bool
 CompiledScriptMatches
 (
+const
 CompilationSelector
+&
 selector
 JSScript
 *
@@ -851,7 +857,9 @@ js
 :
 CancelOffThreadIonCompile
 (
+const
 CompilationSelector
+&
 selector
 bool
 discardLazyLinkList

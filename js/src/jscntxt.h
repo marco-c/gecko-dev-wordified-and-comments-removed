@@ -1476,6 +1476,7 @@ E
 bool
 resultToBool
 (
+const
 JS
 :
 :
@@ -1484,6 +1485,7 @@ Result
 V
 E
 >
+&
 result
 )
 {
@@ -1506,6 +1508,7 @@ V
 *
 resultToPtr
 (
+const
 JS
 :
 :
@@ -1515,6 +1518,7 @@ V
 *
 E
 >
+&
 result
 )
 {
