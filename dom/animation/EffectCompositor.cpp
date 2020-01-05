@@ -2238,6 +2238,8 @@ GetAnimation
 ComposeStyle
 (
 animRule
+.
+mServo
 propertiesToSkip
 )
 ;
@@ -3512,6 +3514,8 @@ GetAnimation
 ComposeStyle
 (
 animRule
+.
+mGecko
 propertiesToSkip
 )
 ;
