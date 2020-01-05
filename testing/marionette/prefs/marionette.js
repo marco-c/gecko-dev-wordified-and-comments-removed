@@ -3,16 +3,6 @@ pref
 "
 marionette
 .
-enabled
-"
-false
-)
-;
-pref
-(
-"
-marionette
-.
 port
 "
 2828
