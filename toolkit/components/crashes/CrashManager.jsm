@@ -1510,6 +1510,15 @@ processType
 this
 .
 PROCESS_TYPE_CONTENT
+|
+|
+processType
+=
+=
+=
+this
+.
+PROCESS_TYPE_GPU
 )
 {
 this
