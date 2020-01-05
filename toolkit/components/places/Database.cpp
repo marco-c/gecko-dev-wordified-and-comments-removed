@@ -1000,7 +1000,15 @@ JOURNAL_WAL
 }
 MOZ_ASSERT
 (
-true
+false
+"
+Got
+an
+unknown
+journal
+mode
+.
+"
 )
 ;
 }
