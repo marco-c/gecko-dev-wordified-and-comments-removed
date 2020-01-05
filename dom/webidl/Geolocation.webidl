@@ -176,6 +176,7 @@ Geolocation
 {
 [
 Throws
+NeedsCallerType
 ]
 void
 getCurrentPosition
@@ -195,6 +196,7 @@ options
 ;
 [
 Throws
+NeedsCallerType
 ]
 long
 watchPosition

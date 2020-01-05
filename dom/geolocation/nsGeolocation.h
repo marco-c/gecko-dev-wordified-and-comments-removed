@@ -114,6 +114,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 GeolocationBinding
 .
 h
@@ -451,6 +462,8 @@ const
 PositionOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -469,6 +482,8 @@ const
 PositionOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -559,6 +574,8 @@ PositionOptions
 &
 &
 aOptions
+CallerType
+aCallerType
 )
 ;
 nsresult
@@ -575,6 +592,8 @@ PositionOptions
 &
 &
 aOptions
+CallerType
+aCallerType
 int32_t
 *
 aRv
