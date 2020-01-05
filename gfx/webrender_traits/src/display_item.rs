@@ -796,13 +796,6 @@ LayoutRect
 >
 {
 let
-k
-=
-0
-.
-3
-;
-let
 xl
 =
 self
@@ -813,8 +806,6 @@ origin
 .
 x
 +
-k
-*
 self
 .
 radii
@@ -853,8 +844,6 @@ size
 .
 width
 -
-k
-*
 self
 .
 radii
@@ -885,8 +874,6 @@ origin
 .
 y
 +
-k
-*
 self
 .
 radii
@@ -925,8 +912,6 @@ size
 .
 height
 -
-k
-*
 self
 .
 radii

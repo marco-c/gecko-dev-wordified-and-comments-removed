@@ -1775,7 +1775,7 @@ DataIndex
 ClipAttribute
 :
 :
-BaseTaskIndex
+SegmentIndex
 ]
 .
 into_iter
@@ -2727,14 +2727,14 @@ id
 ClipAttribute
 :
 :
-BaseTaskIndex
+SegmentIndex
 as
 gl
 :
 :
 GLuint
 "
-aClipBaseTaskIndex
+aClipSegmentIndex
 "
 )
 ;

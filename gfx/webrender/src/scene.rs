@@ -46,15 +46,8 @@ webrender_traits
 :
 {
 DisplayItem
-SpecificDisplayItem
-StackingContext
-}
-;
-use
-webrender_traits
-:
-:
 LayerSize
+}
 ;
 #
 [
