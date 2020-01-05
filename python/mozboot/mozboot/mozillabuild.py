@@ -310,6 +310,7 @@ write
 WIN_HOME
 =
 (
+command
 cd
 "
 HOME
