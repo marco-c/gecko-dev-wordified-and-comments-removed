@@ -106,12 +106,7 @@ throws
 RemoteException
 {
 return
-new
-RemoteMediaDrmBridgeStub
-(
-keySystem
-stubId
-)
+null
 ;
 }
 }
