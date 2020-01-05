@@ -1158,7 +1158,7 @@ MacroAssembler
 enterExitFrame
 (
 Register
-temp
+cxreg
 const
 VMFunction
 *
@@ -1167,7 +1167,7 @@ f
 {
 linkExitFrame
 (
-temp
+cxreg
 )
 ;
 PushStubCode
@@ -1190,7 +1190,7 @@ MacroAssembler
 enterFakeExitFrame
 (
 Register
-temp
+cxreg
 enum
 ExitFrameTokenValues
 token
@@ -1198,7 +1198,7 @@ token
 {
 linkExitFrame
 (
-temp
+cxreg
 )
 ;
 Push
@@ -1225,14 +1225,14 @@ MacroAssembler
 enterFakeExitFrameForNative
 (
 Register
-temp
+cxreg
 bool
 isConstructing
 )
 {
 enterFakeExitFrame
 (
-temp
+cxreg
 isConstructing
 ?
 ConstructNativeExitFrameLayoutToken

@@ -4023,7 +4023,7 @@ masm
 .
 enterFakeExitFrame
 (
-scratchReg
+argJSContextReg
 IonOOLNativeExitFrameLayoutToken
 )
 ;
@@ -4293,7 +4293,7 @@ masm
 .
 enterFakeExitFrame
 (
-scratchReg
+argJSContextReg
 IonOOLPropertyOpExitFrameLayoutToken
 )
 ;
