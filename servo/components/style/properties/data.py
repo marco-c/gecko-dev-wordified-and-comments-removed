@@ -523,6 +523,9 @@ False
 allowed_in_keyframe_block
 =
 True
+complex_color
+=
+False
 )
 :
         
@@ -643,6 +646,12 @@ or
 split
 (
 )
+        
+self
+.
+complex_color
+=
+complex_color
         
 self
 .

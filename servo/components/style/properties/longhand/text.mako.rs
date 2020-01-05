@@ -1495,6 +1495,9 @@ alpha
 }
 )
 "
+complex_color
+=
+True
 products
 =
 "
