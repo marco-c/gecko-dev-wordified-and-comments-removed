@@ -518,7 +518,7 @@ PreTraverse
 (
 )
 ;
-void
+bool
 PreTraverse
 (
 dom
