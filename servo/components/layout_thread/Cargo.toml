@@ -276,9 +276,7 @@ selectors
 "
 0
 .
-15
-.
-1
+17
 "
 serde_derive
 =

@@ -1216,6 +1216,7 @@ match_non_ts_pseudo_class
 self
 pseudo_class
 :
+&
 NonTSPseudoClass
 )
 -
@@ -1230,7 +1231,6 @@ SelectorImpl
 :
 pseudo_class_state_flag
 (
-&
 pseudo_class
 )
 ;

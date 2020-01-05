@@ -3455,6 +3455,7 @@ match_non_ts_pseudo_class
 self
 pseudo_class
 :
+&
 NonTSPseudoClass
 )
 -
@@ -3462,6 +3463,7 @@ NonTSPseudoClass
 bool
 {
 match
+*
 pseudo_class
 {
 NonTSPseudoClass
@@ -4443,6 +4445,7 @@ self
 .
 match_non_ts_pseudo_class
 (
+&
 NonTSPseudoClass
 :
 :

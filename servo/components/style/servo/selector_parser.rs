@@ -2349,6 +2349,7 @@ self
 .
 match_non_ts_pseudo_class
 (
+&
 NonTSPseudoClass
 :
 :
