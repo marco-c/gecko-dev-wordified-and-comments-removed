@@ -370,13 +370,11 @@ void
 send
 (
 optional
-/
-*
+(
 Document
 or
-*
-/
 BodyInit
+)
 ?
 data
 =
