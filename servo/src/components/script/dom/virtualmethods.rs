@@ -433,6 +433,9 @@ bind_to_tree
 (
 &
 self
+tree_in_doc
+:
+bool
 )
 {
 match
@@ -453,6 +456,7 @@ s
 .
 bind_to_tree
 (
+tree_in_doc
 )
 _
 =
@@ -466,6 +470,9 @@ unbind_from_tree
 (
 &
 self
+tree_in_doc
+:
+bool
 )
 {
 match
@@ -486,6 +493,7 @@ s
 .
 unbind_from_tree
 (
+tree_in_doc
 )
 _
 =
