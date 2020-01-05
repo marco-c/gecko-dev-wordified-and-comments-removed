@@ -1755,6 +1755,9 @@ cairo_clip_path_t
 *
 clip_path
 ;
+cairo_bool_t
+is_empty
+;
 if
 (
 other_path
@@ -1893,6 +1896,8 @@ prev
 NULL
 )
 {
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
@@ -2445,6 +2450,9 @@ cairo_clip_path_t
 path
 )
 {
+cairo_status_t
+status
+;
 if
 (
 path
@@ -2455,6 +2463,8 @@ prev
 =
 NULL
 )
+status
+=
 _cairo_clip_apply_clip_path
 (
 clip
@@ -6908,6 +6918,9 @@ rect
 cairo_box_t
 box
 ;
+cairo_bool_t
+is_empty
+;
 box
 .
 p1
@@ -7064,6 +7077,8 @@ box
 rect
 )
 ;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
@@ -7075,6 +7090,8 @@ bounded
 rect
 )
 ;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &

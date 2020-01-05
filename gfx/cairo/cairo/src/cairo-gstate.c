@@ -6082,6 +6082,11 @@ clip_extents
 NULL
 )
 {
+cairo_bool_t
+is_empty
+;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 extents
