@@ -44,7 +44,7 @@ thread_local
 !
 (
 static
-task_local_tid
+TASK_LOCAL_TID
 :
 Rc
 <
@@ -80,7 +80,7 @@ tid
 >
 uint
 {
-task_local_tid
+TASK_LOCAL_TID
 .
 with
 (

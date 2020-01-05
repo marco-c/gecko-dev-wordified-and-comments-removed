@@ -519,7 +519,7 @@ borrow
 (
 )
 .
-find_equiv
+get
 (
 type_
 )
@@ -588,7 +588,7 @@ borrow
 (
 )
 .
-find_equiv
+get
 (
 type_
 )

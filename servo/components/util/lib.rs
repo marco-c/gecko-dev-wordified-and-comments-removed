@@ -27,6 +27,14 @@ unused_variables
 #
 !
 [
+allow
+(
+missing_copy_implementations
+)
+]
+#
+!
+[
 feature
 (
 phase

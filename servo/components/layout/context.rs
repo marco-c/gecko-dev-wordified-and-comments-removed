@@ -150,7 +150,7 @@ thread_local
 !
 (
 static
-local_context_key
+LOCAL_CONTEXT_KEY
 :
 Cell
 <
@@ -186,7 +186,7 @@ SharedLayoutContext
 mut
 LocalLayoutContext
 {
-local_context_key
+LOCAL_CONTEXT_KEY
 .
 with
 (

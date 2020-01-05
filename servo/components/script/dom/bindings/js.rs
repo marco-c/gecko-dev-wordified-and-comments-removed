@@ -62,7 +62,7 @@ use
 script_task
 :
 :
-StackRoots
+STACK_ROOTS
 ;
 use
 servo_util
@@ -316,7 +316,7 @@ Root
 T
 >
 {
-StackRoots
+STACK_ROOTS
 .
 with
 (
@@ -616,7 +616,7 @@ Root
 T
 >
 {
-StackRoots
+STACK_ROOTS
 .
 with
 (

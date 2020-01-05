@@ -56,7 +56,7 @@ thread_local
 !
 (
 static
-state_key
+STATE_KEY
 :
 RefCell
 <
@@ -244,7 +244,7 @@ String
 >
 Scope
 {
-state_key
+STATE_KEY
 .
 with
 (
@@ -360,7 +360,7 @@ mut
 self
 )
 {
-state_key
+STATE_KEY
 .
 with
 (
@@ -501,7 +501,7 @@ FlowRef
 assert
 !
 (
-state_key
+STATE_KEY
 .
 with
 (
@@ -521,7 +521,7 @@ is_none
 )
 )
 ;
-state_key
+STATE_KEY
 .
 with
 (
@@ -613,7 +613,7 @@ let
 mut
 task_state
 =
-state_key
+STATE_KEY
 .
 with
 (

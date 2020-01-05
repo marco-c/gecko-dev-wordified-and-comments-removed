@@ -4907,7 +4907,6 @@ selectors
 map
 (
 |
-mut
 iter
 |
 {

@@ -474,8 +474,6 @@ T
 >
 )
 {
-unsafe
-{
 let
 mut
 pool
@@ -535,7 +533,6 @@ push
 (
 buf
 )
-}
 }
 }
 }

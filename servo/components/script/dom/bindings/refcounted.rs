@@ -113,7 +113,7 @@ thread_local
 (
 pub
 static
-LiveReferences
+LIVE_REFERENCES
 :
 Rc
 <
@@ -223,7 +223,7 @@ Trusted
 T
 >
 {
-LiveReferences
+LIVE_REFERENCES
 .
 with
 (
@@ -338,7 +338,7 @@ T
 assert
 !
 (
-LiveReferences
+LIVE_REFERENCES
 .
 with
 (
@@ -611,7 +611,7 @@ initialize
 (
 )
 {
-LiveReferences
+LIVE_REFERENCES
 .
 with
 (
@@ -825,7 +825,7 @@ libc
 c_void
 )
 {
-LiveReferences
+LIVE_REFERENCES
 .
 with
 (
