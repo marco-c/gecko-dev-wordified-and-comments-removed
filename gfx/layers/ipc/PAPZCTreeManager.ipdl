@@ -649,13 +649,6 @@ aGuid
 )
 ;
 async
-AdjustScrollForSurfaceShift
-(
-ScreenPoint
-aShift
-)
-;
-async
 SetDPI
 (
 float

@@ -144,16 +144,6 @@ aGuid
 override
 ;
 void
-AdjustScrollForSurfaceShift
-(
-const
-ScreenPoint
-&
-aShift
-)
-override
-;
-void
 SetDPI
 (
 float

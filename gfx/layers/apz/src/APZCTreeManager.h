@@ -353,7 +353,6 @@ ScreenPoint
 &
 aShift
 )
-override
 ;
 void
 ClearTree
