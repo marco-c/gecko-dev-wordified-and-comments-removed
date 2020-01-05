@@ -198,6 +198,7 @@ mut
 self
 name
 :
+&
 DOMString
 value
 :
@@ -259,9 +260,11 @@ mut
 self
 name
 :
+&
 DOMString
 value
 :
+&
 DOMString
 )
 {
@@ -278,7 +281,14 @@ to_str
 )
 StringData
 (
+(
+*
 value
+)
+.
+clone
+(
+)
 )
 )
 ;

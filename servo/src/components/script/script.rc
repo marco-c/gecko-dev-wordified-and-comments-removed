@@ -288,6 +288,10 @@ HTMLCollectionBinding
 ;
 pub
 mod
+HTMLDocumentBinding
+;
+pub
+mod
 MouseEventBinding
 ;
 pub
@@ -351,6 +355,10 @@ formdata
 pub
 mod
 htmlcollection
+;
+pub
+mod
+htmldocument
 ;
 pub
 mod
