@@ -668,9 +668,6 @@ self
 .
 node
 )
-!
-=
-0
 }
 }
 fn
@@ -691,9 +688,6 @@ self
 .
 node
 )
-!
-=
-0
 }
 }
 fn
@@ -2549,9 +2543,6 @@ self
 .
 element
 )
-!
-=
-0
 }
 }
 fn
@@ -2783,9 +2774,6 @@ self
 .
 element
 )
-!
-=
-0
 }
 NonTSPseudoClass
 :
@@ -2801,9 +2789,6 @@ self
 .
 element
 )
-!
-=
-0
 }
 NonTSPseudoClass
 :
@@ -2819,9 +2804,6 @@ self
 .
 element
 )
-!
-=
-0
 }
 NonTSPseudoClass
 :
@@ -3220,9 +3202,6 @@ self
 .
 element
 )
-!
-=
-0
 }
 }
 }
