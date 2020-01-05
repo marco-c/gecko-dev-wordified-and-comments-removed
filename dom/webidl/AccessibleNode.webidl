@@ -139,5 +139,15 @@ DOMString
 states
 )
 ;
+[
+Throws
+]
+any
+get
+(
+DOMString
+attribute
+)
+;
 }
 ;
