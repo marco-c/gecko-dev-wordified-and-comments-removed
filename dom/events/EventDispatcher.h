@@ -195,6 +195,10 @@ mMayHaveListenerManager
 (
 true
 )
+mWantsPreHandleEvent
+(
+false
+)
 mParentTarget
 (
 nullptr
@@ -238,6 +242,10 @@ mMayHaveListenerManager
 =
 true
 ;
+mWantsPreHandleEvent
+=
+false
+;
 mParentTarget
 =
 nullptr
@@ -267,6 +275,9 @@ mWantsWillHandleEvent
 ;
 bool
 mMayHaveListenerManager
+;
+bool
+mWantsPreHandleEvent
 ;
 dom
 :
