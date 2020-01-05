@@ -12176,13 +12176,6 @@ MIRType
 Double
 )
 ;
-gen
--
->
-setPerformsCall
-(
-)
-;
 LDefinition
 maybeTemp
 =
@@ -29472,13 +29465,6 @@ MWasmCall
 ins
 )
 {
-gen
--
->
-setPerformsCall
-(
-)
-;
 LAllocation
 *
 args
