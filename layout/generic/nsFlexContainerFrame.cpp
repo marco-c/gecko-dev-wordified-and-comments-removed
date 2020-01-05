@@ -10251,6 +10251,12 @@ mAlignContent
 =
 =
 NS_STYLE_ALIGN_SPACE_AROUND
+|
+|
+mAlignContent
+=
+=
+NS_STYLE_ALIGN_SPACE_EVENLY
 )
 {
 mAlignContent
@@ -10413,9 +10419,6 @@ case
 NS_STYLE_ALIGN_SELF_END
 :
 case
-NS_STYLE_ALIGN_SPACE_EVENLY
-:
-case
 NS_STYLE_ALIGN_BASELINE
 :
 case
@@ -10445,10 +10448,6 @@ start
 self
 -
 end
-/
-space
--
-evenly
 /
 baseline
 /
@@ -10492,6 +10491,9 @@ NS_STYLE_ALIGN_SPACE_BETWEEN
 :
 case
 NS_STYLE_ALIGN_SPACE_AROUND
+:
+case
+NS_STYLE_ALIGN_SPACE_EVENLY
 :
 nsFlexContainerFrame
 :
@@ -10692,6 +10694,12 @@ mAlignContent
 =
 =
 NS_STYLE_ALIGN_SPACE_AROUND
+|
+|
+mAlignContent
+=
+=
+NS_STYLE_ALIGN_SPACE_EVENLY
 "
 mNumPackingSpacesRemaining
 only
@@ -10706,6 +10714,10 @@ between
 space
 -
 around
+/
+space
+-
+evenly
 "
 )
 ;
