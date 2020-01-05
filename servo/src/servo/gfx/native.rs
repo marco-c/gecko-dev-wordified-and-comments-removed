@@ -1,5 +1,8 @@
 pub
 use
+gfx
+:
+:
 font
 :
 :
@@ -7,6 +10,9 @@ FontHandle
 ;
 pub
 use
+gfx
+:
+:
 font_context
 :
 :
@@ -14,6 +20,9 @@ FontContextHandle
 ;
 pub
 use
+gfx
+:
+:
 font_list
 :
 :
