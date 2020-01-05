@@ -8,6 +8,9 @@ struct
 ID3D11Device
 ;
 struct
+IDXGIAdapter
+;
+struct
 DXGI_ADAPTER_DESC
 ;
 namespace
@@ -71,6 +74,15 @@ device
 DXGI_ADAPTER_DESC
 *
 out
+)
+;
+static
+bool
+DoesRemotePresentWork
+(
+IDXGIAdapter
+*
+adapter
 )
 ;
 }
