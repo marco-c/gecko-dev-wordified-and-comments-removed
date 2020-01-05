@@ -53,6 +53,7 @@ recipe
 -
 client
 "
+;
 let
 rootLogger
 =
