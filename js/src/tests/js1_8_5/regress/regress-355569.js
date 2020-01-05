@@ -15,6 +15,12 @@ expect
 '
 '
 ;
+var
+summary
+=
+'
+'
+;
 printBugNumber
 (
 bug
