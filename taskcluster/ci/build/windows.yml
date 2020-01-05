@@ -28,7 +28,9 @@ treeherder
 :
 platform
 :
-windowsxp
+windows2012
+-
+32
 /
 debug
 symbol
@@ -125,7 +127,9 @@ treeherder
 :
 platform
 :
-windowsxp
+windows2012
+-
+32
 /
 opt
 symbol
@@ -222,7 +226,7 @@ treeherder
 :
 platform
 :
-windows8
+windows2012
 -
 64
 /
@@ -321,7 +325,7 @@ treeherder
 :
 platform
 :
-windows8
+windows2012
 -
 64
 /
