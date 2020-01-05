@@ -17,6 +17,7 @@ BinarySearchMethods
 T
 :
 Ord
++
 Eq
 >
 {
@@ -66,6 +67,7 @@ impl
 T
 :
 Ord
++
 Eq
 >
 BinarySearchMethods
@@ -311,6 +313,7 @@ test_find_all_elems
 T
 :
 Eq
++
 Ord
 >
 (
@@ -370,6 +373,7 @@ test_miss_all_elems
 T
 :
 Eq
++
 Ord
 >
 (

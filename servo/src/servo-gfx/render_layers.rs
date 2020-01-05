@@ -56,7 +56,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 Chan
@@ -896,7 +896,7 @@ new_buffer_port
 new_buffer_chan
 )
 =
-pipes
+comm
 :
 :
 stream

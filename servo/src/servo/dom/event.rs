@@ -6,7 +6,7 @@ ResizeEvent
 (
 uint
 uint
-pipes
+comm
 :
 :
 Chan

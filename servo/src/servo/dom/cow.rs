@@ -31,13 +31,12 @@ vec
 :
 push
 ;
-type
+struct
 ScopeData
 <
 T
 A
 >
-=
 {
 mut
 layout_active
@@ -63,7 +62,6 @@ T
 A
 >
 }
-;
 struct
 ScopeResource
 <
@@ -727,6 +725,7 @@ impl
 T
 :
 Copy
++
 Owned
 A
 >
@@ -1103,6 +1102,7 @@ A
 {
 ScopeResource
 (
+ScopeData
 {
 mut
 layout_active
@@ -1132,6 +1132,7 @@ impl
 T
 :
 Copy
++
 Owned
 A
 >

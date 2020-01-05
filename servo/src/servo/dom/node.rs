@@ -154,9 +154,8 @@ super
 cow
 ;
 pub
-enum
+struct
 NodeData
-=
 {
 tree
 :
@@ -172,7 +171,6 @@ kind
 ~
 NodeKind
 }
-;
 /
 *
 The
@@ -770,9 +768,9 @@ compartment
 )
 ;
 }
-enum
+pub
+struct
 LayoutData
-=
 {
 mut
 style
@@ -789,7 +787,6 @@ Option
 FlowContext
 >
 }
-;
 pub
 type
 Node
@@ -878,7 +875,6 @@ handle
 (
 &
 NodeData
-(
 {
 tree
 :
@@ -893,7 +889,6 @@ kind
 ~
 k
 }
-)
 )
 }
 }

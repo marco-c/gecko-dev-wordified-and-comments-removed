@@ -58,7 +58,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -276,7 +276,7 @@ Msg
 {
 BeginDrawing
 (
-pipes
+comm
 :
 :
 Chan
@@ -286,7 +286,7 @@ LayerBufferSet
 )
 Draw
 (
-pipes
+comm
 :
 :
 Chan
@@ -297,7 +297,7 @@ LayerBufferSet
 )
 AddKeyHandler
 (
-pipes
+comm
 :
 :
 Chan
@@ -314,7 +314,7 @@ OSMain
 (
 dom_event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -1840,7 +1840,7 @@ begin_drawing
 (
 next_dt
 :
-pipes
+comm
 :
 :
 Chan
@@ -1866,7 +1866,7 @@ draw
 (
 next_dt
 :
-pipes
+comm
 :
 :
 Chan
@@ -1913,7 +1913,7 @@ surfaces
 SurfaceSet
 receiver
 :
-pipes
+comm
 :
 :
 Chan
@@ -2344,7 +2344,7 @@ setup_po
 setup_ch
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -2375,7 +2375,7 @@ po
 ch
 )
 =
-pipes
+comm
 :
 :
 stream

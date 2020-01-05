@@ -426,7 +426,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -653,7 +653,7 @@ dom_event_port
 dom_event_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -663,7 +663,7 @@ stream
 let
 dom_event_chan
 =
-pipes
+comm
 :
 :
 SharedChan
@@ -710,7 +710,7 @@ keypress_from_osmain
 keypress_to_engine
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -887,7 +887,7 @@ exit_response_from_engine
 exit_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -1036,7 +1036,7 @@ dom_event_port
 dom_event_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -1046,7 +1046,7 @@ stream
 let
 dom_event_chan
 =
-pipes
+comm
 :
 :
 SharedChan
@@ -1176,7 +1176,7 @@ exit_chan
 exit_response_from_engine
 )
 =
-pipes
+comm
 :
 :
 stream

@@ -158,7 +158,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -490,7 +490,7 @@ url
 Url
 dom_event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -505,7 +505,7 @@ uint
 >
 content_join_chan
 :
-pipes
+comm
 :
 :
 Chan
@@ -1662,7 +1662,7 @@ make_on_image_available_cb
 (
 dom_event_chan
 :
-pipes
+comm
 :
 :
 SharedChan

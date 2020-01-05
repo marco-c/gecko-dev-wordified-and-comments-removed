@@ -41,6 +41,8 @@ jsid
 JSClass
 JSFreeOp
 JSPropertySpec
+JSPropertyOpWrapper
+JSStrictPropertyOpWrapper
 }
 ;
 use
@@ -307,6 +309,7 @@ attrs
 =
 ~
 [
+JSPropertySpec
 {
 name
 :
@@ -335,6 +338,7 @@ as
 u8
 getter
 :
+JSPropertyOpWrapper
 {
 op
 :
@@ -347,6 +351,7 @@ null
 }
 setter
 :
+JSStrictPropertyOpWrapper
 {
 op
 :
@@ -360,6 +365,7 @@ null
 )
 }
 }
+JSPropertySpec
 {
 name
 :
@@ -382,6 +388,7 @@ as
 u8
 getter
 :
+JSPropertyOpWrapper
 {
 op
 :
@@ -396,6 +403,7 @@ null
 }
 setter
 :
+JSStrictPropertyOpWrapper
 {
 op
 :
@@ -584,6 +592,7 @@ attrs
 =
 ~
 [
+JSPropertySpec
 {
 name
 :
@@ -612,6 +621,7 @@ as
 u8
 getter
 :
+JSPropertyOpWrapper
 {
 op
 :
@@ -624,6 +634,7 @@ null
 }
 setter
 :
+JSStrictPropertyOpWrapper
 {
 op
 :
@@ -635,6 +646,7 @@ null
 )
 }
 }
+JSPropertySpec
 {
 name
 :
@@ -657,6 +669,7 @@ as
 u8
 getter
 :
+JSPropertyOpWrapper
 {
 op
 :
@@ -671,6 +684,7 @@ null
 }
 setter
 :
+JSStrictPropertyOpWrapper
 {
 op
 :

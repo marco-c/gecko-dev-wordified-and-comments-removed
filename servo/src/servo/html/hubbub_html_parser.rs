@@ -127,7 +127,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -545,7 +545,7 @@ result_port
 result_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -573,7 +573,7 @@ input_port
 input_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -3041,7 +3041,7 @@ input_port
 input_chan
 )
 =
-pipes
+comm
 :
 :
 stream

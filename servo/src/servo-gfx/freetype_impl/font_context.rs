@@ -157,6 +157,9 @@ succeeded
 )
 {
 fail
+!
+(
+)
 ;
 }
 FreeTypeFontContextHandle

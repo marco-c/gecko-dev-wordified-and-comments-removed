@@ -82,7 +82,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -224,7 +224,7 @@ opts
 Opts
 dom_event_port
 :
-pipes
+comm
 :
 :
 Port
@@ -233,7 +233,7 @@ Event
 >
 dom_event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -545,7 +545,7 @@ response_port
 response_chan
 )
 =
-pipes
+comm
 :
 :
 stream

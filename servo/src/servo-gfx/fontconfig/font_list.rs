@@ -20,7 +20,10 @@ use
 gfx_font
 :
 :
+{
 FontHandle
+FontHandleMethods
+}
 ;
 use
 gfx_font_list
@@ -31,6 +34,12 @@ FontEntry
 FontFamily
 FontFamilyMap
 }
+;
+use
+gfx_font_context
+:
+:
+FontContextHandleMethods
 ;
 use
 freetype_impl
@@ -666,6 +675,9 @@ c_char
 else
 {
 fail
+!
+(
+)
 ;
 }
 }
@@ -716,6 +728,9 @@ index
 else
 {
 fail
+!
+(
+)
 ;
 }
 }

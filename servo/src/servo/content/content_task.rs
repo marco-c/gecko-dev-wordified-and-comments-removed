@@ -101,15 +101,23 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
 Port
 Chan
 SharedChan
-select2
 }
+;
+use
+core
+:
+:
+pipes
+:
+:
+select2i
 ;
 use
 core
@@ -423,7 +431,7 @@ control_port
 control_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -548,7 +556,7 @@ layout_join_port
 :
 Option
 <
-pipes
+comm
 :
 :
 Port
@@ -562,7 +570,7 @@ image_cache_task
 ImageCacheTask
 control_port
 :
-pipes
+comm
 :
 :
 Port
@@ -571,7 +579,7 @@ ControlMsg
 >
 control_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -580,7 +588,7 @@ ControlMsg
 >
 event_port
 :
-pipes
+comm
 :
 :
 Port
@@ -589,7 +597,7 @@ Event
 >
 event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -666,7 +674,7 @@ layout_task
 LayoutTask
 control_port
 :
-pipes
+comm
 :
 :
 Port
@@ -675,7 +683,7 @@ ControlMsg
 >
 control_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -690,7 +698,7 @@ img_cache_task
 ImageCacheTask
 event_port
 :
-pipes
+comm
 :
 :
 Port
@@ -699,7 +707,7 @@ Event
 >
 event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -924,9 +932,6 @@ handle_msg
 bool
 {
 match
-pipes
-:
-:
 select2i
 (
 &
@@ -1881,7 +1886,7 @@ join_port
 join_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -2054,7 +2059,7 @@ response_port
 response_chan
 )
 =
-pipes
+comm
 :
 :
 stream

@@ -5,12 +5,11 @@ core
 vec
 ;
 pub
-type
+struct
 Tree
 <
 T
 >
-=
 {
 mut
 parent
@@ -48,7 +47,6 @@ Option
 T
 >
 }
-;
 pub
 trait
 ReadMethods
@@ -505,6 +503,7 @@ Tree
 T
 >
 {
+Tree
 {
 mut
 parent

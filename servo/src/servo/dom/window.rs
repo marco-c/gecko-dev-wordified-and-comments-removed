@@ -2,7 +2,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -376,7 +376,7 @@ Window
 (
 content_chan
 :
-pipes
+comm
 :
 :
 SharedChan

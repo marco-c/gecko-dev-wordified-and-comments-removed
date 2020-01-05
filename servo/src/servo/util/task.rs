@@ -2,19 +2,13 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
 Chan
 Port
 }
-;
-use
-core
-:
-:
-pipes
 ;
 use
 core
@@ -64,7 +58,7 @@ setup_po
 setup_ch
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -83,7 +77,7 @@ po
 ch
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -155,7 +149,7 @@ from_child
 to_parent
 )
 =
-pipes
+comm
 :
 :
 stream
