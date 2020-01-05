@@ -3201,6 +3201,10 @@ MOZ_DIAGNOSTIC_ASSERT
 mInitAction
 )
 ;
+mData
+=
+nullptr
+;
 return
 ;
 }
