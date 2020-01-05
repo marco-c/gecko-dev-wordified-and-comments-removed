@@ -664,6 +664,14 @@ localType
 1
 )
 ;
+counts
+.
+set
+(
+DEVICE_TYPE_MOBILE
+0
+)
+;
 for
 (
 let
@@ -2082,9 +2090,7 @@ deviceType
 )
 {
 case
-"
-desktop
-"
+DEVICE_TYPE_DESKTOP
 :
 hid
 =
@@ -2102,9 +2108,7 @@ desktop
 break
 ;
 case
-"
-mobile
-"
+DEVICE_TYPE_MOBILE
 :
 hid
 =
