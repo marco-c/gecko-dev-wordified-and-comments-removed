@@ -1546,6 +1546,10 @@ if
 (
 !
 maskSurface
+|
+|
+!
+maskSurface
 -
 >
 Map
