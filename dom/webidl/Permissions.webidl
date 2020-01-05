@@ -129,6 +129,11 @@ notifications
 "
 push
 "
+"
+persistent
+-
+storage
+"
 /
 /
 Unsupported

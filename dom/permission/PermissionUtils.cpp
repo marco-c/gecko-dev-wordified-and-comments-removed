@@ -32,6 +32,11 @@ desktop
 -
 notification
 "
+"
+persistent
+-
+storage
+"
 }
 ;
 const
