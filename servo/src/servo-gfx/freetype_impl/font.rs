@@ -20,7 +20,6 @@ gfx_font
 :
 {
 CSSFontWeight
-FontHandle
 FontHandleMethods
 FontMetrics
 FontTable
@@ -82,7 +81,6 @@ freetype
 :
 {
 FTErrorMethods
-FT_Error
 FT_F26Dot6
 FT_Face
 FT_FaceRec
@@ -90,7 +88,6 @@ FT_GlyphSlot
 FT_Library
 FT_Long
 FT_ULong
-FT_Size
 FT_SizeRec
 FT_UInt
 FT_Size_Metrics
@@ -113,8 +110,6 @@ bindgen
 :
 :
 {
-FT_Init_FreeType
-FT_Done_FreeType
 FT_New_Memory_Face
 FT_Done_Face
 FT_Get_Char_Index
@@ -260,6 +255,10 @@ face
 :
 FT_Face
 }
+#
+[
+unsafe_destructor
+]
 impl
 Drop
 for
@@ -272,7 +271,7 @@ finalize
 self
 )
 {
-fail_unless
+assert
 !
 (
 self
@@ -1399,7 +1398,7 @@ Option
 GlyphIndex
 >
 {
-fail_unless
+assert
 !
 (
 self
@@ -1476,7 +1475,7 @@ Option
 FractionalPixel
 >
 {
-fail_unless
+assert
 !
 (
 self
@@ -1536,7 +1535,7 @@ transmute
 void_glyph
 )
 ;
-fail_unless
+assert
 !
 (
 slot
@@ -1924,7 +1923,7 @@ em_size
 as
 float
 ;
-fail_unless
+assert
 !
 (
 metrics

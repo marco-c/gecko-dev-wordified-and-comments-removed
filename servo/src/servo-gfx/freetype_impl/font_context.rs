@@ -18,7 +18,6 @@ freetype
 :
 {
 FTErrorMethods
-FT_Error
 FT_Library
 }
 ;
@@ -92,7 +91,7 @@ finalize
 self
 )
 {
-fail_unless
+assert
 !
 (
 self
