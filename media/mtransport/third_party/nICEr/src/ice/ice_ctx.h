@@ -117,6 +117,9 @@ id
 int
 transport
 ;
+int
+tls
+;
 }
 nr_ice_stun_server
 ;
