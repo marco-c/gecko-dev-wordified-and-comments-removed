@@ -185,9 +185,14 @@ selectedBrowser
 ;
 certErrorLoaded
 =
-waitForCertErrorLoad
+BrowserTestUtils
+.
+waitForContentEvent
 (
 browser
+"
+DOMContentLoaded
+"
 )
 ;
 return
@@ -457,7 +462,9 @@ true
 let
 errorTabReloaded
 =
-waitForCertErrorLoad
+BrowserTestUtils
+.
+waitForErrorPage
 (
 browser
 )
