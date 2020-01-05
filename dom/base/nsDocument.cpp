@@ -17938,6 +17938,13 @@ GetRootElementInternal
 )
 const
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 uint32_t
 i
 ;
