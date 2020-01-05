@@ -4541,8 +4541,6 @@ true
 )
 ;
 }
-else
-{
 if
 (
 !
@@ -4566,7 +4564,6 @@ UnsetExceptionHandler
 (
 )
 ;
-}
 }
 NS_IMETHODIMP
 nsXULAppInfo
@@ -6913,7 +6910,6 @@ return
 REMOTE_ARG_BAD
 ;
 }
-else
 if
 (
 ar
@@ -9138,7 +9134,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
 if
 (
 ar
@@ -9198,7 +9193,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
 if
 (
 ar
@@ -10425,7 +10419,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
 if
 (
 ar
@@ -12647,7 +12640,6 @@ return
 display_name
 ;
 }
-else
 if
 (
 tryWayland
@@ -12669,7 +12661,6 @@ return
 display_name
 ;
 }
-else
 if
 (
 tryBroadway
@@ -13559,7 +13550,6 @@ return
 1
 ;
 }
-else
 if
 (
 ar
@@ -14824,7 +14814,6 @@ return
 1
 ;
 }
-else
 if
 (
 ar
@@ -15251,7 +15240,6 @@ return
 1
 ;
 }
-else
 if
 (
 ar
@@ -15320,7 +15308,6 @@ return
 1
 ;
 }
-else
 if
 (
 ar
@@ -15469,7 +15456,6 @@ return
 1
 ;
 }
-else
 if
 (
 ar
@@ -16980,7 +16966,6 @@ return
 0
 ;
 }
-else
 if
 (
 rr
