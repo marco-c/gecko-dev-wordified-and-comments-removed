@@ -1286,6 +1286,8 @@ aOffsetForContextMenu
 FlipStyle
 aFlip
 bool
+aIsOnEnd
+bool
 *
 aFlipSide
 )
