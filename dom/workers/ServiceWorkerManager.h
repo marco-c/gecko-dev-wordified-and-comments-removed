@@ -783,6 +783,8 @@ const
 nsCString
 &
 aScope
+uint64_t
+aServiceWorkerID
 bool
 aIncludeUncontrolled
 nsTArray

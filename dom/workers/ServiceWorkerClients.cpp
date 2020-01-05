@@ -852,9 +852,15 @@ PromiseWorkerProxy
 >
 mPromiseProxy
 ;
+const
 nsCString
 mScope
 ;
+const
+uint64_t
+mServiceWorkerID
+;
+const
 bool
 mIncludeUncontrolled
 ;
@@ -869,6 +875,8 @@ const
 nsCString
 &
 aScope
+uint64_t
+aServiceWorkerID
 bool
 aIncludeUncontrolled
 )
@@ -880,6 +888,10 @@ aPromiseProxy
 mScope
 (
 aScope
+)
+mServiceWorkerID
+(
+aServiceWorkerID
 )
 mIncludeUncontrolled
 (
@@ -968,6 +980,7 @@ GetPrincipal
 (
 )
 mScope
+mServiceWorkerID
 mIncludeUncontrolled
 result
 )
@@ -3520,6 +3533,12 @@ promiseProxy
 NS_ConvertUTF16toUTF8
 (
 scope
+)
+workerPrivate
+-
+>
+ServiceWorkerID
+(
 )
 aOptions
 .
