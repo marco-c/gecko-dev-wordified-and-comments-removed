@@ -138,6 +138,9 @@ namespace
 layers
 {
 class
+StackingContextHelper
+;
+class
 WebRenderDisplayItemLayer
 ;
 }
@@ -338,6 +341,16 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+mozilla
+:
+:
+layers
+:
+:
+StackingContextHelper
+&
+aSc
 mozilla
 :
 :

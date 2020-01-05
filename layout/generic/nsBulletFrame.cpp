@@ -2268,6 +2268,7 @@ aLayer
 PushItemAsImage
 (
 aBuilder
+aSc
 aParentCommands
 )
 )
