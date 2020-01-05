@@ -26,10 +26,6 @@ extern
 crate
 url
 ;
-extern
-crate
-util
-;
 #
 [
 cfg
