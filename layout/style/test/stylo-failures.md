@@ -2198,7 +2198,7 @@ for
 '
 clip
 [
-6
+4
 ]
 *
 initial
