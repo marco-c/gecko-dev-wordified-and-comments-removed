@@ -114,6 +114,10 @@ PIPCBlobInputStream
 ;
 include
 protocol
+PPendingIPCBlob
+;
+include
+protocol
 PMemoryStream
 ;
 include
@@ -154,6 +158,9 @@ PVsync
 ;
 include
 DOMTypes
+;
+include
+IPCBlob
 ;
 include
 PBackgroundSharedTypes
@@ -306,6 +313,9 @@ PIPCBlobInputStream
 ;
 manages
 PMemoryStream
+;
+manages
+PPendingIPCBlob
 ;
 manages
 PMessagePort
@@ -526,6 +536,13 @@ nsID
 aID
 uint64_t
 aSize
+)
+;
+async
+PPendingIPCBlob
+(
+IPCBlob
+blob
 )
 ;
 both
