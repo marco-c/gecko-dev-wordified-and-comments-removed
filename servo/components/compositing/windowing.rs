@@ -697,4 +697,14 @@ mods
 KeyModifiers
 )
 ;
+fn
+supports_clipboard
+(
+&
+self
+)
+-
+>
+bool
+;
 }
