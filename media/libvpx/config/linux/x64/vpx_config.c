@@ -19,7 +19,7 @@ cfg
 -
 target
 =
-x86
+x86_64
 -
 linux
 -
