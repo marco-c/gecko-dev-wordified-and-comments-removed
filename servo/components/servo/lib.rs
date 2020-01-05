@@ -872,6 +872,13 @@ enable_subpixel_text_antialiasing
 )
 }
 ;
+script
+:
+:
+init
+(
+)
+;
 let
 (
 constellation_chan
@@ -913,7 +920,7 @@ clone
 script
 :
 :
-init
+init_service_workers
 (
 sw_senders
 )
@@ -1808,6 +1815,13 @@ script
 :
 :
 init
+(
+)
+;
+script
+:
+:
+init_service_workers
 (
 sw_senders
 )
