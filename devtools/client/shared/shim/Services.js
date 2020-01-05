@@ -1330,6 +1330,9 @@ keyName
 userValue
 hasUserValue
 defaultValue
+init
+=
+false
 )
 {
 let
@@ -1448,6 +1451,9 @@ defaultValue
 }
 if
 (
+init
+|
+|
 branch
 .
 _type
@@ -1620,15 +1626,6 @@ function
 {
 if
 (
-localStorage
-.
-length
-=
-=
-=
-0
-&
-&
 Services
 .
 _defaultPrefsEnabled
@@ -1757,6 +1754,7 @@ length
 userValue
 hasUserValue
 defaultValue
+true
 )
 ;
 }
