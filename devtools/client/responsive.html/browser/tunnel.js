@@ -1187,6 +1187,10 @@ Findbar
 Finder
 :
 "
+"
+InlineSpellChecker
+:
+"
 ]
 INNER_TO_OUTER_MESSAGE_PREFIXES
 :
