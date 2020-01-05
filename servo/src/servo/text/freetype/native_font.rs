@@ -12,6 +12,12 @@ FractionalPixel
 }
 ;
 use
+native_font_matcher
+:
+:
+FreeTypeNativeFontMatcher
+;
+use
 gfx
 :
 :
@@ -204,10 +210,10 @@ pub
 fn
 new
 (
-lib
+matcher
 :
 &
-FT_Library
+FreeTypeNativeFontMatcher
 buf
 :
 ~
@@ -227,6 +233,13 @@ FreeTypeNativeFont
 )
 >
 {
+let
+lib
+=
+matcher
+.
+ft_lib
+;
 assert
 lib
 .
@@ -256,7 +269,6 @@ _len
 if
 FT_New_Memory_Face
 (
-*
 lib
 cbuf
 (

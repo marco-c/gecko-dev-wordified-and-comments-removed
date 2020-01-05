@@ -20,13 +20,10 @@ FractionalPixel
 }
 ;
 use
-font_cache
+native_font_matcher
 :
 :
-native
-:
-:
-NativeFontCache
+QuartzNativeFontMatcher
 ;
 use
 au
@@ -247,7 +244,7 @@ new
 _lib
 :
 &
-NativeFontCache
+QuartzNativeFontMatcher
 buf
 :
 ~

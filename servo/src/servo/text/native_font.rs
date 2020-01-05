@@ -1,11 +1,8 @@
 use
-font_cache
+native_font_matcher
 :
 :
-native
-:
-:
-NativeFontCache
+NativeFontMatcher
 ;
 #
 [
@@ -150,7 +147,7 @@ new
 native_lib
 :
 &
-NativeFontCache
+NativeFontMatcher
 buf
 :
 ~
@@ -209,7 +206,7 @@ new
 native_lib
 :
 &
-NativeFontCache
+NativeFontMatcher
 buf
 :
 ~
