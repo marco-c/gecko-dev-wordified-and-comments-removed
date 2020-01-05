@@ -522,6 +522,7 @@ element
 {
 ElementTypeId
 ActivationElementHelpers
+FocusElementHelpers
 }
 ;
 use
@@ -3356,6 +3357,13 @@ Element
 >
 )
 {
+if
+elem
+.
+is_focusable_area
+(
+)
+{
 self
 .
 possibly_focused
@@ -3367,6 +3375,7 @@ Some
 elem
 )
 )
+}
 }
 fn
 commit_focus_transaction
