@@ -213,6 +213,11 @@ LoadObjectResult
 \
 _
 (
+LoadTypeOfObjectResult
+)
+\
+_
+(
 MegamorphicLoadSlotByValueResult
 )
 \
