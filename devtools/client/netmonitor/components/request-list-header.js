@@ -465,7 +465,7 @@ id
 "
 requests
 -
-menu
+list
 -
 toolbar
 "
@@ -603,7 +603,7 @@ id
 :
 requests
 -
-menu
+list
 -
 {
 boxName
@@ -616,12 +616,12 @@ className
 :
 requests
 -
-menu
+list
 -
 header
 requests
 -
-menu
+list
 -
 {
 boxName
@@ -649,7 +649,7 @@ id
 :
 requests
 -
-menu
+list
 -
 {
 name
@@ -660,14 +660,14 @@ className
 :
 requests
 -
-menu
+list
 -
 header
 -
 button
 requests
 -
-menu
+list
 -
 {
 name
@@ -905,7 +905,7 @@ className
 "
 requests
 -
-menu
+list
 -
 timings
 -
@@ -955,7 +955,7 @@ button
 text
 requests
 -
-menu
+list
 -
 waterfall
 -
@@ -992,7 +992,7 @@ className
 "
 requests
 -
-menu
+list
 -
 waterfall
 -

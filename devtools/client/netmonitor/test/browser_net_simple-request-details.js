@@ -2755,7 +2755,7 @@ blocked
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -2812,7 +2812,7 @@ dns
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -2869,7 +2869,7 @@ connect
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -2926,7 +2926,7 @@ send
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -2983,7 +2983,7 @@ wait
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -3040,7 +3040,7 @@ receive
 .
 requests
 -
-menu
+list
 -
 timings
 -
