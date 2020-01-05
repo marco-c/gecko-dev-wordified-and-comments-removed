@@ -126,8 +126,6 @@ attribute
 long
 sectionRowIndex
 ;
-/
-/
 readonly
 attribute
 HTMLCollection
