@@ -1039,6 +1039,17 @@ AbstractFramePtr
 frame
 )
 ;
+MOZ_MUST_USE
+bool
+CheckStarGeneratorResumptionValue
+(
+JSContext
+*
+cx
+HandleValue
+v
+)
+;
 }
 template
 <
