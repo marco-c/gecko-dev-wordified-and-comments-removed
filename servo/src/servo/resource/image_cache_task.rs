@@ -23,8 +23,8 @@ base
 :
 :
 {
-ImageBuffer
-SharedImageBuffer
+Image
+load_from_memory
 }
 ;
 import
@@ -101,7 +101,7 @@ ImageResponseMsg
 {
 ImageReady
 (
-ImageBuffer
+Image
 )
 ImageNotReady
 }

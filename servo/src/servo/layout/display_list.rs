@@ -23,7 +23,7 @@ image
 base
 :
 :
-image
+Image
 ;
 import
 servo_text
@@ -61,7 +61,7 @@ display_item_image
 arc
 <
 ~
-image
+Image
 >
 )
 display_item_text

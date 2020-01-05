@@ -106,7 +106,7 @@ base
 :
 :
 {
-image
+Image
 load
 }
 ;
@@ -293,7 +293,7 @@ option
 arc
 <
 ~
-image
+Image
 >
 >
 {
@@ -600,7 +600,7 @@ option
 arc
 <
 ~
-image
+Image
 >
 >
 ;
@@ -654,7 +654,7 @@ get_image
 arc
 <
 ~
-image
+Image
 >
 {
 /

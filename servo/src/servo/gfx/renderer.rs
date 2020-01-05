@@ -23,7 +23,7 @@ image
 base
 :
 :
-image
+Image
 ;
 import
 dl
@@ -850,7 +850,7 @@ image
 arc
 <
 ~
-image
+Image
 >
 )
 unsafe
