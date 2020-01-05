@@ -1971,7 +1971,7 @@ platforms
 :
 [
 '
-linux
+linux32
 '
 '
 linux64
@@ -2137,7 +2137,7 @@ platforms
 :
 [
 '
-linux
+linux32
 '
 ]
 }
