@@ -1427,7 +1427,7 @@ true
 desktop
 :
 true
-disabled
+windows
 :
 true
 }
