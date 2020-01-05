@@ -270,9 +270,7 @@ status
 struct
 CDMInputBuffer
 {
-uint8_t
-[
-]
+Shmem
 mData
 ;
 uint8_t
