@@ -3006,6 +3006,7 @@ aRemoveOnly
 void
 ClearApproximatelyVisibleFramesList
 (
+const
 Maybe
 <
 mozilla
@@ -3013,6 +3014,7 @@ mozilla
 :
 OnNonvisible
 >
+&
 aNonvisibleAction
 =
 Nothing
@@ -3075,10 +3077,12 @@ DecApproximateVisibleCount
 VisibleFrames
 &
 aFrames
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 =
 Nothing

@@ -1496,6 +1496,7 @@ GridItemInfo
 aGridItemInfo
 nsSize
 aContainerSize
+const
 mozilla
 :
 :
@@ -1503,6 +1504,7 @@ Maybe
 <
 nscoord
 >
+&
 aStretchBSize
 const
 Fragmentainer

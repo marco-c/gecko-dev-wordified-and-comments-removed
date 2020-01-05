@@ -66,10 +66,12 @@ const
 CSSIntSize
 &
 aViewportSize
+const
 Maybe
 <
 SVGPreserveAspectRatio
 >
+&
 aPreserveAspectRatio
 =
 Nothing

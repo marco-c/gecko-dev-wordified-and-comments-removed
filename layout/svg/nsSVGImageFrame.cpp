@@ -331,10 +331,12 @@ OnVisibilityChange
 (
 Visibility
 aNewVisibility
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 =
 Nothing
@@ -1006,10 +1008,12 @@ OnVisibilityChange
 (
 Visibility
 aNewVisibility
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 )
 {
