@@ -3127,9 +3127,8 @@ rawHWNDAcc
 Unused
 <
 <
-SendParentCOMProxy
+SendEmulatedWindow
 (
-holder
 reinterpret_cast
 <
 uintptr_t
@@ -3138,6 +3137,14 @@ uintptr_t
 mEmulatedWindowHandle
 )
 hWndAccHolder
+)
+;
+Unused
+<
+<
+SendParentCOMProxy
+(
+holder
 )
 ;
 }

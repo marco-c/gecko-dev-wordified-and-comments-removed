@@ -371,6 +371,11 @@ ParentCOMProxy
 (
 IAccessibleHolder
 aParentCOMProxy
+)
+;
+async
+EmulatedWindow
+(
 WindowsHandle
 aEmulatedWindowHandle
 IAccessibleHolder
