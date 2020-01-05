@@ -88,9 +88,6 @@ canvas_traits
 }
 cookie
 =
-{
-version
-=
 "
 0
 .
@@ -98,16 +95,6 @@ version
 .
 5
 "
-features
-=
-[
-"
-serialize
--
-rustc
-"
-]
-}
 devtools_traits
 =
 {

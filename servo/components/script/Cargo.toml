@@ -249,9 +249,6 @@ caseless
 "
 cookie
 =
-{
-version
-=
 "
 0
 .
@@ -259,16 +256,6 @@ version
 .
 5
 "
-features
-=
-[
-"
-serialize
--
-rustc
-"
-]
-}
 cssparser
 =
 {
