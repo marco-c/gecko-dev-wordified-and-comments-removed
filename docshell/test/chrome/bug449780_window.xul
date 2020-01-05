@@ -385,6 +385,7 @@ tester
 =
 (
 function
+*
 (
 )
 {
@@ -591,9 +592,6 @@ SimpleTest
 finish
 (
 )
-;
-yield
-undefined
 ;
 }
 )

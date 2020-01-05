@@ -481,6 +481,7 @@ next
 ;
 }
 function
+*
 doTest
 (
 )
@@ -902,9 +903,6 @@ SimpleTest
 finish
 (
 )
-;
-yield
-undefined
 ;
 }
 ]
