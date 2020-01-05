@@ -6197,6 +6197,11 @@ mStyleDisplay
 IsOriginalDisplayInlineOutsideStyle
 (
 )
+|
+|
+mFlags
+.
+mIOffsetsNeedCSSAlign
 )
 {
 aHypotheticalPos
