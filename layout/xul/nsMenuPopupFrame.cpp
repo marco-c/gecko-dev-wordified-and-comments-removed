@@ -3747,6 +3747,10 @@ mPopupAlignment
 =
 POPUPALIGNMENT_NONE
 ;
+mPosition
+=
+POPUPPOSITION_UNKNOWN
+;
 mIsContextMenu
 =
 aIsContextMenu
@@ -3902,6 +3906,10 @@ POPUPALIGNMENT_NONE
 mPopupAlignment
 =
 POPUPALIGNMENT_NONE
+;
+mPosition
+=
+POPUPPOSITION_UNKNOWN
 ;
 mScreenRect
 =
@@ -4954,6 +4962,12 @@ popupAnchor
 =
 =
 POPUPALIGNMENT_BOTTOMLEFT
+|
+|
+popupAnchor
+=
+=
+POPUPALIGNMENT_BOTTOMRIGHT
 )
 ;
 MOZ_ASSERT
@@ -4962,6 +4976,12 @@ popupAlign
 =
 =
 POPUPALIGNMENT_TOPLEFT
+|
+|
+popupAlign
+=
+=
+POPUPALIGNMENT_TOPRIGHT
 )
 ;
 nsIFrame
