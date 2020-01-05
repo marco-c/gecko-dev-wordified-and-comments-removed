@@ -261,14 +261,6 @@ DOMString
 classNames
 )
 ;
-Element
-?
-getElementById
-(
-DOMString
-elementId
-)
-;
 [
 NewObject
 Throws
@@ -457,6 +449,10 @@ null
 )
 ;
 }
+;
+Document
+implements
+NonElementParentNode
 ;
 Document
 implements
