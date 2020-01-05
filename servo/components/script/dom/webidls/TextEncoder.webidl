@@ -78,17 +78,6 @@ textencoder
 /
 [
 Constructor
-(
-optional
-DOMString
-utfLabel
-=
-"
-utf
--
-8
-"
-)
 Exposed
 =
 (
