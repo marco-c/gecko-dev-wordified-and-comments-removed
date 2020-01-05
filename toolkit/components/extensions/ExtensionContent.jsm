@@ -1655,6 +1655,9 @@ contentWindow
 sandboxPrototype
 :
 contentWindow
+sameZoneAs
+:
+contentWindow
 wantXrays
 :
 false
@@ -1701,6 +1704,9 @@ principal
 {
 metadata
 sandboxPrototype
+:
+contentWindow
+sameZoneAs
 :
 contentWindow
 wantXrays
