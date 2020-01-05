@@ -1039,9 +1039,6 @@ JSObject
 :
 shouldSplicePrototype
 (
-JSContext
-*
-cx
 )
 {
 if

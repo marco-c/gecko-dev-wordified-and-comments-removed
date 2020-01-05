@@ -1800,9 +1800,6 @@ proto
 bool
 shouldSplicePrototype
 (
-JSContext
-*
-cx
 )
 ;
 inline
