@@ -259,6 +259,9 @@ check_loop
 mut
 self
 )
+-
+>
+bool
 ;
 pub
 fn
