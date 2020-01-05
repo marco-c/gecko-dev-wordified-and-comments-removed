@@ -348,15 +348,6 @@ false
 "
 dom
 .
-mozApps
-.
-debug
-"
-:
-true
-"
-dom
-.
 apps
 .
 customization

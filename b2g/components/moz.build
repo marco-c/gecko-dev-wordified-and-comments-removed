@@ -177,11 +177,6 @@ TelProtocolHandler
 .
 js
 '
-'
-WebappsUpdateTimer
-.
-js
-'
 ]
 if
 CONFIG
@@ -358,11 +353,6 @@ jsm
 '
 '
 TelURIParser
-.
-jsm
-'
-'
-WebappsUpdater
 .
 jsm
 '

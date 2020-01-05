@@ -4467,11 +4467,6 @@ WEBIDL_FILES
 =
 [
 '
-Apps
-.
-webidl
-'
-'
 MozApplicationEvent
 .
 webidl

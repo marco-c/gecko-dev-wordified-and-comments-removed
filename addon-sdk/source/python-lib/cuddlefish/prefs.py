@@ -1981,16 +1981,6 @@ False
 '
 dom
 .
-mozApps
-.
-debug
-'
-:
-True
-    
-'
-dom
-.
 apps
 .
 customization
