@@ -378,11 +378,6 @@ hostCol
 label
 ;
 "
-id
-=
-"
-hostCol
-"
 /
 >
 <
@@ -406,11 +401,6 @@ statusCol
 label
 ;
 "
-id
-=
-"
-statusCol
-"
 /
 >
 <
@@ -433,11 +423,6 @@ usageCol
 .
 label
 ;
-"
-id
-=
-"
-usageCol
 "
 /
 >
