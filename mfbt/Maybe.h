@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -1510,6 +1519,7 @@ mIsSome
 :
 new
 (
+KnownNotNull
 mStorage
 .
 addr
