@@ -2165,6 +2165,18 @@ lint
 in
 tidy
 "
+                          
+"
+if
+there
+are
+no
+changes
+in
+the
+WPT
+files
+"
 )
     
 CommandArgument
