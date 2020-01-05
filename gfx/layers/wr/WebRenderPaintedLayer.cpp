@@ -326,16 +326,6 @@ get
 )
 )
 ;
-MOZ_ASSERT
-(
-contentClientRemote
--
->
-GetIPDLActor
-(
-)
-)
-;
 Manager
 (
 )
