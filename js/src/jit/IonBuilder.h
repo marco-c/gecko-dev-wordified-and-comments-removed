@@ -6382,10 +6382,14 @@ failedLexicalCheck_
 bool
 nonStringIteration_
 ;
-MInstruction
-*
-lazyArguments_
+#
+ifdef
+DEBUG
+bool
+hasLazyArguments_
 ;
+#
+endif
 const
 CallInfo
 *
