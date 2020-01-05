@@ -165,10 +165,6 @@ extern
 crate
 url
 ;
-extern
-crate
-util
-;
 pub
 mod
 message

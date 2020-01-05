@@ -166,15 +166,6 @@ url
 :
 Url
 ;
-use
-util
-:
-:
-ipc
-:
-:
-OptionalOpaqueIpcSender
-;
 pub
 enum
 Msg
@@ -478,10 +469,6 @@ pub
 image_cache_thread
 :
 ImageCacheThread
-pub
-paint_chan
-:
-OptionalOpaqueIpcSender
 pub
 content_process_shutdown_chan
 :

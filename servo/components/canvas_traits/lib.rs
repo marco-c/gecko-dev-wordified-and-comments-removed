@@ -370,13 +370,10 @@ IpcSharedMemory
 pub
 image_key
 :
-Option
-<
 webrender_traits
 :
 :
 ImageKey
->
 }
 #
 [

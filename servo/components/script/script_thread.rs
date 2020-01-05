@@ -7698,7 +7698,6 @@ parent_pipeline_id
 new_pipeline_id
 frame_type
 load_data
-paint_chan
 pipeline_port
 layout_to_constellation_chan
 content_process_shutdown_chan
@@ -7754,9 +7753,6 @@ pipeline_port
 constellation_chan
 :
 layout_to_constellation_chan
-paint_chan
-:
-paint_chan
 script_chan
 :
 self

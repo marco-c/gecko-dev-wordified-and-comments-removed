@@ -175,13 +175,10 @@ FontMetrics
 pub
 font_key
 :
-Option
-<
 webrender_traits
 :
 :
 FontKey
->
 pub
 glyphs
 :

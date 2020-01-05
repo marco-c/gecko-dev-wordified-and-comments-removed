@@ -34,7 +34,6 @@ euclid
 :
 {
 Point2D
-Rect
 Size2D
 }
 ;
@@ -4100,13 +4099,6 @@ clip
 :
 ClippingRegion
 pub
-stacking_relative_position_of_display_port
-:
-Rect
-<
-Au
->
-pub
 writing_mode
 :
 WritingMode
@@ -5343,14 +5335,6 @@ ClippingRegion
 :
 :
 max
-(
-)
-stacking_relative_position_of_display_port
-:
-Rect
-:
-:
-zero
 (
 )
 flags

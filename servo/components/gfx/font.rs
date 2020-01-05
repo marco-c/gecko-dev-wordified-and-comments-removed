@@ -763,13 +763,10 @@ FractionalPixel
 pub
 font_key
 :
-Option
-<
 webrender_traits
 :
 :
 FontKey
->
 }
 impl
 Font
@@ -798,13 +795,10 @@ actual_pt_size
 Au
 font_key
 :
-Option
-<
 webrender_traits
 :
 :
 FontKey
->
 )
 -
 >
