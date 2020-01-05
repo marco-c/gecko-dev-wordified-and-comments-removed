@@ -8115,13 +8115,6 @@ bool
 aUseUserFontSet
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 MutexAutoLock
 lock
 (
