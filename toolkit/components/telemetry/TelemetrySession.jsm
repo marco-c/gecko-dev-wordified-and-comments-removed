@@ -8404,7 +8404,7 @@ Preferences
 get
 (
 PREF_SHUTDOWN_PINGSENDER
-true
+false
 )
 &
 &
