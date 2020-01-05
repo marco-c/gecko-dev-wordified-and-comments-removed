@@ -1881,11 +1881,6 @@ defaultExtensionId
 "
 ;
 const
-defaultCollectionId
-=
-defaultExtensionId
-;
-const
 defaultExtension
 =
 {
@@ -1944,6 +1939,15 @@ token
 }
 }
 }
+;
+const
+defaultCollectionId
+=
+extensionIdToCollectionId
+(
+loggedInUser
+defaultExtensionId
+)
 ;
 function
 uuid
