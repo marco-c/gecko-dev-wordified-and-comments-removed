@@ -310,6 +310,10 @@ display_list_builder
 ;
 pub
 mod
+flex
+;
+pub
+mod
 floats
 ;
 pub

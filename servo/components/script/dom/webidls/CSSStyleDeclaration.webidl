@@ -1570,5 +1570,15 @@ attribute
 DOMString
 transitionDelay
 ;
+[
+SetterThrows
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
+flexDirection
+;
 }
 ;
