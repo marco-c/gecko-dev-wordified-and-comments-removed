@@ -318,6 +318,15 @@ mAnimation
 ;
 }
 ;
+virtual
+bool
+AffectsGeometry
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual
