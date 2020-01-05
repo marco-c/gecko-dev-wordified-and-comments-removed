@@ -455,6 +455,18 @@ button
 ;
 let
 forwardTransitionPromise
+;
+if
+(
+forwardButton
+.
+nextSibling
+=
+=
+gURLBar
+)
+{
+forwardTransitionPromise
 =
 BrowserTestUtils
 .
@@ -466,6 +478,7 @@ transitionend
 "
 )
 ;
+}
 let
 backPromise
 =
@@ -536,6 +549,11 @@ fillTestPage
 aBrowser
 )
 ;
+if
+(
+forwardTransitionPromise
+)
+{
 yield
 forwardTransitionPromise
 ;
@@ -547,6 +565,7 @@ done
 "
 )
 ;
+}
 yield
 BrowserTestUtils
 .
