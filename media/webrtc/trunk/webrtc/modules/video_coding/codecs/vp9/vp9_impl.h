@@ -50,7 +50,7 @@ include
 "
 vpx
 /
-svc_context
+vp8cx
 .
 h
 "
@@ -371,8 +371,8 @@ vpx_image_t
 *
 raw_
 ;
-SvcInternal_t
-svc_internal_
+vpx_svc_extra_cfg_t
+svc_params_
 ;
 const
 VideoFrame
