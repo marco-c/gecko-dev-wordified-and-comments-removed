@@ -265,6 +265,7 @@ InputElement
 FormOwner
 HTMLFormElement
 HTMLFormElementHelpers
+NotFromFormSubmitMethod
 }
 ;
 use
@@ -3217,7 +3218,7 @@ root
 .
 submit
 (
-false
+NotFromFormSubmitMethod
 InputElement
 (
 self
