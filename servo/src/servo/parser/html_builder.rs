@@ -200,7 +200,7 @@ width
 geom
 :
 :
-int_to_au
+px_to_au
 (
 100
 )
@@ -210,7 +210,7 @@ height
 geom
 :
 :
-int_to_au
+px_to_au
 (
 100
 )

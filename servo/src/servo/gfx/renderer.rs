@@ -367,7 +367,7 @@ red_rect
 {
 x
 :
-au_to_int
+au_to_px
 (
 bounds
 .
@@ -379,7 +379,7 @@ as
 AzFloat
 y
 :
-au_to_int
+au_to_px
 (
 bounds
 .
@@ -391,7 +391,7 @@ as
 AzFloat
 width
 :
-au_to_int
+au_to_px
 (
 bounds
 .
@@ -403,7 +403,7 @@ as
 AzFloat
 height
 :
-au_to_int
+au_to_px
 (
 bounds
 .
