@@ -55,7 +55,10 @@ MPL
 .
 MOZ_APP_DISPLAYNAME
 =
+"
+Firefox
 Aurora
+"
 ANDROID_PACKAGE_NAME
 =
 org
