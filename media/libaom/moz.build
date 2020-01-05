@@ -161,6 +161,9 @@ files
 X64_SOURCES
 '
 ]
+USE_YASM
+=
+True
 if
 CONFIG
 [
@@ -372,6 +375,9 @@ files
 IA32_SOURCES
 '
 ]
+USE_YASM
+=
+True
 if
 CONFIG
 [
