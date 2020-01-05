@@ -246,7 +246,7 @@ RawServoStyleSheet
 )
 IMPL_STRONG_REF_TYPE_FOR
 (
-ServoDeclarationBlock
+RawServoDeclarationBlock
 )
 #
 undef
@@ -1163,7 +1163,7 @@ build
 #
 endif
 }
-ServoDeclarationBlock
+RawServoDeclarationBlock
 *
 Gecko_GetServoDeclarationBlock
 (

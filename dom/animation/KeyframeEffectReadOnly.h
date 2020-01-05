@@ -236,7 +236,7 @@ mValue
 ;
 RefPtr
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 >
 mServoDeclarationBlock
 ;

@@ -76,7 +76,7 @@ class
 gfx3DMatrix
 ;
 struct
-ServoDeclarationBlock
+RawServoDeclarationBlock
 ;
 namespace
 mozilla
@@ -388,7 +388,7 @@ nsStyleContext
 *
 aStyleContext
 const
-ServoDeclarationBlock
+RawServoDeclarationBlock
 &
 aDeclarations
 nsTArray

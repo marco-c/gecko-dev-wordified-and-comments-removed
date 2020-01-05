@@ -75,7 +75,7 @@ Declaration
 *
 mGeckoCSSDeclaration
 ;
-ServoDeclarationBlock
+RawServoDeclarationBlock
 *
 mServoCSSDeclaration
 ;
@@ -634,7 +634,7 @@ mGeckoCSSDeclaration
 ;
 }
 inline
-ServoDeclarationBlock
+RawServoDeclarationBlock
 *
 nsAttrValue
 :

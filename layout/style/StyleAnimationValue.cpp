@@ -17593,7 +17593,7 @@ nsStyleContext
 *
 aStyleContext
 const
-ServoDeclarationBlock
+RawServoDeclarationBlock
 &
 aDeclarations
 nsTArray
@@ -17633,7 +17633,7 @@ have
 a
 "
 "
-ServoDeclarationBlock
+RawServoDeclarationBlock
 "
 )
 ;
@@ -17675,7 +17675,7 @@ declarations
 =
 const_cast
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 *
 >
 (
