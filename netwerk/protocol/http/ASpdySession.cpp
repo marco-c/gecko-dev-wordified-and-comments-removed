@@ -92,8 +92,6 @@ version
 nsISocketTransport
 *
 aTransport
-bool
-attemptingEarlyData
 )
 {
 MOZ_ASSERT
@@ -127,7 +125,6 @@ Http2Session
 (
 aTransport
 version
-attemptingEarlyData
 )
 ;
 }

@@ -686,8 +686,6 @@ Finish0RTT
 (
 bool
 aRestart
-bool
-aAlpnChanged
 )
 override
 ;
