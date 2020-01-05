@@ -1105,6 +1105,8 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+float
+aOpacity
 )
 {
 if
@@ -1131,6 +1133,7 @@ aWhichFrame
 aSamplingFilter
 aSVGContext
 aFlags
+aOpacity
 )
 ;
 }
@@ -1282,6 +1285,7 @@ map
 orientViewport
 )
 aFlags
+aOpacity
 )
 ;
 }
