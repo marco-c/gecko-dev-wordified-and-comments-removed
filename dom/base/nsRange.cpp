@@ -14059,6 +14059,9 @@ GetRegisteredCommonAncestor
 if
 (
 commonAncestor
+&
+&
+commonAncestor
 !
 =
 mCommonAncestor
