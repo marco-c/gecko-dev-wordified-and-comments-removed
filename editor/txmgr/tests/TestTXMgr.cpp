@@ -3033,8 +3033,9 @@ virtual
 TestTransaction
 (
 )
-{
-}
+=
+default
+;
 public
 :
 TestTransaction
@@ -3130,8 +3131,9 @@ virtual
 SimpleTransaction
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 DoTransaction
 (
@@ -3449,8 +3451,9 @@ virtual
 AggregateTransaction
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 DoTransaction
 (
