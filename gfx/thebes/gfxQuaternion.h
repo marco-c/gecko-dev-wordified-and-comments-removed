@@ -471,6 +471,7 @@ aOther
 gfxFloat
 aCoeff
 )
+const
 {
 gfxFloat
 dot
@@ -588,6 +589,7 @@ Matrix4x4
 ToMatrix
 (
 )
+const
 {
 mozilla
 :
