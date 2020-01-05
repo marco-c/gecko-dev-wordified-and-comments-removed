@@ -1090,6 +1090,20 @@ hasInstanceInterface
 None
 )
         
+self
+.
+createGlobal
+=
+desc
+.
+get
+(
+'
+createGlobal
+'
+False
+)
+        
 if
 self
 .
