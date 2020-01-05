@@ -195,6 +195,7 @@ destPath
 yield
 exportEvents
 ;
+let
 stat
 =
 yield
