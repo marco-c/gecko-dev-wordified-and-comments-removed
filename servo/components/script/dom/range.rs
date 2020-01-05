@@ -913,7 +913,7 @@ try
 (
 node
 .
-parent_node
+GetParentNode
 (
 )
 .
@@ -969,7 +969,7 @@ try
 (
 node
 .
-parent_node
+GetParentNode
 (
 )
 .
@@ -1027,7 +1027,7 @@ try
 (
 node
 .
-parent_node
+GetParentNode
 (
 )
 .
@@ -1083,7 +1083,7 @@ try
 (
 node
 .
-parent_node
+GetParentNode
 (
 )
 .
@@ -1906,7 +1906,7 @@ parent
 match
 node
 .
-parent_node
+GetParentNode
 (
 )
 {
@@ -2482,7 +2482,7 @@ try
 (
 node
 .
-parent_node
+GetParentNode
 (
 )
 .
@@ -3391,7 +3391,7 @@ r
 (
 )
 .
-parent_node
+GetParentNode
 (
 )
 .

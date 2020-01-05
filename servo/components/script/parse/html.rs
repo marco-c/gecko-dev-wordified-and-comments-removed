@@ -1070,7 +1070,7 @@ r
 (
 )
 .
-parent_node
+GetParentNode
 (
 )
 {

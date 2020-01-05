@@ -1436,7 +1436,7 @@ self
 if
 node
 .
-parent_node
+GetParentNode
 (
 )
 .

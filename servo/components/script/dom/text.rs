@@ -560,7 +560,7 @@ parent
 =
 node
 .
-parent_node
+GetParentNode
 (
 )
 .
@@ -599,7 +599,7 @@ r
 )
 node
 .
-next_sibling
+GetNextSibling
 (
 )
 .
