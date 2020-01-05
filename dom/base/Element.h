@@ -4296,9 +4296,6 @@ virtual
 bool
 SetMappedAttribute
 (
-nsIDocument
-*
-aDocument
 nsIAtom
 *
 aName

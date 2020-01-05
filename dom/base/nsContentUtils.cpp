@@ -1344,6 +1344,13 @@ h
 #
 include
 "
+nsMappedAttributes
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -9528,6 +9535,13 @@ sSameOriginChecker
 )
 ;
 HTMLInputElement
+:
+:
+Shutdown
+(
+)
+;
+nsMappedAttributes
 :
 :
 Shutdown
