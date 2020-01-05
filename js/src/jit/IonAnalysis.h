@@ -64,6 +64,15 @@ MIRGraph
 graph
 )
 ;
+bool
+IsUint32Type
+(
+const
+MDefinition
+*
+def
+)
+;
 enum
 Observability
 {
