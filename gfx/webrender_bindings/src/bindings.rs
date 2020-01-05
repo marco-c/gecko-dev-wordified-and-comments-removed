@@ -2520,6 +2520,15 @@ to_rect
 )
 ;
 let
+overflow
+=
+overflow
+.
+to_rect
+(
+)
+;
+let
 mut
 dl
 =
@@ -2573,7 +2582,7 @@ ClipRegion
 simple
 (
 &
-bounds
+overflow
 )
 state
 .
