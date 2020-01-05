@@ -2189,6 +2189,15 @@ js
 :
 ThreadLocalData
 <
+unsigned
+>
+enableAccessValidation
+;
+js
+:
+:
+ThreadLocalData
+<
 int
 >
 inUnsafeRegion
