@@ -199,6 +199,7 @@ data
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 clearData
@@ -646,6 +647,7 @@ modified
 /
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 mozClearDataAt

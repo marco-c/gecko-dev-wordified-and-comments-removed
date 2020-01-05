@@ -147,6 +147,7 @@ index
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 DataTransferItem
 ?
@@ -160,6 +161,7 @@ type
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 DataTransferItem
 ?
@@ -171,6 +173,7 @@ data
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 remove
@@ -182,6 +185,7 @@ index
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 clear
