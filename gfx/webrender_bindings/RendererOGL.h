@@ -86,6 +86,8 @@ void
 aObj
 WrExternalImageId
 aId
+uint8_t
+aChannelIndex
 )
 ;
 friend
@@ -97,6 +99,8 @@ void
 aObj
 WrExternalImageId
 aId
+uint8_t
+aChannelIndex
 )
 ;
 public
