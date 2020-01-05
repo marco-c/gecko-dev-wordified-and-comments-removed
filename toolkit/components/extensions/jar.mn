@@ -127,15 +127,6 @@ extensions
 /
 ext
 -
-geolocation
-.
-js
-content
-/
-extensions
-/
-ext
--
 management
 .
 js
