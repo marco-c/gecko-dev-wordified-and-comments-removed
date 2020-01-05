@@ -3169,6 +3169,16 @@ true
 user_pref
 (
 "
+media
+.
+openUnsupportedTypeWithExternalApp
+"
+false
+)
+;
+user_pref
+(
+"
 signon
 .
 rememberSignons

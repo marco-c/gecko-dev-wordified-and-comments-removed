@@ -812,3 +812,13 @@ load_flash_only
 false
 )
 ;
+user_pref
+(
+"
+media
+.
+openUnsupportedTypeWithExternalApp
+"
+false
+)
+;
