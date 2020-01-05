@@ -49,7 +49,7 @@ use
 dom
 :
 :
-base
+element
 :
 :
 {
@@ -283,6 +283,18 @@ encountered
 "
 }
 }
+/
+*
+TODO
+:
+this
+belongs
+in
+the
+UA
+stylesheet
+*
+/
 fn
 default_display_type
 (
@@ -335,7 +347,7 @@ HTMLScriptElement
 =
 >
 DisplayNone
-UnknownElement
+_
 =
 >
 DisplayInline

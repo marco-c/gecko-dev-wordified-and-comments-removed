@@ -147,6 +147,9 @@ window
 ;
 }
 mod
+element
+;
+mod
 event
 ;
 mod
@@ -283,9 +286,6 @@ lexer
 ;
 mod
 lexer_util
-;
-mod
-dom_builder
 ;
 mod
 hubbub_html_parser
