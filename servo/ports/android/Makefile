@@ -156,15 +156,6 @@ f
 libs
 /
 armeabi
-cp
--
-a
-extlibs
-/
-*
-libs
-/
-armeabi
 (
 ANDROID_SDK
 )

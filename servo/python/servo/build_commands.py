@@ -207,6 +207,22 @@ release
 ]
         
 if
+target
+:
+            
+opts
++
+=
+[
+"
+-
+-
+target
+"
+target
+]
+        
+if
 jobs
 is
 not
