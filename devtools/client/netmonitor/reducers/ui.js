@@ -49,7 +49,9 @@ Record
 {
 detailsPanelSelectedTab
 :
-0
+"
+headers
+"
 sidebarOpen
 :
 false
@@ -149,7 +151,7 @@ detailsPanelSelectedTab
 "
 action
 .
-index
+id
 )
 ;
 }

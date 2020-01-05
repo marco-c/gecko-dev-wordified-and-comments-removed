@@ -189,9 +189,9 @@ waitForDOM
 document
 "
 #
-panel
+response
 -
-3
+panel
 "
 )
 ;
@@ -226,10 +226,9 @@ querySelector
 (
 "
 #
-tab
+response
 -
-3
-a
+tab
 "
 )
 .
@@ -264,9 +263,9 @@ querySelector
 (
 "
 #
-panel
+response
 -
-3
+panel
 "
 )
 ;
