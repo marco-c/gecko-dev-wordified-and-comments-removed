@@ -1769,6 +1769,7 @@ nsIObserver
 {
 public
 :
+explicit
 RemoveTempFileHelper
 (
 nsIFile
