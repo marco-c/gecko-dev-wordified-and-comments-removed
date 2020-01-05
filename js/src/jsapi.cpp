@@ -28931,7 +28931,7 @@ JSREPORT_ERROR
 errorCallback
 userRef
 errorNumber
-ArgumentsAreASCII
+ArgumentsAreLatin1
 ap
 )
 ;
@@ -29551,7 +29551,7 @@ flags
 errorCallback
 userRef
 errorNumber
-ArgumentsAreASCII
+ArgumentsAreLatin1
 ap
 )
 ;
