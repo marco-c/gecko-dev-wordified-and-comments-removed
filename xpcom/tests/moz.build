@@ -237,9 +237,6 @@ GeckoCppUnitTests
 (
 [
 '
-TestAutoRef
-'
-'
 TestCOMArray
 '
 '

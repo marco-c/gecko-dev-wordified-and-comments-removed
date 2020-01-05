@@ -105,6 +105,11 @@ TestAutoPtr
 cpp
 '
 '
+TestAutoRef
+.
+cpp
+'
+'
 TestCloneInputStream
 .
 cpp
