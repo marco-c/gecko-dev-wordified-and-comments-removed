@@ -64,9 +64,9 @@ version
 "
 0
 .
-2
-.
 3
+.
+1
 "
 authors
 =
@@ -95,13 +95,6 @@ build
 build
 .
 rs
-"
-links
-=
-"
-CoreFoundation
-.
-framework
 "
 [
 dependencies

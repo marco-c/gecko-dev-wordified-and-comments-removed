@@ -607,7 +607,7 @@ s
 |
 s
 .
-to_string
+to_owned
 (
 )
 )
@@ -649,7 +649,8 @@ bools_map
 :
 HashMap
 <
-String
+&
+str
 bool
 >
 =
@@ -702,10 +703,6 @@ bnames
 [
 i
 ]
-.
-to_string
-(
-)
 true
 )
 )
@@ -752,7 +749,8 @@ numbers_map
 :
 HashMap
 <
-String
+&
+str
 u16
 >
 =
@@ -799,10 +797,6 @@ nnames
 [
 i
 ]
-.
-to_string
-(
-)
 n
 )
 )
@@ -833,7 +827,8 @@ string_map
 :
 HashMap
 <
-String
+&
+str
 Vec
 <
 u8
@@ -1025,10 +1020,6 @@ Ok
 (
 (
 name
-.
-to_string
-(
-)
 Vec
 :
 :
@@ -1093,10 +1084,6 @@ Ok
 (
 (
 name
-.
-to_string
-(
-)
 string_table
 [
 offset
@@ -1194,10 +1181,6 @@ insert
 "
 sgr0
 "
-.
-to_string
-(
-)
 b
 "
 \
@@ -1218,10 +1201,6 @@ insert
 "
 bold
 "
-.
-to_string
-(
-)
 b
 "
 \
@@ -1242,10 +1221,6 @@ insert
 "
 setaf
 "
-.
-to_string
-(
-)
 b
 "
 \
@@ -1270,10 +1245,6 @@ insert
 "
 setab
 "
-.
-to_string
-(
-)
 b
 "
 \
@@ -1309,10 +1280,6 @@ insert
 "
 colors
 "
-.
-to_string
-(
-)
 8u16
 )
 ;
@@ -1327,7 +1294,7 @@ vec
 cygwin
 "
 .
-to_string
+to_owned
 (
 )
 ]

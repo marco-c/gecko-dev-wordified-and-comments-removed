@@ -13,7 +13,7 @@ version
 .
 10
 .
-7
+8
 "
 #
 don
@@ -148,11 +148,6 @@ printing
 full
 =
 [
-"
-type
--
-macros
-"
 ]
 parsing
 =
@@ -176,12 +171,6 @@ printing
 "
 quote
 "
-]
-type
--
-macros
-=
-[
 ]
 visit
 =
@@ -228,7 +217,7 @@ version
 "
 0
 .
-52
+50
 .
 0
 "
@@ -264,7 +253,7 @@ syntex_pos
 "
 0
 .
-52
+50
 .
 0
 "
@@ -273,7 +262,7 @@ syntex_syntax
 "
 0
 .
-52
+50
 .
 0
 "

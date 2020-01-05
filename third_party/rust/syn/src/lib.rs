@@ -220,6 +220,7 @@ expr
 Arm
 BindingMode
 Block
+BlockCheckMode
 CaptureBy
 Expr
 ExprKind
@@ -388,9 +389,7 @@ cfg
 feature
 =
 "
-type
--
-macros
+full
 "
 )
 ]
@@ -404,9 +403,7 @@ cfg
 feature
 =
 "
-type
--
-macros
+full
 "
 )
 ]

@@ -7,6 +7,7 @@ c_uint
 c_long
 c_ulong
 c_void
+c_int
 }
 ;
 pub
@@ -74,6 +75,12 @@ type
 OSStatus
 =
 i32
+;
+pub
+type
+SInt32
+=
+c_int
 ;
 #
 [
