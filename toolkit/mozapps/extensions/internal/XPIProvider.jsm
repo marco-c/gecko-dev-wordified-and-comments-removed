@@ -21668,9 +21668,7 @@ return
 false
 ;
 return
-aAddon
-.
-bootstrap
+true
 ;
 }
 e10sBlocksEnabling
