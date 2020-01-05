@@ -7762,6 +7762,8 @@ HEADER
 enum
 class
 Script
+:
+int16_t
 {
 \
 n
