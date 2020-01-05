@@ -733,3 +733,9 @@ database
 \
 .
 tup
+subinclude
+:
+servo
+/
+.
+hgignore
