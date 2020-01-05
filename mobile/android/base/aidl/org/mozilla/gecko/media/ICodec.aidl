@@ -202,4 +202,13 @@ boolean
 render
 )
 ;
+oneway
+void
+setRates
+(
+in
+int
+newBitRate
+)
+;
 }

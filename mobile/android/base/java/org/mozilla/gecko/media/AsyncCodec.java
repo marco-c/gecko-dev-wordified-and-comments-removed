@@ -215,6 +215,15 @@ flags
 public
 abstract
 void
+setRates
+(
+int
+newBitRate
+)
+;
+public
+abstract
+void
 queueSecureInputBuffer
 (
 int

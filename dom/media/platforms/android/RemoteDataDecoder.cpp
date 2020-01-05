@@ -915,6 +915,7 @@ CodecProxy
 :
 Create
 (
+false
 mFormat
 mSurfaceTexture
 -
@@ -1338,6 +1339,7 @@ CodecProxy
 :
 Create
 (
+false
 mFormat
 nullptr
 mJavaCallbacks
