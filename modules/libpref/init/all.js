@@ -19518,7 +19518,7 @@ idle_period
 .
 time_limit
 "
-3
+1
 )
 ;
 #
@@ -19748,6 +19748,16 @@ idle_queue
 long_period
 "
 50
+)
+;
+pref
+(
+"
+idle_queue
+.
+min_period
+"
+3
 )
 ;
 pref
