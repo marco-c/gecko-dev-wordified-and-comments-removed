@@ -1285,10 +1285,9 @@ if
 shared
 )
 {
-buf
--
->
-AddRef
+str
+.
+RelinquishBufferOwnership
 (
 )
 ;
