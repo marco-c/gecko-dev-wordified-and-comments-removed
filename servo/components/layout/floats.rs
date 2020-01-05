@@ -24,7 +24,6 @@ logical_geometry
 :
 :
 {
-LogicalPoint
 LogicalRect
 LogicalSize
 }
@@ -692,7 +691,7 @@ self
 >
 Option
 <
-LogicalPoint
+LogicalRect
 <
 Au
 >
@@ -725,11 +724,12 @@ float
 .
 bounds
 .
-start
-+
+translate_by_size
+(
 self
 .
 offset
+)
 )
 }
 }
