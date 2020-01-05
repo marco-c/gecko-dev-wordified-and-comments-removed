@@ -59,12 +59,6 @@ styled
 '
 )
 ;
-div
-.
-getBoundingClientRect
-(
-)
-;
 }
 var
 stop
@@ -87,5 +81,11 @@ start
 count
 *
 1e6
+)
+;
+window
+.
+close
+(
 )
 ;

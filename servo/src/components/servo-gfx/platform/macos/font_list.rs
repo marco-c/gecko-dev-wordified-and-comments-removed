@@ -387,7 +387,6 @@ FontEntry
 :
 new
 (
-family
 handle
 )
 ;
