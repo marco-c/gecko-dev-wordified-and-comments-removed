@@ -387,6 +387,7 @@ modified
 /
 [
 Throws
+UseCounter
 ]
 void
 addElement
@@ -408,6 +409,9 @@ dragged
 .
 *
 /
+[
+UseCounter
+]
 readonly
 attribute
 unsigned
@@ -498,6 +502,9 @@ auto
 .
 *
 /
+[
+UseCounter
+]
 attribute
 DOMString
 mozCursor
@@ -555,6 +562,7 @@ returned
 [
 Throws
 NeedsCallerType
+UseCounter
 ]
 DOMStringList
 mozTypesAt
@@ -684,6 +692,7 @@ modified
 [
 Throws
 NeedsSubjectPrincipal
+UseCounter
 ]
 void
 mozClearDataAt
@@ -881,6 +890,7 @@ modified
 [
 Throws
 NeedsSubjectPrincipal
+UseCounter
 ]
 void
 mozSetDataAt
@@ -982,6 +992,7 @@ itemCount
 [
 Throws
 NeedsSubjectPrincipal
+UseCounter
 ]
 any
 mozGetDataAt
@@ -1096,6 +1107,9 @@ event
 .
 *
 /
+[
+UseCounter
+]
 readonly
 attribute
 boolean
@@ -1137,6 +1151,9 @@ null
 .
 *
 /
+[
+UseCounter
+]
 readonly
 attribute
 Node
