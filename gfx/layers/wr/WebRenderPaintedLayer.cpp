@@ -340,16 +340,6 @@ Mutated
 (
 )
 ;
-mValidRegion
-.
-Or
-(
-mValidRegion
-state
-.
-mRegionToDraw
-)
-;
 ContentClientRemote
 *
 contentClientRemote
