@@ -16,7 +16,7 @@ stb_image
 stb_image
 :
 :
-Image
+image
 ;
 /
 /
