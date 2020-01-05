@@ -16,6 +16,8 @@ feature
 (
 net
 alloc
+path
+io
 )
 )
 ]
