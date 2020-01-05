@@ -196,7 +196,6 @@ Constructor
 (
 DOMString
 type
-optional
 MediaKeyMessageEventInit
 eventInitDict
 )
@@ -226,15 +225,11 @@ MediaKeyMessageEventInit
 :
 EventInit
 {
+required
 MediaKeyMessageType
 messageType
-=
-"
-license
--
-request
-"
 ;
+required
 ArrayBuffer
 message
 ;
