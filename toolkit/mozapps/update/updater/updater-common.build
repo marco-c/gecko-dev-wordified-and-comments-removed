@@ -553,8 +553,13 @@ common
 /
 xpcom
 /
-glue
+base
 '
+#
+for
+nsVersionComparator
+.
+cpp
 ]
 DELAYLOAD_DLLS
 +

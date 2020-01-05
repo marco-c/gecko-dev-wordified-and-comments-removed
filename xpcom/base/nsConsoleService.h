@@ -43,6 +43,13 @@ nsIConsoleService
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 class
 nsConsoleService
 final
