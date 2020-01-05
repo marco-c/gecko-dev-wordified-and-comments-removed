@@ -18182,6 +18182,15 @@ bottom
 :
 0
 ;
+-
+moz
+-
+box
+-
+flex
+:
+1
+;
 text
 -
 align
@@ -19553,6 +19562,8 @@ opacity
 tab
 -
 label
+-
+container
 :
 not
 (
@@ -19689,6 +19700,8 @@ content
 tab
 -
 label
+-
+container
 :
 not
 (
