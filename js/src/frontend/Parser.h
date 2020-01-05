@@ -3071,6 +3071,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 HandleObject
 proto
 )
@@ -3297,6 +3299,8 @@ PropertyNameVector
 formals
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 Directives
 inheritedDirectives
 Directives
@@ -3313,6 +3317,8 @@ bool
 strict
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 )
 ;
 bool
@@ -4018,6 +4024,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 InvokedPrediction
 invoked
 =
@@ -4421,6 +4429,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 bool
 tryAnnexB
 Directives
@@ -4445,6 +4455,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 bool
 tryAnnexB
 Directives
