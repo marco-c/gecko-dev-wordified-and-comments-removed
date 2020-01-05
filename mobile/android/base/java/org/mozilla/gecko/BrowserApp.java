@@ -9252,6 +9252,8 @@ getInt
 id
 "
 )
++
+ADDON_MENU_OFFSET
 message
 .
 getBundle
