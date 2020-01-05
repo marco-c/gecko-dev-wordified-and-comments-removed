@@ -1232,9 +1232,6 @@ mCanvasData
 IntSize
 mCGSize
 ;
-bool
-mNeedLayer
-;
 #
 endif
 }
