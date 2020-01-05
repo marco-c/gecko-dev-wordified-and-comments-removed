@@ -599,6 +599,17 @@ return
 NS_OK
 ;
 }
+bool
+SupportDecoderRecycling
+(
+)
+const
+override
+{
+return
+true
+;
+}
 protected
 :
 layers

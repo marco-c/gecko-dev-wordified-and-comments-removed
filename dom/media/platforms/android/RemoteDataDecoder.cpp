@@ -1087,6 +1087,17 @@ mDuration
 )
 ;
 }
+bool
+SupportDecoderRecycling
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 class

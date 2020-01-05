@@ -879,6 +879,17 @@ aTime
 )
 {
 }
+virtual
+bool
+SupportDecoderRecycling
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 }
