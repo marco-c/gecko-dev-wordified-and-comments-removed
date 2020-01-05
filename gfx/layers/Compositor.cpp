@@ -1921,6 +1921,15 @@ EffectTypes
 :
 :
 RENDER_TARGET
+|
+|
+type
+=
+=
+EffectTypes
+:
+:
+COMPONENT_ALPHA
 )
 {
 TexturedEffect
