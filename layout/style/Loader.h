@@ -161,9 +161,6 @@ class
 nsIDocument
 ;
 class
-nsMediaList
-;
-class
 nsIStyleSheetLinkingElement
 ;
 namespace
@@ -824,7 +821,10 @@ aParentSheet
 nsIURI
 *
 aURL
-nsMediaList
+dom
+:
+:
+MediaList
 *
 aMedia
 ImportRule
@@ -1150,7 +1150,10 @@ const
 nsAString
 &
 aMediaString
-nsMediaList
+dom
+:
+:
+MediaList
 *
 aMediaList
 dom
