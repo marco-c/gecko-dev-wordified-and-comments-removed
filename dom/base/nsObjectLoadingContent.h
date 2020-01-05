@@ -828,6 +828,12 @@ DoStopPlugin
 nsPluginInstanceOwner
 *
 aInstanceOwner
+bool
+aDelayedStop
+bool
+aForcedReentry
+=
+false
 )
 ;
 nsresult
