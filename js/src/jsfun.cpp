@@ -8178,10 +8178,6 @@ false
 if
 (
 isStarGenerator
-&
-&
-!
-isAsync
 )
 {
 if
