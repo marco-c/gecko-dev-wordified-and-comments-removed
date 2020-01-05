@@ -392,7 +392,7 @@ Value
 vp
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -401,7 +401,7 @@ JSMSG_NO_CONSTRUCTOR
 "
 Debugger
 .
-Memory
+Source
 "
 )
 ;
@@ -912,7 +912,7 @@ dbg
 trackingAllocationSites
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -1447,7 +1447,7 @@ max
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -1692,7 +1692,7 @@ probability
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

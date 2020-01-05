@@ -3064,7 +3064,7 @@ gPaths
 nullptr
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 js

@@ -1018,7 +1018,7 @@ reportTruncated
 (
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -5072,7 +5072,7 @@ count
 UINT32_MAX
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -8024,7 +8024,7 @@ l
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -8195,7 +8195,7 @@ JSString
 MAX_LENGTH
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -8392,7 +8392,7 @@ Scalar
 Uint8Clamped
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -9557,7 +9557,7 @@ toDouble
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -9645,7 +9645,7 @@ tag2
 SCTAG_STRING
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -9848,7 +9848,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -9889,7 +9889,7 @@ SCTAG_TRANSFER_MAP_HEADER
 case
 SCTAG_TRANSFER_MAP_PENDING_ENTRY
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -10190,7 +10190,7 @@ callbacks
 read
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -10335,7 +10335,7 @@ scope
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -11034,7 +11034,7 @@ nullptr
 }
 else
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -12947,7 +12947,7 @@ vp
 }
 else
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 r
 -
