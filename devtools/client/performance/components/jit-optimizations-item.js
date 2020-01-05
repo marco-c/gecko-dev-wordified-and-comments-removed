@@ -1028,7 +1028,7 @@ type
 style
 :
 {
-marginLeft
+marginInlineStart
 :
 depth
 *
