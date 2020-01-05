@@ -1290,6 +1290,12 @@ processDelayedReferrer
 ref
 )
 ;
+distribution
+.
+doInit
+(
+)
+;
 }
 }
 )
