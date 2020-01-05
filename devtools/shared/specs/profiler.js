@@ -382,7 +382,7 @@ json
 "
 )
 }
-sharedLibraries
+getSharedLibraryInformation
 :
 {
 response
