@@ -2527,7 +2527,7 @@ pub
 struct
 WrVecU8
 {
-ptr
+data
 :
 *
 mut
@@ -2563,7 +2563,7 @@ from_raw_parts
 (
 self
 .
-ptr
+data
 self
 .
 length
@@ -2593,7 +2593,7 @@ w
 =
 WrVecU8
 {
-ptr
+data
 :
 v
 .
