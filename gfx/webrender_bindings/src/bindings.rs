@@ -5426,6 +5426,16 @@ into_raw
 state
 )
 }
+/
+/
+/
+cbindgen
+:
+function
+-
+postfix
+=
+WR_DESTRUCTOR_SAFE_FUNC
 #
 [
 no_mangle
