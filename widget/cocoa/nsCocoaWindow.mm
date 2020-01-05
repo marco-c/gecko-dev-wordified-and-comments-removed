@@ -11277,8 +11277,10 @@ placement
 =
 nsWindowZTop
 ;
+nsCOMPtr
+<
 nsIWidget
-*
+>
 actualBelow
 ;
 if
@@ -11294,8 +11296,10 @@ true
 &
 placement
 nullptr
-&
+getter_AddRefs
+(
 actualBelow
+)
 )
 ;
 return
