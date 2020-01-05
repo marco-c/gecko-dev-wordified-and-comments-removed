@@ -1888,6 +1888,10 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_IMAGE
+bool
+aUseUrgentStartForChannel
+=
+false
 )
 ;
 static

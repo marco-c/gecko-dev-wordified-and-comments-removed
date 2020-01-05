@@ -2031,6 +2031,12 @@ mContentType
 EmptyString
 (
 )
+/
+*
+aUseUrgentStartForChannel
+*
+/
+false
 getter_AddRefs
 (
 mIconRequest

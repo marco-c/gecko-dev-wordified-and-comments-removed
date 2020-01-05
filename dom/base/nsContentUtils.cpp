@@ -15977,6 +15977,8 @@ imgRequestProxy
 aRequest
 uint32_t
 aContentPolicyType
+bool
+aUseUrgentStartForChannel
 )
 {
 NS_PRECONDITION
@@ -16123,6 +16125,7 @@ aLoadFlags
 nullptr
 aContentPolicyType
 initiatorType
+aUseUrgentStartForChannel
 aRequest
 )
 ;

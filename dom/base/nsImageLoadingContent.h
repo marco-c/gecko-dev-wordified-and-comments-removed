@@ -910,6 +910,9 @@ mNewRequestsWillNeedAnimationReset
 :
 1
 ;
+bool
+mUseUrgentStartForChannel
+;
 private
 :
 uint8_t
