@@ -1058,6 +1058,7 @@ get
 pointerType
 '
 '
+~
 '
 )
         

@@ -15,6 +15,13 @@ h
 #
 include
 "
+HTMLCollectionBinding
+.
+h
+"
+#
+include
+"
 nsScriptNameSpaceManager
 .
 h
@@ -70,6 +77,12 @@ nullptr
 REGISTER_PROTO
 (
 ClientRectList
+nullptr
+)
+;
+REGISTER_PROTO
+(
+HTMLCollection
 nullptr
 )
 ;

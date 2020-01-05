@@ -232,6 +232,10 @@ clientrectlist
 ;
 pub
 mod
+htmlcollection
+;
+pub
+mod
 codegen
 {
 pub
@@ -241,6 +245,10 @@ ClientRectBinding
 pub
 mod
 ClientRectListBinding
+;
+pub
+mod
+HTMLCollectionBinding
 ;
 }
 }
