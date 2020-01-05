@@ -5308,6 +5308,10 @@ const
 uint64_t
 &
 aPipelineId
+const
+nsString
+&
+aResourcePath
 )
 {
 WebRenderBridgeChild

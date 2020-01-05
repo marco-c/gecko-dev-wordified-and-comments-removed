@@ -104,6 +104,10 @@ wr_init_window
 (
 uint64_t
 root_pipeline_id
+const
+char
+*
+path_utf8
 )
 WR_FUNC
 ;
