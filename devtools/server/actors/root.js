@@ -677,6 +677,16 @@ if
 (
 tabActor
 .
+exited
+)
+{
+continue
+;
+}
+if
+(
+tabActor
+.
 selected
 )
 {
