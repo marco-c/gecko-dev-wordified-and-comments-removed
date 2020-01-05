@@ -94,9 +94,13 @@ CSS_URI
 )
 ;
 const
+{
 tests
+}
 =
-eval
+JSON
+.
+parse
 (
 read
 (
@@ -753,7 +757,7 @@ i
 for
 (
 let
-test
+testcase
 of
 tests
 )
@@ -793,7 +797,7 @@ resolveState
 limit
 (
 source
-test
+testcase
 [
 0
 ]
@@ -801,7 +805,7 @@ test
 {
 line
 :
-test
+testcase
 [
 0
 ]
@@ -810,7 +814,7 @@ test
 ]
 ch
 :
-test
+testcase
 [
 0
 ]
@@ -824,7 +828,7 @@ if
 (
 checkState
 (
-test
+testcase
 [
 1
 ]
@@ -867,7 +871,7 @@ state
 [
 "
 +
-test
+testcase
 [
 1
 ]

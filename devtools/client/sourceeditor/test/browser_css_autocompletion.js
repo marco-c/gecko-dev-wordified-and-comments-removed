@@ -112,9 +112,13 @@ CSS_URI
 )
 ;
 const
+{
 tests
+}
 =
-eval
+JSON
+.
+parse
 (
 read
 (

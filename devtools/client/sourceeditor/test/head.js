@@ -641,7 +641,7 @@ limit
 source
 [
 line
-ch
+char
 ]
 )
 {
@@ -692,7 +692,7 @@ list
 slice
 (
 0
-ch
+char
 )
 ;
 }
@@ -720,7 +720,7 @@ line
 slice
 (
 0
-ch
+char
 )
 ]
 .
