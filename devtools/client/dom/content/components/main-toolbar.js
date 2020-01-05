@@ -50,11 +50,9 @@ client
 /
 shared
 /
-components
-/
-reps
-/
-reps
+react
+-
+utils
 "
 )
 ;
