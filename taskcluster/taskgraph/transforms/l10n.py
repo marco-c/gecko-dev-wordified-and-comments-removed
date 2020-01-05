@@ -183,6 +183,22 @@ int
 Required
 (
 '
+ignore
+-
+locales
+'
+)
+:
+_by_platform
+(
+[
+basestring
+]
+)
+    
+Required
+(
+'
 mozharness
 '
 )
@@ -670,9 +686,12 @@ all_locales
 return
 locales
 def
-_remove_ja_jp_mac_locale
+_remove_locales
 (
 locales
+to_remove
+=
+None
 )
 :
     
@@ -693,15 +712,9 @@ items
 )
 if
 locale
-!
-=
-'
-ja
--
-JP
--
-mac
-'
+not
+in
+to_remove
     
 }
 transforms
@@ -1210,6 +1223,12 @@ env
 "
         
 "
+ignore
+-
+locales
+"
+        
+"
 mozharness
 .
 config
@@ -1343,9 +1362,20 @@ file
         
 locales_with_changesets
 =
-_remove_ja_jp_mac_locale
+_remove_locales
 (
 locales_with_changesets
+                                                  
+to_remove
+=
+job
+[
+'
+ignore
+-
+locales
+'
+]
 )
         
 locales
