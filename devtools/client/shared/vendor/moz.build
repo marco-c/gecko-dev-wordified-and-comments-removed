@@ -104,6 +104,11 @@ jsol
 js
 '
 '
+jszip
+.
+js
+'
+'
 react
 -
 addons
