@@ -241,17 +241,6 @@ Clone
 const
 final
 ;
-nsIDOMCSSRule
-*
-GetDOMRule
-(
-)
-final
-{
-return
-this
-;
-}
 size_t
 SizeOfIncludingThis
 (
