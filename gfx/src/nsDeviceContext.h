@@ -384,6 +384,16 @@ nsRect
 aRect
 )
 ;
+bool
+IsCurrentlyPrintingDocument
+(
+)
+const
+{
+return
+mIsCurrentlyPrintingDoc
+;
+}
 nsresult
 BeginDocument
 (
@@ -573,6 +583,9 @@ RefPtr
 PrintTarget
 >
 mPrintTarget
+;
+bool
+mIsCurrentlyPrintingDoc
 ;
 #
 ifdef
