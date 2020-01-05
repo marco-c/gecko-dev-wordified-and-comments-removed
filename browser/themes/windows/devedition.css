@@ -120,9 +120,6 @@ rgba
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -130,6 +127,8 @@ moz
 windows
 -
 compositor
+:
+0
 )
 {
 #
@@ -1409,9 +1408,6 @@ inherit
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -1419,10 +1415,9 @@ moz
 windows
 -
 compositor
+:
+0
 )
-not
-all
-and
 (
 -
 moz
@@ -1432,6 +1427,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 #

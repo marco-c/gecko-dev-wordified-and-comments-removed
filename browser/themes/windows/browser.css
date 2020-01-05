@@ -1731,9 +1731,6 @@ linear
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -1741,10 +1738,9 @@ moz
 windows
 -
 compositor
+:
+0
 )
-not
-all
-and
 (
 -
 moz
@@ -1754,6 +1750,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 #
@@ -1888,9 +1886,6 @@ InactiveCaptionText
 }
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -1898,6 +1893,8 @@ moz
 windows
 -
 compositor
+:
+0
 )
 {
 #
@@ -3242,9 +3239,6 @@ inset
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -3252,6 +3246,8 @@ moz
 windows
 -
 compositor
+:
+0
 )
 {
 #
@@ -13044,9 +13040,6 @@ weight
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -13056,6 +13049,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 .
@@ -19339,9 +19334,6 @@ theme
 )
 {
 media
-not
-all
-and
 (
 -
 moz
@@ -19349,6 +19341,8 @@ moz
 windows
 -
 compositor
+:
+0
 )
 {
 #

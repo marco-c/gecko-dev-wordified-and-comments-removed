@@ -107,9 +107,6 @@ start
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -119,6 +116,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 xul
@@ -231,9 +230,6 @@ start
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -243,6 +239,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 xul
@@ -480,9 +478,6 @@ dotted
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -492,6 +487,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 xul
