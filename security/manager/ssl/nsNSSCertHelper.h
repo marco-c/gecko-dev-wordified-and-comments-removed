@@ -48,5 +48,17 @@ nsCString
 fp
 )
 ;
+nsresult
+GetPIPNSSBundleString
+(
+const
+char
+*
+stringName
+nsAString
+&
+result
+)
+;
 #
 endif
