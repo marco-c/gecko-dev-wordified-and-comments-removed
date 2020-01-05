@@ -1732,12 +1732,6 @@ specLen
 2
 )
 {
-#
-if
-defined
-(
-XP_WIN
-)
 if
 (
 (
@@ -1827,8 +1821,6 @@ pos
 break
 ;
 }
-#
-endif
 for
 (
 p
