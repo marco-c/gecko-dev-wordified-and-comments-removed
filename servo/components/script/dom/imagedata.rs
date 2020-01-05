@@ -255,7 +255,7 @@ cx
 ptr
 :
 :
-copy_nonoverlapping_memory
+copy_nonoverlapping
 (
 js_object_data
 vec

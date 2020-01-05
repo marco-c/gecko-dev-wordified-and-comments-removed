@@ -264,7 +264,7 @@ atomic
 :
 :
 {
-AtomicUint
+AtomicUsize
 Ordering
 }
 ;
@@ -3637,10 +3637,10 @@ BaseFlow
 {
 strong_ref_count
 :
-AtomicUint
+AtomicUsize
 weak_ref_count
 :
-AtomicUint
+AtomicUsize
 pub
 restyle_damage
 :
@@ -4631,7 +4631,7 @@ BaseFlow
 {
 strong_ref_count
 :
-AtomicUint
+AtomicUsize
 :
 :
 new
@@ -4640,7 +4640,7 @@ new
 )
 weak_ref_count
 :
-AtomicUint
+AtomicUsize
 :
 :
 new
@@ -4834,7 +4834,7 @@ self
 &
 '
 a
-AtomicUint
+AtomicUsize
 {
 &
 self
@@ -4860,7 +4860,7 @@ self
 &
 '
 a
-AtomicUint
+AtomicUsize
 {
 &
 self

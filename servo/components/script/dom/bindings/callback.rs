@@ -360,13 +360,13 @@ name
 CString
 :
 :
-from_slice
+new
 (
 name
-.
-as_bytes
-(
 )
+.
+unwrap
+(
 )
 ;
 if

@@ -829,7 +829,7 @@ start
 =
 relativeStart
 .
-to_uint
+to_usize
 (
 )
 .
@@ -846,7 +846,7 @@ relativeStart
 span
 )
 .
-to_uint
+to_usize
 (
 )
 .

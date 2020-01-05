@@ -3022,13 +3022,13 @@ filename
 CString
 :
 :
-from_slice
+new
 (
 filename
-.
-as_bytes
-(
 )
+.
+unwrap
+(
 )
 ;
 with_compartment

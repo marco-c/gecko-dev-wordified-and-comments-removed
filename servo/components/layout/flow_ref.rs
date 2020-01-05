@@ -547,7 +547,7 @@ object_align
 ptr
 :
 :
-copy_memory
+copy
 (
 fake_data
 flow_ref
