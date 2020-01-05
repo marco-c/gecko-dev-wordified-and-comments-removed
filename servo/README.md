@@ -221,6 +221,9 @@ cmake
 bzip2
 -
 devel
+libXcursor
+-
+devel
 pushd
 .
 cd
