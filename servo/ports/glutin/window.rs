@@ -4817,6 +4817,17 @@ G_NESTED_EVENT_LOOP_LISTENER
 =
 None
 }
+#
+[
+cfg
+(
+target_os
+=
+"
+windows
+"
+)
+]
 fn
 char_to_script_key
 (

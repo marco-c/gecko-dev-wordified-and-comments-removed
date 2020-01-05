@@ -225,6 +225,13 @@ DissimilarOriginLocationBinding
 Wrap
 )
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 fn
 origin

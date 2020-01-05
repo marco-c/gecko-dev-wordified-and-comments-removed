@@ -90,6 +90,17 @@ windowing
 :
 WindowEvent
 ;
+#
+[
+cfg
+(
+target_os
+=
+"
+android
+"
+)
+]
 use
 servo
 :
