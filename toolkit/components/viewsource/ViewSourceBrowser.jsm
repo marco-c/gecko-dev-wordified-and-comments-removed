@@ -551,9 +551,6 @@ updateBrowserRemoteness
 browser
 .
 isRemoteBrowser
-browser
-.
-remoteType
 )
 ;
 }
@@ -624,7 +621,6 @@ baseURI
 updateBrowserRemoteness
 (
 shouldBeRemote
-remoteType
 )
 {
 if
@@ -637,16 +633,6 @@ isRemoteBrowser
 !
 =
 shouldBeRemote
-|
-|
-this
-.
-browser
-.
-remoteType
-!
-=
-remoteType
 )
 {
 throw
