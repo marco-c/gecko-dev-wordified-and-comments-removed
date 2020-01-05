@@ -2745,6 +2745,12 @@ UseWebRender
 )
 )
 {
+MOZ_ASSERT
+(
+!
+aShadowManager
+)
+;
 mLayerManager
 =
 new
@@ -2838,6 +2844,12 @@ UseWebRender
 )
 )
 {
+MOZ_ASSERT
+(
+!
+aShadowManager
+)
+;
 mLayerManager
 =
 new
