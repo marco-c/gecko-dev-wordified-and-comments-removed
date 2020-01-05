@@ -20,10 +20,6 @@ onPageStart
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 String
 url
 )
@@ -36,10 +32,6 @@ onPageStop
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 boolean
 success
 )
@@ -52,10 +44,6 @@ onPageShow
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 )
 {
 }
@@ -66,10 +54,6 @@ onReceivedTitle
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 String
 title
 )
@@ -82,10 +66,6 @@ onReceivedFavicon
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 String
 url
 int

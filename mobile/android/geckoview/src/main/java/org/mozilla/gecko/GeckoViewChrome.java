@@ -27,10 +27,6 @@ onAlert
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 String
 message
 GeckoView
@@ -53,10 +49,6 @@ onConfirm
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 String
 message
 GeckoView
@@ -79,10 +71,6 @@ onPrompt
 (
 GeckoView
 view
-GeckoView
-.
-Browser
-browser
 String
 message
 String
