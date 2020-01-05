@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlheadingelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLHeadingElement
 :

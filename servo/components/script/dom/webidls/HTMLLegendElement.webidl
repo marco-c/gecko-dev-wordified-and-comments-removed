@@ -74,14 +74,6 @@ multipage
 /
 #
 htmllegendelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLLegendElement
 :

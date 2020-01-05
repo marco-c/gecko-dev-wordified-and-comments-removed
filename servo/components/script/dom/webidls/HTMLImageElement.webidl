@@ -88,12 +88,6 @@ unsigned
 long
 height
 )
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 HTMLImageElement

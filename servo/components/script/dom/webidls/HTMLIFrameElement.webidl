@@ -74,14 +74,6 @@ multipage
 /
 #
 htmliframeelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLIFrameElement
 :

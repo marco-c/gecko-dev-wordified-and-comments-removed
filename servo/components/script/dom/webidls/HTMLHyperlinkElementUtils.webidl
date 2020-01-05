@@ -76,12 +76,6 @@ multipage
 htmlhyperlinkelementutils
 [
 NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
 ]
 interface
 HTMLHyperlinkElementUtils
