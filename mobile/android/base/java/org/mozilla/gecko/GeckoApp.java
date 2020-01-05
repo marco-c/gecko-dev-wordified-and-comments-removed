@@ -11718,9 +11718,11 @@ R
 string
 .
 unsupported_sdk_version
-Build
+HardwareUtils
 .
-CPU_ABI
+getRealAbi
+(
+)
 Integer
 .
 toString
