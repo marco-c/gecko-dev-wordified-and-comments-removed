@@ -8,13 +8,6 @@ h
 #
 include
 "
-nspr
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
