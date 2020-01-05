@@ -200,7 +200,6 @@ inspector
 let
 icon
 =
-yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -298,7 +297,6 @@ icon
 ;
 icon
 =
-yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -353,7 +351,6 @@ icon
 ;
 icon
 =
-yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -451,7 +448,6 @@ icon
 ;
 icon
 =
-yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -519,7 +515,6 @@ inspector
 ;
 icon
 =
-yield
 getRuleViewSelectorHighlighterIcon
 (
 view

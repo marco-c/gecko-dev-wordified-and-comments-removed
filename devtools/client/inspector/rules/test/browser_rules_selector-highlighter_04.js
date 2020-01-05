@@ -168,7 +168,6 @@ inspector
 let
 icon
 =
-yield
 getRuleViewSelectorHighlighterIcon
 (
 view
