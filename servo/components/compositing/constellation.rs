@@ -5925,13 +5925,10 @@ blank
 let
 source_url
 =
+&
 source_pipeline
 .
 url
-.
-clone
-(
-)
 ;
 let
 same_script
