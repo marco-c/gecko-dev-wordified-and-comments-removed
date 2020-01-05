@@ -393,7 +393,8 @@ DOMString
 nodeValue
 ;
 [
-Throws
+SetterThrows
+GetterCanOOM
 Pure
 ]
 attribute
