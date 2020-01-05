@@ -333,7 +333,7 @@ build
 run
 run
 tests
-udpate
+update
 dependencies
 see
 .
@@ -1842,6 +1842,7 @@ shell
 .
 /
 mach
+run
 -
 d
 -
@@ -2388,11 +2389,12 @@ run
 .
 /
 mach
--
-r
 test
 -
 wpt
+-
+-
+release
 -
 -
 log
