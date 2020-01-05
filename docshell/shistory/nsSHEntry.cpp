@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIStructuredCloneContainer
 .
 h

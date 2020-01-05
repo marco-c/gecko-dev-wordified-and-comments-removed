@@ -338,9 +338,6 @@ class
 nsIStringBundleService
 ;
 class
-nsISupportsArray
-;
-class
 nsISupportsHashKey
 ;
 class
