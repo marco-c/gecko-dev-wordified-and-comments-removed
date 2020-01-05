@@ -1768,8 +1768,8 @@ window_size
 :
 Size2D
 (
-500u
-500u
+800u
+600u
 )
 opts
 :
