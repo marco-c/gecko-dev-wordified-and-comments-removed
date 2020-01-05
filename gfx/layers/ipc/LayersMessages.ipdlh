@@ -2157,17 +2157,6 @@ tileLayerDescriptor
 }
 ;
 struct
-OpUseOverlaySource
-{
-OverlaySource
-overlay
-;
-IntRect
-picture
-;
-}
-;
-struct
 OpPaintTextureRegion
 {
 ThebesBufferData
@@ -2390,8 +2379,6 @@ OpRemoveTexture
 OpUseTexture
 ;
 OpUseComponentAlphaTextures
-;
-OpUseOverlaySource
 ;
 }
 ;
