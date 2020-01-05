@@ -329,6 +329,10 @@ id
 (
 0
 )
+placeId
+(
+0
+)
 canAddToHistory
 (
 true
@@ -344,6 +348,9 @@ true
 }
 int64_t
 id
+;
+int64_t
+placeId
 ;
 nsCString
 spec
