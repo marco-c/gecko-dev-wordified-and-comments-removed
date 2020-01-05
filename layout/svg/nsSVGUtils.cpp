@@ -4052,10 +4052,7 @@ aDirtyRect
 gfxMatrix
 userToDeviceSpace
 =
-GetUserToCanvasTM
-(
-aFrame
-)
+aTransform
 ;
 if
 (
