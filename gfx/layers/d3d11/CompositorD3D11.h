@@ -943,6 +943,11 @@ Rect
 aTexCoords
 )
 ;
+void
+Present
+(
+)
+;
 ID3D11VertexShader
 *
 GetVSForGeometry
