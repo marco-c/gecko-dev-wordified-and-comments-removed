@@ -94,13 +94,10 @@ MPL
 #
 include
 "
-nsISupports
+nsIDOMCSSRule
 .
 idl
 "
-interface
-nsIDOMCSSStyleDeclaration
-;
 [
 scriptable
 uuid
@@ -119,7 +116,7 @@ fe0c
 interface
 nsIDOMCSSFontFaceRule
 :
-nsISupports
+nsIDOMCSSRule
 {
 readonly
 attribute
