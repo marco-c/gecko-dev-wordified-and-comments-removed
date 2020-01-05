@@ -273,7 +273,7 @@ aProcessor
 )
 mSourceVariable
 (
-0
+nullptr
 )
 mSource
 (
@@ -470,7 +470,7 @@ aProperty
 )
 mTargetVariable
 (
-0
+nullptr
 )
 mTarget
 (

@@ -1235,7 +1235,7 @@ m_targetStreamListener
 ;
 m_targetStreamListener
 =
-0
+nullptr
 ;
 mContentType
 .

@@ -4951,7 +4951,7 @@ aStatus
 ;
 mParser
 =
-0
+nullptr
 ;
 return
 mListener

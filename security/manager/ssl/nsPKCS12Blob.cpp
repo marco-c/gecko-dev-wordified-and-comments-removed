@@ -229,7 +229,7 @@ nsPKCS12Blob
 :
 mCertArray
 (
-0
+nullptr
 )
 mTmpFile
 (
@@ -345,7 +345,7 @@ rv
 {
 mToken
 =
-0
+nullptr
 ;
 }
 else

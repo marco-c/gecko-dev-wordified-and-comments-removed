@@ -4058,7 +4058,7 @@ nullptr
 ;
 mCacheEntry
 =
-0
+nullptr
 ;
 return
 true

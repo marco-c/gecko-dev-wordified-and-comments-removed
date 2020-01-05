@@ -3051,7 +3051,7 @@ history
 >
 mExpireNowTimer
 =
-0
+nullptr
 ;
 }
 }

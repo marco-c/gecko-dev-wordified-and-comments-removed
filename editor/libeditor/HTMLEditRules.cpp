@@ -2465,7 +2465,7 @@ selection
 ;
 mNewBlock
 =
-0
+nullptr
 ;
 }
 if
@@ -14765,7 +14765,7 @@ rv
 ;
 prevListItem
 =
-0
+nullptr
 ;
 continue
 ;
@@ -14934,7 +14934,7 @@ newBlock
 }
 prevListItem
 =
-0
+nullptr
 ;
 continue
 ;
@@ -15468,7 +15468,7 @@ curList
 ;
 prevListItem
 =
-0
+nullptr
 ;
 }
 nsCOMPtr

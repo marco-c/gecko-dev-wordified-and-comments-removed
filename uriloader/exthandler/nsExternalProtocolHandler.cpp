@@ -662,7 +662,7 @@ finish
 :
 mCallbacks
 =
-0
+nullptr
 ;
 return
 rv

@@ -232,7 +232,7 @@ false
 ;
 mUnicodeDecoder
 =
-0
+nullptr
 ;
 mCharsetSource
 =
@@ -323,7 +323,7 @@ mCountRemaining
 ;
 mUnicodeDecoder
 =
-0
+nullptr
 ;
 mCharsetSource
 =

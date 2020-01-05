@@ -2560,7 +2560,7 @@ mDictionaryIndex
 ;
 mSpellChecker
 =
-0
+nullptr
 ;
 return
 NS_OK

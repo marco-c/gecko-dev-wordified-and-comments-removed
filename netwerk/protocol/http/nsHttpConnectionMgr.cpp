@@ -755,7 +755,7 @@ true
 ;
 mSocketThreadTarget
 =
-0
+nullptr
 ;
 if
 (

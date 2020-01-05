@@ -989,7 +989,7 @@ NS_OK
 }
 mNode
 =
-0
+nullptr
 ;
 return
 NS_ERROR_INVALID_ARG

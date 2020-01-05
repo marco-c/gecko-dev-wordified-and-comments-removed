@@ -420,15 +420,15 @@ ReleaseData
 ;
 mRequest
 =
-0
+nullptr
 ;
 mObserver
 =
-0
+nullptr
 ;
 mContext
 =
-0
+nullptr
 ;
 }
 return
@@ -837,7 +837,7 @@ countRead
 ;
 mRequest
 =
-0
+nullptr
 ;
 return
 rv

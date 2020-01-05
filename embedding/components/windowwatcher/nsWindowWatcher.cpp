@@ -553,7 +553,7 @@ aChrome
 ;
 mChromeWeak
 =
-0
+nullptr
 ;
 }
 ReferenceSelf
@@ -5688,7 +5688,7 @@ info
 >
 mChromeWeak
 =
-0
+nullptr
 ;
 }
 return

@@ -1764,7 +1764,7 @@ invalidateCachedFile
 )
 mFile
 =
-0
+nullptr
 ;
 if
 (
@@ -15342,7 +15342,7 @@ failed
 ;
 mFile
 =
-0
+nullptr
 ;
 }
 }

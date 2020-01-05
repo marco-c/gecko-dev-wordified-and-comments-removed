@@ -299,11 +299,11 @@ nsPluginByteRangeStreamListener
 {
 mStreamConverter
 =
-0
+nullptr
 ;
 mWeakPtrPluginStreamListenerPeer
 =
-0
+nullptr
 ;
 }
 static
@@ -537,7 +537,7 @@ rv
 }
 mStreamConverter
 =
-0
+nullptr
 ;
 nsCOMPtr
 <

@@ -497,7 +497,7 @@ failed
 ;
 mDefaultLoadRequest
 =
-0
+nullptr
 ;
 if
 (

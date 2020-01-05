@@ -3888,11 +3888,11 @@ true
 ;
 mListener
 =
-0
+nullptr
 ;
 mListenerContext
 =
-0
+nullptr
 ;
 mCacheEntryAvailable
 =

@@ -6186,7 +6186,7 @@ Cancel
 ;
 mNotificationTimer
 =
-0
+nullptr
 ;
 }
 }

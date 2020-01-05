@@ -4202,7 +4202,7 @@ mCallback
 ;
 mCallback
 =
-0
+nullptr
 ;
 mCallbackFlags
 =
@@ -4323,7 +4323,7 @@ mCallback
 ;
 mCallback
 =
-0
+nullptr
 ;
 mCallbackFlags
 =
@@ -4873,7 +4873,7 @@ mReentrantMonitor
 ;
 mCallback
 =
-0
+nullptr
 ;
 mCallbackFlags
 =
@@ -5886,7 +5886,7 @@ mCallback
 ;
 mCallback
 =
-0
+nullptr
 ;
 mCallbackFlags
 =
@@ -5985,7 +5985,7 @@ mCallback
 ;
 mCallback
 =
-0
+nullptr
 ;
 mCallbackFlags
 =
@@ -6654,7 +6654,7 @@ mReentrantMonitor
 ;
 mCallback
 =
-0
+nullptr
 ;
 mCallbackFlags
 =

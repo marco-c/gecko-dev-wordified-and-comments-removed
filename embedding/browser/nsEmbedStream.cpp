@@ -348,7 +348,7 @@ Close
 ;
 mOutputStream
 =
-0
+nullptr
 ;
 return
 rv

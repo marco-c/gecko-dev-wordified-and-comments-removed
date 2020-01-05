@@ -3862,11 +3862,11 @@ status
 ;
 mListener
 =
-0
+nullptr
 ;
 mListenerContext
 =
-0
+nullptr
 ;
 }
 if
@@ -3885,7 +3885,7 @@ status
 ;
 mPump
 =
-0
+nullptr
 ;
 mIsPending
 =
@@ -3893,11 +3893,11 @@ false
 ;
 mCallbacks
 =
-0
+nullptr
 ;
 mProgressSink
 =
-0
+nullptr
 ;
 #
 if

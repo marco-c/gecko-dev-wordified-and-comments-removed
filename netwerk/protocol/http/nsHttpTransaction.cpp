@@ -5143,7 +5143,7 @@ NS_SEEK_SET
 ;
 mSecurityInfo
 =
-0
+nullptr
 ;
 if
 (
