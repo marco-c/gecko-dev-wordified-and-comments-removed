@@ -910,6 +910,9 @@ viewport_size
 inherited_style
 :
 default_values
+layout_parent_style
+:
+default_values
 style
 :
 default_values

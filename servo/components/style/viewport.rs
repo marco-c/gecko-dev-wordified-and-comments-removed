@@ -4487,6 +4487,13 @@ device
 default_values
 (
 )
+layout_parent_style
+:
+device
+.
+default_values
+(
+)
 style
 :
 device

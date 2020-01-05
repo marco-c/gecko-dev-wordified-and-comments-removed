@@ -271,6 +271,13 @@ inherited_style
 a
 ComputedValues
 pub
+layout_parent_style
+:
+&
+'
+a
+ComputedValues
+pub
 style
 :
 ComputedValues
