@@ -457,11 +457,6 @@ mozilla
 =
 [
 '
-ArrayIterator
-.
-h
-'
-'
 IncrementalTokenizer
 .
 h
