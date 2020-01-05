@@ -857,11 +857,6 @@ int64_t
 aMicroseconds
 )
 ;
-void
-DiscardStreamData
-(
-)
-;
 bool
 HaveEnoughDecodedAudio
 (
