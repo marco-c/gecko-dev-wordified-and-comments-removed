@@ -324,6 +324,12 @@ extensions
 /
 cookie
 '
+'
+/
+extensions
+/
+permissions
+'
 ]
 DIRS
 +

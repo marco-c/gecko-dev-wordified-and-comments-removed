@@ -387,11 +387,6 @@ Image
 cpp
 '
 '
-ImageBlocker
-.
-cpp
-'
-'
 ImageCacheKey
 .
 cpp
