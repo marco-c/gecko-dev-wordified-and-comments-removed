@@ -196,6 +196,11 @@ ComputedKeyframeValues
 >
 &
 aComputedValues
+dom
+:
+:
+CompositeOperation
+aEffectComposite
 nsStyleContext
 *
 aStyleContext
