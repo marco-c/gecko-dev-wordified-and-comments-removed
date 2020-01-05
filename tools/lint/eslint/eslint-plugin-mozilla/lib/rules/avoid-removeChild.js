@@ -145,7 +145,6 @@ callee
 object
 .
 object
-context
 )
 =
 =
@@ -249,7 +248,6 @@ getASTSource
 callee
 .
 object
-context
 )
 =
 =
