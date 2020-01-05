@@ -721,10 +721,11 @@ load
 onBlankLoad
 )
 ;
-delete
 this
 .
 _openedURL
+=
+null
 ;
 this
 .
