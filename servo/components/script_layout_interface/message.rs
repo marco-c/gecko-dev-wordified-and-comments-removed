@@ -282,6 +282,10 @@ f32
 >
 bool
 )
+NodeScrollRootIdQuery
+(
+TrustedNodeAddress
+)
 NodeGeometryQuery
 (
 TrustedNodeAddress
