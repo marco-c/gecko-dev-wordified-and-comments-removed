@@ -4619,7 +4619,7 @@ Preferences
 GetBool
 (
 PREF_GEO_SECURITY_ALLOWINSECURE
-true
+false
 )
 )
 {
@@ -4683,7 +4683,7 @@ win
 )
 -
 >
-IsSecureContext
+IsSecureContextIfOpenerIgnored
 (
 )
 )
