@@ -302,6 +302,14 @@ GetTitle
 (
 PipelineId
 )
+Freeze
+(
+PipelineId
+)
+Thaw
+(
+PipelineId
+)
 }
 unsafe
 impl
