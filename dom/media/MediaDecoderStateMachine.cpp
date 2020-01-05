@@ -1166,6 +1166,10 @@ virtual
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
+aTarget
 )
 ;
 virtual
@@ -1889,6 +1893,9 @@ override
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
 )
 override
 {
@@ -2106,6 +2113,9 @@ override
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
 )
 override
 {
@@ -2301,6 +2311,9 @@ override
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
 )
 override
 {
@@ -2591,6 +2604,9 @@ override
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
 )
 override
 {
@@ -4003,6 +4019,9 @@ override
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
 )
 override
 {
@@ -8093,6 +8112,9 @@ down
 void
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
 )
 override
 {
@@ -8468,6 +8490,10 @@ StateObject
 :
 HandleResumeVideoDecoding
 (
+const
+TimeUnit
+&
+aTarget
 )
 {
 MOZ_ASSERT
@@ -8547,12 +8573,7 @@ mTarget
 .
 emplace
 (
-mMaster
--
->
-GetMediaTime
-(
-)
+aTarget
 type
 true
 )
@@ -13832,6 +13853,9 @@ mStateObj
 >
 HandleResumeVideoDecoding
 (
+GetMediaTime
+(
+)
 )
 ;
 }
