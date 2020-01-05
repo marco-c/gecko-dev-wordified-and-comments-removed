@@ -449,6 +449,11 @@ Vec
 Modification
 >
 )
+WantsLiveNotifications
+(
+PipelineId
+bool
+)
 }
 /
 /
