@@ -291,6 +291,14 @@ cpp
 #
 Redefines
 IFoo
+'
+TestNsRefPtr
+.
+cpp
+'
+#
+Redefines
+Foo
 ]
 LOCAL_INCLUDES
 +
