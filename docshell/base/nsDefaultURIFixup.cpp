@@ -3868,11 +3868,9 @@ false
 if
 (
 (
+iterEnd
+-
 iter
-.
-size_forward
-(
-)
 =
 =
 1
