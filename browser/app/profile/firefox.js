@@ -256,16 +256,6 @@ pref
 "
 extensions
 .
-webextOptionalPermissionPrompts
-"
-true
-)
-;
-pref
-(
-"
-extensions
-.
 getAddons
 .
 cache
@@ -12765,9 +12755,6 @@ su
 fx
 -
 devtools
-toolkit
-/
-require
 url_advisor
 kaspersky
 .
@@ -13084,9 +13071,6 @@ sig
 savefrom
 .
 net
-browser
--
-loader
 ImageSaver
 Merci
 .
