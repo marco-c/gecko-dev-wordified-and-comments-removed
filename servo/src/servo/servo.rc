@@ -86,6 +86,9 @@ js
 use
 harfbuzz
 ;
+use
+stb_image
+;
 mod
 dom
 {
@@ -116,6 +119,9 @@ mod
 image
 {
 mod
+base
+;
+mod
 encode
 {
 mod
@@ -129,6 +135,9 @@ layout
 mod
 style
 {
+mod
+apply
+;
 mod
 style
 ;
