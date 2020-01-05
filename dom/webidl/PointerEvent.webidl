@@ -160,6 +160,11 @@ pressure
 ;
 readonly
 attribute
+float
+tangentialPressure
+;
+readonly
+attribute
 long
 tiltX
 ;
@@ -167,6 +172,11 @@ readonly
 attribute
 long
 tiltY
+;
+readonly
+attribute
+long
+twist
 ;
 readonly
 attribute
@@ -205,6 +215,11 @@ pressure
 =
 0
 ;
+float
+tangentialPressure
+=
+0
+;
 long
 tiltX
 =
@@ -212,6 +227,11 @@ tiltX
 ;
 long
 tiltY
+=
+0
+;
+long
+twist
 =
 0
 ;

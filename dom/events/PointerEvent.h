@@ -152,6 +152,11 @@ Pressure
 (
 )
 ;
+float
+TangentialPressure
+(
+)
+;
 int32_t
 TiltX
 (
@@ -159,6 +164,11 @@ TiltX
 ;
 int32_t
 TiltY
+(
+)
+;
+int32_t
+Twist
 (
 )
 ;
