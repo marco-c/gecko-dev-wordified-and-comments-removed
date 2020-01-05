@@ -228,6 +228,7 @@ move
 new_text_data
 )
 }
+pub
 trait
 UnscannedMethods
 {
@@ -235,6 +236,8 @@ pure
 fn
 raw_text
 (
+&
+self
 )
 -
 >
@@ -251,6 +254,8 @@ pure
 fn
 raw_text
 (
+&
+self
 )
 -
 >
@@ -258,7 +263,6 @@ raw_text
 str
 {
 match
-&
 self
 {
 &
@@ -277,6 +281,8 @@ _
 =
 >
 fail
+!
+(
 ~
 "
 unsupported
@@ -295,6 +301,7 @@ text
 box
 .
 "
+)
 }
 }
 }

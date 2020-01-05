@@ -25,6 +25,7 @@ cell
 :
 Cell
 ;
+pub
 trait
 NodeUtil
 {
@@ -49,9 +50,9 @@ CompleteSelectResults
 ;
 }
 impl
-Node
-:
 NodeUtil
+for
+Node
 {
 /
 *
@@ -136,6 +137,8 @@ has_aux
 )
 {
 fail
+!
+(
 ~
 "
 style
@@ -150,6 +153,7 @@ aux
 data
 !
 "
+)
 ;
 }
 unsafe
@@ -187,6 +191,8 @@ None
 =
 >
 fail
+!
+(
 ~
 "
 style
@@ -200,6 +206,7 @@ a
 style
 !
 "
+)
 }
 }
 )

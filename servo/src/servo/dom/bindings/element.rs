@@ -6,8 +6,7 @@ rust
 :
 :
 {
-bare_compartment
-methods
+Compartment
 jsobj
 }
 ;
@@ -277,8 +276,8 @@ init
 (
 compartment
 :
-&
-bare_compartment
+mut
+Compartment
 )
 {
 let
@@ -827,6 +826,8 @@ _
 =
 >
 fail
+!
+(
 ~
 "
 why
@@ -838,12 +839,15 @@ image
 element
 ?
 "
+)
 }
 }
 _
 =
 >
 fail
+!
+(
 ~
 "
 why
@@ -854,6 +858,7 @@ an
 element
 ?
 "
+)
 }
 }
 )
@@ -1055,6 +1060,8 @@ _
 =
 >
 fail
+!
+(
 ~
 "
 why
@@ -1066,12 +1073,15 @@ image
 element
 ?
 "
+)
 }
 }
 _
 =
 >
 fail
+!
+(
 ~
 "
 why
@@ -1082,6 +1092,7 @@ an
 element
 ?
 "
+)
 }
 }
 ;
@@ -1372,6 +1383,8 @@ _
 =
 >
 fail
+!
+(
 ~
 "
 element
@@ -1382,6 +1395,7 @@ only
 handles
 elements
 "
+)
 }
 }
 )

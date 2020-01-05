@@ -1920,6 +1920,14 @@ I
 /
 usr
 /
+share
+/
+aclocal
+-
+I
+/
+usr
+/
 local
 /
 share
@@ -1980,8 +1988,6 @@ missing
 -
 copy
 -
--
-no
 -
 force
 "

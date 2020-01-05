@@ -21,6 +21,7 @@ font
 {
 Font
 FontTable
+FontTableMethods
 FontTableTag
 }
 ;
@@ -1570,11 +1571,10 @@ f
 )
 }
 }
-pub
 impl
-HarfbuzzShaper
-:
 ShaperMethods
+for
+HarfbuzzShaper
 {
 /
 *

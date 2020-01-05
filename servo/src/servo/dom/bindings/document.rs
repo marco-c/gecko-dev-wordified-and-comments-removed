@@ -6,9 +6,7 @@ rust
 :
 :
 {
-compartment
-bare_compartment
-methods
+Compartment
 jsobj
 }
 ;
@@ -641,8 +639,8 @@ init
 (
 compartment
 :
-&
-bare_compartment
+mut
+Compartment
 doc
 :
 Document

@@ -57,6 +57,18 @@ use
 layout
 :
 :
+debug
+:
+:
+{
+BoxedDebugMethods
+DebugMethods
+}
+;
+use
+layout
+:
+:
 flow
 :
 :
@@ -3015,6 +3027,8 @@ finish
 me
 .
 fail
+!
+(
 ~
 "
 TODO
@@ -3030,6 +3044,7 @@ by
 a
 block
 "
+)
 }
 /
 *
@@ -3550,6 +3565,8 @@ _
 =
 >
 fail
+!
+(
 ~
 "
 WAT
@@ -3566,11 +3583,14 @@ image
 box
 ?
 "
+)
 }
 _
 =
 >
 fail
+!
+(
 ~
 "
 WAT
@@ -3587,6 +3607,7 @@ image
 box
 ?
 "
+)
 }
 }
 }
@@ -3649,6 +3670,8 @@ _
 =
 >
 fail
+!
+(
 ~
 "
 WAT
@@ -3665,6 +3688,7 @@ text
 box
 ?
 "
+)
 }
 }
 }
@@ -3708,7 +3732,10 @@ Comment
 )
 =
 >
+{
 fail
+!
+(
 ~
 "
 Hey
@@ -3721,6 +3748,7 @@ t
 get
 here
 !
+\
 They
 are
 display
@@ -3728,6 +3756,8 @@ display
 none
 !
 "
+)
+}
 ~
 Text
 (
@@ -3812,7 +3842,12 @@ _
 )
 =
 >
+{
+/
+/
 fail
+!
+(
 ~
 "
 Can
@@ -3831,6 +3866,7 @@ display
 '
 type
 "
+)
 }
 }
 }

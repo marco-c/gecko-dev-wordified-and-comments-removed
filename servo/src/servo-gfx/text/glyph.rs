@@ -53,6 +53,15 @@ use
 core
 :
 :
+num
+:
+:
+NumCast
+;
+use
+core
+:
+:
 u16
 ;
 use
@@ -69,12 +78,6 @@ std
 :
 :
 sort
-;
-use
-num
-:
-:
-Num
 ;
 struct
 GlyphEntry
@@ -965,11 +968,10 @@ is_simple
 (
 )
 ;
-Num
+NumCast
 :
 :
-from_int
-(
+from
 (
 (
 self
@@ -981,9 +983,6 @@ GLYPH_ADVANCE_MASK
 >
 >
 GLYPH_ADVANCE_SHIFT
-)
-as
-int
 )
 }
 pure
@@ -2199,6 +2198,8 @@ None
 =
 >
 fail
+!
+(
 ~
 "
 Invalid
@@ -2212,6 +2213,7 @@ lookup
 table
 !
 "
+)
 Some
 (
 i
@@ -2363,6 +2365,8 @@ None
 =
 >
 fail
+!
+(
 ~
 "
 Invalid
@@ -2376,6 +2380,7 @@ lookup
 table
 !
 "
+)
 Some
 (
 i

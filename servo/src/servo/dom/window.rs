@@ -1,5 +1,8 @@
 use
-oldcomm
+core
+:
+:
+pipes
 :
 :
 {
@@ -343,6 +346,7 @@ timer
 :
 delayed_send
 (
+&
 uv_global_loop
 :
 :
@@ -350,6 +354,7 @@ get
 (
 )
 timeout
+&
 self
 .
 timer_chan

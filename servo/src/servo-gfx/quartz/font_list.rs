@@ -151,7 +151,16 @@ use
 gfx_font
 :
 :
+{
 FontHandle
+FontHandleMethods
+}
+;
+use
+gfx_font_context
+:
+:
+FontContextHandleMethods
 ;
 use
 gfx_font_list

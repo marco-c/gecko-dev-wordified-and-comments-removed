@@ -30,7 +30,7 @@ uint
 )
 -
 >
-self
+Self
 ;
 fn
 insert
@@ -94,12 +94,7 @@ struct
 MonoCache
 <
 K
-:
-Copy
-Eq
 V
-:
-Copy
 >
 {
 mut

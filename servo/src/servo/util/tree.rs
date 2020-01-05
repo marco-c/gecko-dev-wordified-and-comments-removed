@@ -590,6 +590,8 @@ _
 >
 {
 fail
+!
+(
 ~
 "
 Already
@@ -597,6 +599,7 @@ has
 a
 parent
 "
+)
 ;
 }
 None
@@ -777,12 +780,15 @@ None
 >
 {
 fail
+!
+(
 ~
 "
 Not
 a
 child
 "
+)
 ;
 }
 Some
@@ -831,6 +837,8 @@ None
 >
 {
 fail
+!
+(
 ~
 "
 parent
@@ -841,6 +849,7 @@ child
 ?
 ?
 "
+)
 }
 Some
 (
@@ -889,6 +898,8 @@ None
 >
 {
 fail
+!
+(
 ~
 "
 parent
@@ -899,6 +910,7 @@ child
 ?
 ?
 "
+)
 }
 Some
 (

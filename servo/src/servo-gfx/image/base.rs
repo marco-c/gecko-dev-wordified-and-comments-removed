@@ -291,6 +291,9 @@ _
 =
 >
 fail
+!
+(
+)
 }
 }
 ;
@@ -338,6 +341,8 @@ _image
 =
 >
 fail
+!
+(
 ~
 "
 HDR
@@ -345,6 +350,7 @@ images
 not
 implemented
 "
+)
 stb_image
 :
 :

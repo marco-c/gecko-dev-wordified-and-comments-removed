@@ -280,11 +280,14 @@ succeeded
 )
 {
 fail
+!
+(
 ~
 "
 FT_Done_Face
 failed
 "
+)
 ;
 }
 }

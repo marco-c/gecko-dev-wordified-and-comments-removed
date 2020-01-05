@@ -6,8 +6,7 @@ rust
 :
 :
 {
-bare_compartment
-methods
+Compartment
 jsobj
 }
 ;
@@ -182,8 +181,8 @@ init
 (
 compartment
 :
-&
-bare_compartment
+mut
+Compartment
 )
 {
 let
@@ -460,7 +459,6 @@ Element
 )
 =
 >
-{
 element
 :
 :
@@ -470,7 +468,6 @@ cx
 node
 scope
 )
-}
 ~
 Text
 (
@@ -478,8 +475,9 @@ Text
 )
 =
 >
-{
 fail
+!
+(
 ~
 "
 no
@@ -488,8 +486,7 @@ node
 bindings
 yet
 "
-;
-}
+)
 ~
 Comment
 (
@@ -497,8 +494,9 @@ Comment
 )
 =
 >
-{
 fail
+!
+(
 ~
 "
 no
@@ -507,8 +505,7 @@ node
 bindings
 yet
 "
-;
-}
+)
 ~
 Doctype
 (
@@ -516,8 +513,9 @@ Doctype
 )
 =
 >
-{
 fail
+!
+(
 ~
 "
 no
@@ -526,8 +524,7 @@ node
 bindings
 yet
 "
-;
-}
+)
 }
 }
 }

@@ -22,7 +22,7 @@ surface
 surface
 :
 :
-image_surface
+ImageSurface
 )
 {
 assert

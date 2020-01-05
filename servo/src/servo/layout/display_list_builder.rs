@@ -1,6 +1,3 @@
-export
-DisplayListBuilder
-;
 use
 newcss
 :
@@ -175,6 +172,7 @@ ctx
 &
 LayoutContext
 }
+pub
 trait
 FlowDisplayListBuilderMethods
 {
@@ -238,9 +236,9 @@ DisplayList
 ;
 }
 impl
-FlowContext
-:
 FlowDisplayListBuilderMethods
+for
+FlowContext
 {
 fn
 build_display_list

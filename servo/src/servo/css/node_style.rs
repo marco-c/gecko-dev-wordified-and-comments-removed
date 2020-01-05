@@ -1,4 +1,13 @@
 use
+css
+:
+:
+node_util
+:
+:
+NodeUtil
+;
+use
 dom
 :
 :
@@ -16,6 +25,7 @@ complete
 :
 CompleteStyle
 ;
+pub
 trait
 StyledNode
 {
