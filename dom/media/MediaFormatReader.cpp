@@ -379,6 +379,7 @@ Promise
 :
 Private
 ;
+explicit
 DecoderAllocPolicy
 (
 TrackType
@@ -448,6 +449,7 @@ Token
 {
 public
 :
+explicit
 AutoDeallocToken
 (
 TrackType
