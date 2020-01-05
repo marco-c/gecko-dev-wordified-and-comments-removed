@@ -1473,6 +1473,15 @@ ContentPrefs
 h
 "
 #
+include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
 ifdef
 MOZ_WEBRTC
 #
