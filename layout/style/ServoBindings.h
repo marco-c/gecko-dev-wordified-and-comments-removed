@@ -1583,6 +1583,13 @@ int32_t
 index
 )
 ;
+void
+Gecko_CSSValue_Drop
+(
+nsCSSValueBorrowedMut
+css_value
+)
+;
 NS_DECL_THREADSAFE_FFI_REFCOUNTING
 (
 nsCSSValueSharedList
