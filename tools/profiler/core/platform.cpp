@@ -11297,13 +11297,6 @@ TimeStamp
 aTime
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 mozilla
 :
 :
@@ -11327,13 +11320,6 @@ profiler_time
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 return
 profiler_time
 (
