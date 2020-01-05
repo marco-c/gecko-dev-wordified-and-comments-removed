@@ -10750,11 +10750,8 @@ attribute
 )
 ;
 attrs
-.
-Inherit
-(
+=
 oa
-)
 ;
 }
 if

@@ -12448,11 +12448,8 @@ attribute
 )
 ;
 attrs
-.
-Inherit
-(
+=
 docShellAttrs
-)
 ;
 attrs
 .

@@ -116,15 +116,6 @@ aOther
 {
 }
 void
-Inherit
-(
-const
-OriginAttributes
-&
-aAttrs
-)
-;
-void
 SetFirstPartyDomain
 (
 const
