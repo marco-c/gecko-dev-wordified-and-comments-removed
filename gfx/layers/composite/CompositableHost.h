@@ -463,9 +463,6 @@ const
 nsIntRegion
 &
 aOldValidRegionBack
-nsIntRegion
-*
-aUpdatedRegionBack
 )
 {
 NS_ERROR

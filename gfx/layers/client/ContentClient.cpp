@@ -2013,6 +2013,11 @@ BufferRotation
 updatedRegion
 )
 ;
+SwapBuffers
+(
+updatedRegion
+)
+;
 }
 void
 ContentClientRemoteBuffer
