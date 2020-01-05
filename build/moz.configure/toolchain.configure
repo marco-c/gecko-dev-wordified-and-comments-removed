@@ -7937,11 +7937,3 @@ when
 =
 is_windows
 )
-include
-(
-'
-rust
-.
-configure
-'
-)
