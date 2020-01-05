@@ -122,11 +122,6 @@ GetProp_Fallback
 \
 _
 (
-GetProp_CallNativeGlobal
-)
-\
-_
-(
 GetProp_Generic
 )
 \
