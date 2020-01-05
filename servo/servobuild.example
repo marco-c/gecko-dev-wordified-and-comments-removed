@@ -66,7 +66,7 @@ shared
 by
 multiple
 Servo
-reposities
+repositories
 .
 Defaults
 to
@@ -90,7 +90,7 @@ servo
 "
 #
 Where
-cargo
+Cargo
 stores
 all
 of
@@ -391,7 +391,7 @@ ndk
 /
 toolchain
 for
-android
+Android
 too
 [
 gonk
