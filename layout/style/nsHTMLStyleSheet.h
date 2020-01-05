@@ -284,6 +284,9 @@ aMapped
 void
 CalculateMappedServoDeclarations
 (
+nsPresContext
+*
+aPresContext
 )
 ;
 nsIStyleRule
