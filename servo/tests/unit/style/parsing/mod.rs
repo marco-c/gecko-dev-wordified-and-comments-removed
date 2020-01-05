@@ -522,6 +522,9 @@ mod
 basic_shape
 ;
 mod
+font
+;
+mod
 image
 ;
 mod
