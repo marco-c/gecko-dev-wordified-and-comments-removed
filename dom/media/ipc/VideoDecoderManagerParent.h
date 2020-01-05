@@ -76,6 +76,12 @@ ShutdownThreads
 (
 )
 ;
+static
+void
+ShutdownVideoBridge
+(
+)
+;
 bool
 OnManagerThread
 (
