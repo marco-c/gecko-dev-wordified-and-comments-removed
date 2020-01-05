@@ -523,6 +523,9 @@ descriptor
 source
 target
 codeOnFailure
+isOptional
+=
+False
 )
 :
         
@@ -623,6 +626,23 @@ codeOnFailure
 define
 (
 )
+                              
+"
+unwrapped_val
+"
+:
+"
+Some
+(
+val
+)
+"
+if
+isOptional
+else
+"
+val
+"
 }
         
 if
@@ -857,7 +877,9 @@ val
 target
 }
 =
-val
+{
+unwrapped_val
+}
   
 Err
 (
@@ -917,6 +939,7 @@ self
 descriptor
 source
 target
+isOptional
 )
 :
         
@@ -957,6 +980,8 @@ descriptor
 .
 workers
 )
+                                         
+isOptional
 )
 class
 CGThing
@@ -1487,7 +1512,14 @@ True
 else
 :
                     
-pass
+sigIndex
+=
+signatures
+.
+index
+(
+signature
+)
                     
 argCountCases
 .
@@ -1503,6 +1535,10 @@ argCount
 getPerSignatureCall
 (
 signature
+                                                                  
+signatureIndex
+=
+sigIndex
 )
 )
 )
@@ -1905,9 +1941,13 @@ distinguishingArg
 )
                 
 for
+idx
 sig
 in
+enumerate
+(
 interfacesSigs
+)
 :
                     
 caseBody
@@ -2027,6 +2067,7 @@ sig
 distinguishingIndex
 +
 1
+idx
 )
 4
 )
@@ -6681,6 +6722,16 @@ declName
 "
                         
 failureCode
+                        
+isOptional
+or
+argIsPointer
+or
+type
+.
+nullable
+(
+)
 )
 )
             
@@ -6711,6 +6762,16 @@ val
 declName
 }
 "
+                        
+isOptional
+or
+argIsPointer
+or
+type
+.
+nullable
+(
+)
 )
 )
         
@@ -28485,9 +28546,11 @@ val
 "
 :
 "
+(
+*
 desc
--
->
+)
+.
 value
 "
                 
@@ -28497,9 +28560,11 @@ valPtr
 :
 "
 &
+(
+*
 desc
--
->
+)
+.
 value
 "
             
@@ -29502,7 +29567,6 @@ mut
 *
 desc
 proxy
-JSVAL_VOID
 false
 )
 ;
@@ -29582,7 +29646,6 @@ mut
 *
 desc
 proxy
-JSVAL_VOID
 false
 )
 ;
@@ -30281,7 +30344,7 @@ descriptor
 defineProperty
 "
 "
-bool
+JSBool
 "
 args
 )
@@ -30410,6 +30473,7 @@ let
 this
 :
 *
+mut
 %
 s
 =
@@ -30417,6 +30481,11 @@ UnwrapProxy
 (
 proxy
 )
+as
+*
+mut
+%
+s
 ;
 \
 n
@@ -30455,6 +30524,11 @@ n
 )
 %
 (
+self
+.
+descriptor
+.
+concreteType
 self
 .
 descriptor
@@ -31076,7 +31150,7 @@ return
 proxyhandler
 :
 :
-defineProperty
+defineProperty_
 (
 %
 s
@@ -37672,6 +37746,16 @@ utils
 :
 :
 EnumEntry
+'
+                          
+'
+dom
+:
+:
+bindings
+:
+:
+proxyhandler
 '
                           
 '
