@@ -1325,7 +1325,8 @@ do_check_eq
 record
 .
 title
-null
+"
+"
 )
 ;
 do_check_eq
