@@ -6680,6 +6680,13 @@ threadLoop
 (
 )
 ;
+Mutex
+:
+:
+ShutDown
+(
+)
+;
 }
 void
 HelperThread
