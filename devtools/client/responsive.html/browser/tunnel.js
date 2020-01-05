@@ -117,6 +117,9 @@ SWAPPED_BROWSER_STATE
 =
 [
 "
+_remoteFinder
+"
+"
 _securityUI
 "
 "
