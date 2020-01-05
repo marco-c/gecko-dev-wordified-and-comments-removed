@@ -4322,6 +4322,9 @@ unfiledBookmarksFolderId
 PlacesUtils
 .
 toolbarFolderId
+PlacesUtils
+.
+mobileFolderId
 )
 ;
 }
@@ -4986,6 +4989,9 @@ toolbarFolderId
 PlacesUtils
 .
 unfiledBookmarksFolderId
+PlacesUtils
+.
+mobileFolderId
 )
 ;
 break
