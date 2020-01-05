@@ -6164,6 +6164,7 @@ node_from_nodes_and_strings
 (
 &
 self
+mut
 nodes
 :
 Vec
@@ -6191,14 +6192,12 @@ len
 =
 1
 {
+Ok
+(
 match
 nodes
 .
-into_iter
-(
-)
-.
-next
+pop
 (
 )
 .
@@ -6215,10 +6214,7 @@ node
 )
 =
 >
-Ok
-(
 node
-)
 NodeOrString
 :
 :
@@ -6228,9 +6224,6 @@ string
 )
 =
 >
-{
-Ok
-(
 Root
 :
 :
@@ -6243,9 +6236,8 @@ CreateTextNode
 string
 )
 )
+}
 )
-}
-}
 }
 else
 {
