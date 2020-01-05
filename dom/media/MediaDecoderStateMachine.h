@@ -949,13 +949,6 @@ MediaDecoderStateMachine
 )
 ;
 void
-SetState
-(
-State
-aState
-)
-;
-void
 BufferedRangeUpdated
 (
 )
