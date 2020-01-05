@@ -1498,7 +1498,6 @@ Arc
 <
 MIMEClassifier
 >
-String
 )
 +
 Send
@@ -1510,7 +1509,6 @@ move
 load_data
 senders
 classifier
-_user_agent
 |
 {
 factory
@@ -1565,6 +1563,13 @@ http_loader
 :
 factory
 (
+self
+.
+user_agent
+.
+clone
+(
+)
 self
 .
 hsts_list
@@ -1718,13 +1723,6 @@ consumer
 self
 .
 mime_classifier
-.
-clone
-(
-)
-self
-.
-user_agent
 .
 clone
 (
