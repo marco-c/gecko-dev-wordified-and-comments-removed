@@ -2186,13 +2186,6 @@ return
 1
 ;
 }
-aTimer
--
->
-mArmed
-=
-true
-;
 NS_ADDREF
 (
 aTimer
@@ -2285,13 +2278,6 @@ AssertCurrentThreadOwns
 )
 ;
 }
-aTimer
--
->
-mArmed
-=
-false
-;
 NS_RELEASE
 (
 aTimer
