@@ -154,6 +154,11 @@ example
 org
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 var
 gTests
 =
