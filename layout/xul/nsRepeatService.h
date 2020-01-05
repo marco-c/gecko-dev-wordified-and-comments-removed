@@ -38,6 +38,9 @@ REPEAT_DELAY
 #
 endif
 class
+nsIDocument
+;
+class
 nsITimer
 ;
 class
@@ -71,6 +74,9 @@ aCallback
 void
 *
 aCallbackData
+nsIDocument
+*
+aDocument
 const
 nsACString
 &

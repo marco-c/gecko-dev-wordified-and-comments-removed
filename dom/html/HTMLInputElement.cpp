@@ -18061,6 +18061,9 @@ Start
 (
 HandleNumberControlSpin
 this
+OwnerDoc
+(
+)
 NS_LITERAL_CSTRING
 (
 "

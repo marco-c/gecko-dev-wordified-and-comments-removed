@@ -192,6 +192,12 @@ Start
 (
 Notify
 this
+mContent
+-
+>
+OwnerDoc
+(
+)
 NS_LITERAL_CSTRING
 (
 "
@@ -216,6 +222,12 @@ Start
 (
 Notify
 this
+mContent
+-
+>
+OwnerDoc
+(
+)
 NS_LITERAL_CSTRING
 (
 "
