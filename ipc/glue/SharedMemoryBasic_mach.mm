@@ -947,7 +947,7 @@ gParentPid
 pid
 ;
 }
-MemoryPorts
+auto
 *
 listen_ports
 =
@@ -1599,7 +1599,7 @@ the
 other
 process
 .
-ReceivePort
+auto
 *
 ports_in_receiver
 =
@@ -1608,7 +1608,7 @@ ReceivePort
 (
 )
 ;
-ReceivePort
+auto
 *
 ports_out_receiver
 =
@@ -1701,7 +1701,7 @@ receive
 new
 memory
 .
-MachPortSender
+auto
 *
 ports_in_sender
 =
@@ -1711,7 +1711,7 @@ MachPortSender
 raw_ports_in_sender
 )
 ;
-MachPortSender
+auto
 *
 ports_out_sender
 =
@@ -2462,7 +2462,7 @@ failed
 return
 ;
 }
-MachPortSender
+auto
 *
 ports_in_sender
 =
@@ -2478,7 +2478,7 @@ GetTranslatedPort
 )
 )
 ;
-MachPortSender
+auto
 *
 ports_out_sender
 =
@@ -2494,7 +2494,7 @@ GetTranslatedPort
 )
 )
 ;
-ReceivePort
+auto
 *
 ports_in_receiver
 =
@@ -2503,7 +2503,7 @@ ReceivePort
 (
 )
 ;
-ReceivePort
+auto
 *
 ports_out_receiver
 =

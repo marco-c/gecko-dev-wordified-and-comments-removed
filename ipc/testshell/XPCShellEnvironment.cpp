@@ -1973,7 +1973,7 @@ CreateEnvironment
 (
 )
 {
-XPCShellEnvironment
+auto
 *
 env
 =

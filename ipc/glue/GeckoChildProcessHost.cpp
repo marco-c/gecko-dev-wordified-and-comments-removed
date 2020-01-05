@@ -4551,7 +4551,7 @@ failed
 "
 ;
 }
-MachPortSender
+auto
 *
 parent_recv_port_memory_ack
 =
@@ -4596,7 +4596,7 @@ failed
 "
 ;
 }
-MachPortSender
+auto
 *
 parent_send_port_memory
 =
@@ -4657,7 +4657,7 @@ return
 false
 ;
 }
-ReceivePort
+auto
 *
 parent_recv_port_memory
 =
@@ -4716,7 +4716,7 @@ return
 false
 ;
 }
-ReceivePort
+auto
 *
 parent_send_port_memory_ack
 =
