@@ -1212,11 +1212,6 @@ MaybeStartBuffering
 )
 ;
 void
-DecodeFirstFrame
-(
-)
-;
-void
 DecodeError
 (
 const
