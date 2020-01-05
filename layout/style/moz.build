@@ -767,6 +767,11 @@ CSSMediaRule
 h
 '
 '
+CSSMozDocumentRule
+.
+h
+'
+'
 CSSNamespaceRule
 .
 h
@@ -912,6 +917,11 @@ cpp
 '
 '
 CSSMediaRule
+.
+cpp
+'
+'
+CSSMozDocumentRule
 .
 cpp
 '
