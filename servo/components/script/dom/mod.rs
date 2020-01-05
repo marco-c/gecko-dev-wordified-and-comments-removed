@@ -242,6 +242,14 @@ domimplementation
 ;
 pub
 mod
+dommatrix
+;
+pub
+mod
+dommatrixreadonly
+;
+pub
+mod
 domparser
 ;
 pub
