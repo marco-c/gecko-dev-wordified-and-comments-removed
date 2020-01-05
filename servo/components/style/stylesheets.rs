@@ -52,6 +52,13 @@ Parser
 decode_stylesheet_bytes
 QualifiedRuleParser
 AtRuleParser
+}
+;
+use
+cssparser
+:
+:
+{
 RuleListParser
 AtRuleType
 }
