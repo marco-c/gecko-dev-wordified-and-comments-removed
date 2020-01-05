@@ -183,11 +183,6 @@ uint32_t
 moduleIndex
 )
 ;
-async
-CacheMiss
-(
-)
-;
 child
 :
 /

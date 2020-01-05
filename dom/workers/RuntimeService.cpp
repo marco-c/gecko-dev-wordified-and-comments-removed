@@ -3299,8 +3299,6 @@ JSObject
 *
 >
 aGlobal
-bool
-aInstalled
 const
 char16_t
 *
@@ -3348,7 +3346,6 @@ asmjscache
 OpenEntryForWrite
 (
 principal
-aInstalled
 aBegin
 aEnd
 aSize

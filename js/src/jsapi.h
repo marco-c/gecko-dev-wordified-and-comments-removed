@@ -15101,10 +15101,6 @@ forceAsync
 (
 false
 )
-installedFile
-(
-false
-)
 sourceIsLazy
 (
 false
@@ -15253,9 +15249,6 @@ throwOnAsmJSValidationFailureOption
 ;
 bool
 forceAsync
-;
-bool
-installedFile
 ;
 bool
 sourceIsLazy
@@ -23073,8 +23066,6 @@ OpenAsmJSCacheEntryForWriteOp
 (
 HandleObject
 global
-bool
-installed
 const
 char16_t
 *

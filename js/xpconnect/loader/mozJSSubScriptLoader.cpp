@@ -3635,12 +3635,6 @@ forceAsync
 =
 true
 ;
-options
-.
-installedFile
-=
-true
-;
 nsCOMPtr
 <
 nsIURI
