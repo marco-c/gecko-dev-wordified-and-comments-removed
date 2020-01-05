@@ -195,6 +195,10 @@ PTransportProvider
 ;
 include
 protocol
+PSendStream
+;
+include
+protocol
 PRtspController
 ;
 include

@@ -127,10 +127,17 @@ protocol
 PRtspChannel
 ;
 include
+protocol
+PSendStream
+;
+include
 BlobTypes
 ;
 include
 URIParams
+;
+include
+IPCStream
 ;
 include
 InputStreamParams
@@ -754,7 +761,7 @@ requestHeaders
 nsCString
 requestMethod
 ;
-OptionalInputStreamParams
+OptionalIPCStream
 uploadStream
 ;
 bool
@@ -798,9 +805,6 @@ allowSpdy
 ;
 bool
 allowAltSvc
-;
-OptionalFileDescriptorSet
-fds
 ;
 OptionalLoadInfoArgs
 loadInfo

@@ -299,6 +299,13 @@ nsIOutputStream
 _retval
 )
 ;
+void
+InvokeAsyncOpen
+(
+nsresult
+rv
+)
+;
 protected
 :
 bool
@@ -358,7 +365,7 @@ nsCString
 &
 requestMethod
 const
-OptionalInputStreamParams
+OptionalIPCStream
 &
 uploadStream
 const
@@ -417,10 +424,6 @@ const
 bool
 &
 allowAltSvc
-const
-OptionalFileDescriptorSet
-&
-aFds
 const
 OptionalLoadInfoArgs
 &
