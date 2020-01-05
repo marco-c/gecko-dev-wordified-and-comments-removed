@@ -369,12 +369,6 @@ nsDocument
 :
 MozSetImageElement
 ;
-using
-nsDocument
-:
-:
-GetMozFullScreenElement
-;
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_DECL_NSIDOMHTMLDOCUMENT
 mozilla

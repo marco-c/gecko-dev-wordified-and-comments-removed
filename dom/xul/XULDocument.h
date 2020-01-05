@@ -624,12 +624,6 @@ nsDocument
 MozSetImageElement
 ;
 using
-nsDocument
-:
-:
-GetMozFullScreenElement
-;
-using
 nsIDocument
 :
 :
