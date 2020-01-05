@@ -17678,12 +17678,6 @@ T
 as
 overflow
 ;
-use
-computed_values
-:
-:
-overflow_y
-;
 let
 original_overflow_x
 =
@@ -17709,8 +17703,6 @@ get_box
 clone_overflow_y
 (
 )
-.
-0
 ;
 let
 mut
@@ -17867,7 +17859,7 @@ overflow_x
 overflow
 :
 :
-clip
+_moz_hidden_unscrollable
 {
 overflow_x
 =
@@ -17884,7 +17876,7 @@ overflow_y
 overflow
 :
 :
-clip
+_moz_hidden_unscrollable
 {
 overflow_y
 =
@@ -17967,7 +17959,7 @@ overflow_x
 overflow
 :
 :
-clip
+_moz_hidden_unscrollable
 ;
 }
 if
@@ -17984,7 +17976,7 @@ overflow_y
 overflow
 :
 :
-clip
+_moz_hidden_unscrollable
 ;
 }
 }
@@ -18024,12 +18016,6 @@ box_style
 set_overflow_y
 (
 overflow_y
-:
-:
-T
-(
-overflow_y
-)
 )
 ;
 }

@@ -238,7 +238,6 @@ box_sizing
 display
 float
 overflow_x
-overflow_y
 }
 ;
 use
@@ -9655,11 +9654,6 @@ get_box
 overflow_y
 !
 =
-overflow_y
-:
-:
-T
-(
 overflow_x
 :
 :
@@ -9667,7 +9661,6 @@ T
 :
 :
 visible
-)
 |
 |
 style
@@ -11698,8 +11691,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 )
 {
 (

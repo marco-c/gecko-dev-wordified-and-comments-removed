@@ -5201,8 +5201,6 @@ overflow_x
 style_box
 .
 overflow_y
-.
-0
 )
 )
 )
