@@ -9,6 +9,17 @@ exports
 =
 {
 "
+env
+"
+:
+{
+"
+browser
+"
+:
+true
+}
+"
 extends
 "
 :

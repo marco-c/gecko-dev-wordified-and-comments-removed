@@ -1290,7 +1290,7 @@ back
 button
 devtools
 -
-toolbarbutton
+button
 "
 "
 data

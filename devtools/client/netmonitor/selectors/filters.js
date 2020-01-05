@@ -4,7 +4,7 @@ strict
 "
 ;
 function
-getActiveFilters
+getRequestFilterTypes
 (
 state
 )
@@ -16,19 +16,7 @@ filters
 .
 requestFilterTypes
 .
-toSeq
-(
-)
-.
-filter
-(
-checked
-=
->
-checked
-)
-.
-keySeq
+entrySeq
 (
 )
 .
@@ -42,6 +30,6 @@ module
 exports
 =
 {
-getActiveFilters
+getRequestFilterTypes
 }
 ;
