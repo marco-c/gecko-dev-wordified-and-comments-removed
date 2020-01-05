@@ -6525,6 +6525,10 @@ PR_IntervalNow
 (
 )
 ;
+RecheckCaptivePortal
+(
+)
+;
 return
 NS_OK
 ;
