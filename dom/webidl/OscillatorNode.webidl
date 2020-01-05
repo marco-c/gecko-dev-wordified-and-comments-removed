@@ -200,7 +200,7 @@ enabled
 "
 Constructor
 (
-BaseAudioContext
+AudioContext
 context
 optional
 OscillatorOptions

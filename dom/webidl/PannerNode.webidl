@@ -259,7 +259,7 @@ enabled
 "
 Constructor
 (
-BaseAudioContext
+AudioContext
 context
 optional
 PannerOptions

@@ -320,7 +320,7 @@ output
 ;
 readonly
 attribute
-BaseAudioContext
+AudioContext
 context
 ;
 readonly

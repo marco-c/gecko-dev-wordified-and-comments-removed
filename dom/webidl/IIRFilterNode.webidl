@@ -170,7 +170,7 @@ enabled
 "
 Constructor
 (
-BaseAudioContext
+AudioContext
 context
 IIRFilterOptions
 options

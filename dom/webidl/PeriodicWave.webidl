@@ -142,16 +142,6 @@ apply
 *
 /
 dictionary
-PeriodicWaveConstraints
-{
-boolean
-disableNormalization
-=
-false
-;
-}
-;
-dictionary
 PeriodicWaveOptions
 :
 PeriodicWaveConstraints
@@ -231,7 +221,7 @@ issues
 .
 Constructor
 (
-BaseAudioContext
+AudioContext
 context
 optional
 PeriodicWaveOptions
