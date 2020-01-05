@@ -306,9 +306,6 @@ GeckoCppUnitTests
 (
 [
 '
-TestDeadlockDetector
-'
-'
 TestDeadlockDetectorScalability
 '
 ]
