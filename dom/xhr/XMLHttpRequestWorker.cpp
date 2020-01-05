@@ -1457,7 +1457,10 @@ false
 return
 NS_SUCCEEDED
 (
-NS_DispatchToCurrentThread
+mWorkerPrivate
+-
+>
+DispatchToMainThread
 (
 this
 )
