@@ -1642,10 +1642,10 @@ const
 void
 GetSelectionRange
 (
-uint32_t
+int32_t
 *
 aSelectionStart
-uint32_t
+int32_t
 *
 aSelectionEnd
 ErrorResult

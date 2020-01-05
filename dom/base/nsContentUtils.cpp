@@ -31791,10 +31791,10 @@ aSelection
 Element
 *
 aRoot
-uint32_t
+int32_t
 &
 aOutStartOffset
-uint32_t
+int32_t
 &
 aOutEndOffset
 )
