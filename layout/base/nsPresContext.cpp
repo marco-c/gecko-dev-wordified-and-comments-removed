@@ -12154,6 +12154,16 @@ SetEmptyWidgetConfiguration
 )
 ;
 }
+if
+(
+aBuilder
+)
+{
+MOZ_ASSERT
+(
+aList
+)
+;
 nsIFrame
 *
 rootFrame
@@ -12222,6 +12232,7 @@ aBuilder
 region
 )
 ;
+}
 }
 #
 ifdef
