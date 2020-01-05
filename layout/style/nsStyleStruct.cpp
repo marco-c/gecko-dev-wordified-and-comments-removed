@@ -11874,7 +11874,10 @@ Layer
 :
 mClip
 (
-NS_STYLE_IMAGELAYER_CLIP_BORDER
+StyleGeometryBox
+:
+:
+Border
 )
 mAttachment
 (
@@ -11962,7 +11965,10 @@ Background
 {
 mOrigin
 =
-NS_STYLE_IMAGELAYER_ORIGIN_PADDING
+StyleGeometryBox
+:
+:
+Padding
 ;
 }
 else
@@ -11986,7 +11992,10 @@ type
 ;
 mOrigin
 =
-NS_STYLE_IMAGELAYER_ORIGIN_BORDER
+StyleGeometryBox
+:
+:
+Border
 ;
 }
 }

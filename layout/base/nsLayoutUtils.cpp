@@ -34038,7 +34038,10 @@ BottomLayer
 mClip
 !
 =
-NS_STYLE_IMAGELAYER_CLIP_BORDER
+StyleGeometryBox
+:
+:
+Border
 )
 return
 eTransparencyTransparent
