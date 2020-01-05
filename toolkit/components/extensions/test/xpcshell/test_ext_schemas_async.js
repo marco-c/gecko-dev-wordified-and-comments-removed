@@ -311,6 +311,9 @@ let
 localWrapper
 =
 {
+cloneScope
+:
+global
 shouldInject
 (
 )
