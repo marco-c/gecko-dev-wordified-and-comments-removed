@@ -123,8 +123,6 @@ id
 layoutview
 -
 container
--
-focusable
 "
 }
 Accordion
