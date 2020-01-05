@@ -15705,7 +15705,7 @@ GetSanitizedOpener
 aOpener
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 contentOpener
