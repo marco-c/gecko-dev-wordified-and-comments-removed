@@ -156,8 +156,8 @@ color
 interpolation
 "
 "
-auto
 srgb
+auto
 linearrgb
 "
 products
@@ -206,9 +206,9 @@ interpolation
 filters
 "
 "
+linearrgb
 auto
 srgb
-linearrgb
 "
 products
 =

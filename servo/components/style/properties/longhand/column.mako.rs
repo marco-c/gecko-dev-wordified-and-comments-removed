@@ -795,8 +795,8 @@ column
 fill
 "
 "
-auto
 balance
+auto
 "
 extra_prefixes
 =
@@ -833,7 +833,7 @@ propdef
 -
 column
 -
-gap
+fill
 "
 )
 }

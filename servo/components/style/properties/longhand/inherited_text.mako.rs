@@ -1335,8 +1335,8 @@ single_keyword
 hyphens
 "
 "
-none
 manual
+none
 auto
 "
 gecko_enum_prefix
@@ -8570,14 +8570,14 @@ ruby
 align
 "
 "
+space
+-
+around
 start
 center
 space
 -
 between
-space
--
-around
 "
 products
 =
