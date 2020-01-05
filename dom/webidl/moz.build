@@ -4090,6 +4090,11 @@ IntersectionObserver
 webidl
 '
 '
+IntlUtils
+.
+webidl
+'
+'
 IterableIterator
 .
 webidl
@@ -5506,11 +5511,6 @@ webidl
 '
 '
 VRDisplayEvent
-.
-webidl
-'
-'
-VRServiceTest
 .
 webidl
 '

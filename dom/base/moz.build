@@ -962,6 +962,11 @@ ImportManager
 h
 '
 '
+IntlUtils
+.
+h
+'
+'
 Link
 .
 h
@@ -1310,6 +1315,11 @@ cpp
 '
 '
 ImportManager
+.
+cpp
+'
+'
+IntlUtils
 .
 cpp
 '
