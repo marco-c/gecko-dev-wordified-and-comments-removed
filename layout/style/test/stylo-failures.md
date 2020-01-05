@@ -1518,7 +1518,7 @@ html
 place
 -
 [
-30
+0
 ]
 *
 test_align_shorthand_serialization
