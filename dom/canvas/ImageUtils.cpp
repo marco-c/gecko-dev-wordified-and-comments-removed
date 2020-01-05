@@ -363,7 +363,6 @@ ImageBitmapFormat
 YUV444P
 ;
 }
-else
 if
 (
 (
@@ -1141,8 +1140,6 @@ GetDataSize
 )
 ;
 }
-else
-{
 return
 mImage
 -
@@ -1156,7 +1153,6 @@ GetBufferSize
 (
 )
 ;
-}
 }
 UniquePtr
 <
@@ -1287,8 +1283,6 @@ GetData
 )
 ;
 }
-else
-{
 return
 mImage
 -
@@ -1302,7 +1296,6 @@ GetData
 (
 )
 ;
-}
 }
 }
 ;
