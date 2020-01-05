@@ -263,6 +263,7 @@ Send
 >
 )
 TickAnimations
+ReflowWithNewlyLoadedWebFont
 SetVisibleRects
 (
 Vec
@@ -301,6 +302,13 @@ GetCurrentEpoch
 IpcSender
 <
 Epoch
+>
+)
+GetWebFontLoadState
+(
+IpcSender
+<
+bool
 >
 )
 CreateLayoutTask

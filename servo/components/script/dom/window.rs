@@ -873,6 +873,7 @@ DOMContentLoaded
 DocumentLoaded
 ImageLoaded
 RequestAnimationFrame
+WebFontLoaded
 }
 pub
 type
@@ -10864,6 +10865,16 @@ RequestAnimationFrame
 "
 \
 tRequestAnimationFrame
+"
+ReflowReason
+:
+:
+WebFontLoaded
+=
+>
+"
+\
+tWebFontLoaded
 "
 }
 )

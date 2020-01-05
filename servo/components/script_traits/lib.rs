@@ -311,6 +311,13 @@ Au
 )
 >
 )
+GetWebFontLoadState
+(
+IpcSender
+<
+bool
+>
+)
 }
 pub
 struct
@@ -476,6 +483,10 @@ PipelineId
 WebDriverScriptCommand
 )
 TickAllAnimations
+(
+PipelineId
+)
+WebFontLoaded
 (
 PipelineId
 )
