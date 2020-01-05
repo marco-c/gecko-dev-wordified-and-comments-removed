@@ -73,6 +73,9 @@ nsIDocument
 class
 nsINode
 ;
+class
+nsPresContext
+;
 using
 mozilla
 :
@@ -105,6 +108,10 @@ RawGeckoElement
 typedef
 nsIDocument
 RawGeckoDocument
+;
+typedef
+nsPresContext
+RawGeckoPresContext
 ;
 #
 define
@@ -328,6 +335,10 @@ nsCSSValue
 DECL_BORROWED_MUT_REF_TYPE_FOR
 (
 nsCSSValue
+)
+DECL_BORROWED_REF_TYPE_FOR
+(
+RawGeckoPresContext
 )
 #
 undef
