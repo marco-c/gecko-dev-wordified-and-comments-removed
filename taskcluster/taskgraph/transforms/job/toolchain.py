@@ -973,7 +973,7 @@ name
 svn_cache
         
 '
-path
+directory
 '
 :
 r
