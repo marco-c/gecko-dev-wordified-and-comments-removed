@@ -2042,6 +2042,23 @@ runUntilFailure
 =
 True
         
+if
+options
+.
+cleanupCrashes
+:
+            
+prefs
+[
+'
+reftest
+.
+cleanupPendingCrashes
+'
+]
+=
+True
+        
 prefs
 [
 '
