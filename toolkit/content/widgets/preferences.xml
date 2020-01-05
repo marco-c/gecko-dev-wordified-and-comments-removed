@@ -1392,7 +1392,6 @@ val
 this
 .
 preferences
-false
 )
 ;
 return
