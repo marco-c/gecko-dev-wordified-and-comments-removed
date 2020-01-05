@@ -2586,6 +2586,10 @@ n0
 construct_boxes
 (
 )
+.
+get
+(
+)
 ;
 let
 b1
@@ -2593,6 +2597,10 @@ b1
 n1
 .
 construct_boxes
+(
+)
+.
+get
 (
 )
 ;
@@ -2604,6 +2612,10 @@ n2
 construct_boxes
 (
 )
+.
+get
+(
+)
 ;
 let
 b3
@@ -2611,6 +2623,10 @@ b3
 n3
 .
 construct_boxes
+(
+)
+.
+get
 (
 )
 ;
