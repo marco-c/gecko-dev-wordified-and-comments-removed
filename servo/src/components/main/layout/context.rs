@@ -118,6 +118,12 @@ geometry
 :
 Au
 ;
+use
+style
+:
+:
+Stylist
+;
 #
 [
 thread_local
@@ -171,6 +177,10 @@ LeafSet
 font_context_info
 :
 FontContextInfo
+stylist
+:
+*
+Stylist
 }
 impl
 LayoutContext
@@ -197,6 +207,11 @@ a
 mut
 FontContext
 {
+/
+/
+Sanity
+check
+.
 let
 mut
 task
