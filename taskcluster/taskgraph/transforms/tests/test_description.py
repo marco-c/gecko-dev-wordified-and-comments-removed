@@ -126,6 +126,19 @@ name
 :
 basestring
     
+Optional
+(
+'
+talos
+-
+try
+-
+name
+'
+)
+:
+basestring
+    
 '
 treeherder
 -
@@ -901,6 +914,15 @@ test
 -
 name
 '
+:
+basestring
+    
+Optional
+(
+'
+product
+'
+)
 :
 basestring
 }
