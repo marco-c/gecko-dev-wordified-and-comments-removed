@@ -3,7 +3,7 @@ https
 :
 /
 /
-mxr
+hg
 .
 mozilla
 .
@@ -13,7 +13,11 @@ mozilla
 -
 central
 /
-source
+raw
+-
+file
+/
+tip
 /
 dom
 /
@@ -24,10 +28,6 @@ parser
 WebIDL
 .
 py
-?
-raw
-=
-1
 -
 O
 WebIDL
