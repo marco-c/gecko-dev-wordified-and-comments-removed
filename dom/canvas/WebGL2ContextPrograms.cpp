@@ -28,8 +28,9 @@ WebGL2Context
 :
 GetFragDataLocation
 (
+const
 WebGLProgram
-*
+&
 prog
 const
 nsAString
@@ -50,7 +51,7 @@ return
 if
 (
 !
-ValidateObject
+ValidateObjectRef
 (
 "
 getFragDataLocation
@@ -66,8 +67,7 @@ return
 ;
 return
 prog
--
->
+.
 GetFragDataLocation
 (
 name

@@ -2589,6 +2589,7 @@ WebGLProgram
 :
 DetachShader
 (
+const
 WebGLShader
 *
 shader

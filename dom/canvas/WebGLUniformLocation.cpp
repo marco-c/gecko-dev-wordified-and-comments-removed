@@ -122,6 +122,7 @@ WebGLUniformLocation
 :
 ValidateForProgram
 (
+const
 WebGLProgram
 *
 prog
