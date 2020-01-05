@@ -4002,10 +4002,6 @@ style
 (
 style_context
 )
-.
-clone
-(
-)
 ;
 let
 writing_mode
@@ -4050,10 +4046,6 @@ node
 selected_style
 (
 style_context
-)
-.
-clone
-(
 )
 restyle_damage
 :

@@ -51,7 +51,7 @@ AtomicIsize
 ;
 pub
 struct
-PrivateStyleData
+PersistentStyleData
 {
 pub
 style
@@ -89,7 +89,7 @@ parallel
 DomParallelInfo
 }
 impl
-PrivateStyleData
+PersistentStyleData
 {
 pub
 fn
@@ -100,7 +100,7 @@ new
 >
 Self
 {
-PrivateStyleData
+PersistentStyleData
 {
 style
 :
