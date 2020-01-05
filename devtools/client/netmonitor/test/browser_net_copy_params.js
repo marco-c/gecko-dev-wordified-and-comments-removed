@@ -36,7 +36,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -64,7 +64,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -807,7 +807,7 @@ let
 requests
 }
 =
-gStore
+store
 .
 getState
 (

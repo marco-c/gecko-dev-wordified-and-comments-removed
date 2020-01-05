@@ -54,7 +54,7 @@ CUSTOM_GET_URL
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -104,7 +104,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -156,7 +156,7 @@ item
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

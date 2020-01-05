@@ -25,7 +25,7 @@ CUSTOM_GET_URL
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -73,7 +73,7 @@ constants
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

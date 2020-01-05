@@ -36,7 +36,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -168,7 +168,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

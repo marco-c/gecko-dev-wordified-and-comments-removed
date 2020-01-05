@@ -36,7 +36,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -107,7 +107,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -244,7 +244,7 @@ is
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -396,7 +396,7 @@ is
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -540,7 +540,7 @@ isnot
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -566,7 +566,7 @@ is
 (
 getSelectedIndex
 (
-gStore
+store
 .
 getState
 (
@@ -711,7 +711,7 @@ is
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (

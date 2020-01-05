@@ -8,22 +8,6 @@ test
 (
 )
 {
-Services
-.
-prefs
-.
-setBoolPref
-(
-"
-network
-.
-tcp
-.
-tcp_fastopen_enable
-"
-false
-)
-;
 let
 {
 L10N
@@ -76,7 +60,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -148,7 +132,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -201,7 +185,7 @@ is
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -227,7 +211,7 @@ menu
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -294,7 +278,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -640,7 +624,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -684,7 +668,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -709,7 +693,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -791,7 +775,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -835,7 +819,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -860,7 +844,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -919,7 +903,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1000,7 +984,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1025,7 +1009,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1107,7 +1091,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1151,7 +1135,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1176,7 +1160,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1235,7 +1219,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1279,7 +1263,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1319,7 +1303,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1419,7 +1403,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1476,7 +1460,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1516,7 +1500,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1713,7 +1697,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1803,7 +1787,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1828,7 +1812,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1883,7 +1867,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1923,7 +1907,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -2163,7 +2147,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (

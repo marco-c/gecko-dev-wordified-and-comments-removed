@@ -36,7 +36,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -86,7 +86,7 @@ l10n
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

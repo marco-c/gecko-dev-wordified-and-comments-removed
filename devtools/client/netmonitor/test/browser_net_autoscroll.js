@@ -30,8 +30,8 @@ true
 let
 {
 document
-gStore
 windowRequire
+store
 }
 =
 monitor
@@ -56,6 +56,18 @@ actions
 /
 index
 "
+)
+;
+store
+.
+dispatch
+(
+Actions
+.
+batchEnable
+(
+false
+)
 )
 ;
 yield
@@ -231,7 +243,7 @@ bottom
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

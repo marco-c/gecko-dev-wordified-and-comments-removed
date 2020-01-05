@@ -58,7 +58,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -86,7 +86,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

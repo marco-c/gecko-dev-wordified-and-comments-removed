@@ -231,7 +231,7 @@ getCurrentPanel
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -286,7 +286,7 @@ selected
 =
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -332,7 +332,7 @@ selected
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -388,7 +388,7 @@ selected
 =
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (

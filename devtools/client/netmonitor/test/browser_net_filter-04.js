@@ -277,7 +277,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -327,7 +327,7 @@ prefs
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

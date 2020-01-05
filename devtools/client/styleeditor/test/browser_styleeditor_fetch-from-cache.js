@@ -80,7 +80,7 @@ netmonitor
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -130,7 +130,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -231,7 +231,7 @@ item
 of
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

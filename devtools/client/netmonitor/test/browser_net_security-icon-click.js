@@ -25,7 +25,7 @@ CUSTOM_GET_URL
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -53,7 +53,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -121,7 +121,7 @@ request_1
 ;
 is
 (
-gStore
+store
 .
 getState
 (

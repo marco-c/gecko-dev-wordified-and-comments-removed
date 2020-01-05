@@ -108,7 +108,7 @@ netmonitor
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -118,7 +118,7 @@ panelWin
 ;
 is
 (
-gStore
+store
 .
 getState
 (

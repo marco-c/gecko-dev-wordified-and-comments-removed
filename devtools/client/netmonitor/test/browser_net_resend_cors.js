@@ -35,7 +35,7 @@ test
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -85,7 +85,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -202,7 +202,7 @@ i
 >
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -302,7 +302,7 @@ method
 request
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -330,7 +330,7 @@ clone
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -355,7 +355,7 @@ change
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

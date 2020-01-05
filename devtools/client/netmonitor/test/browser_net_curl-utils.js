@@ -54,7 +54,7 @@ test
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -120,13 +120,13 @@ netmonitor
 /
 src
 /
-utils
+connector
 /
-client
+index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -186,7 +186,7 @@ get
 :
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -201,7 +201,7 @@ post
 :
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -216,7 +216,7 @@ multipart
 :
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -231,7 +231,7 @@ multipartForm
 :
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

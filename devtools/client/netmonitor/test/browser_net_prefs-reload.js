@@ -141,7 +141,7 @@ monitor
 .
 panelWin
 .
-gStore
+store
 ;
 let
 getState

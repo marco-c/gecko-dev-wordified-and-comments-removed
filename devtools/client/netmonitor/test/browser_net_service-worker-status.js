@@ -71,7 +71,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -122,7 +122,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -319,7 +319,7 @@ item
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -347,7 +347,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (

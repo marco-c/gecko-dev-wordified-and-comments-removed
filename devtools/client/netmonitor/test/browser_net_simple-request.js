@@ -36,7 +36,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -64,7 +64,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -153,7 +153,7 @@ opened
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -297,7 +297,7 @@ request
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -442,7 +442,7 @@ reload
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -503,7 +503,7 @@ reload
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -587,7 +587,7 @@ clear
 ;
 is
 (
-gStore
+store
 .
 getState
 (

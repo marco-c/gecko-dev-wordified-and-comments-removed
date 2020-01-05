@@ -126,7 +126,7 @@ CUSTOM_GET_URL
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -176,7 +176,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -358,7 +358,7 @@ is
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -456,7 +456,7 @@ waitUntil
 !
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -470,7 +470,7 @@ ok
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -605,7 +605,7 @@ requests
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

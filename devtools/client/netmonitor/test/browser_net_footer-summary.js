@@ -66,7 +66,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -156,7 +156,7 @@ form
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -349,7 +349,7 @@ testStatus
 let
 state
 =
-gStore
+store
 .
 getState
 (
