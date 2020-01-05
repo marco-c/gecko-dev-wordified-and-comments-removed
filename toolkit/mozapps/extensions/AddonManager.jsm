@@ -12767,7 +12767,7 @@ maxProgress
 makeListener
 (
 id
-target
+mm
 )
 {
 const
@@ -12850,7 +12850,7 @@ this
 .
 sendEvent
 (
-target
+mm
 data
 )
 ;
@@ -13064,6 +13064,8 @@ makeListener
 (
 id
 target
+.
+messageManager
 )
 ;
 install
@@ -13422,6 +13424,8 @@ if
 info
 .
 target
+.
+messageManager
 =
 =
 mm
