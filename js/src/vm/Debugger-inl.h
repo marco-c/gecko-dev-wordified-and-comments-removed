@@ -72,6 +72,13 @@ MOZ_ASSERT_IF
 (
 frame
 .
+hasScript
+(
+)
+&
+&
+frame
+.
 script
 (
 )
@@ -285,6 +292,13 @@ MOZ_ASSERT_IF
 (
 frame
 .
+hasScript
+(
+)
+&
+&
+frame
+.
 script
 (
 )
@@ -459,7 +473,7 @@ JSContext
 *
 cx
 const
-ScriptFrameIter
+FrameIter
 &
 iter
 MutableHandle

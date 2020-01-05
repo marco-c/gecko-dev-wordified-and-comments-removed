@@ -1445,7 +1445,7 @@ virtual
 bool
 shouldMarkAsDebuggee
 (
-ScriptFrameIter
+FrameIter
 &
 iter
 )
@@ -3565,7 +3565,7 @@ cx
 AbstractFramePtr
 frame
 const
-ScriptFrameIter
+FrameIter
 *
 maybeIter
 MutableHandleValue
@@ -3582,7 +3582,7 @@ cx
 AbstractFramePtr
 frame
 const
-ScriptFrameIter
+FrameIter
 *
 maybeIter
 MutableHandleDebuggerFrame
@@ -4228,7 +4228,7 @@ JSContext
 *
 cx
 const
-ScriptFrameIter
+FrameIter
 &
 iter
 MutableHandleValue
@@ -4258,7 +4258,7 @@ JSContext
 *
 cx
 const
-ScriptFrameIter
+FrameIter
 &
 iter
 MutableHandleDebuggerFrame
@@ -4829,6 +4829,7 @@ Eval
 Global
 Call
 Module
+WasmCall
 }
 ;
 enum
@@ -4838,6 +4839,7 @@ DebuggerFrameImplementation
 Interpreter
 Baseline
 Ion
+Wasm
 }
 ;
 struct
@@ -5180,7 +5182,7 @@ proto
 AbstractFramePtr
 referent
 const
-ScriptFrameIter
+FrameIter
 *
 maybeIter
 HandleNativeObject
@@ -5418,7 +5420,7 @@ frame
 static
 MOZ_MUST_USE
 bool
-getScriptFrameIter
+getFrameIter
 (
 JSContext
 *
@@ -5430,10 +5432,22 @@ mozilla
 :
 Maybe
 <
-ScriptFrameIter
+FrameIter
 >
 &
 result
+)
+;
+static
+MOZ_MUST_USE
+bool
+requireScriptReferent
+(
+JSContext
+*
+cx
+HandleDebuggerFrame
+frame
 )
 ;
 static
