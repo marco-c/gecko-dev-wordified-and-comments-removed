@@ -676,6 +676,7 @@ SkCreateTypefaceFromDWriteFont
 factory
 mFontFace
 mStyle
+mForceGDIMode
 )
 ;
 }

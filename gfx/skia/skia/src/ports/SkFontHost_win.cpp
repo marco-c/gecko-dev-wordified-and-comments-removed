@@ -1784,6 +1784,8 @@ IDWriteFontFace
 aFontFace
 SkFontStyle
 aStyle
+bool
+aForceGDI
 )
 {
 return
@@ -1795,6 +1797,7 @@ Create
 aFactory
 aFontFace
 aStyle
+aForceGDI
 )
 ;
 }
