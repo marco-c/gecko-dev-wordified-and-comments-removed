@@ -217,6 +217,11 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
+nsIEventTarget
+*
+aTarget
+=
+nullptr
 )
 =
 0
