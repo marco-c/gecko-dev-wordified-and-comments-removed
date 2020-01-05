@@ -517,6 +517,9 @@ attribute
 DOMString
 responseText
 ;
+[
+Throws
+]
 /
 *
 [
