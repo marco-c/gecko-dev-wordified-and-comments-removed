@@ -7157,6 +7157,15 @@ nodeName
 rawObj
 .
 nodeName
+isConnected
+:
+rawObj
+.
+isConnected
+=
+=
+=
+true
 }
 ;
 if
