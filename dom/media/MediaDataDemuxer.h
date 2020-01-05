@@ -98,7 +98,7 @@ MediaDataDemuxer
 typedef
 MozPromise
 <
-nsresult
+MediaResult
 MediaResult
 true
 >
