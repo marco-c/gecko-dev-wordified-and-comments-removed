@@ -92,3 +92,4 @@ toggle
 statechange
 controllerchange
 fetch
+characteristicvaluechanged

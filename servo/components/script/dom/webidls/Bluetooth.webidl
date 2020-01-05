@@ -187,6 +187,8 @@ enabled
 ]
 interface
 Bluetooth
+:
+EventTarget
 {
 /
 /
@@ -200,6 +202,10 @@ attribute
 BluetoothDevice
 ?
 referringDevice
+;
+attribute
+EventHandler
+onavailabilitychanged
 ;
 /
 /
