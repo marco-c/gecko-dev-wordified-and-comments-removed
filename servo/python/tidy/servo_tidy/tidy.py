@@ -1036,15 +1036,17 @@ blank_lines
 +
 =
 1
-        
+            
 if
 blank_lines
 >
 =
 max_blank_lines
 :
-            
+                
 break
+            
+continue
         
 line
 =
