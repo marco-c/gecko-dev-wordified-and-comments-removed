@@ -535,7 +535,7 @@ json
 '
 tgg
 .
-optimized_task_graph
+morphed_task_graph
 .
 to_json
 (
@@ -562,7 +562,7 @@ create_tasks
 (
 tgg
 .
-optimized_task_graph
+morphed_task_graph
 tgg
 .
 label_to_taskid
