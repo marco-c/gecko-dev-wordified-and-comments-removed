@@ -669,10 +669,6 @@ IpcSender
 (
 )
 >
-Sender
-<
-ConstellationMsg
->
 )
 LoadStart
 (
