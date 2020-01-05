@@ -1648,12 +1648,6 @@ bool
 {
 assert
 left_i
->
-=
-0
-&
-&
-left_i
 <
 boxes
 .
