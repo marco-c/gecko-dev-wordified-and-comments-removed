@@ -86,8 +86,6 @@ CSSGroupingRule
 :
 CSSRule
 {
-/
-/
 [
 SameObject
 ]
@@ -96,8 +94,9 @@ attribute
 CSSRuleList
 cssRules
 ;
-/
-/
+[
+Throws
+]
 unsigned
 long
 insertRule
@@ -109,8 +108,9 @@ long
 index
 )
 ;
-/
-/
+[
+Throws
+]
 void
 deleteRule
 (

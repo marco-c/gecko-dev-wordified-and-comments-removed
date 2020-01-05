@@ -218,6 +218,10 @@ cssgroupingrule
 ;
 pub
 mod
+csskeyframerule
+;
+pub
+mod
 csskeyframesrule
 ;
 pub

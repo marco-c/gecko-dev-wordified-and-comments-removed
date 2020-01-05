@@ -131,8 +131,6 @@ obsolete
 members
 }
 ;
-/
-/
 HTMLLinkElement
 implements
 LinkStyle

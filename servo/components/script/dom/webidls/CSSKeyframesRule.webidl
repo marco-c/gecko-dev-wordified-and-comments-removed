@@ -92,15 +92,11 @@ attribute
 DOMString
 name
 ;
-/
-/
 readonly
 attribute
 CSSRuleList
 cssRules
 ;
-/
-/
 void
 appendRule
 (
@@ -108,8 +104,6 @@ DOMString
 rule
 )
 ;
-/
-/
 void
 deleteRule
 (
@@ -117,8 +111,6 @@ DOMString
 select
 )
 ;
-/
-/
 CSSKeyframeRule
 ?
 findRule

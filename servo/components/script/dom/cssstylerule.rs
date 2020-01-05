@@ -146,8 +146,11 @@ new_inherited
 (
 parent
 :
+Option
+<
 &
 CSSStyleSheet
+>
 stylerule
 :
 Arc
@@ -195,8 +198,11 @@ window
 Window
 parent
 :
+Option
+<
 &
 CSSStyleSheet
+>
 stylerule
 :
 Arc
