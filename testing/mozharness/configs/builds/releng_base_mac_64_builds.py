@@ -57,11 +57,7 @@ test
 '
         
 '
-generate
--
-balrog
--
-properties
+update
 '
     
 ]

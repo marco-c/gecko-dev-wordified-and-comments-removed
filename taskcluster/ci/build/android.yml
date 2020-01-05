@@ -576,11 +576,6 @@ stats
 multi
 -
 l10n
-generate
--
-balrog
--
-properties
 update
 ]
 config
