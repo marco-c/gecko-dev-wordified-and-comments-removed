@@ -2924,6 +2924,10 @@ const
 void
 UpdateAudioChannelPlayingState
 (
+bool
+aForcePlaying
+=
+false
 )
 ;
 void
@@ -3010,6 +3014,12 @@ bool
 IsAllowedToPlay
 (
 )
+;
+bool
+IsTabActivated
+(
+)
+const
 ;
 bool
 IsAudible
