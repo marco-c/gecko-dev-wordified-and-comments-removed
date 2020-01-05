@@ -8602,9 +8602,6 @@ ClearServoData
 }
 else
 {
-#
-ifdef
-MOZ_STYLO
 MOZ_ASSERT
 (
 !
@@ -8613,8 +8610,6 @@ HasServoData
 )
 )
 ;
-#
-endif
 }
 ResetEditableDescendantCount
 (
