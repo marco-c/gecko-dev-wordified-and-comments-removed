@@ -271,7 +271,7 @@ Global
 ;
 enum
 class
-GlobalFlags
+GlobalTypeImmediate
 {
 IsMutable
 =
