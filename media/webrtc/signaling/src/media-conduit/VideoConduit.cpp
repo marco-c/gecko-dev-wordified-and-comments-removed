@@ -1525,11 +1525,6 @@ return
 false
 ;
 }
-if
-(
-wasTransmitting
-)
-{
 MutexAutoLock
 lock
 (
@@ -1540,6 +1535,11 @@ DeleteSendStream
 (
 )
 ;
+if
+(
+wasTransmitting
+)
+{
 if
 (
 StartTransmitting
