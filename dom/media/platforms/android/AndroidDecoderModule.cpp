@@ -1120,6 +1120,10 @@ aParams
 .
 mImageContainer
 drmStubId
+mProxy
+aParams
+.
+mTaskQueue
 )
 :
 MediaCodecDataDecoder
@@ -1293,6 +1297,10 @@ aParams
 .
 mCallback
 drmStubId
+mProxy
+aParams
+.
+mTaskQueue
 )
 :
 MediaCodecDataDecoder

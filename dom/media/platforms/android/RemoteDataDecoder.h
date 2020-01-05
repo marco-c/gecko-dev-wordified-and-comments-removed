@@ -93,6 +93,12 @@ const
 nsString
 &
 aDrmStubId
+CDMProxy
+*
+aProxy
+TaskQueue
+*
+aTaskQueue
 )
 ;
 static
@@ -128,6 +134,12 @@ const
 nsString
 &
 aDrmStubId
+CDMProxy
+*
+aProxy
+TaskQueue
+*
+aTaskQueue
 )
 ;
 virtual
