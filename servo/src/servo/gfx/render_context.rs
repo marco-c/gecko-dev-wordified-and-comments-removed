@@ -45,15 +45,6 @@ range
 Range
 ;
 use
-cairo
-:
-:
-cairo_hl
-:
-:
-ImageSurface
-;
-use
 core
 :
 :

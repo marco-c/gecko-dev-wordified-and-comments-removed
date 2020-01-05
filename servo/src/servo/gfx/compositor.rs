@@ -10,15 +10,6 @@ DrawTarget
 }
 ;
 use
-cairo
-:
-:
-cairo_hl
-:
-:
-ImageSurface
-;
-use
 dom
 :
 :
