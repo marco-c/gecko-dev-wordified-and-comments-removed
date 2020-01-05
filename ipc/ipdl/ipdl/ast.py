@@ -2577,19 +2577,6 @@ __init__
 self
 loc
 spec
-array
-=
-0
-nullable
-=
-0
-                 
-myChmod
-=
-None
-otherChmod
-=
-None
 )
 :
         
@@ -2611,25 +2598,25 @@ self
 .
 array
 =
-array
+0
         
 self
 .
 nullable
 =
-nullable
+0
         
 self
 .
 myChmod
 =
-myChmod
+None
         
 self
 .
 otherChmod
 =
-otherChmod
+None
     
 def
 basename
