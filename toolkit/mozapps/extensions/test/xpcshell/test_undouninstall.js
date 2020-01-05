@@ -9,11 +9,6 @@ APP_SHUTDOWN
 2
 ;
 const
-ADDON_ENABLE
-=
-3
-;
-const
 ADDON_DISABLE
 =
 4
@@ -3808,7 +3803,7 @@ getStartupReason
 (
 ID
 )
-ADDON_ENABLE
+ADDON_INSTALL
 )
 ;
 do_check_eq
