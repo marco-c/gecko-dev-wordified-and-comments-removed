@@ -1590,6 +1590,7 @@ selector
 {
 MOZ_ASSERT
 (
+(
 CurrentThreadCanAccessRuntime
 (
 rt
@@ -1603,6 +1604,12 @@ isHeapBusy
 (
 )
 )
+|
+|
+CurrentThreadIsPerformingGC
+(
+)
+)
 ;
 if
 (
@@ -1610,7 +1617,7 @@ if
 zone
 -
 >
-isCollecting
+isCollectingFromAnyThread
 (
 )
 )
