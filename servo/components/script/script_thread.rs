@@ -770,7 +770,7 @@ script_traits
 {
 ScriptThreadFactory
 TimerEvent
-TimerEventRequest
+TimerSchedulerMsg
 TimerSource
 }
 ;
@@ -2920,7 +2920,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 timer_event_chan
 :

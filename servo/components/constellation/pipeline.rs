@@ -205,7 +205,7 @@ script_traits
 :
 {
 ScriptThreadFactory
-TimerEventRequest
+TimerSchedulerMsg
 WindowSizeData
 }
 ;
@@ -459,7 +459,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 pub
 compositor_proxy
@@ -2433,7 +2433,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 devtools_chan
 :

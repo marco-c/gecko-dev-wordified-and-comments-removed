@@ -382,7 +382,7 @@ script_traits
 :
 {
 TimerEventId
-TimerEventRequest
+TimerSchedulerMsg
 TimerSource
 }
 ;
@@ -600,7 +600,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 in_error_reporting_mode
 :
@@ -656,7 +656,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 resource_threads
 :
@@ -1412,7 +1412,7 @@ self
 &
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 {
 &
