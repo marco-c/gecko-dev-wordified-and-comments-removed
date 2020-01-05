@@ -4483,6 +4483,17 @@ Intl_getCalendarInfo
 JS_SELF_HOSTED_FN
 (
 "
+getLocaleInfo
+"
+"
+Intl_getLocaleInfo
+"
+1
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 getDisplayNames
 "
 "
