@@ -1311,6 +1311,13 @@ programs
 probe_need
 CFG_GIT
 git
+probe_need
+CFG_PYTHON2
+python2
+python2
+.
+7
+python
 probe
 CFG_CLANG
 clang
