@@ -3684,6 +3684,13 @@ computed_value
 T
 )
 {
+if
+cfg
+!
+(
+debug_assertions
+)
+{
 println
 !
 (
@@ -3702,6 +3709,7 @@ name
 "
 )
 ;
+}
 }
 fn
 copy_
@@ -3721,6 +3729,13 @@ _
 Self
 )
 {
+if
+cfg
+!
+(
+debug_assertions
+)
+{
 println
 !
 (
@@ -3739,6 +3754,7 @@ name
 "
 )
 ;
+}
 }
 %
 if
