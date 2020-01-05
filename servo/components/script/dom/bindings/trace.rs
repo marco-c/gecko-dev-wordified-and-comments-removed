@@ -125,7 +125,10 @@ js
 rust
 :
 :
+{
 Cx
+rt
+}
 ;
 use
 layout_interface
@@ -1269,6 +1272,12 @@ no_jsmanaged_fields
 !
 (
 Cx
+)
+;
+no_jsmanaged_fields
+!
+(
+rt
 )
 ;
 no_jsmanaged_fields
