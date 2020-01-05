@@ -117,7 +117,7 @@ NS_IMETHODIMP
 nsNSSCertificateFakeTransport
 :
 :
-GetWindowTitle
+GetDisplayName
 (
 nsAString
 &

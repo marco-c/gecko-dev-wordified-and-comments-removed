@@ -386,7 +386,7 @@ equal
 (
 cert
 .
-windowTitle
+displayName
 "
 Lud
 k
@@ -397,7 +397,7 @@ ek
 Actual
 and
 expected
-windowTitle
+displayName
 should
 match
 "

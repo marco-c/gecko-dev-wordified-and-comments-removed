@@ -747,7 +747,7 @@ certificate
 readonly
 attribute
 AString
-windowTitle
+displayName
 ;
 /
 *
