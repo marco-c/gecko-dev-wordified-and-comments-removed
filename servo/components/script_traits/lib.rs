@@ -3,6 +3,14 @@
 [
 feature
 (
+core_intrinsics
+)
+]
+#
+!
+[
+feature
+(
 custom_derive
 plugin
 )

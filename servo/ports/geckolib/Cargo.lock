@@ -531,7 +531,7 @@ serde
 .
 8
 .
-3
+7
 (
 registry
 +
@@ -1818,7 +1818,7 @@ serde
 .
 8
 .
-3
+7
 (
 registry
 +
@@ -2090,7 +2090,7 @@ serde
 .
 8
 .
-3
+7
 (
 registry
 +
@@ -3847,7 +3847,7 @@ version
 .
 8
 .
-3
+7
 "
 source
 =
@@ -4081,7 +4081,7 @@ serde
 .
 8
 .
-3
+7
 (
 registry
 +
@@ -7600,7 +7600,7 @@ serde
 .
 8
 .
-3
+7
 (
 registry
 +
@@ -7625,7 +7625,7 @@ index
 "
 =
 "
-bfdad8985ce7708e21ada7f3f188a0079de4f8e239155348a024e31f13cddf86
+9e1979331bc87240ef63a5cd79c69cced8261185d9ca5647ae357f17eaef16f4
 "
 "
 checksum
