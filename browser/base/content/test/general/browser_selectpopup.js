@@ -2895,6 +2895,12 @@ contentStep
 1
 ]
 ;
+elem
+.
+getBoundingClientRect
+(
+)
+;
 }
 )
 ;
@@ -3846,6 +3852,12 @@ setAttribute
 style
 "
 contentPosition
+)
+;
+select
+.
+getBoundingClientRect
+(
 )
 ;
 }
