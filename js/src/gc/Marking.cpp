@@ -14982,17 +14982,6 @@ thingp
 )
 )
 ;
-if
-(
-ThingIsPermanentAtomOrWellKnownSymbol
-(
-*
-thingp
-)
-)
-return
-true
-;
 Zone
 *
 zone
