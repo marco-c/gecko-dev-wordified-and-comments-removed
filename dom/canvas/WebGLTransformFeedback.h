@@ -100,12 +100,15 @@ WebGLProgram
 >
 mActive_Program
 ;
+MOZ_INIT_OUTSIDE_CTOR
 GLenum
 mActive_PrimMode
 ;
+MOZ_INIT_OUTSIDE_CTOR
 size_t
 mActive_VertPosition
 ;
+MOZ_INIT_OUTSIDE_CTOR
 size_t
 mActive_VertCapacity
 ;
