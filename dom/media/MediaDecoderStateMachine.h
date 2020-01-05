@@ -730,8 +730,13 @@ ScheduleStateMachine
 void
 ScheduleStateMachineIn
 (
-int64_t
-aMicroseconds
+const
+media
+:
+:
+TimeUnit
+&
+aTime
 )
 ;
 bool
