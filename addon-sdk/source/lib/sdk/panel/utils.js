@@ -933,6 +933,14 @@ both
 )
 ;
 }
+if
+(
+!
+panel
+.
+viewFrame
+)
+{
 panel
 .
 viewFrame
@@ -998,6 +1006,7 @@ createAboutBlankContentViewer
 principal
 )
 ;
+}
 panel
 .
 firstChild
