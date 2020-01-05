@@ -160,6 +160,13 @@ document
 *
 /
 [
+Exposed
+=
+(
+Window
+DedicatedWorker
+SharedWorker
+)
 Constructor
 (
 USVString
