@@ -657,6 +657,15 @@ EventCallback
 callback
 )
 {
+super
+.
+handleMessage
+(
+event
+message
+callback
+)
+;
 if
 (
 message
