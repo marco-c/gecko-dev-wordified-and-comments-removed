@@ -2747,6 +2747,11 @@ ReleaseContentController
 )
 ;
 void
+RevokeTransactionIdAllocator
+(
+)
+;
+void
 FreeShutdownObserver
 (
 )
