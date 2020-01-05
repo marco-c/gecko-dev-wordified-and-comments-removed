@@ -27,6 +27,10 @@ final
 public
 ServiceWorkerUpdateJob
 {
+const
+nsLoadFlags
+mLoadFlags
+;
 public
 :
 ServiceWorkerRegisterJob
@@ -45,6 +49,8 @@ aScriptSpec
 nsILoadGroup
 *
 aLoadGroup
+nsLoadFlags
+aLoadFlags
 )
 ;
 private

@@ -98,6 +98,13 @@ domstubs
 .
 idl
 "
+#
+include
+"
+nsIRequest
+.
+idl
+"
 interface
 mozIDOMWindow
 ;
@@ -583,6 +590,9 @@ aScope
 in
 nsIURI
 aScriptURI
+in
+nsLoadFlags
+aLoadFlags
 )
 ;
 /

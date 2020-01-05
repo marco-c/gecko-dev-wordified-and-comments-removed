@@ -2421,6 +2421,8 @@ aScopeURI
 nsIURI
 *
 aScriptURI
+nsLoadFlags
+aLoadFlags
 nsISupports
 *
 *
@@ -2994,6 +2996,7 @@ documentPrincipal
 cleanedScope
 spec
 loadGroup
+aLoadFlags
 )
 ;
 job
