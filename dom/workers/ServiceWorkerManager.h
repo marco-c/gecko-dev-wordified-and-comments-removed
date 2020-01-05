@@ -969,6 +969,11 @@ ServiceWorkerRegistrar
 aRegistrar
 )
 ;
+void
+MaybeStartShutdown
+(
+)
+;
 already_AddRefed
 <
 ServiceWorkerJobQueue
