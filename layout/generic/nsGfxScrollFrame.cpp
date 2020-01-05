@@ -5719,12 +5719,6 @@ ThemeChanged
 if
 defined
 (
-MOZ_B2G
-)
-|
-|
-defined
-(
 MOZ_WIDGET_ANDROID
 )
 static
@@ -5916,12 +5910,6 @@ NS_STYLE_OVERFLOW_HIDDEN
 ;
 #
 if
-defined
-(
-MOZ_B2G
-)
-|
-|
 defined
 (
 MOZ_WIDGET_ANDROID
