@@ -1771,7 +1771,7 @@ size
 .
 width
 .
-to_px
+to_nearest_px
 (
 )
 Err
