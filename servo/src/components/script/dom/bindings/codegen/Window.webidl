@@ -536,6 +536,13 @@ arguments
 /
 )
 ;
+void
+clearTimeout
+(
+long
+handle
+)
+;
 /
 *
 long
@@ -551,13 +558,6 @@ any
 .
 .
 arguments
-)
-;
-void
-clearTimeout
-(
-long
-handle
 )
 ;
 long
