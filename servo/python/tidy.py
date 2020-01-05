@@ -1791,9 +1791,6 @@ rs
 "
 byteorder
 "
-"
-uuid
-"
 ]
     
 import

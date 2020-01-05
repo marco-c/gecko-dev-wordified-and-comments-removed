@@ -5245,7 +5245,11 @@ new_v4
 (
 )
 .
-to_simple_string
+simple
+(
+)
+.
+to_string
 (
 )
 ;
