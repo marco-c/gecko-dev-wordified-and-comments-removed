@@ -1154,6 +1154,14 @@ MOZ_ASSERT
 aStyleContext
 )
 ;
+if
+(
+mIsComposingStyle
+)
+{
+return
+;
+}
 nsTArray
 <
 AnimationProperty
