@@ -1272,7 +1272,6 @@ absolute
 ref
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1295,9 +1294,6 @@ absolute
 ref
 .
 xhtml
-#
-bug
-1269046
 =
 =
 flexbox
@@ -1402,7 +1398,6 @@ Android
 16
 400
 )
-fails
 =
 =
 flexbox
@@ -1425,9 +1420,6 @@ fixed
 ref
 .
 xhtml
-#
-bug
-1269046
 =
 =
 flexbox
