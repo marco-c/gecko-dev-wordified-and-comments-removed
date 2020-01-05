@@ -9625,12 +9625,6 @@ text_fragment_info
 =
 >
 {
-util
-:
-:
-str
-:
-:
 is_whitespace
 (
 &

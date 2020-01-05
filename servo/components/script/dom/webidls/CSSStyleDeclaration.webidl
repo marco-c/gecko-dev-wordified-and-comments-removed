@@ -733,6 +733,15 @@ EmptyString
 ]
 attribute
 DOMString
+unicodeBidi
+;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 filter
 ;
 [
