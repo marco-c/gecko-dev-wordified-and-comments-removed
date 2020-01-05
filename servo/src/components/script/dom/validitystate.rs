@@ -273,12 +273,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 ValidityStateBinding
 :
 :
@@ -287,9 +281,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

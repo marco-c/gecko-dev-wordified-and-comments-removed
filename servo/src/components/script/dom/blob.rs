@@ -156,12 +156,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 BlobBinding
 :
 :
@@ -170,9 +164,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

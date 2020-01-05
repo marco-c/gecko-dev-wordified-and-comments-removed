@@ -611,12 +611,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 UIEventBinding
 :
 :
@@ -625,9 +619,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

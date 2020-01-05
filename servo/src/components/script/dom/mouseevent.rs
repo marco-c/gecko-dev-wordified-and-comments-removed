@@ -785,12 +785,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 MouseEventBinding
 :
 :
@@ -799,9 +793,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

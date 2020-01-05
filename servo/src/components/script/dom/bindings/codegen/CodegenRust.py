@@ -19862,18 +19862,6 @@ concreteType
 aObject
 '
 )
-                
-Argument
-(
-'
-*
-mut
-bool
-'
-'
-aTriedToWrap
-'
-)
 ]
         
 CGAbstractMethod
@@ -19911,12 +19899,6 @@ return
 "
 "
 "
-*
-aTriedToWrap
-=
-true
-;
-  
 return
 aObject
 -
@@ -19942,12 +19924,6 @@ return
 "
 "
 "
-*
-aTriedToWrap
-=
-true
-;
-  
 let
 mut
 parent
@@ -20213,18 +20189,6 @@ concreteType
 aObject
 '
 )
-                
-Argument
-(
-'
-*
-mut
-bool
-'
-'
-aTriedToWrap
-'
-)
 ]
         
 CGAbstractMethod
@@ -20264,7 +20228,6 @@ Wrap_
 aCx
 aScope
 aObject
-aTriedToWrap
 )
 ;
 "

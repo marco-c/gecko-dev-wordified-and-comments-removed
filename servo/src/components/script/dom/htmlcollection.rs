@@ -481,12 +481,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 HTMLCollectionBinding
 :
 :
@@ -495,9 +489,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

@@ -474,12 +474,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 NavigatorBinding
 :
 :
@@ -488,9 +482,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }
