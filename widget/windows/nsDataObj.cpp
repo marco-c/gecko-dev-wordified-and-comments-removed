@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -7111,10 +7104,9 @@ res
 return
 res
 ;
-NS_UTF16ToCString
+NS_CopyUnicodeToNative
 (
 wideFileName
-NS_CSTRING_ENCODING_NATIVE_FILESYSTEM
 filename
 )
 ;
@@ -9255,10 +9247,9 @@ res
 nsAutoCString
 nativeFileName
 ;
-NS_UTF16ToCString
+NS_CopyUnicodeToNative
 (
 wideFileName
-NS_CSTRING_ENCODING_NATIVE_FILESYSTEM
 nativeFileName
 )
 ;
