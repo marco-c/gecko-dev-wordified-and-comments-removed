@@ -73,6 +73,7 @@ CallsList
 >
 mCallsList
 ;
+MOZ_INIT_OUTSIDE_CTOR
 TelephonyCallGroupState
 mState
 ;
