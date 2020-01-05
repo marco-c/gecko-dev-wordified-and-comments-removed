@@ -483,7 +483,6 @@ TreatNullAs
 =
 EmptyString
 ]
-readonly
 attribute
 DOMString
 outerHTML
