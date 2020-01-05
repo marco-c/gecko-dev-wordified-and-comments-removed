@@ -1321,11 +1321,6 @@ RenderTrace
 h
 '
 '
-SourceSurfaceSharedData
-.
-h
-'
-'
 SourceSurfaceVolatileData
 .
 h
@@ -2456,11 +2451,6 @@ cpp
 '
 '
 ShareableCanvasLayer
-.
-cpp
-'
-'
-SourceSurfaceSharedData
 .
 cpp
 '
