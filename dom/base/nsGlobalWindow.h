@@ -8882,6 +8882,11 @@ nsPIDOMWindow
 nsISupports
 >
 ;
+void
+MaybeApplyBackPressure
+(
+)
+;
 mozilla
 :
 :
