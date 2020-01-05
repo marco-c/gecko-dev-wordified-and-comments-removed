@@ -151,7 +151,6 @@ selector_parser
 {
 PseudoElement
 PseudoElementCascadeType
-RestyleDamage
 SelectorImpl
 }
 ;
