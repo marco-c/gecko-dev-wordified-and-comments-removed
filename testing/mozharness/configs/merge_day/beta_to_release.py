@@ -224,7 +224,7 @@ base
 /
 mozilla
 -
-aurora
+beta
 "
         
 "
@@ -245,7 +245,7 @@ base
 /
 mozilla
 -
-beta
+release
 "
 )
         
