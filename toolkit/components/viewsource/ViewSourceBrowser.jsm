@@ -540,9 +540,11 @@ this
 .
 browser
 .
-relatedBrowser
+sameProcessAsFrameLoader
 =
 browser
+.
+frameLoader
 ;
 this
 .

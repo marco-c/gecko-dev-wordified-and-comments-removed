@@ -2347,13 +2347,13 @@ browser
 nextSibling
 ;
 let
-relatedBrowser
+sameProcessAsFrameLoader
 =
 this
 .
 browser
 .
-relatedBrowser
+sameProcessAsFrameLoader
 ;
 this
 .
@@ -2424,9 +2424,9 @@ this
 .
 browser
 .
-relatedBrowser
+sameProcessAsFrameLoader
 =
-relatedBrowser
+sameProcessAsFrameLoader
 ;
 parentNode
 .
