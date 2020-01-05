@@ -95,6 +95,11 @@ domstubs
 idl
 '
 '
+nsIBrowser
+.
+idl
+'
+'
 nsIBrowserDOMWindow
 .
 idl
