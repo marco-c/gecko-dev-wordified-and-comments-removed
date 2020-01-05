@@ -119,7 +119,7 @@ message
 str
 )
 {
-info
+error
 !
 (
 "
