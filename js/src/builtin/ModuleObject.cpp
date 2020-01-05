@@ -5240,7 +5240,7 @@ resolveExport
 "
 ModuleResolveExport
 "
-3
+2
 0
 )
 JS_SELF_HOSTED_FN
