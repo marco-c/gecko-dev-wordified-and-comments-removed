@@ -157,6 +157,11 @@ AndroidCompositorWidget
 .
 h
 '
+'
+AndroidUiThread
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
