@@ -5675,7 +5675,7 @@ self
 .
 webrender_api
 .
-set_root_display_list
+set_display_list
 (
 Some
 (

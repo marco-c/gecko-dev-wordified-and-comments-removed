@@ -26,7 +26,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -1948,7 +1948,7 @@ version
 .
 0
 -
-alpha2
+alpha6
 "
 source
 =
@@ -2834,7 +2834,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -2962,7 +2962,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -3715,7 +3715,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -3839,7 +3839,7 @@ servo_config
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -4005,7 +4005,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -4090,7 +4090,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -5507,7 +5507,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -5656,7 +5656,7 @@ index
 webrender
 0
 .
-27
+30
 .
 0
 (
@@ -5679,7 +5679,7 @@ webrender
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -5874,7 +5874,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -6105,7 +6105,7 @@ style_traits
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -8003,7 +8003,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -8355,7 +8355,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -9306,7 +9306,7 @@ style_traits
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -12642,7 +12642,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -13087,7 +13087,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -13176,7 +13176,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -14130,7 +14130,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -17214,7 +17214,7 @@ version
 .
 7
 .
-0
+1
 "
 source
 =
@@ -17250,7 +17250,7 @@ bincode
 .
 0
 -
-alpha2
+alpha6
 (
 registry
 +
@@ -18460,7 +18460,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -18908,7 +18908,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -19121,7 +19121,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -19426,7 +19426,7 @@ style
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -19484,7 +19484,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -19551,7 +19551,7 @@ servo_url
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -20200,7 +20200,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -20376,7 +20376,7 @@ webdriver_server
 webrender
 0
 .
-27
+30
 .
 0
 (
@@ -20399,7 +20399,7 @@ webrender
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -22295,7 +22295,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -22629,7 +22629,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -23133,7 +23133,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -23535,7 +23535,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -23927,7 +23927,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -24214,7 +24214,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -27513,7 +27513,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -27794,7 +27794,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -27922,7 +27922,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -30382,7 +30382,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -31202,7 +31202,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -31518,7 +31518,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -32024,7 +32024,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -42794,7 +42794,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -43049,7 +43049,7 @@ version
 "
 0
 .
-27
+30
 .
 0
 "
@@ -43070,7 +43070,7 @@ servo
 /
 webrender
 #
-4b72bb1921628d01b08ab356c0f2365a927b711e
+7e74c1018d47cf5586f05c409c17a25c76f28e56
 "
 dependencies
 =
@@ -43112,7 +43112,7 @@ bincode
 .
 0
 -
-alpha2
+alpha6
 (
 registry
 +
@@ -43671,7 +43671,7 @@ index
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -43706,7 +43706,7 @@ version
 "
 0
 .
-28
+31
 .
 0
 "
@@ -43727,7 +43727,7 @@ servo
 /
 webrender
 #
-4b72bb1921628d01b08ab356c0f2365a927b711e
+7e74c1018d47cf5586f05c409c17a25c76f28e56
 "
 dependencies
 =
@@ -43945,7 +43945,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -44086,7 +44086,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -44166,7 +44166,7 @@ servo_config
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
@@ -45954,7 +45954,7 @@ bincode
 .
 0
 -
-alpha2
+alpha6
 (
 registry
 +
@@ -45979,7 +45979,7 @@ index
 "
 =
 "
-62650bb5651ba8f0580cebf4ef255d791b8b0ef53800322661e1bb5791d42966
+fb0cdeac1c5d567fdb487ae5853c024e4acf1ea85ba6a6552fe084e0805fea5d
 "
 "
 checksum
@@ -49082,7 +49082,7 @@ channel
 .
 7
 .
-0
+1
 (
 registry
 +
@@ -49107,7 +49107,7 @@ index
 "
 =
 "
-dc12beb3f43e226410d7f26a77aec73efbf0c11875a8131adc09f30a8219f22e
+f1e8d7f511a1e2dae4e26efac30a85d2376b67d7c6f2c691ea95ebd850b017da
 "
 "
 checksum
@@ -53950,7 +53950,7 @@ checksum
 webrender
 0
 .
-27
+30
 .
 0
 (
@@ -53980,7 +53980,7 @@ checksum
 webrender_traits
 0
 .
-28
+31
 .
 0
 (
