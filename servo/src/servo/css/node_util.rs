@@ -11,10 +11,10 @@ use
 newcss
 :
 :
-select
+complete
 :
 :
-SelectResults
+CompleteSelectResults
 ;
 use
 std
@@ -37,14 +37,14 @@ get_css_select_results
 &
 self
 /
-SelectResults
+CompleteSelectResults
 ;
 fn
 set_css_select_results
 (
 decl
 :
-SelectResults
+CompleteSelectResults
 )
 ;
 }
@@ -125,7 +125,7 @@ get_css_select_results
 &
 self
 /
-SelectResults
+CompleteSelectResults
 {
 if
 !
@@ -210,7 +210,7 @@ set_css_select_results
 (
 decl
 :
-SelectResults
+CompleteSelectResults
 )
 {
 let
