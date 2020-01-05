@@ -1300,6 +1300,7 @@ asm
 ld
 ar
 ranlib
+libtool
                     
 src_dir
 stage_dir
@@ -1770,6 +1771,31 @@ s
 slashify_path
 (
 ranlib
+)
+]
+    
+if
+libtool
+is
+not
+None
+:
+        
+cmake_args
++
+=
+[
+"
+-
+DCMAKE_LIBTOOL
+=
+%
+s
+"
+%
+slashify_path
+(
+libtool
 )
 ]
     
@@ -3443,6 +3469,28 @@ ranlib
 "
 )
     
+libtool
+=
+None
+    
+if
+"
+libtool
+"
+in
+config
+:
+        
+libtool
+=
+get_tool
+(
+config
+"
+libtool
+"
+)
+    
 if
 not
 os
@@ -4281,6 +4329,7 @@ extra_ldflags
         
 ar
 ranlib
+libtool
         
 llvm_source_dir
 stage1_dir
@@ -4399,6 +4448,7 @@ extra_ldflags
             
 ar
 ranlib
+libtool
             
 llvm_source_dir
 stage2_dir
@@ -4508,6 +4558,7 @@ extra_ldflags
             
 ar
 ranlib
+libtool
             
 llvm_source_dir
 stage3_dir
