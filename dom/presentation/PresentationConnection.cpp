@@ -72,7 +72,7 @@ mozilla
 /
 dom
 /
-PresentationConnectionClosedEvent
+PresentationConnectionCloseEvent
 .
 h
 "
@@ -2025,7 +2025,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-DispatchConnectionClosedEvent
+DispatchConnectionCloseEvent
 (
 reason
 errorMsg
@@ -2531,7 +2531,7 @@ nsresult
 PresentationConnection
 :
 :
-DispatchConnectionClosedEvent
+DispatchConnectionCloseEvent
 (
 PresentationConnectionClosedReason
 aReason
@@ -2572,7 +2572,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PresentationConnectionClosedEventInit
+PresentationConnectionCloseEventInit
 init
 ;
 init
@@ -2589,11 +2589,11 @@ aMessage
 ;
 RefPtr
 <
-PresentationConnectionClosedEvent
+PresentationConnectionCloseEvent
 >
 closedEvent
 =
-PresentationConnectionClosedEvent
+PresentationConnectionCloseEvent
 :
 :
 Constructor
@@ -3356,7 +3356,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-DispatchConnectionClosedEvent
+DispatchConnectionCloseEvent
 (
 PresentationConnectionClosedReason
 :

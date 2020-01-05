@@ -104,8 +104,6 @@ enabled
 ]
 interface
 Presentation
-:
-EventTarget
 {
 /
 *

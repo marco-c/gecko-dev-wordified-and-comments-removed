@@ -192,7 +192,7 @@ Constructor
 (
 DOMString
 type
-PresentationConnectionClosedEventInit
+PresentationConnectionCloseEventInit
 eventInitDict
 )
 Pref
@@ -206,7 +206,7 @@ enabled
 "
 ]
 interface
-PresentationConnectionClosedEvent
+PresentationConnectionCloseEvent
 :
 Event
 {
@@ -257,7 +257,7 @@ message
 }
 ;
 dictionary
-PresentationConnectionClosedEventInit
+PresentationConnectionCloseEventInit
 :
 EventInit
 {

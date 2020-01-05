@@ -3812,7 +3812,7 @@ PresentationConnectionAvailableEvent
 webidl
 '
 '
-PresentationConnectionClosedEvent
+PresentationConnectionCloseEvent
 .
 webidl
 '
