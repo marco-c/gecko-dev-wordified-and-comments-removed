@@ -10,7 +10,7 @@ geom
 enum
 item_type
 {
-solid_color
+display_item_solid_color
 (
 u8
 u8

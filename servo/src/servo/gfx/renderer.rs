@@ -325,7 +325,7 @@ item_type
 dl
 :
 :
-solid_color
+display_item_solid_color
 (
 r
 g
