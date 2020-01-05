@@ -1043,11 +1043,9 @@ BorderLayer
 CreateBorderLayer
 (
 )
-{
-return
-nullptr
+=
+0
 ;
-}
 virtual
 already_AddRefed
 <
