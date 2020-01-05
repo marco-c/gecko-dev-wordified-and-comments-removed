@@ -2836,6 +2836,7 @@ font_metrics
 [
 inline
 ]
+pub
 fn
 border_width
 (
