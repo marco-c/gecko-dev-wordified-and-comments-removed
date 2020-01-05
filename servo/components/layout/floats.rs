@@ -74,6 +74,7 @@ deriving
 (
 Clone
 Encodable
+Show
 )
 ]
 pub
