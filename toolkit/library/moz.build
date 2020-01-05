@@ -222,6 +222,11 @@ PowrProf
 dll
 '
 '
+psapi
+.
+dll
+'
+'
 rasapi32
 .
 dll
@@ -1869,6 +1874,9 @@ netapi32
 '
 '
 shlwapi
+'
+'
+psapi
 '
 '
 ws2_32
