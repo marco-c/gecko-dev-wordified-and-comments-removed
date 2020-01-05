@@ -1376,13 +1376,13 @@ mScriptableHelper
 bool
 NeedsPermissionsUpdate
 (
-const
-nsACString
-&
-aPermissionKey
 )
 const
+{
+return
+mSendPermissionUpdates
 ;
+}
 void
 KillHard
 (
@@ -5036,6 +5036,9 @@ mIsAvailable
 ;
 bool
 mIsAlive
+;
+bool
+mSendPermissionUpdates
 ;
 bool
 mIsForBrowser
