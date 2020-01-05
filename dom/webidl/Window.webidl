@@ -1493,6 +1493,7 @@ y
 [
 Throws
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 moveTo
@@ -1506,6 +1507,7 @@ y
 [
 Throws
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 moveBy
