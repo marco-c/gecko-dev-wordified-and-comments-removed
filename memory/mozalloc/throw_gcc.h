@@ -82,12 +82,27 @@ MOZ_THROW_NORETURN
 MOZ_NORETURN
 #
 endif
+#
+ifdef
+__MINGW32__
+#
+define
+MOZ_THROW_INLINE
+MOZ_ALWAYS_INLINE_EVEN_DEBUG
+#
+else
+#
+define
+MOZ_THROW_INLINE
+MOZ_ALWAYS_INLINE
+#
+endif
 namespace
 std
 {
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_bad_exception
 (
@@ -108,7 +123,7 @@ bad_exception
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_bad_alloc
 (
@@ -129,7 +144,7 @@ bad_alloc
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_bad_cast
 (
@@ -150,7 +165,7 @@ bad_cast
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_bad_typeid
 (
@@ -171,7 +186,7 @@ bad_typeid
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_bad_function_call
 (
@@ -192,7 +207,7 @@ bad_function_call
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_logic_error
 (
@@ -210,7 +225,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_domain_error
 (
@@ -228,7 +243,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_invalid_argument
 (
@@ -246,7 +261,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_length_error
 (
@@ -264,7 +279,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_out_of_range
 (
@@ -282,7 +297,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_runtime_error
 (
@@ -300,7 +315,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_range_error
 (
@@ -318,7 +333,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_overflow_error
 (
@@ -336,7 +351,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_underflow_error
 (
@@ -354,7 +369,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_ios_failure
 (
@@ -372,7 +387,7 @@ msg
 }
 MOZ_THROW_NORETURN
 MOZ_EXPORT
-MOZ_ALWAYS_INLINE
+MOZ_THROW_INLINE
 void
 __throw_system_error
 (
@@ -426,5 +441,8 @@ error
 #
 undef
 MOZ_THROW_NORETURN
+#
+undef
+MOZ_THROW_INLINE
 #
 endif
