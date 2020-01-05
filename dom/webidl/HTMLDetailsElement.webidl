@@ -159,17 +159,6 @@ document
 .
 *
 /
-[
-Pref
-=
-"
-dom
-.
-details_element
-.
-enabled
-"
-]
 interface
 HTMLDetailsElement
 :

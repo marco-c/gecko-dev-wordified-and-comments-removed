@@ -583,17 +583,6 @@ attribute
 EventHandler
 onselectstart
 ;
-[
-Pref
-=
-"
-dom
-.
-details_element
-.
-enabled
-"
-]
 attribute
 EventHandler
 ontoggle

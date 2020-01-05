@@ -8720,16 +8720,6 @@ return
 false
 ;
 }
-if
-(
-HTMLDetailsElement
-:
-:
-IsDetailsEnabled
-(
-)
-)
-{
 HTMLSummaryElement
 *
 summary
@@ -8763,7 +8753,6 @@ IsMainSummary
 return
 false
 ;
-}
 }
 bool
 kidRenumberedABullet
