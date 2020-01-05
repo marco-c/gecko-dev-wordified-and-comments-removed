@@ -63416,7 +63416,7 @@ void
 nsGlobalWindow
 :
 :
-GetAppLocales
+GetAppLocalesAsBCP47
 (
 nsTArray
 <
@@ -63446,7 +63446,7 @@ GetInstance
 )
 -
 >
-GetAppLocales
+GetAppLocalesAsBCP47
 (
 appLocales
 )
