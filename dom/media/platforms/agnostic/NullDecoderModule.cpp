@@ -66,6 +66,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 gfx
 :
 :

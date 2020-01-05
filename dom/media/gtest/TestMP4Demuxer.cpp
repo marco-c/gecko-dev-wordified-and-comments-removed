@@ -777,6 +777,10 @@ i
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 )
 ;
 }

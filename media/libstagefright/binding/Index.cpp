@@ -410,10 +410,16 @@ sample
 >
 mTimecode
 =
+TimeUnit
+:
+:
+FromMicroseconds
+(
 s
 -
 >
 mDecodeTime
+)
 ;
 sample
 -

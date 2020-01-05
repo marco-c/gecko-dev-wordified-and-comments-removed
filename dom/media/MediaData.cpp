@@ -945,7 +945,13 @@ aKeyframe
 ;
 mTimecode
 =
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aTimecode
+)
 ;
 }
 VideoData

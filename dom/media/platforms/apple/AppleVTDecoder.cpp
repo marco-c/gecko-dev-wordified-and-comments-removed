@@ -673,6 +673,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 USECS_PER_S
 )
 ;

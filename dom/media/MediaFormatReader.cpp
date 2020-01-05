@@ -10303,6 +10303,10 @@ sample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 sample
 -
 >

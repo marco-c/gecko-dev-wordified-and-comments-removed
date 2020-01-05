@@ -1445,6 +1445,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 mInfo
 .
 ScaledImageRect
@@ -1555,6 +1559,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 mInfo
 .
 ScaledImageRect

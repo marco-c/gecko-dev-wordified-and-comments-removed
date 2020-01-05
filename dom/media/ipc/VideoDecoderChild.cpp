@@ -972,6 +972,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >

@@ -835,6 +835,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 mPacketCount
 +
 +
