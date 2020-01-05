@@ -1011,6 +1011,8 @@ discardJitCode
 FreeOp
 *
 fop
+bool
+discardBaselineCode
 )
 {
 if
@@ -1036,6 +1038,11 @@ this
 ;
 }
 else
+{
+if
+(
+discardBaselineCode
+)
 {
 #
 ifdef
@@ -1097,6 +1104,7 @@ MarkActiveBaselineScripts
 this
 )
 ;
+}
 jit
 :
 :
@@ -1141,6 +1149,10 @@ fop
 script
 )
 ;
+if
+(
+discardBaselineCode
+)
 jit
 :
 :
@@ -1158,6 +1170,10 @@ resetWarmUpCounter
 )
 ;
 }
+if
+(
+discardBaselineCode
+)
 jitZone
 (
 )

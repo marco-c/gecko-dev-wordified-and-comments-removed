@@ -424,6 +424,10 @@ js
 FreeOp
 *
 fop
+bool
+discardBaselineCode
+=
+true
 )
 ;
 void
