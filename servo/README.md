@@ -165,6 +165,10 @@ dev
 libosmesa6
 -
 dev
+libxmu6
+libxmu
+-
+dev
 On
 Fedora
 :
@@ -229,6 +233,9 @@ bzip2
 -
 devel
 libXcursor
+-
+devel
+libXmu
 -
 devel
 pushd
@@ -315,6 +322,7 @@ ttf
 font
 cmake
 bzip2
+libxmu
 Cross
 -
 compilation

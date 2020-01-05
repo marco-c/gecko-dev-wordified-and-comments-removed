@@ -120,6 +120,10 @@ webdriver_server
 ;
 extern
 crate
+clipboard
+;
+extern
+crate
 libc
 ;
 extern

@@ -527,6 +527,13 @@ FocusMsg
 (
 PipelineId
 )
+GetClipboardContents
+(
+Sender
+<
+String
+>
+)
 }
 pub
 enum
