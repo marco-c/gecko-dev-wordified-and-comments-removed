@@ -139,6 +139,11 @@ WidevineUtils
 .
 h
 '
+'
+WidevineVideoFrame
+.
+h
+'
 ]
 FINAL_LIBRARY
 =
