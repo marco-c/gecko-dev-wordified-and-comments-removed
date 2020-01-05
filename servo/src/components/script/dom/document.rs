@@ -4572,7 +4572,7 @@ from_temporary
 UIEvent
 :
 :
-new
+new_uninitialized
 (
 &
 *
@@ -4599,7 +4599,7 @@ from_temporary
 MouseEvent
 :
 :
-new
+new_uninitialized
 (
 &
 *
