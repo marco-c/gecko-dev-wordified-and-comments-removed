@@ -639,6 +639,7 @@ selectionStart
 Throws
 ]
 attribute
+unsigned
 long
 ?
 selectionEnd
