@@ -485,6 +485,13 @@ attribute
 Location
 location
 ;
+[
+Throws
+]
+attribute
+DOMString
+cookie
+;
 /
 /
 DOM

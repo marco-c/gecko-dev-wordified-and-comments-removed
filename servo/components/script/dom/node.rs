@@ -10298,10 +10298,6 @@ document
 url
 (
 )
-.
-clone
-(
-)
 )
 is_html_doc
 None
