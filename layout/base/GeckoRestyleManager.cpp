@@ -1070,6 +1070,12 @@ nsAttrValue
 aOldValue
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 nsCOMPtr
 <
 nsIPresShell

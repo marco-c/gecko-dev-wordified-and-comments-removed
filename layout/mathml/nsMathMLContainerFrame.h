@@ -173,15 +173,6 @@ return
 NS_OK
 ;
 }
-void
-SetIncrementScriptLevel
-(
-int32_t
-aChildIndex
-bool
-aIncrement
-)
-;
 virtual
 bool
 IsFrameOfType
