@@ -122,6 +122,11 @@ DisplayItemClip
 h
 '
 '
+DisplayItemClipChain
+.
+h
+'
+'
 DisplayItemScrollClip
 .
 h
@@ -190,6 +195,11 @@ cpp
 '
 '
 DisplayItemClip
+.
+cpp
+'
+'
+DisplayItemClipChain
 .
 cpp
 '
