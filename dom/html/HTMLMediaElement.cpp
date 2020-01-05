@@ -11355,7 +11355,6 @@ Seek
 (
 aTime
 aSeekType
-promise
 )
 ;
 if
