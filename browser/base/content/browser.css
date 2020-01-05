@@ -7217,12 +7217,14 @@ customizing
 =
 true
 ]
-#
+.
 PanelUI
 -
-update
+notification
 -
-status
+menu
+-
+item
 {
 display
 :
