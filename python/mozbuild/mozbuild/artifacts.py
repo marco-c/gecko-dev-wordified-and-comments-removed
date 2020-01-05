@@ -441,14 +441,6 @@ central
 '
 integration
 /
-fx
--
-team
-'
-    
-'
-integration
-/
 mozilla
 -
 inbound
