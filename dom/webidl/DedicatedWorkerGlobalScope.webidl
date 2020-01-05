@@ -202,6 +202,11 @@ any
 transfer
 )
 ;
+void
+close
+(
+)
+;
 attribute
 EventHandler
 onmessage
