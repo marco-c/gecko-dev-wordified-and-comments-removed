@@ -8035,10 +8035,6 @@ document
 stylesheets
 (
 )
-.
-clone
-(
-)
 stylesheets_changed
 :
 stylesheets_changed
