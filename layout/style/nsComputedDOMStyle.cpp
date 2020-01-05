@@ -18864,11 +18864,6 @@ StyleText
 >
 mTextIndent
 false
-&
-nsComputedDOMStyle
-:
-:
-GetCBContentWidth
 )
 ;
 return
