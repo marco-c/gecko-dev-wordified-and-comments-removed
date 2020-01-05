@@ -738,8 +738,6 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 return
@@ -755,7 +753,6 @@ aWhichFrame
 aSamplingFilter
 aSVGContext
 aFlags
-aOpacity
 )
 ;
 }

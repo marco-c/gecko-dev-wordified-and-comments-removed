@@ -5008,8 +5008,6 @@ SamplingFilter
 aSamplingFilter
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 gfxContextMatrixAutoSaveRestore
@@ -5145,7 +5143,6 @@ aContext
 region
 aSamplingFilter
 aFlags
-aOpacity
 )
 )
 {
@@ -5226,8 +5223,6 @@ SVGImageContext
 &
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 if
@@ -5397,7 +5392,6 @@ aSize
 aRegion
 aSamplingFilter
 flags
-aOpacity
 )
 ;
 if

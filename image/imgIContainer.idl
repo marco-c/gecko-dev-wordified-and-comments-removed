@@ -3601,9 +3601,6 @@ aSVGContext
 in
 uint32_t
 aFlags
-in
-float
-aOpacity
 )
 ;
 /

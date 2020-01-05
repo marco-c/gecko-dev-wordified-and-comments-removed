@@ -31953,12 +31953,6 @@ ExtendMode
 :
 :
 CLAMP
-float
-aOpacity
-=
-1
-.
-0
 )
 {
 DrawResult
@@ -32142,7 +32136,6 @@ FRAME_CURRENT
 aSamplingFilter
 svgContext
 aImageFlags
-aOpacity
 )
 ;
 }
@@ -32933,8 +32926,6 @@ uint32_t
 aImageFlags
 ExtendMode
 aExtendMode
-float
-aOpacity
 )
 {
 PROFILER_LABEL
@@ -33006,7 +32997,6 @@ aDirty
 svgContext
 aImageFlags
 aExtendMode
-aOpacity
 )
 ;
 }
@@ -33148,7 +33138,6 @@ ExtendMode
 :
 :
 CLAMP
-aOpacity
 )
 ;
 if
@@ -33211,8 +33200,6 @@ nsRect
 aDirty
 uint32_t
 aImageFlags
-float
-aOpacity
 )
 {
 return
@@ -33228,11 +33215,6 @@ aAnchor
 aDirty
 nullptr
 aImageFlags
-ExtendMode
-:
-:
-CLAMP
-aOpacity
 )
 ;
 }

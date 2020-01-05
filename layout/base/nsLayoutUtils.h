@@ -3796,8 +3796,6 @@ uint32_t
 aImageFlags
 ExtendMode
 aExtendMode
-float
-aOpacity
 )
 ;
 static
@@ -3834,12 +3832,6 @@ nsRect
 aDirty
 uint32_t
 aImageFlags
-float
-aOpacity
-=
-1
-.
-0
 )
 ;
 static
