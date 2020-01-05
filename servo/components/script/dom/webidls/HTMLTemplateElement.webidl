@@ -112,8 +112,6 @@ HTMLTemplateElement
 :
 HTMLElement
 {
-/
-/
 readonly
 attribute
 DocumentFragment
