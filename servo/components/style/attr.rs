@@ -70,7 +70,6 @@ str
 :
 :
 {
-DOMString
 LengthOrPercentageOrAuto
 HTML_SPACE_CHARACTERS
 }
@@ -122,11 +121,11 @@ AttrValue
 {
 String
 (
-DOMString
+String
 )
 TokenList
 (
-DOMString
+String
 Vec
 <
 Atom
@@ -134,17 +133,17 @@ Atom
 )
 UInt
 (
-DOMString
+String
 u32
 )
 Int
 (
-DOMString
+String
 i32
 )
 Double
 (
-DOMString
+String
 f64
 )
 Atom
@@ -153,7 +152,7 @@ Atom
 )
 Length
 (
-DOMString
+String
 Option
 <
 Length
@@ -161,7 +160,7 @@ Length
 )
 Color
 (
-DOMString
+String
 Option
 <
 RGBA
@@ -169,12 +168,12 @@ RGBA
 )
 Dimension
 (
-DOMString
+String
 LengthOrPercentageOrAuto
 )
 Url
 (
-DOMString
+String
 Option
 <
 Url
@@ -450,7 +449,7 @@ parse_double
 string
 :
 &
-DOMString
+str
 )
 -
 >
@@ -714,7 +713,7 @@ from_serialized_tokenlist
 (
 tokens
 :
-DOMString
+String
 )
 -
 >
@@ -820,7 +819,7 @@ str_join
 let
 tokens
 =
-DOMString
+String
 :
 :
 from
@@ -851,7 +850,7 @@ from_u32
 (
 string
 :
-DOMString
+String
 default
 :
 u32
@@ -907,7 +906,7 @@ from_i32
 (
 string
 :
-DOMString
+String
 default
 :
 i32
@@ -948,7 +947,7 @@ from_double
 (
 string
 :
-DOMString
+String
 default
 :
 f64
@@ -1003,7 +1002,7 @@ from_limited_i32
 (
 string
 :
-DOMString
+String
 default
 :
 i32
@@ -1061,7 +1060,7 @@ from_limited_u32
 (
 string
 :
-DOMString
+String
 default
 :
 u32
@@ -1123,7 +1122,7 @@ from_atomic
 (
 string
 :
-DOMString
+String
 )
 -
 >
@@ -1158,7 +1157,7 @@ base
 Url
 url
 :
-DOMString
+String
 )
 -
 >
@@ -1194,7 +1193,7 @@ from_legacy_color
 (
 string
 :
-DOMString
+String
 )
 -
 >
@@ -1228,7 +1227,7 @@ from_dimension
 (
 string
 :
-DOMString
+String
 )
 -
 >
@@ -1258,7 +1257,7 @@ from_nonzero_dimension
 (
 string
 :
-DOMString
+String
 )
 -
 >

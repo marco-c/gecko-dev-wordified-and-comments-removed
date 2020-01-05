@@ -24,7 +24,6 @@ str
 :
 :
 {
-DOMString
 LengthOrPercentageOrAuto
 }
 ;
@@ -40,7 +39,7 @@ test_parse_double
 let
 value
 =
-DOMString
+String
 :
 :
 from
@@ -107,7 +106,7 @@ test_from_limited_i32_should_be_default_when_less_than_0
 let
 value
 =
-DOMString
+String
 :
 :
 from
@@ -170,7 +169,7 @@ AttrValue
 :
 from_limited_i32
 (
-DOMString
+String
 :
 :
 from
@@ -224,7 +223,7 @@ AttrValue
 :
 from_limited_i32
 (
-DOMString
+String
 :
 :
 from
@@ -253,7 +252,7 @@ assert_eq
 !
 (
 p
-DOMString
+String
 :
 :
 from

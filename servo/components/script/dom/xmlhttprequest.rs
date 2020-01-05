@@ -283,6 +283,7 @@ str
 :
 {
 ByteString
+DOMString
 USVString
 is_token
 }
@@ -687,15 +688,6 @@ util
 :
 :
 prefs
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 #
 [

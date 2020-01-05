@@ -271,15 +271,6 @@ components
 /
 util
 "
-features
-=
-[
-"
-non
--
-geckolib
-"
-]
 }
 env_logger
 =

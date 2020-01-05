@@ -119,7 +119,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 ;
 use
 dom
@@ -156,15 +159,6 @@ url
 :
 :
 form_urlencoded
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 #
 [

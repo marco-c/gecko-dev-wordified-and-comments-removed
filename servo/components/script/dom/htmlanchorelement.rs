@@ -153,7 +153,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 ;
 use
 dom
@@ -284,15 +287,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 #
 [
@@ -763,6 +757,10 @@ AttrValue
 from_serialized_tokenlist
 (
 value
+.
+into
+(
+)
 )
 _
 =

@@ -261,15 +261,6 @@ components
 /
 util
 "
-features
-=
-[
-"
-non
--
-geckolib
-"
-]
 }
 style_traits
 =

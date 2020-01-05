@@ -495,15 +495,6 @@ path
 /
 util
 "
-features
-=
-[
-"
-non
--
-geckolib
-"
-]
 }
 script
 =

@@ -201,6 +201,7 @@ str
 :
 :
 {
+DOMString
 USVString
 is_token
 }
@@ -445,15 +446,6 @@ std
 :
 :
 thread
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 use
 websocket

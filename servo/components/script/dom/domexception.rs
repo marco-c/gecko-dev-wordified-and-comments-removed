@@ -89,7 +89,10 @@ reflect_dom_object
 }
 ;
 use
-util
+dom
+:
+:
+bindings
 :
 :
 str
