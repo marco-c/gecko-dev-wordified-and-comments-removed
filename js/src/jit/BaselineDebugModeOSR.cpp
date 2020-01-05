@@ -3148,16 +3148,6 @@ GetProp_CallNativeGlobal
 \
 _
 (
-GetProp_CallDOMProxyNative
-)
-\
-_
-(
-GetProp_CallDOMProxyWithGenerationNative
-)
-\
-_
-(
 GetProp_Generic
 )
 \
