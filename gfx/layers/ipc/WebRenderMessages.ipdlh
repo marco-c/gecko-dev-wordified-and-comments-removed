@@ -116,10 +116,6 @@ PCompositable
 ;
 include
 protocol
-PImageContainer
-;
-include
-protocol
 PTexture
 ;
 using
