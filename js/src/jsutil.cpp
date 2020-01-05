@@ -140,12 +140,9 @@ targetThread
 =
 0
 ;
-JS_PUBLIC_DATA
-(
 MOZ_THREAD_LOCAL
 (
 uint32_t
-)
 )
 threadType
 ;
