@@ -1519,6 +1519,7 @@ while
 (
 num_user_features
 )
+{
 if
 (
 user_features
@@ -1546,14 +1547,15 @@ int
 return
 true
 ;
-else
 num_user_features
 -
 -
+;
 user_features
 +
 +
 ;
+}
 return
 false
 ;
