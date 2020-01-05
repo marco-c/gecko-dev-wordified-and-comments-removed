@@ -177,11 +177,6 @@ NextFrameSeekTask
 (
 )
 ;
-void
-UpdateSeekTargetTime
-(
-)
-;
 MediaQueue
 <
 MediaData
