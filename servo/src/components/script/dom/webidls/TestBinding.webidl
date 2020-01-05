@@ -190,22 +190,6 @@ Blob
 ?
 interfaceAttributeNullable
 ;
-/
-/
-FIXME
-(
-issue
-#
-1813
-)
-Doesn
-'
-t
-currently
-compile
-.
-/
-/
 void
 passOptionalBoolean
 (
@@ -214,8 +198,6 @@ boolean
 arg
 )
 ;
-/
-/
 void
 passOptionalByte
 (
@@ -224,8 +206,6 @@ byte
 arg
 )
 ;
-/
-/
 void
 passOptionalOctet
 (
@@ -234,8 +214,6 @@ octet
 arg
 )
 ;
-/
-/
 void
 passOptionalShort
 (
@@ -244,8 +222,6 @@ short
 arg
 )
 ;
-/
-/
 void
 passOptionalUnsignedShort
 (
@@ -255,8 +231,6 @@ short
 arg
 )
 ;
-/
-/
 void
 passOptionalLong
 (
@@ -265,8 +239,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalUnsignedLong
 (
@@ -276,8 +248,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalLongLong
 (
@@ -287,8 +257,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalUnsignedLongLong
 (
@@ -299,8 +267,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalFloat
 (
@@ -309,8 +275,6 @@ float
 arg
 )
 ;
-/
-/
 void
 passOptionalDouble
 (
@@ -343,8 +307,6 @@ any
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableBoolean
 (
@@ -354,8 +316,6 @@ boolean
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableByte
 (
@@ -365,8 +325,6 @@ byte
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableOctet
 (
@@ -376,8 +334,6 @@ octet
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableShort
 (
@@ -387,8 +343,6 @@ short
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableUnsignedShort
 (
@@ -399,8 +353,6 @@ short
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableLong
 (
@@ -410,8 +362,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableUnsignedLong
 (
@@ -422,8 +372,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableLongLong
 (
@@ -434,8 +382,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableUnsignedLongLong
 (
@@ -447,8 +393,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableFloat
 (
@@ -458,8 +402,6 @@ float
 arg
 )
 ;
-/
-/
 void
 passOptionalNullableDouble
 (
