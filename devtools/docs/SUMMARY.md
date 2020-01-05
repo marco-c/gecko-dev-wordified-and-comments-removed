@@ -204,6 +204,17 @@ md
 )
 *
 [
+Telemetry
+]
+(
+frontend
+/
+telemetry
+.
+md
+)
+*
+[
 Backend
 ]
 (
