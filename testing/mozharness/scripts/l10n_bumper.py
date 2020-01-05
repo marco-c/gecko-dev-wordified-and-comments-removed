@@ -2182,6 +2182,16 @@ if
 not
 self
 .
+config
+[
+'
+ignore_closed_tree
+'
+]
+and
+not
+self
+.
 query_treestatus
 (
 )
