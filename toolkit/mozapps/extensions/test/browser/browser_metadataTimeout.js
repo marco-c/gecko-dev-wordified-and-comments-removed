@@ -98,11 +98,11 @@ oldXHRConstructor
 =
 ARContext
 .
-XHRequest
+ServiceRequest
 ;
 ARContext
 .
-XHRequest
+ServiceRequest
 =
 function
 (
@@ -675,7 +675,7 @@ timeout
 ;
 ARContext
 .
-XHRequest
+ServiceRequest
 =
 oldXHRConstructor
 ;
