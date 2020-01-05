@@ -174,6 +174,7 @@ gfx_traits
 :
 {
 color
+Epoch
 LayerId
 ScrollPolicy
 }
@@ -228,15 +229,6 @@ msg
 :
 :
 ParseErrorReporter
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-Epoch
 ;
 use
 msg

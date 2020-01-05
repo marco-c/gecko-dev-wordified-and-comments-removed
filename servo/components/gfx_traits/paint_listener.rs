@@ -1,4 +1,7 @@
 use
+Epoch
+;
+use
 LayerId
 ;
 use
@@ -35,10 +38,7 @@ msg
 compositor_msg
 :
 :
-{
-Epoch
 FrameTreeId
-}
 ;
 use
 msg

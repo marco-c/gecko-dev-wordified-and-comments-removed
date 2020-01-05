@@ -90,8 +90,14 @@ use
 gfx_traits
 :
 :
-{
 color
+;
+use
+gfx_traits
+:
+:
+{
+Epoch
 LayerId
 LayerKind
 LayerProperties
@@ -146,10 +152,7 @@ msg
 compositor_msg
 :
 :
-{
-Epoch
 FrameTreeId
-}
 ;
 use
 msg

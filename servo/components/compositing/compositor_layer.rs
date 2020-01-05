@@ -54,6 +54,7 @@ gfx_traits
 :
 :
 {
+Epoch
 LayerId
 LayerProperties
 ScrollPolicy
@@ -88,15 +89,6 @@ layers
 Layer
 LayerBufferSet
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-Epoch
 ;
 use
 msg

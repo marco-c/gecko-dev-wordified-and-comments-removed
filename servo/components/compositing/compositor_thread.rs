@@ -29,6 +29,7 @@ gfx_traits
 :
 :
 {
+Epoch
 LayerId
 LayerProperties
 PaintListener
@@ -84,10 +85,7 @@ msg
 compositor_msg
 :
 :
-{
-Epoch
 FrameTreeId
-}
 ;
 use
 msg
