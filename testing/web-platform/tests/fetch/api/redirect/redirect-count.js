@@ -149,6 +149,7 @@ function
 test
 )
 {
+return
 fetch
 (
 RESOURCES_DIR
@@ -246,7 +247,11 @@ is
 "
 )
 ;
-}
+return
+resp
+.
+text
+(
 )
 ;
 }
@@ -276,6 +281,9 @@ maxCount
 "
 times
 "
+)
+;
+}
 )
 ;
 }

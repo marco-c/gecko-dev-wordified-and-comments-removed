@@ -36,14 +36,6 @@ js
 )
 ;
 }
-<
-<
-<
-<
-<
-<
-<
-b45946c54935c6113fefb5199b3fe0e4bf087777
 function
 checkFetchResponse
 (

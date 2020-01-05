@@ -338,6 +338,7 @@ script
 >
 '
 ;
+return
 navigator
 .
 requestMediaKeySystemAccess
@@ -403,6 +404,7 @@ allow
 scripts
 '
 )
+;
 }
 )
 .

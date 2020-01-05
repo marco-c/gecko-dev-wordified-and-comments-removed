@@ -10,8 +10,6 @@ argparse
 import
 ast
 import
-fnmatch
-import
 json
 import
 os
@@ -25,6 +23,10 @@ from
 collections
 import
 defaultdict
+from
+.
+import
+fnmatch
 from
 .
 .
@@ -455,6 +457,17 @@ line_number
 =
 parts
         
+file_match
+=
+os
+.
+path
+.
+normcase
+(
+file_match
+)
+        
 if
 error_type
 =
@@ -518,6 +531,15 @@ data
 "
 "
     
+if
+not
+errors
+:
+        
+return
+[
+]
+    
 whitelisted
 =
 [
@@ -534,6 +556,17 @@ errors
 )
 ]
     
+normpath
+=
+os
+.
+path
+.
+normcase
+(
+path
+)
+    
 for
 file_match
 whitelist_errors
@@ -547,7 +580,7 @@ data
 if
 fnmatch
 .
-fnmatch
+fnmatchcase
 (
 path
 file_match

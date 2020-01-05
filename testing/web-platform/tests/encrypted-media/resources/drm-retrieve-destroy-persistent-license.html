@@ -319,7 +319,9 @@ MessageHandler
 config
 .
 keysystem
-undefined
+config
+.
+content
 '
 persistent
 -
@@ -488,6 +490,7 @@ function
 response
 )
 {
+return
 messageevent
 .
 target
@@ -496,13 +499,13 @@ update
 (
 response
 )
+;
+}
+)
 .
 catch
 (
 onFailure
-)
-;
-}
 )
 ;
 }

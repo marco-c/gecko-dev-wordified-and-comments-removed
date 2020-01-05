@@ -707,6 +707,8 @@ function
 {
 navigator
 .
+mediaDevices
+.
 getUserMedia
 (
 {
@@ -717,6 +719,10 @@ audio
 :
 true
 }
+)
+.
+then
+(
 getUserMediaOkCallback
 failed
 (

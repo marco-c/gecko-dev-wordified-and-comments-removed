@@ -174,6 +174,9 @@ error
 .
 name
 '
+TypeError
+'
+'
 setMediaKeys
 should
 return

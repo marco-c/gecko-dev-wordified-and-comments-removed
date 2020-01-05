@@ -325,8 +325,44 @@ None
     
 }
     
+expected_data
+=
+{
+os
+.
+path
+.
+normcase
+(
+p
+)
+:
+e
+for
+p
+e
+in
+expected_data
+.
+items
+(
+)
+}
+    
 expected_ignored
 =
+{
+os
+.
+path
+.
+normcase
+(
+x
+)
+for
+x
+in
 {
 "
 *
@@ -338,6 +374,7 @@ resources
 /
 *
 "
+}
 }
     
 data
