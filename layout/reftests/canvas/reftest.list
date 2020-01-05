@@ -20,12 +20,6 @@ Android
 8
 1000
 )
-skip
--
-if
-(
-webrender
-)
 =
 =
 size
@@ -40,12 +34,6 @@ size
 ref
 .
 html
-#
-see
-bug
-1322816
-for
-webrender
 =
 =
 empty

@@ -26361,7 +26361,7 @@ OSX
 =
 1010
 )
-skip
+fails
 -
 if
 (
@@ -26379,12 +26379,6 @@ html
 ref
 .
 html
-#
-see
-bug
-1322816
-for
-webrender
 =
 =
 632781
