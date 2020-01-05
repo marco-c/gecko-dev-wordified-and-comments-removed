@@ -556,13 +556,9 @@ apply
 to
 Document
 objects
-/
-*
 [
 LenientThis
 ]
-*
-/
 attribute
 EventHandler
 onreadystatechange
