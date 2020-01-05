@@ -282,8 +282,6 @@ inspector
 /
 components
 /
-deprecated
--
 box
 -
 model
