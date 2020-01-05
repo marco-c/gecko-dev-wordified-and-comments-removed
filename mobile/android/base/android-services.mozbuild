@@ -11680,6 +11680,15 @@ fxa
 /
 devices
 /
+FxAccountDeviceListUpdater
+.
+java
+'
+'
+fxa
+/
+devices
+/
 FxAccountDeviceRegistrator
 .
 java

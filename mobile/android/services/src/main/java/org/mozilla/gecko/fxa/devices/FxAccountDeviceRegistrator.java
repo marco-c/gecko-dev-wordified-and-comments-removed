@@ -2246,9 +2246,8 @@ id
 device
 .
 type
-device
-.
-isCurrentDevice
+null
+null
 device
 .
 pushCallback

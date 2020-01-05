@@ -1371,6 +1371,7 @@ null
 null
 null
 null
+null
 )
 ;
 requestDelegate
@@ -1446,6 +1447,9 @@ type
 existingDevice
 .
 isCurrentDevice
+existingDevice
+.
+lastAccessTime
 existingDevice
 .
 pushCallback
