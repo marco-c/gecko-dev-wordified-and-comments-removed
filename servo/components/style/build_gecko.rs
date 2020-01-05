@@ -3033,6 +3033,13 @@ UpdateAnimationsTasks
 "
 )
 .
+constified_enum
+(
+"
+ParsingMode
+"
+)
+.
 parse_callbacks
 (
 Box
@@ -3625,7 +3632,7 @@ AssertAndSuppressCleanupPolicy
 mozilla
 :
 :
-LengthParsingMode
+ParsingMode
 "
 "
 mozilla
@@ -4980,7 +4987,7 @@ EffectCompositor_CascadeLevel
 UpdateAnimationsTasks
 "
 "
-LengthParsingMode
+ParsingMode
 "
 "
 InheritTarget

@@ -38,7 +38,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
 ParserContext
 log_css_error
 }
@@ -808,10 +808,7 @@ CssRuleType
 :
 Keyframe
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 parent_stylesheet
 .
 quirks_mode

@@ -185,7 +185,7 @@ style
 parser
 :
 :
-LengthParsingMode
+PARSING_MODE_DEFAULT
 ;
 use
 style
@@ -1593,10 +1593,7 @@ window
 css_error_reporter
 (
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;

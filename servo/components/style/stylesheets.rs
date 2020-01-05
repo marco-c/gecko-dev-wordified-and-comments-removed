@@ -189,7 +189,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
 Parse
 ParserContext
 log_css_error
@@ -2170,10 +2170,7 @@ url_data
 &
 error_reporter
 None
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 parent_stylesheet
 .
 quirks_mode
@@ -4132,10 +4129,7 @@ origin
 url_data
 error_reporter
 line_number_offset
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 state

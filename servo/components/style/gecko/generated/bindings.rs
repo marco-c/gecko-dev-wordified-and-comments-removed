@@ -1576,7 +1576,7 @@ gecko_bindings
 structs
 :
 :
-LengthParsingMode
+ParsingMode
 ;
 use
 gecko_bindings
@@ -11070,9 +11070,9 @@ data
 *
 mut
 RawGeckoURLExtraData
-length_parsing_mode
+parsing_mode
 :
-LengthParsingMode
+ParsingMode
 )
 -
 >
@@ -11675,9 +11675,9 @@ data
 *
 mut
 RawGeckoURLExtraData
-length_parsing_mode
+parsing_mode
 :
-LengthParsingMode
+ParsingMode
 )
 -
 >
@@ -11712,9 +11712,9 @@ data
 *
 mut
 RawGeckoURLExtraData
-length_parsing_mode
+parsing_mode
 :
-LengthParsingMode
+ParsingMode
 )
 -
 >

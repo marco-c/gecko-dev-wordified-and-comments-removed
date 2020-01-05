@@ -96,7 +96,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
 ParserContext
 }
 ;
@@ -265,10 +265,7 @@ CssRuleType
 :
 Supports
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 QuirksMode
 :
 :
@@ -366,10 +363,7 @@ CssRuleType
 :
 Supports
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 QuirksMode
 :
 :

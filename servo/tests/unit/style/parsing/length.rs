@@ -33,7 +33,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_ALLOW_UNITLESS_LENGTH
 Parse
 ParserContext
 }
@@ -417,7 +417,7 @@ parse
 test
 ]
 fn
-test_length_parsing_modes
+test_parsing_modes
 (
 )
 {
@@ -494,10 +494,7 @@ CssRuleType
 :
 Style
 )
-LengthParsingMode
-:
-:
-SVG
+PARSING_MODE_ALLOW_UNITLESS_LENGTH
 QuirksMode
 :
 :
