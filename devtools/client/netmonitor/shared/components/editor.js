@@ -62,6 +62,11 @@ Editor
 propTypes
 :
 {
+mode
+:
+PropTypes
+.
+string
 open
 :
 PropTypes
@@ -79,6 +84,9 @@ getDefaultProps
 {
 return
 {
+mode
+:
+null
 open
 :
 true
@@ -95,6 +103,7 @@ componentDidMount
 {
 const
 {
+mode
 text
 }
 =
@@ -113,6 +122,7 @@ SourceEditor
 lineNumbers
 :
 true
+mode
 readOnly
 :
 true
@@ -228,7 +238,7 @@ this
 .
 refs
 .
-editor
+editorElement
 )
 {
 this

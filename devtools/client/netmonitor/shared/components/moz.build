@@ -82,6 +82,13 @@ view
 js
 '
 '
+response
+-
+panel
+.
+js
+'
+'
 security
 -
 panel

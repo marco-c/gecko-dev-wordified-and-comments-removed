@@ -204,13 +204,6 @@ NetMonitor
 :
 RequestPostParamsAvailable
 "
-RESPONSE_BODY_DISPLAYED
-:
-"
-NetMonitor
-:
-ResponseBodyAvailable
-"
 RESPONSE_IMAGE_THUMBNAIL_DISPLAYED
 :
 "
