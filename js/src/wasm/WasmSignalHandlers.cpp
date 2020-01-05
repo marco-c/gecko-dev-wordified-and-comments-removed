@@ -7346,6 +7346,10 @@ faultingAddress
 return
 false
 ;
+{
+AutoNoteSingleThreadedRegion
+anstr
+;
 HandleMemoryAccess
 (
 &
@@ -7358,6 +7362,7 @@ activation
 ppc
 )
 ;
+}
 kret
 =
 thread_set_state
