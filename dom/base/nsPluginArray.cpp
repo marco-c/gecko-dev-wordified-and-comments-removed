@@ -226,16 +226,18 @@ static
 bool
 ResistFingerprinting
 (
+CallerType
+aCallerType
 )
 {
 return
+aCallerType
 !
-nsContentUtils
+=
+CallerType
 :
 :
-ThreadsafeIsCallerChrome
-(
-)
+System
 &
 &
 nsContentUtils
@@ -548,6 +550,8 @@ Item
 (
 uint32_t
 aIndex
+CallerType
+aCallerType
 )
 {
 bool
@@ -558,6 +562,7 @@ IndexedGetter
 (
 aIndex
 unused
+aCallerType
 )
 ;
 }
@@ -572,6 +577,8 @@ const
 nsAString
 &
 aName
+CallerType
+aCallerType
 )
 {
 bool
@@ -582,6 +589,7 @@ NamedGetter
 (
 aName
 unused
+aCallerType
 )
 ;
 }
@@ -775,6 +783,8 @@ aIndex
 bool
 &
 aFound
+CallerType
+aCallerType
 )
 {
 aFound
@@ -791,6 +801,7 @@ AllowPlugins
 |
 ResistFingerprinting
 (
+aCallerType
 )
 )
 {
@@ -969,6 +980,8 @@ aName
 bool
 &
 aFound
+CallerType
+aCallerType
 )
 {
 aFound
@@ -985,6 +998,7 @@ AllowPlugins
 |
 ResistFingerprinting
 (
+aCallerType
 )
 )
 {
@@ -1161,6 +1175,8 @@ nsPluginArray
 :
 Length
 (
+CallerType
+aCallerType
 )
 {
 if
@@ -1173,6 +1189,7 @@ AllowPlugins
 |
 ResistFingerprinting
 (
+aCallerType
 )
 )
 {
