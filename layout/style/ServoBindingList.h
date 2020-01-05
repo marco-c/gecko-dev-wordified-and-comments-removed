@@ -572,6 +572,8 @@ Servo_ResolveStyle
 ServoComputedValuesStrong
 RawGeckoElementBorrowed
 element
+RawServoStyleSetBorrowed
+set
 mozilla
 :
 :
