@@ -2083,10 +2083,10 @@ String
 Truncate
 /
 /
-nsString
+nsAString
 :
 :
-StripChars
+StripTaggedASCII
 /
 /
 nsAC
