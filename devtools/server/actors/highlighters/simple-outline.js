@@ -6,6 +6,7 @@ strict
 const
 {
 installHelperSheet
+isNodeValid
 addPseudoClassLock
 removePseudoClassLock
 }
@@ -123,6 +124,13 @@ node
 {
 if
 (
+isNodeValid
+(
+node
+)
+&
+&
+(
 !
 this
 .
@@ -136,6 +144,7 @@ node
 this
 .
 currentNode
+)
 )
 {
 this
