@@ -16,9 +16,7 @@ node_modules
 /
 devtools
 -
-local
--
-toolbox
+launchpad
 /
 index
 "

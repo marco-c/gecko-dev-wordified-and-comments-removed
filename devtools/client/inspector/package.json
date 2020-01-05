@@ -60,9 +60,7 @@ dependencies
 "
 devtools
 -
-local
--
-toolbox
+launchpad
 "
 :
 "
@@ -70,7 +68,7 @@ toolbox
 .
 0
 .
-12
+24
 "
 "
 raw
