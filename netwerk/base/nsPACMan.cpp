@@ -162,6 +162,10 @@ if
 (
 httpChannel
 )
+{
+Unused
+<
+<
 httpChannel
 -
 >
@@ -171,6 +175,7 @@ GetRequestSucceeded
 result
 )
 ;
+}
 return
 result
 ;

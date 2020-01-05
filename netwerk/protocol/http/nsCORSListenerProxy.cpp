@@ -4316,6 +4316,9 @@ NS_ERROR_DOM_BAD_URI
 nsAutoCString
 method
 ;
+Unused
+<
+<
 http
 -
 >
@@ -4720,6 +4723,9 @@ http
 nsAutoCString
 headerVal
 ;
+Unused
+<
+<
 http
 -
 >
@@ -4913,6 +4919,9 @@ entry
 return
 ;
 }
+Unused
+<
+<
 http
 -
 >
@@ -5088,6 +5097,9 @@ expirationTime
 ;
 }
 }
+Unused
+<
+<
 http
 -
 >
@@ -5592,6 +5604,9 @@ NS_ERROR_DOM_BAD_URI
 nsAutoCString
 headerVal
 ;
+Unused
+<
+<
 http
 -
 >
@@ -5743,6 +5758,9 @@ return
 NS_ERROR_DOM_BAD_URI
 ;
 }
+Unused
+<
+<
 http
 -
 >
@@ -6075,6 +6093,9 @@ httpChannel
 NS_ERROR_UNEXPECTED
 )
 ;
+Unused
+<
+<
 httpChannel
 -
 >

@@ -8045,6 +8045,9 @@ if
 mCanceled
 )
 {
+Unused
+<
+<
 AsyncAbort
 (
 mStatus
@@ -11173,6 +11176,9 @@ rv
 )
 )
 {
+Unused
+<
+<
 AsyncAbort
 (
 rv

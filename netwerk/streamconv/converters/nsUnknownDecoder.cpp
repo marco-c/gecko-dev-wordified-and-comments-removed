@@ -3329,6 +3329,9 @@ return
 nsAutoCString
 contentTypeHdr
 ;
+Unused
+<
+<
 httpChannel
 -
 >
@@ -3453,6 +3456,9 @@ return
 nsAutoCString
 contentEncoding
 ;
+Unused
+<
+<
 httpChannel
 -
 >

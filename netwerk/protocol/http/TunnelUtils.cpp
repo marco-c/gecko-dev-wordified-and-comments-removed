@@ -1580,6 +1580,9 @@ rv
 )
 )
 ;
+Unused
+<
+<
 Connection
 (
 )
@@ -1709,6 +1712,9 @@ NS_BASE_STREAM_WOULD_BLOCK
 )
 )
 {
+Unused
+<
+<
 Connection
 (
 )
@@ -1912,6 +1918,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+Unused
+<
+<
 OnReadSegment
 (
 "
@@ -4158,6 +4167,9 @@ if
 mDrivingTransaction
 )
 {
+Unused
+<
+<
 gHttpHandler
 -
 >
@@ -4460,6 +4472,9 @@ MakeSticky
 (
 )
 ;
+Unused
+<
+<
 gHttpHandler
 -
 >
@@ -4987,6 +5002,9 @@ countRead
 =
 0
 ;
+Unused
+<
+<
 Flush
 (
 count
