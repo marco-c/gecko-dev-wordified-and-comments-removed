@@ -340,12 +340,6 @@ mVisible
 =
 true
 ;
-#
-if
-defined
-(
-XP_WIN
-)
 PluginInstanceParent
 *
 instance
@@ -381,8 +375,6 @@ scrollCaptureId
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -699,12 +691,6 @@ void
 mCachedPluginPort
 ;
 }
-#
-if
-defined
-(
-XP_WIN
-)
 void
 PluginWidgetProxy
 :
@@ -800,8 +786,6 @@ type
 ;
 }
 }
-#
-endif
 nsresult
 PluginWidgetProxy
 :
