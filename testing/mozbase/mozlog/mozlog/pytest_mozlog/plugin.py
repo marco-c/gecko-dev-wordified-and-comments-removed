@@ -230,14 +230,22 @@ logger
 .
 suite_start
 (
+                
 tests
 =
 tests
+                
 time
 =
 self
 .
 start_time
+                
+run_info
+=
+self
+.
+run_info
 )
             
 self
@@ -331,6 +339,21 @@ time
 )
 *
 1000
+)
+        
+self
+.
+run_info
+=
+getattr
+(
+session
+.
+config
+'
+_metadata
+'
+None
 )
     
 def
