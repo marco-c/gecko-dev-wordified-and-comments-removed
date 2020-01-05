@@ -219,6 +219,12 @@ dump
 ;
 node
 .
+initialize_style_for_subtree
+(
+)
+;
+node
+.
 recompute_style_for_subtree
 (
 styles
