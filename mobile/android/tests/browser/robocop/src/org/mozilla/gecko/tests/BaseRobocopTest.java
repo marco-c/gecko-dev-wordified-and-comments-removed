@@ -1001,7 +1001,7 @@ quit
 ;
 mActions
 .
-sendGeckoEvent
+sendGlobalEvent
 (
 "
 Robocop

@@ -273,7 +273,9 @@ nth
 nrOfMatches
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -323,7 +325,9 @@ closeFindInPageMessage
 "
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

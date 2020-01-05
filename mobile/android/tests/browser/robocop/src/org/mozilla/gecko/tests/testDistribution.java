@@ -1412,8 +1412,13 @@ distributionSetExpecter
 =
 mActions
 .
-expectGeckoEvent
+expectGlobalEvent
 (
+Actions
+.
+EventType
+.
+GECKO
 "
 Distribution
 :
@@ -2124,7 +2129,7 @@ Data
 ;
 mActions
 .
-sendGeckoEvent
+sendGlobalEvent
 (
 "
 SearchEngines
