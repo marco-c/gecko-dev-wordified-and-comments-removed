@@ -732,9 +732,6 @@ JSObject
 *
 Renew
 (
-JSContext
-*
-cx
 JSObject
 *
 existing
