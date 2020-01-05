@@ -206,6 +206,9 @@ DOMString
 priority
 )
 ;
+[
+Throws
+]
 DOMString
 removeProperty
 (

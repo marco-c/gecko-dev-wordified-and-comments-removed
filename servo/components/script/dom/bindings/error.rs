@@ -138,6 +138,7 @@ Network
 Abort
 Timeout
 DataClone
+NoModificationAllowedError
 }
 pub
 type
