@@ -265,7 +265,7 @@ dom
 :
 Element
 *
-aParentElement
+aOriginatingElement
 mozilla
 :
 :
@@ -409,7 +409,7 @@ dom
 :
 Element
 *
-aParentElement
+aOriginatingElement
 mozilla
 :
 :
@@ -431,7 +431,7 @@ dom
 :
 Element
 *
-aParentElement
+aOriginatingElement
 mozilla
 :
 :
