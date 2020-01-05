@@ -930,6 +930,11 @@ InFrameSwap
 private
 :
 bool
+IsContentViewerBlankForPrintPreview
+(
+)
+;
+bool
 CanSetOriginAttributes
 (
 )
