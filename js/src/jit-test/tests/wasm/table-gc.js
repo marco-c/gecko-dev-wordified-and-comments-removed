@@ -89,6 +89,10 @@ type
 v2i
 )
 (
+result
+i32
+)
+(
 i32
 .
 const
