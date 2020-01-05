@@ -1002,7 +1002,7 @@ serialize_string
 value
 :
 &
-DOMString
+str
 encoding
 :
 EncodingRef
@@ -1036,15 +1036,6 @@ urlencoded
 byte
 -
 serializer
-let
-value
-=
-value
-.
-as_slice
-(
-)
-;
 /
 /
 XXXManishearth

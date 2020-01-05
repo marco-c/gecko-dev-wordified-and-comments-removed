@@ -3018,10 +3018,6 @@ to_ascii_lowercase
 (
 )
 .
-as_slice
-(
-)
-.
 trim_matches
 (
 HTML_SPACE_CHARACTERS
@@ -3139,6 +3135,8 @@ SCRIPT_JS_MIMES
 contains
 (
 &
+&
+*
 format
 !
 (
@@ -3152,10 +3150,6 @@ s
 )
 .
 to_ascii_lowercase
-(
-)
-.
-as_slice
 (
 )
 )

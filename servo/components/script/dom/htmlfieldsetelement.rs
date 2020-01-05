@@ -521,13 +521,12 @@ tag_name
 tag_name
 =
 =
+&
+*
+*
 elem
 .
 local_name
-(
-)
-.
-as_slice
 (
 )
 )

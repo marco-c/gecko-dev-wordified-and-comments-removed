@@ -1417,11 +1417,9 @@ self
 .
 calculate_table_column_sizes_for_automatic_layout
 (
+&
+mut
 intermediate_column_inline_sizes
-.
-as_mut_slice
-(
-)
 )
 }
 }

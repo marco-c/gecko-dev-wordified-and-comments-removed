@@ -850,11 +850,8 @@ base_url
 .
 parse
 (
+&
 src
-.
-as_slice
-(
-)
 )
 ;
 let

@@ -8485,13 +8485,11 @@ root
 )
 ;
 match
+&
+*
 interface
 .
 to_ascii_lowercase
-(
-)
-.
-as_slice
 (
 )
 {

@@ -1741,10 +1741,10 @@ JSContext
 >
 JSVal
 {
-self
-.
-as_slice
 (
+*
+*
+self
 )
 .
 to_jsval

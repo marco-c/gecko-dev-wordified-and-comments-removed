@@ -1539,10 +1539,6 @@ ErrorResult
 if
 name
 .
-as_slice
-(
-)
-.
 chars
 (
 )

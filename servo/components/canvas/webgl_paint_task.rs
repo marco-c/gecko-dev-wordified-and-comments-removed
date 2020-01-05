@@ -704,11 +704,9 @@ UNSIGNED_BYTE
 ;
 byte_swap
 (
+&
+mut
 pixels
-.
-as_mut_slice
-(
-)
 )
 ;
 chan

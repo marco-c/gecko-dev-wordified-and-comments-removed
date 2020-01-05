@@ -552,11 +552,8 @@ Stylesheet
 :
 from_str
 (
+&
 data
-.
-as_slice
-(
-)
 url
 Origin
 :

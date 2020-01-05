@@ -159,10 +159,6 @@ vector
 self
 ;
 vector
-.
-as_slice
-(
-)
 }
 pub
 fn

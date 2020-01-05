@@ -143,11 +143,9 @@ reader
 .
 read
 (
+&
+mut
 buf
-.
-as_mut_slice
-(
-)
 )
 {
 Ok

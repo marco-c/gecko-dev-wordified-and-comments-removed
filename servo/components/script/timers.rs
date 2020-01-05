@@ -1383,11 +1383,8 @@ this
 .
 evaluate_js_on_global_with_result
 (
+&
 code_str
-.
-as_slice
-(
-)
 )
 ;
 }

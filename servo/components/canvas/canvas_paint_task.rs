@@ -3733,11 +3733,9 @@ canvas_size
 ;
 byte_swap
 (
+&
+mut
 dest_data
-.
-as_mut_slice
-(
-)
 )
 ;
 chan
@@ -3839,11 +3837,9 @@ f64
 ;
 byte_swap
 (
+&
+mut
 imagedata
-.
-as_mut_slice
-(
-)
 )
 ;
 let

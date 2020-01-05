@@ -682,11 +682,9 @@ button
 -
 type
 match
+&
+*
 ty
-.
-as_slice
-(
-)
 {
 "
 reset

@@ -688,11 +688,9 @@ htmlname
 )
 ;
 match
+&
+*
 url
-.
-as_slice
-(
-)
 {
 "
 "
@@ -911,11 +909,9 @@ fs
 -
 method
 match
+&
+*
 val
-.
-as_slice
-(
-)
 {
 (
 choices
@@ -961,6 +957,7 @@ make_enumerated_getter
 !
 (
 attr
+&
 to_lower
 !
 (
@@ -969,10 +966,6 @@ stringify
 (
 attr
 )
-)
-.
-as_slice
-(
 )
 default
 (

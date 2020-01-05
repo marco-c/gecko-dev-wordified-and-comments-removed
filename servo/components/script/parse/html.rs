@@ -2222,13 +2222,10 @@ serializer
 .
 write_doctype
 (
+&
 doctype
 .
 name
-(
-)
-.
-as_slice
 (
 )
 )
@@ -2581,11 +2578,8 @@ UTF_8
 .
 decode
 (
+&
 data
-.
-as_slice
-(
-)
 DecoderTrap
 :
 :
