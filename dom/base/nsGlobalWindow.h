@@ -1831,6 +1831,12 @@ HasUsedVR
 )
 const
 ;
+using
+EventTarget
+:
+:
+EventListenerAdded
+;
 virtual
 void
 EventListenerAdded

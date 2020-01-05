@@ -1926,6 +1926,10 @@ NotifyEventListenerRemoved
 nsIAtom
 *
 aUserType
+const
+nsAString
+&
+aTypeString
 )
 ;
 const

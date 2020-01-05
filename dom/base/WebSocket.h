@@ -175,6 +175,12 @@ IsCertainlyAliveForCC
 const
 override
 ;
+using
+EventTarget
+:
+:
+EventListenerAdded
+;
 virtual
 void
 EventListenerAdded
@@ -184,6 +190,12 @@ nsIAtom
 aType
 )
 override
+;
+using
+EventTarget
+:
+:
+EventListenerRemoved
 ;
 virtual
 void
