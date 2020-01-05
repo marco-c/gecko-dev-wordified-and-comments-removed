@@ -13,6 +13,7 @@ class
 test262Class
 {
 }
+262
 .
 evalScript
 (
@@ -23,6 +24,7 @@ test262Var
 '
 )
 ;
+262
 .
 evalScript
 (
@@ -45,6 +47,7 @@ function
 (
 )
 {
+262
 .
 evalScript
 (
@@ -105,6 +108,7 @@ function
 (
 )
 {
+262
 .
 evalScript
 (
@@ -165,6 +169,7 @@ function
 (
 )
 {
+262
 .
 evalScript
 (
@@ -225,6 +230,7 @@ function
 (
 )
 {
+262
 .
 evalScript
 (
@@ -288,6 +294,7 @@ function
 (
 )
 {
+262
 .
 evalScript
 (
@@ -351,6 +358,7 @@ function
 (
 )
 {
+262
 .
 evalScript
 (

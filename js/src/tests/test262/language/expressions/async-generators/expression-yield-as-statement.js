@@ -103,6 +103,10 @@ iter1
 .
 next
 (
+)
+.
+then
+(
 function
 (
 result
@@ -239,6 +243,10 @@ DONE
 iter2
 .
 next
+(
+)
+.
+then
 (
 function
 (

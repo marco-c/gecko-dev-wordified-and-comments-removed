@@ -19,3 +19,17 @@ cycle
 js
 '
 ;
+assert
+.
+sameValue
+(
+x
+45
+)
+;
+reportCompare
+(
+0
+0
+)
+;

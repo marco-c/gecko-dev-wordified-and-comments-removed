@@ -1,3 +1,4 @@
+262
 .
 evalScript
 (
@@ -13,6 +14,7 @@ test262let
 ;
 test262let
 ;
+262
 .
 evalScript
 (
@@ -30,6 +32,7 @@ test262const
 ;
 test262const
 ;
+262
 .
 evalScript
 (

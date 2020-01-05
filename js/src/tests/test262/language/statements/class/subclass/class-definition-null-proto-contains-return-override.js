@@ -1,3 +1,6 @@
+var
+obj
+;
 class
 Foo
 extends
@@ -8,6 +11,8 @@ constructor
 )
 {
 return
+obj
+=
 {
 }
 ;
@@ -19,6 +24,14 @@ f
 new
 Foo
 (
+)
+;
+assert
+.
+sameValue
+(
+f
+obj
 )
 ;
 assert

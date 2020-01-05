@@ -42,6 +42,7 @@ setPrototypeOf
 ns
 null
 )
+)
 ;
 reportCompare
 (
