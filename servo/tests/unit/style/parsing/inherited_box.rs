@@ -106,11 +106,8 @@ Some
 Angle
 :
 :
-from_degrees
+zero
 (
-0
-.
-0
 )
 )
 flipped
@@ -144,11 +141,8 @@ Some
 Angle
 :
 :
-from_degrees
+zero
 (
-0
-.
-0
 )
 )
 flipped
@@ -189,6 +183,7 @@ from_radians
 1
 .
 0
+false
 )
 )
 flipped
@@ -228,6 +223,7 @@ from_degrees
 180
 .
 0
+false
 )
 )
 flipped

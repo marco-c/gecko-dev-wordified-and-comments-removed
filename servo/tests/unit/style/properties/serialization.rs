@@ -7890,6 +7890,7 @@ from_degrees
 42
 .
 3
+false
 )
 None
 )
@@ -7920,6 +7921,7 @@ from_gradians
 50
 .
 0
+false
 )
 Some
 (
@@ -7931,6 +7933,7 @@ from_turns
 0
 .
 73
+false
 )
 )
 )
@@ -7962,6 +7965,7 @@ from_radians
 0
 .
 31
+false
 )
 )
 "
@@ -8000,6 +8004,7 @@ from_turns
 35
 .
 0
+false
 )
 )
 "
