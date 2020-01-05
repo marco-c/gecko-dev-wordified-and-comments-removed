@@ -6066,10 +6066,6 @@ RefreshImpl
 (
 )
 ;
-moz_gtk_refresh
-(
-)
-;
 mDefaultFontCached
 =
 false
