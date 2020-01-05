@@ -447,9 +447,8 @@ nsString
 >
 &
 aTypes
-nsIPrincipal
-&
-aSubjectPrincipal
+CallerType
+aCallerType
 )
 const
 ;

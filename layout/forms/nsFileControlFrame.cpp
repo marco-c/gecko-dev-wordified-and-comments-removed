@@ -1837,13 +1837,10 @@ dataTransfer
 GetTypes
 (
 types
-*
-nsContentUtils
+CallerType
 :
 :
-GetSystemPrincipal
-(
-)
+System
 )
 ;
 return

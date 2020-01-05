@@ -197,7 +197,7 @@ DOMStringList
 Pure
 Cached
 Frozen
-NeedsSubjectPrincipal
+NeedsCallerType
 ReturnValueNeedsContainsHack
 ]
 readonly
