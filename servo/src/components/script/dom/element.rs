@@ -1129,6 +1129,12 @@ value
 "
 id
 "
+if
+abstract_self
+.
+is_in_doc
+(
+)
 =
 >
 {
@@ -1502,6 +1508,12 @@ None
 "
 id
 "
+if
+abstract_self
+.
+is_in_doc
+(
+)
 =
 >
 {
