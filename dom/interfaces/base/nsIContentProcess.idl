@@ -314,6 +314,9 @@ aAliveProcesses
 in
 uint32_t
 aCount
+in
+uint32_t
+aMaxCount
 )
 ;
 }
