@@ -50,6 +50,9 @@ class
 nsIFile
 ;
 class
+nsIGlobalObject
+;
+class
 nsPIDOMWindowInner
 ;
 namespace
@@ -60,9 +63,6 @@ dom
 {
 struct
 ChromeFilePropertyBag
-;
-class
-GlobalObject
 ;
 class
 Promise
@@ -88,10 +88,9 @@ Promise
 >
 CreateFile
 (
-const
-GlobalObject
-&
-aGlobal
+nsIGlobalObject
+*
+aGlobalObject
 nsIFile
 *
 aFile
