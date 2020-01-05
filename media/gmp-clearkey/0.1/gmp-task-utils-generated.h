@@ -14122,6 +14122,8 @@ aType
 Method
 aMethod
 Args
+&
+&
 .
 .
 .
@@ -14136,7 +14138,16 @@ WrapTask
 (
 aType
 aMethod
+std
+:
+:
+forward
+<
+Args
+>
+(
 args
+)
 .
 .
 .
