@@ -3747,12 +3747,9 @@ iteritems
 :
             
 if
-all_histograms
-.
-has_key
-(
 name
-)
+in
+all_histograms
 :
                 
 raise
