@@ -494,6 +494,11 @@ FromCharCode
 \
 _
 (
+FromCodePoint
+)
+\
+_
+(
 SinCos
 )
 \

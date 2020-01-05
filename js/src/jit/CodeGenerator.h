@@ -2026,6 +2026,14 @@ lir
 )
 ;
 void
+visitFromCodePoint
+(
+LFromCodePoint
+*
+lir
+)
+;
+void
 visitSinCos
 (
 LSinCos
