@@ -255,6 +255,7 @@ append
 '
 bar
 .
+.
 txt
 '
 )
