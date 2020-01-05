@@ -377,7 +377,7 @@ _
 fail
 ~
 "
-inhereit_height
+inhereit_width
 failed
 width
 is
