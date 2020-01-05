@@ -233,6 +233,14 @@ setMinorGCShouldCancelIonCompilations
 (
 )
 ;
+bool
+runtimeMatches
+(
+JSRuntime
+*
+rt
+)
+;
 }
 ;
 class
