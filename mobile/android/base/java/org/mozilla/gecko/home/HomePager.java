@@ -858,6 +858,12 @@ LOADER_ID_CONFIG
 !
 =
 null
+&
+&
+restoreData
+=
+=
+null
 )
 {
 lm
