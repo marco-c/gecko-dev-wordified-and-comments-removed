@@ -8121,6 +8121,14 @@ get
 return
 ;
 }
+RefPtr
+<
+MediaDecoder
+>
+self
+=
+this
+;
 GetStateMachine
 (
 )
@@ -8142,6 +8150,7 @@ MainThread
 __func__
 [
 this
+self
 str
 ]
 (
@@ -8180,6 +8189,7 @@ Data
 }
 [
 this
+self
 str
 ]
 (
