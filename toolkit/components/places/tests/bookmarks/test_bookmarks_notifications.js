@@ -1414,9 +1414,6 @@ update_move_same_folder
 (
 )
 {
-let
-sep
-=
 yield
 PlacesUtils
 .
@@ -2385,9 +2382,6 @@ expectNotifications
 (
 )
 ;
-let
-removed
-=
 yield
 PlacesUtils
 .

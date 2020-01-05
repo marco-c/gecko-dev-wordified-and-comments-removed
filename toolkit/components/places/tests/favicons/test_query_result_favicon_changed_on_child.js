@@ -31,9 +31,6 @@ test_query_result_favicon_changed_on_child
 (
 )
 {
-let
-testBookmark
-=
 yield
 PlacesUtils
 .

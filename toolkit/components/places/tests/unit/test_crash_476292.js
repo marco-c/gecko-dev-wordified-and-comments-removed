@@ -60,9 +60,6 @@ sqlite
 "
 )
 ;
-let
-bs
-=
 Cc
 [
 "

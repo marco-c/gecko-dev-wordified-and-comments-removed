@@ -492,9 +492,6 @@ title
 "
 )
 ;
-let
-id2
-=
 PlacesUtils
 .
 bookmarks

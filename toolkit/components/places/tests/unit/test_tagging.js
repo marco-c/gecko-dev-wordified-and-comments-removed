@@ -515,12 +515,6 @@ containerOpen
 false
 ;
 var
-tagFolders
-=
-[
-]
-;
-var
 child
 =
 tagRoot

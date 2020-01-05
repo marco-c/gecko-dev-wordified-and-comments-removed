@@ -1171,9 +1171,6 @@ bookmark
 "
 )
 ;
-let
-bookmark
-=
 yield
 PlacesUtils
 .

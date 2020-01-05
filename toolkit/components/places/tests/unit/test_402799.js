@@ -187,9 +187,6 @@ bar
 "
 )
 ;
-var
-bookmark1id
-=
 bmsvc
 .
 insertBookmark
@@ -207,9 +204,6 @@ title
 "
 )
 ;
-var
-bookmark2id
-=
 bmsvc
 .
 insertBookmark

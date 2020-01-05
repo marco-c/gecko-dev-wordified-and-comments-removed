@@ -546,9 +546,6 @@ test_invalid_guid
 {
 try
 {
-let
-placeInfoByGUID
-=
 yield
 PlacesUtils
 .

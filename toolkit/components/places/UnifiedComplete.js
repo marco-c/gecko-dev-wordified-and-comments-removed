@@ -6161,7 +6161,6 @@ let
 url
 title
 icon
-deviceClass
 deviceName
 }
 of
@@ -7499,16 +7498,6 @@ row
 getResultByIndex
 (
 QUERYINDEX_PLACEID
-)
-;
-let
-queryType
-=
-row
-.
-getResultByIndex
-(
-QUERYINDEX_QUERYTYPE
 )
 ;
 let

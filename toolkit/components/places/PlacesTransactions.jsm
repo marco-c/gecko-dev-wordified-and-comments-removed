@@ -515,9 +515,6 @@ batch
 aToBatch
 )
 {
-let
-batchFunc
-;
 if
 (
 Array

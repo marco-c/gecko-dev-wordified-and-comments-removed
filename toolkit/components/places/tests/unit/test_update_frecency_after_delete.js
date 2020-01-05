@@ -459,9 +459,6 @@ TEST_URI
 }
 )
 ;
-let
-bm2
-=
 yield
 PlacesUtils
 .
@@ -645,9 +642,6 @@ com
 "
 )
 ;
-let
-bm
-=
 yield
 PlacesUtils
 .
@@ -847,9 +841,6 @@ com
 "
 )
 ;
-let
-bm1
-=
 yield
 PlacesUtils
 .
@@ -913,9 +904,6 @@ folder
 }
 )
 ;
-let
-bm2
-=
 yield
 PlacesUtils
 .

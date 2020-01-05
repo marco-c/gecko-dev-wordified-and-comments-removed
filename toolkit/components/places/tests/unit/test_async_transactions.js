@@ -7667,7 +7667,7 @@ aInfo
 {
 let
 urls
-tagsToRemove
+tagsRemoved
 ;
 if
 (
@@ -9557,9 +9557,6 @@ clearTransactionsHistory
 )
 ;
 }
-let
-bmTxn
-=
 PT
 .
 NewBookmark
@@ -10781,9 +10778,6 @@ transact
 (
 )
 ;
-let
-nestedSepGuid
-=
 yield
 PT
 .

@@ -274,9 +274,6 @@ weight
 cutoff
 =
 0
-bonus
-=
-0
 ;
 try
 {

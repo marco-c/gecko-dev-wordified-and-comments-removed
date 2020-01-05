@@ -411,9 +411,6 @@ unfiledBookmarksFolder
 ;
 try
 {
-let
-id
-=
 bs
 .
 getFolderIdForItem
@@ -440,9 +437,6 @@ ex
 }
 try
 {
-let
-id
-=
 bs
 .
 getFolderIdForItem

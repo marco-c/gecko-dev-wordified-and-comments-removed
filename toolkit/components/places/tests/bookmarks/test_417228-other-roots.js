@@ -587,12 +587,6 @@ json
 "
 )
 ;
-var
-excludedItemsFromRestore
-=
-[
-]
-;
 tests
 .
 forEach

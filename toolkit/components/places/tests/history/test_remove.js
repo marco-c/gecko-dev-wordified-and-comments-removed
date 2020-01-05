@@ -1242,9 +1242,6 @@ i
 0
 ;
 let
-resolve
-;
-let
 page
 =
 {

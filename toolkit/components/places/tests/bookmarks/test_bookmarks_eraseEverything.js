@@ -333,7 +333,7 @@ com
 ;
 checkBookmarkObject
 (
-unfiledBookmark
+menuBookmark
 )
 ;
 let

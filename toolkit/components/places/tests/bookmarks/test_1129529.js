@@ -318,7 +318,6 @@ false
 let
 [
 bookmarks
-count
 ]
 =
 yield

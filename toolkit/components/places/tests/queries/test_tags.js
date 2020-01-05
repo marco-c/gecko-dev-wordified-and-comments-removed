@@ -42,7 +42,6 @@ array
 var
 [
 query
-dummy
 ]
 =
 makeQuery
@@ -82,7 +81,6 @@ array
 ;
 [
 query
-dummy
 ]
 =
 makeQuery
@@ -134,7 +132,6 @@ foo
 ;
 [
 query
-dummy
 ]
 =
 makeQuery
@@ -168,7 +165,6 @@ tags
 ;
 [
 query
-dummy
 ]
 =
 makeQuery
@@ -3668,9 +3664,6 @@ tagName
 }
 )
 ;
-let
-bm
-=
 yield
 PlacesUtils
 .
@@ -3848,9 +3841,6 @@ tag
 "
 )
 ;
-let
-folder
-=
 yield
 PlacesUtils
 .
@@ -4184,7 +4174,6 @@ com
 var
 [
 query2
-dummy
 ]
 =
 makeQuery
@@ -4298,7 +4287,6 @@ com
 ;
 [
 query2
-dummy
 ]
 =
 makeQuery
@@ -4391,7 +4379,6 @@ com
 ;
 [
 query2
-dummy
 ]
 =
 makeQuery
@@ -4504,7 +4491,6 @@ true
 ;
 [
 query2
-dummy
 ]
 =
 makeQuery
@@ -4623,7 +4609,6 @@ com
 ;
 [
 query2
-dummy
 ]
 =
 makeQuery
@@ -4730,7 +4715,6 @@ com
 ;
 [
 query2
-dummy
 ]
 =
 makeQuery

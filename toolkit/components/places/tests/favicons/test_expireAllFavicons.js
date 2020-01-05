@@ -50,15 +50,6 @@ test_expireAllFavicons
 (
 )
 {
-const
-{
-FAVICON_LOAD_NON_PRIVATE
-}
-=
-PlacesUtils
-.
-favicons
-;
 yield
 PlacesTestUtils
 .
