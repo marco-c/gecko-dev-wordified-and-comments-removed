@@ -171,10 +171,6 @@ protocol
 PFileDescriptorSet
 ;
 include
-protocol
-PIPCBlobInputStream
-;
-include
 DOMTypes
 ;
 include

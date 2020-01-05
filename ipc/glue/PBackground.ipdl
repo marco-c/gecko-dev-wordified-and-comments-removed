@@ -110,10 +110,6 @@ PGamepadTestChannel
 ;
 include
 protocol
-PIPCBlobInputStream
-;
-include
-protocol
 PMemoryStream
 ;
 include
@@ -296,9 +292,6 @@ PGamepadEventChannel
 ;
 manages
 PGamepadTestChannel
-;
-manages
-PIPCBlobInputStream
 ;
 manages
 PMemoryStream
@@ -505,15 +498,6 @@ PCacheStreamControl
 async
 PParentToChildStream
 (
-)
-;
-async
-PIPCBlobInputStream
-(
-nsID
-aID
-uint64_t
-aSize
 )
 ;
 both
