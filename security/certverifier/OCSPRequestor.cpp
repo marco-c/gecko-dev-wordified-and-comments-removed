@@ -651,7 +651,7 @@ authorityPos
 hostnamePos
 static_cast
 <
-nsACString_internal
+nsACString
 :
 :
 size_type

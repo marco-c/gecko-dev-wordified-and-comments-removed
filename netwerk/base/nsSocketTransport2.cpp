@@ -10146,7 +10146,7 @@ nsSocketTransport
 :
 GetNetworkInterfaceId
 (
-nsACString_internal
+nsACString
 &
 aNetworkInterfaceId
 )
@@ -10180,7 +10180,7 @@ nsSocketTransport
 SetNetworkInterfaceId
 (
 const
-nsACString_internal
+nsACString
 &
 aNetworkInterfaceId
 )

@@ -7274,7 +7274,7 @@ SocketTransportShim
 :
 GetNetworkInterfaceId
 (
-nsACString_internal
+nsACString
 &
 aNetworkInterfaceId
 )
@@ -7296,7 +7296,7 @@ SocketTransportShim
 SetNetworkInterfaceId
 (
 const
-nsACString_internal
+nsACString
 &
 aNetworkInterfaceId
 )

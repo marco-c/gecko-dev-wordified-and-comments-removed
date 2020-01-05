@@ -664,7 +664,7 @@ MediaEngineTabVideoSource
 :
 GetName
 (
-nsAString_internal
+nsAString
 &
 aName
 )
@@ -693,7 +693,7 @@ MediaEngineTabVideoSource
 :
 GetUUID
 (
-nsACString_internal
+nsACString
 &
 aUuid
 )

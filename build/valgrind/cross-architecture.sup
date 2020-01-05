@@ -114,7 +114,7 @@ Leak
 .
 fun
 :
-_ZL13SaveWordToEnvPKcRK19nsACString_internal
+_ZL13SaveWordToEnvPKcRK10nsACString
 .
 .
 .
@@ -185,10 +185,10 @@ malloc
 .
 fun
 :
-_Z12ToNewCStringRK19nsACString_internal
+_Z12ToNewCStringRK10nsACString
 fun
 :
-_ZN13CrashReporter14SetupExtraDataEP7nsIFileRK19nsACString_internal
+_ZN13CrashReporter14SetupExtraDataEP7nsIFileRK10nsACString
 .
 .
 .

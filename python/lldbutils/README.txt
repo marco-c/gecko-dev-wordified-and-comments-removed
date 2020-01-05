@@ -1528,7 +1528,7 @@ p
 aPropValue
 (
 const
-nsAString_internal
+nsAString
 )
 16
 =
@@ -1560,7 +1560,7 @@ nsCString
 19
 =
 {
-nsACString_internal
+nsACString
 =
 "
 text
