@@ -314,12 +314,6 @@ type
 text
 /
 javascript
-;
-version
-=
-1
-.
-7
 "
 src
 =
@@ -354,12 +348,6 @@ type
 text
 /
 javascript
-;
-version
-=
-1
-.
-7
 "
 >
 /

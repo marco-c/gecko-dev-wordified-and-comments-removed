@@ -26857,12 +26857,6 @@ type
 application
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 >
 var
@@ -26886,12 +26880,6 @@ type
 application
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 >
 \
