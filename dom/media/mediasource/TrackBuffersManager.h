@@ -378,8 +378,10 @@ AppendPromise
 >
 AppendData
 (
+already_AddRefed
+<
 MediaByteBuffer
-*
+>
 aData
 const
 SourceBufferAttributes
@@ -717,8 +719,10 @@ AppendPromise
 >
 DoAppendData
 (
+already_AddRefed
+<
 MediaByteBuffer
-*
+>
 aData
 const
 SourceBufferAttributes
