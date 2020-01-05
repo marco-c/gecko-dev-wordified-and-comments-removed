@@ -449,9 +449,7 @@ releng
 :
 beetmover
 :
-bucket
-:
-release
+nightly
 '
     
 '
@@ -469,8 +467,6 @@ releng
 :
 beetmover
 :
-bucket
-:
 nightly
 '
     
@@ -485,9 +481,7 @@ releng
 :
 beetmover
 :
-bucket
-:
-dep
+nightly
 '
 }
 "
@@ -623,8 +617,6 @@ releng
 :
 balrog
 :
-server
-:
 nightly
 '
     
@@ -639,9 +631,7 @@ releng
 :
 balrog
 :
-server
-:
-aurora
+nightly
 '
     
 '
@@ -655,9 +645,7 @@ releng
 :
 balrog
 :
-server
-:
-beta
+nightly
 '
     
 '
@@ -671,9 +659,7 @@ releng
 :
 balrog
 :
-server
-:
-release
+nightly
 '
     
 '
@@ -687,9 +673,7 @@ releng
 :
 balrog
 :
-server
-:
-dep
+nightly
 '
 }
 def
