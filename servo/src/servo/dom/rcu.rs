@@ -907,6 +907,7 @@ next_dirty
 h
 ;
 }
+pure
 fn
 is_null
 (

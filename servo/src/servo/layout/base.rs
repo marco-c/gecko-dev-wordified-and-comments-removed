@@ -699,6 +699,7 @@ size
 %
 ?
 "
+copy
 self
 .
 bounds

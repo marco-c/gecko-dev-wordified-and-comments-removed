@@ -246,6 +246,7 @@ au
 )
 }
 }
+pure
 fn
 px_to_au
 (
@@ -264,6 +265,7 @@ i
 60
 )
 }
+pure
 fn
 au_to_px
 (

@@ -100,6 +100,16 @@ kind
 =
 bk_block
 ;
+#
+debug
+[
+"
+starting
+reflow
+block
+"
+]
+;
 /
 /
 Root
@@ -263,6 +273,7 @@ size
 %
 ?
 "
+copy
 self
 .
 bounds
