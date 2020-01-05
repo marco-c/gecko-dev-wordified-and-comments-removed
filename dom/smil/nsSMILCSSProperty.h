@@ -41,6 +41,9 @@ nsCSSValue
 .
 h
 "
+class
+nsStyleContext
+;
 namespace
 mozilla
 {
@@ -73,6 +76,9 @@ dom
 Element
 *
 aElement
+nsStyleContext
+*
+aBaseStyleContext
 )
 ;
 virtual
@@ -151,6 +157,10 @@ dom
 Element
 *
 mElement
+;
+nsStyleContext
+*
+mBaseStyleContext
 ;
 }
 ;

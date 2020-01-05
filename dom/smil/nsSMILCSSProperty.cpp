@@ -232,6 +232,9 @@ aPropID
 Element
 *
 aElement
+nsStyleContext
+*
+aBaseStyleContext
 )
 :
 mPropID
@@ -241,6 +244,10 @@ aPropID
 mElement
 (
 aElement
+)
+mBaseStyleContext
+(
+aBaseStyleContext
 )
 {
 MOZ_ASSERT

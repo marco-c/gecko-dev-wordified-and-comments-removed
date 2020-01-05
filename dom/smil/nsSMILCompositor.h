@@ -256,6 +256,9 @@ nsISMILAttr
 >
 CreateSMILAttr
 (
+nsStyleContext
+*
+aBaseStyleContext
 )
 ;
 nsCSSPropertyID
