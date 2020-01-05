@@ -915,6 +915,12 @@ return
 env_
 ;
 }
+ModuleEnvironment
+&
+mutableEnv
+(
+)
+;
 bool
 isAsmJS
 (
@@ -1192,14 +1198,6 @@ const
 ShareableBytes
 &
 bytecode
-DataSegmentVector
-&
-&
-dataSegments
-NameInBytecodeVector
-&
-&
-funcNames
 )
 ;
 }

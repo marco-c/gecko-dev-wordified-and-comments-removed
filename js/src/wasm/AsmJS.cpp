@@ -12292,12 +12292,6 @@ finish
 (
 *
 bytes
-DataSegmentVector
-(
-)
-NameInBytecodeVector
-(
-)
 )
 ;
 }

@@ -48,7 +48,7 @@ enum
 class
 SectionId
 {
-UserDefined
+Custom
 =
 0
 Type
