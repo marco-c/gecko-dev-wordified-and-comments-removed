@@ -117,6 +117,7 @@ storagemanager
 *
 /
 [
+SecureContext
 Exposed
 =
 (

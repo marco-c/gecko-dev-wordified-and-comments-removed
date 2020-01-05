@@ -776,6 +776,7 @@ url
 }
 ;
 [
+SecureContext
 NoInterfaceObject
 Exposed
 =
