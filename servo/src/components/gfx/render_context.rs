@@ -147,6 +147,7 @@ canvas
 &
 '
 self
+~
 LayerBuffer
 font_ctx
 :

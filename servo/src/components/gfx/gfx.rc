@@ -362,6 +362,9 @@ pub
 mod
 opts
 ;
+mod
+buffer_map
+;
 /
 /
 Platform
