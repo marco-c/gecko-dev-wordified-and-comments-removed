@@ -110,6 +110,8 @@ nsIIOService
 serv
 bool
 reuseGlobal
+bool
+wantReturnValue
 JS
 :
 :
@@ -142,6 +144,8 @@ nsIIOService
 serv
 bool
 reuseGlobal
+bool
+wantReturnValue
 bool
 cache
 JS

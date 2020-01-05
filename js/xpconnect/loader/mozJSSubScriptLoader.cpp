@@ -282,6 +282,10 @@ async
 (
 false
 )
+wantReturnValue
+(
+false
+)
 {
 }
 virtual
@@ -328,6 +332,16 @@ async
 &
 async
 )
+&
+&
+ParseBoolean
+(
+"
+wantReturnValue
+"
+&
+wantReturnValue
+)
 ;
 }
 RootedObject
@@ -341,6 +355,9 @@ ignoreCache
 ;
 bool
 async
+;
+bool
+wantReturnValue
 ;
 }
 ;
@@ -683,6 +700,8 @@ int64_t
 len
 bool
 reuseGlobal
+bool
+wantReturnValue
 MutableHandleScript
 script
 MutableHandleFunction
@@ -713,6 +732,12 @@ reuseGlobal
 setVersion
 (
 JSVERSION_LATEST
+)
+.
+setNoScriptRval
+(
+!
+wantReturnValue
 )
 ;
 if
@@ -1282,6 +1307,8 @@ nsIChannel
 aChannel
 bool
 aReuseGlobal
+bool
+aWantReturnValue
 JSObject
 *
 aTargetObj
@@ -1315,6 +1342,10 @@ aCharset
 mReuseGlobal
 (
 aReuseGlobal
+)
+mWantReturnValue
+(
+aWantReturnValue
 )
 mCache
 (
@@ -1371,6 +1402,9 @@ mCharset
 ;
 bool
 mReuseGlobal
+;
+bool
+mWantReturnValue
 ;
 bool
 mCache
@@ -1806,6 +1840,7 @@ aBuf
 )
 aLength
 mReuseGlobal
+mWantReturnValue
 &
 script
 &
@@ -1880,6 +1915,8 @@ nsIIOService
 serv
 bool
 reuseGlobal
+bool
+wantReturnValue
 bool
 cache
 MutableHandleValue
@@ -2071,6 +2108,7 @@ AsyncScriptLoader
 (
 channel
 reuseGlobal
+wantReturnValue
 targetObj
 charset
 cache
@@ -2149,6 +2187,8 @@ nsIIOService
 serv
 bool
 reuseGlobal
+bool
+wantReturnValue
 MutableHandleScript
 script
 MutableHandleFunction
@@ -2366,6 +2406,7 @@ get
 )
 len
 reuseGlobal
+wantReturnValue
 script
 function
 )
@@ -3069,6 +3110,9 @@ options
 charset
 serv
 reusingGlobal
+options
+.
+wantReturnValue
 !
 !
 cache
@@ -3108,6 +3152,9 @@ get
 )
 serv
 reusingGlobal
+options
+.
+wantReturnValue
 &
 script
 &
