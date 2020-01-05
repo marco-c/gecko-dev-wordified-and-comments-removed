@@ -2005,6 +2005,16 @@ enabled
 False
     
 '
+dom
+.
+mozSettings
+.
+enabled
+'
+:
+True
+    
+'
 network
 .
 http

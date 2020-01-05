@@ -114,6 +114,9 @@ html
 events
 '
 '
+settings
+'
+'
 stylesheets
 '
 '
@@ -281,6 +284,9 @@ quota
 '
 '
 security
+'
+'
+settings
 '
 '
 storage
