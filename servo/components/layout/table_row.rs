@@ -3840,14 +3840,6 @@ mut
 CollapsedBordersForRow
 )
 {
-println
-!
-(
-"
-perform_inline_direction_border_collapse_for_row
-"
-)
-;
 let
 inline_collapsed_border
 =
