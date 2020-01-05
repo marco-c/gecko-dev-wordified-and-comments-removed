@@ -11860,7 +11860,7 @@ return
 createUserContextMenu
 (
 aEvent
-false
+true
 gContextMenuContentData
 .
 userContextId
