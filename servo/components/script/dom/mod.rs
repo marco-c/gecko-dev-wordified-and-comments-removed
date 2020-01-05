@@ -597,6 +597,14 @@ webglrenderbuffer
 ;
 pub
 mod
+webglactiveinfo
+;
+pub
+mod
+webglshaderprecisionformat
+;
+pub
+mod
 websocket
 ;
 pub
