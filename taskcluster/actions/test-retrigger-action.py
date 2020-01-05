@@ -68,14 +68,14 @@ title
 =
 '
 Schedule
-mochitest
+test
 retrigger
 '
     
 symbol
 =
 '
-mdr
+tr
 '
     
 description
@@ -84,7 +84,7 @@ description
 Retriggers
 the
 specified
-mochitest
+test
 job
 with
 additional
@@ -103,6 +103,18 @@ type
 :
 '
 mochitest
+'
+}
+             
+{
+'
+test
+-
+type
+'
+:
+'
+reftest
 '
 }
 ]
@@ -172,7 +184,7 @@ description
 '
 Path
 of
-mochitest
+test
 to
 retrigger
 '
@@ -516,7 +528,7 @@ path
 }
 )
 def
-mochitest_retrigger_action
+test_retrigger_action
 (
 parameters
 input
@@ -640,11 +652,47 @@ tests
 custom_mach_command
 =
 [
-        
+task
+[
 '
-mochitest
+tags
 '
+]
+[
+'
+test
+-
+type
+'
+]
+]
+    
+if
+new_task_definition
+[
+'
+payload
+'
+]
+[
+'
+env
+'
+]
+.
+get
+(
+'
+MOCHITEST_FLAVOR
+'
+)
+:
         
+custom_mach_command
++
+=
+[
+            
 '
 -
 -
@@ -654,11 +702,12 @@ open
 =
 false
 '
-        
+            
 '
 -
 f
 '
+            
 new_task_definition
 [
 '
@@ -675,7 +724,7 @@ env
 MOCHITEST_FLAVOR
 '
 ]
-    
+        
 ]
     
 enable_e10s
@@ -786,7 +835,7 @@ run
 -
 until
 -
-fail
+failure
 '
 ]
     
@@ -1005,9 +1054,9 @@ create_task
 session
 new_task_id
 '
-mochitest
+test
 -
-debug
+retrigger
 '
 new_task_definition
 )
