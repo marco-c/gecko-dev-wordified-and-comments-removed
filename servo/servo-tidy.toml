@@ -158,6 +158,15 @@ bitflags
 byteorder
 "
 "
+mio
+"
+"
+miow
+"
+"
+slab
+"
+"
 semver
 "
 ]
