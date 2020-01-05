@@ -9005,8 +9005,11 @@ fuzzy
 if
 (
 winWidget
-5
-2
+|
+|
+gtkWidget
+32
+34
 )
 fuzzy
 -
