@@ -1155,9 +1155,6 @@ className
 custom
 -
 button
-devtools
--
-button
 "
 ;
 label
