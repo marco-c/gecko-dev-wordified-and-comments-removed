@@ -661,7 +661,6 @@ SurfaceFormat
 A8
 )
 ;
-{
 mMatrixForChildren
 =
 GetClipPathTransform
@@ -831,7 +830,6 @@ PopClip
 (
 )
 ;
-}
 }
 gfxMatrix
 maskTransfrom
