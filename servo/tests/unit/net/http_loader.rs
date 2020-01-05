@@ -11793,7 +11793,15 @@ insert
 (
 url
 .
+origin
+(
+)
+.
 clone
+(
+)
+.
+ascii_serialization
 (
 )
 auth_entry
