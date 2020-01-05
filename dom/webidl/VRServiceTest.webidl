@@ -149,13 +149,6 @@ angularAcceleration
 )
 ;
 void
-setMountState
-(
-boolean
-isMounted
-)
-;
-void
 update
 (
 )

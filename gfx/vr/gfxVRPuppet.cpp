@@ -700,14 +700,6 @@ aDisplayInfo
 .
 mEyeResolution
 ;
-mDisplayInfo
-.
-mIsMounted
-=
-aDisplayInfo
-.
-mIsMounted
-;
 memcpy
 (
 &
