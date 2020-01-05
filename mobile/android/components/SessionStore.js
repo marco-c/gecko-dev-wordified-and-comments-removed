@@ -2336,6 +2336,11 @@ browser
 "
 )
 ;
+if
+(
+window
+)
+{
 let
 tab
 =
@@ -2352,6 +2357,7 @@ restoreZombieTab
 tab
 )
 ;
+}
 break
 ;
 case
