@@ -2034,6 +2034,15 @@ Gecko_GetMediaFeatures
 (
 )
 ;
+nscolor
+Gecko_GetLookAndFeelSystemColor
+(
+int32_t
+color_id
+RawGeckoPresContextBorrowed
+pres_context
+)
+;
 #
 define
 STYLE_STRUCT

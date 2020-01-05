@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 dynamic
@@ -35,7 +34,6 @@ scroll
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -52,7 +50,6 @@ hidden
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -73,7 +70,6 @@ width
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -111,7 +107,6 @@ scroll
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -149,7 +144,6 @@ auto
 1
 .
 html
-fails
 =
 =
 positioned
@@ -166,7 +160,6 @@ container
 1
 .
 html
-fails
 =
 =
 relpos
@@ -183,7 +176,6 @@ legend
 1
 .
 html
-fails
 =
 =
 relpos
@@ -200,7 +192,6 @@ legend
 2
 .
 html
-fails
 =
 =
 relpos
@@ -217,7 +208,6 @@ legend
 3
 .
 html
-fails
 =
 =
 relpos
@@ -292,7 +282,6 @@ overflow
 hidden
 .
 html
-fails
 =
 =
 legend
@@ -384,7 +373,6 @@ width
 1b
 .
 html
-fails
 =
 =
 fieldset
@@ -405,7 +393,6 @@ width
 2a
 .
 html
-fails
 =
 =
 fieldset
@@ -426,7 +413,6 @@ width
 2b
 .
 html
-fails
 =
 =
 legend

@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 fieldset
@@ -26,6 +27,7 @@ fieldset
 valid
 .
 html
+fails
 =
 =
 fieldset
@@ -38,6 +40,7 @@ fieldset
 invalid
 .
 html
+fails
 =
 =
 fieldset
@@ -58,6 +61,7 @@ invalid
 barred
 .
 html
+fails
 =
 =
 fieldset
@@ -211,6 +215,7 @@ no
 element
 .
 html
+fails
 =
 =
 fieldset
@@ -231,6 +236,7 @@ invalid
 barred
 .
 html
+fails
 =
 =
 fieldset
@@ -255,6 +261,7 @@ not
 barred
 .
 html
+fails
 =
 =
 fieldset
@@ -288,6 +295,7 @@ dynamic
 valid
 .
 html
+fails
 =
 =
 fieldset
@@ -366,6 +374,7 @@ and
 barred
 .
 html
+fails
 =
 =
 fieldset
@@ -386,6 +395,7 @@ invalid
 element
 .
 html
+fails
 =
 =
 fieldset
@@ -406,6 +416,7 @@ invalid
 barred
 .
 html
+fails
 =
 =
 fieldset
@@ -580,6 +591,7 @@ barred
 dynamic
 .
 html
+fails
 =
 =
 fieldset
@@ -596,6 +608,7 @@ nested
 invalid
 .
 html
+fails
 =
 =
 fieldset
