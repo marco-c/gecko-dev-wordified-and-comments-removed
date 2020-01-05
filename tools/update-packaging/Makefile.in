@@ -414,6 +414,12 @@ MAR
 MAR_BIN
 )
 \
+MOZ_PRODUCT_VERSION
+=
+(
+MOZ_APP_VERSION
+)
+\
 (
 srcdir
 )
@@ -475,6 +481,12 @@ MBSDIFF
 =
 (
 MBSDIFF_BIN
+)
+\
+MOZ_PRODUCT_VERSION
+=
+(
+MOZ_APP_VERSION
 )
 \
 (
