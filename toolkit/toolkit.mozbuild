@@ -1122,7 +1122,7 @@ if
 CONFIG
 [
 '
-LIBFUZZER
+FUZZING
 '
 ]
 :
@@ -1135,7 +1135,5 @@ DIRS
 tools
 /
 fuzzing
-/
-libfuzzer
 '
 ]
