@@ -1161,7 +1161,7 @@ BindingName
 bindingName
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -1262,7 +1262,7 @@ BindingName
 bindingName
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -1384,7 +1384,7 @@ MOZ_ASSERT
 data
 )
 ;
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -3016,7 +3016,7 @@ MutableHandleScope
 scope
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -3862,7 +3862,7 @@ MutableHandleScope
 scope
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -4541,7 +4541,7 @@ MutableHandleScope
 scope
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -5129,7 +5129,7 @@ XDR_DECODE
 scope
 )
 ;
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -5794,7 +5794,7 @@ MutableHandleScope
 scope
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =

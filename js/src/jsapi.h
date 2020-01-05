@@ -22499,6 +22499,16 @@ TranscodeResult_Failure_UnknownClassKind
 TranscodeResult_Failure
 |
 0x4
+TranscodeResult_Failure_WrongCompileOption
+=
+TranscodeResult_Failure
+|
+0x5
+TranscodeResult_Failure_NotInterpretedFun
+=
+TranscodeResult_Failure
+|
+0x6
 TranscodeResult_Throw
 =
 0x200

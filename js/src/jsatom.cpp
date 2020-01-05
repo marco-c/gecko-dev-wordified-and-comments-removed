@@ -3456,7 +3456,7 @@ lengthAndEncoding
 &
 0x1
 ;
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -3600,11 +3600,6 @@ else
 chars
 =
 cx
--
->
-runtime
-(
-)
 -
 >
 pod_malloc

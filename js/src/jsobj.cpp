@@ -6532,7 +6532,7 @@ static
 bool
 GetScriptArrayObjectElements
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObject
@@ -6663,7 +6663,7 @@ static
 bool
 GetScriptPlainObjectProperties
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObject
@@ -8010,7 +8010,7 @@ MutableHandleObject
 obj
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -8019,6 +8019,12 @@ xdr
 >
 cx
 (
+)
+;
+assertSameCompartment
+(
+cx
+obj
 )
 ;
 MOZ_ASSERT_IF
