@@ -235,6 +235,8 @@ CFG_RUSTC_FLAGS
 export
 CFG_LOCAL_RUSTC
 export
+CFG_ENABLE_DEBUG
+export
 RUSTC
 =
 (

@@ -71,12 +71,6 @@ arc
 :
 ARC
 ;
-use
-std
-:
-:
-arc
-;
 pub
 struct
 DisplayList

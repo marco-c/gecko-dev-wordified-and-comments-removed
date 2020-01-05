@@ -129,8 +129,8 @@ LayoutMainCategory
 LayoutShapingCategory
 LayoutDispListBuildCategory
 GfxRegenAvailableFontsCategory
+RenderingDrawingCategory
 RenderingPrepBuffCategory
-RenderingWaitSubtasksCategory
 RenderingCategory
 NUM_BUCKETS
 }
@@ -392,7 +392,7 @@ vec
 push
 (
 (
-RenderingPrepBuffCategory
+RenderingDrawingCategory
 ~
 [
 ]
@@ -404,7 +404,7 @@ vec
 push
 (
 (
-RenderingWaitSubtasksCategory
+RenderingPrepBuffCategory
 ~
 [
 ]
