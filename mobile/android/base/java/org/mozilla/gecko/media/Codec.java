@@ -988,7 +988,7 @@ output
 }
 catch
 (
-RemoteException
+Exception
 e
 )
 {
