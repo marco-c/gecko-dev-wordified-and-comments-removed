@@ -33,6 +33,17 @@ globals
 "
 warn
 "
+"
+no
+-
+unsafe
+-
+negation
+"
+:
+"
+error
+"
 }
 "
 env
