@@ -67,14 +67,6 @@ link_args
 [
 feature
 (
-negate_unsigned
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
