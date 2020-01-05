@@ -161,6 +161,8 @@ gperf
 g
 +
 +
+automake
+cmake
 On
 Fedora
 Core
