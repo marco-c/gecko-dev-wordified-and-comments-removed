@@ -4017,10 +4017,7 @@ Pipeline
 with_script
 (
 next_pipeline_id
-Some
-(
 subpage_id
-)
 self
 .
 chan

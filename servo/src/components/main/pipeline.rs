@@ -233,10 +233,7 @@ id
 PipelineId
 subpage_id
 :
-Option
-<
 SubpageId
->
 constellation_chan
 :
 ConstellationChan
@@ -322,7 +319,10 @@ pipeline_id
 id
 subpage_id
 :
+Some
+(
 subpage_id
+)
 }
 ;
 RenderTask
@@ -405,7 +405,7 @@ new_layout_info
 =
 NewLayoutInfo
 {
-old_id
+old_pipeline_id
 :
 script_pipeline
 .
@@ -414,9 +414,12 @@ id
 clone
 (
 )
-new_id
+new_pipeline_id
 :
 id
+subpage_id
+:
+subpage_id
 layout_chan
 :
 layout_chan
@@ -453,7 +456,10 @@ Pipeline
 new
 (
 id
+Some
+(
 subpage_id
+)
 script_pipeline
 .
 script_chan
