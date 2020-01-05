@@ -838,6 +838,9 @@ debugTrapFarJumps_
 FuncArgTypesVector
 debugFuncArgTypes_
 ;
+FuncReturnTypesVector
+debugFuncReturnTypes_
+;
 bool
 parallel_
 ;

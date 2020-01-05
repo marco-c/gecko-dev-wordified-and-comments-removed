@@ -562,6 +562,13 @@ debugFrame
 (
 )
 ;
+frame
+-
+>
+updateReturnJSValue
+(
+)
+;
 bool
 ok
 =
@@ -855,6 +862,13 @@ frame
 iter
 .
 debugFrame
+(
+)
+;
+frame
+-
+>
+clearReturnJSValue
 (
 )
 ;

@@ -2287,7 +2287,14 @@ isWasmDebugFrame
 )
 )
 return
-UndefinedHandleValue
+asWasmDebugFrame
+(
+)
+-
+>
+returnValue
+(
+)
 ;
 return
 asBaselineFrame
