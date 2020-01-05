@@ -117,6 +117,7 @@ JSTraceable
 Copy
 Clone
 HeapSizeOf
+PartialEq
 )
 ]
 pub
@@ -791,6 +792,19 @@ selection_begin
 .
 is_none
 (
+)
+|
+|
+self
+.
+selection_begin
+=
+=
+Some
+(
+self
+.
+edit_point
 )
 {
 self
