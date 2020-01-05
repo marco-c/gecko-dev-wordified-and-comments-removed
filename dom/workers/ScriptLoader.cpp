@@ -672,7 +672,7 @@ aIsMainScript
 WorkerScriptType
 aWorkerScriptType
 nsContentPolicyType
-aContentPolicyType
+aMainScriptContentPolicyType
 nsLoadFlags
 aLoadFlags
 bool
@@ -887,6 +887,18 @@ nsILoadInfo
 SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 ;
 }
+nsContentPolicyType
+contentPolicyType
+=
+aIsMainScript
+?
+aMainScriptContentPolicyType
+:
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
+;
 nsCOMPtr
 <
 nsIChannel
@@ -920,7 +932,7 @@ channel
 uri
 parentDoc
 secFlags
-aContentPolicyType
+contentPolicyType
 loadGroup
 nullptr
 aLoadFlags
@@ -955,7 +967,7 @@ channel
 uri
 principal
 secFlags
-aContentPolicyType
+contentPolicyType
 loadGroup
 nullptr
 aLoadFlags
@@ -8984,7 +8996,7 @@ nsAString
 &
 aScriptURL
 nsContentPolicyType
-aContentPolicyType
+aMainScriptContentPolicyType
 bool
 aDefaultURIEncoding
 nsIChannel
@@ -9044,7 +9056,7 @@ secMan
 aScriptURL
 true
 WorkerScript
-aContentPolicyType
+aMainScriptContentPolicyType
 nsIRequest
 :
 :
