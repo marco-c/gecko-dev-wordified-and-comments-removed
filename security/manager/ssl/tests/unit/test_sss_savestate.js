@@ -96,10 +96,10 @@ stateFileContents
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 .
 slice
@@ -138,10 +138,10 @@ line
 .
 split
 (
-'
+"
 \
 t
-'
+"
 )
 ;
 let
@@ -178,8 +178,8 @@ parts
 .
 split
 (
-'
-'
+"
+"
 )
 ;
 let

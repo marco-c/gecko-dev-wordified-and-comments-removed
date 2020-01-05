@@ -148,8 +148,8 @@ length
 var
 derString
 =
-'
-'
+"
+"
 ;
 for
 (
@@ -214,8 +214,8 @@ length
 var
 pkcs7String
 =
-'
-'
+"
+"
 ;
 for
 (
@@ -710,8 +710,8 @@ return
 var
 content
 =
-'
-'
+"
+"
 ;
 switch
 (

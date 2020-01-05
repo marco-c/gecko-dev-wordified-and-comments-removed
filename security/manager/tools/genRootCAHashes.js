@@ -870,8 +870,8 @@ replace
 :
 /
 g
-'
-'
+"
+"
 )
 ;
 }
@@ -1174,8 +1174,8 @@ stringify
 (
 gTrustAnchors
 null
-'
-'
+"
+"
 )
 ;
 fos
