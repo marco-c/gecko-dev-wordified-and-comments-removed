@@ -306,6 +306,15 @@ webaudio
 js
 '
 '
+webextension
+-
+inspected
+-
+window
+.
+js
+'
+'
 webgl
 .
 js
