@@ -88,6 +88,9 @@ enabled
 interface
 BluetoothRemoteGATTDescriptor
 {
+[
+SameObject
+]
 readonly
 attribute
 BluetoothRemoteGATTCharacteristic

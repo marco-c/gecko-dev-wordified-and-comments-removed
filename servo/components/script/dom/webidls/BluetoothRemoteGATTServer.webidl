@@ -88,6 +88,9 @@ enabled
 interface
 BluetoothRemoteGATTServer
 {
+[
+SameObject
+]
 readonly
 attribute
 BluetoothDevice

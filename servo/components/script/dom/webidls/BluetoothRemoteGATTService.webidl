@@ -90,6 +90,9 @@ BluetoothRemoteGATTService
 :
 EventTarget
 {
+[
+SameObject
+]
 readonly
 attribute
 BluetoothDevice
