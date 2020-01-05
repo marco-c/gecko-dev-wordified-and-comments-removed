@@ -1178,6 +1178,16 @@ finish
 )
 ;
 }
+else
+{
+actionBarPresenter
+.
+update
+(
+tab
+)
+;
+}
 }
 super
 .
