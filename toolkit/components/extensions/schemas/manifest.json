@@ -838,12 +838,6 @@ optional
 "
 :
 true
-"
-default
-"
-:
-[
-]
 }
 "
 web_accessible_resources
