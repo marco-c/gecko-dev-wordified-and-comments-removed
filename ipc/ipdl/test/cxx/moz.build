@@ -132,6 +132,11 @@ TestActorPunning
 cpp
 '
 '
+TestAsyncReturns
+.
+cpp
+'
+'
 TestBadActor
 .
 cpp
@@ -344,6 +349,11 @@ ipdl
 '
 '
 PTestActorPunningSub
+.
+ipdl
+'
+'
+PTestAsyncReturns
 .
 ipdl
 '
