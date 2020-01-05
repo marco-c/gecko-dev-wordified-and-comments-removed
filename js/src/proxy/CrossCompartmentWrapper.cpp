@@ -3164,7 +3164,7 @@ if
 wcompartment
 -
 >
-putWrapperMaybeUpdate
+putWrapper
 (
 cx
 CrossCompartmentKey
@@ -3178,12 +3178,10 @@ wobj
 )
 )
 )
-{
 MOZ_CRASH
 (
 )
 ;
-}
 }
 JS_FRIEND_API
 (
