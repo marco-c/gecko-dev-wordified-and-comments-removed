@@ -5707,7 +5707,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 brElem
 =
@@ -5729,12 +5729,10 @@ mTextEditor
 SetAttribute
 (
 brElem
-NS_LITERAL_STRING
-(
-"
+nsGkAtoms
+:
+:
 type
-"
-)
 NS_LITERAL_STRING
 (
 "
