@@ -277,6 +277,7 @@ mResult
 bool
 mConsumed
 ;
+explicit
 MSGResult
 (
 LRESULT

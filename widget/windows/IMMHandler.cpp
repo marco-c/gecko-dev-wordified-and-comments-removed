@@ -191,6 +191,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetIMEGeneralPropertyName
 (
 DWORD
@@ -352,6 +353,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetIMEUIPropertyName
 (
 DWORD
@@ -450,6 +452,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetWritingModeName
 (
 const
@@ -528,6 +531,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetReconvertStringLog
 (
 RECONVERTSTRING

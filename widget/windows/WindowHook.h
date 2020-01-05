@@ -240,6 +240,7 @@ rhs
 )
 ;
 }
+explicit
 operator
 bool
 (

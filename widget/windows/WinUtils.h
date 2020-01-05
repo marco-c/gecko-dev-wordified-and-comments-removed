@@ -1740,6 +1740,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+explicit
 AsyncDeleteIconFromDisk
 (
 const
@@ -1771,6 +1772,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+explicit
 AsyncDeleteAllFaviconsFromDisk
 (
 bool

@@ -57,6 +57,7 @@ IDropSource
 {
 public
 :
+explicit
 nsNativeDragSource
 (
 nsIDOMDataTransfer

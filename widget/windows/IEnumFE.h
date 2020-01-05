@@ -235,6 +235,7 @@ IEnumFORMATETC
 {
 public
 :
+explicit
 CEnumFormatEtc
 (
 nsTArray

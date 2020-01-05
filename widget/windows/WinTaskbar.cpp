@@ -584,6 +584,7 @@ mWnd
 ;
 public
 :
+explicit
 DefaultController
 (
 HWND

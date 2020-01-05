@@ -408,6 +408,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetACPFromPointFlagName
 (
 DWORD
@@ -2845,6 +2846,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetWritingModeName
 (
 const
@@ -3045,6 +3047,7 @@ InputScopeImpl
 }
 public
 :
+explicit
 InputScopeImpl
 (
 const

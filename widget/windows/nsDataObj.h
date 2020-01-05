@@ -277,6 +277,7 @@ mIOThread
 ;
 public
 :
+explicit
 nsDataObj
 (
 nsIURI
