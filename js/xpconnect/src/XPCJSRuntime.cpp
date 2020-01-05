@@ -3459,13 +3459,6 @@ state
 "
 )
 ;
-XPCWrappedNativeScope
-:
-:
-KillDyingScopes
-(
-)
-;
 MOZ_ASSERT
 (
 self
@@ -3492,6 +3485,13 @@ case
 JSFINALIZE_GROUP_END
 :
 {
+XPCWrappedNativeScope
+:
+:
+KillDyingScopes
+(
+)
+;
 MOZ_ASSERT
 (
 self
@@ -3765,7 +3765,7 @@ UpdateWeakPointersAfterGC
 XPCWrappedNativeScope
 :
 :
-UpdateWeakPointersAfterGC
+UpdateWeakPointersInAllScopesAfterGC
 (
 )
 ;
