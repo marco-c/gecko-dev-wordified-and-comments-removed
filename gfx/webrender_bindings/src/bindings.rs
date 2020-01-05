@@ -154,6 +154,11 @@ WrEpoch
 Epoch
 ;
 type
+WrExternalImageId
+=
+ExternalImageId
+;
+type
 WrFontKey
 =
 FontKey
@@ -2090,7 +2095,7 @@ C
 )
 ]
 struct
-WrExternalImageStruct
+WrExternalImage
 {
 image_type
 :
@@ -2127,11 +2132,11 @@ fn
 *
 mut
 c_void
-ExternalImageId
+WrExternalImageId
 )
 -
 >
-WrExternalImageStruct
+WrExternalImage
 ;
 type
 UnlockExternalImageCallback
@@ -2141,7 +2146,7 @@ fn
 *
 mut
 c_void
-ExternalImageId
+WrExternalImageId
 )
 ;
 type
@@ -2152,7 +2157,7 @@ fn
 *
 mut
 c_void
-ExternalImageId
+WrExternalImageId
 )
 ;
 #
@@ -2194,7 +2199,7 @@ mut
 self
 id
 :
-ExternalImageId
+WrExternalImageId
 )
 -
 >
@@ -2326,7 +2331,7 @@ mut
 self
 id
 :
-ExternalImageId
+WrExternalImageId
 )
 {
 (
@@ -2350,7 +2355,7 @@ mut
 self
 id
 :
-ExternalImageId
+WrExternalImageId
 )
 {
 (
@@ -4911,10 +4916,10 @@ api
 :
 &
 mut
-RenderApi
+WrAPI
 key
 :
-FontKey
+WrFontKey
 )
 {
 assert
