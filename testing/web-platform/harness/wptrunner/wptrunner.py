@@ -26,6 +26,12 @@ from
 testrunner
 import
 ManagerGroup
+from
+browsers
+.
+base
+import
+NullBrowser
 here
 =
 os
@@ -706,7 +712,7 @@ test_paths
 (
 check_args
          
-browser_cls
+target_browser_cls
 get_browser_kwargs
          
 executor_classes
@@ -1096,6 +1102,26 @@ tests
 %
 test_type
 )
+                    
+if
+test_type
+=
+=
+"
+wdspec
+"
+:
+                        
+browser_cls
+=
+NullBrowser
+                    
+else
+:
+                        
+browser_cls
+=
+target_browser_cls
                     
 for
 test
