@@ -367,3 +367,8 @@ mod
 vec
 ;
 }
+use
+gfx_font
+=
+font
+;
