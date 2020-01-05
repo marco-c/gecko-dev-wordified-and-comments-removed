@@ -1192,6 +1192,12 @@ sm
 -
 msan
 '
+        
+'
+sm
+-
+fuzzing
+'
     
 ]
 }
