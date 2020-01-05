@@ -40,6 +40,7 @@ dom
 :
 :
 {
+DirtyDescendants
 NodeInfo
 TElement
 TNode
@@ -1390,7 +1391,12 @@ unsafe
 {
 element
 .
-set_dirty_descendants
+note_descendants
+:
+:
+<
+DirtyDescendants
+>
 (
 )
 }
