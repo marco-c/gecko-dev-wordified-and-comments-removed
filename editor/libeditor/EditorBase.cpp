@@ -7325,16 +7325,7 @@ NotificationForEditorObservers
 aNotification
 )
 {
-nsTArray
-<
-mozilla
-:
-:
-OwningNonNull
-<
-nsIEditorObserver
->
->
+AutoEditorObserverArray
 observers
 (
 mEditorObservers
