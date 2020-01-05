@@ -8958,6 +8958,7 @@ firstMonitorStub_
 }
 ;
 static
+inline
 uint32_t
 SimpleTypeDescrKey
 (
