@@ -366,6 +366,13 @@ load_data
 .
 url
 ;
+let
+context
+=
+load_data
+.
+context
+;
 assert
 !
 (
@@ -513,6 +520,7 @@ metadata
 classifier
 &
 buf
+context
 )
 ;
 progress_chan
@@ -646,6 +654,7 @@ classifier
 &
 [
 ]
+context
 )
 {
 let
@@ -721,6 +730,7 @@ LoadData
 :
 new
 (
+context
 url
 None
 )

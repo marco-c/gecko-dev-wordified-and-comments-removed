@@ -297,6 +297,10 @@ log
 ;
 extern
 crate
+mime
+;
+extern
+crate
 msg
 ;
 extern

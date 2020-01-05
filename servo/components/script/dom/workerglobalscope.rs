@@ -227,6 +227,7 @@ net_traits
 :
 :
 {
+LoadContext
 ResourceTask
 load_whole_resource
 }
@@ -1240,6 +1241,10 @@ source
 match
 load_whole_resource
 (
+LoadContext
+:
+:
+Script
 &
 self
 .

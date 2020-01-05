@@ -113,6 +113,15 @@ enabled
 :
 false
 "
+net
+.
+mime
+.
+sniff
+"
+:
+false
+"
 shell
 .
 homepage

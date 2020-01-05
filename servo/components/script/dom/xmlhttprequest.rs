@@ -547,6 +547,7 @@ net_traits
 :
 {
 LoadConsumer
+LoadContext
 LoadData
 ResourceCORSData
 ResourceTask
@@ -4192,6 +4193,10 @@ LoadData
 :
 new
 (
+LoadContext
+:
+:
+Browsing
 self
 .
 request_url
