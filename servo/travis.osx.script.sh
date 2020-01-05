@@ -5,6 +5,10 @@ build
 /
 configure
 make
+tidy
+&
+&
+make
 -
 j2
 &
