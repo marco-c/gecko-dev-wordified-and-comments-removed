@@ -166,6 +166,9 @@ sSupportedRelValues
 "
 noreferrer
 "
+"
+noopener
+"
 nullptr
 }
 ;
