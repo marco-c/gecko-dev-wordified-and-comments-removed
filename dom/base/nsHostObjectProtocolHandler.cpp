@@ -2184,14 +2184,11 @@ NS_TIMER_CONTRACTID
 ;
 if
 (
-NS_WARN_IF
-(
 !
 holder
 -
 >
 mTimer
-)
 )
 {
 return
