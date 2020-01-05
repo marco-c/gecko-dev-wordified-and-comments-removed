@@ -8818,11 +8818,7 @@ into
 )
 vertical
 :
-nocalc
-.
-into
-(
-)
+None
 }
 )
 }

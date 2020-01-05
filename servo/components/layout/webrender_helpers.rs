@@ -1518,7 +1518,9 @@ HueRotate
 (
 angle
 .
-0
+radians
+(
+)
 )
 )
 Filter

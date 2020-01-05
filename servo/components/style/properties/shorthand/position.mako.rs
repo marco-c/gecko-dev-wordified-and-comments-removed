@@ -561,6 +561,9 @@ Longhands
 flex_grow
 :
 Number
+:
+:
+new
 (
 0
 .
@@ -569,6 +572,9 @@ Number
 flex_shrink
 :
 Number
+:
+:
+new
 (
 0
 .
@@ -756,6 +762,9 @@ grow
 unwrap_or
 (
 Number
+:
+:
+new
 (
 1
 .
@@ -769,6 +778,9 @@ shrink
 unwrap_or
 (
 Number
+:
+:
+new
 (
 1
 .
