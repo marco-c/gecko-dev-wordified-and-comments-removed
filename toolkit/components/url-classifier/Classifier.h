@@ -637,6 +637,9 @@ mHashKey
 TableFreshnessMap
 mTableFreshness
 ;
+TableFreshnessMap
+mNewTableFreshness
+;
 nsCString
 mTableRequestResult
 ;
