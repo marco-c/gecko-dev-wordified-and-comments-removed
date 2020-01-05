@@ -238,15 +238,6 @@ quantum_render
 webrender_bindings
 "
 ]
-gecko_debug
-=
-[
-"
-geckoservo
-/
-gecko_debug
-"
-]
 [
 lib
 ]

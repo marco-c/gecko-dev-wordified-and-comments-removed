@@ -80,17 +80,6 @@ shared
 quantum_render
 "
 ]
-gecko_debug
-=
-[
-"
-gkrust
--
-shared
-/
-gecko_debug
-"
-]
 [
 dependencies
 ]
