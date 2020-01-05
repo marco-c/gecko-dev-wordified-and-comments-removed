@@ -22103,6 +22103,8 @@ nsGlobalWindow
 :
 GetInnerWidth
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22139,6 +22141,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22153,6 +22157,7 @@ nsGlobalWindow
 :
 GetInnerWidth
 aValue
+aCallerType
 aError
 )
 ;
@@ -22185,6 +22190,10 @@ aInnerWidth
 =
 GetInnerWidth
 (
+CallerType
+:
+:
+NonSystem
 rv
 )
 ;
@@ -22414,6 +22423,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22475,6 +22486,8 @@ nsGlobalWindow
 :
 GetInnerHeight
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22511,6 +22524,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22525,6 +22540,7 @@ nsGlobalWindow
 :
 GetInnerHeight
 aValue
+aCallerType
 aError
 )
 ;
@@ -22557,6 +22573,10 @@ aInnerHeight
 =
 GetInnerHeight
 (
+CallerType
+:
+:
+NonSystem
 rv
 )
 ;
@@ -22795,6 +22815,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22822,6 +22844,8 @@ nsGlobalWindow
 :
 GetOuterSize
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22839,9 +22863,9 @@ if
 nsContentUtils
 :
 :
-ShouldResistFingerprinting
+ResistFingerprinting
 (
-mDocShell
+aCallerType
 )
 )
 {
@@ -22974,6 +22998,8 @@ nsGlobalWindow
 :
 GetOuterWidthOuter
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -22989,6 +23015,7 @@ IsOuterWindow
 return
 GetOuterSize
 (
+aCallerType
 aError
 )
 .
@@ -23001,6 +23028,8 @@ nsGlobalWindow
 :
 GetOuterWidth
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23010,6 +23039,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetOuterWidthOuter
 (
+aCallerType
 aError
 )
 aError
@@ -23037,6 +23067,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23051,6 +23083,7 @@ nsGlobalWindow
 :
 GetOuterWidth
 aValue
+aCallerType
 aError
 )
 ;
@@ -23061,6 +23094,8 @@ nsGlobalWindow
 :
 GetOuterHeightOuter
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23076,6 +23111,7 @@ IsOuterWindow
 return
 GetOuterSize
 (
+aCallerType
 aError
 )
 .
@@ -23088,6 +23124,8 @@ nsGlobalWindow
 :
 GetOuterHeight
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23097,6 +23135,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetOuterHeightOuter
 (
+aCallerType
 aError
 )
 aError
@@ -23124,6 +23163,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23138,6 +23179,7 @@ nsGlobalWindow
 :
 GetOuterHeight
 aValue
+aCallerType
 aError
 )
 ;
@@ -23361,6 +23403,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23463,6 +23507,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23753,6 +23799,8 @@ nsGlobalWindow
 :
 GetScreenX
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23789,6 +23837,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -23803,6 +23853,7 @@ nsGlobalWindow
 :
 GetScreenX
 aValue
+aCallerType
 aError
 )
 ;
@@ -24657,6 +24708,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -24711,6 +24764,8 @@ nsGlobalWindow
 :
 GetScreenY
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -24747,6 +24802,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -24761,6 +24818,7 @@ nsGlobalWindow
 :
 GetScreenY
 aValue
+aCallerType
 aError
 )
 ;
@@ -24923,6 +24981,8 @@ JS
 Value
 >
 aValue
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -59799,6 +59859,8 @@ JS
 Value
 >
 aRetval
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -59822,6 +59884,7 @@ this
 aGetter
 )
 (
+aCallerType
 aError
 )
 ;

@@ -1620,6 +1620,7 @@ innerHeight
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 any
@@ -1627,6 +1628,7 @@ innerWidth
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 any
@@ -1955,6 +1957,7 @@ outerHeight
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 any
@@ -1962,6 +1965,7 @@ screenX
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 any
@@ -1969,6 +1973,7 @@ screenY
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 any
@@ -1976,6 +1981,7 @@ outerWidth
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 any
