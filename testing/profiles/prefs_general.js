@@ -3250,15 +3250,3 @@ rememberSignons
 false
 )
 ;
-user_pref
-(
-"
-browser
-.
-formautofill
-.
-experimental
-"
-true
-)
-;
