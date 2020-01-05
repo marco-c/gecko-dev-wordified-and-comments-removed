@@ -5547,6 +5547,14 @@ syncStatus
 )
 VALUES
 (
+CASE
+WHEN
+:
+url
+ISNULL
+THEN
+NULL
+ELSE
 (
 SELECT
 id
@@ -5566,6 +5574,7 @@ url
 :
 url
 )
+END
 :
 type
 :
@@ -5603,9 +5612,7 @@ url
 .
 href
 :
-"
-nonexistent
-"
+null
 type
 :
 item
