@@ -566,11 +566,7 @@ block_flow
 .
 base
 .
-position
-.
-size
-.
-inline
+block_container_inline_size
 ;
 let
 inline_size_computer

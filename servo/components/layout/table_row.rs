@@ -1136,11 +1136,7 @@ block_flow
 .
 base
 .
-position
-.
-size
-.
-inline
+block_container_inline_size
 ;
 let
 inline_start_content_edge
