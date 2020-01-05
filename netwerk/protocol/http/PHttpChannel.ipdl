@@ -729,6 +729,8 @@ int16_t
 redirectCount
 uint32_t
 cacheKey
+nsCString
+altDataType
 )
 ;
 /

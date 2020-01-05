@@ -2409,6 +2409,9 @@ mOnStartRequestCalled
 bool
 mOnStopRequestCalled
 ;
+bool
+mAfterOnStartRequestBegun
+;
 uint64_t
 mTransferSize
 ;
@@ -2443,6 +2446,12 @@ nsCOMPtr
 nsIConsoleReportCollector
 >
 mReportCollector
+;
+nsCString
+mPreferredCachedAltDataType
+;
+nsCString
+mAvailableCachedAltDataType
 ;
 bool
 mForceMainDocumentChannel

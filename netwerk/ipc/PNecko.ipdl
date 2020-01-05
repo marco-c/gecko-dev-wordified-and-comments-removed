@@ -213,6 +213,10 @@ NeckoChannelParams
 include
 PBrowserOrId
 ;
+include
+protocol
+PAltDataOutputStream
+;
 using
 class
 IPC
@@ -399,6 +403,9 @@ PChannelDiverter
 ;
 manages
 PTransportProvider
+;
+manages
+PAltDataOutputStream
 ;
 parent
 :
@@ -696,6 +703,15 @@ RemoveRequestContext
 (
 nsCString
 rcid
+)
+;
+async
+PAltDataOutputStream
+(
+nsCString
+type
+PHttpChannel
+channel
 )
 ;
 child

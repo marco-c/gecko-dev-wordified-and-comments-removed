@@ -1822,6 +1822,12 @@ nsICacheEntry
 >
 mCacheEntry
 ;
+nsCOMPtr
+<
+nsICacheEntry
+>
+mAltDataCacheEntry
+;
 AutoClose
 <
 nsIInputStream
