@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLPictureElement
 :

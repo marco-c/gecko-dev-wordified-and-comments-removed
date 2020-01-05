@@ -174,6 +174,9 @@ document
 .
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLElement
 :

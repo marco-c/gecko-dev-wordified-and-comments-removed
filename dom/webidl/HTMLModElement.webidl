@@ -205,6 +205,9 @@ and
 del
 -
 elements
+[
+HTMLConstructor
+]
 interface
 HTMLModElement
 :

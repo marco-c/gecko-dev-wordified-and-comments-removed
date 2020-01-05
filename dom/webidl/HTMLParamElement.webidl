@@ -221,6 +221,9 @@ the
 param
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLParamElement
 :

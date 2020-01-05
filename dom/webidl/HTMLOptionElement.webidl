@@ -163,6 +163,7 @@ document
 *
 /
 [
+HTMLConstructor
 NamedConstructor
 =
 Option

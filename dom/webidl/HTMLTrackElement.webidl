@@ -127,6 +127,9 @@ track
 element
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLTrackElement
 :

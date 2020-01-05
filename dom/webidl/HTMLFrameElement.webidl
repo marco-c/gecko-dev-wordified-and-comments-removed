@@ -181,6 +181,9 @@ work
 /
 #
 htmlframeelement
+[
+HTMLConstructor
+]
 interface
 HTMLFrameElement
 :

@@ -221,6 +221,9 @@ the
 dl
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLDListElement
 :

@@ -162,6 +162,9 @@ document
 .
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLFieldSetElement
 :

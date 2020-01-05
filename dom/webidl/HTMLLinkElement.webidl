@@ -220,6 +220,9 @@ the
 link
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLLinkElement
 :

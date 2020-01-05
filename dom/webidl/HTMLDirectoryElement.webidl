@@ -198,6 +198,9 @@ attributes
 and
 -
 apis
+[
+HTMLConstructor
+]
 interface
 HTMLDirectoryElement
 :

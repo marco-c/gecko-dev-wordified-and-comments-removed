@@ -220,6 +220,9 @@ the
 a
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLAnchorElement
 :
