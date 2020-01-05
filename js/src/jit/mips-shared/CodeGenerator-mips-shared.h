@@ -685,6 +685,15 @@ ins
 ;
 virtual
 void
+visitAddI64
+(
+LAddI64
+*
+ins
+)
+;
+virtual
+void
 visitSubI
 (
 LSubI
