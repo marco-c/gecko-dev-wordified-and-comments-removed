@@ -12317,6 +12317,11 @@ rejoin
 ;
 #
 else
+(
+void
+)
+isUnsigned
+;
 MOZ_CRASH
 (
 "
