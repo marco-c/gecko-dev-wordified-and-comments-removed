@@ -178,6 +178,14 @@ extern
 crate
 util
 ;
+#
+[
+macro_use
+]
+extern
+crate
+style_traits
+;
 mod
 custom_properties
 ;

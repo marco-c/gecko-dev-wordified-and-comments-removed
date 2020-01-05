@@ -379,7 +379,7 @@ channel
 }
 ;
 use
-style
+style_traits
 :
 :
 viewport

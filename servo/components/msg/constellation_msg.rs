@@ -114,7 +114,7 @@ Receiver
 }
 ;
 use
-style
+style_traits
 :
 :
 viewport

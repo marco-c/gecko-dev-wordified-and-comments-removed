@@ -418,7 +418,7 @@ mpsc
 Sender
 ;
 use
-style
+style_traits
 :
 :
 viewport

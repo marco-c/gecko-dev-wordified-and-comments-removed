@@ -74,7 +74,7 @@ url
 ;
 extern
 crate
-style
+style_traits
 ;
 #
 [
