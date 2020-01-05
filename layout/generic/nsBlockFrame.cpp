@@ -19717,9 +19717,10 @@ Stop
 StyleClear
 breakType
 =
-NS_INLINE_GET_BREAK_TYPE
-(
 frameReflowStatus
+.
+BreakType
+(
 )
 ;
 MOZ_ASSERT
