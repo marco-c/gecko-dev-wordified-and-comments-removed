@@ -6487,6 +6487,9 @@ spacing
 types
 :
 [
+'
+lengthPercentageOrCalc
+'
 ]
 }
 '
