@@ -324,6 +324,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProcessHangMonitor
 .
 h
@@ -763,13 +772,6 @@ h
 include
 "
 nsContentPermissionHelper
-.
-h
-"
-#
-include
-"
-nsPresShell
 .
 h
 "
@@ -9281,7 +9283,7 @@ nsString
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unused
@@ -9340,7 +9342,7 @@ nsString
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unused
@@ -9399,7 +9401,7 @@ int16_t
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unused

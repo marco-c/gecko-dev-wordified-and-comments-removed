@@ -4426,6 +4426,16 @@ HasTransformAnimation
 )
 const
 ;
+StyleAnimationValue
+GetBaseAnimationStyle
+(
+)
+const
+{
+return
+mBaseAnimationStyle
+;
+}
 gfx
 :
 :
@@ -5727,6 +5737,9 @@ mExtraDumpInfo
 endif
 nsCString
 mDisplayListLog
+;
+StyleAnimationValue
+mBaseAnimationStyle
 ;
 }
 ;

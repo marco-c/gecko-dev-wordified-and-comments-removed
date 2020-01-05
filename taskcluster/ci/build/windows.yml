@@ -94,7 +94,7 @@ config
 -
 builds
 /
-taskcluster_firefox_win32_debug
+taskcluster_firefox_windows_32_debug
 .
 py
 win32
@@ -193,7 +193,7 @@ config
 -
 builds
 /
-taskcluster_firefox_win32_opt
+taskcluster_firefox_windows_32_opt
 .
 py
 win32
@@ -300,7 +300,7 @@ config
 -
 builds
 /
-taskcluster_firefox_win32_opt
+taskcluster_firefox_windows_32_opt
 .
 py
 win64
@@ -399,7 +399,7 @@ config
 -
 builds
 /
-taskcluster_firefox_win64_debug
+taskcluster_firefox_windows_64_debug
 .
 py
 win64
@@ -498,7 +498,7 @@ config
 -
 builds
 /
-taskcluster_firefox_win64_opt
+taskcluster_firefox_windows_64_opt
 .
 py
 win64
@@ -605,7 +605,7 @@ config
 -
 builds
 /
-taskcluster_firefox_win64_opt
+taskcluster_firefox_windows_64_opt
 .
 py
 win64
