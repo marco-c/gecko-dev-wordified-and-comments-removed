@@ -806,9 +806,13 @@ TOOLTOOL_CACHE
 :
 '
 /
-builds
+home
 /
-tooltool_cache
+worker
+/
+tooltool
+-
+cache
 '
         
 '
