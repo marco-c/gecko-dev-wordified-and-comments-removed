@@ -1059,7 +1059,7 @@ servo
 DEPS_servo
 )
 (
-CFG_RUSTC
+RUSTC
 )
 (
 RFLAGS_servo

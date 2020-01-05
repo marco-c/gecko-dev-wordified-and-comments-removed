@@ -248,6 +248,7 @@ val
 ;
 }
 }
+pub
 fn
 init
 (
@@ -343,6 +344,8 @@ vec
 :
 push
 (
+&
+mut
 compartment
 .
 global_props
@@ -567,6 +570,8 @@ vec
 :
 push
 (
+&
+mut
 compartment
 .
 global_props
@@ -1185,6 +1190,7 @@ return
 1
 ;
 }
+pub
 fn
 create
 (

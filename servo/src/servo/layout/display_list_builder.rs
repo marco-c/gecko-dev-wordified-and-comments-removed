@@ -239,6 +239,7 @@ c
 .
 *
 /
+pub
 struct
 DisplayListBuilder
 {

@@ -460,6 +460,8 @@ vec
 :
 shift
 (
+&
+mut
 self
 .
 buffer
@@ -520,6 +522,8 @@ vec
 :
 shift
 (
+&
+mut
 self
 .
 buffer
@@ -557,6 +561,7 @@ u8
 assert
 is_none
 (
+&
 self
 .
 lookahead
@@ -718,6 +723,8 @@ is_alpha
 {
 push
 (
+&
+mut
 result
 c
 )

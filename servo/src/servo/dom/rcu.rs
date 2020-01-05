@@ -603,18 +603,6 @@ vec
 :
 push
 ;
-export
-Handle
-;
-export
-ReaderMethods
-;
-export
-WriterMethods
-;
-export
-Scope
-;
 type
 ScopeData
 <
@@ -722,6 +710,7 @@ d
 d
 }
 }
+pub
 type
 Scope
 <
@@ -773,6 +762,7 @@ A
 >
 }
 ;
+pub
 enum
 Handle
 <
@@ -1171,8 +1161,9 @@ read_aux
 ptr
 :
 :
-addr_of
+to_unsafe_ptr
 (
+&
 *
 p
 )
@@ -1539,6 +1530,7 @@ null
 )
 )
 }
+pub
 fn
 Scope
 <
@@ -2043,8 +2035,9 @@ clone
 ptr
 :
 :
-addr_of
+to_unsafe_ptr
 (
+&
 v
 )
 )
@@ -2105,6 +2098,8 @@ d
 ;
 push
 (
+&
+mut
 self
 .
 d

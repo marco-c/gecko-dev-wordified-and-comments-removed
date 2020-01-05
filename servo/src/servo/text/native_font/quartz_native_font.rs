@@ -84,12 +84,14 @@ CFRelease
 mod
 coretext
 {
+pub
 type
 CTFontRef
 =
 *
 u8
 ;
+pub
 type
 UniChar
 =
@@ -98,6 +100,7 @@ libc
 :
 c_ushort
 ;
+pub
 type
 CGGlyph
 =
@@ -106,6 +109,7 @@ libc
 :
 c_ushort
 ;
+pub
 type
 CFIndex
 =
@@ -114,11 +118,13 @@ libc
 :
 c_long
 ;
+pub
 type
 CTFontOrientation
 =
 u32
 ;
+pub
 const
 kCTFontDefaultOrientation
 :
@@ -126,6 +132,7 @@ CTFontOrientation
 =
 0
 ;
+pub
 const
 kCTFontHorizontalOrientation
 :
@@ -133,6 +140,7 @@ CTFontOrientation
 =
 1
 ;
+pub
 const
 kCTFontVerticalOrientation
 :
@@ -140,6 +148,7 @@ CTFontOrientation
 =
 2
 ;
+pub
 type
 CGFloat
 =
@@ -148,6 +157,7 @@ libc
 :
 c_double
 ;
+pub
 struct
 CGSize
 {
@@ -158,6 +168,7 @@ height
 :
 CGFloat
 }
+pub
 struct
 CGPoint
 {
@@ -168,6 +179,7 @@ y
 :
 CGFloat
 }
+pub
 struct
 CGRect
 {
@@ -178,12 +190,14 @@ size
 :
 CGSize
 }
+pub
 type
 CGAffineTransform
 =
 (
 )
 ;
+pub
 type
 CTFontDescriptorRef
 =
@@ -204,10 +218,12 @@ framework
 ApplicationServices
 "
 ]
+pub
 extern
 mod
 coretext
 {
+pub
 fn
 CTFontCreateWithGraphicsFont
 (
@@ -229,6 +245,7 @@ CTFontDescriptorRef
 >
 CTFontRef
 ;
+pub
 fn
 CTFontGetGlyphsForCharacters
 (
@@ -251,6 +268,7 @@ CFIndex
 >
 bool
 ;
+pub
 fn
 CTFontGetAdvancesForGlyphs
 (
@@ -279,6 +297,7 @@ libc
 :
 c_double
 ;
+pub
 fn
 CTFontGetAscent
 (
@@ -293,6 +312,7 @@ libc
 :
 c_float
 ;
+pub
 fn
 CTFontGetDescent
 (
@@ -307,6 +327,7 @@ libc
 :
 c_float
 ;
+pub
 fn
 CTFontGetLeading
 (
@@ -321,6 +342,7 @@ libc
 :
 c_float
 ;
+pub
 fn
 CTFontGetUnitsPerEm
 (
@@ -335,6 +357,7 @@ libc
 :
 c_uint
 ;
+pub
 fn
 CTFontGetUnderlinePosition
 (
@@ -349,6 +372,7 @@ libc
 :
 c_float
 ;
+pub
 fn
 CTFontGetUnderlineThickness
 (
@@ -363,6 +387,7 @@ libc
 :
 c_float
 ;
+pub
 fn
 CTFontGetXHeight
 (
@@ -377,6 +402,7 @@ libc
 :
 c_float
 ;
+pub
 fn
 CTFontGetBoundingBox
 (
@@ -388,6 +414,7 @@ CTFontRef
 >
 CGRect
 ;
+pub
 fn
 CFRelease
 (
@@ -398,6 +425,7 @@ CTFontRef
 ;
 }
 }
+pub
 struct
 QuartzNativeFont
 {
@@ -987,6 +1015,7 @@ null
 )
 )
 }
+pub
 fn
 create
 (
@@ -1087,6 +1116,7 @@ Err
 )
 }
 }
+pub
 fn
 with_test_native_font
 (

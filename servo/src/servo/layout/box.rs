@@ -635,6 +635,7 @@ RenderBox_Generic
 RenderBox_Image
 RenderBox_Text
 }
+pub
 enum
 RenderBox
 {
@@ -1006,6 +1007,7 @@ au
 :
 max
 (
+*
 sum
 run
 .
@@ -1188,6 +1190,7 @@ au
 :
 max
 (
+*
 sum
 run
 .
@@ -2064,6 +2067,7 @@ y
 .
 add
 (
+&
 bounds
 .
 size
@@ -2314,6 +2318,7 @@ context
 .
 *
 /
+pub
 enum
 RenderBoxTree
 {
@@ -2342,6 +2347,8 @@ fn
 (
 &
 &
+box
+:
 RenderBox
 )
 -
@@ -2680,6 +2687,7 @@ s
 \
 "
 "
+*
 s
 run
 .
@@ -2809,6 +2817,8 @@ c
 {
 push_all
 (
+&
+mut
 r
 flat_bounds
 (
@@ -2819,6 +2829,8 @@ c
 }
 push
 (
+&
+mut
 r
 copy
 root

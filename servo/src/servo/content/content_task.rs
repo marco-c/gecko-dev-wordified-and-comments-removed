@@ -111,15 +111,6 @@ compositor
 Compositor
 ;
 use
-html
-:
-:
-lexer
-:
-:
-spawn_html_lexer_task
-;
-use
 layout
 :
 :
@@ -147,7 +138,7 @@ use
 css
 :
 :
-styles
+values
 :
 :
 Stylesheet
@@ -327,6 +318,7 @@ ptr
 :
 null
 ;
+pub
 enum
 ControlMsg
 {
@@ -351,11 +343,13 @@ TimerData
 )
 ExitMsg
 }
+pub
 enum
 PingMsg
 {
 PongMsg
 }
+pub
 type
 ContentTask
 =
@@ -982,6 +976,7 @@ option
 :
 expect
 (
+&
 self
 .
 compartment
@@ -1009,6 +1004,7 @@ option
 :
 get
 (
+&
 self
 .
 document
@@ -1018,6 +1014,7 @@ option
 :
 get
 (
+&
 self
 .
 window
@@ -1076,6 +1073,7 @@ option
 :
 expect
 (
+&
 self
 .
 compartment
@@ -1125,7 +1123,7 @@ ptr
 }
 ;
 let
-_rval
+rval
 =
 JSVAL_NULL
 ;
@@ -1161,9 +1159,10 @@ null
 ptr
 :
 :
-addr_of
+to_unsafe_ptr
 (
-_rval
+&
+rval
 )
 )
 ;
@@ -1177,6 +1176,7 @@ option
 :
 get
 (
+&
 self
 .
 document
@@ -1187,6 +1187,7 @@ option
 :
 get
 (
+&
 self
 .
 doc_url
@@ -1282,6 +1283,7 @@ option
 :
 expect
 (
+&
 self
 .
 compartment

@@ -43,6 +43,7 @@ http_client
 uv_http_request
 }
 ;
+pub
 fn
 factory
 (

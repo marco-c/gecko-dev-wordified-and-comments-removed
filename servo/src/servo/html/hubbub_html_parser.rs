@@ -444,6 +444,8 @@ vec
 :
 push
 (
+&
+mut
 result_vec
 result_port
 )
@@ -714,6 +716,8 @@ vec
 :
 push
 (
+&
+mut
 result_vec
 result_port
 )
@@ -1301,6 +1305,7 @@ else
 UnknownElement
 }
 }
+pub
 fn
 parse_html
 (
@@ -1965,6 +1970,7 @@ img_url
 make_url
 (
 copy
+*
 img_url_str
 Some
 (

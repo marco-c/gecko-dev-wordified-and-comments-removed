@@ -40,6 +40,7 @@ reference
 count
 them
 .
+pub
 type
 Image
 =
@@ -48,6 +49,7 @@ stb_image
 :
 Image
 ;
+pub
 fn
 Image
 (
@@ -130,6 +132,7 @@ i
 )
 ;
 }
+pub
 fn
 load_from_memory
 (

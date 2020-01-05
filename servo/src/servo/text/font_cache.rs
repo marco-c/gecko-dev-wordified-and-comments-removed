@@ -298,6 +298,7 @@ linux
 "
 )
 ]
+pub
 mod
 native
 {
@@ -337,11 +338,13 @@ FT_Init_FreeType
 FT_Done_FreeType
 }
 ;
+pub
 type
 NativeFontCache
 =
 FT_Library
 ;
+pub
 fn
 create_native_lib
 (
@@ -388,6 +391,7 @@ return
 lib
 ;
 }
+pub
 fn
 destroy_native_lib
 (
@@ -423,15 +427,18 @@ macos
 "
 )
 ]
+pub
 mod
 native
 {
+pub
 type
 NativeFontCache
 =
 (
 )
 ;
+pub
 fn
 create_native_lib
 (
@@ -443,6 +450,7 @@ NativeFontCache
 (
 )
 }
+pub
 fn
 destroy_native_lib
 (
@@ -458,6 +466,7 @@ NativeFontCache
 [
 test
 ]
+pub
 fn
 should_get_fonts
 (

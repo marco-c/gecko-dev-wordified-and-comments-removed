@@ -61,7 +61,7 @@ ptr
 :
 {
 null
-addr_of
+to_unsafe_ptr
 offset
 }
 ;
@@ -331,9 +331,8 @@ funcs
 reinterpret_cast
 (
 &
-addr_of
+to_unsafe_ptr
 (
-*
 font
 )
 )
@@ -439,8 +438,9 @@ info_
 hb_buffer_get_glyph_infos
 (
 buffer
-addr_of
+to_unsafe_ptr
 (
+&
 info_len
 )
 )
@@ -465,8 +465,9 @@ pos
 hb_buffer_get_glyph_positions
 (
 buffer
-addr_of
+to_unsafe_ptr
 (
+&
 pos_len
 )
 )
@@ -1080,6 +1081,7 @@ au
 :
 from_px
 (
+*
 a
 )
 )

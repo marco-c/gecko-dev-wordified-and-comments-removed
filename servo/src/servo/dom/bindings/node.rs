@@ -144,6 +144,7 @@ ptr
 :
 null
 ;
+pub
 fn
 init
 (
@@ -339,6 +340,8 @@ vec
 :
 push
 (
+&
+mut
 compartment
 .
 global_props
@@ -374,6 +377,7 @@ specs
 )
 ;
 }
+pub
 fn
 create
 (

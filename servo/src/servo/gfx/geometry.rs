@@ -34,6 +34,7 @@ Num
 from_int
 }
 ;
+pub
 enum
 au
 =
@@ -48,10 +49,9 @@ pure
 fn
 add
 (
-&
-&
 other
 :
+&
 au
 )
 -
@@ -64,6 +64,7 @@ au
 self
 +
 *
+*
 other
 )
 }
@@ -71,10 +72,9 @@ pure
 fn
 sub
 (
-&
-&
 other
 :
+&
 au
 )
 -
@@ -86,6 +86,7 @@ au
 *
 self
 -
+*
 *
 other
 )
@@ -94,10 +95,9 @@ pure
 fn
 mul
 (
-&
-&
 other
 :
+&
 au
 )
 -
@@ -108,6 +108,7 @@ au
 (
 *
 self
+*
 *
 *
 other
@@ -117,10 +118,9 @@ pure
 fn
 div
 (
-&
-&
 other
 :
+&
 au
 )
 -
@@ -133,6 +133,7 @@ au
 self
 /
 *
+*
 other
 )
 }
@@ -140,10 +141,9 @@ pure
 fn
 modulo
 (
-&
-&
 other
 :
+&
 au
 )
 -
@@ -155,6 +155,7 @@ au
 *
 self
 %
+*
 *
 other
 )
@@ -194,6 +195,7 @@ pure
 fn
 from_int
 (
++
 n
 :
 int
@@ -363,6 +365,7 @@ self
 other
 }
 }
+pub
 pure
 fn
 min
@@ -390,6 +393,7 @@ else
 y
 }
 }
+pub
 pure
 fn
 max
@@ -417,6 +421,7 @@ else
 y
 }
 }
+pub
 fn
 box
 <
@@ -460,6 +465,7 @@ h
 )
 )
 }
+pub
 fn
 zero_rect
 (
@@ -493,6 +499,7 @@ z
 )
 )
 }
+pub
 fn
 zero_point
 (
@@ -516,6 +523,7 @@ au
 )
 )
 }
+pub
 fn
 zero_size
 (
@@ -539,6 +547,7 @@ au
 )
 )
 }
+pub
 pure
 fn
 from_px
@@ -558,6 +567,7 @@ i
 60
 )
 }
+pub
 pure
 fn
 to_px

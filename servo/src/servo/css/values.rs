@@ -616,6 +616,7 @@ BoxSizing
 >
 )
 }
+pub
 enum
 Attr
 {
@@ -646,6 +647,7 @@ str
 str
 )
 }
+pub
 enum
 Selector
 {
@@ -680,6 +682,7 @@ Selector
 Selector
 )
 }
+pub
 type
 Rule
 =

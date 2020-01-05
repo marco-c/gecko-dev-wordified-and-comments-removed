@@ -33,6 +33,7 @@ image_cache_task
 ImageCacheTask
 ;
 use
+mod
 resource
 :
 :

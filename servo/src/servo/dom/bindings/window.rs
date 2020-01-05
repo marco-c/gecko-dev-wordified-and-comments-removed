@@ -514,6 +514,7 @@ val
 ;
 }
 }
+pub
 fn
 init
 (

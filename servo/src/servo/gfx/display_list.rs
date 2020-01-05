@@ -217,6 +217,7 @@ unsendable
 .
 *
 /
+pub
 struct
 GlyphRun
 {
@@ -347,6 +348,7 @@ _
 fail
 }
 }
+pub
 fn
 SolidColor
 (
@@ -404,6 +406,7 @@ b
 )
 }
 }
+pub
 fn
 Glyphs
 (
@@ -458,6 +461,7 @@ Images
 are
 not
 sendable
+pub
 fn
 Image
 (
@@ -521,6 +525,7 @@ image
 )
 }
 }
+pub
 type
 DisplayList
 =

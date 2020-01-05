@@ -144,7 +144,8 @@ with_block_box
 (
 fn
 (
-&
+box
+:
 &
 RenderBox
 )
@@ -303,7 +304,8 @@ cb
 :
 fn
 (
-&
+box
+:
 &
 RenderBox
 )
@@ -569,6 +571,7 @@ min_width
 .
 add
 (
+&
 box
 .
 get_min_width
@@ -582,6 +585,7 @@ pref_width
 .
 add
 (
+&
 box
 .
 get_pref_width
@@ -757,10 +761,12 @@ remaining_width
 .
 sub
 (
+&
 left_used
 .
 add
 (
+&
 right_used
 )
 )
@@ -877,6 +883,7 @@ cur_y
 .
 add
 (
+&
 child_ctx
 .
 d

@@ -214,14 +214,19 @@ task
 :
 *
 ;
+pub
 type
 LayoutTask
 =
+comm
+:
+:
 Chan
 <
 Msg
 >
 ;
+pub
 enum
 LayoutQuery
 {
@@ -230,6 +235,7 @@ ContentBox
 Node
 )
 }
+pub
 type
 LayoutQueryResponse
 =
@@ -251,6 +257,7 @@ int
 >
 )
 }
+pub
 enum
 Msg
 {
@@ -262,6 +269,9 @@ ARC
 Stylesheet
 >
 Url
+comm
+:
+:
 Chan
 <
 Event
@@ -269,6 +279,9 @@ Event
 )
 PingMsg
 (
+comm
+:
+:
 Chan
 <
 content_task
@@ -280,6 +293,9 @@ PingMsg
 QueryMsg
 (
 LayoutQuery
+comm
+:
+:
 Chan
 <
 LayoutQueryResponse

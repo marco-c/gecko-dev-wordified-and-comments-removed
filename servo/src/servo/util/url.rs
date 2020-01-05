@@ -156,6 +156,7 @@ result
 :
 is_err
 (
+&
 schm
 )
 {

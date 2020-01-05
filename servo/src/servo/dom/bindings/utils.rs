@@ -331,8 +331,9 @@ jsstr
 ptr
 :
 :
-addr_of
+to_unsafe_ptr
 (
+&
 len
 )
 )
@@ -462,6 +463,7 @@ size_t
 }
 }
 }
+pub
 fn
 get_compartment
 (
@@ -615,6 +617,7 @@ return
 1
 ;
 }
+pub
 fn
 prototype_jsclass
 (
@@ -628,6 +631,8 @@ str
 fn
 (
 +
+compartment
+:
 bare_compartment
 )
 -
@@ -873,6 +878,7 @@ null
 }
 }
 }
+pub
 fn
 instance_jsclass
 (
@@ -890,6 +896,8 @@ u8
 fn
 (
 +
+compartment
+:
 bare_compartment
 )
 -
@@ -1136,6 +1144,7 @@ null
 }
 }
 }
+pub
 fn
 define_empty_prototype
 (

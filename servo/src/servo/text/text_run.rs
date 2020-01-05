@@ -254,6 +254,8 @@ str
 :
 push_str
 (
+&
+mut
 candidate
 "
 "
@@ -279,6 +281,8 @@ str
 :
 push_str
 (
+&
+mut
 candidate
 slice
 )
@@ -566,6 +570,7 @@ x
 .
 add
 (
+&
 glyph
 .
 pos
@@ -577,6 +582,7 @@ x
 .
 add
 (
+&
 glyph
 .
 pos
@@ -591,6 +597,7 @@ y
 .
 add
 (
+&
 glyph
 .
 pos
@@ -602,6 +609,7 @@ y
 .
 add
 (
+&
 glyph
 .
 pos

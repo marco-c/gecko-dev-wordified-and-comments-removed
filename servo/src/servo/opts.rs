@@ -1,3 +1,4 @@
+pub
 type
 Opts
 =
@@ -14,6 +15,7 @@ render_mode
 RenderMode
 }
 ;
+pub
 enum
 RenderMode
 {
@@ -31,6 +33,7 @@ allow
 non_implicitly_copyable_typarams
 )
 ]
+pub
 fn
 from_cmdline_args
 (

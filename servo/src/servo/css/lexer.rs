@@ -95,6 +95,7 @@ parser_state
 ParserState
 }
 ;
+pub
 enum
 Token
 {
@@ -403,6 +404,7 @@ Token
 assert
 is_none
 (
+&
 self
 .
 input_state
@@ -1189,6 +1191,8 @@ else
 {
 push
 (
+&
+mut
 desc_name
 ch
 )
@@ -1400,6 +1404,8 @@ else
 {
 push
 (
+&
+mut
 desc_val
 ch
 )
@@ -1639,6 +1645,7 @@ allow
 non_implicitly_copyable_typarams
 )
 ]
+pub
 fn
 spawn_css_lexer_task
 (

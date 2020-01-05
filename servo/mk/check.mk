@@ -95,7 +95,7 @@ test
 DEPS_servo
 )
 (
-CFG_RUSTC
+RUSTC
 )
 (
 RFLAGS_servo
@@ -120,7 +120,7 @@ reftest
 rs
 servo
 (
-CFG_RUSTC
+RUSTC
 )
 (
 RFLAGS_servo
@@ -145,7 +145,7 @@ contenttest
 rs
 servo
 (
-CFG_RUSTC
+RUSTC
 )
 (
 RFLAGS_servo

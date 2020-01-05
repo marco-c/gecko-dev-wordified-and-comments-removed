@@ -51,6 +51,7 @@ uint
 =
 1024
 ;
+pub
 fn
 factory
 (

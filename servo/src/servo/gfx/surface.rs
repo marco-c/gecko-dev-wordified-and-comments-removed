@@ -7,6 +7,7 @@ size
 :
 Size2D
 ;
+pub
 enum
 format
 {
@@ -73,6 +74,7 @@ other
 ;
 }
 }
+pub
 type
 image_surface
 =
@@ -115,6 +117,7 @@ fo_rgba_8888
 }
 }
 }
+pub
 fn
 image_surface
 (

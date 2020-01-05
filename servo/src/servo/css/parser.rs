@@ -16,6 +16,7 @@ css
 values
 ;
 use
+mod
 tok
 =
 lexer
@@ -175,6 +176,7 @@ Token
 assert
 is_none
 (
+&
 self
 .
 lookahead
@@ -375,6 +377,8 @@ attr
 {
 push
 (
+&
+mut
 attr_list
 copy
 attr
@@ -760,6 +764,8 @@ StartDescription
 {
 push
 (
+&
+mut
 sel_list
 built_sel
 )
@@ -786,6 +792,8 @@ Comma
 {
 push
 (
+&
+mut
 sel_list
 built_sel
 )
@@ -1063,6 +1071,7 @@ Specified
 (
 BgColor
 (
+*
 res
 )
 )
@@ -1090,6 +1099,7 @@ Specified
 (
 TextColor
 (
+*
 res
 )
 )
@@ -1216,6 +1226,8 @@ d
 >
 push
 (
+&
+mut
 desc_list
 d
 )
@@ -1462,6 +1474,7 @@ desc_list
 ;
 }
 }
+pub
 fn
 build_stylesheet
 (
@@ -1526,6 +1539,8 @@ rule
 {
 push
 (
+&
+mut
 rule_list
 copy
 rule

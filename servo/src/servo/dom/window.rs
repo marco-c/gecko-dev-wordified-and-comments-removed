@@ -117,6 +117,7 @@ when
 calling
 it
 )
+pub
 struct
 TimerData
 {
@@ -130,6 +131,7 @@ DVec
 jsval
 >
 }
+pub
 fn
 TimerData
 (
