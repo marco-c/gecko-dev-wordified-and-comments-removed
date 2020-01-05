@@ -39,7 +39,6 @@ size
 1
 .
 html
-fails
 =
 =
 size
@@ -112,7 +111,6 @@ html
 select
 .
 html
-fails
 =
 =
 intrinsic
