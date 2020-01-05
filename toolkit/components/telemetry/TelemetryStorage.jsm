@@ -433,7 +433,7 @@ js
 const
 MAX_ARCHIVED_PINGS_RETENTION_MS
 =
-180
+60
 *
 24
 *
