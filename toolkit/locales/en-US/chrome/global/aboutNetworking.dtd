@@ -203,9 +203,11 @@ Port
 ENTITY
 aboutNetworking
 .
-spdy
+http2
 "
-SPDY
+HTTP
+/
+2
 "
 >
 <
