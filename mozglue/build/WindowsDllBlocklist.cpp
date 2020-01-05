@@ -907,6 +907,14 @@ MAKE_VERSION
 )
 }
 {
+"
+nzbrcom
+.
+dll
+"
+ALL_VERSIONS
+}
+{
 nullptr
 0
 }
