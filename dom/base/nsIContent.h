@@ -228,6 +228,9 @@ eAllButXBL
 eSkipPlaceholderContent
 =
 2
+eSkipDocumentLevelNativeAnonymousContent
+=
+4
 }
 ;
 virtual

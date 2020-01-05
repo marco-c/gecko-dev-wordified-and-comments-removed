@@ -694,6 +694,11 @@ nsIContent
 :
 :
 eAllChildren
+|
+nsIContent
+:
+:
+eSkipDocumentLevelNativeAnonymousContent
 )
 {
 MOZ_COUNT_CTOR
