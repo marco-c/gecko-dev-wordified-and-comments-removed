@@ -116,6 +116,14 @@ gtests
 /
 common
 \
+-
+I
+(
+CORE_DEPTH
+)
+/
+cpputil
+\
 (
 NULL
 )

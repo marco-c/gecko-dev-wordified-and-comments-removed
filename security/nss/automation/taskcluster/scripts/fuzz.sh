@@ -78,6 +78,9 @@ fuzz
 corpus
 /
 type
+set
++
+x
 #
 Create
 a
@@ -116,6 +119,9 @@ corpus
 type
 "
 done
+set
+-
+x
 fi
 #
 Fetch

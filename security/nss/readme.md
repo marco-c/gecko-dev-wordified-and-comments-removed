@@ -177,7 +177,7 @@ org
 /
 projects
 /
-nspr
+nss
 #
 #
 Building

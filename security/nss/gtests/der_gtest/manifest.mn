@@ -111,6 +111,14 @@ CORE_DEPTH
 gtests
 /
 common
+\
+-
+I
+(
+CORE_DEPTH
+)
+/
+cpputil
 REQUIRES
 =
 nspr
