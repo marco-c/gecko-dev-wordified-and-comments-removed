@@ -752,6 +752,11 @@ CSSNamespaceRule
 h
 '
 '
+CSSPageRule
+.
+h
+'
+'
 CSSRuleList
 .
 h
@@ -877,6 +882,11 @@ cpp
 '
 '
 CSSMediaRule
+.
+cpp
+'
+'
+CSSPageRule
 .
 cpp
 '
