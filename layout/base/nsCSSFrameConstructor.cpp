@@ -39700,9 +39700,10 @@ if
 insertionElement
 )
 {
-insertionElement
-=
-aContainer
+return
+InsertionPoint
+(
+)
 ;
 }
 InsertionPoint
