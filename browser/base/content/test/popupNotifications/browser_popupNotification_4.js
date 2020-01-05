@@ -857,6 +857,15 @@ resolve
 =
 >
 {
+let
+originalCallback
+=
+notification
+.
+options
+.
+eventCallback
+;
 notification
 .
 options
@@ -868,6 +877,11 @@ function
 eventName
 )
 {
+originalCallback
+(
+eventName
+)
+;
 if
 (
 eventName
