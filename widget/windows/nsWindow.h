@@ -2860,6 +2860,14 @@ InitMouseWheelScrollData
 double
 mSizeConstraintsScale
 ;
+static
+WPARAM
+sMouseExitwParam
+;
+static
+LPARAM
+sMouseExitlParamScreen
+;
 }
 ;
 class
