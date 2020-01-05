@@ -1756,7 +1756,7 @@ aSessionId
 const
 double
 &
-aExpiryTime
+aSecondsSinceEpoch
 )
 {
 LOGD
@@ -1790,7 +1790,7 @@ aSessionId
 get
 (
 )
-aExpiryTime
+aSecondsSinceEpoch
 )
 )
 ;
@@ -1827,7 +1827,7 @@ mCallback
 ExpirationChange
 (
 aSessionId
-aExpiryTime
+aSecondsSinceEpoch
 )
 ;
 return

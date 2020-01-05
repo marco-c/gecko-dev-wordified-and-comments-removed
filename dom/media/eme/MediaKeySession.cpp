@@ -3496,7 +3496,7 @@ MediaKeySession
 SetExpiration
 (
 double
-aExpiration
+aSecondsSinceEpoch
 )
 {
 EME_LOG
@@ -3526,12 +3526,12 @@ mSessionId
 get
 (
 )
-aExpiration
+aSecondsSinceEpoch
 )
 ;
 mExpiration
 =
-aExpiration
+aSecondsSinceEpoch
 ;
 }
 EventHandlerNonNull
