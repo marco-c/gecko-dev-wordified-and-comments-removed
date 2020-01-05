@@ -10613,7 +10613,7 @@ FontFamily
 FamilyName
 (
 ref
-name
+f
 )
 =
 >
@@ -10623,13 +10623,16 @@ unsafe
 Gecko_FontFamilyList_AppendNamed
 (
 list
-name
+f
 .
-0
+name
 .
 as_ptr
 (
 )
+f
+.
+quoted
 )
 ;
 }

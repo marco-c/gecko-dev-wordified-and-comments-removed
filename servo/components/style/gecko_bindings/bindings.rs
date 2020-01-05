@@ -4967,6 +4967,9 @@ aName
 *
 mut
 nsIAtom
+aQuoted
+:
+bool
 )
 ;
 }

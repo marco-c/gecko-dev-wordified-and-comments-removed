@@ -1780,7 +1780,7 @@ new
 &
 font
 .
-0
+name
 )
 ;
 let
@@ -3030,7 +3030,7 @@ new
 &
 family
 .
-0
+name
 )
 sources
 sender
