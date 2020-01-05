@@ -23639,6 +23639,9 @@ message
 IsEmpty
 (
 )
+&
+&
+aFallbackMessage
 )
 {
 nsDependentCString

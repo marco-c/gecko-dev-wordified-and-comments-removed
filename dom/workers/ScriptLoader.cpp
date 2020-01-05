@@ -9018,6 +9018,10 @@ report
 message
 (
 )
+.
+c_str
+(
+)
 aWorkerPrivate
 -
 >

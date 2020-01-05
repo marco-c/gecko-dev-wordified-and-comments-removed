@@ -2986,6 +2986,10 @@ report
 message
 (
 )
+.
+c_str
+(
+)
 lineAndColumnASCII
 )
 !

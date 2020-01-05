@@ -440,10 +440,6 @@ selfHosting_WarningReporter
 JSContext
 *
 cx
-const
-char
-*
-message
 JSErrorReport
 *
 report
@@ -469,7 +465,7 @@ PrintError
 (
 cx
 stderr
-message
+nullptr
 report
 true
 )
@@ -16252,6 +16248,10 @@ file
 report
 .
 message
+(
+)
+.
+c_str
 (
 )
 report

@@ -2207,10 +2207,6 @@ userRef
 const
 unsigned
 errorNumber
-char
-*
-*
-message
 const
 char16_t
 *
@@ -2267,10 +2263,6 @@ CallWarningReporter
 JSContext
 *
 cx
-const
-char
-*
-message
 JSErrorReport
 *
 report
