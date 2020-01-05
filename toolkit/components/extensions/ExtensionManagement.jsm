@@ -1047,6 +1047,9 @@ checkAddonMayLoad
 (
 extension
 uri
+explicit
+=
+false
 )
 {
 return
@@ -1057,6 +1060,7 @@ whiteListedHosts
 matchesIgnoringPath
 (
 uri
+explicit
 )
 ;
 }

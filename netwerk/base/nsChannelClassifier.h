@@ -172,6 +172,17 @@ bool
 result
 )
 ;
+bool
+AddonMayLoad
+(
+nsIChannel
+*
+aChannel
+nsIURI
+*
+aUri
+)
+;
 public
 :
 static
