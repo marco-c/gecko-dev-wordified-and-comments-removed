@@ -593,6 +593,9 @@ tests
 "
 basic_compositor_video
 "
+"
+glvideo
+"
 ]
 "
 talos_options
@@ -622,6 +625,9 @@ tests
 [
 "
 basic_compositor_video
+"
+"
+glvideo
 "
 ]
 }
