@@ -1000,7 +1000,7 @@ EffectCompositor
 :
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMapBorrowed
+RawServoAnimationValueMapBorrowedMut
 aAnimationValues
 )
 ;

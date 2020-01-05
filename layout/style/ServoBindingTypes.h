@@ -48,6 +48,9 @@ h
 struct
 RawServoStyleSet
 ;
+struct
+RawServoAnimationValueMap
+;
 #
 define
 SERVO_ARC_TYPE
@@ -432,6 +435,10 @@ StyleChildrenIterator
 DECL_OWNED_REF_TYPE_FOR
 (
 ServoElementSnapshot
+)
+DECL_OWNED_REF_TYPE_FOR
+(
+RawServoAnimationValueMap
 )
 DECL_BORROWED_REF_TYPE_FOR
 (

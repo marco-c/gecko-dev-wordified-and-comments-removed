@@ -2758,7 +2758,6 @@ KeyframeEffectReadOnly
 :
 ComposeStyleRule
 (
-const
 RawServoAnimationValueMap
 &
 aAnimationValues
@@ -7976,12 +7975,10 @@ KeyframeEffectReadOnly
 :
 ComposeStyle
 <
-const
 RawServoAnimationValueMap
 &
 >
 (
-const
 RawServoAnimationValueMap
 &
 aAnimationValues

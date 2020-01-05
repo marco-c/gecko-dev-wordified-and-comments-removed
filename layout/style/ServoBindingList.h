@@ -549,7 +549,7 @@ SERVO_BINDING_FUNC
 (
 Servo_AnimationValueMap_Push
 void
-RawServoAnimationValueMapBorrowed
+RawServoAnimationValueMapBorrowedMut
 nsCSSPropertyID
 property
 RawServoAnimationValueBorrowed
@@ -845,7 +845,7 @@ SERVO_BINDING_FUNC
 (
 Servo_AnimationCompose
 void
-RawServoAnimationValueMapBorrowed
+RawServoAnimationValueMapBorrowedMut
 animation_values
 void
 *
