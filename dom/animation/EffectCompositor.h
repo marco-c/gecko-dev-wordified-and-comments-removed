@@ -515,6 +515,11 @@ AnimationPerformanceWarning
 aWarning
 )
 ;
+void
+PreTraverse
+(
+)
+;
 private
 :
 ~
