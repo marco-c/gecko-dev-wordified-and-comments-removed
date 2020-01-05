@@ -226,7 +226,24 @@ lib
         
 self
 .
+rust_lib_prefix
+=
+'
+lib
+'
+        
+self
+.
 lib_suffix
+=
+'
+.
+a
+'
+        
+self
+.
+rust_lib_suffix
 =
 '
 .
