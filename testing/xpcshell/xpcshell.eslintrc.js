@@ -210,6 +210,11 @@ equal
 :
 false
 "
+gczeal
+"
+:
+false
+"
 greater
 "
 :
