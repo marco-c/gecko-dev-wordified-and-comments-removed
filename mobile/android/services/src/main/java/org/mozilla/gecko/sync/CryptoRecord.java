@@ -177,7 +177,7 @@ KEY_COLLECTION
 collection
 "
 ;
-private
+public
 static
 final
 String
@@ -1197,6 +1197,7 @@ CryptoRecord
 )
 ;
 }
+Override
 public
 JSONObject
 toJSONObject
