@@ -230,7 +230,7 @@ final
 int
 VERSION
 =
-7
+8
 ;
 public
 static
@@ -1030,7 +1030,7 @@ newArray
 private
 static
 void
-ensureDefaultPanelForV5
+ensureDefaultPanelForV5orV8
 (
 Context
 context
@@ -1754,7 +1754,7 @@ break
 case
 5
 :
-ensureDefaultPanelForV5
+ensureDefaultPanelForV5orV8
 (
 context
 jsonPanels
@@ -1798,6 +1798,17 @@ PanelType
 .
 COMBINED_HISTORY
 true
+)
+;
+break
+;
+case
+8
+:
+ensureDefaultPanelForV5orV8
+(
+context
+jsonPanels
 )
 ;
 break
