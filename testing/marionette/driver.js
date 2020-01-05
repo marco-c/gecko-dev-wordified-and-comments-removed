@@ -694,7 +694,7 @@ this
 .
 scriptTimeout
 =
-null
+30000
 ;
 this
 .
@@ -706,7 +706,7 @@ this
 .
 pageTimeout
 =
-null
+300000
 ;
 this
 .
