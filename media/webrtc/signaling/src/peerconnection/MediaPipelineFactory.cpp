@@ -871,6 +871,17 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
+config
+-
+>
+mTias
+=
+aDetails
+.
+GetTias
+(
+)
+;
 for
 (
 size_t
