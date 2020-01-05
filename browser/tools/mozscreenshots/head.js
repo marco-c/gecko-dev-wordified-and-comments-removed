@@ -134,8 +134,6 @@ io
 newURI
 (
 EXTENSION_DIR
-null
-null
 )
 ;
 let

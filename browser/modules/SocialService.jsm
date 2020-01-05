@@ -515,8 +515,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 return
@@ -946,8 +944,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 let
@@ -2823,8 +2819,6 @@ io
 newURI
 (
 installOrigin
-null
-null
 )
 ;
 let
@@ -2970,8 +2964,6 @@ data
 url
 ]
 )
-null
-null
 )
 ;
 if
@@ -3183,8 +3175,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 let
@@ -3684,8 +3674,6 @@ newURI
 data
 .
 origin
-null
-null
 )
 .
 schemeIs
@@ -4171,8 +4159,6 @@ newURI
 input
 .
 origin
-null
-null
 )
 ;
 this
@@ -4457,8 +4443,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 ;
 }
@@ -4531,8 +4515,6 @@ io
 newURI
 (
 fullURL
-null
-null
 )
 ;
 }
@@ -4588,8 +4570,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 return

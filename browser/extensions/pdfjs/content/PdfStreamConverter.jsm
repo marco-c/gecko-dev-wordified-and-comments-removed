@@ -5505,8 +5505,6 @@ NetUtil
 newURI
 (
 PDF_VIEWER_WEB_PAGE
-null
-null
 )
 ;
 var

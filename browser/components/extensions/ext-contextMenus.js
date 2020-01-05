@@ -2696,8 +2696,6 @@ newURI
 contextData
 .
 pageUrl
-null
-null
 )
 ;
 if

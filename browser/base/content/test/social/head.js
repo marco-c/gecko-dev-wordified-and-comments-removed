@@ -163,8 +163,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 PlacesUtils
@@ -1325,8 +1323,6 @@ newURI
 aManifest
 .
 origin
-null
-null
 )
 ;
 return

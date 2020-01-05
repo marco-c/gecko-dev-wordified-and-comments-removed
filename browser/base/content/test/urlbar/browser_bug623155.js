@@ -62,8 +62,6 @@ io
 newURI
 (
 aURISpec
-null
-null
 )
 )
 ;
@@ -82,8 +80,6 @@ io
 newURI
 (
 REDIRECT_TO
-null
-null
 )
 .
 equalsExceptRef

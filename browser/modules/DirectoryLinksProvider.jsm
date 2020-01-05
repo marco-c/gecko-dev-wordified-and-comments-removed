@@ -2476,8 +2476,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 scheme

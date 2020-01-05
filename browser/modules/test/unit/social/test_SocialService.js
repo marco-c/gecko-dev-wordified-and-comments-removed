@@ -871,8 +871,6 @@ newURI
 provider
 .
 origin
-null
-null
 )
 )
 )
@@ -922,8 +920,6 @@ sub
 -
 page
 "
-null
-null
 )
 )
 )
@@ -967,8 +963,6 @@ something
 .
 com
 "
-null
-null
 )
 )
 )
@@ -1037,8 +1031,6 @@ p
 >
 hi
 "
-null
-null
 )
 )
 )
@@ -1066,8 +1058,6 @@ p
 >
 hi
 "
-null
-null
 )
 true
 )
@@ -1329,8 +1319,6 @@ providers
 shareURL
 +
 i
-null
-null
 )
 visitDate
 :

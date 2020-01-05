@@ -1094,8 +1094,6 @@ about
 :
 feeds
 "
-null
-null
 )
 ;
 chromeChannel

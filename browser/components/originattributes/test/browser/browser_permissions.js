@@ -21,8 +21,6 @@ io
 newURI
 (
 TEST_PAGE
-null
-null
 )
 ;
 function

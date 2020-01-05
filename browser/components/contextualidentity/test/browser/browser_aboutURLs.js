@@ -171,8 +171,6 @@ about
 "
 +
 aboutType
-null
-null
 )
 ;
 let

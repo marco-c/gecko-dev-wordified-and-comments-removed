@@ -49,8 +49,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 var
@@ -75,8 +73,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 var
@@ -99,8 +95,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 var
@@ -125,8 +119,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 var
@@ -149,8 +141,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 var
@@ -303,8 +293,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 }
@@ -355,8 +343,6 @@ feed
 .
 xml
 "
-null
-null
 )
 ;
 }

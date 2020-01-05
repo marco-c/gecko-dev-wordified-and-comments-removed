@@ -158,8 +158,6 @@ about
 :
 newtab
 "
-null
-null
 )
 ;
 return

@@ -264,8 +264,6 @@ newURI
 json
 .
 href
-null
-null
 )
 title
 :

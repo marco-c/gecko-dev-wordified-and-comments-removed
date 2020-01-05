@@ -435,8 +435,6 @@ io
 newURI
 (
 input_url
-null
-null
 )
 ;
 principal
@@ -478,8 +476,6 @@ http
 "
 +
 input_url
-null
-null
 )
 ;
 principal

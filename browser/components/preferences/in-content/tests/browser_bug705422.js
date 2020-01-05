@@ -265,8 +265,6 @@ http
 "
 +
 host
-null
-null
 )
 ;
 cookieSvc

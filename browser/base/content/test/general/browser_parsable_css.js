@@ -797,8 +797,6 @@ io
 newURI
 (
 chromeFile
-null
-null
 )
 ;
 let
@@ -1074,8 +1072,6 @@ io
 newURI
 (
 chromeUri
-null
-null
 )
 ;
 }
@@ -1341,8 +1337,6 @@ rule
 parentStyleSheet
 .
 href
-null
-null
 )
 ;
 url

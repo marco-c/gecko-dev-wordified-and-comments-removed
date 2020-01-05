@@ -472,8 +472,6 @@ example
 com
 /
 "
-null
-null
 )
 ;
 is

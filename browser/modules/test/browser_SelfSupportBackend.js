@@ -543,8 +543,6 @@ io
 newURI
 (
 TEST_PAGE_URL_HTTPS
-null
-null
 )
 ;
 Services

@@ -786,8 +786,6 @@ selectedBrowser
 currentURI
 .
 hostPort
-null
-null
 )
 ;
 if
@@ -884,8 +882,6 @@ selectedBrowser
 currentURI
 .
 hostPort
-null
-null
 )
 ;
 if

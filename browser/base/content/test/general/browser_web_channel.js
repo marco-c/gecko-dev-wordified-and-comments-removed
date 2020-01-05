@@ -205,8 +205,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -328,8 +326,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -474,8 +470,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -644,8 +638,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -665,8 +657,6 @@ io
 newURI
 (
 HTTP_IFRAME_PATH
-null
-null
 )
 )
 ;
@@ -894,8 +884,6 @@ io
 newURI
 (
 HTTP_IFRAME_PATH
-null
-null
 )
 )
 ;
@@ -915,8 +903,6 @@ io
 newURI
 (
 HTTP_REDIRECTED_IFRAME_PATH
-null
-null
 )
 )
 ;
@@ -1176,8 +1162,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -1267,8 +1251,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -1416,8 +1398,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 ;
 let
@@ -1575,8 +1555,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 ;
 let
@@ -1698,8 +1676,6 @@ io
 newURI
 (
 HTTP_MISMATCH_PATH
-null
-null
 )
 ;
 let
@@ -1813,8 +1789,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -1986,8 +1960,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -2119,8 +2091,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -2385,8 +2355,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -2406,8 +2374,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;
@@ -2602,8 +2568,6 @@ io
 newURI
 (
 HTTP_PATH
-null
-null
 )
 )
 ;

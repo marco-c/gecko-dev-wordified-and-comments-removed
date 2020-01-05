@@ -547,8 +547,6 @@ io
 newURI
 (
 group
-null
-null
 )
 ;
 if

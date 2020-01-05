@@ -22,8 +22,6 @@ example
 com
 /
 "
-null
-null
 )
 ;
 const
@@ -45,8 +43,6 @@ mozilla
 com
 /
 "
-null
-null
 )
 ;
 add_task

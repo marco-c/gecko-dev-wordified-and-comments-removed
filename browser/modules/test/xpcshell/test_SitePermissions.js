@@ -138,8 +138,6 @@ example
 .
 js
 "
-null
-null
 )
 Assert
 .
@@ -173,8 +171,6 @@ example
 .
 com
 "
-null
-null
 )
 Assert
 .
@@ -462,8 +458,6 @@ example
 .
 js
 "
-null
-null
 )
 Assert
 .
@@ -497,8 +491,6 @@ example
 .
 com
 "
-null
-null
 )
 SitePermissions
 .

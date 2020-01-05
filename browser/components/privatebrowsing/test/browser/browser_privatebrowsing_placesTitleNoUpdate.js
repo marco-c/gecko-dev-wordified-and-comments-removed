@@ -89,8 +89,6 @@ io
 newURI
 (
 TEST_URL
-null
-null
 )
 ;
 const

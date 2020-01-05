@@ -301,8 +301,6 @@ pocket
 .
 css
 "
-null
-null
 )
 ;
 }
@@ -1264,8 +1262,6 @@ io
 newURI
 (
 targetUrl
-null
-null
 )
 ;
 let

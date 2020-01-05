@@ -127,8 +127,6 @@ io
 newURI
 (
 SELFCHROMEURL
-null
-null
 )
 ;
 let

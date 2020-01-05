@@ -625,8 +625,6 @@ newURI
 this
 .
 url
-null
-null
 )
 .
 resolve
@@ -1585,8 +1583,6 @@ newURI
 this
 .
 url
-null
-null
 )
 ;
 try
