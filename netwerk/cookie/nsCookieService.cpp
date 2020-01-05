@@ -13789,6 +13789,7 @@ bool
 aHttpBound
 const
 NeckoOriginAttributes
+&
 aOriginAttrs
 bool
 aIsPrivate

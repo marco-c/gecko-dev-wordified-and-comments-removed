@@ -1298,7 +1298,9 @@ AltSvcMapping
 :
 SyncString
 (
+const
 nsCString
+&
 str
 )
 {
