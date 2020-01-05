@@ -6689,6 +6689,11 @@ class
 ReadbackProcessor
 ;
 void
+RemoveAllChildren
+(
+)
+;
+void
 DidInsertChild
 (
 Layer
