@@ -358,6 +358,13 @@ h
 #
 include
 "
+nsIRDFContentSink
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -991,6 +998,13 @@ RegisterAtoms
 )
 ;
 nsHTMLTags
+:
+:
+RegisterAtoms
+(
+)
+;
+nsRDFAtoms
 :
 :
 RegisterAtoms
