@@ -51,6 +51,8 @@ XMLDocument
 :
 public
 nsDocument
+public
+nsIDOMXMLDocument
 {
 public
 :
@@ -234,6 +236,18 @@ const
 {
 return
 mAsync
+;
+}
+void
+SetAsync
+(
+bool
+aAsync
+)
+{
+mAsync
+=
+aAsync
 ;
 }
 using
