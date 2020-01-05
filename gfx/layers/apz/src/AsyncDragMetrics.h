@@ -100,10 +100,6 @@ uint64_t
 aDragStartSequenceNumber
 CSSCoord
 aScrollbarDragOffset
-const
-CSSRect
-&
-aScrollTrack
 DragDirection
 aDirection
 )
@@ -123,10 +119,6 @@ aDragStartSequenceNumber
 mScrollbarDragOffset
 (
 aScrollbarDragOffset
-)
-mScrollTrack
-(
-aScrollTrack
 )
 mDirection
 (
@@ -148,9 +140,6 @@ mDragStartSequenceNumber
 ;
 CSSCoord
 mScrollbarDragOffset
-;
-CSSRect
-mScrollTrack
 ;
 DragDirection
 mDirection
