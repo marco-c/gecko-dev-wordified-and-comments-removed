@@ -10133,7 +10133,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-ErrorResult
+IgnoredErrorResult
 erv
 ;
 range
