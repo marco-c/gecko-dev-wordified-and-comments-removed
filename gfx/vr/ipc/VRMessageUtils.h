@@ -51,7 +51,7 @@ mozilla
 gfx
 :
 :
-VRDisplayType
+VRDeviceType
 >
 :
 public
@@ -63,14 +63,14 @@ mozilla
 gfx
 :
 :
-VRDisplayType
+VRDeviceType
 mozilla
 :
 :
 gfx
 :
 :
-VRDisplayType
+VRDeviceType
 (
 0
 )
@@ -80,7 +80,7 @@ mozilla
 gfx
 :
 :
-VRDisplayType
+VRDeviceType
 (
 mozilla
 :
@@ -88,10 +88,10 @@ mozilla
 gfx
 :
 :
-VRDisplayType
+VRDeviceType
 :
 :
-NumVRDisplayTypes
+NumVRDeviceTypes
 )
 >
 {

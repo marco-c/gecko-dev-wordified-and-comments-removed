@@ -102,14 +102,14 @@ VRDisplayHost
 ;
 enum
 class
-VRDisplayType
+VRDeviceType
 :
 uint16_t
 {
 Oculus
 OpenVR
 OSVR
-NumVRDisplayTypes
+NumVRDeviceTypes
 }
 ;
 enum
@@ -419,7 +419,7 @@ leftDegrees
 struct
 VRDisplayInfo
 {
-VRDisplayType
+VRDeviceType
 GetType
 (
 )
@@ -562,7 +562,7 @@ NumEyes
 uint32_t
 mDisplayID
 ;
-VRDisplayType
+VRDeviceType
 mType
 ;
 nsCString

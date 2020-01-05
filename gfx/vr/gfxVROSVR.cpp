@@ -1145,7 +1145,7 @@ display
 :
 VRDisplayHost
 (
-VRDisplayType
+VRDeviceType
 :
 :
 OSVR
