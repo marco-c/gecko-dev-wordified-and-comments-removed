@@ -115,6 +115,9 @@ tidy
 .
 check_by_line
 ]
+print_text
+=
+False
 )
         
 self
@@ -248,6 +251,9 @@ tidy
 .
 check_by_line
 ]
+print_text
+=
+False
 )
         
 self
@@ -307,6 +313,9 @@ tidy
 .
 check_by_line
 ]
+print_text
+=
+False
 )
         
 self
@@ -403,6 +412,9 @@ tidy
 .
 check_license
 ]
+print_text
+=
+False
 )
         
 self
@@ -458,6 +470,9 @@ tidy
 .
 check_rust
 ]
+print_text
+=
+False
 )
         
 self
@@ -958,6 +973,9 @@ tidy
 .
 check_spec
 ]
+print_text
+=
+False
 )
         
 self
@@ -1023,6 +1041,9 @@ check_webidl_spec
 ]
 [
 ]
+print_text
+=
+False
 )
         
 self
@@ -1081,6 +1102,9 @@ check_toml
 ]
 [
 ]
+print_text
+=
+False
 )
         
 self
@@ -1141,6 +1165,9 @@ tidy
 .
 check_modeline
 ]
+print_text
+=
+False
 )
         
 self
@@ -1275,6 +1302,9 @@ check_lock
 ]
 [
 ]
+print_text
+=
+False
 )
         
 msg
