@@ -922,9 +922,12 @@ basestring
 }
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 '
 native
@@ -950,7 +953,7 @@ reboot
 :
 bool
         
-Required
+Optional
 (
 '
 command
