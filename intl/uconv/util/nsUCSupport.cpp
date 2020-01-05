@@ -1974,6 +1974,7 @@ aScanClass
 mShiftOutTable
 =
 aShiftOutTable
+;
 mMappingTable
 =
 aMappingTable
