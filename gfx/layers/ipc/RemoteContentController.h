@@ -261,15 +261,11 @@ HandleTapOnMainThread
 (
 TapType
 aType
-const
 LayoutDevicePoint
-&
 aPoint
 Modifiers
 aModifiers
-const
 ScrollableLayerGuid
-&
 aGuid
 uint64_t
 aInputBlockId
