@@ -9204,6 +9204,12 @@ level
 ;
 #
 endif
+#
+if
+defined
+(
+MOZ_STACKWALKING
+)
 pref
 (
 "
@@ -9220,6 +9226,8 @@ stackTraceDepth
 0
 )
 ;
+#
+endif
 #
 endif
 #

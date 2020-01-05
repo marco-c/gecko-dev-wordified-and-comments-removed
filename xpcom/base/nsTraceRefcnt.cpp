@@ -829,6 +829,9 @@ DefaultAllocEntry
 TypesToLogFreeEntry
 }
 ;
+#
+ifdef
+MOZ_STACKWALKING
 class
 CodeAddressServiceStringTable
 final
@@ -1002,6 +1005,8 @@ WalkTheStackCodeAddressService
 >
 gCodeAddressService
 ;
+#
+endif
 class
 BloatEntry
 {
@@ -2016,6 +2021,9 @@ refCount
 ;
 #
 endif
+#
+ifdef
+MOZ_STACKWALKING
 if
 (
 !
@@ -2111,6 +2119,8 @@ buf
 ;
 }
 }
+#
+endif
 return
 HT_ENUMERATE_NEXT
 ;
@@ -4068,6 +4078,9 @@ extern
 C
 "
 {
+#
+ifdef
+MOZ_STACKWALKING
 static
 void
 PrintStackFrame
@@ -4256,6 +4269,8 @@ aPC
 )
 ;
 }
+#
+endif
 }
 void
 nsTraceRefcnt
@@ -4268,6 +4283,9 @@ FILE
 aStream
 )
 {
+#
+ifdef
+MOZ_STACKWALKING
 MozStackWalk
 (
 PrintStackFrame
@@ -4278,6 +4296,8 @@ aStream
 nullptr
 )
 ;
+#
+endif
 }
 static
 void
@@ -4288,6 +4308,9 @@ FILE
 aStream
 )
 {
+#
+ifdef
+MOZ_STACKWALKING
 if
 (
 !
@@ -4312,6 +4335,8 @@ aStream
 nullptr
 )
 ;
+#
+endif
 }
 static
 void
@@ -4329,6 +4354,9 @@ void
 aLocations
 )
 {
+#
+ifdef
+MOZ_STACKWALKING
 if
 (
 !
@@ -4365,6 +4393,8 @@ aLocations
 nullptr
 )
 ;
+#
+endif
 }
 EXPORT_XPCOM_API
 (
@@ -4378,10 +4408,15 @@ NS_SetMainThread
 (
 )
 ;
+#
+ifdef
+MOZ_STACKWALKING
 StackWalkInitCriticalAddress
 (
 )
 ;
+#
+endif
 if
 (
 +
@@ -6031,10 +6066,15 @@ Shutdown
 (
 )
 {
+#
+ifdef
+MOZ_STACKWALKING
 gCodeAddressService
 =
 nullptr
 ;
+#
+endif
 if
 (
 gBloatView
