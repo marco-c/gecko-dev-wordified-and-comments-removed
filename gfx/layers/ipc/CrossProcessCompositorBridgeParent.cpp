@@ -1378,14 +1378,12 @@ GetTextureFactoryIdentifier
 *
 aIdNamespace
 =
-api
+parent
 -
 >
-GetNamespace
+GetIdNameSpace
 (
 )
-.
-mHandle
 ;
 return
 parent

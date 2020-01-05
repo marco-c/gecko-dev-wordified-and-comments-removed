@@ -370,6 +370,14 @@ mActorsToDestroy
 ;
 }
 ;
+uint32_t
+WebRenderBridgeParent
+:
+:
+sIdNameSpace
+=
+0
+;
 WebRenderBridgeParent
 :
 :
@@ -454,6 +462,12 @@ mParentLayerObserverEpoch
 mWrEpoch
 (
 0
+)
+mIdNameSpace
+(
++
++
+sIdNameSpace
 )
 mDestroyed
 (

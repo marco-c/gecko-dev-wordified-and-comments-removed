@@ -5246,8 +5246,6 @@ new
 WebRenderBridgeChild
 (
 aPipelineId
-*
-aIdNamespace
 )
 ;
 child
