@@ -27,13 +27,6 @@ linux64
 mulet
 gecko
 -
-v1
-:
-mulet
-.
-dbg
-gecko
--
 v2
 :
 mulet
@@ -179,13 +172,6 @@ buildbot
 linux64
 -
 mulet
-gecko
--
-v1
-:
-mulet
-.
-opt
 gecko
 -
 v2

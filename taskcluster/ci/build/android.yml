@@ -37,17 +37,6 @@ api
 debug
 gecko
 -
-v1
-:
-android
--
-api
--
-15
-.
-debug
-gecko
--
 v2
 :
 android
