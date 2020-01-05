@@ -2200,6 +2200,11 @@ if
 property
 .
 has_uncacheable_values
+=
+=
+"
+True
+"
 :
 context
 .
