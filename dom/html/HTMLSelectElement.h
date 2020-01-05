@@ -940,12 +940,6 @@ nsINode
 :
 Remove
 ;
-using
-nsINode
-:
-:
-AppendChild
-;
 virtual
 JSObject
 *
