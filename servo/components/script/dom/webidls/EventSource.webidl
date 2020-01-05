@@ -101,15 +101,6 @@ Exposed
 Window
 Worker
 )
-Pref
-=
-"
-dom
-.
-eventsource
-.
-enabled
-"
 ]
 interface
 EventSource
