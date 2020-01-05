@@ -29,7 +29,7 @@ trait
 NodeUtil
 {
 fn
-get_style
+get_css_select_results
 (
 )
 -
@@ -40,7 +40,7 @@ self
 SelectResults
 ;
 fn
-set_style
+set_css_select_results
 (
 decl
 :
@@ -117,7 +117,7 @@ overwritten
 *
 /
 fn
-get_style
+get_css_select_results
 (
 )
 -
@@ -206,7 +206,7 @@ style
 }
 }
 fn
-set_style
+set_css_select_results
 (
 decl
 :

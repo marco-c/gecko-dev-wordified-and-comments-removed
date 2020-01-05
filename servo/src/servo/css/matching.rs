@@ -134,7 +134,7 @@ select_handler
 ;
 self
 .
-set_style
+set_css_select_results
 (
 move
 style
