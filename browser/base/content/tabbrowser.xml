@@ -22512,6 +22512,12 @@ if
 gNavToolbox
 .
 collapsed
+&
+&
+!
+this
+.
+_allowTabChange
 )
 {
 return
