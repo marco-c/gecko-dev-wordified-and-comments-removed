@@ -401,6 +401,10 @@ domrectlist
 ;
 pub
 mod
+domstringmap
+;
+pub
+mod
 comment
 ;
 pub
