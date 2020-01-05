@@ -115,6 +115,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestHistograms
+.
+cpp
+'
+'
 TestScalars
 .
 cpp
