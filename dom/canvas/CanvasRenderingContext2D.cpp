@@ -18943,6 +18943,15 @@ CreatePreservingTransformOrNull
 target
 )
 ;
+if
+(
+!
+thebes
+)
+{
+return
+;
+}
 gfxTextRun
 :
 :
