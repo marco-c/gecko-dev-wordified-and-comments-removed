@@ -6371,6 +6371,10 @@ getFunctionDisplayName
 (
 )
 ;
+if
+(
+name
+)
 context
 (
 )
@@ -6415,6 +6419,10 @@ getAsyncCause
 (
 )
 ;
+if
+(
+cause
+)
 context
 (
 )
