@@ -36860,6 +36860,15 @@ userContext
 enabled
 "
 )
+&
+&
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+window
+)
 ;
 const
 newTab
