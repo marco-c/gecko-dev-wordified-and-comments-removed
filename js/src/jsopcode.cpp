@@ -6589,7 +6589,7 @@ sp
 put
 (
 "
-swtich
+switch
 -
 default
 "
