@@ -1114,7 +1114,7 @@ nsIInputStream
 bodyStream
 ;
 nsCString
-contentType
+contentTypeWithCharset
 ;
 uint64_t
 bodySize
@@ -1134,7 +1134,7 @@ getter_AddRefs
 (
 bodyStream
 )
-contentType
+contentTypeWithCharset
 bodySize
 )
 ;
@@ -1166,7 +1166,7 @@ bodySize
 if
 (
 !
-contentType
+contentTypeWithCharset
 .
 IsVoid
 (
@@ -1217,7 +1217,7 @@ Content
 Type
 "
 )
-contentType
+contentTypeWithCharset
 error
 )
 ;

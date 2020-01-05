@@ -94,6 +94,11 @@ dom
 =
 [
 '
+BodyExtractor
+.
+h
+'
+'
 ChannelInfo
 .
 h
@@ -153,6 +158,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+BodyExtractor
+.
+cpp
+'
 '
 ChannelInfo
 .

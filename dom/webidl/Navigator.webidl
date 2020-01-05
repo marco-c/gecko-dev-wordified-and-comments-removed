@@ -2416,15 +2416,7 @@ sendBeacon
 DOMString
 url
 optional
-(
-ArrayBufferView
-or
-Blob
-or
-DOMString
-or
-FormData
-)
+BodyInit
 ?
 data
 =
