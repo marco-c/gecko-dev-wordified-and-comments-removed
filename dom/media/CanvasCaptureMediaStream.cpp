@@ -143,10 +143,6 @@ OutputStreamDriver
 StreamListener
 "
 )
-mImage
-(
-nullptr
-)
 {
 MOZ_ASSERT
 (
@@ -177,6 +173,10 @@ Image
 >
 &
 aImage
+const
+TimeStamp
+&
+aTime
 )
 {
 MutexAutoLock
@@ -188,6 +188,10 @@ mMutex
 mImage
 =
 aImage
+;
+mImageTime
+=
+aTime
 ;
 }
 void
@@ -201,6 +205,11 @@ aDesiredTime
 )
 override
 {
+MOZ_ASSERT
+(
+mSourceStream
+)
+;
 StreamTime
 delta
 =
@@ -225,11 +234,6 @@ MutexAutoLock
 lock
 (
 mMutex
-)
-;
-MOZ_ASSERT
-(
-mSourceStream
 )
 ;
 RefPtr
@@ -273,6 +277,8 @@ forget
 delta
 size
 mPrincipalHandle
+false
+mImageTime
 )
 ;
 mSourceStream
@@ -342,6 +348,9 @@ layers
 Image
 >
 mImage
+;
+TimeStamp
+mImageTime
 ;
 }
 ;
@@ -481,6 +490,10 @@ Image
 >
 &
 aImage
+const
+TimeStamp
+&
+aTime
 )
 {
 if
@@ -494,6 +507,7 @@ mStreamListener
 SetImage
 (
 aImage
+aTime
 )
 ;
 }
@@ -637,6 +651,10 @@ already_AddRefed
 Image
 >
 aImage
+const
+TimeStamp
+&
+aTime
 )
 override
 {
@@ -668,6 +686,7 @@ image
 forget
 (
 )
+aTime
 )
 ;
 }
@@ -758,6 +777,10 @@ already_AddRefed
 Image
 >
 aImage
+const
+TimeStamp
+&
+aTime
 )
 override
 {
@@ -776,6 +799,7 @@ image
 forget
 (
 )
+aTime
 )
 ;
 }

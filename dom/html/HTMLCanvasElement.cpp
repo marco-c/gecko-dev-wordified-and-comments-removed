@@ -833,6 +833,7 @@ copy
 forget
 (
 )
+aTime
 )
 ;
 mOwningElement
@@ -5368,6 +5369,10 @@ already_AddRefed
 SourceSurface
 >
 aSurface
+const
+TimeStamp
+&
+aTime
 )
 {
 RefPtr
@@ -5438,6 +5443,7 @@ imageRefCopy
 forget
 (
 )
+aTime
 )
 ;
 }

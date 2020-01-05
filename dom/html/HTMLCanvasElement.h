@@ -304,6 +304,10 @@ layers
 Image
 >
 aImage
+const
+TimeStamp
+&
+aTime
 )
 =
 0
@@ -838,6 +842,10 @@ gfx
 SourceSurface
 >
 aSurface
+const
+TimeStamp
+&
+aTime
 )
 ;
 virtual

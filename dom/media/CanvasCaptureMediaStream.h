@@ -104,6 +104,10 @@ Image
 >
 &
 aImage
+const
+TimeStamp
+&
+aTime
 )
 ;
 virtual
