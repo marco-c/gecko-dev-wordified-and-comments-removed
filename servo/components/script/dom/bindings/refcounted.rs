@@ -59,7 +59,7 @@ use
 libc
 ;
 use
-script_thread
+script_runtime
 :
 :
 {

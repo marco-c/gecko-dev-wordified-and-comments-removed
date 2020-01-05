@@ -338,7 +338,7 @@ as
 TimeProfilerChan
 ;
 use
-script_thread
+script_runtime
 :
 :
 ScriptChan

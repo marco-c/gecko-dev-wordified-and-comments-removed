@@ -362,7 +362,13 @@ range
 Range
 ;
 use
-script_thread
+script_runtime
+:
+:
+CommonScriptMsg
+;
+use
+script_runtime
 :
 :
 ScriptThreadEventCategory
@@ -374,10 +380,7 @@ use
 script_thread
 :
 :
-{
-CommonScriptMsg
 Runnable
-}
 ;
 use
 script_traits

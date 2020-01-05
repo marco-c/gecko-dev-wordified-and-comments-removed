@@ -239,7 +239,7 @@ profile_traits
 mem
 ;
 use
-script_thread
+script_runtime
 :
 :
 {
