@@ -154,7 +154,7 @@ chunk
 ;
 test
 -
-wpt1
+wpt2
 )
 .
 /
