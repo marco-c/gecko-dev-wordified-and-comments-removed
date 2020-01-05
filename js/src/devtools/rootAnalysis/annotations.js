@@ -1355,6 +1355,16 @@ BlockingResourceBase
 :
 true
 "
+iJIT_IsProfilingActive
+"
+:
+true
+"
+iJIT_NotifyEvent
+"
+:
+true
+"
 PR_GetCurrentThread
 "
 :
