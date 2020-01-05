@@ -2728,6 +2728,8 @@ Servo
 (
 currently
 Android
+and
+Windows
 only
 )
 '
@@ -2793,6 +2795,29 @@ build
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+android
+'
+                     
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Install
+on
+Android
+'
+)
+    
 def
 install
 (
@@ -2801,6 +2826,9 @@ release
 =
 False
 dev
+=
+False
+android
 =
 False
 )
@@ -2819,7 +2847,7 @@ release
 dev
 android
 =
-True
+android
 )
         
 except
@@ -2863,6 +2891,9 @@ release
 dev
 =
 dev
+android
+=
+android
             
 )
             
@@ -2886,7 +2917,7 @@ release
 dev
 android
 =
-True
+android
 )
             
 except
@@ -2912,7 +2943,11 @@ problem
 return
 1
         
-apk_path
+if
+android
+:
+            
+pkg_path
 =
 binary_path
 +
@@ -2920,6 +2955,63 @@ binary_path
 .
 apk
 "
+            
+exec_command
+=
+[
+"
+adb
+"
+"
+install
+"
+"
+-
+r
+"
+pkg_path
+]
+        
+elif
+is_windows
+(
+)
+:
+            
+pkg_path
+=
+path
+.
+join
+(
+path
+.
+dirname
+(
+binary_path
+)
+'
+msi
+'
+'
+Servo
+.
+msi
+'
+)
+            
+exec_command
+=
+[
+"
+msiexec
+"
+"
+/
+i
+"
+pkg_path
+]
         
 if
 not
@@ -2927,7 +3019,7 @@ path
 .
 exists
 (
-apk_path
+pkg_path
 )
 :
             
@@ -2937,6 +3029,7 @@ Registrar
 .
 dispatch
 (
+                
 "
 package
 "
@@ -2951,6 +3044,10 @@ release
 dev
 =
 dev
+android
+=
+android
+            
 )
             
 if
@@ -2965,19 +3062,13 @@ result
         
 print
 (
-[
-"
-adb
 "
 "
-install
-"
-"
--
-r
-"
-apk_path
-]
+.
+join
+(
+exec_command
+)
 )
         
 return
@@ -2985,19 +3076,7 @@ subprocess
 .
 call
 (
-[
-"
-adb
-"
-"
-install
-"
-"
--
-r
-"
-apk_path
-]
+exec_command
 env
 =
 self
