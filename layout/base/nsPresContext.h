@@ -758,6 +758,7 @@ StyleSetHandle
 StyleSet
 (
 )
+const
 {
 return
 GetPresShell
