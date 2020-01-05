@@ -1184,6 +1184,7 @@ if
 (
 discardBaselineCode
 )
+{
 jitZone
 (
 )
@@ -1204,6 +1205,16 @@ runtime
 )
 )
 ;
+jitZone
+(
+)
+-
+>
+purgeIonCacheIRStubInfo
+(
+)
+;
+}
 jitZone
 (
 )
