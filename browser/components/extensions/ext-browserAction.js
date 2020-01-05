@@ -162,7 +162,6 @@ jsm
 var
 {
 IconDetails
-SingletonEventManager
 }
 =
 ExtensionUtils

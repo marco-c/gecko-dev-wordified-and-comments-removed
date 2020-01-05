@@ -121,13 +121,6 @@ jsm
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 function
 getSender
 (

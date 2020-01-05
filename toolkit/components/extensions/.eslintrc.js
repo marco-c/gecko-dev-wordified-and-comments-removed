@@ -181,6 +181,11 @@ Services
 :
 true
 "
+SingletonEventManager
+"
+:
+true
+"
 tabTracker
 "
 :

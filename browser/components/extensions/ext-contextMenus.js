@@ -87,7 +87,6 @@ var
 {
 ExtensionError
 IconDetails
-SingletonEventManager
 }
 =
 ExtensionUtils

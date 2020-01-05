@@ -87,7 +87,6 @@ var
 {
 DefaultWeakMap
 ExtensionError
-SingletonEventManager
 defineLazyGetter
 }
 =

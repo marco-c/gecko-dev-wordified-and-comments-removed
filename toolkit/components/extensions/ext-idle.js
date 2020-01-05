@@ -52,13 +52,6 @@ nsIIdleService
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 let
 observersMap
 =

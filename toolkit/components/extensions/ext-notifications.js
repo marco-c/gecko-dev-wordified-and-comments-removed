@@ -30,7 +30,6 @@ js
 ;
 var
 {
-SingletonEventManager
 ignoreEvent
 }
 =

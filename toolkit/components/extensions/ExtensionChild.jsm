@@ -260,8 +260,6 @@ const
 DefaultMap
 EventEmitter
 LimitedSet
-LocaleData
-SingletonEventManager
 SpreadArgs
 defineLazyGetter
 getMessageManager
@@ -274,7 +272,9 @@ ExtensionUtils
 const
 {
 LocalAPIImplementation
+LocaleData
 SchemaAPIInterface
+SingletonEventManager
 }
 =
 ExtensionCommon

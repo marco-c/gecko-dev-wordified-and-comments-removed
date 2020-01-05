@@ -31,7 +31,6 @@ js
 var
 {
 promiseDocumentLoaded
-SingletonEventManager
 }
 =
 ExtensionUtils

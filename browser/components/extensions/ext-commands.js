@@ -5,7 +5,6 @@ strict
 ;
 var
 {
-SingletonEventManager
 PlatformInfo
 }
 =

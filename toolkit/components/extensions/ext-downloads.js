@@ -147,7 +147,6 @@ var
 {
 ignoreEvent
 normalizeTime
-SingletonEventManager
 PlatformInfo
 }
 =

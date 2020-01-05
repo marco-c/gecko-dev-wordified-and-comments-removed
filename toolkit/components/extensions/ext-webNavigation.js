@@ -49,13 +49,6 @@ jsm
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 const
 defaultTransitionTypes
 =

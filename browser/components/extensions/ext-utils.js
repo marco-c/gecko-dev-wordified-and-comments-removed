@@ -76,7 +76,6 @@ nsIStyleSheetService
 var
 {
 ExtensionError
-SingletonEventManager
 defineLazyGetter
 }
 =

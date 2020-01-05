@@ -75,7 +75,6 @@ jsm
 var
 {
 ExtensionError
-SingletonEventManager
 }
 =
 ExtensionUtils
