@@ -1669,6 +1669,9 @@ atom
 removedCount
 ;
 }
+#
+ifdef
+NS_FREE_PERMANENT_DATA
 else
 if
 (
@@ -1679,6 +1682,14 @@ GCKind
 :
 :
 Shutdown
+&
+&
+PR_GetEnv
+(
+"
+XPCOM_MEM_BLOAT_LOG
+"
+)
 )
 {
 nsAutoCString
@@ -1752,6 +1763,8 @@ nonZeroRefcountAtomsCount
 +
 ;
 }
+#
+endif
 }
 if
 (
