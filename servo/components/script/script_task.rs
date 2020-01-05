@@ -194,6 +194,7 @@ refcounted
 {
 LiveDOMReferences
 Trusted
+TrustedReference
 }
 ;
 use
@@ -783,9 +784,6 @@ url
 Url
 ;
 use
-libc
-;
-use
 std
 :
 :
@@ -972,12 +970,7 @@ Send
 )
 RefcountCleanup
 (
-*
-const
-libc
-:
-:
-c_void
+TrustedReference
 )
 }
 pub
