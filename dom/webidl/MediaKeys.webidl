@@ -249,11 +249,7 @@ void
 >
 setServerCertificate
 (
-(
-ArrayBufferView
-or
-ArrayBuffer
-)
+BufferSource
 serverCertificate
 )
 ;

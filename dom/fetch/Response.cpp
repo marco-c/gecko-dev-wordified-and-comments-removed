@@ -551,7 +551,10 @@ nullptr
 }
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+BodyInit
 >
 body
 ;
@@ -687,7 +690,10 @@ aGlobal
 const
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+BodyInit
 >
 &
 aBody
