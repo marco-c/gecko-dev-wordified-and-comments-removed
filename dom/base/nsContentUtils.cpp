@@ -38746,12 +38746,6 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_IMAGE_PRELOAD
 :
-case
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_IMAGE_FAVICON
-:
 return
 nsIContentPolicy
 :
