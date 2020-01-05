@@ -3109,6 +3109,12 @@ aRv
 )
 const
 ;
+void
+NotifyDecoderActivityChanges
+(
+)
+const
+;
 RefPtr
 <
 MediaDecoder
