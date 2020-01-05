@@ -144,6 +144,8 @@ unicode
 enum
 class
 Script
+:
+int16_t
 {
 COMMON
 =
