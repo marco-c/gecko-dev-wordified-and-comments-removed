@@ -283,16 +283,5 @@ raises
 DOMException
 )
 ;
-[
-binaryname
-(
-MozRemove
-)
-]
-void
-remove
-(
-)
-;
 }
 ;

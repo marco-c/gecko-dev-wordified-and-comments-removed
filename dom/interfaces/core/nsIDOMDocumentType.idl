@@ -215,16 +215,5 @@ attribute
 DOMString
 internalSubset
 ;
-[
-binaryname
-(
-MozRemove
-)
-]
-void
-remove
-(
-)
-;
 }
 ;
