@@ -1590,7 +1590,7 @@ nullptr
 )
 const
 ;
-nsresult
+bool
 StartDecoding
 (
 )
