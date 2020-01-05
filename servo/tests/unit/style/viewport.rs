@@ -78,6 +78,7 @@ stylesheets
 :
 :
 {
+CssRuleType
 Stylesheet
 Origin
 }
@@ -2882,6 +2883,13 @@ Author
 url
 &
 reporter
+Some
+(
+CssRuleType
+:
+:
+Viewport
+)
 )
 ;
 macro_rules

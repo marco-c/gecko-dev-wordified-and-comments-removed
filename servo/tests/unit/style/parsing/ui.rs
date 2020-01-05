@@ -36,7 +36,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 use
 style
@@ -262,6 +265,13 @@ Author
 url
 &
 reporter
+Some
+(
+CssRuleType
+:
+:
+Style
+)
 )
 ;
 let

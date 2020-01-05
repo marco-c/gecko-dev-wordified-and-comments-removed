@@ -26,7 +26,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 use
 style_traits
@@ -253,6 +256,13 @@ Author
 url
 &
 reporter
+Some
+(
+CssRuleType
+:
+:
+Style
+)
 )
 ;
 let

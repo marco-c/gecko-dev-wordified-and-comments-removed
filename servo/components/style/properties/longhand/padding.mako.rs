@@ -173,9 +173,6 @@ padding
 s
 "
 )
-needs_context
-=
-False
 animation_type
 =
 "

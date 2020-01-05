@@ -12,6 +12,12 @@ Token
 }
 ;
 use
+parser
+:
+:
+ParserContext
+;
+use
 serialize_comma_separated_list
 ;
 use
@@ -1011,6 +1017,10 @@ pub
 fn
 parse
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -1175,6 +1185,7 @@ Expression
 :
 parse
 (
+context
 input
 )
 )
@@ -1237,6 +1248,7 @@ Expression
 :
 parse
 (
+context
 input
 )
 )
@@ -1248,6 +1260,10 @@ pub
 fn
 parse_media_query_list
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -1293,10 +1309,17 @@ Delimiter
 :
 :
 Comma
+|
+i
+|
 MediaQuery
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 Ok
@@ -1516,6 +1539,10 @@ append_medium
 &
 mut
 self
+context
+:
+&
+ParserContext
 new_medium
 :
 &
@@ -1546,6 +1573,8 @@ MediaQuery
 :
 parse
 (
+&
+context
 &
 mut
 parser
@@ -1605,6 +1634,10 @@ delete_medium
 &
 mut
 self
+context
+:
+&
+ParserContext
 old_medium
 :
 &
@@ -1635,6 +1668,7 @@ MediaQuery
 :
 parse
 (
+context
 &
 mut
 parser

@@ -339,7 +339,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -433,6 +433,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -440,6 +443,10 @@ Number
 :
 :
 parse_non_negative
+(
+context
+i
+)
 )
 {
 return
@@ -465,6 +472,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -472,6 +482,10 @@ LengthOrPercentage
 :
 :
 parse_non_negative
+(
+context
+i
+)
 )
 {
 return

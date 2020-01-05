@@ -51,6 +51,7 @@ stylesheets
 :
 :
 {
+CssRuleType
 Origin
 Namespaces
 }

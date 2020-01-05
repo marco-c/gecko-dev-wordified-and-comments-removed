@@ -26,7 +26,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 #
 [

@@ -4623,7 +4623,7 @@ ShapeRadius
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -4654,6 +4654,7 @@ LengthOrPercentage
 :
 parse_non_negative
 (
+context
 i
 )
 )
@@ -5284,7 +5285,7 @@ BorderRadius
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -5312,6 +5313,7 @@ try
 (
 parse_one_set_of_border_values
 (
+context
 input
 )
 )
@@ -5347,6 +5349,7 @@ try
 (
 parse_one_set_of_border_values
 (
+context
 input
 )
 )
@@ -5496,6 +5499,10 @@ take
 fn
 parse_one_set_of_border_values
 (
+context
+:
+&
+ParserContext
 mut
 input
 :
@@ -5527,6 +5534,7 @@ LengthOrPercentage
 :
 parse_non_negative
 (
+context
 input
 )
 )
@@ -5553,6 +5561,7 @@ LengthOrPercentage
 :
 parse_non_negative
 (
+context
 i
 )
 )
@@ -5607,6 +5616,7 @@ LengthOrPercentage
 :
 parse_non_negative
 (
+context
 i
 )
 )
@@ -5654,6 +5664,7 @@ LengthOrPercentage
 :
 parse_non_negative
 (
+context
 i
 )
 )
