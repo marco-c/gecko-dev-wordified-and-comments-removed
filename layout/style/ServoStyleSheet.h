@@ -285,6 +285,12 @@ ErrorResult
 aRv
 )
 ;
+void
+EnabledStateChangedInternal
+(
+)
+{
+}
 private
 :
 void

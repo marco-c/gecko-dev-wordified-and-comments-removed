@@ -395,13 +395,6 @@ HasRules
 )
 const
 ;
-void
-SetEnabled
-(
-bool
-aEnabled
-)
-;
 CSSStyleSheet
 *
 GetParentSheet
@@ -913,6 +906,11 @@ aIndex
 ErrorResult
 &
 aRv
+)
+;
+void
+EnabledStateChangedInternal
+(
 )
 ;
 RefPtr

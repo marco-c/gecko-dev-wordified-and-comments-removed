@@ -218,6 +218,13 @@ SetComplete
 (
 )
 ;
+void
+SetEnabled
+(
+bool
+aEnabled
+)
+;
 MOZ_DECL_STYLO_METHODS
 (
 CSSStyleSheet
@@ -711,6 +718,11 @@ aRv
 ;
 void
 DropMedia
+(
+)
+;
+void
+EnabledStateChanged
 (
 )
 ;

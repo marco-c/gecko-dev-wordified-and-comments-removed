@@ -5752,7 +5752,7 @@ SetTitle
 aTitle
 )
 ;
-sheet
+aSheet
 -
 >
 SetEnabled
