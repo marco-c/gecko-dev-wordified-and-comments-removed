@@ -1843,7 +1843,7 @@ char16_t
 *
 str
 =
-NS_StringCloneData
+ToNewUnicode
 (
 aString
 )
