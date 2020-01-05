@@ -1517,7 +1517,7 @@ device
 id
 =
 =
-p
+record
 .
 deviceID
 )
@@ -2269,6 +2269,7 @@ syncs
 [
 0
 ]
+ping
 )
 ;
 }
