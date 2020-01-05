@@ -4589,7 +4589,6 @@ let
 boxed_node
 :
 *
-mut
 Node
 =
 utils

@@ -673,7 +673,6 @@ JSObject
 -
 >
 *
-mut
 T
 {
 let
@@ -700,7 +699,6 @@ to_private
 )
 as
 *
-mut
 T
 }
 pub
