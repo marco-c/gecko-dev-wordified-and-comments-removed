@@ -1188,6 +1188,11 @@ LambdaForSingleton
 \
 _
 (
+SetFunName
+)
+\
+_
+(
 KeepAliveObject
 )
 \

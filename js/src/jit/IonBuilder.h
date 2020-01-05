@@ -4100,6 +4100,14 @@ fun
 ;
 MOZ_MUST_USE
 bool
+jsop_setfunname
+(
+uint8_t
+prefixKind
+)
+;
+MOZ_MUST_USE
+bool
 jsop_functionthis
 (
 )

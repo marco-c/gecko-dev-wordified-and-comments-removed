@@ -769,6 +769,11 @@ LambdaArrow
 \
 _
 (
+SetFunName
+)
+\
+_
+(
 KeepAliveObject
 )
 \
