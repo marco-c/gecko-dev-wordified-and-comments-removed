@@ -5613,7 +5613,7 @@ if
 layerView
 -
 >
-CompositorCreated
+IsCompositorReady
 (
 )
 |
