@@ -3757,11 +3757,10 @@ JOB_KINDS
 :
             
 if
+not
 self
 .
 jobs
-is
-None
 :
                 
 return
