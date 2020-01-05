@@ -421,6 +421,14 @@ data
 ;
 }
 ;
+struct
+OpRemoveCompositorAnimations
+{
+uint64_t
+id
+;
+}
+;
 union
 WebRenderParentCommand
 {
@@ -429,6 +437,8 @@ OpAddExternalImage
 CompositableOperation
 ;
 OpAddCompositorAnimations
+;
+OpRemoveCompositorAnimations
 ;
 }
 ;
