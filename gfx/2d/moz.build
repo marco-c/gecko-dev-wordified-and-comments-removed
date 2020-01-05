@@ -326,6 +326,11 @@ StackArray
 h
 '
 '
+Swizzle
+.
+h
+'
+'
 Tools
 .
 h
@@ -1077,6 +1082,11 @@ cpp
 '
 '
 SourceSurfaceRawData
+.
+cpp
+'
+'
+Swizzle
 .
 cpp
 '
