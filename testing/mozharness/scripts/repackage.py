@@ -533,6 +533,19 @@ query_abs_dirs
 (
 )
         
+python
+=
+self
+.
+query_exe
+(
+'
+python2
+.
+7
+'
+)
+        
 infile
 =
 os
@@ -580,9 +593,7 @@ output_filename
 command
 =
 [
-sys
-.
-executable
+python
 '
 mach
 '
@@ -990,12 +1001,23 @@ query_abs_dirs
 (
 )
         
+python
+=
+self
+.
+query_exe
+(
+'
+python2
+.
+7
+'
+)
+        
 command
 =
 [
-sys
-.
-executable
+python
 '
 mach
 '
