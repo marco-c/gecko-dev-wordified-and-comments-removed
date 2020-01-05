@@ -458,6 +458,17 @@ with
 error
 "
 "
+rest
+-
+spread
+-
+spacing
+"
+:
+"
+error
+"
+"
 space
 -
 before
