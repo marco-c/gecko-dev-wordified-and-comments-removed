@@ -8082,10 +8082,6 @@ entry
 -
 >
 mJSObj
-.
-unbarrieredGetPtr
-(
-)
 =
 =
 old

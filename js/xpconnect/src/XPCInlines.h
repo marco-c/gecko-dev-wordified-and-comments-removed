@@ -1860,10 +1860,6 @@ IsMarked
 MOZ_ASSERT
 (
 mJSObject
-.
-unbarrieredGetPtr
-(
-)
 =
 =
 old
