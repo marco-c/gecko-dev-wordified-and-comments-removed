@@ -225,8 +225,6 @@ libXcursor
 -
 devel
 pushd
-.
-cd
 /
 tmp
 wget
