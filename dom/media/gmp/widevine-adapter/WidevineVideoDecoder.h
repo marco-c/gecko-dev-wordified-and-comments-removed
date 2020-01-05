@@ -275,6 +275,12 @@ mDrainPending
 bool
 mResetInProgress
 ;
+cdm
+:
+:
+Size
+mCodedSize
+;
 }
 ;
 }
