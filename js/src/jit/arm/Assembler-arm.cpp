@@ -8121,6 +8121,9 @@ false
 }
 #
 endif
+#
+ifdef
+JS_DISASM_ARM
 BufferOffset
 Assembler
 :
@@ -8141,9 +8144,6 @@ putInt
 x
 )
 ;
-#
-ifdef
-JS_DISASM_ARM
 spew
 (
 m_buffer
@@ -8154,8 +8154,6 @@ offs
 )
 )
 ;
-#
-endif
 return
 offs
 ;
@@ -8181,12 +8179,8 @@ m_buffer
 putInt
 (
 x
-true
 )
 ;
-#
-ifdef
-JS_DISASM_ARM
 spewBranch
 (
 m_buffer
@@ -8198,12 +8192,12 @@ offs
 documentation
 )
 ;
-#
-endif
 return
 offs
 ;
 }
+#
+endif
 BufferOffset
 Assembler
 :
@@ -8223,7 +8217,6 @@ InstNOP
 :
 :
 NopInst
-true
 )
 ;
 }
@@ -10643,8 +10636,6 @@ PoolEntry
 *
 pe
 bool
-markAsBranch
-bool
 loadToPC
 )
 {
@@ -10660,7 +10651,6 @@ numPoolEntries
 inst
 data
 pe
-markAsBranch
 )
 ;
 propagateOOM
@@ -10742,7 +10732,6 @@ uint8_t
 &
 value
 nullptr
-false
 dest
 =
 =
@@ -10877,7 +10866,6 @@ uint8_t
 &
 value
 pe
-true
 true
 )
 ;
