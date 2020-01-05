@@ -3075,8 +3075,6 @@ getSupportedExtensions
 (
 )
 ;
-/
-/
 object
 ?
 getExtension
@@ -3129,8 +3127,6 @@ WebGLBuffer
 buffer
 )
 ;
-/
-/
 void
 bindFramebuffer
 (
@@ -3141,8 +3137,6 @@ WebGLFramebuffer
 framebuffer
 )
 ;
-/
-/
 void
 bindRenderbuffer
 (
@@ -3153,8 +3147,6 @@ WebGLRenderbuffer
 renderbuffer
 )
 ;
-/
-/
 void
 bindTexture
 (
@@ -3517,8 +3509,6 @@ createBuffer
 (
 )
 ;
-/
-/
 WebGLFramebuffer
 ?
 createFramebuffer
@@ -3531,8 +3521,6 @@ createProgram
 (
 )
 ;
-/
-/
 WebGLRenderbuffer
 ?
 createRenderbuffer
@@ -3547,8 +3535,6 @@ GLenum
 type
 )
 ;
-/
-/
 WebGLTexture
 ?
 createTexture
@@ -3564,8 +3550,6 @@ GLenum
 mode
 )
 ;
-/
-/
 void
 deleteBuffer
 (
@@ -3574,8 +3558,6 @@ WebGLBuffer
 buffer
 )
 ;
-/
-/
 void
 deleteFramebuffer
 (
@@ -3584,8 +3566,6 @@ WebGLFramebuffer
 framebuffer
 )
 ;
-/
-/
 void
 deleteProgram
 (
@@ -3594,8 +3574,6 @@ WebGLProgram
 program
 )
 ;
-/
-/
 void
 deleteRenderbuffer
 (
@@ -3604,8 +3582,6 @@ WebGLRenderbuffer
 renderbuffer
 )
 ;
-/
-/
 void
 deleteShader
 (
@@ -3614,8 +3590,6 @@ WebGLShader
 shader
 )
 ;
-/
-/
 void
 deleteTexture
 (
