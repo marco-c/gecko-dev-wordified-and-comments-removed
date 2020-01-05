@@ -13700,6 +13700,12 @@ nsCursorImage
 >
 mCursorImages
 ;
+mozilla
+:
+:
+StyleComplexColor
+mCaretColor
+;
 inline
 uint8_t
 GetEffectivePointerEvents
