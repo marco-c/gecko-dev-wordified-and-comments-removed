@@ -4350,6 +4350,11 @@ label
 )
 PER_ARCH
 ;
+template
+<
+class
+L
+>
 inline
 void
 branchPtr
@@ -4360,8 +4365,7 @@ Register
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 PER_SHARED_ARCH
