@@ -19,6 +19,9 @@ namespace
 mozilla
 {
 class
+MediaCodecs
+;
+class
 MediaContentType
 ;
 class
@@ -88,13 +91,9 @@ const
 MediaContentType
 &
 aType
-char
-const
+MediaCodecs
 *
-const
-*
-*
-aCodecList
+aOutCodecs
 )
 ;
 static

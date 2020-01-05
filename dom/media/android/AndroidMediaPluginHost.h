@@ -43,6 +43,9 @@ class
 MediaContentType
 ;
 class
+MediaCodecs
+;
+class
 AndroidMediaPluginHost
 {
 RefPtr
@@ -98,11 +101,7 @@ const
 MediaContentType
 &
 aMimeType
-const
-char
-*
-const
-*
+MediaCodecs
 *
 aCodecs
 )
