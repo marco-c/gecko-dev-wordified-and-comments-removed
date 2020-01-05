@@ -193,6 +193,18 @@ value
 2
 )
 }
+header
+:
+{
+label1
+:
+"
+"
+label2
+:
+"
+"
+}
 }
 )
 ;
@@ -386,7 +398,7 @@ is
 rows
 .
 length
-3
+4
 "
 There
 should
@@ -395,6 +407,9 @@ be
 pie
 chart
 slices
+and
+1
+header
 created
 .
 "
@@ -405,7 +420,7 @@ is
 rows
 .
 length
-3
+4
 "
 There
 should
@@ -414,6 +429,9 @@ be
 table
 chart
 rows
+and
+1
+header
 created
 .
 "
@@ -432,6 +450,9 @@ be
 2
 total
 summaries
+and
+1
+header
 created
 .
 "
