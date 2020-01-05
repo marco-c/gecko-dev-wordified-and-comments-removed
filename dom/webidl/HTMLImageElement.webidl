@@ -259,15 +259,6 @@ useMap
 ;
 [
 SetterThrows
-Pref
-=
-"
-network
-.
-http
-.
-enablePerElementReferrer
-"
 ]
 attribute
 DOMString

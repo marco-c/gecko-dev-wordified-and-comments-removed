@@ -297,15 +297,6 @@ type
 [
 SetterThrows
 Pure
-Pref
-=
-"
-network
-.
-http
-.
-enablePerElementReferrer
-"
 ]
 attribute
 DOMString

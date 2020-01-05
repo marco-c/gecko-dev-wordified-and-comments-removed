@@ -258,15 +258,6 @@ rel
 ;
 [
 SetterThrows
-Pref
-=
-"
-network
-.
-http
-.
-enablePerElementReferrer
-"
 ]
 attribute
 DOMString
