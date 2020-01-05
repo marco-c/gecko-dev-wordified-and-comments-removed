@@ -38,7 +38,7 @@ function
 {
 test_generator
 .
-close
+return
 (
 )
 ;
@@ -51,6 +51,7 @@ do_test_finished
 ;
 }
 function
+*
 do_run_test
 (
 )
@@ -614,6 +615,7 @@ exists
 ;
 }
 function
+*
 run_test_1
 (
 generator
@@ -719,6 +721,7 @@ generator
 ;
 }
 function
+*
 run_test_2
 (
 generator
@@ -856,6 +859,7 @@ generator
 ;
 }
 function
+*
 run_test_3
 (
 generator
@@ -964,6 +968,7 @@ generator
 ;
 }
 function
+*
 run_test_4_exists
 (
 generator
@@ -1098,6 +1103,7 @@ generator
 ;
 }
 function
+*
 run_test_4_baseDomain
 (
 generator

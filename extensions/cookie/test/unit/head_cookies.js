@@ -253,13 +253,6 @@ catch
 e
 )
 {
-if
-(
-e
-!
-=
-StopIteration
-)
 do_throw
 (
 "
@@ -291,7 +284,7 @@ function
 {
 generator
 .
-close
+return
 (
 )
 ;

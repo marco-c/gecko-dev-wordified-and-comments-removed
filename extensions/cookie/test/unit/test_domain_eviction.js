@@ -32,6 +32,7 @@ test_generator
 ;
 }
 function
+*
 do_run_test
 (
 )
