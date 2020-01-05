@@ -56,7 +56,7 @@ client
 /
 netmonitor
 /
-events
+constants
 "
 )
 ;

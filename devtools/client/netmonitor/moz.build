@@ -90,11 +90,6 @@ constants
 js
 '
 '
-events
-.
-js
-'
-'
 netmonitor
 -
 controller
