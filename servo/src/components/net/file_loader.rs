@@ -67,8 +67,8 @@ Result
 <
 (
 )
-(
-)
+~
+str
 >
 {
 loop
@@ -137,6 +137,11 @@ _
 return
 Err
 (
+e
+.
+desc
+.
+to_owned
 (
 )
 )
@@ -270,7 +275,7 @@ res
 }
 Err
 (
-_
+e
 )
 =
 >
@@ -283,6 +288,11 @@ Done
 (
 Err
 (
+e
+.
+desc
+.
+to_owned
 (
 )
 )
