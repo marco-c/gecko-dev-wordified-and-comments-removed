@@ -1823,6 +1823,10 @@ nsITimer
 *
 *
 aTimer
+const
+char
+*
+aName
 )
 ;
 static
