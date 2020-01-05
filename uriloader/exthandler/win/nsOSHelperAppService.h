@@ -161,6 +161,15 @@ nsAString
 result
 )
 ;
+static
+bool
+CleanupCmdHandlerPath
+(
+nsAString
+&
+aCommandHandler
+)
+;
 protected
 :
 nsresult
