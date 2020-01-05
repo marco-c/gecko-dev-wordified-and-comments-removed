@@ -3436,6 +3436,22 @@ _process_rust_program
 obj
 backend_file
 )
+            
+build_target
+=
+self
+.
+_build_target_for_obj
+(
+obj
+)
+            
+self
+.
+_compile_graph
+[
+build_target
+]
         
 elif
 isinstance
@@ -3452,6 +3468,22 @@ _process_host_rust_program
 obj
 backend_file
 )
+            
+build_target
+=
+self
+.
+_build_target_for_obj
+(
+obj
+)
+            
+self
+.
+_compile_graph
+[
+build_target
+]
         
 elif
 isinstance
