@@ -477,6 +477,9 @@ attribute
 any
 response
 ;
+[
+Throws
+]
 readonly
 attribute
 DOMString
