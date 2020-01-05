@@ -295,6 +295,10 @@ status
 (
 ICON_STATUS_UNKNOWN
 )
+rootIcon
+(
+0
+)
 {
 }
 nsCString
@@ -309,6 +313,9 @@ fetchMode
 ;
 uint16_t
 status
+;
+uint8_t
+rootIcon
 ;
 nsTArray
 <
