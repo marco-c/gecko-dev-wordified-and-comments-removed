@@ -33883,14 +33883,14 @@ aInvalidRegion
 )
 {
 const
-nsDisplayMaskGeometry
+nsDisplaySVGEffectGeometry
 *
 geometry
 =
 static_cast
 <
 const
-nsDisplayMaskGeometry
+nsDisplaySVGEffectGeometry
 *
 >
 (
