@@ -6675,6 +6675,25 @@ nullable
         
 typeName
 =
+"
+%
+s
+:
+:
+%
+s
+"
+%
+(
+CGDictionary
+.
+makeModuleName
+(
+type
+.
+inner
+)
+                               
 CGDictionary
 .
 makeDictionaryName
@@ -6682,6 +6701,7 @@ makeDictionaryName
 type
 .
 inner
+)
 )
         
 declType
