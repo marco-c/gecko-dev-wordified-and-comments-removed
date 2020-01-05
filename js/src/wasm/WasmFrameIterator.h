@@ -48,9 +48,6 @@ class
 DebugState
 ;
 class
-Frame
-;
-class
 Instance
 ;
 class
@@ -102,11 +99,6 @@ fp_
 ;
 Unwind
 unwind_
-;
-void
-*
-*
-unwoundAddressOfReturnAddress_
 ;
 void
 popFrame
@@ -198,14 +190,6 @@ codeRange_
 Instance
 *
 instance
-(
-)
-const
-;
-void
-*
-*
-unwoundAddressOfReturnAddress
 (
 )
 const
