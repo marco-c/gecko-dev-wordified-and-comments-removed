@@ -7439,6 +7439,14 @@ CreateSyncObject
 (
 SyncHandle
 aHandle
+#
+ifdef
+XP_WIN
+ID3D11Device
+*
+aDevice
+#
+endif
 )
 {
 if
@@ -7461,6 +7469,7 @@ SyncObjectD3D11
 >
 (
 aHandle
+aDevice
 )
 ;
 #
