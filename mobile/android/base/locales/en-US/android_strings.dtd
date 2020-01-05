@@ -9666,9 +9666,11 @@ Highlights
 <
 !
 ENTITY
-activity_stream_welcome_content
+activity_stream_welcome_content1
 "
-Firefox
+&
+brandShortName
+;
 now
 creates
 highlights
