@@ -2429,8 +2429,8 @@ column
 )
 ;
 reflowStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;
@@ -2484,8 +2484,8 @@ mAllowLineBreak
 )
 {
 aStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;
@@ -2881,8 +2881,8 @@ breakPriority
 )
 {
 aStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;
