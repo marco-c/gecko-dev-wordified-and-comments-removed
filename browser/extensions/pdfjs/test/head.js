@@ -15,7 +15,7 @@ url
 function
 *
 (
-url
+contentUrl
 )
 {
 yield
@@ -60,7 +60,7 @@ content
 .
 location
 =
-url
+contentUrl
 ;
 }
 )
