@@ -763,19 +763,8 @@ class_
 \
 real
 (
-Wasm
-49
-InitWasmClass
-CLASP
-(
-Wasm
-)
-)
-\
-real
-(
 WebAssembly
-50
+49
 InitWebAssemblyClass
 CLASP
 (
@@ -786,7 +775,7 @@ WebAssembly
 imaginary
 (
 WasmModule
-51
+50
 dummy
 dummy
 )
@@ -794,7 +783,7 @@ dummy
 imaginary
 (
 WasmInstance
-52
+51
 dummy
 dummy
 )
@@ -802,7 +791,7 @@ dummy
 imaginary
 (
 WasmMemory
-53
+52
 dummy
 dummy
 )
@@ -810,7 +799,7 @@ dummy
 imaginary
 (
 WasmTable
-54
+53
 dummy
 dummy
 )
@@ -822,7 +811,7 @@ imaginary
 )
 (
 Promise
-55
+54
 InitViaClassSpec
 OCLASP
 (
