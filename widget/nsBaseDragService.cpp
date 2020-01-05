@@ -380,8 +380,9 @@ nsBaseDragService
 nsBaseDragService
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsBaseDragService

@@ -26766,8 +26766,9 @@ nsChildWindow
 nsChildWindow
 (
 )
-{
-}
+=
+default
+;
 nsChildWindow
 :
 :
@@ -26775,8 +26776,9 @@ nsChildWindow
 nsChildWindow
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP_
 (
 void
