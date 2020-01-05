@@ -2600,7 +2600,6 @@ nested
 spans
 .
 html
-fails
 =
 =
 1138356
@@ -2625,7 +2624,6 @@ contents
 alignment
 .
 html
-fails
 =
 =
 1138356
