@@ -4030,7 +4030,7 @@ WatchdogMain
 this
 PR_PRIORITY_NORMAL
 PR_GLOBAL_THREAD
-PR_UNJOINABLE_THREAD
+PR_JOINABLE_THREAD
 0
 )
 ;
@@ -4102,6 +4102,11 @@ mShuttingDown
 )
 ;
 }
+PR_JoinThread
+(
+mThread
+)
+;
 mThread
 =
 nullptr
