@@ -5542,7 +5542,7 @@ codec
 .
 enabled
 "
-false
+true
 )
 ;
 pref
