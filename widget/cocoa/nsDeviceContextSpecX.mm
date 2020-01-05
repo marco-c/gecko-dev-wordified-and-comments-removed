@@ -1345,6 +1345,7 @@ aTop
 paperRect
 .
 top
+;
 *
 aLeft
 =
@@ -1358,6 +1359,7 @@ aBottom
 paperRect
 .
 bottom
+;
 *
 aRight
 =
