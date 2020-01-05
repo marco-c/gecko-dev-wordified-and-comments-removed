@@ -256,6 +256,9 @@ include
 .
 .
 /
+.
+.
+/
 components
 /
 style
