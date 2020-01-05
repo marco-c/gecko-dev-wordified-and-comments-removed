@@ -57062,9 +57062,6 @@ return
 false
 ;
 }
-nsIDocument
-:
-:
 FlashClassification
 nsDocument
 :
@@ -57499,9 +57496,6 @@ FlashClassification
 Unknown
 ;
 }
-nsIDocument
-:
-:
 FlashClassification
 nsDocument
 :
@@ -57695,9 +57689,6 @@ return
 classification
 ;
 }
-nsIDocument
-:
-:
 FlashClassification
 nsDocument
 :

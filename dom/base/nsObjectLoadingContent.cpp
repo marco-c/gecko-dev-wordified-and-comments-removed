@@ -14339,15 +14339,9 @@ topDoc
 false
 )
 ;
-nsIDocument
-:
-:
 FlashClassification
 documentClassification
 =
-nsIDocument
-:
-:
 FlashClassification
 :
 :
@@ -14376,9 +14370,6 @@ if
 documentClassification
 =
 =
-nsIDocument
-:
-:
 FlashClassification
 :
 :
@@ -14693,9 +14684,6 @@ return
 documentClassification
 =
 =
-nsIDocument
-:
-:
 FlashClassification
 :
 :
