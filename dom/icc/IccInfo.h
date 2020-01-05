@@ -203,9 +203,11 @@ mMnc
 nsString
 mSpn
 ;
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mIsDisplayNetworkNameRequired
 ;
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mIsDisplaySpnRequired
 ;
