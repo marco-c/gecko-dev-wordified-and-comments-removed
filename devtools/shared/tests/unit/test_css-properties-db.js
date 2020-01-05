@@ -149,7 +149,7 @@ this
 assertion
 run
 mach
-generate
+devtools
 -
 css
 -
