@@ -3937,6 +3937,13 @@ browser
 defaults
 /
 blocklists
+RESPATH
+/
+browser
+/
+defaults
+/
+pinning
 ;
 Warning
 :
