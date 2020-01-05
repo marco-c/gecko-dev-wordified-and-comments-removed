@@ -20,7 +20,7 @@ class
 ErrorTest
 :
 public
-PreprocessorTest
+SimplePreprocessorTest
 {
 }
 ;

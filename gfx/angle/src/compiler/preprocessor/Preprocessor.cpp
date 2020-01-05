@@ -114,6 +114,10 @@ diag
 DirectiveHandler
 *
 directiveHandler
+const
+PreprocessorSettings
+&
+settings
 )
 :
 diagnostics
@@ -132,6 +136,9 @@ tokenizer
 macroSet
 diag
 directiveHandler
+settings
+.
+maxMacroExpansionDepth
 )
 macroExpander
 (
@@ -140,6 +147,9 @@ directiveParser
 &
 macroSet
 diag
+settings
+.
+maxMacroExpansionDepth
 )
 {
 }
@@ -156,6 +166,10 @@ diagnostics
 DirectiveHandler
 *
 directiveHandler
+const
+PreprocessorSettings
+&
+settings
 )
 {
 mImpl
@@ -165,6 +179,7 @@ PreprocessorImpl
 (
 diagnostics
 directiveHandler
+settings
 )
 ;
 }

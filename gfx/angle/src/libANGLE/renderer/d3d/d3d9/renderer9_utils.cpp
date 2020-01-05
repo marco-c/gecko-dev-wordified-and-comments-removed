@@ -2954,6 +2954,13 @@ extensions
 >
 fence
 ;
+extensions
+-
+>
+copyTexture
+=
+true
+;
 limitations
 -
 >

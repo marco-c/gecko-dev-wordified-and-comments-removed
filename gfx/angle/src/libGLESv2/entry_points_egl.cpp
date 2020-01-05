@@ -8578,7 +8578,7 @@ CompressedCopyTextureCHROMIUM
 INSERT_PROC_ADDRESS
 (
 gl
-EnableExtensionANGLE
+RequestExtensionANGLE
 )
 ;
 INSERT_PROC_ADDRESS

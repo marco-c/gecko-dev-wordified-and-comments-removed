@@ -1354,9 +1354,9 @@ destId
 )
 ;
 GL_APICALL
-GLboolean
+void
 GL_APIENTRY
-EnableExtensionANGLE
+RequestExtensionANGLE
 (
 const
 GLchar

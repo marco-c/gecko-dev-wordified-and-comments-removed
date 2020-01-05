@@ -20,6 +20,9 @@ class
 TIntermTernary
 ;
 class
+TIntermDeclaration
+;
+class
 IntermNodePatternMatcher
 {
 public
@@ -45,6 +48,9 @@ kExpressionReturningArray
 kDynamicIndexingOfVectorOrMatrixInLValue
 =
 0x0004
+kMultiDeclaration
+=
+0x0008
 }
 ;
 IntermNodePatternMatcher
@@ -94,6 +100,14 @@ bool
 match
 (
 TIntermTernary
+*
+node
+)
+;
+bool
+match
+(
+TIntermDeclaration
 *
 node
 )

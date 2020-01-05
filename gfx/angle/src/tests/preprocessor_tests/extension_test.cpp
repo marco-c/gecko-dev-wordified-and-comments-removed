@@ -20,7 +20,7 @@ class
 ExtensionTest
 :
 public
-PreprocessorTest
+SimplePreprocessorTest
 {
 }
 ;

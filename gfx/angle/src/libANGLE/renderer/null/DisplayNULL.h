@@ -390,6 +390,10 @@ outCaps
 const
 override
 ;
+DeviceImpl
+*
+mDevice
+;
 }
 ;
 }

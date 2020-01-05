@@ -168,6 +168,17 @@ outRange
 )
 override
 ;
+private
+:
+std
+:
+:
+vector
+<
+uint8_t
+>
+mData
+;
 }
 ;
 }

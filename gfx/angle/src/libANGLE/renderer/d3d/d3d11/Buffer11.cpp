@@ -3078,13 +3078,6 @@ true
 )
 ;
 }
-mIdleness
-[
-usage
-]
-=
-0
-;
 ANGLE_TRY
 (
 updateBufferStorage

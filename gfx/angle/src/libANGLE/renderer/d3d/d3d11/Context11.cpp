@@ -467,6 +467,15 @@ state
 mRenderer
 )
 ;
+case
+GL_TEXTURE_2D_MULTISAMPLE
+:
+UNIMPLEMENTED
+(
+)
+;
+break
+;
 default
 :
 UNREACHABLE

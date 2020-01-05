@@ -14,13 +14,6 @@ random_utils
 .
 h
 "
-#
-include
-"
-Vector
-.
-h
-"
 using
 namespace
 angle
@@ -107,6 +100,8 @@ uint8_t
 vec
 .
 x
+(
+)
 *
 255
 .
@@ -125,6 +120,8 @@ uint8_t
 vec
 .
 y
+(
+)
 *
 255
 .
@@ -143,6 +140,8 @@ uint8_t
 vec
 .
 z
+(
+)
 *
 255
 .
@@ -161,6 +160,8 @@ uint8_t
 vec
 .
 w
+(
+)
 *
 255
 .

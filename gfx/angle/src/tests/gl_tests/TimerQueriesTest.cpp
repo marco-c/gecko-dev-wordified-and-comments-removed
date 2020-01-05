@@ -1621,11 +1621,6 @@ IsOpenGL
 IsWindows
 (
 )
-&
-&
-IsDebug
-(
-)
 )
 {
 std

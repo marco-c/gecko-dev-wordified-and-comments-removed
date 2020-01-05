@@ -266,11 +266,6 @@ AddDefaultReturnStatements
 root
 )
 ;
-SeparateDeclarations
-(
-root
-)
-;
 SimplifyLoopConditions
 (
 root
@@ -288,6 +283,11 @@ IntermNodePatternMatcher
 :
 :
 kDynamicIndexingOfVectorOrMatrixInLValue
+|
+IntermNodePatternMatcher
+:
+:
+kMultiDeclaration
 getTemporaryIndex
 (
 )
@@ -297,6 +297,11 @@ getSymbolTable
 getShaderVersion
 (
 )
+)
+;
+SeparateDeclarations
+(
+root
 )
 ;
 SplitSequenceOperator

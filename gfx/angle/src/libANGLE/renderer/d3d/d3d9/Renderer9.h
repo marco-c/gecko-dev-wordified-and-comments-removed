@@ -1247,6 +1247,15 @@ outExectuable
 )
 override
 ;
+gl
+:
+:
+Error
+ensureHLSLCompilerInitialized
+(
+)
+override
+;
 UniformStorageD3D
 *
 createUniformStorage

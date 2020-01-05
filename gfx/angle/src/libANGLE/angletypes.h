@@ -1301,5 +1301,12 @@ GL_NONE
 }
 }
 }
+namespace
+gl
+{
+class
+ContextState
+;
+}
 #
 endif

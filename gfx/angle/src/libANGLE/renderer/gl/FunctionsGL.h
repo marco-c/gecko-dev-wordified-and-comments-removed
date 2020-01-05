@@ -2257,6 +2257,9 @@ eglImageTargetRenderbufferStorageOES
 PFNGLEGLIMAGETARGETTEXTURE2DOESPROC
 eglImageTargetTexture2DOES
 ;
+PFNGLDISCARDFRAMEBUFFEREXTPROC
+discardFramebuffer
+;
 private
 :
 void
