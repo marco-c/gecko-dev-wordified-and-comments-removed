@@ -15973,6 +15973,13 @@ mType
 eStyleContentType_Image
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mContent
 .
 mImage
@@ -15998,6 +16005,13 @@ mType
 eStyleContentType_Counters
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mContent
 .
 mCounters
