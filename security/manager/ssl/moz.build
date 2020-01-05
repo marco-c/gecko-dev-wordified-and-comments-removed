@@ -138,11 +138,6 @@ nsICertOverrideService
 idl
 '
 '
-nsICertPickDialogs
-.
-idl
-'
-'
 nsIClientAuthDialogs
 .
 idl
@@ -259,11 +254,6 @@ idl
 '
 '
 nsIU2FToken
-.
-idl
-'
-'
-nsIUserCertPicker
 .
 idl
 '
@@ -482,11 +472,6 @@ cpp
 '
 '
 nsCertOverrideService
-.
-cpp
-'
-'
-nsCertPicker
 .
 cpp
 '

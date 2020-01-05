@@ -998,12 +998,6 @@ CERT_DestroyCertList
 )
 MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (
-UniqueCERTCertNicknames
-CERTCertNicknames
-CERT_FreeNicknames
-)
-MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
-(
 UniqueCERTName
 CERTName
 CERT_DestroyName
