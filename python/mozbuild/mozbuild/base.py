@@ -5255,7 +5255,7 @@ os
 .
 path
 .
-isdir
+exists
 (
 os
 .
