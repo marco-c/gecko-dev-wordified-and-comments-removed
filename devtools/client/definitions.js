@@ -681,7 +681,7 @@ inspector
 /
 inspector
 .
-xhtml
+html
 "
 label
 :
