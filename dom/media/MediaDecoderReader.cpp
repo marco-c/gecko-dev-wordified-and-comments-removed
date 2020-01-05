@@ -698,7 +698,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-MediaDataPromise
+VideoDataPromise
 >
 MediaDecoderReader
 :
@@ -715,10 +715,7 @@ OnTaskQueue
 )
 ;
 typedef
-MediaDecoderReader
-:
-:
-MediaDataPromise
+VideoDataPromise
 PromiseType
 ;
 RefPtr
@@ -1338,7 +1335,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-MediaDataPromise
+VideoDataPromise
 >
 MediaDecoderReader
 :
@@ -1353,7 +1350,7 @@ aTimeThreshold
 {
 RefPtr
 <
-MediaDataPromise
+VideoDataPromise
 >
 p
 =
@@ -1531,7 +1528,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-MediaDataPromise
+AudioDataPromise
 >
 MediaDecoderReader
 :
@@ -1542,7 +1539,7 @@ RequestAudioData
 {
 RefPtr
 <
-MediaDataPromise
+AudioDataPromise
 >
 p
 =

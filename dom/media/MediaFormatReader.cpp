@@ -7336,7 +7336,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-MediaDataPromise
+VideoDataPromise
 >
 MediaFormatReader
 :
@@ -7461,7 +7461,7 @@ track
 )
 ;
 return
-MediaDataPromise
+VideoDataPromise
 :
 :
 CreateAndReject
@@ -7492,7 +7492,7 @@ Rejecting
 )
 ;
 return
-MediaDataPromise
+VideoDataPromise
 :
 :
 CreateAndReject
@@ -7519,7 +7519,7 @@ MediaFormatReader
 )
 ;
 return
-MediaDataPromise
+VideoDataPromise
 :
 :
 CreateAndReject
@@ -7566,7 +7566,7 @@ timeThreshold
 {
 RefPtr
 <
-MediaDataPromise
+VideoDataPromise
 >
 p
 =
@@ -7588,7 +7588,7 @@ p
 }
 RefPtr
 <
-MediaDataPromise
+VideoDataPromise
 >
 p
 =
@@ -8024,7 +8024,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-MediaDataPromise
+AudioDataPromise
 >
 MediaFormatReader
 :
@@ -8149,7 +8149,7 @@ track
 )
 ;
 return
-MediaDataPromise
+AudioDataPromise
 :
 :
 CreateAndReject
@@ -8180,7 +8180,7 @@ Rejecting
 )
 ;
 return
-MediaDataPromise
+AudioDataPromise
 :
 :
 CreateAndReject
@@ -8207,7 +8207,7 @@ MediaFormatReader
 )
 ;
 return
-MediaDataPromise
+AudioDataPromise
 :
 :
 CreateAndReject
@@ -8219,7 +8219,7 @@ __func__
 }
 RefPtr
 <
-MediaDataPromise
+AudioDataPromise
 >
 p
 =
@@ -12573,7 +12573,7 @@ mAudio
 .
 ResolvePromise
 (
-aData
+audioData
 __func__
 )
 ;
@@ -12683,7 +12683,7 @@ mVideo
 .
 ResolvePromise
 (
-aData
+videoData
 __func__
 )
 ;
