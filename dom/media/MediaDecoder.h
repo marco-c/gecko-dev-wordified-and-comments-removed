@@ -1030,7 +1030,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -1217,7 +1217,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
@@ -1345,7 +1345,7 @@ double
 aValue
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsShutdown
