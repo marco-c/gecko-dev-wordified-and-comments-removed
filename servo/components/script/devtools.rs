@@ -382,6 +382,15 @@ ptr
 is_double
 (
 )
+|
+|
+rval
+.
+ptr
+.
+is_int32
+(
+)
 {
 EvaluateJSReply
 :
