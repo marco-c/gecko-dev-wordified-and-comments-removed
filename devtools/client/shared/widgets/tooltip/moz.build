@@ -108,6 +108,11 @@ ImageTooltipHelper
 js
 '
 '
+InlineTooltip
+.
+js
+'
+'
 SwatchBasedEditorTooltip
 .
 js
