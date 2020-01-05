@@ -1267,8 +1267,6 @@ void
 BeginCycleCollectionCallback
 (
 )
-=
-0
 ;
 virtual
 void
@@ -1278,8 +1276,6 @@ CycleCollectorResults
 &
 aResults
 )
-=
-0
 ;
 virtual
 void
