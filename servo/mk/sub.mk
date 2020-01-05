@@ -20,6 +20,10 @@ SLOW_TESTS
 \
 mozjs
 \
+pixman
+\
+cairo
+\
 (
 NULL
 )
