@@ -30,8 +30,6 @@ react
 const
 GripMessageBody
 =
-createFactory
-(
 require
 (
 "
@@ -55,7 +53,6 @@ message
 -
 body
 "
-)
 )
 ;
 const
@@ -180,6 +177,13 @@ PropTypes
 number
 .
 isRequired
+timestampsVisible
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 ConsoleApiCall
@@ -209,6 +213,7 @@ open
 tableData
 serviceContainer
 indent
+timestampsVisible
 }
 =
 props
@@ -499,6 +504,7 @@ serviceContainer
 dispatch
 indent
 timeStamp
+timestampsVisible
 }
 )
 ;

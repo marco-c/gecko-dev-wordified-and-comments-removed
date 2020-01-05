@@ -27,7 +27,6 @@ loader
 }
 const
 {
-createFactory
 PropTypes
 }
 =
@@ -49,8 +48,6 @@ react
 const
 VariablesViewLink
 =
-createFactory
-(
 require
 (
 "
@@ -74,7 +71,6 @@ view
 -
 link
 "
-)
 )
 ;
 const
@@ -365,13 +361,6 @@ mode
 )
 ;
 }
-function
-cleanupStyle
-(
-userProvidedStyle
-createElement
-)
-{
 const
 allowedStylesRegex
 =
@@ -530,6 +519,13 @@ file
 gi
 ]
 ;
+function
+cleanupStyle
+(
+userProvidedStyle
+createElement
+)
+{
 let
 dummy
 =
