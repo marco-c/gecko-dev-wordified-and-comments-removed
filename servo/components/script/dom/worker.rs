@@ -1139,6 +1139,9 @@ new
 self
 )
 ;
+let
+_
+=
 self
 .
 sender
@@ -1155,10 +1158,6 @@ DOMMessage
 data
 )
 )
-)
-.
-unwrap
-(
 )
 ;
 Ok

@@ -1,4 +1,10 @@
 use
+blob_url_store
+:
+:
+BlobURLStoreMsg
+;
+use
 ipc_channel
 :
 :
@@ -151,6 +157,10 @@ SelectedFileId
 DeleteFileID
 (
 SelectedFileId
+)
+BlobURLStoreMsg
+(
+BlobURLStoreMsg
 )
 LoadBlob
 (
