@@ -113,6 +113,13 @@ class
 ImageContainer
 ;
 }
+namespace
+dom
+{
+class
+RemoteDecoderModule
+;
+}
 class
 MediaDataDecoder
 ;
@@ -651,6 +658,13 @@ H264Converter
 friend
 class
 PDMFactory
+;
+friend
+class
+dom
+:
+:
+RemoteDecoderModule
 ;
 virtual
 already_AddRefed
