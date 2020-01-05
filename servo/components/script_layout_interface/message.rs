@@ -314,6 +314,12 @@ MarginStyleQuery
 (
 TrustedNodeAddress
 )
+TextIndexQuery
+(
+TrustedNodeAddress
+i32
+i32
+)
 }
 pub
 struct
