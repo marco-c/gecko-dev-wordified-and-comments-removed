@@ -120,6 +120,9 @@ attributes
 "
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -264,6 +267,9 @@ preference
 "
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -428,6 +434,9 @@ preferences
 "
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -1079,6 +1088,9 @@ toFetch
 "
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -1331,6 +1343,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (

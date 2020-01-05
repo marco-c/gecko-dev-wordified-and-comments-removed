@@ -1858,9 +1858,12 @@ return
 "
 ;
 }
+else
+{
 return
 null
 ;
+}
 }
 set
 syncKey

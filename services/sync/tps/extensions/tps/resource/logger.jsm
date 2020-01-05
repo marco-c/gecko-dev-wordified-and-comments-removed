@@ -215,7 +215,7 @@ this
 .
 _file
 fileflags
-0o666
+0666
 0
 )
 ;

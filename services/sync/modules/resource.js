@@ -655,11 +655,14 @@ found
 for
 (
 let
+[
 key
+value
+]
 of
 Object
 .
-values
+entries
 (
 headers
 )

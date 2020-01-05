@@ -1164,9 +1164,12 @@ sync
 "
 ;
 }
+else
+{
 return
 param
 ;
+}
 }
 )
 ;

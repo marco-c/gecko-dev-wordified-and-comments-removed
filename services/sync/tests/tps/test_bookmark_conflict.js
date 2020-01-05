@@ -398,6 +398,7 @@ folderd
 ]
 }
 ;
+var
 bookmarksToDelete
 =
 {

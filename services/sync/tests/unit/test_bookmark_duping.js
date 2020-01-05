@@ -1027,6 +1027,9 @@ Folder
 ;
 let
 {
+id
+:
+bmk1_id
 guid
 :
 bmk1_guid
@@ -1339,6 +1342,9 @@ Folder
 ;
 let
 {
+id
+:
+bmk1_id
 guid
 :
 bmk1_guid
@@ -1751,6 +1757,9 @@ Folder
 ;
 let
 {
+id
+:
+bmk1_id
 guid
 :
 bmk1_guid
@@ -2194,6 +2203,9 @@ Folder
 ;
 let
 {
+id
+:
+bmk1_id
 guid
 :
 bmk1_guid
@@ -2221,6 +2233,9 @@ Firefox
 ;
 let
 {
+id
+:
+folder2_id
 guid
 :
 folder2_guid
@@ -2650,6 +2665,9 @@ Folder
 ;
 let
 {
+id
+:
+bmk1_id
 guid
 :
 bmk1_guid
@@ -2677,6 +2695,9 @@ Firefox
 ;
 let
 {
+id
+:
+folder2_id
 guid
 :
 folder2_guid
@@ -3109,6 +3130,9 @@ Folder
 ;
 let
 {
+id
+:
+bmk1_id
 guid
 :
 bmk1_guid
@@ -3136,6 +3160,9 @@ Firefox
 ;
 let
 {
+id
+:
+folder2_id
 guid
 :
 folder2_guid
@@ -3687,6 +3714,9 @@ try
 {
 let
 {
+id
+:
+folder1_id
 guid
 :
 folder1_guid

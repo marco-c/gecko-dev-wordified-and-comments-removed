@@ -319,6 +319,11 @@ checkLanguagePref
 (
 )
 {
+var
+_done
+=
+false
+;
 CommonUtils
 .
 nextTick
@@ -981,6 +986,12 @@ baseURI
 /
 foo
 "
+;
+let
+postData
+=
+{
+}
 ;
 let
 request

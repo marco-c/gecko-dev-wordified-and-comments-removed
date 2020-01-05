@@ -1221,7 +1221,7 @@ id
 ;
 do_check_false
 (
-newAddon
+addon
 .
 userDisabled
 )
@@ -1325,7 +1325,7 @@ id
 ;
 do_check_false
 (
-newAddon
+addon
 .
 userDisabled
 )
@@ -2748,6 +2748,9 @@ true
 false
 )
 ;
+let
+failed
+=
 store
 .
 applyIncomingBatch

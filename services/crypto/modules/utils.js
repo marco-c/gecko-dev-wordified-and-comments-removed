@@ -649,6 +649,13 @@ info
 len
 )
 {
+const
+BLOCKSIZE
+=
+256
+/
+8
+;
 if
 (
 typeof
@@ -1344,6 +1351,8 @@ keyLength
 )
 ;
 }
+else
+{
 return
 CryptoUtils
 .
@@ -1358,6 +1367,7 @@ salt
 keyLength
 )
 ;
+}
 }
 computeHTTPMACSHA1
 :

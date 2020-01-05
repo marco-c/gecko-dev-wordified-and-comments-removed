@@ -3148,6 +3148,8 @@ stringify
 }
 ;
 }
+else
+{
 didReturn200
 =
 true
@@ -3213,6 +3215,7 @@ duration
 )
 }
 ;
+}
 }
 )
 ;
@@ -4857,6 +4860,9 @@ BrowserIDManager
 (
 )
 ;
+let
+config
+=
 makeIdentityConfig
 (
 )

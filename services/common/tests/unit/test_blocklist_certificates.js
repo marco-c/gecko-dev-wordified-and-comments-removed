@@ -439,6 +439,9 @@ recordsPath
 handleResponse
 )
 ;
+let
+result
+=
 yield
 OneCRLBlocklistClient
 .

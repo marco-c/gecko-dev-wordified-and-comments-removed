@@ -756,9 +756,12 @@ return
 false
 ;
 }
+else
+{
 return
 true
 ;
+}
 }
 .
 bind
@@ -1516,7 +1519,10 @@ try
 listener
 .
 changeListener
+.
+call
 (
+listener
 date
 change
 state

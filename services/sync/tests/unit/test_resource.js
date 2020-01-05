@@ -3537,6 +3537,15 @@ _onProgress
 onProgress
 ;
 let
+oldWarn
+=
+res18
+.
+_log
+.
+warn
+;
+let
 warnings
 =
 [
