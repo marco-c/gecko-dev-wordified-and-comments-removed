@@ -316,6 +316,8 @@ PartialEq
 Copy
 Debug
 HeapSizeOf
+Hash
+Eq
 Deserialize
 Serialize
 )
@@ -331,6 +333,10 @@ uintptr_t
 impl
 OpaqueNode
 {
+#
+[
+inline
+]
 pub
 fn
 id
