@@ -451,7 +451,7 @@ nsViewVisibility
 aVisibilityFlag
 )
 {
-nsView
+auto
 *
 v
 =
