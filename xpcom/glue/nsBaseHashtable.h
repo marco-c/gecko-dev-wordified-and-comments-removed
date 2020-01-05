@@ -294,7 +294,9 @@ ent
 )
 {
 return
-0
+UserDataType
+{
+}
 ;
 }
 return
