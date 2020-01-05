@@ -49,11 +49,11 @@ document
 .
 getElementById
 (
-'
+"
 bookmarks
 -
 view
-'
+"
 )
 ;
 if

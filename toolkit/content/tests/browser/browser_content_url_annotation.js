@@ -63,9 +63,9 @@ dirsvc
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile
@@ -191,7 +191,7 @@ function
 {
 dump
 (
-'
+"
 ContentTask
 starting
 .
@@ -199,7 +199,7 @@ starting
 .
 \
 n
-'
+"
 )
 ;
 yield
@@ -224,12 +224,12 @@ listener
 {
 dump
 (
-'
+"
 Got
 RedirectDone
 \
 n
-'
+"
 )
 ;
 removeEventListener

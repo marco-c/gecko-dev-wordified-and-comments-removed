@@ -4,7 +4,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -16,7 +16,7 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 XPCOMUtils

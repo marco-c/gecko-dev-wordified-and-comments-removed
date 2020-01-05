@@ -134,11 +134,11 @@ MozAfterPaint
 :
 sendAsyncMessage
 (
-'
+"
 gfxSanity
 :
 ContentLoaded
-'
+"
 )
 ;
 removeEventListener
@@ -247,11 +247,11 @@ else
 {
 sendAsyncMessage
 (
-'
+"
 gfxSanity
 :
 ContentLoaded
-'
+"
 )
 ;
 }

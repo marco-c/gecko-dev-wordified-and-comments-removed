@@ -182,9 +182,9 @@ document
 .
 querySelector
 (
-'
+"
 a
-'
+"
 )
 .
 click

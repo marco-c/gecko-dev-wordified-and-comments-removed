@@ -96,9 +96,9 @@ e
 {
 removeEventListener
 (
-'
+"
 AboutNetErrorLoad
-'
+"
 listener
 false
 true
@@ -112,9 +112,9 @@ resolve
 ;
 addEventListener
 (
-'
+"
 AboutNetErrorLoad
-'
+"
 listener
 false
 true
@@ -181,9 +181,9 @@ contentDocument
 .
 getElementsByTagName
 (
-'
+"
 iframe
-'
+"
 )
 [
 0

@@ -218,9 +218,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 atob
-'
+"
 ]
 )
 ;

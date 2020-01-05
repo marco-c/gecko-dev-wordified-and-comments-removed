@@ -1221,11 +1221,11 @@ if
 aInputName
 =
 =
-'
+"
 searchbar
 -
 history
-'
+"
 &
 &
 aField
@@ -1283,7 +1283,7 @@ this
 .
 log
 (
-'
+"
 autoCompleteSearch
 not
 allowed
@@ -1292,7 +1292,7 @@ to
 autcomplete
 =
 off
-'
+"
 )
 ;
 if

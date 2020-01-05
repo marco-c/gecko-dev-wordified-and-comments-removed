@@ -66,7 +66,7 @@ blocked
 false
 url
 :
-'
+"
 http
 :
 /
@@ -76,7 +76,7 @@ example
 com
 /
 bug523784_1
-'
+"
 }
 ]
 }
@@ -340,7 +340,7 @@ getAttribute
 href
 "
 )
-'
+"
 http
 :
 /
@@ -350,7 +350,7 @@ example
 com
 /
 bug523784_1
-'
+"
 "
 More
 Info
@@ -673,7 +673,7 @@ blocked
 false
 url
 :
-'
+"
 http
 :
 /
@@ -683,7 +683,7 @@ example
 com
 /
 bug523784_2
-'
+"
 }
 )
 ;
@@ -733,7 +733,7 @@ blocked
 false
 url
 :
-'
+"
 http
 :
 /
@@ -743,7 +743,7 @@ example
 com
 /
 bug523784_3
-'
+"
 }
 )
 ;

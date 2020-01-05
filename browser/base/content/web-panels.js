@@ -110,11 +110,11 @@ document
 .
 getElementById
 (
-'
+"
 sidebar
 -
 throbber
-'
+"
 )
 .
 setAttribute
@@ -157,11 +157,11 @@ document
 .
 getElementById
 (
-'
+"
 sidebar
 -
 throbber
-'
+"
 )
 .
 removeAttribute

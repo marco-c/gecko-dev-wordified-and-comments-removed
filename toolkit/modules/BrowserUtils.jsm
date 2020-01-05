@@ -113,9 +113,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 URL
-'
+"
 ]
 )
 ;
@@ -1047,9 +1047,9 @@ values
 .
 indexOf
 (
-'
+"
 noreferrer
-'
+"
 )
 !
 =

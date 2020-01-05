@@ -102,9 +102,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 SyncPingSchema
-'
+"
 function
 (
 )
@@ -279,9 +279,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 SyncPingValidator
-'
+"
 function
 (
 )

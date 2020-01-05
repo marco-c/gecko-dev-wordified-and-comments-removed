@@ -606,9 +606,9 @@ errno
 =
 =
 =
-'
+"
 number
-'
+"
 )
 {
 body

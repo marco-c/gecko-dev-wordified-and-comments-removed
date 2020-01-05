@@ -1448,7 +1448,7 @@ addonsTab
 ;
 BrowserOpenAddonsMgr
 (
-'
+"
 addons
 :
 /
@@ -1456,7 +1456,7 @@ addons
 list
 /
 service
-'
+"
 )
 ;
 gBrowser

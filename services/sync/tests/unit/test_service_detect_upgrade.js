@@ -212,9 +212,9 @@ meta_global
 new
 ServerWBO
 (
-'
+"
 global
-'
+"
 )
 ;
 let
@@ -1496,9 +1496,9 @@ meta_global
 new
 ServerWBO
 (
-'
+"
 global
-'
+"
 )
 ;
 let

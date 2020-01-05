@@ -2343,7 +2343,7 @@ serviceExports
 const
 userAgentID
 =
-'
+"
 bd744428
 -
 f125
@@ -2353,12 +2353,12 @@ f125
 b6d0
 -
 dd0c9845837f
-'
+"
 ;
 const
 channelID
 =
-'
+"
 0ef2ad4a
 -
 6c49
@@ -2368,7 +2368,7 @@ channelID
 af6e
 -
 95d2425276bf
-'
+"
 ;
 let
 db
@@ -2428,9 +2428,9 @@ stringify
 {
 messageType
 :
-'
+"
 hello
-'
+"
 status
 :
 200
@@ -2486,7 +2486,7 @@ put
 channelID
 pushEndpoint
 :
-'
+"
 https
 :
 /
@@ -2500,7 +2500,7 @@ update
 clear
 -
 success
-'
+"
 scope
 :
 TEST_URL
@@ -2509,8 +2509,8 @@ version
 1
 originAttributes
 :
-'
-'
+"
+"
 quota
 :
 Infinity

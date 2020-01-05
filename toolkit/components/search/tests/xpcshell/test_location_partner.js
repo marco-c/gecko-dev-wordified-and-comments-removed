@@ -47,11 +47,11 @@ distribution
 .
 id
 "
-'
+"
 partner
 -
 1
-'
+"
 )
 ;
 setUpGeoDefaults

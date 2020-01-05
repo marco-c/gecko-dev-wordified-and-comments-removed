@@ -25,7 +25,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -37,14 +37,14 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -56,7 +56,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 XPCOMUtils
@@ -404,7 +404,7 @@ channel
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -418,7 +418,7 @@ stream
 channel
 ;
 1
-'
+"
 ]
 .
 createInstance

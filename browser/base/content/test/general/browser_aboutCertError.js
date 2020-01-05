@@ -3086,8 +3086,8 @@ length
 var
 derString
 =
-'
-'
+"
+"
 ;
 for
 (

@@ -123,9 +123,9 @@ reject
 ;
 do_print
 (
-'
+"
 Removing
-'
+"
 +
 tmpFilePath
 )

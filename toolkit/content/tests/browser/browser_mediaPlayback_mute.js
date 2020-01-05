@@ -123,9 +123,9 @@ doc
 .
 getElementsByTagName
 (
-'
+"
 audio
-'
+"
 )
 ;
 if
@@ -151,9 +151,9 @@ doc
 .
 getElementsByTagName
 (
-'
+"
 iframe
-'
+"
 )
 ;
 var
@@ -172,9 +172,9 @@ contentDocument
 .
 getElementsByTagName
 (
-'
+"
 audio
-'
+"
 )
 ;
 return

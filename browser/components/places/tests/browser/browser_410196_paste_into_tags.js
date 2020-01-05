@@ -632,9 +632,9 @@ is
 tagNode
 .
 title
-'
+"
 foo
-'
+"
 "
 tagNode
 title

@@ -30,7 +30,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -42,14 +42,14 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -61,7 +61,7 @@ modules
 ContentPrefInstance
 .
 jsm
-'
+"
 )
 ;
 const

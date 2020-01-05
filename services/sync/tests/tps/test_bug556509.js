@@ -88,9 +88,9 @@ Mozilla
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -112,9 +112,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync

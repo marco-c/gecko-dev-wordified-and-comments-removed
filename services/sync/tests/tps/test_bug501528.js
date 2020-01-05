@@ -220,9 +220,9 @@ secretlogin
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Passwords
@@ -238,9 +238,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Passwords
@@ -256,9 +256,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Sync
@@ -289,9 +289,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync

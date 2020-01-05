@@ -25,7 +25,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -37,7 +37,7 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 Services

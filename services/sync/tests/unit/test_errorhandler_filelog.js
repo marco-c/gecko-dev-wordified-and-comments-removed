@@ -172,11 +172,11 @@ Prefs
 .
 get
 (
-'
+"
 errorhandler
 .
 networkFailureReportTimeout
-'
+"
 )
 *
 2

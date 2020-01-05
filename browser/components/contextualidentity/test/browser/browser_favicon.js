@@ -527,9 +527,9 @@ gHttpServer
 .
 registerPathHandler
 (
-'
+"
 /
-'
+"
 loadIndexHandler
 )
 ;
@@ -537,12 +537,12 @@ gHttpServer
 .
 registerPathHandler
 (
-'
+"
 /
 favicon
 .
 png
-'
+"
 loadFaviconHandler
 )
 ;

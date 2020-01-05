@@ -723,9 +723,9 @@ aElement
 tagName
 =
 =
-'
+"
 INPUT
-'
+"
 &
 &
 (
@@ -734,9 +734,9 @@ aElement
 type
 =
 =
-'
+"
 radio
-'
+"
 |
 |
 aElement
@@ -744,9 +744,9 @@ aElement
 type
 =
 =
-'
+"
 checkbox
-'
+"
 )
 )
 {
@@ -787,9 +787,9 @@ style
 direction
 =
 =
-'
+"
 rtl
-'
+"
 )
 {
 offset

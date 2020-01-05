@@ -773,9 +773,9 @@ if
 key
 =
 =
-'
+"
 authorization
-'
+"
 )
 {
 this

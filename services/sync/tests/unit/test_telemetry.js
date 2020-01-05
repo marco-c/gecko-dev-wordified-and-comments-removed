@@ -1508,9 +1508,9 @@ flying
 new
 ServerWBO
 (
-'
+"
 flying
-'
+"
 )
 ;
 let
@@ -2006,12 +2006,12 @@ i
 let
 id
 =
-'
+"
 record
 -
 no
 -
-'
+"
 +
 i
 ;

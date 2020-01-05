@@ -527,9 +527,9 @@ false
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Passwords
@@ -563,9 +563,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -593,9 +593,9 @@ bookmarks_initial
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Prefs

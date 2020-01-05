@@ -418,9 +418,9 @@ Today
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -442,9 +442,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -477,9 +477,9 @@ skipValidation
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Sync
@@ -496,9 +496,9 @@ bookmarks_initial
 ;
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync

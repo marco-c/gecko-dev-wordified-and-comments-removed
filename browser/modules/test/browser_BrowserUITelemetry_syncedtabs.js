@@ -510,9 +510,9 @@ SidebarUI
 .
 show
 (
-'
+"
 viewTabsSidebar
-'
+"
 )
 ;
 let

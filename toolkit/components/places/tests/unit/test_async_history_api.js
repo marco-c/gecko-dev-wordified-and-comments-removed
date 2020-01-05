@@ -3367,10 +3367,10 @@ placeInfo
 .
 placeId
 0
-'
+"
 /
 /
-'
+"
 )
 ;
 do_check_eq

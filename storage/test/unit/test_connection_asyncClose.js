@@ -171,12 +171,12 @@ db
 ok
 (
 true
-'
+"
 closed
 sync
 connection
 asynchronously
-'
+"
 )
 ;
 }
@@ -213,7 +213,7 @@ then
 ok
 (
 false
-'
+"
 we
 should
 have
@@ -228,7 +228,7 @@ test
 is
 broken
 !
-'
+"
 )
 ;
 }
@@ -240,7 +240,7 @@ broken
 ok
 (
 true
-'
+"
 correctly
 failed
 to
@@ -251,7 +251,7 @@ bg
 asyncClose
 should
 happen
-'
+"
 )
 ;
 }
@@ -288,7 +288,7 @@ asyncClose
 ok
 (
 true
-'
+"
 if
 we
 shutdown
@@ -300,7 +300,7 @@ crash
 then
 we
 succeeded
-'
+"
 )
 ;
 }

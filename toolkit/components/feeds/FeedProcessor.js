@@ -5081,8 +5081,8 @@ chars
 .
 indexOf
 (
-'
-'
+"
+"
 )
 )
 author

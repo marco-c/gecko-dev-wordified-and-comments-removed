@@ -163,9 +163,9 @@ bar_baz
 %
 20chees
 "
-'
+"
 /
-'
+"
 )
 ;
 do_check_eq
@@ -276,9 +276,9 @@ LATIN1_AE
 /
 _ba
 "
-'
+"
 /
-'
+"
 )
 ;
 do_check_eq

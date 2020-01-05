@@ -3258,10 +3258,10 @@ searchWithHeader
 .
 querySelector
 (
-'
+"
 .
 contentSearchSearchWithHeaderSearchText
-'
+"
 )
 .
 textContent

@@ -215,11 +215,11 @@ contentDocument
 .
 createProcessingInstruction
 (
-'
+"
 xml
 -
 stylesheet
-'
+"
 '
 href
 =
@@ -1762,10 +1762,10 @@ contentDocument
 .
 querySelectorAll
 (
-'
+"
 .
 largeDialogContainer
-'
+"
 )
 ;
 for

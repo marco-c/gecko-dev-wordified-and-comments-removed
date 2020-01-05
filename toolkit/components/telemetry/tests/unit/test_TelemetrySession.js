@@ -3272,9 +3272,9 @@ Assert
 .
 ok
 (
-'
+"
 MEMORY_JS_GC_HEAP
-'
+"
 in
 payload
 .
@@ -3285,9 +3285,9 @@ Assert
 .
 ok
 (
-'
+"
 MEMORY_JS_COMPARTMENTS_SYSTEM
-'
+"
 in
 payload
 .

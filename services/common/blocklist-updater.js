@@ -72,9 +72,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 fetch
-'
+"
 ]
 )
 ;

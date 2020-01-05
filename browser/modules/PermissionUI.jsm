@@ -137,7 +137,7 @@ strings
 .
 createBundle
 (
-'
+"
 chrome
 :
 /
@@ -149,7 +149,7 @@ locale
 brand
 .
 properties
-'
+"
 )
 ;
 }
@@ -174,7 +174,7 @@ strings
 .
 createBundle
 (
-'
+"
 chrome
 :
 /
@@ -186,7 +186,7 @@ locale
 browser
 .
 properties
-'
+"
 )
 ;
 }
@@ -706,9 +706,9 @@ options
 .
 hasOwnProperty
 (
-'
+"
 displayURI
-'
+"
 )
 |
 |

@@ -625,9 +625,9 @@ dirsvc
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile
@@ -1120,9 +1120,9 @@ dirsvc
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile

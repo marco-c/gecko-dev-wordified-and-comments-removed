@@ -14,9 +14,9 @@ interfaces
 ;
 addMessageListener
 (
-'
+"
 setTimeout
-'
+"
 msg
 =
 >
@@ -26,7 +26,7 @@ timer
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -34,7 +34,7 @@ org
 timer
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -54,9 +54,9 @@ _
 {
 sendAsyncMessage
 (
-'
+"
 timeout
-'
+"
 )
 ;
 }
@@ -75,8 +75,8 @@ TYPE_ONE_SHOT
 ;
 sendAsyncMessage
 (
-'
+"
 ready
-'
+"
 )
 ;

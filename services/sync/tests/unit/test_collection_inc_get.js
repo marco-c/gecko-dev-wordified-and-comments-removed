@@ -250,8 +250,8 @@ do_check_eq
 stream
 .
 _data
-'
-'
+"
+"
 )
 ;
 do_check_true
@@ -363,8 +363,8 @@ do_check_eq
 stream
 .
 _data
-'
-'
+"
+"
 )
 ;
 do_check_true
@@ -771,8 +771,8 @@ do_check_eq
 stream
 .
 _data
-'
-'
+"
+"
 )
 ;
 do_check_true
@@ -1061,8 +1061,8 @@ do_check_eq
 stream
 .
 _data
-'
-'
+"
+"
 )
 ;
 do_check_true
@@ -1435,8 +1435,8 @@ do_check_eq
 stream
 .
 _data
-'
-'
+"
+"
 )
 ;
 do_check_true
@@ -1467,8 +1467,8 @@ stream
 _data
 +
 =
-'
-'
+"
+"
 ;
 coll
 .

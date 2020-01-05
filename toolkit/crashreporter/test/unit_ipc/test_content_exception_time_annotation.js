@@ -91,9 +91,9 @@ extra
 {
 do_check_true
 (
-'
+"
 OOMAllocationSize
-'
+"
 in
 extra
 )

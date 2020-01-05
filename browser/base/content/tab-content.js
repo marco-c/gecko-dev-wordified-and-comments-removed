@@ -666,9 +666,9 @@ chromeGlobal
 .
 addEventListener
 (
-'
+"
 AboutHomeLoad
-'
+"
 this
 false
 true

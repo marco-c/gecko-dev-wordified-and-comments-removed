@@ -39,12 +39,12 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 File
-'
-'
+"
+"
 FileReader
-'
+"
 ]
 )
 ;

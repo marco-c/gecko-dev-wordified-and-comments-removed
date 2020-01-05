@@ -42,9 +42,9 @@ prop
 ]
 =
 =
-'
+"
 function
-'
+"
 )
 continue
 ;

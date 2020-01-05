@@ -371,9 +371,9 @@ head
 .
 getElementsByTagName
 (
-'
+"
 link
-'
+"
 )
 [
 0

@@ -93,10 +93,10 @@ result
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 .
 map

@@ -205,9 +205,9 @@ sinon
 spy
 (
 view
-'
+"
 render
-'
+"
 )
 ;
 sinon
@@ -215,9 +215,9 @@ sinon
 spy
 (
 view
-'
+"
 destroy
-'
+"
 )
 ;
 sinon

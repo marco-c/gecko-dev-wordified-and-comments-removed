@@ -516,7 +516,7 @@ is
 (
 gWrapperClickCount
 0
-'
+"
 wrapper
 should
 not
@@ -524,7 +524,7 @@ have
 received
 any
 clicks
-'
+"
 )
 ;
 }

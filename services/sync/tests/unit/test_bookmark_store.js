@@ -3862,9 +3862,9 @@ run_test
 {
 initTestLogging
 (
-'
+"
 Trace
-'
+"
 )
 ;
 run_next_test

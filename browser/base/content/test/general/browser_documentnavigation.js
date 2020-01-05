@@ -1058,9 +1058,9 @@ SidebarUI
 .
 toggle
 (
-'
+"
 viewBookmarksSidebar
-'
+"
 )
 ;
 yield
@@ -1229,9 +1229,9 @@ SidebarUI
 .
 toggle
 (
-'
+"
 viewBookmarksSidebar
-'
+"
 )
 ;
 }

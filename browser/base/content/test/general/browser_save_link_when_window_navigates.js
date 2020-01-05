@@ -479,9 +479,9 @@ document
 .
 querySelector
 (
-'
+"
 iframe
-'
+"
 )
 .
 remove

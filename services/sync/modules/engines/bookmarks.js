@@ -3,9 +3,9 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 BookmarksEngine
-'
+"
 "
 PlacesItem
 "

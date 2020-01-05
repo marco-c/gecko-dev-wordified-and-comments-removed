@@ -666,9 +666,9 @@ SidebarUI
 .
 show
 (
-'
+"
 viewTabsSidebar
-'
+"
 )
 ;
 Assert
@@ -1099,9 +1099,9 @@ SidebarUI
 .
 show
 (
-'
+"
 viewTabsSidebar
-'
+"
 )
 ;
 let
@@ -1563,9 +1563,9 @@ SidebarUI
 .
 show
 (
-'
+"
 viewTabsSidebar
-'
+"
 )
 ;
 let
@@ -2115,9 +2115,9 @@ SidebarUI
 .
 show
 (
-'
+"
 viewTabsSidebar
-'
+"
 )
 ;
 let

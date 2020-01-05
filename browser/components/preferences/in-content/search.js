@@ -179,11 +179,11 @@ wm
 .
 getMostRecentWindow
 (
-'
+"
 navigator
 :
 browser
-'
+"
 )
 .
 BrowserSearch

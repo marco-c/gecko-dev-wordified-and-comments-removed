@@ -1909,9 +1909,9 @@ nsIXULChromeRegistry
 .
 getSelectedLocale
 (
-'
+"
 global
-'
+"
 )
 ;
 }
@@ -2328,9 +2328,9 @@ ctypes
 .
 StructType
 (
-'
+"
 OSVERSIONINFOEXW
-'
+"
 [
 {
 dwOSVersionInfoSize
@@ -6693,9 +6693,9 @@ version
 =
 =
 =
-'
+"
 string
-'
+"
 &
 &
 Services

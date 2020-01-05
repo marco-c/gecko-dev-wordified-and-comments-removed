@@ -194,7 +194,7 @@ NetUtil
 .
 newURI
 (
-'
+"
 http
 :
 /
@@ -203,7 +203,7 @@ example
 .
 org
 /
-'
+"
 +
 data
 .

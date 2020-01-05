@@ -22,9 +22,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 crypto
-'
+"
 ]
 )
 ;

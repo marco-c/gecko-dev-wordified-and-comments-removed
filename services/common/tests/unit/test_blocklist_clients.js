@@ -686,9 +686,9 @@ headerLine
 .
 split
 (
-'
+"
 :
-'
+"
 )
 ;
 response

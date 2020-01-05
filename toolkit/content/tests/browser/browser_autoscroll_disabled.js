@@ -315,9 +315,9 @@ document
 .
 getElementById
 (
-'
+"
 i
-'
+"
 )
 ;
 if

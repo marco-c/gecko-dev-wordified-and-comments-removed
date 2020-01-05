@@ -70,9 +70,9 @@ messageId
 )
 {
 return
-'
+"
 PKT_
-'
+"
 +
 messageId
 ;
@@ -89,9 +89,9 @@ prefixedMessageId
 (
 panelId
 +
-'
+"
 _
-'
+"
 +
 messageId
 )

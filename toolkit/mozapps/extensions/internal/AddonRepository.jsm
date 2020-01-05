@@ -2368,8 +2368,8 @@ encodeURIComponent
 .
 join
 (
-'
-'
+"
+"
 )
 }
 ;

@@ -446,9 +446,9 @@ ok
 (
 !
 (
-'
+"
 updateChannel
-'
+"
 in
 got
 .

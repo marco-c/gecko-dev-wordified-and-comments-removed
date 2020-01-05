@@ -45,9 +45,9 @@ id
 kButton
 type
 :
-'
+"
 button
-'
+"
 onClick
 (
 )

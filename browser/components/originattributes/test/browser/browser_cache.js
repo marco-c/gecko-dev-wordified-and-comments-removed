@@ -910,9 +910,9 @@ document
 .
 createElement
 (
-'
+"
 audio
-'
+"
 )
 ;
 let
@@ -924,9 +924,9 @@ document
 .
 createElement
 (
-'
+"
 video
-'
+"
 )
 ;
 let
@@ -938,9 +938,9 @@ document
 .
 createElement
 (
-'
+"
 source
-'
+"
 )
 ;
 let
@@ -952,9 +952,9 @@ document
 .
 createElement
 (
-'
+"
 track
-'
+"
 )
 ;
 yield

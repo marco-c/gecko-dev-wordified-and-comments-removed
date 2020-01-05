@@ -373,8 +373,8 @@ savedPlacements
 .
 join
 (
-'
-'
+"
+"
 )
 )
 ;

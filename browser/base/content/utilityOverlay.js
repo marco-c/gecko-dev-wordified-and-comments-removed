@@ -828,9 +828,9 @@ var
 aReferrerPolicy
 =
 (
-'
+"
 referrerPolicy
-'
+"
 in
 params
 ?

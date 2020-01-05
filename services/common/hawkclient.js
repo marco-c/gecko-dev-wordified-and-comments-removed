@@ -327,9 +327,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 logPII
-'
+"
 function
 (
 )

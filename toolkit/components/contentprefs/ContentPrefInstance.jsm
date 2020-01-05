@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 Cc
@@ -22,9 +22,9 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 ContentPrefInstance
-'
+"
 ]
 ;
 this

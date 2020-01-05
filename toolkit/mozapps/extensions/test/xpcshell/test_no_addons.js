@@ -262,9 +262,9 @@ AddonManager
 getAddonsByTypes
 (
 [
-'
+"
 extension
-'
+"
 ]
 addonDefer
 .

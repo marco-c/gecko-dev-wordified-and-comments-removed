@@ -1409,9 +1409,9 @@ bookmarks
 ;
 do_check_true
 (
-'
+"
 bookmarks
-'
+"
 in
 collectionKeys
 .
@@ -1420,9 +1420,9 @@ _collections
 ;
 do_check_false
 (
-'
+"
 tabs
-'
+"
 in
 collectionKeys
 .

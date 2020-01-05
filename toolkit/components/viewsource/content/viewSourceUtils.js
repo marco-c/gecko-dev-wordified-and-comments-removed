@@ -1575,7 +1575,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -1585,7 +1585,7 @@ process
 util
 ;
 1
-'
+"
 ]
 .
 createInstance

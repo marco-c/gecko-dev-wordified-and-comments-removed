@@ -35,9 +35,9 @@ makeWatcher
 let
 testPath
 =
-'
+"
 someInvalidPath
-'
+"
 ;
 let
 dummyFunc
@@ -170,9 +170,9 @@ makeWatcher
 let
 testPath
 =
-'
+"
 someInvalidPath
-'
+"
 ;
 let
 dummyFunc

@@ -932,11 +932,11 @@ headers
 :
 [
 [
-'
+"
 Content
 -
 Type
-'
+"
 "
 application
 /
@@ -968,7 +968,7 @@ do_test_pending
 const
 kMimeType
 =
-'
+"
 text
 /
 xml
@@ -978,7 +978,7 @@ charset
 UTF
 -
 8
-'
+"
 ;
 let
 options

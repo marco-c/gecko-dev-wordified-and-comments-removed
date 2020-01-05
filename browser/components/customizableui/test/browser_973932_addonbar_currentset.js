@@ -43,8 +43,8 @@ placements
 .
 join
 (
-'
-'
+"
+"
 )
 addonbar
 .
@@ -162,8 +162,8 @@ placements
 .
 join
 (
-'
-'
+"
+"
 )
 addonbar
 .
@@ -230,8 +230,8 @@ placements
 .
 join
 (
-'
-'
+"
+"
 )
 addonbar
 .

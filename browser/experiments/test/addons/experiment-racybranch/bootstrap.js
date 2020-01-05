@@ -59,7 +59,7 @@ true
 ;
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -69,7 +69,7 @@ thread
 manager
 ;
 1
-'
+"
 ]
 .
 getService

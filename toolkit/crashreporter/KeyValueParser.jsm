@@ -77,8 +77,8 @@ if
 line
 =
 =
-'
-'
+"
+"
 )
 continue
 ;
@@ -89,9 +89,9 @@ line
 .
 indexOf
 (
-'
+"
 =
-'
+"
 )
 ;
 if
@@ -193,10 +193,10 @@ text
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 ;
 return
@@ -313,8 +313,8 @@ str
 let
 contents
 =
-'
-'
+"
+"
 ;
 while
 (

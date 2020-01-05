@@ -103,9 +103,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 audio
-'
+"
 )
 ;
 if
@@ -257,9 +257,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 audio
-'
+"
 )
 ;
 if
@@ -331,9 +331,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 audio
-'
+"
 )
 ;
 if

@@ -156,9 +156,9 @@ SpecialPowers
 pushPrefEnv
 (
 {
-'
+"
 set
-'
+"
 :
 [
 [

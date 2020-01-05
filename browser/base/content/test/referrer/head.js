@@ -156,13 +156,13 @@ set
 :
 [
 [
-'
+"
 network
 .
 http
 .
 enablePerElementReferrer
-'
+"
 true
 ]
 ]

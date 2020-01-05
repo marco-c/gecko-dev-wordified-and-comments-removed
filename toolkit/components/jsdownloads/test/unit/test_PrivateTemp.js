@@ -38,7 +38,7 @@ targetFile
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -48,7 +48,7 @@ file
 local
 ;
 1
-'
+"
 ]
 .
 createInstance

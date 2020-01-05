@@ -6,7 +6,7 @@ strict
 const
 URL
 =
-'
+"
 data
 :
 text
@@ -18,7 +18,7 @@ charset
 utf
 -
 8
-'
+"
 +
 '
 <
@@ -38,7 +38,7 @@ remove
 >
 '
 +
-'
+"
 <
 script
 >
@@ -59,7 +59,7 @@ script
 /
 body
 >
-'
+"
 ;
 function
 getFocusedLocalName

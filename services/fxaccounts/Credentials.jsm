@@ -328,9 +328,9 @@ PROTOCOL_VERSION
 +
 name
 +
-'
+"
 :
-'
+"
 +
 email
 )

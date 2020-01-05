@@ -1385,12 +1385,12 @@ source
 if
 (
 [
-'
+"
 urlbar
-'
-'
+"
+"
 searchbar
-'
+"
 ]
 .
 includes

@@ -98,9 +98,9 @@ PO
 .
 selectLeftPaneQuery
 (
-'
+"
 History
-'
+"
 )
 ;
 isnot
@@ -483,9 +483,9 @@ PO
 .
 selectLeftPaneQuery
 (
-'
+"
 BookmarksToolbar
-'
+"
 )
 ;
 isnot
@@ -971,9 +971,9 @@ PO
 .
 selectLeftPaneQuery
 (
-'
+"
 BookmarksToolbar
-'
+"
 )
 ;
 isnot
@@ -1283,9 +1283,9 @@ PO
 .
 selectLeftPaneQuery
 (
-'
+"
 Tags
-'
+"
 )
 ;
 let

@@ -325,9 +325,9 @@ date
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 History
@@ -343,9 +343,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 History
@@ -362,9 +362,9 @@ SYNC_WIPE_REMOTE
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Sync
@@ -401,9 +401,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync

@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -3904,9 +3904,9 @@ ctypes
 .
 StructType
 (
-'
+"
 OSVERSIONINFOEXW
-'
+"
 [
 {
 dwOSVersionInfoSize

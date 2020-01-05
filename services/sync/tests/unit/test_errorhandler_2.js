@@ -301,11 +301,11 @@ Prefs
 .
 get
 (
-'
+"
 errorhandler
 .
 networkFailureReportTimeout
-'
+"
 )
 *
 2
@@ -323,11 +323,11 @@ Prefs
 .
 get
 (
-'
+"
 errorhandler
 .
 networkFailureReportTimeout
-'
+"
 )
 /
 2

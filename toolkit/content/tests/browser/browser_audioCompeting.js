@@ -170,9 +170,9 @@ document
 .
 getElementById
 (
-'
+"
 autoplay
-'
+"
 )
 ;
 if
@@ -284,9 +284,9 @@ document
 .
 getElementById
 (
-'
+"
 autoplay
-'
+"
 )
 ;
 if
@@ -355,9 +355,9 @@ document
 .
 getElementById
 (
-'
+"
 autoplay
-'
+"
 )
 ;
 var
@@ -369,9 +369,9 @@ document
 .
 getElementById
 (
-'
+"
 nonautoplay
-'
+"
 )
 ;
 if

@@ -3048,9 +3048,9 @@ if
 item
 |
 |
-'
+"
 object
-'
+"
 !
 =
 =
@@ -3678,9 +3678,9 @@ eventSource
 .
 emit
 (
-'
+"
 change
-'
+"
 guid
 )
 ;
@@ -3731,9 +3731,9 @@ eventSource
 .
 emit
 (
-'
+"
 move
-'
+"
 guid
 )
 ;

@@ -664,9 +664,9 @@ aFunction
 !
 =
 =
-'
+"
 function
-'
+"
 )
 {
 throw

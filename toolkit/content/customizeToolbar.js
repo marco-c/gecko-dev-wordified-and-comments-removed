@@ -2543,9 +2543,9 @@ toolbar
 nodeName
 =
 =
-'
+"
 toolbar
-'
+"
 )
 {
 dupeFound

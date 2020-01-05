@@ -219,9 +219,9 @@ fxAccountsManager
 .
 signIn
 (
-'
+"
 Pertelote
-'
+"
 )
 ;
 }

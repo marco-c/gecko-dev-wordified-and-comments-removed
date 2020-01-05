@@ -251,9 +251,9 @@ document
 .
 getElementById
 (
-'
+"
 testDiv
-'
+"
 )
 .
 innerHTML
@@ -381,9 +381,9 @@ document
 .
 getElementById
 (
-'
+"
 testDiv
-'
+"
 )
 .
 innerHTML
@@ -515,9 +515,9 @@ document
 .
 getElementById
 (
-'
+"
 testDiv
-'
+"
 )
 .
 innerHTML

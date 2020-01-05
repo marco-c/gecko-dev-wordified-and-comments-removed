@@ -510,13 +510,13 @@ scalar
 checkKeyedHistogram
 (
 search_hist
-'
+"
 other
 -
 MozSearch
 .
 abouthome
-'
+"
 1
 )
 ;

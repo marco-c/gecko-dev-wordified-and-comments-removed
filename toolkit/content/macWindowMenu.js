@@ -10,7 +10,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -26,7 +26,7 @@ name
 window
 -
 mediator
-'
+"
 ]
 .
 getService
@@ -72,9 +72,9 @@ sep
 .
 getAttribute
 (
-'
+"
 id
-'
+"
 )
 ;
 var
@@ -182,7 +182,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -198,7 +198,7 @@ name
 window
 -
 mediator
-'
+"
 ]
 .
 getService
@@ -222,9 +222,9 @@ node
 .
 getAttribute
 (
-'
+"
 id
-'
+"
 )
 ;
 desiredWindow

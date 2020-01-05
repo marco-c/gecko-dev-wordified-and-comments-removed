@@ -2462,11 +2462,11 @@ document
 .
 getElementById
 (
-'
+"
 Browser
 :
 Back
-'
+"
 )
 .
 doCommand

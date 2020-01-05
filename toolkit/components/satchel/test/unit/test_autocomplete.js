@@ -36,8 +36,8 @@ str
 =
 number
 +
-'
-'
+"
+"
 ;
 while
 (
@@ -49,9 +49,9 @@ length
 )
 str
 =
-'
+"
 0
-'
+"
 +
 str
 ;

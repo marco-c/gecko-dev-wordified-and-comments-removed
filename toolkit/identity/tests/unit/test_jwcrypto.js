@@ -6,7 +6,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -20,7 +20,7 @@ identity
 LogUtils
 .
 jsm
-'
+"
 )
 ;
 XPCOMUtils
@@ -933,9 +933,9 @@ signedObject
 )
 !
 =
-'
+"
 string
-'
+"
 )
 {
 throw

@@ -2540,8 +2540,8 @@ lastIndexOf
 var
 before
 =
-'
-'
+"
+"
 ;
 if
 (

@@ -1978,9 +1978,9 @@ classList
 .
 add
 (
-'
+"
 pluginVulnerable
-'
+"
 )
 ;
 }

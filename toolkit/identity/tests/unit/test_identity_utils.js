@@ -26,7 +26,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -38,14 +38,14 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -59,7 +59,7 @@ identity
 IdentityUtils
 .
 jsm
-'
+"
 )
 ;
 function

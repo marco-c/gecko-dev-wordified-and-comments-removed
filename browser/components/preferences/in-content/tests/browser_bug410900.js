@@ -318,9 +318,9 @@ i
 .
 getAttribute
 (
-'
+"
 type
-'
+"
 )
 =
 =

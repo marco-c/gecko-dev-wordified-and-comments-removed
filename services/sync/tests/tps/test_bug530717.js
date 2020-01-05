@@ -152,9 +152,9 @@ false
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Prefs
@@ -176,9 +176,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -194,9 +194,9 @@ prefs1
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Prefs

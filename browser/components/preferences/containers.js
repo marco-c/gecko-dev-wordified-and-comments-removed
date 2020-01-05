@@ -606,11 +606,11 @@ iconElement
 .
 className
 =
-'
+"
 userContext
 -
 icon
-'
+"
 ;
 iconElement
 .
@@ -806,11 +806,11 @@ iconElement
 .
 className
 =
-'
+"
 userContext
 -
 icon
-'
+"
 ;
 iconElement
 .

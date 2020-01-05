@@ -9,7 +9,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -21,7 +21,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 Components
@@ -30,7 +30,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -42,7 +42,7 @@ modules
 AppConstants
 .
 jsm
-'
+"
 )
 ;
 const

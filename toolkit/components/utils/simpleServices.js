@@ -360,8 +360,8 @@ aAddonId
 )
 |
 |
-'
-'
+"
+"
 ;
 }
 addonHasPermission

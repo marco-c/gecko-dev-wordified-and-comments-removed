@@ -133,13 +133,13 @@ set
 :
 [
 [
-'
+"
 privacy
 .
 trackingprotection
 .
 enabled
-'
+"
 true
 ]
 ]

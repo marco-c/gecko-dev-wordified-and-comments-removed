@@ -7969,7 +7969,7 @@ window
 .
 BrowserOpenAddonsMgr
 (
-'
+"
 addons
 :
 /
@@ -7977,7 +7977,7 @@ addons
 list
 /
 theme
-'
+"
 )
 ;
 }
@@ -11998,9 +11998,9 @@ prop
 =
 width
 +
-'
+"
 px
-'
+"
 ;
 aItem
 .
