@@ -384,6 +384,15 @@ D
 js
 :
 :
+RegExpShared
+*
+)
+\
+D
+(
+js
+:
+:
 SavedFrame
 *
 )

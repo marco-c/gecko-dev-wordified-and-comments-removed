@@ -24,9 +24,6 @@ namespace
 js
 {
 class
-RegExpGuard
-;
-class
 Proxy
 {
 public
