@@ -5331,7 +5331,7 @@ WebGLCommand
 BindBuffer
 (
 target
-0
+None
 )
 )
 )
@@ -5573,7 +5573,7 @@ WebGLCommand
 BindRenderbuffer
 (
 target
-0
+None
 )
 )
 )
@@ -5741,7 +5741,7 @@ WebGLCommand
 BindTexture
 (
 target
-0
+None
 )
 )
 )

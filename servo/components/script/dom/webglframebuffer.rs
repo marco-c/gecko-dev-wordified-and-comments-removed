@@ -92,6 +92,7 @@ webrender_traits
 {
 WebGLCommand
 WebGLFramebufferBindingRequest
+WebGLFramebufferId
 }
 ;
 #
@@ -107,7 +108,7 @@ webgl_object
 WebGLObject
 id
 :
-u32
+WebGLFramebufferId
 target
 :
 Cell
@@ -156,7 +157,7 @@ CanvasMsg
 >
 id
 :
-u32
+WebGLFramebufferId
 )
 -
 >
@@ -289,7 +290,6 @@ new
 (
 global
 renderer
-*
 fb_id
 )
 )
@@ -309,7 +309,7 @@ CanvasMsg
 >
 id
 :
-u32
+WebGLFramebufferId
 )
 -
 >
@@ -349,7 +349,7 @@ self
 )
 -
 >
-u32
+WebGLFramebufferId
 {
 self
 .

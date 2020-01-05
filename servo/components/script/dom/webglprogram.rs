@@ -159,6 +159,14 @@ webrender_traits
 WebGLCommand
 WebGLError
 WebGLParameter
+}
+;
+use
+webrender_traits
+:
+:
+{
+WebGLProgramId
 WebGLResult
 }
 ;
@@ -175,7 +183,7 @@ webgl_object
 WebGLObject
 id
 :
-u32
+WebGLProgramId
 is_deleted
 :
 Cell
@@ -239,7 +247,7 @@ CanvasMsg
 >
 id
 :
-u32
+WebGLProgramId
 )
 -
 >
@@ -388,7 +396,6 @@ new
 (
 global
 renderer
-*
 program_id
 )
 )
@@ -408,7 +415,7 @@ CanvasMsg
 >
 id
 :
-u32
+WebGLProgramId
 )
 -
 >
@@ -448,7 +455,7 @@ self
 )
 -
 >
-u32
+WebGLProgramId
 {
 self
 .

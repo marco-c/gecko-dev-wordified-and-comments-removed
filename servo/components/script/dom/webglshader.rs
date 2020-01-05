@@ -142,6 +142,7 @@ webrender_traits
 WebGLCommand
 WebGLParameter
 WebGLResult
+WebGLShaderId
 }
 ;
 #
@@ -177,7 +178,7 @@ webgl_object
 WebGLObject
 id
 :
-u32
+WebGLShaderId
 gl_type
 :
 u32
@@ -302,7 +303,7 @@ CanvasMsg
 >
 id
 :
-u32
+WebGLShaderId
 shader_type
 :
 u32
@@ -498,7 +499,6 @@ new
 (
 global
 renderer
-*
 shader_id
 shader_type
 )
@@ -519,7 +519,7 @@ CanvasMsg
 >
 id
 :
-u32
+WebGLShaderId
 shader_type
 :
 u32
@@ -563,7 +563,7 @@ self
 )
 -
 >
-u32
+WebGLShaderId
 {
 self
 .

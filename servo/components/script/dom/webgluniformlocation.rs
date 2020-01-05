@@ -52,6 +52,12 @@ Reflector
 reflect_dom_object
 }
 ;
+use
+webrender_traits
+:
+:
+WebGLProgramId
+;
 #
 [
 dom_struct
@@ -68,7 +74,7 @@ id
 i32
 program_id
 :
-u32
+WebGLProgramId
 }
 impl
 WebGLUniformLocation
@@ -81,7 +87,7 @@ id
 i32
 program_id
 :
-u32
+WebGLProgramId
 )
 -
 >
@@ -117,7 +123,7 @@ id
 i32
 program_id
 :
-u32
+WebGLProgramId
 )
 -
 >
@@ -168,7 +174,7 @@ self
 )
 -
 >
-u32
+WebGLProgramId
 {
 self
 .
