@@ -9727,16 +9727,7 @@ inline
 fragments
 into
 account
-if
-necessary
 .
-if
-self
-.
-is_primary_fragment
-(
-)
-{
 let
 writing_mode
 =
@@ -9920,7 +9911,6 @@ inline_start_end
 (
 )
 ;
-}
 }
 }
 result
