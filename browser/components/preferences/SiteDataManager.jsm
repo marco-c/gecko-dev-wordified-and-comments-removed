@@ -1300,12 +1300,10 @@ userContextId
 !
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )
-.
-public
 ;
 }
 }

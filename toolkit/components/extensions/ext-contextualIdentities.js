@@ -136,7 +136,7 @@ identity
 =
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 containerId
 )
@@ -166,7 +166,7 @@ identities
 ;
 ContextualIdentityService
 .
-getIdentities
+getPublicIdentities
 (
 )
 .
@@ -292,7 +292,7 @@ identity
 =
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 containerId
 )
@@ -448,7 +448,7 @@ identity
 =
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 containerId
 )

@@ -103,7 +103,7 @@ equal
 (
 cis
 .
-getIdentities
+getPublicIdentities
 (
 )
 .
@@ -122,7 +122,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 0
 )
@@ -142,7 +142,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 1
 )
@@ -159,7 +159,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 2
 )
@@ -176,7 +176,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 3
 )
@@ -193,7 +193,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 4
 )
@@ -217,7 +217,7 @@ equal
 (
 cis
 .
-getIdentities
+getPublicIdentities
 (
 )
 .
@@ -310,7 +310,7 @@ equal
 (
 cis
 .
-getIdentities
+getPublicIdentities
 (
 )
 .
@@ -330,7 +330,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 identity
 .
@@ -346,7 +346,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 identity
 .
@@ -370,7 +370,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 identity
 .
@@ -393,7 +393,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 identity
 .
@@ -490,7 +490,7 @@ equal
 (
 cis
 .
-getIdentities
+getPublicIdentities
 (
 )
 .
@@ -519,7 +519,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 2
 )
@@ -598,7 +598,7 @@ ok
 !
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 2
 )
@@ -612,7 +612,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 2
 )
@@ -633,7 +633,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 2
 )
@@ -654,7 +654,7 @@ equal
 (
 cis
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 2
 )

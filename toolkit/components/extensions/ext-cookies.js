@@ -267,7 +267,7 @@ if
 (
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 containerId
 )
