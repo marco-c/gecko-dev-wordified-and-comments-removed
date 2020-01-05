@@ -54,7 +54,7 @@ text
 glyph
 :
 :
-GlyphIndex
+GlyphId
 ;
 use
 text
@@ -1147,7 +1147,7 @@ char
 >
 Option
 <
-GlyphIndex
+GlyphId
 >
 {
 assert
@@ -1190,7 +1190,7 @@ Some
 (
 idx
 as
-GlyphIndex
+GlyphId
 )
 }
 else
@@ -1220,7 +1220,7 @@ glyph_h_advance
 self
 glyph
 :
-GlyphIndex
+GlyphId
 )
 -
 >

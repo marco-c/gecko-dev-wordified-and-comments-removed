@@ -123,6 +123,7 @@ inline
 :
 :
 {
+FragmentIndex
 InlineBoxes
 InlineFlow
 }
@@ -1201,10 +1202,8 @@ clone
 Range
 :
 :
-new
+empty
 (
-0
-0
 )
 )
 ;
@@ -1245,6 +1244,8 @@ has_enclosing_range
 let
 len
 =
+FragmentIndex
+(
 boxes
 .
 len
@@ -1252,6 +1253,7 @@ len
 )
 as
 int
+)
 ;
 boxes
 .
@@ -1259,7 +1261,10 @@ map
 .
 get_mut
 (
+FragmentIndex
+(
 0
+)
 )
 .
 range

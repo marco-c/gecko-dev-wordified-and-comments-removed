@@ -72,7 +72,7 @@ text
 glyph
 :
 :
-GlyphIndex
+GlyphId
 ;
 use
 style
@@ -791,7 +791,7 @@ char
 >
 Option
 <
-GlyphIndex
+GlyphId
 >
 {
 let
@@ -896,7 +896,7 @@ glyphs
 0
 ]
 as
-GlyphIndex
+GlyphId
 )
 ;
 }
@@ -907,7 +907,7 @@ glyph_h_advance
 self
 glyph
 :
-GlyphIndex
+GlyphId
 )
 -
 >

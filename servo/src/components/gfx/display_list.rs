@@ -14,6 +14,15 @@ use
 text
 :
 :
+glyph
+:
+:
+CharIndex
+;
+use
+text
+:
+:
 TextRun
 ;
 use
@@ -1996,7 +2005,7 @@ range
 :
 Range
 <
-int
+CharIndex
 >
 /
 /
