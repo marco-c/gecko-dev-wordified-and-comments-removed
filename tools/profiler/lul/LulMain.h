@@ -516,7 +516,9 @@ const
 size_t
 N_STACK_BYTES
 =
-32768
+160
+*
+1024
 ;
 struct
 StackImage
