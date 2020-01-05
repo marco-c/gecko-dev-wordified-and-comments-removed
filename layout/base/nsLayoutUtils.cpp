@@ -25560,6 +25560,14 @@ horizontal
 ;
 #
 endif
+aFlags
+|
+=
+nsLayoutUtils
+:
+:
+ADD_PERCENTS
+;
 const
 nsStylePosition
 *
