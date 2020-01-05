@@ -130,18 +130,6 @@ dom
 bindings
 :
 :
-trace
-:
-:
-Untraceable
-;
-use
-dom
-:
-:
-bindings
-:
-:
 utils
 :
 :
@@ -2709,7 +2697,6 @@ f
 Ok
 (
 (
-*
 f
 )
 (
@@ -4707,8 +4694,6 @@ Filter
 FilterNone
 FilterNative
 (
-Untraceable
-<
 fn
 (
 node
@@ -4721,7 +4706,6 @@ Node
 -
 >
 u16
->
 )
 FilterJS
 (

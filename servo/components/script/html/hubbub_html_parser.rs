@@ -4165,10 +4165,6 @@ characterdata
 .
 data
 .
-deref
-(
-)
-.
 borrow
 (
 )

@@ -864,7 +864,6 @@ ref
 layout_chan
 )
 =
-*
 window
 .
 deref

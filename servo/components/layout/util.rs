@@ -370,10 +370,6 @@ get
 .
 layout_data
 .
-deref
-(
-)
-.
 borrow_unchecked
 (
 )
@@ -424,10 +420,6 @@ get
 )
 .
 layout_data
-.
-deref
-(
-)
 .
 borrow
 (
@@ -480,10 +472,6 @@ get
 )
 .
 layout_data
-.
-deref
-(
-)
 .
 borrow_mut
 (

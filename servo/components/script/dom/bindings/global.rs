@@ -369,10 +369,6 @@ page
 .
 resource_task
 .
-deref
-(
-)
-.
 clone
 (
 )
