@@ -4272,6 +4272,13 @@ NetworkError
 (
 )
 ;
+MOZ_ASSERT
+(
+IsShutdown
+(
+)
+)
+;
 }
 void
 MediaDecoder
@@ -4306,6 +4313,13 @@ mOwner
 DecodeError
 (
 aError
+)
+;
+MOZ_ASSERT
+(
+IsShutdown
+(
+)
 )
 ;
 }
