@@ -384,6 +384,13 @@ aFontIndex
 )
 ;
 async
+DeleteFont
+(
+FontKey
+aFontKey
+)
+;
+async
 DPBegin
 (
 IntSize

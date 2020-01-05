@@ -107,14 +107,6 @@ aBuilder
 )
 override
 ;
-protected
-:
-gfx
-:
-:
-WebRenderGlyphHelper
-mGlyphHelper
-;
 }
 ;
 }
