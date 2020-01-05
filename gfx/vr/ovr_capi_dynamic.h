@@ -53,10 +53,6 @@ mozilla_ovr_capi_dynamic_h_
 define
 mozilla_ovr_capi_dynamic_h_
 #
-define
-OVR_CAPI_LIMITED_MOZILLA
-1
-#
 ifdef
 HAVE_64BIT_BUILD
 #
