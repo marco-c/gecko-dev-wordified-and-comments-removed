@@ -97,6 +97,9 @@ class
 X11CompositorWidget
 ;
 class
+AndroidCompositorWidget
+;
+class
 CompositorWidgetInitData
 ;
 class
@@ -441,6 +444,17 @@ virtual
 X11CompositorWidget
 *
 AsX11
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+AndroidCompositorWidget
+*
+AsAndroid
 (
 )
 {
