@@ -88,9 +88,6 @@ class
 nsIPrincipal
 ;
 class
-nsMediaList
-;
-class
 nsCSSRuleProcessor
 ;
 namespace
@@ -113,6 +110,9 @@ dom
 {
 class
 CSSRuleList
+;
+class
+MediaList
 ;
 class
 SRIMetadata
@@ -449,7 +449,10 @@ aTitle
 void
 SetMedia
 (
-nsMediaList
+dom
+:
+:
+MediaList
 *
 aMedia
 )
@@ -522,7 +525,10 @@ GetParentStyleSheet
 )
 const
 ;
-nsMediaList
+dom
+:
+:
+MediaList
 *
 Media
 (
@@ -878,7 +884,10 @@ mOwningNode
 ;
 RefPtr
 <
-nsMediaList
+dom
+:
+:
+MediaList
 >
 mMedia
 ;
