@@ -253,15 +253,6 @@ xpcshell
 .
 ini
 '
-'
-test
-/
-unit_ipc
-/
-xpcshell
-.
-ini
-'
 ]
 BROWSER_CHROME_MANIFESTS
 +
