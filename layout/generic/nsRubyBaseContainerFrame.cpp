@@ -2456,9 +2456,10 @@ isComplete
 )
 )
 {
-NS_FRAME_SET_INCOMPLETE
-(
 aStatus
+.
+SetIncomplete
+(
 )
 ;
 }
