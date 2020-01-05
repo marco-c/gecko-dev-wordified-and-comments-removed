@@ -334,6 +334,13 @@ endif
 #
 include
 <
+shlobj
+.
+h
+>
+#
+include
+<
 shlwapi
 .
 h
