@@ -12033,6 +12033,14 @@ sqlite
 TRACKEDDB_ENTRY
 (
 "
+favicons
+.
+sqlite
+"
+)
+TRACKEDDB_ENTRY
+(
+"
 formhistory
 .
 sqlite
