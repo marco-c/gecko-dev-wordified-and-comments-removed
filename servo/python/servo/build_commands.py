@@ -279,7 +279,7 @@ sizeof
 (
 FLASHWINDOW
 )
-                        
+                         
 windll
 .
 kernel32
@@ -287,7 +287,7 @@ kernel32
 GetConsoleWindow
 (
 )
-                        
+                         
 FLASHW_CAPTION
 |
 FLASHW_TRAY
@@ -311,6 +311,8 @@ text
     
 import
 Foundation
+    
+import
 objc
     
 NSUserNotification
