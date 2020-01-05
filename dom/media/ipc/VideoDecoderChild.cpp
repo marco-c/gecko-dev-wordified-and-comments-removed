@@ -104,6 +104,10 @@ GetManagerThread
 (
 )
 )
+mFlushTask
+(
+nullptr
+)
 mCanSend
 (
 false
