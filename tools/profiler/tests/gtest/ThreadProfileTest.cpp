@@ -48,7 +48,7 @@ nullptr
 ;
 info
 .
-StartSampling
+SetHasProfile
 (
 )
 ;
