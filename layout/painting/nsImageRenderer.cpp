@@ -5,6 +5,13 @@ nsImageRenderer
 .
 h
 "
+#
+include
+"
+nsCSSRenderingGradients
+.
+h
+"
 nsSize
 CSSSizeOrRatio
 :
@@ -2377,10 +2384,10 @@ case
 eStyleImageType_Gradient
 :
 {
-nsCSSRendering
+nsCSSGradientRenderer
 :
 :
-PaintGradient
+Paint
 (
 aPresContext
 *
