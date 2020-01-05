@@ -5568,6 +5568,16 @@ return
 sIsWebComponentsEnabled
 ;
 }
+static
+Element
+*
+GetClosestNonNativeAnonymousAncestor
+(
+Element
+*
+aElement
+)
+;
 private
 :
 static

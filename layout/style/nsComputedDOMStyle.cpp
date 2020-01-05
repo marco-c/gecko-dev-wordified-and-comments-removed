@@ -3348,6 +3348,14 @@ PseudoElementContainsElements
 (
 pseudo
 )
+|
+|
+mContent
+-
+>
+IsNativeAnonymous
+(
+)
 NS_LossyConvertUTF16toASCII
 (
 assertMsg

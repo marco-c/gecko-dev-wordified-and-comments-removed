@@ -173,6 +173,12 @@ ElementCreationOptions
 DOMString
 is
 ;
+[
+ChromeOnly
+]
+DOMString
+pseudo
+;
 }
 ;
 /
