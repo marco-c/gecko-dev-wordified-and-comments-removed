@@ -1364,6 +1364,15 @@ Status
 :
 UnknownLog
 :
+case
+VerifiedSCT
+:
+:
+Status
+:
+:
+ValidFromDisqualifiedLog
+:
 hasUnknownLogSCTs
 =
 true

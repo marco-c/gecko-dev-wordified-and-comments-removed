@@ -7,6 +7,13 @@ CTVerifyResult_h
 #
 include
 "
+CTLog
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Vector
@@ -42,6 +49,7 @@ Status
 {
 None
 Valid
+ValidFromDisqualifiedLog
 UnknownLog
 InvalidSignature
 InvalidTimestamp
@@ -62,6 +70,12 @@ status
 ;
 Origin
 origin
+;
+CTLogOperatorId
+logOperatorId
+;
+uint64_t
+logDisqualificationTime
 ;
 }
 ;

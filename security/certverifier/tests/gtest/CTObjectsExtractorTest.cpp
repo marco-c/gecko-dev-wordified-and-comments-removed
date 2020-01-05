@@ -125,6 +125,13 @@ InputForBuffer
 (
 logPublicKey
 )
+-
+1
+CTLogStatus
+:
+:
+Included
+0
 )
 )
 ;

@@ -70287,8 +70287,8 @@ Decoding
 error
 1
 =
+Valid
 SCT
-verified
 2
 =
 SCT
@@ -70308,6 +70308,14 @@ is
 in
 the
 future
+5
+=
+Valid
+SCT
+from
+a
+disqualified
+log
 )
 "
 }

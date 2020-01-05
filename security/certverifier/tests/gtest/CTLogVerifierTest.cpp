@@ -81,6 +81,13 @@ GetTestPublicKey
 (
 )
 )
+-
+1
+CTLogStatus
+:
+:
+Included
+0
 )
 )
 ;
@@ -470,6 +477,13 @@ InputForBuffer
 (
 key
 )
+-
+1
+CTLogStatus
+:
+:
+Included
+0
 )
 )
 ;
