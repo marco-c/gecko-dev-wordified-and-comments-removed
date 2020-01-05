@@ -806,6 +806,14 @@ attribute
 double
 mozFragmentEnd
 ;
+[
+ChromeOnly
+]
+void
+reportCanPlayTelemetry
+(
+)
+;
 }
 ;
 /
