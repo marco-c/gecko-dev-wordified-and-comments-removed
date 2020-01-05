@@ -2041,7 +2041,7 @@ mSrcURI
 script
 -
 >
-GetScriptObject
+HasScriptObject
 (
 )
 )
