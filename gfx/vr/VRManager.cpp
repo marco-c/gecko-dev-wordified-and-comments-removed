@@ -813,10 +813,16 @@ RefreshVRDisplays
 (
 )
 ;
+if
+(
+bHaveControllerListener
+)
+{
 RefreshVRControllers
 (
 )
 ;
+}
 mLastRefreshTime
 =
 TimeStamp
