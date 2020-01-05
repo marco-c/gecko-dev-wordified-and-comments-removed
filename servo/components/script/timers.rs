@@ -2027,6 +2027,15 @@ additional_offset
 ;
 self
 .
+suspended_since
+.
+set
+(
+None
+)
+;
+self
+.
 schedule_timer_call
 (
 )
