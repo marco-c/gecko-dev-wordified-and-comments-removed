@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsDependentString
+.
+h
+"
+#
+include
+"
 nsISiteSecurityService
 .
 h
@@ -957,7 +964,10 @@ sssService
 >
 GetKeyPinsForHostname
 (
+nsDependentCString
+(
 evalHost
+)
 time
 pinArray
 &

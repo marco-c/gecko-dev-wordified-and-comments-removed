@@ -410,15 +410,6 @@ header
 .
 *
 param
-aSSLStatus
-the
-SSLStatus
-of
-the
-current
-channel
-*
-param
 aHeader
 the
 HTTP
@@ -427,6 +418,16 @@ header
 specifying
 security
 data
+.
+*
+param
+aSSLStatus
+the
+SSLStatus
+of
+the
+current
+channel
 .
 *
 param
@@ -515,7 +516,7 @@ in
 nsIURI
 aSourceURI
 in
-string
+ACString
 aHeader
 in
 nsISSLStatus
@@ -581,7 +582,7 @@ in
 nsIURI
 aSourceURI
 in
-string
+ACString
 aHeader
 in
 uint32_t
@@ -775,7 +776,7 @@ in
 uint32_t
 aType
 in
-string
+ACString
 aHost
 in
 uint32_t
@@ -1059,7 +1060,7 @@ entries
 param
 aHostname
 the
-hosname
+hostname
 (
 punycode
 )
@@ -1069,6 +1070,7 @@ queried
 about
 *
 param
+evalTime
 the
 time
 at
@@ -1136,7 +1138,7 @@ boolean
 getKeyPinsForHostname
 (
 in
-string
+ACString
 aHostname
 in
 mozillaPkixTime
@@ -1281,7 +1283,7 @@ boolean
 setKeyPins
 (
 in
-string
+ACString
 aHost
 in
 boolean
@@ -1404,7 +1406,7 @@ boolean
 setHSTSPreload
 (
 in
-string
+ACString
 aHost
 in
 boolean

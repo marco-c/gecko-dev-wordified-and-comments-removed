@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsDependentString
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -121,7 +128,10 @@ nsISiteSecurityService
 :
 HEADER_HSTS
 dummyUri
+nsDependentCString
+(
 hdr
+)
 0
 &
 maxAge
@@ -313,7 +323,10 @@ nsISiteSecurityService
 :
 HEADER_HSTS
 dummyUri
+nsDependentCString
+(
 hdr
+)
 0
 nullptr
 nullptr

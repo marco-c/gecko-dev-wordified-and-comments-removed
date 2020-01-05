@@ -6893,10 +6893,6 @@ ProcessHeader
 aType
 mURI
 securityHeader
-.
-get
-(
-)
 aSSLStatus
 aFlags
 nullptr
