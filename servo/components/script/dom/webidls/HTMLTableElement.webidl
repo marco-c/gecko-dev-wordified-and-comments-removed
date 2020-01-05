@@ -183,8 +183,6 @@ createTBody
 (
 )
 ;
-/
-/
 readonly
 attribute
 HTMLCollection
