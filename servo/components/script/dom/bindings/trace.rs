@@ -3257,19 +3257,11 @@ rooted
 static
 ROOTED_TRACEABLES
 :
-Rc
-<
 RefCell
 <
 RootedTraceableSet
->
 >
 =
-Rc
-:
-:
-new
-(
 RefCell
 :
 :
@@ -3280,7 +3272,6 @@ RootedTraceableSet
 :
 new
 (
-)
 )
 )
 ;
