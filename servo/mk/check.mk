@@ -670,8 +670,6 @@ src
 /
 test
 /
-html
-/
 content
 (
 TESTNAME
