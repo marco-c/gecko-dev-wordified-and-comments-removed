@@ -231,8 +231,7 @@ style
 fontFamily
 =
 "
-Courier
-New
+monospace
 "
 ;
 div
