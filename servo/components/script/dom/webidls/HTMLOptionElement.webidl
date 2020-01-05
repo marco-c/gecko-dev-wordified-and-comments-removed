@@ -152,8 +152,6 @@ HTMLFormElement
 ?
 form
 ;
-/
-/
 attribute
 DOMString
 label
@@ -170,8 +168,6 @@ attribute
 boolean
 selected
 ;
-/
-/
 attribute
 DOMString
 value
