@@ -221,6 +221,9 @@ mod
 basic_shape
 ;
 mod
+mask
+;
+mod
 position
 ;
 mod
