@@ -2723,8 +2723,7 @@ strtoul_end
 illegal_value
 !
 =
--
-1UL
+ULONG_MAX
 &
 &
 value
@@ -2738,8 +2737,7 @@ illegal_value
 min_limit
 !
 =
--
-1UL
+ULONG_MAX
 &
 &
 value
@@ -2752,8 +2750,7 @@ min_limit
 max_limit
 !
 =
--
-1UL
+ULONG_MAX
 &
 &
 value
