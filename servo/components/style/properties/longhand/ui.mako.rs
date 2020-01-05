@@ -134,10 +134,10 @@ gecko_ffi_name
 "
 mUserSelect
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_USER_SELECT
+StyleUserSelect
 "
 animatable
 =
