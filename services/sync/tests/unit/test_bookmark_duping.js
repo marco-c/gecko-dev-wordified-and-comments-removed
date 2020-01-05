@@ -238,6 +238,7 @@ Level
 .
 Trace
 ;
+async
 function
 setup
 (
@@ -298,11 +299,9 @@ Service
 collectionKeys
 )
 ;
-new
+await
 SyncTestingInfrastructure
 (
-server
-.
 server
 )
 ;
@@ -324,6 +323,14 @@ collection
 bookmarks
 "
 )
+;
+Service
+.
+scheduler
+.
+syncThreshold
+=
+10000000
 ;
 Svc
 .
@@ -988,6 +995,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup
@@ -1302,6 +1310,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup
@@ -1716,6 +1725,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup
@@ -2161,6 +2171,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup
@@ -2622,6 +2633,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup
@@ -3086,6 +3098,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup
@@ -3690,6 +3703,7 @@ server
 collection
 }
 =
+await
 this
 .
 setup

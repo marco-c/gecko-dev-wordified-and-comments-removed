@@ -234,6 +234,7 @@ clearCache
 )
 ;
 }
+async
 function
 cleanAndGo
 (
@@ -244,11 +245,10 @@ clean
 (
 )
 ;
-server
-.
-stop
+await
+promiseStopServer
 (
-run_next_test
+server
 )
 ;
 }
@@ -313,6 +313,7 @@ password
 "
 ;
 }
+async
 function
 createServerAndConfigureClient
 (
@@ -406,29 +407,12 @@ start
 (
 )
 ;
-Service
-.
-serverURL
-=
+await
+SyncTestingInfrastructure
+(
 server
-.
-baseURI
-;
-Service
-.
-clusterURL
-=
-server
-.
-baseURI
-;
-Service
-.
-identity
-.
-username
-=
 USER
+)
 ;
 Service
 .
@@ -481,8 +465,9 @@ run_next_test
 )
 ;
 }
-add_test
+add_task
 (
+async
 function
 test_syncStartup_emptyOrOutdatedGlobalsResetsSync
 (
@@ -603,7 +588,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -808,6 +793,7 @@ undefined
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -817,8 +803,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_syncStartup_serverHasNewerVersion
 (
@@ -889,7 +876,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -947,6 +934,7 @@ VERSION_OUT_OF_DATE
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -956,8 +944,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_syncStartup_syncIDMismatchResetsClient
 (
@@ -992,7 +981,7 @@ sync_httpd_setup
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -1151,6 +1140,7 @@ lastSync
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -1160,8 +1150,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_emptyServer
 (
@@ -1220,7 +1211,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -1262,6 +1253,7 @@ lastSync
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -1271,8 +1263,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_createFromServer
 (
@@ -1473,7 +1466,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -1693,6 +1686,7 @@ Case
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -1702,8 +1696,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile
 (
@@ -1930,7 +1925,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -2362,6 +2357,7 @@ undefined
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -2371,8 +2367,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile_local_deleted
 (
@@ -2400,6 +2397,7 @@ server
 user
 ]
 =
+await
 createServerAndConfigureClient
 (
 )
@@ -2637,6 +2635,7 @@ DUPE_INCOMING
 )
 )
 ;
+await
 cleanAndGo
 (
 server
@@ -2645,8 +2644,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile_equivalent
 (
@@ -2675,6 +2675,7 @@ server
 user
 ]
 =
+await
 createServerAndConfigureClient
 (
 )
@@ -2795,6 +2796,7 @@ items
 1
 )
 ;
+await
 cleanAndGo
 (
 server
@@ -2803,8 +2805,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile_locally_deleted_dupe_new
 (
@@ -2834,6 +2837,7 @@ server
 user
 ]
 =
+await
 createServerAndConfigureClient
 (
 )
@@ -3061,6 +3065,7 @@ payload
 deleted
 )
 ;
+await
 cleanAndGo
 (
 server
@@ -3069,8 +3074,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile_locally_deleted_dupe_old
 (
@@ -3100,6 +3106,7 @@ server
 user
 ]
 =
+await
 createServerAndConfigureClient
 (
 )
@@ -3352,6 +3359,7 @@ payload
 denomination
 )
 ;
+await
 cleanAndGo
 (
 server
@@ -3360,8 +3368,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile_changed_dupe
 (
@@ -3390,6 +3399,7 @@ server
 user
 ]
 =
+await
 createServerAndConfigureClient
 (
 )
@@ -3631,6 +3641,7 @@ payload
 denomination
 )
 ;
+await
 cleanAndGo
 (
 server
@@ -3639,8 +3650,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_reconcile_changed_dupe_new
 (
@@ -3670,6 +3682,7 @@ server
 user
 ]
 =
+await
 createServerAndConfigureClient
 (
 )
@@ -3911,6 +3924,7 @@ payload
 denomination
 )
 ;
+await
 cleanAndGo
 (
 server
@@ -3919,8 +3933,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_mobile_batchSize
 (
@@ -4139,7 +4154,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -4489,6 +4504,7 @@ MOBILE_BATCH_SIZE
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -4760,7 +4776,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -4915,8 +4931,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_resume_toFetch
 (
@@ -5235,7 +5252,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -5445,6 +5462,7 @@ length
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -5454,8 +5472,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_applyIncomingBatchSize_smaller
 (
@@ -5667,7 +5686,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -5811,6 +5830,7 @@ no
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -5820,8 +5840,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_applyIncomingBatchSize_multiple
 (
@@ -6022,7 +6043,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -6116,6 +6137,7 @@ APPLY_BATCH_SIZE
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -6125,8 +6147,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_notify_count
 (
@@ -6325,7 +6348,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -6693,6 +6716,7 @@ onApplied
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -6702,8 +6726,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_previousFailed
 (
@@ -6926,7 +6951,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -7411,6 +7436,7 @@ No
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -7420,8 +7446,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_failed_records
 (
@@ -7899,7 +7926,7 @@ collection
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -8319,6 +8346,7 @@ length
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -8642,7 +8670,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -8942,8 +8970,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_uploadOutgoing_toEmptyServer
 (
@@ -9093,7 +9122,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -9339,6 +9368,7 @@ undefined
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -9348,8 +9378,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_uploadOutgoing_huge
 (
@@ -9458,7 +9489,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -9740,7 +9771,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -10045,8 +10076,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_uploadOutgoing_MAX_UPLOAD_RECORDS
 (
@@ -10307,7 +10339,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -10384,6 +10416,7 @@ MAX_UPLOAD_RECORDS
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -10393,8 +10426,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_uploadOutgoing_largeRecords
 (
@@ -10563,7 +10597,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -10611,6 +10645,7 @@ error
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -10620,8 +10655,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_syncFinish_noDelete
 (
@@ -10653,7 +10689,7 @@ httpd_setup
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -10705,8 +10741,9 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_syncFinish_deleteByIds
 (
@@ -10873,7 +10910,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -10964,6 +11001,7 @@ undefined
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -10973,8 +11011,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_syncFinish_deleteLotsInBatches
 (
@@ -11186,7 +11225,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -11359,6 +11398,7 @@ undefined
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -11444,7 +11484,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -11797,8 +11837,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_canDecrypt_noCryptoKeys
 (
@@ -11925,7 +11966,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -11952,6 +11993,7 @@ canDecrypt
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -11961,8 +12003,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_canDecrypt_true
 (
@@ -12077,7 +12120,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -12104,6 +12147,7 @@ canDecrypt
 }
 finally
 {
+await
 cleanAndGo
 (
 server
@@ -12113,8 +12157,9 @@ server
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_syncapplied_observer
 (
@@ -12238,7 +12283,7 @@ handler
 let
 syncTesting
 =
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -12403,6 +12448,7 @@ hasIncomingItems
 }
 finally
 {
+await
 cleanAndGo
 (
 server
