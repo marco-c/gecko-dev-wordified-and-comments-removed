@@ -1262,6 +1262,11 @@ SourceSurfaceVolatileData
 h
 '
 '
+TextureSourceProvider
+.
+h
+'
+'
 TextureWrapperImage
 .
 h
@@ -2481,6 +2486,11 @@ cpp
 '
 '
 SourceSurfaceVolatileData
+.
+cpp
+'
+'
+TextureSourceProvider
 .
 cpp
 '
