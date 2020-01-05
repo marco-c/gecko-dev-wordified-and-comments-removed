@@ -2389,8 +2389,12 @@ offset
 4
 )
 <
+int
+(
+unsigned
 (
 INT16_MIN
+)
 <
 <
 2
@@ -2997,9 +3001,13 @@ return
 imm
 >
 =
+int32_t
+(
+uint32_t
 (
 -
 256
+)
 <
 <
 4
