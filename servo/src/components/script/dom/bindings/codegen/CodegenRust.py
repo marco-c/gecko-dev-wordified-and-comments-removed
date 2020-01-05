@@ -5605,7 +5605,6 @@ CGGeneric
 (
 "
 let
-mut
 "
 )
             
@@ -15483,41 +15482,6 @@ a
 .
 type
 .
-isObject
-(
-)
-and
-not
-a
-.
-type
-.
-nullable
-(
-)
-and
-not
-a
-.
-optional
-:
-                
-name
-=
-"
-(
-JSObject
-&
-)
-"
-+
-name
-            
-if
-a
-.
-type
-.
 isGeckoInterface
 (
 )
@@ -15544,7 +15508,6 @@ name
 =
 "
 &
-mut
 "
 +
 name
@@ -18007,7 +17970,6 @@ n
                              
 "
 let
-mut
 this
 =
 this
@@ -18547,7 +18509,6 @@ n
                              
 "
 let
-mut
 this
 =
 this
@@ -19206,7 +19167,6 @@ n
                              
 "
 let
-mut
 this
 =
 this
@@ -26945,7 +26905,6 @@ n
                    
 "
 let
-mut
 this
 =
 this
@@ -27445,7 +27404,6 @@ n
                         
 "
 let
-mut
 this
 =
 this
@@ -27903,7 +27861,6 @@ n
                     
 "
 let
-mut
 this
 =
 this
@@ -28147,7 +28104,6 @@ n
                     
 "
 let
-mut
 this
 =
 this
@@ -28268,7 +28224,6 @@ n
                     
 "
 let
-mut
 this
 =
 this
@@ -28606,7 +28561,6 @@ n
                        
 "
 let
-mut
 this
 =
 this
@@ -28774,7 +28728,6 @@ n
                      
 "
 let
-mut
 this
 =
 this
@@ -29249,7 +29202,6 @@ n
                                    
 "
 let
-mut
 this
 =
 this
@@ -29442,7 +29394,6 @@ n
                         
 "
 let
-mut
 this
 =
 this
