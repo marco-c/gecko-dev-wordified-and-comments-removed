@@ -181,7 +181,6 @@ CERT_AddCertToListHead
 CERT_AddCertToListTail
 CERT_AddExtension
 CERT_AddExtensionByOID
-__CERT_AddTempCertToPerm
 CERT_AsciiToName
 CERT_CacheOCSPResponseFromSideChannel
 CERT_CertChainFromCert
