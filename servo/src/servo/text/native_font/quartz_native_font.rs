@@ -697,7 +697,7 @@ unsafe
 {
 transmute
 (
-&
+copy
 cbuf
 )
 }
