@@ -440,7 +440,7 @@ ActivityStreamContextMenu
 .
 show
 (
-v
+itemView
 .
 getContext
 (
