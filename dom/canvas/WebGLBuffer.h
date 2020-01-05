@@ -144,6 +144,16 @@ mallocSizeOf
 )
 const
 ;
+GLenum
+Usage
+(
+)
+const
+{
+return
+mUsage
+;
+}
 size_t
 ByteLength
 (
@@ -276,6 +286,9 @@ WebGLBuffer
 ;
 Kind
 mContent
+;
+GLenum
+mUsage
 ;
 size_t
 mByteLength
