@@ -45,6 +45,13 @@ h
 #
 include
 "
+InputBlockState
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SizePrintfMacros
@@ -62,13 +69,6 @@ h
 include
 "
 nsMathUtils
-.
-h
-"
-#
-include
-"
-InputBlockState
 .
 h
 "
