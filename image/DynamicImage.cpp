@@ -240,6 +240,10 @@ DynamicImage
 :
 OnSurfaceDiscarded
 (
+const
+SurfaceKey
+&
+aSurfaceKey
 )
 {
 }

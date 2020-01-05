@@ -136,6 +136,10 @@ virtual
 void
 OnSurfaceDiscarded
 (
+const
+SurfaceKey
+&
+aSurfaceKey
 )
 override
 ;
