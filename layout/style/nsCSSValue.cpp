@@ -5452,7 +5452,7 @@ mValueSerialization
 ;
 }
 void
-AppendNumber
+AppendCoefficient
 (
 const
 input_type

@@ -1264,8 +1264,12 @@ public
 css
 :
 :
-NumbersAlreadyNormalizedOps
+FloatCoeffsAlreadyNormalizedOps
 {
+typedef
+float
+coeff_type
+;
 const
 nscoord
 mFontSize
@@ -2589,7 +2593,7 @@ public
 css
 :
 :
-NumbersAlreadyNormalizedOps
+FloatCoeffsAlreadyNormalizedOps
 {
 typedef
 nsRuleNode
@@ -15796,8 +15800,12 @@ public
 css
 :
 :
-NumbersAlreadyNormalizedOps
+FloatCoeffsAlreadyNormalizedOps
 {
+typedef
+float
+coeff_type
+;
 const
 nscoord
 mParentSize
@@ -21332,7 +21340,7 @@ public
 css
 :
 :
-NumbersAlreadyNormalizedOps
+FloatCoeffsAlreadyNormalizedOps
 {
 typedef
 LineHeightCalcObj
