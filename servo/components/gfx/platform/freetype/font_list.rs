@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-non_snake_case
-)
-]
 extern
 crate
 fontconfig
@@ -131,10 +123,7 @@ std
 ptr
 ;
 use
-util
-:
-:
-str
+super
 :
 :
 c_str_to_string
@@ -237,7 +226,7 @@ FcConfigGetCurrent
 )
 ;
 let
-fontSet
+font_set
 =
 FcConfigGetFonts
 (
@@ -254,7 +243,7 @@ in
 (
 (
 *
-fontSet
+font_set
 )
 .
 nfont
@@ -267,7 +256,7 @@ font
 =
 (
 *
-fontSet
+font_set
 )
 .
 fonts

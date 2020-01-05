@@ -485,17 +485,9 @@ allow
 unsafe_code
 )
 ]
-pub
 mod
 platform
 ;
-#
-[
-allow
-(
-unsafe_code
-)
-]
 pub
 mod
 text
