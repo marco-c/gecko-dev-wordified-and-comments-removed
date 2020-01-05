@@ -9,7 +9,7 @@ from
 import
 transform
 class
-BeetmoverTask
+ChecksumsSigningTask
 (
 transform
 .
@@ -25,31 +25,26 @@ A
 task
 implementing
 a
-beetmover
+checksums
+signing
 job
 .
 These
 depend
 on
-nightly
-build
-and
-signing
-    
+beetmover
 jobs
+    
 and
-transfer
+sign
 the
-artifacts
-to
-S3
+checksums
 after
-build
-and
-signing
-are
-completed
-.
+its
+being
+generated
+by
+beetmover
     
 "
 "
@@ -70,6 +65,7 @@ loaded_tasks
 :
         
 if
+(
 config
 .
 get
@@ -86,52 +82,29 @@ dependencies
 =
 [
 "
-build
--
-signing
+beetmover
 "
-]
-and
-\
-           
-config
-.
-get
-(
-'
-kind
--
-dependencies
-'
-[
-]
-)
-!
-=
-[
 "
-nightly
+beetmover
 -
 l10n
--
-signing
 "
 ]
+)
 :
             
 raise
 Exception
 (
 "
-Beetmover
-kinds
+Checksums
+signing
+tasks
 must
 depend
 on
-builds
-or
-signing
-builds
+beetmover
+tasks
 "
 )
         
@@ -177,7 +150,7 @@ dependencies
                 
 continue
             
-beetmover_task
+checksums_signing_task
 =
 {
 '
@@ -190,4 +163,4 @@ task
 }
             
 yield
-beetmover_task
+checksums_signing_task
