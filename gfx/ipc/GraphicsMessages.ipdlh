@@ -347,6 +347,8 @@ gfxImageFormat
 ;
 IntSize
 ;
+nsCString
+;
 }
 ;
 struct
