@@ -2890,7 +2890,7 @@ getSignedInUser
 then
 (
 (
-user
+user2
 )
 =
 >
@@ -2899,7 +2899,7 @@ do_check_eq
 (
 !
 !
-user
+user2
 .
 kA
 false
@@ -2909,7 +2909,7 @@ do_check_eq
 (
 !
 !
-user
+user2
 .
 kB
 false
@@ -2919,7 +2919,7 @@ do_check_eq
 (
 !
 !
-user
+user2
 .
 keyFetchToken
 true
@@ -2929,7 +2929,7 @@ do_check_eq
 (
 !
 !
-user
+user2
 .
 unwrapBKey
 true
@@ -2959,7 +2959,7 @@ getSignedInUser
 then
 (
 (
-user
+user3
 )
 =
 >
@@ -2972,7 +2972,7 @@ internal
 .
 isUserEmailVerified
 (
-user
+user3
 )
 true
 )
@@ -2981,7 +2981,7 @@ do_check_eq
 (
 !
 !
-user
+user3
 .
 verified
 true
@@ -2989,7 +2989,7 @@ true
 ;
 do_check_eq
 (
-user
+user3
 .
 kA
 expandHex
@@ -3002,7 +3002,7 @@ expandHex
 ;
 do_check_eq
 (
-user
+user3
 .
 kB
 expandHex
@@ -3015,7 +3015,7 @@ expandHex
 ;
 do_check_eq
 (
-user
+user3
 .
 keyFetchToken
 undefined
@@ -3023,7 +3023,7 @@ undefined
 ;
 do_check_eq
 (
-user
+user3
 .
 unwrapBKey
 undefined
@@ -3448,7 +3448,7 @@ getUserAccountData
 .
 then
 (
-user
+user2
 =
 >
 {
@@ -3471,7 +3471,7 @@ user
 .
 then
 (
-user
+user2
 =
 >
 {
@@ -5033,14 +5033,14 @@ accountStatus
 then
 (
 (
-result
+result2
 )
 =
 >
 {
 do_check_false
 (
-result
+result2
 )
 ;
 fxa

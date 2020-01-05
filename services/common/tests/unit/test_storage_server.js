@@ -4563,7 +4563,7 @@ get
 (
 function
 (
-err
+err2
 )
 {
 do_check_eq

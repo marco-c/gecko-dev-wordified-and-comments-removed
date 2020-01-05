@@ -4038,7 +4038,7 @@ toplevelHandlers
 )
 {
 let
-handler
+newHandler
 =
 this
 .
@@ -4048,12 +4048,12 @@ first
 ]
 ;
 return
-handler
+newHandler
 .
 call
 (
 this
-handler
+newHandler
 req
 resp
 version
@@ -4368,6 +4368,7 @@ case
 GET
 "
 :
+{
 if
 (
 !
@@ -4472,11 +4473,13 @@ req
 resp
 )
 ;
+}
 case
 "
 DELETE
 "
 :
+{
 if
 (
 !
@@ -4665,6 +4668,7 @@ i
 return
 undefined
 ;
+}
 case
 "
 POST
