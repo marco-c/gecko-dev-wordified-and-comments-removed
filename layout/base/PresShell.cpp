@@ -27832,6 +27832,16 @@ nsAutoNotifyDidPaint
 (
 )
 {
+if
+(
+mFlags
+&
+nsIPresShell
+:
+:
+PAINT_COMPOSITE
+)
+{
 mShell
 -
 >
@@ -27842,9 +27852,9 @@ GetPresContext
 >
 NotifyDidPaintForSubtree
 (
-mFlags
 )
 ;
+}
 }
 private
 :

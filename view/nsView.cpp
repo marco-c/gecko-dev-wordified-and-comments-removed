@@ -5053,10 +5053,6 @@ rootContext
 >
 NotifyDidPaintForSubtree
 (
-nsIPresShell
-:
-:
-PAINT_COMPOSITE
 aTransactionId
 aCompositeEnd
 )
