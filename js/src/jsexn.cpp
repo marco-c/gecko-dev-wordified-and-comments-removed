@@ -2605,6 +2605,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
+SingletonObject
 )
 ;
 }
