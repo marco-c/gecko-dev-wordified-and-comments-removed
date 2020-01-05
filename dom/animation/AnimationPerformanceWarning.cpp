@@ -212,7 +212,7 @@ Length
 )
 =
 =
-7
+6
 "
 Parameter
 '
@@ -220,7 +220,7 @@ s
 length
 should
 be
-7
+6
 for
 ContentTooLarge
 "
@@ -235,7 +235,7 @@ ToLocalizedStringWithIntParams
 >
 (
 "
-CompositorAnimationWarningContentTooLarge
+CompositorAnimationWarningContentTooLarge2
 "
 aLocalizedString
 )
