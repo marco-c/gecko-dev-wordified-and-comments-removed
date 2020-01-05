@@ -14865,7 +14865,10 @@ null
   
 delete_
 :
-None
+Some
+(
+delete_
+)
   
 enumerate
 :
@@ -35217,6 +35220,7 @@ proxyhandler
 :
 :
 {
+delete_
 getPropertyDescriptor
 }
 '
