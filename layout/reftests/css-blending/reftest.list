@@ -3087,12 +3087,6 @@ mode
 enabled
 true
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 bug1281593
