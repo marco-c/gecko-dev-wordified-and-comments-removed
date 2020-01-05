@@ -3674,6 +3674,11 @@ funcControlledConstEnabled
 =
 0
 ;
+void
+panic
+(
+)
+;
 }
 ;
 partial
