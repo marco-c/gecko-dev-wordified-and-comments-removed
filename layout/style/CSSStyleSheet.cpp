@@ -95,7 +95,7 @@ h
 #
 include
 "
-nsIMediaList
+nsMediaList
 .
 h
 "

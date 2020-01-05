@@ -1,9 +1,9 @@
 #
 ifndef
-nsIMediaList_h_
+nsMediaList_h_
 #
 define
-nsIMediaList_h_
+nsMediaList_h_
 #
 include
 "
