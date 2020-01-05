@@ -12757,6 +12757,17 @@ logs
                         
 continue
                     
+name
+=
+os
+.
+path
+.
+basename
+(
+name
+)
+                    
 records
 [
 name
@@ -12768,17 +12779,12 @@ DownloadRecord
 get_artifact_url
 (
 task_id
+artifact
+[
 '
-public
-/
-{
-}
-'
-.
-format
-(
 name
-)
+'
+]
 )
                         
 name
