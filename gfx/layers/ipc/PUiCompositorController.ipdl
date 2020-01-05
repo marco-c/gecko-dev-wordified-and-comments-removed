@@ -140,6 +140,15 @@ Units
 h
 "
 ;
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 namespace
 mozilla
 {
