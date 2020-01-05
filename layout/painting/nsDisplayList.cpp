@@ -5677,7 +5677,7 @@ aItem
 Frame
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -8215,7 +8215,7 @@ parent
 return
 true
 ;
-FrameType
+LayoutFrameType
 parentType
 =
 parent
@@ -8230,7 +8230,7 @@ if
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Slider
@@ -8282,7 +8282,7 @@ if
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -8291,7 +8291,7 @@ Scroll
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ListControl
