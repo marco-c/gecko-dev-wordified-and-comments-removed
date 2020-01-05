@@ -105,7 +105,7 @@ marionette
 /
 content
 /
-action
+legacyaction
 .
 js
 "
