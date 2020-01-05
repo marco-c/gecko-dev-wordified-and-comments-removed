@@ -362,6 +362,22 @@ features
         
 if
 debug_mozjs
+or
+self
+.
+config
+[
+"
+build
+"
+]
+[
+"
+debug
+-
+mozjs
+"
+]
 :
             
 features
