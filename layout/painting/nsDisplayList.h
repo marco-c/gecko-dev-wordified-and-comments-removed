@@ -13173,7 +13173,6 @@ PrerenderDecision
 {
 NoPrerender
 FullPrerender
-PartialPrerender
 }
 ;
 typedef
