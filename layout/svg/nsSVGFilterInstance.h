@@ -367,7 +367,7 @@ int32_t
 aSourceIndices
 )
 ;
-nsresult
+bool
 ComputeBounds
 (
 )

@@ -235,11 +235,9 @@ PRIMITIVEUNITS
 ;
 if
 (
-NS_FAILED
-(
+!
 ComputeBounds
 (
-)
 )
 )
 {
@@ -251,7 +249,7 @@ mInitialized
 true
 ;
 }
-nsresult
+bool
 nsSVGFilterInstance
 :
 :
@@ -432,7 +430,7 @@ height
 )
 {
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 if
@@ -450,11 +448,11 @@ mFilterSpaceBounds
 )
 {
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 return
-NS_OK
+true
 ;
 }
 nsSVGFilterFrame
