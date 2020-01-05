@@ -1059,6 +1059,9 @@ abs_test_install_dir
 marionette
 '
 '
+harness
+'
+'
 marionette
 '
 )
