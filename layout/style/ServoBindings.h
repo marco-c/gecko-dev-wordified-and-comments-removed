@@ -556,7 +556,7 @@ mozilla
 ServoStyleSheet
 *
 parent
-RawServoImportRuleStrong
+RawServoImportRuleBorrowed
 import_rule
 const
 uint8_t
