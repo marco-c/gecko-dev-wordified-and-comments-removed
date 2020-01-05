@@ -228,7 +228,7 @@ HTMLCollection
 getElementsByTagName
 (
 DOMString
-localName
+qualifiedName
 )
 ;
 HTMLCollection
@@ -238,7 +238,7 @@ DOMString
 ?
 namespace
 DOMString
-localName
+qualifiedName
 )
 ;
 HTMLCollection
