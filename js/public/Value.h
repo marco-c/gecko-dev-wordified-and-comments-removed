@@ -1035,10 +1035,11 @@ d
 )
 {
 data
-.
-asDouble
 =
+layout
+(
 d
+)
 ;
 }
 void
