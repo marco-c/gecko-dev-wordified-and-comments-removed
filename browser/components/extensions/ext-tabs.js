@@ -585,6 +585,9 @@ convert
 event
 .
 nativeTab
+event
+.
+currentTab
 )
 )
 ;
@@ -2157,6 +2160,15 @@ initTabReady
 )
 ;
 let
+currentTab
+=
+window
+.
+gBrowser
+.
+selectedTab
+;
+let
 nativeTab
 =
 window
@@ -2302,6 +2314,7 @@ tabManager
 convert
 (
 nativeTab
+currentTab
 )
 ;
 }
