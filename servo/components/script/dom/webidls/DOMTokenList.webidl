@@ -175,5 +175,11 @@ value
 ;
 stringifier
 ;
+iterable
+<
+DOMString
+?
+>
+;
 }
 ;
