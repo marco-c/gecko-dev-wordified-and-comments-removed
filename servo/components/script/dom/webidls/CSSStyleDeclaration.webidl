@@ -191,13 +191,9 @@ DOMString
 value
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 void
 setPropertyPriority
 (
