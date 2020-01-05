@@ -279,6 +279,7 @@ desc
     
 dumb
 =
+(
 os
 .
 environ
@@ -294,6 +295,18 @@ TERM
 "
 dumb
 "
+)
+or
+(
+not
+sys
+.
+stdout
+.
+isatty
+(
+)
+)
     
 PanickyUrlOpener
 (
