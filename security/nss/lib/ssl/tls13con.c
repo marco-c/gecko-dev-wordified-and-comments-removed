@@ -13746,6 +13746,14 @@ PRCList
 *
 cur_p
 ;
+PORT_Assert
+(
+PR_LIST_HEAD
+(
+list
+)
+)
+;
 while
 (
 !
