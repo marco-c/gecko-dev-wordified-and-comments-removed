@@ -22,6 +22,14 @@ feature
 mpsc_select
 )
 ]
+#
+!
+[
+feature
+(
+step_by
+)
+]
 extern
 crate
 brotli

@@ -7455,7 +7455,7 @@ page_zoom
 webrender_traits
 :
 :
-PageZoomFactor
+ZoomFactor
 :
 :
 new
