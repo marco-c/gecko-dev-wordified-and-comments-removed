@@ -9262,7 +9262,7 @@ nsIPresShell
 SCROLL_OVERFLOW_HIDDEN
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 frame
 =
 aContent

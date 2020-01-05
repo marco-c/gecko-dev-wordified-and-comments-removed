@@ -1307,7 +1307,7 @@ mPreferFallbackKnown
 :
 1
 ;
-nsWeakFrame
+AutoWeakFrame
 mPrintFrame
 ;
 RefPtr

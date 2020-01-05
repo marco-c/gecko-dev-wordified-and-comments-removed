@@ -1391,7 +1391,7 @@ frame
 return
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 frame
@@ -1560,7 +1560,7 @@ GetFirstNonAnonymousFrameForGeometryNode
 aFrom
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 fromFrame

@@ -2106,7 +2106,7 @@ aStates
 {
 }
 void
-nsWeakFrame
+AutoWeakFrame
 :
 :
 Init
@@ -2167,7 +2167,7 @@ shell
 Null
 PresShell
 in
-nsWeakFrame
+AutoWeakFrame
 !
 "
 )
@@ -17086,7 +17086,7 @@ contentOffset
 target
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakThis
 =
 this

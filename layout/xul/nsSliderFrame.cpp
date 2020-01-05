@@ -2712,7 +2712,7 @@ ScrollInputMethod
 MainThreadScrollbarTrackClick
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -3881,7 +3881,7 @@ GetScrollbar
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

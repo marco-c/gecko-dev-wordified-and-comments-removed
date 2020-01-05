@@ -177,7 +177,7 @@ aSelData
 ;
 private
 :
-nsWeakFrame
+AutoWeakFrame
 mCurrCtrlFrame
 ;
 int32_t

@@ -613,7 +613,7 @@ NS_OK
 }
 private
 :
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 }

@@ -273,7 +273,7 @@ nsDisplayXULTextBox
 bool
 UpdateAccesskey
 (
-nsWeakFrame
+AutoWeakFrame
 &
 aWeakThis
 )

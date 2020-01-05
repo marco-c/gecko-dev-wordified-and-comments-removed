@@ -1719,7 +1719,7 @@ progress
 )
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 (
@@ -1869,7 +1869,7 @@ TimeStamp
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 (

@@ -987,7 +987,7 @@ AppendInt
 curpos
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

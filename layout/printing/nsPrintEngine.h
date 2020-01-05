@@ -1000,7 +1000,7 @@ nsPagePrintTimer
 *
 mPagePrintTimer
 ;
-nsWeakFrame
+AutoWeakFrame
 mPageSeqFrame
 ;
 mozilla

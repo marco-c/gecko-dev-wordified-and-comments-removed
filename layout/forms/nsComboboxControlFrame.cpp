@@ -1161,7 +1161,7 @@ bool
 aRepaint
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -1561,7 +1561,7 @@ false
 ;
 }
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -1765,7 +1765,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 }
@@ -2259,7 +2259,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 }
@@ -2446,7 +2446,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 }
@@ -4436,7 +4436,7 @@ HandleRedisplayTextEvent
 (
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakThis
 (
 this
@@ -4677,7 +4677,7 @@ int32_t
 aIndex
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakThis
 (
 this
@@ -6187,7 +6187,7 @@ consume
 !
 COMBOBOX_ROLLUP_CONSUME_EVENT
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -6946,7 +6946,7 @@ aIndex
 }
 else
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

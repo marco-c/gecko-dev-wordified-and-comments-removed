@@ -1064,7 +1064,7 @@ selectFrame
 =
 nullptr
 ;
-nsWeakFrame
+AutoWeakFrame
 weakSelectFrame
 ;
 bool
@@ -3659,7 +3659,7 @@ didGetFrame
 =
 false
 ;
-nsWeakFrame
+AutoWeakFrame
 weakSelectFrame
 ;
 if

@@ -259,7 +259,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -1217,7 +1217,7 @@ AppUnitsPerCSSPixel
 LayoutDeviceIntRect
 oldRect
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 menuPopupFrame

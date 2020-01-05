@@ -394,7 +394,7 @@ aDirectionY
 )
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 WheelTransaction
 :
 :
@@ -804,7 +804,7 @@ WillHandleDefaultAction
 WidgetWheelEvent
 *
 aWheelEvent
-nsWeakFrame
+AutoWeakFrame
 &
 aTargetWeakFrame
 )
@@ -1792,7 +1792,7 @@ DeltaValues
 )
 }
 ;
-nsWeakFrame
+AutoWeakFrame
 ScrollbarsForWheel
 :
 :
@@ -1800,7 +1800,7 @@ sActiveOwner
 =
 nullptr
 ;
-nsWeakFrame
+AutoWeakFrame
 ScrollbarsForWheel
 :
 :
@@ -2166,7 +2166,7 @@ directions
 i
 ]
 ;
-nsWeakFrame
+AutoWeakFrame
 *
 scrollTarget
 =
@@ -2281,7 +2281,7 @@ i
 +
 )
 {
-nsWeakFrame
+AutoWeakFrame
 *
 scrollTarget
 =

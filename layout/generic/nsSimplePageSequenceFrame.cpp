@@ -3050,7 +3050,7 @@ canvasTarget
 )
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 =
 this

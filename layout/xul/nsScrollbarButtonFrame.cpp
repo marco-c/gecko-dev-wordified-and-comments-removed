@@ -527,7 +527,7 @@ pressedButtonAction
 =
 2
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

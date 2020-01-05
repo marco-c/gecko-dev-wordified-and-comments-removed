@@ -3085,7 +3085,7 @@ kungFuDeathGrip
 aPresContext
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weak
 (
 rootFrame

@@ -2065,7 +2065,7 @@ if
 scrollframe
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -4061,7 +4061,7 @@ if
 menuFrame
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

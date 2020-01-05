@@ -1276,7 +1276,7 @@ mSelection
 mPresContext
 )
 {
-nsWeakFrame
+AutoWeakFrame
 frame
 =
 mContent
@@ -20291,13 +20291,13 @@ GetRootFrame
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakRootFrame
 (
 rootmostFrame
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 aFrame

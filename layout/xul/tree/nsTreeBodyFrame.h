@@ -1548,7 +1548,7 @@ const
 ScrollParts
 &
 aParts
-nsWeakFrame
+AutoWeakFrame
 &
 aWeakColumnsFrame
 )

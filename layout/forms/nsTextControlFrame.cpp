@@ -1104,7 +1104,7 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -3145,7 +3145,7 @@ select
 aName
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakThis
 =
 this
@@ -5485,7 +5485,7 @@ if
 mUsePlaceholder
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5745,7 +5745,7 @@ mUsePlaceholder
 aBeforeEditorInit
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

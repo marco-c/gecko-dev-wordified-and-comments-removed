@@ -6489,7 +6489,7 @@ return
 int32_t
 change
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

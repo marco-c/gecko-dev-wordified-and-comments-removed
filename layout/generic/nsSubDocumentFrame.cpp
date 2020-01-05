@@ -452,7 +452,7 @@ NS_OK
 }
 private
 :
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 }
@@ -783,7 +783,7 @@ GetMarginAttributes
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakThis
 (
 this
@@ -3688,7 +3688,7 @@ if
 mFrameLoader
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5480,13 +5480,13 @@ nsSubDocumentFrame
 aOther
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakThis
 (
 this
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakOther
 (
 aOther

@@ -1570,7 +1570,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -4422,7 +4422,7 @@ eCaseMatters
 )
 return
 ;
-nsWeakFrame
+AutoWeakFrame
 weakBox
 (
 aChildBox

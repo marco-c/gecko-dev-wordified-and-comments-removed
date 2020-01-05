@@ -18028,7 +18028,7 @@ HandlingInputEvent
 true
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakNumberControlFrame
 (
 numberControlFrame

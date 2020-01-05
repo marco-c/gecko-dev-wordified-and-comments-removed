@@ -158,7 +158,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 OverOutElementsWrapper
 )
-nsWeakFrame
+AutoWeakFrame
 mLastOverFrame
 ;
 nsCOMPtr
@@ -923,7 +923,7 @@ aRelatedTarget
 nsIContent
 *
 aTargetContent
-nsWeakFrame
+AutoWeakFrame
 &
 aTargetFrame
 )
@@ -954,7 +954,7 @@ aPresShell
 nsIContent
 *
 aMouseTarget
-nsWeakFrame
+AutoWeakFrame
 aCurrentTarget
 bool
 aNoContentDispatch
@@ -1975,7 +1975,7 @@ static
 LayoutDeviceIntPoint
 sSynthCenteringPoint
 ;
-nsWeakFrame
+AutoWeakFrame
 mCurrentTarget
 ;
 nsCOMPtr
@@ -1985,7 +1985,7 @@ nsIContent
 mCurrentTargetContent
 ;
 static
-nsWeakFrame
+AutoWeakFrame
 sLastDragOverFrame
 ;
 static

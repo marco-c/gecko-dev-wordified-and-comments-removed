@@ -579,7 +579,7 @@ GetY
 tcY
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 tcFrame
 =
 tcContent

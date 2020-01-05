@@ -2570,7 +2570,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 ptFrame
 =
 nsLayoutUtils
@@ -5443,7 +5443,7 @@ nsGkAtoms
 scrollFrame
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakScrollable
 =
 scrollable

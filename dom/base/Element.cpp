@@ -4181,7 +4181,7 @@ return
 false
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakRef
 (
 sf
