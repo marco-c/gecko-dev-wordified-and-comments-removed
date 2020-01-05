@@ -1,7 +1,5 @@
-static
-const
 uint8_t
-sWebMSample
+webMSample
 [
 ]
 =
