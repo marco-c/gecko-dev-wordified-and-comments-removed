@@ -135,6 +135,11 @@ ExtensionStorageSync
 jsm
 '
 '
+ExtensionTabs
+.
+jsm
+'
+'
 ExtensionUtils
 .
 jsm

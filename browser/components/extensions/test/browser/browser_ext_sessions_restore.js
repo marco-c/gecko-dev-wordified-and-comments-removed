@@ -407,8 +407,8 @@ Management
 global
 :
 {
-WindowManager
-TabManager
+windowTracker
+tabTracker
 }
 }
 }
@@ -444,7 +444,7 @@ expectedUrl
 let
 realTab
 =
-TabManager
+tabTracker
 .
 getTab
 (
@@ -770,7 +770,7 @@ mozilla
 let
 window
 =
-WindowManager
+windowTracker
 .
 getWindow
 (
@@ -962,7 +962,7 @@ mozilla
 ;
 window
 =
-WindowManager
+windowTracker
 .
 getWindow
 (
@@ -1107,7 +1107,7 @@ robots
 let
 realTab
 =
-TabManager
+tabTracker
 .
 getTab
 (
@@ -1237,7 +1237,7 @@ robots
 ;
 realTab
 =
-TabManager
+tabTracker
 .
 getTab
 (

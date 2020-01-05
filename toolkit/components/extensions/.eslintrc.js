@@ -155,15 +155,10 @@ Services
 :
 true
 "
-TabManager
+tabTracker
 "
 :
-true
-"
-WindowListManager
-"
-:
-true
+false
 "
 XPCOMUtils
 "

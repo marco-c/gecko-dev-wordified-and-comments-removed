@@ -319,7 +319,7 @@ linkedBrowser
 )
 ;
 return
-TabManager
+tabTracker
 .
 getId
 (
