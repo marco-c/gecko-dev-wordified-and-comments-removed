@@ -1901,6 +1901,8 @@ def
 update_jquery
 (
 self
+release
+dev
 )
 :
         
