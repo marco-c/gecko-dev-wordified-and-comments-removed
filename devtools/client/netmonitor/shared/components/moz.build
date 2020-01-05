@@ -79,14 +79,14 @@ js
 '
 headers
 -
-mdn
+panel
 .
 js
 '
 '
-headers
+mdn
 -
-panel
+link
 .
 js
 '
