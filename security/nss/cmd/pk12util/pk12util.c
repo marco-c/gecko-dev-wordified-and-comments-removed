@@ -5212,7 +5212,7 @@ certKeyLen
 ;
 if
 (
-cipher
+certCipher
 =
 =
 SEC_OID_UNKNOWN
