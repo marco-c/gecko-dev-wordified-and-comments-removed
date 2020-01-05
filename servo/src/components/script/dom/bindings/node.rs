@@ -749,6 +749,17 @@ HTMLFontElement
 )
 ElementNodeTypeId
 (
+HTMLFormElementTypeId
+)
+=
+>
+generate_element
+!
+(
+HTMLFormElement
+)
+ElementNodeTypeId
+(
 HTMLFrameElementTypeId
 )
 =
