@@ -26,7 +26,8 @@ values
 :
 :
 {
-Auto
+BoxAuto
+BoxLength
 Px
 }
 ;
@@ -251,9 +252,12 @@ appearance
 .
 height
 {
+BoxLength
+(
 Px
 (
 p
+)
 )
 =
 >
@@ -265,7 +269,7 @@ to_int
 (
 )
 )
-Auto
+BoxAuto
 =
 >
 au
@@ -300,9 +304,12 @@ appearance
 .
 width
 {
+BoxLength
+(
 Px
 (
 p
+)
 )
 =
 >
@@ -314,7 +321,7 @@ to_int
 (
 )
 )
-Auto
+BoxAuto
 =
 >
 au
