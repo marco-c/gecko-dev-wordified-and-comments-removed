@@ -71,7 +71,7 @@ bool
 nsWrapperCache
 :
 :
-IsBlack
+HasKnownLiveWrapper
 (
 )
 const
@@ -217,7 +217,7 @@ aThis
 )
 {
 return
-IsBlack
+HasKnownLiveWrapper
 (
 )
 &

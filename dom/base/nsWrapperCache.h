@@ -352,7 +352,7 @@ aGivenProto
 0
 ;
 bool
-IsBlack
+HasKnownLiveWrapper
 (
 )
 const

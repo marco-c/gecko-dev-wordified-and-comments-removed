@@ -234,7 +234,7 @@ sGeneration
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 )
@@ -320,7 +320,7 @@ sGeneration
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 ;
@@ -339,7 +339,7 @@ sGeneration
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 ;

@@ -10165,7 +10165,7 @@ GetMarkedCCGeneration
 )
 |
 |
-IsBlack
+HasKnownLiveWrapper
 (
 )
 )
