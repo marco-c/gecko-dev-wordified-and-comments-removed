@@ -888,6 +888,7 @@ self
 .
 update_window_title
 (
+false
 )
 ;
 if
@@ -953,6 +954,7 @@ self
 .
 update_window_title
 (
+true
 )
 }
 /
@@ -1019,6 +1021,7 @@ self
 .
 update_window_title
 (
+true
 )
 }
 fn
@@ -1097,6 +1100,9 @@ update_window_title
 (
 &
 self
+state_change
+:
+bool
 )
 {
 let
@@ -1118,6 +1124,9 @@ Blank
 =
 >
 {
+if
+state_change
+{
 self
 .
 glfw_window
@@ -1133,7 +1142,7 @@ Servo
 "
 )
 )
-;
+}
 }
 Loading
 =
@@ -1217,6 +1226,10 @@ throbber
 IdleRenderState
 =
 >
+{
+if
+state_change
+{
 self
 .
 glfw_window
@@ -1227,6 +1240,8 @@ set_title
 Servo
 "
 )
+}
+}
 }
 }
 }
