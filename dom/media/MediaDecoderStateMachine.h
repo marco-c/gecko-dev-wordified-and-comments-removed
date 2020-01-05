@@ -1541,9 +1541,6 @@ mDecodedVideoEndTime
 double
 mPlaybackRate
 ;
-int64_t
-mLowDataThresholdUsecs
-;
 uint32_t
 GetAmpleVideoFrames
 (
