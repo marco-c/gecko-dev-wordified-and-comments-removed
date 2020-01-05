@@ -740,11 +740,17 @@ args
 )
 {
 }
+namespace
+mozilla
+{
 class
 AutoProfilerRegister
 final
 MOZ_STACK_CLASS
 {
+public
+:
+explicit
 AutoProfilerRegister
 (
 const
@@ -779,6 +785,7 @@ delete
 ;
 }
 ;
+}
 #
 else
 #
