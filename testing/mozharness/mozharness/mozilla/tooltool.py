@@ -320,7 +320,7 @@ self
 .
 topsrcdir
 '
-testing
+taskcluster
 '
 '
 docker

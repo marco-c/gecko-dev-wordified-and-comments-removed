@@ -157,7 +157,7 @@ join
 (
 GECKO
 '
-testing
+taskcluster
 '
 '
 docker
