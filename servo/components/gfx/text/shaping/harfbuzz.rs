@@ -1764,8 +1764,6 @@ debug
 text
 :
 {
-:
-s
 }
 "
 text

@@ -1052,8 +1052,6 @@ with
 name
 =
 {
-:
-s
 }
 "
 family_name
@@ -1160,8 +1158,6 @@ with
 name
 =
 {
-:
-s
 }
 "
 family_name

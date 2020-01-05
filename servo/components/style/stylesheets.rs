@@ -740,8 +740,6 @@ at
 rule
 :
 {
-:
-s
 }
 "
 lower_name

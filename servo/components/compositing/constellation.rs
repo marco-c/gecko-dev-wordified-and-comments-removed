@@ -4861,8 +4861,6 @@ message
 to
 load
 {
-:
-s
 }
 "
 url

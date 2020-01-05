@@ -1431,8 +1431,6 @@ started
 fetch
 for
 {
-:
-s
 }
 "
 url
@@ -1487,8 +1485,6 @@ ended
 fetch
 for
 {
-:
-s
 }
 "
 url
@@ -1919,8 +1915,6 @@ image
 decode
 for
 {
-:
-s
 }
 "
 url
@@ -1991,8 +1985,6 @@ image
 decode
 for
 {
-:
-s
 }
 "
 url

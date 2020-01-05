@@ -475,13 +475,9 @@ println
 "
 registering
 {
-:
-s
 }
 (
 {
-:
-s
 }
 )
 "
@@ -640,8 +636,6 @@ println
 "
 checking
 {
-:
-s
 }
 "
 value
@@ -685,8 +679,6 @@ find
 actor
 named
 {
-:
-s
 }
 "
 actor
@@ -734,12 +726,8 @@ format
 (
 "
 {
-:
-s
 }
 {
-:
-u
 }
 "
 prefix
@@ -1031,8 +1019,6 @@ actor
 \
 "
 {
-:
-s
 }
 \
 "
@@ -1106,8 +1092,6 @@ type
 \
 "
 {
-:
-s
 }
 \
 "
@@ -1117,8 +1101,6 @@ actor
 \
 "
 {
-:
-s
 }
 \
 "

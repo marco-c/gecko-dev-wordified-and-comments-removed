@@ -434,8 +434,6 @@ declaration
 list
 :
 {
-:
-s
 }
 "
 rule
@@ -658,8 +656,6 @@ format
 Unsupported
 declaration
 {
-:
-s
 }
 "
 name

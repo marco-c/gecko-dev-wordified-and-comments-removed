@@ -923,8 +923,6 @@ Parse
 error
 :
 {
-:
-s
 }
 "
 msg
@@ -1592,8 +1590,6 @@ src
 =
 '
 {
-:
-s
 }
 '
 /
@@ -1697,14 +1693,10 @@ load
 page
 URL
 {
-:
-s
 }
 error
 :
 {
-:
-s
 }
 "
 url

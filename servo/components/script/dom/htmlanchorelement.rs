@@ -571,8 +571,6 @@ on
 link
 to
 {
-:
-s
 }
 "
 value

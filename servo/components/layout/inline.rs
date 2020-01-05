@@ -5788,8 +5788,6 @@ display
 list
 for
 {
-:
-u
 }
 inline
 fragments

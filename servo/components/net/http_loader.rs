@@ -419,8 +419,6 @@ format
 (
 "
 {
-:
-s
 }
 request
 but
@@ -454,8 +452,6 @@ info
 "
 requesting
 {
-:
-s
 }
 "
 url

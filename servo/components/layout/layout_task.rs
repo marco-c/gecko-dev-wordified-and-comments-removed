@@ -4732,8 +4732,6 @@ request
 for
 :
 {
-:
-s
 }
 "
 data

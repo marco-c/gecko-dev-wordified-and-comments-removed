@@ -177,8 +177,6 @@ println
 (
 "
 {
-:
-s
 }
 "
 message
@@ -199,8 +197,6 @@ println
 (
 "
 {
-:
-s
 }
 "
 message
@@ -221,8 +217,6 @@ println
 (
 "
 {
-:
-s
 }
 "
 message
@@ -243,8 +237,6 @@ println
 (
 "
 {
-:
-s
 }
 "
 message
@@ -265,8 +257,6 @@ println
 (
 "
 {
-:
-s
 }
 "
 message
@@ -327,8 +317,6 @@ Assertion
 failed
 :
 {
-:
-s
 }
 "
 message

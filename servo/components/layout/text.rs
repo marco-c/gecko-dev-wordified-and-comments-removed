@@ -264,8 +264,6 @@ TextRunScanner
 :
 scanning
 {
-:
-u
 }
 fragments
 for

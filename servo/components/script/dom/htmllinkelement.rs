@@ -1051,8 +1051,6 @@ debug
 Parsing
 url
 {
-:
-s
 }
 failed
 :

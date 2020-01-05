@@ -768,8 +768,6 @@ with
 unique
 id
 {
-:
-s
 }
 "
 node_id
