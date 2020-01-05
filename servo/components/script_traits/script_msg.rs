@@ -293,6 +293,16 @@ IpcSender
 >
 >
 )
+SetVisible
+(
+PipelineId
+bool
+)
+VisibilityChangeComplete
+(
+PipelineId
+bool
+)
 ScriptLoadedURLInIFrame
 (
 IFrameLoadInfo
