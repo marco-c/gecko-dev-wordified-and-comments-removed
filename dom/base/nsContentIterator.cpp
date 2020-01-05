@@ -1214,10 +1214,15 @@ if
 startIsData
 &
 &
+uint32_t
+(
+startIndx
+)
+<
 startNode
 -
 >
-HasChildren
+GetChildCount
 (
 )
 )
@@ -1490,7 +1495,7 @@ endIndx
 {
 mLast
 =
-GetPrevSibling
+PrevNode
 (
 endNode
 )
@@ -1499,7 +1504,7 @@ NS_WARNING_ASSERTION
 (
 mLast
 "
-GetPrevSibling
+PrevNode
 returned
 null
 "
