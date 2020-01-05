@@ -83,12 +83,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-webrender
-)
 !
 =
 pull
@@ -101,12 +95,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-webrender
-)
 !
 =
 pull
