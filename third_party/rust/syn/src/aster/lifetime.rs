@@ -128,6 +128,12 @@ LifetimeDef
 {
 LifetimeDef
 {
+attrs
+:
+vec
+!
+[
+]
 lifetime
 :
 self
@@ -400,6 +406,12 @@ invoke
 (
 LifetimeDef
 {
+attrs
+:
+vec
+!
+[
+]
 lifetime
 :
 self

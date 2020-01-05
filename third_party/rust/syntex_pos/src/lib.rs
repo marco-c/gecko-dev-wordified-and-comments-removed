@@ -185,6 +185,8 @@ Copy
 Hash
 PartialEq
 Eq
+Ord
+PartialOrd
 )
 ]
 pub
@@ -209,6 +211,10 @@ ExpnId
 derive
 (
 Clone
+Debug
+Hash
+PartialEq
+Eq
 )
 ]
 pub
@@ -1233,6 +1239,8 @@ Hash
 RustcEncodable
 RustcDecodable
 Copy
+Ord
+PartialOrd
 )
 ]
 pub

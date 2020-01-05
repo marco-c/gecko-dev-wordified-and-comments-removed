@@ -1967,7 +1967,7 @@ return
 SmallVector
 :
 :
-zero
+new
 (
 )
 }
