@@ -5567,13 +5567,10 @@ mMessagePort
 }
 else
 {
-MOZ_CRASH
+aValue
+.
+SetNull
 (
-"
-Unexpected
-source
-value
-"
 )
 ;
 }
