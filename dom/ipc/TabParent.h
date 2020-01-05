@@ -1747,6 +1747,11 @@ aURI
 )
 ;
 void
+InitRenderFrame
+(
+)
+;
+void
 Show
 (
 const
