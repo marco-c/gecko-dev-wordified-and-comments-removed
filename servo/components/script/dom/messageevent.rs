@@ -127,6 +127,7 @@ event
 :
 {
 Event
+EventHelpers
 EventTypeId
 }
 ;
@@ -137,10 +138,7 @@ dom
 eventtarget
 :
 :
-{
 EventTarget
-EventTargetHelpers
-}
 ;
 use
 util
@@ -600,11 +598,11 @@ r
 )
 )
 ;
-target
-.
-dispatch_event
-(
 event
+.
+fire
+(
+target
 )
 ;
 }
