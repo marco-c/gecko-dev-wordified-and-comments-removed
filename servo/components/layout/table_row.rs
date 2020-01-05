@@ -1263,6 +1263,14 @@ Au
 )
 ;
 let
+inline_end_content_edge
+=
+Au
+(
+0
+)
+;
+let
 inline_size_computer
 =
 InternalTable
@@ -1430,6 +1438,7 @@ propagate_assigned_inline_size_to_children
 (
 layout_context
 inline_start_content_edge
+inline_end_content_edge
 containing_block_inline_size
 Some
 (

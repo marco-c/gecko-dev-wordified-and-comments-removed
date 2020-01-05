@@ -531,6 +531,17 @@ new
 )
 ;
 let
+inline_end_content_edge
+=
+Au
+:
+:
+new
+(
+0
+)
+;
+let
 content_inline_size
 =
 containing_block_inline_size
@@ -582,6 +593,7 @@ propagate_assigned_inline_size_to_children
 (
 layout_context
 inline_start_content_edge
+inline_end_content_edge
 content_inline_size
 Some
 (
