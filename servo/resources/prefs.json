@@ -569,17 +569,6 @@ false
 "
 network
 .
-http
-.
-redirection
--
-limit
-"
-:
-20
-"
-network
-.
 mime
 .
 sniff
