@@ -733,6 +733,17 @@ function
 postDataText
 )
 {
+if
+(
+!
+postDataText
+)
+{
+return
+"
+"
+;
+}
 let
 lines
 =
