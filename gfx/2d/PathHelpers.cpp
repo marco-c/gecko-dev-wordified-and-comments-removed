@@ -303,10 +303,7 @@ X
 +
 aRadii
 [
-RectCorner
-:
-:
-TopLeft
+eCornerTopLeft
 ]
 .
 width
@@ -342,10 +339,7 @@ Width
 -
 aRadii
 [
-RectCorner
-:
-:
-TopRight
+eCornerTopRight
 ]
 .
 width
