@@ -3658,6 +3658,12 @@ JSObject
 obj
 )
 {
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 MOZ_ASSERT
 (
 obj
@@ -7526,6 +7532,12 @@ JSString
 str2
 )
 {
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 MOZ_ASSERT
 (
 str1
