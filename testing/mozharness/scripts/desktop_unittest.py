@@ -2624,19 +2624,17 @@ txt
 ]
         
 if
-os
+self
 .
-path
-.
-isdir
+_query_specified_suites
 (
-dirs
-[
 '
-abs_mochitest_dir
+mochitest
 '
-]
 )
+is
+not
+None
 :
             
 requirements_files

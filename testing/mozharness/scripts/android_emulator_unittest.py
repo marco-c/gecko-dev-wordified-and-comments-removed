@@ -1205,19 +1205,16 @@ requirements
 None
         
 if
-os
+self
 .
-path
-.
-isdir
-(
-dirs
-[
+test_suite
+=
+=
 '
-abs_mochitest_dir
+mochitest
+-
+media
 '
-]
-)
 :
             
 requirements
