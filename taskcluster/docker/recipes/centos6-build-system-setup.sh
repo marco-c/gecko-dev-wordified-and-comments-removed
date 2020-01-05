@@ -87,6 +87,15 @@ install
 make
 .
 sh
+.
+/
+setup
+/
+install
+-
+cmake
+.
+sh
 rm
 -
 rf
