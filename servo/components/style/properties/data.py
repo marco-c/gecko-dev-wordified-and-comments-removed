@@ -561,6 +561,19 @@ self
 gecko_strip_moz_prefix
 else
 value
+.
+replace
+(
+"
+-
+moz
+-
+"
+'
+moz
+-
+'
+)
         
 mapped
 =

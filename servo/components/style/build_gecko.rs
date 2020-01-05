@@ -3491,6 +3491,7 @@ nsstring
 {
 nsACString
 nsAString
+nsString
 }
 ;
 "
@@ -3773,6 +3774,9 @@ nsStyleXUL
 "
 "
 nsTimingFunction
+"
+"
+nscolor
 "
 "
 nscoord
