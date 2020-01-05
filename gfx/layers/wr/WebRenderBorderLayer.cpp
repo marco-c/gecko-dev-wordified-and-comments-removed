@@ -329,6 +329,10 @@ mColors
 [
 0
 ]
+mBorderStyles
+[
+0
+]
 )
 wr
 :
@@ -340,6 +344,10 @@ mWidths
 1
 ]
 mColors
+[
+1
+]
+mBorderStyles
 [
 1
 ]
@@ -354,6 +362,10 @@ mWidths
 2
 ]
 mColors
+[
+2
+]
+mBorderStyles
 [
 2
 ]
@@ -368,6 +380,10 @@ mWidths
 3
 ]
 mColors
+[
+3
+]
+mBorderStyles
 [
 3
 ]
