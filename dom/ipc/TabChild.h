@@ -607,7 +607,7 @@ optional_argc
 ;
 }
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

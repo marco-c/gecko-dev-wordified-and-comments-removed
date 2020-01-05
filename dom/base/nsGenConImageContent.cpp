@@ -152,7 +152,7 @@ override
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -199,7 +199,7 @@ return
 nsXMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

@@ -3960,7 +3960,7 @@ aURI
 const
 ;
 nsresult
-PreHandleEventForLinks
+GetEventTargetParentForLinks
 (
 EventChainPreVisitor
 &

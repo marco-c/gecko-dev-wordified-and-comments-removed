@@ -424,7 +424,7 @@ DOMEventTargetHelper
 )
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

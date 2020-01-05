@@ -15178,7 +15178,7 @@ nsresult
 nsGlobalWindow
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -15191,7 +15191,7 @@ IsInnerWindow
 (
 )
 "
-PreHandleEvent
+GetEventTargetParent
 is
 used
 on

@@ -920,7 +920,7 @@ nsresult
 HTMLMenuItemElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1042,7 +1042,7 @@ return
 nsGenericHTMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

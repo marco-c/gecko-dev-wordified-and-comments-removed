@@ -101,7 +101,7 @@ aReader
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

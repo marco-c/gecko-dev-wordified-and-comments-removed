@@ -3248,7 +3248,7 @@ NS_DECL_NSIDOMDOCUMENT
 NS_DECL_NSIDOMDOCUMENTXBL
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :

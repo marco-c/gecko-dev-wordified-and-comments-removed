@@ -152,7 +152,7 @@ nsresult
 HTMLOptGroupElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -241,7 +241,7 @@ return
 nsGenericHTMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

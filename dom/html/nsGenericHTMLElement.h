@@ -2457,7 +2457,7 @@ aVisitor
 )
 ;
 nsresult
-PreHandleEventForAnchors
+GetEventTargetParentForAnchors
 (
 mozilla
 :
@@ -4260,7 +4260,7 @@ override
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :

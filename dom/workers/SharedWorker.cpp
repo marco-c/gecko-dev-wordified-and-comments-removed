@@ -755,7 +755,7 @@ nsresult
 SharedWorker
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -839,7 +839,7 @@ return
 DOMEventTargetHelper
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

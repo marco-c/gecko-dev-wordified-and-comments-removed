@@ -13644,7 +13644,7 @@ nsresult
 Element
 :
 :
-PreHandleEventForLinks
+GetEventTargetParentForLinks
 (
 EventChainPreVisitor
 &

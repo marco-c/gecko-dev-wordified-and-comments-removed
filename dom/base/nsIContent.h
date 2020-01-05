@@ -1946,7 +1946,7 @@ override
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :

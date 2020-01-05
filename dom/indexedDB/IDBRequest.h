@@ -300,7 +300,7 @@ NextSerialNumber
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

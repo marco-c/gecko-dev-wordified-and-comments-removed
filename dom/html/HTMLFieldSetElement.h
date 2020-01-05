@@ -134,7 +134,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLFIELDSETELEMENT
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

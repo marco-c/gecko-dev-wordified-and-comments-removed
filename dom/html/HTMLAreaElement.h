@@ -121,7 +121,7 @@ override
 NS_DECL_NSIDOMHTMLAREAELEMENT
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

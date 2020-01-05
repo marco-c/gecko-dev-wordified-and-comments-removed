@@ -16470,7 +16470,7 @@ nsresult
 HTMLInputElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -16543,7 +16543,7 @@ return
 nsGenericHTMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -17326,7 +17326,7 @@ rv
 nsGenericHTMLFormElementWithState
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

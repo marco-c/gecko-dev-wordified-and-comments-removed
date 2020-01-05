@@ -1380,7 +1380,7 @@ nsresult
 Attr
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

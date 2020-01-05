@@ -1147,7 +1147,7 @@ aCd
 )
 ;
 void
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1466,7 +1466,7 @@ void
 EventTargetChainItem
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1485,7 +1485,7 @@ Unused
 mTarget
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -2001,16 +2001,6 @@ mEvent
 mFlags
 .
 mInSystemGroup
-&
-&
-aVisitor
-.
-mEvent
--
->
-IsAllowedToDispatchInSystemGroup
-(
-)
 )
 {
 aVisitor
@@ -3113,7 +3103,7 @@ isInAnon
 targetEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )
@@ -3171,7 +3161,7 @@ targetEtci
 targetEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )
@@ -3306,7 +3296,7 @@ mEventTargetAtParent
 parentEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )
@@ -3381,7 +3371,7 @@ parentEtci
 parentEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )

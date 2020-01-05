@@ -95,7 +95,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLMENUITEMELEMENT
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

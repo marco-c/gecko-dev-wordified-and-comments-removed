@@ -150,7 +150,7 @@ DOMRequest
 )
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

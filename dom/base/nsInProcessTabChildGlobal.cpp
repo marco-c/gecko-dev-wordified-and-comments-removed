@@ -1025,7 +1025,7 @@ nsresult
 nsInProcessTabChildGlobal
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

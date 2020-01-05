@@ -1601,7 +1601,7 @@ noscript
 nostdcall
 ]
 void
-PreHandleEvent
+GetEventTargetParent
 (
 in
 EventChainPreVisitorRef

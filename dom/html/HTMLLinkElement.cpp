@@ -1719,7 +1719,7 @@ nsresult
 HTMLLinkElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1727,7 +1727,7 @@ aVisitor
 )
 {
 return
-PreHandleEventForAnchors
+GetEventTargetParentForAnchors
 (
 aVisitor
 )

@@ -4273,7 +4273,7 @@ nsresult
 IDBTransaction
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

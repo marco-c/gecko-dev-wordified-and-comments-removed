@@ -2013,7 +2013,7 @@ nsresult
 HTMLTextAreaElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -2156,7 +2156,7 @@ return
 nsGenericHTMLFormElementWithState
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

@@ -1309,7 +1309,7 @@ nsStyledElement
 )
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :

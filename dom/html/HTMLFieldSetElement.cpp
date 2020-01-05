@@ -239,7 +239,7 @@ nsresult
 HTMLFieldSetElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -273,7 +273,7 @@ return
 nsGenericHTMLFormElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

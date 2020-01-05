@@ -5913,7 +5913,7 @@ nsresult
 nsXULElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -6348,7 +6348,7 @@ return
 nsStyledElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

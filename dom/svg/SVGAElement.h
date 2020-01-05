@@ -152,7 +152,7 @@ SVGAElementBase
 )
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
