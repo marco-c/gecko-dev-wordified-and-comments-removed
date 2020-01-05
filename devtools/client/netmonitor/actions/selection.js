@@ -23,7 +23,6 @@ index
 const
 {
 SELECT_REQUEST
-PRESELECT_REQUEST
 }
 =
 require
@@ -36,21 +35,6 @@ constants
 "
 )
 ;
-function
-preselectRequest
-(
-id
-)
-{
-return
-{
-type
-:
-PRESELECT_REQUEST
-id
-}
-;
-}
 function
 selectRequest
 (
@@ -238,7 +222,6 @@ module
 exports
 =
 {
-preselectRequest
 selectRequest
 selectDelta
 }

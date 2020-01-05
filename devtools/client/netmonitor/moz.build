@@ -90,15 +90,6 @@ constants
 js
 '
 '
-custom
--
-request
--
-view
-.
-js
-'
-'
 events
 .
 js

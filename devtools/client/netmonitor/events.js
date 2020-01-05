@@ -218,13 +218,6 @@ NetMonitor
 :
 SidebarPopulated
 "
-CUSTOMREQUESTVIEW_POPULATED
-:
-"
-NetMonitor
-:
-CustomRequestViewPopulated
-"
 PLACEHOLDER_CHARTS_DISPLAYED
 :
 "

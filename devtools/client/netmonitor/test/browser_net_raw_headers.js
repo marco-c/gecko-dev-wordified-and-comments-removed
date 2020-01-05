@@ -161,6 +161,10 @@ querySelectorAll
 (
 "
 .
+headers
+-
+summary
+.
 tool
 -
 button
@@ -195,6 +199,10 @@ document
 querySelectorAll
 (
 "
+.
+headers
+-
+summary
 .
 tool
 -

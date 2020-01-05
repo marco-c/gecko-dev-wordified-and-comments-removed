@@ -63,6 +63,15 @@ panel
 js
 '
 '
+custom
+-
+request
+-
+panel
+.
+js
+'
+'
 details
 -
 panel
