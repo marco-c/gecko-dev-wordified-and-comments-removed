@@ -1793,6 +1793,12 @@ base_path
 try
 :
         
+remote_paths
+=
+set
+(
+)
+        
 for
 file
 in
@@ -1826,12 +1832,24 @@ s
 file
 )
             
-remote_path
-=
+remote_paths
+.
+add
+(
 get_remote_path
 (
 file
 )
+)
+        
+for
+p
+in
+sorted
+(
+remote_paths
+)
+:
             
 DoSSHCommand
 (
@@ -1841,7 +1859,7 @@ mkdir
 p
 "
 +
-remote_path
+p
 user
 host
 port
@@ -1850,6 +1868,19 @@ port
 ssh_key
 =
 ssh_key
+)
+        
+for
+file
+in
+files
+:
+            
+remote_path
+=
+get_remote_path
+(
+file
 )
             
 if
