@@ -233,6 +233,10 @@ parallel
 ;
 pub
 mod
+sequential
+;
+pub
+mod
 table_wrapper
 ;
 pub
