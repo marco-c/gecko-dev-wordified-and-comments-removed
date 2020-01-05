@@ -583,6 +583,8 @@ nullName
 txInstruction
 *
 templ
+;
+rv
 =
 mStylesheet
 -
@@ -594,7 +596,15 @@ nullName
 this
 nullptr
 &
+templ
+&
 frame
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 pushTemplateRule
@@ -1247,7 +1257,7 @@ return
 NS_OK
 ;
 }
-bool
+nsresult
 txExecutionState
 :
 :
@@ -1257,6 +1267,9 @@ const
 txXPathNode
 &
 aNode
+bool
+&
+aAllowed
 )
 {
 return
@@ -1267,6 +1280,7 @@ isStripSpaceAllowed
 (
 aNode
 this
+aAllowed
 )
 ;
 }

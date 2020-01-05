@@ -703,6 +703,8 @@ newSet
 ;
 bool
 filterWS
+;
+rv
 =
 aContext
 -
@@ -710,6 +712,13 @@ aContext
 isStripSpaceAllowed
 (
 aNode
+filterWS
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 txXPathTreeWalker
