@@ -202,6 +202,9 @@ DrawTarget
 >
 GetReferenceDrawTarget
 (
+DrawEventRecorder
+*
+aRecorder
 )
 ;
 protected
