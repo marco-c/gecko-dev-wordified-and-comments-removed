@@ -1471,7 +1471,8 @@ do_check_eq
 AddonManager
 .
 hotfixID
-null
+"
+"
 )
 ;
 Services

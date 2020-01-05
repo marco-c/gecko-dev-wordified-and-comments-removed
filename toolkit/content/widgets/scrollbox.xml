@@ -6435,8 +6435,6 @@ constructor
 [
 CDATA
 [
-try
-{
 this
 .
 _scrollDelay
@@ -6456,15 +6454,11 @@ clickToScroll
 .
 scrollDelay
 "
+this
+.
+_scrollDelay
 )
 ;
-}
-catch
-(
-ex
-)
-{
-}
 ]
 ]
 >
