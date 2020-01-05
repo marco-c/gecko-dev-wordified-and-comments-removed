@@ -34,7 +34,7 @@ openssl
 .
 0
 .
-1j
+1k
 /
 libssl
 .
@@ -45,7 +45,7 @@ openssl
 .
 0
 .
-1j
+1k
 /
 libssl
 .
@@ -57,7 +57,7 @@ openssl
 .
 0
 .
-1j
+1k
 /
 Configure
 .
@@ -74,7 +74,7 @@ openssl
 .
 0
 .
-1j
+1k
 /
 Configure
 :
@@ -97,7 +97,7 @@ openssl
 .
 0
 .
-1j
+1k
 .
 tar
 .
@@ -111,7 +111,7 @@ openssl
 .
 0
 .
-1j
+1k
 .
 tar
 .
