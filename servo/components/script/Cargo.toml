@@ -423,7 +423,7 @@ html5ever
 "
 0
 .
-1
+2
 "
 string_cache
 =
@@ -443,6 +443,15 @@ euclid
 =
 "
 0
+.
+1
+"
+tendril
+=
+"
+0
+.
+1
 .
 1
 "

@@ -354,6 +354,10 @@ extern
 crate
 offscreen_gl_context
 ;
+extern
+crate
+tendril
+;
 pub
 mod
 cors
