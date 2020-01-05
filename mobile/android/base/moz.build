@@ -5487,6 +5487,13 @@ UpdateServiceHelper
 java
 '
 '
+util
+/
+TouchTargetUtil
+.
+java
+'
+'
 widget
 /
 ActivityChooserModel
