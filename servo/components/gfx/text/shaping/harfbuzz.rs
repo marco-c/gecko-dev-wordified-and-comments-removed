@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 euclid
 :
 :
@@ -309,15 +315,6 @@ fixed_to_float
 float_to_fixed
 is_bidi_control
 }
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 use
 util

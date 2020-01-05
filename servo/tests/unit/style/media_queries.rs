@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 euclid
 :
 :
@@ -52,15 +58,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 fn
 test_media_rule

@@ -16,6 +16,10 @@ string_cache_plugin
 ]
 extern
 crate
+app_units
+;
+extern
+crate
 cssparser
 ;
 extern

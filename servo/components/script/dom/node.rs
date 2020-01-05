@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 core
 :
 :
@@ -736,15 +742,6 @@ properties
 :
 :
 ComputedValues
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 use
 util

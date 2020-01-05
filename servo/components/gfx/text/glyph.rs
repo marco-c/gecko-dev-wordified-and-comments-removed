@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 euclid
 :
 :
@@ -62,15 +68,6 @@ fmt
 mem
 u16
 }
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 use
 util

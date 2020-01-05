@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 euclid
 :
 :
@@ -160,15 +166,6 @@ cache
 :
 :
 HashCache
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 pub
 trait

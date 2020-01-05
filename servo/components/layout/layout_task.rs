@@ -10,6 +10,12 @@ use
 animation
 ;
 use
+app_units
+:
+:
+Au
+;
+use
 azure
 :
 :
@@ -689,6 +695,15 @@ Stylesheet
 }
 ;
 use
+style
+:
+:
+values
+:
+:
+AuExtensionMethods
+;
+use
 url
 :
 :
@@ -702,7 +717,6 @@ geometry
 :
 :
 {
-Au
 MAX_RECT
 ZERO_POINT
 }

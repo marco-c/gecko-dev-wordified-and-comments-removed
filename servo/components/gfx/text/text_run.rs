@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 font
 :
 :
@@ -68,15 +74,6 @@ glyph
 CharIndex
 GlyphStore
 }
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 use
 util

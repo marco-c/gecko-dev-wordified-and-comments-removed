@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 dom
 :
 :
@@ -90,15 +96,6 @@ window
 :
 :
 Window
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 #
 [

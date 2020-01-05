@@ -1,4 +1,10 @@
 use
+app_units
+:
+:
+Au
+;
+use
 euclid
 :
 :
@@ -141,15 +147,6 @@ cursor
 :
 :
 Cursor
-;
-use
-util
-:
-:
-geometry
-:
-:
-Au
 ;
 use
 util
