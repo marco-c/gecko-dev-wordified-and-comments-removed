@@ -17768,11 +17768,7 @@ StyleDisplay
 >
 mVerticalAlign
 false
-&
-nsComputedDOMStyle
-:
-:
-GetLineHeightCoord
+nullptr
 nsCSSProps
 :
 :
