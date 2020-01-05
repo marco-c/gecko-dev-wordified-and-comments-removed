@@ -188,7 +188,7 @@ setup
 {
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .

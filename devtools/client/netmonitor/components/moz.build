@@ -63,6 +63,13 @@ panel
 js
 '
 '
+network
+-
+monitor
+.
+js
+'
+'
 request
 -
 list

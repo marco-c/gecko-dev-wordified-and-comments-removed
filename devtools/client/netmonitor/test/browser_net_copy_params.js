@@ -456,7 +456,7 @@ copyUrlParamsNode
 =
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .
@@ -595,7 +595,7 @@ setup
 {
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .
@@ -715,7 +715,7 @@ copyPostDataNode
 =
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .
@@ -854,7 +854,7 @@ setup
 {
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .

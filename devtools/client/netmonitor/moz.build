@@ -114,13 +114,6 @@ controller
 js
 '
 '
-netmonitor
--
-view
-.
-js
-'
-'
 panel
 .
 js

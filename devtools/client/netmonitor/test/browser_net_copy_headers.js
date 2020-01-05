@@ -317,7 +317,7 @@ setup
 {
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .
@@ -522,7 +522,7 @@ setup
 {
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .

@@ -107,6 +107,8 @@ sendCustomRequest
 if
 (
 !
+window
+.
 NetMonitorController
 .
 supportsCustomRequest
@@ -204,6 +206,8 @@ postData
 text
 ;
 }
+window
+.
 NetMonitorController
 .
 webConsoleClient

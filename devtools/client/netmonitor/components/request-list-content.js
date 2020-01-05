@@ -335,6 +335,8 @@ tooltip
 new
 HTMLTooltip
 (
+window
+.
 NetMonitorController
 .
 _toolbox

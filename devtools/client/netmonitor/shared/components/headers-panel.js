@@ -944,6 +944,8 @@ statusText
 }
 }
 )
+window
+.
 NetMonitorController
 .
 supportsCustomRequest

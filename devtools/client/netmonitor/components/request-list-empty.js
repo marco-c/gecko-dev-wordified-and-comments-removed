@@ -384,6 +384,8 @@ onReloadClick
 )
 =
 >
+window
+.
 NetMonitorController
 .
 triggerActivity

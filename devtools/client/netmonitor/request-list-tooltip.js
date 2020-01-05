@@ -155,6 +155,8 @@ let
 string
 =
 yield
+window
+.
 gNetwork
 .
 getString
@@ -623,6 +625,8 @@ hide
 (
 )
 ;
+window
+.
 NetMonitorController
 .
 viewSourceInDebugger

@@ -161,7 +161,7 @@ onWebConsole
 =
 monitor
 .
-_toolbox
+toolbox
 .
 once
 (
@@ -174,7 +174,7 @@ selected
 ;
 monitor
 .
-_toolbox
+toolbox
 .
 selectTool
 (
@@ -191,7 +191,7 @@ onNetMonitor
 =
 monitor
 .
-_toolbox
+toolbox
 .
 once
 (
@@ -204,7 +204,7 @@ selected
 ;
 monitor
 .
-_toolbox
+toolbox
 .
 selectTool
 (

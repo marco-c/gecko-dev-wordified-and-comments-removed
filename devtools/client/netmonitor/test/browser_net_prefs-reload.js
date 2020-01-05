@@ -431,7 +431,7 @@ bottom
 yield
 monitor
 .
-_toolbox
+toolbox
 .
 switchHost
 (
@@ -1510,7 +1510,7 @@ side
 yield
 monitor
 .
-_toolbox
+toolbox
 .
 switchHost
 (
@@ -1603,7 +1603,7 @@ window
 yield
 monitor
 .
-_toolbox
+toolbox
 .
 switchHost
 (

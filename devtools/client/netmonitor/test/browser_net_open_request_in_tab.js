@@ -208,7 +208,7 @@ false
 ;
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 .
