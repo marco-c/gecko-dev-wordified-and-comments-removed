@@ -34,6 +34,15 @@ local_image_cache
 :
 LocalImageCache
 ;
+use
+extra
+:
+:
+arc
+:
+:
+MutexArc
+;
 pub
 struct
 LayoutContext
@@ -44,8 +53,10 @@ mut
 FontContext
 image_cache
 :
-mut
+MutexArc
+<
 LocalImageCache
+>
 screen_size
 :
 Rect
