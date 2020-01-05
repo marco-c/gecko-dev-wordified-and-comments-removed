@@ -1952,6 +1952,9 @@ pipeline_id
 )
 )
 {
+let
+_
+=
 pipeline
 .
 script_chan
@@ -1972,10 +1975,6 @@ clone
 )
 message
 )
-)
-.
-unwrap
-(
 )
 ;
 }
