@@ -3903,6 +3903,7 @@ DEFINED_ON
 (
 arm
 x86_shared
+mips_shared
 )
 ;
 inline
