@@ -71,6 +71,13 @@ PropTypes
 object
 .
 isRequired
+autoscroll
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 function
@@ -101,6 +108,11 @@ source
 type
 level
 messageBody
+scrollToMessage
+:
+props
+.
+autoscroll
 }
 ;
 return

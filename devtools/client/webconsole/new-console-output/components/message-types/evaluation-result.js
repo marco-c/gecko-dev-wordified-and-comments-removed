@@ -181,6 +181,11 @@ type
 level
 topLevelClasses
 messageBody
+scrollToMessage
+:
+props
+.
+autoscroll
 }
 ;
 return
