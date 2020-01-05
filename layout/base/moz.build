@@ -447,7 +447,7 @@ RestyleLogging
 h
 '
 '
-RestyleManagerBase
+RestyleManager
 .
 h
 '
@@ -612,7 +612,7 @@ PresShell
 cpp
 '
 '
-RestyleManagerBase
+RestyleManager
 .
 cpp
 '
