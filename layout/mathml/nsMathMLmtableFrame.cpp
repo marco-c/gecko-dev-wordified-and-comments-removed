@@ -945,7 +945,7 @@ aStyleBorder
 .
 SetBorderStyle
 (
-eSideTop
+NS_SIDE_TOP
 rowLinesList
 -
 >
@@ -964,7 +964,7 @@ aStyleBorder
 .
 SetBorderStyle
 (
-eSideTop
+NS_SIDE_TOP
 rowLinesList
 -
 >
@@ -981,7 +981,7 @@ aStyleBorder
 .
 SetBorderWidth
 (
-eSideTop
+NS_SIDE_TOP
 borderWidth
 )
 ;
@@ -1017,7 +1017,7 @@ aStyleBorder
 .
 SetBorderStyle
 (
-eSideLeft
+NS_SIDE_LEFT
 columnLinesList
 -
 >
@@ -1036,7 +1036,7 @@ aStyleBorder
 .
 SetBorderStyle
 (
-eSideLeft
+NS_SIDE_LEFT
 columnLinesList
 -
 >
@@ -1053,7 +1053,7 @@ aStyleBorder
 .
 SetBorderWidth
 (
-eSideLeft
+NS_SIDE_LEFT
 borderWidth
 )
 ;
@@ -1508,6 +1508,10 @@ bounds
 CalculateBounds
 (
 styleBorder
+)
+.
+GetBounds
+(
 )
 ;
 nsMargin
