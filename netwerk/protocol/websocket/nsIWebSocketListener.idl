@@ -247,6 +247,9 @@ defined
 context
 *
 /
+[
+must_use
+]
 void
 onStart
 (
@@ -348,6 +351,9 @@ successfully
 )
 *
 /
+[
+must_use
+]
 void
 onStop
 (
@@ -384,6 +390,9 @@ message
 data
 *
 /
+[
+must_use
+]
 void
 onMessageAvailable
 (
@@ -420,6 +429,9 @@ message
 data
 *
 /
+[
+must_use
+]
 void
 onBinaryMessageAvailable
 (
@@ -467,6 +479,9 @@ send
 buffer
 *
 /
+[
+must_use
+]
 void
 onAcknowledge
 (
@@ -581,6 +596,9 @@ close
 reason
 *
 /
+[
+must_use
+]
 void
 onServerClose
 (

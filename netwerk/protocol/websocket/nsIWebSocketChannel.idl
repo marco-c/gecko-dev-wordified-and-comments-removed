@@ -286,6 +286,9 @@ null
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIURI
@@ -312,6 +315,9 @@ completed
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIURI
@@ -331,6 +337,9 @@ etc
 .
 *
 /
+[
+must_use
+]
 attribute
 nsIInterfaceRequestor
 notificationCallbacks
@@ -350,6 +359,9 @@ any
 )
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsISupports
@@ -368,6 +380,9 @@ the
 websocket
 *
 /
+[
+must_use
+]
 attribute
 nsILoadGroup
 loadGroup
@@ -384,6 +399,9 @@ the
 websocket
 *
 /
+[
+must_use
+]
 attribute
 nsILoadInfo
 loadInfo
@@ -400,6 +418,9 @@ Protocol
 value
 *
 /
+[
+must_use
+]
 attribute
 ACString
 protocol
@@ -418,6 +439,9 @@ header
 value
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -546,6 +570,9 @@ loadingNode
 .
 *
 /
+[
+must_use
+]
 void
 initLoadInfo
 (
@@ -700,6 +727,9 @@ s
 methods
 *
 /
+[
+must_use
+]
 void
 asyncOpen
 (
@@ -799,6 +829,9 @@ close
 reason
 *
 /
+[
+must_use
+]
 void
 close
 (
@@ -1031,6 +1064,9 @@ to
 send
 *
 /
+[
+must_use
+]
 void
 sendMsg
 (
@@ -1065,6 +1101,9 @@ to
 send
 *
 /
+[
+must_use
+]
 void
 sendBinaryMsg
 (
@@ -1103,6 +1142,9 @@ sent
 .
 *
 /
+[
+must_use
+]
 void
 sendBinaryStream
 (
@@ -1191,6 +1233,9 @@ time
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1253,6 +1298,9 @@ thrown
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1294,6 +1342,9 @@ process
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1348,6 +1399,9 @@ part
 .
 *
 /
+[
+must_use
+]
 void
 setServerParameters
 (
