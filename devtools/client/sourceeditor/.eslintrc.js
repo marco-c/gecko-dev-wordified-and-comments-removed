@@ -40,7 +40,9 @@ requires
 "
 :
 [
-2
+"
+error
+"
 "
 ^
 (

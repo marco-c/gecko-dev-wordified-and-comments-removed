@@ -18,7 +18,9 @@ headjs
 globals
 "
 :
-1
+"
+warn
+"
 "
 mozilla
 /
@@ -29,7 +31,9 @@ browserjs
 globals
 "
 :
-1
+"
+warn
+"
 "
 mozilla
 /
@@ -42,7 +46,9 @@ function
 used
 "
 :
-1
+"
+warn
+"
 }
 "
 env

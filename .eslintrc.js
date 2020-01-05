@@ -30,7 +30,9 @@ import
 globals
 "
 :
-1
+"
+warn
+"
 }
 "
 env

@@ -89,7 +89,9 @@ headjs
 globals
 "
 :
-1
+"
+warn
+"
 }
 }
 ;
