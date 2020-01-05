@@ -610,18 +610,6 @@ ports
 geckolib
 '
 )
-                       
-path
-.
-join
-(
-'
-ports
-'
-'
-gonk
-'
-)
 ]
         
 for

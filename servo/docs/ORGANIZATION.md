@@ -523,17 +523,6 @@ windowing
 library
 .
 *
-gonk
-*
-Embedding
-implementation
-for
-the
-Firefox
-OS
-devices
-.
-*
 python
 *
 servo

@@ -153,13 +153,8 @@ OS
 X
 64bit
 Linux
-Android
 and
-Gonk
-(
-Firefox
-OS
-)
+Android
 .
 Servo
 welcomes
