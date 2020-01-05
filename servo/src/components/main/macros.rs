@@ -22,9 +22,6 @@ port
 chan
 )
 =
-comm
-:
-:
 stream
 :
 :
