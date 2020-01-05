@@ -79,6 +79,13 @@ Lock
 override
 ;
 virtual
+void
+Unlock
+(
+)
+override
+;
+virtual
 gfx
 :
 :
