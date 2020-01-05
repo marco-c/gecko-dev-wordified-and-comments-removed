@@ -10025,6 +10025,8 @@ Finish0RTT
 (
 bool
 aRestart
+bool
+aAlpnChanged
 )
 {
 MOZ_ASSERT
