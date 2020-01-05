@@ -11108,9 +11108,9 @@ mTopLayer
 uint8_t
 mWillChangeBitField
 ;
-nsTArray
+nsCOMArray
 <
-nsString
+nsIAtom
 >
 mWillChange
 ;
