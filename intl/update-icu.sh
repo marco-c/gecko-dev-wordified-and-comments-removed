@@ -697,6 +697,16 @@ gcc_hidden
 .
 diff
 \
+bug
+-
+1325858
+-
+close
+-
+key
+.
+diff
+\
 ucol_getKeywordValuesForLocale
 -
 ulist_resetList
