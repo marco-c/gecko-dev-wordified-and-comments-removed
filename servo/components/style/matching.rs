@@ -2037,6 +2037,18 @@ pseudo_style
 ;
 if
 animate
+&
+&
+!
+context
+.
+shared
+.
+traversal_flags
+.
+for_animation_only
+(
+)
 {
 self
 .
@@ -4305,7 +4317,7 @@ task
 }
 }
 fn
-cascade_with_replacements
+replace_rules
 (
 &
 self
