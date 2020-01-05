@@ -418,7 +418,6 @@ from_json
 (
 cls
 tasks_dict
-root
 )
 :
         

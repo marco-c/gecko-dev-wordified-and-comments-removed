@@ -45,6 +45,11 @@ target_tasks
 import
 get_method
 from
+.
+taskgraph
+import
+TaskGraph
+from
 taskgraph
 .
 util
@@ -337,6 +342,16 @@ parameters
 )
 )
     
+full_task_json
+=
+tgg
+.
+full_task_graph
+.
+to_json
+(
+)
+    
 write_artifact
 (
 '
@@ -348,13 +363,17 @@ graph
 .
 json
 '
-tgg
-.
-full_task_graph
-.
-to_json
-(
+full_task_json
 )
+    
+_
+_
+=
+TaskGraph
+.
+from_json
+(
+full_task_json
 )
     
 write_artifact
@@ -419,7 +438,6 @@ optimized_task_graph
 tgg
 .
 label_to_taskid
-parameters
 )
 def
 get_decision_parameters

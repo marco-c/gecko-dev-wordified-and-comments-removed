@@ -202,11 +202,6 @@ graph
 to_json
 (
 )
-"
-taskcluster
-/
-ci
-"
 )
         
 self
