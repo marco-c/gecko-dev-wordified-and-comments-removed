@@ -1001,8 +1001,9 @@ dict
 is
 set
 to
-3
+5
 attempts
+initial
 sleeping
 time
 30
@@ -1223,13 +1224,13 @@ retry_config
 dict
 (
                     
-attempts
-=
-3
-                    
 sleeptime
 =
 30
+                    
+attempts
+=
+5
                     
 error_level
 =
