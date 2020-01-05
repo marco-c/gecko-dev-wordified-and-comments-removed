@@ -1148,10 +1148,6 @@ cx
 =
 global
 .
-r
-(
-)
-.
 get_cx
 (
 )
@@ -1166,10 +1162,6 @@ new
 (
 cx
 global
-.
-r
-(
-)
 .
 reflector
 (

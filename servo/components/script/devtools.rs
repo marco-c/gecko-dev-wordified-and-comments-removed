@@ -1234,10 +1234,6 @@ computed_style
 =
 window
 .
-r
-(
-)
-.
 GetComputedStyle
 (
 elem

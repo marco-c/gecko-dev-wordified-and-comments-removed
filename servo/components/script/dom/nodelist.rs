@@ -1193,11 +1193,8 @@ set
 (
 Some
 (
+&
 last_visited
-.
-r
-(
-)
 )
 )
 ;

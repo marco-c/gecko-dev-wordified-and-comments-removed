@@ -349,10 +349,6 @@ set_owner_doc
 &
 doc
 .
-r
-(
-)
-.
 document
 )
 ;

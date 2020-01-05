@@ -458,11 +458,8 @@ ValidityState
 :
 new
 (
+&
 window
-.
-r
-(
-)
 self
 .
 upcast
@@ -2342,10 +2339,6 @@ s
 synthetic_click_activation
 (
 s
-.
-r
-(
-)
 .
 as_element
 (
