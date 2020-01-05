@@ -127,6 +127,7 @@ _WIN32
 define
 JIT_SPEW_DIR
 "
+.
 "
 #
 elif
@@ -144,7 +145,6 @@ data
 local
 /
 tmp
-/
 "
 #
 else
@@ -154,7 +154,6 @@ JIT_SPEW_DIR
 "
 /
 tmp
-/
 "
 #
 endif
