@@ -50,7 +50,6 @@ gfx_traits
 :
 :
 {
-ScrollPolicy
 ScrollRootId
 StackingContextId
 }
@@ -195,6 +194,7 @@ webrender_traits
 self
 ColorF
 GradientStop
+ScrollPolicy
 WebGLContextId
 }
 ;
@@ -669,7 +669,7 @@ scroll_policy
 ScrollPolicy
 :
 :
-FixedPosition
+Fixed
 ;
 let
 translated_point
@@ -1383,7 +1383,6 @@ HeapSizeOf
 Ord
 PartialEq
 PartialOrd
-RustcEncodable
 Serialize
 )
 ]
@@ -1409,7 +1408,6 @@ HeapSizeOf
 Ord
 PartialEq
 PartialOrd
-RustcEncodable
 Serialize
 )
 ]

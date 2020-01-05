@@ -314,10 +314,6 @@ range
 ;
 extern
 crate
-rustc_serialize
-;
-extern
-crate
 serde
 ;
 #

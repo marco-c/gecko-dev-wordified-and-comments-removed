@@ -95,15 +95,6 @@ path
 range
 "
 }
-rustc
--
-serialize
-=
-"
-0
-.
-3
-"
 serde
 =
 "
