@@ -1948,6 +1948,17 @@ eNone
 )
 override
 ;
+nsresult
+InsertBR
+(
+nsCOMPtr
+<
+nsIDOMNode
+>
+*
+outBRNode
+)
+;
 NS_IMETHOD
 InsertCell
 (

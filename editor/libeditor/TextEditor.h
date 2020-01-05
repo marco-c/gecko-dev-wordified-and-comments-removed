@@ -661,17 +661,6 @@ EDirection
 aSelect
 )
 ;
-nsresult
-InsertBR
-(
-nsCOMPtr
-<
-nsIDOMNode
->
-*
-outBRNode
-)
-;
 NS_IMETHOD
 PrepareTransferable
 (
