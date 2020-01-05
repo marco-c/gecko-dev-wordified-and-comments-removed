@@ -6,7 +6,6 @@ strict
 const
 {
 ConsoleMessage
-NetworkEventMessage
 }
 =
 require
@@ -80,6 +79,11 @@ source
 javascript
 "
 "
+timeStamp
+"
+:
+1476573167137
+"
 type
 "
 :
@@ -148,6 +152,13 @@ javascript
 "
 \
 "
+timeStamp
+\
+"
+:
+1476573167137
+\
+"
 type
 \
 "
@@ -563,6 +574,13 @@ utm_campaign
 default
 \
 "
+\
+"
+userProvidedStyles
+\
+"
+:
+null
 }
 "
 "
@@ -878,6 +896,11 @@ utm_campaign
 =
 default
 "
+"
+userProvidedStyles
+"
+:
+null
 }
 )
 )
@@ -1302,3 +1325,4 @@ exports
 stubPreparedMessages
 stubPackets
 }
+;

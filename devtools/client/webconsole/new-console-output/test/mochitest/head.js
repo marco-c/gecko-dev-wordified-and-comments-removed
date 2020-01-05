@@ -290,8 +290,9 @@ of
 newMessages
 )
 {
-if
-(
+let
+messageBody
+=
 newMessage
 .
 node
@@ -305,6 +306,10 @@ message
 body
 "
 )
+;
+if
+(
+messageBody
 .
 textContent
 =

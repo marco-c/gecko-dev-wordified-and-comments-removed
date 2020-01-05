@@ -6,7 +6,6 @@ strict
 const
 {
 ConsoleMessage
-NetworkEventMessage
 }
 =
 require
@@ -1158,3 +1157,4 @@ exports
 stubPreparedMessages
 stubPackets
 }
+;

@@ -59,6 +59,9 @@ return
 1000
 ;
 }
+return
+null
+;
 }
 getBoolPref
 :

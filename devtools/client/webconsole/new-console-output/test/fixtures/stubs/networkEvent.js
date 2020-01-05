@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-ConsoleMessage
 NetworkEventMessage
 }
 =
@@ -1490,3 +1489,4 @@ exports
 stubPreparedMessages
 stubPackets
 }
+;

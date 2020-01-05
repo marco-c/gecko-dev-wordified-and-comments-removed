@@ -20,6 +20,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -126,7 +128,7 @@ fail
 ;
 for
 (
-var
+let
 [
 code
 key
@@ -219,6 +221,9 @@ filePath
 formatFile
 (
 stubs
+"
+ConsoleMessage
+"
 )
 )
 ;

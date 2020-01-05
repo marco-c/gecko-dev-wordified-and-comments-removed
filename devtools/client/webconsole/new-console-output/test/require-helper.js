@@ -467,6 +467,9 @@ ObjectClient
 )
 ;
 }
+return
+undefined
+;
 }
 )
 ;
