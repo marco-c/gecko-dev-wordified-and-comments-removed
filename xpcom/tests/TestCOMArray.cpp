@@ -362,7 +362,7 @@ Bar
 :
 sReleaseCalled
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 int32_t
 (

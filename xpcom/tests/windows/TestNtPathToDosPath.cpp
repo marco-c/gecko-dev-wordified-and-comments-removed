@@ -294,7 +294,7 @@ DoMapping
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mDriveLetter
 !
@@ -348,13 +348,7 @@ L
 '
 }
 ;
-mozilla
-:
-:
-DebugOnly
-<
 DWORD
->
 result
 =
 WNetCancelConnection2W
@@ -364,7 +358,7 @@ drvTemplate
 TRUE
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
