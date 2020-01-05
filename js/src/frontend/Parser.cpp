@@ -37449,7 +37449,8 @@ null
 (
 )
 ;
-return
+nextMember
+=
 handler
 .
 newSetThis
@@ -37458,7 +37459,19 @@ thisName
 nextMember
 )
 ;
+if
+(
+!
+nextMember
+)
+return
+null
+(
+)
+;
 }
+else
+{
 if
 (
 options
@@ -37820,6 +37833,7 @@ nextMember
 op
 )
 ;
+}
 }
 else
 {
