@@ -95,11 +95,6 @@ elfutils
 cc
 '
 '
-guid_creator
-.
-cc
-'
-'
 linux_libc_support
 .
 cc
@@ -196,11 +191,6 @@ cc
 '
 '
 file_id
-.
-cc
-'
-'
-guid_creator
 .
 cc
 '
