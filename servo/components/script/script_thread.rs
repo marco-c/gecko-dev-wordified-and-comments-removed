@@ -490,7 +490,6 @@ layout_interface
 self
 LayoutChan
 NewLayoutThreadInfo
-ReflowGoal
 ScriptLayoutChan
 }
 ;
@@ -886,6 +885,15 @@ sync
 Arc
 Mutex
 }
+;
+use
+style
+:
+:
+context
+:
+:
+ReflowGoal
 ;
 use
 time
