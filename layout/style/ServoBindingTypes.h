@@ -236,15 +236,6 @@ mozilla
 ComputedTiming
 RawGeckoComputedTiming
 ;
-typedef
-nsTArray
-<
-const
-RawServoStyleRule
-*
->
-RawGeckoServoStyleRuleList
-;
 #
 define
 DECL_BORROWED_REF_TYPE_FOR
@@ -520,10 +511,6 @@ RawGeckoAnimationPropertySegment
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawGeckoComputedTiming
-)
-DECL_BORROWED_MUT_REF_TYPE_FOR
-(
-RawGeckoServoStyleRuleList
 )
 #
 undef
