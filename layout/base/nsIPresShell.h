@@ -1332,17 +1332,6 @@ aContent
 =
 0
 ;
-virtual
-nsresult
-RecreateFramesFor
-(
-nsIContent
-*
-aContent
-)
-=
-0
-;
 void
 PostRecreateFramesFor
 (

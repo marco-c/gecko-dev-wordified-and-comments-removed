@@ -1061,7 +1061,7 @@ endif
 ps
 -
 >
-RecreateFramesFor
+PostRecreateFramesFor
 (
 newContent
 )
