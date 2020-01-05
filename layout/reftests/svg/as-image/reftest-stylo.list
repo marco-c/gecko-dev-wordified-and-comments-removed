@@ -745,6 +745,7 @@ simple
 2
 .
 html
+fails
 =
 =
 img
@@ -777,6 +778,7 @@ simple
 4
 .
 html
+fails
 =
 =
 img
@@ -793,6 +795,7 @@ simple
 5
 .
 html
+fails
 =
 =
 img
@@ -809,6 +812,7 @@ simple
 6
 .
 html
+fails
 =
 =
 img
@@ -918,6 +922,7 @@ blobURI
 2
 .
 html
+fails
 =
 =
 img
@@ -978,6 +983,7 @@ dyn
 1
 .
 html
+fails
 =
 =
 img
@@ -1224,6 +1230,7 @@ iframe
 helper
 .
 svg
+fails
 =
 =
 img
@@ -1244,6 +1251,7 @@ meet
 1
 .
 html
+fails
 =
 =
 img
@@ -1264,6 +1272,7 @@ meet
 2
 .
 html
+fails
 =
 =
 img
@@ -1284,6 +1293,7 @@ slice
 1
 .
 html
+fails
 =
 =
 img
@@ -1304,6 +1314,7 @@ slice
 2
 .
 html
+fails
 =
 =
 img
@@ -1324,6 +1335,7 @@ meet
 1
 .
 html
+fails
 =
 =
 img
@@ -1344,6 +1356,7 @@ meet
 2
 .
 html
+fails
 =
 =
 img
@@ -1364,6 +1377,7 @@ slice
 1
 .
 html
+fails
 =
 =
 img
@@ -1384,6 +1398,7 @@ slice
 2
 .
 html
+fails
 =
 =
 img
@@ -1404,6 +1419,7 @@ meet
 1
 .
 html
+fails
 =
 =
 img
@@ -1424,6 +1440,7 @@ meet
 2
 .
 html
+fails
 =
 =
 img
@@ -1444,6 +1461,7 @@ slice
 1
 .
 html
+fails
 =
 =
 img
@@ -1495,6 +1513,7 @@ synthesize
 viewBox
 "
 behavior
+fails
 =
 =
 img
@@ -1523,6 +1542,7 @@ meet
 em
 .
 html
+fails
 =
 =
 img
@@ -1551,6 +1571,7 @@ meet
 px
 .
 html
+fails
 =
 =
 img
@@ -1579,6 +1600,7 @@ slice
 em
 .
 html
+fails
 =
 =
 img
@@ -1638,6 +1660,7 @@ synthesize
 viewBox
 "
 behavior
+fails
 =
 =
 img
@@ -1662,6 +1685,7 @@ meet
 1
 .
 html
+fails
 =
 =
 img
@@ -1686,6 +1710,7 @@ slice
 1
 .
 html
+fails
 =
 =
 img
@@ -1710,6 +1735,7 @@ meet
 1
 .
 html
+fails
 =
 =
 img

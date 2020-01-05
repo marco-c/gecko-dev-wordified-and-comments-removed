@@ -26,6 +26,7 @@ fallback
 01
 .
 xhtml
+fails
 =
 =
 font
@@ -2685,6 +2686,7 @@ zwnj
 01
 .
 xhtml
+fails
 HTTP
 (
 .
@@ -2702,6 +2704,7 @@ zwnj
 02
 .
 xhtml
+fails
 =
 =
 zwnj
@@ -4307,6 +4310,7 @@ hyphenation
 1
 .
 html
+fails
 =
 =
 auto
@@ -4323,6 +4327,7 @@ hyphenation
 1a
 .
 html
+fails
 =
 =
 auto
@@ -4388,6 +4393,7 @@ hyphenation
 5
 .
 html
+fails
 =
 =
 auto
@@ -4404,6 +4410,7 @@ hyphenation
 6
 .
 html
+fails
 =
 =
 auto
@@ -4757,7 +4764,6 @@ xmllang
 11b
 .
 xhtml
-fails
 =
 =
 auto
@@ -4778,7 +4784,6 @@ xmllang
 12a
 .
 xhtml
-fails
 =
 =
 auto
@@ -4820,26 +4825,6 @@ xmllang
 13a
 .
 xhtml
-=
-=
-auto
--
-hyphenation
--
-xmllang
--
-13b
-.
-xhtml
-auto
--
-hyphenation
--
-xmllang
--
-13b
-.
-xhtml
 fails
 =
 =
@@ -4849,6 +4834,26 @@ hyphenation
 -
 xmllang
 -
+13b
+.
+xhtml
+auto
+-
+hyphenation
+-
+xmllang
+-
+13b
+.
+xhtml
+=
+=
+auto
+-
+hyphenation
+-
+xmllang
+-
 14a
 .
 xhtml
@@ -4881,6 +4886,7 @@ xmllang
 14b
 .
 xhtml
+fails
 =
 =
 auto
@@ -4901,6 +4907,7 @@ af
 1
 .
 html
+fails
 =
 =
 auto
@@ -4921,6 +4928,7 @@ bg
 1
 .
 html
+fails
 =
 =
 auto
@@ -4941,6 +4949,7 @@ ca
 1
 .
 html
+fails
 =
 =
 auto
@@ -4961,6 +4970,7 @@ cy
 1
 .
 html
+fails
 =
 =
 auto
@@ -5006,6 +5016,7 @@ de
 1
 .
 html
+fails
 =
 =
 auto
@@ -5055,6 +5066,7 @@ de
 1
 .
 html
+fails
 =
 =
 auto
@@ -5079,6 +5091,7 @@ ch
 1
 .
 html
+fails
 =
 =
 auto
@@ -5099,6 +5112,7 @@ eo
 1
 .
 html
+fails
 =
 =
 auto
@@ -5119,6 +5133,7 @@ es
 1
 .
 html
+fails
 =
 =
 auto
@@ -5139,6 +5154,7 @@ et
 1
 .
 html
+fails
 =
 =
 auto
@@ -5159,6 +5175,7 @@ fi
 1
 .
 html
+fails
 =
 =
 auto
@@ -5179,6 +5196,7 @@ fr
 1
 .
 html
+fails
 =
 =
 auto
@@ -5199,6 +5217,7 @@ gl
 1
 .
 html
+fails
 =
 =
 auto
@@ -5219,6 +5238,7 @@ hr
 1
 .
 html
+fails
 =
 =
 auto
@@ -5239,6 +5259,7 @@ hsb
 1
 .
 html
+fails
 =
 =
 auto
@@ -5259,6 +5280,7 @@ hu
 1
 .
 html
+fails
 =
 =
 auto
@@ -5279,6 +5301,7 @@ ia
 1
 .
 html
+fails
 =
 =
 auto
@@ -5299,6 +5322,7 @@ is
 1
 .
 html
+fails
 =
 =
 auto
@@ -5319,6 +5343,7 @@ it
 1
 .
 html
+fails
 =
 =
 auto
@@ -5339,6 +5364,7 @@ kmr
 1
 .
 html
+fails
 =
 =
 auto
@@ -5359,6 +5385,7 @@ la
 1
 .
 html
+fails
 =
 =
 auto
@@ -5379,6 +5406,7 @@ lt
 1
 .
 html
+fails
 =
 =
 auto
@@ -5399,6 +5427,7 @@ mn
 1
 .
 html
+fails
 =
 =
 auto
@@ -5419,6 +5448,7 @@ nb
 1
 .
 html
+fails
 =
 =
 auto
@@ -5439,6 +5469,7 @@ nl
 1
 .
 html
+fails
 =
 =
 auto
@@ -5480,6 +5511,7 @@ pl
 1
 .
 html
+fails
 =
 =
 auto
@@ -5500,6 +5532,7 @@ pt
 1
 .
 html
+fails
 =
 =
 auto
@@ -5520,6 +5553,7 @@ ru
 1
 .
 html
+fails
 =
 =
 auto
@@ -5540,6 +5574,7 @@ sh
 1
 .
 html
+fails
 =
 =
 auto
@@ -5560,6 +5595,7 @@ sl
 1
 .
 html
+fails
 =
 =
 auto
@@ -5622,6 +5658,7 @@ sv
 1
 .
 html
+fails
 =
 =
 auto
@@ -5642,6 +5679,7 @@ tr
 1
 .
 html
+fails
 =
 =
 auto
@@ -5662,6 +5700,7 @@ uk
 1
 .
 html
+fails
 =
 =
 auto

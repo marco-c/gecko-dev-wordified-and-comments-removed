@@ -445,6 +445,7 @@ isize
 1
 .
 html
+fails
 =
 =
 intrinsic
@@ -508,6 +509,7 @@ style
 1
 .
 html
+fails
 =
 =
 line
@@ -709,6 +711,7 @@ height
 4
 .
 html
+fails
 test
 -
 pref

@@ -92,6 +92,7 @@ width
 1a
 .
 html
+fails
 =
 =
 min
@@ -108,6 +109,7 @@ width
 1b
 .
 html
+fails
 =
 =
 min
@@ -604,6 +606,7 @@ columnrule
 overflow
 .
 html
+fails
 =
 =
 columns

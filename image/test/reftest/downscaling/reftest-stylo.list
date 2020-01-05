@@ -456,6 +456,7 @@ downscale
 1
 .
 html
+fails
 =
 =
 downscale
@@ -476,6 +477,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -496,6 +498,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -516,6 +519,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -536,6 +540,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -556,6 +561,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -576,6 +582,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -596,6 +603,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -616,6 +624,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -636,6 +645,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -656,6 +666,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -676,6 +687,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -696,6 +708,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -716,6 +729,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -736,6 +750,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -756,6 +771,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -776,6 +792,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -796,6 +813,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -816,6 +834,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -836,6 +855,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -856,6 +876,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -876,6 +897,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -896,6 +918,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -916,6 +939,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -936,6 +960,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -956,6 +981,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -976,6 +1002,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -996,6 +1023,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -1016,6 +1044,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -1036,6 +1065,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -1056,6 +1086,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -1076,6 +1107,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -1096,6 +1128,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -1116,6 +1149,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -1136,6 +1170,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -1156,6 +1191,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -1176,6 +1212,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -1196,6 +1233,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -1216,6 +1254,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -1236,6 +1275,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -1276,6 +1316,7 @@ icon
 1
 .
 html
+fails
 =
 =
 downscale
@@ -1296,6 +1337,7 @@ html
 16
 16
 interlaced
+fails
 =
 =
 downscale
@@ -1324,6 +1366,7 @@ and
 transparent
 ICO
 images
+fails
 =
 =
 downscale
@@ -1348,6 +1391,7 @@ ff
 0RGB
 .
 ico
+fails
 =
 =
 downscale
@@ -1381,6 +1425,7 @@ negative
 height
 )
 BMP
+fails
 =
 =
 downscale
@@ -1429,6 +1474,7 @@ from
 to
 32
 .
+fails
 =
 =
 downscale
@@ -1447,6 +1493,7 @@ html
 ?
 .
 bmp
+fails
 =
 =
 downscale
@@ -1465,6 +1512,7 @@ html
 ?
 .
 gif
+fails
 =
 =
 downscale
@@ -1483,6 +1531,7 @@ html
 ?
 .
 jpg
+fails
 =
 =
 downscale
@@ -1501,6 +1550,7 @@ html
 ?
 .
 png
+fails
 =
 =
 downscale
@@ -1520,7 +1570,6 @@ html
 .
 svg
 fails
-fails
 =
 =
 downscale
@@ -1541,13 +1590,12 @@ downscale
 .
 html
 ?
-.
+-
 bmp
 -
 in
 .
 ico
-fails
 fails
 =
 =
@@ -1569,7 +1617,7 @@ downscale
 .
 html
 ?
-.
+-
 png
 -
 in
@@ -1616,6 +1664,7 @@ downscale
 1
 .
 html
+fails
 =
 =
 downscale
@@ -1636,6 +1685,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -1656,6 +1706,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -1676,6 +1727,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -1696,6 +1748,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -1716,6 +1769,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -1736,6 +1790,7 @@ html
 203
 52
 left
+fails
 =
 =
 downscale
@@ -1756,6 +1811,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -1776,6 +1832,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -1796,6 +1853,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -1816,6 +1874,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -1836,6 +1895,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -1856,6 +1916,7 @@ html
 205
 53
 left
+fails
 =
 =
 downscale
@@ -1876,6 +1937,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -1896,6 +1958,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -1916,6 +1979,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -1936,6 +2000,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -1956,6 +2021,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -1976,6 +2042,7 @@ html
 203
 52
 right
+fails
 =
 =
 downscale
@@ -1996,6 +2063,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -2016,6 +2084,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -2036,6 +2105,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -2056,6 +2126,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -2076,6 +2147,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -2096,6 +2168,7 @@ html
 205
 53
 right
+fails
 =
 =
 downscale
@@ -2116,6 +2189,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -2136,6 +2210,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -2156,6 +2231,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -2176,6 +2252,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -2196,6 +2273,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -2216,6 +2294,7 @@ html
 203
 52
 top
+fails
 =
 =
 downscale
@@ -2236,6 +2315,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -2256,6 +2336,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -2276,6 +2357,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -2296,6 +2378,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -2316,6 +2399,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -2336,6 +2420,7 @@ html
 205
 53
 top
+fails
 =
 =
 downscale
@@ -2356,6 +2441,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -2376,6 +2462,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -2396,6 +2483,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -2416,6 +2504,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -2436,6 +2525,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -2456,6 +2546,7 @@ html
 203
 52
 bottom
+fails
 =
 =
 downscale
@@ -2476,6 +2567,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -2496,6 +2588,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -2516,6 +2609,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -2536,6 +2630,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -2556,6 +2651,7 @@ html
 205
 53
 bottom
+fails
 =
 =
 downscale
@@ -2603,6 +2699,7 @@ icon
 1
 .
 html
+fails
 =
 =
 downscale
@@ -2623,6 +2720,7 @@ html
 16
 16
 interlaced
+fails
 =
 =
 downscale
@@ -2651,6 +2749,7 @@ and
 transparent
 ICO
 images
+fails
 =
 =
 downscale
@@ -2675,6 +2774,7 @@ ff
 0RGB
 .
 ico
+fails
 =
 =
 downscale
@@ -2708,6 +2808,7 @@ negative
 height
 )
 BMP
+fails
 =
 =
 downscale
@@ -2756,6 +2857,7 @@ from
 to
 32
 .
+fails
 =
 =
 downscale
@@ -2774,6 +2876,7 @@ html
 ?
 .
 bmp
+fails
 =
 =
 downscale
@@ -2792,6 +2895,7 @@ html
 ?
 .
 gif
+fails
 =
 =
 downscale
@@ -2810,6 +2914,7 @@ html
 ?
 .
 jpg
+fails
 =
 =
 downscale
@@ -2828,6 +2933,7 @@ html
 ?
 .
 png
+fails
 =
 =
 downscale
@@ -2847,7 +2953,6 @@ html
 .
 svg
 fails
-fails
 =
 =
 downscale
@@ -2868,13 +2973,12 @@ downscale
 .
 html
 ?
-.
+-
 bmp
 -
 in
 .
 ico
-fails
 fails
 =
 =
@@ -2896,7 +3000,7 @@ downscale
 .
 html
 ?
-.
+-
 png
 -
 in

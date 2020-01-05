@@ -74,6 +74,7 @@ capitalize
 5
 .
 html
+fails
 =
 =
 capitalize
@@ -413,6 +414,7 @@ smtp
 title
 .
 html
+fails
 =
 =
 turkish
@@ -455,6 +457,7 @@ turkish
 1
 .
 html
+fails
 =
 =
 greek
@@ -471,6 +474,7 @@ uppercase
 1a
 .
 html
+fails
 =
 =
 greek
@@ -487,6 +491,7 @@ uppercase
 1b
 .
 html
+fails
 =
 =
 greek
@@ -529,6 +534,7 @@ caps
 1
 .
 html
+fails
 =
 =
 irish

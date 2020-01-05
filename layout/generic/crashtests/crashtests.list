@@ -3834,12 +3834,6 @@ load
 949932
 .
 html
-skip
--
-if
-(
-stylo
-)
 asserts
 -
 if

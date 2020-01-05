@@ -312,6 +312,7 @@ zoomed
 01
 .
 xhtml
+fails
 =
 =
 clipPath
@@ -332,6 +333,7 @@ html
 01
 .
 xhtml
+fails
 =
 =
 clipPath
@@ -666,6 +668,7 @@ bound
 01
 .
 html
+fails
 =
 =
 mask
@@ -686,6 +689,7 @@ html
 01
 .
 xhtml
+fails
 =
 =
 mask
