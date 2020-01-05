@@ -818,6 +818,11 @@ PowD
 \
 _
 (
+PowV
+)
+\
+_
+(
 PowHalfD
 )
 \

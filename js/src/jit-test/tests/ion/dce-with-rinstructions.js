@@ -4229,7 +4229,7 @@ pow
 assertRecoveredOnBailout
 (
 x
-false
+true
 )
 ;
 return
