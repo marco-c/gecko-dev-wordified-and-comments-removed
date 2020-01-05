@@ -1173,8 +1173,6 @@ uint32_t
 aButton
 bool
 aPressed
-double
-aValue
 )
 ;
 void

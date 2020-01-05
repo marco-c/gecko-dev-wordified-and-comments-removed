@@ -140,6 +140,9 @@ GamepadAxisInformation
 uint32_t
 index
 ;
+GamepadServiceType
+service_type
+;
 uint32_t
 axis
 ;
@@ -153,6 +156,9 @@ GamepadButtonInformation
 {
 uint32_t
 index
+;
+GamepadServiceType
+service_type
 ;
 uint32_t
 button

@@ -637,6 +637,10 @@ GamepadButtonInformation
 a
 (
 aIndex
+GamepadServiceType
+:
+:
+Standard
 aButton
 aPressed
 aPressed
@@ -722,6 +726,10 @@ GamepadButtonInformation
 a
 (
 aIndex
+GamepadServiceType
+:
+:
+Standard
 aButton
 aPressed
 aValue
@@ -799,6 +807,10 @@ GamepadAxisInformation
 a
 (
 aIndex
+GamepadServiceType
+:
+:
+Standard
 aAxis
 aValue
 )

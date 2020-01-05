@@ -151,6 +151,8 @@ NewButtonEvent
 (
 uint32_t
 aIndex
+GamepadServiceType
+aServiceType
 uint32_t
 aButton
 bool
@@ -164,6 +166,8 @@ NewAxisMoveEvent
 (
 uint32_t
 aIndex
+GamepadServiceType
+aServiceType
 uint32_t
 aAxis
 double
