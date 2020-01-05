@@ -199,13 +199,6 @@ Contents
 /
 Resources
 endif
-ifdef
-UNIVERSAL_BINARY
-STAGEPATH
-=
-universal
-/
-endif
 endif
 PACKAGE_BASE_DIR
 =
@@ -556,9 +549,6 @@ CREATE_FINAL_TAR
 -
 -
 C
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
@@ -1542,9 +1532,6 @@ pwd
 PKG_DMG_SOURCE
 =
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 INNER_MAKE_PACKAGE
@@ -2045,9 +2032,6 @@ or
 call
 MAKE_SIGN_EME_VOUCHER
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 (
@@ -2064,9 +2048,6 @@ Contents
 /
 MacOS
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 (
@@ -2080,9 +2061,6 @@ true
 &
 (
 cd
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
@@ -2142,9 +2120,6 @@ or
 call
 MAKE_SIGN_EME_VOUCHER
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 )
@@ -2155,9 +2130,6 @@ true
 &
 (
 cd
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
@@ -2184,9 +2156,6 @@ MAKE_PACKAGE
 =
 (
 cd
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )

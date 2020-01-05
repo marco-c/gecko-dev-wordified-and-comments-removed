@@ -900,9 +900,6 @@ ap_
 -
 omnijar
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 /
@@ -929,9 +926,6 @@ lib
 -
 dirs
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 /
@@ -943,9 +937,6 @@ assets
 -
 dirs
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 /
@@ -956,9 +947,6 @@ assets
 features
 -
 dirs
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
@@ -975,9 +963,6 @@ foreach
 f
 (
 ROOT_FILES
-)
-(
-STAGEPATH
 )
 (
 MOZ_PKG_DIR
@@ -1126,9 +1111,6 @@ ap_
 -
 -
 omnijar
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )

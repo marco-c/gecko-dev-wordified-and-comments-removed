@@ -212,9 +212,6 @@ DIST
 )
 /
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 (
@@ -486,16 +483,6 @@ compression
 )
 \
 (
-addprefix
--
--
-unify
-(
-UNIFY_DIST
-)
-)
-\
-(
 MOZ_PKG_MANIFEST
 )
 (
@@ -505,9 +492,6 @@ DIST
 DIST
 )
 /
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
@@ -570,9 +554,6 @@ MOZ_PKG_DUPEFLAGS
 DIST
 )
 /
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
@@ -783,9 +764,6 @@ DIST
 )
 /
 (
-STAGEPATH
-)
-(
 MOZ_PKG_DIR
 )
 (
@@ -813,9 +791,6 @@ py
 DIST
 )
 /
-(
-STAGEPATH
-)
 (
 MOZ_PKG_DIR
 )
