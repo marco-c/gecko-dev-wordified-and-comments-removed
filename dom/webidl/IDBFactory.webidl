@@ -239,6 +239,7 @@ IDBFactory
 {
 [
 Throws
+NeedsCallerType
 ]
 IDBOpenDBRequest
 open
@@ -256,6 +257,7 @@ version
 ;
 [
 Throws
+NeedsCallerType
 ]
 IDBOpenDBRequest
 open
@@ -269,6 +271,7 @@ options
 ;
 [
 Throws
+NeedsCallerType
 ]
 IDBOpenDBRequest
 deleteDatabase
@@ -295,6 +298,7 @@ second
 [
 Throws
 ChromeOnly
+NeedsCallerType
 ]
 IDBOpenDBRequest
 openForPrincipal
@@ -315,6 +319,7 @@ version
 [
 Throws
 ChromeOnly
+NeedsCallerType
 ]
 IDBOpenDBRequest
 openForPrincipal
@@ -331,6 +336,7 @@ options
 [
 Throws
 ChromeOnly
+NeedsCallerType
 ]
 IDBOpenDBRequest
 deleteForPrincipal
