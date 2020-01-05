@@ -208,6 +208,10 @@ net_traits
 ;
 extern
 crate
+png
+;
+extern
+crate
 "
 rustc
 -

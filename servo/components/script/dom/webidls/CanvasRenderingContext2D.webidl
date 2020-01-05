@@ -120,10 +120,10 @@ html
 2dcontext
 typedef
 (
-/
-*
 HTMLImageElement
 or
+/
+*
 HTMLVideoElement
 or
 *

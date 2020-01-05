@@ -11,6 +11,14 @@ collections
 [
 feature
 (
+core
+)
+]
+#
+!
+[
+feature
+(
 std_misc
 )
 ]
