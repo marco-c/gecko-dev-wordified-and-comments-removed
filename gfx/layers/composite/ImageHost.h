@@ -365,13 +365,6 @@ const
 override
 ;
 virtual
-LayerRenderState
-GetRenderState
-(
-)
-override
-;
-virtual
 void
 PrintInfo
 (

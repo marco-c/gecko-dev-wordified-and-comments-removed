@@ -705,12 +705,6 @@ mLocked
 false
 ;
 }
-LayerRenderState
-GetRenderState
-(
-)
-override
-;
 virtual
 already_AddRefed
 <

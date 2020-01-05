@@ -239,9 +239,6 @@ class
 AsyncDragMetrics
 ;
 class
-Composer2D
-;
-class
 Compositor
 ;
 class
@@ -857,16 +854,6 @@ TabChild
 ;
 public
 :
-typedef
-mozilla
-:
-:
-layers
-:
-:
-Composer2D
-Composer2D
-;
 typedef
 mozilla
 :

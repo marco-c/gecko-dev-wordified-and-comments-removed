@@ -138,13 +138,6 @@ ImageLayerComposite
 public
 :
 virtual
-LayerRenderState
-GetRenderState
-(
-)
-override
-;
-virtual
 void
 Disconnect
 (

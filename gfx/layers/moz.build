@@ -307,13 +307,6 @@ h
 '
 opengl
 /
-Composer2D
-.
-h
-'
-'
-opengl
-/
 OGLShaderProgram
 .
 h
@@ -2453,11 +2446,6 @@ cpp
 '
 '
 LayerSorter
-.
-cpp
-'
-'
-LayersTypes
 .
 cpp
 '

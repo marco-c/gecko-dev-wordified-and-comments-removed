@@ -134,13 +134,6 @@ type
 ;
 }
 virtual
-LayerRenderState
-GetRenderState
-(
-)
-override
-;
-virtual
 bool
 SetCompositableHost
 (
