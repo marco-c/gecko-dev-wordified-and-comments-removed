@@ -58,8 +58,8 @@ data
 then
 _gapi_keyfile
 =
-/
 c
+:
 /
 builds
 /
@@ -69,8 +69,8 @@ data
 else
 _gapi_keyfile
 =
-/
 e
+:
 /
 builds
 /
@@ -103,8 +103,8 @@ api
 -
 keyfile
 =
-/
 c
+:
 /
 builds
 /
