@@ -140,6 +140,17 @@ jsval
 intlObject
 )
 ;
+[
+implicit_jscontext
+]
+void
+addGetLocaleInfo
+(
+in
+jsval
+intlObject
+)
+;
 /
 *
 *
