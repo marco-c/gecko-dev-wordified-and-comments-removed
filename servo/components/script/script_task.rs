@@ -234,15 +234,6 @@ use
 dom
 :
 :
-mouseevent
-:
-:
-MouseEvent
-;
-use
-dom
-:
-:
 node
 :
 :
