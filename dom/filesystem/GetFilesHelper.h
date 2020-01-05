@@ -188,7 +188,7 @@ mTargetBlobImplArray
 ;
 nsTHashtable
 <
-nsCStringHashKey
+nsStringHashKey
 >
 mExploredDirectories
 ;
