@@ -6,17 +6,6 @@ Set
 (
 [
 /
-defaults
-\
-/
-profile
-\
-/
-prefs
-.
-js
-/
-/
 browser
 \
 /

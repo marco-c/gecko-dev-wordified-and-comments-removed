@@ -1,4 +1,0 @@
-#
-Mozilla
-User
-Preferences
