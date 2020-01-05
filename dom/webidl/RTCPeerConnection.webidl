@@ -763,17 +763,6 @@ getRemoteStreams
 (
 )
 ;
-[
-UnsafeInPrerendering
-]
-MediaStream
-?
-getStreamById
-(
-DOMString
-streamId
-)
-;
 void
 addStream
 (
