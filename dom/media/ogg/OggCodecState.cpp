@@ -1981,12 +1981,6 @@ SetImageRect
 picture
 )
 ;
-mKeyframe_granule_shift
-=
-mTheoraInfo
-.
-keyframe_granule_shift
-;
 return
 mActive
 =
