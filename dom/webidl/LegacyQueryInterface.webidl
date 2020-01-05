@@ -188,6 +188,10 @@ Crypto
 implements
 LegacyQueryInterface
 ;
+CSSMozDocumentRule
+implements
+LegacyQueryInterface
+;
 CSSPrimitiveValue
 implements
 LegacyQueryInterface
