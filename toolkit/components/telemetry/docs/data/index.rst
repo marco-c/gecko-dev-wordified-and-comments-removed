@@ -64,6 +64,9 @@ ping
 crash
 -
 ping
+anonymous
+-
+ping
 *
 -
 ping
