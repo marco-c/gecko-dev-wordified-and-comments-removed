@@ -353,6 +353,8 @@ ifeq
 (
 CFG_OSTYPE
 )
+apple
+-
 darwin
 )
 DEPS_rust
@@ -514,7 +516,11 @@ ifeq
 (
 CFG_OSTYPE
 )
+unknown
+-
 linux
+-
+gnu
 )
 DEPS_rust
 -
