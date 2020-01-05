@@ -199,7 +199,6 @@ gfx_traits
 ScrollPolicy
 ScrollRootId
 StackingContextId
-color
 }
 ;
 use
@@ -6311,7 +6310,7 @@ SideOffsets2D
 :
 new_all_same
 (
-color
+Color
 :
 :
 rgb
@@ -6467,7 +6466,7 @@ base
 base
 color
 :
-color
+Color
 :
 :
 rgb
@@ -6593,7 +6592,7 @@ SideOffsets2D
 :
 new_all_same
 (
-color
+Color
 :
 :
 rgb
@@ -13427,7 +13426,7 @@ self
 >
 Color
 {
-color
+Color
 :
 :
 rgba
