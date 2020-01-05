@@ -806,7 +806,9 @@ debug
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -912,7 +914,9 @@ then
 =
 >
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -948,7 +952,9 @@ uninit
 "
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1020,7 +1026,9 @@ records
 )
 ;
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1280,7 +1288,9 @@ fxa
 ;
 }
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1400,7 +1410,9 @@ record
 )
 ;
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (

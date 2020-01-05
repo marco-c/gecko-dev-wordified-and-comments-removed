@@ -113,7 +113,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -824,7 +824,9 @@ let
 result
 =
 yield
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (

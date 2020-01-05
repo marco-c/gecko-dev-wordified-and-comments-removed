@@ -82,7 +82,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -1257,7 +1257,9 @@ item
 element
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

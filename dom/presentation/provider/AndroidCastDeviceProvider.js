@@ -1427,7 +1427,9 @@ TOPIC_PRESENTATION_VIEW_READY
 true
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1529,7 +1531,9 @@ CRDD_disconnect
 (
 )
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1923,7 +1927,9 @@ TOPIC_ANDROID_CAST_DEVICE_REMOVED
 return
 ;
 }
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

@@ -211,7 +211,9 @@ ReceivedPushMessageToDecode
 false
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -433,7 +435,9 @@ subscription
 =
 >
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -821,7 +825,9 @@ plaintext
 "
 "
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
