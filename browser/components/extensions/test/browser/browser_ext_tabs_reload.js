@@ -96,9 +96,8 @@ script
 head
 >
 }
+async
 background
-:
-function
 (
 )
 {
@@ -107,6 +106,10 @@ tabLoadedCount
 =
 0
 ;
+let
+tab
+=
+await
 browser
 .
 tabs
@@ -126,13 +129,7 @@ active
 true
 }
 )
-.
-then
-(
-tab
-=
->
-{
+;
 browser
 .
 runtime
@@ -228,9 +225,6 @@ reload
 ;
 }
 }
-}
-)
-;
 }
 )
 ;
