@@ -585,7 +585,13 @@ return
 true
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 nsIContentChild
 :
 :
@@ -685,7 +691,9 @@ nullptr
 ;
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

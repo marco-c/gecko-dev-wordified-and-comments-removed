@@ -279,7 +279,13 @@ mInitialColor
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 ColorPickerParent
 :
 :
@@ -305,7 +311,9 @@ mInitialColor
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 mCallback
@@ -325,7 +333,9 @@ mCallback
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 ;

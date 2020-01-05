@@ -92,7 +92,13 @@ override
 ;
 private
 :
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvRedirectNotifyResponse
 (
 const

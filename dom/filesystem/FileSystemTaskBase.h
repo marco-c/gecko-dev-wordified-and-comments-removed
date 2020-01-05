@@ -192,7 +192,13 @@ aRv
 0
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Recv__delete__
 (
 const

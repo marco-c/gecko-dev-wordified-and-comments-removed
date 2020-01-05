@@ -115,7 +115,13 @@ scopeForTargetObjects
 )
 override
 ;
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvDropTemporaryStrongReferences
 (
 const

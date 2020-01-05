@@ -82,7 +82,13 @@ GetVsyncObserver
 const
 override
 ;
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvNotifyClientSizeChanged
 (
 const

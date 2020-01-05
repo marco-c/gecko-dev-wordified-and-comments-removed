@@ -97,7 +97,13 @@ mService
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 WebSocketEventListenerParent
 :
 :
@@ -124,7 +130,9 @@ this
 ;
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

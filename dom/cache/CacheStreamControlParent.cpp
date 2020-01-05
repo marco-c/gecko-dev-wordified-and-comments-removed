@@ -398,7 +398,13 @@ mStreamList
 nullptr
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 CacheStreamControlParent
 :
 :
@@ -429,7 +435,9 @@ aId
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

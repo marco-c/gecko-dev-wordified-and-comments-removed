@@ -78,7 +78,13 @@ aWhy
 )
 {
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 FileDescriptorSetParent
 :
 :
@@ -98,7 +104,9 @@ aFileDescriptor
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

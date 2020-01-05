@@ -389,7 +389,13 @@ TestInterruptErrorCleanupChild
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 TestInterruptErrorCleanupChild
 :
 :
@@ -410,7 +416,10 @@ unreached
 )
 ;
 return
-false
+IPC_FAIL_NO_REASON
+(
+this
+)
 ;
 }
 }

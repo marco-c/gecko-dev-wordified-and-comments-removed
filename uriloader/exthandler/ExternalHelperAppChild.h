@@ -69,7 +69,13 @@ handler
 ;
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvCancel
 (
 const

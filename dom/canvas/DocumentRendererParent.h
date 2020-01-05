@@ -97,7 +97,13 @@ aWhy
 override
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Recv__delete__
 (
 const

@@ -145,7 +145,13 @@ TestCrashCleanupChild
 protected
 :
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 AnswerDIEDIEDIE
 (
 )

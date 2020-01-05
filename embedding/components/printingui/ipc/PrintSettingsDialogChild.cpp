@@ -49,7 +49,13 @@ PrintSettingsDialogChild
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 PrintSettingsDialogChild
 :
 :
@@ -119,7 +125,9 @@ mReturned
 true
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

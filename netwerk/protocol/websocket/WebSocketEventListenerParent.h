@@ -59,7 +59,13 @@ WebSocketEventListenerParent
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvClose
 (
 )

@@ -155,7 +155,13 @@ aWhy
 )
 {
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 CrashReporterParent
 :
 :
@@ -175,7 +181,9 @@ data
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 CrashReporterParent

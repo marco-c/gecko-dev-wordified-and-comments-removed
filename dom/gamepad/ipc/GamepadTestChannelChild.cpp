@@ -47,7 +47,13 @@ aPromise
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 GamepadTestChannelChild
 :
 :
@@ -114,7 +120,9 @@ aID
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

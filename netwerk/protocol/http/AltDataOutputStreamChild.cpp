@@ -552,7 +552,13 @@ return
 NS_OK
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 AltDataOutputStreamChild
 :
 :
@@ -569,7 +575,9 @@ mError
 err
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

@@ -274,7 +274,13 @@ aWhy
 )
 {
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 DocumentRendererParent
 :
 :
@@ -297,6 +303,8 @@ data
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }

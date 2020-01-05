@@ -97,7 +97,13 @@ aTimeoutMS
 ;
 protected
 :
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvTimerExpired
 (
 const

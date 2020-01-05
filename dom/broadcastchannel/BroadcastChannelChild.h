@@ -68,7 +68,13 @@ aBC
 ;
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvNotify
 (
 const

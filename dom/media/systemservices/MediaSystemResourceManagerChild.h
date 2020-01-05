@@ -102,7 +102,13 @@ aManager
 }
 protected
 :
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvResponse
 (
 const

@@ -1174,7 +1174,13 @@ mFrameLoader
 nullptr
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RenderFrameParent
 :
 :
@@ -1187,7 +1193,9 @@ TriggerRepaint
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

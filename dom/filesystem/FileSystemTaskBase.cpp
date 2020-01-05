@@ -642,7 +642,13 @@ StealNSResult
 ;
 }
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 FileSystemTaskChildBase
 :
 :
@@ -671,7 +677,9 @@ HandlerCallback
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

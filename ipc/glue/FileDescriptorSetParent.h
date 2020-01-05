@@ -125,7 +125,13 @@ aWhy
 override
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvAddFileDescriptor
 (
 const

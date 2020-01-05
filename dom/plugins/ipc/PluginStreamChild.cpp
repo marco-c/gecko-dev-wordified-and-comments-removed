@@ -59,7 +59,13 @@ this
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 PluginStreamChild
 :
 :
@@ -90,7 +96,9 @@ reason
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 int32_t

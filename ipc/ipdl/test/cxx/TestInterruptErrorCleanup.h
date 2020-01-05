@@ -154,7 +154,13 @@ TestInterruptErrorCleanupChild
 protected
 :
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 AnswerError
 (
 )

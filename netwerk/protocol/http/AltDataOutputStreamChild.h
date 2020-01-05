@@ -56,7 +56,13 @@ ReleaseIPDLReference
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvError
 (
 const

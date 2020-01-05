@@ -749,7 +749,13 @@ mResultStatus
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 DNSRequestChild
 :
 :
@@ -831,7 +837,10 @@ type
 )
 ;
 return
-false
+IPC_FAIL_NO_REASON
+(
+this
+)
 ;
 }
 MOZ_ASSERT
@@ -916,7 +925,9 @@ this
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void
