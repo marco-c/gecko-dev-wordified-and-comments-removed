@@ -9615,6 +9615,12 @@ CacheKind
 :
 GetName
 :
+case
+CacheKind
+:
+:
+BindName
+:
 MOZ_ASSERT
 (
 numInputs
@@ -9794,6 +9800,12 @@ CacheKind
 :
 :
 HasOwn
+:
+case
+CacheKind
+:
+:
+BindName
 :
 stubDataOffset
 =

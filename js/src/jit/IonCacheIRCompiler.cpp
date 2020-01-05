@@ -2355,6 +2355,12 @@ CacheKind
 :
 In
 :
+case
+CacheKind
+:
+:
+BindName
+:
 MOZ_CRASH
 (
 "
