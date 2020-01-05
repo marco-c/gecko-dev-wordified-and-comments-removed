@@ -297,11 +297,6 @@ handleStartup
 }
 }
 ;
-const
-APP_STARTUP
-=
-1
-;
 function
 startup
 (
