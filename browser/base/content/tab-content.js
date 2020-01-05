@@ -3610,6 +3610,7 @@ aDocShell
 aURI
 aReferrer
 aTriggeringPrincipal
+aLoadFlags
 )
 {
 E10SUtils
@@ -3621,6 +3622,7 @@ aURI
 aReferrer
 aTriggeringPrincipal
 true
+aLoadFlags
 )
 ;
 return

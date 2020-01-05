@@ -764,6 +764,7 @@ aURI
 aReferrer
 aTriggeringPrincipal
 aFreshProcess
+aFlags
 )
 {
 let
@@ -819,6 +820,9 @@ aURI
 spec
 flags
 :
+aFlags
+|
+|
 Ci
 .
 nsIWebNavigation

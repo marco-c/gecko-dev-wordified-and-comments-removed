@@ -338,6 +338,9 @@ aReferrer
 in
 nsIPrincipal
 aTriggeringPrincipal
+in
+uint32_t
+aLoadFlags
 )
 ;
 /
