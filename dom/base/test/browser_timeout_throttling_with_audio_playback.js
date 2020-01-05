@@ -297,6 +297,8 @@ resolve
 after
 -
 before
++
+1
 )
 ;
 }
@@ -319,7 +321,6 @@ kMinTimeoutForeground
 &
 timeout
 <
-=
 kMinTimeoutBackground
 Got
 the
