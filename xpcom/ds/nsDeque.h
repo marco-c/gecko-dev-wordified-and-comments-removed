@@ -453,6 +453,8 @@ nsDeque
 &
 aOther
 )
+=
+delete
 ;
 nsDeque
 &
@@ -464,6 +466,8 @@ nsDeque
 &
 aOther
 )
+=
+delete
 ;
 bool
 GrowCapacity
