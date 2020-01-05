@@ -351,6 +351,17 @@ localName
 [
 Throws
 ]
+Element
+?
+closest
+(
+DOMString
+selectors
+)
+;
+[
+Throws
+]
 boolean
 matches
 (
