@@ -3566,7 +3566,7 @@ GetInstance
 )
 -
 >
-Refresh
+OnAvailableLocalesChanged
 (
 )
 ;
