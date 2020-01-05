@@ -6,9 +6,7 @@ strict
 const
 {
 on
-once
 off
-emit
 }
 =
 require
@@ -38,9 +36,6 @@ heritage
 "
 )
 ;
-var
-Framerate
-=
 exports
 .
 Framerate

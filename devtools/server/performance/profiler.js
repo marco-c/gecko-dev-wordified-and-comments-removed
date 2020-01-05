@@ -741,8 +741,6 @@ getBufferInfo
 return
 {
 isActive
-:
-isActive
 currentTime
 :
 elapsedTime
@@ -1050,6 +1048,8 @@ filter
 c
 =
 >
+{
+return
 c
 .
 subscribedEvents
@@ -1058,6 +1058,8 @@ has
 (
 eventName
 )
+;
+}
 )
 ;
 for

@@ -152,9 +152,6 @@ DEFAULT_TIMELINE_DATA_PULL_TIMEOUT
 =
 200
 ;
-var
-Timeline
-=
 exports
 .
 Timeline

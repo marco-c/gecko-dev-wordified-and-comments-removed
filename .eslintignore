@@ -804,14 +804,6 @@ devtools
 /
 server
 /
-performance
-/
-*
-*
-devtools
-/
-server
-/
 tests
 /
 browser
