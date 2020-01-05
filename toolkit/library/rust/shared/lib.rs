@@ -6,3 +6,7 @@ extern
 crate
 nsstring
 ;
+extern
+crate
+rust_url_capi
+;
