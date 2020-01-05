@@ -586,6 +586,15 @@ apz
 /
 public
 /
+CompositorController
+.
+h
+'
+'
+apz
+/
+public
+/
 GeckoContentController
 .
 h

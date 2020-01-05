@@ -220,6 +220,9 @@ class
 CompositorBridgeParent
 ;
 class
+CompositorController
+;
+class
 GestureEventListener
 ;
 class
@@ -435,6 +438,14 @@ bool
 aIsFirstPaint
 bool
 aThisLayerTreeUpdated
+)
+;
+void
+SetCompositorController
+(
+CompositorController
+*
+aCompositorController
 )
 ;
 void
@@ -1154,6 +1165,12 @@ OnTouchEndOrCancel
 ;
 uint64_t
 mLayersId
+;
+RefPtr
+<
+CompositorController
+>
+mCompositorController
 ;
 RefPtr
 <
