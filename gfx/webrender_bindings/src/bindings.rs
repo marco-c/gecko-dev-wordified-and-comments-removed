@@ -660,7 +660,7 @@ len
 [
 repr
 (
-C
+u32
 )
 ]
 pub
@@ -1497,7 +1497,7 @@ left
 [
 repr
 (
-C
+u32
 )
 ]
 pub
